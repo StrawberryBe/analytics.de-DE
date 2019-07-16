@@ -5,7 +5,7 @@ seo-title: Übersicht über die Beitragsanalyse
 title: Übersicht über die Beitragsanalyse
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
+source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
 
 ---
 
@@ -50,7 +50,7 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie kann ich den Zugriff auf die Beitragsanalyse beschränken?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Sie sollten die Beitragsanalyse nur für Benutzer bereitstellen, die einen legitimen Grund haben, sie zu verwenden, und als vertrauenswürdig eingestuft werden, um den Zugriff nicht zu verhindern. </p> <p>Die Berechtigung lautet „Beitragsanalyse“. Sie finden Sie unter <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Sie sollten die Beitragsanalyse nur für Benutzer bereitstellen, die einen legitimen Grund haben, sie zu verwenden, und als vertrauenswürdig eingestuft werden, um den Zugriff nicht zu verhindern. </p> <p>Die Berechtigung lautet „Beitragsanalyse“. Sie finden Sie unter <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben?</b> </p> </td> 
