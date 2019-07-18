@@ -5,7 +5,7 @@ seo-title: Vorlagen
 title: Vorlagen
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an
 [Standardvorlagen im Analysis Workspace auf youtube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Hier finden Sie Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten:
-
-### Werbung
-
-* **Seach Engines**: Diese Vorlage unterteilt Werbetrends, Anzeigenplattformsummen, Suchbegriffe und mehr. **Hinweis:** Ihre ausgewählte Report Suite muss für die Advertising Cloud aktiviert sein, damit dieses Vorlagenprojekt angezeigt wird.
-
-## Commerce
-
-* **Magento: Marketing und Commerce**: Diese Vorlage unterteilt Ihre E-Commerce-Konvertierung nach Marketingkanalzuordnung und bietet einen Einblick nach Keyword, Landingpage, geografischer Position und mehr.
 
 ### Medien
 
