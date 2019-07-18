@@ -4,7 +4,7 @@ seo-title: Labs für Adobe Analytics
 description: Vorschau von Prototypprojekten für Adobe Analytics
 seo-description: Vorschau von Prototypen für Adobe Analytics
 translation-type: tm+mt
-source-git-commit: caea9c6fe37292212e6fccb5cf99770fa9a60d06
+source-git-commit: 20bb6b39530c57679463691e7507353aff2d106e
 
 ---
 
