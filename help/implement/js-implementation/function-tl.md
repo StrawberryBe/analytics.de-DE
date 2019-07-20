@@ -32,7 +32,7 @@ Bei Bedarf können Links dieser Typen manuell verfolgt werden, indem benutzerspe
 
 Das erste Argument sollte immer entweder auf „this“ (Standardeinstellung) oder „true“ festgelegt werden. Das Argument verweist auf das Objekt, auf das geklickt wird. Wenn „this“ festgelegt ist, bezieht es sich auf die HREF-Eigenschaft des Links.
 
-Wenn Sie Linktracking für ein Objekt implementieren, das keine HREF-Eigenschaft besitzt, sollten Sie dieses Argument immer auf &quot;this&quot; setzen.
+Wenn Sie Linktracking für ein Objekt implementieren, das keine HREF-Eigenschaft besitzt, sollten Sie dieses Argument immer auf "this" setzen.
 
 Da das Klicken auf einen Link oft zum Verlassen der aktuellen Seite führt, wird durch eine Verzögerung von 500 ms sichergestellt, dass eine Bildanforderung an Adobe gesendet wird, bevor der Besucher die Seite verlässt. Diese Verzögerung ist nur beim Verlassen der Seite erforderlich, jedoch ist sie für gewöhnlich vorhanden, wenn die s.tl()-Funktion aufgerufen wird. Wenn Sie die Verzögerung deaktivieren möchten, übergeben Sie beim Aufrufen der s.tl()-Funktion das Keyword „true“ als ersten Parameter.
 
@@ -44,9 +44,9 @@ Bei „linkType“ sind drei Werte möglich, je nachdem, welcher Typ von Link er
 
 | Typ | linkType-Wert |
 |--- |--- |
-| Dateidownloads | &#39;d&#39; |
-| Exitlinks | &#39;e&#39; |
-| Benutzerspezifische Links | &#39;o&#39; |
+| Dateidownloads | 'd' |
+| Exitlinks | 'e' |
+| Benutzerspezifische Links | 'o' |
 
 **linkName**
 
@@ -141,7 +141,7 @@ Das folgende Beispiel zeigt den Basis-Code zur Verfolgung eines Links mithilfe v
 
 >[!NOTE]
 >
->Wenn der Parameter für den Linknamen nicht definiert ist, wird die URL des Links (anhand des &quot;this&quot; -Objekts ermittelt) als Linkname verwendet.
+>Wenn der Parameter für den Linknamen nicht definiert ist, wird die URL des Links (anhand des "this" -Objekts ermittelt) als Linkname verwendet.
 
 [!DNL Analytics]-Variablen können als Teil des benutzerspezifischen Linkcodes definiert werden.
 
@@ -250,7 +250,7 @@ In JavaScript H.25.4 (im Februar 2013 veröffentlicht) wurden die folgenden Eins
 
 * `<A>` und `<AREA>` Tags.
 * Das Tag muss über ein `HREF`-Attribut verfügen.
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## Linktracking mithilfe einer Bildanforderung {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -313,7 +313,7 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-Die Variable *`linkTrackVars`*soll alle Variablen enthalten, die Sie bei jedem Dateidownload, Exitlink und benutzerspezifischen Link verfolgen möchten. The *`linkTrackEvents`* parameter should include each event you want to track with every file download, exit link, and custom link. Wenn auf einen Link dieser Typen geklickt wird, wird der aktuelle Wert der einzelnen Variablen als nachverfolgt identifiziert.
+Die Variable *`linkTrackVars`* soll alle Variablen enthalten, die Sie bei jedem Dateidownload, Exitlink und benutzerspezifischen Link verfolgen möchten. The *`linkTrackEvents`* parameter should include each event you want to track with every file download, exit link, and custom link. Wenn auf einen Link dieser Typen geklickt wird, wird der aktuelle Wert der einzelnen Variablen als nachverfolgt identifiziert.
 
 Wenn zum Beispiel „prop1“, „eVar1“ und „event1“ bei jedem Dateidownload, Exitlink und benutzerspezifischen Link verfolgt werden sollen, verwenden Sie die folgenden Einstellungen in der globalen JS-Datei:
 
@@ -354,7 +354,7 @@ The values of *`linkTrackVars`* and *`linkTrackEvents`* override the settings in
 
 >[!NOTE]
 >
->Im obigen Beispiel wird der Wert für &quot;prop 1&quot; im benutzerspezifischen Linkcode selbst festgelegt. Der Wert für „prop2“ stammt aus dem aktuellen Wert, den die Variable auf der Seite hat.
+>Im obigen Beispiel wird der Wert für "prop 1" im benutzerspezifischen Linkcode selbst festgelegt. Der Wert für „prop2“ stammt aus dem aktuellen Wert, den die Variable auf der Seite hat.
 
 ## Verwendung von Funktionsaufrufen mit benutzerspezifischem Linkcode {#concept_DB662C93B3ED415DB72C80270502BE5D}
 
