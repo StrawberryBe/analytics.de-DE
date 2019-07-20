@@ -1,0 +1,82 @@
+---
+description: Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
+keywords: Virtual Report Suite
+seo-description: Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
+seo-title: Häufig gestellte Fragen zu VRS
+solution: Analytics
+title: Häufig gestellte Fragen zu VRS
+topic: Reports and Analytics
+uuid: 91225743-765 a -4145-9 ce 5-4268 e 80 ea 7 e 8
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# Häufig gestellte Fragen zu VRS
+
+Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
+
+<table id="table_4D9DE70984674B65AD7D40E3D1479CD2"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Frage </th> 
+   <th colname="col2" class="entry"> Antwort </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Sollte ich meine Implementierung von mehreren Report Suites auf eine einzige globale Report Suite umstellen und dann Virtual Report Suites verwenden, um verschiedene Datensegmente für meine Benutzer verfügbar zu machen?</b> </td> 
+   <td colname="col2"> <p>Eventuell. Es gibt bestimmte Umstände, unter denen Sie <b>weiterhin mit einzelnen Report Suites arbeiten sollten</b>: </p> 
+    <ul id="ul_493454A655DE48E0AF94130014203268"> 
+     <li id="li_B37C2651D2804FD1B965286C85A765D5">Wenn Sie Variablen/Dimensionen mit einer großen Anzahl individueller Werte haben, kann die Konsolidierung in einer einzigen Report Suite dazu führen, dass in dieser globalen Suite die monatlichen Grenzen für individuelle Werte überschritten werden, was eine Kürzung zur Folge hat („Geringer Datenverkehr“ als Zeilenelement in Berichten). </li> 
+     <li id="li_87ABC62EC73D4355A9F768AD1949D3C6">Wenn Sie für einzelne Segmente Ihrer Daten Berichte mit Echtzeit- oder aktuellen Daten benötigen (z. B. Marken, Geschäftsbereiche usw.) </li> 
+     <li id="li_7252787B2D4C4756836DAEA0EEC0BF8B">Wenn Ihre verschiedenen Report Suites jeweils spezifische Tracking-Anforderungen haben (d. h., wenn diese Adobe Analytics-Variablen und -Ereignisse sehr unterschiedlich verwenden), müssen Sie bedenken, dass Sie mit einer konsolidierten globalen Report Suite keine zusätzlichen Variablen oder Ereignisse für das Tracking benutzen können. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>Welche Einstellungen erben Virtual Report Suites von der übergeordneten Report Suite? </b> </td> 
+   <td colname="col2"> <p>Eine Virtual Report Suite (VRS) erbt die meisten Service-Levels der übergeordneten Report Suite, wie die eVar-Einstellungen, Verarbeitungsregeln, Classifications usw. </p> <p>Die folgenden Einstellungen werden <b>NICHT</b> vererbt: </p> 
+    <ul id="ul_43B0637F095C480B82126C96BFF627FA"> 
+     <li id="li_F3DF9D6B0B1A4A46B9D8B1CF2DA09BE3">Report Suite-ID </li> 
+     <li id="li_A735D7BA4DA14DCB8F40D7898A324F1F">Name der Report Suite </li> 
+     <li id="li_BF66DD426EE7464CBF7F2EB56B0C3075">Berechtigungsgruppen (Virtual Report Suites können eigenen Berechtigungsgruppen zugewiesen werden.) </li> 
+    </ul> <p>Hinweis: Dies betrifft nicht die meisten von Benutzern erstellten Entitäten, wie Lesezeichen, Dashboards, terminierte Berichte usw.Diese Elemente werden nicht von der übergeordneten Report Suite geerbt und können spezifisch für die VRS erstellt und verwendet werden (weitere Einzelheiten liefert die Antwort auf die nächste Frage). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>Wie unterscheidet sich das Arbeiten mit einer Virtual Report Suite in der Analytics-Benutzeroberfläche von dem mit einer Basis-Report Suite?</b> </td> 
+   <td colname="col2"> <p>Nachdem sie erstellt wurde, wird eine Virtual Report Suite auf der Benutzeroberfläche genauso behandelt wie eine Basis-Report Suite und unterstützt die meisten erweiterten Funktionen. Beispiel: </p> 
+    <ul id="ul_D20435FD9B3546DFB611FD09035BACBB"> 
+     <li id="li_4A331EB50B7F43E697F67B4A657B4450">Virtual Report Suites werden in der Report Suite-Auswahl angezeigt und können, genau wie Basis-Report Suites, einzeln ausgewählt werden. </li> 
+     <li id="li_6E8C1E45C68943A1BA7C260FA62C40E0">DL-Berichte, Lesezeichen, Dashboards, Zielgruppen, Warnhinweise, Segmente, berechnete Metriken usw. können für eine Virtual Report Suite erstellt werden und verhalten sich unabhängig von der übergeordneten Report Suite. </li> 
+     <li id="li_5701D7F60BF8452CBEC8DFA2072CE8C2">Virtual Report Suites können, genau wie jede andere Report Suite, einzeln zu Berechtigungsgruppen hinzugefügt werden. </li> 
+     <li id="li_764475FD352C434D92E876E30699F280">Beim Ausführen von Berichten für VRS können weiterhin Segmente angewendet werden. Diese werden automatisch mit den Segmenten der Virtual Report Suite gestapelt, wenn die Berichtdaten abgerufen werden. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>Wie werden Virtual Report Suites in der Admin Console und der Admin-API behandelt? Kann ich Features wie für Basis-Report Suites speichern? </b> </td> 
+   <td colname="col2"> <p>Nein, Virtual Report Suites werden <b>für die meisten Admin-Features nicht unterstützt</b>. Wie oben bereits erwähnt, erbt eine VRS die meisten Service-Levels und Features von der übergeordneten Report Suite (z. B. eVar-Einstellungen, Verarbeitungsregeln, Classifications usw.). Daher können diese geerbten Einstellungen einer VRS nur geändert werden, indem die übergeordnete Report Suite geändert wird. </p> <p>Demzufolge werden Virtual Report Suites auf der Benutzeroberfläche <b>nur hier</b> angezeigt: </p> 
+    <ul id="ul_64CF126ACF39453A95BD9FC9D2CFA59B"> 
+     <li id="li_08EBF87ADF13400C9DD3FFC2695F5CF9">im Virtual Report Suite Manager, in dem Sie VRS erstellen und bearbeiten. <p>( <span class="ignoretag"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Komponenten</span> &gt; <span class="uicontrol">Virtual Report Suites </span> </span>) </p> </li> 
+     <li id="li_E2B3F61A3013402697DCF6E0D32A62DC"> in der Benutzerverwaltung, in der Sie die benutzerspezifischen Berechtigungsgruppen bearbeiten So können VRS-Konten zu einer Berechtigungsgruppe hinzugefügt werden. Oder sie werden verwendet, um eine Gruppe zu erstellen, die ausschließlich Zugriff auf Virtual Report Suites hat (wenn der Administrator den Zugriff auf die übergeordnete Report Suite verweigern und nur den Zugriff auf bestimmte Segmente erlauben möchte). <p>( <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung </span> </span>) </p> </li> 
+    </ul> <p>Hinweis: Wenn Sie die Web-Services-API verwenden und versuchen, Feature-Einstellungen für eine VRS zu speichern, führt dies zu einem Ausnahmefehler. Features können nur für die Basis-Report Suites festgelegt werden. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>Werden Virtual Report Suites in der Benutzeroberfläche von SiteCatalyst 14 unterstützt?</b> </td> 
+   <td colname="col2"> <p>Nein, Virtual Report Suites sind in SiteCatalyst 14 nicht zugänglich. Sie werden in der Report Suite-Auswahl nicht angezeigt und können nicht ausgewählt werden. Virtual Report Suites sind jedoch in der Admin Console von SiteCatalyst 14 verfügbar, wenn Sie eine Gruppe bearbeiten. In diesem speziellen Fall müssen Virtual Report Suites angezeigt werden, damit sie nicht versehentlich aus einer bereits vorhandenen Gruppe entfernt werden, die bereits Zugriff auf eine oder mehrere Virtual Report Suites besitzt. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b> Ich habe „Bei Start neuen Besuch beginnen“ ausgewählt. Warum sehe ich nach wie vor wesentlich mehr Besuche als Starts?</b> </td> 
+   <td colname="col2"> <p> Wenn die Option <span class="uicontrol">Bei Start neuen Besuch beginnen</span> aktiviert wird, gilt der Timeout nach wie vor. Wenn ein Benutzer also eine App zehn Minuten lang mit einminütigen Pausen zwischen den einzelnen Aktionen verwendet, beginnt bei jedem Besuch ein neuer Start und dann werden neun zusätzliche Besuche erstellt, wenn es beim aktuellen Besuch zu einem Timeout kommt. Damit Starts und Besuche bei der Verwendung der Option <span class="uicontrol">Bei Start neuen Besuch beginnen</span> so nahe beieinander sind wie möglich, sollten Sie einen längeren Timeout als den im SDK festgelegten Sitzungstimeout verwenden. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b> Ich habe „Bei Start neuen Besuch beginnen“ festgelegt und einen längeren als den in meinem SDK festgelegten Timeout eingestellt. Warum habe ich immer noch wesentlich weniger Starts als Besuche?</b> </td> 
+   <td colname="col2"> <p> Wenn der Timeout höher als der im SDK festgelegte Wert ist, versendet Ihre App höchstwahrscheinlich im Hintergrund Treffer und diese Treffer werden als neue Besuche aufgezeichnet. Dies können Sie prüfen, indem Sie die Dimension „Art des Treffers“ auf die übergeordnete Report Suite anwenden, um festzustellen, ob es Hintergrund-Treffer gibt. </p> <p> <p>Hinweis: Zwischen Hintergrund- und Vordergrundtreffern wird nur in Version 4.13.6 und späteren Versionen des SDK unterschieden. Wenn Sie eine frühere Version verwenden, werden alle Treffer als Vordergrundtreffer angezeigt. Wenn Sie die korrekte Version des SDK verwenden, sollten Sie die Einstellung <span class="uicontrol">„Starten neuer Besuche durch Hintergrundtreffer verhindern“</span> festlegen. </p> </p> <p> <p>Hinweis: Wenn Sie die veraltete Verarbeitung von Hintergrundtreffern in der Admin Console deaktiviert haben, werden diese nicht in der übergeordneten Report Suite, sondern in der Virtual Report Suite angezeigt. </p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>Welche Version des SDK benötige ich, um Hintergrundtreffer zu verfolgen?</b> </td> 
+   <td colname="col2"> <p> Sie müssen Version 4.13.6 oder eine spätere Version des SDK verwenden. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
