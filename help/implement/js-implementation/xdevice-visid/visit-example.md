@@ -26,7 +26,7 @@ Beispiel mit einer Reihe von Server-Aufrufen, die bei einer gewöhnlichen Kunden
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Ein Besucher klickt auf einen Link in einer Marketing-E-Mail und gelangt so von seinem privaten Computer aus auf Ihre Website. Dieser Besucher hat Ihre Website zuvor bereits 7 Mal besucht. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Er ruft 7 weitere Seiten auf Ihrer Website auf. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Authentifiziert sich auf privatem Computer. | 1 | CID1 | CID1 | 9 <br>This is CID1&#39;s first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
+| 9 | Authentifiziert sich auf privatem Computer. | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
 | 10 | Besucht eine weitere Seite. | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | Öffnet Ihre Website auf seinem Laptop im Büro. Dieser Besucher hat Ihre Website zuvor nicht mithilfe dieses Geräts besucht. | 2 | - | 2 | 1 | 1 |
 | 12 | Authentifiziert sich auf Laptop. | 2 | CID1 | CID1 | 1 | 9 |
