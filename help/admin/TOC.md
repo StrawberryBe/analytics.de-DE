@@ -84,7 +84,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Serverseitige Weiterleitungsdaten und Code-Referenz](admin/c-server-side-forwarding/ssf-reference.md)
       + [Überprüfen der Implementierung Ihrer serverseitigen Weiterleitung](admin/c-server-side-forwarding/ssf-verify.md)
       + [Häufig gestellte Fragen zur serverseitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
-   + [Vereinfachtes Menü &quot;Berichte «](admin/t-simplified-menu.md)
+   + [Vereinfachtes Menü "Berichte «](admin/t-simplified-menu.md)
    + [Social-Verwaltung](admin/social-management.md)
    + Erfolgsereignisse {#success-events}
       + [Übersicht über Erfolgsereignisse](admin/c-success-events/success-event.md)
