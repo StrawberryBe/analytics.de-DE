@@ -38,8 +38,8 @@ Um einer Freiform-Tabelle des Arbeitsbereichs mehrere Metriken hinzuzufügen, zi
 
 1. Wenn Sie diese berechnete Metrik bereits erstellt haben, suchen Sie sie unter Metriken und ziehen Sie sie auf den Arbeitsbereich.
 2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
-3. Geben Sie den Titel &quot;Seitenansichten pro Besuch&quot; und eine Beschreibung ein, falls gewünscht.
-4. Legen Sie das Format auf &quot;Dezimal&quot; fest und legen Sie die Anzahl der Dezimalstellen auf 2 fest.
+3. Geben Sie den Titel "Seitenansichten pro Besuch" und eine Beschreibung ein, falls gewünscht.
+4. Legen Sie das Format auf "Dezimal" fest und legen Sie die Anzahl der Dezimalstellen auf 2 fest.
 5. Drag the **Page views** metric and **Visits** metric into the definition area.
 6. Arrange the definition so the formula is **Page Views divided by Visits**.
 
