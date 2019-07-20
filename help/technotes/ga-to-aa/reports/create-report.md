@@ -33,11 +33,11 @@ Erstellen Sie einen Bericht Alle Seiten (ähnlich wie in Google Analytics), inde
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 2. Klicken Sie oben rechts auf das 9-quadratische Symbol und dann auf das farbige Analytics-Logo.
 3. Klicken Sie in der oberen Navigationsleiste auf Arbeitsbereich.
-4. Klicken Sie auf die Schaltfläche &quot;Neues Projekt erstellen&quot; .
-5. Stellen Sie im modalen Popup sicher, dass &quot;Leeres Projekt&quot; ausgewählt ist, und klicken Sie dann auf Erstellen.
-6. Auf der linken Seite wird eine Liste von Dimensionen, Metriken, Segmenten und Datumsbereichen angezeigt. Suchen Sie die Dimension &quot;Seiten&quot; (orange) und ziehen Sie sie auf die Arbeitsfläche mit der Bezeichnung&quot; Dimension hier ablegen&quot; .
+4. Klicken Sie auf die Schaltfläche "Neues Projekt erstellen" .
+5. Stellen Sie im modalen Popup sicher, dass "Leeres Projekt" ausgewählt ist, und klicken Sie dann auf Erstellen.
+6. Auf der linken Seite wird eine Liste von Dimensionen, Metriken, Segmenten und Datumsbereichen angezeigt. Suchen Sie die Dimension "Seiten" (orange) und ziehen Sie sie auf die Arbeitsfläche mit der Bezeichnung" Dimension hier ablegen" .
 7. Ein Bericht, der die Top-Seiten für diesen Monat anzeigt, kann angezeigt werden. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
-8. Eine Tabelle in Google Analytics enthält normalerweise 7-8 Metriken. Suchen Sie die Metrik &quot;Absprungrate&quot; (farbig grün) und ziehen Sie sie neben der Kopfzeile&quot; Vorfälle&quot; . Wenn Sie die Metrik &quot;Absprungrate&quot; neben&quot; Vorfälle&quot; ziehen, werden beide Metriken nebeneinander angezeigt.
+8. Eine Tabelle in Google Analytics enthält normalerweise 7-8 Metriken. Suchen Sie die Metrik "Absprungrate" (farbig grün) und ziehen Sie sie neben der Kopfzeile" Vorfälle" . Wenn Sie die Metrik "Absprungrate" neben" Vorfälle" ziehen, werden beide Metriken nebeneinander angezeigt.
 9. Viele Metriken können nebeneinander platziert werden, indem Metriken neben vorhandenen Metriküberschriften gezogen werden. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
 
    ![Neue Metrik](../assets/new_metric.png)
@@ -46,8 +46,8 @@ Erstellen Sie einen Bericht Alle Seiten (ähnlich wie in Google Analytics), inde
 
 Erstellen Sie die Vorlage für den Inhaltsgebrauch (ähnlich wie beim Bericht Alle Seiten in Google Analytics) durch Zugriff auf eine Projektvorlage.
 
-1. Klicken Sie auf die Schaltfläche &quot;Neues Projekt erstellen&quot; .
-2. Doppelklicken Sie auf das Symbol &quot;Inhaltskonsum (Web)&quot; unter&quot; Alle Vorlagen&quot; .
+1. Klicken Sie auf die Schaltfläche "Neues Projekt erstellen" .
+2. Doppelklicken Sie auf das Symbol "Inhaltskonsum (Web)" unter" Alle Vorlagen" .
 3. Durchsuchen Sie alle Visualisierungen, die vorgefertigt wurden: Einstiegsseitenfluss, Tabelle Top-Seiten, Ausstiegsseitenfluss, Abschnittsfluss für Einsendung und Top-Site-Abschnitte.
 
    ![Vorlagenauswahl](../assets/content_consumption_template.png)
@@ -56,7 +56,7 @@ Erstellen Sie die Vorlage für den Inhaltsgebrauch (ähnlich wie beim Bericht Al
 
 Da Analysis Workspace ein Berichterstellungswerkzeug ist, hat es keine Auswirkung auf die Datenerfassung. Es gibt keine Auswirkungen auf die inkrementelle Ziehen von Komponenten in ein Projekt, um zu sehen, was funktioniert. Ziehen Sie verschiedene Kombinationen von Dimensionen und Metriken in Ihr Arbeitsflächenprojekt, um zu sehen, was für Sie zur Verfügung steht.
 
-Wenn Sie versehentlich eine ungültige Komponente in Ihr Arbeitsflächenprojekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg + Z (Windows) oder Cmd + Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+Wenn Sie versehentlich eine ungültige Komponente in Ihr Arbeitsflächenprojekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg + Z (Windows) oder Cmd + Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 Adobe hat im Arbeitsbereich für Analysen im rechten Klick auf Kontextmenü viele Funktionen platziert. Die meisten Visualisierungen und Komponenten können mit der rechten Maustaste geklickt werden, um eine detailliertere Analyse und Interaktion zu ermöglichen. Im Arbeitsbereich können Sie mit der rechten Maustaste auf Komponenten klicken, um zu sehen, welche Optionen verfügbar sind.
 
