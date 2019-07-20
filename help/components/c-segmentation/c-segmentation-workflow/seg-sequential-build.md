@@ -73,7 +73,7 @@ Durch einen ,Innerhalb von Dimension‘-Satz zwischen Regeln kann ein Segment Da
 | Wenn Ergebnis… | Sequenz |
 |--- |--- |
 | Stimmt überein | A, dann B |
-| Stimmt nicht überein mit | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, &quot;A then B&quot; and &quot;A then C then B&quot; would both match. |
+| Stimmt nicht überein mit | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
 ## Einfache Seitenansichtssequenz
 
@@ -179,7 +179,7 @@ Segmentregeln beinhalten alle Daten, es sei denn, Sie schließen mithilfe der Re
 
 Beispiel:
 
-* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite gleich &quot;Homepage&quot; ist, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
+* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite gleich "Homepage" ist, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
 * **Schließen Sie die Referrerdomäne aus**. Verwenden Sie eine Regel, die nur Referrerdomänen aus „Google.com“ einschließt und alle anderen Domänen ausschließt.
 * **Identifizieren Sie Nicht-Käufer**. Bestimmen Sie, wann Bestellungen größer als null sind, und schließen Sie dann den [!UICONTROL Besucher] aus.
 
