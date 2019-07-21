@@ -78,7 +78,7 @@ Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Si
 1. Click **[!UICONTROL Add Dashboard]**.
 1. Geben Sie einen Namen für das Dashboard ein.
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
-1.  Konfigurieren der Dashboard-Seite: 
+1. Konfigurieren der Dashboard-Seite: 
 
    * **[!UICONTROL Seite hinzufügen]**: Fügt dem Dashboard eine leere Seite hinzu, auf die Sie Inhalte ziehen können, um Reportlets zu erstellen.
    * **[!UICONTROL Papier]**: Ermöglicht das Festlegen eines Papierformats, wie z. B. Querformat, Hochformat oder A4.

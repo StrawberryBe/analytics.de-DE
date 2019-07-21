@@ -10,8 +10,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 ---
 
 
-# ID-Erweiterung
-#
+# ID-Erweiterung #
 
 Die IDs, die Sie einsenden, decken nicht immer alle Hit-Daten ab, die Analytics dem Datensubjekt zuordnen kann. Analytics kann eine erweiterte ID-Gruppe erstellen, um diese zugehörigen Daten zu den DSGVO-Anfragen hinzuzufügen. Mit einem optionalen Parameter, der zur JSON-Anfrage hinzugefügt wird, können Sie diese Option für jede eingereichte DSGVO-Anfrage anfordern:
 
@@ -46,8 +45,7 @@ Wenn Sie für eine Löschanfrage, bei der keine ID-Erweiterung verwendet wird, e
 
 Wenn Adobe eine ID-Erweiterung durchführt, kann ein zusätzlicher vollständiger Datenscan erforderlich sein, was die Zeit, die Adobe benötigt, um die Anfrage abzuschließen, erhöht, wodurch die Verarbeitungszeit oft um eine Woche verlängert wird.
 
-## Andere GDPR-Anforderungsflags
-##
+## Andere GDPR-Anforderungsflags ##
 
 Zusätzlich zur Markierung „expandIDs“ unterstützt Analytics zwei weitere Markierungen, die als Teil einer DSGVO-Anfrage übergeben werden können. Diese Markierungen und ihre Standardwerte sind:
 

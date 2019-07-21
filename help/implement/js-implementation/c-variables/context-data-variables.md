@@ -26,16 +26,12 @@ Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die D
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->
-```>
+>```>
 >and 
 >
->
-```>
+>```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
-
-
 
 Durch Einsatz von Kontextdaten brauchen Sie keine Codeaktualisierungen mehr durchzuführen, um unterschiedliche Report Suite-Konfigurationen zu unterstützen.
 
