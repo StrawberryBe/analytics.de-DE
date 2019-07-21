@@ -41,7 +41,7 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
    ![](assets/info.png)
 
-1. Wählen Sie mindestens eine Variable aus, indem Sie das entsprechende Kontrollkästchen aktivieren, und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten](rechts), um sie zu bearbeiten.**
+1. Wählen Sie mindestens eine Variable aus, indem Sie das entsprechende Kontrollkästchen aktivieren, und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten] (rechts), um sie zu bearbeiten.**
 
    ![](assets/edit.png)
 
