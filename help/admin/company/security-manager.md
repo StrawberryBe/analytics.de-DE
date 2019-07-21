@@ -44,23 +44,23 @@ Ermöglicht das Steuern des Zugriffs auf Berichterstellungsdaten. Zu den Optione
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP-Anmeldebeschränkungen erzwingen</span> </td> 
-   <td colname="col2"> <p>Schränkt den Berichtzugriff auf bestimmte IP-Adressen oder IP-Adressenbereiche ein. </p> <p>Sie können der Liste „IP-Adressenfilter“ bis zu 100 Einträge hinzufügen. Bei jedem Eintrag kann es sich um eine bestimmte Adresse oder einen Adressbereich handeln. </p> <p>  Die Funktion <span class="wintitle">IP-Anmeldebeschränkungen erzwingen</span> wird nur erzwungen, wenn sich in der Liste „IP-Adressenfilter“ mindestens ein Eintrag befindet. </p> <p> <span class="uicontrol"> Akzeptierte IP-Adresse</span>: Um einen IP-Adressbereich anzugeben, fügen Sie den Bereich in eckigen Klammern an (z. B. <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> <p>Fehlgeschlagene Anmeldeversuche werden protokolliert und können im <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Nutzungs- und Zugriffsprotokoll</a> angezeigt werden. </p> </td> 
+   <td colname="col2"> <p>Schränkt den Berichtzugriff auf bestimmte IP-Adressen oder IP-Adressenbereiche ein. </p> <p>Sie können der Liste „IP-Adressenfilter“ bis zu 100 Einträge hinzufügen. Bei jedem Eintrag kann es sich um eine bestimmte Adresse oder einen Adressbereich handeln. </p> <p>Die Funktion <span class="wintitle">IP-Anmeldebeschränkungen erzwingen</span> wird nur erzwungen, wenn sich in der Liste „IP-Adressenfilter“ mindestens ein Eintrag befindet.</p> <p><span class="uicontrol"> Akzeptierte IP-Adresse</span>: Um einen IP-Adressbereich anzugeben, fügen Sie den Bereich in eckigen Klammern an (z. B.
+       <code>
+        192.168.10.[20-240]
+       </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+       <code>
+        192.168.[10-14].*
+       </code>) </p> <p>Fehlgeschlagene Anmeldeversuche werden protokolliert und können im <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Nutzungs- und Zugriffsprotokoll</a> angezeigt werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> E-Mail-Domänenbeschränkungen erzwingen</span> </td> 
-   <td colname="col2"> <p>Filtert die E-Mail-Adressen und Domänen, an die Analytics Lesezeichen, herunterladbare Berichte und Warnhinweise sendet. </p> <p>Die E-Mail-Filterliste kann bis zu 100 Einträge lang sein. Jeder einzelne Eintrag steht für eine E-Mail-Adresse oder eine gesamte E-Mail-Domäne. </p> <p>Wenn ein terminierter Bericht als Zieladresse eine nicht genehmigte E-Mail-Adresse aufweist, versendet Analytics eine E-Mail-Benachrichtigung zu diesem Problem sowie einen Link zur Aufhebung der Berichtsplanung. </p> <p>  Die Funktion <span class="wintitle">Erzwingen der E-Mail-Domänenbeschränkungen</span> wird nur erzwungen, wenn sich in der Liste <span class="wintitle">Akzeptierter E-Mail-Domänenfilter</span> mindestens ein Eintrag befindet. </p> <p> <span class="uicontrol"> Akzeptierte E-Mail-Adresse und Domänen</span>: Um einen IP-Adressbereich anzugeben, fügen Sie den Bereich in eckigen Klammern an (z. B. <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> </td> 
+   <td colname="col2"> <p>Filtert die E-Mail-Adressen und Domänen, an die Analytics Lesezeichen, herunterladbare Berichte und Warnhinweise sendet. </p> <p>Die E-Mail-Filterliste kann bis zu 100 Einträge lang sein. Jeder einzelne Eintrag steht für eine E-Mail-Adresse oder eine gesamte E-Mail-Domäne. </p> <p>Wenn ein terminierter Bericht als Zieladresse eine nicht genehmigte E-Mail-Adresse aufweist, versendet Analytics eine E-Mail-Benachrichtigung zu diesem Problem sowie einen Link zur Aufhebung der Berichtsplanung. </p> <p>  Die Funktion <span class="wintitle">Erzwingen der E-Mail-Domänenbeschränkungen</span> wird nur erzwungen, wenn sich in der Liste <span class="wintitle">Akzeptierter E-Mail-Domänenfilter</span> mindestens ein Eintrag befindet. </p> <p> <span class="uicontrol"> Akzeptierte E-Mail-Adresse und Domänen</span>: Um einen IP-Adressbereich anzugeben, fügen Sie den Bereich in eckigen Klammern an (z. B.
+       <code>
+        192.168.10.[20-240]
+       </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+       <code>
+        192.168.[10-14].*
+       </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Benachrichtigung über Passwortwiederherstellung</span> </td> 
