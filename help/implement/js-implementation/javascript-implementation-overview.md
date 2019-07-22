@@ -41,7 +41,7 @@ Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Imple
   <tr> 
    <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col1"> Laden Sie AppMeasurement für JavaScript und den Besucher-ID-Service herunter. </td> 
-   <td colname="col2"> <p>Der Download ist im <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=code_manager_admin" format="http" scope="external">Code-Manager</a> verfügbar . </p> <p>Die ZIP-Datei zum Download enthält mehrere Dateien. <code> AppMeasurement.js </code> und <code> VisitorAPI.js </code> sind zum Implementieren von Analytics relevant. </p> </td> 
+   <td colname="col2"> <p>Der Download ist im <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=code_manager_admin" format="http" scope="external"> Code-Manager </a> verfügbar. </p> <p>Die ZIP-Datei zum Download enthält mehrere Dateien. <code> AppMeasurement.js </code> und <code> VisitorAPI.js </code> sind zum Implementieren von Analytics relevant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
@@ -50,9 +50,9 @@ Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Imple
     <draft-comment> 
      <p>Fügen Sie am Anfang der Datei <code> VisitorAPI.js </code> den folgenden Besucher-ID-Initialisierungscode hinzu: </p> 
      <code class="syntax javascript">
-     var visitor = Visitor.getinstance("INSERT-MCORG-ID-HERE"); visitor.trackingServer = "INSERT-TRACKING-SERVER-HERE"; // gleichen wie s.trackingServer visitor.trackingServerSecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s.trackingServerSecure /* == DO NOT ALTER ANYTHING BELOW THIS LINE ==
-</code>
-  
+     var visitor = Visitor.getinstance("INSERT-MCORG-ID-HERE");
+     visitor.trackingServer = "INSERT-TRACKING-SERVER-HERE"; // gleichen wie s.trackingServer visitor.trackingServerSecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s.trackingServerSecure /* == DO NOT ALTER ANYTHING BELOW THIS LINE ==
+     </code> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (Erforderlich) Diese Adobe Experience Cloud-Organisations-ID wird an Ihren Administrator gesendet, wenn Ihr Unternehmen für die Adobe Experience Cloud bereitgestellt wird. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE" </code> - (Erforderlich) Ihr Analytics-Trackingserver. </li> 
@@ -63,7 +63,7 @@ Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Imple
   <tr> 
    <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
    <td colname="col1"> Aktualisieren Sie <code> AppMeasurement.js </code>. </td> 
-   <td colname="col2"> <p>Kopieren Sie den <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local">Beispielcode für AppMeasurement.js</a>, und fügen Sie ihn am Anfang der Datei <code> AppMeasurement.js </code> ein. Aktualisieren Sie mindestens die folgenden Variablen: </p> 
+   <td colname="col2"> <p>Kopieren Sie den <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local"> Beispielcode für AppMeasurement.js</a>, und fügen Sie ihn am Anfang der Datei <code> AppMeasurement.js </code> ein. Aktualisieren Sie mindestens die folgenden Variablen: </p> 
     <ul id="ul_62FA640BD2604E589650A92158272615"> 
      <li id="li_54E56B483B3A416EA27D7B540D60E39F"> <code> s.account="INSERT-RSID-HERE" </code> </li> 
      <li id="li_00A958289BB045379B436F13287E03D5"> <code> s.trackingServer="INSERT-TRACKING-SERVER-HERE" </code> </li> 
