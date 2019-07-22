@@ -5,7 +5,7 @@ seo-title: Vorlagen
 title: Vorlagen
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an
 
 Hier finden Sie Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten:
 
+### Werbung
+
+>[!IMPORTANT]
+>
+>Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für die Advertising Cloud aktiviert ist.
+
+* **Suchmaschinen**: Diese Vorlage unterteilt Werbetrends, Anzeigenplattformen, Suchbegriffe, Konten, Kampagnen und vieles mehr.
+
+### Commerce
+
+* **Magento: Marketing und Commerce**: Diese Vorlage unterteilt Ihre E-Commerce-Konvertierung nach Marketingkanalzuordnung und bietet einen Einblick nach Keyword, Landingpage, geografischer Position und mehr. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### Medien
 
-* **Inhaltskonsum**: Welche Inhalte werden am häufigsten konsumiert und werden Benutzer einbinden?
+* **Audiokonsum**: Welche Inhalte werden am häufigsten konsumiert und werden Benutzer einbinden?
 * **Neuigkeit - Häufigkeit - Loyalität**: Wer sind meine treuen Leser?
 
 ### Mobil
