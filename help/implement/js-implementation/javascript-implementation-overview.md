@@ -41,27 +41,29 @@ Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Imple
   <tr> 
    <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
    <td colname="col1"> Laden Sie AppMeasurement für JavaScript und den Besucher-ID-Service herunter. </td> 
-   <td colname="col2"> <p>Der Download ist im <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=code_manager_admin" format="http" scope="external">Code-Manager</a> verfügbar . </p> <p>Die ZIP-Datei zum Download enthält mehrere Dateien. <code> AppMeasurement.js</code> und <code>VisitorAPI.js</code> sind zum Implementieren von Analytics relevant. </p> </td> 
+   <td colname="col2"> <p>Der Download ist im <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=code_manager_admin" format="http" scope="external">Code-Manager</a> verfügbar . </p> <p>Die ZIP-Datei zum Download enthält mehrere Dateien. <code> AppMeasurement.js </code> und <code> VisitorAPI.js </code> sind zum Implementieren von Analytics relevant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> Richten Sie den Identitätsdienst ein. </td> 
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
-     <p>Fügen Sie am Anfang der Datei <code>VisitorAPI.js</code> den folgenden Besucher-ID-Initialisierungscode hinzu: </p> 
-     <code class="syntax javascript">var visitor = Visitor. getinstance ("INSERT-MCORG-ID-HERE"); visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // gleichen wie s. trackingserver visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s. trackingserversecure/* = = DO NOT ALTER ANYTHING BELOW THIS LINE = = </code>
+     <p>Fügen Sie am Anfang der Datei <code> VisitorAPI.js </code> den folgenden Besucher-ID-Initialisierungscode hinzu: </p> 
+     <code class="syntax javascript">
+     var visitor = Visitor.getinstance("INSERT-MCORG-ID-HERE"); visitor.trackingServer = "INSERT-TRACKING-SERVER-HERE"; // gleichen wie s.trackingServer visitor.trackingServerSecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s.trackingServerSecure /* == DO NOT ALTER ANYTHING BELOW THIS LINE ==
+</code>
   
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (Erforderlich) Diese Adobe Experience Cloud-Organisations-ID wird an Ihren Administrator gesendet, wenn Ihr Unternehmen für die Adobe Experience Cloud bereitgestellt wird. </li> 
-      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> (Erforderlich): Ihr Analytics-Trackingserver. </li> 
-      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code> – (Erforderlich, wenn SSL aktiviert ist) Ihr sicherer Analytics-Trackingserver. </li> 
+      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE" </code> - (Erforderlich) Ihr Analytics-Trackingserver. </li> 
+      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE" </code> – (Erforderlich, wenn SSL aktiviert ist) Ihr sicherer Analytics-Trackingserver. </li> 
      </ul> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
-   <td colname="col1"> Aktualisieren Sie <code>AppMeasurement.js </code>. </td> 
-   <td colname="col2"> <p>Kopieren Sie den <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local">Beispielcode für AppMeasurement.js</a>, und fügen Sie ihn am Anfang der Datei <code>AppMeasurement.js</code> ein. Aktualisieren Sie mindestens die folgenden Variablen: </p> 
+   <td colname="col1"> Aktualisieren Sie <code> AppMeasurement.js </code>. </td> 
+   <td colname="col2"> <p>Kopieren Sie den <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local">Beispielcode für AppMeasurement.js</a>, und fügen Sie ihn am Anfang der Datei <code> AppMeasurement.js </code> ein. Aktualisieren Sie mindestens die folgenden Variablen: </p> 
     <ul id="ul_62FA640BD2604E589650A92158272615"> 
      <li id="li_54E56B483B3A416EA27D7B540D60E39F"> <code> s.account="INSERT-RSID-HERE" </code> </li> 
      <li id="li_00A958289BB045379B436F13287E03D5"> <code> s.trackingServer="INSERT-TRACKING-SERVER-HERE" </code> </li> 
@@ -71,22 +73,22 @@ Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Imple
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Definieren Sie einen Host für <code>AppMeasurement.js</code> und <code>VisitorAPI.js </code>. </td> 
+   <td colname="col1"> Definieren Sie einen Host für <code> AppMeasurement.js </code> und <code> VisitorAPI.js </code>. </td> 
    <td colname="col2"> <p>Diese Core-JavaScript-Dateien müssen auf einem Webserver gehostet werden, der für alle Seiten Ihrer Website zugänglich ist. Für den nächsten Schritt benötigen Sie den Pfad zu den Dateien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
-   <td colname="col1"> Verweisen Sie auf allen Seiten der Website auf <code>AppMeasurement.js</code> und <code>VisitorAPI.js</code>. </td> 
-   <td colname="col2"> <p> Integrieren Sie den Besucher-ID-Service, indem Sie dem Tag <code>&lt;head&gt;</code> oder &lt;body&gt; auf jeder Seite die folgende Codezeile hinzufügen. <code> VisitorAPI.js</code> muss vor <code>AppMeasurement.js</code> integriert werden : </p> 
-    <code class="syntax html">&lt; script language = "javascript" type = "text/javascript" src = "https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js" &gt; &lt;/script &gt; </code>
-  <p> Integrieren Sie den AppMeasurement für JavaScript, in dem Sie dem Tag <code>&lt;head&gt;</code> oder <code>&lt;body&gt;</code> auf jeder Seite die folgende Codezeile hinzufügen: </p> 
-    <code class="syntax html">&lt; script language = "javascript" type = "text/javascript" src = "https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js" &gt; &lt;/script &gt; </code>
+   <td colname="col1"> Verweisen Sie auf allen Seiten der Website auf <code> AppMeasurement.js </code> und <code> VisitorAPI.js </code>. </td> 
+   <td colname="col2"> <p> Integrieren Sie den Besucher-ID-Service, indem Sie dem Tag <code> &lt;head&gt; </code> oder &lt;body&gt; auf jeder Seite die folgende Codezeile hinzufügen. <code> VisitorAPI.js </code> muss vor <code> AppMeasurement.js </code> integriert werden : </p> 
+    <code class="syntax html"> &lt;script language="javascript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"&gt;&lt;/script &gt; </code>
+  <p> Integrieren Sie den AppMeasurement für JavaScript, in dem Sie dem Tag <code> &lt;head&gt; </code> oder <code> &lt;body&gt; </code> auf jeder Seite die folgende Codezeile hinzufügen: </p> 
+    <code class="syntax html"> &lt;script language="javascript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"&gt;&lt;/script&gt; </code>
   </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step6_icon.png" id="image_1C4293CA98F04EE2ADA69EAB95BDE8B1" /> </td> 
    <td colname="col1"> Aktualisieren Sie den Seiten-Code, und stellen Sie ihn bereit. </td> 
-   <td colname="col2"> <p>Kopieren Sie den <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_042412C29CC249E298F19B2BC2F43CE7" format="dita" scope="local">Beispiel-Seiten-Code</a>, und fügen Sie ihn auf den nachzuverfolgenden Seiten direkt nach dem öffnenden <code>&lt;body&gt;</code>-Tag ein. Aktualisieren Sie mindestens die folgenden Variablen: </p> 
+   <td colname="col2"> <p>Kopieren Sie den <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_042412C29CC249E298F19B2BC2F43CE7" format="dita" scope="local">Beispiel-Seiten-Code</a>, und fügen Sie ihn auf den nachzuverfolgenden Seiten direkt nach dem öffnenden <code> &lt;body&gt; </code> -Tag ein. Aktualisieren Sie mindestens die folgenden Variablen: </p> 
     <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
      <li id="li_FB24D2CB9241401A83BD13EE342A7810"> <code> var s=s_gi("INSERT-RSID-HERE") </code> </li> 
      <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <code> s.pageName="INSERT-NAME-HERE" // for example, s.pageName=document.title </code> </li> 

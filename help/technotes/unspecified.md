@@ -21,7 +21,7 @@ Verschiedene Berichte in Adobe Analytics können abhängig vom angezeigten spezi
 * **Ein Ereignis wird ohne Konversionsvariable ausgelöst:** Beispiel: Ein Benutzer besucht Ihre Site und kauft einen Kauf ohne evar 1-Wert ein. Wenn Sie Bestellungen mit der evar 1-Dimension anzeigen, gibt es keinen Wert, dem diese Bestellung zugeordnet wird. Daher wird es automatisch "Nicht angegeben" zugeordnet.
 * **Unklassifizierte Daten in Classification-Berichten:** Wenn Sie Classification-Daten anzeigen, wird für alle Werte, denen keine Daten mit dieser Classification zugeordnet sind, „Nicht angegeben“ aufgeführt. Um dieses Problem zu beheben, klassifizieren Sie den Wert der übergeordneten Variablen.
 * **Unterteilungsberichte, bei denen nur eine Variable ausgelöst wurde:** Wenn Sie eine Aufschlüsselung auf eine Variable anwenden, muss jede Instanz dieser Variablen berücksichtigt werden. Wenn die zweite Variable nicht angezeigt wurde, lautet der Dimensionswert "Nicht angegeben" .
-* **Nicht-Mobiltreffer in Mobilberichten:** Alle Nicht mobilen Treffer in Mobilberichten werden als "Nicht angegeben" (" Nicht angegeben" in Reports &amp; Analysen) aufgeführt.
+* **Nicht-Mobiltreffer in Mobilberichten:** Alle Nicht mobilen Treffer in Mobilberichten werden als "Nicht angegeben" ("Nicht angegeben" in Reports &amp; Analysen) aufgeführt.
 
 ## " Sonstige" in Berichten
 
