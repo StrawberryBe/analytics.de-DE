@@ -8,7 +8,7 @@ title: Berichte und Report Suites
 topic: Entwickler und Implementierung
 uuid: 288203 f 6-cd 13-4 e 01-9950-2 c 7 e 5 cfb 8 a 17
 translation-type: tm+mt
-source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
 
@@ -43,8 +43,8 @@ Mit [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analyt
 
 <p class="head"> <b>Siehe auch</b> </p>
 
-* [Hilfe zum Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* Hilfe zu [Reports and Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)
+* [Hilfe zum Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Reports &amp; Analysen](/help/analyze/reports-analytics/overview/report-overview.md)
 * [Echtzeitberichte](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * Hilfe zu [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/)
 * [Datenextrahierungen](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
@@ -53,8 +53,8 @@ Mit [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analyt
 * [Analytics – Produktvergleich und Voraussetzungen](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [Berichtbeschreibungen](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [Dashboards und Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
-* [Lesezeichen](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
-* [Virtual Report Suites](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [Anomalieerkennung](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
-* [Beitragsanalyse](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [Lesezeichen](/help/analyze/reports-analytics/bookmarks.md)
+* [Virtual Report Suites](/help/components/vrs/vrs-about.md)
+* [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
