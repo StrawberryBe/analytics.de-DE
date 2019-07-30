@@ -9,22 +9,17 @@ title: Übersicht über Variablen
 topic: Entwickler und Implementierung
 uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # Übersicht über Variablen
 
-Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. So ist zum Beispiel der Wert der Variablen „pageName“ der Name der Webseite, auf die sich der Bericht bezieht. In diesem Abschnitt werden die Variablen aufgeführt, die von AppMeasurement unterstützt werden.
+Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. So ist zum Beispiel der Wert der Variablen „pageName“ der Name der Webseite, auf die sich der Bericht bezieht. In diesem Abschnitt werden die Variablen aufgelistet, die von appmeasurement unterstützt werden.
 
-Eine Liste mit Informationen dazu, wie die einzelnen Variablen in Analytics-Berichten angezeigt werden, finden Sie unter [Variablen – Verwendung in den Berichten](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions).
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Festlegen von Variablen {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
