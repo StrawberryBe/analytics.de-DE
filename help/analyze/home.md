@@ -4,7 +4,7 @@ seo-title: Analytics Analyze-Hilfe
 description: 'null '
 seo-description: 'null '
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 Dieses Handbuch enthält alle Analysewerkzeuge, die Sie in Adobe Analytics verwenden können. In erster Linie bietet er eine umfassende Dokumentation zu Analysis Workspace, dem Premier-Analyse- und Visualisierungstool für Analytics.
 
-## Schlüssel analysieren
+## Artikel zu Schlüsselanalysen-Tools
 
 * [Analysis Workspace - Erste Schritte](analysis-workspace/home.md)
 * [Erste Schritte mit Reportbuilder](report-builder/home.md)
