@@ -4,14 +4,14 @@ seo-title: Vollständige Liste der Adobe Analytics-Benutzerhandbücher und der B
 description: Analytics-Benutzerhandbücher und -ressourcen
 seo-description: Vollständige Liste der technischen Dokumente von Adobe Analytics, Versionshinweise und Benutzerhandbücher für die Selbsthilfe.
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Dokumentation zu Adobe Analytics
 
-[![Analyse](assets/analyze_50px.png)](/help/analyze/home.md)der Analyse -[Analytics-Tools](/help/analyze/home.md) - Funktionen alle Analysewerkzeuge, die Sie in Adobe Analytics verwenden können. In erster Linie bietet er eine umfassende Dokumentation zu Analysis Workspace, dem Premier-Analyse- und Visualisierungstool für Analytics.
+[![Tools](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics-Tools -](/help/analyze/home.md) Funktionen alle Analysewerkzeuge, die Sie in Adobe Analytics verwenden können. In erster Linie bietet er eine umfassende Dokumentation zu Analysis Workspace, dem Premier-Analyse- und Visualisierungstool für Analytics.
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md) [Administrationshandbuch](/help/admin/home.md) - Administrationsaufgaben zum Konfigurieren von Report Suites, Datenverwaltung, Serveraufrufen und mehr.
 
