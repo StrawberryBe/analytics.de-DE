@@ -7,18 +7,26 @@ title: Datenanforderung planen
 topic: ReportBuilder
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# Datenanforderung planen
+# Arbeitsmappe planen
 
-Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateiformate planen.
+Sie können Arbeitsmappen planen, erweiterte Bereitstellungsoptionen festlegen, Empfänger angeben und den Planverlauf anzeigen. Mit erweiterten Auslieferungsoptionen können Sie Arbeitsmappen konfigurieren, die Sie zu einem bestimmten Zeitpunkt oder in Intervallen senden möchten. Sie können auch das Dateiformat angeben, in dem die Arbeitsmappe gesendet werden soll.
 
-**So planen Sie eine Datenanforderung**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. Die Dateigröße ist für einen Bericht-Upload auf 5 MB begrenzt.
 
-1. Erzeugen Sie einen Bericht und speichern Sie ihn.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Siehe [Berichtsplanung und -verteilung](/help/analyze/reports-analytics/scheduling.md) in der Hilfe zu Reports &amp; Analysen.)
+
+>[!NOTE]
+>
+>Zum Planen einer Arbeitsmappe muss Excel 2007 oder das Compatibility Pack installiert sein. Pro Reportbuilder-Lizenz können maximal 10 geplante Arbeitsmappen verwendet werden. Jedoch können Sie diese Zahl erhöhen, indem Sie bei anderen Lizenzen die benötigte Menge an Arbeitsmappen wegnehmen. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Eine Arbeitsmappe, die geplant (oder in die Arbeitsmappen-Bibliothek hochgeladen) wurde und in über 28 Monaten nicht weiter verwendet (aktualisiert, ersetzt) wurde, wird gelöscht.
+
+**So planen Sie eine Arbeitsmappe**
+
+1. Erstellen und speichern Sie eine Arbeitsmappe.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    Die Registerkarte „[!UICONTROL Terminierte Berichte]“ enthält eine Zusammenfassung aller von Ihnen erstellten Aufgaben sowie die Anzahl der verbleibenden Aufgaben.
@@ -29,7 +37,7 @@ Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateifo
 
 1. Konfigurieren Sie im Fenster [!UICONTROL Planungs-Assistent – Grundlegend] die folgenden Optionen:
 
-* **Bericht auswählen**: Der Name des Berichts. Bei neuen terminierten Berichten erscheint in diesem Feld automatisch der Name der aktiven Arbeitsmappe.
+* **Bericht auswählen**: Der Name der Arbeitsmappe. Bei neuen geplanten Arbeitsmappen wird dieses Feld mit dem aktiven Arbeitsmappennamen ausgefüllt.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateifo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Senden an: E-Mail </p> </td> 
-   <td colname="col2"> <p>Die E-Mail-Adresse des Berichtempfängers. </p> </td> 
+   <td colname="col2"> <p>Der E-Mail-Empfänger der Arbeitsmappe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Senden an: Veröffentlichungsliste </p> </td> 
@@ -73,7 +81,7 @@ Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateifo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeitplan </p> </td> 
-   <td colname="col2"> <p>  Hier können Sie angeben, wann der Bericht gesendet werden soll (sofort, stündlich, täglich, wöchentlich oder jährlich). </p> </td> 
+   <td colname="col2"> <p> Hier können Sie angeben, wann die Arbeitsmappe gesendet werden soll. (sofort, stündlich, täglich, wöchentlich oder jährlich). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateifo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeitpunkt der Bereitstellung </p> </td> 
-   <td colname="col2"> <p>Hier können Sie eine sofortige oder spätere Auslieferung des Berichts planen. Die Uhrzeit entspricht der Zeitzoneneinstellung auf Ihrem Computer. </p> </td> 
+   <td colname="col2"> <p>Sie können die Arbeitsmappe sofort oder für einen späteren Zeitpunkt planen. Die Uhrzeit entspricht der Zeitzoneneinstellung auf Ihrem Computer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wiederholungsmuster </p> </td> 
-   <td colname="col2"> <p>Hiermit wird der Bericht entsprechend Ihrer Auswahl gesendet. </p> </td> 
+   <td colname="col2"> <p>Sendet die Arbeitsmappe auf Grundlage Ihrer Auswahl. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bereich der Wiederholung </p> </td> 
-   <td colname="col2"> <p>Hier geben Sie an, wann der Empfang des Berichts beginnen und enden soll. </p> <p> <p>Hinweis: Wenn Sie einen Bericht für den ersten Tag eines bestimmten Zeitraums (Woche, Monat, Quartal oder Jahr) planen, werden nur Daten für den ersten Tag zurückgegeben. </p> </p> </td> 
+   <td colname="col2"> <p>Hier können Sie angeben, wann der Empfang der Arbeitsmappe beginnen und enden soll. </p> <p> <p>Hinweis: Beim Planen einer Arbeitsmappe am ersten Tag eines aktuellen Zeitraums (Woche, Monat, Quartal oder Jahr) werden nur Daten für den ersten Tag zurückgegeben. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registerkarte <b>Dateioptionen</b> </p> </td> 
@@ -118,7 +126,7 @@ Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateifo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Veröffentlichungsliste </p> </td> 
-   <td colname="col2"> <p> Wenn Sie den terminierten Bericht an mehrere Veröffentlichungslisten gleichzeitig senden, wird der Bericht jeweils einmal pro Liste ausgeführt. Variable Report Suites werden durch die Report Suite ersetzt, die der Veröffentlichungsliste zugeordnet ist. </p> </td> 
+   <td colname="col2"> <p> Wenn Sie die geplante Arbeitsmappe an mehrere Veröffentlichungslisten senden, wird die Arbeitsmappe einmal pro Liste ausgeführt. Variable Report Suites werden durch die Report Suite ersetzt, die der Veröffentlichungsliste zugeordnet ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sprache des Dateiinhalts </p> </td> 
@@ -146,4 +154,5 @@ Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateifo
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   ReportBuilder zeigt den terminierten Bericht im [Manager für geplante Aufgaben](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31) an.
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
