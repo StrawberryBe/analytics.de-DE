@@ -5,7 +5,7 @@ seo-title: Kundenattribute
 title: Kundenattribute
 uuid: a 8340 b 83-d 7 ba -46 fe-bb 20-b 546 cdf 375 b 8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Kundenattribute werden in einer neuen Art von Element namens „VisAttr“ gespeichert, das als Dimension oder Metrik konfiguriert werden kann. 
 
-Weitere Informationen rund um das Hochladen von Kundenattributen finden Sie in der [Experience Cloud-Hilfe](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+Weitere Informationen rund um das Hochladen von Kundenattributen finden Sie in der [Experience Cloud-Hilfe](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html).
 
 * Wenn VisAttr als Metrik konfiguriert ist, wird es sowohl als „Dimension“ als auch als „Metrik“ offengelegt.
 
