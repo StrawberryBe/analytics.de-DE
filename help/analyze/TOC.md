@@ -117,7 +117,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Einschränkungen des Analysis Workspace](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + Hilfe zu [Adobe Report Builder](report-builder/home.md)
+   + [Adobe Report Builder](report-builder/home.md)
    + [Neue Funktionen in Reportbuilder](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Systemanforderungen](report-builder/setup/system-requirements.md)
@@ -268,7 +268,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Adobe Analytics - Schlüsselkonzepte](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Über die Datenkollektion](reports-analytics/overview/overview-data-collection.md)
-      + Menü [Berichte](reports-analytics/overview/reports-menu.md)
+      + [Berichte](reports-analytics/overview/reports-menu.md)
       + [Berichtsfunktionen](reports-analytics/overview/report-overview.md)
       + [Häufig verwendete Begriffe](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics für iOS](reports-analytics/overview/app-ios.md)
@@ -294,7 +294,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Data Warehouse-Anforderungen](reports-analytics/data-warehouse.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis  {#ad-hoc-analysis}
++ Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Übersicht über Ad-hoc-Analysen - Projektkonverter](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad-hoc-Analysen konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
