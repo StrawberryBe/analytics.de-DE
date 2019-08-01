@@ -1,0 +1,133 @@
+---
+description: Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-Integrationsprozess.
+seo-description: Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-Integrationsprozess.
+seo-title: Ausführen des Data Connectors-Integrationsassistenten
+title: Ausführen des Data Connectors-Integrationsassistenten
+uuid: 387 ac 9 d 0-3719-49 ff -81 cb -1 f 05 accf 9 b 6 c
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+
+---
+
+
+# Running the Data Connectors Integration Wizard{#running-the-data-connectors-integration-wizard}
+
+Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-Integrationsprozess.
+
+Konfigurieren der Integration:
+
+1. Melden Sie sich bei der Marketing Cloud an.
+1. Klicken Sie auf der Homepage von Analytics auf das Symbol Data Connectors™ im Windrad oder in der Symbolleiste.
+1. Wählen Sie auf der Data Connectors-Seite die Report Suite aus, in der Sie die Integration konfigurieren möchten.
+
+   >[!NOTE]
+   >
+   >Make sure that you select the desired report suite from the **Report Suite** drop-down list in the upper-left corner of the Data Connectors page.
+
+1. Click the **Alphabetical** tab at the top of the **Partner List** on the left side of the Data Connectors UI, then locate the **Delivra** icon.
+1. Drag the **Delivra** icon to an empty plug-in slot in your Analytics report suite to launch the Data Connectors Integration Wizard.
+1. On the Delivra Integration introduction page, review the text, then select the check box to accept the fees associated with the integration, then click **Next**.
+
+   Auf dieser Seite erhalten Sie einen Überblick über die Integration sowie praktische Links für weitere Informationen. Mit dieser Integration sind sowohl Adobe- als auch Delivra-Gebühren verbunden. Wenden Sie sich an die jeweiligen Verkaufsmitarbeiter der beiden Unternehmen und versichern Sie sich, dass Sie die Zusammensetzung der Gebühren verstehen.
+1. Geben Sie auf jeder Seite des Data Connectors-Integrationsassistenten die erforderlichen Informationen ein, wie in der folgenden Tabelle beschrieben:
+
+<table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 
+ <thead> 
+  <tr valign="top"> 
+   <th colname="col1" valign="top" align="left" class="entry"> <p><b>ASSISTENT #</b> </p> </th> 
+   <th colname="col2" class="entry"> <p><b>FELD</b> </p> </th> 
+   <th colname="col3" class="entry"> <p><b>BESCHREIBUNG</b> </p> </th> 
+  </tr>
+ </thead>
+ <tbody> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col2" valign="top" align="left"> <p>Integrationsname </p> </td> 
+   <td colname="col3"> <p>Geben Sie den Integrationsnamen an, den Data Connectors in der aktiven Integrationsliste der Report Suite anzeigt. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col2"> <p>Integrations-E-Mail-Adresse </p> </td> 
+   <td colname="col3"> <p>Specify the email address that receives all notifications related to this integration, then click <b>Next</b> to proceed to Step 2 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>2 </p> </td> 
+   <td colname="col2"> <p>Konto-ID </p> </td> 
+   <td colname="col3"> <p>Specify your Delivra Account ID (the unique identifier assigned to your organization by Delivra), then click <b>Next</b> to proceed to Step 3 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col2"> <p>Nachrichten-ID </p> </td> 
+   <td colname="col3"> <p>Identifizieren Sie die Analytics-evar, die zum Verfolgen der E-Email-Nachrichten-ID verwendet wird. </p> <p>Die Nachrichten-ID wird für Marketing-/Remarketing-Kampagnen verwendet. Die Nachrichten-ID wird häufig als "Rückverfolgungscode" bezeichnet. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col3"> <p>Identifizieren Sie die Analytics-evar, die zum Verfolgen der E-Email-Empfänger-ID verwendet wird. </p> <p>Die Empfänger-ID wird für Marketing-/Remarketing-Kampagnen verwendet. Die Nachrichten-ID wird häufig als "Besuchercode" bezeichnet. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col2"> <p>Kontrollkästchen </p> </td> 
+   <td colname="col3"> <p>Überprüfen Sie die Informationen neben dem Kontrollkästchen "Angenommen" : </p> <p><i>Ich bin mir bewusst, dass diese Funktion durch Aktivierung der "Empfänger-ID" -Verfolgung persönlich identifizierbare Informationen unserer Site-Besucher verfolgt. This has privacy implications requiring the implementation of appropriate procedures by my organization, such as providing notice to, and consent of, our site visitors. </i> </p> <p>If you agree to the acceptance statement, select the check box, then click <b>Next</b> to proceed to Step 4 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>4 </p> </td> 
+   <td colname="col2"> <p>Client-definierte Report Suite-Segmente </p> </td> 
+   <td colname="col3"> <p>Mit dieser Integration werden die partnerdefinierten Segmente erstellt, die auf der linken Seite der Seite Integrationssegmente des Integrationsassistenten angezeigt werden. </p> <p>Darüber hinaus können Sie vorhandene Segmente auf Report Suite-Ebene auswählen, die in die Integration einbezogen werden sollen. </p> <p>Select the desired segments on the right side of the page, then click <b>Next</b> to proceed to Step 5 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>5 </p> </td> 
+   <td colname="col2"> <p>Angeklickt </p> </td> 
+   <td colname="col3"> <p>Geben Sie das Analytics-Ereignis an, das die per E-Email angeklickten Daten speichert, die aus dem E-Email-System importiert wurden. </p> <p>Mit dem Ereignis "Angeklickt" können Sie erkennen, wie viele Besucher auf die E-Email geklickt haben. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>5 </p> </td> 
+   <td colname="col2"> <p>Geöffnet </p> </td> 
+   <td colname="col3"> <p>Geben Sie das Analytics-Ereignis an, das die per E-Email geöffneten Daten speichert, die aus dem E-Email-System importiert wurden. </p> <p>Mit dem Ereignis "Geöffnet" können Sie erkennen, wie viele Besucher die E-Email geöffnet haben. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>5 </p> </td> 
+   <td colname="col2"> <p>Gesendet </p> </td> 
+   <td colname="col3"> <p>Geben Sie das Analytics-Ereignis an, das die per E-Email versandten Daten speichert, die aus dem E-Email-System importiert wurden. </p> <p>Mit dem Ereignis "Angeklickt" können Sie die Anzahl der gesendeten E-Email-Nachrichten anzeigen. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>5 </p> </td> 
+   <td colname="col2"> <p>Absprünge insgesamt </p> </td> 
+   <td colname="col3"> <p>Geben Sie das Analytics-Ereignis an, das die aus dem E-Email-System importierten Gesamt-Absprünge-Daten speichert. </p> <p>Das Ereignis "Total-Bounces" zeigt die Anzahl der E-Email-Nachrichten an, die aufgrund eines Problems mit der Auslieferung nicht an Empfänger übermittelt wurden. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>5 </p> </td> 
+   <td colname="col2"> <p>Abonnement </p> </td> 
+   <td colname="col3"> <p>Geben Sie das Analytics-Ereignis an, das die vom E-Email-System importierten Daten zum Abonnieren von Abonnements speichert. </p> <p>Mit dem nicht abonnierten Ereignis können Sie die Anzahl der Besucher anzeigen, die die E-Email-Nachricht geöffnet haben, dann aber auf den Link Abonnieren klicken, um zukünftige E-Email-Nachrichten aus Ihrer Organisation abzuwählen. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>5 </p> </td> 
+   <td colname="col2"> „Teilen“-Klicks </td> 
+   <td colname="col3"> <p>Specify the number of times the email message was shared to a social network, then click <b>Next</b> to proceed to Step 6 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>6 </p> </td> 
+   <td colname="col2"> <p>Datenerfassung: Javascript-Plug-in </p> </td> 
+   <td colname="col3"> <p>Select <b>JavaScript Plug-in</b> if you want to use the plug-in as the collection model for this integration, then click <b>Next</b> to proceed to Step 7 of the Wizard. </p> <p> <p>Hinweis: Die Standardlösung ist die automatisierte Lösung. </p> </p> <p>Wenden Sie sich an Ihren Adobe-Berater, um eine Kopie des für diese Integration verwendeten javascript-Plug-ins zu erhalten. You can also copy and paste the plug-in contained in <a href="delivra-plug-in-code.md#concept_28E7C834A6804A949AA9306F8896B36E" type="concept" format="dita" scope="local"> Analytics Plug-In Code</a>. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>6 </p> </td> 
+   <td colname="col2"> <p>Datenerfassung: Automatisierte Lösung </p> </td> 
+   <td colname="col3"> <p>Select <b>Automated Solution</b> if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration. </p> <p> <p>Hinweis: Die Standardlösung ist die automatisierte Lösung. </p> </p> <p>Wenn Sie diese Option auswählen, geben Sie die eindeutigen ids für diese Integration an: </p> <p><b>Nachrichten-ID Abfragezeichenfolgenparameter:</b>Dieser Wert stellt die Nachrichten-ID dar, die Ihr E-Email-Partner an die URL der Einstiegsseite angehängt hat. </p> <p><b>Empfänger-ID Abfragezeichenfolgenparameter:</b> Dieser Wert stellt die Empfänger-ID dar, die Ihr E-Email-Partner an die URL der Einstiegsseite angehängt hat. </p> <p>Click <b>Next</b> to proceed to Step 7 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>7 </p> </td> 
+   <td colname="col2"> <p>Integrationszusammenfassung </p> </td> 
+   <td colname="col3"> <p>Verify the integration parameters by clicking the plus sign (+) next to each category, then click <b>Save</b> to proceed to Step 8 of the Wizard. </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td colname="col1"> <p>8 </p> </td> 
+   <td colname="col2"> <p>Integration abgeschlossen </p> </td> 
+   <td colname="col3"> <p>Click <b>Finish</b> to complete the integration. </p> <p><b>WICHTIG:</b> Die Integrationseinstellungen werden von Analytics erst gespeichert, wenn Sie auf <b>Fertigstellen klicken</b>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
