@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: e80e921e03331a2762ebbffade0fa4dfc1206e8a
 
 ---
 
@@ -18,6 +18,6 @@ source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
 Überprüfen Sie die folgenden Informationen zu dieser Data Connectors-Integration im Zusammenhang mit Datran:
 
 * **Gültiges Datumskonto:** Zur Verwendung der Data Connectors-E-Email-Integration muss ein Kunde über ein gültiges Datran-Konto verfügen.
-* ** Aktueller Kunde von Datran: ** Für diese Integration müssen Sie ein Kunde von Adobe und Datran sein. Wenn Sie aktuell kein Kunde von Datran sind, verfügen Sie nicht über die erforderlichen Informationen, um den Integrationsassistenten abzuschließen. Wenn Sie Kunde von Datran sind, benötigen Sie Ihre Datumskonto-ID oder die eindeutige Kennung, die Ihrem Unternehmen zugewiesen ist, um den Integrationsassistenten abzuschließen.
+* **Aktueller Kunde von Datran:** Für diese Integration müssen Sie ein Kunde von Adobe und Datran sein. Wenn Sie aktuell kein Kunde von Datran sind, verfügen Sie nicht über die erforderlichen Informationen, um den Integrationsassistenten abzuschließen. Wenn Sie Kunde von Datran sind, benötigen Sie Ihre Datumskonto-ID oder die eindeutige Kennung, die Ihrem Unternehmen zugewiesen ist, um den Integrationsassistenten abzuschließen.
 * Wenden Sie sich an Ihren Kundenbetreuer für stormpost-Konfigurationsanweisungen.
 
