@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
+source-git-commit: a11a31d49dcfc3202f963ce25fbccd82ce8988f9
 
 ---
 
@@ -34,6 +34,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler von Adobe Analytics verwende
 * **Clickstream-Datenfeed:** Siehe Datenfeed.
 * **Kohorte:** Eine Gruppe von Personen, die allgemeine Merkmale über einen bestimmten Zeitraum freigeben. Siehe [Was ist eine Kohortenanalyse?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch zu analysieren.
 * **Erfassungsserver:** Siehe Datenerfassungsserver.
+* **Kontextdatenvariablen:** Temporäre Variablen, die ausschließlich in Verarbeitungsregeln verwendet werden. Werte für die Kontextdatenvariable gehen dauerhaft verloren, wenn eine Verarbeitungsregel sie nicht in eine Konversions- oder Traffic-Variable kopiert. Siehe [Kontextdatenvariablen](../implement/js-implementation/c-variables/context-data-variables.md) im Implementierungshandbuch.
 * **Konversionsvariable:** Wird als evars bezeichnet. Speichert einen benutzerdefinierten Wert und behält den Variablenwert bei, bis er abläuft. See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **Korrelation:** Nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics haben Korrelationen die Möglichkeit, Traffic-Variablen aufzuschlüsseln. Siehe [Aufschlüsseln von Dimensionen](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch für die Analyse.
 * **Aktuelle Daten:** Eine Option in einigen Berichten, die die Einbeziehung kürzlich erfasster Daten ermöglicht, die noch nicht vollständig verarbeitet wurden. Siehe [Aktuelle Daten](../analyze/reports-analytics/current-data.md) im Benutzerhandbuch zu Analytics.
@@ -97,6 +98,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler von Adobe Analytics verwende
 * **Server-Aufruf:** Alternativer Name für eine Bildanforderung oder einen Treffer, der hauptsächlich im Kontext der Abrechnung verwendet wird.
 * **Einzelzugriff:** Ein Besuch, bei dem eine Dimension nur einen einzelnen eindeutigen Wert hatte. Der Besuch kann mehrere Treffer haben, solange es nicht mehrere eindeutige Werte gibt. Siehe [Einzelzugriff](../components/c-variables/c-metrics/metrics-single-access.md) im Komponenten-Benutzerhandbuch. Siehe auch Abspringen.
 * **Sitecatalyst:** Wird nicht mehr als Begriff verwendet. Der frühere Produktname für Adobe Analytics.
+* **Lösungsdesigndokument:** Auch als Lösungsdesignreferenz oder SDR bekannt. Ein von einer Organisation verwaltetes internes Dokument, das angibt, wie benutzerdefinierte Variablen verwendet werden, sowie die Logik, mit der sie gefüllt werden. Siehe [Erstellen eines Dokuments für das Lösungsdesign](../implement/prepare/solution-design.md) im Implementierungshandbuch.
 * **Subrelation:** Nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics konnten Subrelationen die Möglichkeit haben, Konversionsvariablen aufzuschlüsseln. Siehe [Aufschlüsseln von Dimensionen](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch für die Analyse.
 * **Erfolgsereignis:** Eine verfolgte Aktion, die ein Benutzer durchgeführt hat. Ihr Unternehmen bestimmt, welche Ereignisse verfolgt werden sollen und welche Erfolgsereignisvariablen Sie zur Verfolgung verwenden. Siehe [Benutzerspezifische Ereignisse](../components/c-variables/c-metrics/metrics-custom.md) im Benutzerhandbuch zu Komponenten.
 * **Unterstützter Benutzer:** Siehe Kundensupport-Stellvertreter.
