@@ -4,7 +4,7 @@ audience: Endanwender
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Funktionen des Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
    + [Verwendungsfälle für Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Neuerungen in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Build a Workspace project {#build-workspace-project}
+   + Erstellen eines Workspace-Projekts {#build-workspace-project}
       + [Projekt erstellen - Übersicht](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Erstellen eines Workspace-Projekts](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -78,7 +78,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Attribution](analysis-workspace/attribution-iq/attribution.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison (IQ) {#segment-comparison}
+      + Segmentvergleich (IQ) {#segment-comparison}
          + [Überblick über das Segment-IQ](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Segmente vergleichen](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [Verwendungsfälle für Segmente in Segment](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -117,7 +117,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Einschränkungen des Analysis Workspace](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + [Adobe Report Builder](report-builder/home.md)
+   + Hilfe zu [Adobe Report Builder](report-builder/home.md)
    + [Neue Funktionen in Reportbuilder](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Systemanforderungen](report-builder/setup/system-requirements.md)
@@ -268,7 +268,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Adobe Analytics - Schlüsselkonzepte](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Über die Datenkollektion](reports-analytics/overview/overview-data-collection.md)
-      + [Berichte](reports-analytics/overview/reports-menu.md)
+      + Menü [Berichte](reports-analytics/overview/reports-menu.md)
       + [Berichtsfunktionen](reports-analytics/overview/report-overview.md)
       + [Häufig verwendete Begriffe](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics für iOS](reports-analytics/overview/app-ios.md)
@@ -294,7 +294,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Data Warehouse-Anforderungen](reports-analytics/data-warehouse.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Übersicht über Ad-hoc-Analysen - Projektkonverter](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad-hoc-Analysen konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
@@ -324,8 +324,8 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Zeitplan-Manager](ad-hoc-analysis/c-schedule.md)
    + [Tabellenaufbau](ad-hoc-analysis/c-tablebuilder.md)
    + [Zeit](ad-hoc-analysis/c-time.md)
-+ Technology Previews {#tech-previews}
-   + [Übersicht über die Technologievorschau](tech-previews/overview.md)
++ Labs {#tech-previews}
+   + [Übersicht über Labs](tech-previews/overview.md)
 + Analytics-Reporting-API {#analytics-reporting-api}
    + [Analytics Reporting API - Übersicht](c-reporting-api/c-reporting-api.md)
    + [Vergleich der Analytics-Berichterstellungs-APIs](c-reporting-api/api-comparison.md)
