@@ -117,7 +117,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Einschränkungen des Analysis Workspace](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + Hilfe zu [Adobe Report Builder](report-builder/home.md)
+   + [Adobe Report Builder-Hilfe](report-builder/home.md)
    + [Neue Funktionen in Reportbuilder](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Systemanforderungen](report-builder/setup/system-requirements.md)
@@ -268,7 +268,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [Adobe Analytics - Schlüsselkonzepte](reports-analytics/key-concepts.md)
    + Overview of the reporting interface {#reporting-interface}
       + [Über die Datenkollektion](reports-analytics/overview/overview-data-collection.md)
-      + Menü [Berichte](reports-analytics/overview/reports-menu.md)
+      + [Menü Berichte](reports-analytics/overview/reports-menu.md)
       + [Berichtsfunktionen](reports-analytics/overview/report-overview.md)
       + [Häufig verwendete Begriffe](reports-analytics/overview/overview-common-terms.md)
       + [Adobe Analytics für iOS](reports-analytics/overview/app-ios.md)
