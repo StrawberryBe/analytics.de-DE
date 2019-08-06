@@ -4,7 +4,7 @@ description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 seo-title: Aktualisierungen der Adobe Analytics-Dokumentation
 seo-description: Aktualisierungen der Adobe Analytics-Dokumentation
 short-title: Aktualisierungen der Analytics-Dokumentation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
-* Eine umfassende Liste mit neuen Funktionen, Hinweisen für Administratoren und Fehlerbehebungen finden Sie in den neuesten [Experience Cloud-Versionshinweisen](https://marketing.adobe.com/resources/help/de_DE/whatsnew/).
+* Eine umfassende Liste der neuen Funktionen, Administratorhinweise und Fehlerbehebungen finden Sie in den neuesten [Experience Cloud-Versionshinweisen](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 * Weitere Informationen zu neuen Funktionen von Analysis Workspace finden Sie [hier](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
 * Informationen zu Media Analytics-Aktualisierungen finden Sie unter
 
