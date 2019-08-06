@@ -7,7 +7,7 @@ title: Zeitstempel optional
 topic: Admin Tools
 uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
@@ -22,7 +22,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 * Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
 * Aktualisieren Sie Apps, um die Offline-Nachverfolgung zu verwenden, ohne eine neue Report Suite erstellen zu müssen.
 
-Unter [Verwendung von „Zeitstempel optional“](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview) finden Sie Best Practices für die Verwendung von Zeitstempeln in Ihrer Report Suite.
+Unter [Verwendung von „Zeitstempel optional“](/help/implement/js-implementation/timestamps-overview.md) finden Sie Best Practices für die Verwendung von Zeitstempeln in Ihrer Report Suite.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Unter [Verwendung von „Zeitstempel optional“](https://marketing.adobe.com/re
 
 >[!NOTE]
 >
->Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert.
+>Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung für 92 Tage während eines zusätzlichen Treffers, der nicht 30 Minuten nach dem vorherigen Treffer (in Trefferzeit) liegt - geöffnet ist - und kann trotzdem in denselben Besuch/dieselbe Sitzung aufgenommen werden. Alle "alten" Treffer, die außerhalb der Bestellung eingehen, liefern" unbekannte" Ergebnisse, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) Einfluss darauf, ob diese Treffer in den Berichten enthalten sind oder nicht.
 
 ## Neue Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 
