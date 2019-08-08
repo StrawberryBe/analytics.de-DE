@@ -4,7 +4,7 @@ audience: Endanwender
 user-guide-title: Analytics-Komponentenhandbuch
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -63,6 +63,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Referenz: erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
       + [Berechnete Metriken: rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
+      + [Gesamtsummen für berechnete Metriken](c-calcmetrics/cm-totals.md)
 + Virtual Report Suites {#virtual-report-suites}
    + [Virtual Report Suites - Übersicht](vrs/vrs-about.md)
    + [Zusammenstellung der Virtual Report Suite-Komponenten](vrs/vrs-components.md)
@@ -112,7 +113,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
 + [Kalenderereignisse](t-calendar-event.md)
 + Variablen {#variables}
    + [Variablen - Übersicht](c-variables/c-variables.md)
-   + Dimensions/Reports {#dimensions-reports}
+   + Dimensionen/Berichte {#dimensions-reports}
       + [Dimensionsbeschreibungen](c-variables/dimensionslist/reports-descriptions.md)
       + [Dimensionskompatibilität](c-variables/dimensionslist/dimension-compatibility.md)
       + [Best Practices und Fehlerbehebung](c-variables/dimensionslist/report-troubleshooting.md)
