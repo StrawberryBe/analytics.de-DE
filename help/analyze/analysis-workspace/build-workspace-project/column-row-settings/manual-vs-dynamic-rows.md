@@ -5,7 +5,7 @@ seo-title: Statische und dynamische Zeilen
 title: Statische und dynamische Zeilen
 uuid: caf 033 ef-d 252-4 f 8 a -802 e -7 edbbac 5 c 8 c 0
 translation-type: tm+mt
-source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -33,6 +33,6 @@ Darüber hinaus können Sie (nur), wenn Sie sich im statischen Zeilenmodus befin
 
 | Option | Beschreibung |
 |---|---|
-| Berechnen der Summen durch Addieren der Werte, die sich zurzeit in jeder Spalte befinden. | Diese Option berechnet nur die aktuell in der Tabelle vorhandenen Spalten. (Clientseitige Berechnung) |
+| (Standard) Berechnen Sie die Summen, indem Sie die aktuell in jeder Spalte vorhandenen Werte addieren. | Diese Option berechnet nur die aktuell in der Tabelle vorhandenen Spalten. (Clientseitige Berechnung) |
 | Berechnen der Summen anhand aller Zeilen für jede Metrik. | Diese Option bezieht alle Dimensionselemente für diese Dimension ein, auch dann, wenn diese nicht in der Tabelle aufgeführt sind. (Serverseitige Berechnung) |
 
