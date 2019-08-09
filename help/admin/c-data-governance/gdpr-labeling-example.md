@@ -5,7 +5,7 @@ seo-title: Beschriftungsbeispiel
 title: Beschriftungsbeispiel
 uuid: a 9 a 5 b 937-dbde -4 f 0 f-a 171-005 ef 4 c 79 df 9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
 
 ---
 
@@ -22,33 +22,33 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 <!-- Meike, I converted html tables for fix elusive validation error. Bob -->
 
-| Bezeichnungen | I2<br>ID-PERSONDEL<br>-PERSONACC<br>-PERSONAL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Variable Name<br>(Namespace) | MyProp1<br>(user) | Visitor ID<br>(AAID) | MyEvar1 | MyEvar2 | MyEvar3<br>(xyz) |
+| Bezeichnungen | I2<br>ID-PERSONDEL<br>-PERSONACC<br>-PERSONAL | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL | I 2<br>DEL-PERSONACC<br>-PEOPLE | I 2<br>DEL-DEVICEDEL<br>-PERSONACC<br>-ALL | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL |
+|---|---|---|---|---|---|
+| Variablenname<br>(Namespace) | Myprop 1<br>(Benutzer) | Besucher-ID<br>(AAID) | MyEvar1 | MyEvar2 | Myevar 3<br>(xyz) |
 | Trefferdaten | Mary | 77 | A | M | X |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
-| John | 77 | D | P | W |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | Z |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
+|  | John | 77 | D | P | W |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
+|  | Alice | 66 | A | N | Z |
 
 
 ## Beispiel einer Zugriffsanfrage {#section_BDA817FD2415420DAAC835825484BA9D}
 
 Wenn Sieh eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in der Tabelle unten angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur dann zurückgegeben, wenn eine Personen-ID verwendet wird und wenn die Option „expandIDs“ auf „true“ festgelegt ist.
 
-| API-Werte | Zurückgegebener Dateityp | Daten in der Zusammenfassungsdatei für den Zugriff |
-|--- |--- |--- |
+| API-Werte | API-Werte | Zurückgegebener Dateityp | Data in <br>Summary Access File </br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> |
+|--- |--- |--- |---|---|---|---|---|
 | Namensraum/ID | expandIDs |  | MyProp1 | Visitor ID | MyEvar1 | MyEvar2 | MyEvar3 |
 | AAID=77 | false | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
-| AAID=77 | true | Gerät | 77 | M, P | X, W |
+| AAID=77 | true | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
 | user=Mary | false | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| Gerät | nicht vorhanden | 77, 88 | nicht vorhanden | N, P | U, W |
+| user=Mary | true | Gerät | nicht vorhanden | 77, 88 | nicht vorhanden | N, P | U, W |
 | user=Mary AAID=66 | true | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
+| user=Mary AAID=66 | true | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
 | xyz=X | false | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, R | X |
 | xyz=X | true | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, P, R | W, X |
 
@@ -58,8 +58,8 @@ Beachten Sie, dass die Einstellung für „expandIDs“ keinen Einfluss auf die 
 
 Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwendet werden, wird die Treffertabelle aktualisiert und sieht dann folgendermaßen aus:
 
-| AAID = 77 expandids-Wert ist nicht wichtig |
-|--- |
+| AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> |
+|---|---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | Mary | 42 | A | GDPR-7398 | GDPR-9152 |
 | Mary | 88 | B | N | Y |
@@ -74,8 +74,8 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 >
 >Nur Zellen in Zeilen mit AAID = 77 und einer DEL-DEVICE-Beschriftung sind betroffen.
 
-| user = Mary expandids = false |
-|--- |
+| user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> |
+|--- |---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
 | GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
@@ -90,8 +90,8 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 >
 >Nur Zellen in Zeilen, die Benutzer = Mary und eine DEL-Personenbeschriftung enthalten, sind betroffen. In der Praxis würde es sich zudem bei der Variablen mit dem A_ID-Wert wahrscheinlich um ein Prop- oder eVar-Objekt handeln, und der zugehörige Ersatzwert wäre wahrscheinlich eine Zeichenfolge, die mit „DSGVO“ gefolgt von einer zufälligen Nummer (GUID) beginnt, statt dass der numerische Wert durch einen anderen, zufälligen numerischen Wert ersetzt wird.
 
-| user=Mary expandIDs=true |
-|--- |
+| user=Mary<br>expandIDs=true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> |
+|--- |---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
 | GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
