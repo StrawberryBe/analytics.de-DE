@@ -5,7 +5,7 @@ seo-title: ID-Erweiterung
 title: ID-Erweiterung
 uuid: 2672 d 17 d-c 957-4 e 08-8 dd 9-16 d 54 bf 2 be 18
 translation-type: tm+mt
-source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
@@ -18,7 +18,7 @@ Die IDs, die Sie einsenden, decken nicht immer alle Hit-Daten ab, die Analytics 
 "expandIds": true
 ```
 
-Unter [JSON-Beispielanfrage](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) finden Sie ein Beispiel dazu, wie Sie diese Option zur Anfrage hinzufügen. Weitere Informationen finden Sie in der [Dokumentation der DSGVO-API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md).
+Unter [JSON-Beispielanfrage](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) finden Sie ein Beispiel dazu, wie Sie diese Option zur Anfrage hinzufügen. Weitere Informationen finden Sie in der [Dokumentation der DSGVO-API](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -59,7 +59,7 @@ In Zukunft kann die „analyticsDeleteMethod“ zusätzlich zum Standardwert „
 Zusätzlich zu seinem standardmäßigen Wert unterstützt das Prioritätsfeld auch den Wert „low“. Diesen Wert sollten Sie für Anfragen angeben, die nicht auf eine Anfrage der betroffenen Person zurückzuführen sind und für die somit keine gesetzliche Verpflichtung besteht, dass diese innerhalb von 30 Tagen abgeschlossen sein müssen. Beachten Sie, dass Adobe von der Verwendung der DSGVO-API aus anderen Gründen als den vom Betroffenen initiierten Anfragen abrät. Die DSGVO-API ist kein geeignetes Werkzeug für Datenbereinigungen oder -reparaturen und kann unbeabsichtigte Folgen haben.
 
 >[!NOTE]
->Die GDPR-API unterstützt Sie dabei, GDPR-Anforderungen zu erfüllen, die zeitsensitiv sind. Die Verwendung dieser API für &gt; andere Zwecke wird von Adobe nicht unterstützt und kann sich auf die Fähigkeit von Adobe auswirken, eine zeitnahe Umschaltung von hoch &gt; Priorität und vom Benutzer initiierten GDPR-Anforderungen für andere Adobe-Kunden bereitzustellen. Wir bitten, die GDPR-API nicht für andere Zwecke zu verwenden, z. B. das Löschen von Daten, die versehentlich über große Besuchergruppen gesendet wurden.
+>The [GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) has been provided to help you fulfill GDPR requests, which are time sensitive. Die Verwendung dieser API für &gt; andere Zwecke wird von Adobe nicht unterstützt und kann sich auf die Fähigkeit von Adobe auswirken, eine zeitnahe Umschaltung von hoch &gt; Priorität und vom Benutzer initiierten GDPR-Anforderungen für andere Adobe-Kunden bereitzustellen. Wir bitten, die GDPR-API nicht für andere Zwecke zu verwenden, z. B. das Löschen von Daten, die versehentlich über große Besuchergruppen gesendet wurden.
 >
 >Sie sollten außerdem beachten, dass die Statusinformationen zurückgesetzt werden, wenn ein Besucher aufgrund einer GDPR &gt; Löschen-Anfrage gelöscht (aktualisiert oder anonymiert) gelöscht wird. Wenn der Besucher das nächste Mal zu Ihrer Website zurückkehrt, wird er ein neuer Besucher sein. Alle evar-Zuordnungen werden erneut gestartet, ebenso wie Angaben wie Besuchszahlen, &gt; verweisende Stellen, erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie herauslöschen möchten &gt; Datenfelder und einen Grund, warum die GDPR-API für diese Verwendung ungeeignet ist.
 >
