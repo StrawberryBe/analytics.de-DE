@@ -1,14 +1,14 @@
 ---
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 seo-description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
-seo-title: AppMeasurement for JavaScript
+seo-title: AppMeasurement für JavaScript
 solution: Analytics
 subtopic: Versionshinweise
-title: AppMeasurement for JavaScript
+title: AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## Version 2.16.0
+
+Releasedatum: **8. August 2019**
+
+| Funktion | Beschreibung |
+| -----------| ---------- |
+| `sendBeacon` Unterstützung für Exitlinks | `sendBeacon`-Unterstützung in [!UICONTROL AppMeasurement] für Exitlinks wurde implementiert. Dies verbessert das Ausstiegs-Linktracking und erhöht wahrscheinlich den Traffic. `SendBeacon` wird nicht im Kontext einer Seite ausgeführt, sondern im Kontext des Browsers. Wenn eine Seite nicht geladen wird, `sendBeacon`wird die Anforderung trotzdem abgeschlossen. Dies ist für Exitlinks sehr nützlich, da es sehr viel wahrscheinlicher wird, dass die Exitlink-Anforderung abgeschlossen wird. |
+| ECID/fid-Werte | ECID/fid-Werte werden jetzt beim ersten Treffer zwischengespeichert, auch wenn sich die OptIn-Einstellungen ändern. |
+| DIL 9.3 | Zielgruppen-Management Module wurde auf DIL 9.3 aktualisiert |
+| Scroll Reach Tracking | Scroll Reach Tracking kann jetzt in s.ActivityMap.trackScrollReach über einen Schalter ein- oder ausgeschaltet werden. |
+| Besucher-ID-Dienst 4.4.0 | AppMeasurement wurde für die Verwendung von Besucher-ID-Dienst 4.4.0 aktualisiert. |
 
 ## Version 2.15.0
 
@@ -78,7 +90,7 @@ Releasedatum: **24.05.2018**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden ([!DNL at.js], [!DNL AppMeasurement.js], usw.)
+>Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden ([!DNL at.js] usw.)[!DNL AppMeasurement.js]
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Es wurde ein Problem behoben, durch das nach der Deaktivierung von Linktracking weiterhin ein Linktracking-Cookie erstellt wurde. (AN-156332)
@@ -126,7 +138,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 Releasedatum: **21.09.2017**
 
-* Inclusion of [!DNL dil.js 6.12] ( [!DNL Audience Manager] module)
+* Aufnahme von [!DNL dil.js 6.12] ( [!DNL Audience Manager] Modul)
 
 * Aufnahme der Visitor API 2.5.0.
 
@@ -207,7 +219,7 @@ Aktualisiert: **20.10.2016**
 
 Aktualisiert: **15.09.2016**
 
-* Update [!DNL AppMeasurement] [!DNL Audience Manager] Module with DIL 6.5 and Additional Configurations (AN-129411)
+* Aktualisierungsmodul [!DNL AppMeasurement][!DNL Audience Manager] mit DIL 6.5 und zusätzlichen Konfigurationen (AN -129411)
 
 * Aufnahme der Visitor API 1.8.0 (AN-129887)
 
@@ -267,7 +279,7 @@ Releasedatum: **19. Mai 2016**
 
 Releasedatum: **21. April 2016**
 
-* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Additionally, [!DNL Activity Map] tracking is activated by default. (AN-112689)
+* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Außerdem wird [!DNL Activity Map] die Verfolgung standardmäßig aktiviert. (AN-112689)
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
@@ -346,7 +358,7 @@ Releasedatum: **21. Mai 2015**
 
 **Bekanntes Problem**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
+In den Integrationen der Besucher-API/ [!DNL AppMeasurement][!DNL Audience Manager] Module werden zwei iframe-Anfragen zur Zielveröffentlichung in IE 6-9 veröffentlicht: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
