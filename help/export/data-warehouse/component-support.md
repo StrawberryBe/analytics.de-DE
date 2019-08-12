@@ -2,7 +2,7 @@
 title: Komponentenunterstützung in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ Einige Dimensionen und Metriken können in Data Warehouse verwendet werden, wäh
 
 ### Dimensionen, die exklusiv unterstützt werden
 
-* Experience Cloud-Besucher-ID:
-* IP:
-* Seiten-URL:
-* Kauf-IDs:
+* Experience Cloud Besucher-ID: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, handelt es sich um eine 128-Bit-Zahl, die aus zwei verketteten 64-Bit-Zahlen besteht, die zu 19 Stellen aufgefüllt sind.
+* Seiten-URL: Die Seiten-URL, auf der der Treffer aufgetreten ist.
+* Kauf-IDs: Eindeutige Kennung für einen Kauf, der mithilfe der purchaseid-Variablen festgelegt wird.
 * Besucher-ID: Gibt den eindeutigen Bezeichner für den Besucher an. Dieser Wert ist identisch mit verketteten Werten und `visid_high``visid_low` Spalten in Datenfeeds. Weitere Informationen finden Sie unter [Datenspaltenreferenz](../analytics-data-feed/c-df-contents/datafeeds-reference.md) unter Datenfeeds.
 
 ### Metriken, die exklusiv unterstützt werden
@@ -59,7 +58,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 * Rangansicht aller Suchseiten
 * Hierarchievariablen
 * Treffertyp
-* Seiten nicht gefunden (nur Segmente)
+* Seiten nicht gefunden (verfügbar als Dimension; nicht unterstützt für Segmentierung)
 * Gebührenpflichtige Suche
 * Einzelseitenbesuche
 * Nachverfolgung der Gründe für den Ausstieg
