@@ -1,23 +1,23 @@
 ---
-title: Gesamtsummen für berechnete Metriken
-seo-title: Gesamtsummen für berechnete Metriken
+title: Berechnete Metriken insgesamt
+seo-title: Berechnete Metriken insgesamt
 description: Erfahren Sie, wie sich berechnete Metriken in den Analytics-Tools unterscheiden.
 seo-description: Berechnung der Summen errechneter Metriken
 translation-type: tm+mt
-source-git-commit: 396a4b8e4e1e03fa958286097721be2c40230de1
+source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
 
 ---
 
 
-# Gesamtsummen für berechnete Metriken
+# Berechnete Metriken insgesamt
 
-Die Gesamtsumme der berechneten Metriken wird zwischen [DNL Reports &amp; Analysen] und [DNL Analysis Workspace angezeigt]. In diesem Abschnitt werden die Unterschiede erläutert.
+Die Gesamtsumme der berechneten Metriken wird zwischen [!DNL Reports & Analytics] und [!DNL Analysis Workspace]geändert. In diesem Abschnitt werden die Unterschiede erläutert.
 
 ## Gesamtsummen errechneter Metriken in [!DNL Reports & Analytics]
 
 Wenn Sie Berichte anzeigen, [!DNL Reports & Analytics]werden berechnete Metriken immer `n/a` unter der Gesamtsumme angezeigt. Da alle berechneten Metriken benutzerdefiniert sind, gibt es für diese Summe viele Fälle, in denen diese Summe nicht sinnvoll ist. Siehe folgendes Beispiel:
 
-Ihr Unternehmen hat die [Bestellungen] / [Besuche] errechneter Metriken erstellt, um den Prozentsatz der Besuche zu ermitteln, die etwas auf Ihrer Site gekauft haben. Wenn Sie diese Metrik in einen Produktbericht gebracht haben, werden mehrere Produkte einer einzelnen Bestellung zugeordnet. Außerdem werden mehrere Produkte einem einzelnen Besuch zugeordnet. Wenn in diesem Bericht eine berechnete Metriksumme angegeben wurde, werden folgende Fragen gestellt:
+Ihr Unternehmen hat die berechnete Metrik `orders` erstellt/ `visits` um den Prozentsatz der Besuche zu ermitteln, die etwas auf Ihrer Site gekauft haben. Wenn Sie diese Metrik in einen Produktbericht gebracht haben, werden mehrere Produkte einer einzelnen Bestellung zugeordnet. Außerdem werden mehrere Produkte einem einzelnen Besuch zugeordnet. Wenn in diesem Bericht eine berechnete Metriksumme angegeben wurde, werden folgende Fragen gestellt:
 
 | Frage | Antwort |
 |---|---|
