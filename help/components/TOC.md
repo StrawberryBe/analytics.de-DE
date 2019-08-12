@@ -1,33 +1,33 @@
 ---
 product: analytics
 audience: Endanwender
-user-guide-title: Analytics-Komponentenhandbuch
-user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+user-guide-title: Komponentenleitfaden für Analytics
+user-guide-url: /content/help/de-DE/analytics/components/home.html
+translation-type: ht
 source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
 
-# [!DNL Analytics] Komponentenhandbuch {#components}
+# [!DNL Analytics]-Komponentenleitfaden {#components}
 
-+ [Hilfe zu Analytics-Komponenten](home.md)
++ [Hilfe zu den Analytics-Komponenten](home.md)
 + Segmentierung {#segmentation}
    + [Analytics-Segmentierung](c-segmentation/seg-home.md)
-   + [Segmente und Behälter](c-segmentation/seg-overview.md)
-   + [Segmentierungsfunktionen im Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentation workflow {#segmentation-workflow}
-      + [Übersicht über den Segmentierungsarbeitsablauf](c-segmentation/c-segmentation-workflow/seg-workflow.md)
+   + [Info über Segmente und Container](c-segmentation/seg-overview.md)
+   + [Segmentierungsfunktionen in Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
+   + Segmentierungs-Workflow {#segmentation-workflow}
+      + [Übersicht über den Segmentierungs-Workflow](c-segmentation/c-segmentation-workflow/seg-workflow.md)
       + [Segmente planen](c-segmentation/c-segmentation-workflow/seg-plan.md)
       + [Segmente erstellen](c-segmentation/c-segmentation-workflow/seg-build.md)
-      + [Erstellen sequenzieller Segmente](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
-      + [Taggen von Segmenten](c-segmentation/c-segmentation-workflow/seg-tag.md)
+      + [Sequentielle Segmente erstellen](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
+      + [Segmente taggen](c-segmentation/c-segmentation-workflow/seg-tag.md)
       + [Segmente genehmigen](c-segmentation/c-segmentation-workflow/seg-approve.md)
       + [Segmente freigeben](c-segmentation/c-segmentation-workflow/t-seg-share.md)
-      + [Veröffentlichen von Segmenten in der Experience Cloud](c-segmentation/c-segmentation-workflow/seg-publish.md)
+      + [Segmente in der Experience Cloud veröffentlichen](c-segmentation/c-segmentation-workflow/seg-publish.md)
       + [Segmente auswählen und anwenden](c-segmentation/c-segmentation-workflow/t-seg-apply.md)
       + [Segmente filtern](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
-      + [Markieren von Segmenten als Favoriten](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
+      + [Segmente als Favoriten markieren](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
       + [Segmente löschen](c-segmentation/c-segmentation-workflow/seg-delete.md)
       + [Segmente verwalten](c-segmentation/c-segmentation-workflow/seg-manage.md)
    + Segmentreferenz {#segment-reference}
@@ -37,82 +37,82 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Fehlerbehebung](c-segmentation/seg-reference/c-troubleshooting.md)
    + [Häufig gestellte Fragen](c-segmentation/seg-transition.md)
    + [Neue Funktionen bei der Analytics-Segmentierung](c-segmentation/whats-new-segmentation.md)
-   + [Übergangsleitfaden für Ad-hoc-Analysen](c-segmentation/seg-transition-ad-hoc.md)
+   + [Übergangsleitfaden für Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
    + [Häufig gestellte Fragen](c-calcmetrics/cm-transition.md)
-   + [Anleitungen zu Videos](c-calcmetrics/cm-videos.md)
+   + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
-      + [Arbeitsablauf für berechnete Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Metriken erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Metriktyp und Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Einfache Metrik "Seitenansichten pro Besuche" erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Segmentierte Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [Stapeln und Ersetzen von Segmenten](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
+      + [Segmente stapeln und ersetzen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Gefilterte und gewichtete Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Bestellbeitragsmetrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Funktionen verwenden](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Beitragsmetrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Taggen Sie berechnete Metriken.](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Berechnete Metriken taggen](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Berechnete Metriken genehmigen](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berechnete Metriken freigeben](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berechnete Metrik – Manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Metrics reference {#calcmetrics-reference}
-      + [Referenz: grundlegende Funktionen](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Referenz: erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
+   + Metrikreferenz {#calcmetrics-reference}
+      + [Referenz: Grundfunktionen](c-calcmetrics/cm-reference/cm-functions.md)
+      + [Referenz: Erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
-      + [Berechnete Metriken: rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
-      + [Gesamtsummen für berechnete Metriken](c-calcmetrics/cm-totals.md)
+      + [Berechnete Metriken: Rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
+      + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
 + Virtual Report Suites {#virtual-report-suites}
-   + [Virtual Report Suites - Übersicht](vrs/vrs-about.md)
+   + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
    + [Zusammenstellung der Virtual Report Suite-Komponenten](vrs/vrs-components.md)
    + [VRS-Unterstützung in Mobile Services](vrs/vrs-mobile-services.md)
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
-   + [Zeitverarbeitung für Berichte](vrs/vrs-report-time-processing.md)
+   + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
    + [Häufig gestellte Fragen zu VRS](vrs/vrs-faq.md)
-   + [Überlegungen zur globalen und globalen/Multi-Suite-Tagging](vrs/vrs-considerations.md)
-   + VRS Workflow {#vrs-workflow}
-      + [Virtueller Report Suite-Arbeitsablauf](vrs/c-workflow-vrs/vrs-workflow.md)
-      + [Virtuelle Report Suites erstellen](vrs/c-workflow-vrs/vrs-create.md)
+   + [VRSs und Überlegungen zum globalen Tagging/Multi-Suite-Tagging](vrs/vrs-considerations.md)
+   + VRS-Workflow {#vrs-workflow}
+      + [Virtual Report Suite – Workflow](vrs/c-workflow-vrs/vrs-workflow.md)
+      + [Virtual Report Suites erstellen](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtual Report Suites verwalten](vrs/c-workflow-vrs/vrs-manage.md)
-      + [Informationen zur Virtual Report Suite anzeigen](vrs/c-workflow-vrs/vrs-view.md)
+      + [Informationen zu Virtual Report Suites anzeigen](vrs/c-workflow-vrs/vrs-view.md)
 + Warnhinweise {#alerts}
    + [Intelligente Warnhinweise](c-alerts/intellligent-alerts.md)
    + [Warnhinweiserstellung](c-alerts/alert-builder.md)
    + [Warnhinweis-Manager](c-alerts/alert-manager.md)
-   + [Intelligente Warnhinweise - Anwendungsfälle](c-alerts/alerts-use-cases.md)
-+ Classifications {#classifications}
-   + [Informationen zu Classifications](c-classifications2/c-classifications.md)
-   + [Unter-Classifications](c-classifications2/c-sub-classifications.md)
-   + [Umrechnungsklassifizierungen](c-classifications2/conversion-classifications.md)
-   + [Traffic-Classifications](c-classifications2/traffic-classifications.md)
+   + [Intelligente Warnhinweise – Anwendungsfälle](c-alerts/alerts-use-cases.md)
++ Klassifizierungen{#classifications}
+   + [Informationen über Klassifizierungen](c-classifications2/c-classifications.md)
+   + [Informationen über Unterklassifizierungen](c-classifications2/c-sub-classifications.md)
+   + [Konversionsklassifizierungen](c-classifications2/conversion-classifications.md)
+   + [Traffic-Klassifizierungen](c-classifications2/traffic-classifications.md)
    + [Klassifizierungshierarchien](c-classifications2/classification-hierarchies.md)
-   + Classifications importer (upload) {#classifications-importer}
-      + [Classifications importer - Übersicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [Classification-Datendateien](c-classifications2/c-classifications-importer/c-saint-data-files.md)
+   + Klassifizierungsimport (Hochladen) {#classifications-importer}
+      + [Klassifizierungsimport – Übersicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
+      + [Klassifizierungsdatendateien](c-classifications2/c-classifications-importer/c-saint-data-files.md)
       + [Löschen von Classification-Daten](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
       + [Classification-Daten maskieren](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
       + [Nicht klassifizierte Schlüssel](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [Classification-Vorlage](c-classifications2/c-classifications-importer/c-download-saint-data.md)
+      + [Klassifizierungsvorlage](c-classifications2/c-classifications-importer/c-download-saint-data.md)
       + [Browser- und FTP-Import](c-classifications2/c-classifications-importer/import-file.md)
       + [Browser-Import](c-classifications2/c-classifications-importer/browser-import.md)
       + [FTP-Import](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + Classification Rule Builder {#classifications-rulebuilder}
-      + [Classification Rule Builder-Arbeitsablauf](c-classifications2/crb/classification-rule-builder.md)
-      + [Classification-Regelsätze](c-classifications2/crb/classification-rule-set.md)
-      + [Classification-Regeln](c-classifications2/crb/classification-quickstart-rules.md)
-      + [Classification-Regeln - Definitionen](c-classifications2/crb/classification-rule-definitions.md)
-      + [Unter-Classifications und der Regel-Builder - Verwendungsfall](c-classifications2/crb/sub-classification-rule-builder.md)
-   + Numeric 2 classifications {#numeric2-classification}
-      + [Übersicht über Nummerisch 2 Klassifizierungen](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [Nummerisch 2 Klassifizierungen erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Nummerisch -2 Classifications importieren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [Classification Rule Builder-Workflow](c-classifications2/crb/classification-rule-builder.md)
+      + [Klassifizierungsregelsätze](c-classifications2/crb/classification-rule-set.md)
+      + [Klassifizierungsregeln](c-classifications2/crb/classification-quickstart-rules.md)
+      + [Klassifizierungsregeln – Definitionen](c-classifications2/crb/classification-rule-definitions.md)
+      + [Unterklassifizierungen und der Rule Builder – Anwendungsfall](c-classifications2/crb/sub-classification-rule-builder.md)
+   + Numerisch-2-Klassifizierungen {#numeric2-classification}
+      + [Numerisch-2-Klassifizierungen – Übersicht](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
+      + [Nummerisch-2-Klassifizierungen erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [Nummerisch-2-Klassifizierungen importieren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [Beispiele](c-classifications2/c-numeric-2/c-examples.md)
    + [Fehlerbehebung für Classifications](c-classifications2/c-classifications-troubleshooting.md)
 + [Kalenderereignisse](t-calendar-event.md)
 + Variablen {#variables}
-   + [Variablen - Übersicht](c-variables/c-variables.md)
+   + [Variablenübersicht](c-variables/c-variables.md)
    + Dimensionen/Berichte {#dimensions-reports}
       + [Dimensionsbeschreibungen](c-variables/dimensionslist/reports-descriptions.md)
       + [Dimensionskompatibilität](c-variables/dimensionslist/dimension-compatibility.md)
@@ -266,8 +266,8 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Besucher](c-variables/dimensionslist/reports-visitors.md)
       + [Zip](c-variables/dimensionslist/reports-zip.md)
    + Metriken {#metrics}
-      + [Metriken - Übersicht](c-variables/c-metrics/metricslist.md)
-      + [Kurzübersicht zu Metriken](c-variables/c-metrics/metrics-overview.md)
+      + [Übersicht über Metriken](c-variables/c-metrics/metricslist.md)
+      + [Kurzübersicht über Metriken](c-variables/c-metrics/metrics-overview.md)
       + [Metrikberechnungen](c-variables/c-metrics/metrics-calculations.md)
       + [Durchschnittl. Seitentiefe](c-variables/c-metrics/metrics-av-page-depth.md)
       + [Durchschnittliche Besuchszeit](c-variables/c-metrics/metrics-av-time-spent.md)
@@ -314,29 +314,29 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Unique Visitors pro Woche](c-variables/c-metrics/metrics-weekly-unique-visitors.md)
       + [Unique Visitors pro Jahr](c-variables/c-metrics/metrics-yearly-unique-visitors.md)
       + [Besucherbeitrag – Ad Hoc Analysis](c-variables/c-metrics/metrics-visitor-participation.md)
-   + Merchandising variables {#merchandising-variables}
+   + Merchandising-Variablen {#merchandising-variables}
       + [Übersicht über Merchandising-Variablen](c-variables/c-merch-variables/var-merchandising.md)
-      + [Implementieren einer Merchandising-Variablen](c-variables/c-merch-variables/var-merchandising-impl.md)
-      + [Instanzen bei Merchandising-Variablen](c-variables/c-merch-variables/var-merchandising-instances.md)
+      + [Implementierung einer Merchandising-Variable](c-variables/c-merch-variables/var-merchandising-impl.md)
+      + [Instanzen auf Merchandising-Variablen](c-variables/c-merch-variables/var-merchandising-instances.md)
 + Echtzeitberichterstellung {#real-time-reporting}
-   + [Echtzeitberichte - Übersicht](c-real-time-reporting/realtime.md)
+   + [Übersicht über die Echtzeitberichterstellung ](c-real-time-reporting/realtime.md)
    + [Echtzeitberichte konfigurieren](c-real-time-reporting/t-realtime-admin.md)
-   + [Unterstützte Echtzeit-Metriken und -dimensionen](c-real-time-reporting/realtime-metrics.md)
+   + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)
 + Marketing-Kanäle {#marketing-channels}
    + [Erste Schritte mit Marketingkanälen](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Informationen zu Marketingkanalberichten](c-marketing-channels/c-overview.md)
-   + [Informationen zu Kanälen und Regeln](c-marketing-channels/c-channels-rules.md)
-   + [Automatische Einrichtung](c-marketing-channels/c-channel-autosetup.md)
-   + [Verwalten von Marketingkanälen](c-marketing-channels/c-channels.md)
-   + [Verarbeitungsregeln für Marketingkanäle](c-marketing-channels/c-rules.md)
+   + [Informationen über Marketing-Kanalberichte](c-marketing-channels/c-overview.md)
+   + [Informationen über Kanäle und Regeln](c-marketing-channels/c-channels-rules.md)
+   + [Automatisches Setup](c-marketing-channels/c-channel-autosetup.md)
+   + [Marketing-Kanäle verwalten](c-marketing-channels/c-channels.md)
+   + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/c-rules.md)
    + [Einrichten von Marketingkanal-Verarbeitungsregeln](c-marketing-channels/t-rules.md)
-   + [Marketingkanal-Verarbeitungsregeln - Definitionen](c-marketing-channels/r-channel-rule-definitions.md)
+   + [Marketing-Kanal-Verarbeitungsregeln – Definitionen](c-marketing-channels/r-channel-rule-definitions.md)
    + [Häufig gestellte Fragen und Beispiele](c-marketing-channels/c-faq.md)
    + [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](c-marketing-channels/t-template.md)
-   + [Classifications in Marketingkanälen](c-marketing-channels/classifictions-mchannel.md)
-   + [Ablauf von Besucherinteraktionen](c-marketing-channels/visitor-engagement.md)
-   + [In Marketingkanalberichten verwendete Metriken](c-marketing-channels/c-overview-metrics.md)
-   + [Berechnete Metriken für Marketingkanalberichte](c-marketing-channels/c-channel-calc-metrics.md)
+   + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/classifictions-mchannel.md)
+   + [Besucherinteraktionsablauf](c-marketing-channels/visitor-engagement.md)
+   + [In Marketing-Kanalberichten verwendete Metriken](c-marketing-channels/c-overview-metrics.md)
+   + [In Marketing-Kanalberichten verwendete berechnete Metriken](c-marketing-channels/c-channel-calc-metrics.md)
    + [Kosten und Budgets](c-marketing-channels/c-overview-budget.md)
    + [Hinzufügen von Offline-Daten](c-marketing-channels/t-offline-data.md)
    + [Zugriff auf Bericht](c-marketing-channels/c-channel-report-access.md)
