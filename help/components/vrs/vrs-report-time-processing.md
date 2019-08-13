@@ -1,16 +1,16 @@
 ---
 description: Die Zeitverarbeitung von Berichten ist eine Virtual Report Suite-Einstellung, die die Verarbeitung von Daten in zerstörungsfreien, retroaktiven Daten ermöglicht.
 seo-description: Die Zeitverarbeitung von Berichten ist eine Virtual Report Suite-Einstellung, die die Verarbeitung von Daten in zerstörungsfreien, retroaktiven Daten ermöglicht.
-seo-title: Zeitverarbeitung für Berichte
-title: Zeitverarbeitung für Berichte
+seo-title: Berichtszeitverarbeitung
+title: Berichtszeitverarbeitung
 uuid: 1 a 1 d 82 ea -8 c 93-43 cc -8689-cdcf 59 c 309 b 1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# Zeitverarbeitung für Berichte
+# Berichtszeitverarbeitung
 
 Die Zeitverarbeitung von Berichten ist eine Virtual Report Suite-Einstellung, die die Verarbeitung von Daten in zerstörungsfreien, retroaktiven Daten ermöglicht.
 
@@ -84,7 +84,7 @@ Nachstehend finden Sie eine Liste der Metriken und Dimensionen, die bei Verwendu
    <td colname="col2"> <p> Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Für AMO reservierte Metriken/Dimensionen </p> </td> 
+   <td colname="col1"> <p> Analytics für reservierte Metriken/Dimensionen der Advertising Cloud </p> </td> 
    <td colname="col2"> <p> Derzeit nicht unterstützt. Eine künftige Unterstützung ist geplant. </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Bounces/Bounce-Rate </p> </td> 
-   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, werden Hintergrundtreffer, die nicht von einem Vordergrundtreffer gefolgt werden, als Bounce betrachtet, und sie tragen nicht zur Bounce-Rate bei. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, werden Hintergrundtreffer, die nicht von einem Vordergrundtreffer gefolgt werden, als Bounce betrachtet, und sie tragen nicht zur Bounce-Rate bei. Weitere Details finden Sie unter <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Kontextbezogene Sessionisierung</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verbrachte Zeit in Sekunden pro Besuch </p> </td> 
-   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, tragen nur Besuche mit Vordergrundtreffern zu dieser Metrik bei. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, tragen nur Besuche mit Vordergrundtreffern zu dieser Metrik bei. Weitere Details finden Sie unter <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Kontextbezogene Sessionisierung</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Verbrachte Zeit pro Besuch </p> </td> 
-   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, tragen nur Besuche mit Vordergrundtreffern zu dieser Metrik bei. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, tragen nur Besuche mit Vordergrundtreffern zu dieser Metrik bei. Weitere Details finden Sie unter <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Kontextbezogene Sessionisierung</a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Einstiege </p> </td> 
-   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, werden nur Einstiege für Besuche berücksichtigt, die einen Vordergrundtreffer enthalten. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col1"> <p> Einträge </p> </td> 
+   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, werden nur Einstiege für Besuche berücksichtigt, die einen Vordergrundtreffer enthalten. Weitere Details finden Sie unter <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Kontextbezogene Sessionisierung</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Nicht-Merchandising-eVars/reservierte eVars </p> </td> 
@@ -194,7 +194,7 @@ Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ein- und Ausstiegsdimensionen </p> </td> 
-   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, werden in dieser Dimension nur Ein- und Ausstiege für Besuche mit Vordergrundtreffern angezeigt. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Wenn die Funktion „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, werden in dieser Dimension nur Ein- und Ausstiege für Besuche mit Vordergrundtreffern angezeigt. Weitere Details finden Sie unter <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Kontextbezogene Sessionisierung</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Treffertyp </p> </td> 
