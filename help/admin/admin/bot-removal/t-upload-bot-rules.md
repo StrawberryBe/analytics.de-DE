@@ -8,7 +8,7 @@ title: Hochladen von Bot-Regeln
 topic: Admin Tools
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 Für einen Massenimport von Bot-Regeln können Sie eine CSV-Datei hochladen, in der die Regeln definiert sind.
 
-Erstellen Sie eine CSV-Datei mit den folgenden Spalten in der präsentierten Reihenfolge:
+Erstellen Sie eine CSV-Datei mit den folgenden Spalten in der angezeigten Reihenfolge:
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> Bot-Name</code> </p> </td> 
-   <td colname="col2"> <p> <code>IP-Start</code> </p> </td> 
-   <td colname="col3"> <p> <code>IP-Ende</code> </p> </td> 
-   <td colname="col4"> <p> <code> Agent-Übereinstimmungsregel (enthält oder beginnt mit)</code> </p> </td> 
-   <td colname="col5"> <p> <code> Agent einschließlich (auf 100 Zeichen begrenzt)</code> </p> </td> 
-   <td colname="col6"> <p> <code> Agent ausschließlich (auf 255 Zeichen begrenzt)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Spalte 1 | Spalte 2 | Spalte 3 | Spalte 4 | Spalte 5 |
+|---|---|---|---|---|
+| Bot-Name | IP-Start | IP-Ende | Agent-Übereinstimmungsregel<br>(`contains` oder `starts with`) | Agent Exclude<br>(255 char limit) |
 
 Sie können drei Arten von Bot-Regeln definieren:
 
