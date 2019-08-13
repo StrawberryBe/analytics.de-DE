@@ -8,7 +8,7 @@ title: Auftrag wird bearbeitet
 topic: Admin Tools
 uuid: cea 01 d 13-dfd 5-40 f 7-8 b 2 f-b 6 e 2 fe 8354 df
 translation-type: tm+mt
-source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -28,7 +28,7 @@ In den folgenden Tabellen sind die Daten aufgeführt, die in der Regel vor und n
 | Suche dynamischer Variablen | Variablen werden dynamisch ausgefüllt, indem Informationen aus HTTP-Kopfzeilen oder anderen Variablen abgerufen werden. For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | Funktionen und Plugins, die in AppMeasurement genutzt werden, werden im Browser oder der Client-Anwendung ausgeführt. |
 | Dynamic Tag Management | Die unter „Dynamic Tag Management“ festgelegten Regeln werden per Definition ausgeführt. |
-| Bot Rules | [Mit Bot-Regeln](../../../../admin/admin/bot-rules/bot-rules.md) können Sie Traffic entfernen, der von bekannten Spiders und Bots aus Ihrer Report Suite generiert wird. |
+| Bot Rules | [Mit Bot-Regeln](../../../../admin/admin/bot-removal/bot-rules.md) können Sie Traffic entfernen, der von bekannten Spiders und Bots aus Ihrer Report Suite generiert wird. |
 
 ## Nach Verarbeitungsregeln
 
