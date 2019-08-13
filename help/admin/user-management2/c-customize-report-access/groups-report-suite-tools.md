@@ -1,20 +1,20 @@
 ---
 description: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
 keywords: Gruppen; Berechtigungen
-seo-description: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
-seo-title: Report Suite-Tools anpassen Berechtigungen
+seo-description: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
+seo-title: Berechtigungen für Report Suite-Tools anpassen
 solution: Analytics
 subtopic: Benutzer und Gruppen
-title: Report Suite-Tools-Berechtigungen anpassen
+title: Berechtigungen für Report Suite-Tools anpassen
 topic: Admin Tools
 uuid: 3 c 95 d 296-ffd 0-4971-9 c 5 f -110 ddbe 042 ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
 
-# Report Suite-Tools-Berechtigungen anpassen
+# Berechtigungen für Report Suite-Tools anpassen
 
 >[!IMPORTANT]
 >
@@ -68,8 +68,8 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Anomalieerkennung](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
 | [Kanalbericht](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Ermöglicht Zugriff auf Marketingkanal-Berichte, zu finden unter Berichte &gt; Marketingkanal-Berichte. |
 | [Echtzeitbericht](../../../admin/admin/realtime/t-realtime-admin.md) | Ermöglicht Zugriff auf den Echtzeitbericht. |
-| [Bot-Seiten](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | Mit „Bot Rules“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
-| [Bots](../../../admin/admin/bot-rules/bot-rules.md) | Mit „Bot Rules“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
+| [Bot-Seiten](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | Mit „Bot Rules“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
+| [Bots](../../../admin/admin/bot-removal/bot-rules.md) | Mit „Bot Rules“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
 | [Benutzerspezifischer Data Warehouse-Bericht](../../..//export/data-warehouse/data-warehouse.md) | Data Warehouse bezieht sich auf die Kopie der unverarbeiteten Rohdaten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. |
 | [Rückkehrende Besucher pro Tag](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Veraltet) In diesem Bericht wird angegeben, wie viele Besucher Ihre Website an einem bestimmten Tag mehrmals besuchen. Ein Tag wird als die letzten 24 Stunden definiert. |
 | [Data Sources-Manager](../../../admin/admin/data-sources.md) | Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. |
@@ -82,6 +82,6 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | Classifications | Kombiniert die folgenden Berechtigungen: " Traffic-Klassifizierungen" , "Videoklassifizierungen" ," Umrechnungsklassifizierungen" , "Klassifizierungshierarchien" ," Klassifizierungsmanager" und "Classifications Importer/Exporter &amp; Rule Builder" . Hinweis: Mit dieser Berechtigung bearbeiten Anwender Klassifizierungen für alle Report Suites und nicht nur für die ausgewählte(n) Report Suite(s). |
 | [Beitragsanalyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Gewährt Rechte für die Verwendung von Beitragsanalysen in Analysis Workspace. |
 | **Dashboard-Elemente** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| Die Einstellungen in Dashboard-Elementen ermöglichen den Zugriff auf [Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analysen: , Meine empfohlenen Berichte, Firmenzusammenfassungs-Reportlet, Bild, KPI/Messung-Reportlet, Report Suite Summen, Text, Reportlet, Gebrauchszusammenfassung und Webressourcen |  |
 | **Sonstige** |  |
 | Social | Steuern Sie den Zugriff auf das Social-Management-Menü im Report Suite Manager. |
