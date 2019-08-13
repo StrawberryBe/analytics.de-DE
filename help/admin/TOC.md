@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 user-guide-url: /content/help/de-DE/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -19,18 +19,18 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
 + Admin Tools {#admin-tools}
    + [Admin Tools](admin/c-admin-tools.md)
    + [Rechnungsstellung](admin/billing-admin.md)
-   + Bot-Regeln{#bot-rules}
-      + [Übersicht über Bot-Regeln](admin/bot-rules/bot-rules.md)
+   + Bot Rules {#bot-rules}
+      + [Übersicht über Bot Rules](admin/bot-rules/bot-rules.md)
       + [Hochladen von Bot-Regeln](admin/bot-rules/t-upload-bot-rules.md)
       + [Erstellen einer benutzerspezifischen Bot-Regel](admin/bot-rules/t-create-bot-rules.md)
    + [Code-Manager](admin/code-manager-admin.md)
-   + Konversionsvariablen {#conversion-variables}
-      + [Konversionsvariablen (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
+   + Conversion variables {#conversion-variables}
+      + [Konversionsvariablen (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Konversionsvariablen bearbeiten](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Konversionsklassifizierungen](admin/conversion-var-admin/conversion-classifications.md)
    + [Währungscodes](admin/currency.md)
-   + [Benutzerspezifische Berichtbeschreibung](admin/custom-desc-admin.md)
-   + [Kalender benutzerspezifisch einstellen](admin/custom-calendar.md)
+   + [Benutzerspezifische Berichtbeschreibungen](admin/custom-desc-admin.md)
+   + [Kalender anpassen](admin/custom-calendar.md)
    + [Data Sources](admin/data-sources.md)
    + [Standardmetriken](admin/default-metrics.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
@@ -41,20 +41,20 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Protokolle](admin/logs.md)
    + [Marketing-Kanäle](admin/marketing-channels-admin.md)
    + [Menüanpassung](admin/customize-menus.md)
-   + [Metriksichtbarkeit](admin/metric-visibility.md)
+   + [Metrikgenauigkeit](admin/metric-visibility.md)
    + [Mobile Management](admin/mobile-management.md)
-   + Erkennung gebührenpflichtiger Suchvorgänge {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [Übersicht über die Erkennung gebührenpflichtiger Suchvorgänge](admin/paid-search-detection/paid-search-detection.md)
       + [Erkennung gebührenpflichtiger Suchvorgänge konfigurieren](admin/paid-search-detection/t-paid-search-detection.md)
    + [Veröffentlichungslisten](admin/publishing-list.md)
    + [Veröffentlichungs-Widget](admin/publishing-widgets-admin.md)
-   + [Voreinstellungs-Manager](admin/preferences-manager.md)
+   + [Voreinstellungen-Manager](admin/preferences-manager.md)
    + [Datenschutzeinstellungen](admin/privacy-settings.md)
    + Verarbeitungsregeln {#processing-rules}
       + [Übersicht über Verarbeitungsregeln](admin/c-processing-rules/processing-rules.md)
       + Konfiguration der Verarbeitungsregeln {#processing-rules-configuration}
          + [Funktionsweise von Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Auftrag wird bearbeitet](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+         + [Verarbeitungsreihenfolge](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Erstellen von Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Anzeigen der aktiven Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Anzeigen des Verlaufs von Verarbeitungsregeln](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
@@ -85,7 +85,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Serverseitige Weiterleitungsimplementierung überprüfen](admin/c-server-side-forwarding/ssf-verify.md)
       + [Häufig gestellte Fragen zur serverseitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
    + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
-   + [Social-Verwaltung](admin/social-management.md)
+   + [Social-Media-Verwaltung](admin/social-management.md)
    + Erfolgsereignisse {#success-events}
       + [Übersicht über Erfolgsereignisse](admin/c-success-events/success-event.md)
       + [Erfolgsereignisse konfigurieren](admin/c-success-events/t-success-events.md)
@@ -97,12 +97,12 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Traffic-Klassifizierungen](admin/c-traffic-variables/traffic-classifications.md)
    + Unique Visitor-Variable {#unique-visitor-variable}
       + [Festlegen der Unique Visitor-Variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Verwendungsfall – Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Verwendungsfall - Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Videomanagement](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
-   + [Hilfe zur Experience Cloud Admin Console](admin-console/home.md)
+   + [Hilfe zur Experience Cloud Admin-Konsole](admin-console/home.md)
    + Zugriffsberechtigung {#permissions}
-      + [Hilfe zum Produktprofil](admin-console/permissions/product-profile.md)
+      + [Hilfe zu Produktprofilen](admin-console/permissions/product-profile.md)
       + [Berechtigungselemente der Report Suite-Tools](admin-console/permissions/report-suite-tools.md)
       + [Berechtigungselemente der Analytics-Tools](admin-console/permissions/analytics-tools.md)
    + [Erstes Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
