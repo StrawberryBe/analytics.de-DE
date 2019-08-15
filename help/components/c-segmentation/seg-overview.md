@@ -1,36 +1,24 @@
 ---
 description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als kodifizierte Zielgruppeneinblicke ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
 seo-description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als kodifizierte Zielgruppeneinblicke ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
-seo-title: Segmente und Behälter
+seo-title: Info über Segmente und Container
 solution: Analytics
-title: Segmente und Behälter
+title: Info über Segmente und Container
 topic: Segmente
 uuid: e 8 b 1 edd 1-5 d 6 c -4213-994 b-789 ad 30 a 4
 translation-type: tm+mt
-source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
+source-git-commit: ecc601c17b6552baf0e8887b66326259d7498c79
 
 ---
 
 
-# Segmente und Behälter
+# Info über Segmente und Container
 
 Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als kodifizierte Zielgruppeneinblicke ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
-
-## About segments and containers {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
-
-Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als kodifizierte Zielgruppeneinblicke ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
-
-<!-- 
-
-seg_overview.xml
-
- -->
 
 Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Trefferebenenhierachie], wobei ein verschachteltes Behältermodell verwendet wird. Mit verschachtelten Behältern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Behältern und innerhalb der Behältern basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
 You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Behältern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als  [gestapelte Segmente](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34) verwendet werden.
-
-Mit Segmenten können Sie Besucher anhand von Merkmalen und der Sequenz von Seitenansichten identifizieren.
 
 ## Segmente {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -40,10 +28,10 @@ Segmente ermitteln, wer Ihre Besucher sind (Land, Geschlecht, Internetcafé), we
 
 Segmente können auf folgenden Werten basieren:
 
-* Auf Attributen basierende Besucher – Browsertyp, Gerät, Anzahl Besuche, Land, Geschlecht.
-* Auf Interaktionen basierende Besucher – Kampagnen, Keyword, Suchmaschine.
-* Auf Exits und Entries basierende Besucher – Besucher von Facebook, einer bestimmten Landingpage, Referrerdomäne.
-* Auf benutzerdefinierten Variablen basierende Benutzer – Formularfeld, definierte Kategorien, Kunden-ID.
+* Auf Attributen basierende Besucher: Browsertyp, Gerät, Anzahl der Besuche, Land, Geschlecht.
+* Auf Interaktionen basierende Besucher: Kampagnen, Suchbegriffssuche, Suchmaschine.
+* Auf Ausstiege und Einträgen basierende Besucher: Besucher von Facebook, einer definierten Landingpage, verweisende Domäne.
+* Auf benutzerspezifischen Variablen basierende Besucher: Formularfeld, definierte Kategorien, Kunden-ID.
 
 Beim Erstellen von Zielgruppensegmenten im Segmentaufbau definieren Sie Bedingungen, für die Sie zwischen den Behältern die Operatoren [!UICONTROL UND] und [!UICONTROL ODER] verwenden.
 
@@ -70,16 +58,6 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Dazu wird der [!UICONTROL DANN]-Operator verwendet.
 
-## Info zu Segmentcontainern {#concept_A38E7000056547399E346559D85E2551}
-
-Ein Segment legt Bedingungen für das Filtern eines Besuchers auf der Grundlage seiner Attribute oder Interaktionen mit Ihrer Site fest. Um in einem Segment Bedingungen festzulegen, legen Sie Regeln für die Filterung von Besuchern auf der Grundlage von Besuchermerkmalen und/oder Navigationsverhalten fest. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Der Segmentaufbau bietet eine einfache Architektur zum Erstellen dieser Untergruppen und das Anwenden von Regeln als verschachtelte hierarchische Behälter der Form Besucher &gt; Besuch &gt; Treffer.
-
-<!-- 
-
-seg_container_overview.xml
-
- -->
-
 ## Anleitungsvideo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
 In diesem YouTube-Video erhalten Sie einen kurzen Überblick darüber, was Container sind und wie Sie sie einsetzen können.
@@ -88,7 +66,9 @@ In diesem YouTube-Video erhalten Sie einen kurzen Überblick darüber, was Conta
 |---|---|
 | Segmentcontainer | [Segmentcontainer in Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&index=2&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
 
-## Info zu Behältern {#section_AF2A28BE92474DB386AE85743C71B2D6}
+## About containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+
+Ein Segment legt Bedingungen für das Filtern eines Besuchers auf der Grundlage seiner Attribute oder Interaktionen mit Ihrer Site fest. Um in einem Segment Bedingungen festzulegen, legen Sie Regeln für die Filterung von Besuchern auf der Grundlage von Besuchermerkmalen und/oder Navigationsverhalten fest. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Der Segmentaufbau bietet eine einfache Architektur, um diese Untergruppen zu erstellen und Regeln als verschachtelte, hierarchische Besucher-, Besuchs- oder Trefferbehälter anzuwenden.
 
 Die im Segmentaufbau verwendete Behälterarchitektur definiert **[!UICONTROL Besucher]als den äußersten Behälter, der übergreifende Daten enthält, die für den Besucher über Besuche und Seitenansichten hinweg spezifisch sind.** Mit einem verschachtelten **[!UICONTROL Besuchsbehälter]** können Sie Regeln festlegen, mit denen die Besucherdaten auf der Grundlage von Besuchen aufgeschlüsselt werden, und einen verschachtelten **Trefferbehälter], mit dem die Besucherinformationen auf der Grundlage einzelner Seitenansichten aufgeschlüsselt werden.[!UICONTROL ** Jeder Behälter ermöglicht Berichte über den Verlauf eines Besuchers, nach Besuch aufgeschlüsselte Interaktionen oder aufgeschlüsselte einzelne Treffer.
 
@@ -102,7 +82,7 @@ Besucherbehälter können Werte enthalten, die auf dem Gesamtverlauf eines Besuc
 
 * Tage bis Erstkauf
 * Ursprüngliche Entrypage
-* Ursprüngliche Referrerdomänen
+* Ursprünglich Referrerdomänen
 
 **Besuchebehälter**
 
@@ -110,7 +90,7 @@ Mit dem Besuchebehälter können Seiteninteraktionen, Kampagnen oder Konversione
 
 Besuchebehälter enthalten Werte, die auf dem Auftreten pro Besuch basieren:
 
-* Besuchsnummer
+* Besuchnummer
 * Entrypage
 * Rückkehrhäufigkeit
 * Beitragsmetriken
@@ -131,11 +111,11 @@ Trefferbehälter enthalten Werte, die auf den Aufschlüsselungen einzelner Seite
    >
    >Wenn Sie diesen Behälter für einen persistenten Wert verwenden, wie z. B. eine evar, wird jeder Hit, bei dem dieser Wert persistent bleibt, übernommen. Im Fall eines Trackingcodes, der nach einer Woche abläuft, kann dieser Wert über mehrere Besuche hinweg persistent sein.
 
-**Logischer Gruppenbehälter**
+**logischen Gruppenbehälters**
 
 Mit dem logischen Gruppenbehälter können Sie einen separaten Behälter innerhalb der Segmentregeln bereitstellen, um Entitäten zu filtern, die nicht hierarchiebasiert sind. Beispielsweise können Sie einen Behälter bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucherbehälter auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchern zu filtern. Dies lässt sich durch Verwendung des logischen Gruppenbehälters erreichen. Siehe [Beispiele für logische Gruppen](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) als ergänzende Information.
 
-## Verschachteln von Behältern {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
+## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
 Wenn Sie Segmentbehälter innerhalb anderer Behälter erstellen, erstellen Sie im Grunde ein Segment in einem Segment. Bei verschachtelten Behältern wird die folgende Logik angewendet:
 
@@ -168,7 +148,7 @@ wird ein Segment erstellt, das sich wie folgt verhält:
 1. Das Segment bezieht sich dann erneut auf Ihre gesamten Daten und prüft, ob Besucher einen Auftrag erteilt haben.
 1. Beide Datensätze werden dann auf den Bericht angewendet.
 
-## Behälter für sequenzielle Segmente {#section_324AF503F51A4A62806151FE440F3B2E}
+## Containers for sequential segments {#section_324AF503F51A4A62806151FE440F3B2E}
 
 Die sequenzielle Segmentierung verwendet dieselben grundlegenden Behälter wie [!UICONTROL Besucher], [!UICONTROL Besuche] und [!UICONTROL Treffer] (einschließlich Seitenansichten oder andere Dimensionen) hierarchisch verschachtelt.
 
@@ -184,19 +164,13 @@ Die einzige Ausnahme für diese Behälterhierarchie besteht in der Verwendung de
 
 ![](assets/logic_group_hierarchy.png)
 
-## Auf Behälterdaten basierende Berichte {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Reports based on container data {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 Mit Behältern können Sie unterschiedliche Daten auf der Grundlage von Berichtswerten unterschiedlich filtern, wenn Segmente aufgeschlüsselt und auf Berichte angewendet werden.
 
-<!-- 
+Daten, die auf den einzelnen Ebenen der Hierarchie der Behälter Besucher &gt; Besuch &gt; Treffer erfasst werden, beeinflussen, wie Sie Ihre Segmente erstellen. Wenn Sie dasselbe Segment auf denselben Bericht anwenden und dabei denselben Datensatz verwenden, erhalten Sie unterschiedliche Werte, die vom Behälter abhängen, von dem aus Sie den Bericht erzeugen. Faktoren wie die Behälterberichtsebene und die Persistenz von Werten über Treffer hinweg können große Veränderungen der Berichtsgenauigkeit verursachen. 
 
-seg_container_reports.xml
-
- -->
-
-Daten, die auf den einzelnen Ebenen der Hierarchie der Behälter Besucher &gt; Besuch &gt; Treffer erfasst werden, beeinflussen, wie Sie Ihre Segmente erstellen. Wenn Sie dasselbe Segment auf denselben Bericht anwenden und dabei denselben Datensatz verwenden, erhalten Sie unterschiedliche Werte, die vom Behälter abhängen, von dem aus Sie den Bericht erzeugen. Faktoren wie die Behälterberichtsebene und die Persistenz von Werten über Treffer hinweg können große Veränderungen der Berichtsgenauigkeit verursachen.
-
-## Grundlagen der Behälterdaten {#section_9576D970F912450191AFB5B83F7F1656}
+## Basics of container data {#section_9576D970F912450191AFB5B83F7F1656}
 
 Beispiel: Der unten dargestellte Besucher hat eine Site zum ersten Mal besucht, kam auf der Homepage an und hat dann drei weitere Seiten besucht und aus dem Besuch einen Kauf gemacht. Bei einem anderen Besuch landete der Besucher auf der Produktseite, wechselte dann zur Homepage, zurück zur Produktseite und schloss die Sitzung dann ab, nachdem er sich Wintermützen angesehen hat. Basierend auf den für die einzelnen Behälter für das Segment erfassten Daten, werden im Bericht unterschiedliche Werte angezeigt.
 
@@ -244,18 +218,18 @@ Beim Anzeigen von Segmenten aus dem Besucherbehälter können Sie sehen, dass di
 
 Zusammenfassend wird deutlich, dass das Wissen darüber, wie die Segmentierung bei unterschiedlichen Aufschlüsselungen von Daten funktioniert, bei der Interpretation der gelieferten Daten von entscheidender Bedeutung ist.
 
-## Auf dem Behälter basierende Berichte {#section_D0604748F2794327B8C668617A31EC18}
+## Reporting based on the container {#section_D0604748F2794327B8C668617A31EC18}
 
-Jede Aufschlüsselung von Segmentdaten hat einen Umfang, auf den diese angewendet wird. Die meisten Aufschlüsselungen basieren auf Seitenansichten, wobei jedoch viele wertvolle Segmente auf dem Besuchebehälter und in geringerem Umfang auf dem Besucherbehälter basieren. Es ist wichtig, dass Sie wissen, wie Berichte funktionieren, die auf dem Umfang Ihres Behälters basieren.
+Jede Aufschlüsselung von Segmentdaten hat einen Bereich, auf den sie angewendet wird. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Es ist wichtig, dass Sie wissen, wie Berichte funktionieren, die auf dem Umfang Ihres Behälters basieren.
 
 Anhand des zuvor verwendeten Segmentbeispiels *Seite = Wintermäntel*, definieren die im Folgenden aufgeführten Probleme weitere Aspekte Ihres Segments, die darauf basieren, wie die Behälterdaten angewendet werden und wie der Umfang der Daten mit dem Segmenttyp übereinstimmen sollte.
 
-** Auf übereinstimmender Segmentregel basierender Segmentbehälter**
+**Auf übereinstimmender Segmentregel basierender Segmentbehälter**
 
 Das Anwenden des Segmentbehälters auf einen normalen Datenbereich bringt die erwarteten Ergebnisse, in denen die Linienelemente mit der Segmentregel übereinstimmen.
 
-* **Trefferbehälter, bei dem Seite gleich „Wintermantel“**: Ein Seitenbericht mit diesem Segment liefert nur die Werte, die mit „Wintermantel“ übereinstimmen. Alle anderen Seiten werden aus dem Bericht ausgeschlossen.
-* **Besuchebehälter, bei dem Entrypage gleich „Winterkleidung“**: Ein Entrypage-Bericht mit diesem Segment liefert nur den zweiten Besuch, weil dessen Entrypage mit der Segmentregel übereinstimmt.
+* **Trefferbehälter, bei dem Seite gleich „Wintermantel“***: Ein Seitenbericht mit diesem Segment liefert nur die Werte, die mit „Wintermantel“ übereinstimmen.* Alle anderen Seiten werden aus dem Bericht ausgeschlossen.
+* **Besuchebehälter, bei dem Entrypage gleich „Winterkleidung“***: Ein Entrypage-Bericht mit diesem Segment liefert nur den zweiten Besuch, weil dessen Entrypage mit der Segmentregel übereinstimmt.*
 * **Besuchebehälter, bei dem Besuchsnummer gleich 1**: Alle Seitenansichten des ersten Besuchs sind im Bericht enthalten, weil er mit der Segmentregel übereinstimmt.
 
 **Seitenansichten auf der Besuchebehälterebene**
@@ -275,15 +249,9 @@ Die Verwendung des Segments mit einem Behälter, der kleiner als der Aufschlüss
 * **Trefferbehälter, bei dem Seite gleich „Kauf“**: Bei der Verwendung von Seitenansichten als Metrik wird nur die Kaufseite angezeigt (erwartungsgemäß). Bei Verwendung eines Berichts über den Beitrag am Umsatz erhalten alle Seiten im ersten Besuch 100 $, da Beitragsmetriken besuchsbasiert sind.
 * **Trefferbehälter, bei dem Seite gleich „Wintermantel“**: Bei der Verwendung von Seitenansichten als Metrik wird nur die Wintermantel-Seite angezeigt (erwartungsgemäß). Bei Verwendung eines Berichts über den Beitrag am Umsatz erhält keine Seite eine Gutschrift, da für diese Dimension eine persistente Dimension erforderlich ist. Die Seitenansicht, auf der der Kauf tatsächlich stattfand (die Kaufseite) ist nicht im Trefferbehälter enthalten, weshalb kein Element einen Umsatzbeitrag erhält. Bei einem über den Besuchebehälter ausgeführten Bericht wären jedoch alle Seitenansichten dieses Besuchs enthalten und der Umsatzbeitrag (100 $) würde über alle in der Sitzung gesehenen Seiten verteilt.
 
-## Persistenz über Behälter hinweg {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
+## Persistence across containers {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
 Die Filterung nach Dimensionen, die über einen Seitenbereich persistent sind, z. B. ein Kampagnen-eVar oder eine Referrerdimension, wirkt sich auf die auf Behälterebene gesammelten Daten aus und muss im Hinblick auf die Berichtsgenauigkeit nachvollzogen werden.
-
-<!-- 
-
-seg_container_persistence.xml
-
- -->
 
 Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Trefferbehälter gefiltert. (Siehe das Beispiel [Auf Behälterdaten basierende Berichte](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
 
