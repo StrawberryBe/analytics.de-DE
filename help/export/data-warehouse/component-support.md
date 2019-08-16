@@ -2,7 +2,7 @@
 title: Komponentenunterstützung in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 translation-type: tm+mt
-source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -24,14 +24,14 @@ Einige Dimensionen und Metriken können in Data Warehouse verwendet werden, wäh
 
 ### Metriken, die exklusiv unterstützt werden
 
-* Besuche: Diese Metrik im Kontext von Data Warehouse schließt nicht beständige Cookie-Besuche ein.
+* Besuche: Diese Metrik im Kontext von Data Warehouse schließt nicht beständige Cookie-Besuche aus.
 * Besuche - Alle Besucher: Diese Metrik im Kontext von Data Warehouse hat eine engere Gleichheit mit der Besuchsmetrik in anderen Tools in Adobe Analytics.
 
 ## Komponenten, die in Data Warehouse nicht unterstützt werden
 
 Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 
-> [!IMPORTANT] Wenn eine Dimension oder Metrik in Data Warehouse nicht unterstützt wird, werden Segmente, die diese Komponenten verwenden, nicht unterstützt. Prüfen Sie stets die Produktkompatibilität, wenn Sie ein Segment erstellen oder bearbeiten.
+> [!NOTE] Wenn eine Dimension oder Metrik in Data Warehouse nicht unterstützt wird, werden Segmente, die diese Komponenten verwenden, nicht unterstützt. Prüfen Sie stets die Produktkompatibilität, wenn Sie ein Segment erstellen oder bearbeiten.
 
 ### Dimensionen werden nicht unterstützt
 
