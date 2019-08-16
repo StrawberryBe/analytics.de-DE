@@ -1,27 +1,33 @@
 ---
-title: Hilfe zu Analytics-Komponenten
-seo-title: Hilfe zu Analytics-Komponenten
+title: Hilfe zu den Analytics-Komponenten
+seo-title: Hilfe zu den Analytics-Komponenten
 description: 'null '
 seo-description: 'null '
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics-Komponentenhandbuch
+# Komponentenleitfaden für Analytics
 
 ![Banner](../../assets/doc_banner_components.png)
 
-Mithilfe von Analytics-Komponenten können Sie die Analyse Ihrer Customer Journey optimieren und einschätzen. Beispiele für Komponenten sind Segmente, berechnete Metriken, Virtual Report Suites und Warnungen.
+Mit Analytics-Komponenten können Sie eine Feinabstimmung vornehmen und Ihre Datenanalyse einbetten. Zu den Komponenten gehören:
+
+* **Segmentierung:** Konzentrieren Sie sich auf eine Untergruppe Ihrer Daten.
+* **Berechnete Metriken:** Verwenden Sie einfache Formeln, um Metriken oder erweiterte Funktionen für statistische Analysen zu kombinieren.
+* **Virtual Report Suites:** Erstellen Sie eine virtuelle Silo mit Daten, die auf einer Report Suite basieren. Ermöglicht die Möglichkeit, Daten für eine bessere Benutzerfreundlichkeit zu säubern oder zu segmentieren. Einige Funktionen können nur in Virtual Report Suites verwendet werden.
+* **Warnungen:** Erhalten Sie Benachrichtigungen, wenn Daten über oder unter einem Schwellenwert liegen.
+* **Klassifizierungen:** Sie können Dimensionen neu organisieren und gruppieren, um zusätzliche Einblicke zu erhalten.
+* **Variablen:** Ein Referenzhandbuch für alle in Berichten verfügbaren Dimensionen und Metriken.
+* **Echtzeitberichte:** Rufen Sie Berichte und Trends in der Minute ab, in der sie verfügbar sind.
+* **Marketingkanäle:** Verstehen Sie, wie Besucher zu Ihrer Site gelangen und welche Kanäle am erfolgreichsten sind.
 
 ## Artikel zu Schlüsselanalysen-Komponenten
 
-* [Dimensionsreferenz](c-variables/dimensionslist/reports-descriptions.md)
+* [Dimensionsverweis](c-variables/dimensionslist/reports-descriptions.md)
 * [Metrikreferenz](c-variables/c-metrics/metricslist.md)
-* [Berechnete Metriken](c-calcmetrics/cm-overview.md)
-* [Segmentierung](c-segmentation/seg-home.md)
-* [Marketing-Kanäle](c-marketing-channels/c-overview.md)
 
 ## Weitere Benutzerhandbücher für Analytics
 
@@ -29,11 +35,7 @@ Mithilfe von Analytics-Komponenten können Sie die Analyse Ihrer Customer Journe
 
 ## Wichtige Analytics-Ressourcen
 
-* [Einstieg](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud-Schulungen und -Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Support kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Wenden Sie sich an den Kundendienst.](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
