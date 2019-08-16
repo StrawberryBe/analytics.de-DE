@@ -5,7 +5,7 @@ seo-title: Admin Tools
 title: Admin Tools
 uuid: 6961 e 956-14 ea -4367-bdbd-eb 0 bcc 456 aae
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**
 
->[!IMPORTANT]
->
->Öffnen Sie nicht mehrere Admin-Registerkarten im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
+>[!IMPORTANT] Öffnen Sie nicht mehrere Admin-Registerkarten im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
 
 + [Rechnungsstellung](billing-admin.md)
 + [Übersicht über Bot-Regeln](bot-removal/bot-rules.md)
