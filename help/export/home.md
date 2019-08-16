@@ -1,19 +1,22 @@
 ---
-title: Hilfe zum Analytics-Export
-seo-title: Hilfe zum Analytics-Export
+title: Export-Hilfe für Analytics
+seo-title: Export-Hilfe für Analytics
 description: 'null '
 seo-description: 'null '
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics-Exporthandbuch
+# Exportleitfaden für Analytics
 
 ![Banner](../../assets/doc_banner_export.png)
 
-Dieses Handbuch erläutert verschiedene Datenexportmethoden wie Datenfeeds und Data Warehouse.
+In diesem Handbuch werden Wege zum Abrufen von Daten aus Adobe Analytics erläutert. Zu diesem Dienst gehören:
+
+* **Datenfeeds:** Erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein einzelner Hit, und jede Spalte ist eine Variable. Datenfeeds werden normalerweise an FTP-Sites gesendet.
+* **Data Warehouse:** Verwenden Sie einen Anforderungs-Assistenten, um eine Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und eine beliebige Anzahl einzigartiger Werte zuzulassen.
 
 ## Wichtige Analytics-Exportartikel
 
@@ -27,11 +30,7 @@ Dieses Handbuch erläutert verschiedene Datenexportmethoden wie Datenfeeds und D
 
 ## Wichtige Analytics-Ressourcen
 
-* [Einstieg](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud-Schulungen und -Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Support kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Wenden Sie sich an den Kundendienst.](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
