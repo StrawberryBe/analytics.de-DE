@@ -1,7 +1,7 @@
 ---
 title: Technische Hinweise - Startseite
 translation-type: tm+mt
-source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -20,11 +20,7 @@ Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem 
 
 ## Wichtige Analytics-Ressourcen
 
-* [Einstieg](https://helpx.adobe.com/analytics/get-started.html)
-* [Videos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud-Schulungen und -Support](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Support kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Wenden Sie sich an den Kundendienst.](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
