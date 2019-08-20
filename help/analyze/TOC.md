@@ -294,7 +294,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Data Warehouse-Anforderungen](reports-analytics/data-warehouse.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis  {#ad-hoc-analysis}
++ Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Ad Hoc Analysis Project Converter – Übersicht](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad Hoc Analysis konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
