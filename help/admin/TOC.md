@@ -3,7 +3,7 @@ product: analytics
 audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 user-guide-url: /content/help/de-DE/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -20,16 +20,16 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Admin Tools](admin/c-admin-tools.md)
    + [Rechnungsstellung](admin/billing-admin.md)
    + Bot-Entfernung {#bot-removal}
-      + [Übersicht über Bot Rules](admin/bot-removal/bot-rules.md)
+      + [Übersicht über Bot-Regeln](admin/bot-removal/bot-rules.md)
       + [Hochladen von Bot-Regeln](admin/bot-removal/t-upload-bot-rules.md)
       + [Erstellen einer benutzerspezifischen Bot-Regel](admin/bot-removal/t-create-bot-rules.md)
    + [Code-Manager](admin/code-manager-admin.md)
-   + Conversion variables {#conversion-variables}
+   + Konversionsvariablen {#conversion-variables}
       + [Konversionsvariablen (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Konversionsvariablen bearbeiten](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Konversionsklassifizierungen](admin/conversion-var-admin/conversion-classifications.md)
    + [Währungscodes](admin/currency.md)
-   + [Benutzerspezifische Berichtbeschreibungen](admin/custom-desc-admin.md)
+   + [Beschreibung benutzerspezifischer Berichte](admin/custom-desc-admin.md)
    + [Kalender anpassen](admin/custom-calendar.md)
    + [Data Sources](admin/data-sources.md)
    + [Standardmetriken](admin/default-metrics.md)
@@ -41,14 +41,14 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Protokolle](admin/logs.md)
    + [Marketing-Kanäle](admin/marketing-channels-admin.md)
    + [Menüanpassung](admin/customize-menus.md)
-   + [Metrikgenauigkeit](admin/metric-visibility.md)
+   + [Sichtbarkeit der Metriken](admin/metric-visibility.md)
    + [Mobile Management](admin/mobile-management.md)
-   + Paid search detection {#paid-search-detection}
+   + Erkennung von Paid Search{#paid-search-detection}
       + [Übersicht über die Erkennung gebührenpflichtiger Suchvorgänge](admin/paid-search-detection/paid-search-detection.md)
       + [Erkennung gebührenpflichtiger Suchvorgänge konfigurieren](admin/paid-search-detection/t-paid-search-detection.md)
-   + [Veröffentlichungslisten](admin/publishing-list.md)
-   + [Veröffentlichungs-Widget](admin/publishing-widgets-admin.md)
-   + [Voreinstellungen-Manager](admin/preferences-manager.md)
+   + [Publishing-Listen](admin/publishing-list.md)
+   + [Publishing-Widget](admin/publishing-widgets-admin.md)
+   + [Voreinstellungs-Manager](admin/preferences-manager.md)
    + [Datenschutzeinstellungen](admin/privacy-settings.md)
    + Verarbeitungsregeln {#processing-rules}
       + [Übersicht über Verarbeitungsregeln](admin/c-processing-rules/processing-rules.md)
@@ -97,12 +97,12 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Traffic-Klassifizierungen](admin/c-traffic-variables/traffic-classifications.md)
    + Unique Visitor-Variable {#unique-visitor-variable}
       + [Festlegen der Unique Visitor-Variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Verwendungsfall - Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Anwendungsfall – Extrahieren von Besucher-IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Videomanagement](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
-   + [Hilfe zur Experience Cloud Admin-Konsole](admin-console/home.md)
+   + [Hilfe zur Experience Cloud Admin Console](admin-console/home.md)
    + Zugriffsberechtigung {#permissions}
-      + [Hilfe zu Produktprofilen](admin-console/permissions/product-profile.md)
+      + [Hilfe zum Produktprofil](admin-console/permissions/product-profile.md)
       + [Berechtigungselemente der Report Suite-Tools](admin-console/permissions/report-suite-tools.md)
       + [Berechtigungselemente der Analytics-Tools](admin-console/permissions/analytics-tools.md)
    + [Erstes Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
