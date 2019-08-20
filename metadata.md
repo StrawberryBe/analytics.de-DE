@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: adobe analytics
 solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon -24. png
-getting-started-title: Einstieg
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+solution-hub-url: https://helpx.adobe.com/de/support/analytics.html
+solution-image: assets/analytics-icon-24.png
+getting-started-title: Erste Schritte
+getting-started-url: https://helpx.adobe.com/de/analytics/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
+tutorials-url: https://helpx.adobe.com/de/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
 
 ---
@@ -28,4 +28,4 @@ Die Datei metadata.md enthält Metadaten auf Repo-Ebene, die an die TOC.md-Datei
 | getting-started-url | Link zur Startseite Erste Schritte von helpx |
 | tutorials-url | Link zu Video-Übungen – entweder Helpx-Übungen oder KT-Übungen |
 | mini-toc-levels | Legt fest, wie viele Überschriftenebenen in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
-| git-repo | Gibt den Speicherort des Master-Reploads für die interne Verwendung an. |
+| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an. |
