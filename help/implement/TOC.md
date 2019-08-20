@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [Analytics-Besucher-ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Ausweich-ID-Methoden](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Mobile Geräte identifizieren](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Zentrale Experience Cloud-Dienste](https://marketing.adobe.com/resources/help/de_DE/mcloud/?f=core_services)
+   + [Zentrale Experience Cloud-Dienste](https://marketing.adobe.com/resources/help/de_DE/mcloud/core_services.html)
    + Geräteübergreifende Besuchererkennung {#cross-device-visitor-id}
       + [Benutzer geräteübergreifend verbinden](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Auswirkungen der geräteübergreifenden Besucheridentifizierung auf die Daten](js-implementation/xdevice-visid/xdevice-data.md)
