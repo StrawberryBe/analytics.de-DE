@@ -7,7 +7,7 @@ title: Datenanforderung planen
 topic: ReportBuilder
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,13 +16,24 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 Sie können Arbeitsmappen planen, erweiterte Bereitstellungsoptionen festlegen, Empfänger angeben und den Planverlauf anzeigen. Mit erweiterten Auslieferungsoptionen können Sie Arbeitsmappen konfigurieren, die Sie zu einem bestimmten Zeitpunkt oder in Intervallen senden möchten. Sie können auch das Dateiformat angeben, in dem die Arbeitsmappe gesendet werden soll.
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. Die Dateigröße ist für einen Bericht-Upload auf 5 MB begrenzt.
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. Die maximale Dateigröße beträgt 5 MB für einen Arbeitsmappen-Upload.
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Siehe [Berichtsplanung und -verteilung](/help/analyze/reports-analytics/scheduling.md) in der Hilfe zu Reports &amp; Analysen.)
 
 >[!NOTE]
 >
 >Zum Planen einer Arbeitsmappe muss Excel 2007 oder das Compatibility Pack installiert sein. Pro Reportbuilder-Lizenz können maximal 10 geplante Arbeitsmappen verwendet werden. Jedoch können Sie diese Zahl erhöhen, indem Sie bei anderen Lizenzen die benötigte Menge an Arbeitsmappen wegnehmen. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Eine Arbeitsmappe, die geplant (oder in die Arbeitsmappen-Bibliothek hochgeladen) wurde und in über 28 Monaten nicht weiter verwendet (aktualisiert, ersetzt) wurde, wird gelöscht.
+
+>[!NOTE]
+>
+>Die vom Benutzer eingegebene "Auslieferungszeit" /" Tageszeit" gibt den Zeitpunkt an, zu dem die Arbeitsmappe mit der Verarbeitung beginnen soll, nicht den Zeitpunkt, zu dem sie tatsächlich bereitgestellt wird. Die tatsächliche Zeit, an der die Arbeitsmappe bereitgestellt wird, basiert hauptsächlich darauf, wie lange es dauert (komplexe und große Arbeitsmappen verarbeiten die Verarbeitung länger als einfache Arbeitsmappen). Wenn eine Arbeitsmappe z. B. 15 Minuten zur Verarbeitung benötigt, beträgt die tatsächliche Bereitstellungszeit mindestens 15 Minuten nach der ursprünglich angegebenen "Lieferzeit" /" Tageszeit" .
+>Darüber hinaus gibt es eine Reihe weiterer Faktoren, die die Verzögerung noch erhöhen können, bevor die Arbeitsmappe tatsächlich bereitgestellt wird:
+>
+> * **Die gleichzeitige Ausführung verschiedener Zeitpläne desselben Typs** kann das System überladen. Das Planungssystem erlaubt nur einige (bis 10) Arbeitsmappen eines Typs, die gleichzeitig ausgeführt werden sollen. Wenn also mehr als 5-10 gleichzeitig geplant werden, müssen einige andere Arbeitsmappen auf die Fertigstellung warten, bevor sie mit der Verarbeitung beginnen können. Dieses Problem kann reduziert werden, indem die Arbeitsmappen eines Unternehmens zu stagnierenden Zeiten außerhalb des Tages oder der Stunde eingeplant werden und nicht gleichzeitig.
+> * Abgesehen vom jeweiligen Arbeitsmappen-Typ werden Arbeitsmappen auch dann gewartet, wenn das Unternehmen **über 15-20 jedes beliebigen Arbeitsmappen-Typs gleichzeitig geplant hat (für alle anderen Arbeitsmappen-Typen)**. Dies kann durch die plötzliche Zeitplanung reduziert werden, anstatt dass viele Ausführungsvorgänge gleichzeitig ausgeführt werden.
+> * **Probleme in Downstream Services** , auf die der Scheduler angewiesen ist, können auch die Bereitstellung von Arbeitsmappen beeinträchtigen. Wenn Sie beispielsweise die apis unabhängig verwenden, um Arbeitsmappen auszuführen und die API-Anforderungswarteschlange auszufüllen, können Ihre geplanten Arbeitsmappen langsam bereitgestellt werden, während Sie auf diese Ressource konkurrieren.
+> * **Die Report Suite-Latenz** (Verzögerung bei der Datenerfassung) kann auch einige geplante Arbeitsmappen verzögern.
+
 
 **So planen Sie eine Arbeitsmappe**
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Auswählen </p> </td> 
-   <td colname="col2"> <p>Hierdurch wird die Seite <span class="wintitle">Bericht auswählen</span> angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie einen Arbeitsmappe von der lokalen Festplatte im <span class="filepath">.xls</span>-Format auswählen, wandelt das System sie in eine <span class="filepath">.xlsx</span>-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die für den terminierten Bericht ausgewählte Arbeitsmappe denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System statt der vorher hochgeladenen Datei die lokale Datei. Wenn Sie einen Bericht aus dem Repository der terminierten Berichte wählen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt und deren Dateiname um „1“ erweitert, und der neu terminierte Bericht verwendet die kopierte Arbeitmappe. </p> </td> 
+   <td colname="col2"> <p>Hierdurch wird die Seite <span class="wintitle">Bericht auswählen</span> angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie einen Arbeitsmappe von der lokalen Festplatte im <span class="filepath">.xls</span>-Format auswählen, wandelt das System sie in eine <span class="filepath">.xlsx</span>-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die für den terminierten Bericht ausgewählte Arbeitsmappe denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System statt der vorher hochgeladenen Datei die lokale Datei. Wenn Sie einen Bericht aus dem Repository planen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt, wobei der Dateiname mit 1 aktualisiert wird. Der neu erstellte geplante Bericht verwendet die kopierte Arbeitsmappe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anpassen </p> </td> 
