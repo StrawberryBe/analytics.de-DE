@@ -5,7 +5,7 @@ seo-title: Optimieren Sie die Leistung des Analysis Workspace.
 title: Optimieren Sie die Leistung des Analysis Workspace.
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -25,7 +25,7 @@ Komplizierte Segmente können einen erheblichen Einfluss auf die Projektleistung
 * Viele OR-Operatoren (anstelle von AND)
 * Verschachtelte Behälter, die unterschiedlich sind (z. B. "Treffer" innerhalb von" Besuch" innerhalb von "Besucher" )
 
-**Best Practice für Logikkomplexität**
+**Best Practices für Logikkomplexität**
 
 Während einige der Komplexitätsfaktoren nicht verhindert werden können, sollten Sie über Möglichkeiten nachdenken, die Komplexität Ihrer Segmente zu verringern. Generell gilt: Je genauer Sie mit Ihren Segmentkriterien umgehen können, desto besser. Beispiel:
 
@@ -39,7 +39,7 @@ Außerdem können [Klassifizierungen](/help/components/c-classifications2/c-clas
 
 Die Menge der während eines Projekts angeforderten Daten beeinflusst die Performance von Analysis Workspace.
 
-**Best Practice für Datumsbereich**
+**Bewährte Verfahren für den Datumsbereich**
 
 Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen.
 
@@ -95,7 +95,9 @@ Die Größe der Report Suite kann wie ein wichtiger Faktor erscheinen, doch tats
 
 Die Anzahl der Benutzer, die gleichzeitig auf Analysis Workspace oder bestimmte Projekte zugreifen, hat keine wesentlichen Auswirkungen auf die Leistung des Analysis Workspace, wenn Benutzer auf verschiedene Report Suites zugreifen. Wenn gleichzeitig Benutzer auf dieselbe Report Suite zugreifen, wird die Leistung beeinträchtigt.
 
-## Häufige Fehler beheben
+## Häufige Fehlermeldungen im Analysis Workspace
+
+Bei der Interaktion mit Analysis Workspace treten möglicherweise Fehler auf. Fehler können aus verschiedenen Gründen auftreten und die folgenden sind am häufigsten aufgeführt.
 
 | Fehlermeldung | Warum tritt dies auf? |
 |---|---|
