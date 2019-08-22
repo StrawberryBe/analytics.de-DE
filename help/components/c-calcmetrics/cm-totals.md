@@ -4,7 +4,7 @@ seo-title: Berechnete Metriken insgesamt
 description: Erfahren Sie, wie sich berechnete Metriken in den Analytics-Tools unterscheiden.
 seo-description: Berechnung der Summen errechneter Metriken
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ Da es keine logische und konkrete Methode gibt, um festzustellen, ob eine berech
 
 In Analysis Workspace werden berechnete Metriken unter bestimmten Umständen summiert, um eine Gesamtsumme anzuzeigen:
 
-* Wenn [statische Zeilen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) vorhanden sind und die **[!UICONTROL Gesamtzahlen addiert werden, indem die Werte in jeder Spalte]** (Standard) addiert werden, wird die Option "Standard" ausgewählt.
+* Wenn in Freiform-Tabellen [statische Zeilen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) vorhanden sind und die Berechnung *[!UICONTROL der Summen durch Summierung der aktuell in den Spalten]* vorhandenen Werte (Standard) aktiviert ist
 * [In der Ringdiagrammdarstellung.](/help/analyze/analysis-workspace/visualizations/donut.md)
 * In der [Visualisierung der Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
