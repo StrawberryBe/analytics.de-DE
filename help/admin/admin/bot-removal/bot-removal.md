@@ -4,7 +4,7 @@ seo-title: Bot-Entfernung in Adobe Analytics
 description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 seo-description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Denken Sie daran, die Experience Cloud Besucher-ID als Dimension zu verwenden un
 
 ## Schritt 4: Übergeben Sie diese Liste zurück an Adobe als Kundenattribut
 
-Sobald der Data Warehouse-Bericht eingehen, erhalten Sie eine Liste mit ecids, die aus historischen Daten gefiltert werden müssen. Kopieren Sie diese ecids in eine leere CSV-Datei mit nur zwei Spalten, ECID und Bot Flag:
+Sobald der Data Warehouse-Bericht eingehen, erhalten Sie eine Liste mit ecids, die aus historischen Daten gefiltert werden müssen. Kopieren Sie diese ecids in eine leere. CSV-Datei mit nur zwei Spalten, ECID und Bot Flag:
 
-
+![](assets/bot-csv-4.png)
 
 Stellen Sie sicher, dass die erste Spaltenüberschrift mit dem Namen übereinstimmt, den Sie der neuen deklarierten ID oben gegeben haben. Verwenden Sie diese. CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie Ihre Report Suite (s) dem Kundenattribut, wie in diesem [Blog-Beitrag beschrieben](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## Schritt 5: Erstellen Sie ein Segment, das das neue Kundenattribut nutzt.
 
 Nachdem Ihr Datensatz verarbeitet und in den Analysis Workspace integriert wurde, erstellen Sie ein weiteres Segment, das Ihre neue Kundenattributdimension "Bot-Marke" nutzt:
+
