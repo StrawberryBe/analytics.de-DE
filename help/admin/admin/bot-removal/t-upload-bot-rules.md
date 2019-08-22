@@ -8,7 +8,7 @@ title: Hochladen von Bot-Regeln
 topic: Admin Tools
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ Für einen Massenimport von Bot-Regeln können Sie eine CSV-Datei hochladen, in 
 Erstellen Sie eine CSV-Datei mit den folgenden Spalten in der angezeigten Reihenfolge:
 
 | Spalte 1 | Spalte 2 | Spalte 3 | Spalte 4 | Spalte 5 |
-|---|---|---|---|---|
-| Bot-Name | IP-Start | IP-Ende | Agent-Übereinstimmungsregel<br>(`contains` oder `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| Bot-Name | IP-Start | IP-Ende | Agent Match Rule<br>(contains or starts with)</br> | Agent Exclude (<br>Max. 255 Zeichen)</br> |
 
 Sie können drei Arten von Bot-Regeln definieren:
 
