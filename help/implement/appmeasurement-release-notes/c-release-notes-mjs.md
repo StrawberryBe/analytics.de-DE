@@ -8,7 +8,7 @@ title: AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
+source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
 
 ---
 
@@ -24,6 +24,15 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## Versionen 2.17.0
+
+Releasedatum: **23. August 201**
+
+| Funktion/Korrektur | Beschreibung |
+| -----------| ---------- |
+| Baidu-Unterstützung hinzugefügt | Zusätzliche Unterstützung für Baidu-Abfragezeichenfolgenneuanordnung. |
+| Fehlerbehebung | Es wurde ein Fehler behoben, der dazu führte, dass statische Besucherwerte in Treffern, die in Warteschlange lagen, in die Warteschlange lagen, während sie auf die Teilnahme warten. |
 
 ## Version 2.16.0
 
@@ -90,7 +99,7 @@ Releasedatum: **24.05.2018**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden ([!DNL at.js], [!DNL AppMeasurement.js] usw.)
+>Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Es wurde ein Problem behoben, durch das nach der Deaktivierung von Linktracking weiterhin ein Linktracking-Cookie erstellt wurde. (AN-156332)
