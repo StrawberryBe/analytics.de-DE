@@ -1,9 +1,9 @@
 ---
-title: Analytics-Implementierungen sind hilfreich
-seo-title: Analytics-Implementierungen sind hilfreich
-description: 'null '
-seo-description: 'null '
-translation-type: tm+mt
+title: Implementierungshilfe für Analytics
+seo-title: Implementierungshilfe für Analytics
+description: 'null'
+seo-description: 'null'
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,18 +13,18 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![Banner](../../assets/doc_banner_implement.png)
 
-Dieses Handbuch führt Sie durch verschiedene Implementierungsmethoden von Adobe Analytics.
+Dieser Leitfaden enthält die verschiedenen Implementierungsmethoden von Adobe Analytics.
 
-* **Adobe Experience Platform Launch:** Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Platzieren Sie ein Loader-Tag auf jeder Seite und bestimmen Sie, wie die einzelnen Variablen definiert werden.
-* **Dynamisches Tag-Management:** Der vorherige Start des Predecessor. DTM verwendet eine ähnliche Schnittstelle zur Implementierung von Analytics, wird jedoch nicht mehr aktualisiert und ist nicht so flexibel. Adobe empfiehlt die Verwendung von Launch für die Implementierung von Adobe Analytics.
-* **Legacy-javascript:** Die historische manuelle Methode zur Implementierung von Adobe Analytics. Konturen von Variablen und Einstellungen in einer Implementierung, die für Startimplementierungen mit Regeln mit benutzerspezifischem Code nützlich sein können.
+* **Adobe Experience Platform Launch:** Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Platzieren Sie ein Loader-Tag auf jeder Seite und definieren Sie die einzelnen Variablen über die Benutzeroberfläche von Launch.
+* **Dynamic Tag Management:** der Vorgänger von Launch. DTM verwendet eine ähnliche Benutzeroberfläche zur Implementierung von Analytics, wird jedoch nicht mehr aktualisiert und ist weniger flexibel. Adobe empfiehlt Launch zum Implementieren von Adobe Analytics.
+* **Legacy JavaScript:** Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Führt Variablen und Einstellungen auf, die für eine Implementierung verwendet werden. Dies kann für Launch-Implementierungen hilfreich sein, bei denen benutzerdefinierter Code verwendet wird.
 
-## Wichtige Analytics-Importartikel
+## Wichtige Artikel über den Import in Analytics
 
 * [Adobe Debugger](impl-testing/debugger.md)
-* [Erstellen einer Eigenschaft im Experience Platform Start](implement-with-launch/create-analytics-property.md)
+* [Eigenschaft in Experience Platform Launch erstellen](implement-with-launch/create-analytics-property.md)
 * [Implementierungsmethode auswählen](c-implementation-methods/choose-implementation-method.md)
-* [Versionshinweise zur appmeasurement Library](appmeasurement-release-notes/appmeasurement-release-notes.md)
+* [Versionshinweise zur AppMeasurement-Bibliothek](appmeasurement-release-notes/appmeasurement-release-notes.md)
 
 ## Weitere Benutzerhandbücher für Analytics
 
@@ -32,7 +32,7 @@ Dieses Handbuch führt Sie durch verschiedene Implementierungsmethoden von Adobe
 
 ## Wichtige Analytics-Ressourcen
 
-* [Wenden Sie sich an den Kundendienst.](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=de#recommended/solutions/analytics)
