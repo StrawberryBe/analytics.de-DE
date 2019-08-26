@@ -1,9 +1,9 @@
 ---
 title: Export-Hilfe für Analytics
 seo-title: Export-Hilfe für Analytics
-description: 'null '
-seo-description: 'null '
-translation-type: tm+mt
+description: 'null'
+seo-description: 'null'
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,14 +13,14 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![Banner](../../assets/doc_banner_export.png)
 
-In diesem Handbuch werden Wege zum Abrufen von Daten aus Adobe Analytics erläutert. Zu diesem Dienst gehören:
+In diesem Handbuch wird beschrieben, wie Sie Daten aus Adobe Analytics abrufen können. Zu diesem Dienst gehören:
 
-* **Datenfeeds:** Erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein einzelner Hit, und jede Spalte ist eine Variable. Datenfeeds werden normalerweise an FTP-Sites gesendet.
-* **Data Warehouse:** Verwenden Sie einen Anforderungs-Assistenten, um eine Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und eine beliebige Anzahl einzigartiger Werte zuzulassen.
+* **Daten-Feeds:** Hiermit erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein separater Treffer und jede Spalte ist eine Variable. Daten-Feeds werden normalerweise an FTP-Sites gesendet.
+* **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und von Einzelwerten zu ermöglichen.
 
-## Wichtige Analytics-Exportartikel
+## Wichtige Artikel über den Export in Analytics
 
-* [Datenfeed-Spaltenreferenz](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
+* [Referenz zur Daten-Feed-Spalte](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * [Data Warehouse](data-warehouse/data-warehouse.md)
 * [Exportieren nach FTP](ftp-and-sftp/ftp-overview.md)
 
@@ -30,7 +30,7 @@ In diesem Handbuch werden Wege zum Abrufen von Daten aus Adobe Analytics erläut
 
 ## Wichtige Analytics-Ressourcen
 
-* [Wenden Sie sich an den Kundendienst.](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=de#recommended/solutions/analytics)
