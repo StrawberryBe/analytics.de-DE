@@ -1,9 +1,9 @@
 ---
 title: Administratorhilfe für Analytics
 seo-title: Analytics-Produktvergleich
-description: 'null '
-seo-description: 'null '
-translation-type: tm+mt
+description: 'null'
+seo-description: 'null'
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -15,20 +15,20 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 Adobe Analytics verfügt derzeit über zwei Bereiche für Administratoren:
 
-* Adobe Admin-Konsole: Verwenden Sie diesen Bereich zur Bereitstellung von Experience Cloud-Werkzeugen und Verwalten von Benutzerberechtigungen. Es befindet sich unter [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analytics Admin-Konsole: Verwenden Sie diesen Bereich für Report Suite und Variablenverwaltung. Sie können darauf zugreifen, indem Sie in der oberen Kopfzeile von Adobe Analytics auf Admin klicken.
+* Adobe Admin Console: In diesem Bereich können Sie Experience Cloud-Werkzeuge bereitstellen und Benutzerberechtigungen verwalten. Die Adobe Admin Console finden Sie unter [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Analytics Admin Console: In diesem Bereich können Sie Report Suites und Variablen verwalten. Der Zugriff darauf erfolgt über „Admin“ in der oberen Kopfzeile von Adobe Analytics.
 
-Dieses Handbuch umfasst:
+Dieses Handbuch beinhaltet:
 
-* Alle Aufgaben, die in der Admin-Konsole von Analytics durchgeführt werden. Dieser Bereich umfasst die Einrichtung von Report Suites, Variablen, Classifications oder Daten-Governance. Eine Liste der verfügbaren Report Suite- und Unternehmenseinstellungen finden Sie unter [Admin Tools](admin/c-admin-tools.md) .
-* Alle Analytics-spezifischen Aufgaben, die in der Adobe Admin-Konsole ausgeführt werden. Dieser Bereich umfasst die Bereitstellung von Produkten und die Verwaltung von Benutzerberechtigungen. Eine Liste der Aktionen, die in der Adobe Admin-Konsole ausgeführt werden können, finden Sie unter [Adobe Analytics in der Adobe Admin-Konsole](admin-console/home.md) .
+* Alle Aufgaben, die Sie in der Analytics Admin Console ausführen können. Dieser Bereich umfasst die Einrichtung von Report Suites, Variablen, Klassifizierungen und Daten-Governance. Eine Liste der verfügbaren Einstellungsoptionen für die Report Suite und das Unternehmen finden Sie unter [Admin Tools](admin/c-admin-tools.md).
+* Alle Analytics-spezifischen Aufgaben, die in der Adobe Admin Console ausgeführt werden. In diesem Bereich können Produkte bereitgestellt und Benutzerberechtigungen verwaltet werden. Eine Liste der Aktionen, die in der Adobe Admin Console ausgeführt werden können, finden Sie unter [Adobe Analytics in der Adobe Admin Console](admin-console/home.md).
 
-Dieses Handbuch deckt nicht viele allgemeine Funktionen ab, die die Adobe Admin-Konsole bietet. Siehe [Admin-Konsole](https://helpx.adobe.com/enterprise/using/admin-console.html) im Enterprise-Benutzerhandbuch.
+Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin Console. Informationen über allgemeine Funktionen finden Sie unter [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) im Enterprise-Benutzerhandbuch.
 
-## Schlüsselartikel
+## Wichtige Artikel
 
-* [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md): Wenn Ihr Unternehmen ganz neu in Adobe Analytics ist, befolgen Sie dieses Handbuch, um einen Wert aus Adobe Analytics zu erhalten.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Der Report Suite Manager enthält Einstellungen für die Variablenverwaltung, Zeitzonen und mehr.
+* [Analytics-Administratorhandbuch für Einsteiger](admin-console/first-admin-guide.md): Wenn Sie Adobe Analytics noch nicht kennen, lesen Sie dieses Handbuch, um Adobe Analytics optimal zu nutzen.
+* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Klassifizierungen, Zeitzonen und vielem mehr.
 
 ## Weitere Benutzerhandbücher für Analytics
 
@@ -36,7 +36,7 @@ Dieses Handbuch deckt nicht viele allgemeine Funktionen ab, die die Adobe Admin-
 
 ## Wichtige Analytics-Ressourcen
 
-* [Wenden Sie sich an den Kundendienst.](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=de#recommended/solutions/analytics)
