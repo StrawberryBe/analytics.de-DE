@@ -15,7 +15,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 [![Administration](assets/admin_50px.png)](/help/admin/home.md) [Administratorhandbuch](/help/admin/home.md) – Erläuterung von Administratoraufgaben, u. a. die Konfiguration von Berichten, von Datenströmen und der Servernutzung.
 
-[![Implementierung](assets/implement_50px.png)](/help/implement/home.md) [Implementierungshandbuch](/help/implement/home.md) Festlegen, welche Daten erfasst werden, um Adobe Analytics optimal zu nutzen. Enthält Kapitel zur Implementierung von Adobe Experience Platform Launch und JavaScript.
+[![Implementierung](assets/implement_50px.png)](/help/implement/home.md) [Implementierungshandbuch](/help/implement/home.md) – Festlegen, welche Daten erfasst werden, um Adobe Analytics optimal zu nutzen. Enthält Kapitel zur Implementierung von Adobe Experience Platform Launch und JavaScript.
 
 [![Komponenten](assets/components_50px.png)](/help/components/home.md) [Komponentenhandbuch](/help/components/home.md) – Erläutert die Funktionen zur Steuerung der Datennutzung. Zu Komponenten gehören u. a. Segmente, berechnete Metriken, Virtual Report Suites und Warnhinweise. Dieses Handbuch enthält auch einen Abschnitt zu Variablen mit einer Erläuterung aller verfügbarer Dimensionen und Metriken.
 
