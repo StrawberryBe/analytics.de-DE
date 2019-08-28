@@ -4,7 +4,7 @@ seo-title: Bot-Entfernung in Adobe Analytics
 description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 seo-description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
+source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 ---
 
@@ -56,4 +56,18 @@ Stellen Sie sicher, dass die erste Spaltenüberschrift mit dem Namen übereinsti
 ## Schritt 5: Erstellen Sie ein Segment, das das neue Kundenattribut nutzt.
 
 Nachdem Ihr Datensatz verarbeitet und in den Analysis Workspace integriert wurde, erstellen Sie ein weiteres Segment, das Ihre neue Kundenattributdimension "Bot-Marke" nutzt:
+
+![](assets/bot-filter-seg2.png)
+
+## Schritt 6: Verwenden Sie dieses Segment als Filter für Virtual Report Suite
+
+Schließlich sollten Sie eine Virtual Report Suite erstellen, die dieses Segment nutzt, um die identifizierten Bots zu filtern:
+
+![](assets/bot-vrs.png)
+
+Diese neu segmentierte Virtual Report Suite führt jetzt zu einer deutlich saubereren Datenmenge, die die identifizierten Bots vollständig entfernt.
+
+## Schritt 7: Wiederholen Sie die Schritte 2, 3 und 4 regelmäßig.
+
+Legen Sie mindestens eine monatliche Erinnerung zur Identifizierung und Filterung neuer Bots, möglicherweise vor der regelmäßigen geplanten Analyse, fest.
 
