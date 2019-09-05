@@ -5,7 +5,7 @@ seo-title: Namespaces
 title: Namespaces
 uuid: cab 61844-3209-4980-b 14 c -8859 de 777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ Legacy-Analytics-Tracking-Cookie, auch bekannt als Adobe Analytics-ID (AAID):
 
 Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestrich, angegeben werden. Alle Hexadezimalzahlen, die alphabetische Zeichen sind, müssen in Großbuchstaben angegeben werden. Die Hexadezimalwerte sollte keine vorangestellten Nullen enthalten. (Beachten Sie die Differenz zum gleichen Wert, der in der veralteten Form angegeben ist, bei der vorangestellte Nullen erforderlich sind.)
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+Es ist auch möglich, anstelle `“namespaceId”: 10` oder zusätzlich zu den `“namespace”: “AAID”` anderen Adobe-Produkten ein anderes Formular zu verwenden.
 
 ## Legacy-Analytics-Tracking-Cookie: Veraltete Form
 
@@ -66,7 +66,7 @@ Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-ste
 
 Der Wert muss in Form einer 38-stelligen Dezimalzahl angegeben werden. Wenn Sie diese Anzahl aus den Spalten "mcvisid\_ high/low" oder" post\_ msvisid\_ high/low" aus einem Datenfeed oder Data Warehouse-Bericht ziehen, müssen Sie jede der beiden Zahlen auf 19 Stellen aufteilen und sie dann mit dem ersten Wert verketten.
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+Sie können auch Folgendes verwenden: `“namespaceId”: 4` anstelle von oder zusätzlich zu `“namespace”: “ECID”` Ihnen können einige andere Adobe-Produkte dieses Formular verwenden.
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 }
 ```
 
-Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) sollten Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Beschriftung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
+Für IDs in benutzerdefinierten Traffic- oder Konversionsvariablen (Props oder evars) kennzeichnen Sie die Variable mit einem ID-Gerät oder ID-Personenpersonal und weisen Sie diesem ID-Typ Ihren eigenen Namespace-Namen zu. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON](gdpr-labels.md).
 
 Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben und diese wiederverwenden. So können Sie einfach einen Namespace für all Ihre Report Suites verwenden, die diesen ID-Typ enthalten. Darüber hinaus ist es möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Manche Kunden speichern beispielsweise eine CRM-ID in einer Traffic- oder Konversionsvariablen (je nach Seite, manchmal auch beide). Sie können den Namespace „CRM-ID“ beiden Variablen zuweisen.
 
->[!NOTE]
->
->Sie können den Anzeigenamen einer Variablen (der in der Benutzeroberfläche angezeigte Name) oder die Nummer der Variablen (z. B. evar 12) nicht verwenden, wenn Sie den Namespace zur GDPR-API angeben, es sei denn, dies ist auch der Namespace, den Sie bei der Anwendung des ID-Geräts oder der ID-Personenbeschreibung auf diese Variable angegeben haben. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann in den folgenden Fällen mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden:
+> [!TIP] Vermeiden Sie den Anzeigenamen einer Variablen (der in der Benutzeroberfläche der Berichterstellung angezeigte Name) oder die Nummer der Variablen (z. B. evar 12), wenn Sie den Namespace zur GDPR-API angeben, es sei denn, es handelt sich um den Namespace, der bei Anwendung des ID-Geräts oder der ID-Personenbeschreibung angegeben wurde. Wenn Sie anstelle eines Anzeigenamens einen Namespace verwenden, kann derselbe Benutzeridentitätsblock die richtige Variable für mehrere Report Suites angeben. Wenn sich die ID beispielsweise in verschiedenen evars in einigen der Report Suites befindet oder wenn die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
 
-* Die ID befindet sich in einigen Report Suites in verschiedenen eVars oder
-* Der Anzeigename stimmt nicht überein (wenn der Anzeigenamen beispielsweise für eine spezielle Report Suite lokalisiert wurde)
+> [!CAUTION] Die Namespaces "visitorid" und" customvisitorid" sind für die Identifizierung des Analytics-Legacy-Verfolgungscookies und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic- oder Konversionsvariablen.
 
 Weitere Informationen dazu finden Sie unter [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
