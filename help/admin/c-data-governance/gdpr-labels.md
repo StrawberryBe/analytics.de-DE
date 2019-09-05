@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: DSGVO-Beschriftungen für Analytics-Variablen
 title: DSGVO-Beschriftungen für Analytics-Variablen
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
 
 ---
 
@@ -243,6 +243,8 @@ Sie müssen die Beschriftungen ID-DEVICE oder ID-PERSON nicht für alle Variable
 Sie können denselben Namespace für verschiedene Variablen innerhalb derselben Report Suite verwenden. Bei einigen benutzerdefinierten Implementierungen wird beispielsweise eine CRM-ID in einem Prop- und einem eVar-Objekt gespeichert. Wenn die CRM-ID immer in einer der Variablen auftritt (z. B. in der eVar) und nur gelegentlich in der anderen enthalten ist (Prop) bzw. niemals in der Prop enthalten ist, wenn sie auch nicht in der eVar vorkommt, ist nur für das eVar-Objekt eine ID-Beschriftung und ein Namespace erforderlich, da Adobe nur diese eVar nach der ID durchsuchen kann. Wenn jedoch die CRM-ID manchmal in einer Variablen und manchmal in der anderen auftritt, sollten beide denselben Namespace haben. Adobe durchsucht dann beide Variablen nach Vorkommen der ID, die im Rahmen einer DSGVO-Anfrage mit diesem Namespace angegeben wird. Sie sollten weiterhin DEL-Beschriftungen für all diese Variablen festlegen, damit der Wert anonymisiert wird, egal, wo er auftritt.
 
 Als weiteres Beispiel dient der Fall, in dem Sie eine CRM-ID verwenden, die manchmal via eVar1 und manchmal via prop7 gesendet wird. Mithilfe einer Verarbeitungsregel wird der Wert auf eVar1 (sofern vorhanden) in eVar3 kopiert. Andernfalls wird der Wert von prop7 in eVar3 kopiert. In diesem Szenario enthält eVar3 immer die CRM-ID (sofern sie bekannt ist), sodass nur für eVar3 eine ID-PERSON-Beschriftung erforderlich ist.
+
+> [!WARNING] Die Namespaces "visitorid" und" customvisitorid" sind für die Identifizierung des Analytics-Legacy-Verfolgungscookies und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic- oder Konversionsvariablen.
 
 ## Variablentypen und unterstützte DSGVO-/DULE-Beschriftungen {#section_CE7C3EDE1344466A98BC45E394B40762}
 
