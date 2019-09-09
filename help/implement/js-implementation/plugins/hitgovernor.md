@@ -5,16 +5,12 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d 0991 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
 translation-type: tm+mt
-source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
+source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
 
 
 # hitGovernor
-
-Das Plug-in „s.hitGovernor“ verfolgt die Gesamtzahl der Analytics-Bildanforderungen, die während eines vordefinierten rollierenden Zeitrahmens gesendet wurden, und kann bei Bedarf zusätzliche Logik ausführen, wenn diese Gesamtzahl einen bestimmten Schwellenwert überschreitet.
-
-## hitGovernor {#topic_56B636A42A624B38A0A446C607ACD700}
 
 Das Plug-in „s.hitGovernor“ verfolgt die Gesamtzahl der Analytics-Bildanforderungen, die während eines vordefinierten rollierenden Zeitrahmens gesendet wurden, und kann bei Bedarf zusätzliche Logik ausführen, wenn diese Gesamtzahl einen bestimmten Schwellenwert überschreitet.
 
