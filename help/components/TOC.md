@@ -3,8 +3,8 @@ product: analytics
 audience: Endanwender
 user-guide-title: Komponentenleitfaden für Analytics
 user-guide-url: /content/help/de-DE/analytics/components/home.html
-translation-type: ht
-source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
+translation-type: tm+mt
+source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
 
@@ -77,6 +77,10 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [Virtual Report Suites erstellen](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtual Report Suites verwalten](vrs/c-workflow-vrs/vrs-manage.md)
       + [Informationen zu Virtual Report Suites anzeigen](vrs/c-workflow-vrs/vrs-view.md)
++ Cross-Device Analytics {#cda}
+   + [Geräteübergreifende Analyse - Übersicht](cda/cda-home.md)
+   + [Geräteübergreifende Analyse einrichten](cda/cda-setup.md)
+   + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/cda-faq.md)
 + Warnhinweise {#alerts}
    + [Intelligente Warnhinweise](c-alerts/intellligent-alerts.md)
    + [Warnhinweiserstellung](c-alerts/alert-builder.md)
