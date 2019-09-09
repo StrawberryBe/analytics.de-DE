@@ -4,7 +4,7 @@ seo-title: Bot-Entfernung in Adobe Analytics
 description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 seo-description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ---
 
@@ -15,7 +15,14 @@ In Adobe Analytics haben Sie mehrere Optionen zum Entfernen von Bot-Traffic aus 
 
 ## Bot-Regeln verwenden
 
-Die standardmäßige Bot-Filtermethode in Adobe Analytics [besteht darin, Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md) zu erstellen, die auf der IAB-Bot-Liste basieren. Diese Liste wird monatlich aktualisiert und die Liste aus vielen Quellen, einschließlich cdns und Hauptinterneteigenschaften, kompiliert. Es enthält Tausende bekannter Bots, einschließlich all Ihrer Favoriten: Google, Bing, Mozilla usw. Diese Liste enthält die überwältigende Mehrheit der Anwendungsfälle und Anforderungen rund um Bot-Filter.
+Sowohl Standard- als auch benutzerspezifische Bot-Filtermethoden werden unterstützt in !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+
+| Regeltyp | Beschreibung |
+|--- |--- |
+| Standardmäßige IAB-Bot-Regeln | Wenn Sie die Option "IAB Bot Filtermessregeln aktivieren" auswählen, wird die internationale Spiders &amp; Bots-Liste [von IAB](https://www.iab.com/) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen diese Option mindestens aus. |
+| Benutzerspezifische Bot-Regeln | Sie können benutzerspezifische Bot-Regeln basierend auf Benutzeragenten, IP-Adressen oder IP-Bereichen definieren und hinzufügen. |
+
+Weitere Informationen finden Sie unter [Bot Rules Overview](/help/admin/admin/bot-removal/bot-rules.md).
 
 ## Verwenden des `hitGovernor` Implementierungs-Plug-ins
 
@@ -27,11 +34,11 @@ Da Bots schnell vorankommen, bietet Adobe einige weitere leistungsstarke Funktio
 
 ### Schritt 1: Übermitteln der Experience Cloud ID Ihrer Besucher an eine neue deklarierte ID
 
-Um zu beginnen, möchten Sie eine neue deklarierte ID im Hauptdienst [Zielgruppen erstellen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Sie müssen die Experience Cloud ID Ihres Besuchers an diese neue deklarierte ID übergeben, die mit dem [Adobe Experience Platform Launch schnell und einfach ausgeführt werden kann](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Verwenden wir den Namen "ECID" für die deklarierte ID.
+Um zu beginnen, möchten Sie eine neue deklarierte ID im [People Core Service erstellen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Sie müssen die Experience Cloud ID Ihres Besuchers an diese neue deklarierte ID übergeben, die mit dem [Adobe Experience Platform Launch schnell und einfach ausgeführt werden kann](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Verwenden wir den Namen "ECID" für die deklarierte ID.
 
-Screenshot hier
+![](assets/bot-cust-attr-setup.png)
 
-So kann diese ID über Datenelement erfasst werden. Stellen Sie sicher, dass Sie Ihre Adobe ecorg-ID korrekt in das Datenelement einbetten.
+So kann diese ID über Datenelement erfasst werden. Stellen Sie sicher, dass Sie Ihre Experience Cloud-orgid korrekt in das Datenelement einbetten.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Denken Sie daran, die Experience Cloud Besucher-ID als Dimension zu verwenden un
 
 ### Schritt 4: Übergeben Sie diese Liste zurück an Adobe als Kundenattribut
 
-Sobald der Data Warehouse-Bericht eingehen, erhalten Sie eine Liste mit ecids, die aus historischen Daten gefiltert werden müssen. Kopieren Sie diese ecids in eine leere. CSV-Datei mit nur zwei Spalten, ECID und Bot Flag:
+Sobald der Data Warehouse-Bericht eingehen, erhalten Sie eine Liste mit ecids, die aus historischen Daten gefiltert werden müssen. Kopieren Sie diese ecids in eine leere. CSV-Datei mit nur zwei Spalten, ECID und Bot Flag.
+
+* **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie der neuen deklarierten ID oben gegeben haben.
+* **Bot-Flag**: Fügen Sie dies als Kundenattributschema hinzu.
+
+Verwenden Sie diese. CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie Ihre Report Suite (s) dem Kundenattribut, wie in diesem [Blog-Beitrag beschrieben](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](assets/bot-csv-4.png)
 
-Stellen Sie sicher, dass die erste Spaltenüberschrift mit dem Namen übereinstimmt, den Sie der neuen deklarierten ID oben gegeben haben. Verwenden Sie diese. CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie Ihre Report Suite (s) dem Kundenattribut, wie in diesem [Blog-Beitrag beschrieben](https://theblog.adobe.com/link-digital-behavior-customers).
-
 ### Schritt 5: Erstellen Sie ein Segment, das das neue Kundenattribut nutzt.
 
-Nachdem Ihr Datensatz verarbeitet und in den Analysis Workspace integriert wurde, erstellen Sie ein weiteres Segment, das Ihre neue Kundenattributdimension "Bot-Marke" nutzt:
+Nachdem Ihr Datensatz verarbeitet und in den Analysis Workspace integriert wurde, erstellen Sie ein weiteres Segment, das Ihre neue Kundenattributdimension "Bot-Marke" und einen !![UICONTROL Exclude] Behälter nutzt:
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Diese neu segmentierte Virtual Report Suite führt jetzt zu einem deutlich saube
 ### Schritt 7: Wiederholen Sie die Schritte 2, 3 und 4 regelmäßig.
 
 Legen Sie mindestens eine monatliche Erinnerung zur Identifizierung und Filterung neuer Bots, möglicherweise vor der regelmäßigen geplanten Analyse, fest.
-
