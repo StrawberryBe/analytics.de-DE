@@ -4,7 +4,7 @@ seo-title: Berechnete Metriken insgesamt
 description: Erfahren Sie, wie sich berechnete Metriken in den Analytics-Tools unterscheiden.
 seo-description: Berechnung der Summen errechneter Metriken
 translation-type: tm+mt
-source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
+source-git-commit: 658925799c530b46ff7b56d5d0685af6d9fef1b8
 
 ---
 
@@ -28,13 +28,14 @@ Da es keine logische und konkrete Methode gibt, um festzustellen, ob eine berech
 
 * Erstellen Sie eine berechnete Metrik, die die Gesamtversionen der Metriken enthält, die Sie einbeziehen möchten.
 * Erstellen Sie einen Datenextrahierungsbericht, der geplant werden kann.
-* Erstellen Sie eine Datenanforderung in reportbuilder.
-* Verwenden Sie den Analysis Workspace (siehe unten).
+* Create a data request within [!DNL ReportBuilder].
+* Verwenden [!DNL Analysis Workspace] (siehe unten).
 
 ## Berechnete Metriksummen in [!DNL Analysis Workspace]
 
-In Analysis Workspace werden berechnete Metriken unter bestimmten Umständen summiert, um eine Gesamtsumme anzuzeigen:
+Wenn Sie Daten im Analysis Workspace anzeigen, werden die Summen der berechneten Metriken in den meisten Fällen angezeigt. In einigen Fällen ist eine Gesamtsumme nicht möglich, z. B. wenn die Zeilen des Berichts aus gemischten Formaten bestehen (z. B. Dezimal und Währung).
 
-* Wenn in Freiform-Tabellen [statische Zeilen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) vorhanden sind und die Berechnung *[!UICONTROL der Summen durch Summierung der aktuell in den Spalten]* vorhandenen Werte (Standard) aktiviert ist
-* [In der Ringdiagrammdarstellung.](/help/analyze/analysis-workspace/visualizations/donut.md)
-* In der [Visualisierung der Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
+Wenn die Summen angezeigt werden, werden sie oft serverseitig berechnet. Dies bedeutet, dass die gesamten Metriken wie Besuche oder Besucher insgesamt dedupliziert werden. Unter bestimmten Umständen werden berechnete Metriken clientseitig generiert, indem sie über mehrere Zeilen der Tabelle summiert werden. Dies bedeutet, dass die Metriken nicht mit Metriken wie Besuche oder Besucher dedupliziert werden. Dies geschieht:
+
+* Wenn [statische Zeilen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) in Freiform-Tabellen verwendet werden und die **[!UICONTROL Option Als Summe der aktuellen Zeilen]** anzeigen (Standard) ausgewählt wird
+* In der [Ringdiagrammdarstellung](/help/analyze/analysis-workspace/visualizations/donut.md), damit Zahlen bis zu 100% addieren.
