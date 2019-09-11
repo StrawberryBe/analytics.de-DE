@@ -2,20 +2,22 @@
 title: Geräteübergreifende Analyse
 description: Geräteübergreifende Analysen bewirken, dass Ihre Daten geräteorientiert sind, indem Sie geräteübergreifende Gerätedaten zusammenführen.
 translation-type: tm+mt
-source-git-commit: 47cde7b12b78e9394aac531d068634688c635ec1
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Geräteübergreifende Analyse
 
-Device Analytics ist eine Funktion, die Analytics von einer gerätespezifischen Ansicht in eine persönliche Ansicht umwandelt. Diese Funktion verwendet das Adobe Experience Platform Identity Service Co-op Graph oder Privates Diagramm, um zu identifizieren, welche Geräte zu Einzelpersonen gehören. Daher können Analysten das Benutzerverhalten verstehen, das Browser, Geräte oder Apps durchkreuzt. Mithilfe von CDA können Sie Fragen wie z. B. folgende beantworten:
+> [!NOTE] Die geräteübergreifende Analytics-Dokumentation kann sich ändern, wenn die Funktion weiter entwickelt wurde. Überprüfen Sie regelmäßig nach Updates.
 
-* Wie viele Menschen interagieren mit meiner Marke? Wie viele und welche Gerätetypen verwenden sie? Wie überschneiden sich diese?
-* Wie oft beginnen Personen mit einer Aufgabe auf einem Mobilgerät und wechseln dann zu einem Desktop-PC, um die Aufgabe abzuschließen? Führen Kampagnen-Clickthroughs, die auf einem Gerät landen, zur Umrechnung anderswo?
-* Wie ändert sich mein Verständnis der Kampagneneffektivität, wenn ich geräteübergreifende Routen berücksichtige? Wie ändert sich meine Trichteranalyse?
-* Welches sind die häufigsten Pfade, die Benutzer von einem Gerät zum nächsten verwenden? Wo steigen sie aus? Wo sind sie erfolgreich?
-* Wie unterscheidet sich das Verhalten von Benutzern mit mehreren Geräten von den Benutzern mit einem einzelnen Gerät?
+Device Analytics ist eine Funktion, die Analytics von einer gerätespezifischen Ansicht in eine persönliche Ansicht umwandelt. Diese Funktion verwendet das Adobe Experience Platform Identity Service Co-op Graph oder Privates Diagramm, um zu identifizieren, welche Geräte zu Einzelpersonen gehören. Daher können Analysten das Benutzerverhalten verstehen, das Browser, Geräte oder Apps durchkreuzt. Mithilfe von CDA können Sie Fragen beantworten wie z. B.:
+
+* Wie viele Menschen interagieren mit meinem Unternehmen? Wie viele und welche Gerätetypen verwenden sie? Wie überschneiden sich diese?
+* Wie oft beginnen Personen mit einer Aufgabe auf einem Mobilgerät und wechseln dann zu einem Desktop-PC, um die Aufgabe abzuschließen? Führen Kampagnen-Clickthroughs auf einem Gerät zur Konversion auf einem anderen Gerät?
+* Wie ändern sich meine Daten zur Wirksamkeit einer Kampagne, wenn ich geräteübergreifende Journeys berücksichtige? Wie ändert sich meine Trichteranalyse?
+* Welche sind die häufigsten Pfade, die Benutzer beim Wechsel von einem Gerät zum anderen verwenden? Wo steigen sie aus? Wo schließen sie ihre Aktion erfolgreich ab?
+* Wie unterscheidet sich das Verhalten von Benutzern mit mehreren Geräten von Benutzern mit nur einem Gerät?
 
 Wenn Geräte gestipft werden, wird die variable Persistenz auf allen Geräten übertragen. Beispiel: Ein Benutzer besucht Ihre Site zunächst über eine Werbung auf ihrem Desktop-Computer. Der Benutzer findet Ihre mobile App, installiert ihn und kauft schließlich auf ihrem Mobilgerät ein. Bei geräteübergreifender Analyse kann der Umsatz der Anzeige zugeschrieben werden, auf die sie auf ihrem Desktop-Computer geklickt haben.
 
