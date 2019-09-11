@@ -4,7 +4,7 @@ seo-title: Bot-Entfernung in Adobe Analytics
 description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 seo-description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,7 @@ In Adobe Analytics haben Sie mehrere Optionen zum Entfernen von Bot-Traffic aus 
 
 ## Bot-Regeln verwenden
 
-Sowohl Standard- als auch benutzerspezifische Bot-Filtermethoden werden unterstützt in !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+Sowohl Standard- als auch benutzerspezifische Bot-Filtermethoden werden in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **[!UICONTROL bearbeiten]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Bot-Regeln unterstützt]**:
 
 | Regeltyp | Beschreibung |
 |--- |--- |
