@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 user-guide-url: /content/help/de-DE/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
+translation-type: tm+mt
+source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
    + Bot-Entfernung {#bot-removal}
       + [Bot-Entfernung](admin/bot-removal/bot-removal.md)
       + [Übersicht über Bot-Regeln](admin/bot-removal/bot-rules.md)
-      + [Hochladen von Bot-Regeln](admin/bot-removal/t-upload-bot-rules.md)
-      + [Erstellen einer benutzerspezifischen Bot-Regel](admin/bot-removal/t-create-bot-rules.md)
    + [Code-Manager](admin/code-manager-admin.md)
    + Konversionsvariablen {#conversion-variables}
       + [Konversionsvariablen (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
