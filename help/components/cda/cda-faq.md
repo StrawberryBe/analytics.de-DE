@@ -2,12 +2,14 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen für geräteübergreifende Analysen
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Häufig gestellte Fragen
+
+> [!NOTE] Die geräteübergreifende Analytics-Dokumentation kann sich ändern, wenn die Funktion weiter entwickelt wurde. Überprüfen Sie regelmäßig nach Updates.
 
 **Wie kann ich CDA verwenden, um zu erfahren, wie die Menschen von einem Gerätetyp zu einem anderen wechseln?**
 
