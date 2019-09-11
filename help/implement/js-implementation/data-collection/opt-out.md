@@ -1,19 +1,19 @@
 ---
-description: 'null '
+description: 'null'
 keywords: Analytics-Implementierung
-seo-description: 'null '
-seo-title: Adobe-Opt-outs implementieren
+seo-description: 'null'
+seo-title: Adobe-Ausschlüsse implementieren
 solution: Analytics
-title: Adobe-Opt-outs implementieren
+title: Adobe-Ausschlüsse implementieren
 topic: Entwickler und Implementierung
 uuid: fc 3 a 411 c -8476-409 d -99 de -5 b 34 ace 5019
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
 
 ---
 
 
-# Adobe-Opt-outs implementieren
+# Adobe-Ausschlüsse implementieren
 
 Einige Besucher Ihrer Website bevorzugen es möglicherweise, dass ihre Browserinformationen nicht von Adobe Experience Cloud-Produkten und -Diensten gesammelt und analysiert und ihnen keine relevanten Inhalte und Werbung bereitgestellt werden. Adobe bietet Ihnen die Möglichkeit, den Besuchern Ihrer Website die Option bereitzustellen, sich von der Datenerfassung durch die folgenden Adobe-Produkte ausschließen zu lassen:
 
@@ -34,8 +34,7 @@ Besucher können im [Datenschutzzentrum von Adobe](https://www.adobe.com/privacy
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) for your website visitors.
-* Adobe bietet zusätzlich einen öffentlichen Mechanismus zum Ausschluss von der Datenerfassung für Websites, die Cookies verwenden, die von den Adobe-Domänen 2o7.net und omtrdc.net aus festgelegt wurden. Dieser Mechanismus zum Ausschluss von der Datenerfassung ist über das [Datenschutzzentrum von Adobe](https://www.adobe.com/privacy/opt-out.html) zugänglich.
+* Wenn Sie Adobe Analytics-Produkte mit Ihrem eigenen Erstanbieter-Cookie implementieren, müssen Sie [Ihren eigenen Ausschluss-Link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) für Besucher Ihrer Website entwickeln.
 * Ihre Kunden haben die Möglichkeit des Ausschlusses mittels der Cookieeinstellungen des Browsers. Lesen Sie hierzu auch [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings) (in englischer Sprache).
 
 Unabhängig davon, welchen Mechanismus zum Ausschluss von der Datenerfassung Sie verwenden, empfiehlt Adobe, dass Sie die Verfügbarkeit eines solchen Mechanismus in Ihren Datenschutzrichtlinien klar beschreiben und auch anderweitig jegliche gesetzlichen Vorschriften oder empfohlene Best Practices einhalten.
