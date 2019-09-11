@@ -2,16 +2,18 @@
 title: Geräteübergreifende Analyse einrichten
 description: Erfahren Sie, wie Sie geräteübergreifende Analysen einrichten, nachdem Sie die Voraussetzungen erfüllt haben.
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Geräteübergreifende Analyse einrichten
 
-> [!IMPORTANT] Alle Voraussetzungen müssen erfüllt sein, bevor diese Schritte ausgeführt werden. Wenn alle Voraussetzungen nicht erfüllt sind, ist die Funktion nicht verfügbar oder funktioniert nicht. Siehe [geräteübergreifende Analyse](cda-home.md) für Voraussetzungen und Einschränkungen.
+> [!NOTE] Die geräteübergreifende Analytics-Dokumentation kann sich ändern, wenn die Funktion weiter entwickelt wurde. Überprüfen Sie regelmäßig nach Updates.
 
 Sobald alle Voraussetzungen erfüllt sind, verwenden Sie die folgenden Schritte, um geräteübergreifende Analysen zu aktivieren. Sie müssen einer Produktprofil-Administratorgruppe angehören oder über Administratorrechte in Adobe Analytics verfügen, um diese Schritte auszuführen.
+
+> [!IMPORTANT] Alle Voraussetzungen müssen erfüllt sein, bevor diese Schritte ausgeführt werden. Wenn alle Voraussetzungen nicht erfüllt sind, ist die Funktion nicht verfügbar oder funktioniert nicht. Siehe [geräteübergreifende Analyse](cda-home.md) für Voraussetzungen und Einschränkungen.
 
 ## Geräteübergreifende Report Suite auswählen, die für CDA aktiviert werden soll
 
