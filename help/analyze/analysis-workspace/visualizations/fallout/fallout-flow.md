@@ -1,16 +1,16 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Trichteranalyse - Überblick
-title: Trichteranalyse - Überblick
+description: 'null'
+seo-description: 'null'
+seo-title: Fallout-Übersicht
+title: Fallout-Übersicht
 uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
 
-# Trichteranalyse - Überblick
+# Fallout-Übersicht
 
 Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (d. h., wo sie abgegangen sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind).
 
@@ -44,7 +44,7 @@ Hier ist ein Beispiel eines Fallouts mit zwei Schritten:
 
 Wenn Sie dann ein Segment auf Workspace-Bedienfeld-Ebene anwenden, kombiniert das Segment den Fallout folgendermaßen:
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 Beim Berechnen des Segments in Reports &amp; Analytics und Ad Hoc Analysis wird das Segment hingegen folgendermaßen kombiniert:
 
