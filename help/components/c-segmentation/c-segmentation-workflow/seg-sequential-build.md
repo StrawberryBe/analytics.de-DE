@@ -7,7 +7,7 @@ title: Sequentielle Segmente erstellen
 topic: Segmente
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: fe1ded2ff3226ca5f5243225d351b51315b92dae
+source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
 
 ---
 
@@ -244,25 +244,22 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Logische Gruppenbehälter
 
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Im Gegensatz dazu wurde der [!UICONTROL logische Gruppenbehälter] so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints vorgenommen wird. Mit anderen Worten, die Reihenfolge der Checkpoints in dieser Gruppe ist uns egal. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Logische Gruppenbehälter sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segmentprüfpunkt zu gruppieren. Die nicht sequenziellen Behälter (Treffer, Besuch, Besucher) erfordern nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was zu intuitiven Ergebnissen führt, wenn sie neben einem DANN-Operator verwendet werden. Der spezielle logische Gruppenbehälter ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden.
 
-| Standardbehälterhierarchie |
-|---|
-| ![](assets/nesting_container.png) |
-| Innerhalb des [!UICONTROL Besuchercontainers] werden die Container für [!UICONTROL Besuche] und [!UICONTROL Treffer] in einer Sequenz verschachtelt, um Segmente basierend auf Treffern, der Anzahl der Besuche und basierend auf dem Besucher zu extrahieren. |
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Im Gegensatz dazu wurde der [!UICONTROL logische Gruppenbehälter] so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints vorgenommen wird. Mit anderen Worten, die Reihenfolge der Checkpoints in dieser Gruppe ist uns egal. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
 >A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
 
-| Nicht-Standardhierarchie für logische Behälter |
-|---|
-| ![](assets/logic_group_hierarchy.png) |
-| Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
+| Behälterhierarchie | Illustration | Definition |
+|---|---|---|
+| Standardbehälterhierarchie | ![](assets/nesting_container.png) | Innerhalb des [!UICONTROL Besuchercontainers] werden die Container für [!UICONTROL Besuche] und [!UICONTROL Treffer] in einer Sequenz verschachtelt, um Segmente basierend auf Treffern, der Anzahl der Besuche und basierend auf dem Besucher zu extrahieren. |
+| Logische Behälterhierarchie | ![](assets/logic_group_hierarchy.png) | Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-[!UICONTROL Logische Gruppenbehälter] können wie andere Behälter auch auf  mehrere Arten innerhalb von [!UICONTROL Segment Builder] erstellt werden. Hier finden Sie eine bevorzugte Methode zum Verschachteln von [!UICONTROL logischen Gruppenbehältern]:
+Wie andere Behälter können auch [!UICONTROL logische Gruppenbehälter] auf mehrere Arten innerhalb des [!UICONTROL Segmentaufbaus]erstellt werden. Hier finden Sie eine bevorzugte Methode zum Verschachteln von [!UICONTROL logischen Gruppenbehältern]:
 
 1. Ziehen Sie Dimensionen, Ereignisse oder Segmente aus den linken Fenstern.
 1. Ändern Sie den oberen Behälter in einen [!UICONTROL Besucher]behälter.
