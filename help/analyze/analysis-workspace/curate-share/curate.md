@@ -2,18 +2,18 @@
 description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben. Sie können ein Projekt und seine Komponenten für Vermarkter und andere Mitarbeiter ohne Analyseerfahrung in Ihrem Unternehmen freigeben, Anmerkungen hinzufügen und Tags auf Projekte anwenden.
 keywords: Analysis Workspace
 seo-description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben. Sie können ein Projekt und seine Komponenten für Vermarkter und andere Mitarbeiter ohne Analyseerfahrung in Ihrem Unternehmen freigeben, Anmerkungen hinzufügen und Tags auf Projekte anwenden.
-seo-title: Übersicht über Kuratierung/Freigabe
+seo-title: Übersicht über die Kuratierung/Freigabe
 solution: Analytics
-title: Übersicht über Kuratierung/Freigabe
+title: Übersicht über die Kuratierung/Freigabe
 topic: Reports and Analytics
-uuid: 267 e 9678-95 a 1-4195-8 ba 4-e 8 a 53 c 28 ea 0 d
+uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
 
-# Übersicht über Kuratierung/Freigabe
+# Übersicht über die Kuratierung/Freigabe
 
 Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben. Sie können ein Projekt und seine Komponenten für Vermarkter und andere Mitarbeiter ohne Analyseerfahrung in Ihrem Unternehmen freigeben, Anmerkungen hinzufügen und Tags auf Projekte anwenden.
 
@@ -21,22 +21,22 @@ Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Proje
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Arbeitsbereich]** &gt; **[!UICONTROL Freigeben]**&gt; **[!UICONTROL Projekt kuratieren]**
+**[!UICONTROL Arbeitsbereich]** &gt; **[!UICONTROL Freigeben]**&gt; **[!UICONTROL Kuratieren von Projektdaten]**
 
-## Kuratieren von Projektdaten
+## Projektdaten kuratieren
 
 1. Legen Sie die Berechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer [Gruppe](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) hinzufügen, für die die Berechtigung zum **[!UICONTROL Erstellen/Kuratieren von Projekten in Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **Zugriff auf alle Berichte[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Erstellen und speichern](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) Sie ein Projekt und klicken **[!UICONTROL Sie dann auf Freigeben]** &gt; **[!UICONTROL Projekt kuratieren]**.
+1. [Erstellen und speichern](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) Sie ein Projekt und klicken Sie dann auf **[!UICONTROL Freigeben]** &gt; Projektdaten **[!UICONTROL kuratieren]**.
 1. Ziehen Sie Komponenten, die Sie freigeben möchten, vom verschiebbaren Komponentenstapel auf der linken Seite zum Feld **[!UICONTROL Kuratierte Komponenten].**
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >Kuratieren von Komponenten ist nicht erforderlich, um ein Projekt freizugeben. Sie können ein Projekt mit allen verfügbaren Standardkomponenten oder mit den ausgewählten Komponenten freigeben. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Nach dem Kuratieren der Komponenten in einem Projekt sind die anderen Komponenten für das Projekt nicht mehr für Sie verfügbar.
+   >Das Kuratieren von Komponenten ist für die Freigabe eines Projekts nicht erforderlich. Sie können ein Projekt mit allen verfügbaren Standardkomponenten oder mit den ausgewählten Komponenten freigeben. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Nach dem Kuratieren der Komponenten in einem Projekt sind die anderen Komponenten für das Projekt nicht mehr für Sie verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
@@ -55,13 +55,13 @@ Durch Freigabe können Sie dieses Projekt anderen Benutzern des Analysis Workspa
 
    >[!IMPORTANT]
    >
-   >Diese Einstellung bleibt nicht bestehen - es handelt sich um eine Singularaktion zum Zeitpunkt der Freigabe.
+   >Diese Einstellung ist nicht persistent - sie ist eine einzelne Aktion zum Zeitpunkt der Freigabe.
 
 1. Optional können Sie diese Seite als Landingpage für Empfänger festlegen.
 
    >[!IMPORTANT]
    >
-   >Diese Einstellung bleibt nicht bestehen - es handelt sich um eine Singularaktion zum Zeitpunkt der Freigabe.
+   >Diese Einstellung ist nicht persistent - sie ist eine einzelne Aktion zum Zeitpunkt der Freigabe.
 
 1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 
