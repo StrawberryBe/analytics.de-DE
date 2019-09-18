@@ -1,32 +1,32 @@
 ---
-description: 'Führen Sie vor dem Start der Data Connectors-Integration die folgenden Anforderungen aus. '
-seo-description: 'Führen Sie vor dem Start der Data Connectors-Integration die folgenden Anforderungen aus. '
+description: 'Bevor Sie die Data Connectors-Integration für starten, führen Sie die folgenden Anforderungen aus '
+seo-description: 'Bevor Sie die Data Connectors-Integration für starten, führen Sie die folgenden Anforderungen aus '
 seo-title: Vor der Aktivierung
 title: Vor der Aktivierung
-uuid: 0 d 65586 b -9 d 65-4 b 4 c-b 3 fe -3566 c 430 c 66 a
+uuid: 0d65586b-9d65-4b4c-b3fe-3566c430c66a
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
 # Vor der Aktivierung{#before-you-activate}
 
-Bevor Sie die Data Connectors-Integration starten, führen Sie die folgenden Anforderungen aus:
+Bevor Sie die Data Connectors-Integration für starten, führen Sie die folgenden Anforderungen aus:
 
 ## Adobe Analytics Requirements {#section-960e70fd2eae4a1cb88a2e4b53a97313}
 
-* **Report Suite spezifisch:** Wir empfehlen, dass diese Integration Report Suite-spezifisch ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren.
-* **Verfügbare und konfigurierte Analytics-Variablen:** Für diese Integration sind benutzerspezifische Ereignisse und benutzerspezifische evars sowie optional zusätzliche Ereignisse und zusätzliche evars erforderlich. Siehe [Analytics-Integrationsvariablen](../../dreammail-overview/dreammail-requirements/dreammail-variables.md#concept-8ebd2bde4a1c4b0aad2987e050ffbbfc).
+* **** Report Suite-spezifisch: Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren.
+* **** Verfügbare und konfigurierte Analytics-Variablen: Für diese Integration sind benutzerdefinierte Ereignisse und benutzerdefinierte eVars sowie optional zusätzliche Ereignisse und eVars erforderlich. Siehe [Analytics-Integrationsvariablen](../../dreammail-overview/dreammail-requirements/dreammail-variables.md#concept-8ebd2bde4a1c4b0aad2987e050ffbbfc).
 
-* **Autorisierter Vertreter:** Es wird empfohlen, dass Ihr Unternehmen bei Aktivierung dieser Integration Gebühren in Übereinstimmung mit Ihrem Servicevertrag mit Adobe, Inc. oder Ihrem Servicevertrag bei einem der vertrauenswürdigen Partner von Adobe erbringt. Durch Aktivierung dieser Integration stellen Sie sicher, dass Sie ein autorisierter Vertreter Ihres Unternehmens sind; und somit beschließt Ihr Unternehmen, die Gebühren, sofern vorhanden, in der oben beschriebenen Servicevereinbarung zu zahlen.
-* **Data Warehouse™:** Für diese Integration ist Data Warehouse erforderlich, um Remarketing-Segmente zu generieren. Wenn Sie Data Warehouse nicht aktiviert haben, wenden Sie sich an Adobe.
-* ** [!DNL ~Partner~]: ** Die Integration erfordert, dass wir eine E-Email-Adresse in einer Analytics-Variable erfassen und speichern (evar). Der " [!DNL ~Partner~]«ist mit dem nachgeordneten Besucherverhalten auf der Site verknüpft (Warenkorbabbrüche, Käufe usw.). die in das [!DNL ~Partnersystem~] gezogen werden und für Wiederverkaufszwecke genutzt werden können. Während des Setup-Prozesses müssen Sie eine evar zu diesem Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden.
-* **Externe Verfolgung:** Wenn Sie aktuell nicht der Best Practice zur Aktivierung der externen Verfolgung für jede E-Mail-Kampagne folgen, die Sie senden, müssen Sie eine erfolgreiche Integration sicherstellen. Weitere Informationen finden Sie im [!DNL ~Abschnitt Partner~] .
-* **Datenschutzeinhaltung:** Sie sollten wissen, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung personenbezogene Informationen zu Ihren Site-Besuchern nachverfolgen kann. Dies hat Auswirkungen auf Datenschutzbestimmungen, die die Implementierung angemessener Vorgehensweisen durch Ihr Unternehmen erfordern, z. B. die Bereitstellung und Zustimmung Ihrer Site-Besucher.
+* **** Bevollmächtigter: Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden.
+* **** Data Warehouse™: Für diese Integration muss Data Warehouse aktiviert sein, damit Remarketing-Segmente generiert werden können. Wenn Sie Data Warehouse nicht aktiviert haben, wenden Sie sich für weitere Informationen an Adobe.
+* **[!DNL ~~Partner]**: Die Integration erfordert, dass wir eine E-Mail-Adresse in einer Analytics-Variablen (eVar) erfassen und speichern. Der [!DNL ~Partner~]ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verbunden. die in das [!DNL ~Partner~] -System eingebunden werden und für Remarketing-Zwecke genutzt werden können. Während des Setupprozesses müssen Sie eine eVar für diesen Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden.
+* **** Externe Verfolgung: Wenn Sie derzeit nicht die Best Practice zur Aktivierung der externen Verfolgung für jede gesendete E-Mail-Kampagne befolgen, müssen Sie dies tun, um eine erfolgreiche Integration sicherzustellen. Weitere Informationen finden Sie im Abschnitt [!DNL ~Partner~] .
+* **** Datenschutz: Sie sollten sich bewusst sein, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung persönlich identifizierbare Informationen über Ihre Site-Besucher verfolgen kann. Dies hat Auswirkungen auf die Privatsphäre, die die Implementierung geeigneter Verfahren durch Ihr Unternehmen erfordern, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
 
 ## Abschnittstitel {#section-370f12579a224d509545cba1c28adb22}
 
