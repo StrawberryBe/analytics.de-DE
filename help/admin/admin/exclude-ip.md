@@ -5,9 +5,9 @@ seo-title: Nach IP-Adresse ausschließen
 solution: Analytics
 title: Nach IP-Adresse ausschließen
 topic: Admin Tools
-uuid: 1 ed 6105 f-e 7 c 5-4 c 4 f-b 8 f 4-e 5 f 66 d 0824 bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websitetests und der Verwendung durch Mitarbeiter, können aus Berichten ausgeschlossen werden Durch das Ausschließen von Daten nach der IP-Adresse wird die Genauigkeit der Berichte erhöht. Zudem können Sie Daten entfernen, die auf DoS-Angriffen oder anderen böswilligen Ereignissen beruhen und Ihre Berichte verfälschen könnten. Die Ausschlüsse lassen sich wahlweise oder über die Firewall konfigurieren.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Nach IP ausschließen]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Nach IP **[!UICONTROL ausschließen]**
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)in Rechnung gestellt.
 
 ## Nach Cookie ausschließen {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne di
 
 >[!NOTE]
 >
->Ausschluss nach Computer funktioniert nur, wenn:
+>Der Ausschluss nach Computer funktioniert nur, wenn:
 >
 >* Sie von derselben Workstation aus auf Ihre Website zugreifen.
 >* Cookies im derzeit verwendeten Browser aktiviert sind.
