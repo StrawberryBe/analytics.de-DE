@@ -7,7 +7,7 @@ title: Sequentielle Segmente erstellen
 topic: Segmente
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Logische Gruppenbehälter
 
-Logische Gruppenbehälter sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segmentprüfpunkt zu gruppieren. Die nicht sequenziellen Behälter (Treffer, Besuch, Besucher) erfordern nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was zu intuitiven Ergebnissen führt, wenn sie neben einem DANN-Operator verwendet werden. Der spezielle logische Gruppenbehälter ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden.
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Im Gegensatz dazu wurde der [!UICONTROL logische Gruppenbehälter] so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints vorgenommen wird. Mit anderen Worten, die Reihenfolge der Checkpoints in dieser Gruppe ist uns egal. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Logische Gruppenbehälter sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segmentprüfpunkt zu gruppieren. Der spezielle logische Gruppenbehälter ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden. Dagegen erfordern nicht sequenzielle Behälter (Treffer, Besuch, Besucher) nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was bei Verwendung mit einem DANN-Operator zu intuitiven Ergebnissen führt.
+Der [!UICONTROL logische Gruppenbehälter] wurde so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden können, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints erfolgt. Mit anderen Worten, die Reihenfolge der Checkpoints in dieser Gruppe ist uns egal. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,20 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | Standardbehälterhierarchie | ![](assets/nesting_container.png) | Innerhalb des [!UICONTROL Besuchercontainers] werden die Container für [!UICONTROL Besuche] und [!UICONTROL Treffer] in einer Sequenz verschachtelt, um Segmente basierend auf Treffern, der Anzahl der Besuche und basierend auf dem Besucher zu extrahieren. |
 | Logische Behälterhierarchie | ![](assets/logic_group_hierarchy.png) | Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
+
+Logische Gruppen mögen abschreckend erscheinen - hier einige Best Practices für ihre Verwendung:
+
+**Logische Gruppe oder Treffer-/Besuchsbehälter?**
+Wenn Sie sequenzielle Checkpoints gruppieren möchten, lautet Ihr "Container"logische Gruppe. Müssen diese sequenziellen Checkpoints jedoch innerhalb eines einzelnen Treffers oder Besuchs auftreten, ist ein Treffer oder ein Besuchsbehälter erforderlich. (Natürlich ergibt "Treffer"keinen Sinn für eine Gruppe sequenzieller Checkpoints, wenn einem Treffer nicht mehr als ein Checkpoint gutgeschrieben werden kann).
+
+**Vereinfachen logische Gruppen das Erstellen sequenzieller Segmente?**
+Ja, sie können. Nehmen wir einmal an, Sie versuchen, diese Frage zu beantworten: Hat ein Besucher nach Seite A die Seiten B, C oder D gesehen? Sie können dieses Segment ohne logischen Gruppenbehälter erstellen, es ist jedoch komplex und aufwändig:
+Besucherbehälter [Seite A DANN Seite B DANN Seite C DANN Seite D] oder [Besucherbehälter Seite A DANN Seite B DANN Seite D DANN Seite C] oder Besucherbehälter [Seite A DANN Seite C DANN Seite B DANN Seite D] oder [Besucher Behälter Seite A DANN Seite C DANN Seite D DANN Seite B] oder Besucher Behälter [A EN Seite D DANN Seite B DANN Seite C] [oder BesucherbehälterSeite A DANN Seite D DANN Seite C DANN Seite B]
+
+Ein logischer Gruppenbehälter vereinfacht das Segment erheblich, wie im Folgenden gezeigt:
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +289,15 @@ Die Verwendung der [!UICONTROL logischen Gruppe] ermöglicht Ihnen das Erfüllen
 
 **Dieses Segment erstellen**
 
-Seite B und C sind in einem [!UICONTROL logischen Gruppenbehälter] innerhalb des äußeren [!UICONTROL Besucherbehälters] verschachtelt. Der [!UICONTROL Trefferbehälter] für A wird anschließend vom [!UICONTROL logischen Gruppenbehälter] gefolgt, wobei B und C mithilfe des [!UICONTROL UND]-Operators identifiziert werden. Da sie sich in der [!UICONTROL logischen Gruppe] befindet, wird die Sequenz nicht definiert und durch einen Treffer auf Seite B oder C wird das Argument wahr.
+Seite B und C sind in einem [!UICONTROL logischen Gruppenbehälter] innerhalb des äußeren [!UICONTROL Besucherbehälters] verschachtelt. Der [!UICONTROL Trefferbehälter] für A wird anschließend vom [!UICONTROL logischen Gruppenbehälter] gefolgt, wobei B und C mithilfe des [!UICONTROL UND]-Operators identifiziert werden. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**Ein weiteres Beispiel**: Besucher, die Seite B oder C und dann Seite A besucht haben:
+
+![](assets/logic_group_any_order3.png)
+
+Das Segment muss mindestens mit einem der Checkpoints der logischen Gruppe (B oder C) übereinstimmen. Auch können die Bedingungen für logische Gruppen im selben Treffer oder über mehrere Treffer hinweg erfüllt werden. &#x200B;
 
 ### Erste Übereinstimmung mit der logischen Gruppe
 
