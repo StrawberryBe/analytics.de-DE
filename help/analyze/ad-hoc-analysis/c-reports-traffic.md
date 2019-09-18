@@ -5,9 +5,9 @@ seo-title: Berichte zu Traffic-Quellen
 solution: Analytics
 title: Berichte zu Traffic-Quellen
 topic: Ad Hoc Analysis
-uuid: 246 afbdc -9 f 7 b -4956-a 44 a-b 7 aad 948 f 392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Einblick in die Interaktion der Besucher mit Ihrer Website.
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## Berichte zu Traffic-Quellen {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Einblick in die Interaktion der Besucher mit Ihrer Website.
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**[!UICONTROL Suchkeywords – Alle]**: Zeigt eine Auflistung der einzelnen Keywords an, die bei der Suche nach Ihrer Site eingesetzt werden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**[!UICONTROL Suchkeywords – Gebührenpflichtig]**: Zeigt eine Auflistung der einzelnen gebührenpflichtigen Keywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**[!UICONTROL Suchkeywords – Kostenlos]**: Zeigt eine Auflistung der einzelnen kostenlosen Keywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
 
 ## Suchmaschinen {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. Das Diagramm zeigt Ihnen die verwendeten Suchmaschinen in Prozentwerten an.
+**[!UICONTROL Suchmaschinen – Alle]**: Zeigt, welche Suchmaschinen verwendet werden, um Ihre Webseite zu finden. Das Diagramm zeigt Ihnen die verwendeten Suchmaschinen in Prozentwerten an.
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. Das Diagramm zeigt Ihnen die verwendeten Suchmaschinen in Prozentwerten an.
+**[!UICONTROL Suchmaschinen – Gebührenpflichtig]**: Zeigt, welche Suchmaschinen mit gebührenpflichtigen Keywords verwendet werden, um Ihre Webseite zu finden. Das Diagramm zeigt Ihnen die verwendeten Suchmaschinen in Prozentwerten an.
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. Das Diagramm zeigt Ihnen die verwendeten Suchmaschinen in Prozentwerten an.
+**[!UICONTROL Suchmaschinen – Gebührenpflichtig]**: Zeigt, welche Suchmaschinen mit kostenlosen Keywords verwendet werden, um Ihre Webseite zu finden. Das Diagramm zeigt Ihnen die verwendeten Suchmaschinen in Prozentwerten an.
 
 ## Referrerdomänen {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -73,7 +73,7 @@ c_reports_ref_domains.xml
 
 Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Referrer lassen sich zwei Hauptkategorien zuweisen: Domänen und URLs. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
 
-## Ursprüngliche Referrerdomänen {#concept_EB18251DF70343169B46BB59543A579A}
+## Ursprünglich Referrerdomänen {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
@@ -130,9 +130,9 @@ Die folgenden Zeilenelemente werden evtl. bei Ausführung dieses Berichts angeze
 
 **Innerhalb Ihrer Site**: Diese Elemente sind URLs, die von den internen URL-Filtern vergeben werden. Diese Elemente werden nicht als     Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
 
-** Kein Javascript**: Es gab kein javascript, sodass der Typ nicht identifiziert werden konnte (unbekannt). Das heißt, dass es keine Informationen zu Referrern von einem Client für einen Browser gibt, der keine Unterstützung von JavaScript meldet. Diese Elemente werden nicht als Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
+** Kein Java Script**: Es gab kein JavaScript, sodass der Typ nicht identifiziert werden konnte (unbekannt). Das heißt, dass es keine Informationen zu Referrern von einem Client für einen Browser gibt, der keine Unterstützung von JavaScript meldet. Diese Elemente werden nicht als Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
 
-**USENET (Newsgroup)**: Das heißt, dass die URL eines Referrer mit [!DNL news://] :// eingeleitet wurde. Folglich wurde der Link des Referrer in einer USENET-Newsgroup und nicht auf einer Webseite veröffentlicht.
+**USENET (Newsgroup)**: Das heißt, dass die URL eines Referrer mit `news://` :// eingeleitet wurde. Folglich wurde der Link des Referrer in einer USENET-Newsgroup und nicht auf einer Webseite veröffentlicht.
 
 >[!NOTE]
 >
