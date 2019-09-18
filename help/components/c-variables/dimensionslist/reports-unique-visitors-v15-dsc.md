@@ -4,10 +4,10 @@ seo-description: Zeigt die Anzahl der Unique Visitors, die auf Ihre Site zugegri
 seo-title: Unique Visitors
 solution: Analytics
 title: Unique Visitors
-topic: 'Berichte    '
-uuid: e 70 e 1 a 14-b 3 b 9-4 d 1 a-a 8 a 5-a 247 a 443 c 752
+topic: Berichte
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -59,7 +59,7 @@ Die folgende Tabelle enthält Beispiele zu dieser Seite. Derselbe Besucher wird 
 
 ## Bericht „Unique Visitors“ – Trendmetrik {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Berichte zu individuellen Besuchern] verhalten sich ähnlich wie bei Ad-hoc-Analysen. Für jeden Hit, bei dem ein Besuch stattfindet, wird der Besucher gezählt. Jeder Seite wird der Besucher dafür zugeschrieben.
+[!UICONTROL Die Berichte zu Unique Visitors] verhalten sich in Ad-hoc-Analysen ähnlich. Für jeden Hit, bei dem ein Besuch stattfindet, wird der Besucher gezählt. Jeder Seite wird der Besucher dafür zugeschrieben.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -107,7 +107,7 @@ Zudem wird jedem Datum der entsprechende Besucher dafür zugeschrieben.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -129,7 +129,7 @@ Zudem wird jedem Datum der entsprechende Besucher dafür zugeschrieben.
  </tbody> 
 </table>
 
-** [!UICONTROL Unique Visitors Report] Broken Down by *`Page`*.**
+**[!UICONTROL Bericht zu individuellen Besuchern]aufgeschlüsselt nach *`Page`*.**
 
 Sie können eine Seite für den [!UICONTROL Bericht zu Unique Visitors] auswählen. Im folgenden Bericht wird die Seite A zum entsprechenden Datum besucht:
 
@@ -142,7 +142,7 @@ Sie können eine Seite für den [!UICONTROL Bericht zu Unique Visitors] auswähl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ Bei zeitraumbasierten Berichten wird nur der erste Besuch des Unique Visitorss i
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -212,7 +212,7 @@ Der folgende Bericht zeigt die Unique Visitors pro Tag an.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -263,7 +263,7 @@ Die Summen der Metrik können Sie dem Datumsbereich des Berichts entsprechend ä
 
 Sie können den Datumsbereich mithilfe der Segmentierung ändern, um spätere anstelle von früheren Datumsangaben einzuschließen. Beispiel: Angenommen, der Datumsbereich ist wieder der 2. bis zum 3. Januar (wie in der vorherigen Tabelle). Wenn Sie ein Segment anwenden, bei dem Seite = C, dann wird das Segment am 2. Januar nicht übergeben und der erste Hit für „Unique Visitor pro Woche“ findet am 3. Januar statt. Wenn Sie stattdessen ein Segment mit Seite = D anwenden, werden der 2. und der 3. Januar ausgeschlossen. Für „Unique Visitor pro Woche“ erscheinen dann keine Ergebnisse und die Besucher werden in der Gesamtsumme nicht berücksichtigt.
 
-** Berichte zu zeitraumbasierten individuellen Besuchern**
+**Berichte zu zeitraumbasierten individuellen Besuchern **
 
 Bei diesen Berichten werden bestimmte Seiten, Eigenschaften und Attribute verwendet (z. B. Seite = A)
 
@@ -280,7 +280,7 @@ Bei „Unique Visitors pro Woche“ mit Seite = A schließen die Marketing-Beric
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ Bei Unique Visitors pro Woche mit Seite = B, wird lediglich der 2. Januar gezäh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -350,7 +350,7 @@ Sie können Berichten ohne Trendansicht Metriken zu zeitraumbasierten Unique Vis
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eine </p> </td> 
-   <td colname="col02"> <p>Januar 1 </p> </td> 
+   <td colname="col02"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -394,7 +394,7 @@ Eine Metrik zu Unique Visitors pro Tag für einen [!UICONTROL Seitenberichte] ka
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eine </p> </td> 
-   <td colname="col02"> <p>Januar 1 </p> </td> 
+   <td colname="col02"> <p>1&amp;#46; Januar </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
@@ -420,7 +420,7 @@ Eine Metrik zu Unique Visitors pro Tag für einen [!UICONTROL Seitenberichte] ka
  </tbody> 
 </table>
 
-Zum Aufschlüsseln eines Attributs nach einem anderen (z. B. *`page`* nach *`eVar`*) weist Analytics einen zeitraumbasierten Unique Visitor für jede einzelne Instanz des Zeitraums und der Seite zu (oder das Attribut, das korreliert wird).
+Zum Aufschlüsseln eines Attributs nach einem anderen (z. B. *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 Wenn Sie Seite A in die eVars T und U aufschlüsseln, wird der 2. Januar ausgeschlossen, da Seite A am 1. Januar angezeigt wurde. Der folgende Bericht zeigt die Unique Visitors pro Woche an.
 
