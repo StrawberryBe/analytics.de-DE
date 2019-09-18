@@ -1,20 +1,20 @@
 ---
-description: Zeigt Informationen zu Besuchern an, einschließlich der Besucheranzahl, Kundentreue und Besuchermerkmalen.
-seo-description: Zeigt Informationen zu Besuchern an, einschließlich der Besucheranzahl, Kundentreue und Besuchermerkmalen.
+description: Zeigt Informationen zu Besuchern an, einschließlich Besucherzahlen, Kundentreue und Besuchereigenschaften.
+seo-description: Zeigt Informationen zu Besuchern an, einschließlich Besucherzahlen, Kundentreue und Besuchereigenschaften.
 seo-title: Besucherberichte
 solution: Analytics
 title: Besucherberichte
 topic: Ad Hoc Analysis
-uuid: 3 e 9 b 41 d 1-d 6 ff -47 a 8-aa 6 b -829 df 1040 c 34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
 # Besucherberichte
 
-Zeigt Informationen zu Besuchern an, einschließlich der Besucheranzahl, Kundentreue und Besuchermerkmalen.
+Zeigt Informationen zu Besuchern an, einschließlich Besucherzahlen, Kundentreue und Besuchereigenschaften.
 
 ## Rückkehrhäufigkeit {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -65,7 +65,7 @@ Sie können diesen Bericht nach jedem anderen Bericht oder jeder anderen Variabl
 
 >[!NOTE]
 >
->Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer bei jedem Besuch inkrementiert.
+>Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer für jeden Besuch inkrementiert.
 
 Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch einen Besucher an Adobe weitergegeben werden. Nach Empfang dieser Daten vergleicht Adobe sie mit historischen Daten zur Besucher ID, um festzustellen, ob es sich um einen:
 
@@ -77,7 +77,7 @@ Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch ein
 >
 >Jede Analytics-Besucher-ID ist mit einem Besucherprofil auf Adobe-Servern verknüpft. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
-## Kundenloyalität {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
+## Kundentreue {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
 Nutzen Sie diesen Bericht, um zu sehen, ob Ihr Umsatz eher durch neue oder wiederkehrende Kunden zustande kommt.
 
@@ -96,11 +96,11 @@ Der Bericht [!UICONTROL Kundeloyalität] gibt Aufschluss über Einkaufsmuster vo
 
 >[!NOTE]
 >
->Wenn Sie diese Metriken verwenden, werden alle Benutzerbesuche (oder alle Besucher) in diesem Bericht dargestellt, unabhängig davon, ob der Besuch (oder Besucher) einen Kauf enthielt.
+>Bei Verwendung dieser Metriken werden alle Besuche des Benutzers (oder alle Besucher) in diesem Bericht dargestellt, unabhängig davon, ob der Besuch (oder Besucher) einen Kauf enthalten hat.
 
 Der Loyalitätsstatus ändert sich nach dem Ende eines Besuchs, bei dem es zu einem Einkaufsereignis gekommen ist. Beispiel: Ein Neukunde (1 Einkauf) tätigt einen Kauf und registriert sich dann innerhalb desselben Besuchs für einen Newsletter. Das Ereignis zur Newsletter-Registrierung wird dennoch als Interaktion mit einem Neukunden betrachtet, da sich der Kundenloyalitätsstatus erst beim nächsten Besuch ändert.
 
-## Besucherprofil{#concept_4D829198CD144DCDA667E0651F93AFC7}   
+## Besucherprofil {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
 Zeigt Informationen über die Art von Besuchern an, die Ihre Site aufrufen. Sie können beispielsweise den Standort des Besuchers anzeigen und feststellen, welchen Browser bzw. welche Computerhardware er verwendet, welche Sprache er eingestellt hat und welchen Internetserviceanbieter er benutzt.
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL Sprachen]**: Zeigt die bevorzugte Sprache Ihrer Besucher an, zeichnet die Standardsprache des Browsers auf und zeigt an, welche Sprachen Besucher am häufigsten auf Ihrer Site verwenden.
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. Dieser Bericht unterscheidet sich vom Bericht [!UICONTROL Vollständige Domänen] insofern, als der Bericht Vollständige Domänen die vollständige ISP-Domäne registriert, während dieser Bericht die sekundäre Domäne auflistet.
+**[!UICONTROL Domänen]**: Listet die Organisationen und ISPs auf, die Ihre Besucher zum Zugriff auf Ihre Site verwenden. Dieser Bericht unterscheidet sich vom Bericht [!UICONTROL Vollständige Domänen] insofern, als der Bericht Vollständige Domänen die vollständige ISP-Domäne registriert, während dieser Bericht die sekundäre Domäne auflistet.
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. Domänen mit den Erweiterungen kommerzieller Einrichtungen (.com), von Netzwerken (.net), des Bildungswesens (.edu), von Regierungsbehörden (.gov) und Organisationen (.org) befinden sich meistens in den USA und sind gesondert von anderen Domänen aufgeführt.
+**[!UICONTROL Domänen auf oberster Ebene]**: Identifiziert anhand ihrer ursprünglichen Domänenerweiterung die Regionen der Welt, aus denen die Besucher stammen, und zeigt an, wie viele Besucher aus diesen Ländern kommen. Domänen mit den Erweiterungen kommerzieller Einrichtungen (.com), von Netzwerken (.net), des Bildungswesens (.edu), von Regierungsbehörden (.gov) und Organisationen (.org) befinden sich meistens in den USA und sind gesondert von anderen Domänen aufgeführt.
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL Postleitzahl des Besuchers]**: Zeigt die Postleitzahlbereiche an, aus denen die Kunden stammten, die die zum Kauf beitragende Erfolgsmetrik am stärksten beeinflussten.
 
 ## GeoSegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 
