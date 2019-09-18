@@ -9,7 +9,7 @@ title: Berechtigungen für Analytics-Tools anpassen
 topic: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 5a6016fa1c79bd7ae858537b0073dbd27ce3c862
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
@@ -33,8 +33,6 @@ Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Prot
 ![](assets/report-access-analytics-tools.png)
 
 Klicken Sie auf **[!UICONTROL Anpassen], um Elemente auszuwählen, auf die die Gruppe Zugriff erhalten soll.**
-
-![](assets/customize-analytics-tools.png)
 
 ## Feldbeschreibungen
 
