@@ -5,9 +5,9 @@ seo-title: Site-Metrikberichte
 solution: Analytics
 title: Site-Metrikberichte
 topic: Ad Hoc Analysis
-uuid: 0730747 a -216 f -4 a 58-b 62 b-a 9812968 cde 5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Site-Metrikberichte {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
@@ -92,7 +92,7 @@ Verwenden Sie diesen Bericht, um:
 
 ## Bericht „Käufe“{#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Zeigt zusammenfassende Daten zu Umsatz, Bestellungen und Einheiten an. You can also view the [!DNL Purchase Conversion Funnel] report.
+Zeigt zusammenfassende Daten zu Umsatz, Bestellungen und Einheiten an. Sie können den [!DNL Purchase Conversion Funnel] Bericht auch anzeigen.
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Umsatz**: Zeigt den Bruttogewinn aus gewählten Zeiträumen an. Dies wäre z. B. der Umsatz im Monat März, die in der letzten Woche getätigten Käufe oder der Umsatz am aktuellen Tag.
 * **Bestellungen**: Zeigt die Anzahl der Bestellungen auf Ihrer Website während des angegebenen Zeitraums an. Bestellungen können mehrere Produkte enthalten.
 * **Einheiten**: Zeigt die Gesamteinheiten an, die während des angegebenen Zeitraums bestellt wurden.
-* ** Einkaufsumrechnungstrichter**: Ideal für die Anzeige von Konversionsereignissen auf Ihrer Site, wenn diese in einer bestimmten Reihenfolge vorkommen, z. B. in einer Einzelhandelseinstellung. Ein Konversionstrichterbericht zeigt die Konversionsmetriken für jeden Schritt des Konversionsprozesses sowie Bestellungen, Umsätze und Einheiten an.
+* ** Einkaufsumrechnungstrichter**: Ideal zum Anzeigen von Konversionsereignissen auf Ihrer Site, wenn diese in einer bestimmten Reihenfolge auftreten, z. B. in einer Einzelhandelseinstellung. Ein Konversionstrichterbericht zeigt die Konversionsmetriken für jeden Schritt des Konversionsprozesses sowie Bestellungen, Umsätze und Einheiten an.
 
 ## Bericht „Warenkorb“{#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. In diesen Berichten können Sie einen Kanal unterteilen und die Details der einzelnen Kanäle anzeigen. Wenn Sie AdLens aktiviert haben, sehen Sie Classifications in Ihren Kanalberichten von „Marketing Reports and Analytics“.
+**[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Metriken an, die Daten zu einem bestimmten First Touch- oder Last Touch-Kanal einblenden. In diesen Berichten können Sie einen Kanal unterteilen und die Details der einzelnen Kanäle anzeigen. Wenn Sie AdLens aktiviert haben, sehen Sie Classifications in Ihren Kanalberichten von „Marketing Reports and Analytics“.
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. Kanaldetailberichte geben Ihnen die Möglichkeit, die Kanaldetailwerte aus dem Übersichtsbericht sorgfältig zu prüfen.
+**[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Details wie Seitennamen und verweisende Stellen an. Diese Informationen werden aus den Kanalwerten extrahiert, die Sie beim Konfigurieren von Regeln in der Option [!UICONTROL „Den Kanalwert setzen auf“] festgelegt haben. Kanaldetailberichte geben Ihnen die Möglichkeit, die Kanaldetailwerte aus dem Übersichtsbericht sorgfältig zu prüfen.
 
 Detailliertere Informationen zur Konfiguration des Marketingkanals in „Marketing Reports &amp; Analysen“ finden Sie im Hilfesystem zu [Marketingkanal](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
