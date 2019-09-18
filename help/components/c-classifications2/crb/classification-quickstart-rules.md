@@ -1,36 +1,36 @@
 ---
 description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
 seo-description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
-seo-title: Classification-Regeln
+seo-title: Klassifizierungsregeln
 solution: Analytics
 subtopic: Classifications
-title: Classification-Regeln
+title: Klassifizierungsregeln
 topic: Admin Tools
-uuid: 08685919-216 d -448 b-b 886-3 adf 5 ff 5405 e
+uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# Classification-Regeln
+# Klassifizierungsregeln
 
 Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
 
-## Classification rules {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
+## Klassifizierungsregeln {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
 
 Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
+Mit dem Regel-Builder können Sie eine Liste *`classification rule set`* erstellen, die eine Liste von *`classification rules`*. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
 
 Classification-Regeln eignen sich für Folgendes:
 
 * **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Classification-Regeln, die die einzelnen Display-Anzeigekampagnen gruppieren, so dass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
 
 * **Trackingcodes:** Erstellen Sie Classification-Regeln, die die aus den Zeichenfolgen in den Trackingcodes abgeleiteten Schlüsselwerte kategorisieren und dann prüfen, ob diese Schlüsselwerte mit den angegebenen Kriterien übereinstimmen.
-* **Suchbegriffe:** Mithilfe von [regulären Ausdrücken](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
+* **Suchbegriffe:** Mithilfe von [regulären Ausdrücken](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise enthält *`baseball`*, können Sie eine *`Sports League`* Klassifizierung auf *`MLB`*.
 
 Der Trackingcode für eine E-Mail-Kampagnen-ID lautet beispielsweise:
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
 
-* **Reguläre Ausdrücke: Hilfe ist unter** Reguläre Ausdrücke in Classification-Regeln[verfügbar.](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)
+* **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
 
 * **Report Suites:** Sie können erst dann eine Classification auswählen, wenn Sie mindestens eine Report Suite ausgewählt haben. Die Report Suite kann erst dann angewendet werden, wenn Sie den Regelsatz erstellt und eine Variable zugewiesen haben.
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
    Aktive Regeln werden alle vier Stunden verarbeitet, wobei die zu untersuchenden Classification-Daten in der Regel einen Monat zurückgehen. Die Regeln suchen automatisch nach neuen Werten und laden die Classification mit dem Importeur hoch.
 
-* **Überschreiben von vorhandenen Classifications:** Siehe [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) Bei Bedarf können Sie vorhandene Classifications mithilfe des Imports löschen oder entfernen.
+* **Überschreiben von vorhandenen Classifications:** Siehe [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) Bei Bedarf können Sie vorhandene Klassifizierungen mit dem Importeur löschen oder entfernen.
 
 ## In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert? {#section_4481E88CA28246B6B19EA16E2D83A3A8}
 
@@ -94,7 +94,7 @@ Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben
 
    >[!NOTE]
    >
-   >In Berichten gelten Classifications für jeden angegebenen Zeitrahmen, sobald ein Schlüssel vorhanden ist. Der Datumsbereich eines Berichts wirkt sich nicht auf die Berichterstellung aus.
+   >In Berichten gelten Classifications für jeden angegebenen Zeitraum, sobald ein Schlüssel vorhanden ist. Der Datumsbereich eines Berichts wirkt sich nicht auf die Berichterstellung aus.
 
 ![](assets/overwrite_keys.png)
 
@@ -116,7 +116,7 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->Reguläre Ausdrücke eignen sich am besten für Trackingcodes, die Trennzeichen verwenden.
+>Reguläre Ausdrücke eignen sich am besten für Rückverfolgungscodes, die Trennzeichen verwenden.
 
 ## Regulärer Ausdruck – Beispiel für Trackingcode {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
@@ -146,20 +146,20 @@ Zusammenhang zwischen dem regulären Ausdruck und der Kampagnen-ID:
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL Regel-Builder] **
+**[!UICONTROL Regel-Builder]**
 
 Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &amp; amp; Hat; (.+)\:(.+)\:(.+)$ | Kampagnendatum | $3 |
+| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | $3 |
 
 **Syntax**
 
 | Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Zugehörige Übereinstimmungsgruppen |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em: Juniale: 20130601: em `$1`: Juniale `$2`: 20130601`$3` |
-| Aufbauen der Syntax | `^` = beginnt die Zeile () = gruppiert Zeichen und extrahiert übereinstimmende Zeichen in den Klammern. `(.+)` = erfasst ein ( . ) und (+) weiteren\ = Beginn einer Zeichenfolge. `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuniAusverkauf:20130601 `$1`: em `$2`: JuniAusverkauf `$3`: 20130601 |
+| Aufbauen der Syntax | `^` = beginnt die Zeile () = Gruppen-Zeichen und ermöglicht das Extrahieren übereinstimmender Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) und ( + ) beliebiger \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
 
@@ -174,7 +174,7 @@ Mit einem regulären Ausdruck können Sie beispielsweise ein bestimmes Zeichen i
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL Regel-Builder] **
+**[!UICONTROL Regel-Builder]**
 
 Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
@@ -199,18 +199,18 @@ Beispielschlüssel:
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL Regel-Builder] **
+**[!UICONTROL Regel-Builder]**
 
 Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |--- |--- |--- |--- |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a: b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a: b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a: b: c: d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Reguläre Ausdrücke – Beispiel für „enthält nicht“{#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -292,7 +292,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | 2 | „Enthält“ | Fantasy | Suchtyp | Fantasy |
 | 3 | „Enthält“ | Romo | Suchtyp | Spieler |
 
-Wenn ein Benutzer nach *`Cowboys fantasy Tony Romo`*, wird der Begriff *`Player`* klassifiziert, da er mit der letzten Classification übereinstimmt, die in der Spalte Classification festlegen angezeigt wird.
+Wenn ein Benutzer nach *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
 
 Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für die folgenden Suchbegriffe fest:
 
@@ -317,7 +317,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
 >[!NOTE]
 >
->In diesem Verfahren müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von [Unter-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+>Bei diesem Verfahren müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von [Unter-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
 1. [Erstellen Sie einen Classification-Regelsatz](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -329,12 +329,12 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    Die Seite **[!UICONTROL Report Suites auswählen]wird angezeigt.**
 
    >[!NOTE]
-   Report suites display on this page *`only`* when the following conditions are met:        &gt;
+   Report Suites werden auf dieser Seite angezeigt, *`only`* wenn die folgenden Bedingungen erfüllt sind:        &gt;
 
    * Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   (See *`Variable`* in [Classification Rule Sets](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) for an explanation about this prerequisite.)
+   (Eine Erläuterung zu dieser Voraussetzung finden Sie *`Variable`* in den [Classification-Regelsätzen](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) .)
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf Regelsatz [hinzufügen klicken, um den Regelsatz zu erstellen](/help/components/c-classifications2/crb/classification-rule-set.md) .
 
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
@@ -347,7 +347,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
    ![Schritt Ergebnis](assets/classification_rules_page.png)
 
-   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   Beispiele zum Erstellen von Regeln finden Sie unter Classifications Rule Builder[ und ](/help/components/c-classifications2/crb/classification-rule-builder.md)Reguläre Ausdrücke in Classification-Regeln[](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
 
    >[!NOTE]
    >
@@ -389,7 +389,7 @@ In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder ein
    Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.
 1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
-   Weitere Informationen zur Verwendung von Regeln zum Überschreiben bestehender Classifications finden Sie unter.
+   Weitere Informationen zum Überschreiben vorhandener Classifications mithilfe von Regeln finden Sie unter .
 
 ## Validate and Activate Classification Rules {#task_2B4FA41F1EE64F4AAC6170C5EFC066AC}
 
