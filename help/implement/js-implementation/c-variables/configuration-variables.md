@@ -9,7 +9,7 @@ title: Konfigurationsvariablen
 topic: Entwickler und Implementierung
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ Adobe [!DNL Customer Care] kann die für Ihre Report Suite standardmäßig einge
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * Währungs-Ereignisse dürfen nicht für Zwecke eingesetzt werden, bei denen es nicht um Währungen geht. Wenn Sie beliebige oder dynamische Werte zählen möchten, die keine Währungen sind, verwenden Sie den Ereignistyp [!UICONTROL numeric].
 * Wenn die Variable *`currencyCode`* leer ist, wird keine Konversion vorgenommen.
+
+Weitere Informationen finden Sie unter [Währungscodes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
