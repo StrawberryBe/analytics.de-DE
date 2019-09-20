@@ -1,13 +1,13 @@
 ---
 description: Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
-keywords: Dynamisches Tag-Management; Datenelement; neues Datenelement erstellen; name; type; Standardwert; Kleinbuchstaben erzwingen; diesen Wert speichern für
+keywords: Dynamisches Tag-Management;Datenelement;Neues Datenelement erstellen;Name;Typ;Standardwert;Kleinbuchstabenwert erzwingen;diesen Wert speichern für
 seo-description: Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
 seo-title: Datenelement erstellen
-solution: Marketing Cloud, Analytics, Target, Dynamisches Tag-Management
+solution: Experience Cloud, Analytics, Target, Dynamisches Tag-Management
 title: Datenelement erstellen
-uuid: eacd 5 c 60-6197-4129-a 9 e 1-a 39 e 9 a 58 b 38
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
