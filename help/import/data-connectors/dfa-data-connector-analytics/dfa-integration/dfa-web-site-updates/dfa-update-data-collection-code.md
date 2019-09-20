@@ -6,12 +6,12 @@ seo-title: Aktualisierung des Datenerfassungscodes Ihrer Website
 solution: Analytics
 title: Aktualisierung des Datenerfassungscodes Ihrer Website
 topic: Data Connectors
-uuid: a 97 d 1 b 62-f 883-48 b 1-9516-4 f 889 e 701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ Für die Genesis-Integration für DFA wird die DFA Floodlight-Konfigurations-ID 
 
 >[!NOTE]
 >
->Der Begriff Spotlight wurde in einer neuen Version von Google DFA in Floodlight geändert. Die Benennung des JavaScript-Parameters `dfa_SPOTID` basiert auf der Spotlight-Terminologie, wird aber für beide Versionen verwendet.
+>Der Begriff Spotlight wurde in einer kürzlich veröffentlichten Version von Google DFA in Floodlight geändert. Die Benennung des JavaScript-Parameters `dfa_SPOTID` basiert auf der Spotlight-Terminologie, wird aber für beide Versionen verwendet.
 
 Aktualisieren Sie durch Hinzufügen folgender Elemente Ihren JavaScript-Datenerfassungscode, um die DFA-Integration auf Ihrer Website zu aktivieren:
 
@@ -31,7 +31,7 @@ Aktualisieren Sie durch Hinzufügen folgender Elemente Ihren JavaScript-Datenerf
 
 ## Integrate-Modul für DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-Für die DFA-Integration wird das Adobe Marketing Cloud Integrate-Modul verwendet, wodurch zusätzliche Funktionen zu Ihrem JavaScript-Datenerfassungscode (`s_code.js`) hinzugefügt werden. Das Integrate-Modul ist Teil der.zip, wenn Sie den appmeasurement for Javascript-Code aus dem [Code-Manager herunterladen](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Wenden Sie sich an Ihren Adobe-Berater nur, wenn Sie weitere Hilfe benötigen.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). Das Integrate-Modul wird als Teil der ZIP-Datei angezeigt, wenn Sie den AppMeasurement for JavaScript-Code aus dem [Code-Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)herunterladen. Wenden Sie sich an Ihren Adobe-Berater, wenn Sie weitere Hilfe benötigen, um ihn zu finden.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
@@ -101,5 +101,5 @@ Der Erfassungscodezusatz enthält zusätzliche Plug-ins, die die Funktion der DF
 
 >[!CAUTION]
 >
->Eines der Mechanismen, mit dem das Plug-in unnötige DFA-Abfragen löscht, ist ein domänenbasiertes Besuchcookie. Eine Integrations-Report Suite, die mehrere Domänen umfasst, erhöht die Clickthrough- und Durchsichtsdaten, wenn Besucher nach einer DFA-basierten Durchsichts- oder Clickthrough-Aktion die Domäne wechseln.
+>Einer der Mechanismen, die das Plug-in zur Beseitigung unnötiger DFA-Abfragen verwendet, ist ein domänenbasiertes Besuchscookie. Eine Integrations-Report Suite, die mehrere Domänen umfasst, erhöht die Clickthrough- und Durchsichtsdaten, wenn Besucher nach einer DFA-basierten Durchsichts- oder Clickthrough-Aktion die Domäne wechseln.
 
