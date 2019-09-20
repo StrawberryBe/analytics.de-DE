@@ -1,36 +1,36 @@
 ---
-description: Sobald alle Bereitstellungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen wurde.
-seo-description: Sobald alle Bereitstellungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen wurde.
-seo-title: Überprüfung der Integration
+description: Nachdem alle Implementierungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen hat.
+seo-description: Nachdem alle Implementierungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen hat.
+seo-title: Überprüfen der Integration
 solution: Analytics
-title: Überprüfung der Integration
-uuid: 153345 ca -00 ae -4 b 76-93 fe -7 e 82 a 65 ebc 0 e
+title: Überprüfen der Integration
+uuid: 153345ca-00ae-4b76-93fe-7e82a65ebc0e
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Überprüfung der Integration{#verifying-the-integration}
+# Überprüfen der Integration{#verifying-the-integration}
 
-Sobald alle Bereitstellungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen wurde.
+Nachdem alle Implementierungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen hat.
 
-Es dauert einige Tage, bis der Datenaustausch beginnt. Bitte wenden Sie sich an Selligent, nachdem Sie die Integration aktiviert haben.
+Der Datenaustausch wird einige Tage dauern. Bitte stellen Sie sicher, dass Sie sich nach der Aktivierung der Integration an Selligent wenden.
 
 ## Protokoll zu den Integrationsaktivitäten {#section-927e270495db479fba9578915d9ae9c9}
 
-Navigieren Sie zu Ihrer Selligent Integration in Data Connectors. Auf der Registerkarte **[!UICONTROL Support]** sollten Ereignisse wie Metrikdaten importiert und/oder Classification-Daten erfolgreich importiert werden:
+Navigieren Sie zu Ihrer selbstbestimmten Integration in Data Connectors. Auf der Registerkarte **[!UICONTROL Support]** sollten Sie Ereignisse wie importierte Metrikdaten und/oder erfolgreich importierte Klassifizierungsdaten sehen:
 
 ![](assets/selligent-verifying.png)
 
 ## Berichtsdaten {#section-ebd481a162324e66bd6dc8cb4b8d2424}
 
-Zeigen Sie Ihre Selligent-Nachrichtenberichte mit entsprechenden Metriken an.
+Zeigen Sie Ihre Berichte mit der entsprechenden Metrik an.
 
-1. Gehen Sie zu Reports &amp; Analysen unter Adobe Marketing Cloud.
+1. Gehen Sie zu "Reports &amp; Analysen"unter "Adobe Experience Cloud".
 1. Wählen Sie die gewünschte Report Suite aus.
-1. Wählen Sie unter **[!UICONTROL "Custom Conversion]**" die **[!UICONTROL Nachrichten-ID-Berichte]** aus und wählen Sie **[!UICONTROL Nachrichten-ID/Nachrichtenname]**.
+1. Wählen Sie unter " **[!UICONTROL Benutzerspezifische Konversion]**"die **[!UICONTROL Nachrichten-ID-Berichte]** und dann " **[!UICONTROL Nachrichten-ID/Nachrichtenname]**"aus.
 
