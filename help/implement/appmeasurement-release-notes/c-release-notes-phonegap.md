@@ -2,13 +2,13 @@
 description: Gesammelte Versionshinweise für PhoneGap.
 seo-description: Gesammelte Versionshinweise für PhoneGap.
 seo-title: PhoneGap
-solution: Analytics, Marketing Cloud
+solution: Analytics, Experience Cloud
 subtopic: Versionshinweise
 title: PhoneGap
 topic: Entwickler und Implementierung
-uuid: 430 f 5 e 71-909 e -4841-b 8 fb -2895 b 01736 ad
+uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
