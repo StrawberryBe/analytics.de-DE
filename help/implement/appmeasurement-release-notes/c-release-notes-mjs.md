@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Versionshinweise
 title: AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
-uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
+uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -29,10 +29,10 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 Releasedatum: **23. August 201**
 
-| Funktion/Korrektur | Beschreibung |
+| Funktion/Fehlerbehebung | Beschreibung |
 | -----------| ---------- |
-| Baidu-Unterstützung hinzugefügt | Zusätzliche Unterstützung für Baidu-Abfragezeichenfolgenneuanordnung. |
-| Fehlerbehebung | Es wurde ein Fehler behoben, der dazu führte, dass statische Besucherwerte in Treffern, die in Warteschlange lagen, in die Warteschlange lagen, während sie auf die Teilnahme warten. |
+| Baidu-Unterstützung wurde hinzugefügt | Unterstützung für die Neuordnung der Baidu-Abfragezeichenfolge wurde hinzugefügt. |
+| Fehlerbehebung | Ein Fehler wurde behoben, aufgrund dessen alte Besucherwerte für Aufrufe angezeigt wurden, die vor dem Opt-in in einer Warteschlange warteten. |
 
 ## Version 2.16.0
 
@@ -40,7 +40,7 @@ Releasedatum: **15. August 2019**
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| `sendBeacon` Unterstützung für Exitlinks | `sendBeacon`-Unterstützung in [!UICONTROL AppMeasurement] für Exitlinks wurde implementiert. Dies verbessert das Ausstiegs-Linktracking und erhöht wahrscheinlich den Traffic. `SendBeacon` wird nicht im Kontext einer Seite ausgeführt, sondern im Kontext des Browsers. Wenn eine Seite nicht geladen wird, `sendBeacon`wird die Anforderung trotzdem abgeschlossen. Dies ist für Exitlinks sehr nützlich, da es sehr viel wahrscheinlicher wird, dass die Exitlink-Anforderung abgeschlossen wird. |
+| `sendBeacon` Unterstützung für Exitlinks | `sendBeacon`-Unterstützung in [!UICONTROL AppMeasurement] für Exitlinks wurde implementiert. Dies verbessert das Ausstiegs-Linktracking und erhöht wahrscheinlich den Traffic. `SendBeacon` wird nicht im Kontext einer Seite, sondern im Kontext des Browsers ausgeführt. Das heißt, wenn eine Seite mit entladen wird, `sendBeacon`wird die Anforderung dennoch abgeschlossen. Dies ist sehr nützlich für Ausstiegslinks, da es viel wahrscheinlicher wird, dass die Ausstiegslink-Anforderung abgeschlossen wird. |
 | ECID/fid-Werte | ECID/fid-Werte werden jetzt beim ersten Treffer zwischengespeichert, auch wenn sich die OptIn-Einstellungen ändern. |
 | DIL 9.3 | Zielgruppen-Management Module wurde auf DIL 9.3 aktualisiert |
 | Scroll Reach Tracking | Scroll Reach Tracking kann jetzt in s.ActivityMap.trackScrollReach über einen Schalter ein- oder ausgeschaltet werden. |
@@ -50,8 +50,8 @@ Releasedatum: **15. August 2019**
 
 Releasedatum: **15. Juli 2019**
 
-* Activity Map-Erweiterung kann nun mit activitymap verfolgt werden (AN -172949)
-* DIL 9.2 zu appmeasurement hinzugefügt (AN -182472)
+* Activity Map-Verfolgung für Bildlauf zur Activity Map-Erweiterung hinzugefügt (AN-172949)
+* DIL 9.2 zu AppMeasurement hinzugefügt (AN-182472)
 
 ## Version 2.14.0
 
@@ -64,7 +64,7 @@ Releasedatum: **21. Mai 2019**
 
 Releasedatum: **10. April 2019**
 
-Korrektur für viele gemeldete Probleme mit clearvars. Das Problem tritt auf, wenn Treffer gesendet werden, bevor der Tracker fertig ist. Wenn der Tracker fertig wird, kann die Bibliothek Variablen festlegen, die bereits gelöscht oder geändert wurden. (AN-176931, AN-176629, DTM-12758).
+Behebung vieler gemeldeter Probleme mit clearVars. Das Problem tritt auf, wenn Treffer gesendet werden, bevor der Tracker bereit ist. Sobald der Tracker fertig ist, kann die Bibliothek Variablen festlegen, die bereits gelöscht oder geändert wurden. (AN-176931, AN-176629, DTM-12758).
 
 ## Version 2.12.0
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * Aktualisiertes Zielgruppen-Management Module auf DIL 9.1. (AN-175255)
 * GTM-Sicherheitsrichtlinie gestattet nicht das Activity Map-Modul. (AN-174679)
-* Verbesserte appmeasurement, um die Abmeldung zu berücksichtigen, wenn der Identitätsdienst nicht in der Teilnahme genehmigt wurde. (AN-175259)
+* Verbesserte AppMeasurement, um die Abmeldung zu berücksichtigen, wenn der Identitätsdienst nicht in der Abmeldung genehmigt wurde. (AN-175259)
 
 ## Version 2.11.0
 
@@ -177,7 +177,7 @@ Releasedatum: **08.06.2017**
 * Die letzte Version von [!DNL dil.js] wurde hinzugefügt (AN-140396).
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * Die Visitor API 2.1.0 wurde wieder hinzugefügt. (AN-140873)
-* `mcorgid` Parameter hinzugefügt. (AN-139586)
+* Parameter `mcorgid` hinzugefügt. (AN-139586)
 * Der Parameter „cp“ (customerPerspective) wurde hinzugefügt. (AN-140897)
 
 ## Version 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -228,7 +228,7 @@ Aktualisiert: **20.10.2016**
 
 Aktualisiert: **15.09.2016**
 
-* Aktualisierungsmodul [!DNL AppMeasurement][!DNL Audience Manager] mit DIL 6.5 und zusätzlichen Konfigurationen (AN -129411)
+* Update [!DNL AppMeasurement] [!DNL Audience Manager] Module mit DIL 6.5 und zusätzlichen Konfigurationen (AN-129411)
 
 * Aufnahme der Visitor API 1.8.0 (AN-129887)
 
@@ -241,7 +241,7 @@ Aktualisiert: **18.08.2016**
 
 >[!NOTE]
 >
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
+>Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -251,7 +251,7 @@ Aktualisiert: **04.08.2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Marketing Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
 ## Version 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
@@ -288,7 +288,7 @@ Releasedatum: **19. Mai 2016**
 
 Releasedatum: **21. April 2016**
 
-* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Außerdem wird [!DNL Activity Map] die Verfolgung standardmäßig aktiviert. (AN-112689)
+* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Außerdem ist die [!DNL Activity Map] Verfolgung standardmäßig aktiviert. (AN-112689)
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
@@ -329,7 +329,7 @@ Releasedatum: **29. August 2015**
 
 Releasedatum: **16. Juli 2015**
 
-* [!DNL Audience Manager] Das Modul für die Verwendung von AAM DIL 6.2 - getkunden-IDs von visitorapi. js und Weiterleitung an AAM wird aktualisiert. (AN-104978)
+* Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. (AN-104978)
 
 ## Version 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
 
@@ -367,7 +367,7 @@ Releasedatum: **21. Mai 2015**
 
 **Bekanntes Problem**
 
-In den Integrationen der Besucher-API/ [!DNL AppMeasurement][!DNL Audience Manager] Module werden zwei iframe-Anfragen zur Zielveröffentlichung in IE 6-9 veröffentlicht: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
+In den Integrationen Visitor API/ [!DNL AppMeasurement] [!DNL Audience Manager] Module gibt es zwei iFrame-Anfragen zur Veröffentlichung von Zielgruppen, die in IE6-9 gestellt werden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. The correct behavior, as seen in other browsers, is to only load `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -432,7 +432,7 @@ Releasedatum: **18. September 2014**
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Marketing Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
 
 ## Version 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -445,7 +445,7 @@ Unterstützung für [zusätzliche eVars](https://marketing.adobe.com/resources/h
 
 >[!NOTE]
 >
->H-Code unterstützt keine zusätzlichen evars und Ereignisse.
+>H-Code unterstützt keine zusätzlichen eVars und Ereignisse.
 
 [!DNL JavaScript]
 
@@ -460,13 +460,13 @@ Releasedatum: **19. Juni 2014**
 
 Releasedatum: **22. Mai 2014**
 
-* [!DNL AppMeasurement] für [!DNL JavaScript]`s_gi` Funktion wurden Instanzen, die mit H-Code erstellt `s_gi`wurden, nicht korrekt gefunden. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL AppMeasurement] für [!DNL JavaScript] Funktion nicht korrekt gefunden Instanzen, die mit H-Code erstellt wurden `s_gi``s_gi` . Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
 ## Version 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
 Releasedatum: **17. April 2014**
 
-* Unterstützung des [Marketing Cloud-Besucher-ID-Dienstes](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Version 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 
@@ -545,4 +545,4 @@ See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/e
 
 >[!NOTE]
 >
->Einige Plug-ins werden in dieser neuen Version nicht unterstützt. Einzelheiten finden Sie unter [Plug-In-Unterstützung](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support).
+>Einige Plugins werden in dieser neuen Version nicht unterstützt. Einzelheiten finden Sie unter [Plug-In-Unterstützung](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support).
