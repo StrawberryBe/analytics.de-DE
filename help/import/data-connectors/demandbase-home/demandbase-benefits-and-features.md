@@ -1,25 +1,25 @@
 ---
-description: Listet die Top -5-Vorteile und -funktionen auf.
-seo-description: Listet die Top -5-Vorteile und -funktionen auf.
-seo-title: Wichtige Vorteile und Funktionen
-title: Wichtige Vorteile und Funktionen
-uuid: 95405 ebb -8 aeb -43 fe-af 31-d 1 b 37 e 97 bf 6
+description: Führt die fünf wichtigsten Vorteile und Funktionen auf.
+seo-description: Führt die fünf wichtigsten Vorteile und Funktionen auf.
+seo-title: Hauptvorteile und Funktionen
+title: Hauptvorteile und Funktionen
+uuid: 95405ebb-8aeb-43fe-af31-d1b37e97bf06
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Wichtige Vorteile und Funktionen{#key-benefits-and-features}
+# Hauptvorteile und Funktionen{#key-benefits-and-features}
 
-Listet die Top -5-Vorteile und -funktionen auf.
+Führt die fünf wichtigsten Vorteile und Funktionen auf.
 
-* Bietet Traffic- und Konversionsberichte für 8 standardmäßige Demandbase-Unternehmensdimensionen wie Unternehmensname, Branche und Umsatzbereich.
-* Sie können weitere 8 optionale Demandbase-Dimensionen Ihrer Wahl einbeziehen. Dazu zählen die Kontoüberwachungsdimensionen.
-* Enthält die Verwendung von Demandbase-Dimensionen, um Segmente in der Adobe Marketing Cloud zu erstellen und anzuwenden.
-* Bietet eine Optimierung der Report Suite-Variablen. Alle 16 möglichen Demandbase-Dimensionen können nur mithilfe von 2 Custom Conversion-Variablen (evars) erfasst werden.
-* Ermöglicht Ihnen das Senden integrierter Demandbase-Dimensionen an Adobe Target, damit sie für bestimmte Zielgruppen verwendet werden können.
+* Bietet Traffic- und Konversionsberichte zu 8 organisatorischen Standarddimensionen der Demandbase wie Firmenname, Branche und Umsatzbereich.
+* Ermöglicht Ihnen, zusätzliche 8 optionale Demandbase-Dimensionen Ihrer Wahl einzuschließen. Dazu können die Dimensionen der Kontoüberwachung gehören.
+* Umfasst die Verwendung von Demandbase-Dimensionen zum Erstellen und Anwenden von Segmenten in der Adobe Experience Cloud.
+* Bietet eine Optimierung der Report Suite-Variablen. Alle 16 möglichen Demandbase-Dimensionen können mit nur 2 benutzerspezifischen Konversionsvariablen (eVars) erfasst werden.
+* Ermöglicht Ihnen das Senden integrierter Demandbase-Dimensionen an Adobe Target zur Verwendung beim Targeting für bestimmte Zielgruppen.
 
