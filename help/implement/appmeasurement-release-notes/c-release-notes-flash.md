@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Versionshinweise
 title: Flash-Flex
 topic: Entwickler und Implementierung
-uuid: 2 ee 7 fb 92-9 b 62-44 d 4-bd 93-6 dff 26764 b 7 f
+uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Gesammelte Versionshinweise für Flash. Flash-Apps mit „ActionScript“ könne
 
 >[!NOTE]
 >
->Aktivieren Sie die Debug-Protokollierung, um die aktuelle Bibliotheksversion zu finden.
+>Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
 
 <!-- 
 
@@ -47,7 +47,7 @@ Aufnahme der Visitor API 1.5.6
 
 ## April 21, 2016 {#section_6EFC6DBEB9E1460DB344A8278F9FC696}
 
-Adobe has released a [security update APSB16-13](https://helpx.adobe.com/security/products/analytics/apsb16-13.html) for the [!DNL AppMeasurement] for Flash library. Durch diese Aktualisierung wurde eine wesentliche Sicherheitslücke in der Bibliothek behoben, die allerdings nur bei Aktivierung von `debugTracking` vorhanden ist und Ihr System für [DOM-basierte XSS-Angriffe](https://www.owasp.org/index.php/DOM_Based_XSS) anfällig macht.
+Adobe hat das [Sicherheits-Update APSB16-13](https://helpx.adobe.com/security/products/analytics/apsb16-13.html) für die [!DNL AppMeasurement] für Flash-Bibliothek herausgegeben. Durch diese Aktualisierung wurde eine wesentliche Sicherheitslücke in der Bibliothek behoben, die allerdings nur bei Aktivierung von `debugTracking` vorhanden ist und Ihr System für [DOM-basierte XSS-Angriffe](https://www.owasp.org/index.php/DOM_Based_XSS) anfällig macht.
 
 >[!IMPORTANT]
 >
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-Betroffene Versionen sind [!DNL AppMeasurement] für Flash Version 4.0 und früher auf allen Plattformen.
+Betroffene Versionen sind für [!DNL AppMeasurement] Flash Version 4.0 und früher auf allen Plattformen.
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. Wir unterstützen aber weiterhin die Datenerfassung durch bestehende AS2-Projekte. Wir empfehlen Kunden allerdings dringend, ein Upgrade ihrer Implementierungen auf AS3 durchzuführen und die neuesten Sicherheitsfunktionen von [!DNL AppMeasurement] für Flash zu installieren.
 
-[!DNL AppMeasurement] Für Flash-Kunden, die von diesem Problem betroffen sind, müssen Projekte mit der aktualisierten Bibliothek, die für den Download über die [!DNL Analytics] Konsole [verfügbar ist, neu erstellt werden (](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) AN -121780)
+[!DNL AppMeasurement] für Flash-Kunden, die von diesem Problem betroffen sind, müssen Projekte mit der aktualisierten Bibliothek neu erstellen, die von der [!DNL Analytics] Konsole [Mehr...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780) heruntergeladen werden kann.
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -86,7 +86,7 @@ Version 4.0 - Update:
 
 * Aufnahme der Visitor API 1.5.1.
 
-## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## 18. Juni 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 Version 4.0 - Update
 
@@ -128,11 +128,11 @@ Releasedatum: **19. Juni 2014**
 * Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
 * Der Besucher-ID-Dienst 1.3 unterstützt ab sofort neue Funktionen.
 
-## Version 3.8 {#section_3F75C4D0C9BE470B95838DDB2CDCA79F}
+## Version 3.8 {#section_3F75C4D0C9BE470B95838DDB2CDCA79F}
 
 Releasedatum: **17. April 2014**
 
-* Unterstützung des [Marketing Cloud-Besucher-ID-Dienstes](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Version 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
@@ -140,19 +140,19 @@ Releasedatum: **13. März 2014**
 
 * Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
-## Version 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
+## Version 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
 
 Releasedatum: **6. Februar 2014**
 
 * Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
-## Version 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
+## Version 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
 
 Releasedatum: **14. November 2013**
 
 * Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
-## Version 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
+## Version 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
 
 Releasedatum: **17. Oktober 2013**
 
@@ -198,19 +198,19 @@ Releasedatum: **31. Januar 2013**
 
    Damit können Sie die Logik zentralisieren, mit der Sie Aktivitäten ermitteln, die Sie nicht nachverfolgen möchten, z. B. einige benutzerspezifische Links oder externe Links in Display-Anzeigen.
 
-## Version 3.5.2 {#section_77727E343EC14B869020358183DAB2DB}
+## Version 3.5.2 {#section_77727E343EC14B869020358183DAB2DB}
 
 Releasedatum: **8. November 2012**
 
-* Internal updates for [!DNL Audience Manager] integration.
+* Interne Updates für die [!DNL Audience Manager] Integration.
 
-## Version 3.5.1 {#section_F6345AC9F4994D6F97BBCF399B02BB21}
+## Version 3.5.1 {#section_F6345AC9F4994D6F97BBCF399B02BB21}
 
 Releasedatum: **22. Oktober 2012**
 
 * Die ActionScript 3-Builds wurden geändert, um Einstellungen für `s.charSet` zu ignorieren, da wir immer UTF-8 verwenden.
 
-## Version 3.5 {#section_7DC183DD46CF42FE85F42E7AB8915D99}
+## Version 3.5 {#section_7DC183DD46CF42FE85F42E7AB8915D99}
 
 Release Date: **September 13, 2012**
 **Important change to variable binding**: In version 3.5, an option to disable variable binding was added for customers who need to start and end literal string values with curly braces. Die Variablenbindung mit geschweiften Klammern wird primär verwendet, wenn OSMF-Videoplayer mit XML-Tags konfiguriert werden:
@@ -257,37 +257,37 @@ s.autoBindVariablesByValue = true;
    } 
    ```
 
-## Version 3.4.9 {#section_5F2566CF954242D0A7205DA0B257DABA}
+## Version 3.4.9 {#section_5F2566CF954242D0A7205DA0B257DABA}
 
 Releasedatum: **19. Juli 2012**
 
 * Added a master-only meta policy, see [https://www.adobe.com/devnet/flashplayer/articles/fplayer9_security.html](https://www.adobe.com/devnet/flashplayer/articles/fplayer9_security.html).
 
-## Version 3.4.8 {#section_7501E04F6A854D50BFF0F287607A796F}
+## Version 3.4.8 {#section_7501E04F6A854D50BFF0F287607A796F}
 
 Releasedatum:**21. Juni 2012**
 
 * In AS3-Builds wird nun immer UTF-8 verwendet. Dadurch werden Probleme mit Zeichenfolgen für einige Multibyte-Sprachen verhindert.
 
-## Version 3.4.7 {#section_B26A014D13B14878816472E394FBAAA6}
+## Version 3.4.7 {#section_B26A014D13B14878816472E394FBAAA6}
 
 Releasedatum: **26. April 2012**
 
 Videomessung: Es wurde ein Problem mit inkonsistenten Zeitversatzwerten im Brightcove-Player behoben. Wenn der Zeitversatz jetzt als Null gemeldet wird, verwenden wir beim Abschluss die Länge als Zeitversatz. Damit werden Probleme mit der neuen Methode zur Verfolgung von Abschlüssen mithilfe eines Zeitversatzwerts behoben.
 
-## Version 3.4.6 {#section_273B76A58745486E9715D9F5C2AEC433}
+## Version 3.4.6 {#section_273B76A58745486E9715D9F5C2AEC433}
 
 Releasedatum: **19. Januar 2012**
 
 * Aktualisierung der Video-Nachverfolgung: Neue Methode zur Verfolgung von Videoaufrufen mit vollständiger Wiedergabe.
 
-## Version 3.4.5 {#section_DEDF0BEF6BF4458CA00896799E5BA67C}
+## Version 3.4.5 {#section_DEDF0BEF6BF4458CA00896799E5BA67C}
 
 Releasedatum: **8. September 2011**
 
 * Aktiviert Props mit einem Nullwert „0“. Früher wurden Props mit einem solchen Nullwert nicht gesendet.
 
-## Version 3.4.3 {#section_6C930AA0E95045BCA9AD4096B63657C9}
+## Version 3.4.3 {#section_6C930AA0E95045BCA9AD4096B63657C9}
 
 Releasedatum: **Mai 2011**
 
