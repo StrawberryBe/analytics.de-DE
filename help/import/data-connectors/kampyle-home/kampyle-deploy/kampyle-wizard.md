@@ -1,37 +1,37 @@
 ---
-description: Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in der Data Connectors-Schnittstelle ausfüllen.
-seo-description: Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in der Data Connectors-Schnittstelle ausfüllen.
-seo-title: Adobe Integration-Assistent abschließen
+description: Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche ausführen.
+seo-description: Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche ausführen.
+seo-title: Führen Sie den Adobe-Integrationsassistenten aus
 solution: Analytics
-title: Adobe Integration-Assistent abschließen
-uuid: f 30 eff 33-630 b -4 f 89-943 c-c 76 aaf 1 de 995
+title: Führen Sie den Adobe-Integrationsassistenten aus
+uuid: f30eff33-630b-4f89-943c-c76aaf1de995
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Adobe Integration-Assistent abschließen{#complete-the-adobe-integration-wizard}
+# Führen Sie den Adobe-Integrationsassistenten aus{#complete-the-adobe-integration-wizard}
 
-Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in der Data Connectors-Schnittstelle ausfüllen.
+Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche ausführen.
 
-1. Melden Sie sich bei der Adobe Marketing Cloud an.
-1. Navigieren Sie zu **[!UICONTROL Data Connectors]** (ehemals Genesis).
+1. Melden Sie sich bei Adobe Experience Cloud an.
+1. Navigieren Sie zu **[!UICONTROL Data Connectors]** (früher Genesis).
 1. Starten Sie den Kampyle-Integrationsassistenten.
 1. Wählen Sie die gewünschte Report Suite aus und geben Sie einen Namen für die Integration ein.
 1. Konfigurieren Sie die folgenden Elemente:
-   1. **[!UICONTROL E-Mail-Adresse]** : Die E-Email-Adresse des primären Kontakts.
+   1. **[!UICONTROL E-Mail-Adresse]** - die E-Mail-Adresse des Hauptkontakts.
    1. **[!UICONTROL Beschreibung]** - (optional) Beschreibung für diese Integration.
-   1. **[!UICONTROL Kampyle-Schlüssel]** - Suchen Sie diesen Schlüssel in der Kampyle-Anwendung unter **[!UICONTROL Feedback-Formular]** &gt; **[!UICONTROL Anpassung]** des Feedback-Formulars.
-   1. **[!UICONTROL Tracking-Server]** - Die Tracking-Server (Domäne), die Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
-   1. **[!UICONTROL Sicherer Tracking-Server]** - Wenn sich Ihr Tracking-Server für sicheren/HTTPS-Datenverkehr unterscheidet, geben Sie diese Einstellung an.
-1. Konfigurieren Sie die folgenden **[!UICONTROL Variablenzuordnungselemente]** :
-   1. **[!UICONTROL Kampyle Feedback-ID]** -wählen Sie eine verfügbare evar-Variable aus Ihrer Report Suite aus.
-   1. **[!UICONTROL Feedback-Bewertung]** : Wählen Sie ein verfügbares Erfolgsereignis aus (Typ "Zähler" ) aus Ihrer Report Suite.
-   1. **[!UICONTROL Feedback-Elemente]** : Wählen Sie ein verfügbares Erfolgsereignis aus (Typ "Zähler" ) aus Ihrer Report Suite.
-   1. **[!UICONTROL Feedback mit Bewertung]** : Wählen Sie ein verfügbares Erfolgsereignis aus (Typ "Zähler" ) aus Ihrer Report Suite.
-1. Markieren Sie das Kästchen, um das Kampyle Integration-Dashboard automatisch für Sie zu erstellen (empfohlen).
-1. Überprüfen Sie alle Konfigurationselemente und klicken **[!UICONTROL Sie auf Jetzt aktivieren]**.
+   1. **[!UICONTROL Kampyle-Schlüssel]** - Suchen Sie diesen Schlüssel in der Kampyle-Anwendung unter **[!UICONTROL Feedback-Formular]** &gt; **[!UICONTROL Feedback-Formularanpassung]**.
+   1. **[!UICONTROL Tracking-Server]** - die Einstellung des Trackingservers (Domäne), mit der Sie Adobe Analytics-Daten verfolgen.
+   1. **[!UICONTROL Tracking Server Secure]** - Wenn Ihr Tracking-Server für sicheren/https-Traffic unterschiedlich ist, geben Sie diese Einstellung hier an.
+1. Konfigurieren Sie die folgenden **[!UICONTROL Variablenzuordnungen]** :
+   1. **[!UICONTROL Kampyle-Feedback-ID]** - Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite
+   1. **[!UICONTROL Feedback-Bewertung]** - Wählen Sie ein verfügbares Erfolgsereignis (Typ "Zähler") aus Ihrer Report Suite aus.
+   1. **[!UICONTROL Feedback-Elemente]** - Wählen Sie ein verfügbares Erfolgsereignis (Typ "Zähler") aus Ihrer Report Suite aus.
+   1. **[!UICONTROL Feedback mit Bewertung]** - Wählen Sie ein verfügbares Erfolgsereignis (Typ "Zähler") aus Ihrer Report Suite aus.
+1. Markieren Sie das Kästchen, damit das Kampyle Integration Dashboard automatisch für Sie erstellt wird (empfohlen).
+1. Überprüfen Sie alle Konfigurationselemente und klicken Sie auf Jetzt **[!UICONTROL aktivieren]**.
