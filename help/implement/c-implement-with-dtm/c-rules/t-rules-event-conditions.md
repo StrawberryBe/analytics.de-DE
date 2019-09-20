@@ -1,13 +1,13 @@
 ---
 description: Die Bedingungen bestimmen, ob eine ereignisbasierte Regel ausgelöst wird.
-keywords: Dynamisches Tag-Management; rule; create rule; new rule; ereignisbasierte Regel; Linkaktivierung verzögern; Anwendung des Ereignishandlers direkt auf Element anwenden; bubbling; Ereignis bubbling
+keywords: Dynamisches Tag-Management;Regel;Regel erstellen;Neue Regel;ereignisbasierte Regel;Linkaktivierung verzögern;Ereignishandler direkt auf Element anwenden;Bubbling;Ereignisblasen
 seo-description: Die Bedingungen bestimmen, ob eine ereignisbasierte Regel ausgelöst wird.
 seo-title: Bedingungen für ereignisbasierte Regeln erstellen
-solution: Marketing Cloud, Analytics, Target, Dynamisches Tag-Management
+solution: Experience Cloud, Analytics, Target, Dynamisches Tag-Management
 title: Bedingungen für ereignisbasierte Regeln erstellen
-uuid: a 847391 c -5 aec -4 d 64-8 a 35-388587731598
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
