@@ -1,25 +1,25 @@
 ---
-description: Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in der Data Connectors-Schnittstelle ausfüllen.
-seo-description: Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in der Data Connectors-Schnittstelle ausfüllen.
-seo-title: Abschluss des Adobe-Integrationsassistenten
-title: Abschluss des Adobe-Integrationsassistenten
-uuid: 75260 b 92-a 6 f 5-44 b 6-b 3 ea-d 5945 fdd 1 ecb
+description: Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche ausführen.
+seo-description: Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche ausführen.
+seo-title: Ausführen des Adobe Integration Wizard
+title: Ausführen des Adobe Integration Wizard
+uuid: 75260b92-a6f5-44b6-b3ea-d5945fdd1ecb
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Abschluss des Adobe-Integrationsassistenten{#completing-the-adobe-integration-wizard}
+# Ausführen des Adobe Integration Wizard{#completing-the-adobe-integration-wizard}
 
-Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in der Data Connectors-Schnittstelle ausfüllen.
+Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der Data Connectors-Oberfläche ausführen.
 
-1. Navigieren Sie zum Bereich Data Connectors (ehemals Genesis) innerhalb der Adobe Marketing Cloud.
+1. Navigieren Sie zum Bereich Data Connectors (früher Genesis) in der Adobe Experience Cloud.
 1. Starten Sie den Integrationsassistenten von Demandbase 2.0.
-1. Wählen Sie die gewünschte Report Suite aus und geben Sie einen Namen für die Integration ein.
+1. Wählen Sie die gewünschte Report Suite und geben Sie einen Namen für die Integration ein.
 1. Konfigurieren Sie die folgenden Elemente:
 
 <table id="table_8D60DC7C48C144DC9934749E7F9F65FF"> 
@@ -32,7 +32,7 @@ Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in d
  <tbody> 
   <tr> 
    <td colname="col1"> E-Mail-Adresse </td> 
-   <td colname="col2"> Die E-Mail-Adresse des primären Kontakts. </td> 
+   <td colname="col2"> Die E-Mail-Adresse des Hauptkontakts. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Beschreibung </td> 
@@ -40,31 +40,31 @@ Um die Integration zu aktivieren, müssen Sie den Konfigurationsassistenten in d
   </tr> 
   <tr> 
    <td colname="col1"> Demandbase-API-Schlüssel </td> 
-   <td colname="col2"> Sie können dies von Ihrem Demandbase-Kundenbetreuer abrufen. </td> 
+   <td colname="col2"> Sie können dies von Ihrem Demandbase-Vertreter abrufen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Benutzerdefinierte Demandbase-Dimension # N </td> 
-   <td colname="col2"> Dies sind die IDs für die optionalen 8 Dimensionen. Weitere Informationen finden Sie unter Demandbase-benutzerdefinierte Dimensionen. </td> 
+   <td colname="col1"> Benutzerdefinierte DemandBase-Dimension Nr. </td> 
+   <td colname="col2"> Dies sind die IDs für die 8 optionalen Dimensionen. Weitere Informationen finden Sie unter Benutzerdefinierte Dimensionen der Demandbase. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> An Adobe Target senden </td> 
-   <td colname="col2">Wenn "true" , werden die Dimensionen der Demandbase auch mit einer ausgeblendeten mbox an Adobe Target gesendet. <p>Hinweis: Eine konfigurierte mbox. js-Datei muss auf der Webseite für die zu erfassenden Dimensionen implementiert werden. </p> </td> 
+   <td colname="col2">Bei "true"werden die Demandbase-Dimensionen auch mit einer ausgeblendeten mbox an Adobe Target gesendet. <p>Hinweis:  Eine konfigurierte mbox.js-Datei muss auf der Webseite implementiert werden, damit Dimensionen erfasst werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Konfigurieren Sie die folgenden Variablenzuordnungselemente:
+1. Konfigurieren Sie die folgenden Elemente für die Variablenzuordnung:
 
    | Element | Beschreibung |
    |---|---|
-   | Demandbase-Dimensionen | Wählen Sie eine verfügbare evar-Variable aus Ihrer Report Suite. |
-   | Demandbase benutzerdefinierte Dimensionen (optional) | Wählen Sie eine verfügbare evar-Variable aus Ihrer Report Suite. |
+   | Demandbase-Dimensionen | Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite. |
+   | Benutzerdefinierte Dimensionen der Demandbase (optional) | Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite. |
 
-1. Konfigurieren Sie die Namen für die benutzerdefinierte Dimension (falls vorhanden).
+1. Konfigurieren Sie die Namen für die benutzerdefinierte Dimension (falls zutreffend).
 
-   1. Wenn Sie in Schritt 4 benutzerdefinierte Dimensionen einbeziehen und die optionale evar in Schritt 5 zuordnen, müssen Sie Anzeigenamen für diese Dimensionen angeben. Wenn Sie beispielsweise "stock_ ticker" als benutzerdefinierte Dimension 1 eingeben, sollten Sie das Feld mit" Dimension 1" in "Aktienticker" ändern.
-   1. Ändern Sie **NICHT** die Namen der standardmäßigen 8-Dimensionen (d. h. Demandbase SID, Firmenname, Branche usw.).
+   1. Wenn Sie sich dafür entschieden haben, benutzerdefinierte Dimensionen in Schritt 4 einzubeziehen und die optionale eVar in Schritt 5 zugeordnet haben, müssen Sie benutzerfreundliche Namen für diese Dimensionen angeben. Wenn Sie beispielsweise "stock_ticker"als benutzerdefinierte Dimension 1 eingeben möchten, sollten Sie das Feld mit "Dimension 1"in "Stock Ticker"ändern.
+   1. Ändern Sie **NICHT** die Namen der 8 Standarddimensionen (d.h. Demandbase SID, Firmenname, Branche usw.).
 
-1. Markieren Sie das Kästchen, um das Dashboard zur Integration von Demandbase automatisch für Sie zu erstellen (empfohlen).
-1. Überprüfen Sie alle Konfigurationselemente und klicken **[!UICONTROL Sie auf Jetzt aktivieren]**.
+1. Markieren Sie das Kästchen, damit das Dashboard "Demandbase-Integration"automatisch für Sie erstellt wird (empfohlen).
+1. Überprüfen Sie alle Konfigurationselemente und klicken Sie auf Jetzt **[!UICONTROL aktivieren]**.
 
