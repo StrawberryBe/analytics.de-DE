@@ -4,12 +4,12 @@ seo-description: Voraussetzungen, die beachtet werden müssen, bevor Sie den Dat
 seo-title: Voraussetzungen für die Integration
 solution: Analytics
 title: Voraussetzungen für die Integration
-uuid: 7 c 7 ac 22 b -9 f 54-497 d-af 60-3 b 0 b 1 cc 7 dc 2 c
+uuid: 7c7ac22b-9f54-497d-af60-3b0b1cc7dc2c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,14 +22,14 @@ Voraussetzungen, die beachtet werden müssen, bevor Sie den Data Connector aktiv
 
 * Sie müssen ein aktueller Adobe Analytics-Kunde sein.
 * Sie müssen Administrator sein.
-* Sie müssen in Ihrer Report Suite über 1 verfügbare und aktivierte evar-Variable verfügen.
+* Innerhalb Ihrer Report Suite muss eine eVar-Variable verfügbar und aktiviert sein.
 * Sie müssen über 3 verfügbare und aktivierte benutzerspezifische Ereignisse in Ihrer Report Suite verfügen (Typ: Zähler).
 
 ## Voraussetzungen für Kampyle-Kunden: {#section-4bbbca50e74d4f218414ae0cc535b8e9}
 
 * Sie müssen ein aktueller Kunde von Kampyle für Websites sein.
-* Sie müssen Adobe Marketing Cloud-Administratorrechte mit Berechtigungen zum Aktivieren von Data Connectors sein.
-* Sie müssen den Kampyle Privaten Schlüssel aus der Kampyle Feedback Form Management-Benutzeroberfläche abrufen können.
+* Sie müssen ein Adobe Experience Cloud-Admin-Benutzer mit Berechtigungen sein, um Data Connectors zu aktivieren.
+* Sie müssen den privaten Kampyle-Schlüssel aus der Benutzeroberfläche für das Kampyle Feedback-Formularmanagement abrufen können.
 
-   [Kampyle Private Key abrufen](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)
+   [Kampyle-Privatschlüssel abrufen](../kampyle-home/kampyle-private-key.md#task-08684d84572c48acb6fa90f0072526fb)
 
