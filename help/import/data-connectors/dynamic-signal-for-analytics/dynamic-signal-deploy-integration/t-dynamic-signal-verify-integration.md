@@ -1,32 +1,32 @@
 ---
-description: Schritte zum Anzeigen Ihrer dynamischen Signalisierungseinstellungen in der Adobe Marketing Cloud
-seo-description: Schritte zum Anzeigen Ihrer dynamischen Signalisierungseinstellungen in der Adobe Marketing Cloud
-seo-title: Überprüfung der Integration
+description: Schritte zum Anzeigen Ihrer Einrichtung für die dynamische Signal VoiceStorm-Integration in der Adobe Experience Cloud
+seo-description: Schritte zum Anzeigen Ihrer Einrichtung für die dynamische Signal VoiceStorm-Integration in der Adobe Experience Cloud
+seo-title: Überprüfen der Integration
 solution: Analytics
-title: Überprüfung der Integration
-uuid: 94 f 40415-2408-4592-af 66-cb 18921 e 2208
+title: Überprüfen der Integration
+uuid: 94f40415-2408-4592-af66-cb18921e2208
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Überprüfung der Integration{#verifying-the-integration}
+# Überprüfen der Integration{#verifying-the-integration}
 
-Schritte zum Anzeigen Ihrer dynamischen Signalisierungseinstellungen in der Adobe Marketing Cloud
+Schritte zum Anzeigen Ihrer Einrichtung für die dynamische Signal VoiceStorm-Integration in der Adobe Experience Cloud
 
-1. Zeigen Sie Ihre dynamische Signalisierungseinrichtung im Protokoll zur Integration an.
-   1. Navigieren Sie in der Adobe Marketing Cloud zu **[!UICONTROL Unterstützung]** &gt; **[!UICONTROL Protokoll]** der Integration.
+1. Zeigen Sie Ihre Einrichtung für die dynamische Signalintegration im Integrationsaktivitätsprotokoll an.
+   1. Navigieren Sie in der Adobe Experience Cloud zu **[!UICONTROL Support]** &gt; **[!UICONTROL Integrationsaktivitätsprotokoll]** .
 
       ![](assets/integration_activity_log.png)
 
-   1. Suchen Sie nach Einträgen wie **[!UICONTROL den erfolgreich importierten Classification-Daten]**. Diese Einträge sollten innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
-1. Überprüfen Sie Ihre dynamischen Signalberichte in Adobe Analytics mithilfe des Dashboards, das automatisch für Sie mithilfe des Adobe Integratipn-Assistenten (Schritt 7) erstellt wurde. Alternativ können Sie auch zur dynamischen Signalanmeldung in der Menüstruktur von Adobe Analytics navigieren - auf die folgenden Screenshots verweisen.
+   1. Suchen Sie nach Einträgen wie erfolgreich importierten **[!UICONTROL Klassifizierungsdaten]**. Diese Einträge sollten innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+1. Überprüfen Sie Ihre Berichte mit dynamischen Signalen in Adobe Analytics mit dem Dashboard, das automatisch mit dem Adobe Integrationsassistenten erstellt wurde (Schritt 7). Alternativ dazu können Sie in der Menüstruktur von Adobe Analytics zur Berichterstellung über dynamische Signale navigieren - siehe die folgenden Screenshots.
 
-   **Hinweis**: Diese Daten sollten innerhalb von 24 bis 48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+   **Hinweis**:Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
 
    ![](assets/reporting.png)
 
