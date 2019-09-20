@@ -7,7 +7,7 @@ title: Sequentielle Segmente erstellen
 topic: Segmente
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,10 +262,17 @@ Logische Gruppen mögen abschreckend erscheinen - hier einige Best Practices fü
 Wenn Sie sequenzielle Checkpoints gruppieren möchten, lautet Ihr "Container"logische Gruppe. Müssen diese sequenziellen Checkpoints jedoch innerhalb eines einzelnen Treffers oder Besuchs auftreten, ist ein Treffer oder ein Besuchsbehälter erforderlich. (Natürlich ergibt "Treffer"keinen Sinn für eine Gruppe sequenzieller Checkpoints, wenn einem Treffer nicht mehr als ein Checkpoint gutgeschrieben werden kann).
 
 **Vereinfachen logische Gruppen das Erstellen sequenzieller Segmente?**
-Ja, sie können. Nehmen wir einmal an, Sie versuchen, diese Frage zu beantworten: Hat ein Besucher nach Seite A die Seiten B, C oder D gesehen? Sie können dieses Segment ohne logischen Gruppenbehälter erstellen, es ist jedoch komplex und aufwändig:
-Besucherbehälter [Seite A DANN Seite B DANN Seite C DANN Seite D] oder [Besucherbehälter Seite A DANN Seite B DANN Seite D DANN Seite C] oder Besucherbehälter [Seite A DANN Seite C DANN Seite B DANN Seite D] oder [Besucher Behälter Seite A DANN Seite C DANN Seite D DANN Seite B] oder Besucher Behälter [A EN Seite D DANN Seite B DANN Seite C] [oder BesucherbehälterSeite A DANN Seite D DANN Seite C DANN Seite B]
+Ja, sie können. Nehmen wir einmal an, Sie versuchen, diese Frage zu beantworten: Hat ein Besucher nach Seite A Seite B, Seite C oder Seite D **gesehen?**
 
-Ein logischer Gruppenbehälter vereinfacht das Segment erheblich, wie im Folgenden gezeigt:
+Sie können dieses Segment ohne logischen Gruppenbehälter erstellen, es ist jedoch komplex und aufwändig:
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+Ein logischer Gruppenbehälter vereinfacht das Erstellen dieses Segments erheblich, wie im Folgenden gezeigt:
 
 ![](assets/logic-grp-example.png)
 
