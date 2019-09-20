@@ -1,14 +1,14 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: WinRT für Windows 8
-solution: Analytics, Marketing Cloud
+solution: Analytics, Experience Cloud
 subtopic: Versionshinweise
 title: WinRT für Windows 8
 topic: Entwickler und Implementierung
-uuid: cec 19 d 63-114 c -4 ef 6-a 55 e-db 6 aad 4 e 948 b
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Aktivieren Sie die Debug-Protokollierung, um die aktuelle Bibliotheksversion zu finden.
+>Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -41,7 +41,7 @@ Fehlerbehebungen und kleinere Verbesserungen.
 
 Releasedatum: **17. Oktober 2013**
 
-* [!DNL Windows] 8.1-Kompatibilität
+* [!DNL Windows] 8.1 Kompatibilität
 
 ## Version 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
@@ -53,7 +53,7 @@ Releasedatum: **18. April 2013**
 
 Releasedatum: **21. März 2013**
 
-* `ADMS_Measurement.visitorID` wird jetzt mit dem Standardwert vorausgefüllt.
+* `ADMS_Measurement.visitorID` wird jetzt vorab mit dem Standardwert ausgefüllt.
 * Problem beim Abrufen der Geräteinformationen behoben.
 
 ## Version 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,14 +69,14 @@ Releasedatum: **21. Februar 2013**
 Releasedatum: **November 2012**
 
 * Bildschirmauflösung wird nun für C#-, C++- und HTML5-/WinJS-Plattformen ordnungsgemäß erfasst.
-* `ADMS_Churn` ist jetzt intern. Um Best Practices für das Lebenszyklus-Tracking der Anwendung zu nutzen, verwenden Sie folgende Aufrufe:
+* `ADMS_Churn` Klasse ist jetzt intern. Um Best Practices für das Lebenszyklus-Tracking der Anwendung zu nutzen, verwenden Sie folgende Aufrufe:
 
    ```
    public void ADMS_Measurement.StartSession(); 
    public void ADMS_Measurement.StopSession();
    ```
 
-* `public double maxSessionLength` Variable hinzugefügt `ADMS_Measurement` , die es Ihnen ermöglicht, eine maximale Sitzungslänge für die vorherige Benutzersitzung festzulegen. Wenn die erkannte Sitzungslänge den Maximalwert überschreitet, wird die maximale Sitzungslänge gesendet. Default `maxSessionLength` is 3600 (seconds).
+* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. Wenn die erkannte Sitzungslänge den Maximalwert überschreitet, wird die maximale Sitzungslänge gesendet. Default `maxSessionLength` is 3600 (seconds).
 * Eine Konfigurationsvariable `lifecycleSessionTimeout` wurde hinzugefügt, durch die Sie angeben können, wie viel Zeit in Sekunden zwischen verschiedenen Startvorgängen einer Anwendung verstreichen muss, damit ein Startvorgang als neue Sitzung gilt.
 * Den Lebenszyklusmetriken wurde die Metrik „Frühere Sitzungslänge“ hinzugefügt.
 * TrackingHelper für mehr Klarheit aktualisiert.
