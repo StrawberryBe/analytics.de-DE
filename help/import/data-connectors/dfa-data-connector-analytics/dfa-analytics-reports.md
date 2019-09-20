@@ -6,12 +6,12 @@ seo-title: Analytics-Berichte mit DFA-Daten
 solution: Analytics
 title: Analytics-Berichte mit DFA-Daten
 topic: Data Connectors
-uuid: a 4 fe 4 a 6 c-f 4 a 4-431 d-bce 9-9 eedbcafedd 6
+uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -36,7 +36,7 @@ Bereits zusammengestellte DFA-Berichte enthalten Folgendes:
 
 DFA-Berichte erstellen:
 
-1. Melden Sie sich bei der Adobe Marketing Cloud an.
+1. Melden Sie sich bei Adobe Experience Cloud an.
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. Stellen Sie sicher, dass Sie die Report Suite ausgewählt haben, für die die DFA-Integration installiert ist.
 
 1. Wählen Sie im Navigationsmenü links die Konversionsvariable aus, die die Daten zum DFA-Clickthrough erfasst, und wählen Sie den gewünschten DFA-Bericht aus.
