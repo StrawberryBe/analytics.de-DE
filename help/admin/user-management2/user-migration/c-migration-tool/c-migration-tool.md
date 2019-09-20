@@ -3,12 +3,12 @@ description: Das müssen Sie über die Migration der Analytics-Benutzer-ID zur A
 seo-description: Das müssen Sie über die Migration der Analytics-Benutzer-ID zur Admin Console in der Adobe Experience Cloud wissen.
 seo-title: Analytics-Benutzermigration zur Admin Console
 title: Analytics-Benutzermigration zur Admin Console
-uuid: 7 d 20713-693 b -4945-aa 52-3669 a 631 aacb
+uuid: 7d020713-693b-4945-aa52-3669a631aacb
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -28,7 +28,7 @@ Das müssen Sie über die Migration der Analytics-Benutzer-ID zur Admin Console 
 
 Auf dieser Seite finden Sie folgende Informationen:
 
-* [Was ist die Migration der Benutzer-ID?](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c)
+* [Was ist die Benutzer-ID-Migration?](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c)
 * [Informationen vor der Migration von Benutzer-IDs (FAQ)](../c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9)
 * [Informationen während der Migration (FAQ)](../c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc)
 * [Informationen nach der Migration (FAQ)](../c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff)
@@ -151,14 +151,14 @@ Antworten auf Fragen, die Sie vielleicht vor der Migration haben
    <td colname="col1"> <p>Kann ich das Startdatum der Migration verschieben? </p> </td> 
    <td colname="col2"> <p>Ja. Wenden Sie sich an die <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe-Kundenunterstützung</a>. </p> 
     <draft-comment> 
-     <p>Eine Beschreibung der Änderungen an Ihrer aktuellen Analytics-Benutzer- und Berechtigungsverwaltung am Startdatum finden Sie unten. </p> 
+     <p>Eine Beschreibung der Änderungen am aktuellen Analytics-Benutzer- und -Berechtigungsverwaltungsdatum finden Sie unten. </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mein Unternehmen migriert nun zur Admin Console. Wo erstelle ich jetzt Benutzer und Berechtigungsgruppen vor dem Start der Migration? </p> </td> 
    <td colname="col2"> <p>Vor dem Startdatum der Migration können Sie Benutzer in der Admin Console oder unter Analytics &gt; User Management erstellen. </p> <p>Nach Beginn der Migration können Sie Benutzer und Berechtigungsgruppen nur noch in der Admin Console erstellen. </p> 
     <draft-comment> 
-     <p>Weitere Details zu dem Startdatum der Migration finden Sie im Abschnitt Migration unten.) </p> 
+     <p>Weitere Informationen dazu, was am Startdatum der Migration geschieht, finden Sie im Abschnitt Migration weiter unten. </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -192,7 +192,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
    <td colname="col1"> <p>Kann ich die Zugehörigkeit zu einer Berechtigungsgruppe für nicht migrierte Benutzer aktualisieren? </p> </td> 
    <td colname="col2"> <p>Ja. Sie können die Zugehörigkeit zu einer Gruppe für nicht migrierte Benutzer über das Analytics User Management ändern. </p> 
     <draft-comment> 
-     <p>Warten Sie auf die Klarstellung von Ashok. </p> 
+     <p>In Erwartung einer Klarstellung von Ashok, wo das geschieht. </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ich konnte nicht alle meine Benutzer bis zum Enddatum der Migration migrieren. Verlieren nicht migrierte Benutzer ihren Zugriff auf Analytics? </p> </td> 
-   <td colname="col2"> <p>Benutzer, die nicht bis zum Enddatum migriert wurden, werden zur Experience Cloud-Anmeldeseite (experiencecloud.adobe.com weitergeleitet und können nicht auf Analytics zugreifen. Allerdings haben Sie weiterhin Zugriff auf das Migrationswerkzeug. So können Sie die entsprechenden Benutzer finden und ihren Zugriff wiederherstellen. </p> </td> 
+   <td colname="col2"> <p>Benutzer, die nicht bis zum Enddatum migriert wurden, werden zur Experience Cloud-Anmeldeseite (experience.adobe.com) umgeleitet und können nicht auf Analytics zugreifen. Allerdings haben Sie weiterhin Zugriff auf das Migrationswerkzeug. So können Sie die entsprechenden Benutzer finden und ihren Zugriff wiederherstellen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +271,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Löschen von Benutzern aus der Admin Console </p> </td> 
-   <td colname="col2"> <p> In Analytics wird ein gelöschter Benutzer als <span class="term"> abgelaufen</span>ist, das Konto aber weiterhin vorhanden ist. Die Kontoerhaltung ermöglicht die Übertragung von Assets wie Segmenten, berechneten Kennzahlen, terminierten Berichten, Projekten usw. </p> </td> 
+   <td colname="col2"> <p> In Analytics wird ein gelöschter Benutzer als <span class="term"> expired</span>, but the account continues to exist. Die Kontoerhaltung ermöglicht die Übertragung von Assets wie Segmenten, berechneten Kennzahlen, terminierten Berichten, Projekten usw. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kontogültigkeit </p> </td> 
@@ -284,7 +284,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
 
 >[!IMPORTANT]
 >
->Überprüfen Sie die folgenden Probleme, die während der Migration für Sie gelten können.
+>Überprüfen Sie die folgenden Probleme, die während der Migration für Sie zutreffen können.
 
 <table id="table_88E2FA03D5F241B79AB54D12F64B51DA"> 
  <thead> 
@@ -304,7 +304,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
   </tr> 
   <tr> 
    <td colname="col1"> <p>Letzter Zugriff (Letzte Anmeldung) </p> </td> 
-   <td colname="col2"> <p> Details zum letzten Anmeldedatum und zur letzten Anmeldezeit eines Benutzers sind unter dem Link „Analytics-Benutzer und Assets“ und nicht in der Admin Console verfügbar. Das letzte Anmeldedatum in Analytics bezieht sich auf den Zeitpunkt, zu dem Benutzer tatsächlich über die Marketing Cloud auf Analytics zugegriffen haben, und nicht auf das Datum/die Zeit, zu dem/der sie sich bei der Experience Cloud angemeldet haben. </p> </td> 
+   <td colname="col2"> <p> Details zum letzten Anmeldedatum und zur letzten Anmeldezeit eines Benutzers sind unter dem Link „Analytics-Benutzer und Assets“ und nicht in der Admin Console verfügbar. Das Datum der letzten Anmeldung in Analytics ist spezifisch für den Zeitpunkt, zu dem Benutzer tatsächlich von Experience Cloud aus auf Analytics zugegriffen haben, und gibt nicht das Datum/die Uhrzeit der Anmeldung bei der Experience Cloud an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User Management-APIs – <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">von Adobe unterstützte Identitätstypen</a> </p> </td> 
@@ -341,11 +341,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 **Betreff:** In Kürze: Eine neue Anmeldeart für Adobe Analytics und die Adobe Experience Cloud
 
-** Haupttext: ** Benutzer von Adobe Analytics!
+** Haupttext:** Hallo Adobe Analytics-Benutzer!
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). Mit dieser Migration erhält Ihr Adobe Analytics-Konto ein Upgrade, um den Zugriff auf Analytics über die Adobe Experience Cloud zu ermöglichen. Zwar ändert sich die Zugriffsmethode auf Analytics, doch alle Ihre vorhandenen Berechtigungen für Ihre Report Suites und Werkzeuge bleiben bestehen.
 
-** Nächste Schritte: ** Wir beginnen mit der Migration von Benutzern, beginnend mit <INSERT DATE>. Sie erhalten eine Willkommensnachricht mit Ihren neuen Anmeldedaten an die E-Mail-ID, die in Ihrem Analytics-Konto hinterlegt ist. Wenn Sie keine [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) mit Ihrer E-Mail-Adresse verknüpft haben, werden Sie dazu aufgefordert, ein solches Konto einzurichten.
+** Nächste Schritte:** Wir beginnen mit der Migration von Benutzern, beginnend mit <INSERT DATE>. Sie erhalten eine Willkommensnachricht mit Ihren neuen Anmeldedaten an die E-Mail-ID, die in Ihrem Analytics-Konto hinterlegt ist. Wenn Sie keine [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) mit Ihrer E-Mail-Adresse verknüpft haben, werden Sie dazu aufgefordert, ein solches Konto einzurichten.
 
 **Hilfreiche Ressourcen:**
 
