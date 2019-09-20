@@ -3,8 +3,8 @@ product: analytics
 audience: Endanwender
 user-guide-title: Implementierungsleitfaden für Analytics
 user-guide-url: /content/help/de-DE/analytics/implementation/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [Analytics-Besucher-ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Ausweich-ID-Methoden](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Mobile Geräte identifizieren](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Zentrale Experience Cloud-Dienste](https://marketing.adobe.com/resources/help/de_DE/mcloud/core_services.html)
+   + [Experience Cloud – Hauptdienste](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
    + Geräteübergreifende Besuchererkennung {#cross-device-visitor-id}
       + [Benutzer geräteübergreifend verbinden](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Auswirkungen der geräteübergreifenden Besucheridentifizierung auf die Daten](js-implementation/xdevice-visid/xdevice-data.md)
