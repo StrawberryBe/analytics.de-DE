@@ -2,11 +2,11 @@
 description: Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audience Analytics haben.
 seo-description: Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audience Analytics haben.
 seo-title: Häufig gestellte Fragen
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Häufig gestellte Fragen
-uuid: 9 dfc 8 f 19-f 9 b 2-4 c 2 e-bff 9-3 d 91 cfe 01 bca
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -47,7 +47,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie erstelle ich ein Analytics-Ziel in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> Siehe <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Analytics-Ziel konfigurieren in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie lange dauert es nach dem Erstellen und Speichern eines Analytics-Ziels, bis Daten in meinen ausgewählten Report Suites angezeigt werden?</b> </p> </td> 
@@ -58,7 +58,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col2"> <p>Ein Analytics-Ziel wird aus dem Bereich „Zielzuweisungen“ eines Segments entfernt, wenn Sie die Option <span class="uicontrol">Alle aktuellen und zukünftigen Segmente automatisch zuweisen</span> in <span class="uicontrol">Segmentzuweisungen</span> auswählen . </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Um das zu vermeiden, wählen Sie statt der automatischen Option <span class="uicontrol">Segmente manuell zuweisen</span> aus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q: Werden alle Informationen von AAM in Analytics bereitgestellt?</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q: Werden mir dadurch alle Informationen von AAM in Analytics bereitgestellt?</b> </p> </td> 
    <td colname="col2"> <p>Nein, nur Daten, die sich auf Personen beziehen, die während oder nach der Aktivierung von Audience Manager-Zielgruppen und während oder nach der Qualifizierung des Segments auf Ihre Site kommen. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>F: Inwiefern unterscheidet sich dies vom herkömmlichen Cookie-Ziel Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Segmente sind für die Echtzeit qualifiziert und werden für den gleichen Treffer zurückgegeben. </p> <p>Die Anzeigenamen werden automatisch angezeigt. </p> </td> 
+   <td colname="col2"> <p>Segmente sind qualifiziert und werden in Echtzeit - bei demselben Treffer - zurückgegeben. </p> <p>Die Anzeigenamen werden automatisch angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist, wenn einige meiner Report Suites persönliche Daten enthalten und andere nicht?</b> </p> </td> 
@@ -101,7 +101,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Warum sehe ich "Zielgruppenlimit erreicht" in meinem Analytics-Bericht? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Warum wird in meinem Analytics-Bericht "Zielgruppenbeschränkung erreicht"angezeigt? (Hinweis: dies wird auch als Zielgruppe-ID = -1 und "::max_audiences_beyond:" in Data Warehouse dargestellt)</b> </p> </td> 
    <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für AAM alle Segmente pro Treffer an Analytics, für die sich ein Besucher qualifiziert. Wenn ein Besucher bei einem einzigen Treffer mehr als 150 AAM-Segmenten angehört, werden die <b>150 aktuellsten qualifizierten Segmente</b> an Analytics gesendet und der Rest der Liste wird nicht gesendet. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Lassen Sie die Integration weiterhin im Out-of-the-Box-Zustand arbeiten und die 150 Segmente eines bestimmten Benutzers senden, für die dieser sich zuletzt qualifiziert hat. </li> 
@@ -125,12 +125,12 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum kann ich bestimmte Report Suites nicht in Analytics Admin aktivieren?</b> </p> </td> 
-   <td colname="col2"> <p>Es können nur Suites aktiviert werden, die Ihrer Experience Cloud-Org zugeordnet sind. </p> </td> 
+   <td colname="col2"> <p>Es können nur Suites aktiviert werden, die Ihrer Experience Cloud-Organisation zugeordnet sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter Häufig gestellte Fragen zur [serverseitigen Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
 
 ## Allgemeine FAQs {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen „Zielgruppen“ in AAM und „Segmenten“ in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Verstehen Sie Segmente in Analytics und Audience Manager </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und von AAM integrierten Kundendaten?</b> </p> </td> 
