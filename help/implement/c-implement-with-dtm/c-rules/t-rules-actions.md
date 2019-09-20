@@ -1,13 +1,13 @@
 ---
 description: Richten Sie Aktionen ein, die von der Bedingung ausgelöst werden sollen.
-keywords: Dynamisches Tag-Management; rule; create rule; new rule; javascript/drittanbieter-Tags; Aktionen für Bedingungen einrichten; neues Skript hinzufügen; non-sequenzielles javascript; sequenzielles javascript; nicht sequenzielles HTML
+keywords: Dynamisches Tag-Management;Regel;Regel erstellen;Neue Regel;JavaScript/Drittanbieter-Tags;Einrichten von Aktionen für Bedingung;Hinzufügen von neuem Skript;Nicht sequenzielles Javascript;sequenzielles Javascript;Nicht sequenzielles HTML
 seo-description: Richten Sie Aktionen ein, die von der Bedingung ausgelöst werden sollen.
 seo-title: Aktionen einrichten, die von der Bedingung ausgelöst werden
-solution: Marketing Cloud, Analytics, Target, Dynamisches Tag-Management
+solution: Experience Cloud, Analytics, Target, Dynamisches Tag-Management
 title: Aktionen einrichten, die von der Bedingung ausgelöst werden
-uuid: 2 e 892 f 0 b -7261-41 ee-b 849-6 e 3054 a 38 de 0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
