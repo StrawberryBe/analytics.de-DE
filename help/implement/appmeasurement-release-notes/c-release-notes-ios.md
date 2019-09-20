@@ -2,13 +2,13 @@
 description: Gesammelte Versionshinweise für iOS.
 seo-description: Gesammelte Versionshinweise für iOS.
 seo-title: iOS
-solution: Analytics, Marketing Cloud
+solution: Analytics, Experience Cloud
 subtopic: Versionshinweise
 title: iOS
 topic: Entwickler und Implementierung
-uuid: cc 98 f 8 f 2-f 619-4 b 31-abf 9-e 43 f 4 deac 64 f
+uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Gesammelte Versionshinweise für iOS.
 
 >[!NOTE]
 >
->Aktivieren Sie die Debug-Protokollierung, um die aktuelle Bibliotheksversion zu finden.
+>Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
 
 Downloads mobiler Bibliotheken stehen über [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) und über [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) zur Verfügung.
 
@@ -91,7 +91,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Besucher-ID-Service </p> </td> 
-   <td colname="2"> <p> Zeitstempel und Marketing Cloud-Organisations-ID wurden dem <code>adobe_mc</code>-Parameter hinzugefügt. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Konfiguration </p> </td> 
@@ -286,7 +286,7 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
 
 ## Version 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
 
-[!DNL iOS] Die SDK-Version 4.8.5 (18. Februar 2016) umfasst die folgenden Änderungen:
+The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AB225AF04A374421BDD8A972506ACD06"> 
  <thead> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Neue Methoden beim Marketing Cloud-Besucher-ID-Dienst </td> 
+   <td colname="1"> Neue Methoden des Experience Cloud-Besucher-ID-Diensts </td> 
    <td colname="2"> <p>Die folgenden neuen Methoden wurden hinzugefügt: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -486,7 +486,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 Releasedatum: **24. November 2014**
 
-* Neu: Integration der Adobe Marketing Cloud ID
+* Neu: Adobe Experience Cloud ID-Integration
 * Verbesserte Debug-Protokolle für mehr Klarheit
 
 ## Version 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -547,7 +547,7 @@ Releasedatum: **30. Januar 2014**
 
 Releasedatum: **27. September 2013**
 
-[!DNL iOS] SDK 4. x für Marketing Cloud-Lösungen ist jetzt verfügbar und bietet die folgenden neuen Funktionen:
+[!DNL iOS] SDK 4.x für Experience Cloud-Lösungen ist jetzt mit den folgenden neuen Funktionen verfügbar:
 
 * Deutliche Leistungsverbesserungen. Die gesamte Verarbeitung erfolgt nun in Hintergrund-Threads; das SDK ist absolut Thread-sicher.
 * Geografischer Standort und Orte von Interesse
@@ -600,7 +600,7 @@ Releasedatum: **18. April 2013**
 
 Releasedatum: **21. März 2013**
 
-* `ADMS_Measurement.visitorID` wird jetzt mit dem Standardwert vorausgefüllt.
+* `ADMS_Measurement.visitorID` wird jetzt vorab mit dem Standardwert ausgefüllt.
 
 ## Version 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
@@ -655,7 +655,7 @@ Erstes Release.
 
 **Änderungen**
 
-* [!DNL AppMeasurement] Klasse ist jetzt ADMS_ Measurement
+* [!DNL AppMeasurement] Klasse ist jetzt ADMS_Measurement
 * ADMS_Measurement fungiert nun als ordnungsgemäßes Singleton
 * Getter und Setter für eVars, Props, Lists, Hiers, Pevs wurden geändert
 * Alle Variablen, die als „Verfolgungsaufrufe“ weitergeleitet wurden, gelten nur für diesen Aufruf.
