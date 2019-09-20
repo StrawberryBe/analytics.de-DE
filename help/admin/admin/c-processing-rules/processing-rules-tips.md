@@ -1,23 +1,23 @@
 ---
 description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
 seo-description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
-seo-title: Verarbeitungsregeln - Tipps und Tricks
+seo-title: Verarbeitungsregeln – Tipps und Tricks
 solution: Analytics
 subtopic: Verarbeitungsregeln
-title: Verarbeitungsregeln - Tipps und Tricks
+title: Verarbeitungsregeln – Tipps und Tricks
 topic: Admin Tools
-uuid: e 3 a 9 ff 8 a-b 81 a -41 c 9-9 f 61-e 40 cb 4 bf 7 d 99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
 
-# Verarbeitungsregeln - Tipps und Tricks
+# Verarbeitungsregeln – Tipps und Tricks
 
 Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
 
-## Testen von Verarbeitungsregeln {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Verarbeitungsregeln testen {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Dieser Abschnitt enthält einige Anleitungen, die Ihnen helfen, Verarbeitungsregeln zu testen, bevor diese in der Produktion bereitgestellt werden.
 
@@ -39,7 +39,7 @@ Wenn Sie eine Regel erstellen, sollten Sie berücksichtigen, dass ein Wert leer 
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-Es ist auch wichtig, die Verarbeitungsreihenfolge zu beachten. Im folgenden Beispiel scheint es, dass die benutzerspezifische eVar für den vorherigen Seitennamen auf die URL gesetzt wird, wenn der Seitenname nicht vorhanden ist. Die URL wird jedoch im Seitennamen platziert, nachdem die Verarbeitungsregeln angewandt wurden, sodass in diesem Fall der Seitenname leer ist, wenn er nicht auf der Seite eingestellt wird.
+Es ist auch wichtig, die Verarbeitungsreihenfolge zu beachten. Im folgenden Beispiel wird die benutzerdefinierte eVar "Vorheriger Seitenname"auf die URL eingestellt, wenn der Seitenname nicht vorhanden ist. Die URL wird jedoch im Seitennamen platziert, nachdem die Verarbeitungsregeln angewandt wurden, sodass in diesem Fall der Seitenname leer ist, wenn er nicht auf der Seite eingestellt wird.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
