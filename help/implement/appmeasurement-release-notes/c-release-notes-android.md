@@ -2,13 +2,13 @@
 description: Gesammelte Versionshinweise für die mobile Android-Bibliothek.
 seo-description: Gesammelte Versionshinweise für die mobile Android-Bibliothek.
 seo-title: Android
-solution: Analytics, Marketing Cloud
+solution: Analytics, Experience Cloud
 subtopic: Versionshinweise
 title: Android
 topic: Entwickler und Implementierung
-uuid: 32232 d 28-3459-4 f 78-bb 00-ca 3163 c 63461
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Gesammelte Versionshinweise für die mobile Android-Bibliothek.
 
 >[!NOTE]
 >
->Aktivieren Sie die Debug-Protokollierung, um die aktuelle Bibliotheksversion zu finden.
+>Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
 
 Downloads mobiler Bibliotheken stehen über [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) und über [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) zur Verfügung.
 
@@ -91,7 +91,7 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Besucher-ID-Service </p> </td> 
-   <td colname="2"> <p>Zeitstempel und Marketing Cloud-Organisations-ID wurden dem <code>adobe_mc</code>-Parameter hinzugefügt. </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep-Linking </p> </td> 
@@ -242,7 +242,7 @@ The [!DNL Android] SDK version 4.9.0 (May 5, 2016) includes the following change
 
 ## Version 4.8.3 {#section_9BB3DFBECC434AC6B3D7C18AA9BC895C}
 
-[!DNL Android] Die SDK-Version 4.8.3 (18. Februar 2016) umfasst die folgenden Änderungen:
+The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_6DE145BC30154B9FADCE584A9737018D"> 
  <thead> 
@@ -272,7 +272,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Neue Methoden beim Marketing Cloud-Besucher-ID-Dienst </td> 
+   <td colname="1"> Neue Methoden des Experience Cloud-Besucher-ID-Diensts </td> 
    <td colname="2"> <p>Die folgenden Methoden wurden hinzugefügt: </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -418,7 +418,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 Releasedatum: **24. November 2014**
 
-* Neu: Integration der Adobe Marketing Cloud ID
+* Neu: Adobe Experience Cloud ID-Integration
 * Verbesserte Debug-Protokolle für mehr Klarheit
 * Potenzieller Absturz beim Abrufen von In-App-Nachrichten behoben.
 
@@ -458,13 +458,13 @@ Releasedatum: **23. April 2014**
 
 Releasedatum: **17. April 2014**
 
-* Neu - Bluetooth-Beacon-Verfolgung.
-* Neu: Bei Apps, die Zeitstempel aktivieren, werden Absturztreffer auf die richtige Sitzung zurückdatiert.
-* Neu: Apps, bei denen Zeitstempel aktiviert sind, werden in einem Treffer gesendet, der auf die richtige Sitzung zurückdatiert wird. (nicht länger vorherige Sitzung).
-* Neu - Treffer-Stapel.
-* Google Play-Referrer-Verfolgung mit konfigurierbarem Timeout wurde korrigiert, um verzögerte Google-Referrer-Daten zu ermöglichen.
-* Strictmode-Warnhinweise wurden behoben, die in bestimmten Szenarien auftraten.
-* Es wurde ein Problem behoben, durch das die Bibliothek sehr selten gesperrt wurde, wenn bestimmte Methoden in einer bestimmten Reihenfolge aufgerufen wurden.
+* Neu: Bluetooth-Beacon-Verfolgung.
+* Neu: Bei Anwendungen, bei denen Zeitstempel aktiviert sind, werden Absturztreffer auf die richtige Sitzung zurückdatiert.
+* Neu: Bei Anwendungen, bei denen Zeitstempel aktiviert sind, wird die vorherige Sitzung in einem Treffer gesendet, der auf die richtige Sitzung zurückdatiert ist. (nicht länger vorherige Sitzung).
+* Neu: Trefferbatching.
+* Korrektur der Google Play-Referrer-Verfolgung mit einem konfigurierbaren Timeout, um verzögerte Google-Referrer-Daten zuzulassen.
+* Es wurden StrictMode-Warnungen behoben, die in bestimmten Szenarien auftreten konnten.
+* Es wurde ein Problem behoben, das sehr selten dazu führen konnte, dass die Bibliothek gesperrt wurde, wenn bestimmte Methoden in einer bestimmten Reihenfolge aufgerufen wurden.
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -503,7 +503,7 @@ Releasedatum: **14. November 2013**
 
 Releasedatum: **27. September 2013**
 
-[!DNL Android] SDK 4. x für Marketing Cloud-Lösungen ist jetzt verfügbar und bietet die folgenden neuen Funktionen:
+[!DNL Android] SDK 4.x für Experience Cloud-Lösungen ist jetzt mit den folgenden neuen Funktionen verfügbar:
 
 * Deutliche Leistungsverbesserungen. Die gesamte Verarbeitung erfolgt nun in Hintergrund-Threads; das SDK ist absolut Thread-sicher.
 * Geografischer Standort und Orte von Interesse
@@ -646,7 +646,7 @@ Releasedatum: **Januar 2012**
 
 Releasedatum: **Juni 2011**
 
-* Die Bibliothek wurde dahingehend aktualisiert, dass die Geräte-ID für den Besucher-ID-Wert verwendet wird, wenn keine SIM-Karte im Gerät eingefügt wird. Standardmäßig verwendet die Bibliothek die Abonnenten-ID als Besucher-ID, die nicht verfügbar ist, wenn keine SIM-Karte eingelegt ist.
+* Die Bibliothek wurde aktualisiert, um die Geräte-ID für den Besucher-ID-Wert zu verwenden, wenn keine SIM-Karte in das Gerät eingefügt wird. Standardmäßig verwendet die Bibliothek die Abonnenten-ID als Besucher-ID, die nicht verfügbar ist, wenn keine SIM-Karte eingelegt ist.
 
 ## Version 1.1.4 {#section_C602EC5C11594669A8797B736D240D2C}
 
