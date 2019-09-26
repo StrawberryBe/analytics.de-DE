@@ -1,5 +1,5 @@
 ---
-description: Ermöglicht die Verwendung des Segments für Marketingaktivitäten in der Zielgruppenbibliothek, in Target und im Audience Manager.
+description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
 seo-description: Ermöglicht die Verwendung des Segments für Marketingaktivitäten in der Zielgruppenbibliothek, in Target und im Audience Manager.
 seo-title: Segmente in der Experience Cloud veröffentlichen
 solution: Analytics
@@ -7,7 +7,7 @@ title: Segmente in der Experience Cloud veröffentlichen
 topic: Segmente
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
@@ -16,53 +16,56 @@ source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
 
 >[!IMPORTANT]
 >
->The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
+>Die auf dieser Seite beschriebenen Verbesserungen der Latenz bei der Segmentveröffentlichung und der Benutzeroberfläche sind noch nicht für alle Kunden verfügbar. Die aktuelle Produktionsumgebung wird [hier](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)beschrieben.
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. Previously, publishing a usable segment took approximately 48 hours.
+Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Die neuesten Updates haben den Veröffentlichungsarbeitsablauf erheblich optimiert. Bisher dauerte die Veröffentlichung eines brauchbaren Segments etwa 48 Stunden.
 
-Now, processing can take up to 8 hours, but depending on other traffic and on the segment size, processing may be even faster. (However, we currently do not have a way to inform you when the segment is available, so you will have to check manually.) We have also increased the maximum number of publishable segments to 75 (from 20). You can view published segments in Components &gt; Segments.
+Die Verarbeitung kann jetzt bis zu 8 Stunden dauern, aber je nach anderem Traffic und der Segmentgröße kann die Verarbeitung sogar noch schneller erfolgen. (Derzeit haben wir jedoch keine Möglichkeit, Sie darüber zu informieren, wann das Segment verfügbar ist. Daher müssen Sie es manuell überprüfen.) Außerdem haben wir die maximale Anzahl an publizierbaren Segmenten von 20 auf 75 erhöht. Sie können veröffentlichte Segmente unter Komponenten &gt; Segmente anzeigen.
 
 
 ## Voraussetzungen
 
-* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
-* Make sure you are working in a report suite that is mapped to your Experience Cloud organization.[](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
-* Ensure that your organization is using Experience Cloud IDs.
-* Before you can publish segments, your Admin needs to assign the Segment Publishing permission to a product profile in the Admin Console, and add you to the product profile.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
+* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Andernfalls können Sie sie nicht in der Experience Cloud veröffentlichen.
+* Vergewissern Sie sich, dass Sie an einer Report Suite arbeiten, die Ihrer Experience Cloud-Organisation [zugeordnet](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)ist.
+* Stellen Sie sicher, dass Ihr Unternehmen Experience Cloud IDs verwendet.
+* Bevor Sie Segmente veröffentlichen können, muss Ihr Administrator einem Produktprofil in der [!UICONTROL Admin-Konsole]die Berechtigung für die [Segmentveröffentlichung](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) zuweisen und Sie zum Produktprofil hinzufügen.
 
 
 ## Zu beachten
 
 * **Report Suite-Beschränkungen**: Sie können bis zu 75 Segmente pro Report Suite veröffentlichen. Diese Beschränkung wird erzwungen. Wenn Sie bereits 75 Segmente veröffentlicht haben, können Sie keine weiteren Segmente veröffentlichen, bis Sie genügend Segmente aufheben, um unter den Schwellenwert von 75 Segmenten zu gelangen.
-* **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members.
-* **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. Wenn Besucher Ihre Site sowohl authentifiziert als auch nicht authentifiziert anzeigen können, kann eine Aktion, die ein nicht authentifizierter Benutzer durchführt, dennoch dazu führen, dass der Besucher in die Zielgruppe aufgenommen wird. Lesen Sie sich die [Adobe Experience Cloud-Datenschutzbestimmungen](https://www.adobe.com/privacy/experience-cloud.html) durch, um die Auswirkungen der Zielgruppenfreigabe auf den Datenschutz zu verstehen.
+* **Mitgliedsbeschränkungen**: Zielgruppen, die über Analytics für die [!DNL Experience Cloud] Zielgruppe freigegeben werden, dürfen 20 Millionen individuelle Mitglieder nicht überschreiten.
+* **Datenschutz**: Zielgruppen werden nicht basierend auf dem Authentifizierungsstatus eines Besuchers gefiltert. Wenn Besucher Ihre Site sowohl authentifiziert als auch nicht authentifiziert anzeigen können, kann eine Aktion, die ein nicht authentifizierter Benutzer durchführt, dennoch dazu führen, dass der Besucher in die Zielgruppe aufgenommen wird. Lesen Sie sich die [Adobe Experience Cloud-Datenschutzbestimmungen](https://www.adobe.com/privacy/experience-cloud.html) durch, um die Auswirkungen der Zielgruppenfreigabe auf den Datenschutz zu verstehen.
 * Eine Diskussion über die **Unterschiede zwischen Segmenten in[!DNL Adobe Analytics]und[!DNL Audience Manager]** finden Sie [hier](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Zeitschiene Segmentveröffentlichung
 
 | Verfügbare Elemente | Sobald es verfügbar ist | Wo es verfügbar ist |
 |---|---|---|
-| Metadaten (Segmenttitel und Definition) | Sofort nach der Veröffentlichung | [!DNL Audience Manager], [!UICONTROL Experience Cloud Audience Library], [!DNL Target] |
+| Metadaten (Segmenttitel und Definition) | Sofort nach der Veröffentlichung | [!DNL Audience Manager], [!UICONTROL Experience Cloud-Zielgruppenbibliothek], [!DNL Target] |
 | Benutzerbares Segment mit Mitgliedschaft | ~ 8 Stunden nach der Veröffentlichung | Besucherprofil-Viewer in [!DNL Audience Manager] |
 | Eigenschaften- und Mitgliedspopulation | Innerhalb von 24 Stunden | [!DNL Audience Manager] |
 
-## Veröffentlichen von Segmenten im [!UICONTROL Segmentaufbau]
+## Publish segments in [!UICONTROL Segment Builder]
 
-1. Navigieren Sie zu **[!UICONTROL Analytics &gt; Arbeitsbereich &gt; Komponenten &gt; Segmente]&gt; +**
-1. Erstellen Sie ein Segment im [!UICONTROL Segmentaufbau].
-1. Geben Sie einen Titel und eine Beschreibung für das Segment ein. Andernfalls können Sie es nicht speichern.
+1. Navigate to Analytics &gt; Workspace &gt; Components &gt; Segments &gt; +****
+1. Create a segment in the [!UICONTROL Segment Builder].
+1. Provide a title and a description for the segment - you won’t be able to save it otherwise.
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
-1. Stellen Sie sicher, dass Sie "Besucher mit Experience Cloud ID"verwenden, wenn Sie Segmentvorschauen in Analytics anstelle der Segmentvorschau "Unique Visitors"insgesamt betrachten, wenn Sie Adobe Analytics-Nummern mit Audience Manager-Nummern vergleichen.
 
 ![](assets/publish-ec.png)
 
+>[!IMPORTANT]
+>
+>Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
+
 | Element | Beschreibung |
 |---|---|
-| **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *<report suite>*)]** | Wenn diese Option aktiviert ist, werden der Segmenttitel und die Definition (d. h. die Shell-Zielgruppe, wie sie häufig in Anzeigenplattformen verwendet wird) sofort für die Experience Cloud freigegeben, während die Segmentmitgliedschaft ausgewertet und alle 4 Stunden freigegeben wird. <br> Wenn diese Zielgruppe mit einer Aktivität verknüpft ist, beginnt [!DNL Target]beispielsweise [!DNL Analytics] mit dem Senden von IDs für Besucher, die sich für diese Experience Cloud und [!DNL Target] Zielgruppe qualifizieren. Ab diesem Zeitpunkt werden der Zielgruppenname und die zugehörigen Daten auf der Experience Cloud Audiences-Seite angezeigt. </br> |
-| **[!UICONTROL Fenster für die Zielgruppenerstellung]** | Der von Ihnen ausgewählte Zeitraum wird verwendet, um die Zielgruppe in einem rollierenden Kalender zu erstellen. "Letzte 30 Tage"(Standard) umfasst zum Beispiel Besucher, die sich in den letzten 30 Tagen ab dem heutigen Datum für die Zielgruppe qualifiziert haben (NICHT ab dem ursprünglichen Datum, an dem das Segment erstellt wurde). |
-| **[!UICONTROL In Zielgruppenbibliothek erstellen]** | Die Segmente, die Sie erstellen und veröffentlichen, können in der Experience Cloud-Zielgruppenbibliothek ohne Latenz zur Verfügung gestellt werden. Sie sind nicht von Analytics-Aktualisierungen abhängig. Diese Segmente werden nicht mit Ihrer Beschränkung auf 75 veröffentlichte Segmente angerechnet. |
-| **[!UICONTROL x von 75 Veröffentlicht]** | Zeigt die Anzahl der Segmente an, die Sie in Experience Cloud veröffentlicht haben. Klicken Sie auf den Link, um eine Liste der veröffentlichten Segmente und der zugehörigen Report Suite und des Eigentümers anzuzeigen. |
-| **[!UICONTROL Speichern]** | Saves this segment. |
+| **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *<report suite>*)]** | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with the Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> Wenn diese Zielgruppe mit einer Aktivität verknüpft ist, beginnt [!DNL Target]beispielsweise [!DNL Analytics] mit dem Senden von IDs für Besucher, die sich für diese Experience Cloud und [!DNL Target] Zielgruppe qualifizieren. Ab diesem Zeitpunkt werden der Zielgruppenname und die zugehörigen Daten auf der Experience Cloud Audiences-Seite angezeigt. </br> |
+| **[!UICONTROL Fenster für die Zielgruppenerstellung]** | The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
+| **[!UICONTROL In Zielgruppenbibliothek erstellen]** | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
+| **[!UICONTROL x of 75 Published]** | Shows the number of segments you have published to the Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
+| **[!UICONTROL Speichern]** | Speichert dieses Segment. |
 
 ## Unpublish or delete segments
 
@@ -72,35 +75,34 @@ Um ein in Experience Cloud veröffentlichtes Segment zu löschen, müssen Sie zu
 >
 >Sie können die Veröffentlichung eines Segments **nicht** rückgängig machen, das aktuell von einer der folgenden Adobe-Lösungen verwendet wird: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (für Kunden von [!DNL Core Service] und [!DNL Audience Manager]) und alle anderen externen Partner (für Kunden von [!DNL Audience Manager]). Die Veröffentlichung eines Segments, das von [!DNL Target] verwendet wird, **kann** rückgängig gemacht werden.
 
-## View segment publishing status in the Segment Manager
+## Anzeigen des Segmentveröffentlichungsstatus im [!UICONTROL Segment-Manager]
 
-1. Navigate to Analytics &gt; Components &gt; Segments.
-1. Notice the new Published column.  Ja/Nein bezieht sich darauf, ob das Segment in der Experience Cloud veröffentlicht wurde oder nicht.
+1. Navigieren Sie zu [!UICONTROL Analytics &gt; Komponenten &gt; Segmente].
+1. Beachten Sie die neue Spalte [!UICONTROL Veröffentlicht] . Ja/Nein bezieht sich darauf, ob das Segment in der Experience Cloud veröffentlicht wurde oder nicht.
 
 ![](assets/publish-status.png)
 
-## Retrieve the  UUID[!DNL Audience Manager]
+## Abrufen der [!DNL Audience Manager] UUID
 
-There are two ways to capture the AAM UUID currently associated with the browser:
+Es gibt zwei Möglichkeiten, die AAM UUID zu erfassen, die derzeit mit dem Browser verknüpft ist:
 
 * Adobe Experience Cloud-Debugger
-* Native developer tool in browsers (e.g., Chrome Developer Tools)
+* Natives Developer Tool in Browsern (z. B. Chrome Developer Tools)
 
-The following screenshots show you how to retrieve the AAM UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait &amp; segment membership.
+Die folgenden Screenshots zeigen Ihnen, wie Sie die AAM-UUID in Ihrem Browser abrufen und sie in Audience Manager-Besucherprofil-Viewer verwenden, um Eigenschaften- und Segmentmitgliedschaften zu validieren.
 
-**Method 1: Use Adobe Experience CLoud Debugger**
+**Methode 1: Adobe Experience CLoud Debugger verwenden**
 
 1. Laden Sie den [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) im Chrome Web Store herunter und installieren Sie ihn.
-1. Launch the debugger when loading a page.
-1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
-( in the example below)`50814298273775797762943354787774730612`
+1. Starten Sie den Debugger, wenn Sie eine Seite laden.
+1. Blättern Sie zum Audience Manager-Abschnitt und suchen Sie die AAM UUID, die auf der aktuellen Browserseite eingestellt ist (`50814298273775797762943354787774730612` im Beispiel unten).
 
 ![](assets/debugger.jpg)
 
-**Method 2: Use Chrome Developer Tools (or other browser developer tools)**
+**Methode 2: Verwenden Sie die Chrome Developer Tools (oder andere Browser-Entwicklerwerkzeuge)**
 
-1. Launch Chrome Developer Tools before loading a page
-1. Load the page and check Applications &gt; Cookies. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) im Beispiel unten) festgelegt werden. Das Feld demdex ist die AAM UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
+1. Starten Sie Chrome Developer Tools, bevor Sie eine Seite laden
+1. Laden Sie die Seite und aktivieren Sie Anwendungen &gt; Cookies. Die AAM-UUID sollte im Drittanbieter-Demdex-Cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) im Beispiel unten) festgelegt werden. Das Feld demdex ist die AAM UUID-Einstellung im Browser (`50814298273775797762943354787774730612` im Beispiel unten).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
@@ -114,17 +116,17 @@ Die AAM-UUID im Browser wird standardmäßig verwendet, wenn der [!UICONTROL Bes
 
 In AAM wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment als Streaming ausgewertet, da Analytics Segmente mit Experience Cloud teilt.
 
-1. Gehen Sie [!DNL Audience Manager]zu [!UICONTROL Zielgruppendaten &gt; Eigenschaften &gt; Analytics-Eigenschaften]. Es wird ein Ordner für jede Analytics Report Suite angezeigt, der Ihrer Experience Cloud-Organisation zugeordnet ist. Diese Ordner (für Eigenschaften, Segmente und Datenquellen) werden erstellt, wenn der Hauptdienst Profile und Zielgruppen/Personen initiiert oder bereitgestellt wird.
+1. In , go to Audience Data &gt; Traits &gt; Analytics Traits. [!DNL Audience Manager] Es wird ein Ordner für jede Analytics Report Suite angezeigt, der Ihrer Experience Cloud-Organisation zugeordnet ist. Diese Ordner (für Eigenschaften, Segmente und Datenquellen) werden erstellt, wenn der Hauptdienst Profile und Zielgruppen/Personen initiiert oder bereitgestellt wird.
 1. Wählen Sie den Ordner für die Report Suite aus, in der Sie zuvor das Segment erstellt haben, für das Sie freigeben möchten [!DNL Audience Manager]. Sie sehen das Segment/die Zielgruppe, das/die Sie erstellt haben. Wenn Sie ein Segment freigeben, geschieht dies in zwei Bereichen: [!DNL Audience Manager]
-* Eine Eigenschaft wird erstellt, zunächst ohne Daten. Ungefähr. 8 Stunden nach der Veröffentlichung des Segments in [!DNL Analytics]wird die Liste der ECIDs für [!DNL Audience Manager] und andere Experience Cloud-Lösungen integriert und freigegeben.
+* Eine Eigenschaft wird erstellt, zunächst ohne Daten. Approx. 8 hours after the segment gets published in , the list of ECIDs gets onboarded and shared with  and other Experience Cloud solutions.[!DNL Analytics][!DNL Audience Manager]
 
 ![](assets/aam-traits.png)
 
-* Es wird ein Einwegsegment erstellt. Es verwendet die Datenquelle, die mit der Report Suite verknüpft ist, in der Sie das Segment veröffentlicht haben.
+* A one-trait segment gets created. It uses the data source that is associated with the report suite where you published the segment.
 
-## Anzeigen des Segments in [!DNL Adobe Target]
+## View the segment in [!DNL Adobe Target]
 
 The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Ein in Analytics oder Audience Manager erstelltes Segment kann für Aktivitäten in Target verwendet werden. Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen.
-] klicken Sie auf [!UICONTROL Zielgruppen].
+], click Audiences.
 1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
 
