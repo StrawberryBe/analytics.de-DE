@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 4a6bac589d1d6d6caaf34dc5363c60bbfbb952d5
+source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 ---
 
@@ -30,7 +30,7 @@ Die aktuelle Report Suite wird in [!DNL Analytics] oben links in den Berichten i
 
 The `s_account` variable is normally declared inside the JavaScript file (s_code.js). Sie können die `s_account` Variable auf der HTML-Seite deklarieren. Dies ist eine gängige Praxis, wenn sich der Wert von `s_account` Seite zu Seite ändern kann. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. In einigen Fällen wird der Wert von `s_account` auch in der Domäne vor 112.2o7.net angezeigt. Der Wert im Pfad ist der einzige Wert, der die Ziel-Report Suite vorgibt. Im folgenden Beispiel ist die Stelle im Debugger, die die Report Suites angibt, fett markiert dargestellt. Siehe   [DigitalPulse-Debugger prüfen](/help/implement/impl-testing/debugger.md).
+Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. In einigen Fällen wird der Wert von `s_account` auch in der Domäne vor 112.2o7.net angezeigt. Der Wert im Pfad ist der einzige Wert, der die Ziel-Report Suite vorgibt. Im folgenden Beispiel ist die Stelle im Debugger, die die Report Suites angibt, fett markiert dargestellt. Siehe   [DigitalPulse-Debugger prüfen](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
