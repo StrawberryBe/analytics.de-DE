@@ -1,14 +1,14 @@
 ---
 description: Stellen Sie Adobe Analytics mithilfe des dynamischen Tag-Managements bereit, indem Sie das Adobe Analytics-Tool erstellen und den Seiten-Code entweder automatisch oder manuell konfigurieren. Für die meisten Benutzer wird die automatische Methode empfohlen.
-keywords: Analytics-Implementierung; Implementierungsmethode; dynamisches Tag-Management; dtm; Analytics-Tool; -eigenschaft; tool type; tool name; Konfigurationsmethode; Analytics Premium; evars; Ereignisse
+keywords: Analytics-Implementierung;Implementierungsmethode;dynamisches Tag-Management;dtm;Analytics-Tool;Eigenschaft;Tool-Typ;Tool-Name;Konfigurationsmethode;Analytics-Premium;evars;Ereignisse
 seo-description: Stellen Sie Adobe Analytics mithilfe des dynamischen Tag-Managements bereit, indem Sie das Adobe Analytics-Tool erstellen und den Seiten-Code entweder automatisch oder manuell konfigurieren. Für die meisten Benutzer wird die automatische Methode empfohlen.
 seo-title: Adobe Analytics-Tool hinzufügen
 solution: Analytics
 title: Adobe Analytics-Tool hinzufügen
 topic: Entwickler und Implementierung
-uuid: 1 c 54331 e-de 03-4 f 44-8002-a 19723 c 585 b 0
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
@@ -19,7 +19,7 @@ Stellen Sie Adobe Analytics mithilfe des dynamischen Tag-Managements bereit, ind
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>Für eine verbesserte Besucherverfolgung empfehlen wir dringend, den [Identitätsdienst](https://marketing.adobe.com/resources/help/en_US/mcvid/)zu aktivieren.
 
 ## Ein Adobe Analytics-Tool hinzufügen {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -50,11 +50,11 @@ Stellen Sie Adobe Analytics mithilfe des dynamischen Tag-Managements bereit, ind
    <td colname="col2"> <p> <b>Automatisch</b> (empfohlen): Verwaltung der Konfiguration mit dem Dynamic Tag Management. This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>Sobald die Konten verknüpft sind, ruft das Dynamic Tag Management die IDs und Namen der <span class="keyword">Adobe Analytics</span>-Report Suite ab und fügt sie in die Benutzeroberfläche für die Tool-Konfiguration ein, wodurch Tools schneller und mit einem geringeren Risiko von Benutzerfehlern implementiert werden können. </p> <p> <p>Hinweis: Sie müssen die Option <span class="wintitle">Automatisch</span> wählen, wenn Sie <span class="keyword">Adobe Analytics Premium</span>-Kunde sind. Siehe Abschnitt <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">Adobe Analytics Premium aktivieren</a> unten. </p> </p> <p>Füllen Sie die Felder der automatischen Konfiguration aus: </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b> (Standardwert): Verwendet <span class="keyword">Experience Cloud</span>-Single Sign-On. Geben Sie Ihre Experience Cloud ID und Ihr Kennwort ein. </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web-Services</b>: Geben Sie Ihren Web-Services-Benutzernamen und den gemeinsamen geheimen Schlüssel an. </p> <p>Die Anmeldedaten für gemeinsame geheime Schlüssel befinden sich unter <span class="uicontrol">Admin Tools</span> &gt; <span class="uicontrol">Unternehmenseinstellungen</span> &gt; <a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external">Web-Services</a>. </p> <p>Entwickler finden unter <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">Get Web Service Access to the Enterprise API</a> (Web-Service-Zugriff auf die Enterprise-API sichern) Informationen zum Abrufen der Web-Services-Anmeldedaten. </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web-Services</b>: Geben Sie Ihren Web-Services-Benutzernamen und den gemeinsamen geheimen Schlüssel an. </p> <p>Die Anmeldedaten für gemeinsame geheime Schlüssel befinden sich unter <span class="uicontrol">Admin </span> &gt; <span class="uicontrol">Unternehmenseinstellungen</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external">Web-Services</a>. </p> <p>Entwickler finden unter <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">Get Web Service Access to the Enterprise API</a> (Web-Service-Zugriff auf die Enterprise-API sichern) Informationen zum Abrufen der Web-Services-Anmeldedaten. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuell</b>: Verwalten Sie die [! DNL appmeasurement] code. Der <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span>-Code kann unter <span class="ignoretag"><span class="uicontrol">Admin Tools</span> &gt; <span class="uicontrol">Code-Manager</span></span> heruntergeladen werden. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Füllen Sie die Felder der manuellen Konfiguration aus: </p> 
+   <td colname="col2"> <p> <b>Manual: Manually manage the [!DNL AppMeasurement] code. </b> Der <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span>-Code kann unter <span class="ignoretag"><span class="uicontrol">Admin Tools</span> &gt; <span class="uicontrol">Code-Manager</span></span> heruntergeladen werden. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Füllen Sie die Felder der manuellen Konfiguration aus: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>Produktionskonto-ID</b> (erforderlich): Ihr Produktionskonto für die Datenerfassung. Bei Analytics ist dies die Report Suite-ID. Das Dynamic Tag Management installiert automatisch das richtige Konto in der Produktions- und Staging-Umgebung. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>Staging-Konto-ID</b> (erforderlich): Wird in der Entwicklungs- oder Testumgebung eingesetzt. Bei Analytics ist dies die Report Suite-ID. Mit dem Staging-Konto werden Ihre Testdaten von der Produktion getrennt gehalten. </p> </li> 
@@ -92,7 +92,7 @@ Ein bestehendes Adobe Analytics-Tool kann bearbeitet werden, um die Konfigurieru
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Automatische Konfiguration aktivieren </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Diese Option ermöglicht dem Dynamic Tag Management das automatische Abrufen Ihrer <span class="keyword">Adobe Analytics</span>-Kontokonfiguration. </p> <p>Die aktuellste verfügbare [! DNL appmeasurement] Code wird verwendet und Upgrade-Benachrichtigungen werden zur Auswahl angezeigt, wenn neue Versionen verfügbar werden. Sie können auch zurück zu vorherigem [! DNL appmeasurement] versionen nach Bedarf, beispielsweise aus Kompatibilitätsgründen. Es werden bis zu fünf frühere Versionen angezeigt. </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Diese Option ermöglicht dem Dynamic Tag Management das automatische Abrufen Ihrer <span class="keyword">Adobe Analytics</span>-Kontokonfiguration. </p> <p>Der neueste verfügbare [!DNL AppMeasurement]-Code wird verwendet und es werden Upgrade-Benachrichtigungen zur Auswahl angezeigt, sobald neue Versionen verfügbar werden. Sie können bei Bedarf, z. B. aus Kompatibilitätsgründen, auch frühere [!DNL AppMeasurement]-Versionen wiederherstellen. Es werden bis zu fünf frühere Versionen angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anmeldedaten aktualisieren </p> </td> 
