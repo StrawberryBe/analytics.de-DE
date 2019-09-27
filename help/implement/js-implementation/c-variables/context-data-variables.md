@@ -1,15 +1,15 @@
 ---
 description: Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefinierte Variablen definieren, die von Verarbeitungsregeln gelesen werden können.
-keywords: Analytics-Implementierung; contextdata; s. contextdata
+keywords: Analytics-Implementierung;contextData;s.contextdata
 seo-description: Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefinierte Variablen definieren, die von Verarbeitungsregeln gelesen werden können.
 seo-title: Kontextdatenvariablen
 solution: Analytics
 subtopic: Variablen
 title: Kontextdatenvariablen
 topic: Entwickler und Implementierung
-uuid: 4 b 215803-99 d 4-46 f 2-b 3 c 1-e 78558987764
+uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,16 +26,20 @@ Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die D
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->```>
+>
+```>
 >and 
 >
->```>
+>
+```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
+
+
 Durch Einsatz von Kontextdaten brauchen Sie keine Codeaktualisierungen mehr durchzuführen, um unterschiedliche Report Suite-Konfigurationen zu unterstützen.
 
-So können Sie zum Beispiel die folgende *`s.contextData`* Variable:
+So können Sie zum Beispiel die folgende *`s.contextData`* variable:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -66,7 +70,7 @@ Da Verarbeitungsregeln nur bei der Erfassung von Daten angewendet werden, müsse
    <td colname="col2"> <p>Damit Variablennamen in der gesamten Report Suite eindeutig sind, empfiehlt es sich, den Namen des eigenen Unternehmens, Standorts o. Ä. als Präfix für die Variablen zu verwenden. </p> <p>Kontextdatenvariablen können ähnlich wie andere JavaScript-Variablen benannt werden. Beachten Sie, dass der Namespace <code>a.*</code> für Adobe-Produkte in Kontextvariablennamen reserviert ist. So verwendet die AppMeasurement-Bibliothek für iOS zum Beispiel <code>a.InstallEvent</code>, um Installationen von Anwendungen zu messen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>URL-Beschränkungen für Internet Explorer </p> </td> 
+   <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 
    <td colname="col2"> <p>Sie werden möglicherweise auf ältere URL-Beschränkungen für Internet Explorer 6 und 7 stoßen, bei denen URLs bei 2000 Byte gekürzt wurden. Mit dem <span class="keyword">DigitalPulse Debugger</span> können Sie die Größe einer URL-Zeichenfolge bestimmen. </p> <p>Seit den kürzlich erfolgten Aktualisierungen für AppMeasurement (September 2014) wird für Internet Explorer 8 und höher HTTP POST verwendet, wodurch keine Schwierigkeiten mit Verkürzungen mehr auftreten. </p> </td> 
   </tr> 
   <tr> 
@@ -104,4 +108,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-Ein Beispiel finden Sie in der Analytics-Referenz unter [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules_copy_context_data) (Kopieren einer Kontextdatenvariablen in eine eVar).
+Ein Beispiel finden Sie in der Analytics-Referenz unter [Copy a Context Data Variable to an eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) (Kopieren einer Kontextdatenvariablen in eine eVar).
