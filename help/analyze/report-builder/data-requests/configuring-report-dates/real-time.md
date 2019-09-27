@@ -5,9 +5,9 @@ seo-title: Echtzeitberichte
 solution: Analytics
 title: Echtzeitberichte
 topic: ReportBuilder
-uuid: eb 39 b 4 a 5-fb 6 f -476 d -9383-e 5323 afcc 51 d
+uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,9 +25,9 @@ Sie können:
 * Verwenden Sie beliebige benutzerdefinierte Ereignisse, Warenkorbereignisse oder Instanzen.
 * Sie können sich bis zu 20 Stunden historische Echtzeitdaten anzeigen lassen.
 
-Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration) aktiviert.
+Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html) aktiviert.
 
 >[!NOTE]
 >
->[!UICONTROL Echtzeitberichte] sind nicht identisch mit der [zuvor veröffentlichten Funktion Aktuelle Daten](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) einschließen (Datenneuigkeit), die die Latenz für Standardberichte verkürzt, indem Daten vor der finalisierung angezeigt werden.
+>[!UICONTROL Real-Time Reports are not the same as the Include Current Data (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.][](https://marketing.adobe.com/resources/help/en_US/arb/options.html)
 
