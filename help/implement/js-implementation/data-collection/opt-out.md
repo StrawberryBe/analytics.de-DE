@@ -6,9 +6,9 @@ seo-title: Adobe-Ausschlüsse implementieren
 solution: Analytics
 title: Adobe-Ausschlüsse implementieren
 topic: Entwickler und Implementierung
-uuid: fc 3 a 411 c -8476-409 d -99 de -5 b 34 ace 5019
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Besucher können im [Datenschutzzentrum von Adobe](https://www.adobe.com/privacy
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Wenn Sie Adobe Analytics-Produkte mit Ihrem eigenen Erstanbieter-Cookie implementieren, müssen Sie [Ihren eigenen Ausschluss-Link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) für Besucher Ihrer Website entwickeln.
-* Ihre Kunden haben die Möglichkeit des Ausschlusses mittels der Cookieeinstellungen des Browsers. Lesen Sie hierzu auch [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings) (in englischer Sprache).
+* Wenn Sie Adobe Analytics-Produkte mit Ihrem eigenen Erstanbieter-Cookie implementieren, müssen Sie Ihren eigenen benutzerspezifischen Ausschluss-Link[ für Ihre Website-Besucher ](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9)entwickeln.
+* Ihre Kunden haben die Möglichkeit des Ausschlusses mittels der Cookieeinstellungen des Browsers. Lesen Sie hierzu auch [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html) (in englischer Sprache).
 
 Unabhängig davon, welchen Mechanismus zum Ausschluss von der Datenerfassung Sie verwenden, empfiehlt Adobe, dass Sie die Verfügbarkeit eines solchen Mechanismus in Ihren Datenschutzrichtlinien klar beschreiben und auch anderweitig jegliche gesetzlichen Vorschriften oder empfohlene Best Practices einhalten.
