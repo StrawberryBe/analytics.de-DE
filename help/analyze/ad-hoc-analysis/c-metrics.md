@@ -1,16 +1,16 @@
 ---
 description: Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Datum, Einheiten, Bestellungen, Umsatz usw. Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt.
 seo-description: Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Datum, Einheiten, Bestellungen, Umsatz usw. Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt.
-seo-title: Metrik
+seo-title: Metriken
 title: Metriken
-uuid: ab 9 d 8 a 45-0297-4757-b 0 f 0-d 8 b 0 e 0 db 8 d 67
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Metrik
+# Metriken
 
 Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Datum, Einheiten, Bestellungen, Umsatz usw. Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt.
 
@@ -24,7 +24,7 @@ Zu den Standardmetriken zählen:
 * **Konversion**: Zeigt Daten zu Erfolgsereignissen auf Ihrer Website. Erfolgsereignisse sind unter anderem Einkäufe, Downloads oder andere Aktionen, die Benutzer auf Ihrer Website ausführen sollen.
 * **Errechnet**: Benutzerspezifische Metriken, die durch Kombination anderer Metriken erstellt werden. Sie könnten z. B. eine Metrik erstellen, die die Kosten des Keyword und die Fertigungskosten vom Umsatz subtrahiert und so den Nettoumsatz berechnet. Sie könnten diesen Betrag dann durch die Gesamtanzahl der Bestellungen dividieren, um den Nettoumsatz pro Bestellung zu erhalten.
 
-Informationen zur Verwendung von Metriken in der [ finden Sie unter ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics)Metrikdefinitionen *in der* Analysereferenz[!DNL Experience Cloud].
+Informationen zur Verwendung von Metriken in der [ finden Sie unter ](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)Metrikdefinitionen *in der* Analysereferenz[!DNL Experience Cloud].
 
 Mit dem Tool [!UICONTROL Metriken organisieren] erstellen Sie neue Ordner für Ihre Metriken. Sie können Metriken dann beliebig gruppieren. Mit dem Organizer können Sie vorhandene Metriken per Drag-and-Drop in Ihre benutzerspezifischen Ordner kopieren.
 
@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >Wenn Sie einen Ordner löschen, werden alle Metriken im Ordner aus Ihrem aktuell ausgewählten Projekt gelöscht.
+   >Wenn Sie einen Ordner löschen, werden alle Metriken im Ordner aus dem aktuell ausgewählten Projekt gelöscht.
 
 ## Metriken zu einem Bericht hinzufügen {#task_747DD1718B3F4776B83A115D0BE8754C}
 
