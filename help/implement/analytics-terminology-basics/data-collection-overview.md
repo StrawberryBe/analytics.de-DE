@@ -1,14 +1,14 @@
 ---
 description: 'Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen. '
-keywords: Analytics-Implementierung; Datenerfassung
+keywords: Analytics-Implementierung;Datenerfassung
 seo-description: 'Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen. '
 seo-title: Datenerfassung
 solution: Analytics
 title: Datenerfassung
 topic: Entwickler und Implementierung
-uuid: d 0 d 6098 d -113 e -4 cf 5-bb 89-e 335 f 7 b 6 b 1 af
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -61,7 +61,7 @@ Für das Senden von Daten zu Analytics stellt Adobe mehrere Methoden zur Verfüg
 
    >[!NOTE]
    >
-   >Jede Bildanforderung enthält eine zufällige Zahlenzeichenfolge, um Browser-Zwischenspeicherung zu verhindern und sicherzustellen, dass nachfolgende Bildanforderungen vom Browser erstellt werden.
+   >Each image request contains a random number string to prevent browser caching and ensure that subsequent image requests are made by the browser.
 
 1. Adobe gibt ein transparentes Pixelbild zurück.
 
@@ -69,11 +69,11 @@ Für das Senden von Daten zu Analytics stellt Adobe mehrere Methoden zur Verfüg
 
    Der Code erfasst automatisch zusätzliche Details (z. B. zu Betriebssystem, Browsertyp, Browserhöhe und -breite, IP-Adresse und Browsersprache).
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Adobe-Server speichern Webanalysedaten in *`report suites`* (Ihrem Datenrepository).
 
    ![](assets/how-data-is-collected-5.png)
 
-   Eine [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin) definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Webseite.
+   Eine [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Webseite.
 
 1. Report Suite-Daten erscheinen in den Berichten, auf die Sie in einem Webbrowser zugreifen können.
 
@@ -90,12 +90,12 @@ Weitere Informationen finden Sie unter:
 * [Datenerfassung](../../implement/js-implementation/data-collection/query-parameters.md)
 * [Datenelement erstellen](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
+* [Ad Hoc Analysis ](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Data Sources](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
 * [Analytics Data Feed](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >       
 >* [Experience Cloud-Debugger](/help/implement/impl-testing/debugger.md)
 
