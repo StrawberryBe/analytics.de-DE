@@ -4,10 +4,10 @@ seo-description: Administratoren können einen Bericht mit spezifischen Metriken
 seo-title: Benutzerspezifisch
 solution: Analytics
 title: Benutzerspezifisch
-topic: 'Berichte    '
-uuid: 04 a 2 cf 81-6 f 2 a -49 f 3-a 449-cb 701 a 899 aad
+topic: Berichte
+uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,4 +24,4 @@ Benutzerspezifische Berichte können Ihnen in Ihrer Eigenschaft als Analyst eine
 
 Zudem können Sie Berichte speichern, die für Sie wichtig sind. Diese Berichte werden Lesezeichen genannt. Sie können auch mehrere Berichte auf eine Arbeitsfläche setzen, um Ihre wichtigsten Berichte auf einen Blick anzuzeigen. Diese werden als Dashboards bezeichnet und sind auch benutzerdefiniert. Die Oberfläche zeigt oberhalb des Diagramms eine Leiste mit Ihren Lesezeichen und Dashboards an.
 
-Weitere Informationen finden Sie unter [Lesezeichen](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=c_bookmarks) und [Dashboards und Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=c_dashboard).
+Weitere Informationen finden Sie unter [Lesezeichen](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html) und [Dashboards und Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html).
