@@ -5,9 +5,9 @@ seo-title: Veröffentlichungsliste darf außer Kraft gesetzt werden
 solution: Analytics
 title: Veröffentlichungsliste darf außer Kraft gesetzt werden
 topic: ReportBuilder
-uuid: f 2 cc 9878-ab 54-4 c 6 f -8 a 88-3 f 3 b 779955 e 3
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ Wenn Sie einen Bericht planen, können Sie eine Veröffentlichungsliste auswähl
 
 Veröffentlichungslisten werden in den Admin Tools von Analytics eingerichtet.
 
-Siehe [Veröffentlichungslisten-Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=publishing_list) in der Analytics-Referenz.
+Siehe [Veröffentlichungslisten-Manager](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html) in der Analytics-Referenz.
 
 Um diese Funktion zu aktivieren, navigieren Sie zum Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1].
 
