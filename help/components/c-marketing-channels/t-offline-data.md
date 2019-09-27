@@ -1,29 +1,29 @@
 ---
 description: Fügen Sie Marketingkanalberichten Offlinedaten hinzu.
 seo-description: Fügen Sie Marketingkanalberichten Offlinedaten hinzu.
-seo-title: Hinzufügen von Offlinedaten
+seo-title: Hinzufügen von Offline-Daten
 solution: Analytics
 subtopic: Marketingkanäle
-title: Hinzufügen von Offlinedaten
+title: Hinzufügen von Offline-Daten
 topic: Reports and Analytics
-uuid: bbf 4661 a-b 6 b 1-4 a 89-a 3 cf-ae 8 dd 785 d 37 d
+uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Hinzufügen von Offlinedaten
+# Hinzufügen von Offline-Daten
 
 Fügen Sie Marketingkanalberichten Offlinedaten hinzu.
 
 Online-Kanäle ermöglichen die Datenkategorisierung zu Besuchern, die über Suchmaschinen, Internet-Werbung, verweisende Domänen oder E-Mail-Kampagnen zu Ihnen gelangen. Offline-Kanäle gelten für Besucher, die Ihre Site durch TV-Werbung oder Anzeigen in Zeitungen und Zeitschriften fanden.
 
-**Integration von Datenquellen in Marketingkanalberichte**
+**Datenquellen in Marketingkanalberichte integrieren**
 
-Wenn Sie [datenbezogene Daten](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_faq) in Marketingkanalberichte integrieren möchten, sollten Sie Folgendes beachten:
+Wenn Sie [datenbezogene Daten](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) in Marketingkanalberichte integrieren möchten, sollten Sie Folgendes beachten:
 
-* Sämtliche standardmäßigen Treffer, die an Analyseberichte mit einer [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID) geleitet werden, werden durch Marketingkanal-Verarbeitungsregeln als normal verarbeitet.
+* Sämtliche standardmäßigen Treffer, die an Analyseberichte mit einer [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html) geleitet werden, werden durch Marketingkanal-Verarbeitungsregeln als normal verarbeitet.
 * Sämtliche in Analysen geleitete `transactionID`-Datenquellen sind automatisch mit demselben Marketingkanal verbunden, auf dem der standardmäßige Treffer verarbeitet wurde.
 * Sämtliche andere datenbezogenen Daten werden nicht durch Marketingkanal-Verarbeitungsregeln geleitet.
 
