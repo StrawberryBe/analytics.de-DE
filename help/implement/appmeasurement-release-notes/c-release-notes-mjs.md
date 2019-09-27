@@ -8,7 +8,7 @@ title: AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -25,7 +25,7 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
 
-## Versionen 2.17.0
+## Versions 2.17.0
 
 Releasedatum: **23. August 201**
 
@@ -353,11 +353,11 @@ Releasedatum: **21. Mai 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS-Erweiterung</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">Implementieren der iOS-Erweiterung </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Implementieren der iOS-Erweiterung </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android Wearable-Erweiterung</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Android Wearable-Erweiterung </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android Wearable-Erweiterung </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Releasedatum: **18. September 2014**
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## Version 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,7 +441,7 @@ Releasedatum: **21. August 2014**
 * Das Tracking von Browser-Plug-ins (Abfrage-Parameter `p`) wurde entfernt, da Plug-ins in Version 15 nicht mehr gemeldet werden.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-Unterstützung für [zusätzliche eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events) (76 bis 250) und Ereignisse (101 bis 1000) hinzugefügt.
+Unterstützung für [zusätzliche eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 bis 250) und Ereignisse (101 bis 1000) hinzugefügt.
 
 >[!NOTE]
 >
@@ -497,7 +497,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Erweiterte Unterstützung für [Puls-Videomessungen](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* [!DNL VisitorAPI.js] wurde hinzugefügt, um den [Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#) zu unterstützen.
+* [!DNL VisitorAPI.js] wurde hinzugefügt, um den [Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html) zu unterstützen.
 
 ## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * Native Unterstützung des Abrufens von Abfrageparametern, des Lesens und Schreibens von Cookies und des Durchführens des erweiterten Linktrackings.
 * Handlich und schnell genug zur Verwendung bei Websites für Mobilgeräte, stabil genug für die Verwendung bei vollwertigem Web für Desktops, ermöglicht Ihnen die Nutzung einer einzigen Bibliothek für alle Webumgebungen.
 
-See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) in the [!DNL Analytics] Implementation Guide.
+See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) in the [!DNL Analytics] Implementation Guide.
 
 >[!NOTE]
 >
->Einige Plugins werden in dieser neuen Version nicht unterstützt. Einzelheiten finden Sie unter [Plug-In-Unterstützung](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support).
+>Some plug-ins are not supported in this new version. Einzelheiten finden Sie unter [Plug-In-Unterstützung](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html).
