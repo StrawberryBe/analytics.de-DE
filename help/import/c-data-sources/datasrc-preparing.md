@@ -1,19 +1,19 @@
 ---
 description: Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
 seo-description: Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
-seo-title: Vorbereiten der Verwendung von Datenquellen
+seo-title: Vorbereiten auf die Verwendung von Data Sources
 solution: Analytics
-subtopic: Datenquellen
-title: Vorbereiten der Verwendung von Datenquellen
+subtopic: ' Datenquellen'
+title: Vorbereiten auf die Verwendung von Data Sources
 topic: Entwickler und Implementierung
-uuid: 876 ea 069-574 b -4 e 23-93 b 7-e 3828 bfd 90 f 5
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Vorbereitung der Verwendung von Data Sources
+# Vorbereiten der Verwendung von Data Sources
 
 Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
 
@@ -29,29 +29,29 @@ It is important to understand the metrics or measurements that are contained in 
 
 Nachdem Sie die entsprechenden Metrik-zu-Ereignis-Zuordnungen für die Data Sources-Daten bestimmt haben, benennen Sie die Ereignisse mit beschreibenden Namen für die zugeordnete Data Sources-Metrik um.
 
-Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) in der Hilfe der Admin Tools.
+Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in der Hilfe der Admin Tools.
 
 >[!NOTE]
 >
->Adobe empfiehlt dringend, neue, leere Ereignisse mit Datenquellen-Daten zu verwenden. In seltenen Fällen kann es sinnvoll sein, ein bereits vorhandenes Ereignis zu verwenden.
+>Adobe empfiehlt dringend, neue, leere Ereignisse mit Data Sources-Daten zu verwenden. In seltenen Fällen kann es jedoch sinnvoll sein, ein bereits bestehendes Ereignis zu verwenden.
 
 ## Identifizieren von Datendimensionen {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Identifizieren und erfassen Sie Daten (Berichte), die Sie zum Aufschlüsseln der über Data Sources importierten Metriken verwenden möchten. Diese Daten werden auch als *`data dimensions`*.
+Identifizieren und erfassen Sie Daten (Berichte), die Sie zum Aufschlüsseln der über Data Sources importierten Metriken verwenden möchten. Diese Daten werden auch als *`data dimensions`* zu trennen.
 
 Wenn beispielsweise eine Data Sources-Metrik Anzeigenimpressionen misst, ist Ihre Datendimension wahrscheinlich der Kampagnen-Trackingcode. Wenn Sie die Offline-Verkäufe messen, möchten Sie u. U. den Produktcode (oder die SKU) als Datendimension verwenden.
 
-Sie können für eine Metrik mehrere Datendimensionen definieren, aber jede Metrik muss über einen entsprechenden Wert oder eine Kombination aus Werten für jede zugeordnete Datendimension verfügen. Wenn Sie zum Beispiel eine Offline-Verkaufsmetrik importieren und sie *`Product`* und *`Partner`* Datendimensionen muss die Offline-Verkaufsmetrik für jede Kombination von Produkt und Partner relevant sein (z. B. Gesamtumsatz).
+Sie können für eine Metrik mehrere Datendimensionen definieren, aber jede Metrik muss über einen entsprechenden Wert oder eine Kombination aus Werten für jede zugeordnete Datendimension verfügen. Wenn Sie zum Beispiel eine Offline-Verkaufsmetrik importieren und sie *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
->Es ist möglich, Gesamtmetriken zu importieren, die nicht nach einer Datendimension aufgeschlüsselt werden können.
+>Es ist möglich, Summenmetriken zu importieren, die nicht durch Datendimensionen aufgeschlüsselt werden können.
 
 Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben, integrieren Sie die Dimensionsdaten in Marketingberichte, indem Sie sie einer Variablen zuordnen. Verwenden Sie entweder Standardberichte (z. B. Produkt, Trackingcode, Keyword) oder Konversion-Traffic-Variablen (eVars).
 
 Wenn Sie eVars verwenden, können Sie entweder vorhandene eVars oder neue eVars als Datendimensionen verwenden. Stellen Sie nach Auswahl einer eVar für den Empfang einer Datendimension aus Data Sources sicher, dass Sie sie ordnungsgemäß benennen.
 
-Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) in der Hilfe zu Analytics.
+Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in der Hilfe zu Analytics.
 
 ## Kampagnen-Trackingcode {#section_468222796FF449ABAA90D88EB3264CB1}
 
