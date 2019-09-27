@@ -1,22 +1,22 @@
 ---
 description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
 seo-description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
-seo-title: Übersicht über Berichte
+seo-title: Berichtübersicht
 solution: Analytics
-title: Übersicht über Berichte
+title: Berichtübersicht
 topic: Ad Hoc Analysis
-uuid: 36722 dcd -5 dc 9-4047-8 a 17-16 de 876193 bf
+uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Übersicht über Berichte
+# Berichtübersicht
 
 Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## Berichtübersicht {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-Diese Berichte werden in der Regel benutzerspezifisch angepasst und unterscheiden sich daher für jeden Analysten. Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin)Kampagnen-Manager[!DNL Admin Console].
+Diese Berichte werden in der Regel benutzerspezifisch angepasst und unterscheiden sich daher für jeden Analysten. Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html)Kampagnen-Manager[!DNL Admin Console].
 
 ## Statistische Berechnungen {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -104,7 +104,7 @@ Das arithmetische Mittel wird ähnlich wie bei Spalten in Microsoft Excel berech
   <tr> 
    <th colname="col1" align="center" class="entry"> Datum </th> 
    <th colname="col2" align="center" class="entry"> Einmalige Besuche </th> 
-   <th colname="col3" align="center" class="entry"> Einstiege </th> 
+   <th colname="col3" align="center" class="entry"> Einträge </th> 
    <th colname="col4" align="center" class="entry"> Absprungrate </th> 
    <th colname="col5" align="center" class="entry"> </th> 
   </tr>
