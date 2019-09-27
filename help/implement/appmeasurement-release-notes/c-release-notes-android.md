@@ -8,7 +8,7 @@ title: Android
 topic: Entwickler und Implementierung
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Gesammelte Versionshinweise für die mobile Android-Bibliothek.
 
 >[!NOTE]
 >
->Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
+>To find the current library version, turn on debug logging.
 
 Downloads mobiler Bibliotheken stehen über [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) und über [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) zur Verfügung.
 
@@ -503,7 +503,7 @@ Releasedatum: **14. November 2013**
 
 Releasedatum: **27. September 2013**
 
-[!DNL Android] SDK 4.x für Experience Cloud-Lösungen ist jetzt mit den folgenden neuen Funktionen verfügbar:
+[!DNL Android] SDK 4.x for Experience Cloud Solutions is now available providing the following new features:
 
 * Deutliche Leistungsverbesserungen. Die gesamte Verarbeitung erfolgt nun in Hintergrund-Threads; das SDK ist absolut Thread-sicher.
 * Geografischer Standort und Orte von Interesse
@@ -597,7 +597,7 @@ Releasedatum: **November 2012**
 
 Releasedatum: **Oktober 2012**
 
-* Die [Kampagnen-Rückverfolgung für Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer) wird nun unterstützt.
+* Die [Kampagnen-Rückverfolgung für Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html) wird nun unterstützt.
 
 ## Version 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
