@@ -1,13 +1,13 @@
 ---
 description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 seo-description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Durchklicks, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
-seo-title: Metrik
+seo-title: Metriken
 solution: Analytics
 title: Metriken
 topic: Reports and Analytics
-uuid: ae 2021 eb -8 b 26-4 a 98-b 7 a 0-ce 36 bca 67553
+uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ Metriken und die damit verbundenen Daten werden in den Spalten von Berichten ang
 
 [Berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) werden durch die Kombination von Metriken erstellt.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics).
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
 ## Standard-Berichtsmetriken auswählen {#task_9537A607288A4450AE07EC7C070B47C6}
 
