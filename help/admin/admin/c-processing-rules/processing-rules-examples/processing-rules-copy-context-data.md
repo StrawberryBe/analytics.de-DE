@@ -1,19 +1,19 @@
 ---
 description: Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props und eVars zu verschieben.
 seo-description: Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props und eVars zu verschieben.
-seo-title: Kontextdatenvariable in eine evar kopieren
+seo-title: Kontextdatenvariable in eine eVar kopieren
 solution: Analytics
 subtopic: Verarbeitungsregeln
-title: Kontextdatenvariable in eine evar kopieren
+title: Kontextdatenvariable in eine eVar kopieren
 topic: Admin Tools
-uuid: 1 beaec 4 c -71 e 9-49 ce-b 154-78408 cc 532 a 3
+uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Kontextdatenvariable in eine evar kopieren
+# Kontextdatenvariable in eine eVar kopieren
 
 Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props und eVars zu verschieben.
 
@@ -38,4 +38,4 @@ Beispiel:
 
 ![](assets/set-context-data.png)
 
-Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) in der Implementierungshilfe.
+Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in der Implementierungshilfe.
