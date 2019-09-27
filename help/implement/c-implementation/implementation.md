@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Implementierungs-Roadmap
 title: Implementierungs-Roadmap
-uuid: 988 bcca 5-67 ae -4 e 3 f -97 e 6-6 a 42030 b 1962
+uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -29,12 +29,12 @@ Wenn Sie mit Adobe Analytics noch nicht vertraut sind, können Sie mithilfe des 
  <tbody> 
   <tr> 
    <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
-   <td colname="col1"> Wählen Sie eine Implementierungsmethode aus. </td> 
+   <td colname="col1"> Implementierungsmethode auswählen. </td> 
    <td colname="col2"> <p>Zu den verbreiteten Methoden der Implementierung von Analytics gehören: </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Start </a> (empfohlen) <p>In diesem Leitfaden erfahren Sie alles, was Sie über die Verwendung der Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs wissen müssen, und wie Sie diese implementieren können. </p> </li> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Launch </a> (Recommended) <p>In diesem Leitfaden erfahren Sie alles, was Sie über die Verwendung der Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs wissen müssen, und wie Sie diese implementieren können. </p> </li> 
       <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>Dieser Leitfaden enthält spezifische Informationen zu Analytics, um Sie durch eine Implementierung des Dynamic Tag Managements zu führen. </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>Dieser Leitfaden enthält eine Beschreibung der Datenerfassungsvariablen und Details zur Implementierung von Code zur Datenerfassung in JavaScript, einschließlich <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js" format="https" scope="external">Video </a>. </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>Dieser Leitfaden enthält eine Beschreibung der Datenerfassungsvariablen und Details zur Implementierung von Code zur Datenerfassung in JavaScript, einschließlich <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="https" scope="external">Video </a>. </p> </li> 
       <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics-SDKs </a> <p>Verwenden Sie Analytics-SDKs zur Verwaltung von: </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
          <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> Mobilen Apps auf iOS </a> </li> 
@@ -44,18 +44,19 @@ Wenn Sie mit Adobe Analytics noch nicht vertraut sind, können Sie mithilfe des 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
-   <td colname="col1"> Richten Sie den Identitätsdienst ein. </td> 
-   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
+   <td colname="col1"> Set up the Identity Service. </td> 
+   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See  Set Up the Identity Service for Analytics .<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"></a> </p> 
     <draft-comment> 
      <p>Fügen Sie am Anfang der Datei <code>VisitorAPI.js</code> den folgenden Besucher-ID-Initialisierungscode hinzu: </p> 
-     <code class="syntax javascript">var visitor = Visitor. getinstance ("INSERT-MCORG-ID-HERE"); 
- visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // wie s. trackingserver 
- visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s. trackingserversecure 
- /* 
- = = = = = = = = = = = = = NICHTS ÄNDERT UNTERHALB DIESER ZEILE! = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = </code>
-  
+     <code class="syntax javascript">
+       var visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE"); 
+      visitor.trackingServer = "INSERT-TRACKING-SERVER-HERE"; // same as s.trackingServer 
+      visitor.trackingServerSecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s.trackingServerSecure 
+      /* 
+       ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! ============
+     </code> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
-      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> - (Erforderlich) Diese Adobe Experience Cloud-Organisations-ID wird an Ihren Administrator gesendet, wenn Ihr Unternehmen für die Adobe Experience Cloud bereitgestellt wird. </li> 
+      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> "INSERT-MCORG-ID-HERE" </code> - (Erforderlich) Diese Adobe Experience Cloud-Organisations-ID wird an Ihren Administrator gesendet, wenn Ihr Unternehmen für die Adobe Experience Cloud bereitgestellt wird. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> (Erforderlich): Ihr Analytics-Trackingserver. </li> 
       <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code> – (Erforderlich, wenn SSL aktiviert ist) Ihr sicherer Analytics-Trackingserver. </li> 
      </ul> 
@@ -85,6 +86,6 @@ Wenn Sie mit Adobe Analytics noch nicht vertraut sind, können Sie mithilfe des 
 
 ## Weitere Info {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-For information about the differences between [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+For information about the differences between Experience Platform Launch, Dynamic Tag Management, and JavaScript methods, see Choose an Implementation Method.[](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B)
 
 Einen kurzen Überblick über die ersten Schritte und die schnelle Einrichtung Ihrer ersten Analytics-Report Suite finden Sie unter [Erste Schritte mit der Analytics-Implementierung](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) im Leitfaden zu den ersten Schritten mit Analytics.
