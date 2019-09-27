@@ -1,23 +1,23 @@
 ---
 description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 seo-description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
-seo-title: Classification-Regelsätze
+seo-title: Klassifizierungsregelsätze
 solution: Analytics
 subtopic: Classifications
-title: Classification-Regelsätze
+title: Klassifizierungsregelsätze
 topic: Admin Tools
-uuid: c 4 d 7 b 77 c-fa 98-44 be -955 f -9 aee 7 f 73480 b
+uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Classification-Regelsätze
+# Klassifizierungsregelsätze
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
-## Classification rule sets {#concept_CD3D510F5070486584F3BB535AE41524}
+## Klassifizierungsregelsätze {#concept_CD3D510F5070486584F3BB535AE41524}
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
@@ -70,7 +70,7 @@ Benennen Sie den Classification-Regelsatz, wenden Sie die Variable an und legen 
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-   (Informationen zum Hinzufügen von Classifications finden Sie unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in der Admin Tools-Hilfe.)
+   (Informationen zum Hinzufügen von Classifications finden Sie unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in der Admin Tools-Hilfe.)
 
    Variablen werden erst im Bereich [!UICONTROL Neuer Regelsatz] angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde.
 
