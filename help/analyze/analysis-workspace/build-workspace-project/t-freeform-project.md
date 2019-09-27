@@ -1,29 +1,29 @@
 ---
 description: Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
-seo-title: Erstellen eines Workspace-Projekts
+seo-title: Workspace-Projekt erstellen
 solution: Analytics
-title: Erstellen eines Workspace-Projekts
+title: Workspace-Projekt erstellen
 topic: Reports and Analytics
-uuid: c 1 def 77 a-a 76 e -4699-9 feb -1 ede 5 b 70 b 7 ba
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Erstellen eines Workspace-Projekts
+# Workspace-Projekt erstellen
 
 Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
 
-In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird. For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird. Spezifische Anwendungsfälle finden Sie unter [Anwendungsfälle für den Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
 
 ## Erstellen Sie ein Projekt
 
 1. Legen Sie die Benutzerberechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **Erstellen/Kuratieren von Projekten in Analysis Workspace** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte].** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **Erstellen/Kuratieren von Projekten in Analysis Workspace** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte].** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
 
    >[!NOTE]
    >
-   >Manchmal wird beim Laden eines Projekts (oder beim Wechseln zu einer Report Suite) eine Meldung "Inkompatible Report Suite" angezeigt, in der nicht alle Komponenten (Metriken/Dimensionen), die im Projekt enthalten sind, in der Report Suite enthalten sind. Sie können eine Liste der nicht kompatiblen Komponenten anzeigen und wissen somit, warum Sie die Meldung erhalten.
+   >Manchmal wird beim Laden eines Projekts (oder beim Wechsel zu einer Report Suite) die Meldung "Inkompatible Report Suite"angezeigt, wenn nicht alle Komponenten (Metriken/Dimensionen) des Projekts in der Report Suite enthalten sind. Sie können eine Liste der nicht kompatiblen Komponenten anzeigen und wissen somit, warum Sie die Meldung erhalten.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,11 +88,11 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
 
    >[!NOTE]
    >
-   >Nach dem Kopieren/Speichern-Speichern sind die Verknüpfungen jetzt relativ zum Projekt, in dem sie leben, und nicht zum Originalprojekt, aus dem sie kopiert wurden.
+   >Nach dem Kopieren/Speichern unter beziehen sich die Intra-Links jetzt auf das Projekt, in dem sie leben, und nicht auf das ursprüngliche Projekt, aus dem sie kopiert wurden.
 
 ## Komponenten und Visualisierungen hinzufügen {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. Erstellen Sie Ihr Projekt durch Ziehen *`components`* und *`visualizations`* zum Projekt.
 
    **Komponenten**
 
@@ -112,11 +112,11 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
   </tr> 
   <tr> 
    <td colname="col1"> Metriken (grün) </td> 
-   <td colname="col2"> <p>Werden auf der Projektebene angewendet. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Vorfälle</span> sind die Standardmetrik für die Datentabelle. </p> </td> 
+   <td colname="col2"> <p>Werden auf der Projektebene angewendet. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Vorfälle</span> ist die Standardmetrik für die Datentabelle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmente (blau) </td> 
-   <td colname="col2"> <p>Können per Drag &amp; Drop nur auf Bereichsebene angewendet werden, Sie können jedoch Inline-Segmente in der Datentabelle erstellen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Können per Drag &amp; Drop nur auf Bereichsebene angewendet werden, Sie können jedoch Inline-Segmente in der Datentabelle erstellen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Weitere Informationen finden Sie unter <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Anwendungsfälle für den Analysis Workspace</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datumsbereiche und Granularitäten (violett) </td> 
