@@ -1,14 +1,14 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Windows Silverlight, NET, IIS, XBOX
 solution: Analytics
 subtopic: Versionshinweise
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Entwickler und Implementierung
-uuid: 15 c 20 bca -4886-4 d 77-9957-fe 99743851 ea
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Diese sdks wurden sunset und werden nicht mehr von Adobe unterstützt oder verteilt.
+>These SDKs have been sunset and are no longer supported or distributed by Adobe.
 
 >[!NOTE]
 >
->Aktivieren Sie die Debug-Protokollierung, um die aktuelle Bibliotheksversion zu finden.
+>To find the current library version, turn on debug logging.
 
 ## Version 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Releasedatum: **August 2014**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Die Unterstützung für die [!DNL Microsoft Silverlight Analytics Framework]Variable wurde entfernt. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
 
 * Es wurden interne Veränderungen zur Unterstützung neuer Funktionen vorgenommen.
 
@@ -43,7 +43,7 @@ Releasedatum: **Februar 2013**
 
 * Es werden nun URLs mit mehr als 255 Byte unterstützt, um die Erweiterung des Felds „Seiten-URL“ in den Adobe-Datenerfassungsservern zu unterstützen. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Damit wird vermieden, dass lange URLs, die im Browser abgeschnitten werden, Vorrang vor anderen Daten haben, während gleichzeitig lange URLs erfasst werden können.
 
-* Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Weitere Informationen finden Sie im Abschnitt [Erkennen Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Weitere Informationen finden Sie im Abschnitt [Erkennen Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Es wurde ein neues `abort`-Flag hinzugefügt, das in `doPlugins` eingestellt werden kann. Wird dieses Flag auf „true“ gesetzt, fährt die [!DNL AppMeasurement]-Bibliothek nicht mit dem Rückverfolgungsaufruf fort. Das abort-Flag wird bei jedem Rückverfolgungsaufruf zurückgesetzt. Wenn also auch ein nachfolgender Rückverfolgungsaufruf abgebrochen werden muss, muss das Flag erneut in `doPlugins` eingestellt werden.
 
    ```js
