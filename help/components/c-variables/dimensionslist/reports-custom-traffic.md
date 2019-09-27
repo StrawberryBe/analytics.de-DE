@@ -1,32 +1,32 @@
 ---
 description: Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere Dimensionen in Berichten darstellen, die nicht standardmäßig implementiert werden. Benutzerspezifischen Traffic-Berichte lassen sich auf verschiedene Weise einsetzen, meist zum Messen von Traffic und Pfaden.
 seo-description: Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere Dimensionen in Berichten darstellen, die nicht standardmäßig implementiert werden. Benutzerspezifischen Traffic-Berichte lassen sich auf verschiedene Weise einsetzen, meist zum Messen von Traffic und Pfaden.
-seo-title: Benutzerspez. Traffic
+seo-title: Benutzerspezifischer Traffic
 solution: Analytics
-title: Benutzerspez. Traffic
-topic: 'Berichte    '
-uuid: 627 e 8 f 34-e 8 f 7-4 f 79-919 b-f 6237 f 85685 d
+title: Benutzerspezifischer Traffic
+topic: Berichte
+uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Benutzerspez. Traffic
+# Benutzerspezifischer Traffic
 
 Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere Dimensionen in Berichten darstellen, die nicht standardmäßig implementiert werden. Benutzerspezifischen Traffic-Berichte lassen sich auf verschiedene Weise einsetzen, meist zum Messen von Traffic und Pfaden.
 
 ## Eigenschaften von benutzerspezifischen Traffic-Berichten {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
-* Benutzerspezifischen Traffic-Berichte beruhen ausschließlich auf [Props](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_propn) (Traffic-Variablen).
-* Die Standardmetrik des Berichts sind Seitenansichten (bzw. Instanzen in Version 15). Die Seitenansichten in Version 14 und die Instanzen in Version 15 sind identisch; beide Werte geben an, wie oft die Variable definiert wurde. Die Seitenansichten in Version 15 zählen lediglich die Anzahl der *`s.t()`* Bildanforderungen (ohne *`s.tl()`* Anforderungen).
+* Benutzerspezifischen Traffic-Berichte beruhen ausschließlich auf [Props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (Traffic-Variablen).
+* Die Standardmetrik des Berichts sind Seitenansichten (bzw. Instanzen in Version 15). Die Seitenansichten in Version 14 und die Instanzen in Version 15 sind identisch; beide Werte geben an, wie oft die Variable definiert wurde. Die Seitenansichten in Version 15 zählen lediglich die Anzahl der Bildanforderungen *`s.t()`* (ohne *`s.tl()`* Anforderungen).
 
 * Die Pfade können aktiviert werden, wenn dies im Vertrag Ihres Unternehmens inbegriffen ist und ein unterstützter Benutzer diese Aktivierung anfordert. Wenn Pfade für eine Traffic-Variable aktiviert sind, stehen die folgenden Metriken zur Verfügung:
 * 
 
-   * Durchschnittliche Klicktiefe
+   * Durchschnittl. Seitentiefe
    * Durchschnittliche Besuchszeit
-   * Einstiege
+   * Einträge
    * Ausstiege
    * Neuladungen
    * Einzelzugriff
