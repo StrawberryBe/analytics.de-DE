@@ -8,7 +8,7 @@ title: Klassifizierungsregeln
 topic: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -64,7 +64,7 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
 
@@ -158,8 +158,8 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Zugehörige Übereinstimmungsgruppen |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuniAusverkauf:20130601 `$1`: em `$2`: JuniAusverkauf `$3`: 20130601 |
-| Aufbauen der Syntax | `^` = beginnt die Zeile () = Gruppen-Zeichen und ermöglicht das Extrahieren übereinstimmender Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) und ( + ) beliebiger \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  : em  : JuneSale  : 20130601`$1``$2``$3` |
+| Aufbauen der Syntax | `^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = erfasst ein ( . ) und ( + ) beliebiger \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
 
@@ -205,12 +205,12 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |--- |--- |--- |--- |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regular Expression  For match string a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Regulärer Ausdruck für Übereinstimmungszeichenfolge a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Regular Expression  For match string a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Regular Expression  For match string a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Regular Expression  For match string a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Regular Expression  For match string a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Reguläre Ausdrücke – Beispiel für „enthält nicht“{#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -329,12 +329,12 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    Die Seite **[!UICONTROL Report Suites auswählen]wird angezeigt.**
 
    >[!NOTE]
-   Report Suites werden auf dieser Seite angezeigt, *`only`* wenn die folgenden Bedingungen erfüllt sind:        &gt;
+   Report suites display on this page  when the following conditions are met:        &gt;*`only`*
 
    * Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
-   (Eine Erläuterung zu dieser Voraussetzung finden Sie *`Variable`* in den [Classification-Regelsätzen](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) .)
+   (See  in Classification Rule Sets for an explanation about this prerequisite.)*`Variable`*[](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524)
 
-   * Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf Regelsatz [hinzufügen klicken, um den Regelsatz zu erstellen](/help/components/c-classifications2/crb/classification-rule-set.md) .
+   * You selected the report suite on the Available Report Suites page, which displays after you click Add Rule Set to create the rule set.****[](/help/components/c-classifications2/crb/classification-rule-set.md)
 
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
@@ -347,11 +347,11 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
    ![Schritt Ergebnis](assets/classification_rules_page.png)
 
-   Beispiele zum Erstellen von Regeln finden Sie unter Classifications Rule Builder[ und ](/help/components/c-classifications2/crb/classification-rule-builder.md)Reguläre Ausdrücke in Classification-Regeln[](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   For examples of building rules, see Classifications Rule Builder and Regular Expressions in Classification Rules.[](/help/components/c-classifications2/crb/classification-rule-builder.md)[](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)
 
    >[!NOTE]
    >
-   >Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte Classification festlegen), wird die letzte Regel verwendet, die mit der Classification übereinstimmt. See **About Rule Priority** above for more information about sorting rules.
+   >If a key matches multiple rules that set the same classification (in the Set Classification column), the last rule that matches the classification is used. See **About Rule Priority** above for more information about sorting rules.
 
 1. [Testen Sie den Regelsatz](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158).
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
@@ -370,7 +370,7 @@ t_classifications_test_rule.xml
 
 In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder einen Classification-Regelsatz testen. Im Rahmen des Tests werden alle Regeln innerhalb eines Satzes übeprüft.
 
-1. [Erstellen Sie einen Classification-Regelsatz](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Create a Classification Rule Set .](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B)
 1. Klicken Sie im [!UICONTROL Classification Rule Builder] auf den Namen des Regelsatzes.
 1. Stellen Sie sicher, dass der Regelsatz einer Report Suite zugeordnet ist.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
@@ -389,7 +389,7 @@ In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder ein
    Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.
 1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
-   Weitere Informationen zum Überschreiben vorhandener Classifications mithilfe von Regeln finden Sie unter .
+   See for more information about using rules to overwrite existing classifications.
 
 ## Validate and Activate Classification Rules {#task_2B4FA41F1EE64F4AAC6170C5EFC066AC}
 
@@ -401,7 +401,7 @@ t_validate_rules.xml
 
 In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren und aktivieren.
 
-1. [Erstellen Sie einen Classification-Regelsatz](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) und [fügen Sie dem Satz dann Classification-Regeln](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) hinzu.
+1. [Create a Classification Rule Set , then add classification rules to the set.](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B)[](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B)
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
