@@ -4,10 +4,10 @@ seo-description: Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die un
 seo-title: Trackingcodes
 solution: Analytics
 title: Trackingcodes
-topic: 'Berichte    '
-uuid: c 893 d 592-10 fd -4 b 40-84 b 3-8 c 8949 a 67 b 25
+topic: Berichte
+uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,11 +48,11 @@ Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen K
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* Dieser Bericht kann auch nach allen [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var) aufgeschlüsselt werden.
+* Dieser Bericht kann auch nach allen [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html) aufgeschlüsselt werden.
 * Verfügbare Metriken: Seitenansichten, Besuche und Unique Visitor.
 * Dieser Bericht kann Segmente verwenden.
 
-** Eigenschaften von Ad-hoc-Analysen**
+** Ad-hoc-Analysen-Eigenschaften**
 
 * Zusätzlich zu den meisten vordefinierten Konversionsvariablen können Sie den Bericht zum Trackingcode nach allen anderen Berichten der Berichterstellungsoberfläche aufschlüsseln.
 * Zusätzlich zu E-Commerce- und benutzerspezifischen Ereignissen können Sie alle Konversions- und Traffic-Metriken sowie unterschiedliche Zuordnungen für die Konversionsmetriken nutzen.
