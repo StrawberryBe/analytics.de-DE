@@ -3,9 +3,9 @@ description: Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling
 seo-description: Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling von Daten.
 seo-title: Administration
 title: Administration
-uuid: 12 f 90223-139 f -4 a 8 d-bfd 3-5 cd 9 af 7489 d 2
+uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
 
 Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling von Daten.
 
-[!DNL Admin Console] Hilfe finden Sie in der [Analytics-Referenz](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
 
 ## Anwenderlizenzen {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
+1. Melden Sie sich bei der [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**, then click **[!UICONTROL Manage Users]**.
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** und dann auf Benutzer **[!UICONTROL verwalten]**.
 1. Suchen Sie den Benutzer und klicken Sie auf **[!UICONTROL Beenden.]**
 
    Auf der Seite [!UICONTROL Aktive Ad Hoc Analysis-Sitzungen] wird der Benutzer, der am längsten untätig war, ganz oben auf der Liste angezeigt.
@@ -119,7 +119,7 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis nutzen HTTP zur Serverkommunikation. Es gelten dieselben Proxy-Richtlinien wie für anderen HTTP-Datenverkehr.
 
-1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
+1. Starten Sie im [!DNL Windows Control Panel]Fenster die [!UICONTROL Java-Systemsteuerung].
 1. Klicken Sie in der Registerkarte **Allgemein** auf **[!UICONTROL Netzwerkeinstellungen]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
@@ -152,8 +152,8 @@ Wenn Sie als weiteres Beispiel 10 Mio. Treffer pro Tag verzeichnen und einen Dat
 
 Um die Anzahl der Treffer in den 365 Tagen demnach unter 750.000.000 zu halten, könnte eine Stichprobe der Daten im Verhältnis 4,8 zu 1 erfolgen, aber da Discover nur Stichproben aus Ganzzahlen zieht, beträgt die Stichprobenrate 5 zu 1.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Benutzer](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [Gruppen](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [Benutzer](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [Gruppen](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
 
