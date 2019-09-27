@@ -5,9 +5,9 @@ seo-title: Zeitstempel optional
 solution: Analytics
 title: Zeitstempel optional
 topic: Admin Tools
-uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ Unter [Verwendung von „Zeitstempel optional“](/help/implement/js-implementat
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
 
 >[!NOTE]
 >
->Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung für 92 Tage während eines zusätzlichen Treffers, der nicht 30 Minuten nach dem vorherigen Treffer (in Trefferzeit) liegt - geöffnet ist - und kann trotzdem in denselben Besuch/dieselbe Sitzung aufgenommen werden. Alle "alten" Treffer, die außerhalb der Bestellung eingehen, liefern" unbekannte" Ergebnisse, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) Einfluss darauf, ob diese Treffer in den Berichten enthalten sind oder nicht.
+>Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang "geöffnet"bleibt, während ein zusätzlicher Treffer - also nicht 30 Minuten nach dem vorherigen Treffer (in Trefferzeit) - weiterhin im selben Besuch/derselben Sitzung eingeschlossen werden kann. Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) Einfluss darauf, ob diese Treffer in die Berichterstellung einbezogen werden.
 
 ## Neue Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 
