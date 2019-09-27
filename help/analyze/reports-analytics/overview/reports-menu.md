@@ -1,16 +1,16 @@
 ---
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 seo-description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
-seo-title: Menü „Berichte“
-title: Menü „Berichte“
-uuid: 562 cb 6 bf -9396-42 a 3-adf 4-9651 af 8341 cb
+seo-title: Menü Berichte
+title: Menü Berichte
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Menü „Berichte“{#reports-menu}
+# Menü Berichte{#reports-menu}
 
 Eine Übersicht zum Menü „Berichte“ in Reports &amp; Analytics.
 
@@ -27,9 +27,9 @@ Das Menü „Berichte“ bietet:
 
 Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten möglich. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Betätigen Sie die Escape-Taste, um das Menü zu schließen, ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
-![](assets/reports-landing.png){width = "672 px"}
+![](assets/reports-landing.png){width="672px"}
 
-Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions).
+Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 >[!NOTE]
 >
->Sie können die Berichtsliste auch nach prop, evar und Ereignisnummer durchsuchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
+>You can also search the report list by prop, eVar, and event number. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
 
 ## Navigationsübersicht {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud-Lösungsmenü<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Durch Klicken auf dieses Symbol wird das Experience Cloud-Menü erweitert, damit Sie auf andere Marketing Cloud-Lösungen zugreifen können. </td> 
+   <td colname="col2"> Durch Klicken auf dieses Symbol wird das Menü "Experience Cloud"erweitert, damit Sie auf andere Marketing Cloud-Lösungen zugreifen können. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Menü „Berichte“ ein-/ausblenden <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -99,14 +99,14 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Lesezeichen...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">Lets you  bookmark the report.<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"></a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
    <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Mehr...</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Mehr...</span> </td> 
    <td colname="col2"> Damit können Sie alle oder mehrere der folgenden Aktionen durchführen: Drucken, Daten extrahieren, einen Warnhinweis hinzufügen, einen benutzerdefinierten Bericht erstellen, ein Diagramm kopieren, einen Link zu diesem Bericht erstellen und ein neues Fenster öffnen. </td> 
   </tr> 
   <tr> 
@@ -122,4 +122,4 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 ## Anpassen des Menüs „Alle Berichte“{#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus) in der Admin-Hilfe.
+Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) in der Admin-Hilfe.
