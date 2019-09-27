@@ -8,7 +8,7 @@ title: Übersicht über die Kuratierung/Freigabe
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,13 +21,13 @@ Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Proje
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Arbeitsbereich]** &gt; **[!UICONTROL Freigeben]**&gt; **[!UICONTROL Kuratieren von Projektdaten]**
+**[!UICONTROL Workspace &gt; Share&gt; Curate Project Data]**********
 
-## Projektdaten kuratieren
+## Curate project data
 
 1. Legen Sie die Berechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
 1. [Erstellen und speichern](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) Sie ein Projekt und klicken Sie dann auf **[!UICONTROL Freigeben]** &gt; Projektdaten **[!UICONTROL kuratieren]**.
 1. Ziehen Sie Komponenten, die Sie freigeben möchten, vom verschiebbaren Komponentenstapel auf der linken Seite zum Feld **[!UICONTROL Kuratierte Komponenten].**
@@ -61,7 +61,7 @@ Durch Freigabe können Sie dieses Projekt anderen Benutzern des Analysis Workspa
 
    >[!IMPORTANT]
    >
-   >Diese Einstellung ist nicht persistent - sie ist eine einzelne Aktion zum Zeitpunkt der Freigabe.
+   >This setting does not persist - it is a singular action at the time of sharing.
 
 1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 
