@@ -1,23 +1,23 @@
 ---
 description: Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
 seo-description: Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
-seo-title: Unter-Classifications und der Regel-Builder - Verwendungsfall
+seo-title: Unterklassifizierungen und der Rule Builder – Anwendungsfall
 solution: Analytics
 subtopic: Classifications
-title: Unter-Classifications und der Regel-Builder - Verwendungsfall
+title: Unterklassifizierungen und der Rule Builder – Anwendungsfall
 topic: Admin Tools
-uuid: 6 db 6 a 4 a 9-b 93 c -413 b -8049-1 e 6 cc 1 ba 4 a 38
+uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Unter-Classifications und der Regel-Builder - Verwendungsfall
+# Unterklassifizierungen und der Rule Builder – Anwendungsfall
 
 Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
 
-## Sub-classifications and the Rule Builder - use case {#concept_6C8672C242544D7487E82886BBFABE6E}
+## Unterklassifizierungen und der Rule Builder – Anwendungsfall {#concept_6C8672C242544D7487E82886BBFABE6E}
 
 Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
 
@@ -49,9 +49,9 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 >[!NOTE]
 >
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+>In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
 
-1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications).
+1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
    Beispiel:
 
@@ -72,17 +72,17 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 1. Laden Sie eine Classification-Datei hoch, die ausschließlich die angegebenen Unter-Classifications enthält.
 
-   [Siehe Mehrstufige Klassifizierungen](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
+   Siehe [Mehrstufige Klassifizierungen](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
 
    Beispiel:
 
-   | Schlüssel | Kanal | Code einer breiten Kampagne | Code und amp einer breiten Kampagne; Hat; Kampagnentyp | Code und amp einer breiten Kampagne; Hat; Kampagnenleiter | ... |
+   | Schlüssel | Kanal | Code einer breiten Kampagne | Code &amp; amp für breite Kampagnen;Hat;Kampagnentyp | Code &amp; amp für breite Kampagnen;Hat;Kampagnenleiter | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Marke | Suzanne |  |
    | * |  | 222 | Marke | Frank |  |
 
 1. Laden Sie eine kleine Datei (siehe oben) hoch, um die Suchtabellen zu pflegen. 
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. Diese Datei würden dann für bereits klassifizierte Werte gelten. Oder wenn Sie eine neue Unter-Classification erstellen (z. B.  *`Creative Theme`* als Unterklassifizierung von *`Creative code`*), laden Sie statt der gesamten Classification-Datei nur die Unterklassifizierungsdatei hoch.
+   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. Diese Datei würden dann für bereits klassifizierte Werte gelten. Oder wenn Sie eine neue Unter-Classification erstellen (z. B.  Als *`Creative Theme`* Unter-Classification von *`Creative code`*) laden Sie nur die Unter-Classification-Datei hoch und nicht die gesamte Classification-Datei.
 
    Bei der Berichterstellung funktionieren die Unter-Classifications genauso wie die übergeordneten Classifications. So haben Sie weniger Verwaltungsaufwand, wenn Sie Unter-Classifications verwenden.
