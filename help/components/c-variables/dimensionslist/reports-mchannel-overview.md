@@ -4,10 +4,10 @@ seo-description: Der Marketingkanal-Übersichtsbericht dient als Überblick zu d
 seo-title: Marketingkanal-Übersicht
 solution: Analytics
 title: Marketingkanal-Übersicht
-topic: 'Berichte    '
-uuid: e 4542014-2098-4 f 4 a-ac 0 d -97587182 d 6 cc
+topic: Berichte
+uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,23 +18,23 @@ Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit 
 
 ## Allgemeine Eigenschaften {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* Dieser Bericht hängt ausschließlich von Marketingkanal-[Verarbeitungsregeln](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_channels_rules) ab. Wenn diese Regeln geändert werden, ändert sich die Berechnung der Daten in diesem Bericht.
+* Dieser Bericht hängt ausschließlich von Marketingkanal-[Verarbeitungsregeln](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html) ab. Wenn diese Regeln geändert werden, ändert sich die Berechnung der Daten in diesem Bericht.
 * Die Reihenfolge der Verarbeitungsregeln ist für die Funktionsweise von Marketingkanälen ausschlaggebend. Bei jedem Hit werden zuerst die Kriterien oben in den Verarbeitungsregeln überprüft, dann die darunter folgenden.
 * Dieser Bericht ist zweigeteilt: in die Kanäle selbst und in deren Kanaldetails. Wenn Sie auf die Schaltfläche „+“ neben dem Kanal klicken, werden dessen Details angezeigt.
 * Jeder Spalte können nur vier Metriken hinzugefügt werden. Die Anzahl der Spalten, die Sie verwenden können, ist jedoch nicht eingeschränkt.
 * Am Ende der letzten Spalte ist eine kleine Trendlinie zu sehen. Diese Trendlinie kann zwischen aktiven Metriken wechseln.
 * Zusätzlich zu den verschiedenen Kanälen, die mit Standardmethoden erfasst werden, können Sie Offlinedatenquellen heranziehen.
-* Sie können [Classifications](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_classifications) zum Umbenennen und Konsolidieren von Zeileneinträgen verwenden.
+* Sie können [Classifications](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html) zum Umbenennen und Konsolidieren von Zeileneinträgen verwenden.
 * In diesem Bericht können die folgenden Metriken verwendet werden (je nach Unternehmens- und Report Suite-Einstellungen):
 
    * **Clickthrough-Raten**: wie oft die Variable *`s.campaign`* definiert wurde.
 
-   * [Neue Interaktionen](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_visitor_engagement): die Anzahl der Besucher, die den neuen Erstkontaktkanal empfangen haben.
+   * [Neue Interaktionen](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html): die Anzahl der Besucher, die den neuen Erstkontaktkanal empfangen haben.
    * Alle E-Commerce-Standardmetriken: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb, Entnahmen aus Warenkorb.
    * Alle benutzerspezifischen Ereignisse: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
    * **Besuche** und **Besucher**: erfordert Handelsbesuche und -besucher, was vom Unternehmen und der Report Suite abhängt. Weitere Details erfahren Sie von Ihrem Kundenbetreuer.
 
-   * **Budget** und **Kosten**: Metriken, die sich speziell auf Marketingkanäle beziehen. Siehe [Kosten und Budgets](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_budget).
+   * **Budget** und **Kosten**: Metriken, die sich speziell auf Marketingkanäle beziehen. Siehe [Kosten und Budgets](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html).
 
 ## Produktspezifische Eigenschaften {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
