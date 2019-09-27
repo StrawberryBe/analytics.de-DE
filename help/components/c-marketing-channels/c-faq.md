@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Marketingkanäle
 title: Häufig gestellte Fragen und Beispiele
 topic: Reports and Analytics
-uuid: 1 c 63 a 1 b 5-a 191-4855-aa 65-fac 19 ab 1037 a
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -28,7 +28,7 @@ Erfahren Sie mehr über Best Practices und Beispiele, wie Sie die verschiedenen 
 * [E-Mail](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [Direkt](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-Siehe [Einrichten von Marketingkanal-Verarbeitungsregeln](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) für Definitionen von Feldern, die auf der [!UICONTROL Seite Verarbeitungsregeln] des Marketingkanals angezeigt werden.
+Siehe [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## Häufig gestellte Fragen {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
@@ -67,7 +67,7 @@ Stellen Sie sicher, dass Sie einen Kanal für diese drei Möglichkeiten haben. E
 
 1. **[!UICONTROL Verweisende Stelle]** und **[!UICONTROL Nicht vorhanden]** und **[!UICONTROL Ist erste Seite des Besuchs]**. (Siehe [Direct](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A).)
 
-2. **[!UICONTROL Referrer stimmt mit internen URL-Filtern]** überein und **[!UICONTROL Ist erste Seite des Besuchs]**. (Siehe [Internal](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947).)
+2. **[!UICONTROL Verweisende Stelle stimmt mit internen URL-Filtern]** überein und **[!UICONTROL Ist erste Seite des Besuchs]**. (Siehe [Internal](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947).)
 
 3. **[!UICONTROL Verweisende Domäne]** und **[!UICONTROL Vorhanden]** und **[!UICONTROL Verweis stimmt nicht mit internen URL-Filtern überein]**.
 
@@ -83,7 +83,7 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 >[!NOTE]
 >
->Es kann noch einige Kanaltraffic geben, die in die Kategorie Keine Kanal identifiziert fallen kann. Beispiel: Ein Besucher öffnet die Site und versieht eine Seite mit einem Lesezeichen. Beim gleichen Besuch kehrt dieser Besucher über das Lesezeichen zur Seite zurück. Da es sich dabei nicht um die erste Seite des Besuchs handelt, wird es weder dem direkten Kanal noch einem anderen Kanal zugeordnet, da keine Referrer-Domäne vorliegt.
+>Es kann immer noch Kanal-Traffic geben, der in die Kategorie Kein Kanal identifiziert fallen kann. Beispiel: Ein Besucher öffnet die Site und versieht eine Seite mit einem Lesezeichen. Beim gleichen Besuch kehrt dieser Besucher über das Lesezeichen zur Seite zurück. Da es sich dabei nicht um die erste Seite des Besuchs handelt, wird es weder dem direkten Kanal noch einem anderen Kanal zugeordnet, da keine Referrer-Domäne vorliegt.
 
 ## Gebührenpflichtige Suche {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalr
 
 ![](assets/example_paid_search.png)
 
-Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) in „Admin“.
+Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in „Admin“.
 
 ## Kostenlose Suche {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ Die kostenlosen Sucheinstellungen für die Marketingkanalregel lauten wie folgt:
 
 ![](assets/example_natural_search.png)
 
-Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) in „Admin“.
+Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) in „Admin“.
 
 ## Affiliates {#section_8D142C7074CD4DEC87DF55B691107622}
 
@@ -121,7 +121,7 @@ Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook* st
 
 ## Anzeigen {#section_4FD846B89FCE4ECFB7781BD02874A1AB}
 
-Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`Ad_01`*.
+Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`Ad_01`* zu trennen.
 
 ![](assets/example_display.png)
 
