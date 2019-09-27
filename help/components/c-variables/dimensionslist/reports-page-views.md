@@ -4,10 +4,10 @@ seo-description: Ein Trendbericht, der anzeigt, wie oft Ihre Web-Seiten im ausge
 seo-title: Seitenansichten
 solution: Analytics
 title: Seitenansichten
-topic: 'Berichte    '
-uuid: c 78260 c 6-9 ad 4-4 b 5-84 fd -763627392 e 44
+topic: Berichte
+uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,8 +20,8 @@ A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#con
 
 **Berichteigenschaften**
 
-* Dieser Bericht zeigt, wie oft die Funktion [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) auf Ihrer Site aufgerufen wurde.
-* [Benutzerspezifische Aufrufe zur Linkverfolgung](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) (z. B. benutzerspezifische Links, Dateidownloads und Exitlinks) verwenden die [!DNL s.tl()] Funktion und werden in diesem Bericht nicht gezählt.
+* Dieser Bericht zeigt, wie oft die Funktion [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) auf Ihrer Site aufgerufen wurde.
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
 
 * Wenn der Benutzer die Seite aktualisiert oder auf die Schaltfläche „Zurück“ klickt, werden Bildanforderungen gesendet. Deshalb beinhaltet der Bericht auch diese Aktionen.
 * Stündliche Aufschlüsselungen basieren auf der Zeitzone der Report Suite.
@@ -33,7 +33,7 @@ A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#con
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
+   <td colname="col1"> <p> Reports and Analytics </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Site-Content“</span> &gt; <span class="uicontrol">„Seitenansichten“</span> </p> <p>Dieser Bericht kann Segmente verwenden. </p> </td> 
   </tr> 
   <tr> 
