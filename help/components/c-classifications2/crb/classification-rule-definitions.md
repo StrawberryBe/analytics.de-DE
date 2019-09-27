@@ -1,19 +1,19 @@
 ---
 description: Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 seo-description: Definitionen der Elemente auf den Seiten im Classification Rule Builder.
-seo-title: Classification-Regeln - Definitionen
+seo-title: Klassifizierungsregeln – Definitionen
 solution: Analytics
 subtopic: Classifications
-title: Classification-Regeln - Definitionen
+title: Klassifizierungsregeln – Definitionen
 topic: Admin Tools
-uuid: 77 af 8669-6 e 11-435 c -9 cc 3-b 03 eb 627 c 855
+uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# Classification-Regeln - Definitionen
+# Klassifizierungsregeln – Definitionen
 
 Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 
@@ -35,7 +35,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen auswählen </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p>For example, to make <span class="term"> Pages</span> available as a variable to the rule set, ensure that the report suite has <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> traffic classifications</a> implemented for <span class="term"> Page</span>. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=traffic_classification_admin" format="https" scope="external">Traffic-Classifications</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications" format="https" scope="external">Konversion-Classifications</a>. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p>Um beispielsweise <span class="term"> Seiten</span> als Variable für den Regelsatz verfügbar zu machen, stellen Sie sicher, dass die Report Suite Traffic-Classifications<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> für die </a> Seite<span class="term"></span> implementiert hat. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">Traffic-Classifications</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">Konversion-Classifications</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aktivieren</span> </p> </td> 
@@ -47,7 +47,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen konfigurieren </p> </td> 
-   <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
+   <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Hinweis: Eine Report Suite steht <span class="term"> nur</span> zur Verfügung, wenn in den Report Suites mindestens eine Classification für die Variable in den <span class="wintitle"> Admin Tools</span>definiert ist. <p>(Eine Erläuterung zu dieser Voraussetzung finden Sie unter <span class="term"> Variable</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Classification Rule Sets</a> .) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regeln überschreiben alle vorhandenen Werte </p> </td> 
