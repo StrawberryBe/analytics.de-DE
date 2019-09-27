@@ -4,10 +4,10 @@ seo-description: Liefert eine umfassende, genaue und detaillierte Analyse der Ku
 seo-title: Konversion
 solution: Analytics
 title: Konversion
-topic: 'Berichte    '
-uuid: 457 d 3033-6562-4 fba -8 c 2 e -0 e 7 a 9 be 44 bfd
+topic: Berichte
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,13 +24,13 @@ Einige Out-of-the-Box-Berichte enthalten sowohl Traffic- als auch Konversionsmet
 
 * [!UICONTROL Benutzerspezifische Konversions]berichte basieren auf eVars (Konversionsvariablen).
 * Konversionsvariablen können über die Seitenansicht hinaus bestehen und innerhalb des angegebenen Ablaufzeitraums Metriken zugeordnet werden.
-* Der Umsatz ist die Standardmetrik des Berichts. Informationen zum Ändern der Standardmetriken finden Sie unter [Auswählen der Standardberichtmetriken](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default).
+* Der Umsatz ist die Standardmetrik des Berichts. Informationen zum Ändern der Standardmetriken finden Sie unter [Auswählen der Standardberichtmetriken](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
 * Sie können diese Berichte als Trend- und als Rangansicht anzeigen.
 * In diesen Berichten können Sie Zeileneinträge mit Classifications umbenennen und zusammenfassen.
 * Wenn grundlegende Subrelationen aktiviert sind, können diese Berichte nach folgenden Faktoren aufgeschlüsselt werden:
 
    * Kampagnen und Produkte mit allen zugehörigen Classifications
-   * Kundenloyalität
+   * Kundentreue
    * Alle eVars mit voller Subrelation
 
 * Wenn volle Subrelationen aktiviert sind, sind weitere Berichte für eine Aufschlüsselung verfügbar:
