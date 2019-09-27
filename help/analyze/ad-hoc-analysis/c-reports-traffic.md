@@ -7,7 +7,7 @@ title: Berichte zu Traffic-Quellen
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ Wenn beispielsweise ein Besucher auf Site A auf einen Link klickt und zu Ihrer S
 
 Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind, gelten als Verweisende Stellen. Beispiel: Webseite A und Webseite B werden zum internen URL-Filter hinzugefügt, aber Webseite C nicht. In diesem Fall gilt Webseite C als Referrer.
 
-Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin)Interne URL-Filter[!DNL Admin Console].
+Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html)Interne URL-Filter[!DNL Admin Console].
 
 >[!NOTE]
 >
