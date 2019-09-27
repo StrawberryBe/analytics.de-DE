@@ -1,23 +1,23 @@
 ---
 description: Zeigt die verfügbaren Messwertbibliotheken an.
-keywords: Analytics-Implementierung; erfassen; data; collection
+keywords: Analytics Implementation;collect;data;collection
 seo-description: Zeigt die verfügbaren Messwertbibliotheken an.
-seo-title: Übersicht über zusätzliche Bibliotheken
+seo-title: Übersicht über weitere Bibliotheken
 solution: Analytics
-title: Übersicht über zusätzliche Bibliotheken
+title: Übersicht über weitere Bibliotheken
 topic: Entwickler und Implementierung
-uuid: 1 ec 291 f 6-073 f -49 d 1-b 6 ab -044 b 1069 db 4 e
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Übersicht über zusätzliche Bibliotheken
+# Übersicht über weitere Bibliotheken
 
 Zeigt die verfügbaren Messwertbibliotheken an.
 
-In der folgenden Tabelle werden die Bibliotheken angezeigt, die für das erfassen von Analytics-Daten über alle unterstützten Plattformen hinweg verfügbar sind. Weitere Informationen finden Sie unter [Datenerfassung in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc).
+In der folgenden Tabelle werden die Bibliotheken angezeigt, die für das erfassen von Analytics-Daten über alle unterstützten Plattformen hinweg verfügbar sind. Weitere Informationen finden Sie unter [Datenerfassung in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
