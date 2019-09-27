@@ -4,10 +4,10 @@ seo-description: Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufig
 seo-title: Sitebereiche
 solution: Analytics
 title: Sitebereiche
-topic: 'Berichte    '
-uuid: 6839 c 566-f 88 f -4979-9 cf 5-52 a 77 c 0 b 0416
+topic: Berichte
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Siteabschnitte können kategorienähnliche Produktgruppen enthalten, die Sie definieren. Sie können beispielsweise eine Seitengruppe „Kameras“ oder „Computer“ usw. einrichten. Daten für den Bericht „Konversionssitebereiche“ werden aus dem Bericht „Sitebereiche“ in der Traffic-Gruppe importiert, welcher seine Daten aus der Kanalvariablen im Trackingcode erhält. Mithilfe dieses Berichts können Sie die stärkste Auswirkung bestimmter Einheiten in unterschiedlichen Sitebereichen auf die Site-Statistik identifizieren.
 
-* Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen „[s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel)“ auf.
+* Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen „[s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html)“ auf.
 * Der Bericht kann sowohl als Trendansicht als auch als Rangansicht angezeigt werden.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
 * Sie können Classifications zum Umbenennen und Konsolidieren von Zeileneinträgen in diesem Bericht verwenden.
 * Korrelationen können in den Admin Tools mit jeder beliebigen Traffic-Variablen erstellt werden.
 * Dieser Bericht kann die folgenden Metriken verwenden:
 
-   * **Seitenansichten**: Gibt an, wie oft die Variable [„pageName“](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) oder URL definiert wurde (als Standardmetrik festgelegt).
+   * **Seitenansichten**: Gibt an, wie oft die Variable [„pageName“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) oder URL definiert wurde (als Standardmetrik festgelegt).
 
    * **Alle Pfadsetzungsmetriken**: Besuche, durchschnittliche Klicktiefe, durchschnittliche Besuchszeit pro Seite, Einstiege, Ausstiege, Neuladungen und Einzelzugriffe.
    * Je nach Report Suite-Einstellungen Ihrer Organisation kann die Erfassung von Unique Visitors pro Tag, Woche, Monat oder Quartal für den Bericht aktiviert werden.
@@ -43,7 +43,7 @@ Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die let
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Reports &amp; Analytics </td> 
+   <td colname="col1"> Reports and Analytics </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Site-Content“</span> &gt; <span class="uicontrol">„Sitebereiche“</span> </p> <p>Abgesehen von Korrelationen kann dieser Bericht die folgenden Aufschlüsselungen verwenden: </p> 
     <ul id="ul_9CD009D89B134C53807332E3C88D3C44"> 
      <li id="li_566417EB074D425C9A1F4FB28AA7FAB4"> 
@@ -67,7 +67,7 @@ Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die let
     </ul> <p>Dieser Bericht kann Segmente verwenden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis </td> 
+   <td colname="col1"> Ad Hoc Analysis  </td> 
    <td colname="col2"> 
     <ul id="ul_DFF9BFC01FC1424B8905C2D2C0EFD156"> 
      <li id="li_65FDF1C165C84F729E0EE84FF671B5E4">Ad Hoc Analysis können den Bericht „Site-Abschnitte“ nach fast allen anderen Berichten der Marketing-Bericht-Oberfläche aufschlüsseln. </li> 
