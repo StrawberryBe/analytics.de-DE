@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Verarbeitungsregeln
 title: Übersicht über Verarbeitungsregeln
 topic: Admin Tools
-uuid: 6 b 4 ee 7 c 9-2 b 66-47 a 6-b 64 c-c 8 d 644 fff 67 d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -35,7 +35,7 @@ Vor dem 20. April 2017 mussten alle Benutzer (einschließlich Administratoren)
 Nun sind Administratoren **standardmäßig** dazu berechtigt, Verarbeitungsregeln zu nutzen. Der Test ist nicht mehr erforderlich. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. So geht’s:
 
 1. Wenn nicht bereits geschehen, [erstellen Sie eine Gruppe](../../../admin/user-management2/c-user-groups/groups.md), die nur die Benutzer ohne Administratorstatus enthält, die zur Verwendung der Verarbeitungsregeln autorisiert sein sollen.
-1. [Fügen Sie der Gruppe die nicht-Administratoren](../../../admin/user-management2/c-user-management/t-add-user-to-group.md)hinzu.
+1. [Fügen Sie die Nicht-Administratoren dieser Gruppe](../../../admin/user-management2/c-user-management/t-add-user-to-group.md)hinzu.
 1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
 1. Aktivieren Sie das Kontrollkästchen neben „[!UICONTROL Verarbeitungsregeln]“ und klicken Sie auf **[!UICONTROL OK]**.
 
@@ -43,7 +43,7 @@ Nun sind Administratoren **standardmäßig** dazu berechtigt, Verarbeitungsregel
 
 >[!IMPORTANT]
 >
->Da Verarbeitungsregeln die Analytics-Daten permanent beeinflussen, empfehlen wir dringend, dass Verarbeitungsregeladministratoren eine Zertifizierungsschulung in Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
+>Da Verarbeitungsregeln dauerhafte Auswirkungen auf Analytics-Daten haben, empfehlen wir dringend, dass Verarbeitungsregeladministratoren eine Zertifizierungsschulung in Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
 
 ## Vereinfachung der Datenerfassung durch Kontextdaten {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -51,7 +51,7 @@ Kontextdatenvariablen sind ein neuartiger Variablentyp, der nur für Verarbeitun
 
 ![](assets/evar-context-map.png)
 
-Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) in der Implementierungshilfe.
+Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in der Implementierungshilfe.
 
 ## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -61,4 +61,4 @@ Mit Verarbeitungsregeln können eingehende Werte überwacht werden. Dabei werden
 
 Sobald in Ihrer Implementierung Kontextdatenvariablen definiert sind, müssen diese in Variablen wie eVars kopiert werden, damit sie in Berichten verwendet werden können.
 
-Weitere Informationen finden Sie [hier](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) und [](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)hier.
+Weitere Informationen finden Sie [hier](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) und [hier](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682).
