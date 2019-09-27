@@ -6,9 +6,9 @@ seo-title: Verwendung von „Zeitstempel optional“
 solution: Analytics
 title: Verwendung von „Zeitstempel optional“
 topic: Entwickler und Implementierung
-uuid: 956 aaa 16-6 ffa -4 b 63-b 022-a 659 f 5143 e 00
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -62,7 +62,7 @@ Sie können Daten auf verschiedene Weise zu einer globalen Report Suite kombinie
 
 >[!IMPORTANT]
 >
->Planen Sie den Entwurf für jeden Komponentendatensatz sorgfältig, damit die Kombination in einer globalen Report Suite sinnvoll ist.
+>Carefully plan the design for each component data set so the combination makes sense in a global report suite.
 
 ## Best Practices in Verbindung mit Zeitstempeln {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -74,7 +74,7 @@ Nachfolgend finden Sie Best Practices in Verbindung mit Zeitstempeln sowie einig
 
    ![](assets/timestamp_v_non8.png)
 
-* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
+* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
 
 * Hybridanwendungen mit einer App (Offline-Daten mit Zeitstempel), die einen Webbrowser öffnet (Live-Daten ohne Zeitstempel), sollten keine Zeitstempel verwenden. Die Daten der Sitzung würden dadurch nicht korrekt gemeldet werden.
 
