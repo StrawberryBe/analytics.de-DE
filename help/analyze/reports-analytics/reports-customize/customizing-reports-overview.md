@@ -1,18 +1,18 @@
 ---
 description: 'Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw. '
 seo-description: 'Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw. '
-seo-title: Berichte anpassen - Übersicht
+seo-title: Übersicht über das Anpassen von Berichten
 solution: Analytics
-title: Berichte anpassen - Übersicht
+title: Übersicht über das Anpassen von Berichten
 topic: Reports and Analytics
-uuid: 37 d 221 b 7-50 fd -4425-b 2 ba-f 40911 b 72 a 2 f
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Berichte anpassen - Übersicht
+# Übersicht über das Anpassen von Berichten
 
 Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw. 
 
@@ -38,7 +38,7 @@ Benutzerspezifische Berichte können nur durch Administratoren erstellt werden. 
 
 >[!MORE_LIKE_THIS]
 >
->* [Menüanpassung](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Menüanpassung](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## Datum oder Datumsbereich auswählen {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -163,10 +163,10 @@ Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentua
 * Traffic-Quellen
 * Kampagnen
 * Produkte
-* Besucherbindung
+* Besuchertreue
 * Besucherprofil
 * Benutzerspez. Konversion
-* Benutzerspez. Traffic
+* Benutzerspezifischer Traffic
 * Target
 * Survey
 
