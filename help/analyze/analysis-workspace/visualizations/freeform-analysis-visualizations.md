@@ -2,22 +2,22 @@
 description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 keywords: Analysis Workspace
 seo-description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
-seo-title: Visualisierungen
+seo-title: Visualisierungsübersicht
 solution: Analytics
-title: Visualisierungen
+title: Visualisierungsübersicht
 topic: Reports and Analytics
-uuid: 318 dea 64-6277-4 ec 3-ad 48-4 dfcb 7 a 45555
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# Visualisierungen
+# Visualisierungsübersicht
 
 Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 
-[Visualisierungstypen im Analysis Workspace auf youtube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Visualisierungstypen im Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -67,11 +67,11 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalisierung </p> </td> 
-   <td colname="col2"> <p>Erzwingt Metriken für gleiche Anteile. See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>Erzwingt Metriken für gleiche Anteile. Siehe <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalisierung</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zwei Achsen anzeigen </p> </td> 
-   <td colname="col2"> <p>Gilt nur, wenn Sie über zwei Metriken verfügen: eine Y-Achse auf der linken Seite (für eine Metrik) und auf der rechten Seite (für die andere Metrik). </p> </td> 
+   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anomalien anzeigen </p> </td> 
