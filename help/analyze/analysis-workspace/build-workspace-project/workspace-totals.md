@@ -4,7 +4,7 @@ seo-description: Erfahren Sie, wie die Gesamtsummen des Arbeitsbereichs berechne
 seo-title: Berechnung der Gesamtsummen des Arbeitsbereichs.
 title: Arbeitsflächensummen
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
 
 ---
 
@@ -33,16 +33,13 @@ Unter " **[!UICONTROL Spalteneinstellungen]**"finden Sie Optionen zum **[!UICONT
 
 ![](assets/static-rows.png)
 
-## Exportierte Summen
-
-Wenn Daten entweder kopiert und aus einer Freiformtabelle eingefügt oder über CSV heruntergeladen werden, bezieht sich die gesamte Zeile nur auf die [!UICONTROL Tabellensumme] .
-
 ## Häufig gestellte Fragen
 
 | Fragen | Antwort |
 |---|---|
 | Auf welcher Summe basieren die grauen Spaltenprozentsätze? | Dies hängt von der **[!UICONTROL Einstellung Prozentwerte]** unter **[!UICONTROL Zeileneinstellungen]** ab:<ul><li>Prozentsätze nach Spalte berechnen - Dies ist die Standardeinstellung. Prozentsätze basieren auf der Tabellensumme.</li><li>Prozentsätze nach Zeile berechnen - Prozentsätze werden auf Basis der Gesamtsumme berechnet.</li></ul> |
 | Wie wirkt sich die Einstellung "Nicht angegeben **[!UICONTROL einschließen"(Keine)]** auf die Gesamtwerte aus? | Wenn die Einstellung "Nicht **[!UICONTROL angegeben (Keine)]** einschließen"deaktiviert ist, wird die Zeile "Keine/Nicht angegeben"aus der Tabelle, der Tabellensumme entfernt und wird zu allen berechneten Metriken übernommen, die Metriktypen ["Gesamt"verwenden](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html) |
-| Wenn benutzerdefinierte Tabellenfilter auf eine Freiform-Tabelle angewendet werden, werden alle berechneten Metriken und die bedingte Formatierung für den Filter berücksichtigt? | Nicht aktuell. **[!UICONTROL "Nicht angegeben einschließen"(Keine)]** wird berücksichtigt, benutzerdefinierte Tabellenfilter haben jedoch keine Auswirkungen auf Folgendes:<ul><li>Der maximale/minimale Spaltenbereich, der bei der bedingten Formatierung verwendet wird, wird über alle Daten hinweg angezeigt.</li><li>Berechnete Metriken, die Metriktypen **[!UICONTROL insgesamt]** nutzen.</li><li>Berechnete Metriken mit Funktionen, die über Zeilen in einer Freiformtabelle berechnen - d.h. Spaltensumme, Spaltenmax, Spaltenanzahl, Anzahl, Mittelwert, Median, Perzentil, Quartil, Zeilenzahl, Standardabweichung, Varianz, Kumulativer, Kumulativer Durchschnitt, Regressionsvarianten, T-Score, T-Test, Z-Score, Z-Test.</li></ul> |
-| Was spiegelt der Metriktyp **[!UICONTROL Gesamtsumme]** in berechneten Metriken wider? | **[!UICONTROL Die Gesamtsumme]** bezieht sich weiterhin auf die **[!UICONTROL Gesamtsumme]** und spiegelt keine Filter wider, die auf eine Tabelle oder die **[!UICONTROL Tabellensumme]** angewendet wurden. |
+| Wenn benutzerdefinierte Tabellenfilter auf eine Freiform-Tabelle angewendet werden, werden alle berechneten Metriken und die bedingte Formatierung für den Filter berücksichtigt? | Not currently. **[!UICONTROL Include Unspecified (None) will be accounted for, but custom table filters will not impact the following:]**<ul><li>The column max/min range that conditional formatting uses will look across all data.</li><li>Calculated metrics that leverage Grand Total metric types.****</li><li>Calculated metrics with functions that calculate across rows in a freeform table - i.e. Column Sum, Column max, Column min, Count, Mean, Median, Percentile, Quartile, Row Count, Standard Deviation, Variance, Cumulative, Cumulative Average, Regression variants, T-Score, T-Test, Z-Score, Z-Test.</li></ul> |
+| In Calculated Metrics, what does the Grand Total metric type reflect?**** | **[!UICONTROL Grand Total]** continues to refer to the **[!UICONTROL Grand Total]**, and does not reflect filters applied to a table or the **[!UICONTROL Table Total]**. |
+| What total is shown when data is either copied and pasted from a freeform table or downloaded via CSV? | The total row will reflect the **[!UICONTROL Table Total]** only and respects the column **[!UICONTROL Show Totals]** setting. |
 
