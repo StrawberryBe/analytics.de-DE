@@ -1,21 +1,18 @@
 ---
-description: 'Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu. '
-seo-description: 'Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu. '
+description: 'Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu '
+seo-description: 'Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu '
 seo-title: Analytics-Plug-In-Code
 title: Analytics-Plug-In-Code
-uuid: 534874 bd -49 d 9-4 b 15-8019-b 503 dfcf 3182
-index: y
-internal: n
-snippet: y
+uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Analytics-Plug-In-Code{#analytics-plug-in-code}
 
-Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu:
+Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu:
 
 `/*`
 
@@ -29,5 +26,4 @@ Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopier
 
 >[!NOTE]
 >
->Das oben stehende Plug-plugin geht davon aus, dass bestimmte Custom Commerce-Variablen (evars) verfügbar sind. Wenn die im oben genannten Plug-plugin angegebenen Variablen nicht in Ihrer Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren.
-
+>Das oben stehende Plugin setzt voraus, dass bestimmte Custom Commerce-Variablen (eVars) verfügbar sind. Wenn die im obigen Plugin angegebenen Variablen nicht in Ihrer Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
