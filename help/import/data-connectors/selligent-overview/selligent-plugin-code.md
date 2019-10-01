@@ -1,24 +1,21 @@
 ---
-description: Reservieren Sie die erforderlichen evars im Admin-Tool von Adobe Analytics, bevor Sie mit dem Code unten arbeiten.
-seo-description: Reservieren Sie die erforderlichen evars im Admin-Tool von Adobe Analytics, bevor Sie mit dem Code unten arbeiten.
-seo-title: Abfragezeichenfolge Param Plug-In Code
+description: Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
+seo-description: Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
+seo-title: Abfragezeichenfolgen-Param-Plug-In-Code
 solution: Analytics
-title: Abfragezeichenfolge Param Plug-In Code
-uuid: a 71 e 7774-bc 7 a -414 e-a 116-739770 b 900 bf
-index: y
-internal: n
-snippet: y
+title: Abfragezeichenfolgen-Param-Plug-In-Code
+uuid: a71e774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Abfragezeichenfolge Param Plug-In Code{#query-string-param-plug-in-code}
+# Abfragezeichenfolgen-Param-Plug-In-Code{#query-string-param-plug-in-code}
 
-Reservieren Sie die erforderlichen evars im Admin-Tool von Adobe Analytics, bevor Sie mit dem Code unten arbeiten.
+Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
 
-Sobald Sie die [reservierten evars](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238)kennen, ersetzen Sie evarn durch die relevante evar, z. B. evar 10.
+Sobald Sie die reservierten eVars kennen, ersetzen Sie eVarN durch die entsprechende eVar, z. B. eVar10.
 
 ```
 /* 
