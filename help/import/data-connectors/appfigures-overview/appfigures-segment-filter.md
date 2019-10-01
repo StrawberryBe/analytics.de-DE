@@ -1,27 +1,23 @@
 ---
-description: Eine appfigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen in mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
-seo-description: Eine appfigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen in mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
+description: Eine appFigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen in mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
+seo-description: Eine appFigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen in mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
 seo-title: Segmentieren von App-Daten
 title: Segmentieren von App-Daten
-uuid: 9 c 2 aaf 0 d -088 f -4178-8 ed 1-a 8124087 a 683
-index: y
-internal: n
-snippet: y
+uuid: 9c2af0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Segmentieren von App-Daten{#segmenting-app-data}
 
-Eine appfigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen in mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
+Eine appFigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen in mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
 
-Segmentierungsrichtlinien für appfigures-Daten:
+Segmentierungsrichtlinien für appFigures-Daten:
 
 * Muss nur Seitenansichtsbehälter verwenden.
-* Es dürfen nur [appfigures-Dimensionen](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) in Filterregeln verwendet werden.
-* Kann mehrere Segmentregeln verwenden, solange nur [appfigures-Dimensionen](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) referenziert werden.
-* Kann sowohl die Arbeitsfläche "Einschließen" als auch" Ausschließen" verwenden.
-* Segmente gelten nur für Adobe Analytics v 15.
-
+* Muss nur [AppFigures-Dimensionen](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) in Filterregeln verwenden.
+* Kann mehrere Segmentregeln verwenden, solange nur auf [AppFigures-Dimensionen](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) verwiesen wird.
+* Kann sowohl die Arbeitsfläche "Einschließen"als auch "Ausschließen"verwenden.
+* Segmente gelten nur für Adobe Analytics v15.
