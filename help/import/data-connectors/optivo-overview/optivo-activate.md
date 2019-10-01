@@ -1,44 +1,41 @@
 ---
-description: Verwenden Sie den Adobe Data Connectors-Konfigurationsassistenten, um die Integration einzurichten.
-seo-description: Verwenden Sie den Adobe Data Connectors-Konfigurationsassistenten, um die Integration einzurichten.
+description: Richten Sie die Integration mithilfe des Adobe Data Connectors-Konfigurationsassistenten ein.
+seo-description: Richten Sie die Integration mithilfe des Adobe Data Connectors-Konfigurationsassistenten ein.
 seo-title: Integration aktivieren
 title: Integration aktivieren
-uuid: 3 b 2 acdb 8-9 a 1 f -4 f 17-92 f 2-6 a 3780 a 8 f 626
-index: y
-internal: n
-snippet: y
+uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
 
 # Integration aktivieren{#activate-the-integration}
 
-Verwenden Sie den Adobe Data Connectors-Konfigurationsassistenten, um die Integration einzurichten.
+Richten Sie die Integration mithilfe des Adobe Data Connectors-Konfigurationsassistenten ein.
 
-1. Starten [Sie Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) und klicken **[!UICONTROL Sie auf + Neu]** hinzufügen, um [eine neue Integration hinzuzufügen](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
-1. Wählen Sie in der **[!UICONTROL Liste "Anzeigen"]** die Option **[!UICONTROL " Nach Name]** " aus und ziehen Sie die [!DNL ~Partnerintegration~] in einen leeren Plugin-Slot.
-1. Schließen Sie den Integrationsassistenten mit den Informationen in der folgenden Tabelle ab:
+1. Starten Sie [Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) und klicken Sie auf **[!UICONTROL + Neu]** hinzufügen, um eine neue Integration[](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html)hinzuzufügen.
+1. Wählen Sie in der Liste " **[!UICONTROL Anzeigen]** "die Option "Nach Name **[!UICONTROL "und ziehen Sie die]Partnerintegration**[!DNL ~ ~]in einen leeren Steckplatz.
+1. Füllen Sie den Integrationsassistenten mit den Informationen in der folgenden Tabelle aus:
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite | Die Report Suite, die die Daten aus dieser Integration erhält. |
-| Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in der aktiven Integrationsliste der Report Suite anzeigt. |
-| E-Mail-Adresse | Geben Sie eine E-Mail-Adresse an, um integrationsbezogene Informationen zu erhalten. |
-| Konto-ID | Dies ist die eindeutige Kennung, die Ihr E-Mail-Serviceanbieter Ihrer Organisation zugewiesen hat. Sie wird verwendet, wenn Sie E-Email-Kampagnendaten anfordern (z. B. # Gesendet, # Geöffnet, # Angeklickt usw.) von und senden Sie Besuchersegmente an Ihren E-Mail-Serviceanbieter. |
-| Recipient ID | Diese ID ist eine kodierte oder numerische Darstellung einer E-Email-Adresse vom Optivo® Broadmail-System. Diese "Empfänger-ID" ist mit dem nachgeordneten Besucherverhalten auf der Site verknüpft (Warenkorbabbrüche, Käufe usw.). das in das Optivo® Broadmail-System gezogen wird und für Wiederverkaufszwecke genutzt werden kann. |
-| Nachrichten-ID | (Erforderlich) Speichert die eindeutige Mailingid. Diese Classification-Dimensionen werden vom Data Connectors-Assistenten für die Nachrichten-ID erstellt: a)**Kampagnen**: Kampagnen, die mit der Nachricht verbunden sind. b)**Kanal**: Der Kanal der Übertragung ist ständig "optivo broadmail" . c)**Ländercode**: Dieses Feld enthält den Ländercode des Ursprungssenders. Es handelt sich um eine Konstante "DE" . d) **Bereitstellungswerkzeug**: Übertragungsmethode, immer "E-Mail" . e) **Nachrichtenname**: Der Name des Postings, der in der optivo® Broadmail konfiguriert ist. f) **Startdatum**: Zeitstempel des Starts dieses Postings. |
-| Beitrag nach dem Klicken | (Erforderlich) Dies ist erforderlich, um Informationen zu einer Empfängeraktion an die optivo® Broadmail zu senden, nachdem der Empfänger auf einen Link in einem Versand geklickt hat. |
-| Beitrag auf Produkt | (Erforderlich) Dies ist erforderlich, um Informationen zu einer Empfängeraktion an die optivo® Broadmail zu senden, nachdem der Empfänger auf einen Link in einem Versand geklickt hat. |
-| Beitragsaktionen | (Erforderlich) Dies ist erforderlich, um Informationen zu einer Empfängeraktion an die optivo® Broadmail zu senden, nachdem der Empfänger auf einen Link in einem Versand geklickt hat. |
-| Hartes Abspringen | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, das die aus dem E-Email-System importierten Hartabsprungdaten speichert. Anzahl der E-Mail-Nachrichten, die nicht an Empfänger übermittelt wurden und dauerhaft nicht bereitstehen. |
-| Weiches Abspringen | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, das die aus dem E-Email-System importierten Softbounces-Daten speichert. Anzahl der E-Mail-Nachrichten, die aufgrund eines Problems mit der Auslieferung nicht an Empfänger übermittelt wurden. |
-| Angeklickt | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, das die per E-Email angeklickte Datenimportdatei vom E-Email-System speichert. Mit dem Ereignis "Angeklickt" können Sie erkennen, wie viele Besucher auf die E-Email geklickt haben. |
-| Geöffnet | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, in dem die vom E-Email-System importierten Daten gespeichert werden. Mit dem Ereignis "Geöffnet" können Sie erkennen, wie viele Besucher die E-Email geöffnet haben. |
-| Gesendet | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, das die per E-Email gesendeten Daten speichert, die aus dem E-Email-System importiert wurden. Im Ereignisereignis können Sie die Anzahl der gesendeten E-Email-Nachrichten anzeigen. |
-| Abonnement | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, das die vom E-Email-System importierten Daten zum Abonnieren von Abonnements speichert. Mit dem nicht abonnierten Ereignis können Sie die Anzahl der Besucher anzeigen, die die E-Email-Nachricht geöffnet haben, dann aber auf den Link Abonnieren klicken, um zukünftige E-Email-Nachrichten aus Ihrer Organisation abzuwählen. |
-| Segmente | Aktivieren Sie vorhandene Segmente zusammen mit dieser Integration (optional). |
-| Zugriffsanforderungen | Aktivieren Sie die empfohlenen Zugriffsrechte. |
-| Datenerfassung | Wählen Sie **javascript-Plug-in,** wenn Sie das Plug-in s_ code. js als Collection-Modell für diese Integration verwenden möchten. Wählen Sie **Automatisierte Lösung** , wenn Sie ein automatisiertes Collection-Modell für diese Integration verwenden möchten, und geben Sie dann die eindeutigen ids für diese Integration an. Wenn Sie diese Option auswählen, geben Sie die eindeutigen ids für diese Integration an:<ul><li>Nachrichten-ID Abfragezeichenfolgenparameter: Dieser Wert stellt die Nachrichten-ID dar, die Ihr E-Email-Partner an die URL der Einstiegsseite angehängt hat.</li><li>Empfänger-ID Abfragezeichenfolgenparameter: Dieser Wert stellt die Empfänger-ID an die URL der Einstiegsseite Ihres E-Email-Partners.</li></ul> |
-| Dashboard- und Lesezeichenerstellung | Erstellen Sie automatisch ein Dashboard und Lesezeichen für die Integration. |
+| Report Suite | Die Report Suite, an die die Daten aus dieser Integration gesendet werden. |
+| Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in der Liste Aktive Integration der Report Suite anzeigt. |
+| E-Mail-Adresse | Geben Sie eine E-Mail-Adresse ein, um integrationsbezogene Informationen zu erhalten. |
+| Konto-ID | Dies ist die eindeutige Kennung, die Ihrem Unternehmen von Ihrem E-Mail-Serviceanbieter zugewiesen wurde. Es wird bei der Anforderung von E-Mail-Kampagnendaten (z. Anzahl gesendet, # geöffnet, # angeklickt usw.) von Besuchersegmenten an Ihren E-Mail-Serviceanbieter senden und diese senden. |
+| Recipient ID | Diese ID ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse aus dem optivo® Broadmail-System. Diese "Empfänger-ID"ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft. die in das optivo®-Broadmail-System eingebunden werden und für Remarketing genutzt werden können. |
+| Nachrichten-ID | (Erforderlich) Speichert die eindeutige Mailing-ID. Diese Classification-Dimensionen werden vom Data Connectors-Assistenten für die Nachrichten-ID erstellt: <br>a)**Kampagnen**: Kampagnen, die mit der Nachricht verknüpft sind. <br>b)**Kanal**: Der Übertragungskanal, dies ist ständig "optivo Broadmail". <br>c)**Ländercode**: Dieses Feld enthält den Ländercode des Ursprungssenderlandes. Es ist eine Konstante "DE". <br>d) **Bereitstellungswerkzeug**: Übertragungsmethode, immer "E-Mail".<br> e) **Nachrichtenname**: Der Name des Mailings, wie er in optivo® Broadmail konfiguriert ist. <br>f) **Startdatum**: Zeitstempel des Beginns dieses Postings. |
+| Post-Klickzeit | (Erforderlich) Dies ist erforderlich, um Informationen über eine Empfängeraktion an optivo®-Broadmail zu übermitteln, nachdem der Empfänger auf einen Link in einer Mailing-Anfrage geklickt hat. |
+| Post-Click-Produkt | (Erforderlich) Dies ist erforderlich, um Informationen über eine Empfängeraktion an optivo®-Broadmail zu übermitteln, nachdem der Empfänger auf einen Link in einer Mailing-Anfrage geklickt hat. |
+| Aktion nach Klick | (Erforderlich) Dies ist erforderlich, um Informationen über eine Empfängeraktion an optivo®-Broadmail zu übermitteln, nachdem der Empfänger auf einen Link in einer Mailing-Anfrage geklickt hat. |
+| Hardbottom | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, in dem die vom E-Mail-System importierten Daten auf den Festplatte gespeichert werden. Anzahl der E-Mail-Nachrichten, die nicht an Empfänger gesendet wurden und als dauerhaft nicht verfügbar angesehen werden. |
+| Weicher Absprung | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, das die vom E-Mail-System importierten Soft Bounces-Daten speichert. Anzahl der E-Mail-Nachrichten, die aufgrund eines Bereitstellungsproblems nicht an Empfänger gesendet wurden. |
+| Angeklickt | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, mit dem die per E-Mail gesendeten Daten gespeichert werden. Das angeklickte Ereignis zeigt die Anzahl der Besucher an, die auf die E-Mail-Nachricht geklickt haben. |
+| Geöffnet | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, mit dem die vom E-Mail-System importierten geöffneten Daten gespeichert werden. Das Ereignis "Geöffnet"zeigt die Anzahl der Besucher an, die die E-Mail geöffnet haben. |
+| Gesendet | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, mit dem die vom E-Mail-System importierten E-Mail-gesendeten Daten gespeichert werden. Das Ereignis "Gesendet"zeigt die Anzahl der gesendeten E-Mail-Nachrichten an. |
+| Nicht abonniert | (Erforderlich) Geben Sie das Adobe Analytics-Ereignis an, mit dem die vom E-Mail-System importierten E-Mail-Abmeldedaten gespeichert werden. Mit dem Abmeldung-Ereignis können Sie sehen, wie viele Besucher die E-Mail-Nachricht geöffnet haben, aber dann auf den Link Abmelden geklickt haben, um zukünftige E-Mail-Nachrichten Ihres Unternehmens abzuwählen. |
+| Segmente | Aktivieren Sie vorhandene Segmente, die zusammen mit dieser Integration verwendet werden sollen (optional). |
+|  Zugriffsanforderungen | Aktivieren Sie die empfohlenen Zugriffsberechtigungen. |
+| Datenerfassung | Wählen Sie das **JavaScript-Plug-in** , wenn Sie das Plug-in s_code.js als Erfassungsmodell für diese Integration verwenden möchten. Wählen Sie **Automatisierte Lösung** , wenn Sie ein automatisiertes Erfassungsmodell für diese Integration verwenden möchten, und geben Sie dann die eindeutigen Bezeichner für diese Integration an. Wenn Sie diese Option auswählen, geben Sie die eindeutigen Bezeichner an, die für diese Integration verwendet werden:<ul><li>Abfragezeichenfolgenparameter der Nachrichten-ID: Dieser Wert steht für die Nachrichten-ID, die Ihr E-Mail-Partner an die URL der Einstiegsseite angehängt hat.</li><li>Abfragezeichenfolgenparameter der Empfänger-ID: Dieser Wert stellt die Empfänger-ID dar, die Ihr E-Mail-Partner an die URL der Einstiegsseite anhängt.</li></ul> |
+| Dashboard- und Lesezeichenerstellung | Generieren Sie automatisch ein Dashboard und Lesezeichen für die Integration. |
