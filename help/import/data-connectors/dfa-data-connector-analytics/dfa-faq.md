@@ -1,17 +1,14 @@
 ---
-description: 'null '
+description: 'null'
 keywords: DFA
-seo-description: 'null '
+seo-description: 'null'
 seo-title: Häufig gestellte Fragen
 solution: Analytics
 title: Häufig gestellte Fragen
 topic: Data Connectors
-uuid: 59 d 187 e 9-1 ec 1-4 cf 3-8831-b 981 f 87 c 9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ Beispiel: Es gibt eine Integration in Report Suite A mit der Advertiser-ID Z, 
 
 >[!NOTE]
 >
->Csids werden in Version 2.0 der Integration nicht verwendet, sodass der CSID-Verhandlungsprozess nicht angewendet wird.
+>CSIDs werden nicht in Version 2.0 der Integration verwendet, daher ist der CSID-Verhandlungsprozess nicht anwendbar.
 
 ## Ich verwende Version 2.0 der Integration und ich sehe keine Kostenmetriken für meine DFA-Anzeigen. Woran kann das liegen? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,7 +45,8 @@ Auf diese Frage gibt es viele Antworten.
 
 Vergewissern Sie sich zunächst, dass die Anzeige über eine Landingpage-URL verfügt, die (a) für dieselbe Report Suite mit Adobe-Code getaggt ist, in der die Diskrepanz auftritt, und (b) den Abfragestringparameter *`clickThroughParam`* enthält.
 
-Überprüfen Sie zweitens, ob Sie über eine funktionierende Integration verfügen, indem Sie die Schritte unter [Bestätigung einer erfolgreichen DFA-Integration befolgen](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6). Wird mit dem Adobe-Treffer auf der Landingpage ein DFA-Trackingcode angezeigt, sollte dieser Clickthrough ebenfalls im DFA-Kampagnenbericht enthalten sein. Wird es nicht angezeigt, überprüfen Sie, ob die Report Suites bei der Landingpagevariablen *`s.account`* und der in Reports &amp; Analysen angezeigten Report Suite übereinstimmen. Stimmen diese überein, suchen Sie nach Trackingcodes im Durchsichts-eVar-Bericht, die das Format DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX aufweisen.
+Überprüfen Sie anschließend, ob Sie über eine funktionierende Integration verfügen, indem Sie die Schritte unter [Bestätigung einer erfolgreichen DFA-Integration](../dfa-data-connector-analytics/dfa-integration.md)durchführen. Wird mit dem Adobe-Treffer auf der Landingpage ein DFA-Trackingcode angezeigt, sollte dieser Clickthrough ebenfalls im DFA-Kampagnenbericht enthalten sein. Wird es nicht angezeigt, überprüfen Sie, ob die Report Suites bei der Landingpagevariablen *`s.account`* und der in Reports &amp; Analysen angezeigten Report Suite übereinstimmen. Stimmen diese überein, suchen Sie nach Trackingcodes im Durchsichts-eVar-Bericht, die das Format DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX aufweisen.
 
 Diese geben an, dass die DFA-Rohdaten nicht durch die DFA-VISTA-Regel verarbeitet werden konnten. Sie können dieses Problem lösen, indem Sie über Ihren Kundenbetreuer eine Supportanfrage erstellen.
-Wenn keine der oben genannten Lösungen das Problem erklärt, finden Sie weitere Informationen unter [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) mit anderen Möglichkeiten.
+
+Können Sie das Problem mit keiner der oben aufgeführten Lösungen beheben, finden Sie unter [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) weitere Möglichkeiten.
