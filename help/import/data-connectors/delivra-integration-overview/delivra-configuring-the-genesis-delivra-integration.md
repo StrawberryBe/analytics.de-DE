@@ -1,29 +1,26 @@
 ---
 description: Aufgaben und Informationen, die Sie benötigen, bevor Sie den Data Connectors-Integrationsassistenten ausführen, um die Data Connectors-Integration zu implementieren.
 seo-description: Aufgaben und Informationen, die Sie benötigen, bevor Sie den Data Connectors-Integrationsassistenten ausführen, um die Data Connectors-Integration zu implementieren.
-seo-title: Vorbereitung der Data Connectors-E-Mail-Integration
-title: Vorbereitung der Data Connectors-E-Mail-Integration
-uuid: f 453 e 45 a -4 f 56-4 bb 0-ac 24-9 ebc 78 e 684 f 9
-index: y
-internal: n
-snippet: y
+seo-title: Vorbereiten der Data Connectors-E-Mail-Integration
+title: Vorbereiten der Data Connectors-E-Mail-Integration
+uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Vorbereitung der Data Connectors-E-Mail-Integration{#preparing-for-the-data-connectors-email-integration}
+# Vorbereiten der Data Connectors-E-Mail-Integration{#preparing-for-the-data-connectors-email-integration}
 
 Aufgaben und Informationen, die Sie benötigen, bevor Sie den Data Connectors-Integrationsassistenten ausführen, um die Data Connectors-Integration zu implementieren.
 
-Adobe Analytics® bietet Unternehmen umsetzbare Echtzeit-Informationen zu ihren Online-Strategien und Marketinginitiativen. In Kombination mit Delivra bietet Analytics Remarketing auf Basis von Behavioral Targeting an. Verbessern Sie das Zielmarketing und verstehen Sie die Kampagneneffektivität durch nahtlose Integration der Webanalysedaten von Delivra und Analytics.
+Adobe Analytics® bietet Unternehmen umsetzbare Echtzeitinformationen zu ihren Online-Strategien und Marketinginitiativen. In Kombination mit Delivra bietet Analytics Remarketing auf der Grundlage von verhaltensbasiertem Targeting. Verbessern Sie das Zielmarketing und verstehen Sie die Effektivität von Kampagnen durch die nahtlose Integration von Delivra- und Analytics-Webanalysedaten.
 
-Bevor Sie die Integration für Ihr E-Mail-Konto konfigurieren können, müssen Sie Folgendes haben:
+Bevor Sie die Integration für Ihr E-Mail-Konto konfigurieren können, müssen Sie Folgendes eingerichtet haben:
 
-* Erfahren Sie, welche E-Mail-Adresse Sie verwenden möchten, um Benachrichtigungen über die integrierten Vorgänge zu erhalten.
-* Kennen Sie Ihre Konto-ID (die eindeutige ID, die Ihr Unternehmen von Delivra zugewiesen wurde).
+* Erkennen Sie, welche E-Mail-Adresse Sie verwenden möchten, um Benachrichtigungen über die integrierten Vorgänge zu erhalten.
+* Kennen Sie Ihre Konto-ID (die eindeutige Kennung, die Ihrem Unternehmen von Delivra zugewiesen wurde).
 * Identifizieren oder erstellen Sie die benutzerspezifische Variable, die Sie zur Erfassung der Empfänger-ID/Besucher-ID verwenden werden.
-* Identifizieren oder erstellen Sie die benutzerspezifische Variable, die Sie zur Erfassung der Nachrichten-ID verwenden werden (dies ist oft die Kampagnenvariable).
-* Identifizieren Sie die benutzerspezifischen Ereignisse, die Sie zur Erfassung zusätzlicher E-Mail-Kampagnendaten verwenden werden, und aktivieren Sie sie. Diese Integration verwendet mehrere benutzerspezifische Ereignisse zum Speichern von Daten aus Delivra, einschließlich gesendeter, ausgegebener, geöffneter, angeklickter, abonnierter, Gesamtabsprünge und "Teilen" -Klicks.
+* Identifizieren oder erstellen Sie die benutzerspezifische Variable, die Sie zur Erfassung der Nachrichten-ID verwenden werden (häufig ist dies die Kampagnenvariable).
+* Identifizieren und aktivieren Sie die benutzerspezifischen Ereignisse, die Sie zur Erfassung zusätzlicher E-Mail-Kampagnendaten verwenden werden. Diese Integration verwendet mehrere benutzerspezifische Ereignisse, um Daten aus Delivra zu speichern, einschließlich Gesendet, Ausgeliefert, Öffnen, Klicken, Abbestellen, Abbestellen insgesamt und Teilen.
 
