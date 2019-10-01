@@ -1,23 +1,20 @@
 ---
-description: Die Data Connectors-Integration für Emarsys verwendet Analytics-Variablen, um verschiedene Emarsys-Metriken zu verfolgen.
-seo-description: Die Data Connectors-Integration für Emarsys verwendet Analytics-Variablen, um verschiedene Emarsys-Metriken zu verfolgen.
+description: Die Data Connectors-Integration für emarsys verwendet Analytics-Variablen zur Verfolgung verschiedener emarsys-Metriken.
+seo-description: Die Data Connectors-Integration für emarsys verwendet Analytics-Variablen zur Verfolgung verschiedener emarsys-Metriken.
 seo-title: Die Analytics-Variablen
 title: Die Analytics-Variablen
-uuid: 4 d 5 e 087 c-f 495-4 aab -9 ad 1-9 b 901 d 34 a 254
-index: y
-internal: n
-snippet: y
+uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Analytics-Variablen{#analytics-variables}
 
-Die Data Connectors-Integration für Emarsys verwendet Analytics-Variablen, um verschiedene Emarsys-Metriken zu verfolgen.
+Die Data Connectors-Integration für emarsys verwendet Analytics-Variablen zur Verfolgung verschiedener emarsys-Metriken.
 
-Nachdem Sie das Ereignis und die evars identifiziert haben, die mit der Emarsys-Integration verwendet werden sollen, aktivieren Sie sie in der [Admin-Konsole](https://microsite.omniture.com/t2/help/en_US/reference/index.html?f=conversion_var_admin).
+Nachdem Sie die Ereignisse und eVars identifiziert haben, die mit der eVars-Integration verwendet werden sollen, aktivieren Sie sie in der [Admin-Konsole](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html).
 
 **Erforderliche Variablen**
 
@@ -32,46 +29,46 @@ Nachdem Sie das Ereignis und die evars identifiziert haben, die mit der Emarsys-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Ereignis (numerisch) </td> 
+   <td colname="col1"> event (numerisch) </td> 
    <td colname="col2"> Absprünge insgesamt </td> 
    <td colname="col3"> <p>Automatisch aus Emarsys importiert </p> </td> 
-   <td colname="col4"> <p>Mit dem Ereignis "Absprünge" können Sie die Anzahl der E-Email-Nachrichten anzeigen, die aufgrund eines Problems mit der Auslieferung nicht an Empfänger übermittelt wurden. </p> </td> 
+   <td colname="col4"> <p>Das Ereignis "Absprünge insgesamt"zeigt die Anzahl der E-Mail-Nachrichten an, die aufgrund eines Bereitstellungsproblems nicht an Empfänger gesendet wurden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ereignis (numerisch) </td> 
+   <td colname="col1"> event (numerisch) </td> 
    <td colname="col2"> Angeklickt </td> 
    <td colname="col3"> <p>Automatisch aus Emarsys importiert </p> </td> 
-   <td colname="col4"> <p>Mit dem Ereignis "Angeklickt" können Sie erkennen, wie viele Besucher auf die E-Email geklickt haben. </p> </td> 
+   <td colname="col4"> <p>Das angeklickte Ereignis zeigt die Anzahl der Besucher an, die auf die E-Mail-Nachricht geklickt haben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ereignis (numerisch) </td> 
+   <td colname="col1"> event (numerisch) </td> 
    <td colname="col2"> Geöffnet </td> 
    <td colname="col3"> <p>Automatisch aus Emarsys importiert </p> </td> 
-   <td colname="col4"> <p>Mit dem Ereignis "Geöffnet" können Sie erkennen, wie viele Besucher die E-Email geöffnet haben. </p> </td> 
+   <td colname="col4"> <p>Das Ereignis "Geöffnet"zeigt die Anzahl der Besucher an, die die E-Mail geöffnet haben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ereignis (numerisch) </td> 
+   <td colname="col1"> event (numerisch) </td> 
    <td colname="col2"> Gesendet </td> 
    <td colname="col3"> <p>Automatisch aus Emarsys importiert </p> </td> 
-   <td colname="col4"> <p>Mit dem Ereignis "Sends" können Sie die Anzahl der gesendeten E-Email-Nachrichten anzeigen. </p> </td> 
+   <td colname="col4"> <p>Mit dem Sends-Ereignis können Sie die Anzahl der gesendeten E-Mail-Nachrichten anzeigen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ereignis (numerisch) </td> 
-   <td colname="col2"> Abonnement </td> 
+   <td colname="col1"> event (numerisch) </td> 
+   <td colname="col2"> Nicht abonniert </td> 
    <td colname="col3"> <p>Automatisch aus Emarsys importiert </p> </td> 
-   <td colname="col4"> <p>Mit dem nicht abonnierten Ereignis können Sie die Anzahl der Besucher anzeigen, die die E-Email geöffnet haben, aber auf den Link Abonnieren klicken, um zukünftige E-Email-Nachrichten aus Ihrer Organisation abzuwählen. </p> </td> 
+   <td colname="col4"> <p>Mit dem Abmeldung-Ereignis können Sie sehen, wie viele Besucher die E-Mail geöffnet, aber dann auf den Link Abmelden geklickt haben, um zukünftige E-Mail-Nachrichten aus Ihrem Unternehmen abzumelden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Recipient ID </td> 
-   <td colname="col3"> <p>Wird aus Abfrageparametern in E-Email-Links über die automatisierte Erfassungsmethode oder ein javascript-Plug-in erfasst. </p> </td> 
+   <td colname="col3"> <p>Wird über die automatisierte Erfassungsmethode oder ein JavaScript-Plug-In aus Abfrageparametern in E-Mail-Links erfasst. </p> </td> 
    <td colname="col4"> Recipient ID </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> eVar oder s. campaign </td> 
+   <td colname="col1"> eVar oder s.campaign </td> 
    <td colname="col2"> Nachrichten-ID </td> 
-   <td colname="col3"> <p>Wird aus Abfrageparametern in E-Email-Links über die automatisierte Erfassungsmethode oder ein javascript-Plug-in erfasst. </p> </td> 
-   <td colname="col4"> Dieser Wert wird oft in der Kampagnenvariablen gespeichert. </td> 
+   <td colname="col3"> <p>Wird über die automatisierte Erfassungsmethode oder ein JavaScript-Plug-In aus Abfrageparametern in E-Mail-Links erfasst. </p> </td> 
+   <td colname="col4"> Dieser Wert wird häufig in der Kampagnenvariablen gespeichert. </td> 
   </tr> 
  </tbody> 
 </table>
