@@ -22,18 +22,14 @@ Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die D
 
 >[!NOTE]
 >
->Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch: &gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->```>
->and 
->
->```>
+>Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch:
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 Durch Einsatz von Kontextdaten brauchen Sie keine Codeaktualisierungen mehr durchzuführen, um unterschiedliche Report Suite-Konfigurationen zu unterstützen.
 
