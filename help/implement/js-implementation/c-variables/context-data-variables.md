@@ -9,7 +9,7 @@ title: Kontextdatenvariablen
 topic: Entwickler und Implementierung
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -24,9 +24,9 @@ Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die D
 >
 >Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch:
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>und
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
@@ -64,7 +64,7 @@ Da Verarbeitungsregeln nur bei der Erfassung von Daten angewendet werden, müsse
    <td colname="col2"> <p>Damit Variablennamen in der gesamten Report Suite eindeutig sind, empfiehlt es sich, den Namen des eigenen Unternehmens, Standorts o. Ä. als Präfix für die Variablen zu verwenden. </p> <p>Kontextdatenvariablen können ähnlich wie andere JavaScript-Variablen benannt werden. Beachten Sie, dass der Namespace <code>a.*</code> für Adobe-Produkte in Kontextvariablennamen reserviert ist. So verwendet die AppMeasurement-Bibliothek für iOS zum Beispiel <code>a.InstallEvent</code>, um Installationen von Anwendungen zu messen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 
+   <td colname="col1"> <p>URL-Beschränkungen für Internet Explorer </p> </td> 
    <td colname="col2"> <p>Sie werden möglicherweise auf ältere URL-Beschränkungen für Internet Explorer 6 und 7 stoßen, bei denen URLs bei 2000 Byte gekürzt wurden. Mit dem <span class="keyword">DigitalPulse Debugger</span> können Sie die Größe einer URL-Zeichenfolge bestimmen. </p> <p>Seit den kürzlich erfolgten Aktualisierungen für AppMeasurement (September 2014) wird für Internet Explorer 8 und höher HTTP POST verwendet, wodurch keine Schwierigkeiten mit Verkürzungen mehr auftreten. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ s.tl(true,"o","Link Name");
 
 ## Beispiele {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possible ways to replace implementation of the *`s.pageName`* variable, assuming that processing rules are set up correctly for each:
+Mögliche Möglichkeiten, die Implementierung der *`s.pageName`* Variablen zu ersetzen, vorausgesetzt, die Verarbeitungsregeln sind für jede Variable korrekt eingerichtet:
 
 ```
 s.contextData['page'] = "Home Page" 
