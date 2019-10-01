@@ -7,11 +7,8 @@ solution: Analytics
 title: Analytics-Berichte mit DFA-Daten
 topic: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -57,4 +54,3 @@ Dieser Bericht bietet folgende wichtige Aspekte:
 * Durch Auswählen eines speziellen DFA-Anzeigennamens können Sie ein Optionsmenü für weitere Informationen zu der jeweiligen DFA-Anzeige öffnen.
 * In jeder Spalte ist eine Farbe angegeben, die sich auf die Farbe der entsprechenden Metrik im Diagramm bezieht.
 * Berichte werden nach Umsatzmetrik sortiert, wobei sich die Anzeige mit dem höchsten Umsatz ganz oben befindet. Sie können diese Sortierung ändern, indem Sie auf die Bezeichnung einer anderen Spalte (Metrik) klicken.
-
