@@ -1,17 +1,14 @@
 ---
-description: 'null '
+description: 'null'
 keywords: DFA
-seo-description: 'null '
+seo-description: 'null'
 seo-title: Voraussetzungen
 solution: Analytics
 title: Voraussetzungen
 topic: Data Connectors
-uuid: b 5 f 5 e 30 c-e 269-41 a 4-9236-5 ddc 404 bfd 94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 Führen Sie vor dem Start der Adobe Data Connectors-Integration für DFA folgende Schritte durch:
 
-* Entscheiden Sie, ob Sie die Integration mit Version 1.5 durchführen oder auf Version 2.0 warten möchten. Das hängt davon ab, welche Funktionen in Ihrem DFA-Konto verwendet werden und in welchem Zeitrahmen Sie die Integration durchführen möchten. Weitere Informationen finden Sie unter [Info zu Version 2.0](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664).
+* Entscheiden Sie, ob Sie die Integration mit Version 1.5 durchführen oder auf Version 2.0 warten möchten. Das hängt davon ab, welche Funktionen in Ihrem DFA-Konto verwendet werden und in welchem Zeitrahmen Sie die Integration durchführen möchten.
 * Entscheiden Sie, wie DFA-Advertiser Zuordnungen zu Adobe Analytics-Report Suites durchführen sollen. Wenn Sie beispielsweise über mehrere DFA-Advertiser und mehrere Report Suites verfügen, müssen Sie entscheiden, welche Advertiser welchen Report Suites zugeordnet werden.
 * Verwenden Sie Version H.22 oder neuer des Adobe-Datenerfassungscodes auf allen Seiten, die getrackt werden sollen.
 * Informieren Sie sich über die Advertiser-ID eines DFA-Kontos, das Teil der zu integrierenden Floodlight-Konfiguration ist. Durch die Integration werden alle Advertiser innerhalb der Floodlight-Konfiguration automatisch importiert.
