@@ -1,22 +1,90 @@
 ---
-description: Diese Adobe® Data Connectors™ E-Email-Integration kombiniert Verhaltensinformationen aus Analytics® mit Emarsys E-Email-Marketing, um ein leistungsfähiges Tool zur Neudefinition von Erfolgsmessungs- und Zielzielgruppen mit relevanterer Messaging zu erstellen.
-seo-description: Diese Adobe® Data Connectors™ E-Email-Integration kombiniert Verhaltensinformationen aus Analytics® mit Emarsys E-Email-Marketing, um ein leistungsfähiges Tool zur Neudefinition von Erfolgsmessungs- und Zielzielgruppen mit relevanterer Messaging zu erstellen.
+description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Analytics® mit emarsys E-Mail-Marketing und bietet ein leistungsfähiges Tool zur Neudefinition der Erfolgsmessung und zum Targeting von Zielgruppen mit relevanterem Messaging.
+seo-description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Analytics® mit emarsys E-Mail-Marketing und bietet ein leistungsfähiges Tool zur Neudefinition der Erfolgsmessung und zum Targeting von Zielgruppen mit relevanterem Messaging.
 seo-title: Emarsys Data Connector for Adobe Analytics
 title: Emarsys Data Connector for Adobe Analytics
-uuid: 6 f 2 fbabc-dc 6 c -4975-887 d-ec 22 eba 42 f 9 e
-index: y
-internal: n
-snippet: y
+uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Emarsys Data Connector for Adobe Analytics{#emarsys-data-connector-for-adobe-analytics}
 
-Diese Adobe® Data Connectors™ E-Email-Integration kombiniert Verhaltensinformationen aus Analytics® mit Emarsys E-Email-Marketing, um ein leistungsfähiges Tool zur Neudefinition von Erfolgsmessungs- und Zielzielgruppen mit relevanterer Messaging zu erstellen.
+Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Analytics® mit emarsys E-Mail-Marketing und bietet ein leistungsfähiges Tool zur Neudefinition der Erfolgsmessung und zum Targeting von Zielgruppen mit relevanterem Messaging.
 
-Die Bereitstellung relevanter E-Mail-Nachrichten für diese Marktsegmente kann zu völlig neuen Umsatzgelegenheiten führen, wodurch eine erhöhte Umrechnung und Umsatz in neuen und vorhandenen E-Mail-Kampagnen erzielt werden. Wenn Sie z. B. relevante E-Mail-Nachrichten basierend auf Produkten bereitstellen, die während eines Besuchs angesehen wurden, oder die in einem verlassenen Warenkorb verblieben waren, hat sich erwiesen, dass sich die Auswirkungen auf den Umsatz drastisch beeinflussen, da dies nur Besucher nutzt, die Ihre Site bereits aufruft.
+Die Bereitstellung relevanter E-Mail-Nachrichten für diese Marktsegmente kann zu völlig neuen Umsatzmöglichkeiten führen, wodurch die Konvertierung und der Umsatz neuer und vorhandener E-Mail-Kampagnen gesteigert werden. So hat sich zum Beispiel die Bereitstellung relevanter E-Mail-Nachrichten auf der Grundlage von Produkten, die während eines Besuchs angesehen wurden, oder von Produkten, die in einem Warenkorb zurückgelassen wurden, als dramatisch auf den Umsatz ausgewirkt, mit minimalen Auswirkungen auf die Kosten, da dadurch lediglich Besucher genutzt werden, die Ihre Site bereits erhält.
 
-Diese Steigerung der Marketingeffizienz bietet eine der wichtigsten Vorteile der Integration [!DNL Analytics] mit Emarsys. Darüber hinaus synchronisiert diese Integration automatisch E-Mail-Metriken mit [!DNL Analytics] Daten, die so oft wie stündlich für Berichte mit geschlossenen Schleifen erfasst werden.
+Diese Steigerung der Marketing-Effizienz ist einer der wichtigsten Vorteile der Integration [!DNL Analytics] mit Emarsys. Darüber hinaus werden bei dieser Integration E-Mail-Metriken automatisch so häufig mit [!DNL Analytics] Daten synchronisiert wie bei der Berichterstellung über eine geschlossene Schleife.
+
+## Wesentliche Vorteile{#key-benefits}
+
+Die wichtigsten Vorteile dieser Integration.
+
+* Zusammenfassen von E-Mail-Marketing- und Analysedaten in einer Berichtsschnittstelle
+* Optimieren Sie E-Mail-Kampagnen nach Konversion und Beitrag zum Umsatz und zum Site-Erfolg.
+* Remarketing zu wichtigen Besuchern und Marktsegmenten basierend auf dynamischen Marketingsegmenten
+
+## Dynamische Marketingsegmente{#dynamic-marketing-segments}
+
+Diese Data Connectors-E-Mail-Integration unterstützt dynamische Marketingsegmente, die Sie bei der Förderung Ihres Unternehmens unterstützen.
+
+Diese Integration umfasst die folgenden Marketingsegmente standardmäßig:
+
+* **** Kaufprofile: Erhöhen Sie Wiederholungsbestellungen und den durchschnittlichen Bestellwert durch Kampagnen, die auf die Kaufmuster der Besucher ausgerichtet sind.
+* **** Verhaltensprofil "Produkt/Inhalt": Kontaktieren Sie potenzielle Kunden über Marketingsegmente, die auf Produktansichten und der Erstellung von Inhaltsprofilen basieren.
+* **** Einkaufswagenabbruchprofil: hilft Besuchern, sich durch Feinabstimmungskampagnen zu Kunden zu konvertieren, die speziell für diejenigen entwickelt wurden, die zögern, Einkaufswagen abzuschließen.
+* Kunden können auch benutzerspezifische Remarketing-Segmente erstellen und planen, die den Anforderungen ihrer Benutzer entsprechen.
+
+## Integrationsverfahren und -voraussetzungen{#integration-procedure-and-prerequisites}
+
+Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
+
+Diese Data Connectors-Integration erfordert Folgendes:
+
+### Adobe-Voraussetzungen {#section-bce14015fb7f41b3bc754da0eb7567bc}
+
+* Data Warehouse
+* Adobe- [!DNL Analytics] Konto
+* Verfügbare und konfigurierte [!DNL Analytics] Variablen, einschließlich eVars und benutzerspezifische Ereignisse.
+
+### Voraussetzungen für Partner: {#section-bcb904574ccf42308bcf7a15e45b4d58}
+
+* Ein aktives eMail-Konto
+
+Eine schrittweise Anleitung zur Integration finden Sie unter [Ausführen des Data Connectors-Integrationsassistenten](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a).
+
+## Preise{#pricing}
+
+Diese Data Connectors-Integration beinhaltet Preisaspekte, die Sie kennen müssen.
+
+### Hinweise zu Adobe-Preisen {#section-2d1c79c895a5479bad8fdd97961ba6a3}
+
+Diese Integration kann mit wiederkehrenden und Implementierungsgebühren verbunden sein. Informationen zu den Preisen erhalten Sie von Ihrem Adobe-Kundenbetreuer.
+
+### Überlegungen zum Partnerpreis {#section-c6afad08c34b43e3a7a3637eea3328c3}
+
+Diese Integration kann mit Gebühren verbunden sein. Wenden Sie sich an Ihren Kundenbetreuer, um Preisinformationen zu erhalten.
+
+## Was Sie vor der Aktivierung dieser Integration wissen sollten{#what-you-should-know-before-activating-this-integration}
+
+Bevor Sie diese Integration aktivieren, überprüfen Sie die folgenden Punkte in Bezug auf Ihre Implementierungen von Adobe Analytics und Ihrer E-Mail-Software.
+
+Auf diese Weise wird sichergestellt, dass vor der Aktivierung geeignete Best Practices oder Voraussetzungen vorhanden sind, was zu einer optimalen und erfolgreichen Integration führt. Überprüfen Sie die folgenden Informationen zu dieser Data Connectors-Integration in Bezug auf Emars:
+
+* **** Gültiges emarsys-Konto: Um die Data Connectors-E-Mail-Integration verwenden zu können, muss ein Client über ein gültiges eMail-Konto verfügen.
+* **** Aktueller Kunde von emarsys: Für diese Integration müssen Sie Kunde von Adobe und von emarsys sein. Wenn Sie noch kein Kunde von emarsys sind, verfügen Sie nicht über die zum Abschluss des Integrationsassistenten erforderlichen Informationen. Wenn Sie zurzeit Kunde von emarsys sind, benötigen Sie Ihre emarsys-Konto-ID oder die Ihrem Unternehmen zugewiesene eindeutige ID, um den Integrationsassistenten abzuschließen.
+* Wenden Sie sich nach Abschluss des Data Connectors-Assistenten an Ihren emarsys-Kundenbetreuer, um die Integration in Ihrer eMarketing Suite zu aktivieren.
+
+### Adobe Analytics{#adobe-analytics}
+
+Überprüfen Sie die folgenden Informationen zur Data Connectors-Integration in Bezug auf Adobe Analytics:
+
+* **** Report Suite-spezifisch: Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren.
+* **** Bevollmächtigter: Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden.
+* **** Data Warehouse: Für diese Integration muss Data Warehouse aktiviert sein, damit Remarketing-Segmente generiert werden können. Wenn Sie Data Warehouse nicht aktiviert haben, wenden Sie sich für weitere Informationen an Adobe.
+* **** Empfänger-ID: Die Integration erfordert, dass wir eine "Besucher-ID"in einer Analytics-Variablen (eVar) erfassen und speichern. Die Besucher-ID (häufig als "Empfänger-ID"bezeichnet) ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse aus dem emarsys-System. Diese "Empfänger-ID"ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft. die in das emarsys System eingezogen wird und für Remarketing-Zwecke genutzt werden kann. Während des Setupprozesses müssen Sie eine eVar für diesen Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden.
+* **** Externe Verfolgung: Wenn Sie derzeit nicht die Best Practice zur Aktivierung der externen Verfolgung für jede gesendete E-Mail-Kampagne befolgen, müssen Sie dies tun, um eine erfolgreiche Integration sicherzustellen. Weitere Informationen finden Sie im Abschnitt "emarsys".
+* **** Datenschutz: Sie sollten sich bewusst sein, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung persönlich identifizierbare Informationen über Ihre Site-Besucher verfolgen kann. Dies hat Auswirkungen auf die Privatsphäre, die die Implementierung geeigneter Verfahren durch Ihr Unternehmen erfordern, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
+
