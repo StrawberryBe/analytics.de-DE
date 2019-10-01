@@ -4,11 +4,8 @@ seo-description: Der Data Connectors-Integrationsassistent führt Sie durch den 
 seo-title: Ausführen des Data Connectors-Integrationsassistenten
 title: Ausführen des Data Connectors-Integrationsassistenten
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-I
 1. Überprüfen Sie auf der Seite " **[!UICONTROL emarsys xpress Data Connectors-Integration]** "den Text, aktivieren Sie das Kontrollkästchen, um die mit der Integration verbundenen Gebühren zu akzeptieren, und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    Auf dieser Seite erhalten Sie einen Überblick über die Integration sowie praktische Links für weitere Informationen. Diese Integration beinhaltet sowohl Adobe- als auch emarsys-Gebühren. Wenden Sie sich an die jeweiligen Verkaufsmitarbeiter der beiden Unternehmen und versichern Sie sich, dass Sie die Zusammensetzung der Gebühren verstehen.
-1. Schließen Sie den [Data Connectors-Integrationsassistenten]ab (https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html).
+1. Schließen Sie den Data Connectors-Integrationsassistenten ab.
