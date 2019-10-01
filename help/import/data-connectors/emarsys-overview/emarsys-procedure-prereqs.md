@@ -1,32 +1,29 @@
 ---
-description: Durch den Assistenten "Plug and Play" werden Sie durch intuitive Schritte durch die Punkte der Systemsynchronisierung geführt und die Integration initialisiert.
-seo-description: Durch den Assistenten "Plug and Play" werden Sie durch intuitive Schritte durch die Punkte der Systemsynchronisierung geführt und die Integration initialisiert.
+description: Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
+seo-description: Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
 seo-title: Integrationsverfahren und -voraussetzungen
 title: Integrationsverfahren und -voraussetzungen
-uuid: d 0 cd 9 f 08-b 66 e -470 a-a 5 d 2-08 cbddc 18275
-index: y
-internal: n
-snippet: y
+uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Integrationsverfahren und -voraussetzungen{#integration-procedure-and-prerequisites}
 
-Durch den Assistenten "Plug and Play" werden Sie durch intuitive Schritte durch die Punkte der Systemsynchronisierung geführt und die Integration initialisiert.
+Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
 
 Diese Data Connectors-Integration erfordert Folgendes:
 
 ## Adobe-Voraussetzungen {#section-bce14015fb7f41b3bc754da0eb7567bc}
 
 * Data Warehouse
-* Adobe [!DNL Analytics] -Konto
-* Verfügbare und konfigurierte [!DNL Analytics] Variablen, einschließlich evars und benutzerdefinierter Ereignisse.
+* Adobe- [!DNL Analytics] Konto
+* Verfügbare und konfigurierte [!DNL Analytics] Variablen, einschließlich eVars und benutzerspezifische Ereignisse.
 
-## Partnervoraussetzungen: {#section-bcb904574ccf42308bcf7a15e45b4d58}
+## Voraussetzungen für Partner: {#section-bcb904574ccf42308bcf7a15e45b4d58}
 
-* Ein aktives Emarsys-Konto
+* Ein aktives eMail-Konto
 
-Schrittweise Integrationsanweisungen finden Sie unter [Ausführen des Data Connectors-Integrationsassistenten](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a).
+Eine schrittweise Anleitung zur Integration finden Sie unter [Ausführen des Data Connectors-Integrationsassistenten](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a).
