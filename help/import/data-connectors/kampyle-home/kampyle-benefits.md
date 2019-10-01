@@ -1,22 +1,19 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Wichtige Vorteile und Funktionen
+description: 'null'
+seo-description: 'null'
+seo-title: Hauptvorteile und Funktionen
 solution: Analytics
-title: Wichtige Vorteile und Funktionen
-uuid: 3 e 865 f 89-a 786-44 d 1-877 d -36 cb 58 cb 3 f 74
-index: y
-internal: n
-snippet: y
+title: Hauptvorteile und Funktionen
+uuid: 3e865f89-a786-44d1-877d-36cb58cb3f74
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Wichtige Vorteile und Funktionen{#key-benefits-and-features}
+# Hauptvorteile und Funktionen{#key-benefits-and-features}
 
-* Automatisierte tägliche Synchronisierung von Feedback-Dimensionen und Metriken zwischen Kampyle und Adobe Analytics.
-* Neue Traffic- und Konversionsberichte um Feedback-Zähler, Bewertungen und andere Kommentare.
-* Neue Feedback-Dimensionen, mit denen Segmente zum Drilldown in eine beliebige Adobe Analytics-Berichterstellung erstellt werden können.
+* Automatisierte tägliche Synchronisierung von Feedback-Dimensionen und -Metriken zwischen Kampyle und Adobe Analytics.
+* Neue Traffic- und Konversionsberichte zu Feedback-Zählungen, Bewertungen und anderen Kommentaren.
+* Neue Feedback-Dimensionen, die zum Erstellen von Segmenten für die Integration in beliebige Adobe Analytics-Berichte verwendet werden können.
 
