@@ -1,20 +1,20 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Übersicht über das Zuordnungs-IQ
-title: Übersicht über das Zuordnungs-IQ
-uuid: bb 345642-4 f 45-4 fb 8-82 d 0-803248 dd 52 ea
+description: 'null'
+seo-description: 'null'
+seo-title: Übersicht über Attribution IQ
+title: Übersicht über Attribution IQ
+uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 54f85d1e9a94f137666864158869b6cccf02cc13
 
 ---
 
 
-# Übersicht über das Zuordnungs-IQ
+# Übersicht über Attribution IQ
 
 >[!IMPORTANT]
 >
->Zuordnungs-IQ ist für alle Kunden in Adobe Analytics Ultimate, Prime, Select und Foundation skus verfügbar.
+>Die Zuordnungs-IQ stehen allen Kunden auf den Adobe Analytics-SKUs Ultimate, Prime, Select und Foundation zur Verfügung.
 
 ## Geschäftswert von Attribution IQ {#section_E82B97114E1641A8AE911F57AEB3240A}
 
@@ -68,19 +68,19 @@ Wir wenden ein lineares Modell (teilt allen Kontaktpunkten ein gleiches Guthaben
 
 Bei Verwendung des **Besuchs-Attributions-Lookback-Fensters** wird die Konversion der einzelnen Besuche unabhängig verteilt:
 
-* Die/$ 10 vom ersten Besuch würden gleichmäßig auf Search, Display, Social und E-Mail aufgeteilt, je nach Empfang/$ 2,50.
-* Beim zweiten Besuch erhalten die Suchen und E-Mail jeweils eine Hälfte der/$ 5-Konvertierung, sodass E-Mail und Suche jeweils ein weiteres/$ 2,50 erhalten.
-* Schließlich erhält E-Mail beim endgültigen Besuch alle Gutschriften für die/$ 2-Konvertierung.
+* Die /$10 des ersten Besuchs werden gleichmäßig auf die Bereiche Suche, Anzeige, Social und E-Mail aufgeteilt, jeweils 2,50 €.
+* Beim zweiten Besuch erhielten Search und Email jeweils die Hälfte der Umrechnung /$5, sodass E-Mail und Search jeweils weitere /$2.50 erhalten würden.
+* Beim letzten Besuch erhält E-Mail die Gutschrift für die /$2-Konvertierung.
 
 Im **Besucher-Lookback-Fenster** werden alle Konversionen zusammen berücksichtigt, auch wenn die Berechnung etwas komplexer ist, da mehrere Konversionen vorliegen.
 
-* Die erste/$ 10-Konversion würde gleichmäßig auf Search, Display, Social und E-Mail aufgeteilt.
-* Die zweite/$ 5-Konversion würde dann auf die Kanäle in diesem Besuch sowie auf die vorherigen Kanäle aus dem vorherigen Besuch aufgeteilt: Search = (2/6) */$ 5 =/$ 1,67, Display = (1/6) */$ 5 =/$ 0.83, Social = (1/6) */$ 5 =/$ 0,83, Email = (2/6) */$ 5 =/$ 1,67.
-* Schließlich würde die letzte Konversion auf alle Kanäle des Besuchers aufgeteilt werden: Search = (2/7) */$ 2 =/$ 0,57, Display = (1/7) */$ 2 =/$ 0,29, Social = (1/7) */$ 2 =/$ 0,29, Email = (3/7) */$ 2 =/$ 0,86.
+* Die erste /$10-Konversion wird zu gleichen Teilen in Search, Display, Social und E-Mail aufgeteilt.
+* Die zweite/5-Konvertierung würde dann auf die Kanäle aufgeteilt, die bei diesem Besuch vorhanden sind, sowie auf die vorherigen Kanäle des vorherigen Besuchs: Suche = (2/6) * /$5 = /$1.67, Anzeige = (1/6) * /$5 = /$0.83, Social = (1/6) * /$5 = /$0.83, E-Mail = (2/6) * /$5 = /$1.67.
+* Schließlich wird die letzte Konversion auf alle Kanäle des Besuchers aufgeteilt: Suche = (2/7) * /$2 = /$0.57, Anzeige = (1/7) * /$2 = /$0.29, Social = (1/7) * /$2 = /$0.29, E-Mail = (3/7) * /$2 = /$0.86.
 
 Zusammenfassung der Ergebnisse in Tabellenform:
 
-| Kanal | Umsatz (Linear/Besuch) | Umsatz (Linear/Besucher) |
+| Kanal | Umsatz (linear/Besuch) | Umsatz (linear/Besucher) |
 |---|---|---|
 | Durchsuchen | /$5.00 | /$4.74 |
 | Anzeige | /$2.50 | /$3.62 |
@@ -205,7 +205,7 @@ In diesem Fall wurden A, B und C alle zur gleichen Zeit auf Treffer 1, D allein 
 
 Attribution IQ gibt alle prozentuale Beteiligung für den Treffer zu allen beim Treffer vorhandenen Werten an. In unserem vorherigen Beispiel erhalten A, B und C alle 40 % bzw. 0,4 Konversionen, D 20 % bzw. 0,2 Konversionen, E und F jeweils 40 % der Konversionen bzw. 0,4. Ein Bericht mit U-förmiger Attribution zu den obigen Treffern würde folgendermaßen ausfallen:
 
-| Mehrwertige Variable | Konversionen (U-geformt/Besuch) |
+| Mehrwertige Variable | Umrechnungen (U-förmig/Besuch) |
 |--- |---|
 | A | .4 |
 | B | .4 |
@@ -216,4 +216,12 @@ Attribution IQ gibt alle prozentuale Beteiligung für den Treffer zu allen beim 
 | Gesamt | 1 |
 
 >[!NOTE]
->Aufgrund der Zuordnung von Attributmodellen auf Trefferebene entspricht die Summe jedes Zeilenelements Ihres Berichts möglicherweise nicht dem Gesamtwert, da jeder Wert, der die prozentuale Gutschrift erhält, zu dem Treffer passt, in dem er enthalten war.
+>Aufgrund der Zuordnung von Zuordnungsmodellen auf Trefferebene entspricht die Summe der einzelnen Zeileneinträge in Ihrem Bericht möglicherweise nicht der Summe, die jedem Wert zukommt, der den gesamten prozentualen Anteil des Treffers erhält, in dem er enthalten war.
+
+## Zuordnung mit Segmentierung
+
+Die Zuordnung wird immer vor der Segmentierung ausgeführt und die Segmentierung wird ausgeführt, bevor Berichtsfilter angewendet werden. Diese Prinzipien gelten auch für Virtual Report Suites (VRS), auf die Segmente angewendet werden.
+
+Wenn Sie z. B. eine VRS mit angewendetem Segment "Treffer anzeigen"erstellen, werden andere Marketingkanäle in einer Tabelle zurückgegeben, wenn die Zuordnung aktiviert ist. Dies geschieht, weil die Zuordnung über einen nicht segmentierten Datensatz hinweg erfolgt.
+
+![](assets/vrs-aiq-example.png)
