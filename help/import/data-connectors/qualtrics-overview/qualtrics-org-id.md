@@ -1,27 +1,24 @@
 ---
 description: Die Organisations-ID ist erforderlich, um den Integrationsassistenten abzuschließen. Um diese ID zu finden, müssen Sie folgende Schritte ausführen.
 seo-description: Die Organisations-ID ist erforderlich, um den Integrationsassistenten abzuschließen. Um diese ID zu finden, müssen Sie folgende Schritte ausführen.
-seo-title: Durchsuchen Ihrer Qualtrics-Organisations-ID
+seo-title: Suchen der Organisations-ID von Qualtrics
 solution: Analytics
 subtopic: Qualtrics
-title: Durchsuchen Ihrer Qualtrics-Organisations-ID
+title: Suchen der Organisations-ID von Qualtrics
 topic: Data Connectors
-uuid: ed 27 becd -7364-423 b -8 a 49-35 bf 7217 f 4 b 3
-index: y
-internal: n
-snippet: y
+uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Durchsuchen Ihrer Qualtrics-Organisations-ID{#looking-up-your-qualtrics-organization-id}
+# Suchen der Organisations-ID von Qualtrics{#looking-up-your-qualtrics-organization-id}
 
 Die Organisations-ID ist erforderlich, um den Integrationsassistenten abzuschließen. Um diese ID zu finden, müssen Sie folgende Schritte ausführen.
 
 1. Melden Sie sich bei der Qualtrics Research Suite an.
-1. Klicken **[!UICONTROL Sie im Benutzermenü auf Kontoeinstellungen]** .
+1. Klicken Sie im Benutzermenü auf **[!UICONTROL Kontoeinstellungen]** .
 
    ![](assets/qualtrics-org-id-1.png)
 
@@ -29,7 +26,7 @@ Die Organisations-ID ist erforderlich, um den Integrationsassistenten abzuschlie
 
    ![](assets/qualtrics-org-id-2.png)
 
-1. Suchen und speichern Sie **[!UICONTROL die Organisations-ID]** im Abschnitt **[!UICONTROL "Benutzer]** " .
+1. Suchen und speichern Sie die **[!UICONTROL Organisations-ID]** im Abschnitt **[!UICONTROL Benutzer]** .
 
    ![](assets/qualtrics-org-id-3.png)
 
