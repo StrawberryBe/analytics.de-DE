@@ -6,12 +6,9 @@ seo-title: Integrationsfunktionen
 solution: Analytics
 title: Integrationsfunktionen
 topic: Data Connectors
-uuid: 4 ad 8 e 6 e 8-4449-498 a -8596-37 c 0 ac 1657 cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->Wenn searchcenter &gt; DFA Deduplizierung aktiviert ist und der searchcenter-Abfragezeichenfolgenparameter festgelegt ist, wird der Besuch für die DFA-Verarbeitung nicht berücksichtigt. Der SearchCenter-Abfragestringparameter sollte sich also vom DFA-Clickthrough-Parameter unterscheiden und keine Display-Anzeigen sollten den SearchCenter-Abfragestringparameter bestimmen.
+>Wenn SearchCenter &gt; DFA-Deduplizierung aktiviert ist und der SearchCenter-Abfragezeichenfolgenparameter festgelegt ist, wird der Besuch bei der DFA-Verarbeitung nicht berücksichtigt. Der SearchCenter-Abfragestringparameter sollte sich also vom DFA-Clickthrough-Parameter unterscheiden und keine Display-Anzeigen sollten den SearchCenter-Abfragestringparameter bestimmen.
 
