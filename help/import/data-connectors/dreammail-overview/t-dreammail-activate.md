@@ -1,46 +1,43 @@
 ---
-description: Verwenden Sie den Adobe Data Connectors-Konfigurationsassistenten, um die Integration einzurichten.
-seo-description: Verwenden Sie den Adobe Data Connectors-Konfigurationsassistenten, um die Integration einzurichten.
+description: Richten Sie die Integration mithilfe des Adobe Data Connectors-Konfigurationsassistenten ein.
+seo-description: Richten Sie die Integration mithilfe des Adobe Data Connectors-Konfigurationsassistenten ein.
 seo-title: Integration aktivieren
 title: Integration aktivieren
-uuid: 9084 b 691-291 d -49 f 7-9 fa 4-abda 507 e 060 d
-index: y
-internal: n
-snippet: y
+uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Integration aktivieren{#activate-the-integration}
 
-Verwenden Sie den Adobe Data Connectors-Konfigurationsassistenten, um die Integration einzurichten.
+Richten Sie die Integration mithilfe des Adobe Data Connectors-Konfigurationsassistenten ein.
 
-1. Starten [Sie Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) und klicken **[!UICONTROL Sie auf + Neu]** hinzufügen, um [eine neue Integration hinzuzufügen](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
-1. Wählen Sie in der **[!UICONTROL Liste "Anzeigen"]** die Option **[!UICONTROL " Nach Name]** " aus und ziehen Sie die [!DNL ~Partnerintegration~] in einen leeren Plugin-Slot.
-1. Schließen Sie den Integrationsassistenten mit den Informationen in der folgenden Tabelle ab:
+1. Starten Sie [Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) und klicken Sie auf **[!UICONTROL + Neu]** hinzufügen, um eine neue Integration[](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html)hinzuzufügen.
+1. Wählen Sie in der Liste " **[!UICONTROL Anzeigen]** "die Option "Nach Name **[!UICONTROL "und ziehen Sie die]Partnerintegration**[!DNL ~ ~]in einen leeren Steckplatz.
+1. Füllen Sie den Integrationsassistenten mit den Informationen in der folgenden Tabelle aus:
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite | Die Report Suite, die die Daten aus dieser Integration erhält. |
-| Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in der aktiven Integrationsliste der Report Suite anzeigt. |
-| Integrations-UUID | Geben Sie die dreammail Integration-UUID an. |
-| Kundenname | Geben Sie Ihren dreammail Client-Namen an. |
-| Site-Name | Geben Sie den dreammail Site-Namen an. |
-| Absprungbacks | Anzahl der E-Mail-Nachrichten, die aufgrund eines Problems mit der Auslieferung nicht an Empfänger übermittelt wurden. |
-| Bereitgestellt | Anzahl erfolgreicher Nachrichten. |
-| Bereitstellungsfehler | Nicht erfolgreiche Nachrichten. |
+| Report Suite | Die Report Suite, an die die Daten aus dieser Integration gesendet werden. |
+| Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in der Liste Aktive Integration der Report Suite anzeigt. |
+| Integrations-UUID | Geben Sie Ihre UUID zur Integration von DreamMail an. |
+| Kundenname | Geben Sie Ihren DreamMail-Client-Namen an. |
+| Site-Name | Geben Sie Ihren DreamMail-Site-Namen an. |
+| Rücksendungen | Anzahl der E-Mail-Nachrichten, die aufgrund eines Bereitstellungsproblems nicht an Empfänger gesendet wurden. |
+| Ausgeliefert | Anzahl erfolgreicher Nachrichtenauslieferungen. |
+| Lieferfehler | Fehlgeschlagene Nachrichten. |
 | HTML wird geöffnet | Anzahl der Besucher, die die E-Mail-Nachricht geöffnet haben. |
-| Ungültig | Anzahl ungültiger E-Mail-Adressen. |
+| Ungültiges | Anzahl der ungültigen E-Mail-Adressen. |
 | Kampagne | Marketing-Kampagnen-ID. |
-| Altigungen übergeben | Mit dem Ereignis "Angeklickt" können Sie erkennen, wie viele Besucher auf die E-Email geklickt haben. |
-| E-Mail eVar | Eine E-Email-Adresse vom dreammail-System. Diese "E-Mail-evar" ist mit dem nachgeordneten Besucherverhalten auf der Site verknüpft (Warenkorbabbrüche, Käufe usw.). das in das dreammail-System gezogen wird und für Wiederverkaufszwecke genutzt werden kann. |
+| Alongs übermitteln | Das angeklickte Ereignis zeigt die Anzahl der Besucher an, die auf die E-Mail-Nachricht geklickt haben. |
+| E-Mail eVar | Eine E-Mail-Adresse aus dem DreamMail-System. Diese "E-Mail-eVar"ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft. , die in das DreamMail-System eingezogen und für Remarketing-Zwecke genutzt werden können. |
 | Spotlight-Ereignis | Ereignis, das in Remarketing-Segmente exportiert werden kann. |
 | Spotlight-Käufe | Ereignis, das in Remarketing-Segmente exportiert werden kann. |
 | Spotlight-Wert | Umsatzereignis, das in Remarketing-Segmente exportiert werden kann. |
-| Totalclicks | Mit dem Ereignis "Angeklickt" können Sie erkennen, wie viele Besucher auf die E-Email geklickt haben. |
-| Segmente | Mit dieser Integration werden die im Abschnitt Partner-Segmente angezeigten Partner-definierten Segmente erstellt. Darüber hinaus können Sie vorhandene Segmente auf Report Suite-Ebene auswählen, die in die Integration einbezogen werden sollen. |
-| Zugriffsanforderungen | Aktivieren Sie die empfohlenen Zugriffsrechte. |
-| Datenerfassung | Wählen Sie **javascript-Plug-in** , wenn Sie das Plug-in s_ code. js als Erfassungsmodell für diese Integration verwenden möchten (siehe). Wählen Sie **Automatisierte Lösung** , wenn Sie ein automatisiertes Collection-Modell für diese Integration verwenden möchten, und geben Sie dann die eindeutigen ids für diese Integration an. Wenn Sie diese Option auswählen, geben Sie die eindeutigen ids für diese Integration an:<ul><li>Nachrichten-ID Abfragezeichenfolgenparameter: Dieser Wert stellt die Nachrichten-ID dar, die durch Ihren E-Email-Partner an die URL der Einstiegsseite angehängt wurde.</li><li>Empfänger-ID Abfragezeichenfolgenparameter: Dieser Wert stellt die Empfänger-ID an die URL der Einstiegsseite Ihres E-Email-Partners.</li></ul> |
-| Dashboard- und Lesezeichenerstellung | Erstellen Sie automatisch ein Dashboard und Lesezeichen für die Integration. |
+| TotalClicks | Das angeklickte Ereignis zeigt die Anzahl der Besucher an, die auf die E-Mail-Nachricht geklickt haben. |
+| Segmente | Diese Integration erstellt die von Partnern definierten Segmente, die im Abschnitt Partnersegmente angezeigt werden. Darüber hinaus können Sie vorhandene Segmente auf Report Suite-Ebene auswählen, die in die Integration einbezogen werden sollen. |
+|  Zugriffsanforderungen | Aktivieren Sie die empfohlenen Zugriffsberechtigungen. |
+| Datenerfassung | Wählen Sie das **JavaScript-Plug-in** , wenn Sie das Plug-in s_code.js als Erfassungsmodell für diese Integration verwenden möchten (siehe ). Wählen Sie **Automatisierte Lösung** , wenn Sie ein automatisiertes Erfassungsmodell für diese Integration verwenden möchten, und geben Sie dann die eindeutigen Bezeichner für diese Integration an. Wenn Sie diese Option auswählen, geben Sie die eindeutigen Bezeichner an, die für diese Integration verwendet werden:<ul><li>Abfragezeichenfolgenparameter der Nachrichten-ID: Dieser Wert steht für die Nachrichten-ID, die Ihr E-Mail-Partner an die URL der Einstiegsseite angehängt hat.</li><li>Abfragezeichenfolgenparameter der Empfänger-ID: Dieser Wert stellt die Empfänger-ID dar, die Ihr E-Mail-Partner an die URL der Einstiegsseite anhängt.</li></ul> |
+| Dashboard- und Lesezeichenerstellung | Generieren Sie automatisch ein Dashboard und Lesezeichen für die Integration. |
