@@ -1,21 +1,18 @@
 ---
-description: Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
-seo-description: Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
-seo-title: Adobe Analytics-Plug-In-Code
-title: Adobe Analytics-Plug-In-Code
-uuid: e 99999 be -1800-4 d 63-a 4 cb-df 68 a 1 b 53 d 0 d
-index: y
-internal: n
-snippet: y
+description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
+seo-description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
+seo-title: Adobe Analytics-Plug-in-Code
+title: Adobe Analytics-Plug-in-Code
+uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Adobe Analytics-Plug-In-Code{#adobe-analytics-plug-in-code}
+# Adobe Analytics-Plug-in-Code{#adobe-analytics-plug-in-code}
 
-Wenn Sie die javascript-Plug-In-Datenerfassungsmethode ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
+Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
 
 ```
 /* 
@@ -57,5 +54,5 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 
 >[!NOTE]
 >
->Das oben stehende Plug-plugin geht davon aus, dass bestimmte Custom Commerce-Variablen (evars) verfügbar sind. Wenn die im oben genannten Plug-plugin angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren.
+>Das oben stehende Plugin setzt voraus, dass bestimmte Custom Commerce-Variablen (eVars) verfügbar sind. Wenn die im obigen Plugin angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
 
