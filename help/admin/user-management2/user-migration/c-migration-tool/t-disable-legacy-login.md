@@ -3,12 +3,9 @@ description: Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deak
 seo-description: Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deaktivieren können.
 seo-title: Bisherige Anmeldedaten deaktivieren
 title: Bisherige Anmeldedaten deaktivieren
-uuid: 085874 b 2-10 bf -4 a 56-a 337-f 3104428 d 71 e
-index: y
-internal: n
-snippet: y
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -25,7 +22,7 @@ Nachdem Ihre Benutzer von dem bisherigen Analytics User Management-System zur Ad
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of *`Migrated`* under the Migration Status column. Sie können die bisherigen Anmeldedaten von Benutzern erst deaktivieren, wenn sie migriert wurden.
+   Die Benutzer, die berechtigt sind, haben in der Spalte Migrationsstatus den Status *`Migrated`* . Sie können die bisherigen Anmeldedaten von Benutzern erst deaktivieren, wenn sie migriert wurden.
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    Bisherige Anmeldedaten deaktivieren gibt an, welcher Ihrer Benutzer seinen alten [!DNL my.omniture.com]-Benutzernamen und sein Passwort weiterhin verwenden kann.
