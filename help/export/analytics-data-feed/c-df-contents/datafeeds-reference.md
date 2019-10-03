@@ -1,28 +1,28 @@
 ---
 description: Tabellendaten, die die Spalten im Datenfeed beschreiben.
-keywords: Datenfeed; Spalten
+keywords: Datenfeed;Spalten
 seo-description: Tabellendaten, die die Spalten im Datenfeed beschreiben.
 seo-title: Datenspaltenreferenz
 solution: Analytics
 subtopic: Datenfeeds
 title: Datenspaltenreferenz
 topic: Reports and Analytics
-uuid: 9042 a 274-7124-4323-8 cd 6-5 c 84 ab 3 eef 6 d
+uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
 # Datenspaltenreferenz
 
-Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten enthalten sind. Bei den meisten Implementierungen wird nicht jede Spalte verwendet. Daher kann auf diese Seite verwiesen werden, wenn Sie festlegen, welche Spalten in einen Datenfeed-Export einbezogen werden sollen.
+Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten sind. Bei den meisten Implementierungen wird nicht jede Spalte verwendet. Daher kann auf diese Seite verwiesen werden, wenn bestimmt wird, welche Spalten in einen Datenfeed-Export einbezogen werden sollen.
 
-> [!IMPORTANT] Bei einer beliebigen Spalte (z. B. einer, die als 255 Zeichen definiert ist) kann ein Datenfeed zusätzliche Zeichen senden, da Zeichen, die Werte in einer Zeichenfolge Escapezeichen Escapezeichen verursachen, addiert werden. Beachten Sie dieses Thema, wenn Ihre Implementierung regelmäßig Werte sendet, die Zeichenbeschränkungen überschreiten.
+> [!IMPORTANT] Für jede Spalte (z. B. eine Spalte, die als 255 Zeichen definiert ist) kann ein Datenfeed zusätzliche Zeichen senden, da Zeichen hinzugefügt werden, die Werte in einer Zeichenfolge Escapezeichen enthalten. Beachten Sie dieses Thema, wenn Ihre Implementierung regelmäßig Werte sendet, die die Zeichenbeschränkungen überschreiten.
 
 ## Spalten, Beschreibungen und Datentypen
 
-> [!NOTE] Die meisten Spalten enthalten eine ähnliche Spalte mit einem Präfix. `post_` Post-Spalten enthalten Werte nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten.
+> [!NOTE] Die meisten Spalten enthalten eine ähnliche Spalte mit dem Präfix `post_`. Post-Spalten enthalten Werte nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten.
 
 | Spaltenname | Spaltenbeschreibung | Datentyp |
 | --- | --- | --- |
@@ -30,28 +30,28 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | aemassetid | Eine mehrwertige Variable, die Asset-IDs (GUIDs) einer Reihe von Adobe Experience Manager Assets entspricht Erhöht Impressionsereignisse | text |
 | aemassetsource | Identifiziert die Quelle des Asset-Ereignisses Wird in Adobe Experience Manager verwendet | varchar(255) |
 | aemclickedassetid | Asset-ID eines Adobe Experience Manager-Assets Erhöht Klickereignisse | varchar(255) |
-| Browser | Numerische ID des Browsers Verweist auf die Suchtabelle browser.tsv | int unsigniert |
-| browser_height | Höhe des Browser-Fensters in Pixeln. | smallint unsigniert |
-| browser_width | Breite des Browser-Fensters in Pixeln. | smallint unsigniert |
+| Browser | Numerische ID des Browsers Verweist auf die Suchtabelle browser.tsv | int unsigned |
+| browser_height | Höhe des Browser-Fensters in Pixeln. | smallint unsigned |
+| browser_width | Breite des Browser-Fensters in Pixeln. | smallint unsigned |
 | c_color | Bit-Tiefe der Farbpalette Wird im Rahmen der Berechnung der Dimension „Farbtiefe“ verwendet Verwendet die JavaScript-Funktion screen.colorDepth() | char(20) |
 | Kampagne | Variable, die in der Dimension „Trackingcode“ verwendet wird | varchar(255) |
 | carrier | Variable der Adobe Advertising Cloud-Integration Gibt den Mobilfunknetzbetreiber an Verweist auf die Suchtabelle des Mobilfunknetzbetreibers | varchar(100) |
 | channel | Variable, die in der Dimension „Sitebereiche“ verwendet wird | varchar(100) |
 | click_action | Wird nicht mehr länger verwendet. Adresse des Links, auf dem im veralteten ClickMap-Tool geklickt wurde | varchar(100) |
-| click_action_type | Wird nicht mehr länger verwendet. Link-Typ des veralteten ClickMap-Tools.<br>0: HREF URL<br>1: Benutzerdefinierte ID<br>2: Javascript onclick event<br>3: Formularelement | tinyint unsigniert |
+| click_action_type | Wird nicht mehr länger verwendet. Link-Typ des veralteten ClickMap-Tools.<br>0: HREF-URL<br>1: Benutzerspezifische ID<br>2: JavaScript onClick-Ereignis<br>3: Formularelement | tinyint unsigniert |
 | click_context | Wird nicht mehr länger verwendet. Name der Seite mit dem Link-Klick Teil des veralteten ClickMap-Tools | varchar(255) |
 | click_context_type | Wird nicht mehr länger verwendet. Gibt an, ob es für click_context einen Seitennamen gibt oder standardmäßig die Seiten-URL gilt<br>0: Seiten-URL<br>1: Seitenname | tinyint unsigniert |
-| click_sourceid | Wird nicht mehr länger verwendet. Numerische ID der Linkposition auf der Seite Teil des veralteten ClickMap-Tools | int unsigniert |
+| click_sourceid | Wird nicht mehr länger verwendet. Numerische ID der Linkposition auf der Seite Teil des veralteten ClickMap-Tools | int unsigned |
 | click_tag | Wird nicht mehr länger verwendet. HTML-Elementtyp, auf den geklickt wurde | char(10) |
 | clickmaplink | Activity Map-Link | varchar(255) |
 | clickmaplinkbyregion | Activity Map-Link nach Region | varchar(255) |
 | clickmappage | Activity Map-Seite | varchar(255) |
 | clickmapregion | Activity Map-Region | varchar(255) |
 | code_ver | Bibliotheksversion von AppMeasurement, die für das Kompilieren und Senden der Bildanforderung verwendet wird | char(16) |
-| color | Farbtiefen-ID basierend auf dem Wert der c_color-Spalte Verweist auf die Suchtabelle color_depth.tsv | smallint unsigniert |
+| color | Farbtiefen-ID basierend auf dem Wert der c_color-Spalte Verweist auf die Suchtabelle color_depth.tsv | smallint unsigned |
 | connection_type | Numerische ID, die den Verbindungstyp darstellt Die Variable, die in der Dimension „Verbindungstyp“ verwendet wurde Verweist auf die Suchtabelle connection_type.tsv | tinyint unsigniert |
-| Cookies | Die Variable, die in der Dimension „Cookie-Unterstützung“ verwendet wurde<br>Y: Enabledn<br>: Disabledu<br>: Unbekannt | char(1) |
-| country | Numerische ID, die das Land angibt, aus dem der Treffer stammt Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Ländern zuzuordnen. Verwendet die Suchtabelle country.tsv | smallint unsigniert |
+| Cookies | Die Variable, die in der Dimension „Cookie-Unterstützung“ verwendet wurde<br>Y:<br>EnabledN:<br>DeaktiviertU: unbekannt | char(1) |
+| country | Numerische ID, die das Land angibt, aus dem der Treffer stammt Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Ländern zuzuordnen. Verwendet die Suchtabelle country.tsv | smallint unsigned |
 | ct_connect_type | Bezieht sich auf die Spalte connection_type Die häufigsten Werte sind LAN/WLAN, Mobilfunknetzbetreiber und Modem | char(20) |
 | curr_factor | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet Für USD werden beispielsweise zwei Dezimalstellen verwendet, sodass der Spaltenwert 2 ist. | tinyint |
 | curr_rate | Der Wechselkurs zum Zeitpunkt der Transaktion Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
@@ -67,7 +67,7 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | ef_id | Die ef_id, die in Adobe Advertising Cloud-Integrationen verwendet wird | varchar(255) |
 | evar1-evar250 | Benutzerdefinierte Variablen 1–250 Jede Organisation verwendet eVars anders Der beste Ort für weitere Informationen dazu, wie Ihre Organisation entsprechende eVars füllt, ist ein Dokument zum Lösungsentwurf, das für Ihre Organisation gilt. | varchar(255) |
 | event_list | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen Enthält sowohl die Standardereignisse als auch die benutzerdefinierten Ereignisse 1–1000 Verwendet die Suchtabelle event.tsv | text |
-| exclude_hit | Ein Flag, das angibt, dass der Treffer nicht in die Berichterstellung einfließt Die Spalte visit_ num wird für ausgeschlossene Treffer nicht erhöht.<br>1: Nicht verwendet. Teil einer abgebrochenen Funktion.<br>2: Nicht verwendet. Teil einer abgebrochenen Funktion.<br>3: Nicht mehr verwendet. Benutzeragenten-Ausschluss<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Trefferinformationen fehlen, z. B. page_ url, pagename, page_ event oder event_ list<br>6: Javascript hat Treffer<br>7 nicht korrekt verarbeitet: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer abgebrochenen Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer fehlt einen Zeitstempel für eine Report Suite mit Zeitstempel, oder ein Treffer enthielt einen Zeitstempel für eine Report Suite ohne Zeitstempel<br>12: Nicht verwendet. Teil einer abgebrochenen Funktion.<br>13: Nicht verwendet. Teil einer abgebrochenen Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer<br>von 15 übereinstimmte: Aktuell nicht verwendet.<br>16: Werbecloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
+| exclude_hit | Ein Flag, das angibt, dass der Treffer nicht in die Berichterstellung einfließt Die Spalte visit_num wird bei ausgeschlossenen Treffern nicht inkrementiert.<br>1: Nicht verwendet. Teil einer übersprungenen Funktion.<br>2: Nicht verwendet. Teil einer übersprungenen Funktion.<br>3: No longer used. Benutzeragentenausschluss<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Trefferinformationen fehlen, z. B. page_url, pagename, page_event oder event_list<br>6: JavaScript hat Treffer<br>7 nicht korrekt verarbeitet: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternate account-specific exclusion.<br>9: Nicht verwendet. Part of a scrapped feature.<br>10: Invalid currency code11: Hit missing a timestamp on a timestamp-only report suite, or a hit contained a timestamp on a non-timestamp report suite12: Not used. <br><br> Part of a scrapped feature.<br>13: Nicht verwendet. Part of a scrapped feature.<br>14: Target hit that did not match up with an Analytics hit15: Not currently used.<br><br>16: Advertising Cloud hit that did not match up to an Analytics hit | tinyint unsigniert |
 | first_hit_page_url | Die allererste URL des Besuchers | varchar(255) |
 | first_hit_pagename | Variable, die in der Dimension „Ursprüngliche Entrypage“ verwendet wird Der Name der ursprünglichen Entrypage des Besuchers | varchar(100) |
 | first_hit_ref_domain | Variable, die in der Dimension „Ursprünglich verweisende Domäne“ verwendet wird Basiert auf first_hit_referrer Die allererste verweisende Domäne des Besuchers | varchar(100) |
@@ -76,39 +76,39 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | first_hit_time_gmt | Zeitstempel des allerersten Treffers des Besuchers in Unix-Zeit | int |
 | geo_city | Name der Stadt, aus der der Treffer stammt, basierend auf der IP Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Städten zuzuordnen | char(32) |
 | geo_country | Abkürzung für das Land, aus dem der Treffer stammt, basierend auf der IP Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Ländern zuzuordnen. | char(4) |
-| geo_dma | Numerische ID des demografischen Bereichs, aus dem der Treffer stammt, basierend auf der IP Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu demografischen Bereichen zuzuordnen. | int unsigniert |
+| geo_dma | Numerische ID des demografischen Bereichs, aus dem der Treffer stammt, basierend auf der IP Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu demografischen Bereichen zuzuordnen. | int unsigned |
 | geo_region | Name des Bundeslands oder der Region, aus der der Treffer stammt, basierend auf der IP Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Bundesländern bzw. Regionen zuzuordnen. | char(32) |
 | geo_zip | Die Postleitzahl, von der der Treffer kam, basierend auf IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Postleitzahlen zuzuordnen. | varchar(16) |
 | hier1 – hier5 | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste Das in den Report Suite-Einstellungen gewählte Trennzeichen | varchar(255) |
-| hit_source | Gibt die Quelle an, aus der der Treffer stammt <br>1: Standardbildanforderung ohne Zeitstempel <br>2: Standardbildanforderung mit Zeitstempel <br>3: Live-Datenquellenupload mit Zeitstempel <br>4: Nicht verwendet <br>5: Generische Datenquellenupload <br>6: Datenquelle mit vollständiger Verarbeitung <br>7: Transactionid-Datenquellenupload <br>8: Nicht mehr verwendet; Frühere Versionen von Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; Adobe Social-Zusammenfassungsmetriken | tinyint unsigniert |
-| hit_time_gmt | Der Zeitstempel des Treffers der Adobe-Datenerfassungsserver erhielt den Treffer basierend auf Unix-Zeit. | int |
-| hitid_high | Wird zusammen mit hitid_low zur eindeutigen Identifizierung eines Treffers verwendet | bigint unsigniert |
-| hitid_low | Wird zusammen mit hitid_high zur eindeutigen Identifizierung eines Treffers verwendet | bigint unsigniert |
+| hit_source | Gibt die Quelle an, aus der der Treffer stammt <br>1: Standard image request without timestamp 2: Standard image request with timestamp 3: Live data source upload with timestamps 4: Not used 5: Generic data source upload 6: Full processing data source upload 7: TransactionID data source upload 8: No longer used; Previous versions of Adobe Advertising Cloud data sources 9: No longer used; Adobe Social summary metrics<br><br><br><br><br><br><br><br> | tinyint unsigniert |
+| hit_time_gmt | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
+| hitid_high | Wird zusammen mit hitid_low zur eindeutigen Identifizierung eines Treffers verwendet | bigint unsigned |
+| hitid_low | Wird zusammen mit hitid_high zur eindeutigen Identifizierung eines Treffers verwendet | bigint unsigned |
 | homepage | Wird nicht mehr länger verwendet. Wird angezeigt, wenn die aktuelle URL die Browser-Startseite ist | char(1) |
 | hourly_visitor | Flag zur Bestimmung, ob der Treffer ein neuer stündlicher Besucher ist | tinyint unsigniert |
 | ip | IP-Adresse basierend auf dem HTTP-Header der Bildanforderung | char(20) |
 | ip2 | Nicht verwendet. Backend-Verweis-Variable für Report Suites mit VISTA-Regeln basierend auf IP-Adressen | char(20) |
 | j_jscript | Vom Browser unterstützte JavaScript-Version | char(5) |
-| java_enabled | Ein Flag, das angibt, ob Java aktiviert ist <br>Y: Aktiviert <br>N: Deaktiviert <br>U: Unbekannt | char(1) |
+| java_enabled | Ein Flag, das angibt, ob Java aktiviert ist <br>Y: Enabled N: Disabled U: Unknown<br><br> | char(1) |
 | javascript | Such-ID der JavaScript-Version, basierend auf j_jscript Verwendet eine Suchtabelle | tinyint unsigniert |
-| language | Numerische ID der Sprache Verwendet die Suchtabelle languages.tsv | smallint unsigniert |
+| language | Numerische ID der Sprache Verwendet die Suchtabelle languages.tsv | smallint unsigned |
 | last_hit_time_gmt | Zeitstempel (in Unix-Zeit) des vorherigen Treffers Wird zur Berechnung der Dimension „Tage seit dem letzten Besuch“ verwendet | int |
-| last_purchase_num | Variable, die in der Dimension „Kundenloyalität“ verwendet wird Gibt die Anzahl der vorherigen Käufe des Besuchers an <br>0: Keine früheren Käufe (kein Kunde) <br>1: 1 vorheriger Kauf (neuer Kunde) <br>2: 2 vorheriger Kauf (wiederkehrender Kunde) <br>3: 3 oder mehr frühere Käufe (loyaler Kunde) | int unsigniert |
+| last_purchase_num | Variable, die in der Dimension „Kundenloyalität“ verwendet wird Gibt die Anzahl der vorherigen Käufe des Besuchers an <br>0: No prior purchases (not a customer) 1: 1 prior purchase (new customer) 2: 2 prior purchases (return customer) 3: 3 or more prior purchases (loyal customer)<br><br><br> | int unsigned |
 | last_purchase_time_gmt | Variable, die in der Dimension „Tage seit letztem Kauf“ verwendet wird Zeitstempel (in Unix-Zeit) des letzten Kaufs Bei Erstkäufen und Besuchern, die zuvor noch nichts gekauft haben, ist dieser Wert 0. | int |
 | latlon1 | Standort (bis 10 km) | varchar(255) |
 | latlon23 | Standort (bis 100 m) | varchar(255) |
 | latlon45 | Standort (bis 1 m) | varchar(255) |
 | mc_audiences | Liste der Audience Manager-Segment-IDs, zu denen der Besucher gehört | text |
 | mcvisid | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern | varchar(255) |
-| mobile_id | Wenn der Benutzer ein Mobilgerät verwendet, wird die numerische ID des Geräts verwendet. | int |
-| mobileaction | Mobile Aktion Wird automatisch erfasst, wenn trackaction in Mobile Services aufgerufen wird. Ermöglicht automatische Handlungsvorgänge in der App. | varchar(100) |
-| mobileappid | ID der mobilen App Speichert den Applikationsnamen und die Version im folgenden Format:[Appname] [bundleversion] | varchar(255) |
-| mobileappperformanceappid | Wird im Apteligent-Data Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
-| mobileappperformancecrashidden | Wird im Apteligent-Data Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
-| mobileappstoreobjectid | Wird im Appfigures-Data Connector verwendet. App Store-Objekt-ID | varchar(255) |
-| mobilebeaconmajor | Mobile Services Beacon | varchar(100) |
-| mobilebeaconminor | Mobile Services-Beacon Minor | varchar(100) |
-| mobilebeaconproximity | Mobile Services-Beacon-Nähe | varchar(255) |
+| mobile_id | Wenn der Benutzer ein Mobilgerät verwendet, die numerische ID des Geräts. | int |
+| mobileaction | Mobile Aktion Automatically collected when trackAction is called in Mobile Services. Ermöglicht automatische Handlungsvorgänge in der App. | varchar(100) |
+| mobileappid | ID der mobilen App Speichert den Applikationsnamen und die Version im folgenden Format:[AppName] [BundleVersion] | varchar(255) |
+| mobileappperformanceappid | Wird im Apteligent Data Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
+| mobileappperformanceCrashid | Used in the Apteligent data connector. The crash ID used in Apteligent. | varchar(255) |
+| mobileappstoreobjectid | Wird im Data Connector von Appfigs verwendet. App Store-Objekt-ID | varchar(255) |
+| mobilebeaconmajor | Mobile Services-Beacon-Hauptversion | varchar(100) |
+| mobilebeaconminor | Mobile Services-Beacon-Moll | varchar(100) |
+| mobilebeaconproximity | Nähe zum Mobile Services-Beacon | varchar(255) |
 | mobilebeaconuuid | Mobile Services-Beacon UUID | varchar(100) |
 | mobilecampaigncontent | Der Name der ID des Inhalts, in dem der Link angezeigt wurde. Erfasst durch App-Akquise. | varchar(255) |
 | mobilecampaignmedium | Marketingmedium, z. B. Banner oder E-Mail. Erfasst durch App-Akquise. | varchar(255) |
@@ -117,38 +117,38 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | mobilecampaignterm | Bezahlte Keywords oder andere Begriffe, die Sie mit dieser Akquise verfolgen wollen. Erfasst durch App-Akquise. | varchar(255) |
 | mobiledayofweek | Nummer des Wochentags, an dem die App gestartet wurde | varchar(255) |
 | mobiledayssincefirstuse | Anzahl der Tage, die seit dem ersten Ausführen der App vergangen sind | varchar(255) |
-| mobiledayssincelastupgrade | Wird aus der Kontextdatenvariablen a. dayssincelastupgrade erfasst. Die Anzahl der Tage seit der vorherigen Sitzung. | varchar(255) |
+| mobiledayssincelastupgrade | Wird aus der Kontextdatenvariablen a.DaysSinceLastUpgrade erfasst. Die Anzahl der Tage, die seit der vorherigen Sitzung vergangen sind. | varchar(255) |
 | mobiledayssincelastuse | Anzahl der Tage, die vergangen sind, seitdem die App das letzte Mal ausgeführt wurde | varchar(255) |
-| mobiledeeplinchild | Wird aus der Kontextdatenvariablen a.<span>deeplink</span>. id erfasst. Wird in Akquise-Berichten als Bezeichner für den Akquise-Link für Mobilgeräte verwendet. | varchar(255) |
+| mobiledeeplinkid | Wird aus der Kontextdatenvariablen a.<span>deeplink</span>.id erfasst. Wird in Akquise-Berichten als Identifikator für Link zur mobilen Akquise verwendet. | varchar(255) |
 | mobiledevice | Mobilgerätname Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert Die erste Zahl gibt die Gerätegeneration an und die zweite die Gerätefamilie. | varchar(255) |
 | mobilehourofday | Gibt die Stunde des Tages an, zu der die App gestartet wurde Angaben im 24-Stunden-Format | varchar(255) |
 | mobileinstalldate | Installationsdatum der mobilen App Stellt das Datum zur Verfügung, an dem ein Benutzer die mobile App erstmalig geöffnet hat | varchar(255) |
-| mobilelaunchessincelastupgrade | Wird aus der Kontextdatenvariablen a. launchessinceupgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
+| mobilelaunchessincelastupgrade | Wird aus der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
 | mobilelaunchnumber | Wird immer dann erhöht, wenn die mobile App gestartet wird | varchar(255) |
 | mobileltv | Wird nicht mehr länger verwendet. Erfasst durch trackLifetimeValue-Methoden. | varchar(255) |
-| mobilemessagebuttonname | Erfasst aus der Kontextdatenvariablen a.<span>message</span>. button. id. Wird für In-App-Nachrichten verwendet, um die Schaltfläche zu identifizieren, mit der die Meldung geschlossen wurde. | varchar(100) |
+| mobilemessagebuttonname | Wird aus der Kontextdatenvariablen a.<span>message</span>.button.id erfasst. Wird für In-App-Nachrichten verwendet, um die Schaltfläche zu identifizieren, mit der die Nachricht geschlossen wurde. | varchar(100) |
 | mobilemessageid | In-App-Nachrichten-ID | varchar(255) |
-| mobilemessageonline | In-App-Nachricht online | varchar(255) |
-| mobilemessagepushoptin | Erfasst aus der Kontextdatenvariablen a. push. optin. Auf "true" setzen, wenn der Benutzer sich bei Push-Nachrichten anmeldet; andernfalls lautet der Wert "false" . | varchar(255) |
-| mobilemessagepushpayloadid | Erfasst aus der Kontextdatenvariablen a. push. payloadid. Wird in Push-Nachrichten als Payload-Bezeichner verwendet. | varchar(255) |
-| mobileosenvironment | Erfasst aus der Kontextdatenvariablen a. osenvirholding. Statusbetriebssystemumgebungen wie Android oder ios. | varchar(255) |
-| mobileosversion | Version des Mobile Services-Betriebssystems | varchar(255) |
-| mobileplaceaccuracy | Erfasst aus der Kontextdatenvariablen a. loc. acc. Gibt die Genauigkeit des GPS in Metern bei der Erfassung an. | varchar(255) |
-| mobileplacecategory | Erfasst aus der Kontextdatenvariablen a. loc. category. Beschreibt die Kategorie einer bestimmten Position. | varchar(255) |
-| mobileplaceid | Erfasst aus der Kontextdatenvariablen a.<span>loc</span>. id. Bezeichner für einen angegebenen Zielpunkt. | varchar(255) |
-| mobilerelaunchcampaigncontent | Inhalte für Mobile Services starten | varchar(255) |
-| mobilerelaunchcampaignmedium | Mobile Services startet Medium | varchar(255) |
+| mobilemessageonline | In-app Message Online | varchar(255) |
+| mobilemessagepushoptin | Wird aus der Kontextdatenvariablen a.push.optin erfasst. auf "true"setzen, wenn der Benutzer sich für Push-Nachrichten entscheidet; andernfalls lautet der Wert "false". | varchar(255) |
+| mobilemessagepushpayloadid | Wird aus der Kontextdatenvariablen a.push.payloadid erfasst. Wird in Push-Nachrichten als Nutzlastbezeichner verwendet. | varchar(255) |
+| mobileosenvironment | Wird aus der Kontextdatenvariablen a.OSEnenvironment erfasst. Status-OS-Umgebung, z. B. Android oder iOS. | varchar(255) |
+| mobileosversion | Mobile Services operating system version | varchar(255) |
+| mobileplaceaccuracy | Erfasst aus der Kontextdatenvariablen a.loc.acc. Gibt die Genauigkeit des GPS zum Zeitpunkt der Erfassung in Metern an. | varchar(255) |
+| mobileplacecategory | Wird aus der Kontextdatenvariablen a.loc.category erfasst. Describes the category of a specific place. | varchar(255) |
+| mobileplaceid | Collected from the context data variable a.loc.id. <span></span> Identifier for a given point of interest. | varchar(255) |
+| mobilerelaunchcampaigncontent | Mobile Services - Startinhalte | varchar(255) |
+| mobilerelaunchcampaign | Mobile Services launch medium | varchar(255) |
 | mobilerelaunchcampaignsource | Startquelle für Mobile Services | varchar(255) |
-| mobilerelaunchcampaignterm | Startbegriff für Mobile Services | varchar(255) |
-| mobilerelaunchcampaigntrackingcode | Erfasst aus der Kontextdatenvariablen a. launch. campaign. trackingcode. Wird in Akquise als Rückverfolgungscode für die Startkampagne verwendet. | varchar(255) |
+| mobilerelaunchcampaignterm | Mobile Services - Starttermin | varchar(255) |
+| mobilerelaunchcampaign trackingcode | Wird aus der Kontextdatenvariablen a.launch.campaign.trackingcode erfasst. Wird bei der Akquise als Rückverfolgungscode für die Startkampagne verwendet. | varchar(255) |
 | mobileresolution | Auflösung des Mobilgeräts Breite x Höhe in Pixel | varchar(255) |
 | monthly_visitor | Flag, das angibt, dass der Benutzer im aktuellen Monat eindeutig ist | tinyint unsigniert |
-| mvvar 1 - mvvar 3 | Listenvariablenwerte Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung | text |
+| mvvar1 - mvvar3 | Listenvariablenwerte Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung | text |
 | namespace | Nicht verwendet. Teil einer veralteten Funktion | varchar(50) |
 | new_visit | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt | tinyint unsigniert |
-| os | Numerische ID, die das Betriebssystem des Besuchers darstellt Basiert auf der Spalte user_agent Verwendet die os-Suche | int unsigniert |
+| os | Numerische ID, die das Betriebssystem des Besuchers darstellt Basiert auf der Spalte user_agent Verwendet die os-Suche | int unsigned |
 | p_plugins | Wird nicht mehr länger verwendet. Liste der für den Browser verfügbaren Plugins. Hat die JavaScript-Funktion navigator.plugins() verwendet | text |
-| page_event | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink) | tinyint unsigniert |
+| page_event | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink) See [Page event lookup](datafeeds-page-event.md). | tinyint unsigniert |
 | page_event_var1 | Wird nur in Linktracking-Bildanforderungen verwendet Die URL des angeklickten Downloadlinks, Exitlinks oder benutzerspezifischen Links | text |
 | page_event_var2 | Wird nur in Linktracking-Bildanforderungen verwendet Der benutzerdefinierte Name des Links, sofern angegeben | varchar(100) |
 | page_event_var3 | Wird nicht mehr länger verwendet. Enthielt Umfrage- und Medienmoduldaten Füllte verwaltete Videoberichte in vorherigen Versionen von Adobe Analytics | text |
@@ -159,24 +159,24 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | partner_plugins | Nicht verwendet. Teil einer veralteten Funktion | varchar(255) |
 | persistent_cookie | Wird von der Dimension „Unterstützung beständiger Cookies“ verwendet Gibt an, ob der Benutzer Cookies unterstützt, die nicht nach jedem Treffer gelöscht werden | char(1) |
 | plugins | Wird nicht mehr länger verwendet. Liste numerischer IDs, die den im Browser verfügbaren Plugins entsprechen Verwendet die Suchtabelle plugins.tsv | varchar(180) |
-| pointofinterest | Name der Mobile Services-Zielgruppe | varchar(255) |
-| pointofinterestdistance | Mobile Services-Entfernung zum Point of Interest Center | varchar(255) |
+| pointofinterest | Name des Zielpunkts für Mobile Services | varchar(255) |
+| pointofinterestdistance | Entfernung von Mobile Services zum Zielpunkt | varchar(255) |
 | „post_“-Spalten | Enthält den in diesen Berichten ultimativ verwendeten Wert Jede Post-Spalte wird nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln gefüllt. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. | Vgl. entsprechende non-post-Spalte |
-| prev_page | Nicht verwendet. Proprietäre Adobe ID der vorherigen Spalte | int unsigniert |
+| prev_page | Nicht verwendet. Proprietäre Adobe ID der vorherigen Spalte | int unsigned |
 | product_list | Produktliste, so wie sie von der Variable der Produkte übergeben wurde Produkte sind durch Kommata voneinander getrennt und individuelle Produkteigenschaften durch Semikolons. | text |
 | product_merchandising | Nicht verwendet. Verwenden Sie stattdessen product_list. | text |
 | prop1 – prop75 | Benutzerdefinierte Traffic-Variablen 1–75. | varchar(100) |
 | purchaseid | Eindeutige ID für einen Kauf, so wie durch das Festlegen der Variable s_purchaseID bestimmt Wird von der Spalte duplicate_purchase verwendet | char(20) |
 | quarterly_visitor | Flag zur Bestimmung, ob der Treffer ein neuer Quartals-Besucher ist | tinyint unsigniert |
 | ref_domain | Basiert auf der Referrer-Spalte Die verweisende Domäne des Treffers | varchar(100) |
-| ref_type | Eine numerische ID, die den Typ des Verweises für den Treffer darstellt<br>1: In Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/Mit Lesezeichen versehen (kein Verweis) <br>7: E-Mail <br>8: Kein javascript <br>9: Soziale Netzwerke | tinyint unsigniert |
+| ref_type | Eine numerische ID, die den Typ des Verweises für den Treffer darstellt<br>1: Innerhalb Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/mit Lesezeichen versehen (keine verweisende Stelle) <br>7: E-Mail <br>8: Kein JavaScript <br>9: Soziale Netzwerke | tinyint unsigniert |
 | referrer | Seiten-URL der vorherigen Seite | varchar(255) |
-| resolution | Numerische ID, die die Auflösung des Bildschirms darstellt Bestückt die Dimension „Bildschirmauflösung“ Verwendet die Suchtabelle resolution.tsv | smallint unsigniert |
-| s_kwcid | Suchbegriff-ID, die in Adobe Advertising Cloud-Integrationen verwendet wird. | varchar(255) |
+| resolution | Numerische ID, die die Auflösung des Bildschirms darstellt Bestückt die Dimension „Bildschirmauflösung“ Verwendet die Suchtabelle resolution.tsv | smallint unsigned |
+| s_kwcid | In Adobe Advertising Cloud-Integrationen verwendete Suchbegriff-ID. | varchar(255) |
 | s_resolution | Rohwert der Bildschirmauflösung Erfasst mit der JavaScript-Funktion screen.width x screen.height | char(20) |
 | sampled_hit | Wird nicht mehr länger verwendet. Wurde zuvor für das Sampling in Ad Hoc Analysis verwendet | char(1) |
-| search_engine | Numerische ID, die die Suchmaschine darstellt, die den Besucher auf Ihre Site verwiesen hat Verwendet die Suche search_engines.tsv | smallint unsigniert |
-| search_page_num | Wird von der Dimension „Rangansicht aller Suchseiten“ verwendet Gibt an, auf welcher Seite der Suchergebnisse Ihre Site angezeigt wurde, ehe der Benutzer sich zu Ihrer Site durchgeklickt hat | smallint unsigniert |
+| search_engine | Numerische ID, die die Suchmaschine darstellt, die den Besucher auf Ihre Site verwiesen hat Verwendet die Suche search_engines.tsv | smallint unsigned |
+| search_page_num | Wird von der Dimension „Rangansicht aller Suchseiten“ verwendet Gibt an, auf welcher Seite der Suchergebnisse Ihre Site angezeigt wurde, ehe der Benutzer sich zu Ihrer Site durchgeklickt hat | smallint unsigned |
 | secondary_hit | Flag, das sekundäre Treffer verfolgt Stammt ursprünglich vom Multi-Suite-Tagging und von VISTA-Regel, die Treffer kopieren | tinyint unsigniert |
 | service | Nicht verwendet. Verwenden Sie stattdessen page_event. | char(2) |
 | socialaccountandappids | Wird nicht mehr länger verwendet. Social-Media-Konto und App-IDs | varchar(255) |
@@ -196,19 +196,19 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | socialownedpropertypropertyvsapp | Wird nicht mehr länger verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
 | state | Bundeslandvariable | varchar(50) |
 | stats_server | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat | char(30) |
-| t_time_info | Lokale Zeit des Besuchers. Format wie folgt: M/D/YYYY HH: MM: SS Month (0-11, 0 = Januar) Zeitzonenoffset (in Minuten) | varchar(100) |
+| t_time_info | Lokale Zeit des Besuchers. Format wie folgt: M/D/YYYY HH:MM:SS Monat (0-11, 0=Januar) Zeitzonenoffset (in Minuten) | varchar(100) |
 | tnt | Wird in Adobe Target-Integrationen verwendet | text |
 | tnt_action | Wird in Adobe Target-Integrationen verwendet | Text |
 | tnt_post_vista | Wird nicht mehr länger verwendet. Verwenden Sie stattdessen post_tnt. | text |
 | transactionid | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können | text |
-| truncated_hit | Ein Flag, das angibt, dass die Bildanforderung gekürzt wurde Zeigt den Erhalt eines teilweisen Treffers an <br>Y: Treffer wurde abgeschnitten; teilweise Treffer empfangen <br>N: Treffer wurde nicht abgeschnitten; vollständiger Treffer erhalten | char(1) |
+| truncated_hit | Ein Flag, das angibt, dass die Bildanforderung gekürzt wurde Zeigt den Erhalt eines teilweisen Treffers an <br>Y: Treffer abgeschnitten; Teiltreffer erhalten <br>N: Treffer nicht abgeschnitten; vollständigen Treffer erhalten | char(1) |
 | ua_color | Wird nicht mehr länger verwendet. Wurde zuvor als Fallback für die Farbtiefe verwendet | char(20) |
 | ua_os | Wird nicht mehr länger verwendet. Wurde zuvor als Fallback für das Betriebssystem verwendet | char(80) |
 | ua_pixels | Wird nicht mehr länger verwendet. Wurde zuvor als Fallback für die Browserhöhe und -breite verwendet | char(20) |
 | user_agent | Im HTTP-Header der Bildanforderung gesendete Benutzeragenten-Zeichenfolge | text |
-| user_hash | Wird nicht verwendet. Doppelkreuz in der Report Suite-ID. Verwenden Sie stattdessen username. | int unsigniert |
+| user_hash | Wird nicht verwendet. Doppelkreuz in der Report Suite-ID. Verwenden Sie stattdessen username. | int unsigned |
 | user_server | Variable, die in der Dimension „Server“ verwendet wurde | varchar(100) |
-| userid | Wird nicht verwendet. Die numerische ID für die Report Suite-ID Verwenden Sie stattdessen username. | int unsigniert |
+| userid | Wird nicht verwendet. Die numerische ID für die Report Suite-ID Verwenden Sie stattdessen username. | int unsigned |
 | username | Die Report Suite-ID für den Treffer. | char(40) |
 | va_closer_detail | Die Variable, die in der Dimension „Letztkontaktdetail“ verwendet wird | varchar(255) |
 | va_closer_id | Numerische ID, anhand derer die Dimension „Letztkontaktdetails“ identifiziert wird Die Suchtabelle für diese ID finden Sie im Marketingkanal-Manager. | tinyint unsigniert |
@@ -217,28 +217,28 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | va_instance_event | Flag zur Identifizierung von Marketingkanalinstanzen Wird von der Metrik Marketingkanal Letztkontaktinstanzen verwendet | tinyint unsigniert |
 | va_new_engagement | Flag zur Identifizierung neuer Marketingkanal-Engagements Wird von der Metrik „Neue Interaktionen“ verwendet | tinyint unsigniert |
 | video | Videoinhalt | varchar(255) |
-| videoad | Videoanzeigenname | varchar(255) |
-| videoadinpod | Videoanzeige in Pod-Position | varchar(255) |
+| videoad | Name der Videoanzeige | varchar(255) |
+| videoadinpod | Videoanzeige an der Position "Pod" | varchar(255) |
 | videoadlength | Videoanzeigenlänge | varchar(255) |
-| videoadload | Videoanzeigenladungen | varchar(255) |
-| videoadname | Videoanzeigenname | varchar(255) |
-| videoadplayername | Name des Videoanzeigenplayers | varchar(255) |
-| videoadpod | Videowerbewerbeunterbrechung | varchar(255) |
-| videoadvertiser | Video-Advertiser | varchar(255) |
-| videoaudioalbum | Video-Audioalbum | varchar(255) |
-| videoaudiartist | Video-Audio-Künstler | varchar(255) |
+| videoadload | Videoanzeigen laden | varchar(255) |
+| videoadname | Name der Videoanzeige | varchar(255) |
+| videoadplayername | Video ad player name | varchar(255) |
+| videoadpod | Pod für Videoanzeigen | varchar(255) |
+| videoadvertiser | Videoverwerter | varchar(255) |
+| videoaudioalbum | Video-Audio-Album | varchar(255) |
+| videoaudioartist | Video-Audio-Künstler | varchar(255) |
 | videoaudioauthor | Video-Audio-Autor | varchar(255) |
-| videoaudiolabel | Video-Audiobeschriftung | varchar(255) |
-| videoaudiopublisher | Video-Audio-Herausgeber | varchar(255) |
-| videoaudiostation | Video-Audiostation | varchar(255) |
+| videoaudiolabel | Videoaudiobeschriftung | varchar(255) |
+| videoaudiopublisher | Videoband-Herausgeber | varchar(255) |
+| videoaudiostation | Audio-Station | varchar(255) |
 | videocampaign | Videokampagne | varchar(255) |
 | videochannel | Videokanal | varchar(255) |
 | videochapter | Videokapitelname | varchar(255) |
 | videocontenttype | Videoinhaltstyp. Ist für alle Videoansichten automatisch auf „Video“ gesetzt | varchar(255) |
-| videodaypart | Videotagesteil | varchar(255) |
-| videoepisode | Videofolge | varchar(255) |
+| videodaypart | Videotagesabschnitt | varchar(255) |
+| videoepisode | Videoepisode | varchar(255) |
 | videofeedtype | Videofeed-Typ | varchar(255) |
-| videogenre | Video-Genre | text |
+| videogenre | Videogenre | text |
 | videolength | Videolänge | varchar(255) |
 | videomvpd | Video-MVPD | varchar(255) |
 | videoname | Videoname | varchar(255) |
@@ -248,29 +248,29 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 | videoqoebitrateaverageevar | Durchschnittliche Bitrate der Videoqualität | varchar(255) |
 | videoqoebitratechangecountevar | Videoqualität – Anzahl Änderungen | varchar(255) |
 | videoqoebuffercountevar | Videoqualität – Anzahl Puffer | varchar(255) |
-| videoqoebuffertimeevar | Zeit der Videoqualität | varchar(255) |
+| videoqoebuffertimeevar | Pufferzeit für Videoqualität | varchar(255) |
 | videoqoedroppedframecountevar | Videoqualität – Anzahl Einzelbildverluste | varchar(255) |
 | videoqoeerrorcountevar | Videoqualität – Anzahl Fehler | varchar(255) |
-| videoqoeexternalerrors | Externe Qualitätsfehler bei Videoqualität | text |
-| videoqoeplayersdkerrors | SDK-Fehler bei Videoqualität | text |
+| videoqoeexternalerrors | Externe Fehler in Videoqualität | text |
+| videoqoeplayersdkerrors | SDK-Fehler in Videoqualität | text |
 | videoqoetimetostartevar | Videoqualität – Startzeitpunkt | varchar(255) |
-| videoseason | Video-Saison | varchar(255) |
+| videoseason | Videosaison | varchar(255) |
 | videosegment | Videosegment | varchar(255) |
-| videoshow | Videoanzeige | varchar(255) |
+| videoshow | Videoshow | varchar(255) |
 | videoshowtype | Videoanzeigetyp | varchar(255) |
-| videostreamtype | Videostreamtyp | varchar(255) |
-| visid_high | Wird zusammen mit visid_low zur eindeutigen Identifizierung eines Besuchs verwendet | bigint unsigniert |
-| visid_low | Wird zusammen mit visid_high zur eindeutigen Identifizierung eines Besuchs verwendet | bigint unsigniert |
+| videostreamtype | Videostream-Typ | varchar(255) |
+| visid_high | Wird zusammen mit visid_low zur eindeutigen Identifizierung eines Besuchs verwendet | bigint unsigned |
+| visid_low | Wird zusammen mit visid_high zur eindeutigen Identifizierung eines Besuchs verwendet | bigint unsigned |
 | visid_new | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält | char(1) |
 | visid_timestamp | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
-| visid_type | Numerische ID, die angibt, welche Methode zur Identifizierung des Besuchs verwendet wurde <br>0: Benutzerdefinierte visitorid <br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile-Abonnenten-Header <br>3: Legacy-Cookie-Wert (s_ vi) <br>4: Fallback-Cookie-Wert (s_ fid) <br>5: Identitätsdienst | tinyint unsigniert |
-| visit_keywords | Variable, die in der Dimension „Suchbegriff“ verwendet wird Diese Spalte verwendet eine nicht standardmäßige Zeichenbegrenzung, um die von Adobe verwendete Backend-Logik aufzunehmen. | varchar(244) |
-| visit_num | Variable, die in der Dimension „Besuchsnummer“ verwendet wird Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers | int unsigniert |
-| visit_page_num | Variable, die in Dimension „Treffertiefe“ verwendet wird Wird für jeden vom Benutzer generierten Treffer um 1 erhöht Setzt jeden Besuch zurück | int unsigniert |
+| visid_type | Numerische ID, die angibt, welche Methode zur Identifizierung des Besuchs verwendet wurde <br>0: Custom visitorID 1: IP and user agent fallback 2: HTTP Mobile Subscriber Header 3: Legacy cookie value (s_vi) 4: Fallback cookie value (s_fid) 5: Identity Service<br><br><br><br><br> | tinyint unsigniert |
+| visit_keywords | Variable, die in der Dimension „Suchbegriff“ verwendet wird Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung, um der von Adobe verwendeten Back-End-Logik Rechnung zu tragen. | varchar(244) |
+| visit_num | Variable, die in der Dimension „Besuchsnummer“ verwendet wird Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers | int unsigned |
+| visit_page_num | Variable, die in Dimension „Treffertiefe“ verwendet wird Wird für jeden vom Benutzer generierten Treffer um 1 erhöht Setzt jeden Besuch zurück | int unsigned |
 | visit_ref_domain | Basiert auf der Spalte visit_referrer Die allererste verweisende Domäne des Besuchs | varchar(100) |
 | visit_ref_type | Numerische ID des Typs der verweisenden Stelle der ersten verweisenden Stelle des Besuchs Verwendet die Suchtabelle referrer_type.tsv | tinyint unsigniert |
 | visit_referrer | Die erste verweisende Stelle des Besuchs | varchar(255) |
-| visit_search_engine | Numerische ID der ersten Suchmaschine des Besuchs Verwendet die Suchtabelle search_engines.tsv | smallint unsigniert |
+| visit_search_engine | Numerische ID der ersten Suchmaschine des Besuchs Verwendet die Suchtabelle search_engines.tsv | smallint unsigned |
 | visit_start_page_url | Die erste URL des Besuchs | varchar(255) |
 | visit_start_pagename | Der Name der Seite, die zuerst besucht wurde. | varchar(100) |
 | „visit_start_time_gmt“ | Zeitstempel (in Unix-Zeit) des ersten Treffers des Besuchs | int |
@@ -280,51 +280,51 @@ Verwenden Sie diese Seite, um zu erfahren, welche Daten in den einzelnen Spalten
 
 ## Leere Spalten
 
-Die folgende Liste der Spalten ist nicht verfügbar und enthält keine Daten:
+Die folgende Liste von Spalten wird nicht verwendet und enthält keine Daten:
 
-* mobileprtionclicks
+* mobileacquisitionKlicks
 * mobileactioninapptime
 * mobileactiontotaltime
-* mobileappperformanceaffectedusers
-* mobileappperformanceappid<span>.</span>app-perf-app-name
-* mobileappperformanceappid<span>.</span>app-perf-platform
-* mobileappperformancecrashes
-* mobileappperformancecrashide<span>.</span>app-perf-crash-name
-* mobileappperformanceloads
-* mobileappstoreavgating
+* mobileappperformance-betroffeneBenutzer
+* mobileappperformanceAppid<span>.</span>app-perf-app-name
+* mobileappperformanceAppid<span>.</span>app-perf-platform
+* mobileappperformanceECRashes
+* mobileappperformanceCrashid<span>.</span>app-perf-crash-name
+* mobileappperformanceEloads
+* mobileappstoreavgrating
 * mobileappstoredownloads
-* mobileappstoreinappreventue
-* mobileappstoreinapproyments
+* mobileappstoreinappRevenue
+* mobileappstoreinheit
 * mobileappstoreobjectid<span>.</span>app-store-user
 * mobileappstoreobjectid<span>.</span>application-name
 * mobileappstoreobjectid<span>.</span>application-version
 * mobileappstoreobjectid<span>.</span>appstore-name
 * mobileappstoreobjectid<span>.</span>category-name
 * mobileappstoreobjectid<span>.</span>country-name
-* mobileappstoreobjectid<span>.</span>device-manufacturer
+* mobileappstoreobjectid<span>.</span>Gerätehersteller
 * mobileappstoreobjectid<span>.</span>device-name
-* mobileappstoreobjectid<span>.</span>In-App-Name
+* mobileappstoreobjectid<span>.</span>in-app-name
 * mobileappstoreobjectid<span>.</span>platform-name-version
-* mobileappstoreobjectid<span>.</span>rang-category-type
+* mobileappstoreobjectid<span>.</span>rank-category-type
 * mobileappstoreobjectid<span>.</span>region-name
 * mobileappstoreobjectid<span>.</span>review-comment
 * mobileappstoreobjectid<span>.</span>review-title
-* mobileappstoreoneoffrevenue
-* mobileappstoreoneofffee
+* mobileappstoreoneoffUmsatz
+* mobileappstoreoneoffroyalties
 * mobileappstorepurchases
 * mobileappstorerank
 * mobileappstorerankdivisor
-* mobileappstorerating
+* mobileappstore
 * mobileappstoreratingdivisor
-* mobileavgprevsessionlength
+* mobileavgspräsessionlength
 * mobilecrashes
 * mobilecrashrate
-* mobiledailyengagedusers
-* mobiledeeplinkind<span>.</span>name
+* mobileyengagedusers
+* mobiledeeplinkid<span>.</span>name
 * mobileinstalls
 * mobilelaunches
 * mobileltvtotal
-* mobilemessageklicks
+* mobilemessageclicks
 * mobilemessageid<span>.</span>dest
 * mobilemessageid<span>.</span>name
 * mobilemessageid<span>.</span>type
@@ -336,7 +336,7 @@ Die folgende Liste der Spalten ist nicht verfügbar und enthält keine Daten:
 * mobileplaceentry
 * mobileplaceexit
 * mobileprevsessionlength
-* mobilerelaunchcampaigntrackingcode<span><span>.</span></span>name
+* mobilerelaunchcampaign trackingcode<span><span>.</span></span>name
 * mobileupgrades
 * socialaveragesentiment
 * socialaveragesentiment (nicht mehr unterstützt)
@@ -360,7 +360,7 @@ Die folgende Liste der Spalten ist nicht verfügbar und enthält keine Daten:
 * socialtermslist (nicht mehr unterstützt)
 * socialtotalsentiment
 * sourceid
-* videoauthorized
+* videoautorisiert
 * videoaverageminuteaudience
 * videochaptercomplete
 * videochapterstart
@@ -382,4 +382,4 @@ Die folgende Liste der Spalten ist nicht verfügbar und enthält keine Daten:
 * videoqoeerror
 * videoresume
 * videototaltime
-* videoeindeutig quetimeetimeplayed
+* videouniquetimeplay
