@@ -6,7 +6,7 @@ solution: Analytics
 title: Bereitstellen der Integration
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -56,14 +56,12 @@ Schritte zum Abschließen des Integrationsassistenten in der Data Connectors-Obe
 Anzeigen der Konfiguration der ContactLab-Integration in der Adobe Experience Cloud
 
 1. Anzeigen des Integrationsaktivitätsprotokolls.
-
    1. Navigieren Sie in Adobe Experience Cloud zu **[!UICONTROL Support]** &gt; **[!UICONTROL Integrationsaktivitätsprotokoll]**.
 
       ![](assets/integration_activity_log.png)
 
    1. Suchen Sie nach Einträgen wie **[!UICONTROL Klassifizierungsdaten, die erfolgreich]** importiert wurden, **[!UICONTROL Metrikdaten erfolgreich]** importiert wurden und **[!UICONTROL Metrikdaten erfolgreich]** exportiert wurden. Diese Einträge sollten innerhalb eines Tages nach erfolgreicher Bereitstellung angezeigt werden.
 1. Zeigen Sie Ihre Berichtsdaten in Adobe Analytics an.
-
    1. Navigieren Sie zu **[!UICONTROL Custom Conversion]** &gt; **[!UICONTROL Custom Conversion 1-10]** &gt; **[!UICONTROL Message ID Reports]**.
 
       ![](assets/reporting.png)
