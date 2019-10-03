@@ -6,7 +6,7 @@ solution: Analytics
 title: Überprüfen der Integration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 Nach der Bereitstellung sollten Sie überprüfen, ob die Integration die Daten mithilfe der folgenden Prüfungen erfolgreich übertragen hat.
 
 1. Anzeigen des Integrationsaktivitätsprotokolls.
-
    1. Navigieren Sie in Adobe Experience Cloud zu **[!UICONTROL Support]** &gt; **[!UICONTROL Integrationsaktivitätsprotokoll]**.
 
       ![](assets/integration_activity_log.png)
