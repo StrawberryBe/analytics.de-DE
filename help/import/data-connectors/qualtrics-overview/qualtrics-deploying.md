@@ -8,7 +8,7 @@ title: Bereitstellen der Integration
 topic: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -32,23 +32,17 @@ Zum Aktivieren der Integration müssen Sie den Qualitätssicherungs-Integrations
    | Organisations-ID von Qualtrics | [Suchen der Organisations-ID von Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst-Token | [Generieren Ihres Qualtrics-Adobe Analytics-Tokens](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Assistent: Schritt 2 - Variablenzuordnungen**
-
-   | Qualtrics-Antwortliste | Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.) |
-   |---|---|
-   | Qualtrics-Antwort-ID | Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.) |
-   | Tracking-Server | Geben Sie die Einstellung für den Tracking-Server (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie den `trackingServerSecure` Tracking-Server, wenn er sich von der Einstellung des Standard-Trackingservers unterscheidet. |
-   | Übermittlungen von Qualtrics-Umfragen | Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie ein neues Ereignis im Report Suite Manager aktivieren). |
+1. **Assistent: Schritt 2 - Variablenzuordnungen**| Qualtrics Response List| Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  ||—|—|| Qualtrics Response ID| Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  || Tracking-Server|Geben Sie die Einstellung für den Tracking-Server (Domäne) an, die Sie zur Verfolgung von Adobe Analytics-Daten verwenden. Verwenden Sie den `trackingServerSecure` Tracking-Server, wenn er sich von der Einstellung des Standard-Trackingservers unterscheidet.  || Qualtrics Survey Submissions| Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie ein neues Ereignis im Report Suite Manager aktivieren).  |
 
 1. **Assistent Schritt 3**: Nichts erforderlich, nur informativ.
 
-   Schritt 1 **Assistent Schritt 4: Exporteinstellungen**
+   Step Result 1. **Assistent Schritt 4: Exporteinstellungen**
 
    | eVar | Wählen Sie bis zu fünf Ihrer eVars aus, die Sie für den Export in Qualtrics verfügbar machen möchten |
    |---|---|
    | Ereignisse | Wählen Sie bis zu fünf Ihrer benutzerspezifischen Ereignisse aus, die Sie für den Export in Qualtrics verfügbar machen möchten |
    | Props | Wählen Sie bis zu fünf Eigenschaften aus, die Sie für den Export in Qualtrics verfügbar machen möchten |
-   | Zugriffsanforderungen | Markieren Sie das Kästchen für eine der Standardmetriken und -dimensionen, die Sie nach Qualtrics exportieren möchten. Die `visitor_id` ist erforderlich, damit der Export ordnungsgemäß funktioniert. |
+   |  Zugriffsanforderungen | Markieren Sie das Kästchen für eine der Standardmetriken und -dimensionen, die Sie nach Qualtrics exportieren möchten. Die `visitor_id` ist erforderlich, damit der Export ordnungsgemäß funktioniert. |
 
 1. **Assistent Schritt 5**: Überprüfen Sie die Konfiguration und klicken Sie dann auf Jetzt **[!UICONTROL aktivieren]**.
 
@@ -62,8 +56,8 @@ Nach Abschluss des Integrationsassistenten müssen Sie die Integration für jede
 
    ![](assets/advanced_options.png)
 
-1. Wählen Sie die Adobe Analytics-Konfiguration und klicken Sie auf **[!UICONTROL Speichern]**. Wenn keine Konfigurationen verfügbar sind, haben Sie den Adobe Integration Wizard wahrscheinlich noch nicht abgeschlossen.
-   1. Das Kontrollkästchen Teilantworten **** einschließen kann verwendet werden, um anzugeben, dass Sie Daten nach Abschluss der einzelnen Teilumfragebildschirme in Adobe Analytics erfassen möchten. Wenn diese Option nicht aktiviert ist, werden die Daten nur für vollständig abgeschlossene Umfragen übertragen.
+1. Wählen Sie die Adobe Analytics-Konfiguration und klicken Sie auf **[!UICONTROL Speichern]**. If no configurations are available then you likely have not yet completed the Adobe Integration Wizard.
+   1. The Include Partial Responses checkbox can be used to indicate that you’d like to capture data into Adobe Analytics after each partial survey screen is completed. **** Wenn diese Option nicht aktiviert ist, werden die Daten nur für vollständig abgeschlossene Umfragen übertragen.
    1. Das Kontrollkästchen "Zeitstempel **[!UICONTROL mit Beacon]** senden"sollte nur bei der Integration mit einer Report Suite verwendet werden, die für den Empfang von Daten mit Zeitstempel konfiguriert ist (nicht üblich).
    ![](assets/integration_config.png)
 
