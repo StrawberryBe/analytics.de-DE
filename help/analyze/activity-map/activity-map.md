@@ -1,18 +1,18 @@
 ---
 description: Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
 seo-description: Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
-seo-title: Activity Map - Übersicht
+seo-title: Übersicht über Activity Map
 solution: Analytics
-title: Activity Map - Übersicht
+title: Übersicht über Activity Map
 topic: Activity Map
-uuid: 7232 b 875-6907-4 b 53-b 466-5 e 9157 a 22 ef 0
+uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 6d66e200be6dec59bb5f4c1bbb79bfd81d08a345
+source-git-commit: dd9cfd8521975e140eab5886d7f20776a4a5a21a
 
 ---
 
 
-# Activity Map - Übersicht
+# Übersicht über Activity Map
 
 Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
 
@@ -25,17 +25,17 @@ Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleu
 
 **Erste Schritte für Benutzer**
 
-* [Activity Map-Browser-Plug-ins installieren](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+* [Activity Map Browser-Plug-ins installieren](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map starten](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
 **Activity Map-Funktionen**
 
-* [Robuste Linkverfolgung](lnk-tracking-overview.md)
+* [Zuverlässiges Linktracking](lnk-tracking-overview.md)
 * [Standardmodus im Vergleich zum Livemodus](activitymap-standard-live.md)
-* [Linkbericht](activitymap-links-report.md)
+* [Link-Bericht](activitymap-links-report.md)
 * [Seitendetails](activitymap-page-flow.md)
 * [Vollständiger Satz an Metriken](activitymap-complete-metrics.md)
-* [Seitenanalyse in Echtzeit (Live)](activitymap-realtime.md)
+* [Seitenanalysen in Echtzeit (Livemodus)](activitymap-realtime.md)
 * [Kundensegmentierung](activitymap-multiple-segments.md)
 * [Anpassbare Überlagerungen](activitymap-gainerslosers.md)
 * [Überlagerungsdetails](activitymap-overlay-details.md)
@@ -43,9 +43,8 @@ Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleu
 * [Unterstützte Systeme und Anforderungen](activitymap-sysreqs.md)
 * [Activity Map – Häufig gestellte Fragen](activitymap-faq.md)
 * [Linktracking-Methode](activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-* [Einstellungen für Activity Map konfigurieren](activitymap-overlay-settings.md)
+* [Activity Map-Einstellungen konfigurieren](activitymap-overlay-settings.md)
 * [Activity Map-Benutzeroberfläche](activitymap-user-interface.md)
-* [Activity Map-Berichterstellung in Analytics](activitymap-reporting-analytics.md)
-* [Integration von AEM Sites und Activity Map](aem-sites-integration.md)
+* [Activity Map – Berichterstattung in Analytics](activitymap-reporting-analytics.md)
 * [Fehlerbehebung für Browsererweiterungen](troubleshooting-browser-extensions.md)
-* [Informationsressourcen](activitymap-info-resources.md)
+* [Ressourcen für weitere Informationen](activitymap-info-resources.md)
