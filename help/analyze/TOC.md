@@ -4,7 +4,7 @@ audience: Endanwender
 user-guide-title: Analyseleitfaden für Analytics
 user-guide-url: /content/help/de-DE/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
 
 ---
 
@@ -261,7 +261,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
    + [Activity Map-Einstellungen konfigurieren](activity-map/activitymap-overlay-settings.md)
    + [Activity Map-Benutzeroberfläche](activity-map/activitymap-user-interface.md)
    + [Activity Map – Berichterstattung in Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [AEM-Sites und Activity Map-Integration](activity-map/aem-sites-integration.md)
    + [Fehlerbehebung für Browsererweiterungen](activity-map/troubleshooting-browser-extensions.md)
    + [Ressourcen für weitere Informationen](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
