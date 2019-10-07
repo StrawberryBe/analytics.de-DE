@@ -8,7 +8,7 @@ title: Erste Schritte mit Reports and Analytics
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Re
 
 ## Bei Reports &amp; Analysen anmelden
 
-Richten Sie vor einem Zugriff auf die Schnittstelle mit Ihrem Kundenbetreuer oder mit dem Kundenservice das Konto Ihres Unternehmens ein.
+Bevor Sie auf die Oberfläche zugreifen, richten Sie das Konto Ihres Unternehmens mit Ihrem Kundenbetreuer oder dem Adobe-Kundendienst ein.
 
 ## Melden Sie sich mit der Experience Cloud an
 
