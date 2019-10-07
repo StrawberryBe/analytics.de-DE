@@ -1,23 +1,23 @@
 ---
 description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 seo-description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
-seo-title: Erste Schritte mit Reports & Analysen
+seo-title: Erste Schritte mit Reports and Analytics
 solution: Analytics
 subtopic: Erste Schritte
-title: Erste Schritte mit Reports & Analysen
+title: Erste Schritte mit Reports and Analytics
 topic: Reports and Analytics
-uuid: ea 76 ec 40-6025-4 ee 5-8 f 55-855 b 5 b 823737
+uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
 
 ---
 
 
 # Erste Schritte mit Reports &amp; Analysen
 
-Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
+Bevor Sie Reports &amp; Analysen verwenden, sollten Sie sich mit diesen grundlegenden Anmelde- und Einrichtungsaufgaben und dem Zugriff auf Kontoinformationen vertraut machen.
 
-## Getting started with Reports and Analytics {#concept_8C531D94965743BFBED7A87FE5473FF0}
+## Erste Schritte mit Reports &amp; Analysen
 
 Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
@@ -33,15 +33,9 @@ Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanä
 * Wie viel Zeit sie mit dem Anschauen eines Videos verbracht haben
 * Welche Browser und Geräte zum Besuch der Seite genutzt wurden
 
-## Browser and system requirements {#concept_7E987A1E578940B1859D89CA14FAFF34}
+## Browser- und Systemanforderungen
 
 Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Reports &amp; Analytics.
-
-<!-- 
-
-requirements.xml
-
- -->
 
 * Browser:
 
@@ -55,19 +49,13 @@ requirements.xml
 * Cookies und JavaScript müssen aktiviert sein.
 * Bildschirmauflösung von 1024 x 768 mit einer Farbtiefe von mindestens 16 Bit.
 
-## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## Bei Reports &amp; Analysen anmelden
 
 Richten Sie vor einem Zugriff auf die Schnittstelle mit Ihrem Kundenbetreuer oder mit dem Kundenservice das Konto Ihres Unternehmens ein.
 
-## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
+## Melden Sie sich mit der Experience Cloud an
 
-In diesen Schritten wird beschrieben, wie Sie sich über die Adobe Experience Cloud anmelden.
-
-<!-- 
-
-t_login_sso.xml
-
- -->
+Schritte, die beschreiben, wie Sie sich über die Adobe Experience Cloud anmelden.
 
 1. Öffnen Sie auf einem Computer mit Internetverbindung einen Webbrowser.
 1. Go to [!DNL https://login.experiencecloud.adobe.com/].
@@ -79,23 +67,17 @@ t_login_sso.xml
    **[!UICONTROL Benutzername]**: Geben Sie Ihre Konto-ID an.
 
    **[!UICONTROL Passwort]**: Geben Sie das Passwort für Ihr Konto an.
-1. From the Experience Cloud home page, go to **Analytics &gt; Reports**.
+1. Gehen Sie auf der Experience Cloud-Homepage zu **Analytics &gt; Berichte**.
 
    Die Experience Cloud meldet Sie nach 30 Minuten Inaktivität automatisch ab.
 
-## Führen Sie einen Bericht aus {#task_C6772791AFD642CFB9C51ADB9E5932A5}
+## Einen Bericht ausführen
 
 In diesen Schritten wird beschrieben, wie Sie einen Bericht generieren.
 
-<!-- 
-
-t_running_report.xml
-
- -->
-
 1. Melden Sie sich bei [!UICONTROL Reports &amp; Analysen] an.
 
-   The Reports menu displays, or a [dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up.
+   Das Menü "Berichte"wird angezeigt, oder ein [Dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) wird angezeigt, wenn Sie eines eingerichtet haben.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
@@ -103,19 +85,13 @@ t_running_report.xml
 
    See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
 
-## Kontoeinstellungen eines Benutzers bearbeiten {#concept_7FAF5B923B984426B7F64E026EA2DCAA}
+## Kontoeinstellungen eines Benutzers bearbeiten
 
 Informationen zum Bearbeiten von Benutzerkonten, Zurücksetzen von Benutzerkennwörtern und zum Bearbeiten von Kontaktinformationen.
 
-<!-- 
-
-t_acct_info.xml
-
- -->
-
 Sie können Kontaktdaten anzeigen und bearbeiten, ein Kennwort festlegen, Informationen zu Web-Services anzeigen und diesen Computer von der Datenkollektion ausschließen.
 
-Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
 Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
 
@@ -153,27 +129,11 @@ Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die f
  </tbody> 
 </table>
 
-## Sprache der Benutzeroberfläche ändern {#task_E20F9C7713C444998C883CFF93DC848A}
+## Sprache der Benutzeroberfläche ändern
 
 In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläche ändern können. Sie können die Benutzeroberfläche von Reports and Analytics in der Sprache Ihrer Wahl anzeigen.
 
-<!-- 
+1. Melden Sie sich bei Analytics an und wählen Sie die Registerkarte **[!UICONTROL Berichte]** .
+1. Klicken Sie in der Fußzeile der Seite auf die aktive Sprache im Menü **[!UICONTROL Sprache]** und wählen Sie dann Ihre bevorzugte Sprache aus.
 
-t_changing_language.xml
-
- -->
-
-1. Anmelden.
-1. Wählen Sie das Menü **Ansicht** aus, und klicken Sie anschließend auf eine Sprache: 
-
-* Englisch
-* Französisch
-* Traditionelles Chinesisch
-* Vereinfachtes Chinesisch
-* Deutsch
-* Japanisch
-* Koreanisch
-* Spanisch
-* Portugiesisch
-
-   Die aktuellste Dokumentation ist in der Regel die englische Version. Sie können auf die Dokumentation und die entsprechende Startseite über die Adobe Experience Cloud zugreifen. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
+Sie können auf die Dokumentation und die entsprechende Startseite über die Adobe Experience Cloud zugreifen. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
