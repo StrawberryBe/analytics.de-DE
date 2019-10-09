@@ -1,32 +1,32 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: DSGVO-Beschriftungen für Analytics-Variablen
-title: DSGVO-Beschriftungen für Analytics-Variablen
-uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
+seo-title: Datenschutzbezeichnungen für Analytics-Variablen
+title: Datenschutzbezeichnungen für Analytics-Variablen
+uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# DSGVO-Beschriftungen für Analytics-Variablen
+# Datenschutzbezeichnungen für Analytics-Variablen
 
 ## Grund der Datenbeschriftung{#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
-Viele Adobe-Kunden betreiben Rechtsabteilungen, die die DSGVO untersucht und so ihre eigenen Schlüsse zur Datenverarbeitung in Übereinstimmung mit der Verordnung gezogen haben. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Um diesen unterschiedlichen Vorstellungen bei der DSGVO-Datenverarbeitung und den verschiedenen Datensätzen beizukommen, können Datenverantwortliche die Einstellungen für die DSGVO-Datenverarbeitung ihrer individuellen Daten nach eigenen Wünschen anpassen. So kann jeder Kunde DSGVO-Anfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
+Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze (GDPR, CCPA usw.) überprüft haben. und die eigene Schlussfolgerungen darüber gezogen haben, wie Daten behandelt werden sollten, um die Datenschutzgesetze einzuhalten. Die rechtliche Interpretation unterscheidet sich möglicherweise zwischen den verschiedenen Unternehmen – und mit ihr auch die Datenverarbeitung der einzelnen Kunden. Da Kunden unterschiedliche Voreinstellungen für die Verarbeitung von Daten zum Datenschutz und verschiedene Datensätze haben, ermöglicht Adobe Kunden als Datencontroller, ihre gewünschten Einstellungen für die Datendatenverarbeitung für ihre individuellen Daten anzupassen. Auf diese Weise kann jeder individuelle Kunde Datenschutzanforderungen so verarbeiten, dass dies für seine Marke und seinen Datensatz am sinnvollsten ist.
 
 Adobe Analytics stellt Werkzeuge zur Verfügung, um Daten entsprechend ihrer Sensibilität und ihren vertraglichen Beschränkungen zu kennzeichnen. Kennzeichnungen sind wichtig und nützlich, denn sie helfen (1) die betroffenen Personen zu identifizieren, (2) zu bestimmen, welche Daten im Rahmen einer Zugriffsanforderung zurückgegeben werden sollen, und (3) Datenfelder zu identifizieren, die im Rahmen einer Löschanfrage gelöscht werden müssen.
 
-Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern hinzugefügt werden müssen, sollten Sie zunächst die [Grundlagen zu den IDs](../../admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) kennen, die Sie in Ihren Analytics-Daten erfassen, und entscheiden, welche hiervon Sie für DSGVO-Anfragen verwenden wollen.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
-Die Adobe Analytics-DSGVO-Implementierung unterstützt folgende Beschriftungen für Identitätsdaten, vertrauliche Daten und Data Governance.
+Die Adobe Analytics-Implementierung zum Datenschutz unterstützt die folgenden Bezeichnungen für Identitätsdaten, vertrauliche Daten und Datenverwaltung.
 
 ## DULE-Beschriftungen {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE]
 >
->Das Data Usage Label &amp; Enforcement (DULE) Framework bietet eine einheitliche Möglichkeit für alle Adobe Lösungen/Services/Plattformen zur Erfassung, Kommunikation und Verwendung von Metadaten über Daten in der gesamten Adobe Experience Cloud. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche Kontaktbeschränkungen für die Daten gelten. In dieser ersten Version zeigt Analytics nur die DULE-Beschriftungen, die für die DSGVO relevant sind. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
+>Das Data Usage Labelling &amp; Enforcement (DULE) Framework wurde entwickelt, um eine einheitliche Methode für alle Adobe-Lösungen/Dienste/Plattformen zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche Kontaktbeschränkungen für die Daten gelten. In dieser ersten Version legt Analytics nur die für den Datenschutz relevanten DULE-Bezeichnungen offen. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
 
 ## Beschriftungen für Identitätsdaten (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,11 +85,11 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
  </tbody> 
 </table>
 
-## Beschriftungen für Data Governance (DSGVO) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Bezeichnungen für Datenverwaltung (Datenschutz) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
 
 Über Beschriftungen für Data Governance können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten.
 
-**DSGVO-Zugriffsbeschriftungen**
+**Datenschutz - Zugriffsbezeichnungen**
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -102,17 +102,17 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Keine </p> </td> 
-   <td colname="col2"> <p>Wählen Sie diese Option aus, wenn diese Variable keine Daten enthält, die im Rahmen einer DSGVO-Zugriffsanfrage in die an das Datensubjekt zurückzugebenden Daten eingefügt werden müssen. </p> </td> 
+   <td colname="col2"> <p>Wählen Sie diese Option, wenn diese Variable keine Daten enthält, die in den Daten enthalten sein müssen, die der betroffenen Person im Rahmen einer Datendatenschutzanforderung zurückgegeben werden. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>Werte in diesem Feld sollten in <u>allen</u> DSGVO-Anfragen enthalten sein. </p> <p>Wenn dieser Hit von einem Gerät stammt, das von mehreren Personen genutzt wird, können Sie als Datenverantwortlicher über diese Beschriftung festlegen, dass es zulässig ist, die Daten in diesem Feld an Personen mit Zugriff auf das gemeinsam genutzte Gerät zu übermitteln. </p> </td> 
-   <td colname="col3"> <p>Felder mit dieser Beschriftung werden bei allen DSGVO-Anfragen zurückgegeben. </p> </td> 
+   <td colname="col2"> <p>Values in this field should be included in <u>all</u> Data Privacy access requests. </p> <p>Wenn dieser Hit von einem Gerät stammt, das von mehreren Personen genutzt wird, können Sie als Datenverantwortlicher über diese Beschriftung festlegen, dass es zulässig ist, die Daten in diesem Feld an Personen mit Zugriff auf das gemeinsam genutzte Gerät zu übermitteln. </p> </td> 
+   <td colname="col3"> <p>Felder mit dieser Beschriftung werden für alle Datenschutzanforderungen zurückgegeben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> Werte in diesem Feld sollten nur zu DSGVO-Anfragen hinzugefügt werden, wenn Sie sich ausreichend sicher sind, dass der Hit vom Datensubjekt stammte. Dies gilt, wenn die ID einer DSGVO-Anfrage mit dem Wert im Feld ID-PERSON übereinstimmt. </p> </td> 
+   <td colname="col2"> <p> Werte in diesem Feld sollten nur für Zugriffsanfragen zum Datenschutz berücksichtigt werden, wenn wir einigermaßen sicher sind, dass der Treffer von der betroffenen Person stammt. Dies wird durch eine Datenschutzanfrage-ID bestimmt, die mit dem Wert des Felds ID-PERSON übereinstimmt. </p> </td> 
    <td colname="col3"> <p>Sie müssen auch eine ID-PERSON-Beschriftung in einigen Variablen in dieser Report Suite festgelegt haben und Anfragen mit der entsprechenden ID einreichen. Andernfalls wird diese Beschriftung nie angewendet. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,7 +120,7 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
 
 Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon auszugehen, dass auf eine Vielzahl Ihrer Variablen Zugriffsbeschriftungen angewendet werden. Es obliegt jedoch Ihnen, nach Absprache mit Ihrer Rechtsabteilung zu entscheiden, welche von Ihnen erfassten Daten für die Datensubjekte freigegeben werden sollen.
 
-**DSGVO-Löschbeschriftungen**
+**Datenschutz Löschen von Bezeichnungen**
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -138,7 +138,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>Bei DSGVO-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-DEVICE im Treffer vorhanden ist. </p> <p>Wenn derselbe Wert in anderen Hits auftritt, die nicht gelöscht werden, werden diese Instanzen nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Auf gemeinsam genutzten Geräten werden hierdurch möglicherweise IDs von anderen Personen als nur dem Datensubjekt entfernt. </p> <p>Die Werte ändern sich nicht, wenn dieses Feld eine ID-DEVICE-Beschriftung enthält und der Wert in diesem Feld als ID für eine DSGVO-Anfrage verwendet wurde. </p> </td> 
+   <td colname="col2"> <p>Bei Datendatenschutz-Löschanforderungen sollten Werte in diesem Feld nur für Anforderungen anonymisiert werden, bei denen im Treffer ein angegebenes ID-GERÄT vorhanden ist. </p> <p>Wenn derselbe Wert in anderen Hits auftritt, die nicht gelöscht werden, werden diese Instanzen nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Auf gemeinsam genutzten Geräten werden hierdurch möglicherweise IDs von anderen Personen als nur dem Datensubjekt entfernt. </p> <p>Die Zählung ändert sich nicht, wenn dieses Feld auch eine ID-GERÄTEbeschriftung enthält und der Wert in diesem Feld als ID für die Datenschutzanforderung verwendet wurde. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
      <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Erfordert auch eine I1- oder I2-/S1-Beschriftung. </li> 
@@ -150,7 +150,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>Bei DSGVO-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-PERSON im Hit vorhanden ist. </p> <p>Wenn derselbe Wert in anderen Hits auftritt, die nicht gelöscht werden, werden diese Werte nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Die Werte ändern sich nicht, wenn dieses Feld eine ID-PERSON-Beschriftung enthält und der Wert in diesem Feld als ID für eine DSGVO-Anfrage verwendet wurde. </p> </td> 
+   <td colname="col2"> <p>Bei Datendatenschutz-Löschanforderungen sollten Werte in diesem Feld nur für Anforderungen anonymisiert werden, bei denen eine angegebene ID-PERSON im Treffer vorhanden ist. </p> <p>Wenn derselbe Wert in anderen Hits auftritt, die nicht gelöscht werden, werden diese Werte nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Die Zählung ändert sich nicht, wenn dieses Feld auch eine ID-PERSON-Beschriftung enthält und der Wert in diesem Feld als ID für die Datenschutzanforderung verwendet wurde. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
      <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Erfordert auch eine I1- oder I2-/S1-Beschriftung. </li> 
@@ -163,7 +163,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
  </tbody> 
 </table>
 
-**DSGVO-Identitätsbeschriftungen**
+**Identitätsbezeichnungen für den Datenschutz**
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -176,12 +176,12 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Keine </p> </td> 
-   <td colname="col2"> <p>Diese Variable enthält keine ID, die für DSGVO-Anfragen verwendet wird. </p> </td> 
-   <td colname="col3"> <p>Sie müssen nur dann eine dieser anderen Beschriftungen festlegen, wenn dieses Feld eine ID enthält, die Sie beim Senden von Zugriffs- oder Löschanfragen über die DSGVO-API oder -UI senden. </p> </td> 
+   <td colname="col2"> <p>Diese Variable enthält keine ID, die für Datenschutzanforderungen verwendet wird. </p> </td> 
+   <td colname="col3"> <p>Sie müssen eine dieser anderen Bezeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie beim Senden von Zugriffs- oder Löschanforderungen über die Datenschutz-API oder -Benutzeroberfläche verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>Dieses Feld enthält eine ID, die Sie zur Identifizierung eines Geräts für eine DSGVO-Anfrage verwenden können. Sie kann jedoch nicht zwischen den verschiedenen Benutzern eines gemeinsam genutzten Geräts unterscheiden. </p> <p>Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs DSGVO-Anfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. </p> </td> 
+   <td colname="col2"> <p>Dieses Feld enthält eine ID, mit der ein Gerät für eine Datenschutzanforderung identifiziert werden kann, jedoch nicht zwischen verschiedenen Benutzern eines freigegebenen Geräts unterscheiden kann. </p> <p>Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie Datenschutzanforderungen mit in dieser Variablen gespeicherten IDs senden und diese Variable nach der angegebenen ID suchen möchten. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
      <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">Erfordert auch eine I1- oder I2-Beschriftung </li> 
@@ -192,7 +192,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>Dieses Feld enthält eine ID, die verwendet werden kann, um einen authentifizierten Benutzer (eine bestimmte Person) für eine DSGVO-Anfrage zu identifizieren. </p> <p>Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs DSGVO-Anfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. </p> </td> 
+   <td colname="col2"> <p>Dieses Feld enthält eine ID, mit der ein authentifizierter Benutzer (eine bestimmte Person) für eine Datenschutzanforderung identifiziert werden kann. </p> <p>Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie Datenschutzanforderungen mit in dieser Variablen gespeicherten IDs senden und diese Variable nach der angegebenen ID suchen möchten. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
      <li id="li_2E781AE8D7A046A7996C7300CA854B86">Erfordert auch eine I1- oder I2-Beschriftung </li> 
@@ -228,9 +228,9 @@ Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-
 1. Drücken Sie die **[!UICONTROL Eingabetaste], um diesen Namespace hinzuzufügen.** Erst jetzt ist die Schaltfläche „Übernehmen“ aktiviert.
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
-Die von Ihnen als Namespace angegebene Zeichenfolge ist dieselbe Zeichenfolge, die Sie beim Senden von Anfragen über die DSGVO-API als Wert des Parameters „namespace“ verwenden sollten. Aufgrund der Anfrage durchsucht Adobe Analytics anschließend alle Variablen in allen Report Suites, in denen dieser Namespace verwendet wird, nach der ID, die Sie in der Anfrage angegeben haben.
+Die Zeichenfolge, die Sie als Namespace angeben, ist dieselbe Zeichenfolge, die Sie beim Senden von Anforderungen über die Data Privacy API als Wert des Parameters "namespace"verwenden sollten. Aufgrund der Anfrage durchsucht Adobe Analytics anschließend alle Variablen in allen Report Suites, in denen dieser Namespace verwendet wird, nach der ID, die Sie in der Anfrage angegeben haben.
 
-Sie müssen die Beschriftungen ID-DEVICE oder ID-PERSON nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs DSGVO-Anfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. Beispiel: eVar1 kann eine E-Mail-Adresse enthalten, während eVar2 einen Benutzernamen für die Anmeldung beinhaltet. Sie senden jedoch Anfragen ausschließlich mithilfe des Benutzernamens. In diesem Fall können Sie eVar1 als I1, ACC-PERSON, DEL-PERSON und eVar2 als I2, ACC-PERSON, DEL-PERSON, ID-PERSON mit dem Namespace „user name“ beschriften. Anschließend können Sie eine Anfrage mit einem JSON-Block für den Benutzerabschnitt senden, z. B.:
+Sie müssen die Beschriftungen ID-DEVICE oder ID-PERSON nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie Datenschutzanforderungen mit in dieser Variablen gespeicherten IDs senden und diese Variable nach der angegebenen ID suchen möchten. Beispiel: Wenn eVar1 eine E-Mail-Adresse enthalten kann und eVar2 einen Benutzernamen für die Anmeldung enthalten kann, Sie jedoch nur Anforderungen mit dem Benutzernamen senden, könnten Sie eVar1 als I1, ACC-PERSON, DEL-PERSON, aber eVar2 als I2, ACC-PERSON, DEL-PERSON, ID-PERSON mit Namespace "beschriften Benutzername". Anschließend können Sie eine Anfrage mit einem JSON-Block für den Benutzerabschnitt senden, z. B.:
 
 ```
 {
@@ -240,15 +240,15 @@ Sie müssen die Beschriftungen ID-DEVICE oder ID-PERSON nicht für alle Variable
 }
 ```
 
-Sie können denselben Namespace für verschiedene Variablen innerhalb derselben Report Suite verwenden. Bei einigen benutzerdefinierten Implementierungen wird beispielsweise eine CRM-ID in einem Prop- und einem eVar-Objekt gespeichert. Wenn die CRM-ID immer in einer der Variablen auftritt (z. B. in der eVar) und nur gelegentlich in der anderen enthalten ist (Prop) bzw. niemals in der Prop enthalten ist, wenn sie auch nicht in der eVar vorkommt, ist nur für das eVar-Objekt eine ID-Beschriftung und ein Namespace erforderlich, da Adobe nur diese eVar nach der ID durchsuchen kann. Wenn jedoch die CRM-ID manchmal in einer Variablen und manchmal in der anderen auftritt, sollten beide denselben Namespace haben. Adobe durchsucht dann beide Variablen nach Vorkommen der ID, die im Rahmen einer DSGVO-Anfrage mit diesem Namespace angegeben wird. Sie sollten weiterhin DEL-Beschriftungen für all diese Variablen festlegen, damit der Wert anonymisiert wird, egal, wo er auftritt.
+Sie können denselben Namespace für verschiedene Variablen innerhalb derselben Report Suite verwenden. Bei einigen benutzerdefinierten Implementierungen wird beispielsweise eine CRM-ID in einem Prop- und einem eVar-Objekt gespeichert. Wenn die CRM-ID immer in einer der Variablen auftritt (z. B. in der eVar) und nur gelegentlich in der anderen enthalten ist (Prop) bzw. niemals in der Prop enthalten ist, wenn sie auch nicht in der eVar vorkommt, ist nur für das eVar-Objekt eine ID-Beschriftung und ein Namespace erforderlich, da Adobe nur diese eVar nach der ID durchsuchen kann. Wenn die CRM-ID jedoch manchmal in einer Variablen und manchmal in der anderen vorkommt, sollten beide über denselben Namespace verfügen. Adobe sucht dann beide Variablen nach Vorkommnissen der ID, die als Teil einer Datendatenschutzanforderung mit diesem Namespace angegeben wurden. Sie sollten weiterhin DEL-Beschriftungen für all diese Variablen festlegen, damit der Wert anonymisiert wird, egal, wo er auftritt.
 
 Als weiteres Beispiel dient der Fall, in dem Sie eine CRM-ID verwenden, die manchmal via eVar1 und manchmal via prop7 gesendet wird. Mithilfe einer Verarbeitungsregel wird der Wert auf eVar1 (sofern vorhanden) in eVar3 kopiert. Andernfalls wird der Wert von prop7 in eVar3 kopiert. In diesem Szenario enthält eVar3 immer die CRM-ID (sofern sie bekannt ist), sodass nur für eVar3 eine ID-PERSON-Beschriftung erforderlich ist.
 
-> [!CAUTION] Die Namespaces "visitorid" und" customvisitorid" sind für die Identifizierung des Analytics-Legacy-Verfolgungscookies und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic- oder Konversionsvariablen.
+> [!CAUTION] Die Namespaces "visitorId"und "customVisitorId"sind zur Identifizierung des Legacy-Tracking-Cookies in Analytics und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierten Traffic oder Konversionsvariablen.
 
-## Variablentypen und unterstützte DSGVO-/DULE-Beschriftungen {#section_CE7C3EDE1344466A98BC45E394B40762}
+## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
-DSGVO-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Variablen aus. Nicht alle Variablen unterstützen alle Beschriftungen. Die folgende Tabelle zeigt, welche Variablen welche Beschriftungen unterstützen.
+Datenschutz/DAULE-Kennzeichnung betrifft vier breite Klassen von Analytics-Variablen. Nicht alle Variablen unterstützen alle Beschriftungen. Die folgende Tabelle zeigt, welche Variablen welche Beschriftungen unterstützen.
 
 <table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
  <thead> 
@@ -335,7 +335,7 @@ DSGVO-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Variablen 
    <td colname="col1"> <p>Datenverarbeitungsdimensionen </p> </td> 
    <td colname="col2"> <p>Benutzerspezifische Besucher-ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Sie können die ID- oder DEL-Beschriftungen nicht entfernen (auf "Ohne" einstellen), Sie können jedoch je nach Ihrer benutzerdefinierten ID-Implementierung entweder die Geräte- oder die Personenvarianten ändern. </p> <p>Wenn Sie die benutzerdefinierte Besucher-ID nicht verwenden, hat die Einstellung keine Bedeutung. </p> </td> 
+   <td colname="col4"> <p>Sie können die ID- oder DEL-Beschriftungen nicht entfernen (auf "Keine"festgelegt), sie können jedoch je nach Implementierung Ihrer benutzerdefinierten ID entweder als GERÄT- oder PERSON-Varianten geändert werden. </p> <p>Wenn Sie die benutzerdefinierte Besucher-ID nicht verwenden, spielt die Einstellung keine Rolle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -357,9 +357,9 @@ DSGVO-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Variablen 
 
 ## Löschverarbeitung {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
-Die Adobe Analytics-Unterstützung für DSGVO-Löschanfragen soll die Auswirkungen auf das Reporting minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein Verlaufsbericht, der vor der DSGVO-Löschung ausgeführt wurde, stimmt mit dem Bericht nach der Löschung überein. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die angezeigten Werte gleich bleiben.
+Die Unterstützung von Adobe Analytics für Löschungsanfragen zum Datenschutz wurde entwickelt, um die Auswirkungen auf die Berichterstellung zu minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein historischer Bericht, der vor dem Löschen des Datenschutzes ausgeführt wurde, stimmt mit demselben Bericht überein, der nach dem Löschen ausgeführt wurde. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die angezeigten Werte gleich bleiben.
 
-Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. Die Liste ist nicht vollständig.
+Die folgende Tabelle beschreibt, wie verschiedene Variablen "gelöscht"werden. Die Liste ist nicht vollständig.
 
 <table id="table_A329C2E2645F4685BC208826D070A5F6"> 
  <thead> 
@@ -371,11 +371,11 @@ Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. D
  <tbody> 
   <tr> 
    <td colname="col1"> <p>• Traffic-Variablen (Props) </p> <p>• Commerce-Variablen (eVars) </p> </td> 
-   <td colname="col2"> <p>Der bestehende Wert wird durch einen neuen Wert der Form „GDPR-356396D55C4F9C7AB3FBB2F2FA223482“ ersetzt, wobei der 32-stellige Hexadezimalwert nach dem Präfix „GDPR-“ eine kryptographisch starke 128-Bit-Pseudozufallszahl ist. Da der Wert im Wesentlichen durch eine zufällige Zeichenfolge ersetzt wird, gibt es keine Möglichkeit, den ursprünglichen Wert aus diesem neuen Wert zu bestimmen, und keine Möglichkeit, den neuen Wert abzuleiten, wenn der ursprüngliche Wert bekannt ist. </p> <p>Wenn bei einer Variablen der ersetzte Wert auch in anderen Treffern auftritt, die im Rahmen derselben DSGVO-Anfrage ebenfalls gelöscht werden, werden alle Instanzen dieses Werts durch den neuen Wert ersetzt. </p> <p>Wenn einige Instanzen eines Werts mit einer Löschanfrage ersetzt werden und im Rahmen einer späteren Anfrage andere (neue) Instanzen des ursprünglichen Werts gelöscht werden, unterscheidet sich der neue Ersatzwert vom ursprünglichen Ersatzwert. </p> </td> 
+   <td colname="col2"> <p>Bestehender Wert wird durch einen neuen Wert des Formulars "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482"ersetzt, wobei der 32-stellige Hexadezimalwert nach dem Präfix "Data Privacy-"kryptografisch stabil 128-bit pseudorandorandord ist Tom Nummer. Da der Wert im Wesentlichen durch eine zufällige Zeichenfolge ersetzt wird, gibt es keine Möglichkeit, den ursprünglichen Wert aus diesem neuen Wert zu bestimmen, und keine Möglichkeit, den neuen Wert abzuleiten, wenn der ursprüngliche Wert bekannt ist. </p> <p>Wenn bei einer bestimmten Variablen der gleiche Wert wie der ersetzte in anderen Treffern auftritt, die ebenfalls im Rahmen derselben Datenschutzanforderung gelöscht werden, werden alle Instanzen dieses Werts durch denselben neuen Wert ersetzt. </p> <p>Wenn einige Instanzen eines Werts mit einer Löschanfrage ersetzt werden und im Rahmen einer späteren Anfrage andere (neue) Instanzen des ursprünglichen Werts gelöscht werden, unterscheidet sich der neue Ersatzwert vom ursprünglichen Ersatzwert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kauf-ID </p> </td> 
-   <td colname="col2"> <p>Der bestehende Wert wird durch einen neuen Wert der Form „G-7588FCD8642718EC50“ ersetzt, wobei der 18-stellige Hexadezimalwert nach dem Präfix „G-“ den ersten 18 Stellen einer kryptographisch starken 128-Bit-Pseudozufallszahl entspricht. Alle Kommentare, die sich auf das Löschen von Traffic- und Commerce-Variablen beziehen, gelten auch hier. </p> <p>Die Kauf-ID ist eine Transaktions-ID, die primär sicherstellen soll, dass ein Kauf nicht zweimal berechnet wird, z. B. wenn jemand die Bestätigungsseite aktualisiert. Die ID selbst kann den Kauf mit einer Zeile in Ihrer eigenen Datenbank verknüpfen, wo der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird. Wenn Sie nach der DSGVO-Löschanfrage Ihrer eigenen Daten den Kauf noch an einen Benutzer binden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer gebunden werden können. </p> </td> 
+   <td colname="col2"> <p>Der vorhandene Wert wird durch einen neuen Wert der Form "G-7588FCD8642718EC50"ersetzt, wobei die 18 hexadezimalen Ziffern nach dem Präfix "G-"die ersten 18 Stellen einer kryptographisch starken 128-Bit-Pseudorandom-Nummer sind. Alle Kommentare, die sich auf das Löschen von Traffic- und Commerce-Variablen beziehen, gelten auch hier. </p> <p>Die Kauf-ID ist eine Transaktions-ID, die primär sicherstellen soll, dass ein Kauf nicht zweimal berechnet wird, z. B. wenn jemand die Bestätigungsseite aktualisiert. Die ID selbst kann den Kauf mit einer Zeile in Ihrer eigenen Datenbank verknüpfen, wo der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird. Wenn Sie den Einkauf nach der Anforderung zum Löschen Ihrer eigenen Daten durch den Datenschutz noch an einen Benutzer zurückbinden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer zurückgebunden werden können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> </td> 
@@ -383,7 +383,7 @@ Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. D
   </tr> 
   <tr> 
    <td colname="col1"> <p>• MCID </p> <p>• Benutzerspezifische Besucher-ID </p> <p>• IP-Adresse </p> <p>• IP-Adresse 2 </p> </td> 
-   <td colname="col2"> <p>Der Wert wird gelöscht (entweder durch eine leere Zeichenfolge oder „0“, je nach Variablentyp). </p> </td> 
+   <td colname="col2"> <p>Der Wert wird geleert (abhängig vom Variablentyp entweder auf die leere Zeichenfolge oder auf 0 gesetzt). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• ClickMap-Aktion (Legacy) </p> <p>• ClickMap-Kontext (Legacy) </p> <p>• Seite </p> <p>• Seiten-URL </p> <p>• URL der ursprünglichen Entrypage </p> <p>• Verweisende Stelle </p> <p>• URL der Besuchsstartseite </p> </td> 
@@ -396,9 +396,9 @@ Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. D
  </tbody> 
 </table>
 
-## Variablen, die die erwarteten Löschbeschriftungen nicht unterstützen {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variables that Don't Support the Expected Delete Labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
-Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung nicht unterstützen. Manchmal werden diese Variablen von anderen Personen als Analytics-Benutzern (z. B. von der Rechtsabteilung) gelöscht, die den in der Variablen enthaltenen Datentyp nicht kennen und deshalb anhand des Variablennamens von einem falschen Typ ausgehen. Im Folgenden finden Sie eine Liste dieser Variablen und erfahren, warum sie keine Löschung erfordern bzw. warum sie nicht über eine spezifische Löschbeschriftung verfügen.
+In diesem Abschnitt werden Informationen zu Analytics-Variablen erläutert, die das Löschen nicht unterstützen. Manchmal werden diese Variablen von anderen Personen als Analytics-Benutzern (z. B. von der Rechtsabteilung) gelöscht, die den in der Variablen enthaltenen Datentyp nicht kennen und deshalb anhand des Variablennamens von einem falschen Typ ausgehen. Im Folgenden finden Sie eine Liste dieser Variablen und warum sie nicht gelöscht werden müssen oder warum sie keine spezielle Löschbezeichnung benötigen.
 
 <table id="table_6FECF3D654514862912D371E6BE4143B"> 
  <thead> 
@@ -438,7 +438,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO-ID </p> </td> 
-   <td colname="col2"> <p> Die Adobe Advertising Cloud ID ist eine Lösungsvariable mit unveränderbarer DEL-DEVICE-Beschriftung. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. </p> </td> 
+   <td colname="col2"> <p> Die Adobe Advertising Cloud ID ist eine Lösungsvariable mit einer nicht änderbaren DEL-GERÄTEbeschriftung. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -478,6 +478,6 @@ Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
  </tbody> 
 </table>
 
-Für den Code zur Generierung der für DSGVO-Zugriffsanfragen zurückgegebenen Dateien ist es erforderlich, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Beschriftung, die für die Art der Anforderung gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
+Der Code zum Generieren der für Zugriffsanfragen zum Datenschutz zurückgegebenen Dateien erfordert, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Bezeichnung, die für den Anforderungstyp gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
 
-Die CSV-Datei auf Trefferebene, die für DSGVO-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Zeitfelder im Format JJJJ-MM-TT HH:MM:SS (z. B. 2018-05-01 13:49:22). In der zusammenfassenden HTML-Datei werden diese Zeitstempelwerte abgeschnitten, sodass nur das Datum JJJJ-MM-TT enthalten ist, um die Anzahl der eindeutigen Werte, die für diese Felder auftreten, zu reduzieren.
+Die für Zugriffsanforderungen zum Datenschutz zurückgegebene CSV-Datei auf Trefferebene konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Uhrzeitfelder des Formats JJJJ-MM-TT HH:MM:SS (z. B. 2018-05-01 13:49:22). In der zusammenfassenden HTML-Datei werden diese Zeitstempelwerte abgeschnitten, sodass nur das Datum JJJJ-MM-TT enthalten ist, um die Anzahl der eindeutigen Werte, die für diese Felder auftreten, zu reduzieren.
