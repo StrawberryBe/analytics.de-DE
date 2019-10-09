@@ -7,7 +7,7 @@ title: Activity Map Browser-Plug-ins installieren
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: eabc2e89336b2417d727aa59ba4c9c882c9599d1
+source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
 
 ---
 
@@ -50,7 +50,7 @@ Activity Map Browser-Plugins:
 1. Klicken Sie auf das Symbol **[!UICONTROL Menü öffnen]** oben rechts und wählen Sie **[!UICONTROL Add-ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. Activity Map sollte als eines der Firefox Add-ons aufgeführt werden.
-1. Wenn ein Adobe Analytics-Symbol ![ in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. ](assets/an_icon.png) Sie können Activity Map[(launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) jetzt von Ihrer Seite ]starten.
+1. Wenn ein Adobe Analytics-Symbol ![ in Ihrer Symbolleiste angezeigt wird, war der Download erfolgreich. ](assets/an_icon.png) Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
@@ -61,7 +61,7 @@ Activity Map Browser-Plugins:
 1. Klicken Sie auf **[!UICONTROL Ausführen], um die Activity Map-Installation einzuleiten.**
 1. Klicken Sie auf **[!UICONTROL Ja]im Popup, um dem Programm zu erlauben, Änderungen am Computer vorzunehmen.**
 1. Befolgen Sie die Anweisungen im Installationsassistenten.
-1. Wenn Activity Map erfolgreich installiert wurde, wird in Internet Explorer eine Benachrichtigung angezeigt, die darauf hinweist, dass die Activity Map-Symbolleiste einsatzbereit ist. Aktivieren Sie sie, um die Anwendung zu verwenden. Sie können Activity Map[(launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) jetzt von Ihrer Seite ]starten.
+1. Wenn Activity Map erfolgreich installiert wurde, wird in Internet Explorer eine Benachrichtigung angezeigt, die darauf hinweist, dass die Activity Map-Symbolleiste einsatzbereit ist. Aktivieren Sie sie, um die Anwendung zu verwenden. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
 
 ## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
 
@@ -69,4 +69,4 @@ Activity Map Browser-Plugins:
 
 1. Navigieren Sie zu <https://safari-extensions.apple.com/>.
 1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Sie können Activity Map[(launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) jetzt von Ihrer Seite ]starten.
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
