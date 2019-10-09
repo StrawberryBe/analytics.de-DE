@@ -7,7 +7,7 @@ title: Activity Map Browser-Plug-ins installieren
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map Browser-Plugins:
 * werden durch eine Schaltfläche oder ein Menüelement in der Browsersymbolleiste gestartet,
 * sind nur mit den neuesten Versionen dieser Desktopbrowser kompatibel: Internet Explorer, Firefox, Chrome und Safari,
 * unterstützen die Funktion **[!UICONTROL Anmeldung speichern],**
-* **können** die Activity Map-Symbolleiste auf Webseiten ohne Analytics-Seiten-Code einfügen, zeigen eine Fehlermeldung an, wenn die Seite den Analytics-Seiten-Code nicht enthält,
+* **** können die Activity Map-Symbolleiste auf Webseiten ohne Analytics-Seiten-Code einfügen, zeigen eine Fehlermeldung an, wenn die Seite den Analytics-Seiten-Code nicht enthält,
 * erfordern, dass Sie einen Installationsvorgang für Browser-Plugins ausführen.
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
