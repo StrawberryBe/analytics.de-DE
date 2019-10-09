@@ -4,9 +4,9 @@ seo-description: Die serverseitige Weiterleitung ist für Kunden bestimmt, die D
 seo-title: Übersicht über die serverseitige Weiterleitung
 solution: Audience Manager
 title: Übersicht über die serverseitige Weiterleitung
-uuid: 22 ddbde 5-6805-4 eba -8 f 82-62772644 dcaa
+uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 ---
 
@@ -17,7 +17,7 @@ Die serverseitige Weiterleitung ist für Kunden bestimmt, die Daten aus Analytic
 
 Die serverseitige Weiterleitung führt aus folgenden Gründen zu Optimierungen bei der Datenerfassung:
 
-* Reduzierung der Aufrufe auf der Seite. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Weniger Aufrufe bedeuten verbesserte Ladezeiten der Seite, wodurch sich die Benutzererfahrung auf Ihrer Site verbessert.
+* Reduzierung der Aufrufe auf der Seite. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Das Entfernen von DIL bedeutet, einen `"/event"` Aufruf zu entfernen. Weniger Aufrufe bedeuten verbesserte Ladezeiten der Seite, wodurch sich die Benutzererfahrung auf Ihrer Site verbessert.
 * Nutzung der Datenfreigabe für Experience Cloud-Lösungen.
 * Konformität mit unseren bewährten Methoden für die Audience Manager-Codeimplementierung und -Bereitstellung.
 
@@ -30,18 +30,18 @@ Die serverseitige Weiterleitung führt aus folgenden Gründen zu Optimierungen b
 
 Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Implementierung der serverseitigen Weiterleitung befindet, führen Sie die folgenden Validierungsschritte durch:
 
-## ![Schritt 1_ icon. png-Bildinmplementierung](assets/step1_icon.png) überprüfen
+## ![step1_icon.png image](assets/step1_icon.png) Verify MID service implementation
 
 Überprüfen Sie, ob der Experience Cloud ID-(MID-)Dienst implementiert wurde, indem Sie die [Analytics-Verfolgungsanfrage](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) prüfen.
 
-Stellen Sie auf der Registerkarte Anfrage sicher, dass ein MID-Wert festgelegt wurde. Dies teilt Ihnen mit, dass der Identitätsdienst korrekt implementiert ist, was eine Voraussetzung für die serverseitige Weiterleitung ist.
+Stellen Sie auf der Registerkarte Anfrage sicher, dass ein MID-Wert festgelegt wurde. Dies zeigt an, dass der Identitätsdienst korrekt implementiert ist, was eine Voraussetzung für die serverseitige Weiterleitung ist.
 
 * Wenn ein MID-Wert angezeigt wird, fahren Sie mit Schritt 2 fort.
 * If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
-## ![Schritt 2_ icon. png-Bild](assets/step2_icon.png) Überprüfen der serverseitigen Weiterleitung der Weiterleitung
+## ![step2_icon.png image](assets/step2_icon.png) Überprüfen der Implementierungsversion für serverseitige Weiterleitung
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](../../../admin/admin/c-server-side-forwarding/ssf-verify.md).
+Überprüfen Sie, ob bereits eine Version der serverseitigen Weiterleitung implementiert ist, indem Sie die Analytics-Verfolgungsanfrage [überprüfen](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
 Überprüfen Sie auf der Registerkarte „Antwort“, ob die Antwort Audience Manager-Daten umfasst. Bei Anzeige des Folgenden gilt das Nachstehende:
 
@@ -56,7 +56,7 @@ Verify whether you already have a version of server-side forwarding implemented,
    * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
 
 
-## ![Schritt 3_ icon. png-Bild](assets/step3_icon.png) Überprüfen der serverseitigen Weiterleitung der Report Suite
+## ![step3_icon.png image](assets/step3_icon.png) Überprüfen der serverseitigen Weiterleitung der Report Suite
 
 Überprüfen Sie, ob die serverseitige Weiterleitung auf Ebene der Report Suite implementiert wurde (anstelle des alten Verfolgungsserveransatzes).
 
