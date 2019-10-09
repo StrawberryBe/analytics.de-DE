@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 user-guide-url: /content/help/de-DE/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [Publishing-Widget](admin/publishing-widgets-admin.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
    + [Datenschutzeinstellungen](admin/privacy-settings.md)
+   + [Datenschutzeinstellungen](admin/privacy-reporting.md)
    + Verarbeitungsregeln {#processing-rules}
       + [Übersicht über Verarbeitungsregeln](admin/c-processing-rules/processing-rules.md)
       + Konfiguration der Verarbeitungsregeln {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [E-Mail-Benutzer](user-management2/t-email-users.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics und die DSGVO](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics und CCPA](c-data-governance/an-ccpa-overview.md)
    + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
-   + [DSGVO-Workflow von Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics-Arbeitsablauf zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
    + [Data Governance-Einstellungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
    + [Report Suite-Daten beschriften](c-data-governance/gdpr-setup-reportsuite.md)
    + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
-   + [DSGVO-Beschriftungen für Analytics-Variablen](c-data-governance/gdpr-labels.md)
+   + [Datenschutzbeschriftungen für Analytics-Variablen](c-data-governance/gdpr-labels.md)
    + [Namespaces](c-data-governance/gdpr-namespaces.md)
    + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
    + [Best Practices für Beschriftungen](c-data-governance/gdpr-analytics-ids.md)
    + [Beschriftungsbeispiel](c-data-governance/gdpr-labeling-example.md)
-   + [DSGVO und Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [DSGVO-Terminologie](c-data-governance/gdpr-terminology.md)
+   + [Datenschutz und Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Terminologie zum Datenschutz](c-data-governance/gdpr-terminology.md)
+   + [Variablen des Einwilligungsmanagements](c-data-governance/consent-variables.md)
 + Nutzung der Server-Aufrufe {#server-call-usage}
    + [Übersicht zur Nutzung von Server-Aufrufen](c-server-call-usage/overage-overview.md)
    + [Aktuelle Nutzung der Server-Aufrufe anzeigen](c-server-call-usage/server-call-usage-dashboard.md)
