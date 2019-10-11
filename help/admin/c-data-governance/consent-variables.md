@@ -6,7 +6,7 @@ solution: Analytics
 title: Variablen des Einwilligungsmanagements
 topic: Admin Tools
 translation-type: tm+mt
-source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
+source-git-commit: a272be92292f3a12be19a5d6fd061b32a565448c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 # Variablen des Einwilligungsmanagements
 
 Um zusätzliche Unterstützung bei der Verwaltung von Datenschutzdaten zu bieten, stehen eine Reihe reservierter Variablen zur Verfügung, die zusammen mit bestimmten Kontextdatenvariablen verwendet werden können.
-Diese Variablen zur Verwaltung der Zustimmung bieten ein einfach zu verwendendes Framework zur Erfassung des Genehmigungsstatus bei jedem Treffer der Analyse.
+Diese Variablen zur Verwaltung der Zustimmung bieten ein benutzerfreundliches Framework zur Erfassung des Genehmigungsstatus bei jedem Treffer der Analyse.
 
 ## Variablen
 
@@ -35,15 +35,15 @@ Diese Variablen zur Verwaltung der Zustimmung bieten ein einfach zu verwendendes
 
 ## Berichterstellung  
 
-Die Verwaltungsvariablen für die Zustimmung können über eine neue Datenschutzeinstellung aktiviert werden, die in der Analytics Admin-Konsole verfügbar ist.
+Sie können die Verwaltungsvariablen für Zustimmung über eine neue Datenschutzeinstellung aktivieren, die in der Analytics Admin-Konsole verfügbar ist.
 
-Jede Report Suite kann konfiguriert werden für:
-1. Klicken Sie in Reports &amp; Analysen auf Admin &gt; Report Suites.
-1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings &gt; Privacy Management]
+Jede Report Suite kann wie folgt konfiguriert werden:
+1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
 
    ![](assets/rsm-privacy-select.png)
 
-1. Klicken Sie auf die Schaltfläche [!UICONTROL Datenschutzberichte] aktivieren.  Hinweis: Nach der Aktivierung können diese Variablen nicht mehr deaktiviert werden.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Datenschutzberichte]** aktivieren. **** Hinweis: Nach der Aktivierung können diese Variablen nicht deaktiviert werden.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -63,21 +63,21 @@ Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie 
 
 ### SSF
 
-* Kontextdaten: `contextData.['cm.ssf']`
+* Kontextdaten: contextData.["cm.ssf"]
 * Akzeptierte Werte:
-   * `1` - Beim Senden des Werts `1`bedeutet dies, dass die serverseitige Weiterleitung einen Ausschluss-Status aufweist. Der mit dieser Variablen `1` gepaarte Wert blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-Datenschutzbestimmungen.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
-   * Für diesen Parameter werden keine anderen Werte akzeptiert
+   * 1 - Wenn der Wert "1"gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Ausschluss-Status aufweist. Der Wert "1"in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-Datenschutzbestimmungen.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * Für diesen Parameter werden keine anderen Werte akzeptiert.
 
 ### DMP
 
-* Kontextdaten: `contextData.['opt.dmp']`
+* Kontextdaten: contextData.['opt.dmp']
 * Akzeptierte Werte:
-   * `N` - Beim Senden des Werts `N`deutet dies darauf hin, dass der Verbraucher die Freigabe für Datenverwaltungsplattformen ablehnt. Beachten Sie, dass dies nicht die aktuelle Blockfreigabe für AAM bedeutet.  Verwenden Sie für diese Funktion SSF.
-   * `Y` - Beim Senden des Werts `Y`deutet dies darauf hin, dass sich der Verbraucher für die Freigabe an Datenverwaltungsplattformen entscheidet.
+   * N - Wenn der Wert "N"gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe für Datenverwaltungsplattformen ablehnt. **** Hinweis: Wenn diese Variable auf "N"gesetzt wird, wird die Freigabe für AAM derzeit nicht blockiert. Anfang 2020 wird jedoch das Blockieren von AAM-Aufrufen hinzugefügt. Adobe empfiehlt zunächst, sowohl das Senden von Treffern an AAM festzulegen `c.cm.ssf=1` als auch `c.opt.dmp=N` zu verhindern.
+   * Y - Wenn der Wert "Y"gesendet wird, deutet dies darauf hin, dass sich der Verbraucher für die Freigabe an Datenverwaltungsplattformen entscheidet.
 
 ### SELL
 
-* Kontextdaten: `contextData.['opt.sell']`
+* Kontextdaten: contextData.['opt.sell']
 * Akzeptierte Werte:
-   * `N` - Wenn der Wert gesendet wird `N`, deutet dies darauf hin, dass der Verbraucher die Freigabe oder den Verkauf der Daten an Dritte ablehnt.
-   * `Y` - Wenn der Wert gesendet wird `Y`, deutet dies darauf hin, dass der Verbraucher sich für die Freigabe oder den Verkauf der Daten an Dritte entscheidet.
+   * N - Wenn der Wert "N" gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe oder den Verkauf der Daten an Dritte ablehnt.
+   * Y - Wenn der Wert "Y"gesendet wird, deutet dies darauf hin, dass der Verbraucher sich für die Freigabe oder den Verkauf der Daten an Dritte entscheidet.
