@@ -7,7 +7,7 @@ title: Activity Map Browser-Plug-ins installieren
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
+source-git-commit: 696076af9407d47e3ce3e78c262e266101e90648
 
 ---
 
@@ -20,7 +20,7 @@ Activity Map Browser-Plugins:
 
 * werden manuell als Analytics-Seiten-Tag eingefügt,
 * werden durch eine Schaltfläche oder ein Menüelement in der Browsersymbolleiste gestartet,
-* sind nur mit den neuesten Versionen dieser Desktopbrowser kompatibel: Internet Explorer, Firefox, Chrome und Safari,
+* sind nur mit den neuesten Versionen dieser Desktop-Browser kompatibel: Internet Explorer, Firefox und Chrome.
 * unterstützen die Funktion **[!UICONTROL Anmeldung speichern],**
 * **** können die Activity Map-Symbolleiste auf Webseiten ohne Analytics-Seiten-Code einfügen, zeigen eine Fehlermeldung an, wenn die Seite den Analytics-Seiten-Code nicht enthält,
 * erfordern, dass Sie einen Installationsvorgang für Browser-Plugins ausführen.
@@ -62,11 +62,3 @@ Activity Map Browser-Plugins:
 1. Klicken Sie auf **[!UICONTROL Ja]im Popup, um dem Programm zu erlauben, Änderungen am Computer vorzunehmen.**
 1. Befolgen Sie die Anweisungen im Installationsassistenten.
 1. Wenn Activity Map erfolgreich installiert wurde, wird in Internet Explorer eine Benachrichtigung angezeigt, die darauf hinweist, dass die Activity Map-Symbolleiste einsatzbereit ist. Aktivieren Sie sie, um die Anwendung zu verwenden. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
-
-## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
-
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
-
-1. Navigieren Sie zu <https://safari-extensions.apple.com/>.
-1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Jetzt können Sie auf Ihrer Seite [Activity Map starten](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md).
