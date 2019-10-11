@@ -5,7 +5,7 @@ seo-title: Zugriffs- und Löschanfragen einreichen
 title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ## Überblick {#section_BD70882995894C1CA19C205C49FEC23C}
 
-Wenn Ihre Kunden (Verbraucher/Datensubjekte) wissen wollen, welche Daten Sie über sie besitzen, oder sich entschließen, dass ihre Daten aus Ihren Analytics-Datensätzen gelöscht werden sollen, sind Sie als Datenverantwortlicher für die Beantwortung solcher Anfragen verantwortlich. Der Datenverantwortliche legt fest, wie die Organisation mit betroffenen Personen interagiert (z. B. über ein entsprechendes Benutzerportal), und managt die Interaktion mit ihnen. Es unterliegt darüber hinaus der Verantwortung des Datenverantwortlichen, die Kommunikation mit dem Datensubjekt abzuschließen, nachdem die Anfrage bearbeitet wurde. Als Auftragsverarbeiter akzeptiert Adobe Experience Cloud also keine Anfragen direkt von betroffenen Personen und gibt keine Daten direkt an diese zurück. Stattdessen erhält Adobe Anfragen nur von Ihnen als Datenverantwortlicher und gibt Daten auch nur an Sie zurück.
+Wenn Ihre Kunden (Verbraucher/Datensubjekte) wissen möchten, welche Daten Sie über sie besitzen, oder verlangen, dass ihre Daten aus Ihren Analytics-Datensätzen gelöscht werden, sind Sie als Datenverantwortlicher für die Beantwortung solcher Anfragen verantwortlich. Der Datenverantwortliche legt fest, wie die Organisation mit betroffenen Personen interagiert (z. B. über ein entsprechendes Benutzerportal), und managt die Interaktion mit ihnen. Es unterliegt darüber hinaus der Verantwortung des Datenverantwortlichen, die Kommunikation mit dem Datensubjekt abzuschließen, nachdem die Anfrage bearbeitet wurde. Als Auftragsverarbeiter akzeptiert Adobe Experience Cloud also keine Anfragen direkt von betroffenen Personen und gibt keine Daten direkt an diese zurück. Stattdessen erhält Adobe Anfragen nur von Ihnen als Datenverantwortlicher und gibt Daten auch nur an Sie zurück.
 
 Sie sollten in Erwägung ziehen, Ihren Apps und Websites Hinweise hinzuzufügen, über die Sie betroffene Personen über ihre Rechte zu direkt oder indirekt identifizierbaren sowie über andere von Ihnen erfasste Daten informieren.
 
@@ -31,7 +31,7 @@ Dazu gehört die Überprüfung der von Adobe Analytics zurückgegebenen Daten im
 
 Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits. Sie können entscheiden, welche dieser Dateien Sie an die betroffene Person zurückgeben. Sie können auch Daten extrahieren oder mit Daten aus anderen Systemen kombinieren, bevor Sie sie an das Datensubjekt zurücksenden.
 
-## Anfragen einreichen {#section_F70F4D91B7FF4242876338A66D2125C3}
+## Anfragen einreichen {#submit-requests}
 
 Sie können den Datenschutz über unser Benutzeroberflächen-Portal für [Datenschutz](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) oder über unsere [Datenschutz-API einreichen und Anfragen löschen.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -122,12 +122,12 @@ Diese Abschnitte enthalten Reaktionsdetails zum Zugriff und zum Löschen.
 
 Die auf Zugriffsanfragen zurückgegebenen Daten enthalten eine URL, über die Sie als Datenverantwortlicher eine ZIP-Datei herunterladen können, die ein Verzeichnis für jedes Ihrer Adobe-Produkte enthält. Im Analytics-Ordner können sich folgende Elemente befinden:
 
-* Personendateien - Abgeleitet von Treffern mit einer übereinstimmenden ID-PERSON-Bezeichnung
+* Personendateien, abgeleitet aus Hits, die mit ID-PERSON übereinstimmen
 
    * Eine CSV-Datei mit einer Zeile für jeden passenden Treffer und einer Spalte für jedes Feld mit der Beschriftung ACC-ALL oder ACC-PERSON, sortiert nach Zeitstempel.
    * Eine HTML-Zusammenfassungsdatei mit einem Eintrag für jede ACC-ALL- oder ACC-PERSON-Beschriftung. Jeder Eintrag enthält alle eindeutigen Werte für das Feld sowie die Anzahl der jeweiligen Vorkommen. Felder mit Zeitstempeln werden gerundet, sodass nur eindeutige Tage angegeben werden.
 
-* Gerätedateien: Abgeleitet von Treffern, bei denen eines der Felder mit einem angegebenen ID-GERÄT übereinstimmte, jedoch keiner mit einer angegebenen ID-PERSON übereinstimmte
+* Gerätedateien, abgeleitet aus Treffern, in denen eines der Felder mit einer bestimmten ID-DEVICE, jedoch keines mit einer bestimmten ID-PERSON übereinstimmte
 
    * Eine CSV-Datei mit nur einer Zeile für jeden passenden Treffer und einer Spalte für jedes Feld mit der Beschriftung ACC-ALL, sortiert nach Zeitstempel.
    * HTML-Zusammenfassungsdatei mit einem Eintrag für jede ACC-ALL-Beschriftung. Jeder Eintrag enthält alle eindeutigen Werte für das Feld sowie die Anzahl der jeweiligen Vorkommen. Felder mit Zeitstempeln werden gerundet, sodass nur eindeutige Tage angegeben werden.
