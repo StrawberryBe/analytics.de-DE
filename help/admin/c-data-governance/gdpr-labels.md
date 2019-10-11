@@ -5,7 +5,7 @@ seo-title: Datenschutzbezeichnungen für Analytics-Variablen
 title: Datenschutzbezeichnungen für Analytics-Variablen
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ Viele Adobe-Kunden verfügen über juristische Teams, die die Datenschutzgesetze
 
 Adobe Analytics stellt Werkzeuge zur Verfügung, um Daten entsprechend ihrer Sensibilität und ihren vertraglichen Beschränkungen zu kennzeichnen. Kennzeichnungen sind wichtig und nützlich, denn sie helfen (1) die betroffenen Personen zu identifizieren, (2) zu bestimmen, welche Daten im Rahmen einer Zugriffsanforderung zurückgegeben werden sollen, und (3) Datenfelder zu identifizieren, die im Rahmen einer Löschanfrage gelöscht werden müssen.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 Die Adobe Analytics-Implementierung zum Datenschutz unterstützt die folgenden Bezeichnungen für Identitätsdaten, vertrauliche Daten und Datenverwaltung.
 
@@ -26,7 +26,7 @@ Die Adobe Analytics-Implementierung zum Datenschutz unterstützt die folgenden B
 
 >[!NOTE]
 >
->Das Data Usage Labelling &amp; Enforcement (DULE) Framework wurde entwickelt, um eine einheitliche Methode für alle Adobe-Lösungen/Dienste/Plattformen zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche Kontaktbeschränkungen für die Daten gelten. In dieser ersten Version legt Analytics nur die für den Datenschutz relevanten DULE-Bezeichnungen offen. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
+>Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über alle Lösungen, Services und Plattformen von Adobe hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in der Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten. In dieser ersten Version legt Analytics nur die für den Datenschutz relevanten DULE-Bezeichnungen offen. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
 
 ## Beschriftungen für Identitätsdaten (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,7 +85,7 @@ Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertra
  </tbody> 
 </table>
 
-## Bezeichnungen für Datenverwaltung (Datenschutz) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Bezeichnungen für Datenverwaltung (Datenschutz) {#data-governance-labels}
 
 Über Beschriftungen für Data Governance können Benutzer Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten.
 
@@ -212,7 +212,7 @@ Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum 
 
 Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmeldeunternehmen eine ID-Beschriftung zugewiesen haben, können Sie einen dieser vorhandenen Namespaces auswählen. Sie sollten den Namespace wiederverwenden, wenn diese Variable denselben ID-Typ enthält wie andere Variablen, die bereits mit diesem Namespace beschriftet sind, und Sie beim Senden einer Anfrage alle Variablen durchsuchen wollen.
 
-1. Klicken Sie auf **[!UICONTROL Namespace auswählen], und wählen Sie einen der vorhandenen Namespaces aus.**
+1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und wählen Sie einen der vorhandenen Namespaces aus.
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
 ![](assets/namespace.png)
@@ -221,11 +221,11 @@ Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmel
 
 Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-Zeichenfolgen auf alphanumerische Zeichen sowie Unterstriche, Bindestriche und Leerzeichen zu beschränken. Alle Zeichen werden in Kleinschreibung konvertiert.
 
-1. Klicken Sie auf **[!UICONTROL Namespace auswählen], und geben Sie den Namespace-Titel ein.**
+1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und geben Sie den Namespace-Titel ein.
 
    ![](assets/namespace2.png)
 
-1. Drücken Sie die **[!UICONTROL Eingabetaste], um diesen Namespace hinzuzufügen.** Erst jetzt ist die Schaltfläche „Übernehmen“ aktiviert.
+1. Drücken Sie die **[!UICONTROL Eingabetaste]**, um diesen Namespace hinzuzufügen. Erst jetzt ist die Schaltfläche „Übernehmen“ aktiviert.
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
 Die Zeichenfolge, die Sie als Namespace angeben, ist dieselbe Zeichenfolge, die Sie beim Senden von Anforderungen über die Data Privacy API als Wert des Parameters "namespace"verwenden sollten. Aufgrund der Anfrage durchsucht Adobe Analytics anschließend alle Variablen in allen Report Suites, in denen dieser Namespace verwendet wird, nach der ID, die Sie in der Anfrage angegeben haben.
@@ -244,7 +244,7 @@ Sie können denselben Namespace für verschiedene Variablen innerhalb derselben 
 
 Als weiteres Beispiel dient der Fall, in dem Sie eine CRM-ID verwenden, die manchmal via eVar1 und manchmal via prop7 gesendet wird. Mithilfe einer Verarbeitungsregel wird der Wert auf eVar1 (sofern vorhanden) in eVar3 kopiert. Andernfalls wird der Wert von prop7 in eVar3 kopiert. In diesem Szenario enthält eVar3 immer die CRM-ID (sofern sie bekannt ist), sodass nur für eVar3 eine ID-PERSON-Beschriftung erforderlich ist.
 
-> [!CAUTION] Die Namespaces "visitorId"und "customVisitorId"sind zur Identifizierung des Legacy-Tracking-Cookies in Analytics und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierten Traffic oder Konversionsvariablen.
+> [!CAUTION] Die Namespaces „visitorId“ und „customVisitorId“ sind zur Identifikation des früheren Tracking-Cookies von Analytics und der benutzerdefinierten Besucher-ID von Analytics reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +335,7 @@ Datenschutz/DAULE-Kennzeichnung betrifft vier breite Klassen von Analytics-Varia
    <td colname="col1"> <p>Datenverarbeitungsdimensionen </p> </td> 
    <td colname="col2"> <p>Benutzerspezifische Besucher-ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Sie können die ID- oder DEL-Beschriftungen nicht entfernen (auf "Keine"festgelegt), sie können jedoch je nach Implementierung Ihrer benutzerdefinierten ID entweder als GERÄT- oder PERSON-Varianten geändert werden. </p> <p>Wenn Sie die benutzerdefinierte Besucher-ID nicht verwenden, spielt die Einstellung keine Rolle. </p> </td> 
+   <td colname="col4"> <p>Die ID- oder DEL-Beschriftungen (mit „None“ festgelegt) können zwar nicht entfernt werden, Sie können sie aber je nach benutzerdefinierter ID-Implementierung in die DEVICE- oder PERSON-Variante ändern. </p> <p>Wenn Sie die benutzerdefinierte Besucher-ID nicht verwenden, spielt die Einstellung keine Rolle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -434,11 +434,11 @@ In diesem Abschnitt werden Informationen zu Analytics-Variablen erläutert, die 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Werte für Unique Visitors im Verlaufsbericht. </p> </td> 
+   <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Werte für Unique Visitors im Verlaufsbericht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO-ID </p> </td> 
-   <td colname="col2"> <p> Die Adobe Advertising Cloud ID ist eine Lösungsvariable mit einer nicht änderbaren DEL-GERÄTEbeschriftung. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. </p> </td> 
+   <td colname="col2"> <p> Bei der Adobe Advertising Cloud-ID handelt es sich um eine Lösungsvariable, die über eine nicht veränderbare DEL-DEVICE-Beschriftung verfügt. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
