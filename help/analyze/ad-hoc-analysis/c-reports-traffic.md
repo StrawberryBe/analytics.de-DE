@@ -7,7 +7,7 @@ title: Berichte zu Traffic-Quellen
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ Die folgenden Zeilenelemente werden evtl. bei Ausführung dieses Berichts angeze
 
 **Innerhalb Ihrer Site**: Diese Elemente sind URLs, die von den internen URL-Filtern vergeben werden. Diese Elemente werden nicht als     Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
 
-** Kein Java Script**: Es gab kein JavaScript, sodass der Typ nicht identifiziert werden konnte (unbekannt). Das heißt, dass es keine Informationen zu Referrern von einem Client für einen Browser gibt, der keine Unterstützung von JavaScript meldet. Diese Elemente werden nicht als Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
+**Kein JavaScript**: Es gab kein JavaScript, weshalb der Typ nicht identifiziert werden konnte (unbekannt). Das heißt, dass es keine Informationen zu Referrern von einem Client für einen Browser gibt, der keine Unterstützung von JavaScript meldet. Diese Elemente werden nicht als Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
 
 **USENET (Newsgroup)**: Das heißt, dass die URL eines Referrer mit `news://` :// eingeleitet wurde. Folglich wurde der Link des Referrer in einer USENET-Newsgroup und nicht auf einer Webseite veröffentlicht.
 
