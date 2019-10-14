@@ -5,9 +5,9 @@ seo-title: Pfadberichte
 solution: Analytics
 title: Pfadberichte
 topic: Ad Hoc Analysis
-uuid: 5881 cb 1 c -6 d 66-49 fe-ac 84-70 b 82662 acd 2
+uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,43 +16,43 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Zeigt Informationen zur Reihenfolge an, in der die Seiten Ihrer Website aufgerufen werden. Sie können Informationen darüber sammeln, wohin ein Besucher vor und nach dem Besuch einer Seite auf Ihrer Site navigiert.
 
-## Paths reports {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## Pfadberichte {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 Zeigt Informationen zur Reihenfolge an, in der die Seiten Ihrer Website aufgerufen werden. Sie können Informationen darüber sammeln, wohin ein Besucher vor und nach dem Besuch einer Seite auf Ihrer Site navigiert.
 
 Pfadberichte enthalten standardmäßig umfassende und optional erweiterte Analyseberichte, die den Clickstream der angezeigten Seiten aufzeigen. Sie haben die Möglichkeit vollständige, längste und bevorzugte Pfade zu ermitteln, den Seitenfluss, die Trichteranalyse und den Abbruch grafisch darzustellen, neue und sich mit der Zeit ändernde Muster anzuzeigen und Einstiegs- und Ausstiegspfade zu analysieren.
 
-** [!UICONTROL Next Page Flow] ** or ** [!UICONTROL Next Site Flow]**: Displays a two-level-deep branching graphic of a selected page (or section, department, and so on), that your visitors view after moving away from the selected page. Mit diesem Bericht können Sie die häufigsten Schritte Ihrer Benutzer nach Verlassen einer bestimmten Seite identifizieren und analysieren. Sie können:
+**[!UICONTROL Nächster Seitenfluss]** oder **[!UICONTROL Nächster Site-Fluss]**: Zeigt Ihren Besuchern eine zwei Ebenen tiefe, verzweigte Grafik einer ausgewählten Seite (oder eines Bereichs, einer Abteilung etc.) an, nachdem diese die ausgewählte Seite verlassen. Mit diesem Bericht können Sie die häufigsten Schritte Ihrer Benutzer nach Verlassen einer bestimmten Seite identifizieren und analysieren. Sie können:
 
 * zu erkennen, welche Schritte am häufigsten nach Ansicht der gewählten Seite ausgeführt werden
 * Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken
 * zu identifizieren, welche Seiten statt der gewünschten Zielseiten die Besucher aufrufen.
 
-** [!UICONTROL Next Page] ** (or next categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed after seeing a selected page. Wenn Sie beispielsweise eine Auswahl und einen Bericht für Ihre gesamte Site erstellen, werden Ihnen hier die Top-10 der Landingpages angezeigt. Unter jeder der Landingpages werden darüber hinaus die fünf beliebtesten nächsten Seiten aufgeführt. Mithilfe dieser Daten können Sie erkennen, welcher Inhalt, welche Merkmale und andere Daten Ihre Besucher am ehesten dazu verleiten, durch Ihre Website zu navigieren.
+**[!UICONTROL Nächste Seite]** (oder nächste Kategorien): Bietet eine detaillierte Site-Pfad-Analyse durch die Anzeige der Seiten auf Ihrer Site, die die Besucher nach einer bestimmten Seite aufgerufen haben. Wenn Sie beispielsweise eine Auswahl und einen Bericht für Ihre gesamte Site erstellen, werden Ihnen hier die Top-10 der Landingpages angezeigt. Unter jeder der Landingpages werden darüber hinaus die fünf beliebtesten nächsten Seiten aufgeführt. Mithilfe dieser Daten können Sie erkennen, welcher Inhalt, welche Merkmale und andere Daten Ihre Besucher am ehesten dazu verleiten, durch Ihre Website zu navigieren.
 
-** [!UICONTROL Previous Page Flow] ** (or other previous categories flow): Displays two levels of the most popular pages that your visitors view before the selected page. Der Bericht hebt auch hervor, wo die Besucher in die Site einsteigen.
+**[!UICONTROL Vorheriger Seitenfluss]** (oder Fluss anderer vorheriger Kategorien): Zeigt die zwei Stufen der am häufigsten bevorzugten Seiten an, die Besucher vor der gewählten Seite aufrufen. Der Bericht hebt auch hervor, wo die Besucher in die Site einsteigen.
 
-** [!UICONTROL Previous Page] ** (or other previous categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed before seeing a selected page on your site.
+**[!UICONTROL Vorherige Seite]** (oder andere vorherige Kategorien): Bietet eine detaillierte Site-Pfadanalyse durch die Anzeige der Seiten auf Ihrer Site, die die Besucher vor einer bestimmten Seite aufgerufen haben.
 
-** [!UICONTROL Fallout] **: Displays the visit attrition and conversion rates between each checkpoint you define. Die Schritte werden von oben nach unten angeordnet, wobei Rohdaten und Prozente links und Konversions- und Abgangsprozentsätze rechts stehen.
+**[!UICONTROL Fallout]**: Zeigt den Besuchsabbruch und Konversionssätze zwischen den einzelnen, von Ihnen definierten Checkpoints an. Die Schritte werden von oben nach unten angeordnet, wobei Rohdaten und Prozente links und Konversions- und Abgangsprozentsätze rechts stehen.
 
 Siehe [Fallout-Bericht](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) für weitere Informationen.
 
-** [!UICONTROL Path Length] **: Shows how deep visitors browse into your site (both by percentage and by total count). Anders ausgedrückt zeigt der Bericht, wie viele Seiten der Besucher in der Regel zur Ansicht aufruft, bevor er die Site verlässt.
+**[!UICONTROL Pfadlänge]**: Zeigt, wie tief Besucher in Ihre Site eindringen (sowohl nach Prozentsatz als auch nach Gesamtanzahl). Anders ausgedrückt zeigt der Bericht, wie viele Seiten der Besucher in der Regel zur Ansicht aufruft, bevor er die Site verlässt.
 
-** [!UICONTROL Page Analysis] **: Contains a subset of reports that let you analyze the following:
+**[!UICONTROL Seitenanalyse]**: Enthält eine Untergruppe von Berichten, mit denen Sie Folgendes analysieren können:
 
-* ** [!UICONTROL Page Summary / Site Category Summary] **: Tells you everything you need to know about the page report. Sammelt und verwaltet seitenspezifische Informationen über eine Seite und zeigt diese in einem einzelnen Bericht an.
-* ** [!UICONTROL Reloads] **: Shows the number of times individual pages were reloaded by visitors.
-* ** [!UICONTROL Time Spent on Page / Site Category] **: Displays the length of time that visitors browse individual pages in your site. Die Zeitdauer ist in zehn Kategorien unterteilt: weniger als 15 Sekunden, 15 – 30 Sekunden, 30 – 60 Sekunden, 1 – 3 Minuten, 3 – 5 Minuten, 5 – 10 Minuten, 10 – 15 Minuten, 15 – 20 Minuten, 20 – 30 Minuten und mehr als 30 Minuten.
-* ** [!UICONTROL Clicks to Page] **: Identifies the number of clicks visitors used to access each page in your site. Die Tiefe einer Seite wird an der Anzahl der zuvor angezeigten Seiten gemessen.
+* **[!UICONTROL Seitenzusammenfassung/Site-Kategorienzusammenfassung]**: Teilt Ihnen alles mit, was Sie über den Seitenbericht wissen müssen. Sammelt und verwaltet seitenspezifische Informationen über eine Seite und zeigt diese in einem einzelnen Bericht an.
+* **[!UICONTROL Neuladungen]**: Zeigt an, wie oft einzelne Seiten von Besuchern neu geladen wurden.
+* **[!UICONTROL Besuchszeit pro Seite/Site-Kategorie]**: Zeigt an, wie viel Zeit Besucher auf den einzelnen Seiten Ihrer Site verbringen. Die Zeitdauer ist in zehn Kategorien unterteilt: weniger als 15 Sekunden, 15 – 30 Sekunden, 30 – 60 Sekunden, 1 – 3 Minuten, 3 – 5 Minuten, 5 – 10 Minuten, 10 – 15 Minuten, 15 – 20 Minuten, 20 – 30 Minuten und mehr als 30 Minuten.
+* **[!UICONTROL Klicks pro Seite]**: Identifiziert die Anzahl Klicks, die die Besucher beim Zugriff auf die einzelnen Seiten Ihrer Website verwendeten. Die Tiefe einer Seite wird an der Anzahl der zuvor angezeigten Seiten gemessen.
 
-** [!UICONTROL Entries &amp; Exits] **: The [!UICONTROL Entry Page] report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visitors. Die Ansicht erfasst:
+**[!UICONTROL Einstiege und Ausstiege]**: Der Bericht zu [!UICONTROL Entrypages] zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site von neuen Besuchern zuerst aufgerufen werden. Die Ansicht erfasst:
 
-* ** [!UICONTROL Entry Pages] ** (or sections): Displays, by percentage and by total visits, which pages on your site are the first pages seen by a new visitor. Anhand dieses Berichts können Sie erkennen, welche Ihrer Webseiten die häufigsten Einstiegspunkte sind, und können dann die primären Einstiegspunkte Ihrer Site optimieren, um den Einstiegs-Traffic auf Ihre wichtigsten Mitteilungen zu lenken.
-* ** [!UICONTROL Original Entry Pages] **: Shows the first page viewed for first-time visitors to your site. Benutzer werden nur einmal gezählt, es sei denn, der Benutzer löscht seine Cookies oder wird nicht durch Cookies verfolgt.
-* ** [!UICONTROL Single Page Visits] **: Shows pages that are most often both the entry and exit pages for visitor browsing sessions.
-* ** [!UICONTROL Exit Pages] **: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site.
+* **[!UICONTROL Entrypages]** (oder Abschnitte): Zeigt nach Prozentsatz und nach Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site von neuen Besuchern zuerst aufgerufen werden. Anhand dieses Berichts können Sie erkennen, welche Ihrer Webseiten die häufigsten Einstiegspunkte sind, und können dann die primären Einstiegspunkte Ihrer Site optimieren, um den Einstiegs-Traffic auf Ihre wichtigsten Mitteilungen zu lenken.
+* **[!UICONTROL Ursprüngliche Entrypages]**: Zeigt die erste angezeigte Seite eines ersten Besuchs auf Ihrer Site. Benutzer werden nur einmal gezählt, es sei denn, der Benutzer löscht seine Cookies oder wird nicht durch Cookies verfolgt.
+* **[!UICONTROL Einzelseitenbesuche]**: Zeigt Seiten, die am häufigsten sowohl Einstiegs- als auch Exitpages für Besucher waren.
+* **[!UICONTROL Exitpages]**: Zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche die letzten Seiten waren, die die Besucher vor dem Verlassen der Site aufgerufen haben.
 
 ## Fallout-Bericht {#concept_0ED452F3B1D04A19A59DD04D76D20347}
 
@@ -121,5 +121,5 @@ r_dsc_fallout.xml
 | Gesamterfolg % | Eine kumulative Gesamtsumme der Prozentanteile von Besuchern, die an jedem Checkpoint angelangen. |
 | Checkpoint % | Der Erfolgsprozentsatz zwischen Checkpoints. (Nicht kumulativ.) |
 | Alle Besuche aufnehmen | Fügt alle Besuche als Start-Checkpoint hinzu. |
-| Trichteranalyse | Hier können Sie sehen, welche Seiten angezeigt wurden, nachdem der Besucher den festgelegten Checkpoint-Pfad verlassen hatte. |
+| Fallout | Hier können Sie sehen, welche Seiten angezeigt wurden, nachdem der Besucher den festgelegten Checkpoint-Pfad verlassen hatte. |
 | Fall-through (Verbleib)  | Hier können Sie sehen, welche Seiten im nächsten Schritt des festgelegten Checkpoint-Pfads angezeigt wurden. |
