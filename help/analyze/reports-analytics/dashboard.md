@@ -1,23 +1,23 @@
 ---
 description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
 seo-description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
-seo-title: Dashboards und Reportlets
+seo-title: Dashboards und Kurzberichte
 solution: Analytics
 subtopic: Dashboards
-title: Dashboards und Reportlets
+title: Dashboards und Kurzberichte
 topic: Reports and Analytics
-uuid: 7 a 7 b 3 bc 9-0 a 3 c -49 b 0-9168-e 2878 ae 67 b 97
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Dashboards und Reportlets
+# Dashboards und Kurzberichte
 
 Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## Dashboards und Kurzberichte {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die *`reportlets`*. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
 
@@ -36,7 +36,7 @@ Bedenken Sie, dass einige häufig angezeigte Berichte nicht in Dashboards umgewa
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. Es gibt jedoch einige Fälle, in denen einige oder alle Kurzberichte dieser Übersicht angezeigt werden.
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Es gibt jedoch einige Fälle, in denen einige oder alle Kurzberichte dieser Übersicht angezeigt werden.
 
 * Wenn Sie beispielsweise nur drei häufig angezeigte Berichte haben, übernimmt Reports &amp; Analytics zwei Berichte aus dem Dashboard „Site-Übersicht“, um das Dashboard **[!UICONTROL Meine empfohlenen Berichte]zu vervollständigen.**
 * Ganz neue Report Suites werden zu Beginn auch in den Kurzberichten der Site-Übersicht angezeigt, bis sie durch Ihre häufig angezeigten Berichte ersetzt werden. Außerdem heißt das Dashboard nun **[!UICONTROL Meine empfohlenen Berichte]**.
@@ -78,7 +78,7 @@ Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Si
 1. Click **[!UICONTROL Add Dashboard]**.
 1. Geben Sie einen Namen für das Dashboard ein.
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
-1. Konfigurieren der Dashboard-Seite: 
+1. Konfigurieren der Dashboard-Seite:
 
    * **[!UICONTROL Seite hinzufügen]**: Fügt dem Dashboard eine leere Seite hinzu, auf die Sie Inhalte ziehen können, um Reportlets zu erstellen.
    * **[!UICONTROL Papier]**: Ermöglicht das Festlegen eines Papierformats, wie z. B. Querformat, Hochformat oder A4.
@@ -86,10 +86,10 @@ Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Si
 
 1. Fügen Sie dem Dashboard verfügbare Inhalte hinzu, indem Sie Elemente in die Reportlet-Arbeitsfläche ziehen.
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Siehe [Erstellen eines Reportlets](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) und [Bearbeiten der Dashboard-Einstellungen](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
 
-   Durch das Speichern eines Dashboards wird dieses im Menü **[!UICONTROL Dashboard]verfügbar.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Durch das Speichern eines Dashboards wird dieses im Menü **[!UICONTROL Dashboard]verfügbar.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Siehe [Verwalten von Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (Optional) Um das Dashboard als Ihre Einstiegsseite einzurichten, klicken Sie auf **Mehr Optionen** &gt; **[!UICONTROL Als Einstiegsseite festlegen]**.
 
@@ -233,5 +233,5 @@ segments_dashboards.xml
 
 Segmente können auf zwei Ebenen angewendet werden: auf ein ganzes Dashboard oder ein bestimmtes Reportlet.
 
-* **Reportlet-Ebene**: Klicken **[!UICONTROL Sie auf Layout]** und dann auf die Report Suite des Reportlets, das Sie segmentieren möchten. Daraufhin wird ein modales Fenster geöffnet, in dem Sie die Segmente hinzufügen oder ändern können, die das Reportlet nutzt.
+* **Reportlet-Ebene**: Klicken Sie auf **[!UICONTROL Layout]** und dann auf die Report Suite des Reportlets, das Sie segmentieren möchten. Daraufhin wird ein modales Fenster geöffnet, in dem Sie die Segmente hinzufügen oder ändern können, die das Reportlet nutzt.
 * **Dashboard-Ebene**: Klicken Sie auf das Segmentsymbol im linken Navigationsbereich, aktivieren Sie die gewünschten Segmente und klicken Sie auf „Übernehmen“. Die ausgewählten Segmente überschreiben und ersetzen etwaige Segmente auf Reportlet-Ebene.
