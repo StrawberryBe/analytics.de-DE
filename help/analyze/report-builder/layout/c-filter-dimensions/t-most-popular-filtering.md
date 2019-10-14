@@ -1,18 +1,18 @@
 ---
 description: Rangordnung und bedingte Filter, die Sie mit UND/ODER-Suchausdrücken entsprechend Boolscher Logik konfigurieren.
 seo-description: Rangordnung und bedingte Filter, die Sie mit UND/ODER-Suchausdrücken entsprechend Boolscher Logik konfigurieren.
-seo-title: Bevorzugte Filterung
+seo-title: Bevorzugte Filter
 solution: Analytics
-title: Bevorzugte Filterung
+title: Bevorzugte Filter
 topic: ReportBuilder
-uuid: 558 fa 592-41 be -4 e 66-8705-81262 afe 1 fc 7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Bevorzugte Filterung
+# Bevorzugte Filter
 
 Rangordnung und bedingte Filter, die Sie mit UND/ODER-Suchausdrücken entsprechend Boolscher Logik konfigurieren.
 
@@ -35,7 +35,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >Die Anwendung von Filtern auf vorhandene Anforderungen führt zu Änderungen bei den präsentierten Daten. Angenommen, Sie haben die zehn beliebtesten [!UICONTROL Seiten] den Zellen $A$1 bis $A$10 zugeordnet, mit einem [!UICONTROL Startrang] von 1 und einer [!UICONTROL Anzahl der Einträge] von 10. Wenn Sie diese Werte auf 1 für den [!UICONTROL Startrang] und nur 3 für die [!UICONTROL Anzahl der Einträge] ändern, werden die vorher in den Zellen $A$4 bis $A$10 angezeigten Daten nicht mehr angezeigt.
+   >Die Anwendung von Filtern auf bestehende Anforderungen führt zu Änderungen in den angezeigten Daten. Angenommen, Sie haben die zehn beliebtesten [!UICONTROL Seiten] den Zellen $A$1 bis $A$10 zugeordnet, mit einem [!UICONTROL Startrang] von 1 und einer [!UICONTROL Anzahl der Einträge] von 10. Wenn Sie diese Werte auf 1 für den [!UICONTROL Startrang] und nur 3 für die [!UICONTROL Anzahl der Einträge] ändern, werden die vorher in den Zellen $A$4 bis $A$10 angezeigten Daten nicht mehr angezeigt.
 
 1. Um einen Suchausdruck zu erstellen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
@@ -45,7 +45,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png): Hiermit können Sie eine Bedingung finden, die in einem Zellenwert definiert ist.
 
-   ** Bedingung hinzufügen: ** Fügt dem Ausdruck eine Bedingung hinzu. Die Zahl der Bedingungen, die Sie hinzufügen können, ist nicht beschränkt.
+   **Bedingung hinzufügen:** Fügt eine Bedingung zum Ausdruck hinzu. Die Zahl der Bedingungen, die Sie hinzufügen können, ist nicht beschränkt.
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
