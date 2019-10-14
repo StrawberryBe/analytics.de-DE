@@ -1,18 +1,18 @@
 ---
 description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
 seo-description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
-seo-title: Übersicht über Data Warehouse
+seo-title: Data Warehouse-Übersicht
 solution: Analytics
-title: Übersicht über Data Warehouse
+title: Data Warehouse-Übersicht
 topic: Data Warehouse
-uuid: 768557 dd -1644-4 ce 6-bfc 2-8 c 46 dd 6 e 1 cd 1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Übersicht über Data Warehouse
+# Data Warehouse-Übersicht
 
 Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
 
@@ -24,11 +24,11 @@ Data Warehouse kann eine unbegrenzte Anzahl an Zeilen in einer einzigen Anforder
 
 >[!NOTE]
 >
->Data Warehouse meldet den ersten Wert, der im Berichtszeitraum auftrat.
+>Data Warehouse meldet den ersten im Berichtszeitraum aufgetretenen Wert.
 
 >[!IMPORTANT]
 >
->Bei der Segmentierung für klassifizierte Werte werden in Analysis Workspace und Data Warehouse die'nicht angegeben '-Werte unterschiedlich behandelt. „Nicht spezifiziert“ in Workspace bezieht sich auf Werte, die nicht klassifiziert sind, während „nicht spezifiziert“ in Data Warehouse auf Werte verweist, die Sie als „nicht spezifiziert“ klassifiziert haben.
+>Bei der Segmentierung nach klassifizierten Werten behandeln Analysis Workspace und Data Warehouse "nicht angegebene"Werte unterschiedlich. „Nicht spezifiziert“ in Workspace bezieht sich auf Werte, die nicht klassifiziert sind, während „nicht spezifiziert“ in Data Warehouse auf Werte verweist, die Sie als „nicht spezifiziert“ klassifiziert haben.
 
 ## Data Warehouse-Anforderungen – Beschreibungen {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ In dieser Tabelle werden die Felder und Optionen in dem Register [!UICONTROL Dat
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Verfügbare Segmente</span> </td> 
-   <td colname="col2"> <p>Hier können Sie den Teil der Besucher auswählen, den Sie untersuchen und weiter segmentieren möchten. Sie können vorkonfigurierte Segmente laden, neue Segmente erstellen und Segmentkomponenten in einer Bibliothek zur Verwendung beim Aufbau zusätzlicher Segmente speichern. </p> <p>Segmente können jetzt gestapelt werden. Wenn mehrere Segmente ausgewählt werden, wird im Vorschaubereich, im Anforderungs-Manager und im Popup mit den Anforderungsdetails eine durch Kommas getrennte Liste der Namen angezeigt (z. B. Segment1, Segment2). </p> <p>Weitere Informationen finden Sie unter [Segmentierungsleitfaden] (/help/components/c-segmentation/seg-home. md). </p> <p>Hinweis: Sie können in einem Data Warehouse-Bericht auf demselben Segment weder einen Segmentfilter noch eine Aufschlüsselung anwenden. Dies führt zu einem Fehler. </p> </td> 
+   <td colname="col2"> <p>Hier können Sie den Teil der Besucher auswählen, den Sie untersuchen und weiter segmentieren möchten. Sie können vorkonfigurierte Segmente laden, neue Segmente erstellen und Segmentkomponenten in einer Bibliothek zur Verwendung beim Aufbau zusätzlicher Segmente speichern. </p> <p>Segmente können jetzt gestapelt werden. Wenn mehrere Segmente ausgewählt werden, wird im Vorschaubereich, im Anforderungs-Manager und im Popup mit den Anforderungsdetails eine durch Kommas getrennte Liste der Namen angezeigt (z. B. Segment1, Segment2). </p> <p>See the <a href="/help/components/c-segmentation/seg-home.md"> Segmentation Guide</a> for more information. </p> <p>Hinweis: Sie können in einem Data Warehouse-Bericht auf demselben Segment weder einen Segmentfilter noch eine Aufschlüsselung anwenden. Dies führt zu einem Fehler. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aufschlüsselung</span> </td> 
@@ -65,11 +65,11 @@ In dieser Tabelle werden die Felder und Optionen in dem Register [!UICONTROL Dat
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Metriken</span> </td> 
-   <td colname="col2">Ermöglicht das Hinzufügen von Metriken, die Sie erstellen möchten. </td> 
+   <td colname="col2">Ermöglicht das Hinzufügen von Metriken, über die Sie einen Bericht erstellen möchten. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Sortieren von Metriken</span> </td> 
-   <td colname="col2">Bietet aufgeschlüsselte Rangberichte, die nach absteigendem Metrikwert sortiert sind und in etwa dem entsprechen, was in den Benutzeroberflächen von Reports &amp; Analytics, Data Workbench usw. angezeigt wird. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local">Mehr...</a> </td> 
+   <td colname="col2">Bietet aufgeschlüsselte Rangberichte, die nach absteigendem Metrikwert sortiert sind und in etwa dem entsprechen, was in den Benutzeroberflächen von Reports &amp; Analytics, Data Workbench usw. angezeigt wird. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> Mehr...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bereitstellung planen</span> </td> 
