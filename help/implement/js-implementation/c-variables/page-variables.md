@@ -9,7 +9,7 @@ title: Seitenvariablen
 topic: Entwickler und Implementierung
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,7 +30,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Diese Variable sollte nur gelesen und nie eingestellt werden.
 
 Sie dürfen diese Werte lesen und in Eigenschaftsvariablen/eVars kopieren, jedoch nie ändern. Diese Variable wird mit der Version H.11 der JavaScript-Datei neu eingeführt.
 
@@ -69,7 +69,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Diese Variable sollte nur gelesen und nie eingestellt werden.
 
 Sie dürfen diese Werte lesen und in Eigenschaftsvariablen/eVars kopieren, jedoch nie ändern. Diese Variable wird mit der Version H.11 der JavaScript-Datei neu eingeführt.
 
@@ -94,7 +94,7 @@ Sie dürfen diese Werte lesen und in Eigenschaftsvariablen/eVars kopieren, jedoc
 
 ## Kampagne {#concept_C7BF7B8A69D048A6AB482052A98A91F8}
 
-The  variable identifies marketing campaigns used to bring visitors to your site. The value of  is usually taken from a query string parameter.
+Die Variable identifiziert Marketingkampagnen, die Besucher zu Ihrer Site bringen. Der Wert von wird normalerweise einem Abfragezeichenfolgenparameter entnommen.
 
 <!-- 
 
@@ -270,7 +270,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Diese Variable sollte nur gelesen und nie eingestellt werden.
 
 You may read these values and copy them into `props/eVars`, but you should never alter them. Diese Variable wird mit der Version H.11 der JavaScript-Datei neu eingeführt.
 
@@ -323,7 +323,7 @@ Es gibt zwei Möglichkeiten für den Ablauf einer eVar:
 * Sie können die eVar so einstellen, dass sie nach einem bestimmten Zeitraum oder Ereignis abläuft.
 * Sie können das Ablaufen einer eVar erzwingen (z. B. wenn eine Variable für einen anderen Zweck eingesetzt werden soll).
 
-If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
+Wenn eine eVar im Mai zur Darstellung interner Promotions verwendet wird und nach 21 Tagen abläuft und im Juni zur Erfassung interner Suchbegriffe verwendet wird, sollten Sie am 1. Juni den Ablauf der Variablen erzwingen oder sie zurücksetzen. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
 
 **Groß-/Kleinschreibung** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
@@ -989,7 +989,7 @@ mediaLength.xml
 
 **Syntax und mögliche Werte** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** Bei Einsatz von autoTrack: **
+**Bei Einsatz von autoTrack:**
 
 Bei Verwendung von [!UICONTROL s.Media.autoTrack] muss die Variable [!UICONTROL mediaLength] nicht explizit implementiert werden. Sie wird vom AppMeasurement für JavaScript-Code automatisch ermittelt.
 
@@ -1549,7 +1549,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Diese Variable sollte nur gelesen und nie eingestellt werden.
 
 Sie dürfen diese Werte lesen und in Eigenschaftsvariablen/eVars kopieren, jedoch nie ändern. Diese Variable wird mit der Version H.11 der JavaScript-Datei neu eingeführt.
 
@@ -1559,7 +1559,7 @@ Sie dürfen diese Werte lesen und in Eigenschaftsvariablen/eVars kopieren, jedoc
 
 ## „products“{#concept_A4007F6307E4419DAA65E1668A8FEBA2}
 
-Die Variable „“ dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis). Products is typically set in conjunction with a cart event or a  event.
+Die Variable „“ dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis). Produkte werden normalerweise zusammen mit einem Warenkorbereignis oder einem Ereignis eingestellt.
 
 <!-- 
 
@@ -1850,7 +1850,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Diese Variable sollte nur gelesen und nie eingestellt werden.
 
 Sie dürfen diese Werte lesen und in Eigenschaftsvariablen/eVars kopieren, jedoch nie ändern. Diese Variable wird mit der Version H.11 der JavaScript-Datei neu eingeführt.
 
@@ -1886,13 +1886,13 @@ Für die Verwendung von *`s_objectID`*:
 
 **Aggregieren von Klicks auf extrem dynamische Links** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-If your site is highly dynamic, and links on some pages change throughout the day,  may used to identify the location of a link on the page. *`s_objectID`* If  is set to "top left 1" or "top left 2," which represents the first link in the top left of the page for example, then all links that appear in that location (or that have  set to the same value) are reported together with visitor click map. *`s_objectID`**`s_objectID`* If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+Wenn Ihre Site hochdynamisch ist und sich die Links auf einigen Seiten im Laufe des Tages ändern, kann dies zur Identifizierung der Position eines Links auf der Seite verwendet *`s_objectID`* werden. Wenn "top left 1"oder "top left 2"festgelegt *`s_objectID`* *`s_objectID`* ist, was beispielsweise den ersten Link oben links auf der Seite darstellt, werden alle Links, die an dieser Position angezeigt werden (oder die denselben Wert haben), zusammen mit der Besucherklickzuordnung gemeldet. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
 
 **Unterscheidung zusammengefasster Klicks** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-If the  variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use  to separate links that appear on multiple versions of that page template. *`pageName`**`s_objectID`* Wenn Sie zum Beispiel über eine Vorlagenseite für alle Produkte auf Ihrer Site verfügen, enthält diese Vorlage sehr wahrscheinlich für alle Seiten einen Link zu Ihrer Homepage und zu einem Suchfeld. Wenn Sie sehen möchten, wie diese Links bei einzelnen Produkten genutzt werden (anstatt auf Basis einer Vorlage), können Sie in *`s_objectID`* einen produktspezifischen Wert eintragen (wie z. B. „Produkt 123789 Homepage“ oder „Produkt 123789 Suche“). Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+Wenn die *`pageName`* Variable auf Ihrer Site verwendet wird, um den Abschnitt oder die Vorlage anzuzeigen, den/die ein Besucher anzeigt, und nicht die spezifische Seite, die der Besucher anzeigt, können Sie Links trennen, die in mehreren Versionen dieser Seitenvorlage angezeigt werden *`s_objectID`* sollen. Wenn Sie zum Beispiel über eine Vorlagenseite für alle Produkte auf Ihrer Site verfügen, enthält diese Vorlage sehr wahrscheinlich für alle Seiten einen Link zu Ihrer Homepage und zu einem Suchfeld. Wenn Sie sehen möchten, wie diese Links bei einzelnen Produkten genutzt werden (anstatt auf Basis einer Vorlage), können Sie in *`s_objectID`* einen produktspezifischen Wert eintragen (wie z. B. „Produkt 123789 Homepage“ oder „Produkt 123789 Suche“). Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
-**Improve[!UICONTROL Activity Map]Accuracy** {#section_08B3406821294DCCABEEB99C90CF5C52}
+**Verbessern der[!UICONTROL Activity Map]-Genauigkeit**{#section_08B3406821294DCCABEEB99C90CF5C52}
 
 In einigen Fällen werden andere Browser als Internet Explorer, Firefox, Netscape, Opera und Safari in Berichten nicht aufgeführt. Diese machen zwar nur einen kleinen prozentualen Anteil aus, tragen aber zu einigen Klicks und anderen Metriken mit bei. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. Das folgende Beispiel zeigt, wie Sie Ihre Links zur Verwendung von *`s_objectID`*:
 
@@ -2057,7 +2057,7 @@ Zeitstempel müssen im UNIX-Format (d. h. Sekunden seit dem 1.Januar 1970) oder
 
 * Sowohl das Datum als auch die Uhrzeit müssen durch ein „T“ getrennt angegeben werden
 * Das Datum muss ein vollständiges Kalenderdatum sein (Jahr, Monat und Tag). . Wochentage und Datumsangaben mit Ordnungszahlen werden nicht unterstützt.
-* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Seconds are optional ( , , , or ). `HH:MM``HH:MM:SS``HHMM``HHMMSS` Es können Bruchteile von Minuten und Sekunden eingereicht werden, diese Bruchteile werden jedoch ignoriert.
+* The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Sekunden sind optional ( `HH:MM`, `HH:MM:SS`, `HHMM`oder `HHMMSS`). Es können Bruchteile von Minuten und Sekunden eingereicht werden, diese Bruchteile werden jedoch ignoriert.
 
 * An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
 
@@ -2185,11 +2185,11 @@ s.transactionID=s.purchaseID
 
 **Probleme, Fragen und Tipps** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* If  recording is not enabled,  values will be discarded and unavailable for use with Integration Data Sources. *`transactionID`**`transactionID`* Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
+* Wenn die *`transactionID`* Aufzeichnung nicht aktiviert ist, werden *`transactionID`* Werte verworfen und stehen für die Verwendung mit [!UICONTROL Integration-Datenquellen]nicht zur Verfügung. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
 
-* If you are recording transactionIDs for multiple systems, such as purchases and leads, make sure the value in  is always unique. *`transactionID`* Zu diesem Zweck können Sie der ID eine entsprechende Zeichenfolge voranstellen (z. B. „Lead_1234“ oder „Einkauf_1234“). [!UICONTROL Integrations-Datenquellen] funktionieren nicht wie erwartet ( [!UICONTROL Datenquellen] -Daten werden mit den falschen Daten verknüpft), wenn zweimal eine eindeutige Dateneingabe *`transactionID`* angezeigt wird.
+* Wenn Sie [!UICONTROL transactionIDs] für mehrere Systeme wie Einkäufe und Interessenten aufzeichnen, stellen Sie sicher, dass der Wert in immer eindeutig *`transactionID`* ist. Zu diesem Zweck können Sie der ID eine entsprechende Zeichenfolge voranstellen (z. B. „Lead_1234“ oder „Einkauf_1234“). [!UICONTROL Integrations-Datenquellen] funktionieren nicht wie erwartet ( [!UICONTROL Datenquellen] -Daten werden mit den falschen Daten verknüpft), wenn zweimal eine eindeutige Dateneingabe *`transactionID`* angezeigt wird.
 
-* By default,  values are remembered for 90 days. *`transactionID`* Wenn die Offline-Interaktion länger als 90 Tage dauert, lassen Sie diese Zeitspanne vom Kundendienst verlängern.
+* Standardmäßig werden *`transactionID`* Werte 90 Tage lang gespeichert. Wenn die Offline-Interaktion länger als 90 Tage dauert, lassen Sie diese Zeitspanne vom Kundendienst verlängern.
 
 >[!NOTE]
 >
@@ -2283,7 +2283,7 @@ Keine
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-The  and  variables are conversion variables.
+Die Variablen und sind Konversionsvariablen.
 
 <!-- 
 
