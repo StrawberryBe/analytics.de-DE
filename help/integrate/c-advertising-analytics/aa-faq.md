@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Häufig gestellte Fragen
 title: Häufig gestellte Fragen
-uuid: 05724 f 56-cf 98-4 ad 8-ad 0 d -83 a 5 a 4 b 1944 a
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Können Advertising Analytics-Metriken zum Bericht <b>Marketingkanäle</b> hinzugefügt werden? </p> </td> 
-   <td colname="col2"> <p>A: Nein, sie sind nicht im Bericht „Marketingkanäle“ enthalten. </p> </td> 
+   <td colname="col2"> <p>A: Nein, sie sind nicht im Marketingkanalbericht enthalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: <b>Wann</b> werden die Suchdaten in Analytics abgerufen? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Werden derzeit nur Daten von google.com erfasst oder auch von den <b>Länderversionen</b> (wie google.co.uk, google.it, google.fr oder google.de)? </p> </td> 
-   <td colname="col2"> <p>A: Die Anzeigenplattformklassifizierung erfasst diese Werte: " Google Adwords" und "Bing Ads" . </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten). </p> </td> 
+   <td colname="col2"> <p>A: Die Anzeigenplattformklassifizierung erfasst folgende Werte: "Google Adwords" und "Bing Ads". </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Die Metrik „AMO-Kosten“ bezeichnet die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. Handelt es sich hierbei um Netto- oder Bruttokosten? </p> </td> 
