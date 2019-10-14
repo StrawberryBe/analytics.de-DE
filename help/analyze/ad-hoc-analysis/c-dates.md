@@ -1,20 +1,20 @@
 ---
 description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
 seo-description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
-seo-title: Datumsbereiche und Datumsbereiche
-title: Datumsbereiche und Datumsbereiche
-uuid: 8 f 99 db 7-e 74 b -4384-ac 46-61 a 545 f 1 dd 62
+seo-title: Daten und Datumsbereiche
+title: Daten und Datumsbereiche
+uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Datumsbereiche und Datumsbereiche
+# Daten und Datumsbereiche
 
 Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
 
-## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
+## Daten und Datumsbereiche {#concept_AB32765013F449908B5964AB622C75FF}
 
 Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
 
@@ -28,7 +28,7 @@ Wenn Sie bei der Erstellung eines Projekts einen Datumsbereich auswählen, stell
 
 >[!NOTE]
 >
->Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Hilfe beim Ausführen von Berichten benötigen.
+>Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Hilfe beim Ausführen von Berichten aus älteren Versionen benötigen.
 
 ## Alte Datumsfenster {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -40,12 +40,12 @@ c_legacy_data.xml
 
  -->
 
-** So greifen Sie auf historische Datumsfenster zu**
+**So greifen Sie auf historische Datumsfenster zu**
 
 1. [Erstellen oder öffnen Sie ein Projekt.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
+1. Öffnen Sie den [Kalender](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)und wählen Sie dann **[!UICONTROL Quartal]** oder **[!UICONTROL Jahr]**.
 
 >[!NOTE]
 >
->Historische Datumsfenster liegen in Quartals- und Jahresbeschränkungen. Sie können keine Daten anzeigen, die die Grenze zwischen alten Fenstern und der neuen Verarbeitungsplattform überschreiten. Bei Datumsbereichen, die beides umfassen, wird ein Fehler ausgegeben. Ferner gelten die Datumsbereiche nur für den Gregorianischen Kalender, nicht für den benutzerspezifischen Kalender.
+>Historische Datumsfenster liegen innerhalb von Quartals- und Jahresbeschränkungen. Sie können keine Daten anzeigen, die die Grenze zwischen alten Fenstern und der neuen Verarbeitungsplattform überschreiten. Bei Datumsbereichen, die beides umfassen, wird ein Fehler ausgegeben. Ferner gelten die Datumsbereiche nur für den Gregorianischen Kalender, nicht für den benutzerspezifischen Kalender.
 
