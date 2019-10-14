@@ -6,8 +6,8 @@ solution: Analytics
 title: Kalenderereignisse
 topic: Reports and Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
 1. (Optional) Kalenderereignisse sind benutzerspezifisch, außer sie wurden freigegeben. Um dieses Ereignis freizugeben, wählen Sie **[!UICONTROL Freigabe]** aus.
 1. (Optional) Kalenderereignisse an Benutzer pushen. Für als freigegeben markierte Kalenderereignisse können nun an andere Benutzer zu „gepusht“ werden. Ein gepushtes Kalenderereignis wird in den Trend- und Zeitverlaufsdiagrammen des empfangenden Benutzers angezeigt.
    1. Klicken Sie auf **[!UICONTROL An Benutzer senden]**.
-   1. **[!UICONTROL Alle auswählen]** oder das Kästchen neben dem/den Benutzernamen auswählen.
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
    Damit lassen sich Kalenderereignisse wesentlich umfassender verwenden. Analysten können nun Overlays für Benutzerberichte erzwingen und so mehr Kontext bereitstellen.
 1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponente]** &gt; **[!UICONTROL Kalenderereignisse]**.
