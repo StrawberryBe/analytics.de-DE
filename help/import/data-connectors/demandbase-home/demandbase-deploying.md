@@ -5,7 +5,7 @@ seo-title: Bereitstellen der Integration
 title: Bereitstellen der Integration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -192,8 +192,7 @@ Verwenden Sie das DigitalPulse Debugger-Tool, um zu überprüfen, ob Demandbase-
 
 ![](assets/debugger1.png)
 
-**Target-Mbox enthält die Parameter des Demandbase-Profils: **
-
+****Target Mbox enthält die Parameter "Demandbase-Profil":
 Dies wird nur angezeigt, wenn Target auf der Seite implementiert ist UND Sie diese Integration für Adobe Target konfiguriert haben - siehe Schritt 4 des Adobe-Integrationsassistenten.
 
 ![](assets/debugger2.png)
