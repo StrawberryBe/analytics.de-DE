@@ -6,9 +6,9 @@ seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: Entwickler und Implementierung
-uuid: 3891 e 2 aa-d 5 c 1-4 a 2 b -8522-eb 2 bae 39 ea 2 e
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ Erfasst die Zeitspanne in Sekunden, während der Ihre Seite die aktive Registerk
 
 >[!NOTE]
 >
->Hierbei handelt es sich um eine Betaversion des Plugins. Möglicherweise werden weitere Updates vorgenommen.
+>Dies ist eine Beta-Version des Plugins, und weitere Updates werden möglicherweise veröffentlicht.
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Für dieses Plug-in ist [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)erforderlich.
 
 Dieses Plug-in erfasst auch die Zeitspanne, während der die Seite im Browser geöffnet war (sowohl aktiv als auch inaktiv). Das getPreviousValue-Plug-in muss verwendet werden, um den Namen der vorherigen Seite in Verbindung mit der Anzeige der Seite nachzuverfolgen. Anhand dieser Werte können Sie die Interaktionen Ihrer Besucher nachvollziehen und das Verhalten der Besucher Ihrer Seiten verfolgen.
 
@@ -108,11 +108,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * Nur wenige Benutzer werden den prozentualen Anteil an auf der Seite angezeigten Daten aufgrund von Browserbeschränkungen nicht weitergeben. Und im Plug-in ist Logik enthalten, um sicherzustellen, dass die Daten deshalb nicht schwanken. Dieses Plug-in wurde jedoch in IE, Firefox, Chrome und Safari erfolgreich getestet.
 * Aufgrund der Messweise des Plug-ins für die Gesamtdauer in Sekunden und der Zuweisung dieses Werts zum Namen der vorherigen Seite kommt es zu Abweichungen zwischen den Kennzahlen für die Standardzeit, während der die Seite geöffnet war, und den Kennzahlen für die Gesamtdauer in Sekunden.
-* [!UICONTROL Es können berechnete Metriken] erstellt werden, um die Zusammenfassung und das Verständnis des Besucherverhaltens mit diesen Metriken zu unterstützen:
+* [!UICONTROL Berechnete Metriken] können erstellt werden, um das Zusammenfassen und Verstehen des Besucherverhaltens in Verbindung mit diesen Metriken zu unterstützen:
 
-   * ** Seitensichtbarkeitsverhältnis** (Gesamtdauer der Seitenanzeige in Sekunden/Gesamtdauer der Seite in Sekunden)
-   * ** Ausgeblendete Sekunden insgesamt** (Gesamtdauer der Seite in Sekunden - Gesamtdauer der Seitenanzeige in Sekunden)
-   * ** Durchschnittliche Seitensichtbarkeit Sekunden** (Gesamtdauer der Seitenanzeige in Sekunden/Gesamtanzahl der Anzeigeinstanzen der Seite)
+   * **Seitenanzeigeverhältnis**(Gesamtdauer der Seitenanzeige in Sekunden/Gesamtdauer der Seite in Sekunden)
+   * **Gesamtdauer ausgeblendet in Sekunden** (Gesamtdauer der Seite in Sekunden - Gesamtdauer der Seitenanzeige in Sekunden)
+   * **Durchschnittliche Dauer der Seitenanzeige in Sekunden**(Gesamtdauer der Seite in Sekunden/Gesamtanzahl der Anzeigeinstanzen der Seite)
    * **Durchschnittliche Dauer des Verbergens der Seite in Sekunden** ((Gesamtdauer der Seite in Sekunden – Gesamtdauer der Anzeige der Seite in Sekunden)/Gesamtanzahl der Anzeigeinstanzen der Seite)
 
 * Aufgrund der Aufrundungsweise des Plug-ins kann es zu einer Differenz von 1–2 Sekunden zwischen der Gesamtdauer der Anzeige der Seite in Sekunden und der Gesamtdauer in Sekunden kommen, wobei die Gesamtdauer in Sekunden höher ist. (Problem wird in einem zukünftigen Update behoben.)
@@ -120,15 +120,15 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Häufig gestellte Fragen {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**Wird dieses Plug-in zusätzliche Server-Aufrufe durchführen? **
+**Wird dieses Plug-in zusätzliche Server-Aufrufe durchführen?**
 
 Das Plug-in erfasst nur die Werte für die Seitenanzeige auf nachfolgenden Server-Aufrufen für Seitenanzeigen. Es werden in Verbindung damit keine zusätzlichen Server-Aufrufe verwendet.
 
-**Wenn ich die Gesamtdauer der Seite oder die Gesamtanzahl der Anzeigeinstanzen der Seite nicht erfassen möchte, kann ich diese dann aus der Ereignisliste ausschließen? **
+**Wenn ich die Gesamtdauer der Seite oder die Gesamtanzahl der Anzeigeinstanzen der Seite nicht erfassen möchte, kann ich diese dann aus der Ereignisliste ausschließen?**
 
 Ja, die Gesamtdauer der Seite und die Gesamtanzahl der Anzeigeinstanzen der Seite sind optionale Ereignisse und können auf Wunsch aus der Liste ausgeschlossen werden.
 
-**Ergeben die erfassten Ereignisse Sinn, wenn ich sie in anderen Berichten als dem Bericht „Vorheriger Seitenname“ verwende? **
+**Ergeben die erfassten Ereignisse Sinn, wenn ich sie in anderen Berichten als dem Bericht „Vorheriger Seitenname“ verwende?**
 
 Da das Plug-in nur Werte zur nachfolgenden Bildanforderung erfasst, könnten andere eVars, die im Kontext einer vorherigen Seite erfasst wurden, angewendet werden, z. B. „Vorherige Seiten-URL“.
 
