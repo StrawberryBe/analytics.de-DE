@@ -1,21 +1,21 @@
 ---
-description: 'null '
-keywords: Segmentierung; Segmente
-seo-description: 'null '
+description: 'null'
+keywords: Segmentierung;Segmente
+seo-description: 'null'
 seo-title: Häufig gestellte Fragen
 solution: Analytics
 title: Häufig gestellte Fragen
 topic: Segmente
-uuid: f 49 dc 829-1 d 53-4183-9 add -1 aeaa 5219 d 89
+uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Häufig gestellte Fragen
 
-beantwortet häufig Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen, Best Practices und Verwalten älterer Segmente.
+Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen, Best Practices und Verwaltung älterer Segmente.
 
 ## Funktionen {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -37,7 +37,7 @@ beantwortet häufig Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen,
 
 Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) im Digital Marketing Blog.
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Zugriff auf die Segmentierungswerkzeuge {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **Wie komme ich zum Segment Builder?**
 
@@ -63,9 +63,9 @@ Sie können wie folgt auf den Segment-Manager zugreifen:
 
 **Wo ist das Dropdown-Feld für Segmente?**
 
-The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+Die Dropdown-Liste "Segmente"in Reports &amp; Analysen wurde durch eine wesentlich leistungsfähigere Benutzeroberfläche des [Segmentaufbaus](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) ersetzt, mit der Sie "universelle"Segmente erstellen können, die über Report Suites und Adobe Analytics-Lösungen hinweg nutzbar sind. Um eine Liste der vorhandenen Segmente anzuzeigen, klicken Sie auf das Symbol Segmente ![](assets/segment_icon.png)
 
-in der linken Navigation und der Segmentleiste angezeigt.
+in der linken Navigation und die Segmentleiste wird angezeigt.
 
 **Wo ist das Dropdown-Feld für die Report Suite?**
 
@@ -167,7 +167,7 @@ Diese Segmente werden als Segmentvorlagen in den Segmentaufbaur migriert.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
-** Was mit Experience Cloud (Suite)-Segmenten passiert: **
+**Was geschieht mit Experience Cloud (Suite)-Segmenten?**
 
 * Nichtkäufer
 * Käufern
@@ -201,13 +201,13 @@ Vorhandene Segmente, die Logik verwenden, die wie in diesem Dokument beschrieben
 
 Folgende Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
 
-* Geo-Stadt/Region/Land - Suchen Sie nach bestimmten Städten, Regionen oder Ländern und wählen Sie sie aus, anstatt eine teilweise Übereinstimmung zu verwenden.
-* Browser - Verwenden Sie die Dimension Browsertypen, um alle Browser eines Typs zu erhalten, z. B. Google Chrome
-* Betriebssysteme - Verwenden Sie die Betriebssystemtypen-Dimensionen, um alle Betriebssysteme eines Typs zu erhalten, z. B. Microsoft Windows.
+* Geo-Stadt/Region/Land - Suchen Sie nach bestimmten Städten, Regionen oder Ländern und wählen Sie diese aus, anstatt eine teilweise Übereinstimmung zu verwenden.
+* Browser - Verwenden Sie die Dimension "Browsertypen", um alle Browser eines Typs, z. B. Google Chrome, zu erhalten
+* Betriebssysteme - verwenden Sie die Dimensionen Betriebssystemtypen, um alle Betriebssysteme eines Typs, z.B. Microsoft Windows, zu erhalten.
 
 * [Neue und umbenannte Dimensionen](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Änderungen an CONTAINS](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Änderungen am Kleiner- und Größer als](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Änderungen an Contains](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [Änderungen an kleiner als und größer als](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Neue und umbenannte Dimensionen {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -319,7 +319,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
   </tr> 
   <tr> 
    <td colname="col1"> Besuchstiefe </td> 
-   <td colname="col2"> Pfadlänge </td> 
+   <td colname="col2"> Path Length </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
