@@ -7,7 +7,7 @@ title: Unique Visitors
 topic: Berichte
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -263,7 +263,7 @@ Die Summen der Metrik können Sie dem Datumsbereich des Berichts entsprechend ä
 
 Sie können den Datumsbereich mithilfe der Segmentierung ändern, um spätere anstelle von früheren Datumsangaben einzuschließen. Beispiel: Angenommen, der Datumsbereich ist wieder der 2. bis zum 3. Januar (wie in der vorherigen Tabelle). Wenn Sie ein Segment anwenden, bei dem Seite = C, dann wird das Segment am 2. Januar nicht übergeben und der erste Hit für „Unique Visitor pro Woche“ findet am 3. Januar statt. Wenn Sie stattdessen ein Segment mit Seite = D anwenden, werden der 2. und der 3. Januar ausgeschlossen. Für „Unique Visitor pro Woche“ erscheinen dann keine Ergebnisse und die Besucher werden in der Gesamtsumme nicht berücksichtigt.
 
-**Berichte zu zeitraumbasierten individuellen Besuchern **
+**Berichte zu zeitraumbasierten Unique Visitors**
 
 Bei diesen Berichten werden bestimmte Seiten, Eigenschaften und Attribute verwendet (z. B. Seite = A)
 
