@@ -7,7 +7,7 @@ title: Site-Metrikberichte
 topic: Ad Hoc Analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Umsatz**: Zeigt den Bruttogewinn aus gewählten Zeiträumen an. Dies wäre z. B. der Umsatz im Monat März, die in der letzten Woche getätigten Käufe oder der Umsatz am aktuellen Tag.
 * **Bestellungen**: Zeigt die Anzahl der Bestellungen auf Ihrer Website während des angegebenen Zeitraums an. Bestellungen können mehrere Produkte enthalten.
 * **Einheiten**: Zeigt die Gesamteinheiten an, die während des angegebenen Zeitraums bestellt wurden.
-* ** Einkaufsumrechnungstrichter**: Ideal zum Anzeigen von Konversionsereignissen auf Ihrer Site, wenn diese in einer bestimmten Reihenfolge auftreten, z. B. in einer Einzelhandelseinstellung. Ein Konversionstrichterbericht zeigt die Konversionsmetriken für jeden Schritt des Konversionsprozesses sowie Bestellungen, Umsätze und Einheiten an.
+* **Einkaufskonversionstrichter**: Ideal für die Anzeige von Konversionsereignissen auf Ihrer Site, sofern diesen in einer bestimmten Reihenfolge durchgeführt werden, z. B. bei Einzelhandelseinstellungen. Ein Konversionstrichterbericht zeigt die Konversionsmetriken für jeden Schritt des Konversionsprozesses sowie Bestellungen, Umsätze und Einheiten an.
 
 ## Bericht „Warenkorb“{#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
