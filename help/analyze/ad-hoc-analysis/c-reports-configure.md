@@ -1,16 +1,16 @@
 ---
 description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
 seo-description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
-seo-title: Vorhandene Berichte konfigurieren
-title: Vorhandene Berichte konfigurieren
-uuid: 5 c 7 bb 66 a-a 9 a 2-49 fe-ba 98-1 a 99 a 922 f 6 b 1
+seo-title: Bestehende Berichte konfigurieren
+title: Bestehende Berichte konfigurieren
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Vorhandene Berichte konfigurieren
+# Bestehende Berichte konfigurieren
 
 Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
 
@@ -52,7 +52,7 @@ Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktione
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bereitstellungsoptionen </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> Siehe <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Auslieferungsoptionen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Drucken </p> </td> 
@@ -64,7 +64,7 @@ Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktione
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Sources </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> Registerkarte „Allgemeine Einstellungen“ – Definitionen</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ansicht </p> </td> 
@@ -162,9 +162,9 @@ Bestimmte Berichte lassen eine Aufschlüsselung der Tabellendaten zu, sodass Sie
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. Nach dem Öffnen eines gespeicherten oder terminierten Berichts mit Aufschlüsselungen müssen Sie eventuell auf **[!UICONTROL Tabelle ersetzen]klicken, um eine Aufschlüsselung der dynamischen Berichtsdaten zu aktualisieren.** Beispiel: Sie müssen evtl. einen terminierten Bericht mit Aufschlüsselungen von Zeilenelementen aktualisieren, die sich basierend auf dem Datumsbereich oder der Besucheraktivität ändern können.
+   >Für mehr Flexibilität verwenden Sie den [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) , um einen Bericht mit Unterteilungen zu konfigurieren. Nach dem Öffnen eines gespeicherten oder terminierten Berichts mit Aufschlüsselungen müssen Sie eventuell auf **[!UICONTROL Tabelle ersetzen]klicken, um eine Aufschlüsselung der dynamischen Berichtsdaten zu aktualisieren.** Beispiel: Sie müssen evtl. einen terminierten Bericht mit Aufschlüsselungen von Zeilenelementen aktualisieren, die sich basierend auf dem Datumsbereich oder der Besucheraktivität ändern können.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 Bei Ansicht eines Rangberichts wie dem Produktbericht können Sie Trenddaten für einen Wert anzeigen. Demnach sehen Sie z. B., dass ein Produkt 10.000 US-Dollar Bruttoumsatz im ausgewählten Zeitraum erzielte. Wenn Sie sehen möchten, wie viel Umsatz das Produkt an den einzelnen Tagen des Zeitraums erzielte, können Sie ein Trenddiagramm für das Produkt anzeigen oder einen separaten Trendbericht öffnen.
 
-** So verfolgen Sie eine Zeile als Trend**
+**So verfolgen Sie eine Zeile als Trend**
 
 1. Rangbericht ausführen.
 1. Klicken Sie auf das [!UICONTROL Trend]symbol ![. ](assets/TrendInspector_Buttcon.png)
@@ -249,7 +249,7 @@ t_column_width.xml
 
    Diese Option ist deaktiviert, wenn die Option [!UICONTROL Bildschirmgröße] aktiv ist. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
