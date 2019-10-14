@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zur Implementierung von Analytics
 topic: Entwickler und Implementierung
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -73,7 +73,7 @@ Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Information
   </tr> 
   <tr> 
    <td colname="col2"> <p>Leistung: Kann sich durch das Laden des externen Adobe JavaScript die Leistung reduzieren? </p> </td> 
-   <td colname="col3"> <p> Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur ein Mal pro Sitzung heruntergeladen. Die Datei wird nicht für jede Seite erneut heruntergeladen, selbst wenn sie auf jeder Seite der Website verwendet wird. Auf den meisten Websites rufen Benutzer im Durchschnitt mehr als nur ein paar Seitenansichten pro Sitzung auf. Somit kann durch die Übertragung von mehrfach verwendetem JavaScript auf diese Datei die insgesamt heruntergeladene Datenmenge reduziert werden. </p> <p> JavaScript for [!DNL AppMeasurement]-Komprimierung: Falls Sie Bedenken hinsichtlich der Seitengröße des Adobe JavaScript-Clients haben, empfiehlt Adobe die Komprimierung der Datei mit GZIP. GZIP wird in allen gängigen Browsern unterstützt und bietet beim Packen und Entpacken der JavaScript-Hauptdatei <span class="filepath">s_code.js</span> eine höhere Performance als die JavaScript-Komprimierung. </p> </td> 
+   <td colname="col3"> <p> Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur ein Mal pro Sitzung heruntergeladen. Die Datei wird nicht für jede Seite erneut heruntergeladen, selbst wenn sie auf jeder Seite der Website verwendet wird. Auf den meisten Websites rufen Benutzer im Durchschnitt mehr als nur ein paar Seitenansichten pro Sitzung auf. Somit kann durch die Übertragung von mehrfach verwendetem JavaScript auf diese Datei die insgesamt heruntergeladene Datenmenge reduziert werden. </p> <p> JavaScript for AppMeasurement-Komprimierung: Falls Sie Bedenken hinsichtlich der Seitengröße des Adobe JavaScript-Clients haben, empfiehlt Adobe die Komprimierung der Datei mit GZIP. GZIP wird in allen gängigen Browsern unterstützt und bietet beim Packen und Entpacken der JavaScript-Hauptdatei <span class="filepath">s_code.js</span> eine höhere Performance als die JavaScript-Komprimierung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Leistung: Kann sich durch das Senden von Daten über den Browser an Adobe-Dienste die Leistung reduzieren? </p> </td> 
