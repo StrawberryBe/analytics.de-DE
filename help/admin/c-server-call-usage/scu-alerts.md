@@ -3,9 +3,9 @@ description: Fügen Sie Warnhinweise zur Nutzung von Server-Aufrufen hinzu oder 
 seo-description: Fügen Sie Warnhinweise zur Nutzung von Server-Aufrufen hinzu oder verwalten Sie diese. Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites und Anmeldeunternehmen eines Abrechnungsunternehmens.
 seo-title: Warnungen zur Verwendung von Server-Aufrufen
 title: Warnungen zur Verwendung von Server-Aufrufen
-uuid: 701 fd 542-5 b 24-42 df -97 a 0-08 e 10929 fa 48
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,9 +16,9 @@ Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites 
 
 ## Überblick
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Diese Warnungen lösen eine Benachrichtigung aus, die an alle Administratoren des angemeldeten Unternehmens gerichtet ist, wenn eines der folgenden Kriterien erfüllt ist:
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Diese Warnhinweise löst eine Benachrichtigung aus, die an alle Administratoren des Anmeldeunternehmens gerichtet ist, wenn eines der folgenden Kriterien erfüllt ist:
 
 * „Beliebige“ Nutzung der Server-Aufrufe, die bei „über oder gleich“ 100 % irgendeiner Art von Server-Aufrufen liegt, zu denen sie berechtigt sind, ODER
 * „Beliebige“ Nutzung der Server-Aufrufe, die bei „über oder gleich“ 90 % irgendeiner Art von Server-Aufrufen liegt, zu denen sie berechtigt sind, ODER
@@ -44,17 +44,15 @@ Um zusätzliche Warnhinweise zu erstellen:
    ![](assets/sc_alert.png)
 
    * **Titel**: Geben Sie einen beschreibenden Namen an. Sie können einen Warnhinweis nicht ohne Namen speichern.
-   * **Zeitgranularität**: Bezeichnet die Häufigkeit der Überprüfung. *Momentan unterstützen wir nur eine wöchentliche Granularität.* Das bedeutet, dass der Warnhinweis wöchentlich überprüft wird. Dabei werden die Daten der aktuellen Nutzungsperiode berücksichtigt.
-   * **Empfänger**: Geben Sie Personen an, die eine E-Mail erhalten, wenn die Warnung den festgelegten Schwellenwert auslöst.
-   * **Ablaufdatum**: Standardmäßig beträgt das Ablaufdatum ein Jahr ab dem Erstellungsdatum der Warnung.
+   * **Zeitgranularität**: Gibt an, wie oft die Warnung überprüft wird. *Momentan unterstützen wir nur eine wöchentliche Granularität.* Das bedeutet, dass der Warnhinweis wöchentlich überprüft wird. Dabei werden die Daten der aktuellen Nutzungsperiode berücksichtigt.
+   * **Empfänger**: Geben Sie Personen im Unternehmen an, die eine E-Mail erhalten sollen, wenn die Warnung den angegebenen Schwellenwert auslöst.
+   * **Ablaufdatum**: Standardmäßig ist das Ablaufdatum ein Jahr nach dem Erstellungsdatum der Warnung.
    * **Warnhinweis senden, wenn**:
 
-      * Jeder dieser Metrikauslöser Fügen Sie den Typ der Serveraufrufe/s als Metrik hinzu
-und geben Sie den Schwellenwert für die Warnung an, indem Sie den Modifikator und den Schwellenwert auswählen:
+      * Beliebige dieser Metriken AuslöserFügen Sie den Typ des/der Server-Aufrufe/s als Metrik hinzu und geben Sie den Warnungsschwellenwert durch Auswahl des Modifikators und des Schwellenwerts an:
          * ist größer oder gleich
          * ist kleiner oder gleich
-      * Mit
-Angabe des Schwellenwerts und der Bedingung (oberhalb oder gleich oder gleich oder gleich) für den Besuchszeitraum.
+      * Mit Geben Sie den Schwellenwert und die Bedingung (über oder gleich oder unter oder gleich) für den Nutzungszeitraum an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
