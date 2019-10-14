@@ -7,7 +7,7 @@ solution: Experience Cloud, Analytics, Dynamisches Tag-Management
 title: Seitenansichten und -inhalt
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,19 +28,19 @@ Beschreibung der Felder des Dynamic Tag Managements für Seitenansichten und Inh
  <tbody> 
   <tr> 
    <td colname="col1"> Seitenname </td> 
-   <td colname="col2"> <p>Der Name der einzelnen Seiten Ihrer Website. </p> <p>Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Der Name der einzelnen Seiten Ihrer Website. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/page-variables.md">Seitenvariablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Seiten-URL-Umgehung </td> 
-   <td colname="col2"> <p> Überschreibt die tatsächliche URL der Seite. </p> <p>Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p> Überschreibt die tatsächliche URL der Seite. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/page-variables.md">Seitenvariablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Kanal (Site-Abschnitt) </td> 
-   <td colname="col2"> <p>Kennzeichnet einen Bereich Ihrer Site. </p> <p>Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Kennzeichnet einen Bereich Ihrer Site. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/page-variables.md">Seitenvariablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hierarchie </td> 
-   <td colname="col2"> <p>Bestimmt die Position einer Seite in der Hierarchie der Site. </p> <p>Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Bestimmt die Position einer Seite in der Hierarchie der Site. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/page-variables.md">Seitenvariablen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
