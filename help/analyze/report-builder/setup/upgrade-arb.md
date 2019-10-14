@@ -1,18 +1,18 @@
 ---
 description: Schritte und Überlegungen für die Aktualisierung von ReportBuilder.
 seo-description: Schritte und Überlegungen für die Aktualisierung von ReportBuilder.
-seo-title: ReportBuilder aktualisieren
+seo-title: Report Builder aktualisieren
 solution: Analytics
-title: ReportBuilder aktualisieren
+title: Report Builder aktualisieren
 topic: ReportBuilder
-uuid: 19 cfae 11-0 b 40-498 b -89 ca -5 e 54 e 7 b 164 f
+uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# ReportBuilder aktualisieren
+# Report Builder aktualisieren
 
 Schritte und Überlegungen für die Aktualisierung von ReportBuilder.
 
@@ -41,9 +41,9 @@ A: Nein, alle Ihre Einstellungen, einschließlich Authentifizierungsfunktionen, 
 
    >[!NOTE]
    >
-   >Wenn diese Schaltfläche grau ausgeblendet ist, ist keine neue Version von Reportbuilder verfügbar.
+   >Wenn diese Schaltfläche ausgegraut ist, steht keine neue Version von ReportBuilder zur Verfügung.
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. Auf diese Weise wird in Zukunft die Aktualisierung automatisch gestartet, sobald eine neue Version verfügbar ist.
+1. Markieren Sie optional das Kontrollkästchen **[!UICONTROL Bei Verfügbarkeit einer neuen Version aktualisieren].** Auf diese Weise wird in Zukunft die Aktualisierung automatisch gestartet, sobald eine neue Version verfügbar ist.
 1. Wenn der Setup-Bildschirm angezeigt wird, klicken Sie auf **[!UICONTROL Weiter &gt;]**.
 
    ![](assets/setup.png)
