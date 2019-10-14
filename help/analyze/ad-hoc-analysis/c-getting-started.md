@@ -3,17 +3,17 @@ description: Erste Schritte mit Ad-hoc-Analysen.
 seo-description: Erste Schritte mit Ad-hoc-Analysen.
 seo-title: Erste Schritte
 title: Erste Schritte
-uuid: 6 a 698 e 18-4 e 62-405 e-b 020-b 973 c 9 c 4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Erste Schritte mit Ad-hoc-Analysen{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
->Am 6. August 2018 kündigte Adobe die Absicht an, Ad Hoc Analysis einzustellen. Das Datum für das Ende des Produktlebenszyklus wird bekannt gegeben, sobald es verfügbar ist. For more information, including which versions of Java will be compatible during this period, visit [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>[!Iportant]
+>Am 6. August 2018 kündigte Adobe die Absicht an, Ad Hoc Analysis einzustellen. Das Datum für das Ende des Produktlebenszyklus wird bekannt gegeben, sobald es verfügbar ist. Weitere Informationen dazu, welche Versionen von Java während dieses Zeitraums kompatibel sind, finden Sie unter [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Sie können sofortige Analysen der Aktivitäten auf Ihrer Website auf höchstem technischen Niveau durchführen. Sie können mehrere Berichte gleichzeitig anzeigen und Segmente auf mehrere Dimensionen anwenden. Sie können die Daten aus einer Mikro- oder einer Makroperspektive analysieren, um ihre Auswirkungen auf wichtige Geschäftsmetriken zu ermitteln.
 
@@ -37,7 +37,7 @@ Mit diesen Funktionen können Sie Fragen zum Site-Traffic, zu den demografischen
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Erstellen Sie ein Projekt. </p> </td> 
-   <td colname="col2"> <p>Wählen Sie auf der Startseite eine Report Suite aus und klicken Sie auf <span class="uicontrol">Projekt erstellen</span>. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>Wählen Sie auf der Startseite eine Report Suite aus und klicken Sie auf <span class="uicontrol">Projekt erstellen</span>. </p> <p>Siehe <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projekte und Arbeitsbereiche</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Öffnen Sie einen Bericht. </p> </td> 
@@ -49,7 +49,7 @@ Mit diesen Funktionen können Sie Fragen zum Site-Traffic, zu den demografischen
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Erstellen von Segmenten zur tiefergehenden Datenprüfung </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Hinzufügen von Metriken, Dimensionen und Segmenten zum <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Tabellenaufbau</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Konfigurieren von <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> Datumsbereichen</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Planen</a> der Berichtbereitstellung </li> 
     </ul> <p>Durchsuchen Sie dieses Hilfesystem nach den benötigten Hilfethemen. </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie nach dem Maintenance Release von Juli 2018 Ad-hoc-Analysen für Java 7 ausführen, unterstützt Adobe Ihre Ad-hoc-Analysen-Implementierung nicht mehr.
+>Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie sich entscheiden, Ad-hoc-Analysen nach der Maintenance-Version vom Juli 2018 auf Java 7 auszuführen, unterstützt Adobe Ihre Ad-hoc-Analysen-Implementierung nicht mehr.
 
 * Videokarte, die OpenGL 2.0 unterstützt
 * Cookies: Erforderlich
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Anweisungen zum Java-Upgrade {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie nach dem Maintenance Release von Juli 2018 Ad-hoc-Analysen für Java 7 ausführen, unterstützt Adobe Ihre Ad-hoc-Analysen-Implementierung nicht mehr.
+Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie sich entscheiden, Ad-hoc-Analysen nach der Maintenance-Version vom Juli 2018 auf Java 7 auszuführen, unterstützt Adobe Ihre Ad-hoc-Analysen-Implementierung nicht mehr.
 
 Unsere JAR-Dateien sind mit einer sicheren 256-Bit-Verschlüsselung signiert, die von älteren Java-Versionen als 1.7.0_76 nicht unterstützt wird. Dieses 256-Bit-Zertifikat verbessert die Sicherheit unserer Dienste für Sie.
 
@@ -91,7 +91,7 @@ Wenn auf Ihrem Rechner immer noch Java 7 installiert ist, müssen Sie vor dem M
 
 * Wenn Sie zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
 
-   1. Rufen Sie https://www.java.com auf.
+   1. Wechseln Sie zu https://www.java.com.
    1. Klicken Sie auf **[!UICONTROL Kostenloser Java-Download]**.
    1. Klicken Sie auf **[!UICONTROL Einverstanden und mit kostenlosem Download beginnen]**.
    1. Installieren Sie die neueste Java-Version für Ihr Betriebssystem.
@@ -126,7 +126,7 @@ t_login_suite.xml
 
    Wenn Sie auf dieser Seite die Schaltfläche **Ad Hoc Analysis starten** nicht sehen, stellen Sie sicher, dass Ihr Administrator Sie in den Admin Tools der Gruppe *Ad Hoc Analysis-Lizenzanwender* hinzugefügt hat.
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Save the [!DNL discover.jnlp] file locally.
+1. Speichern Sie die [!DNL discover.jnlp] Datei lokal.
 
    Sie können diese gespeicherte Datei ausführen, wann immer Sie Ad Hoc Analysis starten möchten.
 
@@ -187,7 +187,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. **[!UICONTROL Freigegebene Projekte]** aus dem**[!UICONTROL Speichern unter:]** Dropdown-Liste.
+1. **[!UICONTROL Wählen Sie]** Freigegebene Projekte **[!UICONTROL aus der]** Datei Speichern unter: angezeigt.
 
    ![](assets/shared_projects.png)
 
@@ -197,7 +197,7 @@ t_share_projects.xml
 
    >[!NOTE]
    >
-   >Sie können Ihre eigenen freigegebenen Projekte im gleichen Dialogfeld löschen, um Projekte freizugeben, indem Sie ein oder mehrere Projekte auswählen.
+   >Sie können Ihre eigenen freigegebenen Projekte im gleichen Dialogfeld löschen, um Projekte freizugeben, indem Sie eines oder mehrere Projekte auswählen.
 
 ## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
