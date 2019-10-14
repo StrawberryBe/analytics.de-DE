@@ -7,7 +7,7 @@ title: Traffic-Quellen
 topic: Berichte
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ Diese Berichte lassen sich in drei Basiskategorien unterteilen:
   </tr> 
   <tr> 
    <td colname="col1"> Verweisende Stellen </td> 
-   <td colname="col2"> <p> Zeigt an, wo Ihre Besucher herkommen, bevor sie zu Ihrer Site gelangten, welche Methoden Ihre Besucher zum Suchen Ihrer Website verwenden und wie viele Besuche Ihrer Site von diesen verweisenden Stellen stammen. </p> <p>Wenn beispielsweise ein Besucher auf Site A auf einen Link klickt und zu Ihrer Seite gelangt, ist Site A der Referrer, falls diese nicht als Teil Ihrer Domäne definiert ist. Während der Implementierung hilft Ihnen Ihr Implementierungsberater bei der Definition der Domänen und URLs, die Teil Ihrer Website sind. (Dieser Vorgang kann auch nach der Implementierung durchgeführt werden.) Alle Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind, gelten als Referrer. </p> <p>Wenn Webseiten A und B dem Filter für interne URLs hinzugefügt werden, Webseite C jedoch nicht, gilt Webseite C als Referrer. </p> <p>Siehe <a href="/help/admin/admin/internal-URL-filter-admin.md">Interne URL-Filter</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. E-Mails von Outlook sind in der Zeile <span class="wintitle">Eingegeben/Mit Lesezeichen versehen</span> aufgeführt. Und Referrer mit einem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, sind in der Zeile <span class="wintitle">Suchmaschine</span> aufgeführt. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, wo Ihre Besucher herkommen, bevor sie zu Ihrer Site gelangten, welche Methoden Ihre Besucher zum Suchen Ihrer Website verwenden und wie viele Besuche Ihrer Site von diesen verweisenden Stellen stammen. </p> <p>Wenn beispielsweise ein Besucher auf Site A auf einen Link klickt und zu Ihrer Seite gelangt, ist Site A der Referrer, falls diese nicht als Teil Ihrer Domäne definiert ist. Während der Implementierung hilft Ihnen Ihr Implementierungsberater bei der Definition der Domänen und URLs, die Teil Ihrer Website sind. (Dieser Vorgang kann auch nach der Implementierung durchgeführt werden.) Alle Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind, gelten als Referrer. </p> <p>Wenn Webseiten A und B dem Filter für interne URLs hinzugefügt werden, Webseite C jedoch nicht, gilt Webseite C als Referrer. </p> <p>Siehe <a href="/help/admin/admin/internal-URL-filter-admin.md"> Interne URL-Filter</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. E-Mails von Outlook sind in der Zeile <span class="wintitle">Eingegeben/Mit Lesezeichen versehen</span> aufgeführt. Und Referrer mit einem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, sind in der Zeile <span class="wintitle">Suchmaschine</span> aufgeführt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Referrertypen </td> 
@@ -86,4 +86,3 @@ Diese Berichte lassen sich in drei Basiskategorien unterteilen:
   </tr> 
  </tbody> 
 </table>
-
