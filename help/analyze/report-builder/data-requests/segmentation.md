@@ -5,9 +5,9 @@ seo-title: Segmente verwalten
 solution: Analytics
 title: Segmente verwalten
 topic: ReportBuilder
-uuid: 4 e 4 edc 39-ed 93-498 f -913 d -7 b 231 b 10 e 7 a 0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -24,7 +24,7 @@ Im Schritt 1 des Anforderungs-Assistenten von ReportBuilder gibt es ein Segment
 
 >[!NOTE]
 >
->Um Segmente hinzuzufügen oder zu bearbeiten, startet die Reportbuilder-Schnittstelle für die Berichterstellung den Analytics-Segment-Builder in einem Microsoft Internet Explorer-Fenster. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
+>Um Segmente hinzuzufügen oder zu bearbeiten, startet die ReportBuilder-Segmentschnittstelle den Analytics-Segment-Builder in einem Microsoft Internet Explorer-Fenster. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
 1. Klicken Sie im Segmentfenster von Schritt 1 des Anforderungs-Assistenten auf **[!UICONTROL Hinzufügen]**.
 1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [https://marketing.adobe.com/resources/help/de_DE/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -33,7 +33,7 @@ Im Schritt 1 des Anforderungs-Assistenten von ReportBuilder gibt es ein Segment
 
 >[!IMPORTANT]
 >
->Diese Liste wird zwischengespeichert, und das neu erstellte Segment wird nur angezeigt, wenn Sie eine Aktualisierung vornehmen.
+>Diese Liste wird zwischengespeichert, und Ihr neu erstelltes Segment wird nur angezeigt, wenn Sie eine Aktualisierung vornehmen.
 
 ## In-Context-Segmente erstellen {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Alle Segmente, die in Reports &amp; Analysen, Ad-hoc-Analysen, ReportBuilder ode
 
 Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies beinhaltet auch sequentielle Segmente.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. Wechseln Sie in der Dropdown-Liste zu **[!UICONTROL Segment]** und klicken Sie im Feld **Segment auswählen]auf den kleinen Pfeil nach unten, um alle Segmente anzuzeigen.[!UICONTROL **
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies b
 
 >[!NOTE]
 >
->Unabhängig davon, ob Sie Administrator oder Nicht-Administrator sind, können Sie in Reportbuilder nur die Segmente sehen, deren Inhaber Sie sind, sowie diejenigen, die für Sie freigegeben wurden. (Auf der Benutzeroberfläche von Marketing Reports &amp; Analysen können Administratoren alle Segmente der Organisation anzeigen.)
+>Unabhängig davon, ob Sie Administrator oder Nicht-Administrator sind, können Sie in ReportBuilder nur die Segmente sehen, deren Inhaber Sie sind, sowie die Segmente, die für Sie freigegeben wurden. (Auf der Benutzeroberfläche von Marketing Reports &amp; Analysen können Administratoren alle Segmente der Organisation anzeigen.)
 
 ## Segmente filtern {#section_376E986D3E684999A7CDB08E53854159}
 
