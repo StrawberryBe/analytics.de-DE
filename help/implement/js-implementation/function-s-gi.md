@@ -6,9 +6,9 @@ seo-title: Die s_gi()-Funktion
 solution: Analytics
 title: Die s_gi()-Funktion
 topic: Entwickler und Implementierung
-uuid: a 77 de 90 e-c 60 e -4946-90 cf-tauf 8 aa 3 d 755
+uuid: a77de90e-c60e-4946-90cf-tauf8aa3d755
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,10 +29,9 @@ var s=s_gi('rsid1,rsid2')
 
 In der folgenden Tabelle ist aufgeführt, was von den nachfolgenden Aufrufen zurückgegeben wird:
 
-| ** Nachfolgender Aufruf an s_ gi** | ** Beschreibung des zurückgegebenen Objekts** |
+| **Nachfolgender Aufruf an „s_gi“** | **Beschreibung des zurückgegebenen Objekts** |
 |---|---|
 | `s=s_gi('rsid1,rsid2')` | Dasselbe Objekt, auf das vorher verwiesen wurde. |
 | `s=s_gi('rsid1')` | Eine Kopie des vorher erstellten Objekts, aber nicht das Original. |
 | `s=s_gi('rsid1,rsid3')` | Eine Kopie des vorher erstellten Objekts, aber nicht das Original. |
 | `s=s_gi('rsid3')` | Ein neues leeres Objekt, bei dem keine Konfigurationsvariablen gesetzt wurden (z. B. „linkTrackVars“ ist leer genauso wie „linkDownloadFileTypes“). |
-
