@@ -1,18 +1,18 @@
 ---
-description: Kontextbasierte Sitzungen in Virtual Report Suites ändern die Berechnung mobiler Besuche in Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
-seo-description: Kontextbasierte Sitzungen in Virtual Report Suites ändern die Berechnung mobiler Besuche in Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
+description: Kontextbezogene Sitzungen in Virtual Report Suites ändern die Berechnung von Besuchen auf Mobilgeräten durch Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
+seo-description: Kontextbezogene Sitzungen in Virtual Report Suites ändern die Berechnung von Besuchen auf Mobilgeräten durch Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 seo-title: Kontextbezogene Sitzungen
 title: Kontextbezogene Sitzungen
-uuid: d 354864 a -9163-4970-a 3 a 0-f 2 e 9729 bdbe 3
+uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Kontextbezogene Sitzungen
 
-Kontextbasierte Sitzungen in Virtual Report Suites ändern die Berechnung mobiler Besuche in Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
+Kontextbezogene Sitzungen in Virtual Report Suites ändern die Berechnung von Besuchen auf Mobilgeräten durch Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 
 Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrunde liegenden Daten zu ändern, um ihn auf die Interaktion Ihrer Besucher mit Ihren mobilen Apps abzustimmen.
 
@@ -29,7 +29,7 @@ Ein Hintergrundtreffer ist ein Treffertyp, der von der Adobe Mobile SDK-Version 
 
 Die folgenden Beispiele erläutern die verwendete Logik bei der Bestimmung von Anfang und Ende eines Besuchs eines beliebigen Besuchers, wenn die Einstellung „Starten neuer Besuche durch Hintergrundtreffer verhindern“ für eine Virtual Report Suite aktiviert ist oder nicht.
 
-** Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ nicht aktiviert ist:**
+**Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ nicht aktiviert ist:**
 
 Wenn diese Funktion für eine Virtual Report Suite nicht aktiviert ist, werden Hintergrundtreffer genau wie andere Treffer behandelt. Das heißt, neue Besuche werden wie Vordergrundtreffer gestartet und sie agieren wie Vordergrundtreffer. Wenn beispielsweise ein Hintergrundtreffer weniger als 30 Minuten (Standard-Sitzungstimeout für eine Report Suite) vor einer Reihe von Vordergrundtreffern auftritt, ist der Hintergrundtreffer Teil der Sitzung.
 
@@ -39,7 +39,7 @@ Tritt der Hintergrundtreffer mehr als 30 Minuten vor jeglichen Vordergrundtreffe
 
 ![](assets/nogood2.jpg)
 
-** Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist:**
+**Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist:**
 
 Die folgenden Beispiele veranschaulichen das Verhalten von Hintergrundtreffern, wenn diese Funktion aktiviert ist.
 
