@@ -1,13 +1,13 @@
 ---
-description: Steps on running the different report types.
-seo-description: Steps on running the different report types.
+description: Schritte zum Ausführen der verschiedenen Berichtstypen.
+seo-description: Schritte zum Ausführen der verschiedenen Berichtstypen.
 seo-title: Verschiedene Berichtstypen ausführen
 solution: Analytics
 title: Verschiedene Berichtstypen ausführen
 topic: Berichte,Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -186,7 +186,7 @@ Bei der Anomalieerkennung werden zwei Diagrammtypen angezeigt: Ein Zusammenfassu
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Wenn die oberen Grenzen und der erwartete Wert identisch sind, beträgt die Abweichung in Prozent 100 % </li> 
         <li id="li_CA48064F5788448C8646CCE196161237">Andernfalls ist die Abweichung in % ((Istwert - Wert der oberen Grenze) / (Wert der oberen Grenze - erwarteter Wert)) * 100 </li> 
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Wenn die unteren Grenzen und der erwartete Wert identisch sind, beträgt die Abweichung in % -100 % </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Andernfalls ist die Abweichung in % ((unterer Grenzwert - Istwert) / (erwarteter Wert - unterer Grenzwert)) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">Durch Klicken auf <span class="uicontrol">Anzeigen Segmente</span> wird die Segmentschiene eingeblendet, die es Ihnen ermöglicht, Segmente auf einen Anomalieerkennungsbericht anzuwenden. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Weitere Informationen</a> zur Segmentierung. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Durch Klicken auf <span class="uicontrol">Metriken bearbeiten</span> können Sie Metriken auswählen und die Auswahl für Metriken aufheben, für die Sie Anomalien erkennen möchten. </li> 
@@ -224,9 +224,9 @@ Sie richten die Anomalieerkennung unabhängig für jede Report Suite ein.
 
 1. Gehen Sie zu **[!UICONTROL Analysen &gt; Berichte &gt; Site-Metriken &gt; Anomalieerkennung]** .
 1. Wählen Sie die Report Suite, für die Sie die tägliche Anomalieerkennung verfolgen möchten. Um eine Liste der Report Suites anzuzeigen, klicken Sie auf das Dropdown-Menü der Report Suite-Auswahl.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   Sie können Metriken aus der Liste mit allen Metriken (einschließlich berechneter Metriken) oder aus einer Liste mit verfolgten Metriken auswählen. Sie können auch nach bestimmten Begriffen filtern, um die Liste einzugrenzen. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (Den Schulungszeitraum kann man sich als „Lernzeitraum“ für den Algorithmus vorstellen.)
+   Sie können Metriken aus der Liste mit allen Metriken (einschließlich berechneter Metriken) oder aus einer Liste mit verfolgten Metriken auswählen. Sie können auch nach bestimmten Begriffen filtern, um die Liste einzugrenzen. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Den Schulungszeitraum kann man sich als „Lernzeitraum“ für den Algorithmus vorstellen.)
 
    ![](assets/view_training_periods.png)
 
@@ -243,7 +243,7 @@ Sie richten die Anomalieerkennung unabhängig für jede Report Suite ein.
 
    Weitere Informationen zum Erstellen und Verwalten von Segmenten erhalten Sie im [Leitfaden zur Analysesegmentierung. ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) 1. (Optional) Fügen Sie den Bericht zu den Favoriten hinzu oder setzen Sie ein Lesezeichen.
 1. (Optional) Ändern Sie das Enddatum des Anzeigezeitraums. Der Standardwert ist „Gestern“. 
-1. Sie können den Bericht nun interpretieren. [Viewing Anomaly Detection charts.](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)
+1. Sie können den Bericht nun interpretieren. [Ansicht von Anomalieerkennungsdiagrammen](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Echtzeitbericht ausführen {#task_5D25929C918E40B18965222FA94176B0}
 
