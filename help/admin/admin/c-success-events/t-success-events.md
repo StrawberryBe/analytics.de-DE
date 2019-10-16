@@ -1,23 +1,23 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 seo-description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
-seo-title: Konfigurieren von Erfolgsereignissen
+seo-title: Erfolgsereignisse konfigurieren
 solution: Analytics
-title: Konfigurieren von Erfolgsereignissen
+title: Erfolgsereignisse konfigurieren
 topic: Admin Tools
-uuid: ca 3 d 3 f 46-5 path -4481-aef 6-04 cad 6 bc 6 e 2 d
+uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Konfigurieren von Erfolgsereignissen
+# Erfolgsereignisse konfigurieren
 
 In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**.
 
    ![Schritt Ergebnis](assets/success_event_page.png)
@@ -27,16 +27,17 @@ In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](../../../admin/admin/c-success-events/event-type.md#concept_2A6FCC19E7FC429DBDFA65BC640BD448).
+   >Bevor Sie einen Ereignistyp ändern, lesen Sie [Ändern des Ereignistyps](/help/admin/admin/c-success-events/event-type.md).
 
-   Weitere Informationen zu diesen Elementen finden Sie unter [Seite „Erfolgsereignisse“ – Beschreibungen](../../../admin/admin/c-success-events/success-event.md#section_681ECEC981694CABBDBF00E18165B447).
+   Weitere Informationen zu diesen Elementen finden Sie unter [Seite „Erfolgsereignisse“ – Beschreibungen](/help/admin/admin/c-success-events/success-event.md).
 
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit auf der Benutzeroberfläche. [Mehr...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. Geben Sie eine Beschreibung ein.
+   Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit auf der Benutzeroberfläche. [Mehr …](/help/admin/admin/metric-visibility.md)
+1. Geben Sie eine Beschreibung ein.
 1. Legen Sie fest, ob das Ereignis immer aufgezeichnet werden soll.
-1. Enable or disable [participation metrics](/help/components/c-variables/c-metrics/metrics-participation.md).
+1. Aktivieren oder deaktivieren Sie [Beitragsmetriken](/help/components/c-variables/c-metrics/metrics-participation.md).
 
    >[!NOTE]
    >
