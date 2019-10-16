@@ -8,7 +8,7 @@ title: Ereignis mit einer Kontextdatenvariable festlegen
 topic: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -27,7 +27,7 @@ Die [!UICONTROL Kontextvariablenliste] enthält alle Variablen, die in den vorhe
 
 ![](assets/add-context-variable.png)
 
-Die folgende Regeldefinition erweitert die Regel "Kontextdatenvariable [kopieren"auf eine eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) -Regel, um auch bei jedem Treffer, der eine spezifische Kontextdatenvariable enthält, ein Ereignis festzulegen:
+Die folgende Regeldefinition erweitert die Regel "Kontextdatenvariable [kopieren"auf eine eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) -Regel, um auch bei jedem Treffer, der eine spezifische Kontextdatenvariable enthält, ein Ereignis festzulegen:
 
 | Regelsatz | Wert |
 |---|---|
