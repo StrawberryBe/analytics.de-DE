@@ -5,9 +5,9 @@ seo-title: Web-Services
 solution: Analytics
 title: Web-Services
 topic: Admin Tools
-uuid: ccae 04 cf-f 58 c -490 e-baaa-ee 04 c 534 b 28 d
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -20,11 +20,11 @@ Die Web-Services-APIs bieten Programmierungszugriff auf Marketing-Berichte und a
 
 ## Web-Services verwalten
 
-Unter „Benutzerverwaltung“ &gt; [Gruppen](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) können Sie die Gruppe mit dem Web-Services-Zugriff um die Benutzer erweitern, die auf die Web-Services-APIs zugreifen müssen.
+Unter „Benutzerverwaltung“ &gt; [Gruppen](/help/admin/user-management2/c-user-groups/groups.md) können Sie die Gruppe mit dem Web-Services-Zugriff um die Benutzer erweitern, die auf die Web-Services-APIs zugreifen müssen.
 
 ## WSDL: Hier laden Sie die Web-Services-API-WSDL herunter (für Web-Services-Entwickler).
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. Weitere Informationen finden Sie unter „Übersicht über Web-Services-APIs“.
+Besuchen Sie [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), das Dokumentation, Beispielcode und Foren zu den Web-Services-APIs bereitstellt. Weitere Informationen finden Sie unter „Übersicht über Web-Services-APIs“.
 
 ## Filteroptionen
 
