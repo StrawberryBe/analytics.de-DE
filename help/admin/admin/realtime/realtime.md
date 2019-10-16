@@ -4,10 +4,10 @@ seo-description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in E
 seo-title: Echtzeitberichte
 solution: Analytics
 title: Echtzeitberichte
-topic: 'Berichte    '
-uuid: c 09 cc 605-0 b 3 b -41 ab -9 b 46-8 c 2 a 26 f 579 a 3
+topic: Berichte
+uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,7 +18,7 @@ Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rang
 
 >[!NOTE]
 >
->Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)
+>Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/admin/admin/realtime/t-realtime-admin.md)
 
 **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Echtzeit]**
 
@@ -44,7 +44,7 @@ Als Administrator haben Sie folgende Möglichkeiten:
 
 * Vergleichen Sie z. B. die Werte der letzten Woche mit den Werten des letzten Jahres (sowie mit der Gesamtsumme von heute).
 
-Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da kein Persistenzkonzept existiert. Sie können zwar die Konversionsmetriken auswählen, sie funktionieren aber nur, wenn sie auf derselben Seite wie die Dimension(en) gesetzt werden. Für weitere Informationen lesen Sie die Warnmeldung unter [Einrichten von Echtzeitberichten](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da kein Persistenzkonzept existiert. Sie können zwar die Konversionsmetriken auswählen, sie funktionieren aber nur, wenn sie auf derselben Seite wie die Dimension(en) gesetzt werden. Für weitere Informationen lesen Sie die Warnmeldung unter [Einrichten von Echtzeitberichten](/help/admin/admin/realtime/t-realtime-admin.md).
 
 Das Einrichten und Anzeigen von Echtzeitberichten ist auf Administratoren oder Benutzer der Berechtigungsgruppen „Zugriff auf alle Berichte“ und „Fortschrittliche Berichterstellung“ beschränkt. Die Echtzeitanzeige respektiert jedoch die Zugriffsberechtigungen. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten.
 
@@ -57,4 +57,4 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Beachten Sie, dass die Erhöhung der Latenz nach der Implementierung des Identitätsdiensts beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Beachten Sie, dass die Erhöhung der Latenz nach der Implementierung des Identitätsdienstes beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
