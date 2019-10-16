@@ -3,9 +3,9 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 seo-description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
 seo-title: Welches Adobe Analytics-Tool sollte ich verwenden?
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
-uuid: 1179 e 49 d -3 cfc -4 abd-a 8 eb -35 c 5 ae 380 c 16
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,8 +14,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
 
 Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
 
-Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D).
-
+Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 ## Adobe Analytics-Berichtsoberflächen {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Können Sie eine Aufgabe nicht mit Analysis Workspace durchführen, versuchen Sie eine der unten stehenden Oberflächen.**
@@ -107,13 +106,13 @@ Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** sollte verwendet werden:
 
-* Für den Zugriff auf Variablen, die ansonsten in der Benutzeroberfläche verborgen sind - IP-Adresse, Experience Cloud ID, Analytics-Besucher-ID, Seiten-URL
+* So greifen Sie auf Variablen zu, die sonst in der Benutzeroberfläche ausgeblendet sind: IP-Adresse, Experience Cloud ID, Analytics-Besucher-ID, Seiten-URL)
 * Für den Zugriff auf granularere Daten als jene in der Benutzeroberfläche (denormalisierte Tabellenansicht)
 * Für den Download von Daten in einem für die Pivot-Tabellen-Eingabe geeigneten Format
 * Wenn der Kunde Adobe-Daten in ein Drittanbieter-Tool für die Datenvisualisierung eingeben möchte (leicht zusammengefasst und nicht auf Trefferebene)
 * Zum Zugreifen auf alle eindeutigen Dimensionswerte, wenn in Adobe Analytics ein geringer Datenverkehr für Sie vorliegt
 
-**[Analytics-Datenfeed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** sollte verwendet werden:
+**[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** sollte verwendet werden:
 
 * Zur Nutzung des granularsten Daten-Feeds, der möglich ist (Besucher-ID, Treffer).
 * Wenn der Kunde Adobe-Dateien in einer clientseitigen Datenbank und so granular wie möglich speichern möchte.
