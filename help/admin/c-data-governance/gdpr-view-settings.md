@@ -5,7 +5,7 @@ seo-title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 Über das Data-Governance-Dialogfeld in den Admin Tools können Sie einsehen, welche Report Suites für Data Governance konfiguriert wurden, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob für die entsprechende Report Suite eine Richtlinie zur Datenaufbewahrung vorhanden ist.
 
 1. Melden Sie sich bei Adobe Experience Cloud an.
-1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** .
+1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance.]**
 
    Hier werden Ihnen die Report Suites des Anmeldeunternehmens angezeigt:
 
@@ -38,7 +38,7 @@ source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Zugeordnet</b>: Diese Report Suite wurde bereits derselben Experience Cloud-Organisation wie das Analytics-Anmeldeunternehmen zugeordnet, bei dem Sie angemeldet sind. Es können nur Report Suites mit dieser Einstellung beschriftet werden. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Report Suite zuordnen</b>: Klicken Sie auf diesen Link, um die entsprechende Report Suite einer Experience Cloud-Organisation <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">zuzuordnen</a>. <p>Dies bedeutet, dass Sie zur Admin-Seite Experience Cloud-Organisation - Report Suite-Zuordnung weitergeleitet werden, auf der Sie die Report Suite suchen und sie der entsprechenden Organisation zuweisen müssen. Kehren Sie daraufhin zur Data-Governance-Oberfläche zurück. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Report Suite zuordnen</b>: Klicken Sie auf diesen Link, um die entsprechende Report Suite einer Experience Cloud-Organisation <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">zuzuordnen</a>. <p>So werden Sie zur Experience Cloud-Seite zur Report Suite-Zuordnung weitergeleitet, auf der Sie die Report Suite auswählen und der entsprechenden Organisation zuordnen müssen. Kehren Sie daraufhin zur Data-Governance-Oberfläche zurück. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Einer anderen Organisation zugeordnet</b>: Diese Report Suite wurde bereits einer anderen Experience Cloud-Organisation zugeordnet. </li> 
     </ul> </td> 
   </tr> 
