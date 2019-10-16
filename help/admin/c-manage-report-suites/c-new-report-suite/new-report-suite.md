@@ -1,22 +1,22 @@
 ---
 description: Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
 seo-description: Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
-seo-title: Neue Report Suite - Einstellungen
+seo-title: Neue Report Suite – Einstellungen
 solution: Analytics
-title: Neue Report Suite - Einstellungen
+title: Neue Report Suite – Einstellungen
 topic: Admin Tools
-uuid: 3508 f 684-11 a 3-4 c 8 f-a 233-bea 6 bafd 57 c 0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Neue Report Suite - Einstellungen
+# Neue Report Suite – Einstellungen
 
 Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
 
-Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](../../
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschaltdatum </p> </td> 
-   <td colname="col2">Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Geschätzte Seitenansichten pro Tag</span> </td> 
@@ -60,11 +60,11 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](../../
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Basiswährung</span> </td> 
-   <td colname="col2"> <p>Gibt die Standardwährung für die Speicherung sämtlicher Beträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. </p> <p> Die Analytics-Berichterstellung verwendet die <span class="varname"> Currencycode</span> -javascript-Variable zur Identifizierung der Währung einer Transaktion. </p> </td> 
+   <td colname="col2"> <p>Gibt die Standardwährung für die Speicherung sämtlicher Beträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. </p> <p> Die Analytics-Berichterstellung verwendet die <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Multibytezeichenunterstützung deaktivieren </span> </td> 
-   <td colname="col2"> <p>Deaktiviert die Multibytezeichenunterstützung für die Report Suite. Wenn Sie die Multibytezeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen <span class="varname"> Javascript-Variable</span> "charset" . </p> <p>Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. </p> </td> 
+   <td colname="col2"> <p>Deaktiviert die Multibytezeichenunterstützung für die Report Suite. Wenn Sie die Multibytezeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen JavaScript-Variable <span class="varname"> charSet</span> . </p> <p>Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ad Hoc Analysis für diese Suite aktivieren</span> </td> 
