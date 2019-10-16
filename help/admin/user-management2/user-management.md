@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Benutzer und Gruppen
 title: Benutzer und Produkte verwalten
 topic: Admin Tools
-uuid: 891 a 8 cb 3-b 77 d -46 f 6-ab 23-cbed 49 f 215 b 5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Neuen Benutzer hinzufügen</span> </td> 
-   <td colname="col2"> <p>Hier können Sie ein Benutzerkonto zum Unternehmen hinzufügen. Dieser Link steht nur zur Verfügung, wenn die Anzahl der verbleibenden Benutzeranmeldungen größer als 0 ist. </p> <p>Siehe <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Benutzer</a>. </p> </td> 
+   <td colname="col2"> <p>Hier können Sie ein Benutzerkonto zum Unternehmen hinzufügen. Dieser Link steht nur zur Verfügung, wenn die Anzahl der verbleibenden Benutzeranmeldungen größer als 0 ist. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Benutzer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bericht herunterladen</span> </td> 
@@ -76,7 +76,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Anmelden</span> </td> 
-   <td colname="col2"> <p>Der Benutzername. Durch einen Klick auf den Benutzernamen können Sie die Eigenschaften des Benutzerkontos ändern. </p> <p>Siehe <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Benutzer</a>. </p> </td> 
+   <td colname="col2"> <p>Der Benutzername. Durch einen Klick auf den Benutzernamen können Sie die Eigenschaften des Benutzerkontos ändern. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Benutzer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Vorname</span> </td> 
@@ -112,7 +112,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bearbeiten</span> </td> 
-   <td colname="col2"> <p>Bearbeiten Sie die Kontoeinstellungen. </p> <p>Siehe <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Benutzer</a>. </p> </td> 
+   <td colname="col2"> <p>Bearbeiten Sie die Kontoeinstellungen. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Benutzer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Löschen</span> </td> 
@@ -120,7 +120,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Übertragen</span> </td> 
-   <td colname="col2">Weisen Sie die Rechte (Berechtigungen und Ressourcenzugriff) eines Benutzerkontos einem anderen Konto zu. <p>Siehe <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> Übertragen von Benutzerkontorechten</a>. </p> </td> 
+   <td colname="col2">Weisen Sie die Rechte (Berechtigungen und Ressourcenzugriff) eines Benutzerkontos einem anderen Konto zu. <p>Siehe <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> Übertragen von Benutzerkontorechten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Als dieser Benutzer anmelden</span> </td> 
