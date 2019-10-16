@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Benutzer und Gruppen
 title: Übersicht über die Benutzerverwaltung
 topic: Admin Tools
-uuid: 6 f 1 d 67 cd-e 169-461 b -9 f 08-eec 2 c 6 b 4 e 6 df
+uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -82,7 +82,7 @@ Erstellt ein Standard-Dashboard für eine bestimmte Report Suite.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Benutzer</span> </td> 
-   <td colname="col2"> <p> Hiermit werden dem Benutzer nur die ausgewählten Gruppenberechtigungen gewährt. Wählen Sie die gewünschten Gruppen im Feld <span class="uicontrol">Verfügbare Gruppen</span> (links) aus, und klicken Sie anschließend auf <span class="uicontrol">Hinzufügen</span>. Die zugewiesenen Gruppen werden im Feld <span class="uicontrol">Zugewiesene Gruppen</span> (rechts) angezeigt. For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Hiermit werden dem Benutzer nur die ausgewählten Gruppenberechtigungen gewährt. Wählen Sie die gewünschten Gruppen im Feld <span class="uicontrol">Verfügbare Gruppen</span> (links) aus, und klicken Sie anschließend auf <span class="uicontrol">Hinzufügen</span>. Die zugewiesenen Gruppen werden im Feld <span class="uicontrol">Zugewiesene Gruppen</span> (rechts) angezeigt. For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
