@@ -5,7 +5,7 @@ seo-title: Analytics-Benutzermigration zur Admin Console
 title: Analytics-Benutzermigration zur Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -123,7 +123,7 @@ Antworten auf Fragen, die Sie vielleicht vor der Migration haben
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wie funktioniert die Migration von Benutzer-IDs? </p> </td> 
-   <td colname="col2"> <p> Click <a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local"> Migrate User IDs</a> on the Admin page, under User Management. Verwenden Sie das Tool, um Benutzer zu Produktprofilen in der Admin Console hinzuzufügen (repliziert aus Berechtigungsgruppen in Analytics). Sie können Benutzer-IDs ganz nach Ihren Wünschen migrieren. </p> <p>Dazu sind Administrationsberechtigungen erforderlich. Nach Abschluss der Migration kann diese nicht rückgängig gemacht werden. </p> <p>Am Enddatum der Migration wird der Zugriff auf <span class="filepath">my.omniture.com</span> für Benutzer innerhalb ihres angemeldeten Unternehmens deaktiviert. Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>Hinweis: Adobe empfiehlt, vor der Migration die Gelegenheit für eine Prüfung Ihrer Benutzer und Gruppen zu nutzen. Löschen Sie alte und nicht verwendete Konten sowie solche, die keinen Zugriff mehr auf das Produkt haben sollten (z. B. Mitarbeiter, die nicht mehr im Unternehmen arbeiten). </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> Click <a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local"> Migrate User IDs</a> on the Admin page, under User Management. Verwenden Sie das Tool, um Benutzer zu Produktprofilen in der Admin Console hinzuzufügen (repliziert aus Berechtigungsgruppen in Analytics). Sie können Benutzer-IDs ganz nach Ihren Wünschen migrieren. </p> <p>Dazu sind Administrationsberechtigungen erforderlich. Nach Abschluss der Migration kann diese nicht rückgängig gemacht werden. </p> <p>Am Enddatum der Migration wird der Zugriff auf <span class="filepath">my.omniture.com</span> für Benutzer innerhalb ihres angemeldeten Unternehmens deaktiviert. Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>Hinweis: Adobe empfiehlt, vor der Migration die Gelegenheit für eine Prüfung Ihrer Benutzer und Gruppen zu nutzen. Löschen Sie alte und nicht verwendete Konten sowie solche, die keinen Zugriff mehr auf das Produkt haben sollten (z. B. Mitarbeiter, die nicht mehr im Unternehmen arbeiten). </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wirkt sich die Migration auf meine Analytics-Implementierung oder darauf aus, wie Daten erfasst werden? </p> </td> 
@@ -237,7 +237,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">Asset-Übertragung </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">Benutzergültigkeit </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">Benutzerprotokolle </li> 
-    </ul> <p>Diese stehen Ihnen im Analytics User Management weiterhin zur Verfügung. </p> <p>Weitere Informationen dazu finden Sie unter <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Nicht unterstützte Analytics-Funktionen in der Admin Console</a>. </p> </td> 
+    </ul> <p>Diese stehen Ihnen im Analytics User Management weiterhin zur Verfügung. </p> <p>Weitere Informationen dazu finden Sie unter <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local">Nicht unterstützte Analytics-Funktionen in der Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wir haben verschiedene Konfigurationen in der Admin Console erstellt und sie Analytics-Berechtigungsgruppen zugeordnet. Was geschieht bei Migrationsbeginn mit diesen Konfigurationen? </p> </td> 
