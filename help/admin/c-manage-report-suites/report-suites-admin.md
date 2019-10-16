@@ -5,9 +5,9 @@ seo-title: Report Suite Manager
 solution: Analytics
 title: Report Suite Manager
 topic: Admin Tools
-uuid: 018 c 4 f 63-4 d 87-4 a 2 e -8 c 71-1 ba 7 f 5 dd 9446
+uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -20,7 +20,7 @@ Eine Report Suite definiert die vollständige, unabhängige Berichterstellung ü
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Please refer to the [Virtual Report Suite documentation](/help/components/vrs/vrs-about.md).
+>Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Weitere Informationen finden Sie in der Dokumentation zur [Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -56,7 +56,7 @@ Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL „Report
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Datenaggregationen</span> </td> 
-   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe <a href="../../admin/c-manage-report-suites/rollup-report-suite.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Datenaggregations-Report-Suites</a>. </p> </td> 
+   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Datenaggregations-Report-Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Einstellungen bearbeiten</span> </td> 
@@ -64,7 +64,7 @@ Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL „Report
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Neu erstellen</span> </td> 
-   <td colname="col2">Siehe <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#concept_3CBBE252279C43069030EFBBD7D26376" format="dita" scope="local">Neue Report Suite</a>. </td> 
+   <td colname="col2">Siehe <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Neue Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Spalten anpassen</span> </td> 
@@ -72,15 +72,15 @@ Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL „Report
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Report Suite-ID</span> </td> 
-   <td colname="col2">Siehe <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Neue Report Suite</a>. </td> 
+   <td colname="col2">Siehe <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Neue Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Site-Titel</span> </td> 
-   <td colname="col2"> <p>Daran erkennen Sie die Report Suites in den Admin Tools sowie in der Dropdown-Liste „Report Suite“ in der Kopfzeile der Marketing-Berichte. </p> <p>Siehe <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Neue Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Daran erkennen Sie die Report Suites in den Admin Tools sowie in der Dropdown-Liste „Report Suite“ in der Kopfzeile der Marketing-Berichte. </p> <p>Siehe <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Neue Report Suite</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Basis-URL</span> </td> 
-   <td colname="col2"> <p>Legt die Basisdomäne für die Report Suite fest. </p> <p>Siehe <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Neue Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Legt die Basisdomäne für die Report Suite fest. </p> <p>Siehe <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Neue Report Suite</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
