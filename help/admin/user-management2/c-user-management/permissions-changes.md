@@ -9,7 +9,7 @@ title: Änderungen an Berechtigungen für Benutzer und Gruppen
 topic: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 ---
 
@@ -59,7 +59,7 @@ Weil API und Oberfläche dasselbe Berechtigungssystem verwenden, wird es sich be
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Berechtigung für Anomalieerkennungsbericht </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Berechtigung für Echtzeitbericht </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Berechtigung für Zugriff auf Analysis Workspace </li> 
-    </ul> <p>Administratoren können benutzerspezifische Gruppen löschen und eigene Gruppen erstellen, da sämtliche zuvor in vordefinierten Gruppen zur Verfügung stehenden Einstellungen auch für die Anpassung mit Einstellungen für den <span class="wintitle">Zugriff auf Berichte</span> unter <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">Benutzergruppen definieren</a> verfügbar sind. </p> </td> 
+    </ul> <p>Administratoren können benutzerspezifische Gruppen löschen und eigene Gruppen erstellen, da sämtliche zuvor in vordefinierten Gruppen zur Verfügung stehenden Einstellungen auch für die Anpassung mit Einstellungen für den <span class="wintitle">Zugriff auf Berichte</span> unter <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">Benutzergruppen definieren</a> verfügbar sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berechtigungen auf Dimensionsebene </p> </td> 
