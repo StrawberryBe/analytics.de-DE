@@ -1,18 +1,18 @@
 ---
 description: Administrative Schritte zum Einrichten von Echtzeit-Berichten
 seo-description: Administrative Schritte zum Einrichten von Echtzeit-Berichten
-seo-title: Konfiguration von Echtzeitberichten
+seo-title: Konfiguration von Echtzeit-Berichten
 solution: Analytics
-title: Konfiguration von Echtzeitberichten
+title: Konfiguration von Echtzeit-Berichten
 topic: Admin Tools
-uuid: f 48692 a 0-77 c 0-4 ee 4-b 3 ec-eaa 842 d 06 ac 8
+uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Konfiguration von Echtzeitberichten
+# Konfiguration von Echtzeit-Berichten
 
 Administrative Schritte zum Einrichten von Echtzeit-Berichten
 
@@ -37,7 +37,7 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../../admin/admin/realtime/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Informationen zu unterstützten Echtzeit-Metriken und -Dimensionen finden Sie unter [Unterstützte Metriken und Dimensionen](/help/admin/admin/realtime/realtime-metrics.md).
 
    Falls Sie Classifications erstellt haben, werden sie unter der Dimension angezeigt, für die sie definiert wurden:
 
@@ -45,13 +45,13 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
    >[!NOTE]
    >
-   >Für einen einzelnen Echtzeitbericht unterstützen wir derzeit nicht die Aktivierung doppelter Dimensionen, auch wenn für jede Dimension eine andere Classification ausgewählt wurde.
+   >Für einen einzelnen Echtzeitbericht wird die Aktivierung doppelter Dimensionen derzeit nicht unterstützt, auch wenn für jede Dimension eine andere Classification ausgewählt wurde.
 
-   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   Weitere Informationen zu Klassifizierungen finden Sie unter [Info zu Klassifizierungen](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
-   >Einige Dimensionen wie "Suchbegriff" oder" Produkt" bleiben in Echtzeit nicht wie anderswo in Adobe Analytics erhalten. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
+   > Einige Dimensionen, wie "Suchbegriff"oder "Produkt", bleiben in Echtzeit nicht erhalten, wie dies in anderen Adobe Analytics der Fall ist. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
 
    ![](assets/warning_dimensions.png)
 
