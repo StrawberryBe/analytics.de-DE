@@ -1,22 +1,22 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Aktuelle Verwendung des Serveraufrufs anzeigen
-title: Aktuelle Verwendung des Serveraufrufs anzeigen
-uuid: 1 a 42 a 45 f -4 bbc -4 b 5 a -9706-c 9837265 de 2 b
+description: 'null'
+seo-description: 'null'
+seo-title: Aktuelle Nutzung der Server-Aufrufe anzeigen
+title: Aktuelle Nutzung der Server-Aufrufe anzeigen
+uuid: 1a42a45f-4bc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Aktuelle Verwendung des Serveraufrufs anzeigen
+# Aktuelle Nutzung der Server-Aufrufe anzeigen
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Nutzung des Servers]** &gt; **[!UICONTROL Aktuelle Verwendung]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Verwendung **[!UICONTROL des]** Server-Aufrufs &gt; **[!UICONTROL Aktuelle Nutzung]**
 
 >[!IMPORTANT]
 >
->Alle verwendeten Nutzungs- und Einsatzzahlen sind für alle Ihre Anmeldeunternehmen und Report Suites kumulativ.
+>Alle Nutzungsnummern und Verpflichtungsnummern, die Ihnen angezeigt werden, sind für alle Ihre Anmeldeunternehmen und Report Suites kumulativ.
 
 Das Dashboard für aktuelle Nutzung:
 
@@ -29,7 +29,7 @@ Das Dashboard für aktuelle Nutzung:
 
    >[!NOTE]
    >
-   >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](../../admin/c-server-call-usage/report-suite-usage.md#concept_E50FA5BD93404EB8B2FE954F658FDAFD) tab and download the usage data for a previous period.
+   >Wenn Sie die Nutzung für einen vorherigen Zeitraum anzeigen möchten, müssen Sie zur Registerkarte " [Report Suite-Nutzung](/help/admin/c-server-call-usage/report-suite-usage.md) "gehen und die Nutzungsdaten für einen vorherigen Zeitraum herunterladen.
 
 * Listet den Anteil an genutzten Aufrufen (in Prozent und in unverarbeiteten Daten) und den Anteil der bereits abgelaufenen Nutzungsperiode (in Prozent und in unverarbeiteten Daten) auf.
 * Wird standardmäßig täglich mit einer Verarbeitungsverzögerung von 5 Tagen aktualisiert.
@@ -39,7 +39,7 @@ Das Dashboard für aktuelle Nutzung:
 
 | Nutzeroberflächenbegriff | Definition |
 |---|---|
-| Nutzung der aktuellen Nutzungsperiode (grün) | Der aktuelle Zeitraum basiert auf der [Nutzungsperiode](../../admin/c-server-call-usage/overage-overview.md#section_CBA348A039F34563B097CD8890AB358D). |
+| Nutzung der aktuellen Nutzungsperiode (grün) | Der aktuelle Zeitraum basiert auf der [Nutzungsperiode](/help/admin/c-server-call-usage/overage-overview.md). |
 | Nutzung der vorherigen Nutzungsperiode (blau) | Der vorherige Zeitraum wird als aktuelle Nutzungsperiode minus 1 Jahr definiert. |
 | Nutzungslimit (rot) | Ihr vertraglich festgelegtes Nutzungslimit für diese Nutzungsperiode. |
 
