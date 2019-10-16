@@ -5,7 +5,7 @@ seo-title: Zugriffs- und Löschanfragen einreichen
 title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -25,9 +25,9 @@ Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwill
 
 ## Benutzer und ihre Daten validieren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Sie als Datenverantwortlicher müssen sicherstellen, dass das Datensubjekt die Person ist, für die sie sich ausgibt, und zum Zugriff auf die angeforderten Daten berechtigt ist. Darüber hinaus müssen Sie sicherstellen, dass dem Datensubjekt die richtigen Daten bereitgestellt werden und dass es nicht unumkehrbar Daten zu anderen Datensubjekten erhält.
+Sie als Datenverantwortlicher müssen sicherstellen, dass das Datensubjekt die Person ist, für die sie sich ausgibt, und zum Zugriff auf die angeforderten Daten berechtigt ist. Darüber hinaus ist es Ihre Verantwortung sicherzustellen, dass die richtigen Daten an die betroffene Person zurückgegeben werden und dass diese nicht versehentlich Daten über andere Betroffene erhält.
 
-Dazu gehört die Überprüfung der von Adobe Analytics zurückgegebenen Daten im Rahmen einer Datenschutzanfrage, bevor sie an die betroffene Person gesendet werden. Besonders vorsichtig sollten Sie sein, wenn Sie Personen-IDs verwenden und nicht nur Daten zurückgeben, in denen diese ID enthalten ist, sondern auch Daten für andere Hits auf gemeinsam genutzten Geräten, auf denen die entsprechende ID manchmal genutzt wurde ([ID-Erweiterung](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+Dazu gehört die Überprüfung der von Adobe Analytics zurückgegebenen Daten im Rahmen einer Datenschutzanfrage, bevor sie an die betroffene Person gesendet werden. Besondere Vorsicht ist geboten, wenn Sie Personen-IDs verwenden und nicht nur Daten, bei denen diese ID vorhanden ist, zurückgeben, sondern auch Daten für andere Treffer auf einem freigegebenen Gerät, bei denen diese ID manchmal vorhanden war. Siehe [ID-Erweiterung.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits. Sie können entscheiden, welche dieser Dateien Sie an die betroffene Person zurückgeben. Sie können auch Daten extrahieren oder mit Daten aus anderen Systemen kombinieren, bevor Sie sie an das Datensubjekt zurücksenden.
 
@@ -39,7 +39,7 @@ Sie können den Datenschutz über unser Benutzeroberflächen-Portal für [Datens
 >
 >Die Datenschutz-API unterstützt Stapelübermittlungen für mehrere Benutzer in einer einzigen Anforderung. Die Unterstützungsgrenze liegt momentan bei 1000 separaten Benutzern (pro Benutzer können mehrere IDs vorliegen) in einer einzelnen JSON-Anfragedatei.
 
-## JSON-Beispielanfrage {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## JSON-Beispielanfrage {#sample-json-request}
 
 Hier sehen Sie die JSON, die möglicherweise über die Data Privacy API oder UI gesendet wird und die Verarbeitung der Daten zum Datenschutz für drei Benutzer anfordert.
 
@@ -101,7 +101,7 @@ Hier sehen Sie die JSON, die möglicherweise über die Data Privacy API oder UI 
 } 
 ```
 
-Beachten Sie, dass der Benutzerabschnitt drei Blöcke enthält, die drei separate Anfragen für vermutlich drei verschiedene Datensubjekte darstellen.
+Beachten Sie, dass der Benutzerabschnitt drei Blöcke enthält, die drei separate Anforderungen darstellen, vermutlich für drei verschiedene Datensubjekte.
 
 * Bei der ersten Anfrage handelt es sich um eine Zugriffsanfrage, in der eine herkömmliche Adobe Analytics-Cookie-ID (AAID) verwendet wird.
 * Die zweite Anfrage ist ebenfalls eine Zugriffsanfrage, in der jedoch ein MCID-/ECID-Cookie verwendet wird.
@@ -109,10 +109,10 @@ Beachten Sie, dass der Benutzerabschnitt drei Blöcke enthält, die drei separat
 
 Bedenken Sie Folgendes:
 
-* Der Wert „5D7236525AA6D9580A495C6C@AdobeOrg“ im Abschnitt „companyContexts“ muss mit dem Wert Ihrer eigenen Experience Cloud-Organisation aktualisiert werden.
-* Die Felder „type“ und „namespace“ werden im Abschnitt [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D) detailliert beschrieben.
-* Die Felder „description“ werden ignoriert.
-* Die Felder „key“ können beliebige Werte enthalten. Wenn Sie über eine interne ID verfügen, die Sie zur Verfolgung von Datenschutzanforderungen verwenden, können Sie diesen Wert hier platzieren, um die Übereinstimmung von Anforderungen im Adobe-System mit Anforderungen in Ihren eigenen Systemen zu erleichtern.
+* Der Wert "5D7236525AA6D9580A495C6C@AdobeOrg"im Abschnitt "companyContexts"muss mit dem Wert Ihrer eigenen Experience Cloud-Organisation aktualisiert werden.
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* Die Felder "Beschreibung"werden ignoriert.
+* Die Felder "Schlüssel"können jeden gewünschten Wert enthalten. Wenn Sie über eine interne ID verfügen, die Sie zur Verfolgung von Datenschutzanforderungen verwenden, können Sie diesen Wert hier platzieren, um die Übereinstimmung von Anforderungen im Adobe-System mit Anforderungen in Ihren eigenen Systemen zu erleichtern.
 
 ## Reaktionsdetails {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -151,4 +151,4 @@ Es gibt einige Möglichkeiten, die Verarbeitung der Datenschutzdaten noch vor de
 * Eine Option ist die Einrichtung einer separaten Experience Cloud-Organisation, die nur Test-Report Suites enthält. Verwenden Sie dann diese Experience Cloud-Organisation für Ihre Datenschutz-Tests und Ihre normale Experience Cloud-Organisation für die tatsächliche Verarbeitung der Daten.
 * Eine weitere Option ist es, den IDs in Ihren Test-Report-Suites andere Namespaces zuzuweisen als in den Produktions-Report-Suites.
 
-   Sie können beispielsweise jedem Namespace in Ihren Test-Report Suites „qs-“ voranstellen. Wenn Sie Datendatenschutzanforderungen nur mit Namespaces mit dem qa-Präfix senden, werden diese Anforderungen nur für Ihre Report Suites ausgeführt. Wenn Sie die Anfragen später ohne das Präfix senden, werden sie auf Ihre Produktions-Report Suites angewendet. **Wir empfehlen diesen Ansatz, sofern Sie nicht die visitorId-, AAID-, ECID- oder customVisitorId-Namespaces verwenden, da diese fest codiert sind und Sie keine alternativen Namen in Ihren Test-Report Suites festlegen können**.
+   Sie können beispielsweise jedem Namespace in Ihren Test-Report Suites den Präfix "qa-"voranstellen. Wenn Sie Datendatenschutzanforderungen nur mit Namespaces mit dem qa-Präfix senden, werden diese Anforderungen nur für Ihre Report Suites ausgeführt. Wenn Sie die Anfragen später ohne das Präfix senden, werden sie auf Ihre Produktions-Report Suites angewendet. **Wir empfehlen diesen Ansatz, sofern Sie nicht die visitorId-, AAID-, ECID- oder customVisitorId-Namespaces verwenden, da diese fest codiert sind und Sie keine alternativen Namen in Ihren Test-Report Suites festlegen können**.
