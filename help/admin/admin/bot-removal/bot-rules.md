@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Bot Rules
 title: Übersicht über Bot-Regeln
 topic: Admin Tools
-uuid: 3 cb 9 e 29 d -1 c 37-43 de-b 7 ac -44441093 a 60 e
+uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 5574b9e37e68971f7ecaa05056a30dab0b3d5d47
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -27,12 +27,12 @@ Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige der Berichte,
 
 | Regeltyp | Beschreibung |
 |--- |--- |
-| Standardmäßige IAB-Bot-Regeln | Durch Auswahl von [!UICONTROL Aktivieren von IAB Bot Filterregeln] wird die internationale Spiders &amp; Bots-Liste [von IAB](https://www.iab.com) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen diese Option mindestens aus. |
+| Standard-IAB-Bot-Regeln | Wenn Sie IAB-Bot-Filterregelnaktivieren auswählen, wird die internationale Spiders &amp; Bots-Liste des [IABs](https://www.iab.com) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen diese Option mindestens aus. |
 | Benutzerspezifische Bot-Regeln | Sie können benutzerspezifische Bot-Regeln basierend auf Benutzeragenten, IP-Adressen oder IP-Bereichen definieren und hinzufügen. |
 
-## Standardmäßige IAB-Bot-Regeln
+## Standard-IAB-Bot-Regeln
 
-Standardmäßige IAB-Bot-Regeln können aktiviert werden, indem das Kontrollkästchen [!UICONTROL IAB Bot Filtergewichtungsregeln] aktivieren aktiviert wird. Diese Auswahl entfernt Bots in der Internationalen Spiders und Bots (International Advertising Bureau) von IAB, um Bot-Traffic zu entfernen. Das IAB aktualisiert diese Liste monatlich.
+Standard-IAB-Bot-Regeln können aktiviert werden, indem Sie das Kontrollkästchen "IAB Bot-Filterregeln [!UICONTROL aktivieren"aktivieren] . Durch diese Auswahl werden Bots aus der IAB-Liste (International Advertising Bureau's) International Spiders &amp; Bots entfernt, um Bot Traffic zu entfernen. Die IAB aktualisiert diese Liste monatlich.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -88,7 +88,7 @@ Erstellen Sie eine CSV-Datei mit den folgenden Spalten in der angezeigten Reihen
 
 | Spalte 1 | Spalte 2 | Spalte 3 | Spalte 4 | Spalte 5 |
 |--- |--- |---|---|---|
-| Bot-Name | IP-Start | IP-Ende | Agent Match Rule<br>(contains or starts with)</br> | Agent Exclude (<br>Max. 255 Zeichen)</br> |
+| Bot-Name | IP-Start | IP-Ende | Agent Match Rule<br>(contains or starts with)</br> | Agent Exclude<br>(maximal 255 Zeichen)</br> |
 
 Sie können drei Arten von Bot-Regeln definieren:
 
@@ -100,7 +100,7 @@ Jede Zeile in der Importdatei kann nur eine der folgenden Bot-Definitionen entha
 
 * **Benutzeragent enthält oder beginnt mit:** Geben Sie eine einzige Benutzeragent-Zeichenfolge zur Übereinstimmung in der Spalte „Agent einschließlich“ ein. Legen Sie den gewünschten Übereinstimmungstyp fest, indem Sie im Feld zur Agent-Übereinstimmungsregel den Vermerk *enthält* oder *beginnt mit* platzieren. An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. Bei Zeichenfolgen-Übereinstimmungen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Sowohl die Spalte „IP-Start“ als auch „IP-Ende“ müssen leer sein.
 
-* **Einzelne IP-Adresse oder Wildcard-Übereinstimmung**: Um eine einzelne IP-Adresse ( `10.10.10.1`) oder Wildcard-IP-Adresse ( `10.10.*.*`) zuzuordnen, müssen Sie denselben Wert sowohl in der Spalte IP-Start als auch in IP-Ende einfügen. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
+* **Einzelne IP-Adresse oder Wildcard-Übereinstimmung**: Um eine Übereinstimmung mit einer einzelnen IP-Adresse ( `10.10.10.1`) oder einer Platzhalter-IP-Adresse ( `10.10.*.*`) herzustellen, platzieren Sie denselben Wert in den Spalten "IP-Start"und "IP-Ende". „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
 * **IP-Bereichs-Übereinstimmung**: Definieren Sie einen Bereich von IP-Adressen mithilfe der Spalten „IP-Start“ und „IP-Ende“. Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
@@ -112,7 +112,7 @@ Um eine Übereinstimmung für einen Bot mithilfe einer ODER-Kombination aus Rege
 
 Wählen Sie das Kontrollkästchen **[!UICONTROL Bestehende Regeln überschreiben]an, um alle bestehenden Regeln zu löschen und sie durch die in der Upload-Datei definierten Regeln zu ersetzen.**
 
-### Exportregeln
+### Regeln exportieren
 
 Über die Schaltfläche **[!UICONTROL Hochgeladene Bot-Datei]werden alle in der Benutzeroberfläche definierten Regeln in einem CSV-Format exportiert.**
 
@@ -121,13 +121,13 @@ Wählen Sie das Kontrollkästchen **[!UICONTROL Bestehende Regeln überschreiben
 
 Bot-Regeln gelten für alle Analysedaten. Mithilfe von Bot-Regeln entfernte Daten sind nur in den Berichten „Bots“ und „Bots Pages“ sichtbar.
 
-VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
+VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
 **Verarbeitung von Besuchen mit hoher Hit-Zahl:** Wenn mehr als 100 Hits in einem Besuch auftreten, wird bei der Berichterstellung ermittelt, ob der Zeitraum des Besuchs (in Sekunden) kleiner oder gleich der Anzahl der Hits bei diesem Besuch ist. In dieser Situation beginnt die Berichterstellung mit dem nächsten Besuch neu, da die Verarbeitung langer, intensiver Besuche hohe Kosten verursacht. Besuche mit hoher Hit-Zahl werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen von Besuchern.
 
 >[!NOTE]
 >
->Treffer, die als *`bots`*[Serveraufrufe gekennzeichnet werden](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html).
+>Treffer, die als *`bots`* markiert sind, werden als [Serveraufrufe in Rechnung gestellt.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
