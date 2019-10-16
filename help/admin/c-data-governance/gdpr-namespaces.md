@@ -3,9 +3,9 @@ description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace 
 seo-description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 seo-title: Namespaces
 title: Namespaces
-uuid: cab61844-3209-4980-b14c-6859de77606
+uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -38,7 +38,7 @@ Legacy-Analytics-Tracking-Cookie, auch bekannt als Adobe Analytics-ID (AAID):
 
 Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestrich, angegeben werden. Alle Hexadezimalzahlen, die alphabetische Zeichen sind, müssen in Großbuchstaben angegeben werden. Die Hexadezimalwerte sollte keine vorangestellten Nullen enthalten. (Beachten Sie die Differenz zum gleichen Wert, der in der veralteten Form angegeben ist, bei der vorangestellte Nullen erforderlich sind.)
 
-Es ist auch akzeptabel, dieses Formular `“namespaceId”: 10` anstelle von oder zusätzlich zu verwenden `“namespace”: “AAID”` und einige andere Adobe-Produkte verwenden es möglicherweise.
+Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"namespace": "AAID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
 ## Legacy-Analytics-Tracking-Cookie: Veraltete Form
 
@@ -52,9 +52,9 @@ Es ist auch akzeptabel, dieses Formular `“namespaceId”: 10` anstelle von ode
 
 Veraltete Form:
 
-Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, Unterstrich oder Doppelpunkt getrennt sein. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
+Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, Unterstrich oder Doppelpunkt getrennt sein. Führende Nullen sollten hinzugefügt werden, wenn eine Zahl nicht genügend Ziffern hat.
 
-## Identitätsdienst-Cookie
+## Identity Service Cookie
 
 ```
 {
@@ -64,15 +64,15 @@ Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-ste
 }
 ```
 
-Der Wert muss in Form einer 38-stelligen Dezimalzahl angegeben werden. Wenn Sie diese Zahl aus den beiden Spalten "mcvisid\_high/low"oder "post\_msvisid\_high/low"aus einem Data Feed oder Data Warehouse-Bericht ziehen, müssen Sie die beiden Zahlen mit null auf 19 Stellen füllen und dann mit dem hohen Wert verketten.
+Der Wert muss in Form einer 38-stelligen Dezimalzahl angegeben werden. Wenn Sie diese Zahl aus den beiden Spalten „mcvisid\_high/low“ oder „post\_msvisid\_high/low“ aus einem Daten-Feed- oder Data Warehouse-Bericht beziehen, müssen Sie jede der beiden Zahlen mit Nullen auf 19 Stellen auffüllen und sie dann mit dem hohen Wert voran verknüpfen.
 
-Es ist auch zulässig, Dieses Formular wird `“namespaceId”: 4` anstelle von oder zusätzlich zu `“namespace”: “ECID”` anderen Adobe-Produkten verwendet.
+Es ist auch möglich, `"namespaceId": 4` anstelle von oder zusätzlich zu `"namespace": "ECID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
 >[!NOTE]
 >
->Die Experience Cloud ID (ECID) wurde früher als Marketing Cloud ID (MCID) bezeichnet und wird in einer vorhandenen Dokumentation weiterhin durch diesen Namen referenziert.
+>Die Experience Cloud ID (ECID) wurde früher als Marketing Cloud ID (MCID) bezeichnet. Dementsprechend findet sich dieser Name noch in älteren Dokumentationen.
 >
->Diese IDs sind die einzigen von Analytics unterstützten IDs, die einen anderen "type"-Wert als "analytics"verwenden.
+>Diese IDs sind die einzigen von Analytics unterstützten IDs, die für „type“ einen anderen Wert verwenden als „analytics“.
 
 Wenn das Format des Wertanteils einer dieser Cookie-IDs nicht dem für diese ID beschriebenen Format entspricht, schlägt die Datendatenschutzanforderung fehl, mit der Fehlermeldung "Wert nicht korrekt formatiert".
 
@@ -106,12 +106,12 @@ Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 }
 ```
 
-Bei IDs in Custom Traffic- oder Konversionsvariablen (Props oder eVars) beschriften Sie die Variable mit einer ID-GERÄT- oder ID-PERSON-Beschriftung und weisen Sie dann diesem ID-Typ Ihren eigenen Namespace-Namen zu. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](gdpr-labels.md)
+Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Beschriftung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](gdpr-labels.md)
 
 Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben und diese wiederverwenden. So können Sie einfach einen Namespace für all Ihre Report Suites verwenden, die diesen ID-Typ enthalten. Darüber hinaus ist es möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Manche Kunden speichern beispielsweise eine CRM-ID in einer Traffic- oder Konversionsvariablen (je nach Seite, manchmal auch beide). Sie können den Namespace „CRM-ID“ beiden Variablen zuweisen.
 
-> [!TIP] Vermeiden Sie den benutzerfreundlichen Namen einer Variablen (der in der Berichterstellungs-Benutzeroberfläche angezeigte Name) oder die Variablennummer (z. B. eVar12), wenn Sie den Namespace für die Data Privacy API angeben, es sei denn, es handelt sich um den Namespace, der beim Anwenden der ID-GERÄT- oder ID-PERSON-Bezeichnung angegeben wurde. Wenn ein Namespace anstelle eines benutzerfreundlichen Namens verwendet wird, kann derselbe Benutzeridentitätsblock die richtige Variable für mehrere Report Suites angeben. Wenn sich die ID beispielsweise in einigen Report Suites in verschiedenen eVars befindet oder wenn die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
+> [!TIP] Vermeiden Sie den benutzerfreundlichen Namen einer Variablen (der in der Berichterstellungs-Benutzeroberfläche angezeigte Name) oder die Variablennummer (z. B. eVar12), wenn Sie den Namespace für die Data Privacy API angeben, es sei denn, es handelt sich um den Namespace, der beim Anwenden der ID-GERÄT- oder ID-PERSON-Bezeichnung angegeben wurde. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden. Wenn sich die ID beispielsweise in einigen Report Suites in verschiedenen eVars befindet oder wenn die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
 
-> [!CAUTION] Die Namespaces "visitorId"und "customVisitorId"sind zur Identifizierung des Legacy-Tracking-Cookies in Analytics und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierten Traffic oder Konversionsvariablen.
+> [!CAUTION] Die Namespaces „visitorId“ und „customVisitorId“ sind zur Identifikation des früheren Tracking-Cookies von Analytics und der benutzerdefinierten Besucher-ID von Analytics reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
 
-Weitere Informationen dazu finden Sie unter [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)
+Weitere Informationen dazu finden Sie unter [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
