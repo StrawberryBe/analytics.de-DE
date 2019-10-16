@@ -6,14 +6,14 @@ solution: Analytics
 subtopic: Benutzer und Gruppen
 title: Benutzergruppeneinstellungen
 topic: Admin Tools
-uuid: b 411032 a -7 d 56-44 fd-b 676-abee 4 af 756 f 9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Benutzergruppeneinstellungen (veraltet)
+# Benutzergruppeneinstellungen (alt)
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Neue Benutzergruppe hinzufügen]**
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; Neue Benutzergruppe **[!UICONTROL hinzufügen]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Traffic-Berichte</b>: Gewährt Zugriff auf alle Berichte, die auf Traffic basieren, wie Seitenansichten, Besuche und Unique Visitors. </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Traffic-Berichte</b>: Ermöglicht Zugriff auf alle Berichte, die auf dem Traffic basieren, z. B. Seitenansichten, Besuche und individuelle Besucher. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Werkzeuge</b> (erlaubt den Zugriff auf Werkzeuge, die in Reports &amp; Analysen verwendet werden, wie „Nach IP ausschließen“, „Classifications“ und die veraltete ClickMap) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Video- und Mobil-Berichte</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Pfadberichte</b> (erlaubt den Zugriff auf Pfadberichte, wie „Nächste Seite“, „Trichteranalyse“ und „Besuchszeit pro Seite“.) </li> 
@@ -95,10 +95,10 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
      </ul> </p> </td> 
    <td colname="col2"> <p>Die Gruppenmitglieder können auf einen Teil der Berichte in der Berichtsgruppe zugreifen. Durch Klicken auf <span class="uicontrol">Anpassen</span> können Sie eine Seite öffnen, auf der Sie die Berichte aus der Berichtsgruppe, auf die die Gruppenmitglieder zugreifen können, auswählen können. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Analytics-Werkzeuge</a>: Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local"> Report Suite Tools</a>: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local"> Metriken</a>: Gewähren Sie Zugriff auf Traffic, Konversion, benutzerdefinierte Ereignisse, Lösungsereignisse, Content-Unterstützung und mehr. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> Dimensionen</a>: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Analytics-Werkzeuge</a>: Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Report Suite Tools</a>: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Metriken</a>: Gewähren Sie Zugriff auf Traffic, Konversion, benutzerdefinierte Ereignisse, Lösungsereignisse, Content-Unterstützung und mehr. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensionen</a>: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
