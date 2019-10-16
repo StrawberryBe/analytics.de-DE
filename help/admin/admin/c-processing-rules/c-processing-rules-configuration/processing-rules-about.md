@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Verarbeitungsregeln
 title: Funktionsweise von Verarbeitungsregeln
 topic: Admin Tools
-uuid: 19 c 31 f 94-c 8 d 8-47 b 1-97 fa -29 c 98 c 94 e 87
+uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Regeln gelten für eine einzelne Report Suite. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md#task_6E4B82FCA687409B88F17EAFC353755D" type="task" format="dita" scope="local"> Kopieren von Verarbeitungsregeln in eine andere Report Suite </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Kopieren von Verarbeitungsregeln in eine andere Report Suite </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden in der aufgeführten Reihenfolge angewendet. </p> </td> 
@@ -41,15 +41,15 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden sofort nach ihrer Speicherung auf die Report Suite angewendet. </p> </td> 
-   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von <a href="../../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40" format="dita" scope="local"> Echtzeitberichte</a> in Ihrer Test-Report Suite, damit Sie die Ergebnisse einer Verarbeitungsregel schnell sehen können. </p> </td> 
+   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln sind die einzige Möglichkeit für den Zugriff auf Kontextdatenvariablen. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Eine Kontextdatenvariable in eine eVar kopieren </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Eine Kontextdatenvariable in eine eVar kopieren </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden vor VISTA-Regeln und Marketingkanal-Regeln angewendet. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E" type="concept" format="dita" scope="local"> Auftrag wird bearbeitet </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Auftrag wird bearbeitet </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Treffer können nicht ausgeschlossen werden. </p> </td> 
@@ -64,7 +64,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
    <td colname="col2"> <p>Die Suche nach mobilen Geräten findet vor der Ausführung der Verarbeitungsregeln statt, aber in den Verarbeitungsregeln sind keine Attribute verfügbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Wenn Sie mit JavaScript AppMeasurement H.25.2 oder früher arbeiten, können die Abfragezeichenfolgenparameter nur bis zu den ersten 255 Zeichen der URL gelesen werden. Javascript appmeasurement H .25 .3 und höher stellt Verarbeitungsregeln die vollständige URL einschließlich aller Abfragezeichenfolgenparameter bereit. </p> </td> 
+   <td colname="col1"> <p>Wenn Sie mit JavaScript AppMeasurement H.25.2 oder früher arbeiten, können die Abfragezeichenfolgenparameter nur bis zu den ersten 255 Zeichen der URL gelesen werden. JavaScript AppMeasurement H.25.3 und höher stellen die vollständige URL einschließlich aller Abfragezeichenfolgenparameter für Verarbeitungsregeln bereit. </p> </td> 
    <td colname="col2"> <p>Aktualisieren Sie auf Version H.25.3 oder höher, oder lesen Sie die Abfragezeichenfolgenparameter aus langen URLs clientseitig ein, und speichern Sie die Werte in Kontextdatenvariablen. </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bei Wertvergleichen in der Benutzeroberfläche wird zwischen Groß- und Kleinschreibung unterschieden. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md#concept_958E924BCCBB4BBA91CE91C977FE5151" type="concept" format="dita" scope="local"> Bereinigen von Werten in einem Bericht </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Bereinigen von Werten in einem Bericht </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Der Name der Kontextdatenvariablen darf nur alphanumerische Zeichen, Unterstriche und Punkte enthalten. Alle anderen Zeichen werden entfernt. </p> </td> 
-   <td colname="col2"> <p>Beispiel: Die Kontextdatenvariable <code>login_page-home</code> wird automatisch in <code>login_pagehome</code> geändert. Alle an die Variable <code>login_page-home</code> gesendeten Daten werden unter <code>login_pagehome</code> zugeordnet. </p> <p>Kontextdatenvariablen mit ungültigen Zeichen im Namen können nicht in die Verarbeitungsregel-Oberfläche aufgenommen werden. </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Kontextdatenvariablen mit ungültigen Zeichen im Namen können nicht in die Verarbeitungsregel-Oberfläche aufgenommen werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Das Caret (^) ist ein im Verarbeitungsregelsystem verwendetes Sonderzeichen. </p> </td> 
