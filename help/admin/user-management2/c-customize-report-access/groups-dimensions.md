@@ -1,15 +1,15 @@
 ---
 description: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
-keywords: Gruppen; Berechtigungen
+keywords: Gruppen;Berechtigungen
 seo-description: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
 seo-title: Dimensionsberechtigungen anpassen
 solution: Analytics
 subtopic: Benutzer und Gruppen
 title: Dimensionsberechtigungen anpassen
 topic: Admin Tools
-uuid: aaf 164 ad -3863-4129-864 e -39 ec 71 c 6 a 8 eb
+uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
 
-**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Zugriff auf Bericht]** &gt; **[!UICONTROL Dimensionen]** &gt; **[!UICONTROL Anpassen]**
+**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; Zugriff auf **[!UICONTROL Berichte]** &gt; **[!UICONTROL Dimensionen]** &gt; **[!UICONTROL Anpassen]**
 
 >[!IMPORTANT]
 >
->Einige Dimensionen sind derzeit nicht möglich. Es handelt sich um die folgenden Dimensionen: Mobile Lesezeichenlänge; Mobilgerätenummer; Mobil-DRM; Mobile Informationsdienste; Mobile Java-VM; Mobiles Mail-Design; Mobile Netzprotokolle; Mobilbetriebssystem; Mobiles PTT.
+>Einige Dimensionen sind derzeit nicht zulässig. Es handelt sich um die folgenden Dimensionen: Mobile Lesezeichenlänge; Mobilgerätenummer; Mobil-DRM; Mobile Informationsdienste; Mobile Java-VM; Mobiles Mail-Design; Mobile Netzprotokolle; Mobilbetriebssystem; Mobiles PTT.
 >
 >Diese Dimensionen sind für alle Benutzer verfügbar, unabhängig von anderen Berechtigungen.
 
@@ -38,7 +38,7 @@ Lesen Sie sich folgende Informationen zur Dimensionskategorie in den Berechtigun
 
 * Individuelle Berechtigung für eVars 1–250.
 * Sämtliche Traffic-Berichte sind Dimensionen.
-* Video- und Mobilberichte sind Dimensionen sowie andere Analytics-Lösungsberichte (Experience Manager, Advertising Cloud, Social und durchführen).
+* Video- und Mobil-Berichte sind Dimensionen sowie andere Analytics-Lösungsberichte (Experience Manager, Advertising Cloud, Social usw.).
 * Pfadsetzungsberichte sind für Benutzer mit Zugang zu den übergeordneten Dimensionen verfügbar.
 * Alle aktuellen Dimensionen und Metriken in benutzerdefinierten Gruppen wurden automatisch in die neuen Kategorien migriert. Wenn in einer bestehenden Gruppe Metriken aktiv sind, werden für diese Gruppe sämtliche Dimensionen, für die neue Berechtigungen erteilt werden (eVars und inhaltsbasiert), und Metriken als Standardeinstellungen festgelegt.
 * Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die [Variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) bestimmt, auf der Classification basiert.
@@ -58,7 +58,7 @@ Bei den folgenden Elementen handelt es sich um Dimensionen, für die Sie Zugriff
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/conversion-var-admin/conversion-var-admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE" format="dita" scope="local"> eVars </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVars </a> </p> </td> 
    <td colname="col2"> <p>Individuelle Berechtigung für eVars 1–250. Bei eVars handelt es sich um benutzerdefinierte Konversionsvariablen, die zur Segmentkonversion von Erfolgsmetriken in benutzerspezifischen Berichten verwendet werden. </p> </td> 
   </tr> 
   <tr> 
