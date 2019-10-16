@@ -5,9 +5,9 @@ seo-title: Traffic-Spitze planen
 solution: Analytics
 title: Traffic-Spitze planen
 topic: Admin Tools
-uuid: 350 bebc 0-0593-4 ee 7-b 7 e 2-7848 d 9 f 7726 b
+uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Im Abschnitt „Spitze planen“ können Sie Adobe vor vorübergehenden Traffic-Spitzen warnen, damit geeignete Ressourcen vorgesehen werden können.
 
-Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Anstiege](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667), bevor Sie eine Traffic-Spitze planen.
+Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Anstiege](/help/admin/c-traffic-management/traffic-lead-time.md), bevor Sie eine Traffic-Spitze planen.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; **[!UICONTROL Schedule Spike]**.
 1. Geben Sie im Feld **Spitzenstartdatum** an, ab welchem Datum mit der Traffic-Spitze zu rechnen ist.
 1. Geben Sie im Feld **Spitzenenddatum** ein, bis zu welchem Datum die Traffic-Spitze vermutlich anhalten wird.
@@ -29,5 +29,5 @@ Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Anstiege]
 
    >[!NOTE]
    >
-   >Um eine Traffic-Spitze zu planen, geben Sie in Ihren Kontaktdaten eine Telefonnummer ein, damit Adobe Sie bei Bedarf mit Fragen erreichen kann.
+   >Um eine Traffic-Spitze zu planen, geben Sie in Ihre Kontaktdaten eine Telefonnummer ein, damit Adobe Sie bei Bedarf kontaktieren kann.
 
