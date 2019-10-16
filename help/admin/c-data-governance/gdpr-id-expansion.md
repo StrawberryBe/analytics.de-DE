@@ -5,7 +5,7 @@ seo-title: ID-Erweiterung
 title: ID-Erweiterung
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -18,7 +18,7 @@ Die IDs, die Sie einsenden, decken nicht immer alle Hit-Daten ab, die Analytics 
 "expandIds": true
 ```
 
-Unter [JSON-Beispielanfrage](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F) finden Sie ein Beispiel dazu, wie Sie diese Option zur Anfrage hinzufügen. For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+Unter [JSON-Beispielanfrage](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) finden Sie ein Beispiel dazu, wie Sie diese Option zur Anfrage hinzufügen. For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -30,7 +30,7 @@ Unter [JSON-Beispielanfrage](/help/admin/c-data-governance/gdpr-submit-access-de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie-ID-Erweiterung </p> </td> 
-   <td colname="col2"> <p>Many Analytics customers originally used the (Legacy) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> Analytics Cookie </a>, but are now using the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service (ECID) </a>, previously known as the Marketing Cloud ID Service (MCID). Für Benutzer, die die Website erst nach der Umstellung zum ersten Mal besucht haben, ist nur eine ECID vorhanden. Bei Benutzern, die die Site schon zu Zeiten des Legacy-Cookies und auch nach der Umstellung besucht haben, werden zwar einige ihrer Daten in beiden Cookies gespeichert, ältere Daten verfügen jedoch nur über ein Analytics-Cookie und die neuesten in seltenen Fällen nur über eine ECID. </p> <p>Sie sollten sicherstellen, dass Sie sämtliche Daten von Besuchern finden, die über ein Analytics-Cookie (Besucher-ID) oder eine ECID identifiziert werden. Wenn Sie also derzeit die ECID verwenden und zuvor das Analytics-Cookie verwendet haben, sollten Sie, wenn Sie eine Anfrage mit einer der beiden Arten von IDs senden, beide IDs in die Anfrage aufnehmen oder die Option „expandIDs“ angeben. Wenn Sie „expandIDs“ angeben, sucht Adobe nach anderen ECIDs oder Analytics-Cookies, die mit den von Ihnen angegebenen Cookie-IDs übereinstimmen. Die Anfrage wird automatisch erweitert, um diese neu gefundenen Cookie-IDs hinzuzufügen. </p> </td> 
+   <td colname="col2"> <p>Viele Analytics-Kunden haben ursprünglich das <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">(Legacy-)Analytics-Cookie</a> verwendet, verwenden nun jedoch die <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Identity Service (ECID)</a>, die früher als Experience Cloud ID (MCID) bezeichnet wurde. Für Benutzer, die die Website erst nach der Umstellung zum ersten Mal besucht haben, ist nur eine ECID vorhanden. Bei Benutzern, die die Site schon zu Zeiten des Legacy-Cookies und auch nach der Umstellung besucht haben, werden zwar einige ihrer Daten in beiden Cookies gespeichert, ältere Daten verfügen jedoch nur über ein Analytics-Cookie und die neuesten in seltenen Fällen nur über eine ECID. </p> <p>Sie sollten sicherstellen, dass Sie sämtliche Daten von Besuchern finden, die über ein Analytics-Cookie (Besucher-ID) oder eine ECID identifiziert werden. Wenn Sie also derzeit die ECID verwenden und zuvor das Analytics-Cookie verwendet haben, sollten Sie, wenn Sie eine Anfrage mit einer der beiden Arten von IDs senden, beide IDs in die Anfrage aufnehmen oder die Option „expandIDs“ angeben. Wenn Sie „expandIDs“ angeben, sucht Adobe nach anderen ECIDs oder Analytics-Cookies, die mit den von Ihnen angegebenen Cookie-IDs übereinstimmen. Die Anfrage wird automatisch erweitert, um diese neu gefundenen Cookie-IDs hinzuzufügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cookie-ID-Erweiterung über benutzerspezifische ID </p> </td> 
@@ -50,18 +50,18 @@ Wenn Adobe eine ID-Erweiterung durchführt, kann ein zusätzlicher vollständige
 Zusätzlich zum Flag "developIDs"unterstützt Analytics zwei weitere Flags, die als Teil einer Datenschutzanforderung weitergeleitet werden können. Diese Markierungen und ihre Standardwerte sind:
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-In Zukunft kann die „analyticsDeleteMethod“ zusätzlich zum Standardwert „anonymize“ den Wert „purge“ unterstützen. Bei der Unterstützung wird der gesamte Treffer gelöscht, anstatt nur die Werte von Trefferfeldern mit DEL-Labels zu aktualisieren.
+In Zukunft wird der Wert "analyticsDeleteMethod"möglicherweise zusätzlich zum Standardwert "anonymisieren"den Wert "bereinigen"unterstützen. Bei der Unterstützung wird der gesamte Treffer gelöscht, anstatt nur die Werte von Trefferfeldern mit DEL-Labels zu aktualisieren.
 
-Zusätzlich zu seinem standardmäßigen Wert unterstützt das Prioritätsfeld auch den Wert „low“. Diesen Wert sollten Sie für Anfragen angeben, die nicht auf eine Anfrage der betroffenen Person zurückzuführen sind und für die somit keine gesetzliche Verpflichtung besteht, dass diese innerhalb von 30 Tagen abgeschlossen sein müssen. Beachten Sie, dass Adobe die Verwendung der Datenschutzdienst-API aus anderen Gründen als den von den betroffenen Personen initiierten Anforderungen ablehnt. Die Datenschutzdienst-API ist kein geeignetes Werkzeug zur Datenbereinigung oder -reparatur und hat unbeabsichtigte Folgen.
+Neben dem Standardwert unterstützt das Prioritätsfeld auch den Wert "low". Diesen Wert sollten Sie für Anfragen angeben, die nicht auf eine Anfrage der betroffenen Person zurückzuführen sind und für die somit keine gesetzliche Verpflichtung besteht, dass diese innerhalb von 30 Tagen abgeschlossen sein müssen. Beachten Sie, dass Adobe die Verwendung der Datenschutzdienst-API aus anderen Gründen als den von den betroffenen Personen initiierten Anforderungen ablehnt. Die Datenschutzdienst-API ist kein geeignetes Werkzeug zur Datenbereinigung oder -reparatur und hat unbeabsichtigte Folgen.
 
 [!NOTE]
 Die [Datenschutzdienst-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) wurde bereitgestellt, um Ihnen bei der Erfüllung von Datenschutzanfragen behilflich zu sein, die zeitempfindlich sind. Die Verwendung dieser API für andere Zwecke wird von Adobe nicht unterstützt und kann sich auf die Fähigkeit von Adobe auswirken, für andere Adobe-Kunden eine zeitnahe Umstellung auf vom Benutzer initiierte Datenschutzanforderungen mit hoher Priorität bereitzustellen. Wir bitten Sie, die Datenschutzdienst-API nicht für andere Zwecke zu verwenden, z. B. zum Löschen von Daten, die versehentlich über große Besuchergruppen gesendet wurden.
 
 Sie sollten außerdem wissen, dass bei jedem Besucher, der infolge einer Löschungsanfrage zum Datenschutz einen Treffer gelöscht (aktualisiert oder anonymisiert) hat, die Statusinformationen zurückgesetzt werden. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen, in denen Sie Datenfelder löschen möchten, nicht wünschenswert und zeigt einen Grund an, warum die Datenschutzdienst-API für diese Verwendung nicht geeignet ist.
 
-Wenden Sie sich an Ihren Kundenbetreuer (CSM), um sich mit unserem Beratungsteam für Engineering Architect abzustimmen, um weitere Informationen zu erhalten und Ihnen die Möglichkeit zu geben, Probleme mit PII oder Daten zu beheben.
+Bitte wenden Sie sich an Ihren Kundenbetreuer (CSM), um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Informationen oder Datenproblemen zu unternehmen.
 
