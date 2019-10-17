@@ -1,20 +1,20 @@
 ---
-description: Variablen für die Verwaltung von Einwilligungen in den Datenschutz.
-seo-description: Variablen für die Verwaltung von Einwilligungen in den Datenschutz.
-seo-title: Variablen des Einwilligungsmanagements
+description: Variablen für Datenschutzberichte in der Datenschutzrichtlinie.
+seo-description: Variablen für Datenschutzberichte in der Datenschutzrichtlinie.
+seo-title: Variablen für Datenschutzberichte
 solution: Analytics
-title: Variablen des Einwilligungsmanagements
+title: Variablen für Datenschutzberichte
 topic: Admin Tools
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# Variablen des Einwilligungsmanagements
+# Variablen für Datenschutzberichte
 
 Um zusätzliche Unterstützung bei der Verwaltung von Datenschutzdaten zu bieten, stehen eine Reihe reservierter Variablen zur Verfügung, die zusammen mit bestimmten Kontextdatenvariablen verwendet werden können.
-Diese Variablen zur Verwaltung der Zustimmung bieten ein benutzerfreundliches Framework zur Erfassung des Genehmigungsstatus bei jedem Treffer der Analyse.
+Diese Variablen für die Datenschutzberichterstellung bieten ein benutzerfreundliches Framework zur Erfassung des Datenschutzstatus bei jedem Treffer in der Analyse.
 
 ## Variablen
 
@@ -35,7 +35,7 @@ Diese Variablen zur Verwaltung der Zustimmung bieten ein benutzerfreundliches Fr
 
 ## Berichterstellung  
 
-Sie können die Verwaltungsvariablen für Zustimmung über eine neue Datenschutzeinstellung aktivieren, die in der Analytics Admin-Konsole verfügbar ist.
+Sie können die Datenschutzberichtsvariablen über eine neue Datenschutzeinstellung aktivieren, die in der Analytics Admin-Konsole verfügbar ist.
 
 Jede Report Suite kann wie folgt konfiguriert werden:
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ Jede Report Suite kann wie folgt konfiguriert werden:
 
 ## Implementierung
 
-Drei Kontextdatenvariablen wurden vordefiniert, um mit den Variablen für die Verwaltung der Zustimmung zu arbeiten.  Es ist Sache jedes Implementierungstechnikers, zu bestimmen, wie die Einstellung dieser Variablen verwaltet und beibehalten wird.
+Drei Kontextdatenvariablen wurden vordefiniert, um mit den vom Datenschutzmanagement reservierten Variablen zu arbeiten.  Es ist Sache jedes Implementierungstechnikers, zu bestimmen, wie die Einstellung dieser Variablen verwaltet und beibehalten wird.
 
 Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) .
 
