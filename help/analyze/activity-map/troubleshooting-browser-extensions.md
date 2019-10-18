@@ -1,20 +1,20 @@
 ---
-description: Führt die Browserparameter auf, die nicht mit der Verwendung von Activity Map kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
-seo-description: Führt die Browserparameter auf, die nicht mit der Verwendung von Activity Map kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
+description: Listet die Browser-Parameter auf, die nicht mit der Verwendung von [!DNL Activity Map] kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
+seo-description: Listet die Browser-Parameter auf, die nicht mit der Verwendung von [!DNL Activity Map] kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
 seo-title: Fehlerbehebung für Browsererweiterungen
 solution: Analytics
 title: Fehlerbehebung für Browsererweiterungen
 topic: Activity Map
-uuid: ae 7 acb 98-4728-45 af -8 cb 4-62 a 1 e 9622543
+uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Fehlerbehebung bei Browsererweiterungen
 
-Zeigt die Browserparameter an, die nicht mit der Verwendung von Activity Map kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
+Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. Sie sollten diese Einstellungen deaktivieren.
 
 ## Chrome
 
