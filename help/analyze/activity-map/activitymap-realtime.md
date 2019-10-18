@@ -1,22 +1,22 @@
 ---
 description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
 seo-description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
-seo-title: Seitenanalyse in Echtzeit (Live)
+seo-title: Seitenanalysen in Echtzeit (Livemodus)
 solution: Analytics
-title: Seitenanalyse in Echtzeit (Live)
+title: Seitenanalysen in Echtzeit (Livemodus)
 topic: Activity Map
-uuid: a 3 faa 9 bd -73 d 8-48 b 3-be 2 b-f 818 ed 7456 fb
+uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Seitenanalyse in Echtzeit (Live)
+# Seitenanalysen in Echtzeit (Livemodus)
 
 Seitenanalysen in Echtzeit (Livemodus) ermöglichen Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
 
-Activity Map zeigt jetzt Analysedaten in Inkrementen von 1 bis 15 Minuten an, um die Beliebtheit von Links basierend auf Micro-Trends für ausgewählte Seiten zu überwachen. Es ist besonders wichtig für publizierende Unternehmen, das steigende oder sinkende Interesse an Beiträgen zu verfolgen, darauf zu reagieren und den Datenverkehr in Echtzeit zu überwachen.
+[!DNL Activity Map] zeigt jetzt Analysedaten in Inkrementen von 1 bis 15 Minuten an, um die Beliebtheit von Links basierend auf Micro-Trends für ausgewählte Seiten zu überwachen. Es ist besonders wichtig für publizierende Unternehmen, das steigende oder sinkende Interesse an Beiträgen zu verfolgen, darauf zu reagieren und den Datenverkehr in Echtzeit zu überwachen.
 
 Als Eigentümer des Inhalts einer Site gehört es zu Ihren Aufgaben, zu erkennen, wann Inhalt höhergestuft oder entfernt werden muss, um den Besuchern laufend interessanten Inhalt zu bieten. Echtzeit-Daten sind das A und O, um diese Aufgabe erfüllen zu können. Wenn Sie den aktuellen Trend für Links und Inhalt kennen, können Sie schnell und gezielt reagieren, um Leser und Kunden weiterhin an Ihre Marke zu binden.
 
