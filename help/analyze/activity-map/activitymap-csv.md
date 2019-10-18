@@ -1,26 +1,26 @@
 ---
-description: Im Standardmodus exportiert Analytics Daten aus der Activity Map in eine Datei mit durch Komma getrennten Werten (CSV).
-seo-description: Im Standardmodus exportiert Analytics Daten aus der Activity Map in eine Datei mit durch Komma getrennten Werten (CSV).
+description: Exportieren Sie im Standardmodus Analytics-Daten von [!DNL Activity Map] in eine CSV-Datei (Comma Separated Values).
+seo-description: Exportieren Sie im Standardmodus Analytics-Daten von [!DNL Activity Map] in eine CSV-Datei (Comma Separated Values).
 seo-title: Exportieren in CSV-Datei
 solution: Analytics
 title: Exportieren in CSV-Datei
 topic: Activity Map
-uuid: dc 6 c 50 c 0-57 f 7-45 b 8-a 4 cb -2092 a 21 da 529
+uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Exportieren in CSV-Datei
 
-Im Standardmodus exportiert Analytics Daten aus der Activity Map in eine Datei mit durch Komma getrennten Werten (CSV).
+In Standard Mode, export Analytics data from [!DNL Activity Map] to a Comma Separated Values (CSV) file.
 
-Als Benutzer müssen Sie eventuell Daten für Link-Klicks mit anderen Datenquellen zusammenführen oder andere Analysen (z. B. in Excel) durchführen. Durch den Export als CSV-Datei stehen Ihnen alle Activity Map-Daten für eine gegebene Seite in einem einfach zu verwendenden Format zur Verfügung. Sie können die für eine Seite generierten Analysedaten in einer CSV-Flatfile speichern. Dies ermöglicht Ihnen den Export des Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. Anschließend können Sie die Daten als Tabelle oder Textdatei anzeigen oder in ein anderes System importieren.
+Als Benutzer müssen Sie eventuell Daten für Link-Klicks mit anderen Datenquellen zusammenführen oder andere Analysen (z. B. in Excel) durchführen. CSV export allows you to obtain all of your [!DNL Activity Map] data for a given page in an easy-to-consume format. Damit können Sie die Analysedaten, die für eine Seite generiert wurden, in einer einfachen CSV-Datei speichern, sodass Sie den Bericht "Seite", den Bericht " [Seitenfluss"](/help/analyze/activity-map/activitymap-page-flow.md)) und die Daten " [Links auf Seite](/help/analyze/activity-map/activitymap-links-report.md) "exportieren können. Anschließend können Sie die Daten als Tabelle oder Textdatei anzeigen oder in ein anderes System importieren.
 
-Klicken Sie auf das Exportsymbol in der Activity Map-Symbolleiste.
+Click the Export icon on the [!DNL Activity Map] toolbar.
 
-Activity Map generiert den Dateinamen anhand des Adobe Analytics-Seitennamens und fügt ein Datum sowie einen Zeitstempel an: Seitenname_DatumUhrzeit.csv. Diese Datei wird im standardmäßigen Downloadverzeichnis des entsprechenden Browsers gespeichert.
+[!DNL Activity Map] generiert den Dateinamen anhand des Adobe Analytics-Seitennamens und fügt ein Datum sowie einen Zeitstempel an: Seitenname_DatumUhrzeit.csv. Diese Datei wird im standardmäßigen Downloadverzeichnis des entsprechenden Browsers gespeichert.
 
 | Exportinformationen | Beschreibung |
 |---|---|
