@@ -1,28 +1,28 @@
 ---
-description: Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
-seo-description: Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
-seo-title: Einstellungen für Activity Map konfigurieren
+description: Im Einstellungsbedienfeld für die [!DNL-Activity Map] können Sie die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen ändern.
+seo-description: Im Einstellungsbedienfeld für die [!DNL-Activity Map] können Sie die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen ändern.
+seo-title: '[!DNL Activity Map]-Einstellungen konfigurieren'
 solution: Analytics
-title: Einstellungen für Activity Map konfigurieren
+title: '[!DNL Activity Map]-Einstellungen konfigurieren'
 topic: Activity Map
-uuid: 42 a 0309 e -3 efc -4506-989 b -09 b 6 fe 419423
+uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Einstellungen für Activity Map konfigurieren
+# Configure [!DNL Activity Map] settings
 
-Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
+The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
 
-Rufen Sie das Activity Map-Einstellungsbedienfeld durch Klicken auf das Zahnradsymbol in der Activity Map-Symbolleiste auf.
+Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
 
 Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwendungsmodus. Die Registerkarte „Sonstige“ enthält allgemeine Einstellungen.
 
 | Standard | **[!UICONTROL Verlaufs]**- oder **[!UICONTROL Blasen]überlagerungen** |
 |---|---|
-| Live | **[!UICONTROL Gewinner und Verlierer]**, **[!UICONTROL Verlauf]**, **[!UICONTROL Blasenüberlagerungen]** |
+| Live | **[!UICONTROL Gewinner und Verlierer]**, **[!UICONTROL Verlaufs]**-, **[!UICONTROL Blasenüberlagerungen]** |
 | Sonstige | Report Suite-Auswahl und Sprachauswahl |
 
 ## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
@@ -97,7 +97,7 @@ Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwe
  <tbody> 
   <tr> 
    <td colname="col1"> Report Suite </td> 
-   <td colname="col2"> <p>Die für Sie verfügbare Liste mit Report Suites ist nicht mehr beschränkt auf die im Web-Seiten-Tag definierten Report Suites. Sie können nun die ausgewählte Report Suite (die zu einem der Tags auf der Seite gehört) durch eine andere Report Suite ersetzen. Diese neue Report Suite muss nicht mit einem Tag auf der Seite verbunden sein. Wenn Sie die ausgewählte Report Suite in den Einstellungen für Activity Map ändern, werden die betroffenen Analytics-Berichte beim <span class="uicontrol">Speichern</span> aktualisiert. </p> <p> <p>Wichtig: Virtual Report Suites sind nicht mit dem Livemodus kompatibel, sondern nur mit dem Standardmodus. Wenn Sie sich im Livemodus für eine Standard-Report Suite befinden, jedoch in diesem Dialogfeld eine Virtual Report Suite auswählen, wird der Standardmodus angezeigt, sobald Sie hier auf <span class="uicontrol">OK</span> klicken. </p> </p> <p>Zusätzlich wird das Kalendersteuerelement neu initialisiert, um dem Kalendertyp (Gregorianisch, Einzelhandel, Benutzerdefiniert...) der Report Suite zu entsprechen. </p> </td> 
+   <td colname="col2"> <p>Die für Sie verfügbare Liste mit Report Suites ist nicht mehr beschränkt auf die im Web-Seiten-Tag definierten Report Suites. Sie können nun die ausgewählte Report Suite (die zu einem der Tags auf der Seite gehört) durch eine andere Report Suite ersetzen. Diese neue Report Suite muss nicht mit einem Tag auf der Seite verbunden sein. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Wichtig: Virtual Report Suites sind nicht mit dem Livemodus kompatibel, sondern nur mit dem Standardmodus. Wenn Sie sich im Livemodus für eine Standard-Report Suite befinden, jedoch in diesem Dialogfeld eine Virtual Report Suite auswählen, wird der Standardmodus angezeigt, sobald Sie hier auf <span class="uicontrol">OK</span> klicken. </p> </p> <p>Zusätzlich wird das Kalendersteuerelement neu initialisiert, um dem Kalendertyp (Gregorianisch, Einzelhandel, Benutzerdefiniert...) der Report Suite zu entsprechen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Sprache </td> 
