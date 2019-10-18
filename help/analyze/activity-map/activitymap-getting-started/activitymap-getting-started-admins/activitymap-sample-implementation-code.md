@@ -1,13 +1,13 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Beispiel-Implementierungscode
+description: 'null'
+seo-description: 'null'
+seo-title: Beispielimplementierungscode
 solution: Analytics
-title: Beispiel-Implementierungscode
+title: Beispielimplementierungscode
 topic: Activity Map
-uuid: 73879252-5 ce 1-42 a 5-ad 0 e-dcee 73244 b 28
+uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
 
-Im Folgenden sehen Sie ein Beispiel dafür, wie die AppMeasurement-Bibliothek und das Activity Map-Modul in der Datei [!DNL AppMeasurement.js] zusammengeführt werden.
+The following is an example of how the AppMeasurement library and the [!DNL Activity Map] module are combined in the [!DNL AppMeasurement.js] file.
 
-Codeabschnitte, die für diese Activity Map-Implementierung relevant sind, sind **hervorgehoben**.
+Note that code sections that are relevant to this [!DNL Activity Map] implementation are **bolded**.
 
 ```
 <b>// Initialize AppMeasurement 
@@ -59,17 +59,17 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 // https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html 
 // Plug-ins can then be used in the s_doPlugins(s) function above
 
-<b>/****************************** START Activity Map MODULE *****************************/ 
+<b>/****************************** START [!DNL Activity Map] MODULE *****************************/ 
  //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
   allows you to view data overlays on your links and content to understand how 
   users engage with your web site. If you do not intend to use ActivityMap, you 
   can remove the following block of code from your AppMeasurement.js file. 
-  Additional documentation on how to configure Activity Map is available at: 
+  Additional documentation on how to configure [!DNL Activity Map] is available at: 
   https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html 
  */ 
- function AppMeasurement_Module_Activity Map(g){func 
+ function AppMeasurement_Module_[!DNL Activity Map](g){func 
  ... 
- /* END Activity Map MODULE */ 
+ /* END [!DNL Activity Map] MODULE */ 
  </b> 
 /* 
  ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! =============== 
