@@ -1,22 +1,22 @@
 ---
 description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID anpassen, die Region und die Activity Map-Moduldatei AppMeasurement anpassen.
 seo-description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID anpassen, die Region und die Activity Map-Moduldatei AppMeasurement anpassen.
-seo-title: Unterscheiden Sie Links, die auf dieselbe Link-ID und Region verweisen.
+seo-title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 solution: Analytics
-title: Unterscheiden Sie Links, die auf dieselbe Link-ID und Region verweisen.
+title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 topic: Activity Map
-uuid: f 2 da 0 cda-a 33 b -4 a 12-8 d 99-1 f 8386 d 6 d 30
+uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Unterscheiden Sie Links, die auf dieselbe Link-ID und Region verweisen.
+# Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 
 Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID anpassen, die Region und die Activity Map-Moduldatei AppMeasurement anpassen.
 
-Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activity Map unter der gleichen Link-ID und Region identifiziert werden.
+As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -29,17 +29,18 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <code>&lt; div id = "recommendation panel" &gt; 
- &lt; div &gt; 
- &lt; a href = "product1.html" &gt; Buy &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a href = "product2.html" &gt; Buy &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a href = "product3.html" &gt; Buy &lt;/a &gt; 
- &lt;/div &gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Bereich für Empfehlungen <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> </td> 
   </tr> 
@@ -50,11 +51,11 @@ Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Link
 
 ## Link-ID mit s_objectID anpassen {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die Activity Map-Verfolgung verbessern. Sie können Activity Map auch zum Generieren von Berichten zum Linktyp oder zur Linkposition anstelle der Link-URL verwenden. Klicken Sie [hier](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
+Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die [!DNL Activity Map]-Verfolgung verbessern. Sie können [!DNL Activity Map] auch für Berichte zum Typ oder zur Position von Links verwenden, anstelle der Link-URL. Klicken Sie [hier](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass ein Semikolon (;) erforderlich ist, wenn s_ objectid in Activity Map verwendet wird.
+>Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -67,17 +68,18 @@ Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposit
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <code>&lt; div id = "recommendation panel" &gt; 
- &lt; div &gt; 
- &lt; a onclick = "s_ objectid =' Product 1 '; " href = "product1.html" &gt; Kaufen &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a onclick = "s_ objectid =' Product 2 '; " href = "product2.html" &gt; Kaufen &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div &gt; 
- &lt; a onclick = "s_ objectid =' Product 3 '; " href = "product3.html" &gt; Kaufen &lt;/a &gt; 
- &lt;/div &gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> </td> 
   </tr> 
@@ -90,7 +92,7 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
 
 >[!NOTE]
 >
->Sie sind nicht auf den Parameter "id" als Regionskennung beschränkt. Sie können auch Ihre eigene ID mithilfe der javascript-Variablen "s. activitymap. regionidattribute" festlegen.
+>Sie sind nicht streng auf den Parameter "id"als Regionsbezeichner beschränkt. Sie können Ihre eigene ID auch mit der JavaScript-Variablen "s.ActivityMap.regionIDAttribute"festlegen.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -103,17 +105,18 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <code>&lt; div id = "recommendation panel" &gt; 
- &lt; div id = "region a" &gt; 
- &lt; a href = "product1.html" &gt; Buy &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div id = "region b" &gt; 
- &lt; a href = "product2.html" &gt; Buy &lt;/a &gt; 
- &lt;/div &gt; 
- &lt; div id = "region c" &gt; 
- &lt; a href = "product3.html" &gt; Buy &lt;/a &gt; 
- &lt;/div &gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>Region a <p> </p> <p> </p> <p>Region b </p> <p> </p> <p> </p> <p>Region c </p> </td> 
   </tr> 
@@ -124,9 +127,9 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
 
 >[!CAUTION]
 >
->Testen Sie den geänderten Code, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
+>Stellen Sie sicher, dass Sie den geänderten Code testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
 
-Im Folgenden finden Sie einige Beispiele für** generische** Link-/Regionsfunktionen, die Sie (im geänderten Formular) in Ihre Datei appmeasurement. js aufnehmen können.
+Im Folgenden finden Sie einige Beispiele für die Funktionen für*** generische Links/Regionen, die Sie (in geänderter Form) in Ihre Datei AppMeasurement.js aufnehmen können.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
