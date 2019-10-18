@@ -6,7 +6,7 @@ solution: Analytics
 title: Variablen für Datenschutzberichte
 topic: Admin Tools
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie 
 
 ### SSF
 
-* Kontextdaten: contextData.["cm.ssf"]
+* Kontextdaten: `contextData.['cm.ssf']`
 * Akzeptierte Werte:
    * 1 - Wenn der Wert "1"gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Ausschluss-Status aufweist. Der Wert "1"in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-Datenschutzbestimmungen.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * Für diesen Parameter werden keine anderen Werte akzeptiert.
 
 ### DMP
 
-* Kontextdaten: contextData.['opt.dmp']
+* Kontextdaten: `contextData.['opt.dmp']`
 * Akzeptierte Werte:
    * N - Wenn der Wert "N"gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe für Datenverwaltungsplattformen ablehnt. **** Hinweis: Wenn diese Variable auf "N"gesetzt wird, wird die Freigabe für AAM derzeit nicht blockiert. Anfang 2020 wird jedoch das Blockieren von AAM-Aufrufen hinzugefügt. Adobe empfiehlt zunächst, sowohl das Senden von Treffern an AAM festzulegen `c.cm.ssf=1` als auch `c.opt.dmp=N` zu verhindern.
    * Y - Wenn der Wert "Y"gesendet wird, deutet dies darauf hin, dass sich der Verbraucher für die Freigabe an Datenverwaltungsplattformen entscheidet.
 
 ### SELL
 
-* Kontextdaten: contextData.['opt.sell']
+* Kontextdaten: `contextData.['opt.sell']`
 * Akzeptierte Werte:
    * N - Wenn der Wert "N" gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe oder den Verkauf der Daten an Dritte ablehnt.
    * Y - Wenn der Wert "Y"gesendet wird, deutet dies darauf hin, dass der Verbraucher sich für die Freigabe oder den Verkauf der Daten an Dritte entscheidet.
