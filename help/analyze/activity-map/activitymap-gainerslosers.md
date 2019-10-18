@@ -5,9 +5,9 @@ seo-title: Anpassbare Überlagerungen
 solution: Analytics
 title: Anpassbare Überlagerungen
 topic: Activity Map
-uuid: c 1 e 56480-c 1 df -4 a 81-8 a 2 a -42 ea 1362175 c
+uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten zur Konfiguration der Datenvisualisierung, sodass Sie die Beliebtheit der Links auf einer Seite einfach feststellen und verstehen können.
 
-Überlagerungen ermöglichen Ihnen, Klickdaten direkt auf der Seite zu visualisieren. Dadurch unterscheidet sich ein visuelles Analysewerkzeug wie Activity Map von anderen hauptsächlich tabellarischen und grafischen Werkzeugen wie „Reports &amp; Analytics“.
+Überlagerungen ermöglichen Ihnen, Klickdaten direkt auf der Seite zu visualisieren. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
 
-Activity Map bietet drei Überlagerungstypen:
+[!DNL Activity Map] bietet drei Arten von Überlagerungen:
 
 * Verlaufsüberlagerung (Heatmap)
 * Blasenüberlagerung
@@ -46,7 +46,7 @@ Diese Metriken werden überlagert als eine Art „Heatmap“ auf den Links der S
 
 Bei Blasenüberlagerungen wird der Inhalt der Überlagerung (Metrik, Prozentsatz oder Rang) in einer kleinen Beschriftungsblase angezeigt.
 
-Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Überlagerungstyp“ in der Symbolleiste auswählen. Blasenüberlagerungen werden für alle Links, die der Auswahl in den [Einstellungen für Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (Top 30, Top 50, alle...) entsprechen, angezeigt. Verlaufsüberlagerungen werden angezeigt, wenn diese Option nicht ausgewählt ist.
+Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Überlagerungstyp“ in der Symbolleiste auswählen. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Verlaufsüberlagerungen werden angezeigt, wenn diese Option nicht ausgewählt ist.
 
 ![](assets/bubble_overlay.png)
 
@@ -58,7 +58,7 @@ Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Über
 
 ## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Überlagerungen und Verlierer]** sind nur im Livemodus verfügbar. Sie zeigen die Änderungen der Linkaktivität in Echtzeit, indem sie die Metriken des aktuellen Zeitraums mit den Metriken des letzten Zeitraums vergleichen. Sie stellen eine visuell ansprechende Möglichkeit dar, Trends in Echtzeit anzuzeigen.
+**[!UICONTROL Überlagerungen]** für Gewinner und Verlierer stehen nur im Livemodus zur Verfügung. Sie zeigen die Änderungen der Linkaktivität in Echtzeit, indem sie die Metriken des aktuellen Zeitraums mit den Metriken des letzten Zeitraums vergleichen. Sie stellen eine visuell ansprechende Möglichkeit dar, Trends in Echtzeit anzuzeigen.
 
 Diese Echtzeitüberlagerung stuft Klicks auf Basis der Änderungen des Metrikwerts zwischen dem vorherigen und dem aktuellen Zeitraum ein.
 
