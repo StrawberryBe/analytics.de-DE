@@ -1,24 +1,24 @@
 ---
 description: Der Linkbericht enthält Daten zu den Links, die auf der aktuellen Seite gefunden wurden. Er enthält nicht die Daten für alle Links, die für diese Seite erfasst wurden.
 seo-description: Der Linkbericht enthält Daten zu den Links, die auf der aktuellen Seite gefunden wurden. Er enthält nicht die Daten für alle Links, die für diese Seite erfasst wurden.
-seo-title: Linkbericht
+seo-title: Link-Bericht
 solution: Analytics
-title: Linkbericht
+title: Link-Bericht
 topic: Activity Map
-uuid: 1 e 7 ca 5 d 8-d 144-4 a 21-a 2 f 9-e 05 bd 3232 c 59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Linkbericht
+# Link-Bericht
 
 Der Linkbericht enthält Daten zu den Links, die auf der aktuellen Seite gefunden wurden. Er enthält nicht die Daten für alle Links, die für diese Seite erfasst wurden.
 
-Der Bericht „Links auf Seite“ bietet eine tabellarische Ansicht der Links. In einigen Fällen möchten Sie eventuell Link-Klicks (oder andere Metriken) nach Rang sortiert in einer einzigen Ansicht sehen. Dadurch können Sie die Links besser miteinander vergleichen. Erstellen Sie den Bericht „Links auf Seite“, der eine Liste enthält, auf der alle Links der Seite (mit ihrer Link-ID) nach Rang sortiert aufgeführt werden, einschließlich der Klickinformationen (Anzahl und %) und der Region der Seite. Klicken Sie auf die Schaltfläche für den Bericht „Links auf Seite“ in der Activity Map-Symbolleiste.
+Der Bericht „Links auf Seite“ bietet eine tabellarische Ansicht der Links. In einigen Fällen möchten Sie eventuell Link-Klicks (oder andere Metriken) nach Rang sortiert in einer einzigen Ansicht sehen. Dadurch können Sie die Links besser miteinander vergleichen. Erstellen Sie den Bericht „Links auf Seite“, der eine Liste enthält, auf der alle Links der Seite (mit ihrer Link-ID) nach Rang sortiert aufgeführt werden, einschließlich der Klickinformationen (Anzahl und %) und der Region der Seite. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-Der Bericht **[!UICONTROL Links auf Seite]wird unter dem Browserframe im Activity Map-Dashboard geöffnet.**
+The **[!UICONTROL Links On Page]** report opens below the browser frame in the [!DNL Activity Map] dashboard.
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ Im Standardmodus zeigt der Bericht „Links auf Seite“ die Linkdaten für eine
   </tr> 
   <tr> 
    <td colname="col1"> Link-ID </td> 
-   <td colname="col2">Primäre ID des Links (weitere Informationen darüber, wie primäre Ids durch die [Neue Link-Verfolgungsmethode] definiert werden (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-method. md) </td> 
+   <td colname="col2">Die primäre ID des Links (weitere Informationen dazu, wie die primäre ID durch die [Neue Linkverfolgungsmethode] definiert wird) (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Klicks </td> 
@@ -63,11 +63,11 @@ Im Standardmodus zeigt der Bericht „Links auf Seite“ die Linkdaten für eine
 
 **Daten filtern**
 
-Wenn Sie einen bestimmten Link näher betrachten möchten, können Sie nach einem entsprechenden Begriff im Feld **[!UICONTROL Daten filtern]suchen.** Nur für die Links, die dem Suchkriterium entsprechen, werden Überlagerungen angezeigt. Ohne Filter werden die in den [Einstellungen für Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) angegebenen Überlagerungen angezeigt.
+Wenn Sie einen bestimmten Link näher betrachten möchten, können Sie nach einem entsprechenden Begriff im Feld **[!UICONTROL Daten filtern]suchen.** Nur für die Links, die dem Suchkriterium entsprechen, werden Überlagerungen angezeigt. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
-Im Livemodus zeigt der Bericht "Links auf Seite" Trenddaten über mehrere Minuten an.
+Im Livemodus zeigt der Bericht "Links auf Seite"Trenddaten über mehrere Minuten an.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ Im Livemodus zeigt der Bericht "Links auf Seite" Trenddaten über mehrere Minute
   </tr> 
   <tr> 
    <td colname="col1"> Link-ID </td> 
-   <td colname="col2">Die primäre ID des Links. Weitere Informationen zur Definition der primären ID durch die Ink-Tracking-Methode "New [Link Tracking Method]" (/help/analyze/activity-map/activitymap-link-tracking/activitymap-). md). </td> 
+   <td colname="col2">Die primäre ID des Links. Weitere Informationen dazu, wie die primäre ID durch die neue [Link-Verfolgungsmethode] definiert wird (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodologie.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Link-Klicks </td> 
