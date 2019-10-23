@@ -1,19 +1,19 @@
 ---
 description: Alle Top-Vergleichstabellen zeigen einen Differenzwert, der anhand verschiedener statistischer Tests berechnet wird, die von dem durchgeführten Vergleich abhängen. Unabhängig davon, welcher Test verwendet wird, wird der Differenzwert immer als Wert zwischen 0 und 1 angegeben.
-keywords: Analysis Workspace; Segment-IQ
+keywords: Arbeitsbereich für Analysen;Segment-IQ
 seo-description: Alle Top-Vergleichstabellen zeigen einen Differenzwert, der anhand verschiedener statistischer Tests berechnet wird, die von dem durchgeführten Vergleich abhängen. Unabhängig davon, welcher Test verwendet wird, wird der Differenzwert immer als Wert zwischen 0 und 1 angegeben.
-seo-title: Statistische Tests, die im Segmentvergleich verwendet werden
+seo-title: Im Segmentvergleich verwendete statistische Tests
 solution: Analytics
-title: Statistische Tests, die im Segmentvergleich verwendet werden
+title: Im Segmentvergleich verwendete statistische Tests
 topic: Reports and Analytics
-uuid: c 3 f 52470-5 bfc -4 e 6 b -8638-1 c 142 b 08 d 013
+uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Statistische Tests, die im Segmentvergleich verwendet werden
+# Im Segmentvergleich verwendete statistische Tests
 
 Alle Top-Vergleichstabellen zeigen einen Differenzwert, der anhand verschiedener statistischer Tests berechnet wird, die von dem durchgeführten Vergleich abhängen. Unabhängig davon, welcher Test verwendet wird, wird der Differenzwert immer als Wert zwischen 0 und 1 angegeben.
 
@@ -27,7 +27,4 @@ In der Tabelle „Top Metriken“ verwendet das Segmentvergleichswerkzeug einen 
 
 Für die Berechnung des Differenzwerts der Tabelle der Top-Dimensionselemente und der Top-Segmente wird ein relativer Risikodifferenz-Algorithmus verwendet (vergleichbar mit dem Risikoverhältnis, auch wenn anstelle eines Verhältnisses eine Differenz verwendet wird). Eine Risikodifferenz wird durch Subtraktion der kumulierten Häufigkeiten eines Dimensionselements (oder der Überschneidung mit einem Segment der Segmenttabelle) eines ausgewählten Segments von der eines anderen berechnet. Ein hoher Differenzwert (nahe an 1) besagt, dass ein bestimmtes Dimensionselement oder ein drittes Segment in einem der ausgewählten Segmente sehr stark vorhanden ist und in dem anderen nicht.
 
->[!NOTE]
->
->In allen drei Tabellen basiert die Differenzstatistik auf einem geeigneten Besuchermuster, damit der Prozess so schnell wie möglich ausgeführt wird, während er statistisch genau bleibt. Während der Differenzwert auf einer Stichprobe basiert, handelt es sich bei den in der Tabelle angezeigten Ergebnissen nicht um eine Stichprobe. Damit die statistische Bedeutung sichergestellt ist, basiert jeder statistische Test auf einem dynamischen Zuteilungsalgorithmus, sodass das kleinere Segment eine Stichprobengröße enthält, die eine Fehlergrenze von unter 3 % gewährleistet. Wenn ein Segment sehr wenige Besucher enthält (weniger als 1.000), werden für die Berechung des Differenzwerts alle verfügbaren Daten verwendet und es wird keine Stichprobe gebildet.
-
+> [!NOTE] In allen drei Tabellen basiert die Differenzstatistik auf einer geeigneten Stichprobe von Besuchern, damit der Prozess so schnell wie möglich ausgeführt werden kann, während er statistisch genau bleibt. Während der Differenzwert auf einer Stichprobe basiert, handelt es sich bei den in der Tabelle angezeigten Ergebnissen nicht um eine Stichprobe. Damit die statistische Bedeutung sichergestellt ist, basiert jeder statistische Test auf einem dynamischen Zuteilungsalgorithmus, sodass das kleinere Segment eine Stichprobengröße enthält, die eine Fehlergrenze von unter 3 % gewährleistet. Wenn ein Segment sehr wenige Besucher enthält (weniger als 1.000), werden für die Berechung des Differenzwerts alle verfügbaren Daten verwendet und es wird keine Stichprobe gebildet.
