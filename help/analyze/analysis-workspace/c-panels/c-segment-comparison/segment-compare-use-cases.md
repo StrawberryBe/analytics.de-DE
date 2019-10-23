@@ -1,109 +1,63 @@
 ---
-description: Segment-IQ (Segmentvergleich) ist eine der meistgenutzten Funktionen in Analysis Workspace. Kunden finden damit immer wieder neue, innovative Möglichkeiten für Einblicke. Hier ist eine kleine Auswahl erfolgreicher Anwendungsfälle.
+title: Anwendungsfälle für Segmentvergleiche
+description: Erfahren Sie, wie Sie mithilfe des Segmentvergleichsfelds Einblicke in die Marketingstrategie gewinnen können.
 keywords: Segment-IQ
-seo-description: Segment-IQ (Segmentvergleich) ist eine der meistgenutzten Funktionen in Analysis Workspace. Kunden finden damit immer wieder neue, innovative Möglichkeiten für Einblicke. Hier ist eine kleine Auswahl erfolgreicher Anwendungsfälle.
-seo-title: Verwendungsfälle für Segmente in Segment
-title: Verwendungsfälle für Segmente in Segment
-uuid: 2 a 98 b 96 b -5529-4 c 7 f-a 787-27920603 d 5 b 0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Verwendungsfälle für Segmente in Segment
+# Anwendungsfälle für Segment-IQ
 
-Segment-IQ (Segmentvergleich) ist eine der meistgenutzten Funktionen in Analysis Workspace. Kunden finden damit immer wieder neue, innovative Möglichkeiten für Einblicke. Hier ist eine kleine Auswahl erfolgreicher Anwendungsfälle.
+Der Bereich für den Segmentvergleich ist eine häufig verwendete Funktion im Arbeitsbereich für Analysen. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
 
-## Use case 1: compare mobile vs desktop implementations {#section_B3A5983E58D0470895C030EA527C4966}
+## Anwendungsfall 1: Vergleich von Mobil- und Desktop-Implementierungen
 
-**„Wir haben zwei Seiten hinsichtlich der Treffer verglichen und schnell einige Abweichungen beim Tagging festgestellt. So konnten wir Datenprobleme vor der Produktveröffentlichung vermeiden.“**
+> *„Wir haben zwei Seiten hinsichtlich der Treffer verglichen und schnell einige Abweichungen beim Tagging festgestellt. So konnten wir Datenprobleme vor der Produktveröffentlichung vermeiden.“*
 
-**Szenario**: Ein Produkt-Manager, der für eine mobile Website und eine Desktop-Website zuständig ist, sollte sicherstellen, dass die Tags auf beiden Websites einheitlich waren. Um sich zu vergewissern, dass er nichts Wichtiges übersehen hatte, verglich er mit Segment-IQ die Treffer von der mobilen Website mit denen von der Desktop-Website. Er bemerkte, dass er vergessen hatte, das Checkout-Ereignis auf der mobilen Website zu taggen und konnte vor der Veröffentlichung der Website die richtigen Tags platzieren. So konnte der Produktmanager vermeiden, dass die mobile Website keine Konversionen aufzeichnete, was zu einer Datenkatastrophe geführt hätte.
-
-**So richten Sie diesen Vergleich ein:**
-
-<table id="table_B5FA23CB34DE4331A8BD65ED4B351038"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segment 1 </th> 
-   <th colname="col3" class="entry"> Segment 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Verwenden/erstellen Sie ein Segment auf Trefferebene, in dem </p> <p> </p> <p> 
-     <ul id="ul_1F5D5136620E449D93A771CD2576A18A"> 
-      <li id="li_CB32DD1033DA4E5CA3B9AD41030800E6">„Mobilgerätetyp“ „Mobiltelefon“ oder „Tablet“ lautet </li> 
-     </ul> </p> </td> 
-   <td colname="col3"> <p>Verwenden/erstellen Sie ein Segment auf Trefferebene, in dem </p> <p> </p> <p> 
-     <ul id="ul_79CC51C4C9494275B3F37B6D2AB0505E"> 
-      <li id="li_83BE21AD1FB34195BAFF3F15421DBB3D">„Mobilgerätetyp“ nicht „Mobiltelefon“ oder „Tablet“ lautet </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Use case 2: compare customers who use a certain feature to those who don't {#section_878B08FDD70A45E186C1F28EBA296636}
-
-**„Wir stellten fest, dass Kunden, die unseren Produktvergleich nutzten, mit 10 % höherer Wahrscheinlichkeit konvertierten. Wir platzierten diese Funktion am Anfang der Seite. Dadurch stieg die Anzahl der Bestellungen um 4 %!“**
-
-**Szenario** Das Optimierungsteam eines Online-Shops wollte die Nutzer besser verstehen, die eine kürzlich veröffentlichte Produktvergleichsfunktion nutzten. Sie erstellten ein Segment mit Besuchern, die diese Funktion genutzt hatten, und konnten so mit Segment-IQ diese Nutzer mit allen anderen Besuchern der Website vergleichen. Segment-IQ fand schnell einige wichtige Unterschiede, darunter die Tatsache, dass diese Nutzer mit 10 % höherer Wahrscheinlichkeit ein Produkt kauften. Das Optimierungsteam entschied sich, versuchsweise die Produktvergleichsfunktion auffälliger am Anfang der Seite zu platzieren.
-
-**So richten Sie diesen Vergleich ein:**
+Ein Produktmanager, der für eine mobile Website und eine Desktop-Website zuständig ist, wurde damit beauftragt, sicherzustellen, dass die Tags für Mobilgeräte und Desktop einheitlich sind. Um sicherzustellen, dass er nichts Wichtiges versäumt hatte, nutzte er das Fenster für den Segmentvergleich, um Treffer von ihrer mobilen Site mit Treffern zu vergleichen, die von ihrer Desktop-Site kamen. Er bemerkte, dass es auf der mobilen Website keine Kassengangereignisse gab und die korrekten Tags vor der Veröffentlichung der mobilen Site vorhanden waren. So konnte der Produktmanager vermeiden, dass die mobile Website keine Konversionen aufzeichnete, was zu einer Datenkatastrophe geführt hätte.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Verwenden/erstellen Sie ein Segment auf Besucherebene mit Besuchern, die mit der Preisvergleichsfunktion interagiert haben. | Verwenden Sie das automatisch erzeugte Segment Alle anderen, das alle Besucher enthält, die nicht in Segment 1 enthalten sind. |
+| Trefferbehälter, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
 
-## Use case 3: compare news site visitors to other site section visitors {#section_0EAFC90C450244058B161200AC9901B8}
+## Anwendungsfall 2: Kunden, die eine bestimmte Funktion verwenden, mit Kunden vergleichen, die
 
-**„Wir haben festgestellt, dass sich Besucher unseres News-Abschnitts mit doppelter Wahrscheinlichkeit Videoanzeigen ansehen. Deshalb haben wir in diesem Abschnitt mehr Videooptionen hinzugefügt. Dadurch sind die angesehenen Videoanzeigen um 7 % gestiegen!“**
+> *„Wir stellten fest, dass Kunden, die unseren Produktvergleich nutzten, mit 10 % höherer Wahrscheinlichkeit konvertierten. Wir platzierten diese Funktion am Anfang der Seite. Dadurch stieg die Anzahl der Bestellungen um 4 %!“*
 
-**Szenario:** Ein großer Medienverlag suchte nach Möglichkeiten, die Interaktion mit Inhalten durch Besucher des News-Bereichs zu verbessern. Um die News-Zielgruppe besser zu verstehen, erstellte das Unternehmen ein Segment mit Besuchern, die den News-Bereich der Website besucht hatten. Segment-IQ analysierte jede Metrik und Dimension und fand sofort heraus, dass diese Nutzer sich mit doppelter Wahrscheinlichkeit wie Besucher anderer Website-Bereiche Videoanzeigen ansahen. Das Video-Team erstellte in der Seitenleiste des News-Bereichs einen Abschnitt mit empfohlenen Videos und erzielte eine Steigerung der angesehenen Videoanzeigen um 7 %. So konnten im Vergleich mit anderen möglichen Maßnahmen mit wenig Aufwand schnelle, messbare Ergebnisse erzielt werden.
-
-**So richten Sie diesen Vergleich ein:**
+Ein Site-Optimierungsteam für den Handel wollte die Benutzer besser verstehen, die mit einer kürzlich veröffentlichten Produktvergleichsfunktion interagierten. Sie nutzten das Bedienfeld für den Segmentvergleich, um Benutzer, die die Produktvergleichsfunktion verwendeten, mit allen anderen auf der Site zu vergleichen. Sie haben schnell mehrere wichtige Unterschiede festgestellt, darunter die Tatsache, dass diese Benutzer mit 10 % höherer Wahrscheinlichkeit ein Produkt kaufen. Das Optimierungsteam entschied sich, versuchsweise die Produktvergleichsfunktion auffälliger am Anfang der Seite zu platzieren.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Verwenden/erstellen Sie ein Segment auf Besucherebene mit Besuchern des News-Bereichs. | Verwenden Sie das automatisch erzeugte Segment Alle anderen, das alle Besucher enthält, die nicht in Segment 1 enthalten sind. |
+| Besucherbehälter, in dem benutzerdefiniertes Ereignis (Preisvergleichswerkzeug) vorhanden ist | Alle anderen |
 
-## Use case 4: compare visitors from paid search to everyone else {#section_73912670409349CAB131FE9D8B4FB11C}
+## Anwendungsfall 3: die Besucher der News-Site mit anderen Site-Abschnittsbesuchern vergleichen
 
-**„Wir konnten bei Besuchern, die unsere Seite über Suchmaschinen erreicht hatten, mit dreimal höherer Wahrscheinlichkeit einen Up-Sell erzielen als bei allen anderen. Wir steigerten daher unsere Ausgaben für bestimmte Schlüsselwörter und erzielten eine Steigerung der Up-Sells um 56 %.“**
+> *„Wir haben festgestellt, dass sich Besucher unseres News-Abschnitts mit doppelter Wahrscheinlichkeit Videoanzeigen ansehen. Deshalb haben wir in diesem Abschnitt mehr Videooptionen hinzugefügt. Dadurch sind die angesehenen Videoanzeigen um 7 % gestiegen!“*
 
-**Szenario:** Ein großes B2B-Unternehmen hatte die Absicht, den Traffic besser zu verstehen, der durch bezahlte Suchbegriffe auf die Website gelangte. Es hatte durch bezahlte Suchbegriffe nicht viele Konversionen direkt erzielt, und der Marketingleiter dachte darüber nach, das Budget dafür zu senken. Das Marketingteam erstellte ein Segment mit Besuchern, die die Website über einen bezahlten Suchbegriff erreicht hatten, und verglich sie mit Segment-IQ mit allen anderen Besuchern. Das Ergebnis war, dass diese Besucher zwar weniger wahrscheinlich direkt konvertierten, aber mit dreimal höherer Wahrscheinlichkeit ein Up-Sell für eine zuvor gekaufte Dienstleistung erzielt werden konnte. Das Marketingteam konzentrierte sein Budget auf Suchbegriffe im Zusammenhang mit Up-Selling und erzielte eine Steigerung der Up-Sells für Dienstleistungen um 56 %.
-
-**So richten Sie diesen Vergleich ein:**
+Ein großer Medienverlag untersuchte in seinem Nachrichtenbereich, wie die Interaktion mit Inhalten für Zielgruppen verbessert werden kann. Sie haben ein Segment von Besuchern erstellt, die den Bereich News-Site besucht hatten, um die News-Zielgruppe besser zu verstehen. Sie stellten sofort fest, dass diese Benutzer mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen wie Besucher anderer Sitebereiche. Das Videoteam hat einen empfohlenen Videoabschnitt auf der News-Seitenleiste zusammengestellt und eine 7%ige Steigerung der angezeigten Videoanzeigen erzielt.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Verwenden/erstellen Sie ein Segment auf Besucherebene für Besucher, die die Website durch eine kostenlose Suche oder eine SEM-Kampagne erreicht haben. | Verwenden Sie das automatisch erzeugte Segment Alle anderen, das alle Besucher enthält, die nicht in Segment 1 enthalten sind. |
+| Besucherbehälter, bei dem der Sitebereich gleich "Nachrichten" ist | Alle anderen |
 
-## Use case 5: compare Fitbit purchasers to everyone else {#section_9142B8A270764545B0A516AA309F1785}
+## Anwendungsfall 4: Vergleich von Besuchern aus der gebührenpflichtigen Suche mit allen anderen
 
-**„Wir haben festgestellt, dass Käufer von Fitbits mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten. Deshalb haben wir schnell mehr Fitbits bestellt und konnten die Nachfrage decken!“**
+> *„Wir konnten bei Besuchern, die unsere Seite über Suchmaschinen erreicht hatten, mit dreimal höherer Wahrscheinlichkeit einen Up-Sell erzielen als bei allen anderen. We upped our spend on specific keywords as a result and achieved a 56% increase in up-sells."*
 
-**Szenario:** Ein großer Online-Händler wollte daran interessiert sein, wie einer der heimarischen Urlaubsprodukte - "Fitbit -" verkauft und die ersten Kunden einzigartig waren. Das Marketingteam konnte einfach auf den Zeileneintrag „Fitbit“ im Produktbericht rechtsklicken und im Handumdrehen eine Segment-IQ-Analyse durchführen. Das Team fand heraus, dass Nutzer, die Fitbits kauften, mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten als alle anderen Kunden. Nach weiteren Analysen konnte das Marketingteam diese Besucher an seine Ladengeschäfte verweisen, während es darauf wartete, dass die Einkaufsabteilung weitere Fitbits bestellte. So konnte das Unternehmen weitere Bestandslücken vermeiden und die Weihnachtsnachfrage besser decken.
+Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch bezahlte Suchbegriffe seine Website erreichte. Die gebührenpflichtige Suche hatte nicht zu einer Menge Umrechnungen direkt geführt, und der Marketingmanager überlegte, das Budget dafür zu senken. Das Marketing-Team erstellte ein Segment von Besuchern, die über die gebührenpflichtige Suche zur Site kamen, und verglich diese mit allen anderen Besuchern im Bereich Segmentvergleich. Sie entdeckten, dass diese Besucher zwar nicht so wahrscheinlich direkt umgerechnet werden, dass sie aber mit dreimal höherer Wahrscheinlichkeit einen Upsell für einen zuvor erworbenen Dienst durchführen. Das Marketing-Team konzentrierte sich bei seinem Budget nur auf die mit dem Upsell zusammenhängenden Suchbegriffe und verzeichnete einen Anstieg der Serviceverkäufe um 56 %.
 
-**So richten Sie diesen Vergleich ein:**
+| Segment 1 | Segment 2 |
+|--- |--- |
+| Besucherbehälter, bei dem der Typ der verweisenden Stelle der gebührenpflichtigen Suche entspricht | Alle anderen |
 
-<table id="table_9018BEB4C2DE429FA773B250CB5C3E58"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Segment 1 </th> 
-   <th colname="col3" class="entry"> Segment 2 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Verwenden/erstellen Sie ein Segment auf Besucherebene, in dem </p> <p> 
-     <ul id="ul_52E8ED6F4F7241D5ABE4EE7EA1E556D8"> 
-      <li id="li_33750601AB2A43728834B29AF86D5CCF">„Bestellungen“ größer oder gleich 1 ist UND </li> 
-      <li id="li_4E09D1286DAE4BABA49E4834E73BDC28">die Marke „Fitbit“ lautet </li> 
-     </ul> </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie das automatisch erzeugte Segment <span class="wintitle">Alle anderen</span>, das alle Besucher enthält, die nicht in Segment 1 enthalten sind. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Anwendungsfall 5: Vergleich von Fitbit-Käufern mit allen anderen
 
+> *„Wir haben festgestellt, dass Käufer von Fitbits mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten. Deshalb haben wir schnell mehr Fitbits bestellt und konnten die Nachfrage decken!“*
+
+Ein großer Online-Händler war daran interessiert, wie eines der heißesten Urlaubsprodukte, Fitbit, verkauft wurde und was Fitbit Käufer einzigartig unter anderen Kunden machte. Beim Segmentvergleich wurde festgestellt, dass Benutzer, die Fitbits erwerben, mit 6-facher Wahrscheinlichkeit eine "out of stock"-Meldung erhalten als andere Kunden. Nach weiterer Analyse wies das Marketing-Team diese Besucher an ihre Ziegelsteine- und Mörtelgeschäfte, während sie auf ihre Einkaufsabteilung warteten, um mehr Fitbits zum Versand zu bestellen. Infolgedessen vermied der Einzelhändler mehr "out of stock"-Nachrichten und befriedigte mehr von ihrer Urlaubsnachfrage.
+
+| Segment 1 | Segment 2 |
+|--- |--- |
+| Besucherbehälter, in dem Bestellungen vorhanden sind und benutzerdefinierte Dimension Marke gleich FitBit | Alle anderen |
