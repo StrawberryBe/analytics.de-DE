@@ -1,31 +1,29 @@
 ---
 description: Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segmente als Touchpoints hinzufügen und wichtige Workflows über verschiedene Segmente hinweg vergleichen.
-keywords: Trichteranalyse und Segmentierung; Segmente in Fallout-Analyse; Segmente im Fallout vergleichen
+keywords: Trichteranalyse und Segmentierung;Segmente in der Fallout-Analyse;Segmente im Fallout vergleichen
 seo-description: Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segmente als Touchpoints hinzufügen und wichtige Workflows über verschiedene Segmente hinweg vergleichen.
-seo-title: Anwenden von Segmenten in der Fallout-Analyse
-title: Anwenden von Segmenten in der Fallout-Analyse
-uuid: e 87 a 33 df -160 e -4943-8 d 02-4 d 6609 ae 3 bb 1
+seo-title: Segmente in der Fallout-Analyse anwenden
+title: Segmente in der Fallout-Analyse anwenden
+uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: 769d076549484c6939157ef217225493ddbe130e
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Anwenden von Segmenten in der Fallout-Analyse
+# Segmente in der Fallout-Analyse anwenden
 
 Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segmente als Touchpoints hinzufügen und wichtige Workflows über verschiedene Segmente hinweg vergleichen.
 
->[!IMPORTANT]
->Als Checkpoints im Fallout verwendete Segmente müssen einen Behälter verwenden, der sich auf einer niedrigeren Ebene als der Gesamtkontext der Fallout-Visualisierung befindet. Bei einem Besucherkontext müssen Segmente, die als Checkpoints dienen, Besuchs- oder trefferbasierte Segmente sein. Bei einem Trichteranalyse-Fallout müssen als Checkpoints verwendete Segmente trefferbasierte Segmente sein. Wenn Sie eine ungültige Kombination verwenden, beträgt der Fallout 100%. Wir haben eine Warnung zur Fallout-Visualisierung hinzugefügt, die angezeigt wird, wenn Sie ein inkompatibles Segment als Touchpoint hinzufügen. Bestimmte ungültige Segmentbehälterkombinationen führen zu ungültigen Fallout-Diagrammen, wie zum Beispiel
+> [!IMPORTANT] Segmente, die als Checkpoints in Trichteranalyse verwendet werden, müssen einen Behälter verwenden, der auf einer niedrigeren Ebene als der Gesamtkontext der Fallout-Visualisierung liegt. Bei einem Besucherkontext-Trichteranalyse müssen Segmente, die als Checkpoints verwendet werden, besuchsbasierte oder trefferbasierte Segmente sein. Bei einer besuchskontextbezogenen Trichteranalyse müssen Segmente, die als Checkpoint verwendet werden, trefferbasierte Segmente sein. Wenn Sie eine ungültige Kombination verwenden, beträgt der Fallout 100 %. Wir haben eine Warnung zur Fallout-Visualisierung hinzugefügt, die angezeigt wird, wenn Sie ein inkompatibles Segment als Touchpoint hinzufügen. Bestimmte ungültige Segmentbehälterkombinationen führen zu ungültigen Trichteranalysediagrammen, z. B.:
 
->* Verwenden eines besucherbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung des Besuchers
->* Verwenden eines besucherbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung eines Besuches
->* Verwenden eines besuchbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung eines Besuches
-
+* Verwenden eines besucherbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung des Besuchers
+* Verwenden eines besucherbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung eines Besuches
+* Verwenden eines besuchbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung eines Besuches
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Als Erstes erstellen Sie ein Segment aus einem bestimmten Touchpoint, der interessant aussieht und sich möglicherweise lohnt, auch in andere Berichte übernommen zu werden. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint, und wählen Sie dann **[!UICONTROL Segment aus Touchpoint erstellen aus]**.
+1. Erstellen Sie ein Segment aus einem bestimmten Touchpoint, an dem Sie besonders interessiert sind und das sich möglicherweise für andere Berichte eignet. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint, und wählen Sie dann **[!UICONTROL Segment aus Touchpoint erstellen aus]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -59,4 +57,3 @@ In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten 
    ![](assets/seg-compare.png)
 
 1. Sie können nun den Fallout über zwei Segmente hinweg vergleichen (z. B. an welcher Stelle ein Segment eine bessere Leistung als das andere hat) oder sonstige Einblicke erhalten.
-
