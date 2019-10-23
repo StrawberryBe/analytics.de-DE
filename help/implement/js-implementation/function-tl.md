@@ -9,14 +9,14 @@ title: Die s.tl()-Funktion – Linktracking
 topic: Entwickler und Implementierung
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # Die s.tl()-Funktion – Linktracking
 
-Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten hat, wird eine manuelle Linktracking empfohlen. Verwenden Sie die Funktion s.tl(), um Bildanforderungen zur Linktracking mit dem exakten Inhalt manuell zu senden. Wenn die grundlegende Linktracking nur erforderlich ist, lesen Sie `s.trackDownloadLinks` und `s.trackExitLinks` unter [Konfigurationsvariablen](c-variables/configuration-variables.md). Benutzerspezifische Links können nicht automatisch verfolgt werden.
+Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten hat, wird eine manuelle Linktracking empfohlen. Verwenden Sie die Funktion s.tl(), um Bildanforderungen zur Linktracking mit dem exakten Inhalt manuell zu senden. Wenn die grundlegende Linktracking nur erforderlich ist, lesen Sie `s.trackDownloadLinks` und `s.trackExternalLinks` unter [Konfigurationsvariablen](c-variables/configuration-variables.md). Benutzerspezifische Links können nicht automatisch verfolgt werden.
 
 > [!NOTE] Link-Trackingcode ist häufig sehr spezifisch für Ihre Site und Ihre Berichterstattungsanforderungen. Adobe empfiehlt, dass Sie über Erfahrungen bei der vorherigen Implementierung verfügen oder einen Implementierungsberater haben, um zu verstehen, wie Sie diese Funktion je nach Ihren geschäftlichen Anforderungen verwenden.
 
