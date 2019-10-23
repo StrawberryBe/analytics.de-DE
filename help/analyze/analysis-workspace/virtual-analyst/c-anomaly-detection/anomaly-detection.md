@@ -3,24 +3,22 @@ description: Datenanomalien können kontextbezogen in Analysis Workspace angeze
 seo-description: Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden.
 seo-title: Übersicht über die Anomalieerkennung
 title: Übersicht über die Anomalieerkennung
-uuid: 991 fde 08-198 c -4410-9606-d 5 a 4 f 3 dd 8339
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
 # Übersicht über die Anomalieerkennung
 
-Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden.
+Sie können Datenanomalien kontextuell im Analysis Workspace anzeigen und analysieren.
 
-[Anomalieerkennung auf youtube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Anomalieerkennung auf YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[Beitragsanalyse auf youtube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[Beitragsanalyse auf YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT]
->
->Die Anomalieerkennung wurde aus der Funktion Reports &amp; Analysen entfernt und steht jetzt nur über Analysis Workspace zur Verfügung. Beachten Sie, dass Kunden von Adobe Analytics Select und Foundation in Workspace nur die Anomalieerkennung nach Tagen nutzen können. Weitere Informationen finden Sie unter [Anomalieerkennung und Beitragsanalyse – Berechtigungen](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
+> [!IMPORTANT] Die Anomalieerkennung ist nur in Analysis Workspace verfügbar. Kunden von Adobe Analytics Select und Foundation haben nur Zugriff auf die "Granularität pro Tag"-Anomalieerkennung in Workspace. Weitere Informationen finden Sie unter [Anomalieerkennung und Beitragsanalyse – Berechtigungen](../contribution-analysis/ca-tokens.md).
 
 Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat.
 
