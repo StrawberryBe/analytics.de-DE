@@ -7,7 +7,7 @@ title: Sicherheits-Manager
 topic: Admin Tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ Ermöglicht das Steuern des Zugriffs auf Berichterstellungsdaten. Zu den Optione
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP-Anmeldebeschränkungen erzwingen</span> </td> 
-   <td colname="col2"> <p>(Beachten Sie, dass diese Funktion im Januar 2020 nicht mehr verfügbar ist.) Schränkt den Berichtzugriff auf bestimmte IP-Adressen oder IP-Adressenbereiche ein. </p> <p>Sie können der Liste „IP-Adressenfilter“ bis zu 100 Einträge hinzufügen. Bei jedem Eintrag kann es sich um eine bestimmte Adresse oder einen Adressbereich handeln. </p> <p>  Die Funktion <span class="wintitle">IP-Anmeldebeschränkungen erzwingen</span> wird nur erzwungen, wenn sich in der Liste „IP-Adressenfilter“ mindestens ein Eintrag befindet. </p> <p> <span class="uicontrol"> Akzeptierte IP-Adresse</span>: Um einen IP-Adressbereich anzugeben, schließen Sie den Bereich in Klammern ein (z. B. <code>
+   <td colname="col2"> <p>(Diese Funktion kann nicht zusammen mit der Experience Cloud-Anmeldung verwendet werden. Beachten Sie, dass diese Funktion ab Januar 2020 nicht mehr verfügbar ist.) Schränkt den Berichtzugriff auf bestimmte IP-Adressen oder IP-Adressenbereiche ein. </p> <p>Sie können der Liste „IP-Adressenfilter“ bis zu 100 Einträge hinzufügen. Bei jedem Eintrag kann es sich um eine bestimmte Adresse oder einen Adressbereich handeln. </p> <p>  Die Funktion <span class="wintitle">IP-Anmeldebeschränkungen erzwingen</span> wird nur erzwungen, wenn sich in der Liste „IP-Adressenfilter“ mindestens ein Eintrag befindet. </p> <p> <span class="uicontrol"> Akzeptierte IP-Adresse</span>: Um einen IP-Adressbereich anzugeben, schließen Sie den Bereich in Klammern ein (z. B. <code>
        192.168.10.[20-240]
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
