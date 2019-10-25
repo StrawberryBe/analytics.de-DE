@@ -3,8 +3,8 @@ title: Implementierungshilfe für Analytics
 seo-title: Implementierungshilfe für Analytics
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -24,7 +24,7 @@ Dieser Leitfaden enthält die verschiedenen Implementierungsmethoden von Adobe A
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Eigenschaft in Experience Platform Launch erstellen](implement-with-launch/create-analytics-property.md)
 * [Implementierungsmethode auswählen](c-implementation-methods/choose-implementation-method.md)
-* [Versionshinweise zur AppMeasurement-Bibliothek](appmeasurement-release-notes/appmeasurement-release-notes.md)
+* [Versionshinweise zur AppMeasurement-Bibliothek](appmeasurement-release-notes/c-release-notes-mjs.md)
 
 ## Weitere Benutzerhandbücher für Analytics
 
@@ -32,7 +32,7 @@ Dieser Leitfaden enthält die verschiedenen Implementierungsmethoden von Adobe A
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=de#recommended/solutions/analytics)
+* [Experience League](https://landing.adobe.com/experience-league/)
