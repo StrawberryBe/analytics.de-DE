@@ -8,7 +8,7 @@ title: AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -25,9 +25,9 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
 
-## Versions 2.17.0
+## Versionen 2.17.0
 
-Releasedatum: **23. August 201**
+Releasedatum: **23. August 2019**
 
 | Funktion/Fehlerbehebung | Beschreibung |
 | -----------| ---------- |
@@ -387,7 +387,7 @@ Releasedatum: **16. April 2015**
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>Die Aufrufe <code>trackBeacon</code> und <code>clearCurrentBeacon</code><span class="keyword"> sind jetzt in PhoneGap verfügbar </span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -545,4 +545,4 @@ See [AppMeasurement for Javascript](https://marketing.adobe.com/resources/help/e
 
 >[!NOTE]
 >
->Some plug-ins are not supported in this new version. Einzelheiten finden Sie unter [Plug-In-Unterstützung](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html).
+>Einige Plugins werden in dieser neuen Version nicht unterstützt. Einzelheiten finden Sie unter [Plug-In-Unterstützung](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html).
