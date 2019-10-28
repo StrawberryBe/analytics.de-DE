@@ -2,23 +2,23 @@
 description: Ein Überblick über die Auswirkungen von geräteübergreifender Besucheridentifizierung auf die in Berichten angezeigten Daten
 keywords: Analytics-Implementierung
 seo-description: Ein Überblick über die Auswirkungen von geräteübergreifender Besucheridentifizierung auf die in Berichten angezeigten Daten
-seo-title: Auswirkungen auf die geräteübergreifende Besucheridentifizierung
+seo-title: Auswirkungen der geräteübergreifenden Besucheridentifizierung auf die Daten
 solution: Analytics
-subtopic: Besuchern
-title: Auswirkungen auf die geräteübergreifende Besucheridentifizierung
+subtopic: Besucher
+title: Auswirkungen der geräteübergreifenden Besucheridentifizierung auf die Daten
 topic: Entwickler und Implementierung
-uuid: 1 db 4 d 149-cd 50-4 b 41-a 850-988901 f 25051
-translation-type: tm+mt
+uuid: 1db4d149-cd50-4b41-a850-988901f25051
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# Auswirkungen auf die geräteübergreifende Besucheridentifizierung
+# Auswirkungen der geräteübergreifenden Besucheridentifizierung auf die Daten
 
 >[!IMPORTANT]
 >
->Diese Methode zur Identifizierung von Besuchern auf Gerätegeräten wird nicht mehr empfohlen. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud-Gerätekooperations-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcdc/).
 
 Ein Überblick über die Auswirkungen von geräteübergreifender Besucheridentifizierung auf die in Berichten angezeigten Daten
 
