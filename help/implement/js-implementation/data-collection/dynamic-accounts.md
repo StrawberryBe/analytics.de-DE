@@ -2,18 +2,18 @@
 description: Die .js-Datei kann so konfiguriert werden, dass sie automatisch eine Report Suite-ID auswählt.
 keywords: Analytics-Implementierung
 seo-description: Die .js-Datei kann so konfiguriert werden, dass sie automatisch eine Report Suite-ID auswählt.
-seo-title: Report Suite-IDs - dynamische Konten
+seo-title: Report Suite-IDs – Dynamische Konten
 solution: Analytics
-title: Report Suite-IDs - dynamische Konten
+title: Report Suite-IDs – Dynamische Konten
 topic: Entwickler und Implementierung
-uuid: 763 a 9741-309 d -4795-8819-6543866047 d 5
-translation-type: tm+mt
+uuid: 763a9741-309d-4795-8819-6543866047d5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Report Suite-IDs - dynamische Konten
+# Report Suite-IDs – Dynamische Konten
 
 Die .js-Datei kann so konfiguriert werden, dass sie automatisch eine Report Suite-ID auswählt. Die JS-Datei sendet das angeforderte Bild basierend auf der URL automatisch an die Report Suite. Wenn die URL beispielsweise `www.mysite.com` lautet, wird die Bildanforderung automatisch an Report Suite A gesendet. Lautet die URL `www.mysite1.com`, geht die Bildanforderung automatisch an Report Suite B.
 
@@ -62,11 +62,11 @@ Bei Auswahl mehrerer Regeln (siehe Beispiel oben) werden die Regeln von links na
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. Mehrere Regeln werden mit Semikolons getrennt.
+Zuerst prüft der Code, ob `qa.client.com` im Host-/Domänennamen vorhanden ist. Wenn dies der Fall ist, wird die Report Suite `devreportsuite1` ausgewählt und der Vergleich wird beendet. Mehrere Regeln werden mit Semikolons getrennt.
 
 ## Standardmäßige Report Suite {#section_0360D724929348B0B211708B5BA15647}
 
-The `s_account` variable can be set first, and acts as a default value in case any of the specified strings cannot be found. Siehe folgendes Beispiel:
+Die Variable `s_account` kann zuvor festgelegt werden und dient dann als Standardwert für den Fall, dass keine der angegebenen Zeichenfolgen gefunden wird. Siehe folgendes Beispiel:
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -74,4 +74,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+Wenn im oben gezeigten Beispiel im Host-/Domänennamen weder `qa.client.com` noch `client.com` gefunden wird, würde die Report Suite *defaultreportsuiteid* verwendet.
