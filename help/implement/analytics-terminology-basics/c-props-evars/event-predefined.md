@@ -1,13 +1,13 @@
 ---
 description: Liste mit vordefinierten Ereignissen.
-keywords: Analytics-Implementierung; Ereignis
+keywords: Analytics-Implementierung;Ereignis
 seo-description: Liste mit vordefinierten Ereignissen.
 seo-title: Was ist ein vordefiniertes Ereignis?
 solution: Analytics
 title: Was ist ein vordefiniertes Ereignis?
 topic: Entwickler und Implementierung
-uuid: 4 d 0799 ba -0 f 97-42 c 3-a 620-36 c 03 f 9995 da
-translation-type: tm+mt
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
