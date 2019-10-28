@@ -1,85 +1,85 @@
 ---
-title: Erstellen einer Analytics-Eigenschaft im Start
-seo-title: Erstellen einer Adobe Analytics-Eigenschaft in Adobe Experience Platform Launch
-description: Erstellen Sie mithilfe des Adobe Experience Platform Launch einen Bereich, um die Art der Datenerfassung anzupassen.
-seo-description: Erstellen Sie mithilfe des Adobe Experience Platform Launch einen Bereich zur Anpassung der Daten in Adobe Analytics.
-translation-type: tm+mt
+title: Analytics-Eigenschaft in Launch erstellen
+seo-title: Adobe Analytics-Eigenschaft in Adobe Experience Platform Launch erstellen
+description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
+seo-description: Erstellen Sie einen Bereich, um mithilfe von Adobe Experience Platform Launch die Datenerfassung in Adobe Analytics anzupassen.
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
 
 
-# Erstellen einer Analytics-Eigenschaft in Adobe Experience Platform Launch
+# Analytics-Eigenschaft in Adobe Experience Platform Launch erstellen
 
-Adobe Experience Platform Launch ist das Tool, mit dem Sie Experience Cloud-Lösungen in Ihre Website integrieren können (einschließlich Analytics). Diese Seite erläutert insbesondere, wie ein Start-Administrator eine einfache konfigurierte Adobe Analytics-Implementierung erhalten kann.
+Adobe Experience Platform Launch ist das Tool, mit dem Sie Experience Cloud-Lösungen auf Ihrer Website integrieren können (einschließlich Analytics). Auf dieser Seite wird speziell erläutert, wie ein Startadministrator eine grundlegende Adobe Analytics-Implementierung ordnungsgemäß konfigurieren kann.
 
 ## Voraussetzungen
 
-[Erstellen Sie eine Report Suite](../../admin/admin-console/create-report-suite.md): Erstellen Sie ein Silo für die zu erfassenden Analytics-Daten.
+[Report Suite erstellen](../../admin/admin-console/create-report-suite.md): Erstellen eines Silos für zu erfassende Analytics-Daten
 
-## Erstellen Sie eine Eigenschaft und installieren Sie wichtige Erweiterungen.
+## Eigenschaften erstellen und wichtige Erweiterungen installieren
 
-Eigenschaften sind übergeordnete Container, die Sie zur Verwaltung von Tags verwenden. Mit Erweiterungen können Sie produktspezifische Tags installieren und konfigurieren.
+Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verwenden. Mit Erweiterungen können Sie produktspezifische Tags installieren und konfigurieren.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-1. Klicken Sie auf "Neue Eigenschaft" .
+1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+1. Klicken Sie auf „Neue Eigenschaft“.
 1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domäne ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf „Speichern“.
 1. Klicken Sie auf die neu erstellte Eigenschaft, um deren Einstellungen einzugeben.
-1. Klicken Sie auf die Registerkarte Erweiterungen und dann auf Katalog.
-1. Suchen Sie nach dem Identitätsdienst und klicken Sie auf Installieren.
-1. Alle Einstellungen, einschließlich der Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf „Speichern“.
-1. Suchen Sie im erweiterten Katalog nach Adobe Analytics und klicken Sie auf Installieren.
+1. Klicken Sie auf die Registerkarte „Erweiterungen“ und dann auf „Katalog“.
+1. Suchen Sie nach „Identitätsdienst“ und klicken Sie dann auf „Installieren“.
+1. Alle Einstellungen, einschließlich Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf „Speichern“.
+1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf Installieren.
 
 ## Datenelemente für Adobe Analytics erstellen
 
-Datenelemente sind Verweise auf bestimmte Teile Ihrer Site, um Variablenwerte zu erfassen.
+Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von Variablenwerten.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-2. Klicken Sie auf die Starteigenschaft, die Sie auf Ihrer Site implementieren möchten.
-3. Klicken Sie auf die Registerkarte Datenelemente und dann auf Neues Datenelement erstellen.
-4. Geben Sie dem Datenelement die folgenden Einstellungen:
+1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+2. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
+3. Klicken Sie auf die Registerkarte „Datenelemente“ und dann auf „Neues Datenelement erstellen“.
+4. Legen Sie für das Datenelement die folgenden Einstellungen fest:
    * Name: Seitenname
    * Erweiterung: Core
-   * Datenelementtyp: Javascript-Variable
-   * Path to variable: `window.document.title`
-      > [!NOTE] Hinweis: Dies ist ein Beispielwert für den Einstieg. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
-   * Aktivierter Text aktiviert
+   * Datenelementtyp: JavaScript-Variable
+   * Pfad zur Variable: `window.document.title`
+      > [!NOTE] Hinweis: Dies ist ein Beispielwert für die ersten Schritte. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
+   * Markierter Text
    * Dauer: Seitenansicht
 5. Klicken Sie auf „Speichern“.
 
-## Erstellen von Regeln für Adobe Analytics
+## Regeln für Adobe Analytics erstellen
 
-Regeln ordnen Datenelemente den Analytics-Variablenwerten zu und bestimmen, wann diese Werte an die Server von Adobe gesendet werden.
+Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann diese Werte an die Adobe-Server gesendet werden.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-1. Klicken Sie auf die Starteigenschaft, die Sie auf Ihrer Site implementieren möchten.
-1. Click Create New Rule and name it `Global Rule`.
-1. Klicken Sie neben Ereignissen auf Hinzufügen und geben Sie die folgenden Einstellungen ein:
+1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+1. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
+1. Klicken Sie auf „Neue Regel erstellen“ und benennen Sie sie `Global Rule`.
+1. Klicken Sie neben „Ereignisse“ auf „Hinzufügen“ und geben Sie die folgenden Einstellungen ein:
    * Erweiterung: Core
    * Ereignistyp: Bibliothek geladen (Seitenanfang)
    * Name: Core - Bibliothek geladen (Seitenanfang)
-   * Reihenfolge: 50
-1. Klicken Sie auf Änderungen beibehalten.
-1. Klicken Sie unter "Aktionen" auf" Hinzufügen" und geben Sie die folgenden Einstellungen ein:
+   * Bestellung: 50
+1. Klicken Sie auf „Änderungen beibehalten“.
+1. Klicken Sie unter „Aktionen“ auf „Hinzufügen“ und geben Sie die folgenden Einstellungen ein:
    * Erweiterung: Adobe Analytics
    * Aktionstyp: Variablen festlegen
-   * Page Name: click the container icon, and select the `Page Name` data element.
-   * Campaign: Query parameter with a value of `cid`
-1. Klicken Sie auf Änderungen beibehalten.
-1. Klicken Sie auf das Pluszeichen neben Aktionen, um eine weitere Aktion hinzuzufügen, und geben Sie die folgenden Einstellungen ein:
+   * Seitenname: Klicken Sie auf das Container-Symbol und wählen Sie das `Page Name`-Datenelement aus.
+   * Kampagne: Abfrageparameter mit dem Wert `cid`
+1. Klicken Sie auf „Änderungen beibehalten“.
+1. Klicken Sie auf das Pluszeichen neben „Aktionen“, um eine weitere Aktion hinzuzufügen, und geben Sie die folgenden Einstellungen ein:
    * Erweiterung: Adobe Analytics
    * Aktionstyp: Beacon senden
    * Name: Adobe Analytics - Beacon senden
-   * Verfolgung: s. t ()
-1. Klicken Sie auf Änderungen beibehalten.
-1. Stellen Sie sicher, dass das Ereignis und zwei Aktionen festgelegt sind, und klicken Sie dann auf Speichern.
+   * Tracking: s.t()
+1. Klicken Sie auf „Änderungen beibehalten“.
+1. Vergewissern Sie sich, dass das Ereignis und zwei Aktionen festgelegt sind, und klicken Sie auf Speichern.
 
 ## Dokumentation und zusätzliche Ressourcen
 
-* [Dokumentation zur Adobe Analytics-Erweiterung](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
-* [Erste Schritte mit Start](https://docs.adobelaunch.com/getting-started): Vollständige Dokumentation für Launch, einschließlich detaillierter Einführungsschritte
-* [Adobe Experience Platform Launch youtube channel](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Erfahren Sie, wie Sie mit Videos starten.
+* [Dokumentation zu Adobe Analytics-Erweiterungen](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
+* [Erste Schritte mit Launch](https://docs.adobelaunch.com/getting-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte
+* [Adobe Experience Platform Launch YouTube-Kanal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): Learn how to use Launch through videos
 
 ## Nächste Schritte
 
-[Implementieren Sie Ihre Analytics-Implementierung in Ihrer dev-Umgebung](deploy-dev.md): Analytics-Code in einer Testumgebung abrufen.
+[Stellen Sie Ihre Analytics-Implementierung in Ihrer Entwicklungsumgebung bereit](deploy-dev.md): Analytics-Code in einer Testumgebung verwenden
