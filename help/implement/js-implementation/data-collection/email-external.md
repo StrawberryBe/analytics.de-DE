@@ -6,8 +6,8 @@ seo-title: Externe E-Mail-Verfolgung
 solution: Analytics
 title: Externe E-Mail-Verfolgung
 topic: Entwickler und Implementierung
-uuid: fa 450 f 45-14 cf -4 d 0 d-a 87 c -14 a 946512 a 9 b
-translation-type: tm+mt
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -21,7 +21,7 @@ Firmen setzen Analytics ein, um den Erfolg einer E-Mail-Kampagne zu ermitteln.
 
 | Metrik | Beschreibung |
 |---|---|
-| Clickthrough-Raten | Zeigt die Anzahl der Clickthroughs an, die aus der E-Mail auf die Landingpage verfolgt wurden. |
+| Clickthrough-Rate | Zeigt die Anzahl der Clickthroughs an, die aus der E-Mail auf die Landingpage verfolgt wurden. |
 | Käufe und/oder Erfolge | Zeigt die Anzahl der Käufe an, die aus der E-Mail resultierten. |
 | Bestellungen | Zeigt die Anzahl der Bestellungen an, die infolge der E-Mail abgegeben wurden. |
 | Ertrag | Zeigt den Geldbetrag pro Besuch an, den die E-Mail eingebracht hat. |
@@ -60,9 +60,9 @@ Damit in einem Bericht brauchbare Analysedaten zu einer E-Mail-Kampagne angezeig
 
    Durch Änderungen am Code in der JavaScript-Datei [!DNL s_code.js] können Sie erfassen, wie viele (und welche) Benutzer über die E-Mail auf Ihre Website gelangt sind und an nachfolgenden Erfolgsereignissen beteiligt waren. Das Aktualisieren der JavaScript-Bibliothek erfolgt in zwei Schritten.
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. Anpassen von [!DNL s_code.js] durch Aufruf von [!UICONTROL getQueryParam]
 
-      Die Datei [!DNL s_code.js]   sollte sich auf dem Webserver an einem Speicherort befinden, auf den jede Webseite zugreifen kann. The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. Beispiel:
+      Die Datei [!DNL s_code.js] sollte sich auf dem Webserver an einem Speicherort befinden, auf den jede Webseite zugreifen kann. Die Funktion *`doPlugins`* in dieser Datei muss so geändert werden, dass sie die Abfragezeichenfolgen-Parameter in den E-Mail-Links erfasst. Beispiel:
 
       ```js
       /* Plugin Config */ 
@@ -75,7 +75,7 @@ Damit in einem Bericht brauchbare Analysedaten zu einer E-Mail-Kampagne angezeig
       s.doPlugins=s_doPlugins 
       ```
 
-      Es sollte für jeden Abfragezeichenfolgen-Parameter, der in eine Variable kopiert werden soll, einen [!UICONTROL getQueryParam]-Aufruf geben. Im oben gezeigten Beispiel wird der Abfragezeichenfolgen-Parameter [!UICONTROL sc_cid] nach *`campaign`*.
+      Es sollte für jeden Abfragezeichenfolgen-Parameter, der in eine Variable kopiert werden soll, einen [!UICONTROL getQueryParam]-Aufruf geben. Im oben gezeigten Beispiel wird der Abfragezeichenfolgen-Parameter [!UICONTROL sc_cid] nach *`campaign`* kopiert.
 
       Für das Erfassen von Clickthroughs ist nur der erste [!UICONTROL getQueryParam]-Aufruf erforderlich. Wenden Sie sich an Adobe [!DNL Customer Care], wenn Sie diese Funktion implementieren möchten und nicht genau wissen, ob das [!UICONTROL getQueryParam]-Plug-in in Ihrer Version der JavaScript-Datei enthalten ist.
 
