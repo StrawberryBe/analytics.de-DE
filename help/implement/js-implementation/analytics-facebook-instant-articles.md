@@ -1,13 +1,13 @@
 ---
 description: Implementieren von Analytics in Facebook Instant Articles.
-keywords: Analytics-Implementierung; embed; benutzerdefinierte Variable; benutzerdefiniertes Ereignis; Besucherverfolgung; tracking; Einschränkungen
+keywords: Implementierung von Analytics;Einbetten;benutzerdefinierte Variable;benutzerspezifisches Ereignis;Besucher-Tracking;Tracking;Einschränkungen
 seo-description: Implementieren von Analytics in Facebook Instant Articles.
 seo-title: Facebook Instant Articles
 solution: Analytics
 title: Facebook Instant Articles
 topic: Entwickler und Implementierung
-uuid: 04 b 6366 b -7 c 52-4 dae-b 2 dd-bb 6 b 78 fd 409 c
-translation-type: tm+mt
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -99,7 +99,7 @@ Sie können zudem Variablen dynamisch an den iframe senden, indem Sie Abfragezei
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html?prop1=dynamic%20article%20title&eVar1=facebook%20page%20name&pageName=your%20page%20name%20here&cmpId=your%20campaignID%20here" height="0"></iframe>
 ```
 
-Those query string parameters can subsequently be set in the custom variables section of your analytics HTML JavaScript by using the `Util.getQueryParam` function within the default [!DNL AppMeasurement] library, as follows:
+Diese Abfragezeichenfolgenparameter können in Ihrem Analytics HTML JavaScript im Abschnitt zu benutzerdefinierten Variablen festgelegt werden, indem Sie die Funktion `Util.getQueryParam` wie folgt in der standardmäßigen [!DNL AppMeasurement]-Bibliothek verwenden:
 
 ```
 s.pageName = s.Util.getQueryParam("pageName"); 
@@ -110,7 +110,7 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## Besucher-Tracking {#section_60F0C77659534949831E85B5FD9AE81E}
 
-Wenn die Analytics HTML-Seite auf Ihrem Web-Server gehostet wird, unterstützt Adobe Ihre vorhandenen Datenschutzrichtlinien in allen Facebook Instant Articles. Wenn sich ein Endbenutzer also vom Tracking auf Ihrer primären Site abmeldet, so wird das Tracking in all Ihren Facebook Instant Articles ohne weiteres Zutun beendet. Auf dieser Dienstprogrammseite wird auch der Identitätsdienst (Besucher-ID) unterstützt, damit Sie die in Ihren Facebook Instant Articles erfassten Metriken und Variablen mit dem Rest der Experience Cloud integrieren können. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+Wenn die Analytics HTML-Seite auf Ihrem Web-Server gehostet wird, unterstützt Adobe Ihre vorhandenen Datenschutzrichtlinien in allen Facebook Instant Articles. Wenn sich ein Endbenutzer also vom Tracking auf Ihrer primären Site abmeldet, so wird das Tracking in all Ihren Facebook Instant Articles ohne weiteres Zutun beendet. Bei Verwendung dieser Dienstprogrammseite wird auch der Identitätsdienst (Besucher-ID) unterstützt. So können Sie die in Ihren Facebook Instant Articles erfassten Metriken und Variablen mit dem Rest von Experience Cloud integrieren. (Ein Beispiel hierfür ist die gezielte Werbung mit [!DNL Adobe Audience Manager].)
 
 ## Tracking-Einschränkungen {#section_1EE1BB069A3148DB9446371AFE196567}
 
@@ -120,6 +120,6 @@ Bei diesem Ansatz müssen einige Aspekte beachtet werden. Sämtliche DOM-Werte, 
 
 [!DNL Adobe Analytics] freut sich, in Zusammenarbeit mit Facebook und unseren Herausgebern branchenführende Analysefunktionen für Herausgeber im mobilen Web für ein deutlich schnelleres Benutzererlebnis bereitzustellen. Wir streben danach, die beste langfristige Lösung für die steigenden Analyseanforderungen unserer Kunden zu entwickeln.
 
-Durch die schnelle Entwicklung des Facebook Instant Article-Projekts ergeben sich häufig Änderungen. Schauen Sie daher regelmäßig vorbei, um sich über Neuerungen zu informieren. Stellen Sie sich auf Änderungen ein, da wir unsere Integrationen weiter verbessern und weitere Herausgeber Facebook Instant Articles anpassen werden. 
+Durch die schnelle Entwicklung des Facebook Instant Article-Projekts ergeben sich häufig Änderungen. Schauen Sie daher regelmäßig vorbei, um sich über Neuerungen zu informieren. Stellen Sie sich auf Änderungen ein, da wir unsere Integrationen weiter verbessern und weitere Herausgeber Facebook Instant Articles anpassen werden.
 
 Wenn Sie Fragen oder Probleme haben, wenden Sie sich an Ihren Adobe-Berater oder den Kundendienst.
