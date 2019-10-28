@@ -2,18 +2,18 @@
 description: Hier finden Sie die Antwort, wenn Sie wissen möchten, wohin die Benutzer weiter navigieren, nachdem Sie über eine Kampagne auf Ihre Site gelangt sind.
 keywords: Analytics-Implementierung
 seo-description: Hier finden Sie die Antwort, wenn Sie wissen möchten, wohin die Benutzer weiter navigieren, nachdem Sie über eine Kampagne auf Ihre Site gelangt sind.
-seo-title: Pfade nach Kampagne oder Rückverfolgungscode
+seo-title: Pfad nach Kampagne oder Trackingcode
 solution: Analytics
-title: Pfade nach Kampagne oder Rückverfolgungscode
+title: Pfad nach Kampagne oder Trackingcode
 topic: Entwickler und Implementierung
-uuid: eb 6 e 3484-1 b 40-4 ec 6-8017-ac 1003 cdf 636
-translation-type: tm+mt
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Pfade nach Kampagne oder Rückverfolgungscode
+# Pfad nach Kampagne oder Trackingcode
 
 Hier finden Sie die Antwort, wenn Sie wissen möchten, wohin die Benutzer weiter navigieren, nachdem Sie über eine Kampagne auf Ihre Site gelangt sind.
 
