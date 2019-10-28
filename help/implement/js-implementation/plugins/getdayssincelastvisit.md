@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: getDaysSinceLastVisit
 topic: Entwickler und Implementierung
-uuid: cad 95882-3 bd 0-4 f 94-a 0 c 3-4 e 7 b 6058 d 246
-translation-type: tm+mt
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ Ermittelt die Anzahl der Tage seit dem letzten Besuch eines Benutzers auf Ihrer 
 
 >[!IMPORTANT]
 >
->[Der Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) enthält jetzt eine **[!UICONTROL Tage seit der letzten]** Besuchsdauer des Felds, wodurch dieses Plug-plugin nicht mehr benötigt wird.
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/) enthält jetzt standardmäßig die Dimension **[!UICONTROL Tage seit dem letzten Besuch]**, wodurch die Notwendigkeit für dieses Plug-in entfällt.
 
 Mit diesen Daten zur Rückkehrfrequenz können die folgenden Fragen beantwortet werden:
 
@@ -32,7 +32,7 @@ Das Plug-in kann auch Werte generieren, die zur Segmentierung dienen. Sie könne
 
 >[!NOTE]
 >
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+>Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code und -Implementierung {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -42,7 +42,7 @@ Keine Änderungen erforderlich
 
 **Plug-in-Konfiguration**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. Wählen Sie eine benutzerspezifische Traffic-Variable (s.prop) und/oder eine Custom Converesion-Variable (s.eVar), um diese für die Erfassung von Daten zur Rückkehrfrequenz zu verwenden. Dies muss eine Variable sein, die über die Admin Console aktiviert wurde, die jedoch aktuell nicht für einen anderen Zweck verwendet wird. Nachfolgend ist ein Beispiel aufgeführt, das Sie an Ihre Anforderungen anpassen können.
+Fügen Sie den folgenden Code innerhalb der Funktion `s_doPlugins()` ein, die sich in der Datei [!DNL s_code.js] im Abschnitt *Plugin Config* befindet. Wählen Sie eine benutzerspezifische Traffic-Variable (s.prop) und/oder eine Custom Converesion-Variable (s.eVar), um diese für die Erfassung von Daten zur Rückkehrfrequenz zu verwenden. Dies muss eine Variable sein, die über die Admin Console aktiviert wurde, die jedoch aktuell nicht für einen anderen Zweck verwendet wird. Nachfolgend ist ein Beispiel aufgeführt, das Sie an Ihre Anforderungen anpassen können.
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
