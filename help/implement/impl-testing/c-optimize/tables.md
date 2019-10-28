@@ -4,11 +4,11 @@ keywords: Analytics-Implementierung
 seo-description: In vielen Webbrowsern werden Tabelleninhalte erst dann angezeigt, wenn der Browser die gesamte Tabelle zusammengestellt hat.
 seo-title: Tabellen
 solution: Analytics
-subtopic: 'Fehlerbehebung '
+subtopic: Fehlerbehebung
 title: Tabellen
 topic: Entwickler und Implementierung
-uuid: f 72 d 7894-38 bd -4926-bce 4-0 c 6 af 7278 c 63
-translation-type: tm+mt
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ Wenn der Aufruf der JavaScript-Bibliotheksdatei außerhalb der Tabellen-Tags pla
 
 >[!NOTE]
 >
->Die Datei muss an einer zulässigen Position für Bilder platziert werden und muss zwischen dem Öffnen angezeigt werden. <body> Tag und das Schließen </body> -tag.
+>Die Datei sollte sich für Bilder an einer zulässigen Position befinden und muss zwischen dem ersten <body> Tag und dem letzten Tag </body> erscheinen.
 
