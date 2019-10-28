@@ -1,12 +1,12 @@
 ---
 description: Verwenden Sie Feldbeschreibungen im Dynamic Tag Management zur Anpassung des Seiten-Codes bei der Bereitstellung von Analytics.
-keywords: Dynamisches Tag-Management;Seiten-Code anpassen;Editor öffnen;Ausführen
+keywords: Dynamic Tag Management;Seiten-Code anpassen;Editor öffnen;ausführen
 seo-description: Verwenden Sie Feldbeschreibungen im Dynamic Tag Management zur Anpassung des Seiten-Codes bei der Bereitstellung von Analytics.
 seo-title: Seiten-Code anpassen
-solution: Experience Cloud, Analytics, Target, Dynamisches Tag-Management
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Seiten-Code anpassen
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -18,9 +18,9 @@ Verwenden Sie Feldbeschreibungen im Dynamic Tag Management zur Anpassung des Sei
 
 Fügen Sie Plugins hinzu, um zu gewährleisten, dass der Code zur gleichen Zeit wie das Analytics-Tool ausgeführt wird. Weitere Informationen zu den Analytics-Plug-ins finden Sie unter [Plug-ins für Implementierungen](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
+Tool bearbeiten]** &gt; **[!UICONTROL Seiten-Code anpassen]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
