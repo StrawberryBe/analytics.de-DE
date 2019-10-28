@@ -6,8 +6,8 @@ seo-title: Geo-Segmentdaten
 solution: Analytics
 title: Geo-Segmentdaten
 topic: Entwickler und Implementierung
-uuid: 8449 bf 11-c 367-4698-a 73 e-f 6 cb 59 f 8 c 945
-translation-type: tm+mt
+uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -17,8 +17,8 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Diese Methode zur Identifizierung von Besuchern auf Gerätegeräten wird nicht mehr empfohlen. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud-Gerätekooperations-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcdc/).
 
 Geo-Segmentdaten werden auf Grundlage des ersten Treffers des Besuches vermerkt und bei einem einzelnen Besuch nicht geändert, wobei es keine Rolle spielt, welches Gerät verwendet wird.
 
-Wenn ein Kunde von seinem privaten Computer aus auf Ihre Website zugreift und dann innerhalb von 30 Minuten noch einmal von seinem Laptop aus Ihre Website besucht, bleiben die Geo-Segmentdaten unverändert. Wenn Sie VISTA verwenden, um eine evar mit Geo-Segmentdaten auszufüllen, basiert diese auf der IP-Adresse in jedem Treffer. Dies kann zu mehreren Datensegmentwerten für Geo-Segmente führen, wenn sich die IP-Adresse für denselben Besuch ändert.
+Wenn ein Kunde von seinem privaten Computer aus auf Ihre Website zugreift und dann innerhalb von 30 Minuten noch einmal von seinem Laptop aus Ihre Website besucht, bleiben die Geo-Segmentdaten unverändert. Wenn Sie VISTA einsetzen, um eine eVar mit Geo-Segmentdaten aufzufüllen, erfolgt dies auf der Grundlage der IP-Adresse in jedem Treffer. Das kann dazu führen, dass mehrere Geo-Segmentdatenwerte vorhanden sind, wenn sich die IP-Adresse beim gleichen Besuch ändert.
