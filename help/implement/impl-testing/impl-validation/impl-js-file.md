@@ -2,18 +2,18 @@
 description: Stellen Sie sicher, dass auf der Seite korrekt auf die JS-Datei verwiesen wird. Der Pfad kann entweder relativ zum aktuellen Dokument oder in absoluter Form angegeben werden.
 keywords: Analytics-Implementierung
 seo-description: Stellen Sie sicher, dass auf der Seite korrekt auf die JS-Datei verwiesen wird. Der Pfad kann entweder relativ zum aktuellen Dokument oder in absoluter Form angegeben werden.
-seo-title: Javascript JS-Datei
+seo-title: JavaScript-JS-Datei
 solution: Analytics
-title: Javascript JS-Datei
+title: JavaScript-JS-Datei
 topic: Entwickler und Implementierung
-uuid: 6 e 83223 f -2127-41 d 3-9806-bd 085 fa 2 a 747
-translation-type: tm+mt
+uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Javascript JS-Datei
+# JavaScript-JS-Datei
 
 Stellen Sie sicher, dass auf der Seite korrekt auf die JS-Datei verwiesen wird. Der Pfad kann entweder relativ zum aktuellen Dokument oder in absoluter Form angegeben werden.
 
@@ -22,14 +22,14 @@ Stellen Sie sicher, dass auf der Seite korrekt auf die JS-Datei verwiesen wird. 
 src="https://www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-If some pages of the site are loaded in a secure protocol (https:), and reference the [!DNL AppMeasurement] for JavaScript file, ensure that the reference to the file is either secure (via https:) or code the reference as shown below. Dieses Beispiel übernimmt das Protokoll der aktuellen Seite und unterdrückt die Warnung, dass einige Elemente nicht sicher sind.
+Wenn einige Seiten der Website mit einem sicheren Protokoll (HTTPS) geladen werden und auf die [!DNL AppMeasurement] für JavaScript-Datei verweisen, müssen Sie sicherstellen, dass der Verweis auf die Datei sicher ist (HTTPS), oder den Verweiscode wie unten gezeigt formulieren. Dieses Beispiel übernimmt das Protokoll der aktuellen Seite und unterdrückt die Warnung, dass einige Elemente nicht sicher sind.
 
 ```js
 <script language="JavaScript" 
 src="//www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-Ensure that the [!DNL .JS] file on the web servers have permissions appropriately set so that the file may be downloaded and executed by website visitors. If a different [!DNL .JS] file is used on development servers, set the "read only" attribute for the [!DNL .JS] file on production servers to avoid an overwrite. If altered, ensure that the following settings are set appropriately at the top of the [!DNL .JS] file:
+Vergewissern Sie sich, dass für die [!DNL .JS]-Datei auf den Webservern entsprechende Berechtigungen festgelegt sind, damit die Datei von Besuchern der Website heruntergeladen und ausgeführt werden kann. Wenn auf Entwicklungsservern eine andere [!DNL .JS]-Datei verwendet wird, setzen Sie das Attribut „schreibgeschützt“ für die [!DNL .JS]-Datei auf Produktionsservern, damit die Datei nicht überschrieben wird. Falls Einstellungen verändert wurden, vergewissern Sie sich, dass zu Beginn der [!DNL .JS]-Datei die folgenden Einstellungen passend festgelegt sind:
 
 ```js
 /************************** CONFIG SECTION **************************/
@@ -45,6 +45,6 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-If " *`s_account`*" is assigned a value at the top of the [!DNL .JS] file, ensure that the report suite ID (populated in the [!UICONTROL s_account]variable) is correct. Also ensure that the code in the page is not setting the [!UICONTROL Report Suite ID] ( *`s_account`* variable).
+Wenn *`s_account`* oben in der [!DNL .JS]-Datei ein Wert zugewiesen ist, müssen Sie überprüfen, ob die (in der [!UICONTROL s_account ]-Variable eingetragene) Report Suite-ID korrekt ist. Stellen Sie außerdem sicher, dass der Code auf der Seite nicht die [!UICONTROL Report Suite ID] (Variable *`s_account`*) setzt.
 
-Examine the image request and variables to ensure that the "fallback method" (the third part of the "split" code in the example above) is not creating the image request instead of the [!DNL .JS] file. Das kann man daran erkennen, dass Bildanforderungen, die nur ein Minimum an Informationen enthalten, von der Ausweichmethode stammen.
+Überprüfen Sie die Bildanforderung und die Variablen dahingehend, ob die Bildanforderung auch wirklich von der [!DNL .JS]-Datei erstellt wird und nicht von der Ausweichmethode (die im oben gezeigten Beispiel im dritten Teil des „Aufteilungs“-Codes steht). Das kann man daran erkennen, dass Bildanforderungen, die nur ein Minimum an Informationen enthalten, von der Ausweichmethode stammen.
