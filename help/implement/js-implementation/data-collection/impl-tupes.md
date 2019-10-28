@@ -2,18 +2,18 @@
 description: Diese Informationen sind für fortgeschrittene Benutzer gedacht, die sowohl mit der Berichterstellung als auch der Implementierung gut vertraut sind. Versuchen Sie nicht, Ihre Implementierung zu verändern, wenn Sie nicht genau wissen, welche Folgen dies hat. Falls Implementierungsänderungen erforderlich sind, wenden Sie sich an den Account-Manager Ihres Unternehmens.
 keywords: Analytics-Implementierung
 seo-description: Diese Informationen sind für fortgeschrittene Benutzer gedacht, die sowohl mit der Berichterstellung als auch der Implementierung gut vertraut sind. Versuchen Sie nicht, Ihre Implementierung zu verändern, wenn Sie nicht genau wissen, welche Folgen dies hat. Falls Implementierungsänderungen erforderlich sind, wenden Sie sich an den Account-Manager Ihres Unternehmens.
-seo-title: Verfolgen Sie die verschiedenen Implementierungstypen.
+seo-title: Rückverfolgung über verschiedene Implementierungstypen hinweg
 solution: Analytics
-title: Verfolgen Sie die verschiedenen Implementierungstypen.
+title: Rückverfolgung über verschiedene Implementierungstypen hinweg
 topic: Entwickler und Implementierung
-uuid: a 0 a 3229 a -79 a 2-4 dc 2-b 0 be -4 b 8 fac 2 efa 3 a
-translation-type: tm+mt
+uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Verfolgen Sie die verschiedenen Implementierungstypen.
+# Rückverfolgung über verschiedene Implementierungstypen hinweg
 
 Diese Informationen sind für fortgeschrittene Benutzer gedacht, die sowohl mit der Berichterstellung als auch der Implementierung gut vertraut sind. Versuchen Sie nicht, Ihre Implementierung zu verändern, wenn Sie nicht genau wissen, welche Folgen dies hat. Falls Implementierungsänderungen erforderlich sind, wenden Sie sich an den Account-Manager Ihres Unternehmens.
 
