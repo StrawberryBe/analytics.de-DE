@@ -1,14 +1,14 @@
 ---
-description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), in der Abfragezeichenfolge einer Seite verfügbar sind, kann  „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu erfassen.
+description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), kann „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu erfassen.
 keywords: Analytics-Implementierung
-seo-description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), in der Abfragezeichenfolge einer Seite verfügbar sind, kann  "getQueryParam" dabei helfen, die Daten in Analytics-Variablen zu überführen.
+seo-description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), kann „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu überführen.
 seo-title: getQueryParam
 solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
 topic: Entwickler und Implementierung
-uuid: ba 202756-c 728-4 ebc -8 fd 9-5 bc 29 a 9 f 673 b
-translation-type: tm+mt
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -16,27 +16,27 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 # getQueryParam
 
-Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), in der Abfragezeichenfolge einer Seite verfügbar sind, kann  „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu erfassen.
+Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), kann „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu erfassen.
 
 >[!IMPORTANT]
 >
->Dieses Plug-In wird nur von H-Code verwendet. [Appmeasurement for javascript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) verwendet diese Funktion nativ unter Verwendung von [Util. getqueryparam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Dieses Plug-in wird nur von H-Code verwendet. [AppMeasurement für JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) bietet diese Funktionalität nativ mit [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. Das Plug-in erkennt die angegebene Abfragezeichenfolge, soweit vorhanden, und erfasst den Wert in der ausgewählten Variablen. Wenn kein Abfragezeichenfolgen-Parameter mit diesem Wert gefunden wird, wird eine leere Zeichenfolge zurückgegeben. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+Nachdem das Plug-in im [!DNL AppMeasurement] für JavaScript-Code installiert wurde, wird es konfiguriert. Dazu wird eine [!DNL Analytics]-Variable ausgewählt, die mit den in der Abfragezeichenfolge gefundenen Daten aufgefüllt werden soll, und es wird angegeben, welche Werte der Abfragezeichenfolge erfasst werden sollen. Das Plug-in erkennt die angegebene Abfragezeichenfolge, soweit vorhanden, und erfasst den Wert in der ausgewählten Variablen. Wenn kein Abfragezeichenfolgen-Parameter mit diesem Wert gefunden wird, wird eine leere Zeichenfolge zurückgegeben. Wenn ein Abfragezeichenfolgenparameter vorhanden ist, aber keinen Wert hat (z. B. param1 in `?param1&param2=value`), wird das Wort *`true`* ausgegeben.
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>Damit die unten aufgeführten Beispiele funktionieren, müssen Sie den Basis-Code für das Plug-in in den [!DNL AppMeasurement] für den JavaScript-Code installieren.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+Wenn Sie mit *`s.campaign`* Kampagnen-Trackingcodes erfassen möchten, die als Werte des Abfrageparameters *`cid`* verfügbar sind, geben Sie Folgendes in die Funktion *`doPlugins()`* in [!DNL AppMeasurement] für JavaScript-Code ein:
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. Mit dem [!DNL DigitalPulse] Debugger kann dies sichtbar gemacht werden, in dem *v0=123456* als Teil der Bildanforderung angezeigt werden sollte.
+Wenn in diesem Beispiel der Benutzer auf eine Landingpage Ihrer Website gelangt ist, auf der die URL [!DNL https://www.yoursite.com/index.html?cid=123456] war, würde *`s.campaign`* einen Wert von *123456* erhalten. Mit dem [!DNL DigitalPulse][!UICONTROL  Debugger] kann dies sichtbar gemacht werden, in dem *v0=123456* als Teil der Bildanforderung angezeigt werden sollte.
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. Sie können sie durch beliebige Zeichenfolgenparameter ersetzen, die in Ihrer Site vorhanden sind.
+>Der Parameter *`cid`* und andere werden hier als Beispiele verwendet. Sie können sie durch beliebige Zeichenfolgenparameter ersetzen, die in Ihrer Site vorhanden sind.
 
 Die Variable *`getQueryParam`* verfügt über zwei weitere (optionale) Argumente, die zum Erfassen von Daten in Analytics-Variablen verwendet werden können.
 
@@ -58,7 +58,7 @@ s.campaign=s.getQueryParam('cid');
  s.campaign=s.getQueryParam('iid'); 
 ```
 
-Ab der Version 2.0 von *`getQueryParam`* akzeptiert das Plug-in auch ein optionales drittes Argument, *u*, mit dem Sie die URL angeben können, aus der Sie Abfragezeichenfolgen-Parameter extrahieren möchten. Das Plug-in verwendet standardmäßig (das heißt, wenn dieses dritte Argument nicht spezifiziert wird) die Seiten-URL. Wenn Sie zum Beispiel eine Abfragezeichenfolge vom Referrer extrahieren möchten, können Sie den folgenden Code verwenden:
+Ab der Version *`getQueryParam`* 2.0 von akzeptiert das Plug-in auch ein optionales drittes Argument, *u*, mit dem Sie die URL angeben können, aus der Sie Abfragezeichenfolgen-Parameter extrahieren möchten. Das Plug-in verwendet standardmäßig (das heißt, wenn dieses dritte Argument nicht spezifiziert wird) die Seiten-URL. Wenn Sie zum Beispiel eine Abfragezeichenfolge vom Referrer extrahieren möchten, können Sie den folgenden Code verwenden:
 
 ```js
 // take the query string from the referrer 
@@ -76,7 +76,7 @@ Wenn Sie Bildfelder und den Parameter *f* verwenden, wird empfohlen, das Plug-in
 
 >[!NOTE]
 >
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+>Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 **Plug-in-Code**
 
