@@ -2,22 +2,22 @@
 description: In den folgenden Tabellen werden die Abfrageparameter aufgeführt, die den Wert für jede Analytics-Variable enthalten, die zur Datenerfassung gesendet werden.
 keywords: Analytics-Implementierung
 seo-description: In den folgenden Tabellen werden die Abfrageparameter aufgeführt, die den Wert für jede Analytics-Variable enthalten, die zur Datenerfassung gesendet werden.
-seo-title: Datenerfassungsparameter
+seo-title: Datenerfassungs-Abfrageparameter
 solution: Analytics
-title: Datenerfassungsparameter
+title: Datenerfassungs-Abfrageparameter
 topic: Entwickler und Implementierung
-uuid: 4 d 5 af 486-df 27-42 fe-bb 9 c -28938 dddf 2 b 2
-translation-type: tm+mt
+uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
+translation-type: ht
 source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 ---
 
 
-# Datenerfassungsparameter
+# Datenerfassungs-Abfrageparameter
 
 In den folgenden Tabellen werden die Abfrageparameter aufgeführt, die den Wert für jede Analytics-Variable enthalten, die zur Datenerfassung gesendet werden.
 
-Diese Informationen können für das Debugging mit [Paket-Analyzer](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258), wenn Sie Bildanforderungen manuell erstellen oder [dynamische Variablen verwenden](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262).
+Diese Informationen können für das Debugging mit [Packet-Analyzern](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258), beim manuellen Erstellen von Bildanforderungen oder bei der Verwendung von [dynamischen Variablen](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) genutzt werden.
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
@@ -78,10 +78,10 @@ Diese Informationen können für das Debugging mit [Paket-Analyzer](../../../imp
    <td> Farbqualität (in Bit) </td> 
   </tr> 
   <tr> 
-   <td> <code> c. <span class="varname"> [Schlüssel] </code></span> </td> 
+   <td> <code> c. <span class="varname"> [key] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>– </p> </td> 
-   <td> <p>Schlüsselwertpaare werden in einem der folgenden Formate angegeben: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>oder: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Jedes dieser Beispiele führt zu dem Kontextdatenwert <code>my.a = red </code>. Es können mehrere Schlüsselwertpaare festgelegt werden. </p> <p>In the query string, this context data variable would appear as <code> c.&amp;my.a=red </code> </p> </td> 
+   <td> <p>Schlüsselwertpaare werden in einem der folgenden Formate angegeben: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>oder: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Jedes dieser Beispiele führt zu dem Kontextdatenwert <code>my.a = red </code>. Es können mehrere Schlüsselwertpaare festgelegt werden. </p> <p>In der Abfragezeichenfolge würde die Kontextdatenvariable als <code>c.&amp;my.a=red</code> angezeigt werden. </p> </td> 
   </tr> 
   <tr> 
    <td> c1 - c75 </td> 
@@ -135,7 +135,7 @@ Diese Informationen können für das Debugging mit [Paket-Analyzer](../../../imp
    <td> <code> D </code> </td> 
    <td> dynamicVariablePrefix </td> 
    <td> – </td> 
-   <td> <p>Siehe <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> Dynamische Variablen </a>. </p> </td> 
+   <td> <p>Siehe <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local">Dynamische Variablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> events oder ev </td> 
@@ -322,12 +322,15 @@ Diese Informationen können für das Debugging mit [Paket-Analyzer](../../../imp
    <td> (automatisch, wird mit jedem Treffer gesendet, der keinen benutzerspezifischen Zeitstempel aufweist) </td> 
    <td> – </td> 
    <td> <p>Der Parameter <code>t</code> weist folgendes Format auf: </p> 
-    <code>dd/mm/jjjj &amp; amp; nbsp; hh: mm: ss &amp; amp; nbsp; D &amp; amp; nbsp; OFFSET </code>
-  <p>Wobei es sich bei „D“ um eine Zahl von <code>0-6</code> handelt, die den Wochentag angibt, und <code>OFFSET</code> für Folgendes steht: </p> 
-    <code>offset &amp; amp; nbsp; from &amp; amp; nbsp; GMT &amp; amp; nbsp; in &amp; amp; nbsp; hours &amp; amp; nbsp; * &amp; amp; nbsp; 60 &amp; amp; nbsp; * &amp; amp; nbsp; -&amp; amp; nbsp; 1 </code>
-  <p> Beispiel: </p> 
-    <code>23/09/2016 &amp; amp; nbsp; 14:00:00 &amp; amp; nbsp; 1 &amp; amp; nbsp; 420 </code>
-  </td> 
+    <code>
+      dd/mm/yyyy&amp;nbsp;hh:mm:ss&amp;nbsp;D&amp;nbsp;OFFSET 
+    </code> <p>Wobei es sich bei „D“ um eine Zahl von <code>0-6</code> handelt, die den Wochentag angibt, und <code>OFFSET</code> für Folgendes steht: </p> 
+    <code>
+      offset&amp;nbsp;from&amp;nbsp;GMT&amp;nbsp;in&amp;nbsp;hours&amp;nbsp;*&amp;nbsp;60&amp;nbsp;*&amp;nbsp;-&amp;nbsp;1 
+    </code> <p> Beispiel: </p> 
+    <code>
+      23/09/2016&amp;nbsp;14:00:00&amp;nbsp;1&amp;nbsp;420 
+    </code> </td> 
   </tr> 
   <tr> 
    <td> <code> ts </code> </td> 
@@ -357,7 +360,7 @@ Diese Informationen können für das Debugging mit [Paket-Analyzer](../../../imp
    <td> vid </td> 
    <td> <p>s.visitorID </p> </td> 
    <td> – </td> 
-   <td> Die eindeutige ID des Besuchers   wie in der Besucher-ID-Variablen festgelegt. </td> 
+   <td> Die eindeutige ID des Besuchers, wie in der Besucher-ID-Variable festgelegt. </td> 
   </tr> 
   <tr> 
    <td> vmk </td> 
@@ -387,7 +390,7 @@ Diese Informationen können für das Debugging mit [Paket-Analyzer](../../../imp
    <td> /5/ (für Mobilfunkprotokoll) oder /1/ (für alle anderen Protokolle) in der Bildanforderungs-URL. </td> 
    <td> – </td> 
    <td> – </td> 
-   <td> <p> Steuert, in welcher Reihenfolge Cookies und sonstige Methoden zum Identifizieren von Besuchern eingesetzt werden.  </p> </td> 
+   <td> <p> Steuert, in welcher Reihenfolge Cookies und sonstige Methoden zum Identifizieren von Besuchern eingesetzt werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
