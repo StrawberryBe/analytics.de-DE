@@ -6,8 +6,8 @@ seo-title: Übersicht über die Ereignis-Serialisierung
 solution: Analytics
 title: Übersicht über die Ereignis-Serialisierung
 topic: Entwickler und Implementierung
-uuid: 8 c 7883 bb -5 ba 4-4440-af 80-c 0 d 15867570 c
-translation-type: tm+mt
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -24,9 +24,9 @@ Die [!UICONTROL Ereignis-Serialisierung] ist in den folgenden Fällen nützlich:
 
 >[!NOTE]
 >
->Data Sources unterstützt keine Ereignis-Serialisierung oder Deduplizierung.
+>Data Sources unterstützt keine Ereignis-Serialisierung oder -Deduplizierung.
 
-In diesem Dokument wird die Vorgehensweise zum Implementieren von [!UICONTROL Ereignis-Serialisierung] für [!UICONTROL Konversions]- und [!UICONTROL benutzerspezifische] Ereignisse beschrieben. To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . Wählen Sie dann in der Spalte „[!UICONTROL Eindeutige Ereignisaufzeichnung]“ aus, welche Ereignisse aufgezeichnet werden sollen.
+In diesem Dokument wird die Vorgehensweise zum Implementieren von [!UICONTROL Ereignis-Serialisierung] für [!UICONTROL Konversions]- und [!UICONTROL benutzerspezifische] Ereignisse beschrieben. Um die [!UICONTROL Ereignis-Serialisierung] zu verwenden, müssen Sie sie zunächst unter **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL [Report Suite auswählen]]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Erfolgsereignis]** aktivieren. Wählen Sie dann in der Spalte „[!UICONTROL Eindeutige Ereignisaufzeichnung]“ aus, welche Ereignisse aufgezeichnet werden sollen.
 
 ## Standardmäßige Verhaltensweise {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . Wählen Sie dann in der Spalte „[!UICONTROL Eindeutige Ereignisaufzeichnung]“ aus, welche Ereignisse aufgezeichnet werden sollen. Ein Ereignis kann auf drei unterschiedliche Einstellungen gesetzt werden.
+Um die [!UICONTROL Ereignis-Serialisierung] zu verwenden, müssen Sie sie zunächst unter **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL [Report Suite auswählen]]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Erfolgsereignis]** aktivieren. Wählen Sie dann in der Spalte „[!UICONTROL Eindeutige Ereignisaufzeichnung]“ aus, welche Ereignisse aufgezeichnet werden sollen. Ein Ereignis kann auf drei unterschiedliche Einstellungen gesetzt werden.
 
 **Ereignis immer aufzeichnen**: Dies ist das vorgegebene Verhalten aller Ereignisse bei der erstmaligen Aktivierung. Alle in Bildanforderungen enthaltenen Ereignisse werden direkt an Analytics gesendet, einschließlich des Neuladens von Seiten.
 
@@ -81,4 +81,4 @@ Beachten Sie Folgendes beim Auswählen von Serialisierungs-IDs:
 
 [!DNL Analytics] verfügt über ein Feature, mit dem ein Ereignis nur einmal pro Besuch ausgelöst werden kann.
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+Es kann über die Benutzeroberfläche wie folgt aktiviert werden: **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Erfolgsereignisse]**.
