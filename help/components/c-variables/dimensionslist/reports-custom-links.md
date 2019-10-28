@@ -7,7 +7,7 @@ title: Anwenderspezifischer Link
 topic: Berichte
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Zeigt die Links, die die Besucher Ihrer Site gern aufrufen. Die Homepage Ihrer Website hat vermutlich mehrere Links, die zur selben Seite führen. Möglicherweise gibt es einen Grafik- und Text-Link, die beide zur selben Seite führen. Dieser Bericht zeigt den Prozentsatz der Besucher, die den Grafik-Link im Vergleich zum Text-Link verwenden.
 
-Die spezifischen Links, die verfolgt werden sollen, müssen mit speziellen Tags modifiziert werden, siehe [Linktracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html).
+Die spezifischen Links, die verfolgt werden sollen, müssen mit speziellen Tags modifiziert werden, siehe [Linktracking](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html).
 
 Den [!UICONTROL Bericht „Benutzerspezifische Links“] können Sie zu folgenden Zwecken einsetzen:
 
