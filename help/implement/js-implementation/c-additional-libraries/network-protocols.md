@@ -1,13 +1,13 @@
 ---
 description: WAP und i-mode sind die beiden derzeit gebräuchlichsten Protokolle oder Standards. WAP wird meist in den USA eingesetzt, während i-mode in Japan und Europa verbreitet ist.
-keywords: Analytics-Implementierung; wap; i-mode
+keywords: Analytics Implementierung;WAP;I-Mode
 seo-description: WAP und i-mode sind die beiden derzeit gebräuchlichsten Protokolle oder Standards. WAP wird meist in den USA eingesetzt, während i-mode in Japan und Europa verbreitet ist.
 seo-title: Mobilfunkprotokolle
 solution: Analytics
 title: Mobilfunkprotokolle
 topic: Entwickler und Implementierung
-uuid: b 453677 c -7449-4174-a 243-a 0 eb 24 b 319 d
-translation-type: tm+mt
+uuid: b453677c-7449-4174-a243-a0eb024b319d
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
