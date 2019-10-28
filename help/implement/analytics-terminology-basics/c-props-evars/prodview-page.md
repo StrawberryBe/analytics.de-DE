@@ -1,23 +1,23 @@
 ---
 description: Die Variable „products“ dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis).
-keywords: Analytics-Implementierung; products variable; Produktansicht; Erfolgsereignis
+keywords: Analytics-Implementierung;Variable „products“;Produktansicht;Erfolgsereignis
 seo-description: Die Variable „products“ dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis).
-seo-title: Detaillierte Produktansichtsseite
+seo-title: Detaillierte Produktansicht (Seite)
 solution: Analytics
-title: Detaillierte Produktansichtsseite
+title: Detaillierte Produktansicht (Seite)
 topic: Entwickler und Implementierung
-uuid: 464 c 9 daf-b 042-4 fb 8-8 ca 6-e 104 c 0 bcef 45
-translation-type: tm+mt
+uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Detaillierte Produktansichtsseite
+# Detaillierte Produktansicht (Seite)
 
 Die Variable „products“ dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis).
 
-A success event should always be set in conjunction with the *`products`* variable.
+Ein Erfolgsereignis sollte immer mit der Variable *`products`* eingestellt werden.
 
 ```js
 s.events="prodView"
@@ -25,7 +25,7 @@ s.events="prodView"
 
 >[!NOTE]
 >
->While *`prodView`* is treated in implementation like an event, it does not have the same flexibility in the interface. The *`prodView`*event is an instance of the product and is only available in the *`products`* report. Adobe recommends you use a *`custom`* event in addition to the *`prodView`* event. Dadurch werden in anderen Konversions-Berichten die Produktansichtsmetriken neben anderen Metriken angezeigt.
+>Während *`prodView`* in der Implementierung wie ein Ereignis behandelt wird, verfügt es in der Schnittstelle nicht über die gleiche Flexibilität. *`prodView`* ist eine Instanz des Produkts und steht nur im *`products`*-Bericht zur Verfügung. Adobe empfiehlt die Verwendung eines *`custom`*-Ereignisses zusätzlich zum *`prodView`*-Ereignis. Dadurch werden in anderen Konversions-Berichten die Produktansichtsmetriken neben anderen Metriken angezeigt.
 
 ```js
 s.products=";diamond earrings (54321)"
@@ -58,6 +58,6 @@ s.products=";SKU"
 
 >[!NOTE]
 >
->While using the SKU in the product string may make the *`products`* report less readable, it provides the maximum flexibility later when you want to classify your products. Sie können aus der SKU Kategorien erstellen, die Angaben zu Ausführung, Hersteller, Kategorie und Unterkategorie machen.
+>Die Verwendung der SKU in der Produktzeichenfolge kann dazu führen, dass der *`products`*-Bericht schlechter lesbar ist, bietet jedoch die größtmögliche Flexibilität, wenn Sie Ihre Produkte klassifizieren möchten. Sie können aus der SKU Kategorien erstellen, die Angaben zu Ausführung, Hersteller, Kategorie und Unterkategorie machen.
 
-Wenn die Variable *`products`* in Verbindung mit dem *`purchase`-Ereignis festgelegt ist, sind die Kaufmenge und der Gesamtkaufpreis im Wert der „products“-Variablen enthalten.*
+Wenn die Variable *`products`* in Verbindung mit dem *`purchase`-Ereignis festgelegt ist, sind die Kaufmenge und der Gesamtkaufpreis im Wert der Variable „products“ enthalten.*
