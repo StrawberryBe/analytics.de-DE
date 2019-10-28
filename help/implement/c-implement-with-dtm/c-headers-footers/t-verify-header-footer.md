@@ -1,13 +1,13 @@
 ---
 description: Überprüfen Sie, ob Ihre Dynamic Tag Management-Bibliothek ordnungsgemäß auf Ihrer Website geladen wird.
-keywords: Analytics-Implementierung; Implementierungsmethode; dynamisches Tag-Management; dtm; code; page code; header code; Fußzeilencode; Einbettungscode; verify code; verify header code; Überprüfen des Fußzeilencodes; embed Registerkarte; embed
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Code;Seiten-Code;Kopfzeilencode;Fußzeilencode:Einbettungscode;Code überprüfen;Kopfzeilencode überprüfen;Fußzeilencode überprüfen;Registerkarte „Einbettung“;einbetten
 seo-description: Überprüfen Sie, ob Ihre Dynamic Tag Management-Bibliothek ordnungsgemäß auf Ihrer Website geladen wird.
 seo-title: Kopf- und Fußzeilencode überprüfen
 solution: Analytics
 title: Kopf- und Fußzeilencode überprüfen
 topic: Entwickler und Implementierung
-uuid: d 395 a 417-0 c 61-41 a 6-a 124-d 2 f 400 f 4626 f
-translation-type: tm+mt
+uuid: d395a417-0c61-41a6-a124-d2f400f4626f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -18,10 +18,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Überprüfen Sie, ob Ihre Dynamic Tag Management-Bibliothek ordnungsgemäß auf Ihrer Website geladen wird.
 
 1. Öffnen Sie Ihre Website im Browser.
-1. Open the [!UICONTROL Developer Console] by right-clicking and choosing **[!UICONTROL Inspect Element]** &gt; **[!UICONTROL Console]**.
-1. Press **[!UICONTROL Enter]**.
+1. Öffnen Sie die [!UICONTROL Entwickler-Konsole], indem Sie mit der rechten Maustaste klicken und **[!UICONTROL Element prüfen]** &gt; **[!UICONTROL Konsole]** auswählen.
+1. Drücken Sie die **[!UICONTROL Eingabetaste]**.
 
-   If the code was properly installed, you will see *`true`* display in the console.
+   Wenn der Code ordnungsgemäß installiert wurde, wird *`true`* in der Konsole angezeigt.
 
    Wenn der Code nicht korrekt installiert wurde, wird der Verweisfehler angezeigt:
 
@@ -29,6 +29,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    Wenn dieser Fehler angezeigt wird, müssen Sie sicherstellen, dass:
 
-* You have included the full header code on every page of the site in the [!DNL HEAD] section, as close to the [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">]-Tag. 
+* Sie auf jeder einzelnen Seite der Website den vollständigen Kopfzeilencode im [!DNL HEAD]-Bereich so nah wie möglich am [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">]-Tag platziert haben.
 * Keine unerwarteten Zeichen im Codeabschnitt angezeigt werden (die beispielsweise beim Kopieren und Einfügen aus einem formatierten Dokument entstanden sein können).
 
