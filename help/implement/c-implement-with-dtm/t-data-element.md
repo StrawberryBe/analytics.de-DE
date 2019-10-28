@@ -1,12 +1,12 @@
 ---
 description: Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
-keywords: Dynamisches Tag-Management;Datenelement;Neues Datenelement erstellen;Name;Typ;Standardwert;Kleinbuchstabenwert erzwingen;diesen Wert speichern für
+keywords: Dynamic Tag Management;Datenelement;Neues Datenelement erstellen;Name;Typ;Standardwert;Wert in Kleinbuchstaben erzwingen;Diesen Wert speichern für
 seo-description: Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
 seo-title: Datenelement erstellen
-solution: Experience Cloud, Analytics, Target, Dynamisches Tag-Management
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Datenelement erstellen
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
 
 1. [Erstellen Sie eine Webeigenschaft](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123), falls noch keine vorhanden ist.
-1. Klicken Sie in der Webeigenschaft auf **Regeln** &gt; **[!UICONTROL Datenelemente]**.
+1. Klicken Sie in der Webeigenschaft auf **[!UICONTROL Regeln]** &gt; **[!UICONTROL Datenelemente]**.
 1. Klicken Sie auf **[!UICONTROL Neues Datenelement erstellen]**.
 1. Füllen Sie die folgenden Felder und Optionen aus:
 
@@ -35,14 +35,14 @@ Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Typ</strong></td> 
-      <td class="chdesc stentry"> <p> Legt fest, von wo die Daten bezogen werden, zu den Quellen gehören beispielsweise JS-Objekt, CSS-Selektor, Cookies, URL-Parameter oder benutzerdefinierter Code. </p> <p>Abhängig vom gewählten Typ stehen verschiedene Optionen zur Auswahl. Weitere Informationen und Beispiele finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html" format="html" scope="external">Datenelement-Typen</a> in der Produktdokumentation für das Dynamic Tag Management. </p> </td> 
+      <td class="chdesc stentry"> <p> Legt fest, von wo die Daten bezogen werden, zu den Quellen gehören beispielsweise JS-Objekt, CSS-Selektor, Cookies, URL-Parameter oder benutzerdefinierter Code. </p> <p>Abhängig vom gewählten Typ stehen verschiedene Optionen zur Auswahl. Weitere Informationen und Beispiele finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/dtm/data_elements.html" format="html" scope="external">Datenelement-Typen</a> in der Produktdokumentation für das Dynamic Tag Management. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Standardwert</strong></td> 
       <td class="chdesc stentry"> <p>Ein Standardelement. Mit diesem Wert wird sichergestellt, dass das Datenelement immer einen Wert aufweist, selbst wenn kein URL-Parameter vorhanden ist oder vom Dynamic Tag Management nicht gefunden werden kann. </p> <p> <p>Hinweis: Sollte weder ein Wert noch ein Standardwert vorhanden sein, wird kein Wert zurückgegeben. Diejenigen Variablen, die sich auf dieses Datenelement beziehen, werden nicht festgelegt. Beachten Sie zudem, dass das Feld mit dem Standardwert ignoriert wird, wenn es sich um ein Datenelement mit benutzerdefiniertem Code handelt. </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
-      <td class="choption"><strong>Kleinbuchstaben erzwingen Wert</strong> </td> 
+      <td class="choption"><strong>Kleinbuchstaben erzwingen Wert</strong></td> 
       <td class="chdesc stentry"> <p>Das Dynamic Tag Management verwandelt den Wert automatisch in einen Wert, der nur aus Kleinbuchstaben besteht. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
@@ -56,5 +56,5 @@ Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
     </tr> 
    </table>
 
-   Weitere Informationen zur Verwendung dieser Datenelemente finden Sie unter [Datenelemente](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html) in der Adobe-Produktdokumentation zum Adobe Tag Management.
+   Weitere Informationen zur Verwendung von Datenelementen finden Sie unter [Datenelemente](https://marketing.adobe.com/resources/help/de_DE/dtm/data_elements.html) in der Produktdokumentation für Dynamic Tag Management.
 1. Klicken Sie auf **[!UICONTROL Datenelement speichern]**.
