@@ -1,13 +1,13 @@
 ---
 description: Beispiele, die den Einsatz eines servergenerierten Image-Tags in einer HTML-Beispielseite zeigen
-keywords: Analytics-Implementierung; Variablen
+keywords: Analytics-Implementierung;Variablen
 seo-description: Beispiele, die den Einsatz eines servergenerierten Image-Tags in einer HTML-Beispielseite zeigen
 seo-title: Beispielcode
 solution: Analytics
 title: Beispielcode
 topic: Entwickler und Implementierung
-uuid: 47 e 5 e 82 c-cfb 2-4912-919 b -720 b 2 ee 852 ba
-translation-type: tm+mt
+uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
