@@ -2,19 +2,19 @@
 description: Bringen Sie den Aufruf für die JavaScript-Bibliotheksdatei am Anfang der Seite unter, damit dafür gesorgt ist, dass das Bild als eines der ersten Elemente geladen wird.
 keywords: Analytics-Implementierung
 seo-description: Bringen Sie den Aufruf für die JavaScript-Bibliotheksdatei am Anfang der Seite unter, damit dafür gesorgt ist, dass das Bild als eines der ersten Elemente geladen wird.
-seo-title: Speicherort und Concurrence von javascript
+seo-title: Speicherort der JavaScript-Datei und parallele Downloads
 solution: Analytics
-subtopic: 'Fehlerbehebung '
-title: Speicherort und Concurrence von javascript
+subtopic: Fehlerbehebung
+title: Speicherort der JavaScript-Datei und parallele Downloads
 topic: Entwickler und Implementierung
-uuid: ed 5118 a 8-b 142-4 fab -8 aa 1-92 d 931 cc 1439
-translation-type: tm+mt
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Speicherort und Concurrence von javascript
+# Speicherort der JavaScript-Datei und parallele Downloads
 
 Bringen Sie den Aufruf für die JavaScript-Bibliotheksdatei am Anfang der Seite unter, damit dafür gesorgt ist, dass das Bild als eines der ersten Elemente geladen wird.
 
@@ -24,5 +24,5 @@ Da in den meisten gängigen Webbrowsern (inklusive Internet Explorer) mehrere El
 
 >[!NOTE]
 >
->Da Internetleistungsanbieter von Drittanbietern (wie z. B. Keynote Systems) Seitenbildelemente nacheinander herunterladen und nicht gleichzeitig, imitieren sie die typische Benutzererfahrung nicht.
+>Da bei von Drittanbietern (wie z. B. Keynote Systems) durchgeführten Audits zur Internet-Leistung Seitenbildelemente nacheinander heruntergeladen werden (nicht parallel), spiegelt dies nicht das reale Verhalten von echten Benutzern wider.
 
