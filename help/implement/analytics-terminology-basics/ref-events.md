@@ -1,13 +1,13 @@
 ---
 description: Mit Ereignissen wird verfolgt, wann ein Besucher eine bestimmte Aktion ausgeführt hat.
-keywords: Analytics-Implementierung; event; Erfolgsereignis; Währungsereignis; benutzerspezifisches Ereignis
+keywords: Analytics-Implementierung;Ereignis;Erfolgsereignis;Währungsereignis;benutzerspezifisches Ereignis
 seo-description: Mit Ereignissen wird verfolgt, wann ein Besucher eine bestimmte Aktion ausgeführt hat.
-seo-title: 'Ereignis- '
+seo-title: Ereignisse
 solution: Analytics
-title: 'Ereignis- '
+title: Ereignisse
 topic: Entwickler und Implementierung
-uuid: d 2 edd 332-60 bc -4426-9967-153 b 713147 a 1
-translation-type: tm+mt
+uuid: d2edd432-60bc-4426-9967-153b713147a1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -25,6 +25,6 @@ Zu den gängigsten Ereignistypen gehören:
 * Währungsereignisse
 * Benutzerspezifische Ereignisse
 
-Detaillierte Informationen finden Sie unter [Konfigurieren Sie Erfolgsereignisse](/help/admin/admin/c-success-events/t-success-events.md).
+Detaillierte Informationen finden Sie unter [Erfolgsereignisse konfigurieren](/help/admin/admin/c-success-events/t-success-events.md).
 
-Erfolgsereignisse werden in der [Analytics-Hilfe und -Referenz](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) ausführlich beschrieben.
+Erfolgsereignisse werden ausführlich in der [Analytics-Hilfe und Referenz](https://marketing.adobe.com/resources/help/de_DE/reference/success_event.html) beschrieben.
