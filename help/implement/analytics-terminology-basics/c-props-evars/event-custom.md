@@ -1,13 +1,13 @@
 ---
 description: Mit benutzerspezifischen Ereignissen können Sie den Typ von Erfolg festlegen, den Sie verfolgen lassen möchten.
-keywords: Analytics-Implementierung; benutzerspezifisches Ereignis
+keywords: Analytics-Implementierung;benutzerspezifisches Ereignis
 seo-description: Mit benutzerspezifischen Ereignissen können Sie den Typ von Erfolg festlegen, den Sie verfolgen lassen möchten.
 seo-title: Was ist ein benutzerspezifisches Ereignis?
 solution: Analytics
 title: Was ist ein benutzerspezifisches Ereignis?
 topic: Entwickler und Implementierung
-uuid: 8 e 78 ba 04-9 b 4 c -4566-980 c-c 24 dd 9 d 82236
-translation-type: tm+mt
+uuid: 8e78ba04-9b4c-4566-980c-c24dd9d82236
+translation-type: ht
 source-git-commit: d7056c233e784a073c75c55f396ff43c9e0d1c71
 
 ---
@@ -17,12 +17,12 @@ source-git-commit: d7056c233e784a073c75c55f396ff43c9e0d1c71
 
 Mit benutzerspezifischen Ereignissen können Sie den Typ von Erfolg festlegen, den Sie verfolgen lassen möchten.
 
-Sie funktionieren ähnlich wie [!UICONTROL vordefinierte] Ereignisse, allerdings können Sie mit [!UICONTROL benutzerspezifischen] Ereignissen Ihre eigenen Erfolgsmetriken selbst festlegen. For example, if you have a newsletter, your success event could be _Registration_. _Die Registrierung_ ist nicht Teil der [!UICONTROL vordefinierten] Ereignisse. Mithilfe eines [!UICONTROL benutzerspezifischen] Ereignisses können Sie nachverfolgen, wie viele Besucher sich für Ihren Newsletter registrieren. Die Standardsyntax von [!UICONTROL benutzerspezifischen] Ereignissen sieht wie folgt aus:
+Sie funktionieren ähnlich wie [!UICONTROL vordefinierte] Ereignisse, allerdings können Sie mit [!UICONTROL benutzerspezifischen] Ereignissen Ihre eigenen Erfolgsmetriken selbst festlegen. So wäre zum Beispiel bei einem eigenen Newsletter eine _Registrierung_ ein Erfolgsereignis. Solch eine _Registrierung_ ist in den [!UICONTROL vordefinierten] Ereignissen nicht enthalten. Mithilfe eines [!UICONTROL benutzerspezifischen] Ereignisses können Sie nachverfolgen, wie viele Besucher sich für Ihren Newsletter registrieren. Die Standardsyntax von [!UICONTROL benutzerspezifischen] Ereignissen sieht wie folgt aus:
 
 ```js
 s.events="event3"
 ```
 
-Dieser Code zeigt, wie ein Ereignis zur Variablen _Ereignisvariablen_ . If you do not modify the event name in the interface, _event3_ would display in the interface.
+Dieser Code zeigt, wie ein Ereignis der _Ereignisvariable_ zugewiesen wird. Wenn Sie den Ereignisnamen nicht ändern, würde in der Oberfläche _event3_ angezeigt werden.
 
-In der Standardeinstellung werden Erfolgsereignisse als _Zählerereignisse_ konfiguriert. Zählerereignisse zählen einfach nur, wie oft ein Erfolgsereignis eintritt. Bei einigen Erfolgsereignissen wird ein Ereignis um einen benutzerdefinierten Betrag erhöht. These events can be set either as _numeric_ events or _currency_ events. Sie können den Ereignistyp in der Admin-Konsole ändern.
+In der Standardeinstellung werden Erfolgsereignisse als _Zählerereignisse_ konfiguriert. Zählerereignisse zählen einfach nur, wie oft ein Erfolgsereignis eintritt. In manchen Fällen soll dabei ein Ereignis um einen benutzerdefinierten Betrag erhöht werden. Solche Ereignisse können entweder als _numerische_ oder als _Währungs_-Ereignisse festgelegt werden. Den Ereignistyp können Sie in der Admin Console ändern.
