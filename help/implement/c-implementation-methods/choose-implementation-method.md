@@ -1,13 +1,13 @@
 ---
 description: Es gibt mehrere Möglichkeiten, Adobe Analytics zu implementieren.
-keywords: Analytics-Implementierung; Implementierungsmethode; dynamisches Tag-Management; dtm; javascript
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;JavaScript
 seo-description: Es gibt mehrere Möglichkeiten, Adobe Analytics zu implementieren.
 seo-title: Implementierungsmethode auswählen
 solution: Analytics
 title: Implementierungsmethode auswählen
 topic: Entwickler und Implementierung
-uuid: 20 d 3317 f -7 c 63-4421-93 e 0-fff 60 dbd 9 f 87
-translation-type: tm+mt
+uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
+translation-type: ht
 source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
 
 ---
@@ -21,33 +21,33 @@ Es gibt mehrere Möglichkeiten, Adobe Analytics zu implementieren.
 * [!UICONTROL Dynamic Tag Management]
 * JavaScript
 
-## [!UICONTROL Adobe Experience Platform Launch]{#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
+## [!UICONTROL Adobe Experience Platform Launch] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
 
-[!UICONTROL Experience Platform Launch] ist die nächste Generation von Website-Tag und mobilen SDK-Verwaltungsfunktionen von Adobe. [!UICONTROL Erlebnisplattformstart] bietet Ihnen eine einfache Möglichkeit, alle Analyse-, Marketing- und Anzeigenintegrationen bereitzustellen und zu verwalten, die für relevante Kundenerfahrungen erforderlich sind.
+[!UICONTROL Experience Platform Launch] umfasst die nächste Generation von Adobe-Verwaltungsfunktionen für Website-Tags und mobile SDKs. [!UICONTROL Experience Platform Launch] bietet Ihnen eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Integrationen bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerlebnisse erforderlich sind.
 
-[!UICONTROL Mit der Experience Platform Launch] können Sie ihre eigenen Integrationen mit dem Namen Erweiterungen [!DNL Experience Platform Launch]erstellen und verwalten. These extensions are available to web and mobile [!UICONTROL Experience Platform Launch] customers in an app-store experience, so customers can quickly install, configure, and deploy their integrations.
+Mit [!UICONTROL Experience Platform Launch] kann jeder eigene Integrationen mit [!DNL Experience Platform Launch], auch Erweiterungen genannt, erstellen und verwalten. Diese Erweiterungen stehen Kunden der Web- und Mobile-Version von [!UICONTROL Experience Platform Launch] in einer App-Store-Oberfläche zur Verfügung, sodass sie ihre Integrationen schnell installieren, konfigurieren und bereitstellen können.
 
-For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
+Weitere Informationen finden Sie unter [Erste Schritte mit Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
-[!UICONTROL Das dynamische Tag-Management] automatisiert die für die Implementierung [!DNL Analytics]erforderlichen Details. Geben Sie die erforderlichen Informationen auf einer formularbasierten Oberfläche ein, und das [!DNL Dynamic Tag Management] generiert den Code, den Sie zum Hinzufügen Ihrer Seiten benötigen.
-Sie sollten mit javascript vertraut sein und grundlegende Analytics-Terminologie verstehen, wie zum Beispiel
+Das [!UICONTROL Dynamic Tag Management ] automatisiert einen Großteil der Detailarbeit, die zur Implementierung von [!DNL Analytics] erforderlich ist. Geben Sie die erforderlichen Informationen auf einer formularbasierten Oberfläche ein, und das [!DNL Dynamic Tag Management] generiert den Code, den Sie zum Hinzufügen Ihrer Seiten benötigen.
+Es ist nützlich, sich mit JavaScript vertraut zu machen und grundlegende Analytics-Terminologie zu verstehen, z. B.
 
-* was [eVars](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) sind und wie sie funktionieren;
-* wann ein [benutzerdefiniertes Ereignis](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F) verwendet wird.
+* Was ist ein [eVar](https://marketing.adobe.com/resources/help/de_DE/reference/conversion_var_admin.html) und wie funktioniert es
+* Verwenden eines [benutzerspezifischen Ereignisses](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
 
-Weitere Informationen für den Zugriff auf das Dynamic Tag Management und dessen Verwendung finden Sie unter [Einstieg](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in der Produktdokumentation für das Dynamic Tag Management.
+Informationen zum Zugriff auf Dynamic Tag Management und zum Einrichten und Ausführen finden Sie in der Produktdokumentation für Dynamic Tag Management unter [Erste Schritte](https://marketing.adobe.com/resources/help/de_DE/dtm/get_started.html).
 
-Weitere Informationen finden Sie unter [Implementieren von Analytics mit dynamischem Tag-Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
+Weitere Informationen finden Sie unter [Implementieren von Analytics mit Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
-Für die JavaScript-Implementierungsmethode müssen Sie die JavaScript-Codes auf Ihren Seiten manuell konfigurieren. Ein großer Teil dieser Arbeit kann vereinfacht werden, wenn Sie den Implementierungsmethoden von Experteneience Platform oder Dynamisches Tag-Management verwenden. Einige Benutzer benötigen jedoch möglicherweise die JavaScript-Methode.
+Für die JavaScript-Implementierungsmethode müssen Sie die JavaScript-Codes auf Ihren Seiten manuell konfigurieren. Ein Großteil dieser Bemühungen kann vereinfacht werden, wenn Sie die Implementierungsmethoden von Experience Platform Launch oder Dynamic Tag Management verwenden. Einige Benutzer benötigen jedoch möglicherweise die JavaScript-Methode.
 
 Die JavaScript-Implementierung erfordert:
 
 * umfassende JavaScript-Kenntnisse
 * ein solides Verständnis der Konzepte und der Terminologie von Analytics
 
-Weitere Informationen finden Sie unter [Implementieren von Analytics mit javascript](../../implement/js-implementation/javascript-implementation-overview.md).
+Weitere Informationen finden Sie unter [Analytics mit JavaScript implementieren ](../../implement/js-implementation/javascript-implementation-overview.md)
