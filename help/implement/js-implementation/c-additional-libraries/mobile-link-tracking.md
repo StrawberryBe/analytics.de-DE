@@ -1,19 +1,19 @@
 ---
-description: 'null '
-keywords: Analytics-Implementierung; Link Reference; redir
-seo-description: 'null '
-seo-title: Benutzerspezifische Linkmessung in Mobilfunkprotokollen
+description: 'null'
+keywords: Analytics-Implementierung;Link-Referenz;Redir
+seo-description: 'null'
+seo-title: Benutzerdefinierte Link-Messungen bei Mobilfunkprotokollen
 solution: Analytics
-title: Benutzerspezifische Linkmessung in Mobilfunkprotokollen
+title: Benutzerdefinierte Link-Messungen bei Mobilfunkprotokollen
 topic: Entwickler und Implementierung
-uuid: eb 82 de 26-da 2 e -41 c 2-8924-59 b 6 b 5 b 5 ccef 28
-translation-type: tm+mt
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Benutzerspezifische Linkmessung in Mobilfunkprotokollen
+# Benutzerdefinierte Link-Messungen bei Mobilfunkprotokollen
 
 Viele Mobilgerätenutzer laden Dateien auf ihre Geräte herunter, wie Podcasts, Klingeltöne u. Ä. Da zahlreiche Mobilgeräte JavaScript nicht unterstützen, müssen Link-Messungen über Linkumleitungen implementiert werden. Um Linkumleitungen verwenden zu können, müssen Sie ein Element „REDIR“ in die HREF-Links im HTML-Code integrieren. Das allgemeine Format für einen benutzerdefinierten Link sieht wie folgt aus:
 
@@ -38,4 +38,4 @@ Eine benutzerdefinierte URL für die Link-Messung sieht wie folgt aus:
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-Weitere Informationen finden Sie im Whitepaper [Exit Link Tracking Redirects](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/) (Redirects zum Verfolgen von Exitlinks).
+Weitere Informationen finden Sie unter [Whitepaper zu Exit-Linktracking-Redirects](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
