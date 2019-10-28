@@ -1,14 +1,14 @@
 ---
 description: Die s.t()-Funktion stellt aus allen auf der Seiten definierten Variablen eine Bildanforderung zusammen und sendet diese an unsere Server.
-keywords: track; Analytics-Implementierung; Seitenverfolgung; track-Seite
+keywords: Tracking;Analytics-Implementierung;Seiten-Tracking;Seite verfolgen
 seo-description: Die s.t()-Funktion stellt aus allen auf der Seiten definierten Variablen eine Bildanforderung zusammen und sendet diese an unsere Server.
 seo-title: Die s.t()-Funktion – Seitenverfolgung
 solution: Analytics
 subtopic: Funktionen
 title: Die s.t()-Funktion – Seitenverfolgung
 topic: Entwickler und Implementierung
-uuid: 67696 e 46-1 e 0 d -4200-bmode -4217 d 1023948
-translation-type: tm+mt
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
