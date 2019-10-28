@@ -1,13 +1,13 @@
 ---
 description: Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
-keywords: Analytics-Implementierung; Implementierungsmethode; dynamisches Tag-Management; dtm; Webeigenschaft; Eigenschaft
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Webeigenschaft;Eigenschaft
 seo-description: Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
 seo-title: Webeigenschaft erstellen
 solution: Analytics
 title: Webeigenschaft erstellen
 topic: Entwickler und Implementierung
-uuid: f 19 d 5504-eb 44-4 d 93-a 387-7470 ab 4 b 3 a 3 a
-translation-type: tm+mt
+uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -19,13 +19,13 @@ Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehrere
 
 >[!NOTE]
 >
->Nur ein Benutzer mit Administratorrechten kann eine Eigenschaft erstellen. For more information about roles, see [Create and Manage Groups in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in the Dynamic Tag Management Product Documentation.
+>Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://marketing.adobe.com/resources/help/de_DE/dtm/groups.html) in der Produktdokumentation für Dynamic Tag Management.
 
 Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
-Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Webeigenschaften](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) in der Produktdokumentation des dynamischen Tag-Managements.
+Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Webeigenschaften](https://marketing.adobe.com/resources/help/de_DE/dtm/web_property.html) in der Produktdokumentation für Dynamic Tag Management.
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -70,7 +70,7 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Selektive Veröffentlichung aktivieren</span> </td> 
-    <td colname="col2"> <p>Gibt an, ob Benutzer auswählen können, welche genehmigten Regeln veröffentlicht werden. Dies ist die Standardoption.  </p> </td> 
+    <td colname="col2"> <p>Gibt an, ob Benutzer auswählen können, welche genehmigten Regeln veröffentlicht werden. Dies ist die Standardoption. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Tracking-Cookie-Name</span> </td> 
