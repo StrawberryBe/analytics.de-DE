@@ -1,13 +1,13 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: PHP
 solution: Analytics
 subtopic: Versionshinweise
 title: PHP
 topic: Entwickler und Implementierung
-uuid: 65 a 644 ef -8 e 50-406 b -8 b 12-0582495 d 130 a
-translation-type: tm+mt
+uuid: 65a644ef-8e50-406b-8b12-0582495d130a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Aktivieren Sie die Debug-Protokollierung, um die aktuelle Bibliotheksversion zu finden.
+>Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
 ## Version 1.2.2 {#section_0D547871DC684417B6CE1370E5C6AAC2}
 
@@ -29,7 +29,7 @@ Releasedatum: **August 2014**
 
 Releasedatum: **Juli 2012**
 
-* Added a check for the "off" returned for the $_SERVER['HTTPS'] in IIS. Without this check, typecasting to boolean ((bool)$_SERVER['HTTPS']) returned true in IE whether the request was made through HTTP or HTTPS. Dadurch konnten nichtsichere Seiten versuchen, eine sichere Bildanforderung durchzuführen.
+* Das „Aus“, das für $_SERVER['HTTPS'] in IIS zurückgegeben wurde, wird nun überprüft. Ohne diese Prüfung wurde durch die Typisierung der Verknüpfungsversion ((bool)$_SERVER['HTTPS']) in IE „true“ zurückgegeben, unabhängig davon, ob die Anforderung über HTTP oder HTTPS erfolgte. Dadurch konnten nichtsichere Seiten versuchen, eine sichere Bildanforderung durchzuführen.
 
 ## Version 1.1 {#section_8F4479681ED642FCB9233459E04FF702}
 
@@ -42,9 +42,9 @@ Measurement Library für PHP 1.1 beinhaltet die folgenden Updates aus Version 
 * Bot-Erkennungsliste optimiert.
 * Debug-Informationen (HTTP-Header, Antwort, Fehler usw.) hinzugefügt (wenn `debugTracking` und `sendFromServer` aktiviert sind).
 
-* `debugFilename` Die Variable (sofern `sendFromServer` aktiviert) wurde hinzugefügt.
+* Variable `debugFilename` hinzugefügt (wenn `sendFromServer` aktiviert ist).
 
-* The pagename variable defaults to `$_SERVER['SCRIPT_NAME']` when neither `pagename` nor `pageURL` are set.
+* Die Variable „pagename“ wird standardmäßig auf `$_SERVER['SCRIPT_NAME']` festgelegt, wenn weder `pagename` noch `pageURL` festgelegt ist.
 
 * Vollständige Unterstützung für CGI-Implementierungen von PHP.
 * Leistungsoptimierung.
