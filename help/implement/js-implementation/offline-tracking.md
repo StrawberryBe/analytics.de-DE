@@ -6,8 +6,8 @@ seo-title: Offline-Verfolgung
 solution: Analytics
 title: Offline-Verfolgung
 topic: Entwickler und Implementierung
-uuid: f 7 c 55 aef -28 a 4-4 f 2 f -8 f 47-792 a 05 f 9525 b
-translation-type: tm+mt
+uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
@@ -19,7 +19,7 @@ Mit den folgenden Variablen und Funktionen können Sie Messaufrufe speichern, we
 
 >[!NOTE]
 >
->Zur Aktivierung der Offline-Verfolgung muss Ihre Report Suite zeitstempelfähig sein. Wenn Zeitstempel für Ihre Report Suite aktiviert sind, `trackOffline`muss Ihre Konfigurationseigenschaft ** wahr sein. Wenn Zeitstempel nicht für Ihre Report Suite aktiviert sind, `trackOffline`muss die Konfigurationseigenschaft ** „false“ lauten. Wenn dies nicht ordnungsgemäß konfiguriert ist, gehen Daten verloren. Wenn Sie sich nicht sicher sind, ob Zeitstempel für Ihre Report Suite aktiviert sind, [wenden Sie sich an den Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
+>Um die Offline-Verfolgung zu aktivieren, muss Ihre Report Suite zeitstempelfähig sein. Wenn Zeitstempel für Ihre Report Suite aktiviert sind, `trackOffline`muss Ihre Konfigurationseigenschaft ** wahr sein. Wenn Zeitstempel nicht für Ihre Report Suite aktiviert sind, `trackOffline`muss die Konfigurationseigenschaft ** „false“ lauten. Wenn dies nicht ordnungsgemäß konfiguriert ist, gehen Daten verloren. Wenn Sie sich nicht sicher sind, ob Zeitstempel für Ihre Report Suite aktiviert sind, [Wenden Sie sich an die Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html#analytics)
 
 Sofern Offline-AppMeasurement aktiviert ist, verhält es sich folgendermaßen:
 
@@ -40,20 +40,23 @@ Bei jedem folgenden Treffer bzw. nach einem durch `offlineThrottleDelay` definie
   <tr> 
    <td colname="col1"> <p>trackOffline </p> </td> 
    <td colname="col2"> <p>Standardeinstellung: Falsch </p> <p>Aktiviert bzw. deaktiviert Offline-Verfolgung für die Measurement Library. </p> <p> <b>Beispiele:</b> </p> 
-    <code class="syntax c">s. trackoffline = true; </code>
-  </td> 
+    <code class="syntax c">
+      s.trackOffline=true; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>offlineLimit </p> </td> 
-   <td colname="col2"> <p>Standardeinstellung: keine Begrenzung </p> <p>Maximale Anzahl der in der Warteschlange gespeicherten Treffer.  </p> <p> <b>Beispiele:</b> </p> 
-    <code class="syntax c">s. offlinehitlimit = 100; </code>
-  </td> 
+   <td colname="col2"> <p>Standardeinstellung: keine Begrenzung </p> <p>Maximale Anzahl der in der Warteschlange gespeicherten Treffer. </p> <p> <b>Beispiele:</b> </p> 
+    <code class="syntax c">
+      s.offlineHitLimit=100; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>offlineThrottleDelay </p> </td> 
    <td colname="col2"> <p>Standardeinstellung: 0 </p> <p>Legt eine Verzögerung in Millisekunden für das Senden von gepufferten Trefferdaten fest, wenn AppMeasurement eine aktive Netzwerkverbindung erkennt. Damit kann beim Senden von mehreren Treffern die Leistungsbeeinträchtigung der Anwendung reduziert werden. </p> <p>Wenn z. B. „offlineThrottleDelay=1000“ festgelegt wurde und das Senden der Trefferdaten 300 ms dauert, wartet AppMeasurement 700 ms bis zum Senden des nächsten gepufferten Treffers. </p> 
-    <code class="syntax c">s. offlinethrottledelay = 1000; </code>
-  </td> 
+    <code class="syntax c">
+      s.offlineThrottleDelay=1000; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
@@ -62,7 +65,8 @@ Bei jedem folgenden Treffer bzw. nach einem durch `offlineThrottleDelay` definie
      <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Wenn <code>trackOffline</code> wahr ist: Treffer werden gespeichert, bis die Messung online ist. </li> 
      <li id="li_6A623377462548DB97C31654EADCFAF3"> Wenn <code>trackOffline</code> falsch ist: Treffer werden verworfen. </li> 
     </ul> <p> <b>Beispiele:</b> </p> 
-    <code class="syntax c">s. forceoffline ();
+    <code class="syntax c">
+      s.forceOffline();
 
 s.forceOnline();
 </code> </td>
