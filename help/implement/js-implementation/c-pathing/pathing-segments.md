@@ -2,24 +2,24 @@
 description: Damit man erfahren kann, welche Wege bestimmte Typen von Benutzern auf einer Site einschlagen, müssen Pfade nach dem Benutzertyp segmentiert sein.
 keywords: Analytics-Implementierung
 seo-description: Damit man erfahren kann, welche Wege bestimmte Typen von Benutzern auf einer Site einschlagen, müssen Pfade nach dem Benutzertyp segmentiert sein.
-seo-title: Segmentpfade nach Benutzertyp
+seo-title: Pfade nach Benutzertyp segmentieren
 solution: Analytics
-title: Segmentpfade nach Benutzertyp
+title: Pfade nach Benutzertyp segmentieren
 topic: Entwickler und Implementierung
-uuid: 5 c 298 f 39-381 d -453 b-a 608-109 e 3276 b 361
-translation-type: tm+mt
+uuid: 5c298f39-381d-453b-a608-109e3276b361
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Segmentpfade nach Benutzertyp
+# Pfade nach Benutzertyp segmentieren
 
 Damit man erfahren kann, welche Wege bestimmte Typen von Benutzern auf einer Site einschlagen, müssen Pfade nach dem Benutzertyp segmentiert sein.
 
 Sie können den Benutzertyp und Seitennamen in einer [!UICONTROL Eigenschaftsvariablen] kombinieren und die Pathing-Funktion für die [!UICONTROL sprop] aktivieren.
 
-For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. Sie möchten auf jeder Seite zwischen diesen beiden Benutzertypen unterscheiden können. Daher setzen Sie diese Werte in eine dafür vorgesehene [!UICONTROL sprop] ein. Das Auffüllen der Eigenschaftsvariablen sieht wie folgt aus:
+Sie haben zwei Typen von Benutzern: _Registered_ und _Non-Registered_. Sie möchten auf jeder Seite zwischen diesen beiden Benutzertypen unterscheiden können. Daher setzen Sie diese Werte in eine dafür vorgesehene [!UICONTROL sprop] ein. Das Auffüllen der Eigenschaftsvariablen sieht wie folgt aus:
 
 ```js
  s.prop1=”Registered : “ + s.pageName;
