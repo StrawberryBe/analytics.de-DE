@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
 topic: Entwickler und Implementierung
-uuid: 1751 dcdb -699 f -4 bd 1-8 bcb -5 e 62 fa 24896 a
-translation-type: tm+mt
+uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
+translation-type: ht
 source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 ---
@@ -16,43 +16,43 @@ source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 # getPercentPageViewed
 
-Das getpercentpageviewed-Plugin misst die Bildlaufaktivität eines Besuchers, um zu sehen, wie viel einer Seite der Besucher aufgerufen hat, bevor er zu einer anderen Seite wechselt.
+Das Plug-in getPercentPageViewed misst die Bildlaufaktivität eines Besuchers, um zu sehen, wie viel von einer Seite der Besucher angezeigt hat, bevor er zu einer anderen Seite wechselt.
 
 >[!NOTE]
->Sie müssen das Plugin getpercentpageviewed nicht verwenden, wenn Ihre Webseiten in der Höhe kleiner sind und nicht gemessen werden muss, wie weit Besucher nach unten blättern. Wenn Sie die Bildlaufaktivität nur auf Ausstiegsseiten messen möchten, können Sie dieses Plug-in nicht verwenden.
+>Sie müssen das getPercentPageViewed-Plugin nicht verwenden, wenn Ihre Webseiten klein sind und Sie nicht messen müssen, wie weit Besucher nach unten blättern. Wenn Sie die Bildlaufaktivität nur auf Ausstiegsseiten messen möchten, können Sie dieses Plug-in nicht verwenden.
 
 ## Voraussetzungen
 
-Sie müssen über appmeasurement und das helleppvevents Helper-Plugin verfügen, um das Plugin getpercentpageviewed auszuführen.
+Sie müssen über AppMeasurement und das Hilfedokument handlePPVevents verfügen, um das Plug-in getPercentPageViewed auszuführen.
 
 ## Implementierung
 
-To implement this plugin, copy and paste the code to anywhere within the **[!UICONTROL Plugins]** section of the [!DNL AppMeasurement] file.
+Um dieses Plug-in zu implementieren, kopieren Sie den Code und fügen Sie ihn an einer beliebigen Stelle im Abschnitt **[!UICONTROL Plugins]** der [!DNL AppMeasurement]-Datei ein.
 
 >[!NOTE]
->Die fett hervorgehobene Kommentare/Versionsnummer des Codes zur appmeasurement-Datei hilft Adobe Consulting bei der Fehlerbehebung potenzieller Implementierungsprobleme.
+>Das Hinzufügen der fett markierten Kommentare/Versionsnummern des Codes zur AppMeasurement-Datei hilft Adobe Consulting bei der Fehlerbehebung potenzieller Implementierungsprobleme.
 
-You can run the `getPercentPageViewed` function as needed within the doPlugins function (see example calls below.)
+Sie können die Funktion `getPercentPageViewed` nach Bedarf innerhalb der Funktion doPlugins ausführen (siehe Beispielaufrufe unten).
 
-## Zu übergebende Argumente
+## Zu übergebende Argumente in
 
 | Argument | Definition |
 |---|---|
-| pid (optional, Zeichenfolge) | Eine Seitenkennung, die mit den von den Plugin-Messungen bereitgestellten Prozentwerten korreliert wird. Standardmäßig wird die Variable "Analytics pagename" oder die URL verwendet, wenn die Variable" pagename" nicht eingestellt ist. |
-| ch (optional, Boolescher Wert) | " True" ist der empfohlene/standardwert für dieses Argument. Setzen Sie dieses Plug-plugin auf "false" , wenn Sie nach dem ersten Laden aufgrund von SPA-Code, dynamischem HTML usw. nach dem ersten Laden keine Änderungen an der Größe einer Seite berücksichtigen möchten. |
+| pid (optional, Zeichenfolge) | Eine Seitenkennung, die mit den Prozentwerten korreliert, die von den Plug-in-Messungen bereitgestellt werden. Standardmäßig wird die Analytics-Variable „pageName“ verwendet oder die URL, wenn die Variable „pageName“ nicht festgelegt wird |
+| ch (optional, Boolescher Wert) | Der empfohlene/Standardwert für dieses Argument ist „true“. Setzen Sie diesen Wert auf „false“, wenn Sie nicht möchten, dass dieses Plug-in Änderungen berücksichtigt, die aufgrund von SPA-Code, dynamischem HTML usw. an der Größe einer Seite nach dem erstmaligen Laden vorgenommen wurden. |
 
 ## Rückgabe
 
-Das getpercentpageviewed-Plugin gibt nichts zurück. Stattdessen werden die folgenden Variablen innerhalb des Objekts „AppMeasurement“ eingestellt:
+Das getPercentPageViewed-Plug-in gibt nichts aus. Stattdessen werden die folgenden Variablen innerhalb des Objekts „AppMeasurement“ eingestellt:
 
-* `s._ppvPreviousPage`: Der Name der vorherigen angezeigten Seite (da die endgültigen Messungen erst verfügbar sind, wenn eine neue Seite geladen wird).
-* `s._ppvHighestPercentViewed`: Der höchste Prozentsatz der vorherigen Seite, die der Besucher angezeigt hat (Höhe: weich). Das heißt, der weiteste Punkt, den der Besucher auf der vorherigen Seite heruntergefahren hat.
-* `s._ppvInitialPercentViewed`: Der Prozentsatz der vorherigen Seite, die beim ersten Laden der vorherigen Seite angezeigt wurde.
-* `s._ppvHighestPixelSeen`: Die höchste Anzahl der insgesamt angezeigten Pixel (Höhe), als der Besucher die vorherige Seite durchlief.
+* `s._ppvPreviousPage`: Der Name der vorherigen angezeigten Seite (da endgültige Messungen erst verfügbar sind, wenn eine neue Seite geladen wurde)
+* `s._ppvHighestPercentViewed`: Der höchste Prozentsatz der vorherigen Seite, die der Besucher angezeigt hat (im Höhenbereich). Mit anderen Worten, der am weitesten entfernte Punkt, zu dem der Besucher auf der vorherigen Seite gescrollt hat.
+* `s._ppvInitialPercentViewed`: Der Prozentsatz der vorherigen Seite, der beim ersten Laden der vorherigen Seite sichtbar war.
+* `s._ppvHighestPixelSeen`: Die höchste Anzahl der insgesamt angesehenen Pixel (in der Höhe), während der Besucher einen Bildlauf auf der vorherigen Seite ausgeführt hat.
 
 ## Cookies
 
-The getPercentPageViewed plugin creates a cookie, called `s_ppv`, that is passed from page to page. Der Inhalt des Cookies enthält die Werte, die in den vier oben beschriebenen Variablen eingegeben wurden und am Ende der Sitzung ablaufen.
+Das getPercentPageViewed-Plug-in erstellt ein Cookie mit dem Namen `s_ppv`, das von Seite zu Seite weitergegeben wird. Der Inhalt des Cookies enthält die Werte, die in die vier oben beschriebenen Variablen eingefügt wurden und am Ende der Sitzung ablaufen.
 
 ## Beispielaufrufe
 
@@ -68,21 +68,21 @@ s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercent
 ```
 
 Das obige Codebeispiel:
-* Bestimmt, ob s. pagename festgelegt ist, und falls ja, wird der Code die getpercentpageviewed-Funktion ausgeführt.
-* When the `getPercentPageViewed` function runs, it creates the variables described in the "Returns" section above.
-* Wenn die Variablen "Gibt" erfolgreich festgelegt wurden:
+* Bestimmt, ob s.pageName festgelegt ist und wenn ja, wird die Funktion getPercentPageViewed vom Code ausgeführt.
+* Wenn die Funktion `getPercentPageViewed` ausgeführt wird, erstellt sie die Variablen, die im Abschnitt „Ausgaben“ oben beschrieben sind.
+* Wenn die Variablen „Ausgaben“ erfolgreich eingestellt wurden:
 
-   * The code sets s.prop1 equal to the value of `s._ppvPreviousPag`e (i.e. the previous value of `s.pageName`, or the previous page.)
-   * Der Code legt s. prop 2 gleich dem höchsten Prozentsatz der vorherigen Seite und dem anfänglichen Prozentsatz der vorherigen Seite fest.
+   * Der Code setzt s.prop1 gleich dem Wert von `s._ppvPreviousPag`e (d. h. dem vorherigen Wert von `s.pageName` oder der vorherigen Seite).
+   * Der Code setzt s.prop2 auch gleich dem höchsten angezeigten Prozentsatz der vorherigen Seite und dem anfänglichen Prozentsatz der vorherigen Seite.
 
 >[!NOTE]
->Wenn beim ersten Laden eine ganze Seite sichtbar ist, entsprechen die Dimensionen "Höchste Prozentwerte" und" Anfänglich angezeigte Prozentwerte" 100. Wenn eine ganze Seite beim ersten Laden nicht sichtbar ist, der Besucher jedoch nie die Seite nach unten blättert, bevor sie zur nächsten Seite wechselt, dann wäre sowohl der höchste angezeigte Prozentsatz als auch die Dimensionen anfänglich angezeigte Prozentwerte gleich dem gleichen Wert.
+>Wenn beim ersten Laden eine ganze Seite sichtbar ist, entsprechen sowohl die Dimensionen „Höchster Prozentsatz“ als auch „Anfänglicher Prozentsatz“ dem Wert 100. Wenn jedoch beim ersten Laden eine ganze Seite nicht sichtbar ist, der Besucher jedoch nie nach unten scrollt, bevor er zur nächsten Seite wechselt, sind sowohl die Dimensionen „Höchster Prozentsatz“ als auch „Anfänglicher Prozentsatz“ gleich demselben Wert.
 
 **Beispielaufruf 2**
 
-Angenommen, s. prop 5 wurde zur Erfassung eines aggregierten Seitentyps anstelle des gesamten Seitennamens eingestellt.
+Angenommen, s.prop5 wurde so eingestellt, dass anstelle des gesamten Seitennamens ein aggregierter „Seitentyp“ erfasst wird.
 
-Der folgende Code bestimmt, ob s. prop 5 eingestellt wurde, und speichert, falls ja, seinen Wert als "vorherige Seite" , um mit dem höchsten Prozentsatz und den Dimensionen für die anfängliche Prozentanzeige korreliert zu werden. The value is still stored in the `s._ppvPreviousPage` variable but can be treated as if it were the previous page type instead of the previous page name.
+Der folgende Code bestimmt, ob s.prop5 eingestellt wurde, und speichert in diesem Fall seinen Wert als „vorherige Seite“, um ihn mit den Dimensionen „Höchster angezeigter Prozentsatz“ und „Anfänglicher Prozentsatz“ zu korrelieren. Der Wert wird weiterhin in der `s._ppvPreviousPage`-Variable gespeichert, kann jedoch so behandelt werden, als wäre er der vorherige Seitentyp und nicht der vorherige Seitenname.
 
 ```
 if(s._ppvPreviousPage)
@@ -92,17 +92,17 @@ s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPe
 }  
 ```
 
-## S-Objektersetzung
+## S-Objektaustausch
 
-Ändern Sie beim Instanziieren des Haupt-appmeasurement-Bibliotheksobjekts mit einem anderen Namen als "s" den folgenden Teil des Plugin-Codes:
+Ändern Sie bei der Instanziierung des AppMeasurement-Hauptbibliotheksobjekts mit einem anderen Namen als „s“ den folgenden Teil des Plug-in-Codes von:
 
 `s.getPercentPageViewed=function(pid,ch)`
 
-dazu:
+wie folgt:
 
 `[objectname].getPercentPageViewed=function(pid,ch)`
 
-## Bereitzustellende Code
+## Bereitzustellender Code
 
 Plug-in-Abschnitt: Fügen Sie in der Datei `s_code.js` den folgenden Code im Abschnitt PLUGINS SECTION hinzu. Nehmen Sie an diesem Teil des Plug-in-Codes keine Änderungen vor.
 
