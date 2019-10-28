@@ -1,14 +1,14 @@
 ---
 description: AppMeasurement für JavaScript ist eine neue Bibliothek, die über die gleichen Kernfunktionen wie s_code.js verfügt, jedoch für den Einsatz auf Websites für Desktop- und Mobilgeräte gleichermaßen konzipiert und somit leichter und schneller ist.
-keywords: appmeasurement; Analytics-Implementierung; javascript; Appmeasurement for javascript; initialisierung; Appmeasurement-Instanz abrufen; clear vars; clearvars; Appmeasurement utilities; appmeasurement-Instanz; Vorteile von appmeasurement
+keywords: AppMeasurement;Analytics-Implementierung;JavaScript;AppMeasurement für JavaScript;Initialisierung;AppMeasurement-Instanz abrufen;Clear Vars;ClearVars;AppMeasurement-Dienstprogramme;AppMeasurement-Instanz;AppMeasurement-Vorteile
 seo-description: AppMeasurement für JavaScript ist eine neue Bibliothek, die über die gleichen Kernfunktionen wie s_code.js verfügt, jedoch für den Einsatz auf Websites für Desktop- und Mobilgeräte gleichermaßen konzipiert und somit leichter und schneller ist.
 seo-title: Info zu AppMeasurement für JavaScript
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Info zu AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
-uuid: dc 71 ad 7 a -92 bd -40 cd -8 fab -707 f 6 f 8472 e 2
-translation-type: tm+mt
+uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
@@ -20,38 +20,38 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ## Was Sie vor dem Migrieren wissen sollten {#section_B8E7B39E8469468883BA0B41234F21C4}
 
-The following list contains changes you need to understand before switching to this new [!DNL AppMeasurement] version:
+In der folgenden Liste sind Änderungen aufgeführt, von denen Sie wissen sollten, bevor Sie auf diese neue [!DNL AppMeasurement]-Version umsteigen:
 
-* Einige Plug-ins werden nicht mehr unterstützt. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
-* The library does not support dynamic account selection ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
+* Einige Plug-ins werden nicht mehr unterstützt. Siehe [AppMeasurement-Plug-in-Unterstützung](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+* Die Bibliothek unterstützt keine dynamische Kontoauswahl ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) und [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
 
-* The library and page code can be deployed inside the `<head>` tag.
-* The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. Das Survey-Modul wird nicht unterstützt.
+* Der Bibliotheks- und Seiten-Code kann innerhalb des `<head>`-Tags bereitgestellt werden.
+* Das Media- und das Integrate-Modul werden mithilfe des aktualisierten Modulcodes unterstützt, der sich im JavaScript [!DNL AppMeasurement]-Downloadpaket befindet. Das Survey-Modul wird nicht unterstützt.
 * Bereits vorhandener Seiten-Code ist mit der neuen Version kompatibel.
 * Die Bibliothek enthält native Hilfsprogramme zum Abrufen von Abfrageparametern, zum Lesen und Schreiben von Cookies und zum Durchführen der erweiterten Linktracking.
 
 ## Häufig gestellte Fragen {#section_9BD41B08F7B54197B230937714B9357A}
 
-See the [FAQ](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3) for information about performance, video tracking, mobile, and more.
+Siehe [häufig gestellte Fragen](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3) zu Leistung, Videoverfolgung, Mobile und mehr.
 
 ## Initialisierungsprozess {#section_F6D5680F6D134B6AB1F01C6235860635}
 
-Call `s_gi()`, passing the report suite ID to initialize an [!DNL AppMeasurement] instance:
+Rufen Sie `s_gi()` auf und geben Sie so die Report Suite-ID weiter, um eine [!DNL AppMeasurement]-Instanz zu initialisieren:
 
 ```js
 var s_account="INSERT-RSID-HERE"
 var s=s_gi(s_account)
 ```
 
-When `s_gi` is called, if an [!DNL AppMeasurement] instance does not exist for the specified `s_account`, a new instance is created. Ansonsten wird die vorhandene Instanz zurückgegeben. So wird verhindert, dass mehrere Objekte für dasselbe Konto erstellt werden.
+Wenn `s_gi` aufgerufen wird und keine [!DNL AppMeasurement]-Instanz für das angegebene `s_account` vorhanden ist, wird eine neue Instanz erstellt. Ansonsten wird die vorhandene Instanz zurückgegeben. So wird verhindert, dass mehrere Objekte für dasselbe Konto erstellt werden.
 
 ## Eine AppMeasurement-Instanz abrufen {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-Throughout your code, call the global [s_gi() function](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) to retrieve an existing [!DNL AppMeasurement] instance.
+Rufen Sie im gesamten Code die globale Funktion [s_gi()](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) auf, um eine vorhandene [!DNL AppMeasurement]-Instanz abzurufen.
 
 ## Hilfsprogramme {#section_0F47694DD0214645A24C94AB6A4142A0}
 
-JavaScript [!DNL AppMeasurement] provides the following built-in utilities:
+JavaScript [!DNL AppMeasurement] enthält die folgenden integrierten Hilfsprogramme:
 
 * [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
 * [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
