@@ -6,8 +6,8 @@ seo-title: performanceTiming
 solution: Analytics
 title: performanceTiming
 topic: Entwickler und Implementierung
-uuid: ab 2 a 6 c 51-8791-41 e 7-9 bea-c 1 ce 8 d 312 de 8
-translation-type: tm+mt
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Bei diesem Plug-in wird die Navigation Timing JavaScript API zur präzisen Messu
 
 >[!IMPORTANT]
 >
->Hierbei handelt es sich um eine Betaversion des Plugins. Möglicherweise werden weitere Updates vorgenommen.
+>Dies ist eine Betaversion des Plug-ins. Möglicherweise wird es weitere Updates geben.
 
 Dieses Plug-in nutzt die folgenden detaillierten Ereignisse zum Tracking der einzelnen Zeitkomponenten einer Seitenladung:
 
@@ -57,7 +57,7 @@ Optional kann das Plug-in zudem das performanceEntries-Objekt zum Aufzeichnen de
 
 >[!NOTE]
 >
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von Adobe Analytics verfügt. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von Adobe Analytics verfügt. Dieses Plug-in ist nur mit [!DNL AppMeasurement]-Tracking-Bibliotheken kompatibel.
 
 **Config-Abschnitt (vor doPlugins):**
 
@@ -79,7 +79,7 @@ Um das Plug-in zu initialisieren, ist eine Zeile Code im Bereich `doPlugins` Ihr
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. Wir empfehlen, diese Leistungseinträge mit dem vorherigen Seitennamen oder dem vorherigen Seiten-URL-Wert zu vergleichen.
+>Um Leistungszeiteinträge mit den Seiten auf Ihrer Site abzustimmen, müssen Sie zudem das Plug-in `getPreviousValue` initialisieren. Wir empfehlen, diese Leistungseinträge mit dem vorherigen Seitennamen oder dem vorherigen Seiten-URL-Wert zu vergleichen.
 
 *Beispielaufrufe*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * Testen Sie stets die Installation des Plug-ins, um sicherzustellen, dass die Datenerfassung wie erwartet erfolgt, bevor Sie es in die Produktionsumgebung übernehmen.
 * Da das Plug-in die Leistungsdaten in Verbindung mit der vorherigen Seite weitergibt, werden keine Daten für die finale Seitenanzeige des Besuchs erfasst.
 * Beim Tracking der Asset-Zeit verlässt sich dieses Plug-in auf die Fähigkeit, DOM-Speicherwerte im Webbrowser des Benutzers festzulegen. Wenn der Benutzer Cookies nicht akzeptiert und den DOM-Speicher nicht aktiviert hat, wird das Plug-in keine Daten an Analytics weitergeben.
-* Ein sehr kleiner Prozentsatz an Benutzern übermittelt aufgrund von Browserbeschränkungen keine Navigationszeitdaten, und Logik ist im Plugin enthalten, um sicherzustellen, dass die Daten nicht als Ergebnis verfälscht werden - insbesondere bei einem kleinen Teil der mobilen Browser. Dieses Plug-in wurde jedoch in IE, Firefox, Chrome und Safari erfolgreich getestet.
-* [!UICONTROL Es sollten berechnete Metriken] erstellt werden, um die Zusammenfassung und das Verständnis des Besucherverhaltens mit diesen Metriken zu unterstützen:
+* Ein kleiner Anteil an Benutzern wird aufgrund von Browser-Beschränkungen keine Navigationszeitdaten weitergeben. Im Plug-in ist Logik enthalten, um sicherzustellen, dass die Daten nicht verfälscht sind – besonders bei einem geringen Anteil an mobilen Browsern. Dieses Plug-in wurde jedoch in IE, Firefox, Chrome und Safari erfolgreich getestet.
+* [!UICONTROL Berechnete Kennzahlen] sollten erstellt werden, um die Zusammenfassung und die Analyse des Besucherverhaltens im Zusammenhang mit diesen Kennzahlen zu unterstützen:
 
    * Durchschnittliche Umleitungszeit (Umleitungszeit/Leistungszeitinstanzen)
    * Durchschnittliche App-Cache-Zeit (App-Cache-Zeit/Leistungszeitinstanzen)
