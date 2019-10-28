@@ -2,18 +2,18 @@
 description: AJAX ist ein Konzept, das sich beim Webdesign zunehmender Beliebtheit erfreut, da hiermit dynamische Inhalte auf Webseiten durch Einsatz mehrerer Technologien erstellt und verwaltet werden können.
 keywords: Analytics-Implementierung
 seo-description: AJAX ist ein Konzept, das sich beim Webdesign zunehmender Beliebtheit erfreut, da hiermit dynamische Inhalte auf Webseiten durch Einsatz mehrerer Technologien erstellt und verwaltet werden können.
-seo-title: AJAX-Tracking Rich Media-Anwendungen
+seo-title: AJAX-Track Rich-Media-Anwendungen
 solution: Analytics
-title: AJAX-Tracking Rich Media-Anwendungen
+title: AJAX-Track Rich-Media-Anwendungen
 topic: Entwickler und Implementierung
-uuid: ffe 6 a 263-ae 18-4875-badb-b 3 aea 3 efcb 64
-translation-type: tm+mt
+uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# AJAX-Tracking Rich Media-Anwendungen
+# AJAX-Track Rich-Media-Anwendungen
 
 AJAX ist ein Konzept, das sich beim Webdesign zunehmender Beliebtheit erfreut, da hiermit dynamische Inhalte auf Webseiten durch Einsatz mehrerer Technologien erstellt und verwaltet werden können.
 
@@ -23,7 +23,7 @@ Die Verfolgung von Benutzerinteraktionen mit [!UICONTROL AJAX] und anderen Rich-
 
 Rich Internet Applications (RIAs) haben das Aussehen des Internets verändert. Sie erfüllen das, was bedarfsgesteuerte Technologien versprechen, indem sie eine wirklichkeitsnahe Bedienbarkeit für eine breite Anwenderschicht ermöglichen. Im Verlauf der Jahre sind RIAs immer ausgereifter geworden. Den größten Sprung nach vorne haben sie mit der breiten Einführung von Browsern gemacht, die die Technologien unterstützen, auf denen diese Anwendungen basieren. Auch wenn es bei RIAs die verschiedensten Ausführungen und Technologien gibt, sind AJAX und Flash die gängigsten und vielleicht auch beliebtesten Implementierungen. Allerdings darf man RIA nicht auf die zugrunde liegende Technologie reduzieren – es sind die Bedienbarkeit und der Einsatzzweck, die RIA ausmachen.
 
-## Was soll rückverfolgt werden? {#section_E96EC5127E554B8384FD0A7A0B3118DF}
+## Was soll verfolgt werden? {#section_E96EC5127E554B8384FD0A7A0B3118DF}
 
 Eine der häufigsten Fragen im Zusammenhang mit RIA lautet, wie auf Mikroebene erfolgende Aktivitäten von solchen unterschieden werden sollen, die auf Makroebene stattfinden, und wann so eine Unterscheidung überhaupt sinnvoll ist. Ein Beispiel: Sie haben eine Anwendung, mit der Kunden ein Produkt ganz nach ihren Wünschen konfigurieren können. Diese Anwendung enthält einige wichtige Schritte, die die Benutzer durchführen müssen. Sollen diese Schritte nun als Seitenansichten behandelt werden? Außerdem besteht jeder einzelne Schritt auch noch aus kleineren Aktivitäten („Mikroaktivitäten“). Sollen auch diese Aktivitäten als Seitenaufrufe nachverfolgt werden?
 
