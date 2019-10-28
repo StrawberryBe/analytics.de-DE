@@ -2,18 +2,18 @@
 description: Wenn Pathing-Informationen nicht erfasst und in Berichten angezeigt werden, finden Sie hier eine Liste der möglichen Ursachen.
 keywords: Analytics-Implementierung
 seo-description: Wenn Pathing-Informationen nicht erfasst und in Berichten angezeigt werden, finden Sie hier eine Liste der möglichen Ursachen.
-seo-title: Mögliche Ursachen für die Pfadsetzung
+seo-title: Ursachen dafür, warum Pfade möglicherweise nicht erfasst werden
 solution: Analytics
-title: Mögliche Ursachen für die Pfadsetzung
+title: Ursachen dafür, warum Pfade möglicherweise nicht erfasst werden
 topic: Entwickler und Implementierung
-uuid: 9985 b 7 f 7-75 ea -4 c 94-97 a 3-520 f 92630989
-translation-type: tm+mt
+uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Mögliche Ursachen für die Pfadsetzung
+# Ursachen dafür, warum Pfade möglicherweise nicht erfasst werden
 
 Wenn Pathing-Informationen nicht erfasst und in Berichten angezeigt werden, finden Sie hier eine Liste der möglichen Ursachen.
 
