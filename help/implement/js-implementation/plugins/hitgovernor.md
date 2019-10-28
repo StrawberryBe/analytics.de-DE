@@ -3,8 +3,8 @@ description: Das Plug-in „s.hitGovernor“ verfolgt die Gesamtzahl der Analyti
 seo-description: Das Plug-in „s.hitGovernor“ verfolgt die Gesamtzahl der Analytics-Bildanforderungen, die während eines vordefinierten rollierenden Zeitrahmens gesendet wurden, und kann bei Bedarf zusätzliche Logik ausführen, wenn diese Gesamtzahl einen bestimmten Schwellenwert überschreitet.
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d 0991 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -20,9 +20,9 @@ Mit diesem Plug-in wird dieser Traffic für den Rest der Besucherlebensdauer aut
 
 ## Funktionsweise des Plug-ins „hitGovernor“ {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-Das Plug-in erhöht bei jeder Bildanforderung an Ihre Tracking-Server einen Cookie-Wert und verfolgt diesen über einen rollierenden Zeitrahmen hinweg. Der Standardzeitrahmen beträgt eine Minute, kann jedoch überschrieben werden. (Weitere Informationen finden Sie unter [Implementierung](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) weiter unten.) If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. Dieser standardmäßige Schwellenwert für Treffer kann auch überschrieben werden. 
+Das Plug-in erhöht bei jeder Bildanforderung an Ihre Tracking-Server einen Cookie-Wert und verfolgt diesen über einen rollierenden Zeitrahmen hinweg. Der Standardzeitrahmen beträgt eine Minute, kann jedoch überschrieben werden. (Weitere Informationen finden Sie unter [Implementierung](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) weiter unten.) Wenn die Gesamtzahl der Treffer während dieses Zeitrahmens den standardmäßigen Schwellenwert für Treffer (60) überschreitet, wird eine endgültige benutzerspezifische Link-Bildanforderung an die *`exceptionFlag`*-Kontextdatenvariable. Dieser standardmäßige Schwellenwert für Treffer kann auch überschrieben werden.
 
-Bei Bedarf kann die Erfassung von Traffic für diesen bestimmten Besucher von diesem Zeitpunkt an für einen Standardzeitraum von 60 Tagen verhindert werden. Das Blockieren des Datenverkehrs erfordert eine zusätzliche Codezeile in Ihrer doPlugins-Funktion, wie unten beschrieben. Der Zeitrahmen kann ebenfalls angepasst werden. The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. Wenn dieser Traffic nach 60 Tagen vom Plug-in als betrügerisch identifiziert wird, wird der Traffic erneut als Ausnahme gekennzeichnet und für weitere 60 Tage nicht erfasst.
+Bei Bedarf kann die Erfassung von Traffic für diesen bestimmten Besucher von diesem Zeitpunkt an für einen Standardzeitraum von 60 Tagen verhindert werden. Das Blockieren des Datenverkehrs erfordert eine zusätzliche Codezeile in Ihrer doPlugins-Funktion, wie unten beschrieben. Der Zeitrahmen kann ebenfalls angepasst werden. Die Logik ermöglicht es, dass entweder zusammen mit der Zeit die IP-Adresse des Besuchers, der Benutzeragent oder die [!DNL Experience Cloud]-Besucher-ID in die ordnungsgemäße permanente Ausnahmelogik aufgenommen oder der Timeout-Zeitraum nach sechzig Tagen zurückgesetzt wird. Wenn dieser Traffic nach 60 Tagen vom Plug-in als betrügerisch identifiziert wird, wird der Traffic erneut als Ausnahme gekennzeichnet und für weitere 60 Tage nicht erfasst.
 
 ## Berichterstellung {#section_E742F19B528041808454744DB2C7007C}
 
@@ -47,7 +47,7 @@ Implementieren des Plug-ins „hitGovernor“:
 
    >[!NOTE]
    >
-   >Although the `registerPostTrackCallback` functionality is included in AppMeasurement libraries 1.8.0+, it is not included in any custom code configuration by default. Sie wird im Anschluss an die doPlugins-Funktion und *außerhalb* von ihr aufgenommen.
+   >Die Funktion `registerPostTrackCallback` ist zwar in AppMeasurement-Bibliotheken ab Version 1.8.0 enthalten, jedoch in benutzerspezifischen Code-Konfigurationen standardmäßig nicht eingeschlossen. Sie wird im Anschluss an die doPlugins-Funktion und *außerhalb* von ihr aufgenommen.
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ Implementieren des Plug-ins „hitGovernor“:
 
 >[!NOTE]
 >
->Ihre Implementierung verwendet möglicherweise einen anderen Objektnamen als das standardmäßige "Objekt" von Analytics. Aktualisieren Sie in diesem Fall den Objektnamen entsprechend.
+>In Ihrer Implementierung wird möglicherweise ein anderer Objektname als das Standardobjekt „s“ von Analytics verwendet. Aktualisieren Sie in diesem Fall den Objektnamen entsprechend.
 
 1. Konfigurieren Sie Verarbeitungsregeln.
 
