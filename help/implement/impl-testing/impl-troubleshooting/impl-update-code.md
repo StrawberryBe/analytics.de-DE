@@ -2,19 +2,19 @@
 description: Für Änderungen am Analytics-Code kann Adobe einige Best Practices empfehlen.
 keywords: Analytics-Implementierung
 seo-description: Für Änderungen am Analytics-Code kann Adobe einige Best Practices empfehlen.
-seo-title: Ersetzen Ihres Analytics-Codes
+seo-title: Ersetzen von Analytics-Code
 solution: Analytics
-subtopic: 'Fehlerbehebung '
-title: Ersetzen Ihres Analytics-Codes
+subtopic: Fehlerbehebung
+title: Ersetzen von Analytics-Code
 topic: Entwickler und Implementierung
-uuid: d 3 ea 6585-199 f -4 dbe -9 ee 8-15 b 204689 f 2 f
-translation-type: tm+mt
+uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Ersetzen Ihres Analytics-Codes
+# Ersetzen von Analytics-Code
 
 Für Änderungen am Analytics-Code kann Adobe einige Best Practices empfehlen.
 
