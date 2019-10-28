@@ -2,23 +2,23 @@
 description: Durch das Überschreiben von Variablen können Sie den Wert einer Variablen für einen einzelnen Verfolgungs- oder Verfolgungslinkaufruf ändern.
 keywords: Analytics-Implementierung
 seo-description: Durch das Überschreiben von Variablen können Sie den Wert einer Variablen für einen einzelnen Verfolgungs- oder Verfolgungslinkaufruf ändern.
-seo-title: Überschreibungen von Variablen
+seo-title: Variablenüberschreibungen
 solution: Analytics
 subtopic: Variablen
-title: Überschreibungen von Variablen
+title: Variablenüberschreibungen
 topic: Entwickler und Implementierung
-uuid: 3 ec 09 ae 8-b 9 df -426 f -8065-42 b 4518 e 6 c 5 f
-translation-type: tm+mt
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Überschreibungen von Variablen
+# Variablenüberschreibungen
 
 Durch das Überschreiben von Variablen können Sie den Wert einer Variablen für einen einzelnen Verfolgungs- oder Verfolgungslinkaufruf ändern.
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+Erstellen Sie dazu ein neues Objekt, weisen Sie Variablenwerte zu und übergeben Sie dieses Objekt als ersten Parameter an `s.t()` bzw. als vierten Parameter an `s.tl()`:
 
 ```js
 s.eVar1="one"; 
