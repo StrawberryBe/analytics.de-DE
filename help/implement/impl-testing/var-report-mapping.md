@@ -2,18 +2,18 @@
 description: In der folgenden Tabelle ist aufgeführt, welchen Berichten die Variablen zugeordnet sind, mit denen Analytics-Berichte aufgefüllt werden.
 keywords: Analytics-Implementierung
 seo-description: In der folgenden Tabelle ist aufgeführt, welchen Berichten die Variablen zugeordnet sind, mit denen Analytics-Berichte aufgefüllt werden.
-seo-title: Variable zur Berichtzuordnung
+seo-title: Zuordnung von Variablen zu Berichten
 solution: Analytics
-title: Variable zur Berichtzuordnung
+title: Zuordnung von Variablen zu Berichten
 topic: Entwickler und Implementierung
-uuid: fd 81 f 97 d-dd 1 a -47 d 5-9157-b 7932 fe 13490
-translation-type: tm+mt
+uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Variable zur Berichtzuordnung
+# Zuordnung von Variablen zu Berichten
 
 In der folgenden Tabelle ist aufgeführt, welchen Berichten die Variablen zugeordnet sind, mit denen Analytics-Berichte aufgefüllt werden.
 
