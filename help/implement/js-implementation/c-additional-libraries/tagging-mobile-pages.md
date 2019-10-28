@@ -1,19 +1,19 @@
 ---
 description: Trackingcode für Mobilgeräte wird in Form eines vom Server generierten Bildes auf der Seite untergebracht.
-keywords: Analytics-Implementierung; Mobilverfolgung; mobile Protokolle; Zwischenspeicherung verhindern; alt-Tag; Standardbildtyp
+keywords: Analytics-Implementierung;Mobile-Tracking;Mobilfunkprotokolle;Caching verhindern;ALT-Tags;Standard-Bildtyp
 seo-description: Trackingcode für Mobilgeräte wird in Form eines vom Server generierten Bildes auf der Seite untergebracht.
-seo-title: Tagging vonseiten für Mobilfunkprotokolle
+seo-title: Tagging von Seiten für Mobilfunkprotokolle
 solution: Analytics
-title: Tagging vonseiten für Mobilfunkprotokolle
+title: Tagging von Seiten für Mobilfunkprotokolle
 topic: Entwickler und Implementierung
-uuid: beaf-f 309-4918-a 99 c-a 3 e 591668205
-translation-type: tm+mt
+uuid: 5788beaf-f309-4918-a99c-a3e591668205
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Tagging vonseiten für Mobilfunkprotokolle
+# Tagging von Seiten für Mobilfunkprotokolle
 
 Trackingcode für Mobilgeräte wird in Form eines vom Server generierten Bildes auf der Seite untergebracht.
 
@@ -48,8 +48,8 @@ Wichtig ist, dass im Pfad immer korrekt die Zeichenfolge „/5/“ steht. Anhand
 Wenn der Standard-Bildtyp auf einem bestimmten Gerät nicht unterstützt wird, werden keine Daten zurückgegeben. Um dies zu vermeiden, können Sie erzwingen, dass der Adobe-Datenerfassungsserver einen bestimmten Grafiktyp zurückgibt, den das Mobilgerät unterstützt. Der Code nach dem Report Suite-Namen gibt den Bildtyp an:
 
 * `/5/` gibt den Standard-Bildtyp zurück.
-* `/5.1/` oder `/1/` gibt immer ein GIF-Bild zurück.
+* `/5.1/` oder `/1/` gibt stets ein GIF-Bild zurück.
 
 * `/5.5/` gibt stets ein WBMP-Bild zurück.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+Siehe [Identifizierung von Besuchern anhand von Mobilfunkprotokollen](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
