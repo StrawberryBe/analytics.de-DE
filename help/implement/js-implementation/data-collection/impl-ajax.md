@@ -6,8 +6,8 @@ seo-title: Implementieren mit AJAX
 solution: Analytics
 title: Implementieren mit AJAX
 topic: Entwickler und Implementierung
-uuid: 9 e 3477 ef -7 dea -4 c 76-ab 61-36 a 188222 be 7
-translation-type: tm+mt
+uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,11 +26,11 @@ Wenn bei dieser Mischung [!UICONTROL AJAX] ins Spiel kommt, muss zuerst in Erfah
 ## Bereitstellen des Codes {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
 Es gibt zwei Funktion im JavaScript-Code, mit denen Sie Daten senden können. Für die Auswahl der richtigen Methode gibt es bestimmte Leitlinien, an denen man sich orientieren sollte.
-Wenn davor eine Bildanforderung für die gleiche Seite erfolgt ist, müssen Sie zuvor die Werte der zuvor festgelegten Variablen löschen. Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
+Wenn davor eine Bildanforderung für die gleiche Seite erfolgt ist, müssen Sie zuvor die Werte der zuvor festgelegten Variablen löschen. Verwenden Sie die Funktion `clearVars()` in [!DNL AppMeasurement] für JavaScript oder schreiben Sie eine einfache JavaScript-Funktion zum Löschen der Variablen, wenn Sie H-Code verwenden. Stellen Sie die für den geänderten Inhalt geeigneten Werte ein, nämlich die Variable *`pageName`*. Nachdem die Variablen gesetzt sind, rufen Sie die Funktion *`t()`* auf.
 
 >[!NOTE]
 >
->Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using [!DNL AppMeasurement] for JavaScript, you can call `s.clearVars()`. Wenn Sie H-Code verwenden, schreiben Sie eine einfache Routine, mit der Variablen auf eine leere Zeichenfolge gesetzt werden.
+>Bevor Sie `s.t()` aufrufen, müssen Sie alle Werte des Objekts „s“ löschen, die nicht bestehen bleiben sollen. Wenn Sie [!DNL AppMeasurement] für JavaScript verwenden, können Sie `s.clearVars()` aufrufen. Wenn Sie H-Code verwenden, schreiben Sie eine einfache Routine, mit der Variablen auf eine leere Zeichenfolge gesetzt werden.
 
 ```js
 s.clearVars(); 
@@ -39,7 +39,7 @@ s.prop1="some value"
 void(s.t());
 ```
 
-The following example shows a tracking call in the `done` callback of the JQuery `.ajax` function:
+In dem folgenden Beispiel wird ein Tracking-Aufruf im Callback `done` der JQuery-`.ajax`-Funktion veranschaulicht:
 
 ```
 $.ajax({ 
@@ -57,10 +57,10 @@ $.ajax({
 Wenn davor eine Bildanforderung für die gleiche Seite erfolgte, löschen Sie die Werte der zuvor festgelegten Variablen. Dazu haben Sie die folgenden Möglichkeiten:
 
 * Schreiben Sie eine einfache JavaScript-Funktion zum Löschen der Adobe-Variablen.
-* Legen Sie die Variablen *`linkTrackVars`* und *`linkTrackEvents`* Variablen, wenn Sie sie noch nicht in der [!DNL s_code.js] Datei vorgenommen haben.
+* Legen Sie die Variablen *`linkTrackVars`* und *`linkTrackEvents`* fest, falls Sie dies nicht schon in der [!DNL s_code.js]-Datei vorgenommen haben.
 
-* Set the values appropriate for the changed content, namely the *`pageName`* variable.
-* After the variables are set, call the *`tl()`* function.
+* Stellen Sie die für den geänderten Inhalt geeigneten Werte ein, nämlich die Variable *`pageName`*.
+* Nachdem die Variablen gesetzt sind, rufen Sie die Funktion *`tl()`* auf.
 
 ```js
 //set linkTrackVars and linkTrackEvents> (if applicable) 
