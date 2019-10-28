@@ -1,60 +1,60 @@
 ---
-title: Erstellen eines Lösungsdesigndokuments
-seo-title: Erstellen eines Lösungsdesigndokuments
+title: Lösungsdesigndokument erstellen
+seo-title: Lösungsdesigndokument erstellen
 description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in Ihrem Unternehmen verwenden können.
 seo-description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in Ihrem Unternehmen verwenden können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 ---
 
 
-# Erstellen eines Lösungsdesigndokuments
+# Lösungsdesigndokument erstellen
 
-Ein Dokument des Lösungsdesigners (auch als Referenz- oder Geschäftsanforderungen bezeichnet) ist im Grunde genommen das Blueprint Ihrer Analytics-Implementierung. Es definiert die Kriterien, die von den Stakeholdern innerhalb Ihres Unternehmens identifiziert wurden, und übersetzt diese in Variablen in Adobe Analytics. Ohne einen Unternehmen haben Organisationen eine schwierige Zeit, die Berichterstattungsbedürfnisse zu koordinieren und die Erfassung wichtiger Daten zu vernachlässigen.
+Ein Dokument zum Lösungsentwurf (auch als Referenz zum Lösungsentwurf oder als Dokument zu Geschäftsanforderungen bezeichnet) ist im Wesentlichen der Entwurf Ihrer Analytics-Implementierung. Es definiert Kriterien, die von Interessenträgern in Ihrer gesamten Organisation identifiziert werden, und übersetzt diese in Variablen in Adobe Analytics. Ohne eine Lösung haben Unternehmen Schwierigkeiten, die Berichtserfordernisse zu koordinieren, und neigen dazu, das Erfassen wichtiger Daten zu übersehen.
 
 ## Voraussetzungen
 
-[Validieren Ihrer Analytics-Implementierung und Veröffentlichung in der Produktion](../implement-with-launch/validate-publish-prod.md) - Obwohl nicht direkt erforderlich, empfiehlt Adobe, eine Basisimplementierung vorzunehmen, damit wichtige Daten erfasst werden, während zusätzliche Geschäftsanforderungen erstellt und implementiert werden.
+[Überprüfen Sie Ihre Analytics-Implementierung und veröffentlichen Sie sie in der Produktion](../implement-with-launch/validate-publish-prod.md) - Adobe empfiehlt, eine Basisimplementierung einzurichten, damit wichtige Daten gesammelt werden, während zusätzliche Geschäftsanforderungen festgelegt und implementiert werden.
 
-## Eigentum und Speicherort des Designdokuments
+## Eigentum und Speicherort des Entwurfspapiers
 
-* **Bestimmen Sie, wer in Ihrer Organisation für die Wartung des Dokuments für das Lösungsdesign verantwortlich sein wird.** Diese Rolle kann entweder ein einzelner Benutzer oder ein Team sein. Stellen Sie sicher, dass die Aufrechterhaltung des Lösungsentwurfs auch über Rollenänderungen oder Strukturierung von Organisationen beibehalten wird. Es ist ein Live-Dokument und muss ordnungsgemäß gepflegt werden.
-* **Legen Sie fest, wo sich Ihr Lösungsdokument befindet.** Es gibt keinen einzelnen Ort für die Lösung von Lösungsdesigndokumenten, sie befinden sich jedoch meist in einem allgemein zugänglichen internen Ort. Beispiele sind eine freigegebene Tabelle oder ein Arbeitsbereich für Zusammenarbeit wie sharepoint oder ein interner Wiki. Sie muss für jeden nicht bearbeitet werden, es ist jedoch nützlich für diejenigen, die auf Berichte zugreifen können, um sie zumindest anzuzeigen.
+* **Stellen Sie fest, wer in Ihrem Unternehmen für die Verwaltung des Lösungsentwurfsdokuments verantwortlich ist.** Diese Rolle kann entweder eine Einzelperson oder ein Team innehaben. Stellen Sie sicher, dass der Lösungsentwurf auch durch Rollenänderungen oder Organisationsänderungen erhalten bleibt. Es handelt sich um ein lebendiges Dokument, das ordnungsgemäß aufbewahrt werden muss.
+* **Stellen Sie fest, wo sich Ihr Lösungsdokument befindet.** Es gibt keinen einzigen idealen Ort, an dem sich Lösungsdesigndokumente befinden, aber sie befinden sich normalerweise an einem gut zugänglichen internen Ort. Beispiele sind eine freigegebene Tabelle oder ein gemeinsamer Arbeitsbereich wie SharePoint oder ein internes Wiki. Sie müssen nicht für jeden bearbeitbar sein, aber es ist hilfreich, wenn zumindest die Anzeige möglich ist,
 
 ## Geschäftsanforderungen definieren
 
-Bei der Bestimmung der zu erfassenden Daten ist es einfach, "Alles" zu sagen, was jedoch schnell zu einer unbrauchbaren Verwaltung führt und sogar weniger Werte liefert als die Erfassung präziser Datenmengen.
+Bei der Ermittlung der zu erfassenden Daten ist es leicht, „alles“ zu sagen, was jedoch schnell schwer zu handhaben sein kann und sogar weniger Wert bieten kann als die Erfassung präziserer Datenmengen.
 
-1. **Bestimmen Sie die wichtigen Leistungsindikatoren.** Was sollen Besucher letztendlich tun? Die Antwort auf diese Frage variiert je nach Branche und vertikal und kann mehrere Dinge umfassen. Beispiele sind Käufe, Registrierungen oder Anzeigenklicks.
-1. **Finden Sie heraus, welche wichtigen Daten gesammelt werden sollen.** Fragen Sie Geschäftsfragen, auf die Sie spezifische Antworten wünschen. Antworten auf diese Fragen bieten einen Einblick in die Verbesserung Ihrer Kpis.
-1. **Nehmen Sie diese Fragen vor und legen Sie fest, wie Ihre Verfolgung benötigt wird.** Gruppieren Sie sie in Dimensionen und Metriken.
-   * Dimensionen sind Variablen, die Text enthalten. Beispiele wären interne Suchbegriffe, Produktkategorien oder der Name eines Bereichs, auf den ein Besucher geklickt hat.
-   * Metriken sind spezifische Ereignisse, die ein Besucher ausführen soll. Wenn sie eine Aktion durchführen, die Sie wünschen, wird die Zahl um 1 erhöht. Beispiele wären die Übermittlung einer Bestellung, das Abonnieren eines Newsletters oder das Senden einer Umfrageantwort.
-1. **Dimensionen und Metriken in einer Seite oder Tabelle zuordnen.** Diese Seite oder Tabelle wird letztendlich zu Ihrem Lösungsdesigndokument. Einige hilfreiche Spalten oder Aufzählungspunkte für die Einbeziehung:
-   * Implementierungsstatus: Geplante, aktive, inaktive, Probleme usw. Dadurch werden die Viewer des jeweiligen Variablenstatus, falls dieser implementiert wurde, oder Probleme mit der Datenerfassung beschrieben.
-   * Variablenname: Beispiel: "Interne Suchbegriffe" . Dieser Wert wird von Analysten bei der Arbeit in Analytics angezeigt.
-   * Analytics-Variable zugeordnet zu: Welche standardmäßige oder benutzerdefinierte Analytics-Variable, dem Sie Werte zuweisen möchten Dimensionen fallen normalerweise unter evars, während Metriken unter Ereignisse fallen.
-   * Logik: Eine Beschreibung der Art und Weise, wie die Variable festgelegt wird und deren Wert bestimmt wird. Beispiel: "Nur auf internen Suchseiten eingestellt. Akzeptiert den Wert des Abfragezeichenfolgenparameters q. «
-   * Alle anderen Hinweise, die in die Variable einbezogen werden sollen
+1. **Bestimmen Sie die wichtigen Leistungsindikatoren.** Was sollen die Besucher letztendlich tun? Die Antwort auf diese Frage variiert je nach Branche und kann mehrere Dinge umfassen. Beispiele sind Käufe, Registrierungen oder Anzeigenklicks.
+1. **Ermittlung der wichtigsten zu erfassenden Daten.** Stellen Sie Geschäftsfragen, auf die Sie spezifische Antworten erhalten möchten. Antworten auf diese Fragen würden Einblicke in die Verbesserung der KPIs geben.
+1. **Nehmen Sie diese Fragen auf und bestimmen Sie, was Sie für das Tracking benötigen.** Gruppieren Sie sie in Dimensionen und Metriken.
+   * Dimensionen sind Variablen, die Text enthalten. Beispiele wären der interne Suchbegriff, die Produktkategorie oder der Name eines Bereichs, auf den ein Besucher geklickt hat.
+   * Metriken sind spezifische Ereignisse, die ein Besucher ausführen soll - wenn er eine gewünschte Aktion durchführt, steigt die Zahl um 1. Beispiele wären das Senden einer Bestellung, das Abonnieren eines Newsletters oder das Senden einer Umfrageantwort.
+1. **Ordnen Sie Dimensionen und Metriken einer Seite oder Tabelle zu.** Diese Seite oder Tabelle wird letztendlich zu Ihrem Lösungsdesigndokument. Einige hilfreiche Spalten oder Aufzählungspunkte, die eingeschlossen werden sollen:
+   * Implementierungsstatus: Geplant, aktiv, inaktiv, Probleme usw. Dadurch werden die Betrachter über den Status des Dokuments informiert, wenn die Variable implementiert wurde oder Probleme mit der Datenerfassung auftreten.
+   * Variablenname: Beispiel: „Interne Suchbegriffe“. Dieser Wert ist der Wert, den Analysten bei der Arbeit in Analytics sehen.
+   * Zugeordnete Analytics-Variable: welcher standardmäßigen oder benutzerdefinierten Analytics-Variable Werte zugewiesen werden sollen. Dimensionen fallen normalerweise unter eVars, während Metriken unter Ereignisse fallen.
+   * Logik: Eine Beschreibung, wie die Variable festgelegt wird und was deren Wert bestimmt. Beispiel: „Nur auf internen Suchseiten eingestellt. Übernimmt den Wert des Abfragezeichenfolgenparameters q.“
+   * Sonstige Hinweise zur Variablen
 
 ## Zusätzliche Ressourcen
 
-Das Definieren eines Lösungsdesigndokuments ist ein ziemlich komplexer Projekt, insbesondere für Organisationen, die noch keine erstellt haben. Wenn zusätzliche Hilfe gewünscht wird, bietet Adobe spezialisierte Beratung an, um Ihre Organisation mit Adobe Analytics zu versorgen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie die Professional Services von Adobe auflisten möchten. A [Technical pre-implementation questionnaire](assets/technical-pre-implementation-questionnaire.pdf) can be filled out so Adobe knows exactly how to help based on your organization's needs.
+Die Definition eines Lösungsdesigndokuments ist ein ziemlich komplexes Projekt, besonders für Unternehmen, die noch kein Projekt erstellt haben. Wenn Sie weitere Unterstützung benötigen, bietet Adobe eine spezielle Beratung an, um Ihr Unternehmen bei der Einführung von Adobe Analytics zu unterstützen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie die professionellen Services von Adobe nutzen möchten. Es kann ein [technischer Fragenkatalog](assets/technical-pre-implementation-questionnaire.pdf) zur Implementierung ausgefüllt werden, damit Adobe anhand der Anforderungen Ihres Unternehmens genau weiß, wie Sie dabei unterstützt werden können.
 
-Es gibt auch verschiedene Adobe-Partner, die sich für die Erstellung eines Lösungsdesigndokuments sowie für die Implementierung von Adobe Analytics auf Ihrer Site spezialisieren.
+Es gibt auch mehrere Adobe-Partner, die sich auf die Unterstützung bei der Erstellung eines Lösungsdesigndokuments sowie die Implementierung von Adobe Analytics auf Ihrer Site spezialisiert haben.
 
-> [!NOTE] Obwohl Mitglieder der Analytics-Community die folgenden Links hilfreich gefunden haben, befinden sie sich nicht von Adobe. Beachten Sie diese Hinweise bei der Anzeige ihres Inhalts.
+> [!NOTE] Mitglieder der Analytics-Community fanden die folgenden Links hilfreich, die allerdings nicht zu Adobe gehören. Berücksichtigen Sie diese Anmerkung bei der Anzeige der Inhalte.
 
-* [7 Schritte zum Einrichten Ihres Webanalyselösungsdesigns](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) nach observepoint
-* [Ein Framework für Digital Analytics-Prozess](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) mit demystisiertem Analytics
-* [Die Lösungsdesignreferenz ist eigentlich Ihr BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) nach numerischen Analysen.
-* [Tagging von](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) Adobe Analytics durch Antti Koski
-* [Die Wichtigkeit des Lösungsdesigndokuments](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) nach Ebiquity
+* [7 Schritte zum Einrichten Ihres Web Analytics-Lösungsdesigns](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) von ObservePoint
+* [Ein Framework für Digital-Analytics-Prozesse](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) von Analytics Demystified
+* [Die Lösungsdesign-Referenz ist tatsächlich Ihr bester Freund](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) von Numeric Analytics
+* [So erstellen Sie eine Adobe Analytics-Tagging-Karte](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) von Antti Koski
+* [Die Bedeutung des Lösungsdesign-Dokuments](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) von Ebiquity
 
 ## Nächste Schritte
 
-Implementieren Sie die Variablen in Ihrem Lösungsdesigndokument.
+Implementieren Sie die Variablen in Ihr Lösungsdesigndokument.
 
-* Einführung in evars: Erfahren Sie, was eine evar ist, wie sie funktioniert und wie sie sie in Ihrer Implementierung einsetzen.
-* Einführung in Ereignisse: Erfahren Sie, was ein Erfolgsereignis ist, wie es funktioniert und wie es in Ihrer Implementierung verwendet wird.
+* Einführung in eVars: Erfahren Sie, was eine eVar ist, wie sie funktioniert und wie Sie sie in Ihrer Implementierung verwenden
+* Einführung in Ereignisse: Erfahren Sie, was ein Erfolgsereignis ist, wie es funktioniert und wie sie es in Ihrer Implementierung verwenden
