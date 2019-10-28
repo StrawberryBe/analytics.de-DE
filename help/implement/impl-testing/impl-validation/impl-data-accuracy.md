@@ -2,18 +2,18 @@
 description: Um die Genauigkeit von Daten zu beurteilen, werden Daten aus einem Bericht mit bekannten und nachprüfbaren Datenpunkten verglichen.
 keywords: Analytics-Implementierung
 seo-description: Um die Genauigkeit von Daten zu beurteilen, werden Daten aus einem Bericht mit bekannten und nachprüfbaren Datenpunkten verglichen.
-seo-title: Validierung der Genauigkeit von Daten
+seo-title: Beurteilung der Genauigkeit von Daten
 solution: Analytics
-title: Validierung der Genauigkeit von Daten
+title: Beurteilung der Genauigkeit von Daten
 topic: Entwickler und Implementierung
-uuid: 267 f 6 c 61-705 a -41 cf -9 e 09-4 e 2 ce 2331 f 32
-translation-type: tm+mt
+uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Validierung der Genauigkeit von Daten
+# Beurteilung der Genauigkeit von Daten
 
 Um die Genauigkeit von Daten zu beurteilen, werden Daten aus einem Bericht mit bekannten und nachprüfbaren Datenpunkten verglichen.
 
@@ -27,7 +27,7 @@ Nachfolgend sind die bevorzugten Datenpunkte für die Beurteilung in der Reihenf
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. Bei solchen Seiten treten bei der browserbasierten Datenerfassung größere Unterschiede als bei anderen besuchten Seiten auf.
+>Standardseiten (wie z. B. [!DNL index.html]) sind oft das Ziel von automatisiertem oder aus Monitoring resultierendem Traffic. Bei solchen Seiten treten bei der browserbasierten Datenerfassung größere Unterschiede als bei anderen besuchten Seiten auf.
 
 Für alle drei Arten von Beurteilung muss für den fraglichen Zeitraum ein Debugprotokoll oder ein Datenfeed vorhanden sein. Dieser Zeitraum beträgt für gewöhnlich maximal einen Tag.
 
@@ -43,5 +43,5 @@ Beim Vergleich der Genauigkeit von Daten müssen die folgenden Punkte berücksic
 * Stellen Sie sicher, dass die Zeitzone bei der Abfrage und der Report Suite übereinstimmt.
 * Benutzerspezifischer Keynote- oder ähnlicher Datenverkehr (Keynote-Transaktion usw.), der beim Messen des Bestellprozesses anfällt, kann in Tags wiedergegeben, in Bestellsystemen jedoch entfernt sein.
 * Berücksichtigen Sie auch die De-Duping-Prozesse des Kunden.
-* Erneutes Laden der Bestellseite (Bestellungen werden mittels *`purchaseID`*).
+* Erneutes Laden der Bestellseite (Bestellungen werden mittels *`purchaseID`* dedupliziert).
 
