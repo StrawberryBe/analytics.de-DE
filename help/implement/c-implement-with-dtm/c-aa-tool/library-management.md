@@ -1,12 +1,12 @@
 ---
 description: Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellungen des Dynamic Tag Managements.
-keywords: Bibliotheksverwaltung;Seiten-Code;Bibliothek laden bei;von Adobe verwaltet;benutzerdefinierter;gehosteter Code;s_Code gehostet
+keywords: Bibliotheksverwaltung;Seiten-Code;Bibliothek laden unter;verwaltet von Adobe;benutzerspezifisch;gehosteter Code;gehosteter s_code
 seo-description: Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellungen des Dynamic Tag Managements.
 seo-title: Bibliotheksverwaltung
-solution: Experience Cloud, Dynamisches Tag-Management
+solution: Experience Cloud, Dynamic Tag Management
 title: Bibliotheksverwaltung
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellungen des Dynamic Tag Managements.
 
-**[!UICONTROL *`Property`*]** &gt; Tool ![](assets/settings_gear.png) bearbeiten **[!UICONTROL &gt;]****[!UICONTROL Bibliotheksverwaltung]**
+**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL Tool bearbeiten]** &gt; **[!UICONTROL Bibliotheksverwaltung]**
 
 >[!NOTE]
 >
->Wenn in einer Webeigenschaft mehr als ein Adobe Analytics-Tool verwendet wird, muss jedes Tool über einen eindeutigen Trackervariablennamen verfügen. Duplizierte Objektvariablennamen der Adobe Analytics-Tools in einer einzigen Webeigenschaft führen zu Konflikten.
+>Sollte für eine Webeigenschaft mehr als ein Adobe Analytics-Tool verwendet werden, muss jedes Tool über einen eindeutigen Verfolgungsvariablennamen verfügen. Duplizierte Objektvariablennamen der Adobe Analytics-Tools in einer einzigen Webeigenschaft führen zu Konflikten.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -48,7 +48,7 @@ Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellunge
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>In DTM</b>: Sie können den <span class="filepath">s_code</span> im Dynamic Tag Management hosten. Klicken Sie auf <span class="uicontrol">Code bearbeiten</span>, um die Datei direkt zu kopieren und in den Editor einzufügen. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: Wenn Sie eine leistungsstarke <span class="filepath">s_code</span>-Datei haben und diese nach Bedarf aktualisieren, können Sie die URL zu dieser Datei hier angeben. Das Dynamic Tag Management nutzt diese <span class="filepath">s_code</span>-Datei dann einfach für die Implementierung von <span class="keyword">Adobe Analytics</span>. </li> 
-    </ul> <p> <b>Editor öffnen: </b>Ermöglicht das <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> Einfügen des AppMeasurement-Core-Codes</a>. This code is populated automatically when using the automatic configuration method described in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Adobe Analytics Settings</a>. </p> <p> <b>Name der Trackervariable: </b>Wenn Sie zwei Instanzen von <span class="keyword"> Adobe Analytics</span> parallel ausführen möchten (eine Instanz im dynamischen Tag-Management und eine Instanz im nativen Modus), können Sie das Hauptobjekt <span class="term"> s</span> umbenennen. Durch die Umbenennung des Objektnamens wird möglichen Konflikten vorgebeugt. </p> </td> 
+    </ul> <p> <b>Bearbeiter öffnen: </b>Ermöglicht das <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> Einfügen des AppMeasurement-Core-Codes</a>. Dieser Code wird automatisch ausgefüllt, wenn die automatische Konfigurationsmethode verwendet wird, die in den <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Einstellungen von Adobe Analytics</a> beschrieben ist. </p> <p> <b>Variablenname:</b> Wenn Sie zwei Instanzen von <span class="keyword">Adobe Analytics</span> parallel ausführen möchten (eine Instanz mit Dynamic Tag Management und eine Instanz nativ), können Sie das <span class="term">Hauptobjekt</span> ändern. Durch die Umbenennung des Objektnamens wird möglichen Konflikten vorgebeugt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
