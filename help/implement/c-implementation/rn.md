@@ -1,10 +1,10 @@
 ---
-description: 'Versionshinweise finden Sie unter den folgenden Speicherorten: '
-seo-description: 'Versionshinweise finden Sie unter den folgenden Speicherorten: '
+description: 'Hier finden Sie Versionshinweise '
+seo-description: 'Hier finden Sie Versionshinweise '
 seo-title: Versionshinweise
 title: Versionshinweise
-uuid: 07 f 8 a 612-e 1 ba -4 bcc-a 547-8 c 34 eb 1 a 7 c 88
-translation-type: tm+mt
+uuid: 07f8a612-e1ba-4bcc-a547-8c34eb1a7c88
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -14,6 +14,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Hier finden Sie Versionshinweise.
 
-* [Experience Cloud – Alle Lösungen](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
-* [AppMeasurement Libraries – Alle Plattformen](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/)
+* [Experience Cloud - Alle Lösungen](https://marketing.adobe.com/resources/help/de_DE/whatsnew/)
+* [AppMeasurement-Bibliotheken - Alle Plattformen](https://marketing.adobe.com/resources/help/de_DE/sc/appmeasurement/release/)
 
