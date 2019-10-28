@@ -6,8 +6,8 @@ seo-title: Variablen und Werte
 solution: Analytics
 title: Variablen und Werte
 topic: Entwickler und Implementierung
-uuid: 2 ff 4857 a -9451-4794-9146-f 417 abd 1 d 1 ba
-translation-type: tm+mt
+uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,7 +28,7 @@ Stellen Sie sicher, dass die Werte der Variablen keine der im vorliegenden Dokum
 
 Verwenden Sie in der Produktvariablen keines der folgenden Zeichen: $, ™, ®, © oder Kommas (,). Diese sind in [!DNL Analytics]-Variablen im Allgemeinen überflüssig und könnten bei der Interpretation von Feldern oder beim Export zu Problemen führen. Als Best Practice wird empfohlen, sich auf die ersten 127 ASCII-Zeichen zu beschränken.
 
-Ensure that the events variable is populated with an appropriate value ( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen], or event1-event5) whenever *`products`* is populated. Achten Sie bei allen [!DNL Analytics]-Variablen und Funktionen auf die richtige Groß-/Kleinschreibung:
+Stellen Sie sicher, dass die Variable „events“ immer einen geeigneten Wert enthält ([!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen] oder event1–event5), wenn die Variable *`products`* ausgefüllt wird. Achten Sie bei allen [!DNL Analytics]-Variablen und Funktionen auf die richtige Groß-/Kleinschreibung:
 
 ```js
 s.pageName 
@@ -50,6 +50,6 @@ Bei Seitennamen muss auf die richtige Groß-/Kleinschreibung geachtet werden, an
 
 >[!NOTE]
 >
->Mehrere Seitendatensätze können in Berichten nicht kombiniert werden.
+>Datensätze von mehreren Seiten können in Berichten nicht kombiniert werden.
 
 Überprüfen Sie, ob Links im Bericht [!UICONTROL Benutzerspezifische Links] aufgeführt werden. Vergewissern Sie sich, dass an die [!UICONTROL tl]-Funktion die richtigen Parameter übergeben werden. Weitere Informationen zu [!UICONTROL benutzerspezifischen Links] finden Sie unter [Linktracking](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
