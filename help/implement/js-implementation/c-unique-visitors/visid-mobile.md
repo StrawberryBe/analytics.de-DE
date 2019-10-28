@@ -1,25 +1,25 @@
 ---
-description: 'Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert. '
+description: Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert.
 keywords: Analytics-Implementierung
-seo-description: 'Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert. '
-seo-title: Identifizieren von Mobilgeräten
+seo-description: Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert.
+seo-title: Mobile Geräte identifizieren
 solution: Analytics
-title: Identifizieren von Mobilgeräten
+title: Mobile Geräte identifizieren
 topic: Entwickler und Implementierung
-uuid: 22587 dd 1-cead -485 b-a 4 d 8-94 dfb 7 cd 6662
-translation-type: tm+mt
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
 
 
-# Identifizieren von Mobilgeräten
+# Mobile Geräte identifizieren
 
-Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert. 
+Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert.
 
 Adobe hat eine Reihe von HTTP-[Abonnenten-ID-Headern](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) identifiziert, über die die meisten Mobilgeräte eindeutig identifiziert werden können. Diese Header enthalten oftmals die Telefonnummer des Geräts (in Klartext- oder Hashform) oder andere IDs. Die meisten aktuellen Geräte verfügen über einen oder mehrere der Header, anhand derer das Gerät eindeutig identifiziert werden kann, und alle Adobe-Datenerfassungsserver verwenden diese Header dann automatisch anstelle einer Besucher-ID.
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Wenn das Gerät allerdings basierend auf den HTTP-Headern als Mobilgerät erkannt wird, wird eine „5“ anstelle der „1“ übergeben. Dies gibt an, dass ein Bild im WBMP-Format zurückgegeben werden soll und dass unsere Liste mit bekannten Wireless-Headern (kein Cookie) zur Identifizierung des Geräts verwendet werden soll.
+In einer normalen Bildanforderung führt eine „1“ im Pfad (`/b/ss/rsid/1`) dazu, dass Adobe-Server ein GIF-Bild zurückgeben und versuchen, ein beständiges [!UICONTROL Besucher-ID]-Cookie (`AMCV_` oder `s_vi`) zu setzen. Wenn das Gerät allerdings basierend auf den HTTP-Headern als Mobilgerät erkannt wird, wird eine „5“ anstelle der „1“ übergeben. Dies gibt an, dass ein Bild im WBMP-Format zurückgegeben werden soll und dass unsere Liste mit bekannten Wireless-Headern (kein Cookie) zur Identifizierung des Geräts verwendet werden soll.
 
 In der folgenden Tabelle wird die Reihenfolge der verwendeten ID-Methoden basierend auf dem Rückgabebild-Typwert („1“ oder „5“) im Pfad aufgeführt:
 
