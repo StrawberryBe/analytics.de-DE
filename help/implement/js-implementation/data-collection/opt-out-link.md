@@ -2,19 +2,19 @@
 description: Geben Sie einen Ausschluss-Link an und personalisieren Sie das Branding dieses Links. Besucher Ihrer Website können festlegen, dass Ihre Aktivitäten nicht von Adobe Analytics-Produkten nachverfolgt werden, indem sie die Ausschluss-Seite für Ihre Datenerfassungsdomäne besuchen.
 keywords: Analytics-Implementierung
 seo-description: Geben Sie einen Ausschluss-Link an und personalisieren Sie das Branding dieses Links. Besucher Ihrer Website können festlegen, dass Ihre Aktivitäten nicht von Adobe Analytics-Produkten nachverfolgt werden, indem sie die Ausschluss-Seite für Ihre Datenerfassungsdomäne besuchen.
-seo-title: Hinzufügen eines Ausschluss-Links
+seo-title: Ausschluss-Link hinzufügen
 solution: Analytics
-subtopic: 'Fehlerbehebung '
-title: Hinzufügen eines Ausschluss-Links
+subtopic: Fehlerbehebung
+title: Ausschluss-Link hinzufügen
 topic: Entwickler und Implementierung
-uuid: c 12092 be -3 be 7-4621-b 838-d 6 b 78 d 074 f 84
-translation-type: tm+mt
+uuid: c12092be-3be7-4621-b838-d6b78d074f84
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Hinzufügen eines Ausschluss-Links
+# Ausschluss-Link hinzufügen
 
 Geben Sie einen Ausschluss-Link an und personalisieren Sie das Branding dieses Links. Besucher Ihrer Website können festlegen, dass Ihre Aktivitäten nicht von Adobe Analytics-Produkten nachverfolgt werden, indem sie die Ausschluss-Seite für Ihre Datenerfassungsdomäne besuchen.
 
@@ -26,9 +26,9 @@ Besucher können sich von der Nachverfolgung ausschließen lassen, indem sie auf
 
 Adobe bietet Ausschlussmöglichkeiten für alle Implementierungsarten. Sie sind selbst für Ihre eigenen Datenschutzrichtlinien und die Einhaltung der vereinbarten Bedingungen verantwortlich. Beachten Sie, dass der Link zur Ausschluss-Seite je nach Implementierungsart unterschiedlich sein kann.
 
-Wenn Sie Adobe Analytics-Produkte und -Dienste so implementieren, dass Cookies auf Domänen von Adobe gesetzt sind (d. h. 207.net oder omtrdc.net), können Sie die Website-Besucher für alle Webseiten, die Adobe-Cookies für Adobe Analytics-Produkte und Dienste verwenden, auf den Ausschluss-Mechanismus im [Datenschutzzentrum von Adobe](https://www.adobe.com/privacy/opt-out.html) verweisen. The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+Wenn Sie Adobe Analytics-Produkte und -Dienste mit Cookies auf Domänen von Adobe implementieren (d. h. 207.net oder omtrdc.net), können Sie die Website-Besucher für alle Webseiten, die Adobe-Cookies für Adobe Analytics-Produkte und Dienste verwenden, auf den Ausschluss-Mechanismus im [Datenschutzzentrum von Adobe](https://www.adobe.com/de/privacy/opt-out.html) verweisen. Der direkte Link zum Adobe-Ausschluss-Mechanismus ist `https:// *collection_domain* /optout.html`.
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+Weitere Informationen zu Adobe Analytics-Datenschutzpraktiken finden Sie unter [https://www.adobe.com/de/privacy/advertising-services.html](https://www.adobe.com/de/privacy/advertising-services.html).
 
 * [URL-Struktur der Ausschluss-Seite](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
 * [Beispiel-Ausschluss-URLs](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
@@ -42,7 +42,7 @@ Ihre Ausschluss-Seite befindet sich unter der folgenden URL:
 https://collection_domain/optout.html[?optional_parameters]
 ```
 
-The `optional_parameters` include:
+`optional_parameters` umfasst:
 
 `locale=[code]`: Stellt eine übersetzte Version der Ausschluss-Seite bereit. Die folgenden Sprachen werden unterstützt:
 
@@ -77,7 +77,7 @@ Eine deutschsprachige Webseite in einem Popup-Fenster mit einem Link verhindert,
 https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 ```
 
-## Branding Ihres Ausschluss-URLs {#section_674AB62E810B414AB8F1615C0E3061F8}
+## Branding Ihrer Ausschluss-URL {#section_674AB62E810B414AB8F1615C0E3061F8}
 
 Sie können einen Link wie den Folgenden auf Ihrer Website bereitstellen:
 
@@ -86,6 +86,6 @@ Sie können einen Link wie den Folgenden auf Ihrer Website bereitstellen:
 Click Here to Opt Out! </a>
 ```
 
-Dabei wird *`stats.adobe.com`* ersetzt, wobei die *`s.trackingServer`* Variable auf die Variable gesetzt ist.
+Dabei wird *`stats.adobe.com`* mit dem Wert ersetzt, der für die Variable *`s.trackingServer`* eingestellt ist.
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+Möchten Sie dagegen einen Einschluss-Link bereitstellen, so verwenden Sie dieselbe URL, ersetzen darin aber `?optout=1` durch `?optin=1`. `confirm_change=1` bleibt hingegen unverändert.
