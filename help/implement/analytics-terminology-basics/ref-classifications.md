@@ -1,13 +1,13 @@
 ---
 description: Classifications werden durch Gruppieren (Klassifizieren) granularer Daten aus einem Quellbericht erstellt.
-keywords: Analytics-Implementierung; Classification
+keywords: Analytics-Implementierung;Classification
 seo-description: Classifications werden durch Gruppieren (Klassifizieren) granularer Daten aus einem Quellbericht erstellt.
 seo-title: Classifications
 solution: Analytics
 title: Classifications
 topic: Entwickler und Implementierung
-uuid: 6 bbb 1113-9 fc 9-4 e 9 d -90 dd-d 2 d 9 d 6 b 67 b 73
-translation-type: tm+mt
+uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -21,5 +21,5 @@ Beispielsweise kann es sein, dass Sie Bildschirm-Display-Anzeigen analysieren m√
 
 Weitere Informationen finden Sie unter:
 
-* [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in der Analytics-Hilfe und -Referenz
+* [Classifications](https://marketing.adobe.com/resources/help/de_DE/reference/classifications.html) in der Analytics-Hilfe und im Referenzhandbuch
 
