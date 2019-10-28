@@ -4,11 +4,11 @@ keywords: Analytics-Implementierung
 seo-description: In der folgenden Tabelle sind Beispiele zu korrektem und fehlerhaftem Code aufgeführt.
 seo-title: Häufige Syntaxfehler
 solution: Analytics
-subtopic: 'Fehlerbehebung '
+subtopic: Fehlerbehebung
 title: Häufige Syntaxfehler
 topic: Entwickler und Implementierung
-uuid: 9845 dcb 9-9 f 10-4 f 65-a 43 d -2 af 41 edaa 122
-translation-type: tm+mt
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
