@@ -2,24 +2,24 @@
 description: Bei Einhaltung dieser Anleitung werden überall die gleichen Cookie-Domänen verwendet, sodass Besuche auch über verschiedene Typen von Implementierungen hinweg verfolgt werden können.
 keywords: Analytics-Implementierung
 seo-description: Bei Einhaltung dieser Anleitung werden überall die gleichen Cookie-Domänen verwendet, sodass Besuche auch über verschiedene Typen von Implementierungen hinweg verfolgt werden können.
-seo-title: Implementierungsrichtlinien
+seo-title: Richtlinien für die Implementierung
 solution: Analytics
-title: Implementierungsrichtlinien
+title: Richtlinien für die Implementierung
 topic: Entwickler und Implementierung
-uuid: 2917 f 4 af -19 bd -4666-ae 4 b -056 e 7 e 33 f 642
-translation-type: tm+mt
+uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Implementierungsrichtlinien
+# Richtlinien für die Implementierung
 
 Bei Einhaltung dieser Anleitung werden überall die gleichen Cookie-Domänen verwendet, sodass Besuche auch über verschiedene Typen von Implementierungen hinweg verfolgt werden können.
 
 * **RSID:** Die [!UICONTROL Report Suite-ID]
 * **VNS:** (Visitor Name Space) Der Namespace des Besuchers, die Subdomäne von [!DNL 2o7.net] oder [!DNL omtrdc.net], in der das [!UICONTROL Besucher-ID]-Cookie gespeichert wird
-* **COOKIEDOMAIN:** Ihr VNS + trackingServer. Je nach Rechenzentrum und RDC-Standort können diese unterschiedlich sein. [Wenden Sie sich an den Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) , wenn Sie sich bezüglich Ihrer Datenerfassungsdomäne nicht sicher sind.
+* **COOKIEDOMAIN:** Ihr VNS + trackingServer. Je nach Rechenzentrum und RDC-Standort können diese unterschiedlich sein. [Wenden Sie sich an die Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html#analytics), wenn Sie sich bezüglich Ihrer Datenerfassungsdomäne nicht sicher sind.
 
 ## Javascript
 
