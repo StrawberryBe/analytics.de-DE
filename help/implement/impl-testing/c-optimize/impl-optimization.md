@@ -2,19 +2,19 @@
 description: Die Analytics-Implementierung erfolgt in drei Hauptschritten.
 keywords: Analytics-Implementierung
 seo-description: Die Analytics-Implementierung erfolgt in drei Hauptschritten.
-seo-title: Optimierungsübersicht
+seo-title: Überblick über die Optimierung
 solution: Analytics
-subtopic: 'Fehlerbehebung '
-title: Optimierungsübersicht
+subtopic: Fehlerbehebung
+title: Überblick über die Optimierung
 topic: Entwickler und Implementierung
-uuid: 8 e 8 ecc 5 b-d 4 b 1-4 d 13-8525-39 e 4924 df 247
-translation-type: tm+mt
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# Optimierungsübersicht
+# Überblick über die Optimierung
 
 Die Analytics-Implementierung erfolgt in drei Hauptschritten.
 
@@ -25,5 +25,5 @@ Die Analytics-Implementierung erfolgt in drei Hauptschritten.
 
 >[!NOTE]
 >
->Kunden können weitere Schritte ergreifen, um Analytics-Aufwand zu minimieren.
+>Kunden können noch weitere Schritte durchführen, um den mit Analytics verbundenen Verwaltungsaufwand zu minimieren.
 
