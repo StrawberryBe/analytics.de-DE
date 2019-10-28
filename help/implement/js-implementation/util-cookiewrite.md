@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
 topic: Entwickler und Implementierung
-uuid: 8 d 526 e 4 c -6 d 7 a -4119-9434-d 7 ce 4 fbb 5577
-translation-type: tm+mt
+uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
