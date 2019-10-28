@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Versionshinweise
 title: JavaScript H-Code – Legacy
 topic: Entwickler und Implementierung
-uuid: 4586 b 250-0 f 1 b -45 b 8-829 c -18 dc 1201956 f
-translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
+translation-type: ht
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Gesammelte Versionshinweise für JavaScript H-Code – Legacy.
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>Um die aktuelle Bibliotheksversion zu finden, verwenden Sie [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/de_DE/sc/implement/index.html?f=debugger_about).
 
 <!-- 
 
@@ -73,7 +73,7 @@ Releasedatum: **21. Mai 2015**
 
 Releasedatum: **16. April 2015**
 
-* Added Integrate module to s_code.js in legacy [!DNL AppMeasurement] for [!DNL JavaScript] H.X ZIP file. (AN-101001)
+* Integrationsmodul zu s_code.js in Legacy-ZIP-Datei für [!DNL AppMeasurement] für [!DNL JavaScript] H.X hinzugefügt. (AN-101001)
 
 ## H.27.5 {#section_22DCF43169614B28BC17F46426C5D5B6}
 
@@ -113,33 +113,33 @@ Releasedatum: **21. August 2014**
 
 Releasedatum: **19. Juni 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
+* Die Handhabung der Kennzeichnungen „Fertig“ und „Warten“ für Visitor API-Felder, darunter die veraltete [!DNL Analytics]-Besucher-ID, die Probleme verursachte, wurde korrigiert.
 * Der Besucher-ID-Dienst 1.3 unterstützt ab sofort neue Funktionen.
 
 ## H.27.1 {#section_CC2556C734EE4BAAB71D6A93095DB38F}
 
 Releasedatum: **11. Juni 2014**
 
-* Fixed an issue in the [!DNL Analytics] for [!DNL Target] integration that caused some hits to incorrectly be merged.
+* Problem in [!DNL Analytics] für [!DNL Target]-Integration behoben, bei dem einige Treffer fehlerhaft zusammengeführt wurden.
 
 ## H.27 {#section_023B6267C0DB424F99A23EBB732B8C69}
 
 Releasedatum: **22. Mai 2014**
 
-* Unterstützung des [Marketing Cloud-Besucher-ID-Dienstes](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-* Unterstützung der [Integration von Analytics für Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
+* Unterstützung für den [Experience Cloud-Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/).
+* Unterstützung für [Analytics für Target-Integration](https://marketing.adobe.com/resources/help/de_DE/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
 
 Releasedatum: **17. Oktober 2013**
 
-* Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
+* Allen Bildobjekten wurde `alt=""` hinzugefügt, um dem Accessible Video and Communications Act zu entsprechen.
 
 ## H.26.1 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 Releasedatum: **18. Juli 2013**
 
-* Hashes/Fragmentbezeichner werden nun beim automatischen Linktracking ignoriert. Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
+* Hashes/Fragmentbezeichner werden nun beim automatischen Linktracking ignoriert. Zuvor wurde die folgende URL automatisch verfolgt, weil das gesamte `href` auf `.pdf` endete:
 
 ```js
   <a href="index.htm#anchor.pdf">Test Link</a>
@@ -151,7 +151,7 @@ Nun werden Hashes/Fragmentbezeichner ignoriert, sodass der Link nur verfolgt wir
 
 Releasedatum: **29. April 2013**
 
-* Die Option `useForcedLinkTracking`, die unter [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) beschrieben wird, gilt nun für Firefox 20 und höher (bisher galt dies nur für WebKit-Browser).
+* Die `useForcedLinkTracking`-Option, die unter [Manuelles Linktracking mit benutzerspezifischem Link-Code](https://marketing.adobe.com/resources/help/de_DE/sc/implement/index.html?f=c_manuallinktrackcustomlink) beschrieben wird, gilt jetzt für Firefox 20+ (zuvor galt dies nur für WebKit-Browser).
 
 * Die Bildobjekt-ID-Erstellung ist nun eindeutig zwischen Instanzen. Auf diese Weise werden Konflikte verhindert, wenn sich mehrere Instanzen auf derselben Seite befinden.
 
@@ -159,7 +159,7 @@ Releasedatum: **29. April 2013**
 
 Releasedatum: **19. April 2013**
 
-* Fixed an issue in forced link tr [!DNL Windows]acking that caused a [!DNL JavaScript] error on some [!DNL Android] 2.2 Devices.
+* Es wurde ein Fehler beim erzwungenen Linktr[!DNL Windows]acking behoben, der auf einigen [!DNL Android] 2.2-Geräten einen [!DNL JavaScript]-Fehler verursachte.
 
 * Bei der Video-Autoverfolgung für Media Player wurde ein Scrubbing-Fehler behoben, der eine fehlerhafte Anzeige der Abspieldauer verursachte.
 
@@ -167,27 +167,27 @@ Releasedatum: **19. April 2013**
 
 Releasedatum: **Februar 2013**
 
-* Changed automatic exit link tracking to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+* Das automatische Exitlinktracking wurde verändert, sodass Links mit `HREF`-Attributen, die mit `about:`, `#` oder `javascript:` beginnen, immer ignoriert werden.
 
 * Der Umfang der Klick-Ereignisse, die durch `useForcedLinkTracking` betroffen sind, wurde verfeinert. Das automatische erzwungene Linktracking gilt nur in folgenden Fällen:
 
-   * `<A>` und `<AREA>` Tags
+   * `<A>`- und `<AREA>`-Tags
 
    * Das Tag muss über ein `HREF`-Attribut verfügen.
-   * The `HREF` can't start with `#`, `about:`, or `javascript:`
+   * Das `HREF` darf nicht mit `about:`, `#` oder `javascript:` beginnen.
 
-   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
+   * Das `TARGET`-Attribut darf nicht eingestellt werden oder das `TARGET` muss sich auf das aktuelle Fenster (`_self`, `_top` oder den Wert von `window.name`) beziehen.
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
 Releasedatum: **Januar 2013**
 
-* Es werden nun URLs mit mehr als 255 Byte unterstützt, um die Erweiterung des Felds „Seiten-URL“ in den Adobe-Datenerfassungsservern zu unterstützen. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Damit wird vermieden, dass lange URLs, die im Browser abgeschnitten werden, Vorrang vor anderen Daten haben, während gleichzeitig lange URLs erfasst werden können.
+* Es werden nun URLs mit mehr als 255 Byte unterstützt, um die Erweiterung des Felds „Seiten-URL“ in den Adobe-Datenerfassungsservern zu unterstützen. Seiten-URLs, die länger als 255 Byte sind, werden geteilt, wobei die ersten 255 Byte im Parameter `g=` auftauchen und die verbleibenden Byte später in der Abfragezeichenfolge im Suchparameter `-g=` auftauchen. Damit wird vermieden, dass lange URLs, die im Browser abgeschnitten werden, Vorrang vor anderen Daten haben, während gleichzeitig lange URLs erfasst werden können.
 
 * Die URL-Decodierung für Zeichenfolgen, die mit einer gemischten Nutzung von `escape` und `encodeURIComponent` codiert sind, wurde korrigiert.
 
 * Ein Problem in den WebKit-Browsern wurde behoben, in denen das Linktracking fehlschlägt, wenn beim ersten Server-Aufruf auf der Seite eine Zeitüberschreitung auftritt.
-* Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Weitere Informationen finden Sie im Abschnitt [Erkennen Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Siehe [Eindeutige Besucher identifizieren](https://marketing.adobe.com/resources/help/de_DE/sc/implement/index.html?f=c_identifying_unique_visitors).
 * Es wurde ein neues `abort`-Flag hinzugefügt, das in `doPlugins` eingestellt werden kann. Wird dieses Flag auf „true“ gesetzt, fährt die [!DNL AppMeasurement]-Bibliothek nicht mit dem Rückverfolgungsaufruf fort. Das abort-Flag wird bei jedem Rückverfolgungsaufruf zurückgesetzt. Wenn also auch ein nachfolgender Rückverfolgungsaufruf abgebrochen werden muss, muss das Flag erneut in `doPlugins` eingestellt werden.
 
 ```js
@@ -205,8 +205,8 @@ Damit können Sie die Logik zentralisieren, mit der Sie Aktivitäten ermitteln, 
 
 Releasedatum: **Oktober 2012**
 
-* Added support for reporting an additional version number in the [!DNL JavaScript] version report. Diese Version war zuvor auf 2 Zeichen (z. B. 1.8) begrenzt. Es werden nun 3-Zeichen-Versionen (z. B. 1.8.5) unterstützt.
-* Fixed an issue with [!DNL Tag Manager] that prevented repeated values in Dependant Code blocks from being sent.
+* Unterstützung zur Meldung einer zusätzlichen Versionsnummer im [!DNL JavaScript]-Versionsbericht hinzugefügt. Diese Version war zuvor auf 2 Zeichen (z. B. 1.8) begrenzt. Es werden nun 3-Zeichen-Versionen (z. B. 1.8.5) unterstützt.
+* Es wurde ein Problem mit dem [!DNL Tag Manager] behoben, bei dem Wiederholungswerte in abhängigen Codeblöcken nicht gesendet wurden.
 
 ## H.25.1 {#section_680CE31CFA9945978F42612B684DB831}
 
@@ -223,7 +223,7 @@ Releasedatum: **September 2012**
   '
 ```
 
-This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie.
+Hierdurch werden Probleme mit Zeichen ohne Escape gelöst, die im [!DNL ClickMap] `s_sq`-Cookie gespeichert sind.
 
 * Korrektur eines Problems, das dazu führen konnte, dass das Video-beendet-Ereignis nicht gesendet wird, wenn eine benutzerspezifische `media.monitor`-Methode verwendet wird, die das Medium-schließen-Ereignis verfolgt:
 
@@ -238,7 +238,7 @@ This resolves issues with un-escaped characters being stored in the [!DNL ClickM
 
 Releasedatum: **Juli 2012**
 
-Ein Update wurde durchgeführt, um sicherzustellen, dass das Linktracking in WebKit-Browsern (Safari und Chrome) erfolgreich abgeschlossen wird. Nach diesem Update werden automatisch verfolgte Download- und Exitlinks (wie in `s.trackDownloadLinks` und `s.trackExternalLinks` festgelegt) erfolgreich verfolgt. If you are tracking custom links using manual [!DNL JavaScript] calls, you need to modify how these calls are made.
+Ein Update wurde durchgeführt, um sicherzustellen, dass das Linktracking in WebKit-Browsern (Safari und Chrome) erfolgreich abgeschlossen wird. Nach diesem Update werden automatisch verfolgte Download- und Exitlinks (wie in `s.trackDownloadLinks` und `s.trackExternalLinks` festgelegt) erfolgreich verfolgt. Wenn Sie benutzerspezifische Links mithilfe manueller [!DNL JavaScript]-Aufrufe verfolgen, müssen Sie die Art und Weise, in der diese Aufrufe erfolgen, ändern.
 
 Zum Beispiel werden Ausstiegs- und Downloadlinks häufig mit einem Code ähnlich dem folgenden nachverfolgt:
 
@@ -273,24 +273,28 @@ In der folgenden Tabelle sind die Konfigurationsvariablen und Aktualisierungen f
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>Dieses Flag deaktiviert das erzwungene Linktracking für WebKit-Browser. Das erzwungene Linktracking ist für WebKit-Browser standardmäßig aktiviert und wird von anderen Browsern ignoriert. </p> <p> <b>Standardwert</b> </p> <p> <code> wahr </code> </p> <p> <b>Beispiel</b> </p> 
-    <code class="syntax javascript">s. useforcedlinktracking &amp; amp; nbsp; = &amp; amp; nbsp; false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>Die maximale Zeitdauer (in Millisekunden), in der auf die Fertigstellung der Verfolgung gewartet wird, bevor die <code>doneAction</code>-Aktion durchgeführt wird, die in <code>s.tl</code> übergeben wurde. Dieser Wert gibt die maximale Wartezeit an. Wenn der Verfolgungslinkaufruf vor dieser Zeitüberschreitung abgeschlossen ist, wird <code>doneAction</code> sofort ausgeführt. Wenn Sie bemerken, dass Verfolgungslinkaufrufe nicht abgeschlossen werden, müssen Sie den Wert für diese Zeitüberschreitung eventuell erhöhen. </p> <p> <b>Standardwert</b> </p> <p>250 </p> <p> <b>Beispiel</b> </p> 
-    <code class="syntax javascript">s. forcedlinktrackingtimeout &amp; amp; nbsp; = &amp; amp; nbsp; 500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>Verfolgt die Links zum Beenden und Herunterladen sowie die benutzerdefinierten Links. Bietet einen optionalen Parameter zur Angabe einer Navigationsaktion, die ausgeführt wird, wenn der Verfolgungslink auf WebKit-Browsern abgeschlossen ist. </p> <p> <b>Syntax</b> </p> 
-    <code class="syntax javascript">s. tl (linkobject, linktype, linkname, variableoverrides, doneaction) </code>
-  <p> <b>doneAction</b>: (optional) Gibt die Aktion an, die ausgeführt werden soll, nachdem der Linkverfolgungsaufruf gesendet wurde oder abgelaufen ist (basierend auf dem Wert, der unter <code>s.forcedLinkTrackingTimeout</code> angegeben wurde ). Die <code>doneAction</code> kann die Zeichenfolge „navigate“ sein, wodurch die Methode den <code>document.location</code> auf das Attribut <code>href</code> von <code>linkObject</code> festlegt . Die <code>doneAction</code> kann auch eine Funktion sein, die eine erweiterte Anpassung ermöglicht. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Beispiele</b> </p> 
-    <code class="syntax javascript">&lt; a &amp; amp; nbsp; href = "…" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null,' navigate '); return &amp; amp; nbsp; false " &gt; Click &amp; amp; nbsp; Hier &lt;/a &gt; </code><code class="syntax javascript">
- 
- 
- &lt; a &amp; amp; nbsp; href = " #" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null, function () {if (' Continue?' Continue? '))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
+    </code> <p> <b>doneAction</b>: (optional) Gibt die Aktion an, die ausgeführt werden soll, nachdem der Linkverfolgungsaufruf gesendet wurde oder abgelaufen ist (basierend auf dem Wert, der unter <code>s.forcedLinkTrackingTimeout</code> angegeben wurde ). Die <code>doneAction</code> kann die Zeichenfolge „navigate“ sein, wodurch die Methode <code>document.location</code> auf das Attribut <code>href</code> von <code>linkObject</code> festlegt. Die <code>doneAction</code> kann auch eine Funktion sein, die eine erweiterte Anpassung ermöglicht. </p> <p>Wenn Sie für <code>onclick</code> in einem <code>false</code>-Ereignis einen Wert angeben, müssen Sie <code>s.tl</code> nach dem <code>hrefl</code>-Aufruf zurückgeben, um die standardmäßige Browsernavigation zu verhindern. </p> <p> Um das Standardverhalten zu spiegeln und der URL zu folgen, die vom <code>doneAction</code>-Attribut angegeben wurde, müssen Sie eine Zeichenfolge von „Navigieren“ als <code>doneAction</code> angeben. </p> <p>Optional können Sie zur Verarbeitung des Navigationsereignisses auch eine eigene Funktion angeben, die Sie dann als <code>$1</code> übergeben. </p> <p> <b>Beispiele</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
     </code> </td> 
   </tr> 
  </tbody> 
@@ -302,8 +306,8 @@ Releasedatum: **April 2012**
 
 Dieses Update wird allen Kunden empfohlen.
 
-* Dank einer Erweiterung kann nun erkannt werden, wenn eine Seite mit Google Chrome Prerender ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)) vorgerendert wird. Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
-* `timestamp` Die Variable wurde für Kunden, [!DNL JavaScript] die Zeitstempeldaten ähnlich wie andere [!DNL AppMeasurement] Bibliotheken anpassen möchten, zur Bibliothek hinzugefügt.
+* Dank einer Erweiterung kann nun erkannt werden, wenn eine Seite mit Google Chrome Prerender ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)) vorgerendert wird. Da Prerender [!DNL JavaScript] und anderen Code lädt und ausführt, kann dies dazu führen, das Seitenaufrufe gesendet werden, bevor ein Benutzer klickt, um Ihre Website zu besuchen. Die [!DNL JavaScript]-Bibliothek wartet nun, bis der Benutzer Ihre Website besucht, und sendet erst dann Server-Aufrufe für diese vorgerenderten Seiten.
+* Die Variable `timestamp` wurde der [!DNL JavaScript]-Bibliothek hinzugefügt. Dies dient für Kunden, die Zeitstempeldaten anpassen möchten (ähnlich wie bei anderen [!DNL AppMeasurement]-Bibliotheken).
 
 ```js
   s.timestamp=Math.round((new Date()).getTime()/1000); 
@@ -324,7 +328,7 @@ Releasedatum: **Februar 2012**
 Releasedatum: **Januar 2012**
 
 * Aktualisierung der Video-Nachverfolgung: Neue Methode zur Verfolgung von Videoaufrufen mit vollständiger Wiedergabe.
-* Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE.
+* Korrektur eines Fehlers, der dazu führte, dass der [!DNL JavaScript]-Fehler „Attribut nur gültig für v:image“ für `OnClick`-Ereignisse bei VML-Elementen in IE angezeigt wurde.
 * Behebung des Problems, das dazu führte, dass Kontextdatenvariablen nicht in Link-Server-Anrufen enthalten waren, obwohl auf diese in `linkTrackVars`. Kontextdatenvariablen werden für die Verarbeitung von Regeln verwendet.
 
 ## H.24.1 {#section_967356D219FE4E9CAA110D03EDF4C8B1}
@@ -337,19 +341,19 @@ Releasedatum: **November 2011**
 
 Releasedatum: **November 2011**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* Interne Updates, um [!DNL Adobe Tag Manager] zu unterstützen.
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 Releasedatum: **November 2011**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* Interne Updates, um [!DNL Adobe Tag Manager] zu unterstützen.
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
 Releasedatum: **Oktober 2011**
 
-* Fixed an issue that caused the `linkTrackVars=none` and `linkTrackEvents=none` settings to not apply when using automatic exit link tracking. Die Einstellungen gelten nun auch für automatische Exitlinks. Daher werden Props, eVars und Ereignisse nicht mit der Bildanforderung für den Exitlink gesendet.
+* Es wurde ein Fehler behoben, der dazu führte, dass die Einstellungen `linkTrackVars=none` und `linkTrackEvents=none` beim automatischen Exitlinktracking nicht galten. Die Einstellungen gelten nun auch für automatische Exitlinks. Daher werden Props, eVars und Ereignisse nicht mit der Bildanforderung für den Exitlink gesendet.
 
 ## H.23.7 {#section_D9D0CF343EBF49D9844C6BDA0C3C7A2E}
 
@@ -373,7 +377,7 @@ Releasedatum: **Juli 2011**
 
 Releasedatum: **Juni 2011**
 
-* Fixed an issue that caused [!DNL JavaScript] errors when accessing certain properties of Vector Markup Language (VML) shape elements.
+* Ein Problem wurde behoben, das [!DNL JavaScript]-Fehler verursachte sobald auf bestimmte Eigenschaften von Vector Markup Language (VML)-Formelemente zugegriffen wurde.
 * Verweiszeichenfolgen mit mehr als 255 Zeichen werden nun dadurch gekürzt, dass der Pfad anstelle der Abfragezeichenfolge verkürzt wird. Dadurch wurden Probleme behoben, die verursacht wurden, weil Abfragezeichenfolgen verkürzt und nicht erfasst wurden.
 
 ## H.23.3 {#section_EAB0602E07EE4A5CA6521351F461D22D}
