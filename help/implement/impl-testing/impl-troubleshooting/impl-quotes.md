@@ -4,11 +4,11 @@ keywords: Analytics-Implementierung
 seo-description: Beim Einsetzen von Werten in eine Variable sind einige Best Practices zu beachten.
 seo-title: Verwenden von Anführungszeichen
 solution: Analytics
-subtopic: 'Fehlerbehebung '
+subtopic: Fehlerbehebung
 title: Verwenden von Anführungszeichen
 topic: Entwickler und Implementierung
-uuid: 9 f 09 c 48 b -7 ae 5-441 e -8635-fd 6 bdc 2 e 94 c 7
-translation-type: tm+mt
+uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
