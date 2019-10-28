@@ -6,8 +6,8 @@ seo-title: Datenerfassungs-HTTP-Header
 solution: Analytics
 title: Datenerfassungs-HTTP-Header
 topic: Entwickler und Implementierung
-uuid: 3325 e 13 c-b 300-46 e 4-a 592-3 a 83 ed 59718 b
-translation-type: tm+mt
+uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, als bereits von AppMeasurement gesammelt werden. In diesem Abschnitt werden die bei der Datenerfassung eingesetzten Header beschrieben.
 
-## HTTP-Anforderungsheader {#section_C1DE3416CCC241A898155C915A01A0FC}
+## HTTP-Anforderungs-Header {#section_C1DE3416CCC241A898155C915A01A0FC}
 
 <table id="table_84D1F4B54ABE4423A2EBE840C49D3876"> 
  <tbody> 
@@ -27,7 +27,7 @@ HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, a
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Dient zum Lesen der zuvor von unseren Datenerfassungsservern erstellten Cookies. </p> <p> Seit 2014 werden auf Adobe-Servern alle Cookies verworfen, die mit einem Server-Aufruf verbunden sind, mit Ausnahme der von Adobe festgelegten Cookies. Eine vollständige Liste der Cookies von Adobe finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">In Experience Cloud verwendete Cookies</a>. </p> </td> 
+   <td> <p>Dient zum Lesen der zuvor von unseren Datenerfassungsservern erstellten Cookies. </p> <p> Seit 2014 werden auf Adobe-Servern alle Cookies verworfen, die mit einem Server-Aufruf verbunden sind, mit Ausnahme der von Adobe festgelegten Cookies. Eine vollständige Liste der Cookies von Adobe finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/whitepapers/cookies/" format="https" scope="external">In Experience Cloud verwendete Cookies</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -90,7 +90,7 @@ HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, a
 
 >[!NOTE]
 >
->Implementierungen mit dynamischen Variablen haben die Möglichkeit, in anderen, oben nicht aufgeführten HTTP-Anforderungsheadern zu lesen.
+>Bei Implementierungen mit dynamischen Variablen können noch weitere, oben nicht aufgeführte HTTP-Anforderungs-Header gelesen werden.
 
 ## HTTP-Antwortheader {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -112,4 +112,4 @@ HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, a
 
 >[!NOTE]
 >
->Andere HTTP-Header können in der Antwort für die interne Statusüberwachung festgelegt werden. Einige dieser Header werden möglicherweise an den Browser zurückgegeben; es ist jedoch nicht erforderlich, dass diese empfangen werden.
+>In der Antwort können weitere HTTP-Header für die interne Statusüberwachung festgelegt sein. Einige dieser Header werden möglicherweise an den Browser zurückgegeben; es ist jedoch nicht erforderlich, dass diese empfangen werden.
