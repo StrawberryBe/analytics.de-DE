@@ -7,7 +7,7 @@ subtopic: Versionshinweise
 title: Windows Phone 8
 topic: Entwickler und Implementierung
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
+>Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+Die Mobile-Bibliothek-[Downloads](https://marketing.adobe.com/developer/de/get-started/mobile/c-measuring-mobile-applications) sind unter [!DNL Developer Connection] verfügbar.
 
 >[!NOTE]
 >
->The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. An diesem SDK wird keine weitere Entwicklung vorgenommen.
+>Das [!DNL Windows] Phone 8 SDK wird ersetzt durch das SDK [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md). An diesem SDK wird keine weitere Entwicklung vorgenommen.
 
 ## Version 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -53,7 +53,7 @@ Releasedatum: **21. März 2013**
 
 Releasedatum: **26. Februar 2013**
 
-* `ADMS_Measurement.visitorID` wird jetzt vorab mit dem Standardwert ausgefüllt.
+* `ADMS_Measurement.visitorID` wird jetzt automatisch auf den Standardwert festgelegt.
 * Problem behoben, das manchmal automatische Antworten aus dem Cache verursachte.
 
 ## Version 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
