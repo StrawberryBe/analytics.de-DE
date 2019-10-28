@@ -1,13 +1,13 @@
 ---
 description: In der Experience Cloud gibt es verschiedene Variablentypen. Props und eVars, die beiden am häufigsten verwendeten Typen, ermöglichen es Ihrer Organisation, benutzerdefinierte Dimensionen auf Ihrer Website darzustellen. Mit vordefinierten Standardberichten wäre das nicht möglich.
-keywords: Analytics-Implementierung; prop; evar; props vs. evars; Benennungskonvention; Traffic-Variablen; persistence; Erfolgsereignis; Pfade
+keywords: Analytics-Implementierung;Prop;eVar;Props und eVars;Namenskonvention;Traffic-Variablen;Persistenz;Erfolgsereignis;Pfad
 seo-description: In der Experience Cloud gibt es verschiedene Variablentypen. Props und eVars, die beiden am häufigsten verwendeten Typen, ermöglichen es Ihrer Organisation, benutzerdefinierte Dimensionen auf Ihrer Website darzustellen. Mit vordefinierten Standardberichten wäre das nicht möglich.
 seo-title: Props und eVars im Vergleich
 solution: Analytics
 title: Props und eVars im Vergleich
 topic: Entwickler und Implementierung
-uuid: 0 f 02760 f-ff 69-481 c-a 817-799 f 02 dafe 8 e
-translation-type: tm+mt
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 In der Experience Cloud gibt es verschiedene Variablentypen. Props und eVars, die beiden am häufigsten verwendeten Typen, ermöglichen es Ihrer Organisation, benutzerdefinierte Dimensionen auf Ihrer Website darzustellen. Mit vordefinierten Standardberichten wäre das nicht möglich.
 
-Wenn Sie sich mit der Zuweisung von Variablen beschäftigen, müssen Sie wissen, wie sich die Funktionen von Props und eVars unterscheiden. Wenn Ihre Organisation mit diesen Unterschieden vertraut ist, kann sie die optimale Verwendung dieser Variablen festlegen. 
+Wenn Sie sich mit der Zuweisung von Variablen beschäftigen, müssen Sie wissen, wie sich die Funktionen von Props und eVars unterscheiden. Wenn Ihre Organisation mit diesen Unterschieden vertraut ist, kann sie die optimale Verwendung dieser Variablen festlegen.
 
 **Props und eVars**
 
 Props und eVars unterscheiden sich hauptsächlich in Folgendem:
 
 * **Namenskonvention**: Props sind Traffic-Variablen. Das bedeutet, dass mit ihnen die Popularität verschiedener Dimensionen Ihrer Website gemeldet wird. eVars sind Konversionsvariablen. Mit ihnen wird bestimmt, welche Dimensionen der Website am meisten zu Erfolgsereignissen beitragen.
-* **Persistenz**: Props bleiben nach der Bildanforderung, zu der sie ausgelöst wurden, nicht erhalten. Sie können keinen anderen Variablen zugeordnet werden, die sich nicht in derselben Bildanforderung befinden. eVars sind hingegen persistent. Der ursprünglich ausgelöste Wert wird mit einer Backend-Variablen beibehalten, sodass er später Erfolgsereignissen zugeordnet werden kann. 
+* **Persistenz**: Props bleiben nach der Bildanforderung, zu der sie ausgelöst wurden, nicht erhalten. Sie können keinen anderen Variablen zugeordnet werden, die sich nicht in derselben Bildanforderung befinden. eVars sind hingegen persistent. Der ursprünglich ausgelöste Wert wird mit einer Backend-Variablen beibehalten, sodass er später Erfolgsereignissen zugeordnet werden kann.
 * **Erfolgsereignisse**: Erfolgsereignisse, auch Konversionsereignisse genannt, sind Metriken, mit denen gemessen wird, wie häufig ein Besucher ein Ziel erreicht. Es kann sich um ein beliebiges Ereignis handeln, wie beispielsweise einen Einkauf auf der Website oder das Abonnement eines Newsletters. eVars dienen dazu, Konversionsereignisse zu melden, mit denen Sie erkennen, welche Werte am besten dazu beitragen, dass die Besucher zu den von Ihnen gewünschten Zielen gelangen. Traffic-Variablen bieten diese Funktionen nicht. Sie können Beitragsmetriken jedoch anzeigen, wenn Sie die Report Suite richtig konfigurieren.
 * **Pfadsetzung**: Props können die Pfadsetzung verwenden. Dadurch kann Ihre Organisation den speziellen Pfad erkennen, dem ein Benutzer im Kontext der angezeigten Variable gefolgt ist. Ein Adobe-Support-Mitarbeiter kann diese Funktion bei Bedarf aktivieren. Bei eVars werden Pfade nicht berücksichtigt.
 * **Potenziell verfügbare Metriken**: Welche Metriken bei Props und eVars verfügbar sind, hängt weitgehend von den Einstellungen und der Datenplattform/Version der Variablen ab. Die folgende Liste veranschaulicht, was aktiviert werden kann (nicht, was standardmäßig aktiviert ist). Wenn Sie eine bestimmte Metrik nicht finden, die Sie für Ihre Berichte wünschen, bitten Sie einen der unterstützen Benutzer, sich an den Kundendienst zu wenden.
@@ -39,7 +39,7 @@ Props und eVars unterscheiden sich hauptsächlich in Folgendem:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Durchschnittliche Klicktiefe </p> </td> 
+   <td colname="col1"> <p>Durchschnittl. Seitentiefe </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_165C1BF1574247CEA9190ADCABF79D69" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Props und eVars unterscheiden sich hauptsächlich in Folgendem:
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_D2F11B5687484D9EBF6D1DEB3F303A20" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Berechnete Metriken  </p> </td> 
+   <td colname="col1"> <p>Berechnete Metriken </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_7FAB1CF2ACC44D9198C648D3FC9E52D9" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_8BCC2EE92CC04778809D1BD48D2623D7" /> </p> </td> 
   </tr> 
@@ -69,7 +69,7 @@ Props und eVars unterscheiden sich hauptsächlich in Folgendem:
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_D75C764B83AE4491A7E68C459FED1300" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Einstiege </p> </td> 
+   <td colname="col1"> <p>Einträge </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_E9A1FCDFCB924D75ABFAEBD5570D4EE0" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_F5E57974B5A64F3FA3A145428420EB23" /> </p> </td> 
   </tr> 
@@ -133,14 +133,14 @@ Props und eVars unterscheiden sich hauptsächlich in Folgendem:
 
 * **Aufschlüsselung**: Props verwenden Korrelationen, mit denen Seitenansichten für andere Traffic-Variablen angezeigt werden, die in derselben Bildanforderung ausgelöst werden. eVars verwenden Subrelationen, die eine Aufschlüsselung anderer Konversionsvariablen in Bezug auf Erfolgsereignisse bereitstellen.
 
-## Vorteile von Eigenschaften oder eVars {#section_B384031AB8674065BA5187B0A3A3DAB9}
+## Vorteile von Props oder eVars {#section_B384031AB8674065BA5187B0A3A3DAB9}
 
 Mit der Veröffentlichung von Version 15 wurden die Unterschiede zwischen Eigenschaften und eVars deutlich verringert. Vor Kurzem wurden die eVars aktualisiert, sodass sie nun über Funktionen wie Besuche/Unique Visitor sowie Pfadverfolgungsmetriken verfügen und bei deren Verarbeitung eine minimale Belastung verursachen.
 
 Die Eigenschaften verfügen über einige Vorteile im Vergleich zu eVars. Einige davon können umgangen werden:
 
 * Eigenschaftsdaten werden bei der Berichterstellung sofort gesammelt und verfügbar gemacht. Bei eVars kann es bis zu 30 Minuten dauern, bis die Daten in der Report Suite angezeigt werden.
-* Für alle Eigenschaften können flussdiagrammähnliche Berichte aktiviert werden, bei denen der Pfad ersichtlich wird, den Benutzer genommen haben. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* Für alle Eigenschaften können flussdiagrammähnliche Berichte aktiviert werden, bei denen der Pfad ersichtlich wird, den Benutzer genommen haben. Diese Pfadflussberichte sind in [!UICONTROL Ad Hoc Analysis] sowohl für Props als auch für eVars verfügbar.
 * Eigenschaften können auf mehreren Ebenen zusammenspielen, während eVars nur einmal untergeordnet verknüpft werden können. Diese Einschränkung kann durch die Verwendung einer Segmentierung umgangen werden, bei der identische Daten als Bezüge bereitgestellt werden.
 * Beitragsmetriken ermöglichen die Anzeige der Eigenschaftswerte, die auf dem Weg zu einem Erfolgsereignis eine Rolle spielten.
 
@@ -159,5 +159,5 @@ Pfadmetriken wie Gesamtbesuchszeit, Aufrufe und Schließvorgänge waren ursprün
 
 >[!TIP]
 >
->Wenn Sie nicht möchten, dass eine evar beibehalten wird, können Sie den Ablauf auf "Treffer" ändern, damit keine Daten über den Treffer hinaus aufbewahrt werden.
+>Wenn Sie nicht möchten, dass eine eVar fortbesteht, können Sie als Ende der Gültigkeit „Treffer“ festlegen, sodass nach dem Treffer keine Daten mehr erfasst werden.
 
