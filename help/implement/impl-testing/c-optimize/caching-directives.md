@@ -2,19 +2,19 @@
 description: Die JavaScript-Bibliotheksdatei soll nach dem ersten Laden einer Seite im Browser des Benutzers zwischengespeichert bleiben.
 keywords: Analytics-Implementierung
 seo-description: Die JavaScript-Bibliotheksdatei soll nach dem ersten Laden einer Seite im Browser des Benutzers zwischengespeichert bleiben.
-seo-title: Anweisungen für die Zwischenspeicherung
+seo-title: Caching-Anweisungen
 solution: Analytics
-subtopic: 'Fehlerbehebung '
-title: Anweisungen für die Zwischenspeicherung
+subtopic: Fehlerbehebung
+title: Caching-Anweisungen
 topic: Entwickler und Implementierung
-uuid: 6 bd 2 c 26 d -93 ee -4039-8 beb -6 a 6 b 16218 a 07
-translation-type: tm+mt
+uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Anweisungen für die Zwischenspeicherung
+# Caching-Anweisungen
 
 Die JavaScript-Bibliotheksdatei soll nach dem ersten Laden einer Seite im Browser des Benutzers zwischengespeichert bleiben.
 
