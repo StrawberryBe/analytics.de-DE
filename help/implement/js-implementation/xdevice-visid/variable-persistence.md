@@ -2,22 +2,22 @@
 description: Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Zuordnung im Verlaufsdatensatz nicht geändert.
 keywords: Analytics-Implementierung
 seo-description: Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Zuordnung im Verlaufsdatensatz nicht geändert.
-seo-title: Zuordnung und Persistenz
+seo-title: Attribution und Persistenz
 solution: Analytics
-title: Zuordnung und Persistenz
+title: Attribution und Persistenz
 topic: Entwickler und Implementierung
-uuid: 5 dd 706 be -83 f 6-498 a-a 856-e 3 c 5 af 995348
-translation-type: tm+mt
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# Zuordnung und Persistenz
+# Attribution und Persistenz
 
 >[!IMPORTANT]
 >
->Diese Methode zur Identifizierung von Besuchern auf Gerätegeräten wird nicht mehr empfohlen. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud-Gerätekooperations-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcdc/).
 
 Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Zuordnung im Verlaufsdatensatz nicht geändert.
 
@@ -33,10 +33,10 @@ Im folgenden Beispiel wird gezeigt, wie Daten an Adobe Analytics gesendet werden
 
 * `eVar16` hat einen Ablauf von 1 Tag und `evar17` läuft beim Besuch ab.
 
-* The `post_visitor_id` column represents the profile maintained by Adobe Analytics.
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* Die Spalte `post_visitor_id` stellt das von Adobe Analytics verwaltete Profil dar.
+* Die Spalten `post_evar16` und `post_evar17` zeigen die Persistenz von eVars an.
 
-* `cust_visid` stellt einen in `s.visitorID`festgelegten Wert dar.
+* `cust_visid` steht für einen in `s.visitorID` festgelegten Wert.
 
 * Jede Zeile ist ein „Treffer“, also eine einzelne Anforderung, die an den Adobe Analytics-Datenerfassungsserver gesendet wird.
 
