@@ -6,8 +6,8 @@ seo-title: Pfadübersicht
 solution: Analytics
 title: Pfadübersicht
 topic: Entwickler und Implementierung
-uuid: 18 acfd 9 f -4 e 5 f -4 c 2 d -8 be 8-743 be 135 e 7 d 6
-translation-type: tm+mt
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
@@ -23,6 +23,6 @@ Im Lieferzustand bietet Analytics die Pathing-Funktion auf Seitenebene an. Der Z
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
+>Navigieren Sie zum Aktivieren von Pfaden zu **[!UICONTROL Admin &gt; Report Suites &gt; Einstellungen bearbeiten &gt; Traffic &gt; Traffic-Variablen]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+Erfahren Sie mehr über leistungsstarke Pfadsetzungsoptionen (Fluss) in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
