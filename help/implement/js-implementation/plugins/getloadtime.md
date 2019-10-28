@@ -6,8 +6,8 @@ seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
 topic: Entwickler und Implementierung
-uuid: 5 d 26 a 69 b-cbde -4 be 1-bac 1-5 ee 8 a 4 e 55 ca 3
-translation-type: tm+mt
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Um dieses Plug-in zu verwenden, fügen Sie den Funktionscode ein und rufen die F
 
 >[!NOTE]
 >
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+>Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code und -Implementierung {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **Erstmaliger Aufruf der Funktion**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+Fügen Sie dem Plug-in `s_getLoadTime()` im Bereich des Anfangs von [!DNL s_code.js] und außerhalb jeglicher Funktionen einen Aufruf hinzu.
 
 **Letzter Aufruf der Funktion**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+Fügen Sie dem Plug-in `s_getLoadTime()` innerhalb der Funktion `s_doPlugins()` einen weiteren Aufruf hinzu und speichern Sie den zurückgegebenen Wert in einem „prop“, „eVar“ und/oder in einem numerischen Ereignis.
 
 Anwendungsbeispiel 1 – Speichern der Ladezeit für die Seite in „prop10“ und „eVar20“:
 
@@ -55,7 +55,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(Optional) Hinzufügen der Unterstützung für ältere Browser**
 
-Um ältere Browser zu unterstützen, die nicht über die Eigenschaft [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) verfügen, fügen Sie im HTML-Code dem Abschnitt „HEAD“ im Anfangsbereich, aber vor dem Aufruf von .js-, .css- oder anderen Dateien die folgende Zeile hinzu:
+Um ältere Browser zu unterstützen, die nicht über die Eigenschaft [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) verfügen, fügen Sie im HTML-Code dem Abschnitt „HEAD“ im Anfangsbereich, aber vor dem Aufruf von .js-, .css- oder anderen Dateien, die folgende Zeile hinzu:
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
