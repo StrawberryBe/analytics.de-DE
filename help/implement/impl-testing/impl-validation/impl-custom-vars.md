@@ -6,8 +6,8 @@ seo-title: Benutzerdefinierte Variablen
 solution: Analytics
 title: Benutzerdefinierte Variablen
 topic: Entwickler und Implementierung
-uuid: 54 adf 622-7 f 5-49 c 0-b 7 e 6-702 bb 2 f 17 b 1 c
-translation-type: tm+mt
+uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
