@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Entwickler und Implementierung
-uuid: e 923 c 86 c-eaa 6-4 e 17-a 3 a 4-0 e 08 af 886674
-translation-type: tm+mt
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -23,7 +23,7 @@ Das Plug-in ist hilfreich, um:
 * Ein Ereignis zur aktuellen „events“-Variablen hinzuzufügen
 * Einen Wert zu einer „list“-Variablen hinzuzufügen, ohne einen Wert in der Liste zu duplizieren
 * Ein Produkt auf Grundlage einer bestimmten Seitenlogik zur aktuellen Variablen „products“ hinzufügen
-* Werte zu den Parametern hinzuzufügen: *`linkTrackVars`* und *`linkTrackEvents`*
+* Werte zu den Parametern hinzuzufügen *`linkTrackVars`* und *`linkTrackEvents`*
 
 **Fall 1**
 
@@ -31,7 +31,7 @@ Das Plug-in ist hilfreich, um:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Szenario </p> </td> 
-   <td colname="col2"> <p>Fügen Sie <span class="term"> event 1 </span> zur aktuellen Ereignisvariablen, wobei sichergestellt wird, dass das Ereignis nicht dupliziert wird. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Fügen Sie <span class="term">event1</span> zur aktuellen Ereignisvariable hinzu und stellen Sie sicher, dass das Ereignis nicht dupliziert wird. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code </p> </td> 
@@ -50,7 +50,7 @@ Das Plug-in ist hilfreich, um:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Szenario </p> </td> 
-   <td colname="col2"> <p>Fügen Sie den Wert <span class="term"> Verlauf </span> zur Listenvariablen <span class="varname"> prop 1 </span>, mit <span class="term"> Verlauf </span> und <span class="term"> Verlauf </span> als derselbe Wert. </p> <p>s.prop1="Naturwissenschaft,Geschichte" </p> </td> 
+   <td colname="col2"> <p>Fügen Sie den Wert <span class="term">geschichte</span> zur Listenvariablen <span class="varname">prop1</span> hinzu, wobei <span class="term">geschichte</span> und <span class="term">Geschichte</span> als derselbe Wert gelten. </p> <p>s.prop1="Naturwissenschaft,Geschichte" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code </p> </td> 
@@ -58,21 +58,21 @@ Das Plug-in ist hilfreich, um:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ergebnisse </p> </td> 
-   <td colname="col2"> <p>s.prop1="Naturwissenschaft,Geschichte" </p> <p> <span class="term"> Der Verlauf </span> wird nicht hinzugefügt, da <span class="term"> der Verlauf </span> bereits in der Liste aufgeführt ist. </p> </td> 
+   <td colname="col2"> <p>s.prop1="Naturwissenschaft,Geschichte" </p> <p> <span class="term">geschichte</span> wird nicht hinzugefügt, da <span class="term">Geschichte</span> bereits in der Liste enthalten ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+>Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Implementierung {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 Führen Sie diese Schritte aus, um das APL-Plug-in zu implementieren.
 
 1. Fordern Sie den Plug-in-Code beim Kundendienst oder Ihrem zuständigen Adobe-Berater an.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. Fügen Sie der API-Funktion bei Bedarf in der Funktion *`s_doPlugins`* Aufrufe hinzu
 
 So könnte der Code auf Ihrer Site aussehen:
 
