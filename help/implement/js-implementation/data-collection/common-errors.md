@@ -4,11 +4,11 @@ keywords: Analytics-Implementierung
 seo-description: In den folgenden Abschnitten werden die häufigsten Fehler bei dynamischen Konten beschrieben.
 seo-title: Häufige Fehler
 solution: Analytics
-subtopic: 'Fehlerbehebung '
+subtopic: Fehlerbehebung
 title: Häufige Fehler
 topic: Entwickler und Implementierung
-uuid: 04345355-60 cc -4678-81 c 3-390 c 86752 df 1
-translation-type: tm+mt
+uuid: 04345355-60cc-4678-81c3-390c86752df1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 In den folgenden Abschnitten werden die häufigsten Fehler bei dynamischen Konten beschrieben.
 
-## Fest programmiertes Konto {#section_FB6F89BF317F45D387C00986ACA690BC}
+## Hartcodiertes Konto {#section_FB6F89BF317F45D387C00986ACA690BC}
 
 Wenn Daten stets an eine bestimmte Report Suite gesendet werden sollen, legen Sie [!UICONTROL s_dynamicAccountSelection] auf „false“ fest (alternativ dazu können die Variablen auch komplett entfernt werden):
 
@@ -32,7 +32,7 @@ Im oben gezeigten Beispiel wird „defaultreportsuiteid“ immer verwendet, nach
 
 ## Codeplatzierung {#section_05375CB2EF5A414794BC8209C906AEEB}
 
-Defining *`s_account`* after the lines of code does not override the dynamic account selection, as shown below.
+Beim Definieren von *`s_account`* hinter den Codezeilen wird die dynamische Kontoauswahl nicht überschrieben.
 
 ```js
 var s_account="defaultreportsuiteid" 
