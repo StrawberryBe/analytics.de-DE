@@ -1,13 +1,13 @@
 ---
 description: Analytics mithilfe von HTML-Bild-Tags implementieren (fest codierte Bildanforderung).
-keywords: Analytics-Implementierung; html image tag; fest programmierte Bildanforderung
+keywords: Analytics-Implementierung;HTML-Bild-Tag;fest codierte Bildanforderung
 seo-description: Analytics mithilfe von HTML-Bild-Tags implementieren (fest codierte Bildanforderung).
 seo-title: Analytics mithilfe von HTML-Bild-Tags implementieren
 solution: Analytics
 title: Analytics mithilfe von HTML-Bild-Tags implementieren
 topic: Entwickler und Implementierung
-uuid: 0 c 98 a 57-7 c 71-4362-812 c -36 e 37848 a 5 ae ae
-translation-type: tm+mt
+uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -30,7 +30,7 @@ Dieses Bild wird dann vom Browser angefordert. Bei der Anforderung dieses Bildes
    <td> <p>Diese Datei enthält gewöhnlichen Code zum: </p> 
     <ul id="ul_ED50D66F2B2B476E8D9063099995998D"> 
      <li id="li_E88F6F28EC8946469ADCEAFF2F0A4EBA">Abfragen des Browsers hinsichtlich verschiedener Eigenschaften, wie JavaScript-Version, BS-Version, Größe und Auflösung des verwendeten Bildschirms und anderer Variablen. </li> 
-     <li id="li_5CEBE37709D943B7921447FA7054A565">Kodieren und Verketten aller Variablen zu einer Bildanforderung(&lt;img&gt;), über die diese Variablen zu den Datenerfassungsservern gelangen. Dann wird auf eine JavaScript-Bibliotheksdatei verwiesen, die geladen und ausgeführt wird. </li> 
+     <li id="li_5CEBE37709D943B7921447FA7054A565">Kodieren und Verketten aller Variablen zu einer Bildanforderung (&lt;img&gt;), über die diese Variablen zu den Datenerfassungsservern gelangen. Dann wird auf eine JavaScript-Bibliotheksdatei verwiesen, die geladen und ausgeführt wird. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -44,9 +44,9 @@ JavaScript kann Browsereinstellungen ermitteln, auf die der Server keinen Zugrif
 
 * JavaScript ist sehr genau (98 bis 100 %). Manchmal ist eine höchstmögliche Genauigkeit gefragt, selbst in Situationen, in denen Benutzer schnell auf eine andere Seite weiterklicken, bevor das JavaScript ausgeführt wurde. Durch eine serverseitige Erstellung des Bild-Tags wird die Genauigkeit um einige Prozentpunkte gesteigert.
 * Für die Nachverfolgung von Konversionsereignissen wie Einkäufen, in denen die Genauigkeit besonders wichtig ist.
-* Diese Strategie kann auch verwendet werden, um die Bildanforderung vollständig in der <noscript> für die Verfolgung von Benutzern ohne javascript oder mit deaktiviertem javascript.
+* Diese Strategie kann auch verwendet werden, um die Bildanforderung im <noscript> Tag zur Verfolgung von Benutzern ohne JavaScript oder mit deaktiviertem JavaScript auszufüllen.
 
 >[!NOTE]
 >
->Die Verwendung von servergenerierten Image-Tags erfordert die Implementierung und ist schwieriger zu debuggen, bereitzustellen und zu warten. Adobe empfiehlt Kunden daher, bei jeder Seite wenn möglich eine JavaScript-basierte Datenerfassung zu bevorzugen. Bei Wahl dieser Implementierungsmethode werden verschiedene Berichte und Funktionen – wie Besucherklickzuordnung, Download-Links, Exitlinks und browserbasierte Variablen (Browserbreite, -höhe usw.) – nicht unterstützt oder können nicht erfasst werden.
+>Beim Einsatz Server-generierter Image-Tags ist die Implementierung zeitaufwendiger und das Debuggen, die Bereitstellung und die Wartung sind komplizierter. Adobe empfiehlt Kunden daher, bei jeder Seite wenn möglich eine JavaScript-basierte Datenerfassung zu bevorzugen. Bei Wahl dieser Implementierungsmethode werden verschiedene Berichte und Funktionen – wie Besucherklickzuordnung, Download-Links, Exitlinks und browserbasierte Variablen (Browserbreite, -höhe usw.) – nicht unterstützt oder können nicht erfasst werden.
 
