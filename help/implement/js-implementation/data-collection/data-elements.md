@@ -2,18 +2,18 @@
 description: Sie können die Werte von Formularelementen (z. B. Optionsfelder oder Kontrollkästchen) in Berichten erfassen. Dies hilft Ihnen bei der Analyse der wahrscheinlichsten Auswahlmöglichkeiten in Ihren Onlineformularen.
 keywords: Analytics-Implementierung
 seo-description: Sie können die Werte von Formularelementen (z. B. Optionsfelder oder Kontrollkästchen) in Berichten erfassen. Dies hilft Ihnen bei der Analyse der wahrscheinlichsten Auswahlmöglichkeiten in Ihren Onlineformularen.
-seo-title: Daten aus Formularelementen erfassen
+seo-title: Daten aus Formularelementen sammeln
 solution: Analytics
-title: Daten aus Formularelementen erfassen
+title: Daten aus Formularelementen sammeln
 topic: Entwickler und Implementierung
-uuid: e 0 c 13 b 96-e 1 ca -4744-a 912-60 ca 2 b 8 f 25 c 3
-translation-type: tm+mt
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Daten aus Formularelementen erfassen
+# Daten aus Formularelementen sammeln
 
 Sie können die Werte von Formularelementen (z. B. Optionsfelder oder Kontrollkästchen) in Berichten erfassen. Dies hilft Ihnen bei der Analyse der wahrscheinlichsten Auswahlmöglichkeiten in Ihren Onlineformularen.
 
@@ -25,7 +25,7 @@ Diese Informationen sind für fortgeschrittene Benutzer gedacht, die sowohl mit 
 
 ## GET-Methode {#section_7A2B35822BFF4F6EB57940B31AE6303A}
 
-Wenn Ihr Formular die [!UICONTROL GET]-Methode zur Datenübermittlung nutzt, können Sie in der Abfragezeichenfolge der URL für die auf die Formularübermittlung folgende Seite auf die gewünschten Daten zugreifen. Sie können das Plug-in  [!UICONTROL getQueryParam] nutzen, um diese Daten aus der Abfragezeichenfolge automatisch zu erfassen und es in der Variablen Ihrer Auswahl zu platzieren.
+Wenn Ihr Formular die [!UICONTROL GET]-Methode zur Datenübermittlung nutzt, können Sie in der Abfragezeichenfolge der URL für die auf die Formularübermittlung folgende Seite auf die gewünschten Daten zugreifen. Sie können das Plug-in [!UICONTROL getQueryParam] nutzen, um diese Daten aus der Abfragezeichenfolge automatisch zu erfassen und es in der Variablen Ihrer Auswahl zu platzieren.
 
 ## POST-Methode {#section_56715C30EF374BA7AA12B946B50E4A9A}
 
@@ -35,7 +35,7 @@ Wenn Ihr Formular Daten mittels einer [!UICONTROL POST]-Methode überträgt (was
 <input type="radio" name="music_genre" value="rock">
 ```
 
-Dieses Optionsfeld gehört zum Formularelement „musik_genre“. You then have access to the user's selected value by using $_POST['music_genre']. Dieser könnte in eine Variable geschrieben werden, die auf der Seite hinter der Formularübermittlung steht:
+Dieses Optionsfeld gehört zum Formularelement „musik_genre“. Über $_POST['musik_genre'] können Sie dann auf den vom Benutzer ausgewählten Wert zugreifen. Dieser könnte in eine Variable geschrieben werden, die auf der Seite hinter der Formularübermittlung steht:
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
