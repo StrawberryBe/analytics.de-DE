@@ -1,13 +1,13 @@
 ---
 description: Inhaltshierarchien werden meist eingesetzt, um zu zeigen, welche verschiedenen Pfade Besucher von einer bestimmten Seite, Ebene usw. aus eingeschlagen haben.
-keywords: Analytics-Implementierung; Inhalts-Hierarchiies; hier
+keywords: Analytics-Implementierung;Inhaltshierarchien;hier
 seo-description: Inhaltshierarchien werden meist eingesetzt, um zu zeigen, welche verschiedenen Pfade Besucher von einer bestimmten Seite, Ebene usw. aus eingeschlagen haben.
 seo-title: Zählen von Inhaltshierarchien
 solution: Analytics
 title: Zählen von Inhaltshierarchien
 topic: Entwickler und Implementierung
-uuid: d 41 df 92 d -65 fb -44 de-bf 46-8 fac 24303 dad
-translation-type: tm+mt
+uuid: d41df92d-65fb-44de-bf46-8fac24303dad
+translation-type: ht
 source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 ---
@@ -17,9 +17,9 @@ source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 Inhaltshierarchien werden meist eingesetzt, um zu zeigen, welche verschiedenen Pfade Besucher von einer bestimmten Seite, Ebene usw. aus eingeschlagen haben.
 
-**Wie kann ich meine[!UICONTROL Inhaltshierarchie verfolgen]?**
+**Wie soll ich meine[!UICONTROL Inhaltshierarchie nachverfolgen]?**
 
-Zuerst müssen Sie wissen, welche Anforderungen es hinsichtlich der Berichterstellung beim Nachverfolgen von [!UICONTROL Inhaltshierarchien] gibt. Wenn die Anforderungen für das Nachverfolgen der Hierarchie sehr detailliert sind, empfiehlt sich meist der Einsatz der Hierarchievariablen ( *`hier`*) empfohlen wird. Bei Hierarchien ist für gewöhnlich eine strenge, vordefinierte Strukturierung erforderlich, bei der ein untergeordneter Knoten nur in den seltensten Fällen mehrere übergeordnete Knoten besitzt. Siehe folgendes Beispiel:
+Zuerst müssen Sie wissen, welche Anforderungen es hinsichtlich der Berichterstellung beim Nachverfolgen von [!UICONTROL Inhaltshierarchien] gibt. Wenn die Anforderungen für das Nachverfolgen der Hierarchie sehr detailliert sind, empfiehlt sich meist der Einsatz der Hierarchievariable ( *`hier`*). Bei Hierarchien ist für gewöhnlich eine strenge, vordefinierte Strukturierung erforderlich, bei der ein untergeordneter Knoten nur in den seltensten Fällen mehrere übergeordnete Knoten besitzt. Siehe folgendes Beispiel:
 
 [!UICONTROL Globale Hierarchie]
 
@@ -29,7 +29,7 @@ In diesem Beispiel wird die Hierarchie bis hinunter auf die Sprachenebene aufges
 
 Wenn Benutzer in der Lage sein sollen, sich in der Site weiter abwärts zu bewegen (ähnlich wie beim Durchsuchen einer Site) und Sie einen Bericht über [!UICONTROL Unique Visitors] auf den einzelnen Ebenen der Site haben möchten, empfiehlt sich die Verwendung der Hierarchievariablen.
 
-In einigen Fällen ist die Verwendung von Eigenschaftsvariablen und der Variablen *`hier`* sinnvoll. Nachfolgend ist aufgeführt, in welchen Fällen beide Variablentypen kombiniert werden können:
+In einigen Fällen ist die Verwendung von Props und der Variable *`hier`* sinnvoll. Nachfolgend ist aufgeführt, in welchen Fällen beide Variablentypen kombiniert werden können:
 
 <table id="table_E960D100DA0F433A94A4B246D6EF0D0A"> 
  <thead> 
@@ -61,7 +61,7 @@ In einigen Fällen ist die Verwendung von Eigenschaftsvariablen und der Variable
    <td> <p><img  src="assets/check-mark.png" id="image_1E9E302D999146128CDBCE13E52BC38C" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Classifications    </td> 
+   <td> Classifications </td> 
    <td> <p><img  src="assets/check-mark.png" id="image_FC5FEFE7BA8C4475BA4F31D57302BE6B" /> </p> </td> 
    <td> </td> 
   </tr> 
