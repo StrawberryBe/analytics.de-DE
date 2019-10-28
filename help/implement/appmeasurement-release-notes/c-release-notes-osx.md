@@ -7,7 +7,7 @@ subtopic: Versionshinweise
 title: Mac OS X
 topic: Entwickler und Implementierung
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!IMPORTANT]
 >
->Diese SDKs wurden nicht mehr unterstützt oder werden nicht mehr von Adobe verteilt.
+>Diese SDKs werden nicht mehr unterstützt oder werden nicht mehr von Adobe verteilt.
 
 >[!NOTE]
 >
->Um die aktuelle Bibliotheksversion zu finden, aktivieren Sie die Debug-Protokollierung.
+>Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+Die Mobile-Bibliothek-[Downloads](https://marketing.adobe.com/developer/de/get-started/mobile/c-measuring-mobile-applications) sind unter [!DNL Developer Connection] verfügbar.
 
 ## Version 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Releasedatum: **16. August 2013**
 Releasedatum: **5. August 2013**
 
 * Unterstützung für Adobe Audience Manager hinzugefügt.
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* Lebenszyklusdaten werden jetzt mit [!DNL Target]-Mbox-Anfragen gesendet.
 
 ## Version 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -61,10 +61,10 @@ Releasedatum: **18. April 2013**
 
 Releasedatum: **21. März 2013**
 
-* `ADMS_Measurement.visitorID` wird jetzt vorab mit dem Standardwert ausgefüllt.
+* `ADMS_Measurement.visitorID` wird jetzt automatisch auf den Standardwert festgelegt.
 
 ## Version 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
 Releasedatum: **Februar 2013**
 
-Erstes Release. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+Erstes Release. Diese Version basiert auf der [!DNL iOS] 3.1.4-Codebase, daher wurde die erste Versionsnummer so festgelegt, das sie mit [!DNL iOS] übereinstimmt.
