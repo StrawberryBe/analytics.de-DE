@@ -1,13 +1,13 @@
 ---
 description: Metriken sind quantitative Informationen über Besucheraktivitäten, wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
-keywords: Analytics-Implementierung; Metriken; Traffic-Metrik; Konversionsmetrik; Videometrik; soziale Metrik; berechnete Metrik; Seitenansicht; visit; individueller Besucher
+keywords: Analytics-Implementierung;Metriken;Traffic-Metrik;Konversionsmetrik;Videometrik;soziale Metrik;berechnete Metrik;Seitenansicht;Besuch;Unique Visitor
 seo-description: Metriken sind quantitative Informationen über Besucheraktivitäten, wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 seo-title: Metriken
 solution: Analytics
 title: Metriken
 topic: Entwickler und Implementierung
-uuid: d 2 addb 55-cae 6-470 d-b 482-303 ef 365809 c
-translation-type: tm+mt
+uuid: d2addb55-cae6-470d-b482-303ef365809c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -45,9 +45,9 @@ Metriken bilden die Grundlage für Berichte und helfen Ihnen, Datenbeziehungen a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berechnete Metriken </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external"> Berechnete Metriken</a> ermöglichen Ihnen die Kombination von Metriken zu mathematischen Operationen, die als neue Metriken eingesetzt werden. Diese Metriken können für Berichte erstellt werden, denen Sie Metriken hinzufügen möchten. Administratoren können berechnete Metriken für alle Benutzer einer Report Suite erstellen. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/de_DE/reference/calculated_metric.html" format="html" scope="external"> Berechnete Metriken</a> ermöglichen Ihnen die Kombination von Metriken zu mathematischen Operationen, die als neue Metriken eingesetzt werden. Diese Metriken können für Berichte erstellt werden, denen Sie Metriken hinzufügen möchten. Administratoren können berechnete Metriken für alle Benutzer einer Report Suite erstellen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Metrikdefinitionen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) in der Analytics-Hilfe und -Referenz.
+Metrikdefinitionen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/de_DE/reference/metrics.html) in der Hilfe und Referenz zu Analytics.
