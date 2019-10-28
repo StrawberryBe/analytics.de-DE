@@ -2,22 +2,22 @@
 description: In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgeführt oder angegeben, in welchen Berichten und Variablen diese verwendet werden.
 keywords: Analytics-Implementierung
 seo-description: In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgeführt oder angegeben, in welchen Berichten und Variablen diese verwendet werden.
-seo-title: Zuordnung von Berichten zur Variablenzuordnung
+seo-title: Zuordnung von Berichten zu Variablen
 solution: Analytics
-title: Zuordnung von Berichten zur Variablenzuordnung
+title: Zuordnung von Berichten zu Variablen
 topic: Entwickler und Implementierung
-uuid: 4707660 c -4 be 5-425 c-a 690-7 bc 6 df 4 cc 0 fa
-translation-type: tm+mt
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Zuordnung von Berichten zur Variablenzuordnung
+# Zuordnung von Berichten zu Variablen
 
 In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgeführt oder angegeben, in welchen Berichten und Variablen diese verwendet werden.
 
-**Umrechnungsberichte** Die folgende Tabelle listet die Konversionsvariablen auf, die zum Füllen der einzelnen Berichte verwendet werden:
+**Konversionsberichte** In der folgenden Tabelle sind die Konversion-Variablen aufgeführt, mit denen die einzelnen Berichte aufgefüllt werden:
 
 | Einkäufe |
 |---|
@@ -30,8 +30,8 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 |---|
 | Konversionen und Durchschnittswerte | s.events, s.products, s.purchaseID |  |
 | Korb | s.events | „s.events“ auf „scOpen“ festlegen |
-| Warenkorbansichten | s.events | „s.events“ auf „scView“ festlegen |
-| Zusätze zum Warenkorb | s.events | „s.events“ auf „scAdd“ festlegen |
+| Warenkorbansicht | s.events | „s.events“ auf „scView“ festlegen |
+| Zusatz zum Warenkorb | s.events | „s.events“ auf „scAdd“ festlegen |
 | Entnahme aus Warenkorb | s.events | „s.events“ auf „scRemove“ festlegen |
 | Checkouts | s.events | „s.events“ auf „scCheckout“ festlegen |
 
@@ -52,8 +52,8 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 |---|
 | Konversionen und Durchschnittswerte | s.products, s.events, s.campaign |  |
 | Trackingcode | s.campaign |  |
-| Bericht | Keine | Defined in [!DNL Analytics] |
-| Kampagnen | Keine | Defined in [!DNL Analytics] |
+| Bericht | Keine | Definiert in [!DNL Analytics] |
+| Kampagnen | Keine | Definiert in [!DNL Analytics] |
 
 | Kundentreue |
 |---|
@@ -63,17 +63,17 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 |---|
 | Tage bis Erstkauf | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
 | Tage seit letztem Kauf | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
-| Besuchsnummer | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
+| Besuchnummer | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
 | Unique Customers pro Tag | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
 | Unique Customers pro Monat | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
 | Unique Customers pro Jahr | s.products, s.events, s.purchaseID | Variablen werden auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
 
 | Suchmethoden |
 |---|
-| Verweisende Domänen | Keine | Automatisch von der JS-Datei festgelegt |
-| Ursprünglich verweisende Domänen | Keine | Automatisch von der JS-Datei festgelegt |
+| Referrerdomänen | Keine | Automatisch von der JS-Datei festgelegt |
+| Ursprünglich Referrerdomänen | Keine | Automatisch von der JS-Datei festgelegt |
 | Suchmaschinen | Keine | Automatisch von der JS-Datei festgelegt |
-| Keywords | Keine | Automatisch von der JS-Datei festgelegt |
+| Suchkeywords | Keine | Automatisch von der JS-Datei festgelegt |
 
 | Besucherprofil |
 |---|
@@ -97,7 +97,7 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 | Ursprüngliche Entrypages | s.pageName |  |
 | Seiten pro Besuch | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 | Besuchszeit pro Site | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Site-Abschnitte | [!UICONTROL s.channel] | Entspricht dem [!UICONTROL Kanal]bericht im Bereich [!UICONTROL Traffic]-Berichte |
+| Sitebereiche | [!UICONTROL s.channel] | Entspricht dem [!UICONTROL Kanal]bericht im Bereich [!UICONTROL Traffic]-Berichte |
 
 | Benutzerdefinierte Variablen |
 |---|
@@ -111,7 +111,7 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 
 In der folgenden Tabelle sind die [!UICONTROL Traffic]-Variablen aufgeführt, mit denen die einzelnen Berichte aufgefüllt werden:
 
-| Berechnete Metrik |
+| Berechnete Metriken |
 |---|
 | Keine | Keine | Keine |
 
@@ -123,14 +123,14 @@ In der folgenden Tabelle sind die [!UICONTROL Traffic]-Variablen aufgeführt, mi
 | Unique Visitors pro Monat | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 | Unique Visitors pro Jahr | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 | Besuche | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Dateidownloads | Keine | Wird (je nach Einstellungen der JS-Variablen) automatisch von der JS-Datei verfolgt |
+| Dateiladungen | Keine | Wird (je nach Einstellungen der JS-Variablen) automatisch von der JS-Datei verfolgt |
 
 | Suchmethoden |
 |---|
-| Verweisende Domänen | Keine | Automatisch von der JS-Datei festgelegt |
+| Referrerdomänen | Keine | Automatisch von der JS-Datei festgelegt |
 | Verweisende Stellen | Keine | Automatisch von der JS-Datei festgelegt |
 | Suchmaschinen | Keine | Automatisch von der JS-Datei festgelegt |
-| Keywords | Keine | Automatisch von der JS-Datei festgelegt |
+| Suchkeywords | Keine | Automatisch von der JS-Datei festgelegt |
 | Rückkehrhäufigkeit | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 | Rückkehrende Besucher pro Tag | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 | Rückkehrende Besucher | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
@@ -183,7 +183,7 @@ In der folgenden Tabelle sind die [!UICONTROL Traffic]-Variablen aufgeführt, mi
 | Custom Insight |
 |---|
 | Benutzerspezifische Links | s.linkName | Muss benutzerdefiniert implementiert werden |
-| Custom Insight  1 | s.prop1 |  |
+| Custom Insight 1 | s.prop1 |  |
 | … | … |  |
 | Custom Insight 75 | s.prop75 |  |
 
