@@ -1,12 +1,12 @@
 ---
 description: Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der AppMeasurement-Code für Sie verwaltet.
-keywords: Dynamisches Tag-Management;Plugins;Staging;Auswirkungen auf aktuelle Einstellungen;Revisionsverlauf;potenzielle Fallstricke;Report Suite-ID;Währungscode;Trackingserver;ssl-Trackingserver;benutzerdefinierter Code;Bibliotheksverwaltung
+keywords: Dynamic Tag Management;Plug-ins;Staging;Wirkung auf aktuelle Einstellungen;Überarbeitungsverlauf;Potenzielle Fallstricke;Report Suite-ID;Währungscode;Tracking-Server;SSL-Tracking-Server;benutzerdefinierter Code;Bibliotheksverwaltung
 seo-description: Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der AppMeasurement-Code für Sie verwaltet.
 seo-title: Häufig gestellte Fragen zum Adobe Analytics-Tool
-solution: Experience Cloud, Analytics, Target, Dynamisches Tag-Management
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Häufig gestellte Fragen zum Adobe Analytics-Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Häufig gestellte Fragen zum Adobe Analytics-Tool
 
-Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytics-Implementierung. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
+Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der [!DNL AppMeasurement]-Code für Sie verwaltet.
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -26,15 +26,15 @@ Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytic
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Wo füge ich meine Plugins ein, wenn ich Adobe Analytics über DTM implementiere? </p> </td> 
-   <td colname="col2"> <p> Wenn Sie DTM zum manuellen Hosten des <code>s_code</code> verwenden, können Plugins im selben Editor wie der gehostete <code>s_code</code> hinzugefügt werden, ganz so wie bei einer typischen Adobe Analytics-Implementierung. </p> <p>Es ist jedoch auch eine Option, die Plugins im Editor im Abschnitt "Seiten-Code<span class="term"> </span> anpassen"der Tool-Einstellungen zu platzieren. Beide Implementierungsmethoden sollten gleichermaßen effektiv sein. </p> </td> 
+   <td colname="col2"> <p> Wenn Sie DTM zum manuellen Hosten des <code>s_code</code> verwenden, können Plugins im selben Editor wie der gehostete <code>s_code</code> hinzugefügt werden, ganz so wie bei einer typischen Adobe Analytics-Implementierung. </p> <p>Es ist jedoch auch eine Option, die Plug-ins im Editor im Abschnitt <span class="term">Seiten-Code anpassen</span> der Tool-Einstellungen zu platzieren. Beide Implementierungsmethoden sollten gleichermaßen effektiv sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wenn ich in der neuen Version des Tools Änderungen an der Konfiguration vornehme, kann ich sie im Staging testen, bevor ich sie in der Produktion veröffentliche? </p> </td> 
-   <td colname="col2"> <p>Ja.  </p> <p>Alle Änderungen können im Staging getestet werden, so wie Sie es normalerweise auch vor der Bereitstellung in einer Produktionsumgebung tun würden. Wenn Sie sich gegen eine Veröffentlichung entscheiden, weil Sie im Staging Probleme feststellen, funktioniert der Produktionscode weiterhin wie vor der Veröffentlichung der neuen Integration. </p> </td> 
+   <td colname="col2"> <p>Ja. </p> <p>Alle Änderungen können im Staging getestet werden, so wie Sie es normalerweise auch vor der Bereitstellung in einer Produktionsumgebung tun würden. Wenn Sie sich gegen eine Veröffentlichung entscheiden, weil Sie im Staging Probleme feststellen, funktioniert der Produktionscode weiterhin wie vor der Veröffentlichung der neuen Integration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wenn ich von manueller Konfiguration (Standardeinstellung für vorhandene Tools) auf automatische Konfiguration umstelle, wirkt sich dies auf meine aktuellen Einstellungen aus? </p> </td> 
-   <td colname="col2"> <p>Nein.  </p> </td> 
+   <td colname="col2"> <p>Nein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wenn ich von manueller Bibliotheksverwaltung auf „Verwaltet von Adobe“ umstelle, wirkt sich dies auf meine aktuellen Einstellungen oder meinen Code aus? </p> </td> 
@@ -47,7 +47,7 @@ Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytic
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+Siehe [Adobe Analytics-Tool hinzufügen](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8), um Konfigurationsinformationen zu erhalten
 
 ## Potenzielle Fallstricke {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
@@ -58,5 +58,5 @@ Um diese Probleme zu vermeiden, stellen Sie Folgendes sicher:
 * Die Report Suite-IDs sind im Tool richtig eingegeben.
 * Die Report Suite-IDs im Tool stimmen mit den IDs im [!DNL AppMeasurement]-Code überein.
 * Die Konfigurationsfelder für Währungscode, Zeichensatz, Tracking-Server und SSL-Tracking-Server sind korrekt mit den unterstützten Werten eingerichtet.
-* Benutzerdefinierter Code wird in definiert [!DNL Library Management].
+* Benutzerdefinierter Code wird in [!DNL Library Management] definiert.
 
