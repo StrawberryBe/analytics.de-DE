@@ -1,33 +1,33 @@
 ---
 description: Bei einer Implementierung von Analytics ohne JavaScript sind noch weitere Anforderungen und Konfigurationsschritte erforderlich.
-keywords: Analytics-Implementierung; Groß-/Kleinschreibung beachten; Kodieren von Abfrageparametern; ungültige Zeichen; sichere Bildanforderungen; maximale Variablenlänge; verweist; url; caching; namespace
+keywords: Analytics-Implementierung;von Schreibweise abhängig;Abfrageparameter codieren;ungültige Zeichen;sichere Bildanforderungen;maximale Länge von Variablen;verweisen;URL;Caching;Namespace
 seo-description: Bei einer Implementierung von Analytics ohne JavaScript sind noch weitere Anforderungen und Konfigurationsschritte erforderlich.
-seo-title: Implementierung ohne javascript-Richtlinien
+seo-title: Ohne JavaScript-Richtlinien implementieren
 solution: Analytics
-title: Implementierung ohne javascript-Richtlinien
+title: Ohne JavaScript-Richtlinien implementieren
 topic: Entwickler und Implementierung
-uuid: c 672 dd 63-1 c 74-4 f 66-8992-9257 c 5 a 75 e 36
-translation-type: tm+mt
+uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Implementierung ohne javascript-Richtlinien
+# Ohne JavaScript-Richtlinien implementieren
 
 Bei einer Implementierung von Analytics ohne JavaScript sind noch weitere Anforderungen und Konfigurationsschritte erforderlich.
 
-Zum besseren Verständnis der Implementierung können Sie sich Codebeispiele ansehen. Die folgenden Informationen beschreiben die zusätzlichen Anforderungen und Konfigurationen:
+Zum besseren Verständnis der Implementierung können Sie sich Codebeispiele ansehen. In den folgenden Informationen sind die zusätzlichen Anforderungen und Konfigurationsschritte aufgeführt:
 
 <!--Meike, I converted this from a table. Table within a table was a mess, and I'm not sure I captured everything. Please check this content against the orginal. -Bob -->
 
 **Groß-/Kleinschreibung**
 
-The parameter names (`pageName`, `purchaseID`, and so forth) are case-sensitive and will not properly record data unless they appear as designated in the table displayed in [Query Parameters](../../../implement/js-implementation/data-collection/query-parameters.md).
+Bei den Parameternamen (`pageName`, `purchaseID` usw.) muss auf die richtige Groß-/Kleinschreibung geachtet werden. Andernfalls werden Daten nur dann korrekt erfasst, wenn der Parameter in der Tabelle im Abschnitt [Abfrageparameter](../../../implement/js-implementation/data-collection/query-parameters.md) zugewiesen ist.
 
 **Kodierung von Abfrageparametern**
 
-Die Werte aller Abfragezeichenfolgen-Parameter müssen URL-kodiert werden. URL encoding converts characters that are normally illegal when appearing in a query string, such as a space character, into an encoded character beginning with `%`. For example, a space character is converted into `%20`.
+Die Werte aller Abfragezeichenfolgen-Parameter müssen URL-kodiert werden. Bei der URL-Codierung werden Zeichen, die in einer Abfragezeichenfolge normalerweise unzulässig sind (wie z. B. Leerzeichen) in codierte Zeichen umgewandelt, die mit `%` beginnen. So wird zum Beispiel ein Leerzeichen in `%20` umgewandelt.
 
 Die JavaScript-Version dieser Funktion heißt „escape“ (bzw. „unescape“ zum Dekodieren). Auch Microsoft IIS Version 5.0 verfügt über Escape- und Unescape-Funktionalität für die Kodierung von Abfragezeichenfolgen. Des Weiteren enthalten auch andere Webserver-Skriptsprachen Kodierung-/Dekodierungs-Hilfsprogramme.
 
@@ -39,33 +39,33 @@ Zu jeder Variablen gibt es eine maximal erlaubte Länge. Nähere Angaben zu den 
 
 Unzulässig sind nicht druckfähige Zeichen mit einer ASCII-Nummer kleiner als 128 sowie alle Zeichen oberhalb der 128. Ebenfalls unzulässig sind HTML-Formatierungen („&lt;h1&gt;“) sowie Markenzeichen, eingetragene Markenzeichen und Copyright-Symbole.
 
-**Sicher (&lt; HTTPS: &gt; im Vergleich zu nicht sicher (&lt; http: &gt;) Bildanforderungen**
+**Bildanforderungen über sichere (&lt;https:&gt;) oder nicht sichere (&lt;http:&gt;) Verbindungen**
 
 Bei Seiten, auf die über HTTPS (sichere Verbindung) zugegriffen wird, wird der URL-Teil der Bildanforderungen so geändert, dass eine andere Gruppe von Datenerfassungsservern angesprochen wird.
 
-Die folgenden Informationen zeigen die verschiedenen urls, die für sichere und nicht sichere Bildanforderungen verwendet werden.
+Welche Unterschiede es bei URLs für sichere und nicht sichere Bildanforderungen gibt, sehen Sie in den folgenden Informationen.
 
-* The `*` in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Da Adobe verschiedene Data Center einsetzt, ist es erforderlich, dass Sie die richtige URL implementieren, die Ihrem Unternehmen zugewiesen wurde. In jedem Code, den Sie von Ihrem Unternehmen aus über die Admin Console herunterladen, ist das richtige Data Center automatisch schon angegeben. An Code, den Sie aus externen Quellen beziehen, müssen Sie möglicherweise noch Korrekturen vornehmen, damit er auf das richtige Data Center verweist.
+* Das `*` in der oben aufgeführten URL bedeutet, dass dies eine Data-Center-spezifische URL ist, die Sie von Ihrem Adobe-Berater erhalten. Da Adobe verschiedene Data Center einsetzt, ist es erforderlich, dass Sie die richtige URL implementieren, die Ihrem Unternehmen zugewiesen wurde. In jedem Code, den Sie von Ihrem Unternehmen aus über die Admin Console herunterladen, ist das richtige Data Center automatisch schon angegeben. An Code, den Sie aus externen Quellen beziehen, müssen Sie möglicherweise noch Korrekturen vornehmen, damit er auf das richtige Data Center verweist.
 * Bei Kunden, die mehrere Report Suites verwenden, sollten diese nur im Verzeichnisteil (nicht im Domänenteil) der URL aufgeführt sein:
-* The `*` in the URL above denotes a data-center specific URL that is provided to you by your Adobe Consultant. Da Adobe verschiedene Data Center einsetzt, ist es erforderlich, dass Sie die richtige URL implementieren, die Ihrem Unternehmen zugewiesen wurde.
+* Das `*` in der oben aufgeführten URL bedeutet, dass dies eine Data-Center-spezifische URL ist, die Sie von Ihrem Adobe-Berater erhalten. Da Adobe verschiedene Data Center einsetzt, ist es erforderlich, dass Sie die richtige URL implementieren, die Ihrem Unternehmen zugewiesen wurde.
 
 **URL und Verweis-URL**
 
-The URL and Referring URL may be populated from the server in the `g=` and `r=` variables. Use the Request ServerVariables (`HTTP\_REFERRER`) or Request ServerVariables `(URL) (IIS/ASP)`, or the appropriate variable for your server/scripting technology. The referring URL `( r=)` is extremely important for tracking referring URLs, domains, search engines, and search terms.
+Die URL und die Verweis-URL können vom Server aus in den Variablen `g=` und `r=` angegeben werden. Verwenden Sie die Request ServerVariables (`HTTP\_REFERRER`) oder Request ServerVariables `(URL) (IIS/ASP)` oder die entsprechende Variable Ihrer Server/Skripttechnologie. Die Verweis-URL `( r=)` ist äußerst wichtig, um Verweis-URLs, Domänen, Suchmaschinen und Suchbegriffe verfolgen zu können.
 
-Wenn pagename nicht verwendet wird, ist es zwingend erforderlich, dass das Feld Aktuelle URL eindeutig ausgefüllt ist. If neither pageName nor Current URL `(g=)` is populated, the record is invalid and is not processed. Damit der Datensatz verarbeitet werden kann, muss mindestens das URL-Feld angegeben sein.
+Wenn pageName nicht verwendet wird, ist es wichtig, dass das Feld „Aktuelle URL“ eindeutig ausgefüllt ist. Wenn weder pageName noch „Aktuelle URL“ `(g=)` Werte enthalten, ist der Datensatz ungültig und wird nicht verarbeitet. Damit der Datensatz verarbeitet werden kann, muss mindestens das URL-Feld angegeben sein.
 
 **Auswirkungen von Zwischenspeicherung**
 
-HTML- und andere Webseiten können im Browser oder auf Servern, die sich zwischen dem Besucher und der Website mit den Inhalten befinden, zwischengespeichert werden. Die Zwischenspeicherung verhindert eine genaue Zählung von Seitenansichten und anderen Ereignissen, es sei denn, eine "Cache-Busting" -Technik wird verwendet.
+HTML- und andere Webseiten können im Browser oder auf Servern, die sich zwischen dem Besucher und der Website mit den Inhalten befinden, zwischengespeichert werden. Wenn keine Technik eingesetzt wird, die diese Zwischenspeicherung unterdrückt, kann dadurch eine exakte Zählung von Seitenansichten und anderer Ereignisse verhindert werden.
 
 Das standardmäßige JavaScript von Adobe enthält eine dynamische Methode, die Änderungen an den Bildanforderungen vornimmt und so deren Zwischenspeicherung unterbindet. So kann eine exakte Zählung der Seitenansichten sichergestellt werden.
 
 Diese zufallsbasierten Änderungen funktionieren jedoch nicht bei Bildanforderungen, die serverseitig erstellt werden. Erneut geladene Seiten und zwischengespeicherte Seiten (entweder im Cache des Browsers oder auf einem Proxyserver) werden beim Einsatz serverseitiger Bildanforderungen in manchen Fällen nicht mitgezählt.
 
-SSL (`https:`) pages are not, by definition, ever cached so this warning applies only to non-secure (`http:`) pages. Additionally, pages with parameters (`https://www.samplesite.com/page.asp?parameter=1`) or certain file extensions (`.asp`, `.jsp`, etc.) nicht zwischengespeichert.
+SSL-Seiten (`https:`) werden definitionsgemäß nie zwischengespeichert und diese Warnung gilt nur für nicht sichere Seiten (`http:`). Des Weiteren werden auch Seiten mit Parametern (`https://www.samplesite.com/page.asp?parameter=1`) oder bestimmten Dateierweiterungen (`.jsp`, `.asp`, usw.) nicht zwischengespeichert.
 
-Das Beispiel unten zeigt eine JavaScript-Minimallösung, bei der im Wesentlichen die serverseitige Bildanforderung zusammengestellt und eine Zufallszahl im Browser angehängt wird. Diese Methode überwindet die Zwischenspeicherung, die sonst auf statischen HTML-Seiten erfolgen würde, die über HTTPS aufgerufen werden: Protokoll.
+Das Beispiel unten zeigt eine JavaScript-Minimallösung, bei der im Wesentlichen die serverseitige Bildanforderung zusammengestellt und eine Zufallszahl im Browser angehängt wird. Dadurch wird die Zwischenspeicherung umgangen, die sonst bei Zugriffen auf statische HTML-Seiten über das HTTPS-Protokoll erfolgen würde.
 
 **nameSpace (Variable)**
 
