@@ -1,32 +1,32 @@
 ---
 description: In diesem Abschnitt finden Sie Beispielcode für Ihre Core-JavaScript-Datei und die Seiten auf Ihrer Website.
-keywords: Analytics-Implementierung; appmeasurement. js code; Beispiel-Seitencode
+keywords: Analytics-Implementierung;Code für AppMeasurement.js;Beispiel-Seiten-Code
 seo-description: In diesem Abschnitt finden Sie Beispielcode für Ihre Core-JavaScript-Datei und die Seiten auf Ihrer Website.
-seo-title: Beispiel-Seitencode und globale Konfiguration
+seo-title: Beispiel für Seiten-Code und globale Konfiguration
 solution: Analytics
 subtopic: JavaScript AppMeasurement
-title: Beispiel-Seitencode und globale Konfiguration
+title: Beispiel für Seiten-Code und globale Konfiguration
 topic: Entwickler und Implementierung
-uuid: e 8880 d 77-172 b -42 e 5-8187-ce 371 aa 9 sf 9
-translation-type: tm+mt
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Beispiel-Seitencode und globale Konfiguration
+# Beispiel für Seiten-Code und globale Konfiguration
 
 In diesem Abschnitt finden Sie Beispielcode für Ihre Core-JavaScript-Datei und die Seiten auf Ihrer Website.
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). Wenn Sie den Besucher-ID-Service in AppMeasurement aktivieren, bevor Sie die Besucher-API-JavaScript-Datei auf allen Webseiten eingebunden haben, hat dies möglicherweise doppelte Besucherzählungen zur Folge. Um doppelte Besucherzählungen zu vermeiden, befolgen Sie den unter [Besucher-ID-Service](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>In diesem Beispiel wird der Besucher-ID-Service verwendet, der als Teil Ihrer [JavaScript-Implementierung](../../implement/js-implementation/javascript-implementation-overview.md) bereitgestellt wird. Wenn Sie den Besucher-ID-Service in AppMeasurement aktivieren, bevor Sie die Besucher-API-JavaScript-Datei auf allen Webseiten eingebunden haben, hat dies möglicherweise doppelte Besucherzählungen zur Folge. Um doppelte Besucherzählungen zu vermeiden, befolgen Sie die Vorgehensweise unter [Besucher-ID-Service](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
 
 ## Beispielcode für AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>Konfigurationsvariablen sollten über die Funktion *`doPlugins`* festgelegt werden.
 
 Bei neuen Implementierungen können Sie zum Einstieg den folgenden globalen Konfigurationscode am Anfang von AppMeasurement.js einfügen:
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## Beispiel-Seiten-Code {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-Bei neuen Implementierungen können Sie den folgenden Seiten-Code direkt nach dem Öffnen einfügen. <body> -tag auf Seiten, die Sie verfolgen möchten:
+Bei neuen Implementierungen können Sie den folgenden Seiten-Code direkt nach dem ersten <body> Tag auf Seiten einfügen, die Sie verfolgen möchten:
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Stellen Sie sicher, dass Sie auf jeder Seite stets auf `AppMeasurement.js` und `VisitorAPI.js` verweisen. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+Stellen Sie sicher, dass Sie auf jeder Seite stets auf `AppMeasurement.js` und `VisitorAPI.js` verweisen. Siehe [JavaScript-Implementierung](../../implement/js-implementation/javascript-implementation-overview.md) für Anweisungen.
