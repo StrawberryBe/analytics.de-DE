@@ -4,7 +4,7 @@ seo-description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Ana
 seo-title: Adobe Analytics – Schlüsselkonzepte
 title: Adobe Analytics – Schlüsselkonzepte
 translation-type: tm+mt
-source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
+source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
 
 ---
 
@@ -20,7 +20,7 @@ Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurz
 | Analysis Workspace | Browserlösung zum Erstellen robuster, benutzerdefinierter Analyseprojekte und Demokratisieren von Einblicken. Bietet mehr Berichtsflexibilität als Reports &amp; Analysen | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Reports &amp; Analysen (ehemals SiteCatalyst) | Browserlösung für die Berichterstellung und Analyse. Starter-Tool im Analytics-Paket. | [Reports &amp; Analysen - Startseite](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Excel-Add-in, mit dem Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen und diese mithilfe von Microsoft Excel visualisieren können. | [ReportBuilder-Startseite](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad-hoc-Analysen (früher Discover) | Java-basiertes Tool für erweiterte digitale Analysen. Ausgestellt für das Ende des Lebenszyklus im 3. Quartal 2019. | [Ad-hoc-Analysen-Homepage](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Ad-hoc-Analysen (früher Discover) | Java-basiertes Tool für erweiterte digitale Analysen. | [Ad-hoc-Analysen-Homepage](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
 | Data Workbench (ehemals Insight) | Wurde konstruiert, um Sie bei der Sammlung, Verarbeitung, Analyse und Visualisierung von Online- und Offline-Kundeninteraktionen über mehrere Kanäle hinweg zu unterstützen. | [Data Workbench Client](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
 | Data Warehouse | Unverarbeitete Rohdaten zur Speicherung und für benutzerdefinierte Berichte, die Sie durch Datenfilterung erstellen können. Nicht auf Treffer-Niveau. | [Data Warehouse - Home](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | Führt mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. | [Mobile Services - Startseite](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
