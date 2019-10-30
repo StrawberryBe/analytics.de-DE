@@ -8,7 +8,7 @@ title: Verwendung von „Zeitstempel optional“
 topic: Entwickler und Implementierung
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der 
 * Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
 * Aktualisieren Sie Apps, sodass Sie ohne Erstellung einer neuen Report Suite Zeitstempel verwenden können.
 
->[!NOTE]
->
->Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
+> [!NOTE] Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
 
 Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html).
 
@@ -33,7 +31,7 @@ Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optiona
 
 Mit der Funktion „Zeitstempel optional“ können Sie Daten mit und ohne Zeitstempel ohne Datenverlust kombinieren. Offline-Daten mit Zeitstempel von einem mobilen Gerät können – mittels eines clientseitigen Zeitstempelaufrufs – mit Daten ohne Zeitstempel einer Live-Webseite kombiniert oder in die Daten jeder Plattform integriert werden.
 
-* **Daten mit Zeitstempel**: Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
+* **Daten mit Zeitstempel**: Client-seitige Daten mit Zeitstempel werden erfasst und direkt mit den Gerätedaten über Client-seitige Zeitstempelvariablen übertragen: mittels Javascript von einer Webseite oder mittels eines Mobile SDK-Aufrufs ([!DNL offlineEnabled=true]) aus einer App.
 * **Daten ohne Zeitstempel**: Adobe versieht Daten einer Report Suite ohne Zeitstempel mit einem Zeitstempel, sobald die Daten beim Erfassungsserver eintreffen.
 
 ![](assets/timestamp_v_non2.png)
@@ -62,7 +60,7 @@ Sie können Daten auf verschiedene Weise zu einer globalen Report Suite kombinie
 
 >[!IMPORTANT]
 >
->Carefully plan the design for each component data set so the combination makes sense in a global report suite.
+>Nehmen Sie sich Zeit für die Planung des Designs jedes Komponenten-Datasets. Die Kombination in einer globalen Report Suite sollte schließlich sinnvoll sein.
 
 ## Best Practices in Verbindung mit Zeitstempeln {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
