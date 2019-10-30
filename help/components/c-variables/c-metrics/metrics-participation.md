@@ -5,9 +5,9 @@ seo-title: Beitrag
 solution: Analytics
 title: Beitrag
 topic: Metriken
-uuid: a 7 fa 791 d -0 a 77-429 e -808 e -4 f 97 bb 9 ae 5 fc
+uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Beitragsmetriken verfügen pro Konversionsereignis über zwei Einstellungen:
 * **Deaktiviert**: Der Standardzustand von Konversionsereignissen. Für dieses Ereignis werden keine Beitragsdaten erfasst.
 * **Aktiviert**: Für dieses Ereignis werden Beitragsdaten erfasst.
 
->[!NOTE]
->
->Sie können die Teilnahme für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
+> [!NOTE] Sie können die Teilnahme für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
 
 Nach der Aktivierung sind Beitragsmetriken automatisch in allen Konversionsberichten verfügbar. Beitragsmetriken können aber auf Anfrage auch in bestimmten Traffic-Berichten angezeigt werden. Sie können optional anfordern, dass Beitragsmetriken in bestimmten benutzerspezifischen Traffic-Berichten zur Verfügung stehen.
 
@@ -45,7 +43,7 @@ Wenn Sie im Bericht „Interne Suchbegriffe“ die Option „Umsatz“ aufrufen,
 
    Der Beitrag ähnelt der linearen Zuordnung, aber alle Werte erhalten die volle Gutschrift. Wenn Sie als Metrik jedoch „Umsatz (Beitrag)“ verwenden, wird keine Zuordnung berücksichtigt. Als „Umsatz (Beitrag)“ würde in diesem Beispiel 120 USD für beide Suchbegriffe angezeigt.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Metrikberechnungen](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
