@@ -4,10 +4,10 @@ seo-description: Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanza
 seo-title: Ein- und Ausstiege
 solution: Analytics
 title: Ein- und Ausstiege
-topic: 'Berichte    '
-uuid: 756 de 55 b -136 b -427 b-a 80 c-f 822260131 b 1
+topic: Berichte
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # Ein- und Ausstiege
 
 >[!NOTE]
->Bei Treffern mit mehreren Werten in der Variablen "products" gelten" Einträge" und "Ausstiege" für alle Produktwerte in einem Treffer, nicht nur für die erste.
+>Bei Treffern mit mehreren Werten in der Produktvariablen gelten "Einstiege"und "Ausstiege"für alle Produktwerte in einem Treffer und nicht nur für den ersten.
 
 Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei neuen Besuchen zuerst aufgerufen werden.
 
