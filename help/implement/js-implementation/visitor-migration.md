@@ -7,8 +7,8 @@ solution: Analytics
 title: Besuchermigration
 topic: Entwickler und Implementierung
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu einer anderen migriert.
 
-Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
+Besuchermigration Ermöglicht die Beibehaltung von Besucher-ID-Cookies beim Ändern von Datenerfassungsdomänen. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
-* Wechsel von `2o7.net` zu `omtrdc.net` ( [Regionale Datenerfassung](https://marketing.adobe.com/resources/help/de_DE/whitepapers/rdc/)).
+* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
 
-* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/) und wechseln von einer CNAME-/Erstanbieter-Datenerfassungsdomäne zu `2o7.net` oder `omtrdc.net` ([Regionale Datenerfassung](https://marketing.adobe.com/resources/help/de_DE/whitepapers/rdc/)).
+* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))
 
-* Wechsel von `2o7.net` oder `omtrdc.net` zu einer CNAME-/Erstanbieter-Datenerfassung ([Erstanbieter-Cookies)](https://marketing.adobe.com/resources/help/de_DE/whitepapers/first_party_cookies/).
+* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
@@ -42,7 +42,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html" format="http" scope="external">Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domäne(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die sicheren und nicht sicheren Domänen mit einbeziehen. </p> </td> 
+   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domäne(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die sicheren und nicht sicheren Domänen mit einbeziehen. </p> </td> 
    <td colname="col3"> <p>Erstellen Sie eine Liste mit der <i>exakten</i> Syntax für die Domänen, zu denen und von denen migriert werden soll. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -50,7 +50,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
     </ul> <p>Die Migrations-Hostnamen werden auf dem Adobe-Datenerfassungsserver konfiguriert. Der Kundendienst teilt Ihnen mit, wann die Änderung erfolgt, sodass Sie für den nächsten Schritt planen können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>6 und mehr Stunden nach dem Konfigurationswechsel</b>: Aktualisieren Sie die Variablen <code>s.trackingServer</code> und <code>s.trackingServerSecure</code> in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. </p> </td> 
+   <td colname="col1"> <p> <b>6 und mehr Stunden nach dem Konfigurationswechsel</b>: Aktualisieren Sie die Variablen <code> s.trackingServer</code> und <code> s.trackingServerSecure</code> in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. </p> </td> 
    <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie einen <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Paket-Analyzer</a>, um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. </p> </td> 
   </tr> 
   <tr> 
