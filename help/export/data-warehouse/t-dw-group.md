@@ -5,9 +5,9 @@ seo-title: Hinzufügen einer Data Warehouse-Benutzergruppe
 solution: Analytics
 title: Hinzufügen einer Data Warehouse-Benutzergruppe
 topic: Data Warehouse
-uuid: d 89294 db-caa 3-4044-b 70 d -65 b 512 b 0 dc 1 c
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe d
 
    >[!NOTE]
    >
-   >Im Falle von Zugriffsberechtigungen (z. B. einem Benutzer, der zwei Gruppen zugewiesen ist, von denen einer den Zugriff auf eine Funktion untersagt und die andere diesen Zugriff gestattet), beschränkt das System die Berechtigungen. Benutzer in Gruppen, die den Data Warehouse-Zugriff nicht erlauben, müssen unter Umständen aus diesen Gruppen entfernt werden.
+   >Bei Berechtigungen, die in Konflikt zueinander stehen (z. B. wenn ein Benutzer zwei Gruppen zugewiesen ist, von denen eine den Zugriff auf eine Funktion verweigert und die andere den gleichen Zugriff gewährt), beschränkt das System die Berechtigungen. Benutzer in Gruppen, die den Data Warehouse-Zugriff nicht erlauben, müssen unter Umständen aus diesen Gruppen entfernt werden.
 
 >[!MORE_LIKE_THIS]
 >
