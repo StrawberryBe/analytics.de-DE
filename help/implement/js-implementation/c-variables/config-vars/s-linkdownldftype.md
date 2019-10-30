@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,11 @@ Wenn die Site Links zu Dateien mit diesen Dateierweiterungen enthält, werden di
 |--- |--- |--- |--- |
 | Keine | Keine | Traffic &gt; Sitetraffic &gt; Dateidownloads | "exe, zip, wav, mp3, mov, mpg, avi, wmv, doc, pdf, xls" |
 
-Die Variable ist *`linkDownloadFileTypes`* nur relevant, wenn auf "True"festgelegt *`trackDownloadLinks`* ist.
+Die Variable *`linkDownloadFileTypes`* ist nur relevant, wenn *`trackDownloadLinks`* auf „True“ eingestellt ist.
 
 Im Bericht [!UICONTROL Dateidownloads] werden nur Klicks auf Links gezählt, die mit der linken Maustaste erfolgten. Dateidownloads, die beim Laden einer Seite automatisch gestartet wurden oder die nur nach einer Weiterleitung erfolgten, werden im Bericht [!UICONTROL Dateidownloads] nicht gezählt. Auch Downloads, die über die Kontextmenüoption „Speichern unter“ erfolgen, werden im Bericht [!UICONTROL Dateidownloads] nicht gezählt.
 
-Die Variable *`linkDownloadFileTypes`* kann auch eingesetzt werden, um Klicks zu RSS-Feeds nachzuverfolgen. Wenn Sie Links zu RSS-Feeds mit der Erweiterung .xml oder einer anderen Erweiterung haben, können Sie durch Anhängen von ",xml"an die *`linkDownloadFileTypes`* Liste sehen, wie oft auf jeden RSS-Link geklickt wird.
+Die Variable *`linkDownloadFileTypes`* kann auch eingesetzt werden, um Klicks zu RSS-Feeds nachzuverfolgen. Wenn Sie Links zu RSS-Feeds mit der Erweiterung .xml oder einer anderen Erweiterung haben, können Sie durch Anhängen von „,xml“ an die *`linkDownloadFileTypes`*-Liste sehen, wie oft auf jeden RSS-Link geklickt wird.
 
 ## Syntax und mögliche Werte
 
@@ -34,7 +34,7 @@ Nehmen Sie nur Dateierweiterungen (ohne Leerzeichen) auf.
 s.linkDownloadFileTypes="type1[,type2[,type3[...]]]"
 ```
 
-Jede beliebige Dateierweiterung kann in die Liste eingetragen werden. Achten Sie darauf, keine gängigen Dateierweiterungen (wie HTM oder ASPX) in *`linkDownloadFileTypes`*. Andernfalls wird bei jedem Klick eine weitere Bildanforderung gesendet und als primärer Server-Aufruf gezählt.
+Jede beliebige Dateierweiterung kann in die Liste eingetragen werden. Achten Sie darauf, keine gängigen Dateierweiterungen (wie HTM oder ASPX) in *`linkDownloadFileTypes`* zu verwenden. Andernfalls wird bei jedem Klick eine weitere Bildanforderung gesendet und als primärer Server-Aufruf gezählt.
 
 ## Beispiele
 
@@ -48,7 +48,7 @@ s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls,xml"
 
 ## Konfigurationseinstellungen*
 
-–
+Keine
 
 ## Probleme, Fragen und Tipps
 
