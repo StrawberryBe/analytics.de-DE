@@ -1,19 +1,19 @@
 ---
 description: Sie können eine Variable mithilfe eines Abfragezeichenfolgenparameters auffüllen.
 seo-description: Sie können eine Variable mithilfe eines Abfragezeichenfolgenparameters auffüllen.
-seo-title: Auffüllen einer Kampagnen-ID aus einem Abfragezeichenfolgenparameter
+seo-title: Kampagnen-ID-Einträge aus einem Abfragezeichenfolgen-Parameter auffüllen
 solution: Analytics
 subtopic: Verarbeitungsregeln
-title: Auffüllen einer Kampagnen-ID aus einem Abfragezeichenfolgenparameter
+title: Kampagnen-ID-Einträge aus einem Abfragezeichenfolgen-Parameter auffüllen
 topic: Admin Tools
-uuid: 2 bc 61 f 9 f-d 8 d 2-41 b 7-bd 39-4 a 9 df 30 ff 013
+uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Auffüllen einer Kampagnen-ID aus einem Abfragezeichenfolgenparameter
+# Kampagnen-ID-Einträge aus einem Abfragezeichenfolgen-Parameter auffüllen
 
 Sie können eine Variable mithilfe eines Abfragezeichenfolgenparameters auffüllen.
 
