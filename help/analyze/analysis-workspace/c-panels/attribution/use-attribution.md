@@ -5,7 +5,7 @@ seo-title: Attribution IQ in Analysis Workspace verwenden
 title: Attribution IQ in Analysis Workspace verwenden
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace-Freiform-Tabellen unterstützen Attributionsmodelle, die für
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-Auf die Aufschlüsselungen in einer Freiformtabelle kann auch ein beliebiges Attributionsmodell angewendet werden. Dieses kann mit der übergeordneten Spalte übereinstimmen oder sich von dieser unterscheiden. Sie möchten vielleicht beispielsweise lineare Bestellungen in Ihrer Dimension „Marketingkanäle“ analysieren, wenden jedoch U-förmige Bestellungen auf spezifische Trackingcodes in einem Kanal an. Bewegen Sie zum Bearbeiten des auf eine Aufschlüsselung angewendeten Attributionsmodells einfach den Mauszeiger auf das Aufschlüsselungsmodell und klicken Sie auf „Bearbeiten“:
+Auf die Aufschlüsselungen in einer Freiformtabelle kann auch ein beliebiges Attributionsmodell angewendet werden. Dieses kann mit der übergeordneten Spalte übereinstimmen oder sich von dieser unterscheiden. Sie möchten vielleicht beispielsweise lineare Bestellungen in Ihrer Dimension „Marketingkanäle“ analysieren, wenden jedoch U-förmige Bestellungen auf spezifische Trackingcodes in einem Kanal an. Um das auf eine Aufschlüsselung angewendete Zuordnungsmodell zu bearbeiten, halten Sie den Mauszeiger über das Aufschlüsselungsmodell und klicken Sie auf "Bearbeiten":
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-Wenn Sie Attributionsmodelle schnell und einfach miteinander vergleichen möchten, sollten Sie mit der rechten Maustaste klicken und **[!UICONTROL Vergleichsattributionsmodell hinzufügen auswählen]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ Der Attributionsbereich bietet eine einfache Möglichkeit, eine Analyse zu erste
 | Dimensionsüberschneidungsdiagramm | Ein Mengendiagramm, das die obersten drei Dimensionen (z. B. Kanäle) und anzeigt, wie oft sie zusammen in einer Konversion partizipieren. So gibt beispielsweise die Größe der Blasendiagrammüberschneidung die Häufigkeit der Konversionen an, wenn bei einem Besucher beide Dimensionselemenente (z. B. Kanälen) angewandt wurden. Durch die Auswahl anderer Zeilen in der Freiformtabelle wird die Visualisierung zum Berücksichtigen Ihrer Auswahl entsprechend aktualisiert. |
 | Marketingkontaktpunkte pro Journey | Ein Histogramm, das die Anzahl der Marketingkontaktpunkte (oder eine beliebige Dimension) eines Besuchers im Berichtsdatumsbereich angibt. Dies ist hilfreich, um nachzuvollziehen, wie wirkungsvoll die Mehrkontaktattribution für Ihren Datensatz ist. Wenn nahezu alle Besucher nur einen einzelnen Kontaktpunkt aufweisen, unterscheiden sich unterschiedliche Attributionsmodelle in den zugehörigen Ergebnissen nicht sonderlich voneinander. |
 | Marketing-Kanalleistungsdetails | Hiermit können Sie bis zu drei Attributionsmodelle visuell mit einem Streudiagramm vergleichen. |
-| Marketingkanalfluss | Hiermit können Sie anzeigen, mit welchen Kanälen am häufigsten interagiert wird und wie sich die Reihenfolge in der Journey eines Besuchers gestaltet. |
+| Marketingkanalfluss | Ermöglicht Ihnen, zu sehen, mit welchen Kanälen am häufigsten und in welcher Reihenfolge während der gesamten Besucherreise interagiert wird. |
