@@ -7,7 +7,7 @@ title: Segmente erstellen
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -134,7 +134,7 @@ In der [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mclou
   </tr> 
   <tr> 
    <td colname="col1">Admin-Segmente <p>(auch „globale Segmente“ genannt) </p> </td> 
-   <td colname="col2"> <p> <b>Admin</b>-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt. </p> <p>Der Eigentümer dieser Segmente wird mit dem ältesten Konto in der Liste der Admin-Benutzer im Unternehmen als Admin angelegt. Es können jedoch alle Administratoren diese Segmente löschen, bearbeiten und teilen. </p> <p>Die Segmentverwaltungsoberfläche der Admin Console, über die Administratoren diese globalen Segmente erstellen und verwalten konnten, gibt es nicht mehr. Administratoren können Segmente nun mit dem neuen Segment-Builder erstellen und diese mit den entsprechenden Gruppen oder Einzelpersonen oder mit allen teilen. </p> </td> 
+   <td colname="col2"> <p> <b>Admin</b>-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt. </p> <p>Der Inhaber dieser Segmente ist auf den Administrator mit dem ältesten Konto in der Liste der Admin-Benutzer des Anmeldeunternehmens eingestellt. Alle Administratoren können diese Segmente jedoch löschen, bearbeiten und freigeben. </p> <p>Die Segmentverwaltungsoberfläche der Admin Console, über die Administratoren diese globalen Segmente erstellen und verwalten konnten, gibt es nicht mehr. Administratoren können Segmente nun mit dem neuen Segment-Builder erstellen und diese mit den entsprechenden Gruppen oder Einzelpersonen oder mit allen teilen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
