@@ -7,8 +7,8 @@ solution: Analytics
 title: Berichte für Geräte mit Mobilfunkprotokollen
 topic: Entwickler und Implementierung
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Zum Ändern von Daten, die über die mobile oder normale Methode erfasst wurden,
 
 Diese Berichte enthalten nur dann Daten, wenn der Referrer in der Bildanforderung, die von der mobilen Seite gesendet wird, aufgefüllt ist. Der Referrer wird mithilfe des Abfragezeichenfolgen-Parameters „r“ aufgefüllt, wie im Whitepaper „Implementing without JavaScript“ (Implementieren ohne JavaScript) beschrieben. Die Referrer-Informationen müssen manuell in die Bildanforderung eingetragen werden.
 
-Der Abfragezeichenfolgenparameter „r“ muss das Protokoll der verweisenden Instanz enthalten. Wenn das Protokoll weggelassen wird, wird der Bericht der verweisenden Instanz nicht weitergegeben. Verwenden Sie zum Beispiel `r=https://msn.com` anstatt von `r=msn.com`.
+Der Abfragezeichenfolgenparameter "r"muss das Protokoll der verweisenden Stelle enthalten. Wenn das Protokoll weggelassen wird, wird der Bericht der verweisenden Instanz nicht weitergegeben. Verwenden Sie zum Beispiel `r=https://msn.com` anstatt von `r=msn.com`.
 
 ## Geosegmentation und Domänen {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
