@@ -1,13 +1,13 @@
 ---
 description: Im Abschnitt „Feed-Ziel“ wird die Verteilung des Feeds definiert.
-keywords: Datenfeed; Feed; destination; sftp; s 3; ftp; Einstellungen
+keywords: Datenfeed;Feed;Ziel;sftp;s3;ftp;Einstellungen
 seo-description: Im Abschnitt „Feed-Ziel“ wird die Verteilung des Feeds definiert.
 seo-title: Feed-Ziel
 solution: Analytics
 title: Feed-Ziel
-uuid: 4 a 59 e 8 de-e 7 a 6-4 f 7 a-bf 42-db 7 d 59 e 61 b 4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ In der folgenden Tabelle werden alle Optionen für sämtliche Verteilungskanäle
   </tr> 
   <tr> 
    <td colname="col1"> <p> Host </p> </td> 
-   <td colname="col2"> <p>Geben Sie das FTP- oder SFTP-Hostverzeichnis an. </p> <p>Dieser Wert muss dem korrekten FTP/SFTP-Format entsprechen, <code>ftp.domain.com/subdomain</code> oder <code>sftp.domain.com/subdomain</code>. </p> <p> Die Standardports 21 und 22 für FTP und sFTP sind erforderlich. </p> </td> 
+   <td colname="col2"> <p>Geben Sie das FTP- oder SFTP-Hostverzeichnis an. </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> Die Standardports 21 und 22 für FTP und sFTP sind erforderlich. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passwort </p> <p>Passwort bestätigen </p> </td> 
