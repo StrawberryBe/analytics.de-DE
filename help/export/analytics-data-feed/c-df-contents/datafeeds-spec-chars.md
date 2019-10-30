@@ -1,15 +1,15 @@
 ---
 description: In diesem Abschnitt erhalten Sie Informationen zu Sonderzeichen, die im Datenfeed verwendet werden.
-keywords: Datenfeed; job; Sonderzeichen; hit_ data; Variablen mit mehreren Werten; events_ list; products_ list; mvvars
+keywords: Datenfeed;Auftrag;Sonderzeichen;hit_data;Variablen mit mehreren Werten;events_list;products_list;mvvars
 seo-description: In diesem Abschnitt erhalten Sie Informationen zu Sonderzeichen, die im Datenfeed verwendet werden.
 seo-title: Sonderzeichen
 solution: Analytics
 subtopic: Datenfeeds
 title: Sonderzeichen
 topic: Reports and Analytics
-uuid: 5 efe 019 b -39 e 6-4226-a 936-88202 a 02 f 5 e 6
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,12 +61,12 @@ Die folgenden Zeichen haben in Variablen mit mehreren Werten eine besondere Bede
   <tr> 
    <td colname="col1"> <code> ; </code> (Semikolon-Zeichen) </td> 
    <td colname="col02"> Ende des untergeordneten Werts in einem einzelnen Produktwert </td> 
-   <td colname="col2"> <p>Trennt Werte, die mit einem einzelnen Produkt in der <code>product_list</code> verknüpft sind . </p> </td> 
+   <td colname="col2"> <p>Trennt Werte, die mit einem einzelnen Produkt in der <code> product_list </code> verknüpft sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> = </code> (Gleichheitszeichen) </td> 
    <td colname="col02"> Wertzuweisung </td> 
-   <td colname="col2"> <p>Weist einem Ereignis in <code>event_list</code> einen Wert zu . </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
