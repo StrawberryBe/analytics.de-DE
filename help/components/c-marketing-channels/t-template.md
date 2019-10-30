@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Marketingkanäle
 title: Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites
 topic: Reports and Analytics
-uuid: 212 d 16 d 7-fb 0 c -40 c 4-b 8 ff-a 86 c 9 a 511 a 23
+uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 So verwenden Sie eine Master-Report Suite als Vorlage, um Ihre Marketingkanalkonfiguration zu testen. Diese Vorlage kann zur Zeitersparnis in einer Massenaktualisierung für eine oder mehrere Produktions-Report Suites übernommen werden. Diese Aufgabe muss separat für Kanäle und Regelsätze erfolgen.
 
->[!NOTE]
->
->Wenden Sie Kanäle aus einer Vorlage an, bevor Sie Regelsätze anwenden. Bei diesem Ablauf müssen die Kanäle für alle Report Suites identisch sein.
+> [!NOTE] Wenden Sie Kanäle aus einer Vorlage an, bevor Sie Regelsätze anwenden. Bei diesem Ablauf müssen die Kanäle für alle Report Suites identisch sein.
 
 **Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites**
 
