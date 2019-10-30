@@ -8,7 +8,7 @@ title: Übersicht über die Kuratierung/Freigabe
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,9 +21,9 @@ Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Proje
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace &gt; Share&gt; Curate Project Data]**********
+**[!UICONTROL Arbeitsbereich]** &gt; **[!UICONTROL Freigeben]**&gt; **[!UICONTROL Kuratieren von Projektdaten]**
 
-## Curate project data
+## Projektdaten kuratieren
 
 1. Legen Sie die Berechtigung zum Erstellen und Kuratieren von Projekten fest.
 
@@ -51,7 +51,7 @@ Durch Freigabe können Sie dieses Projekt anderen Benutzern des Analysis Workspa
    ![](assets/share_component.png)
 
 1. Fügen Sie Empfänger hinzu.
-1. (Optional) Sie können eingebettete Projektkomponenten (Segmente, berechnete Metriken und Datumsbereiche) für alle Empfänger freigeben. Nach der Freigabe werden diese Komponenten im Dropdown-Menü „Komponenten“ im Workspace des Empfängers angezeigt.
+1. (Optional) Sie können eingebettete Projektkomponenten (Segmente, berechnete Metriken und Datumsbereiche) für alle Empfänger freigeben. Nach der Freigabe werden diese Komponenten im Dropdown-Menü "Komponenten"des Workspace des Empfängers angezeigt.
 
    >[!IMPORTANT]
    >
@@ -61,7 +61,7 @@ Durch Freigabe können Sie dieses Projekt anderen Benutzern des Analysis Workspa
 
    >[!IMPORTANT]
    >
-   >This setting does not persist - it is a singular action at the time of sharing.
+   >Diese Einstellung ist nicht persistent - sie ist eine einzelne Aktion zum Zeitpunkt der Freigabe.
 
 1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 
