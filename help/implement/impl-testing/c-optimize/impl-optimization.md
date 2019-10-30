@@ -8,8 +8,8 @@ subtopic: Fehlerbehebung
 title: Überblick über die Optimierung
 topic: Entwickler und Implementierung
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Die Analytics-Implementierung erfolgt in drei Hauptschritten.
 
 1. Die Bibliotheksdatei richtet eine Bildanforderung an den Adobe-Datenerfassungsserver. Der Server erfasst die Daten, die übermittelt werden, und gibt ein transparentes Bild im Format 1x1 Pixel an den Browser des Besuchers zurück. Durch diesen dritten Schritt wird die Gesamtdauer für den Seitendownload nur unwesentlich verlängert.
 
->[!NOTE]
->
->Kunden können noch weitere Schritte durchführen, um den mit Analytics verbundenen Verwaltungsaufwand zu minimieren.
+> [!NOTE] Kunden können noch weitere Schritte durchführen, um den mit Analytics verbundenen Verwaltungsaufwand zu minimieren.
 
