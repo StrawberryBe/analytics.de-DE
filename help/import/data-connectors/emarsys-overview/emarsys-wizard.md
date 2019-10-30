@@ -5,7 +5,7 @@ seo-title: Ausführen des Data Connectors-Integrationsassistenten
 title: Ausführen des Data Connectors-Integrationsassistenten
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-Integrationsprozess.
 
-1. Melden Sie sich bei der [!DNL Adobe Experience Cloud].
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. Stellen Sie sicher, dass die gewünschte Report Suite im [!DNL Report Suite] Menü aktiv ist.
 1. Klicken Sie auf **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Data Connectors]**.
 
