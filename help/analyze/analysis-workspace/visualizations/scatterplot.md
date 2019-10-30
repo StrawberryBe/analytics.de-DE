@@ -3,9 +3,9 @@ description: Zeigen Sie die erzielten Impressionen und die Anzahl der Unique Use
 seo-description: Zeigen Sie die erzielten Impressionen und die Anzahl der Unique Users an, die diese Impressionen gesehen haben.
 seo-title: Streudiagramm
 title: Streudiagramm
-uuid: 470 b 3142-3 a 0 a -4 cd 8-8919-7 b 64044188 c 8
+uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,5 @@ Die Größe jedes Datenpunkts verdeutlicht visuell, wie oft ein Benutzer durchsc
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->Eine mit einem Streudiagramm verknüpfte Tabelle erfordert mindestens zwei Spalten. Die erste Spalte definiert die X-Achse, die zweite Spalte die Y-Achse. Wenn eine dritte Spalte vorhanden ist, verwendet das Streudiagramm sie, um den Radius des Punkts zu bestimmen. In anderen Worten: Spalten *1*, *2* und *3* werden der *X-Achse*, der *Y-Achse* bzw. dem *Punktradius* zugeordnet.
+> [!NOTE] Eine Tabelle, die mit einem Streudiagramm verknüpft ist, erfordert mindestens zwei Spalten. Die erste Spalte definiert die X-Achse, die zweite Spalte die Y-Achse. Wenn eine dritte Spalte vorhanden ist, verwendet das Streudiagramm sie, um den Radius des Punkts zu bestimmen. In anderen Worten: Spalten *1*, *2* und *3* werden der *X-Achse*, der *Y-Achse* bzw. dem *Punktradius* zugeordnet.
 
