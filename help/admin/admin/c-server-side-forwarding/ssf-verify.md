@@ -1,17 +1,17 @@
 ---
 description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
 seo-description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
-seo-title: Überprüfen der Implementierung Ihrer serverseitigen Weiterleitung
+seo-title: Serverseitige Weiterleitungsimplementierung überprüfen
 solution: Audience Manager
-title: Überprüfen der Implementierung Ihrer serverseitigen Weiterleitung
-uuid: e 37296 cc -0120-486 a-a 4 ca -78 d 648 cf 6 a 11
+title: Serverseitige Weiterleitungsimplementierung überprüfen
+uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Überprüfen der Implementierung Ihrer serverseitigen Weiterleitung
+# Serverseitige Weiterleitungsimplementierung überprüfen
 
 Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
 
@@ -25,9 +25,9 @@ So überprüfen Sie den Status der serverseitigen Weiterleitung:
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Stellen Sie sicher, dass der Identitätsdienst ordnungsgemäß bereitgestellt ist. Sie haben das App Measurement-Modul bereitgestellt, die anwendbare Report Suite wurde dem richtigen IMS-Org zugeordnet und diese serverseitige Weiterleitung wurde in der Admin-Konsole von Analytics aktiviert.
+>If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Vergewissern Sie sich, dass der Identitätsdienst ordnungsgemäß bereitgestellt ist, Sie das App Measurement-Modul bereitgestellt haben, dass die entsprechende Report Suite dem richtigen IMS-Org zugeordnet wurde und dass die serverseitige Weiterleitung in der Analytics Admin-Konsole aktiviert wurde.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
 
