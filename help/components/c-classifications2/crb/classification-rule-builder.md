@@ -8,7 +8,7 @@ title: Classification Rule Builder-Workflow
 topic: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzuladen, können Sie automatische, regelbasierte Classifications erstellen und diese auf mehrere Report Suites anwenden. Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
 
-## Important Notice before you get started
+## Wichtiger Hinweis vor Beginn
 
-Keep this in mind before you start using classification rules:
+Beachten Sie Folgendes, bevor Sie mit der Verwendung von Classification-Regeln beginnen:
 
-* Our current classification system can only export up to 10 million rows at a time.
+* Unser aktuelles Klassifizierungssystem kann bis zu 10 Millionen Zeilen gleichzeitig exportieren.
 * Wenn Classification Rule Builder (CRB) einen Export anfordert, zieht es sowohl klassifizierte als auch nicht klassifizierte Werte, wobei nicht klassifizierte Werte am Ende des Exports durchlaufen werden. Das bedeutet, dass man im Laufe der Zeit 10 Millionen klassifizierte Werte füllen könnte - ohne jemals zu den nicht klassifizierten Werten zu gelangen.
 * Da die Architektur so eingerichtet ist, dass CRB von der Anzahl der Server mit "n"zurückgreifen kann, kann dies zu Inkonsistenzen darüber führen, welche Server aufgenommen werden und in welcher Reihenfolge. Aus diesem Grund ist es sehr schwierig, nicht klassifizierte Werte zu bekommen.
 
@@ -43,9 +43,7 @@ Hier sind die Schritte auf hoher Ebene, die Sie zur Implementierung von Classifi
 | Schritt 6: Gültige Regeln [aktivieren](../../../components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Sobald die Regeln gültig sind, aktivieren Sie den Regelsatz.  Bei Bedarf können Sie vorhandene Schlüssel überschreiben. Siehe [Verarbeitung der Regeln](../../../components/c-classifications2/crb/classification-quickstart-rules.md). |
 | Step 7 (Optional): [Delete unwanted rules](../../../components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Löschen Sie die unerwünschten Regeln aus dem Satz.<br>Hinweis: Beim Löschen von Regeln werden die hochgeladenen klassifizierten Daten nicht gelöscht.  See  [Delete classification data](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
 
->[!NOTE]
->
->Gruppen mit der Berechtigung zum Verwenden des Classification-Import-Tools können Classification-Regeln verwenden. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+> [!NOTE] Gruppen mit der Berechtigung zum Verwenden des Classification-Import-Tools können Classification-Regeln verwenden. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **Zusätzliche Ressourcen**
 
