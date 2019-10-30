@@ -5,9 +5,9 @@ seo-title: Mehrere Anforderungen bearbeiten
 solution: Analytics
 title: Mehrere Anforderungen bearbeiten
 topic: ReportBuilder
-uuid: 5 be be 23376-ba 94-4 d 5 c -84 c 7-a 60134 aacf 7 d
+uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report
    * **Nach Segment**: Gruppiert die Anforderungen auf Grundlage des Segmentnamens.
 
       * **Segment auswählen**: Wird angezeigt, wenn keine Segmente für die Anforderungen vorhanden sind. Um Segmente hinzuzufügen, klicken Sie auf **[!UICONTROL Gruppe bearbeiten]** und wählen ein Segment aus dem Bedienfeld [!UICONTROL Gruppe bearbeiten].
-   * **Nach Metrik**: Siehe Metriken über mehrere Anforderungen [hinweg bearbeiten](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+   * **Nach Metrik**: Siehe [Bearbeiten von Metriken über mehrere Anforderungen](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)hinweg.
 
    * **Nach Datumsbereich und Granularität:** Gruppiert die Anzeige der Anforderungen nach Datumsbereich und Zeitgranularität.
    * **Nach Gruppe:** Gruppiert die Anzeige der Anforderungen nach einem Satz gruppierter Anforderungen.
