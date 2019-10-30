@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Häufig gestellte Fragen zur Nutzung von Server-Aufrufen
 title: Häufig gestellte Fragen zur Nutzung von Server-Aufrufen
-uuid: 43340481-2 e 49-446 b-bec 7-86 fcadeb 4233
+uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>A.: Nein. Die Informationen über die Nutzung der Server-Aufrufe und die Zusage gelten für alle Anmeldeunternehmen, die zu Ihrem Adobe Analytics-Vertrag gehören. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Auf der Registerkarte "Report Suite-Nutzung" sehe ich den Konsum über Report Suites, die nicht für die Berichterstellung unter dem aktuellen Unternehmen für die Anmeldung verfügbar sind. Ist das ein Bug? </b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Auf der Registerkarte "Report Suite-Nutzung"kann ich den Verbrauch in Report Suites anzeigen, die unter dem aktuellen Anmeldeunternehmen nicht für die Berichterstellung verfügbar sind. Ist das ein Bug? </b> </p> </td> 
    <td colname="col2"> <p>A.: Nein. Die Liste der Report Suites umfasst genau wie die Informationen über die Nutzung der Server-Aufrufe und die Zusage alle Anmeldeunternehmen, die zu Ihrem Analytics-Vertrag gehören. </p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F.: Mein Vertrag enthält keine Regelung für sekundäre Server-Aufrufe, aber ich sehe sie trotzdem in den Reitern „Aktuelle Nutzung“ und „Nutzung der Report Suite“. Bedeutet das, dass ich mir Überschüsse einhandeln werde?</b> </p> </td> 
-   <td colname="col2"> <p>A.: Wenn Sie sekundäre Server-Aufrufe senden, ohne dass dies vorgesehen ist, hängt es von Ihrem Vertrag ab, ob es zu Überschüssen kommt oder nicht. In einigen Fällen wird der Verbrauch von sekundären Server-Aufrufen möglicherweise auf Ihre Zusage an primäre Server-Aufrufe angerechnet, wodurch sie schneller erschöpft werden, als Sie erwartet haben. In anderen Fällen könnten Ihnen sekundäre Server-Aufrufe in Rechnung gestellt werden, selbst wenn Sie nicht all Ihre primären Server-Aufrufe verbraucht haben. Bitte überprüfen Sie Ihren Vertrag oder wenden Sie sich an Ihren zuständigen Customer Success Manager, um das zu überprüfen. </p> </td> 
+   <td colname="col2"> <p>A.: Wenn Sie sekundäre Server-Aufrufe senden, ohne dass dies vorgesehen ist, hängt es von Ihrem Vertrag ab, ob es zu Überschüssen kommt oder nicht. In einigen Fällen wird der Verbrauch von sekundären Server-Aufrufen möglicherweise auf Ihre Zusage an primäre Server-Aufrufe angerechnet, wodurch sie schneller erschöpft werden, als Sie erwartet haben. In anderen Fällen können Sie für sekundäre Server-Aufrufe in Rechnung gestellt werden, selbst wenn Sie nicht alle Ihre primären Server-Aufrufe genutzt haben. Bitte überprüfen Sie Ihren Vertrag oder wenden Sie sich an Ihren zuständigen Customer Success Manager, um das zu überprüfen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F.: Mein Vertrag/meine Nutzungsperiode hat gerade begonnen und ich erhalte schon Warnhinweise, dass ich meine Zusage für sekundäre Server-Aufrufe überschreite. Ist das ein Bug und werden mir Überschüsse berechnet? </b> </p> </td> 
