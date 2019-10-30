@@ -3,9 +3,9 @@ description: Ein Histogramm ist ein neuer Visualisierungstyp in Analysis Workspa
 seo-description: Ein Histogramm ist ein neuer Visualisierungstyp in Analysis Workspace.
 seo-title: Histogramm
 title: Histogramm
-uuid: 8 a 6 bd 2 c 4-da 15-4 f 64-b 889-ab 9 add 885046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ So erstellen Sie ein Histogramm:
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->Histogramme unterstützen nur Standardmetriken, nicht berechnete Metriken.
+> [!NOTE] Histogramme unterstützen nur Standardmetriken, nicht berechnete Metriken.
 
 Hier haben wir die Metrik „Seitenansichten pro Unique Visitors“ verwendet. Das erste Paket (links) bezieht sich auf 1 Seitenansicht pro Unique Visitor, das zweite auf 2 Seitenansichten usw.
 
@@ -41,7 +39,7 @@ Wenn Sie die Einstellungen für Ihr Histogramm ändern möchten, klicken Sie auf
 | Startpaket | Bestimmt, mit welchem Paket das Histogramm beginnt. Die Standardeinstellung lautet 1. Sie können Startwerte von null bis unendlich festlegen, jedoch keine negativen Zahlen. |
 | Metrische Behälter | Hiermit können Sie die Anzahl der Datumsbereiche (Behälter) erhöhen/verringern. Maximal 50 Behälter sind möglich. |
 | Metrische Behältergröße | Hiermit können Sie die Größe der einzelnen Behälter festlegen. So könnten Sie zum Beispiel die Behältergröße von 1 Seitenansicht zu 2 Seitenansichten ändern. |
-| Zählmethode | Sie können [Besucher](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Besuch](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) oder [Treffer](https://marketing.adobe.com/resources/help/en_US/reference/hit.html) auswählen, z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Treffer. Für Treffer wird „Vorkommen“ in der Freiform-Tabelle als Metrik der Y-Achse verwendet. |
+| Zählmethode | Sie können [Besucher](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Besuch](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) oder [Treffer](https://marketing.adobe.com/resources/help/en_US/reference/hit.html) auswählen, z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Treffer. Bei Treffern wird "Vorfälle"als Metrik für die Y-Achse in einer Freiformtabelle verwendet. |
 
 **Beispiele**:
 
