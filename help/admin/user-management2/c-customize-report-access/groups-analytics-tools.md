@@ -9,7 +9,7 @@ title: Berechtigungen für Analytics-Tools anpassen
 topic: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Prot
 
 **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; Zugriff auf **[!UICONTROL alle Berichte]** &gt; **[!UICONTROL Analytics-Tools]** &gt; **[!UICONTROL Anpassen]**
 
->[!NOTE]
->
->Die Version Herbst 2016 (20. Oktober) brachte Änderungen an der Gruppenverwaltung. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] Die Version Herbst 2016 (20. Oktober) brachte Änderungen an der Gruppenverwaltung. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## Berichtszugriff – Analytics-Tools
 
