@@ -1,32 +1,28 @@
 ---
 description: Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
 seo-description: Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
-seo-title: Pfade
+seo-title: Pathing
 solution: Analytics
 title: Pathing
-topic: 'Berichte    '
-uuid: c 4 ff 9 fa 8-e 567-4039-9 c 86-322800 a 942 da
+topic: Berichte
+uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Pfade
+# Pathing
 
 Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
 
 Verwenden Sie die [Flussfunktion in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) für flexiblere Pfadoptionen.
 
->[!NOTE]
->
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
+> [!NOTE] Navigieren Sie zum Aktivieren von Pfaden zu **[!UICONTROL Admin &gt; Report Suites &gt; Einstellungen bearbeiten &gt; Traffic &gt; Traffic-Variablen]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
 
 Wenn Sie die Reihenfolge benötigen, in der Werte erfasst werden, müssen Sie Pfade für die Variablenerfassung dieser Werte aktivieren. Pfade werden standardmäßig für Seiten aktiviert. Pfade werden nicht standardmäßig für Eigenschaften aktiviert, da dies nur in bestimmten Fällen angebracht ist. Wenden Sie sich an den Kundendienst, um Pfade für eine Eigenschaft zu aktivieren.
 
->[!NOTE]
->
->Wenn Sie in Ad-hoc-Analysen Classifications für eine prop aktivieren, werden Pfadmetriken für alle für die aktivierte Eigenschaft eingerichteten Classifications verfügbar.
+> [!NOTE] Wenn Sie in Ad-hoc-Analysen Klassifizierungen für eine Eigenschaftsvariable aktivieren, stehen Pfadmetriken für alle für die aktivierte Eigenschaftsvariable eingerichteten Klassifizierungen zur Verfügung.
 
 **Beispiel: Pfade für Sitebereiche**
 
@@ -40,21 +36,19 @@ Pfadsetzungen sind dann in unterschiedlichen Pfadberichten verfügbar, wie [!UIC
 
 **Beispiel: Pfade bei Suchvorgängen**
 
-Dieses Konzept der Navigation von einem Wert zum nächsten gilt auch für andere Traffic-Variablen, wie *`s.props`*. For example, if you enable pathing for your Internal Search Term *`s.prop`*, you could see the path visitors take through search terms.
+Dieses Konzept der Navigation von einem Wert zum nächsten gilt auch für andere Traffic-Variablen, wie *`s.props`*. Wenn Sie z. B. Pfade für Ihren internen Suchbegriff aktivieren *`s.prop`*, können Sie sehen, welchen Pfad Besucher durch Suchbegriffe führen.
 
 **Beispiel: Pfade pro Anmeldestatus**
 
 Sie möchten vielleicht wissen, wie Besucher basierend auf ihrem Anmeldestatus durch Ihre Site navigieren. Um diese Informationen zu erhalten, würden Sie nicht die Pfadsetzungsberichte zum Anmeldestatus ansehen, da diese zeigen, wie Besucher Werte in diesem Bericht verändert haben oder welche Veränderungen Besucher zwischen An- und Abmelden durchgemacht haben. Sie würden stattdessen den Segmentwert mit der *`s.pageName`* Variablen verketten und dann den Pfad für die sich ergebende Variable analysieren. Hier ist ein Codebeispiel für eine Seitenpfadanalyse nach Mitgliedsstatus:
 
 ```js
-s.pageName=“Home Page”; 
-s.prop18=“Gold”; // Member Status 
-s.prop19=s.prop18 + “:” + s.pageName;
+s.pageName="Home Page"; 
+s.prop18="Gold"; // Member Status 
+s.prop19=s.prop18 + ":" + s.pageName;
 ```
 
 Aktivieren Sie dann die Pfade für *`s.prop19`*, um zu verfolgen, wie Besucher durch die Seiten navigieren.
 
->[!NOTE]
->
->Wenn Sie Ad-hoc-Analysen durchführen, können Sie Seitenpfade segmentieren, ohne die Segmentwerte verketten zu müssen, und jedes Segment auf Pfadsetzungsberichte anwenden.
+> [!NOTE] Wenn Sie eine Ad-hoc-Analyse durchführen, können Sie Seitenpfade segmentieren, ohne Segmentwerte verketten zu müssen, und jedes Segment auf Pfadberichte anwenden.
 
