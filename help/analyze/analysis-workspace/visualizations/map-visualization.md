@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Landkarte
 title: Landkarte
-uuid: 6038 f 336-62 a 3-4 efa -8316-4 d 7792468 db 3
+uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Die Map Visualization in Analysis Workspace
 
-* Ermöglicht das Erstellen einer visuellen Zuordnung aller Metriken (einschließlich errechneter Metriken).
+* Ermöglicht die Erstellung einer visuellen Zuordnung zu einer beliebigen Metrik (einschließlich berechneter Metriken).
 * ist hilfreich bei der Erfassung und dem Vergleich von Metrikdaten über verschiedene geographische Regionen hinweg.
 * kann zwei Datenquellen verwenden: den Breitengrad/Längengrad aus der Verwendung von Mobilgeräten oder die geographische Dimension aus der Internetnutzung.
 * Unterstützt PDF-Export.
@@ -71,7 +71,7 @@ Die Map Visualization in Analysis Workspace
 
 ## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-2 Einstellungen für Zuordnung vorhanden:
+Für Map sind 2 Einstellungssätze vorhanden:
 
 Über das **Schraubenschlüssel-Symbol** oben rechts können Sie den Anfangsdialog erneut anzeigen, in dem Sie die Metrik und die Datenquelle anpassen können:
 
@@ -86,4 +86,4 @@ Wenn Sie auf das **Zahnradsymbol** klicken, werden die folgenden Visualisierungs
 | Stile: Farbmuster | Zeigt das Farbschema für die Heatmap und die Blasen. Sie können zwischen Korallenrot, Rot, Grün oder Blau auswählen. Die Standardeinstellung ist Korallenrot. |
 | Stile: Kartenstil | Sie können zwischen „Allgemein“, „Straßen“, „Hell“ (Bright), „Hell“ (Light), „Dunkel“ und „Satellit“ auswählen. |
 | Clusterradius | Gruppiert Datenpunkte, die sich innerhalb der festgelegten Pixelanzahl befinden. Standardwert ist 50. |
-| Benutzerdefinierter Maximalwert | Ermöglicht die Änderung des Schwellenwerts für den Höchstwert für die Map - das Anpassen dieser Werte passt die Skala für die Bubbles-/Heatmap-Werte (Farbe und Größe) relativ zum benutzerdefinierten max. Wert an. |
+| Benutzerdefinierter Maximalwert | Ermöglicht das Ändern des Schwellenwerts für den Maximalwert der Zuordnung - durch Anpassen dieses Wertes wird die Skalierung für die Werte für Blasen/Heatmap (Farbe und Größe) relativ zum benutzerdefinierten Maximalwert angepasst. |
