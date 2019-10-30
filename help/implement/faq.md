@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zur Implementierung von Analytics
 topic: Entwickler und Implementierung
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Information
    <td colname="col3"> <p>Informationen zur Verwaltung von Benutzern und Gruppen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">Benutzer und Produkte verwalten</a> in der Adobe Experience Cloud-Hilfe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>eVar-Gültigkeit – Warum wird den eVars in den Berichten „Keine“ zugeordnet? </p> </td> 
+   <td colname="col2"> <p>eVar-Ablauf - Warum werden die eVars in den Berichten "Keine"zugeordnet? </p> </td> 
    <td colname="col3"> <p> <span class="uicontrol"> Läuft ab nach</span> Hier wird ein Zeitraum bzw. ein Ereignis angegeben, nach dem der eVar-Wert abläuft (d. h. er keine Zuweisung von Erfolgsereignissen mehr erhält). Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. Wenn Sie den Ablauf über ein Ereignis festlegen, läuft die Variable nur ab, wenn das Ereignis eintritt. Tritt das Ereignis nicht ein, läuft die Variable auch nicht ab. <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [Mehr...] </a> </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Information
 | Frage | Antwort |
 |---|---|
 | Wie verwalte ich Analytics-Benutzer und -Gruppen? | Weitere Informationen zum Verwalten von Benutzern und Gruppen finden Sie unter Experience Cloud-Benutzer und -Produkte[ ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)verwalten in der Hilfe zu Adobe Experience Cloud-Hauptdiensten. |
-| eVar-Gültigkeit – Warum wird den eVars in den Berichten „Keine“ zugeordnet? | `Expire After` gibt einen Zeitraum bzw. ein Ereignis an, nach dem der eVar-Wert abgelaufen ist (d. h. er keine Zuweisung von Erfolgsereignissen mehr erhält). Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. Wenn Sie den Ablauf über ein Ereignis festlegen, läuft die Variable nur ab, wenn das Ereignis eintritt. Tritt das Ereignis nicht ein, läuft die Variable auch nicht ab. [[Mehr...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| eVar-Ablauf - Warum werden die eVars in den Berichten "Keine"zugeordnet? | `Expire After` gibt einen Zeitraum bzw. ein Ereignis an, nach dem der eVar-Wert abgelaufen ist (d. h. er keine Zuweisung von Erfolgsereignissen mehr erhält). Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. Wenn Sie den Ablauf über ein Ereignis festlegen, läuft die Variable nur ab, wenn das Ereignis eintritt. Tritt das Ereignis nicht ein, läuft die Variable auch nicht ab. [[Mehr...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | Sichtbarkeit benutzerdefinierter Ereignisse – Warum werden benutzerdefinierte Ereignisse nicht im Berichtemenü angezeigt? | In der Spalte „Sichtbarkeit“ können Sie Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden. Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit auf der Benutzeroberfläche. [[Mehr...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | Zeitstempel – Was muss ich beachten, bevor ich die Einstellungen zum Zeitstempel ändere? | Mit der Funktion „Zeitstempel optional“ können Sie Daten mit und ohne Zeitstempel ohne Datenverlust kombinieren. Offline-Daten mit Zeitstempel von einem mobilen Gerät können – mittels eines clientseitigen Zeitstempelaufrufs – mit Daten ohne Zeitstempel einer Live-Webseite kombiniert oder in die Daten jeder Plattform integriert werden. [[Mehr...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
 | Besucher-ID – Wie funktioniert die Übergangsphase, und wie wird sie ermöglicht? | Wir empfehlen, eine Übergangsphase zu konfigurieren, wenn mehrere JavaScript-Dateien vorhanden sind, die Daten an dieselbe Report Suite senden, oder wenn Sie für die Site weitere Technologien wie Flash-Videomessung verwenden.  [Mehr …](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/grace-period.html) |
