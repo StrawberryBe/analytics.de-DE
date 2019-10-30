@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zur Linktracking in [!DNL Activity Map].
 seo-description: Häufig gestellte Fragen zur Linktracking in [!DNL Activity Map].
 seo-title: Linktracking – Häufig gestellte Fragen
 solution: Analytics
-title: Linktracking – Häufig gestellte Fragen
+title: Linktracking FAQs
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
