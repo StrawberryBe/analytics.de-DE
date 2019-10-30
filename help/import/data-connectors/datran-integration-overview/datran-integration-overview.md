@@ -5,7 +5,7 @@ seo-title: Data Connector für Adobe Analytics
 title: Data Connector für Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ Diese Data Connectors-Integration erfordert Folgendes:
 
 * Aktives StormPost-Konto mit aktivierter E-Mail und aktiven Benutzeranmeldeinformationen.
 
-Überprüfen Sie die folgenden Informationen zu dieser Data Connectors-Integration in Bezug auf Datran:
+Überprüfen Sie die folgenden Informationen zu dieser Data Connectors-Integration in Bezug auf DataRan:
 
 * **** Gültiges Datenlaufkonto: Um die Data Connectors-E-Mail-Integration verwenden zu können, muss ein Client über ein gültiges Datenverkehrskonto verfügen.
 * **** Aktueller Kunde von Datran: Für diese Integration müssen Sie Kunde von Adobe und Datran sein. Wenn Sie noch kein Kunde von Datran sind, verfügen Sie nicht über die zum Abschluss des Integrationsassistenten erforderlichen Informationen. Wenn Sie derzeit Datran-Kunde sind, benötigen Sie Ihre Datran-Konto-ID oder die Ihrem Unternehmen zugewiesene eindeutige ID, um den Integrationsassistenten abzuschließen.
