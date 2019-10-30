@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classifications
 title: Klassifizierungshierarchien
 topic: Admin Tools
-uuid: 1 b 2 b 73 af -84 ea -4 b 90-b 4 a 5-ba 75235547 fb
+uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage sie Hierarchieberichte mit dem gleichen Namen erstellen können.
 
-## Classification hierarchies {#concept_10A956342D7D4C3E9114CCFCE1364741}
+## Klassifizierungshierarchien {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
 Auf der Seite [!UICONTROL Classification-Hierarchien] können Sie Classification-Hierarchien definieren, auf deren Grundlage Sie [!UICONTROL Hierarchie]-Berichte mit dem gleichen Namen erstellen können.
 
@@ -38,7 +38,7 @@ t_classification_heirarchy.xml
  -->
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
 1. Wählen Sie in der Dropdownliste **Hierarchieaufbau für** die Variable aus, in der Sie eine Klassifizierungshierarchie erstellen möchten.
 
