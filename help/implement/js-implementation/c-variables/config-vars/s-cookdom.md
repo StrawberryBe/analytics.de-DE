@@ -5,15 +5,15 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+Die Variable bestimmt, in welcher Domäne die [!DNL Analytics]-Cookies `s_cc` und `s_sq` abgelegt werden.
 
-Commonly,  is used to generate  from . `s.cookieDomainPeriods``s.cookieDomain``window.location.hostname` Instead of using , you can explicitly set  to what you want to use in your implementation. `s.cookieDomainPeriods``s.cookieDomain` Beispielsweise können Sie Cookies bei einem vollständig qualifizierten Seitennamen ablegen, indem Sie Folgendes verwenden:
+Im Allgemeinen wird `s.cookieDomainPeriods` verwendet, um `s.cookieDomain` aus `window.location.hostname` zu generieren. Statt `s.cookieDomainPeriods` zu verwenden, können Sie für `s.cookieDomain` auch explizit das Element einstellen, das Sie in Ihrer Implementierung verwenden möchten. Beispielsweise können Sie Cookies bei einem vollständig qualifizierten Seitennamen ablegen, indem Sie Folgendes verwenden:
 
 `s.cookieDomain = window.location.hostname;`
