@@ -7,7 +7,7 @@ title: Report Suite Manager
 topic: Admin Tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Eine Report Suite definiert die vollständige, unabhängige Berichterstellung ü
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Weitere Informationen finden Sie in der Dokumentation zur [Virtual Report Suite](/help/components/vrs/vrs-about.md).
+> [!NOTE] Virtual Report Suites werden über **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der Dokumentation zur [Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -39,7 +37,7 @@ Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL „Report
    <td colname="col2"> <p>Die ausgewählte Report Suite wird im <span class="wintitle">Report Suite Manager</span> hervorgehoben. Sie können mehrere Report Suites mit <span class="uicontrol">Strg+Klicken</span> oder <span class="uicontrol">Umschalt+Klicken</span> auswählen. </p> <p>Eine ausgewählte Report Suite bleibt so lange ausgewählt, bis Sie eine andere Report Suite auswählen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Herunterladen</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Download</span> </td> 
    <td colname="col2"> Generiert eine Excel-Tabelle mit allen Einstellungen für die aktuell ausgewählten Report Suites. </td> 
   </tr> 
   <tr> 
