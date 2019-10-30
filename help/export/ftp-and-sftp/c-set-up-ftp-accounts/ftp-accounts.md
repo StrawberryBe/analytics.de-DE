@@ -1,18 +1,18 @@
 ---
 description: Einrichten und Verwenden von durch Adobe gehosteten FTP-Konten.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Einrichten und Verwenden von durch Adobe gehosteten FTP-Konten.
-seo-title: Einrichten von FTP-Konten - Übersicht
+seo-title: FTP-Konten einrichten – Übersicht
 solution: Analytics
-title: Einrichten von FTP-Konten - Übersicht
-uuid: e 5524619-248 a -4 aae -9 f 64-cd 7 d 33 f 3 c 407
+title: FTP-Konten einrichten – Übersicht
+uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Einrichten von FTP-Konten - Übersicht
+# FTP-Konten einrichten – Übersicht
 
 Einrichten und Verwenden von durch Adobe gehosteten FTP-Konten
 
