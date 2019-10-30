@@ -8,7 +8,7 @@ title: Konversionsvariablen (eVar)
 topic: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ eVars eignen sich am besten zur Messung von Ursache und Wirkung, z. B.:
 
 Wenn eine Trafficmessung oder -pfaderstellung gewünscht wird, wird empfohlen, Traffic-Variablen zu nutzen.
 
->[!NOTE]
->
->In einer eVar in einer Bildanforderung kann nur ein einzelner Wert gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+> [!NOTE] Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
 
 ## Konversionsvariablen – Beschreibungen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -44,7 +42,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Name</span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Name </span> </p> </td> 
    <td colname="col2"> <p>Der benutzerfreundliche Name der Konversionsvariablen. Dieser Name der eVar wird in der allgemeinen Berichterstattung und als Berichtname im Menü links genutzt. </p> </td> 
   </tr> 
   <tr> 
