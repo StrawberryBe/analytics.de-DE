@@ -5,9 +5,9 @@ seo-title: Menüanpassung
 solution: Analytics
 title: Menüanpassung
 topic: Admin Tools
-uuid: 31 e 335 e 7-c 91 a -4669-a 9 b 7-00 f 9 e 385375 a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benut
 
 Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite zugreifen. Die Benutzer haben jedoch die Möglichkeit, bei der Verwendung der Report Suite die Standardkonfiguration eines Menüs wiederherzustellen.
 
->[!NOTE]
->
->Änderungen an der Menüstruktur wirken sich nicht auf Reportbuilder und Ad-hoc-Analysen aus. Ein umbenannter Bericht wird hingegen in beiden Anwendungen unter dem neuen Namen angezeigt.
+> [!NOTE] Änderungen an der Menüstruktur wirken sich nicht auf ReportBuilder und Ad-hoc-Analysen aus. Ein umbenannter Bericht wird hingegen in beiden Anwendungen unter dem neuen Namen angezeigt.
 
 ## Menüanpassung – Beschreibungen {#section_B0D224DACB914A378902A4E0E1234889}
 
