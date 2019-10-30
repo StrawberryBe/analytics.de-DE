@@ -1,7 +1,7 @@
 ---
-description: Configuration variables set in AppMeasurement.js.
+description: Konfigurationsvariablen, die in AppMeasurement.js festgelegt sind.
 keywords: Analytics-Implementierung
-seo-description: Konfigurationsvariablen in AppMeasurement.js für Adobe Analytics eingestellt
+seo-description: Konfigurationsvariablen, die in AppMeasurement.js für Adobe Analytics eingestellt sind
 seo-title: Konfigurationsvariablen
 solution: Analytics
 subtopic: Variablen
@@ -9,16 +9,16 @@ title: Konfigurationsvariablen
 topic: Entwickler und Implementierung
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a340bb50ec437db64dafaddc0b20aec740aee299
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Übersicht über Konfigurationsvariablen
+# Konfigurationsvariablen Überblick
 
-Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung erfasst und verarbeitet werden. The most-common configuration variables that are typically set in the main global JavaScript AppMeasurement.js). These variables can be set within the Analytics page-level code and links when appropriate.
+Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung erfasst und verarbeitet werden. Die häufigsten Konfigurationsvariablen, die in der Regel im globalen JavaScript (AppMeasurement.js) festgelegt werden. Diese Variablen können bei Bedarf in Code und Links auf Ebene der Analytics-Seite festgelegt werden.
 
-Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. Einige dieser Konfigurationsvariablen sind möglicherweise nicht für die Implementierungsanforderungen Ihrer Site geeignet.
+Nicht alle dieser Variablen werden standardmäßig im Code angezeigt, wenn Sie Code über **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code-Manager]** generieren. Einige dieser Konfigurationsvariablen sind möglicherweise nicht für die Implementierungsanforderungen Ihrer Site geeignet.
 
 Zu den Zielen der Verwendung dieser Konfigurationsvariablen zählen u. a.:
 
@@ -28,9 +28,7 @@ Zu den Zielen der Verwendung dieser Konfigurationsvariablen zählen u. a.:
 * Link-Tracking (Anzahl heruntergeladener Dateien, Links zu externen Sites)
 * Tracking einzigartiger Links für einzigartige Zwecke
 
->[!NOTE]
->
->[!DNL AppMeasurement] erfordert, dass alle Konfigurationsvariablen vor dem anfänglichen Aufruf der track-Funktion festgelegt werden, `t()`. Wenn Konfigurationsvariablen nach dem Aufruf von festgelegt werden, `t()`können unerwartete Ergebnisse auftreten. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+> [!NOTE][!DNL AppMeasurement]Für  müssen alle Konfigurationsvariablen vor dem ersten Aufruf der Tracking-Funktion (`t()`) eingestellt werden. Wenn Konfigurationsvariablen nach dem Aufruf von `t()` festgelegt werden, können unerwartete Ergebnisse auftreten. Um eine korrekte Datenerfassung sicherzustellen, müssen alle Konfigurationsvariablen über der Funktion `doPlugins` liegen:
 
 Um Hilfe zu bestimmten Konfigurationsvariablen zu erhalten, klicken Sie auf einen der folgenden Links:
 
@@ -54,21 +52,21 @@ Um Hilfe zu bestimmten Konfigurationsvariablen zu erhalten, klicken Sie auf eine
 
 * [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-fpcookdomperiods.html): Geben Sie von JavaScript eingestellte Cookies (`s_sq`, `s_cc`Plug-Ins) an, bei denen es sich um Erstanbieter-Cookies handelt, auch mit Drittanbieter- `2o7.net` oder `omtrdc.net` -Domänen.
 
-* [s.cookieLifetime: Determine lifespan of a cookie as processed by both JavaScript and data collection servers.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html)
+* [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html): Legen Sie die Lebensdauer eines Cookies fest, die sowohl von JavaScript- als auch von Datenerfassungsservern verarbeitet wird.
 
 * [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html): Rufen Sie die Funktion auf und lassen Sie sie am entsprechenden Speicherort in der JavaScript-Datei aufrufen.
 
-* [s.registerPreTrackCallback: Function for taking as parameters both the callback (a function), and the parameters to that function.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html)
+* [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Funktion zur Verwendung als Parameter sowohl den Rückruf (eine Funktion) als auch die Parameter dieser Funktion.
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Funktion zur Verwendung sowohl des Callbacks (einer Funktion) als auch der Parameter dieser Funktion als Parameter.
+* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Funktion zur Verwendung als Parameter sowohl den Rückruf (eine Funktion) als auch die Parameter dieser Funktion.
 
 * [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html): Verfolgen Sie Links zu herunterladbaren Dateien auf Ihrer Site.
 
-* [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html): Determine whether any link clicked is an exit link.
+* [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html): Stellen Sie fest, ob ein angeklickter Link ein Exitlink ist.
 
-* [s.trackInlineStats: Determine whether ClickMap data is gathered.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html)
+* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html): Bestimmen Sie, ob ClickMap-Daten gesammelt werden.
 
-* [s.linkDownloadFileTypes: Include a comma-separated list of file extensions.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html)
+* [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Fügen Sie eine kommagetrennte Liste der Dateierweiterungen ein.
 
 * [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html): Enthält eine kommagetrennte Liste von Filtern, die die Links darstellen, die Teil der Site sind.
 
@@ -78,5 +76,5 @@ Um Hilfe zu bestimmten Konfigurationsvariablen zu erhalten, klicken Sie auf eine
 
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Mit dieser Option können Sie Berichte zu einer bestimmten Untergruppe von Ausstiegslinks erstellen.
 
-* [s.usePlugins: Call the  function prior to each image request.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html)`s_doPlugins`
+* [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Rufen Sie die `s_doPlugins` Funktion vor jeder Bildanforderung auf.
 
