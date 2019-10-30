@@ -1,18 +1,18 @@
 ---
 description: Sie können einen Zeitplan für das automatische Senden von Berichten an eine E-Mail-Adresse oder einen FTP-Server einrichten.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Sie können einen Zeitplan für das automatische Senden von Berichten an eine E-Mail-Adresse oder einen FTP-Server einrichten.
-seo-title: Ad-hoc-Analysen-Berichte
+seo-title: Von Ad Hoc Analysis bereitgestellte Berichte
 solution: Analytics
-title: Ad-hoc-Analysen-Berichte
-uuid: 9 a 26 fb 77-9 cec -40 a 3-b 994-226692637902
+title: Von Ad Hoc Analysis bereitgestellte Berichte
+uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ad-hoc-Analysen-Berichte
+# Von Ad Hoc Analysis bereitgestellte Berichte
 
 Sie können einen Zeitplan für das automatische Senden von Berichten an eine E-Mail-Adresse oder einen FTP-Server einrichten.
 
