@@ -1,16 +1,16 @@
 ---
 description: Änderungen und Verbesserungen der Option zum Rückgängigmachen in Analysis Workspace.
 seo-description: Änderungen und Verbesserungen der Option zum Rückgängigmachen in Analysis Workspace.
-seo-title: Einstellungen rückgängig machen und wiederholen
-title: Einstellungen rückgängig machen und wiederholen
-uuid: a 4 dbc 169-5 fd 7-4383-aee 0-6 b 5 ba 1 c 235 ab
+seo-title: Einstellungen zum Rückgängigmachen und Wiederherstellen
+title: Einstellungen zum Rückgängigmachen und Wiederherstellen
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Einstellungen rückgängig machen und wiederholen
+# Einstellungen zum Rückgängigmachen und Wiederherstellen
 
 **[!UICONTROL Arbeitsbereich]** &gt; **[!UICONTROL Projekt]** &gt; **[!UICONTROL Rückgängig/Wiederholen]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * Änderungen der Report Suite können rückgängig gemacht/wiederhergestellt werden.
 * In der Nähe des Projektnamens wird eine Meldung bezüglich des Rückgängigmachens/Wiederherstellens angezeigt. Sie zeigt an, ob etwas rückgängig gemacht/wiederhergestellt wird.
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Sie können die folgenden [Hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)verwenden:
 
    * STRG (CMD) + Z zum Rückgängigmachen
    * STRG (CMD) + UMSCHALT + Z zum Wiederherstellen
