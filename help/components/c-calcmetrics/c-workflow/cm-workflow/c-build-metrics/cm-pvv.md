@@ -1,16 +1,16 @@
 ---
 description: Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 seo-description: Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
-seo-title: Einfache Metrik "Seitenansichten pro Besuche" erstellen
-title: Einfache Metrik "Seitenansichten pro Besuche" erstellen
-uuid: 0730 e 51 c -1 f 8 f -473 b -8825-d 72911 f 2944 c
+seo-title: Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen
+title: Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen
+uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Einfache Metrik "Seitenansichten pro Besuche" erstellen
+# Einfache Metrik vom Typ „Seitenansichten pro Besuch“ erstellen
 
 Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 
@@ -31,5 +31,5 @@ Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche er
 1. Mit der Produktkompatibilität wird angegeben, ob die Metrik mit [Aktuellen Daten](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) oder nur mit vollständig verarbeiteten Daten kompatibel ist.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Beachten Sie, dass die Formel unter **[!UICONTROL Zusammenfassung]jedes Mal, wenn Sie die Metrikdefinition ändern, aktualisiert wird.**
-1. You are now automatically taken to the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), which is similar to the Segment Manager. Damit können Sie Metriken freigeben, genehmigen, (erneut) taggen, umbenennen oder löschen.
+1. Sie werden nun automatisch zum [Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)für berechnete Metriken geleitet, der dem Segment-Manager ähnlich ist. Damit können Sie Metriken freigeben, genehmigen, (erneut) taggen, umbenennen oder löschen.
 
