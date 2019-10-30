@@ -5,30 +5,30 @@ seo-title: Vergleichsoperatoren für Segmente
 solution: Analytics
 title: Vergleichsoperatoren für Segmente
 topic: Segmente
-uuid: 02 ad 814 c -2 c 7 c -4833-9 bb 2-4113 dcf 9475 d
+uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 translation-type: tm+mt
-source-git-commit: c36bc5a74e89fda3e23113851f850fd6c98b8c40
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Vergleichsoperatoren für Segmente
 
-Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken.
+Mit dem Segmentaufbau können Sie Werte mit ausgewählten Operatoren vergleichen und beschränken.
 
-Es gibt drei verschiedene Operatoren: Standard, Data Warehouse und Separate Count.
+Es gibt drei Kategorien von Betreibern: Standard, Data Warehouse und Distinct Count.
 
 Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach „*“ suchen müssen, können Sie dieses mit einem Backslash schützen.
 
-**Beispiel**: Angenommen Sie haben einen Seitennamen namens "My cool product" . Die Segmentregel „Seitenname entspricht My*product“ entspricht dem obigen Seitennamen. Die Regel „Seitenname entspricht My\\*product“ entspricht hingegen nur dem Seitennamen „My*Product“.
+**Beispiel**: Angenommen, Sie haben einen Seitennamen namens "Mein cooles Produkt". Die Segmentregel „Seitenname entspricht My*product“ entspricht dem obigen Seitennamen. Die Regel „Seitenname entspricht My\\*product“ entspricht hingegen nur dem Seitennamen „My*Product“.
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 |--- |--- |
 | **Standard** |  |
 | gleich | Gibt Elemente mit einer exakten Entsprechung für numerische oder Zeichenfolgenwerte wieder. Hinweis: Nutzen Sie bei Verwendung von Platzhalterzeichen den Operator „stimmt überein mit“. |
 | ist nicht gleich | Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten.  Hinweis: Nutzen Sie bei Verwendung von Platzhalterzeichen den Operator „stimmt nicht überein mit“. |
-| entspricht einem der folgenden Werte | Gibt Elemente zurück, die exakt für einen beliebigen Wert im Eingabefeld übereinstimmen (bis zu 500 Elemente). Wenn Sie beispielsweise "Suchergebnisse, Homepage" mit diesem Operator eingeben, stimmen Sie mit" Suchergebnissen" und "Homepage" überein und zählen als 2 Elemente. Das Eingabefeld für diesen Operator ist kommagetrennt. |
-| entspricht keinem der folgenden Werte | Identifiziert Elemente, die exakt für einen beliebigen Wert im Eingabefeld (bis zu 500 Elemente) übereinstimmen, und gibt dann nur Elemente ohne diese Werte zurück. Wenn Sie beispielsweise "Suchergebnisse, Homepage" mit diesem Operator eingeben, würden Sie" Suchergebnisse" und "Homepage" identifizieren und diese dann aus den zurückgegebenen Elementen ausschließen. Dieses Beispiel würde als 2 Elemente gezählt werden. Das Eingabefeld für diesen Operator ist kommagetrennt. |
+| entspricht einem der folgenden Werte | Gibt Elemente zurück, die exakt mit einem beliebigen Wert im Eingabefeld übereinstimmen (bis zu 500 Elemente). Wenn Sie beispielsweise "Suchergebnisse, Homepage"mit diesem Operator eingeben, stimmen "Suchergebnisse"und "Homepage"überein und zählen Sie als 2 Elemente. Das Eingabefeld für diesen Operator ist kommagetrennt. |
+| entspricht keinem der folgenden Werte | Identifiziert Elemente, die exakt mit einem beliebigen Wert im Eingabefeld übereinstimmen (bis zu 500 Elemente) und gibt dann nur Elemente ohne diese Werte zurück. Wenn Sie beispielsweise "Suchergebnisse, Homepage"mit diesem Operator eingeben, werden "Suchergebnisse"und "Homepage"identifiziert und dann von den zurückgegebenen Elementen ausgeschlossen. Dieses Beispiel würde als 2 Elemente zählen. Das Eingabefeld für diesen Operator ist kommagetrennt. |
 | enthält | Gibt Elemente zurück, die mit den Unterzeichenfolgen der eingegebenen Werte vergleichbar sind. Wenn die Regel für „Seite“ z. B. „Suche“ enthält, stimmt dies mit allen Seiten überein, die die Unterzeichenfolge „Suche“ enthalten, z. B. „Suchergebnisse“, „Suche“ und „Suchen“. |
 | „Enthält nicht“ | Gibt das Gegenteil der Regel „enthält“ zurück. Insbesondere werden alle Elemente, die mit dem eingegebenen Wert übereinstimmen, aus den eingegebenen Werten ausgeschlossen. Wenn die Regel für „Seite“ z. B. „Suche“ nicht enthält, stimmt dies mit keiner Seite überein, die die Unterzeichenfolge „Suche“ enthält, z. B. „Suchergebnisse“, „Suche“ und „Suchen“. Diese Werte werden aus den Ergebnissen ausgeschlossen. |
 | enthält alle von | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener Werte. Wenn z. B. „Suchergebnisse“ mit diesem Operator eingegeben wird, stimmen „Suchergebnisse“ und „Ergebnisse der Suche“ überein, „Suche“ oder „Ergebnisse“ als unabhängige Werte jedoch nicht. Eine Übereinstimmung liegt vor, wenn „Suche“ UND „Ergebnisse“ gemeinsam gefunden werden. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
@@ -48,11 +48,11 @@ Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach
 | kleiner als oder gleich | Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
 | größer als | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist. |
 | größer als oder gleich | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
-| **Zählung unterschiedlicher Werte** | Sie können auf eine bestimmte Anzahl von Elementen innerhalb einer Dimension segmentieren. Beispiele: „Besucher, die mehr als 5 verschiedene Produkte angesehen haben“ oder „Besuche, bei denen mehr als 5 verschiedene Seiten angesehen wurden.“ |
-| gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl den eingegebenen Wert entspricht. |
+| **Zählung unterschiedlicher Werte** | Sie können Segmente für eine bestimmte Anzahl von Elementen in einer Dimension erstellen. Beispiele: „Besucher, die mehr als 5 verschiedene Produkte angesehen haben“ oder „Besuche, bei denen mehr als 5 verschiedene Seiten angesehen wurden.“ |
+| gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl dem eingegebenen Wert entspricht. |
 | ist nicht gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl nicht dem eingegebenen Wert entspricht. |
 | größer als | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist. |
-| kleiner als | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist. |
+| kleiner als | Gibt Dimensionselemente zurück, deren eindeutige Anzahl unter dem eingegebenen Wert liegt. |
 | größer als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer oder gleich dem eingegebenen Wert ist. |
 | kleiner als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner oder gleich dem eingegebenen Wert ist. |
 
