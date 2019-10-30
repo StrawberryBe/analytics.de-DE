@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 Mithilfe der Variablen „“ können Sie die Report Suite anhand der URL der jeweiligen Seite dynamisch auswählen.
 
->[!NOTE]
->
->`dynamicAccountSelection` funktioniert bei der benutzerspezifischen Linktracking nicht.
+> [!NOTE] `dynamicAccountSelection` funktioniert bei der benutzerspezifischen Linktracking nicht.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
 | Keine | Keine | Keine | False |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE]Sowohl `dynamicAccountList` als auch `dynamicAccountMatch` werden ignoriert, wenn die Variable `dynamicAccountSelection` nicht deklariert oder auf „False“ festgelegt ist.
 
 ## Syntax und mögliche Werte
 
@@ -32,7 +28,7 @@ Mithilfe der Variablen „“ können Sie die Report Suite anhand der URL der je
 s.dynamicAccountSelection=[true|false]
 ```
 
-Als Werte von *`dynamicAccountSelection`* zu trennen.
+Als Werte von *`dynamicAccountSelection`*.
 
 ## Beispiele
 
@@ -46,10 +42,10 @@ s.dynamicAccountSelection=false
 
 ## Konfigurationseinstellungen
 
-–
+Keine
 
 ## Probleme, Fragen und Tipps
 
-* Die dynamische Kontoauswahl wird nicht von [AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* Die dynamische Kontoauswahl wird von [AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) nicht unterstützt.
 
-* Always use the [!DNL DigitalPulse Debugger] to determine which report suite is receiving data from each page.
+* Verwenden Sie immer den [!DNL DigitalPulse Debugger], um zu bestimmen, welche Report Suite die Daten von den einzelnen Seiten erhält.
