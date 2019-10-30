@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Übersicht zur Nutzung von Server-Aufrufen
 title: Übersicht zur Nutzung von Server-Aufrufen
-uuid: 6 e 014364-efc 1-4769-a 0 b 5-cf 105 c 0 ed 9 b 1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Mit der Nutzung der Server-Aufrufe von Adobe Analytics können Sie Einsicht in Daten über die Server-Aufrufe von Browsern und Mobilgeräten erhalten. Sie können damit auf Folgendes zugreifen:
 
 * Ein Dashboard zur Nutzung von Server-Aufrufen, das Ihre Verbrauchsdaten bezüglich Server-Aufrufen verfolgt und mit Ihrem vertraglich festgelegten Limit vergleicht. (**[!UICONTROL Analyse &gt; Admin &gt; Nutzung der Server-Aufrufe]**)
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* Warnhinweistyp für die Verwendung von Serveraufrufen im Warnhinweiserstellung, mit dem Sie Warnhinweise einrichten können, um Überlagerungen zu verhindern (**[!UICONTROL Analytics &gt; Komponenten &gt; Warnhinweise]**)
 
 Die Hauptvorteile der Nutzung der Server-Aufrufe umfassen:
 
@@ -29,7 +29,7 @@ Previously, while you could access monthly server call consumption data under  *
 ## Voraussetzungen {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **Berechtigungen**: Um auf das Dashboard zur Nutzung von Server-Aufrufen und die Warnhinweiserstellung/-verwaltung zugreifen zu können, müssen Sie ein Adobe Analytics-Administrator sein.
-* **Berechtigungen**: Administratoren können Zugriff auf Nicht-Administratoren gewähren: die Berechtigung **[!UICONTROL wird verwendet.]** Siehe [Berechtigung zur Nutzung von Server-Aufrufen](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Berechtigungen**: Administratoren können Nicht-Administratoren Zugriff gewähren: die Berechtigung heißt " **[!UICONTROL Server Call Usage]**". Siehe [Berechtigung zur Nutzung von Server-Aufrufen](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Wichtige Begriffe {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -45,7 +45,7 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server-Aufruf </p> </td> 
-   <td colname="col2"> <p>Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Die häufigste Art des Server-Aufrufs ist der Seitenaufruf. Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website anzeigt und ein Serveraufruf an Adobe generiert wird, wo Informationen gesammelt, verarbeitet und in Ihre Berichtsmetriken aufgenommen werden. </p> <p>Weitere Typen von Server-Aufrufen sind Exitlinks und Dateidownloads, bei denen Daten für eine Verarbeitung an Adobe gesendet werden. Diese Daten werden aber nicht als neuer Seitenaufruf aufgezeichnet. Selbst „ausgeschlossene“ Seitenaufrufe (beispielsweise aufgrund eines von Ihnen festgelegten IP-Adressbereichs aus Ihren Berichten ausgeschlossene Aufrufe) sind Server-Aufrufe, da sie von Adobe empfangen und verarbeitet werden, aber nicht in Ihren Berichten erscheinen. </p> <p><b>Primärer Server-Aufruf</b>: Anforderungen, die direkt von den Browsern der Website-Besucher oder von der Dateneinfüge-API empfangen werden. Umfasst Primärtreffer (Seitenansichten), primäre benutzerspezifische Ereignisse, primäre Download-Ereignisse sowie primäre Ausstiegsereignisse. </p> <p><b>Sekundärer Server-Aufruf</b>: Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel auf eine andere Report Suite verschoben (nicht kopiert) wurde, werden die gesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p><b>Primärer mobiler Server-Aufruf</b> </p> <p>Direkt von einer der Mobile sdks empfangene Anforderungen. Binden Sie trackaction, trackstate, trackapp Abstürze, trackactionfrombackground, tracklocation, trackbeacon, trackpushmessageclickthrough, tracktimedactionbacklog, tracklifetimevalueincrease ein.</p> <p><b>Sekundärer mobiler Server-Aufruf</b> </p> <p>Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel auf eine andere Report Suite verschoben (nicht kopiert) wurde, werden die gesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p>Hinweis: Falls Ihr Unternehmen vertraglich nur zu mobilen Server-Aufrufen (primär oder sekundär) berechtigt ist, werden sowohl die Web- als auch die Mobilnutzung gegen Ihre Mobilzusage aufgerechnet. </p> </td> 
+   <td colname="col2"> <p>Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Die häufigste Art des Server-Aufrufs ist der Seitenaufruf. Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite Ihrer Website anzeigt und ein Server-Aufruf an Adobe generiert wird, bei dem Informationen erfasst, verarbeitet und dann in Ihre Berichtsmetriken eingeschlossen werden. </p> <p>Weitere Typen von Server-Aufrufen sind Exitlinks und Dateidownloads, bei denen Daten für eine Verarbeitung an Adobe gesendet werden. Diese Daten werden aber nicht als neuer Seitenaufruf aufgezeichnet. Selbst „ausgeschlossene“ Seitenaufrufe (beispielsweise aufgrund eines von Ihnen festgelegten IP-Adressbereichs aus Ihren Berichten ausgeschlossene Aufrufe) sind Server-Aufrufe, da sie von Adobe empfangen und verarbeitet werden, aber nicht in Ihren Berichten erscheinen. </p> <p><b>Primärer Server-Aufruf</b>: Anforderungen, die direkt von den Browsern der Website-Besucher oder von der Dateneinfüge-API empfangen werden. Umfasst Primärtreffer (Seitenansichten), primäre benutzerspezifische Ereignisse, primäre Download-Ereignisse sowie primäre Ausstiegsereignisse. </p> <p><b>Sekundärer Server-Aufruf</b>: Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel auf eine andere Report Suite verschoben (nicht kopiert) wurde, werden die gesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p><b>Primärer mobiler Server-Aufruf</b> </p> <p>Anfragen, die direkt von einem der Mobile SDKs empfangen wurden. Schließen Sie trackAction, trackState, trackApp-Abstürze, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease ein.</p> <p><b>Sekundärer mobiler Server-Aufruf</b> </p> <p>Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel auf eine andere Report Suite verschoben (nicht kopiert) wurde, werden die gesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p>Hinweis: Falls Ihr Unternehmen vertraglich nur zu mobilen Server-Aufrufen (primär oder sekundär) berechtigt ist, werden sowohl die Web- als auch die Mobilnutzung gegen Ihre Mobilzusage aufgerechnet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abrechnungsunternehmen (Abrechnungs-ID) </p> </td> 
@@ -63,7 +63,7 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-Organisation </p> </td> 
-   <td colname="col2"> <p>Eine Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und den Single Sign-on in der Experience Cloud zu steuern. Die Organisation funktioniert wie ein Anmeldeunternehmen, das alle Experience Cloud-Produkte und -lösungen umfasst. </p> <p>In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen. </p> </td> 
+   <td colname="col2"> <p>Eine Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und den Single Sign-on in der Experience Cloud zu steuern. Die Organisation funktioniert wie ein Anmeldeunternehmen, das alle Experience Cloud-Produkte und -Lösungen umfasst. </p> <p>In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zusage für Server-Aufrufe </p> </td> 
@@ -75,7 +75,7 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertragsdauer </p> </td> 
-   <td colname="col2"> <p>Die Vertragsdauer kann mehrere Jahre betragen. Nehmen wir an, dass Ihr Unternehmen eine Zusage für Server-Aufrufe von 6 Millionen Aufrufen während einer Vertragsdauer von 3 Jahren erhalten hat. Für die Überwachung der Nutzung von Serveraufrufen kann dieser 3 Jahre in kleinere Nutzungszeiträume unterteilt werden, um Vergleiche jährlich zu erleichtern. </p> </td> 
+   <td colname="col2"> <p>Die Vertragsdauer kann mehrere Jahre betragen. Nehmen wir an, dass Ihr Unternehmen eine Zusage für Server-Aufrufe von 6 Millionen Aufrufen während einer Vertragsdauer von 3 Jahren erhalten hat. Zur Überwachung der Verwendung von Server-Anrufen kann dieser Dreijahreszeitraum in kleinere Nutzungszeiträume unterteilt werden, um Jahresvergleiche zu erleichtern. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
 
 Analytics-Administratoren erhalten automatisch die Berechtigung zur Nutzung von Server-Aufrufen. Damit können Nutzer das Dashboard einsehen und Warnhinweise zu Server-Aufrufen erstellen. Administratoren können diese Berechtigung auch Nicht-Administratoren gewähren.
 
->[!NOTE]
->
->Ihr Unternehmen kann festlegen, welche Anmeldeunternehmen Zugriff auf die Nutzung des Serveraufrufs haben.
+> [!NOTE] Ihr Unternehmen kann auswählen, welche Anmeldeunternehmen Zugriff auf die Verwendung von Server-Aufrufen haben.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -106,7 +104,7 @@ Analytics-Administratoren erhalten automatisch die Berechtigung zur Nutzung von 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Melden Sie sich bei login. experiencecloud. adobe. com an.</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Melden Sie sich bei login.experienceCloud.adobe.com an.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Klicken Sie auf <span class="uicontrol">Analytics </span>. </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Begeben Sie sich zu <span class="ignoretag"><span class="uicontrol">Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Berechtigungen</span> &gt; <span class="uicontrol">Analytics-Werkzeuge</span> &gt; <span class="uicontrol">Nutzung der Server-Aufrufe</span></span>. </li> 
     </ol> </td> 
