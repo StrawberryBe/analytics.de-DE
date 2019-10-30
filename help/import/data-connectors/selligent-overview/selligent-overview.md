@@ -6,7 +6,7 @@ solution: Analytics
 title: Selektiver Data Connector für Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -82,31 +82,31 @@ Neben diesen eVars können abhängig von den Daten von Selligent, die Sie in Ana
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Gesendet </td> 
    <td colname="col3"> Zum Speichern der Anzahl der von Selligent gesendeten E-Mails. </td> 
-   <td colname="col4"> <p><b>Typ</b>: Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
+   <td colname="col4"> <p><b>Typ</b>:Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Ausgeliefert </td> 
    <td colname="col3"> So speichern Sie die Anzahl der ausgelieferten E-Mails. </td> 
-   <td colname="col4"> <p><b>Typ</b>: Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
+   <td colname="col4"> <p><b>Typ</b>:Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Ansichten </td> 
    <td colname="col3"> Zum Speichern der Anzahl der angezeigten E-Mails. </td> 
-   <td colname="col4"> <p><b>Typ</b>: Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
+   <td colname="col4"> <p><b>Typ</b>:Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Klicks </td> 
    <td colname="col3"> Um zu speichern, wie oft auf eine E-Mail geklickt wurde. </td> 
-   <td colname="col4"> <p><b>Typ</b>: Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
+   <td colname="col4"> <p><b>Typ</b>:Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Absprungen </td> 
    <td colname="col3"> Zum Speichern der Anzahl der abgesetzten E-Mails. </td> 
-   <td colname="col4"> <p><b>Typ</b>: Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
+   <td colname="col4"> <p><b>Typ</b>:Nummerisch </p> <p><b>Beitrag</b>: Aktiviert </p> </td> 
   </tr> 
  </tbody> 
 </table>
