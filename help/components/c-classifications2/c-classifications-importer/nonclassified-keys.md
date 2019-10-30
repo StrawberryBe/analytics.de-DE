@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classifications
 title: Nicht klassifizierte Schlüssel
 topic: Admin Tools
-uuid: b 73 a 9161-0 c 6 f -4 c 8 d -900 b -54 ab 2 c 36147 c
+uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Nicht klassifizierte Schlüssel werden in Classification-Berichten unter einem einzigen Zeileneintrag gruppiert; dieser Zeileneintrag trägt die Bezeichnung „Keine“. Benennen Sie „Keine“ in eine aussagekräftigere Bezeichnung um.
 
-## Non-classified keys {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
+## Nicht klassifizierte Schlüssel {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
 Nicht klassifizierte Schlüssel werden in Classification-Berichten unter einem einzigen Zeileneintrag gruppiert; dieser Zeileneintrag trägt die Bezeichnung *`None`*. It can be useful to rename *`None`* to something more descriptive.
 
@@ -39,5 +39,5 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
 
    Im Beispiel in dieser Dokumentation geben Sie „Nicht-Mobilkampagne“ in die Spalte [!UICONTROL Mobilkampagnenname] ein.
 
-   Mit diesem Eintrag wird *`None`* im *`non-mobile campaign`*[!UICONTROL Mobilkampagnentyp-] Bericht.
+   Mit diesem Eintrag wird *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
 1. [Importieren Sie die Daten](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) wieder in das System.
