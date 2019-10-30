@@ -1,13 +1,13 @@
 ---
 description: Bei vielen Interaktionen der Adobe Engineering Services müssen Daten ausgetauscht werden, wozu häufig FTP erforderlich ist.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Bei vielen Interaktionen der Adobe Engineering Services müssen Daten ausgetauscht werden, wozu häufig FTP erforderlich ist.
 seo-title: Engineering Services-Interaktionen mit FTP
 solution: Analytics
 title: Engineering Services-Interaktionen mit FTP
-uuid: 38 d 1 fc 13-b 709-4661-805 b -7 efa 82 b 57 a 47
+uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ Wie beim Hochladen in SAINT über FTP empfängt auch [!UICONTROL DB VISTA] Daten
 
 ## Benutzerdefinierte Interaktionen {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe Engineering Services bietet benutzerdefinierte Projekte, die sowohl FTP als auch SFTP verwenden. Weitere Informationen zu benutzerdefinierten Projekten finden Sie im Beitrag zu den Adobe Engineering Services. For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Adobe Engineering Services bietet benutzerdefinierte Projekte, die sowohl FTP als auch SFTP verwenden. Weitere Informationen zu benutzerdefinierten Projekten finden Sie im Beitrag zu den Adobe Engineering Services. Informationen zu SFTP finden Sie unter [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
