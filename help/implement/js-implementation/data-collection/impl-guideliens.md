@@ -7,8 +7,8 @@ solution: Analytics
 title: Richtlinien für die Implementierung
 topic: Entwickler und Implementierung
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Bei Einhaltung dieser Anleitung werden überall die gleichen Cookie-Domänen ver
 
 * **RSID:** Die [!UICONTROL Report Suite-ID]
 * **VNS:** (Visitor Name Space) Der Namespace des Besuchers, die Subdomäne von [!DNL 2o7.net] oder [!DNL omtrdc.net], in der das [!UICONTROL Besucher-ID]-Cookie gespeichert wird
-* **COOKIEDOMAIN:** Ihr VNS + trackingServer. Je nach Rechenzentrum und RDC-Standort können diese unterschiedlich sein. [Wenden Sie sich an die Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html#analytics), wenn Sie sich bezüglich Ihrer Datenerfassungsdomäne nicht sicher sind.
+* **COOKIEDOMAIN:** Ihr VNS + trackingServer. Je nach Rechenzentrum und RDC-Standort können diese unterschiedlich sein. [Wenden Sie sich an den Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) , wenn Sie sich bezüglich Ihrer Datenerfassungsdomäne nicht sicher sind.
 
 ## Javascript
 
