@@ -8,8 +8,8 @@ subtopic: Fehlerbehebung
 title: Dateikomprimierung
 topic: Entwickler und Implementierung
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,5 @@ Kunden können die JavaScript-Bibliotheksdatei mit standardmäßiger Kodierung k
 
 Mit den meisten Kompressionsalgorithmen kann die Größe der JavaScript-Datei um 40 bis 60 % (oder mehr) reduziert werden.
 
->[!NOTE]
->
->Nicht alle Browser unterstützen sämtliche Komprimierungsstandards oder gehen mit komprimierten Dateien auf die gleiche Weise um. Adobe kann eine zuverlässige Dateikomprimierung nicht für alle Umgebungen garantieren. Kunden sollten die Komprimierung vor der Bereitstellung in den von ihnen unterstützten Browsern und Konfigurationen testen.
+> [!NOTE] Nicht alle Browser unterstützen sämtliche Komprimierungsstandards oder gehen mit komprimierten Dateien auf die gleiche Weise um. Adobe kann eine zuverlässige Dateikomprimierung nicht für alle Umgebungen garantieren. Kunden sollten die Komprimierung vor der Bereitstellung in den von ihnen unterstützten Browsern und Konfigurationen testen.
 
