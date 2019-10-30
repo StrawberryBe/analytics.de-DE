@@ -5,9 +5,9 @@ seo-title: Ausstehende Aktionen
 solution: Analytics
 title: Ausstehende Aktionen
 topic: Admin Tools
-uuid: 63 efbf 6 d -22 d 6-4 ffe-af 25-69 e 10 bed 7989
+uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
