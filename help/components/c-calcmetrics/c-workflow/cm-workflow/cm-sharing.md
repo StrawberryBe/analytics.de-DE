@@ -3,9 +3,9 @@ description: Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre g
 seo-description: Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre gesamte Organisation, für Gruppen oder für einzelne Benutzer freigeben.
 seo-title: Berechnete Metriken freigeben
 title: Berechnete Metriken freigeben
-uuid: 7 e 2 a 3 c 16-3650-42 ca -842 b -2575 e 904 e 82 c
+uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
