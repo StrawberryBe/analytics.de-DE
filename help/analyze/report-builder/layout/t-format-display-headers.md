@@ -5,9 +5,9 @@ seo-title: Anzeigeüberschriften formatieren
 solution: Analytics
 title: Anzeigeüberschriften formatieren
 topic: ReportBuilder
-uuid: cd 0 e 167 b -9463-43 fd -87 b 2-724 d 1 c 79 de 68
+uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- und Spaltenüberschriften angezeigt werden. Der Link „Formatoptionen“ ist für die Layouttypen „Pivot“ und „Benutzerdefiniert“ verfügbar.
 
 1. [!UICONTROL Erstellen Sie im Dialogfeld „Anforderungs-Assistent: Schritt 1“ eine Anforderung]. 
-1. Click **[!UICONTROL Next]**.
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. Fügen Sie der Anforderung im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] Dimensionen und Metriken entsprechend Ihren Bedürfnissen hinzu.
 1. Click **[!UICONTROL Format Options]**.
 1. [!UICONTROL Anzeige]-Optionen konfigurieren:
@@ -27,7 +27,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
    | Berichtname | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Filtert Parameter | Anzeige von Dimensionsfiltern wie beispielsweise Suchfiltern. |
    | Segment | Anzeige der Segmentparameter. |
-   | Datenneuigkeit | Anzeige der Parameter für Datenneuigkeit. Beispiel:    Data Recency: Page Views (1.5 hr ago), Exits (30 mins ago)  See [Options](../../../analyze/report-builder/options.md) for information about current data processing. |
+   | Datenneuigkeit | Anzeige der Parameter für Datenneuigkeit. Beispiel:    Datenneuigkeit: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten) Weitere Informationen zur aktuellen Datenverarbeitung finden Sie unter [Optionen](../../../analyze/report-builder/options.md) . |
 
    Anzeigereihefolge: Wenn im [!UICONTROL Zeilentitel] (Schritt 2) ein Element enthalten ist, wird dies in der Anforderung zuerst angezeigt. Falls nicht, verwendet das System das erste vorhandene Element im Raster [!UICONTROL Spaltenbezeichnung]. Falls weder Zeilen- oder Spaltenelemente vorhanden sind, wird das erste Element im Raster [!UICONTROL Metriken] angezeigt.
 
@@ -39,7 +39,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
 
    >[!NOTE]
    >
-   >Excel unterstützt nur einen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
+   > Excel unterstützt nur einen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
 
    **Automatische Gliederung durchführen:** Wandelt die von ReportBuilder ausgegebenen Daten von einer Listen- in eine Baumansicht um.
 
