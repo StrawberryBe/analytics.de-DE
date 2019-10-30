@@ -7,7 +7,7 @@ title: s.tl()-Funktion verwenden
 topic: Activity Map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ Anders gesagt, wenn Sie s.tl zur Verfolgung Ihrer spezifischen Elemente verwende
 
 ## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
-When the s.tl() function is called directly from the HTML element’s on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. Beispiel:
+When the s.tl() function is called directly from the HTML element's on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. Beispiel:
 
 ```
 <div onclick="s.tl(this,'o','some link name')">Text to click on</a>
@@ -39,7 +39,7 @@ When the s.tl() function is called directly from the HTML element’s on-click e
 
 Wenn der Webseite nach dem ersten Laden Inhalt hinzugefügt wird, so wird die Funktion s.tl indirekt aufgerufen und es können keine Überlagerungen für diesen neuen Inhalt angezeigt werden, es sei denn, er wird explizit aktiviert oder angeklickt. Then a new link collection process is triggered from [!DNL Activity Map].
 
-When the s.tl() function is not called directly from the HTML element’s on-click event, [!DNL Activity Map] can only display overlay once that element has been clicked by the user. In dem folgenden Beispiel wurde die Funktion s.tl() indirekt aufgerufen:
+When the s.tl() function is not called directly from the HTML element's on-click event, [!DNL Activity Map] can only display overlay once that element has been clicked by the user. In dem folgenden Beispiel wurde die Funktion s.tl() indirekt aufgerufen:
 
 ```
 <div onclick="someFn(event)"></div> 
@@ -50,7 +50,7 @@ When the s.tl() function is not called directly from the HTML element’s on-cli
  </script>
 ```
 
-The best way for [!DNL Activity Map] to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to s.tl. Beispiel:
+The best way for [!DNL Activity Map] to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to s.tl. Hier ein Beispiel:
 
 ```
 var originalLinkFunction = s.ActivityMap.link; 
@@ -62,11 +62,11 @@ s.ActivityMap.link = function(element,linkName){
 ```
 
 ```
-<button type=”button” onclick=”s.tl(this,’o’,makeLinkName(this)”>Add To Cart</button>
+<button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
 Wir haben die ActivityMap.link-Funktion überschrieben, damit sie eine der drei Aktionen bewirkt, wenn sie aufgerufen wird:
 
 1. Wenn linkName übergeben wird, wird dieser von s.tl() aufgerufen, es wird also nur zurückgegeben, was s.tl als linkName übergeben hat.
-1. This is called by [!DNL Activity Map] at reporting time, so a linkName is never passed, and so call makeLinkName() with the link element. This is the crucial step here - the “makeLinkName(element)” call should be the same at the s.tl call’s 3rd argument in the `<button>` tag. Deshalb verfolgen wird beim Aufruf von s.tl die Zeichenkette, die von makeLinkName zurückgegeben wird. When [!DNL Activity Map] reports on the links on the page, is uses the same call to make a link.
+1. This is called by [!DNL Activity Map] at reporting time, so a linkName is never passed, and so call makeLinkName() with the link element. This is the crucial step here - the "makeLinkName(element)" call should be the same at the s.tl call's 3rd argument in the `<button>` tag. Deshalb verfolgen wird beim Aufruf von s.tl die Zeichenkette, die von makeLinkName zurückgegeben wird. When [!DNL Activity Map] reports on the links on the page, is uses the same call to make a link.
 1. Als endgültige Lösung wird der ursprüngliche Rückgabewert der Standard-Activity Map-Link-Funktion zurückzugeben. Durch dieses Verfahren müssen Sie nur makeLinkName überschreiben bzw. benutzerdefinierten Code dafür schreiben, und nicht einen Link-Rückgabewert für alle Links auf der Seite erstellen.
