@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen
 topic: Segmente
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -129,7 +129,7 @@ Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet
 
 **Was ist mit meinen vorhandenen Segmentordnern passiert?**
 
-Anstatt der (Ad-hoc-Analysen-) Ordner verwendet der Segment-Manager  Tags. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
+Anstatt der (Ad-hoc-Analysen-) Ordner verwendet der Segment-Manager  Tags zu platzieren. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
 
 **Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?**
 
@@ -141,7 +141,7 @@ Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselb
 
 ![](assets/duplicate_seg_names.png)
 
-Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ referenziert. Dann löschen Sie das Segment, weil es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition des maindev-Segments ändern und „Catalina Island“ und „Tijuana Mexiko“ einfügen, wird das auf das Lesezeichen angewendete Segment nicht geändert. Es verwendet weiterhin die alte Definition. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht ein gelöschtes Segment verwenden, können Sie den Namen des Segments ändern, damit deutlich wird, ob das Lesezeichen das Segment verwendet.
+Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ referenziert. Dann löschen Sie dieses Segment, weil es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition des maindev-Segments ändern und „Catalina Island“ und „Tijuana Mexiko“ einfügen, wird das auf das Lesezeichen angewendete Segment nicht geändert. Es verwendet weiterhin die alte Definition. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie sich nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht ein gelöschtes Segment verwendet, können Sie den Namen des verbleibenden Segments ändern, damit klarer wird, ob das Lesezeichen das restliche Segment verwendet.
 
 **Was passiert mit Data Warehouse-Segmenten?**
 
@@ -185,7 +185,7 @@ Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren we
 
 **Admin**-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt.
 
-Der Eigentümer dieser Segmente wird mit dem ältesten Konto in der Liste der Admin-Benutzer im Unternehmen als Admin angelegt. Es können jedoch alle Administratoren diese Segmente löschen, bearbeiten und teilen.
+Der Inhaber dieser Segmente ist auf den Administrator mit dem ältesten Konto in der Liste der Admin-Benutzer des Anmeldeunternehmens eingestellt. Alle Administratoren können diese Segmente jedoch löschen, bearbeiten und freigeben.
 
 Die Segmentverwaltungsoberfläche der Admin Console, über die Administratoren diese globalen Segmente erstellen und verwalten konnten, gibt es nicht mehr. Administratoren sollten jetzt den neuen Segmentaufbau verwenden, um Segmente zu erstellen und für geeignete Gruppen, für alle oder für einzelne Personen freizugeben.
 
@@ -343,7 +343,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobilgerät – Cookie-Unterstützung | Mobilgerät – Mail-Design | Betriebssystem |
 | Mobilgerät – Bildunterstützung | Mobile Informationsdienste | Referrer-Typ |
 | Mobilgerät – Farbtiefe | Mobilgerätetyp | Suchmaschine |
-| Mobilgerät – Audiounterstützung | Browsertyp | Staat |
+| Mobilgerät – Audiounterstützung | Browsertyp | state |
 | Mobilgerät – Videounterstützung | Browser | Geo-Land |
 | Mobil-DRM | Verbindungstyp | Geo-Region |
 | Mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
