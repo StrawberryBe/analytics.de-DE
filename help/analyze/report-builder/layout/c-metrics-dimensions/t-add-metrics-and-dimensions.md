@@ -5,9 +5,9 @@ seo-title: Metriken und Dimensionen hinzufügen
 solution: Analytics
 title: Metriken und Dimensionen hinzufügen
 topic: ReportBuilder
-uuid: 588 ce 96 b -3 a 2 d -42 b 7-8 a 8 e -7 e 6 f 448 a 0115
+uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -64,7 +64,7 @@ Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren
     * Jahr
     * Datumsbereich (wenn keine Granularität angegeben ist)
 
-1. Modify metrics and dimensions by configuring [format options](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
+1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) und Filter konfigurieren.
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
 Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Hier erstellt die Dimension [!UICONTROL Verweisende Domäne] einen Detailbericht für [!UICONTROL Seite] und [!UICONTROL Verweisende Domäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
 
