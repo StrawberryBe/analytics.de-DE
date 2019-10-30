@@ -5,9 +5,9 @@ seo-title: Berichtsfunktionen
 solution: Analytics
 title: Berichtsfunktionen
 topic: Reports and Analytics
-uuid: 32 f 72961-cb 94-4 e 50-ae 18-03326 e 02 bc 8 b
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,31 +22,31 @@ Das folgende Beispiel zeigt einen [!UICONTROL Seitenbericht]. Die Konfigurations
 
 An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width = "672 px"}
+![](assets/pages_report.png){width="672px"}
 
 ## Berichtssymbolleiste {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Ermöglicht die Freigabe Ihrer Berichtsdaten an Entscheidungsträger, die anhand der Daten Änderungen an Ihrer Site- oder Marketingstrategie vornehmen können
 
-![](assets/toolbar.png){width = "672 px"}
+![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Siehe auch [Anpassen eines Berichts](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Berichtskopf und -einstellungen {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 Zeigt Berichtseinstellungen an und ermöglicht das Konfigurieren des Berichtstyps, das Auswählen von Metriken und anderes mehr. Die für diese Gruppe verfügbaren Optionen variieren entsprechend der ausgeführten Berichte. 
 
-![](assets/settings_header.png){width = "672 px"}
+![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+Weitere Informationen finden Sie unter [Anpassen eines Berichts](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) .
 
 ## Kalender {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 Legen Sie das Datum fest, indem Sie auf die Kalenderschaltfläche klicken und einen Datumsbereich auswählen. Zum Leistungsvergleich können Sie auch zwei Zeiträume wählen.
 
-![](assets/calendar_large.png){width = "672 px"}
+![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Siehe [Auswählen eines Datums oder eines Datumsbereichs](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) und [Vergleichen von Daten](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
 
 ## Diagrammtyp {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
