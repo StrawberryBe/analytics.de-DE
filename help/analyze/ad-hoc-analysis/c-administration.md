@@ -5,7 +5,7 @@ seo-title: Administration
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -151,9 +151,3 @@ Wenn Sie als weiteres Beispiel 10 Mio. Treffer pro Tag verzeichnen und einen Dat
 * (10.000.000 × 365) ÷ 750.000.000 = 4.8
 
 Um die Anzahl der Treffer in den 365 Tagen demnach unter 750.000.000 zu halten, könnte eine Stichprobe der Daten im Verhältnis 4,8 zu 1 erfolgen, aber da Discover nur Stichproben aus Ganzzahlen zieht, beträgt die Stichprobenrate 5 zu 1.
-
->[!MORE_LIKE_THIS]
->
->* [Benutzer](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Gruppen](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
