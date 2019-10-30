@@ -4,10 +4,10 @@ seo-description: Beschreibungen von Berichtskategorien, die in Experience Cloud 
 seo-title: Berichtskategorien
 solution: Analytics
 title: Berichtskategorien
-topic: 'Berichte    '
-uuid: 78369121-3854-4 bf 9-9156-c 2369 ec 75 d 73
+topic: Berichte
+uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ Im Diagramm werden die nachverfolgten Elemente auf der vertikalen Achse angezeig
 Sie können auch mehrere Zellen auswählen und einen Trendbericht mit der ausgewählten Granularität starten. Wenn Sie einen Trend auf Grundlage mehrerer Zellen analysieren, werden in den Berichtspalten Daten für den gesamten Berichtzeitraum angezeigt.
 
 Ein Beispiel für einen Trendbericht ist der Produktbericht. Hier können Sie sehen, wie viel Umsatz ein Produkt während des ausgewählten Zeitraums generiert hat. Wenn der Berichtzeitraum eine Woche ist, können Sie sehen, wie viel Umsatz das Produkt für jeden Tag des Zeitraums generiert hat. Sie können ein Trenddiagramm zu einen spezifischen Produkt an einem bestimmten Tag anzeigen oder einen separaten Trendbericht für die Auswahl öffnen.
-Ein Bericht "Gesamtsumme" ist ein Bericht auf Führungsebene, der die unterstrichenen Zahlen anzeigt. Er enthält Daten zu Gesamtumsatz, Seitenansichten und Bestellungen. Sie können den Bericht segmentieren und ihm weitere Metriken hinzufügen, um weitere Daten anzuzeigen.
+Ein Summenbericht ist ein Bericht auf Exekutivebene, der Ergebniszahlen anzeigt. Er enthält Daten zu Gesamtumsatz, Seitenansichten und Bestellungen. Sie können den Bericht segmentieren und ihm weitere Metriken hinzufügen, um weitere Daten anzuzeigen.
 Der Fluss zeigt die gängigsten Pfade, die Benutzer auf Seiten, in Sitebereichen und auf Servern nehmen.
 
 Informationen zur Fluss-Funktionsweise in Analysis Workspace finden Sie unter [Customer Journey – Fluss](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
@@ -36,4 +36,4 @@ Die Berichtsgruppe „Nächster Fluss“ besteht aus drei Berichten: Nächster S
 **Vorheriger Fluss**
 
 Die Berichte „Vorheriger Fluss“ sind den Berichten „Nächster Fluss“ ähnlich; allerdings zeigen sie in diesem Fall nicht an, wohin der Besucher nach der jeweiligen Seite navigierte, sondern woher der Besucher kam. Die Steuerelemente für die Verwendung des Berichts sind identisch mit den Steuerelementen für die Berichte „Nächster Fluss“.
-Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (d. h., wo sie abgegangen sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). For more information, see [Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) in Analysis Workspace.
+Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (d. h., wo sie abgegangen sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Weitere Informationen finden Sie unter [Trichteranalyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) im Analysis Workspace.
