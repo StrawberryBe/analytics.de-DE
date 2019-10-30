@@ -1,25 +1,23 @@
 ---
-description: 'Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht genügend Variablen zur Verfügung haben, können Sie jetzt auf zusätzliche eVars und Erfolgsereignisse zugreifen '
+description: 'Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht über genügend Variablen verfügen, haben Sie jetzt Zugriff auf zusätzliche eVars und Erfolgsereignisse '
 keywords: Analytics-Implementierung;eVars;Ereignisse;eVar-Anzahl;wie viele eVars;wie viele Ereignisse
-seo-description: 'Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht genügend Variablen zur Verfügung haben, können Sie jetzt auf zusätzliche eVars und Erfolgsereignisse zugreifen '
+seo-description: 'Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht über genügend Variablen verfügen, haben Sie jetzt Zugriff auf zusätzliche eVars und Erfolgsereignisse '
 seo-title: Zusätzliche eVars und Ereignisse
 solution: Analytics
 title: Zusätzliche eVars und Ereignisse
 topic: Entwickler und Implementierung
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Zusätzliche eVars und Ereignisse
 
-Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht genügend Variablen zur Verfügung haben, können Sie jetzt auf zusätzliche eVars und Erfolgsereignisse zugreifen:
+Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht über genügend Variablen verfügen, haben Sie jetzt Zugriff auf zusätzliche eVars und Erfolgsereignisse:
 
->[!NOTE]
->
->JavaScript-H-Code unterstützt diese zusätzlichen eVars und Ereignisse nicht.
+> [!NOTE] JavaScript-H-Code unterstützt diese zusätzlichen eVars und Ereignisse nicht.
 
 ## Berechtigungen für benutzerdefinierte Dimensionen und Ereignisse {#section_869EC3D8A5614036A9C586F2B74FA7DC}
 
@@ -48,9 +46,9 @@ Wenn Sie zusätzliche Informationen verfolgen möchten, aber nicht genügend Var
 
 * **Haben Adobe Analytics-Schnittstellen sofort Zugriff auf diese neuen Variablen?** Diese Schnittstellen haben sofort Zugriff: [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Ad Hoc Analysis], APIs und [!UICONTROL Data Workbench].
 
-* **Werden diese zusätzlichen eVars und Ereignisse automatisch in meinen Data Feeds angezeigt?** Sobald die neuen Variablen aktiviert sind, können Data Feeds darauf zugreifen. Neue eVar-Spalten werden erst dann angezeigt, wenn Sie sie einschließen. Neue Ereignisse werden jedoch in der event_list-Spalte angezeigt, sobald sie aktiviert wurden. Die Suchtabelle für Ereignisse enthält die Ereignisnamen für diese Ereignis-IDs. Aktivieren Sie keine neuen Ereignisse, wenn Sie sie noch nicht in den Data Feeds verwenden möchten.
+* **Werden diese zusätzlichen eVars und Ereignisse automatisch in meinen Data Feeds angezeigt?** Sobald die neuen Variablen aktiviert sind, können Data Feeds darauf zugreifen. Neue eVar-Spalten werden erst dann angezeigt, wenn Sie sie einschließen. Neue Ereignisse werden jedoch in der Spalte event_list angezeigt, sobald sie aktiviert sind, und die Tabelle für die Ereignissuche enthält die Ereignisnamen für diese Ereignis-IDs. Aktivieren Sie keine neuen Ereignisse, wenn Sie sie noch nicht in den Data Feeds verwenden möchten.
 
-* **Wie fordere ich neue Data Feed-Spalten an?** Informationen zum Anfordern neuer Spalten finden Sie unter [Konfigurieren von Datenfeeds](https://marketing.adobe.com/resources/help/de_DE/sc/clickstream/datafeeds_configure.html).
+* **Wie fordere ich neue Data Feed-Spalten an?** Weitere Informationen zur Anforderung von Spalten erhalten Sie unter [Data Feeds konfigurieren](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_configure.html).
 
 * **Angenommen, ich bin Analytics Ultimate-Kunde und möchte wieder zu Analytics Prime zurückkehren, habe aber derzeit mehr als 200 eVars aktiviert. Was muss ich tun?** Adobe deaktiviert keine Ihrer vorhandenen eVars, Sie können jedoch keine weiteren eVars aktivieren. Wenn Sie eVars deaktivieren, können Sie sie erst wieder aktivieren, wenn Sie weniger als die für Analytics Prime zulässige Höchstzahl von 200 eVars aktiviert haben.
 
