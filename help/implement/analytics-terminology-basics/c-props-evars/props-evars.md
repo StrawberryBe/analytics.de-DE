@@ -7,8 +7,8 @@ solution: Analytics
 title: Übersicht über Eigenschaften und eVars
 topic: Entwickler und Implementierung
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Mithilfe von Eigenschaftsvariablen können Sie benutzerdefinierte Daten mit best
 
 So kann ein Automobilhersteller zum Beispiel daran interessiert sein, dass in seinem „Seiten“-Bericht auch ein Punkt namens „Beliebtestes Automodell“ aufgeführt wird. Dies wird möglich, indem Sie eine unserer Traffic-Eigenschaften für die Darstellung des Automodells vorsehen. Anschließend implementieren Sie Code, der auf den entsprechenden Seiten das Automodell übergibt.
 
->[!NOTE]
->
->[!DNL Analytics] unterstützt maximal 75 [!UICONTROL s.prop]-Variablen.
+> [!NOTE] [!DNL Analytics] unterstützt maximal 75 [!UICONTROL s.prop]-Variablen.
 
 Eigenschaftsvariablen werden in Pfadsetzungsberichten und Korrelationsberichten verwendet. So können [!UICONTROL Eigenschaftsvariablen] zum Beispiel eingesetzt werden, um den Content-Typ, Unterbereiche oder Vorlagennamen anzuzeigen. In den resultierenden Berichten zum [!UICONTROL Benutzerspezifischen Datenverkehr] wird dann angegeben, welcher Content-Typ, Unterabschnitt oder welche Vorlage am häufigsten angezeigt wird.
 
@@ -40,6 +38,6 @@ Mithilfe von eVars (oder [!UICONTROL benutzerspezifischer Konversion Insight]-Va
 
 In einer Konversions-Site kann mittels eVars verfolgt werden, wie sich angemeldete Besucher im Vergleich zu nicht angemeldeten Besuchern beim Tätigen von Einkäufen verhalten. Wenn sich ein Besucher anmeldet, wird in einer eVar der Wert „angemeldet“ festgelegt. Wenn der Besucher die Checkout-Seite erreicht, wird das Checkout-Ereignis dem „angemeldet“-Wert zugerechnet. Wenn einem Besucher nach einem Kauf die „Vielen Dank“-Seite angezeigt wird, werden die Produkte und Kaufbeträge dem „angemeldet“-Wert zugeschrieben. Im resultierenden [!UICONTROL Custom eVar]-Bericht wird die Gesamtanzahl der Checkouts und Bestellungen zu Besuchern vom Typ „angemeldet“ und „nicht angemeldet“ angezeigt.
 
-Weitere Informationen finden Sie unter [Traffic-Variable](https://marketing.adobe.com/resources/help/de_DE/reference/traffic_var.html) in der Hilfe und Referenz zu Analytics.
+Weitere Informationen finden Sie unter [Traffic-Variable](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) in der Analytics-Hilfe und -Referenz.
 
 Informationen zum Einrichten von Eigenschaften in Digital Tag Management finden Sie unter [Webeigenschaft erstellen](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
