@@ -1,12 +1,12 @@
 ---
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-title: Übersicht über den Analysis Workspace
 solution: Analytics
-title: Übersicht über den Analysis Workspace
+title: Analysis Workspace Überblick
 topic: Reports and Analytics
-uuid: 4 df 6 be 48-2 c 88-4 b 9 d -9536-ed 64 ffbb 6 ee 4
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
 
 Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag &amp; Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Arbeitsbereich]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,9 +23,7 @@ Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen A
 
 Eine vollständige YouTube-Playlist ist [hier](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) verfügbar.
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] Aktualisierungen zu Funktionen finden Sie unter [Neue Funktionen im Arbeitsbereich](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) für Analysen.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Die neuen Rechtsklickoptionen „Bereichslink abrufen“ und „Visualisierungslink abrufen“ wurden hinzugefügt. So fügen Sie Intra-Linking zu Ihrem Projekt hinzu:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Neue Optionen mit Rechtsklick namens "Bedienfeldlink abrufen"und "Visualisierungslink abrufen"wurden hinzugefügt. So fügen Sie Intra-Linking zu Ihrem Projekt hinzu:
 
 1. Ziehen Sie eine Textvisualisierung in ein Projekt, z. B. neben eine Visualisierung oder Tabelle, für die Kontext erforderlich ist.
 1. Füllen Sie das Textfeld z. B. mit einem Inhaltsverzeichnis und markieren Sie dann ein Element, das Sie mit einem Bereich oder einer Visualisierung verknüpfen möchten, z. B. Erfolgsmetriken.
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 Wenn Bereiche oder Visualisierungen innerhalb Ihres Projekts ausgeblendet sind, können Sie diese durch Klicken auf einen Link einblenden, um sie für Benutzer sichtbar zu machen.
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] Sie können diese Funktion auch mit der Rechtsklick-Option Beschreibung **[!UICONTROL bearbeiten]** verwenden.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -121,7 +117,7 @@ Ziehen Sie ein Segment auf der Projektebene auf den Freiformbereich, damit das S
 
 ![](assets/segment-panel.png)
 
-Weitere Informationen finden Sie unter      [Segmente](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+Siehe [Segmente](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
