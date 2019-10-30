@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 Die Variable „“ ruft mithilfe des DOM-Objekts den Abschnitt der URL ab, auf den alle in „“ aufgeführten Regeln angewendet werden.
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Da der Standardwert [!DNL window.location.host] lautet, ist diese Variable nicht erforderlich, damit die [!UICONTROL dynamische Kontoauswahl] ordnungsgemäß funktioniert. For additional information, see [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Diese Variable ist nur gültig, wenn *`dynamicAccountSelection`* auf „True“ festgelegt ist. Da der Standardwert [!DNL window.location.host] lautet, ist diese Variable nicht erforderlich, damit die [!UICONTROL dynamische Kontoauswahl] ordnungsgemäß funktioniert. Weitere Informationen finden Sie unter [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
-Die Regeln in `dynamicAccountList` werden auf den Wert von angewendet `dynamicAccountMatch`. Wenn `dynamicAccountMatch` nur [!DNL window.location.host] (Standard) enthalten ist, `dynamicAccountList` gelten die Regeln nur für die Domäne der Seite.
+Die Regeln in `dynamicAccountList` werden auf den Wert von `dynamicAccountMatch` angewendet. Wenn `dynamicAccountMatch` nur [!DNL window.location.host] (Standard) enthält, gelten die Regeln in `dynamicAccountList` nur für die Domäne der Seite.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
@@ -24,7 +24,7 @@ Die Regeln in `dynamicAccountList` werden auf den Wert von angewendet `dynamicAc
 
 ## Syntax und mögliche Werte
 
-Die Variable `dynamicAccountMatch`wird für gewöhnlich von dem Adobe-Berater ausgefüllt, der die AppMeasurement für JavaScript-Datei zur Verfügung stellt. Jedoch können die nachfolgend aufgeführten Werte jederzeit übernommen werden.
+Die Variable `dynamicAccountMatch` wird für gewöhnlich von dem Adobe-Berater ausgefüllt, der die AppMeasurement für JavaScript-Datei zur Verfügung stellt. Jedoch können die nachfolgend aufgeführten Werte jederzeit übernommen werden.
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -51,11 +51,11 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 ## Konfigurationseinstellungen
 
-–
+Keine
 
 ## Probleme, Fragen und Tipps
 
-* Die dynamische Kontoauswahl wird nicht von [AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* Die dynamische Kontoauswahl wird von [AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) nicht unterstützt.
 
 * Bei auf einer Festplatte gespeicherten Seiten ist [!DNL window.location.host] leer, wodurch deren Seitenansichten an die standardmäßige Report Suite (in `s_account`).
 
