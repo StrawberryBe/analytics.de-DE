@@ -2,18 +2,18 @@
 description: Beschreibt, wie Instanzen auf Merchandising-Variablen angerechnet werden.
 keywords: Analytics-Implementierung
 seo-description: Beschreibt, wie Instanzen auf Merchandising-Variablen angerechnet werden.
-seo-title: Instanzen bei Merchandising-Variablen
+seo-title: Instanzen auf Merchandising-Variablen
 solution: Analytics
-title: Instanzen bei Merchandising-Variablen
+title: Instanzen auf Merchandising-Variablen
 topic: Entwickler und Implementierung
-uuid: 4 cdfd 53 e -88 aa -48 cf-a 135-98 f 7 fc 8 dcece
+uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Instanzen bei Merchandising-Variablen
+# Instanzen auf Merchandising-Variablen
 
 Beschreibt, wie Instanzen auf Merchandising-Variablen angerechnet werden.
 
@@ -50,7 +50,5 @@ s.products=";Fernie Snow Goggles"
 
 Die Zuordnung auf den Wert „Keine“ tritt ein, wenn Sie einen Wert für eine „eVar“ auf einer Seite festlegen, auf der kein Binding-Ereignis stattfindet, oder Sie den eVar-Wert in der Produktzeichenfolge ohne Binding-Ereignis festlegen.
 
->[!NOTE]
->
->Die aktuelle Funktion zum Zählen von Instanzen bei Merchandising-Variablen wird überarbeitet und in einer kommenden Version geplant.
+> [!NOTE] Die aktuelle Funktion zum Zählen von Instanzen für Merchandising-Variablen wird derzeit überprüft und in einer kommenden Version geändert.
 
