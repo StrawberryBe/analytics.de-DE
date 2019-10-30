@@ -8,7 +8,7 @@ title: Kaufereignisse
 topic: Entwickler und Implementierung
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
+source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
 
 Beim Kaufereignis werden Analytics-Variablen verwendet, um Informationen zu dem jeweiligen Einkauf zu erfassen. Mithilfe der Variablen `s.purchaseID` wird das Ereignis serialisiert (d. h. Duplikate werden entfernt).
 
-Wenn ein Kaufereignis ohne die Variable `purchaseID` aufgerufen wird, wird anhand der Variablen `s.products` und `s.events` automatisch eine eindeutige ID generiert. Diese automatisch generierte Kauf-ID wird lokal als Cookie-Wert im Browser des Besuchers gespeichert und nicht an Adobe gesendet. Manuell definierte Kauf-IDs werden hingegen an Adobe gesendet. Die letzten fünf Käufe eines Besuchers (mit oder ohne Kauf-ID) werden im lokalen Cookie gespeichert.
+Wenn ein Treffer mit einem Kaufereignis ohne Kauf-ID weitergeleitet wird, verwendet Adobe Analytics Informationen aus dem Treffer (s.purchase und s.events), um eine "temporäre Kauf-ID"zu erstellen. Diese temporäre Kauf-ID gilt nur für den Besucher des Treffers. Die vorherigen 5 temporären Kauf-IDs werden für jede Besucher-ID (pro Report Suite) gespeichert.
 
 Wenn ein Besucher einen Einkauf abschließt, werden die folgenden Prüfungen durchgeführt:
 
-* Entspricht die Kauf-ID stimmt mit einem der fünf Cookie-Werte überein? Wenn ja, wird bei der Bildanforderung von einem doppelten Kauf ausgegangen. Alle Konversionsvariablen, einschließlich des Kaufereignisses, werden nicht im Reporting angezeigt.
+* Entspricht die ID für temporären Kauf mit einer der letzten fünf gespeicherten ID für temporären Kauf übereinstimmen? Wenn ja, wird bei der Bildanforderung von einem doppelten Kauf ausgegangen. Alle Konversionsvariablen, einschließlich des Kaufereignisses, werden nicht im Reporting angezeigt.
 * Entspricht `s.purchaseID` es, falls definiert, einem Wert, der bereits in der Report Suite erfasst wurde? Wenn ja, wird bei der Bildanforderung von einem doppelten Kauf ausgegangen. Alle Konversionsvariablen, einschließlich des Kaufereignisses, werden nicht im Reporting angezeigt.
 
 Mithilfe von speziellem serverseitigem Code kann die eindeutige Nummer generiert werden (ein alphanumerischer Wert), die in den HTML-Quellcode eingebettet wird. Zu diesem Zweck wird meist die Bestell-ID oder ein ähnlicher alphanumerischer Wert verwendet. Dieser Wert sollte sich nicht ändern, wenn der Benutzer die Seite aktualisiert.
