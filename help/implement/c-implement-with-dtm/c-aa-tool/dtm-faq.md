@@ -6,8 +6,8 @@ seo-title: Häufig gestellte Fragen zum Adobe Analytics-Tool
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Häufig gestellte Fragen zum Adobe Analytics-Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytic
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Wo füge ich meine Plugins ein, wenn ich Adobe Analytics über DTM implementiere? </p> </td> 
-   <td colname="col2"> <p> Wenn Sie DTM zum manuellen Hosten des <code>s_code</code> verwenden, können Plugins im selben Editor wie der gehostete <code>s_code</code> hinzugefügt werden, ganz so wie bei einer typischen Adobe Analytics-Implementierung. </p> <p>Es ist jedoch auch eine Option, die Plug-ins im Editor im Abschnitt <span class="term">Seiten-Code anpassen</span> der Tool-Einstellungen zu platzieren. Beide Implementierungsmethoden sollten gleichermaßen effektiv sein. </p> </td> 
+   <td colname="col2"> <p> Wenn Sie DTM zum manuellen Hosten des <code> s_code</code> verwenden, können Plugins im selben Editor wie der gehostete <code> s_code</code> hinzugefügt werden, ganz so wie bei einer typischen Adobe Analytics-Implementierung. </p> <p>Es ist jedoch auch eine Option, die Plug-ins im Editor im Abschnitt <span class="term">Seiten-Code anpassen</span> der Tool-Einstellungen zu platzieren. Beide Implementierungsmethoden sollten gleichermaßen effektiv sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wenn ich in der neuen Version des Tools Änderungen an der Konfiguration vornehme, kann ich sie im Staging testen, bevor ich sie in der Produktion veröffentliche? </p> </td> 
