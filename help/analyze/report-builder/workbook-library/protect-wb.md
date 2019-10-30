@@ -1,18 +1,18 @@
 ---
 description: Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung.
 seo-description: Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung.
-seo-title: Sperren/entsperren Sie Arbeitsmappen
+seo-title: Arbeitsmappen sperren/entsperren
 solution: Analytics
-title: Sperren/entsperren Sie Arbeitsmappen
+title: Arbeitsmappen sperren/entsperren
 topic: ReportBuilder
-uuid: ef 5 c 276 c -5 f 74-4741-b 6 fa -4 c 79 eda 29 f 62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Sperren/entsperren Sie Arbeitsmappen
+# Arbeitsmappen sperren/entsperren
 
 Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung.
 
@@ -31,9 +31,7 @@ Sie können eine Arbeitsmappe entsperren, wenn Sie über eine der folgenden Bere
 * Sie sind ein Administrator oder
 * Sie sind die Person, die die Arbeitsmappe ursprünglich gesperrt hat. In diesem Fall müssen Sie kein Administrator sein.
 
->[!NOTE]
->
->Sie können einer geschützten Arbeitsmappe nur eine Anforderung hinzufügen, wenn Sie über die Berechtigung zum Entsperren der Arbeitsmappe verfügen.
+> [!NOTE] Sie können einer geschützten Arbeitsmappe keine Anforderung hinzufügen, es sei denn, Sie sind berechtigt, die Arbeitsmappe zu entsperren.
 
 Wenn eine Arbeitsmappe für die Bearbeitung von Anforderungen gesperrt ist, gilt Folgendes:
 
@@ -59,7 +57,7 @@ Es wird angenommen, dass Arbeitsmappe A über eine Anforderung verfügt, die ge
 **Beispiel 1: Admin-Benutzer (oder Benutzer A)**
 
 1. Der Benutzer meldet sich bei ReportBuilder an und öffnet Arbeitsmappe 
-1. Arbeitsmappe A ist derzeit gesperrt, sodass auf der Symbolleiste die Schaltfläche „Anforderung erstellen“ deaktiviert ist. Auch andere Schaltflächen sind aufgrund der Sperre deaktiviert.
+1. Arbeitsmappe A ist derzeit gesperrt, sodass die Schaltfläche "Anforderung erstellen"in der Symbolleiste deaktiviert ist, zusammen mit allen anderen Schaltflächen, deren Funktionalität durch Sperren deaktiviert ist.
 1. Wenn der Benutzer versucht, eine der deaktivierten Schaltflächen zu verwenden, wird eine Nachricht angezeigt, dass die Arbeitsmappe derzeit gesperrt ist.
 1. Der Benutzer kann die Arbeitsmappe entsperren, sodass alle Bearbeitungsfunktionen aktiviert werden.
 1. Nach dem Entsperren bleibt die Arbeitsmappe entsperrt, bis sie explizit erneut gesperrt wird.
