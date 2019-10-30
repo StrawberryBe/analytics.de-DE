@@ -1,13 +1,13 @@
 ---
 description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine   Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
 seo-description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine   Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
-seo-title: Fehlererkennung
+seo-title: Anomalieerkennung
 solution: Analytics
 title: Anomalieerkennung
 topic: ReportBuilder
-uuid: 02 da 21 b 4-3394-471 b -97 b 5-aa 1 bddf 1 f 445
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 * Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
->[!NOTE]
->
->Die Anomalieerkennung ist nur verfügbar, wenn Sie die Granularität "Tag" auswählen.
+> [!NOTE] Die Anomalieerkennung ist nur verfügbar, wenn Sie die Granularität "Tag"auswählen.
 
 <p class="head"> <b>Metrik für die Anomalieerkennung</b> </p>
 
