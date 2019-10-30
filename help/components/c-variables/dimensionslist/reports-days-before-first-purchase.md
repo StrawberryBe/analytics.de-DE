@@ -4,10 +4,10 @@ seo-description: Zeigt die Anzahl der Tage an, die zwischen dem ersten Sitebesuc
 seo-title: Tage bis Erstkauf
 solution: Analytics
 title: Tage bis Erstkauf
-topic: 'Berichte    '
-uuid: 8 ceea 9 e 8-2 b 81-44 f 1-b 4 c 0-aa 6542 eeba 2 b
+topic: Berichte
+uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
