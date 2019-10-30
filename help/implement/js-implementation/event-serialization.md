@@ -7,8 +7,8 @@ solution: Analytics
 title: Übersicht über die Ereignis-Serialisierung
 topic: Entwickler und Implementierung
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Die [!UICONTROL Ereignis-Serialisierung] ist in den folgenden Fällen nützlich:
 * Eine Seite wird erneut geladen oder aktualisiert und sendet dann ein Ereignis, das schon einmal registriert wurde. Mittels [!UICONTROL Ereignis-Serialisierung] kann verhindert werden, dass Ereignisse mehrfach gezählt werden.
 * Der Benutzer speichert die Seite lokal auf seinem Computer, um sie später anschauen zu können. Dieses Problem tritt besonders häufig bei Bestätigungsseiten für Einkäufe auf, die vom Benutzer gespeichert werden, um die Kaufbestätigungen überprüfen zu können. Mittels [!UICONTROL Ereignis-Serialisierung] kann verhindert werden, dass spätere Seitenaufrufe mehrfach als Ladeereignis gezählt werden.
 
->[!NOTE]
->
->Data Sources unterstützt keine Ereignis-Serialisierung oder -Deduplizierung.
+> [!NOTE] Data Sources unterstützt keine Ereignis-Serialisierung oder -Deduplizierung.
 
 In diesem Dokument wird die Vorgehensweise zum Implementieren von [!UICONTROL Ereignis-Serialisierung] für [!UICONTROL Konversions]- und [!UICONTROL benutzerspezifische] Ereignisse beschrieben. Um die [!UICONTROL Ereignis-Serialisierung] zu verwenden, müssen Sie sie zunächst unter **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL [Report Suite auswählen]]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Erfolgsereignis]** aktivieren. Wählen Sie dann in der Spalte „[!UICONTROL Eindeutige Ereignisaufzeichnung]“ aus, welche Ereignisse aufgezeichnet werden sollen.
 
