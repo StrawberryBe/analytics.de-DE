@@ -8,7 +8,7 @@ title: Verarbeitungsregeln – Tipps und Tricks
 topic: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ Dieser Abschnitt enthält einige Anleitungen, die Ihnen helfen, Verarbeitungsreg
 
 **Testen von Regeln, die Suchbegriffe lesen**
 
-Für Kriterien, die auf einer Suche basieren, z. B., ob prop1 das Wort „Neuigkeiten“ enthält, rufen Sie den prop1-Bericht auf und suchen Sie nach „Neuigkeiten“, um zu sehen, ob es Übereinstimmungen gibt, die Sie nicht erwartet haben.
+Für alle Kriterien, die auf einer Suche basieren, z. B. wenn prop1 "news"enthält, gehen Sie zum prop 1-Bericht und suchen Sie nach "news", um zu sehen, ob Übereinstimmungen vorliegen, die Sie nicht erwartet haben.
 
 **Testen von Regeln, die Variablen lesen**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **Verwenden einer dev-Report Suite**
 
-Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
+Es wird empfohlen, Verarbeitungsregeln für eine dev-Report Suite zu konfigurieren, um sicherzustellen, dass sie ordnungsgemäß funktionieren. Wenn möglich sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
 
 ## Auf leere Werte hin überprüfen {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Suchbegriffe, die aus einer Abfragezeichenfolge gezogen werden, müssen korrekt 
 Wählen Sie die korrekte Übereinstimmungsbedingung, um die restriktivste Bedingung zu finden, die korrekt übereinstimmt. Sie können nach Werten in einem Bericht suchen, bevor Sie eine Regel erstellen, um sicherzugehen, dass es keine ungewünschten Übereinstimmungen gibt. Beispielsweise sollten Sie den Prop2-Bericht durchsuchen, um alle Stellen zu finden, auf die diese Bedingung zutrifft, bevor Sie diese Regel aktivieren.
 
 ![](assets/tips-startswith.png)
-
