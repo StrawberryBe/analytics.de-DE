@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Fallout-Visualisierung konfigurieren
 title: Fallout-Visualisierung konfigurieren
-uuid: fc 117745-baf 3-46 fb -873 d -9307092 cc 337
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ Sogar Segmente können Sie innerhalb eines Touchpoints hinzufügen. Vielleicht m
 
 Bezüglich der Anzahl der Schritte, die hinzugefügt, oder der Dimensionen, die verwendet werden können, gibt es keine Einschränkungen.
 
-Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (Variablen, die mehrere Werte pro Treffer haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Beispiel: Angenommen, jemand sucht auf der einen Seite nach „Schuhe,Shirt“ und auf der nächsten Seite nach „Schuhe,Socken“. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
+Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (Variablen, die mehrere Werte pro Treffer haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Angenommen, jemand sieht sich auf einer Seite Schuhe, Hemd und auf der nächsten Seite Shirt, Socken an. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
 
 1. Ziehen Sie eine [!UICONTROL Fallout]-Visualisierung aus dem Dropdownfeld „Visualisierung“ in eine [!UICONTROL Freiform-Tabelle].
 
@@ -38,7 +38,7 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
 
    >[!NOTE]
    >
-   >Mehrere Segmente werden mit UND verbunden, aber mehrere Elemente wie Dimensionselemente und Metriken werden mit ODER verbunden.
+   >Mehrere Segmente sind mit UND verbunden, aber mehrere Elemente wie Dimensionselemente und Metriken werden mit ODER verknüpft.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -64,7 +64,7 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
 | Einstellung | Beschreibung |
 |--- |--- |
 | Fallout-Container <ul><li>Besuch</li><li>Besucher</li></ul> | Hiermit können Sie bei der Analyse der Besucherpfade zwischen Besuch und Besucher wechseln. Die Standardeinstellung lautet „Besucher“.  Mithilfe dieser Einstellungen können Sie Einblicke in Besucheraktivitäten auf der Besucherebene (besuchsübergreifend) erhalten oder die Analyse auf einen einzelnen Besuch einschränken. |
-| " Alle Besucher" als ersten Touchpoint anzeigen | Diese Option können Sie deaktivieren, wenn Sie nicht möchten, dass „Alle Besucher“ der erste Touchpoint ist. |
+| "Alle Besucher"als ersten Touchpoint anzeigen | Diese Option können Sie deaktivieren, wenn Sie nicht möchten, dass „Alle Besucher“ der erste Touchpoint ist. |
 
 When you **right-click a touchpoint**, the following options appear:
 
