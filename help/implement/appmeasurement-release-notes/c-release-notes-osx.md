@@ -7,8 +7,8 @@ subtopic: Versionshinweise
 title: Mac OS X
 topic: Entwickler und Implementierung
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 >
 >Diese SDKs werden nicht mehr unterstützt oder werden nicht mehr von Adobe verteilt.
 
->[!NOTE]
->
->Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
+> [!NOTE] Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
-Die Mobile-Bibliothek-[Downloads](https://marketing.adobe.com/developer/de/get-started/mobile/c-measuring-mobile-applications) sind unter [!DNL Developer Connection] verfügbar.
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 ## Version 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
