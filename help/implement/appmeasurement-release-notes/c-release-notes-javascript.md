@@ -7,8 +7,8 @@ subtopic: Versionshinweise
 title: JavaScript H-Code – Legacy
 topic: Entwickler und Implementierung
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Gesammelte Versionshinweise für JavaScript H-Code – Legacy.
 
->[!NOTE]
->
->Um die aktuelle Bibliotheksversion zu finden, verwenden Sie [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/de_DE/sc/implement/index.html?f=debugger_about).
+> [!NOTE] Um die aktuelle Bibliotheksversion zu finden, verwenden Sie den [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -86,7 +84,7 @@ Releasedatum: **19. Februar 2015**
 
 Releasedatum: **15. Januar 2015**
 
-* Die ZIP-Datei für die Verteilung wurde aktualisiert und enthält nun die Visitor API 1.3.4.
+* Die ZIP-Datei für die Verteilung wurde aktualisiert und enthält nun die Visitor API 1.3.4.
 
 Releasedatum: **18. September 2014**
 
@@ -126,8 +124,8 @@ Releasedatum: **11. Juni 2014**
 
 Releasedatum: **22. Mai 2014**
 
-* Unterstützung für den [Experience Cloud-Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/).
-* Unterstützung für [Analytics für Target-Integration](https://marketing.adobe.com/resources/help/de_DE/target/a4t/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Unterstützung der [Integration von Analytics für Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
 
@@ -151,7 +149,7 @@ Nun werden Hashes/Fragmentbezeichner ignoriert, sodass der Link nur verfolgt wir
 
 Releasedatum: **29. April 2013**
 
-* Die `useForcedLinkTracking`-Option, die unter [Manuelles Linktracking mit benutzerspezifischem Link-Code](https://marketing.adobe.com/resources/help/de_DE/sc/implement/index.html?f=c_manuallinktrackcustomlink) beschrieben wird, gilt jetzt für Firefox 20+ (zuvor galt dies nur für WebKit-Browser).
+* Die Option `useForcedLinkTracking`, die unter [Manual Link Tracking Using Custom Link Code](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) beschrieben wird, gilt nun für Firefox 20 und höher (bisher galt dies nur für WebKit-Browser).
 
 * Die Bildobjekt-ID-Erstellung ist nun eindeutig zwischen Instanzen. Auf diese Weise werden Konflikte verhindert, wenn sich mehrere Instanzen auf derselben Seite befinden.
 
@@ -187,7 +185,7 @@ Releasedatum: **Januar 2013**
 * Die URL-Decodierung für Zeichenfolgen, die mit einer gemischten Nutzung von `escape` und `encodeURIComponent` codiert sind, wurde korrigiert.
 
 * Ein Problem in den WebKit-Browsern wurde behoben, in denen das Linktracking fehlschlägt, wenn beim ersten Server-Aufruf auf der Seite eine Zeitüberschreitung auftritt.
-* Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Siehe [Eindeutige Besucher identifizieren](https://marketing.adobe.com/resources/help/de_DE/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Weitere Informationen finden Sie im Abschnitt [Erkennen Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Es wurde ein neues `abort`-Flag hinzugefügt, das in `doPlugins` eingestellt werden kann. Wird dieses Flag auf „true“ gesetzt, fährt die [!DNL AppMeasurement]-Bibliothek nicht mit dem Rückverfolgungsaufruf fort. Das abort-Flag wird bei jedem Rückverfolgungsaufruf zurückgesetzt. Wenn also auch ein nachfolgender Rückverfolgungsaufruf abgebrochen werden muss, muss das Flag erneut in `doPlugins` eingestellt werden.
 
 ```js
@@ -228,7 +226,7 @@ Hierdurch werden Probleme mit Zeichen ohne Escape gelöst, die im [!DNL ClickMap
 * Korrektur eines Problems, das dazu führen konnte, dass das Video-beendet-Ereignis nicht gesendet wird, wenn eine benutzerspezifische `media.monitor`-Methode verwendet wird, die das Medium-schließen-Ereignis verfolgt:
 
 ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   
@@ -272,24 +270,24 @@ In der folgenden Tabelle sind die Konfigurationsvariablen und Aktualisierungen f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
-   <td colname="col2"> <p>Dieses Flag deaktiviert das erzwungene Linktracking für WebKit-Browser. Das erzwungene Linktracking ist für WebKit-Browser standardmäßig aktiviert und wird von anderen Browsern ignoriert. </p> <p> <b>Standardwert</b> </p> <p> <code> wahr </code> </p> <p> <b>Beispiel</b> </p> 
+   <td colname="col2"> <p>Dieses Flag deaktiviert das erzwungene Linktracking für WebKit-Browser. Das erzwungene Linktracking ist für WebKit-Browser standardmäßig aktiviert und wird von anderen Browsern ignoriert. </p> <p> <b>Standardwert</b> </p> <p> <code> true </code> </p> <p> <b>Beispiel</b> </p> 
     <code class="syntax javascript">
       s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
     </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
-   <td colname="col2"> <p>Die maximale Zeitdauer (in Millisekunden), in der auf die Fertigstellung der Verfolgung gewartet wird, bevor die <code>doneAction</code>-Aktion durchgeführt wird, die in <code>s.tl</code> übergeben wurde. Dieser Wert gibt die maximale Wartezeit an. Wenn der Verfolgungslinkaufruf vor dieser Zeitüberschreitung abgeschlossen ist, wird <code>doneAction</code> sofort ausgeführt. Wenn Sie bemerken, dass Verfolgungslinkaufrufe nicht abgeschlossen werden, müssen Sie den Wert für diese Zeitüberschreitung eventuell erhöhen. </p> <p> <b>Standardwert</b> </p> <p>250 </p> <p> <b>Beispiel</b> </p> 
+   <td colname="col2"> <p>Die maximale Zeitdauer (in Millisekunden), in der auf die Fertigstellung der Verfolgung gewartet wird, bevor die <code> doneAction </code>-Aktion durchgeführt wird, die in <code> s.tl </code> übergeben wurde. Dieser Wert gibt die maximale Wartezeit an. Wenn der Verfolgungslinkaufruf vor dieser Zeitüberschreitung abgeschlossen ist, wird <code> doneAction </code> sofort ausgeführt. Wenn Sie bemerken, dass Verfolgungslinkaufrufe nicht abgeschlossen werden, müssen Sie den Wert für diese Zeitüberschreitung eventuell erhöhen. </p> <p> <b>Standardwert</b> </p> <p>250 </p> <p> <b>Beispiel</b> </p> 
     <code class="syntax javascript">
       s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
+   <td colname="col1"> trackLink ( <code> s.tl </code>) </td> 
    <td colname="col2"> <p>Verfolgt die Links zum Beenden und Herunterladen sowie die benutzerdefinierten Links. Bietet einen optionalen Parameter zur Angabe einer Navigationsaktion, die ausgeführt wird, wenn der Verfolgungslink auf WebKit-Browsern abgeschlossen ist. </p> <p> <b>Syntax</b> </p> 
     <code class="syntax javascript">
       s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-    </code> <p> <b>doneAction</b>: (optional) Gibt die Aktion an, die ausgeführt werden soll, nachdem der Linkverfolgungsaufruf gesendet wurde oder abgelaufen ist (basierend auf dem Wert, der unter <code>s.forcedLinkTrackingTimeout</code> angegeben wurde ). Die <code>doneAction</code> kann die Zeichenfolge „navigate“ sein, wodurch die Methode <code>document.location</code> auf das Attribut <code>href</code> von <code>linkObject</code> festlegt. Die <code>doneAction</code> kann auch eine Funktion sein, die eine erweiterte Anpassung ermöglicht. </p> <p>Wenn Sie für <code>onclick</code> in einem <code>false</code>-Ereignis einen Wert angeben, müssen Sie <code>s.tl</code> nach dem <code>hrefl</code>-Aufruf zurückgeben, um die standardmäßige Browsernavigation zu verhindern. </p> <p> Um das Standardverhalten zu spiegeln und der URL zu folgen, die vom <code>doneAction</code>-Attribut angegeben wurde, müssen Sie eine Zeichenfolge von „Navigieren“ als <code>doneAction</code> angeben. </p> <p>Optional können Sie zur Verarbeitung des Navigationsereignisses auch eine eigene Funktion angeben, die Sie dann als <code>$1</code> übergeben. </p> <p> <b>Beispiele</b> </p> 
+    </code> <p> <b>doneAction</b>: (optional) Gibt die Aktion an, die ausgeführt werden soll, nachdem der Linkverfolgungsaufruf gesendet wurde oder abgelaufen ist (basierend auf dem Wert, der unter <code> s.forcedLinkTrackingTimeout </code> angegeben wurde ). The <code> doneAction </code> can be the string 'navigate', which causes the method to set <code> document.location </code> to the <code> href </code> attribute of <code> linkObject </code>. Die <code> doneAction</code> kann auch eine Funktion sein, die eine erweiterte Anpassung ermöglicht. </p> <p>Wenn Sie für <code> onclick </code> in einem <code> false </code><code> s.tl </code>-Ankerereignis einen Wert angeben, müssen Sie nach dem <code> href </code>-Aufruf „“ zurückgeben, um die standardmäßige Browsernavigation zu verhindern. </p> <p> Um das Standardverhalten zu spiegeln und der URL zu folgen, die vom <code> doneAction </code>-Attribut angegeben wurde, müssen Sie eine Zeichenfolge von „Navigieren“ als <code> doneAction </code> angeben. </p> <p>Optional können Sie zur Verarbeitung des Navigationsereignisses auch eine eigene Funktion angeben, die Sie dann als <code>$1</code> übergeben. </p> <p> <b>Beispiele</b> </p> 
     <code class="syntax javascript">
       &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
     </code> 
