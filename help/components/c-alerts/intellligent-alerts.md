@@ -5,7 +5,7 @@ seo-title: Intelligente Warnhinweise
 title: Intelligente Warnhinweise
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
 ## FAQ: Wie werden Warnhinweise berechnet und ausgelöst? {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität [werden verschiedene Modelle](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
+Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität [werden verschiedene Modelle](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). 99,75%- und 99,99%-Schwellenwerte wurden speziell für die Granularität "Stündlich"eingeführt, damit nicht so viele Anomalien ausgelöst werden.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -74,7 +74,7 @@ Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Be
    <td colname="col2"> <p>Derzeit ist dies leider nicht möglich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Frage: Kann ich eine Tabelle der „erwarteten Werte“, die die gepunktete Linie ausmachen, oder eine andere Art von Darstellung dieser Werte erhalten? </b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Kann ich eine Tabelle mit den "erwarteten Werten", die aus der gepunkteten Linie bestehen, oder eine Art Ausgabe dessen erhalten, was diese Werte sind? </b> </p> </td> 
    <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Anomalieerkennung in Report Builder </a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein nicht konfigurierbarer Trainingszeitraum von 30 Tagen mit einem festgelegten 95-%-Intervall Training angewandt. Der Vorgang ist vergleichbar mit der <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Anomalieerkennung in Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
