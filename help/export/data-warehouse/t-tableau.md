@@ -1,20 +1,20 @@
 ---
-description: Data Warehouse kann Berichte im Tableau-Datenextrahierungsdateiformat (TDE) bereitstellen, mit dem Sie Daten und Ebenen in zusätzlichen Daten von Adobe Analytics aus visualisieren können. Sie können diese Informationen per E-Mail senden oder per FTP an eine FTP-Site übertragen.
-seo-description: Data Warehouse kann Berichte im Tableau-Datenextrahierungsdateiformat (TDE) bereitstellen, mit dem Sie Daten und Ebenen in zusätzlichen Daten von Adobe Analytics aus visualisieren können. Sie können diese Informationen per E-Mail senden oder per FTP an eine FTP-Site übertragen.
+description: Data Warehouse kann Berichte im TDE-Dateiformat (Tableau Data Extract) bereitstellen, mit denen Sie Daten visualisieren und zusätzliche Daten von außerhalb von Adobe Analytics einlagern können. Sie können diese Informationen per E-Mail senden oder per FTP an eine FTP-Site übertragen.
+seo-description: Data Warehouse kann Berichte im TDE-Dateiformat (Tableau Data Extract) bereitstellen, mit denen Sie Daten visualisieren und zusätzliche Daten von außerhalb von Adobe Analytics einlagern können. Sie können diese Informationen per E-Mail senden oder per FTP an eine FTP-Site übertragen.
 seo-title: Datei mit Tableau-Daten
 solution: Analytics
 title: Datei mit Tableau-Daten
 topic: Data Warehouse
-uuid: 84566 ba 8-87 d 8-4 c 5 e -8 c 31-f 659 a 577848 c
+uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Datei mit Tableau-Daten
 
-Data Warehouse kann Berichte im Tableau-Datenextrahierungsdateiformat (TDE) bereitstellen, mit dem Sie Daten und Ebenen in zusätzlichen Daten von Adobe Analytics aus visualisieren können. Sie können diese Informationen per E-Mail senden oder per FTP an eine FTP-Site übertragen.
+Data Warehouse kann Berichte im TDE-Dateiformat (Tableau Data Extract) bereitstellen, mit denen Sie Daten visualisieren und zusätzliche Daten von außerhalb von Adobe Analytics einlagern können. Sie können diese Informationen per E-Mail senden oder per FTP an eine FTP-Site übertragen.
 
 Weitere Informationen finden Sie unter [Tableau und Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491).
 
