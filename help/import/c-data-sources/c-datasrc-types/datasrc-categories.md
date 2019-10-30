@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Datenquellen
 title: Übersicht über Datentypen und Kategorien
 topic: Entwickler und Implementierung
-uuid: b 5004 cdc-b 68 a -4 a 82-a 159-a 7 cd 7 b 8 bfe 21
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Mithilfe von Datenquellen-Kategorien werden die unterschiedlichen Datenquellen-Typen identifiziert, die ähnliche Funktionen bieten.
 
-Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu gruppieren. Wenn Sie eine Datenquelle über Data Sources erstellen, wählen Sie zuerst eine Datenquellen-Kategorie aus und geben Sie dann einen Datenquellen-Typ an. Jede Kategorie enthält Datenquellen-Typen, die ähnliche Datentypen unterstützen. Data Sources bietet die folgenden Datenquellen-Kategorien:
+Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benutzers zu gruppieren. Wenn Sie eine Datenquelle über Data Sources erstellen, wählen Sie zuerst eine Datenquellen-Kategorie aus und geben Sie dann einen Datenquellen-Typ an. Jede Kategorie enthält Datenquellen-Typen, die ähnliche Datentypen unterstützen. Data Sources bietet die folgenden Datenquellen-Kategorien:
 
 ## Website-Gebrauch {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
    <td colname="col3"> <p>Die meisten Webserver generieren Protokolldateien, die jede Seite in ihrem Versorgungsnetz aufzeichnen. Mithilfe dieser Datenquelle können Sie die Protokolldateien der meisten Webserver-Daten verarbeiten und diese Daten zu Ihren Berichten hinzufügen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Anzeigen-Cloud-Massen-Upload </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud-Massen-Upload </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Konversion </a> </p> </td> 
-   <td colname="col3"> <p>Ermöglicht manuelle und excel-automatisierte Massen-Uploads in der Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Bietet manuelle und Excel-automatisierte Massen-Uploads in der Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Traffic-Datenquelle auf Site-Ebene </p> </td> 
@@ -167,7 +167,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu g
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Generische Datenquelle (Transaktions-ID) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> Transaktions-ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> Transaktions-ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Besucher-ID </a> </p> </td> 
    <td colname="col3"> <p>Ermöglicht es Ihnen, ein Offline-Ereignis mit einem Online-Ereignis zu verbinden. Die Transaktions-ID dient als Schlüssel zwischen Offline- und Online-Ereignissen. </p> </td> 
   </tr> 
  </tbody> 
