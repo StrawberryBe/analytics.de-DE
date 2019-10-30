@@ -1,19 +1,19 @@
 ---
 description: Information zur .txt-Vorlage von Datenquelle.
 seo-description: Information zur .txt-Vorlage von Datenquelle.
-seo-title: Dateireferenz importieren
+seo-title: Importdatei-Referenz
 solution: Analytics
 subtopic: Datenquellen
-title: Dateireferenz importieren
+title: Importdatei-Referenz
 topic: Entwickler und Implementierung
-uuid: cc 58 f 8 d 8-cb 6 e -4908-846 f -0 a 41 c 6 da 805 d
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dateireferenz importieren
+# Importdatei-Referenz
 
 Information zur .txt-Vorlage von Datenquelle.
 
@@ -28,9 +28,9 @@ Mithilfe von Spaltenüberschriften werden die Daten in jeder  Spalte der Datenqu
 
 **Datum**: (Erforderlich) Ein Zeitstempel für jede Datenzeile in der Datei.
 
-**Variablen**: Die Namen der Berichterstellungsvariablen, die den Datendimensionen der Datenquelle zugeordnet sind.
+**Variablen**: Die Namen der Berichtsvariablen, die den Datendimensionen der Datenquelle zugeordnet sind.
 
-**Ereignisse**: Die Namen der Ereignisse, die den Metriken der Datenquellen zugeordnet sind.
+**Ereignisse**: Die Namen der Ereignisse, die den Metriken der Datenquelle zugeordnet sind.
 
 Verwenden Sie die Datenquelle-Vorlage, um eine Data Sources-Datei zu erstellen, die Daten enthält, die Sie hochladen möchten. Beachten Sie beim Erstellen einer Data Sources-Datei Folgendes:
 
@@ -63,6 +63,6 @@ Verwenden Sie die Datenquelle-Vorlage, um eine Data Sources-Datei zu erstellen, 
 
 **.FIN-Datei**
 
-Wenn Sie die Datenquelle-Datei ausgefüllt haben, können Sie sie per FTP in Analytics einfügen. Es ist jedoch eine weitere Datei erforderlich, damit Ihre Daten verarbeitet werden können. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Wenn Sie die Datenquellendatei ausgefüllt haben, können Sie sie per FTP in Analytics übertragen. Es ist jedoch eine weitere Datei erforderlich, damit Ihre Daten verarbeitet werden können. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
