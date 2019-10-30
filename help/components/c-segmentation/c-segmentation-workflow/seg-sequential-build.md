@@ -1,28 +1,28 @@
 ---
-description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
-seo-description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
+description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
+seo-description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
 seo-title: Sequentielle Segmente erstellen
 solution: Analytics
 title: Sequentielle Segmente erstellen
 topic: Segmente
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Sequentielle Segmente erstellen
 
-Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
+Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
 
 ![](assets/before-after-sequence.png)
 
-Darüber hinaus können Sie sequenzielle Segmente nach spezifischer Zeitdauer, Granularität und Anzahl zwischen Checkpoints beschränken. Verwenden Sie dazu die [„Nach“- und „In“-Operatoren](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
 ## Alle einschließen {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist, identifiziert das Segment Pfade, die mit dem jeweiligen Muster insgesamt übereinstimmen. Hier ist ein Beispiel für ein einfaches Sequenzsegment, das nach einem Treffer sucht (Seite A), auf den ein weiterer folgt (Seite B), der vom gleichen Besucher besucht wurde. Das Segment ist so eingestellt, dass es alle einschließt.
+Beim Erstellen eines Segments, bei dem "Alle einschließen"festgelegt ist, identifiziert das Segment Pfade, die dem angegebenen Muster als Ganzes entsprechen. Hier ist ein Beispiel für ein einfaches Sequenzsegment, das nach einem Treffer sucht (Seite A), auf den ein weiterer folgt (Seite B), der vom gleichen Besucher besucht wurde. Das Segment ist so eingestellt, dass es alle einschließt.
 
 ![](assets/sequence-filter.png)
 
@@ -35,8 +35,8 @@ Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist,
 
 Die Optionen **[!UICONTROL Nur vor Sequenz]** und **Nur nach Sequenz]filtern das Segment vor oder nach der angegebenen Sequenz nach einer Teilmenge an Daten.[!UICONTROL **
 
-* **Nur vor Sequenz**: Umfasst alle Treffer vor einer Sequenz sowie den ersten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz innerhalb eines Pfads mehrmals vorkommt, umfasst „Nur vor Sequenz“ den ersten Treffer des letzten Vorkommens der Sequenz sowie alle vorangegangenen Treffer (siehe Beispiel 2).
-* **Nur nach Sequenz**: Umfasst alle Treffer nach einer Sequenz sowie den letzten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz innerhalb eines Pfads mehrmals vorkommt, umfasst „Nur nach Sequenz“ den letzten Treffer des ersten Vorkommens der Sequenz sowie alle darauffolgenden Treffer (siehe Beispiel 2).
+* **Nur vor Sequenz**: Umfasst alle Treffer vor einer Sequenz sowie den ersten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz mehrere Male in einem Pfad angezeigt wird, enthält "Nur vor Sequenz"den ersten Treffer des letzten Vorkommens der Sequenz und alle vorherigen Treffer (siehe Beispiel 2).
+* **Nur nach Sequenz**: Umfasst alle Treffer nach einer Sequenz sowie den letzten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz mehrere Male in einem Pfad angezeigt wird, enthält "Nur nach"den letzten Treffer des ersten Vorkommens der Sequenz und alle nachfolgenden Treffer (siehe Beispiel 2).
 
 Betrachten wir beispielsweise eine Sequenz von B gefolgt von D. Die drei Filter würden die Treffer folgendermaßen identifizieren:
 
@@ -56,7 +56,7 @@ Betrachten wir beispielsweise eine Sequenz von B gefolgt von D. Die drei Filter 
 | Nur vor Sequenz | A | B | C | D | B |  |  |  |
 | Nur nach Sequenz |  |  |  | D | B | C | D | E |
 
-Nehmen wir zu diesem Konzept außerdem die Dimension der Treffertiefe hinzu.
+Lassen Sie uns dieses Konzept auch mit der Dimension "Treffertiefe"umreißen.
 
 **Beispiel 3: Treffertiefe 3 gefolgt von 5**
 
@@ -64,9 +64,9 @@ Nehmen wir zu diesem Konzept außerdem die Dimension der Treffertiefe hinzu.
 
 ## Dimensionsbegrenzungen {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-In einem „Innerhalb“-Satz können Sie zwischen THEN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
+In einer "Innerhalb"-Klausel können Sie zwischen THEN-Anweisungen beispielsweise "innerhalb 1 Suchbegriffsinstanz", "innerhalb 1 eVar 47-Instanz"hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
 
-Durch einen ,Innerhalb von Dimension‘-Satz zwischen Regeln kann ein Segment Daten auf Sequenzen beschränken, in denen dieser Satz zutrifft. Siehe untenstehendes Beispiel, in dem die Begrenzung auf „Innerhalb 1 Seite“ festgelegt ist:
+Durch die Festlegung einer "Innerhalb der Dimension"-Klausel zwischen Regeln kann ein Segment Daten auf Sequenzen beschränken, bei denen diese Klausel erfüllt ist. Siehe untenstehendes Beispiel, in dem die Begrenzung auf „Innerhalb 1 Seite“ festgelegt ist:
 
 ![](assets/sequence-filter4.png)
 
@@ -247,9 +247,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 Logische Gruppenbehälter sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segmentprüfpunkt zu gruppieren. Der spezielle logische Gruppenbehälter ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden. Dagegen erfordern nicht sequenzielle Behälter (Treffer, Besuch, Besucher) nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was bei Verwendung mit einem DANN-Operator zu intuitiven Ergebnissen führt.
 Der [!UICONTROL logische Gruppenbehälter] wurde so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden können, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints erfolgt. Mit anderen Worten, die Reihenfolge der Checkpoints in dieser Gruppe ist uns egal. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
->[!NOTE]
->
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
+> [!NOTE] Eine [!UICONTROL logische Gruppe] kann nur in einem sequenziellen Segment definiert werden, d. h. der [!UICONTROL DANN] -Operator wird im Ausdruck verwendet.
 
 | Behälterhierarchie | Illustration | Definition |
 |---|---|---|
@@ -399,7 +397,7 @@ Wenn „Nach 2 Wochen“ festgelegt ist und am 1. Juni 2019 um 00:01 Uhr auf Sei
 
 >[!IMPORTANT]
 >
->In einem „Innerhalb“-Satz können Sie zwischen THEN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
+>In einer "Innerhalb"-Klausel können Sie zwischen THEN-Anweisungen beispielsweise "innerhalb 1 Suchbegriffsinstanz", "innerhalb 1 eVar 47-Instanz"hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
 
 **Beispiel**: Besucher, die Seite A und dann innerhalb von 5 Minuten Seite B besucht haben.
 
