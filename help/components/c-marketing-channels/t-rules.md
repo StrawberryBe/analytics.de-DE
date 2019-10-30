@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Marketingkanäle
 title: Einrichten von Marketingkanal-Verarbeitungsregeln
 topic: Reports and Analytics
-uuid: 0 e 47634 f -3 c 69-46 db -8 af 4-8 d 0 b 3 d 15 f 7 a 8
+uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegangen, dass Sie Ihrer Kanalliste auf der Seite „Marketingkanal-Manager“ einen E-Mail-Kanal hinzugefügt haben.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 
    Wenn in Ihrer Report Suite keine Kanäle definiert wurden, wird die Seite [!UICONTROL Marketingkanäle: Automatisches Setup] angezeigt.
 
