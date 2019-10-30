@@ -7,8 +7,8 @@ solution: Analytics
 title: Strategien für die Seitenbenennung
 topic: Entwickler und Implementierung
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ Sie können durch einen Blick auf die Struktur Ihrer Website die beste Art und W
 
 Während *`pageName`* die wichtigste Variable zur Identifizierung des Benutzerverhaltens ist, empfiehlt Adobe, mehrere Variablen zur Angabe von Seiteninformationen zu verwenden. Bei den besten Seitenbenennungsstrategien wird für jede Hierarchieebene der Site eine andere Variable eingesetzt:
 
-* Die Variable *`channel`* kann eingesetzt werden, um den Site-Abschnitt anzugeben.
+* Die Variable Variable *`channel`* kann eingesetzt werden, um den Site-Abschnitt anzugeben.
 * Die Variable *`pageName`* kann eingesetzt werden, um den Content-Typ anzugeben.
 * Eine [!UICONTROL Custom Insight]-Variable (prop1) kann für detaillierte Inhalte eingesetzt werden.
 
