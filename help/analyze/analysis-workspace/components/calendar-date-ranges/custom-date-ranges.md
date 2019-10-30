@@ -6,9 +6,9 @@ seo-title: Erstellen Sie benutzerdefinierte Datumsbereiche
 solution: Analytics
 title: Erstellen Sie benutzerdefinierte Datumsbereiche
 topic: Reports and Analytics
-uuid: c 8873 d 41-454 d -4 f 22-ad 1 f -38 cacec 5 a 3 bc
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Sie können diesen benutzerdefinierten Datumsbereich auf eine Spalte neben einem
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Verwenden eines 7-Tage-Datumsbereichs {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Aktionen** &gt; **Bereich hinzufügen** und geben Sie einen neuen Datumsbereich an.
 
@@ -45,7 +45,7 @@ Sie können z. B. einen Datumsbereich erstellen, der ein rollierendes Zeitfenste
 
 ![](assets/create_date_range.png)
 
-Verwenden Sie *`rolling daily`* zu trennen.
+Verwenden Sie *`rolling daily`*.
 
 * Die Starteinstellung lautet *`current day minus 14 days`*.
 
