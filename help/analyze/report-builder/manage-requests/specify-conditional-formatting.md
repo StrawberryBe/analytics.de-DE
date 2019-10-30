@@ -1,18 +1,18 @@
 ---
 description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie bedingte Formatierungen auf die Zellen der Arbeitsmappe anwenden.
 seo-description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie bedingte Formatierungen auf die Zellen der Arbeitsmappe anwenden.
-seo-title: Bedingte Formatierung festlegen
+seo-title: Bedingte Formatierung angeben
 solution: Analytics
-title: Bedingte Formatierung festlegen
+title: Bedingte Formatierung angeben
 topic: ReportBuilder
-uuid: 13 ac 12 f 1-3498-4 bf 9-a 6 d 0-c 5 d 84 e 0125 dc
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Bedingte Formatierung festlegen
+# Bedingte Formatierung angeben
 
 Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie bedingte Formatierungen auf die Zellen der Arbeitsmappe anwenden.
 
@@ -22,7 +22,5 @@ Mit der bedingten Formatierung können Sie die Zellen identifizieren, die Ergebn
 
 Aus Sicherheitsgründen sind Makros, die Sie für eine Arbeitsmappe mit VBA (Visual Basic for Applications) für Excel schreiben, deaktiviert.
 
->[!NOTE]
->
->Bedingte Formatierungen sind eine Excel-Funktion. Informationen über die Erstellung von Formatierungsregeln finden Sie in der Excel-Dokumentation.
+> [!NOTE] Die bedingte Formatierung ist eine Excel-Funktion. Informationen über die Erstellung von Formatierungsregeln finden Sie in der Excel-Dokumentation.
 
