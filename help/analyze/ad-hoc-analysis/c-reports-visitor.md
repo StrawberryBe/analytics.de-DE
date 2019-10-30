@@ -7,7 +7,7 @@ title: Besucherberichte
 topic: Ad Hoc Analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Sie können diesen Bericht nach jedem anderen Bericht oder jeder anderen Variabl
 * wie viele Besuche es üblicherweise braucht, bis ein Besucher, der bei Kampagne XYZ durchgeklickt hat, einen Kauf tätigt.
 * ob beispielsweise Benutzer in Tokio mehr Besuche als Besucher in London brauchen, bis ein Lead generiert wird.
 
->[!NOTE]
->
->Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer für jeden Besuch inkrementiert.
+> [!NOTE] Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer für jeden Besuch inkrementiert.
 
 Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch einen Besucher an Adobe weitergegeben werden. Nach Empfang dieser Daten vergleicht Adobe sie mit historischen Daten zur Besucher ID, um festzustellen, ob es sich um einen:
 
@@ -73,9 +71,7 @@ Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch ein
 * früheren Besucher, der seinen Besuch fortsetzt (Besuchernummer wird nicht inkrementiert), oder einen
 * früheren Besucher, der die Website erneut besucht, handelt (Besuchsnummer wird um 1 inkrementiert).
 
->[!NOTE]
->
->Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
+> [!NOTE] Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
 ## Kundentreue {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -94,11 +90,9 @@ Der Bericht [!UICONTROL Kundeloyalität] gibt Aufschluss über Einkaufsmuster vo
 * **Rückkehrender Kunde**: Besucher, die zwei Einkäufe getätigt haben
 * **Loyaler Kunde**: Besucher, die mehr als drei Einkäufe getätigt haben
 
->[!NOTE]
->
->Bei Verwendung dieser Metriken werden alle Besuche des Benutzers (oder alle Besucher) in diesem Bericht dargestellt, unabhängig davon, ob der Besuch (oder Besucher) einen Kauf enthalten hat.
+> [!NOTE] Bei Verwendung dieser Metriken werden alle Besuche des Benutzers (oder alle Besucher) in diesem Bericht dargestellt, unabhängig davon, ob der Besuch (oder Besucher) einen Kauf enthalten hat.
 
-Der Loyalitätsstatus ändert sich nach dem Ende eines Besuchs, bei dem es zu einem Einkaufsereignis gekommen ist. Beispiel: Ein Neukunde (1 Einkauf) tätigt einen Kauf und registriert sich dann innerhalb desselben Besuchs für einen Newsletter. Das Ereignis zur Newsletter-Registrierung wird dennoch als Interaktion mit einem Neukunden betrachtet, da sich der Kundenloyalitätsstatus erst beim nächsten Besuch ändert.
+Der Loyalitätsstatus ändert sich nach dem Ende eines Besuchs, bei dem es zu einem Einkaufsereignis gekommen ist. Beispiel: Ein Neukunde (1 Einkauf) tätigt einen Kauf und registriert sich dann innerhalb desselben Besuchs für einen Newsletter. Das Ereignis zur Newsletter-Registrierung wird dennoch als Interaktion mit einem Neukunden betrachtet, da sich der Status der Kundenloyalität erst beim nächsten Besuch ändert.
 
 ## Besucherprofil {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
@@ -110,7 +104,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Sprachen]**: Zeigt die bevorzugte Sprache Ihrer Besucher an, zeichnet die Standardsprache des Browsers auf und zeigt an, welche Sprachen Besucher am häufigsten auf Ihrer Site verwenden.
+**[!UICONTROL Sprachen]**:Zeigt die von Ihren Besuchern bevorzugten Sprachen an, erfasst die Standardsprache des Browsers und zeigt die Sprachen an, die Besucher auf Ihrer Site am häufigsten verwenden.
 
 **[!UICONTROL Domänen]**: Listet die Organisationen und ISPs auf, die Ihre Besucher zum Zugriff auf Ihre Site verwenden. Dieser Bericht unterscheidet sich vom Bericht [!UICONTROL Vollständige Domänen] insofern, als der Bericht Vollständige Domänen die vollständige ISP-Domäne registriert, während dieser Bericht die sekundäre Domäne auflistet.
 
