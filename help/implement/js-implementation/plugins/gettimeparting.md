@@ -9,20 +9,18 @@ title: getTimeParting
 topic: Entwickler und Implementierung
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-Das getTimeParting-Plug-in füllt benutzerdefinierte Variablen mit Werten für Stunde, Tag der Woche und Wochenende oder Wochentag auf. Analysis Workspace bietet vordefinierte Zeitunterteilungsdimensionen. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+Das getTimeParting-Plug-in füllt benutzerdefinierte Variablen mit Werten für Stunde, Tag der Woche und Wochenende oder Wochentag auf. [!UICONTROL Analysis Workspace] bietet vordefinierte Zeitunterteilungsdimensionen. Das Plug-in sollte verwendet werden, wenn Zeitunterteilungsdimensionen in anderen Analytics-Lösungen außerhalb von [!UICONTROL Analysis Workspace] benötigt werden.
 
 Mit diesem Plug-in werden die Datums- und Uhrzeitinformationen aus den Webbrowsern der Benutzer erfasst. Hierzu werden die Stunde des Tages und der Tag der Woche abgerufen. Anschließend werden diese Daten in die von Ihnen ausgewählte Zeitzone umgewandelt. Dabei wird auch die Sommerzeit berücksichtigt.
 
->[!NOTE]
->
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ Mit diesem Plug-in werden die Datums- und Uhrzeitinformationen aus den Webbrowse
 
 Fügen Sie den folgenden Code in der Datei [!DNL s_code.js] im Abschnitt [!UICONTROL CONFIG SECTION] ein und nehmen Sie die unten beschriebenen erforderlichen Änderungen vor.
 
-`s._tpDST` - ein Array mit DST-Werten. The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` – ein Array mit DST-Werten. Das Array ist im folgenden Format strukturiert: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
