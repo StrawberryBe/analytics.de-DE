@@ -4,10 +4,10 @@ seo-description: Dieser Bericht ist nicht mit der Metrik „Einzelseitenbesuche�
 seo-title: Einzelseitenbesuch
 solution: Analytics
 title: Einzelseitenbesuch
-topic: 'Berichte    '
-uuid: 5 ca 52 be 8-c 7 f 5-464 a -8 a 06-55 e 8271760 b 4
+topic: Berichte
+uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,13 @@ Der Bericht wird meist im Zusammenhang mit dem [!UICONTROL Seitenbericht] verwen
 * Ein Besuch, der nur einen individuellen Wert enthält, nicht eine einzelne Bildanforderung, gilt als Einzelseitenbesuch.
 
    * Im Kontext eines [Seitenberichts](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5) kann nur eine individuelle Seite bei einem Besuch aufgerufen werden.
-   * In the context of a [site sections report](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD), a single unique site section fires within the visit.
-   * In the context of a [traffic variable](/help/admin/admin/c-traffic-variables/traffic-var.md), a visit populates this report if a single unique value is fired.
+   * Im Kontext eines Berichts[zu ](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)Sitebereichen wird ein einzelner eindeutiger Sitebereich während des Besuchs ausgelöst.
+   * Im Kontext einer [Traffic-Variablen](/help/admin/admin/c-traffic-variables/traffic-var.md)füllt ein Besuch diesen Bericht, wenn ein einzelner eindeutiger Wert ausgelöst wird.
 
 * Einzelseitenbesuche können aus vielen Bildanforderungen bestehen, solange die Variable im Kontext des Berichts einen einzigen individuellen Wert enthält. Sobald ein zweiter individueller Wert eingeht, wird der Besuch nicht mehr als Einzelseitenbesuch angesehen.
 * Dies wird als eine Art Pfadsetzungsbericht betrachtet. Für die [!UICONTROL Seitenvariable] ist die Pfadsetzung standardmäßig aktiviert. Auch jede Traffic-Variable verfügt über diese Fähigkeit. Ob die Pfadsetzung für weitere Traffic-Variablen aktiviert wird, hängt von Ihrem Vertrag ab. Nähere Informationen erhalten Sie vom Kundenbetreuer Ihrer Organisation.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
-* Der Bericht kann sowohl als [Trendansicht](/help/components/c-variables/dimensionslist/reports-types.md) und [Rangansicht](/help/components/c-variables/dimensionslist/reports-types.md) .
+* Der Bericht kann sowohl als [Trendformate](/help/components/c-variables/dimensionslist/reports-types.md) und [Rangformate](/help/components/c-variables/dimensionslist/reports-types.md) .
 
 * In dem Bericht sind keine Aufschlüsselungen verfügbar.
 * [!UICONTROL Besuche] sind die einzige im Bericht verfügbare Metrik.
