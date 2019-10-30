@@ -1,16 +1,16 @@
 ---
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 seo-description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
-seo-title: Grundlegende Funktionen referenzieren
-title: Grundlegende Funktionen referenzieren
-uuid: 5 c 2 b 4 a 0 e -613 c -4 b 27-95 b 8-01 d 480 aeab 78
+seo-title: Grundlegende Funktionen
+title: Grundlegende Funktionen
+uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a4ccd3503d9d8e5e5367bb1ebd149262c5cb925a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Referenz: grundlegende Funktionen
+# Referenz: Grundfunktionen
 
 <!-- 
 
@@ -22,9 +22,7 @@ Mit dem Generator für berechnete Metriken können Sie statistische und mathemat
 
 Im Folgenden werden die Funktionen und ihre Definitionen alphabetisch aufgelistet.
 
->[!NOTE]
->
->Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Wenn in einer Funktion als Argument identifiziert [!DNL metric] wird, sind auch andere Ausdrücke von Metriken zulässig. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -107,7 +105,7 @@ EXP(metric)
 Potenzierungsoperator
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+pow(x,y) =<sup>xy</sup> = x*x*x*... (y-mal)
 </pre>
 
 ## Arithmetisches Mittel (Tabelle) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -160,7 +158,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Perzentil (Tabelle) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Gibt das k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion können Sie einen Akzeptanzschwellenwert einrichten. Sie können beispielsweise Dimensionselemente untersuchen, die über dem 90-Perzentil liegen.
+Gibt das k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion können Sie einen Akzeptanzschwellenwert einrichten. Sie können beispielsweise Dimensionselemente untersuchen, deren Wert über dem 90-Perzentil liegt.
 
 ```
 PERCENTILE(metric,k)
@@ -237,7 +235,7 @@ round( 314.15, -2) = 300
 
 ## Zeilenanzahl {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Gibt die Anzahl der Zeilen in einer bestimmten Spalte zurück (die Anzahl innerhalb einer Dimension berichteter eindeutiger Elemente). „Individuelle Werte überschritten“ wird als 1 gezählt.
+Gibt die Anzahl der Zeilen für eine bestimmte Spalte zurück (die Anzahl der eindeutigen Elemente, die innerhalb einer Dimension gemeldet werden). "Individuelle Werte überschritten"wird als 1 gezählt.
 
 ## Zeilenmaximum {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -326,7 +324,7 @@ Beispiel: Sie haben eine Spalte mit drei Elementen:
 
 3
 
-Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spalte ist ((1 - 2) ² + (2 - 2) ² + (3 - 2) ²/3 = 2/3. In Ad Hoc Analysis wird dies wie folgt aussehen:
+Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spalte ist ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis wird dies wie folgt aussehen:
 
 1 2/3
 
