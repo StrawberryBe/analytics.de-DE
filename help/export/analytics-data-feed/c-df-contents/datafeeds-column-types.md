@@ -1,14 +1,14 @@
 ---
 description: Die Pre-Spalte enthält die Daten, wie sie an die Datenerfassung gesendet wurden. Die Post-Spalte enthält den Wert nach der Verarbeitung.
-keywords: Datenfeed; job; pre column; Post-Spalte; Groß-/Kleinschreibung
+keywords: Datenfeed;Auftrag;Pre-Spalte;Post-Spalte;Groß-/Kleinschreibung
 seo-description: Die Pre-Spalte enthält die Daten, wie sie an die Datenerfassung gesendet wurden. Die Post-Spalte enthält den Wert nach der Verarbeitung.
 seo-title: Pre- und Post-Spalten
 solution: Analytics
 title: Pre- und Post-Spalten
 topic: Reports and Analytics
-uuid: a 415327 b -6151-4 d 08-b 8 b 9-5 aaa 2348 eb 0 c
+uuid: a415327b-6151-4d08-b8b9-5aa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
