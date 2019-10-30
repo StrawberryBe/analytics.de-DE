@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementieren mit AJAX
 topic: Entwickler und Implementierung
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ Wenn bei dieser Mischung [!UICONTROL AJAX] ins Spiel kommt, muss zuerst in Erfah
 Es gibt zwei Funktion im JavaScript-Code, mit denen Sie Daten senden können. Für die Auswahl der richtigen Methode gibt es bestimmte Leitlinien, an denen man sich orientieren sollte.
 Wenn davor eine Bildanforderung für die gleiche Seite erfolgt ist, müssen Sie zuvor die Werte der zuvor festgelegten Variablen löschen. Verwenden Sie die Funktion `clearVars()` in [!DNL AppMeasurement] für JavaScript oder schreiben Sie eine einfache JavaScript-Funktion zum Löschen der Variablen, wenn Sie H-Code verwenden. Stellen Sie die für den geänderten Inhalt geeigneten Werte ein, nämlich die Variable *`pageName`*. Nachdem die Variablen gesetzt sind, rufen Sie die Funktion *`t()`* auf.
 
->[!NOTE]
->
->Bevor Sie `s.t()` aufrufen, müssen Sie alle Werte des Objekts „s“ löschen, die nicht bestehen bleiben sollen. Wenn Sie [!DNL AppMeasurement] für JavaScript verwenden, können Sie `s.clearVars()` aufrufen. Wenn Sie H-Code verwenden, schreiben Sie eine einfache Routine, mit der Variablen auf eine leere Zeichenfolge gesetzt werden.
+> [!NOTE] Bevor Sie `s.t()` aufrufen, müssen Sie alle Werte des Objekts „s“ löschen, die nicht bestehen bleiben sollen. Wenn Sie [!DNL AppMeasurement] für JavaScript verwenden, können Sie `s.clearVars()` aufrufen. Wenn Sie H-Code verwenden, schreiben Sie eine einfache Routine, mit der Variablen auf eine leere Zeichenfolge gesetzt werden.
 
 ```js
 s.clearVars(); 
