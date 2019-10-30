@@ -1,13 +1,13 @@
 ---
 description: Data Feeds sind ein Export von durch Adobe empfangenen Clickstream-Daten, der sowohl standardmäßige als auch benutzerdefinierte Data Feeds bietet.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Data Feeds sind ein Export von durch Adobe empfangenen Clickstream-Daten, der sowohl standardmäßige als auch benutzerdefinierte Data Feeds bietet.
 seo-title: Data Feeds
 solution: Analytics
 title: Data Feeds
-uuid: 3 c 70 eea 3-ca 59-4 aa 5-9 b 11-64 e 1 bb 677 bfa
+uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Data Feeds sind ein Export von durch Adobe empfangenen Clickstream-Daten, der sowohl standardmäßige als auch benutzerdefinierte [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) bietet.
 
-If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you can set up your own Analytics data feeds. Diese können an ein beliebiges FTP-Konto gesendet werden (entweder ein durch Adobe eingerichtetes oder ein externes FTP-Konto). Adobe Engineering Services bieten benutzerdefinierte [!UICONTROL Data Feeds], die auf nahezu jede Art gesendet werden können.
+Wenn Sie Adobe Data Warehouse und [!UICONTROL Standard Data Feeds] erworben haben, können Sie eigene Analytics-Data Feeds einrichten. Diese können an ein beliebiges FTP-Konto gesendet werden (entweder ein durch Adobe eingerichtetes oder ein externes FTP-Konto). Adobe Engineering Services bieten benutzerdefinierte [!UICONTROL Data Feeds], die auf nahezu jede Art gesendet werden können.
 
 [!UICONTROL Data Feed]-FTP-Konten sind auf 2 GB oder 63 Dateien beschränkt (standardmäßig). Für alle anderen Standard-FTP-Konten gilt eine Obergrenze von 50 MB. In Fällen, in denen Kunden das FTP-Konto bestimmungsgemäß verwenden, kann es bei Benutzern mit hohem Traffic-Aufkommen schnell passieren, dass die Konten voll sind. Wenn ein FTP-Konto voll ist, können keine weiteren Dateien in das Konto übertragen werden. An dieses FTP-Konto gelieferte Dateien ([!UICONTROL Data Feeds]-, Data Warehouse-Anforderungen usw.) werden daher nicht ausgeliefert. Dies ist einer Gründe, aus denen es wichtig ist, dass Sie Ihr Adobe FTP-Konto verwalten und empfangene Dateien nach dem Herunterladen entfernen.
 
