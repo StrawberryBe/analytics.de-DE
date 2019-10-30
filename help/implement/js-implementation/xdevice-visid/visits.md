@@ -8,8 +8,8 @@ subtopic: Besucher
 title: Besuche
 topic: Entwickler und Implementierung
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud-Gerätekooperations-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcdc/).
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud Device Co-op-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 In Analytics wird jeder Server-Aufruf, bei dem die „Anzahl besuchter Seiten“ gleich 1 ist, als ein Besuch gewertet.
 
