@@ -7,8 +7,8 @@ solution: Analytics
 title: Offline-Verfolgung
 topic: Entwickler und Implementierung
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Mit den folgenden Variablen und Funktionen können Sie Messaufrufe speichern, wenn die Anwendung offline ist.
 
->[!NOTE]
->
->Um die Offline-Verfolgung zu aktivieren, muss Ihre Report Suite zeitstempelfähig sein. Wenn Zeitstempel für Ihre Report Suite aktiviert sind, `trackOffline`muss Ihre Konfigurationseigenschaft ** wahr sein. Wenn Zeitstempel nicht für Ihre Report Suite aktiviert sind, `trackOffline`muss die Konfigurationseigenschaft ** „false“ lauten. Wenn dies nicht ordnungsgemäß konfiguriert ist, gehen Daten verloren. Wenn Sie sich nicht sicher sind, ob Zeitstempel für Ihre Report Suite aktiviert sind, [Wenden Sie sich an die Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html#analytics)
+> [!NOTE] Um die Offline-Verfolgung zu aktivieren, muss Ihre Report Suite zeitstempelfähig sein. Wenn Zeitstempel für Ihre Report Suite aktiviert sind, `trackOffline`muss Ihre Konfigurationseigenschaft ** wahr sein. Wenn Zeitstempel nicht für Ihre Report Suite aktiviert sind, `trackOffline`muss die Konfigurationseigenschaft ** „false“ lauten. Wenn dies nicht ordnungsgemäß konfiguriert ist, gehen Daten verloren. Wenn Sie sich nicht sicher sind, ob Zeitstempel für Ihre Report Suite aktiviert sind, [wenden Sie sich an den Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 Sofern Offline-AppMeasurement aktiviert ist, verhält es sich folgendermaßen:
 
@@ -60,13 +58,12 @@ Bei jedem folgenden Treffer bzw. nach einem durch `offlineThrottleDelay` definie
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> Hiermit wird der Online- bzw. Offline-Zustand des Messungsobjekts manuell festgelegt. Die Bibliothek erkennt automatisch, wann das Gerät offline oder online ist, sodass diese Methoden nur dann benötigt werden, wenn Sie die Offline-Messung erzwingen möchten. <code> forceOnline</code> wird nur verwendet, um zum Onlinezustand zurückzukehren, nachdem der Offlinezustand manuell hergestellt wurde. </p> <p>Wenn die Messung offline ist: </p> 
+   <td colname="col2"> <p> Hiermit wird der Online- bzw. Offline-Zustand des Messungsobjekts manuell festgelegt. Die Bibliothek erkennt automatisch, wann das Gerät offline oder online ist, sodass diese Methoden nur dann benötigt werden, wenn Sie die Offline-Messung erzwingen möchten. <code> forceOnline </code>   wird nur verwendet, um zum Onlinezustand zurückzukehren, nachdem der Offlinezustand manuell hergestellt wurde. </p> <p>Wenn die Messung offline ist: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Wenn <code>trackOffline</code> wahr ist: Treffer werden gespeichert, bis die Messung online ist. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> Wenn <code>trackOffline</code> falsch ist: Treffer werden verworfen. </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Wenn <code> trackOffline </code> wahr ist: Treffer werden gespeichert, bis die Messung online ist. </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> Wenn <code> trackOffline </code> falsch ist: Treffer werden verworfen. </li> 
     </ul> <p> <b>Beispiele:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
