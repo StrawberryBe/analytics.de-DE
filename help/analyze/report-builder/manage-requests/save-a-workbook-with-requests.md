@@ -5,9 +5,9 @@ seo-title: Arbeitsmappe mit Anforderungen speichern
 solution: Analytics
 title: Arbeitsmappe mit Anforderungen speichern
 topic: ReportBuilder
-uuid: 31611031-0982-4124-9 fc 7-7888124 aa 603
+uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie sie speichern, indem Sie in Excel auf Datei &gt; Speichern oder Datei &gt; Speichern als klicken. ReportBuilder ermittelt, ob der Bericht Anforderungen enthält. Wenn Sie auf eine dieser beiden Speicheroptionen klicken, wird das Dialogfeld „Arbeitsmappe speichern als“ angezeigt.
 
 * Die von Adobe empfohlene Best Practice bei umfangreichen Arbeiten mit Windows-Anwendungen ist, die Anforderungen in den Arbeitsblättern oft und regelmäßig zu speichern, um unerwartete Verluste von Anforderungen im Arbeitsblatt zu vermeiden.
-* Wenn Sie eine Arbeitsmappe benennen, sollten Sie eine Versionsnummer im Dateinamen verwenden, um den Verlauf Ihrer Arbeit verfolgen zu können. For example, name your first workbook [!DNL web_forecast_01_01.xlsx].
+* Wenn Sie eine Arbeitsmappe benennen, sollten Sie eine Versionsnummer im Dateinamen verwenden, um den Verlauf Ihrer Arbeit verfolgen zu können. Benennen Sie beispielsweise Ihre erste Arbeitsmappe [!DNL web_forecast_01_01.xlsx].
 * Wenn Sie den Bericht bereits gespeichert haben, wird das Dialogfeld [!UICONTROL Vorlage speichern] beim zweiten Speichern des Berichts nicht mehr angezeigt. Wenn der Bericht keine Anforderungen enthält, wird dieses Dialogfeld nicht angezeigt. Stattdessen wird das Excel-Standarddialogfeld [!UICONTROL Speichern unter] angezeigt.
 
 ## Filenames and location {#section_2406629E9B644CE08430826948977D5D}
