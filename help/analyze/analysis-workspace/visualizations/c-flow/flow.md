@@ -1,18 +1,18 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Flussübersicht
 title: Flussübersicht
-uuid: fc 22 b 773-2 d 18-4 c 29-866 c-f 317 c 920 d 27 a
+uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Flussübersicht
 
-Die Flussfunktion zeigt Kundenpfade über Ihre Websites und Apps an.
+Die Flussfunktion zeigt Kundenpfade durch Ihre Websites und Apps an.
 
 Damit können Sie:
 
@@ -20,11 +20,9 @@ Damit können Sie:
 * Analysieren, wohin Kunden vor und nach festgelegten Checkpoints navigieren, wie zum Beispiel Einsteig, eine bestimmte Dimension oder Ausstieg
 * Erstellen von Segmenten, indem Sie einen bestimmten Punkt in einem ausgewählten Pfad angeben
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports &amp; Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+> [!NOTE] Informationen darüber, wie sich die Ergebnisse der Anwendung von Segmenten auf Fluss zwischen dem Analysis Workspace und Reports &amp; Analysen/Ad-hoc-Analysen unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Flussvisualisierung auf youtube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Flussvisualisierung auf YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
 ## Interdimensionale Flüsse {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
