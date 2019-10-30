@@ -1,18 +1,18 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Projekte in Ad-hoc-Analysen konvertieren
-title: Projekte in Ad-hoc-Analysen konvertieren
-uuid: 20 bd 9974-209 e -457 c -9 e 52-d 50 f 90078 af 6
+description: 'null'
+seo-description: 'null'
+seo-title: Projekte in Ad Hoc Analysis konvertieren
+title: Projekte in Ad Hoc Analysis konvertieren
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Projekte in Ad-hoc-Analysen konvertieren
+# Projekte in Ad Hoc Analysis konvertieren
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Projekte in Ad Hoc Analysis konvertieren {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 Beachten Sie vor dem Konvertieren Ihrer Projekte Folgendes:
 
