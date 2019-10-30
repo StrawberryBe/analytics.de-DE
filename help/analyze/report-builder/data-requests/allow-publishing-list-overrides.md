@@ -7,7 +7,7 @@ title: Veröffentlichungsliste darf außer Kraft gesetzt werden
 topic: ReportBuilder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ Wenn Sie [!UICONTROL Veröffentlichungsliste darf außer Kraft gesetzt werden] a
 
 Diese Option ist nicht für Report Suites verfügbar, die Sie aus Zellen auswählen.
 
->[!NOTE]
->
->Wenn Sie den terminierten Bericht an mehrere Veröffentlichungslisten gleichzeitig senden, wird der Bericht jeweils einmal pro Liste ausgeführt. Variable Report Suites werden durch die Report Suite ersetzt, die der Veröffentlichungsliste zugeordnet ist.
+> [!NOTE]Wenn Sie den terminierten Bericht an mehrere Veröffentlichungslisten gleichzeitig senden, wird der Bericht jeweils einmal pro Liste ausgeführt. Variable Report Suites werden durch die Report Suite ersetzt, die der Veröffentlichungsliste zugeordnet ist.
 
