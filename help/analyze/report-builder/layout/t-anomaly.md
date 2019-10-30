@@ -1,13 +1,13 @@
 ---
 description: Schritte zum Erstellen einer Anomalieerkennungsanforderung in ReportBuilder.
 seo-description: Schritte zum Erstellen einer Fehlererkennungsanforderung in ReportBuilder.
-seo-title: Konfigurieren einer Fehlererkennungsanforderung
+seo-title: Konfigurieren einer Anomalieerkennungsanforderung
 solution: Analytics
 title: Konfigurieren einer Anomalieerkennungsanforderung
 topic: ReportBuilder
-uuid: 1 e 504 ff 9-df 88-4 fa 7-95 ea -1 ca 05 a 6 f 9 c 0 d
+uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,11 +25,11 @@ Schritte zum Erstellen einer Anomalieerkennungsanforderung in ReportBuilder.
 
 1. After configuring date ranges, click **[!UICONTROL Next]**.
 
-   Schritt 1. On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   Schritt Ergebnis 1. On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
 
-   Schritt 1. For the added metric, click the **[!UICONTROL None]** link.
+   Schritt Ergebnis 1. For the added metric, click the **[!UICONTROL None]** link.
 
-   ![Schrittergebnis](assets/anomaly_select.png)
+   ![Schritt Ergebnis](assets/anomaly_select.png)
 
 1. Select **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
 
