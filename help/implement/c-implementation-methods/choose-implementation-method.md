@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementierungsmethode auswählen
 topic: Entwickler und Implementierung
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
-translation-type: ht
-source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,17 +27,17 @@ Es gibt mehrere Möglichkeiten, Adobe Analytics zu implementieren.
 
 Mit [!UICONTROL Experience Platform Launch] kann jeder eigene Integrationen mit [!DNL Experience Platform Launch], auch Erweiterungen genannt, erstellen und verwalten. Diese Erweiterungen stehen Kunden der Web- und Mobile-Version von [!UICONTROL Experience Platform Launch] in einer App-Store-Oberfläche zur Verfügung, sodass sie ihre Integrationen schnell installieren, konfigurieren und bereitstellen können.
 
-Weitere Informationen finden Sie unter [Erste Schritte mit Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
+For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
 Das [!UICONTROL Dynamic Tag Management ] automatisiert einen Großteil der Detailarbeit, die zur Implementierung von [!DNL Analytics] erforderlich ist. Geben Sie die erforderlichen Informationen auf einer formularbasierten Oberfläche ein, und das [!DNL Dynamic Tag Management] generiert den Code, den Sie zum Hinzufügen Ihrer Seiten benötigen.
 Es ist nützlich, sich mit JavaScript vertraut zu machen und grundlegende Analytics-Terminologie zu verstehen, z. B.
 
-* Was ist ein [eVar](https://marketing.adobe.com/resources/help/de_DE/reference/conversion_var_admin.html) und wie funktioniert es
+* was [eVars](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) sind und wie sie funktionieren;
 * Verwenden eines [benutzerspezifischen Ereignisses](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
 
-Informationen zum Zugriff auf Dynamic Tag Management und zum Einrichten und Ausführen finden Sie in der Produktdokumentation für Dynamic Tag Management unter [Erste Schritte](https://marketing.adobe.com/resources/help/de_DE/dtm/get_started.html).
+Weitere Informationen für den Zugriff auf das Dynamic Tag Management und dessen Verwendung finden Sie unter [Einstieg](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in der Produktdokumentation für das Dynamic Tag Management.
 
 Weitere Informationen finden Sie unter [Implementieren von Analytics mit Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
