@@ -1,16 +1,16 @@
 ---
 description: Im Folgenden werden häufige Fehler bei der Verwendung von ReportBuilder mit Power BI beschrieben.
 seo-description: Im Folgenden werden häufige Fehler bei der Verwendung von ReportBuilder mit Power BI beschrieben.
-seo-title: Fehlerbehebung für Power BI-Integration
-title: Fehlerbehebung für Power BI-Integration
-uuid: c 1 e 7 e 164-4 bc 6-4513-9332-92 c 53 be 021 cc
+seo-title: Fehlerbehebung für die Power BI-Integration
+title: Fehlerbehebung für die Power BI-Integration
+uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Fehlerbehebung für Power BI-Integration
+# Fehlerbehebung für die Power BI-Integration
 
 Im Folgenden werden häufige Fehler bei der Verwendung von ReportBuilder mit Power BI beschrieben.
 
