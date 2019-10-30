@@ -1,18 +1,18 @@
 ---
 description: Für einen Datenfeed können Sie eine Vielzahl von Aktionen ausführen.
-keywords: Datenfeed; actions
+keywords: Datenfeed;Aktionen
 seo-description: Für einen Datenfeed können Sie eine Vielzahl von Aktionen ausführen.
-seo-title: Datenfeed-Bedienfeld
+seo-title: Daten-Feed-Bedienfeld
 solution: Analytics
-title: Datenfeed-Bedienfeld
-uuid: 10527738-13 c 2-48 c 0-9 bb 3-c 4 c 93 fbb 4 d 8 f
+title: Daten-Feed-Bedienfeld
+uuid: 10527738-13c2-48c0-9bb3-c4c93fbb4d8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Datenfeed-Bedienfeld
+# Daten-Feed-Bedienfeld
 
 Für einen Datenfeed können Sie eine Vielzahl von Aktionen ausführen.
 
