@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 Die Variable „“ dient für Cookies, die von JavaScript gesetzt werden (s_sq, s_cc, Plug-ins) und von Erstanbietern stammen, selbst wenn Ihre Implementierung die Domänen 2o7.net oder omtrdc.net von Drittanbietern verwendet.
 
-The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* inherits the *`cookieDomainPeriods`* value. Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
+Die Variable *`fpCookieDomainPeriods`* sollte niemals dynamisch gesetzt werden. Bei Verwendung von *`cookieDomainPeriods`* empfiehlt es sich, auch einen Wert für *`fpCookieDomainPeriods`* anzugeben. *`fpCookieDomainPeriods`* erbt den Wert von *`cookieDomainPeriods`*. Beachten Sie, dass *`fpCookieDomainPeriods`* keine Auswirkungen auf die Domäne hat, in der das Besucher-ID-Cookie gesetzt wird, selbst wenn dieses Cookie in einer Implementierung als Erstanbieter-Cookie behandelt wird.
 
-The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") in der Domäne, wenn diese mit „www“. beginnt. For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
+Der Name „*`fpCookieDomainPeriods`*“ bezieht sich auf die Anzahl der Punkte („.“) in der Domäne, wenn diese mit „www“. beginnt. So enthält zum Beispiel `www.mysite.com` zwei Punkte, während `www.mysite.co.jp` drei Punkte enthält. Eine andere Interpretationsmöglichkeit wäre, dass diese Variable angibt, in wie viele Abschnitte die Hauptdomäne der Site untergliedert ist (zwei bei `mysite.com` und drei bei `mysite.co.jp`).
 
-The  for JavaScript file uses the  variable to determine the domain with which to set first-party cookies other than the visitor ID (s_vi) cookie. [!DNL AppMeasurement]*`fpCookieDomainPeriods`* There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). Außerdem hat es auch Auswirkungen auf Cookies, die von Plug-ins verwendet werden (wie z. B. [!UICONTROL getValOnce]).
+Die [!DNL AppMeasurement] für JavaScript-Datei verwendet die Variable *`fpCookieDomainPeriods`*, um die Domäne zu bestimmen, mit der Erstanbieter-Cookies außer dem [!UICONTROL Besucher-ID]-Cookie (s_vi) gesetzt werden. There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). Außerdem hat es auch Auswirkungen auf Cookies, die von Plug-ins verwendet werden (wie z. B. [!UICONTROL getValOnce]).
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
@@ -35,7 +35,7 @@ if(d.indexOf('.co.uk')>-1||d.indexOf('.com.au')>-1)
 
 ## Syntax und mögliche Werte
 
-Die Variable *`cookieDomainPeriods`*-Variablen werden Zeichenfolgen erwartet (siehe unten):
+Bei der Variable *`cookieDomainPeriods`* werden Zeichenfolgen erwartet (siehe unten):
 
 ```js
 s.fpCookieDomainPeriods="3"
@@ -53,4 +53,4 @@ s.fpCookieDomainPeriods="2"
 
 ## Konfigurationseinstellungen
 
-–
+Keine
