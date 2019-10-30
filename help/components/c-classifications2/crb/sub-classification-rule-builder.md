@@ -8,7 +8,7 @@ title: Unterklassifizierungen und der Rule Builder – Anwendungsfall
 topic: Admin Tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Sie können den Classification Rule Builder mit Unter-Classifications kombiniere
 
 See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
 
-**Beispiel**: 
+**Beispiel**
 
 Nehmen Sie als Beispiel den folgenden Trackingcode an:
 
@@ -47,9 +47,7 @@ t_rule_builder_subclass.xml
 
 In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications mit Hilfe des Regel-Builder hochladen können.
 
->[!NOTE]
->
->In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
+> [!NOTE] In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
 
 1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
