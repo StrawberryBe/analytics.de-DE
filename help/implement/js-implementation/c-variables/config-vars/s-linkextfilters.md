@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,24 +18,22 @@ Wenn Ihre Site viele Links zu externen Sites enthält und Sie nicht sämtliche E
 |---|---|---|---|
 | Keine | Keine | Pfade &gt; Einstiege und Ausstiege &gt; Exitlinks | "" |
 
-Die Variable Bei *`linkExternalFilters`* einer Variablen handelt es sich um eine optionale Variable, mit der *`linkInternalFilters`* ermittelt wird, ob ein Link ein Exitlink ist. Jeder Link, der einen Besucher weg von Ihrer Site führt, gilt als Exitlink. Ob ein Exitlink in ein Popupfenster oder in das vorhandene Fenster führt, spielt keine Rolle, damit ein Link in Berichten als Exitlink aufgeführt wird. Exitlinks werden nur verfolgt, wenn *`trackExternalLinks`* is set to 'true.' Bei den Filtern in *`linkExternalFilters`* und *`linkInternalFilters`* sind die Groß- und Kleinschreibung nicht zu beachten.
+The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. Jeder Link, der einen Besucher weg von Ihrer Site führt, gilt als Exitlink. Ob ein Exitlink in ein Popupfenster oder in das vorhandene Fenster führt, spielt keine Rolle, damit ein Link in Berichten als Exitlink aufgeführt wird. Exitlinks werden nur verfolgt, wenn *`trackExternalLinks`* auf „True“ festgelegt ist. Bei den Filtern in *`linkExternalFilters`* und *`linkInternalFilters`* sind die Groß- und Kleinschreibung nicht zu beachten.
 
->[!NOTE]
->
->Wenn Sie diese nicht verwenden möchten, löschen Sie sie *`linkExternalFilters`* oder setzen Sie sie auf "".
+> [!NOTE]Wenn Sie *`linkExternalFilters`* nicht verwenden möchten, löschen Sie sie oder setzen Sie sie auf „“.
 
-Die Filter werden standardmäßig in der Liste angezeigt *`linkExternalFilters`* und *`linkInternalFilters`* gelten für die Domäne und den Pfad jedes Links. Wenn "true"festgelegt *`linkLeaveQueryString`* ist, gelten die Filter für die gesamte URL (Domäne, Pfad und Abfragezeichenfolge). Diese Filter werden immer auf den absoluten Pfad der URL angewendet, auch wenn ein relativer Pfad als href-Wert verwendet wird.
+Die Filterliste in *`linkExternalFilters`* und *`linkInternalFilters`* gilt standardmäßig für die Domäne und den Pfad jedes Links. Wenn *`linkLeaveQueryString`* auf „true“ gesetzt ist, werden die Filter auf die gesamte URL angewendet (Domäne, Pfad und Abfragezeichenfolge). Diese Filter werden immer auf den absoluten Pfad der URL angewendet, auch wenn ein relativer Pfad als href-Wert verwendet wird.
 
-Mit *`linkInternalFilters`* haben die meisten Firmen genug Kontrolle über Exitlinks, sodass sie *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
+Mit *`linkInternalFilters`* haben die meisten Firmen genug Kontrolle über Exitlinks, sodass sie *`linkExternalFilters`* nicht benötigen. Bei Verwendung von *`linkExternalFilters`* sinkt lediglich die Wahrscheinlichkeit, dass ein Exitlink als extern betrachtet wird. Wenn *`linkExternalFilters`* über einen Wert verfügt, wird ein Link nur dann als extern angesehen, wenn er mit *`linkInternalFilters`* nicht übereinstimmt und mit *`linkExternalFilters`* übereinstimmt.
 
-Das folgende Beispiel zeigt, wie diese Variable verwendet wird. In this example, the URL of the page is `https://www.mysite.com/index.html`.
+Das folgende Beispiel zeigt, wie diese Variable verwendet wird. In diesem Beispiel lautet die URL der Seite `https://www.mysite.com/index.html`.
 
 ```js
 s.trackExternalLinks=true 
 s.linkInternalFilters="javascript:,mysite.com" 
 s.linkExternalFilters="site1.com,site2.com,site3.com/partners" 
 s.linkLeaveQueryString=false 
-... 
+...
 <a href="https://www.mysite.com">Not an Exit Link</a> 
 <a href="/careers/job_list.html">Not an Exit Link</a> 
 <a href="https://www2.site3.com">Not an Exit Link</a> 
@@ -45,13 +43,13 @@ s.linkLeaveQueryString=false
 
 ## Syntax und mögliche Werte
 
-The *`linkExternalFilters`* variable is a comma-separated list of ASCII characters. Leerzeichen sind nicht erlaubt.
+Die Variable *`linkExternalFilters`* ist eine durch Kommas getrennte Liste von ASCII-Zeichen. Leerzeichen sind nicht erlaubt.
 
 ```js
 s.linkExternalFilters="site1.com[,site2.com[,site3.net[...]]]"
 ```
 
-Jeder beliebige Teil einer URL kann in *`linkExternalFilters`*, separated by commas.
+Jeder beliebige Teil einer URL kann in *`linkExternalFilters`* – durch Kommas getrennt – aufgeführt sein.
 
 ## Beispiele
 
@@ -65,12 +63,12 @@ s.linkExternalFilters=""
 
 ## Konfigurationseinstellungen
 
-–
+Keine
 
 ## Probleme, Fragen und Tipps
 
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Verwenden Sie diese Variable nicht anstelle von, *`linkInternalFilters`* um zu erzwingen, dass interne Links zu Ausstiegslinks werden.
+* Das Verwenden von *`linkExternalFilters`* kann dazu führen, dass weniger Links in einer Site Exitlinks sind. Verwenden Sie diese Variable nicht anstelle von *`linkInternalFilters`*, um interne Links zu zwingen, Exitlinks zu werden.
 
-* Wenn Sie auf die Abfragezeichenfolge eines Links angewendet werden *`linkExternalFilters`* sollten, stellen Sie sicher, dass auf "true"festgelegt *`linkLeaveQueryString`* ist. See [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) before setting to `"true"`.
+* Wenn *`linkLeaveQueryString`* auf die Abfragezeichenfolge eines Links angewendet werden soll, stellen Sie sicher, dass *`linkExternalFilters`* auf „true“ eingestellt ist. Siehe [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html), bevor Sie `"true"` einstellen.
 
-* To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.
+* Um Exitlinktracking zu deaktivieren, legen Sie *`trackExternalLinks`* auf `"false"` fest.
