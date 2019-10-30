@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col1"> <b>F: Woher weiß ich, ob meine Berichtssuiten Personalisierung auf der Site bzw. Targeting auf der Site oder außerhalb der Site vornehmen?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Dies bezieht sich nicht auf das Senden von Adobe Analytics-Daten an Adobe Audience Manager. </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Diese gelten nicht für das Senden von Adobe Analytics-Daten an Adobe Audience Manager. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">Fragen Sie sich selbst: Möchten Sie ein von Analytics freigegebenes Segment mit einer MCA-Dimension wieder für Experience Cloud freigeben? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">Exportieren Sie (z. B. über Datenfeeds) in ein Business Intelligence-System (BI), das für diese Zwecke verwendet wird? </li> 
     </ul> </td> 
@@ -89,20 +89,20 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col2"> <p>Fast überall; sie werden wie jede andere in Analytics erfasste Dimension behandelt. Es gibt zwei Ausnahmen: Vorerst gibt es keine Daten in Data Workbench oder Livestream. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Warum kommen keine Daten in Analytics durch?</b> </p> </td> 
-   <td colname="col2"> <p>Wahrscheinlich gibt es bei Ihnen einen Konflikt bei den AAM-Datenschutzbestimmungen zwischen der Datenquelle und dem Ziel.. </p> </td> 
+   <td colname="col1"> <p><b>Q: Warum werden in Analytics keine Daten angezeigt?</b> </p> </td> 
+   <td colname="col2"> <p>Es ist wahrscheinlich, dass zwischen Datenquelle und Ziel Konflikte zwischen den AAM-Datenschutzsteuerelementen bestehen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Warum fehlen einige meiner Segmente in Analytics, obwohl ich ausgewählt habe, dass alle Segmente gesendet werden sollen?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Unter Umständen stehen Ihre AAM-Datenexportbestimmungen für das Ziel und die Datenquellen der Segmente in Konflikt, wodurch einige Segmente nicht gesendet werden können. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Ihre AAM-Datenexportsteuerelemente am Ziel und in den Datenquellen der Segmente stehen möglicherweise in Konflikt, wodurch verhindert wird, dass bestimmte Segmente gesendet werden. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Wenn Sie Eigenschaften mit Drittpartei-Daten in Ihren Segmenten verwenden, können diese Segmente nicht an ein Ziel (einen Satz von Report Suites) weitergeleitet werden, das persönliche Daten enthält. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Warum wird in meinem Analytics-Bericht "Zielgruppenbeschränkung erreicht"angezeigt? (Hinweis: dies wird auch als Zielgruppe-ID = -1 und "::max_audiences_beyond:" in Data Warehouse dargestellt)</b> </p> </td> 
-   <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für AAM alle Segmente pro Treffer an Analytics, für die sich ein Besucher qualifiziert. Wenn ein Besucher bei einem einzigen Treffer mehr als 150 AAM-Segmenten angehört, werden die <b>150 aktuellsten qualifizierten Segmente</b> an Analytics gesendet und der Rest der Liste wird nicht gesendet. </p> <p>Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen: </p> 
+   <td colname="col2"> <p>Standardmäßig sendet die Audience Analytics-Integration für AAM alle Segmente pro Treffer an Analytics, für die sich ein Besucher qualifiziert. Wenn ein Besucher bei einem einzigen Treffer mehr als 150 AAM-Segmenten angehört, werden die <b>150 aktuellsten qualifizierten Segmente</b> an Analytics gesendet und der Rest der Liste wird nicht gesendet. </p> <p>Ein zusätzliches Flag wird an Analytics gesendet, das angibt, dass die Segmentliste abgeschnitten wurde, und als "Zielgruppenbeschränkung erreicht"in der Dimension "Zielgruppenname"und als "-1"in der Dimension "Zielgruppen-ID"angezeigt wird. </p> <p>Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Sie bei der Berichterstellung eine Beschränkung der Zielgruppe erreicht haben, stehen Ihnen zwei Optionen zur Verfügung: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Lassen Sie die Integration weiterhin im Out-of-the-Box-Zustand arbeiten und die 150 Segmente eines bestimmten Benutzers senden, für die dieser sich zuletzt qualifiziert hat. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: Wählen Sie in AAM die 150 Segmente für die Integration aus, die am bedeutsamsten für Ihr Unternehmen sind. Daraufhin überprüft AAM Besucher nur auf diese 150 Segmente. Der Nachteil dieser Vorgehensweise ist, dass Sie bei allen Besuchern nur noch diese 150 Segmente erhalten. Dahingegen liefert die Vorgehensweise in Option 1 dadurch, dass die Integration pro Treffer Segmente sendet, eine unbegrenzte Anzahl an Segmenten. </li> 
@@ -124,7 +124,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col2"> <p>Ja. In der AAM-Zieleinrichtung sehen Sie nur Report Suites, bei denen die serverseitige Weiterleitung aktiviert ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>F: Warum kann ich bestimmte Report Suites nicht in Analytics Admin aktivieren?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Warum kann ich bestimmte Report Suites für SSF nicht in Analytics Admin aktivieren?</b> </p> </td> 
    <td colname="col2"> <p>Es können nur Suites aktiviert werden, die Ihrer Experience Cloud-Organisation zugeordnet sind. </p> </td> 
   </tr> 
  </tbody> 
