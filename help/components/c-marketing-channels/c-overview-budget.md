@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Marketingkanäle
 title: Kosten und Budgets
 topic: Reports and Analytics
-uuid: 7 ba 0 e 968-e 565-4 d 4 c -8 fc 0-39 bf 25 d 3 e 5 b 1
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Erfahren Sie, wie Sie Kanälen Kosten- und Budgetbeträge zuweisen.
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## Kosten und Budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
 Erfahren Sie, wie Sie Kanälen Kosten- und Budgetbeträge zuweisen.
 
@@ -25,7 +25,7 @@ Kosten umfassen Ihre Ausgaben für den Kanal. Budget stellt alle verfügbaren Ge
 
 Die ROI lässt sich sinnvoll anzeigen, indem Sie eine errechnete Metrik erstellen, die den Umsatz abzüglich der Kosten darstellt. Alternativ können Sie auch eine errechnete Metrik erstellen, die die Gesamtkosten mit einer Unterteilung der Kosten pro neuer Interaktion aufzeigt. Beispiel: Sie können einen [!UICONTROL First Touch-Kanal]bericht ausführen, der neue Interaktionen auflistet, und dann eine Metrik des Typs „First Touch-Kosten“ hinzufügen, die die Kosten pro neuer Interaktion darstellt.
 
-Siehe [Berechnete Metriken verwenden Marketingkanalberichte](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+Siehe [In Marketing-Kanalberichten verwendete berechnete Metriken](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 Kosten und Budgets können nur Kanälen zugewiesen werden. In der Berichterstellung erhalten alle Kosten einen Gültigkeitszeitraum. Wenn die Kosten in direktem Bezug zum Kanal stehen, wird eine Zuordnungsmetrik gewählt, die die Kostenaufteilung unter den Kampagnen eines Kanals anzeigt.
 
