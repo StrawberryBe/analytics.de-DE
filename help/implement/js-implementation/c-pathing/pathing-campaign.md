@@ -7,8 +7,8 @@ solution: Analytics
 title: Pfad nach Kampagne oder Trackingcode
 topic: Entwickler und Implementierung
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 Dies sollten Sie auf allen Seiten durchführen, sofern der Benutzer nicht von einer Kampagne aus geklickt hat. Wenn Benutzer auf eine Kampagne geklickt haben und sich auf der Landingpage der Kampagne befinden, wird in dieser Eigenschaftsvariablen eine Kombination aus Kampagne und [!UICONTROL pagename] eingetragen. Das sieht dann so aus:
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 Wenn die angeklickte Kampagne „banner1234“ hieß und der Benutzer so auf die Einstiegsseite „Homepage“ gelangte, würde in dieser Eigenschaftsvariablen der Wert „banner1234 : Homepage“ stehen. Auf allen nachfolgenden Seiten wird der Wert von [!UICONTROL pagename] wie oben gezeigt zur Eigenschaftsvariablen hinzugefügt.
@@ -36,7 +36,7 @@ Wenn die angeklickte Kampagne „banner1234“ hieß und der Benutzer so auf die
 Wenn ein Benutzer auf diese Kampagne klickt und bei seinem Besuch insgesamt vier Seiten anzeigt, enthält die Eigenschaftsvariable die folgenden Werte in der entsprechenden Reihenfolge:
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 Wenn die Daten auf diese Weise in der [!UICONTROL prop1] erfasst sind und die Pathing-Funktion aktiviert ist, können Sie in den verschiedenen Pfadsetzungsberichten erkennen, welchen Weg Besucher auf Ihrer Site eingeschlagen haben, nachdem sie auf eine Kampagne geklickt haben.
