@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getValOnce
 topic: Entwickler und Implementierung
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * Wenn ein Benutzer Ihre Seite schließt, eine andere Registerkarte öffnet und innerhalb von 30 Minuten zu Ihrer Site zurückkehrt, erstellt das Plug-in eine neue Sitzung, während der [!DNL Analytics]-Besuch geöffnet bleibt.
    * Wenn ein Benutzer das Browser-Fenster geöffnet lässt, ohne innerhalb der nächsten 30 Minuten auf einen Link zu klicken, läuft der [!DNL Analytics]-Besuch ab, während die Browsersitzung geöffnet bleibt.
 
->[!NOTE]
->
->Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Implementierung {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->Falls Ihre Organisation Marketing-Kanäle verwendet und Regeln basierend auf `s.campaign` eingerichtet sind, wird empfohlen, das Plug-in „getValOnce“ nicht zu verwenden, wenn Sie den Wert für `s.campaign` festlegen. Andernfalls kann ein falscher Kanal bei einem sekundären Kampagnen-Clickthrough zugewiesen werden.
+> [!NOTE] Falls Ihre Organisation Marketing-Kanäle verwendet und Regeln basierend auf `s.campaign` eingerichtet sind, wird empfohlen, das Plug-in „getValOnce“ nicht zu verwenden, wenn Sie den Wert für `s.campaign` festlegen. Andernfalls kann ein falscher Kanal bei einem sekundären Kampagnen-Clickthrough zugewiesen werden.
 
 Um dieses Plug-in zu implementieren, fügen Sie den folgenden Code in die Datei [!DNL s_code.js] ein.
 
