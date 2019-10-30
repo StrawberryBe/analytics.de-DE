@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classifications
 title: Browser-Import
 topic: Admin Tools
-uuid: 56 dfbf 4 c -36 e 6-49 f 4-b 5 cb -8 ab 714432825
+uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Sie können Classification-Daten über den Browser importieren (hochladen). Diese Methode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
 
-## Browser import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
+## Browser-Import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
 
 Sie können Classification-Daten über den Browser importieren (hochladen). Diese Methode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
 
@@ -66,7 +66,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**.
-1. Configure the **[!UICONTROL Browser Import]** fields.
+1. Konfigurieren Sie die **[!UICONTROL Browser-Importfelder]** .
 1. Click **[!UICONTROL Import File]**.
 1.  Behalten Sie das Statusfenster für Benachrichtigungen zum Stand der Verarbeitung im Auge.
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
