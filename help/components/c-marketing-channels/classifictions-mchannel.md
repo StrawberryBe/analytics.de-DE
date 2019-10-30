@@ -3,12 +3,12 @@ description: Classifications werden verwendet, um Werte in Gruppen zu kategorisi
 seo-description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
 seo-title: Klassifizierungen in Marketing-Kanälen
 solution: Analytics
-subtopic: Marketing channels
+subtopic: Marketingkanäle
 title: Klassifizierungen in Marketing-Kanälen
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf 
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. Kanalwerte sind nicht klassifizierte Werte in den Kanaldetails.
 
->[!NOTE]
->
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
+> [!NOTE] Vergewissern Sie sich, dass Sie mit der Erstellung von Klassifizierungen in [Klassifizierungen](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in der Referenzhilfe zu Analytics vertraut sind.
 
 >[!IMPORTANT]
 >
