@@ -5,7 +5,7 @@ seo-title: Bereitstellen der Integration
 title: Bereitstellen der Integration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,9 +73,7 @@ Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten in der 
 
 Nach Abschluss des Integrationsassistenten müssen Sie den Integrationscode für Ihren Adobe Analytics-Bereitstellungscode (s_code) bereitstellen.
 
->[!NOTE]
->
->Wenn Sie Adobe TagManager oder das dynamische Tag-Management zur Bereitstellung von Adobe Analytics verwendet haben, können Sie den Integrationscode einfach mit einem dieser Tools hinzufügen.
+> [!NOTE] Wenn Sie Adobe TagManager oder das dynamische Tag-Management zur Bereitstellung von Adobe Analytics verwendet haben, können Sie den Integrationscode einfach mit einem dieser Tools hinzufügen.
 
 1. Rufen Sie die Registerkarte **[!UICONTROL Support]** auf und laden Sie die `integration code v2_0_1` Ressource im Bereich Ressourcen der Integration herunter und speichern Sie sie.
 
@@ -203,9 +201,7 @@ Dies wird nur angezeigt, wenn Target auf der Seite implementiert ist UND Sie die
 
 Alternativ können Sie in der Menüstruktur von Adobe Analytics zur Demandbase-Berichterstellung navigieren - siehe Screenshots unten.
 
->[!NOTE]
->
->Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+> [!NOTE] Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
 
 ![](assets/reporting1.png)
 
