@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Dynamisch aufgefüllt werden können Cookies, Anforderungsheader und Abfragezeic
 ## Syntax und mögliche Werte
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 ODER BENUTZERDEFINIERTES FLAG FÜR DYNAMISCHE VARIABLEN VERWENDEN
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## Beispiele
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 ODER BENUTZERDEFINIERTES FLAG FÜR DYNAMISCHE VARIABLEN VERWENDEN
