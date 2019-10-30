@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Einschränkungen und Spezifikationen
 title: Einschränkungen und Spezifikationen
-uuid: 6717 b 6 ea -7 e 01-49 b 8-8 f 6 e-fb 733 a 03 b 687
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->Diese Einschränkungen gelten nur für die Option "Reportbuilder-Anforderungen als Power BI Datensatz-Tabellen veröffentlichen" .
+> [!NOTE] Diese Einschränkungen gelten nur für die Option "ReportBuilder-Anforderungen als Power BI-Datensatz-Tabellen veröffentlichen".
 
 * Maximal 100 ReportBuilder-Anforderungen pro Arbeitsmappe können nach Power BI exportiert werden.
 * Dieser Planungsvorgang beendet den Export, sobald die 101. Anforderung erreicht ist.
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->Diese Spezifikation gilt für die Optionen "Alle Reportbuilder-Anforderungen als Power BI Datensatz-Tabellen veröffentlichen" und" Alle formatierten Tabellen in den Arbeitsmappen als Power BI Datensatz-Tabellen veröffentlichen" .
+> [!NOTE] Diese Spezifikation gilt für die Optionen "Alle ReportBuilder-Anforderungen als Power BI-Datenset-Tabellen veröffentlichen"und "Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datenset-Tabellen veröffentlichen".
 
 Bearbeiten einer ReportBuilder-Anforderung nach der Veröffentlichung in Power BI kann zu Problemen führen.
 
