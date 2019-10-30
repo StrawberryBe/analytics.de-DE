@@ -7,8 +7,8 @@ solution: Analytics
 title: Analytics mithilfe von HTML-Bild-Tags implementieren
 topic: Entwickler und Implementierung
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,5 @@ JavaScript kann Browsereinstellungen ermitteln, auf die der Server keinen Zugrif
 * Für die Nachverfolgung von Konversionsereignissen wie Einkäufen, in denen die Genauigkeit besonders wichtig ist.
 * Diese Strategie kann auch verwendet werden, um die Bildanforderung im <noscript> Tag zur Verfolgung von Benutzern ohne JavaScript oder mit deaktiviertem JavaScript auszufüllen.
 
->[!NOTE]
->
->Beim Einsatz Server-generierter Image-Tags ist die Implementierung zeitaufwendiger und das Debuggen, die Bereitstellung und die Wartung sind komplizierter. Adobe empfiehlt Kunden daher, bei jeder Seite wenn möglich eine JavaScript-basierte Datenerfassung zu bevorzugen. Bei Wahl dieser Implementierungsmethode werden verschiedene Berichte und Funktionen – wie Besucherklickzuordnung, Download-Links, Exitlinks und browserbasierte Variablen (Browserbreite, -höhe usw.) – nicht unterstützt oder können nicht erfasst werden.
+> [!NOTE] Beim Einsatz Server-generierter Image-Tags ist die Implementierung zeitaufwendiger und das Debuggen, die Bereitstellung und die Wartung sind komplizierter. Adobe empfiehlt Kunden daher, bei jeder Seite wenn möglich eine JavaScript-basierte Datenerfassung zu bevorzugen. Bei Wahl dieser Implementierungsmethode werden verschiedene Berichte und Funktionen – wie Besucherklickzuordnung, Download-Links, Exitlinks und browserbasierte Variablen (Browserbreite, -höhe usw.) – nicht unterstützt oder können nicht erfasst werden.
 
