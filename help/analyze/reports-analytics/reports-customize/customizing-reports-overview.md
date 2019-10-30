@@ -7,7 +7,7 @@ title: Übersicht über das Anpassen von Berichten
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 Datumsvergleiche aus Trendberichten sind nicht möglich.
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
+> [!NOTE] Wenn Sie einen Datumsvergleich mit Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mithilfe von zwei separaten Anforderungen in [ReportBuilder](https://marketing.adobe.com/resources/help/en_US/arb/) ziehen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
 
 So führen Sie Datumsvergleiche zwischen Rangberichten in Reports &amp; Analytics aus:
 
@@ -144,7 +142,7 @@ t_reports_select_page.xml
 1. Klicken Sie auf den Link **Gewählte Seite.**
 1. Wählen Sie unter [!UICONTROL Seite auswählen] die Seiten aus, die Sie anzeigen möchten.
 1. Suchen Sie die Seite.
-1. Click **[!UICONTROL OK.]**
+1. Klicken Sie auf **[!UICONTROL OK.]**
 
 ## Report Suites vergleichen {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -175,7 +173,7 @@ Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentua
 1. Erstellen Sie einen Bericht, der Ihnen den Vergleich von Berichten ermöglicht.
 1. Klicken Sie auf den Link **Mit Site vergleichen.**
 1. Suchen Sie die Report Suite.
-1. Click **[!UICONTROL OK.]**
+1. Klicken Sie auf **[!UICONTROL OK.]**
 
 ## Berichtsgranularität festlegen {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
