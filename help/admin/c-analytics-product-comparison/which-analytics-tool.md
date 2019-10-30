@@ -5,7 +5,7 @@ seo-title: Welches Adobe Analytics-Tool sollte ich verwenden?
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,7 +66,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 * Optionen:
 
    * Rule Builder: verwenden, wenn für eine Variable Werte in einem vorhersagbaren Format erfasst werden, z. B. durch Trennzeichen getrennte Werte. Mit diesem Ansatz können Sie Regeln einmal erstellen, ohne sich später weiter damit beschäftigen zu müssen.
-   * Browser-Importtool: verwenden, wenn Sie nicht über vorhersagbare Werte oder über eine begrenzte Liste von Werten verfügen, die eine einmalige Aktualisierung erfordern. Bei diesem Ansatz ist eine fortlaufende Überwachung der Classifications auf neue Werte nötig.
+   * Browser-Importeur: verwenden, wenn Sie nicht über berechenbare Werte verfügen oder wenn Sie über eine endliche Liste von Werten verfügen, die eine einmalige Aktualisierung erfordern. Bei diesem Ansatz ist eine fortlaufende Überwachung der Classifications auf neue Werte nötig.
 
 **[Data Sources](/help/import/c-data-sources/datasrc-home.md)** sollte verwendet werden:
 
@@ -111,7 +111,7 @@ Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation
 * Für den Zugriff auf granularere Daten als jene in der Benutzeroberfläche (denormalisierte Tabellenansicht)
 * Für den Download von Daten in einem für die Pivot-Tabellen-Eingabe geeigneten Format
 * Wenn der Kunde Adobe-Daten in ein Drittanbieter-Tool für die Datenvisualisierung eingeben möchte (leicht zusammengefasst und nicht auf Trefferebene)
-* Zum Zugreifen auf alle eindeutigen Dimensionswerte, wenn in Adobe Analytics ein geringer Datenverkehr für Sie vorliegt
+* So greifen Sie auf alle eindeutigen Dimensionswerte zu, wenn Sie in Adobe Analytics mit "geringer Traffic"arbeiten
 
 **[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** sollte verwendet werden:
 
@@ -129,7 +129,7 @@ Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation
 
 Engineering Services sollten verwendet werden, wenn:
 
-* Die anderen Adobe-Tools entsprechen nicht Ihren Anforderungen.
+* Die anderen Adobe-Werkzeuge entsprechen nicht Ihren Anforderungen.
 * Sie benötigen ein individuelles Erlebnis.
 * Sie benötigen eine vollständig automatisierte Lösung.
 * Sie möchten viele Geräte erreichen.
