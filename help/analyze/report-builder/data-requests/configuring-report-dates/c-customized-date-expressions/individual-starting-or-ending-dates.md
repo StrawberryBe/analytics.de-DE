@@ -1,18 +1,18 @@
 ---
 description: Abkürzungen für Start- und Enddaten.
 seo-description: Abkürzungen für Start- und Enddaten.
-seo-title: Individuelle Start- oder Enddaten
+seo-title: Spezifische Start- und Enddatumswerte
 solution: Analytics
-title: Individuelle Start- oder Enddaten
+title: Spezifische Start- und Enddatumswerte
 topic: ReportBuilder
-uuid: b 161948 c-c 71 c -4757-8348-15577 fc 61042
+uuid: b161948c-c71c-4757-8348-15577fc61042
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Individuelle Start- oder Enddaten
+# Spezifische Start- und Enddatumswerte
 
 Abkürzungen für Start- und Enddaten.
 
