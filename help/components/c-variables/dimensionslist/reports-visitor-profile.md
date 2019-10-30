@@ -4,10 +4,10 @@ seo-description: Mit diesen Berichten können Sie Kaufmuster von Kunden aus vers
 seo-title: Besucherprofil
 solution: Analytics
 title: Besucherprofil
-topic: 'Berichte    '
-uuid: ffdd 24 ab -5 de 4-44 a 0-8 d 9 b -5 d 6 a 9 b 60 a 2 dd
+topic: Berichte
+uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Mit diesen Berichten können Sie Kaufmuster von Kunden aus verschiedenen Profilk
  <tbody> 
   <tr> 
    <td colname="col1"> Sprachen </td> 
-   <td colname="col2"> <p> Zeigt die bevorzugte Sprache Ihrer Besucher an, zeichnet die Standardsprache des Browsers auf und zeigt an, welche Sprachen Besucher am häufigsten auf Ihrer Site verwenden. </p> </td> 
+   <td colname="col2"> <p> Zeigt die von Ihren Besuchern bevorzugten Sprachen an, erfasst die Standardsprache des Browsers und zeigt die Sprachen an, die Besucher auf Ihrer Site am häufigsten verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domänen </td> 
