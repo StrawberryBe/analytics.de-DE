@@ -4,10 +4,10 @@ seo-description: Zeigt die Liste der Erlebnisse (Rezepte) an, die Sie in Target 
 seo-title: Target-Erlebnisse
 solution: Analytics
 title: Target-Erlebnisse
-topic: 'Berichte    '
-uuid: 15728 f 3 e -003 c -47 a 0-a 47 b -12 b 52 a 88 fb 79
+topic: Berichte
+uuid: 15728f3e-003c-47a0-a47b-12b52a88fb79
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
