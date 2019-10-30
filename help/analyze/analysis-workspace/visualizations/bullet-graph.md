@@ -1,19 +1,19 @@
 ---
 description: Schauen wir uns einmal an, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt.
 seo-description: Schauen wir uns einmal an, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt.
-seo-title: Aufzählungszeichen
-title: Aufzählungszeichen
-uuid: 2 f 133189-2 a 50-45 af-b 225-7 d 2 b 433 fbef 5
+seo-title: Lineardiagramm
+title: Lineardiagramm
+uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Aufzählungszeichen
+# Lineardiagramm
 
 Schauen wir uns einmal an, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt.
 
 ![](assets/bullet-image.png)
 
-Das Aufzählungsdiagramm enthält eine primäre, primäre Messaktion (z. B. aktueller Jahresumsatz) und ermöglicht es Ihnen, leistungsbereiche in qualitativer Bereiche einzugeben (z. B. im Vergleich zu einem Zielumsatz). Sie können hoch, mittel und niedrig angeben. In den [!UICONTROL Visualisierungseinstellungen] können Sie Zielbereiche festlegen.
+Das Aufzählungsdiagramm enthält einen einzigen primären Messwert (z. B. aktueller Umsatz im Jahr) und ermöglicht Ihnen die Eingabe qualitativer Bereiche Leistungsbereiche (z. B. im Vergleich zu einem Zielumsatz). Sie können hoch, mittel und niedrig angeben. In den [!UICONTROL Visualisierungseinstellungen] können Sie Zielbereiche festlegen.
