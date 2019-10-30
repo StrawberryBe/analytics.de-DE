@@ -6,8 +6,8 @@ seo-title: Aktionen einrichten, die von der Bedingung ausgelöst werden
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Aktionen einrichten, die von der Bedingung ausgelöst werden
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Neben integrierten Tools wie [!DNL Adobe Analytics] und Google Analytics kann da
 
 Jede Regel kann beliebig viele Skripte auslösen oder HTML-Codes einfügen.
 
->[!NOTE]
->
->Da es DTM Ihnen ermöglicht, benutzerdefinierten Code in Ihre Seite aufzunehmen, müssen Sie darauf achten, keine Sicherheitslücken durch seitenübergreifende Skripterstellung (XSS) zu erzeugen (weitere Informationen finden Sie im [OWASP-Leitfaden](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))). Bei der Verwendung von Datenelementen in Skripten muss besonders vorsichtig vorgegangen werden. Gehen Sie stets davon aus, dass Datenelementwerte von nicht vertrauenswürdigen Quellen übermittelt werden könnten.
+> [!NOTE] Da DTM es Ihnen ermöglicht, benutzerspezifischen Code in Ihre Seite einzufügen, sollten Sie darauf achten, keine Schwachstellen für seitenübergreifende Skripterstellung (XSS) zu erstellen (weitere Informationen finden Sie im [OWASP-Handbuch](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) ). Bei der Verwendung von Datenelementen in Skripten muss besonders vorsichtig vorgegangen werden. Gehen Sie stets davon aus, dass Datenelementwerte von nicht vertrauenswürdigen Quellen übermittelt werden könnten.
 
 **So richten Sie Aktionen ein, die von der Bedingung ausgelöst werden**
 
