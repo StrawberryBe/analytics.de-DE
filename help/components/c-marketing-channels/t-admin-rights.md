@@ -3,12 +3,12 @@ description: Erstellen Sie eine Gruppe, die Benutzern des Marketingkanalberichts
 seo-description: Erstellen Sie eine Gruppe, die Benutzern des Marketingkanalberichts eingeschränkte Administratorrechte erteilt, und weisen Sie dann dieser Gruppe Benutzer zu. Beispielsweise könnten Sie eine Gruppe erstellen, damit Benutzer, die keine Administratoren sind, Kosten- oder Budgetbeträge eingeben können.
 seo-title: Erteilen beschränkter Administratorrechte
 solution: Analytics
-subtopic: Marketing channels
+subtopic: Marketingkanäle
 title: Erteilen beschränkter Administratorrechte
 topic: Reports and Analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
