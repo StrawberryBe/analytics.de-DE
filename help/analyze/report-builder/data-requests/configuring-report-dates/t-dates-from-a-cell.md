@@ -1,18 +1,18 @@
 ---
 description: 'Sie können einen Datumsbereich angeben, indem Sie Zellen aus einem Arbeitsblatt angegeben, das eine Anforderung enthält. ReportBuilder verwendet die spezifischen Datumsbereichsinformationen in diesen Anforderungen. Wenn Sie das aktuelle Datum wählen, erhalten Sie je nach Uhrzeit der Ausführung der Anforderung partielle Daten. '
 seo-description: 'Sie können einen Datumsbereich angeben, indem Sie Zellen aus einem Arbeitsblatt angegeben, das eine Anforderung enthält. ReportBuilder verwendet die spezifischen Datumsbereichsinformationen in diesen Anforderungen. Wenn Sie das aktuelle Datum wählen, erhalten Sie je nach Uhrzeit der Ausführung der Anforderung partielle Daten. '
-seo-title: Datumsangaben aus Zellen
+seo-title: Datumswerte aus Zellen
 solution: Analytics
-title: Datumsangaben aus Zellen
+title: Datumswerte aus Zellen
 topic: ReportBuilder
-uuid: 0 d 9 bf 08 d-d 39 d -4 f 37-94 f 1-232 da 0813245
+uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Datumsangaben aus Zellen
+# Datumswerte aus Zellen
 
 Sie können einen Datumsbereich angeben, indem Sie Zellen aus einem Arbeitsblatt angegeben, das eine Anforderung enthält. ReportBuilder verwendet die spezifischen Datumsbereichsinformationen in diesen Anforderungen. Wenn Sie das aktuelle Datum wählen, erhalten Sie je nach Uhrzeit der Ausführung der Anforderung partielle Daten. 
 
