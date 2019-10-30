@@ -8,7 +8,7 @@ title: Dashboard-Manager
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freige
 
 Sie können vorhandene Legacy-Dashboards weiterhin ausführen, bearbeiten, herunterladen und planen. Neue Legacy-Dashboards können Sie jedoch nicht mehr erstellen. Wir empfehlen Ihnen dringend, vorhandene Legacy-Dashboards auf das neue Dashboard-Format zu aktualisieren.
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] In Zukunft sollten Sie die Verwendung von Projekten[ im ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)Arbeitsbereich für Analysen und deren Möglichkeit zum Herunterladen und Planen in Betracht ziehen.
 
 Beim Kopieren eines Legacy-Dashboards öffnet das System dieses zur Bearbeitung, wobei Sie Legacy-Inhalt oder neuen Inhalt hinzufügen können. Wenn Sie ein Legacy-Dashboard kopieren, bleibt das Original in der Liste der Legacy-Dashboards erhalten.
 
->[!NOTE]
->
->Durch das Hinzufügen von Legacy-Inhalten zu einem Dashboard wird ein Dashboard auf der Grundlage der neuesten Dashboard-Funktionalität erstellt. Das Legacy-Reportlet enthält jedoch eventuell Daten, die auf der vorherigen Datenplattform basieren.
+> [!NOTE] Durch das Hinzufügen von Legacy-Inhalten zu einem Dashboard wird ein Dashboard auf der Grundlage der neuesten Dashboard-Funktionalität erstellt. Das Legacy-Reportlet enthält jedoch eventuell Daten, die auf der vorherigen Datenplattform basieren.
 
 **So migrieren Sie ein Legacy-Dashboard der Version 14.x**
 
@@ -115,9 +111,7 @@ Im [!UICONTROL Dashboard-Manager] können Sie sehen, ob ein Dashboard für die A
 
 ## Dashboard archivieren
 
->[!NOTE]
->
->Diese Funktion ist ab Januar 2020 nicht mehr verfügbar.
+> [!NOTE] Diese Funktion ist ab Januar 2020 nicht mehr verfügbar.
 
 In diesen Schritten wird beschrieben, wie Sie ein gesendetes Dashboard als PDF-Datei archivieren können. Das System speichert die archivierte Datei zwei Jahre lang oder bis das 4-GB-Limit für archivierte Berichte erreicht wurde, je nachdem, was zuerst eintritt.
 
