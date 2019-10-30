@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: Entwickler und Implementierung
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ Ruft die Ladezeit für die Seite bis auf die Zehntelsekunde genau ab und ermögl
 
 Um dieses Plug-in zu verwenden, fügen Sie den Funktionscode ein und rufen die Funktion anschließend zwei Mal in der Datei [!DNL s_code.js] auf. Einmal am Anfang der Datei und ein zweites Mal im Abschnitt `doPlugins`. Dieses Plug-in wurde bewusst nicht als eine Methode des Objekts „s“ definiert. Dies hätte zu einer erhöhten berechneten Ladezeit für die Seite geführt.
 
->[!NOTE]
->
->Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code und -Implementierung {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -55,7 +53,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(Optional) Hinzufügen der Unterstützung für ältere Browser**
 
-Um ältere Browser zu unterstützen, die nicht über die Eigenschaft [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) verfügen, fügen Sie im HTML-Code dem Abschnitt „HEAD“ im Anfangsbereich, aber vor dem Aufruf von .js-, .css- oder anderen Dateien, die folgende Zeile hinzu:
+Um ältere Browser zu unterstützen, die nicht über die Eigenschaft [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) verfügen, fügen Sie im HTML-Code dem Abschnitt „HEAD“ im Anfangsbereich, aber vor dem Aufruf von .js-, .css- oder anderen Dateien die folgende Zeile hinzu:
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
