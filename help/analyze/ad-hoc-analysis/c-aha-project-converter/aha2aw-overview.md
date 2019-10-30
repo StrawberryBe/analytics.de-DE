@@ -1,21 +1,21 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Übersicht über Ad-hoc-Analysen - Projektkonverter
-title: Übersicht über Ad-hoc-Analysen - Projektkonverter
-uuid: 7 d 78753 d-d 56 c -4 eea-b 1 dd -7 c 9 ec 225 cce 3
+description: 'null'
+seo-description: 'null'
+seo-title: Ad Hoc Analysis Project Converter – Übersicht
+title: Ad Hoc Analysis Project Converter – Übersicht
+uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Übersicht über Ad-hoc-Analysen - Projektkonverter
+# Ad Hoc Analysis Project Converter – Übersicht
 
 Über den Ad Hoc Analysis Project Converter haben Sie die Möglichkeit, all Ihre Ad Hoc Analysis-Projekte reibungslos nach Analysis Workspace zu konvertieren.
 
 * [Warum sollten Sie Projekte konvertieren?](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
-* [Konvertieren von Ad-hoc-Analysen-Projekten](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
+* [Konvertieren von Ad-hoc-Analyseprojekten](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
 * [Anzeigen von konvertierten Projekten in Analysis Workspace](../../../analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md#concept_8906482FF9D641D9A93137C1DAD4BB88)
 * [Project Converter – FAQ](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
 
