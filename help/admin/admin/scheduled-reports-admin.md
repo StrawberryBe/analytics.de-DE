@@ -1,18 +1,18 @@
 ---
 description: Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
 seo-description: Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
-seo-title: Warteschlange für geplante Berichte
+seo-title: Warteschlange für terminierte Berichte
 solution: Analytics
-title: Warteschlange für geplante Berichte
-topic: 'Berichte    '
-uuid: 3 fcf 92 d 3-a 472-465 f-ad 7 a-c 48 cd 9 a 8238 b
+title: Warteschlange für terminierte Berichte
+topic: Berichte
+uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Warteschlange für geplante Berichte
+# Warteschlange für terminierte Berichte
 
 Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
 
@@ -29,9 +29,7 @@ Zu den Admin-spezifischen Fähigkeiten des Managers für terminierte Berichte ge
 
 In der Registerkarte **[!UICONTROL Berichtsliste]** können Sie neben den von Ihnen terminierten Berichten mit der Option **Alle terminierten Berichte anzeigen]alle terminierten Berichte in Ihrer Organisation anzeigen.[!UICONTROL **
 
->[!NOTE]
->
->The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. In Folge zeigt der Manager für terminierte Berichte mehrere Einträge mit dem gleichen Berichtsnamen, aber unterschiedlichen Dateinamen an, wenn Sie mehrere Berichte des gleichen Berichtstyps terminieren und jeweils benutzerdefinierte Namen angeben. Das liegt daran, dass der terminierte Back-End-Bericht identisch ist, so dass die Spalte „Berichtsname“ dieselben Berichtsnamen für alle außer den (festgelegten) benutzerdefinierten Dateinamen enthalten würde.
+> [!NOTE] In der Spalte **[!UICONTROL Berichtsname]** wird der Name des terminierten Berichts angezeigt. In der Spalte **[!UICONTROL Dateiname]** werden alle benutzerdefinierten Dateinamen angezeigt, die Sie unter Erweiterte Auslieferungsoptionen festgelegt haben. In Folge zeigt der Manager für terminierte Berichte mehrere Einträge mit dem gleichen Berichtsnamen, aber unterschiedlichen Dateinamen an, wenn Sie mehrere Berichte des gleichen Berichtstyps terminieren und jeweils benutzerdefinierte Namen angeben. Das liegt daran, dass der terminierte Back-End-Bericht identisch ist, so dass die Spalte „Berichtsname“ dieselben Berichtsnamen für alle außer den (festgelegten) benutzerdefinierten Dateinamen enthalten würde.
 
 ![](assets/show_all_scheduled_reports.png)
 
