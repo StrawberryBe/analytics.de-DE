@@ -5,24 +5,24 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.currencyCode
 
-Die Variable bestimmt die Konversionsrate, die auf den Umsatz angewendet werden soll.
+Die Variable bestimmt, welche Konversionsrate auf den Umsatz angewendet werden soll.
 
-Alle Geldbeträge werden in einer Währung Ihrer Wahl gespeichert. Wenn dies die gleiche Währung ist, wie in *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.
+Alle Geldbeträge werden in einer Währung Ihrer Wahl gespeichert. Wenn dies die gleiche Währung ist, wie in Wenn *`currencyCode`* oder *`currencyCode`* leer ist, wird keine Konversion vorgenommen.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |--- |--- |--- |--- |
 | Keine | cc | Konversion &gt; Einkäufe &gt; Umsatz Alle Konversionsberichte, die Umsätze oder Geldbeträge anzeigen | „USD“ |
 
-Wenn Besucher auf Ihrer Website Einkäufe in verschiedenen Währungen tätigen können, sollten Sie mithilfe der Variablen *`currencyCode`* sicherstellen, dass Umsätze in der entsprechenden Währung gespeichert werden. For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the *`currencyCode`* with "EUR" on the HTML page. Nach Eingang der Daten bei der Datenerfassung werden diese 40 Euro dann unter Verwendung des aktuellen Konversionskurses in USD umgerechnet.
+Wenn Besucher auf Ihrer Website Einkäufe in verschiedenen Währungen tätigen können, müssen Sie mithilfe der Variable *`currencyCode`* sicherstellen, dass Umsätze in der entsprechenden Währung gespeichert werden. Wenn die Basiswährung für Ihre Report Suite beispielsweise USD ist und Sie einen Artikel für 40 Euro verkaufen, müssen Sie die *`currencyCode`* mit „EUR“ auf der HTML-Seite ausfüllen. Nach Eingang der Daten bei der Datenerfassung werden diese 40 Euro dann unter Verwendung des aktuellen Konversionskurses in USD umgerechnet.
 
-Wenn Sie Verkäufe in mehreren Währungen tätigen, empfiehlt es sich, die Variable *`currencyCode`* auf der HTML-Seite anstatt in der JavaScript-Datei aufzufüllen. Wenn Sie anstelle der von Adobe verwendeten Konversionsraten Ihre eigenen Konversionsraten verwenden möchten, stellen Sie die *`currencyCode`* auf die Basiswährung Ihrer Report Suite ein. Dann rechnen Sie alle Umsätze um, bevor diese nach [!DNL Analytics] gesendet werden.
+Wenn Sie Verkäufe in mehreren Währungen tätigen, empfiehlt es sich, die Variable *`currencyCode`* auf der HTML-Seite anstatt in der JavaScript-Datei aufzufüllen. Wenn Sie anstelle der von Adobe verwendeten Konversionsraten Ihre eigenen Konversionsraten verwenden möchten, stellen Sie *`currencyCode`* auf die Basiswährung Ihrer Report Suite ein. Dann rechnen Sie alle Umsätze um, bevor diese nach [!DNL Analytics] gesendet werden.
 
 Wechselkurskonversionen werden sowohl bei Umsatz- als auch bei Währungs-Ereignissen vorgenommen. Das sind Ereignisse, mit denen Werte zu Umsätzen summiert werden, wie Steuern und Versandkosten. Die Umsatz- und Währungs-Ereignisse werden in den Produktzeichenfolgen angegeben. Weitere Informationen zu Produkten finden Sie unter [events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
 
@@ -48,8 +48,8 @@ Adobe [!DNL Customer Care] kann die für Ihre Report Suite standardmäßig einge
 
 ## Probleme, Fragen und Tipps
 
-* Wenn in Berichten unerwartet größere Umsätze auftauchen, müssen Sie überprüfen, ob die Variable *`currencyCode`* und die Basiswährung der Report Suite korrekt festgelegt sind.
-* The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
+* Wenn Sie überraschend hohe Umsätze in Berichten feststellen, stellen Sie sicher, dass die Variable *`currencyCode`* und die Basiswährung der Report Suite korrekt eingestellt sind.
+* Die Variable *`currencyCode`* ist nicht persistent, d. h., die Variable muss in derselben Bildanforderung wie andere Umsatz- oder sonstige Metriken, die mit Währungen in Verbindung stehen, übergeben werden.
 * Währungs-Ereignisse dürfen nicht für Zwecke eingesetzt werden, bei denen es nicht um Währungen geht. Wenn Sie beliebige oder dynamische Werte zählen möchten, die keine Währungen sind, verwenden Sie den Ereignistyp [!UICONTROL numeric].
 * Wenn die Variable *`currencyCode`* leer ist, wird keine Konversion vorgenommen.
 
