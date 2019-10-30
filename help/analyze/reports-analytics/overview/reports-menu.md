@@ -5,7 +5,7 @@ seo-title: Menü Berichte
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ Das Menü „Berichte“ bietet eine erweiterte Suchoberfläche. Click **[!UICON
 
 Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), um durch die Liste mit den Berichten zu navigieren. Betätigen Sie die Escape-Taste, um die Suche zu schließen ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
->[!NOTE]
->
->You can also search the report list by prop, eVar, and event number. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
+> [!NOTE] Sie können die Berichtsliste auch nach Prop, eVar und Ereignisnummer durchsuchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
 
 ## Navigationsübersicht {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -90,7 +88,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
    <td colname="col2"> Hier finden Sie die letzten zehn Berichte oder Dashboards, auf die Sie in den vergangenen 90 Tagen zugegriffen haben. Sie können auf einfache Weise zu einem früheren Schritt in Ihrer Analyse oder Ihrem Bericht zurückgelangen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Herunterladen</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Download</span> </td> 
    <td colname="col2">Ermöglicht Ihnen das Herunterladen des Berichts in den Formaten PDF, CSV, Excel und Word. </td> 
   </tr> 
   <tr> 
@@ -99,7 +97,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Lesezeichen...</span> </td> 
-   <td colname="col2">Lets you  bookmark the report.<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"></a> </td> 
+   <td colname="col2">Hiermit können Sie den Bericht mit einem Lesezeichen versehen<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> </a> . </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
