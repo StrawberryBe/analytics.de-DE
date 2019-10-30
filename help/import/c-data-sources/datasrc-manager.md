@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Datenquellen
 title: Data Sources-Manager
 topic: Entwickler und Implementierung
-uuid: ccfa 4 a 1 c -7 c 56-421 b -8 ee 6-a 42 b 334659 b 1
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -67,7 +67,7 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
    <td colname="col1"> <p>Status </p> </td> 
    <td colname="col2"> <p> Der aktuelle Status der Datei. Mögliche Statuswerte: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">In Warteschlange (Schritt 1 von 3): Die Datei existiert, aber die Verarbeitung hat noch nicht begonnen. Wenn die Datei nicht innerhalb von 30 Minuten angezeigt wird, überprüfen Sie, ob die zugehörige <span class="filepath">.fin</span>-Datei vorliegt. </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">In Warteschlange (Schritt 1 von 3): Die Datei existiert, aber die Verarbeitung hat noch nicht begonnen. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Vorbereitung (Schritt 2 von 3): Die Datei wird auf Fehler oder Warnungen geprüft. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Verarbeitung (Schritt 3 von 3): Die Datei wird verarbeitet. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Fehlgeschlagen: Die Datei wurde aufgrund von Fehlern nicht verarbeitet. </li> 
