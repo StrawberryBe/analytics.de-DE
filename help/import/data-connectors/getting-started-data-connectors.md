@@ -4,7 +4,7 @@ seo-description: Bei Data Connectors anmelden; Importieren von Verfolgungsdaten 
 seo-title: Analytics Data Connectors
 title: Erste Schritte mit Analytics-Datenschnittstellen
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Die Integration von Data Connectors sollte mit den herkömmlichen Browsern probl
 * Bildschirmauflösung: 1.024x768 (800x600 funktioniert auch)
 * Farbtiefe: 16-Bit oder höher
 
-Zusätzlich wird die Datenerfassung verbessert, wenn für die Webbrowser der Benutzer JavaScript aktiviert wurde.
+Darüber hinaus wird die Datenerfassung verbessert, wenn JavaScript in den Webbrowsern der Benutzer aktiviert ist.
 
 **Voraussetzungen**
 
@@ -53,7 +53,7 @@ Sie benötigen ein aktuelles Konto, um auf die [!UICONTROL Data Connectors] -Ein
 
 ## Data Connectors-Konsole
 
-Nachdem Sie eine Integration aktiviert haben, wird sie auf der Seite [!UICONTROL Data Connectors] angezeigt. Sie können Details anzeigen und Konfigurationsänderungen in der Konsole vornehmen. Sie können aktive Integrationen und Integrationen für alle Report Suites in Ihrem Unternehmen anzeigen. Darüber hinaus können Sie sich ein Aktivitätsprotokoll ansehen, eine Integration als Dashboard einstellen, eine Integration konfigurieren oder die Hilfe-Funktion nutzen.
+Nach der Aktivierung einer Integration wird sie auf der Seite [!UICONTROL Data Connectors] angezeigt. Sie können Details anzeigen und Konfigurationsänderungen in der Konsole vornehmen. Sie können aktive Integrationen und Integrationen für alle Report Suites in Ihrem Unternehmen anzeigen. Darüber hinaus können Sie sich ein Aktivitätsprotokoll ansehen, eine Integration als Dashboard einstellen, eine Integration konfigurieren oder die Hilfe-Funktion nutzen.
 
 ![Data Connectors-Konsole](assets/data-connectors-console.png)
 
@@ -61,13 +61,13 @@ Nachdem Sie eine Integration aktiviert haben, wird sie auf der Seite [!UICONTROL
 
 Remarketing-Segmente sind Datendateien, die auf der Grundlage der in einer Data Connectors-Integration verwendeten Variablen erstellt werden.
 
-Adobe Analytics sends these in separate daily files via data warehouse to an FTP created by Adobe for the third party. Der Drittanbieter verteilt diese Dateien dann an den Kunden. Unternehmen nutzen dies in der Regel für ein Remarketing für Besucher, die die Site besucht und sich ein Produkt angesehen, dieses aber nicht gekauft haben. (Sie kontaktieren z. B. einen Kunden, um ihm einen Rabatt für ein Produkt anzubieten, das er sich angesehen, dann aber nicht gekauft hat).
+Adobe Analytics sendet diese in separaten täglichen Dateien über Data Warehouse an einen FTP, den Adobe für den Drittanbieter erstellt hat. Der Drittanbieter verteilt diese Dateien dann an den Kunden. Unternehmen nutzen dies in der Regel für ein Remarketing für Besucher, die die Site besucht und sich ein Produkt angesehen, dieses aber nicht gekauft haben. (Sie kontaktieren z. B. einen Kunden, um ihm einen Rabatt für ein Produkt anzubieten, das er sich angesehen, dann aber nicht gekauft hat).
 
 **Segmente**
 
 * [!UICONTROL Warenkorbabbruch]: Der Prozentsatz der Besucher, die einen Artikel zu ihrem Warenkorb hinzugefügt, aber nicht gekauft haben. Diese Metrik wird berechnet, indem Bestellungen durch zum Warenkorb hinzugefügte Artikel dividiert werden.
 * [!UICONTROL Käufe]: Die Empfänger-IDs (oder Besucher-IDs), die Käufe getätigt haben, die auf der Nachrichten-ID in einem bestimmten Produkt basieren.
-* [!UICONTROL Product Views]: Similar to [!UICONTROL Cart Abandonment], this is also a calculated metric. It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
+* [!UICONTROL Produktansichten]: Ähnlich wie beim [!UICONTROL Warenkorbabbruch]ist dies auch eine berechnete Metrik. It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
 
 **Implementierungsbeispiele**
 
