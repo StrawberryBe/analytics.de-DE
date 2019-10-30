@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classifications
 title: FTP-Import
 topic: Admin Tools
-uuid: a 914970 d-ba 02-4111-9 dcf -06448 f 71 b 9 f 3
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP-Import {#concept_2F965BE873254546A61FB755F25299FD}
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
@@ -36,11 +36,9 @@ Jeder neue Schlüsselwert, den Sie hochladen, zählt als eindeutige Classificati
 
 Wenn Sie die Zahl eindeutiger Classifications für den Monat überschritten haben, werden Ihnen für die über dem Grenzwert liegenden Classifications in den Berichten nicht die zugehörigen Classification-Daten angezeigt. Sie können sich diese Classifications entweder in Data Warehouse oder der Ad-hoc-Analyse anzeigen lassen.
 
->[!NOTE]
->
->Die erforderliche Verarbeitungszeit für eine Classification-Datendatei hängt von der Dateigröße und der aktuellen Anzahl der Dateien ab, die bereits von den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
+> [!NOTE] Die für die Verarbeitung einer Classification-Datendatei benötigte Zeit hängt von der Größe der Datei und der aktuellen Anzahl der Dateien ab, die bereits von den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
 
-Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. Weitere Informationen finden Sie unter [Erstellen Sie ein FTP-Konto](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importieren von Classifications über FTP {#task_132C36830B69418B8C929E39838EF01D}
 
