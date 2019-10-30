@@ -1,22 +1,22 @@
 ---
 description: Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stellensuche.
 seo-description: Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stellensuche.
-seo-title: Job Portal
+seo-title: Job-Portal
 solution: Analytics
-title: Job Portal
+title: Job-Portal
 topic: Admin Tools
-uuid: c 33 a 8 e 30-eea 6-45 f 5-9568-d 64 c 6753855 e
+uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Job Portal
+# Job-Portal
 
 Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stellensuche.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code` festlegen |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code` festgelegt |
 |---|---|---|---|---|---|
 | Interne Promotion | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
@@ -24,14 +24,14 @@ Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stel
 
 Mit dieser Report Suite-Vorlage werden keine Erfolgsereignisse konfiguriert.
 
-| Benutzerspezifische Insight-Variablen | `s_code` festlegen |
+| Benutzerspezifische Insight-Variablen | `s_code` festgelegt |
 |---|---|
 | Sicher/Nicht-Sicher | `prop1` |
 | Trafficeigenschaft 2–5 | `prop2, prop3, prop4, prop5` |
 
 Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die Anfangskonfiguration für diese Ereignisse ist in allen Report Suite-Vorlagen gleich. Ereignisse mit einer N/A Variablen „s_code“ müssen nicht eingestellt werden, da sie automatisch bereitgestellt werden.
 
-| Standard-Verkaufsereignisse | Typ | `s_code` festlegen |
+| Standard-Verkaufsereignisse | Typ | `s_code` festgelegt |
 |---|---|---|
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
