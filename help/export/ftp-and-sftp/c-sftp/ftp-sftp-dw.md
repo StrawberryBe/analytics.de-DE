@@ -1,28 +1,28 @@
 ---
 description: Adobe unterstützt den Export von Data Warehouse-Anforderungen an SFTP-Server.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Adobe unterstützt den Export von Data Warehouse-Anforderungen an SFTP-Server.
-seo-title: Senden von Data Warehouse-Anfragen an SFTP-Server
+seo-title: Data Warehouse-Anforderungen an SFTP-Server senden
 solution: Analytics
-title: Senden von Data Warehouse-Anfragen an SFTP-Server
-uuid: 393634 a 1-064-4 d 63-bb 6 e-fb 80 f 1 ba 76 c 1
+title: Data Warehouse-Anforderungen an SFTP-Server senden
+uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Senden von Data Warehouse-Anfragen an SFTP-Server
+# Data Warehouse-Anforderungen an SFTP-Server senden
 
 Adobe unterstützt den Export von Data Warehouse-Anforderungen an SFTP-Server.
 
 Folgende Aufgaben müssen abgeschlossen sein:
 
-Adobe unterstützt den Export von Data Warehouse-Anforderungen an SFTP-Server, sofern die folgenden Voraussetzungen erfüllt sind:
+Adobe unterstützt den Export von Data Warehouse-Anfragen an SFTP-Server, sofern folgende Voraussetzungen erfüllt sind:
 
-* [!DNL sftp://] im Host-Feld angegeben ist (z. [!DNL sftp://ftp.example.com]B.) und der Anschluss 22 wird beim Anfordern eines Data Warehouse-Berichts verwendet.
+* [!DNL sftp://] -Protokoll im Hostfeld angegeben ist (z. B. [!DNL sftp://ftp.example.com]), und beim Anfordern eines Data Warehouse-Berichts wird NUR Port 22 verwendet.
 
-   You can also use the [!DNL sftp+norename://] option, as described below.
+   Sie können die [!DNL sftp+norename://] Option auch wie unten beschrieben verwenden.
 
 * Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
 
@@ -48,4 +48,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 Der sFTP-Befehl PUT platziert eine temporäre Datei mit der Erweiterung „.part“ im angegebenen Verzeichnis. Sobald das Hochladen abgeschlossen ist, wird die Dateierweiterung in die endgültige Erweiterung geändert, und die Datei kann verwendet werden.
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Dieser Ansatz eignet sich, wenn der SFTP-Server die Datei beim Hochladen automatisch umgeht, und es besteht keine Möglichkeit, dass die Datei verarbeitet wird, bevor der Upload abgeschlossen ist.
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Dieser Ansatz ist geeignet, wenn der SFTP-Server beim Hochladen automatisch Dateiumbenennungen verarbeitet und die Datei vor dem Hochladen nicht verarbeitet wird.
