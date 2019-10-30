@@ -8,7 +8,7 @@ title: DFA-Integration
 topic: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Gehen Sie die DFA-Data Connectors-Integration schrittweise durch.
 
 Auf den Konfigurationsseiten erhalten Sie einen Überblick über die Integration sowie praktische Links für weitere Informationen. Für diese Integration fallen sowohl Adobe- als auch DoubleClick-Gebühren an. Wenden Sie sich an die jeweiligen Verkaufsmitarbeiter der beiden Unternehmen und versichern Sie sich, dass Sie die Zusammensetzung der Gebühren verstehen.
 
-1. Melden Sie sich bei der [!DNL Adobe Analytics].
+1. Log in to the [!DNL Adobe Analytics].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
@@ -46,7 +46,7 @@ Auf den Konfigurationsseiten erhalten Sie einen Überblick über die Integration
   <tr> 
    <td colname="col1"> 1 </td> 
    <td colname="col2"> Integrationsname </td> 
-   <td colname="col3"> Der Integrationsname, der von Genesis in der aktiven Integrationsliste der Report Suite angezeigt wird. </td> 
+   <td colname="col3"> Der Integrationsname, den Genesis in der Liste der aktiven Integration der Report Suite anzeigt. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 1 </td> 
@@ -81,7 +81,7 @@ Auf den Konfigurationsseiten erhalten Sie einen Überblick über die Integration
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Klicks </td> 
-   <td colname="col3"> Wählen Sie das benutzerspezifische Ereignis, an das DFA-Klickmetrikdaten gesendet werden. Klicks stellen die Anzahl der wie durch die Weiterleitung von DFA gemessenen Klicks auf die Anzeige durch Besucher dar. Die Klickmetrik steht in Zusammenhang mit der Analytics-Clickthrough-Metrik. <p>Hinweis: DFA-Klicks und Analytics-Clickthroughs stimmen aufgrund von Unterschieden in der Erfassungsart der Daten unter Umständen nicht genau überein.  </a>. </p> </td> 
+   <td colname="col3"> Wählen Sie das benutzerspezifische Ereignis, an das DFA-Klickmetrikdaten gesendet werden. Klicks geben an, wie oft Besucher auf die Anzeige geklickt haben, gemessen an der Umleitung durch DFA. Die Klickmetrik steht in Zusammenhang mit der Analytics-Clickthrough-Metrik. <p>Hinweis: DFA-Klicks und Analytics-Clickthroughs stimmen aufgrund von Unterschieden in der Erfassungsart der Daten unter Umständen nicht genau überein.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -96,7 +96,7 @@ Auf den Konfigurationsseiten erhalten Sie einen Überblick über die Integration
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Durchsichten </td> 
-   <td colname="col3"> Das benutzerspezifische Ereignis, an das DFA-Durchsichtsmetrikdaten gesendet werden Verwenden Sie das Durchsichtsereignis mit der Durchsichtsvariable, um herauszufinden, welche Kampagnen keinen direkten Clickthrough veranlassen, aber unter Umständen eine Rolle bei der Erhöhung des Datenverkehrs auf der Site zu einem späteren Zeitpunkt gespielt haben. <p>Das ausgewählte benutzerdefinierte Ereignis wird durch Data Connectors in „Durchsichten“ umbenannt. </p> </td> 
+   <td colname="col3"> Das benutzerspezifische Ereignis, an das DFA-Durchsichtsmetrikdaten gesendet werden Verwenden Sie das Durchsichtsereignis mit der Durchsichtsvariable, um zu sehen, welche Kampagnen keinen direkten Clickthrough beeinflusst haben, aber möglicherweise eine Rolle dabei gespielt haben, den Traffic zu einem späteren Zeitpunkt zur Site zu leiten. <p>Data Connectors benennt das ausgewählte benutzerdefinierte Ereignis in "Durchsichten"um. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -125,13 +125,13 @@ Sobald Ihre Analytics-Report Suite für die DFA-Integration von Genesis konfigur
 
 Sie müssen für die Data Connectors-Integration für DFA ein Cookie auf der Seitendomäne einstellen.
 
-Bei einigen Domänen kann die maximale Cookiekapazität für einige Webbrowser bereits erreicht sein. Dies ist aber eher selten der Fall. Um das Browsen der Besucher auf Ihrer Website nicht zu beeinträchtigen, versichern Sie sich bei Ihrem Netzwerkbetreiber, Ihrem Entwicklungsteam oder Ihrer Technikgruppe, dass das Hinzufügen eines weiteren Cookies zur Domäne der für die DFA-Integration verwendeten Seiten keinen Einfluss darauf hat. Sie müssen außerdem einen Namen für das Cookie festlegen.
+Bei einigen Domänen kann die maximale Cookiekapazität für einige Webbrowser bereits erreicht sein. Dies ist aber eher selten der Fall. Um das Browsen eines Besuchers auf Ihrer Website nicht zu beeinträchtigen, wenden Sie sich an Ihren Netzwerkbetrieb, Ihr Entwicklungsteam oder Ihre Engineering-Gruppe, um sicherzustellen, dass das Hinzufügen eines weiteren Cookies zur Domäne der für die DFA-Integration verwendeten Seiten keine Auswirkungen auf die Benutzererfahrung hat. Sie müssen außerdem einen Namen für das Cookie festlegen.
 
 ### Aktualisierung Ihres DFA-Abfragestringparameters{#update-your-dfa-query-string-parameter}
 
 Wenn Sie vor der DFA-Integration Werbekampagnen mit Adobe Analytics getrackt haben, kann es sein, dass für alle Kampagnen (E-Mail, Suche, Banner) derselbe Abfragestringparameter zur Identifizierung der jeweiligen Kampagnen-ID auf der Landingpage verwendet wird.
 
-Zur Erkennung des richtigen Zeitpunkts für Durchsichts- und Clickthrough-Datenabfragen von DFA-Daten für Ihre DFA-Werbekampagnen muss Data Connectors identifizieren können, wann Besucher auf eine DFA-Kampagnenbanneranzeige geklickt haben. Dazu müssen Sie einen differenzierten Abfragestringparameter zur Landingpage-URL der DFA-Anzeigenkampagne hinzufügen, sodass Data Connectors zwischen DFA-Anzeigenkampagnenseiten und anderen Anzeigenkampagnenseiten unterscheiden kann, die sich gegebenenfalls auf Ihrer Website befinden. Das `dfa_overrideParam` im JavaScript-Plug-in, das für DFA verwendet wird.
+Zur Erkennung des richtigen Zeitpunkts für Durchsichts- und Clickthrough-Datenabfragen von DFA-Daten für Ihre DFA-Werbekampagnen muss Data Connectors identifizieren können, wann Besucher auf eine DFA-Kampagnenbanneranzeige geklickt haben. Um dies zu ermöglichen, müssen Sie der Landingpage-URL der DFA-Werbekampagne einen differenzierten Abfragezeichenfolgenparameter hinzufügen, damit Data Connectors zwischen DFA-Werbekampagnen-Seiten und anderen Werbekampagnen-Seiten unterscheiden kann, die Sie möglicherweise auf Ihrer Website haben. Das `dfa_overrideParam` im JavaScript-Plug-in, das für DFA verwendet wird.
 
 >[!CAUTION]
 >
@@ -141,9 +141,7 @@ Zur Erkennung des richtigen Zeitpunkts für Durchsichts- und Clickthrough-Datena
 
 Für die Genesis-Integration für DFA wird die DFA Floodlight-Konfigurations-ID (dfa_SPOTID) verwendet, wodurch die Berichtskonsistenz zwischen DFA und dem Adobe-Datenerfassungssystem verbessert wird.
 
->[!NOTE]
->
->Der Begriff Spotlight wurde in einer kürzlich veröffentlichten Version von Google DFA in Floodlight geändert. Die Benennung des JavaScript-Parameters `dfa_SPOTID` basiert auf der Spotlight-Terminologie, wird aber für beide Versionen verwendet.
+> [!NOTE] Der Begriff Spotlight wurde in einer kürzlich veröffentlichten Version von Google DFA in Floodlight geändert. Die Benennung des JavaScript-Parameters `dfa_SPOTID` basiert auf der Spotlight-Terminologie, wird aber für beide Versionen verwendet.
 
 Aktualisieren Sie durch Hinzufügen folgender Elemente Ihren JavaScript-Datenerfassungscode, um die DFA-Integration auf Ihrer Website zu aktivieren:
 
@@ -204,7 +202,7 @@ Im DFA Integrate-Einstellungsblock werden die Variablen festgelegt, die für die
 
 **requestURL**: DFA-Remotehost zur Abfrage von Anzeigeninformationen Ändern Sie diesen Wert nur, wenn Sie eine entsprechende Anweisung von Adobe erhalten.
 
-**maxDelay**: Anzahl der Millisekunden, die der JavaScript-Datenerfassungscode auf eine Reaktion vom DFA Floodlight-Server wartet. Adobe empfiehlt, mit diesem Wert etwas zu experimentieren, um die für den Datenverkehr auf Ihrer Site optimale Einstellung zu ermitteln. Generell werden durch das Erhöhen dieses Werts zum Beispiel mehr DFA-Daten erfasst, aber dabei steigt das Risiko, grundlegende Besucherdaten zu verlieren, wenn Besucher die Site während der Verzögerungsphase verlassen. Wenn Sie diesen Wert reduzieren, sinkt das Risiko, Trefferdaten zu verlieren, dadurch kann sich allerdings auch die Anzahl der DFA-Daten verringern, die mit den Adobe-Trefferdaten gesendet werden.
+**maxDelay**: Anzahl der Millisekunden, die der JavaScript-Datenerfassungscode auf eine Reaktion vom DFA Floodlight-Server wartet. Adobe empfiehlt, mit diesem Wert zu experimentieren, um den optimalen Wert basierend auf dem Traffic Ihrer Site zu ermitteln. Generell werden durch das Erhöhen dieses Werts zum Beispiel mehr DFA-Daten erfasst, aber dabei steigt das Risiko, grundlegende Besucherdaten zu verlieren, wenn Besucher die Site während der Verzögerungsphase verlassen. Wenn Sie diesen Wert reduzieren, sinkt das Risiko, Trefferdaten zu verlieren, dadurch kann sich allerdings auch die Anzahl der DFA-Daten verringern, die mit den Adobe-Trefferdaten gesendet werden.
 
 **visitCookie**: Name des Cookies, mit dem DFA-Aufrufe auf einen pro Besuch beschränkt werden.
 
@@ -265,7 +263,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 Unter „Timeout Percentage“ (Timeoutprozentsatz) werden alle Besucher der Site berücksichtigt. Einige davon haben keinerlei Bezug zu DFA, daher ist der Timeoutwert irreführend. To improve this computation, another analysis could consider only unique visitors to pages with the `clickThroughParam` set (for example, `?CID=1`). Dadurch erhalten Sie genauere Ergebnisse.
 
-Liegt der Timeoutprozentsatz sehr niedrig, sollten Sie *`s.maxDelay`*. Liegt er sehr hoch, erhöhen Sie *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren’t falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+Liegt der Timeoutprozentsatz sehr niedrig, sollten Sie *`s.maxDelay`*. Liegt er sehr hoch, erhöhen Sie *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. Bei einer Erhöhung *`s.maxDelay`* sollten Sie eine ausführen, [!DNL Page Views Report] um sicherzustellen, dass Seitenansichten nicht aufgrund verlorener Daten ausfallen. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
