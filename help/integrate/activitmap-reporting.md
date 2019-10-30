@@ -4,10 +4,10 @@ seo-description: Administrative Schritte für die Aktivierung der Activity Map-B
 seo-title: Activity Map-Berichterstellung
 solution: Analytics
 title: Activity Map-Berichterstellung
-topic: 'Berichte    '
-uuid: 7636 c 670-bb 6 c -4 a 25-823 a -7 bbbba 0 b 747 b
+topic: Berichte
+uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Administrative Schritte für die Aktivierung der Activity Map-Berichterstellung in Analytics
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; Einstellungen **[!UICONTROL bearbeiten]** &gt; **[!UICONTROL Activity Map]** &gt; **[!UICONTROL Activity Map-Berichterstellung]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Einstellungen]** bearbeiten &gt; **[!UICONTROL Activity Map]** **[!UICONTROL &gt; Activity Map-Berichterstellung]**
 
 Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Benutzeraktivitäten sammeln. Durch diese Integration ist
 
