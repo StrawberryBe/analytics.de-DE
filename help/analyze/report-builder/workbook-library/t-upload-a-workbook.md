@@ -5,9 +5,9 @@ seo-title: Arbeitsmappe hochladen
 solution: Analytics
 title: Arbeitsmappe hochladen
 topic: ReportBuilder
-uuid: fe 0424 ae -7 c 88-407 c -9 b 75-e 7 ef 53 a 44 a 4 f
+uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Laden Sie eine Excel-Arbeitsmappe für ReportBuilder hoch, die Sie freigeben mö
 
 Die [!UICONTROL Arbeitsmappen-Bibliothek] ermöglicht das Hochladen einer Excel-Arbeitsmappe für ReportBuilder, um diese freizugeben. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Für den Fall einer Migration von ExcelClient zu ReportBuilder wird empfohlen, Arbeitsmappen aus der ExcelClient-Sammlung herunterzuladen und sie dann in die ReportBuilder-Sammlung hochzuladen.
 
->[!NOTE]
->
->Es können nur Arbeitsmappen mit Reportbuilder-Anforderungen hochgeladen werden. Außerdem können Sie ReportBuilder-Berichte an Personen verteilen, die nicht mit ReportBuilder arbeiten. (Es ist keine Anmeldung erforderlich, um die Daten anzuzeigen.)
+> [!NOTE] Es können nur Arbeitsmappen mit ReportBuilder-Anforderungen hochgeladen werden. Außerdem können Sie ReportBuilder-Berichte an Personen verteilen, die nicht mit ReportBuilder arbeiten. (Es ist keine Anmeldung erforderlich, um die Daten anzuzeigen.)
 
 1. Erstellen Sie eine Anforderung und führen Sie sie aus.
 1. Klicken Sie nach dem Speichern des Berichts auf **[!UICONTROL Freigabe]**.
