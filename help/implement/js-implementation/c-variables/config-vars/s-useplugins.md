@@ -5,16 +5,16 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+Wenn die Funktion verfügbar ist und brauchbaren Code enthält, muss [!UICONTROL s_usePlugins] auf „True“ gesetzt werden.
 
-When usePlugins is 'true,' the  function is called prior to each image request.*`s_doPlugins`*
+Wenn [!UICONTROL usePlugins] auf „true“ gesetzt ist, wird die Funktion *`s_doPlugins`* vor jeder Bildanforderung aufgerufen.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
@@ -38,8 +38,8 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-Die Variable [!UICONTROL usePlugins] sollte nur dann auf „false“ gesetzt (oder nicht deklariert) werden, wenn die *`s_doPlugins`* function is not declared in your JavaScript file.
+Die Variable [!UICONTROL usePlugins] sollte nur dann auf „false“ gesetzt (oder nicht deklariert) werden, wenn die Funktion *`s_doPlugins`* nicht in Ihrer JavaScript-Datei deklariert ist.
 
 ## Konfigurationseinstellungen
 
-–
+Keine
