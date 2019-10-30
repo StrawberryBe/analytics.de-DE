@@ -7,7 +7,7 @@ title: Berichte zu Traffic-Quellen
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -99,13 +99,11 @@ Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind
 
 Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html)Interne URL-Filter[!DNL Admin Console].
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] :// lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
+> [!NOTE] Marketing Reports &amp; Analysen zeichnet eine Referrerdomäne als E-Mail auf, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] die Site enthält. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] :// lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
 
 ## Typ der verweisenden Stelle {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Wenn Sie die Referrer bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
+Indem Sie die verweisenden Stellen bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
 
 <!-- 
 
@@ -120,7 +118,7 @@ In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen def
 * Verweise des Typs *Eingegeben/Mit Lesezeichen versehen* werden aufgezeichnet
 
    * wenn ein Besucher über einen anderen als einen Browserlink auf Ihre Website gelangt (beispielsweise in einer E-Mail);
-   * wenn ein Besucher die URL Ihrer Website direkt in den Browser eingibt;
+   * Wenn ein Besucher die URL Ihrer Site direkt in seinen Browser eingibt.
    * wenn ein Besucher auf einen HTML-Link auf der eigenen Festplatte klickt;
    * wenn ein Besucher durch Auswahl eines Lesezeichens im Browser auf Ihre Website gelangt;
 
@@ -134,7 +132,5 @@ Die folgenden Zeilenelemente werden evtl. bei Ausführung dieses Berichts angeze
 
 **USENET (Newsgroup)**: Das heißt, dass die URL eines Referrer mit `news://` :// eingeleitet wurde. Folglich wurde der Link des Referrer in einer USENET-Newsgroup und nicht auf einer Webseite veröffentlicht.
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). Dadurch sollte das Auftreten der Zeileneinträge Innerhalb Ihrer Website und Kein JavaScript im Bericht zum [!UICONTROL Referrertyp] reduziert oder gänzlich ausgeräumt werden.
+> [!NOTE] Die Logik "Typ der verweisenden Stelle"stimmt mit anderen Berichten zu Traffic-Quellen überein (z. B. [!UICONTROL verweisende Stellen] und [!UICONTROL verweisende Domänen]). Dadurch sollte das Auftreten der Zeileneinträge Innerhalb Ihrer Website und Kein JavaScript im Bericht zum [!UICONTROL Referrertyp] reduziert oder gänzlich ausgeräumt werden.
 
