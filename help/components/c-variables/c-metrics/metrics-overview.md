@@ -7,7 +7,7 @@ title: Kurzübersicht über Metriken
 topic: Metriken
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 Führt die Standardmetriken in Adobe Analytics auf.
 
->[!NOTE]
->
->Jede Metrik (Ereignis), die unten nicht aufgeführt wird, ist eine [benutzerspezifische Metrik](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (benutzerdefiniertes Ereignis).
+> [!NOTE] Jede Metrik (Ereignis), die unten nicht aufgeführt wird, ist eine [benutzerspezifische Metrik](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (benutzerdefiniertes Ereignis).
 
 >[!IMPORTANT]
 >
