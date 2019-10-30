@@ -3,7 +3,7 @@ title: Anwendungsfälle für Segmentvergleiche
 description: Erfahren Sie, wie Sie mithilfe des Segmentvergleichsfelds Einblicke in die Marketingstrategie gewinnen können.
 keywords: Segment-IQ
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch bezah
 
 ## Anwendungsfall 5: Vergleich von Fitbit-Käufern mit allen anderen
 
-> *„Wir haben festgestellt, dass Käufer von Fitbits mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten. Deshalb haben wir schnell mehr Fitbits bestellt und konnten die Nachfrage decken!“*
+> *"Wir haben herausgefunden, dass Leute, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine 'out of stock'-Nachricht bekommen als alle anderen, sodass wir schnell mehr Fitbits bestellten und vermeiden konnten, dass der Vorrat ausgeht!"*
 
 Ein großer Online-Händler war daran interessiert, wie eines der heißesten Urlaubsprodukte, Fitbit, verkauft wurde und was Fitbit Käufer einzigartig unter anderen Kunden machte. Beim Segmentvergleich wurde festgestellt, dass Benutzer, die Fitbits erwerben, mit 6-facher Wahrscheinlichkeit eine "out of stock"-Meldung erhalten als andere Kunden. Nach weiterer Analyse wies das Marketing-Team diese Besucher an ihre Ziegelsteine- und Mörtelgeschäfte, während sie auf ihre Einkaufsabteilung warteten, um mehr Fitbits zum Versand zu bestellen. Infolgedessen vermied der Einzelhändler mehr "out of stock"-Nachrichten und befriedigte mehr von ihrer Urlaubsnachfrage.
 
