@@ -5,9 +5,9 @@ seo-title: Besuchszeit
 solution: Analytics
 title: Besuchszeit
 topic: Metriken
-uuid: a 9 f 63 da 3-7 e 79-49 c 3-9 b 0 b -6 dcd 2 ae 6 aadc
+uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ In dieser Tabelle sind die unterschiedlichen Besuchszeitmetriken sowie deren Def
   <tr> 
    <td colname="col1"> <p>Gesamtbesuchszeit in Sekunden </p> </td> 
    <td colname="col2"> <p>Zeigt den Zeitraum an, über den Besucher insgesamt mit einem bestimmten Dimensionselement agieren. </p> <p>Enthält die Instanz eines Wertes sowie die Persistenz über alle folgenden Treffer hinweg. Bei Props wird die Besuchszeit auch über die nachfolgenden Verknüpfungsereignisse hinweg berechnet. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (namens „Gesamtbesuchszeit“) </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>ReportBuilder (als "Gesamtbesuchszeit"bezeichnet) </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeit pro Besuch (Sekunden) </p> </td> 
@@ -47,17 +47,17 @@ In dieser Tabelle sind die unterschiedlichen Besuchszeitmetriken sowie deren Def
   </tr> 
   <tr> 
    <td colname="col1"> <p>Besuchszeit pro Besucher (Sekunden) </p> </td> 
-   <td colname="col2"> <p><i>Gesamtbesuchszeit in Sekunden/(unique visitor – Absprünge unique visitors)</i> </p> <p>Stellt die durchschnittliche Zeit dar, die Besucher mit einem bestimmten Dimensionselement über die Lebensdauer des Besuchers (Cookie-Laufzeit) hinweg interagieren. </p> </td> 
+   <td colname="col2"> <p><i>Gesamtbesuchszeit in Sekunden/(unique visitor – Absprünge unique visitors)</i> </p> <p>Stellt die durchschnittliche Zeit dar, die Besucher während der gesamten Lebensdauer des Besuchers mit einem bestimmten Dimensionselement interagieren (Länge des Cookies). </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durchschnittliche Besuchszeit pro Seite (Sekunden) </p> </td> 
-   <td colname="col2"> <p>Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Anders als der Name vermuten lässt, beschränkt sich diese Metrik nicht nur auf Durchschnitte pro „Seite“. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“. </p> <p>Hinweis: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. </p> </td> 
+   <td colname="col2"> <p>Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Es ist nicht nur auf "Site"-Durchschnittswerte beschränkt, wie der Name nahe legt. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“. </p> <p>Hinweis: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (wird in Minuten angezeigt) </p> <p>Report Builder (in Minuten angezeigt) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durchschnittliche Besuchszeit pro Seite </p> </td> 
-   <td colname="col2"> <p><b>Veraltete Metrik. </b> </p> <p>Wir empfehlen Ihnen die Verwendung von „Durchschnittliche Besuchszeit pro Site“, wenn Sie die durchschnittliche Zeit für ein Dimensionselement in Erfahrung bringen möchten. </p> </td> 
+   <td colname="col2"> <p><b>Veraltete Metrik. </b> </p> <p>Es wird empfohlen, "Durchschnittliche auf der Site verbrachte Zeit"zu verwenden, wenn die durchschnittliche Zeit für einen Dimensionselement erforderlich ist. </p> </td> 
    <td colname="col3"> <p>Report Builder (wenn sich eine Dimension in der Anforderung befindet) </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ In dieser Tabelle sind die unterschiedlichen Besuchszeitmetriken sowie deren Def
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durchschnittliche Sitzungslänge (Mobil) </p> </td> 
-   <td colname="col2"> <p>Gesamtsitzungslänge/(Starts - Erste Starts) </p> <p>Nur SDK für Mobilanwendungen. Es handelt sich um eine Metrik auf Sitzungsebene. </p> </td> 
+   <td colname="col2"> <p>Gesamte Sitzungslänge / (Starts - Erste Starts) </p> <p>Nur SDK für Mobilanwendungen. Es handelt sich um eine Metrik auf Sitzungsebene. </p> </td> 
    <td colname="col3"> <p>Report Builder </p> <p>Mobile Services-Benutzeroberfläche </p> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ In dieser Tabelle sind die unterschiedlichen Besuchszeitdimensionen sowie deren 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Besuchszeit pro Seite – präzise </p> </td> 
-   <td colname="col2"> <p>Die gesamte bei einem Treffer verbrachte Zeit, die auf die nächste Sekunde gekürzt wird. Es handelt sich um eine Dimension auf Trefferebene, die sowohl Seitenansichten als auch Verknüpfungs-Ereignisse enthält. Anders als der Name vermuten lässt, beschränkt sich diese Metrik nicht nur auf die Dimension „Seite“. </p> </td> 
+   <td colname="col2"> <p>Die gesamte bei einem Treffer verbrachte Zeit, die auf die nächste Sekunde gekürzt wird. Es handelt sich um eine Dimension auf Trefferebene, die sowohl Seitenansichten als auch Verknüpfungs-Ereignisse enthält. Es ist nicht nur auf die Dimension "Seite"beschränkt, wie der Name schon sagt. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
@@ -137,9 +137,7 @@ In dieser Tabelle sind die unterschiedlichen Besuchszeitdimensionen sowie deren 
 
 Adobe Analytics verwendet explizite Werte (einschließlich Verknüpfungs-Ereignissen und Videoaufrufen) zur Berechnung der [!UICONTROL Besuchszeit].
 
->[!NOTE]
->
->Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. Darüber hinaus wird [!UICONTROL Absprung-Besuchen] (d. h. [!UICONTROL Besuchen] mit einem einzelnen Treffer) keine [!UICONTROL Besuchszeit] zugewiesen.
+> [!NOTE] Ohne Linkereignisse wie [!UICONTROL Videoansichten] oder [!UICONTROL Ausstiegslinks]kann die Besuchszeit für den letzten Treffer eines Besuchs nicht ermittelt werden. Darüber hinaus wird [!UICONTROL Absprung-Besuchen] (d. h. [!UICONTROL Besuchen] mit einem einzelnen Treffer) keine [!UICONTROL Besuchszeit] zugewiesen.
 
 Der **Zähler** ist in allen Besuchszeit-Berechnungen „Gesamtbesuchszeit in Sekunden“.
 
@@ -171,10 +169,10 @@ Der **Nenner** ist in Analytics nicht als separate Metrik verfügbar. Bei Besuch
   </tr> 
   <tr> 
    <td colname="col1"> <p>Welche Besuchszeitdimension empfiehlt sich am ehesten in Aufschlüsselungen mit anderen Dimensionen? </p> </td> 
-   <td colname="col2"> <p>Die Dimension "Besuchszeit pro Seite - granular" ist eine Trefferebene auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckte, von dem auch die Aufschlüsselungsdimension betroffen war. </p> <p>Im Beispiel unten ist der Suchbegriff „classifieds“ mit Treffer-Zeiten von 54 Sekunden, 59 Sekunden etc. verbunden, was möglicherweise anzeigt, dass Besucher Zeit mit dem Lesen von Inhalten verbringen, die für diesen Suchbegriff zurückgegeben werden. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>Die Dimension "Besuchszeit pro Seite - granular"ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckte, von dem auch die Aufschlüsselungsdimension betroffen war. </p> <p>Im Beispiel unten wird der Suchbegriff "klassifiziert"mit Trefferzeiten von 54 Sekunden, 59 Sekunden usw. verknüpft, was möglicherweise darauf hinweist, dass Besucher Zeit mit dem Lesen von Inhalten verbringen, die für diesen Suchbegriff zurückgegeben wurden. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Welche Metrik ist für die Dimension "Besuchszeit pro Seite - granular" geeignet? </p> </td> 
+   <td colname="col1"> <p>Welche Metrik eignet sich für die Dimension "Besuchszeit pro Seite - granular"? </p> </td> 
    <td colname="col2"> <p>Jede beliebige Metrik. Die Dimension zeigt die Besuchszeit für den Treffer an, bei dem es zu dem Ereignis kam. Eine längere Besuchszeit bedeutet, dass ein Besucher mehr Zeit auf einer Seite (Treffer) verbracht hat, auf der es zu dem Ereignis kam. </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -238,11 +236,11 @@ Angenommen, der folgende Satz von Server-Aufrufen gilt für einen einzigen Besuc
   </tr> 
   <tr> 
    <td colname="col1"> <b>Seitenname</b> </td> 
-   <td colname="col2"> Home </td> 
+   <td colname="col2"> Startseite </td> 
    <td colname="col3"> - </td> 
    <td colname="col4"> Produkt </td> 
-   <td colname="col5"> Home </td> 
-   <td colname="col6"> Home <p>(neu laden) </p> </td> 
+   <td colname="col5"> Startseite </td> 
+   <td colname="col6"> Startseite <p>(neu laden) </p> </td> 
    <td colname="col7"> Korb </td> 
    <td colname="col8"> Bestellungsbestätigung </td> 
   </tr> 
@@ -350,8 +348,8 @@ Für Besuchszeitdimensionen werden in den verknüpften Berichten die folgenden Z
 Einige zusätzliche Hinweise, um das Beispiel deutlicher zu machen:
 
 * Alle Besuchszeitberechnungen basieren auf „Besuch – vergangene Zeit“. Dieser Wert beginnt beim ersten Treffer des Besuchs bei null.
-* „Besuchszeit in Sekunden“ ist der Unterschied zwischen dem Zeitstempel des aktuellen Treffers und dem Zeitstempel des nächsten Treffers. Aus diesem Grund gibt es für den letzten Treffer des Besuchs (sowie die Absprünge) keine Besuchszeit.
-* Eine „Sequenz“ ist ein Satz aufeinanderfolgender Treffer, in dem eine beliebige Variable denselben Wert enthält (egal, ob festgelegt, nach vorne verteilt oder permanent gespeichert). Zum Beispiel verfügt prop1 „A“ über zwei Sequenzen: Treffer 1 und 2 sowie Treffer 6. Werte des letzten Treffers eines Besuchs beginnen keine neue Sequenz, da es für den letzten Treffer keine Besuchszeit gibt. „Durchschnittliche Besuchszeit pro Site“ verwendet Sequenzen im Nenner.
+* "Sekunden verbracht"ist die Differenz zwischen dem Zeitstempel des aktuellen Treffers und dem Zeitstempel des nächsten Treffers. Aus diesem Grund gibt es für den letzten Treffer des Besuchs (sowie die Absprünge) keine Besuchszeit.
+* Eine "Sequenz"ist ein aufeinander folgender Satz von Treffern, bei denen eine bestimmte Variable denselben Wert enthält (ob durch Festlegen, Spulen nach vorne oder Persistenz). Beispielsweise hat prop1 "A"zwei Sequenzen: Treffer 1 &amp; 2 und Treffer 6. Werte des letzten Treffers eines Besuchs beginnen keine neue Sequenz, da es für den letzten Treffer keine Besuchszeit gibt. „Durchschnittliche Besuchszeit pro Site“ verwendet Sequenzen im Nenner.
 
-   * Für die Besuchsdauer werden Props von Seitentreffern an darauffolgende Verknüpfungs-Treffer „nach vorne verteilt“. Dies wird oben für prop1 auf Treffer 2 dargestellt. Dadurch kann der für prop1 festgelegte Wert für Treffer 1 („A“) die bei Treffer 2 verbrachte Zeit sammeln.
+   * Nur für die Zwecke der Besuchszeit werden Props von Seitentreffern auf nachfolgende Link-Treffer "weitergegeben", wie oben für prop1 bei Treffer 2 gezeigt. Auf diese Weise kann der Wert, der für "prop1"bei Treffer 1 ("A") festgelegt wurde, die für Treffer 2 verbrachte Zeit akkumulieren.
    * eVars sammeln die Besuchszeit für jeden Treffer, bei dem der eVar festgelegt oder permanent gespeichert ist. Die eVar-Persistenz wird durch die eVar-Einstellungen in Analytics Admin definiert.
