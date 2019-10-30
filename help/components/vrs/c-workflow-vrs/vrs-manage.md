@@ -6,9 +6,9 @@ seo-title: Virtual Report Suites verwalten
 solution: Analytics
 title: Virtual Report Suites verwalten
 topic: Reports and Analytics
-uuid: ce 683 c 01-2 d 7 d -4 f 2 a -98 db -946 f 68 eda 99 b
+uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,15 +21,13 @@ Im Virtual Report Suite Manager können Administratoren Virtual Report Suites be
 
 ![](assets/vrs-manage.png)
 
->[!NOTE]
->
->Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. Sie müssen auf **[!UICONTROL Alle anzeigen]klicken, um die aller anderen anzuzeigen.**
+> [!NOTE] Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. You have to click **[!UICONTROL Show All]** to see everyone else's.
 
 | Aufgabe | Beschreibung |
 |--- |--- |
-| Neue | Bringt Sie zum Virtual Report Suite-Builder, in dem Sie neue Virtual Report Suites erstellen können. |
+| Fügen Sie | Bringt Sie zum Virtual Report Suite-Builder, in dem Sie neue Virtual Report Suites erstellen können. |
 | Tag | Alle Benutzer können Tags für Segmente erstellen und eines oder mehrere Tags auf ein Segment anwenden. Sie sehen Tags jedoch nur für die Segmente, deren Inhaber Sie sind. Welche Arten von Tags sollten Sie erstellen? Hier finden Sie einige Vorschläge für nützliche Tags:<ul><li>Auf Teamnamen basierende Tags wie Social Marketing, Mobile Marketing</li><li>Projekt-Tags (Analyse-Tags) wie Entrypage-Analyse</li><li>Kategorie-Tags: Männer, Region</li><li>Arbeitsablauf-Tags: Kuratiert für (einen bestimmten Geschäftsbereich), Genehmigt</li></ul> |
-| Löschen | Wenn Sie eine Virtual Report Suite löschen, arbeiten terminierte Berichte und Dashboards, auf die diese Virtual Report Suite angewendet ist, normal weiter. Der Bericht oder das Dashboard verwendet die gelöschte Virtual Report Suite so lange weiter, bis Sie den terminierten Bericht erneut speichern.  Terminierte Berichte werden nicht aktualisiert, wenn Sie eine Virtual Report Suite mit demselben Namen bearbeiten.<br>Beispiel: Angenommen, Sie haben zwei Virtual Report Suites mit demselben Namen und unterschiedlichen übergeordneten Report Suites:<br>Sie haben ein Lesezeichen, das auf die Virtual Report Suite für die Report Suite "mainprod" verweist. Dann löschen Sie diese Virtual Report Suite, weil sie doppelt vorhanden ist. Das Lesezeichen funktioniert weiterhin und referenziert die Definition der gelöschten VRS. Wenn Sie die Definition der verbliebenen VRS ändern, ändert sich die auf das Lesezeichen angewendete VRS nicht. Es wird die alte Definition verwendet. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht eine gelöschte VRS verwendet, können Sie den Namen der verbliebenen VRS ändern, damit deutlich wird, ob das Lesezeichen die verbliebene VRS verwendet. |
+| Löschen | Wenn Sie eine Virtual Report Suite löschen, arbeiten terminierte Berichte und Dashboards, auf die diese Virtual Report Suite angewendet ist, normal weiter. Der Bericht oder das Dashboard verwendet die gelöschte Virtual Report Suite so lange weiter, bis Sie den terminierten Bericht erneut speichern.  Terminierte Berichte werden nicht aktualisiert, wenn Sie eine Virtual Report Suite mit demselben Namen bearbeiten.<br>Beispiel: Angenommen, Sie haben zwei Virtual Report Suites mit demselben Namen und unterschiedlichen übergeordneten Report Suites:<br>Sie haben ein Lesezeichen, das auf die Virtual Report Suite für die Report Suite "mainprod"verweist. Dann löschen Sie diese Virtual Report Suite, weil es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition der gelöschten VRS. Wenn Sie die Definition der verbliebenen VRS ändern, ändert sich die auf das Lesezeichen angewendete VRS nicht. Es wird die alte Definition verwendet. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie sich nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht eine gelöschte VRS verwendet, können Sie den Namen der verbleibenden VRS ändern, damit klarer wird, ob das Lesezeichen die verbleibende VRS verwendet. |
 | Umbenennen | Überall, wo die neue Virtual Report Suite angezeigt wird, wie in der Report Suite-Auswahl, wird der neue Name angezeigt. |
 | Genehmigen/Nicht genehmigen | Genehmigen Sie Virtual Report Suites, um diese „offiziell“ oder „kanonisch“ zu machen. Der Vorgang kann umgekehrt werden, indem Sie die Genehmigung aufheben. |
 | Kopieren | Erstellt eine eigenständige Kopie mit einer eigenen neuen Report Suite-ID, jedoch mit demselben Namen und derselben Definition. |
