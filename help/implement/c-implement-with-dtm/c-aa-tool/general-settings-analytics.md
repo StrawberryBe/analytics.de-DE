@@ -7,8 +7,8 @@ solution: Analytics
 title: Allgemein
 topic: Entwickler und Implementierung
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ Beschreibung der Felder für die allgemeinen Einstellungen im DTM zur Implementi
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Wenn das Cookie vorhanden ist, jedoch auf <span class="term">true</span> festgelegt ist, wird das Tool normal geladen. </li> 
     </ul> <p>Sie sind dafür verantwortlich, das Cookie <span class="filepath">sat_track</span> (oder das Cookie mit benutzerdefiniertem Namen) auf <span class="term">false</span> festzulegen, wenn ein Besucher eine Abwahl trifft. Dazu können Sie den folgenden benutzerdefinierten Code verwenden: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> Sie müssen außerdem über einen Mechanismus verfügen, mit dem dieses Cookie auf <span class="term">true</span> gesetzt wird, wenn ein Besucher die Möglichkeit haben soll, sich später anzumelden: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
