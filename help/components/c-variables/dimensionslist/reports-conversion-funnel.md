@@ -4,10 +4,10 @@ seo-description: In der Regel wird die Konversion zwischen Start-, End- und Meil
 seo-title: Konversionstrichter
 solution: Analytics
 title: Konversionstrichter
-topic: 'Berichte    '
-uuid: a 67 ce 302-fae 1-434 a-b 662-91672 e 85 cab 3
+topic: Berichte
+uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Auch dieser Bericht kann angepasst werden. Sie können somit dem Konversionstric
 
 1. Produktansichten
 
-2. Zusätze zum Warenkorb
+2. Zusatz zum Warenkorb
 
 3. Checkouts
 
@@ -35,7 +35,5 @@ Auch dieser Bericht kann angepasst werden. Sie können somit dem Konversionstric
 
 Die Berichttabelle zeigt Statistiken zu durchschnittlichen Verkäufen pro Clickthrough-Rate und durchschnittlich verkauften Einheiten pro Clickthrough-Rate an. Sie können zu diesen Berichten Metriken und benutzerspezifische Ereignisse aus anderen Berichtgruppen hinzufügen. Diese Trichter haben viele Ähnlichkeiten, basieren aber auf verschiedenen Variablen und Ereignissen. Sie können diese Berichte nutzen, um zu prüfen, welche Prozentsätze und allgemeine Besuchertrends von Ihnen spezifizierte Ereignisse auslösen. Sie können sehen, wo Benutzer nicht bis zu bestimmen Ereignissen folgen und erhalten so umfassende Informationen zu diesem spezifischen Punkt im Konversionsprozess.
 
->[!NOTE]
->
->Instanzen im Kontext dieser Berichte entsprechen der Gesamtzahl der Besuche, bei denen eine evar oder ein Ereignis definiert wurde.
+> [!NOTE] Instanzen im Kontext dieser Berichte entsprechen der Gesamtzahl der Besuche, bei denen eine eVar oder ein Ereignis definiert wurde.
 
