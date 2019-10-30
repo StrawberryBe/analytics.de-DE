@@ -7,7 +7,7 @@ title: Kalenderereignisse
 topic: Reports and Analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten von freigegebenen Ereignissen.
 
->[!NOTE]
->
->Um eine optimale Report-Performance zu gewährleisten, werden die 20 neuesten Kalenderereignisse in Trend- bzw. Zeitverlaufsdiagrammen angezeigt.
+> [!NOTE] Um eine optimale Report-Performance zu gewährleisten, werden die 20 neuesten Kalenderereignisse in Trend- bzw. Zeitverlaufsdiagrammen angezeigt.
 
 In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwieweit Kampagnen und andere Ereignisse Ihren Webseiten-Traffic, Umsatz und andere Metriken beeinflusst haben. Das Einrichten eines Kalenderereignisses beinhaltet die Benennung des Ereignisses, die Festsetzung des Datumsbereichs, das Hinzufügen von Anmerkungen und die Bestimmung eines Symbols. Wenn Sie beispielsweise „Social“ verwenden, können Sie ein Kalenderereignis erstellen, um anzuzeigen, dass eine Korrelation zwischen einem erhöhten Sitetraffic und der Erwähnung eines Produkts durch einen Prominenten via Twitter besteht.
 
