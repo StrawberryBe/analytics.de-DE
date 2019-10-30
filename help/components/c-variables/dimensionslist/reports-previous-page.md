@@ -4,10 +4,10 @@ seo-description: Ein Pfadbericht, der eine detaillierte Sitepfadanalyse bereitst
 seo-title: Vorherige Seite
 solution: Analytics
 title: Vorherige Seite
-topic: 'Berichte    '
-uuid: 743 d 9931-25 ed -4782-a 10 a-da 25 c 4 f 89480
+topic: Berichte
+uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Angenommen, Sie möchten wissen, woher die Personen kamen, die die Homepage ange
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Reports &amp; Analytics </td> 
+   <td colname="col1"> Reports and Analytics </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Pfade“</span> &gt; <span class="uicontrol">„Seiten“</span> &gt; <span class="uicontrol">„Vorherige Seite“</span> </p> <p>Zeigt, woher Besucher der einzelnen Seiten kamen. Wenn Sie z. B. eine Seite mit Funktion besitzen, zeigt Ihnen dieser Bericht die ersten fünf Seiten, über die Ihre Besucher zu Ihrer Funktionsseite gelangten. Dieser Bericht ermöglicht Folgendes: </p> 
     <ul id="ul_940C3FBD466A49CFB0AC56C170997031"> 
      <li id="li_3C27174CC49D4BF7A76227BE1CD44CCC">den Weg zu identifizieren, den ein Besucher beim Einstieg in eine Seite Ihrer Website wählt. </li> 
@@ -36,7 +36,7 @@ Angenommen, Sie möchten wissen, woher die Personen kamen, die die Homepage ange
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis </td> 
+   <td colname="col1"> Ad Hoc Analysis  </td> 
    <td colname="col2"> Ein Flussbericht. Sie können die Richtung in der Oberfläche angeben und den Bericht besuchübergreifend oder auf Besuchebene ausführen. </td> 
   </tr> 
  </tbody> 
