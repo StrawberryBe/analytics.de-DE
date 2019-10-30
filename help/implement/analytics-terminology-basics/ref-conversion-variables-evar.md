@@ -7,8 +7,8 @@ solution: Analytics
 title: Konversionsvariablen (eVars)
 topic: Entwickler und Implementierung
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,22 +25,20 @@ eVars eignen sich am besten zur Messung von Ursache und Wirkung, z. B.:
 
 >[!IMPORTANT]
 >
->Wenn Sie Analytics implementieren, müssen Sie wissen, welche und wie viele eVars Sie verwenden möchten. Außerdem sollten Sie mit der Konfiguration dieser eVars in der Admin Console vertraut sein. Ausführliche Informationen zu eVars finden Sie unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/de_DE/reference/conversion_var_admin.html) in der Hilfe und Referenzdokumentation zu Analytics.
+>Wenn Sie Analytics implementieren, müssen Sie wissen, welche und wie viele eVars Sie verwenden möchten. Außerdem sollten Sie mit der Konfiguration dieser eVars in der Admin Console vertraut sein. Detaillierte Informationen über eVars finden Sie unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) in der Analytics-Hilfe und -Referenz.
 
 Eine eVar kann auf Besuchen basieren und ähnlich wie Cookies funktionieren. In eVar-Variablen übergebene Werte folgen dem Benutzer für einen bestimmten Zeitraum.
 
 Wenn eine eVar auf einen Wert für einen Besucher gesetzt wird, merkt Adobe sich automatisch diesen Wert, bis er abläuft. Jedes Erfolgsereignis, das beim Besucher während der eVar-Aktivität eintritt, wird für den eVar-Wert gezählt.
 
->[!NOTE]
->
->Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](/help/implement/js-implementation/c-variables/page-variables.md).
+> [!NOTE] Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](/help/implement/js-implementation/c-variables/page-variables.md).
 
 Weitere Informationen zu Variablen finden Sie unter:
 
 * [Variablen für die Analytics-Implementierung und -Berichte](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) in dieser Hilfe
-* [Variablen - Verwendung in Berichten](https://marketing.adobe.com/resources/help/de_DE/reference/variable_definitions.html)
+* [Variablen – Verwendung in den Berichten](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Kampagnenvariable](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Variable „products“](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Produktvariable](https://marketing.adobe.com/resources/help/de_DE/mobile/android/products.html) in der Mobile SDK-Dokumentation
+* [Variable „products“](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) in der Dokumentation zum mobilen SDK
 
