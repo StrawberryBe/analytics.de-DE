@@ -2,18 +2,18 @@
 description: Beispiele für Anwendungsfälle für die Kohortenanalyse.
 keywords: Analysis Workspace
 seo-description: Beispiele für Anwendungsfälle für die Kohortenanalyse.
-seo-title: Anwendungsfälle für Kohortenanalyse
+seo-title: Anwendungsfälle für die Kohortenanalyse
 solution: Analytics
-title: Anwendungsfälle für Kohortenanalyse
+title: Anwendungsfälle für die Kohortenanalyse
 topic: Reports and Analytics
-uuid: 5 ec 46 f 84-5702-4 bc 1-a 796-874 a 3 abe 87 c 9
+uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Anwendungsfälle für Kohortenanalyse
+# Anwendungsfälle für die Kohortenanalyse
 
 Beispiele für Anwendungsfälle für die Kohortenanalyse.
 
@@ -29,7 +29,7 @@ Sie können eine Kohortenanalyse über sechs Monate erstellen
 
 **Rückkehrmetrik**: Sitzungen oder Starts
 
-Besucher zählen in den nachfolgenden Monaten erst dann als *`engaged`*, wenn eine Sitzung stattgefunden hat oder wenn sie die Anwendung gestartet haben. Cohort analysis would then show you patterns in usage where *`App Install`* always occurs on Month 0. Vielleicht stellen Sie fest, dass die Verwendung im zweiten Monat zurückgeht, unabhängig vom Zeitpunkt der Installation der Anwendung durch die Benutzer. (Für diejenigen, die die Anwendung im Januar 2015 installiert haben, ist der zweite Monat der März 2015. Für diejenigen, die die Anwendung im Februar 2015 installiert haben, ist der zweite Monat der April 2015 usw.) Diese Analyse bietet Ihnen die Möglichkeit, im zweiten Monat nach der Installation der Anwendung an alle Benutzer eine E-Mail oder eine Push-Nachricht zu senden, um sie daran zu erinnern, die Anwendung zu verwenden.
+Besucher zählen in den nachfolgenden Monaten erst dann als *`engaged`*, wenn eine Sitzung stattgefunden hat oder wenn sie die Anwendung gestartet haben. Die Kohortenanalyse zeigt Ihnen dann Nutzungsmuster, die *`App Install`* immer am 0. Monat auftreten. Vielleicht stellen Sie fest, dass die Verwendung im zweiten Monat zurückgeht, unabhängig vom Zeitpunkt der Installation der Anwendung durch die Benutzer. (Für diejenigen, die die Anwendung im Januar 2015 installiert haben, ist der zweite Monat der März 2015. Für diejenigen, die die Anwendung im Februar 2015 installiert haben, ist der zweite Monat der April 2015 usw.) Diese Analyse bietet Ihnen die Möglichkeit, im zweiten Monat nach der Installation der Anwendung an alle Benutzer eine E-Mail oder eine Push-Nachricht zu senden, um sie daran zu erinnern, die Anwendung zu verwenden.
 
 ## Subscription use case {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
@@ -47,21 +47,21 @@ Da deutlich wird, dass Sie im dritten Monat keine potenziellen Kunden verlieren 
 
 Einige Monate später erstellen Sie erneut einen Kohortenanalysebericht. Für Kohorten, die nach dem Start der Kampagne gebildet wurden, ist die Konversion zu zahlungspflichtigen Creative Cloud-Abonnements von 4–5 % auf 13–14 % gestiegen, was pro Kohorte für mehrere hunderttausend Dollar steht, für alle monatlichen Kohorten, die ab diesem Punkt den dritten Monat erreichen.
 
-## Komplexe Kohorte-Segmente verwenden Groß- und Kleinschreibung
+## Anwendungsfall für komplexe Kohortensegmente
 
 Eine große Hotelkette zielt auf mehrere Kundengruppen für Promotionen ab und verfolgt sie auf Grundlage der Leistung nach. Um die besten Gruppen von Benutzerkohorten für die Zielgruppe zu identifizieren, sollen sehr spezifische Kohortengruppen gebildet werden. Mithilfe der erweiterten Aufnahme- und Rückkehrkriterien innerhalb der Kohortentabellen können genau die richtigen Kohortengruppierungen mit mehreren Kennzahlen und Segmenten definiert werden, um leistungsschwache Kundengruppen zu identifizieren und diese mit Promotionen und Angeboten zur Steigerung der Buchungen anzusprechen.
 
-## Verwendungsfall für Anwendungsversion App
+## Anwendungsversion - Anwendungsfall
 
 Bei einem großen Versicherungsunternehmen wird ein großer Teil der Kundeninteraktion über die Nutzung der mobilen Anwendung gefördert. Da jedoch immer wieder neue Funktionen zur App hinzugefügt werden, ist es wichtig, dass die Kunden eine Aktualisierung auf die neueste App-Version durchführen. Sie können alle App-Versionen mithilfe der angepassten Dimensionskohorte gegeneinander analysieren und miteinander vergleichen, um zu sehen, auf welche Kunden mit welcher App-Version abgezielt werden sollte. Darüber hinaus können sowohl die Bindung als auch die Abwanderung verfolgt werden, um festzustellen, ob bestimmte App-Versionen Kunden davon abhalten, die App im Laufe der Zeit zu nutzen. Durch mobiles Messaging kann eine erneute Interaktion mit solchen Benutzern stattfinden, damit diese eine Aktualisierung auf die neueste Version durchführen, um die Vorteile der neuesten Funktionen nutzen zu können.
 
-## Verwendungsfall für Kampagnenstickiness
+## Anwendungsfall Kampagnenfixierbarkeit
 
 Ein internationales Medienunternehmen verwendet Zielgruppen-Kampagnen, um Benutzer auf die verschiedenen Plattformen zu leiten und so die Interaktion zu fördern. Die Werbeausgaben pro Plattform basieren auf der Kundeninteraktion und -bindung, daher sind erfolgreiche Kampagnen entscheidend für den Erfolg des Unternehmens. Unsere neue Funktion der angepassten Dimensionskohorte in Kohortentabellen wird verwendet, um verschiedene Kampagnen nebeneinander zu vergleichen und herauszufinden, welche Kampagnen am effektivsten sind, um Benutzer zu gewinnen und zu binden und so die Interaktion zu fördern. Anschließend kann festgestellt werden, welche Aspekte zum Erfolg einer Kampagne beitragen. Diese Erkenntnisse können dann auf andere Kampagnen angewendet werden, um die Interaktion auf den verschiedenen Plattformen zu fördern..
 
-## Verwendungsfall des Produkts
+## Anwendungsfall für Produktstart
 
-Ein großer Kleidungseinzelhändler verfügt über viele spezifische Kundensegmente, durch die große Teile des Unternehmensumsatzes gefördert werden. Für jedes Segment werden spezifische Produkte unter Berücksichtigung des jeweiligen Segments entwickelt und hergestellt. Mit jedem Produkt-Launch soll identifiziert werden, wie das neue Produkt im Laufe der Zeit den Verkauf in verschiedenen Kohorten gefördert hat. Mit der neuen Einstellung der Latenztabelle in Kohortentabellen können das Verhalten und der Umsatz eines bestimmten Kundensegments vor und nach der Markteinführung analysiert werden. Anhand dieser Informationen kann festgestellt werden, durch welche Produkte neue Umsätze generiert werden und welche bei den Kunden weniger beliebt sind.
+Ein großer Kleidungseinzelhändler verfügt über viele spezifische Kundensegmente, durch die große Teile des Unternehmensumsatzes gefördert werden. Für jedes Segment werden spezifische Produkte unter Berücksichtigung des jeweiligen Segments entwickelt und hergestellt. Mit jedem Produkt-Launch soll identifiziert werden, wie das neue Produkt im Laufe der Zeit den Verkauf in verschiedenen Kohorten gefördert hat. Mithilfe der neuen Einstellung "Latenztabelle"in Kohortentabellen können sie das Verhalten und den Umsatz eines bestimmten Kundensegments vor und nach dem Start analysieren. Anhand dieser Informationen kann festgestellt werden, durch welche Produkte neue Umsätze generiert werden und welche bei den Kunden weniger beliebt sind.
 
 ## Individuelle Treue – die meisten treuen Benutzer Anwendungsfall
 
