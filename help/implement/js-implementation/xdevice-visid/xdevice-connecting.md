@@ -8,8 +8,8 @@ subtopic: Besucher
 title: Benutzer geräteübergreifend verbinden
 topic: Entwickler und Implementierung
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud-Gerätekooperations-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcdc/).
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Weitere Informationen finden Sie in der [Adobe Experience Cloud Device Co-op-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 Mithilfe der geräteübergreifenden Identifizierung erkennen Sie Ihre Besucher auch auf anderen Geräten wieder. Bei der geräteübergreifenden Besucherkennung werden Benutzer mithilfe der Besucherkennungsvariablen „s.visitorID“ geräteübergreifend zugeordnet.
 
@@ -26,7 +26,7 @@ Wenn Sie eine passende [!UICONTROL Besucher-ID]-Variable angeben, sucht das Syst
 
 Die [!UICONTROL Besucher-ID] wird für gewöhnlich festgelegt, nachdem sich ein Besucher authentifiziert hat oder eine andere Aktion durchgeführt hat, an der er – unabhängig davon, welches Gerät er verwendet hat – identifiziert werden kann. Es wird empfohlen, den Benutzernamen zu verschlüsseln oder eine interne ID zu verwenden, die keine personenbezogenen Daten enthält.
 
-Einem Besucher, der sich im [vorherigen Beispiel](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md) von verschiedenen Geräten aus anmeldet, wird so immer das gleiche Benutzerprofil zugeordnet. Wenn sich der Besucher später auf einem Gerät abmeldet, funktioniert die Zuordnung weiter, da die [!UICONTROL Besucher-ID], die auf jedem Gerät in einem Cookie gespeichert wird, diesem Besucherprofil bereits zugewiesen ist. Es wird empfohlen, die [!UICONTROL s.visitorID]-Variable nach Möglichkeit immer mit Werten zu füllen – dies dient zur Vorbeugung, falls das Cookie mit der [!UICONTROL Besucher-ID] gelöscht wird.
+Einem Besucher, der sich im  [vorherigen Beispiel](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md) von verschiedenen Geräten aus anmeldet, wird so immer das gleiche Benutzerprofil zugeordnet. Wenn sich der Besucher später auf einem Gerät abmeldet, funktioniert die Zuordnung weiter, da die [!UICONTROL Besucher-ID], die auf jedem Gerät in einem Cookie gespeichert wird, diesem Besucherprofil bereits zugewiesen ist. Es wird empfohlen, die [!UICONTROL s.visitorID]-Variable nach Möglichkeit immer mit Werten zu füllen – dies dient zur Vorbeugung, falls das Cookie mit der [!UICONTROL Besucher-ID] gelöscht wird.
 
 ## Unique Visitor und Besuchsanzahl {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
