@@ -1,23 +1,23 @@
 ---
 title: RDC-Umgebungsmerkmale
-seo-title: Adobe Analytics RDC Environment Properties
+seo-title: Adobe Analytics RDC-Umgebungsmerkmale
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # RDC-Umgebungsmerkmale
 
-Die regionale Datenerfassung (Regional Data Collection, RDC) enthält Eigenschaften wie unten beschrieben.
+Die Umgebung für die regionale Datenerfassung (Regional Data Collection, RDC) umfasst Merkmale wie nachfolgend beschrieben.
 
 ## Leistungsverbesserungen
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+Aktuelle Antwortzeiten bei Verwendung von RDC finden Sie unter [Adobe Analytics-Anforderungsleistung](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
 
-Im Allgemeinen haben Benutzer die Reaktionszeit von RDC wie folgt verbessert:
+Im Allgemeinen haben Benutzer mit RDC eine Verbesserung der Reaktionszeit wie folgt erlebt:
 
 | Regionen | Von RDC beseitigte Antwortzeit |
 | --- | --- |
@@ -37,13 +37,13 @@ Im Allgemeinen haben Benutzer die Reaktionszeit von RDC wie folgt verbessert:
 | USA Westen | 20 % |
 | Global | 50% |
 
-## Erst- oder Drittanbieter-Cookies
+## Erstanbieter- oder Drittanbieter-Cookies
 
 Je nach Ihrer Implementierung nutzen Sie Erst- oder Drittanbieter-Cookies. Weitere Informationen zu Erstanbieter-Cookies erhalten Sie [hier](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 
 ## Sichere Seiten
 
-Wenn Ihre Site Seiten enthält, die das HTTPS-Protokoll verwenden, haben Sie gesicherte Seiten gesicherte Seiten. Die meisten von Adobe Analytics verfolgten Seitenansichten werden mithilfe des HTTPS-Protokolls abgesichert. Für die Verfolgung von sicheren Seiten ist ein SSL-Zertifikat erforderlich. Wenn Ihre Webeigenschaft Drittanbieter-Cookies verwendet, verwenden Ihre sicheren Seiten ein SSL-Zertifikat, das von Adobe gehört, wodurch Daten sicher ohne FPSSL-Implementierung an unsere Datenerfassungsserver gesendet werden können.
+Wenn Ihre Site Seiten enthält, die das HTTPS-Protokoll verwenden, haben Sie gesicherte Seiten. Die meisten von Adobe Analytics verfolgten Seitenansichten werden mithilfe des HTTPS-Protokolls gesichert. Für die Verfolgung von sicheren Seiten ist ein SSL-Zertifikat erforderlich. Wenn Ihre Webeigenschaft Drittanbieter-Cookies verwendet, verwenden Ihre sicheren Seiten ein SSL-Zertifikat von Adobe, das die sichere Übertragung von Daten an unsere Datenerfassungsserver ohne eine FPSSL-Implementierung ermöglicht.
 
 ## DNS-Änderungen (CNAME-Update)
 
