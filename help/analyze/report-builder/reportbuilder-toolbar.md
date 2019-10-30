@@ -1,18 +1,18 @@
 ---
 description: Nähere Informationen zur Funktion der Schaltflächen auf der ReportBuilder-Symbolleiste.
 seo-description: Nähere Informationen zur Funktion der Schaltflächen auf der ReportBuilder-Symbolleiste.
-seo-title: Reportbuilder, Symbolleiste
+seo-title: Report Builder-Symbolleiste
 solution: Analytics
-title: Reportbuilder, Symbolleiste
+title: Report Builder-Symbolleiste
 topic: ReportBuilder
-uuid: 9 f 340 fb 0-f 99 a -4 dd 4-bcca -19 c 54 e 5499 e 6
+uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Reportbuilder, Symbolleiste
+# Report Builder-Symbolleiste
 
 Nähere Informationen zur Funktion der Schaltflächen auf der ReportBuilder-Symbolleiste.
 
@@ -34,7 +34,7 @@ Starten Sie Excel nach der Installation ReportBuilder und klicken Sie auf **[!UI
 
 **Bibliothek:** Die [!UICONTROL Arbeitsmappen-Bibliothek] wird gestartet, sodass Sie eine Excel-Arbeitsmappe zu ReportBuilder für die Freigabe hochladen können. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. See [Use the Workbook Library](../../analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**Optionen:** Hiermit können Sie angeben, ob beim Aktualisieren von Anforderungen nach **[!UICONTROL dem Ausführungsdatum]** gefragt werden soll. Außerdem können Sie die Protokollierung für Fehlerbehebungszwecke aktivieren. Siehe   [Optionen](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
+**** Optionen: Hier können Sie angeben, ob Sie beim Aktualisieren von Anforderungen zum **[!UICONTROL Ausführungsdatum]** (Jetzt) aufgefordert werden sollen, und die Protokollierung für Fehlerbehebungszwecke aktivieren. Siehe [Optionen](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
 
 **Gesperrt/Entsperrt:** Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung. Siehe [Arbeitsmappen sperren/entsperren](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
 
