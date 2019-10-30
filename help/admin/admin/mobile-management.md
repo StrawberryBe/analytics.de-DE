@@ -5,9 +5,9 @@ seo-title: Mobile Management
 solution: Analytics
 title: Mobile Management
 topic: Admin Tools
-uuid: d 09 eef 72-bb 91-422 d-b 22 c -7 b 6971 f 228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Mobile Services
 * werden neue Adobe Mobile-Dimensionen hinzugefügt.
 * werden Daten alle 15 Minuten mit Analytics synchronisiert
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobilanwendungs-Berichterstellung]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **** bearbeiten &gt; **[!UICONTROL Mobile Management]** &gt; **** Mobile Application Reporting.
 
 ## Schritt 1. Aktivieren von Anwendungsberichten {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,12 +50,12 @@ Durch die Aktivierung der Standortverfolgung können Sie:
 
 Aktivierte Hintergrundtreffer (generierte Treffer, wenn die App im Hintergrund ist) werden als reguläre Vordergrundtreffer behandelt. Sie werden von nun an in der regulären Berichterstellung angezeigt. Dies betrifft auch die Zuweisung. Diese Konfiguration ist normalerweise nur zum Aufrechterhalten der Konsistenz mit alten Implementierungen hilfreich.
 
-Stattdessen wird empfohlen, Hintergrundtreffer in einer [Virtual Report Suite](../../components/vrs/vrs-about.md) einzubeziehen. Dadurch können Sie die Treffer anzeigen, es gibt jedoch keine negativen Auswirkungen auf die Besuchs- und Besucherzahlen.
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). Dadurch können Sie die Treffer anzeigen, es gibt jedoch keine negativen Auswirkungen auf die Besuchs- und Besucherzahlen.
 Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch „Clickthrough-Raten“ genannt) und Konversion in Erfolgsereignisse berichten.
 
-| Classification | Definition |
+| Klassifizierung | Definition |
 |--- |--- |
 | Erster Starttermin | Datum des ersten Starts nach der Installation oder Neuinstallation.   MM/TT/JJJJ |
 | App-ID | Speichert den Applikationsnamen und die Version im folgenden Format:   `[AppName] [BundleVersion]`  Beispiel, `myapp 1.1.` |
