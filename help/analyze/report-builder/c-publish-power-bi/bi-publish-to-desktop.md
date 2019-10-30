@@ -1,16 +1,16 @@
 ---
 description: Erläutert, wie in ReportBuilder veröffentlichte Assets in Power BI Desktop abgerufen werden
 seo-description: Erläutert, wie in ReportBuilder veröffentlichte Assets in Power BI Desktop abgerufen werden
-seo-title: Veröffentlichen veröffentlichte Assets in Power BI Desktop
-title: Veröffentlichen veröffentlichte Assets in Power BI Desktop
-uuid: ef 47 d 5 c 7-31 e 0-44 fc-a 792-bc 9 d 12 bb 089 e
+seo-title: Veröffentlichte Assets in Power BI Desktop abrufen
+title: Veröffentlichte Assets in Power BI Desktop abrufen
+uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Veröffentlichen veröffentlichte Assets in Power BI Desktop
+# Veröffentlichte Assets in Power BI Desktop abrufen
 
 Erläutert, wie in ReportBuilder veröffentlichte Assets in Power BI Desktop abgerufen werden
 
@@ -27,7 +27,7 @@ In der Power BI Desktop-Aktualisierung vom April 2017 ermöglicht Microsoft, 
 1. Aktivieren Sie **[!UICONTROL Liveverbindung mit Power BI-Dienst]** und klicken Sie auf **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
 
 1. Starten Sie Power BI Desktop neu.
-1. Once you have restarted the desktop, go to **[!UICONTROL Home]** &gt; **[!UICONTROL Get Data]** &gt; **[!UICONTROL More...]**.
+1. **[!UICONTROL Nachdem Sie den Desktop neu gestartet haben, gehen Sie zu]** Startseite **[!UICONTROL &gt; Daten]** abrufen **[!UICONTROL &gt;]** Mehr....
 1. Suchen Sie nach **[!UICONTROL Power BI-Dienst und wählen Sie ihn aus]**.
 1. Under **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
 
