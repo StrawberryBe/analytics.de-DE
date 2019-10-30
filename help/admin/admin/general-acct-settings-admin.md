@@ -7,7 +7,7 @@ title: Allgemeine Kontoeinstellungen
 topic: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Diese Einstellungen umfassen Bearbeitungsoptionen für grundlegende Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP-Verschleierung</span> </td> 
-   <td colname="col2"> <p>Verwandelt IP-Adressen in nicht erkennbare Zeichenketten, was sie letztendlich aus den Adobe Datenspeichern löscht. Wenn die IP-Verschleierung aktiviert ist, geht die ursprüngliche IP-Adresse dauerhaft verloren. </p> <p>Hinweis: Die IP-Adressen werden überall in Analytics verschleiert, auch im Data Warehouse. Die IP-Einstellung in Target wird jedoch separat gesteuert. Diese Einstellung hat also keine Auswirkung auf Target. </p> <p>Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie IP-Verschleierung aktivieren. </p> <p>Wenn <span class="uicontrol">Deaktiviert</span> ausgewählt wird, bleibt die IP-Adresse in den Daten. </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse verschleiern</span> aktivieren, wird die IP in einen Hash-Wert geändert (z. B. 234abc6493872038). </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse löschen</span> aktivieren, wird die IP-Adresse nach der Geo-Suche in den Daten durch x.x.x.x ersetzt. </p> <p>Hinweis: Diese Einstellung erfordert möglicherweise Änderungen an benutzerdefinierten <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> Bot-Regeln</a> oder<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP-Ausnahmen</a>. </p> </td> 
+   <td colname="col2"> <p>Verwandelt IP-Adressen in nicht erkennbare Zeichenketten, was sie letztendlich aus den Adobe Datenspeichern löscht. Wenn die IP-Verschleierung aktiviert ist, geht die ursprüngliche IP-Adresse dauerhaft verloren. </p> <p>Hinweis: Die IP-Adressen werden überall in Analytics verschleiert, auch im Data Warehouse. Die IP-Einstellung in Target wird jedoch separat gesteuert. Diese Einstellung hat also keine Auswirkung auf Target. </p> <p>Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP-Adresse verschleiert wird. Kunden müssen also nichts ändern, wenn sie die IP-Verschleierung aktivieren. </p> <p>Wenn <span class="uicontrol">Deaktiviert</span> ausgewählt wird, bleibt die IP-Adresse in den Daten. </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse verschleiern</span> aktivieren, wird die IP in einen Hash-Wert geändert (z. B. 234abc6493872038). </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse löschen</span> aktivieren, wird die IP-Adresse nach der Geo-Suche in den Daten durch x.x.x.x ersetzt. </p> <p>Hinweis: Diese Einstellung erfordert möglicherweise Änderungen an benutzerdefinierten <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> Bot-Regeln</a> oder<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP-Ausnahmen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transaktions-ID-Speicher</span> </td> 
