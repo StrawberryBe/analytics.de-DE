@@ -1,20 +1,20 @@
 ---
-description: Wenn Sie die Referrer bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
-seo-description: Wenn Sie die Referrer bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
+description: Indem Sie die verweisenden Stellen der Besucher bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
+seo-description: Indem Sie die verweisenden Stellen der Besucher bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
 seo-title: Typ der verweisenden Stelle
 solution: Analytics
 title: Typ der verweisenden Stelle
-topic: 'Berichte    '
-uuid: 7 f 63 d 327-d 223-4537-a 722-4780 aae 05 c 2 b
+topic: Berichte
+uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Typ der verweisenden Stelle
 
-Wenn Sie die Referrer bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
+Indem Sie die verweisenden Stellen der Besucher bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
 
 In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen definiert:
 
@@ -24,9 +24,9 @@ In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen def
 
 **[!UICONTROL Soziale Netzwerke:]** Der Wert für die verweisende Stelle muss für Adobe als soziales Netzwerk erkennbar sein. Siehe die [Liste der sozialen Netzwerke](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
 
-**E-Mail**: Eine verweisende Domäne wird als eine E-Mail-Verweisende Domäne betrachtet, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] enthält, oder [!DNL mail://] zu Ihrer Site gelangen. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] :// lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
+**E-Mail**: Eine Referrerdomäne gilt als E-Mail-Referrerdomäne, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] die Site enthält. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] :// lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
 
-**Eingegeben/mit Lesezeichen versehen**: Verweisende Stellen in Form von Eingaben/Lesezeichen werden verzeichnet, wenn Besucher die URL Ihrer Website direkt in ihren Browser eingeben oder über Lesezeichen auf Ihre Site zugreifen. Mobile devices report a referrer type of *`typed/bookmarked`* if there is no referrer on the first hit of the visit.
+**Eingegeben/mit Lesezeichen versehen**: verweisende Stellen werden aufgezeichnet, wenn Besucher die URL Ihrer Site direkt in ihren Browser eingeben oder über Lesezeichen auf Ihre Site zugreifen. Mobilgeräte melden einen Referrer-Typ, *`typed/bookmarked`* wenn beim ersten Treffer des Besuchs kein Referrer vorhanden ist.
 
 **[!UICONTROL Innerhalb Ihrer Site]**: Diese Elemente sind URLs, die von den internen URL-Filtern vergeben werden. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
 
