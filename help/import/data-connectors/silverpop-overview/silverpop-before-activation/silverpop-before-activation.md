@@ -5,7 +5,7 @@ seo-title: Vor Aktivierung dieser Integration
 title: Vor Aktivierung dieser Integration
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ Auf diese Weise wird sichergestellt, dass vor der Aktivierung geeignete Best Pra
 * **** Gültiges Silverpop-Konto: Um die Data Connectors-E-Mail-Integration verwenden zu können, muss ein Client über ein aktives Silverpop-Konto mit aktivierter E-Mail und aktiven Benutzeranmeldeinformationen verfügen.
 * **Wenden Sie sich an Ihren Silverpop-Kundenbetreuer**. Diese Integration wird von Silverpop nicht automatisch aktiviert. Sie müssen sich an Ihren Silverpop-Kundenbetreuer wenden, um die Silverpop-Einrichtung zu starten, bevor Daten aus Analytics importiert oder exportiert werden.
 
->[!NOTE]
->
->Diese Integration funktioniert nur mit Engage-Organisationen (nicht mit Transact).
+> [!NOTE] Diese Integration funktioniert nur mit Engage-Organisationen (nicht mit Transact).
 
 ## Preise{#pricing}
 
