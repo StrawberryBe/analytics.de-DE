@@ -5,7 +5,7 @@ seo-title: DSGVO-Terminologie
 title: DSGVO-Terminologie
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 **Unternehmensgruppe:** eine Gruppe, die aus einem herrschenden Unternehmen und seinen abhängigen Unternehmen besteht
 
-**Identity Management Services (IMS)** - Adobe implementiert Federated ID und OAuth 2.0 für die Authentifizierung von Adobe ID-Benutzern und die Autorisierung von Adobe-Ressourcen. Sie müssen IMS in Ihre Adobe-Anwendung oder Ihren -Service integrieren, damit sich Ihre Benutzer bei den Adobe-Services anmelden und diese nutzen können. Benutzer können sich direkt bei Renga (dem Identitätsdienstanbieter von Adobe) anmelden oder sich über eine vertrauenswürdige Drittanbieter-Authentifizierungsdomäne (z. B. Google, Facebook oder ein Unternehmens-/OrganisationsLDAP) anmelden.
+**Identity Management Services (IMS):** die Adobe-Implementierung von Federated ID und OAuth 2.0 zur Authentifizierung von Adobe ID-Benutzern und zur Autorisierung für Adobe-Ressourcen. Sie müssen IMS in Ihre Adobe-Anwendung oder Ihren -Service integrieren, damit sich Ihre Benutzer bei den Adobe-Services anmelden und diese nutzen können. Benutzer können sich direkt mit Renga (der Identity Provider von Adobe) anmelden oder eine vertrauenswürdige Drittanbieter-Authentifizierungsdomäne, wie z. B. Google, Facebook oder ein Unternehmens-LDAP, verwenden.
 
-**Experience Cloud-Organisations-ID:** bezieht sich auf das Adobe-Autorisierungstoken für Service-to-Service-Authentifizierung, die keinen Nutzer-Login erfordert. Sie wird an den IMS-Client ausgegeben und ihr ist kein Nutzer zugewiesen. Ein IMS-Client benötigt ein Servicetoken, um Rückkanalanfragen zwischen Services zu autorisieren. (Der Begriff "Systemtoken"wird gelegentlich als Service-Token verwendet.)
+**Experience Cloud-Organisations-ID:** bezieht sich auf das Adobe-Autorisierungstoken für Service-to-Service-Authentifizierung, die keinen Nutzer-Login erfordert. Sie wird an den IMS-Client ausgegeben und ihr ist kein Nutzer zugewiesen. Ein IMS-Client benötigt ein Servicetoken, um Rückkanalanfragen zwischen Services zu autorisieren. (Gelegentlich wird für Servicetoken auch der Begriff „Systemtoken“ verwendet.)
 
 **Hauptniederlassung:** der Ort innerhalb der Europäischen Union, an dem der Auftragsverwalter die Hauptentscheidungen zur Datenverarbeitung trifft
 
-**Persönliche Daten** - alle Informationen, die sich auf eine natürliche Person oder eine "betroffene Person"beziehen und zur direkten oder indirekten Identifizierung der Person verwendet werden können
+**Persönliche Daten** - alle Informationen, die sich auf eine natürliche Person oder eine "betroffene Person"beziehen und die zur direkten oder indirekten Identifizierung der Person verwendet werden können
 
 **Verletzung des Schutzes personenbezogener Daten:** eine Verletzung des Datenschutzes, die zum versehentlichen oder ungesetzlichen Zugriff, dem Missbrauch oder der Vernichtung personenbezogener Daten führt
 
