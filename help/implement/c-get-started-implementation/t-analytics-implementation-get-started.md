@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: Vereinfachte Implementierung
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ Als neuer Benutzer können Sie Ihre erste [!DNL Analytics] Report Suite (Daten-r
 
 Diese Vorgehensweise ermöglicht Ihnen Folgendes:
 
-* Schnelles Erstellen Ihrer ersten [Report Suite](https://marketing.adobe.com/resources/help/de_DE/analytics/getting-started/report-suites.html).
-* Implementieren von [!DNL Analytics] und der [Identitätsdienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/).
+* Schnelles Erstellen Ihrer ersten [Report Suite](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html).
+* Bereitstellen [!DNL Analytics] und [Identitätsdienst](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 * Ausführen von Berichten für grundlegende Daten auf Seitenebene.
 
->[!NOTE]
->
->Bevor Sie beginnen, überprüfen Sie, ob Analytics in [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/core_services.html) aktiviert ist (der Lösungsbereitstellungsprozess). Wenn Sie eine E-Mail mit einer Einladung erhalten haben, sich bei Analytics im Enterprise Dashboard anzumelden, haben Sie diese Voraussetzung erfüllt.
+> [!NOTE] Bevor Sie beginnen, überprüfen Sie, ob Analytics in der Adobe Experience Cloud[ (Lösungsbereitstellungsprozess) ](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)aktiviert ist. Wenn Sie eine E-Mail mit einer Einladung erhalten haben, sich bei Analytics im Enterprise Dashboard anzumelden, haben Sie diese Voraussetzung erfüllt.
 
 **So führen Sie die vereinfachte Implementierung aus**
 
-1. Melden Sie sich bei [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)) an.
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    Beim Zugriff auf [!DNL Analytics] stellt das System fest, ob Sie eine Report Suite besitzen. Wenn das nicht der Fall ist, wird die Seite [!UICONTROL Erste Schritte – Adobe Analytics] angezeigt.
 
@@ -73,7 +71,7 @@ Diese Vorgehensweise ermöglicht Ihnen Folgendes:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Daten-Repository (Report Suite) </p> </td> 
-       <td colname="col2"> <p> Eine <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/getting-started/report-suites.html" format="html" scope="external">Report Suite</a> ist ein eigenständiger Datensatz, der typischerweise einem einzelnen Objekt (Site oder Anwendung) oder einer Marke entspricht. Jede Report Suite verfügt über einen eigenen Satz von Berichten und Metriken. </p> </td> 
+       <td colname="col2"> <p> Eine <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">Report Suite</a> ist ein eigenständiger Datensatz, der typischerweise einem einzelnen Objekt (Site oder Anwendung) oder einer Marke entspricht. Jede Report Suite verfügt über einen eigenen Satz von Berichten und Metriken. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Zeitzone </p> </td> 
@@ -110,20 +108,20 @@ Diese Vorgehensweise ermöglicht Ihnen Folgendes:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Download </p> </td> 
-       <td colname="col2"> <p> Laden Sie die Installationsdatei mit dem Namen <span class="filepath">INSTALL-ME &lt;Report Suite-Name&gt;.js</span> herunter. Diese Option ist für erfahrene Benutzer geeignet, die über Kenntnisse auf dem Gebiet der <a href="https://marketing.adobe.com/resources/help/de_DE/sc/implement/js_implementation.html" format="html" scope="external">JavaScript-Implementierung</a> verfügen. </p> <p> <p>Wichtig: Durch Herunterladen des Codes wird <span class="keyword">Analytics</span> noch nicht bereitgestellt. Dies ist eine manuelle Implementierung, die Sie auf den Seiten Ihrer Website oder mithilfe der Beratungsdienstleistungen von Adobe durchführen. </p> </p> </td> 
+       <td colname="col2"> <p> Laden Sie die Installationsdatei mit dem Namen <span class="filepath">INSTALL-ME &lt;Report Suite-Name&gt;.js</span> herunter. Diese Option ist für erfahrene Benutzer geeignet, die über Kenntnisse auf dem Gebiet der <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript-Implementierung</a> verfügen. </p> <p> <p>Wichtig: Durch Herunterladen des Codes wird <span class="keyword">Analytics</span> noch nicht bereitgestellt. Dies ist eine manuelle Implementierung, die Sie auf den Seiten Ihrer Website oder mithilfe der Beratungsdienstleistungen von Adobe durchführen. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. Einen Bericht ausführen.
 
-   Nach der Bereitstellung des Analytics-Werkzeugs können Sie einen Bericht in Reports &amp; Analytics ausführen, um sicherzugehen, dass Daten auf Ihre Site gelangen. (Siehe [Anmelden und Navigation](https://marketing.adobe.com/resources/help/de_DE/analytics/getting-started/analytics-navigation.html), um sich mit der Benutzeroberfläche von Analytics vertraut zu machen.)
+   Nach der Bereitstellung des Analytics-Werkzeugs können Sie einen Bericht in Reports &amp; Analytics ausführen, um sicherzugehen, dass Daten auf Ihre Site gelangen. (Siehe   [Anmeldung und Navigation](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html), um die Benutzeroberfläche von Analytics kennenzulernen.)
 
    Beispielsweise können Sie mit **[!UICONTROL Sitemetriken]** &gt; Echtzeit **[!UICONTROL sofort Daten sehen]**.
 
    >[!NOTE]
    >
-   >Hinweis: Der [!UICONTROL Echtzeit]bericht muss konfiguriert werden, bevor er ausgeführt werden kann. Siehe [Echtzeitbericht konfigurieren](https://marketing.adobe.com/resources/help/de_DE/reference/t_realtime_admin.html).
+   >Hinweis: Der [!UICONTROL Echtzeit]bericht muss konfiguriert werden, bevor er ausgeführt werden kann. Siehe [Konfiguration von Echtzeitberichten](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
 
 **Beispiel für einen Echtzeitbericht**
 
