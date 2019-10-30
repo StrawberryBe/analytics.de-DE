@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: Datenquellen
 title: Transaktions- und Kundenintegration
 topic: Entwickler und Implementierung
-uuid: 71 f 73 a 47-3436-4314-a 182-36 de 4 bd 935 ba
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Transaktions- und Kundenintegration
 
-Die Datenquellen-Funktion bietet zwei zusätzliche Möglichkeiten zur Integration von Ereignissen, die offline in Ihre Online-Daten auftreten.
+Data Sources bietet zwei zusätzliche Möglichkeiten, Ereignisse, die offline auftreten, in Ihre Online-Daten zu integrieren.
 
 * [Transaktions-ID-Aufzeichnung aktivieren](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Transaktionsintegration](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Diese Integrationen ordnen Offline-Daten einer bestimmten Online-Transaktion ode
 
 Die Transaktions-ID kann von der Benutzeroberfläche aus aktiviert/deaktiviert werden, ohne dass ClientCare miteinbezogen werden muss.
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ Auf der Registerkarte [!UICONTROL Verwalten] wird der Status der Transaktions-ID
 
 Kunden-IDs werden zur Angabe der Offline-Aktivität eines Kunden verwendet und stellen somit eine Verbindung zur Online-Aktivität her. Diese sollten in folgenden Fällen verwendet werden:
 
-* Eine Kunden-ID wird in die Variable *`visitorID`* fest.
+* Eine Kunden-ID wird in die Variable *`visitorID`* festgelegt.
 * Es gibt keinen designierten Punkt, an dem Kundenaktivitäten in die Offline-Aktivität wechseln, wie die Empfehlung eines Interessenten oder ein Kauf.
 
-Informationen zum Konfigurieren dieser Art Datenquelle, siehe [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+Informationen zum Konfigurieren dieser Art Datenquelle, siehe [Besucher-ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## Transaktionsintegration {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
