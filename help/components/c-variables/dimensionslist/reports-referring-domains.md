@@ -1,13 +1,13 @@
 ---
-description: Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Verweisende Stellen fallen in zwei Hauptkategorien und urls. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
-seo-description: Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Verweisende Stellen fallen in zwei Hauptkategorien und urls. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
-seo-title: Verweisende Domänen
+description: Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Verweisende Stellen lassen sich in zwei Hauptkategorien "Domänen"und "URLs"unterteilen. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
+seo-description: Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Verweisende Stellen lassen sich in zwei Hauptkategorien "Domänen"und "URLs"unterteilen. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
+seo-title: Referrerdomänen
 solution: Analytics
 title: Referrerdomänen
-topic: 'Berichte    '
-uuid: ab 310 bb 8-51 b 1-4428-a 42 e -2377 d 36 ca 986
+topic: Berichte
+uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,8 +22,8 @@ Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik I
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Reports &amp; Analytics </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
+   <th colname="col2" class="entry"> Reports &amp; Analysen </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr>
  </thead>
@@ -42,9 +42,9 @@ Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik I
   </tr> 
   <tr> 
    <td colname="col1"> Wertgrenzen </td> 
-   <td colname="col2"> – </td> 
-   <td colname="col3"> – </td> 
-   <td colname="col4"> – </td> 
+   <td colname="col2"> Keine </td> 
+   <td colname="col3"> Keine </td> 
+   <td colname="col4"> Keine </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Spezielle Werte </td> 
