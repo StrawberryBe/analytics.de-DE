@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Ausführen einer Beitragsanalyse
 title: Ausführen einer Beitragsanalyse
-uuid: 5282 a 5 f 9-0771-4974-93 cb -335204 bde 114
+uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
 
    >[!NOTE]
    >
-   >Die Beitragsanalyse wird derzeit nur mit täglicher Granularität unterstützt.
+   >Zur Zeit unterstützen wir die Beitragsanalyse nur mit täglicher Granularität.
 
    ![](assets/run_ca.png)
 
@@ -51,9 +51,7 @@ Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
    * [Erstellen von Warnhinweisen](/help/components/c-alerts/intellligent-alerts.md)
    * [Erstellen oder Vergleichen von Segmenten](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->Wir heben die Anomalie hervor, die mit einem blauen Punkt in der Beitragsanalyse und den mit ihm verknüpften intelligenten Warnhinweisprojekten analysiert wird. Dadurch ist die gerade analysierte Anomalie leichter zu erkennen.
+> [!NOTE] Wir heben die zu analysierende Anomalie mit einem blauen Punkt in der Beitragsanalyse und den verknüpften Intelligent Alert-Projekten hervor. Dadurch ist die gerade analysierte Anomalie leichter zu erkennen.
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
