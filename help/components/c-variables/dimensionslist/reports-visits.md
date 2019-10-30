@@ -1,13 +1,13 @@
 ---
 description: Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während eines angegebenen Zeitraums an.
 seo-description: Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während eines angegebenen Zeitraums an.
-seo-title: Besuchen
+seo-title: Besuche
 solution: Analytics
-title: Besuchen
-topic: 'Berichte    '
-uuid: ff 65 bddf-fb 65-4 cf 0-8 aae -4 ab 59 c 2 bb 0 a 7
+title: Besuche
+topic: Berichte
+uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,11 +42,11 @@ Siehe [Besuchsmetrik](../../../components/c-variables/c-metrics/metrics-visit.md
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
+   <td colname="col1"> <p> Reports and Analytics </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Sitemetriken“</span> &gt; <span class="uicontrol">„Besuche“</span> </p> <p>Sie können einen <span class="wintitle">„Besuche“-Bericht</span> auf einer ausgewählten Seite ausführen. Besuche, die über Mitternacht hinausgehen, werden sowohl für den Tag gezählt, an dem der Besuch begann, als auch für den Tag, an dem er endete. In der Gesamtsumme für den speziellen Datumsbereich werden Doppelzählungen jedoch dedupliziert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Ad Hoc Analysis </p> </td> 
+   <td colname="col1"> <p> Ad Hoc Analysis  </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Berichte“</span> &gt; <span class="uicontrol">„Sitemetriken“</span> &gt; <span class="uicontrol">„Besuche“</span> </p> 
     <ul id="ul_73FEE02C129041D6A63F2DB07676960F"> 
      <li id="li_CC3BB22DE97941EB8032BE4421FFC173"> Sie können jedes Element in diesem Bericht nach nahezu jedem anderen Bericht und beliebigen Variablen aufschlüsseln, sodass Sie Aufschlüsselungen jeder Granularität sehen können. </li> 
