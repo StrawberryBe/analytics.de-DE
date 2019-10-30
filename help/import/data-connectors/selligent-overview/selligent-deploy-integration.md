@@ -6,7 +6,7 @@ solution: Analytics
 title: Bereitstellen der Integration
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -59,22 +59,22 @@ Wir empfehlen dringend, den Verfolgungsparameter für Adobe Analytics in der URL
 
 ![](assets/selligent-tracker.png)
 
-## Verifying the Integration{#verifying-the-integration}
+## Überprüfen der Integration{#verifying-the-integration}
 
-Once all deployment steps have been completed you can validate that the integration is successfully transferring data.
+Nachdem alle Implementierungsschritte abgeschlossen sind, können Sie überprüfen, ob die Integration erfolgreich Daten übertragen hat.
 
-It will take a few days for the data exchange to begin. Please make sure you contact Selligent after you activate the integration.
+Der Datenaustausch wird einige Tage dauern. Bitte stellen Sie sicher, dass Sie sich nach der Aktivierung der Integration an Selligent wenden.
 
 ### Protokoll zu den Integrationsaktivitäten {#section-927e270495db479fba9578915d9ae9c9}
 
-Navigate to your Selligent Integration within Data Connectors. Under the Support tab, you should see events like Metric Data imported and/or Classification Data imported successfully :****
+Navigieren Sie zu Ihrer selbstbestimmten Integration in Data Connectors. Auf der Registerkarte **[!UICONTROL Support]** sollten Sie Ereignisse wie importierte Metrikdaten und/oder erfolgreich importierte Klassifizierungsdaten sehen:
 
 ![](assets/selligent-verifying.png)
 
-### Reporting Data {#section-ebd481a162324e66bd6dc8cb4b8d2424}
+### Berichtsdaten {#section-ebd481a162324e66bd6dc8cb4b8d2424}
 
-View your Selligent Message reports with appropriate metrics.
+Zeigen Sie Ihre Berichte mit der entsprechenden Metrik an.
 
-1. Go to Report &amp; Analytics under Adobe Experience Cloud.
+1. Gehen Sie zu "Reports &amp; Analysen"unter "Adobe Experience Cloud".
 1. Wählen Sie die gewünschte Report Suite aus.
-1. Under Custom Conversion, select the Message ID Reports and choose Message ID/Message Name.************
+1. Wählen Sie unter " **[!UICONTROL Benutzerspezifische Konversion]**"die **[!UICONTROL Nachrichten-ID-Berichte]** und dann " **[!UICONTROL Nachrichten-ID/Nachrichtenname]**"aus.
