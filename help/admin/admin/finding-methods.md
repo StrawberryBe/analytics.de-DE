@@ -5,9 +5,9 @@ seo-title: Suchmethoden
 solution: Analytics
 title: Suchmethoden
 topic: Admin Tools
-uuid: 1053993 e -7 fc 4-4874-84 fa -367 ecdcd 7 b 45
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen]** bearbeiten &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Suchmethoden]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **** bearbeiten &gt; **[!UICONTROL Konversion]** &gt; **** Suchmethoden.
 
 ## Suchmethoden – Beschreibungen {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -55,7 +55,5 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
  </tbody> 
 </table>
 
->[!NOTE]
->
->Alle Suchmethoden laufen mit dem Ende des Besuchs ab. Wenn Sie für „Läuft ab nach“ ein anderes Ereignis auswählen (z. B. „Warenkorb zur Kasse“), läuft die Suchmethode ab, wenn dieses Ereignis während des Besuchs erfolgt. Wenn „Warenkorb zur Kasse“ nicht während des Besuchs erfolgt, läuft die Suchmethode trotzdem mit dem Besuch ab.
+> [!NOTE] Alle Suchmethoden laufen mit Ende des Besuchs ab. Wenn Sie für „Läuft ab nach“ ein anderes Ereignis auswählen (z. B. „Warenkorb zur Kasse“), läuft die Suchmethode ab, wenn dieses Ereignis während des Besuchs erfolgt. Wenn „Warenkorb zur Kasse“ nicht während des Besuchs erfolgt, läuft die Suchmethode trotzdem mit dem Besuch ab.
 
