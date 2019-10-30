@@ -7,7 +7,7 @@ title: Verschiedene Berichtstypen ausführen
 topic: Berichte,Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse]
 
 **[!UICONTROL Berichte]** &gt; **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Anomalieerkennung]** .
 
->[!NOTE]
->
->Sie können die Anomalieerkennung auch aus Projekten im Analysis Workspace ausführen. [Mehr …](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] Sie können die Anomalieerkennung auch aus Projekten im Analysis Workspace ausführen. [Mehr …](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -313,7 +311,7 @@ Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-R
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sortieren nach... Beliebteste/Gewinner/Verlierer</strong></td> 
-   <td class="chdesc stentry"> Sie können zwischen der Sortierung nach <span class="uicontrol">Beliebteste</span> (Standard), <span class="uicontrol">Gewinner</span> (Dimensionen mit dem größten Wachstum) und <span class="uicontrol">Verlierer</span> (Dimension mit einem Trend nach unten) umschalten. <p>Hier finden Sie die Formel, mit der Gewinner oder Verlierer bestimmt werden: Das früheste Beispiel wird über eine einfache Berechnung der Prozentsatzänderung mit dem vorletzten Beispiel verglichen. Wenn also „Letzte 15 Minuten“ gewählt ist und n die aktuelle Minute darstellt, wird n-1 mit n-15 verglichen. Eine Gewichtung wird derzeit dabei nicht vorgenommen. Die aktuelle Minute wird ignoriert, da sie nicht vollständig ist und wahrscheinlich zu einer falschen Prozentsatzänderung führen würde. </p> <p>Diese Formel ist bei allen im Echtzeitbericht verwendeten Metriken konsistent. </p> </td> 
+   <td class="chdesc stentry"> Sie können zwischen der Sortierung nach <span class="uicontrol">Beliebteste</span> (Standard), <span class="uicontrol">Gewinner</span> (Dimensionen mit dem größten Wachstum) und <span class="uicontrol">Verlierer</span> (Dimension mit einem Trend nach unten) umschalten. <p>Hier ist die Formel, mit der Gewinner oder Verlierer ermittelt werden: In Echtzeit werden das früheste Beispiel und das nächste zu neueste Beispiel untersucht und eine einfache Berechnung der Änderung in % durchgeführt. Wenn also "Letzte 15 Minuten"ausgewählt ist und n die aktuelle Minute darstellt, wird n-1 mit n-15 verglichen. Eine Gewichtung wird derzeit dabei nicht vorgenommen. Die aktuelle Minute wird ignoriert, da sie nicht vollständig ist und wahrscheinlich zu einer falschen Prozentsatzänderung führen würde. </p> <p>Diese Formel ist bei allen im Echtzeitbericht verwendeten Metriken konsistent. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sekundäres 1 Reportlet</strong></td> 
