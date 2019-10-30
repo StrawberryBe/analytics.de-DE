@@ -4,10 +4,10 @@ seo-description: Erfasst die Spracheinstellung im Browser des Besuchers, so dass
 seo-title: Sprache
 solution: Analytics
 title: Sprache
-topic: 'Berichte    '
-uuid: 04 f 1 fc 66-2738-4063-8091-772 ddc 59 f 9 cf
+topic: Berichte
+uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ Erfasst die Spracheinstellung im Browser des Besuchers, so dass Sie den Umsatz u
 
 **[!UICONTROL Besucherprofil]** &gt; **[!UICONTROL Sprachen]**
 
-Dieser Bericht wird basierend auf dem accept-language-Abschnitt der HTTP-Header-Anforderung gefüllt. Der language-accept-HTTP-Header wird als Teil der Sprachvoreinstellungen für die einzelnen Browser konfiguriert:
+Dieser Bericht wird basierend auf dem accept-language-Abschnitt der HTTP-Header-Anforderung gefüllt. Der language-accept-HTTP-Header wird als Teil der Sprachvoreinstellungen jedes Browsers konfiguriert:
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
@@ -26,7 +26,5 @@ Wenn in einem Browser keine Sprache angegeben ist oder der Browser die Sprach-ID
 
 Einige Zeilenelemente in diesem Bericht umfassen Regionen. Sie sind „region“-Subtags.
 
->[!NOTE]
->
->Die stündliche Zeitgranularität wird nicht unterstützt.
+> [!NOTE] Die Zeitgranularität "Stündlich"wird nicht unterstützt.
 
