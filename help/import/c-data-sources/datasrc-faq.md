@@ -1,14 +1,14 @@
 ---
 description: In diesem Thema erhalten Sie Antworten auf die am häufigsten gestellten Fragen.
 seo-description: In diesem Thema erhalten Sie Antworten auf die am häufigsten gestellten Fragen.
-seo-title: Häufig gestellte Fragen zu Datenquellen
+seo-title: Häufig gestellte Fragen zu Data Sources
 solution: Analytics
 subtopic: Datenquellen
 title: Häufig gestellte Fragen zu Data Sources
 topic: Entwickler und Implementierung
-uuid: 394 a 627 f -093 c -400 a-bfb 3-c 2 aa 24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Jede Zeile in einer Data Sources-Datei, die mit einem Nummernzeichen (#) beginnt
 
 Ja. Da viele Marketingberichte auf der Datumsspalte basieren, benötigt Data Sources eine Datumsspalte.
 
-## Kann ich Daten in bestehenden und bereits verwendeten Variablen speichern? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe empfiehlt, dass Sie neue, noch nicht verwendete Variablen auswählen, um Daten mit Data Sources zu importieren. Wenn Sie sich bei der Konfiguration der Datendatei unsicher sind oder die Risiken einer erneuten Nutzung von Variablen besser verstehen möchten, setzen Sie sich mit der Kundenunterstützung in Verbindung.
 
@@ -53,7 +53,7 @@ Daten aus Data Sources überschreiben nie bestehende Berichtsdaten. Stattdessen 
 
 Wenn Sie Daten aus Data Sources hochladen, laden Sie die Metriken hoch, die in der Berichtsoberfläche zur Verfügung stehen werden.
 
-Wenn Sie beispielsweise den Call-Center-Umsatz für Produkte hochladen, die Sie über Ihre Site vertreiben, kann der Call-Center-Umsatz im gleichen Bericht wie der Online-Umsatz angezeigt werden. Sie können sie jedoch nicht zusammen mit Besuchen verwenden, da Sie damit nicht die Anzahl der Besuche hochgeladen haben. Adobe kann nur Berichte für die Metriken und Elemente erstellen, die Sie über Data Sources hochgeladen haben (neben den normalen Marketingberichtsmetriken).
+Wenn Sie beispielsweise den Call-Center-Umsatz für Produkte hochladen, die Sie über Ihre Site vertreiben, kann der Call-Center-Umsatz im gleichen Bericht wie der Online-Umsatz angezeigt werden. Sie können es jedoch nicht zusammen mit Besuchen verwenden, da Sie die Anzahl der Besuche damit nicht hochgeladen haben. Adobe kann nur Berichte für die Metriken und Elemente erstellen, die Sie über Data Sources hochgeladen haben (neben den normalen Marketingberichtsmetriken).
 
 ## Was passiert, wenn ich über Data Sources negative Werte in Berichte einfüge? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -86,7 +86,7 @@ Da der Datenquelle-Prozess („für generische DS, nicht Datenverkehr“) einzel
 
 ## Muss bei der Dateierweiterung die Groß- und Kleinschreibung für eine Datenquelle-Upload- oder Classification-Datei beachtet werden? {#section_710787BA4D8C403D8326D666807832B8}
 
-Wenn die Erweiterungen einer Datenquelle-Upload-Datei oder einer Classification-Datei großgeschrieben sind, werden die Dateien nicht verarbeitet. Erweiterungen einer Datenquelle-Upload-Datei müssen kleingeschrieben werden. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. [!DNL .txt][!DNL .fin] Und werden verarbeitet.
+Wenn die Erweiterungen einer Datenquelle-Upload-Datei oder einer Classification-Datei großgeschrieben sind, werden die Dateien nicht verarbeitet. Erweiterungen einer Datenquelle-Upload-Datei müssen kleingeschrieben werden. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. Jedoch [!DNL .txt] und [!DNL .fin] werden verarbeitet.
 
 ## Kann ich weitere Ereignisse zur generierten Vorlage hinzufügen oder liegt das Maximum bei drei? {#section_F184913926DD43B1872956CED308ADB5}
 
@@ -130,7 +130,7 @@ Der Data Feed enthält alle Metriken mit Transaktions-IDs, die empfangen wurden.
 
 ## Sind eVars, die aktuell im Besucherprofil bestehen, Metriken zugeordnet, die mithilfe von Datenquellen hochgeladen wurden? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-Im Falle einer vollen Verarbeitung ist dies nicht der Fall, im Falle von Transaktions-IDs trifft dies zu. Datenquellen mit vollständiger Verarbeitung werden mit getrennten Besucherprofilen verarbeitet. Das heißt, selbst wenn die Besucher-IDs übereinstimmen, werden sie aus der Sicht einer eVar-Zuordnung nicht aneinander gebunden. Transaktions-ID-Datenquellen werden an das Hauptbesucherprofil gebunden, sodass bestehende eVars Ereignissen zugeordnet werden, die mit einer Transaktions-ID hochgeladen wurden.
+Im Falle einer vollen Verarbeitung ist dies nicht der Fall, im Falle von Transaktions-IDs trifft dies zu. Datenquellen mit vollständiger Verarbeitung werden mit separaten Besucherprofilen verarbeitet. Selbst wenn die Besucher-IDs also übereinstimmen, werden sie aus der Sicht der eVar-Zuordnung nicht miteinander verknüpft. Transaktions-ID-Datenquellen werden an das Hauptbesucherprofil gebunden, sodass bestehende eVars Ereignissen zugeordnet werden, die mit einer Transaktions-ID hochgeladen wurden.
 
 ## Beeinflussen die mit Datenquellen hochgeladenen eVars das spätere Online-Verhalten? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
