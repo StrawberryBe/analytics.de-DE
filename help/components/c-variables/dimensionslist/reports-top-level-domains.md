@@ -4,10 +4,10 @@ seo-description: Veranschaulicht, wie Kunden aus verschiedenen Ländern Ihre Erf
 seo-title: Domänen auf oberster Ebene
 solution: Analytics
 title: Domänen auf oberster Ebene
-topic: 'Berichte    '
-uuid: c 40 ba 9 bc-fbf 2-4 e 50-9117-6 c 5947 e 6675 b
+topic: Berichte
+uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
