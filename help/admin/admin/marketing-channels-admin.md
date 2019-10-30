@@ -1,21 +1,21 @@
 ---
 description: Marketingkanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können Verarbeitungsregeln für Marketingkanäle auf Basis der zu verfolgenden Kanäle und der Verfolgungsart erstellen.
 seo-description: Marketingkanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können Verarbeitungsregeln für Marketingkanäle auf Basis der zu verfolgenden Kanäle und der Verfolgungsart erstellen.
-seo-title: Marketingkanäle
+seo-title: Marketing-Kanäle
 solution: Analytics
-title: Marketingkanäle
+title: Marketing-Kanäle
 topic: Admin Tools
-uuid: 05 a 74391-b 694-4 ed 3-9793-5538 d 6373 db 2
+uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Marketingkanäle
+# Marketing-Kanäle
 
 Marketingkanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können Verarbeitungsregeln für Marketingkanäle auf Basis der zu verfolgenden Kanäle und der Verfolgungsart erstellen.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Marketingkanäle]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **[!UICONTROL bearbeiten]** &gt; **[!UICONTROL Marketingkanäle]**.
 
 Siehe [Marketingkanäle](/help/components/c-marketing-channels/c-overview.md).
