@@ -1,20 +1,20 @@
 ---
 description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
-keywords: Gruppen; Berechtigungen
+keywords: Gruppen;Berechtigungen
 seo-description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
-seo-title: Metrikberechtigungen anpassen
+seo-title: Berechtigungen für Metriken anpassen
 solution: Analytics
 subtopic: Benutzer und Gruppen
-title: Metrikberechtigungen anpassen
+title: Berechtigungen für Metriken anpassen
 topic: Admin Tools
-uuid: 7 bfff 68 a -2 add -4068-a 07 d -87 a 4 f 624634 c
+uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Metrikberechtigungen anpassen
+# Berechtigungen für Metriken anpassen
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
 
-**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Zugriff auf Bericht]** &gt; **[!UICONTROL Metriken]** &gt; **[!UICONTROL Anpassen]**
+**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; Zugriff auf **[!UICONTROL Berichte]** &gt; **[!UICONTROL Metriken]** &gt; **[!UICONTROL Anpassen]**
 
 Die Einstellungen auf der Seite für die Metrikanpassung beziehen sich auf die Report Suites, die auf der Seite [!UICONTROL Benutzergruppe definieren] ausgewählt wurden.
 
@@ -36,7 +36,7 @@ Sie können für benutzerdefinierte Ereignisse und Analytics-Lösungsereignisse 
 
 Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
 
-See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
+Informationen zu den in Analytics verwendeten Metriken finden Sie unter Übersicht über [Metriken](/help/components/c-variables/c-metrics/metricslist.md) .
 
 ## Content-Unterstützung
 
