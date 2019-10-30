@@ -1,18 +1,18 @@
 ---
 description: Feldbeschreibungen zur Verwaltung von Anforderungen in ReportBuilder.
 seo-description: Feldbeschreibungen zur Verwaltung von Anforderungen in ReportBuilder.
-seo-title: Anforderungen verwalten - Definitionen
+seo-title: Anforderungen verwalten – Definitionen
 solution: Analytics
-title: Anforderungen verwalten - Definitionen
+title: Anforderungen verwalten – Definitionen
 topic: ReportBuilder
-uuid: 01 b 21 d 0 e-c 870-4 df 8-95 b 9-f 4 aef 1 f 4 d 16 b
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Anforderungen verwalten - Definitionen
+# Anforderungen verwalten – Definitionen
 
 Feldbeschreibungen zur Verwaltung von Anforderungen in ReportBuilder.
 
@@ -20,11 +20,9 @@ Feldbeschreibungen zur Verwaltung von Anforderungen in ReportBuilder.
 
 Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Übersicht der von Ihnen erstellten Anforderungen, entweder aller Anforderungen in allen Arbeitsblättern oder nur der Anforderungen der aktiven Arbeitsmappe. Sie können außerdem Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen (also typische Funktionen des [!UICONTROL Anforderungs-Assistenten] bzw. des [!UICONTROL Anforderungs-Managers] ausführen), indem Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die bereits erstellte Anforderungen enthält.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]** klicken ( ![](assets/edit_request.gif) in der ReportBuilder-Symbolleiste).
 
->[!NOTE]
->
->Adobe Reportbuilder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzelnen Arbeitsblatts stellt eine pünktliche Ausführung sicher.
+> [!NOTE] Adobe ReportBuilder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht in allen Arbeitsblättern. Die Einschränkung auf Abhängigkeiten innerhalb eines einzelnen Arbeitsblatts stellt eine pünktliche Ausführung sicher.
 
 ## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -61,7 +59,7 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
    <td colname="col2"> <p>Es wird das Datum angezeigt, an dem die Anforderung zuletzt von ReportBuilder verarbeitet wurde. In dieser Tabelle werden in der Spalte <span class="wintitle">Letzter Lauf</span> auch gegebenenfalls erforderliche diagnostische Meldungen angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hinzufügen </p> </td> 
+   <td colname="col1"> <p>Fügen Sie </p> </td> 
    <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> Eine Datenanforderung erstellen</a>. </p> </td> 
   </tr> 
   <tr> 
