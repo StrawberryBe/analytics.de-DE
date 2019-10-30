@@ -1,23 +1,21 @@
 ---
 description: Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
 seo-description: Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
-seo-title: Vergleich der Analytics-Berichterstellungs-APIs
+seo-title: Vergleich der Analytics-Reporting-APIs
 solution: Analytics
-title: Vergleich der Analytics-Berichterstellungs-APIs
-uuid: fa 533 a 8 e -33 c 0-42 f 4-a 294-cabee 0258 c 8 f
+title: Vergleich der Analytics-Reporting-APIs
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Vergleich der Analytics-Berichterstellungs-APIs
+# Vergleich der Analytics-Reporting-APIs
 
 Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
 
->[!NOTE]
->
->In Bezug auf Latenzzeiten kombiniert Analytics für Target (A 4 T) die Daten für Analytics und Target für den gleichen Treffer, um eine integrierte Berichterstellung zu erhalten. Da Analytics- und Target-Aufrufe zu unterschiedlichen Zeitpunkten stattfinden, werden Treffer vor der Verarbeitung gespeichert, um Daten aus beiden Lösungen zu sammeln. Durch diesen Prozess entsteht für alle Checkpoints eine **zusätzliche Latenz von 7 bis 10 Minuten**.
+> [!NOTE] In Bezug auf die Latenz kombiniert Analytics for Target (A4T) Analytics- und Target-Daten zum gleichen Treffer für die integrierte Berichterstellung. Da Analytics- und Target-Aufrufe zu unterschiedlichen Zeitpunkten stattfinden, werden Treffer vor der Verarbeitung gespeichert, um Daten aus beiden Lösungen zu sammeln. Durch diesen Prozess entsteht für alle Checkpoints eine **zusätzliche Latenz von 7 bis 10 Minuten**.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
