@@ -6,9 +6,9 @@ seo-title: Besuch
 solution: Analytics
 title: Besuch
 topic: Metriken
-uuid: 91317487-f 116-4546-8 cd 2-421418 c 49 a 7 a
+uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Eine Folge von Seitenansichten während einer Sitzung. Die Besuchsmetrik wird häufig in Berichten verwendet, die die Anzahl der Besuchersitzungen in dem ausgewählten Zeitraum anzeigen.
 
->[!NOTE]
->
->For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+> [!NOTE] Informationen dazu, wie Besuche und Starts mobiler Apps berechnet werden, finden Sie unter [Vergleich von Besuchen und Starts mobiler Apps](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in der Wissensdatenbank.
 
 Die Besuchsmetrik wird immer mit einem Zeitraum verknüpft. So wissen Sie, ob es sich um einen neuen Besuch handelt, wenn ein Besucher zu Ihrer Site zurückkehrt. Eine Sitzung beginnt, wenn der Benutzer auf Ihre Site zugreift, und endet in einem der folgenden Fälle:
 
@@ -28,9 +26,7 @@ Die Besuchsmetrik wird immer mit einem Zeitraum verknüpft. So wissen Sie, ob es
 * **2500 Hits:** Wenn ein Benutzer zahlreiche Hits generiert, ohne eine neue Sitzung zu starten, wird nach 2500 Bildanforderungen ein neuer Besuch gezählt.
 * **100 Hits in 100 Sekunden**: Wenn ein Besuch aus mehr als 100 Hits besteht, die in weniger als 100 Sekunden stattfinden, endet der Besuch automatisch. Dieses Verhalten weist normalerweise auf Bot-Aktivität hin. Diese Einschränkung wird durchgesetzt, um zu verhindern, dass diese rechenintensiven Besuche die Latenz und die Zeit für die Generierung von Berichten erhöhen.
 
->[!NOTE]
->
->Die Definition eines Besuchs kann für eine Report Suite gekürzt werden, wenn sie spezifisch angefordert wird, kann jedoch nicht verlängert werden. Bitten Sie einen der unterstützten Benutzer Ihres Unternehmens, diese Änderung beim Kundendienst anzufordern.
+> [!NOTE] Die Definition eines Besuchs kann für eine Report Suite auf besondere Anfrage gekürzt werden, kann jedoch nicht verlängert werden. Bitten Sie einen der unterstützten Benutzer Ihres Unternehmens, diese Änderung beim Kundendienst anzufordern.
 
 Folgende Fälle starten keinen neuen Besuch:
 
@@ -41,9 +37,7 @@ Ein Besuch verläuft jedoch nicht unbedingt gleichzeitig mit einer Browsersitzun
 
 Beim Ende eines Besuchs laufen alle Variablen mit Besuchsablauf ab und werden nicht länger beibehalten. Die Metrik „Besuchnummer“ wird beim nächsten Besuch dieses Besuchers erhöht.
 
->[!NOTE]
->
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+> [!NOTE] Wenn Sie Analytics als Berichtsquelle für Adobe Target verwenden, lesen Sie [Minimieren von überhöhten Besuchs- und Besucherzahlen in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in der [!DNL Target] Dokumentation.
 
 Weitere Informationen finden Sie im Adobe Analytics-Implementierungshandbuch im Abschnitt zum [Identifizieren von Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html).
 
