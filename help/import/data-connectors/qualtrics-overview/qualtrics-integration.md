@@ -8,7 +8,7 @@ title: Verwenden der Integration
 topic: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Nach Abschluss der Bereitstellung können Sie mit der Nutzung der zusätzlichen Funktionen beginnen, die diese Integration bietet.
 
->[!NOTE]
->
->Es kann 24-48 Stunden dauern, bis Qualtrics-Antwortdaten in Ihren Adobe Analytics-Berichten angezeigt werden.
+> [!NOTE] Es kann 24-48 Stunden dauern, bis Qualtrics-Antwortdaten in Ihren Adobe Analytics-Berichten angezeigt werden.
 
 Die folgenden Aktionen sind erforderlich, um aus dieser Integration in Adobe Analytics Nutzen zu ziehen.
 
@@ -28,7 +26,7 @@ Die folgenden Aktionen sind erforderlich, um aus dieser Integration in Adobe Ana
 
 ## Beispiel {#section-07051d0d60a44408a4e108034586c42f}
 
-Im Folgenden wird gezeigt, wie ein Analyst ein Adobe Analytics-Segment mithilfe von Umfrageantwortdaten definieren kann. In diesem Fall wird eine Umfrage wie "Wie zufrieden waren Sie heute mit Ihrem Besuch?"angenommen. Mithilfe dieser Frage können wir ein Segment erstellen, um "unzureichende"Besucher zu identifizieren. Ein solches Segment kann zum Drilldown in allen Adobe Analytics-Berichten verwendet werden, z. B. dem Einkaufsumrechnungstrichter, wie unten dargestellt.
+Die folgende Tabelle zeigt, wie ein Analyst ein Adobe Analytics-Segment mithilfe von Umfrageantwortdaten definieren kann. In diesem Fall wird eine Umfrage wie "Wie zufrieden waren Sie heute mit Ihrem Besuch?"angenommen. Mithilfe dieser Frage können wir ein Segment erstellen, um "unzureichende"Besucher zu identifizieren. Ein solches Segment kann zum Drilldown in allen Adobe Analytics-Berichten verwendet werden, z. B. dem Einkaufsumrechnungstrichter, wie unten dargestellt.
 
 ![](assets/using-1.png) ![](assets/using-2.png)
 
