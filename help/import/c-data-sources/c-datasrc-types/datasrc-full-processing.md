@@ -1,19 +1,19 @@
 ---
 description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Volle Verarbeitung“).
 seo-description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Volle Verarbeitung“).
-seo-title: Volle Verarbeitung
+seo-title: Vollständige Verarbeitung
 solution: Analytics
 subtopic: Datenquellen
-title: Volle Verarbeitung
+title: Vollständige Verarbeitung
 topic: Entwickler und Implementierung
-uuid: 590 ae 89 c -6 e 17-453 b-b 701-ce 1 adbea 6 fa 4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Volle Verarbeitung
+# Vollständige Verarbeitung
 
 Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ &gt; „Volle Verarbeitung“).
 
@@ -22,7 +22,7 @@ Daten aus Datenquellen mit vollständiger Verarbeitung werden so verarbeitet, wi
 * [Besucherprofil](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [Spaltenreferenz](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
-## Besucherprofil{#section_6065627D0C144506965F562C80AE67F8}   
+## Besucherprofil {#section_6065627D0C144506965F562C80AE67F8}
 
 Daten aus Datenquellen mit vollständiger Verarbeitung werden mit getrennten Besucherprofilen verarbeitet. Das heißt, selbst wenn die Besucher-ID in den hochgeladenen Daten mit den Daten übereinstimmt, die mit JavaScript oder einer anderen AppMeasurement-Bibliothek erfasst wurden, sind die Benutzerprofile aus der Sicht einer eVar-Zuordnung nicht miteinander verbunden.
 
@@ -40,36 +40,37 @@ Beispiel: Ein Benutzer mit der Besucher-ID „benutzer@beispiel.de“ besucht Ih
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col1"> <p>Kampagne </p> </td> 
+   <td colname="col2"> <p>Kampagne </p> </td> 
    <td colname="col3"> <p>Konversion-Kampagnen-Trackingcode. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col1"> <p>kanal </p> </td> 
+   <td colname="col2"> <p>kanal </p> </td> 
    <td colname="col3"> <p>Kanal-Zeichenfolge (z. B. Sportabteilung). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Hinweis: Diese Variable wird auch von Standarddatenquellen als <code> currency code </code> unterstützt. </p> </td> 
    <td colname="col3"> <p>Währungscode für Umsatz (z. B. USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie das ISO 8601-Datumsformat <code>JJJJ-MM-TTThh:mm:ss±UTC_Versatz</code> (z. B. <code>2013-09-01T12:00:00-07:00</code>) oder das Unix-Zeitformat (d. h. die seit dem 1. Januar 1970 abgelaufenen Sekunden). </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, z. B. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen ( <span class="varname"> Evar 1 </span> - <span class="varname"> evar 75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
+   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>Ereigniszeichenfolge, mit derselben Syntax für die Variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> formatiert. </p> <p>Beispiel: </p> 
-    <code>Scadd, event 1, event 7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -109,12 +110,12 @@ Beispiel: Ein Benutzer mit der Besucher-ID „benutzer@beispiel.de“ besucht Ih
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Seiten-URL (z. B. <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Produktliste (z. B. <code>„Sport;Ball;1;5.95“)</code>. </p> </td> 
+   <td colname="col1"> <p>„products“ </p> </td> 
+   <td colname="col2"> <p>„products“ </p> </td> 
+   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
@@ -201,7 +202,7 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Verbindungstyp des Besuchers ( <span class="term"> lan </span> oder <span class="term"> Modem </span>). </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
