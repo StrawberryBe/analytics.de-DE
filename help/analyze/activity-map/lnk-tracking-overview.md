@@ -7,7 +7,7 @@ title: Zuverlässiges Linktracking
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,17 +23,11 @@ For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activi
 
 ## Wie kann [!DNL Activity Map] die Linktracking PII-Daten erfassen? {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION]
->
->By turning on [!DNL Activity Map] tracking, you may be collecting personally identifiable information (PII) data. Diese Daten können allein oder mit anderen Informationen verwendet werden, um eine einzelne Person zu identifizieren, zu kontaktieren oder zu finden oder um eine Einzelperson im Kontext zu identifizieren.
->
->Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
->
->* `Mailto` Links. Ein Mailto-Link ist ein HTML-Linktyp, der den standardmäßigen E-Mail-Client auf dem Computer für das Senden einer E-Mail aktiviert.
->* `User ID` Links, die in der Kopf- und Fußzeile einer Website angezeigt werden, sobald sich der Benutzer angemeldet hat.
->* Für Kreditinstitute wird möglicherweise die Kontonummer als ein Link angezeigt. Wenn darauf geklickt wird, wird der Linktext erfasst.
->* Auf Websites für das Gesundheitswesen werden PII-Daten ebenfalls als Links angezeigt. Durch Klicken auf diese Links wird der Linktext erfasst. Dadurch werden die PII-Daten gesammelt.
->
+> [!CAUTION] Durch Aktivierung der [!DNL Activity Map] Verfolgung erfassen Sie möglicherweise personenbezogene Daten (PII). Diese Daten können allein oder mit anderen Informationen verwendet werden, um eine einzelne Person zu identifizieren, zu kontaktieren oder zu finden oder um eine Einzelperson im Kontext zu identifizieren.
 
+Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 
-
+* `Mailto` Links. Ein Mailto-Link ist ein HTML-Linktyp, der den standardmäßigen E-Mail-Client auf dem Computer für das Senden einer E-Mail aktiviert.
+* `User ID` Links, die in der Kopf- und Fußzeile einer Website angezeigt werden, sobald sich der Benutzer angemeldet hat.
+* Für Kreditinstitute wird möglicherweise die Kontonummer als ein Link angezeigt. Wenn darauf geklickt wird, wird der Linktext erfasst.
+* Auf Websites für das Gesundheitswesen werden PII-Daten ebenfalls als Links angezeigt. Durch Klicken auf diese Links wird der Linktext erfasst. Dadurch werden die PII-Daten gesammelt.
