@@ -1,14 +1,14 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Warnhinweise
 solution: Analytics
 subtopic: Warnhinweise
 title: Warnhinweise
 topic: Reports and Analytics
-uuid: e 1333 a 9 b-eba 0-45 b 7-b 7 e 6-46 e 06190 db 64
+uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Warnhinweise {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Als neues Warnhinweissystem für alle Adobe Analytics können Sie mit intelligenten Warnhinweisen Warnhinweise erstellen und verwalten, die mit Warnhinweisvorschau und Regelbeiträgen ausgefüllt werden. Sie können
+Als neues Warnhinweissystem für Adobe Analytics können Sie mit intelligenten Warnhinweisen Warnhinweise erstellen und verwalten, einschließlich Warnhinweisvorschau und Regelbeitrag. Sie können
 
 * Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%- oder 99-%-Schwellen, Änderungen in %, darüber/darunter).
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird.
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken.
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+Über **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweise]** können Sie in allen Berichten in Reports &amp; Analytics auf das neue Warnhinweissystem zugreifen.
 
 Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter [Intelligente Warnhinweise](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
 
@@ -38,7 +38,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** menu. Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
+Navigieren Sie zum neuen Warnhinweiserstellung im Menü **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** . Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
 
 1. Öffnen Sie in Reports &amp; Analytics den Bericht, für den Sie einen Warnhinweis einrichten möchten.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
