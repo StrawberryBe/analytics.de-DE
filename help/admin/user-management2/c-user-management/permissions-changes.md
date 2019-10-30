@@ -9,7 +9,7 @@ title: Änderungen an Berechtigungen für Benutzer und Gruppen
 topic: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]**
 
->[!NOTE]
->
->Aufgrund der zahlreichen verfügbaren Berechtigungskombinationen können wir keine Dokumentation bereitstellen, die alle API-Methoden beschreibt, die in jeder Berechtigungskombination verwendet werden können. Im Allgemeinen gilt Folgendes: Benutzer ohne Administratorstatus, die Web-Services-Zugriff erhalten, haben nur Lesezugriff auf API-Methoden. Sie verfügen im Hinblick auf Methoden nicht über Schreibzugriff.
+> [!NOTE] Aufgrund der zahlreichen verfügbaren Berechtigungskombinationen können wir keine Dokumentation bereitstellen, die alle API-Methoden beschreibt, die in jeder Berechtigungskombination verwendet werden können. Im Allgemeinen gilt Folgendes: Benutzer ohne Administratorstatus, die Web-Services-Zugriff erhalten, haben nur Lesezugriff auf API-Methoden. Sie verfügen im Hinblick auf Methoden nicht über Schreibzugriff.
 
 Weil API und Oberfläche dasselbe Berechtigungssystem verwenden, wird es sich bei allen Berechtigungen, die ein bestimmter Benutzer ohne Administratorstatus von einem Administrator in der Oberfläche (Adobe Admin Console) erhalten hat, um dieselben Berechtigungen handeln, die der Benutzer in der API hat.
 
@@ -128,9 +126,7 @@ Hier finden Sie wichtige neue Informationen zu neuen und geplanten Aktualisierun
 
 In der folgenden Tabelle finden Sie Aufgaben und deren Durchführungszeitpunkt (abhängig vom Status des Unternehmens).
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. Wenn die E-Mail-Einladung nicht angenommen wird, sind Benutzer weiterhin Analytics-Benutzer und können nicht in der Admin-Konsole verwaltet werden. (Die Ausnahme ist, wenn für die Migration [Enterprise oder Federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html) verwendet werden. In diesem Fall wird der Benutzer migriert, wenn der Administrator Benutzer einzeln migriert.)
+> [!NOTE] Ein *`migrated user`* und *`Experience Cloud user`* verweisen auf Benutzer, die eine E-Mail-Einladung zum Beitritt zur Experience Cloud angenommen haben. Wenn die E-Mail-Einladung nicht angenommen wird, sind Benutzer weiterhin Analytics-Benutzer und können nicht in der Admin-Konsole verwaltet werden. (Die Ausnahme ist, wenn für die Migration [Enterprise oder Federated IDs](https://helpx.adobe.com/enterprise/using/set-up-identity.html) verwendet werden. In diesem Fall wird der Benutzer migriert, wenn der Administrator Benutzer einzeln migriert.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
