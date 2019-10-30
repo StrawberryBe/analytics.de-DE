@@ -8,7 +8,7 @@ title: Visualisierungsübersicht
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zwei Achsen anzeigen </p> </td> 
-   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
+   <td colname="col2"> <p>Gilt nur, wenn Sie zwei Metriken haben - Sie können eine Y-Achse links (für eine Metrik) und rechts (für die andere Metrik) haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anomalien anzeigen </p> </td> 
