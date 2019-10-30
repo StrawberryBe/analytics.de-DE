@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getNewRepeat
 topic: Entwickler und Implementierung
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Mithilfe dieses Plug-ins können Sie die folgenden Fragen beantworten:
 * Generieren wiederkehrende Besucher eine höhere Konversion pro Kopf als neue Besucher? Wie stellt sich dieses Verhältnis dar?
 * Führen meine Marketing-Kampagnen über mehrere Besuche hinweg zu einer Persistenz? Kehren zum Beispiel Benutzer, die sich durch meine Kampagnen klicken, auch wieder zurück?
 
->[!NOTE]
->
->Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code und -Implementierung {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
