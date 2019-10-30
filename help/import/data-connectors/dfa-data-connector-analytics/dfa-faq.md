@@ -8,28 +8,26 @@ title: Häufig gestellte Fragen
 topic: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Häufig gestellte Fragen{#frequently-asked-questions}
 
-## Warum werden meine Anmeldedaten nicht vom Data Connectors-Assistenten akzeptiert? {#section-f019b3de18774df3954af7881aa564fa}
+## Why won't the Data Connectors wizard accept my login credentials? {#section-f019b3de18774df3954af7881aa564fa}
 
 Wenn Sie überprüft haben, dass die Anmeldedaten gültig sind, stellen Sie sicher, dass der für die Integration bereitgestellte Benutzername für den API-Zugriff aktiviert ist. Der Data Connectors-Assistent verwendet die DFA-API zur Validierung der Anmeldedaten sowie zum Aktivieren und Deaktivieren der Adobe-spezifischen Einstellungen in der DFA-API. Der API-Zugriff ist eine Funktion, die ein Administrator in der DFA-Oberfläche aktivieren muss. Stellen Sie als Nächstes sicher, dass Sie Zugriff auf die im Assistenten ausgewählte Advertiser- oder Floodlight-Konfigurations-ID haben.
 
 ## Warum werden mir keine Daten aus den nächtlich hochgeladenen Metriken (DFA-Impressionen, DFA-Klicks usw.) angezeigt? {#section-465fd22ae6b447ffb6baf20b57daa433}
 
-Bei Version 1.5 der Integration kann das daran liegen, dass Ihre Integration noch keiner Client-Site-ID zugewiesen wurde. Für den nächtlichen Austausch sowie zum Abfragen von Daten vom DFA-Anzeigenserver ist eine Client-Site-ID (CSID) erforderlich. Es kann ab dem Datum der Integration bis zu drei Tage dauern, bis CSIDs mit Google ausgetauscht werden. Sobald die CSID bei Google eingegangen ist, erhalten Sie unter der E-Mail-Adresse der Integration die neue CSID sowie den aktuellen JavaScript-Code.
+Bei Version 1.5 der Integration kann das daran liegen, dass Ihre Integration noch keiner Client-Site-ID zugewiesen wurde. Für den nächtlichen Austausch sowie zum Abfragen von Daten vom DFA-Anzeigenserver ist eine Client-Site-ID (CSID) erforderlich. Es kann ab dem Datum der Integration bis zu drei Tage dauern, bis CSIDs mit Google ausgetauscht werden. Sobald die CSID von Google erhalten wurde, werden Sie über die E-Mail-Adresse der Integration über die neue CSID sowie den neuesten JavaScript-Code benachrichtigt.
 
 Wenn Sie die Einrichtungs-E-Mail nach drei Tagen nicht erhalten haben und keine Metriken gesendet werden, liegt das Problem wahrscheinlich darin, dass die CSID bereits einer anderen Integration zugewiesen ist. Bei Google werden CSID und Report Suite eins zu eins zugeordnet; wenn für eine Integration in einer Report Suite also dieselbe Advertiser-ID wie für eine andere Integration in einer anderen Report Suite verwendet wird, wird nur der ersten eine CSID zugeordnet. Um die Zuordnung einer CSID zu einer Report Suite oder Advertiser-ID zu ändern, müssen Sie einen Fall bei der Google-Hilfe erstellen.
 
 Beispiel: Es gibt eine Integration in Report Suite A mit der Advertiser-ID Z, der eine CSID zugeordnet wird. Später wird eine weitere Integration in Report Suite B mit der Advertiser-ID Z eingerichtet und dieser neuen Integration wird die CSID NICHT erneut zugeordnet. Dazu ist die Erstellung eines Falls bei Google erforderlich. Ein anderes Beispiel wäre eine Integration in Report Suite A mit der Advertiser-ID Z, später wird eine weitere Integration in Report Suite A mit der Advertiser-ID Z eingerichtet. Es werden nur Daten zur Integration an die erste Integration gesendet. Allerdings kann die erste Integration in diesem Fall deaktiviert werden, woraufhin Daten an die zweite Integration gesendet werden.
 
->[!NOTE]
->
->CSIDs werden nicht in Version 2.0 der Integration verwendet, daher ist der CSID-Verhandlungsprozess nicht anwendbar.
+> [!NOTE] CSIDs werden nicht in Version 2.0 der Integration verwendet, daher ist der CSID-Verhandlungsprozess nicht anwendbar.
 
 ## Ich verwende Version 2.0 der Integration und ich sehe keine Kostenmetriken für meine DFA-Anzeigen. Woran kann das liegen? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -39,13 +37,13 @@ Kostenmetriken müssen sowohl bei Google-DFA und im Data Connectors-Assistenten 
 
 Manche Anzeigen erfassen nur Klickdaten und werden daher Klicktracker genannt. Bei diesen Anzeigen werden keine Daten zur letzten Impression bei Abfrage des Floodlight-Servers zurückgegeben. Sie können überprüfen, ob es sich bei einer Anzeige um einen Klicktracker oder eine reine Klickanzeige handelt, indem Sie sich an Ihre DFA-Agentur oder Ihren Ansprechpartner bei der Google-Hilfe wenden.
 
-## Warum gibt es keine Clickthroughs für Anzeigen mit DFA-Klicks? {#section-758c1f1fc5b54bfc9294dcdc71bbd96a}
+## Why aren't there any click-throughs for ads that show DFA Clicks? {#section-758c1f1fc5b54bfc9294dcdc71bbd96a}
 
 Auf diese Frage gibt es viele Antworten.
 
 Vergewissern Sie sich zunächst, dass die Anzeige über eine Landingpage-URL verfügt, die (a) für dieselbe Report Suite mit Adobe-Code getaggt ist, in der die Diskrepanz auftritt, und (b) den Abfragestringparameter *`clickThroughParam`* enthält.
 
-Überprüfen Sie anschließend, ob Sie über eine funktionierende Integration verfügen, indem Sie die Schritte unter [Bestätigung einer erfolgreichen DFA-Integration](../dfa-data-connector-analytics/dfa-integration.md)durchführen. Wird mit dem Adobe-Treffer auf der Landingpage ein DFA-Trackingcode angezeigt, sollte dieser Clickthrough ebenfalls im DFA-Kampagnenbericht enthalten sein. Wird es nicht angezeigt, überprüfen Sie, ob die Report Suites bei der Landingpagevariablen *`s.account`* und der in Reports &amp; Analysen angezeigten Report Suite übereinstimmen. Stimmen diese überein, suchen Sie nach Trackingcodes im Durchsichts-eVar-Bericht, die das Format DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX aufweisen.
+Überprüfen Sie anschließend, ob Sie über eine funktionierende Integration verfügen, indem Sie die Schritte unter [Bestätigung einer erfolgreichen DFA-Integration](../dfa-data-connector-analytics/dfa-integration.md)durchführen. Wird mit dem Adobe-Treffer auf der Landingpage ein DFA-Trackingcode angezeigt, sollte dieser Clickthrough ebenfalls im DFA-Kampagnenbericht enthalten sein. Wenn Sie nicht sehen, dass die Report Suites übereinstimmen, vergewissern Sie sich, dass die *`s.account`* Variable der Einstiegsseite und die in Reports &amp; Analysen angezeigte Report Suite übereinstimmen. Stimmen diese überein, suchen Sie nach Trackingcodes im Durchsichts-eVar-Bericht, die das Format DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX aufweisen.
 
 Diese geben an, dass die DFA-Rohdaten nicht durch die DFA-VISTA-Regel verarbeitet werden konnten. Sie können dieses Problem lösen, indem Sie über Ihren Kundenbetreuer eine Supportanfrage erstellen.
 
