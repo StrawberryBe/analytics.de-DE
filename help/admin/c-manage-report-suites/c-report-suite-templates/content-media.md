@@ -1,29 +1,29 @@
 ---
 description: Definiert die allgemeinen Einstellungen für eine Website, für die Originalinhalte entwickelt und auf der Artikel und Videos präsentiert werden.
 seo-description: Definiert die allgemeinen Einstellungen für eine Website, für die Originalinhalte entwickelt und auf der Artikel und Videos präsentiert werden.
-seo-title: Inhalt und Medien
+seo-title: Inhalte und Medien
 solution: Analytics
-title: Inhalt und Medien
+title: Inhalte und Medien
 topic: Admin Tools
-uuid: 281 b 0 bf 8-59 dc -46 dc-b 5 d 5-5 e 42827 b 785 d
+uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Inhalt und Medien
+# Inhalte und Medien
 
 Definiert die allgemeinen Einstellungen für eine Website, für die Originalinhalte entwickelt und auf der Artikel und Videos präsentiert werden.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code` festlegen |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code` festgelegt |
 |---|---|---|---|---|---|
 | Interne Kampagne | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
 | Handelsvariable 3 | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar3` |
 | Handelsvariable 4 | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar4` |
 
-| Erfolgsereignisse | Typ | `s_code` festlegen |
+| Erfolgsereignisse | Typ | `s_code` festgelegt |
 |---|---|---|
 | Registrierungen | Zähler (keine Subrelationen) | `event1` |
 | E-Mail-Registrierungen | Zähler (keine Subrelationen) | `event2` |
@@ -32,13 +32,13 @@ Definiert die allgemeinen Einstellungen für eine Website, für die Originalinha
 | Anzeigenimpressionen | Zähler (keine Subrelationen) | `event5` |
 | Anzeigenklicks | Zähler (keine Subrelationen) | `event6` |
 
-| Benutzerspezifische Insight-Variablen | `s_code` festlegen |
+| Benutzerspezifische Insight-Variablen | `s_code` festgelegt |
 |---|---|
 | Trafficeigenschaft 1-5 | `prop1, prop2, prop3, prop4, prop5` |
 
 Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die Anfangskonfiguration für diese Ereignisse ist in allen Report Suite-Vorlagen gleich. Ereignisse mit einer N/A Variablen „s_code“ müssen nicht eingestellt werden, da sie automatisch bereitgestellt werden.
 
-| Standard-Verkaufsereignisse | Typ | `s_code` festlegen |
+| Standard-Verkaufsereignisse | Typ | `s_code` festgelegt |
 |---|---|---|
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
