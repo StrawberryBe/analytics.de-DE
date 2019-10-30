@@ -5,7 +5,7 @@ seo-title: Mobil-Berichte
 title: Mobil-Berichte
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Beric
 
 Um die Besucheridentifizierung für Mobilgeräte zu verbessern, müssen Sie sich in der Liste des Anbieters (White List) zum Versand von Abonnenten-IDs an eine Domäne eintragen. (You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->Um Berichte auf einem Mobilgerät anzuzeigen, melden Sie sich bei der [Experience Cloud](https://login.experiencecloud.adobe.com)an.
+> [!NOTE] Um Berichte auf einem Mobilgerät anzuzeigen, melden Sie sich bei der [Experience Cloud](https://login.experiencecloud.adobe.com)an.
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>Farbtiefe-Bericht </p> </td> 
-   <td colname="col2"> <p>Fasst Treffer von Mobilgeräten nach der Anzahl der unterstützten Farben zusammen. Der Bericht zeigt die Gesamtanzahl der Besucher auf Ihrer Site an, die ein Mobilgerät verwendet haben, und unterteilt diese in Gruppen je nach Anzahl der auf dem jeweiligen Mobilgerät konfigurierten Farben. Wenn das Handy Ihres Besuchers z. B. 24 Farben unterstützt, inkrementiert „Marketing Reports and Analytics“ den Zeileneintrag entsprechend den 24 Farben. </p> </td> 
+   <td colname="col2"> <p>Fasst Treffer von Mobilgeräten nach der Anzahl der unterstützten Farben zusammen. Der Bericht zeigt die Gesamtanzahl der Besucher auf Ihrer Site an, die ein Mobilgerät verwendet haben, und unterteilt diese in Gruppen je nach Anzahl der auf dem jeweiligen Mobilgerät konfigurierten Farben. Wenn das Handy Ihres Besuchers beispielsweise 24 Farben unterstützt, inkrementiert Marketing Reports &amp; Analysen den Zeileneintrag entsprechend 24 Farben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bericht zur Audio-Unterstützung </p> </td> 
-   <td colname="col2"> <p>Fasst Mobilgeräte nach der Art von Audioformaten zusammen, die sie unterstützen. Wenn das Handy eines Benutzers beispielsweise das Format <span class="filepath">.mp3</span> unterstützt, wird der Bericht zur <span class="wintitle">Audiounterstützung</span> um mindestens 1 inkrementiert. Wenn Ihr Handy mehr als ein Audioformat unterstützt, ergibt ein Besuch auf der Site möglicherweise Inkrementierungen für jeden unterstützten Audiotyp. Sollte Ihr Handy die Formate <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> und <span class="filepath">.amr</span> unterstützen, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
+   <td colname="col2"> <p>Fasst Mobilgeräte nach der Art von Audioformaten zusammen, die sie unterstützen. For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. Wenn Ihr Handy mehr als ein Audioformat unterstützt, ergibt ein Besuch auf der Site möglicherweise Inkrementierungen für jeden unterstützten Audiotyp. Sollte Ihr Handy die Formate <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> und <span class="filepath">.amr</span> unterstützen, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichte zur Video-Unterstützung </p> </td> 
