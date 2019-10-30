@@ -1,25 +1,25 @@
 ---
 description: Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
 seo-description: Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
-seo-title: Hochladen einer Datenquellen-Datei
+seo-title: Datenquellen-Datei hochladen
 solution: Analytics
 subtopic: Datenquellen
-title: Hochladen einer Datenquellen-Datei
+title: Datenquellen-Datei hochladen
 topic: Entwickler und Implementierung
-uuid: 5 a 9 dde 91-1297-47 e 5-9393-611 b 40413 c 17
+uuid: 5a9de91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Hochladen einer Datenquellen-Datei
+# Datenquellen-Datei hochladen
 
 Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
 
 Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Verarbeitung an Data Sources weiter. Adobe unterhält mehrere Data Sources-FTP-Server, auf die Sie Data Sources-Dateien hochladen können. Beachten Sie Folgendes über die Data Sources-FTP-Server:
 
-* Wählen Sie auf der Registerkarte [!UICONTROL „Data Sources-Manager“] neben dem Datenquelleneintrag die Option „FTP-Info“ aus, um den FTP-Host sowie Anmelde- und Kennwortinformationen für das FTP-Konto der Datenquelle anzuzeigen. Jeder mit Zugriff auf diese Informationen kann Daten in Ihre Report Suite hochladen.
+* Select FTP Info next to the Data Source entry in the [!UICONTROL Data Sources Manage] tab to see the FTP Host, Login, and Password information for the data source's FTP account. Jeder mit Zugriff auf diese Informationen kann Daten in Ihre Report Suite hochladen.
 * Aus Sicherheitsgründen werden FTP-Konten nach 30 Tagen Inaktivität geschlossen.
 * FTP-Konten sind Datenquellen-spezifisch. Sie können nicht ein FTP-Konto zum Hochladen von Data Sources-Dateien in mehrere Datenquellen verwenden.
 
