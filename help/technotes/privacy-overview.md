@@ -2,17 +2,17 @@
 description: Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hinweise zum Datenschutz.
 keywords: Datenschutz
 seo-description: Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hinweise zum Datenschutz.
-seo-title: Datenschutz - Überblick
+seo-title: Datenschutzübersicht
 solution: Analytics
-title: Datenschutz - Überblick
-uuid: f 19 a 8 b 35-3 e 10-47 ae -93 c 1-6 a 9924 b 11313
+title: Datenschutzübersicht
+uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Datenschutz - Überblick
+# Datenschutzübersicht
 
 Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hinweise zum Datenschutz.
 
@@ -74,7 +74,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Analysen von Erstanbietern sind nicht Teil des Self-Regulatory Program for Online Behavioral Advertising („AdChoices“). </td> 
+   <td colname="col2"> Analysen von Erstanbietern fallen nicht in den Anwendungsbereich des Selbstregulierungsprogramms für Online-verhaltensbasierte Werbung ("AdChoices"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -94,15 +94,15 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Ein Kunde kann die Variable für die Cookielebensdauer im JavaScript-Messungscode auf den Wert „none“, „session“ oder einen anderen spezifischen, in Sekunden gemessenen Wert setzen. </td> 
+   <td colname="col2"> Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungscode auf den Wert "none", "session"oder einen anderen, in Sekunden gemessenen Wert setzen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe verfügt über eine neue Einstellung für eingebauten Datenschutz, die jetzt mit Adobe ClientCare für die Adobe Analytics (früher SiteCatalyst)-Versionen 14.9 und 15.4 aktiviert werden können. Ist diese neue Einstellung aktiviert, wird das letzte Oktett (der letzte Teil) der IP-Adresse unverzüglich durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. </td> 
+   <td colname="col2"> Adobe hat eine neue Einstellung für den Schutz personenbezogener Daten entwickelt, die jetzt von Adobe ClientCare für Adobe Analytics (früher SiteCatalyst) in den Versionen 14.9 und 15.4 aktiviert werden kann. Wenn diese neue Einstellung aktiviert ist, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Deutschland </td> 
-   <td colname="col2"> <p>Wenn Kunden nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten sie ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. </p> <p>Adobe hat eine Vereinbarung zur Datenverarbeitung (Document Processing Agreement - ADV) für Analytics vorbereitet, die von Bayerischen Landesamt-Datenschutzbehörden (baylda) geprüft und genehmigt wurde. Der ADV ist auf Deutsch und auf Englisch verfügbar. </p> </td> 
+   <td colname="col2"> <p>Wenn Kunden nicht bereits einen Vertrag über Auftragsdatenverarbeitung (ADV) für Adobe Analytics mit Adobe abgeschlossen haben, sollten sie ihren Adobe-Kundenbetreuer oder Customer Success Manager kontaktieren, der den ADV mit der Rechtsabteilung von Adobe abschließen wird. </p> <p>Adobe hat einen Vertrag für Auftragsdatenverarbeitung (ADV) für Analytics vorbereitet, der vom Bayerischen Landesamt für Datenschutzaufsicht (BayLDA) geprüft und genehmigt wurde. Der ADV ist auf Deutsch und auf Englisch verfügbar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
