@@ -8,7 +8,7 @@ title: Windows Silverlight, NET, IIS, XBOX
 topic: Entwickler und Implementierung
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->These SDKs have been sunset and are no longer supported or distributed by Adobe.
+>Diese SDKs werden nicht mehr unterstützt oder werden nicht mehr von Adobe verteilt.
 
->[!NOTE]
->
->To find the current library version, turn on debug logging.
+> [!NOTE] Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
 ## Version 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Releasedatum: **August 2014**
 
-* Die Unterstützung für die [!DNL Microsoft Silverlight Analytics Framework]Variable wurde entfernt. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Die Unterstützung für [!DNL Microsoft Silverlight Analytics Framework] wurde entfernt. Adobe unterstützt oder verteilt die [!DNL Microsoft Silverlight Analytics Framework]-Integration nicht mehr für [!DNL AppMeasurement].
 
 * Es wurden interne Veränderungen zur Unterstützung neuer Funktionen vorgenommen.
 
@@ -35,13 +33,13 @@ Releasedatum: **August 2014**
 
 Releasedatum: **März 2013**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* Ausnahmefehler behoben, der beim Abrufen des Standard-Referrers in [!DNL Silverlight] außerhalb eines Browserkontexts und einer ordnungsgemäß offengelegten SSL-Eigenschaft in der [!DNL Microsoft Silverlight Analytics Framework]-Komponente auftrat.
 
 ## Version 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
 Releasedatum: **Februar 2013**
 
-* Es werden nun URLs mit mehr als 255 Byte unterstützt, um die Erweiterung des Felds „Seiten-URL“ in den Adobe-Datenerfassungsservern zu unterstützen. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Damit wird vermieden, dass lange URLs, die im Browser abgeschnitten werden, Vorrang vor anderen Daten haben, während gleichzeitig lange URLs erfasst werden können.
+* Es werden nun URLs mit mehr als 255 Byte unterstützt, um die Erweiterung des Felds „Seiten-URL“ in den Adobe-Datenerfassungsservern zu unterstützen. Seiten-URLs, die länger als 255 Byte sind, werden geteilt, wobei die ersten 255 Byte im Parameter `g=` auftauchen und die verbleibenden Byte später in der Abfragezeichenfolge im Suchparameter `-g=` auftauchen. Damit wird vermieden, dass lange URLs, die im Browser abgeschnitten werden, Vorrang vor anderen Daten haben, während gleichzeitig lange URLs erfasst werden können.
 
 * Eine neue Methode für den Fallback der Besuchererkennung wurde hinzugefügt. Weitere Informationen finden Sie im Abschnitt [Erkennen Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Es wurde ein neues `abort`-Flag hinzugefügt, das in `doPlugins` eingestellt werden kann. Wird dieses Flag auf „true“ gesetzt, fährt die [!DNL AppMeasurement]-Bibliothek nicht mit dem Rückverfolgungsaufruf fort. Das abort-Flag wird bei jedem Rückverfolgungsaufruf zurückgesetzt. Wenn also auch ein nachfolgender Rückverfolgungsaufruf abgebrochen werden muss, muss das Flag erneut in `doPlugins` eingestellt werden.
@@ -64,7 +62,7 @@ Releasedatum: **September 2012**
 * Korrektur eines Problems, das dazu führen konnte, dass das Video-beendet-Ereignis nicht gesendet wird, wenn eine benutzerspezifische `media.monitor`-Methode verwendet wird, die das Medium-schließen-Ereignis verfolgt:
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
@@ -90,7 +88,7 @@ Releasedatum: **Januar 2012**
 
 ## Version 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* Unterstützung und neuer Build für die [!DNL iOS]-Phone-Plattform einschließlich Offline-Verfolgung.
 * Unterstützung für den doRequest-Delegate, um außer Kraft zu setzen, wie Anforderungen für Verfolgungsdaten gesendet werden.
 * Unterstützung für contextData, welches die Verarbeitungsregeln auf Serverseite (nur v15) aktiviert.
 * Unterstützung für leichte Server-Aufrufe (aktuell in Beta-Version).
