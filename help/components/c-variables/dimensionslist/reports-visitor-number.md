@@ -4,10 +4,10 @@ seo-description: Damit können Sie die Besucherloyalität einschätzen, indem Si
 seo-title: Besuchnummer
 solution: Analytics
 title: Besuchnummer
-topic: 'Berichte    '
-uuid: f 98 dafab -9369-4055-a 793-5 ea 0217 b 78 b 0
+topic: Berichte
+uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
