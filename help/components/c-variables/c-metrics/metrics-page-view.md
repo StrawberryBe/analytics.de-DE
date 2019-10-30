@@ -5,9 +5,9 @@ seo-title: Seitenansicht
 solution: Analytics
 title: Seitenansicht
 topic: Metriken
-uuid: 85004 c 72-2369-44 a 9-a 97 f-f 2 e 144 a 54 c 90
+uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,6 +22,6 @@ A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt;
 |---|---|
 | Traffic | Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website aufruft. |
 | Konversion | Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website aufruft. |
-| Ad Hoc Analysis | Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website aufruft. |
+| Ad Hoc Analysis  | Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website aufruft. |
 
-Siehe [Seitenansichten-Bericht](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33).
+Siehe [Page Views Report](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33).
