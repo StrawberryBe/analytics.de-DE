@@ -1,18 +1,18 @@
 ---
 description: ReportBuilder verwendet den benutzerdefinierten Kalender von Analytics. Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung.
 seo-description: ReportBuilder verwendet den benutzerdefinierten Kalender von Analytics. Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung.
-seo-title: Benutzerspezifischer Kalender
+seo-title: Benutzerdefinierter Kalender
 solution: Analytics
-title: Benutzerspezifischer Kalender
+title: Benutzerdefinierter Kalender
 topic: ReportBuilder
-uuid: 88 d 24 bf 9-de 46-41 e 0-937 e-b 8 a 1 fe 36 c 55 d
+uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Benutzerspezifischer Kalender
+# Benutzerdefinierter Kalender
 
 ReportBuilder verwendet den benutzerdefinierten Kalender von Analytics. Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung.
 
@@ -40,7 +40,7 @@ Die einzelnen Kalenderformate werden im Folgenden beschrieben.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerdefinierter Kalender </p> </td> 
-   <td colname="col2"> <p> Bietet drei Formate, basierend auf der Anzahl der Wochen je Monat. Die Anzahl der Wochen je Monat hängt von dem ausgewählten ersten Tag des Jahres ab. </p> <p>Ein Jahr hat 52 Wochen. Bei einer Aufteilung in vier Quartale kommen 13 Wochen pro Quartal heraus. Doch in einem Quartal sind drei Monate enthalten. Die Zahl 13 ist nicht durch 3 teilbar. Folglich muss die übrig gebliebene Woche aus Konsistenzgründen einem der Monate hinzugefügt werden. 5-4-4 bedeutet, dass die übrig gebliebene Woche im 1. Monat des Quartals ist. 4-5-4 bedeutet, dass sie im 2. Monat ist, usw. Im 5-4-4-Kalender wird die 53. Woche dem letzten Quartal des Jahres hinzugefügt. </p> 
+   <td colname="col2"> <p> Bietet drei Formate, basierend auf der Anzahl der Wochen je Monat. Die Anzahl der Wochen je Monat hängt von dem ausgewählten ersten Tag des Jahres ab. </p> <p>Ein Jahr hat 52 Wochen. Bei einer Aufteilung in vier Quartale kommen 13 Wochen pro Quartal heraus. Doch in einem Quartal sind drei Monate enthalten. 13 ist nicht durch drei teilbar, sodass man die Extra-Woche in einem der Monate, sodass es immer konsistent ist. 5-4-4 bedeutet, dass die übrig gebliebene Woche im 1. Monat des Quartals ist. 4-5-4 bedeutet, dass sie im 2. Monat ist, usw. Im 5-4-4-Kalender wird die 53. Woche dem letzten Quartal des Jahres hinzugefügt. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: Januar hat vier Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Januar hat vier Wochen, Februar hat vier Wochen, März hat fünf Wochen usw. </li> 
