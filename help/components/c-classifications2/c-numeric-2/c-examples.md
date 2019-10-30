@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Classifications
 title: Beispiele
 topic: Admin Tools
-uuid: 0553 d 07 f -87 c 1-4372-90 ce -7118 a 6393 a 01
+uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 – 2010/02/28 | revenue | revenue |
 | 2010/02/01 – 2010/02/28 | revenue | revenue |
 
-Im Februar sind die Kosten des Benutzers für Produkt1 um 15 % des Umsatzes gefallen, bei Produkt2 sanken die Kosten um 25 % des Umsatzes.
+Im Februar gingen die Kosten des Benutzers für Produkt1 auf 15 % des Umsatzes zurück, und Produkt2 sank auf 25 % seines Umsatzes.
 
 ## Ergebnis {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -170,9 +170,7 @@ Bericht: Produkte
 |---|---|---|
 | Product1 | 10.000,23 $ | 2500,05 $ |
 
->[!NOTE]
->
->Diese Funktion eignet sich für fortgeschrittene Benutzer zur Näherung der Werte. Die Ergebnisinformationen sollten nicht als exakte Werte gesehen werden.
+> [!NOTE] Diese Funktion ist für fortgeschrittene Benutzer geeignet, Werte anzunähern. Die Ergebnisinformationen sollten nicht als exakte Werte gesehen werden.
 
 <!-- 
 
