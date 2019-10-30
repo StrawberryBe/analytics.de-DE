@@ -1,19 +1,19 @@
 ---
 description: Schlüsseln Sie Dimensionen und Dimensionselemente in Analysis Workspace auf.
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: Schlüsseln Sie Dimensionen und Dimensionselemente in Analysis Workspace auf.
-seo-title: Dimensionen aufschlüsseln
+seo-title: Schlüsseln Sie Dimensionen auf
 solution: Analytics
-title: Dimensionen aufschlüsseln
+title: Schlüsseln Sie Dimensionen auf
 topic: Reports and Analytics
-uuid: 0 b 888 e 26-f 201-4405-99 f 9-755 b 3 ee 6 cd 18
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dimensionen aufschlüsseln
+# Schlüsseln Sie Dimensionen auf
 
 Schlüsseln Sie Dimensionen und Dimensionselemente in Analysis Workspace auf.
 
@@ -22,14 +22,14 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
 1. [Erstellen Sie ein Projekt](../../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) mit einer Datentabelle.
 1. In the data table, right-click a line item and select **[!UICONTROL Breakdown]** &gt; *`<item>`*.
 
-   ![Schrittergebnis](assets/fa_data_table_actions.png)
+   ![Schritt Ergebnis](assets/fa_data_table_actions.png)
 
    Sie können Metriken nach Dimensionswerten oder Zielgruppensegmenten über ausgewählte Zeiträume aufschlüsseln. Sie können auch noch granularer aufschlüsseln.
 
    >[!NOTE]
    >
-   >Die Anzahl der in der Tabelle angezeigten Unterteilungen ist auf 200 begrenzt. Für das Exportieren von Aufschlüsselungen ist diese Einschränkung höher.
+   >Die Anzahl der in der Tabelle anzuzeigenden Aufschlüsselungen ist auf 200 begrenzt. Für das Exportieren von Aufschlüsselungen ist diese Einschränkung höher.
 
-[Dimensionen im Analysis Workspace auf youtube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+[Dimensionen im Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
-[Dimensionsaufschlüsselungen auf youtube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
+[Dimensionsaufschlüsselungen auf YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
