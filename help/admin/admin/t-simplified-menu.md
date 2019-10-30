@@ -1,18 +1,18 @@
 ---
 description: Schritte zur Implementierung des vereinfachten Berichtmenüs in Reports & Analysen.
 seo-description: Schritte zur Implementierung des vereinfachten Berichtmenüs in Reports & Analysen.
-seo-title: Vereinfachtes Menü „Berichte“
+seo-title: Vereinfachtes Berichtsmenü
 solution: Analytics
-title: Vereinfachtes Menü „Berichte“
+title: Vereinfachtes Berichtsmenü
 topic: Admin Tools
-uuid: cc 7023 e 4-9 e 28-477 e -9266-6 d 06 e 5379559
+uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Vereinfachtes Menü „Berichte“
+# Vereinfachtes Berichtsmenü
 
 Schritte zur Implementierung des vereinfachten Berichtmenüs in Reports &amp; Analysen.
 
@@ -20,9 +20,7 @@ Das Adobe Reports &amp; Analytics-Menü ermöglicht die Auswahl eines alternativ
 
 ![](assets/simplified-menu.png)
 
->[!NOTE]
->
->Beachten Sie, dass durch Anwendung des vereinfachten Menüs alle Anpassungen entfernt werden, die Sie an der Standardmenüstruktur vorgenommen haben. Die vereinfachte Menüstruktur wird außerdem für alle Marketing Reports and Analytics-Benutzer in Ihrer Organisation implementiert. Bedenken Sie vorher, welche Auswirkungen (z. B. für Schulungen, die sich auf die vorhandene Menüstruktur beziehen) die Implementierung des neuen Menüs haben wird, da sich Anpassungen der vorhandenen Menüstruktur danach nicht wiederherstellen lassen.
+> [!NOTE] Beachten Sie, dass durch Anwendung des vereinfachten Menüs alle Anpassungen, die Sie an der Standardmenüstruktur vorgenommen haben, entfernt werden. Die vereinfachte Menüstruktur wird außerdem für alle Marketing Reports and Analytics-Benutzer in Ihrer Organisation implementiert. Bedenken Sie vorher, welche Auswirkungen (z. B. für Schulungen, die sich auf die vorhandene Menüstruktur beziehen) die Implementierung des neuen Menüs haben wird, da sich Anpassungen der vorhandenen Menüstruktur danach nicht wiederherstellen lassen.
 
 1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the Report Suite Manager.
 1. Wählen Sie die Report Suite aus, für die Sie die vereinfachte Menüstruktur implementieren möchten.
