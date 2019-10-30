@@ -5,7 +5,7 @@ seo-title: Metriken erstellen
 title: Metriken erstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,7 +90,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
    <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> Mehr... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Hinzufügen </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Fügen Sie </span> </td> 
    <td colname="col3"> <p>Sie können Container und statische Nummern zu den Definitionen aller Arten berechneter Metriken hinzufügen. Für erweiterte berechnete Metriken können Sie auch Segmente und Funktionen hinzufügen. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">Container funktionieren wie mathematische Ausdrücke und bestimmen die Reihenfolge der Vorgänge. Jedes Element in einem Container wird also vor dem nächsten Vorgang verarbeitet. </li> 
@@ -112,7 +112,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Dimensionen </p> </td> 
-   <td colname="col3"> <p>Zum Erstellen eines einfachen Segments (im Segmentaufbau) müssen Sie den Generator für berechnete Metriken nicht verlassen (z. B. „Seite = Homepage“). Sie können das Element „Seite“ hereinziehen und „Homepage“ direkt im Generator für berechnete Metriken auswählen. </p> <p>So profitieren Sie von einem deutlich optimierten Arbeitsablauf bei der Erstellung segmentierter berechneter Metriken. </p> </td> 
+   <td colname="col3"> <p>Anstatt den Generator für berechnete Metriken zu verlassen, um ein einfaches Segment (im Segmentaufbau) zu erstellen, z. "Seite = Homepage", können Sie direkt aus dem Generator für berechnete Metriken die Option Homepage per Drag &amp; Drop in die Seite ziehen. </p> <p>So profitieren Sie von einem deutlich optimierten Arbeitsablauf bei der Erstellung segmentierter berechneter Metriken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Metriken </p> </td> 
