@@ -5,7 +5,7 @@ seo-title: Zeitplan-Manager
 solution: Analytics
 title: Zeitplan-Manager
 topic: Ad Hoc Analysis
-uuid: 82 a 054 ef -109 d -414 d-a 6 e 1-e 09 ee 57 c 163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -22,13 +22,13 @@ Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstell
 
 >[!NOTE]
 >
->Wenn ein Benutzerkonto deaktiviert ist, werden alle terminierten Berichtauslieferungen, die von diesem Benutzer erstellt wurden, ausgesetzt.
+>Wenn ein Benutzerkonto deaktiviert ist, werden alle geplanten Berichtauslieferungen, die von diesem Benutzer erstellt wurden, ausgesetzt.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+Um sicherzustellen, dass Zeilenelemente in einer Aufschlüsselung in gespeicherten und geplanten Berichten persistent sind, verwenden Sie die Funktion Elemente **[!UICONTROL bearbeiten]** im [Tabellenaufbau](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) , um feste Dimensionslisten in Aufschlüsselungen zu erstellen.
 
 >[!IMPORTANT]
 >
->Mit Ad-hoc-Analysen können Sie schnell Berichte für spezifische, zeitnahe Ad-hoc-Berichtsanforderungen definieren und planen. Die Anwendung ist nicht für den vollständigen Datenexport mit einer hohen Anzahl Zeilen, Werte, Metrik-Auswertungen oder umfangreiche Aufschlüsselungen mittels Datenextraktion ausgelegt.
+>Mit Ad-hoc-Analysen können Sie schnell Berichte für spezifische, zeitnahe Ad-hoc-Berichterstellungsanforderungen definieren und planen. Die Anwendung ist nicht für den vollständigen Datenexport mit einer hohen Anzahl Zeilen, Werte, Metrik-Auswertungen oder umfangreiche Aufschlüsselungen mittels Datenextraktion ausgelegt.
 >
 >Praktische Beschränkungen der terminierten Berichtsfunktion bei Ad Hoc Analysis basieren auf diesem Prinzip: Wenn der Bericht nicht innerhalb von 10 Minuten erstellt wird (Timeout für Ad Hoc Analysis), dann ist der Bericht wahrscheinlich zu komplex.
 >
