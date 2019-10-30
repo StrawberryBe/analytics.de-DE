@@ -3,9 +3,9 @@ description: Virtual Report Suites können so zusammengestellt werden, dass Komp
 seo-description: Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 seo-title: Zusammenstellung der Virtual Report Suite-Komponenten
 title: Zusammenstellung der Virtual Report Suite-Komponenten
-uuid: 6 c 6 a 4071-22 ad -4 e 8 c-b 1 ed -140 b 2 aa 04 f 76
+uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 
->[!NOTE]
->
->Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
+> [!NOTE]Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
@@ -31,8 +29,8 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    >
    >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
 
-   * [!UICONTROL Reports &amp; Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
+   * [!UICONTROL Reports and Analytics]
+   * [!UICONTROL Ad Hoc Analysis ]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics-Reporting-API
