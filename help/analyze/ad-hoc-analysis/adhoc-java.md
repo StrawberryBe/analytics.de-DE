@@ -1,15 +1,15 @@
 ---
-description: Anleitung zum Ausführen von Ad-hoc-Analysen mit Java 11.
-seo-description: Anleitung zum Ausführen von Ad-hoc-Analysen mit Java 11.
+description: Anweisungen zum Ausführen von Ad-hoc-Analysen mit Java 11.
+seo-description: Anweisungen zum Ausführen von Ad-hoc-Analysen mit Java 11.
 seo-title: Ad-hoc-Analysen und Java 11
-title: Ad-hoc-Analysen mit Java 11 ausführen
+title: Ad Hoc Analysis mit Java 11 ausführen
 translation-type: tm+mt
 source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
 
 ---
 
 
-# Ad-hoc-Analysen mit Java 11 ausführen
+# Ad Hoc Analysis mit Java 11 ausführen
 
 Wenn Sie Ad Hoc Analysis mit Java 11 ausführen, müssen Sie im Vergleich zu Java 8 zusätzliche Schritte ausführen.
 
@@ -25,17 +25,17 @@ Arbeiten Sie mit Ihrem IT-Team zusammen, um sicherzustellen, dass Folgendes erf�
 1. Gehen Sie zu **[!UICONTROL Analyse &gt; Werkzeuge &gt; Ad Hoc Analysis]**.
 1. Klicken Sie auf **[!UICONTROL Ad Hoc Analysis (Java 11)]**. Dadurch wird eine Zip-Datei heruntergeladen.
 1. Extrahieren Sie die heruntergeladene Datei.
-1. **Wählen Sie die Datei .bat (PC) oder .sh (Mac)**. Wählen Sie die entsprechende Rechenzentrumsdatei aus, indem Sie die Nummer in der Adobe Analytics-URL nach „sc“ überprüfen. (3 = LAM, 4 = SIN, 5 = PNW) Überprüfen Sie, ob Sie ein 32-Bit- oder ein 64-Bit-Windows-Betriebssystem ausführen, indem Sie zu "Über Ihr PC" navigieren. Wählen Sie dann die entsprechende .bat-Datei aus.
+1. **Wählen Sie die Datei .bat (PC) oder .sh (Mac)**. Wählen Sie die entsprechende Rechenzentrumsdatei aus, indem Sie die Nummer in der Adobe Analytics-URL nach „sc“ überprüfen. (3 = LON, 4 = SIN, 5 = PNW) Wenn Sie einen PC verwenden, überprüfen Sie, ob Sie ein 32-Bit- oder ein 64-Bit-Windows-Betriebssystem verwenden, indem Sie zu "Info über Ihren PC"gehen. Wählen Sie dann die entsprechende .bat-Datei aus.
 1. **Führen Sie die ausgewählte Datei aus**. Für PC: Doppelklicken Sie auf die .bat-Datei. Für Mac: Klicken Sie mit der rechten Maustaste auf die .sh-Datei und wählen Sie anschließend **[!UICONTROL Öffnen mit &gt; Sonstige...  &gt; Dienstprogramme &gt; (Alle Anwendungen aktivieren) &gt; Terminal auswählen &gt; Öffnen]**.
 1. Melden Sie sich bei Ad Hoc Analysis an.
 
 >[!Note]
 >
-> Federated and Enterprise ID Authentication Methods sind nicht mit der Java 11-Version der Ad-hoc-Analysen kompatibel.
+> Authentifizierungsmethoden für Federated ID und Enterprise ID sind nicht mit der Java 11-Version von Ad-hoc-Analysen kompatibel.
 
 ## Nicht unterstützte Funktionen in der Ad Hoc Analysis (Java 11)
 
-In der mit Ad-hoc-Analysen kompatiblen Version Java 11 gibt es einige bekannte Einschränkungen:
+Es gibt einige bekannte Einschränkungen in der Java 11-Version, die mit Ad-hoc-Analysen kompatibel sind:
 
 * Authentifizierungsmethoden für Verbund- und Enterprise IDs werden nicht unterstützt.
 * Linux-Betriebssysteme werden nicht unterstützt.
@@ -44,7 +44,7 @@ In der mit Ad-hoc-Analysen kompatiblen Version Java 11 gibt es einige bekannte E
 
 ## FAQs
 
-**Q: Ich erhalte den Fehler "Kann\ bin\ javaw nicht finden" (Beispiel unten) - was soll ich tun?**
+**Q: Ich erhalte die Fehlermeldung "\bin\javaw kann nicht gefunden werden"(Beispiel unten) - was soll ich tun?**
 
 ![](/help/analyze/ad-hoc-analysis/assets/error-java.png)
 
