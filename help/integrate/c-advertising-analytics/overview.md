@@ -1,22 +1,20 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Übersicht über Analysen-Analysen
-title: Übersicht über Analysen-Analysen
-uuid: 00 e 461 ff -3 e 17-4071-818 b -93 fd 1 e 4 b 36 f 1
+description: 'null'
+seo-description: 'null'
+seo-title: Advertising Analytics-Übersicht
+title: Advertising Analytics-Übersicht
+uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Übersicht über Analysen-Analysen
+# Advertising Analytics-Übersicht
 
-Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten alle Google adwords-/DFA- oder Microsoft Bing-Anzeigendaten in Adobe Advertising Cloud (AMO) oder in Google/Bing angezeigt werden. Sie erhalten in Adobe Analytics folgende Daten: Impressionen, Klicks, Kosten, Qualitätsbewertung und durchschnittliche Position direkt aus Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen).
+Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Bisher mussten alle Google AdWords/DFA- oder Microsoft Bing Ads-Daten in der Adobe Advertising Cloud (AMO) oder in Google/Bing angezeigt werden. Sie erhalten in Adobe Analytics folgende Daten: Impressionen, Klicks, Kosten, Qualitätsbewertung und durchschnittliche Position direkt aus Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen).
 
->[!NOTE]
->
->Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing absorbiert. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
+> [!NOTE] Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing aufgenommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
 
 Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Neu: [Paid Search-Performance](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254)-Vorlage in Analysis Workspace vereinfacht die Analyse.
 
@@ -77,26 +75,26 @@ Advertising Analytics fügt folgende Dimensionen und Metriken zu Analysis Worksp
 
 >[!IMPORTANT]
 >
->Diese Integration erstellt einen neuen Satz von Dimensionen durch Klassifizierungen der AMO-ID-Variablen. Diese neuen Dimensionen wirken sich nicht auf bestehende Marketingkanäle oder Dimensionen von Kampagnen-Tracking-Variablen aus. Die AMO-ID wird mit einem Besucherprofil verknüpft, wenn der Besucher über eine Paid Search-Werbeanzeige zur Site gelangt. Deshalb können Sie die AMO-Dimensionen nutzen, um sowohl die von dieser Integration bereitgestellten AMO-Metriken als auch vom Benutzer erfasste Daten (Besuche, Besucher, Seitenaufrufe, Absprungrate, Bestellungen, Umsatz, Kundenereignisse usw.) aufzuschlüsseln. Beim Reporting zu anderen lokalen Metriken können sie auch nach anderen Dimensionen aufgeschlüsselt werden.
+>Diese Integration erstellt einen neuen Satz von Dimensionen durch Classifications der AMO-ID-Variablen. Diese neuen Dimensionen wirken sich nicht auf bestehende Marketingkanäle oder Dimensionen von Kampagnen-Tracking-Variablen aus. Die AMO-ID wird mit einem Besucherprofil verknüpft, wenn der Besucher über eine Paid Search-Werbeanzeige zur Site gelangt. Deshalb können Sie die AMO-Dimensionen nutzen, um sowohl die von dieser Integration bereitgestellten AMO-Metriken als auch vom Benutzer erfasste Daten (Besuche, Besucher, Seitenaufrufe, Absprungrate, Bestellungen, Umsatz, Kundenereignisse usw.) aufzuschlüsseln. Beim Reporting zu anderen lokalen Metriken können sie auch nach anderen Dimensionen aufgeschlüsselt werden.
 >
 >Die Klassifizierungen für diese Metriken werden täglich aktualisiert. Wenn Sie also Änderungen an Metadaten in einer Suchmaschine vornehmen, treten diese möglicherweise erst am folgenden Tag in Kraft, nachdem die Klassifizierungen aktualisiert wurden.
 
 | Name der Classification (Dimension) | Definition |
 |--- |--- |
 | Keywordübereinstimmungstyp (AMO-ID) | Der Keyword-Übereinstimmungstyp. Mögliche Werte lauten in der Regel „Weit gefasst“, „Wortgruppe“, „Exakt“ bzw. kein Wert, wenn die Anzeigenart nicht über einen Übereinstimmungstyp verfügt. |
-| Anzeigenplattform (AMO-ID) | Der Name der Suchmaschine. Die Werte können Google adwords oder Microsoft Bing Ads enthalten. |
+| Anzeigenplattform (AMO-ID) | Der Name der Suchmaschine. Zu den Werten können Google AdWords oder Microsoft Bing Ads gehören. |
 | Konto (AMO-ID) | Der Name des Suchmaschinenkontos, das verfolgt wird. |
 | Kampagne (AMO-ID) | Der Name der Kampagne in Ihrem Suchmaschinenkonto. |
 | Anzeigengruppe (AMO-ID) | Der Name der Anzeigengruppe in Ihren Suchmaschinen-Kampagnen. |
 | Anzeige (AMO-ID) | Der Anzeigentitel und die Anzeigenbeschreibung Ihrer Werbeanzeige. |
 | Keyword (AMO-ID) | Der Keywordwert aus Ihrem Suchmaschinenkonto. |
 | Übereinstimmungstyp (AMO-ID) | Der Ihrem Keyword zugewiesene Keyword-Übereinstimmungstyp. Mögliche Werte lauten in der Regel „Weit gefasst“, „Wortgruppe“, „Exakt“ bzw. kein Wert, wenn die Anzeigenart nicht über einen Übereinstimmungstyp verfügt. |
-| Anzeigenart (AMO-ID) | Die Art der ausgelieferten Werbeanzeige, die in der Regel „Textanzeige“ lautet. |
+| Anzeigenart (AMO-ID) | Der Typ der verarbeiteten Anzeige, normalerweise „Textanzeige“. |
 | Anzeigentitel (AMO-ID) | Das in Ihrer Werbeanzeige verwendete Titelobjekt. |
 | Anzeigenbeschreibung (AMO-ID) | Die in Ihrer Werbeanzeige verwendete Anzeigenbeschreibung. |
 | Werbeanzeigen-URL (AMO-ID) | Die in Ihrer Werbeanzeige verwendete Werbeanzeigen-URL. |
 | Anzeigenziel-URL (AMO-ID) | Die Ihrer Werbeanzeige zugewiesene Landingpage-URL oder endgültige URL. |
-| Netzwerk (AMO-ID) | Das Netzwerk, auf dem die Werbeanzeige ausgeliefert wird. Bei Advertising Analytics lautet dieser Wert immer „Suche“. |
+| Netzwerk (AMO-ID) | Das Netzwerk, auf dem die Werbeanzeige ausgeliefert wird. Bei Advertising Analytics ist dieser Wert immer "Suche". |
 | Platzierung (AMO-ID) | Die Website der verwalteten Platzierung (bei Content-Netzwerken). Diese Dimension wird nur bei verwalteten Platzierungen verwendet. |
 | Produktziel (AMO-ID) | Der bei PLA-Anzeigen verwendete Name des Produktziels (nicht das tatsächlich erworbene Produkt). |
 | Optimierung (AMO-ID) | Dies wird von Advertising Analytics nicht verwendet. Es wird nur von Advertising Cloud-Kunden verwendet. |
@@ -106,7 +104,7 @@ Advertising Analytics fügt folgende Dimensionen und Metriken zu Analysis Worksp
 
 >[!IMPORTANT]
 >
->Die von Advertising Analytics (unten aufgeführten) Metriken bereitgestellten Metriken sind Daten auf Zusammenfassungsebene aus den Suchmaschinen. Sie sind nicht mit den Analytics-Besucherprofilen verbunden. Sie sind nur mit der AMO-ID-Variablen und den zugehörigen Klassifizierungsdimensionen verknüpft. Deshalb sollten sie nicht zu Berichten abseits der Dimensionen/Segmente hinzugefügt werden, die auf den AMO-ID-Dimensionen basieren. In einem solchen Fall zeigt Analytics nur Nullen für die Daten an. Sie können sie mit anderen Metriken zu berechneten Metriken hinzufügen, jedoch sollte die entsprechende berechnete Metrik nur nach den AMO-ID-Dimensionen aufgeschlüsselt werden.
+>Die von Advertising Analytics bereitgestellten Metriken (unten aufgeführt) sind Daten auf Zusammenfassungsebene aus den Suchmaschinen. Sie sind nicht mit den Analytics-Besucherprofilen verbunden. Sie sind nur mit der AMO-ID-Variablen und den zugehörigen Klassifizierungsdimensionen verknüpft. Deshalb sollten sie nicht zu Berichten abseits der Dimensionen/Segmente hinzugefügt werden, die auf den AMO-ID-Dimensionen basieren. In einem solchen Fall zeigt Analytics nur Nullen für die Daten an. Sie können sie mit anderen Metriken zu berechneten Metriken hinzufügen, jedoch sollte die entsprechende berechnete Metrik nur nach den AMO-ID-Dimensionen aufgeschlüsselt werden.
 >
 >Bei diesen Metriken handelt es sich um täglich abgerufene Daten. Für den aktuellen Tag liegen also keine Daten vor. Sie sollten nicht mit einem Zeitabstand von unter einem Tag zu Berichten hinzugefügt werden.
 >
