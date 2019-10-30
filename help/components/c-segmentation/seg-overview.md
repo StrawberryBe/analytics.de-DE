@@ -5,9 +5,9 @@ seo-title: Info über Segmente und Container
 solution: Analytics
 title: Info über Segmente und Container
 topic: Segmente
-uuid: e 8 b 1 edd 1-5 d 6 c -4213-994 b-789 ad 30 a 4
+uuid: e8b1edd1-5d6c-4213-994b-feed789ad30a4
 translation-type: tm+mt
-source-git-commit: ecc601c17b6552baf0e8887b66326259d7498c79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,9 +29,9 @@ Segmente ermitteln, wer Ihre Besucher sind (Land, Geschlecht, Internetcafé), we
 Segmente können auf folgenden Werten basieren:
 
 * Auf Attributen basierende Besucher: Browsertyp, Gerät, Anzahl der Besuche, Land, Geschlecht.
-* Auf Interaktionen basierende Besucher: Kampagnen, Suchbegriffssuche, Suchmaschine.
-* Auf Ausstiege und Einträgen basierende Besucher: Besucher von Facebook, einer definierten Landingpage, verweisende Domäne.
-* Auf benutzerspezifischen Variablen basierende Besucher: Formularfeld, definierte Kategorien, Kunden-ID.
+* Auf Interaktionen basierende Besucher: Kampagnen, Suchbegriffsuche, Suchmaschine.
+* Auf Ausstiegen und Einstiegen basierende Besucher: Besucher von Facebook, einer definierten Einstiegsseite, verweisende Domäne.
+* Besucher, die auf benutzerspezifischen Variablen basieren: Formularfeld, definierte Kategorien, Kunden-ID.
 
 Beim Erstellen von Zielgruppensegmenten im Segmentaufbau definieren Sie Bedingungen, für die Sie zwischen den Behältern die Operatoren [!UICONTROL UND] und [!UICONTROL ODER] verwenden.
 
@@ -109,7 +109,7 @@ Trefferbehälter enthalten Werte, die auf den Aufschlüsselungen einzelner Seite
 
    >[!NOTE]
    >
-   >Wenn Sie diesen Behälter für einen persistenten Wert verwenden, wie z. B. eine evar, wird jeder Hit, bei dem dieser Wert persistent bleibt, übernommen. Im Fall eines Trackingcodes, der nach einer Woche abläuft, kann dieser Wert über mehrere Besuche hinweg persistent sein.
+   >Wenn Sie diesen Behälter für einen persistenten Wert verwenden, z. B. eine eVar, wird jeder Treffer eingefügt, bei dem dieser Wert beibehalten wird. Im Fall eines Trackingcodes, der nach einer Woche abläuft, kann dieser Wert über mehrere Besuche hinweg persistent sein.
 
 **logischen Gruppenbehälters**
 
@@ -194,7 +194,7 @@ Bei Berichten aus dem Trefferbehälter können Sie sehen, wie sich Berichte aus 
 
 >[!IMPORTANT]
 >
->Unabhängig davon, wie Sie die Daten anzeigen - aus den Treffern "Treffer" ," Besuch" oder "Besucher" - haben sie in diesem Beispiel die gleiche Anzahl von Besuchern, 63 541. Unabhängig davon, wie Sie den Bericht erzeugen, die ursprüngliche Besucherbedingung – Besucher, die die Wintermäntel-Seite angesehen haben – bleibt intakt. Dies ist die Teilmenge der Daten, mit denen Sie auf den verschiedenen Ebenen Berichte erstellen.
+>Unabhängig davon, wie Sie die Daten anzeigen - aus den Besuchs-, Besuchs- oder Besucherbehältern - haben sie alle dieselbe Anzahl von Besuchern, in diesem Beispiel 63 541. Unabhängig davon, wie Sie den Bericht erzeugen, die ursprüngliche Besucherbedingung – Besucher, die die Wintermäntel-Seite angesehen haben – bleibt intakt. Dies ist die Teilmenge der Daten, mit denen Sie auf den verschiedenen Ebenen Berichte erstellen.
 
 **Berichte aus dem Besuchebehälter**
 
@@ -220,7 +220,7 @@ Zusammenfassend wird deutlich, dass das Wissen darüber, wie die Segmentierung b
 
 ## Reporting based on the container {#section_D0604748F2794327B8C668617A31EC18}
 
-Jede Aufschlüsselung von Segmentdaten hat einen Bereich, auf den sie angewendet wird. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Es ist wichtig, dass Sie wissen, wie Berichte funktionieren, die auf dem Umfang Ihres Behälters basieren.
+Jede Aufschlüsselung von Segmentdaten hat einen Anwendungsbereich, auf den sie angewendet wird. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Es ist wichtig, dass Sie wissen, wie Berichte funktionieren, die auf dem Umfang Ihres Behälters basieren.
 
 Anhand des zuvor verwendeten Segmentbeispiels *Seite = Wintermäntel*, definieren die im Folgenden aufgeführten Probleme weitere Aspekte Ihres Segments, die darauf basieren, wie die Behälterdaten angewendet werden und wie der Umfang der Daten mit dem Segmenttyp übereinstimmen sollte.
 
@@ -300,5 +300,5 @@ Beachten Sie, dass bei der Anzeige der Daten aus dem Besucherbehälter die Seite
 Zusammenfassung
 
 * Der Besuchebehälter gibt alle bei einem Besuch gesehenen Seiten zurück, von denen mindestens eine Seite den Kriterien entspricht. Wenn daher eine Seite nur bei Besuch 1 am Tag 1 gesehen wurde, werden alle während des gesamten Besuchs gesehenen Seiten in die Daten einbezogen.
-* Seien Sie vorsichtig, wenn es sich bei der Bedingung, nach der Sie die Segmentierung durchführen, um ein eVar oder einen anderen Typ einer persistenten Variablen handelt. Sie könnten z. B. die Bedingung „Wenn Kampagne E-Mail enthält“ verwenden, die nach 7 Tagen abläuft. Wenn die Kampagne daher auf den ersten Besuch gesetzt wird, ist sie anschließend 7 weitere Tage persistent. Jeder Besuch wird einbezogen, auch wenn die Kampagne nur auf den ersten Besuch gesetzt wird. Auch die anderen Besuche werden einbezogen (solange sie innerhalb des Datumsbereichs des Berichts liegen). Wenn Sie ausschließen möchten, dass persistente Werte einbezogen werden, können Sie entweder das Ereignis „Instanz von“ oder, sofern verfügbar, eine entsprechende Eigenschaftsvariable verwenden.
+* Seien Sie vorsichtig, wenn es sich bei der Bedingung, nach der Sie die Segmentierung durchführen, um ein eVar oder einen anderen Typ einer persistenten Variablen handelt. Sie können beispielsweise die Bedingung "wobei Kampagne E-Mail enthält"verwenden und sie nach 7 Tagen abläuft. Wenn die Kampagne daher auf den ersten Besuch gesetzt wird, ist sie anschließend 7 weitere Tage persistent. Jeder Besuch wird einbezogen, auch wenn die Kampagne nur auf den ersten Besuch gesetzt wird. Auch die anderen Besuche werden einbezogen (solange sie innerhalb des Datumsbereichs des Berichts liegen). Wenn Sie verhindern möchten, dass persistente Werte einbezogen werden, verwenden Sie entweder das Ereignis "Instanz von"oder, falls verfügbar, eine entsprechende Eigenschaftsvariable.
 
