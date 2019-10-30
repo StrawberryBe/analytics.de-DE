@@ -4,10 +4,10 @@ seo-description: Zeigt Informationen über Ihre Kundenloyalität an. Sie können
 seo-title: Besuchertreue
 solution: Analytics
 title: Besuchertreue
-topic: 'Berichte    '
-uuid: e 2 d 477 d 0-f 704-489 b-b 4 b 3-941 bc 352 cd 7 a
+topic: Berichte
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ Zeigt Informationen über Ihre Kundenloyalität an. Sie können feststellen, wie
    <td colname="col2"> <p>Zeigt die Besuchsnummer für jeden Besucher an, der Ihre Site aufruft. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Kundenloyalität </td> 
+   <td colname="col1"> Kundentreue </td> 
    <td colname="col2"> <p>Zeigt Kaufmuster von Kunden in drei Kundentreuekategorien (Neu, Rückkehr oder Treu) an. Der Bericht <span class="wintitle">Kundentreue</span> zeigt den Beitrag neuer, rückkehrender und treuer Kunden zur Standarderfolgsmetrik Ihrer Site an. </p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Zeigt Informationen über Ihre Kundenloyalität an. Sie können feststellen, wie
   </tr> 
   <tr> 
    <td colname="col1"> Tage seit letztem Kauf </td> 
-   <td colname="col2"> <p>Zeigt die häufigste Anzahl von Tagen an, die zwischen Wiederholungskäufen verstreicht. Sie können die Zeiträume anzeigen, die am stärksten zur wichtigsten Erfolgsmetrik der Website, beispielsweise dem Umsatz und den Bestellungen, beigetragen haben. </p> </td> 
+   <td colname="col2"> <p>Zeigt die häufigste Anzahl von Tagen an, die zwischen Wiederholungskäufen verstreichen. Sie können die Zeiträume anzeigen, die am stärksten zur wichtigsten Erfolgsmetrik Ihrer Site, wie Umsatz und Bestellungen, beigetragen haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Unique Customers pro Tag </td> 
