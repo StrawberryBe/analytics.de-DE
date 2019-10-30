@@ -8,8 +8,8 @@ subtopic: Variablen
 title: Dynamische Variablen
 topic: Entwickler und Implementierung
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Dynamische Variablen werden verwendet, wenn Sie die gleichen Daten (z. B. Kampag
 
 Dynamische Variablen sind auch zum Anzeigen von Daten unter verschiedenen Bedingungen bei der Berichterstellung nützlich. Ein Kampagnen-Trackingcode kann in mehreren eVars mit verschiedenen Zuordnungs- und Cookie-Ablaufeinstellungen erfasst werden. Auf diese Weise können die Benutzer selbst festlegen, wie sie die Konversionsmetriken dieser Kampagnen mit Attributen versehen möchten.
 
->[!NOTE]
->
->Dynamische Variablen werden in Kombination mit Cookies nicht unterstützt (s_cc, s_sq, s_fid, s_vi und sämtliche durch ein Plug-in bestimmte Cookies) Sie können `D=<cookie value>` nicht verwenden.
+> [!NOTE]Dynamische Variablen werden in Kombination mit Cookies nicht unterstützt (s_cc, s_sq, s_fid, s_vi und sämtliche durch ein Plug-in bestimmte Cookies) Sie können `D=<cookie value>` nicht verwenden.
 
 Ein deutlicher Vorteil von dynamischen Variablen besteht darin, lange Datenzeichenfolgen in mehreren Variablen zu erfassen, ohne die lange Zeichenfolge tatsächlich mehrmals übergeben zu müssen. In einigen Browsern ist die maximale Länge von HTTP-GET-Anforderungen eingeschränkt (einschließlich der Adobe-Bildanforderung). Durch die Verwendung dynamischer Variablen können Sie sicherstellen, dass alle Daten erfasst werden, indem die Länge der Anforderungen an die Server von Adobe in den Fällen verringert wird, in denen die Daten in mehreren Variablen dupliziert werden..
 
@@ -67,13 +65,9 @@ In der Adobe-Bildanforderung, die in der Seitenansicht auftritt, sehen Sie (wenn
 
 Beachten Sie, dass der Wert für `D=[variable]` in Anführungszeichen gesetzt werden muss. Der Analytics-Code behandelt dies wie eine Zeichenfolge. Die Zeichenfolge wird bei der Übergabe in Analytics als URL kodiert (dies können Sie erkennen, wenn Sie die Anforderung im DigitalPulse-Debugger oder in einem ähnlichen Dienstprogramm anzeigen). Dies ist normal. Die Server von Adobe erkennen die `D=[variable]`-Konstruktion und kopieren den entsprechenden Wert, wenn sie auf diese Zeichenfolge treffen.
 
->[!NOTE]
->
->Wenn die Bildanforderung zum Verfolgen von Links dienen soll, muss der Typ des Links (Downloadlink=lnk_d, Ausstiegslink=lnk_e, Benutzerspezifischer Link=lnk_o) als Link-URL/Name (pev2) definiert sein. Links müssen manuell implementiert werden, bevor der Code manuell in das `<a href>`-Tag eingefügt werden kann.
+> [!NOTE]Wenn die Bildanforderung zum Verfolgen von Links dienen soll, muss der Typ des Links (Downloadlink=lnk_d, Ausstiegslink=lnk_e, Benutzerspezifischer Link=lnk_o) als Link-URL/Name (pev2) definiert sein. Links müssen manuell implementiert werden, bevor der Code manuell in das `<a href>`-Tag eingefügt werden kann.
 
->[!NOTE]
->
->Dynamische Variablen werden in Kombination mit Cookies nicht unterstützt (s_cc, s_sq, s_fid, s_vi und sämtliche durch ein Plug-in bestimmte Cookies) Sie können `D=<cookie value>` nicht verwenden.
+> [!NOTE]Dynamische Variablen werden in Kombination mit Cookies nicht unterstützt (s_cc, s_sq, s_fid, s_vi und sämtliche durch ein Plug-in bestimmte Cookies) Sie können `D=<cookie value>` nicht verwenden.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -139,7 +133,7 @@ Beachten Sie, dass der Wert für `D=[variable]` in Anführungszeichen gesetzt we
   <tr> 
    <td colname="col1"> 
     <code class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
     </code> </td> 
    <td colname="col2"> <p>Vier Möglichkeiten zum Festlegen von „prop1“ auf eine Kampagne </p> </td> 
   </tr> 
