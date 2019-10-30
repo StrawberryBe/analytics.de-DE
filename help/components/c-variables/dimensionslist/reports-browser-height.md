@@ -4,10 +4,10 @@ seo-description: Bezeichnet nur das vertikale Ausmaß der Daten im Browser-Fenst
 seo-title: Browserhöhe
 solution: Analytics
 title: Browserhöhe
-topic: 'Berichte    '
-uuid: 4 b 824167-4 a 4 e -40 e 9-bf 00-957655 bbdb 3 d
+topic: Berichte
+uuid: 4b824167-4a4e-40e9-bf00-957655bdb3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
