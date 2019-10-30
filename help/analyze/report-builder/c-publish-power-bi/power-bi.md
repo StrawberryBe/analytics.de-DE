@@ -5,7 +5,7 @@ seo-title: In Power BI veröffentlichen – Übersicht
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->Wenn die Arbeitsmappe ein Makro enthält, wird die Option "Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatz-Tabellen veröffentlichen"deaktiviert.
+> [!NOTE] Wenn die Arbeitsmappe ein Makro enthält, wird die Option "Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatz-Tabellen veröffentlichen"deaktiviert.
 
 Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller formatierten Tabellen innerhalb der Arbeitsmappe importieren.
 
