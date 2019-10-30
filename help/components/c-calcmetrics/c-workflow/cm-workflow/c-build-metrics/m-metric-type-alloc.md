@@ -3,9 +3,9 @@ description: Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können S
 seo-description: Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Attributionsmodell angeben.
 seo-title: Metriktyp und Attribution
 title: Metriktyp und Attribution
-uuid: 64649698-df 2 a -42 c 3-bb 31-938 f 766 e 1 d 1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 
 | Metriktyp | Definition |
 |---|---|
-| Standard | These metrics are the same metrics used in standard [!DNL Analytics] reporting. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. [Bestellungen] / [Besuche] nehmen beispielsweise Bestellungen für diesen Einzelposten auf und dividiert sie durch die Anzahl der Besuche für diesen Einzelposten. |
+| Standard | These metrics are the same metrics used in standard [!DNL Analytics] reporting. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item. |
 | Gesamt | Verwenden Sie den Gesamtwert für den Berichtszeitraum in jedem Einzelposten. Wenn eine Formel aus einer einzelnen Gesamtmetrik besteht, zeigt sie dieselbe Gesamtzahl für jeden Einzelposten an. Gesamtmetriken eignen sich für die Erstellung berechneter Metriken, die mit den Gesamtdaten der Site verglichen werden. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item. |
 
 ## Spaltenattributionsmodell {#section_F9690FD1943B403AB28E2FAC54EFE032}
@@ -34,15 +34,15 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
 >
 >* Eine vollständige Liste der unterstützten nicht standardmäßigen Modelle und Lookback-Fenster finden Sie in der Dokumentation zu [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html).
->* Die Zuordnungsmodelle „Marketingkanal – Letztkontakt“ und „Marketingkanal – Erstkontakt“ werden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle werden nicht veraltet sein, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen).
->* Darüber hinaus wird die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Zuordnungsmodelle für "Marketingkanal-Letztkontakt"und "Marketingkanal-Erstkontakt"werden zu neuen Zuordnungsmodellen für "Letztkontakt"und "Erstkontakt"migriert (Hinweis: "Marketingkanäle"werden nicht mehr unterstützt - nur die beiden Zuordnungsmodelle, die in berechneten Metriken angezeigt werden, werden eingestellt).
+>* Darüber hinaus wird die Methode zur Berechnung der linearen Zuordnung korrigiert. Bei Kunden, die berechnete Metriken mit "linearen"Zuordnungsmodellen verwenden, ändern sich die Berichte möglicherweise leicht, um das neue, korrigierte Zuordnungsmodell wiederzugeben. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
 
 ## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-Im Juli 2018 hat Adobe geändert, wie die lineare Zuordnung für berechnete Metriken gemeldet wird. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Andere Berichte, die die lineare Zuordnung verwenden, werden weiter die aktuelle Methode zur linearen Zuordnung verwenden.
+Im Juli 2018 änderte Adobe, wie die lineare Zuordnung für berechnete Metriken berichtet wird. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Andere Berichte, die die lineare Zuordnung verwenden, werden weiter die aktuelle Methode zur linearen Zuordnung verwenden.
 
 Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit linearer Zuordnung beim Reporting ändern:
 
