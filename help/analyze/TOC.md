@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + Bedienfelder {#panels}
       + [Übersicht über Bedienfelder](analysis-workspace/c-panels/panels.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
-      + Zuordnung {Zuordnung}
+      + Zuordnung {#attribution}
          + [Übersicht über die Zuordnung](analysis-workspace/c-panels/attribution/attribution.md)
          + [Bedienfeld "Zuordnung"verwenden](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Häufig gestellte Fragen zur Zuordnung](analysis-workspace/c-panels/attribution/attribution-faq.md)
