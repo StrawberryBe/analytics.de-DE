@@ -5,7 +5,7 @@ seo-title: Häufig gestellte Fragen
 title: Häufig gestellte Fragen
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Ist es möglich, einem Advertising Analytics-Konto eine <b>Virtual Report Suite</b> (VRS) zuzuweisen? </p> </td> 
-   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten. Deshalb können Sie ein Advertising Analytics-Konto nicht direkt einer VRS zuweisen. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der VRS zuweisen, zu der die Daten hinzugefügt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klicks/Kosten/Impressionen) werden unter Umständen nur dann in der VRS angezeigt, wenn Sie eine „oder“-Bedingung in Ihre Segmentlogik auf der Grundlage der AMO-ID (oder ihrer Klassifizierung) aufnehmen. Beispiel: Durch das Hinzufügen von „alle Treffer, bei denen eine AMO-ID existiert“ werden die Suchmaschinenmetriken in das Segment aufgenommen. </p> </td> 
+   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten. Deshalb können Sie ein Advertising Analytics-Konto nicht direkt einer VRS zuweisen. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der VRS zuweisen, zu der die Daten hinzugefügt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klick-/Kosten-/Impressionen) werden möglicherweise nicht in der VRS angezeigt, es sei denn, Sie fügen Ihrer Segmentlogik eine "oder"-Bedingung basierend auf der AMO-ID (oder deren Klassifizierung) hinzu. Beispiel: Wenn Sie "alle Treffer, bei denen eine AMO-ID vorhanden ist"hinzufügen, werden die Suchmaschinenmetriken in das Segment einbezogen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Können Advertising Analytics-Metriken zum Bericht <b>Marketingkanäle</b> hinzugefügt werden? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Werden derzeit nur Daten von google.com erfasst oder auch von den <b>Länderversionen</b> (wie google.co.uk, google.it, google.fr oder google.de)? </p> </td> 
-   <td colname="col2"> <p>A: Die Anzeigenplattformklassifizierung erfasst folgende Werte: "Google Adwords" und "Bing Ads". </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten). </p> </td> 
+   <td colname="col2"> <p>A: Die Anzeigenplattformklassifizierung erfasst folgende Werte: "Google Adwords" und "Bing Ads". </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Sie können dann nach unten oder nach Segment filtern (z. B. wenn alle Kampagnen mit countryCode_ beginnen, und dann ein Segment erstellen, bei dem Kampagnen (AMO-ID) mit "UK_"beginnen, würde Ihnen nur Daten für das Vereinigte Königreich liefern). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Die Metrik „AMO-Kosten“ bezeichnet die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. Handelt es sich hierbei um Netto- oder Bruttokosten? </p> </td> 
