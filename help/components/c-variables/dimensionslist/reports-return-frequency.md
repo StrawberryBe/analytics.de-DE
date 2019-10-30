@@ -4,10 +4,10 @@ seo-description: Zeigt Ihnen, wie viel Zeit zwischen Besuchen zurückkehrender B
 seo-title: Rückkehrhäufigkeit
 solution: Analytics
 title: Rückkehrhäufigkeit
-topic: 'Berichte    '
-uuid: 7069205 d -8 fab -4 ff 7-9 d 01-be 9705142 e 27
+topic: Berichte
+uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,5 +37,5 @@ Standardmäßig umfasst der Bericht die folgenden Zeiträume:
 ## Hinweise {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Dieser Bericht zeichnet keine Erstbesucher auf, da kein Vergleich mit früheren Besuchen angestellt werden kann.
-* Der Datumsbereich in diesem Bericht bezieht sich auf die Zeit, in der der Besuch stattgefunden hat. Beispiel: Ein Besucher besucht Ihre Site im April und zweimal an einem Tag im Oktober. In einem Rückkehrhäufigkeitsbericht für den Monat Oktober würde ein Besuch unter „länger als 1 Monat“ und ein Besuch unter „weniger als 1 Tag“ aufgeführt.
+* Der Datumsbereich in diesem Bericht bezieht sich auf die Zeit, in der der Besuch stattgefunden hat. Beispiel: Ein Besucher besucht Ihre Site im April und zweimal an einem Tag im Oktober. Wenn Sie einen Rückkehrhäufigkeitsbericht für den Monat Oktober abrufen, wird ein Besuch unter "länger als 1 Monat"und ein Besuch unter "weniger als 1 Tag"angezeigt.
 
