@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Übersicht über Bedienfelder
 title: Übersicht über Bedienfelder
-uuid: 480700 e 6-332 e -44 f 2-a 486-e 3 d 1852 cddbc
+uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ Beachten Sie:
 
    ![](assets/create_dropdown.png)
 
-   Dadurch werden die Komponenten in eine Dropdown-Liste und nicht in ein Segment umgewandelt. (Sie können auch Segmente hinzufügen, indem Sie den Schlüssel nicht gedrückt halten.)
+   Dadurch werden die Komponenten in eine Dropdown-Liste und nicht in ein Segment umgewandelt. (Sie können auch weiterhin Segmente hinzufügen, indem Sie die Taste nicht gedrückt halten.)
 
    ![](assets/dropdown.png)
 
