@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Warnhinweiserstellung
 title: Warnhinweiserstellung
-uuid: ebc 2 d 457-4 abd -4 b 1 a -9357-489 b 5 aeb 3 f 64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 >[!IMPORTANT]
 >
->Intelligente Warnhinweise sind nur für Adobe Analytics und Adobe Analytics Ultimate-Kunden verfügbar.
+>Intelligente Warnhinweise stehen nur Adobe Analytics Prime- und Adobe Analytics Ultimate-Kunden zur Verfügung.
 
-## Zugriff auf Warnhinweiserstellung
+## Warnhinweiserstellung aufrufen
 
 Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 
@@ -43,9 +43,7 @@ Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den N
 
 Geben Sie an, wann die Metrik überprüft werden soll: stündlich, täglich, wöchentlich oder monatlich.
 
->[!NOTE]
->
->Für Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Granularität in der Warnhinweiserstellung nicht unterstützt.
+> [!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Granularität im Warnhinweiserstellung nicht unterstützt.
 
 **Empfänger**
 
@@ -55,7 +53,7 @@ Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann 
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-Die E-Mail, die ein Benutzer erhalten würde, sobald eine Warnung ausgelöst wurde, sieht wie folgt aus:
+Die E-Mail, die ein Benutzer erhalten würde, sobald eine Warnung ausgelöst wurde, sieht in etwa so aus:
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 * Ziehen Sie Metriken per Drag &amp; Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
 
    * Anomalie vorhanden
@@ -90,7 +88,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Warnungen in der Vorschau {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.
 
