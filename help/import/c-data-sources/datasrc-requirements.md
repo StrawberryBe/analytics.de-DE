@@ -3,12 +3,12 @@ description: Informationen zu den Anforderungen an Ihre Report Suite vor der Nut
 seo-description: Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data Sources.
 seo-title: Anforderungen und Upload-Beschränkungen
 solution: Analytics
-subtopic: ' Datenquellen'
+subtopic: Datenquellen
 title: Anforderungen und Upload-Beschränkungen
 topic: Entwickler und Implementierung
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 * Nur Daten aktuellen Datums oder vergangener Daten können importiert werden. Versuchen Sie nicht, zukünftige Daten in Ihren Data Sources-Daten zu verwenden.
 * In allen Zeilen muss ein Datum angegeben sein, um die Diagrammfunktionen für Berichte zu aktivieren. Wenn eine Zeile kein Datum umfasst, generiert Data Sources einen Fehler und lehnt die Datei ab. Das Datum-/Zeit-Format variiert je nach Datenquellentyp:
 
-   * **Datenquellen** für die vollständige Verarbeitung: Verwenden Sie das ISO 8601-Datumsformat `YYYY-MM-DDThh:mm:ss±UTC_offset` (z. B. `2013-09-01T12:00:00-07:00`) oder Unix Time Format (die Anzahl der seit dem 1. Januar 1970 verstrichenen Sekunden).
+   * **Datenquellen** für die vollständige Verarbeitung:Verwenden Sie das ISO 8601-Datumsformat `YYYY-MM-DDThh:mm:ss±UTC_offset` (z. B. `2013-09-01T12:00:00-07:00`) oder Unix Time Format (die Anzahl der seit dem 1. Januar 1970 verstrichenen Sekunden).
 
    * **Standard- und Integrationsdatenquellen**: Verwenden Sie das folgende Datumsformat: `MM/DD/YYYY/HH/mm/SS` (z. B. `01/01/2013/06/00/00`)
 
