@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Vorlagen
 title: Vorlagen
-uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
+uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ## Vorlagen {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-Sie können festlegen, ob ein Projekt aus folgenden Gründen erstellt werden soll:
+Sie können auswählen, ob ein Projekt aus folgenden Elementen erstellt werden soll:
 
-* Ein leeres Projekt (Standard). For instructions, see [Create an Analysis Workspace Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+* Ein leeres Projekt (Standard). Anweisungen finden Sie unter [Erstellen eines Projekts](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)im Arbeitsbereich für Analysen.
 * Eine Standardvorlage. Diese Vorlagen wurden von Adobe erstellt und können sofort verwendet werden.
 * Eine benutzerdefinierte Vorlage. Diese Vorlagen können von Benutzern mit oder ohne Administratorrechte erstellt werden, wenn sie über die Berechtigung „Als Vorlage speichern“ verfügen. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
@@ -25,7 +25,7 @@ Sie können festlegen, ob ein Projekt aus folgenden Gründen erstellt werden sol
 * [Erstellen einer benutzerdefinierten Vorlage](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
 * [Standardvorlagen](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
 
-## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Erstellen einer benutzerdefinierten Vorlage {#task_279637F56CFD4B6094D7CBDB82FA4835}
 
 Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
@@ -38,7 +38,7 @@ Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benu
 
    >[!NOTE]
    >
-   >Standardmäßig sind Projektvorlagen für alle in Ihrem Unternehmen sichtbar. Sie können sie ordnen, indem Sie Tags auf sie anwenden. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >Standardmäßig sind die Projektvorlagen für alle in Ihrer Organisation sichtbar. Sie können sie ordnen, indem Sie Tags auf sie anwenden. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
 
 ### Auf benutzerdefinierte Vorlagen anwendbare Aktionen
 
@@ -85,13 +85,13 @@ Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benu
 
 ## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-Wenn Sie zum ersten Mal einen Workspace öffnen, stehen in der linken Leiste Vorlagen zur Verfügung. Analysis Workspace-Vorlagen decken häufige Anwendungsfälle ab. Diese sind senkrecht danach gruppiert, wohin sie gehören, und werden je nach der Report Suite, die Sie auswählen, mit verschiedenen Dimensionen, Segmenten, Metriken und Visualisierungen aufgefüllt.
+Wenn Sie einen Arbeitsbereich zum ersten Mal öffnen, sind Vorlagen in der linken Leiste verfügbar. Analysis Workspace-Vorlagen decken häufige Anwendungsfälle ab. Diese sind senkrecht danach gruppiert, wohin sie gehören, und werden je nach der Report Suite, die Sie auswählen, mit verschiedenen Dimensionen, Segmenten, Metriken und Visualisierungen aufgefüllt.
 
 Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern.
 
-[Standardvorlagen im Analysis Workspace auf youtube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Standardvorlagen im Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Hier finden Sie Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten:
+Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten:
 
 ### Werbung
 
@@ -99,49 +99,47 @@ Hier finden Sie Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten:
 >
 >Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für die Advertising Cloud aktiviert ist.
 
-* **Suchmaschinen**: Diese Vorlage unterteilt Werbetrends, Anzeigenplattformen, Suchbegriffe, Konten, Kampagnen und vieles mehr.
+* **Suchmaschinen**: Diese Vorlage unterteilt Werbetrends, Anzeigenplattformen, Suchbegriffe, Konten, Kampagnen und mehr.
 
-### Commerce
+### Handel
 
-* **Magento: Marketing und Commerce**: Diese Vorlage unterteilt Ihre E-Commerce-Konvertierung nach Marketingkanalzuordnung und bietet einen Einblick nach Keyword, Landingpage, geografischer Position und mehr. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing und Handel**: Diese Vorlage unterteilt Ihre E-Commerce-Umrechnung nach der Zuordnung von Marketingkanälen und bietet Einblicke nach Suchbegriff, Einstiegsseite, geografischer Position und mehr. Eine Videoübersicht finden Sie unter &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Medien
 
-* **Audiokonsum**: Welche Inhalte werden am häufigsten konsumiert und werden Benutzer einbinden?
-* **Neuigkeit - Häufigkeit - Loyalität**: Wer sind meine treuen Leser?
+* **Audioverbrauch**: Welcher Inhalt wird am häufigsten genutzt und zieht Benutzer an?
+* **Neuigkeit - Häufigkeit - Treue**: Wer sind meine treuen Leser?
 
-### Mobil
+### Mobile
 
 >[!IMPORTANT]
 >
 >Mobile Vorlagen sind nur verfügbar, wenn Ihre Report Suite für Mobile aktiviert ist.
 
-* **Messaging:** Konzentriert sich auf die Leistung von In-App- und Push-Nachrichten.
-* **Speicherort:** Enthält eine Map-Showcasing-Standortdaten.
-* **Schlüsselmetriken:** Verwenden Sie die Schlüsselmetriken Ihrer App.
-* **App-Nutzung:** Wie viele App-Benutzer, Starts und erste Starts hat die App verwendet und wie lange war die durchschnittliche Sitzungsdauer?
-* **Akquise:** Erfahren Sie, wie mobile Akquise-Links funktionieren.
-* **Leistung:** Wie funktioniert die App und wo haben Benutzer Probleme?
-* **Treue:** Wer sind meine treuen Benutzer und was tun sie?
-* **Routen:** Welches sind die deutlichen Verwendungsmuster für meine App?
+* **** Messaging: Konzentriert sich auf die Leistung von In-App- und Push-Nachrichten.
+* **** Ort: Beinhaltet eine Karte, die Standortdaten anzeigt.
+* **** Schlüsselmetriken: Halten Sie einen Impuls für die Schlüsselmetriken Ihrer App.
+* **** App-Nutzung: Wie viele App-Benutzer, -Starts und -Erststarts hat die App gehabt und wie lange war die durchschnittliche Sitzungslänge?
+* **** Akquise: Erfahren Sie, wie leistungsstark Akquise-Links für Mobilgeräte sind.
+* **** Leistung: Wie funktioniert die App und wo haben Benutzer Probleme?
+* **** Treue: Wer sind meine treuen Benutzer und was tun sie?
+* **** Reisen: Welches sind die markanten Verwendungsmuster für meine App?
 
 ### Einzelhandel
 
-* **Kampagnenleistung:** Welche Kampagnen erbringen den meisten Umsatz?
-* **Produkte:** Welche Produkte erbringen die beste Leistung?
+* **** Kampagnenleistung: Welche Kampagnen erbringen den meisten Umsatz?
+* **** Produkte: Welche Produkte schneiden am besten ab?
 
 ### Web
 
-* **Akquise:** Welches sind die wichtigsten Treiber für Traffic auf meiner Website?
-* **Inhaltskonsum:** Welches sind die Top-Orte, die Personen auf meiner Site aufrufen?
-* **Treue:** Welche Arten von Benutzern sind wahrscheinlich treuer Benutzer meiner Site?
-* **Technologie:** Welche Technologie verwenden Personen, um auf meine Site zuzugreifen?
+* **** Akquise: Welches sind die wichtigsten Traffic-Treiber auf meiner Website?
+* **** Inhaltskonsum: Welches sind die Top-Orte, an denen Menschen auf meiner Site unterwegs sind?
+* **** Treue: Welche Arten von Benutzern sind wahrscheinlich treue Benutzer meiner Site?
+* **** Technologie: Welche Technologie verwenden die Menschen, um auf meine Site zuzugreifen?
 
-### „Personen“
+### Personen
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] Die Vorlage "Personen"und die zugehörige Metrik "Personen"stehen nur als Teil der [Adobe Experience Cloud-Gerätekooperation](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)zur Verfügung.
 
 Dies basiert auf der Metrik für Personen, die eine deduplizierte Version der Metrik „Unique Visitors“ darstellt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
