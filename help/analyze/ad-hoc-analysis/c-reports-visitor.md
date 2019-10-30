@@ -69,13 +69,13 @@ Sie können diesen Bericht nach jedem anderen Bericht oder jeder anderen Variabl
 
 Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch einen Besucher an Adobe weitergegeben werden. Nach Empfang dieser Daten vergleicht Adobe sie mit historischen Daten zur Besucher ID, um festzustellen, ob es sich um einen:
 
-* neuen Besucher (Besuchsnummer gleich 1),
+* neuen Besucher (Besuchsnummer gleich 1).
 * früheren Besucher, der seinen Besuch fortsetzt (Besuchernummer wird nicht inkrementiert), oder einen
 * früheren Besucher, der die Website erneut besucht, handelt (Besuchsnummer wird um 1 inkrementiert).
 
 >[!NOTE]
 >
->Jede Analytics-Besucher-ID ist mit einem Besucherprofil auf Adobe-Servern verknüpft. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
+>Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
 ## Kundentreue {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
