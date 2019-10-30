@@ -7,8 +7,8 @@ subtopic: Versionshinweise
 title: iOS
 topic: Entwickler und Implementierung
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Gesammelte Versionshinweise für iOS.
 
->[!NOTE]
->
->Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
+> [!NOTE] Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
-Downloads mobiler Bibliotheken finden Sie unter [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) und unter [Developer Connection](https://marketing.adobe.com/developer/de/gallery/app-measurement-for-ios).
+Downloads mobiler Bibliotheken stehen über [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) und über [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) zur Verfügung.
 
-[4.x-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mobile/ios/)
+[Dokumentation zu 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
 
-[3.x-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/sc/appmeasurement/ios/)
+[Dokumentation zu 3.x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
 
 ## Version 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -90,16 +88,16 @@ Die [!DNL iOS]-SDK-Version 4.13.2 (10. November 2016) enthält folgende Ände
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> Besucher-ID-Service </p> </td> 
-   <td colname="2"> <p> Zeitstempel und Experience Cloud-Organisations-ID wurden dem <code>adobe_mc</code>-Parameter hinzugefügt. </p> </td> 
+   <td colname="1"> <p> Visitor ID Service </p> </td> 
+   <td colname="2"> <p> Zeitstempel und Experience Cloud-Organisations-ID wurden dem <code> adobe_mc</code>-Parameter hinzugefügt. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Konfiguration </p> </td> 
-   <td colname="2"> <p> Ungültige IDFAs (00000000-0000-0000-0000-000000000000) wurden an das SDK über <code>setAdvertisingIdentifier</code> weitergegeben: wird ignoriert. </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep-Linking </p> </td> 
-   <td colname="2"> <p>Beim Aufrufen von <code>trackAdobeDeepLink</code> werden ab sofort Variablen mit dem Präfix „<code>adb</code>“ und „<code>ctx</code>“ ordnungsgemäß verarbeitet. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Akquise </p> </td> 
@@ -122,11 +120,11 @@ Die [!DNL iOS]-SDK-Version 4.13.1 (20. Oktober 2016) enthält folgende Änder
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Akquise </p> </td> 
-   <td colname="2"> <p> Das SDK unterstützt jetzt die ordnungsgemäße Rückgabe benutzerdefinierter Akquisedaten über <code>AdobeDataCallback</code>-Aufrufe. </p> </td> 
+   <td colname="2"> <p> Das SDK unterstützt jetzt die ordnungsgemäße Rückgabe benutzerdefinierter Akquisedaten über <code> AdobeDataCallback</code>-Aufrufe. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p><span class="keyword"> Besucher-ID-Service</span>-Parameter werden jetzt in <span class="keyword">Target</span>-Aufrufen über <code>mboxParams</code> übergeben. </p> </td> 
+   <td colname="2"> <p><span class="keyword"> Besucher-ID-Service</span>-Parameter werden jetzt in <span class="keyword">Target</span>-Aufrufen über <code> mboxParams</code> übergeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +166,7 @@ Die [!DNL iOS]-SDK-Version 4.12.0 (18. August 2016) enthält folgende Änderu
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Besucher-ID-Service </p> </td> 
+   <td colname="1"> <p>Visitor ID Service </p> </td> 
    <td colname="2"> <p> Neue Methode hinzugefügt, mit der die Besucher-ID an eine angegebene URL angehängt werden kann, um die Identität an eine webbasierte Implementierung zu übertragen. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -235,11 +233,11 @@ Die [!DNL iOS]-SDK-Version 4.10.0 (20. Mai 2016) enthält folgende Änderungen:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Adobe Target für TVML/TVJS </p> </td> 
-   <td colname="2"> <p>Sie können jetzt die folgenden Eigenschaftsnamen verwenden, wenn Sie Ihr <code>ADBTarget</code>-Element konfigurieren: </p> <p> 
+   <td colname="2"> <p>Sie können jetzt die folgenden Eigenschaftsnamen verwenden, wenn Sie Ihr <code> ADBTarget</code>-Element konfigurieren: </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
       <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
-      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code>purchasedProductIds</code> </li> 
+      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code> purchasedProductIds</code> </li> 
       <li id="li_FAAC4BB12DF9491DA21F161711A7707D"> <code> mboxParameters</code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -298,7 +296,7 @@ Die [!DNL iOS]-SDK-Version 4.8.5 (18. Februar 2016) enthält folgende Änderung
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Opt-out- und Datenschutzeinstellungen </p> </td> 
-   <td colname="2"> <p>Ab <span class="keyword">iOS</span>-SDK 4.8.5 wirken sich die über die Methode <code>setPrivacyStatus</code> festgelegten Datenschutzeinstellungen auf die Aktivität von <span class="keyword">Analytics</span>, <span class="keyword">Target</span> und <span class="keyword">Audience Manager</span> aus. </p> </td> 
+   <td colname="2"> <p>Ab <span class="keyword">iOS</span>-SDK 4.8.5 wirken sich die über die Methode <code> setPrivacyStatus</code> festgelegten Datenschutzeinstellungen auf die Aktivität von <span class="keyword">Analytics</span>, <span class="keyword">Target</span> und <span class="keyword">Audience Manager</span> aus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -322,7 +320,7 @@ Die [!DNL iOS]-SDK-Version 4.8.0 (2. November 2015) enthält folgende Änderung
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Die Methode <code>visitorSyncIdentifiers:identifiers</code> wurde in <code>visitorSyncIdentifiers:</code> geändert </p> </td> 
+    </ul> <p>Die <code> visitorSyncIdentifiers:identifiers</code> Methode wurde in <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Neue TVJS-Methoden </td> 
@@ -432,7 +430,7 @@ Die [!DNL iOS]-SDK-Version 4.6 (17. September 2015) enthält folgende Änderu
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E">Das <code>trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">Die Variablen <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -456,7 +454,7 @@ Die [!DNL iOS]-SDK-Version 4.5 enthält folgende Änderungen:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS-Erweiterung</span> </p> </td> 
-   <td colname="2"> <p>Die <span class="keyword">iOS</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">iOS</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Anwendungen, Today Widgets, Photo Editing Widgets und all den anderen Anwendungen der <span class="keyword">iOS</span>-Erweiterung erlaubt. </p> <p>Wir empfehlen ausdrücklich die Verwendung von <span class="keyword">iOS</span>-SDK anstelle Ihres eigenen Wrappers. </p> <p>Apple bietet einen Satz APIs, über die die Watch-Anwendung mit der übergeordneten Anwendung kommunizieren (Anfragen an die übergeordnete Anwendung senden und Antworten erhalten) kann. </p> <p>Es ist zwar möglich, Tracking-Daten als Wörterbuch von der Watch-Anwendung an die übergeordnete Anwendung zu senden und die übergeordnete Anwendung anschließend über eine beliebige Tracking-Methode zum Senden der Daten aufzufordern, jedoch gibt es bei dieser Methode Einschränkungen. </p> <p>Wenn ein Benutzer die Watch-Anwendung verwendet, läuft die übergeordnete Anwendung meistens im Hintergrund, und es ist nur sicher, <code>TrackActionInBackground</code>, <code>TrackLocation</code> und <code>TrackBeacon</code> aufzurufen. Andere Tracking-Methoden aufzurufen würde Lebenszyklusdaten beeinträchtigen, also sollten Sie nur diese drei Methoden verwenden, um Daten von der Watch-Anwendung zu senden. </p> <p>Selbst wenn diese drei Tracking-Methoden Ihren Anforderungen genügen, empfehlen wir die Verwendung des <span class="keyword">iOS</span>-SDK, da das SDK für Watch-Anwendungen alle <span class="keyword">Mobilgerät</span>-Funktionen außer In-App-Nachrichten enthält. </p> </td> 
+   <td colname="2"> <p>Die <span class="keyword">iOS</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">iOS</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Anwendungen, Today Widgets, Photo Editing Widgets und all den anderen Anwendungen der <span class="keyword">iOS</span>-Erweiterung erlaubt. </p> <p>Wir empfehlen ausdrücklich die Verwendung von <span class="keyword">iOS</span>-SDK anstelle Ihres eigenen Wrappers. </p> <p>Apple bietet einen Satz APIs, über die die Watch-Anwendung mit der übergeordneten Anwendung kommunizieren (Anfragen an die übergeordnete Anwendung senden und Antworten erhalten) kann. </p> <p>Es ist zwar möglich, Tracking-Daten als Wörterbuch von der Watch-Anwendung an die übergeordnete Anwendung zu senden und die übergeordnete Anwendung anschließend über eine beliebige Tracking-Methode zum Senden der Daten aufzufordern, jedoch gibt es bei dieser Methode Einschränkungen. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. Andere Tracking-Methoden aufzurufen würde Lebenszyklusdaten beeinträchtigen, also sollten Sie nur diese drei Methoden verwenden, um Daten von der Watch-Anwendung zu senden. </p> <p>Selbst wenn diese drei Tracking-Methoden Ihren Anforderungen genügen, empfehlen wir die Verwendung des <span class="keyword">iOS</span>-SDK, da das SDK für Watch-Anwendungen alle <span class="keyword">Mobilgerät</span>-Funktionen außer In-App-Nachrichten enthält. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,7 +475,7 @@ Die [!DNL iOS]-SDK-Version 4.5 enthält folgende Änderungen:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Unterstützung für Beacon-Tracking in <span class="keyword">PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>Die Aufrufe <code>trackBeacon</code> und <code>clearCurrentBeacon</code><span class="keyword"> sind jetzt in PhoneGap verfügbar</span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -521,7 +519,7 @@ Releasedatum: **17. April 2014**
 * Bluetooth-Beacon-Tracking.
 * App-Akquise-Analyse.
 * Bei Anwendungen, bei denen Zeitstempel aktiviert sind, werden Absturztreffer auf die richtige Sitzung zurückdatiert.
-* Bei Anwendungen, bei denen Zeitstempel aktiviert sind, wird die vorherige Sitzung in einem Treffer gesendet, der auf die richtige Sitzung zurückdatiert ist (nicht länger vorherige Sitzung).
+* Bei Anwendungen, bei denen Zeitstempel aktiviert sind, wird die vorherige Sitzung in einem Treffer gesendet, der auf die richtige Sitzung zurückdatiert ist (nicht länger vorherige Sitzung)
 * Stapelverarbeitung von Treffern.
 
 ## Version 4.0.2 {#section_B78AE82CDFAD44DCAC6D61E0B80BF4C8}
