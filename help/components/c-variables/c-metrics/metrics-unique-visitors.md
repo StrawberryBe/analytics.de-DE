@@ -1,13 +1,13 @@
 ---
 description: In Version 14 werden Besucher als Unique Visitor bezeichnet, die eine Site zum ersten Mal innerhalb eines festgelegten Zeitraums besuchen. Zum Beispiel kann ein Unique Visitor eine Site zehnmal in einer Woche besuchen, wenn als Zeitraum jedoch „Woche“ festgelegt ist, wird ein einzelner nur einmal für diese Woche gezählt. Wenn die Woche vorüber ist, kann der betreffende Unique Visitor erneut für einen anderen Zeitraum gezählt werden.
 seo-description: In Version 14 werden Besucher als Unique Visitor bezeichnet, die eine Site zum ersten Mal innerhalb eines festgelegten Zeitraums besuchen. Zum Beispiel kann ein Unique Visitor eine Site zehnmal in einer Woche besuchen, wenn als Zeitraum jedoch „Woche“ festgelegt ist, wird ein einzelner nur einmal für diese Woche gezählt. Wenn die Woche vorüber ist, kann der betreffende individuelle Besucher erneut für einen anderen Zeitraum gezählt werden.
-seo-title: Individuelle Besucher
+seo-title: Unique Visitors
 solution: Analytics
 title: Unique Visitors
 topic: Metriken
-uuid: ae 210698-99 f 9-485 e-a 640-c 7520807 adc 7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,11 @@ In Version 15 werden doppelte [!UICONTROL Besuche] und [!UICONTROL Unique Visito
 |---|---|
 | Traffic | Ein Besucher ist eine Person, die auf Ihre Website gelangt. Erfordert kein persistentes Cookie. |
 | Konversion | Ein Besucher ist eine Person, die auf Ihre Website gelangt. Wird gezählt, wenn ein(e) konversionsbezogene(s) Ereignis/Aktion auftritt. |
-| Ad Hoc Analysis | Ein Besucher ist eine Person, die auf Ihre Website gelangt. Erfordert kein persistentes Cookie. |
+| Ad Hoc Analysis  | Ein Besucher ist eine Person, die auf Ihre Website gelangt. Erfordert kein persistentes Cookie. |
 
-See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+Siehe Bericht " [Individuelle Besucher"- Version 15 und Ad-hoc-Analysen](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Unique Visitors pro Tag](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)
 
