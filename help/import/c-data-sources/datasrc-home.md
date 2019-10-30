@@ -1,19 +1,19 @@
 ---
 description: Sie können Adobe Analytics-Datenquellen nutzen, um manuell zusätzliche Online- oder Offline-Daten für die Berichterstellung zu importieren.
 seo-description: Sie können Adobe Analytics-Datenquellen nutzen, um manuell zusätzliche Online- oder Offline-Daten für die Berichterstellung zu importieren.
-seo-title: Übersicht über die Datenquellen
+seo-title: Data Sources-Übersicht
 solution: Analytics
 subtopic: Datenquellen
-title: Übersicht über die Datenquellen
+title: Data Sources-Übersicht
 topic: Entwickler und Implementierung
-uuid: 8014 e 97 d -2 f 1 b -4 cc 6-ad 8 f -885 f 85 bec 8 b 8
+uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Übersicht über die Datenquellen
+# Data Sources-Übersicht
 
 Sie können Adobe Analytics-Datenquellen nutzen, um manuell zusätzliche Online- oder Offline-Daten für die Berichterstellung zu importieren.
 
@@ -31,9 +31,9 @@ Die Datenintegration hilft Ihnen dabei, die Transaktionen im Ganzen zu verstehen
 1. Sie gelangen auf Ihre Site, durchsuchen sie und kaufen dann.
 1. Einige Besucher geben das Produkt durch einen Telefonanruf oder Besuch im Laden zurück.
 
-Sowohl die Daten von vor dem Klick (Suchdurchgänge vor dem letzten, der zu Ihrer Site führte, Impressionen, Kosten usw.) als auch nach dem Kauf erfasste Informationen (Rückgaben, Call-Center-Daten) können integriert werden.
+Sowohl die Vor-Klick-Daten (Suchvorgänge vor der letzten Seite, die zu Ihrer Site führten, Impressionen, Kosten usw.) als auch die "Nach-dem-Kauf"-Informationen (Rückgaben, Call-Center-Daten) können integriert werden.
 
-Mit Data Sources können Sie die Daten vor dem Klick besser interpretieren, indem Sie die Daten über die Suchmaschine oder das Werbungsnetzwerk importieren. Auf diese Weise können Sie das ROAS (Return on Ad Spend) berechnen, indem Sie die Kostendaten erfassen und den Umsatz durch die Kosten teilen (Umsatz/Kosten). Sie können es auch dazu nutzen, um die nach dem Kauf erfassten Daten zu interpretieren, um ein präziseres Bild über ROAS zu erhalten, indem Sie Informationen wie Rückgabenumsatz oder Rückgabeneinheiten ermitteln.
+Mit Data Sources können Sie die Daten vor dem Klick besser interpretieren, indem Sie die Daten über die Suchmaschine oder das Werbungsnetzwerk importieren. Auf diese Weise können Sie das ROAS (Return on Ad Spend) berechnen, indem Sie die Kostendaten erfassen und den Umsatz durch die Kosten teilen (Umsatz/Kosten). Sie können es auch verwenden, um die "Nach-dem-Verkauf"-Daten besser zu verstehen, um ein genaueres ROAS-Bild zu erhalten, indem Sie Informationen wie Rückgabeumsatz oder Rückgabeeinheiten mitbringen.
 
 >[!IMPORTANT]
 >
