@@ -3,9 +3,9 @@ seo-title: Hilfe zu Adobe Report Builder
 solution: Analytics
 title: Hilfe zu Adobe Report Builder
 topic: ReportBuilder
-uuid: 034 ae 0 e 4-2 a 98-4 bac -977 d -92515960 c 46 e
+uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 <!-- >>[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -26,7 +26,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 <!-- Tutorial goes here -->
 
-## Beliebte Hilfethemen
+## Häufige Hilfethemen
 
 * [Setup, Installation und Einrichtung](setup/login.md)
 * [Berichtanforderungen planen](schedule-report-requests.md)
@@ -34,7 +34,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 * [Welche Optionen für das Erstellen von benutzerdefinierten Datumsbereichen stehen zur Verfügung?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
 * [Warum kann ich meine Segmente in ReportBuilder nicht sehen?](data-requests/segmentation.md)
 
-## Häufige Fragen und Fehlerbehebung
+## Allgemeine Fragen und Fehlerbehebung
 
 * [Wie wird eine Datenanforderung erstellt?](data-requests/t-create-a-data-request.md)
 * [Fehlerbehebung und Best Practices für ReportBuilder](troubleshoot.md)
@@ -51,6 +51,6 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 ## Hilfe zu Reports &amp; Analysen
 
-* [Hilfe zum Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
+* [Hilfe zu Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
 * [Hilfe zu Reports &amp; Analysen](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Analytics-Referenzhilfe](https://marketing.adobe.com/resources/help/en_US/reference/index.html) zu Admin Tools, Berichten und Metriken.
+* [Referenzhilfe](https://marketing.adobe.com/resources/help/en_US/reference/index.html) zu Analytics zu Admin Tools, Berichten und Metriken.
