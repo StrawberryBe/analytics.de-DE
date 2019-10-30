@@ -1,19 +1,19 @@
 ---
 description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad-hoc-Analysen gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
-keywords: Segmentierung; Segmente
+keywords: Segmentierung;Segmente
 seo-description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad-hoc-Analysen gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
-seo-title: Übergangsleitfaden für Ad-hoc-Analysen
+seo-title: Übergangsleitfaden für Ad Hoc Analysis
 solution: Analytics
-title: Übergangsleitfaden für Ad-hoc-Analysen
+title: Übergangsleitfaden für Ad Hoc Analysis
 topic: Segmente
-uuid: d 409 d 71 a-f 8 d 9-42 a 2-add 2-37 d 426 cd 40 d 1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Übergangsleitfaden für Ad-hoc-Analysen
+# Übergangsleitfaden für Ad Hoc Analysis
 
 Wenn Sie die Arbeit mit dem Segmentaufbau in Ad-hoc-Analysen gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 
