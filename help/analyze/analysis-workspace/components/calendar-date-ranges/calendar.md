@@ -1,16 +1,16 @@
 ---
 description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 seo-description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
-seo-title: Kalender      und Datumsbereiche - Übersicht
-title: Überblick über Kalender- und Datumsbereiche
-uuid: 3 d 7727 ba -9070-4 f 7 c -815 f-c 98 baa 4 e 3 a 2 d
+seo-title: Übersicht über Kalender und Datumsbereiche
+title: Übersicht über Kalender und Datumsbereiche
+uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Überblick über Kalender- und Datumsbereiche
+# Übersicht über Kalender und Datumsbereiche
 
 Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 
@@ -22,13 +22,13 @@ Sie können Datums- (und Zeitdimensionen) mittels Drag &amp; Drop in einem Works
 
 ![](assets/aw_calendar.png)
 
-[Verwenden von Datumsbereichen und Kalendern im Analysis Workspace auf youtube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Verwenden von Datumsbereichen und Kalendern im Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 
 | Einstellung | Beschreibung |
 |--- |--- |
-| Ausgewählte Tage | Gewählte Tage/Wochen/Monate/Jahre. |
-| Rollierende Daten verwenden | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.  Datumsvorschau: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.  Start: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.  Ende: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.  For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| Ausgewählte Tage | Ausgewählte Tage/Wochen/Monate/Jahre |
+| Rollierende Daten verwenden | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie z. B. einen Bericht zu allen Bestellungen erstellen möchten, die "Letzter Monat"(basierend auf dem Feld Erstellungsdatum) aufgegeben wurden und im Dezember diesen Bericht ausführen, sehen Sie Bestellungen, die im November aufgegeben wurden. Wenn Sie denselben Bericht im Januar ausführen, werden Ihnen Bestellungen im Dezember angezeigt.  Datumsvorschau: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.  Start: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.  Ende: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.  For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
 | Datumsbereich | Hier können Sie einen voreingestellten Datumsbereich auswählen. Der Standardwert lautet „Letzte 30 Tage“. |
 | In alle Bedienfelder übernehmen | Hiermit können Sie den ausgewählten Datumsbereich nicht nur für das aktuelle Bedienfeld, sondern für alle Bedienfelder des Projekts ändern. |
 | Übernehmen | Hiermit wird der Datumsbereich nur in diesem Bedienfeld übernommen. |
