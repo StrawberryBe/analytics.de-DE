@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getAndPersistValue
 topic: Entwickler und Implementierung
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Das getAndPersistValue-Plug-in ruft einen Wert Ihrer Wahl ab und trägt ihn für
 
 Beispielsweise können Sie mit diesem Plug-in einen Kampagnen-Trackingcode aus der Variable *`campaign`* in eine benutzerspezifische Traffic-Variable (*`s.prop`*) für die Seitenansicht jedes Besuchers für die nächsten 30 Tage setzen. Mit diesem Beispiel können Sie ermitteln, wie viele Seitenaufrufe der Trackingcode als Ergebnis des ursprünglichen Clickthrough generiert hat.
 
->[!NOTE]
->
->Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code und -Implementierung {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
