@@ -1,18 +1,18 @@
 ---
 description: Informationen zu den drei Möglichkeiten, sich bei ReportBuilder anzumelden.
 seo-description: Informationen zu den drei Möglichkeiten, sich bei ReportBuilder anzumelden.
-seo-title: Anmelden bei ReportBuilder
+seo-title: Anmelden bei Report Builder
 solution: Analytics
-title: Anmelden bei ReportBuilder
+title: Anmelden bei Report Builder
 topic: ReportBuilder
-uuid: 9 a 21 b 791-e 323-46 d 2-b 850-2 d 67 babe 664 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Anmelden bei ReportBuilder
+# Anmelden bei Report Builder
 
 Informationen zu den drei Möglichkeiten, sich bei ReportBuilder anzumelden.
 
@@ -28,7 +28,7 @@ Zurzeit sind beim Klicken auf **[!UICONTROL Anmelden]in ReportBuilder folgende A
 
 Verwenden Sie diese Anmeldung, um sich mit Ihren Adobe Analytics-Anmeldedaten bei ReportBuilder anzumelden.
 
-**Reportbuilder-Anmeldung - Felddefinitionen**
+**ReportBuilder-Anmeldung - Felddefinitionen**
 
 | Feld | Definition |
 |--- |--- |
@@ -50,7 +50,5 @@ Die Experience Cloud-Anmeldung erlaubt die Verwendung Ihrer Enterprise ID (E-Mai
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->Die Experience Cloud-Anmeldung ist sitzungsbasiert und das Token läuft nach 30 Tagen ab.
+> [!NOTE] Die Experience Cloud-Anmeldung basiert auf Sitzungen, und das Token läuft nach 30 Tagen ab.
 
