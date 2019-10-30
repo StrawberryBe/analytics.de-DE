@@ -1,23 +1,23 @@
 ---
 description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 seo-description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
-seo-title: Umrechnungsklassifizierungen
+seo-title: Konversionsklassifizierungen
 solution: Analytics
 subtopic: Classifications
-title: Umrechnungsklassifizierungen
+title: Konversionsklassifizierungen
 topic: Admin Tools
-uuid: 4 c 8726 c 9-f 527-44 e 1-be 01-8 c 7 b 3 b 5 c 20 f 0
+uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Umrechnungsklassifizierungen
+# Konversionsklassifizierungen
 
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
+## Konversionsklassifizierungen {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie *Popmusikbegriffe* kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 
@@ -65,7 +65,7 @@ t_classification_conversion.xml
 Schritte, die beschreiben, wie Konversion-Classifications in der Admin-Konsole hinzugefügt werden.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. Wählen Sie in der Dropdownliste **„Einen Klassifizierungstyp auswählen“** die Variable aus, der Sie eine Klassifizierung hinzufügen möchten.
 
@@ -95,7 +95,7 @@ t_classification_delete_conversion.xml
 Löschen Sie nicht mehr benötigte Konversion-Classifications
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. Wählen Sie in der Dropdownliste **„Einen Klassifizierungstyp auswählen“** die Variable aus, in der Sie eine Klassifizierung löschen möchten.
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
