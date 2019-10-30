@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics-Inhaltspakete bieten vorgefertigte Power BI-Dashboards und einen Satz von Power BI-Berichten, die Ihnen Erkenntnisse über den Datenverkehr auf Ihrer Site und die Benutzerdimensionen ermöglichen. Sie können das vorhandene Dashboard und die Berichte verwenden oder sie anpassen, um die Informationen, die Ihnen am wichtigsten sind, hervorzuheben. Die Daten werden automatisch einmal täglich aktualisiert.
 seo-description: Adobe Analytics-Inhaltspakete bieten vorgefertigte Power BI-Dashboards und einen Satz von Power BI-Berichten, die Ihnen Erkenntnisse über den Datenverkehr auf Ihrer Site und die Benutzerdimensionen ermöglichen. Sie können das vorhandene Dashboard und die Berichte verwenden oder sie anpassen, um die Informationen, die Ihnen am wichtigsten sind, hervorzuheben. Die Daten werden automatisch einmal täglich aktualisiert.
-seo-title: Adobe Analytics Content Packs für Power BI
-title: Adobe Analytics Content Packs für Power BI
-uuid: 4711 e 135-a 4 b 2-4761-ba 6 c -728 bfe 0 ca 84 d
+seo-title: Adobe Analytics-Inhaltspakete für Power BI
+title: Adobe Analytics-Inhaltspakete für Power BI
+uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Adobe Analytics Content Packs für Power BI
+# Adobe Analytics-Inhaltspakete für Power BI
 
 Adobe Analytics-Inhaltspakete bieten vorgefertigte Power BI-Dashboards und einen Satz von Power BI-Berichten, die Ihnen Erkenntnisse über den Datenverkehr auf Ihrer Site und die Benutzerdimensionen ermöglichen. Sie können das vorhandene Dashboard und die Berichte verwenden oder sie anpassen, um die Informationen, die Ihnen am wichtigsten sind, hervorzuheben. Die Daten werden automatisch einmal täglich aktualisiert.
 
