@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Übersicht über die serverseitige Weiterleitung
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,10 +43,10 @@ Stellen Sie auf der Registerkarte Anfrage sicher, dass ein MID-Wert festgelegt w
 
 Überprüfen Sie, ob bereits eine Version der serverseitigen Weiterleitung implementiert ist, indem Sie die Analytics-Verfolgungsanfrage [überprüfen](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
 
-Überprüfen Sie auf der Registerkarte „Antwort“, ob die Antwort Audience Manager-Daten umfasst. Bei Anzeige des Folgenden gilt das Nachstehende:
+Überprüfen Sie auf der Registerkarte "Antwort", ob die Antwort Audience Manager-Daten enthält. Bei Anzeige des Folgenden gilt das Nachstehende:
 
-* Eine **JSON-Antwort aus Audience Manager mit Elementen wie „postbacks“ oder „dcs_region“**: Es ist bereits eine Form der serverseitigen Weiterleitung aktiviert. Fahren Sie mit Schritt 3 fort.
-* **"status":"SUCCESS"**: Das Zielgruppen-Management-Modul ist zwar implementiert, die serverseitige Weiterleitung ist jedoch nicht ordnungsgemäß konfiguriert. Fahren Sie mit Schritt 3 fort.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. Fahren Sie mit Schritt 3 fort.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Fahren Sie mit Schritt 3 fort.
 * Ein **2-x-2-Bild**: Die serverseitige Weiterleitung oder das Zielgruppen-Management-Modul wurde nicht implementiert. Korrektur:
 
    * **AAM-Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
@@ -70,7 +70,5 @@ Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report 
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
+> [!NOTE] In anderen Experience Cloud-Lösungen wie [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) oder [Zielgruppen](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) werden erst nach Abschluss aller 3 Schritte Daten angezeigt. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
 
