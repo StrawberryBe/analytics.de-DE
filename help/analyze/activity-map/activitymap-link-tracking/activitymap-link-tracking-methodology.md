@@ -7,7 +7,7 @@ title: Linktracking Methodik
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -62,12 +62,12 @@ Die Verwendung der Linkregion hat diese Vorteile:
 * Sie hilft, Links mit der gleichen primären ID zu unterscheiden.
 * Die Trends einer Region sind weniger vom dynamischen Aspekt einer Webseite betroffen.
 * Benutzer können die beliebtesten Links in einer Region sehen. Mit der Region als Anker können Überlagerungen für Links angezeigt werden, die aktuell auf der Seite nicht sichtbar sind (Ajax, Targeting).
-* Eine Region kann Seiten ersetzen, da sie über viele Webseiten hinweg verwendet werden kann. Sie hilft, Fragen zu beantworten wie: „Erzielt die Region mit meinem Produktangebot auf der Landingpage für Frauen oder Männer bessere Ergebnisse?“
+* Eine Region kann Seiten ersetzen, da sie über viele Webseiten hinweg verwendet werden kann. Es hilft bei der Beantwortung von Fragen wie: "Erweist sich meine Region des "Produktangebots"auf der Landingpage für Frauen oder auf der Landingpage für Männer als am besten?
 * Die Region ist eine nützliche Dimension, um hochdynamische Webseiten zu analysieren. Der Grund ist, dass Verzerrungen durch ständig wechselnde Links vermieden werden: In einer Region namens „Neueste Nachrichten“ auf der Landingpage eines Nachrichtensenders ändern sich die Links wahrscheinlich sehr häufig. Aber die Region bleibt immer dieselbe. Deshalb kann es interessant sein, Trends auf Regionsebene über mehrere Tage hinweg zu beobachten.
 
 **Benutzerdefinierte Verfolgung von Regionen**
 
-Sie können den Regionsparameter für einen Link (Standard ist Link-ID) anpassen: Ein auf „ID“ gesetztes Tag verwendet alle HTML-Elemente mit dem Parameter „id“ als Region. Wenn Sie daher das Regions-Tag auf „id“ setzen, führt dies wahrscheinlich zu sehr vielen Regionen (so viele, wie es unterschiedliche IDs auf der Seite gibt). Für eine spezifischere Implementierung können Sie das Regions-Tag alternativ auch auf einen genauer bestimmten Parameter setzen, beispielsweise auf „region_id“.
+Sie können den Regionsparameter für einen Link (Standard ist Link-ID) anpassen: Ein auf „ID“ gesetztes Tag verwendet alle HTML-Elemente mit dem Parameter „id“ als Region. Wenn Sie daher das Regions-Tag auf "id"setzen, werden höchstwahrscheinlich viele verschiedene Regionen zurückgegeben (so viele, wie verschiedene "IDs"auf der Seite vorhanden sind). Für eine spezifischere Implementierung können Sie das Regions-Tag alternativ auch auf einen genauer bestimmten Parameter setzen, beispielsweise auf „region_id“.
 
 Der folgende Abschnitt enthält ein Beispiel für HTML-Code, in dem das standardmäßige Attribut für die ID einer Region, „id“, verwendet wird: 
 
