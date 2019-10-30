@@ -1,13 +1,13 @@
 ---
 description: Standardmäßig wird der Auftragsverlauf für die letzten 30 Tage für alle Report Suites gemeldet.
-keywords: Datenfeed; Feed; job; Verlauf
+keywords: Datenfeed;Feed;Auftrag;Verlauf
 seo-description: Standardmäßig wird der Auftragsverlauf für die letzten 30 Tage für alle Report Suites gemeldet.
 seo-title: Auftragsverlauf eines Feeds anzeigen
 solution: Analytics
 title: Auftragsverlauf eines Feeds anzeigen
-uuid: db 47 c 9 c 5-4700-4269-9846-e 8 b 38911 a 654
+uuid: db47c9c5-4700-4269-9846-e8b38911a654
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
