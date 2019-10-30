@@ -6,7 +6,7 @@ solution: Analytics
 title: Bereitstellen der Integration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,26 +53,26 @@ In vielen Fällen ist es am einfachsten, das Integrationskonfigurationsobjekt in
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Deploy the code using one of the following methods:
-| **You use Adobe TagManager or Dynamic Tag Management.** | Use the tag management interface to add the code. ||—|—|| **In allen anderen Fällen** | Stellen Sie den Code an die Organisationsressource weiter, die für die Aktualisierung Ihres Adobe Analytics-Bereitstellungscodes zuständig ist.  |
+1. Stellen Sie den Code mit einer der folgenden Methoden bereit:
+| **Sie verwenden Adobe TagManager oder das dynamische Tag-Management.** | Verwenden Sie die Tag-Management-Oberfläche, um den Code hinzuzufügen. ||—|—|| **In allen anderen Fällen** | Stellen Sie den Code an die Organisationsressource weiter, die für die Aktualisierung Ihres Adobe Analytics-Bereitstellungscodes zuständig ist.  |
 
-## Verify the Integration{#verify-the-integration}
+## Integration überprüfen{#verify-the-integration}
 
-Validate that the integration is successfully transferring data by completing a couple of checks.
+Überprüfen Sie, ob die Integration Daten erfolgreich übertragen hat, indem Sie einige Prüfungen durchführen.
 
 ### Protokoll zu den Integrationsaktivitäten {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Experience Cloud by navigating to Support &gt; Integration Activity Log. ******** Under the Data In tab, you should see entries stating that classification data was successfully imported.****
+Zeigen Sie Ihre Einrichtung für die Kampyle-Integration in der Adobe Experience Cloud an, indem Sie zu **[!UICONTROL Support]** &gt; **[!UICONTROL Integrationsaktivitätsprotokoll]** navigieren. Auf der Registerkarte " **[!UICONTROL Daten in]** "werden Einträge angezeigt, aus denen hervorgeht, dass Klassifizierungsdaten erfolgreich importiert wurden.
 
-> [!NOTE] Log entries should appear within 24 hours of successful deployment.
+> [!NOTE] Protokolleinträge sollten innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
 
 ![](assets/integration_activity_log.png)
 
-### Adobe Reporting Data {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
+### Adobe-Berichtsdaten {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
 
-View your Kampyle feedback reports with Adobe Analytics by navigating to the Kampyle reporting within the appropriate menu structure.
+Zeigen Sie Ihre Kampyle-Feedback-Berichte mit Adobe Analytics an, indem Sie innerhalb der entsprechenden Menüstruktur zur Kampyle-Berichterstellung navigieren.
 
-> [!NOTE] Reporting data should appear within 24-48 hours of successful deployment, assuming that the integrated feedback form(s) is actively receiving submissions.
+> [!NOTE] Berichtsdaten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden, vorausgesetzt, dass das/die integrierte(n) Feedback-Formular(e) aktiv Übermittlungen empfängt.
 
 ![](assets/adobe_reporting_data.png)
 
