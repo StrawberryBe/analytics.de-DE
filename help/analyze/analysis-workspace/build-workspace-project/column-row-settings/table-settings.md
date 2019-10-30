@@ -3,9 +3,9 @@ description: Die Zeileneinstellungen variieren, je nachdem, welche Komponente Si
 seo-description: Die Zeileneinstellungen variieren, je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
 seo-title: Zeileneinstellungen
 title: Zeileneinstellungen
-uuid: f 30 c 31 d 5-1 fd 4-4 b 93-94 c 3-ca 441099 fe 2 e
+uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,7 @@ Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstell
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschlüsselung </p> </td> 
-   <td colname="col2"> <p><b>Aufschlüsselung nach Position:</b> </p> <p>Sie können Aufschlüsselungen nach fester Position in einer Freiform-Tabelle durchführen. Sie können z. B. festlegen, dass die ersten sieben Zeilen immer aufgeschlüsselt werden. </p> <p>(Zuvor war die Liste mit den Werten in der Aufschlüsselung „gesperrt“. Dadurch erhielten Sie zum Beispiel bei der Aufschlüsselung des <span class="term">Datums</span> nach <span class="term">Seite</span> eine Liste der ersten 50 Seiten des ausgewählten Zeitraums. Wenn Sie diesen Bericht speicherten und ihn einen Monat später erneut durchführen wollten, hätten sich die ersten 50 Seiten wahrscheinlich geändert. In Analysis Workspace werden jedoch die Ergebnisse der ursprünglichen Aufschlüsselung verwendet und dieselben Seiten angezeigt, aber mit dem aktuellen Monat als Zeitraum.) </p> <p>So führen Sie Aufschlüsselung anhand eines festen Ortes durch: </p> 
+   <td colname="col2"> <p><b>Aufschlüsselung nach Position:</b> </p> <p>Sie können Aufschlüsselungen nach fester Position in einer Freiform-Tabelle durchführen. Sie können z. B. festlegen, dass die ersten sieben Zeilen immer aufgeschlüsselt werden. </p> <p>(Zuvor war die Liste der Werte in der Aufschlüsselung "gesperrt". This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Wenn Sie diesen Bericht speicherten und ihn einen Monat später erneut durchführen wollten, hätten sich die ersten 50 Seiten wahrscheinlich geändert. In Analysis Workspace werden jedoch die Ergebnisse der ursprünglichen Aufschlüsselung verwendet und dieselben Seiten angezeigt, aber mit dem aktuellen Monat als Zeitraum.) </p> <p>So führen Sie Aufschlüsselung anhand eines festen Ortes durch: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Schlüsseln Sie einige Zeilen in Ihrer Tabelle auf. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Klicken Sie auf das Einstellungs-Symbol (Zahnrad) neben der Tabellenzeile, die Sie fixieren möchten. </li> 
