@@ -1,25 +1,25 @@
 ---
-description: Verwenden von Metriken in Marketingkanalberichten.
-seo-description: Verwenden von Metriken in Marketingkanalberichten.
-seo-title: In Marketingkanalberichten verwendete Metriken
+description: Verwendung von Metriken in Marketingkanalberichten.
+seo-description: Verwendung von Metriken in Marketingkanalberichten.
+seo-title: In Marketing-Kanalberichten verwendete Metriken
 solution: Analytics
 subtopic: Marketingkanäle
-title: In Marketingkanalberichten verwendete Metriken
+title: In Marketing-Kanalberichten verwendete Metriken
 topic: Reports and Analytics
-uuid: be 5 bcb 94-927 e -4 b 5 f-b 201-3 d 54 eb 51 e 740
+uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# In Marketingkanalberichten verwendete Metriken
+# In Marketing-Kanalberichten verwendete Metriken
 
-Verwenden von Metriken in Marketingkanalberichten.
+Verwendung von Metriken in Marketingkanalberichten.
 
-## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
+## In Marketing-Kanalberichten verwendete Metriken {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
-Verwenden von Metriken in Marketingkanalberichten.
+Verwendung von Metriken in Marketingkanalberichten.
 
 ![](assets/metric_edit_icon.png)
 
@@ -29,21 +29,21 @@ Fügen Sie Metriken hinzu (oder bearbeiten Sie diese).
 
 Fügen Sie dem Bericht eine Spalte hinzu.
 
-## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
+## First Touch- und Last Touch-Metriken {#concept_68D9A50204304BA58C1F8013451E7853}
 
-First Touch und Last Touch sind Kanalattribute, mit denen Sie sehen können, wie viele neue Bindungen (oder Metrikdaten wie Produktansichten, Umsatz und Bestellungen) aus der Aktivität eines Besuchers im Kanal resultieren.
+First Touch und Last Touch sind Kanalattribute, mit denen Sie sehen können, wie viele neue Interaktionen (oder Metrikdaten wie Produktansichten, Umsatz und Bestellungen) aus der Aktivität eines Besuchers im Kanal resultieren.
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Es nimmt den ersten Kanal, durch den der Benutzer gelangte, zur Kenntnis. Gleiches gilt für den aktuellsten Kanal. Es weist dann das Erfolgsereignis jedem entsprechenden Kanal zu.
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
 
-**Beispiel**: 
+**Beispiel**
 
 Angenommen, Sie richten zwei Marketing-Kanäle ein: „Gebührenpflichtige Suche“ und „E-Mail-Kampagne“.
 
@@ -63,15 +63,13 @@ Der gebührenpflichtige Suchkanal erhält als First Touch-Kanal mit Umsatz die G
 
 Jedes Erfolgsereignis hat genau einen First-Touch- und genau einen Last-Touch-Kanal. Wenn Sie demnach eine angegebene Metrikspalte für ein Erfolgsereignis hinzufügen, entspricht es immer der Summe für denselben Zeitraum. Die Summe entspricht zudem exakt der Gesamtanzahl an Ereignissen im entsprechenden Bericht [!UICONTROL Site-Metriken] &gt; [!UICONTROL Benutzerspezifische Ereignisse]. Nicht-Erfolgsereignis-Metriken wie Besuche und Besucher stimmen nicht 1:1 überein, da mehrere Kanäle beim selben Besuch ausgelöst werden können.
 
->[!NOTE]
->
->Dieser Bericht verwendet die First Touch- oder Last Touch-Version jeder Metrik. Aus diesem Grund stimmen die Daten eines [!UICONTROL Marketingkanalsberichts] ggf. nicht mit denen anderer Berichte überein.
+> [!NOTE] Dieser Bericht verwendet die First Touch- oder Last Touch-Version der einzelnen Metriken. Aus diesem Grund stimmen die Daten eines [!UICONTROL Marketingkanalsberichts] ggf. nicht mit denen anderer Berichte überein.
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
 | Metrik | Definition |
 |--- |--- |
-| Erstkontaktkanal | Der erste Marketingkanal, durch den die Besucherbindung entstand. Technisch gesehen ist der First Touch-Kanal eine evar mit Originalzuordnung. |
+| Erstkontaktkanal | Der erste Marketingkanal, durch den die Besucherbindung entstand. Technisch gesehen ist der First Touch-Kanal eine eVar mit Originalzuordnung. |
 | First-Touch-Besucher | In der Kanalberichterstattung ist ein First-Touch-Besucher ein „Unique Visitor pro Tag“, der aus einem Kanal stammt. Die Besucherinteraktion wird für die Dauer der Interaktion an die Site (was mehrere Besuche umfassen kann) gespeichert. |
 | Last-Touch-Kanal | Der Konversionkanal, d. h. der letzte Marketingkanal mit Besucherbindung, der zur Konversion führte. Als First Touch-Kanal kann nur ein Kanal eingestellt werden. Der Last Touch-Kanal kann sich bei jedem Site-Besuch ändern. Jedem Besuch ist ein First Touch- und ein Last Touch-Kanal zugewiesen. Der Wert des First Touch-Kanals verändert sich jedoch bei nachfolgenden Besuchen nicht. |
 
