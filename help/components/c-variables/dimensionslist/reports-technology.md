@@ -4,10 +4,10 @@ seo-description: Diese Berichte beinhalten Informationen über die von den Besuc
 seo-title: Technologie
 solution: Analytics
 title: Technologie
-topic: 'Berichte    '
-uuid: 8 e 2 f 88 dc-e 1 b 9-428 e-b 0 d 3-faf 4 c 063 bebc
+topic: Berichte
+uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Diese Berichte beinhalten Informationen über die von den Besuchern verwendeten 
   </tr> 
   <tr> 
    <td colname="col1"> Bildschirmfarbtiefen </td> 
-   <td colname="col2"> <p> Zeigt Informationen über die beliebtesten Bildschirmfarbtiefeneinstellungen der Computer Ihrer Benutzer an. Die Farbtiefe bezeichnet die Anzahl der Farben, die auf dem Bildschirm angezeigt werden können. </p> </td> 
+   <td colname="col2"> <p> Zeigt die beliebtesten Farbtiefeneinstellungen Ihrer Besucher an, die auf ihrem Computer konfiguriert wurden. Die Farbtiefe bezeichnet die Anzahl der Farben, die auf dem Bildschirm angezeigt werden können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bildschirmauflösungen </td> 
@@ -62,7 +62,7 @@ Diese Berichte beinhalten Informationen über die von den Besuchern verwendeten 
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript-Version </td> 
-   <td colname="col2"> <p> Zeigt Informationen über die JavaScript-Version an, die die Browser Ihrer Besucher während des Besuchs auf Ihrer Site verwenden. </p> </td> 
+   <td colname="col2"> <p> Zeigt die Versionen von JavaScript an, die die Browser Ihrer Besucher während der Ansicht Ihrer Site verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 
