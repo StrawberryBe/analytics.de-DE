@@ -3,9 +3,9 @@ description: ReportBuilder 5.2 unterstützt vereinheitlichte berechnete Adobe An
 seo-description: ReportBuilder 5.2 unterstützt vereinheitlichte berechnete Adobe Analytics-Metriken. Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine Report Suite beschränkt.
 seo-title: Berechnete Metriken
 title: Berechnete Metriken
-uuid: c 9814894-cda 6-40 ff -8 ec 4-3 ab 2 c 1908 ebc
+uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ReportBuilder 5.2 unterstützt vereinheitlichte berechnete Adobe Analytics-Metriken. Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine Report Suite beschränkt.
 
->[!NOTE]
->
->Vorhandene Arbeitsmappen verweisen möglicherweise auf Anforderungen mit alten Metrikids. Wenn Sie ReportBuilder 5.2 verwenden, werden diese alten Metrik-IDs in die neue globale ID konvertiert. Wenn Sie diese Arbeitsmappe für einen Benutzer von ReportBuilder v5.1 oder älter freigeben, kann dieser Benutzer die berechneten Metriken nicht anzeigen.
+> [!NOTE] Vorhandene Arbeitsmappen können auf Anforderungen mit alten Metrik-IDs verweisen. Wenn Sie ReportBuilder 5.2 verwenden, werden diese alten Metrik-IDs in die neue globale ID konvertiert. Wenn Sie diese Arbeitsmappe für einen Benutzer von ReportBuilder v5.1 oder älter freigeben, kann dieser Benutzer die berechneten Metriken nicht anzeigen.
 
 Weitere Informationen zum Erstellen und Verwalten von berechneten Metriken mit dem neuen Generator und Manager für berechnete Metriken finden Sie im Handbuch [Berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics).
 
