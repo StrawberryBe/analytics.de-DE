@@ -3,12 +3,12 @@ description: Schritte, die Sie durchführen können, um die Verwendung von Daten
 seo-description: Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
 seo-title: Vorbereiten auf die Verwendung von Data Sources
 solution: Analytics
-subtopic: ' Datenquellen'
+subtopic: Datenquellen
 title: Vorbereiten auf die Verwendung von Data Sources
 topic: Entwickler und Implementierung
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,21 +31,17 @@ Nachdem Sie die entsprechenden Metrik-zu-Ereignis-Zuordnungen für die Data Sour
 
 Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) in der Hilfe der Admin Tools.
 
->[!NOTE]
->
->Adobe empfiehlt dringend, neue, leere Ereignisse mit Data Sources-Daten zu verwenden. In seltenen Fällen kann es jedoch sinnvoll sein, ein bereits bestehendes Ereignis zu verwenden.
+> [!NOTE] Adobe empfiehlt dringend, neue, leere Ereignisse mit Data Sources-Daten zu verwenden. In seltenen Fällen kann es jedoch sinnvoll sein, ein bereits bestehendes Ereignis zu verwenden.
 
 ## Identifizieren von Datendimensionen {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Identifizieren und erfassen Sie Daten (Berichte), die Sie zum Aufschlüsseln der über Data Sources importierten Metriken verwenden möchten. Diese Daten werden auch als *`data dimensions`* zu trennen.
+Identifizieren und erfassen Sie Daten (Berichte), die Sie zum Aufschlüsseln der über Data Sources importierten Metriken verwenden möchten. Diese Daten werden auch als *`data dimensions`*.
 
 Wenn beispielsweise eine Data Sources-Metrik Anzeigenimpressionen misst, ist Ihre Datendimension wahrscheinlich der Kampagnen-Trackingcode. Wenn Sie die Offline-Verkäufe messen, möchten Sie u. U. den Produktcode (oder die SKU) als Datendimension verwenden.
 
 Sie können für eine Metrik mehrere Datendimensionen definieren, aber jede Metrik muss über einen entsprechenden Wert oder eine Kombination aus Werten für jede zugeordnete Datendimension verfügen. Wenn Sie zum Beispiel eine Offline-Verkaufsmetrik importieren und sie *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE]
->
->Es ist möglich, Summenmetriken zu importieren, die nicht durch Datendimensionen aufgeschlüsselt werden können.
+> [!NOTE] Es ist möglich, Summenmetriken zu importieren, die nicht durch Datendimensionen aufgeschlüsselt werden können.
 
 Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben, integrieren Sie die Dimensionsdaten in Marketingberichte, indem Sie sie einer Variablen zuordnen. Verwenden Sie entweder Standardberichte (z. B. Produkt, Trackingcode, Keyword) oder Konversion-Traffic-Variablen (eVars).
 
