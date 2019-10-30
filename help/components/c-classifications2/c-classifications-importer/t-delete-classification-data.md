@@ -1,14 +1,14 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie Classification-Daten löschen oder entfernen.
 seo-description: In diesen Schritten wird beschrieben, wie Sie Klassifizierungsdaten löschen oder entfernen.
-seo-title: Löschen von Klassifizierungsdaten
+seo-title: Löschen von Classification-Daten
 solution: Analytics
 subtopic: Classifications
 title: Löschen von Classification-Daten
 topic: Admin Tools
-uuid: 5 b 1 b 0 ac 7-ee 52-4 fd 8-b 98 e -25283595 cf 0 c
+uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ In diesen Schritten wird beschrieben, wie Sie Classification-Daten löschen oder
 
    Alternatively, use [!DNL ~deletekey~]. Mit diesem Befehl wird die Classification für den betreffenden Schlüssel so behandelt, als wäre sie nie erfolgt. Der Schlüssel und alle Spaltendaten werden aus den Suchtabellen entfernt.
 
-   **Einschränkungen**: Sie benötigen nur eine Spalte mit [!DNL ~dem Löschschlüssel~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. [!DNL ~Das Löschen von Schlüsseln~] funktioniert jedoch auf Zeilenebene (Schlüssel und alle zugehörigen Metadaten) und muss daher nur in einer der Spalten in der Zeile angezeigt werden. Mit diesem Befehl werden alle Metadaten aus der Zeile gelöscht. Adobe interpretiert dies so, als wäre der Schlüssel nie klassifiziert worden, und zeigt ihn in der Kategorie [Keine](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) an.
+   **Caveat**: Sie benötigen nur eine Spalte, die [!DNL ~deletekey~]enthält. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Mit diesem Befehl werden alle Metadaten aus der Zeile gelöscht. Adobe interpretiert dies so, als wäre der Schlüssel nie klassifiziert worden, und zeigt ihn in der Kategorie [Keine](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) an.
 
 1. Speichern Sie die Datei, und laden Sie sie danach über die Registerkarte [!UICONTROL Datei importieren] hoch.
 
@@ -33,7 +33,7 @@ In diesen Schritten wird beschrieben, wie Sie Classification-Daten löschen oder
 
    **Eigenschaften dieses Befehls**
 
-* [!DNL ~leer~] muss ohne Leerzeichen kleingeschrieben sein. Die folgenden Eingaben sind ungültig:
+* [!DNL ~leer~] muss Kleinbuchstaben ohne Leerzeichen sein. Die folgenden Eingaben sind ungültig:
 
    * [!DNL ~EMPTY~]
    * [!DNL ~ empty ~]
