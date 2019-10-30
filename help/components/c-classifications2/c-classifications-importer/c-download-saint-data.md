@@ -1,23 +1,23 @@
 ---
 description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 seo-description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
-seo-title: Classification-Vorlage
+seo-title: Klassifizierungsvorlage
 solution: Analytics
 subtopic: Classifications
-title: Classification-Vorlage
+title: Klassifizierungsvorlage
 topic: Admin Tools
-uuid: 4 edd 411 b -164 c -4 b 4 d-a 872-b 57 a 3163 ca 72
+uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Classification-Vorlage
+# Klassifizierungsvorlage
 
 (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 
-## Classification template {#concept_0F06847AD8D042F5BA818AE3C37E2417}
+## Klassifizierungsvorlage {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
 (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 
@@ -33,19 +33,15 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschriften) eines spezifischen Datensatzes ohne die jeder Classification zugeordneten Daten.
 
->[!NOTE]
->
->Die Vorlagenmethode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
+> [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
 
-For more information about the data file structure, see [About Classification Data Files](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu Classification-Datendateien](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
 
 ## Herunterladen einer Classification-Datenvorlage (optional) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 Die Vorlage liefert das Dateiformat, das für Classifications genutzt werden muss.
 
->[!NOTE]
->
->Die Vorlagenmethode beschränkt Ihre Daten auf eine einzige Report Suite.
+> [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Daten auf eine einzige Report Suite.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Legen Sie unter der Registerkarte **Vorlage herunterladen** die Konfiguration für die [-Datenvorlage fest](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
