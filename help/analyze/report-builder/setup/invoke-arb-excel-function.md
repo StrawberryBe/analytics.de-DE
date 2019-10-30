@@ -1,26 +1,24 @@
 ---
 description: Dank dieser Funktion wird die ReportBuilder-Verwendung in den normalen Excel-Workflow integriert, ohne dass Sie auf die ReportBuilder-Benutzeroberfläche zugreifen müssen.
 seo-description: Dank dieser Funktion wird die ReportBuilder-Verwendung in den normalen Excel-Workflow integriert, ohne dass Sie auf die ReportBuilder-Benutzeroberfläche zugreifen müssen.
-seo-title: Reportbuilder-Funktionen aus Microsoft Excel-Funktionen aufrufen
+seo-title: Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 solution: Analytics
-title: Reportbuilder-Funktionen aus Microsoft Excel-Funktionen aufrufen
+title: Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 topic: ReportBuilder
-uuid: 5342 cc 4 f -085 d -4 a 2 d-a 498-38 b 00 a 3 ef 4 d 3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Reportbuilder-Funktionen aus Microsoft Excel-Funktionen aufrufen
+# Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 
 Dank dieser Funktion wird die ReportBuilder-Verwendung in den normalen Excel-Workflow integriert, ohne dass Sie auf die ReportBuilder-Benutzeroberfläche zugreifen müssen.
 
 Sie können beispielsweise ReportBuilder-Anforderungen automatisch aktualisieren, deren Eingabefilter auf Daten basieren, die in Excel aus anderen Quellen abgerufen wurden. Genau dies können Sie mithilfe der Zeichenfolgenfunktion RefreshRequestsInCellsRange(..) durchführen. Alle Aufrufe sind asynchron. Sie werden sofort zurückgegeben und warten nicht, bis ein Aufruf vollständig ausgeführt wird.
 
->[!NOTE]
->
->Für diese Funktionalität muss Reportbuilder 5.0 (oder höher) installiert sein.
+> [!NOTE] Damit diese Funktion funktioniert, muss ReportBuilder 5.0 (oder höher) installiert sein.
 
 In der nachfolgenden Tabelle sind alle exponierten Funktionen aufgelistet.
 
