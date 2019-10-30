@@ -3,16 +3,16 @@ description: Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert wä
 seo-description: Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Seitentiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
 seo-title: Durchschnittl. Seitentiefe
 solution: Analytics
-title: Durchschnittliche Klicktiefe
+title: Durchschnittl. Seitentiefe
 topic: Metriken
-uuid: 4 d 8 a 3 a 3 c-c 698-4210-8 dd 8-a 02 a 1638483 c
+uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Durchschnittliche Klicktiefe
+# Durchschnittl. Seitentiefe
 
 Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Klicktiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
 
@@ -39,7 +39,7 @@ Anhand der [!UICONTROL Klicktiefe] können Sie erkennen, wo eine gegebene Seite 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Klicktiefebericht](/help/components/c-variables/dimensionslist/reports-page-depth.md)
 
