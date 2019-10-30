@@ -7,8 +7,8 @@ solution: Analytics
 title: Props und eVars im Vergleich
 topic: Entwickler und Implementierung
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
