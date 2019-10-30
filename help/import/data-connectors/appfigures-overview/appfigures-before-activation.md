@@ -1,11 +1,11 @@
 ---
-description: Before activating this integration, review the following items against your deployments of Adobe Analytics® and your email software.
-seo-description: Before activating this integration, review the following items against your deployments of Adobe Analytics® and your email software.
-seo-title: Before You Activate This Integration
-title: Before You Activate This Integration
+description: Bevor Sie diese Integration aktivieren, überprüfen Sie die folgenden Punkte in Bezug auf Ihre Implementierungen von Adobe Analytics® und Ihrer E-Mail-Software.
+seo-description: Bevor Sie diese Integration aktivieren, überprüfen Sie die folgenden Punkte in Bezug auf Ihre Implementierungen von Adobe Analytics® und Ihrer E-Mail-Software.
+seo-title: Vor Aktivierung dieser Integration
+title: Vor Aktivierung dieser Integration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Auf diese Weise wird sichergestellt, dass vor der Aktivierung geeignete Best Pra
 
 Lesen Sie die folgenden Informationen zu dieser Data Connectors-Integration in Bezug auf Adobe Analytics:
 
-* **** Report Suite-spezifisch:Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren, und dass die Report Suite Daten enthält.
+* **** Report Suite-spezifisch: Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren, und dass die Report Suite Daten enthält.
 * **** Verfügbare und konfigurierte Analytics-Variablen: Für diese Integration sind 10 benutzerspezifische Ereignisse und 1 benutzerspezifische eVar erforderlich. Siehe [Analytics-Integrationsvariablen](appfigures-before-activation.md#analytics-integration-variables).
 
 * **** Report Suite, die mit Live-Daten initialisiert wurde: Wenn Sie eine brandneue Report Suite für diese Integration erstellen, müssen einige (mindestens einen Treffer) Daten über die Live-Verfolgung der AppFigures-Anforderungen empfangen worden sein. Wenn keine Live-Daten aufgezeichnet wurden, kann die Report Suite keine integrierten App Store-Daten empfangen.
@@ -46,28 +46,26 @@ Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 
 Für eine aktive Integration fallen derzeit keine Gebühren an. Es kann jedoch vorkommen, dass der Serveraufruf aufgrund des Datenquellen-Imports leicht ansteigt.
 
-### appFigures Pricing Considerations {#section-c6afad08c34b43e3a7a3637eea3328c3}
+### appFigures-Preise {#section-c6afad08c34b43e3a7a3637eea3328c3}
 
 Für diese Integration fallen derzeit keine Gebühren an. Diese Integration steht derzeit nur Enterprise-Kunden zur Verfügung. Weitere Informationen [erhalten Sie bei appFigures](https://appfigures.com/support/contact) .
 
 ## Analytics Integration Variables{#analytics-integration-variables}
 
-The data connectors integration for appFigures uses Analytics variables to track various appFigures metrics.
+Die Data Connectors-Integration für appFigures verwendet Analytics-Variablen zur Verfolgung verschiedener appFigures-Metriken.
 
 Die folgende Tabelle beschreibt die Analytics-Variablen, die für die appFigures-Integration automatisch aktiviert werden.
 
-### Required Variables {#section-3ca8dc46bab0436cba0c9ef827c8356a}
+### Erforderliche Variablen {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->This integration uses dedicated variables for app store data, so you do not need to assign custom commerce variables and events.
+> [!NOTE] Diese Integration verwendet dedizierte Variablen für App Store-Daten, sodass Sie keine benutzerdefinierten Commerce-Variablen und -Ereignisse zuweisen müssen.
 
 | Variablentyp | Name | Methode zum Ausfüllen | Beschreibung |
 |---|---|---|---|
-| eVar | App Store Objekt-ID | Imported from appFigures. | Configure this eVar with Visit expiration, Most recent allocation, and basic subrelations. |
-| event (numeric) | App Store-Downloads | Imported from appFigures. | Anzahl der mobilen Anwendungs-Downloads. |
-| event (numeric) | App Store Purchases (in app) | Imported from appFigures. | The number of in-app purchases and subscriptions. |
-| event (numeric) | App Store-Platzierung | Imported from appFigures. | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Not used directly. |
+| eVar | App Store Objekt-ID | Aus appFigures importiert. | Konfigurieren Sie diese eVar mit Ablauf des Besuchs, Zuordnung der letzten Zeit und grundlegenden Subrelationen. |
+| event (numerisch) | App Store-Downloads | Aus appFigures importiert. | Anzahl der mobilen Anwendungs-Downloads. |
+| event (numerisch) | App Store-Käufe (in App) | Aus appFigures importiert. | Die Anzahl der In-App-Käufe und -Abonnements. |
+| event (numerisch) | App Store-Platzierung | Aus appFigures importiert. | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
 | event (numerisch) | App Store-Divisor-Platzierung | Aus appFigures importiert. | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
 | event (numerisch) | App Store-Bewertung | Aus appFigures importiert. | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
 | event (numerisch) | Divisor für App Store-Bewertung | Aus appFigures importiert. | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
