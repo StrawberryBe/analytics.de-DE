@@ -8,7 +8,7 @@ title: Bereitstellen der Integration
 topic: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,7 +36,7 @@ Zum Aktivieren der Integration müssen Sie den Qualitätssicherungs-Integrations
 
 1. **Assistent Schritt 3**: Nichts erforderlich, nur informativ.
 
-   Step Result 1. **Assistent Schritt 4: Exporteinstellungen**
+   Schritt Ergebnis 1. **Assistent Schritt 4: Exporteinstellungen**
 
    | eVar | Wählen Sie bis zu fünf Ihrer eVars aus, die Sie für den Export in Qualtrics verfügbar machen möchten |
    |---|---|
@@ -56,8 +56,8 @@ Nach Abschluss des Integrationsassistenten müssen Sie die Integration für jede
 
    ![](assets/advanced_options.png)
 
-1. Wählen Sie die Adobe Analytics-Konfiguration und klicken Sie auf **[!UICONTROL Speichern]**. If no configurations are available then you likely have not yet completed the Adobe Integration Wizard.
-   1. The Include Partial Responses checkbox can be used to indicate that you’d like to capture data into Adobe Analytics after each partial survey screen is completed. **** Wenn diese Option nicht aktiviert ist, werden die Daten nur für vollständig abgeschlossene Umfragen übertragen.
+1. Wählen Sie die Adobe Analytics-Konfiguration und klicken Sie auf **[!UICONTROL Speichern]**. Wenn keine Konfigurationen verfügbar sind, haben Sie den Adobe Integration Wizard wahrscheinlich noch nicht abgeschlossen.
+   1. Das Kontrollkästchen Teilantworten **** einschließen kann verwendet werden, um anzugeben, dass Sie Daten nach Abschluss der einzelnen Teilumfragebildschirme in Adobe Analytics erfassen möchten. Wenn diese Option nicht aktiviert ist, werden die Daten nur für vollständig abgeschlossene Umfragen übertragen.
    1. Das Kontrollkästchen "Zeitstempel **[!UICONTROL mit Beacon]** senden"sollte nur bei der Integration mit einer Report Suite verwendet werden, die für den Empfang von Daten mit Zeitstempel konfiguriert ist (nicht üblich).
    ![](assets/integration_config.png)
 
