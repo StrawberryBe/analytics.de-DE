@@ -1,21 +1,21 @@
 ---
-description: 'Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen. '
+description: Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen.
 keywords: Analytics-Implementierung;Datenerfassung
-seo-description: 'Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen. '
+seo-description: Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen.
 seo-title: Datenerfassung
 solution: Analytics
 title: Datenerfassung
 topic: Entwickler und Implementierung
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Datenerfassung
 
-Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen. 
+Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen.
 
 Die Analytics-Datenerfassung erfolgt, indem eine spezielle Bildanforderung an die Adobe-Datenerfassungsserver gesendet wird. In den meisten Implementierungen wird auf den verfolgten Webseiten JavaScript-Code eingesetzt. Wenn eine getaggte Webseite in den Browser eines Besuchers geladen wird, führt der Browser unseren JavaScript-Code aus, dessen Logik die Besucherinformationen erfasst und die Tags korrekt ausfüllt. Den letzten Schritt der JavaScript-Verarbeitung bildet eine Bildanforderung an den Analytics-Datenerfassungsserver, der die zu übermittelnden Daten erfasst und ein kleines transparentes Bild an den Browser des Besuchers zurückgibt.
 
@@ -61,7 +61,7 @@ Für das Senden von Daten zu Analytics stellt Adobe mehrere Methoden zur Verfüg
 
    >[!NOTE]
    >
-   >Each image request contains a random number string to prevent browser caching and ensure that subsequent image requests are made by the browser.
+   >Jede Bildanforderung enthält eine zufällige Zahlenzeichenfolge, um das Zwischenspeichern im Browser zu verhindern und sicherzustellen, dass folgende Bildanforderungen vom Browser erfolgen.
 
 1. Adobe gibt ein transparentes Pixelbild zurück.
 
@@ -83,7 +83,7 @@ Für das Senden von Daten zu Analytics stellt Adobe mehrere Methoden zur Verfüg
 
    ![](assets/two-months-summary-project.png)
 
-   Die JavaScript Code-Ausführung erfolgt schnell und hat keine größeren Auswirkungen auf die Seitenladezeiten. Dieser Ansatz ermöglicht·es Ihnen, Seiten zu zählen, die angezeigt wurden, wenn ein Besucher zum Erreichen einer Seite auf **[!UICONTROL Neu laden]** oder **Zurück]klickt, da das JavaScript auch dann ausgeführt wird, wenn die Seite aus dem Cache abgerufen wird.[!UICONTROL **
+   Die JavaScript Code-Ausführung erfolgt schnell und hat keine größeren Auswirkungen auf die Seitenladezeiten. Dieser Ansatz ermöglicht es Ihnen, Seiten zu zählen, die angezeigt wurden, wenn ein Besucher zum Erreichen einer Seite auf **[!UICONTROL Neu laden]** oder **Zurück]klickt, da das JavaScript auch dann ausgeführt wird, wenn die Seite aus dem Cache abgerufen wird.[!UICONTROL **
 
 Weitere Informationen finden Sie unter:
 
