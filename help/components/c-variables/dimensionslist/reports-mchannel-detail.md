@@ -7,7 +7,7 @@ title: Marketingkanal-Detail – (Erst- und Letztkontakt)
 topic: Berichte
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,5 @@ Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektiv
    * Besuche und Besucher: Die Verfügbarkeit hängt von der Organisation und der Report Suite ab. Weitere Details erfahren Sie von Ihrem Kundenbetreuer.
    Weitere Informationen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) in der [!UICONTROL Marketingkanal-Hilfe].
 
->[!NOTE]
->
->[!UICONTROL Marketing Channel] reporting is not available in version 13.5.
+> [!NOTE] Die [!UICONTROL Marketingkanal] -Berichte stehen in Version 13.5 nicht zur Verfügung.
 
