@@ -1,20 +1,20 @@
 ---
-description: 'null '
+description: 'null'
 seo-description: 'null'
-seo-title: Datenquellen-Verarbeitungszeit
+seo-title: Data Sources-Verarbeitungszeit
 solution: Analytics
-title: Datenquellen-Verarbeitungszeit
-uuid: d 7 cd 679 a-f 9 e 3-4740-87 cf -6171 f 3 fe 5 cd 9
+title: Data Sources-Verarbeitungszeit
+uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Datenquellen-Verarbeitungszeit
+# Data Sources-Verarbeitungszeit
 
 >[!Note]
->Alle Datenverarbeitungszeiträume sollten als Näherungswert betrachtet werden und stellen keine SLA (Service Level Agreement) dar.
+>Sämtliche Datenverarbeitungszeiträume sollten als ungefähre Zeiträume betrachtet werden und stellen keine Service Level Agreement (SLA) dar.
 
 Die Datenverarbeitungszeit variiert. Es gelten folgende Richtwerte:
 
