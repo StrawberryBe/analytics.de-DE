@@ -7,8 +7,8 @@ solution: Analytics
 title: Metriken
 topic: Entwickler und Implementierung
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ Metriken bilden die Grundlage für Berichte und helfen Ihnen, Datenbeziehungen a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Traffic-Metriken </p> </td> 
-   <td colname="col2"> <p> <b>Seitenansicht:</b> Das Laden einer Webseite im Browser eines Benutzers (eine Ausführung des Codes von Reports &amp; Analytics). </p> <p> <b>Besuch:</b> Eine beliebige Anzahl von Seitenansichten, wenn der Besucher auf Ihre Site gelangt. Ein Besuch endet nach einer Inaktivität von 30 Minuten. </p> <p> <b>Unique Visitor:</b> Eine Person, die Ihre Site zum ersten Mal in einem angegebenen Zeitrahmen, wie beispielsweise einer Stunde, einem Tag, einer Woche, einem Monat, einem Quartal oder einem Jahr besucht. (Dies schließt auch Unique Visitors für einen beliebigen Zeitrahmen ein.) </p> </td> 
+   <td colname="col2"> <p> <b></b> Seitenansicht: Eine Webseite wird in den Browser eines Benutzers geladen (eine Ausführung des Codes für Reports &amp; Analysen). </p> <p> <b>Besuch:</b> Eine beliebige Anzahl von Seitenansichten, wenn der Besucher auf Ihre Site gelangt. Ein Besuch endet nach einer Inaktivität von 30 Minuten. </p> <p> <b>Unique Visitor:</b> Eine Person, die Ihre Site zum ersten Mal in einem angegebenen Zeitrahmen, wie beispielsweise einer Stunde, einem Tag, einer Woche, einem Monat, einem Quartal oder einem Jahr besucht. (Dies schließt auch Unique Visitors für einen beliebigen Zeitrahmen ein.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konversionsmetriken </p> </td> 
@@ -45,9 +45,9 @@ Metriken bilden die Grundlage für Berichte und helfen Ihnen, Datenbeziehungen a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berechnete Metriken </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/de_DE/reference/calculated_metric.html" format="html" scope="external"> Berechnete Metriken</a> ermöglichen Ihnen die Kombination von Metriken zu mathematischen Operationen, die als neue Metriken eingesetzt werden. Diese Metriken können für Berichte erstellt werden, denen Sie Metriken hinzufügen möchten. Administratoren können berechnete Metriken für alle Benutzer einer Report Suite erstellen. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external"> Berechnete Metriken</a> ermöglichen Ihnen die Kombination von Metriken zu mathematischen Operationen, die als neue Metriken eingesetzt werden. Diese Metriken können für Berichte erstellt werden, denen Sie Metriken hinzufügen möchten. Administratoren können berechnete Metriken für alle Benutzer einer Report Suite erstellen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Metrikdefinitionen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/de_DE/reference/metrics.html) in der Hilfe und Referenz zu Analytics.
+Metrikdefinitionen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) in der Analytics-Hilfe und -Referenz.
