@@ -8,7 +8,7 @@ title: Dashboards und Kurzberichte
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ Bedenken Sie, dass einige häufig angezeigte Berichte nicht in Dashboards umgewa
 * Echtzeitberichte
 * Sonstige Dashboards
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Es gibt jedoch einige Fälle, in denen einige oder alle Kurzberichte dieser Übersicht angezeigt werden.
+> [!NOTE] Das Dashboard **[!UICONTROL Site-Übersicht]** wird nicht mehr in Reports &amp; Analysen aufgeführt. Es gibt jedoch einige Fälle, in denen einige oder alle Kurzberichte dieser Übersicht angezeigt werden.
 
 * Wenn Sie beispielsweise nur drei häufig angezeigte Berichte haben, übernimmt Reports &amp; Analytics zwei Berichte aus dem Dashboard „Site-Übersicht“, um das Dashboard **[!UICONTROL Meine empfohlenen Berichte]zu vervollständigen.**
 * Ganz neue Report Suites werden zu Beginn auch in den Kurzberichten der Site-Übersicht angezeigt, bis sie durch Ihre häufig angezeigten Berichte ersetzt werden. Außerdem heißt das Dashboard nun **[!UICONTROL Meine empfohlenen Berichte]**.
