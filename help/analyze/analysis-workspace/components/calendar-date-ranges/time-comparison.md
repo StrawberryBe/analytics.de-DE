@@ -1,11 +1,11 @@
 ---
-description: Mit dem Datumsvergleich im Analysis Workspace können Sie jede Spalte mit einem Datumsbereich ausführen und einen allgemeinen Datumsvergleich erstellen, z. B. Jahres-, Quartals-, Monatsvergleich usw.
-seo-description: Mit dem Datumsvergleich im Analysis Workspace können Sie jede Spalte mit einem Datumsbereich ausführen und einen allgemeinen Datumsvergleich erstellen, z. B. Jahres-, Quartals-, Monatsvergleich usw.
+description: Mit dem Datumsvergleich in Analysis Workspace können Sie eine beliebige Spalte mit einem Datumsbereich ziehen und einen gemeinsamen Datumsvergleich erstellen, z. B. Jahr über Jahr, Quartal, Monat über Monat usw.
+seo-description: Mit dem Datumsvergleich in Analysis Workspace können Sie eine beliebige Spalte mit einem Datumsbereich ziehen und einen gemeinsamen Datumsvergleich erstellen, z. B. Jahr über Jahr, Quartal, Monat über Monat usw.
 seo-title: Datumsvergleich
 title: Datumsvergleich
-uuid: ef 18 f 9 d 9-b 6 ad -4859-b 7 c 9-9750 ca 0 df 519
+uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die 
 
 ## Zeiträume vergleichen {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum bereitgestellt wird. „Wie viel besser/schlechter geht es uns als zu diesem Zeitpunkt letztes Jahr?“ ist beispielsweise eine Kernfrage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch eine Spalte „Differenz“, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
+Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum bereitgestellt wird. „Wie viel besser/schlechter geht es uns als zu diesem Zeitpunkt letztes Jahr?“ ist beispielsweise eine Kernfrage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch die Spalte "Differenz", die die prozentuale Änderung im Vergleich zu einem bestimmten Zeitraum anzeigt.
 
 1. Erstellen Sie eine Freiform-Tabelle mit beliebigen Dimensionen und Metriken, die Sie mit einem bestimmten Zeitraum vergleichen möchten.
 1. Rechtsklicken Sie auf eine Tabellenzeile und wählen Sie **[!UICONTROL Zeiträume vergleichen aus]**.
@@ -25,7 +25,7 @@ Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum be
 
    >[!IMPORTANT]
    >
-   >Diese Rechtsklick-Option ist für Metrikzeilen, Datumsbereichzeilen und Zeitdimensionszeilen deaktiviert.
+   >Diese Option mit der rechten Maustaste ist für Metrikzeilen, Datumsbereichszeilen und Zeitdimensionszeilen deaktiviert.
 
 1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen die folgenden Optionen zum Vergleich zur Verfügung:
 
