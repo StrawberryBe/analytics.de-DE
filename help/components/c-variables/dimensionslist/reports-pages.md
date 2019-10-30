@@ -4,10 +4,10 @@ seo-description: Dieser Bericht ordnet die Seiten Ihrer Site anhand der Seiten m
 seo-title: Seiten
 solution: Analytics
 title: Seiten
-topic: 'Berichte    '
-uuid: 6435 e 262-e 734-4 c 15-af 5 b -173799 d 5 cc 43
+topic: Berichte
+uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,8 +24,8 @@ Beachten Sie, dass die Metriken im Seitenbericht in Reports &amp; Analytics eine
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry">Reports &amp; <p>Analysen </p> </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
+   <th colname="col2" class="entry">Berichte &amp; <p>Analytics </p> </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
    <th colname="col5" class="entry"> Analysis Workspace </th> 
   </tr>
