@@ -1,13 +1,13 @@
 ---
 description: In diesem Abschnitt können Sie auswählen, welche Datenspalten in den Feed einbezogen und wie die Feed-Daten verarbeitet und vor der Übertragung verpackt werden sollen.
-keywords: Datenfeed; data; column; definition; Spaltenvorlagen auswählen; clickstream; available columns; Spalten enthalten; compression format; Verpackungstyp; include data manifest; Escapezeichen entfernen; CSV herunterladen
+keywords: Datenfeed;Daten;Spalte;Definitionen;Spaltenvorlagen;Clickstream;Verfügbare Spalten;Spalten;Komprimierungsformat;Pakettyp;Datenmanifest einschließen;Escapezeichen entfernen;CSV herunterladen
 seo-description: In diesem Abschnitt können Sie auswählen, welche Datenspalten in den Feed einbezogen und wie die Feed-Daten verarbeitet und vor der Übertragung verpackt werden sollen.
 seo-title: Datenspaltendefinitionen
 solution: Analytics
 title: Datenspaltendefinitionen
-uuid: 43370933-5 dd 9-48 f 0-a 1 be -3 d 10 d 38 a 0 edb
+uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,5 @@ Der Abschnitt „Datenspaltendefinitionen“ enthält die folgenden Elemente:
 
 Mithilfe der Option „CSV herunterladen“ können Sie die aktuelle Datenspaltendefinition herunterladen.
 
->[!NOTE]
->
->Diese Option ist nur verfügbar, wenn der Liste "Spalten einschließen" mindestens eine Spalte hinzugefügt wird.
+> [!NOTE] Diese Option steht erst zur Verfügung, nachdem der Liste "Spalten einschließen"mindestens eine Spalte hinzugefügt wurde.
 
