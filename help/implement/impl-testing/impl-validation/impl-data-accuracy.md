@@ -7,8 +7,8 @@ solution: Analytics
 title: Beurteilung der Genauigkeit von Daten
 topic: Entwickler und Implementierung
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Nachfolgend sind die bevorzugten Datenpunkte für die Beurteilung in der Reihenf
 * Vergleich bekannter Erfolgsereignisse (insbesondere protokollierte Daten, bei denen die zugehörigen Angaben zur IP-Adresse und zum Browser, die für gewöhnlich in Webserverprotokollen gespeichert werden, mit den erfassten Daten verglichen werden können)
 * Vergleich von Seitenansichten
 
->[!NOTE]
->
->Standardseiten (wie z. B. [!DNL index.html]) sind oft das Ziel von automatisiertem oder aus Monitoring resultierendem Traffic. Bei solchen Seiten treten bei der browserbasierten Datenerfassung größere Unterschiede als bei anderen besuchten Seiten auf.
+> [!NOTE] Standardseiten (wie z. B. [!DNL index.html]) sind oft das Ziel von automatisiertem oder aus Monitoring resultierendem Traffic. Bei solchen Seiten treten bei der browserbasierten Datenerfassung größere Unterschiede als bei anderen besuchten Seiten auf.
 
 Für alle drei Arten von Beurteilung muss für den fraglichen Zeitraum ein Debugprotokoll oder ein Datenfeed vorhanden sein. Dieser Zeitraum beträgt für gewöhnlich maximal einen Tag.
 
