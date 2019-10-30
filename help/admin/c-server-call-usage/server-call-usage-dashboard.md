@@ -5,7 +5,7 @@ seo-title: Aktuelle Nutzung der Server-Aufrufe anzeigen
 title: Aktuelle Nutzung der Server-Aufrufe anzeigen
 uuid: 1a42a45f-4bc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Verwendung **[!UICONTROL des]** Server-Aufrufs &gt; **[!UICONTROL Aktuelle Nutzung]**
 
->[!IMPORTANT]
->
->Alle Nutzungsnummern und Verpflichtungsnummern, die Ihnen angezeigt werden, sind für alle Ihre Anmeldeunternehmen und Report Suites kumulativ.
+> [!IMPORTANT] Alle Nutzungsnummern und Verpflichtungsnummern, die Ihnen angezeigt werden, sind für alle Ihre Anmeldeunternehmen und Report Suites kumulativ.
 
 Das Dashboard für aktuelle Nutzung:
 
@@ -27,9 +25,7 @@ Das Dashboard für aktuelle Nutzung:
 
 * Vergleicht Ihre aktuelle Nutzungsperiode mit der Nutzung im letzten Jahr (blaue Linie). Natürlich wird die blaue Linie nur angezeigt, wenn für Ihr Unternehmen Daten zu den Server-Aufrufen im letzten Jahr vorliegen.
 
-   >[!NOTE]
-   >
-   >Wenn Sie die Nutzung für einen vorherigen Zeitraum anzeigen möchten, müssen Sie zur Registerkarte " [Report Suite-Nutzung](/help/admin/c-server-call-usage/report-suite-usage.md) "gehen und die Nutzungsdaten für einen vorherigen Zeitraum herunterladen.
+   > [!NOTE] Wenn Sie die Nutzung für einen vorherigen Zeitraum anzeigen möchten, müssen Sie zur Registerkarte " [Report Suite-Nutzung](/help/admin/c-server-call-usage/report-suite-usage.md) "gehen und die Nutzungsdaten für einen vorherigen Zeitraum herunterladen.
 
 * Listet den Anteil an genutzten Aufrufen (in Prozent und in unverarbeiteten Daten) und den Anteil der bereits abgelaufenen Nutzungsperiode (in Prozent und in unverarbeiteten Daten) auf.
 * Wird standardmäßig täglich mit einer Verarbeitungsverzögerung von 5 Tagen aktualisiert.
@@ -42,4 +38,3 @@ Das Dashboard für aktuelle Nutzung:
 | Nutzung der aktuellen Nutzungsperiode (grün) | Der aktuelle Zeitraum basiert auf der [Nutzungsperiode](/help/admin/c-server-call-usage/overage-overview.md). |
 | Nutzung der vorherigen Nutzungsperiode (blau) | Der vorherige Zeitraum wird als aktuelle Nutzungsperiode minus 1 Jahr definiert. |
 | Nutzungslimit (rot) | Ihr vertraglich festgelegtes Nutzungslimit für diese Nutzungsperiode. |
-
