@@ -5,9 +5,9 @@ seo-title: Segmente filtern
 solution: Analytics
 title: Segmente filtern
 topic: Segmente
-uuid: 6 e 9 d 3 e 55-4 e 06-4 a 8 d-adbc-bc 01355 f 442 e
+uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
 
    | Name des Filters | Beschreibung |
    |---|---|
-   | Tags | Filtert Segmente nach bestimmten [Tags](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50). Die Spalte „Tags“ wird standardmäßig angezeigt. |
+   | Tags | Filtert Segmente nach bestimmten [Tags stehen](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50). Die Spalte „Tags“ wird standardmäßig angezeigt. |
    | Inhaber | Filtert Segmente nach Inhaber. |
    | Weitere Filter &gt; Alle anzeigen | **(Nur Administrator)** Zeigt alle Segmente, deren Inhaber und das Datum der letzten Änderung an. |
    | Weitere Filter &gt; Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
