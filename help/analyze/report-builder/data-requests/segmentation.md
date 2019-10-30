@@ -7,7 +7,7 @@ title: Segmente verwalten
 topic: ReportBuilder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Im Schritt 1 des Anforderungs-Assistenten von ReportBuilder gibt es ein Segment
 
 ## Segmente hinzufügen oder bearbeiten {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->Um Segmente hinzuzufügen oder zu bearbeiten, startet die ReportBuilder-Segmentschnittstelle den Analytics-Segment-Builder in einem Microsoft Internet Explorer-Fenster. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
+> [!NOTE] Um Segmente hinzuzufügen oder zu bearbeiten, startet die ReportBuilder-Segmentschnittstelle den Analytics-Segment-Builder in einem Microsoft Internet Explorer-Fenster. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
 1. Klicken Sie im Segmentfenster von Schritt 1 des Anforderungs-Assistenten auf **[!UICONTROL Hinzufügen]**.
 1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [https://marketing.adobe.com/resources/help/de_DE/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -63,9 +61,7 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies b
 
 1. Aktivieren Sie die Segmente, die Sie anwenden möchten.
 
->[!NOTE]
->
->Unabhängig davon, ob Sie Administrator oder Nicht-Administrator sind, können Sie in ReportBuilder nur die Segmente sehen, deren Inhaber Sie sind, sowie die Segmente, die für Sie freigegeben wurden. (Auf der Benutzeroberfläche von Marketing Reports &amp; Analysen können Administratoren alle Segmente der Organisation anzeigen.)
+> [!NOTE] Unabhängig davon, ob Sie Administrator oder Nicht-Administrator sind, können Sie in ReportBuilder nur die Segmente sehen, deren Inhaber Sie sind, sowie die Segmente, die für Sie freigegeben wurden. (Auf der Benutzeroberfläche von Marketing Reports &amp; Analysen können Administratoren alle Segmente der Organisation anzeigen.)
 
 ## Segmente filtern {#section_376E986D3E684999A7CDB08E53854159}
 
