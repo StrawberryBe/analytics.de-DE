@@ -7,7 +7,7 @@ title: Traffic-Quellen
 topic: Berichte
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 0cb6b29e46518eec9f88718b4990aefa3393490c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -60,7 +60,7 @@ Diese Berichte lassen sich in drei Basiskategorien unterteilen:
   </tr> 
   <tr> 
    <td colname="col1"> Rangordnung aller Suchseiten </td> 
-   <td colname="col2"> <p> Zeigt den Rang, den Ihre Site unter allen Ergebnissen der Suchvorgänge Ihres Besuchers einnimmt, einschließlich der Rangdaten für gebührenpflichtige und kostenlose Suchen. </p> <p>Beispielsweise kann ein Benutzer, der von einer Suchmaschine zu Ihrer Site gelangte, Sie auf der dritten von hundert Ergebnisseiten gefunden haben. So können Sie Suchmaschineneinsätze schnell sehen und optimieren. Die Daten für diesen Bericht können für jeden Zeitraum außer <span class="wintitle">Stündlich</span> angezeigt werden. </p> </td> 
+   <td colname="col2"> <p> Zeigt den Rang Ihrer Site aus allen Listen für die Suchvorgänge Ihres Besuchers an, einschließlich der Rangdaten für gebührenpflichtige und kostenlose Suchseiten. </p> <p>Beispielsweise kann ein Benutzer, der von einer Suchmaschine zu Ihrer Site gelangte, Sie auf der dritten von hundert Ergebnisseiten gefunden haben. So können Sie Suchmaschineneinsätze schnell sehen und optimieren. Die Daten für diesen Bericht können für jeden Zeitraum außer <span class="wintitle">Stündlich</span> angezeigt werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Referrerdomänen </td> 
@@ -76,12 +76,12 @@ Diese Berichte lassen sich in drei Basiskategorien unterteilen:
   </tr> 
   <tr> 
    <td colname="col1"> Referrertypen </td> 
-   <td colname="col2"> <p> Wenn Sie die Referrer bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben. In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen definiert. </p> 
+   <td colname="col2"> <p> Indem Sie die verweisenden Stellen bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben. In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen definiert. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Verweisende Festplatten werden aufgezeichnet, wenn Besucher auf einen Link in einem HTML-Dokument auf ihrer eigenen Festplatte klicken und daraufhin zu Ihrer Website gelangen. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> Andere verweisende Websites werden aufgezeichnet, wenn Besucher auf einen Link auf einer Seite einer anderen Website klicken (die nicht Bestandteil Ihrer Website ist) und daraufhin zu Ihrer Website gelangen. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Verweisende Suchmaschinen werden aufgezeichnet, wenn Besucher eine Suchmaschine verwenden, um auf Ihre Website zuzugreifen. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Referrer in Form von Eingaben/Lesezeichen werden verzeichnet, wenn Besucher die URL Ihrer Website direkt in ihren Browser eingeben oder über Lesezeichen auf Ihre Site zugreifen. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Verweisende Eingaben/Lesezeichen werden aufgezeichnet, wenn Besucher die URL Ihrer Site direkt in ihren Browser eingeben oder über Lesezeichen auf Ihre Site zugreifen. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
