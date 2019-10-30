@@ -8,7 +8,7 @@ title: Übersicht über Bot-Regeln
 topic: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -40,8 +40,7 @@ Adobe kann Kunden leider keine detaillierte IAB-Bot-Liste zur Verfügung stellen
 
 ## Benutzerspezifische Bot-Regeln
 
->[!Note]
->In der Benutzeroberfläche können 500 Regeln manuell definiert werden. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
+>[!NHinweis] Die Benutzeroberfläche ermöglicht die manuelle Definition von 500 Regeln. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
 
 Mit benutzerspezifischen Bot-Regeln können Sie Traffic auf Grundlage selbst definierter Bedingungen filtern.
 
@@ -125,9 +124,7 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **Verarbeitung von Besuchen mit hoher Hit-Zahl:** Wenn mehr als 100 Hits in einem Besuch auftreten, wird bei der Berichterstellung ermittelt, ob der Zeitraum des Besuchs (in Sekunden) kleiner oder gleich der Anzahl der Hits bei diesem Besuch ist. In dieser Situation beginnt die Berichterstellung mit dem nächsten Besuch neu, da die Verarbeitung langer, intensiver Besuche hohe Kosten verursacht. Besuche mit hoher Hit-Zahl werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen von Besuchern.
 
->[!NOTE]
->
->Treffer, die als *`bots`* markiert sind, werden als [Serveraufrufe in Rechnung gestellt.](/help/admin/c-server-call-usage/overage-overview.md)
+> [!NOTE] Treffer, die als *`bots`* markiert sind, werden als [Serveraufrufe in Rechnung gestellt.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
