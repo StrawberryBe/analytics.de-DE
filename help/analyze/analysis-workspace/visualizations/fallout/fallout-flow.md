@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Fallout-Übersicht
 title: Fallout-Übersicht
-uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
+uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,7 +32,7 @@ Eine Fallout-Visualisierung ist zur Analyse der folgenden Punkte nützlich:
 * Allgemeiner, breiter gefasster Trafficfluss: Dieser Fluss zeigt, wie viele Personen, die sich die Homepage ansahen, anschließend eine Suche durchführten und dann ein bestimmtes Element anzeigten.
 * Korrelationen zwischen Ereignissen auf Ihrer Site. Korrelationen zeigen, welcher Prozentsatz von Personen, die die Datenschutzrichtlinien durchlasen, ein Produkt kauften.
 
-[Fallout-Visualisierung auf youtube](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+[Trichteranalyse-Visualisierung auf YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
 
 ## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
