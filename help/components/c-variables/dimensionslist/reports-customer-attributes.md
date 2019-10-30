@@ -6,7 +6,7 @@ solution: Experience Cloud,Analytics
 title: Kundenattribute
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,7 +36,7 @@ Beispiel:
 
 **Beispiel – Metriken für das Alter**
 
-Wenn Sie eine Zeichenfolge als *`age`*, the system creates the following metrics and dimensions:
+Wenn Sie eine Zeichenfolge als *`age`* angeben, erstellt das System die folgenden Metriken und Dimensionen:
 
 * Altersdimension: Sie können einen Bericht basierend auf dem Altersattribut erstellen.
 * Altersmetrik: Eine Metrik, die Sie zu einem Bericht hinzufügen können, beispielsweise einem Unique Visitors-Bericht.
@@ -58,7 +58,7 @@ Da Metriken in einer Berichtstabelle Summen darstellen, sollten Sie [eine berech
    <td colname="col1"> <p>Warum ist es besser, den Identitäts-Service zum Festlegen der Kunden-ID zu verwenden, anstatt die Kunden-ID in eine Prop oder eVar einzugeben? </p> </td> 
    <td colname="col2"> <p>Die Verwendung des Identitätsdienstes bietet eine Reihe von Vorteilen: </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Wenn Sie die Kunden-ID nicht mit dem Identitätsdienst festlegen, stehen die Kundendatensätze nur für Adobe Analytics zur Verfügung. If you want to use the customer records for real-time targeting, you must use the Identity Service. </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Wenn Sie die Kunden-ID nicht mit dem Identitätsdienst festlegen, stehen die Kundendatensätze nur für Adobe Analytics zur Verfügung. Wenn Sie die Kundendatensätze für Echtzeit-Targeting verwenden möchten, müssen Sie den Identitätsdienst verwenden. </li> 
      <li id="li_228358684E474A298E39578D427BF932">Die Verwendung des Identitätsdienstes zum Festlegen der Kunden-ID verringert die Zeit, die für die Synchronisierung der IDs mit der Experience Cloud benötigt wird. Wenn Sie die Kunden-ID in eine Prop oder eVar eingeben, werden die Kunden-IDs über Back-End-Serversynchronisierung an Experience Cloud gesendet. Die Synchronisierung erfolgt in diesem Fall in Stapeln. Der Identitätsdienst synchronisiert die Kunden-ID sofort mit der Experience Cloud. </li> 
      <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Die Verwendung des Identitätsdienstes anstelle einer Prop oder eVar gibt diese Prop oder eVar für andere Zwecke frei. </li> 
     </ul> </td> 
