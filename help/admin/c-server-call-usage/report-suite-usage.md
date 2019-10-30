@@ -1,20 +1,20 @@
 ---
 description: Der Reiter „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
 seo-description: Der Reiter „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
-seo-title: Anzeigen der Report Suite-Nutzung
-title: Anzeigen der Report Suite-Nutzung
-uuid: c 609 ed 99-9 acc -4023-905 a -81 a 40 dd 07 a 79
+seo-title: Nutzung der Report Suite anzeigen
+title: Nutzung der Report Suite anzeigen
+uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Anzeigen der Report Suite-Nutzung
+# Nutzung der Report Suite anzeigen
 
 Der Reiter „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Verwendungsnutzung für Server]** &gt; **[!UICONTROL Report Suite-Nutzung]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Verwendung **[!UICONTROL des]** Server-Aufrufs &gt; **[!UICONTROL Report Suite-Nutzung]**
 
 >[!IMPORTANT]
 >
@@ -51,13 +51,13 @@ Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der ak
 
 | Berichtselement | Beschreibung |
 |--- |--- |
-| Dateiname | Hardcoded name: Usage Report `day and time of report creation.csv` |
+| Dateiname | Hartkodierter Name: Nutzungsbericht `day and time of report creation.csv` |
 | Enthaltene Report Suites | Diese Liste enthält jegliche Report Suites, die Sie auf der „Nutzung der Report Suite“-Seite ausgewählt haben. |
 | Enthaltene Aufrufarten | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Primär mobil, Sekundär mobil. |
-| Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder selbst einen Zeitraum definieren.  Wenn Sie selbst einen Zeitraum definieren möchten, dann geben Sie bitte einen Beginn des Zeitraums und ein Ende des Zeitraums ein. <br>**Hinweis:** Vor Januar 2015 können keine Nutzungsdaten heruntergeladen </br>werden. |
+| Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder selbst einen Zeitraum definieren.  Wenn Sie selbst einen Zeitraum definieren möchten, dann geben Sie bitte einen Beginn des Zeitraums und ein Ende des Zeitraums ein. <br>**** Hinweis: Sie können keine Nutzungsdaten vor Januar 2015 herunterladen </br>. |
 
 1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 
-Im Folgenden finden Sie einen Screenshot der heruntergeladenen. csv-Datei. Es enthält eine Spalte für die Report Suite-ID. Die Report Suite-ID gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach der Erstellung einer Report Suite nicht mehr geändert werden.
+Im Folgenden finden Sie einen Screenshot, wie die heruntergeladene .csv-Datei aussieht. Es enthält eine Spalte für die Report Suite-ID. Die Report Suite-ID gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach der Erstellung einer Report Suite nicht mehr geändert werden.
 
 ![](assets/download-usage.png)
