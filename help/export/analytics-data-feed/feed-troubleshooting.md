@@ -1,18 +1,18 @@
 ---
 description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
-keywords: Datenfeed; Fehlerbehebung
+keywords: Datenfeed;Fehlerbehebung
 seo-description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
-seo-title: Fehlerbehebung bei Data Feeds
+seo-title: Fehlerbehebung bei Daten-Feeds
 solution: Analytics
-title: Fehlerbehebung bei Data Feeds
-uuid: be 981 ab -3 a 61-4099-9 b 0 d -785 d 2 ac 2492 a
+title: Fehlerbehebung bei Daten-Feeds
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Fehlerbehebung bei Data Feeds
+# Fehlerbehebung bei Daten-Feeds
 
 Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
 
@@ -44,15 +44,15 @@ Im Fall eines Übertragungsfehlers können Sie [einen Auftrag erneut ausführen]
 
 ## Optionen zum erneuten Senden {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, verwenden Sie einfach den Auftrag [erneut](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) , um die Dateien abzurufen.
 
 ## Auswirkungen der Sommerzeit auf stündliche Datenfeeds {#section_70E867D942054DD09048E027A9474FFD}
 
 Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Datenfeeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an den anderen Tagen des Jahres. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (normalerweise 2:00 Uhr morgens).
 
-Bei der Umstellung von Normalzeit auf Sommerzeit (im Frühling) erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Beispiel: Wenn die Umstellung 2:00 Uhr erfolgt, erhalten die Kunden eine Datei für 1:00 Uhr und eine Datei für 3:00 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit der Sommerzeit-Uhrzeit 3:00 Uhr entspricht.
+Bei STD-&gt; DST-Zeitübergängen ("Spring Forward") erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn der Übergang z. B. um 2 Uhr erfolgt, erhalten sie eine Datei für 1 Uhr und eine Datei für 3 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit der Sommerzeit-Uhrzeit 3:00 Uhr entspricht.
 
-Bei der Umstellung von Sommerzeit auf Normalzeit (im Herbst) erhält der Kunde 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt 2 Stunden. Beispiel: Wenn die Umstellung 2:00 Uhr erfolgt, erhalten die Kunden die Datei für 1:00 Uhr verspätet, diese umfasst jedoch Daten für insgesamt zwei Stunden. Nämlich Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr nach Sommerzeit entspricht). Die nächste Datei beginnt ab 2:00 Uhr Normalzeit.
+Bei DST-&gt; STD-Übergängen ("Fall Back") erhält der Kunde 24 Dateien. Die Stunde des Übergangs umfasst jedoch Daten von 2 Stunden. Beispiel: Wenn die Umstellung 2:00 Uhr erfolgt, erhalten die Kunden die Datei für 1:00 Uhr verspätet, diese umfasst jedoch Daten für insgesamt zwei Stunden. Nämlich Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr nach Sommerzeit entspricht). Die nächste Datei beginnt ab 2:00 Uhr Normalzeit.
 
 ## Keine Daten für Zeitraum {#section_72510794694D42A9A75C966B812AEB0F}
 
