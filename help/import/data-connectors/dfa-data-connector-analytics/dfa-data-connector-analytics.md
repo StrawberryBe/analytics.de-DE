@@ -8,14 +8,14 @@ title: DFA-Data Connectors für Adobe Analytics
 topic: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # DFA-Data Connectors für Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
-Online-Advertiser und Agenturen sind im modernen Onlinemarkt, der immer komplexer und umkämpfter wird, auf eine kontinuierliche Verbesserung ihres Verständnisses für Onlinemarketingumgebungen sowie ihrer Rendite aus Werbeausgaben angewiesen. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
+Im heutigen, immer komplexeren und wettbewerbsfähigeren Online-Marktplatz müssen Online-Advertiser und -Agenturen ihr Verständnis der Online-Marketingumgebung und ihre Rendite aus Werbeausgaben kontinuierlich verbessern. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
 
 Dieses Problem kann mithilfe der DoubleClick for Advertisers (DFA)-Integration gelöst werden, bei der Adobe® Data Connectors™ verwendet wird, sodass DoubleClick DFA-Daten automatisch an Reports &amp; Analysen senden kann.
 
@@ -42,17 +42,17 @@ Diese Integration erfasst Daten über Besucher, deren Aktionen von Anzeigen best
 
 ![](assets/Diagram1.png)
 
-Besucher gelangen zur Site eines Herausgebers, auf der die Anzeige gehostet wird. Diese Anzeige verfügt über die so genannte einzigartige Anzeigen-ID. Eine Anzeige besteht aus einer Platzierung sowie dem zugehörigen kreativen Inhalt. Sie beschreiben den Anzeigeort auf der Site des Herausgebers und den angezeigten Inhalt für Besucher. Rufen Besucher diese Anzeige, diese Platzierung oder diesen kreativen Inhalt von den DFA-Inhaltsservern ab, wird auf den DFA Floodlight-Servern für sie eine Impression getrackt (1).
+Der Besucher gelangt auf die Site eines Herausgebers, auf der die Anzeige gehostet wird. Diese Anzeige verfügt über die so genannte einzigartige Anzeigen-ID. Anzeigen umfassen eine Platzierung sowie ein Kreativelement, das beschreibt, wo sich die Anzeige auf der Site des Herausgebers befindet und welcher Inhalt dem Besucher gezeigt wurde. Rufen Besucher diese Anzeige, diese Platzierung oder diesen kreativen Inhalt von den DFA-Inhaltsservern ab, wird auf den DFA Floodlight-Servern für sie eine Impression getrackt (1).
 
 Klicken Besucher auf die Anzeige (2), wird der Floodlight-Server kontaktiert, was als Klick zählt. Anschließend werden Besucher durch 302 auf die Landingpage weitergeleitet (3). Befinden sich die Besucher dann auf der Landingpage, wird dies als Clickthrough bezeichnet. Diese Seite enthält Adobe-Trackingcode, durch den Daten vom DFA Floodlight-Server abgerufen werden.
 
-Gelangen die Besucher nach dem Tracken eines Klicks durch den Floodlight-Server nicht auf die Landingpage, wird nicht von einem Clickthrough gesprochen. Bei einigen Anzeigen oder Implementierungen kann es vorkommen, dass der Besucherbrowser nicht durch 302 weitergeleitet wird. Weiteres dazu finden Sie unter [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
+Gelangen die Besucher nach dem Tracken eines Klicks durch den Floodlight-Server nicht auf die Landingpage, wird nicht von einem Clickthrough gesprochen. Einige Anzeigen und Implementierungen führen möglicherweise nicht dazu, dass der Browser des Besuchers die 302-Umleitung befolgt. Weitere Diskussionen zu diesem Thema finden Sie unter [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
 
 Eine weitere Metrik, die von dieser Integration erfasst wird, tritt ein, wenn Besucher die Anzeigenimpression erhalten, nicht klicken, aber doch auf anderem Weg kurze Zeit nach der Impression auf die Landingpage gelangen.
 
 ![](assets/Viewthrough.png)
 
-In diesem Fall wird von einer Durchsicht gesprochen. Der Unterschied zwischen diesem Szenario und dem Clickthrough besteht darin, dass Besucher nicht auf die Anzeige klicken, sondern erst andere Aktivitäten durchführen und anschließend anderweitig zur Landingpage gelangen (2). Der einfachste Fall besteht darin, dass Besucher die URL der Landingpage in ihre Adresszeile im Browser eingeben. In anderen Fällen fahren die Besucher mit dem Browsen fort, verwenden später aber eine Suchmaschine, durch die sie auf die Landingpage gelangen. Die Besucher gelangen in jedem Fall auf die Landingpage.
+In diesem Fall wird von einer Durchsicht gesprochen. Der Unterschied zwischen diesem Szenario und dem Clickthrough besteht darin, dass Besucher nicht auf die Anzeige klicken, sondern erst andere Aktivitäten durchführen und anschließend anderweitig zur Landingpage gelangen (2). Im einfachsten Fall gibt der Besucher die URL der Einstiegsseite im Browser ein. In anderen Fällen fahren die Besucher mit dem Browsen fort, verwenden später aber eine Suchmaschine, durch die sie auf die Landingpage gelangen. Die Besucher gelangen in jedem Fall auf die Landingpage.
 
 ## Adobe-Integration: Echtzeit-Datenerfassung{#adobe-integration-real-time-data-collection}
 
@@ -64,7 +64,7 @@ Die Datenerfassung der Adobe-Integration beginnt, sobald die Besucher auf die La
 
 Wenn diese Daten ankommen oder der Abruf zu viel Zeit in Anspruch nimmt, wird ein Treffer an die Adobe-Trackingserver gemeldet (3).
 
-Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` wird bestimmt, wie lange das Integrate-Modul auf Daten des DFA Floodlight-Servers wartet, bis das Bild-Tag an den Browser der Besucher gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
+Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` definiert, wie lange das Integrate-Modul auf Daten vom DFA Floodlight-Server wartet, bevor das Image-Tag an den Browser des Besuchers gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
 
 Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analysen-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann jedoch zu hoch eingestellt werden. In diesem Fall könnten Besucher die Site verlassen, bevor der `s.maxDelay` Timer abläuft..
 
