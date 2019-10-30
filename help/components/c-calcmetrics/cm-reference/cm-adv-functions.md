@@ -1,16 +1,16 @@
 ---
 description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweitert anzeigen“ wählen.
 seo-description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweitert anzeigen“ wählen.
-seo-title: Referenzieren erweiterter Funktionen
-title: Referenzieren erweiterter Funktionen
-uuid: 7 d 1071 b 9-1737-4 b 7 c-b 318-87907 dae 5619
+seo-title: Erweiterte Funktionen referenzieren
+title: Erweiterte Funktionen referenzieren
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Referenz: erweiterte Funktionen
+# Referenz: Erweiterte Funktionen
 
 <!-- 
 
@@ -36,9 +36,7 @@ Wenn Sie allerdings an zwei Metriken interessiert sind, soll vielleicht nicht ei
 
 Gibt den Wert des zugehörigen Arguments zurück. Mit „NICHT“ können Sie sicherstellen, dass ein Wert nicht mit einem bestimmten Wert übereinstimmt.
 
->[!NOTE]
->
->0 (Null) bedeutet False und jeder andere Wert True.
+> [!NOTE] 0 (null) bedeutet "False", und jeder andere Wert ist "True".
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
 
-Definition für eine neue berechnete „Ungefähre Kunden“-Metrik:
+Definition für eine neue berechnete Metrik "Ungefähre Kunden":
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ Gibt den Durchschnitt der letzten N Zeilen zurück.
 
 Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. Da die Anordnung nach Dimensionen erfolgt, ist dies nur bei Dimensionen mit einer natürlichen Reihenfolge nützlich, wie Datum oder Pfadlänge.
 
->[!NOTE]
->
->Dies funktioniert nicht wie erwartet mit Ratenmetriken wie Umsatz/Besucher: Er ermittelt die Raten, anstatt den Umsatz über die letzte N zu summieren und Besucher über die letzte N zu summieren und sie dann zu dividieren. Verwenden Sie stattdessen
+> [!NOTE] Dies funktioniert nicht wie erwartet mit Metriken wie Umsatz/Besucher: es berechnet die Durchschnittswerte der Raten, anstatt den Umsatz über die letzten N zu erfassen und Besucher über die letzten N zu summieren und sie dann zu teilen. Verwenden Sie stattdessen
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegeben
 
 Gibt TRUE zurück, wenn ein Argument TRUE ist, oder FALSE, wenn alle Argumente FALSE sind.
 
->[!NOTE]
->
->0 (Null) bedeutet False und jeder andere Wert True.
+> [!NOTE] 0 (null) bedeutet "False", und jeder andere Wert ist "True".
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ Alias für z-Transformation, also die Abweichung vom arithmetischen Mittel getei
 
 Führt einen m-seitigen t-Test mit einem t-Wert von Spalte und n Freiheitsgraden durch.
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+Die Unterschrift ist `t_test( x, n, m )`. Darunter wird einfach `m*cdf_t(-abs(x),n)`gerufen. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 Hier gibt `m` die Anzahl der Seiten und `n` die Freiheitsgrade an. Hierbei sollte es sich um Ziffern handeln (im gesamten Bericht konstant, d. h. die Werte sollten nicht von Zeile zu Zeile variieren).
 
@@ -702,11 +696,9 @@ Die Gleichung für z-Transformation lautet:
 
 wobei [!DNL x] der Rohwert, [!DNL μ] das arithmetische Mittel der Population und [!DNL σ] die Standardabweichung der Population ist.
 
->[!NOTE]
->
->[!DNL μ] (mu) und[!DNL σ] (sigma) werden automatisch aus der Metrik berechnet.
+> [!NOTE] [!DNL μ] (mu) und[!DNL σ] (sigma) werden automatisch aus der Metrik berechnet.
 
-Z-Transformation (Metrik)
+z-score(metric)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -729,7 +721,5 @@ Führt einen n-seitigen z-Test mit einem z-Wert von A durch.
 
 Gibt zurück, wie wahrscheinlich es ist, dass die aktuelle Zeile zufällig in der Spalte gesehen wird.
 
->[!NOTE]
->
->Angenommen, die Werte werden normalerweise verteilt.
+> [!NOTE] Gehen Sie davon aus, dass die Werte normalerweise verteilt werden.
 
