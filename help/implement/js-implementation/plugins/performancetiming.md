@@ -7,8 +7,8 @@ solution: Analytics
 title: performanceTiming
 topic: Entwickler und Implementierung
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Sämtliche Details zum Navigation Timing-Objekt finden Sie hier:
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-Optional kann das Plug-in zudem das performanceEntries-Objekt zum Aufzeichnen des Asset-Namens, der Startzeit der Asset-Ladezeit und der Details zur Dauer der Ladezeit für jeden einzelnen Asset auf einer bestimmten Seite verwenden. Mit diesem Plug-in wird eine große Menge an Informationen aufgezeichnet. Daher muss das DOM-Speicherobjekt aktiviert werden, um die Seitenladeinformationen zwischen Seitenaufrufen zu speichern. Stellen Sie sicher, dass die Datenschutzrichtlinien Ihres Unternehmens die Verwendung des DOM-Speicherobjekts zulassen, bevor Sie die Funktion aktivieren. Zudem benötigen Sie eine listVar für das Tracking aller Assets.
+Optional kann das Plug-in zudem das performanceEntries-Objekt zum Aufzeichnen des Asset-Namens, der Startzeit der Asset-Ladezeit und der Details zur Dauer der Ladezeit für jeden einzelnen Asset auf einer bestimmten Seite verwenden. Mit diesem Plug-in wird eine große Menge an Informationen aufgezeichnet. Daher muss das DOM-Speicherobjekt aktiviert werden, um die Seitenladeinformationen zwischen Seitenaufrufen zu speichern. Stellen Sie sicher, dass die Datenschutzrichtlinien Ihres Unternehmens die Verwendung des DOM-Speicherobjekts zulassen, bevor Sie diese Funktion aktivieren. Zudem benötigen Sie eine listVar für das Tracking aller Assets.
 
 ## Erforderliche unterstützende Plug-ins {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -55,9 +55,7 @@ Optional kann das Plug-in zudem das performanceEntries-Objekt zum Aufzeichnen de
 
 ## Plug-in-Code und -Implementierung {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von Adobe Analytics verfügt. Dieses Plug-in ist nur mit [!DNL AppMeasurement]-Tracking-Bibliotheken kompatibel.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von Adobe Analytics verfügt. Dieses Plug-in ist nur mit [!DNL AppMeasurement]-Tracking-Bibliotheken kompatibel.
 
 **Config-Abschnitt (vor doPlugins):**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 Um das Plug-in zu initialisieren, ist eine Zeile Code im Bereich `doPlugins` Ihres s_code erforderlich, vorzugsweise nach der Zuweisung der `s.pageName`-Variablen. Wenn Sie die Asset-Ladezeitfunktion im Plug-in nutzen möchten, müssen Sie den Namen der zu verwendenden Listenvariablen weitergeben. Andernfalls werden nicht nur die Leistungszeiteinträge in den Ereignissen verfolgt, die Sie zuvor in der `s.pte`-Variablen angegeben haben.
 
->[!NOTE]
->
->Um Leistungszeiteinträge mit den Seiten auf Ihrer Site abzustimmen, müssen Sie zudem das Plug-in `getPreviousValue` initialisieren. Wir empfehlen, diese Leistungseinträge mit dem vorherigen Seitennamen oder dem vorherigen Seiten-URL-Wert zu vergleichen.
+> [!NOTE] Um Leistungszeiteinträge mit den Seiten auf Ihrer Site abzustimmen, müssen Sie zudem das Plug-in `getPreviousValue` initialisieren. Wir empfehlen, diese Leistungseinträge mit dem vorherigen Seitennamen oder dem vorherigen Seiten-URL-Wert zu vergleichen.
 
 *Beispielaufrufe*
 
