@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 Die Variable bestimmt, ob ClickMap-Daten gesammelt werden.
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+Wenn *`trackInlineStats`* auf „true“ gesetzt ist, werden Daten zur Seite und zum angeklickten Link in einem Cookie namens „s_sq“ gespeichert. Wenn „false“, hat „s_sq“ den Wert „[[B]]“, was als null angesehen wird.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
@@ -27,7 +27,7 @@ js
 s.trackInlineStats=true|false
 ```
 
-Die Variable *`trackInlineStats`kann entweder „true“ oder „false“ sein.*
+Die Variable *`trackInlineStats`* kann entweder „true“ oder „false“ sein.
 
 ## Beispiele
 
@@ -41,4 +41,4 @@ s.trackInlineStats=false
 
 ## Konfigurationseinstellungen
 
-–
+Keine
