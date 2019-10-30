@@ -1,18 +1,18 @@
 ---
 description: Methoden zur Optimierung der ReportBuilder-Bereitstellung und eine Liste mit Fehlermeldungen, die möglicherweise auftreten könnten.
 seo-description: Methoden zur Optimierung der ReportBuilder-Bereitstellung und eine Liste mit Fehlermeldungen, die möglicherweise auftreten könnten.
-seo-title: Fehlerbehebung und Best Practices für Reportbuilder
+seo-title: Fehlerbehebung und Best Practices für Report Builder
 solution: Analytics
-title: Fehlerbehebung und Best Practices für Reportbuilder
+title: Fehlerbehebung und Best Practices für Report Builder
 topic: ReportBuilder
-uuid: 36 a 08143-dc 78-40 f 5-9 ce 9-7 d 16980 aa 27 b
+uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Fehlerbehebung und Best Practices für Reportbuilder
+# Fehlerbehebung und Best Practices für Report Builder
 
 Methoden zur Optimierung der ReportBuilder-Bereitstellung und eine Liste mit Fehlermeldungen, die möglicherweise auftreten könnten.
 
@@ -24,7 +24,7 @@ Dies bringt ein Kompatibilitätsproblem beim Weiterleiten mit sich: Sobald eine 
 
 Außerdem führt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classification-Anforderung zu folgender Nebenwirkung:
 
-* Wenn Sie die Arbeitsmappe öffnen, erhalten Sie folgende Warnmeldung: „Diese Arbeitsmappe wurde zuletzt mit ReportBuilder Version 5.1 gespeichert. Diese Version hat einige Funktionen eingefügt, die mit der ReportBuilder-Version, die auf diesem Computer installiert ist, nicht kompatibel sind. Es wird dringend empfohlen, ein Upgrade auf die neueste Version von ReportBuilder durchzuführen, bevor diese Arbeitsmappe aktualisiert wird.“
+* Beim Öffnen der Arbeitsmappe erhalten Sie folgende Warnung: "Diese Arbeitsmappe wurde zuletzt mit ReportBuilder v5.1 gespeichert. Mit dieser Version wurden einige Funktionen eingeführt, die mit der auf diesem Computer installierten ReportBuilder-Version nicht kompatibel sind. Es wird dringend empfohlen, vor der Aktualisierung dieser Arbeitsmappe auf die neueste Version von ReportBuilder zu aktualisieren."
 * Wenn Sie einen Rechtsklick auf eine ARB-Anfrage mit Classification ausführen, werden die ReportBuilder-Kontextmenüs („Anforderung bearbeiten“, „Abhängige Anforderung hinzufügen“ ...) nicht angezeigt.
 * Wenn Sie die Option „Alle aktualisieren“ ausführen, indem Sie auf die dritte Schaltfläche klicken oder indem Sie einen Satz Anforderungen aus dem Anforderungs-Manager aktualisieren, wird die Classification-Anforderung ohne Fehler ausgeführt. Die Classification-Werte werden jedoch nicht ausgeschrieben.
 * Sie können die Anforderung weiterhin bearbeiten, indem Sie den Anforderungs-Manager öffnen und dann von Zeile zu Zeile navigieren, bis Sie bei der richtigen Anforderung angelangt sind.
@@ -85,7 +85,7 @@ Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeintr�
 | Anzahl der Einträge | Kleiner Datensatz | Großer Datensatz |
 
 
-**Zeitplanzeit**
+**Planungszeit**
 
 Staffeln Sie die Zeitplanung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und ReportBuilder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden.
 
@@ -107,9 +107,7 @@ Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht
 
 Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von ReportBuilder auftreten können.
 
->[!NOTE]
->
->Dies ist nur eine Auswahl von Fehlermeldungen und keine umfassende Liste. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
+> [!NOTE] Dies ist nur eine Auswahl von Fehlermeldungen und keine erschöpfende Liste. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
 
 **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**
 
