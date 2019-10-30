@@ -2,18 +2,18 @@
 description: Verwalten Sie geplante Projekte in Analysis Workspace.
 keywords: Analysis Workspace
 seo-description: Verwalten Sie geplante Projekte in Analysis Workspace.
-seo-title: Geplanter Projektmanager
+seo-title: Manager für geplante Projekte
 solution: Analytics
-title: Geplanter Projektmanager
+title: Manager für geplante Projekte
 topic: Reports and Analytics
-uuid: 28 e 3 e 0 de -3 cca -40 b 1-a 9 de -93 a 10 bd 31646
+uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Geplanter Projektmanager
+# Manager für geplante Projekte
 
 Verwalten Sie geplante Projekte in Analysis Workspace.
 
@@ -23,7 +23,7 @@ Verwalten Sie geplante Projekte in Analysis Workspace.
 
 Im Manager für geplante Projekte können regelmäßige Projektlieferungen bearbeitet und gelöscht werden. Sie können Bereitstellungspläne erstellen, die Ihre Berichte per E-Mail an eine festgelegte Adresse senden. Sie können diese Pläne zum automatischen Versand der Berichte in bestimmten befristeten oder unbefristeten Intervallen konfigurieren oder die Bereitstellung eines sich wiederholenden Projekts stoppen.
 
-Der geplante Projektmanager zeigt die Elemente an, die ein bestimmter Benutzer erstellt hat. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt.
+Der Manager für geplante Projekte zeigt die Elemente an, die ein bestimmter Benutzer erstellt hat. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt.
 
 ![](assets/scheduled-projects.png)
 
