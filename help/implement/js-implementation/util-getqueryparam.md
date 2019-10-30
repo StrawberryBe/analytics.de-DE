@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: Entwickler und Implementierung
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ Dieses Tool ersetzt das [getQueryParam](../../implement/js-implementation/plugin
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->Dieses Tool hat eine andere Syntax als das Plug-in.
+> [!NOTE] Dieses Tool hat eine andere Syntax als das Plug-in.
 
 **Parameter:**
 
