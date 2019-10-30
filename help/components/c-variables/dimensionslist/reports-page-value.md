@@ -1,18 +1,18 @@
 ---
-description: 'Zeigt an, inwieweit bestimmte Seiten an der Umsatzgenerierung beteiligt waren. '
-seo-description: 'Zeigt an, inwieweit bestimmte Seiten an der Umsatzgenerierung beteiligt waren. '
+description: Zeigt an, inwieweit bestimmte Seiten an der Umsatzgenerierung beteiligt waren.
+seo-description: Zeigt an, inwieweit bestimmte Seiten an der Umsatzgenerierung beteiligt waren.
 seo-title: Seitenwert
 solution: Analytics
 title: Seitenwert
-topic: 'Berichte    '
-uuid: 852 ae 05 f-e 728-4 bcd -9 b 28-f 068 a 4 a 35 c 75
+topic: Berichte
+uuid: 852ae05f-e728-4bcd-9b28-f068a4a35c75
 translation-type: tm+mt
-source-git-commit: af2c0dd5269fe54dec949d4bd98bb09f22c9bfa2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Seitenwert
 
-Der Seitenwertbericht wurde veraltet und ist nicht mehr verfügbar.
+Der Bericht "Seitenwert"wurde nicht mehr unterstützt und steht nicht mehr zur Verfügung.
 
