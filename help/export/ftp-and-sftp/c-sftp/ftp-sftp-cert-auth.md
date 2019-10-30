@@ -1,26 +1,26 @@
 ---
-description: Die Verbindung ohne Kennwort zu FTP-Konten ist nur über eine SFTP-Verbindung und eine alternative Authentifizierungsmethode möglich. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
-keywords: ftp; sftp
-seo-description: Die Verbindung ohne Kennwort zu FTP-Konten ist nur über eine SFTP-Verbindung und eine alternative Authentifizierungsmethode möglich. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
-seo-title: Verbindung mit Adobe über SFTP ohne Kennwort
+description: Eine Verbindung mit FTP-Konten ohne Kennwort ist nur über eine SFTP-Verbindung und eine alternative Authentifizierungsmethode möglich. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
+keywords: ftp;sftp
+seo-description: Eine Verbindung mit FTP-Konten ohne Kennwort ist nur über eine SFTP-Verbindung und eine alternative Authentifizierungsmethode möglich. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
+seo-title: Verbindung zu Adobe über SFTP ohne Kennwort herstellen
 solution: Analytics
-title: Verbindung mit Adobe über SFTP ohne Kennwort
-uuid: 88728309-50 d 2-450 b-b 0 e 6-7 dcdf 61 b 5 dbc
+title: Verbindung zu Adobe über SFTP ohne Kennwort herstellen
+uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Verbindung mit Adobe über SFTP ohne Kennwort
+# Verbindung zu Adobe über SFTP ohne Kennwort herstellen
 
-Die Verbindung ohne Kennwort zu FTP-Konten ist nur über eine SFTP-Verbindung und eine alternative Authentifizierungsmethode möglich. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
+Eine Verbindung mit FTP-Konten ohne Kennwort ist nur über eine SFTP-Verbindung und eine alternative Authentifizierungsmethode möglich. Hierzu sind zwei Dateien erforderlich (eine im FTP-Konto und die andere auf Ihrem Computer), die eine Kombination aus öffentlichem und privatem Schlüssel bilden.
 
 Dies ist nicht weniger sicher als eine Authentifizierung über ein Kennwort. Es handelt sich um eine andere Form der Authentifizierung, bei der der Benutzer nicht jedes Mal ein Kennwort eingeben muss. Bei korrekter Anwendung kann sich ein bestimmter Computer mithilfe dieser Dateien ohne Angabe eines Kennworts anmelden. Dieses Verfahren muss für jeden Computer einzeln eingerichtet werden. Für alle anderen Verbindungen, die keine Schlüsseldateien verwenden, muss weiterhin ein Kennwort angegeben werden.
 
-Einige Kunden benötigen ein SFTP (Secure File Transfer Protocol) für die Übertragung vertraulicher Daten. Eine SFTP-Verbindung ist sicherer als eine normale FTP-Verbindung, da sie eine verschlüsselte Datenkommunikation zulässt. Standardmäßig sind alle Adobe FTP-Konten SFTP bereit. Eine SFTP-Verbindung kann mit einem gültigen Benutzernamen und Kennwort geöffnet werden, indem ein SFTP-Client verwendet wird, der eine Verbindung zu Port 22 herstellt (normale FTP-Verbindungen, die nicht sicher sind, Port 21).
+Einige Clients benötigen ein SFTP (Secure File Transfer Protocol), um sensible Daten zu übertragen. Eine SFTP-Verbindung ist sicherer als eine normale FTP-Verbindung, da sie verschlüsselte Datenkommunikation ermöglicht. Standardmäßig sind alle Adobe FTP-Konten SFTP-bereit. Eine SFTP-Verbindung kann mit einem gültigen Benutzernamen und Kennwort über einen SFTP-Client geöffnet werden, der eine Verbindung über Port 22 herstellt (normale FTP-Verbindungen, die nicht sicher sind, verwenden Port 21).
 
-Wenn Sie SFTP verwenden, können unter bestimmten Bedingungen private Schlüssel verwendet werden, um ohne Kennwort eine Verbindung zu dem Konto herzustellen. Bei diesem Verfahren verwendet Ihr Computer für die Authentifizierung anstelle der üblichen Kennwortauthentifizierung Schlüsseldateien. Dies bedeutet, dass nur der Computer, auf dem sich der private Schlüssel befindet, ohne Kennwort eine Verbindung herstellen kann. Alle anderen Computer/Benutzer müssen weiterhin eine Kennwortauthentifizierung verwenden (sofern nicht auch auf diesen Computern private Schlüssel eingerichtet sind).
+Bei Verwendung von SFTP ist es unter bestimmten Bedingungen möglich, private Schlüssel zu verwenden, um eine Verbindung mit dem Konto ohne Kennwort herzustellen. Bei diesem Verfahren verwendet Ihr Computer für die Authentifizierung anstelle der üblichen Kennwortauthentifizierung Schlüsseldateien. Dies bedeutet, dass nur der Computer, auf dem sich der private Schlüssel befindet, ohne Kennwort eine Verbindung herstellen kann. Alle anderen Computer/Benutzer müssen weiterhin eine Kennwortauthentifizierung verwenden (sofern nicht auch auf diesen Computern private Schlüssel eingerichtet sind).
 
 **Einrichten und Verwenden von privaten Schlüsseln für eine Authentifizierung ohne Kennwort**
 
