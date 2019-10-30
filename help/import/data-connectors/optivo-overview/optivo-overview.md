@@ -5,7 +5,7 @@ seo-title: optivo® Broadmail Data Connector for Adobe Analytics
 title: optivo® Broadmail Data Connector for Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
