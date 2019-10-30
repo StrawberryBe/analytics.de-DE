@@ -1,18 +1,18 @@
 ---
 description: Schritte für die Anmeldung bei ReportBuilder.
 seo-description: Schritte für die Anmeldung bei ReportBuilder.
-seo-title: Bei ReportBuilder anmelden
+seo-title: Bei Report Builder anmelden
 solution: Analytics
-title: Bei ReportBuilder anmelden
+title: Bei Report Builder anmelden
 topic: ReportBuilder
-uuid: 94944 ce 3-499 d -4 d 3 f -954 b-c 241267 d 4 e 92
+uuid: 94944ce3-499d-4d3f-954b-c241267d4e92
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Bei ReportBuilder anmelden
+# Bei Report Builder anmelden
 
 Schritte für die Anmeldung bei ReportBuilder.
 
@@ -20,7 +20,7 @@ Schritte für die Anmeldung bei ReportBuilder.
 1. Click **[!UICONTROL Sign In]**, and specify the method (Experience Cloud, Single Sign-on, and Standard). Durch die folgenden Aktionen wird der Anmeldevorgang ebenfalls gestartet:
 
    * Clicking **[!UICONTROL Create]**.
-   * [Auswählen einer Anforderung im Anforderungs-Manager](../../../analyze/report-builder/manage-requests/r-arb-manage-requests.md)und Klicken auf **[!UICONTROL Hinzufügen]** oder **[!UICONTROL Verwalten]**
+   * [Wählen Sie eine Anforderung im Anforderungs-Manager](../../../analyze/report-builder/manage-requests/r-arb-manage-requests.md)und klicken Sie dann auf **[!UICONTROL Hinzufügen]** oder **[!UICONTROL Verwalten]**.
    * Doppelklicken auf eine Anforderung in Excel
 
 1. Complete the fields on the [!UICONTROL Login] page, then click **[!UICONTROL OK]**.
