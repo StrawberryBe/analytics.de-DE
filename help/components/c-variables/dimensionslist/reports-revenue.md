@@ -4,10 +4,10 @@ seo-description: Ermittelt die Höhe der Einnahmen, die mit allen Produkten in e
 seo-title: Umsatz
 solution: Analytics
 title: Umsatz
-topic: 'Berichte    '
-uuid: e 5 b 72798-f 5 c 7-440 d-a 62 d -376 bfd 115 ac 8
+topic: Berichte
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
 
 * Damit dieser Bericht erfolgreich Daten erfassen kann, müssen bestimmte Anforderungen erfüllt sein. In der Bildanforderung muss Folgendes stattfinden:
 
-   * Ein [!UICONTROL Kaufereignis] muss in der Variablen `s.events`.
+   * Ein [!UICONTROL Kaufereignis] muss in der Variablen `s.events` festgelegt.
 
    * Die Variable `products` muss mit einer Zahl im Preisfeld definiert werden.
    * Folgendes würde beispielsweise mit 35,99 € im Umsatzbericht ausgewiesen:
@@ -35,11 +35,11 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
        s.events="purchase"
       ```
 
-* Wenn mehrere Produkte in der der Variablen [!UICONTROL „s.products“] vorhanden sind, werden alle Produkte im Umsatzbericht erfasst. For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* Wenn mehrere Produkte in der der Variablen [!UICONTROL „s.products“] vorhanden sind, werden alle Produkte im Umsatzbericht erfasst. Beispielsweise [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] würden 9 USD Umsatz an die Berichterstellung übergeben.
 
    >[!NOTE]
    >
-   >Der Umsatz wird nicht multipliziert, wenn die Menge in einem einzelnen Produkt erhöht wird. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   > Der Umsatz wird nicht multipliziert, wenn die Menge in einem einzigen Produkt erhöht wird. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL Umsatz] rundet den Gesamtbetrag für einen Zeitraum auf den nächsten Währungsbetrag auf. Es wird nicht jedes einzelne Produkt oder jeder Hit gerundet.
 * Da in Analytics-Berichten jeder Tag auf den nächsten vollen Betrag gerundet wird, weicht die Summe der einzelnen Tage im Vergleich zum monatlichen Gesamtbetrag geringfügig ab. Denn der monatliche Gesamtbetrag ist nicht mit dem gerundeten Betrag der einzelnen Tage identisch. Es handelt sich um die absolute Summe, die auf den nächsten vollen Betrag gerundet wird.
