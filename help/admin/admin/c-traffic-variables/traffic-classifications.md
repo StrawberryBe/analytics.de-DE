@@ -1,19 +1,19 @@
 ---
 description: Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
 seo-description: Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
-seo-title: Traffic-Classifications
+seo-title: Traffic-Klassifizierungen
 solution: Analytics
 subtopic: Classifications
-title: Traffic-Classifications
+title: Traffic-Klassifizierungen
 topic: Admin Tools
-uuid: fec 2 f 725-7 aa 9-4985-b 8 a 9-f 21 b 0 b 3 e 995 c
+uuid: fec2f725-7aa9-4985-b8a9-f21b0b3e995c
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Traffic-Classifications
+# Traffic-Klassifizierungen
 
 Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
 
