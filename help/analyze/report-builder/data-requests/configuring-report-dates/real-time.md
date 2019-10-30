@@ -7,7 +7,7 @@ title: Echtzeitberichte
 topic: ReportBuilder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,5 @@ Sie können:
 
 Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html) aktiviert.
 
->[!NOTE]
->
->[!UICONTROL Real-Time Reports are not the same as the Include Current Data (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.][](https://marketing.adobe.com/resources/help/en_US/arb/options.html)
+> [!NOTE] Die [!UICONTROL Echtzeitberichte] sind nicht identisch mit der Funktion "Aktuelle Daten[ ](https://marketing.adobe.com/resources/help/en_US/arb/options.html)einschließen"(Datenneuigkeit), die zuvor veröffentlicht wurde. Dadurch wurde die Latenz bei der Standardberichterstellung verringert, indem Daten angezeigt wurden, bevor sie fertig gestellt wurden.
 
