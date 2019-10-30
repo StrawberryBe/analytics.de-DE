@@ -1,16 +1,16 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Adobe Campaign-Berichterstellung
-title: Adobe Campaign-Berichterstellung
-uuid: 0919 ae 9 f -84 eb -43 a 5-8282-6 cd 6 dec 63 dc 1
+description: 'null'
+seo-description: 'null'
+seo-title: Berichterstellung für Adobe Campaign
+title: Berichterstellung für Adobe Campaign
+uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Adobe Campaign-Berichterstellung
+# Berichterstellung für Adobe Campaign
 
 Weitere Informationen zum Konfigurieren dieser Integrationen finden Sie in der [Adobe Campaign-Dokumentation](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html)
 
@@ -54,12 +54,12 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
 
 ## Schritt 3. Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Adobe Campaign]** &gt; **[!UICONTROL Adobe Campaign Classifications]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; Einstellungen **[!UICONTROL bearbeiten]** &gt; **[!UICONTROL Adobe Campaign]** **[!UICONTROL &gt;Adobe Campaign-Klassifizierungen]**
 
 Nach der Aktivierung der Report Suite für Adobe Campaign sind die folgenden Klassifizierungen verfügbar:
 
 * Bereitstellungs-ID (in Campaign angezeigter, interner Bereitstellungsname)
-* Bereitstellungsbeschriftung ((Bereitstellung in Kampagne - Individuelle Auslieferung/Wiederkehrende Auslieferung/Transaktionsbereitstellung)
+* Auslieferungsbeschriftung (Auslieferung in Kampagne - Einzelauslieferung/Wiederkehrende Auslieferung/Transaktionsauslieferung)
 * Kampagnen-ID (in Campaign angezeigter, interner Kampagnenname)
 * Bereitstellungsbezeichnung (Campaign in Adobe Campaign)
 * Ausgeführte Bereitstellungsbezeichnung (Liste der individuellen ausgeführten Bereitstellungen)
@@ -87,5 +87,5 @@ Die folgenden **Dimensionen** sind in Campaign der Adobe Analytics Report Suites
 | Kampagnenbezeichnung | Bezeichnungen der Kampagnen-IDs |
 | Bereitstellungs-ID | ID aller Bereitstellungen, für die während der Dauer KPIs gesendet wurden. Beinhaltet zudem die IDs von Master-Bereitstellungen für periodische Bereitstellungen und Transaktionsbereitstellungen. Beispiel: Eine periodische Bereitstellung DM1 wurde geplant und DM2, DM3, DM4 und DM5 waren untergeordnete Bereitstellungen der periodischen Bereitstellung.  Die Bereitstellungs-ID zeigt Ergebnisse für alle Bereitstellungen von DM1 bis DM5 an. |
 | Bereitstellungsbezeichnung | Bezeichnungen der Bereitstellungs-IDs |
-| Ausgeführte Bereitstellungs-ID | IDs von nur ausgeführten Bereitstellungen. Keine ID einer periodischen/transaktionsbezogenen Master-Bereitstellung. Beispiel: Eine periodische Bereitstellung DM1 wurde geplant und DM2, DM3, DM4 und DM5 waren untergeordnete Bereitstellungen der periodischen Bereitstellung. Die ausgeführte Bereitstellungs-ID zeigt Ergebnisse für alle Bereitstellungen von DM2 bis DM5 an – dies sind die tatsächlich ausgeführten Bereitstellungen. |
+| Ausgeführte Auslieferungs-ID | IDs von nur ausgeführten Bereitstellungen. Keine ID einer periodischen/transaktionsbezogenen Master-Bereitstellung. Beispiel: Eine periodische Bereitstellung DM1 wurde geplant und DM2, DM3, DM4 und DM5 waren untergeordnete Bereitstellungen der periodischen Bereitstellung. Die ausgeführte Bereitstellungs-ID zeigt Ergebnisse für alle Bereitstellungen von DM2 bis DM5 an – dies sind die tatsächlich ausgeführten Bereitstellungen. |
 | Bezeichnung der ausgeführten Bereitstellung | Bezeichnungen der ausgeführten Bereitstellungs-IDs |
