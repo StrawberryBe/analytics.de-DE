@@ -3,7 +3,7 @@ description: Zeit ist eine Berichtdimension, die zur Abbildung von Trends über 
 seo-description: Zeit ist eine Berichtdimension, die zur Abbildung von Trends über Stunden, Tage, Wochen und Datumsbereiche genutzt werden kann. Beispielsweise zeigt ein Produktbericht an, wie viel Umsatz ein Produkt während des ausgewählten Datumsbereichs generiert hat. Sie können eine Tages-Dimension hinzufügen, um den Trend für jeden Tag des Berichtszeitraums zu ermitteln. Die verfügbaren Granularitäten für die Zeiteinstellungen sind Stunde, Tag, Woche, Monat, Quartal und Jahr. Als voreingestellte Datumsbereiche stehen z. B. Heute, Gestern und Letzte 7 Tage zur Auswahl.
 seo-title: Zeit
 title: Zeit
-uuid: a 6 efbf 80-342 c -4 aeb -80 f 3-91 a 3 dbdbd 33 c
+uuid: a6efbf80-342c-4aeb-80f3-91a3dbd33c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
