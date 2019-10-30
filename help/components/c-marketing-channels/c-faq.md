@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen und Beispiele
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ Die Implementierungen der Marketingkanal-Verarbeitungsregeln unterscheiden sich 
 **Frage**: Meine Trackingcodes sind alle verschieden, und für meinen Affiliates-Kanal muss ich Tausende dieser Codes angeben.
 
 * Sortieren Sie aus, was Sie nicht brauchen. Wenn Ihre E-Mail- und Affiliates-Kanäle denselben Abfragezeichenfolgenparameter verwenden, aber nur wenig E-Mail-Trackingcodes vorliegen, können Sie die E-Mail-Trackingcodes in einem Regelsatz zu „email“ angeben. Klassifizieren Sie dann alle weiteren Trackingcodes als  *`affiliates.`*
-* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Erstellen Sie einen Regelsatz, der erkennt, ob der „ch“-Abfrageparameter gleich *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Erstellen Sie einen Regelsatz, der erkennt, ob der „ch“-Abfrageparameter gleich *`eml`*. Wenn er nicht enthält, *`eml`* ist er ein Affiliate.
 
 **Frage**: Verweisende Domänen enthalten mehr Daten als erwartet.
 
@@ -81,9 +81,7 @@ Wenn Ihre Regeln keine Daten erfassen oder die Regeln nicht korrekt konfiguriert
 
 Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal-Traffic stets externem Traffic entspricht und in der Regel nicht **[!UICONTROL Kein Kanal identifiziert zugeordnet wird]**. Achten Sie darauf, keine Regel zu erstellen, die auch internen Traffic erkennt. Zur Erstellung einer wirksamen Regel „Sonstige“ ist es häufig am sinnvollsten, den Kanalwert auf **[!UICONTROL Verweisende Domäne]** oder **Seiten-URL]zu setzen.[!UICONTROL **
 
->[!NOTE]
->
->Es kann immer noch Kanal-Traffic geben, der in die Kategorie Kein Kanal identifiziert fallen kann. Beispiel: Ein Besucher öffnet die Site und versieht eine Seite mit einem Lesezeichen. Beim gleichen Besuch kehrt dieser Besucher über das Lesezeichen zur Seite zurück. Da es sich dabei nicht um die erste Seite des Besuchs handelt, wird es weder dem direkten Kanal noch einem anderen Kanal zugeordnet, da keine Referrer-Domäne vorliegt.
+> [!NOTE] Es kann immer noch Kanal-Traffic geben, der in die Kategorie Kein Kanal identifiziert fallen kann. Beispiel: Ein Besucher öffnet die Site und versieht eine Seite mit einem Lesezeichen. Beim gleichen Besuch kehrt dieser Besucher über das Lesezeichen zur Seite zurück. Da es sich dabei nicht um die erste Seite des Besuchs handelt, wird es weder dem direkten Kanal noch einem anderen Kanal zugeordnet, da keine Referrer-Domäne vorliegt.
 
 ## Gebührenpflichtige Suche {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -121,7 +119,7 @@ Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook* st
 
 ## Anzeigen {#section_4FD846B89FCE4ECFB7781BD02874A1AB}
 
-Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`Ad_01`* zu trennen.
+Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`Ad_01`*.
 
 ![](assets/example_display.png)
 
@@ -133,7 +131,7 @@ Diese Regel identifiziert Besucher, die über eine verweisende Stelle kamen, die
 
 ## E-Mail {#section_4A927BE947B748E39595F4525B7280DE}
 
-Geben Sie zur Regeleinrichtung den Abfragezeichenfolgenparameter für Ihre E-Mail-Kampagne ein. In diesem Beispiel lautet der Parameter *`eml`*:
+Geben Sie zur Regeleinrichtung den Abfragezeichenfolgenparameter für Ihre E-Mail-Kampagne ein. In diesem Beispiel lautet der Parameter *`eml`* gibt es drei gängige Gründe:
 
 ![](assets/example_email.png)
 
