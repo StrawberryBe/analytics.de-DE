@@ -3,7 +3,7 @@ description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. 
 seo-description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrund stehen die neuen Linktracking-Parameter und wie sie dafür sorgen, dass Links über verschiedene Browser und Geräte hinweg eindeutig und konsistent sind und die Vorgehensweise bei der Neupositionierung von Links auf einer Seite verbessern.
 seo-title: Linktracking-Methode
 solution: Analytics
-title: Linktracking-Methode
+title: Linktracking Methodik
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
