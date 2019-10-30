@@ -1,21 +1,21 @@
 ---
-description: 'null '
-keywords: Analysis Workspace
-seo-description: 'null '
-seo-title: Projekt erstellen - Übersicht
+description: 'null'
+keywords: Analysis Workspace
+seo-description: 'null'
+seo-title: Projekt erstellen – Übersicht
 solution: Analytics
-title: Projekt erstellen - Übersicht
+title: Projekt erstellen – Übersicht
 topic: Reports and Analytics
-uuid: a 68 be 05 d-f 31 e -4 e 6 d-ad 04-c 784 ecb 0 eb 00
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Projekt erstellen - Übersicht
+# Projekt erstellen – Übersicht
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Arbeitsbereich]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 Sie können ein stabiles Analytics-Projekt aus einer beliebigen Kombination von Visualisierungen, Berichtskomponenten und Datentabellen erstellen. Dadurch sind viele Funktionen des Tabellenerstellers aus der Ad Hoc Analysis auch in Analytics verfügbar.
 
@@ -69,9 +69,7 @@ Die oberste Ebene des Menüs „Projekte“ sieht wie folgt aus:
 
 Die Untermenüs enthalten die folgenden Optionen.
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] Mit einem Sternchen (*) markierte Optionen werden nur bei **gespeicherten** Projekten angezeigt.
 
 | Projekt | Bearbeiten | Einfügen | Komponenten | Freigabe | Hilfe |
 |---|---|---|---|---|---|
