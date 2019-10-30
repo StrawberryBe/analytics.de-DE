@@ -7,8 +7,8 @@ solution: Analytics
 title: Warnhinweise
 topic: Entwickler und Implementierung
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ Sie können
 
 Über **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweise]** können Sie in allen Berichten in Reports &amp; Analytics auf das neue Warnhinweissystem zugreifen.
 
-Siehe [Intelligente Warnhinweise](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/intellligent_alerts.html) in der Hilfe zu [!UICONTROL Analysis Workspace].
+Siehe [Intelligente Warnhinweise](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) in der Hilfe zum [!UICONTROL Analysis Workspace] .
