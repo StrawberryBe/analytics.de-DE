@@ -1,22 +1,22 @@
 ---
 description: Administrative Schritte für die Aktivierung von AEM Assets Reporting in Analytics
 seo-description: Administrative Schritte für die Aktivierung von AEM Assets Reporting in Analytics
-seo-title: AEM Assets Reporting
+seo-title: Berichterstellung für AEM Assets
 solution: Analytics
-title: AEM Assets Reporting
-topic: 'Berichte    '
-uuid: 242 f 5 ea 0-146 c -4 edb -928 e -35 b 4 c 084934 d
+title: Berichterstellung für AEM Assets
+topic: Berichte
+uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# AEM Assets Reporting
+# Berichterstellung für AEM Assets
 
 Administrative Schritte für die Aktivierung von AEM Assets Reporting in Analytics
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL AEM]** &gt; **[!UICONTROL AEM Assets Reporting]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Einstellungen]** bearbeiten &gt; AEM **[!UICONTROL &gt; Berichterstellung zu]****[!UICONTROL AEM Assets]**
 
 Hiermit können in Analytics die Impressionen und Klicks auf Assets erfasst werden, die durch AEM Asset Insights bereitgestellt werden. Durch diese Integration ist
 
