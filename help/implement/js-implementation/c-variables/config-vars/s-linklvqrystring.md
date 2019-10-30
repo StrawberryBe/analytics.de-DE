@@ -5,14 +5,14 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.linkLeaveQueryString
 
-Standardmäßig sind Abfragezeichenfolgen in allen Berichten ausgeschlossen. 
+Standardmäßig sind Abfragezeichenfolgen in allen Berichten ausgeschlossen.
 
 Bei einigen Exitlinks und Downloadlinks befindet sich der wichtige Teil der URL möglicherweise in der Abfragezeichenfolge (wie in der folgenden Beispiel-URL):
 
@@ -22,15 +22,13 @@ https://www.mycompany.com/download.asp?filename=myfile.exe
 
 Der Name der Download-Datei kann in der Abfragezeichenfolge festgelegt sein, sodass die Abfragezeichenfolge erforderlich ist, damit der Bericht [!UICONTROL Dateidownloads] genauer ist.
 
-Die Variable *`linkLeaveQueryString`* bestimmt, ob die Abfragezeichenfolge in den Berichten [!UICONTROL Exitlinks] und [!UICONTROL Dateidownload] enthalten sein soll.
+Die Variable *`linkLeaveQueryString`* bestimmt, ob die Abfragezeichenfolge in den Berichten [!UICONTROL Exitlinks] und [!UICONTROL Datei-Download] enthalten sein soll.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |--- |--- |--- |--- |
-| Keine | Keine | Exit Links File Downloads | false |
+| Keine | Keine | Datei-Downloads für Exitlinks | false |
 
->[!NOTE]
->
->Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
+> [!NOTE] Wenn `linkLeaveQueryString=true` eingestellt wird, werden alle Abfragezeichenfolgen-Parameter für alle Exitlinks und Downloadlinks mit aufgenommen.
 
 ## Syntax
 
@@ -60,5 +58,5 @@ Bei dieser Variablen sind keine Konfigurationen erforderlich.
 
 ## Probleme, Fragen und Tipps
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
+* Wenn `s.linkLeaveQueryString=true` eingestellt wird, werden alle Abfragezeichenfolgen-Parameter für alle Exitlinks und Downloadlinks mit aufgenommen.
+* Die `linkLeaveQueryString`-Variable hat keine Auswirkungen auf aufgezeichnete Seiten-URLs, Besucherklickzuordnungen oder [!UICONTROL Pfadberichte].
