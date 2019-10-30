@@ -1,25 +1,25 @@
 ---
 description: Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
 seo-description: Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
-seo-title: Gebührenpflichtige Suchvorgänge konfigurieren
+seo-title: Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
 solution: Analytics
-title: Gebührenpflichtige Suchvorgänge konfigurieren
+title: Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
 topic: Admin Tools
-uuid: adfce 60 d-a 762-46 bd -8314-f 876 baf 02 a 25
+uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Gebührenpflichtige Suchvorgänge konfigurieren
+# Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
 
 Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the [!UICONTROL Report Suite Manager].
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**.
-1. On the [!UICONTROL Paid Search Detection] page, configure the fields described in [Paid Search Detection - Descriptions](../../../admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D).
+1. Konfigurieren Sie auf der Seite [!UICONTROL Gebührenpflichtige Sucherkennung] die Felder, die unter [Gebührenpflichtige Sucherkennung - Beschreibungen](../../../admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D)beschrieben werden.
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 Die Liste [!UICONTROL „Derzeitige Regeln zur gebührenpflichtigen Sucherkennung“] zeigt die aktuellen Regeln zur gebührenpflichtigen Sucherkennung an.
