@@ -7,8 +7,8 @@ solution: Analytics
 title: Facebook Instant Articles
 topic: Entwickler und Implementierung
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -82,7 +82,7 @@ Mit dem folgenden HTML-Muster können Sie Statistiken aus den Instant Articles v
    1. die Domäne des Tracking-Servers Ihres Unternehmens
    1. Ihre Besucher-Namespace-Variable. **Hinweis:** Viele dieser Werte finden Sie in Ihrer Analytics-Standardimplementierung. Der Kundendienst oder Adobe Consulting unterstützen Sie bei Bedarf beim Bereitstellen der entsprechenden Werte.
 
-1. [Legen Sie die benutzerdefinierte Variablen- und Ereignisverfolgung fest](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [Festlegen der benutzerdefinierten Variablen- und Ereignisverfolgung](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. Binden Sie die Anforderungssyntax für das Seitenanzeigebild ein `( s.t())`.
 
 ## Schritt 3. Festlegen der benutzerdefinierten Variablen- und Ereignisverfolgung {#section_932C41BD21154C25B99389299BDF3E0B}
