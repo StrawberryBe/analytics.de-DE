@@ -5,7 +5,7 @@ seo-title: Project Converter – FAQ
 title: Project Converter – FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>F: Wie werden Datumsbereiche konvertiert?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">In dem Datumsbereich „Letzte X Tage“ in Ad Hoc Analysis wird der heutige Tag <i>nicht einbezogen</i>, in Analysis Workspace hingegen <i>erfolgt die Einbeziehung</i> des aktuellen Tages. Daher wird ein Datumsbereich wie „Letzte 90 Tage“ in den beiden Tools unter Umständen keine genaue Übereinstimmung liefern. Nutzen Sie individuelle Datumsbereiche, um den gleichen Zeitraum in Analysis Workspace abzurufen. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. Daher stimmen Datumsbereiche wie "letzte 90 Tage"möglicherweise nicht genau zwischen den Tools überein. Nutzen Sie individuelle Datumsbereiche, um den gleichen Zeitraum in Analysis Workspace abzurufen. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Der Datumsbereich auf Ad Hoc Analysis-Arbeitsbereichsebene wird in Analysis Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Der Datumsbereich auf Ad Hoc Analysis-Berichtsebene wird in Analysis Workspace auf Tabellenspaltenebene angewendet. </li> 
     </ul> <p>Sie haben die Möglichkeit, benutzerdefinierte Datumsbereiche zu bearbeiten, unter <span class="uicontrol">Analyse</span> &gt; <span class="uicontrol">Komponenten</span> &gt; <span class="uicontrol">Datumsbereiche</span>. </p> </td> 
