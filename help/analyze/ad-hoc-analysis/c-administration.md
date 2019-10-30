@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Melden Sie sich bei der [!DNL Experience Cloud].
+1. Log in to the [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
