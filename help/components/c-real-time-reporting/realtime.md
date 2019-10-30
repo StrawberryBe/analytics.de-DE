@@ -1,24 +1,22 @@
 ---
 description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
 seo-description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
-seo-title: Echtzeitberichte - Übersicht
+seo-title: 'Übersicht über die Echtzeitberichterstellung '
 solution: Analytics
-title: Echtzeitberichte - Übersicht
-topic: 'Berichte    '
-uuid: ff 832952-c 507-4 c 63-9437-25 d 9 c 44 c 44 d 1
+title: 'Übersicht über die Echtzeitberichterstellung '
+topic: Berichte
+uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 5c13b8d8fa2fca85d89d0c22f6142a83a87d9975
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Echtzeitberichte - Übersicht
+# Übersicht über die Echtzeitberichterstellung 
 
-Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
+Echtzeitberichte zeigen den Webseiten-Traffic an und ordnen Seitenansichten in Echtzeit an. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
 
->[!NOTE]
->
->Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)
+> [!NOTE] Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)
 
 **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Echtzeit]**
 
@@ -44,7 +42,7 @@ Als Administrator haben Sie folgende Möglichkeiten:
 
 * Vergleichen Sie z. B. die Werte der letzten Woche mit den Werten des letzten Jahres (sowie mit der Gesamtsumme von heute).
 
-Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da kein Persistenzkonzept existiert. Sie können zwar die Konversionsmetriken auswählen, sie funktionieren aber nur, wenn sie auf derselben Seite wie die Dimension(en) gesetzt werden. Für weitere Informationen lesen Sie die Warnmeldung unter [Einrichten von Echtzeitberichten](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da kein Persistenzkonzept existiert. Sie können zwar die Konversionsmetriken auswählen, sie funktionieren aber nur, wenn sie auf derselben Seite wie die Dimension(en) gesetzt werden. Weitere Informationen finden Sie in der Warnmeldung unter [Einrichten von Echtzeitberichten](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
 
 Das Einrichten und Anzeigen von Echtzeitberichten ist auf Administratoren oder Benutzer der Berechtigungsgruppen „Zugriff auf alle Berichte“ und „Fortschrittliche Berichterstellung“ beschränkt. Die Echtzeitanzeige respektiert jedoch die Zugriffsberechtigungen. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten.
 
@@ -57,4 +55,4 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Beachten Sie, dass die Erhöhung der Latenz nach der Implementierung des Identitätsdiensts beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Beachten Sie, dass die Erhöhung der Latenz nach der Implementierung des Identitätsdienstes beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
