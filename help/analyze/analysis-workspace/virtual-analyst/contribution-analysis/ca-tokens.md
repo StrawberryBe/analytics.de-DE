@@ -1,11 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Übersicht über die Beitragsanalyse
 title: Übersicht über die Beitragsanalyse
-uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
+uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
 
 Die Beitragsanalyse erkennt versteckte Muster, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Spitzen oder Tiefpunkte für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen.
 
-Etwas ist passiert. Warum? Ihr Anomalieerkennungsbericht zeigt eine ungewöhnliche Spitze bei Bestellungen und Sie möchten wissen, wie es dazu kommt. Was ist Außergewöhnliches passiert? Wer reagiert auf welche Kampagne oder welchen Verweis? Hat sich etwas viral verbreitet? Welche spezifischen Faktoren haben zu dieser Anomalie beigetragen? Und womöglich die wichtigste Frage: Wie kann ich wichtige Informationen zu meinem Kunden erfassen und diese Performance wiederholen? (Oder wenn ein Tiefpunkt in einer Metrik oder einem Anstieg in einer negativen Metrik aufgetreten ist, wie kann ich es in Zukunft vermeiden?)
+Etwas ist passiert. Warum? Ihr Anomalieerkennungsbericht zeigt eine ungewöhnliche Spitze bei Bestellungen und Sie möchten wissen, wie es dazu kommt. Was ist Außergewöhnliches passiert? Wer reagiert auf welche Kampagne oder welchen Verweis? Hat sich etwas viral verbreitet? Welche spezifischen Faktoren haben zu dieser Anomalie beigetragen? Und womöglich die wichtigste Frage: Wie kann ich wichtige Informationen zu meinem Kunden erfassen und diese Performance wiederholen? (Wenn es zu einem Tiefpunkt in einer Metrik oder zu einem Anstieg in einer negativen Metrik kommt, wie kann ich das in Zukunft vermeiden?)
 
 Mit Hilfe der Beitragsanalyse können Sie Ihre Daten umgehend analysieren und so herausfinden, wie es zu einer Anomalie kam. Die Analyse ermittelt die beitragenden Faktoren zu einer Anomalie innerhalb weniger Sekunden anstatt in Wochen und stellt Ihnen Muster für Zielgruppensegmente bereit, sodass Sie die Interaktionen von Kunden besser nachvollziehen können. Sie können die Beitragsanalyse strategisch einsetzen, um aussagekräftige Verbindungen zu identifizieren und erfassen, anhand derer Sie neue Zielgruppensegmente entwickeln können. Die Beitragsanalyse lässt sich auch taktisch verwenden, um außergewöhnliche oder betrügerische Aktivitäten zu erkennen, die eine Warnung auslösen.
 
-Die [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifiziert Datenspitzen und extreme statistische Tiefpunkte, basierend auf ausgewählten Metriken und Zielgruppensegmenten. Sie legt basierend auf einem Schulungszeitraum eine historische Norm fest und zeigt extreme Versatzwerte an, die mit spezifischen Ereignissen korrelieren. Die Erkennung kann einen steilen Anstieg bei einer positiven Bestellungsmetrik oder einen Anstieg bei einer negativen Absprungsmetrik melden oder Tiefpunkte bei beiden. Auf diese Weise werden statistisch relevante Datenpunkte erfasst, die bei der Beitragsanalyse ausgewertet werden. Wenn eine statistische Anomalie identifiziert wurde, können Sie mit der Beitragsanalyse für alle abweichenden Datenpunkte relevante Marketing- und Kampagnenvariablen einsehen und auswerten. Für die Auswertung von Verbindungen, die zu einer deutlichen Spitze bzw. einem deutlichen Tiefpunkt beigetragen haben, kommen fortschrittliche Algorithmen und maschinelles Lernen zum Einsatz. Diese Berechnungen werden dann in interaktiven Visualisierungen angezeigt, die Ihnen unterschiedliche Perspektiven bieten, um die Frage zu beantworten, warum etwas passiert ist und was zu tun ist.
+Die [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifiziert Datenspitzen und extreme statistische Tiefpunkte, basierend auf ausgewählten Metriken und Zielgruppensegmenten. Sie legt basierend auf einem Schulungszeitraum eine historische Norm fest und zeigt extreme Versatzwerte an, die mit spezifischen Ereignissen korrelieren. Die Erkennung kann einen steilen Anstieg bei einer positiven Bestellungsmetrik oder einen Anstieg bei einer negativen Absprungsmetrik melden oder Tiefpunkte bei beiden. Auf diese Weise werden statistisch relevante Datenpunkte erfasst, die bei der Beitragsanalyse ausgewertet werden. Wenn eine statistische Anomalie identifiziert wurde, können Sie mit der Beitragsanalyse für alle abweichenden Datenpunkte relevante Marketing- und Kampagnenvariablen einsehen und auswerten. Für die Auswertung von Verbindungen, die zu einer deutlichen Spitze bzw. einem deutlichen Tiefpunkt beigetragen haben, kommen fortschrittliche Algorithmen und maschinelles Lernen zum Einsatz. Diese Berechnungen werden dann in interaktiven Visualisierungen angezeigt, die Ihnen unterschiedliche Perspektiven bieten, um zu beantworten, warum etwas passiert ist und was Sie dagegen tun sollten.
 
 Mit Hilfe der Beitragsanalyse können Sie besser nachvollziehen, wie es zu einer Anomalie kam und wie Sie darauf reagieren. Zu diesem Zweck werden relevante Metriken erfasst und verborgene Punkte identifiziert, die einen allgemeinen Grund für die Interaktionen der Zielgruppe und Trends beim Kundeninteresse darstellen. Manchmal lässt sich eine Anomalie leicht erkennen und korrigieren. Das ist beispielsweise bei einer irrtümlichen Bestellung von 2000 Kajaks der Fall. Manchmal ist die Erkennung einer Anomalie dagegen recht schwierig, zum Beispiel bei einem aufkommenden Trend in einem bestimmten Zeitraum in einer Region, der nur in Reaktion auf eine spezifische zielgerichtete Kampagne erfolgt. Die Zusammenstellung beitragender Elemente in Metriken für unterschiedliche Dimensionen und ihre Verbindungen verschafft Ihnen einen allgemeinen Überblick über die Interaktionen Ihrer Zielgruppen und liefert wichtigen Kontext für abweichende Datenpunkte.
 
@@ -36,7 +36,7 @@ Nach der umfassenden Analyse einer Anomalie wird eine Beitragszusammenfassung f�
 
 >[!IMPORTANT]
 >
->Die Beitragsanalyse wurde aus der Funktion Reports &amp; Analysen entfernt und steht jetzt nur über Analysis Workspace zur Verfügung.
+>Die Beitragsanalyse wurde aus dem Funktionssatz Reports &amp; Analysen entfernt und steht jetzt nur noch über den Analysis Workspace zur Verfügung.
 
 Sämtliche Kunden mit einer Berechtigung für Beitragsanalysen können in Analysis Workspace pro Monat eine begrenzte Anzahl vollständiger Beitragsanalysen ausführen. **Ausgeschlossen** davon sind Spezialprodukt-Kunden (SiteCatalyst 15), Analytics Foundation-Kunden sowie Analytics Select-Kunden, die überhaupt keine Beitragsanalyse erhalten.
 
@@ -54,11 +54,11 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Warum hat Adobe Token eingeführt? </b> </p> </td> 
-   <td colname="col2"> <p>Die Beitragsanalyse ist seit der Einführung im Jahr 2015 eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit, besser zu sehen, was eine vollständige Beitragsanalyse für Sie leisten kann. </p> </td> 
+   <td colname="col2"> <p>Die Beitragsanalyse ist seit der Einführung im Jahr 2015 eine der beliebtesten Funktionen in Adobe Analytics. Wenn Sie Ihnen eine kleine Anzahl von "vollständigen"Auflösungen pro Monat geben (anstatt nur 3 Dimensionen für einige Analytics-Produkte), können Sie besser sehen, was eine unbegrenzte vollständige Beitragsanalyse für Sie tun kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen?</b> </p> </td> 
-   <td colname="col2"> <p>Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl an Token pro Monat, mit denen Sie eine „vollständige“ Beitragsanalyse in Analysis Workspace durchführen können. </p> <p>Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. </p> </td> 
+   <td colname="col2"> <p>Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl Token pro Monat, mit denen Sie die Beitragsanalyse im Analysis Workspace abschließen können. </p> <p>Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Werden für die Beitragsanalyse in Reports &amp; Analytics Token fällig?</b> </p> </td> 
@@ -70,7 +70,7 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie kann ich den Zugriff auf die Beitragsanalyse beschränken?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Sie sollten die Beitragsanalyse nur für Benutzer bereitstellen, die einen legitimen Grund haben, sie zu verwenden, und als vertrauenswürdig eingestuft werden, um den Zugriff nicht zu verhindern. </p> <p>Die Berechtigung lautet „Beitragsanalyse“. Sie finden Sie unter <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span></span>. </p> </td> 
+   <td colname="col2"> <p>Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen, aber Administratoren können anderen Benutzern Zugriff gewähren, indem sie eine Berechtigungsgruppe in der <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin-Konsole erstellen </a>. Sie sollten die Berechtigung zur Verwendung der Beitragsanalyse nur Benutzern erteilen, die berechtigte Gründe für ihre Verwendung haben und darauf vertrauen, dass sie ihren Zugriff nicht missbrauchen. </p> <p>Die Berechtigung lautet „Beitragsanalyse“. Sie finden Sie unter <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele wir im aktuellen Monat bereits verwendet haben?</b> </p> </td> 
@@ -86,7 +86,7 @@ Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Ano
 
 >[!IMPORTANT]
 >
->Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind nun nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Foundation in Workspace nur die Anomalieerkennung nach Tagen nutzen können.
+>Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind nun nur noch über Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation nur Zugriff auf die "Granularität pro Tag"-Anomalieerkennung in Workspace haben.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
@@ -129,12 +129,12 @@ Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Ano
      <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">Adobe Analytics OD </li> 
      <li id="li_2B7D625519BC4A4CB598C95F15D3029B">Adobe Analytics MA </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Ja. </p> </td> 
+   <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>2 Token/Monat </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Premium (360, Attribution) </p> </td> 
-   <td colname="col2"> <p>Ja. </p> </td> 
+   <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>2 Token/Monat </p> </td> 
   </tr> 
   <tr> 
