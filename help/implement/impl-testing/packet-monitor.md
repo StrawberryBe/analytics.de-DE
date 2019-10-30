@@ -8,8 +8,8 @@ subtopic: Debugger
 title: Paket-Analyzer
 topic: Entwickler und Implementierung
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,9 +29,7 @@ In sehr seltenen Fällen meldet der Debugger eine Bildanforderung, obwohl keine 
 
 Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine große Auswahl im Internet. Nachfolgend sind einige brauchbare Paketmonitore aufgeführt.
 
->[!NOTE]
->
->Die Liste ist nicht vollständig, sondern dient zur Angabe häufig eingesetzter Monitore. Wenn Sie einen Paketmonitor haben, der sich als nützlich erwiesen hat, können Sie über die Schaltfläche [!UICONTROL Feedback] rechts in diesem Fenster ein Feedback dazu abgeben.
+> [!NOTE] Die Liste ist nicht vollständig, sondern dient zur Angabe häufig eingesetzter Monitore. Wenn Sie einen Paketmonitor haben, der sich als nützlich erwiesen hat, können Sie über die Schaltfläche [!UICONTROL Feedback] rechts in diesem Fenster ein Feedback dazu abgeben.
 
 | Firefox | Internet Explorer | Chrome | Eigenständige Programme |
 |---|---|---|---|
@@ -41,9 +39,7 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]
->
->Adobe bietet WEDER Support NOCH Fehlerbehebung bei Problemen mit diesen Paketmonitoren an. Wenden Sie sich bei Fragen und Problemen an die Website, von der Sie den Paketmonitor heruntergeladen haben.
+> [!NOTE] Adobe bietet WEDER Support NOCH Fehlerbehebung bei Problemen mit diesen Paketmonitoren an. Wenden Sie sich bei Fragen und Problemen an die Website, von der Sie den Paketmonitor heruntergeladen haben.
 
 <!-- 
 
