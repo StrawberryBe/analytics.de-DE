@@ -1,25 +1,25 @@
 ---
-description: Erfahren Sie, wie Sie den Besucherbindungsablauf in Marketingkanälen angeben.
-seo-description: Erfahren Sie, wie Sie den Besucherbindungsablauf in Marketingkanälen angeben.
-seo-title: Ablauf von Besucherinteraktionen
+description: Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
+seo-description: Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
+seo-title: Besucherinteraktionsablauf
 solution: Analytics
 subtopic: Marketingkanäle
-title: Ablauf von Besucherinteraktionen
+title: Besucherinteraktionsablauf
 topic: Reports and Analytics
-uuid: 47 f 1 ccaf -3 ce 7-494 d-b 456-956 a 3 a 3 c 6 c 9 a
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ablauf von Besucherinteraktionen
+# Besucherinteraktionsablauf
 
-Erfahren Sie, wie Sie den Besucherbindungsablauf in Marketingkanälen angeben.
+Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## Besucherinteraktionsablauf {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
-Erfahren Sie, wie Sie den Besucherbindungsablauf in Marketingkanälen angeben.
+Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
 
 Die Besucherinteraktion bezeichnet die Zeit, die Sie der vorherigen Aktivität des Besuchers auf Ihrer Site zur Anrechnung im First Touch-Kanal einräumen wollen.
 
@@ -40,5 +40,5 @@ Geben Sie den Ablauf der Besucherinteraktion an.
 
    ![](assets/mchannel_expiration.png)
 
-1. Konfigurieren Sie die Ablauffelder für die Besucherbindung.
+1. Konfigurieren Sie die Felder zum Ablauf der Besucherbindung.
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
