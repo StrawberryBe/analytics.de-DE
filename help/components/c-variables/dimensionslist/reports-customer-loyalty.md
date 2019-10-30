@@ -1,20 +1,20 @@
 ---
 description: Kundenloyalität veranschaulicht die Einkaufsmuster der Kunden.
 seo-description: Kundenloyalität veranschaulicht die Einkaufsmuster der Kunden.
-seo-title: Kundenloyalität
+seo-title: Kundentreue
 solution: Analytics
-title: Kundenloyalität
-topic: 'Berichte    '
-uuid: 7 dc 30 b 57-7 b 18-4228-a 6 ab -6 eb 66 b 3 d 9402
+title: Kundentreue
+topic: Berichte
+uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Kundenloyalität
+# Kundentreue
 
-Kundenloyalität veranschaulicht die Einkaufsmuster der Kunden.
+Kundentreue zeigt Kaufmuster von Kunden.
 
 Dieser Bericht gibt Aufschluss über Einkaufsmuster von Kunden, wobei vier Loyalitätskategorien zugrunde gelegt werden:
 
