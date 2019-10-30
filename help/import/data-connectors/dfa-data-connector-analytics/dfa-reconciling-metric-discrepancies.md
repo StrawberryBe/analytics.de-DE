@@ -8,7 +8,7 @@ title: Abgleich von Metrikdiskrepanzen
 topic: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ Diese Diskrepanz kann zu starken Abweichungen zwischen den von Analytics und den
 * Daten werden in nächtlichen Batches von DFA an die Adobe-Datenerfassungsserver gesendet. Diese Daten in Analytics können also bis zu zwei Tage älter sein als die in DFA-Berichten.
 * Adobe verwendet SAINT-Classifications zur Einteilung importierter DFA-Trackingcodes in verschiedene Sammelebenen (Kampagnenname, Platzierungsname, Anzeigenname usw.). Tritt die Diskrepanz beim Erstellen eines Classification-Berichts auf, können Sie anhand eines einfachen Tests herausfinden, ob die Klassifizierungen noch nicht mit den importierten Daten aktualisiert wurden:
 
-   * Suchen Sie im Classification-Bericht nach einem Zeilenelement mit der Bezeichnung „Ohne“.
+   * Suchen Sie im Classification-Bericht nach einem Zeileneintrag namens "Keine".
    * Schlüsseln Sie dieses Zeilenelement nach derselben Variablen auf und verwenden Sie dabei den DFA-ID-Rohbericht (zum Beispiel Kampagnen-ID).
    * Notieren Sie sich aus diesem Bericht nicht klassifizierte DFA-Trackingcodes mit dem Format `DFA:XXXXX:XXXXX`.
    * Wenn Sie einen solchen Code finden, überprüfen Sie den nächtlichen SAINT-Classification-Prozess.
@@ -56,18 +56,18 @@ Diese Diskrepanz kann zu starken Abweichungen zwischen den von Analytics und den
 ### Woran kann es liegen, dass in DFA mehr Klicks angezeigt werden als Clickthroughs in Adobe Analytics? {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * DFA verzeichnet einen Klick, bevor Besucher auf die Kundenwebsite gelangen. Analytics verzeichnet Clickthroughs, nachdem die Landingpage geladen und das Adobe JavaScript-Beacon ausgeführt wurde. Solche Diskrepanzen entstehen also normalerweise dadurch, dass entweder Besucher nach dem Tracken eines Klicks durch DFA nicht auf die Landingpage gelangen oder `s.maxDelay` abläuft.
-* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example “`?CID=1`”). Wird dieser Parameter nicht eingestellt, werden Clickthroughs nach dem ersten Treffer des Besuchs nicht durch Adobe Analytics JavaScript verzeichnet.
+* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example "`?CID=1`"). Wird dieser Parameter nicht eingestellt, werden Clickthroughs nach dem ersten Treffer des Besuchs nicht durch Adobe Analytics JavaScript verzeichnet.
 * Überprüfen Sie, ob alle Platzierungen und kreativen Inhalte eine Landingpage aufweisen, die mit JavaScript getaggt ist und über das DFA Integrate-Modul verfügt, und ob die Floodlight-Konfigurations-ID auf dieser Landingpage mit der Floodlight-Konfigurations-ID der bereitgestellten Anzeigen übereinstimmt. Oft treten Diskrepanzen auf, weil die Anzeigenlandingpage auf eine Drittanbietersite oder auf bereitgestellte Anzeigen festgelegt ist.
 * Stellen Sie sicher, dass der Besucherbrowser bei einem Treffer des DFA-Klicktrackers immer auch auf die Landingpage mit dem im Abfragestring enthaltenen `clickThroughParam` weitergeleitet wird, wenn Sie Rich Media- oder Flash-Anzeigen (swd) verwenden. Erfolgt keine Weiterleitung des Browsers, wird auch kein Clickthrough verzeichnet.
 * Timeouts sind Fälle, in denen unter Umständen DFA-Daten verfügbar waren, aber bei JavaScript nicht rechtzeitig eine Reaktion einging. Gelangen Besucher auf die Landingpage, werden die Besucherinformationen durch Adobe JavaScript vom DFA-Service fls.doubleclick.net abgefragt. Durch den Parameter `s.maxDelay`wird festgelegt, wie lange JavaScript auf die Daten vom Floodlight-Service (FLS) wartet. If `s.maxDelay` is too high, visitors can leave the site before Adobe collects the hit data; meaning that no click data is recorded. If `s.maxDelay` is set too low, the visitor's Internet connection cannot retrieve the FLS data in time; meaning that the hit is sent to Adobe without DFA click information.
 * DFA-Klickzahlen können durch von Bots erzeugten Datenverkehr erhöht werden. Bots verfügen unter Umständen über Funktionen zum Klicken auf eine Anzeige, aber gegebenenfalls nicht über die Komplexität, ein Analytics-Beacon auszuführen oder das synchrone Script-Tag auszulösen, um die Floodlight-Serverabfragedaten zu laden. Werden diese Botaktivitäten nicht aus den Klickzahlen bereinigt, kann dies ebenfalls zu Diskrepanzen führen.
 * Besucher, die die Seite verlassen, bevor `s.maxDelay` abgelaufen ist und DFA-Daten zurückgegeben wurden, werden nicht erfasst und somit auch keine DFA- oder Besucherdaten zu ihnen.
-* Analytics versucht, mehrfach auftretende Clickthroughs zu erkennen und zu entfernen, damit diese nur einmal pro Kampagne und Besuch gezählt werden. Bei DFA werden Besucher, die auf „Zurück“ klicken und mehrmals über die Anzeige weitergeleitet werden, als zusätzliche ACM-Klicks erfasst; bei Analytics werden diese Clickthroughs nicht mehrfach gezählt.
+* Analytics versucht, mehrfach auftretende Clickthroughs zu erkennen und zu entfernen, damit diese nur einmal pro Kampagne und Besuch gezählt werden. DFA zählt Besucher, die auf "Zurück"klicken und die Anzeigenumleitung mehrmals als zusätzliche ACM-Klicks durchlaufen, während Analytics diese nicht als mehrfache Clickthroughs zählt.
 * Für DFA Floodlight-Tags muss JavaScript nicht aktiviert sein, für Analytics schon. Daher kann es sein, dass DFA in einigen Fällen einen Treffer verzeichnet und Analytics nicht. Verwenden Sie den Analytics JavaScript-Bericht im Menü „Besucherprofil“, um herauszufinden, ob das ein Problem darstellen könnte.
 
 ### Woran kann es liegen, dass in DFA mehr Post-Impressionsaktivitäten angezeigt werden als Durchsichten in Adobe Analytics? {#section-5daa91039c404df48b6a3447c20406f7}
 
-* Analytics versucht, mehrfach auftretende Clickthroughs zu erkennen und zu entfernen, damit diese nur einmal pro Kampagne und Besuch gezählt werden. Bei DFA werden Besucher, die auf „Zurück“ klicken und mehrmals über die Anzeige weitergeleitet werden, als zusätzliche ACM-Klicks erfasst; bei Analytics werden diese Clickthroughs nicht mehrfach gezählt.
+* Analytics versucht, mehrfach auftretende Clickthroughs zu erkennen und zu entfernen, damit diese nur einmal pro Kampagne und Besuch gezählt werden. DFA zählt Besucher, die auf "Zurück"klicken und die Anzeigenumleitung mehrmals als zusätzliche ACM-Klicks durchlaufen, während Analytics diese nicht als mehrfache Clickthroughs zählt.
 * Für DFA Floodlight-Tags muss JavaScript nicht deaktiviert sein, für Analytics schon. Daher kann es sein, dass DFA in einigen Fällen einen Treffer verzeichnet und Analytics nicht. 
 * Bei DFA werden Post-Impressionsaktionen gezählt, wenn Floodlight-Tags verwendet werden, die auf der Kundenwebsite platziert werden können. Bei Analytics werden Durchsichten erfasst, nachdem das JavaScript-Beacon (Bildabfrage) ausgeführt wurde. Durch die Codeplatzierung auf der Webseite können Sie festlegen, ob ein Besuch auf einer nicht vollständig geladenen Seite als Post-Impressionsaktivität oder Durchsicht gezählt wird.
 
