@@ -8,8 +8,8 @@ subtopic: Fehlerbehebung
 title: Speicherort der JavaScript-Datei und parallele Downloads
 topic: Entwickler und Implementierung
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ In den meisten Webbrowsern werden mehrere Bilder parallel heruntergeladen. Im Al
 
 Da in den meisten gängigen Webbrowsern (inklusive Internet Explorer) mehrere Elemente parallel heruntergeladen werden, ist die Angabe in der Statusleiste, welches Element gerade heruntergeladen wird, nicht wirklich exakt. Beispiel: In der Statusleiste wird angezeigt, dass der Browser auf den Download von Bild 1 wartet. Gemäß den Netzwerkpakettests hat der Browser jedoch das Bild 1 bereits erhalten und wartet derzeit auf Bild 2.
 
->[!NOTE]
->
->Da bei von Drittanbietern (wie z. B. Keynote Systems) durchgeführten Audits zur Internet-Leistung Seitenbildelemente nacheinander heruntergeladen werden (nicht parallel), spiegelt dies nicht das reale Verhalten von echten Benutzern wider.
+> [!NOTE] Da bei von Drittanbietern (wie z. B. Keynote Systems) durchgeführten Audits zur Internet-Leistung Seitenbildelemente nacheinander heruntergeladen werden (nicht parallel), spiegelt dies nicht das reale Verhalten von echten Benutzern wider.
 
