@@ -8,8 +8,8 @@ subtopic: Plug-ins
 title: getDaysSinceLastVisit
 topic: Entwickler und Implementierung
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Ermittelt die Anzahl der Tage seit dem letzten Besuch eines Benutzers auf Ihrer 
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/) enthält jetzt standardmäßig die Dimension **[!UICONTROL Tage seit dem letzten Besuch]**, wodurch die Notwendigkeit für dieses Plug-in entfällt.
+>[Der Arbeitsbereich](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) für Analysen enthält jetzt standardmäßig die Dimension " **[!UICONTROL Tage seit dem letzten Besuch]** ", wodurch die Notwendigkeit für dieses Plugin entfällt.
 
 Mit diesen Daten zur Rückkehrfrequenz können die folgenden Fragen beantwortet werden:
 
@@ -30,9 +30,7 @@ Mit diesen Daten zur Rückkehrfrequenz können die folgenden Fragen beantwortet 
 
 Das Plug-in kann auch Werte generieren, die zur Segmentierung dienen. Sie können zum Beispiel ein Segment erstellen, das die Anzeige der Daten nur für die Benutzer ermöglicht, deren letzte Besuche mindestens 30 Tage zurücklagen.
 
->[!NOTE]
->
->Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von [!DNL Analytics] verfügt.
 
 ## Plug-in-Code und -Implementierung {#section_5600DBB819F143D59527A73BD94418DE}
 
