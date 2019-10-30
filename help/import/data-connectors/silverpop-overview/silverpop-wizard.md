@@ -5,7 +5,7 @@ seo-title: Silverpop-Integration
 title: Silverpop-Integration
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -116,7 +116,7 @@ So konfigurieren Sie die Integration:
    <td colname="col3"> <p>Diese Integration erstellt die von Partnern definierten Segmente, die im Abschnitt Partnersegmente angezeigt werden. </p> <p>Darüber hinaus können Sie vorhandene Segmente auf Report Suite-Ebene auswählen, die in die Integration einbezogen werden sollen. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p>Zugriffsanforderungen </p> </td> 
+   <td colname="col2"> <p> Zugriffsanforderungen </p> </td> 
    <td colname="col03"> <p>(3) Dateneinstellungen </p> </td> 
    <td colname="col3"> <p> (Erforderlich) Aktivieren Sie <span class="uicontrol"> Zulassen, dass diese Integration Produktdaten</span>herunterlädt. </p> <p>Optional: Erlauben Sie dieser Integration, Umsatz, Bestellungen und Einheiten herunterzuladen. </p> </td> 
   </tr> 
