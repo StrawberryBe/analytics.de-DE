@@ -5,7 +5,7 @@ seo-title: Datenschutz und Data Connectors (Genesis)
 title: Datenschutz und Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,11 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
 
-Mit diesen Informationen können Sie direkt identifizierbare Daten oder indirekt identifizierbare Daten identifizieren, die über unsere Connectors importiert wurden, wenn diese eine Datenschutzanforderung erhalten.
+Mithilfe dieser Informationen können Sie beliebige direkt identifizierbare Daten oder indirekt identifizierbare Daten identifizieren, die über unsere Connectors importiert werden, wenn sie eine Datenschutzanfrage erhalten.
 
 Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können Sie ganz einfach prüfen, welche Partnervariablen/Klassifizierungen in Ihrer Integration direkt oder indirekt identifizierbare Daten enthalten könnten.
 
->[!NOTE]
->
->This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+> [!NOTE] Diese Informationen werden Ihnen bereitgestellt, um Ihnen zu helfen, Variablen zu identifizieren, die [beschriftet werden müssen](/help/admin/c-data-governance/gdpr-setup-reportsuite.md). Es liegt in Ihrer Verantwortung als Datenverantwortlicher, die entsprechenden Beschriftungen anzubringen oder sonstige Maßnahmen zu ergreifen, um gemäß des [Datenschutzes vorbereitet zu sein](/help/admin/c-data-governance/an-gdpr-overview.md) (Aktualisierung der Klassifizierungen etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
