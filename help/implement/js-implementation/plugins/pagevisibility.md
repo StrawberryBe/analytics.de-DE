@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Entwickler und Implementierung
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,19 +17,15 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Erfasst die Zeitspanne in Sekunden, während der Ihre Seite die aktive Registerkarte im Browser war. Dieser Wert wird auf der nächsten Seite in Form einer Kennzahl angezeigt.
 
->[!NOTE]
->
->Dies ist eine Beta-Version des Plugins, und weitere Updates werden möglicherweise veröffentlicht.
+> [!NOTE] Dies ist eine Betaversion des Plug-ins. Möglicherweise wird es weitere Updates geben.
 
-Für dieses Plug-in ist [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)erforderlich.
+Dieses Plug-in benötigt [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
 Dieses Plug-in erfasst auch die Zeitspanne, während der die Seite im Browser geöffnet war (sowohl aktiv als auch inaktiv). Das getPreviousValue-Plug-in muss verwendet werden, um den Namen der vorherigen Seite in Verbindung mit der Anzeige der Seite nachzuverfolgen. Anhand dieser Werte können Sie die Interaktionen Ihrer Besucher nachvollziehen und das Verhalten der Besucher Ihrer Seiten verfolgen.
 
 Sie müssen das getPreviousValue-Plug-in verwenden, um den Namen der vorherigen Seite in Verbindung mit der Anzeige der Seite nachzuverfolgen. Anhand dieser Werte können Sie die Interaktionen Ihrer Besucher nachvollziehen und das Verhalten der Besucher Ihrer Seiten verfolgen.
 
->[!NOTE]
->
->Die folgenden Anweisungen erfordern, dass Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von Analytics verfügt. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+> [!NOTE] Für die folgenden Anweisungen müssen Sie den Datenerfassungscode auf Ihrer Site ändern. Dies kann sich auf die Datenerfassung auf Ihrer Site auswirken und sollte daher nur von einem Entwickler durchgeführt werden, der über Erfahrung in der Verwendung und Implementierung von Analytics verfügt. Dieses Plug-in ist nur mit [!DNL AppMeasurement]-Tracking-Bibliotheken kompatibel.
 
 ## Erforderliche unterstützende Plug-ins {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -58,7 +54,7 @@ s.pvel='event7,event8,event9'
 
 **doPlugins-Bereich**
 
-Um das Plug-in zu initialisieren, sind zwei Zeilen Code im Bereich `doPlugins` Ihres s__Code erforderlich, vorzugsweise nach der Zuweisung der `s.pageName`-Variablen.
+Um das Plug-in zu initialisieren, sind zwei Zeilen Code im Bereich `doPlugins` Ihres s_code erforderlich, vorzugsweise nach der Zuweisung der `s.pageName`-Variablen.
 
 **Beispielaufrufe**
 
@@ -103,12 +99,12 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * Testen Sie stets die Installation des Plug-ins, um sicherzustellen, dass die Datenerfassung wie erwartet erfolgt, bevor Sie es in die Produktionsumgebung übernehmen.
 * Da das Plug-in die Seitenanzeige in Sekunden und die Gesamtdauer in Verbindung mit der vorherigen Seite weitergibt, werden keine Daten für die finale Seitenanzeige des Besuchs erfasst.
-* Für dieses Plug-in müssen im Webbrowser des Benutzers Cookies gesetzt werden. Wenn der Benutzer keine Erstanbieter-Cookies akzeptiert, übergibt das Plug-in auch keine Daten an Analytics.
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
+* Für dieses Plug-in müssen im Webbrowser des Benutzer Cookies gesetzt werden. Wenn der Benutzer keine Erstanbieter-Cookies akzeptiert, übergibt das Plug-in auch keine Daten an Analytics.
+* Das Plug-in erstellt seine eigenen Erstanbieter-Cookies namens `s_tps` und `s_pvs`.
 
 * Nur wenige Benutzer werden den prozentualen Anteil an auf der Seite angezeigten Daten aufgrund von Browserbeschränkungen nicht weitergeben. Und im Plug-in ist Logik enthalten, um sicherzustellen, dass die Daten deshalb nicht schwanken. Dieses Plug-in wurde jedoch in IE, Firefox, Chrome und Safari erfolgreich getestet.
 * Aufgrund der Messweise des Plug-ins für die Gesamtdauer in Sekunden und der Zuweisung dieses Werts zum Namen der vorherigen Seite kommt es zu Abweichungen zwischen den Kennzahlen für die Standardzeit, während der die Seite geöffnet war, und den Kennzahlen für die Gesamtdauer in Sekunden.
-* [!UICONTROL Berechnete Metriken] können erstellt werden, um das Zusammenfassen und Verstehen des Besucherverhaltens in Verbindung mit diesen Metriken zu unterstützen:
+* Es können [!UICONTROL berechnete Kennzahlen] erstellt werden, um die Zusammenfassung und die Analyse des Besucherverhaltens im Zusammenhang mit diesen Kennzahlen zu unterstützen:
 
    * **Seitenanzeigeverhältnis**(Gesamtdauer der Seitenanzeige in Sekunden/Gesamtdauer der Seite in Sekunden)
    * **Gesamtdauer ausgeblendet in Sekunden** (Gesamtdauer der Seite in Sekunden - Gesamtdauer der Seitenanzeige in Sekunden)
@@ -116,7 +112,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
    * **Durchschnittliche Dauer des Verbergens der Seite in Sekunden** ((Gesamtdauer der Seite in Sekunden – Gesamtdauer der Anzeige der Seite in Sekunden)/Gesamtanzahl der Anzeigeinstanzen der Seite)
 
 * Aufgrund der Aufrundungsweise des Plug-ins kann es zu einer Differenz von 1–2 Sekunden zwischen der Gesamtdauer der Anzeige der Seite in Sekunden und der Gesamtdauer in Sekunden kommen, wobei die Gesamtdauer in Sekunden höher ist. (Problem wird in einem zukünftigen Update behoben.)
-* Die Verwendung des getVisitStart-Plug-ins erfasst Besucher, die einen neuen Besuch nach einer Inaktivität von mindestens 30 Minuten gestartet haben. Dies funktioniert nicht wie geplant. Aber wahrscheinlich wird dieses Problem behoben sein, wenn wir die „Aktive Gesamtdauer in Sekunden“ in eine zukünftige Version des Plug-ins integrieren.
+* Die Verwendung des getVisitStart-Plug-ins erfasst Besucher, die einen neuen Besuch nach einer Inaktivität von mindestens 30 Minuten gestartet haben. Das funktioniert nicht wie vorgesehen. Allerdings wird es wahrscheinlich eine Lösung geben, wenn wir die "Gesamtdauer der aktiven Sekunden"in eine zukünftige Iteration des Plug-Ins integrieren.
 
 ## Häufig gestellte Fragen {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
@@ -130,7 +126,7 @@ Ja, die Gesamtdauer der Seite und die Gesamtanzahl der Anzeigeinstanzen der Seit
 
 **Ergeben die erfassten Ereignisse Sinn, wenn ich sie in anderen Berichten als dem Bericht „Vorheriger Seitenname“ verwende?**
 
-Da das Plug-in nur Werte zur nachfolgenden Bildanforderung erfasst, könnten andere eVars, die im Kontext einer vorherigen Seite erfasst wurden, angewendet werden, z. B. „Vorherige Seiten-URL“.
+Da das Plugin Werte für die nachfolgende Bildanforderung aufzeichnet, können nur andere eVars angewendet werden, die in einem Kontext der vorherigen Seite erfasst wurden, z. B. "URL der vorherigen Seite".
 
 **Sendet das Plug-in die Anzeigezeit über einen s.tl()-Aufruf oder einen s.t()-Aufruf?**
 
