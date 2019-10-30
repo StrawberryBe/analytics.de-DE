@@ -5,14 +5,14 @@ seo-title: Filtern von Berichtsdaten
 solution: Analytics
 title: Filtern von Berichtsdaten
 topic: Reports and Analytics
-uuid: b 6 dcaaf 7-61 f 0-4793-870 d-e 1 d 156575 d 5 a
+uuid: b6dcaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Berichtsdaten filtern {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
 
@@ -48,9 +48,7 @@ Mit erweiterten Filtern können Sie den Umfang Ihrer Suche anhand einer Sammlung
 
 Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzelelement gefunden wird. Dieser Filter funktioniert genauso wie der einfache Filter.
 
->[!NOTE]
->
->Leerzeichen können nicht in Filtern verwendet werden, da Leerzeichen bei Suchvorgängen Trennzeichen sind.
+> [!NOTE] Leerzeichen können nicht in Filtern verwendet werden, da Leerzeichen in Suchvorgängen Trennzeichen sind
 
 **Enthält nicht**
 
@@ -131,11 +129,11 @@ Mit dem erweiterten Filter können Sie Platzhalter- und andere komplexe Suchvorg
 | Erweitert (Sonderzeichen) | Beschreibung |
 |--- |--- |
 | `" "` | Übereinstimmung mit genauem Wortlaut. |
-| `*` | Platzhalter, Greedy-Abgleich. <br>Entspricht beispielsweise `r*p` "Registrierungsanmeldung" . |
+| `*` | Platzhalter, Greedy-Abgleich. <br>Entspricht beispielsweise `r*p` "Registrierung". |
 | `^` | Beginnt mit. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
 | `$` | Endet mit. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
 | `-` | Nicht. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `|` | <br>OderHinweis:  Sie müssen auf jeder Seite des Senkrechtstrichs ein Leerzeichen einfügen, `" | "`. |
 
 ## Berichtsspezifische Filter erstellen {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -178,4 +176,4 @@ Sie können die in einem Korrelationsbericht angezeigten Daten anhand einer beli
 1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. Wählen Sie unter [!UICONTROL „Filterregelerstellung“] eine Kategorie, die Sie mit einem Element korrelieren möchten.
-1. Click **[!UICONTROL OK.]**
+1. Klicken Sie auf **[!UICONTROL OK.]**
