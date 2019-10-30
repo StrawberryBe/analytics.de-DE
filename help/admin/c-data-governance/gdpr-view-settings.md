@@ -5,7 +5,7 @@ seo-title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 Über das Data-Governance-Dialogfeld in den Admin Tools können Sie einsehen, welche Report Suites für Data Governance konfiguriert wurden, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob für die entsprechende Report Suite eine Richtlinie zur Datenaufbewahrung vorhanden ist.
 
 1. Melden Sie sich bei Adobe Experience Cloud an.
-1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance.]**
+1. Öffnen Sie **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]**.
 
    Hier werden Ihnen die Report Suites des Anmeldeunternehmens angezeigt:
 
@@ -44,11 +44,11 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
   </tr> 
   <tr> 
    <td colname="col1"> <p>Richtlinie zur Datenaufbewahrung </p> </td> 
-   <td colname="col2"> <p>Für die Implementierung des Datenschutzes für Analytics müssen Sie über eine Datenaufbewahrungsrichtlinie verfügen. </p> <p>Diese Einstellung zeigt, </p> 
+   <td colname="col2"> <p>Für die Datenschutzimplementierung in Analytics müssen Sie eine Richtlinie zur Datenaufbewahrung erstellen. </p> <p>Diese Einstellung zeigt, </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">ob eine Richtlinie zur Datenaufbewahrung für die entsprechende Report Suite vorhanden ist und </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">wie lange die Daten von Adobe aufbewahrt werden, bis sie gelöscht werden. Standardmäßig beträgt der Aufbewahrungszeitraum 25 Monate. </li> 
-    </ul> <p>Hinweis:  Adobe Analytics kann Sie nicht bei der Verarbeitung von Anforderungen an die Datenschutz-API unterstützen, d. h. bei der Verarbeitung von Zugriffs- oder Löschanforderungen, die Sie von Ihren Endbenutzern erhalten, wenn die Datenspeicherungsfrist nicht festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen. </p> </td> 
+    </ul> <p>Hinweis: Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die Datenschutz-API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gruppen </p> </td> 
