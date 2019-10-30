@@ -4,7 +4,7 @@ seo-title: Bot-Entfernung in Adobe Analytics
 description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 seo-description: 3 Möglichkeiten zum Entfernen von Bots in Adobe Analytics
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Nachdem dieses Datenelement eingerichtet wurde, befolgen Sie [diese Anweisungen]
 
 ### Schritt 2: Verwenden Sie die Segmentierung, um Bots zu identifizieren.
 
-Nachdem die ECID Ihres Besuchers an eine deklarierte ID weitergegeben wurde, können Sie die [Segmentierung in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) verwenden, um Besucher zu identifizieren, die sich wie Bots verhalten. Bots werden oft durch ihr Verhalten definiert: Besuche mit Einzelzugriff, ungewöhnliche Benutzeragenten, unbekannte Geräte-/Browserinformationen, keine Referrer, neue Besucher, ungewöhnliche Einstiegsseiten usw. Verwenden Sie die Möglichkeiten von Workspace-Drilldowns und Segmentierung, um die Bots zu identifizieren, die die IAB-Filterung und Ihre Report Suite-Bot-Regeln umgangen haben. Hier sehen Sie beispielsweise einen Screenshot eines Segments, das Sie verwenden könnten:
+Nachdem die ECID Ihres Besuchers an eine deklarierte ID weitergegeben wurde, können Sie die [Segmentierung in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) verwenden, um Besucher zu identifizieren, die sich wie Bots verhalten. Bots werden oft durch ihr Verhalten definiert: Besuche mit Einzelzugriff, ungewöhnliche Benutzeragenten, unbekannte Geräte-/Browserinformationen, keine Referrer, neue Besucher, ungewöhnliche Einstiegsseiten usw. Verwenden Sie die Möglichkeiten von Workspace-Drilldowns und Segmentierung, um die Bots zu identifizieren, die die IAB-Filterung und Ihre Report Suite-Bot-Regeln umgangen haben. Hier ist zum Beispiel ein Screenshot eines Segments, das Sie verwenden könnten:
 
 ![](assets/bot-filter-seg1.png)
 
