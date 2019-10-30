@@ -4,10 +4,10 @@ seo-description: Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät a
 seo-title: JavaScript-Unterstützung
 solution: Analytics
 title: JavaScript-Unterstützung
-topic: 'Berichte    '
-uuid: 7 b 95001 a-cd 35-478 a -8 b 24-54 d 30666110 d
+topic: Berichte
+uuid: 7b95001a-cd35-478a-8b24-54d3066110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät aktiviert oder deaktiviert ist oder ob es als „nicht identifiziert“ gezählt wird.
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] Anfang November 2016 wird die Beschränkung aufgehoben, bei der JavaScript immer wie bei Mobilgeräten aufgeführt *`disabled / unidentified`* ist.
 
 Der JavaScript-Bericht entspricht der Spalte „javascript“ in den Rohdaten.
 
