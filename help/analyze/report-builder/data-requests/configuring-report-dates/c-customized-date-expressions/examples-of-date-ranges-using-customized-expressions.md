@@ -5,9 +5,9 @@ seo-title: Beispiele für Datumsbereiche mit benutzerdefinierten Ausdrücken
 solution: Analytics
 title: Beispiele für Datumsbereiche mit benutzerdefinierten Ausdrücken
 topic: ReportBuilder
-uuid: 3 f 46816 d -9 eee -4 b 2 d -83 be-bf 1 c 9 fb 97 fcf
+uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 
 Wenn heute Montag, der 10. November 2011 ist, das aktuelle Datum nehmen und eine Woche abziehen, um die letzte volle Woche im Oktober zu erhalten.
 
-**Beispiel 2**
+**Beispiel 2**
 
 Dem Beginn des Jahres (dem Monat Januar) vier Monate hinzufügen, um den Mai zu erhalten; dem ersten Tag des Monats zwei Tage hinzufügen, um den dritten Tag des Monats zu erhalten.
 
