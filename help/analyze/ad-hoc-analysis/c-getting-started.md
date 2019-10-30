@@ -5,7 +5,7 @@ seo-title: Erste Schritte
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,9 +66,7 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie sich entscheiden, Ad-hoc-Analysen nach der Maintenance-Version vom Juli 2018 auf Java 7 auszuführen, unterstützt Adobe Ihre Ad-hoc-Analysen-Implementierung nicht mehr.
+> [!NOTE] Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie sich entscheiden, Ad-hoc-Analysen nach der Maintenance-Version vom Juli 2018 auf Java 7 auszuführen, unterstützt Adobe Ihre Ad-hoc-Analysen-Implementierung nicht mehr.
 
 * Videokarte, die OpenGL 2.0 unterstützt
 * Cookies: Erforderlich
