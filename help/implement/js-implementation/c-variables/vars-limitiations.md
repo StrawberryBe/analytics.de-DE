@@ -8,8 +8,8 @@ subtopic: Variablen
 title: Variablen und Einschränkungen
 topic: Entwickler und Implementierung
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Überblick über Variablen und deren Einschränkungen
 
->[!NOTE]
->
->Unter [Konfigurationsvariablen](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) und [Seitenvariablen](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) erhalten Sie einen detaillierten Überblick über die häufigsten Analytics-Variablen.
+> [!NOTE] Unter [Konfigurationsvariablen](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) und [Seitenvariablen](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) erhalten Sie einen detaillierten Überblick über die häufigsten Analytics-Variablen.
 
 Die folgende Tabelle enthält einen Überblick über [!DNL Analytics]-Variablen:
 
@@ -29,8 +27,8 @@ Die folgende Tabelle enthält einen Überblick über [!DNL Analytics]-Variablen:
 | s_account | Bestimmt die Report Suite, in der die Daten gespeichert und für Berichte verwendet werden. |
 | browserHeight | Gibt die Höhe des Browser-Fensters an. |
 | browserWidth | Gibt die Breite des Browser-Fensters an. |
-| campaign | Identifiziert Marketing-Kampagnen, die Besucher zu Ihrer Site bringen sollen. Der Wert von *`campaign`* wird meist einem Abfragezeichenfolgen-Parameter entnommen. |
-| channel | Gibt meist einen Abschnitt der Website an. So könnten bei einem Händler zum Beispiel die Abschnitte „Elektronik“, „Spielzeug“ oder „Kleidung“ heißen. Eine Mediensite könnte die Abschnitte „Nachrichten“, „Sport“ oder „Wirtschaft“ enthalten. |
+| Kampagne | Identifiziert Marketing-Kampagnen, die Besucher zu Ihrer Site bringen sollen. Der Wert von  *`campaign`* wird meist einem Abfragezeichenfolgen-Parameter entnommen. |
+| kanal | Gibt meist einen Abschnitt der Website an. So könnten bei einem Händler zum Beispiel die Abschnitte „Elektronik“, „Spielzeug“ oder „Kleidung“ heißen. Eine Mediensite könnte die Abschnitte „Nachrichten“, „Sport“ oder „Wirtschaft“ enthalten. |
 | charSet | Wandelt den Zeichensatz der Webseite in UTF-8 um. |
 | colorDepth | Gibt an, mit wie vielen Bit die Farbe eines Pixels angezeigt wird. |
 | connectionType | Gibt (in Microsoft Internet Explorer) an, ob der Browser für eine LAN- oder eine Modemverbindung konfiguriert ist. |
@@ -56,7 +54,7 @@ Die folgende Tabelle enthält einen Überblick über [!DNL Analytics]-Variablen:
 | linkInternalFilters | Bestimmt, welche Links auf Ihrer Site Exitlinks sind. Die Variable enthält eine kommagetrennte Liste mit Filtern, die die Links darstellen, die zu Ihrer Site gehören. |
 | linkLeaveQueryString | Bestimmt, ob die Abfragezeichenfolge in den [!UICONTROL Exitlinks]- und [!UICONTROL Dateidownload]berichten enthalten sein soll. |
 | linkName | Eine bei der [!UICONTROL Linktracking] verwendete optionale Variable, die den Namen eines benutzerspezifischen Links, eines Exitlinks oder Downloadlinks angibt. Die Variable *`linkName`* ist normalerweise nicht erforderlich, da diese Variable durch den dritten Parameter in der Funktion *`tl()`* ersetzt wird. |
-| linkTrackEvents | Enthält die Ereignisse, die mit benutzerspezifischen, Download- und Exitlinks gesendet werden sollen. Diese Variable wird nur ausgewertet, wenn *`linkTrackVars`* „events“ enthält. |
+| linkTrackEvents | Enthält die Ereignisse, die mit benutzerspezifischen, Download- und Exitlinks gesendet werden sollen. Diese Variable wird nur berücksichtigt, wenn *`linkTrackVars`* „Ereignisse“ enthält. |
 | linkTrackVars | Eine kommagetrennte Liste von Variablen, die mit benutzerspezifischen, Ausstiegs- und Downloadlinks gesendet werden sollen. Wenn *`linkTrackVars`* auf „“ festgelegt ist, werden alle Variablen, die über Werte verfügen, mit den Linkdaten gesendet. |
 | linkType | Eine bei der Linktracking verwendete optionale Variable, die bestimmt, in welchem Bericht (benutzerspezifische, Download- oder Exitlinks) ein Linkname oder eine URL aufgeführt sein soll. *`linkType`* ist normalerweise nicht erforderlich, da diese Variable durch den zweiten Parameter in der Funktion *`tl()`* ersetzt wird. |
 | mediaLength | Gibt die Gesamtlänge des Mediums an, das abgespielt wird. |
@@ -71,7 +69,7 @@ Die folgende Tabelle enthält einen Überblick über [!DNL Analytics]-Variablen:
 | pageType | Dient nur zur Angabe einer Fehlerseite für den HTML-Fehler 404 (Seite nicht gefunden). Ihr einziger möglicher Wert lautet „errorPage“. Auf einer 404-Fehlerseite sollte die Variable *`pageName`* nicht gefüllt werden. |
 | pageURL | In seltenen Fällen kann es vorkommen, dass die URL der Seite nicht die ist, die in [!DNL Analytics]-Berichten aufgeführt wird. Um diesen Situationen Rechnung zu tragen, bietet [!DNL Analytics] die Variable *`pageURL`*, die die tatsächliche URL der Seite überschreibt. |
 | plugins | Listet bei Netscape- und Mozilla-basierten Browsern die im Browser installierten Plug-ins auf. |
-| products | Dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis). Die Variable *`products`* sollte immer in Verbindung mit einem Erfolgsereignis festgelegt werden. Die Variable *`products`* kann optional auch numerische und Währungs-Ereignisse sowie [!UICONTROL Merchandising]-eVars nachverfolgen. |
+| „products“ | Dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis). Die Variable *`products`* sollte immer in Verbindung mit einem Erfolgsereignis festgelegt werden. Die Variable *`products`* kann optional auch numerische und Währungs-Ereignisse sowie [!UICONTROL Merchandising]-eVars nachverfolgen. |
 | propN | Dient zum Erstellen von benutzerdefinierten Berichten im [!DNL Analytics][!UICONTROL -Datenverkehrmodul]. [!UICONTROL Eigenschaftsvariablen] können als Zähler verwendet werden (um zu zählen, wie oft eine Seitenansicht gesendet wird), in Pfadsetzungsberichten oder in Korrelationsberichten. |
 | purchaseID | Soll verhindern, dass eine Bestellung in [!DNL Analytics] mehrmals gezählt wird. Wann immer das Kaufereignis auf Ihrer Site verwendet wird, sollten Sie die Variable *`purchaseID`* verwenden. |
 | referrer | Speichert verlorene Referrer-Informationen. |
@@ -83,9 +81,9 @@ Die folgende Tabelle enthält einen Überblick über [!DNL Analytics]-Variablen:
 | trackingServer | Gibt bei Erstanbieter-Cookie-Implementierungen an, in welcher Domäne die Bildanforderung und das Cookie gesetzt werden. Wird bei nicht sicheren Seiten verwendet. |
 | trackingServerSecure | Gibt bei Erstanbieter-Cookie-Implementierungen an, in welcher Domäne die Bildanforderung und das Cookie gesetzt werden. Wird bei sicheren Seiten verwendet. |
 | trackInlineStats | Bestimmt, ob Daten zur Besucherklickzuordnung gesammelt werden. |
-| transactionID | Verknüpft Offlinedaten mit einer Onlinetransaktion (z. B. einem Lead oder online generierten Einkauf). Jede eindeutige an Adobe gesendete *`transactionID`* wird bei der Vorbereitung eines [!UICONTROL Data Sources]-Uploads von Offlineinformationen zu dieser Transaktion aufgezeichnet. Siehe [Datenquellen-Handbuch](https://marketing.adobe.com/resources/help/de_DE/sc/datasources/). |
+| transactionID | Verknüpft Offlinedaten mit einer Onlinetransaktion (z. B. einem Lead oder online generierten Einkauf). Jede eindeutige an Adobe gesendete *`transactionID`* wird bei der Vorbereitung eines [!UICONTROL Data Sources]-Uploads von Offlineinformationen zu dieser Transaktion aufgezeichnet. Mehr dazu erfahren Sie im [Data Sources-Handbuch](https://marketing.adobe.com/resources/help/en_US/sc/datasources/). |
 | s_usePlugins | Wenn die Funktion *`s_doPlugins`* verfügbar ist und brauchbaren Code enthält, muss [!UICONTROL s_usePlugins] auf „True“ gesetzt werden. Wenn [!UICONTROL usePlugins] auf „true“ gesetzt ist, wird die Funktion *`s_doPlugins`* vor jeder Bildanforderung aufgerufen. |
 | visitorID | Besucher können anhand des Tags *`visitorID`* oder mittels IP-Adresse/Benutzeragent identifiziert werden. *`visitorID`* kann bis zu 100 alphanumerische Zeichen lang sein und darf keine Bindestriche enthalten. |
-| visitorNamespace | Wenn *`visitorNamespace`* in Ihrer JavaScript-Datei verwendet wird, dürfen Sie sie weder löschen noch ändern. Anhand dieser Variablen wird die Domäne identifiziert, bei der Cookies gesetzt werden. Falls Sie *`visitorNamespace`* ändern, würde das dazu führen, dass alle in [!DNL Analytics] gemeldeten Besucher als neue Besucher betrachtet würden. Ändern Sie diese Variable daher nie ohne vorherige Genehmigung von einem Adobe-Berater! |
+| visitorNamespace | Wenn *`visitorNamespace`* in Ihrer JavaScript-Datei verwendet wird, dürfen Sie sie weder löschen noch ändern. Anhand dieser Variablen wird die Domäne identifiziert, bei der Cookies gesetzt werden. Wenn *`visitorNamespace`* sich ändert, können alle in gemeldeten Besucher zu neuen Besuchern werden. [!DNL Analytics] Ändern Sie diese Variable daher nie ohne vorherige Genehmigung von einem Adobe-Berater! |
 | zip | Erfasst die Postleitzahl von Besuchern Ihrer Site. |
 
