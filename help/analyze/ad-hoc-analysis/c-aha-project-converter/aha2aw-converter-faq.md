@@ -1,9 +1,9 @@
 ---
-description: 'null '
-seo-description: 'null '
+description: 'null'
+seo-description: 'null'
 seo-title: Project Converter – FAQ
 title: Project Converter – FAQ
-uuid: 8 e 1 bf 0 e 9-ce 0 f -443 a-bcfe -45 d 3 e 2 c 82 b 1 c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -15,17 +15,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 ## Project Converter – FAQ {#topic_8231595303AD403E9322645A63632D57}
 
 * [Bekannte Konvertierungsprobleme](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [Häufig gestellte Fragen zur Umrechnung](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [Häufig gestellte Fragen zur Konversion](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## Bekannte Konvertierungsprobleme {#section_39C922A58B2E49C9877B363042801361}
 
 | Fehler | Beschreibung |
 |--- |--- |
-| Minute-Granularität mit Aufschlüsselungen oder in Spalten | Wenn für die Minutengranularität Aufschlüsselungen angewendet werden oder wenn in Spalten die Minutengranularität vorhanden ist, kann das Projekt nicht in den Analysis Workspace konvertiert werden. Eine Lösung besteht darin, die Aufschlüsselung für die Minutengranularität zu entfernen und sie aus Spalten zu entfernen und dann das Projekt zu konvertieren. Anschließend können Sie in Analysis Workspace Aufschlüsselungen für die Minuularität "Minute" anwenden. |
-| Intern berechnete berechnete Metrik zusammen mit einem Spaltensegment | Wenn Sie eine interne berechnete Metrik zusammen mit einem Spaltensegment verwenden, kann das Projekt nicht in den Analysis Workspace konvertiert werden. Um dieses Problem zu umgehen, entfernen Sie die internen berechneten Metriken aus dem Projekt vor der Konvertierung und fügen Sie sie dann erneut in Analysis Workspace hinzu. |
+| Minutengranularität mit Aufschlüsselungen oder in Spalten | Wenn die Granularität "Minute"Unterteilungen enthält oder wenn die Granularität "Minute"in Spalten vorhanden ist, kann das Projekt nicht in den Analysis Workspace konvertiert werden.  Eine Lösung besteht darin, die Aufschlüsselung für die Granularität "Minute"zu entfernen, sie aus den Spalten zu entfernen und das Projekt dann zu konvertieren. Anschließend können Sie Aufschlüsselungen für die Minutengranularität im Analysis Workspace anwenden. |
+| Interne berechnete Metrik, die zusammen mit einem Spaltensegment verwendet wird | Wenn Sie eine interne berechnete Metrik zusammen mit einem Spaltensegment verwenden, kann das Projekt nicht in den Analysis Workspace konvertiert werden. Um dieses Problem zu umgehen, entfernen Sie die internen berechneten Metriken vor der Konvertierung aus dem Projekt und fügen Sie sie dann erneut im Arbeitsbereich für Analysen hinzu. |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## Häufig gestellte Fragen zur Konversion {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Gibt es Funktionen von Ad Hoc Analysis, die in Analysis Workspace nicht unterstützt werden?</b> </p> </td> 
-   <td colname="col2"> <p>A: Die Site-Analyse wird in Analysis Workspace nicht unterstützt. Es gibt außerdem geringfügige Unterschiede zwischen anderen Visualisierungen in Ad-hoc-Analysen und Workspace. Weitere Informationen dazu können Sie den folgenden Fragen entnehmen. </p> </td> 
+   <td colname="col2"> <p>A: Die Site-Analyse wird in Analysis Workspace nicht unterstützt. Es gibt auch einige geringfügige Unterschiede zwischen anderen Visualisierungen in Ad-hoc-Analysen und Workspace. Weitere Informationen dazu können Sie den folgenden Fragen entnehmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden Tabelleneinstellungen konvertiert?</b> </p> </td> 
