@@ -4,9 +4,9 @@ seo-description: Bietet nach Rang geordnet Aufschlüsselungsberichte in Data War
 seo-title: Nach Metrik sortieren
 solution: Analytics
 title: Nach Metrik sortieren
-uuid: 07 da 2607-b 3 fd -463 b -90 d 4-6884 a 93 c 7 e 25
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,11 +31,11 @@ In der Spalte „Berichtslayout“ sehen Sie, wie „Sortieren von Metriken“ m
 | Nach Metrik sortieren? | Metriken vorhanden? | Aufschlüsselungen vorhanden? | Datumsgranularität? | Maximale Zeilenzahl festgelegt? | Berichtslayout |
 |---|---|---|---|---|---|
 | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
-| Ja. | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
-| Ja. | Ja | Nein | Nein | Nicht zutreffend | 1 |
-| Ja. | Ja | Nein | Ja oder Nein | Nein | 1 |
-| Ja. | Ja | Ja | Nein | Nein | 2 |
-| Ja. | Ja | Nein | Ja | Ja | 3 |
-| Ja. | Ja | Ja | Ja oder Nein | Ja | 3 |
-| Ja. | Ja | Ja | Ja | Nein | 4 |
+| Ja | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
+| Ja | Ja | Nein | Nein | Nicht zutreffend | 1 |
+| Ja | Ja | Nein | Ja oder Nein | Nein | 1 |
+| Ja | Ja | Ja | Nein | Nein | 2 |
+| Ja | Ja | Nein | Ja | Ja | 3 |
+| Ja | Ja | Ja | Ja oder Nein | Ja | 3 |
+| Ja | Ja | Ja | Ja | Nein | 4 |
 
