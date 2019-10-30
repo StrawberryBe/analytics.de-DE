@@ -3,20 +3,20 @@ description: Site-Metrikberichte bieten Ihnen eine Vielzahl an Informationen üb
 seo-description: Site-Metrikberichte bieten Ihnen eine Vielzahl an Informationen über Ihre Website. Ihnen kann beispielsweise entnommen werden, wie viele Male bestimmte Seiten von Besuchern angezeigt wurden, wie viele Einkäufe insgesamt über bestimmte Seiten getätigt wurden, wie viel Zeit die Besucher auf Ihren Seiten verbracht haben, wie hoch die Erträge sind und andere quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 seo-title: Sitemetriken
 solution: Analytics
-title: 'Sitemetriken  '
-topic: 'Berichte    '
-uuid: a 7 bec 7 f 5-7 dc 7-4124-b 61 d -2 faa 3 d 4 f 3 a 8 e
+title: Sitemetriken
+topic: Berichte
+uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Site-Metriken
+# Sitemetriken
 
 Site-Metrikberichte bieten Ihnen eine Vielzahl an Informationen über Ihre Website. Ihnen kann beispielsweise entnommen werden, wie viele Male bestimmte Seiten von Besuchern angezeigt wurden, wie viele Einkäufe insgesamt über bestimmte Seiten getätigt wurden, wie viel Zeit die Besucher auf Ihren Seiten verbracht haben, wie hoch die Erträge sind und andere quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-## Site-Metriken {#topic_969F46C070B0465DB629FCAD12C18238}
+## Sitemetriken {#topic_969F46C070B0465DB629FCAD12C18238}
 
 [!UICONTROL Site-Metrikberichte] bieten Ihnen eine Vielzahl an Informationen über Ihre Website. Ihnen kann beispielsweise entnommen werden, wie viele Male bestimmte Seiten von Besuchern angezeigt wurden, wie viele Einkäufe insgesamt über bestimmte Seiten getätigt wurden, wie viel Zeit die Besucher auf Ihren Seiten verbracht haben, wie hoch die Erträge sind und andere quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
