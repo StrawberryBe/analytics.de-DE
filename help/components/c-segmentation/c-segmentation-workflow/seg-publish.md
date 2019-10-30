@@ -7,7 +7,7 @@ title: Segmente in der Experience Cloud veröffentlichen
 topic: Segmente
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 Die Verarbeitung kann jetzt bis zu 8 Stunden dauern, aber je nach anderem Traffic und der Segmentgröße kann die Verarbeitung sogar noch schneller erfolgen. (Derzeit haben wir jedoch keine Möglichkeit, Sie darüber zu informieren, wann das Segment verfügbar ist. Daher müssen Sie es manuell überprüfen.) Außerdem haben wir die maximale Anzahl an publizierbaren Segmenten von 20 auf 75 erhöht. Sie können veröffentlichte Segmente unter Komponenten &gt; Segmente anzeigen.
 
->[!NOTE]
->
->Adobe Campaign (Classic und Standard) verhält sich anders, da es eine zusätzliche Latenz von 24 Stunden über der 8-Stunden-Latenz erzielt.
+> [!NOTE] Adobe Campaign (Classic und Standard) verhält sich anders, da es eine zusätzliche Latenz von 24 Stunden über der 8-Stunden-Latenz erzielt.
 
 
 ## Voraussetzungen
@@ -77,9 +75,7 @@ Die Verarbeitung kann jetzt bis zu 8 Stunden dauern, aber je nach anderem Traffi
 
 Um ein in Experience Cloud veröffentlichtes Segment zu löschen, müssen Sie zuerst die Veröffentlichung rückgängig machen. Um die Veröffentlichung eines Segments rückgängig zu machen, **deaktivieren Sie einfach das Kontrollkästchen**, das Sie zum Veröffentlichen aktiviert haben.
 
->[!NOTE]
->
->Sie können die Veröffentlichung eines Segments **nicht** rückgängig machen, das aktuell von einer der folgenden Adobe-Lösungen verwendet wird: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (für Kunden von [!DNL Core Service] und [!DNL Audience Manager]) und alle anderen externen Partner (für Kunden von [!DNL Audience Manager]). Die Veröffentlichung eines Segments, das von [!DNL Target] verwendet wird, **kann** rückgängig gemacht werden.
+> [!NOTE]Sie können die Veröffentlichung eines Segments **nicht** rückgängig machen, das aktuell von einer der folgenden Adobe-Lösungen verwendet wird: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (für Kunden von [!DNL Core Service] und [!DNL Audience Manager]) und alle anderen externen Partner (für Kunden von [!DNL Audience Manager]). Die Veröffentlichung eines Segments, das von [!DNL Target] verwendet wird, **kann** rückgängig gemacht werden.
 
 ## Anzeigen des Segmentveröffentlichungsstatus im [!UICONTROL Segment-Manager]
 
