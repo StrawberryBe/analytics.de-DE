@@ -5,7 +5,7 @@ seo-title: Einstellungen
 title: Einstellungen
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,7 +84,7 @@ r_dsc_site_analysis_tab.xml
 
 | Feld | Definition |
 |--- |--- |
-| Metriken | Wählen Sie die durch Säulenbreite und -höhe dargestellten Metriken aus. Bestimmen Sie, welche Metrik farbig dargestellt werden soll. Sie können die Farben zur Darstellung hoher bzw. niedriger Metrikwerte festlegen. Sie können die Metriken für die X- und Y-Achsen bestimmen sowie weitere Metriken hinzufügen, die im Popup-Text des Berichts angezeigt werden sollen. Sie können die einzelnen Metriken zu Ansichtszwecken auch invertieren. |
+| Metriken | Wählen Sie die durch Säulenbreite und -höhe dargestellten Metriken aus. Bestimmen Sie, welche Metrik farbig dargestellt werden soll. Sie können die Farben zur Darstellung hoher bzw. niedriger Metrikwerte festlegen. Sie können die Metriken für die X- und Y-Achse festlegen und weitere Metriken hinzufügen, die im Popup-Text des Berichts angezeigt werden sollen. Sie können die einzelnen Metriken zu Ansichtszwecken auch invertieren. |
 | Allgemein und Warnhinweise | Hier können Sie bestimmte grafische Elemente des Berichts aktivieren und deaktivieren. Sie können außerdem Warnhinweise konfigurieren, die im Bericht erscheinen, wenn Metriken zu den als Säulen dargestellten Seiten einen bestimmten Wert unter- bzw. überschreiten. |
 
 ## Registerkarte „Schriftart und Gebietsschema“ – Definitionen {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
