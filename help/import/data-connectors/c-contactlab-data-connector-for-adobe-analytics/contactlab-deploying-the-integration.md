@@ -6,7 +6,7 @@ solution: Analytics
 title: Bereitstellen der Integration
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Schritte zum Abschließen des Integrationsassistenten in der Data Connectors-Obe
 
    | Element | Beschreibung |
    |---|---|
-   | Link-ID | Wählen Sie eine eVar zum Erfassen von Link-IDs in Echtzeit. |
+   | Link-ID | Wählen Sie eine eVar, um Link-IDs in Echtzeit zu erfassen. |
    | Nachrichten-ID | Wählen Sie eine eVar, um Nachrichten-IDs in Echtzeit zu erfassen. |
    | Recipient ID | Wählen Sie eine eVar, um Empfänger-IDs in Echtzeit zu erfassen. |
    | Absprünge | Wählen Sie ein numerisches Ereignis aus, um tägliche Absprünge von ContactLab zu erhalten. |
