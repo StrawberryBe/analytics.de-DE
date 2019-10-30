@@ -1,18 +1,18 @@
 ---
 description: Zeigt die Links auf der Seite zu Websites außerhalb Ihrer Website an, auf die die Benutzer am häufigsten klicken. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Websites. Es sind jedoch auch andere Websites möglich, auf die Sie einen externen Link gelegt haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
 seo-description: Zeigt die Links auf der Seite zu Websites außerhalb Ihrer Website an, auf die die Benutzer am häufigsten klicken. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Websites. Es sind jedoch auch andere Websites möglich, auf die Sie einen externen Link gelegt haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
-seo-title: 'Ausstiegslinks '
+seo-title: Exitlinks
 solution: Analytics
-title: 'Ausstiegslinks '
+title: Exitlinks
 topic: Berichte
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ausstiegslinks 
+# Exitlinks
 
 Zeigt die Links auf der Seite zu Websites außerhalb Ihrer Website an, auf die die Benutzer am häufigsten klicken. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Websites. Es sind jedoch auch andere Websites möglich, auf die Sie einen externen Link gelegt haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
 
