@@ -8,7 +8,7 @@ title: Analytics-Variablen und -Ereignisse
 topic: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Neben Kampagnenvariablen können Sie Analytics-Ereignisse und eVars verwenden, d
 | Variable | Anzeigename | Methode zum Ausfüllen | Beschreibung |
 |---|---|---|---|
 | s.campaign oder eVar | Anzeigentrackingcode | Automatisch durch Data Connectors für DFA-Kampagnen ausgefüllt | Trackt Clickthrough-Konversionen für alle Kampagnen |
-| eVar* | Durchsicht | Automatisch durch VISTA und DFA für DFA-Kampagnen ausgefüllt | Trackt Durchsichtsdaten für DFA-IDs Diese eVar sollte dasselbe Ablaufdatum wie die Variable *`s.campaign`* variable. Muss dieselbe Konversionsvariable sein wie in der Variablen-Provider-ID angegeben. Stellen Sie sicher, dass für die eVar vollständige untergeordnete Beziehungen aktiviert sind. Die Kosten für die Aktivierung dieser Funktion sind in der Gebühr für die Data Connectors-Integration enthalten. |
+| eVar* | Durchsicht | Automatisch durch VISTA und DFA für DFA-Kampagnen ausgefüllt | Trackt Durchsichtsdaten für DFA-IDs Diese eVar sollte dasselbe Ablaufdatum wie die Variable *`s.campaign`* festgelegt. Muss dieselbe Konversionsvariable sein wie in der Variablen-Provider-ID angegeben. Stellen Sie sicher, dass für die eVar vollständige untergeordnete Beziehungen aktiviert sind. Die Kosten für die Aktivierung dieser Funktion sind in der Gebühr für die Data Connectors-Integration enthalten. |
 | eVar* | DFA-Abfragefehler | (Optional) Durch JavaScript-Erfassungscode ausgefüllt | Enthält einen von mehreren von DFA zurückgegebenen Fehlercodes. |
 | event* | Anzahl Durchsichten | Automatisch durch Data Connectors für DFA-Kampagnen ausgefüllt | Erfasst die Anzahl der Anzeigenansichten durch Benutzer, die keinen Clickthrough durchgeführt haben, aber letztendlich auf Ihre Site gelangt sind. |
 | event* | Impressionen | Automatisch durch einen Datenfeed von DFA ausgefüllt | Trackt die Zeit, in der eine spezielle DFA-Anzeige bereitgestellt wurde. |
