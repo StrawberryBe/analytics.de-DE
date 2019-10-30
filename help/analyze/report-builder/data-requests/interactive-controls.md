@@ -1,18 +1,18 @@
 ---
 description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von ReportBuilder-Anforderungen mehr Flexibilität.
 seo-description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von ReportBuilder-Anforderungen mehr Flexibilität.
-seo-title: Interaktive Steuerelemente
+seo-title: interaktive Steuerelemente
 solution: Analytics
-title: Interaktive Steuerelemente
+title: interaktive Steuerelemente
 topic: ReportBuilder
-uuid: 5 f 324 b 61-e 032-455 e -9947-5037 f 013 e 0 fa
+uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Interaktive Steuerelemente
+# interaktive Steuerelemente
 
 Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von ReportBuilder-Anforderungen mehr Flexibilität.
 
@@ -23,16 +23,16 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 
 >[!IMPORTANT]
 >
->Für die interaktiven Steuerelemente muss Reportbuilder v 5.0 installiert sein. &gt;
->* Wenn Sie Microsoft Excel unter Windows ausführen, aber Ihre ReportBuilder-Version niedriger ist, oder Sie ReportBuilder nicht installiert haben, können Sie den Wert im interaktiven Steuerelement zwar ändern, es werden jedoch weder die verknüpfte Anforderung noch die zugehörigen Parameter der Anforderung aktualisiert.
->* Wenn Sie Excel auf einem Mac ausführen, wird die folgende Nachricht angezeigt, wenn Sie den Wert im Steuerelement ändern: „Das Makro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' kann nicht gefunden werden.“
+>Damit die interaktiven Steuerelemente funktionieren, muss ReportBuilder Version 5.0 installiert sein. &gt;
+>* Wenn Sie Microsoft Excel unter Windows ausführen, aber eine niedrigere Version von ReportBuilder ausführen oder wenn ReportBuilder nicht installiert ist: Sie können den Wert im interaktiven Steuerelement ändern. Die zugehörige Anforderung wird jedoch nicht aktualisiert und die zugehörigen Parameter der Anforderung werden auch nicht aktualisiert.
+>* Wenn Sie Excel unter Mac ausführen, wird beim Ändern des Werts im Steuerelement die folgende Meldung angezeigt: "Das Makro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' kann nicht gefunden werden."
 >
 
 
 
 >[!IMPORTANT]
 >
->Tippen Sie nicht mit dem Namen des Steuerelements. (Zum Anzeigen des Namens fokussieren Sie das Steuerelement. Der Name des Steuerelements wird dann direkt über dem Excel-Raster in der oberen linken Ecke angezeigt.)
+>Ändern Sie nicht den Namen des Steuerelements. (Zum Anzeigen des Namens fokussieren Sie das Steuerelement. Der Name des Steuerelements wird dann direkt über dem Excel-Raster in der oberen linken Ecke angezeigt.)
 
 ## Implement interactive date range control {#section_39B228F2D2C44985863D31424C953280}
 
@@ -45,7 +45,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 
    ![](assets/control_settings.png)
 
-1. Beachten Sie die Option „Verknüpfte Anforderungen bei Elementauswahl automatisch aktualisieren“.
+1. Beachten Sie die Option "Verknüpfte Anforderungen bei Elementauswahl automatisch aktualisieren".
 
    * Wenn diese aktiviert ist, werden alle Anforderungen aktualisiert, die dieses Steuerelement verwenden.
    * Wenn sie nicht aktiviert ist, werden zwar die verknüpften Anforderungsparameter aktualisiert, jedoch nicht die Anforderung selbst.
@@ -57,13 +57,13 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 1. Nun können Sie den Datumsbereich ändern und die Anforderung wird mit diesem Datumsbereich aktualisiert.
 1. Sie können die Anforderung auch kopieren und mit der rechten Maustaste darauf klicken, um eine der zwei Optionen zum Einfügen von Anforderungen zu verwenden:
 
-   * **[!UICONTROL Anforderung einfügen]** &gt; **[!UICONTROL Absolute Eingabezelle verwenden]**. Das bedeutet, dass die kopierte Anforderung zu demselben interaktiven Steuerelement für Datumsbereiche verweist wie die ursprüngliche Anforderung.
+   * **[!UICONTROL Anforderung]** einfügen &gt; **[!UICONTROL Absolute Eingabezelle]** verwenden. Das bedeutet, dass die kopierte Anforderung zu demselben interaktiven Steuerelement für Datumsbereiche verweist wie die ursprüngliche Anforderung.
 
-   * **[!UICONTROL Anforderung einfügen]**&gt; **[!UICONTROL Relative Eingabezelle verwenden]**. Das bedeutet, dass die kopierte Anforderung zum eigenen Steuerelement verweist.
+   * **[!UICONTROL Anforderung]** einfügen &gt; Relative Eingabezelle **[!UICONTROL verwenden]**. Das bedeutet, dass die kopierte Anforderung zum eigenen Steuerelement verweist.
 
       >[!NOTE]
       >
-      >Sie können die native Microsoft Excel-Funktion zum Ausschneiden/Kopieren/Einfügen verwenden. ReportBuilder erkennt die neu hinzugefügten Steuerelemente automatisch.
+      >Sie können die native Microsoft Excel-Steuerungsfunktion zum Ausschneiden/Kopieren/Einfügen verwenden. ReportBuilder erkennt die neu hinzugefügten Steuerelemente automatisch.
 
 ## Implement interactive segment control {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
