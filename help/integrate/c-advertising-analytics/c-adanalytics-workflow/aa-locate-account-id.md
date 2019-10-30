@@ -1,24 +1,24 @@
 ---
-description: Hier finden Sie Anweisungen zur Suche nach Ihren Konto-IDs für Google und Bing.
-seo-description: Hier finden Sie Anweisungen zur Suche nach Ihren Konto-IDs für Google und Bing.
-seo-title: Suchen Sie Ihre Konto-IDs.
-title: Suchen Sie Ihre Konto-IDs.
-uuid: 34 f 9 bb 8 d -84 b 4-4890-9200-c 926 d 0 abb 1 d 6
+description: Hier finden Sie Anweisungen, wie Sie Ihre Konto-IDs für Google und Bing finden können.
+seo-description: Hier finden Sie Anweisungen, wie Sie Ihre Konto-IDs für Google und Bing finden können.
+seo-title: Konto-IDs suchen
+title: Konto-IDs suchen
+uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Suchen Sie Ihre Konto-IDs.
+# Konto-IDs suchen
 
-Hier finden Sie Anweisungen zur Suche nach Ihren Konto-IDs für Google und Bing.
+Hier finden Sie Anweisungen, wie Sie Ihre Konto-IDs für Google und Bing finden können.
 
 ## Google AdWords {#section_2A62AD448BD949889DB77C2AF3E04C33}
 
 >[!IMPORTANT]
 >
->Google adwords verwendet zwei Arten von Konten: a) MCC (My Client Center) und b) Standardkonto. Für diese Integration in Adobe Analytics **müssen Sie ein Standardkonto-Login und keine MCC-Kontoanmeldung verwenden**. Der Grund dafür ist, dass ein MCC-Konto als ein "roola" -Konto fungiert, das mehrere adwords-Konten mit einer einzigen Anmeldung aufrufen kann, während die Standardanmeldeanmeldung nur auf ein adwords-Konto pro Anmeldung zugreifen kann.
+>Google AdWords verwendet zwei Arten von Konten: a) MCC (My Client Center)-Konto und b) Standardkonto. Für diese Integration in Adobe Analytics **müssen Sie ein Standardkonto-Login und keine MCC-Kontoanmeldung verwenden**. Der Grund dafür ist, dass ein MCC-Konto als "Dachkonto"fungiert, das mit einer einzigen Anmeldung auf mehrere AdWords-Konten zugreifen kann, während die Standard-Kontoanmeldung pro Anmeldung nur auf ein AdWords-Konto zugreifen kann.
 
 Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-ID) anzuzeigen.
 
@@ -28,8 +28,6 @@ Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-
 
 Sowohl Konto- als auch Kunden-ID sind erforderlich. Sie sind auf der Registerkarte „Konten“ aufgeführt.
 
->[!NOTE]
->
->Die Kontonummer entspricht nicht der Konto-ID.
+> [!NOTE] Die Kontonummer ist nicht mit der Konto-ID identisch.
 
 ![](assets/bing_id.png)
