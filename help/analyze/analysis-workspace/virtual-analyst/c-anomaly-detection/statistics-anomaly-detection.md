@@ -1,24 +1,24 @@
 ---
 description: Die Anomalieerkennung in Analysis Workspace setzt eine Reihe statistischer Verfahren ein, um festzustellen, ob eine Beobachtung als anormal anzusehen ist oder nicht.
 seo-description: Die Anomalieerkennung in Analysis Workspace setzt eine Reihe statistischer Verfahren ein, um festzustellen, ob eine Beobachtung als anormal anzusehen ist oder nicht.
-seo-title: Statistische Verfahren bei der Anomalieerkennung
-title: Statistische Verfahren bei der Anomalieerkennung
-uuid: b 6 ef 6 a 2 e -0836-4 c 9 a-bf 7 e -01910199 bb 92
+seo-title: In der Anomalieerkennung verwendete statistische Verfahren
+title: In der Anomalieerkennung verwendete statistische Verfahren
+uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Statistische Verfahren bei der Anomalieerkennung
+# In der Anomalieerkennung verwendete statistische Verfahren
 
 Die Anomalieerkennung in Analysis Workspace setzt eine Reihe statistischer Verfahren ein, um festzustellen, ob eine Beobachtung als anormal anzusehen ist oder nicht.
 
-Je nach der im Bericht verwendeten Datumsgranularität werden 3 verschiedene statistische Verfahren verwendet - insbesondere für stündliche, tägliche, wöchentliche/monatliche Anomalieerkennung. Die statistischen Verfahren werden nachfolgend beschrieben.
+Je nach der im Bericht verwendeten Datumsgranularität werden 3 verschiedene statistische Verfahren eingesetzt - insbesondere zur stündlichen, täglichen, wöchentlichen/monatlichen Anomalieerkennung. Die statistischen Verfahren werden nachfolgend beschrieben.
 
 ## Anomaly detection for daily granularity {#section_758ACA3C0A6B4D399563ECABFB8316FA}
 
-Für Berichte mit täglicher Granularität berücksichtigt der Algorithmus verschiedene wichtige Faktoren, um Ergebnisse mit höchstmöglicher Genauigkeit bereitzustellen. Zunächst legt der Algorithmus fest, welcher Modelltyp angewendet werden soll, basierend auf den verfügbaren Daten, aus denen wir zwischen zwei Klassen auswählen: ein zeitreihenbasiertes Modell oder ein Ausreißererkennungsmodell (als funktionale Filterung bezeichnet).
+Für Berichte mit täglicher Granularität berücksichtigt der Algorithmus verschiedene wichtige Faktoren, um Ergebnisse mit höchstmöglicher Genauigkeit bereitzustellen. Erstens bestimmt der Algorithmus, welcher Modelltyp auf der Grundlage der verfügbaren Daten angewendet werden soll, von denen wir zwischen einer von zwei Klassen wählen - einem zeitreihenbasierten Modell oder einem Ausreißererkennungsmodell (als funktionale Filterung bezeichnet).
 
 Die Entscheidung für das zeitreihenbasierte Modell beruht auf den folgenden Kombinationen für den Typ ETS (Error, Trend and Seasonality = Fehler, Trend und Saisonabhängigkeit), wie von [Hyndman und Kollegen (2008)](https://www.springer.com/us/book/9783540719168) beschrieben. Dabei versucht der Algorithmus insbesondere die folgenden Kombinationen:
 
@@ -38,22 +38,22 @@ Nach Auswahl des Modells passt der Algorithmus die Ergebnisse basierend auf Feie
 * Black Friday (nur USA)
 * Cyber Monday (nur USA)
 * 24.–26. Dezember
-* 1&#46; Januar
+* 1&amp;#46; Januar
 * 31. Dezember
 
-Diese Feiertage wurden anhand umfangreicher statistischer Analysen einer großen Anzahl von Datenpunkten ausgewählt, um die Feiertage zu ermitteln, die den größten Einfluss in den meisten Kundentrends gezeigt haben. Die Liste ist zwar nicht für alle Kunden oder Geschäftszyklen vollständig, wir haben jedoch festgestellt, dass eine Berücksichtigung dieser Feiertage die Zuverlässigkeit des Algorithmus insgesamt für fast alle Kundendatensätze steigern konnte.
+Diese Feiertage wurden auf der Grundlage umfangreicher statistischer Analysen über viele Kundendatenpunkte ausgewählt, um Feiertage zu identifizieren, die für die meisten Kundentrends am wichtigsten waren. Obwohl die Liste sicherlich nicht für alle Kunden oder Geschäftszyklen erschöpfend ist, haben wir festgestellt, dass die Anwendung dieser Feiertage die Leistung des Algorithmus insgesamt für fast alle Kundendatensätze deutlich verbessert hat.
 
 Nach Auswahl des Modells und der Identifizierung der im Berichtszeitraum befindlichen Feiertage fährt der Algorithmus wie folgt fort:
 
-1. Erstellen Sie den Anomaliereferenzzeitraum, der bis zu 35 Tage vor dem Datumsbereich der Berichterstellung umfasst, und einen übereinstimmenden Datumsbereich, der älter ist als ein Jahr (bei Bedarf die Tabellage, wenn erforderlich, und alle anwendbaren Feiertage, die in einem anderen Kalendertag des vorherigen Jahres aufgetreten sein könnten).
+1. Konzipieren Sie den abweichenden Berichtszeitraum - dies umfasst bis zu 35 Tage vor dem Berichtszeitraum und einen entsprechenden Datumsbereich im Vorjahr (unter Berücksichtigung von Schalttagen, falls erforderlich, und einschließlich aller anwendbaren Feiertage, die möglicherweise an einem anderen Kalendertag im Vorjahr stattgefunden haben).
 1. Er testet, ob im aktuellen Zeitraum (außer dem Vorjahr) Feiertage vorhanden sind, die laut den aktuellsten Daten eine Anomalität darstellen.
-1. Wenn der Feiertag im aktuellen Datumsbereich als anormal betrachtet wird, passt der Algorithmus den erwarteten Wert und das Konfidenzintervall des aktuellen Feiertags anhand des Feiertags aus dem Vorjahreszeitraum an (unter Berücksichtigung von 2 Tagen vorher und nachher). Die Korrektur für den aktuellen Feiertag erfolgt auf Grundlage des niedrigsten MAPE-Wertes von:
+1. Wenn der Feiertag im aktuellen Datumsbereich anormal ist, passen Sie den erwarteten Wert und das Konfidenzintervall des aktuellen Feiertags in Anbetracht des Feiertags des Vorjahres an (2 Tage vor und nach). Die Korrektur für den aktuellen Feiertag erfolgt auf Grundlage des niedrigsten MAPE-Wertes von:
 
    1. Additive Effekte
    1. Multiplikative Effekte
    1. Differenz zum Vorjahr
 
-Beachten Sie im folgenden Beispiel die deutliche Verbesserung der Performance an Weihnachten und Neujahr:
+Beachten Sie die dramatische Verbesserung der Leistung am Weihnachten und Neujahr im folgenden Beispiel:
 
 ![](assets/anomaly_statistics.png)
 
@@ -70,4 +70,4 @@ Da wöchentliche und monatliche Trends nicht die gleichen wöchentlichen oder t�
 1. Angepasste Box-Plot-Funktion: Diese Funktion ermittelt die maximale Anzahl von Anomalien aus den eingegebenen Daten.
 1. GESD-Funktion: Wird mit der Ausgabe aus Schritt 1 auf die eingegebenen Daten angewendet.
 
-Dann zieht der Anomalieerkennungsschritt „Feiertag und Vorjahres-Saisonabhängigkeit“ die Daten aus dem Vorjahr von den Daten dieses Jahres ab und geht die Daten dann wiederholt nach dem oben beschriebenen zweistufigen Verfahren durch, um zu überprüfen, dass die Anomalien saisonal korrekt sind. Jede dieser Datumsgranularitäten verwendet ein 15 Zeiträume zurückliegendes Zeitfenster, in dem der für den Bericht ausgewählte Datumsbereich liegt (entweder 15 Monate oder 15 Wochen), sowie einen entsprechenden Datumsbereich, der 1 Jahr vor dem Trainigszeitraum liegt.
+Der Schritt zur Ermittlung der Anomalie bei Feiertag und YoY-Saisonabhängigkeit zieht dann die Daten des letzten Jahres von den Daten dieses Jahres ab und iteriert dann die Daten erneut mithilfe des oben beschriebenen zweistufigen Prozesses, um zu überprüfen, ob Anomalien saisonbedingt angemessen sind. Jede dieser Datumsgranularitäten verwendet ein 15 Zeiträume zurückliegendes Zeitfenster, in dem der für den Bericht ausgewählte Datumsbereich liegt (entweder 15 Monate oder 15 Wochen), sowie einen entsprechenden Datumsbereich, der 1 Jahr vor dem Trainigszeitraum liegt.
