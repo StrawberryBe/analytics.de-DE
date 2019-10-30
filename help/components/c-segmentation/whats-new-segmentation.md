@@ -3,9 +3,9 @@ description: Neue Funktionen bei der Adobe Analytics-Segmentierung.
 seo-description: Neue Funktionen bei der Adobe Analytics-Segmentierung.
 seo-title: Neue Funktionen bei der Analytics-Segmentierung
 title: Neue Funktionen bei der Analytics-Segmentierung
-uuid: ac 53 e 984-9 af 5-4536-8105-345 d 78 cc 5653
+uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,8 +25,8 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
 * [Oktober 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
 * [September 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
 * [August 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
-* [Juli 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [Mai 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [Juli 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
+* [Mai 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -53,7 +53,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datumsbereiche in Segmenten </p> </td> 
-   <td colname="col2"> <p>Damit können Sie Segmente erstellen, die rollierende Datumsbereiche enthalten, um Fragen zu laufenden Kampagnen oder Ereignissen zu beantworten. Sie können nun beispielsweise ganz einfach ein Segment erstellen, das „alle, die etwas in den vergangenen 60 Tagen gekauft haben“ beinhaltet. </p> <p> <p>Hinweis: Diese Funktion ist nicht in Ad-hoc-Analysen verfügbar. </p> </p> </td> 
+   <td colname="col2"> <p>Damit können Sie Segmente erstellen, die rollierende Datumsbereiche enthalten, um Fragen zu laufenden Kampagnen oder Ereignissen zu beantworten. Beispielsweise können Sie jetzt ganz einfach ein Segment erstellen, das "alle, die in den letzten 60 Tagen einen Kauf getätigt haben" enthält. </p> <p> <p>Hinweis: Diese Funktion ist nicht in Ad-hoc-Analysen verfügbar. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensionsbegrenzungen mit sequenziellen Segmenten </p> </td> 
-   <td colname="col2"> <p>In einem „Innerhalb“-Satz können Sie zwischen THEN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt. </p> </td> 
+   <td colname="col2"> <p>In einer "Innerhalb"-Klausel können Sie zwischen THEN-Anweisungen beispielsweise "innerhalb 1 Suchbegriffsinstanz", "innerhalb 1 eVar 47-Instanz"hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">Verwenden Sie Segmente in der Fallout-Analyse </a> </p> </td> 
@@ -136,7 +136,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: Aufschlüsselung nach Segment </p> </td> 
-   <td colname="col2"> <p>Hinzugefügte Unterstützung für  <span class="wintitle">Aufschlüsselung nach Segment</span>. Zusätzlich zu den Aufschlüsselungen nach „Standard“ (Elemente) und „Benutzerspezifisch“ (Insights) können Sie Berichte nun auch nach Segmenten aufschlüsseln. Wenn Sie die Registerkarte <span class="wintitle">Segmente</span> auswählen, wird die Liste mit den Segmenten gefüllt, die auch in der Dropdown-Liste <span class="wintitle">Verfügbare Segmente</span> angeboten werden. </p> <p>Linienelemente mit Mitgliedschaft im Segment melden den Wert „1“ und Elemente außerhalb des Segments „0“. </p> </td> 
+   <td colname="col2"> <p>Hinzugefügte Unterstützung für  <span class="wintitle">Aufschlüsselung nach Segment</span>. Zusätzlich zu den Aufschlüsselungen nach „Standard“ (Elemente) und „Benutzerspezifisch“ (Insights) können Sie Berichte nun auch nach Segmenten aufschlüsseln. Wenn Sie die Registerkarte <span class="wintitle">Segmente</span> auswählen, wird die Liste mit den Segmenten gefüllt, die auch in der Dropdown-Liste <span class="wintitle">Verfügbare Segmente</span> angeboten werden. </p> <p>Linienelemente mit Mitgliedschaft im Segment melden den Wert "1"und Elemente außerhalb des Segmentberichts "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Änderungen an Berechtigungen im Segmentaufbau </p> </td> 
-   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Mehr...</a> </p> </td> 
+   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Mehr...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Unterstützung für „stimmt überein mit“ und „stimmt nicht überein mit“ in Data Warehouse-Segmenten </p> </td> 
-   <td colname="col2"> <p>Data Warehouse unterstützt jetzt die Optionen „stimmt überein mit“ und „stimmt nicht überein mit“ in Segmentdefinitionen. (Reports &amp; Analysen und Ad-hoc-Analysen unterstützen diese Funktion bereits.) </p> <p>Segmente, die mit Data Warehouse bisher inkompatibel waren, weil Data Warehouse „stimmt überein mit“ und „stimmt nicht überein mit“ nicht unterstützte, sind ab dieser Version kompatibel (sofern dies der einzige Grund für die Inkompatibilität war). Ab dieser Version werden in der Segmentliste von Data Warehouse möglicherweise zusätzliche Segmente angezeigt. </p> </td> 
+   <td colname="col2"> <p>Data Warehouse unterstützt jetzt "stimmt überein mit"und "stimmt nicht überein mit"in Segmentdefinitionen. (Reports &amp; Analysen und Ad-hoc-Analysen unterstützen diese Funktion bereits.) </p> <p>Segmente, die zuvor mit Data Warehouse inkompatibel waren, weil Data Warehouse "stimmt überein mit"und "stimmt nicht überein mit"nicht unterstützt hat, werden nach der Veröffentlichung kompatibel (sofern dies der einzige Grund für die Inkompatibilität ist). Ab dieser Version werden in der Segmentliste von Data Warehouse möglicherweise zusätzliche Segmente angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segments.Save in Web-Services-API </p> </td> 
