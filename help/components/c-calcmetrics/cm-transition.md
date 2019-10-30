@@ -3,9 +3,9 @@ description: Diese Änderungen an der Funktionsweise von berechneten Metriken in
 seo-description: Diese Änderungen an der Funktionsweise von berechneten Metriken in Analytics können sich auf Ihre Arbeit auswirken.
 seo-title: Häufig gestellte Fragen
 title: Häufig gestellte Fragen
-uuid: 9 b 7 f 1 cd 1-b 969-4 b 15-8 af 1-969 d 816 b 65 b 8
+uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [Was passiert mit den berechneten Metriken eines Benutzers, wenn dieser Benutzer gelöscht wird?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Warum werden „Unbekannte“ berechnete Metriken angezeigt, die nicht für andere Report Suites „gültigׅ“ sind, obwohl sie erstellt und auf diese Report Suites angewendet werden können?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Warum werden "Unbekannte"berechnete Metriken angezeigt, die für andere Report Suites nicht "gültig"sind, obwohl sie erstellt und auf diese Report Suites angewendet werden können?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [Warum wurden Änderungen an meinen alten berechneten Metriken nicht gespeichert?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
@@ -77,9 +77,9 @@ You would see a number of calculated metrics with the same name (but created in 
 
 Sie sollten berechnete Metriken mit ähnlichen Namen und Definitionen konsolidieren. Gehen Sie dabei aber vorsichtig vor. Sie können die Report Suite auf eine berechnete Metrik im Manager für berechnete Metriken prüfen, um die Original-Report Suite zu verifizieren. Sie sollten auch die Definitionen von Metriken prüfen, wenn sie potenzielle Duplikate löschen, um sicherzustellen, dass Sie Metriken korrekt konsolidieren.
 
-> [!NOTE] Obwohl berechnete Metriken nicht mehr an eine bestimmte Report Suite gebunden sind und für alle Report Suites, die für das Anmeldeunternehmen sichtbar sind, verwendet werden können, ist die Report Suite, unter der die berechnete Metrik erstellt oder zuletzt gespeichert wurde, weiterhin im Manager für berechnete Metriken sichtbar.
+> [!NOTE] Obwohl berechnete Metriken nicht mehr an eine bestimmte Report Suite gebunden sind und in jeder Report Suite verwendet werden können, die für das Anmeldeunternehmen sichtbar ist, ist die Report Suite, unter der die berechnete Metrik erstellt oder zuletzt gespeichert wurde, weiterhin im Manager für berechnete Metriken sichtbar.
 
-> [!NOTE] Auch wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die diese Metrik referenzieren, weiterhin.
+> [!NOTE] Selbst wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die auf diese Metrik verweisen, weiterhin.
 
 ## Was ist mit meinen globalen berechneten Metriken passiert?{#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -91,7 +91,7 @@ Der Inhaber von globalen berechneten Metriken ist jetzt der erste Administrator 
 
 Keine. Der neue Administrator sollte beim Ändern oder Löschen dieser berechneten Metriken allerdings mit Vorsicht vorgehen, da diese möglicherweise in Lesezeichenberichten und Dashboards verwendet werden.
 
-> [!NOTE] Auch wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die diese Metrik referenzieren, weiterhin.
+> [!NOTE] Selbst wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die auf diese Metrik verweisen, weiterhin.
 
 ## Was ist mit globalen berechneten Metriken passiert, die über Anmeldeunternehmen hinweg freigegeben wurden? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -99,13 +99,11 @@ Bisher konnte ein Administrator berechnete Metriken (als „globale berechnete M
 
 Globale berechnete Metriken können nun nicht mehr über Anmeldeunternehmen hinweg freigegeben werden. Sie sind nicht mehr an eine bestimmte Report Suite gebunden, sondern stattdessen an ein bestimmtes Anmeldeunternehmen. Berechnete Metriken, die über Anmeldeunternehmen hinweg freigegeben waren
 
-* Wurden in alle Anmeldeunternehmen mit Zugriff auf diese Report Suite migriert.
-* Standardeinstellung für "Für alle freigegeben" .
+* wurden auf alle Anmeldeunternehmen mit Zugriff auf diese Report Suite migriert.
+* Standard ist "Für alle freigegeben".
 * werden zu von allen anderen Anmeldeunternehmen unabhängigen Kopien.
 
->[!NOTE]
->
->Wenn die berechnete Metrik in einem Lesezeichen, Dashboard, Warnhinweis oder terminierten Bericht verwendet wurde, hat die Bearbeitung der neuen Kopie KEINE Auswirkung auf die alte beibehaltene berechnete Metrik.
+> [!NOTE] Wenn die berechnete Metrik in einem Lesezeichen, Dashboard, Warnhinweis oder terminierten Bericht verwendet wurde, wirkt sich die Bearbeitung der neuen Kopie NICHT auf die alte beibehaltene berechnete Metrik aus.
 
 ## Was ist mit berechneten Metriken mit der Classification Numerisch oder Numerisch2 passiert?{#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -137,7 +135,7 @@ Sie verwenden eine Basis-Unique Visitor-Metrik in einem Bericht mit einem Segme
 
 Das Speichern einer berechneten Metrik mit der API-Methode ReportSuite.SaveCalculatedMetrics (1.3 oder 1.4) war zuvor mit dem Erstellen oder Aktualisieren einer berechneten Metrik in der Admin Console identisch. Dasselbe galt für ReportSuite.DeleteCalculatedMetrics. Außerdem war die Liste der berechneten Metriken, die in der Admin Console oder beim Aufruf von ReportSuite.GetCalculatedMetrics angezeigt wurde, identisch.
 
-Jetzt speichern die reportsuite calculatedmetrics API-Methoden (1.3 oder 1.4) berechnete Metriken mit dem alten Store weiter, löschen sie und rufen sie ab. Vorhandene berechnete Metriken werden migriert und im neuen Generator für berechnete Metriken angezeigt. **Neue berechnete Metriken, die mit den API-Methoden erstellt werden, sind nur in der API sichtbar. Sie können weiterhin in der Berichterstellungs-API verwendet werden.**
+Die ReportSuite CalculatedMetrics API-Methoden (1.3 oder 1.4) speichern, löschen und rufen nun berechnete Metriken mithilfe des alten Stores ab. Vorhandene berechnete Metriken werden migriert und im neuen Generator für berechnete Metriken angezeigt. **Neue berechnete Metriken, die mit den API-Methoden erstellt werden, sind nur in der API sichtbar. Sie können weiterhin in der Berichterstellungs-API verwendet werden.**
 
 **Zu ergreifende Maßnahme**
 
@@ -155,9 +153,9 @@ Berechnete Metriken mit Segmenten oder statistischen Funktionen werden von „Ak
 
 Alle von diesem Benutzer erstellten berechneten Metriken werden ebenfalls gelöscht. Gelöschte berechnete Metriken funktionieren aber weiterhin innerhalb von gespeicherten Lesezeichen, Dashboards oder terminierten Berichten.
 
-## Warum werden „Unbekannte“ berechnete Metriken angezeigt, die nicht für andere Report Suites „gültigׅ“ sind, obwohl sie erstellt und auf diese Report Suites angewendet werden können? {#section_6772818EFDED46E9B7095D64C3B77211}
+## Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-In der Benutzeroberfläche wird „Unbekannt“ angezeigt, wenn die berechnete Metrik Basismetriken oder Dimensionen enthält, die nicht für die gewählte Report Suite vorhanden sind.
+Die Benutzeroberfläche zeigt "unbekannt"an, wenn die berechnete Metrik Basismetriken oder Dimensionen enthält, die für die ausgewählte Report Suite nicht vorhanden sind.
 
 ## Warum wurden Änderungen an meinen alten berechneten Metriken nicht gespeichert? {#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
@@ -167,15 +165,15 @@ Dazu kann es aufgrund der Zeit für die Migration in die neue Datenbank für ber
 
 Sie müssen die Änderungen an den alten Metriken erneut vornehmen.
 
-## Warum werden meine berechneten Metriken nicht im Marketingkanalbericht angezeigt? {#section_FC350359A775433AB5F43C7CAB304D62}
+## Why don't my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
 
 (Bisher wurden alle berechneten Metriken in der Metrikauswahl in Marketingkanalberichten mit der Option „Erstkontakt“ und „Letztkontakt“ aufgeführt.)
 
-Jetzt sind nur die berechneten Metriken in der Metrikauswahl in Marketingkanalberichten verfügbar, deren Zuordnungstyp im Generator für berechnete Metriken spezifisch auf „Erstkontakt“ oder „Letztkontakt“ gesetzt wurde. Beachten Sie, dass alle berechneten Metriken, die bereits auf Marketingkanalberichte angewendet wurden, weiterhin angewendet werden und wie bisher funktionieren. Um eine berechnete Metrik für Marketingkanäle zu erstellen, klicken Sie im Metrikgenerator auf das Konfigurationssymbol und wählen Sie entweder „Erstkontakt“ oder „Letztkontakt“ als Zuordnungstyp. Denken Sie daran, dass die berechnete Metrik dadurch ausschließlich mit Marketingkanalberichten kompatibel ist und in keinen anderen Berichten verwendet werden kann.
+Jetzt sind nur die berechneten Metriken in der Metrikauswahl in Marketingkanalberichten verfügbar, deren Zuordnungstyp im Generator für berechnete Metriken spezifisch auf „Erstkontakt“ oder „Letztkontakt“ gesetzt wurde. Beachten Sie, dass alle berechneten Metriken, die bereits auf Marketingkanalberichte angewendet wurden, weiterhin angewendet werden und wie bisher funktionieren. Um eine berechnete Metrik für Marketingkanäle zu erstellen, klicken Sie im Metrikgenerator auf das Konfigurationssymbol und wählen Sie entweder „Erstkontakt“ oder „Letztkontakt“ als Zuordnungstyp. Denken Sie daran, dass dadurch die berechnete Metrik nur mit Marketingkanalberichten kompatibel ist und in keinem anderen Bericht verwendet werden kann.
 
 ## Warum enthalten einige der berechneten Metriken Formeln ohne die Klammern, die ich hinzugefügt habe? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-Bei der Migration hat Adobe überflüssige Klammern aus einigen Formeln entfernt. Dabei wurden nur Klammern entfernt, die keinen Einfluss auf die Berechnung der Metrik haben. Die Daten werden dadurch nicht geändert, es wird lediglich die Formel vereinfacht.
+Bei der Migration hat Adobe überflüssige Klammern aus einigen Formeln entfernt. Dabei wurden nur Klammern entfernt, die keinen Einfluss auf die Berechnung der Metrik haben. Das ändert nichts an den Daten - es vereinfacht nur die Formel.
 
 ## (Nur Ad Hoc Analysis) Werden berechnete Metriken mit eingebetteten oder Inline-Segmentdefinitionen weiterhin unterstützt? {#section_B25C924A282F49388AB604E3D826F44C}
 
@@ -187,7 +185,7 @@ Sie müssen das Segment explizit speichern. Vorhandene berechnete Metriken mit I
 
 ## (Nur Report Builder) Warum sind berechnete Metriken aus meinen Anforderungen verschwunden? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
-Wenn die Anforderung in Version 5.2 erstellt wurde und berechnete Metriken enthält, sind diese Metriken in Version 5.1 (oder früher) nicht sichtbar. Dies liegt daran, dass berechnete Metriken nun globale IDs (nicht Report Suite-spezifische IDs) verwenden.
+Wenn die Anforderung in Version 5.2 erstellt wurde und berechnete Metriken enthält, sind diese Metriken in Version 5.1 (oder früheren Versionen) nicht sichtbar. Dies liegt daran, dass berechnete Metriken nun globale IDs (nicht Report Suite-spezifische IDs) verwenden.
 
 **Zu ergreifende Maßnahme**
 
