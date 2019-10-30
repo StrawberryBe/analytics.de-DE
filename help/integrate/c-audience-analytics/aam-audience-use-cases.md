@@ -1,20 +1,20 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Anwendungsfälle in Audience Analytics
-title: Anwendungsfälle in Audience Analytics
-uuid: 51 c 5776 c-ce 8 a -4 a 87-9 c 8 f-be 193 e 50279 d
+description: 'null'
+seo-description: 'null'
+seo-title: Anwendungsfälle für Audience Analytics
+title: Anwendungsfälle für Audience Analytics
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Anwendungsfälle in Audience Analytics
+# Anwendungsfälle für Audience Analytics
 
 ## Anzeigenverkäufe und Inhaltsentscheidungen {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-Als Medien-Publisher können Sie Ihrem Anzeigenverkaufsteam nicht nur Metriken zur Größe, sondern auch zur Zielgruppeneffizienz bereitstellen. Sie können außerdem festlegen, welcher Inhalt bei einem bestimmten demografischen Segment am besten ankommt, beispielsweise „Frauen in ihren 30ern, die ein Kind haben.“
+Als Medien-Publisher können Sie Ihrem Anzeigenverkaufsteam nicht nur Metriken zur Größe, sondern auch zur Zielgruppeneffizienz bereitstellen. Sie können auch bestimmen, welche Inhalte am besten mit bestimmten demografischen Segmenten übereinstimmen, wie "Frauen in ihren 30ern, die zum ersten Mal Mütter sind".
 
 ## Re-Targeting-Möglichkeiten {#section_29C46BA00B3D43CE8A433EA64072D952}
 
