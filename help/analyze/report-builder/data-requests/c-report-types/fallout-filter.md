@@ -1,18 +1,18 @@
 ---
 description: Beschreibt die Schritte, die beim Anwenden von Filtern bei Fallout-Berichten durchgeführt werden müssen.
 seo-description: Beschreibt die Schritte, die beim Anwenden von Filtern bei Fallout-Berichten durchgeführt werden müssen.
-seo-title: Einen Fallout-Bericht mit dem Anforderungs-Assistenten filtern
+seo-title: Fallout-Bericht mit dem Anforderungs-Assistenten filtern
 solution: Analytics
-title: Einen Fallout-Bericht mit dem Anforderungs-Assistenten filtern
+title: Fallout-Bericht mit dem Anforderungs-Assistenten filtern
 topic: ReportBuilder
-uuid: 269 e 900 e -23 bd -48 d 8-9 bac -69 e 3167 a 9 c 18
+uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Einen Fallout-Bericht mit dem Anforderungs-Assistenten filtern
+# Fallout-Bericht mit dem Anforderungs-Assistenten filtern
 
 Beschreibt die Schritte, die beim Anwenden von Filtern bei Fallout-Berichten durchgeführt werden müssen.
 
@@ -24,8 +24,8 @@ Dieses Beispiel zeigt einen Fallout-Bericht für Seiten.
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. Konfigurieren Sie die entsprechenden [Datumsbereiche](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (Im Gegensatz zu Pfadberichten, bei denen ein Muster bereits angewendet wird, müssen Sie bei einem Fallout-Bericht stets Pfadelemente definieren.)
 
    ![](assets/define_checkpoints.png)
