@@ -1,18 +1,18 @@
 ---
 description: Schritte für die Installation von ReportBuilder.
 seo-description: Schritte für die Installation von ReportBuilder.
-seo-title: ReportBuilder installieren
+seo-title: Report Builder installieren
 solution: Analytics
-title: ReportBuilder installieren
+title: Report Builder installieren
 topic: ReportBuilder
-uuid: 5 cad 3265-83 b 6-4 e 42-a 8 b 4-cc 56 e 050 d 41 e
+uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# ReportBuilder installieren
+# Report Builder installieren
 
 Schritte für die Installation von ReportBuilder.
 
@@ -29,4 +29,4 @@ Schritte für die Installation von ReportBuilder.
 1. Öffnen/Starten Sie MS Excel erneut, damit das Menü [!UICONTROL Add-Ins] angezeigt wird.
 1. Gehen Sie zu **Add-Ins** &gt; **[!UICONTROL Anmelden]**.
 
-   Follow the instructions in [Report Builder Sign-In](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
+   Befolgen Sie die Anweisungen unter [ReportBuilder-Anmeldung](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
