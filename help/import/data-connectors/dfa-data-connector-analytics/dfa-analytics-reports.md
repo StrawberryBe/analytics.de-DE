@@ -8,7 +8,7 @@ title: Analytics-Berichte mit DFA-Daten
 topic: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -52,5 +52,5 @@ Dieser Bericht bietet folgende wichtige Aspekte:
 * Die Daten für die Metriken werden im Diagramm als Prozentanteil am Metrikgesamtwert angezeigt, nicht als Zahlenwerte für jede einzelne Metrik. Diese Einstellung können Sie im Dialogfeld **[!UICONTROL Bericht konfigurieren]ändern.**
 * Unter dem Diagramm werden im DFA-Anzeigennamenbericht die Berichtdetails für jede DFA-Anzeige aufgeführt und sowohl die numerischen als auch prozentualen Datenwerte für die Anzeigenleistung angegeben.
 * Durch Auswählen eines speziellen DFA-Anzeigennamens können Sie ein Optionsmenü für weitere Informationen zu der jeweiligen DFA-Anzeige öffnen.
-* In jeder Spalte ist eine Farbe angegeben, die sich auf die Farbe der entsprechenden Metrik im Diagramm bezieht.
+* Jede Metrikspalte enthält einen Farbschlüssel, der der zugeordneten Farbe der Metrik im Diagramm entspricht.
 * Berichte werden nach Umsatzmetrik sortiert, wobei sich die Anzeige mit dem höchsten Umsatz ganz oben befindet. Sie können diese Sortierung ändern, indem Sie auf die Bezeichnung einer anderen Spalte (Metrik) klicken.
