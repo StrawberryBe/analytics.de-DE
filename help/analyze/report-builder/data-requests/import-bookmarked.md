@@ -1,18 +1,18 @@
 ---
 description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als ReportBuilder-Anforderungen importiert werden.
 seo-description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als ReportBuilder-Anforderungen importiert werden.
-seo-title: Mit Lesezeichen markierte Berichte und Dashboard-Reportlets importieren
+seo-title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 solution: Analytics
-title: Mit Lesezeichen markierte Berichte und Dashboard-Reportlets importieren
+title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 topic: ReportBuilder
-uuid: 0 fdbdb 2 e -5 db 7-4 f 64-b 771-23482 ba 3606 d
+uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Mit Lesezeichen markierte Berichte und Dashboard-Reportlets importieren
+# Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 
 Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als ReportBuilder-Anforderungen importiert werden.
 
@@ -24,13 +24,9 @@ So werden in Schritt 1 des Anforderungs-Assistenten ein Dashboard und die zugeh
 
 When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
 
->[!NOTE]
->
->In Reportbuilder ist die Liste der verfügbaren Dashboards und Lesezeichen auf den Benutzer beschränkt, aber auch auf diejenigen, die für die Report Suite gelten, die Sie in Schritt 1 des Assistenten ausgewählt haben. In Marketing Reports &amp; Analysen hingegen haben Sie Zugriff auf alle Lesezeichen und Dashboards, auf die Sie zugreifen können, unabhängig davon, welche Report Suites diese Dashboards und Lesezeichen verwenden.
+> [!NOTE] In ReportBuilder ist die Liste der verfügbaren Dashboards und Lesezeichen auf den Benutzer beschränkt, aber auch auf die Dashboards, die für die Report Suite gelten, die Sie in Schritt 1 des Assistenten ausgewählt haben. In Marketing Reports &amp; Analysen hingegen haben Sie Zugriff auf alle Lesezeichen und Dashboards, auf die Sie zugreifen können, unabhängig davon, welche Report Suites diese Dashboards und Lesezeichen verwenden.
 
->[!NOTE]
->
->Es werden nur Daten importiert. Wenn das Lesezeichen ein Diagramm enthält oder das Dashboard-Reportlet aus einem Diagramm besteht, werden nur die Daten importiert, die zum Ausfüllen des Diagramms verwendet werden.
+> [!NOTE] Es werden nur Daten importiert. Wenn also das Lesezeichen ein Diagramm enthält oder das Dashboard-Reportlet nur aus einem Diagramm besteht, werden nur die Daten importiert, die zum Füllen des Diagramms verwendet werden.
 
 Sobald Sie eine Anforderung durch Importieren eines Dashboard-Kurzberichts (bzw. eines Lesezeichens) erstellt haben, wird die Anforderung mit der primären Dimension des Kurzberichts (bzw. des Lesezeichens) verknüpft. Das führt dazu, dass in der Baumansicht nicht mehr der Knoten des Dashboard-Kurzberichts (bzw. des Lesezeichens) ausgewählt wird, wenn Sie eine Anforderung bearbeiten, sondern die primäre Dimension.
 
@@ -38,5 +34,5 @@ Mithilfe des importierten Bookmarklet werden die Report Suite, das ausgewählte 
 
 >[!IMPORTANT]
 >
->Der Datumsbereich wird auf denselben Datumsbereich festgelegt, aber als statischer Datumsbereich - auch wenn dieser Datumsbereich im Lesezeichen Reports &amp; Analysen ein rollierender Datumsbereich war.
+>Der Datumsbereich wird auf denselben Datumsbereich eingestellt, jedoch als statischer Datumsbereich - auch wenn dieser Datumsbereich im Lesezeichen zu Reports &amp; Analysen rollierend war.
 
