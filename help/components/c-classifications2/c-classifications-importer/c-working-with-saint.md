@@ -1,19 +1,19 @@
 ---
 description: Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
 seo-description: Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
-seo-title: Classifications importer - Übersicht
+seo-title: Klassifizierungsimport – Übersicht
 solution: Analytics
 subtopic: Classifications
-title: Classifications importer - Übersicht
+title: Klassifizierungsimport – Übersicht
 topic: Admin Tools
-uuid: b 1500423-e 100-483 a-bec 2-ab 4 f 1 f 3 c 9002
+uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Classifications importer - Übersicht
+# Klassifizierungsimport – Übersicht
 
 Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
 
@@ -21,9 +21,7 @@ Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. 
 
 Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweisen. Adobe bietet eine Datenvorlage mit den richtigen Header-Details in einer mit Tabulatoren begrenzten Datei zum Herunterladen an. Sie können Ihre neuen Daten in diese Vorlage einfügen und dann die Datendatei über FTP in den Browser importieren.
 
->[!NOTE]
->
->Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
+> [!NOTE] Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 
 See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
 
