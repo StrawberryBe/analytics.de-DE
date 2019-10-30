@@ -4,7 +4,7 @@ seo-description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Ana
 seo-title: Adobe Analytics – Schlüsselkonzepte
 title: Adobe Analytics – Schlüsselkonzepte
 translation-type: tm+mt
-source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ Klicken Sie [hier](https://docs.adobe.com/content/help/en/analytics/technotes/te
 
 | Begriff | Beschreibung | Dokumentationslink |
 |--- |--- |--- |
-| Props (benutzerspezifischer Traffic) | Dimensionen, die zur Verfolgung der Traffic-Aktivität auf einzelnen Seiten verwendet werden. Eigenschaften bestehen nicht über Seiten hinweg. Schlüsselanwendungen für Traffic-Variablen: <ul><li>Einfache Zählung zur Ermittlung des "beliebtesten"Werts</li><li>Sichtbarkeit der Pfade von Benutzern durch Ihre Site </li></ul><br>Beispiele für Traffic-Variablen: Seitenname, Seitenabschnitte, Browser</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Props (benutzerspezifischer Traffic) | Dimensionen, die zur Verfolgung der Traffic-Aktivität auf einzelnen Seiten verwendet werden. Eigenschaften bestehen nicht über Seiten hinweg. Schlüsselanwendungen für Traffic-Variablen: <ul><li>Einfache Zählung zur Suche nach dem beliebtesten Wert</li><li>Sichtbarkeit der Pfade von Benutzern durch Ihre Site </li></ul><br>Beispiele für Traffic-Variablen: Seitenname, Seitenabschnitte, Browser</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
 | eVar (benutzerdefinierte Konversion) | Dimensionen, die für einen Zeitraum bestehen, der von Ihnen angepasst wird. Zu den Ablaufoptionen gehören Ablauf des Ereignisses, Ablauf des Besuchs oder Ablauf nach x Tagen. Die Option sollte nach der Analyseart gewählt werden, die auf die Variable angewandt wird.<br>Wichtige Unterschiede zwischen eVars und Props:</br><ul><li>Eigenschaften werden häufig für die Pfadanalyse verwendet, da Persistenz entfernt wird.</li><li>eVars werden häufig für die Konversionsanalyse verwendet.</li></ul><br>Beispiele für Konversionsvariablen: interne Suchbegriffe, interne Promotions, externe Kampagnen (s.campaign)</br> | [eVars](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | Ereignisse/Metriken (s.events) | Metriken, die wichtige Aktionen messen, die unsere Besucher auf unserer Site ausführen sollen. Es gibt drei Ereignisarten: Zähler, numerisch und Währung. Ereignisse sind am nützlichsten, wenn sie Berichten zu Konversionsvariablen (eVar) hinzugefügt werden. Die eVar gibt qualitative Informationen über Ereignisse und das Ereignis stellt die quantitative Information zu den Geschehnissen bereit. <br>Wichtige Unterschiede zwischen eVars und Ereignissen:</br><ul><li>eVars sagen uns, wer, was oder was die Konversion beeinflusst hat</li><li>Ereignisse messen, wie viele Konversionen stattgefunden haben</li></ul><br>Beispiele für Konversionsereignisse: Bestellungen, Anwendungsaufrufe, Leads, Umsatz.</br> | [Ereignisse](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
 | Komponenten | Dimensionen, Metriken, Segmente und Zeitgranularitäten (Datumsbereiche), die Sie per Drag &amp; Drop in ein Projekt ziehen können. | [Komponenten](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
