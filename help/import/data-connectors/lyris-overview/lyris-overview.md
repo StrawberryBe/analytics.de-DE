@@ -6,7 +6,7 @@ solution: Analytics
 title: Lyris Data Connector for Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -101,37 +101,37 @@ Für diese Integration müssen mindestens 2 eVars für jede Report Suite-Impleme
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Lyris - Gesendete E-Mails </td> 
    <td colname="col3"> Um nein zu speichern. von E-Mails von Lyris </td> 
-   <td colname="col4">Typ: Nummerisch <p>Beitrag: Aktiviert </p> </td> 
+   <td colname="col4">Typ:Nummerisch <p>Beitrag: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Lyris - E-Mails geöffnet </td> 
    <td colname="col3"> Um nein zu speichern. der geöffneten E-Mails </td> 
-   <td colname="col4">Typ: Nummerisch <p>Beitrag: Aktiviert </p> </td> 
+   <td colname="col4">Typ:Nummerisch <p>Beitrag: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Lyris - Eindeutige geöffnete E-Mails </td> 
    <td colname="col3"> Um nein zu speichern. der geöffneten E-Mails </td> 
-   <td colname="col4">Typ: Nummerisch <p>Beitrag: Aktiviert </p> </td> 
+   <td colname="col4">Typ:Nummerisch <p>Beitrag: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Lyris - E-Mail-Clickthroughs </td> 
    <td colname="col3"> Um nein zu speichern. des Zeitpunkts, zu dem eine E-Mail angeklickt wurde </td> 
-   <td colname="col4">Typ: Nummerisch <p>Beitrag: Aktiviert </p> </td> 
+   <td colname="col4">Typ:Nummerisch <p>Beitrag: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Lyris - E-Mail-Absprünge </td> 
    <td colname="col3"> So speichern Sie die Nummer. von E-Mails, die abgeschnitten wurden </td> 
-   <td colname="col4">Typ: Nummerisch <p>Beitrag: Aktiviert </p> </td> 
+   <td colname="col4">Typ:Nummerisch <p>Beitrag: Aktiviert </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ereignis- </td> 
    <td colname="col2"> Lyris - Email Unsubscribe </td> 
    <td colname="col3"> So speichern Sie die Nummer. von deaktivierten E-Mail-Abonnements </td> 
-   <td colname="col4">Typ: Nummerisch <p>Beitrag: Aktiviert </p> </td> 
+   <td colname="col4">Typ:Nummerisch <p>Beitrag: Aktiviert </p> </td> 
   </tr> 
  </tbody> 
 </table>
