@@ -1,14 +1,14 @@
 ---
 description: Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
-keywords: Datenfeed; page; event; page_ event; post_ page_ event
+keywords: Datenfeed;Seite;Ereignis;page_event;post_page_event
 seo-description: Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
 seo-title: Seitenereignissuche
 solution: Analytics
 title: Seitenereignissuche
 topic: Reports and Analytics
-uuid: 73 af 597 c -5560-466 e -94 b 2-ddd 1 d 64797 c 8
+uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,17 +29,17 @@ Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts �
   <tr> 
    <td colname="col1"> Seitenansichten </td> 
    <td colname="col02"> identisch mit „post“-Wert </td> 
-   <td colname="col2"> <p>0 für alle Seitenansichten (<code>s.t()</code>-Aufrufe) </p> <p>0 für <code>trackState</code>-Aufrufe von mobilen SDKs. </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 für <code> trackState </code>-Aufrufe von mobilen SDKs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Linktracking </td> 
-   <td colname="col02"> <p>10 für „Sonstige-Link“ </p> <p>10 für <code>trackAction</code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>11 für „Download-Link“ </p> <p>12 für „externer Link oder Exitlink“ </p> </td> 
-   <td colname="col2"> <p>100 für „Sonstige-Link“ </p> <p>100 für <code>trackAction</code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>101 für „Download-Link“ </p> <p>102 für „externer Link oder Exitlink“ </p> </td> 
+   <td colname="col02"> <p>10 für „Sonstige-Link“ </p> <p>10 für <code> trackAction </code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>11 für „Download-Link“ </p> <p>12 für „externer Link oder Exitlink“ </p> </td> 
+   <td colname="col2"> <p>100 für „Sonstige-Link“ </p> <p>100 für <code> trackAction </code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>101 für „Download-Link“ </p> <p>102 für „externer Link oder Exitlink“ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Meilenstein-Video </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Ereignis Medium starten </p> <p>32 - Ereignis "Nur Medium aktualisieren" (keine evar- oder andere Variablenverarbeitung) </p> <p>33 – Ereignis Medium und andere Variable aktualisieren (einschließlich eVar- oder andere Variablenverarbeitung) </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Ereignis Medium starten </p> <p>32 – Ereignis Nur Medium aktualisieren (es wird keine eVar- oder andere Variablenverarbeitung ausgeführt) </p> <p>33 – Ereignis Medium und andere Variable aktualisieren (einschließlich eVar- oder andere Variablenverarbeitung) </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – Ereignis Medium starten </p> <p>77 – Ereignis Nur Medium aktualisieren (es wird keine eVar- oder andere Variablenverarbeitung ausgeführt) </p> <p>78 – Ereignis Medium und andere Variable aktualisieren (einschließlich eVar- oder andere Variablenverarbeitung) </p> </td> 
   </tr> 
