@@ -1,6 +1,6 @@
 ---
 description: Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefinierte Variablen definieren, die von Verarbeitungsregeln gelesen werden können.
-keywords: Analytics-Implementierung;contextData;s.contextdata
+keywords: Analytics-Implementierung;Kontextdaten;s.contextdata
 seo-description: Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefinierte Variablen definieren, die von Verarbeitungsregeln gelesen werden können.
 seo-title: Kontextdatenvariablen
 solution: Analytics
@@ -9,7 +9,7 @@ title: Kontextdatenvariablen
 topic: Entwickler und Implementierung
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefiniert
 
 Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die Daten in Kontextdatenvariablen senden, die mithilfe von Verarbeitungsregeln zugeordnet werden. Verarbeitungsregeln bieten eine leistungsfähige grafische Benutzeroberfläche, in der Sie Änderungen an Daten bei deren Erhalt vornehmen können. Auf Grundlage der in Kontextdaten gesendeten Werte können Sie Ereignisse festlegen, Werte in eVars und Eigenschaftsvariablen kopieren und zusätzliche bedingte Anweisungen ausführen.
 
->[!NOTE]
->
->Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch:
+> [!NOTE] Bei Kontextvariablen wird die Schreibweise nicht beachtet. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch:
 >```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
@@ -31,9 +29,9 @@ Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die D
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
-Durch Einsatz von Kontextdaten brauchen Sie keine Codeaktualisierungen mehr durchzuführen, um unterschiedliche Report Suite-Konfigurationen zu unterstützen.
+Die Verwendung von Kontextdaten hilft zu vermeiden, dass Sie Codeaktualisierungen durchführen, um verschiedene Report Suite-Konfigurationen zu unterstützen.
 
-So können Sie zum Beispiel die folgende *`s.contextData`* variable:
+So können Sie zum Beispiel die folgende Variable *`s.contextData`* festlegen:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -43,7 +41,7 @@ Mithilfe von Verarbeitungsregeln können Sie eine Bedingung hinzufügen, die nac
 
 Kontextdatenvariablen können auch direkt in der Benutzeroberfläche für Verarbeitungsregeln definiert werden, um einen Wert temporär zu speichern oder um Werte aus einer Kontextdatenvariablen zu erfassen, von der Sie wissen, dass sie in der Report Suite verwendet wird. Wenn zum Beispiel zwei Werte getauscht werden sollen, können Sie eine Kontextdatenvariable erstellen, in der ein Wert während des Tauschs gespeichert wird.
 
-Da Verarbeitungsregeln nur bei der Erfassung von Daten angewendet werden, müssen Sie diese Regeln festlegen, bevor Sie mit dem Versenden von Kontextdaten beginnen. Kontextdatenwerte, die bei der Verarbeitung eines Hits nicht von Verarbeitungsregeln gelesen werden, werden verworfen. 
+Da Verarbeitungsregeln nur bei der Erfassung von Daten angewendet werden, müssen Sie diese Regeln festlegen, bevor Sie mit dem Versenden von Kontextdaten beginnen. Kontextdatenwerte, die bei der Verarbeitung eines Hits nicht von Verarbeitungsregeln gelesen werden, werden verworfen.
 
 ## Regeln {#section_2229739F6B1A4C1CAD7140BDF4687523}
 
@@ -57,11 +55,11 @@ Da Verarbeitungsregeln nur bei der Erfassung von Daten angewendet werden, müsse
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Unterstützte Namen und Zeichen </p> </td> 
-   <td colname="col2"> <p>Namen von Kontextdatenvariablen dürfen nur alphanumerische Zeichen, Unterstriche und Punkte enthalten. Alle anderen Zeichen werden entfernt. Kontextdatenvariablen dienen nicht numerischen Zwecken, sondern als Benennungen. </p> <p>So wird zum Beispiel die Kontextdatenvariable <code>login_page-home</code> automatisch zu <code>login_pagehome </code>. Alle an die Variable <code>login_page-home</code> gesendeten Daten werden unter <code>login_pagehome</code> zugeordnet . </p> </td> 
+   <td colname="col2"> <p>Namen von Kontextdatenvariablen dürfen nur alphanumerische Zeichen, Unterstriche und Punkte enthalten. Alle anderen Zeichen werden entfernt. Kontextdatenvariablen dienen nicht numerischen Zwecken, sondern als Benennungen. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namespace </p> </td> 
-   <td colname="col2"> <p>Damit Variablennamen in der gesamten Report Suite eindeutig sind, empfiehlt es sich, den Namen des eigenen Unternehmens, Standorts o. Ä. als Präfix für die Variablen zu verwenden. </p> <p>Kontextdatenvariablen können ähnlich wie andere JavaScript-Variablen benannt werden. Beachten Sie, dass der Namespace <code>a.*</code> für Adobe-Produkte in Kontextvariablennamen reserviert ist. So verwendet die AppMeasurement-Bibliothek für iOS zum Beispiel <code>a.InstallEvent</code>, um Installationen von Anwendungen zu messen. </p> </td> 
+   <td colname="col2"> <p>Damit Variablennamen in der gesamten Report Suite eindeutig sind, empfiehlt es sich, den Namen des eigenen Unternehmens, Standorts o. Ä. als Präfix für die Variablen zu verwenden. </p> <p>Kontextdatenvariablen können ähnlich wie andere JavaScript-Variablen benannt werden. Be aware that the namespace <code> a.* </code> is reserved for use by Adobe products in context variable names. So verwendet die AppMeasurement-Bibliothek für iOS zum Beispiel <code> a.InstallEvent </code>, um Installationen von Anwendungen zu messen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL-Beschränkungen für Internet Explorer </p> </td> 
@@ -86,7 +84,7 @@ s.tl(true,"o","Link Name");
 
 ## Beispiele {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Mögliche Möglichkeiten, die Implementierung der *`s.pageName`* Variablen zu ersetzen, vorausgesetzt, die Verarbeitungsregeln sind für jede Variable korrekt eingerichtet:
+Mögliche Methoden, die Implementierung der Variable *`s.pageName`* zu ersetzen, vorausgesetzt, die Verarbeitungsregeln sind für jede Variable korrekt eingerichtet:
 
 ```
 s.contextData['page'] = "Home Page" 
