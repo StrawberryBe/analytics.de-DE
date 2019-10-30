@@ -1,20 +1,20 @@
 ---
 description: Die FTP-Option für Classifications (SAINT) bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Die FTP-Option für Classifications (SAINT) bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
 seo-title: Classifications
 solution: Analytics
 title: Classifications
-uuid: 35936 c 98-b 785-43 eb -89 f 4-ab 42 a 10 db 256
+uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Classifications
 
-Die FTP-Option für Klassifizierungen bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze, einschließlich der Möglichkeit, Daten in mehrere Report Suites hochzuladen und Datensätze hochzuladen, die größer als 50.000 Zeilen sind.
+Die FTP-Option für Classifications bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze, einschließlich der Möglichkeit, Daten in mehrere Report Suites hochzuladen und Datensätze mit mehr als 50.000 Zeilen hochzuladen.
 
 Unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) finden Sie Schritte für das Herunterladen von Classification-Daten über FTP und das Hochladen von Datendateien über FTP (einschließlich der für das Erstellen eines FTP-Kontos erforderlichen Schritte).
 
@@ -29,7 +29,7 @@ Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter 
 When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. The [!DNL .fin] file lets Adobe recognize that you are done with your import. Nachdem Sie diese Datei übermittelt haben, entfernt Adobe beide Dateien aus dem FTP-Konto und startet den Importprozess.
 Datei importieren: [!DNL Classifications.tab]
 
-Finish File: [!DNL Classifications.fin]
+Datei beenden: [!DNL Classifications.fin]
 
 If you upload your Data Sources or classification file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. Sie werden hierüber nur dann benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] von Analytics angegeben haben. Wenn hier keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
 
