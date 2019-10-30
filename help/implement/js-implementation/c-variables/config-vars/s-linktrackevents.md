@@ -5,16 +5,16 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.linkTrackEvents
 
-The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link.
+Die Variable ist eine kommagetrennte Liste von Ereignissen, die mit einem [!UICONTROL benutzerspezifischen], [!UICONTROL Ausstiegs-] oder [!UICONTROL Download-Link] gesendet werden.
 
-If an event is not in *`linkTrackEvents`*, it is not sent to [!DNL Analytics], even if it is populated in the [!UICONTROL onClick] event of a link, as shown in the following example:
+Wenn kein Ereignis in *`linkTrackEvents`* enthalten ist, wird es auch nicht zu [!DNL Analytics] gesendet, selbst wenn es im [!UICONTROL onClick]-Ereignis eines Links eingetragen ist (wie im nächsten Beispiel gezeigt):
 
 ```js
 s.linkTrackVars="events" 
@@ -24,15 +24,15 @@ s.t() // both event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.events='event2';s.tl(this,'o')">No events are recorded</a> 
 ```
 
-Im ersten Link zu [!DNL help.php] sehen Sie, dass die „events“-Variable den Wert behält, der festgelegt war, bevor auf den Link geklickt wurde. Dadurch kann „event1“ mit dem benutzerspezifischen Link gesendet werden. In the second example, the link to [!DNL test.php], event2 is not recorded because it is not listed in *`linkTrackEvents`*.
+Im ersten Link zu [!DNL help.php] sehen Sie, dass die „events“-Variable den Wert behält, der festgelegt war, bevor auf den Link geklickt wurde. Dadurch kann „event1“ mit dem benutzerspezifischen Link gesendet werden. Im zweiten Beispiel, dem Link zu [!DNL test.php], wird „event2“ nicht aufgezeichnet, da es in *`linkTrackEvents`* nicht aufgeführt ist.
 
-Um Verwirrung und potenzielle Probleme zu vermeiden, empfiehlt Adobe, einen Link, der zur Linkverfolgung verwendet wird, auszufüllen *`linkTrackVars`* und *`linkTrackEvents`* im [!UICONTROL onClick] -Ereignis einzutragen.
+Um Verwirrung und mögliche Probleme zu vermeiden, empfiehlt Adobe das Ausfüllen von *`linkTrackVars`* und *`linkTrackEvents`* in dem [!UICONTROL onClick]-Ereignis eines Links, der für das Linktracking verwendet wird.
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. Diese Variable wird nur berücksichtigt, wenn sie "events" *`linkTrackVars`* enthält.
+Die Variable *`linkTrackEvents`* enthält die Ereignisse, die mit [!UICONTROL benutzerspezifischen], [!UICONTROL Download-] und [!UICONTROL Exitlinks] gesendet werden sollen. Diese Variable wird nur berücksichtigt, wenn *`linkTrackVars`* „Ereignisse“ enthält.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | Keine | Konversion | „None“ |
+| Keine | Keine | Konversion | "Keine" |
 
 ## Syntax und mögliche Werte
 
@@ -42,7 +42,7 @@ Die Variable *`linkTrackEvents`* ist eine kommagetrennte Liste mit Ereignissen (
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
 ```
 
-In *`linkTrackEvents`*. These events are listed in [Events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Wenn vor oder nach dem Ereignisnamen ein Leerzeichen steht, kann das Ereignis bei Bildanforderungen des Links nicht gesendet werden.
+In *`linkTrackEvents`*. Eine Liste dieser Ereignisse finden Sie unter [Ereignisse](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Wenn vor oder nach dem Ereignisnamen ein Leerzeichen steht, kann das Ereignis bei Bildanforderungen des Links nicht gesendet werden.
 
 ## Beispiele
 
@@ -56,12 +56,12 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 
 ## Konfigurationseinstellungen
 
-–
+Keine
 
 ## Probleme, Fragen und Tipps
 
-* Die JavaScript-Datei verwendet *`linkTrackEvents`* , wenn die Variable "events" *`linkTrackVars`* enthalten ist. "events"sollte *`linkTrackVars`* nur bei *`linkTrackEvents`* Definition enthalten sein.
+* Die JavaScript-Datei verwendet nur *`linkTrackEvents`*, wenn *`linkTrackVars`* die Variable „Ereignisse“ enthält. „Ereignisse“ sollte nur in *`linkTrackVars`* enthalten sein, wenn *`linkTrackEvents`* definiert ist.
 
-* Vorsicht, wenn ein Ereignis auf einer Seite ausgelöst wird, das in *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
+* Vorsicht, wenn ein Ereignis auf einer Seite ausgelöst wird, das in *`linkTrackEvents`*. Das Ereignis wird dann bei jedem [!UICONTROL Exit-], [!UICONTROL Download-] oder [!UICONTROL benutzerspezifischen] Link erneut aufgezeichnet, wenn die „events“-Variable nicht zuvor zurückgesetzt wird (im [!UICONTROL onClick]-Ereignis eines Links oder nach Aufruf der Funktion *`t()`*).
 
-* If *`linkTrackEvents`* contains spaces between event names, the events are not recorded.
+* Wenn bei *`linkTrackEvents`* zwischen Ereignisnamen Leerzeichen stehen, werden die Ereignisse nicht aufgezeichnet.
