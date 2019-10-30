@@ -3,9 +3,9 @@ description: Erläutert, wie Sie eine Metrik erstellen, die zeigt, welche Market
 seo-description: Erläutert, wie Sie eine Metrik erstellen, die zeigt, welche Marketing-Kanäle zur Erhöhung der Bestellungen beitragen. Dies kann an beliebige relevante Dimensionen oder Erfolgsereignisse angepasst werden.
 seo-title: Bestellbeitragsmetrik
 title: Bestellbeitragsmetrik
-uuid: 7 c 82227 a -7 fcc -486 f-bef 8-164 ea 84 af 77 c
+uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
