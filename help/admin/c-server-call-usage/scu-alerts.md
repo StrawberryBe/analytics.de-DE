@@ -5,7 +5,7 @@ seo-title: Warnungen zur Verwendung von Server-Aufrufen
 title: Warnungen zur Verwendung von Server-Aufrufen
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -67,7 +67,7 @@ Warnhinweise verwalten:
 
    | Aktion | Definition |
    |--- |--- |
-   | + Hinzufügen | Die [Warnhinweiserstellung](../../admin/c-server-call-usage/scu-alerts.md) per Klick auf [!UICONTROL + Hinzufügen] öffnen. |
+   | + Fügen Sie | Die [Warnhinweiserstellung](../../admin/c-server-call-usage/scu-alerts.md) per Klick auf [!UICONTROL + Hinzufügen] öffnen. |
    | Markieren | Markieren Sie Warnhinweise, um sie leichter zu verwenden. |
    | Löschen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises löschen. |
    | Umbenennen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises umbenennen. |
