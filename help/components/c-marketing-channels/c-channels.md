@@ -1,23 +1,23 @@
 ---
 description: Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 seo-description: Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
-seo-title: Verwalten von Marketingkanälen
+seo-title: Marketing-Kanäle verwalten
 solution: Analytics
 subtopic: Marketingkanäle
-title: Verwalten von Marketingkanälen
+title: Marketing-Kanäle verwalten
 topic: Reports and Analytics
-uuid: 9 d 367 bb 6-a 17 b -49 b 8-9 cd 5-24 fac 35 ae 982
+uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Verwalten von Marketingkanälen
+# Marketing-Kanäle verwalten
 
 Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 
-## Manage marketing channels {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
+## Marketing-Kanäle verwalten {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
 
 Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 
@@ -32,9 +32,7 @@ Der Zusatz von Kanälen in der [!UICONTROL Marketingkanal]-Seite erfolgt separat
 
 Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
->[!NOTE]
->
->Kanal kann nicht gelöscht werden. Wenn Sie einen Kanal nicht verwenden möchten, können Sie ihn deaktivieren oder umbenennen oder ihn zur späteren Verwendung aufbewahren.
+> [!NOTE] Ein Kanal kann nicht gelöscht werden. Wenn Sie einen Kanal nicht verwenden möchten, können Sie ihn deaktivieren oder umbenennen oder ihn zur späteren Verwendung aufbewahren.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Wählen Sie im [!UICONTROL „Report Suite Manager“] die Report Suite aus.
@@ -51,7 +49,7 @@ Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
    Diese Option steht nicht zur Verfügung, wenn 25 Kanäle definiert wurden.
 
-1. Click **[!UICONTROL Save.]**
+1. Klicken Sie auf **[!UICONTROL Speichern.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
    See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
@@ -85,7 +83,7 @@ Felddefinitionen für die Seite [!UICONTROL Marketingkanal-Manager].
    <td colname="col2"> <p>Ermöglicht die Unterteilung des Kanals nach diesem Wert. Sie können mögliche Kanalunterteilungen (Sub-Kanäle) bei der Erstellung von Marketingkanal-Classifications hinzufügen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Kanaltyp </p> </td> 
+   <td colname="col1"> <p>Typ </p> </td> 
    <td colname="col2"> <p> Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können <span class="uicontrol">Online</span> oder <span class="uicontrol">Offline</span> auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offlinekanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http">Data Sources</a>. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
