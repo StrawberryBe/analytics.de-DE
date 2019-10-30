@@ -7,7 +7,7 @@ title: Nach IP-Adresse ausschließen
 topic: Admin Tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -18,9 +18,7 @@ Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websi
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Nach IP **[!UICONTROL ausschließen]**
 
->[!NOTE]
->
->Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)in Rechnung gestellt.
+> [!NOTE] Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)in Rechnung gestellt.
 
 ## Nach Cookie ausschließen {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -32,13 +30,11 @@ Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne di
 |--- |--- |
 | [!UICONTROL CNAME hinzufügen] | Erzeugt einen Ausschluss-Link, mit dem Sie Ihre Domäne ausschließen. Wenden Sie sich zwecks Hilfe an die Support-Benutzer in Ihrem Unternehmen. <br>Sie können Ihren Datenverkehr aus der Berichterstattung in Ihren Report Suites ausschließen, indem Sie die Abmeldeseite Ihres Unternehmens aufrufen und dort Ihren Browser aus der Messung ausschließen. <br>Wenn bei Ihrer Implementierung Cookies von Drittanbietern verwendet werden, finden Sie Ihre Abmeldeseite [hier](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
 
->[!NOTE]
+> [!NOTE] Der Ausschluss nach Computer funktioniert nur, wenn:
 >
->Der Ausschluss nach Computer funktioniert nur, wenn:
->
->* Sie von derselben Workstation aus auf Ihre Website zugreifen.
->* Cookies im derzeit verwendeten Browser aktiviert sind.
->* Ihre Cookies nicht gelöscht wurden. Beim Löschen der Cookies müssen Sie sich selbst ausschließen.
+> * Sie von derselben Workstation aus auf Ihre Website zugreifen.
+> * Cookies im derzeit verwendeten Browser aktiviert sind.
+> * Ihre Cookies nicht gelöscht wurden. Beim Löschen der Cookies müssen Sie sich selbst ausschließen.
 
 
 ## Nach IP-Adresse ausschließen {#section_609FB6461529409D840111A32FEF5C3D}
@@ -57,6 +53,6 @@ Weitere Informationen finden Sie im Artikel [In der Experience Cloud verwendete 
 
 ## Auswirkung der IP-Verschleierung {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
-Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie die IP-Verschleierung aktivieren.
+Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP-Adresse verschleiert wird. Kunden müssen also nichts ändern, wenn sie die IP-Verschleierung aktivieren.
 
 Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten angepasst werden, um IP-Adressen mit einer Null am Ende zu berücksichtigen. Übereinstimmung * sollte mit 0 übereinstimmen.
