@@ -5,7 +5,7 @@ seo-title: Emarsys Data Connector for Adobe Analytics
 title: Emarsys Data Connector for Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
