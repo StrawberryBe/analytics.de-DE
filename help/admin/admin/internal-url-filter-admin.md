@@ -5,9 +5,9 @@ seo-title: Interne URL-Filter
 solution: Analytics
 title: Interne URL-Filter
 topic: Admin Tools
-uuid: 70868 edb -208 d -4 dad -9401-70967468 d 40 c
+uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Mit internen URL-Filtern werden die Referrer, die Sie als seitenintern betrachten, gekennzeichnet. Dies hilft, Berichte zu Traffic-Quellen mit Daten zu füllen und internen Traffic zu filtern.
 
-Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Berichte schließen gefilterte Referrer aus [Berichte zu verweisenden Stellen](/help/components/c-variables/dimensionslist/reports-referrers.md), [verweisenden Domänen und anderen Suchmethoden](/help/components/c-variables/dimensionslist/reports-referring-domains.md)-Berichten
+Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Berichte schließen gefilterte Referrer aus Bericht[" ](/help/components/c-variables/dimensionslist/reports-referrers.md)Verweisende Stellen", Bericht[" ](/help/components/c-variables/dimensionslist/reports-referring-domains.md)Verweisende Domänen"und andere Suchmethoden.
 
 Der häufigste Grund, aus dem Berichte zu Traffic-Quellen keine Daten enthalten, besteht darin, dass keine interne URL-Filterliste definiert ist. Gehen Sie wie folgt vor, um zu prüfen, welche internen URL-Filter für eine Report Suite festgelegt wurden. Entfernen Sie, um dies zu vermeiden, die Regel, die einen Punkt (.) als Filter enthält und fügen Sie Ihre eigene Site hinzu.
 
