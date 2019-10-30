@@ -6,7 +6,7 @@ solution: Analytics
 title: Verwenden der Integration
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Nach der Bereitstellung können Sie die zusätzlichen Funktionen dieser Integration nutzen. Die folgenden Aktionen sind erforderlich, um aus dieser Integration in Adobe Analytics Nutzen zu ziehen.
 
->[!NOTE]
->
->Es kann 24-48 Stunden dauern, bis Kampyle-Antwortdaten in Ihren Adobe Analytics-Berichten angezeigt werden.
+> [!NOTE] Es kann 24-48 Stunden dauern, bis Kampyle-Antwortdaten in Ihren Adobe Analytics-Berichten angezeigt werden.
 
 ## Feedback- und Onsite-Verhaltensdaten mischen{#mix-feedback-and-onsite-behavior-data}
 
