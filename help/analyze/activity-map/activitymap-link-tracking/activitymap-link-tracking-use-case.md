@@ -7,7 +7,7 @@ title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID anpassen, die Region und die Activity Map-Moduldatei AppMeasurement anpassen.
 
-As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region:
+Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activity Map unter der gleichen Link-ID und Region identifiziert werden.
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -51,11 +51,11 @@ Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Link
 
 ## Link-ID mit s_objectID anpassen {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die [!DNL Activity Map]-Verfolgung verbessern. Sie können [!DNL Activity Map] auch für Berichte zum Typ oder zur Position von Links verwenden, anstelle der Link-URL. Klicken Sie [hier](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
+Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die Activity Map-Verfolgung verbessern. Sie können Activity Map auch zum Generieren von Berichten zum Linktyp oder zur Linkposition anstelle der Link-URL verwenden. Klicken Sie [hier](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
 
 >[!IMPORTANT]
 >
->Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
+>Beachten Sie, dass ein nachfolgender Semikolon (;) erforderlich ist, wenn s_objectID in Activity Map verwendet wird.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
