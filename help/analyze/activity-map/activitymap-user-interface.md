@@ -1,20 +1,20 @@
 ---
-description: 'Die [!DNL Activity Map]-Benutzeroberfläche besteht aus zwei Teilen '
-seo-description: 'Die [!DNL Activity Map]-Benutzeroberfläche besteht aus zwei Teilen '
-seo-title: '[!DNL Activity Map]-Benutzeroberfläche'
+description: 'Die Activity Map-Benutzeroberfläche besteht aus zwei Teilen '
+seo-description: 'Die Activity Map-Benutzeroberfläche besteht aus zwei Teilen '
+seo-title: Activity Map-Benutzeroberfläche
 solution: Analytics
-title: '[!DNL Activity Map]-Benutzeroberfläche'
+title: Activity Map-Benutzeroberfläche
 topic: Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# [!DNL Activity Map] Benutzeroberfläche
+# Activity Map-Benutzeroberfläche
 
-The [!DNL Activity Map] UI is comprised of two parts:
+Die Activity Map-Benutzeroberfläche besteht aus zwei Teilen:
 
 * Oben wird das Fenster mit der Webseite, den eingefügten Überlagerungen und der Symbolleiste angezeigt.
 * Unten befindet sich ein Bereich für Berichte.
