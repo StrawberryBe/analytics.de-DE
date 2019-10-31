@@ -1,22 +1,22 @@
 ---
-description: Im Einstellungsbedienfeld für die [!DNL-Activity Map] können Sie die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen ändern.
-seo-description: Im Einstellungsbedienfeld für die [!DNL-Activity Map] können Sie die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen ändern.
-seo-title: '[!DNL Activity Map]-Einstellungen konfigurieren'
+description: Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
+seo-description: Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
+seo-title: Activity Map-Einstellungen konfigurieren
 solution: Analytics
-title: '[!DNL Activity Map]-Einstellungen konfigurieren'
+title: Activity Map-Einstellungen konfigurieren
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configure [!DNL Activity Map] settings
+# Activity Map-Einstellungen konfigurieren
 
-The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
 
-Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
+Rufen Sie das Activity Map-Einstellungsbedienfeld durch Klicken auf das Zahnradsymbol in der Activity Map-Symbolleiste auf.
 
 Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwendungsmodus. Die Registerkarte „Sonstige“ enthält allgemeine Einstellungen.
 
@@ -97,7 +97,7 @@ Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwe
  <tbody> 
   <tr> 
    <td colname="col1"> Report Suite </td> 
-   <td colname="col2"> <p>Die für Sie verfügbare Liste mit Report Suites ist nicht mehr beschränkt auf die im Web-Seiten-Tag definierten Report Suites. Sie können nun die ausgewählte Report Suite (die zu einem der Tags auf der Seite gehört) durch eine andere Report Suite ersetzen. Diese neue Report Suite muss nicht mit einem Tag auf der Seite verbunden sein. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Wichtig: Virtual Report Suites sind nicht mit dem Livemodus kompatibel, sondern nur mit dem Standardmodus. Wenn Sie sich im Livemodus für eine Standard-Report Suite befinden, jedoch in diesem Dialogfeld eine Virtual Report Suite auswählen, wird der Standardmodus angezeigt, sobald Sie hier auf <span class="uicontrol">OK</span> klicken. </p> </p> <p>Zusätzlich wird das Kalendersteuerelement neu initialisiert, um dem Kalendertyp (Gregorianisch, Einzelhandel, Benutzerdefiniert...) der Report Suite zu entsprechen. </p> </td> 
+   <td colname="col2"> <p>Die für Sie verfügbare Liste mit Report Suites ist nicht mehr beschränkt auf die im Web-Seiten-Tag definierten Report Suites. Sie können nun die ausgewählte Report Suite (die zu einem der Tags auf der Seite gehört) durch eine andere Report Suite ersetzen. Diese neue Report Suite muss nicht mit einem Tag auf der Seite verbunden sein. Wenn Sie die ausgewählte Report Suite in den Einstellungen für Activity Map ändern, werden die betroffenen Analytics-Berichte beim <span class="uicontrol">Speichern</span> aktualisiert. </p> <p> <p>Wichtig: Virtual Report Suites sind nicht mit dem Livemodus kompatibel, sondern nur mit dem Standardmodus. Wenn Sie sich im Livemodus für eine Standard-Report Suite befinden, jedoch in diesem Dialogfeld eine Virtual Report Suite auswählen, wird der Standardmodus angezeigt, sobald Sie hier auf <span class="uicontrol">OK</span> klicken. </p> </p> <p>Zusätzlich wird das Kalendersteuerelement neu initialisiert, um dem Kalendertyp (Gregorianisch, Einzelhandel, Benutzerdefiniert...) der Report Suite zu entsprechen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Sprache </td> 
