@@ -4,7 +4,7 @@ audience: Endanwender
 user-guide-title: Analyseleitfaden für Analytics
 user-guide-url: /content/help/de-DE/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + Bedienfelder {#panels}
       + [Übersicht über Bedienfelder](analysis-workspace/c-panels/panels.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
-      + Zuordnung {#attribution}
+      + Attribution {#attribution}
          + [Übersicht über die Zuordnung](analysis-workspace/c-panels/attribution/attribution.md)
          + [Bedienfeld "Zuordnung"verwenden](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Häufig gestellte Fragen zur Zuordnung](analysis-workspace/c-panels/attribution/attribution-faq.md)
