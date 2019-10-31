@@ -1,24 +1,26 @@
 ---
-description: Häufig gestellte Fragen zur Linktracking in [!DNL Activity Map].
-seo-description: Häufig gestellte Fragen zur Linktracking in [!DNL Activity Map].
+description: Häufig gestellte Fragen zum Linktracking in Activity Map.
+seo-description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 seo-title: Linktracking – Häufig gestellte Fragen
 solution: Analytics
 title: Linktracking FAQs
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # Linktracking – Häufig gestellte Fragen
 
-Frequently asked questions about link tracking in [!DNL Activity Map].
+Häufig gestellte Fragen zum Linktracking in Activity Map.
 
-> [!CAUTION] Durch Aktivierung der [!DNL Activity Map] Verfolgung können **Sie** möglicherweise personenbezogene Daten (PII) **erfassen.** Diese Daten können allein oder mit anderen Informationen verwendet werden, um eine einzelne Person zu identifizieren, zu kontaktieren oder zu finden oder um eine Einzelperson im Kontext zu identifizieren.
+>[!CAUTION]
+>
+>**Durch Aktivierung der Activity Map-Verfolgung erfassen** Sie möglicherweise personenbezogene Daten (PII). Diese Daten können allein oder mit anderen Informationen verwendet werden, um eine einzelne Person zu identifizieren, zu kontaktieren oder zu finden oder um eine Person im Kontext zu identifizieren.
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
+Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit dem Activity Map-Tracking gesammelt werden:
 
 * `Mailto` Links. Ein Mailto-Link ist ein HTML-Linktyp, der den standardmäßigen E-Mail-Client auf dem Computer für das Senden einer E-Mail aktiviert.
 * `User ID` Links, die in der Kopf- und Fußzeile einer Website angezeigt werden, sobald sich der Benutzer angemeldet hat.
@@ -29,7 +31,7 @@ Here are some known cases where PII data might be collected using [!DNL Activity
  <tbody> 
   <tr> 
    <td colname="col1"> <b>F: Wann werden Links verfolgt?</b> <p> </p> </td> 
-   <td colname="col2"> A: [!DNL Activity Map] Link und Regionskennung erfolgen, wenn Benutzer auf eine Seite klicken. </td> 
+   <td colname="col2"> A: Sobald ein Benutzer auf eine Seite klickt, identifiziert Activity Map den Link und die Region. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>F: Was wird standardmäßig verfolgt?</b> <p> </p> </td> 
@@ -40,20 +42,20 @@ Here are some known cases where PII data might be collected using [!DNL Activity
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Gibt es ein INPUT-Tag oder eine SUBMIT-Schaltfläche mit einem Wert oder einem untergeordneten Text? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Ist dies ein INPUT-Tag mit dem Typ IMAGE und einer src-Eigenschaft? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Ist das eine &lt;Schaltfläche&gt;? </li> 
-    </ul> <p>Wenn die Antwort auf eine der vorangehenden Fragen <b>Ja</b> ist, wird dieses Element als Link verwendet und verfolgt. </p> <p>Wichtig: Schaltflächen-Tags mit dem Attribut type="button" werden von AppMeasurement nicht als Links erachtet. Entfernen Sie ggf. "type='button'" für Schaltflächen-Tags und fügen Sie stattdessen role="button" oder submit="button" hinzu. </p> <p>Wichtig: Ein Anker-Tag mit einem href, das mit "#"beginnt, wird von AppMeasurement als interner Zielort betrachtet, nicht als Link (da Sie die Seite nicht verlassen). Standardmäßig verfolgt [!DNL Activity Map] diese internen Zielorte nicht. Es werden nur Links verfolgt, die durch den Benutzer zu einer neuen Seite navigieren.</p></td> 
+    </ul> <p>Wenn die Antwort auf eine der vorangehenden Fragen <b>Ja</b> ist, wird dieses Element als Link verwendet und verfolgt. </p> <p>Wichtig: Schaltflächen-Tags mit dem Attribut type="button" werden von AppMeasurement nicht als Links erachtet. Entfernen Sie ggf. "type='button'" für Schaltflächen-Tags und fügen Sie stattdessen role="button" oder submit="button" hinzu. </p> <p>Wichtig: Ein Anker-Tag mit einem href, das mit "#"beginnt, wird von AppMeasurement als interner Zielort betrachtet, nicht als Link (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die durch den Benutzer zu einer neuen Seite navigieren.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Q: Wie verfolgt [!DNL Activity Map] andere visuelle HTML-Elemente?</b> </td> 
+   <td colname="col1"> <b>F: Wie verfolgt Activity Map andere visuelle HTML-Elemente?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Über die <code> s.tl() </code> Funktion</b> <p>Wenn der Klick über einen s.tl-Aufruf erfolgte, erhält [!DNL Activity Map] auch dieses click-Ereignis und ermittelt, ob eine linkName-Zeichenfolgenvariable gefunden wurde. Während der Ausführung von s.tl wird dieser linkName als [!DNL Activity Map] Link-ID festgelegt. Das Element, auf das geklickt wurde und von dem der s.tl()-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Über die <code> s.tl() </code> Funktion</b> <p>Wenn der Klick über einen s.tl-Aufruf erfolgte, erhält Activity Map außerdem dieses Klickereignis und bestimmt, ob die Zeichenfolgenvariable linkName gefunden wurde. Während der Ausführung von s.tl wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde und von dem der s.tl()-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Über die <code> s_objectID </code> Variable</b> <p>Beispiel: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>Wichtig:  Beachten Sie, dass ein nachfolgender Semikolon (;) erforderlich ist, wenn s_objectID in [!DNL Activity Map] verwendet wird. </p> </li> 
+       </code> </p> <p>Wichtig: Bei Verwendung von s_objectID in Activity Map muss ein Semikolon (;) folgen. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
