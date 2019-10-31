@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map] bietet zwei grundlegende Modi, um eine ergänzende Berichterstattung über die Seitenaktivität bereitzustellen.'
-seo-description: '[!DNL Activity Map] bietet zwei grundlegende Modi, um eine ergänzende Berichterstattung über die Seitenaktivität bereitzustellen.'
+description: Activity Map bietet zwei Basismodi, um zusätzliche Berichte für die Seitenaktivität zu erstellen.
+seo-description: Activity Map bietet zwei Basismodi, um zusätzliche Berichte für die Seitenaktivität zu erstellen.
 seo-title: Standardmodus im Vergleich zum Livemodus
 solution: Analytics
 title: Standardmodus im Vergleich zum Livemodus
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # Standardmodus im Vergleich zum Livemodus
 
-[!DNL Activity Map] bietet zwei Basismodi, um zusätzliche Berichte für die Seitenaktivität zu erstellen.
+Activity Map bietet zwei Basismodi, um zusätzliche Berichte für die Seitenaktivität zu erstellen.
 
 * Standardmodus, in dem der Bericht [Links auf Seite](/help/analyze/activity-map/activitymap-links-report.md) die Linkdaten für einen einzelnen Tag oder für einen vollständigen, mehrere Tage umfassenden Datumsbereich anzeigt.
 * Der Livemodus zeigt Aktivitätstrends in Echtzeit an.
@@ -31,7 +31,7 @@ In diesem Modus werden Handelsmetriken ohne aktivierte Option „Teilnahme“ li
 
 F: Was passiert, wenn auf verschiedenen Teilen einer Seite Links mit demselben Linknamen vorkommen? Werden den Links separat Werte zugewiesen, da sie zwar in verschiedenen Bereichen stehen, aber auf der Seite denselben Linknamen aufweisen?
 
-A: Das hängt von der Aggregation der Linkdaten ab. In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. In diesem Fall wäre die Angabe „Link|Region“ spezifisch, da sich der Seitenbereich unterscheidet. Die zugeteilten Umsätze für die erste Kombination aus Link|Region würden sich in diesem Fall daher von allen Umsätzen des zweiten Links unterscheiden. In Adobe Analytics können Sie sich allerdings nur den Link-ID-Bericht (anstatt eines „Link|Region“-Berichts) für eine bestimmte Seite (nach Link aufgeteilt) ansehen. In diesem Fall werden Umsätze für alle Linkvorkommnisse aggregiert.
+A: Das hängt von der Aggregation der Linkdaten ab. In Activity Map wird Link-ID|-Region für eine bestimmte Seite einbezogen, daher würden sich die entsprechenden Daten auf die Kombination „Link-ID|-Region“ beziehen. In diesem Fall wäre die Angabe „Link|Region“ spezifisch, da sich der Seitenbereich unterscheidet. Die zugeteilten Umsätze für die erste Kombination aus Link|Region würden sich in diesem Fall daher von allen Umsätzen des zweiten Links unterscheiden. In Adobe Analytics können Sie sich allerdings nur den Link-ID-Bericht (anstatt eines „Link|Region“-Berichts) für eine bestimmte Seite (nach Link aufgeteilt) ansehen. In diesem Fall werden Umsätze für alle Linkvorkommnisse aggregiert.
 
 ## Livemodus {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
