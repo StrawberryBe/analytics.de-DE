@@ -1,20 +1,20 @@
 ---
-description: Schritte zum Anhalten der Linktracking in [!DNL Activity Map] oder Legacy ClickMap.
-seo-description: Schritte zum Anhalten der Linktracking in [!DNL Activity Map] oder Legacy ClickMap.
+description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
+seo-description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
 seo-title: Linktracking beenden
 solution: Analytics
 title: Linktracking beenden
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # Linktracking beenden
 
-Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,7 +25,7 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Entfernen Sie den folgenden Inhalt aus der Datei Appmeasurement.js: 
     <code>
      /*
