@@ -7,7 +7,7 @@ title: Anpassbare Überlagerungen
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten zur Konfiguration der Datenvisualisierung, sodass Sie die Beliebtheit der Links auf einer Seite einfach feststellen und verstehen können.
 
-Überlagerungen ermöglichen Ihnen, Klickdaten direkt auf der Seite zu visualisieren. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+Überlagerungen ermöglichen Ihnen, Klickdaten direkt auf der Seite zu visualisieren. Dadurch unterscheidet sich ein visuelles Analysewerkzeug wie Activity Map von anderen hauptsächlich tabellarischen und grafischen Werkzeugen wie „Reports &amp; Analytics“.
 
-[!DNL Activity Map] bietet drei Arten von Überlagerungen:
+Activity Map bietet drei Überlagerungstypen:
 
 * Verlaufsüberlagerung (Heatmap)
 * Blasenüberlagerung
@@ -46,7 +46,7 @@ Diese Metriken werden überlagert als eine Art „Heatmap“ auf den Links der S
 
 Bei Blasenüberlagerungen wird der Inhalt der Überlagerung (Metrik, Prozentsatz oder Rang) in einer kleinen Beschriftungsblase angezeigt.
 
-Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Überlagerungstyp“ in der Symbolleiste auswählen. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Verlaufsüberlagerungen werden angezeigt, wenn diese Option nicht ausgewählt ist.
+Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Überlagerungstyp“ in der Symbolleiste auswählen. Blasenüberlagerungen werden für alle Links, die der Auswahl in den [Einstellungen für Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (Top 30, Top 50, alle...) entsprechen, angezeigt. Verlaufsüberlagerungen werden angezeigt, wenn diese Option nicht ausgewählt ist.
 
 ![](assets/bubble_overlay.png)
 
