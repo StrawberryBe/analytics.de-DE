@@ -1,20 +1,20 @@
 ---
-description: Schritte zum Starten der Linktracking in [!DNL Activity Map] oder Legacy ClickMap.
-seo-description: Schritte zum Starten der Linktracking in [!DNL Activity Map] oder Legacy ClickMap.
+description: Hier werden die Schritte zum Starten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
+seo-description: Hier werden die Schritte zum Starten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
 seo-title: Linktracking starten
 solution: Analytics
 title: Linktracking starten
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # Linktracking starten
 
-Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Hier werden die Schritte zum Starten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,7 +25,7 @@ Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Fügen Sie den folgenden Inhalt aus der Datei Appmeasurement.js ein: 
     <code>
      /*
