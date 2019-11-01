@@ -7,7 +7,7 @@ title: Pfadansichten
 topic: Metriken
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ Der Begriff [!UICONTROL Pfadansichten] wird unter Berücksichtigung der angegebe
 | Konversion | Keine |
 | Ad Hoc Analysis | Nicht die gesamte Dauer eines Besuchs. Gewöhnlich eine Sammlung von Pfaden, von denen jeder im Allgemeinen drei bis vier Seiten lang ist. Zeigt die Frequenz der Besuche auf diesem Pfad an. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Pfadberichte](/help/components/c-variables/dimensionslist/reports-paths.md)
 
