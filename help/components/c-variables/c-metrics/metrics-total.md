@@ -5,9 +5,9 @@ seo-title: Gesamt
 solution: Analytics
 title: Gesamt
 topic: Metriken
-uuid: b 0827325-9736-4 a 68-ade 2-3 fe 859 c 7 f 43 c
+uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,13 +33,13 @@ Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filt
    <td colname="col2"> <p>Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis  </p> </td> 
    <td colname="col2"> <p>Keine </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Summenbericht](/help/components/c-variables/dimensionslist/reports-totals.md)
 
