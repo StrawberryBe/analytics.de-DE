@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Serverseitige Weiterleitungsimplementierung überprüfen
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ So überprüfen Sie den Status der serverseitigen Weiterleitung:
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Vergewissern Sie sich, dass der Identitätsdienst ordnungsgemäß bereitgestellt ist, Sie das App Measurement-Modul bereitgestellt haben, dass die entsprechende Report Suite dem richtigen IMS-Org zugeordnet wurde und dass die serverseitige Weiterleitung in der Analytics Admin-Konsole aktiviert wurde.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
 
