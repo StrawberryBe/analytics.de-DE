@@ -7,7 +7,7 @@ title: Übersicht über das Anpassen von Berichten
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -36,7 +36,7 @@ Benutzerspezifische Berichte können nur durch Administratoren erstellt werden. 
 
    Vergewissern Sie sich, dass Sie keinen vorhandenen Berichtsnamen duplizieren.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Menüanpassung](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
