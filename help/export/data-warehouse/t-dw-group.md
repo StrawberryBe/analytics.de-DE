@@ -7,7 +7,7 @@ title: Hinzufügen einer Data Warehouse-Benutzergruppe
 topic: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -37,7 +37,7 @@ In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe d
    >
    >Bei Berechtigungen, die in Konflikt zueinander stehen (z. B. wenn ein Benutzer zwei Gruppen zugewiesen ist, von denen eine den Zugriff auf eine Funktion verweigert und die andere den gleichen Zugriff gewährt), beschränkt das System die Berechtigungen. Benutzer in Gruppen, die den Data Warehouse-Zugriff nicht erlauben, müssen unter Umständen aus diesen Gruppen entfernt werden.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Gruppen](/help/admin/user-management2/c-user-groups/groups.md)
 
