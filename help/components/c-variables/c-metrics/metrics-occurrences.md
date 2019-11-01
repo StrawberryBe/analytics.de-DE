@@ -7,7 +7,7 @@ title: Vorfälle
 topic: Metriken
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ Zwei Metriken sind aufgeführt, die sich zu ähneln scheinen:
 | Instanzen größer als Vorfälle | Dies ist für Berichte nicht möglich, weil alle Instanzen auch als Vorfälle erfasst werden. |
 | Instanzen gleich Vorfälle | Dies ist für Traffic-Variablen der Normalfall, weil sie naturgemäß nach der Bildanforderung nicht mehr weiter bestehen. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Instanzen](/help/components/c-variables/c-metrics/metrics-instance.md)
 
