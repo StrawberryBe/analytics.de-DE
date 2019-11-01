@@ -7,7 +7,7 @@ title: Bots
 topic: Berichte
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -18,7 +18,7 @@ Zeigt an, welche Spider und Bots Ihre Website in einem bestimmten Zeitraum besuc
 
 Bots werden nach dem Benutzeragent oder der IP-Adresse gefiltert. Zum Filtern von Bot-Traffic steht Ihnen die Option „IAB/ABCe International Spiders und Bots List“ zur Verfügung.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Bot-Regeln](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
