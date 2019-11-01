@@ -5,7 +5,7 @@ seo-title: Bestehende Berichte konfigurieren
 title: Bestehende Berichte konfigurieren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ Bestimmte Berichte lassen eine Aufschlüsselung der Tabellendaten zu, sodass Sie
    >
    >Für mehr Flexibilität verwenden Sie den [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) , um einen Bericht mit Unterteilungen zu konfigurieren. Nach dem Öffnen eines gespeicherten oder terminierten Berichts mit Aufschlüsselungen müssen Sie eventuell auf **[!UICONTROL Tabelle ersetzen]klicken, um eine Aufschlüsselung der dynamischen Berichtsdaten zu aktualisieren.** Beispiel: Sie müssen evtl. einen terminierten Bericht mit Aufschlüsselungen von Zeilenelementen aktualisieren, die sich basierend auf dem Datumsbereich oder der Besucheraktivität ändern können.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    Diese Option ist deaktiviert, wenn die Option [!UICONTROL Bildschirmgröße] aktiv ist. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
