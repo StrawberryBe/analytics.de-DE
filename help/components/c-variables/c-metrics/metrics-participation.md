@@ -7,7 +7,7 @@ title: Beitrag
 topic: Metriken
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -43,7 +43,7 @@ Wenn Sie im Bericht „Interne Suchbegriffe“ die Option „Umsatz“ aufrufen,
 
    Der Beitrag ähnelt der linearen Zuordnung, aber alle Werte erhalten die volle Gutschrift. Wenn Sie als Metrik jedoch „Umsatz (Beitrag)“ verwenden, wird keine Zuordnung berücksichtigt. Als „Umsatz (Beitrag)“ würde in diesem Beispiel 120 USD für beide Suchbegriffe angezeigt.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Metrikberechnungen](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
