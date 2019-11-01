@@ -5,9 +5,9 @@ seo-title: Produktansichten
 solution: Analytics
 title: Produktansichten
 topic: Metriken
-uuid: a 9 f 2 bbcd-e 9 ba -42 d 6-90 c 8-2 fd 4 e 6 c 9775 b
+uuid: a9f2bcd-e9ba-42d6-90c8-2fd4e6c9775b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -20,9 +20,9 @@ Instanz der festgelegten Produktansicht. Tritt auf, wenn die Produktdetailseite 
 |---|---|
 | Traffic | Keine |
 | Konversion | Instanz der festgelegten [!UICONTROL Produktansicht]. Tritt auf, wenn die [!UICONTROL Produktdetailseite] angezeigt wird. |
-| Ad Hoc Analysis | Instanz der festgelegten [!UICONTROL Produktansicht]. Tritt auf, wenn die [!UICONTROL Produktdetailseite] angezeigt wird. |
+| Ad Hoc Analysis  | Instanz der festgelegten [!UICONTROL Produktansicht]. Tritt auf, wenn die [!UICONTROL Produktdetailseite] angezeigt wird. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Produktbericht](/help/components/c-variables/dimensionslist/reports-products.md)
 
