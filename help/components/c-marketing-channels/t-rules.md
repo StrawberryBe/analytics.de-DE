@@ -8,7 +8,7 @@ title: Einrichten von Marketingkanal-Verarbeitungsregeln
 topic: Reports and Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegang
 1. Ziehen Sie die Regeln zur Priorisierung an die gewünschte Position.
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md)
 
