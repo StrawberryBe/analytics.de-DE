@@ -5,7 +5,7 @@ seo-title: Häufig gestellte Fragen zur serverseitigen Weiterleitung
 title: Häufig gestellte Fragen zur serverseitigen Weiterleitung
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ Häufig gestellte Fragen zu den Funktionen, der Funktionalität und den Probleme
 | Q: Was ist, wenn wir über zwei Experience Cloud-Orgs (oder AAM-Instanzen) verfügen und Daten zwischen beiden Experience Cloud-Orgs gemeinsam nutzen möchten? Kann ich einen einzelnen Analytics-Treffer serverseitig an mehrere Experience Cloud-Orgs weiterleiten? | Nein. Wenn Sie Daten, die unter einem Experience Cloud-Org gesammelt wurden, an ein anderes Experience Cloud-Org weitergeben müssen, empfehlen wir, alle relevanten Zielgruppen über den Zielgruppen-Marketplace von einer Audience Manager-Instanz an eine andere zu senden. |
 | F: Führt die serverseitige Weiterleitung zu einer zusätzlichen Rechnungsstellung in Audience Manager oder Analytics? | In Analytics erfolgt keine zusätzliche Rechnungsstellung. In Audience Manager werden weitergeleitete Treffer wie andere Treffer behandelt und abgerechnet.  Daher ist es wichtig, dass DIL und die serverseitige Weiterleitung nicht gleichzeitig aktiviert sind. Dies könnte zu einer doppelten Rechnungsstellung und einer Duplizierung der Daten führen. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
