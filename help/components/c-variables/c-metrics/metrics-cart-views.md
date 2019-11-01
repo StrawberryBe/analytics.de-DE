@@ -5,9 +5,9 @@ seo-title: Warenkorbansicht
 solution: Analytics
 title: Warenkorbansicht
 topic: Metriken
-uuid: f 51213 ed-c 396-4 d 6 a -8 f 88-4 ea 870 e 5 bdp
+uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfeed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -20,9 +20,9 @@ Ereignis, bei dem der Kunde den Inhalt des Warenkorbs anzeigt. Dieser Wert stamm
 |---|---|
 | Traffic | Keine |
 | Konversion | Instanz des Ereignisses [!UICONTROL „Warenkorbansicht“]. Tritt auf, wenn die Artikel in einem Warenkorb angezeigt werden. |
-| Ad Hoc Analysis | Instanz des Ereignisses [!UICONTROL „Warenkorbansicht“]. Tritt auf, wenn die Artikel in einem Warenkorb angezeigt werden. |
+| Ad Hoc Analysis  | Instanz des Ereignisses [!UICONTROL „Warenkorbansicht“]. Tritt auf, wenn die Artikel in einem Warenkorb angezeigt werden. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Bericht „Warenkorb“](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
