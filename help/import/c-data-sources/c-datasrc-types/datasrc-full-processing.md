@@ -8,7 +8,7 @@ title: Vollständige Verarbeitung
 topic: Entwickler und Implementierung
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 ---
 
@@ -26,7 +26,7 @@ Daten aus Datenquellen mit vollständiger Verarbeitung werden so verarbeitet, wi
 
 Daten aus Datenquellen mit vollständiger Verarbeitung werden mit getrennten Besucherprofilen verarbeitet. Das heißt, selbst wenn die Besucher-ID in den hochgeladenen Daten mit den Daten übereinstimmt, die mit JavaScript oder einer anderen AppMeasurement-Bibliothek erfasst wurden, sind die Benutzerprofile aus der Sicht einer eVar-Zuordnung nicht miteinander verbunden.
 
-Beispiel: Ein Benutzer mit der Besucher-ID „benutzer@beispiel.de“ besucht Ihre Site von einer Marketing-Kampagne mit der Bezeichnung „Spring Sale“ aus, die in der Kampagnenvariable gespeichert ist. Wenn Sie später eine Transaktion mit derselben Besucher-ID hochladen, erhält die Kampagne „Spring Sale“ keine Gutschriften für jegliche Umsätze oder Erfolgsereignisse, die mit Datenquellen mit vollständiger Verarbeitung hochgeladen wurden.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Wenn Sie später eine Transaktion mit derselben Besucher-ID hochladen, erhält die Kampagne „Spring Sale“ keine Gutschriften für jegliche Umsätze oder Erfolgsereignisse, die mit Datenquellen mit vollständiger Verarbeitung hochgeladen wurden.
 
 ## Spaltenreferenz {#section_92BAE76639E3404E97276B1BE0581078}
 
