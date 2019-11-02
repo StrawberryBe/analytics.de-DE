@@ -4,7 +4,7 @@ seo-description: Bei Data Connectors anmelden; Importieren von Verfolgungsdaten 
 seo-title: Analytics Data Connectors
 title: Erste Schritte mit Analytics-Datenschnittstellen
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Für eine erfolgreiche Implementierung von Remarketing-Segmenten müssen folgend
    * Einkäufe: `purchase` -Ereignis
    * Product Views: `prodView` event
 
-**** Hinweis: Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird das prodView-Ereignis automatisch ausgelöst.
+> [!NOTE] Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird das prodView-Ereignis automatisch ausgelöst.
 Falls die obigen Voraussetzungen nicht erfüllt sind, werden die entsprechenden Remarketing-Segmente nicht korrekt berichtet.
 
 [!UICONTROL Warenkorbabbruch]: Wird ausgelöst, nachdem der Benutzer ein Produkt zum Warenkorb hinzugefügt hat:
