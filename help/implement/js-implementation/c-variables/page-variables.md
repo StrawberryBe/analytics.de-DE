@@ -9,7 +9,7 @@ title: Seitenvariablen
 topic: Entwickler und Implementierung
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
 
 ---
 
@@ -2055,13 +2055,11 @@ Vor der Verwendung dieser Variablen muss eine Report Suite aktiviert werden, dam
 **Probleme, Fragen und Tipps** {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * Zeitstempel dienen hauptsächlich zur Verfolgung von Offlinedaten auf mobilen Plattformen. Benutzerdefinierte Zeitstempel sind meist deaktiviert, es sei denn, es sollen gleichzeitig sowohl Web- als auch Offline-App-Daten in der gleichen Report Suite erfasst werden.
-* Daten werden mit einem Zeitstempel versehen, wenn Offline-Daten auf dem mobilen SDK aktiviert werden (Standardeinstellung) oder wenn eine Report Suite konfiguriert wird, um Daten mit Zeitstempel zu akzeptieren. Daten, die offline auf mobilen Geräten erfasst wurden, werden möglicherweise erst Stunden oder Wochen nach dem Datum des Ereignisses gesendet. Diese Treffer werden innerhalb der Analytics-Plattform einige Minuten oder Stunden länger als Treffer ohne Zeitstempel in die Warteschlange gestellt:
+* Daten werden mit einem Zeitstempel versehen, wenn Offlinedaten im mobilen SDK aktiviert sind (Standardeinstellung) oder wenn eine Report Suite konfiguriert ist, Daten mit Zeitstempel zu akzeptieren. Offline erfasste Daten können Stunden oder Wochen nach dem Datum des ursprünglichen Ereignisses gesendet werden. Diese Treffer werden innerhalb der Analytics-Plattform einige Minuten oder Stunden länger als Treffer ohne Zeitstempel in die Warteschlange gestellt:
 
-   * Die Verzögerung für Daten mit Zeitstempel, die sehr zeitnah gesendet werden, liegt bei schätzungsweise 10–15 Minuten.
-   * Die Verzögerung für gesendete Daten mit Zeitstempel von gestern liegt bei schätzungsweise 2 Stunden.
-   * Wenn Daten mit Zeitstempel gesendet werden, die von vorgestern oder früher stammen, führt jeder zusätzliche Tag zu etwa einer Stunde Verzögerung. Sind die Daten älter zwei Wochen, gibt es keine zusätzliche Verzögerung mehr.
-
-* Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert.
+   * Bei Daten mit Zeitstempel, die in sehr kurzer Zeit gesendet werden, beträgt die wahrscheinliche Verzögerung 10-15 Minuten.
+   * Bei Daten mit Zeitstempel, die von gestern gesendet wurden, beträgt die wahrscheinliche Verzögerung etwa 2 Stunden.
+   * Bei Daten mit Zeitstempel, die älter als gestern gesendet werden, erhöht sich die tägliche Verzögerung um etwa 2 Stunden, höchstens jedoch um 48 Stunden.
 
 ## trackingServer {#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F}
 
