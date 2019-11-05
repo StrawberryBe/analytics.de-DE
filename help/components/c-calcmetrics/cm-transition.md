@@ -5,7 +5,7 @@ seo-title: Häufig gestellte Fragen
 title: Häufig gestellte Fragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,43 +14,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
-[Wie greife ich auf den Generator für berechnete Metriken zu?](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
+[Wie greife ich auf den Generator für berechnete Metriken zu?](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
-[Wie greife ich auf den Manager für berechnete Metriken zu?](../../components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
+[Wie greife ich auf den Manager für berechnete Metriken zu?](/help/components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
 
-[Warum werden so viele berechnete Metriken mit demselben Namen angezeigt?](../../components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
+[Warum werden so viele berechnete Metriken mit demselben Namen angezeigt?](/help/components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
 
-[Was ist mit meinen globalen berechneten Metriken passiert?](../../components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
+[Was ist mit meinen globalen berechneten Metriken passiert?](/help/components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
 
-[Was ist mit globalen berechneten Metriken passiert, die über Anmeldeunternehmen hinweg freigegeben wurden?](../../components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
+[Was ist mit globalen berechneten Metriken passiert, die über Anmeldeunternehmen hinweg freigegeben wurden?](/help/components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
 
-[Was ist mit berechneten Metriken mit der Classification Numerisch oder Numerisch2 passiert?](../../components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
+[Was ist mit berechneten Metriken mit der Classification Numerisch oder Numerisch2 passiert?](/help/components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
 
-[Was ist mit Lebensdauermetriken passiert?](../../components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
+[Was ist mit Lebensdauermetriken passiert?](/help/components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
 
-[Was muss ich über berechnete Metriken basierend auf Metriken für tägliche/wöchentliche/monatliche/vierteljährliche/jährliche Unique Visitor wissen?](../../components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
+[Was muss ich über berechnete Metriken basierend auf Metriken für tägliche/wöchentliche/monatliche/vierteljährliche/jährliche Unique Visitor wissen?](/help/components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
 
-[Was passiert mit berechneten Metriken, die mit den alten Report Suite-API-Methoden erstellt oder verwaltet wurden?](../../components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
+[Was passiert mit berechneten Metriken, die mit den alten Report Suite-API-Methoden erstellt oder verwaltet wurden?](/help/components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
 
-[Unterstützt „Aktuelle Daten“ alle Typen an berechneten Metriken?](../../components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
+[Unterstützt „Aktuelle Daten“ alle Typen an berechneten Metriken?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[Was bedeutet „Kein Name angegeben“ im Zusammenhang mit migrierten berechneten Metriken?](../../components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[Was bedeutet „Kein Name angegeben“ im Zusammenhang mit migrierten berechneten Metriken?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
-[Was passiert mit den berechneten Metriken eines Benutzers, wenn dieser Benutzer gelöscht wird?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
+[Was passiert mit den berechneten Metriken eines Benutzers, wenn dieser Benutzer gelöscht wird?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Warum werden "Unbekannte"berechnete Metriken angezeigt, die für andere Report Suites nicht "gültig"sind, obwohl sie erstellt und auf diese Report Suites angewendet werden können?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Warum werden "Unbekannte"berechnete Metriken angezeigt, die für andere Report Suites nicht "gültig"sind, obwohl sie erstellt und auf diese Report Suites angewendet werden können?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
-[Warum wurden Änderungen an meinen alten berechneten Metriken nicht gespeichert?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
+[Warum wurden Änderungen an meinen alten berechneten Metriken nicht gespeichert?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Warum werden meine berechneten Metriken nicht im Marketingkanalbericht angezeigt?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Warum werden meine berechneten Metriken nicht im Marketingkanalbericht angezeigt?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
-[Warum enthalten einige der berechneten Metriken Formeln ohne die Klammern, die ich hinzugefügt habe?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
+[Warum enthalten einige der berechneten Metriken Formeln ohne die Klammern, die ich hinzugefügt habe?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Nur Ad Hoc Analysis) Werden berechnete Metriken mit eingebetteten oder Inline-Segmentdefinitionen weiterhin unterstützt?](../../components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[(Nur Ad Hoc Analysis) Werden berechnete Metriken mit eingebetteten oder Inline-Segmentdefinitionen weiterhin unterstützt?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
-[(Nur Report Builder) Warum sind berechnete Metriken aus meinen Anforderungen verschwunden?](../../components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[(Nur Report Builder) Warum sind berechnete Metriken aus meinen Anforderungen verschwunden?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
-[Wie werden Gesamtwerte für berechnete Metriken ermittelt?](../../components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
+[Wie werden Gesamtwerte für berechnete Metriken ermittelt?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## Wie greife ich auf den Generator für berechnete Metriken zu? {#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
