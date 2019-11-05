@@ -8,7 +8,7 @@ title: Transaktions- und Kundenintegration
 topic: Entwickler und Implementierung
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Data Sources bietet zwei zusätzliche Möglichkeiten, Ereignisse, die offline auftreten, in Ihre Online-Daten zu integrieren.
 
-* [Transaktions-ID-Aufzeichnung aktivieren](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
-* [Transaktionsintegration](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
-* [Kundenintegration](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
+* [Transaktions-ID-Aufzeichnung aktivieren](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
+* [Transaktionsintegration](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
+* [Kundenintegration](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
 
 Diese Integrationen ordnen Offline-Daten einer bestimmten Online-Transaktion oder einem Online-Besucher zu.
 
@@ -34,7 +34,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 <p>When contacting Customer Care, be prepared to provide the following information: </p> 
 <ul id="ul_C425C7A074484650AFCCF0425E8E3F47"> 
  <li id="li_7640C0C4DF0C49749A3C37E5461DC22F">Report Suite ID of the data source for which you need transaction ID recording enabled. <p>In Data Sources, the report suite ID is the first part of the login appended by a random number that identifies the specific data source that was set up. For example, <code> RSID-drmossdev5 Login-drmossdev5_0001343430</code>. </p> </li> 
- <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="../../import/c-data-sources/datasrc-tid-visitor-profile.md#concept_0AF92491E8274BF69E66DB36E5F54A0F" format="dita" scope="local"> Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
+ <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="/help/import/c-data-sources/datasrc-tid-visitor-profile.md"  > Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
 </ul>
 
  -->
@@ -52,7 +52,7 @@ Kunden-IDs werden zur Angabe der Offline-Aktivität eines Kunden verwendet und s
 * Eine Kunden-ID wird in die Variable *`visitorID`* festgelegt.
 * Es gibt keinen designierten Punkt, an dem Kundenaktivitäten in die Offline-Aktivität wechseln, wie die Empfehlung eines Interessenten oder ein Kauf.
 
-Informationen zum Konfigurieren dieser Art Datenquelle, siehe [Besucher-ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+Informationen zum Konfigurieren dieser Art Datenquelle, siehe [Besucher-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Transaktionsintegration {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -68,4 +68,4 @@ Transaktions-ID-Ereignisse zwar nicht in Metriken für Beiträge zu Besuchen ent
 
 Der Grund hierfür besteht darin, dass die Transaktions-ID-Daten nicht mit einem Besuch (weil das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verbunden sind. 
 
-Siehe [Transaktions-ID](../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776).
+Siehe [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
