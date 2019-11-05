@@ -7,7 +7,7 @@ solution: Analytics
 title: Fehlerbehebung bei Daten-Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,11 +40,11 @@ Mit AWS kann ein Benutzer aber auch Objekte in einem Bucket erstellen, die einem
 
 Im Fall eines FTP-Übertragungsfehlers (Anmeldung verweigert, Verbindung getrennt, Kontingent überschritten usw.) versucht Adobe automatisch, eine Verbindung herzustellen und sendet die Daten bis zu drei Mal separat. Sollten die Fehler weiterhin bestehen, wird der Feed als fehlgeschlagen markiert und es wird eine E-Mail-Benachrichtigung gesendet.
 
-Im Fall eines Übertragungsfehlers können Sie [einen Auftrag erneut ausführen](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501), bis der Vorgang erfolgreich ausgeführt wird.
+Im Fall eines Übertragungsfehlers können Sie [einen Auftrag erneut ausführen](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md), bis der Vorgang erfolgreich ausgeführt wird.
 
 ## Optionen zum erneuten Senden {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, verwenden Sie einfach den Auftrag [erneut](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) , um die Dateien abzurufen.
+Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, verwenden Sie einfach den Auftrag [erneut](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) , um die Dateien abzurufen.
 
 ## Auswirkungen der Sommerzeit auf stündliche Datenfeeds {#section_70E867D942054DD09048E027A9474FFD}
 
