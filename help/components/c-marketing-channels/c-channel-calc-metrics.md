@@ -8,7 +8,7 @@ title: In Marketing-Kanalberichten verwendete berechnete Metriken
 topic: Reports and Analytics
 uuid: b33d05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Hinzufügen errechneter Metriken zu Marketingkanalberichten in Analytics.
 
-## In Marketing-Kanalberichten verwendete berechnete Metriken {#topic_4521D324A79E43EF99E69FCDE1E92F74}
-
-Hinzufügen errechneter Metriken zu Marketingkanalberichten in Analytics.
-
 In Reports &amp; Analysen erstellte errechnete Metriken stehen dem [!UICONTROL Marketingkanalbericht] zur Verfügung mit vergleichbaren First-Touch- und Last-Touch-Angaben. Wenn Sie z. B. eine errechnete Metrik erstellt haben, die „Umsatz pro Bestellung“ heißt, steht diese Metrik dem Marketingkanalbericht als *`First Touch Revenue per Order`* und *`Last Touch Revenue per Order`*.
 
 Sie können errechnete Metriken direkt über den [!UICONTROL Marketingkanalbericht] erstellen. Mithilfe von errechneten Metriken können Sie praktische Vergleiche zwischen First Touch- und Last Touch-Kanalmetriken erstellen. So können Sie beispielsweise den Unterschied zwischen First Touch- und Last Touch-Umsatz anzeigen.
 
-## Hinzufügen errechneter Metriken zu einem Marketingkanalbericht {#task_4A9E82ACA23A4071B58191C821DBD3D3}
+## Hinzufügen errechneter Metriken zu einem Marketingkanalbericht {#add-calc-metrics}
 
 Fügen Sie dem Marketingkanal-Übersichtsbericht eine errechnete Metrik hinzu. Sie können dem Bericht bis zu vier Metriken hinzufügen.
 
 1. Öffnen Sie einen [!UICONTROL Marketingkanal-Übersichtsbericht].
 
-   See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
+   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
 
 1. **[!UICONTROL Klicken Sie im Bericht auf]** Bearbeiten. ![](assets/metric_edit_icon.png)
 
