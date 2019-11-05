@@ -7,7 +7,7 @@ title: Manager für geplante Aufgaben
 topic: ReportBuilder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,7 +40,7 @@ Im Manager für geplante Aufgaben können Sie eine Liste mit den vorhandenen ter
   </tr> 
   <tr> 
    <td colname="col1"> <p>Veröffentlichungsoptionen </p> </td> 
-   <td colname="col2"> <p>Diese Spalte enthält Power BI, wenn eine der <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#concept_0C4105AA10F9460A872C2489C9CD7945" format="dita" scope="local"> Power BI-Veröffentlichungsoptionen</a> ausgewählt ist. </p> </td> 
+   <td colname="col2"> <p>Diese Spalte enthält Power BI, wenn eine der <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > Power BI-Veröffentlichungsoptionen</a> ausgewählt ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plan </p> </td> 
