@@ -8,7 +8,7 @@ title: Data Sources-Übersicht
 topic: Entwickler und Implementierung
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Mit Data Sources können Sie die Daten vor dem Klick besser interpretieren, inde
 
 >[!IMPORTANT]
 >
->Damit Transaktions-ID-Datenquellen Offline-Daten mit Online-Ereignissen verknüpfen, muss die Transaktions-ID-Aufzeichnung von der Kundenunterstützung aktiviert werden. Weitere Informationen erhalten Sie unter [Transaktions-ID-Aufzeichnung](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C).
+>Damit Transaktions-ID-Datenquellen Offline-Daten mit Online-Ereignissen verknüpfen, muss die Transaktions-ID-Aufzeichnung von der Kundenunterstützung aktiviert werden. Weitere Informationen erhalten Sie unter [Transaktions-ID-Aufzeichnung](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C).
 
 Nach dem Import stehen die meisten Data Sources-Daten für alle Lösungen der Digital Marketing Suite zur Verfügung.
