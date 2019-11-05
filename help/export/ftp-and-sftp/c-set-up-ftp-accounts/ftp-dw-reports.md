@@ -7,7 +7,7 @@ solution: Analytics
 title: Von Data Warehouse bereitgestellte Berichte
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ Mithilfe von Data Warehouse können Sie Berichte anfordern, die auf Ihre individ
 
 Die FTP-Auslieferung ist in diesem Fall im Setup der [!UICONTROL Erweiterten Bereitstellungsoptionen] verfügbar. Um FTP zu nutzen, benötigen Sie ein internes FTP-Konto oder ein Adobe FTP-Konto. Adobe richtet das FTP-Konto für Sie nicht automatisch über die Benutzeroberfläche von Data Warehouse ein. Die FTP-Auslieferung erfolgt grundsätzlich sofort, hängt aber von der Dateigröße und der Anzahl der zu verarbeitenden Berichte ab.
 
-Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)
+Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md)
