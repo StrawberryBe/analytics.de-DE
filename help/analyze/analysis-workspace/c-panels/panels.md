@@ -5,7 +5,7 @@ seo-title: Übersicht über Bedienfelder
 title: Übersicht über Bedienfelder
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ Ein Bedienfeld ist eine Sammlung von Tabellen und Visualisierungen. Sie können 
 
 Die Bedienfelder „Leeres Bedienfeld“ und „Freiform-Bedienfeld“ bieten sich an, wenn Sie mit Ihrer Analyse beginnen, wohingegen sich „Attribution IQ“ und „Segmentvergleich“ für fortgeschrittenere Analysen eignen. Wir haben außerdem eine „+“-Schaltfläche hinzugefügt, damit Sie jederzeit leere Bedienfelder hinzufügen können.
 
-Das standardmäßige Start-Bedienfeld ist das Freiform-Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2) als Ihren Standard festlegen.
+Das standardmäßige Start-Bedienfeld ist das Freiform-Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als Ihren Standard festlegen.
 
 ## Dropdown-Filter in Bedienfeldern {#section_D2828EEDD52944528E87F470EAB581CF}
 
