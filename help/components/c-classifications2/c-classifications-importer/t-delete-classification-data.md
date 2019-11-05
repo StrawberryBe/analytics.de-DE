@@ -8,7 +8,7 @@ title: Löschen von Classification-Daten
 topic: Admin Tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ In diesen Schritten wird beschrieben, wie Sie Classification-Daten löschen oder
 
    Alternatively, use [!DNL ~deletekey~]. Mit diesem Befehl wird die Classification für den betreffenden Schlüssel so behandelt, als wäre sie nie erfolgt. Der Schlüssel und alle Spaltendaten werden aus den Suchtabellen entfernt.
 
-   **Caveat**: Sie benötigen nur eine Spalte, die [!DNL ~deletekey~]enthält. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Mit diesem Befehl werden alle Metadaten aus der Zeile gelöscht. Adobe interpretiert dies so, als wäre der Schlüssel nie klassifiziert worden, und zeigt ihn in der Kategorie [Keine](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) an.
+   **Caveat**: Sie benötigen nur eine Spalte, die [!DNL ~deletekey~]enthält. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Mit diesem Befehl werden alle Metadaten aus der Zeile gelöscht. Adobe interpretiert dies so, als wäre der Schlüssel nie klassifiziert worden, und zeigt ihn in der Kategorie [Keine](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) an.
 
 1. Speichern Sie die Datei, und laden Sie sie danach über die Registerkarte [!UICONTROL Datei importieren] hoch.
 
