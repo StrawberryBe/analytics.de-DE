@@ -7,7 +7,7 @@ title: Vorfälle
 topic: Metriken
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Die Frequenz, mit der ein bestimmter Wert erfasst wird, plus die Anzahl der Seit
 
 Zwei Metriken sind aufgeführt, die sich zu ähneln scheinen:
 
-**[Instanzen](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: Gibt an, wie oft ein Wert für eine Variable festgelegt wurde.
+**[Instanzen](/help/components/c-variables/c-metrics/metrics-instance.md)**: Gibt an, wie oft ein Wert für eine Variable festgelegt wurde.
 
 **Vorfälle**: Gibt an, wie oft ein Wert insgesamt festgelegt oder beibehalten wurde.
 
