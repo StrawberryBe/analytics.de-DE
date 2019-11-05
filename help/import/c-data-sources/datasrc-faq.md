@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zu Data Sources
 topic: Entwickler und Implementierung
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ In diesem Thema erhalten Sie Antworten auf die am häufigsten gestellten Fragen.
 
 ## Wie können Offline-Daten mit Online-Ereignissen verknüpft werden? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-Damit Transaktions-ID-Datenquellen Offline-Daten mit Online-Events verbinden können, müssen Sie die Aufzeichnung der Transaktions-ID aktivieren. Weitere Informationen erhalten Sie unter [Transaktions-ID-Aufzeichnung](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C).
+Damit Transaktions-ID-Datenquellen Offline-Daten mit Online-Events verbinden können, müssen Sie die Aufzeichnung der Transaktions-ID aktivieren. Weitere Informationen erhalten Sie unter [Transaktions-ID-Aufzeichnung](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C).
 
 ## Wie viel kostet die Nutzung der Datenquelle-Funktion? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
