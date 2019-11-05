@@ -1,13 +1,13 @@
 ---
 description: Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei der Bereitstellung von Analytics.
-keywords: Dynamisches Tag-Management;Linktracking;ClickMap aktivieren;Download-Links verfolgen;Download-Erweiterungen;Rückverfolgen von ausgehenden Links;URL-Parameter beibehalten
+keywords: Dynamic Tag Management;Linktracking;ClickMap aktivieren;Downloadlinks verfolgen;Download-Erweiterungen;ausgehende Links verfolgen;URL-Parameter beibehalten
 seo-description: Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei der Bereitstellung von Analytics.
 seo-title: Linktracking
-solution: Experience Cloud, Analytics, Dynamisches Tag-Management
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Linktracking
-uuid: 982b744b-5696-4c31-b1d1-410486b0edd
+uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei der Bereitstellung von Analytics.
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
+Tool bearbeiten]** &gt; **[!UICONTROL Linktracking]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C"> 
  <thead> 
@@ -30,7 +30,7 @@ Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> ClickMap aktivieren </td> 
-   <td colname="col2"> <p>Bestimmt, ob Daten zur Besucherklickzuordnung gesammelt werden. </p> <p>Siehe <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.trackInlineStats</a>. </p> </td> 
+   <td colname="col2"> <p>Bestimmt, ob Daten zur Besucherklickzuordnung gesammelt werden. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.trackInlineStats</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Downloadlinks verfolgen </td> 
@@ -44,8 +44,8 @@ Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
    <td colname="col1"> Ausgehende Links verfolgen </td> 
    <td colname="col2"> <p>Bestimmt, ob ein angeklickter Link ein Exitlink ist. </p> <p>See <a href="/help/implement/js-implementation/c-variables/configuration-variables.md">Configuration Variables</a>. </p> <p><b>Hinweise zu einseitigen Apps:</b> Aufgrund der Art und Weise, auf die einige SPA-Websites codiert sind, kann ein interner Link zu einer Seite der SPA wie ein ausgehender Link aussehen. </p> <p>Sie können eine der folgenden Methoden zur Verfolgung ausgehender Links über SPA-Sites verwenden: </p> 
     <ul id="ul_A4179633ED0644C3BA5F548A58CA4EC9"> 
-     <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>Sollten Sie über Ihre SPA keinesfalls ausgehende Links verfolgen wollen, machen Sie unter <span class="wintitle">Niemals verfolgen</span> einen entsprechenden Eintrag. </p> <p>For example, <span class="filepath"> https://testsite.com/spa/#</span> </p> <p>Alle #-Links für diesen Host werden ignoriert. Alle ausgehenden Links zu anderen Hosts wie <span class="filepath"></span>https://www.google.com werden verfolgt. </p> </li> 
-     <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>Gibt es einige Links, die Sie in Ihrer SPA immer verfolgen möchten, verwenden Sie den Abschnitt <span class="wintitle">Immer verfolgen</span>. </p> <p>Wenn Sie beispielsweise über die Seite <span class="filepath">spa/#/about</span> verfügen, könnten Sie unter <span class="wintitle">Immer verfolgen</span> den Abschnitt „about“ eintragen. </p> <p>Die Seite „about“ ist der einzige ausgehende Link, der verfolgt wird. Alle anderen Links auf der Seite (beispielsweise <span class="filepath"></span>https://www.google.com) werden nicht verfolgt. </p> </li> 
+     <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>Sollten Sie über Ihre SPA keinesfalls ausgehende Links verfolgen wollen, machen Sie unter <span class="wintitle">Niemals verfolgen</span> einen entsprechenden Eintrag. </p> <p>Zum Beispiel <span class="filepath"> https://testsite.com/spa/#</span> </p> <p>Alle #-Links für diesen Host werden ignoriert. Alle ausgehenden Links zu anderen Hosts wie <span class="filepath">https://www.google.com</span> werden verfolgt. </p> </li> 
+     <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>Gibt es einige Links, die Sie in Ihrer SPA immer verfolgen möchten, verwenden Sie den Abschnitt <span class="wintitle">Immer verfolgen</span>. </p> <p>Wenn Sie beispielsweise über die Seite <span class="filepath">spa/#/about</span> verfügen, könnten Sie unter <span class="wintitle">Immer verfolgen</span> den Abschnitt „about“ eintragen. </p> <p>Die Seite „about“ ist der einzige ausgehende Link, der verfolgt wird. Alle anderen Links auf der Seite (beispielsweise <span class="filepath">https://www.google.com</span>) werden nicht verfolgt. </p> </li> 
     </ul> <p>Beachten Sie, dass sich diese beiden Optionen gegenseitig ausschließen. </p> </td> 
   </tr> 
   <tr> 
