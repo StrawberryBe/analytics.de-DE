@@ -8,7 +8,7 @@ title: Analytics-Segmentierung
 topic: Segmente
 uuid: 845c1743-1264-4090-bccc-78830477f52e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,12 +17,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen.
 
-Die Analytics-Segmentierung umfasst den [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4) zum Aufbau von Segmenten und zur Ausführung eines Vorab-Tests sowie den [Segment-Manager](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#section_7FDCD12949BE4741A402DB83AB7B37DF) zur Erfassung, Kennzeichnung, Freigabe, Sicherheitseinstellung und Weitergabe von Segmenten in Ihrer Organisation.
+Die Analytics-Segmentierung umfasst den [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) zum Aufbau von Segmenten und zur Ausführung eines Vorab-Tests sowie den [Segment-Manager](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) zur Erfassung, Kennzeichnung, Freigabe, Sicherheitseinstellung und Weitergabe von Segmenten in Ihrer Organisation.
 
 ![](assets/seg__overview.png)
 
-Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Segmente einsetzen, erweitern und verfeinern und ein Segment dann für andere Benutzer speichern oder erweitern, verfeinern und als neues Segment in der Bibliothek speichern. Einmal in Gang gesetzt, handelt es sich um einen Kreislauf des Entwerfens und Verwaltens kodifizierter Zielgruppeneinblicke als [einheitlicher Segmentarbeitsablauf](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF).
+Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Segmente einsetzen, erweitern und verfeinern und ein Segment dann für andere Benutzer speichern oder erweitern, verfeinern und als neues Segment in der Bibliothek speichern. Einmal in Gang gesetzt, handelt es sich um einen Kreislauf des Entwerfens und Verwaltens kodifizierter Zielgruppeneinblicke als [einheitlicher Segmentarbeitsablauf](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 **Einstieg**
 
-Beginnen Sie mit dem [Einrichten eines Segmentierungsarbeitsablaufs](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) oder dem [Erstellen von Segmenten](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)oder lesen Sie [Segmente](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) für einen schnellen Überblick.
+Beginnen Sie mit dem [Einrichten eines Segmentierungsarbeitsablaufs](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) oder dem [Erstellen von Segmenten](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)oder lesen Sie [Segmente](/help/components/c-segmentation/seg-overview.md) für einen schnellen Überblick.
