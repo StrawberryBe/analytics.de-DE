@@ -6,7 +6,7 @@ title: Analysis Workspace Überblick
 topic: Reports and Analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,7 +23,9 @@ Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen A
 
 Eine vollständige YouTube-Playlist ist [hier](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) verfügbar.
 
-> [!NOTE] Aktualisierungen zu Funktionen finden Sie unter [Neue Funktionen im Arbeitsbereich](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) für Analysen.
+>[!NOTE]
+>
+>See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -35,7 +37,7 @@ Der Analysis Workspace ermöglicht Unabhängigkeit und Flexibilität:
 
 ![](assets/fa_project_new.png)
 
-Weitere Informationen finden Sie unter [Für weitere Informationen erstellen Sie ein Projekt in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+Weitere Informationen finden Sie unter [Für weitere Informationen erstellen Sie ein Projekt in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 
 ## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
 
@@ -47,11 +49,11 @@ Erstellen Sie ein Projekt, das den Prozentsatz der Veränderung zeigt, mit mehre
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Neue Optionen mit Rechtsklick namens "Bedienfeldlink abrufen"und "Visualisierungslink abrufen"wurden hinzugefügt. So fügen Sie Intra-Linking zu Ihrem Projekt hinzu:
+In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Neue Optionen mit Rechtsklick namens "Bedienfeldlink abrufen"und "Visualisierungslink abrufen"wurden hinzugefügt. So fügen Sie Intra-Linking zu Ihrem Projekt hinzu:
 
 1. Ziehen Sie eine Textvisualisierung in ein Projekt, z. B. neben eine Visualisierung oder Tabelle, für die Kontext erforderlich ist.
 1. Füllen Sie das Textfeld z. B. mit einem Inhaltsverzeichnis und markieren Sie dann ein Element, das Sie mit einem Bereich oder einer Visualisierung verknüpfen möchten, z. B. Erfolgsmetriken.
@@ -75,7 +77,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
-Wenn Sie einzelne Zellen auswählen, wird die Visualisierung dynamisch geändert. [Synchronisieren und sperren](../../analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) Sie eine Visualisierung an ausgewählten Zellen.
+Wenn Sie einzelne Zellen auswählen, wird die Visualisierung dynamisch geändert. [Synchronisieren und sperren](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) Sie eine Visualisierung an ausgewählten Zellen.
 
 ![](assets/visualize-selected-cells.png)
 
@@ -85,7 +87,7 @@ Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Date
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
+See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
@@ -103,7 +105,7 @@ Als Händler erhalten Sie tiefere Einblicke in Ihre Kampagnen, als Sie je hatten
 
 ![Schritt Ergebnis](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
+See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 ## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
 
@@ -117,7 +119,7 @@ Ziehen Sie ein Segment auf der Projektebene auf den Freiformbereich, damit das S
 
 ![](assets/segment-panel.png)
 
-Siehe [Segmente](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+Siehe [Segmente](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -140,7 +142,7 @@ Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, 
 | Freigabe | Gilt nur für Segmente. |
 | Löschen | Gilt nur für Segmente. |
 
-Weitere Informationen zu diesem Thema finden Sie unter [Visualisierungen](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276).
+Weitere Informationen zu diesem Thema finden Sie unter [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -163,7 +165,7 @@ Es gibt keine technische Einschränkung für die Anzahl der Freiform-Tabellen un
 * Sortieren der vordefinierten Datumsbereiche (ohne benutzerdefinierte Datumsbereiche)
 * STRG (oder Command) + Klick + Ziehen einer Spalte kopiert die Spalte. Wenn Sie die Kopie ziehen, wird sie an der neuen Position in die Tabelle eingefügt.
 
-See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for more information.
+See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
 
 **Auswahlen und Aktionen**
 
