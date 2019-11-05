@@ -9,7 +9,7 @@ title: Dynamische Variablen
 topic: Entwickler und Implementierung
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ Ein deutlicher Vorteil von dynamischen Variablen besteht darin, lange Datenzeich
 
 In der Adobe-Bildanforderung, die in der Seitenansicht auftritt, sehen Sie (wenn Sie dynamische Variablen zum Kopieren des Werts von [!UICONTROL benutzerspezifischem Traffic ] in [!UICONTROL benutzerspezifische Konversion ] verwenden) `v1=D=c1`1=1. Wenn eVar1 bereits zuvor einen Wert aus der Anforderung erhalten hat, kopieren die Server von Adobe während der Datenverarbeitung den Wert von [!UICONTROL benutzerspezifischem Traffic 1] dynamisch in [!UICONTROL benutzerspezifischer Konversion 1]. Als Ergebnis erscheint der Wert, der ursprünglich mit [!UICONTROL benutzerspezifischem Traffic 1] übergeben wurde, auch in den [!UICONTROL benutzerspezifischer Konversion 1]-Berichten.
 
-Dynamische Variablen werden übergeben, indem eine Variable auf den gewünschten Wert gesetzt wird und andere Variablen anschließend auf `D=[variable abbreviation]` gesetzt werden. Abkürzungen für jede Variable finden Sie unter [Datenerfassungs-Abfrageparameter](../../../implement/js-implementation/data-collection/query-parameters.md). Dynamische Variablen können Daten von folgenden Orten abrufen:
+Dynamische Variablen werden übergeben, indem eine Variable auf den gewünschten Wert gesetzt wird und andere Variablen anschließend auf `D=[variable abbreviation]` gesetzt werden. Abkürzungen für jede Variable finden Sie unter [Datenerfassungs-Abfrageparameter](/help/implement/js-implementation/data-collection/query-parameters.md). Dynamische Variablen können Daten von folgenden Orten abrufen:
 
 * Andere Abfragezeichenfolgevariablen
 * HTTP-Header (den Cookie-HTTP-Header ausgenommen)
