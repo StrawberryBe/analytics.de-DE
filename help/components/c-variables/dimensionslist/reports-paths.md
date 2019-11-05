@@ -7,7 +7,7 @@ title: Pfade
 topic: Berichte
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ Pfadberichte enthalten standardmäßig umfassende und optional erweiterte Analys
 
 ![](assets/fallout_graphic.png)
 
-Siehe [Trichteranalyse](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+Siehe [Trichteranalyse](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: Hiermit können Sie Ihre vollständigen Pfade weiter in Fragmente aufschlüsseln, um die genauen Muster zu ermitteln, mit denen Sie Ihre Site optimieren können. Mit dem PathFinder-Assistenten können Sie Auswahlkriterien angeben, die für die Berichterstellung verwendet werden, damit Sie die Pfadfragmente analysieren und diejenigen abfragen können, die mit einer bestimmten Seite beginnen oder enden, oder auch solche, die mit einer Seite beginnen und mit einer anderen enden.
 
