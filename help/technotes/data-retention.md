@@ -5,7 +5,7 @@ title: Datenaufbewahrungsrichtlinie
 description: Eine Datenaufbewahrungsrichtlinie bestimmt, wie lange Adobe Ihre Daten speichert.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: b135a1d2ddea4857496e90921c22fb30bd44da50
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die D
 
 **Kann ich eine Kopie meiner Daten erhalten, bevor sie gelöscht werden?**
 
-Ja. Adobe kann eine historische Datendump mit rohen Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Datenfeeds](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) im Benutzerhandbuch zum Exportieren. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn die Anforderungen für den Datenexport außerhalb des Anwendungsbereichs der Benutzeroberfläche liegen. Es können besondere Unterkünfte geschaffen werden. die Kosten können variieren.
+Ja. Adobe kann eine historische Datendump mit rohen Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Datenfeeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) im Benutzerhandbuch zum Exportieren. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn die Anforderungen für den Datenexport außerhalb des Anwendungsbereichs der Benutzeroberfläche liegen. Es können besondere Unterkünfte geschaffen werden. die Kosten können variieren.
 
 **Wann löscht Adobe Daten?**
 
