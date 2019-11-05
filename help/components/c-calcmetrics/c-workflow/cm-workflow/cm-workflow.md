@@ -1,18 +1,18 @@
 ---
-description: Erfahren Sie mehr über die Schritte zum Erstellen errechneter Metriken.
-seo-description: Erfahren Sie mehr über die Schritte zum Erstellen errechneter Metriken.
-seo-title: Arbeitsablauf für berechnete Metriken
-title: Arbeitsablauf für berechnete Metriken
-uuid: 26 f 028 c 7-f 9 eb -4 d 8 f -8 f 03-56 f 3211087 b 4
+description: Erfahren Sie mehr über die Schritte zum Erstellen von berechneten Metriken.
+seo-description: Erfahren Sie mehr über die Schritte zum Erstellen von berechneten Metriken.
+seo-title: Workflow bei berechneten Metriken
+title: Workflow bei berechneten Metriken
+uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Arbeitsablauf für berechnete Metriken
+# Workflow bei berechneten Metriken
 
-Erfahren Sie mehr über die Schritte zum Erstellen errechneter Metriken.
+Erfahren Sie mehr über die Schritte zum Erstellen von berechneten Metriken.
 
 | Aufgabe des Arbeitsablaufs | Beschreibung |
 | --- | --- |
