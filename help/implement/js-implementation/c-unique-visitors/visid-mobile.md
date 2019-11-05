@@ -8,7 +8,7 @@ title: Mobile Geräte identifizieren
 topic: Entwickler und Implementierung
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings keine Cookies akzeptieren, werden Wireless-Geräte anhand einer anderen Methode eindeutig identifiziert.
 
-Adobe hat eine Reihe von HTTP-[Abonnenten-ID-Headern](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) identifiziert, über die die meisten Mobilgeräte eindeutig identifiziert werden können. Diese Header enthalten oftmals die Telefonnummer des Geräts (in Klartext- oder Hashform) oder andere IDs. Die meisten aktuellen Geräte verfügen über einen oder mehrere der Header, anhand derer das Gerät eindeutig identifiziert werden kann, und alle Adobe-Datenerfassungsserver verwenden diese Header dann automatisch anstelle einer Besucher-ID.
+Adobe hat eine Reihe von HTTP-[Abonnenten-ID-Headern](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) identifiziert, über die die meisten Mobilgeräte eindeutig identifiziert werden können. Diese Header enthalten oftmals die Telefonnummer des Geräts (in Klartext- oder Hashform) oder andere IDs. Die meisten aktuellen Geräte verfügen über einen oder mehrere der Header, anhand derer das Gerät eindeutig identifiziert werden kann, und alle Adobe-Datenerfassungsserver verwenden diese Header dann automatisch anstelle einer Besucher-ID.
 
 In einer normalen Bildanforderung führt eine „1“ im Pfad (`/b/ss/rsid/1`) dazu, dass Adobe-Server ein GIF-Bild zurückgeben und versuchen, ein beständiges [!UICONTROL Besucher-ID]-Cookie (`AMCV_` oder `s_vi`) zu setzen. Wenn das Gerät allerdings basierend auf den HTTP-Headern als Mobilgerät erkannt wird, wird eine „5“ anstelle der „1“ übergeben. Dies gibt an, dass ein Bild im WBMP-Format zurückgegeben werden soll und dass unsere Liste mit bekannten Wireless-Headern (kein Cookie) zur Identifizierung des Geräts verwendet werden soll.
 
@@ -88,4 +88,4 @@ In der folgenden Liste sind die Header aufgeführt, mit denen Wireless-Geräte i
 
 So würde zum Beispiel „callinglineid“ mit „X-Up-Calling-Line-ID“ und „nokia-callinglineid“ übereinstimmen. Anhand des Header-Typs erkennen wir, was im Header stehen soll. Die Reihenfolge der Einträge in der Liste gibt die Priorität der Header wieder (wenn z. B. ein „callinglineid“-Header vorhanden ist, wird er anstelle von „subno“ verwendet).
 
-Sie können [dynamische Variablen](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) verwenden, um spezielle Werte aus einem Header zu extrahieren.
+Sie können [dynamische Variablen](/help/implement/js-implementation/c-variables/dynvars-overview.md) verwenden, um spezielle Werte aus einem Header zu extrahieren.
