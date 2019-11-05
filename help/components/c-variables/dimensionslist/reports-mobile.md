@@ -7,7 +7,7 @@ title: Mobile
 topic: Berichte
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ Die folgenden Mobile-Berichte sind verfügbar:
   </tr> 
   <tr> 
    <td colname="col1"> Betriebssystem (veraltet) </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem mobilen Betriebssystem, das auf dem Gerät ausgeführt wird. Zu den mobilen Betriebssystemen gehören Windows, RIM, iOS, Symbian etc. Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Hinweis: Dieser Bericht wurde nicht mehr unterstützt, als der Bericht "Technologie"&gt; "Betriebssysteme<a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> </a> "aktualisiert wurde, um alle Betriebssysteme, einschließlich Mobilgeräte, einzuschließen. Sie können ein Segment erstellen, wenn „Mobilgeräte“ vorhanden ist, und es auf den Bericht „Technologie &gt; Betriebssysteme“ anwenden, um lediglich Betriebssysteme für Mobilgeräte anzuzeigen. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem mobilen Betriebssystem, das auf dem Gerät ausgeführt wird. Zu den mobilen Betriebssystemen gehören Windows, RIM, iOS, Symbian etc. Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Hinweis: Dieser Bericht wurde nicht mehr unterstützt, als der Bericht "Technologie"&gt; "Betriebssysteme<a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > </a> "aktualisiert wurde, um alle Betriebssysteme, einschließlich Mobilgeräte, einzuschließen. Sie können ein Segment erstellen, wenn „Mobilgeräte“ vorhanden ist, und es auf den Bericht „Technologie &gt; Betriebssysteme“ anwenden, um lediglich Betriebssysteme für Mobilgeräte anzuzeigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java-Version </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach der von diesen Geräten unterstützten Java-Version. Der Bericht zur Java-Version identifiziert die Java-Version nach dem vom Gerät unterstützten Java Specification Request (JSR). Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Weitere Informationen zu bestimmten JSRs finden Sie auf der Website <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a>. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach der von diesen Geräten unterstützten Java-Version. Der Bericht zur Java-Version identifiziert die Java-Version nach dem vom Gerät unterstützten Java Specification Request (JSR). Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Weitere Informationen zu bestimmten JSRs finden Sie auf der Website <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Länge der Lesezeichen-URL </td> 
