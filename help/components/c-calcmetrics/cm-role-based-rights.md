@@ -5,7 +5,7 @@ seo-title: Rollenbasierte berechnete Metriken
 title: Rollenbasierte berechnete Metriken
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administrat
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
-   <td colname="col02"> Administratoren können berechnete Metriken sowie <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Gruppen</a> erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
+   <td colname="col02"> Administratoren können berechnete Metriken sowie <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Gruppen</a> erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
    <td colname="col3"> <span class="keyword"> [!UICONTROL Reports &amp; Analysen] </span>: Kann ihre eigenen berechneten Metriken und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword">Ad Hoc Analysis</span> und <span class="keyword">Report Builder</span>: Können ihre eigenen berechneten Metriken und die, die für sie freigegeben wurden, anzeigen/bearbeiten/löschen usw. </p> </td> 
    <td colname="col4"> Können berechnete Metriken als autorisiert genehmigen. </td> 
