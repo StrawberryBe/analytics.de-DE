@@ -5,7 +5,7 @@ seo-title: In Power BI veröffentlichen – Übersicht
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Durch Kombination der Berichterstellungsfunktion von ReportBuilder mit den Visua
 
 Die Integration mit Adobe ReportBuilder ermöglicht Ihnen Folgendes
 
-* [Terminierte ReportBuilder-Arbeitsmappen in Power BI veröffentlichen](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [Alle ReportBuilder-Anforderungen als Power BI-Datensatztabellen veröffentlichen](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Terminierte ReportBuilder-Arbeitsmappen in Power BI veröffentlichen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Alle ReportBuilder-Anforderungen als Power BI-Datensatztabellen veröffentlichen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Systemanforderungen {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe ReportBuilder 5.5 [installiert](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe ReportBuilder 5.5 [installiert](/help/analyze/report-builder/setup/t-install-arb.md)
 * Aktives Microsoft-Konto für die Anmeldung bei Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller 
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Optional) Sie können den Namen des veröffentlichten Assets in Power BI anpassen. Dies kann nützlich sein, wenn Sie eine Versionsnummer als Teil des Arbeitsmappennamens verwenden (z. B. meineArbeitsmappe_v1.1.xlsx) und nicht möchten, dass die Versionsnummer im Namen des veröffentlichten Power BI-Assets angezeigt wird. Dies hat den zusätzlichen Vorteil, dass sich das veröffentlichte Asset nicht ändert, wenn sich die Versionsnummer ändert. ([Angaben](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD) dazu finden Sie hier.)
+1. (Optional) Sie können den Namen des veröffentlichten Assets in Power BI anpassen. Dies kann nützlich sein, wenn Sie eine Versionsnummer als Teil des Arbeitsmappennamens verwenden (z. B. meineArbeitsmappe_v1.1.xlsx) und nicht möchten, dass die Versionsnummer im Namen des veröffentlichten Power BI-Assets angezeigt wird. Dies hat den zusätzlichen Vorteil, dass sich das veröffentlichte Asset nicht ändert, wenn sich die Versionsnummer ändert. ([Angaben](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) dazu finden Sie hier.)
 
 **Tabellendaten in Power BI anzeigen**
 
