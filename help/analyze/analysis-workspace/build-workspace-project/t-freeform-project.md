@@ -8,7 +8,7 @@ title: Workspace-Projekt erstellen
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
 
-In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird. Spezifische Anwendungsfälle finden Sie unter [Anwendungsfälle für den Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird. Spezifische Anwendungsfälle finden Sie unter [Anwendungsfälle für den Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Erstellen Sie ein Projekt
 
@@ -38,8 +38,8 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
    Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 * Ein leeres Projekt (Standard). Eine Anleitung finden Sie unten.
-* Eine Standardvorlage. Diese Vorlagen wurden von Adobe erstellt und können sofort verwendet werden. Eine Anleitung finden Sie unter [Vorlagen](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
-* Eine benutzerdefinierte Vorlage. Diese Vorlagen werden von Benutzern mit Administratorrechten erstellt. Eine Anleitung finden Sie unter [Vorlagen](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
+* Eine Standardvorlage. Diese Vorlagen wurden von Adobe erstellt und können sofort verwendet werden. Eine Anleitung finden Sie unter [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* Eine benutzerdefinierte Vorlage. Diese Vorlagen werden von Benutzern mit Administratorrechten erstellt. Eine Anleitung finden Sie unter [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
    ![](assets/start_modal.png)
 
@@ -64,15 +64,15 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462" format="dita" scope="local"> Komponenten</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > Komponenten</a> </td> 
    <td colname="col2"> <p>Dimensionen, Metriken, Segmente und Datumsbereiche, die Sie in Projekte ziehen können </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualisierungen</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualisierungen</a> </td> 
    <td colname="col2"> <p>Elemente, die Sie in den Bereich oder die Projektbereiche der Benutzeroberfläche ziehen können </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local">Freiformbereich</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >Freiformbereich</a> </td> 
    <td colname="col2"> <p>Die Arbeitsfläche bzw. der Arbeitsbereich, in dem Sie mit dem Analysis Workspace interagieren </p> </td> 
   </tr> 
  </tbody> 
@@ -116,7 +116,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
   </tr> 
   <tr> 
    <td colname="col1"> Segmente (blau) </td> 
-   <td colname="col2"> <p>Können per Drag &amp; Drop nur auf Bereichsebene angewendet werden, Sie können jedoch Inline-Segmente in der Datentabelle erstellen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Weitere Informationen finden Sie unter <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Anwendungsfälle für den Analysis Workspace</a> . </p> </td> 
+   <td colname="col2"> <p>Können per Drag &amp; Drop nur auf Bereichsebene angewendet werden, Sie können jedoch Inline-Segmente in der Datentabelle erstellen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Anwendungsfälle für den Analysis Workspace</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datumsbereiche und Granularitäten (violett) </td> 
@@ -125,9 +125,9 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche des Analysis Works
  </tbody> 
 </table>
 
-**[Visualisierungen](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)**
+**[Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-Der Bereich [!UICONTROL Visualisierungen] enthält standardmäßige Analytics-Graphen, Ringdiagramme, Datentabellen, [Kohorten](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E)-Tabellen, Venn-Diagramme usw. Sie können mehrere Visualisierungen per Drag &amp; Drop in Ihrem Projekt platzieren.
+Der Bereich [!UICONTROL Visualisierungen] enthält standardmäßige Analytics-Graphen, Ringdiagramme, Datentabellen, [Kohorten](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)-Tabellen, Venn-Diagramme usw. Sie können mehrere Visualisierungen per Drag &amp; Drop in Ihrem Projekt platzieren.
 
 ![Schritt Ergebnis](assets/visualizations.png)
 
@@ -150,11 +150,11 @@ Im Kontextmenü (Rechtsklick) können Sie die folgenden Aktionen ausführen (abh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Spalte mit Zeitraum hinzufügen</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Spalte mit Zeitraum hinzufügen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Zeiträume vergleichen</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Zeiträume vergleichen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -166,11 +166,11 @@ Im Kontextmenü (Rechtsklick) können Sie die folgenden Aktionen ausführen (abh
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Warnhinweis aus Auswahl erstellen</a> </td> 
+   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md"  > Warnhinweis aus Auswahl erstellen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4" format="dita" scope="local"> Aufschlüsselung</a> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > Aufschlüsselung</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensionen </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Metriken </li> 
@@ -180,23 +180,23 @@ Im Kontextmenü (Rechtsklick) können Sie die folgenden Aktionen ausführen (abh
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> Visualisieren</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > Visualisieren</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local"> Als CSV herunterladen</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > Als CSV herunterladen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/analysis-workspace-features.md#concept_4D69EE46E3C24EEB97C935A8789364F9" format="dita" scope="local"> Trendauswahl</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Trendauswahl</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Segment aus Auswahl erstellen</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segment aus Auswahl erstellen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793" format="dita" scope="local"> In Segmentvergleich ausführen</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > In Segmentvergleich ausführen</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -210,4 +210,4 @@ Im Kontextmenü (Rechtsklick) können Sie die folgenden Aktionen ausführen (abh
  </tbody> 
 </table>
 
-Informationen zum Kopieren und Auswählen von Zeilen finden Sie unter [Tastatur- und Mausinteraktionen in Analysis Workspace](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051).
+Informationen zum Kopieren und Auswählen von Zeilen finden Sie unter [Tastatur- und Mausinteraktionen in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
