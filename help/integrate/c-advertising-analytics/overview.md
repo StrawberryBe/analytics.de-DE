@@ -5,7 +5,7 @@ seo-title: Advertising Analytics-Übersicht
 title: Advertising Analytics-Übersicht
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing
 
 > [!NOTE] Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing aufgenommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
 
-Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Neu: [Paid Search-Performance](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254)-Vorlage in Analysis Workspace vereinfacht die Analyse.
+Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Neu: [Paid Search-Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)-Vorlage in Analysis Workspace vereinfacht die Analyse.
 
 ![](assets/aa_aw.png)
 
@@ -30,13 +30,13 @@ Diese Integration zielt auf folgende Zielgruppen ab:
 * Advertising Analytics steht nur für die Adobe Analytics-SKUs [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) und [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) zur Verfügung.
 
 * Diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung.
-* Sie müssen Adobe Analytics-Administrator sein, um auf Advertising Analytics zugreifen zu können. Daraufhin können Sie auch Nicht-Administratoren [Zugriffsberechtigungen erteilen](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* Sie müssen Adobe Analytics-Administrator sein, um auf Advertising Analytics zugreifen zu können. Daraufhin können Sie auch Nicht-Administratoren [Zugriffsberechtigungen erteilen](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 * Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Sie benötigen die Anmeldedaten eines Benutzers mit Bearbeitungsberechtigungen für die Suchkonten, die Sie in Adobe Analytics integrieren möchten wie z. B. Google-Konto-ID und -Passwort.
 * Bei Bing Ads benötigen Sie darüber hinaus die Bing-Kunden-ID.
-* Wenn Sie Internet Explorer 11 (oder niedriger) verwenden, können Sie für keine der drei Suchmaschinen [ein Werbekonto einrichten](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C). Verwenden Sie stattdessen einen anderen Webbrowser.
+* Wenn Sie Internet Explorer 11 (oder niedriger) verwenden, können Sie für keine der drei Suchmaschinen [ein Werbekonto einrichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Verwenden Sie stattdessen einen anderen Webbrowser.
 
 ## Advertising Analytics-Berechtigungen {#section_FCC58EB635954A32990D4E67B52B4369}
 
