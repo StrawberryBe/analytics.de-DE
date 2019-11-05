@@ -7,7 +7,7 @@ title: Unique Visitors
 topic: Metriken
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ In Version 15 werden doppelte [!UICONTROL Besuche] und [!UICONTROL Unique Visito
 | Konversion | Ein Besucher ist eine Person, die auf Ihre Website gelangt. Wird gezählt, wenn ein(e) konversionsbezogene(s) Ereignis/Aktion auftritt. |
 | Ad Hoc Analysis  | Ein Besucher ist eine Person, die auf Ihre Website gelangt. Erfordert kein persistentes Cookie. |
 
-Siehe Bericht " [Individuelle Besucher"- Version 15 und Ad-hoc-Analysen](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+Siehe Bericht " [Individuelle Besucher"- Version 15 und Ad-hoc-Analysen](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md).
 
 >[!MORELIKETHIS]
 >
