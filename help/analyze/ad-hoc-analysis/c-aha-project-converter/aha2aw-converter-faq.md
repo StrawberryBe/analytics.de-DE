@@ -5,7 +5,7 @@ seo-title: Project Converter – FAQ
 title: Project Converter – FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 ---
 
@@ -14,8 +14,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## Project Converter – FAQ {#topic_8231595303AD403E9322645A63632D57}
 
-* [Bekannte Konvertierungsprobleme](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [Häufig gestellte Fragen zur Konversion](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [Bekannte Konvertierungsprobleme](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [Häufig gestellte Fragen zur Konversion](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
 ## Bekannte Konvertierungsprobleme {#section_39C922A58B2E49C9877B363042801361}
 
@@ -52,9 +52,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>A: Beachten Sie, dass Diagramme und Grafiken in Workspace als „Visualisierungen“ bezeichnet werden. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Einstellungen</b>: Visualisierungseinstellungen wie die „Anzahl der Elemente“ oder „Anzahl an Balken“ werden in Workspace nicht unterstützt. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Tortendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html" format="html" scope="external">Donut</a>-Visualisierung. Diese Visualisierung wird in Workspace nach 19 Abschnitten abgeschnitten. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Blasendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html" format="html" scope="external">Streudiagramm</a>-Visualisierung. Im Streudiagramm wird die erste Kennzahl standardmäßig auf der X-Achse positioniert und die zweite auf der Y-Achse. Sofern nur eine Kennzahl vorhanden ist, werden Blasendiagramme in Linienvisualisierungen umgewandelt. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramm</b>: Unterstützt für Analysis Workspace und Ad Hoc Analysis eine unterschiedliche Bucket-Logik. Daher wird ein Histogramm in eine <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html" format="html" scope="external">Balken</a>visualisierung umgewandelt. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Tortendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  >Donut</a>-Visualisierung. Diese Visualisierung wird in Workspace nach 19 Abschnitten abgeschnitten. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Blasendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  >Streudiagramm</a>-Visualisierung. Im Streudiagramm wird die erste Kennzahl standardmäßig auf der X-Achse positioniert und die zweite auf der Y-Achse. Sofern nur eine Kennzahl vorhanden ist, werden Blasendiagramme in Linienvisualisierungen umgewandelt. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramm</b>: Unterstützt für Analysis Workspace und Ad Hoc Analysis eine unterschiedliche Bucket-Logik. Daher wird ein Histogramm in eine <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  >Balken</a>visualisierung umgewandelt. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Streudiagramm</b>: In exportierten Projekten in Analysis Workspace wird die Y-Achse als erste Spalte, die X-Achse als zweite und der Durchmesser als dritte Spalte festgelegt. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Trichteranalysetabellen</b>: Wenn Sie Fallthrough- oder Trichteranalysetabellen anzeigen möchten, klicken Sie mit der rechten Maustaste auf den Checkpoint und wählen eine Aufschlüsselungsoption aus. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumsbereiche für Trichteranalyse-Berichtsebene</b>: Angepasste Datumsbereiche werden nicht auf Trichteranalyse-Visualisierungen angewendet. </li> 
@@ -70,7 +70,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Segmente der Ad Hoc Analysis auf Arbeitsbereichsebene werden in Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Segmente der Ad Hoc Analysis auf Berichtsebene werden in Workspace auf Tabellenspaltenebene angewendet. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis-Tabellensegmente werden in Workspace auf Spaltenebene angewendet. </li> 
-    </ul> <p>Die Segmente lassen sich im <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="https" scope="external">Segment-Builder</a> bearbeiten. </p> </td> 
+    </ul> <p>Die Segmente lassen sich im <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >Segment-Builder</a> bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden Datumsbereiche konvertiert?</b> </p> </td> 
@@ -88,7 +88,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_010572F793F54680ABE64117DAB7E800">Berechnete Kennzahlen befinden sich innerhalb des exportierten Projekts (und sind nicht öffentlich). Sie können diese jedoch als öffentlich festlegen, indem Sie mit der rechten Maustaste auf die Kennzahl klicken und die Option <span class="uicontrol">Veröffentlichen</span> wählen. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">Für den Export werden alle Arten berechneter Kennzahlen unterstützt. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>Zuordnungstypen</b>: Obwohl in Analysis Workspace der Zuordnungstyp einer berechneten Kennzahl nicht explizit angezeigt wird, wird beim Export der Zuordnungstyp erstellt und zugeordnet, der in Ad Hoc Analysis vorhanden war. </li> 
-    </ul> <p>Sie haben die Möglichkeit, den Zuordnungstyp im <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/" format="https" scope="external">Generator für berechnete Metriken</a> zu bearbeiten, indem Sie auf das Symbol zum Bearbeiten (Bleistift) klicken. </p> </td> 
+    </ul> <p>Sie haben die Möglichkeit, den Zuordnungstyp im <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  >Generator für berechnete Metriken</a> zu bearbeiten, indem Sie auf das Symbol zum Bearbeiten (Bleistift) klicken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden globale Dateneinstellungen in Ad Hoc Analysis auf konvertierte Projekte angewendet?</b> </p> </td> 
@@ -104,7 +104,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Gibt es für die beiden Tools Unterschiede bei der Benennung?</b> </p> </td> 
-   <td colname="col2"> <p>A: Ja. Weitere Informationen zu diesem Thema finden Sie in der Dokumentation von Analysis Workspace unter dem <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html" format="html" scope="external">Vergleich der wichtigsten Terminologie</a>. </p> </td> 
+   <td colname="col2"> <p>A: Ja. Weitere Informationen zu diesem Thema finden Sie in der Dokumentation von Analysis Workspace unter dem <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >Vergleich der wichtigsten Terminologie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
