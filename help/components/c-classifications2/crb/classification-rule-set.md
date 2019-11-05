@@ -8,7 +8,7 @@ title: Klassifizierungsregelsätze
 topic: Admin Tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
-## Klassifizierungsregelsätze {#concept_CD3D510F5070486584F3BB535AE41524}
+## Klassifizierungsregelsätze
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
@@ -36,7 +36,7 @@ Die Seite [!UICONTROL Classifications Rule Builder] bietet die nachfolgenden Fel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Regelsatz hinzufügen</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Regelsatz hinzufügen</a> </p> </td> 
    <td colname="col2"> <p>Erstellt einen Regelsatz. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Die Seite [!UICONTROL Classifications Rule Builder] bietet die nachfolgenden Fel
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#task_86F216DFD2534FA181E64ABDF306782B}
+## Create a Classification Rule Set {#create-classification-rule-set}
 
 <!-- 
 
@@ -89,6 +89,6 @@ Benennen Sie den Classification-Regelsatz, wenden Sie die Variable an und legen 
 
    Die Report Suite und die Variablenliste werden mit allen klassifizierten Variablen ausgefüllt, die in allen Report Suites Ihres angemeldeten Unternehmens verfügbar sind. Eine Variable in einer Report Suite kann nur zu jeweils einem einzigen Regelsatz gehören.
 
-   Siehe *`Variable`* in den Definitionen für die Seite [Classification Rule Builder](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) für weitere Informationen.
+   Siehe *`Variable`* in den Definitionen für die Seite [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) für weitere Informationen.
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) to the rule set.
+1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
