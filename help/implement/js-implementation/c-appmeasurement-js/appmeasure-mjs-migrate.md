@@ -9,7 +9,7 @@ title: Migration zu AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,13 +18,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 In der folgenden Tabelle sind die Schritte aufgelistet, die Sie durchführen müssen, um Ihre Implementierung zu migrieren.
 
-> [!NOTE] Wir empfehlen die Migration zum [Identitätsdienst](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07), wenn Sie zu [!DNL AppMeasurement] für JavaScript migrieren.
+>[!NOTE]
+>
+>Wir empfehlen die Migration zum [Identitätsdienst](/help/implement/js-implementation/c-unique-visitors/visid-service.md), wenn Sie zu [!DNL AppMeasurement] für JavaScript migrieren.
 
 ![](assets/step1_icon.png) Überprüfen der Plug-in-Kompatibilität
 
 Dabei gilt: s\_code.js
 
-Einige Plug-ins werden nicht mehr unterstützt. Siehe [AppMeasurement-Plug-in-Unterstützung](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+Einige Plug-ins werden nicht mehr unterstützt. Siehe [AppMeasurement-Plug-in-Unterstützung](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 ![](assets/step2_icon.png) Herunterladen der neuen Version von AppMeasurement
 
@@ -42,7 +44,7 @@ Verschieben Sie sämtlichen Code, der vor dem Abschnitt `DO NOT ALTER ANYTHING B
 
 Wo: AppMeasurement.js
 
-Wenn Sie das getQueryParam-Plug-in verwenden, aktualisieren Sie diese Aufrufe zwecks Verwendung des neuen Hilfsprogramms [Util.get.QueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+Wenn Sie das getQueryParam-Plug-in verwenden, aktualisieren Sie diese Aufrufe zwecks Verwendung des neuen Hilfsprogramms [Util.get.QueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ![](assets/step5_icon.png) (Optional) Aktualisieren der Media- und Integrate-Module
 
