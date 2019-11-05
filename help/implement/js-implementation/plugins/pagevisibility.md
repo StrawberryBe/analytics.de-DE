@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Entwickler und Implementierung
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ Erfasst die Zeitspanne in Sekunden, während der Ihre Seite die aktive Registerk
 
 > [!NOTE] Dies ist eine Betaversion des Plug-ins. Möglicherweise wird es weitere Updates geben.
 
-Dieses Plug-in benötigt [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Dieses Plug-in benötigt [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md).
 
 Dieses Plug-in erfasst auch die Zeitspanne, während der die Seite im Browser geöffnet war (sowohl aktiv als auch inaktiv). Das getPreviousValue-Plug-in muss verwendet werden, um den Namen der vorherigen Seite in Verbindung mit der Anzeige der Seite nachzuverfolgen. Anhand dieser Werte können Sie die Interaktionen Ihrer Besucher nachvollziehen und das Verhalten der Besucher Ihrer Seiten verfolgen.
 
