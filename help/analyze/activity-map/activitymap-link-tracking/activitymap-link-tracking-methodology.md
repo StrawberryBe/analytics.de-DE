@@ -7,7 +7,7 @@ title: Linktracking Methodik
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrun
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 In Activity Map basiert Linktracking auf diesen beiden IDs:
 
@@ -113,7 +113,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Konfigurationsvariablen {#section_634197EACD404AC086DF9A03B813C8C3}
+## Konfigurationsvariablen {#configuration-vars}
 
 Beachten Sie, dass diese Variablen nur zu Referenzzwecken aufgelistet werden. Activity Map sollte standardmäßig korrekt konfiguriert sein, Sie können Ihre Implementierung jedoch mit diesen Variablen anpassen.
 
