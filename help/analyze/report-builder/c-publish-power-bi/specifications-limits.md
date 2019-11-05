@@ -5,7 +5,7 @@ seo-title: Einschränkungen und Spezifikationen
 title: Einschränkungen und Spezifikationen
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ Bearbeiten einer ReportBuilder-Anforderung nach der Veröffentlichung in Power 
    **Beispiel für eine Bearbeitung MIT Beschädigung der Visualisierung:**
 
    1. Erstellen Sie in ReportBuilder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
-   1. [Planen](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) Sie die Veröffentlichung dieser Anforderung in Power BI.
+   1. [Planen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) Sie die Veröffentlichung dieser Anforderung in Power BI.
    1. Erstellen Sie in Power BI eine Visualisierung für „Seite“ und „Seitenansichten“.
    1. Bearbeiten Sie die Arbeitsmappe, indem Sie „Seitenansichten“ aus der Anforderung entfernen.
    1. Bearbeiten Sie den Plan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anforderung für Power BI erneut.
@@ -43,7 +43,7 @@ Bearbeiten einer ReportBuilder-Anforderung nach der Veröffentlichung in Power 
    **Beispiel für eine Bearbeitung OHNE Beschädigung der Visualisierung:**
 
    1. Erstellen Sie in ReportBuilder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
-   1. [Planen](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) Sie die Veröffentlichung dieser Anforderung in Power BI.
+   1. [Planen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) Sie die Veröffentlichung dieser Anforderung in Power BI.
    1. Erstellen Sie in Power BI eine Visualisierung für „Seite“ und „Seitenansichten“.
    1. Bearbeiten Sie die Arbeitsmappe in ReportBuilder, indem Sie die Metrik für Besuche hinzufügen und „Seite“ sowie „Seitenansichten“ beibehalten.
    1. Bearbeiten Sie den Plan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anforderung für Power BI erneut.
