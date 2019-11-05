@@ -1,18 +1,18 @@
 ---
 description: Sie können Dimensionen filtern, die Sie dem Raster „Zeilenbezeichnungen“ hinzugefügt haben. Filter engen die von Anforderungen zurückgegebenen Daten ein und können sowohl auf Pivot- als auch auf benutzerdefinierte Layouts angewendet werden. Wenn Sie die Filterung von Dimensionen im Pivot-Layout konfigurieren, können Sie zusätzlich die Anzahl der Einträge von einer Zelle angeben.
 seo-description: Sie können Dimensionen filtern, die Sie dem Raster „Zeilenbezeichnungen“ hinzugefügt haben. Filter engen die von Anforderungen zurückgegebenen Daten ein und können sowohl auf Pivot- als auch auf benutzerdefinierte Layouts angewendet werden. Wenn Sie die Filterung von Dimensionen im Pivot-Layout konfigurieren, können Sie zusätzlich die Anzahl der Einträge von einer Zelle angeben.
-seo-title: Filterung von Dimensionen
+seo-title: Übersicht über Filterdimensionen
 solution: Analytics
-title: Filterung von Dimensionen
+title: Übersicht über Filterdimensionen
 topic: ReportBuilder
-uuid: c 54 d 5 add-f 278-476 d -8 f 14-73 f 1 c 2 e 37671
+uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Filterung von Dimensionen
+# Übersicht über Filterdimensionen
 
 Sie können Dimensionen filtern, die Sie dem Raster „Zeilenbezeichnungen“ hinzugefügt haben. Filter engen die von Anforderungen zurückgegebenen Daten ein und können sowohl auf Pivot- als auch auf benutzerdefinierte Layouts angewendet werden. Wenn Sie die Filterung von Dimensionen im Pivot-Layout konfigurieren, können Sie zusätzlich die Anzahl der Einträge von einer Zelle angeben.
 
@@ -40,13 +40,13 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
    <td colname="col1"> <p>Enthält alle Begriffe </p> </td> 
    <td colname="col02"> <p>Enthält jeden durch Leerzeichen getrennten Wert in jeder beliebigen Reihenfolge. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Stimmt überein mit <span class="term"> a b cand</span><span class="term"> b a c</span>usw. </p> </td> 
+   <td colname="col3"> <p>Stimmt überein mit <span class="term"> a</span>cand <span class="term"> b c</span>usw. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enthält einen der Begriffe </p> </td> 
    <td colname="col02"> <p>Enthält mindestens einen der Filter (durch Leerzeichen getrennt). </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>Stimmt überein mit <span class="term"> A 1</span>, <span class="term"> B 2</span>, <span class="term"> C 3</span>, aber nicht <span class="term"> D 4</span>. </p> </td> 
+   <td colname="col3"> <p>Stimmt überein mit <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, aber nicht <span class="term"> D4</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enthält die Wortgruppe </p> </td> 
@@ -64,37 +64,37 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
    <td colname="col1"> <p>Enthält nicht die Wortgruppe </p> </td> 
    <td colname="col02"> <p>Gibt alles zurück, das nicht Ihre Wortgruppe enthält. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Ausgeschlossen sind <span class="term"> abc</span>, <span class="term"> abc def</span> und entspricht <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>Ausgeschlossen sind <span class="term"> abc</span>, <span class="term"> abc def</span> und stimmt mit <span class="term"> def überein</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gleich </p> </td> 
    <td colname="col02"> <p>Gibt einen exakten Treffer zurück. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span> wird zurückgegeben und nichts anderes. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span> zurückgegeben wird und nichts anderes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ist nicht gleich </p> </td> 
    <td colname="col02"> <p>Gibt alles zurück, das nicht genau Ihrem Eintrag entspricht. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>Stimmt nicht überein mit <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Matches <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>Stimmt nicht überein mit <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Stimmt mit <span class="term"> abc</span>überein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Beginnt mit </p> </td> 
    <td colname="col02"> <p>Gibt Ergebnisse zurück, die mit einem bestimmten Wert beginnen. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Stimmt überein mit <span class="term"> abcd</span> , aber nicht <span class="term"> 1 abc</span> </p> </td> 
+   <td colname="col3"> <p>Stimmt überein mit <span class="term"> abcd</span> , aber nicht <span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Endet auf </p> </td> 
    <td colname="col02"> <p>Gibt Ergebnisse zurück, die mit einem bestimmten Wert enden. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Stimmt überein mit <span class="term"> wxyz</span> , aber nicht <span class="term"> wxyz 0</span> </p> </td> 
+   <td colname="col3"> <p>Stimmt überein mit <span class="term"> wxyz</span> , aber nicht <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erweitert (Sonderzeichen) </p> </td> 
    <td colname="col02"> <p>Ermöglicht die Suche nach Zeichen in regulären Ausdrücken: </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Home*Page$" | Sport </p> </td> 
-   <td colname="col3"> <p> Dadurch wird ein Filter definiert, der mit <span class="term"> Startseite</span>, sucht nach null oder mehr Zeichen und endet dann mit <span class="term"> Seite</span>. </p> <p>Also, any page with <span class="term"> sports</span> in it. </p> <p>Beispiele für Treffer sind: </p> 
+   <td colname="col3"> <p> Dadurch wird ein Filter definiert, der mit <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>Auch jede Seite mit <span class="term"> Sport</span> darin. </p> <p>Beispiele für Treffer sind: </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">HomePage </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Home und (andere Zeichen) Page </li> 
@@ -119,7 +119,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> Gleich </td> 
-   <td colname="col3"> <p>Nicht mit einem Escapezeichen versehen, sofern es nicht mit einem anderen Anführungszeichen verwendet wird. Beispiel: <span class="term"> 17 "Anzeige</span> ist keine Wortgruppe. </p> </td> 
+   <td colname="col3"> <p>Nicht mit einem Escapezeichen versehen, sofern es nicht mit einem anderen Anführungszeichen verwendet wird. Beispiel: 17"-Anzeige<span class="term"> </span> ist keine Wortgruppe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -144,7 +144,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> Oder </td> 
-   <td colname="col3"> <p>Nur unterstützt im <span class="term"> Erweiterte (Sonderzeichen)</span> Filter. </p> </td> 
+   <td colname="col3"> <p>Nur unterstützt im <span class="term"> Erweiterter Filter (Sonderzeichen)</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
