@@ -7,7 +7,7 @@ solution: Experience Cloud, Dynamic Tag Management
 title: Bibliotheksverwaltung
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -46,7 +46,7 @@ Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellunge
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>In DTM</b>: Sie können den <span class="filepath">s_code</span> im Dynamic Tag Management hosten. Klicken Sie auf <span class="uicontrol">Code bearbeiten</span>, um die Datei direkt zu kopieren und in den Editor einzufügen. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: Wenn Sie eine leistungsstarke <span class="filepath">s_code</span>-Datei haben und diese nach Bedarf aktualisieren, können Sie die URL zu dieser Datei hier angeben. Das Dynamic Tag Management nutzt diese <span class="filepath">s_code</span>-Datei dann einfach für die Implementierung von <span class="keyword">Adobe Analytics</span>. </li> 
-    </ul> <p> <b>Bearbeiter öffnen: </b>Ermöglicht das <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> Einfügen des AppMeasurement-Core-Codes</a>. Dieser Code wird automatisch ausgefüllt, wenn die automatische Konfigurationsmethode verwendet wird, die in den <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Einstellungen von Adobe Analytics</a> beschrieben ist. </p> <p> <b>Variablenname:</b> Wenn Sie zwei Instanzen von <span class="keyword">Adobe Analytics</span> parallel ausführen möchten (eine Instanz mit Dynamic Tag Management und eine Instanz nativ), können Sie das <span class="term">Hauptobjekt</span> ändern. Durch die Umbenennung des Objektnamens wird möglichen Konflikten vorgebeugt. </p> </td> 
+    </ul> <p> <b>Bearbeiter öffnen: </b>Ermöglicht das <a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  > Einfügen des AppMeasurement-Core-Codes</a>. Dieser Code wird automatisch ausgefüllt, wenn die automatische Konfigurationsmethode verwendet wird, die in den <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  > Einstellungen von Adobe Analytics</a> beschrieben ist. </p> <p> <b>Variablenname:</b> Wenn Sie zwei Instanzen von <span class="keyword">Adobe Analytics</span> parallel ausführen möchten (eine Instanz mit Dynamic Tag Management und eine Instanz nativ), können Sie das <span class="term">Hauptobjekt</span> ändern. Durch die Umbenennung des Objektnamens wird möglichen Konflikten vorgebeugt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
