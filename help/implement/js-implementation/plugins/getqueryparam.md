@@ -9,7 +9,7 @@ title: getQueryParam
 topic: Entwickler und Implementierung
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn 
 
 >[!IMPORTANT]
 >
->Dieses Plug-in wird nur von H-Code verwendet. [AppMeasurement für JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) bietet diese Funktionalität nativ mit [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Dieses Plug-in wird nur von H-Code verwendet. [AppMeasurement für JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) bietet diese Funktionalität nativ mit [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 Nachdem das Plug-in im [!DNL AppMeasurement] für JavaScript-Code installiert wurde, wird es konfiguriert. Dazu wird eine [!DNL Analytics]-Variable ausgewählt, die mit den in der Abfragezeichenfolge gefundenen Daten aufgefüllt werden soll, und es wird angegeben, welche Werte der Abfragezeichenfolge erfasst werden sollen. Das Plug-in erkennt die angegebene Abfragezeichenfolge, soweit vorhanden, und erfasst den Wert in der ausgewählten Variablen. Wenn kein Abfragezeichenfolgen-Parameter mit diesem Wert gefunden wird, wird eine leere Zeichenfolge zurückgegeben. Wenn ein Abfragezeichenfolgenparameter vorhanden ist, aber keinen Wert hat (z. B. param1 in `?param1&param2=value`), wird das Wort *`true`* ausgegeben.
 
