@@ -8,7 +8,7 @@ title: Marketing-Kanäle verwalten
 topic: Reports and Analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,18 +17,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 
-## Marketing-Kanäle verwalten {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
-
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
-
 Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
 
 * Richten Sie in der Vorbereitung eine Liste aller Kanäle ein, so dass alle Besucherzugriffe in die richtigen Kanäle eingeordnet werden.
-* Denken Sie daran, immer Kanäle in den Trefferkategorien [Intern](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) und [Direkt](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) in die Liste aufzunehmen.
+* Denken Sie daran, immer Kanäle in den Trefferkategorien [Intern](/help/components/c-marketing-channels/c-faq.md) und [Direkt](/help/components/c-marketing-channels/c-faq.md) in die Liste aufzunehmen.
 
-Der Zusatz von Kanälen in der [!UICONTROL Marketingkanal]-Seite erfolgt separat von der Regelerstellung in der Seite der [Marketingkanal-Verarbeitungsregeln](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08). Bei der Regelerstellung verbinden Sie Regeln mit Kanälen.
+Der Zusatz von Kanälen in der [!UICONTROL Marketingkanal]-Seite erfolgt separat von der Regelerstellung in der Seite der [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/t-rules.md). Bei der Regelerstellung verbinden Sie Regeln mit Kanälen.
 
-## Hinzufügen von Marketingkanälen {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
+## Hinzufügen von Marketingkanälen {#add-mktg-channels}
 
 Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
@@ -39,11 +35,11 @@ Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
    Wenn Sie mehrere Report Suites auswählen, wählen Sie eine Vorlage aus, die die Einstellungen aus der Vorlage in die jeweiligen Report Suites kopiert.
 
-   Siehe [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+   Siehe [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/t-template.md).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
 
 1. Klicken Sie auf der Seite [!UICONTROL Marketingkanal-Manager]**auf[!UICONTROL Kanal hinzufügen]**.
 
@@ -52,9 +48,9 @@ Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
+## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
 
 Felddefinitionen für die Seite [!UICONTROL Marketingkanal-Manager].
 
@@ -84,7 +80,7 @@ Felddefinitionen für die Seite [!UICONTROL Marketingkanal-Manager].
   </tr> 
   <tr> 
    <td colname="col1"> <p>Typ </p> </td> 
-   <td colname="col2"> <p> Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können <span class="uicontrol">Online</span> oder <span class="uicontrol">Offline</span> auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offlinekanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http">Data Sources</a>. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können <span class="uicontrol">Online</span> oder <span class="uicontrol">Offline</span> auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offlinekanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Data Sources</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kanalfarbe </p> </td> 
