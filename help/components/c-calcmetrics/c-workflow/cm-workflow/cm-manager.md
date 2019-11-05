@@ -1,16 +1,16 @@
 ---
 description: Der Manager für berechnete Metriken bietet verschiedene Möglichkeiten zum Kuratieren von Metriken, wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 seo-description: Der Manager für berechnete Metriken bietet verschiedene Möglichkeiten zum Kuratieren von Metriken, wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
-seo-title: Berechnete Metriken – Manager
-title: Berechnete Metriken – Manager
-uuid: 065 c 7 b 79-bab 2-426 b-a 2 d 9-aac 93 f 728 b 31
+seo-title: Berechnete Metrik – Manager
+title: Berechnete Metrik – Manager
+uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Berechnete Metriken – Manager
+# Berechnete Metrik – Manager
 
 Der Manager für berechnete Metriken bietet verschiedene Möglichkeiten zum Kuratieren von Metriken, wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 
