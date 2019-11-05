@@ -5,7 +5,7 @@ seo-title: Zeileneinstellungen
 title: Zeileneinstellungen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Die Zeileneinstellungen variieren, je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
 
-Sie können außerdem die ausgewählte(n) Zeile(n) mit den [Rechtsklickaktionen in einer Tabelle](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) verwalten.
+Sie können außerdem die ausgewählte(n) Zeile(n) mit den [Rechtsklickaktionen in einer Tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table.md) verwalten.
 
 Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstellungs-Symbol neben einer Dimension, einem Segment, einer Metrik, einem Zeitraum oder einer Aufschlüsselung im jeweiligen Element:
 
@@ -29,7 +29,7 @@ Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstell
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Datumsvergleiche</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Datumsvergleiche</a> </p> </td> 
    <td colname="col2"> <p><b>Richten Sie die Daten in allen Spalten so aus, dass sie alle in derselben Zeile beginnen. </b> </p> <p>Wenn Sie z. B. die Daten in einem Monatsvergleich zwischen Oktober und September 2016 ausrichten, beginnt die linke Spalte mit dem 1. Oktober und die rechte Spalte mit dem 1. September: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Standardmäßig deaktiviert. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstell
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spaltensummen </p> </td> 
-   <td colname="col2"> <p>Diese Einstellungen werden nur bei <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> manuellen (statischen) Zeilen</a> (wenn Sie eine endliche Gruppe aus Elementen ausgewählt haben) angezeigt und nicht bei dynamischen Zeilen (wenn Sie eine Dimension einfügen, die alle Elemente anzeigt). <p>Hinweis: Bei <i>metrischen</i> manuellen Zeilen ist diese Einstellung deaktiviert, da es nicht sinnvoll ist, andere Metriken als die aktuellen Zeilen einer Tabelle zu summieren. </p> </p> <p><b>Berechnen Sie die Summen durch Addieren der Werte, die sich zurzeit in jeder Spalte befinden (standardmäßig aktiviert):</b> </p> <p>Diese Option berechnet nur die aktuell in der Tabelle vorhandenen Spalten. (Clientseitige Berechnung) </p> <p><b>Berechnen Sie die Summen anhand aller Zeilen für jede Metrik (standardmäßig deaktiviert):</b> </p> <p>Diese Option bezieht alle Dimensionselemente für diese Dimension ein, auch dann, wenn diese nicht in der Tabelle aufgeführt sind. (Serverseitige Berechnung) </p> </td> 
+   <td colname="col2"> <p>Diese Einstellungen werden nur bei <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > manuellen (statischen) Zeilen</a> (wenn Sie eine endliche Gruppe aus Elementen ausgewählt haben) angezeigt und nicht bei dynamischen Zeilen (wenn Sie eine Dimension einfügen, die alle Elemente anzeigt). <p>Hinweis: Bei <i>metrischen</i> manuellen Zeilen ist diese Einstellung deaktiviert, da es nicht sinnvoll ist, andere Metriken als die aktuellen Zeilen einer Tabelle zu summieren. </p> </p> <p><b>Berechnen Sie die Summen durch Addieren der Werte, die sich zurzeit in jeder Spalte befinden (standardmäßig aktiviert):</b> </p> <p>Diese Option berechnet nur die aktuell in der Tabelle vorhandenen Spalten. (Clientseitige Berechnung) </p> <p><b>Berechnen Sie die Summen anhand aller Zeilen für jede Metrik (standardmäßig deaktiviert):</b> </p> <p>Diese Option bezieht alle Dimensionselemente für diese Dimension ein, auch dann, wenn diese nicht in der Tabelle aufgeführt sind. (Serverseitige Berechnung) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschlüsselung </p> </td> 
