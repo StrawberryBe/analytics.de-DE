@@ -1,13 +1,13 @@
 ---
 description: Sie können einige Felder für einen Feed bearbeiten.
-keywords: Datenfeed; Feed; bearbeiten
+keywords: Datenfeed;Feed;bearbeiten
 seo-description: Sie können einige Felder für einen Feed bearbeiten.
 seo-title: Feed bearbeiten
 solution: Analytics
 title: Feed bearbeiten
-uuid: 75 e 862 f 3-da 08-4 d 1 f -84 d 9-513981 d 98 dd 5
+uuid: 75e862f3-da08-4d1f-84d9-513981d98dd5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
