@@ -7,8 +7,8 @@ solution: Analytics
 title: Verarbeitungsregeln
 topic: Entwickler und Implementierung
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -28,9 +28,9 @@ Verarbeitungsregeln vereinfachen die Interaktion mit IT-Gruppen und Web-Entwickl
 
 Details zu Verarbeitungsregeln finden Sie unter:
 
-* [Verarbeitungsregeln](https://marketing.adobe.com/resources/help/de_DE/reference/processing_rules.html) im Analytics-Hilfe- und Referenzhandbuch
-* [Neue Regel erstellen](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) in dieser Hilfedokumentation
-* [Erste Schritte mit Marketingkanälen](https://marketing.adobe.com/resources/help/de_DE/mchannel/c_getting_started_mchannel.html) in der Dokumentation zu Marketingkanälen
-* [VISTA-Regeln](https://marketing.adobe.com/resources/help/de_DE/reference/VISTA.html) im Analytics-Hilfe- und Referenzhandbuch
-* [Bot-Regeln](https://marketing.adobe.com/resources/help/de_DE/reference/bot_rules.html) im Analytics-Hilfe- und Referenzhandbuch
+* [Verarbeitungsregeln](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html) in der Analytics-Hilfe und -Referenz
+* [Neue Regel erstellen](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) in dieser Hilfedokumentation
+* [Erste Schritte mit Marketingkanälen](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html) in der Dokumentation zu Marketingkanälen
+* [VISTA-Regeln](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) in der Analytics-Hilfe und -Referenz
+* [Bot-Regeln](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html) in der Analytics-Hilfe und -Referenz
 
