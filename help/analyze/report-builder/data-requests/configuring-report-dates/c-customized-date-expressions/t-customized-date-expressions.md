@@ -1,18 +1,18 @@
 ---
 description: Sie können einen komplexen Datumsbereich festlegen, indem Sie einen benutzerdefinierten Ausdruck verwenden.
 seo-description: Sie können einen komplexen Datumsbereich festlegen, indem Sie einen benutzerdefinierten Ausdruck verwenden.
-seo-title: Benutzerdefinierte Datumsausdrücke - Übersicht
+seo-title: Benutzerdefinierte Datumsausdrücke – Übersicht
 solution: Analytics
-title: Benutzerdefinierte Datumsausdrücke - Übersicht
+title: Benutzerdefinierte Datumsausdrücke – Übersicht
 topic: ReportBuilder
-uuid: 7 d 6 d 7 c 03-a 3 f 4-4 dez -8343-de 2 e 6478 bf 6
+uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Benutzerdefinierte Datumsausdrücke - Übersicht
+# Benutzerdefinierte Datumsausdrücke – Übersicht
 
 Sie können einen komplexen Datumsbereich festlegen, indem Sie einen benutzerdefinierten Ausdruck verwenden.
 
