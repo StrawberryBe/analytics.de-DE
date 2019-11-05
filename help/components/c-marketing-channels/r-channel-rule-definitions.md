@@ -8,7 +8,7 @@ title: Marketing-Kanal-Verarbeitungsregeln – Definitionen
 topic: Reports and Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konversionsvariablen </p> </td> 
-   <td colname="col2"> <p>Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html">Implementierungshandbuch </a>. </p> </td> 
+   <td colname="col2"> <p>Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  >Implementierungshandbuch </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vorhanden </p> </td> 
@@ -56,7 +56,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Den Kanal identifizieren als </p> </td> 
-   <td colname="col2"> <p>Verbindet die Regel mit dem Marketingkanal, den Sie der Seite <span class="wintitle">Marketingkanal-Manager</span> hinzugefügt haben. </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Verbindet die Regel mit dem Marketingkanal, den Sie der Seite <span class="wintitle">Marketingkanal-Manager</span> hinzugefügt haben. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stimmt mit Erkennungsregeln gebührenpflichtiger Suchvorgänge überein </p> </td> 
@@ -72,7 +72,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verweisende Stelle stimmt nicht mit internen URL-Filtern überein </p> </td> 
-   <td colname="col2"> <p>Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Treffer ignorieren, die mit internen URL-Filtern übereinstimmen </p> </td> 
@@ -147,6 +147,3 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
  </tbody> 
 </table>
-
-
-
