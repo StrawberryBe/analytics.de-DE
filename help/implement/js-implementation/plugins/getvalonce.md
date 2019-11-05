@@ -9,7 +9,7 @@ title: getValOnce
 topic: Entwickler und Implementierung
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Mit dem Plug-in „getValOnce“ wird verhindert, dass eine bestimmte Variable a
 
 >[!IMPORTANT]
 >
->Dieses Plug-in wurde nicht auf Kompatibilität mit [AppMeasurement für JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) überprüft. Siehe [AppMeasurement-Plug-in-Unterstützung](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Dieses Plug-in wurde nicht auf Kompatibilität mit [AppMeasurement für JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) überprüft. Siehe [AppMeasurement-Plug-in-Unterstützung](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 **Parameter**
 
