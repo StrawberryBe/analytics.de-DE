@@ -5,7 +5,7 @@ seo-title: Menü Berichte
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -61,7 +61,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external">Segmentaufbau</a> und <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external">Segment-Manager</a> zugreifen. </td> 
+   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >Segmentaufbau</a> und <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >Segment-Manager</a> zugreifen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -77,7 +77,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Meine Favoriten </span> </td> 
-   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> Lesezeichen-Manager</a> verwaltet. </p> </td> 
+   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Häufig angezeigt</span> </td> 
@@ -97,11 +97,11 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Lesezeichen...</span> </td> 
-   <td colname="col2">Hiermit können Sie den Bericht mit einem Lesezeichen versehen<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> </a> . </td> 
+   <td colname="col2">Hiermit können Sie den Bericht mit einem Lesezeichen versehen<a href="/help/analyze/reports-analytics/bookmarks.md"  > </a> . </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
+   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Mehr...</span> </td> 
@@ -109,11 +109,11 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1">Report Suite-Auswahl <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hier können Sie <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html" format="https" scope="external">normale Report Suites</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external">Virtual Report Suites</a> auswählen. </td> 
+   <td colname="col2">Hier können Sie <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >normale Report Suites</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >Virtual Report Suites</a> auswählen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
-   <td colname="col2">Öffnet den <a href="../../../analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local">Kalender</a>, mit dem Sie den Berichtszeitraum festlegen können. </td> 
+   <td colname="col2">Öffnet den <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  >Kalender</a>, mit dem Sie den Berichtszeitraum festlegen können. </td> 
   </tr> 
  </tbody> 
 </table>
