@@ -7,7 +7,7 @@ title: Linktracking starten
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -43,7 +43,7 @@ Hier werden die Schritte zum Starten der Linktracking-Funktion in Activity Map o
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (früher Besucher-ClickMap) </td> 
-   <td colname="col2"> <p>Setzen Sie die Variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> auf „true“. Die Syntax lautet wie folgt: 
+   <td colname="col2"> <p>Setzen Sie die Variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> auf „true“. Die Syntax lautet wie folgt: 
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
