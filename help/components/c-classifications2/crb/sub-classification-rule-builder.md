@@ -8,7 +8,7 @@ title: Unterklassifizierungen und der Rule Builder – Anwendungsfall
 topic: Admin Tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ Sie können den Classification Rule Builder mit Unter-Classifications kombiniere
 
 Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **Beispiel**
 
@@ -33,7 +33,7 @@ A classification hierarchy allows you to apply a classification to a classificat
 
 ![](assets/sub_class_table.png)
 
-Wenn diese Struktur erstellt ist, können Sie den [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md) nutzen, um die kleinen Dateien hochzuladen, die dann die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
+Wenn diese Struktur erstellt ist, können Sie den [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) nutzen, um die kleinen Dateien hochzuladen, die dann die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
 
 In der folgenden Aufgabe wird beschrieben, wie Sie das machen.
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications mit Hilfe des Regel-Builder hochladen können.
 
-> [!NOTE] In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
+>[!NOTE]
+>
+> In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
 
 1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
@@ -55,7 +57,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
    ![Schritt-Info](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    Verwenden Sie dazu einen regulären Ausdruck. In diesem Beispiel würde die Regel zum Auffüllen von  *`Broad Campaign code`* den folgenden regulären Ausdruck verwenden:
 
@@ -70,7 +72,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 1. Laden Sie eine Classification-Datei hoch, die ausschließlich die angegebenen Unter-Classifications enthält.
 
-   Siehe [Mehrstufige Klassifizierungen](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
+   Siehe [Mehrstufige Klassifizierungen](/help/components/c-classifications2/c-sub-classifications.md).
 
    Beispiel:
 
