@@ -6,7 +6,7 @@ solution: Analytics
 title: Analytics – Produktvergleich und Voraussetzungen
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,12 +21,12 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
  <tbody> 
   <tr> 
    <td> <b>Produktname und Link zur Hilfe</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/" format="https" scope="external"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> Reports and Analytics </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/" format="https" scope="external">Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse </a> </td> 
-   <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/" format="https" scope="external"> Data Workbench </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports and Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/">Ad Hoc Analysis </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
+   <td colname="col6"> <a href="https://marketing.adobe.com/resources/help/en_US/insight/"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
    <td> <b>Zugriffsmethode</b> </td> 
@@ -75,9 +75,9 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Trichter/Pfadsetzung</b> </td> 
-   <td> Ja <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="https" scope="external"> Trichteranalyse </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html" format="https" scope="external"> Fluss </a> </p> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html" format="https" scope="external"> Ja </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html" format="https" scope="external"> Ja </a> </td> 
+   <td> Ja <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> Trichteranalyse </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> Fluss </a> </p> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html"> Ja </a> </td> 
    <td> Ja </td> 
    <td colname="col06"> Nein </td> 
    <td colname="col6"> Ja </td> 
@@ -93,7 +93,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Kohortenanalyse</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html" format="https" scope="external"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html"> Ja </a> </td> 
    <td> Nein </td> 
    <td> Nein </td> 
    <td> Nein </td> 
@@ -111,7 +111,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Verbesserte Visualisierungsoptionen</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html" format="https" scope="external"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> Ja </a> </td> 
    <td> Nein </td> 
    <td> Ja </td> 
    <td> Ja </td> 
@@ -120,16 +120,16 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Anpassbares Layout</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html" format="https" scope="external"> Ja </a> </td> 
-   <td> Ja – <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html" format="https" scope="external">Dashboards </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> Ja </a> </td> 
+   <td> Ja – <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html">Dashboards </a> </td> 
    <td> Nein </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html" format="https" scope="external"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html"> Ja </a> </td> 
    <td colname="col06"> <p> Ergebnissortierung nach Aufschlüsselung oder nach Metrik </p> </td> 
    <td colname="col6"> Ja </td> 
   </tr> 
   <tr> 
    <td> <b>Projektkuratierung (vereinfachte Berichte für Nicht-Analytiker)</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> Ja </a> </td> 
    <td> Nein </td> 
    <td> Nein </td> 
    <td> Ja </td> 
@@ -138,8 +138,8 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Projektfreigabe</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html" format="https" scope="external"> Ja</a>; alle/beliebige Benutzer </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> Ja</a>; alle/beliebige Benutzer </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> Ja</a>; alle/beliebige Benutzer </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> Ja</a>; alle/beliebige Benutzer </td> 
    <td> Nur für Ad Hoc Analysis-Benutzer </td> 
    <td> Ja; alle/beliebige Benutzer </td> 
    <td colname="col06"> Nein </td> 
@@ -147,21 +147,21 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Terminierte Berichtauslieferung</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html" format="https" scope="external"> Ja </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html" format="https" scope="external"> Ja </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html" format="https" scope="external"> Ja </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html" format="https" scope="external"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html"> Ja </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html"> Ja </a> </td> 
    <td colname="col06"> Ja </td> 
    <td colname="col6"> Ja </td> 
   </tr> 
   <tr> 
    <td> <b>Systemanforderungen</b> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html" format="https" scope="external"> Mehr... </a> </p> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html" format="https" scope="external"> Mehr... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html" format="http" scope="external"> Mehr... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html" format="http" scope="external"> Mehr... </a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Mehr... </a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Mehr... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> Mehr... </a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> Mehr... </a> </p> </td> 
    <td colname="col06"> Browser und Programm zum Öffnen von <span class="filepath">CSV</span>-Dateien wie MS Excel, kann Dateien im Tableau-Format generieren </td> 
-   <td colname="col6"> Windows 64 Bit, gute Grafikkarte für OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html" format="https" scope="external">Mehr...</a></u>) </td> 
+   <td colname="col6"> Windows 64 Bit, gute Grafikkarte für OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Mehr...</a></u>) </td> 
   </tr> 
  </tbody> 
 </table>
