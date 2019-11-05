@@ -5,9 +5,9 @@ seo-title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 solution: Analytics
 title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 topic: Admin Tools
-uuid: 5176 c 561-a 278-43 e 4-837 f-a 17759985 d 52
+uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -28,7 +28,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Classification-Daten (Classification-Struktur wird kopiert) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Transaktions-ID-Aufzeichnung aktivieren </p> </td> 
@@ -71,7 +71,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ClickMap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> Upgrade auf Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Upgrade auf Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-Regeln </p> </td> 
