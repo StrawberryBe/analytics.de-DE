@@ -5,7 +5,7 @@ seo-title: Tabellenaufbau
 title: Tabellenaufbau
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -44,7 +44,7 @@ Der [!UICONTROL Tabellenaufbau] steht für bestimmte Pfadsetzungsberichte wie [!
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Elemente bearbeiten</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Wählen Sie eine Liste mit Dimensionselementen, um eine feste Liste für Aufschlüsselungen zu erstellen. Wenn Sie Elemente zu dieser Liste hinzufügen, sind sie in einem gespeicherten Bericht persistent und werden nicht ausgeblendet, wenn Sie einen gespeicherten oder terminierten Bericht öffnen. </p> <p>Siehe <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Tabellendaten unterteilen</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Wählen Sie eine Liste mit Dimensionselementen, um eine feste Liste für Aufschlüsselungen zu erstellen. Wenn Sie Elemente zu dieser Liste hinzufügen, sind sie in einem gespeicherten Bericht persistent und werden nicht ausgeblendet, wenn Sie einen gespeicherten oder terminierten Bericht öffnen. </p> <p>Siehe <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Tabellendaten unterteilen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Spalten</span> </td> 
