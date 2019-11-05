@@ -8,7 +8,7 @@ title: VRSs und Überlegungen zum globalen Tagging/Multi-Suite-Tagging
 topic: Reports and Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -51,7 +51,7 @@ Zusammenfassung:
 * Virtual Report Suites unterstützen keine Echtzeitberichte, weil die Daten segmentiert sind.
 * Die Funktion „Aktuelle Daten“ wird in Virtual Report Suites nicht unterstützt, da sie keine Segmentierung unterstützt.
 
-[Echtzeitberichte](/help/admin/admin/realtime/t-realtime-admin.md) und ["Aktuelle Daten"](../../technotes/latency.md) stehen in Virtual Report Suites nicht zur Verfügung. Diese Funktionen von Reports &amp; Analytics bieten schnelleren Zugriff (Sekunden bis Minuten) auf eingeschränkte Datentypen. Zu den Einschränkungen dieser Ansichten zählt, dass keine Segmentierung unterstützt wird. Anders ausgedrückt, können Echtzeitdaten in Reports &amp; Analytics nicht segmentiert werden. Da eine Virtual Report Suite mithilfe von Segmentierung erstellt wird, ist sie mit Echtzeitberichten nicht kompatibel. Dies hat Auswirkungen auf Benutzer, die innerhalb von Sekunden oder wenigen Minuten nach der Datenerfassung auf Veränderungen in Adobe Analytics reagieren, wie z. B. Redakteure in einem Newsroom, die die Headlines entsprechend dem Echtzeitzugriff auf Inhalte anpassen. In diesem Fall sollten Sie Folgendes tun:
+[Echtzeitberichte](/help/admin/admin/realtime/t-realtime-admin.md) und ["Aktuelle Daten"](/help/technotes/latency.md) stehen in Virtual Report Suites nicht zur Verfügung. Diese Funktionen von Reports &amp; Analytics bieten schnelleren Zugriff (Sekunden bis Minuten) auf eingeschränkte Datentypen. Zu den Einschränkungen dieser Ansichten zählt, dass keine Segmentierung unterstützt wird. Anders ausgedrückt, können Echtzeitdaten in Reports &amp; Analytics nicht segmentiert werden. Da eine Virtual Report Suite mithilfe von Segmentierung erstellt wird, ist sie mit Echtzeitberichten nicht kompatibel. Dies hat Auswirkungen auf Benutzer, die innerhalb von Sekunden oder wenigen Minuten nach der Datenerfassung auf Veränderungen in Adobe Analytics reagieren, wie z. B. Redakteure in einem Newsroom, die die Headlines entsprechend dem Echtzeitzugriff auf Inhalte anpassen. In diesem Fall sollten Sie Folgendes tun:
 
 * Verwenden Sie Multi-Suite-Tagging, um sicherzustellen, dass jeder Benutzer nur die Echtzeitdaten sieht, die er sehen darf, oder
 * Lassen Sie diese Benutzer auf eine reale (globale) Report Suite zugreifen, wenn sie Zugriff auf den vollständigen Datensatz haben sollten.
@@ -63,7 +63,7 @@ Zusammenfassung:
 * Virtual Report Suites haben keine eigenen Grenzwerte für Dimensionen, sondern übernehmen sie von ihrer übergeordneten Report Suite.
 * Wenn Ihre Adobe Analytics-Benutzer Zugriff auf alle Werte einer Dimension benötigen, die häufig mehr als 500.000 individuelle Werte pro Monat aufweisen, sollten Sie die Verwendung von Multi-Suite-Tagging in Betracht ziehen.
 
-Bei hoher Kardinalität (große Anzahl eindeutiger Werte in einer bestimmten Dimension, wie Produkt-SKUs oder Seiten) stießen Adobe Analytics-Behälter nur selten jeden Monat auf Werte in einem aggregierten Zeileneintrag "geringer Traffic" innerhalb einer bestimmten Dimension in einer Report Suite. Werte, die im Bucket "geringer Traffic"enthalten sind, können nicht segmentiert werden. Auf diese Weise werden Adobe Analytics-Abfragen schnell durchgeführt und konzentrieren sich auf die 500.000 wichtigsten Zeileneinträge, die am häufigsten für die Dimension in Ihren digitalen Properties angezeigt werden. (Zum Beispiel könnten dies Ihre wichtigsten 500.000 Seitennamen sein.) Mehr über die individuellen Grenzwerte erfahren Sie [hier](../../technotes/low-traffic.md).
+Bei hoher Kardinalität (große Anzahl eindeutiger Werte in einer bestimmten Dimension, wie Produkt-SKUs oder Seiten) stießen Adobe Analytics-Behälter nur selten jeden Monat auf Werte in einem aggregierten Zeileneintrag "geringer Traffic" innerhalb einer bestimmten Dimension in einer Report Suite. Werte, die im Bucket "geringer Traffic"enthalten sind, können nicht segmentiert werden. Auf diese Weise werden Adobe Analytics-Abfragen schnell durchgeführt und konzentrieren sich auf die 500.000 wichtigsten Zeileneinträge, die am häufigsten für die Dimension in Ihren digitalen Properties angezeigt werden. (Zum Beispiel könnten dies Ihre wichtigsten 500.000 Seitennamen sein.) Mehr über die individuellen Grenzwerte erfahren Sie [hier](/help/technotes/low-traffic.md).
 
 Virtual Report Suites verfügen nicht über einen eigenen Satz von 500.000 individuellen Werten pro Dimension und Monat. Wenn die Report Suite, auf der eine VRS basiert, 500.000 eindeutige Werte für eine bestimmte Dimension überschritten hat und damit begonnen hat, niedrigere Frequenzwerte in den Zeileneintrag "Geringer Traffic"für diese Dimension zu kombinieren, wird möglicherweise auch "Geringe Traffic"in der Virtual Report Suite angezeigt.
 
