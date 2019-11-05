@@ -8,7 +8,7 @@ title: Erste Schritte mit Reports and Analytics
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ In diesen Schritten wird beschrieben, wie Sie einen Bericht generieren.
 
 1. Melden Sie sich bei [!UICONTROL Reports &amp; Analysen] an.
 
-   Das Menü "Berichte"wird angezeigt, oder ein [Dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) wird angezeigt, wenn Sie eines eingerichtet haben.
+   Das Menü "Berichte"wird angezeigt, oder ein [Dashboard](/help/analyze/reports-analytics/dashboard.md) wird angezeigt, wenn Sie eines eingerichtet haben.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## Kontoeinstellungen eines Benutzers bearbeiten
 
@@ -116,11 +116,11 @@ Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die f
   </tr> 
   <tr> 
    <td> <p> Anmelden </p> </td> 
-   <td> <p>Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. </p> <p>Siehe auch: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">Zurücksetzen des Kennworts für Reports &amp; Analytics</a> </p> </td> 
+   <td> <p>Zeigt den Konto-Benutzernamen an und ermöglicht eine Änderung des Konto-Kennworts. </p> <p>Siehe auch: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Zurücksetzen des Kennworts für Reports &amp; Analytics</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Webdienst </p> </td> 
-   <td> <p>Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a>. </p> <p> <p>Anmerkung: Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. </p> </p> </td> 
+   <td> <p>Zeigt den Webdienst-Benutzernamen und den gemeinsamen geheimen Schlüssel zu Ihrem Konto an. Mit diesen Anmeldedaten können Sie über die Webdienste-APIs auf die Experience Cloud zugreifen. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Anmerkung: Diese Informationen werden nur angezeigt, wenn das Konto als Webdienste-Benutzer autorisiert ist. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Diesen Computer ausschließen </p> </td> 
