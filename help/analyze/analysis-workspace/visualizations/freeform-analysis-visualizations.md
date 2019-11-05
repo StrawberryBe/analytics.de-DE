@@ -8,7 +8,7 @@ title: Visualisierungsübersicht
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
 
 >[!IMPORTANT]
 >
->Welche Visualisierungseinstellungen sichtbar sind, hängt von der Visualisierung ab. Nicht alle Einstellungen gelten für alle Visualisierungen. Zudem treten einige erweiterte Einstellungen **nur** bei bestimmten Visualisierungen in Erscheinung. Dies ist z. B. bei den [Histogrammeinstellungen](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477) der Fall.
+>Welche Visualisierungseinstellungen sichtbar sind, hängt von der Visualisierung ab. Nicht alle Einstellungen gelten für alle Visualisierungen. Zudem treten einige erweiterte Einstellungen **nur** bei bestimmten Visualisierungen in Erscheinung. Dies ist z. B. bei den [Histogrammeinstellungen](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477) der Fall.
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalisierung </p> </td> 
-   <td colname="col2"> <p>Erzwingt Metriken für gleiche Anteile. Siehe <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalisierung</a>. </p> </td> 
+   <td colname="col2"> <p>Erzwingt Metriken für gleiche Anteile. Siehe <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalisierung</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zwei Achsen anzeigen </p> </td> 
