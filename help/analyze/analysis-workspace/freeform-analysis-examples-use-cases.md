@@ -8,7 +8,7 @@ title: Analysis Workspace Anwendungsfälle
 topic: Reports and Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ Angenommen Sie sind Marketinganalyst eines Einzelhändlers für Outdoor-Ausrüst
 
    Jetzt haben Sie die Daten bereits auf eine Weise aufgeschlüsselt, die Empfehlungen und Cross-Sells ermöglicht, die Ihre Verkaufsteams in andere Kampagnen implementieren können. Auf diese Weise können Sie noch mehr Umsatz für Ihr Unternehmen erzielen. Sie können weiter aufschlüsseln, bis Sie die gesuchten Ergebnisse erhalten.
 
-   Jetzt können Sie den Bericht für diese Merchandising-Teams [freigeben](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+   Jetzt können Sie den Bericht für diese Merchandising-Teams [freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
