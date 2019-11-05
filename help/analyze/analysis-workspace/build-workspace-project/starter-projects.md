@@ -5,7 +5,7 @@ seo-title: Vorlagen
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Sie können auswählen, ob ein Projekt aus folgenden Elementen erstellt werden soll:
 
-* Ein leeres Projekt (Standard). Anweisungen finden Sie unter [Erstellen eines Projekts](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)im Arbeitsbereich für Analysen.
+* Ein leeres Projekt (Standard). Anweisungen finden Sie unter [Erstellen eines Projekts](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)im Arbeitsbereich für Analysen.
 * Eine Standardvorlage. Diese Vorlagen wurden von Adobe erstellt und können sofort verwendet werden.
 * Eine benutzerdefinierte Vorlage. Diese Vorlagen können von Benutzern mit oder ohne Administratorrechte erstellt werden, wenn sie über die Berechtigung „Als Vorlage speichern“ verfügen. (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [Erstellen einer benutzerdefinierten Vorlage](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [Standardvorlagen](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [Erstellen einer benutzerdefinierten Vorlage](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [Standardvorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## Erstellen einer benutzerdefinierten Vorlage {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Erstellen einer benutzerdefinierten Vorlage {#create-custom-template}
 
 Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
