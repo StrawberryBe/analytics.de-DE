@@ -8,7 +8,7 @@ title: AppMeasurement für JavaScript
 topic: Entwickler und Implementierung
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ Releasedatum: **21. Mai 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS-Erweiterung</span> </p> </td> 
-   <td colname="col2"> <p> Die <span class="keyword">iOS</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">iOS</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Anwendungen, Today Widgets, Photo Editing Widgets und all den anderen Anwendungen der <span class="keyword">iOS</span>-Erweiterung erlaubt. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Implementieren der iOS-Erweiterung </a>. </p> </td> 
+   <td colname="col2"> <p> Die <span class="keyword">iOS</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">iOS</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Anwendungen, Today Widgets, Photo Editing Widgets und all den anderen Anwendungen der <span class="keyword">iOS</span>-Erweiterung erlaubt. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">Implementieren der iOS-Erweiterung </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android Wearable-Erweiterung</span> </p> </td> 
-   <td colname="col2"> <p> Die <span class="keyword">Android</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">Android</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihrer <span class="keyword">Android</span> Wearable App ermöglicht. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android Wearable-Erweiterung </a>. </p> </td> 
+   <td colname="col2"> <p> Die <span class="keyword">Android</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">Android</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihrer <span class="keyword">Android</span> Wearable App ermöglicht. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Android Wearable-Erweiterung </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
