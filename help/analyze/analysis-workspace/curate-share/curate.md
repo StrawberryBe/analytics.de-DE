@@ -8,7 +8,7 @@ title: Übersicht über die Kuratierung/Freigabe
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,7 +29,7 @@ Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Proje
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Erstellen und speichern](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) Sie ein Projekt und klicken Sie dann auf **[!UICONTROL Freigeben]** &gt; Projektdaten **[!UICONTROL kuratieren]**.
+1. [Erstellen und speichern](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) Sie ein Projekt und klicken Sie dann auf **[!UICONTROL Freigeben]** &gt; Projektdaten **[!UICONTROL kuratieren]**.
 1. Ziehen Sie Komponenten, die Sie freigeben möchten, vom verschiebbaren Komponentenstapel auf der linken Seite zum Feld **[!UICONTROL Kuratierte Komponenten].**
 
    ![](assets/curated-components.png)
