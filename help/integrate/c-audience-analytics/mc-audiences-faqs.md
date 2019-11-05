@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -24,7 +24,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Wenn sich in einer prop oder eVar E-Mail-Adressen, Adressen usw. befinden, könnten Sie die Daten bei der Erfassung mit einem Hash behandeln. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Wenn in Ihrem Land IP-Adressen als persönlich identifizierbare Informationen gelten, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external">aktivieren Sie die IP-Verschleierung </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Wenn in Ihrem Land IP-Adressen als persönlich identifizierbare Informationen gelten, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  >aktivieren Sie die IP-Verschleierung </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Sprechen Sie mit Ihrem Analytics-Administrator, um zu ermitteln, was Sie erfassen. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, welche Angaben als persönliche identifizierbare Informationen eingestuft werden. </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie erstelle ich ein Analytics-Ziel in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Siehe <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Analytics-Ziel konfigurieren in AAM </a>. </td> 
+   <td colname="col2"> Siehe <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > Analytics-Ziel konfigurieren in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie lange dauert es nach dem Erstellen und Speichern eines Analytics-Ziels, bis Daten in meinen ausgewählten Report Suites angezeigt werden?</b> </p> </td> 
@@ -138,11 +138,11 @@ Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter Häufig gestel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>F: Warum unterscheiden sich die Besucherzahlen für Segmente in Audience Manager und Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> Unterschiede in der Besucherzahl </a>. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen „Zielgruppen“ in AAM und „Segmenten“ in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und von AAM integrierten Kundendaten?</b> </p> </td> 
