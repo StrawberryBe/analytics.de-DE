@@ -8,7 +8,7 @@ title: Kopf- und Fußzeilencode hinzufügen
 topic: Entwickler und Implementierung
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Mithilfe des Dynamic Tag Managements werden Staging- und Produktions-Einbettungs
 
    >[!NOTE]
    >
-   >Produktions-Einbettungscode gibt nur die veröffentlichten Elemente in dieser [Eigenschaft](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123) an. Einbettungscode für das Staging gibt jedoch alle Elemente in der zugehörigen Eigenschaft wieder, unabhängig von ihrem Veröffentlichungsstatus. Um nicht veröffentlichte Elemente auf Ihrer Produktions-Website zu testen, aktivieren Sie Staging lokal in der Konsole, siehe Anweisungen unter [Nicht veröffentlichte Regeln für Akamai-Hosting testen](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259).
+   >Produktions-Einbettungscode gibt nur die veröffentlichten Elemente in dieser [Eigenschaft](/help/implement/c-implement-with-dtm/t-create-web-property.md) an. Einbettungscode für das Staging gibt jedoch alle Elemente in der zugehörigen Eigenschaft wieder, unabhängig von ihrem Veröffentlichungsstatus. Um nicht veröffentlichte Elemente auf Ihrer Produktions-Website zu testen, aktivieren Sie Staging lokal in der Konsole, siehe Anweisungen unter [Nicht veröffentlichte Regeln für Akamai-Hosting testen](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md).
 
 1. Kopieren Sie den Produktions-Fußzeilencode und fügen Sie ihn im [!DNL BODY]-Bereich Ihres Website-HTML-Codes ein.
 
