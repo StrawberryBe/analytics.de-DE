@@ -7,7 +7,7 @@ title: Erforderliche Vorlaufzeit für Trafficzuwachs
 topic: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,7 +18,7 @@ Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten
 
 Die Zuordnung von Hardware wird durch Warnmeldungen gesteuert, die über die Benutzeroberfläche für Reports &amp; Analytics übermittelt werden.
 
-> [!IMPORTANT] Adobe kann Traffic-Änderungsanforderungen für "Platzhalter"nicht aufnehmen. Sofern nichts anderes angegeben ist, halten Sie die vorgeschlagene Vorlaufzeit so genau wie möglich ein, auch wenn Sie keine Warnung zu früh senden. Siehe Traffic-Spitze [planen](../../admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Festlegen einer dauerhaften Traffic-Steigerung](../../admin/c-traffic-management/t-traffic-permanent.md).
+> [!IMPORTANT] Adobe kann Traffic-Änderungsanforderungen für "Platzhalter"nicht aufnehmen. Sofern nichts anderes angegeben ist, halten Sie die vorgeschlagene Vorlaufzeit so genau wie möglich ein, auch wenn Sie keine Warnung zu früh senden. Siehe Traffic-Spitze [planen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Festlegen einer dauerhaften Traffic-Steigerung](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Verkehrswarnhinweis übermitteln müssen:
 
