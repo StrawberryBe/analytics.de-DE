@@ -7,7 +7,7 @@ title: Angepasste Datumsaspekte
 topic: ReportBuilder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ der aktuelle Tag in der am Sonntag, dem 23. November beginnenden Woche minus sie
 
 der Tag in der am Sonntag, dem 23. November beginnenden aktuellen Woche minus ein Tag = Samstag, der 22. November
 
-In Europa und einigen anderen Ländern beginnt die Woche am Montag, nicht am Sonntag. In diesem Fall können Sie den Kalender anpassen, um das Startdatum zu ändern. (Siehe [Benutzerdefinierter Kalender](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+In Europa und einigen anderen Ländern beginnt die Woche am Montag, nicht am Sonntag. In diesem Fall können Sie den Kalender anpassen, um das Startdatum zu ändern. (Siehe [Benutzerdefinierter Kalender](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
