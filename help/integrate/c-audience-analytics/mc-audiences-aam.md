@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audience Analytics-Übersicht
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -49,4 +49,4 @@ Stellen Sie sicher, dass folgende Voraussetzungen erfüllt sind:
 * AAM und Adobe Analytics werden [derselben Experience Cloud-Organisation zugeordnet](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
 * You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-Diese Voraussetzungen werden im Arbeitsablauf für [Zielgruppenanalysen](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83)beschrieben.
+Diese Voraussetzungen werden im Arbeitsablauf für [Zielgruppenanalysen](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)beschrieben.
