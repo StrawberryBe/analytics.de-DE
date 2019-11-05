@@ -7,7 +7,7 @@ title: Pfadberichte
 topic: Ad Hoc Analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ Pfadberichte enthalten standardmäßig umfassende und optional erweiterte Analys
 
 **[!UICONTROL Fallout]**: Zeigt den Besuchsabbruch und Konversionssätze zwischen den einzelnen, von Ihnen definierten Checkpoints an. Die Schritte werden von oben nach unten angeordnet, wobei Rohdaten und Prozente links und Konversions- und Abgangsprozentsätze rechts stehen.
 
-Siehe [Fallout-Bericht](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) für weitere Informationen.
+Siehe [Fallout-Bericht](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) für weitere Informationen.
 
 **[!UICONTROL Pfadlänge]**: Zeigt, wie tief Besucher in Ihre Site eindringen (sowohl nach Prozentsatz als auch nach Gesamtanzahl). Anders ausgedrückt zeigt der Bericht, wie viele Seiten der Besucher in der Regel zur Ansicht aufruft, bevor er die Site verlässt.
 
