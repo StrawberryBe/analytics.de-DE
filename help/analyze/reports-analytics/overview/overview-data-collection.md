@@ -8,12 +8,12 @@ title: Über die Datenerfassung
 topic: Reports and Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Über die Datenerfassung{#about-data-collection}
+# Über die Datenerfassung
 
 Erfahren Sie, wie Daten für Adobe Analytics gesammelt werden.
 
@@ -29,4 +29,4 @@ Im Detail verläuft der Datenkollektionsprozess wie folgt:
 
 Die Datenkollektion erfolgt sehr schnell und beeinträchtigt die Seitenladezeiten nicht merklich. Zu den erfassten Daten zählen Seitenansichten, die durch Klicken auf die **Aktualisieren**- oder **Zurück**-Schaltflächen im Browser zustande gekommen sind. Der JavaScript-Code wird ausgeführt, selbst wenn die Seite aus dem Cache-Speicher geladen wird.
 
-See [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+See [Data Collection in Analytics.](/help/import/home.md)
