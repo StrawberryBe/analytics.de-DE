@@ -7,7 +7,7 @@ title: Metriken und Dimensionen hinzufügen
 topic: ReportBuilder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anforderung.
 
-1. [Erstellen Sie die Datenanforderung](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) im [!UICONTROL Dialogfeld Anforderungs-Assistent: Schritt 1] und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. [Erstellen Sie die Datenanforderung](/help/analyze/report-builder/data-requests/data-requests.md) im [!UICONTROL Dialogfeld Anforderungs-Assistent: Schritt 1] und klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Doppelklicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] auf Metriken oder ziehen Sie sie an die gewünschte Position.
 
    ![Schritt-Info](assets/adding_metrics.png)
@@ -64,7 +64,7 @@ Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren
     * Jahr
     * Datumsbereich (wenn keine Granularität angegeben ist)
 
-1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) und Filter konfigurieren.
+1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](/help/analyze/report-builder/layout/t-format-display-headers.md) und Filter konfigurieren.
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
 Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Hier erstellt die Dimension [!UICONTROL Verweisende Domäne] einen Detailbericht für [!UICONTROL Seite] und [!UICONTROL Verweisende Domäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
 
