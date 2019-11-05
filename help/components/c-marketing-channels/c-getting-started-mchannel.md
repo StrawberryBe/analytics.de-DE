@@ -8,7 +8,7 @@ title: Erste Schritte mit Marketingkanälen
 topic: Reports and Analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,22 +32,24 @@ Das Definieren der von Ihnen verwendeten Kanäle ist eine der wichtigsten Kompon
 * Möchten Sie alle Websites mit sozialen Netzwerken zusammenfassen, oder gibt es soziale Netzwerke, die Sie einzeln nachverfolgen möchten?
 * Sind andere Kanäle vorhanden, die möglicherweise die Konversion beeinflussen, die Sie nachverfolgen möchten?
 
-Eine Liste mit empfohlenen Kanälen finden Sie unter [Häufig gestellte Fragen und Beispiele](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definierung beim Erstellen von Kanälen zu vereinfachen.
+Eine Liste mit empfohlenen Kanälen finden Sie unter [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definierung beim Erstellen von Kanälen zu vereinfachen.
 
 ![](assets/step2_icon.png) Fügen Sie Marketingkanäle auf der Seite [!UICONTROL Marketingkanal-Manager] hinzu.
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
+See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
 
-Siehe [Hinzufügen von Marketingkanälen](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) für das Verfahren.
+Siehe [Hinzufügen von Marketingkanälen](/help/components/c-marketing-channels/c-channels.md) für das Verfahren.
 
-> [!NOTE] Wenn Marketingkanäle noch nicht konfiguriert wurden, wird das [automatische Setup](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) angezeigt. Dieses Setup stellt mehrere vorkonfigurierte Kanäle bereit, die Sie anpassen können. Adobe empfiehlt, dass Sie diese Regeln als Vorlage verwenden. Wenn Sie jedoch bereits über zuverlässige Kanaldefinitionen verfügen, können Sie das automatische Setup überspringen.
+>[!NOTE]
+>
+> Wenn Marketingkanäle noch nicht konfiguriert wurden, wird das [automatische Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) angezeigt. Dieses Setup stellt mehrere vorkonfigurierte Kanäle bereit, die Sie anpassen können. Adobe empfiehlt, dass Sie diese Regeln als Vorlage verwenden. Wenn Sie jedoch bereits über zuverlässige Kanaldefinitionen verfügen, können Sie das automatische Setup überspringen.
 
 ![](assets/step3_icon.png) Konfigurieren oder grenzen Sie die Regeln jedes Kanals auf der Seite [!UICONTROL Marketingkanal-Verarbeitungsregeln] ein.
 
 Konfigurieren Sie nach der Erstellung von Kanälen auf der Seite [!UICONTROL Marketingkanal-Manager] die Regeln, damit Kanäle Daten abrufen können und Berichte dazu erstellen können. 
 
-Siehe [Marketingkanal-Verarbeitungsregeln](../../components/c-marketing-channels/c-rules.md#concept_9ADC8D3AA4C84288ACC6D441D4036646).
+Siehe [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md).
 
 Wenn Kanäle im automatischen Setup erstellt wurden, werden die Regeln in diesen Kanälen definiert. Sie können sie an Ihre Bedürfnisse anpassen.
