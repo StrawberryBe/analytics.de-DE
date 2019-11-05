@@ -2,7 +2,7 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zu geräteübergreifenden Analysen
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ Adobe behandelt Treffer mit Zeitstempel so, als wären sie zum Zeitpunkt des Zei
 
 **Wie sieht CDA im Vergleich zur benutzerdefinierten Besucher-ID aus?**
 
-[Die benutzerspezifische Besucher-ID](../../implement/js-implementation/c-unique-visitors/visid-custom.md) ist eine alte Methode, um Benutzer geräteübergreifend zu [verbinden](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md). Bei einer benutzerdefinierten Besucher-ID verwenden Sie die `s.visitorID` Variable, um die für die Besucherlogik verwendete ID explizit festzulegen. Die `s.visitorID` Variable setzt alle Cookie-basierten IDs außer Kraft, die vorhanden sind. Weitere Informationen finden Sie unter [Identifizieren Sie individuelle Besucher](../../implement/js-implementation/c-unique-visitors/visid-overview.md) im Implementierungs-Benutzerhandbuch.
+[Die benutzerspezifische Besucher-ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) ist eine alte Methode, um Benutzer geräteübergreifend zu [verbinden](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Bei einer benutzerdefinierten Besucher-ID verwenden Sie die `s.visitorID` Variable, um die für die Besucherlogik verwendete ID explizit festzulegen. Die `s.visitorID` Variable setzt alle Cookie-basierten IDs außer Kraft, die vorhanden sind. Weitere Informationen finden Sie unter [Identifizieren Sie individuelle Besucher](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) im Implementierungs-Benutzerhandbuch.
 
 Benutzerspezifische Besucher-IDs haben eine Reihe unerwünschter Nebenwirkungen, die CDA vermeiden oder minimieren soll. Beispielsweise verfügt die Methode der benutzerdefinierten Besucher-ID über keine Lookback-Funktionen. Wenn sich ein Benutzer während eines Besuchs authentifiziert, verknüpft der erste Teil des Besuchs mit einer anderen Besucher-ID als der letzte Teil des Besuchs. Die separaten Besucher-IDs führen zu Besuchs- und Besucherinflation. Das 30-Tage-Lookback-Fenster von CDA ermöglicht es, das bisherige Verhalten als zu derselben Person gehörend zu vergleichen und das Verhalten von nicht authentifiziertem geräteübergreifendem Verhalten mit authentifiziertem geräteübergreifendem Verhalten mit einer Nullrate oder einer minimalen Inflation zu verbinden.
 
