@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: Entwickler und Implementierung
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Das getAndPersistValue-Plug-in ruft einen Wert Ihrer Wahl ab und trägt ihn für
 
 >[!IMPORTANT]
 >
->Dieses Plug-in wurde nicht auf Kompatibilität mit [AppMeasurement für JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) überprüft. Siehe [AppMeasurement-Plug-in-Unterstützung](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Dieses Plug-in wurde nicht auf Kompatibilität mit [AppMeasurement für JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) überprüft. Siehe [AppMeasurement-Plug-in-Unterstützung](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 Beispielsweise können Sie mit diesem Plug-in einen Kampagnen-Trackingcode aus der Variable *`campaign`* in eine benutzerspezifische Traffic-Variable (*`s.prop`*) für die Seitenansicht jedes Besuchers für die nächsten 30 Tage setzen. Mit diesem Beispiel können Sie ermitteln, wie viele Seitenaufrufe der Trackingcode als Ergebnis des ursprünglichen Clickthrough generiert hat.
 
