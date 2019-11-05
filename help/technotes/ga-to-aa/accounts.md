@@ -1,17 +1,17 @@
 ---
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 translation-type: tm+mt
 
 ---
 # Konten und Report Suites
 
-In Adobe Analytics gibt es zwei Stufen, um Daten zu organisieren:
+In Adobe Analytics gibt es zwei Ebenen, auf denen die Silo-Daten organisiert bleiben:
 
-* A **login company** is an overarching organization that contains one or more report suites. A login company is comparatively similar to an *account* in other Analytics tools, such as Google Analytics. Berater, die mit mehreren Unternehmen arbeiten, haben normalerweise Zugriff auf mehrere Anmeldeunternehmen.
-* A **report suite** is a repository where you send data and where you pull reports. Eine Report Suite enthält in der Regel Daten von einer Website, die jedoch den Ermessen jeder Organisation entspricht. A report suite is comparatively similar to a *View* in other analytics tools.
+* Ein **Anmeldeunternehmen** ist eine übergreifende Organisation, die eine oder mehrere Report Suites enthält. Ein Anmeldeunternehmen ähnelt einem *Konto* in anderen Analytics-Werkzeugen wie Google Analytics vergleichsweise. Berater, die mit mehreren Unternehmen zusammenarbeiten, hätten normalerweise Zugriff auf mehrere Anmeldeunternehmen.
+* Eine **Report Suite** ist ein Repository, in dem Sie Daten senden und Berichte abrufen. Eine Report Suite enthält in der Regel Daten von einer Website, dies liegt jedoch im Ermessen der Implementierung der einzelnen Unternehmen. Eine Report Suite ähnelt vergleichsweise einer *Ansicht* in anderen Analysetools.
 
-Größere Organisationen verfügen meist über mehrere Report Suites, eine für jede Site oder App. Wenden Sie sich an einen Administrator in Ihrem Unternehmen, wenn Sie nicht sicher sind, welche Report Suite Sie zum Abrufen von Daten verwenden sollten.
+Größere Organisationen verfügen in der Regel über mehrere Report Suites, eine für jede Website oder App. Wenden Sie sich an einen Administrator in Ihrem Unternehmen, wenn Sie nicht sicher sind, welche Report Suite Sie zum Abrufen der Daten verwenden sollten.
 
-Ein wichtiger Unterschied zwischen der Datenerfassungsmethode von Adobe und vielen anderen Werkzeugen besteht darin, dass Sie angeben, an welche Report Suites Daten innerhalb Ihrer Implementierung gesendet werden sollen. Dies unterscheidet sich von anderen Tools, die normalerweise alle Ihre Daten an einen Erfassungsort senden und diese dann auf Ansichten oder Profile filtern.
+Ein wichtiger Unterschied zwischen der Datenerfassungsmethode von Adobe und vielen anderen Tools besteht darin, dass Sie angeben, an welche Report Suite(s) Daten in Ihrer Implementierung gesendet werden sollen. Dies unterscheidet sich von anderen Werkzeugen, die normalerweise alle Daten an einen Erfassungsort senden und diese dann nach Ansichten oder Profilen filtern.
 
-Virtual Report Suites sind auch in Adobe Analytics verfügbar, was eine gefilterte Ansicht einer Report Suite ohne Änderung der Datenerfassung oder historischen Daten bereitstellt. Sie können beispielsweise eine Virtual Report Suite verwenden, um Bot-Traffic zu entfernen, der zuvor nicht erfasst wurde, oder einen betrügerischen/ausreißenden Umsatz auszuschließen. See [Virtual report suites](../../components/vrs/vrs-about.md) in the Components user guide for more information.
+Virtual Report Suites stehen auch in Adobe Analytics zur Verfügung, das eine gefilterte Ansicht einer Report Suite ohne Änderung der Datenerfassung oder der Verlaufsdaten bietet. Sie können beispielsweise eine Virtual Report Suite verwenden, um Bot-Traffic zu eliminieren, der zuvor nicht erfasst wurde, oder um betrügerische/ausgehende Umsätze auszuschließen. Weitere Informationen finden Sie unter [Virtual Report Suites](/help/components/vrs/vrs-about.md) im Komponenten-Benutzerhandbuch.
