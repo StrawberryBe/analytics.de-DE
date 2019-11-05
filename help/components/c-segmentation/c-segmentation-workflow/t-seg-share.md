@@ -7,7 +7,7 @@ title: Segmente freigeben
 topic: Segmente
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ Abhängig von Ihren Berechtigungen können Sie Segmente für Ihre gesamte Organi
 
 Wann sollten Segmente für das gesamte Unternehmen und wann nur für eine Benutzergruppe oder einzelne Benutzer freigegeben werden? Im Folgenden finden Sie einige Best Practices, an denen Sie sich orientieren können:
 
-* Geben Sie als Administrator ein Segment für **[!UICONTROL Alle]frei, wenn es für das gesamte Unternehmen von Nutzen ist und von jedem bequem verwendet werden kann.** In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* Geben Sie als Administrator ein Segment für **[!UICONTROL Alle]frei, wenn es für das gesamte Unternehmen von Nutzen ist und von jedem bequem verwendet werden kann.** In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
 
 * Geben Sie als Administrator ein Segment für eine bestimmte **[!UICONTROL Gruppe]frei, wenn das Segment für das entsprechende Team einen Geschäftswert bietet.** Führen Sie für diesen Segmenttyp keine offizielle Genehmigung durch.
 * Geben Sie als Administrator oder als einzelner Benutzer ein Segment für andere einzelne Benutzer frei, um ein Segment zu prüfen und zu validieren. Wenn es sich als nicht nützlich erweist, kann es verworfen werden. Führen Sie für diesen Segmenttyp keine offizielle Genehmigung durch.
