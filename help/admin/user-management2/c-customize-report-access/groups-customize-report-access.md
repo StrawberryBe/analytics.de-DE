@@ -9,7 +9,7 @@ title: Berichtszugriff anpassen – Übersicht
 topic: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -46,7 +46,7 @@ Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools (
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerspezifische Gruppen </p> </td> 
-   <td colname="col2"> <p> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Anpassung der Analytics-Tools</a>. </p> <p> Benutzer, die zu <span class="term"> Zugriff auf</span> alle Berichte gehören, wurden zu einer benutzerspezifischen Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
+   <td colname="col2"> <p> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Anpassung der Analytics-Tools</a>. </p> <p> Benutzer, die zu <span class="term"> Zugriff auf</span> alle Berichte gehören, wurden zu einer benutzerspezifischen Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">Alle Dimensionen </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">Alle Metriken </li> 
@@ -62,12 +62,12 @@ Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools (
    <td colname="col2"> <p>Sie können Berechtigungen so anpassen, dass der Zugriff auf bestimmte Dimensionen (zusätzlich zu den Metriken) eingeschränkt oder ausgeweitet werden kann. </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Alle aktuellen Dimensionen und Metriken in benutzerdefinierten Gruppen wurden automatisch in die neuen Kategorien migriert. Wenn in einer bestehenden Gruppe Metriken aktiv sind, werden für diese Gruppe sämtliche Dimensionen, für die neue Berechtigungen erteilt werden (eVars und inhaltsbasiert), und Metriken als Standardeinstellungen festgelegt. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">Variable</a> bestimmt, auf der Classification basiert. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">Variable</a> bestimmt, auf der Classification basiert. </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Wird nur neuen Kunden empfohlen sowie Kunden mit Unternehmen, die in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">Experience Cloud</a> bereitgestellt wurden. Für bestehende <span class="keyword">Analytics</span>-Kunden ist eine Migration in das Identitätsverwaltungssystem von <span class="keyword">Experience Cloud</span> geplant. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> Analytics-Benutzermigration in die Admin-Konsole</a>. </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Wird nur neuen Kunden empfohlen sowie Kunden mit Unternehmen, die in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud</a> bereitgestellt wurden. Für bestehende <span class="keyword">Analytics</span>-Kunden ist eine Migration in das Identitätsverwaltungssystem von <span class="keyword">Experience Cloud</span> geplant. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analytics-Benutzermigration in die Admin-Konsole</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Content-Unterstützung </p> </td> 
