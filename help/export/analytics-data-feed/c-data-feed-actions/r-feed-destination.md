@@ -7,7 +7,7 @@ solution: Analytics
 title: Feed-Ziel
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ In der folgenden Tabelle werden alle Optionen für sämtliche Verteilungskanäle
   </tr> 
   <tr> 
    <td colname="col1"> <p>Behälter </p> </td> 
-   <td colname="col2"> <p>Geben Sie den Speicherort des Amazon S3-Behälters ein. </p> <p>Dieser Wert muss mit dem entsprechenden S3-Behälterformat übereinstimmen. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Hinweis: Einzelheiten zu den Amazon S3-Einstellungen finden Sie unter <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds</a>. </p> </p> </td> 
+   <td colname="col2"> <p>Geben Sie den Speicherort des Amazon S3-Behälters ein. </p> <p>Dieser Wert muss mit dem entsprechenden S3-Behälterformat übereinstimmen. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Hinweis: Einzelheiten zu den Amazon S3-Einstellungen finden Sie unter <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Behälter </p> </td> 
@@ -111,7 +111,7 @@ In der folgenden Tabelle werden alle Optionen für sämtliche Verteilungskanäle
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pfad </p> </td> 
-   <td colname="col2"> <p>Wählen Sie den Pfad zum Host oder Behälter aus. Dieser Pfad muss bereits vor der Feed-Erstellung vorhanden sein. </p> <p> <p>Hinweis: Einzelheiten zu den Amazon S3-Einstellungen finden Sie unter <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds</a>. </p> </p> </td> 
+   <td colname="col2"> <p>Wählen Sie den Pfad zum Host oder Behälter aus. Dieser Pfad muss bereits vor der Feed-Erstellung vorhanden sein. </p> <p> <p>Hinweis: Einzelheiten zu den Amazon S3-Einstellungen finden Sie unter <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konto </p> </td> 
@@ -119,11 +119,11 @@ In der folgenden Tabelle werden alle Optionen für sämtliche Verteilungskanäle
   </tr> 
   <tr> 
    <td colname="col1"> <p>Öffentlicher Schlüssel </p> </td> 
-   <td colname="col2"> <p>Stellen Sie den öffentlichen SFTP-Schlüssel bereit. </p> <p>Sie müssen den öffentlichen Schlüssel herunterladen, um das SFTP Repository einrichten zu können. </p> <p> <p>Hinweis: Zum Erstellen des Feeds muss der öffentliche Schlüssel nicht heruntergeladen werden. </p> </p> <p>Sie können einen öffentlichen Schlüssel verwenden, den Sie bereits beim Erstellen eines vorherigen Feeds heruntergeladen haben. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/de_DE/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
+   <td colname="col2"> <p>Stellen Sie den öffentlichen SFTP-Schlüssel bereit. </p> <p>Sie müssen den öffentlichen Schlüssel herunterladen, um das SFTP Repository einrichten zu können. </p> <p> <p>Hinweis: Zum Erstellen des Feeds muss der öffentliche Schlüssel nicht heruntergeladen werden. </p> </p> <p>Sie können einen öffentlichen Schlüssel verwenden, den Sie bereits beim Erstellen eines vorherigen Feeds heruntergeladen haben. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/de_DE/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Schlüssel </p> <p>Schlüssel bestätigen </p> </td> 
-   <td colname="col2"> <p> Geben Sie Ihren Zugriffsschlüssel für den Speicher ein. Erneut eingeben und bestätigen. </p> <p> <p>Hinweis: Unter <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/de-de/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> erfahren Sie, wie Sie auf Zugangsschlüssel zugreifen können. </p> </p> </td> 
+   <td colname="col2"> <p> Geben Sie Ihren Zugriffsschlüssel für den Speicher ein. Erneut eingeben und bestätigen. </p> <p> <p>Hinweis: Unter <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/de-de/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> erfahren Sie, wie Sie auf Zugangsschlüssel zugreifen können. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Geheimer Schlüssel </p> <p>Geheimen Schlüssel bestätigen </p> </td> 
