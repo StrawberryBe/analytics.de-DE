@@ -5,7 +5,7 @@ seo-title: Analytics für digitale Assistenten implementieren
 title: Analytics für digitale Assistenten implementieren
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analytics verwendet den [Adobe Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) , um Interaktionen über einen bestimmten Zeitraum hinweg mit derselben Person zu verbinden. Die meisten digitalen Assistenten geben eine zurück, `userID` die Sie verwenden können, um die Aktivität für verschiedene Benutzer zu halten. In den meisten Fällen können Sie diesen Wert als eindeutigen Bezeichner weitergeben. Einige Plattformen geben einen Bezeichner zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, dass Sie den eindeutigen Bezeichner mithilfe eines standardmäßigen Hashing-Algorithmus wie MD5 oder Sha1 auf einen Wert mit fester Länge hash.
 
-Die Verwendung des ID-Diensts bietet den meisten Wert, wenn Sie ECIDs auf verschiedenen Geräten zuordnen (z. B. Web-to-Digital-Assistenzkraft). Wenn es sich bei Ihrer App um eine mobile App handelt, verwenden Sie die Experience Platform-SDKs unverändert und senden Sie die Benutzer-ID mit der `setCustomerID` Methode. Wenn es sich bei Ihrer App jedoch um einen Dienst handelt, verwenden Sie die vom Dienst bereitgestellte Benutzer-ID als ECID und legen Sie sie in `setCustomerID`fest.
+Die Verwendung des ID-Diensts bietet den meisten Wert, wenn Sie ECIDs auf verschiedenen Geräten zuordnen (z. B. Web-to-Digital-Assistenzkraft). Wenn es sich bei Ihrer App um eine mobile App handelt, verwenden Sie die Experience Platform-SDKs unverändert und senden Sie die Benutzer-ID mit der `setCustomerID` Methode. However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
