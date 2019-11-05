@@ -9,7 +9,7 @@ title: Berechtigungen für Analytics-Tools anpassen
 topic: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -39,23 +39,23 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | Element | Beschreibung |
 |--- |--- |
 | **Allgemein** |  |
-| [Code-Manager](../../../admin/admin/code-manager-admin.md) | Ermöglicht das Herunterladen von Datensammlungs-Code für Web- und mobile Plattformen. |
+| [Code-Manager](/help/admin/admin/code-manager-admin.md) | Ermöglicht das Herunterladen von Datensammlungs-Code für Web- und mobile Plattformen. |
 | Code-Manager – Web-Services | Ermöglicht es Nichtadministratoren, über Web-Services auf den Code-Manager zuzugreifen. |
-| [Protokolle](../../../admin/admin/logs.md) | Ermöglicht Zugriff auf Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen. |
+| [Protokolle](/help/admin/admin/logs.md) | Ermöglicht Zugriff auf Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen. |
 | Protokolle – Web-Services | Ermöglicht es Nichtadministratoren, über Web-Services auf Admin Tools-Protokolle zuzugreifen. |
-| [Traffic-Management](../../../admin/c-traffic-management/traffic-management.md) | Auf der Seite „Traffic-Management“ können Sie Informationen zu erwarteten Änderungen des Trafficvolumens angeben. |
+| [Traffic-Management](/help/admin/c-traffic-management/traffic-management.md) | Auf der Seite „Traffic-Management“ können Sie Informationen zu erwarteten Änderungen des Trafficvolumens angeben. |
 | Berechtigungsverwaltung | Ermöglicht Nichtadministratoren Zugriff auf Benutzerverwaltungsseiten in den Admin Tools. Diese Benutzer können die Einstellungen zwar lesen, aber nicht bearbeiten. |
 | Berechtigungen (schreiben) – Web-Services | Erteilt Benutzern ohne Administratorrechte Lese- und Schreibberechtigungen für das Benutzermanagement der Web-Services.<br>Diese Einstellung bezieht sich insbesondere auf die angegebenen Berechtigungsaktionen in der Admin-API. |
 | Berechtigungen (lesen) – Web-Services | Ermöglicht es Nichtadministratoren, Berechtigungseinstellungen in der Benutzerverwaltung über Web-Services einzusehen.<br>Diese Einstellung bezieht sich insbesondere auf die angegebenen Berechtigungsaktionen in der Admin-API. |
 | **Firmenmanagement** |  |
-| [Sicherheit](../../../admin/company/security-manager.md) | Gewährt Zugriff auf die Seite Sicherheits-Manager, über die der Zugriff auf Berichtsdaten gesteuert wird. Zu den Optionen gehören sichere Kennwörter, Kennwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. |
+| [Sicherheit](/help/admin/company/security-manager.md) | Gewährt Zugriff auf die Seite Sicherheits-Manager, über die der Zugriff auf Berichtsdaten gesteuert wird. Zu den Optionen gehören sichere Kennwörter, Kennwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. |
 | Support-Info | Gewährt Zugriff auf Supportinfo in den Unternehmenseinstellungen. |
-| [Web-Services](../../../admin/company/web-services-admin.md) | Gewährt Zugriff auf die Web-Services-Seite in der Benutzeroberfläche der Admin Tools ([!UICONTROL Unternehmenseinstellungen] &gt; [!UICONTROL Web-Services]).<br>Mit der Web-Services-API erhalten Sie programmatischen Zugriff auf Adobe Analytics-Dienste, mit denen Sie verfügbare Funktionen über die Benutzeroberfläche duplizieren und verstärken können. |
+| [Web-Services](/help/admin/company/web-services-admin.md) | Gewährt Zugriff auf die Web-Services-Seite in der Benutzeroberfläche der Admin Tools ([!UICONTROL Unternehmenseinstellungen] &gt; [!UICONTROL Web-Services]).<br>Mit der Web-Services-API erhalten Sie programmatischen Zugriff auf Adobe Analytics-Dienste, mit denen Sie verfügbare Funktionen über die Benutzeroberfläche duplizieren und verstärken können. |
 | Single Sign-on (veraltet) | Gewährt Zugriff auf die Single Sign-on-Seite in den Admin Tools.<br>**Hinweis:** Single Sign-on wird in der Adobe Experience Cloud mithilfe der [Kontoverknüpfung](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) zwischen der Experience Cloud und anderen Lösungen ermöglicht. |
-| [Ausstehende Aktionen](../../../admin/company/pending-actions-admin.md) | Ermöglicht die Bearbeitung ausstehender Aktionen in den [!UICONTROL Unternehmenseinstellungen]. |
-| [Co-Branding](../../../admin/company/co-branding-admin.md) | Ermöglicht das Co-Branding von Analytics. |
-| [Voreinstellungen](../../../admin/admin/preferences-manager.md) | Ermöglicht Zugriff auf den [!UICONTROL Manager für Voreinstellungen]. |
-| [Report Suites ausblenden](../../../admin/company/c-hide-report-suites.md) | Verleiht das Recht zum Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics. |
+| [Ausstehende Aktionen](/help/admin/company/pending-actions-admin.md) | Ermöglicht die Bearbeitung ausstehender Aktionen in den [!UICONTROL Unternehmenseinstellungen]. |
+| [Co-Branding](/help/admin/company/co-branding-admin.md) | Ermöglicht das Co-Branding von Analytics. |
+| [Voreinstellungen](/help/admin/admin/preferences-manager.md) | Ermöglicht Zugriff auf den [!UICONTROL Manager für Voreinstellungen]. |
+| [Report Suites ausblenden](/help/admin/company/c-hide-report-suites.md) | Verleiht das Recht zum Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics. |
 | **Tools** | Mit diesen Einstellungen kann Zugriff auf Analytics-Tools (Oberflächen und Anwendungen) und erweiterte Funktionen wie Segmentierung und berechnete Metriken gewährt werden. |
 | [Aktuelle Daten](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | Ermöglicht die Verwendung der Funktion „Aktuelle Daten“ für Berichte. |
 | [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/)-Lizenzanwender | Gewährt Zugriff auf [!UICONTROL Ad Hoc Analysis]. |
