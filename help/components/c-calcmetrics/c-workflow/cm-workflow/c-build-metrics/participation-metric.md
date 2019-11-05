@@ -5,7 +5,7 @@ seo-title: Beitragsmetrik
 title: Beitragsmetrik
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Im Folgenden wird ein einfacher Anwendungsfall beschrieben: Als Inhaber von Inha
 
 1. Erstellen Sie eine neue Metrik im Generator für berechnete Metriken.
 1. Ziehen Sie das Erfolgsereignis "Bestellungen"in die Arbeitsfläche "Definition".
-1. Ändern Sie das [Zuordnungsmodell](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) dieses Ereignisses in **[!UICONTROL Teilnahme]** unter dem **[!UICONTROL Einstellungswerkzeug]** . Wählen Sie **[!UICONTROL Besuchs]** -Lookback. Die Definition sollte etwa so aussehen:
+1. Ändern Sie das [Zuordnungsmodell](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) dieses Ereignisses in **[!UICONTROL Teilnahme]** unter dem **[!UICONTROL Einstellungswerkzeug]** . Wählen Sie **[!UICONTROL Besuchs]** -Lookback. Die Definition sollte etwa so aussehen:
 
    ![](assets/participation.png)
 
