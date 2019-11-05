@@ -7,7 +7,7 @@ title: Konversionsvariablen bearbeiten
 topic: Admin Tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,5 +26,5 @@ Schritte, die beschreiben, wie Konversionsvariablen hinzugefügt oder bearbeitet
    Klicken Sie auf **[!UICONTROL „Neu hinzufügen“], um eine noch nicht verwendete eVar zur Report Suite hinzuzufügen.**
 1. Wählen Sie die Konversionsvariablenfelder aus, die Sie ändern möchten.
 
-   Siehe [Konversionsvariablen – Beschreibungen](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Einige Felder ermöglichen die direkte Eingabe in das Feld. In anderen können Sie aus einer Dropdownliste mit unterstützten Werten einen Wert auswählen.
+   Siehe [Konversionsvariablen – Beschreibungen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Einige Felder ermöglichen die direkte Eingabe in das Feld. In anderen können Sie aus einer Dropdownliste mit unterstützten Werten einen Wert auswählen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
