@@ -5,7 +5,7 @@ seo-title: Silverpop-Integration
 title: Silverpop-Integration
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ So konfigurieren Sie die Integration:
   <tr valign="top"> 
    <td colname="col2"> <p>Datenerfassung </p> </td> 
    <td colname="col03"> <p>(3) Dateneinstellungen </p> </td> 
-   <td colname="col3"> <p>Wählen Sie das <b>JavaScript-Plug-in</b> , wenn Sie das Plug-in s_code.js als Erfassungsmodell für diese Integration verwenden möchten (siehe <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> Analytics-Plug-In-Code</a>). </p> <p>Wählen Sie <b>Automatisierte Lösung</b> , wenn Sie ein automatisiertes Erfassungsmodell für diese Integration verwenden möchten, und geben Sie dann die eindeutigen Bezeichner für diese Integration an. </p> <p>Wenn Sie diese Option auswählen, geben Sie die eindeutigen Bezeichner an, die für diese Integration verwendet werden: </p> <p> <b>Abfragezeichenfolgenparameter der Nachrichten-ID:</b>Dieser Wert entspricht der Nachrichten-ID, die Ihr E-Mail-Partner an die URL der Einstiegsseite angehängt hat. </p> <p> <b></b> Abfragezeichenfolgenparameter der Empfänger-ID: Dieser Wert stellt die Empfänger-ID dar, die Ihr E-Mail-Partner an die URL der Einstiegsseite angehängt hat. </p> </td> 
+   <td colname="col3"> <p>Wählen Sie das <b>JavaScript-Plug-in</b> , wenn Sie das Plug-in s_code.js als Erfassungsmodell für diese Integration verwenden möchten (siehe <a href="../silverpop-overview/silverpop-analytics-code.md"> Analytics-Plug-In-Code</a>). </p> <p>Wählen Sie <b>Automatisierte Lösung</b> , wenn Sie ein automatisiertes Erfassungsmodell für diese Integration verwenden möchten, und geben Sie dann die eindeutigen Bezeichner für diese Integration an. </p> <p>Wenn Sie diese Option auswählen, geben Sie die eindeutigen Bezeichner an, die für diese Integration verwendet werden: </p> <p> <b>Abfragezeichenfolgenparameter der Nachrichten-ID:</b>Dieser Wert entspricht der Nachrichten-ID, die Ihr E-Mail-Partner an die URL der Einstiegsseite angehängt hat. </p> <p> <b></b> Abfragezeichenfolgenparameter der Empfänger-ID: Dieser Wert stellt die Empfänger-ID dar, die Ihr E-Mail-Partner an die URL der Einstiegsseite angehängt hat. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Dashboard- und Lesezeichenerstellung </p> </td> 
