@@ -7,26 +7,26 @@ title: Metriken
 topic: Reports and Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Metriken
 
-Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
+Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Durchklicks, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 
-## Metriken {#concept_EB00207C07BD4481AB116E62EC24E686}
+## Metriken
 
 Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 
 Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt. Traffic-Metriken zeigen Daten zum Besuchervolumen. Konversionsmetriken zeigen Daten zu Erfolgsereignissen wie z. B. Käufen, Downloads oder anderen Aktionen, die Sie von Benutzern auf Ihrer Webseite im optimalen Fall erwarten. 
 
-[Berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) werden durch die Kombination von Metriken erstellt.
+[Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) werden durch die Kombination von Metriken erstellt.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## Standard-Berichtsmetriken auswählen {#task_9537A607288A4450AE07EC7C070B47C6}
+## Standard-Berichtsmetriken auswählen
 
 In diesen Schritten wird beschrieben, wie Sie Standardmetriken auf Berichtsebene auswählen können.
 
