@@ -8,7 +8,7 @@ title: Benutzergruppeneinstellungen
 topic: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -95,10 +95,10 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
      </ul> </p> </td> 
    <td colname="col2"> <p>Die Gruppenmitglieder können auf einen Teil der Berichte in der Berichtsgruppe zugreifen. Durch Klicken auf <span class="uicontrol">Anpassen</span> können Sie eine Seite öffnen, auf der Sie die Berichte aus der Berichtsgruppe, auf die die Gruppenmitglieder zugreifen können, auswählen können. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Analytics-Werkzeuge</a>: Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Report Suite Tools</a>: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Metriken</a>: Gewähren Sie Zugriff auf Traffic, Konversion, benutzerdefinierte Ereignisse, Lösungsereignisse, Content-Unterstützung und mehr. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensionen</a>: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Analytics-Werkzeuge</a>: Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Report Suite Tools</a>: Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Metriken</a>: Gewähren Sie Zugriff auf Traffic, Konversion, benutzerdefinierte Ereignisse, Lösungsereignisse, Content-Unterstützung und mehr. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensionen</a>: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Komplettzugriff, benutzerspezifisch, kein Zugriff) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Benutzerrechte werden für Benutzer unterstützt, die über aktive <span class="keyword">TagManager</span>-Container verfügen. Für neue Benutzer sind sie nicht verfügbar. </p> <p>Adobe empfiehlt für die Implementierung die Verwendung des <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html" format="html" scope="external">Dynamic Tag Management</a>. </p> </td> 
+   <td colname="col2"> <p>Benutzerrechte werden für Benutzer unterstützt, die über aktive <span class="keyword">TagManager</span>-Container verfügen. Für neue Benutzer sind sie nicht verfügbar. </p> <p>Adobe empfiehlt für die Implementierung die Verwendung des <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Benutzeranmeldungen zuweisen</b> </td> 
