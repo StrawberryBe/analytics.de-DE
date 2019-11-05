@@ -6,7 +6,7 @@ solution: Analytics
 title: Variablen für Datenschutzberichte
 topic: Admin Tools
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ Diese Variablen für die Datenschutzberichterstellung bieten ein benutzerfreundl
 
 ## Berichterstellung
 
-Sie können die Variablen für Datenschutzberichte über eine neue Datenschutzeinstellung der Analytics Admin-Konsole aktivieren.
+Sie können die Variablen für Datenschutzberichte über eine neue Datenschutzeinstellung der Analytics Admin Console aktivieren.
 
 Jede Report Suite kann wie folgt konfiguriert werden:
 1. Klicken Sie in „Reports &amp; Analytics“ auf **[!UICONTROL Admin &gt; Report Suites.]**
@@ -59,7 +59,7 @@ Jede Report Suite kann wie folgt konfiguriert werden:
 
 Drei Kontextdatenvariablen sind vordefiniert, um mit den vom Datenschutzmanagement reservierten Variablen zu arbeiten.  Die Bestimmung der Verwaltung und des Beibehaltens der Einstellung dieser Variablen liegt bei den einzelnen Implementierungstechnikern.
 
-Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) .
+Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html).
 
 ### SSF
 
