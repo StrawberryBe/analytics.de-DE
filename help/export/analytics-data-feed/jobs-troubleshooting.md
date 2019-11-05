@@ -1,13 +1,13 @@
 ---
 description: Wenn ein Fehler auftritt, wird in der Spalte „Auftragsstatus“ ein Fehler gemeldet.
-keywords: Datenfeed; job; Fehlerbehebung; error; ftp; chdir; connect; login; put
+keywords: Datenfeed;Auftrag;Fehlerbehebung;Fehler;FTP;chdir;Verbinden;Anmeldung;Put
 seo-description: Wenn ein Fehler auftritt, wird in der Spalte „Auftragsstatus“ ein Fehler gemeldet.
 seo-title: Fehlerbehebung bei Aufträgen
 solution: Analytics
 title: Fehlerbehebung bei Aufträgen
-uuid: 8 fbb 914 e -03 db -434 e-b 4 d 3-8594144 ff 2 b 7
+uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
