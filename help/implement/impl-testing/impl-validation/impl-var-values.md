@@ -8,7 +8,7 @@ title: Variablen und Werte
 topic: Entwickler und Implementierung
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,4 +50,4 @@ Bei Seitennamen muss auf die richtige Groß-/Kleinschreibung geachtet werden, an
 
 > [!NOTE] Datensätze von mehreren Seiten können in Berichten nicht kombiniert werden.
 
-Überprüfen Sie, ob Links im Bericht [!UICONTROL Benutzerspezifische Links] aufgeführt werden. Vergewissern Sie sich, dass an die [!UICONTROL tl]-Funktion die richtigen Parameter übergeben werden. Weitere Informationen zu [!UICONTROL benutzerspezifischen Links] finden Sie unter [Linktracking](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
+Überprüfen Sie, ob Links im Bericht [!UICONTROL Benutzerspezifische Links] aufgeführt werden. Vergewissern Sie sich, dass an die [!UICONTROL tl]-Funktion die richtigen Parameter übergeben werden. Weitere Informationen zu [!UICONTROL benutzerspezifischen Links] finden Sie unter [Linktracking](/help/implement/js-implementation/function-tl.md).
