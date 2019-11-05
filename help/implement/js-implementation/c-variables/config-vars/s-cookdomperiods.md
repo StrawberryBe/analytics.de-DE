@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,9 @@ Siehe auch [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/anal
 |---|---|---|---|
 | Keine | CDP | Betrifft mehrere Berichte und steuert, wie die Besucherkennung gespeichert und verarbeitet wird. | 2 |
 
-> [!NOTE] Einige Cloud-Computing-Dienste gelten als Domänen oberster Ebene, auf denen das Erstellen von Cookies nicht zulässig ist. (Beispiel: `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com` usw.) Bei einer Implementierung mithilfe dieser Dienste können Sie von der Analytics-Datenschutzeinstellung betroffen sein, die Benutzer entfernt, die alle Cookies blockiert haben, wenn Sie keine eigene Domäne eingerichtet haben (z. B. beim Testen Ihrer Implementierung). In diesem Fall wird jeder Treffer, bei dem das System feststellt, dass Cookies deaktiviert, nicht funktionsfähig oder nicht für den Zugriff verfügbar sind, deaktiviert und somit vom Reporting ausgeschlossen.
+>[!NOTE]
+>
+>Einige Cloud-Computing-Dienste gelten als Domänen oberster Ebene, auf denen das Erstellen von Cookies nicht zulässig ist. (Beispiel: `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com` usw.) Bei einer Implementierung mithilfe dieser Dienste können Sie von der Analytics-Datenschutzeinstellung betroffen sein, die Benutzer entfernt, die alle Cookies blockiert haben, wenn Sie keine eigene Domäne eingerichtet haben (z. B. beim Testen Ihrer Implementierung). In diesem Fall wird jeder Treffer, bei dem das System feststellt, dass Cookies deaktiviert, nicht funktionsfähig oder nicht für den Zugriff verfügbar sind, deaktiviert und somit vom Reporting ausgeschlossen.
 
 ## Beispiele
 
