@@ -9,7 +9,7 @@ title: Beispiel für Seiten-Code und globale Konfiguration
 topic: Entwickler und Implementierung
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ In diesem Abschnitt finden Sie Beispielcode für Ihre Core-JavaScript-Datei und 
 
 >[!IMPORTANT]
 >
->In diesem Beispiel wird der Besucher-ID-Service verwendet, der als Teil Ihrer [JavaScript-Implementierung](../../implement/js-implementation/javascript-implementation-overview.md) bereitgestellt wird. Wenn Sie den Besucher-ID-Service in AppMeasurement aktivieren, bevor Sie die Besucher-API-JavaScript-Datei auf allen Webseiten eingebunden haben, hat dies möglicherweise doppelte Besucherzählungen zur Folge. Um doppelte Besucherzählungen zu vermeiden, befolgen Sie die Vorgehensweise unter [Besucher-ID-Service](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>In diesem Beispiel wird der Besucher-ID-Service verwendet, der als Teil Ihrer [JavaScript-Implementierung](/help/implement/js-implementation/javascript-implementation-overview.md) bereitgestellt wird. Wenn Sie den Besucher-ID-Service in AppMeasurement aktivieren, bevor Sie die Besucher-API-JavaScript-Datei auf allen Webseiten eingebunden haben, hat dies möglicherweise doppelte Besucherzählungen zur Folge. Um doppelte Besucherzählungen zu vermeiden, befolgen Sie die Vorgehensweise unter [Besucher-ID-Service](/help/implement/js-implementation/c-unique-visitors/visid-service.md).
 
 ## Beispielcode für AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Stellen Sie sicher, dass Sie auf jeder Seite stets auf `AppMeasurement.js` und `VisitorAPI.js` verweisen. Siehe [JavaScript-Implementierung](../../implement/js-implementation/javascript-implementation-overview.md) für Anweisungen.
+Stellen Sie sicher, dass Sie auf jeder Seite stets auf `AppMeasurement.js` und `VisitorAPI.js` verweisen. Siehe [JavaScript-Implementierung](/help/implement/js-implementation/javascript-implementation-overview.md) für Anweisungen.
