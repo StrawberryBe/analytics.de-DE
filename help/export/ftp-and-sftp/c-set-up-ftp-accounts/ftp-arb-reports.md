@@ -7,7 +7,7 @@ solution: Analytics
 title: Von Report Builder bereitgestellte Berichte
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ Verwenden Sie das Adobe ReportBuilder-Add-in für Microsoft Excel, um benutzerde
 
 Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen und die Darstellung der Daten lässt sich aktualisieren und anpassen. Für FTP müssen Sie sicherstellen, dass der Host extern verfügbar ist. Weitere Informationen zu den von [!UICONTROL ReportBuilder] gelieferten Berichten finden Sie in der [Hilfe zu ReportBuilder](https://marketing.adobe.com/resources/help/en_US/arb/index.html#ReportBuilder_Home).
 
-Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)
+Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md)
