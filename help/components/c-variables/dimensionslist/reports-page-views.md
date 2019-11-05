@@ -7,7 +7,7 @@ title: Seitenansichten
 topic: Berichte
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Ein Trendbericht, der anzeigt, wie oft Ihre Web-Seiten im ausgewählten Zeitraum (Stunde, Tag, Woche, Monat, Quartal oder Jahr) angesehen wurden. Anhand dieses Berichts können Sie Seitenansichten jeder Seite auf Ihrer Site sowie die Gesamtübersicht der Seitenansichten auf Ihrer gesamten Site zurückverfolgen.
 
-A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26) is a request for a full page document rather than an element of a page, such as an image or video. Wenn z. B. ein einzelner Benutzer während eines Besuchs 15 Seiten aufruft, werden 15 Seitenansichten gezählt. Wenn ein Benutzer die gleiche Seite drei Mal während eines Besuchs aufruft, werden drei Seitenansichten gezählt.
+A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. Wenn z. B. ein einzelner Benutzer während eines Besuchs 15 Seiten aufruft, werden 15 Seitenansichten gezählt. Wenn ein Benutzer die gleiche Seite drei Mal während eines Besuchs aufruft, werden drei Seitenansichten gezählt.
 
 **Berichteigenschaften**
 
