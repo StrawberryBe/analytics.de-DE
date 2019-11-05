@@ -5,7 +5,7 @@ seo-title: Anomalien in Analysis Workspace anzeigen
 title: Anomalien in Analysis Workspace anzeigen
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -31,7 +31,7 @@ Wenn Sie auf einen weißen Punkt klicken, wird dieser grün und es wird Ihnen Fo
 * Das Datum, an dem die Anomalie auftrat
 * Der Rohdatenwert der Anomalie
 * Der Prozentwert über oder unter dem erwarteten Wert, der durch eine durchgezogene grüne Linie dargestellt wird.
-* Der Link „Analysieren“ zum Starten der [Beitragsanalyse](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
+* Der Link „Analysieren“ zum Starten der [Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
 ![](assets/anomaly_linechart.png)
 
