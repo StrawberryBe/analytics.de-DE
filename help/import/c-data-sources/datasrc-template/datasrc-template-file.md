@@ -8,7 +8,7 @@ title: 'Data Sources-Vorlagenübersicht '
 topic: Entwickler und Implementierung
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,17 +21,17 @@ Die mit diesem Assistenten generierte Vorlagendatei hilft Ihnen beim Import. Sie
 
 Sie können die für jeden Typ unterstützten Metriken und Dimensionen in den folgenden Abschnitten anzeigen:
 
-* [Webprotokoll](../../../import/c-data-sources/c-datasrc-types/datasrc-web-log.md#concept_E25D89C8B90A41FEB7DF4E936CACEE2B)
-* [Traffic](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC) (wird nicht mehr unterstützt)
-* [Konversion](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0)
-* [Transaktions-ID](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)
-* [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
-* [Volle Verarbeitung](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)
+* [Webprotokoll](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)
+* [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) (wird nicht mehr unterstützt)
+* [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
+* [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
+* [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+* [Volle Verarbeitung](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
-For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5).
+For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
 
 Nach dem Erstellen können Sie die Vorlage herunterladen, Daten in die Vorlage eingeben und dann die Daten auf die Data Sources-FTP-Site hochladen. Nach der Verarbeitung durch den Data Sources-Server stehen die importierten Daten zur Verwendung in Ihren Marketingberichten zur Verfügung.
 
 The Data Source template is a [!DNL .txt] file that you can open with any text editor. Am einfachsten ist es jedoch, wenn Sie in Microsoft Excel oder einer anderen Tabellenkalkulationsanwendung mit der Vorlage arbeiten. Der Vorlageninhalt ist von der Auswahl im [!UICONTROL Datenquelle-Aktivierungsassistent] abhängig.
 
-Siehe [Importdatei-Referenz](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD) für weitere Details.
+Siehe [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
