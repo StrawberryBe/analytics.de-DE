@@ -7,7 +7,7 @@ title: Ziele
 topic: Reports and Analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,12 +77,12 @@ t_add_a_target.xml
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. Klicken Sie auf der Seite [!UICONTROL Ziel-Manager]**auf[!UICONTROL Neu hinzufügen]**.
-1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configure the options described in [Target Field Descriptions](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Zielgruppe bearbeiten {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. Klicken Sie in der Spalte **Verwalten** auf das Symbol **[!UICONTROL Bearbeiten.]**
-1. Configure the options described in [Target Field Descriptions](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configure the options described in [Target Field Descriptions](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Klicken Sie auf **[!UICONTROL OK]**.
