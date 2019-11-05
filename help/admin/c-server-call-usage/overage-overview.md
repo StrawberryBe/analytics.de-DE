@@ -5,7 +5,7 @@ seo-title: Übersicht zur Nutzung von Server-Aufrufen
 title: Übersicht zur Nutzung von Server-Aufrufen
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## Voraussetzungen {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Berechtigungen**: Um auf das Dashboard zur Nutzung von Server-Aufrufen und die Warnhinweiserstellung/-verwaltung zugreifen zu können, müssen Sie ein Adobe Analytics-Administrator sein.
-* **Berechtigungen**: Administratoren können Nicht-Administratoren Zugriff gewähren: die Berechtigung heißt " **[!UICONTROL Server Call Usage]**". Siehe [Berechtigung zur Nutzung von Server-Aufrufen](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** Berechtigungen: Um auf das Dashboard zur Verwendung des Serveraufrufs und den Warnhinweiserstellung/Manager zugreifen zu können, müssen Sie Adobe Analytics-Administrator sein.
+* **** Berechtigungen: Administratoren können Nicht-Administratoren Zugriff gewähren: die Berechtigung heißt " **[!UICONTROL Server Call Usage]**". Siehe [Berechtigung zur Nutzung von Server-Aufrufen](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Wichtige Begriffe {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anmeldeunternehmen </p> </td> 
-   <td colname="col2"> <p>Ein Abrechnungsunternehmen kann <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">mehrere Anmeldeunternehmen besitzen</a> Ein Anmeldeunternehmen ist eine Sammlung von Report Suites, die von Ihrer Organisation verwendet wird. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind. Dies ist besonders für große Unternehmen nützlich, die mit verschiedenen Geschäftszweigen zu tun haben und bei denen viele Report Suites für andere Personen im Unternehmen nicht von Belang sind. </p> <p>Oft sind das regionale Niederlassungen eines Unternehmens. Dieses Beispiel zeigt Anmeldeunternehmen und die mit ihnen verbundenen Report Suites: </p> 
+   <td colname="col2"> <p>Ein Abrechnungsunternehmen kann <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">mehrere Anmeldeunternehmen besitzen</a> Ein Anmeldeunternehmen ist eine Sammlung von Report Suites, die von Ihrer Organisation verwendet wird. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind. Dies ist besonders für große Unternehmen nützlich, die mit verschiedenen Geschäftszweigen zu tun haben und bei denen viele Report Suites für andere Personen im Unternehmen nicht von Belang sind. </p> <p>Oft sind das regionale Niederlassungen eines Unternehmens. Dieses Beispiel zeigt Anmeldeunternehmen und die mit ihnen verbundenen Report Suites: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Hinweis: Die Nutzungsdaten zu Server-Aufrufen sind für <u>alle</u> Report Suites innerhalb eines Abrechnungsunternehmens für alle Nutzer mit der entsprechenden <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">Berechtigung</a> einsehbar. </p> </td> 
+    </ul> <p>Hinweis: Die Nutzungsdaten zu Server-Aufrufen sind für <u>alle</u> Report Suites innerhalb eines Abrechnungsunternehmens für alle Nutzer mit der entsprechenden <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">Berechtigung</a> einsehbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-Organisation </p> </td> 
