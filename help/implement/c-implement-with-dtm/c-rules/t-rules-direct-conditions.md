@@ -6,8 +6,8 @@ seo-title: Erstellen Sie Bedingungen für Direktaufrufregeln
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Erstellen Sie Bedingungen für Direktaufrufregeln
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,5 +22,5 @@ Erstellen Sie Bedingungen für Direktaufrufregeln.
 
    >[!NOTE]
    >
-   >Verwenden Sie bei der oben beschriebenen Angabe der Zeichenfolge, die über die Benutzeroberfläche bei einem Direktaufruf an `_satellite.track()` übermittelt wird, keine Anführungszeichen. Wenn Sie [benutzerdefinierten Seiten-Code](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) im Editor angeben, müssen Anführungszeichen verwendet werden.
+   >Verwenden Sie bei der oben beschriebenen Angabe der Zeichenfolge, die über die Benutzeroberfläche bei einem Direktaufruf an `_satellite.track()` übermittelt wird, keine Anführungszeichen. Wenn Sie [benutzerdefinierten Seiten-Code](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md) im Editor angeben, müssen Anführungszeichen verwendet werden.
 
