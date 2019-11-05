@@ -5,7 +5,7 @@ seo-title: Bestehende Berichte konfigurieren
 title: Bestehende Berichte konfigurieren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -52,7 +52,7 @@ Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktione
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bereitstellungsoptionen </p> </td> 
-   <td colname="col2"> <p> Siehe <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Auslieferungsoptionen</a>. </p> </td> 
+   <td colname="col2"> <p> Siehe <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > Auslieferungsoptionen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Drucken </p> </td> 
@@ -64,7 +64,7 @@ Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktione
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Sources </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ansicht </p> </td> 
@@ -124,7 +124,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lineare Regression anzeigen </p> </td> 
-   <td colname="col2"> <p>Für <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986" format="dita" scope="local"> Punktdiagramme</a>. Zeigt eine statistische Näherung Ihrer Daten an. </p> </td> 
+   <td colname="col2"> <p>Für <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > Punktdiagramme</a>. Zeigt eine statistische Näherung Ihrer Daten an. </p> </td> 
   </tr> 
  </tbody> 
 </table>
