@@ -5,7 +5,7 @@ seo-title: Intelligente Warnhinweise
 title: Intelligente Warnhinweise
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -75,7 +75,7 @@ Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Be
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Kann ich eine Tabelle mit den "erwarteten Werten", die aus der gepunkteten Linie bestehen, oder eine Art Ausgabe dessen erhalten, was diese Werte sind? </b> </p> </td> 
-   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Anomalieerkennung in Report Builder </a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein nicht konfigurierbarer Trainingszeitraum von 30 Tagen mit einem festgelegten 95-%-Intervall Training angewandt. Der Vorgang ist vergleichbar mit der <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Anomalieerkennung in Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Anomalieerkennung in Report Builder </a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein nicht konfigurierbarer Trainingszeitraum von 30 Tagen mit einem festgelegten 95-%-Intervall Training angewandt. Der Vorgang ist vergleichbar mit der <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>Anomalieerkennung in Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
