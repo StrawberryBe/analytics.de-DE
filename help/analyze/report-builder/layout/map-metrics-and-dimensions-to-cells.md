@@ -7,7 +7,7 @@ title: Metriken und Dimensionen zu Zellen zuordnen
 topic: ReportBuilder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,9 +22,9 @@ Wenn Sie eine Zuordnung zu nicht kompatiblen Bereichen des Arbeitsblatts vornehm
 
 Die folgenden Abschnitte enthalten weitere Informationen:
 
-* [Einen Zellenbereich auswählen](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Methoden für die Auswahl von Zellen](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
-* [Probleme bei der Zuordnung](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
+* [Einen Zellenbereich auswählen](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Methoden für die Auswahl von Zellen](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Probleme bei der Zuordnung](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
