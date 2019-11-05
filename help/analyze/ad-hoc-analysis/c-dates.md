@@ -5,7 +5,7 @@ seo-title: Daten und Datumsbereiche
 title: Daten und Datumsbereiche
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **So greifen Sie auf historische Datumsfenster zu**
 
-1. [Erstellen oder öffnen Sie ein Projekt.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Öffnen Sie den [Kalender](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)und wählen Sie dann **[!UICONTROL Quartal]** oder **[!UICONTROL Jahr]**.
+1. [Erstellen oder öffnen Sie ein Projekt.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. Öffnen Sie den [Kalender](/help/analyze/ad-hoc-analysis/c-dates.md)und wählen Sie dann **[!UICONTROL Quartal]** oder **[!UICONTROL Jahr]**.
 
 > [!NOTE] Historische Datumsfenster liegen innerhalb von Quartals- und Jahresbeschränkungen. Sie können keine Daten anzeigen, die die Grenze zwischen alten Fenstern und der neuen Verarbeitungsplattform überschreiten. Bei Datumsbereichen, die beides umfassen, wird ein Fehler ausgegeben. Ferner gelten die Datumsbereiche nur für den Gregorianischen Kalender, nicht für den benutzerspezifischen Kalender.
 
