@@ -8,16 +8,12 @@ title: In Marketing-Kanalberichten verwendete Metriken
 topic: Reports and Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # In Marketing-Kanalberichten verwendete Metriken
-
-Verwendung von Metriken in Marketingkanalberichten.
-
-## In Marketing-Kanalberichten verwendete Metriken {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 Verwendung von Metriken in Marketingkanalberichten.
 
@@ -29,11 +25,11 @@ Fügen Sie Metriken hinzu (oder bearbeiten Sie diese).
 
 Fügen Sie dem Bericht eine Spalte hinzu.
 
-## First Touch- und Last Touch-Metriken {#concept_68D9A50204304BA58C1F8013451E7853}
+## First Touch- und Last Touch-Metriken {#first-and-last-touch}
 
 First Touch und Last Touch sind Kanalattribute, mit denen Sie sehen können, wie viele neue Interaktionen (oder Metrikdaten wie Produktansichten, Umsatz und Bestellungen) aus der Aktivität eines Besuchers im Kanal resultieren.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Es nimmt den ersten Kanal, durch den der Benutzer gelangte, zur Kenntnis. Gleiches gilt für den aktuellsten Kanal. Es weist dann das Erfolgsereignis jedem entsprechenden Kanal zu.
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). Es nimmt den ersten Kanal, durch den der Benutzer gelangte, zur Kenntnis. Gleiches gilt für den aktuellsten Kanal. Es weist dann das Erfolgsereignis jedem entsprechenden Kanal zu.
 
 <!-- 
 
@@ -65,7 +61,7 @@ Jedes Erfolgsereignis hat genau einen First-Touch- und genau einen Last-Touch-Ka
 
 > [!NOTE] Dieser Bericht verwendet die First Touch- oder Last Touch-Version der einzelnen Metriken. Aus diesem Grund stimmen die Daten eines [!UICONTROL Marketingkanalsberichts] ggf. nicht mit denen anderer Berichte überein.
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | Metrik | Definition |
 |--- |--- |
@@ -73,7 +69,7 @@ Jedes Erfolgsereignis hat genau einen First-Touch- und genau einen Last-Touch-Ka
 | First-Touch-Besucher | In der Kanalberichterstattung ist ein First-Touch-Besucher ein „Unique Visitor pro Tag“, der aus einem Kanal stammt. Die Besucherinteraktion wird für die Dauer der Interaktion an die Site (was mehrere Besuche umfassen kann) gespeichert. |
 | Last-Touch-Kanal | Der Konversionkanal, d. h. der letzte Marketingkanal mit Besucherbindung, der zur Konversion führte. Als First Touch-Kanal kann nur ein Kanal eingestellt werden. Der Last Touch-Kanal kann sich bei jedem Site-Besuch ändern. Jedem Besuch ist ein First Touch- und ein Last Touch-Kanal zugewiesen. Der Wert des First Touch-Kanals verändert sich jedoch bei nachfolgenden Besuchen nicht. |
 
-## Durchklicken {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## Durchklicken {#click-through}
 
 Ein Clickthrough eine Instanz innerhalb des Last Touch-Kanals. Es handelt sich um eine eVar mit der Zuordnung „Zuletzt verwendet“.
 
@@ -89,7 +85,7 @@ Beispiel: Ein Besucher besucht Ihre Website jeden Tag, wobei jeder Besuch über 
 
 Der First Touch-Kanalbericht würde hier 1 neue Interaktion für „Gebührenpflichtige Suche“ anzeigen. Für jeden anderen Kanal würden 0 neue Interaktionen angezeigt. Der Last Touch-Kanalbericht würde 2 Clickthroughs für „Gebührenpflichtige Suche“ anzeigen, 3 für „Anzeigen“ und 2 für „Kostenlose Suche“.
 
-## Hinzufügen von Metriken zu einem Marketingkanalbericht {#task_D381139E00504666AB2402D553CFEA5B}
+## Hinzufügen von Metriken zu einem Marketingkanalbericht {#add-metrics-to-mktg-channel-rpt}
 
 Fügen Sie dem Marketingkanalbericht Metriken hinzu. Sie können jeder Berichtsspalte bis zu vier Metriken pro Spalte und so viele Spalten wie gewünscht hinzufügen.
 
