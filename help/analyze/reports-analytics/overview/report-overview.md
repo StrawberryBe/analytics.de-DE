@@ -7,12 +7,12 @@ title: Berichtsfunktionen
 topic: Reports and Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Berichtsfunktionen{#report-features}
+# Berichtsfunktionen
 
 Eine Einführung in die Funktionen eines Berichts, einschließlich der Symbolleiste, des Kalenders und der Detailtabelle
 
@@ -30,7 +30,7 @@ Ermöglicht die Freigabe Ihrer Berichtsdaten an Entscheidungsträger, die anhand
 
 ![](assets/toolbar.png){width="672px"}
 
-Siehe auch [Anpassen eines Berichts](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Siehe auch [Anpassen eines Berichts](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Berichtskopf und -einstellungen {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ Zeigt Berichtseinstellungen an und ermöglicht das Konfigurieren des Berichtstyp
 
 ![](assets/settings_header.png){width="672px"}
 
-Weitere Informationen finden Sie unter [Anpassen eines Berichts](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) .
+Weitere Informationen finden Sie unter [Anpassen eines Berichts](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) .
 
 ## Kalender {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ Legen Sie das Datum fest, indem Sie auf die Kalenderschaltfläche klicken und ei
 
 ![](assets/calendar_large.png){width="672px"}
 
-Siehe [Auswählen eines Datums oder eines Datumsbereichs](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) und [Vergleichen von Daten](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Siehe [Auswählen eines Datums oder eines Datumsbereichs](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) und [Vergleichen von Daten](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Diagrammtyp {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-Wählen Sie den gewünschten Diagrammtyp aus.
+Wählen Sie den gewünschten Diagrammtyp aus:
 
 ![](assets/graph_type.png)
 
-Siehe [Ändern von Berichtsdiagrammen](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## Diagrammanzeige {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-Je nach ausgewähltem Diagrammtyp werden normalerweise die obersten Elemente aus der Detailliste angezeigt. Bei einem Trenddiagramm, das verschiedene Zeiträume enthält, werden alle Zeiträume angezeigt
+Je nach ausgewähltem Diagrammtyp werden normalerweise die obersten Elemente aus der Detailliste angezeigt. Bei einem Trenddiagramm, das verschiedene Zeiträume enthält, werden alle Zeiträume angezeigt:
 
 ![](assets/graph.png)
 
-Siehe [Benutzerspezifische Berichte](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Siehe [Anpassen von Berichten.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## Metriken {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ Fügen Sie Metriken zu Ihrem Bericht hinzu. Administratoren können hier Standar
 
 ![](assets/metrics.png)
 
-Siehe [Metriken](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+Siehe [Metriken.](/help/analyze/reports-analytics/metrics.md)
 
 ## Detailtabelle {#section_449A5DC848744F65A10DA12E189B835D}
 
-Die Details bilden den Hauptteil der Berichtsdaten. Im vorliegenden Fall werden Seiten aufgelistet und nach Seitenansichten bemessen, d. h. danach, wie oft sie im betreffenden Zeitraum geladen wurden.
+Die Details bilden den Hauptteil der Berichtsdaten. Im vorliegenden Fall werden Seiten aufgelistet und nach Seitenansichten bemessen, d. h. danach, wie oft sie im betreffenden Zeitraum geladen wurden:
 
 ![](assets/detail.png)
 
 In der Detailtabelle können Sie Daten filtern, Aufschlüsselungen erstellen, Metriken hinzufügen und anderes mehr.
 
-Siehe [Benutzerspezifische Berichte](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Siehe [Benutzerspezifische Berichte.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
