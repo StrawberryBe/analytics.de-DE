@@ -7,7 +7,7 @@ title: Filtern von Berichtsdaten
 topic: Reports and Analytics
 uuid: b6dcaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -173,7 +173,7 @@ Sie können die in einem Korrelationsbericht angezeigten Daten anhand einer beli
 
 **So fügen Sie einen Korrelationsfilter hinzu**
 
-1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. Wählen Sie unter [!UICONTROL „Filterregelerstellung“] eine Kategorie, die Sie mit einem Element korrelieren möchten.
 1. Klicken Sie auf **[!UICONTROL OK.]**
