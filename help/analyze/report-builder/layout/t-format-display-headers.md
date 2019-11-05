@@ -7,7 +7,7 @@ title: Anzeigeüberschriften formatieren
 topic: ReportBuilder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,7 +27,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
    | Berichtname | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Filtert Parameter | Anzeige von Dimensionsfiltern wie beispielsweise Suchfiltern. |
    | Segment | Anzeige der Segmentparameter. |
-   | Datenneuigkeit | Anzeige der Parameter für Datenneuigkeit. Beispiel:    Datenneuigkeit: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten) Weitere Informationen zur aktuellen Datenverarbeitung finden Sie unter [Optionen](../../../analyze/report-builder/options.md) . |
+   | Datenneuigkeit | Anzeige der Parameter für Datenneuigkeit. Beispiel:    Datenneuigkeit: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten) Weitere Informationen zur aktuellen Datenverarbeitung finden Sie unter [Optionen](/help/analyze/report-builder/options.md) . |
 
    Anzeigereihefolge: Wenn im [!UICONTROL Zeilentitel] (Schritt 2) ein Element enthalten ist, wird dies in der Anforderung zuerst angezeigt. Falls nicht, verwendet das System das erste vorhandene Element im Raster [!UICONTROL Spaltenbezeichnung]. Falls weder Zeilen- oder Spaltenelemente vorhanden sind, wird das erste Element im Raster [!UICONTROL Metriken] angezeigt.
 
@@ -43,6 +43,6 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
 
    **Automatische Gliederung durchführen:** Wandelt die von ReportBuilder ausgegebenen Daten von einer Listen- in eine Baumansicht um.
 
-   **Diese Anforderung benennen:** Hier können Sie einen benutzerdefinierten Namen für die Anforderung eingeben oder den in Schritt 1 ausgewählten Standardnamen verwenden. Dieser Name wird als [!UICONTROL Berichtname] im [!UICONTROL Anforderungs-Manager] angezeigt. Siehe [Eine Anforderung benennen](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D).
+   **Diese Anforderung benennen:** Hier können Sie einen benutzerdefinierten Namen für die Anforderung eingeben oder den in Schritt 1 ausgewählten Standardnamen verwenden. Dieser Name wird als [!UICONTROL Berichtname] im [!UICONTROL Anforderungs-Manager] angezeigt. Siehe [Eine Anforderung benennen](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
