@@ -5,7 +5,7 @@ seo-title: Warnungen zur Verwendung von Server-Aufrufen
 title: Warnungen zur Verwendung von Server-Aufrufen
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,12 +67,12 @@ Warnhinweise verwalten:
 
    | Aktion | Definition |
    |--- |--- |
-   | + Fügen Sie | Die [Warnhinweiserstellung](../../admin/c-server-call-usage/scu-alerts.md) per Klick auf [!UICONTROL + Hinzufügen] öffnen. |
+   | + Fügen Sie | Die [Warnhinweiserstellung](/help/admin/c-server-call-usage/scu-alerts.md) per Klick auf [!UICONTROL + Hinzufügen] öffnen. |
    | Markieren | Markieren Sie Warnhinweise, um sie leichter zu verwenden. |
    | Löschen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises löschen. |
    | Umbenennen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises umbenennen. |
    | Genehmigen | Genehmigen Sie Warnhinweise, um sie „offiziell“ zu machen. |
    | Aktivieren/deaktivieren | Sie können alle Warnhinweise mit Ausnahme der standardmäßigen Warnhinweise aktivieren oder deaktivieren. |
    | Verlängern | Wenn ein oder mehrere Warnhinweise ausgewählt sind, können sie verlängert werden. Dadurch wird ihr Ablaufdatum auf ein Jahr nach dem Tag, an dem auf [!UICONTROL Verlängern] geklickt wurde, verlängert, ungeachtet des ursprünglichen Ablaufdatums. |
-   | In CSV exportieren | Siehe [Nutzungsbericht herunterladen](../../admin/c-server-call-usage/report-suite-usage.md) |
+   | In CSV exportieren | Siehe [Nutzungsbericht herunterladen](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
