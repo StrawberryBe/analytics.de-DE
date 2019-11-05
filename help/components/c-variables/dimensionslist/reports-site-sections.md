@@ -7,7 +7,7 @@ title: Sitebereiche
 topic: Berichte
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Si
    * **Alle E-Commerce-Standardmetriken**: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb und Entnahmen aus Warenkorb.
    * **Alle benutzerspezifischen Ereignisse**: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
 
-Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die letzte Zuordnung. Sie sehen die Konversion auf die Seiten aufgeteilt, die in Ihrer Implementierung keine Erfolgsereignisse enthalten. Das unterscheidet sich vom [Seitenbericht](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), bei dem eine lineare Zuordnung verwendet wird.
+Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die letzte Zuordnung. Sie sehen die Konversion auf die Seiten aufgeteilt, die in Ihrer Implementierung keine Erfolgsereignisse enthalten. Das unterscheidet sich vom [Seitenbericht](/help/components/c-variables/dimensionslist/reports-pages.md), bei dem eine lineare Zuordnung verwendet wird.
 
 **Produktspezifische Informationen**
 
