@@ -8,7 +8,7 @@ title: Funktionsweise von Verarbeitungsregeln
 topic: Admin Tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Regeln gelten für eine einzelne Report Suite. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Kopieren von Verarbeitungsregeln in eine andere Report Suite </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Kopieren von Verarbeitungsregeln in eine andere Report Suite </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden in der aufgeführten Reihenfolge angewendet. </p> </td> 
@@ -41,15 +41,15 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden sofort nach ihrer Speicherung auf die Report Suite angewendet. </p> </td> 
-   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln sind die einzige Möglichkeit für den Zugriff auf Kontextdatenvariablen. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Eine Kontextdatenvariable in eine eVar kopieren </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Eine Kontextdatenvariable in eine eVar kopieren </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden vor VISTA-Regeln und Marketingkanal-Regeln angewendet. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Auftrag wird bearbeitet </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Auftrag wird bearbeitet </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Treffer können nicht ausgeschlossen werden. </p> </td> 
@@ -81,7 +81,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bei Wertvergleichen in der Benutzeroberfläche wird zwischen Groß- und Kleinschreibung unterschieden. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Bereinigen von Werten in einem Bericht </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Bereinigen von Werten in einem Bericht </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Der Name der Kontextdatenvariablen darf nur alphanumerische Zeichen, Unterstriche und Punkte enthalten. Alle anderen Zeichen werden entfernt. </p> </td> 
