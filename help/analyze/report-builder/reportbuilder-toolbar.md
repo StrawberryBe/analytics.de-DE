@@ -7,7 +7,7 @@ title: Report Builder-Symbolleiste
 topic: ReportBuilder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,22 +20,22 @@ Starten Sie Excel nach der Installation ReportBuilder und klicken Sie auf **[!UI
 
 ![](assets/report_builder_toolbar.png)
 
-**Anmelden:** Das Formular für die [!UICONTROL Anmeldung] wird angezeigt, in dem Sie sich mit Ihren eigenen oder anderen Anmeldeangeben anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Bei der Berichterstellung anmelden](../../analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md#task_08762953310F4FB0B91C0B1AA5044BAC).
+**Anmelden:** Das Formular für die [!UICONTROL Anmeldung] wird angezeigt, in dem Sie sich mit Ihren eigenen oder anderen Anmeldeangeben anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Bei der Berichterstellung anmelden](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
 
-**Erstellen:** Startet den [!UICONTROL Anforderungs-Assistenten]. Wenn Sie noch nicht angemeldet sind, werden Sie jetzt dazu aufgefordert. Siehe [Datenanforderungen](../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89).
+**Erstellen:** Startet den [!UICONTROL Anforderungs-Assistenten]. Wenn Sie noch nicht angemeldet sind, werden Sie jetzt dazu aufgefordert. Siehe [Datenanforderungen](/help/analyze/report-builder/data-requests/data-requests.md).
 
-**Verwalten:** Startet den [!UICONTROL Anforderungs-Manager]. Sie können alle in Ihre Excel-Arbeitsmappe eingebetteten ReportBuilder-Datenanforderungen bearbeiten, aktualisieren, löschen, verwalten und ihren Status anzeigen. Sie können diese Funktionen auf einzelne Anforderungen oder auf mehrere Anwendungen gleichzeitig anwenden. Siehe [Anforderungen verwalten](../../analyze/report-builder/manage-requests/r-arb-manage-requests.md).
+**Verwalten:** Startet den [!UICONTROL Anforderungs-Manager]. Sie können alle in Ihre Excel-Arbeitsmappe eingebetteten ReportBuilder-Datenanforderungen bearbeiten, aktualisieren, löschen, verwalten und ihren Status anzeigen. Sie können diese Funktionen auf einzelne Anforderungen oder auf mehrere Anwendungen gleichzeitig anwenden. Siehe [Anforderungen verwalten](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md).
 
-**Aktualisieren:** Die Daten aller in die Excel-Arbeitsmappe eingebetteten Anforderungen werden aktualisiert. Siehe [Eine Anforderung aktualisieren](../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609).
+**Aktualisieren:** Die Daten aller in die Excel-Arbeitsmappe eingebetteten Anforderungen werden aktualisiert. Siehe [Eine Anforderung aktualisieren](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md).
 
-**Format:** Zur Festlegung von bedingten Formatierungen auf die Zellen des Arbeitsblatts. Siehe [Bedingte Formatierungen festlegen](../../analyze/report-builder/manage-requests/specify-conditional-formatting.md#concept_14E74D5B12A940588CD56AAB42831DEA).
+**Format:** Zur Festlegung von bedingten Formatierungen auf die Zellen des Arbeitsblatts. Siehe [Bedingte Formatierungen festlegen](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
 
-**Plan:** Zur Planung von Berichten entsprechend der von Ihnen festgelegten Datums- und Dateiformate. See [Schedule Report Requests](../../analyze/report-builder/schedule-report-requests.md#concept_425CEC16D3B149E09EC341CF12F59FA8).
+**Plan:** Zur Planung von Berichten entsprechend der von Ihnen festgelegten Datums- und Dateiformate. See [Schedule Report Requests](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Bibliothek:** Die [!UICONTROL Arbeitsmappen-Bibliothek] wird gestartet, sodass Sie eine Excel-Arbeitsmappe zu ReportBuilder für die Freigabe hochladen können. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. See [Use the Workbook Library](../../analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Bibliothek:** Die [!UICONTROL Arbeitsmappen-Bibliothek] wird gestartet, sodass Sie eine Excel-Arbeitsmappe zu ReportBuilder für die Freigabe hochladen können. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**** Optionen: Hier können Sie angeben, ob Sie beim Aktualisieren von Anforderungen zum **[!UICONTROL Ausführungsdatum]** (Jetzt) aufgefordert werden sollen, und die Protokollierung für Fehlerbehebungszwecke aktivieren. Siehe [Optionen](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
+**** Optionen: Hier können Sie angeben, ob Sie beim Aktualisieren von Anforderungen zum **[!UICONTROL Ausführungsdatum]** (Jetzt) aufgefordert werden sollen, und die Protokollierung für Fehlerbehebungszwecke aktivieren. Siehe [Optionen](/help/analyze/report-builder/options.md).
 
-**Gesperrt/Entsperrt:** Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung. Siehe [Arbeitsmappen sperren/entsperren](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
+**Gesperrt/Entsperrt:** Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anforderungen hinzugefügt und bearbeitet werden, indem Sie die Arbeitsmappe sperren. Dies ermöglicht eine Offline-Bearbeitung der Arbeitsmappen, indem alle Berichtsanforderungen angehalten werden – für eine effizientere Bearbeitung. Siehe [Arbeitsmappen sperren/entsperren](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
 **Hilfe:** Startet die vorliegende ReportBuilder-Hilfedokumentation.
