@@ -7,7 +7,7 @@ title: Segmente erstellen
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Ad Hoc Analysis umfassen bewährte Funktionen zum Erstellen von Segmenten, aber 
 
 Informationen zum Erstellen und Verwalten von Segmenten in der Umgebung der einheitlichen Segmentierung, einschließlich der Ad-hoc-Analysefunktionen, finden Sie in der Dokumentation zum Bereich [Einheitliche Segmentierung](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html).
 
-* [Neue Funktionen](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [Neue Funktionen](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Änderungen der Segmentdefinition](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [Was ist mit meinen bestehenden Segmenten passiert?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [Was ist mit meinen bestehenden Segmentordnern passiert?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [Kann ich mit dem Segment-Manager alle Analytics-Segmente verwalten?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [Was ist ein Treffer-Container? Unterscheidet er sich vom Seitenaufruf-Container?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [Welche Berechtigungen und Rechte brauche ich, um Segmente zu verwenden, zu erstellen und zu verwalten?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [Was soll ich mit doppelten Segmenten tun, die ...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [Wie lautet die Empfehlung von Adobe für das Bereinigen von Segmenten?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [Warum kann ich dieses Segment nicht löschen?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [Weitere Informationen zu bestehenden Segmenten](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [Was ist mit meinen bestehenden Segmenten passiert?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [Was ist mit meinen bestehenden Segmentordnern passiert?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [Kann ich mit dem Segment-Manager alle Analytics-Segmente verwalten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [Was ist ein Treffer-Container? Unterscheidet er sich vom Seitenaufruf-Container?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [Welche Berechtigungen und Rechte brauche ich, um Segmente zu verwenden, zu erstellen und zu verwalten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [Was soll ich mit doppelten Segmenten tun, die ...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Wie lautet die Empfehlung von Adobe für das Bereinigen von Segmenten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [Warum kann ich dieses Segment nicht löschen?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [Weitere Informationen zu bestehenden Segmenten](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Funktionen {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ In der [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mclou
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Besuche über eine gebührenpflichtige Suche </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Besuche mit Besucher-ID-Cookie </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Diese Segmente werden als  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">Segmentvorlagen in den Segmentaufbau migriert.</a> </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p>Diese Segmente werden als  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >Segmentvorlagen in den Segmentaufbau migriert.</a> </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (Suite)-Segmente: 
@@ -130,7 +130,7 @@ In der [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mclou
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Besuche mit mehr als 5 vorherigen Besuchen* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Besuche von Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">Segmentvorlagen in den Segmentaufbau migriert.</a> Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >Segmentvorlagen in den Segmentaufbau migriert.</a> Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Admin-Segmente <p>(auch „globale Segmente“ genannt) </p> </td> 
