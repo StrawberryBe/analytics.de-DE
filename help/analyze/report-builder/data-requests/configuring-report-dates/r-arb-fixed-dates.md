@@ -1,20 +1,20 @@
 ---
 description: Definitionen für feste Datumswerte in ReportBuilder
 seo-description: Definitionen für feste Datumswerte in ReportBuilder
-seo-title: Definitionen des Anforderungs-Assistenten - feste Datumswerte
+seo-title: Definitionen des Anforderungs-Assistenten – Feste Datumswerte
 solution: Analytics
-title: Definitionen des Anforderungs-Assistenten - feste Datumswerte
+title: Definitionen des Anforderungs-Assistenten – Feste Datumswerte
 topic: ReportBuilder
-uuid: bd 65 a 312-bab 6-46 d 7-ba 30-570777344 cc 9
+uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 translation-type: tm+mt
-source-git-commit: 0b8fa4df8ea6cc6f9a9c103b6aa5e063b510a380
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Definitionen des Anforderungs-Assistenten - feste Datumswerte
+# Definitionen des Anforderungs-Assistenten – Feste Datumswerte
 
-Definitionen für feste Datumswerte in Reportbuilder.
+Definitionen für feste Datumswerte in ReportBuilder.
 
 | Feld | Definition |
 |--- |--- |
