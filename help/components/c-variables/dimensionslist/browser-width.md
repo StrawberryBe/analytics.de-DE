@@ -7,7 +7,7 @@ title: Browserbreite/-höhe
 topic: Metriken
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 Metriken, die sich ausschließlich auf die horizontale/vertikale Distanz der Daten im Browser-Fenster beziehen. Genauer gesagt, auf den Browser
 
 Adobe Analytics verwendet die Browserhöhe und -breite lediglich vom ersten Treffer eines Besuchs an. Die übrigen Treffer erhalten nicht die Zuordnung für den gleichen Besuch.
-The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](../../../components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
 
 Wenn beispielsweise die Browserbreite oder -höhe auf die Auflösung von Mobilgeräten herunterskaliert werden, sollten folgende Unterscheidungen beachtet werden:
 
