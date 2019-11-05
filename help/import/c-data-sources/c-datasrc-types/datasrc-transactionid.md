@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Datenquellen
 title: Transaktions-ID
 topic: Entwickler und Implementierung
-uuid: f 3370 bb 7-3 f 28-460 b-a 20 d-c 9 e 58 d 7301 d 4
+uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: e9cb3575780db9eb5c9a766ef20d596e504a20d0
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: e9cb3575780db9eb5c9a766ef20d596e504a20d0
 
 Transaktions-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
 
-Siehe [Integration von Offline-Daten](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6).
+Siehe [Integration von Offline-Daten](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 
@@ -30,7 +30,7 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | Trackingcode | Name des Trackingcodes. |
 | Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
 | Kanal | Kanalname. |
-| eVarN | Name des evarn. Gültige Werte für N sind Ganzzahlen zwischen 1 und 250. |
+| eVarN | eVarN-Name. Gültige Werte für N sind Ganzzahlen 1 - 250. |
 | Produkt | Produktname. |
 | Land | Name des Landes. |
 | Zip | Postleitzahl. |
@@ -47,8 +47,8 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | Entnahmen aus dem Einkaufswagen | Anzahl der Entnahmen aus dem Einkaufswagen. |
 | Warenkorbansicht | Anzahl der Einkaufswagenansichten. |
 | Checkouts | Anzahl der Kassengänge. |
-| Eventn | Häufigkeit, mit der eventn eingetreten ist. Gültige Werte für N sind Ganzzahlen zwischen 1 und 1000. Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
-| Evarn-Ansichten | Anzahl der Wiedergaben von evarn. Gültige Werte für N sind Ganzzahlen zwischen 1 und 250. |
+| EventN | Häufigkeit, mit der eventN aufgetreten ist. Gültige Werte für N sind Ganzzahlen zwischen 1 und 1000.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
+| eVarN-Ansichten | Anzahl der Wiedergaben von eVarN. Gültige Werte für N sind Ganzzahlen 1 - 250. |
 | Preis | Produktpreis. |
 | Bestellungen | Anzahl der aufgegebenen Bestellungen. |
 | Produktansichten | Anzahl der Produktansichten. |
