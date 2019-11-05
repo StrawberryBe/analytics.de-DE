@@ -8,7 +8,7 @@ title: Besuchermigration
 topic: Entwickler und Implementierung
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -42,7 +42,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domäne(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die sicheren und nicht sicheren Domänen mit einbeziehen. </p> </td> 
+   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domäne(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die sicheren und nicht sicheren Domänen mit einbeziehen. </p> </td> 
    <td colname="col3"> <p>Erstellen Sie eine Liste mit der <i>exakten</i> Syntax für die Domänen, zu denen und von denen migriert werden soll. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -51,11 +51,11 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 und mehr Stunden nach dem Konfigurationswechsel</b>: Aktualisieren Sie die Variablen <code> s.trackingServer</code> und <code> s.trackingServerSecure</code> in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. </p> </td> 
-   <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie einen <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Paket-Analyzer</a>, um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. </p> </td> 
+   <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie einen <a href="/help/implement/impl-testing/packet-monitor.md"  > Paket-Analyzer</a>, um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unmittelbar nach Aktualisierung Ihres Analytics-Code</b>: Testen Sie Ihre Website, um zu verifizieren, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie einen <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Paket-Analyzer</a>, um zu verifizieren, dass beim erstmaligen Zugriff auf Ihre Website bzw. nach dem Löschen von Cookies zwei 302-(Umleitungs-)HTTP-Status-Codes vor dem 200-(OK-)HTTP-Status-Code angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
+   <td colname="col3"> <p>Verwenden Sie einen <a href="/help/implement/impl-testing/packet-monitor.md"  > Paket-Analyzer</a>, um zu verifizieren, dass beim erstmaligen Zugriff auf Ihre Website bzw. nach dem Löschen von Cookies zwei 302-(Umleitungs-)HTTP-Status-Codes vor dem 200-(OK-)HTTP-Status-Code angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Im gesamten Migrationszeitraum</b>: Belassen Sie den DNS-Eintrag für den vorherigen Hostnamen weiterhin aktiviert. </p> </td> 
