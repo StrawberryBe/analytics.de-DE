@@ -8,7 +8,7 @@ title: Virtual Report Suites erstellen
 topic: Reports and Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
   </tr> 
   <tr> 
    <td colname="col1"> Segmente </td> 
-   <td colname="col2"> <p>Sie können nur ein Segment hinzufügen oder Sie können <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">Segmente stapeln</a>. </p> <p> <p>Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine ODER-Anweisung geändert werden. </p> </p> <p>Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. </p> </td> 
+   <td colname="col2"> <p>Sie können nur ein Segment hinzufügen oder Sie können <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >Segmente stapeln</a>. </p> <p> <p>Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine ODER-Anweisung geändert werden. </p> </p> <p>Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
