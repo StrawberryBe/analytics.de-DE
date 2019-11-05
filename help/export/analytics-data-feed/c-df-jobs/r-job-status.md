@@ -1,13 +1,13 @@
 ---
 description: Aufträge können mit verschiedenen Statusbezeichnungen angezeigt werden.
-keywords: Datenfeed; job; status; Warten auf Daten; fehlgeschlagen; ready; Verarbeitung; complete; keine Daten
+keywords: Datenfeed;Auftrag;Status;Warten auf Daten;fehlgeschlagen;bereit;Verarbeitung;vollständig;keine Daten
 seo-description: Aufträge können mit verschiedenen Statusbezeichnungen angezeigt werden.
 seo-title: Auftragsstatus
 solution: Analytics
 title: Auftragsstatus
-uuid: 0058 b 83 f -7 bff -4 fd 0-bb 9 f-ab 15616 d 29 cf
+uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -19,7 +19,7 @@ Aufträge können mit verschiedenen Statusbezeichnungen angezeigt werden.
 | Status | Beschreibung |
 |---|---|
 | Warten auf Daten | Der Auftrag ist einsatzbereit, und es werden Daten gesammelt. |
-| Fehlgeschlagen | Es ist ein Problem aufgetreten. See [Troubleshooting Jobs](../../../export/analytics-data-feed/jobs-troubleshooting.md#concept_F3B0CDCCCD8047EEA3CFE9717D860320). |
+| Fehlgeschlagen | Es ist ein Problem aufgetreten. Siehe [Fehlerbehebung bei Aufträgen](/help/export/analytics-data-feed/jobs-troubleshooting.md). |
 | Bereit | Der Auftrag ist bereit für die Ausführung. |
 | Verarbeitung | Der Auftrag erstellt die Datendateien und bereitet das Senden dieser Dateien vor. |
 | Complete | Der Auftrag hat die zugehörigen Dateien erstellt und gesendet. |
