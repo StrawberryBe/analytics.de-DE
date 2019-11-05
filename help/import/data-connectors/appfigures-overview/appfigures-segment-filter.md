@@ -5,7 +5,7 @@ seo-title: Segmentieren von App-Daten
 title: Segmentieren von App-Daten
 uuid: 9c2af0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 84c40be45ed4b03435451c12b000910579d75ba1
 
 ---
 
@@ -17,7 +17,7 @@ Eine appFigures-Integration wird häufig verwendet, um Daten für mehrere Anwend
 Segmentierungsrichtlinien für appFigures-Daten:
 
 * Muss nur Seitenansichtsbehälter verwenden.
-* Muss nur [AppFigures-Dimensionen](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) in Filterregeln verwenden.
-* Kann mehrere Segmentregeln verwenden, solange nur auf [AppFigures-Dimensionen](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) verwiesen wird.
+* Muss nur [AppFigures-Dimensionen](/help/import/data-connectors/appfigures-overview/appfigures-metrics.md) in Filterregeln verwenden.
+* Kann mehrere Segmentregeln verwenden, solange nur auf [AppFigures-Dimensionen](/help/import/data-connectors/appfigures-overview/appfigures-segment-filter.md) verwiesen wird.
 * Kann sowohl die Arbeitsfläche "Einschließen"als auch "Ausschließen"verwenden.
 * Segmente gelten nur für Adobe Analytics v15.
