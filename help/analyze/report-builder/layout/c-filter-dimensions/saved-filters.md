@@ -5,9 +5,9 @@ seo-title: Gespeicherte Filter
 solution: Analytics
 title: Gespeicherte Filter
 topic: ReportBuilder
-uuid: 78702 a 7 e -7 b 52-4390-a 35 e-fd 332 e 52 c 31 c
+uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Sie können in ReportBuilder Filter oder andere Parameter speichern, um sie später in anderen Arbeitsblättern oder -mappen wiederzuverwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Benutzer ReportBuilder auf anderen Computern verfügbar sind.
 
-Filter werden während der Erstellung im Dialogfeld [!UICONTROL Seiten auswählen] gespeichert. Ein Beispiel für diesen Vorgang finden Sie unter [Spezifische Filter](../../../../analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md#task_AD91873FD9FF4399A62EAB495DFFA12C).
+Filter werden während der Erstellung im Dialogfeld [!UICONTROL Seiten auswählen] gespeichert. Ein Beispiel für diesen Vorgang finden Sie unter [Spezifische Filter](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
 ![](assets/choose_page_saved.png)
 
