@@ -1,13 +1,13 @@
 ---
-description: 'null '
-keywords: Datenfeed; job; faq
-seo-description: 'null '
+description: 'null'
+keywords: Datenfeed;Auftrag;FAQ
+seo-description: 'null'
 seo-title: Häufig gestellte Fragen zu Aufträgen
 solution: Analytics
 title: Häufig gestellte Fragen zu Aufträgen
-uuid: 6 da 2 c 3 a 0-79 f 9-4 d 0 a -9828-a 8 be 42 ce 2 f 3 c
+uuid: 6da2c3a0-79f9-4d0a-9828-a8be42ce2f3c
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -20,5 +20,5 @@ Die Bereitstellungszeit für stündliche Datenfeeds kann durch verschiedene Fakt
 
 * Report Suite-Latenz (d. h. nicht angekündigte Traffic-Spitzen)
 * Upstream-Verarbeitung
-* Spitzenzeiten und nicht Spitzenzeiten
+* Spitzen- und Nichtspitzenzeiten
 * Internetverbindungsgeschwindigkeiten
