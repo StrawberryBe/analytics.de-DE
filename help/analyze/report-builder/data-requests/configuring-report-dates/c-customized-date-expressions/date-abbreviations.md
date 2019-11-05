@@ -5,9 +5,9 @@ seo-title: Datumsabkürzungen
 solution: Analytics
 title: Datumsabkürzungen
 topic: ReportBuilder
-uuid: 829 d 613 e -5900-4586-a 9 fc -239988492 d 8 b
+uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 
 Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an dem ein Zeitraum beginnt, nicht auf einen Bereich von Tagen. Ein Bereich von Tagen wird durch Festlegen eines Start- und Enddatums für zwei zeitliche Abkürzungen (oder Terme) angegeben.
 
-Informationen zur Nutzung der richtigen Syntax finden Sie unter [Hinweise zur Syntax](../../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
+Informationen zur Nutzung der richtigen Syntax finden Sie unter [Hinweise zur Syntax](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 
 * cd = aktuelles Datum (= heute)
 * cw = aktuelle Woche (= erster Tag der aktuellen Woche)
@@ -26,8 +26,8 @@ Informationen zur Nutzung der richtigen Syntax finden Sie unter [Hinweise zur Sy
 
 In the following list, *[UNIT]* indicates any integer multiplier.
 
-* [UNIT] d = Tag
-* [UNIT] w = Woche
-* [UNIT] m = MONTH
-* [UNIT] q = Quartal
+* [EINHEIT] d = Tag
+* [EINHEIT] w = Woche
+* [EINHEIT] m = Monat
+* [EINHEIT] q = Quartal
 * [EINHEIT] y = Jahr
