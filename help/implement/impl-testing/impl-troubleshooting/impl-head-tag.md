@@ -8,7 +8,7 @@ title: Analytics-Code im Head-Tag platzieren
 topic: Entwickler und Implementierung
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analysecode erstellt ein Image-Objekt – ein unsichtbares Bild, das auf einer Seite nicht angezeigt wird.
 
-> [!NOTE] Dieser Abschnitt gilt nur für die s_code.js-Implementierung. [AppMeasurement for JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) unterstützt die Bereitstellung von Bibliothek und Seiten-Code im `<head>`-Tag.
+>[!NOTE]
+>
+>Dieser Abschnitt gilt nur für die s_code.js-Implementierung. [AppMeasurement for JavaScript 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) unterstützt die Bereitstellung von Bibliothek und Seiten-Code im `<head>`-Tag.
 
 Zuvor bestand die gängige Implementierungsmethode darin, den JavaScript-Code für Analytics zwischen den <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> und </head> Tags zu platzieren. Aufgrund der Platzierung des Codes zwischen den Tags hatte das Bild, das von der an Adobe-Server gesendeten Anforderung zurückgegeben wurde, keinerlei Auswirkungen auf das Seitenlayout. Durch die Platzierung des Codes im Head-Teil des Dokuments wird erreicht, dass der Code an einer vorderen Position im Code steht. Dadurch wird er früher ausgeführt, sodass Seitenansichten auch bei partiell geladenen Seiten effizienter gezählt werden können.
 
