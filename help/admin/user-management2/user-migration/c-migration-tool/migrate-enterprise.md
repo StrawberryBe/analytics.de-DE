@@ -5,7 +5,7 @@ seo-title: Migrieren von Analytics-Benutzerkonten für Enterprise und Federated 
 title: Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -121,7 +121,7 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domäne </p> </td> 
-   <td colname="col2"> <p>Achten Sie darauf, dass die Spalten Die Spalte " <span class="term"> Domäne</span> "und " <span class="term"> E-Mail</span> "entsprechen den Domänen, die in den <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> Voraussetzungen</a>festgelegt wurden. </p> </td> 
+   <td colname="col2"> <p>Achten Sie darauf, dass die Spalten Die Spalte " <span class="term"> Domäne</span> "und " <span class="term"> E-Mail</span> "entsprechen den Domänen, die in den <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  > Voraussetzungen</a>festgelegt wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ländercode </p> </td> 
