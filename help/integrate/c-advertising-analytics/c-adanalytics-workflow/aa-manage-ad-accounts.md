@@ -1,16 +1,16 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Verwalten von Werbekonten
-title: Verwalten von Werbekonten
-uuid: 0 b 205046-2 eb 5-4 cd 6-be 62-cdf 716 fe 934 e
+description: 'null'
+seo-description: 'null'
+seo-title: Werbekonten verwalten
+title: Werbekonten verwalten
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Verwalten von Werbekonten
+# Werbekonten verwalten
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 
@@ -29,8 +29,8 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
    <td colname="col2"> <p><b>Hinweis: Aktionen werden nur angezeigt, wenn Sie mindestens ein Werbekonto ausgewählt haben. </b> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+ Hinzufügen </p> </td> 
-   <td colname="col2"> <p>Hierdurch gelangen Sie zur Benutzeroberfläche <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">Werbekonto einrichten</a>. </p> </td> 
+   <td colname="col1"> <p>+ Fügen Sie </p> </td> 
+   <td colname="col2"> <p>Hierdurch gelangen Sie zur Benutzeroberfläche <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Werbekonto einrichten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Umbenennen </p> </td> 
@@ -62,7 +62,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konto </p> </td> 
-   <td colname="col2"> <p>Führt eines der zwei unterstützten Kontotypen auf: Google Adwords oder Bing Ads. </p> </td> 
+   <td colname="col2"> <p>Listet einen der 2 unterstützten Kontotypen auf: Google Adwords oder Bing Ads. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Status </p> </td> 
