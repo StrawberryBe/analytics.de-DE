@@ -7,8 +7,8 @@ solution: Analytics
 title: Ohne JavaScript-Richtlinien implementieren
 topic: Entwickler und Implementierung
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ Zum besseren Verständnis der Implementierung können Sie sich Codebeispiele ans
 
 **Groß-/Kleinschreibung**
 
-Bei den Parameternamen (`pageName`, `purchaseID` usw.) muss auf die richtige Groß-/Kleinschreibung geachtet werden. Andernfalls werden Daten nur dann korrekt erfasst, wenn der Parameter in der Tabelle im Abschnitt [Abfrageparameter](../../../implement/js-implementation/data-collection/query-parameters.md) zugewiesen ist.
+Bei den Parameternamen (`pageName`, `purchaseID` usw.) muss auf die richtige Groß-/Kleinschreibung geachtet werden. Andernfalls werden Daten nur dann korrekt erfasst, wenn der Parameter in der Tabelle im Abschnitt [Abfrageparameter](/help/implement/js-implementation/data-collection/query-parameters.md) zugewiesen ist.
 
 **Kodierung von Abfrageparametern**
 
@@ -33,7 +33,7 @@ Die JavaScript-Version dieser Funktion heißt „escape“ (bzw. „unescape“ 
 
 **Maximale Länge von Variablen**
 
-Zu jeder Variablen gibt es eine maximal erlaubte Länge. Nähere Angaben zu den Höchstlängen der einzelnen Variablen finden Sie unter [Analytics-Variablen](../../../implement/js-implementation/c-variables/sc-variables.md). Wenn die maximal zulässige Länge bei einer Variablen überschritten wird, führt dies dazu, dass der Wert abgeschnitten gespeichert und in Analytics nur verkürzt angezeigt wird.
+Zu jeder Variablen gibt es eine maximal erlaubte Länge. Nähere Angaben zu den Höchstlängen der einzelnen Variablen finden Sie unter [Analytics-Variablen](/help/implement/js-implementation/c-variables/sc-variables.md). Wenn die maximal zulässige Länge bei einer Variablen überschritten wird, führt dies dazu, dass der Wert abgeschnitten gespeichert und in Analytics nur verkürzt angezeigt wird.
 
 **Ungültige Zeichen**
 
