@@ -2,18 +2,18 @@
 description: Versenden Sie ein Projekt aus dem Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
 keywords: Analysis Workspace
 seo-description: Versenden Sie ein Projekt aus dem Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
-seo-title: Datei senden - Bereitstellung eines Projekts planen
+seo-title: Datei senden – Bereitstellung eines Projekts planen
 solution: Analytics
-title: Datei senden - Bereitstellung eines Projekts planen
+title: Datei senden – Bereitstellung eines Projekts planen
 topic: Reports and Analytics
-uuid: 9244 d 7 b 2-1 b 7 e -4323-98 ef-cf 22 de 3 b 666 a
+uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Datei senden - Bereitstellung eines Projekts planen
+# Datei senden – Bereitstellung eines Projekts planen
 
 Versenden Sie ein Projekt aus dem Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
 
@@ -28,4 +28,4 @@ Versenden Sie ein Projekt aus dem Analysis Workspace per E-Mail oder planen Sie 
 
 1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
 1. (Optional) Click **[!UICONTROL Show Scheduling Options]** to specify a delivery schedule, then click **[!UICONTROL Send on Schedule]**.
-1. Manage scheduled projects in **[!UICONTROL Components]** &gt; [Scheduled Projects](../../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C).
+1. Verwalten Sie geplante Projekte unter **[!UICONTROL Komponenten]** &gt; [Geplante Projekte](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
