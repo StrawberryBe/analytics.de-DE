@@ -9,7 +9,7 @@ title: Sonderzeichen
 topic: Reports and Analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 In diesem Abschnitt erhalten Sie Informationen zu Sonderzeichen, die im Datenfeed verwendet werden.
 
-* [Sonderzeichen in der Datei „hit_data“](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars)](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [Beispielarbeitsablauf](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+* [Sonderzeichen in der Datei „hit_data“](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
+* [Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars)](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
+* [Beispielarbeitsablauf](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
 
 ## Sonderzeichen in der Datei „hit_data“ {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
 
