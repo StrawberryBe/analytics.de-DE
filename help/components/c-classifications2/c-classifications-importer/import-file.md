@@ -8,7 +8,7 @@ title: Browser- und FTP-Import
 topic: Admin Tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,6 +19,6 @@ Sobald Sie die gewünschten Daten in die Classification-Vorlagendatei kopiert ha
 
 > [!NOTE] Sie müssen Ihre vorhandenen Classification-Daten nicht (mithilfe der Exportfunktion) herunterladen, bevor Sie neue Daten hochladen. Es genügt, wenn Sie eine neue Datei mit den neuen Datenzeilen hochladen. Diese Methode steigert die Leistung.
 
-Siehe [Allgemeine Dateistruktur](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) für wichtige Informationen zur Struktur und zu den Beschränkungen für hochgeladene Dateien.
+Siehe [Allgemeine Dateistruktur](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) für wichtige Informationen zur Struktur und zu den Beschränkungen für hochgeladene Dateien.
 
 Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html).
