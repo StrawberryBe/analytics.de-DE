@@ -7,7 +7,7 @@ title: Exitlinks
 topic: Berichte
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ Damit diese Seite ordnungsgemäß mit Daten gefüllt werden kann, müssen bestim
 * Sie können diesen Bericht als Trend- und als Rangansicht anzeigen.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
 * Sie können [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [Instanzen](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) sind die einzigen Metriken, die standardmäßig für diesen Bericht zur Verfügung stehen, wobei ermittelt wird, wie oft der Exitlink ausgelöst wird.
+* [Instanzen](/help/components/c-variables/c-metrics/metrics-instance.md) sind die einzigen Metriken, die standardmäßig für diesen Bericht zur Verfügung stehen, wobei ermittelt wird, wie oft der Exitlink ausgelöst wird.
 * Für diesen Bericht können Besucher pro Tag, Woche, Monat und Quartal aktiviert werden. Die Aktivierung ist jedoch nur durch einen Adobe-Support-Mitarbeiter möglich und ist kostenpflichtig. Wenn Unique Visitors für Variablen zu Linktracking benutzerspezifischer Links aktiviert werden, steigt die Latenz der Report Suite erheblich an.
 
