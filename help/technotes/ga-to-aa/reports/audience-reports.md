@@ -2,186 +2,186 @@
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit dem Analysis Workspace zielgruppenbasierte Berichte erstellen.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # Zielgruppenberichte
 
-Zielgruppenberichte zeigen Informationen zu den Typen der Personen an, die Ihre Site besuchen.
+Zielgruppenberichte zeigen Informationen über die Typen von Personen an, die Ihre Site besuchen.
 
-Diese Seite geht davon aus, dass der Benutzer über grundlegende Kenntnisse zur Verwendung des Analysis Workspace verfügt. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+Auf dieser Seite wird davon ausgegangen, dass der Benutzer über grundlegende Kenntnisse in der Verwendung des Analysis Workspace verfügt. Siehe [Erstellen eines einfachen Berichts im Analysis Workspace für Google Analytics-Benutzer](create-report.md) , wenn Sie mit dem Tool in Adobe Analytics noch nicht vertraut sind.
 
 ## Aktive Benutzer
 
-Aktive Benutzer zeigen die Gesamtzahl der Benutzer auf Ihrer Site in den vorherigen, siebten, 14 oder 28 Tagen an. Obwohl Adobe nicht über die genaue Berechnung in Google Analytics verfügt, können Sie die Metrik "Unique Visitors" verwenden, um eine deduplizierte Anzahl von Benutzern auf Ihrer Site basierend auf dem ausgewählten Datumsbereich zu sehen.
+Aktive Benutzer zeigen die kumulative Anzahl der Benutzer Ihrer Site in den letzten 1, 7, 14 oder 28 Tagen an. Adobe verfügt zwar nicht über die exakte Berechnung, die in Google Analytics verwendet wird, Sie können jedoch die Metrik "Unique Visitors"verwenden, um eine deduplizierte Anzahl von Benutzern auf Ihrer Site basierend auf dem ausgewählten Datumsbereich anzuzeigen.
 
-So erhalten Sie ein Liniendiagramm mit individuellen Besuchern:
+So erstellen Sie ein Liniendiagramm individueller Besucher:
 
-1. Klicken Sie auf das Symbol Visualisierungen links und ziehen Sie die Linienvisualisierung auf den Arbeitsbereich oberhalb der leeren Freiform-Tabelle.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
-3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) über dem vorhandenen Datumsüberschriften-Header.
+1. Klicken Sie auf das Symbol Visualisierungen auf der linken Seite und ziehen Sie die Linienvisualisierung auf den Arbeitsbereich über der leeren Freiformtabelle.
+2. Klicken Sie auf das Symbol Komponenten links und ziehen Sie dann die Metrik **Individuelle Besucher** in den kleineren Bereich mit der Bezeichnung 'Metrik hier ablegen'.
+3. Wenn eine andere Granularität gewünscht wird, ziehen Sie den gewünschten Datumsbereich (z. B. **Tag**, **Woche**, **Monat** usw.) oben auf der vorhandenen Datendimensionsüberschrift.
 
-See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
+Weitere Informationen zur Berechnung individueller Besucher durch Adobe finden Sie unter [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) im Komponenten-Benutzerhandbuch.
 
 ## Lebenszeitwert
 
-Lebenszeitwert ist eine Funktion, die für beide Plattformen zusätzliche spezialisierte Implementierungen erfordert. Adobe empfiehlt die Zusammenarbeit mit einem Implementierungsberater, um diese Daten abzurufen.
+Der Lebenszeitwert ist eine Funktion, die eine zusätzliche spezielle Implementierung auf beiden Plattformen erfordert. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um diese Daten zu erhalten.
 
 ## Kohortenanalyse
 
-Die Kohortenanalyse zeigt an, wie oft dieselben Benutzer zu Ihrer Site zurückkehren.
+Die Kohortenanalyse zeigt, wie oft dieselben Benutzer zu Ihrer Site zurückkehren.
 
 So erstellen Sie eine Kohortentabelle:
 
-1. Klicken Sie auf das Symbol Visualisierung links und ziehen Sie die Kohortentabellenvisualisierung auf die Arbeitsfläche.
-2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria.
+1. Klicken Sie auf das Visualisierungssymbol links und ziehen Sie die Kohortentabellen-Visualisierung auf den Arbeitsbereich.
+2. Klicken Sie auf das Symbol Komponenten auf der linken Seite und ziehen Sie dann die Metrik **Besuche** sowohl auf Aufnahmekriterien als auch auf Rückgabekriterien.
 3. Klicken Sie auf Erstellen.
 
-See [Cohort Analysis](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.
+Weitere Informationen zu zusätzlichen Anpassungen der Kohortenvisualisierung finden Sie unter [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch des Analysis Workspace.
 
 ## Zielgruppen
 
-Für den Zielgruppenbericht in Google Analytics ist die Einrichtung von Zielgruppen erforderlich. Zielgruppen erfordern außerdem die Konfiguration in Adobe über Adobe Audience Manager. Weitere Informationen finden Sie im Benutzerhandbuch zu Audience Manager.
+Der Zielgruppenbericht in Google Analytics erfordert die Einrichtung von Zielgruppen. Zielgruppen müssen auch über Adobe Audience Manager konfiguriert werden. Weitere Informationen finden Sie im Adobe Audience Manager-Benutzerhandbuch.
 
 ## Benutzer-Explorer
 
-Der Benutzerexplorer-Bericht ermöglicht es Analysten, einzelne Besuche über anonymierte ids anzuzeigen. Adobe nimmt die Backend-Bezeichner außerhalb von Datenfeeds nicht auf, die Rohdatenexporte auf Trefferebene darstellen.
+Der Bericht "Benutzer-Explorer"ermöglicht es einem Analysten, einzelne Besuche über anonymisierte IDs anzuzeigen. Adobe deckt die Backend-IDs nicht außerhalb von Data Feeds auf, bei denen es sich um Rohdatenexporte auf Trefferebene handelt.
 
-* Wenn diese Daten im Analysis Workspace gewünscht werden, ist es möglich, mit einem Implementierungsberater zusammenzuarbeiten, um den anonymen Cookie-Cookie-Wert in eine evar zu übergeben. Beachten Sie, dass dies nur bei kleineren Implementierungen möglich ist, die aus weniger als 1 Million individuellen Besuchern pro Monat bestehen.
-* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](../../../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
+* Wenn diese Daten in Analysis Workspace gewünscht werden, ist es möglich, mit einem Implementierungsberater zusammenzuarbeiten, um den Wert des anonymisierten Cookies für die eindeutige Kennung an eine eVar weiterzugeben. Beachten Sie, dass dies nur bei kleineren Implementierungen funktioniert, die aus weniger als 1 Million Unique Visitors pro Monat bestehen.
+* Wenn diese Daten in Datenfeeds gewünscht werden, sind die verketteten Spalten `visid_high` und `visid_low` die gängigsten Methoden zur Identifizierung individueller Besucher. Weitere Informationen zu [Datenfeeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) finden Sie im Benutzerhandbuch zum Exportieren.
 
-## Berichte zu demografischen und Interessensgebieten
+## Berichte zu Demografie und Interessen
 
-Demografische Daten und Interessensdaten liefern Informationen über Alter, Geschlecht und Interessen von Site-Benutzern. Diese Daten werden von Google über ihre Site-übergreifenden Verfolgungsfähigkeiten erfasst.
+Die demografischen Daten und Interessensdaten liefern Informationen über Alter, Geschlecht und Interessen der Site-Benutzer. Diese Daten werden von Google über ihre Site-übergreifenden Verfolgungsfähigkeiten erfasst.
 
-Demografische und Interessensdaten werden nicht automatisch von Adobe erfasst. Wenn Ihr Unternehmen diese Daten jedoch abruft, können Sie Kundenattribute verwenden, eine Funktion auf der Adobe Experience Cloud-Plattform. Sie ermöglicht die vollständige Kontrolle über die Organisation von Daten nach Attributen und ist nicht nur auf demografische Elemente oder Interessen beschränkt.
+Demografische Daten und Interessensdaten werden nicht automatisch von Adobe erfasst. Wenn Ihr Unternehmen diese Daten jedoch erhält, können Sie Kundenattribute verwenden, eine Funktion innerhalb der Adobe Experience Cloud-Plattform. Es ermöglicht die vollständige Kontrolle über die Organisation der Daten nach Attributen und ist nicht auf Demografie oder Interessen beschränkt.
 
 Weitere Informationen finden Sie in der Hilfe zu Kundenattributen.
 
 ## Geo - Sprache
 
-Der Geo-Sprachenbericht zeigt den Site-Traffic nach der Spracheinstellung im Browser des Besuchers an.
+Der Bericht zur geografischen Sprache zeigt den Site-Traffic nach der Spracheinstellung im Browser des Besuchers an.
 
 So erstellen Sie einen Sprachenbericht:
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Menü "Komponenten"die Dimension " **Sprache** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie unter [Sprachdimension](/help/components/c-variables/dimensionslist/reports-languages.md) im Komponenten-Benutzerhandbuch.
 
 ## Geo - Standort
 
-Der geografische Standort-Bericht bietet eine weltweltliche Kartenansicht, die Daten nach Land unterteilt.
+Der Geo-Standortbericht bietet eine weltweite Kartenansicht, in der die Daten nach Ländern aufgeschlüsselt werden.
 
-So erstellen Sie einen geografischen Standort-Bericht:
+So erstellen Sie einen Geolocation-Bericht:
 
-1. Klicken Sie auf das Symbol Visualisierungen links und ziehen Sie die Map-Visualisierung auf den Arbeitsbereich oberhalb der leeren Freiform-Tabelle.
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
+1. Klicken Sie auf das Symbol Visualisierungen auf der linken Seite und ziehen Sie die Imagemap-Visualisierung auf den Arbeitsbereich über der leeren Freiformtabelle.
+2. Klicken Sie auf das Symbol Komponenten auf der linken Seite und ziehen Sie dann die Metrik **Unique Visitors** in den Bereich mit der Bezeichnung 'Metrik hinzufügen'.
 3. Klicken Sie auf Erstellen.
 
-Wenn die Tabelle zusätzlich zur Map ebenfalls gewünscht wird:
+Wenn die Tabelle zusätzlich zur Karte gewünscht wird:
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Menü "Komponenten"die Dimension " **Länder** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
+Weitere Informationen finden Sie unter [Geosegmentation](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) -Dimensionen im Komponenten-Benutzerhandbuch.
 
-## Verhalten - neue im Vergleich zu zurückkehrenden
+## Verhalten - Neu im Vergleich zum Zurückkehren
 
-Der neue und zurückkehrende Bericht bietet eine vereinfachte Ansicht der ersten Sitzungen (neue Besuche) und nachfolgende Sitzungen (rückkehrende Besuche).
+Der neue vs. zurückkehrende Bericht bietet eine vereinfachte Ansicht der ersten Sitzungen (neue Besuche) im Vergleich zu nachfolgenden Sitzungen (wiederkehrende Besuche).
 
-So erstellen Sie einen neuen und rückkehrenden Besuchsbericht:
+So erstellen Sie einen neuen oder einen Bericht über wiederkehrende Besuche:
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
-2. Locate the **Return Visits** segment and drag it on top of the Segments row header. Dadurch wird das Segment als Dimension unterhalb der Erstbesuche hinzugefügt, was einen einfachen Vergleich ermöglicht.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü das Segment **Erstbesuche** und ziehen Sie es in den großen Freiform-Tabellenbereich mit der Bezeichnung 'Dimension hier ablegen'. Beachten Sie, dass **Erstbesuche** ein Segment sind, während Workspace in der Regel Dimensionen zur Darstellung von Zeilen verwendet.
+2. Suchen Sie das Segment " **Rückkehrende Besucher** "und ziehen Sie es auf die Kopfzeile der Segmentzeile. Dadurch wird das Segment als Dimension unterhalb der Erstbesuche hinzugefügt, was einen einfachen Vergleich ermöglicht.
+3. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-Wenn ein Liniendiagramm ebenfalls gewünscht wird:
+Wenn ein Liniendiagramm gewünscht wird:
 
-1. Klicken Sie links auf das Visualisierungssymbol und ziehen Sie eine Linienvisualisierung auf den Arbeitsbereich oberhalb der Freiformtabelle.
-2. Klicken Sie bei gedrückter Strg-Taste (Windows) bzw. Befehlstaste (Mac) auf jede Zeile in der Freiform-Tabelle, um sie zu markieren. Dadurch können beide Trends in der Visualisierung angezeigt werden.
-3. Klicken Sie auf den kleinen runden Punkt in der oberen linken Ecke der Linienvisualisierung und klicken Sie dann auf das Kontrollkästchen "Auswahl sperren" .
+1. Klicken Sie auf das Visualisierungssymbol links und ziehen Sie eine Linienvisualisierung auf den Arbeitsbereich über der Freiformtabelle
+2. Verwenden Sie STRG+Klick (Windows) oder Cmd+Klick (Mac) für jede Zeile in der Freiform-Tabelle, um sie zu markieren. Dadurch können beide Trends in der Linienvisualisierung angezeigt werden.
+3. Klicken Sie auf den kleinen runden farbigen Punkt in der oberen linken Ecke der Linienvisualisierung und dann auf das Kontrollkästchen Auswahl sperren.
 
-## Verhalten - Häufigkeit und Neuigkeit
+## Verhalten - Häufigkeit und Aktualität
 
-The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
+Der Häufigkeits- und Neuigkeitsbericht entspricht ungefähr der Dimension **Besuchsnummer** im Arbeitsbereich für Analysen.
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü die Dimension " **Besuchsnummer** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie unter [Besuchsnummer](/help/components/c-variables/dimensionslist/reports-visitor-number.md) im Komponenten-Benutzerhandbuch.
 
 ## Verhalten - Interaktion
 
-The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
+Der Einsatzbericht entspricht ungefähr der Dimension **Zeit pro Besuch - Zusammengefasst** .
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü die Dimension " **Zeit pro Besuch - Zusammengefasst** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie in der Dimension " [Zeit pro Besuch](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) "im Komponenten-Benutzerhandbuch.
 
 ## Technologie - Browser und Betriebssystem
 
-Im Browser- und Betriebssystembericht sind mehrere primäre Dimensionen verfügbar.
+Es sind mehrere primäre Dimensionen im Browser- und OS-Bericht verfügbar.
 
-* The **Browser** primary dimension is also available in Analysis Workspace as a dimension.
-* The **Operating System** primary dimension is also available in Analysis Workspace as a dimension.
-* The **Screen Resolution** primary dimension is available in Analysis Workspace as the **Monitor Resolution** dimension.
-* The **Screen Colors** primary dimension is available in Analysis Workspace as the **Color Depth** dimension.
-* The **Flash Version** primary dimension is not available in Adobe Analytics, however this data can be collected by an eVar if wanted.
+* Die primäre Dimension " **Browser** "steht auch im Arbeitsbereich für Analysen als Dimension zur Verfügung.
+* Die primäre Dimension **Betriebssystem** ist auch im Arbeitsbereich für Analysen als Dimension verfügbar.
+* Die primäre Dimension **Bildschirmauflösung** ist im Arbeitsbereich für Analysen als Dimension für die **Bildschirmauflösung** verfügbar.
+* Die primäre Dimension " **Bildschirmfarben** "ist im Arbeitsbereich für Analysen als **Farbtiefe** verfügbar.
+* Die primäre Dimension " **Flash-Version** "steht in Adobe Analytics nicht zur Verfügung. Diese Daten können jedoch bei Bedarf von einer eVar erfasst werden.
 
-1. Suchen Sie im Komponentenmenü die gewünschte Dimension oben und ziehen Sie sie auf den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen" .
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü die oben angegebene gewünschte Dimension und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-Weitere Informationen zu ihrer jeweiligen Dimension finden Sie auf den folgenden Seiten im Benutzerhandbuch für Komponenten:
+Weitere Informationen zu den jeweiligen Dimensionen finden Sie auf den folgenden Seiten im Komponenten-Benutzerhandbuch:
 
-* [Browser](../../../components/c-variables/dimensionslist/reports-browsers.md)
-* [Betriebssystem](../../../components/c-variables/dimensionslist/reports-operating-system.md)
-* [Bildschirmauflösung](../../../components/c-variables/dimensionslist/reports-technology.md)
-* [Farbtiefe](../../../components/c-variables/dimensionslist/reports-color-depth.md)
+* [Browser](/help/components/c-variables/dimensionslist/reports-browsers.md)
+* [Betriebssystem](/help/components/c-variables/dimensionslist/reports-operating-system.md)
+* [Bildschirmauflösung](/help/components/c-variables/dimensionslist/reports-technology.md)
+* [Farbtiefe](/help/components/c-variables/dimensionslist/reports-color-depth.md)
 
 ## Technologie - Netzwerk
 
-The network report is approximately equal to the **Domain** dimension.
+Der Netzwerkbericht ist ungefähr gleich der Dimension **Domäne** .
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü die Dimension " **Domäne** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie unter [Domänendimension](/help/components/c-variables/dimensionslist/reports-domains.md) im Komponenten-Benutzerhandbuch.
 
 ## Mobil - Übersicht
 
-The mobile overview report is approximately equal to the **Mobile Device Type** dimension. Beachten Sie, dass der Wert "Sonstige" dem Desktop-Traffic entspricht.
+Der Übersichtsbericht für Mobilgeräte entspricht ungefähr der Dimension **"Mobilgerätetyp"** . Beachten Sie, dass der Wert "Sonstige"dem Desktop-Traffic entspricht.
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü die Dimension " **Mobilgerätetyp** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie unter Dimension " [Mobilgerätetyp](/help/components/c-variables/dimensionslist/reports-device-types.md) "im Benutzerhandbuch "Komponenten".
 
 ## Mobil - Geräte
 
-The mobile devices report is approximately equal to the **Mobile Device** dimension.
+Der Mobilgerätebericht entspricht ungefähr der Dimension **Mobilgerät** .
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Komponentenmenü die Dimension **Mobilgerät** und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung 'Dimension hier ablegen'.
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie unter [Dimension "Mobilgerät](/help/components/c-variables/dimensionslist/reports-devices.md) "im Benutzerhandbuch "Komponenten".
 
 ## Benutzerspezifisch
 
-Benutzerspezifische Berichte werden pro Implementierung definiert. Arbeiten Sie mit dem Analytics-Administrator und/oder Implementation Consultant Ihres Unternehmens zusammen, um diese Berichte zu interpretieren. Typically an organization maintains a [Solution Design Document](../../../implement/prepare/solution-design.md) to keep track of custom variable values and how they are populated.
+Benutzerspezifische Berichte werden pro Implementierung definiert. Wenden Sie sich an den Analytics-Administrator und/oder Implementierungsberater Ihres Unternehmens, um diese Berichte zu interpretieren. Normalerweise unterhält ein Unternehmen ein [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) , um benutzerdefinierte Variablenwerte und deren Füllung zu verfolgen.
 
 ## Benchmarking
 
-Anhand von Vergleichsberichten können Sie erkennen, wie Facetten Ihrer Daten im Vergleich zu den Durchschnittswerten der Branche stehen. Adobe gibt derzeit keine Vergleichsdaten zwischen seinen Kunden frei.
+Mithilfe von Benchmarking-Berichten können Sie sehen, wie die Facetten Ihrer Daten im Vergleich zum Branchendurchschnitt aussehen. Adobe gibt derzeit keine Benchmarking-Daten zwischen seinen Kunden frei.
 
 ## Benutzerfluss
 
 Der Flussbericht ist auf beiden Plattformen verfügbar. So erstellen Sie einen Flussbericht:
 
-1. Klicken Sie links auf das Visualisierungssymbol und ziehen Sie eine Flussvisualisierung auf den Arbeitsbereich oberhalb der Freiformtabelle.
-2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimensionswerte sind gelb farbig.
-3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den Bereich mit der Bezeichnung "Dimension oder Element" in der Mitte.
-4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um die Flüsse auf die nachfolgenden oder vorherigen Seiten zu erweitern. Verwenden Sie das Rechtsklick-Menü, um Spalten zu erweitern oder zu minimieren. Innerhalb desselben Flussberichts können auch unterschiedliche Dimensionen verwendet werden.
+1. Klicken Sie auf das Symbol Visualisierungen links und ziehen Sie eine Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle
+2. Suchen Sie die Dimension " **Seiten** "und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionswerte sind gelb.
+3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den Bereich mit der Bezeichnung "Dimension oder Element"in der Mitte
+4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
