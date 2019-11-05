@@ -1,10 +1,10 @@
 ---
-description: Erfahren Sie, wie Sie die Ansichtsdichte anpassen.
-seo-description: Erfahren Sie, wie Sie die Ansichtdichte in den Tabellen für den Analysis Workspace anpassen.
-seo-title: Einstellung für die Dichte im Analysis Workspace anzeigen
+description: Erfahren Sie, wie Sie die Dichte der Ansicht anpassen.
+seo-description: Erfahren Sie, wie Sie die Ansichtsdichte in den Tabellen im Analysis Workspace anpassen.
+seo-title: Einstellung der Dichte im Analysis Workspace anzeigen
 title: Dichte anzeigen
 translation-type: tm+mt
-source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
 Durch die Anpassung der Anzeigedichte können Sie mehr Daten auf dem Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren.
 Sie haben beim Umstellen der Anzeigedichte über die Optionsfelder 3 Optionen:
 
-- **[!UICONTROL Kompaktes: Dies ist die Version mit der am häufigsten geraden Ansicht.]**
-- **[!UICONTROL Problemlos]**: Dies verlässt etwas mehr Auffüllung als die kompakte Version.
-- **[!UICONTROL Erweitert]** (Standard): Dies ist die Ansicht, die Sie in Workspace verwenden.
+- **[!UICONTROL Kompakt]**: Dies ist die Version mit der am stärksten verkürzten Ansicht.
+- **[!UICONTROL Komfortabel]**: Dadurch bleibt ein wenig mehr Auffüllung als die Compact-Version.
+- **[!UICONTROL Erweitert]** (Standard): Dies ist die Ansicht, die Sie in Workspace gewohnt sind.
 
 ![](assets/view-density.png)
 
