@@ -7,7 +7,7 @@ title: Fallout-Bericht mit dem Anforderungs-Assistenten filtern
 topic: ReportBuilder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,7 +24,7 @@ Dieses Beispiel zeigt einen Fallout-Bericht für Seiten.
 
    ![](assets/page_fallout.png)
 
-1. Konfigurieren Sie die entsprechenden [Datumsbereiche](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
+1. Konfigurieren Sie die entsprechenden [Datumsbereiche](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (Im Gegensatz zu Pfadberichten, bei denen ein Muster bereits angewendet wird, müssen Sie bei einem Fallout-Bericht stets Pfadelemente definieren.)
 
@@ -36,7 +36,7 @@ Dieses Beispiel zeigt einen Fallout-Bericht für Seiten.
 1. Entscheiden Sie, ob Sie aus einem Zellenbereich oder einer Liste auswählen möchten.
 1. If you select from a list, click **[!UICONTROL Add]** to select checkpoints to add to the fallout path. Sie können zwischen 3 und 8 Checkpoints definieren. (Suchen Sie nach verfügbaren Elementen, indem Sie auf **[!UICONTROL Weitere Informationen klicken]**.)
 
-   For more information on refining the filter, see [Filter Dimensions](../../../../analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md#concept_9C0518E2CF604AADA97DDBB1B4ECAAF8). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
+   For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
    Der Bericht sollte jetzt aktualisiert werden.
