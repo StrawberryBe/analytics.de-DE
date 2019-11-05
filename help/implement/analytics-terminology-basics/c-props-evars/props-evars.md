@@ -8,7 +8,7 @@ title: Übersicht über Eigenschaften und eVars
 topic: Entwickler und Implementierung
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Benutzerdefinierte Traffic-Variablen – auch als „props“ (s.prop) oder „Eigenschaftsvariablen“ bezeichnet – sind Zähler, die zählen, wie oft jeder Wert zu Analytics gesendet wird.
 
-Wenn Sie sich mit der Zuweisung von Variablen beschäftigen, müssen Sie wissen, wie sich die Funktionen von Props und eVars unterscheiden. Wenn Ihre Organisation mit diesen Unterschieden vertraut ist, kann sie die optimale Verwendung dieser Variablen festlegen. Weitere Informationen finden Sie unter [Props und eVars im Vergleich](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+Wenn Sie sich mit der Zuweisung von Variablen beschäftigen, müssen Sie wissen, wie sich die Funktionen von Props und eVars unterscheiden. Wenn Ihre Organisation mit diesen Unterschieden vertraut ist, kann sie die optimale Verwendung dieser Variablen festlegen. Weitere Informationen finden Sie unter [Props und eVars im Vergleich](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Mithilfe von Eigenschaftsvariablen können Sie benutzerdefinierte Daten mit bestimmten Traffic-bezogenen Ereignissen in Verbindung setzen. Die Eigenschaftsvariablen sind im [!DNL Analytics]-Code auf jeder Seite Ihrer Website eingebettet. Über [!UICONTROL s.prop]-Variablen können Sie in [!DNL Analytics] benutzerdefinierte Berichte erstellen, die speziell auf Ihre Organisation, Branche und geschäftlichen Ziele ausgerichtet sind.
 
@@ -40,4 +40,4 @@ In einer Konversions-Site kann mittels eVars verfolgt werden, wie sich angemelde
 
 Weitere Informationen finden Sie unter [Traffic-Variable](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) in der Analytics-Hilfe und -Referenz.
 
-Informationen zum Einrichten von Eigenschaften in Digital Tag Management finden Sie unter [Webeigenschaft erstellen](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+Informationen zum Einrichten von Eigenschaften in Digital Tag Management finden Sie unter [Webeigenschaft erstellen](/help/implement/c-implement-with-dtm/t-create-web-property.md).
