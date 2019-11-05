@@ -9,7 +9,7 @@ title: Umleitungen und Aliase
 topic: Entwickler und Implementierung
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,8 +38,8 @@ redirects_sc.xml
 
 Die folgenden Beispiele veranschaulichen, wie das Browsen ohne und mit Umleitungen beeinflusst wird:
 
-* [Beispiel: Browsen ohne Umleitungen](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
-* [Beispiel: Browsen mit Umleitungen](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [Beispiel: Browsen ohne Umleitungen](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
+* [Beispiel: Browsen mit Umleitungen](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## Beispiel: Browsen ohne Umleitungen {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -58,7 +58,7 @@ Umleitungen können dazu führen, dass der Browser die eigentliche verweisende U
 1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domäne ist konfiguriert, um den Benutzer auf `https://www.flywithus.com/` / umzuleiten.
 1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.flywithus.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
 
-[Implementierung von Weiterleitungen](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) – In diesem Abschnitt wird erklärt, wie [!DNL Analytics]-Variablen eingesetzt werden können, um die bei einer Weiterleitung verlorenen Daten zu erfassen. Der Abschnitt erläutert insbesondere, wie die oben beschriebene Situation mit „Discount-Airline Tickets“ beseitigt werden kann.
+[Implementierung von Weiterleitungen](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) – In diesem Abschnitt wird erklärt, wie [!DNL Analytics]-Variablen eingesetzt werden können, um die bei einer Weiterleitung verlorenen Daten zu erfassen. Der Abschnitt erläutert insbesondere, wie die oben beschriebene Situation mit „Discount-Airline Tickets“ beseitigt werden kann.
 
 ## Umleitungen implementieren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
