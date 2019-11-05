@@ -5,7 +5,7 @@ seo-title: Übersicht über die Anomalieerkennung
 title: Übersicht über die Anomalieerkennung
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ Sie können Datenanomalien kontextuell im Analysis Workspace anzeigen und analys
 
 [Beitragsanalyse auf YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] Die Anomalieerkennung ist nur in Analysis Workspace verfügbar. Kunden von Adobe Analytics Select und Foundation haben nur Zugriff auf die "Granularität pro Tag"-Anomalieerkennung in Workspace. Weitere Informationen finden Sie unter [Anomalieerkennung und Beitragsanalyse – Berechtigungen](../contribution-analysis/ca-tokens.md).
+>[!IMPORTANT] Die Anomalieerkennung wurde aus dem Funktionssatz Reports &amp; Analysen entfernt und ist jetzt nur noch über den Analysis Workspace verfügbar. Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation nur Zugriff auf die "Granularität pro Tag"-Anomalieerkennung in Workspace haben. Weitere Informationen finden Sie unter [Anomalieerkennung und Beitragsanalyse – Berechtigungen](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat.
 
