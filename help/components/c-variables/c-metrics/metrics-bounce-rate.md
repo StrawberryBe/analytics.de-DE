@@ -7,7 +7,7 @@ title: Absprungrate
 topic: Metriken
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Zeigt den Prozentsatz der Besuche mit einem einzelnen Hit an.
 
-Die Absprungrate verwendet die Metrik [Absprünge](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) und wird wie folgt berechnet:
+Die Absprungrate verwendet die Metrik [Absprünge](/help/components/c-variables/c-metrics/metrics-bounces.md) und wird wie folgt berechnet:
 
 `Bounces divided by Entries`
 
