@@ -6,8 +6,8 @@ seo-title: Cookies
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -38,11 +38,11 @@ Tool bearbeiten]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> Domänenpunkte </td> 
-   <td colname="col2"> <p>Die Domäne, in der die Analytics-Cookies <code>s_cc</code> und <code>s_sq</code> abgelegt sind. Es wird bestimmt, wie viele Punkte sich in der Domäne der Seiten-URL befinden. Diese Variable wird auch von Plug-ins verwendet, um die richtige Domäne zum Setzen der Plug-in-Cookies zu bestimmen. </p> </td> 
+   <td colname="col2"> <p>Die Domäne, in der die Analytics-Cookies <code> s_cc</code> und <code> s_sq</code> abgelegt sind. Es wird bestimmt, wie viele Punkte sich in der Domäne der Seiten-URL befinden. Diese Variable wird auch von Plug-ins verwendet, um die richtige Domäne zum Setzen der Plug-in-Cookies zu bestimmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> FP-Domänenpunkte </td> 
-   <td colname="col2"> <p>Die Variable <span class="term">fpCookieDomainPeriods</span> dient für Cookies, die von JavaScript gesetzt werden (<code> s_sq</code>, <code> s_cc</code>, Plug-ins) und von Erstanbietern stammen, selbst wenn Ihre Implementierung die Domänen <span class="filepath"> 2o7.net</span> oder <span class="filepath"> omtrdc.net</span> von Drittanbietern verwendet. </p> <p>Siehe <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>Die Variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transaktions-ID </td> 
