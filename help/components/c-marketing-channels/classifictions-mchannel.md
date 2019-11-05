@@ -8,16 +8,12 @@ title: Klassifizierungen in Marketing-Kanälen
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Klassifizierungen in Marketing-Kanälen
-
-Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
-
-## Klassifizierungen in Marketing-Kanälen {#topic_18E1471F1A584B358E57E191074A7243}
 
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
 
@@ -29,7 +25,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 >
 >Die Classification-Berichte zu Marketingkanälen verhalten sich etwas anders als die Standardklassifizierungen: Wenn Sie Classifications für First Touch- oder Last Touch-Berichte erstellen, werden diese automatisch auf beide angewendet. Sie können eine nicht klassifizieren, ohne die andere zu klassifizieren.
 
-## Marketingkanal-Classifications – Definitionen {#section_38D2F8BBA47D444780B65BD84156532D}
+## Marketingkanal-Classifications – Definitionen {#mktg-channel-classifications}
 
 | Begriff | Definition |
 |--- |--- |
@@ -37,11 +33,13 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | Name |  Name der Classification. Die hinzugefügte Klassifizierung erscheint als Kanalunterteilungsoption im Marketingkanal-Manager . |
 | Optionen |  Name der Classification. Die hinzugefügte Klassifizierung erscheint als Kanalunterteilungsoption im Marketingkanal-Manager . |
 
-## Erstellen von Marketingkanal-Classifications {#task_BCA5597281574E339E71F3BBC1BE3DFA}
+## Erstellen von Marketingkanal-Classifications {#create-mktg-channel-classifications}
 
 Erstellen Sie für den [!UICONTROL Marketingkanal]bericht Classifications.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
-1. Geben Sie auf der Seite der [Marketingkanal-Classifications](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) den Classification-Typen an.
+<!--
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+-->
 1. Klicken Sie unter [!UICONTROL Classifications]**auf[!UICONTROL Classification hinzufügen]** (oder bearbeiten Sie eine vorhandene).
