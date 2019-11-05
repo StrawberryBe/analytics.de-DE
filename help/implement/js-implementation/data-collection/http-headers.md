@@ -8,7 +8,7 @@ title: Datenerfassungs-HTTP-Header
 topic: Entwickler und Implementierung
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, a
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Dient zum Lesen der zuvor von unseren Datenerfassungsservern erstellten Cookies. </p> <p> Seit 2014 werden auf Adobe-Servern alle Cookies verworfen, die mit einem Server-Aufruf verbunden sind, mit Ausnahme der von Adobe festgelegten Cookies. Eine vollständige Liste der Cookies von Adobe finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">In Experience Cloud verwendete Cookies</a>. </p> </td> 
+   <td> <p>Dient zum Lesen der zuvor von unseren Datenerfassungsservern erstellten Cookies. </p> <p> Seit 2014 werden auf Adobe-Servern alle Cookies verworfen, die mit einem Server-Aufruf verbunden sind, mit Ausnahme der von Adobe festgelegten Cookies. Eine vollständige Liste der Cookies von Adobe finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">In Experience Cloud verwendete Cookies</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
