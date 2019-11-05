@@ -7,7 +7,7 @@ title: Konfigurieren einer Echtzeitanforderung
 topic: ReportBuilder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,4 +26,4 @@ Schritte zum Konfigurieren von Datumsangaben für Echtzeitanforderungen.
    ![Schritt Ergebnis](assets/real_time_select_date.png)
 
    Echtzeitberichte sind nur für die letzten 20 Stunden verfügbar. Für die Granularität sind Optionen von 1 Minute bis 30 Minuten verfügbar.
-1. Klicken Sie auf **[!UICONTROL Weiter]** und [konfigurieren Sie das Anforderungslayout](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB)weiter.
+1. Klicken Sie auf **[!UICONTROL Weiter]** und [konfigurieren Sie das Anforderungslayout](/help/analyze/report-builder/layout/layout.md)weiter.
