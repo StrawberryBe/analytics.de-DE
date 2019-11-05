@@ -7,7 +7,7 @@ title: Einfache Anforderungen kopieren
 topic: ReportBuilder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Kopieren Sie eher eine einfache Anforderung als eine Verweisanforderung. Eine einfache Anforderung enthält keine Verweise auf andere Anforderungen oder die Inhalte einer Zelle.
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. Diese Filter verwenden entweder Übereinstimmungen oder Trenderstellung und basieren auf den Ergebnissen einer früheren Anforderung oder auf dem vom Benutzer eingegebenen Inhalt einer Zelle. Eine solche Zelle wird Eingabezelle genannt.
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. Diese Filter verwenden entweder Übereinstimmungen oder Trenderstellung und basieren auf den Ergebnissen einer früheren Anforderung oder auf dem vom Benutzer eingegebenen Inhalt einer Zelle. Eine solche Zelle wird Eingabezelle genannt.
 1. Es muss eine gültige Anforderung erstellt werden.
 1. Klicken Sie mit der rechten Maustaste auf eine der Zellen, die der Anforderung zugeordnet sind, oder wählen Sie einen Bereich von Zellen aus, der Anforderungen enthält.
 
