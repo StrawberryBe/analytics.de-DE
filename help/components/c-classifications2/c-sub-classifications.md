@@ -8,7 +8,7 @@ title: Informationen über Unterklassifizierungen
 topic: Admin Tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Weitere Informationen über die Datendatei finden Sie unter [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Weitere Informationen über die Datendatei finden Sie unter [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ Mehrstufige Classifications bestehen aus über- und untergeordneten Classificati
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Classification kann gleichzeitig über- und untergeordnet sein. Die übergeordneten Classifications der obersten Ebene entsprechen einer einstufigen Classification (siehe [Einstufige Classifications](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Classification kann gleichzeitig über- und untergeordnet sein. Die übergeordneten Classifications der obersten Ebene entsprechen einer einstufigen Classification (siehe [Einstufige Classifications](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **Untergeordnete Classifications:** Als untergeordnete Classification gilt jede Classification, der eine andere Classification anstelle der Variablen übergeordnet ist. Untergeordnete Classifications enthalten zusätzliche Informationen über ihre übergeordnete Classification. Beispielsweise könnte einer [!UICONTROL Kampagnen]-Classification eine Kampagnenverantwortlichen-Classification untergeordnet sein. [!UICONTROL Nummerische] Classifications fungieren auch als Metriken in Classification-Berichten.
 
@@ -62,7 +62,7 @@ Jede Classification, ob über- oder untergeordnet, stellt eine Datenspalte in de
 
 `<parent_name>^<child_name>`
 
-Weitere Informationen zum Datendateiformat finden Sie unter [Classification-Datendateien](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Weitere Informationen zum Datendateiformat finden Sie unter [Classification-Datendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 Beispiel:
 
