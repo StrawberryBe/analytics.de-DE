@@ -1,65 +1,65 @@
 ---
-title: Häufig verwendete Metriken in anderen Plattformen für die Übersetzung von Plattformen
-description: Erfahren Sie, wie Sie Metrikdaten für viele häufig verwendete Berichte abrufen, indem Sie die Terminologie von Google Analytics-Benutzern kennen.
+title: Häufig verwendete Metriken im Übersetzungshandbuch für andere Plattformen
+description: Verstehen Sie, wie Sie Metrikdaten für viele häufig verwendete Berichte abrufen können, indem Sie Terminologie verwenden, die für Google Analytics-Benutzer besser bekannt ist.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
-# Häufig verwendete Metriken in anderen Plattformen für die Übersetzung von Plattformen
+# Häufig verwendete Metriken im Übersetzungshandbuch für andere Plattformen
 
-Auf anderen Plattformen wie Google Analytics geben viele Berichte eine allgemeine Anzahl von Metriken frei. Auf dieser Seite erfahren Sie, wie Sie die in vielen Berichten verwendeten Metriken neu erstellen.
+Auf anderen Plattformen wie Google Analytics verwenden viele Berichte eine gemeinsame Anzahl von Metriken. Auf dieser Seite erfahren Sie, wie Sie die in vielen Berichten verwendeten Metriken neu erstellen.
 
-Um einer Freiform-Tabelle des Arbeitsbereichs mehrere Metriken hinzuzufügen, ziehen Sie die Metrik aus dem Komponentenbereich neben der Metriküberschrift in der Arbeitsfläche:
+Um einer Freiformtabelle im Arbeitsbereich mehrere Metriken hinzuzufügen, ziehen Sie die Metrik aus dem Komponentenbereich neben der Metriküberschrift im Arbeitsbereich:
 
-![Zusätzliche Metrik](../assets/new_metric.png)
+![Zusätzliche Metrik](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## Akquise-Metriken
 
-**Benutzer** sind in Workspace ungefähr gleich **individueller Besucher** . See the [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) metric in the Components user guide for additional details.
+**Benutzer** sind ungefähr gleich **Unique Visitors** in Workspace. Weitere Informationen finden Sie in der Metrik " [Individuelle Besucher](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) "im Komponenten-Benutzerhandbuch.
 
-**Neue Benutzer** erhalten Folgendes:
+**Neue Benutzer** erhalten Sie wie folgt:
 
-1. Drag the **Unique Visitors** metric onto the workspace.
-2. Drag the **First Time Visits** segment above the Unique Visitors metric headers:
+1. Ziehen Sie die Metrik " **Individuelle Besucher** "in den Arbeitsbereich.
+2. Ziehen Sie das Segment " **Erstbesuche** "über die Metriküberschriften "Individuelle Besucher":
 
    ![Erstbesuche](../assets/first_time_visits.png)
 
-**Die Sitzungen** entsprechen ungefähr **den Besuchen** im Analysis Workspace. See the [Visits](../../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for additional details.
+**Sitzungen** entsprechen ungefähr den **Besuchen** im Arbeitsbereich für Analysen. Weitere Informationen finden Sie in der Metrik [Besuche](/help/components/c-variables/c-metrics/metrics-visit.md) im Komponenten-Benutzerhandbuch.
 
 ![Akquise-Metriken](../assets/acquisition_metrics.png)
 
 ## Verhaltensmetriken
 
-**Die Absprungrate** ist im Analysis Workspace als Metrik problemlos verfügbar. See the [Bounce Rate](../../../components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for additional information.
+**Die Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weitere Informationen finden Sie in der Metrik " [Absprungrate](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) "im Komponenten-Benutzerhandbuch.
 
-**Seiten/Sitzung** ist eine berechnete Metrik. Sie erhalten Folgendes:
+**Seiten/Sitzung** ist eine berechnete Metrik. Es ist erhältlich bei:
 
-1. Wenn Sie diese berechnete Metrik bereits erstellt haben, suchen Sie sie unter Metriken und ziehen Sie sie auf den Arbeitsbereich.
-2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
-3. Geben Sie den Titel "Seitenansichten pro Besuch" und eine Beschreibung ein, falls gewünscht.
-4. Legen Sie das Format auf "Dezimal" fest und legen Sie die Anzahl der Dezimalstellen auf 2 fest.
-5. Drag the **Page views** metric and **Visits** metric into the definition area.
-6. Arrange the definition so the formula is **Page Views divided by Visits**.
+1. Wenn Sie diese berechnete Metrik bereits erstellt haben, suchen Sie sie unter "Metriken"und ziehen Sie sie in den Arbeitsbereich.
+2. Wenn Sie diese berechnete Metrik noch nicht erstellt haben, klicken Sie auf das Symbol **+** neben der Metrikliste, um den Generator für berechnete Metriken zu öffnen.
+3. Geben Sie den Titel "Seitenansichten pro Besuch"und ggf. eine Beschreibung ein.
+4. Legen Sie das Format auf "Dezimal"fest und setzen Sie die Anzahl der Dezimalstellen auf 2.
+5. Ziehen Sie die Metrik **Seitenansichten** und **Besuche** in den Definitionsbereich.
+6. Ordnen Sie die Definition so an, dass die Formel **Seitenansichten dividiert durch Besuche** ist.
 
-   ![Seitenansichten pro Besuch](../assets/page_views_per_visit.png)
+   ![Seitenansichten pro Besuch](/help/technotes/ga-to-aa/assets/page_views_per_visit.png)
 
-7. Klicken Sie auf Speichern, um zu Ihrer Arbeitsfläche zurückzukehren.
-8. Ziehen Sie die neu definierte berechnete Metrik auf die Arbeitsfläche.
+7. Klicken Sie auf Speichern, um zu Ihrem Arbeitsbereich zurückzukehren.
+8. Ziehen Sie die neu definierte berechnete Metrik in den Arbeitsbereich.
 
-   Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+   Weitere Informationen zu [berechneten Metriken](/help/components/c-variables/c-metrics/calculated-metric.md) finden Sie im Komponenten-Benutzerhandbuch.
 
-**Durchschnittl. Session Duration** is approximately equal to **Time Spent per Visit (seconds)**. Learn more about [Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md) metrics in the Components user guide.
+**Durchschnittl. Die Sitzungsdauer** entspricht ungefähr der **Zeit pro Besuch (Sekunden)**. Weitere Informationen zu [Besuchszeitmetriken](/help/components/c-variables/c-metrics/metrics-time-spent.md) finden Sie im Komponenten-Benutzerhandbuch.
 
 ## Konversionsmetriken
 
-**Die Zielkonversionsrate**, **die Zielbeendigungen** und der **Zielwert** erfordern zusätzliche Implementierungen auf beiden Plattformen. Wenn Ihre Implementierung bereits die Produktdimension und das Kaufereignis anzeigt, gehen Sie wie folgt vor:
+**Die Zielumrechnungsrate**, die **Zielabschlüsse** und der **Zielwert** erfordern eine zusätzliche Implementierung auf beiden Plattformen. Wenn Ihre Implementierung bereits die Produktdimension und das Kaufereignis berücksichtigt, sollten Sie die folgenden Schritte beachten:
 
-1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
-1. Create a calculated metric of **Orders per Visit**. Halten Sie beim Klicken die Strg-Taste (Windows) bzw. Cmd + Cmd (Mac) gedrückt, um sie zu markieren. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. Diese neue Metrik ähnelt einer Zielkonversionsrate.
-1. Wenn Dezimalstellen erforderlich sind, bearbeiten Sie die berechnete Metrik. Klicken Sie in der Metrikkopfzeile auf die Info-Schaltfläche und dann auf das Stiftsymbol. Fügen Sie im Fenster Aufbau berechneter Metriken 1 oder 2 Dezimalstellen hinzu und klicken Sie dann auf Speichern.
+1. Ziehen Sie die Metriken **Bestellungen** , **Umsatz** und **Besuche** in den Arbeitsbereich.
+1. Erstellen Sie eine berechnete Metrik aus **Bestellungen pro Besuch**. Verwenden Sie Strg+Klick (Windows) oder Cmd+Klick (Mac) für beide Metrik-Überschriften, um sie hervorzuheben. Klicken Sie mit der rechten Maustaste auf eine der Überschriften, wählen Sie Metrik aus Auswahl **erstellen** und klicken Sie dann auf **Unterteilen**. Diese neue Metrik ähnelt einer Zielkonversionsrate.
+1. Falls Dezimalstellen erforderlich sind, bearbeiten Sie die berechnete Metrik. Klicken Sie auf die Schaltfläche Info in der Metrik-Kopfzeile und dann auf das Stiftsymbol. Fügen Sie im Fenster Aufbau berechneter Metriken 1 oder 2 Dezimalstellen hinzu und klicken Sie dann auf Speichern.
 
-   ![Bestellungen pro Besuch](../assets/orders_per_visit.png)
+   ![Bestellungen pro Besuch](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 
-Wenn Ihre Implementierung noch keine Produkt- oder Konversionsdaten umfasst, empfiehlt Adobe die Zusammenarbeit mit einem Implementierungsberater, um die Datenqualität und -integrität sicherzustellen.
+Wenn Ihre Implementierung noch keine Produkt- oder Konversionsdaten enthält, empfiehlt Adobe, mit einem Implementierungsberater zusammenzuarbeiten, um die Datenqualität und -integrität sicherzustellen.
