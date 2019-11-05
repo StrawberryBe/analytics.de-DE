@@ -1,20 +1,20 @@
 ---
-description: Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Anforderungs-Assistenten Schritt 1 die Option Vordefinierte Datumsangaben. Hier sind die Felddefinitionen für vordefinierte Datumswerte in Reportbuilder.
-seo-description: Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Anforderungs-Assistenten Schritt 1 die Option Vordefinierte Datumsangaben. Hier sind die Felddefinitionen für vordefinierte Datumswerte in Reportbuilder.
-seo-title: Definitionen des Anforderungs-Assistenten - vordefinierte Datumswerte
+description: Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Schritt 1 des Anforderungs-Assistenten die Option Vordefinierte Datumswerte. Hier finden Sie die Felddefinitionen für voreingestellte Datumswerte in ReportBuilder.
+seo-description: Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Schritt 1 des Anforderungs-Assistenten die Option Vordefinierte Datumswerte. Hier finden Sie die Felddefinitionen für voreingestellte Datumswerte in ReportBuilder.
+seo-title: Definitionen im Anforderungs-Assistenten – Vordefinierte Datumswerte
 solution: Analytics
-title: Definitionen des Anforderungs-Assistenten - vordefinierte Datumswerte
+title: Definitionen im Anforderungs-Assistenten – Vordefinierte Datumswerte
 topic: ReportBuilder
-uuid: 5 eba 7 b 85-f 3 f 5-4 e 9 c-a 078-757 d 9 e 85 f 4 d 1
+uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Definitionen des Anforderungs-Assistenten - vordefinierte Datumswerte
+# Definitionen im Anforderungs-Assistenten – Vordefinierte Datumswerte
 
-Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Dialogfeld „Anforderungs-Assistent: Schritt 1“ die Option Vordefinierte Datumswerte. Hier sind die Felddefinitionen für vordefinierte Datumswerte in Reportbuilder.
+Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwendete Datumswerte auswählen, die Sie gespeichert haben. Wählen Sie im Dialogfeld „Anforderungs-Assistent: Schritt 1“ die Option Vordefinierte Datumswerte. Hier finden Sie die Felddefinitionen für voreingestellte Datumswerte in ReportBuilder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -30,11 +30,11 @@ Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwe
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vorlagen für das Speichern von Datumswerten </p> </td> 
-   <td colname="col2"> <p>Hier werden die Vorlagen für Datumsbereiche angezeigt, die der aktuelle Benutzer erstellt hat. Datumswerte können im Dialogfeld <span class="wintitle">Feste Datumswerte</span> gespeichert werden. Wenn Sie eine Datumsvorlage zur Verwendung in allen Report Suites gespeichert haben, müssen Sie die Option <span class="wintitle">Vorlage für das Speichern von Datumswerten für alle Report Suites anzeigen</span> aktivieren, um die Vorlage auswählen zu können. </p> <p>See <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a>. </p> </td> 
+   <td colname="col2"> <p>Hier werden die Vorlagen für Datumsbereiche angezeigt, die der aktuelle Benutzer erstellt hat. Datumswerte können im Dialogfeld <span class="wintitle">Feste Datumswerte</span> gespeichert werden. Wenn Sie eine Datumsvorlage zur Verwendung in allen Report Suites gespeichert haben, müssen Sie die Option <span class="wintitle">Vorlage für das Speichern von Datumswerten für alle Report Suites anzeigen</span> aktivieren, um die Vorlage auswählen zu können. </p> <p>See <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Fixed Dates and Saved Date Ranges</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Datumsbereiche für alle Report Suites anzeigen </p> </td> 
-   <td colname="col2"> <p> Hierdurch werden Vorlagen angezeigt, die für alle Report Suites zur Verfügung stehen. Klicken Sie auf <span class="wintitle">Bearbeiten</span>, um gespeicherte Datumsbereiche zu verwalten oder um den derzeit ausgewählten gespeicherten Datumsbereich umzubenennen. </p> <p>See <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md#task_8C234FA8F90C4A168C09EF527D7FF445" type="task" format="dita" scope="local"> Fixed Dates and Saved Date Ranges</a> for more information. </p> </td> 
+   <td colname="col2"> <p> Hierdurch werden Vorlagen angezeigt, die für alle Report Suites zur Verfügung stehen. Klicken Sie auf <span class="wintitle">Bearbeiten</span>, um gespeicherte Datumsbereiche zu verwalten oder um den derzeit ausgewählten gespeicherten Datumsbereich umzubenennen. </p> <p>See <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Fixed Dates and Saved Date Ranges</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
