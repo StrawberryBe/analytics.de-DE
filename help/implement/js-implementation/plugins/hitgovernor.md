@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ Mit diesem Plug-in wird dieser Traffic für den Rest der Besucherlebensdauer aut
 
 ## Funktionsweise des Plug-ins „hitGovernor“ {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-Das Plug-in erhöht bei jeder Bildanforderung an Ihre Tracking-Server einen Cookie-Wert und verfolgt diesen über einen rollierenden Zeitrahmen hinweg. Der Standardzeitrahmen beträgt eine Minute, kann jedoch überschrieben werden. (Weitere Informationen finden Sie unter [Implementierung](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) weiter unten.) Wenn die Gesamtzahl der Treffer während dieses Zeitrahmens den standardmäßigen Schwellenwert für Treffer (60) überschreitet, wird eine endgültige benutzerspezifische Link-Bildanforderung an die *`exceptionFlag`*-Kontextdatenvariable. Dieser standardmäßige Schwellenwert für Treffer kann auch überschrieben werden.
+Das Plug-in erhöht bei jeder Bildanforderung an Ihre Tracking-Server einen Cookie-Wert und verfolgt diesen über einen rollierenden Zeitrahmen hinweg. Der Standardzeitrahmen beträgt eine Minute, kann jedoch überschrieben werden. (Weitere Informationen finden Sie unter [Implementierung](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) weiter unten.) Wenn die Gesamtzahl der Treffer während dieses Zeitrahmens den standardmäßigen Schwellenwert für Treffer (60) überschreitet, wird eine endgültige benutzerspezifische Link-Bildanforderung an die *`exceptionFlag`*-Kontextdatenvariable. Dieser standardmäßige Schwellenwert für Treffer kann auch überschrieben werden.
 
 Bei Bedarf kann die Erfassung von Traffic für diesen bestimmten Besucher von diesem Zeitpunkt an für einen Standardzeitraum von 60 Tagen verhindert werden. Das Blockieren des Datenverkehrs erfordert eine zusätzliche Codezeile in Ihrer doPlugins-Funktion, wie unten beschrieben. Der Zeitrahmen kann ebenfalls angepasst werden. Die Logik ermöglicht es, dass entweder zusammen mit der Zeit die IP-Adresse des Besuchers, der Benutzeragent oder die [!DNL Experience Cloud]-Besucher-ID in die ordnungsgemäße permanente Ausnahmelogik aufgenommen oder der Timeout-Zeitraum nach sechzig Tagen zurückgesetzt wird. Wenn dieser Traffic nach 60 Tagen vom Plug-in als betrügerisch identifiziert wird, wird der Traffic erneut als Ausnahme gekennzeichnet und für weitere 60 Tage nicht erfasst.
 
@@ -55,7 +55,7 @@ Implementieren des Plug-ins „hitGovernor“:
    }); 
    ```
 
-   Fügen Sie unterhalb des Abschnitts „doPlugins“ in Ihrer AppMeasurement-Datei den Plug-in-Code ein, der in dem folgenden [Plug-in-Quellcode](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0) enthalten ist.
+   Fügen Sie unterhalb des Abschnitts „doPlugins“ in Ihrer AppMeasurement-Datei den Plug-in-Code ein, der in dem folgenden [Plug-in-Quellcode](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0) enthalten ist.
 
    Die Schwellenwerte für Treffer, Trefferzeitpunkt und die Zeitrahmen für den Traffic-Ausschluss können überschrieben werden, indem Sie diese Variablen außerhalb des Plug-ins selbst einstellen und vorzugsweise Ihre anderen Konfigurationsvariablen verwenden:
 
