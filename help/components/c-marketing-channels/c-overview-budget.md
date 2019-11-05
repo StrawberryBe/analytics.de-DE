@@ -8,7 +8,7 @@ title: Kosten und Budgets
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Erfahren Sie, wie Sie Kanälen Kosten- und Budgetbeträge zuweisen.
 
-## Kosten und Budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-Erfahren Sie, wie Sie Kanälen Kosten- und Budgetbeträge zuweisen.
-
 Kosten umfassen Ihre Ausgaben für den Kanal. Budget stellt alle verfügbaren Gelder dar.
 
 Die ROI lässt sich sinnvoll anzeigen, indem Sie eine errechnete Metrik erstellen, die den Umsatz abzüglich der Kosten darstellt. Alternativ können Sie auch eine errechnete Metrik erstellen, die die Gesamtkosten mit einer Unterteilung der Kosten pro neuer Interaktion aufzeigt. Beispiel: Sie können einen [!UICONTROL First Touch-Kanal]bericht ausführen, der neue Interaktionen auflistet, und dann eine Metrik des Typs „First Touch-Kosten“ hinzufügen, die die Kosten pro neuer Interaktion darstellt.
 
-Siehe [In Marketing-Kanalberichten verwendete berechnete Metriken](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+Siehe [In Marketing-Kanalberichten verwendete berechnete Metriken](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 Kosten und Budgets können nur Kanälen zugewiesen werden. In der Berichterstellung erhalten alle Kosten einen Gültigkeitszeitraum. Wenn die Kosten in direktem Bezug zum Kanal stehen, wird eine Zuordnungsmetrik gewählt, die die Kostenaufteilung unter den Kampagnen eines Kanals anzeigt.
 
 Nach Hinzufügen der Kosten- und Budgeteinträge können Sie die Tabellendaten in eine CSV-Datei exportieren. Die CSV-Datei können Sie auch in die Seite „Marketingkanal-Kosten“ importieren.
 
-## Hinzufügen von Kosten- und Budgeteinträgen {#task_9238A033994440748960DE21593E6388}
+## Hinzufügen von Kosten- und Budgeteinträgen {#add-cost-and-budget}
 
 Fügen Sie Marketingkanälen Kosten- und Budgeteinträge hinzu.
 
@@ -45,11 +41,9 @@ Fügen Sie Marketingkanälen Kosten- und Budgeteinträge hinzu.
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 Felddefinitionen für Marketingkanal-Kosten oder -Budgets.
-
-
 
 | Feld | Definition |
 |--- |--- |
