@@ -1,14 +1,14 @@
 ---
 description: Systemanforderungen für Analysis Workspace.
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: Systemanforderungen für Analysis Workspace.
 seo-title: Administrationsanforderungen
 solution: Analytics
 title: Administrationsanforderungen
 topic: Reports and Analytics
-uuid: 6 c 8 bfeaa -0 cf 8-435 d-a 4 d 1-67 e 2 cb 55 da 4 c
+uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -37,7 +37,7 @@ Systemanforderungen für Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Benutzer </td> 
-   <td colname="col2"> <p>Um den Zugriff auf die Registerkarte „Arbeitsbereich“ in Analytics zu aktivieren, müssen Administratoren Benutzer zur Gruppe <span class="uicontrol">Analysis Workspace-Zugriff</span> unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Gruppen</a> hinzufügen. </p> </td> 
+   <td colname="col2"> <p>Um den Zugriff auf die Registerkarte „Arbeitsbereich“ in Analytics zu aktivieren, müssen Administratoren Benutzer zur Gruppe <span class="uicontrol">Analysis Workspace-Zugriff</span> unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Gruppen</a> hinzufügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Projekte übertragen </td> 
