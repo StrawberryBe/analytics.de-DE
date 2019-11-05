@@ -5,7 +5,7 @@ seo-title: Vor Aktivierung dieser Integration
 title: Vor Aktivierung dieser Integration
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ Auf diese Weise wird sichergestellt, dass vor der Aktivierung geeignete Best Pra
 Überprüfen Sie die folgenden Informationen zur Data Connectors-Integration in Bezug auf Adobe Analytics:
 
 * **** Report Suite-spezifisch: Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren.
-* **** Verfügbare und konfigurierte Analytics-Variablen: Für diese Integration sind 5 benutzerspezifische Ereignisse und 2 benutzerspezifische eVars sowie optional 3 zusätzliche Ereignisse und 3 zusätzliche eVars erforderlich. Siehe [Analytics-Integrationsvariablen](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2).
+* **** Verfügbare und konfigurierte Analytics-Variablen: Für diese Integration sind 5 benutzerspezifische Ereignisse und 2 benutzerspezifische eVars sowie optional 3 zusätzliche Ereignisse und 3 zusätzliche eVars erforderlich. Siehe [Analytics-Integrationsvariablen](/help/import/data-connectors/silverpop-overview/silverpop-variables.md).
 
 * **** Bevollmächtigter: Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden.
 * **** Data Warehouse™: Für diese Integration muss Data Warehouse aktiviert sein, damit Remarketing-Segmente generiert werden können. Wenn Sie Data Warehouse nicht aktiviert haben, wenden Sie sich für weitere Informationen an Adobe.
