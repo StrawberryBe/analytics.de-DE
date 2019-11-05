@@ -1,7 +1,7 @@
 ---
 title: Technotes – Startseite
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -16,11 +16,11 @@ Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem 
 
 ## Weitere Benutzerhandbücher für Analytics
 
-[Analytics-Benutzerhandbücher](../landing/home.md)
+[Analytics-Benutzerhandbücher](/help/landing/home.md)
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
