@@ -7,7 +7,7 @@ title: Anforderungen verwalten – Definitionen
 topic: ReportBuilder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fügen Sie </p> </td> 
-   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> Eine Datenanforderung erstellen</a>. </p> </td> 
+   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Eine Datenanforderung erstellen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bearbeiten </p> </td> 
-   <td colname="col2"> <p> (bzw. Mehrere Anforderungen bearbeiten) Eine ausgewählte Anforderung wird bearbeitet. Das System zeigt den <span class="wintitle">Anforderungs-Assistenten</span> an. See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (bzw. Mehrere Anforderungen bearbeiten) Eine ausgewählte Anforderung wird bearbeitet. Das System zeigt den <span class="wintitle">Anforderungs-Assistenten</span> an. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Löschen </p> </td> 
@@ -80,7 +80,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p> Aktualisieren </p> </td> 
-   <td colname="col2"> <p>Aktualisierung einer einzelnen Anforderung oder einer Auswahl von Anforderungen. (Siehe <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> Eine Anforderung aktualisieren</a>.) </p> </td> 
+   <td colname="col2"> <p>Aktualisierung einer einzelnen Anforderung oder einer Auswahl von Anforderungen. (Siehe <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Eine Anforderung aktualisieren</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Liste aktualisieren </p> </td> 
