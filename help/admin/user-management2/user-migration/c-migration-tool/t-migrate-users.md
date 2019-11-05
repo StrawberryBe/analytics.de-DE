@@ -5,7 +5,7 @@ seo-title: Migrieren von Analytics-Benutzerkonten für Adobe IDs
 title: Migrieren von Analytics-Benutzerkonten für Adobe IDs
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -44,7 +44,7 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bisherige Anmeldedaten deaktiviert </p> </td> 
-   <td colname="col2"> <p>Die bisherigen Anmeldedaten mit Unternehmens-ID wurden deaktiviert. Benutzer greifen nun mit ihrer Adobe ID oder Enterprise ID auf die Experience Cloud zu. Wenn alle Ihre Benutzer diese Phase erreicht haben, ist die Migration abgeschlossen. </p> <p>Bei der Migration ist die Legacy-Anmeldung deaktiviert. Benutzer werden zu " <span class="filepath"> experiencecloud.adobe.com</span> "umgeleitet und müssen sich mit der Adobe ID oder Enterprise ID anmelden. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Die bisherigen Anmeldedaten mit Unternehmens-ID wurden deaktiviert. Benutzer greifen nun mit ihrer Adobe ID oder Enterprise ID auf die Experience Cloud zu. Wenn alle Ihre Benutzer diese Phase erreicht haben, ist die Migration abgeschlossen. </p> <p>Bei der Migration ist die Legacy-Anmeldung deaktiviert. Benutzer werden zu " <span class="filepath"> experiencecloud.adobe.com</span> "umgeleitet und müssen sich mit der Adobe ID oder Enterprise ID anmelden. </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ Die Benutzerdaten zeigen die Benutzer in Ihrer Organisation an, getrennt durch d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Domäne </p> </td> 
-   <td colname="col2"> <p>Domänen beziehen sich auf die E-Mail-IDs der aktuellen Analytics-Benutzerbasis. Eine Domäne kann nur von einem einzigen Unternehmen und nur durch Systemadministratoren in Anspruch genommen werden. Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html" format="html" scope="external">Zugriff auf eine beanspruchte Domäne anfordern</a>. </p> </td> 
+   <td colname="col2"> <p>Domänen beziehen sich auf die E-Mail-IDs der aktuellen Analytics-Benutzerbasis. Eine Domäne kann nur von einem einzigen Unternehmen und nur durch Systemadministratoren in Anspruch genommen werden. Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">Zugriff auf eine beanspruchte Domäne anfordern</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domäne angefordert </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Benutzer als Enterprise- oder Federated IDs migrieren möchten, müssen Sie Systemadministrator sein und eine verfügbare Domäne über die Admin Console anfordern, bevor Sie Benutzer migrieren können. <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">Weitere Informationen</a>. </p> <p>Wenn Sie keine Domänen für Enterprise- oder Federated IDs anfordern möchten, überspringen Sie diesen Schritt und migrieren Sie Benutzer als Adobe IDs. Erfahren Sie <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">hier</a> mehr über ID-Arten. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Benutzer als Enterprise- oder Federated IDs migrieren möchten, müssen Sie Systemadministrator sein und eine verfügbare Domäne über die Admin Console anfordern, bevor Sie Benutzer migrieren können. <a href="https://helpx.adobe.com/enterprise/help/identity.html">Weitere Informationen</a>. </p> <p>Wenn Sie keine Domänen für Enterprise- oder Federated IDs anfordern möchten, überspringen Sie diesen Schritt und migrieren Sie Benutzer als Adobe IDs. Erfahren Sie <a href="https://helpx.adobe.com/enterprise/help/identity.html">hier</a> mehr über ID-Arten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
