@@ -1,37 +1,37 @@
 ---
-title: Umstellung von einer Drittanbieter-Analyseplattform auf Adobe Analytics
-description: Hier lernen Sie die wichtigsten Konzepte zum Abrufen von Berichten kennen, die sich auf andere Plattformen beziehen, wie z. B. Google Analytics.
+title: Umstieg von einer Drittanbieter-Analyseplattform auf Adobe Analytics
+description: Erfahren Sie mehr über die wichtigsten Konzepte zum Abrufen von Berichten, die auf Benutzer ausgerichtet sind, die mit anderen Plattformen wie Google Analytics vertraut sind.
 translation-type: tm+mt
-source-git-commit: a5f612ba5e8446a56bc2bd252a8781e8ab1de403
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Umstellung von einer Drittanbieter-Analyseplattform auf Adobe Analytics
+# Umstieg von einer Drittanbieter-Analyseplattform auf Adobe Analytics
 
-Dieses Handbuch enthält allgemeine Berichtstypen, mit denen Sie die Kernkonzepte und Arbeitsabläufe in Adobe Analytics erlernen und sich auf wichtige Ähnlichkeiten und Unterschiede zwischen Adobe und anderen bevorzugten Tools konzentrieren können. Dieses Handbuch richtet sich an Analysten, die mit grundlegenden digitalen Analysekonzepten vertraut sind, aber neu bei Adobe Analytics sind. Es wird davon ausgegangen, dass die Organisation über eine funktionierende Implementierung verfügt, die Daten an Adobe-Datenerfassungsserver sendet. If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](../../admin/admin-console/first-admin-guide.md).
+In diesem Handbuch werden allgemeine Berichtstypen vorgestellt, die Ihnen helfen, Kernkonzepte und Arbeitsabläufe in Adobe Analytics zu erlernen, wobei der Schwerpunkt auf wichtigen Ähnlichkeiten und Unterschieden zwischen Adobe und anderen gängigen Tools liegt. Dieses Handbuch richtet sich an Analysten, die mit grundlegenden Konzepten der digitalen Analyse vertraut sind, aber neu bei Adobe Analytics. Es wird davon ausgegangen, dass das Unternehmen über eine funktionierende Implementierung verfügt, die Daten an Adobe-Datenerfassungsserver sendet. Wenn Ihre Organisation noch keine Adobe Analytics-Implementierung eingerichtet hat, beginnen Sie mit dem [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md).
 
-Sowohl Google Analytics als auch Adobe Analytics sind leistungsstarke Plattformen, um wertvolle Einblicke in die Leistung Ihrer Website zu erhalten. Jede Plattform verfügt über eine eigene Verarbeitungsarchitektur und Benutzeroberfläche, die jede Plattform einzigartig bietet. Dieses Handbuch hilft Ihnen, einen Benutzer zu akquirieren, der mit Google Analytics in Adobe Analytics gefüllt ist.
+Sowohl Google Analytics als auch Adobe Analytics sind leistungsstarke Plattformen, um wertvolle Einblicke in die Leistung Ihrer Website zu erhalten. Jede Plattform verfügt über eine eigene Verarbeitungsarchitektur und eine eigene Benutzeroberfläche, die jeder Plattform einzigartige Vorteile bietet. Dieses Handbuch soll dazu beitragen, dass Benutzer mit Erfahrung in Google Analytics schneller mit Adobe Analytics arbeiten können.
 
-In Adobe Analytics gibt es zwei grundlegende Möglichkeiten, grundlegende Berichte abzurufen, nachdem Sie sich bei der Adobe Experience Cloud angemeldet haben:
+In Adobe Analytics gibt es zwei Hauptwege, um nach der Anmeldung bei der Adobe Experience Cloud grundlegende Berichte abzurufen:
 
-* **Reports &amp; Analysen** ist die historische Methode zum Abrufen grundlegender Berichte. Das linke Menü enthält eine Liste der vordefinierten Berichte und ermöglicht dem Benutzer, zu einem gewünschten Bericht zu navigieren und Daten zu erhalten. Segmente und Metriken können weitere Anpassungen bereitstellen. Benutzer, die mit Google Analytics-Berichten vertraut sind, finden dieses Layout möglicherweise bereits.
-* **Der Analysis Workspace** ist die empfohlene empfohlene Methode zum Ziehen der meisten Berichte. Im linken Menü kann der Benutzer Komponenten per Drag &amp; Drop erstellen, um einen eigenen Bericht zu erstellen. Es ermöglicht viel mehr Freiheit, exakte Berichterstellungsanforderungen zu erfüllen. Benutzer, die mit dem Erstellen von Google Analytics-Dashboards und benutzerdefinierten Berichten vertraut sind, finden dieses Layout möglicherweise bereits.
+* **Reports &amp; Analysen** ist die historische Methode, um grundlegende Berichte zu erstellen. Das Menü auf der linken Seite enthält eine Liste vordefinierter Berichte, die es dem Benutzer ermöglicht, zu einem gewünschten Bericht zu navigieren und Daten abzurufen. Segmente und Metriken können zusätzliche Anpassungen bereitstellen. Benutzer mit Erfahrung mit Google Analytics-Berichten finden dieses Layout möglicherweise vertraut.
+* **Der Arbeitsbereich** für Analysen ist die derzeit empfohlene Methode, um die meisten Berichte abzurufen. Im linken Menü können Benutzer Komponenten per Drag &amp; Drop verschieben, um einen eigenen Bericht zu erstellen. Sie ermöglicht viel mehr Freiheit, um den genauen Berichterstattungsanforderungen zu entsprechen. Benutzer, die mit der Erstellung von Google Analytics-Dashboards und benutzerspezifischen Berichten vertraut sind, kennen dieses Layout möglicherweise.
 
-Die meisten Berichte können sowohl in Reports &amp; Analysen als auch in Analysis Workspace erstellt werden. Einige Berichte können jedoch nur über eine Plattform oder eine andere abgerufen werden. In den meisten Fällen empfiehlt Adobe die Verwendung von Analysis Workspace, es sei denn, eine bestimmte Funktion ist nur in Reports &amp; Analysen verfügbar.
+Die meisten Berichte können sowohl in Reports &amp; Analysen als auch im Analysis Workspace erstellt werden. Einige Berichte können jedoch nur auf der einen oder anderen Plattform abgerufen werden. In den meisten Fällen empfiehlt Adobe die Verwendung des Analysis Workspace, es sei denn, eine bestimmte Funktion ist nur in Reports &amp; Analysen verfügbar.
 
 ## Empfohlener Lernpfad
 
-Adobe empfiehlt die ersten Schritte zum Erhalt von Berichtsdaten:
+Adobe empfiehlt, mit den absoluten Grundlagen des Abrufs von Berichtsdaten zu beginnen:
 
-* [Erstellen Sie einen grundlegenden Bericht im Analysis Workspace für GA-Benutzer.](reports/create-report.md)
+* [Basisbericht in Analysis Workspace für GA-Anwender erstellen](reports/create-report.md)
 
-Sobald Sie mit Komponenten im Analysis Workspace vertraut sind, erfahren Sie, wie Sie die meisten Berichte mithilfe der richtigen Komponenten neu erstellen.
+Sobald Sie sich mit den Komponenten im Arbeitsbereich für Analysen vertraut gemacht haben, können Sie lernen, wie die meisten Berichte mithilfe der richtigen Komponenten neu erstellt werden.
 
-* [Echtzeitberichte in Adobe Analytics erstellen](reports/realtime-reports.md)
+* [Erstellen von Echtzeitberichten in Adobe Analytics](reports/realtime-reports.md)
 * [Erstellen von Zielgruppenberichten in Adobe Analytics](reports/audience-reports.md)
-* [Erstellen von Akquise-Berichten in Adobe Analytics](reports/acquisition-reports.md)
+* [Akquise-Berichte in Adobe Analytics erstellen](reports/acquisition-reports.md)
 * [Erstellen von Verhaltensberichten in Adobe Analytics](reports/behavior-reports.md)
-* [Erstellen von Konversionsberichten in Adobe Analytics](reports/conversions-reports.md)
+* [Konversionsberichte in Adobe Analytics erstellen](reports/conversions-reports.md)
 
-After learning to pull reports, understanding [processing and architecture differences](processing-differences.md) can help reconcile the different numbers obtained between platforms. [Eine FAQ](faq.md) ist ebenfalls verfügbar.
+Nachdem Sie gelernt haben, Berichte abzurufen, können Sie mithilfe des Verständnisses von [Verarbeitungs- und Architekturunterschieden](processing-differences.md) die unterschiedlichen Zahlen, die zwischen den Plattformen erzielt wurden, miteinander in Einklang bringen. Eine [FAQ](faq.md) steht ebenfalls zur Verfügung.
