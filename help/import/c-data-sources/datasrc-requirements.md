@@ -8,7 +8,7 @@ title: Anforderungen und Upload-Beschränkungen
 topic: Entwickler und Implementierung
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data
 
 In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data Sources und für in Marketing Reports &amp; Analysen importierte Daten gelten.
 
-* [Größenbeschränkungen](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [Datum](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [Allgemein](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
-* [Multibyte-Unterstützung](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [Hochladen von Webprotokolldateien](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [Größenbeschränkungen](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [Datum](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [Allgemein](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [Multibyte-Unterstützung](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
+* [Hochladen von Webprotokolldateien](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## Größenbeschränkungen {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -43,7 +43,7 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 
 * Wenn Sie eine Data Sources-Datei hochladen, führt Data Sources eine grundlegende Datenvalidierung durch, um sicherzustellen, dass die Datei keine Formatierungsfehler enthält. Wenn in einer Datei ein Fehler erkannt wird, wird eine E-Mail-Benachrichtigung gesendet und die Verarbeitung wird gestoppt.
 * Datenfelder dürfen keine Semikolons enthalten. Data Sources überspringt Datensätze, die ein Semikolon enthalten.
-* Daten aus Webprotokollen, Traffic- und einige generische Data Sources-Gruppen stehen nicht in Data Warehouse oder Discover zur Verfügung. Weitere Informationen finden Sie unter [Datentypen und -kategorien](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* Daten aus Webprotokollen, Traffic- und einige generische Data Sources-Gruppen stehen nicht in Data Warehouse oder Discover zur Verfügung. Weitere Informationen finden Sie unter [Datentypen und -kategorien](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Data Sources unterstützt keine serialisierten Ereignisse.
 
 ## Multibyte-Unterstützung {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ Data Sources unterstützt Multibyte-Codierung. Data Sources versucht, das Format
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Unterstützt. Für die mit Data Sources verwendete Report Suite muss die Unterstützung für Multibyte-Zeichen aktiviert werden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">Neue Report Suite</a> in der Hilfe. </p> </td> 
+   <td colname="col2"> <p>Unterstützt. Für die mit Data Sources verwendete Report Suite muss die Unterstützung für Multibyte-Zeichen aktiviert werden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >Neue Report Suite</a> in der Hilfe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 mit Byte Order Mark (EF BB BF) </td> 
