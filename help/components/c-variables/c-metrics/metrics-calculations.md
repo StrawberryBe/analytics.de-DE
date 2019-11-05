@@ -5,9 +5,9 @@ seo-title: Metrikberechnungen
 solution: Analytics
 title: Metrikberechnungen
 topic: Metriken
-uuid: 2 af 58 f 1 e -12 c 5-4828-ae 39-c 9 aeaef 6 b 705
+uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -34,11 +34,11 @@ Metriken werden nach den Methoden „Standard“, Beitrag, „Zuletzt“ und „
   </tr> 
   <tr> 
    <td colname="col1"> Linear </td> 
-   <td colname="col2"> <p>Wenn die lineare Zuordnung ausgewählt ist, werden die Erfolgserlebnisse gleichmäßig auf alle Variablenwerte im Besuch aufgeteilt. Bei numerischen Ereignissen und bei Währungsereignissen, beispielsweise <span class="term"> Umsatz</span>wird der Geldbetrag aufgeteilt. For counter events such as <span class="term"> Orders</span>, a fraction of the event is awarded to each variable value in the visit. Diese Bruchteile werden bei der Berichterstellung summiert und dann auf die nächste Ganzzahl gerundet. </p> <p>Beispiel: Wenn bei einem Besuch vier Seiten aufgerufen werden, bevor ein Erfolgsereignis eintritt, erhält jede Seite eine Gutschrift von 25 % für das Ereignis. Falls <span class="varname"> -kampagne</span> zwei Werte enthielt, würde jeder Kampagnenwert 50% der Gutschrift für das Ereignis erhalten. </p> </td> 
+   <td colname="col2"> <p>Wenn die lineare Zuordnung ausgewählt ist, werden die Erfolgserlebnisse gleichmäßig auf alle Variablenwerte im Besuch aufgeteilt. Bei numerischen Ereignissen und bei Währungsereignissen, beispielsweise <span class="term"> Revenue</span>, the monetary amount is divided. Bei Zählerereignissen wie <span class="term"> Bestellungen</span>wird jedem Variablenwert des Besuchs ein Bruchteil des Ereignisses zugewiesen. Diese Bruchteile werden bei der Berichterstellung summiert und dann auf die nächste Ganzzahl gerundet. </p> <p>Beispiel: Wenn bei einem Besuch vier Seiten aufgerufen werden, bevor ein Erfolgsereignis eintritt, erhält jede Seite eine Gutschrift von 25 % für das Ereignis. Falls Die <span class="varname"> Kampagne</span> hatte zwei Werte. Jeder Kampagnenwert erhält 50 % der Gutschrift für das Ereignis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Beitrag </td> 
-   <td colname="col2"> <p>Schreibt den Erfolg jedem Variablenwert gut, der zu einem Erfolgsereignis bei einem Besuch beigetragen hat. Diese Berechnung kann auch übergreifend auf mehrere Besuchersitzungen angewandt werden, wenn Sie besuchsübergreifende Beitragsmetriken verwenden. </p> <p>Siehe <a href="../../../components/c-variables/c-metrics/metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477" format="dita" scope="local"> Beitrag</a> finden Sie weitere Informationen. </p> </td> 
+   <td colname="col2"> <p>Schreibt den Erfolg jedem Variablenwert gut, der zu einem Erfolgsereignis bei einem Besuch beigetragen hat. Diese Berechnung kann auch übergreifend auf mehrere Besuchersitzungen angewandt werden, wenn Sie besuchsübergreifende Beitragsmetriken verwenden. </p> <p>Siehe <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Beitrag</a> finden Sie weitere Informationen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ Metriken werden nach den Methoden „Standard“, Beitrag, „Zuletzt“ und „
 
 Angenommen, Ihre Site bietet eine interne Suche, die mithilfe einer Konversionsvariable (eVar) nachverfolgt wird. Der Benutzer führt mehrere interne Suchvorgänge durch und kauft dann Waren im Wert von $100 ein:
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; $ 100 Einkauf
+*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; 100 $ Einkauf
 
 Die Gutschrift wird im Bericht wie folgt zugeordnet:
 
