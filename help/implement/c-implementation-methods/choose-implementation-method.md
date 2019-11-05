@@ -8,7 +8,7 @@ title: Implementierungsmethode auswählen
 topic: Entwickler und Implementierung
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,11 +35,11 @@ Das [!UICONTROL Dynamic Tag Management ] automatisiert einen Großteil der Detai
 Es ist nützlich, sich mit JavaScript vertraut zu machen und grundlegende Analytics-Terminologie zu verstehen, z. B.
 
 * was [eVars](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) sind und wie sie funktionieren;
-* Verwenden eines [benutzerspezifischen Ereignisses](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* Verwenden eines [benutzerspezifischen Ereignisses](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)
 
 Weitere Informationen für den Zugriff auf das Dynamic Tag Management und dessen Verwendung finden Sie unter [Einstieg](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) in der Produktdokumentation für das Dynamic Tag Management.
 
-Weitere Informationen finden Sie unter [Implementieren von Analytics mit Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
+Weitere Informationen finden Sie unter [Implementieren von Analytics mit Dynamic Tag Management](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -50,4 +50,4 @@ Die JavaScript-Implementierung erfordert:
 * umfassende JavaScript-Kenntnisse
 * ein solides Verständnis der Konzepte und der Terminologie von Analytics
 
-Weitere Informationen finden Sie unter [Analytics mit JavaScript implementieren ](../../implement/js-implementation/javascript-implementation-overview.md)
+Weitere Informationen finden Sie unter [Analytics mit JavaScript implementieren ](/help/implement/js-implementation/javascript-implementation-overview.md)
