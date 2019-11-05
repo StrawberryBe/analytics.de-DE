@@ -8,7 +8,7 @@ title: Benutzer und Produkte verwalten
 topic: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,11 +33,11 @@ Verwalten Sie Analytics-Benutzer, -Gruppen und -Produkte in der Admin Console.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics Benutzer-IDs in die Admin Console migrieren </p> </td> 
-   <td colname="col2"> <p> Adobe unterstützt Analytics-Administratoren bei der Migration von Benutzer-IDs in die Admin Console. Dieser Ansatz erfolgt in Wellen. Wenn Sie mit dem Migrieren Ihrer Benutzer an der Reihe sind, benachrichtigt Adobe die Analytics-Administratoren per E-Mail mit entsprechenden Anweisungen. Zu diesem Zeitpunkt ist ein <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html" format="html" scope="external">Migrationstool</a> in der Analytics-Benutzerverwaltung verfügbar, um diese Aufgabe zu vereinfachen. </p> <p>Wichtig: Am Tag der Benutzermigration werden Ihre vorherigen Berechtigungsgruppen automatisch in die Admin Console kopiert. Sie können dann in den Analytics Admin Tools keine Benutzer mehr einladen oder neue Gruppen erstellen. Lesen Sie die häufig gestellten Fragen und die Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="https" scope="external">Analytics-Benutzermigration zur Admin Console</a>, um Informationen zur Vorbereitung der Migration und über betroffene administrative Funktionen zu erhalten. </p> </td> 
+   <td colname="col2"> <p> Adobe unterstützt Analytics-Administratoren bei der Migration von Benutzer-IDs in die Admin Console. Dieser Ansatz erfolgt in Wellen. Wenn Sie mit dem Migrieren Ihrer Benutzer an der Reihe sind, benachrichtigt Adobe die Analytics-Administratoren per E-Mail mit entsprechenden Anweisungen. Zu diesem Zeitpunkt ist ein <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">Migrationstool</a> in der Analytics-Benutzerverwaltung verfügbar, um diese Aufgabe zu vereinfachen. </p> <p>Wichtig: Am Tag der Benutzermigration werden Ihre vorherigen Berechtigungsgruppen automatisch in die Admin Console kopiert. Sie können dann in den Analytics Admin Tools keine Benutzer mehr einladen oder neue Gruppen erstellen. Lesen Sie die häufig gestellten Fragen und die Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics-Benutzermigration zur Admin Console</a>, um Informationen zur Vorbereitung der Migration und über betroffene administrative Funktionen zu erhalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console starten </p> </td> 
-   <td colname="col2"> <p>Nachdem die Benutzerkonten migriert wurden, können Sie Benutzer und Produkte über alle Lösungen hinweg in der Admin Console verwalten. </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#" format="html" scope="external"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Hilfe finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external">Experience Cloud-Benutzer und-Produkte verwalten</a>. Dort sind Aktualisierungen in der Verwaltung von Experience Cloud-Benutzern und -Produkten in der Admin Console zu finden. </p> </td> 
+   <td colname="col2"> <p>Nachdem die Benutzerkonten migriert wurden, können Sie Benutzer und Produkte über alle Lösungen hinweg in der Admin Console verwalten. </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Hilfe finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Experience Cloud-Benutzer und-Produkte verwalten</a>. Dort sind Aktualisierungen in der Verwaltung von Experience Cloud-Benutzern und -Produkten in der Admin Console zu finden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Neuen Benutzer hinzufügen</span> </td> 
-   <td colname="col2"> <p>Hier können Sie ein Benutzerkonto zum Unternehmen hinzufügen. Dieser Link steht nur zur Verfügung, wenn die Anzahl der verbleibenden Benutzeranmeldungen größer als 0 ist. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Benutzer</a>. </p> </td> 
+   <td colname="col2"> <p>Hier können Sie ein Benutzerkonto zum Unternehmen hinzufügen. Dieser Link steht nur zur Verfügung, wenn die Anzahl der verbleibenden Benutzeranmeldungen größer als 0 ist. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md"> Benutzer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bericht herunterladen</span> </td> 
@@ -76,7 +76,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Anmelden</span> </td> 
-   <td colname="col2"> <p>Der Benutzername. Durch einen Klick auf den Benutzernamen können Sie die Eigenschaften des Benutzerkontos ändern. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Benutzer</a>. </p> </td> 
+   <td colname="col2"> <p>Der Benutzername. Durch einen Klick auf den Benutzernamen können Sie die Eigenschaften des Benutzerkontos ändern. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md"> Benutzer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Vorname</span> </td> 
@@ -112,7 +112,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bearbeiten</span> </td> 
-   <td colname="col2"> <p>Bearbeiten Sie die Kontoeinstellungen. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Benutzer</a>. </p> </td> 
+   <td colname="col2"> <p>Bearbeiten Sie die Kontoeinstellungen. </p> <p>Siehe <a href="/help/admin/user-management2/c-user-management/users.md"> Benutzer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Löschen</span> </td> 
@@ -120,7 +120,7 @@ In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL „
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Übertragen</span> </td> 
-   <td colname="col2">Weisen Sie die Rechte (Berechtigungen und Ressourcenzugriff) eines Benutzerkontos einem anderen Konto zu. <p>Siehe <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> Übertragen von Benutzerkontorechten</a>. </p> </td> 
+   <td colname="col2">Weisen Sie die Rechte (Berechtigungen und Ressourcenzugriff) eines Benutzerkontos einem anderen Konto zu. <p>Siehe <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Übertragen von Benutzerkontorechten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Als dieser Benutzer anmelden</span> </td> 
