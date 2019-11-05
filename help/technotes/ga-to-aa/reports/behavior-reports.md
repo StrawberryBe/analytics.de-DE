@@ -1,87 +1,87 @@
 ---
 title: Verhaltensberichte in Adobe Analytics
-description: Erfahren Sie, wie Sie Verhaltensberichte in Adobe Analytics erstellen.
+description: Erfahren Sie, wie Sie Verhaltensberichte in Adobe Analytics erstellen
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
 # Verhaltensberichte
 
-Verhaltensberichte zeigen Informationen darüber an, wie Benutzer mit Ihrer Site interagieren.
+Verhaltensberichte zeigen Informationen zur Interaktion der Benutzer mit Ihrer Site an.
 
-Diese Seite geht davon aus, dass der Benutzer über grundlegende Kenntnisse zur Verwendung des Analysis Workspace verfügt. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+Auf dieser Seite wird davon ausgegangen, dass der Benutzer über grundlegende Kenntnisse in der Verwendung des Analysis Workspace verfügt. Siehe [Erstellen eines einfachen Berichts im Analysis Workspace für Google Analytics-Benutzer](create-report.md) , wenn Sie mit dem Tool in Adobe Analytics noch nicht vertraut sind.
 
 ## Verhaltensfluss
 
-Der Flussflussbericht kann mithilfe der Flussvisualisierung neu erstellt werden.
+Der Verhaltensflussbericht kann mithilfe der Flussvisualisierung neu erstellt werden.
 
-1. Klicken Sie links auf das Visualisierungssymbol und ziehen Sie eine Flussvisualisierung auf den Arbeitsbereich oberhalb der Freiformtabelle.
-2. Locate the **Page** dimension, then click the Arrow icon to reveal page values. Dimensionswerte sind gelb farbig.
-3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den Bereich mit der Bezeichnung "Dimension oder Element" in der Mitte.
-4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um die Flüsse auf die nachfolgenden oder vorherigen Seiten zu erweitern. Verwenden Sie das Rechtsklick-Menü, um Spalten zu erweitern oder zu minimieren. Innerhalb desselben Flussberichts können auch unterschiedliche Dimensionen verwendet werden.
+1. Klicken Sie auf das Symbol Visualisierungen links und ziehen Sie eine Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle
+2. Suchen Sie die Dimension " **Seite** "und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionswerte sind gelb.
+3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den Bereich mit der Bezeichnung "Dimension oder Element"in der Mitte
+4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
 
-![Flussbericht](../assets/flow.png)
+![Flussbericht](/help/technotes/ga-to-aa/assets/flow.png)
 
 ## Site-Inhalt - Alle Seiten
 
-Der Seitenbericht zeigt die Leistung einzelner Seiten auf Ihrer Site.
+Der Seitenbericht zeigt die Leistung einzelner Seiten auf Ihrer Site an.
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Menü "Komponenten"die Dimension " **Seiten** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-Alternativ stellt Adobe verschiedene vorgefertigte Arbeitsbereiche bereit, die Vorlagen genannt werden. Die Inhaltskonsum-Vorlage (Web) bietet einen ähnlichen Wert wie den gesamten Seitenbericht.
+Als Alternative bietet Adobe mehrere vordefinierte Arbeitsbereiche, die als Vorlagen bezeichnet werden. Die Vorlage "Inhaltskonsum (Web)"bietet einen ähnlichen Wert wie der Bericht "Alle Seiten".
 
-1. Click *[!UICONTROL Project]&gt;[!UICONTROL New]*, which opens a modal window with project options.
-2. Klicken Sie auf die Inhaltskonsum-Vorlage (Web) und anschließend auf Erstellen.
+1. Klicken Sie auf *[!UICONTROL Projekt]&gt;[!UICONTROL Neu]*, um ein modales Fenster mit Projektoptionen zu öffnen.
+2. Klicken Sie auf die Vorlage Inhaltskonsum (Web) und dann auf Erstellen.
 
-## Site-Inhalt - Inhaltsdrilldown
+## Site-Content - Content-Drilldown
 
-Mit dem Drilldown-Bericht können Sie einen Blick auf den Seitenverkehr nach URL-Struktur werfen. Zusätzliche Implementierungen sind für die Verwendung in Analysis Workspace erforderlich. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten genau erfasst werden.
+Mit dem Bericht zur Inhaltsauswertung können Sie sich den Seitenverkehr nach URL-Struktur ansehen. Für die Verwendung im Analysis Workspace ist eine zusätzliche Implementierung erforderlich. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten korrekt erfasst werden.
 
 ## Site-Inhalt - Einstiegsseiten
 
-Der Einstiegsseitenbericht zeigt die Top-Landingpages auf Ihrer Site an. Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
+Der Einstiegsseitenbericht zeigt die obersten Einstiegsseiten Ihrer Site an. Einstiegsseiten sind im Arbeitsbereich für Analysen als **Einstiegsseiten** verfügbar.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Menü "Komponenten"die Dimension " **Entrypage** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-Adobe recommends using the **Visits** metric for this dimension.
+Adobe empfiehlt die Verwendung der Metrik **Besuche** für diese Dimension.
 
 ## Site-Inhalt - Ausstiegsseiten
 
-Der Ausstiegsseitenbericht zeigt die Top-Seiten an, die zur letzten Seite eines individuellen Besuchs geworden sind. Sie ist im Analysis Workspace unter demselben Namen verfügbar.
+Der Bericht zu Ausstiegsseiten zeigt die obersten Seiten an, die die letzte Seite eines individuellen Besuchs wurden. Es ist in Analysis Workspace unter demselben Namen verfügbar.
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Suchen Sie im Menü "Komponenten"die Dimension " **Ausstiegsseite** "und ziehen Sie sie in den großen Freiform-Tabellenbereich mit der Bezeichnung "Dimension hier ablegen".
+2. Ziehen Sie die gewünschten Metriken neben der automatisch erstellten Metrik " **Vorfälle** "in den Arbeitsbereich. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im Handbuch[ zur ](common-metrics.md)Metrikübersetzung.
 
-Adobe recommends using the **Visits** metric for this dimension.
+Adobe empfiehlt die Verwendung der Metrik **Besuche** für diese Dimension.
 
 ## Site-Geschwindigkeitsberichte
 
-Site-Geschwindigkeitsberichte zeigen, wie schnell Seiten geladen werden, und zeigt Gelegenheiten zur Steigerung Ihrer Seitenladezeiten.
+Site-Geschwindigkeitsberichte zeigen, wie schnell Seiten geladen werden. Sie zeigen Möglichkeiten, die Seitenladezeit zu erhöhen.
 
-Diese Funktion erfordert zusätzliche Implementierungen auf beiden Plattformen; Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten für den Analysis Workspace richtig konfiguriert wurden. The [Performance Timing plugin](../../../implement/js-implementation/plugins/performancetiming.md) is typically assigned to an eVar to obtain performance data in Adobe Analytics.
+Diese Funktion erfordert eine zusätzliche Implementierung auf beiden Plattformen. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten korrekt für den Analysis Workspace konfiguriert sind. Das [Leistungszeitmodul](/help/implement/js-implementation/plugins/performancetiming.md) wird normalerweise einer eVar zugewiesen, um Leistungsdaten in Adobe Analytics abzurufen.
 
 ## Site-Suchberichte
 
 Site-Suchberichte bieten einen Einblick, wie Besucher die internen Suchfunktionen Ihrer Site nutzen.
 
-Diese Funktion erfordert zusätzliche Implementierungen auf beiden Plattformen; Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten für den Analysis Workspace richtig konfiguriert wurden. Normalerweise wird ein interner Suchbegriff aus einem Abfragezeichenfolgenparameter gezogen und in eine evar für die Berichterstellung eingefügt.
+Diese Funktion erfordert eine zusätzliche Implementierung auf beiden Plattformen. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten korrekt für den Analysis Workspace konfiguriert sind. In der Regel wird ein interner Suchbegriff aus einem Abfragezeichenfolgenparameter gezogen und zur Berichterstellung in eine eVar eingefügt.
 
 ## Ereignisberichte
 
-Ereignisse haben wesentliche strukturelle Unterschiede zwischen Google und Adobe Analytics. Beide erfordern zusätzliche Implementierungsänderungen, damit sie auf ihrer jeweiligen Plattform ordnungsgemäß funktionieren.
+Ereignisse weisen einige große strukturelle Unterschiede zwischen Google und Adobe Analytics auf. Beide erfordern zusätzliche Implementierungsänderungen, damit sie auf der jeweiligen Plattform ordnungsgemäß funktionieren.
 
-* In Google Analytics werden Ereignisse in Ihrer Implementierung als Text definiert. Ereignisse verfügen über Kategorien, Aktionen und Beschriftungen.
-* In Adobe Analytics werden Ereignisse zuerst in der Admin-Konsole eingerichtet, wo ihnen ein Bezeichner zugewiesen wird. Diese Kennung wird im Implementierungscode verwendet. Beispiel:
-   1. Sie können event 1 in der Admin-Konsole als "Registrierungen" festlegen.
-   2. In Ihrer Implementierung würden Sie event 1 in die Variable "events" auf der Registrierungsbestätigungsseite einbeziehen. Jedes Mal, wenn die Registrierungsbestätigungsseite angezeigt wird, erhöht sich event 1.
-   3. In Analysis Workspace wird "Registrierungen" als Metrik für die Verwendung in einem beliebigen Bericht angezeigt.
+* In Google Analytics werden Ereignisse in Ihrer Implementierung als Text definiert. Ereignisse haben Kategorien, Aktionen und Bezeichnungen.
+* In Adobe Analytics werden Ereignisse zuerst in der Admin-Konsole eingerichtet, der eine ID zugewiesen wurde. Diese Kennung wird im Implementierungscode verwendet. Beispiel:
+   1. Sie können event1 in der Admin-Konsole als "Registrierungen"festlegen.
+   2. In Ihrer Implementierung würden Sie event1 in die Ereignisvariable auf der Registrierungsbestätigungsseite aufnehmen. Jedes Mal, wenn die Registrierungsbestätigungsseite angezeigt wird, steigt event1.
+   3. Im Arbeitsbereich für Analysen erscheint "Registrierungen"als Metrik zur Verwendung in einem beliebigen Bericht.
 
-Da diese Funktion Implementierungsänderungen erfordert, empfiehlt Adobe die Zusammenarbeit mit einem Implementierungsberater, um sicherzustellen, dass die Daten für den Analysis Workspace richtig konfiguriert wurden.
+Da für diese Funktion Implementierungsänderungen erforderlich sind, empfiehlt Adobe, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass die Daten für den Analysis Workspace korrekt konfiguriert sind.
 
 ## Publisher-Berichte
 
-Ähnlich wie Google für eine Verbindung mit Google Ad Manager bietet Adobe ein dediziertes Produkt, das Einblicke in die Adobe Advertising Cloud bietet. Wenn Ihr Unternehmen an der Nutzung dieses Produkts interessiert ist, wenden Sie sich an den Kundenbetreuer Ihrer Organisation.
+Ähnlich wie Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein spezielles Produkt zur Bereitstellung von Insight, die Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens.
