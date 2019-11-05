@@ -9,7 +9,7 @@ title: Besucher
 topic: Entwickler und Implementierung
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 In Analytics wird jede einzelne Besucher-ID als ein Unique Visitor gezählt.
 
-Wenn Sie sich die [vorherige Tabelle](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA) ansehen, ist dies dreimal passiert: bei den Treffern 1, 9 und 10. Der Grund dafür ist der, dass bei beiden Server-Aufrufen die gleiche [!UICONTROL Besucher-ID] vorlag, obwohl beide Besuche von unterschiedlichen Geräten aus und im Abstand mehrerer Stunden erfolgten.
+Wenn Sie sich die [vorherige Tabelle](/help/implement/js-implementation/xdevice-visid/visit-example.md) ansehen, ist dies dreimal passiert: bei den Treffern 1, 9 und 10. Der Grund dafür ist der, dass bei beiden Server-Aufrufen die gleiche [!UICONTROL Besucher-ID] vorlag, obwohl beide Besuche von unterschiedlichen Geräten aus und im Abstand mehrerer Stunden erfolgten.
 
 Dadurch kann sich die Zahl Unique Visitors erhöhen, wenn die geräteübergreifende Identifizierung aktiviert ist. So kann ein Besucher gleich doppelt gezählt werden: Das erste Mal bei seinem ursprünglichen Besuch, und das zweite Mal nach seiner Authentifizierung.
 
