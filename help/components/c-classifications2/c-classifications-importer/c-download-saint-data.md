@@ -8,7 +8,7 @@ title: Klassifizierungsvorlage
 topic: Admin Tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 |---|---|
 | Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage genutzt werden soll. Report Suite und Datensatz müssen übereinstimmen. |
 | Datensatz, der klassifiziert werden soll | Wählen Sie den Typ der Daten für die Datendatei aus. Das Menü enthält alle Berichte aus Ihren Report Suites, die für Classifications konfiguriert sind. |
-| Nummerisch exportieren 2 | Mit dem Importeur können Sie Nummerisch-2-Classifications in das System importieren. Nummerisch-2-Classifications sind für Variablen sinnvoll, die sich im Laufe der Zeit für verschiedene Artikel bzw. Einheiten ändern, z. B. Kosten und Budgetwerte im [!UICONTROL Marketingkanal]bericht. Unter [Numerisch-2-Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) für Informationen zum Hochladen von Daten mit Numerisch-2-Classifications. |
+| Nummerisch exportieren 2 | Mit dem Importeur können Sie Nummerisch-2-Classifications in das System importieren. Nummerisch-2-Classifications sind für Variablen sinnvoll, die sich im Laufe der Zeit für verschiedene Artikel bzw. Einheiten ändern, z. B. Kosten und Budgetwerte im [!UICONTROL Marketingkanal]bericht. Unter [Numerisch-2-Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) für Informationen zum Hochladen von Daten mit Numerisch-2-Classifications. |
 | Kodierung | Wählen Sie die Zeichenkodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet. |
 | Download | Lädt die Vorlagendatei herunter. |
 
@@ -35,7 +35,7 @@ Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschr
 
 > [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
 
-Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu Classification-Datendateien](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu Classification-Datendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 ## Herunterladen einer Classification-Datenvorlage (optional) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -44,7 +44,7 @@ Die Vorlage liefert das Dateiformat, das für Classifications genutzt werden mus
 > [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Daten auf eine einzige Report Suite.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Legen Sie unter der Registerkarte **Vorlage herunterladen** die Konfiguration für die [-Datenvorlage fest](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+1. Legen Sie unter der Registerkarte **Vorlage herunterladen** die Konfiguration für die [-Datenvorlage fest](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 1. Speichern Sie die Vorlagendatei auf Ihrem lokalen System.
 
