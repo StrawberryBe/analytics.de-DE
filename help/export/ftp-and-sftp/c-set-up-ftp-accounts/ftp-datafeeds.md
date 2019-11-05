@@ -7,7 +7,7 @@ solution: Analytics
 title: Data Feeds
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ Wenn Sie Adobe Data Warehouse und [!UICONTROL Standard Data Feeds] erworben habe
 
 Wenn ein FTP-Konto voll ist, müssen Sie die vorhandenen Dateien herunterladen und entfernen und Adobe mitteilen, dass der Speicher wieder frei ist. Adobe kann dann nicht ausgelieferte Dateien erneut senden. Einige Werkzeuge, z. B. Data Warehouse, erlauben dem Benutzer das erneute Senden der betroffenen Dateien. Hier ist für das erneute Senden kein Eingreifen von Adobe erforderlich. Falls Ihr FTP-Konto häufig voll ist, wenden Sie sich an die Adobe-Kundenunterstützung, um sich über Zustellungsalternativen zu informieren, wozu die Vergrößerung des FTP-Speichers und die Erhöhung der Dateigrenze für das Konto gehören.
 
-Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)
+Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md)
