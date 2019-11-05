@@ -1,18 +1,18 @@
 ---
 description: Report Suite-Vorlagen konfigurieren die häufigsten Einstellungen für verschiedene Arten von Report Suites.
 seo-description: Report Suite-Vorlagen konfigurieren die häufigsten Einstellungen für verschiedene Arten von Report Suites.
-seo-title: Report Suite-Vorlagen - Überblick
+seo-title: Übersicht über Report Suite-Vorlagen
 solution: Analytics
-title: Report Suite-Vorlagen - Überblick
+title: Übersicht über Report Suite-Vorlagen
 topic: Admin Tools
-uuid: 5717863 f -208 d -44 b 5-8 bc 5-c 286 beccf 8 ff
+uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Report Suite-Vorlagen - Überblick
+# Übersicht über Report Suite-Vorlagen
 
 Report Suite-Vorlagen konfigurieren die häufigsten Einstellungen für verschiedene Arten von Report Suites.
 
