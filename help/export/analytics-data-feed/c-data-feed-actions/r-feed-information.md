@@ -1,13 +1,13 @@
 ---
 description: Im Abschnitt „Feed-Informationen“ können Sie den Feed benennen, die Report Suite angeben, für die der Feed ausgeführt werden soll, die Feed-Wiederholung bestimmen und angeben, wann der Feed startet und endet.
-keywords: Datenfeed; Information; name; Report Suite; E-Email nach Abschluss des VorgangsE-Email; Intervall; Feed; Verarbeitung verzögern; delay; start; end; date; Kontinuierlicher Feed
+keywords: Datenfeed;Informationen;Name;Report Suite;E-Mail bei Abschluss;E-Mail;Intervall;Feed;Verzögerung der Verarbeitung;Verzögerung;Start;Ende;Datum;kontinuierlicher Feed
 seo-description: Im Abschnitt „Feed-Informationen“ können Sie den Feed benennen, die Report Suite angeben, für die der Feed ausgeführt werden soll, die Feed-Wiederholung bestimmen und angeben, wann der Feed startet und endet.
 seo-title: Feed-Informationen
 solution: Analytics
 title: Feed-Informationen
-uuid: adf 92 f 42-a 957-4 de 0-a 5 a 1-683 f 2933 af 04
+uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -32,7 +32,7 @@ Im Abschnitt „Feed-Informationen“ können Sie den Feed benennen, die Report 
   </tr>
   <tr>
    <td colname="col1"> <p>Report Suite (erforderlich) </p> </td>
-   <td colname="col2"> <p>Geben Sie die Report Suites für die Feed-Abfrage an. </p> <p>Es muss mindestens eine Report Suite ausgewählt werden. Sie können dieselbe Report Suite nicht zweimal angeben. </p> <p>Alle für den angemeldeten Benutzer verfügbaren nicht Virtual Report Suites sind verfügbar. </p></td>
+   <td colname="col2"> <p>Geben Sie die Report Suites für die Feed-Abfrage an. </p> <p>Es muss mindestens eine Report Suite ausgewählt werden. Sie können dieselbe Report Suite nicht zweimal angeben. </p> <p>Alle nicht-virtuellen Report Suites, die dem angemeldeten Benutzer zur Verfügung stehen, sind verfügbar. </p></td>
   </tr>
   <tr>
    <td colname="col1"> <p>E-Mail bei Abschluss versenden (erforderlich) </p> </td>
