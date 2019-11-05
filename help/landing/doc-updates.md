@@ -5,7 +5,7 @@ seo-title: Aktualisierungen der Adobe Analytics-Dokumentation
 seo-description: Aktualisierungen der Adobe Analytics-Dokumentation
 short-title: Aktualisierungen der Analytics-Dokumentation
 translation-type: tm+mt
-source-git-commit: cfb8f6e33da0ffa3cc99abc6066493e3b7dc5e9d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -22,7 +22,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
-| September 28, 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
+| 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md) |
 | 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/timestamp-optional.md) |
@@ -31,11 +31,11 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 22. Juli 2019 | Magento wurde hinzugefügt: Marketing- und Commerce-Vorlage in der Dokumentation [zu Analysis Workspace-Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18. Juli 2019 | Aktualisierung der [Einstellungen der Kohortentabellen](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
 | 10. Juni 2019 | Neuer Artikel zur [regionalen Datenerfassung (Regional Data Collection, RDC) für China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
-| 4. Juni 2019 | Neues Handbuch mit dem Titel [Transitioning from a third-party analytics platform to Adobe Analytics](../technotes/ga-to-aa/home.md). |
-| 30. Mai 2019 | Aktualisierung von [Data Feed Column Reference](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 11. April 2019 | Aktualisierung von [Optimize Workspace Performance](../analyze/analysis-workspace/optimizing-performance.md). |
-| 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](../technotes/rdc/regional-data-collection.md). |
-| 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [General Account Settings](../admin/admin/general-acct-settings-admin.md). |
-| 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/js-implementation/plugins/getpercentpageviewed.md). |
-| 17. Januar 2019 | Neue Projekteinstellung im Analysis Workspace namens [View Density](../analyze/analysis-workspace/build-workspace-project/view-density.md). |
-| 17. Januar 2019 | Umfassende Aktualisierung von [Cohort Analysis](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
+| 4. Juni 2019 | Neues Handbuch mit dem Titel [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
+| 30. Mai 2019 | Aktualisierung von [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| 11. April 2019 | Aktualisierung von [Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md). |
+| 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](/help/technotes/rdc/regional-data-collection.md). |
+| 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md). |
+| 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md). |
+| 17. Januar 2019 | Neue Projekteinstellung im Analysis Workspace namens [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
+| 17. Januar 2019 | Umfassende Aktualisierung von [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
