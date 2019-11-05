@@ -7,7 +7,7 @@ title: Zeitplan-Manager
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,7 +22,7 @@ Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstell
 
 > [!NOTE] Wenn ein Benutzerkonto deaktiviert ist, werden alle geplanten Berichtauslieferungen, die von diesem Benutzer erstellt wurden, ausgesetzt.
 
-Um sicherzustellen, dass Zeilenelemente in einer Aufschlüsselung in gespeicherten und geplanten Berichten persistent sind, verwenden Sie die Funktion Elemente **[!UICONTROL bearbeiten]** im [Tabellenaufbau](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) , um feste Dimensionslisten in Aufschlüsselungen zu erstellen.
+Um sicherzustellen, dass Zeilenelemente in einer Aufschlüsselung in gespeicherten und geplanten Berichten persistent sind, verwenden Sie die Funktion Elemente **[!UICONTROL bearbeiten]** im [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) , um feste Dimensionslisten in Aufschlüsselungen zu erstellen.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Sie können die derzeit im Bericht angezeigten Informationen an das Format Ihrer
   </tr> 
   <tr> 
    <td colname="col1"> <p> Erweitert </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dateiziel </p> </td> 
