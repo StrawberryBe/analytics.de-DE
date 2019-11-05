@@ -7,7 +7,7 @@ solution: Analytics
 title: Engineering Services-Interaktionen mit FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ Bei vielen Interaktionen der Adobe Engineering Services müssen Daten ausgetausc
 
 Diese Interaktionen betreffen [!UICONTROL DB VISTA] und benutzerdefinierte Projekte.
 
-Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)
+Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md)
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
@@ -26,4 +26,4 @@ Wie beim Hochladen in SAINT über FTP empfängt auch [!UICONTROL DB VISTA] Daten
 
 ## Benutzerdefinierte Interaktionen {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe Engineering Services bietet benutzerdefinierte Projekte, die sowohl FTP als auch SFTP verwenden. Weitere Informationen zu benutzerdefinierten Projekten finden Sie im Beitrag zu den Adobe Engineering Services. Informationen zu SFTP finden Sie unter [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Adobe Engineering Services bietet benutzerdefinierte Projekte, die sowohl FTP als auch SFTP verwenden. Weitere Informationen zu benutzerdefinierten Projekten finden Sie im Beitrag zu den Adobe Engineering Services. Informationen zu SFTP finden Sie unter [Secure File Transfer Protocol](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md).
