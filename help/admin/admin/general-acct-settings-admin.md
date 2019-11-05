@@ -7,7 +7,7 @@ title: Allgemeine Kontoeinstellungen
 topic: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -34,7 +34,7 @@ Diese Einstellungen umfassen Bearbeitungsoptionen für grundlegende Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Basis-URL</span> </td> 
-   <td colname="col2"> <p>Gibt die Hauptwebsite der Report Suite an. Die Basis-URL hat keine Auswirkungen auf die Filterung des Referrers. Verwenden Sie stattdessen <a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local"> interne URL-Filter</a>. </p> </td> 
+   <td colname="col2"> <p>Gibt die Hauptwebsite der Report Suite an. Die Basis-URL hat keine Auswirkungen auf die Filterung des Referrers. Verwenden Sie stattdessen <a href="/help/admin/admin/internal-url-filter-admin.md"> interne URL-Filter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Zeitzone</span> </td> 
@@ -54,11 +54,11 @@ Diese Einstellungen umfassen Bearbeitungsoptionen für grundlegende Report Suit
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP-Verschleierung</span> </td> 
-   <td colname="col2"> <p>Verwandelt IP-Adressen in nicht erkennbare Zeichenketten, was sie letztendlich aus den Adobe Datenspeichern löscht. Wenn die IP-Verschleierung aktiviert ist, geht die ursprüngliche IP-Adresse dauerhaft verloren. </p> <p>Hinweis: Die IP-Adressen werden überall in Analytics verschleiert, auch im Data Warehouse. Die IP-Einstellung in Target wird jedoch separat gesteuert. Diese Einstellung hat also keine Auswirkung auf Target. </p> <p>Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP-Adresse verschleiert wird. Kunden müssen also nichts ändern, wenn sie die IP-Verschleierung aktivieren. </p> <p>Wenn <span class="uicontrol">Deaktiviert</span> ausgewählt wird, bleibt die IP-Adresse in den Daten. </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse verschleiern</span> aktivieren, wird die IP in einen Hash-Wert geändert (z. B. 234abc6493872038). </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse löschen</span> aktivieren, wird die IP-Adresse nach der Geo-Suche in den Daten durch x.x.x.x ersetzt. </p> <p>Hinweis: Diese Einstellung erfordert möglicherweise Änderungen an benutzerdefinierten <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> Bot-Regeln</a> oder<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP-Ausnahmen</a>. </p> </td> 
+   <td colname="col2"> <p>Verwandelt IP-Adressen in nicht erkennbare Zeichenketten, was sie letztendlich aus den Adobe Datenspeichern löscht. Wenn die IP-Verschleierung aktiviert ist, geht die ursprüngliche IP-Adresse dauerhaft verloren. </p> <p>Hinweis: Die IP-Adressen werden überall in Analytics verschleiert, auch im Data Warehouse. Die IP-Einstellung in Target wird jedoch separat gesteuert. Diese Einstellung hat also keine Auswirkung auf Target. </p> <p>Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP-Adresse verschleiert wird. Kunden müssen also nichts ändern, wenn sie die IP-Verschleierung aktivieren. </p> <p>Wenn <span class="uicontrol">Deaktiviert</span> ausgewählt wird, bleibt die IP-Adresse in den Daten. </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse verschleiern</span> aktivieren, wird die IP in einen Hash-Wert geändert (z. B. 234abc6493872038). </p> <p>Wenn Sie <span class="uicontrol">IP-Adresse löschen</span> aktivieren, wird die IP-Adresse nach der Geo-Suche in den Daten durch x.x.x.x ersetzt. </p> <p>Hinweis: Diese Einstellung erfordert möglicherweise Änderungen an benutzerdefinierten <a href="/help/admin/admin/bot-removal/bot-rules.md"> Bot-Regeln</a> oder<a href="/help/admin/admin/exclude-ip.md"  > IP-Ausnahmen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transaktions-ID-Speicher</span> </td> 
-   <td colname="col2"> <p>Ermöglicht die Verwendung von <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external">Transaktions-ID</a>-Data Sources. </p> </td> 
+   <td colname="col2"> <p>Ermöglicht die Verwendung von <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html"  >Transaktions-ID</a>-Data Sources. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Ad Hoc Analysis aktivieren</span> </td> 
