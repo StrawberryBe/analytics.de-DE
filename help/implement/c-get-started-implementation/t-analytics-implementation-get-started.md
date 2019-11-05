@@ -9,7 +9,7 @@ title: Vereinfachte Implementierung
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Diese Vorgehensweise ermöglicht Ihnen Folgendes:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Datenschicht </p> </td> 
-       <td colname="col2"> <p>(Empfohlen) Ein JavaScript-Array, das zum Speichern von Informationen verwendet wird. Wenn Sie die automatische Einrichtung mithilfe des Dynamic Tag Managements durchführen, verwenden Sie eine Datenschicht. </p> <p>Einen Blog zu Datenschichten finden Sie unter <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">Data Layers: From Buzzword to Best Practice</a>. </p> </td> 
+       <td colname="col2"> <p>(Empfohlen) Ein JavaScript-Array, das zum Speichern von Informationen verwendet wird. Wenn Sie die automatische Einrichtung mithilfe des Dynamic Tag Managements durchführen, verwenden Sie eine Datenschicht. </p> <p>Einen Blog zu Datenschichten finden Sie unter <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">Data Layers: From Buzzword to Best Practice</a>. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Daten-Repository (Report Suite) </p> </td> 
-       <td colname="col2"> <p> Eine <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">Report Suite</a> ist ein eigenständiger Datensatz, der typischerweise einem einzelnen Objekt (Site oder Anwendung) oder einer Marke entspricht. Jede Report Suite verfügt über einen eigenen Satz von Berichten und Metriken. </p> </td> 
+       <td colname="col2"> <p> Eine <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">Report Suite</a> ist ein eigenständiger Datensatz, der typischerweise einem einzelnen Objekt (Site oder Anwendung) oder einer Marke entspricht. Jede Report Suite verfügt über einen eigenen Satz von Berichten und Metriken. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Zeitzone </p> </td> 
@@ -108,7 +108,7 @@ Diese Vorgehensweise ermöglicht Ihnen Folgendes:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Download </p> </td> 
-       <td colname="col2"> <p> Laden Sie die Installationsdatei mit dem Namen <span class="filepath">INSTALL-ME &lt;Report Suite-Name&gt;.js</span> herunter. Diese Option ist für erfahrene Benutzer geeignet, die über Kenntnisse auf dem Gebiet der <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript-Implementierung</a> verfügen. </p> <p> <p>Wichtig: Durch Herunterladen des Codes wird <span class="keyword">Analytics</span> noch nicht bereitgestellt. Dies ist eine manuelle Implementierung, die Sie auf den Seiten Ihrer Website oder mithilfe der Beratungsdienstleistungen von Adobe durchführen. </p> </p> </td> 
+       <td colname="col2"> <p> Laden Sie die Installationsdatei mit dem Namen <span class="filepath">INSTALL-ME &lt;Report Suite-Name&gt;.js</span> herunter. Diese Option ist für erfahrene Benutzer geeignet, die über Kenntnisse auf dem Gebiet der <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">JavaScript-Implementierung</a> verfügen. </p> <p> <p>Wichtig: Durch Herunterladen des Codes wird <span class="keyword">Analytics</span> noch nicht bereitgestellt. Dies ist eine manuelle Implementierung, die Sie auf den Seiten Ihrer Website oder mithilfe der Beratungsdienstleistungen von Adobe durchführen. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
