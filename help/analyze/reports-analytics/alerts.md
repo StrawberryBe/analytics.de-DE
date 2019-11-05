@@ -8,7 +8,7 @@ title: Warnhinweise
 topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Warnhinweise mit ASI-Slot als Report Suite </p> </td> 
-   <td colname="col2"> <p>Das <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external">Erstellen oder Bearbeiten von ASI-Slots</a> ist nicht länger möglich und sie sind auch nicht in Analysis Workspace verfügbar. Daher werden sie von den neuen Warnhinweisen nicht unterstützt. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Das <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >Erstellen oder Bearbeiten von ASI-Slots</a> ist nicht länger möglich und sie sind auch nicht in Analysis Workspace verfügbar. Daher werden sie von den neuen Warnhinweisen nicht unterstützt. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Warnhinweise mit Teilnahmemetriken </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external"> Teilnahmemetriken</a> sind in Reports &amp; Analytics verfügbar, jedoch zur Zeit nicht im neuen Warnhinweissystem in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Teilnahmemetriken</a> sind in Reports &amp; Analytics verfügbar, jedoch zur Zeit nicht im neuen Warnhinweissystem in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Monatliche Warnhinweise für benutzerdefinierte Kalender-Report Suites </p> </td> 
-   <td colname="col2"> <p>Dies betrifft nur Kunden, die Warnhinweise für Report Suites mit <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external">benutzerdefinierten Monatsanfängen</a> nutzen (National Retail Federation/NRF und benutzerdefinierte Kalendertypen). </p> <p>Es betrifft keine Warnhinweise für Report Suites mit gregorianischem oder modifiziertem gregorianischem Kalender. Bisher wurden diese Warnhinweise am ersten Tag des gregorianischen Monats gesendet (zum Beispiel am 1. Januar, am 1. Februar usw.). Dies ist mit der neuen Anomalieerkennungsfunktion für Warnhinweise nicht mehr möglich. Diese Funktion bezieht die Daten des vorangegangenen Monats in die Suche nach Anomalien ein. Zukünftig werden in unserer Terminplanung auch benutzerdefinierte Kalender unterstützt, damit für Warnhinweise und für geplante Projekte festgelegt werden kann, dass sie am ersten Tag des benutzerdefinierten Kalendermonats ausgelöst werden, und nicht nur am ersten Tag des gregorianischen Monats. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dies betrifft nur Kunden, die Warnhinweise für Report Suites mit <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >benutzerdefinierten Monatsanfängen</a> nutzen (National Retail Federation/NRF und benutzerdefinierte Kalendertypen). </p> <p>Es betrifft keine Warnhinweise für Report Suites mit gregorianischem oder modifiziertem gregorianischem Kalender. Bisher wurden diese Warnhinweise am ersten Tag des gregorianischen Monats gesendet (zum Beispiel am 1. Januar, am 1. Februar usw.). Dies ist mit der neuen Anomalieerkennungsfunktion für Warnhinweise nicht mehr möglich. Diese Funktion bezieht die Daten des vorangegangenen Monats in die Suche nach Anomalien ein. Zukünftig werden in unserer Terminplanung auch benutzerdefinierte Kalender unterstützt, damit für Warnhinweise und für geplante Projekte festgelegt werden kann, dass sie am ersten Tag des benutzerdefinierten Kalendermonats ausgelöst werden, und nicht nur am ersten Tag des gregorianischen Monats. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
