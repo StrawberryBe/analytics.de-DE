@@ -8,16 +8,12 @@ title: Besucherinteraktionsablauf
 topic: Reports and Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Besucherinteraktionsablauf
-
-Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
-
-## Besucherinteraktionsablauf {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
 
@@ -31,7 +27,7 @@ So klicken Besucher häufig durch eine gebührenpflichtige Suchkampagne und lege
 | Nie | Die Zeit der Besucherinteraktion läuft nie ab. |
 | Kanal zurücksetzen | Lässt alle Besucherinteraktionszeiträume ablaufen.  Wenn Sie alle Marketingkanaldaten zurücksetzen müssen, können Sie die Besucherinteraktionszeiträume ablaufen lassen. Sie müssen möglicherweise Daten zurücksetzen, wenn die Verarbeitungsregeln zuvor falsch konfiguriert wurden. Alle Erst- und Letztkontaktkanalwerte laufen sofort ab und werden bei der Rückkehr der Besucher zurückgesetzt. |
 
-## Angeben des Besucherinteraktionsablaufs {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## Angeben des Besucherinteraktionsablaufs {#specify-visitor-expire}
 
 Geben Sie den Ablauf der Besucherinteraktion an.
 
