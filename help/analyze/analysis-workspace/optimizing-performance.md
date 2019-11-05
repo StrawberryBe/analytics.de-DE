@@ -5,7 +5,7 @@ seo-title: Analysis Workspace-Leistung optimieren
 title: Analysis Workspace-Leistung optimieren
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ Wenn möglich, sollten Sie nicht mehr Daten einziehen, als Sie benötigen.
 
 Beachten Sie, dass Datumsbereiche (violette Komponenten) den Datumsbereich des Feldes überschreiben. Wenn Sie also verschiedene Datumsbereiche als Spalten verwenden (z. B. letzter Monat, letzte Woche und gestern), muss der Datumsbereich für das Feld nicht alle Datumsbereiche der Spalten umfassen. Sie können ihn einfach auf „gestern“ festlegen, da die Datumsbereiche in der Freiform-Tabelle den des Feldes überschreiben. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=ybmv6EBmhn0) .
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. Wenn Sie z. B. die Daten des letzten Monats mit dem entsprechenden Vorjahresmonat vergleichen möchten, können Sie mit der Option „Zeiträume vergleichen“ den Jahresvergleich anzeigen, anstatt das Feld auf die Daten der letzten 13 Monate festzulegen.
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. Wenn Sie z. B. die Daten des letzten Monats mit dem entsprechenden Vorjahresmonat vergleichen möchten, können Sie mit der Option „Zeiträume vergleichen“ den Jahresvergleich anzeigen, anstatt das Feld auf die Daten der letzten 13 Monate festzulegen.
 
 ## Anzahl der Visualisierungen
 
