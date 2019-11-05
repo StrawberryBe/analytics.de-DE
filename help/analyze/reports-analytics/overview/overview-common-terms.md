@@ -5,14 +5,14 @@ seo-title: Häufig verwendete Begriffe
 solution: Analytics
 title: Häufig verwendete Begriffe
 topic: Reports and Analytics
-uuid: 0560 dc 7 d -9 f 92-46 d 4-848 b -3 cf 297073382
+uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
 
 ---
 
 
-# Häufig verwendete Begriffe{#common-terms}
+# Häufig verwendete Begriffe
 
 Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
 
@@ -26,11 +26,11 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Report Suite </p> </td> 
-   <td colname="col2"> <p>Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Webseite, es kann sich aber auch um ein globales Segment handeln, bei der die Anzahl mehrerer Seiten zur Ermittlung der Gesamtzahl kombiniert wurde. Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. </p> <p>Wenn beispielsweise angemeldete Benutzer und nicht angemeldete Benutzer Ihre Website auf unterschiedliche Weise nutzen und verschiedene Mitarbeiter die Berichte über die einzelnen Gruppen ansehen, können Sie die Report Suites nach Seiten mit oder ohne Authentifizierung kategorisieren. </p> <p>Wenn Sie sich anmelden, wählen Sie die gewünschte Report Suite aus (eine Ausnahme sind die Datenaggregationen, die Report Suites kombinieren). </p> </td> 
+   <td colname="col2"> <p>Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. </p> <p>Wenn beispielsweise angemeldete Benutzer und nicht angemeldete Benutzer Ihre Website auf unterschiedliche Weise nutzen und verschiedene Mitarbeiter die Berichte über die einzelnen Gruppen ansehen, können Sie die Report Suites nach Seiten mit oder ohne Authentifizierung kategorisieren. </p> <p>Wenn Sie sich anmelden, wählen Sie die gewünschte Report Suite aus (eine Ausnahme sind die Datenaggregationen, die Report Suites kombinieren). </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Metrik </p> </td> 
-   <td> <p>Quantitative Informationen zu Aktivitäten auf Ihrer Website, z. B. Ansichten, Clickthroughs, Neuladungen, durchschnittlicher Besuchszeit, Datum, Einheiten usw. </p> <p>Weitere Informationen finden Sie unter <a scope="local" href="../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686" type="concept" format="dita"> Metriken</a>. </p> </td> 
+   <td> <p>Quantitative Informationen zu Aktivitäten auf Ihrer Website, z. B. Ansichten, Clickthroughs, Neuladungen, durchschnittlicher Besuchszeit, Datum, Einheiten usw. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Dimension </p> </td> 
@@ -38,7 +38,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p> Bericht </p> </td> 
-   <td> <p>Die Grundlage der Funktionen für Marketingberichte. Zu allen erfassten Daten können Sie Onlineberichte ausführen. </p> <p>Weitere Informationen finden Sie unter    <a href="../../../analyze/reports-analytics/reports.md#concept_54DA0D426E2B49F3BF0E707FE83932A6" type="concept" format="dita" scope="local"> Berichtstypen</a>. </p> </td> 
+   <td> <p>Die Grundlage der Funktionen für Marketingberichte. Zu allen erfassten Daten können Sie Onlineberichte ausführen. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"> Report Types</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Seitenansicht </p> </td> 
@@ -46,7 +46,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p>Besuch </p> </td> 
-   <td> <p>Eine Folge von Seitenansichten während einer Sitzung. Der Besuch wird nach 30-minütiger Inaktivität oder nach zwölfstündiger kontinuierlicher Aktivität beendet. (Diese Zeitvorgaben sind der Standard im Bereich der Webanalyse.) Besuche werden anhand von Cookies nachverfolgt. Ein Besuch beginnt, wenn ein Besucher auf eine Seite zugreift. Ein Besuch wird auch bezeichnet als <span class="term"> Sitzung</span>, aber keine Browsersitzung. Das Aufrufen einer anderen Seite, das Schließen des Browsers und sogar ein Neustart des Computers führt nicht zu einer Beendigung eines Besuchs. </p> <p> Wenn das Zeitlimit für Inaktivität erreicht wird während ein Besucher auf die Seite zugreift, wird der Besuch abgebrochen und verarbeitet. Ein neuer Besuch beginnt wenn der Besucher auf eine andere Seite zugreift. </p> <p>Wenn sich das Datum während eines Besuchs ändert, beispielsweise wenn eine Seite um Mitternacht aufgerufen wird, wird diesem Besuch das Datum des Beginns des Besuchs zugewiesen. </p> </td> 
+   <td> <p>Eine Folge von Seitenansichten während einer Sitzung. Der Besuch wird nach 30-minütiger Inaktivität oder nach zwölfstündiger kontinuierlicher Aktivität beendet. (Diese Zeitvorgaben sind der Standard im Bereich der Webanalyse.) Besuche werden anhand von Cookies nachverfolgt. Ein Besuch beginnt, wenn ein Besucher auf eine Seite zugreift. Ein Besuch wird auch bezeichnet als <span class="term"> session</span>, but it is not a browser session. Das Aufrufen einer anderen Seite, das Schließen des Browsers und sogar ein Neustart des Computers führt nicht zu einer Beendigung eines Besuchs. </p> <p> Wenn das Zeitlimit für Inaktivität erreicht wird während ein Besucher auf die Seite zugreift, wird der Besuch abgebrochen und verarbeitet. Ein neuer Besuch beginnt wenn der Besucher auf eine andere Seite zugreift. </p> <p>Wenn sich das Datum während eines Besuchs ändert, beispielsweise wenn eine Seite um Mitternacht aufgerufen wird, wird diesem Besuch das Datum des Beginns des Besuchs zugewiesen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Unique Visitor </p> </td> 
