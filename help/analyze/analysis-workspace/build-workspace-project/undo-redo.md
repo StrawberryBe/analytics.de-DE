@@ -5,7 +5,7 @@ seo-title: Einstellungen zum Rückgängigmachen und Wiederherstellen
 title: Einstellungen zum Rückgängigmachen und Wiederherstellen
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * Änderungen der Report Suite können rückgängig gemacht/wiederhergestellt werden.
 * In der Nähe des Projektnamens wird eine Meldung bezüglich des Rückgängigmachens/Wiederherstellens angezeigt. Sie zeigt an, ob etwas rückgängig gemacht/wiederhergestellt wird.
-* Sie können die folgenden [Hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)verwenden:
+* Sie können die folgenden [Hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)verwenden:
 
    * STRG (CMD) + Z zum Rückgängigmachen
    * STRG (CMD) + UMSCHALT + Z zum Wiederherstellen
