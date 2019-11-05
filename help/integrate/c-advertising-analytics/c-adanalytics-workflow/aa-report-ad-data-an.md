@@ -5,7 +5,7 @@ seo-title: Berichte zu Werbedaten in Adobe Analytics
 title: Berichte zu Werbedaten in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports &amp; Anal
 
 Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, in Analytics auf umfassende Suchmaschinendaten zugreifen. You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
 
-> [!NOTE] Die Kategorie "Werbevorlage"ist für alle Kunden sichtbar, auch wenn Sie keine Werbekonten implementiert haben. Wenn Sie jedoch die Vorlage „ Suchmaschinen“ für ein Unternehmen öffnen, das nicht bereitgestellt wurde, werden Sie über eine Fehlermeldung darüber benachrichtigt, dass Sie noch keine Suchmaschinenkonten konfiguriert haben. Klicken Sie in diesem Fall auf **[!UICONTROL Jetzt konfigurieren]**. Hierdurch gelangen Sie zum Bildschirm zur [Einrichtung eines Werbekontos](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C).
+>[!NOTE]
+>
+> Die Kategorie "Werbevorlage"ist für alle Kunden sichtbar, auch wenn Sie keine Werbekonten implementiert haben. Wenn Sie jedoch die Vorlage „ Suchmaschinen“ für ein Unternehmen öffnen, das nicht bereitgestellt wurde, werden Sie über eine Fehlermeldung darüber benachrichtigt, dass Sie noch keine Suchmaschinenkonten konfiguriert haben. Klicken Sie in diesem Fall auf **[!UICONTROL Jetzt konfigurieren]**. Hierdurch gelangen Sie zum Bildschirm zur [Einrichtung eines Werbekontos](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
