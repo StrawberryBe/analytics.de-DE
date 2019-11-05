@@ -9,7 +9,7 @@ title: Unique Visitors identifizieren
 topic: Entwickler und Implementierung
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,11 +24,11 @@ Adobe Analytics bietet verschiedene Mechanismen zur Identifizierung von Besucher
 
 | Verwendete Reihenfolge | Anfrageparameter (Erfassungsmethode) | Vorhanden, wenn |
 |---|---|---|
-| ![](assets/step1_icon.png) | [vid (s.visitorID)](../../../implement/js-implementation/c-unique-visitors/visid-custom.md#concept_4A2000F4B6ED41E99CA6118A6D74ECE8) | s.visitorID festgelegt ist. |
-| ![](assets/step2_icon.png) | [aid (s_vi-Cookie)](../../../implement/js-implementation/c-unique-visitors/visid-analytics.md#concept_74F6B4B9B2FA415AB5D029A1F8F099BC) | der Besucher über bestehendes s_vi-Cookie verfügt, bevor Sie den Besucher-ID-Dienst bereitgestellt haben, oder wenn Sie eine Schonfrist für die Besucher-ID konfiguriert haben. |
+| ![](assets/step1_icon.png) | [vid (s.visitorID)](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) | s.visitorID festgelegt ist. |
+| ![](assets/step2_icon.png) | [aid (s_vi-Cookie)](/help/implement/js-implementation/c-unique-visitors/visid-analytics.md) | der Besucher über bestehendes s_vi-Cookie verfügt, bevor Sie den Besucher-ID-Dienst bereitgestellt haben, oder wenn Sie eine Schonfrist für die Besucher-ID konfiguriert haben. |
 | ![](assets/step3_icon.png) | [mid (AMCV_-Cookie, der vom Experience Cloud-Besucher-ID-Dienst gesetzt wird)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | der Browser des Besuchers Cookies (von Erstanbietern) akzeptiert. |
-| ![](assets/step4_icon.png) | [fid (Ausweichcookie für H.25.3 oder AppMeasurement für JavaScript)](../../../implement/js-implementation/c-unique-visitors/visid-fallback.md#concept_EBCBF9EB390E45A2BA20DB6BE931C505) | der Browser des Besuchers Cookies (von Erstanbietern) akzeptiert. |
-| ![](assets/step5_icon.png) | [IP-Adresse, Benutzeragent, Gateway-IP-Adresse](../../../implement/js-implementation/c-unique-visitors/visid-fallback.md#section_104819D74C594ECE879144FCC5DEF4BF) | der Browser des Besuchers keine Cookies akzeptiert. |
+| ![](assets/step4_icon.png) | [fid (Ausweichcookie für H.25.3 oder AppMeasurement für JavaScript)](/help/implement/js-implementation/c-unique-visitors/visid-fallback.md) | der Browser des Besuchers Cookies (von Erstanbietern) akzeptiert. |
+| ![](assets/step5_icon.png) | [IP-Adresse, Benutzeragent, Gateway-IP-Adresse](/help/implement/js-implementation/c-unique-visitors/visid-fallback.md#section_104819D74C594ECE879144FCC5DEF4BF) | der Browser des Besuchers keine Cookies akzeptiert. |
 
 In vielen Szenarien sehen Sie möglicherweise 2 oder 3 verschiedene IDs für einen Aufruf, jedoch verwendet Analytics die erste vorhandene ID aus der vorigen Tabelle als offizielle Besucher-ID. Wenn Sie zum Beispiel eine benutzerdefinierte Besucher-ID (im Abfrageparameter „vid“ enthalten) festlegen, wird diese ID vor anderen IDs verwendet, die möglicherweise bei dem gleichen Treffer vorhanden sind.
 
