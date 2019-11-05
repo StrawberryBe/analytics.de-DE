@@ -8,7 +8,7 @@ title: Dashboards und Kurzberichte
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -58,7 +58,7 @@ Dieses Dashboard bietet Ihnen eine Übersicht über die Schlüsselmetriken in Be
 
 Verwenden Sie den [!UICONTROL „Dashboard-Manager“], um Dashboards zu bearbeiten und zu verwalten und für DirectAccess einzurichten.
 
-Siehe [Verwalten von Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+Siehe [Verwalten von Dashboards](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## Dashboard erstellen {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -84,10 +84,10 @@ Bevor Sie einen Bericht (als Reportlet) zu einem Dashboard hinzufügen, legen Si
 
 1. Fügen Sie dem Dashboard verfügbare Inhalte hinzu, indem Sie Elemente in die Reportlet-Arbeitsfläche ziehen.
 
-   Siehe [Erstellen eines Reportlets](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) und [Bearbeiten der Dashboard-Einstellungen](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Siehe [Erstellen eines Reportlets](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) und [Bearbeiten der Dashboard-Einstellungen](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
 
-   Durch das Speichern eines Dashboards wird dieses im Menü **[!UICONTROL Dashboard]verfügbar.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Siehe [Verwalten von Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Durch das Speichern eines Dashboards wird dieses im Menü **[!UICONTROL Dashboard]verfügbar.** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Siehe [Verwalten von Dashboards](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (Optional) Um das Dashboard als Ihre Einstiegsseite einzurichten, klicken Sie auf **Mehr Optionen** &gt; **[!UICONTROL Als Einstiegsseite festlegen]**.
 
