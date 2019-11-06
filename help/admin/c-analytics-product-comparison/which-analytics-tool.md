@@ -5,7 +5,7 @@ seo-title: Welches Adobe Analytics-Tool sollte ich verwenden?
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 * Wenn die Projektarbeit tabellar organisiert werden soll.
 * Für die Verwendung des Site-Analyse-Berichts (3D-Pfadsetzungsbericht).
 
-**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** sollte verwendet werden:
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** sollte verwendet werden:
 
 * Als flexibelste Analyseoption (bis hin zur Analyse auf Besucher-/Trefferebene).
 * Für die Erstellung eines Mehrkanal-Datensatzes der Online- und Offline-Interaktionen von CRM über POS bis Web.
