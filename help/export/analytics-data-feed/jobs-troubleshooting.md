@@ -7,68 +7,48 @@ solution: Analytics
 title: Fehlerbehebung bei Aufträgen
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
 
 ---
 
 
 # Fehlerbehebung bei Aufträgen
 
+Wenn Sie Probleme haben, einen Datenfeed auf Ihrer FTP-Site anzuzeigen, verwenden Sie diese Seite, um zu verstehen, warum.
+
+## Fehlercodes
+
 Wenn ein Fehler auftritt, wird in der Spalte „Auftragsstatus“ ein Fehler gemeldet.
 
-Die Fehler und möglichen Ursachen werden nachstehend aufgeführt:
+### FTP-Chdir-Fehler
 
-<table id="table_BE2921B8E7C94B0EB88774321B8692F0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Fehler </th> 
-   <th colname="col2" class="entry"> Mögliche Ursachen </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> FTP Chdir-Fehler </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_79AB3EA974CC46A0A645A439BC612D88"> 
-      <li id="li_4A6A5922275946908E06499E8EAAF18B"> Netzwerk- oder Zielserverfehler </li> 
-      <li id="li_33393FF286624A63B12991DCE079841D">Problem mit der Lese-/Schreibberechtigung </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP-Verbindungsfehler </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_5F926078850D4495B83BC938395CAC6B"> 
-      <li id="li_A72A357F6289438EA1A091AC4FD3A3D0"> Authentifizierungsproblem </li> 
-      <li id="li_48532C78285E4DB6A47B1435A5FA549B"> Netzwerk- oder Zielserverfehler </li> 
-      <li id="li_11DF6FA218CA48539C4561695234CA4D"> Problem mit der Lese-/Schreibberechtigung </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP-Fehler </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_020BA1DC81F645FFABCAD07E51351D1E"> 
-      <li id="li_8566EECEFD344BFDB638259474A8E8EA"> Datenträger voll oder Datenträgerkontingent überschritten </li> 
-      <li id="li_15CD50ED54F846F79BFDF25359864C59"> Netzwerk- oder Zielserverfehler </li> 
-      <li id="li_741A3315C0B940D3A9874F15C78B4F28"> Problem mit der Lese-/Schreibberechtigung </li> 
-      <li id="li_49F707F7F65A443F8AC6E058E3D89B96"> Authentifizierungsproblem </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP-Anmeldefehler </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_F7F128ADF1FD4E9D8B79424A6432378E"> 
-      <li id="li_68C377CAD50346B1B9937B77E7EB2AAD"> Authentifizierungsproblem </li> 
-      <li id="li_7EA91C90FFC0493EA156292620EF1589"> Netzwerk- oder Zielserverfehler </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP-Put-Fehler </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_760DA2CBD46B4C348BE3B7B43E803FD9"> 
-      <li id="li_6578482722E14E998515B4B3EA370C44"> Datenträger voll oder Datenträgerkontingent überschritten </li> 
-      <li id="li_342240DDD9D3423198C23123473D539C"> Netzwerk- oder Zielserverfehler </li> 
-      <li id="li_44CEFE1D92A74842A6321C416637421F"> Problem mit der Lese-/Schreibberechtigung </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Der Feed kann nicht in den angegebenen Ordner navigieren oder darin schreiben. Stellen Sie sicher, dass der Zielordner auf der FTP-Site vorhanden ist und dass die angegebenen Anmeldeinformationen über die richtigen Lese-/Schreibberechtigungen für diesen Ordner verfügen.
+
+### FTP-Verbindungsfehler
+
+Der Feed kann keine Verbindung zum FTP-Ziel herstellen. Vergewissern Sie sich, dass das FTP-Ziel korrekt und gültig ist.
+
+### FTP-Fehler
+
+Ein generischer Fehler, bei dem der Feed die Datei letztendlich nicht auf die FTP-Site schreiben kann. Dieser Fehler kann möglicherweise von der Festplatte des FTP-Servers verursacht werden, wenn die Quote überschritten wurde. Der Fehler kann auch von einem Netzwerk- oder Zielserverfehler verursacht werden.
+
+### FTP-Anmeldefehler
+
+Der Feed kann sich nicht mit den angegebenen Anmeldeinformationen anmelden. Vergewissern Sie sich, dass der FTP-Benutzername und das Kennwort korrekt sind.
+
+### FTP-Put-Fehler
+
+Der Feed kann keine Dateien auf die FTP-Site schreiben. Vergewissern Sie sich, dass die FTP-Anmeldung über die richtigen Berechtigungen zum Lesen und Schreiben von Daten auf Ihrer FTP-Site verfügt. Dieser Fehler kann möglicherweise auch von einer vollständigen Festplatte oder einem überschritten Datenträgerkontingent auf dem FTP-Server stammen.
+
+## Schritte zur Fehlerbehebung
+
+Melden Sie sich bei Ihrer FTP-Site an und laden Sie eine beliebige Datei hoch. In den meisten Fällen können Sie den Fehlerpunkt mithilfe dieser Schritte ermitteln.
+
+1. Melden Sie sich mit dem File Explorer (Windows) oder Finder (Mac) bei Ihrer FTP-Site an. Vergewissern Sie sich, dass Sie das FTP-Protokoll (`ftp://`) verwenden. Wenn Sie die FTP-Site nicht erreichen können, können Sie mit dem Eigentümer der FTP-Site das richtige Ziel ermitteln.
+
+   ![Datei-Explorer](assets/file_explorer.png)
+
+2. Es wird ein Popup angezeigt, in dem Sie nach einem Benutzernamen und einem Kennwort gefragt werden. Geben Sie Ihre Authentifizierungsdaten ein. Wenn die Anmeldeinformationen akzeptiert werden, zeigt das Fenster den aktuellen Inhalt auf der FTP-Site an. Wenn die Anmeldeinformationen nicht akzeptiert werden, können Sie mit dem FTP-Eigentümer zusammenarbeiten, um sicherzustellen, dass Benutzername und Kennwort korrekt sind.
+3. Laden Sie eine Datei auf die FTP-Site hoch, indem Sie sie in das authentifizierte Fenster ziehen. Jedes Bild- oder Textdokument ist ausreichend. Wenn Sie einen Fehler beim Versuch erhalten, eine Datei auf die FTP-Site zu setzen, überprüfen Sie mit dem FTP-Eigentümer, ob genügend Speicherplatz vorhanden ist und ob der Benutzername Schreibberechtigungen für die FTP-Site besitzt.
+4. Nachdem Sie bestätigt haben, dass sich die Datei auf der FTP-Site befindet, können Sie die im vorherigen Schritt hochgeladene Datei löschen.
+5. Wenn alle oben genannten Schritte funktionieren und Sie dennoch einen FTP-Fehler erhalten, bitten Sie einen Kundendienstmitarbeiter, sich an den Kundendienst zu wenden.
