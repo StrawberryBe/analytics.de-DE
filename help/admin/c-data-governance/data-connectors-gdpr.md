@@ -1,11 +1,9 @@
 ---
 description: Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
-seo-description: Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
-seo-title: Datenschutz und Data Connectors (Genesis)
 title: Datenschutz und Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
