@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Beschriftungsbeispiel
 title: Beschriftungsbeispiel
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -67,7 +65,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Dies hat nur Einfluss auf Zellen in Zeilen, die „AAID = 77“ und eine DEL-DEVICE-Beschriftung enthalten.
+> [!NOTE] Dies hat nur Einfluss auf Zellen in Zeilen, die „AAID = 77“ und eine DEL-DEVICE-Beschriftung enthalten.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -81,7 +79,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Dies hat nur Einfluss auf Zellen in Zeilen, die „user = Mary“ und eine DEL-PERSON-Beschriftung enthalten. In der Praxis würde es sich zudem bei der Variablen mit dem A_ID-Wert wahrscheinlich um ein Prop- oder eVar-Objekt handeln, und der zugehörige Ersatzwert wäre wahrscheinlich eine Zeichenfolge, die mit „Privacy Service-“ gefolgt von einer zufälligen Nummer (GUID) beginnt, statt dass der numerische Wert durch einen anderen, zufälligen numerischen Wert ersetzt wird.
+> [!NOTE] Dies hat nur Einfluss auf Zellen in Zeilen, die „user = Mary“ und eine DEL-PERSON-Beschriftung enthalten. In der Praxis würde es sich zudem bei der Variablen mit dem A_ID-Wert wahrscheinlich um ein Prop- oder eVar-Objekt handeln, und der zugehörige Ersatzwert wäre wahrscheinlich eine Zeichenfolge, die mit „Privacy Service-“ gefolgt von einer zufälligen Nummer (GUID) beginnt, statt dass der numerische Wert durch einen anderen, zufälligen numerischen Wert ersetzt wird.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
