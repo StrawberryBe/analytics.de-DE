@@ -1,12 +1,10 @@
 ---
 description: Variablen für Berichte beim Datenschutz.
-seo-description: Variablen für Berichte beim Datenschutz.
-seo-title: Variablen für Datenschutzberichte
 solution: Analytics
 title: Variablen für Datenschutzberichte
 topic: Admin Tools
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -38,12 +36,14 @@ Diese Variablen für die Datenschutzberichterstellung bieten ein benutzerfreundl
 Sie können die Variablen für Datenschutzberichte über eine neue Datenschutzeinstellung der Analytics Admin Console aktivieren.
 
 Jede Report Suite kann wie folgt konfiguriert werden:
-1. Klicken Sie in „Reports &amp; Analytics“ auf **[!UICONTROL Admin &gt; Report Suites.]**
+1. Klicken Sie in „Reports &amp; Analytics“ auf **[!UICONTROL Admin &gt; Report Suites]**.
 1. Wählen Sie die Report Suites aus, in denen Sie Mediendaten erfassen, und klicken Sie anschließend auf **[!UICONTROL Einstellungen bearbeiten &gt; Datenschutzmanagement]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Klicken Sie auf den Button **[!UICONTROL Datenschutzberichte aktivieren]**. **Hinweis**: Nach der Aktivierung können diese Variablen nicht mehr deaktiviert werden.
+1. Klicken Sie auf den Button **[!UICONTROL Datenschutzberichte aktivieren.]**
+
+   > [!NOTE] Nach der Aktivierung können diese Variablen nicht deaktiviert werden.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -65,14 +65,14 @@ Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie 
 
 * Kontextdaten: `contextData.['cm.ssf']`
 * Akzeptierte Werte:
-   * 1 – Wenn der Wert „1“gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Opt-out-Status aufweist. Der Wert „1“ in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-ePrivacy-Compliance.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 1 – Wenn der Wert „1“gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Opt-out-Status aufweist. Der Wert „1“ in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-ePrivacy-Compliance](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * Für diesen Parameter werden keine anderen Werte akzeptiert.
 
 ### DMP
 
 * Kontextdaten: `contextData.['opt.dmp']`
 * Akzeptierte Werte:
-   * N – Wenn der Wert „N“ gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe für Daten-Management-Plattformen ablehnt. **Hinweis**: Wenn für diese Variable „N“ festgelegt ist, wird die Freigabe für AAM in diesem Moment nicht blockiert. Anfang 2020 wird jedoch das Blockieren von AAM-Aufrufen hinzugefügt. Adobe empfiehlt zunächst, das Einstellen sowohl von `c.cm.ssf=1` als auch `c.opt.dmp=N`, um das Senden von Treffern an AAM zu verhindern.
+   * N – Wenn der Wert „N“ gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe für Daten-Management-Plattformen ablehnt. **Hinweis**: Wenn diese Variable auf "N"gesetzt wird, wird die Freigabe für AAM derzeit nicht blockiert. Anfang 2020 wird jedoch das Blockieren von AAM-Aufrufen hinzugefügt. Adobe empfiehlt zunächst, das Einstellen sowohl von `c.cm.ssf=1` als auch `c.opt.dmp=N`, um das Senden von Treffern an AAM zu verhindern.
    * Y – Wenn der Wert „Y“ gesendet wird, deutet dies darauf hin, dass der Verbraucher die Freigabe für Daten-Management-Plattformen genehmigt.
 
 ### SELL
