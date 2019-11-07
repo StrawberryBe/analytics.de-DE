@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Zugriffs- und Löschanfragen einreichen
 title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -35,7 +33,7 @@ Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch
 
 Sie können Datenschutz-Zugriffs- und -Löschanfragen über unser [Datenschutz-UI-Portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) oder unsere [Datenschutz-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) senden.
 
-> [!NOTE]Die Datenschutz-API unterstützt die Batch-Einsendung für mehrere Benutzer in einer einzelnen Anfrage. Die Unterstützungsgrenze liegt momentan bei 1000 separaten Benutzern (pro Benutzer können mehrere IDs vorliegen) in einer einzelnen JSON-Anfragedatei.
+> [!NOTE] Die Datenschutz-API unterstützt die Batch-Einsendung für mehrere Benutzer in einer einzelnen Anfrage. Die Unterstützungsgrenze liegt momentan bei 1000 separaten Benutzern (pro Benutzer können mehrere IDs vorliegen) in einer einzelnen JSON-Anfragedatei.
 
 ## JSON-Beispielanfrage  {#sample-json-request}
 
