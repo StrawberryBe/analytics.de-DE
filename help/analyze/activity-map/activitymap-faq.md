@@ -1,12 +1,12 @@
 ---
-description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map
-seo-description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map
+description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
+seo-description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
 seo-title: Activity Map – Häufig gestellte Fragen
 solution: Analytics
 title: Activity Map – Häufig gestellte Fragen
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -14,21 +14,21 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 # Activity Map – Häufig gestellte Fragen
 
-Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map
+Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
 
 ## Implementierung und AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
 **F: Welche Implementierungsschritte sind zur Aktivierung der neuen Activity Map erforderlich?**
 
-A: Lesen Sie [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+A: Lesen Sie  [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **F: Haben alle Analytics-Kunden Zugriff auf die Seite „Activity Map – Aktivierung“ in den Admin Tools?**
 
-A: Adobe SiteCatalyst-Kunden haben keinen Zugriff auf die Seite "Activity Map-Aktivierung"der Admin-Konsole. Nur Unternehmen mit Adobe Analytics Standard- und Adobe Analytics Premium-Verträgen haben Zugriff auf diese Konfigurationsseite.
+A: Adobe SiteCatalyst-Kunden haben keinen Zugriff auf die Seite „Activity Map – Aktivierung“ in der Admin Console. Nur Unternehmen mit Adobe Analytics Standard- und Adobe Analytics Premium-Verträgen haben Zugriff auf diese Konfigurationsseite.
 
 **F: Kann der neue AppMeasurement-Code über Dynamic Tag Management (DTM) konfiguriert werden?**
 
-A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html).
+A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://marketing.adobe.com/resources/help/de_DE/dtm/analytics_dtm.html).
 
 **F: Welche großen Änderungen wurden an der AppMeasurement v1.6-Bibliothek vorgenommen?**
 
@@ -42,7 +42,7 @@ A: Das Rollout von AppMeasurement wird auf Report Suite-Ebene ausgeführt. Die R
 
 A: Nein. Die Activity Map-Funktion hängt nicht von der Besucher-API ab.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map-Anwendung {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **F: Kann ich Activity Map verwenden, wenn ich zuvor Besucher-ClickMap auf meiner Website nicht verwendet habe?**
 
@@ -79,7 +79,7 @@ Mit dem Metrikmenü können Sie die Liste berechneter Metriken auf diejenigen be
 
 **F: Wo liegt der Unterschied zwischen dem Activity Map-Bericht „Alle Links“ und der Activity Map-Berichterstattung in „Reports &amp; Analytics“?**
 
-A: Um den Bericht "Alle Links"in Activity Map abzurufen, erstellen wir eine Aufschlüsselungsanforderung wie folgt: Activity Map-Seite = "visitedpage", aufgeschlüsselt nach Activity Map-Link und -Region in `<list of link&regions present in the page at rendering time>`.
+A: Um den Bericht „Alle Links“ in Activity Map abzurufen, erstellen wir wie folgt eine Aufschlüsselungsanforderung: Activity Map-Seite = "visitedpage", aufgeschlüsselt nach Activity Map-Link und -Region in `<list of link&regions present in the page at rendering time>`.
 
 Um einen entsprechenden Bericht in „Reports &amp; Analytics“ zu erhalten, müssen Sie zunächst zum Activity Map-Seitenbericht navigieren. Dort filtern Sie nach dem Namen der besuchten Seite in Activity Map. Der Name der besuchten Seite wird in der linken Spalte der Activity Map-Seitendetails im unteren Bereich angezeigt. Sobald die Seite gefunden wurde, können Sie die Aufschlüsselung vornehmen und Activity Map-Links und -Regionen als sekundäre Dimension auswählen.
 
@@ -123,17 +123,17 @@ Eine Warnmeldung weist darauf hin, dass Sie (/home/analyze/activity-map/activity
 
 *Webseite mit kompatiblem Analytics-Tag (AppMeasurement v1.6 oder höher), für die jedoch die Activity Map-Berichterstattung in den Admin Tools nicht aktiviert wurde*
 
-Eine Warnmeldung weist darauf hin, dass Sie Ihren Administrator bitten müssen, \[Activity Map-Bericht aktivieren\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") zu aktivieren.
+Eine Warnmeldung weist Sie darauf hin, dass Sie Ihren Administrator bitten müssen, den \[Activity Map-Bericht zu aktivieren\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
 
 **F: Kann ich Activity Map-Daten (contextData) über[Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)exportieren?**
 
-A.: Nein.
+A: Nein.
 
 ## Segmentierung in Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
 **F: Sind Segmente auf bestimmte Benutzersegmente beschränkt? Oder gibt es freigegebene Segmente auf Admin-Ebene in Activity Map?**
 
-A: Activity Map übernimmt Ihre Segmente auf Admin-Ebene (Berichtsegmente) aus Analytics.
+A: Activity Map übernimmt Ihre Segmente auf Admin-Ebene (Berichterstellungssegmente) aus Analytics.
 
 **F: Funktionieren Segmente im Livemodus?**
 
