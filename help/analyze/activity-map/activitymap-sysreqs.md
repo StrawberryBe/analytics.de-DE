@@ -6,7 +6,7 @@ solution: Analytics
 title: Unterstützte Systeme und Anforderungen
 topic: Activity Map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -22,7 +22,7 @@ Activity Map wird von den folgenden Webbrowsern unterstützt.
 | Firefox | Neueste Version |
 | Chrome | Neueste Version. Hinweis: Das Activity Map-Plugin für Chrome ist derzeit ein Plugin im „Entwicklermodus“. Wenn Sie dieses Plugin starten, werden Sie in einer Meldung aufgefordert, Entwicklermoduserweiterungen zu deaktivieren. Diese Meldung wird jedes Mal angezeigt, wenn das Plugin gestartet wird. |
 
-> [!NOTE] Aus der Perspektive der Linksammlung unterstützt Activity Map eine wesentlich größere Liste von Browsern.
+> [!NOTE] Im Hinblick auf die Linkerfassung unterstützt Activity Map weitaus mehr Browser.
 
 Weitere Anforderungen:
 
