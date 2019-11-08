@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map-Einstellungen konfigurieren
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,12 +20,12 @@ Rufen Sie das Activity Map-Einstellungsbedienfeld durch Klicken auf das Zahnrads
 
 Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwendungsmodus. Die Registerkarte „Sonstige“ enthält allgemeine Einstellungen.
 
-| Standard | **[!UICONTROL Verlaufs]**- oder **[!UICONTROL Blasen]überlagerungen** |
+| Standard | **[!UICONTROL Verlaufs]**- oder **[!UICONTROL Blasen]** überlagerungen |
 |---|---|
-| Live | **[!UICONTROL Gewinner und Verlierer]**, **[!UICONTROL Verlaufs]**-, **[!UICONTROL Blasenüberlagerungen]** |
+| Live | **[!UICONTROL Gewinner und Verlierer]**, **[!UICONTROL Verlaufs-]**, **[!UICONTROL Blasen]** überlagerungen |
 | Sonstige | Report Suite-Auswahl und Sprachauswahl |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## Einstellungen für die Überlagerung im Standardmodus {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -43,7 +43,7 @@ Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwe
     <ul id="ul_13AD02789F2D4904A35215A8FA230F3E"> 
      <li id="li_8DB71636D2074C69B0D94D3FB0CAFE28"> <b>Kein Label</b>: nur für Verlaufsüberlagerungen In diesem Fall gibt die Farbe einen Hinweis auf den Rang des Links. </li> 
      <li id="li_39C98D7EA9514C1D8731B9D21C0E73A6"> <b>Wert</b>: Der unverarbeitete Gesamtwert der Metrik für den Link </li> 
-     <li id="li_A5F583E45BCD4F2399398F9DCC7FE382"> <b>Prozent</b>: Prozentsatz der Metrik für diesen Link im Vergleich zum Gesamtwert der Metrik für die Seite </li> 
+     <li id="li_A5F583E45BCD4F2399398F9DCC7FE382"> <b>Prozent</b>: Prozentsatz der Metrik für diesen Link im Vergleich zum Gesamtwert der Metrik für die Seite. </li> 
      <li id="li_E4BF7D3B863E4B6C8E737CF29ADA9D67"> <b>Rang</b>: Rang dieses Links im Vergleich zu allen Links auf der gerenderten Seite </li> 
     </ul> </td> 
   </tr> 
@@ -61,7 +61,7 @@ Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwe
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Verlaufsfarbe/Blasenfarbe</span> </td> 
-   <td colname="col3">Wählen Sie aus einer Reihe von Farben aus, um den Rang eines Links in den Visualisierungen von <span class="uicontrol">Verlaufs</span>- oder <span class="uicontrol">Blasen</span>überlagerungen anzuzeigen. </td> 
+   <td colname="col3">Wählen Sie aus einer Reihe von Farben aus, um den Rang eines Links in den Visualisierungen von <span class="uicontrol">Verlaufs</span>- oder <span class="uicontrol">Blasen</span> überlagerungen anzuzeigen. </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Farbverlauf auf Grundlage von</span> </td> 
@@ -78,18 +78,18 @@ Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwe
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## Einstellungen für Überlagerungen im Livemodus {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | Einstellungen | Beschreibung |
 |---|---|
-| **[!UICONTROL Anzeige oben]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL Anzeige oben]** | Wählen Sie „Anzahl der anzuzeigenden Links“ (oder „alle“) und **[!UICONTROL Gewinner]** oder **[!UICONTROL Verlierer]** (oder beides) zur Anzeige von Überlagerungen. |
 | **[!UICONTROL Unterste ausschließen (%)]** | Wählen Sie diese Option, um Links für Gewinner oder Verlierer auszuschließen, für die wenig Daten vorhanden sind. Wenn Sie diesen Prozentsatz der Links ausschließen, werden nur noch die Links angezeigt, für die genug Daten vorhanden sind, um relevante Gewinne oder Verluste anzuzeigen. Der Prozentsatz wird anhand der Anzahl der Links auf der Seite berechnet. Beispielsweise werden durch Herausfiltern der untersten 10 % einer Liste mit 200 Links die letzten 20 Links nicht mehr angezeigt. |
 | **[!UICONTROL Automatische Aktualisierung von Daten]** | Ermöglicht Ihnen, zu entscheiden, ob die auf der Oberfläche angezeigten Analytics-Daten automatisch aktualisiert werden sollen, wenn ein neuer Zeitraum berechnet wird. |
 | **[!UICONTROL Zeitraum für automatische Aktualisierung]** | Wenn dieses Kontrollkästchen aktiviert wird, wird die Webseite jedes Mal aktualisiert, wenn neue Daten abgerufen werden. Dadurch können die Links auf der Seite genauer mit den erfassten Daten synchronisiert werden. |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## Sonstige Einstellungen {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
