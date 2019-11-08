@@ -6,7 +6,7 @@ solution: Analytics
 title: Seitenanalysen in Echtzeit (Livemodus)
 topic: Activity Map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -28,7 +28,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-## Data latency as a result of A4T configuration {#section_806CE36354FC4C539A0DED9266A5C704}
+## Datenlatenz als Folge der A4T-Konfiguration {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Nach Aktivierung der A4T-Integration in Adobe Target ist in Adobe Analytics eine zusätzliche Latenz von 5 bis 10 Minuten festzustellen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
@@ -37,4 +37,4 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Be aware that the latency increase starts after you implement the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), even if you have not fully implemented this integration.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/de_DE/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
