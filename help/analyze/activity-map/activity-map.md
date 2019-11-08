@@ -6,7 +6,7 @@ solution: Analytics
 title: Übersicht über Activity Map
 topic: Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
 
 ---
