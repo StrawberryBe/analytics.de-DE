@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map starten
 topic: Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
