@@ -6,7 +6,7 @@ solution: Analytics
 title: Anpassbare Überlagerungen
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,7 +30,7 @@ Um Änderungen an Überlagerungen vorzunehmen, öffnen Sie das [Einstellungsbedi
 
 Wenn Sie den Mauszeiger über eine Überlagerung bewegen, werden die [Details](/help/analyze/activity-map/activitymap-overlay-details.md) dazu angezeigt.
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## Verlaufsüberlagerung (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 Die Farbintensität einer Verlaufsüberlagerung hängt von der Beliebtheit des Links ab. Diese Intensität kann für die 30 beliebtesten Links vereinheitlicht werden oder eine Funktion des absoluten Metrikwerts sein.
 
@@ -42,7 +42,7 @@ Diese Metriken werden überlagert als eine Art „Heatmap“ auf den Links der S
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## Blasenüberlagerung {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 Bei Blasenüberlagerungen wird der Inhalt der Überlagerung (Metrik, Prozentsatz oder Rang) in einer kleinen Beschriftungsblase angezeigt.
 
@@ -50,13 +50,13 @@ Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Über
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] Blasenüberlagerungen für Untermenüs werden nur angezeigt, wenn Sie das Untermenü anzeigen:
+> [!NOTE] Blasenüberlagerungen für Untermenüs werden nur angezeigt, wenn Sie das Untermenü einblenden:
 >
 >![](assets/bubbles_submenu.png)&gt;
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## Überlagerungen für Gewinner und Verlierer {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Überlagerungen]** für Gewinner und Verlierer stehen nur im Livemodus zur Verfügung. Sie zeigen die Änderungen der Linkaktivität in Echtzeit, indem sie die Metriken des aktuellen Zeitraums mit den Metriken des letzten Zeitraums vergleichen. Sie stellen eine visuell ansprechende Möglichkeit dar, Trends in Echtzeit anzuzeigen.
+**[!UICONTROL Überlagerungen für Gewinner und Verlierer]** sind nur im Livemodus verfügbar. Sie zeigen die Änderungen der Linkaktivität in Echtzeit, indem sie die Metriken des aktuellen Zeitraums mit den Metriken des letzten Zeitraums vergleichen. Sie stellen eine visuell ansprechende Möglichkeit dar, Trends in Echtzeit anzuzeigen.
 
 Diese Echtzeitüberlagerung stuft Klicks auf Basis der Änderungen des Metrikwerts zwischen dem vorherigen und dem aktuellen Zeitraum ein.
 
