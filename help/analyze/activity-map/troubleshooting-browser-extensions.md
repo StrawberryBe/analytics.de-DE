@@ -6,15 +6,15 @@ solution: Analytics
 title: Fehlerbehebung für Browsererweiterungen
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
-# Fehlerbehebung bei Browsererweiterungen
+# Fehlerbehebung für Browsererweiterungen
 
-Zeigt die Browser-Parameter an, die mit der Verwendung von Activity Map nicht kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
+Führt die Browserparameter auf, die nicht mit der Verwendung von Activity Map kompatibel sind. Sie sollten diese Einstellungen deaktivieren.
 
 ## Chrome
 
