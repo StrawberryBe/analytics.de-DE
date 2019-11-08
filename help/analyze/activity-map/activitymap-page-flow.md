@@ -1,12 +1,12 @@
 ---
-description: Auf der Registerkarte „Seitendetails“ wird der Seitenbericht als Tabelle und der Seitenflussbericht als BowTie-Diagramm (Schmetterlingsgraph) angezeigt.
+description: Auf der Registerkarte „Seitendetails“ wird der Seitenbericht als Tabelle und der Seitenflussbericht als BowTie-Diagramm (Schmetterlingsgraf) angezeigt.
 seo-description: Auf der Registerkarte „Seitendetails“ wird der Seitenbericht als Tabelle und der Seitenflussbericht als BowTie-Diagramm (Schmetterlingsgraf) angezeigt.
 seo-title: Seitendetails
 solution: Analytics
 title: Seitendetails
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 # Seitendetails
 
-Auf der Registerkarte „Seitendetails“ wird der Seitenbericht als Tabelle und der Seitenflussbericht als BowTie-Diagramm (Schmetterlingsgraph) angezeigt.
+Auf der Registerkarte „Seitendetails“ wird der Seitenbericht als Tabelle und der Seitenflussbericht als BowTie-Diagramm (Schmetterlingsgraf) angezeigt.
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## Seitenbericht {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 Dieser Bereich zeigt Traffic-Metriken auf der besuchten Webseite. Wenn Sie eine Webseite besuchen, für die der Analytics-Seiten-Tag nicht implementiert ist, wird der Bereich nicht angezeigt.
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## Seitenflussbericht {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 Die linke Seite enthält die vorherige Seiten und verweisende Stellen (extern), die alternativ erweitert werden können, um die vier Einträge mit den besten Ergebnissen für jede Kategorie anzuzeigen.
 
@@ -35,7 +35,7 @@ Der Seitenflussbericht ist nur im Standardmodus verfügbar.
 | **Seitenfluss** | **Beschreibung** |
 |---|---|
 | Externer Referrer | URL von anderen Sites, die auf die aktuelle Seite verweisen |
-| Vorherige Seiten | Nennt die interne Seite in der Report Suite vor der aktuellen Seite |
+| Vorherige Seiten | Nennt die interne Seite in der Report Suite vor der aktuellen Seite. |
 | Nächste Seiten | Die Seite, die nach dem Verlassen der aktuellen Seite besucht wird |
 | Siteausstiege | Anzahl derjenigen, die die Site nach dem Anzeigen der Seite vollständig verlassen haben |
 
