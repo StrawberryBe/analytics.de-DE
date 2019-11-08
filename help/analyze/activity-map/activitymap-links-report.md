@@ -6,7 +6,7 @@ solution: Analytics
 title: Link-Bericht
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ Der Linkbericht enthält Daten zu den Links, die auf der aktuellen Seite gefunde
 
 Der Bericht „Links auf Seite“ bietet eine tabellarische Ansicht der Links. In einigen Fällen möchten Sie eventuell Link-Klicks (oder andere Metriken) nach Rang sortiert in einer einzigen Ansicht sehen. Dadurch können Sie die Links besser miteinander vergleichen. Erstellen Sie den Bericht „Links auf Seite“, der eine Liste enthält, auf der alle Links der Seite (mit ihrer Link-ID) nach Rang sortiert aufgeführt werden, einschließlich der Klickinformationen (Anzahl und %) und der Region der Seite. Klicken Sie auf die Schaltfläche für den Bericht „Links auf Seite“ in der Activity Map-Symbolleiste.
 
-Der Bericht **[!UICONTROL Links auf Seite]wird unter dem Browserframe im Activity Map-Dashboard geöffnet.**
+Der Bericht **[!UICONTROL Links auf Seite]** wird unter dem Browserframe im Activity Map-Dashboard geöffnet.
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## Standardmodus {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -36,11 +36,11 @@ Im Standardmodus zeigt der Bericht „Links auf Seite“ die Linkdaten für eine
  <tbody> 
   <tr> 
    <td colname="col1"> Rang </td> 
-   <td colname="col2"> Rang auf der Seite Im Standardmodus bleibt der Rangwert immer gleich, unabhängig davon, auf welche Spalte Sie klicken. </td> 
+   <td colname="col2"> Rang auf der Seite. Im Standardmodus bleibt der Rangwert immer gleich, unabhängig davon, auf welche Spalte Sie klicken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Link-ID </td> 
-   <td colname="col2">Die primäre ID des Links (weitere Informationen dazu, wie die primäre ID durch die [Neue Linkverfolgungsmethode] definiert wird) (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">Die primäre ID des Links (weitere Informationen darüber, wie die primäre ID von der [neuen Linktracking-Methode] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) definiert wird, finden Sie hier). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Klicks </td> 
@@ -63,11 +63,11 @@ Im Standardmodus zeigt der Bericht „Links auf Seite“ die Linkdaten für eine
 
 **Daten filtern**
 
-Wenn Sie einen bestimmten Link näher betrachten möchten, können Sie nach einem entsprechenden Begriff im Feld **[!UICONTROL Daten filtern]suchen.** Nur für die Links, die dem Suchkriterium entsprechen, werden Überlagerungen angezeigt. Ohne Filter werden die in den [Einstellungen für Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) angegebenen Überlagerungen angezeigt.
+Wenn Sie einen bestimmten Link näher betrachten möchten, können Sie nach einem entsprechenden Begriff im Feld **[!UICONTROL Daten filtern]** suchen. Nur für die Links, die dem Suchkriterium entsprechen, werden Überlagerungen angezeigt. Ohne Filter werden die in den [Einstellungen für Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) angegebenen Überlagerungen angezeigt.
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## Livemodus {#section_AC1967217B5A4532ACB01D33636F6770}
 
-Im Livemodus zeigt der Bericht "Links auf Seite"Trenddaten über mehrere Minuten an.
+Im Livemodus zeigt der Bericht „Links auf Seite“ die Trenddaten über mehrere Minuten an.
 
 ![](assets/links_on_page.png)
 
@@ -81,11 +81,11 @@ Im Livemodus zeigt der Bericht "Links auf Seite"Trenddaten über mehrere Minuten
  <tbody> 
   <tr> 
    <td colname="col1"> Rang </td> 
-   <td colname="col2"> Rang auf der Seite: Bei einer Verlaufs- oder Blasenüberlagerung bleibt der Rangwert gleich, unabhängig von der Spalte, auf die Sie klicken. Bei der Überlagerung „Gewinner und Verlierer“ ändert sich der Rangwert abhängig davon, für welche Links die Werte am meisten gestiegen bzw. gefallen sind. </td> 
+   <td colname="col2"> Rang auf der Seite. Bei einer Verlaufs- oder Blasenüberlagerung bleibt der Rangwert gleich, unabhängig von der Spalte, auf die Sie klicken. Bei der Überlagerung „Gewinner und Verlierer“ ändert sich der Rangwert abhängig davon, für welche Links die Werte am meisten gestiegen bzw. gefallen sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Link-ID </td> 
-   <td colname="col2">Die primäre ID des Links. Weitere Informationen dazu, wie die primäre ID durch die neue [Link-Verfolgungsmethode] definiert wird (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodologie.md). </td> 
+   <td colname="col2">Die primäre ID des Links. Weitere Informationen darüber, wie die primäre ID von der neuen [Linktracking-Methode] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md) definiert wird, finden Sie hier. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Link-Klicks </td> 
@@ -114,7 +114,7 @@ Im Livemodus zeigt der Bericht "Links auf Seite"Trenddaten über mehrere Minuten
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## Sortieren und Filtern {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 In einigen Fällen müssen Sie nur die Ergebnisse für eine bestimmte Region der Seite analysieren (z. B. im linken Bereich), um zu entscheiden, wie der Inhalt in dieser spezifischen Region auf der Webseite angeordnet werden soll.
 
