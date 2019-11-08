@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 seo-description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 seo-title: Linktracking – Häufig gestellte Fragen
 solution: Analytics
-title: Linktracking FAQs
+title: Linktracking  FAQs
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,12 +18,12 @@ Häufig gestellte Fragen zum Linktracking in Activity Map.
 
 >[!CAUTION]
 >
->**Durch Aktivierung der Activity Map-Verfolgung erfassen** Sie möglicherweise personenbezogene Daten (PII). Diese Daten können allein oder mit anderen Informationen verwendet werden, um eine einzelne Person zu identifizieren, zu kontaktieren oder zu finden oder um eine Person im Kontext zu identifizieren.
+>Beim Aktivieren von Activity Map-Tracking **erfassen Sie möglicherweise persönlich identifizierbare Informationen (PII)**. Diese Daten können alleine oder in Verbindung mit anderen Informationen dazu verwendet werden, eine Einzelperson zu identifizieren, zu kontaktieren oder zu lokalisieren oder eine Einzelperson im Kontext zu identifizieren.
 
 Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit dem Activity Map-Tracking gesammelt werden:
 
-* `Mailto` Links. Ein Mailto-Link ist ein HTML-Linktyp, der den standardmäßigen E-Mail-Client auf dem Computer für das Senden einer E-Mail aktiviert.
-* `User ID` Links, die in der Kopf- und Fußzeile einer Website angezeigt werden, sobald sich der Benutzer angemeldet hat.
+* `Mailto`-Links. Ein Mailto-Link ist ein HTML-Linktyp, der den standardmäßigen E-Mail-Client auf dem Computer für das Senden einer E-Mail aktiviert.
+* `User ID`-Links, die in der Kopf-/Fußzeile einer Website angezeigt werden, nachdem sich der Benutzer angemeldet hat.
 * Für Kreditinstitute wird möglicherweise die Kontonummer als ein Link angezeigt. Wenn darauf geklickt wird, wird der Linktext erfasst.
 * Auf Websites für das Gesundheitswesen werden PII-Daten ebenfalls als Links angezeigt. Durch Klicken auf diese Links wird der Linktext erfasst. Dadurch werden die PII-Daten gesammelt.
 
@@ -42,17 +42,17 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">Gibt es ein INPUT-Tag oder eine SUBMIT-Schaltfläche mit einem Wert oder einem untergeordneten Text? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">Ist dies ein INPUT-Tag mit dem Typ IMAGE und einer src-Eigenschaft? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">Ist das eine &lt;Schaltfläche&gt;? </li> 
-    </ul> <p>Wenn die Antwort auf eine der vorangehenden Fragen <b>Ja</b> ist, wird dieses Element als Link verwendet und verfolgt. </p> <p>Wichtig: Schaltflächen-Tags mit dem Attribut type="button" werden von AppMeasurement nicht als Links erachtet. Entfernen Sie ggf. "type='button'" für Schaltflächen-Tags und fügen Sie stattdessen role="button" oder submit="button" hinzu. </p> <p>Wichtig: Ein Anker-Tag mit einem href, das mit "#"beginnt, wird von AppMeasurement als interner Zielort betrachtet, nicht als Link (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die durch den Benutzer zu einer neuen Seite navigieren.</p></td> 
+    </ul> <p>Wenn die Antwort auf eine der vorangehenden Fragen <b>Ja</b> ist, wird dieses Element als Link verwendet und verfolgt. </p> <p>Wichtig: Schaltflächen-Tags mit dem Attribut type="button" werden von AppMeasurement nicht als Links erachtet. Entfernen Sie ggf. "type='button'" für Schaltflächen-Tags und fügen Sie stattdessen role="button" oder submit="button" hinzu. </p> <p>Wichtig: Ein Anker-Tag mit einem href, das mit „#“ beginnt, wird von AppMeasurement als interner Zielort erachtet, nicht als Link (da Sie die Seite nicht verlassen). Standardmäßig verfolgt Activity Map diese internen Zielorte nicht. Es werden nur Links verfolgt, die den Benutzer zu einer neuen Seite führen.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>F: Wie verfolgt Activity Map andere visuelle HTML-Elemente?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Über die <code> s.tl() </code> Funktion</b> <p>Wenn der Klick über einen s.tl-Aufruf erfolgte, erhält Activity Map außerdem dieses Klickereignis und bestimmt, ob die Zeichenfolgenvariable linkName gefunden wurde. Während der Ausführung von s.tl wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde und von dem der s.tl()-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Über die Funktion <code> s.tl() </code>.</b> <p>Wenn der Klick über einen s.tl-Aufruf erfolgte, erhält Activity Map außerdem dieses Klickereignis und bestimmt, ob die Zeichenfolgenvariable linkName gefunden wurde. Während der Ausführung von s.tl wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde und von dem der s.tl()-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Über die <code> s_objectID </code> Variable</b> <p>Beispiel: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Über die Variable <code> s_objectID </code></b> <p>Beispiel: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Wichtig: Bei Verwendung von s_objectID in Activity Map muss ein Semikolon (;) folgen. </p> </li> 
@@ -89,14 +89,15 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
      <li id="li_99372060646B43EF94C13A9C682CE693">Grund: Anker-Tag hat keine gültige href 
+       
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Grund: Weder <code> s_ObjectID </code> noch <code> s.tl() </code> sind vorhanden 
       <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Grund: Weder <code> s_ObjectID </code> noch <code> s.tl() </code> sind vorhanden 
       <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 
