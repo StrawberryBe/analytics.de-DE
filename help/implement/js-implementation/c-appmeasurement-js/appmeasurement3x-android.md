@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x für Android
-seo-description: Alte Dokumentation für AppMeasurement 3.x für Android
-seo-title: AppMeasurement 3.x für Android
+description: AppMeasurement 3.x für iOS
+seo-description: Alte Dokumentation für AppMeasurement 3.x für iOS
+seo-title: AppMeasurement 3.x für iOS
 solution: Analytics
 subtopic: Lesezeichen
-title: AppMeasurement 3.x für Android
+title: AppMeasurement 3.x für iOS
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x für Android
+# AppMeasurement 3.x für iOS
 
-*Hinweis: Dieses Dokument enthält ältere Informationen zu früheren Versionen von AppMeasurement, insbesondere zu den Versionen 3.x für Android.
+*Hinweis: Dieses Dokument enthält ältere Informationen zu früheren Versionen von AppMeasurement, insbesondere zu Version 3.x für iOS.
 Informationen zur aktuellen AppMeasurement-Implementierung finden Sie unter[Info zu AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).*
 
-*Zuletzt aktualisiert am 15.03.2018 AppMeasurement 3.x für Android*
+*Zuletzt aktualisiert am 15.03.2018 AppMeasurement 3.x für iOS*
 
-Mit Adobe AppMeasurement für Android können Sie native Android-Anwendungen in der Adobe Experience Cloud messen.
+Mit Adobe AppMeasurement für iOS können Sie native Apple iPhone- und iPad-Anwendungen in der Adobe Experience Cloud messen.
 
-Dieser Leitfaden ist in zwei Abschnitte unterteilt: einen Abschnitt für Analyst mit Adobe Analytics-Erfahrung und einen Abschnitt für Android-Entwickler mit Erfahrung bei der Entwicklung von Apps für Mobilgeräte.
+Dieser Leitfaden ist in zwei Abschnitte unterteilt: einen Abschnitt für Analyst mit Adobe Analytics-Erfahrung und einen Abschnitt für den OS-Entwickler mit Erfahrung bei der Entwicklung von Apps für Mobilgeräte.
 
-**Unterstützte Versionen**: Android 2.0 oder höher.
+**Unterstützte Versionen**: iOS 4.3 oder höher.
 
-**Laden Sie die Bibliotheksdownloadanweisungen und -links für alle AppMeasurement-Mobilplattformen** herunter. Sie finden sie auf der Seite Measuring and OptimizingMobile Applications unter Developer Connection. Zum Herunterladen der Bibliotheken müssen Sie über ein kostenloses Developer Connection-Konto oder eine SiteCatalyst-Anmeldung verfügen. Die Downloadlinks werden erst nach der Anmeldung angezeigt.
+**Laden Sie die Bibliotheksdownloadanweisungen und -links für alle AppMeasurement-Mobilplattformen** herunter. Sie finden sie auf der Seite Measuring and OptimizingMobile Applications unter Developer Connection. Zum Herunterladen der Bibliotheken müssen Sie über ein kostenloses Developer Connection-Konto oder eine Reports &amp; Analysen-Anmeldung verfügen. Die Downloadlinks werden erst nach der Anmeldung angezeigt.
 
 ## Schnellstart für Analysten
 
-Dieser Abschnitt erläutert Ihnen schrittweise, wie Sie die Android-Bibliothek implementieren und den für die Standardimplementierung benötigten Code hinzufügen können. Weiterhin sind Schritte enthalten, die Ihnen veranschaulichen, wie Sie benutzerspezifische Ereignisse und andere Daten senden können.
+Dieser Abschnitt erläutert Ihnen schrittweise, wie Sie die iOS-Bibliothek implementieren und den für die Standardimplementierung benötigten Code hinzufügen können. Weiterhin sind Schritte enthalten, die Ihnen veranschaulichen, wie Sie benutzerspezifische Ereignisse und andere Daten senden können.
 
 Analysten müssen die Mobilanwendungsberichte für die Report Suite aktivieren. Wenn Sie zusätzliche Metriken erfassen müssen, sollten Sie dem Entwickler eine Beschreibung der Kontextdatenvariablen zur Verfügung stellen, die durch die Anwendung gesendet werden sollen. So können Sie beispielsweise Ihren Entwickler damit beauftragen, den Benutzernamen in eine Kontextdatenvariable mit dem Namen `myco.username` einzusetzen, um den Benutzernamen nach der Anmeldung zu erfassen.
 
-### Mobilanwendungsberichte in SiteCatalyst aktivieren
+### Mobilanwendungsberichte in Analytics aktivieren
 
-SiteCatalyst bietet eine Oberfläche, über welche die Lebenszyklusverfolgung für Mobilanwendungen aktiviert werden kann. Durch diese Zuordnung erstellt SiteCatalyst automatisch die Mobilanwendungsberichte.
+Analytics bietet eine Oberfläche, über welche die Lebenszyklusverfolgung für Mobilanwendungen aktiviert werden kann. Durch diese Zuordnung kann Analytics die Mobilanwendungsberichte automatisch generieren.
 
 1. Öffnen Sie Admin-Konsole &gt; Report Suites &gt; Einstellungen bearbeiten &gt; Mobile Management (Mobilmanagement) &gt; Mobilanwendungs-Berichterstellung.
 1. Klicken Sie auf Lebenszyklusverfolgung für Mobilanwendungen aktivieren.
@@ -57,19 +57,17 @@ Wenn Sie Treffer speichern möchten, während das Gerät offline ist, muss Ihre 
 
 Nach dem Aktivieren der Offline-Verfolgung müssen alle Treffer mit einem Zeitstempel versehen werden. Andernfalls werden sie entfernt. Wenn sie aktuell AppMeasurement-Daten in einer Report Suite erfassen, in der auch Daten von JavaScript gesammelt werden, müssen Sie eventuell eine separate Report Suite für mobile Daten einrichten, um Datenverlust zu vermeiden. Sie können aber auch einen benutzerdefinierten Zeitstempel auf JavaScript-Treffer über die Variable s.timestamp einfügen.
 
-Wenn Sie sich nicht sicher sind, ob Ihre Report Suite zeitstempelfähig ist, wenden Sie sich an den Kundendienst.
+Wenden Sie sich an die Kundenunterstützung, wenn Sie sich nicht sicher sind, ob Ihre Report Suite zeitstempelfähig ist.
 
 ## Schnellstart für Entwickler
 
-Dieser Abschnitt erläutert Ihnen schrittweise die Auswahl und Konfiguration von Ereignissen, eVars und Props, die Sie zur Sammlung von Android-Daten verwenden werden. Weiterhin sind Schritte enthalten, mit denen Sie Verarbeitungsregeln erstellen können, um die von den Android-Bibliotheken gesendeten Kontextdaten in diese Variablen zu kopieren.
-
-Die Schritte zur Implementierung der Android-Bibliothek und zum Senden von Messungsdaten sind wie folgt:
+Dieser Abschnitt erläutert schrittweise die Schritte zur Implementierung der iOS-Bibliothek und zum Senden von Messungsdaten, darunter:
 
 * Bibliothek herunterladen
 * Bibliothek zu Ihrem Projekt hinzufügen
-* App-Berechtigungen hinzufügen
 * Kurze Hinweise zu TrackingHelper
 * Implementierung
+
 
 ### Bibliothek herunterladen
 
