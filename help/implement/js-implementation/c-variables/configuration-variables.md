@@ -9,24 +9,24 @@ title: Konfigurationsvariablen
 topic: Entwickler und Implementierung
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 ---
 
 
 # Konfigurationsvariablen Überblick
 
-Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung erfasst und verarbeitet werden. Die häufigsten Konfigurationsvariablen, die in der Regel im globalen JavaScript (AppMeasurement.js) festgelegt werden. Diese Variablen können bei Bedarf in Code und Links auf Ebene der Analytics-Seite festgelegt werden.
+Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung erfasst und verarbeitet werden. Die am häufigsten verwendeten Konfigurationsvariablen, die normalerweise in der globalen JavaScript AppMeasurement.js festgelegt werden. Diese Variablen können bei Bedarf in Code und Links auf Ebene der Analytics-Seite festgelegt werden.
 
-Nicht alle dieser Variablen werden standardmäßig im Code angezeigt, wenn Sie Code über **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code-Manager]** generieren. Einige dieser Konfigurationsvariablen sind möglicherweise nicht für die Implementierungsanforderungen Ihrer Site geeignet.
+Nicht alle dieser Variablen werden standardmäßig im Code angezeigt, wenn Sie Code über **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code-Manager]** generieren. Einige dieser Konfigurationsvariablen sind möglicherweise nicht auf Ihre Site-Implementierungsanforderungen anwendbar.
 
 Zu den Zielen der Verwendung dieser Konfigurationsvariablen zählen u. a.:
 
-* Tracking mehrerer Sites/Domänen
-* Verwenden von Währung für Einkäufe
-* Erfassen von Daten in verschiedenen Sprachen
-* Link-Tracking (Anzahl heruntergeladener Dateien, Links zu externen Sites)
-* Tracking einzigartiger Links für einzigartige Zwecke
+* Verfolgen mehrerer Websites/Domänen
+* Verwenden Sie eine beliebige Währung für Käufe
+* Erfassen von Daten in unterschiedlichen Sprachen
+* Linktracking (Anzahl der heruntergeladenen Dateien, Links zu externen Sites).
+* Verfolgen benutzerspezifischer Links zu eindeutigen Zwecken
 
 > [!NOTE][!DNL AppMeasurement]Für  müssen alle Konfigurationsvariablen vor dem ersten Aufruf der Tracking-Funktion (`t()`) eingestellt werden. Wenn Konfigurationsvariablen nach dem Aufruf von `t()` festgelegt werden, können unerwartete Ergebnisse auftreten. Um eine korrekte Datenerfassung sicherzustellen, müssen alle Konfigurationsvariablen über der Funktion `doPlugins` liegen:
 
