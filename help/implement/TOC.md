@@ -4,7 +4,7 @@ audience: Endanwender
 user-guide-title: Implementierungsleitfaden für Analytics
 user-guide-url: /content/help/de-DE/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [Zuordnung von Berichten zu Variablen](impl-testing/report-variable-mapping.md)
    + [Zuordnung von Variablen zu Berichten](impl-testing/var-report-mapping.md)
 + [Analytics für digitale Assistenten implementieren](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [Analytics für Mobilgeräte implementieren](mobile-device-sdk.md)
