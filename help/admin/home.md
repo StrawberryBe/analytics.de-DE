@@ -1,10 +1,10 @@
 ---
 title: Administratorhilfe für Analytics
 seo-title: Analytics-Produktvergleich
-description: 'null'
-seo-description: 'null'
+description: Hilfe zur Verwaltung von Adobe Analytics-Administratoren, einschließlich der Benutzer- und Produktverwaltung in der Admin-Konsole, Einrichtung von Report Suites, Variablen, Classifications und Datenerfassung.
+seo-description: Hilfe zur Verwaltung von Adobe Analytics-Administratoren, einschließlich der Benutzer- und Produktverwaltung in der Admin-Konsole, Einrichtung von Report Suites, Variablen, Classifications und Datenerfassung.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 # Administratorhandbuch für Analytics
 
 ![Banner](/assets/doc_banner_admin.png)
+
+Diese Hilfe richtet sich an Administratoren von Adobe Analytics. Er enthält Hilfe zur Benutzer- und Produktverwaltung in der Admin-Konsole, zum Einrichten von Report Suites, Variablen, Classifications und zur Datenerfassung.
 
 Adobe Analytics verfügt derzeit über zwei Bereiche für Administratoren:
 
