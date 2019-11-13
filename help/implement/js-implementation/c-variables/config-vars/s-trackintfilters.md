@@ -5,7 +5,7 @@ seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -75,3 +75,55 @@ Keine
 ```js
 s.linkInternalFilters="mysite.com,mysite.net,mypartner.net/adclick"
 ```
+
+## Automatische Verfolgung von Exitlinks und Dateidownloads
+
+Die JavaScript-Datei kann auf der Grundlage entsprechender Definitionsparameter für die automatische Verfolgung von Dateidownloads und Exitlinks konfiguriert werden.
+
+Die Parameter zur Kontrolle der automatischen Verfolgung lauten wie folgt:
+
+```
+s.trackDownloadLinks=true 
+s.trackExternalLinks=true 
+s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls" 
+s.linkInternalFilters="javascript:,mysite.com,[more filters here]" 
+s.linkLeaveQueryString=false 
+```
+
+Die Parameter `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. Wenn diese Option aktiviert ist, wird jeder Link mit einem Dateityp, der mit einem der Werte in übereinstimmt, automatisch als Dateidownload verfolgt. `linkDownloadFileTypes` Jeder Link mit einer URL, der keinen der Werte in enthält, `linkInternalFilters` wird automatisch als Ausstiegslink verfolgt.
+
+In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+
+### Beispiel 1
+
+Die Dateitypen `.jpg` und `.aspx` sind in `linkDownloadFileTypes` oben nicht enthalten, daher werden keine Klicks auf sie automatisch verfolgt und als Datei-Downloads gemeldet.
+
+The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+
+### Beispiel 2
+
+Mit den folgenden Einstellungen wird das unten stehende Beispiel als Exitlink gezählt:
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=false 
+ 
+//HTML file 
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site!</a> 
+```
+
+### Beispiel 3
+
+Mit den folgenden Einstellungen wird der unten angegebene Link nicht als Exitlink gezählt:
+
+```
+//JS file  
+s.linkInternalFilters="javascript:,mysite.com" 
+s.linkLeaveQueryString=true 
+ 
+//HTML  
+<a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
+```
+
+*Hinweis: Ein einzelner Link kann nur als Dateidownload oder Exitlink verfolgt werden, wobei der Dateidownload die Priorität hat. Wenn es sich bei einem Link sowohl um einen Ausstiegslink als auch um einen Dateidownload handelt, der auf den Parametern basiert,`linkDownloadFileTypes`und`linkInternalFilters`er wird als Datei-Download und nicht als Ausstiegslink verfolgt und berichtet.*
