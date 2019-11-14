@@ -1,20 +1,20 @@
 ---
 description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
-keywords: Analytics-Implementierung
+keywords: Analytics Implementation
 seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
 
 ---
 
 
 # s-linkURL
 
-Die URL des Links, die als Name verwendet wird, wenn „linkName“ nicht verfügbar ist. Kann auf jede beliebige Zeichenfolge eingestellt werden. Dies ist der Parameter `pev1` in der Bildanforderung.
+The URL of the link, which acts as the name if a `linkName` does not exist. Kann auf jede beliebige Zeichenfolge eingestellt werden. Dies ist der Parameter `pev1` in der Bildanforderung.
 
-If set with `linkType`, an image request will be sent as a download, custom or exit link.
+If set with `linkType`, an image request will be sent as a download, custom, or exit link.
 
 **Beispiel**
 
