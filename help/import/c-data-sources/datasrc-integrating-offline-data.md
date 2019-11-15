@@ -1,14 +1,12 @@
 ---
 description: Data Sources bietet zwei zusätzliche Möglichkeiten, um Ereignisse, die offline auftreten, in Ihre Online-Daten zu integrieren.
-seo-description: Data Sources bietet zwei zusätzliche Möglichkeiten, um Ereignisse, die offline auftreten, in Ihre Online-Daten zu integrieren.
-seo-title: Transaktions- und Kundenintegration
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Transaktions- und Kundenintegration
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
