@@ -1,13 +1,11 @@
 ---
 description: Beschreibt, wie Merchandising-Variablen aktiviert und implementiert werden.
-keywords: Analytics-Implementierung;Merchandising;Variable;Produktsyntax;Konversionsvariablensyntax;s.products
-seo-description: Beschreibt, wie Merchandising-Variablen aktiviert und implementiert werden.
-seo-title: Implementierung einer Merchandising-Variable
+keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 solution: Analytics
 title: Implementierung einer Merchandising-Variable
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: f3c3a3c74434586f2bd8bcf3c23f488994129394
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
