@@ -1,13 +1,11 @@
 ---
 description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
-keywords: Datenfeed;Fehlerbehebung
-seo-description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
-seo-title: Fehlerbehebung bei Daten-Feeds
+keywords: Data Feed;troubleshooting
 solution: Analytics
 title: Fehlerbehebung bei Daten-Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
