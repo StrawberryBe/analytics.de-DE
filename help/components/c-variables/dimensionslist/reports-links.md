@@ -1,13 +1,11 @@
 ---
 description: Zeigt die Links an, auf die Besucher Ihrer Website klicken. Dazu gehören Links, auf die Benutzer zum Verlassen Ihrer Site klicken, oder Downloadlinks.
-seo-description: Zeigt die Links an, auf die Besucher Ihrer Website klicken. Dazu gehören Links, auf die Benutzer zum Verlassen Ihrer Site klicken, oder Download-Links.
-seo-title: Links
 solution: Analytics
 title: Links
-topic: Berichte
+topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
