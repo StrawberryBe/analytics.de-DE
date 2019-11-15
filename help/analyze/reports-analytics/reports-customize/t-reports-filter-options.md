@@ -1,13 +1,11 @@
 ---
 description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
-seo-description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
-seo-title: Filtern von Berichtsdaten
 solution: Analytics
 title: Filtern von Berichtsdaten
-topic: Reports and Analytics
-uuid: b6dcaf7-61f0-4793-870d-e1d156575d5a
+topic: Reports and analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
