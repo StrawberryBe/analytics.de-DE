@@ -2,9 +2,9 @@
 description: Adobe Analytics bietet verschiedene Metriken und Dimensionen zur Besuchszeit. Erfahren Sie mehr über die Funktionsweise und die Berechnung solcher Metriken.
 solution: Analytics
 title: Besuchszeit
-topic: Metriken
+topic: Metrics
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -38,7 +38,9 @@ Die durchschnittliche Zeit, die Besucher während der gesamten Lebensdauer des B
 
 ## Durchschnittliche Besuchszeit pro Site (Sekunden)
 
-Die durchschnittliche Besuchszeit auf Ihrer Site mit dem angegebenen Dimensionswert. Diese Metrik wird in der Regel mit einer Datumsdimension gepaart, um die über einen bestimmten Zeitraum verbrachte Zeit anzuzeigen. Die ungefähre Berechnung ist `Total seconds spent / (Sequences - Bounces)`die. Sequenzen sind eine Reihe von Treffern, bei denen sich der Dimensionswert nicht geändert hat. In den meisten Fällen verwenden Sie stattdessen die Zeit pro Besuch.
+Die durchschnittliche auf Ihrer Site verbrachte Zeit, die normalerweise mit einer Datumsdimension gepaart wird. Obwohl diese Metrik in der Regel die Besuchszeit im Zeitverlauf anzeigt, kann sie auch mit Dimensionen als Alternative zur Besuchszeit pro Besuch verwendet werden. Die ungefähre Berechnung ist `Total seconds spent / (Sequences - Bounces)`die. Sequenzen sind eine Reihe von Treffern, bei denen sich der Dimensionswert nicht geändert hat.
+
+> [!NOTE] Die Besuchszeit pro Besuch und die durchschnittliche Besuchszeit pro Site sind ähnliche Metriken. Der Unterschied zwischen diesen beiden Metriken ist ihr Nenner. Besuchszeit pro Besuch verwendet `visits - bounces`wird, während die durchschnittliche Besuchszeit pro Site verwendet `sequences - bounces`. Auf Besuchsebene erscheinen diese Metriken ähnlich, können jedoch auf Trefferebene einige Unterschiede aufweisen.
 
 ## Durchschnittliche Besuchszeit pro Seite
 
