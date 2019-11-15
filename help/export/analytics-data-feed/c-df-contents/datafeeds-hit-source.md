@@ -1,14 +1,12 @@
 ---
 description: Suchtabelle zur Bestimmung der Quelle eines Treffers auf der Grundlage des Werts „page_event“.
-keywords: Datenfeed; Treffer; Quelle
-seo-description: Suchtabelle zur Bestimmung der Quelle eines Treffers auf der Grundlage des Werts „page_event“.
-seo-title: Trefferquellensuche
+keywords: Data Feed;hit;source
 solution: Analytics
 title: Trefferquellensuche
-topic: Reports and Analytics
-uuid: b 4 ef 2366-a 7 c 3-421 b -8 dc 6-279706 fe 277 f
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
