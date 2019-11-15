@@ -1,13 +1,11 @@
 ---
 description: Die Adobe Engineering Services-Gruppe kann ein benutzerdefiniertes Projekt einrichten, um Ihre Daten mithilfe von SFTP an ein externes FTP-Konto umzuleiten.
 keywords: ftp;sftp
-seo-description: Die Adobe Engineering Services-Gruppe kann ein benutzerdefiniertes Projekt einrichten, um Ihre Daten mithilfe von SFTP an ein externes FTP-Konto umzuleiten.
-seo-title: Adobe-Daten an ein externes FTP-Konto mit SFTP senden
 solution: Analytics
 title: Adobe-Daten an ein externes FTP-Konto mit SFTP senden
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
