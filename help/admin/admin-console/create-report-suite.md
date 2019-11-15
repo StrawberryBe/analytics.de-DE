@@ -1,10 +1,8 @@
 ---
 title: Report Suite erstellen
-seo-title: ' Report Suite in Adobe Analytics erstellen '
 description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics.
-seo-description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
