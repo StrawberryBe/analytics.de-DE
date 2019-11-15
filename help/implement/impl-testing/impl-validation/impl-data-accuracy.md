@@ -1,14 +1,12 @@
 ---
 description: Um die Genauigkeit von Daten zu beurteilen, werden Daten aus einem Bericht mit bekannten und nachprüfbaren Datenpunkten verglichen.
-keywords: Analytics-Implementierung
-seo-description: Um die Genauigkeit von Daten zu beurteilen, werden Daten aus einem Bericht mit bekannten und nachprüfbaren Datenpunkten verglichen.
-seo-title: Beurteilung der Genauigkeit von Daten
+keywords: Analytics Implementation
 solution: Analytics
 title: Beurteilung der Genauigkeit von Daten
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
