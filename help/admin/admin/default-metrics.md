@@ -1,22 +1,19 @@
 ---
-description: In Analytics wird ein Standardsatz an Metriken in allen Konversionsberichten angezeigt, es sei denn, ein Benutzer wählt einen benutzerdefinierten Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. Sie können nicht mehrere Standardmetriken einer Report Suite gleichzeitig aktualisieren. Diese Einstellungen spiegeln nicht unbedingt die Reihenfolge wider, in der die Standardmetriken angezeigt werden.
-seo-description: In Analytics wird ein Standardsatz an Metriken in allen Konversionsberichten angezeigt, es sei denn, ein Benutzer wählt einen benutzerdefinierten Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. Sie können nicht mehrere Standardmetriken einer Report Suite gleichzeitig aktualisieren. Diese Einstellungen spiegeln nicht unbedingt die Reihenfolge wider, in der die Standardmetriken angezeigt werden.
-seo-title: Standardmetrik
+description: Analytics zeigt einen Standardsatz von Metriken in allen Konversionsberichten an, es sei denn, ein Benutzer wählt einen benutzerspezifischen Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. Sie können nicht mehrere Standardmetriken einer Report Suite gleichzeitig aktualisieren. Diese Einstellungen spiegeln nicht unbedingt die Reihenfolge wider, in der die Standardmetriken angezeigt werden.
 solution: Analytics
 title: Standardmetriken
-topic: Admin Tools
-uuid: 85 d 50082-aab 6-4 c 4 f-b 88 b -77 c 9 a 35 b 3 f 6 e
+topic: Admin tools
+uuid: 85d50082-aab6-4c4f-b88b-77c9a35b3f6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Standardmetrik
 
-In Analytics wird ein Standardsatz an Metriken in allen Berichten und Projekten angezeigt, es sei denn, ein Benutzer wählt einen benutzerdefinierten Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. Sie können nicht mehrere Standardmetriken einer Report Suite gleichzeitig aktualisieren. Diese Einstellungen spiegeln nicht unbedingt die Reihenfolge wider, in der die Standardmetriken angezeigt werden.
+Analytics zeigt einen Standardsatz von Metriken in allen Berichten und Projekten an, es sei denn, ein Benutzer wählt einen benutzerspezifischen Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. Sie können nicht mehrere Standardmetriken einer Report Suite gleichzeitig aktualisieren. Diese Einstellungen spiegeln nicht unbedingt die Reihenfolge wider, in der die Standardmetriken angezeigt werden.
 
 Weitere Informationen finden Sie unter
 
-*[Metrics in Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md)
-*[Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
+*[Metriken im Arbeitsbereich](/help/analyze/analysis-workspace/components/apply-create-metrics.md)für Analysen*[Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md)
