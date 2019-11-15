@@ -1,13 +1,11 @@
 ---
 description: Ein Ad Hoc Analysis-Bericht. In der Site-Analyse können Sie sehen, wie Besucher festgelegte Seiten und Ereignisse durchlaufen. Sie können beispielsweise den Traffic-Fluss zwischen Seiten, die Affinität zwischen Produkten und Marketingkanälen und den Fluss zwischen Kampagnen/Kanälen und Produktbestellungen beobachten. Sie können Seiten, Dimensionselemente (und Listen) sowie Metrikereignisse hineinziehen. Jede Säule steht für eines oder mehrere Dimensionselemente (Seiten) oder ein Ereignis. Pfeile stehen für den Fluss zwischen den Säulenwerten. Metriken sind den Säulenpositionen (X und Y), der Säulenbreite, Säulenhöhe und -farbe zugeordnet. Die Position, Größe und Farben ändern sich abhängig von den Metrikwerten.
-seo-description: Ein Ad Hoc Analysis-Bericht. In der Site-Analyse können Sie sehen, wie Besucher festgelegte Seiten und Ereignisse durchlaufen. Sie können beispielsweise den Traffic-Fluss zwischen Seiten, die Affinität zwischen Produkten und Marketingkanälen und den Fluss zwischen Kampagnen/Kanälen und Produktbestellungen beobachten. Sie können Seiten, Dimensionselemente (und Listen) sowie Metrikereignisse hineinziehen. Jede Säule steht für eines oder mehrere Dimensionselemente (Seiten) oder ein Ereignis. Pfeile stehen für den Fluss zwischen den Säulenwerten. Metriken sind den Säulenpositionen (X und Y), der Säulenbreite, Säulenhöhe und -farbe zugeordnet. Die Position, Größe und Farben ändern sich abhängig von den Metrikwerten.
-seo-title: Site-Analyse
 solution: Analytics
 title: Site-Analyse
-topic: Berichte
+topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
