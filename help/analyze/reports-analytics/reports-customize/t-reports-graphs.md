@@ -1,13 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Zielgruppe den größten Nutzen bietet.
-seo-description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpassen können, dass es für die vorgesehene Zielgruppe den größten Nutzen bietet.
-seo-title: Berichtsdiagramme ändern
 solution: Analytics
 title: Berichtsdiagramme ändern
-topic: Reports and Analytics
-uuid: c 2 e 81 c 6 c-bfe 9-4457-8 b 5 d -512255 ca 9711
+topic: Reports and analytics
+uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
