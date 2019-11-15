@@ -1,14 +1,12 @@
 ---
 description: So verwenden Sie eine Master-Report Suite als Vorlage, um Ihre Marketingkanalkonfiguration zu testen. Diese Vorlage kann zur Zeitersparnis in einer Massenaktualisierung für eine oder mehrere Produktions-Report Suites übernommen werden. Diese Aufgabe muss separat für Kanäle und Regelsätze erfolgen.
-seo-description: So verwenden Sie eine Master-Report Suite als Vorlage, um Ihre Marketingkanalkonfiguration zu testen. Diese Vorlage kann zur Zeitersparnis in einer Massenaktualisierung für eine oder mehrere Produktions-Report Suites übernommen werden. Diese Aufgabe muss separat für Kanäle und Regelsätze erfolgen.
-seo-title: Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites
 solution: Analytics
-subtopic: Marketingkanäle
+subtopic: Marketing channels
 title: Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
