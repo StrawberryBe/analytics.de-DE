@@ -1,14 +1,12 @@
 ---
 description: Da mobile Geräte über kleine Datenpakete namens „Beacon“ verfolgt werden (so wie sonst Besucher), stehen für diesen Zweck die meisten Berichte zur Verfügung und enthalten korrekte Daten.
-keywords: Analytics-Implementierung;Berichte;Mobilfunkprotokolle;Suchmaschinen;Keywords;Referrer-Domänen;Referrer;Geosegmentation;Domänen;Verbindungstyp;Zeitzone;Cookies;Java;JavaScript;Bildschirmfarben;Bildschirmauflösung;Browserbreite;Höhe;Netscape-Plug-in
-seo-description: Da mobile Geräte über kleine Datenpakete namens „Beacon“ verfolgt werden (so wie sonst Besucher), stehen für diesen Zweck die meisten Berichte zur Verfügung und enthalten korrekte Daten.
-seo-title: Berichte für Geräte mit Mobilfunkprotokollen
+keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
 solution: Analytics
 title: Berichte für Geräte mit Mobilfunkprotokollen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
