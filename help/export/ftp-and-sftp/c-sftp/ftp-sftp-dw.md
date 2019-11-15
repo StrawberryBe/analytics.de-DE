@@ -1,13 +1,11 @@
 ---
 description: Adobe unterstützt den Export von Data Warehouse-Anforderungen an SFTP-Server.
 keywords: ftp;sftp
-seo-description: Adobe unterstützt den Export von Data Warehouse-Anforderungen an SFTP-Server.
-seo-title: Data Warehouse-Anforderungen an SFTP-Server senden
 solution: Analytics
 title: Data Warehouse-Anforderungen an SFTP-Server senden
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
