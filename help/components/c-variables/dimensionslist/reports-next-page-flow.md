@@ -1,13 +1,11 @@
 ---
 description: Zeigt Pfadanzeigen oder die Anzahl der Male sowie Prozentzahlen an, die eine Seite innerhalb der Pfad-Einschränkungen angezeigt wurde. So kann die Seite der Datenschutzregeln z. B. insgesamt 10.000 Mal angezeigt worden sein, aber nur 500 dieser Seitenansichten erfolgten unmittelbar vor der Homepage. In diesem Fall würden Sie 500 Pfadanzeigen sehen. Sie können diesen Bericht auf Besuchs- oder Besucherebene anzeigen. Prozentwerte zur jeweiligen Seite stehen neben dem Seitennamen. Die Breite einer mit einer Seite verbundenen Zeile bildet den relativen Besuchsprozentsatz ab.
-seo-description: Zeigt Pfadanzeigen oder die Anzahl der Male sowie Prozentzahlen an, die eine Seite innerhalb der Pfad-Einschränkungen angezeigt wurde. So kann die Seite der Datenschutzregeln z. B. insgesamt 10.000 Mal angezeigt worden sein, aber nur 500 dieser Seitenansichten erfolgten unmittelbar vor der Homepage. In diesem Fall würden Sie 500 Pfadanzeigen sehen. Sie können diesen Bericht auf Besuchs- oder Besucherebene anzeigen. Prozentwerte zur jeweiligen Seite stehen neben dem Seitennamen. Die Breite einer mit einer Seite verbundenen Zeile bildet den relativen Besuchsprozentsatz ab.
-seo-title: Nächster Seitenfluss
 solution: Analytics
 title: Nächster Seitenfluss
-topic: Berichte
+topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
