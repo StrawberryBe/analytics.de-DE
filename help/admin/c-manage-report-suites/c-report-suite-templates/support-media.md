@@ -1,13 +1,11 @@
 ---
 description: Stellt allgemeine Einstellungen für eine Website bereit, auf der Artikel und Videos zum Produktsupport präsentiert werden.
-seo-description: Stellt allgemeine Einstellungen für eine Website bereit, auf der Artikel und Videos zum Produktsupport präsentiert werden.
-seo-title: Unterstützungsmedien
 solution: Analytics
 title: Unterstützungsmedien
-topic: Admin Tools
+topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
