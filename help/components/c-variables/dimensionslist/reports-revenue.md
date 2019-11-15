@@ -1,13 +1,11 @@
 ---
 description: Ermittelt die Höhe der Einnahmen, die mit allen Produkten in einem bestimmten Zeitraum generiert wurden.
-seo-description: Ermittelt die Höhe der Einnahmen, die mit allen Produkten in einem bestimmten Zeitraum generiert wurden.
-seo-title: Umsatz
 solution: Analytics
 title: Umsatz
-topic: Berichte
+topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -39,7 +37,7 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
 
    >[!NOTE]
    >
-   > Der Umsatz wird nicht multipliziert, wenn die Menge in einem einzigen Produkt erhöht wird. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >Der Umsatz wird nicht multipliziert, wenn die Menge in einem einzigen Produkt erhöht wird. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL Umsatz] rundet den Gesamtbetrag für einen Zeitraum auf den nächsten Währungsbetrag auf. Es wird nicht jedes einzelne Produkt oder jeder Hit gerundet.
 * Da in Analytics-Berichten jeder Tag auf den nächsten vollen Betrag gerundet wird, weicht die Summe der einzelnen Tage im Vergleich zum monatlichen Gesamtbetrag geringfügig ab. Denn der monatliche Gesamtbetrag ist nicht mit dem gerundeten Betrag der einzelnen Tage identisch. Es handelt sich um die absolute Summe, die auf den nächsten vollen Betrag gerundet wird.
