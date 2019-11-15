@@ -1,13 +1,11 @@
 ---
 description: Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Darüber hinaus bietet die Berichterstellung eine Option für einen komplett individualisierbaren Kalender, den Sie selbst einrichten können.
-seo-description: Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Darüber hinaus bietet die Berichterstellung eine Option für einen komplett individualisierbaren Kalender, den Sie selbst einrichten können.
-seo-title: Kalender benutzerspezifisch einstellen
 solution: Analytics
 title: Kalender benutzerspezifisch einstellen
-topic: Admin Tools
+topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
