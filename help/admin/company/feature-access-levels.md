@@ -1,18 +1,16 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Stufen der Funktion
-title: Stufen der Funktion
-uuid: bd 8 e 457 e-ac 81-4 ae 6-b 4 b 1-ae 582 a 025024
+description: 'null'
+title: Funktionszugriffsebenen
+uuid: bd8e457e-ac81-4ae6-b4b1-ae582a025024
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Stufen der Funktion
+# Funktionszugriffsebenen
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]** &gt; **[!UICONTROL Zugriffsrechte für Funktionen anzeigen]**
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]** &gt; Zugriffsebenen **[!UICONTROL anzeigen]**
 
 Diese Einstellungsgruppe ermöglicht Ihnen das Anzeigen der Zugriffsebene auf Adobe Analytics-Funktionen, für die Ihr Unternehmen über Berechtigungen verfügt. Einige Funktionen sind nur bei höheren Produkt-SKUs wie [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) verfügbar.
 
