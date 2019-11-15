@@ -1,14 +1,12 @@
 ---
 description: In diesen Schritten wird beschrieben, wie eine Benutzergruppe hinzugefügt wird.
-seo-description: In diesen Schritten wird beschrieben, wie eine Benutzergruppe hinzugefügt wird.
-seo-title: Hinzufügen einer Benutzergruppe
 solution: Analytics
-subtopic: Benutzer und Gruppen
+subtopic: Users and groups
 title: Hinzufügen einer Benutzergruppe
-topic: Admin Tools
+topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
