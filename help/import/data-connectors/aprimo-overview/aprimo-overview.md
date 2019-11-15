@@ -1,11 +1,9 @@
 ---
 description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit E-Mail-Marketing, um ein leistungsfähiges Tool zur Neudefinition der Erfolgsmessung und zum Targeting von Zielgruppen mit relevanterem Messaging zu erstellen.
-seo-description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit E-Mail-Marketing, um ein leistungsfähiges Tool zur Neudefinition der Erfolgsmessung und zum Targeting von Zielgruppen mit relevanterem Messaging zu erstellen.
-seo-title: Aprimo Data Connector for Adobe Analytics
 title: Aprimo Data Connector for Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
