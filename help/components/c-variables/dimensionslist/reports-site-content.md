@@ -1,13 +1,11 @@
 ---
 description: Zeigt an, welche Seiten und Bereiche Ihrer Site am aktivsten sind und welche Server am häufigsten genutzt werden.
-seo-description: Zeigt an, welche Seiten und Bereiche Ihrer Site am aktivsten sind und welche Server am häufigsten genutzt werden.
-seo-title: Site-Content
 solution: Analytics
 title: Site-Content
-topic: Berichte
+topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
