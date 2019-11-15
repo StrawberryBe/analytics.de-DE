@@ -1,14 +1,12 @@
 ---
 description: Zähler dienen zur Speicherung (und manchmal auch Anzeige) einer Zahl, die angibt, wie oft ein bestimmtes Ereignis oder ein bestimmter Vorgang eingetreten ist.
-keywords: Analytics-Implementierung;Props;s.prop;benutzerspezifischer Traffic;Zähler
-seo-description: Zähler dienen zur Speicherung (und manchmal auch Anzeige) einer Zahl, die angibt, wie oft ein bestimmtes Ereignis oder ein bestimmter Vorgang eingetreten ist.
-seo-title: Verwenden von Eigenschaften als Zähler
+keywords: Analytics Implementation;props;s.prop;custom traffic;counters
 solution: Analytics
 title: Verwenden von Eigenschaften als Zähler
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
