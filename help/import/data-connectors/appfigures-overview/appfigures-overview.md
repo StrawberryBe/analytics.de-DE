@@ -1,12 +1,10 @@
 ---
 description: Diese Adobe Data Connectors-Integration kombiniert die Leistung der integrierten App Store-Analyse von appFigures mit der direkten App-Verfolgung von Adobe Analytics, um leistungsstarke Analyse- und Optimierungsmöglichkeiten für Ihr Unternehmen zu schaffen.
 keywords: AppFigures
-seo-description: Diese Adobe Data Connectors-Integration kombiniert die Leistung der integrierten App Store-Analyse von appFigures mit der direkten App-Verfolgung von Adobe Analytics, um leistungsstarke Analyse- und Optimierungsmöglichkeiten für Ihr Unternehmen zu schaffen.
-seo-title: appFigures Data Connector for Adobe Analytics
 title: appFigures Data Connector for Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
