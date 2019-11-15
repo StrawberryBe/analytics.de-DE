@@ -1,11 +1,9 @@
 ---
-seo-description: Von Adobe Analytics gesammelte Daten werden für einen bestimmten Zeitraum gespeichert. Der Zeitraum, zu dem Adobe diese Daten speichert, ist von Vertrag zu Vertrag unterschiedlich und wird in der Datenaufbewahrungsrichtlinie eines Unternehmens beschrieben.
-seo-title: Datenaufbewahrungsrichtlinie für Adobe Analytics
 title: Datenaufbewahrungsrichtlinie
 description: Eine Datenaufbewahrungsrichtlinie bestimmt, wie lange Adobe Ihre Daten speichert.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
