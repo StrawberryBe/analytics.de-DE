@@ -1,13 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie mit dem Dynamic Tag Management Regeln erstellen.
-keywords: Dynamic Tag Management;Regel;Regel erstellen;Neue Regel;ereignisbasierte Regel;Seitenladeregel;Direktaufrufregel
-seo-description: In diesen Schritten wird beschrieben, wie Sie mit dem Dynamic Tag Management Regeln erstellen.
-seo-title: Neue Regel erstellen
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Neue Regel erstellen
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
