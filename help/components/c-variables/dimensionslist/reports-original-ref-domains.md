@@ -1,18 +1,16 @@
 ---
 description: Zeigt die ursprünglich verweisenden Stellen an, die die Kunden zu Ihrer Site führten. Da Kunden Ihre Site mehrmals besuchen können und es bei jedem Besuch eine andere verweisende Stelle geben kann, zeigt „Ursprünglich verweisende Domänen“, wie sie beim ersten Besuch auf Ihre Site verwiesen wurden. Diese Dimension zeigt die verweisenden Stellen nur nach der Stammdomäne an (aol.com, yahoo.de usw.).
-seo-description: Zeigt die ursprünglich verweisenden Stellen an, die die Kunden zu Ihrer Site führten. Da Kunden Ihre Site mehrmals besuchen können und es bei jedem Besuch eine andere verweisende Stelle geben kann, zeigt „Ursprünglich verweisende Domänen“, wie sie beim ersten Besuch auf Ihre Site verwiesen wurden. Diese Dimension zeigt die verweisenden Stellen nur nach der Stammdomäne an (aol.com, yahoo.de usw.).
-seo-title: Ursprüngliche Referrerdomänen
 solution: Analytics
-title: Ursprüngliche Referrerdomänen
-topic: 'Berichte    '
-uuid: 4 a 21 c 2 a 2-8507-4 d 25-8 d 75-f 5 a 5 a 20409 b 0
+title: Ursprünglich Referrerdomänen
+topic: Reports
+uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Ursprüngliche Referrerdomänen
+# Ursprünglich Referrerdomänen
 
 Zeigt die ursprünglich verweisenden Stellen an, die die Kunden zu Ihrer Site führten. Da Kunden Ihre Site mehrmals besuchen können und es bei jedem Besuch eine andere verweisende Stelle geben kann, zeigt „Ursprünglich verweisende Domänen“, wie sie beim ersten Besuch auf Ihre Site verwiesen wurden. Diese Dimension zeigt die verweisenden Stellen nur nach der Stammdomäne an (aol.com, yahoo.de usw.).
 
