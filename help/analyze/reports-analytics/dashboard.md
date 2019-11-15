@@ -1,14 +1,12 @@
 ---
 description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
-seo-description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
-seo-title: Dashboards und Kurzberichte
 solution: Analytics
 subtopic: Dashboards
 title: Dashboards und Kurzberichte
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
