@@ -1,14 +1,12 @@
 ---
 description: Metriken sind quantitative Informationen über Besucheraktivitäten, wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
-keywords: Analytics-Implementierung;Metriken;Traffic-Metrik;Konversionsmetrik;Videometrik;soziale Metrik;berechnete Metrik;Seitenansicht;Besuch;Unique Visitor
-seo-description: Metriken sind quantitative Informationen über Besucheraktivitäten, wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
-seo-title: Metriken
+keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
 solution: Analytics
 title: Metriken
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
