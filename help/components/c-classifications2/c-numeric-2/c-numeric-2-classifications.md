@@ -1,14 +1,12 @@
 ---
-description: Nummerisch-2-Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
-seo-description: Nummerisch-2-Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
-seo-title: Numerisch-2-Klassifizierungen – Übersicht
+description: Numerisch-2-Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
 solution: Analytics
 subtopic: Classifications
 title: Numerisch-2-Klassifizierungen – Übersicht
-topic: Admin Tools
+topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
