@@ -1,13 +1,11 @@
 ---
 description: Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
-seo-description: Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
-seo-title: Warteschlange für terminierte Berichte
 solution: Analytics
 title: Warteschlange für terminierte Berichte
-topic: Berichte
+topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
