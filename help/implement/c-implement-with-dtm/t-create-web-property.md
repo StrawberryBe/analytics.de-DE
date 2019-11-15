@@ -1,14 +1,12 @@
 ---
 description: Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
-keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Webeigenschaft;Eigenschaft
-seo-description: Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
-seo-title: Webeigenschaft erstellen
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
 solution: Analytics
 title: Webeigenschaft erstellen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehrere
 
 Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
-Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Webeigenschaften](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) in der Produktdokumentation zum dynamischen Tag-Management.
+Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) in der Produktdokumentation zum Dynamic Tag Management.
 
 1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
 
