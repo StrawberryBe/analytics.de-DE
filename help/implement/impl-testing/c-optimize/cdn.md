@@ -1,15 +1,13 @@
 ---
 description: Content Delivery Services oder Content Distribution Networks (CDNs) – wie Akamai oder Speedera – pushen Webinhalte näher an Netzwerk-Edges, sodass sich häufig angeforderte Dokumente näher bei dem Standort befinden, von dem aus auf sie zugegriffen wird.
-keywords: Analytics-Implementierung
-seo-description: Content Delivery Services oder Content Distribution Networks (CDNs) – wie Akamai oder Speedera – pushen Webinhalte näher an Netzwerk-Edges, sodass sich häufig angeforderte Dokumente näher bei dem Standort befinden, von dem aus auf sie zugegriffen wird.
-seo-title: Content Delivery Services/Networks
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fehlerbehebung
+subtopic: Troubleshooting
 title: Content Delivery Services/Networks
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
