@@ -1,14 +1,12 @@
 ---
 description: HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, als bereits von AppMeasurement gesammelt werden. In diesem Abschnitt werden die bei der Datenerfassung eingesetzten Header beschrieben.
-keywords: Analytics-Implementierung
-seo-description: HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, als bereits von AppMeasurement gesammelt werden. In diesem Abschnitt werden die bei der Datenerfassung eingesetzten Header beschrieben.
-seo-title: Datenerfassungs-HTTP-Header
+keywords: Analytics Implementation
 solution: Analytics
 title: Datenerfassungs-HTTP-Header
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
