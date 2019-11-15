@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Bereitstellen der Integration
 solution: Analytics
 title: Bereitstellen der Integration
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -66,4 +64,4 @@ Anzeigen der Konfiguration der ContactLab-Integration in der Adobe Experience Cl
 
       ![](assets/reporting.png)
 
-   1. Suchen Sie nach ContactLab-Berichten. Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+   1. Suchen Sie nach ContactLab-Berichten.  Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
