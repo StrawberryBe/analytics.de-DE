@@ -1,13 +1,11 @@
 ---
 description: Zeigt die Links, die die Besucher Ihrer Site gern aufrufen. Die Homepage Ihrer Website hat vermutlich mehrere Links, die zur selben Seite führen. Möglicherweise gibt es einen Grafik- und Text-Link, die beide zur selben Seite führen. Dieser Bericht zeigt den Prozentsatz der Besucher, die den Grafik-Link im Vergleich zum Text-Link verwenden.
-seo-description: Zeigt die Links, die die Besucher Ihrer Site gern aufrufen. Die Homepage Ihrer Website hat vermutlich mehrere Links, die zur selben Seite führen. Möglicherweise gibt es einen Grafik- und Text-Link, die beide zur selben Seite führen. Dieser Bericht zeigt den Prozentsatz der Besucher, die den Grafik-Link im Vergleich zum Text-Link verwenden.
-seo-title: Anwenderspezifischer Link
 solution: Analytics
 title: Anwenderspezifischer Link
-topic: Berichte
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
