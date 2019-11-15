@@ -1,14 +1,12 @@
 ---
 description: Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden.
-keywords: Analytics-Implementierung;Segment
-seo-description: Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden.
-seo-title: Segmente
+keywords: Analytics Implementation;segment
 solution: Analytics
 title: Segmente
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
