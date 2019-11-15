@@ -1,14 +1,12 @@
 ---
 description: Hinzufügen errechneter Metriken zu Marketingkanalberichten in Analytics.
-seo-description: Hinzufügen errechneter Metriken zu Marketingkanalberichten in Analytics.
-seo-title: In Marketing-Kanalberichten verwendete berechnete Metriken
 solution: Analytics
-subtopic: Marketingkanäle
+subtopic: Marketing channels
 title: In Marketing-Kanalberichten verwendete berechnete Metriken
-topic: Reports and Analytics
-uuid: b33d05b-4c85-436b-88da-396cb42ef01c
+topic: Reports and analytics
+uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
