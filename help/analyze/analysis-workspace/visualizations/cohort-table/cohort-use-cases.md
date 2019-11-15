@@ -1,14 +1,12 @@
 ---
 description: Beispiele für Anwendungsfälle für die Kohortenanalyse.
 keywords: Analysis Workspace
-seo-description: Beispiele für Anwendungsfälle für die Kohortenanalyse.
-seo-title: Anwendungsfälle für die Kohortenanalyse
 solution: Analytics
 title: Anwendungsfälle für die Kohortenanalyse
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
