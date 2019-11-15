@@ -1,16 +1,14 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Intelligente Warnhinweise - Anwendungsfälle
-title: Intelligente Warnhinweise - Anwendungsfälle
-uuid: e 848 f 004-c 044-4 c 7 e-a 0 ac -9 f 3 ea 2 df 9 a 05
+description: 'null'
+title: Intelligente Warnhinweise – Anwendungsfälle
+uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Intelligente Warnhinweise - Anwendungsfälle
+# Intelligente Warnhinweise – Anwendungsfälle
 
 ## Erstellen eines einfachen Warnhinweises, der nach zwei Segmenten gefiltert wird {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
