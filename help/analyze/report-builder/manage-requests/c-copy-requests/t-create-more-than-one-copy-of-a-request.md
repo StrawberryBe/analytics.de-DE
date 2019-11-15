@@ -1,13 +1,11 @@
 ---
 description: Sie können mehr als eine Kopie einer ursprünglichen Anforderung erstellen, indem Sie einen ausgewählten Zellenbereich mit so vielen Kopien dieser Anforderung wie möglich füllen.
-seo-description: Sie können mehr als eine Kopie einer ursprünglichen Anforderung erstellen, indem Sie einen ausgewählten Zellenbereich mit so vielen Kopien dieser Anforderung wie möglich füllen.
-seo-title: Mehrere Kopien einer Anforderung erstellen
 solution: Analytics
 title: Mehrere Kopien einer Anforderung erstellen
-topic: ReportBuilder
+topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
