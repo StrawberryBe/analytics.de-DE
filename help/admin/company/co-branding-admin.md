@@ -1,20 +1,18 @@
 ---
 description: Mit Hilfe der Seite „Co-Branding-Bild verwalten“ können Sie Ihr Firmenlogo in heruntergeladenen Berichten anzeigen.
-seo-description: Mit Hilfe der Seite „Co-Branding-Bild verwalten“ können Sie Ihr Firmenlogo in heruntergeladenen Berichten anzeigen.
-seo-title: Co-Branding
 solution: Analytics
 title: Co-Branding
-topic: Admin Tools
-uuid: 918 db 633-44 bb -4502-bd 04-98 a 6337 a 166 c
+topic: Admin tools
+uuid: 918db633-44bb-4502-bd04-98a6337a166c
 translation-type: tm+mt
-source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Co-Branding
 
-Auf der Seite "Co-Branding-Image verwalten" können Sie Ihr Firmenlogo in heruntergeladenen Reports &amp; Analysen-Berichten und Legacy-Dashboards anzeigen. Co-Branding wird im Analysis Workspace nicht verwendet.
+Auf der Seite "Co-Branding-Image verwalten"können Sie Ihr Firmenlogo in heruntergeladenen Berichten und Legacy-Dashboards in Reports &amp; Analysen anzeigen. Das Co-Branding wird im Arbeitsbereich für Analysen nicht verwendet.
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]** &gt; **[!UICONTROL Co-Branding der Adobe Experience Cloud]**
 
