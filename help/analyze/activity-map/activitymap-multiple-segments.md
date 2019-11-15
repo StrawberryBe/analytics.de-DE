@@ -1,13 +1,11 @@
 ---
 description: Ermöglicht Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
-seo-description: Ermöglicht Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
-seo-title: Kundensegmentierung
 solution: Analytics
 title: Kundensegmentierung
-topic: Activity Map
+topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,9 +14,9 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 Ermöglicht Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
 
-> [!NOTE] Die Segmentsteuerung ist nur im Standardmodus verfügbar, da die Adobe Analytics-Plattform keine Segmentierung von Echtzeitdaten unterstützt.
+> [!NOTE] Die Segmentsteuerung ist nur im Standardmodus verfügbar, da die Adobe Analytics-Plattform die Segmentierung von Echtzeitdaten nicht unterstützt.
 
-Sie können ein oder mehrere Segmente aus dem unten abgebildeten Dropdownmenü **[!UICONTROL Segmente]auswählen.** Die aufgelisteten Segmente sind entweder Ihre eigenen oder solche, die über „Reports &amp; Analytics“ für die ausgewählte Report Suite für Sie freigegeben wurden.
+Sie können ein oder mehrere Segmente aus dem unten abgebildeten Dropdownmenü **[!UICONTROL Segmente]** auswählen. Die aufgelisteten Segmente sind entweder Ihre eigenen oder solche, die über „Reports &amp; Analytics“ für die ausgewählte Report Suite für Sie freigegeben wurden.
 
 ![](assets/segments.png)
 
@@ -28,4 +26,4 @@ Sind mehrere Segmente ausgewählt, so lautet die Beschriftung der Segmentauswahl
 
 ![](assets/two_segments.png)
 
-Die ausgewählten Segmente werden auf alle in Activity Map dargestellten Analytics-Berichte angewendet, d. h. auf Überlagerungen sowie auf die Berichte **[!UICONTROL Links auf Seite]** und **Seitendetails[!UICONTROL .]**
+Die ausgewählten Segmente werden auf alle in Activity Map dargestellten Analytics-Berichte angewendet, d. h. auf Überlagerungen sowie auf die Berichte **[!UICONTROL Links auf Seite]** und **[!UICONTROL Seitendetails]**.
