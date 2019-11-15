@@ -1,14 +1,12 @@
 ---
 description: Inhaltshierarchien werden meist eingesetzt, um zu zeigen, welche verschiedenen Pfade Besucher von einer bestimmten Seite, Ebene usw. aus eingeschlagen haben.
-keywords: Analytics-Implementierung;Inhaltshierarchien;hier
-seo-description: Inhaltshierarchien werden meist eingesetzt, um zu zeigen, welche verschiedenen Pfade Besucher von einer bestimmten Seite, Ebene usw. aus eingeschlagen haben.
-seo-title: Zählen von Inhaltshierarchien
+keywords: Analytics Implementation;content hierachies;hier
 solution: Analytics
 title: Zählen von Inhaltshierarchien
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-translation-type: ht
-source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ In einigen Fällen ist die Verwendung von Props und der Variable *`hier`* sinnvo
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> Eigenschaftsvariablen </th> 
+   <th class="entry"> Props </th> 
    <th class="entry"> Hierarchie </th> 
   </tr> 
  </thead>
