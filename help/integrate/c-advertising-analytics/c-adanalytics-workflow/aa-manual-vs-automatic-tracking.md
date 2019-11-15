@@ -1,11 +1,9 @@
 ---
 description: Tracking bestimmt, wie Suchmaschinendaten von Ihrer Adobe Analytics-Implementierung verfolgt werden. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß durch die Suchmaschinendaten zu ergänzen.
-seo-description: Tracking bestimmt, wie Suchmaschinendaten von Ihrer Adobe Analytics-Implementierung verfolgt werden. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß durch die Suchmaschinendaten zu ergänzen.
-seo-title: Manueller Modus und automatischer Modus verfolgen
 title: Manueller Modus und automatischer Modus verfolgen
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
