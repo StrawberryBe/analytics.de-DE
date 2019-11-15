@@ -1,14 +1,12 @@
 ---
 description: Mit Ereignissen wird verfolgt, wann ein Besucher eine bestimmte Aktion ausgeführt hat.
-keywords: Analytics-Implementierung;Ereignis;Erfolgsereignis;Währungsereignis;benutzerspezifisches Ereignis
-seo-description: Mit Ereignissen wird verfolgt, wann ein Besucher eine bestimmte Aktion ausgeführt hat.
-seo-title: Ereignisse
+keywords: Analytics Implementation;event;success event;currency event;custom event
 solution: Analytics
 title: Ereignisse
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
