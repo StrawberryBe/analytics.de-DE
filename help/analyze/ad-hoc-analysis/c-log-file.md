@@ -1,13 +1,11 @@
 ---
 description: Die Protokolldatei ist eine Textdatei, in der der Server Daten speichert, die im Zusammenhang mit dem Abrufen von Dateien von einer Website stehen. Zu den erfassten Informationen zählen unter anderem Datum und Uhrzeit, verarbeitete URL, IP-Adressen und Status der Anfrage.
-seo-description: Die Protokolldatei ist eine Textdatei, in der der Server Daten speichert, die im Zusammenhang mit dem Abrufen von Dateien von einer Website stehen. Zu den erfassten Informationen zählen unter anderem Datum und Uhrzeit, verarbeitete URL, IP-Adressen und Status der Anfrage.
-seo-title: Protokolldatei
 solution: Analytics
 title: Protokolldatei
-topic: Ad Hoc Analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909base
+topic: Ad hoc analysis
+uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
