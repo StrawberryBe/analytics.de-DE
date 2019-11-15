@@ -1,13 +1,11 @@
 ---
 description: Gibt an, wie oft ein Wert als letzter Wert bei einem Besuch erfasst wird. Ausstiege können nur einmal pro Besuch auftreten.
-seo-description: Gibt an, wie oft ein Wert als letzter Wert bei einem Besuch erfasst wird. Ausstiege können nur einmal pro Besuch auftreten.
-seo-title: Ausstiege
 solution: Analytics
 title: Ausstiege
-topic: Metriken
+topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
