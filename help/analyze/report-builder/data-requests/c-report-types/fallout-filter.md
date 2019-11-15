@@ -1,13 +1,11 @@
 ---
 description: Beschreibt die Schritte, die beim Anwenden von Filtern bei Fallout-Berichten durchgeführt werden müssen.
-seo-description: Beschreibt die Schritte, die beim Anwenden von Filtern bei Fallout-Berichten durchgeführt werden müssen.
-seo-title: Fallout-Bericht mit dem Anforderungs-Assistenten filtern
 solution: Analytics
 title: Fallout-Bericht mit dem Anforderungs-Assistenten filtern
-topic: ReportBuilder
+topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
