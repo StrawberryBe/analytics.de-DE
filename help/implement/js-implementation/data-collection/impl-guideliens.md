@@ -1,14 +1,12 @@
 ---
 description: Bei Einhaltung dieser Anleitung werden überall die gleichen Cookie-Domänen verwendet, sodass Besuche auch über verschiedene Typen von Implementierungen hinweg verfolgt werden können.
-keywords: Analytics-Implementierung
-seo-description: Bei Einhaltung dieser Anleitung werden überall die gleichen Cookie-Domänen verwendet, sodass Besuche auch über verschiedene Typen von Implementierungen hinweg verfolgt werden können.
-seo-title: Richtlinien für die Implementierung
+keywords: Analytics Implementation
 solution: Analytics
 title: Richtlinien für die Implementierung
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
