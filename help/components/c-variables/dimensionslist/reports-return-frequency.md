@@ -1,13 +1,11 @@
 ---
 description: Zeigt Ihnen, wie viel Zeit zwischen Besuchen zurückkehrender Besucher vergeht, sowie die Anzahl der Besucher, die in die einzelnen Zeitkategorien fallen. Verwenden Sie den Bericht, um zu ermitteln, wie lange rückkehrende Besucher im Durchschnitt ihre Website nicht besuchen, und um Trends bei rückkehrenden Besuchern zu sehen.
-seo-description: Zeigt Ihnen, wie viel Zeit zwischen Besuchen zurückkehrender Besucher vergeht, sowie die Anzahl der Besucher, die in die einzelnen Zeitkategorien fallen. Verwenden Sie den Bericht, um zu ermitteln, wie lange rückkehrende Besucher im Durchschnitt ihre Website nicht besuchen, und um Trends bei rückkehrenden Besuchern zu sehen.
-seo-title: Rückkehrhäufigkeit
 solution: Analytics
 title: Rückkehrhäufigkeit
-topic: Berichte
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
