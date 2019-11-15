@@ -1,13 +1,11 @@
 ---
 description: Zeigt eine Aufschlüsselung der Suchkeywords an.
-seo-description: Zeigt eine Aufschlüsselung der Suchkeywords an.
-seo-title: Suchkeywords
 solution: Analytics
 title: Suchkeywords
-topic: 'Berichte    '
-uuid: db 9 d 477 b-b 711-4 b 93-9 c 25-3 aebe 5 f 2 ace 6
+topic: Reports
+uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ Zeigt eine Aufschlüsselung der Suchkeywords an.
 
 >[!IMPORTANT]
 >
->Bei gebührenpflichtiger und kostenloser Suche wurden Suchmaschinen gestoppt (in den meisten Fällen die Suchbegriffe als Teil der verweisenden Stelle). Demzufolge klassifiziert Adobe die Google (Bing/Yahoo)-Domäne immer als Suche. Basierend auf dem Format und Inhalt der verweisenden Stelle (auch ohne Suchbegriffe) kann Adobe oftmals feststellen, dass es sich um das Ergebnis einer Suche handelt. Daher wird die Suche mit den nicht verfügbaren Suchbegriffen gezählt. [Mehr …](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Bei der gebührenpflichtigen und kostenlosen Suche stellten Suchmaschinen (in den meisten Fällen) die Suchbegriffe als Teil der verweisenden Stelle nicht mehr bereit. Demzufolge klassifiziert Adobe die Google (Bing/Yahoo)-Domäne immer als Suche. Basierend auf dem Format und Inhalt der verweisenden Stelle (auch ohne Suchbegriffe) kann Adobe oftmals feststellen, dass es sich um das Ergebnis einer Suche handelt. Daher wird die Suche mit den nicht verfügbaren Suchbegriffen gezählt. [Mehr …](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## Zuordnung, Ablauf und spezielle Werte {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -33,7 +31,7 @@ Zeigt eine Aufschlüsselung der Suchkeywords an.
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
