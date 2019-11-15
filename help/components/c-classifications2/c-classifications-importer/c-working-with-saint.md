@@ -1,14 +1,12 @@
 ---
 description: Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
-seo-description: Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
-seo-title: Klassifizierungsimport – Übersicht
 solution: Analytics
 subtopic: Classifications
 title: Klassifizierungsimport – Übersicht
-topic: Admin Tools
+topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
