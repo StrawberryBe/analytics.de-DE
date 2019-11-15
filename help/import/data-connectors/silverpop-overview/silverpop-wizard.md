@@ -1,11 +1,9 @@
 ---
 description: Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-Integrationsprozess.
-seo-description: Der Data Connectors-Integrationsassistent führt Sie durch den Data Connectors-Integrationsprozess.
-seo-title: Silverpop-Integration
 title: Silverpop-Integration
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ So konfigurieren Sie die Integration:
    <td colname="col3"> <p>Diese Integration erstellt die von Partnern definierten Segmente, die im Abschnitt Partnersegmente angezeigt werden. </p> <p>Darüber hinaus können Sie vorhandene Segmente auf Report Suite-Ebene auswählen, die in die Integration einbezogen werden sollen. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> Zugriffsanforderungen </p> </td> 
+   <td colname="col2"> <p>Zugriffsanforderungen </p> </td> 
    <td colname="col03"> <p>(3) Dateneinstellungen </p> </td> 
    <td colname="col3"> <p> (Erforderlich) Aktivieren Sie <span class="uicontrol"> Zulassen, dass diese Integration Produktdaten</span>herunterlädt. </p> <p>Optional: Erlauben Sie dieser Integration, Umsatz, Bestellungen und Einheiten herunterzuladen. </p> </td> 
   </tr> 
