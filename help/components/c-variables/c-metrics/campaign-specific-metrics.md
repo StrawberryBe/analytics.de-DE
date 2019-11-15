@@ -1,13 +1,11 @@
 ---
-description: Kampagnenspezifische Metriken sind feste nummerische Werte, die einer Kampagne zugeordnet sind, z. B. die „harten“ Kosten einer Kampagne.
-seo-description: Kampagnenspezifische Metriken sind feste nummerische Werte, die einer Kampagne zugeordnet sind, z. B. die „harten“ Kosten einer Kampagne.
-seo-title: Kampagnenspezifische Metriken
+description: Kampagnenspezifische Metriken sind feste numerische Werte, die einer Kampagne zugeordnet sind, z. B. die „harten“ Kosten einer Kampagne.
 solution: Analytics
 title: Kampagnenspezifische Metriken
-topic: Metriken
-uuid: 7 dacebc 7-2 ab 5-4338-8970-2 a 804 ad 8 df 72
+topic: Metrics
+uuid: 7dacebc7-2ab5-4338-8970-2a804ad8df72
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
