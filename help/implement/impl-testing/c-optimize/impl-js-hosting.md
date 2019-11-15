@@ -1,15 +1,13 @@
 ---
 description: Bringen Sie den Aufruf für die JavaScript-Bibliotheksdatei am Anfang der Seite unter, damit dafür gesorgt ist, dass das Bild als eines der ersten Elemente geladen wird.
-keywords: Analytics-Implementierung
-seo-description: Bringen Sie den Aufruf für die JavaScript-Bibliotheksdatei am Anfang der Seite unter, damit dafür gesorgt ist, dass das Bild als eines der ersten Elemente geladen wird.
-seo-title: Speicherort der JavaScript-Datei und parallele Downloads
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fehlerbehebung
+subtopic: Troubleshooting
 title: Speicherort der JavaScript-Datei und parallele Downloads
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
