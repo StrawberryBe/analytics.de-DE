@@ -1,11 +1,9 @@
 ---
 description: Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
-seo-description: Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
-seo-title: Projektdateien freigeben und planen
 title: Projektdateien freigeben und planen
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
