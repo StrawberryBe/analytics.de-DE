@@ -1,14 +1,12 @@
 ---
 description: Die .js-Datei kann so konfiguriert werden, dass sie automatisch eine Report Suite-ID auswählt.
-keywords: Analytics-Implementierung
-seo-description: Die .js-Datei kann so konfiguriert werden, dass sie automatisch eine Report Suite-ID auswählt.
-seo-title: Report Suite-IDs – Dynamische Konten
+keywords: Analytics Implementation
 solution: Analytics
 title: Report Suite-IDs – Dynamische Konten
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
