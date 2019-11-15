@@ -1,13 +1,11 @@
 ---
 description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine   Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
-seo-description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine   Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
-seo-title: Anomalieerkennung
 solution: Analytics
 title: Anomalieerkennung
-topic: ReportBuilder
+topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
