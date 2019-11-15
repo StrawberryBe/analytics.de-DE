@@ -1,14 +1,12 @@
 ---
 description: Vergewissern Sie sich, dass die von Serverskripts oder -code ausgefüllten Variablen keine Anführungszeichen ausgeben können, die zu Konflikten bei den Werten führen.
-keywords: Analytics-Implementierung
-seo-description: Vergewissern Sie sich, dass die von Serverskripts oder -code ausgefüllten Variablen keine Anführungszeichen ausgeben können, die zu Konflikten bei den Werten führen.
-seo-title: Variablen und Werte
+keywords: Analytics Implementation
 solution: Analytics
 title: Variablen und Werte
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
