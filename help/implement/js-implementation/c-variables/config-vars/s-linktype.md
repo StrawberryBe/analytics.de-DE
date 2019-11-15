@@ -1,10 +1,10 @@
 ---
 description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
-keywords: Analytics-Implementierung
+keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -17,7 +17,7 @@ Enthält den automatisch ermittelten Linktyp (wenn vorhanden). Kann auf einen de
     * `e` (Ausstieg)
     * `o` (benutzerspezifisch/sonstige)
 
-Dies ist der Parameter `pe` in der Bildanforderung. Wenn mit `linkURL` oder `linkName` festgelegt, wird ein Server-Aufruf als Downloadlink, Exitlink oder benutzerspezifischer Link gesendet.
+Dies ist der Parameter `pe` in der Bildanforderung. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
 
 *Hinweis: Die Variable[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)kann nicht für einen Datei-Download, Exitlink oder benutzerspezifischen Link festgelegt werden, da jeder Linktyp keine Seitenansicht und keinen zugehörigen Seitennamen darstellt.*
 
