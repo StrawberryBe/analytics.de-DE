@@ -1,13 +1,11 @@
 ---
 description: Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Marketing-Berichte (nur Lesezeichen und Dashboards) in Webseiten einbetten können. Personen in Ihrem Unternehmen, die keinen Zugriff auf Marketing-Berichte haben, können damit die entsprechenden Daten betrachten.
-seo-description: Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Marketing-Berichte (nur Lesezeichen und Dashboards) in Webseiten einbetten können. Personen in Ihrem Unternehmen, die keinen Zugriff auf Marketing-Berichte haben, können damit die entsprechenden Daten betrachten.
-seo-title: Publishing-Widget
 solution: Analytics
 title: Publishing-Widget
-topic: Admin Tools
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
