@@ -1,14 +1,12 @@
 ---
 description: Information zur .txt-Vorlage von Datenquelle.
-seo-description: Information zur .txt-Vorlage von Datenquelle.
-seo-title: Importdatei-Referenz
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Importdatei-Referenz
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
