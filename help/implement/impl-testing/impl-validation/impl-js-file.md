@@ -1,14 +1,12 @@
 ---
 description: Stellen Sie sicher, dass auf der Seite korrekt auf die JS-Datei verwiesen wird. Der Pfad kann entweder relativ zum aktuellen Dokument oder in absoluter Form angegeben werden.
-keywords: Analytics-Implementierung
-seo-description: Stellen Sie sicher, dass auf der Seite korrekt auf die JS-Datei verwiesen wird. Der Pfad kann entweder relativ zum aktuellen Dokument oder in absoluter Form angegeben werden.
-seo-title: JavaScript-JS-Datei
+keywords: Analytics Implementation
 solution: Analytics
 title: JavaScript-JS-Datei
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
