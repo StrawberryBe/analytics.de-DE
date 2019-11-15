@@ -1,14 +1,12 @@
 ---
 description: Wenn Sie den Experience Cloud-Debugger ausführen, suchen Sie möglicherweise nach der Variable „s_account“.
-keywords: Analytics-Implementierung
-seo-description: Wenn Sie den Experience Cloud-Debugger ausführen, suchen Sie möglicherweise nach der Variable „s_account“.
-seo-title: Variable „s_account“ im Debugger identifizieren
+keywords: Analytics Implementation
 solution: Analytics
 title: Variable „s_account“ im Debugger identifizieren
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: aae1763a-07e0-45e7-9695-15862d77c0ec
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
