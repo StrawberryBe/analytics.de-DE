@@ -1,13 +1,11 @@
 ---
 description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie sie speichern, indem Sie in Excel auf Datei > Speichern oder Datei > Speichern als klicken. ReportBuilder ermittelt, ob der Bericht Anforderungen enthält. Wenn Sie auf eine dieser beiden Speicheroptionen klicken, wird das Dialogfeld „Arbeitsmappe speichern als“ angezeigt.
-seo-description: Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie sie speichern, indem Sie in Excel auf Datei > Speichern oder Datei > Speichern als klicken. ReportBuilder ermittelt, ob der Bericht Anforderungen enthält. Wenn Sie auf eine dieser beiden Speicheroptionen klicken, wird das Dialogfeld „Arbeitsmappe speichern als“ angezeigt.
-seo-title: Arbeitsmappe mit Anforderungen speichern
 solution: Analytics
 title: Arbeitsmappe mit Anforderungen speichern
-topic: ReportBuilder
+topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
