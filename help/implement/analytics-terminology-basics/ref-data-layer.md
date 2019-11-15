@@ -1,14 +1,12 @@
 ---
 description: Eine „Datenschicht“ ist ein Framework von JavaScript-Objekten, die Entwickler in Seiten einfügen.
-keywords: Analytics-Implementierung;Datenschicht;digitalData
-seo-description: Eine „Datenschicht“ ist ein Framework von JavaScript-Objekten, die Entwickler in Seiten einfügen. Datenschichten können von Tracking-Tools (einschließlich Tag Management-Systemen wie dem Dynamic Tag Management) verwendet werden, um Berichte auszufüllen.
-seo-title: Datenschicht
+keywords: Analytics Implementation;data layer;digitalData
 solution: Analytics
 title: Datenschicht
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
