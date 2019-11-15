@@ -1,13 +1,11 @@
 ---
 description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites). Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
-seo-description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Webseite. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites). Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
-seo-title: Report Suite Manager
 solution: Analytics
 title: Report Suite Manager
-topic: Admin Tools
+topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
