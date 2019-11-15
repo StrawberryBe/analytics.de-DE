@@ -1,13 +1,11 @@
 ---
 description: Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei neuen Besuchen zuerst aufgerufen werden.
-seo-description: Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei neuen Besuchen zuerst aufgerufen werden.
-seo-title: Ein- und Ausstiege
 solution: Analytics
 title: Ein- und Ausstiege
-topic: Berichte
+topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
