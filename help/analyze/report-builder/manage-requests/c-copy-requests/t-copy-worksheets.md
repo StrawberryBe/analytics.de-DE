@@ -1,13 +1,11 @@
 ---
 description: Kopieren Sie in derselben Arbeitsmappe ein Arbeitsblatt in ein anderes.
-seo-description: Kopieren Sie in derselben Arbeitsmappe ein Arbeitsblatt in ein anderes.
-seo-title: Arbeitsblätter kopieren
 solution: Analytics
 title: Arbeitsblätter kopieren
-topic: ReportBuilder
+topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
