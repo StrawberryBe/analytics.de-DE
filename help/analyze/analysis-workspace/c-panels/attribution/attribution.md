@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Übersicht über das Zuordnungsbedienfeld
 title: Übersicht über das Zuordnungsbedienfeld
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: bfa8dbdae3c67ec441d18fa4dfa181fa057bd24d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,16 +36,16 @@ Das Zuordnungsbedienfeld ist eine [Zuordnungs-IQ](../../attribution-iq.md) -Funk
 
 Ein Lookback-Fenster ist der Zeitraum, in dem eine Konversion zurückblicken sollte, um Berührungspunkte einzuschließen. Zuordnungsmodelle, die der ersten Interaktion mehr Anerkennung zollen, sehen bei der Anzeige verschiedener Lookback-Fenster größere Unterschiede.
 
-* **** Lookback-Fenster besuchen: Sieht bis zum Beginn eines Besuchs zurück, bei dem eine Konversion stattgefunden hat. Die Lookback-Fenster für Besuche sind schmal, da sie nicht über den Besuch hinausblicken. Rückblickfenster für Besuche berücksichtigen die geänderte Besuchsdefinition in Virtual Report Suites.
+* **** Lookback-Fenster besuchen: blickt bis zum Beginn eines Besuchs zurück, bei dem eine Konversion erfolgte. Die Lookback-Fenster für Besuche sind schmal, da sie nicht über den Besuch hinausblicken. Rückblickfenster für Besuche berücksichtigen die geänderte Besuchsdefinition in Virtual Report Suites.
 * **** Lookback-Fenster für Besucher: Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind breit, da sie viele Besuche umfassen können. Wenn der Datumsbereich des Berichts beispielsweise der 15. September bis 30. September ist, umfasst der Zeitbereich für die Besucherrückmeldung den 1. September bis den 30. September.
 
-## Beispiel 
+## Beispiel
 
 Siehe folgendes Beispiel:
 
 1. Am 15. September gelangt ein Besucher über eine gebührenpflichtige Suchwerbung zu Ihrer Site und verlässt sie dann.
 2. Am 18. September gelangt der Besucher erneut über einen Link in sozialen Medien zu Ihrer Site, den er von einem Freund erhalten hat. Sie fügen mehrere Artikel zum Warenkorb hinzu, erwerben aber nichts.
-3. Am 24. September sendet Ihr Marketing-Team eine E-Mail mit einem Coupon für einige der Artikel in ihrem Warenkorb. Sie wenden den Coupon an, besuchen aber mehrere andere Websites, um zu sehen, ob andere Coupons verfügbar sind. Sie finden eine andere über eine Display-Anzeige und kaufen dann letztendlich für 50 Euro ein.
+3. Am 24. September sendet Ihr Marketing-Team eine E-Mail mit einem Coupon für einige der Artikel in ihrem Warenkorb. Sie wenden den Coupon an, besuchen aber mehrere andere Websites, um zu sehen, ob andere Coupons verfügbar sind. Sie finden eine weitere über eine Display-Anzeige und kaufen dann letztendlich für 50 Euro ein.
 
 Je nach Lookback-Fenster und Zuordnungsmodell erhalten Kanäle eine unterschiedliche Gutschrift. Im Folgenden finden Sie einige wichtige Beispiele:
 
