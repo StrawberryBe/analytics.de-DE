@@ -1,15 +1,13 @@
 ---
 description: Beispiel mit einer Reihe von Server-Aufrufen, die bei einer gewöhnlichen Kundeninteraktion gesendet werden.
-keywords: Analytics-Implementierung
-seo-description: Beispiel mit einer Reihe von Server-Aufrufen, die bei einer gewöhnlichen Kundeninteraktion gesendet werden.
-seo-title: Beispielbesuch
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Besucher
+subtopic: Visitors
 title: Beispielbesuch
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
