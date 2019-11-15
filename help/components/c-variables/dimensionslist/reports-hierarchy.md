@@ -1,13 +1,11 @@
 ---
 description: Zeigt das hierarchische Layout der Seiten auf Ihrer Website an, und zwar in einer Reihenfolge, die durch die Konfiguration der Seiten in der Variablen hierN bestimmt wird. Dieser Bericht wird mithilfe der entsprechenden Variablenkonfiguration gefüllt, die Sie für die Seiten einrichten, die in die Hierarchie einbezogen werden sollen. Mit diesem Bericht können Sie ausgewählte Metriken (wie Unique Visitors) für die Hierarchie anzeigen.
-seo-description: Zeigt das hierarchische Layout der Seiten auf Ihrer Website an, und zwar in einer Reihenfolge, die durch die Konfiguration der Seiten in der Variablen hierN bestimmt wird. Dieser Bericht wird mithilfe der entsprechenden Variablenkonfiguration gefüllt, die Sie für die Seiten einrichten, die in die Hierarchie einbezogen werden sollen. Mit diesem Bericht können Sie ausgewählte Metriken (wie Unique Visitors) für die Hierarchie anzeigen.
-seo-title: Hierarchie
 solution: Analytics
 title: Hierarchie
-topic: Berichte
+topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
