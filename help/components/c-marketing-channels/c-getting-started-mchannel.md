@@ -1,14 +1,12 @@
 ---
 description: Marketingkanäle werden häufig dazu verwendet, einen Einblick darin zu erhalten, wie Besucher auf Ihre Site gelenkt werden. Sie können basierend auf den Kanälen, die Sie nachverfolgen möchten, und darauf, wie Sie diese nachverfolgen möchten, eigene Marketingkanal-Verarbeitungsregeln anpassen.
-seo-description: Marketingkanäle werden häufig dazu verwendet, einen Einblick darin zu erhalten, wie Besucher auf Ihre Site gelenkt werden. Sie können basierend auf den Kanälen, die Sie nachverfolgen möchten, und darauf, wie Sie diese nachverfolgen möchten, eigene Marketingkanal-Verarbeitungsregeln anpassen.
-seo-title: Erste Schritte mit Marketingkanälen
 solution: Analytics
-subtopic: Marketingkanäle
+subtopic: Marketing channels
 title: Erste Schritte mit Marketingkanälen
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ Siehe [Hinzufügen von Marketingkanälen](/help/components/c-marketing-channels/
 
 >[!NOTE]
 >
-> Wenn Marketingkanäle noch nicht konfiguriert wurden, wird das [automatische Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) angezeigt. Dieses Setup stellt mehrere vorkonfigurierte Kanäle bereit, die Sie anpassen können. Adobe empfiehlt, dass Sie diese Regeln als Vorlage verwenden. Wenn Sie jedoch bereits über zuverlässige Kanaldefinitionen verfügen, können Sie das automatische Setup überspringen.
+>Wenn Marketingkanäle noch nicht konfiguriert wurden, wird das [automatische Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) angezeigt. Dieses Setup stellt mehrere vorkonfigurierte Kanäle bereit, die Sie anpassen können. Adobe empfiehlt, dass Sie diese Regeln als Vorlage verwenden. Wenn Sie jedoch bereits über zuverlässige Kanaldefinitionen verfügen, können Sie das automatische Setup überspringen.
 
 ![](assets/step3_icon.png) Konfigurieren oder grenzen Sie die Regeln jedes Kanals auf der Seite [!UICONTROL Marketingkanal-Verarbeitungsregeln] ein.
 
