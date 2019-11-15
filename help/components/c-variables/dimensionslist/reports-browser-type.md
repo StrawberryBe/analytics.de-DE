@@ -1,13 +1,11 @@
 ---
 description: Bezeichnet den Typ des vom Benutzer verwendeten Browsers, z. B. Internet Explorer, Mozilla Firefox, Google Chrome usw.
-seo-description: Bezeichnet den Typ des vom Benutzer verwendeten Browsers, z. B. Internet Explorer, Mozilla Firefox, Google Chrome usw.
-seo-title: Browsertypen
 solution: Analytics
 title: Browsertypen
-topic: 'Berichte    '
-uuid: c 755 abce-ac 24-42 b 6-b 118-a 971 af 7 f 6 a 59
+topic: Reports
+uuid: c755abce-ac24-42b6-b118-a971af7f6a59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
