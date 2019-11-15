@@ -1,11 +1,9 @@
 ---
 description: Hier finden Sie Anweisungen, wie Sie Ihre Konto-IDs für Google und Bing finden können.
-seo-description: Hier finden Sie Anweisungen, wie Sie Ihre Konto-IDs für Google und Bing finden können.
-seo-title: Konto-IDs suchen
 title: Konto-IDs suchen
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
