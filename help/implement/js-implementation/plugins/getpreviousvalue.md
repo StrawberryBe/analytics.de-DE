@@ -1,15 +1,13 @@
 ---
 description: Erfasst den Wert einer Analytics-Variablen beim nächsten Seitenaufruf. Sie können mit dem Plug-in zum Beispiel den s.pageName-Wert des vorherigen Seitenaufrufs in einer benutzerspezifischen Traffic-Variablen erfassen. Darüber hinaus verfügt es über die Option, einen vorherigen Wert nur dann zu erfassen, wenn bestimmte Erfolgsereignisse festgelegt sind.
-keywords: Analytics-Implementierung
-seo-description: Erfasst den Wert einer Analytics-Variablen beim nächsten Seitenaufruf. Sie können mit dem Plug-in zum Beispiel den s.pageName-Wert des vorherigen Seitenaufrufs in einer benutzerspezifischen Traffic-Variablen erfassen. Darüber hinaus verfügt es über die Option, einen vorherigen Wert nur dann zu erfassen, wenn bestimmte Erfolgsereignisse festgelegt sind.
-seo-title: getPreviousValue
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getPreviousValue
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
