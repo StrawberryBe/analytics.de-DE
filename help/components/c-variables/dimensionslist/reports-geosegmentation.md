@@ -1,13 +1,11 @@
 ---
 description: Zeigt Daten zum Standort des Besuchers. GeoSegmentation-Berichte beinhalten Daten zu Ländern, Regionen, Städten, US-Bundesstaaten und US-DMA (Digital Marketing Areas). GeoSegmentation-Berichte sind für alle Kunden aktiviert.
-seo-description: Zeigt Daten zum Standort des Besuchers. GeoSegmentation-Berichte beinhalten Daten zu Ländern, Regionen, Städten, US-Bundesstaaten und US-DMA (Digital Marketing Areas). GeoSegmentation-Berichte sind für alle Kunden aktiviert.
-seo-title: GeoSegmentation
 solution: Analytics
 title: GeoSegmentation
-topic: Berichte
+topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
