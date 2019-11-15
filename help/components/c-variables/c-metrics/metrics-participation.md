@@ -1,13 +1,11 @@
 ---
 description: Die Beitragsmetrik schreibt den Erfolg allen Werten einer eVar gut, die während eines Besuchs übertragen wurden. Beitragsmetriken sind hilfreich, um festzustellen, welche Seiten, Kampagnen oder anderen benutzerspezifischen Variablenwerte den größten Beitrag zum Erfolg Ihrer Website leisten. Der Beitrag beruht auf den Besuchen. Alle eVar-Werte eines Besuchs bis einschließlich des Treffers, wenn ein Ereignis eintritt, erhalten unabhängig von der Ablaufeinstellung Beitragsgutschriften.
-seo-description: Die Beitragsmetrik schreibt den Erfolg allen Werten einer eVar gut, die während eines Besuchs übertragen wurden. Beitragsmetriken sind hilfreich, um festzustellen, welche Seiten, Kampagnen oder anderen benutzerspezifischen Variablenwerte den größten Beitrag zum Erfolg Ihrer Website leisten. Der Beitrag beruht auf den Besuchen. Alle eVar-Werte eines Besuchs bis einschließlich des Treffers, wenn ein Ereignis eintritt, erhalten unabhängig von der Ablaufeinstellung Beitragsgutschriften.
-seo-title: Beitrag
 solution: Analytics
 title: Beitrag
-topic: Metriken
+topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
