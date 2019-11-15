@@ -1,14 +1,12 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
-seo-description: In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
-seo-title: FTP-Import
 solution: Analytics
 subtopic: Classifications
 title: FTP-Import
-topic: Admin Tools
+topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
