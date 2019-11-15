@@ -1,15 +1,13 @@
 ---
 description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
-keywords: Gruppen;Berechtigungen
-seo-description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
-seo-title: Berechtigungen für Metriken anpassen
+keywords: groups;permissions
 solution: Analytics
-subtopic: Benutzer und Gruppen
+subtopic: Users and groups
 title: Berechtigungen für Metriken anpassen
-topic: Admin Tools
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
