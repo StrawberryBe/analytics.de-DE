@@ -1,13 +1,11 @@
 ---
 description: Beschreibt, wie ReportBuilder Pfade- und Trichteranalyseberichte unterstützt und wie sich die Implementierung von Reports & Analysen unterscheidet.
-seo-description: Beschreibt, wie ReportBuilder Pfade- und Trichteranalyseberichte unterstützt und wie sich die Implementierung von Reports & Analysen unterscheidet.
-seo-title: Pfad- und Pfad-Fallout-Berichte in Report Builder
 solution: Analytics
 title: Pfad- und Pfad-Fallout-Berichte in Report Builder
-topic: ReportBuilder
+topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
