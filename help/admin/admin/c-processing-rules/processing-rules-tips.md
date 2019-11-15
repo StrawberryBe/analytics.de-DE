@@ -1,14 +1,12 @@
 ---
 description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
-seo-description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
-seo-title: Verarbeitungsregeln – Tipps und Tricks
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
-topic: Admin Tools
+topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
