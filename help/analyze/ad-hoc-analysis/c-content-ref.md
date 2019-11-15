@@ -1,13 +1,11 @@
 ---
 description: Ad-hoc-Analysen werden in die Umgebung der Analytics-Segmentierung integriert, sodass Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, freigeben, verwalten und anwenden können. Ad-hoc-Analysen bieten eine Java-basierte Benutzeroberfläche für Segment Builder und Segment Manager, die mit den webbasierten Werkzeugen anderer Analytics-Werkzeuge identisch ist. Dadurch werden Serveraufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt.
-seo-description: Ad-hoc-Analysen werden in die Umgebung der Analytics-Segmentierung integriert, sodass Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, freigeben, verwalten und anwenden können. Ad-hoc-Analysen bieten eine Java-basierte Benutzeroberfläche für Segment Builder und Segment Manager, die mit den webbasierten Werkzeugen anderer Analytics-Werkzeuge identisch ist. Dadurch werden Serveraufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt.
-seo-title: Segmente erstellen
 solution: Analytics
 title: Segmente erstellen
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
