@@ -1,12 +1,10 @@
 ---
 description: Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
-seo-description: Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
-seo-title: Abfragezeichenfolgen-Param-Plug-In-Code
 solution: Analytics
 title: Abfragezeichenfolgen-Param-Plug-In-Code
-uuid: a71e774-bc7a-414e-a116-739770b900bf
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
