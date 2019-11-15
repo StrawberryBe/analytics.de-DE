@@ -1,13 +1,11 @@
 ---
 description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als ReportBuilder-Anforderungen importiert werden.
-seo-description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden ab sofort in Schritt 1 des Anforderungs-Assistenten als Dimensionen gelistet und können als ReportBuilder-Anforderungen importiert werden.
-seo-title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 solution: Analytics
 title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
-topic: ReportBuilder
+topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
