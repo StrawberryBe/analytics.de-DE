@@ -1,13 +1,11 @@
 ---
 description: Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit denen Kunden am effektivsten zu Ihrer Site gelangen. Verwenden Sie diesen Bericht, um den verschiedenen Kanälen Erfolgsmetriken und Umsätze zuzuordnen. Sie sehen außerdem, welche speziellen Kampagnen oder Keywords im jeweiligen Kanal am erfolgreichsten sind. Er enthält eine eigene intuitive Benutzeroberfläche, mit der Sie gleichzeitig Erst- und Letztkontaktmetriken anzeigen können.
-seo-description: Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit denen Kunden am effektivsten zu Ihrer Site gelangen. Verwenden Sie diesen Bericht, um den verschiedenen Kanälen Erfolgsmetriken und Umsätze zuzuordnen. Sie sehen außerdem, welche speziellen Kampagnen oder Keywords im jeweiligen Kanal am erfolgreichsten sind. Er enthält eine eigene intuitive Benutzeroberfläche, mit der Sie gleichzeitig Erst- und Letztkontaktmetriken anzeigen können.
-seo-title: Marketingkanal-Übersicht
 solution: Analytics
 title: Marketingkanal-Übersicht
-topic: Berichte
+topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
