@@ -1,15 +1,13 @@
 ---
 description: Mithilfe der s.sa()-Funktion können Sie jederzeit eine Report Suite auf der Seite dynamisch ändern, bevor oder nachdem eine Bildanforderung veranlasst wird.
-keywords: Analytics-Implementierung
-seo-description: Mithilfe der "s.sa()"-Funktion können Sie jederzeit eine Report Suite auf der Seite dynamisch ändern, bevor oder nachdem eine Bildanforderung veranlasst wird.
-seo-title: Die s.sa()-Funktion
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Funktionen
+subtopic: Functions
 title: Die s.sa()-Funktion
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
