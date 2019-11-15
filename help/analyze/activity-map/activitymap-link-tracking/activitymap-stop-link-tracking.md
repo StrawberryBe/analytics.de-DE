@@ -1,13 +1,11 @@
 ---
 description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
-seo-description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map oder der älteren Version ClickMap aufgeführt.
-seo-title: Linktracking beenden
 solution: Analytics
 title: Linktracking beenden
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map 
  <tbody> 
   <tr> 
    <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Entfernen Sie den folgenden Inhalt aus der Datei Appmeasurement.js: 
+   <td colname="col2"> Entfernen Sie den folgenden Inhalt aus der Datei Appmeasurement.js:  
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
