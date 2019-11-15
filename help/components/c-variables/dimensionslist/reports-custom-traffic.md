@@ -1,13 +1,11 @@
 ---
 description: Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere Dimensionen in Berichten darstellen, die nicht standardmäßig implementiert werden. Benutzerspezifischen Traffic-Berichte lassen sich auf verschiedene Weise einsetzen, meist zum Messen von Traffic und Pfaden.
-seo-description: Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere Dimensionen in Berichten darstellen, die nicht standardmäßig implementiert werden. Benutzerspezifischen Traffic-Berichte lassen sich auf verschiedene Weise einsetzen, meist zum Messen von Traffic und Pfaden.
-seo-title: Benutzerspezifischer Traffic
 solution: Analytics
 title: Benutzerspezifischer Traffic
-topic: Berichte
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
