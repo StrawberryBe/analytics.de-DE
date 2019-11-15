@@ -1,15 +1,13 @@
 ---
 description: Beim Einsetzen von Werten in eine Variable sind einige Best Practices zu beachten.
-keywords: Analytics-Implementierung
-seo-description: Beim Einsetzen von Werten in eine Variable sind einige Best Practices zu beachten.
-seo-title: Verwenden von Anführungszeichen
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fehlerbehebung
+subtopic: Troubleshooting
 title: Verwenden von Anführungszeichen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
