@@ -1,13 +1,11 @@
 ---
 description: Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie die nativ erfassten Daten behandelt und verarbeitet werden.
-seo-description: Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie die nativ erfassten Daten behandelt und verarbeitet werden.
-seo-title: Data Sources
 solution: Analytics
 title: Data Sources
-topic: Admin Tools
+topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
