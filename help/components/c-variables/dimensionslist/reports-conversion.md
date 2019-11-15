@@ -1,13 +1,11 @@
 ---
 description: Liefert eine umfassende, genaue und detaillierte Analyse der Kundenaktivität. Die Metriken Kampagnenverwaltung, Verkaufszyklus, Kundenabgang und Kundenkonversion dienen der Messung von E-Commerce-Transaktionen, Verkaufsquellen, Werbewirksamkeit, Kundenloyalität und vielem mehr.
-seo-description: Liefert eine umfassende, genaue und detaillierte Analyse der Kundenaktivität. Die Metriken Kampagnenverwaltung, Verkaufszyklus, Kundenabgang und Kundenkonversion dienen der Messung von E-Commerce-Transaktionen, Verkaufsquellen, Werbewirksamkeit, Kundenloyalität und vielem mehr.
-seo-title: Konversion
 solution: Analytics
 title: Konversion
-topic: Berichte
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
