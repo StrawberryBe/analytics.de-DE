@@ -1,11 +1,9 @@
 ---
 description: Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
-seo-description: Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
-seo-title: Integrationsverfahren und -voraussetzungen
 title: Integrationsverfahren und -voraussetzungen
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
