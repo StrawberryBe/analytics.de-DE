@@ -1,13 +1,11 @@
 ---
 description: Zeigt, wo Besucher auf einer vorab festgelegten Seitensequenz aussteigen (Trichteranalyse) oder wie sie diese durchlaufen (Fallthrough). Außerdem werden hier die Konversions- und Trichteranalyseraten jedes Schritts angezeigt. So können Sie beispielsweise die Trichteranalysepunkte eines Besuchers während eines Kaufprozesses nachverfolgen. Wählen Sie einen Startpunkt und einen Endpunkt und dann verschiedene Punkte dazwischen, um einen Website-Navigationspfad einzurichten.
-seo-description: Zeigt, wo Besucher auf einer vorab festgelegten Seitensequenz aussteigen (Trichteranalyse) oder wie sie diese durchlaufen (Fallthrough). Außerdem werden hier die Konversions- und Trichteranalyseraten jedes Schritts angezeigt. So können Sie beispielsweise die Trichteranalysepunkte eines Besuchers während eines Kaufprozesses nachverfolgen. Wählen Sie einen Startpunkt und einen Endpunkt und dann verschiedene Punkte dazwischen, um einen Website-Navigationspfad einzurichten.
-seo-title: Fallout
 solution: Analytics
 title: Fallout
-topic: Berichte
+topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
