@@ -1,11 +1,9 @@
 ---
 description: Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports & Analytics und Report Builder.
-seo-description: Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports & Analytics und Report Builder.
-seo-title: Berichte zu Werbedaten in Adobe Analytics
 title: Berichte zu Werbedaten in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, 
 
 >[!NOTE]
 >
-> Die Kategorie "Werbevorlage"ist für alle Kunden sichtbar, auch wenn Sie keine Werbekonten implementiert haben. Wenn Sie jedoch die Vorlage „ Suchmaschinen“ für ein Unternehmen öffnen, das nicht bereitgestellt wurde, werden Sie über eine Fehlermeldung darüber benachrichtigt, dass Sie noch keine Suchmaschinenkonten konfiguriert haben. Klicken Sie in diesem Fall auf **[!UICONTROL Jetzt konfigurieren]**. Hierdurch gelangen Sie zum Bildschirm zur [Einrichtung eines Werbekontos](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>Die Kategorie "Werbevorlage"ist für alle Kunden sichtbar, auch wenn Sie keine Werbekonten implementiert haben. Wenn Sie jedoch die Vorlage „ Suchmaschinen“ für ein Unternehmen öffnen, das nicht bereitgestellt wurde, werden Sie über eine Fehlermeldung darüber benachrichtigt, dass Sie noch keine Suchmaschinenkonten konfiguriert haben. Klicken Sie in diesem Fall auf **[!UICONTROL Jetzt konfigurieren]**. Hierdurch gelangen Sie zum Bildschirm zur [Einrichtung eines Werbekontos](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
