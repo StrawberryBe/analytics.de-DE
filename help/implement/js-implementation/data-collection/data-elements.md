@@ -1,14 +1,12 @@
 ---
 description: Sie können die Werte von Formularelementen (z. B. Optionsfelder oder Kontrollkästchen) in Berichten erfassen. Dies hilft Ihnen bei der Analyse der wahrscheinlichsten Auswahlmöglichkeiten in Ihren Onlineformularen.
-keywords: Analytics-Implementierung
-seo-description: Sie können die Werte von Formularelementen (z. B. Optionsfelder oder Kontrollkästchen) in Berichten erfassen. Dies hilft Ihnen bei der Analyse der wahrscheinlichsten Auswahlmöglichkeiten in Ihren Onlineformularen.
-seo-title: Daten aus Formularelementen sammeln
+keywords: Analytics Implementation
 solution: Analytics
 title: Daten aus Formularelementen sammeln
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
