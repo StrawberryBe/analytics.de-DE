@@ -1,13 +1,11 @@
 ---
 description: Wenn Sie Einstellungen aus einer vorhandenen Report Suite kopiert haben, werden Sie in einer Systemmeldung auf die Einstellungen hingewiesen, die nicht in die neue Report Suite kopiert wurden.
-seo-description: Wenn Sie Einstellungen aus einer vorhandenen Report Suite kopiert haben, werden Sie in einer Systemmeldung auf die Einstellungen hingewiesen, die nicht in die neue Report Suite kopiert wurden.
-seo-title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 solution: Analytics
 title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
-topic: Admin Tools
+topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
