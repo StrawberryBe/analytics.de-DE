@@ -1,13 +1,11 @@
 ---
 description: Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
-seo-description: Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
-seo-title: Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
 solution: Analytics
 title: Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
-topic: Admin Tools
+topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
