@@ -1,14 +1,12 @@
 ---
 description: Anhand von Lesezeichen haben Sie Zugriff auf die Berichte, die Sie am meisten verwenden. Die von Ihnen erstellten Lesezeichen werden der Experience Cloud hinzugefügt und sind in integrierten Funktionen wie Data Connectors verfügbar.
-seo-description: Anhand von Lesezeichen haben Sie Zugriff auf die Berichte, die Sie am meisten verwenden. Die von Ihnen erstellten Lesezeichen werden der Experience Cloud hinzugefügt und sind in integrierten Funktionen wie Data Connectors verfügbar.
-seo-title: Lesezeichen-Manager
 solution: Analytics
-subtopic: Lesezeichen
+subtopic: Bookmarks
 title: Lesezeichen-Manager
-topic: Reports and Analytics
-uuid: 7 a 1287 da -8 a 39-4 dad -90 b 0-f 311 b 5 e 83722
+topic: Reports and analytics
+uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       | Name | A benutzerfreundlicher Name für dieses Lesezeichen.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+       |Name|Ein benutzerfreundlicher Name für dieses Lesezeichen.
+    |
+ |—|—|     |Hinzufügen zu|Gibt den Ordner an, in dem Sie das Lesezeichen ablegen möchten.
+|     |Als öffentlich einstellen| Stellt dieses Lesezeichen Benutzern mit Zugriff auf die Report Suite zur Verfügung.
+|     |Bericht bei Anmeldung anzeigen| Zeigt den Bericht bei der Anmeldung an.|
    
 ## Lesezeichen verwalten {#task_1EE793CB52EA467787817BBD98DEF150}
 
