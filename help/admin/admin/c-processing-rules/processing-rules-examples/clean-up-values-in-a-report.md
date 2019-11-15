@@ -1,14 +1,12 @@
 ---
 description: Sie können Werte auf gängige Fehlschreibungen prüfen und eine Korrektur vornehmen, damit sie in Berichten richtig angezeigt werden.
-seo-description: Sie können Werte auf gängige Fehlschreibungen prüfen und eine Korrektur vornehmen, damit sie in Berichten richtig angezeigt werden.
-seo-title: Werte in einem Bericht bereinigen
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Werte in einem Bericht bereinigen
-topic: Admin Tools
+topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
