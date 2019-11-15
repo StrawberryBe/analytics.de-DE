@@ -1,15 +1,13 @@
 ---
 description: Durch das Überschreiben von Variablen können Sie den Wert einer Variablen für einen einzelnen Verfolgungs- oder Verfolgungslinkaufruf ändern.
-keywords: Analytics-Implementierung
-seo-description: Durch das Überschreiben von Variablen können Sie den Wert einer Variablen für einen einzelnen Verfolgungs- oder Verfolgungslinkaufruf ändern.
-seo-title: Variablenüberschreibungen
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variablen
+subtopic: Variables
 title: Variablenüberschreibungen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
