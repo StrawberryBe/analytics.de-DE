@@ -1,13 +1,11 @@
 ---
 description: Bezeichnet nur das vertikale Ausmaß der Daten im Browser-Fenster. Die Symbolleisten, Menüs, Schaltflächen usw. werden nicht in der Dimension „Browserhöhe“ erfasst.
-seo-description: Bezeichnet nur das vertikale Ausmaß der Daten im Browser-Fenster. Die Symbolleisten, Menüs, Schaltflächen usw. werden nicht in der Dimension „Browserhöhe“ erfasst.
-seo-title: Browserhöhe
 solution: Analytics
 title: Browserhöhe
-topic: Berichte
-uuid: 4b824167-4a4e-40e9-bf00-957655bdb3d
+topic: Reports
+uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
