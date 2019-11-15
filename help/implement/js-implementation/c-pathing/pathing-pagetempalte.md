@@ -1,14 +1,12 @@
 ---
 description: Wenn Ihre Site verschiedene Typen von Seiten oder Seitenvorlagen enthält, gibt Ihnen die Pathing-Funktion Aufschluss darüber, wie der Wechsel der verschiedenen Typen erfolgt.
-keywords: Analytics-Implementierung
-seo-description: Wenn Ihre Site verschiedene Typen von Seiten oder Seitenvorlagen enthält, gibt Ihnen die Pathing-Funktion Aufschluss darüber, wie der Wechsel der verschiedenen Typen erfolgt.
-seo-title: Zwischen Seitenvorlagen wechseln
+keywords: Analytics Implementation
 solution: Analytics
 title: Zwischen Seitenvorlagen wechseln
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
