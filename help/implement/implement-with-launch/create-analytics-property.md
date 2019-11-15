@@ -1,10 +1,8 @@
 ---
 title: Analytics-Eigenschaft in Launch erstellen
-seo-title: Adobe Analytics-Eigenschaft in Adobe Experience Platform Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
-seo-description: Erstellen Sie einen Bereich, um mithilfe von Adobe Experience Platform Launch die Datenerfassung in Adobe Analytics anzupassen.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
