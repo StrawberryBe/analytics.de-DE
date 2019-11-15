@@ -1,14 +1,12 @@
 ---
 description: Sie können eine benutzerspezifische Methode implementieren, um Besucher zu identifizieren, indem Sie die Variable „s.visitorID“ festlegen.
-keywords: Analytics-Implementierung
-seo-description: Sie können eine benutzerspezifische Methode implementieren, um Besucher zu identifizieren, indem Sie die Variable „s.visitorID“ festlegen.
-seo-title: Benutzerspezifische Besucher-ID
+keywords: Analytics Implementation
 solution: Analytics
 title: Benutzerspezifische Besucher-ID
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
