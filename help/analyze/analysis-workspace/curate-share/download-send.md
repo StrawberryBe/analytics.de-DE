@@ -1,11 +1,9 @@
 ---
 description: Sie können gespeicherte und ungespeicherte Projekte im PDF- oder CSV-Format herunterladen.
-seo-description: Sie können gespeicherte und ungespeicherte Projekte im PDF- oder CSV-Format herunterladen.
-seo-title: PDF- oder CSV-Dateien herunterladen
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
