@@ -1,13 +1,11 @@
 ---
 description: Erfahren Sie, wie Sie mit FTP und sFTP Dateien zwischen Computern und Servern übertragen können.
 keywords: ftp;sftp
-seo-description: Erfahren Sie, wie Sie mit FTP und sFTP Dateien zwischen Computern und Servern übertragen können.
-seo-title: FTP und SFTP mit der Adobe Experience Cloud verwenden
 solution: Analytics
 title: FTP und SFTP mit der Adobe Experience Cloud verwenden
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
