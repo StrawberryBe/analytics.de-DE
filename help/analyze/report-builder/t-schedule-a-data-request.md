@@ -1,20 +1,18 @@
 ---
 description: Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateiformate planen.
-seo-description: Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateiformate planen.
-seo-title: Planen einer Datenanforderung
 solution: Analytics
 title: Planen einer Datenanforderung
-topic: ReportBuilder
+topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Arbeitsmappen planen
 
-Sie können Arbeitsmappen planen, erweiterte Auslieferungsoptionen festlegen, Empfänger angeben und den Planverlauf anzeigen. Mit den erweiterten Auslieferungsoptionen können Sie Arbeitsmappen konfigurieren, die Sie zu einem bestimmten Zeitpunkt oder in bestimmten Intervallen senden möchten. Sie können auch das Dateiformat angeben, in dem die Arbeitsmappe gesendet werden soll.
+Sie können Arbeitsmappen planen, erweiterte Auslieferungsoptionen festlegen, Empfänger angeben und den Planverlauf anzeigen. Mit den erweiterten Auslieferungsoptionen können Sie Arbeitsmappen konfigurieren, die Sie zu einem bestimmten Zeitpunkt oder in bestimmten Abständen senden möchten. Sie können auch das Dateiformat angeben, in dem die Arbeitsmappe gesendet werden soll.
 
 For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. Die maximale Dateigröße beträgt 5 MB beim Hochladen einer Arbeitsmappe.
 
