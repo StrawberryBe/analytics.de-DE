@@ -1,14 +1,12 @@
 ---
 description: Benutzerdefinierte Traffic-Variablen – auch als „props“ (s.prop) oder „Eigenschaftsvariablen“ bezeichnet – sind Zähler, die zählen, wie oft jeder Wert zu Analytics gesendet wird.
-keywords: Analytics-Implementierung;Traffic-Prop;Prop;Konversion;eVar;s.prop;benutzerspezifische Konversion-Insight;Traffic-Variable
-seo-description: Benutzerdefinierte Traffic-Variablen – auch als „props“ (s.prop) oder „Eigenschaftsvariablen“ bezeichnet – sind Zähler, die zählen, wie oft jeder Wert zu Analytics gesendet wird.
-seo-title: Übersicht über Eigenschaften und eVars
+keywords: Analytics Implementation;Traffic prop;prop;conversion;evar;s.prop;custom conversion insight;traffic variable
 solution: Analytics
 title: Übersicht über Eigenschaften und eVars
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
