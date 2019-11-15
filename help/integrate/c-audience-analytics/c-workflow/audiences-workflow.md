@@ -1,12 +1,10 @@
 ---
 description: Bereitstellen, Weitergeben und Verwenden von Zielgruppendaten.
-seo-description: Bereitstellen, Weitergeben und Verwenden von Zielgruppendaten.
-seo-title: Workflow-Übersicht
-solution: Experience Cloud
+solution: Experience Cloud
 title: Workflow-Übersicht
 uuid: 211e079b-46ee-4238-856d-7cac40620717
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
