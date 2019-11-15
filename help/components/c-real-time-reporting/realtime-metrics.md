@@ -1,18 +1,16 @@
 ---
 description: Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
-seo-description: Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
-seo-title: Unterstützte Echtzeit-Metriken und -dimensionen
 solution: Analytics
-title: Unterstützte Echtzeit-Metriken und -dimensionen
-topic: 'Berichte    '
-uuid: a 3 a 669 ef -0 f 4 a -44 b 5-a 386-2746 cc 0822 c 4
+title: Unterstützte Echtzeit-Metriken und -Dimensionen
+topic: Reports
+uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Unterstützte Echtzeit-Metriken und -dimensionen
+# Unterstützte Echtzeit-Metriken und -Dimensionen
 
 Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
 
@@ -43,7 +41,7 @@ Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werd
 * Server
 * Sitebereich
 * Trackingcode
-* Benutzerspezifischer Link
+* Anwenderspezifischer Link
 * Dateidownload
 * Exitlink
 * Benutzerspezifische Insight-Variablen (Props) 1-75 (falls in der Report Suite aktiviert)
