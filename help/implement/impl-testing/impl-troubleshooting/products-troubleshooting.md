@@ -1,15 +1,13 @@
 ---
 description: Die Variable „s.products“ ist bei der Erfassung von Daten wahrscheinlich die Variable, die die komplizierteste Syntax hat.
-keywords: Analytics-Implementierung
-seo-description: Die Variable „s.products“ ist bei der Erfassung von Daten wahrscheinlich die Variable, die die komplizierteste Syntax hat.
-seo-title: Häufige Fehler bei der Produktvariablen
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fehlerbehebung
+subtopic: Troubleshooting
 title: Häufige Fehler bei der Produktvariablen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
