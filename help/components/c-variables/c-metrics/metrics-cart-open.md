@@ -1,13 +1,11 @@
 ---
 description: Die Frequenz, mit der ein Kunde durch Hinzufügen des ersten Produkts einen Warenkorb geöffnet hat. Erfolgt beim ersten Mal, wenn dem Warenkorb ein Produkt hinzugefügt wird. Dieser Wert stammt aus dem scOpen-Ereignis.
-seo-description: Die Frequenz, mit der ein Kunde durch Hinzufügen des ersten Produkts einen Warenkorb geöffnet hat. Erfolgt beim ersten Mal, wenn dem Warenkorb ein Produkt hinzugefügt wird. Dieser Wert stammt aus dem scOpen-Ereignis.
-seo-title: Öffnung des Warenkorbs
 solution: Analytics
 title: Öffnung des Warenkorbs
-topic: Metriken
+topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
