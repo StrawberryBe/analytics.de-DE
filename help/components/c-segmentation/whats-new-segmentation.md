@@ -1,11 +1,9 @@
 ---
 description: Neue Funktionen bei der Adobe Analytics-Segmentierung.
-seo-description: Neue Funktionen bei der Adobe Analytics-Segmentierung.
-seo-title: Neue Funktionen bei der Analytics-Segmentierung
 title: Neue Funktionen bei der Analytics-Segmentierung
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -170,7 +168,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Änderungen an Berechtigungen im Segmentaufbau </p> </td> 
-   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Mehr...</a> </p> </td> 
+   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Mehr …</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
