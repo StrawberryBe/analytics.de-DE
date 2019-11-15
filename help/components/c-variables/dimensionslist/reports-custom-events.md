@@ -1,13 +1,11 @@
 ---
 description: Die Konversionsaktionen auf Ihrer Site, die Benutzer ausführen sollen. Dies kann etwa eine Registrierung, ein Abonnement, ein Abschluss des Interessentenformulars, ein gestarteter Chat, ein Kauf, eine Buchung oder die Teilnahme an einer Umfrage sein.
-seo-description: Die Konversionsaktionen auf Ihrer Site, die Benutzer ausführen sollen. Dies kann etwa eine Registrierung, ein Abonnement, ein Abschluss des Interessentenformulars, ein gestarteter Chat, ein Kauf, eine Buchung oder die Teilnahme an einer Umfrage sein.
-seo-title: Benutzerspezifische Ereignisse
 solution: Analytics
 title: Benutzerspezifische Ereignisse
-topic: Berichte
+topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
