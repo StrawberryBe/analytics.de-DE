@@ -1,13 +1,11 @@
 ---
 description: Dieser Bericht ordnet die Seiten Ihrer Site anhand der Seiten mit dem höchsten Traffic-Aufkommen. Falls Sie im Rahmen Ihrer Geschäftstätigkeit quantitative Daten über Seiten benötigen, kann dieser Bericht mithilfe der richtigen Metrik diese Daten für Sie ermitteln.
-seo-description: Dieser Bericht ordnet die Seiten Ihrer Site anhand der Seiten mit dem höchsten Traffic-Aufkommen. Falls Sie im Rahmen Ihrer Geschäftstätigkeit quantitative Daten über Seiten benötigen, kann dieser Bericht mithilfe der richtigen Metrik diese Daten für Sie ermitteln.
-seo-title: Seiten
 solution: Analytics
 title: Seiten
-topic: Berichte
+topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
