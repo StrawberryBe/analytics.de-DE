@@ -1,14 +1,12 @@
 ---
 description: Informationen darüber, wie Adobe Zugriff auf Data Sources bereitstellt.
-seo-description: Informationen darüber, wie Adobe Zugriff auf Data Sources bereitstellt.
-seo-title: Funktionsweise von Data Sources
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Funktionsweise von Data Sources
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
