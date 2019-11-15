@@ -1,15 +1,13 @@
 ---
 description: Überblick über Variablen und deren Einschränkungen
-keywords: Analytics-Implementierung;Variablen;Einschränkungen;Grenzen
-seo-description: Überblick über Variablen und deren Einschränkungen
-seo-title: Variablen und Einschränkungen
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
-subtopic: Variablen
+subtopic: Variables
 title: Variablen und Einschränkungen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
