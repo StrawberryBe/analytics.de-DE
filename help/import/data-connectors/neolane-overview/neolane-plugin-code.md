@@ -1,11 +1,9 @@
 ---
 description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
-seo-description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
-seo-title: Adobe Analytics-Plug-in-Code
 title: Adobe Analytics-Plug-in-Code
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
