@@ -1,13 +1,11 @@
 ---
-description: Im Voreinstellungs-Manager können Sie die Darstellung der Excel- und CSV-Berichtsausgabe konfigurieren.
-seo-description: Im Voreinstellungen-Manager können Sie die Darstellung der Excel- und CSV-Berichtausgabe konfigurieren.
-seo-title: Voreinstellungs-Manager
+description: Im Voreinstellungen-Manager können Sie die Darstellung der Excel- und CSV-Berichtausgabe konfigurieren.
 solution: Analytics
 title: Voreinstellungs-Manager
-topic: Admin Tools
-uuid: 46488 e 24-57 a 5-4 f 99-997 c -0 cfb 61625008
+topic: Admin tools
+uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
