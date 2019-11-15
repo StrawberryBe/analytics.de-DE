@@ -1,16 +1,14 @@
 ---
 description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header und Datensignale in Aufrufen der serverseitigen Weiterleitung.
-seo-description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header und Datensignale in Aufrufen der serverseitigen Weiterleitung.
-seo-title: Serverseitige Weiterleitungsdaten und Code-Referenz
-title: Serverseitige Weiterleitungsdaten und Code-Referenz
-uuid: 3 eb 3 ea 0 f-a 530-448 d-bba 5-6408 b 2490 dc 8
+title: Daten- und Codereferenz für die serverseitige Weiterleitung
+uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Serverseitige Weiterleitungsdaten und Code-Referenz
+# Daten- und Codereferenz für die serverseitige Weiterleitung
 
 Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header und Datensignale in Aufrufen der serverseitigen Weiterleitung.
 
@@ -20,8 +18,8 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 | Parameter | Beschreibung |
 |--- |--- |
-| d_rs | (Gets set with legacy/tracking-server-based server-side forwarding) <br>Set to the report suites passed in with the hit to Analytics. |
-| d_dst_filter | (Gets set with report-suite-based server-side forwarding)  <br>Set to the report suite IDs passed in with the hit to Analytics. |
+| d_rs | (Wird mit veralteter/Tracking-Server-basierter serverseitiger Weiterleitung eingestellt) <br>Auf die Report Suites eingestellt, die mit dem Treffer an Analytics übergeben werden. |
+| d_dst_filter | (Wird mit Report Suite-basierter serverseitiger Weiterleitung eingestellt) <br>Auf die Report Suite-IDs eingestellt, die mit dem Treffer an Analytics weitergeleitet werden. |
 | d_dst | Festlegung von d_dst=1<br>, wenn die bei der Analytics-Anfrage Inhalt zu dem Ziel erwartet wird, der an den Client zurückgesendet werden soll. |
 | d_mid | Die an Analytics übergebene Experience Cloud ID. |
 
@@ -49,10 +47,10 @@ Parameters prefixed with `c_` identify customer-defined variables. Siehe auch [U
 | c_browserWidth und c_browserHeight | Breite und Höhe des Browserfensters. |
 | c_campaign | Festgelegt durch s.campaign . |
 | c_channel | Festgelegt durch s.channel . |
-| c_clientDateTime | Zeitstempel als TT/MM/JJJJ-HH: mm: SS W TZ. TZ ist in Minuten angegeben und stimmt mit der Rückgabe der Methode Date.getTimezoneOffset überein. |
+| c_clientDateTime | Zeitstempel formatiert als TT/MM/JJJJ hh:mm:ss W TZ .    TZ ist in Minuten angegeben und stimmt mit der Rückgabe der Methode Date.getTimezoneOffset überein. |
 | c_colorDepth | Angabe als 16- oder 32-Bit-Farbe. |
 | c_connectionType | Gibt den Verbindungstyp an. Zu den Optionen zählen:<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Beispiele:<ul><li>Appmeasurement: s. contextdata</li><li>[" category "] =" news ";</li><li>Signal: c_contextData.category=news</li></ul> |
+| c_contextData.* | Beispiele:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Signal: c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Gibt an, ob Cookies aktiviert werden können. Zu den Optionen zählen: ja, nein, unbekannt |
 | c_currencyCode | Typ der für die Transaktion verwendeten Währung. |
 | c_evar# | Benutzerspezifische eVars |
@@ -61,7 +59,7 @@ Parameters prefixed with `c_` identify customer-defined variables. Siehe auch [U
 | c_javaEnabled | Gibt an, ob Java aktiviert werden kann. Zu den Optionen zählen: ja, nein, unbekannt |
 | c_javaScriptVersion | Version von Javascript, die von einem Browser unterstützt wird. |
 | c_latitude | Numerische Breite |
-| c_linkClick | Zu den Optionen gehören: benutzerspezifisch, Download-Exit |
+| c_linkClick | Zu den Optionen gehören: benutzerspezifisch, Download beenden |
 | c_linkCustomName | Der benutzerdefinierte Name (sofern vorhanden), der für den Link bereitgestellt wurde. |
 | c_linkDownloadURL | Die URL der Download-Links. |
 | c_linkExitURL | Die Exitlink-URL. |
