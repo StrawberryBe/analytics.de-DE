@@ -1,13 +1,11 @@
 ---
 description: Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten zur Konfiguration der Datenvisualisierung, sodass Sie die Beliebtheit der Links auf einer Seite einfach feststellen und verstehen können.
-seo-description: Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten zur Konfiguration der Datenvisualisierung, sodass Sie die Beliebtheit der Links auf einer Seite einfach feststellen und verstehen können.
-seo-title: Anpassbare Überlagerungen
 solution: Analytics
 title: Anpassbare Überlagerungen
-topic: Activity Map
+topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
