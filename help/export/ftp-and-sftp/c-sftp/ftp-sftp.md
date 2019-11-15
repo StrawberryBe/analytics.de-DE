@@ -1,13 +1,11 @@
 ---
 description: SFTP ist ein sicheres Protokoll zur Datenübertragung, das sicherstellt, dass niemand Ihre Daten sehen kann, außer Sie. Adobe Engineering Services kann ein SFTP-Konto einrichten, um Ihre Daten sicher zu speichern.
 keywords: ftp;sftp
-seo-description: SFTP ist ein sicheres Protokoll zur Datenübertragung, das sicherstellt, dass niemand Ihre Daten sehen kann, außer Sie. Adobe Engineering Services kann ein SFTP-Konto einrichten, um Ihre Daten sicher zu speichern.
-seo-title: Secure File Transfer Protocol – Übersicht
 solution: Analytics
 title: Secure File Transfer Protocol – Übersicht
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
