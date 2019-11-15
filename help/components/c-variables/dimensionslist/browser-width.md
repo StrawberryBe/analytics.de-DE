@@ -1,13 +1,11 @@
 ---
 description: Metriken, die sich ausschließlich auf die horizontale/vertikale Distanz der Daten im Browser-Fenster beziehen. Genauer gesagt, auf den Browser
-seo-description: Metriken, die sich ausschließlich auf die horizontale/vertikale Distanz der Daten im Browser-Fenster beziehen. Genauer gesagt, auf den Browser
-seo-title: Browserbreite/-höhe
 solution: Analytics
 title: Browserbreite/-höhe
-topic: Metriken
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
