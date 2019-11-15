@@ -1,13 +1,11 @@
 ---
 description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die auf die Standardmenüoptionen im vereinfachten Menü klicken.
-seo-description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die auf die Standardmenüoptionen im vereinfachten Menü klicken.
-seo-title: Einstellungen zur Berichtsanzeige und Navigation
 solution: Analytics
 title: Einstellungen zur Berichtsanzeige und Navigation
-topic: Berichte,Reports and Analytics
+topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
