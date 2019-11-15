@@ -1,13 +1,11 @@
 ---
 description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
-seo-description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
-seo-title: Berichtübersicht
 solution: Analytics
 title: Berichtübersicht
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
