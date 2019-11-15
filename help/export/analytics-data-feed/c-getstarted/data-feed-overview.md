@@ -1,24 +1,22 @@
 ---
 description: Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Service-APIs oder Datenquellen hochgeladen werden, werden im Adobe Data Warehouse verarbeitet und gespeichert. Diese Clickstream-Rohdaten bilden die Grundlage für den Datensatz, der von Adobe Analytics genutzt wird.
-keywords: clickstream; data feed; data_ eed; Datenfeed
-seo-description: Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Service-APIs oder Datenquellen hochgeladen werden, werden im Adobe Data Warehouse verarbeitet und gespeichert. Diese Clickstream-Rohdaten bilden die Grundlage für den Datensatz, der von Adobe Analytics genutzt wird.
-seo-title: Übersicht über Analytics Data Feed
+keywords: clickstream;data feed;datafeed;Data Feed
 solution: Analytics
-title: Übersicht über Analytics Data Feed
-uuid: 6 bdbe 90 c-e 6 ed -4 bb 0-b 5 be -24 fd 795 adde 4
+title: Analytics-Daten-Feed-Dokumentation
+uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 86bdb5c4f7c415174fb3217598c98b6efc4b3916
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Übersicht über Analytics Data Feed
+# Analytics-Daten-Feed-Dokumentation
 
 Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Service-APIs oder Datenquellen hochgeladen werden, werden im Adobe Data Warehouse verarbeitet und gespeichert. Diese Clickstream-Rohdaten bilden die Grundlage für den Datensatz, der von Adobe Analytics genutzt wird.
 
 Adobe kann diese Rohdaten als Dienst für den Kunden bereitstellen, und zwar in Form von sich stündlich oder täglich wiederholenden Segmenten. Dieser Dienst heißt „Analytics Data Feed“. Jeder Datenfeed umfasst die Rohdaten für eine einzelne Report Suite.
 
->[!NOTE] Bisher mussten sich Datenfeed-Administratoren auf die Adobe-Kundenunterstützung verlassen, um ein Statusupdate für ihre Data Feed-Aufträge zu erhalten. Dies ist nun nicht mehr der Fall. Die Data Feed-Benutzeroberfläche steht nun allen Adobe Analytics-Administratoren zur Verfügung.
+>[!NOTE] Bisher mussten sich Data Feed-Administratoren für Statusaktualisierungen zu ihren Data Feed-Aufträgen an die Adobe-Kundenunterstützung wenden. Dies ist nun nicht mehr der Fall. Die Data Feed-Benutzeroberfläche steht nun allen Adobe Analytics-Administratoren zur Verfügung.
 
 Mit der Analytics Data Feed-Benutzeroberfläche können Sie:
 
