@@ -1,14 +1,12 @@
 ---
 description: Marketingkanalberichte geben Aufschluss über die Umsätze Ihrer Marketingkanäle. Sie geben einen Überblick über die Zuordnung der First Touch- und Last Touch-Kanäle. Der Bericht informiert über geschäftskritische Standardmetriken wie Umsatz, Bestellungen und Kosten.
-seo-description: Marketingkanalberichte geben Aufschluss über die Umsätze Ihrer Marketingkanäle. Sie geben einen Überblick über die Zuordnung der First Touch- und Last Touch-Kanäle. Der Bericht informiert über geschäftskritische Standardmetriken wie Umsatz, Bestellungen und Kosten.
-seo-title: Informationen über Marketing-Kanalberichte
 solution: Analytics
-subtopic: Marketingkanäle
+subtopic: Marketing channels
 title: Informationen über Marketing-Kanalberichte
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
