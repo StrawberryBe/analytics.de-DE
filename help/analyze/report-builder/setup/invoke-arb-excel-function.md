@@ -1,13 +1,11 @@
 ---
 description: Dank dieser Funktion wird die ReportBuilder-Verwendung in den normalen Excel-Workflow integriert, ohne dass Sie auf die ReportBuilder-Benutzeroberfläche zugreifen müssen.
-seo-description: Dank dieser Funktion wird die ReportBuilder-Verwendung in den normalen Excel-Workflow integriert, ohne dass Sie auf die ReportBuilder-Benutzeroberfläche zugreifen müssen.
-seo-title: Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 solution: Analytics
 title: Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
-topic: ReportBuilder
+topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
