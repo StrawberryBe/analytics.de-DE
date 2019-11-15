@@ -1,14 +1,12 @@
 ---
 description: In der Verwaltung für Bericht-Benutzer und Bericht-Gruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Werkzeuge und Report Suites steuern.
-seo-description: In der Verwaltung für Bericht-Benutzer und Bericht-Gruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Werkzeuge und Report Suites steuern.
-seo-title: Übersicht über die Benutzerverwaltung
 solution: Analytics
-subtopic: Benutzer und Gruppen
+subtopic: Users and groups
 title: Übersicht über die Benutzerverwaltung
-topic: Admin Tools
+topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
