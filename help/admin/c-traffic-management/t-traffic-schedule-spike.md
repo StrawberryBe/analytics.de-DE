@@ -1,13 +1,11 @@
 ---
 description: Im Abschnitt „Spitze planen“ können Sie Adobe vor vorübergehenden Traffic-Spitzen warnen, damit geeignete Ressourcen vorgesehen werden können.
-seo-description: Im Abschnitt „Spitze planen“ können Sie Adobe vor vorübergehenden Traffic-Spitzen warnen, damit geeignete Ressourcen vorgesehen werden können.
-seo-title: Traffic-Spitze planen
 solution: Analytics
 title: Traffic-Spitze planen
-topic: Admin Tools
+topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
