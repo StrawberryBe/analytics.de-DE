@@ -1,14 +1,12 @@
 ---
 description: Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
-seo-description: Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, um die Classification-Verwaltung zu vereinfachen und die Anzahl der erforderlichen Regeln zu reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
-seo-title: Unterklassifizierungen und der Rule Builder – Anwendungsfall
 solution: Analytics
 subtopic: Classifications
 title: Unterklassifizierungen und der Rule Builder – Anwendungsfall
-topic: Admin Tools
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 >[!NOTE]
 >
-> In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
+>In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und Regelaufbau](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)beschriebenen Anwendungsfall ausführen.
 
 1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
