@@ -1,13 +1,11 @@
 ---
 description: Im Abschnitt „Feed-Informationen“ können Sie den Feed benennen, die Report Suite angeben, für die der Feed ausgeführt werden soll, die Feed-Wiederholung bestimmen und angeben, wann der Feed startet und endet.
-keywords: Datenfeed;Informationen;Name;Report Suite;E-Mail bei Abschluss;E-Mail;Intervall;Feed;Verzögerung der Verarbeitung;Verzögerung;Start;Ende;Datum;kontinuierlicher Feed
-seo-description: Im Abschnitt „Feed-Informationen“ können Sie den Feed benennen, die Report Suite angeben, für die der Feed ausgeführt werden soll, die Feed-Wiederholung bestimmen und angeben, wann der Feed startet und endet.
-seo-title: Feed-Informationen
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: Feed-Informationen
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
