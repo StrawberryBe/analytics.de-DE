@@ -1,19 +1,17 @@
 ---
 description: Schritte, in denen beschrieben wird, wie Benutzerkontoelemente (Dashboards, berechnete Metriken, Kalenderereignisse, Warnungen, Lesezeichen, Segmente, Analysis Workspace-Projekte und geplante Projekte) von einem Benutzerkonto auf ein anderes übertragen werden.
-seo-description: Schritte, in denen beschrieben wird, wie Benutzerkontoelemente (Dashboards, berechnete Metriken, Kalenderereignisse, Warnungen, Lesezeichen, Segmente, Analysis Workspace-Projekte und geplante Projekte) von einem Benutzerkonto auf ein anderes übertragen werden.
-seo-title: Benutzerkontoelemente übertragen
 solution: Analytics
-subtopic: Benutzer und Gruppen
-title: Benutzerkontoelemente übertragen
-topic: Admin Tools
-uuid: b 083 c 622-1397-45 ab -8796-f 7 cdc 7043 ec 6
+subtopic: Users and groups
+title: Übertragen von Benutzerkontoelementen
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Benutzerkontoelemente übertragen
+# Übertragen von Benutzerkontoelementen
 
 >[!IMPORTANT]
 >
