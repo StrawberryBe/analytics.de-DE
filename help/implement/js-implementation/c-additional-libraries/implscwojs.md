@@ -1,14 +1,12 @@
 ---
 description: Analytics mithilfe von HTML-Bild-Tags implementieren (fest codierte Bildanforderung).
-keywords: Analytics-Implementierung;HTML-Bild-Tag;fest codierte Bildanforderung
-seo-description: Analytics mithilfe von HTML-Bild-Tags implementieren (fest codierte Bildanforderung).
-seo-title: Analytics mithilfe von HTML-Bild-Tags implementieren
+keywords: Analytics Implementation;html image tag;hardcoded image request
 solution: Analytics
 title: Analytics mithilfe von HTML-Bild-Tags implementieren
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
