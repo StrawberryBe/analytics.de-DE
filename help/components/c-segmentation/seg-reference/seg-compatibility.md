@@ -1,13 +1,11 @@
 ---
 description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
-seo-description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
-seo-title: Data Warehouse-Segmentkompatibilität
 solution: Analytics
 title: Data Warehouse-Segmentkompatibilität
-topic: Segmente
-uuid: 370258 c 5-8614-4434-871 c -41753 ed 77 f 5 c
+topic: Segments
+uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,7 +45,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensionen</b> </td> 
-   <td colname="col2">Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Diese Dimensionen werden beispielsweise nur in Analysis Workspace, Reports &amp; Analysen und Ad-hoc-Analysen unterstützt: 
+   <td colname="col2">Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Beispielsweise werden diese Dimensionen nur in Analysis Workspace, Reports &amp; Analysen und Ad-hoc-Analysen unterstützt: 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">Entryserver </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">Entrykategorie </li> 
@@ -57,8 +55,8 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
    <td colname="col3"> Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Folgende Dimensionen werden beispielsweise nur in Data Warehouse unterstützt: 
     <ul id="ul_61A5B314CCCF497DB0385324E3309E22"> 
      <li id="li_1254089BDFAE4E0F8E51CB1511BBBF53">IP-Adresse </li> 
-     <li id="li_D8E040F77A8C46A084547F4FE685CB10">Seiten-URL </li> 
-     <li id="li_4C79AE900CF6458780C124143DC6FA5B">Besucher-ID </li> 
+     <li id="li_D8E040F77A8C46A084547F4FE685CB10">„Seiten-URL“ </li> 
+     <li id="li_4C79AE900CF6458780C124143DC6FA5B">Visitor ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud-Besucher-ID </li> 
     </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
