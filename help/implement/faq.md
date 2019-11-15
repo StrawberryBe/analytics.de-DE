@@ -1,14 +1,12 @@
 ---
 description: Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
-keywords: Analytics-Implementierung;FAQ;häufig gestellte Fragen;eVar-Gültigkeit;Sichtbarkeit benutzerspezifischer Ereignisse;Zeitstempel;Besucher-ID-Übergangsphase;Besucher-ID;Experience Cloud-Besucher-ID;Analytics-Besucher-ID;DTM;Heartbeat;Cookies;Tracking-Server;Leistung;JavaScript;Datenerfassung;s_code-Version;s_code debuggen;Link-Typen verfolgen;Video verfolgen;mobile App verfolgen;Erstanbieter-Cookies;SSL-Zertifikat;Zertifizierungsgültigkeit;Zertifikatgültigkeit;Plug-ins;Dateneinfüge-API;500-Fehler;500;Benutzer verwalten;Gruppe verwalten;Benutzer;Gruppen
-seo-description: Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
-seo-title: Häufig gestellte Fragen zur Implementierung von Analytics
+keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
 solution: Analytics
 title: Häufig gestellte Fragen zur Implementierung von Analytics
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
