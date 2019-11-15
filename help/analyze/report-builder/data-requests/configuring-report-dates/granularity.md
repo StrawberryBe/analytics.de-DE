@@ -1,13 +1,11 @@
 ---
 description: Im Schritt 1 des Anforderungs-Assistenten können Sie eine Granularitätsstufe auf die Datenanforderung anwenden. Durch die Granularität wird der Detailgrad für die zeitliche Auflösung des Berichts angegeben.
-seo-description: Im Schritt 1 des Anforderungs-Assistenten können Sie eine Granularitätsstufe auf die Datenanforderung anwenden. Durch die Granularität wird der Detailgrad für die zeitliche Auflösung des Berichts angegeben.
-seo-title: Granularität
 solution: Analytics
 title: Granularität
-topic: ReportBuilder
+topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
