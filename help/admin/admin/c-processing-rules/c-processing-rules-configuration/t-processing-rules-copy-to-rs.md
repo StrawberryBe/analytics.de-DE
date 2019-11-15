@@ -1,14 +1,12 @@
 ---
 description: In diesen Schritten erfahren Sie, wie Sie Verarbeitungsregeln aus einer Report Suite kopieren und ersetzen oder an eine andere Report Suite anhängen.
-seo-description: In diesen Schritten erfahren Sie, wie Sie Verarbeitungsregeln aus einer Report Suite kopieren und ersetzen oder an eine andere Report Suite anhängen.
-seo-title: Kopieren von Verarbeitungsregeln in eine andere Report Suite
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Kopieren von Verarbeitungsregeln in eine andere Report Suite
-topic: Admin Tools
-uuid: e 6 aa 50 b 9-a 46 b -3332-b 4 e 1-6 df 0 f 828077 d
+topic: Admin tools
+uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 In diesen Schritten erfahren Sie, wie Sie Verarbeitungsregeln aus einer Report Suite kopieren und ersetzen oder an eine andere Report Suite anhängen.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+1. Report Suite auswählen.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
 
 1. Klicken Sie auf der Seite **Verarbeitungsregeln** auf das Register **[!UICONTROL Verarbeitungsregeln kopieren.]**
