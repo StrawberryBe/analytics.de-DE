@@ -1,24 +1,22 @@
 ---
 description: Dateidownloads und Exitlinks können automatisch anhand von Parametern verfolgt werden, die in der AppMeasurement für JavaScript-Datei festgelegt sind.
-keywords: Analytics-Implementierung
-seo-description: Dateidownloads und Exitlinks können automatisch anhand von Parametern verfolgt werden, die in der AppMeasurement für JavaScript-Datei festgelegt sind.
-seo-title: Die s.tl()-Funktion – Linktracking
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Linktracking
+subtopic: Link tracking
 title: Die s.tl()-Funktion – Linktracking
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Die s.tl()-Funktion – Linktracking
 
-Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten hat, wird eine manuelle Linktracking empfohlen. Verwenden Sie die Funktion s.tl(), um Bildanforderungen zur Linktracking mit dem exakten Inhalt manuell zu senden. Wenn die grundlegende Linktracking nur erforderlich ist, lesen Sie `s.trackDownloadLinks` und `s.trackExternalLinks` unter [Konfigurationsvariablen](c-variables/configuration-variables.md). Benutzerspezifische Links können nicht automatisch verfolgt werden.
+Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten hat, wird ein manuelles Linktracking empfohlen. Verwenden Sie die Funktion „s.tl()“, um Bildanforderungen zum Linktracking mit dem exakten Inhalt manuell zu senden. Wenn nur grundlegendes Linktracking erforderlich ist, lesen Sie `s.trackDownloadLinks` und `s.trackExternalLinks` unter [Konfigurationsvariablen](c-variables/configuration-variables.md). Benutzerspezifische Links können nicht automatisch verfolgt werden.
 
-> [!NOTE] Link-Trackingcode ist häufig sehr spezifisch für Ihre Site und Ihre Berichterstattungsanforderungen. Adobe empfiehlt, dass Sie über Erfahrungen bei der vorherigen Implementierung verfügen oder einen Implementierungsberater haben, um zu verstehen, wie Sie diese Funktion je nach Ihren geschäftlichen Anforderungen verwenden.
+> [!NOTE] Linktracking-Code ist häufig sehr spezifisch für Ihre Site und Ihre Berichterstattungsanforderungen. Adobe empfiehlt, dass Sie über Erfahrungen bei der vorherigen Implementierung verfügen oder einen Implementierungsberater haben, um zu verstehen, wie Sie diese Funktion je nach Ihren geschäftlichen Anforderungen verwenden.
 
 ## Syntax und Beispiele
 
@@ -42,8 +40,8 @@ s.tl(this,'o','Example Link');
 
 Das erste Argument bestimmt, ob der Browser bis zu 500 ms wartet, bevor er von der Seite weg navigiert. Wenn eine Bildanforderung früher als 500 ms gesendet wird, navigiert die Seite sofort zum angeklickten Link.
 
-* `this`: Warten Sie bis zu 500 ms, bis AppMeasurement Zeit zum Senden einer Bildanforderung hat. Standardwert.
-* `true`: Warten Sie nicht. Wenn der Link von der Seite weg navigiert, wird möglicherweise keine Bildanforderung gesendet.
+* `this`: Warten Sie bis zu 500 ms, damit AppMeasurement Zeit zum Senden einer Bildanforderung hat. Standardwert.
+* `true`: Nicht warten. Wenn der Link von der Seite weg navigiert, wird möglicherweise keine Bildanforderung gesendet.
 
 Die Verzögerung ist nur erforderlich, wenn ein Link die Seite verlässt.
 
@@ -57,7 +55,7 @@ s.tl(true,'o','Example link');
 
 ### linkType (erforderlich)
 
-Das zweite Argument hat drei gültige Werte, je nachdem, welchen Linktyp Sie erfassen möchten. Sie bestimmt, welche Dimension in Adobe Analytics die Bildanforderung füllt.
+Das zweite Argument hat drei gültige Werte, abhängig von der Art des Links, den Sie erfassen möchten. Es bestimmt, welche Dimension in Adobe Analytics die Bildanforderung füllt.
 
 * `d`: Dateiladungen
 * `e`: Exitlinks
@@ -76,7 +74,7 @@ s.tl(this,'o','Example link');
 
 ### linkName (erforderlich)
 
-Dieses Argument kann ein beliebiger benutzerdefinierter Wert bis zu 100 Byte sein. Er bestimmt den Dimensionswert in der Berichterstellung.
+Dieses Argument kann ein beliebiger benutzerdefinierter Wert von bis zu 100 Byte sein. Es bestimmt den Dimensionswert in der Berichterstellung.
 
 ```JavaScript
 // Populates the Custom Link dimension with "Referral click to example.com"
@@ -92,18 +90,18 @@ Ermöglicht die Änderung von Variablenwerten für einen einzelnen Aufruf. Wenn 
 
 ### doneAction (optional)
 
-Gibt eine Navigationsaktion an, die nach Abschluss des Nachverfolgungslink-Aufrufs ausgeführt wird. Erfordert die Verwendung von `s.useForcedLinkTracking` und `s.forcedLinkTrackingTimeout`. The doneAction variable can be the string `navigate`, which causes the method to set `document.location` to the href attribute of `linkObject`. Die Variable doneAction kann auch eine Funktion sein, die eine erweiterte Anpassung ermöglicht.
+Gibt eine Navigationsaktion an, die nach Abschluss des Nachverfolgungslink-Aufrufs ausgeführt wird. Erfordert die Verwendung von `s.useForcedLinkTracking` und `s.forcedLinkTrackingTimeout`. Die Variable doneAction kann die Zeichenfolge `navigate` sein, wodurch die Methode den `document.location` auf das „href“-Attribut von `linkObject` festlegt. Die Variable doneAction kann auch eine Funktion sein, die eine erweiterte Anpassung ermöglicht.
 
 Wenn Sie für doneAction in einem `onClick``false`-Ankerereignis einen Wert angeben, müssen Sie nach dem `s.tl`-Aufruf „“ zurückgeben, um die standardmäßige Browsernavigation zu verhindern.
-To mirror the default behavior and follow the URL specified by the href attribute, provide a string of `navigate` as the doneAction. Optional können Sie zur Verarbeitung des Navigationsereignisses auch eine eigene Funktion angeben, die Sie dann als doneAction übergeben.
+Um das Standardverhalten zu imitieren und der vom href-Attribut angegebenen URL zu folgen, müssen Sie als doneAction eine `navigate`-Zeichenfolge angeben. Optional können Sie zur Verarbeitung des Navigationsereignisses auch eine eigene Funktion angeben, die Sie dann als doneAction übergeben.
 
 ```JavaScript
 s.tl(this,'e','Example link',null,'navigate');return false;
 ```
 
-## JavaScript-Funktionen bei der Linktracking
+## JavaScript-Funktionen beim Linktracking
 
-Sie können den Linkverfolgungscode in eine eigenständige JavaScript-Funktion zusammenfassen, die auf der Seite oder in einer verknüpften JavaScript-Datei definiert ist. Aufrufe können dann in der onClick-Funktion jedes Links erfolgen.
+Sie können den Linktracking-Code in einer eigenständige JavaScript-Funktion zusammenfassen, die auf der Seite oder in einer verknüpften JavaScript-Datei definiert ist. Aufrufe können dann in der onClick-Funktion jedes Links erfolgen.
 
 ```JavaScript
 // Set in AppMeasurement file or page code
@@ -122,7 +120,7 @@ function trackClickInteraction(name){
 
 ## Vermeiden von doppelten Linkzählungen {#section_9C3F73DE758F4727943439DED110543C}
 
-Es ist möglich, dass Links in Fällen, in denen der Link normalerweise durch die automatische Dateidownload- oder Exitlinkverfolgung erfasst wird, doppelt gezählt werden. For example, if you are tracking PDF downloads automatically, an `s.tl` call results in a duplicate download count:
+Es ist möglich, dass Links doppelt gezählt werden, wenn der Link normalerweise durch automatisches Herunterladen von Dateien oder Verlassen des Linktracking erfasst wird. Wenn Sie beispielsweise PDF-Downloads automatisch nachverfolgen, führt ein `s.tl`-Auruf zu einer doppelten Download-Anzahl:
 
 ```JavaScript
 function trackDownload(obj) {}
