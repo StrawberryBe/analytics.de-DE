@@ -1,10 +1,8 @@
 ---
 title: Administratorhilfe für Analytics
-seo-title: Analytics-Produktvergleich
 description: Hilfe zur Verwaltung von Adobe Analytics-Administratoren, einschließlich der Benutzer- und Produktverwaltung in der Admin-Konsole, Einrichtung von Report Suites, Variablen, Classifications und Datenerfassung.
-seo-description: Hilfe zur Verwaltung von Adobe Analytics-Administratoren, einschließlich der Benutzer- und Produktverwaltung in der Admin-Konsole, Einrichtung von Report Suites, Variablen, Classifications und Datenerfassung.
 translation-type: tm+mt
-source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
