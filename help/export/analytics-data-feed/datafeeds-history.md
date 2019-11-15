@@ -1,15 +1,13 @@
 ---
 description: Gesammelte Versionshinweise für Analytics-Datenfeed.
-keywords: Datenfeed
-seo-description: Gesammelte Versionshinweise für Analytics-Datenfeed.
-seo-title: Versionshinweise für den Daten-Feed
+keywords: Data Feed
 solution: Analytics
-subtopic: Datenfeeds
+subtopic: data feeds
 title: Versionshinweise für den Daten-Feed
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4b2b2165-d8b3-4dc0-98a8-0121de7e26a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
