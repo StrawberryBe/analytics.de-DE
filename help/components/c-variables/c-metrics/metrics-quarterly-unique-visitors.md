@@ -1,13 +1,11 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Unique Visitors pro Quartal
+description: 'null'
 solution: Analytics
 title: Unique Visitors pro Quartal
-topic: Metrik
-uuid: a 61 e 982 d-a 0 c 6-4915-9 bed -1 e 203 ee 2 cfee
+topic: Metrics
+uuid: a61e982d-a0c6-4915-9bed-1e203ee2cfee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,5 +16,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|---|
 | Traffic | Unique Visitor, der Ihre Site in einem Quartal aufruft. Mehrere Besuche innerhalb eines Quartals durch denselben Besucher zählen als ein [!UICONTROL Unique Visitor pro Quartal]. |
 | Konversion | Keine |
-| Ad Hoc Analysis | Unique Visitor, der Ihre Site in einem Quartal aufruft. Mehrere Besuche innerhalb eines Quartals durch denselben Besucher zählen als ein [!UICONTROL Unique Visitor pro Quartal]. |
+| Ad Hoc Analysis  | Unique Visitor, der Ihre Site in einem Quartal aufruft. Mehrere Besuche innerhalb eines Quartals durch denselben Besucher zählen als ein [!UICONTROL Unique Visitor pro Quartal]. |
 
