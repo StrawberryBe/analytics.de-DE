@@ -1,13 +1,11 @@
 ---
 description: Erstellen Sie Regeln, die bestimmen, auf welchen Seiten eine Regel ausgelöst wird.
-keywords: Dynamic Tag Management;Regel;Regel erstellen;neue Regel;Seitenladeregel
-seo-description: Erstellen Sie Regeln, die bestimmen, auf welchen Seiten eine Regel ausgelöst wird.
-seo-title: Bedingungen für Seitenladeregeln erstellen
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Bedingungen für Seitenladeregeln erstellen
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
