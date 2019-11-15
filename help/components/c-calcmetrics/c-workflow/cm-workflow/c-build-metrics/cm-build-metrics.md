@@ -1,11 +1,9 @@
 ---
 description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie Dimensionen, Segmente und Funktionen per Drag-and-Drop verschieben können, um benutzerdefinierte Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren zu erstellen. Mit diesem integrierten Entwicklungstool können Sie einfache berechnete Metriken oder komplexe, erweiterte berechnete Metriken erstellen und speichern.
-seo-description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie Dimensionen, Segmente und Funktionen per Drag-and-Drop verschieben können, um benutzerdefinierte Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren zu erstellen. Mit diesem integrierten Entwicklungstool können Sie einfache berechnete Metriken oder komplexe, erweiterte berechnete Metriken erstellen und speichern.
-seo-title: Metriken erstellen
 title: Metriken erstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -87,7 +85,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Produktkompatibilität </span> </td> 
-   <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mehr... </a> </p> </p> </td> 
+   <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  >Mehr …</a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Fügen Sie </span> </td> 
@@ -130,7 +128,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Segmenten </p> </td> 
-   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Wenn Sie Administrator sind, enthält diese Liste alle in Ihrem Anmeldeunternehmen erstellten Segmente. Wenn Sie kein Administrator sind, enthält diese Liste Segmente, deren Eigentümer Sie sind, sowie Segmente, die für Sie freigegeben wurden. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > Mehr... </a> </p> </td> 
+   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Wenn Sie Administrator sind, enthält diese Liste alle in Ihrem Anmeldeunternehmen erstellten Segmente. Wenn Sie kein Administrator sind, enthält diese Liste Segmente, deren Eigentümer Sie sind, sowie Segmente, die für Sie freigegeben wurden. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  >Mehr …</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Funktionen </p> </td> 
