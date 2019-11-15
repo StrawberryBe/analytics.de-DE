@@ -1,13 +1,11 @@
 ---
 description: Schritte zur Auswahl des Basisberichtstyps für Ihre Datenanforderung
-seo-description: Schritte zur Auswahl des Basisberichtstyps für Ihre Datenanforderung
-seo-title: Berichtstyp auswählen
 solution: Analytics
 title: Berichtstyp auswählen
-topic: ReportBuilder
-uuid: ebb 882 b 8-590 e -4484-9 c 29-5 c 4 db 2 f 5 edd 1
+topic: Report builder
+uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
