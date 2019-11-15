@@ -1,13 +1,11 @@
 ---
 description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrund stehen die neuen Linktracking-Parameter und wie sie dafür sorgen, dass Links über verschiedene Browser und Geräte hinweg eindeutig und konsistent sind und die Vorgehensweise bei der Neupositionierung von Links auf einer Seite verbessern.
-seo-description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrund stehen die neuen Linktracking-Parameter und wie sie dafür sorgen, dass Links über verschiedene Browser und Geräte hinweg eindeutig und konsistent sind und die Vorgehensweise bei der Neupositionierung von Links auf einer Seite verbessern.
-seo-title: Linktracking-Methode
 solution: Analytics
-title: Linktracking Methodik
-topic: Activity Map
+title: Linktracking-Methode
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,14 +16,14 @@ Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrun
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Bei der Implementierung von Links, deren Text (nicht href) personenbezogene Daten (PII-Daten) enthalten könnte, sollte [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) verwendet oder die Activity Map-Linkerfassung mit [s.ActivityMap.linkExclusions oder s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) ausgeschlossen werden. Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 In Activity Map basiert Linktracking auf diesen beiden IDs:
 
 * Primäre ID: Dies ist der erkennbare Parameter des Links.
 * Linkregion: Dies ist ein sekundärer Parameter, der es Benutzern ermöglicht, eine Zeichenfolge anzugeben, die für den gesamten Linkbereich der Seite oder der Region repräsentativ ist. Dieser Parameter kann automatisch generiert werden, wenn er nicht vom Benutzer bereitgestellt wird.
 
-## Primäre ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## Primäre ID  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als primäre ID verwendet. Andernfalls werden folgende Parameter als primäre ID verwendet (hier in der Reihenfolge der Priorität aufgeführt):
 
@@ -35,7 +33,7 @@ Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als
 * Src
 * Action
 
-## Verwenden von InnerText im Vergleich zur Linkaktion (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Verwenden von InnerText im Vergleich zur Linkaktion (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 Die Linkaktion (URL) ist die Aktion, die von der Webseite beim Klicken auf den Link ausgeführt wird. Normalerweise wird die URL angegeben, die nach dem Klicken auf den Link aufgerufen wird. Einige der Probleme, die bei der Verwendung der Linkaktion auftreten, sind:
 
@@ -50,7 +48,7 @@ Daher wird InnerText verwendet, um von folgenden Vorteilen gegenüber der Linkak
 * Wenn ein Link auf der Seite neu positioniert wird, hat dies keine Auswirkungen auf InnerText.
 * Die Lesbarkeit wird verbessert, sodass Benutzer Linktracking-Berichte außerhalb von Activity Map analysieren können.
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## Linkregion {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 Dieses neue Attribut ermöglicht Benutzern, eine Zeichenfolge anzugeben, die für die Seitenregion, in der sich der Link befindet, repräsentativ ist.
 
@@ -62,12 +60,12 @@ Die Verwendung der Linkregion hat diese Vorteile:
 * Sie hilft, Links mit der gleichen primären ID zu unterscheiden.
 * Die Trends einer Region sind weniger vom dynamischen Aspekt einer Webseite betroffen.
 * Benutzer können die beliebtesten Links in einer Region sehen. Mit der Region als Anker können Überlagerungen für Links angezeigt werden, die aktuell auf der Seite nicht sichtbar sind (Ajax, Targeting).
-* Eine Region kann Seiten ersetzen, da sie über viele Webseiten hinweg verwendet werden kann. Es hilft bei der Beantwortung von Fragen wie: "Erweist sich meine Region des "Produktangebots"auf der Landingpage für Frauen oder auf der Landingpage für Männer als am besten?
+* Eine Region kann Seiten ersetzen, da sie über viele Webseiten hinweg verwendet werden kann. Sie hilft, Fragen zu beantworten wie: „Erzielt die Region mit meinem Produktangebot auf der Landingpage für Frauen oder Männer bessere Ergebnisse?“
 * Die Region ist eine nützliche Dimension, um hochdynamische Webseiten zu analysieren. Der Grund ist, dass Verzerrungen durch ständig wechselnde Links vermieden werden: In einer Region namens „Neueste Nachrichten“ auf der Landingpage eines Nachrichtensenders ändern sich die Links wahrscheinlich sehr häufig. Aber die Region bleibt immer dieselbe. Deshalb kann es interessant sein, Trends auf Regionsebene über mehrere Tage hinweg zu beobachten.
 
 **Benutzerdefinierte Verfolgung von Regionen**
 
-Sie können den Regionsparameter für einen Link (Standard ist Link-ID) anpassen: Ein auf „ID“ gesetztes Tag verwendet alle HTML-Elemente mit dem Parameter „id“ als Region. Wenn Sie daher das Regions-Tag auf "id"setzen, werden höchstwahrscheinlich viele verschiedene Regionen zurückgegeben (so viele, wie verschiedene "IDs"auf der Seite vorhanden sind). Für eine spezifischere Implementierung können Sie das Regions-Tag alternativ auch auf einen genauer bestimmten Parameter setzen, beispielsweise auf „region_id“.
+Sie können den Regionsparameter für einen Link (Standard ist Link-ID) anpassen: Ein auf „ID“ gesetztes Tag verwendet alle HTML-Elemente mit dem Parameter „id“ als Region. Wenn Sie daher das Regions-Tag auf „id“ setzen, führt dies wahrscheinlich zu sehr vielen Regionen (so viele, wie es unterschiedliche IDs auf der Seite gibt). Für eine spezifischere Implementierung können Sie das Regions-Tag alternativ auch auf einen genauer bestimmten Parameter setzen, beispielsweise auf „region_id“.
 
 Der folgende Abschnitt enthält ein Beispiel für HTML-Code, in dem das standardmäßige Attribut für die ID einer Region, „id“, verwendet wird: 
 
