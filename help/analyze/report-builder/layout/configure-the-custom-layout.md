@@ -1,13 +1,11 @@
 ---
 description: Das benutzerdefinierte Layout gleicht im Wesentlichen dem Pivot-Layout, aber Sie können festlegen, an welcher Position des Arbeitsblatts die einzelnen Elemente des Rasters angezeigt werden sollen. Dieses Layout bietet die Flexibilität, die von früheren Versionen bekannt ist, z. B. in Hinsicht auf Aufgliederungen und Microcharts.
-seo-description: Das benutzerdefinierte Layout gleicht im Wesentlichen dem Pivot-Layout, aber Sie können festlegen, an welcher Position des Arbeitsblatts die einzelnen Elemente des Rasters angezeigt werden sollen. Dieses Layout bietet die Flexibilität, die von früheren Versionen bekannt ist, z. B. in Hinsicht auf Aufgliederungen und Microcharts.
-seo-title: Das benutzerdefinierte Layout konfigurieren
 solution: Analytics
 title: Das benutzerdefinierte Layout konfigurieren
-topic: ReportBuilder
+topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
