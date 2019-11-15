@@ -1,13 +1,11 @@
 ---
 description: Zeigt Informationen über Ihre Kundenloyalität an. Sie können feststellen, wie viele Besucher wie oft zu Ihrer Site zurückkehren. Berichte dieser Kategorie zeigen Informationen zur Kundenloyalität an. Sie können feststellen, wie viele Besucher wie oft zu Ihrer Site zurückkehren.
-seo-description: Zeigt Informationen über Ihre Kundenloyalität an. Sie können feststellen, wie viele Besucher wie oft zu Ihrer Site zurückkehren. Berichte dieser Kategorie zeigen Informationen zur Kundenloyalität an. Sie können feststellen, wie viele Besucher wie oft zu Ihrer Site zurückkehren.
-seo-title: Besuchertreue
 solution: Analytics
 title: Besuchertreue
-topic: Berichte
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
