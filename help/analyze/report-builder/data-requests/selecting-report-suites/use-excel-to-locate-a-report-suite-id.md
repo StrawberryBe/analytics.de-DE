@@ -1,18 +1,16 @@
 ---
 description: Wenn Sie die ID einer Report Suite nicht kennen, können Sie auch den entsprechenden Wert im Menü Report Suite im Feld Report Suite zu einer Zelle in der Excel-Arbeitsmappe ziehen und ihn dort ablegen.
-seo-description: Wenn Sie die ID einer Report Suite nicht kennen, können Sie auch den entsprechenden Wert im Menü Report Suite im Feld Report Suite zu einer Zelle in der Excel-Arbeitsmappe ziehen und ihn dort ablegen.
-seo-title: Excel verwenden, um eine Report Suite-ID zu finden
 solution: Analytics
-title: Excel verwenden, um eine Report Suite-ID zu finden
-topic: ReportBuilder
-uuid: 087 d 5720-f 438-4 db 3-bebb-e 6452 f 1 f 2 ba 6
+title: Excel zum Suchen einer Report Suite-ID verwenden
+topic: Report builder
+uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Excel verwenden, um eine Report Suite-ID zu finden
+# Excel zum Suchen einer Report Suite-ID verwenden
 
 Wenn Sie die ID einer Report Suite nicht kennen, können Sie auch den entsprechenden Wert im Menü Report Suite im Feld Report Suite zu einer Zelle in der Excel-Arbeitsmappe ziehen und ihn dort ablegen.
 
