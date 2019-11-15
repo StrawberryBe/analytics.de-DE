@@ -1,11 +1,9 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Dimensionen, die nicht mit Data Warehouse-Segmenten kompatibel sind
+description: 'null'
 title: Dimensionen, die nicht mit Data Warehouse-Segmenten kompatibel sind
-uuid: ce 772 b 7 a -6 a 30-454 a-a 38 f-d 2 bb 2521 f 0 fb
+uuid: ce772b7a-6a30-454a-a38f-d2bb2521f0fb
 translation-type: tm+mt
-source-git-commit: b732e31da8d144cd0074c2b91c400ceacc84b991
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
