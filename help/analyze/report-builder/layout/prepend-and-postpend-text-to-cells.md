@@ -1,18 +1,16 @@
 ---
 description: Bei Anforderungen des Layouttyps „Pivot“ und „Benutzerdefiniert“ können Sie numerischen Zeichen oder Textzeichen in Zellenwerten Text voranstellen oder diesen daran anhängen.
-seo-description: Bei Anforderungen des Layouttyps „Pivot“ und „Benutzerdefiniert“ können Sie numerischen Zeichen oder Textzeichen in Zellenwerten Text voranstellen oder diesen daran anhängen.
-seo-title: Zellen Zellen voranstellen und anhängen
 solution: Analytics
-title: Zellen Zellen voranstellen und anhängen
-topic: ReportBuilder
-uuid: d 31 af 8 a 7-67 fb -435 f -80 d 1-dee 7 acb 4411 e
+title: Text Zellen voranstellen oder anhängen
+topic: Report builder
+uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Zellen Zellen voranstellen und anhängen
+# Text Zellen voranstellen oder anhängen
 
 Bei Anforderungen des Layouttyps „Pivot“ und „Benutzerdefiniert“ können Sie numerischen Zeichen oder Textzeichen in
 Zellenwerten Text voranstellen oder diesen daran anhängen.
