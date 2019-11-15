@@ -1,13 +1,11 @@
 ---
 description: Adobe ReportBuilder bietet jetzt Berechtigungseinstellungen, die denjenigen der Admin Tools von Analytics entsprechen.
-seo-description: Adobe ReportBuilder bietet jetzt Berechtigungseinstellungen, die denjenigen der Admin Tools von Analytics entsprechen.
-seo-title: Benutzerzugriffsberechtigungen für Dimensionen und Metriken
 solution: Analytics
 title: Benutzerzugriffsberechtigungen für Dimensionen und Metriken
-topic: ReportBuilder
+topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
