@@ -1,14 +1,12 @@
 ---
 description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Neue Funktionen in Analysis Workspace.
-seo-title: Neuerungen in Analysis Workspace
 solution: Analytics
 title: Neuerungen in Analysis Workspace
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
