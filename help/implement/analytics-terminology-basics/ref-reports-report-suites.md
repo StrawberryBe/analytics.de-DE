@@ -1,14 +1,12 @@
 ---
 description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Wenn Sie sich in Marketing-Berichte, Ad Hoc Analysis und Report Builder anmelden, wählen Sie die gewünschte Report Suite aus (eine Ausnahme sind die Datenaggregationen, die Report Suites kombinieren).
-keywords: Analytics-Implementierung;Berichte;Report Suite;Analytics-Bericht;globales Segment;Datenaggregationen;Datenaggregation;Report Suites kombinieren;Traffic;Konversion;Pfad
-seo-description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Wenn Sie sich in Marketing-Berichte, Ad Hoc Analysis und Report Builder anmelden, wählen Sie die gewünschte Report Suite aus (eine Ausnahme sind die Datenaggregationen, die Report Suites kombinieren).
-seo-title: Berichte und Report Suites
+keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
 solution: Analytics
 title: Berichte und Report Suites
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
