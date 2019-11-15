@@ -1,14 +1,12 @@
 ---
 description: Verwenden Sie das Dynamic Tag Management, um Kopf- und Fußzeilencode hinzuzufügen, mit dem das Laden von JavaScript und Seiteninhalten Ihrer Site definiert wird. Sie müssen sowohl den Kopf- als auch den Fußzeilencode auf jeder Seite Ihrer Website einfügen – unabhängig von der verwendeten Hosting-Option.
-keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Code;Seiten-Code;Kopfzeilencode;Fußzeilencode;Einbettungscode;Registerkarte „Einbettung“;einbetten
-seo-description: Verwenden Sie das Dynamic Tag Management, um Kopf- und Fußzeilencode hinzuzufügen, mit dem das Laden von JavaScript und Seiteninhalten Ihrer Site definiert wird. Sie müssen sowohl den Kopf- als auch den Fußzeilencode auf jeder Seite Ihrer Website einfügen – unabhängig von der verwendeten Hosting-Option.
-seo-title: Kopf- und Fußzeilencode hinzufügen
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: Kopf- und Fußzeilencode hinzufügen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
