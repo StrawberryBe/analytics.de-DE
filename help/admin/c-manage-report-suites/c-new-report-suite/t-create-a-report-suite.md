@@ -1,13 +1,11 @@
 ---
 description: Beschreibende Schritte zum Erstellen einer Report Suite und zum Kopieren der Einstellungen einer Report Suite in eine neue.
-seo-description: Beschreibende Schritte zum Erstellen einer Report Suite und zum Kopieren der Einstellungen einer Report Suite in eine neue.
-seo-title: Report Suite erstellen
 solution: Analytics
 title: Report Suite erstellen
-topic: Admin Tools
+topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
