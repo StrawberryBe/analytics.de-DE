@@ -1,14 +1,12 @@
 ---
 description: Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem Sie das Adobe Analytics-Tool erstellen und den Seiten-Code entweder automatisch oder manuell konfigurieren. Für die meisten Benutzer wird die automatische Methode empfohlen.
-keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Analytics-Tool;Eigenschaft;Tooltyp;Toolname;Konfigurationsmethode;Analytics Premium;eVars;Ereignisse
-seo-description: Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem Sie das Adobe Analytics-Tool erstellen und den Seiten-Code entweder automatisch oder manuell konfigurieren. Für die meisten Benutzer wird die automatische Methode empfohlen.
-seo-title: Adobe Analytics-Tool hinzufügen
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Adobe Analytics-Tool hinzufügen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -54,8 +52,8 @@ Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem S
   <tr> 
    <td colname="col2"> <p> <b>Manuell</b>: Manuelle Verwaltung des AppMeasurement-Codes. Der <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span>-Code kann unter <span class="ignoretag"><span class="uicontrol">Admin Tools</span> &gt; <span class="uicontrol">Code-Manager</span></span> heruntergeladen werden. </p> <p>Klicken Sie auf <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (neu)</a>, um Informationen zum lokalen Download des Codes zu erhalten, damit Sie ihn kopieren und in das Feld <span class="wintitle">Code bearbeiten</span> in der <a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">Bibliotheksverwaltung</a> einfügen können. </p> <p>Füllen Sie die Felder der manuellen Konfiguration aus: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>Produktionskonto-ID</b> (erforderlich): Ihr Produktionskonto für die Datenerfassung. Bei Analytics ist dies die Report Suite-ID. Das Dynamic Tag Management installiert automatisch das richtige Konto in der Produktions- und Staging-Umgebung. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>Staging-Konto-ID</b> (erforderlich): Wird in der Entwicklungs- oder Testumgebung eingesetzt. Bei Analytics ist dies die Report Suite-ID. Mit dem Staging-Konto werden Ihre Testdaten von der Produktion getrennt gehalten. </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>Produktionskonto-ID</b> (erforderlich): Ihr Produktionskonto für die Datenerfassung. Bei Analytics ist dies Ihre Report Suite-ID. Das Dynamic Tag Management installiert automatisch das richtige Konto in der Produktions- und Staging-Umgebung. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>Staging-Konto-ID</b> (erforderlich): Wird in der Entwicklungs- oder Testumgebung eingesetzt. Bei Analytics ist dies Ihre Report Suite-ID. Mit einem Staging-Konto werden Ihre Testdaten von der Produktion getrennt. </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Tracking-Server:</b> Angabe der Tracking-Server-Daten </p> <p>Mit den Variablen <span class="wintitle">Tracking-Server</span> und <span class="wintitle">SSL-Tracking-Server</span> können Erstanbieter-Cookies bereitgestellt werden, in denen die Domäne enthalten ist, in der Bildabfrage und Cookie geschrieben wurden. Weitere Informationen finden Sie im Artikel zur <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">ordnungsgemäßen Angabe der Variablen „trackingServer“ und „trackingServerSecure“</a>. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL-Tracking-Server:</b> Angabe der SSL-Tracking-Serverdaten. </p> </li> 
     </ul> </td> 
