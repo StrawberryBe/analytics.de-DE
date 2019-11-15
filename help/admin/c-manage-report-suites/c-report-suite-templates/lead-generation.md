@@ -1,13 +1,11 @@
 ---
-description: Definiert allgemeine Einstellungen für eine Website, auf der Informationen zu Dienstleistungen und Produkten bereitgestellt werden, die üblicherweise erst nach weiterführender Interaktion verkauft werden.
-seo-description: Definiert allgemeine Einstellungen für eine Website, auf der Informationen zu Dienstleistungen und Produkten bereitgestellt werden, die üblicherweise erst nach weiterführendem Engagement verkauft werden.
-seo-title: Lead-Generierung
+description: Definiert allgemeine Einstellungen für eine Website, auf der Informationen zu Dienstleistungen und Produkten bereitgestellt werden, die üblicherweise erst nach weiterführendem Engagement verkauft werden.
 solution: Analytics
 title: Lead-Generierung
-topic: Admin Tools
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
