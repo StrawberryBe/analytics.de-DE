@@ -1,18 +1,16 @@
 ---
 description: Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
-seo-description: Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
-seo-title: Filterpfadberichte durch Hinzufügen von abhängigen Anforderungen
 solution: Analytics
-title: Filterpfadberichte durch Hinzufügen von abhängigen Anforderungen
-topic: ReportBuilder
-uuid: dd 1294 f 8-a 26 b -4254-a 9 f 6-1365 b 2912 adf
+title: Pfadberichte durch Hinzufügen von abhängigen Anforderungen filtern
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Filterpfadberichte durch Hinzufügen von abhängigen Anforderungen
+# Pfadberichte durch Hinzufügen von abhängigen Anforderungen filtern
 
 Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
 
@@ -38,4 +36,4 @@ Report Builder does not offer these as standalone reports, but you can create th
 
 1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
-   Der Anforderungs-Assistent wird angezeigt, wobei die Metrik „Vorherige Seite“ bereits ausgewählt ist. 1. Verfeinern Sie Ihre Anforderung weiter im Anforderungs-Assistenten und generieren Sie Ihre Anforderung.
+   Der Anforderungs-Assistent wird angezeigt, wobei die Metrik „Vorherige Seite“ bereits ausgewählt ist. 1. Verfeinern Sie Ihre Anforderung im Anforderungs-Assistenten weiter und erstellen Sie Ihre Anforderung.
