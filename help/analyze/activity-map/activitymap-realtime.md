@@ -1,13 +1,11 @@
 ---
 description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
-seo-description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
-seo-title: Seitenanalysen in Echtzeit (Livemodus)
 solution: Analytics
 title: Seitenanalysen in Echtzeit (Livemodus)
-topic: Activity Map
+topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,4 +35,4 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/de_DE/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
