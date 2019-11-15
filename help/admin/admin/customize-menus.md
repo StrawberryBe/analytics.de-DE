@@ -1,13 +1,11 @@
 ---
 description: Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benutzer in Reports & Analytics angezeigt werden. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Diese Funktion ist besonders dann nützlich, wenn in Ihrem Unternehmen nur bestimmte Berichte genutzt werden und das linke Menü nicht mit ungenutzten oder irrelevanten Daten überladen werden soll.
-seo-description: Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benutzer in Reports & Analytics angezeigt werden. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Diese Funktion ist besonders dann nützlich, wenn in Ihrem Unternehmen nur bestimmte Berichte genutzt werden und das linke Menü nicht mit ungenutzten oder irrelevanten Daten überladen werden soll.
-seo-title: Menüanpassung
 solution: Analytics
 title: Menüanpassung
-topic: Admin Tools
+topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
