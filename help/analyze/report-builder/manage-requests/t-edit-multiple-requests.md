@@ -1,13 +1,11 @@
 ---
 description: Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report Suite, die Granularität und der Datumsbereich einer Anforderung zu beachten.
-seo-description: Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report Suite, die Granularität und der Datumsbereich einer Anforderung zu beachten.
-seo-title: Mehrere Anforderungen bearbeiten
 solution: Analytics
 title: Mehrere Anforderungen bearbeiten
-topic: ReportBuilder
+topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
