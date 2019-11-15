@@ -1,13 +1,11 @@
 ---
 description: Erläutert die Schritte und die Best Practices für die Planung von Segmenten.
-seo-description: Erläutert die Schritte und die Best Practices für die Planung von Segmenten.
-seo-title: Segmente planen
 solution: Analytics
 title: Segmente planen
-topic: Segmente
+topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
