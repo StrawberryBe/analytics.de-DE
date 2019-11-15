@@ -1,13 +1,11 @@
 ---
-description: Anhand von benutzerspezifischen Metriken können Sie zusätzliche Erfolgsmetriken auf Ihrer Seite überwachen.
-seo-description: 'Anhand von benutzerspezifischen Metriken können Sie zusätzliche Erfolgsmetriken auf Ihrer Seite überwachen. '
-seo-title: Benutzerdefinierte Metriken
+description: 'Anhand von benutzerspezifischen Metriken können Sie zusätzliche Erfolgsmetriken auf Ihrer Seite überwachen. '
 solution: Analytics
 title: Benutzerdefinierte Metriken
-topic: Metriken
+topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
