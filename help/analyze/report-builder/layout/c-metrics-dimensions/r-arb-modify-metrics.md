@@ -1,18 +1,16 @@
 ---
 description: Feldbeschreibungen zur Konfiguration von Metriken in ReportBuilder.
-seo-description: Feldbeschreibungen zur Konfiguration von Metriken in ReportBuilder.
-seo-title: Metriken ändern - Felddefinitionen
 solution: Analytics
-title: Metriken ändern - Felddefinitionen
-topic: ReportBuilder
-uuid: 5 b 82 f 4 f 7-f 9 d 2-41 c 3-b 5 cb-eefcc 2 c 1 d 3 a 6
+title: Metriken ändern – Felddefinitionen
+topic: Report builder
+uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Metriken ändern - Felddefinitionen
+# Metriken ändern – Felddefinitionen
 
 Feldbeschreibungen zur Konfiguration von Metriken in ReportBuilder.
 
