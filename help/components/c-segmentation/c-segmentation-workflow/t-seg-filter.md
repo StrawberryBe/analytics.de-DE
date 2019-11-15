@@ -1,13 +1,11 @@
 ---
 description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“.)
-seo-description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“.)
-seo-title: Segmente filtern
 solution: Analytics
 title: Segmente filtern
-topic: Segmente
+topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
