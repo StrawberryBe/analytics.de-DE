@@ -1,13 +1,11 @@
 ---
-description: Administrative Schritte zum Einrichten von Echtzeit-Berichten
-seo-description: Administrative Schritte zum Einrichten von Echtzeit-Berichten
-seo-title: Konfiguration von Echtzeit-Berichten
+description: Administrative Schritte zum Einrichten von Echtzeitberichten
 solution: Analytics
 title: Konfiguration von Echtzeit-Berichten
-topic: Admin Tools
+topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
    >[!NOTE]
    >
-   > Einige Dimensionen, wie "Suchbegriff"oder "Produkt", bleiben in Echtzeit nicht erhalten, wie dies in anderen Adobe Analytics der Fall ist. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
+   >Einige Dimensionen, wie "Suchbegriff"oder "Produkt", bleiben in Echtzeit nicht erhalten, wie dies in anderen Adobe Analytics der Fall ist. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
 
    ![](assets/warning_dimensions.png)
 
