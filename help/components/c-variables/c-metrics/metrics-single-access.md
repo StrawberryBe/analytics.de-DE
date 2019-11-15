@@ -1,13 +1,11 @@
 ---
 description: Der Einzelzugriff definiert sich aus der Anzahl der Besuche auf Ihrer Website, die einen einzelnen, eindeutigen Seitennamenwert enthielten. Wenn ein Benutzer Ihre Website aufruft und auf einen verfolgten Link klickt, ein Ereignis auslöst (z. B. durch den Start eines Videos) oder die Seite neu lädt, wird der Besuch weiterhin als Einzelzugriffsbesuch gewertet. Solange sich der Wert für die Variable „pageName“ nicht ändert, kann eine beliebige Anzahl an Anfragen gesendet werden, und der Besuch wird dennoch als Einzelzugriff gewertet.
-seo-description: Der Einzelzugriff definiert sich aus der Anzahl der Besuche auf Ihrer Website, die einen einzelnen, eindeutigen Seitennamenwert enthielten. Wenn ein Benutzer Ihre Website aufruft und auf einen verfolgten Link klickt, ein Ereignis auslöst (z. B. durch den Start eines Videos) oder die Seite neu lädt, wird der Besuch weiterhin als Einzelzugriffsbesuch gewertet. Solange sich der Wert für die Variable „pageName“ nicht ändert, kann eine beliebige Anzahl an Anfragen gesendet werden, und der Besuch wird dennoch als Einzelzugriff gewertet.
-seo-title: Einzelzugriff
 solution: Analytics
 title: Einzelzugriff
-topic: Metriken
-uuid: 3 e 35 a 12 e -53 ca -45 a 5-84 a 6-6 eedbf 3 f 4639
+topic: Metrics
+uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,7 +31,7 @@ Der Einzelzugriff definiert sich aus der Anzahl der Besuche auf Ihrer Website, d
    <td colname="col2"> Einzelzugriff ist keine Konversionsmetrik. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis </td> 
+   <td colname="col1"> Ad Hoc Analysis  </td> 
    <td colname="col2">Wie bei Traffic ist der <span class="wintitle">Einzelseitenbesuch</span> die Frequenz, mit der bei einem Besuch eine einzelne Seite oder ein einzelner Wert als einziger Wert erfasst wird. <p>Die Metrik ist für <span class="wintitle">Einzelzugriff</span> UND <span class="wintitle">Absprünge</span> in Reports &amp; Analytics identisch, abhängig davon, ob für <span class="wintitle">Wiederholte Instanzen zählen</span> „Ja“ oder „Nein“ eingestellt ist. </p> <p>Diese Einstellung wirkt sich auch auf Pfadsetzungsberichte wie „Fluss“, „Nächste Seite“, „Fallout“ usw. aus. </p> </td> 
   </tr> 
  </tbody> 
