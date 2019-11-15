@@ -1,14 +1,12 @@
 ---
 description: Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
-keywords: Datenfeed;Seite;Ereignis;page_event;post_page_event
-seo-description: Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
-seo-title: Seitenereignissuche
+keywords: Data Feed;page;event;page_event;post_page_event
 solution: Analytics
 title: Seitenereignissuche
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts �
    <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 für <code> trackState </code>-Aufrufe von mobilen SDKs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Linktracking </td> 
+   <td colname="col1"> Linktracking  </td> 
    <td colname="col02"> <p>10 für „Sonstige-Link“ </p> <p>10 für <code> trackAction </code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>11 für „Download-Link“ </p> <p>12 für „externer Link oder Exitlink“ </p> </td> 
    <td colname="col2"> <p>100 für „Sonstige-Link“ </p> <p>100 für <code> trackAction </code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>101 für „Download-Link“ </p> <p>102 für „externer Link oder Exitlink“ </p> </td> 
   </tr> 
