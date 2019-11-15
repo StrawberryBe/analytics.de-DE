@@ -1,14 +1,12 @@
 ---
-description: Eine Folge von Seitenansichten während einer Sitzung. Die Besuchsmetrik wird häufig in Berichten verwendet, die die Anzahl der Besuchersitzungen in dem ausgewählten Zeitraum anzeigen.
-keywords: Besuch
-seo-description: Eine Folge von Seitenansichten während einer Sitzung. Die Besuchsmetrik wird normalerweise in Berichten verwendet, die die Anzahl der Benutzersitzungen im gewählten Zeitraum anzeigen.
-seo-title: Besuch
+description: Eine Folge von Seitenansichten während einer Sitzung. Die Besuchsmetrik wird normalerweise in Berichten verwendet, die die Anzahl der Benutzersitzungen im gewählten Zeitraum anzeigen.
+keywords: visit
 solution: Analytics
 title: Besuch
-topic: Metriken
+topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
