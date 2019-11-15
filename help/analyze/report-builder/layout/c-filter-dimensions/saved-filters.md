@@ -1,13 +1,11 @@
 ---
 description: Sie können in ReportBuilder Filter oder andere Parameter speichern, um sie später in anderen Arbeitsblättern oder -mappen wiederzuverwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Benutzer ReportBuilder auf anderen Computern verfügbar sind.
-seo-description: Sie können in ReportBuilder Filter oder andere Parameter speichern, um sie später in anderen Arbeitsblättern oder -mappen wiederzuverwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Benutzer ReportBuilder auf anderen Computern verfügbar sind.
-seo-title: Gespeicherte Filter
 solution: Analytics
 title: Gespeicherte Filter
-topic: ReportBuilder
+topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
