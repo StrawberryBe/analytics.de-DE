@@ -1,14 +1,12 @@
 ---
 description: Informationen zur Data Sources-Vorlage, die ein Daten-Framework zum Übermitteln eines bestimmten Satzes an externen Daten an Data Sources bietet.
-seo-description: Informationen zur Data Sources-Vorlage, die ein Daten-Framework zum Übermitteln eines bestimmten Satzes an externen Daten an Data Sources bietet.
-seo-title: 'Data Sources-Vorlagenübersicht '
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: 'Data Sources-Vorlagenübersicht '
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
