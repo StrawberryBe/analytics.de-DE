@@ -1,13 +1,11 @@
 ---
 description: Führt die Standardmetriken in Adobe Analytics auf.
-seo-description: Führt die Standardmetriken in Adobe Analytics auf.
-seo-title: Kurzübersicht über Metriken
 solution: Analytics
 title: Kurzübersicht über Metriken
-topic: Metriken
+topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
