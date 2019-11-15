@@ -1,13 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
-seo-description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
-seo-title: Erfolgsereignisse konfigurieren
 solution: Analytics
 title: Erfolgsereignisse konfigurieren
-topic: Admin Tools
+topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
