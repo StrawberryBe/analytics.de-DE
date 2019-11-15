@@ -1,14 +1,12 @@
 ---
 description: Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
-seo-description: Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
-seo-title: Marketing-Kanäle verwalten
 solution: Analytics
-subtopic: Marketingkanäle
+subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
