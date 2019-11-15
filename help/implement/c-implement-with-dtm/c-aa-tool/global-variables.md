@@ -1,13 +1,11 @@
 ---
 description: Beschreibung der Felder und Informationen über Variablen bei Verwendung des Dynamic Tag Managements zur Bereitstellung von Adobe Analytics.
-keywords: Dynamic Tag Management;globale Variablen;Servervariable;eVar;props;dynamisches Variablenpräfix;dynamische Variable
-seo-description: Beschreibung der Felder und Informationen über Variablen bei Verwendung des Dynamic Tag Managements zur Bereitstellung von Adobe Analytics.
-seo-title: Globale Variablen
+keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Globale Variablen
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 Beschreibung der Felder und Informationen über Variablen bei Verwendung des Dynamic Tag Managements zur Bereitstellung von Adobe Analytics.
 
-Diese Variablen werden durch alle Seitenladesignale ausgelöst. Den gleichen Effekt können Sie durch Verwendung einer [Seitenladeregel](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) erzielen, die so eingestellt ist, dass sie auf jeder Seite auslöst. Diese Variablen werden möglicherweise nicht in [Direktaufruf](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)- und [ereignisbasierten](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md) Regeln auslösen.
+Diese Variablen werden bei allen Seitenladeregel-Beacons ausgelöst. Den gleichen Effekt können Sie durch Verwendung einer [Seitenladeregel](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md) erzielen, die so eingestellt ist, dass sie auf jeder Seite auslöst. Diese Variablen werden möglicherweise nicht in [Direktaufruf](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)- und [ereignisbasierten](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md) Regeln auslösen.
 
 ## Globale Variablen – Feldbeschreibungen {#section_2917F62FCC8D43F982B2612A702DEF81}
 
