@@ -1,13 +1,11 @@
 ---
 description: Zeigt eine ausführliche Liste der Mobilgeräte an, die für den Zugriff auf Ihre Website verwendet werden.
-seo-description: Zeigt eine ausführliche Liste der Mobilgeräte an, die für den Zugriff auf Ihre Website verwendet werden.
-seo-title: Geräte
 solution: Analytics
 title: Geräte
-topic: Berichte
+topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
