@@ -1,13 +1,11 @@
 ---
 description: Sie können einen aktiven Feed pausieren.
-keywords: Datenfeed; Feed; pause
-seo-description: Sie können einen aktiven Feed pausieren.
-seo-title: Feed pausieren
+keywords: Data Feed;feed;pause
 solution: Analytics
 title: Feed pausieren
-uuid: 2 e 06 b 9 d 8-521 f -4811-aa 2 e -5588 ec 4 e 3 d 54
+uuid: 2e06b9d8-521f-4811-aa2e-5588ec4e3d54
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,4 +19,4 @@ Beim Pausieren eines Feeds wird die Verarbeitung aktueller Aufträge fertiggeste
 1. Wählen Sie einen oder mehrere Feeds aus.
 1. Click **[!UICONTROL Pause]**.
 
-   For information about activating a paused feed, see [Activate a Feed](t-feed-activate.md).
+   Informationen zum Aktivieren eines angehaltenen Feeds finden Sie unter Feed [aktivieren](t-feed-activate.md).
