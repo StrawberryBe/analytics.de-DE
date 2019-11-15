@@ -1,14 +1,12 @@
 ---
 description: Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
 keywords: Virtual Report Suite
-seo-description: Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
-seo-title: Häufig gestellte Fragen zu VRS
 solution: Analytics
 title: Häufig gestellte Fragen zu VRS
-topic: Reports and Analytics
-uuid: 91225743-765 a -4145-9 ce 5-4268 e 80 ea 7 e 8
+topic: Reports and analytics
+uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
