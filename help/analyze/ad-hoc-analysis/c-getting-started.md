@@ -1,11 +1,9 @@
 ---
 description: Erste Schritte mit Ad-hoc-Analysen.
-seo-description: Erste Schritte mit Ad-hoc-Analysen.
-seo-title: Erste Schritte
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
