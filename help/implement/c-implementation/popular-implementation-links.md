@@ -1,11 +1,9 @@
 ---
 description: 'Während der Implementierung sind möglicherweise diese Dokumente hilfreich '
-seo-description: 'Während der Implementierung sind möglicherweise diese Dokumente hilfreich '
-seo-title: Beliebte Implementierungslinks
 title: Beliebte Implementierungslinks
 uuid: 4441aa4c-0bb7-4797-91b9-cd201aad99f2
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
