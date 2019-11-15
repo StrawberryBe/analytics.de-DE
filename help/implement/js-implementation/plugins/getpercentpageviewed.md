@@ -1,15 +1,13 @@
 ---
 description: Misst die Bildlaufaktivität eines Besuchers, um festzustellen, wie viel Prozent einer Seite der Benutzer ansieht, bevor er auf eine andere Seite wechselt. Mit diesem Plug-in können Sie ermitteln, wie viel des Inhalts die Benutzer durchschnittlich ansehen, sodass Sie die Seitenlänge und das Seitenlayout entsprechend dem Benutzerverhalten anpassen können.
-keywords: Analytics-Implementierung
-seo-description: Misst die Bildlaufaktivität eines Besuchers, um festzustellen, wie viel Prozent einer Seite der Benutzer ansieht, bevor er auf eine andere Seite wechselt. Mit diesem Plug-in können Sie ermitteln, wie viel des Inhalts die Benutzer durchschnittlich ansehen, sodass Sie die Seitenlänge und das Seitenlayout entsprechend dem Benutzerverhalten anpassen können.
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
