@@ -1,15 +1,13 @@
 ---
 description: Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. So ist zum Beispiel der Wert der Variablen „pageName“ der Name der Webseite, auf die sich der Bericht bezieht. In diesem Abschnitt werden die Variablen aufgeführt, die von AppMeasurement unterstützt werden.
-keywords: Analytics-Implementierung;AppMeasurement-Variablen
-seo-description: Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. So ist zum Beispiel der Wert der Variablen „pageName“ der Name der Webseite, auf die sich der Bericht bezieht. In diesem Abschnitt werden die Variablen aufgeführt, die von AppMeasurement unterstützt werden.
-seo-title: Übersicht über Variablen
+keywords: Analytics Implementation;appmeasurement variables
 solution: Analytics
-subtopic: Variablen
+subtopic: Variables
 title: Übersicht über Variablen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
-translation-type: ht
-source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
