@@ -1,14 +1,12 @@
 ---
 description: Die Import- und Exportdatei enthält sechs Spalten für jede Nummerisch 2 Classification.
-seo-description: Die Import- und Exportdatei enthält sechs Spalten für jede Nummerisch 2 Classification.
-seo-title: Nummerisch-2-Klassifizierungen importieren
 solution: Analytics
 subtopic: Classifications
 title: Nummerisch-2-Klassifizierungen importieren
-topic: Admin Tools
+topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
