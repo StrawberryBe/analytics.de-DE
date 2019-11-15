@@ -1,12 +1,10 @@
 ---
 description: Systemanforderungen und ein Vergleich von Analysis Workspace, Reports & Analysen, Ad-hoc-Analysen, ReportBuilder, Data Warehouse und Data Workbench
-seo-description: Systemanforderungen und ein Vergleich von Analysis Workspace, Reports & Analysen, Ad-hoc-Analysen, ReportBuilder, Data Warehouse und Data Workbench
-seo-title: Analytics – Produktvergleich und Voraussetzungen
 solution: Analytics
 title: Analytics – Produktvergleich und Voraussetzungen
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -156,10 +154,10 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Systemanforderungen</b> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Mehr... </a> </p> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Mehr... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> Mehr... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> Mehr... </a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html">Mehr …</a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html">Mehr …</a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html">Mehr …</a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html">Mehr …</a> </p> </td> 
    <td colname="col06"> Browser und Programm zum Öffnen von <span class="filepath">CSV</span>-Dateien wie MS Excel, kann Dateien im Tableau-Format generieren </td> 
    <td colname="col6"> Windows 64 Bit, gute Grafikkarte für OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Mehr...</a></u>) </td> 
   </tr> 
