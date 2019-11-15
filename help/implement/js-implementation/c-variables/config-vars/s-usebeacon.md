@@ -1,10 +1,9 @@
 ---
 title: useBeacon
 description: Mit useBeacon können Sie AppMeasurement zur Verwendung der Browser sendBeacon API zwingen
-keywords: Analytics-Implementierung
-seo-description: Mit useBeacon können Sie AppMeasurement zur Verwendung der Browser sendBeacon API zwingen
+keywords: Analytics Implementation
 translation-type: tm+mt
-source-git-commit: f89d909e539cee2b78798c165fcb405773418056
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -17,7 +16,7 @@ Das Festlegen dieses Werts gilt nur für die nächste Anforderung, die AppMeasur
 
 Für die Verwendung der `s.useBeacon` Variablen ist AppMeasurement 2.17.0 oder höher erforderlich.
 
-> [!NOTE] [ExitLinks](s-linktrackvars.md) verwendet diese Variable automatisch ohne zusätzliche Konfiguration.
+> [!NOTE] [Ausstiegslinks](s-linktrackvars.md) verwenden diese Variable automatisch ohne zusätzliche Konfiguration.
 
 ## Syntax
 
