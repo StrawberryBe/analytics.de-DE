@@ -1,13 +1,11 @@
 ---
 description: Anforderungen werden aktualisiert, nachdem Sie sie bearbeitet haben oder wenn Sie aktuellere Daten benötigen. Sie können mehrere Anforderungen in einem Arbeitsblatt auswählen und gleichzeitig aktualisieren.
-seo-description: Anforderungen werden aktualisiert, nachdem Sie sie bearbeitet haben oder wenn Sie aktuellere Daten benötigen. Sie können mehrere Anforderungen in einem Arbeitsblatt auswählen und gleichzeitig aktualisieren.
-seo-title: Anforderung aktualisieren
 solution: Analytics
 title: Anforderung aktualisieren
-topic: ReportBuilder
+topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
