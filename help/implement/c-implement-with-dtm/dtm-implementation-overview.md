@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM
-seo-description: 'null'
-seo-title: Übersicht zur DTM-Implementierung
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
 solution: Analytics
 title: Übersicht zur DTM-Implementierung
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
