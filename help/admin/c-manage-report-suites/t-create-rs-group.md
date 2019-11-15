@@ -1,13 +1,11 @@
 ---
-description: Diese Schritte beschreiben, wie eine Report Suite-Gruppe erstellt wird.
-seo-description: 'Diese Schritte beschreiben, wie eine Report Suite-Gruppe erstellt wird. '
-seo-title: Erstellen einer Report Suite-Gruppe
+description: 'Diese Schritte beschreiben, wie eine Report Suite-Gruppe erstellt wird. '
 solution: Analytics
 title: Erstellen einer Report Suite-Gruppe
-topic: Admin Tools
+topic: Admin tools
 uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
