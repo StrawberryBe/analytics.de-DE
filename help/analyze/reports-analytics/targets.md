@@ -1,13 +1,11 @@
 ---
 description: Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen. So möchten Sie beispielweise die Anzahl der Besucher aus einer bestimmten Region oder den Umsatz pro Bestellung steigern oder die Anzahl der Treffer von einer bestimmten verweisenden Stelle erhöhen.
-seo-description: Mithilfe von Zielen können Sie die Leistung Ihrer Website messen und den Fortschritt bei der Erreichung Ihrer Zielsetzungen verfolgen. So möchten Sie beispielweise die Anzahl der Besucher aus einer bestimmten Region oder den Umsatz pro Bestellung steigern oder die Anzahl der Treffer von einer bestimmten verweisenden Stelle erhöhen.
-seo-title: Ziele
 solution: Analytics
 title: Ziele
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
