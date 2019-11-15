@@ -1,14 +1,12 @@
 ---
 description: Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
-seo-description: Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
-seo-title: Vorbereiten auf die Verwendung von Data Sources
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Vorbereiten auf die Verwendung von Data Sources
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
