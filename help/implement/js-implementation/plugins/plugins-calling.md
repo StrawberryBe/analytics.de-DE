@@ -1,15 +1,13 @@
 ---
 description: JavaScript-Plug-ins werden in der Regel von der doPlugins-Funktion aufgerufen, die beim Aufruf der t()-Funktion im einzufügenden Code ausgeführt wird.
-keywords: Analytics-Implementierung
-seo-description: JavaScript-Plug-ins werden in der Regel von der doPlugins-Funktion aufgerufen, die beim Aufruf der t()-Funktion im einzufügenden Code ausgeführt wird.
-seo-title: Plug-ins mit der doPlugins-Funktion aufrufen
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: Plug-ins mit der doPlugins-Funktion aufrufen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
