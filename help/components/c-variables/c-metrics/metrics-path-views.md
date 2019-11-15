@@ -1,13 +1,11 @@
 ---
 description: Den Pfadansichtsmetriken liegen Pfaddaten zugrunde, die für alle Benutzer verfolgt werden, die persistente Cookies akzeptieren.
-seo-description: Den Pfadansichtsmetriken liegen Pfaddaten zugrunde, die für alle Benutzer verfolgt werden, die persistente Cookies akzeptieren.
-seo-title: Pfadansichten
 solution: Analytics
 title: Pfadansichten
-topic: Metriken
+topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
