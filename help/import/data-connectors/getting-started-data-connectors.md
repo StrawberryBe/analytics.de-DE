@@ -1,10 +1,8 @@
 ---
 description: Import von Tracking-Daten aus Drittanbieteranwendungen in Analytics
-seo-description: Bei Data Connectors anmelden; Importieren von Verfolgungsdaten aus Drittanbieteranwendungen in Analytics, Hinzufügen von Integrationen und Data Connectors-Konsole.
-seo-title: Analytics Data Connectors
 title: Erste Schritte mit Analytics-Datenschnittstellen
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
