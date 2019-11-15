@@ -1,11 +1,9 @@
 ---
 description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu.
-seo-description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu.
-seo-title: Analytics-Plug-In-Code
 title: Analytics-Plug-In-Code
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
