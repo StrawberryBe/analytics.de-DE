@@ -1,13 +1,11 @@
 ---
 description: Fasst die Treffer von Mobilgeräten auf Ihrer Site nach der Bildschirmgröße des Geräts zusammen. Zeigt alle Bildschirmgrößen, die Anzahl der Besucher Ihrer Website, die die einzelnen Bildschirmgrößen verwenden, und den prozentualen Anteil der einzelnen Bildschirmgrößen an allen Ansichten. Die Bildschirmgröße zeigt sowohl Höhe als auch Breite des Bildschirms im Vergleich zur Bildschirmhöhe und der Bildschirmbreite an.
-seo-description: Fasst die Treffer von Mobilgeräten auf Ihrer Site nach der Bildschirmgröße des Geräts zusammen. Zeigt alle Bildschirmgrößen, die Anzahl der Besucher Ihrer Website, die die einzelnen Bildschirmgrößen verwenden, und den prozentualen Anteil der einzelnen Bildschirmgrößen an allen Ansichten. Die Bildschirmgröße zeigt sowohl Höhe als auch Breite des Bildschirms im Vergleich zur Bildschirmhöhe und der Bildschirmbreite an.
-seo-title: Bildschirmgröße
 solution: Analytics
 title: Bildschirmgröße
-topic: Berichte
-uuid: a71378c7-91b1-43da-8583-fbdc5df39ba
+topic: Reports
+uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
