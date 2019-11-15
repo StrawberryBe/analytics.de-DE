@@ -1,13 +1,11 @@
 ---
 description: Dieser Bericht ist nicht mit der Metrik „Einzelseitenbesuche“ in den Ad Hoc Analysis zu verwechseln. Der Bericht „Einzelseitenbesuche“ zeigt die Seiten, die ein Besucher Ihrer Website besucht und wieder verlässt, ohne das Anzeigen weiterer Seiten zu veranlassen.
-seo-description: Dieser Bericht ist nicht mit der Metrik „Einzelseitenbesuche“ in den Ad Hoc Analysis zu verwechseln. Der Bericht „Einzelseitenbesuche“ zeigt die Seiten, die ein Besucher Ihrer Website besucht und wieder verlässt, ohne das Anzeigen weiterer Seiten zu veranlassen.
-seo-title: Einzelseitenbesuch
 solution: Analytics
 title: Einzelseitenbesuch
-topic: Berichte
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
