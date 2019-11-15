@@ -1,13 +1,11 @@
 ---
 description: Bei vielen Interaktionen der Adobe Engineering Services müssen Daten ausgetauscht werden, wozu häufig FTP erforderlich ist.
 keywords: ftp;sftp
-seo-description: Bei vielen Interaktionen der Adobe Engineering Services müssen Daten ausgetauscht werden, wozu häufig FTP erforderlich ist.
-seo-title: Engineering Services-Interaktionen mit FTP
 solution: Analytics
 title: Engineering Services-Interaktionen mit FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
