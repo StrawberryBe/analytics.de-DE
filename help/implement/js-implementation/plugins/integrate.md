@@ -1,10 +1,8 @@
 ---
 title: Modul integrieren
-seo-title: Integrationsmodul für Adobe Analytics
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
-seo-description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
-translation-type: ht
-source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
