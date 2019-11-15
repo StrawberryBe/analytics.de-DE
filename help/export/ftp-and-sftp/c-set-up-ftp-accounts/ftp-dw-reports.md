@@ -1,13 +1,11 @@
 ---
 description: Mithilfe von Data Warehouse können Sie Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen.
 keywords: ftp;sftp
-seo-description: Mithilfe von Data Warehouse können Sie Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen.
-seo-title: Von Data Warehouse bereitgestellte Berichte
 solution: Analytics
 title: Von Data Warehouse bereitgestellte Berichte
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
