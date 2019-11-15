@@ -1,15 +1,13 @@
 ---
 description: In diesem Abschnitt finden Sie Beispielcode für Ihre Core-JavaScript-Datei und die Seiten auf Ihrer Website.
-keywords: Analytics-Implementierung;Code für AppMeasurement.js;Beispiel-Seiten-Code
-seo-description: In diesem Abschnitt finden Sie Beispielcode für Ihre Core-JavaScript-Datei und die Seiten auf Ihrer Website.
-seo-title: Beispiel für Seiten-Code und globale Konfiguration
+keywords: Analytics Implementation;appmeasurement.js code;example page code
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Beispiel für Seiten-Code und globale Konfiguration
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
