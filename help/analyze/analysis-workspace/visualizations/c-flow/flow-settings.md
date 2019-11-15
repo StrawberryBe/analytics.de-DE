@@ -1,11 +1,9 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Flusseinstellungen
+description: 'null'
 title: Flusseinstellungen
-uuid: 99822765-1 d 4 f -4 c 23-a 787-b 089089 cb 8 d 7
+uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 translation-type: tm+mt
-source-git-commit: e0bdff56f1bb3e2de3d6afd2c0a3386bbb7c18f1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -15,9 +13,9 @@ source-git-commit: e0bdff56f1bb3e2de3d6afd2c0a3386bbb7c18f1
 | Einstellung | Beschreibung |
 |--- |--- |
 | Fluss-Container | <ul><li>Besuch</li><li>Besucher</li></ul> Hiermit können Sie bei der Analyse der Besucherpfade zwischen Besuch und Besucher wechseln. Mithilfe dieser Einstellungen können Sie Einblicke in Besucheraktivitäten auf der Besucherebene (besuchsübergreifend) erhalten oder die Analyse auf einen einzelnen Besuch einschränken. |
-| Flussoptionen | <ul><li>Umbruch-Bezeichnungen</li></ul> Die Bezeichnungen der Flusselemente werden üblicherweise aus Platzgründen auf dem Bildschirm abgeschnitten. Aktivieren Sie dieses Kontrollkästchen, um die gesamte Bezeichnung anzuzeigen.  Standard = deaktiviert.<ul><li>Wiederholungsinstanzen einschließen</li></ul> Flussvisualisierungen basieren auf Instanzen einer Dimension. Diese Einstellung gibt Ihnen die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B. Seitenneuladungen. Wiederholungen können jedoch nicht aus Fluss-Visualisierungen entfernt werden, die Dimensionen mit mehreren Werten enthalten, wie listvars, listprops, s. product, Merchandising evars usw. |
+| Flussoptionen | <ul><li>Umbruch-Bezeichnungen</li></ul> Die Bezeichnungen der Flusselemente werden üblicherweise aus Platzgründen auf dem Bildschirm abgeschnitten. Aktivieren Sie dieses Kontrollkästchen, um die gesamte Bezeichnung anzuzeigen.  Standard = deaktiviert.<ul><li>Wiederholungsinstanzen einschließen</li></ul> Flussvisualisierungen basieren auf Instanzen einer Dimension. Diese Einstellung gibt Ihnen die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B. Seitenneuladungen. Wiederholungen können jedoch nicht aus Flussvisualisierungen entfernt werden, die Dimensionen mit mehreren Werten enthalten, wie listVars, listProps, s.product, Merchandising eVars usw. |
 
-## Rechtsklick auf Optionen
+## Rechtsklick-Optionen
 
 | Option | Beschreibung |
 |--- |--- |
