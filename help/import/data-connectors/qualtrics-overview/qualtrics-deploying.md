@@ -1,14 +1,12 @@
 ---
 description: Die Bereitstellung dieser Integration ist ein einfacher Prozess, der die folgenden Aktionen erfordert.
-seo-description: Die Bereitstellung dieser Integration ist ein einfacher Prozess, der die folgenden Aktionen erfordert.
-seo-title: Bereitstellen der Integration
 solution: Analytics
 subtopic: Qualtrics
 title: Bereitstellen der Integration
-topic: Data Connectors
+topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ Zum Aktivieren der Integration müssen Sie den Qualitätssicherungs-Integrations
    |---|---|
    | Ereignisse | Wählen Sie bis zu fünf Ihrer benutzerspezifischen Ereignisse aus, die Sie für den Export in Qualtrics verfügbar machen möchten |
    | Props | Wählen Sie bis zu fünf Eigenschaften aus, die Sie für den Export in Qualtrics verfügbar machen möchten |
-   |  Zugriffsanforderungen | Markieren Sie das Kästchen für eine der Standardmetriken und -dimensionen, die Sie nach Qualtrics exportieren möchten. Die `visitor_id` ist erforderlich, damit der Export ordnungsgemäß funktioniert. |
+   | Zugriffsanforderungen | Markieren Sie das Kästchen für eine der Standardmetriken und -dimensionen, die Sie nach Qualtrics exportieren möchten. Die `visitor_id` ist erforderlich, damit der Export ordnungsgemäß funktioniert. |
 
 1. **Assistent Schritt 5**: Überprüfen Sie die Konfiguration und klicken Sie dann auf Jetzt **[!UICONTROL aktivieren]**.
 
