@@ -1,14 +1,12 @@
 ---
 description: Gelegentlich fallen einige Metriken beim Vergleich von Adobe Analytics- und DFA-Metriken gegebenenfalls nicht in eine akzeptable Differenz. Unten finden Sie eine Liste mit Metrikdefinitionen und möglichen Ursachen für Abweichungen.
 keywords: DFA
-seo-description: Gelegentlich fallen einige Metriken beim Vergleich von Adobe Analytics- und DFA-Metriken gegebenenfalls nicht in eine akzeptable Differenz. Unten finden Sie eine Liste mit Metrikdefinitionen und möglichen Ursachen für Abweichungen.
-seo-title: Abgleich von Metrikdiskrepanzen
 solution: Analytics
 title: Abgleich von Metrikdiskrepanzen
-topic: Data Connectors
+topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
