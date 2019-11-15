@@ -1,14 +1,12 @@
 ---
 description: In den folgenden Tabellen werden die Abfrageparameter aufgeführt, die den Wert für jede Analytics-Variable enthalten, die zur Datenerfassung gesendet werden.
-keywords: Analytics-Implementierung
-seo-description: In den folgenden Tabellen werden die Abfrageparameter aufgeführt, die den Wert für jede Analytics-Variable enthalten, die zur Datenerfassung gesendet werden.
-seo-title: Datenerfassungs-Abfrageparameter
+keywords: Analytics Implementation
 solution: Analytics
 title: Datenerfassungs-Abfrageparameter
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
