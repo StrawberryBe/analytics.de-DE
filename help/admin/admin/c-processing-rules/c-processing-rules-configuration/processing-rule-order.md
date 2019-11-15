@@ -1,14 +1,12 @@
 ---
 description: Um die Verarbeitungsregeln effektiv nutzen zu können, muss allen Beteiligten klar sein, zu welchem Zeitpunkt der Datenerfassung die Regeln angewendet werden.
-seo-description: Um die Verarbeitungsregeln effektiv nutzen zu können, muss allen Beteiligten klar sein, zu welchem Zeitpunkt der Datenerfassung die Regeln angewendet werden.
-seo-title: Auftrag wird bearbeitet
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Auftrag wird bearbeitet
-topic: Admin Tools
+topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
