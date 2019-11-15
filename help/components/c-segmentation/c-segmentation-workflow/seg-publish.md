@@ -1,13 +1,11 @@
 ---
 description: Ermöglicht die Verwendung des Segments für Marketingaktivitäten in der Zielgruppenbibliothek, in Target und im Audience Manager.
-seo-description: Ermöglicht die Verwendung des Segments für Marketingaktivitäten in der Zielgruppenbibliothek, in Target und im Audience Manager.
-seo-title: Segmente in der Experience Cloud veröffentlichen
 solution: Analytics
 title: Segmente in der Experience Cloud veröffentlichen
-topic: Segmente
+topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
