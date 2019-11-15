@@ -1,18 +1,16 @@
 ---
-description: 'null '
-seo-description: 'null '
-seo-title: Analytics-Reporting-API
+description: 'null'
 title: Analytics-Reporting-API
-uuid: 68 ec 3490-6 e 47-4606-860 d-dd 5 e 89 c 774 a 1
+uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 translation-type: tm+mt
-source-git-commit: e638903d4b08c5afea248c21dde14334d2af42f7
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Analytics-Reporting-API
 
-Siehe diese Ressourcen für Analytics-Berichterstellungs-apis.
+Siehe diese Ressourcen für Analytics-Berichterstellungs-APIs.
 
-* [Vergleich der Analytics-Berichterstellungs-APIs](api-comparison.md)
+* [Vergleich der Analytics-Reporting-APIs](api-comparison.md)
 * [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
