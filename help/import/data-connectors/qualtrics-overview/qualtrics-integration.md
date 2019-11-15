@@ -1,14 +1,12 @@
 ---
 description: Nach Abschluss der Bereitstellung können Sie mit der Nutzung der zusätzlichen Funktionen beginnen, die diese Integration bietet.
-seo-description: Nach Abschluss der Bereitstellung können Sie mit der Nutzung der zusätzlichen Funktionen beginnen, die diese Integration bietet.
-seo-title: Verwenden der Integration
 solution: Analytics
 subtopic: Qualtrics
 title: Verwenden der Integration
-topic: Data Connectors
+topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
