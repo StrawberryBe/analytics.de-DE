@@ -1,15 +1,13 @@
 ---
 description: Mit dem apl-Plug-in (oder appendList) können Sie jeder getrennten Liste einen Wert anhängen und dabei festlegen, ob nach Groß- und Kleinschreibung unterschieden werden soll oder nicht, um sicherzustellen, dass der Wert nicht bereits in der Liste vorhanden ist. Auf das APL-Plug-in wird von diversen Standard-Plug-ins verwiesen, aber es kann auch in einer Reihe von Situationen direkt verwendet werden.
-keywords: Analytics-Implementierung
-seo-description: Mit dem apl-Plug-in (oder appendList) können Sie jeder getrennten Liste einen Wert anhängen und dabei festlegen, ob nach Groß- und Kleinschreibung unterschieden werden soll oder nicht, um sicherzustellen, dass der Wert nicht bereits in der Liste vorhanden ist. Auf das APL-Plug-in wird von diversen Standard-Plug-ins verwiesen, aber es kann auch in einer Reihe von Situationen direkt verwendet werden.
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: appendList
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
