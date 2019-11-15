@@ -1,18 +1,16 @@
 ---
 description: Sie können auch den Basisberichtstyp für Ihre Datenanforderung auswählen, z. B. Site-Metriken, Site-Content und Video.
-seo-description: Sie können auch den Basisberichtstyp für Ihre Datenanforderung auswählen, z. B. Site-Metriken, Site-Content und Video.
-seo-title: Berichtstypen - Übersicht
 solution: Analytics
-title: Berichtstypen - Übersicht
-topic: ReportBuilder
-uuid: 63 e 656 d 0-f 22 e -4846-9 e 24-7 ef 3299 dde 5 a
+title: Übersicht über Berichtstypen
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Berichtstypen - Übersicht
+# Übersicht über Berichtstypen
 
 Sie können auch den Basisberichtstyp für Ihre Datenanforderung auswählen, z. B. Site-Metriken, Site-Content und Video.
 
