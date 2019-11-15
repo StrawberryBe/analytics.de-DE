@@ -1,14 +1,12 @@
 ---
-description: Die Anzahl auf Unique Visitors Ihrer Site innerhalb einer bestimmten Zeiteinheit wie Stunde, Tag, Woche, Monat, Quartal oder Jahr.
-keywords: Besucher
-seo-description: Die Anzahl auf Ihrer Site innerhalb einer bestimmten Zeiteinheit wie Stunde, Tag, Woche, Monat, Quartal oder Jahr.
-seo-title: Besucher
+description: Die Anzahl auf Ihrer Site innerhalb einer bestimmten Zeiteinheit wie Stunde, Tag, Woche, Monat, Quartal oder Jahr.
+keywords: visitors
 solution: Analytics
 title: Besucher
-topic: Metriken
+topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
