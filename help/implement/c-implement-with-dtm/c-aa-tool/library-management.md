@@ -1,13 +1,11 @@
 ---
 description: Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellungen des Dynamic Tag Managements.
-keywords: Bibliotheksverwaltung;Seiten-Code;Bibliothek laden unter;verwaltet von Adobe;benutzerspezifisch;gehosteter Code;gehosteter s_code
-seo-description: Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellungen des Dynamic Tag Managements.
-seo-title: Bibliotheksverwaltung
-solution: Experience Cloud, Dynamic Tag Management
+keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+solution: Experience Cloud,Dynamic Tag Management
 title: Bibliotheksverwaltung
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
