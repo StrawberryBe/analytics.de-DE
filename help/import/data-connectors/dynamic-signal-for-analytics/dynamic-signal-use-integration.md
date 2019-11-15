@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Verwenden der Integration
 solution: Analytics
 title: Verwenden der Integration
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,9 +45,9 @@ Listet die Dimensionen der dynamischen Signalberichterstellung auf, die in diese
 | Artikel-ID | Die Artikel-ID identifiziert jedes Inhaltselement in der Dynamic Signal-Community eindeutig. |
 | Typ der Quelle | Dieses Feld gibt an, ob der Beitrag von einem "Mitglied"oder einer "Marke"erstellt wurde. Beachten Sie, dass in beiden Fällen Inhalte manuell in der Anwendung erstellt oder aus einem externen Feed importiert werden können. |
 | Benutzername | Der Benutzer, der einen Beitrag in seinem/seinen sozialen Netzwerk(en) geteilt hat und Clickthroughs zu Ihrer Site generiert hat. |
-| Quell-ID | Die Quell-ID identifiziert eindeutig den Ersteller (oder Autor) des freigegebenen Beitrags. Meistens handelt es sich dabei um ein bestimmtes Mitglied oder einen externen Feed. |
+| Quellen-ID | Die Quell-ID identifiziert eindeutig den Ersteller (oder Autor) des freigegebenen Beitrags. Meistens handelt es sich dabei um ein bestimmtes Mitglied oder einen externen Feed. |
 | Benutzer-ID | Die Benutzer-ID identifiziert eindeutig einen Benutzer (d. h. einen Mitglied) in der Dynamic Signal-Community. In diesem Fall ist der Benutzer der freigebende Benutzer, der den Beitrag in seinem/seinen sozialen Netzwerk(n) geteilt hat. |
-| Quellname | Die Quelle ist der Ersteller (oder Autor) des freigegebenen Beitrags. In den meisten Fällen ist dies ein Mitglied der Community oder ein externer Feed. |
+| Name der Quelle | Die Quelle ist der Ersteller (oder Autor) des freigegebenen Beitrags. In den meisten Fällen ist dies ein Mitglied der Community oder ein externer Feed. |
 | Artikeltitel | Der Titel des freigegebenen Beitrags, der Klicks zu Ihrer Site generiert hat. |
 | Community-Name | Der Name Ihrer Dynamic Signal-Community. |
 
