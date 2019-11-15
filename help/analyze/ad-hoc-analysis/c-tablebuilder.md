@@ -1,11 +1,9 @@
 ---
 description: Verwenden Sie den Tabellenaufbau, um einen Bericht mit einer beliebigen Konfiguration von Metriken, Dimensionen und Segmenten zu erstellen. Beispielsweise können Sie mehrere Metriken zum Tabellenaufbau hinzufügen und dann das Segment auf alle gleichzeitig anwenden. Sie können Elemente aus den Tool-Bereichen als Zeilen und Aufschlüsselungen oder als Spalten anwenden und die Tabelle für eine andere Ansicht einfach drehen. Nachdem Sie die Tabelle erstellt haben, können Sie direkt mit der erhaltenen Datentabelle interagieren und weitere Analysen anstellen. Denken Sie daran, dass beim Erzeugen einer Datentabelle über den Tabellenaufbau eine Abfrage ausgeführt und eine neue Datentabelle erstellt wird.
-seo-description: Verwenden Sie den Tabellenaufbau, um einen Bericht mit einer beliebigen Konfiguration von Metriken, Dimensionen und Segmenten zu erstellen. Beispielsweise können Sie mehrere Metriken zum Tabellenaufbau hinzufügen und dann das Segment auf alle gleichzeitig anwenden. Sie können Elemente aus den Tool-Bereichen als Zeilen und Aufschlüsselungen oder als Spalten anwenden und die Tabelle für eine andere Ansicht einfach drehen. Nachdem Sie die Tabelle erstellt haben, können Sie direkt mit der erhaltenen Datentabelle interagieren und weitere Analysen anstellen. Denken Sie daran, dass beim Erzeugen einer Datentabelle über den Tabellenaufbau eine Abfrage ausgeführt und eine neue Datentabelle erstellt wird.
-seo-title: Tabellenaufbau
 title: Tabellenaufbau
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
