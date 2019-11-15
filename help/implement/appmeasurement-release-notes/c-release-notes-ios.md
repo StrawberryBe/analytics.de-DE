@@ -1,14 +1,12 @@
 ---
 description: Gesammelte Versionshinweise für iOS.
-seo-description: Gesammelte Versionshinweise für iOS.
-seo-title: iOS
-solution: Analytics, Experience Cloud
-subtopic: Versionshinweise
+solution: Analytics,Experience Cloud
+subtopic: Release notes
 title: iOS
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
