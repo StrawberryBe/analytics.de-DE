@@ -1,13 +1,11 @@
 ---
 description: Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Administratorebene und Nicht-Administrator-Benutzer.
-seo-description: Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Administratorebene und Nicht-Administrator-Benutzer.
-seo-title: Segmentberechtigungen nach Rolle
 solution: Analytics
 title: Segmentberechtigungen nach Rolle
-topic: Segmente
-uuid: 62 b 742 c 5-c 918-45 b 7-98 c 7-f 6 badc 0 b 9 fc 7
+topic: Segments
+uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,7 +28,7 @@ Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benutzer der Admi
   <tr> 
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analysen </span>: Kann angezeigt/bearbeitet/gelöscht usw. ihre eigenen Segmente und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword">Ad Hoc Analysis</span> und <span class="keyword">Report Builder</span>: Können ihre Segmenten und die, die für sie freigegeben wurden, anzeigen/bearbeiten/löschen usw. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analysen </span>: Kann ihre eigenen Segmente und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword">Ad Hoc Analysis</span> und <span class="keyword">Report Builder</span>: Können ihre Segmenten und die, die für sie freigegeben wurden, anzeigen/bearbeiten/löschen usw. </p> </td> 
    <td colname="col4"> Können Segmente als autorisiert genehmigen. </td> 
    <td colname="col5"> Können beliebige Segmente innerhalb der gesamten Organisation anwenden. </td> 
   </tr> 
