@@ -1,13 +1,11 @@
 ---
 description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
-seo-description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
-seo-title: Sequentielle Segmente erstellen
 solution: Analytics
 title: Sequentielle Segmente erstellen
-topic: Segmente
+topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
