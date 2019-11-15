@@ -1,14 +1,12 @@
 ---
 description: Konfigurieren Sie für Marketingkanäle den Benutzergruppenzugriff.
-seo-description: Konfigurieren Sie für Marketingkanäle den Benutzergruppenzugriff.
-seo-title: Konfigurieren des Benutzergruppenzugriffs
 solution: Analytics
-subtopic: Marketingkanäle
+subtopic: Marketing channels
 title: Konfigurieren des Benutzergruppenzugriffs
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
