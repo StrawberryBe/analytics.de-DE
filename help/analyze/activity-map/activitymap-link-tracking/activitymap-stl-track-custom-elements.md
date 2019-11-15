@@ -1,13 +1,11 @@
 ---
 description: Mit der Funktion s.tl() können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalt konfigurieren.
-seo-description: Mit der Funktion s.tl() können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalt konfigurieren.
-seo-title: s.tl()-Funktion verwenden
 solution: Analytics
 title: s.tl()-Funktion verwenden
-topic: Activity Map
+topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 Mit der Funktion s.tl() können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalt konfigurieren.
 
-## Tracking custom elements {#section_5D6688DFFFC241718249A9A0C632E465}
+## Verfolgen von benutzerdefinierten Elementen {#section_5D6688DFFFC241718249A9A0C632E465}
 
 Durch Verwendung der [Funktion s.tl()](https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html) als Bestandteil des Activity Map-Moduls AppMeasurement können Sie alle Objekte verfolgen, auf die geklickt wird, sogar Objekte, die keine Anker-Tags oder Bildelemente sind. Mit s.tl können Sie benutzerdefinierte Elemente verfolgen, die nicht zum Laden einer Seite führen.
 
@@ -29,9 +27,9 @@ s.tl(this,linkType,
 
 Anders gesagt, wenn Sie s.tl zur Verfolgung Ihrer spezifischen Elemente verwenden, wird die Link-ID dem Wert entnommen, der als dritter Parameter (linkName) in der Funktion s.tl übergeben wird. Sie wird nicht dem Standard-Linktracking-Algorithmus entnommen, der zur [Standardverfolgung](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in Activity Map verwendet wird.
 
-## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
+## Überlagerungsrendering für dynamischen Inhalt {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
-Wenn die Funktion s.tl() direkt vom On-Click-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map beim Laden der Webseite eine Überlagerung für dieses Element anzeigen. Beispiel:
+Wenn die Funktion s.tl() direkt vom onclick-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map eine Überlagerung für dieses Element anzeigen, sobald die Webseite geladen ist. Beispiel:
 
 ```
 <div onclick="s.tl(this,'o','some link name')">Text to click on</a>
@@ -39,7 +37,7 @@ Wenn die Funktion s.tl() direkt vom On-Click-Ereignis des HTML-Elements aufgeruf
 
 Wenn der Webseite nach dem ersten Laden Inhalt hinzugefügt wird, so wird die Funktion s.tl indirekt aufgerufen und es können keine Überlagerungen für diesen neuen Inhalt angezeigt werden, es sei denn, er wird explizit aktiviert oder angeklickt. Dann wird ein neuer Linkerfassungsprozess von Activity Map ausgelöst.
 
-Wenn die Funktion s.tl() nicht direkt vom On-Click-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map die Überlagerung nur anzeigen, nachdem der Benutzer auf dieses Element geklickt hat. In dem folgenden Beispiel wurde die Funktion s.tl() indirekt aufgerufen:
+Wenn die Funktion s.tl() nicht direkt vom onclick-Ereignis eines HTML-Elements aufgerufen wird, kann Activity Map die Überlagerung erst anzeigen, nachdem der Benutzer auf dieses Element geklickt hat. Im folgenden Beispiel wird die Funktion s.tl() indirekt aufgerufen:
 
 ```
 <div onclick="someFn(event)"></div> 
@@ -68,5 +66,5 @@ s.ActivityMap.link = function(element,linkName){
 Wir haben die ActivityMap.link-Funktion überschrieben, damit sie eine der drei Aktionen bewirkt, wenn sie aufgerufen wird:
 
 1. Wenn linkName übergeben wird, wird dieser von s.tl() aufgerufen, es wird also nur zurückgegeben, was s.tl als linkName übergeben hat.
-1. Dies wird von Activity Map zur Berichtszeit aufgerufen, weshalb linkName nie übergeben wird und makeLinkName() mit dem Linkelement aufgerufen werden kann. This is the crucial step here - the "makeLinkName(element)" call should be the same at the s.tl call's 3rd argument in the `<button>` tag. Deshalb verfolgen wird beim Aufruf von s.tl die Zeichenkette, die von makeLinkName zurückgegeben wird. Wenn Activity Map Berichte für die Links auf der Seite erstellt, wird derselbe Aufruf zur Erstellung eines Links verwendet.
+1. Dies wird von Activity Map zur Berichtszeit aufgerufen, weshalb linkName nie übergeben wird und makeLinkName() mit dem Linkelement aufgerufen werden kann. Dieser Schritt hier ist ausschlaggebend: Der „makeLinkName(element)”-Aufruf sollte derselbe sein wie das dritte Argument beim s.tl-Aufruf im `<button>`-Tag. Deshalb verfolgen wird beim Aufruf von s.tl die Zeichenkette, die von makeLinkName zurückgegeben wird. Wenn Activity Map Berichte für die Links auf der Seite erstellt, wird derselbe Aufruf zur Erstellung eines Links verwendet.
 1. Als endgültige Lösung wird der ursprüngliche Rückgabewert der Standard-Activity Map-Link-Funktion zurückzugeben. Durch dieses Verfahren müssen Sie nur makeLinkName überschreiben bzw. benutzerdefinierten Code dafür schreiben, und nicht einen Link-Rückgabewert für alle Links auf der Seite erstellen.
