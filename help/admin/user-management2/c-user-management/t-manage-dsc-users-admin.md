@@ -1,14 +1,12 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie Ad Hoc Analysis-Benutzer hinzufügen, bearbeiten oder löschen.
-seo-description: In diesen Schritten wird beschrieben, wie Sie Ad Hoc Analysis-Benutzer hinzufügen, bearbeiten oder löschen.
-seo-title: Ad Hoc Analysis-Benutzer verwalten
 solution: Analytics
-subtopic: Benutzer und Gruppen
+subtopic: Users and groups
 title: Ad Hoc Analysis-Benutzer verwalten
-topic: Admin Tools
+topic: Admin tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
