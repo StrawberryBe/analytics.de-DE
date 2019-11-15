@@ -1,10 +1,8 @@
 ---
 title: Erstes Administratorhandbuch für Adobe Analytics
-seo-title: Erstes Administratorhandbuch für Adobe Analytics
 description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
-seo-description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
