@@ -1,15 +1,13 @@
 ---
 description: Setzen Sie mit den Erfahrungen von Erstkonsumenten Adobe Analytics-Implementierungen um.
-keywords: Erste Schritte
-seo-description: Setzen Sie mit den Erfahrungen von Erstkonsumenten Adobe Analytics-Implementierungen um.
-seo-title: Vereinfachte Implementierung
+keywords: Getting Started
 solution: Analytics
 subtopic: Analysis Workspace
 title: Vereinfachte Implementierung
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
