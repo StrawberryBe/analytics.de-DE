@@ -1,13 +1,11 @@
 ---
 description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
-seo-description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
-seo-title: 'Übersicht über die Echtzeitberichterstellung '
 solution: Analytics
 title: 'Übersicht über die Echtzeitberichterstellung '
-topic: Berichte
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ Echtzeitberichte zeigen den Webseiten-Traffic an und ordnen Seitenansichten in E
 
 >[!NOTE]
 >
->Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md)
+> Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md)
 
 **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Echtzeit]**
 
@@ -57,4 +55,4 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Beachten Sie, dass die Erhöhung der Latenz nach der Implementierung des Identitätsdienstes beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des Identity Service beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
