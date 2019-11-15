@@ -1,13 +1,11 @@
 ---
 description: Auf der Registerkarte „Aufträge“ können Sie Auftragsverläufe anzeigen und Auftragsverwaltungsaufgaben ausführen.
-keywords: Datenfeed;Auftrag;konfigurieren
-seo-description: Auf der Registerkarte „Aufträge“ können Sie Auftragsverläufe anzeigen und Auftragsverwaltungsaufgaben ausführen.
-seo-title: Daten-Feed-Aufträge – Übersicht
+keywords: Data Feed;job;configure
 solution: Analytics
 title: Daten-Feed-Aufträge – Übersicht
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
