@@ -1,14 +1,12 @@
 ---
 description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
-seo-description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
-seo-title: Konversionsklassifizierungen
 solution: Analytics
 subtopic: Classifications
 title: Konversionsklassifizierungen
-topic: Admin Tools
+topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
