@@ -1,11 +1,9 @@
 ---
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
-seo-description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
-seo-title: Menü Berichte
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -104,7 +102,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
    <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Mehr...</span> </td> 
+   <td colname="col1"><span class="uicontrol">Mehr …</span> </td> 
    <td colname="col2"> Damit können Sie alle oder mehrere der folgenden Aktionen durchführen: Drucken, Daten extrahieren, einen Warnhinweis hinzufügen, einen benutzerdefinierten Bericht erstellen, ein Diagramm kopieren, einen Link zu diesem Bericht erstellen und ein neues Fenster öffnen. </td> 
   </tr> 
   <tr> 
