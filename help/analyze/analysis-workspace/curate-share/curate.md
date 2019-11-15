@@ -1,14 +1,12 @@
 ---
 description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben. Sie können ein Projekt und seine Komponenten für Vermarkter und andere Mitarbeiter ohne Analyseerfahrung in Ihrem Unternehmen freigeben, Anmerkungen hinzufügen und Tags auf Projekte anwenden.
 keywords: Analysis Workspace
-seo-description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben. Sie können ein Projekt und seine Komponenten für Vermarkter und andere Mitarbeiter ohne Analyseerfahrung in Ihrem Unternehmen freigeben, Anmerkungen hinzufügen und Tags auf Projekte anwenden.
-seo-title: Übersicht über die Kuratierung/Freigabe
 solution: Analytics
 title: Übersicht über die Kuratierung/Freigabe
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
