@@ -1,18 +1,16 @@
 ---
 description: Dieser Vorgang beschreibt, wie Sie Überschriften aus- oder einblenden.
-seo-description: Dieser Vorgang beschreibt, wie Sie Überschriften aus- oder einblenden.
-seo-title: Überschriften ein- oder ausblenden
 solution: Analytics
-title: Überschriften ein- oder ausblenden
-topic: ReportBuilder
-uuid: ab 0 ef 56 f -531-48 fb -9456-1220718 d 59 c 5
+title: Überschriften aus- oder einblenden
+topic: Report builder
+uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Überschriften ein- oder ausblenden
+# Überschriften aus- oder einblenden
 
 Dieser Vorgang beschreibt, wie Sie Überschriften aus- oder einblenden.
 
