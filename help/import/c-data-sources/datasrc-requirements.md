@@ -1,14 +1,12 @@
 ---
 description: Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data Sources.
-seo-description: Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data Sources.
-seo-title: Anforderungen und Upload-Beschränkungen
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Anforderungen und Upload-Beschränkungen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
