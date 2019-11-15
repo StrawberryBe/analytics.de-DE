@@ -2,7 +2,7 @@
 title: Report Suite erstellen
 description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -19,7 +19,7 @@ Dieser Artikel wurde für Administratoren oder Analytics-Administratoren auf Sys
 
 ## Report Suite erstellen
 
-> [!NOTE]Hinweis: Es gibt auch eine Möglichkeit, eine Report Suite in Adobe Analytics mit dem alten Administrator zu erstellen. Adobe empfiehlt die Verwendung des hier beschriebenen Assistenten zum Einrichten der Report Suite.
+> [!NOTE] Es gibt auch eine Möglichkeit, eine Report Suite in Adobe Analytics mit dem alten Administrator zu erstellen. Adobe empfiehlt die Verwendung des hier beschriebenen Assistenten zum Einrichten der Report Suite.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
