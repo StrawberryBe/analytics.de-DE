@@ -1,13 +1,11 @@
 ---
 description: Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektivsten sind. Mit diesem Bericht können Sie die Erfolgsmetriken und den Umsatz verschiedenen Kanaldetails gutschreiben, wobei der Kanal, in dem diese Details sich befinden, außer Acht gelassen wird. Sie können beispielsweise feststellen, wie ein bestimmter gebührenpflichtiger Keyword im Vergleich zu einer bestimmten E-Mail-Kampagne abschneidet. Im Gegensatz zum Marketingkanal-Übersichtsbericht ist dieser Bericht ähnlich wie ein standardmäßiger Marketing-Bericht aufgebaut.
-seo-description: Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektivsten sind. Mit diesem Bericht können Sie die Erfolgsmetriken und den Umsatz verschiedenen Kanaldetails gutschreiben, wobei der Kanal, in dem diese Details sich befinden, außer Acht gelassen wird. Sie können beispielsweise feststellen, wie ein bestimmter gebührenpflichtiger Keyword im Vergleich zu einer bestimmten E-Mail-Kampagne abschneidet. Im Gegensatz zum Marketingkanal-Übersichtsbericht ist dieser Bericht ähnlich wie ein standardmäßiger Marketing-Bericht aufgebaut.
-seo-title: Marketingkanal-Detail – (Erst- und Letztkontakt)
 solution: Analytics
 title: Marketingkanal-Detail – (Erst- und Letztkontakt)
-topic: Berichte
+topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
