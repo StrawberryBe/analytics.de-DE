@@ -1,13 +1,11 @@
 ---
 description: Wenn Sie einen festen Datumswert oder einen Datumsbereich angeben, wird von ReportBuilder der Berichtkalender angezeigt, in dem Sie einen Datumswert, einen Datumsbereich oder ein vordefiniertes Datum auswählen können. Sie können außerdem ein festes Datum speichern, um es als Vorlage zu verwenden, und festlegen, ob die gespeicherten Datumswerte für die aktuelle Report Suite oder für alle Report Suites verfügbar sein sollen.
-seo-description: Wenn Sie einen festen Datumswert oder einen Datumsbereich angeben, wird von ReportBuilder der Berichtkalender angezeigt, in dem Sie einen Datumswert, einen Datumsbereich oder ein vordefiniertes Datum auswählen können. Sie können außerdem ein festes Datum speichern, um es als Vorlage zu verwenden, und festlegen, ob die gespeicherten Datumswerte für die aktuelle Report Suite oder für alle Report Suites verfügbar sein sollen.
-seo-title: Feste Datumswerte und gespeicherte Datumsbereiche
 solution: Analytics
 title: Feste Datumswerte und gespeicherte Datumsbereiche
-topic: ReportBuilder
-uuid: f 00218 c 0-07 f 3-4505-98 b 0-de 05187401 fd
+topic: Report builder
+uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
