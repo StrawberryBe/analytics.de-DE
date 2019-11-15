@@ -1,13 +1,11 @@
 ---
 description: Zeigt den Mobilnetzbetreiber (Verizon, AT&T, Sprint usw.) der Besucher Ihrer Website und der Nutzer Ihrer Anwendung an. Sie finden den Bericht unter „Besucherprofil“ > „Technologie“.
-seo-description: Zeigt den Mobilnetzbetreiber (Verizon, AT&T, Sprint usw.) der Besucher Ihrer Website und der Nutzer Ihrer Anwendung an. Sie finden den Bericht unter „Besucherprofil“ > „Technologie“.
-seo-title: Mobilnetzbetreiber
 solution: Analytics
 title: Mobilnetzbetreiber
-topic: 'Berichte    '
-uuid: 85 cc 65 ce -772 e -4 a 86-bf 11-ee 85 ca 693134
+topic: Reports
+uuid: 85cc65ce-772e-4a86-bf11-ee85ca693134
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
