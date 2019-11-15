@@ -1,13 +1,11 @@
 ---
 description: Im Abschnitt „Persistenter Traffic“ können Sie die erwarteten Traffic-Mengen ändern, damit Adobe die Ressourcen im Hinblick auf das neue Traffic-Niveau neu zuordnen kann.
-seo-description: Im Abschnitt „Persistenter Traffic“ können Sie die erwarteten Traffic-Mengen ändern, damit Adobe die Ressourcen im Hinblick auf das neue Traffic-Niveau neu zuordnen kann.
-seo-title: Dauerhaften Trafficzuwachs angeben
 solution: Analytics
 title: Dauerhaften Trafficzuwachs angeben
-topic: Admin Tools
+topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,5 +26,5 @@ Lesen Sie die Informationen zu [Erforderliche Vorlaufzeit für Traffic-Anstiege]
 
    >[!NOTE]
    >
-   > Um einen dauerhaften Traffic-Anstieg zu planen, geben Sie in Ihre Kontaktdaten eine Telefonnummer ein, damit Adobe Sie bei Bedarf kontaktieren kann.
+   >Um einen dauerhaften Traffic-Anstieg zu planen, geben Sie in Ihre Kontaktdaten eine Telefonnummer ein, damit Adobe Sie bei Bedarf kontaktieren kann.
 
