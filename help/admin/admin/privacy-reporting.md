@@ -1,12 +1,10 @@
 ---
 description: Sie können Datenschutzberichte aktivieren.
-seo-description: Sie können Datenschutzberichte aktivieren.
-seo-title: Datenschutzberichte
 solution: Analytics
 title: Datenschutzberichte
-topic: Admin Tools
+topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
