@@ -1,16 +1,14 @@
 ---
 description: Diese kurzen Videos (höchstens 8 Minuten) geben einen Überblick darüber, wie Sie die Nutzung der Werkzeuge für berechnete Metriken optimieren.
-seo-description: Diese kurzen Videos (höchstens 8 Minuten) geben einen Überblick darüber, wie Sie die Nutzung der Werkzeuge für berechnete Metriken optimieren.
-seo-title: Anleitungen zu Videos
-title: Anleitungen zu Videos
-uuid: b 6920 b 20-4 c 38-4017-bb 10-cb 187 d 39 fd 77
+title: Anleitungsvideos
+uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Anleitungen zu Videos
+# Anleitungsvideos
 
 Diese kurzen Videos (höchstens 8 Minuten) geben einen Überblick darüber, wie Sie die Nutzung der Werkzeuge für berechnete Metriken optimieren.
 
