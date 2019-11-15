@@ -1,14 +1,12 @@
 ---
 description: Vorgehensweise bei der Implementierung
-keywords: Analytics-Implementierung
-seo-description: Vorgehensweise bei der Implementierung
-seo-title: Abnahme der Implementierung
+keywords: Analytics Implementation
 solution: Analytics
 title: Abnahme der Implementierung
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,3 +43,4 @@ Mithilfe der folgenden Punkte lässt sich eine erfolgreiche Implementierung sich
 * Eine Partnerschaft mit Accenture zur Hilfe beim Testen der Implementierung
 * Hilfsprogramme/Tools für den Vergleich von Seitenansichten und/oder Bestellungen. Diese Vergleiche können sich ziemlich komplex gestalten.
 * Eine Methode oder Vorgehensweise zum schnellen Erhalt des Debugprotokolls für einen bestimmten Tag und bestimmte Report Suite-IDs
+
