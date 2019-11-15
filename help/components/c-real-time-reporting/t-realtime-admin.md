@@ -1,13 +1,11 @@
 ---
-description: Administrative Schritte zum Einrichten von Echtzeit-Berichten
-seo-description: Administrative Schritte zum Einrichten von Echtzeit-Berichten
-seo-title: Echtzeitberichte konfigurieren
+description: Administrative Schritte zum Einrichten von Echtzeitberichten
 solution: Analytics
 title: Echtzeitberichte konfigurieren
-topic: Admin Tools
+topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    >[!NOTE]
    >
-   > Einige Dimensionen, wie "Suchbegriff"oder "Produkt", bleiben in Echtzeit nicht erhalten, wie dies in anderen Adobe Analytics der Fall ist. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
+   >Einige Dimensionen, wie "Suchbegriff"oder "Produkt", bleiben in Echtzeit nicht erhalten, wie dies in anderen Adobe Analytics der Fall ist. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
 
    ![](assets/warning_dimensions.png)
 
