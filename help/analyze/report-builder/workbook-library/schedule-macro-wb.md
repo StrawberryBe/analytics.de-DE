@@ -1,13 +1,11 @@
 ---
 description: Adobe ReportBuilder unterstützt das .xlsm-Format, mit dem Sie Arbeitsmappen mit Makros planen können.
-seo-description: Adobe ReportBuilder unterstützt das .xlsm-Format, mit dem Sie Arbeitsmappen mit Makros planen können.
-seo-title: Arbeitsmappen mit Makros planen
 solution: Analytics
 title: Arbeitsmappen mit Makros planen
-topic: ReportBuilder
+topic: Report builder
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
