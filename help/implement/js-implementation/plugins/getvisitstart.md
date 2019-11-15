@@ -1,14 +1,12 @@
 ---
 description: Stellt fest, ob ein neuer Besuch beginnt.
-keywords: Analytics-Implementierung
-seo-description: Stellt fest, ob ein neuer Besuch beginnt.
-seo-title: getVisitStart
+keywords: Analytics Implementation
 solution: Analytics
 title: getVisitStart
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Stellt fest, ob ein neuer Besuch beginnt.
 
 **Konfigurationsvariablen**
 
-–
+Keine
 
 **Parameter**
 
