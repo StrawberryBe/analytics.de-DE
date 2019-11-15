@@ -1,15 +1,13 @@
 ---
 description: Mittels Private Network Peering können Daten aus dem Netzwerk eines ISPs effizienter in das Analytics-Netzwerk gelangen.
-keywords: Analytics-Implementierung
-seo-description: Mittels Private Network Peering können Daten aus dem Netzwerk eines ISPs effizienter in das Analytics-Netzwerk gelangen.
-seo-title: Peering
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fehlerbehebung
+subtopic: Troubleshooting
 title: Peering
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
