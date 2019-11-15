@@ -1,14 +1,12 @@
 ---
 description: Gesammelte Versionshinweise für Flash. Flash-Apps mit „ActionScript“ können am Desktop und im Web gemessen werden.
-seo-description: Gesammelte Versionshinweise für Flash. Flash-Apps mit „ActionScript“ können am Desktop und im Web gemessen werden.
-seo-title: Flash-Flex
 solution: Analytics
-subtopic: Versionshinweise
+subtopic: Release notes
 title: Flash-Flex
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
