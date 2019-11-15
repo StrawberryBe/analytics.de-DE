@@ -1,11 +1,9 @@
 ---
 description: Die Data Connectors-Integration für Silverpop verwendet Analytics-Variablen zur Verfolgung verschiedener Silverpop-Metriken.
-seo-description: Die Data Connectors-Integration für Silverpop verwendet Analytics-Variablen zur Verfolgung verschiedener Silverpop-Metriken.
-seo-title: Analytics-Integrationsvariablen
 title: Analytics-Integrationsvariablen
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
