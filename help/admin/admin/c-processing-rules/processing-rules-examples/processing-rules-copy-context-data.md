@@ -1,14 +1,12 @@
 ---
 description: Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props und eVars zu verschieben.
-seo-description: Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props und eVars zu verschieben.
-seo-title: Kontextdatenvariable in eine eVar kopieren
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Kontextdatenvariable in eine eVar kopieren
-topic: Admin Tools
+topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
