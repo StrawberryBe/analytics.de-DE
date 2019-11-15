@@ -1,14 +1,12 @@
 ---
 description: Bei der Data Connectors-Integration für DFA werden für das Tracking der DFA-Kampagnenergebnisse Analytics-Variablen verwendet.
 keywords: DFA
-seo-description: Bei der Data Connectors-Integration für DFA werden für das Tracking der DFA-Kampagnenergebnisse Analytics-Variablen verwendet.
-seo-title: Analytics-Variablen und -Ereignisse
 solution: Analytics
 title: Analytics-Variablen und -Ereignisse
-topic: Data Connectors
+topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
