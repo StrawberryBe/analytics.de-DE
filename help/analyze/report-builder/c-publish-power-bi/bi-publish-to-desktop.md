@@ -1,11 +1,9 @@
 ---
 description: Erläutert, wie in ReportBuilder veröffentlichte Assets in Power BI Desktop abgerufen werden
-seo-description: Erläutert, wie in ReportBuilder veröffentlichte Assets in Power BI Desktop abgerufen werden
-seo-title: Veröffentlichte Assets in Power BI Desktop abrufen
 title: Veröffentlichte Assets in Power BI Desktop abrufen
 uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
