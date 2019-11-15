@@ -1,14 +1,12 @@
 ---
 description: Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen.
-keywords: Analytics-Implementierung;Datenerfassung
-seo-description: Erfahren Sie, wie Sie aus Besuchen Ihrer Website einen Bericht in Adobe Analytics erstellen.
-seo-title: Datenerfassung
+keywords: Analytics Implementation;data collection
 solution: Analytics
 title: Datenerfassung
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
