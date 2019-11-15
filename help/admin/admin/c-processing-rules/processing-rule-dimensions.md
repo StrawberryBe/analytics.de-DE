@@ -1,14 +1,12 @@
 ---
 description: Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben können (sofern nicht anderweitig vermerkt).
-seo-description: Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben können (sofern nicht anderweitig vermerkt).
-seo-title: Für Verarbeitungsregeln verfügbare Dimensionen
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Für Verarbeitungsregeln verfügbare Dimensionen
-topic: Admin Tools
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
