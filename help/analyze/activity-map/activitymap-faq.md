@@ -1,13 +1,11 @@
 ---
 description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
-seo-description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
-seo-title: Activity Map – Häufig gestellte Fragen
 solution: Analytics
 title: Activity Map – Häufig gestellte Fragen
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ A: Adobe SiteCatalyst-Kunden haben keinen Zugriff auf die Seite „Activity Map 
 
 **F: Kann der neue AppMeasurement-Code über Dynamic Tag Management (DTM) konfiguriert werden?**
 
-A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://marketing.adobe.com/resources/help/de_DE/dtm/analytics_dtm.html).
+A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html).
 
 **F: Welche großen Änderungen wurden an der AppMeasurement v1.6-Bibliothek vorgenommen?**
 
