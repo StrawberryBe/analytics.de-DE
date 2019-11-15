@@ -1,13 +1,11 @@
 ---
 description: Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen Konversionsereignisse auf Ihrer Site auswirken. Mit diesem Bericht können Sie feststellen, welche speziellen Kampagnen bei verschiedenen Erfolgsereignissen bessere Ergebnisse erzielen, oder wie Kampagnen die Aktionen auf Ihrer Site unterstützen oder behindern. Sie können z. B. ermitteln, welche Kampagnen den meisten Umsatz generieren.
-seo-description: Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen Konversionsereignisse auf Ihrer Site auswirken. Mit diesem Bericht können Sie feststellen, welche speziellen Kampagnen bei verschiedenen Erfolgsereignissen bessere Ergebnisse erzielen, oder wie Kampagnen die Aktionen auf Ihrer Site unterstützen oder behindern. Sie können z. B. ermitteln, welche Kampagnen den meisten Umsatz generieren.
-seo-title: Trackingcodes
 solution: Analytics
 title: Trackingcodes
-topic: Berichte
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
