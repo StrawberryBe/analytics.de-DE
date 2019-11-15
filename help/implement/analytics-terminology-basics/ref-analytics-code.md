@@ -1,14 +1,12 @@
 ---
 description: Daten werden an eine Report Suite gesendet, um bei der Berichterstellung angezeigt zu werden. Die einfachste und gängigste Methode zum Senden von Daten an Analytics ist die DTM-Implementierung. Sie können den Code auch mit der JavaScript-Implementierung eingeben.
-keywords: Analytics-Implementierung;Analytics-Code;Kopfzeilencode;Fußzeilencode;Kopfzeile;Fußzeile;Dynamic Tag Management;DTM;JavaScript
-seo-description: Daten werden an eine Report Suite gesendet, um bei der Berichterstellung angezeigt zu werden. Die einfachste und gängigste Methode zum Senden von Daten an Analytics ist die DTM-Implementierung. Sie können den Code auch mit der JavaScript-Implementierung eingeben.
-seo-title: Analytics-Code
+keywords: Analytics Implementation;analytics code;header code;footer code;header;footer;dynamic tag management;dtm;javascript
 solution: Analytics
 title: Analytics-Code
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
