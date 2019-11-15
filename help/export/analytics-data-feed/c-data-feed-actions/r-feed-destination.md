@@ -1,13 +1,11 @@
 ---
 description: Im Abschnitt „Feed-Ziel“ wird die Verteilung des Feeds definiert.
-keywords: Datenfeed;Feed;Ziel;sftp;s3;ftp;Einstellungen
-seo-description: Im Abschnitt „Feed-Ziel“ wird die Verteilung des Feeds definiert.
-seo-title: Feed-Ziel
+keywords: Data Feed;feed;destination;sftp;s3;ftp;settings
 solution: Analytics
 title: Feed-Ziel
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
