@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Bereitstellen der Integration
 solution: Analytics
 title: Bereitstellen der Integration
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -53,7 +51,7 @@ Schritte zum Anzeigen Ihrer Einrichtung für die dynamische Signal VoiceStorm-In
    1. Suchen Sie nach Einträgen wie erfolgreich importierten **[!UICONTROL Klassifizierungsdaten]**. Diese Einträge sollten innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
 1. Überprüfen Sie Ihre Berichte mit dynamischen Signalen in Adobe Analytics mit dem Dashboard, das automatisch mit dem Adobe Integrationsassistenten erstellt wurde (Schritt 7). Alternativ dazu können Sie in der Menüstruktur von Adobe Analytics zur Berichterstellung über dynamische Signale navigieren - siehe die folgenden Screenshots.
 
-   **Hinweis**:Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+   **Hinweis**: Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
 
    ![](assets/reporting.png)
 
