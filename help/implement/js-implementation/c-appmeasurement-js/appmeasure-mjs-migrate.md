@@ -1,15 +1,13 @@
 ---
 description: In der folgenden Tabelle sind die Schritte aufgelistet, die Sie durchführen müssen, um Ihre Implementierung zu migrieren.
-keywords: Analytics-Implementierung;AppMeasurement;migrieren;Migration;JavaScript
-seo-description: In der folgenden Tabelle sind die Schritte aufgelistet, die Sie durchführen müssen, um Ihre Implementierung zu migrieren.
-seo-title: Migration zu AppMeasurement für JavaScript
+keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Migration zu AppMeasurement für JavaScript
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
