@@ -1,13 +1,11 @@
 ---
 description: Zeigt die Gesamteinheiten an, die während des ausgewählten Zeitraums bestellt wurden. Da pro Bestellung viele Einheiten gekauft werden können, stellen Einheiten eine umsetzbare Metrik für Bestandsänderungen dar.
-seo-description: Zeigt die Gesamteinheiten an, die während des ausgewählten Zeitraums bestellt wurden. Da pro Bestellung viele Einheiten gekauft werden können, stellen Einheiten eine umsetzbare Metrik für Bestandsänderungen dar.
-seo-title: Einheiten
 solution: Analytics
 title: Einheiten
-topic: 'Berichte    '
-uuid: 5 f 4312 f 5-d 7 c 3-4827-bc 15-4095 a 83 e 5 c 04
+topic: Reports
+uuid: 5f4312f5-d7c3-4827-bc15-4095a83e5c04
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
