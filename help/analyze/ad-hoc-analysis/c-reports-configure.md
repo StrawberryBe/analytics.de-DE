@@ -1,11 +1,9 @@
 ---
 description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
-seo-description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
-seo-title: Bestehende Berichte konfigurieren
 title: Bestehende Berichte konfigurieren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
