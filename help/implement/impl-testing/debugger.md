@@ -1,10 +1,8 @@
 ---
-description: Install the Legacy Adobe Experience Cloud Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising Cloud, Identitätsdienst, DTM und Launch.
-seo-description: Install the Legacy Adobe Experience Cloud Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising Cloud, Identitätsdienst, DTM und Launch.
-seo-title: Veralteter Adobe Experience Cloud-Debugger
+description: Installieren Sie den älteren Adobe Experience Cloud-Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising Cloud, Identitätsdienst, DTM und Launch.
 title: Veralteter Adobe Experience Cloud-Debugger
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Erstellen Sie ein JavaScript-Lesezeichen, um den Debugger zu installieren.
 
 ### Schritt 1: Lesezeichen-Code kopieren
 
-Copy the following code to your clipboard:
+Kopieren Sie den folgenden Code in die Zwischenablage:
 
 ```JavaScript
 javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
@@ -49,30 +47,30 @@ Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://docs.adobe.com/conten
 
 #### Edge
 
-Edge does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Edge kann kein Lesezeichen manuell erstellen, aber eine Lesezeichen-URL kann bearbeitet werden.
 
 1. Klicken Sie auf das Sternsymbol rechts neben dem Feld "URL", um die aktuelle Seite mit einem Lesezeichen zu versehen.
 2. Benennen Sie das Lesezeichen "Adobe Experience Cloud-Debugger"und speichern Sie es am gewünschten Speicherort.
-3. Click the star icon with lines to open the Favorites bar.
-4. Right click the newly created bookmark, the select 'Edit URL'.
-5. Paste the code snippet in the text field, then hit Enter.
+3. Klicken Sie auf das Sternsymbol mit Linien, um die Favoritenleiste zu öffnen.
+4. Klicken Sie mit der rechten Maustaste auf das neu erstellte Lesezeichen und wählen Sie "URL bearbeiten".
+5. Fügen Sie das Codefragment in das Textfeld ein und drücken Sie die Eingabetaste.
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Safari kann kein Lesezeichen manuell erstellen, aber eine Lesezeichen-URL kann bearbeitet werden.
 
-1. Click the Share icon in the top right, which opens a bookmark modal window.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+1. Klicken Sie oben rechts auf das Symbol Freigeben, um ein modales Lesezeichen-Fenster zu öffnen.
+2. Benennen Sie das Lesezeichen "Adobe Experience Cloud-Debugger"und speichern Sie es am gewünschten Speicherort.
+3. Klicken Sie auf Lesezeichen &gt; Lesezeichen bearbeiten und suchen Sie das neu erstellte Lesezeichen.
+4. Klicken Sie mit der rechten Maustaste auf &gt; Adresse bearbeiten und fügen Sie dann das Codefragment in das Textfeld ein.
 
-## Using the legacy debugger
+## Verwenden des alten Debuggers
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+Um den Debugger zu verwenden, navigieren Sie zur gewünschten Seite auf Ihrer Site und klicken Sie dann auf das Lesezeichen. Es wird ein Popupfenster mit an Adobe gesendeten Daten angezeigt.
 
-> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+> [!NOTE] Bestimmte werbeblockierende Plug-Ins und Popup-Blocker können das Laden des Debug-Fensters beeinträchtigen. Überprüfen Sie, ob Popups im Browser blockiert sind, und lassen Sie sie zu, damit der Debugger ordnungsgemäß funktioniert.
 
-The debugger has several options available, all of which customize how data is displayed. Keine dieser Optionen wirkt sich auf die Datenerfassung aus.
+Für den Debugger stehen verschiedene Optionen zur Verfügung, mit denen die Anzeige der Daten angepasst wird. Keine dieser Optionen wirkt sich auf die Datenerfassung aus.
 
 * **** Angezeigte Experience Cloud-Produkte: Blendet Bildanforderungen für die einzelnen Experience Cloud-Produkte ein oder aus.
 * **** URL-Dekode: Die URL dekodiert die Bildanforderung entsprechend der Anzeige in der Berichterstellung. Adobe empfiehlt, dieses Kontrollkästchen zu aktivieren.
