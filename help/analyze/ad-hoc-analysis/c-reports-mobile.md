@@ -1,11 +1,9 @@
 ---
 description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
-seo-description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
-seo-title: Mobil-Berichte
 title: Mobil-Berichte
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
