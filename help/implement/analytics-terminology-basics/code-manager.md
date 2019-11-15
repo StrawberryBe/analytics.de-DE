@@ -1,14 +1,12 @@
 ---
 description: Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile Plattformen herunterladen.
-keywords: Analytics-Implementierung;Datenerfassung;Code-Manager
-seo-description: Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile Plattformen herunterladen.
-seo-title: Code-Manager
+keywords: Analytics Implementation;data collection;code manager
 solution: Analytics
 title: Code-Manager
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile 
 
 **[!UICONTROL Analytics &gt; Admin &gt; Code-Manager]**.
 
-Nach dem Herunterladen der Bibliothek müssen Sie den Code so konfigurieren, dass Daten an den richtigen Verfolgungsserver und an die richtige Report Suite gesendet werden. Weitere Implementierungsressourcen finden Sie unter [Entwickler und Implementierung](https://marketing.adobe.com/resources/help/de_DE/reference/developer.html).
+Nach dem Herunterladen der Bibliothek müssen Sie den Code so konfigurieren, dass Daten an den richtigen Verfolgungsserver und an die richtige Report Suite gesendet werden. Weitere Implementierungsressourcen stehen unter [Entwickler und Implementierung](https://marketing.adobe.com/resources/help/en_US/reference/developer.html) zur Verfügung.
 
 ## Seitenbeschreibungen im Code-Manager {#section_0C23784E20BD4631841FF24E5075DA12}
 
