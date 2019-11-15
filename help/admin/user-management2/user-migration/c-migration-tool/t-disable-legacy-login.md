@@ -1,11 +1,9 @@
 ---
 description: Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deaktivieren können.
-seo-description: Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deaktivieren können.
-seo-title: Bisherige Anmeldedaten deaktivieren
 title: Bisherige Anmeldedaten deaktivieren
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
