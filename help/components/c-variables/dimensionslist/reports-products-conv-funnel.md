@@ -1,13 +1,11 @@
 ---
 description: Zeigt Durchschnittswerte der Produktansichten, Zusätze zum Warenkorb, Bestellungen, Umsatz- und Einheitsmetriken. Er enthält zudem Schlüsselkonversionen von wichtigen Daten aus den einzelnen Berichtgruppen und standardmäßigen Konversionsmetriken (Umsatz, Einheiten, Bestellungen usw.). Der obere Bereich des Trichters (Überblick) bietet eine visuelle Zusammenfassung von Konversionsdaten. In den „Trichter“-Abschnitten finden Sie Statistiken über alle Ereignisse im Abschnitt „Überblick“, die auf Bestellungen basieren, sowie bis zu zwei weitere Metriken, wie beispielsweise Umsätze und Einheiten.
-seo-description: Zeigt Durchschnittswerte der Produktansichten, Zusätze zum Warenkorb, Bestellungen, Umsatz- und Einheitsmetriken. Er enthält zudem Schlüsselkonversionen von wichtigen Daten aus den einzelnen Berichtgruppen und standardmäßigen Konversionsmetriken (Umsatz, Einheiten, Bestellungen usw.). Der obere Bereich des Trichters (Überblick) bietet eine visuelle Zusammenfassung von Konversionsdaten. In den „Trichter“-Abschnitten finden Sie Statistiken über alle Ereignisse im Abschnitt „Überblick“, die auf Bestellungen basieren, sowie bis zu zwei weitere Metriken, wie beispielsweise Umsätze und Einheiten.
-seo-title: Produktkonversionstrichter
 solution: Analytics
 title: Produktkonversionstrichter
-topic: Berichte
-uuid: e857aa20-32b6-45a2-a934-6a11dabb49d
+topic: Reports
+uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
