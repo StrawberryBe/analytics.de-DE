@@ -1,15 +1,13 @@
 ---
 description: In HTML gibt es mehrere Zeichen, die zu einem Leerzeichen führen.
-keywords: Analytics-Implementierung
-seo-description: In HTML gibt es mehrere Zeichen, die zu einem Leerzeichen führen.
-seo-title: Verwenden von Leerzeichen in Werten von Variablen
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fehlerbehebung
+subtopic: Troubleshooting
 title: Verwenden von Leerzeichen in Werten von Variablen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
