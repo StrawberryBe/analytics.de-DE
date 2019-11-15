@@ -1,10 +1,8 @@
 ---
 title: Regionale Datenerfassung
-seo-title: Regionale Datenerfassung in Adobe Analytics
 description: Informationen zur regionalen Datenerfassung
-seo-description: Informationen zur regionalen Datenerfassung
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -13,7 +11,7 @@ source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
 
 Erfahren Sie mehr über die regionale Datenerfassung (RDC) von und wie Sie bei Bedarf Ihr Netzwerk für die Datenerfassung ändern können.
 
-Um die Leistung der Datenerfassung zu verbessern, wurden alle Adobe Experience Cloud-Kunden in regionale Datenerfassung (Regional Data Collection, RDC) konvertiert, sodass die Sammlung so nah wie möglich an die Endbenutzer gesendet wird. Dies verbessert Ihre Site-/App-Leistung und stellt sicher, dass Daten so schnell wie möglich erfasst werden, um die Endbenutzererfahrung zu optimieren. Sobald Daten aus Ihren digitalen Eigenschaften regional in einem Data Collection Center (DCC) erfasst wurden, werden sie über eine sichere Verbindung an ein Data Processing Center (DPC) weitergeleitet, wo sie verarbeitet und für Produkte in Adobe Experience Cloud bereitgestellt werden. RDC ist seit 2009 der Standard bei neuen Implementierungen.
+Zur Verbesserung der Datenerfassungsleistung wurden alle Adobe Experience Cloud-Kunden in regionale Datenerfassung (Regional Data Collection, RDC) konvertiert, sodass die Datenerfassung möglichst nahe bei Ihren Endbenutzern erfolgt. Dadurch wird die Leistung Ihrer Site/App verbessert und sichergestellt, dass Daten so schnell wie möglich gesammelt werden, um das Benutzererlebnis zu optimieren. Sobald Daten aus Ihren digitalen Eigenschaften regional in einem Data Collection Center (DCC) erfasst wurden, werden sie über eine sichere Verbindung an ein Data Processing Center (DPC) weitergeleitet, wo sie verarbeitet und für Produkte in Adobe Experience Cloud bereitgestellt werden. RDC ist seit 2009 der Standard bei neuen Implementierungen.
 
 RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
@@ -31,7 +29,7 @@ Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` e
 | RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
 | Standard | San Jose, Virginia, London, Singapur |
-| Alle | Standard plus Hongkong, Sydney, Amsterdam |
+| Alle | Standard plus Hong Kong, Sydney, Amsterdam |
 | Nur USA | San Jose, Virginia |
 | Nur EU | London, Amsterdam |
 | Nur Indien | Mumbai |
@@ -48,12 +46,12 @@ In der folgenden Liste wird der von Adobe verwendete Datenerfassungsprozess besc
 
 | Vorteil | Beschreibung |
 |---------|-----------|
-| Leistung | Mit RDC werden Ihre Besucher mit dem nächsten DCC verbunden. Das bedeutet, dass die Antwortzeiten auf Ihrer Seite beschleunigt werden, was wiederum zu genauerer Verfolgung und schnelleren Ladezeiten führt. Ausführlichere Informationen zu Antwortzeiten finden Sie unter „Leistungsverbesserungen mit RDC“. |
-| Redundanz | Im Falle einer Unterbrechung der Kommunikation mit einem DCC wird die Datenerfassung automatisch auf das nächstgelegene DCC weitergeleitet, um die Dienstkontinuität sicherzustellen. |
+| Leistung | Mit RDC werden Ihre Besucher eine Verbindung zum nächsten DCC herstellen. Das bedeutet, dass die Antwortzeiten auf Ihrer Seite beschleunigt werden, was wiederum zu genauerer Verfolgung und schnelleren Ladezeiten führt. Ausführlichere Informationen zu Antwortzeiten finden Sie unter „Leistungsverbesserungen mit RDC“. |
+| Redundanz | Bei Unterbrechungen der Kommunikation mit einem DCC wird die Datenerfassung automatisch an den nächstgelegenen DCC weitergeleitet, um die Dienstkontinuität sicherzustellen. |
 | Redundanz | Im Falle einer Unterbrechung der Kommunikation zwischen dem DCC und Ihrem DPC speichert die RDC-Infrastruktur von Adobe die Daten lokal und leitet sie bei der Wiederherstellung der Datenverbindung an das DPC weiter. |
 
-## Verlauf der Dokumentationsüberarbeitung
+## Dokumentationsüberarbeitungsverlauf
 
-| Aktualisieren | Beschreibung |
+| Update | Beschreibung |
 |--------|---------|
-| 20. Februar 2019 | Beenden Sie die Datei neu. RDC-Netzwerkinformationen wurden hinzugefügt. |
+| 20. Februar 2019 | Umschreiben abgeschlossen. RDC-Netzwerkinformationen hinzugefügt. |
