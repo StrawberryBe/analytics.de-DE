@@ -1,14 +1,12 @@
 ---
 description: Sie können das Dynamic Tag Management mit einer oder mehreren der verfügbaren Hosting-Optionen bereitstellen.
-keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Hosting;Hosting-Optionen;Akamai;Self-Hosting;Selfhosting;FTP-Bereitstellung;FTP-Hosting;Bibliotheksdownload
-seo-description: Sie können das Dynamic Tag Management mit einer oder mehreren der verfügbaren Hosting-Optionen bereitstellen.
-seo-title: Hosting-Optionen konfigurieren
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
 solution: Analytics
 title: Hosting-Optionen konfigurieren
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
