@@ -1,13 +1,11 @@
 ---
 description: Sie können bestimmen, welche Spalten verfügbar sind, und Sie können sie gemäß Ihren Anforderungen sortieren.
-keywords: Datenfeed;Spalten;Spaltenkonfiguration
-seo-description: Sie können bestimmen, welche Spalten verfügbar sind, und Sie können sie gemäß Ihren Anforderungen sortieren.
-seo-title: Spalten sortieren
+keywords: Data Feed;columns;columns configuration
 solution: Analytics
 title: Spalten sortieren
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
