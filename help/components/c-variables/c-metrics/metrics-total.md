@@ -1,13 +1,11 @@
 ---
-description: Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filter aktuell ausgewählt ist, entspricht der Gesamtwert dem gefilterten Gesamtwert anstatt dem Report Suite-Gesamtwert. Wenn kein Filter ausgewählt ist, entspricht der Gesamtwert dem Report Suite-Gesamtwert.
-seo-description: Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filter aktuell ausgewählt ist, entspricht der Gesamtwert dem gefilterten Gesamtwert anstatt dem Report Suite-Gesamtwert. Wenn kein Filter ausgewählt ist, entspricht der Gesamtwert dem Report Suite-Gesamtwert.
-seo-title: Gesamt
+description: Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filter aktuell ausgewählt ist, entspricht der Gesamtwert dem gefilterten Gesamtwert anstatt dem Report Suite-Gesamtwert. Wenn kein Filter ausgewählt ist, entspricht der Gesamtwert dem Report Suite-Gesamtwert.
 solution: Analytics
 title: Gesamt
-topic: Metriken
+topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
