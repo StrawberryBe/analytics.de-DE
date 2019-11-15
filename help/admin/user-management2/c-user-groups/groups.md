@@ -1,14 +1,12 @@
 ---
 description: Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
-seo-description: Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
-seo-title: Benutzergruppeneinstellungen
 solution: Analytics
-subtopic: Benutzer und Gruppen
+subtopic: Users and groups
 title: Benutzergruppeneinstellungen
-topic: Admin Tools
+topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
