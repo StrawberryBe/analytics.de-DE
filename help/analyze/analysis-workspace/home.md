@@ -1,14 +1,12 @@
 ---
 description: Erste Schritte mit Adobe Analytics
 keywords: Analysis Workspace
-seo-description: Erste Schritte mit Adobe Analytics
-seo-title: Handbuch "Erste Schritte"
 solution: Analytics
 title: Handbuch "Erste Schritte"
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -103,6 +101,6 @@ Es gibt viele Anleitungen, wie Sie den Analysis Workspace besser verstehen könn
 ### Für Analysten und Administratoren, die die Qualität der Arbeitsfläche in ihrem Unternehmen verbessern möchten
 
 * [Berechtigungen](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)im Arbeitsbereich für Analysen: Weisen Sie Workspace über die Adobe Admin Console Benutzerberechtigungen zu.
-* [Erstellen Sie ein Lösungsdesigndokument](/help/implement/prepare/solution-design.md): Beginnen Sie mit der Planung, wie Ihr Unternehmen zusätzliche Dimensionen oder Metriken zu Ihrer Site erfasst.
+* [Erstellen Sie ein Lösungsdesigndokument](/help/implement/prepare/solution-design.md): Beginnen Sie mit der Planung, wie Ihr Unternehmen zusätzliche Dimensionen oder Metriken zu Ihrer Site sammelt.
 * [Vorlagen in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Erstellen Sie Vorlagen, damit Ihre Kollegen mit einem auf ihre Bedürfnisse zugeschnittenen Projektraum beginnen können.
 * [Arbeitsflächenkuratierung](curate-share/curate.md): Erstellen Sie ein Projekt, das die verfügbaren Komponenten einschränkt, damit der Arbeitsbereich für diejenigen, die mit dem Tool weniger vertraut sind, leichter zugänglich ist.
