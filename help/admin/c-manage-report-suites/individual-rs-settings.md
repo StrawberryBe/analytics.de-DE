@@ -1,13 +1,11 @@
 ---
 description: In den individuellen Report Suite-Einstellungen können Sie die Standardeinstellungen für Ihre Report Suites ändern. Unter anderem lassen sich hier auch Einträge für nicht mehr benötigte oder veraltete Seiten entfernen, Standardmetriken einrichten und Report Suite-Segmente konfigurieren.
-seo-description: In den individuellen Report Suite-Einstellungen können Sie die Standardeinstellungen für Ihre Report Suites ändern. Unter anderem lassen sich hier auch Einträge für nicht mehr benötigte oder veraltete Seiten entfernen, Standardmetriken einrichten und Report Suite-Segmente konfigurieren.
-seo-title: Individuelle Report Suite-Einstellungen
 solution: Analytics
 title: Individuelle Report Suite-Einstellungen
-topic: Admin Tools
+topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
