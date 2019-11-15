@@ -1,11 +1,9 @@
 ---
 description: Konfigurieren Sie die globalen Verhaltenseinstellungen. Sie können beispielsweise die Einstellungen zum automatischen Speichern sowie für Diagramme und Tabellen konfigurieren und die Schriftart und das Gebietsschema einstellen.
-seo-description: Konfigurieren Sie die globalen Verhaltenseinstellungen. Sie können beispielsweise die Einstellungen zum automatischen Speichern sowie für Diagramme und Tabellen konfigurieren und die Schriftart und das Gebietsschema einstellen.
-seo-title: Einstellungen
 title: Einstellungen
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
