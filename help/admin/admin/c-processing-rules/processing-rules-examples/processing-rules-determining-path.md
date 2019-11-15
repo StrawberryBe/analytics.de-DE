@@ -1,14 +1,12 @@
 ---
 description: Sie können den Wert einer eVar-Variable in eine Prop kopieren, um die Pfadsetzung zu aktivieren.
-seo-description: Sie können den Wert einer eVar-Variable in eine Prop kopieren, um die Pfadsetzung zu aktivieren.
-seo-title: Pfad durch Kopieren eines eVar-Werts in eine Eigenschaft bestimmen
 solution: Analytics
-subtopic: Verarbeitungsregeln
+subtopic: Processing rules
 title: Pfad durch Kopieren eines eVar-Werts in eine Eigenschaft bestimmen
-topic: Admin Tools
+topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
