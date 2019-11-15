@@ -1,13 +1,11 @@
 ---
-description: Zeigt die Anzahl der Bestellungen auf Ihrer Website während des ausgewählten Zeitraums an. Sie können die einzelnen Zeiträume nach anderen Metriken unterteilen, um Elemente (wie z. B. Produkte oder Kampagnen) anzuzeigen, die während des Zeitraums zu den meisten Bestellungen beitrugen.
-seo-description: Zeigt die Anzahl der Bestellungen auf Ihrer Website während des ausgewählten Zeitraums an. Sie können die einzelnen Zeiträume nach anderen Metriken unterteilen, um Elemente (wie z.B. Produkte oder Kampagnen) anzuzeigen, die während des Zeitraums zu den meisten Bestellungen beitrugen.
-seo-title: Bestellungen
+description: Zeigt die Anzahl der Bestellungen auf Ihrer Website während des ausgewählten Zeitraums an. Sie können die einzelnen Zeiträume nach anderen Metriken unterteilen, um Elemente (wie z.B. Produkte oder Kampagnen) anzuzeigen, die während des Zeitraums zu den meisten Bestellungen beitrugen.
 solution: Analytics
 title: Bestellungen
-topic: 'Berichte    '
-uuid: de 7786 c 5-8 fa 3-4 d 96-977 d -4 a 6 b 1 d 033028
+topic: Reports
+uuid: de7786c5-8fa3-4d96-977d-4a6b1d033028
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
