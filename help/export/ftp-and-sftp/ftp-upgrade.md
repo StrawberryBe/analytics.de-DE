@@ -1,13 +1,11 @@
 ---
 description: Bei Upgrades der Adobe FTP-Server können neue Konfigurationen eingeführt werden, die sich auf Automatisierungsskripts auswirken (die häufig genutzt werden, um Daten regelmäßig hoch- oder herunterzuladen), die häufig auf bestimmten Servereinstellungen basieren.
 keywords: ftp;sftp
-seo-description: Bei Upgrades der Adobe FTP-Server können neue Konfigurationen eingeführt werden, die sich auf Automatisierungsskripts auswirken (die häufig genutzt werden, um Daten regelmäßig hoch- oder herunterzuladen), die häufig auf bestimmten Servereinstellungen basieren.
-seo-title: Adobe FTP-Server aktualisieren
 solution: Analytics
 title: Adobe FTP-Server aktualisieren
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
