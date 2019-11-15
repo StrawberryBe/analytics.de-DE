@@ -1,13 +1,11 @@
 ---
 description: Erstellen Sie ein Adobe Analytics-Tool für die Implementierung mithilfe des Dynamic Tag Managements. Diese Anleitung beschreibt eine manuelle Implementierung (alte Methode).
 keywords: Dynamic Tag Management
-seo-description: Erstellen Sie ein Adobe Analytics-Tool für die Implementierung mithilfe des Dynamic Tag Managements. Diese Anleitung beschreibt eine manuelle Implementierung (alte Methode).
-seo-title: Adobe Analytics manuell implementieren (alt)
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics manuell implementieren (alt)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ Wenn Sie eine manuelle Konfiguration auf automatisch umstellen möchten, bearbei
       | Tool-Typ | Experience Cloud-Lösung, z. B. Analytics, Target, Social usw. |
       | Tool-Name | Der Werkzeugname. Dieser Name wird auf der Registerkarte [!UICONTROL Übersicht] unter [!UICONTROL Installierte Tools] angezeigt. |
       | Produktions-Konto-ID | Eine ID für Ihr Produktions-Konto zur Datensammlung. Das Dynamic Tag Management installiert automatisch das richtige Konto in der Produktions- und Staging-Umgebung. |
-      | Staging-Konto-ID | Eine ID, die für Ihre Entwicklungs- oder Testumgebung verwendet wird. Mit dem Staging-Konto werden Ihre Testdaten von der Produktion getrennt gehalten. |
+      | Staging-Konto-ID | Eine ID, die für Ihre Entwicklungs- oder Testumgebung verwendet wird. Mit einem Staging-Konto werden Ihre Testdaten von der Produktion getrennt. |
 
 1. Klicken Sie auf **[!UICONTROL Tool erstellen]**.
 
