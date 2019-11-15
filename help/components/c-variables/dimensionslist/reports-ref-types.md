@@ -1,13 +1,11 @@
 ---
 description: Indem Sie die verweisenden Stellen der Besucher bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
-seo-description: Indem Sie die verweisenden Stellen der Besucher bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
-seo-title: Typ der verweisenden Stelle
 solution: Analytics
 title: Typ der verweisenden Stelle
-topic: Berichte
+topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
