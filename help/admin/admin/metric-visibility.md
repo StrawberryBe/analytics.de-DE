@@ -1,12 +1,10 @@
 ---
 description: Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
-seo-description: Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
-seo-title: Metriksichtbarkeit
 solution: Analytics
 title: Metriksichtbarkeit
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
