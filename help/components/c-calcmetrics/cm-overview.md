@@ -1,12 +1,10 @@
 ---
 description: Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
-keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metriken
-seo-description: Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
-seo-title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
+keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
