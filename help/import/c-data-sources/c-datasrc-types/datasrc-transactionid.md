@@ -1,14 +1,12 @@
 ---
 description: Transaktions-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
-seo-description: Transaktions-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
-seo-title: Transaktions-ID
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Transaktions-ID
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
