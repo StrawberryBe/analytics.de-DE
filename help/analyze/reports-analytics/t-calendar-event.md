@@ -1,13 +1,11 @@
 ---
 description: Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten von freigegebenen Ereignissen.
-seo-description: Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten von freigegebenen Ereignissen.
-seo-title: Kalenderereignisse
 solution: Analytics
 title: Kalenderereignisse
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
