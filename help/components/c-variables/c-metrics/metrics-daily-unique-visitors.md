@@ -1,13 +1,11 @@
 ---
-description: Die Anzahl nicht duplizierter (nur einmal gezählter) Besucher Ihrer Website im Verlauf eines Tages. Der Besuch für „Unique Visitor pro Tag“ endet für die in der Report Suite ausgewählte Zeitzone um Mitternacht.
-seo-description: Die Anzahl nicht duplizierter (nur einmal gezählter) Besucher Ihrer Website im Verlauf eines Tages. Der Besuch für „Individuelle Besucher pro Tag“ endet für die in der Report Suite ausgewählte Zeitzone um Mitternacht.
-seo-title: Unique Visitors pro Tag
+description: Die Anzahl nicht duplizierter (nur einmal gezählter) Besucher Ihrer Website im Verlauf eines Tages. Der Besuch für „Individuelle Besucher pro Tag“ endet für die in der Report Suite ausgewählte Zeitzone um Mitternacht.
 solution: Analytics
 title: Unique Visitors pro Tag
-topic: Metriken
+topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
