@@ -1,13 +1,11 @@
 ---
 description: Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an dem ein Zeitraum beginnt, nicht auf einen Bereich von Tagen. Ein Bereich von Tagen wird durch Festlegen eines Start- und Enddatums für zwei zeitliche Abkürzungen (oder Terme) angegeben.
-seo-description: Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an dem ein Zeitraum beginnt, nicht auf einen Bereich von Tagen. Ein Bereich von Tagen wird durch Festlegen eines Start- und Enddatums für zwei zeitliche Abkürzungen (oder Terme) angegeben.
-seo-title: Datumsabkürzungen
 solution: Analytics
 title: Datumsabkürzungen
-topic: ReportBuilder
+topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
