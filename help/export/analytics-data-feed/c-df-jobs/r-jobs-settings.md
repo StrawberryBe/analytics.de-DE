@@ -1,13 +1,11 @@
 ---
 description: Beim Einrichten eines Feeds wird anhand einiger Einstellungen bestimmt, wie oft Aufträge verarbeitet werden.
-keywords: Datenfeed;Auftrag;Einstellungen;täglich;stündlich;Datenaufstockungen für stündliche Datenfeeds;Aufstockung
-seo-description: Beim Einrichten eines Feeds wird anhand einiger Einstellungen bestimmt, wie oft Aufträge verarbeitet werden.
-seo-title: Auftragseinstellungen
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: Auftragseinstellungen
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
