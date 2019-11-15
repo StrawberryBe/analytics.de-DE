@@ -1,13 +1,11 @@
 ---
 description: Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- und Spaltenüberschriften angezeigt werden. Der Link „Formatoptionen“ ist für die Layouttypen „Pivot“ und „Benutzerdefiniert“ verfügbar.
-seo-description: Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- und Spaltenüberschriften angezeigt werden. Der Link „Formatoptionen“ ist für die Layouttypen „Pivot“ und „Benutzerdefiniert“ verfügbar.
-seo-title: Anzeigeüberschriften formatieren
 solution: Analytics
 title: Anzeigeüberschriften formatieren
-topic: ReportBuilder
+topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -39,7 +37,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
 
    >[!NOTE]
    >
-   > Excel unterstützt nur einen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
+   >Excel unterstützt nur einen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
 
    **Automatische Gliederung durchführen:** Wandelt die von ReportBuilder ausgegebenen Daten von einer Listen- in eine Baumansicht um.
 
