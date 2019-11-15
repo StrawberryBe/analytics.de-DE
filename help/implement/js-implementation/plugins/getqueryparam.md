@@ -1,15 +1,13 @@
 ---
-description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), kann „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu erfassen.
-keywords: Analytics-Implementierung
-seo-description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), kann „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu überführen.
-seo-title: getQueryParam
+description: Gibt den Wert des Parameters einer bestimmten Abfragezeichenfolge zurück, wenn er in der URL der aktuellen Seite vorhanden ist. Da in der Abfragezeichenfolge einer Seite wichtige Daten enthalten sind (Kampagnen-Trackingcodes, interne Keywords usw.), kann „getQueryParam“ dabei helfen, die Daten in Analytics-Variablen zu überführen.
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
