@@ -1,11 +1,9 @@
 ---
 description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
-seo-description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
-seo-title: Daten und Datumsbereiche
 title: Daten und Datumsbereiche
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
