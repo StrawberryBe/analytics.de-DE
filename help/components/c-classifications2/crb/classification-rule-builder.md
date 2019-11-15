@@ -1,14 +1,12 @@
 ---
 description: Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzuladen, können Sie automatische, regelbasierte Classifications erstellen und diese auf mehrere Report Suites anwenden. Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
-seo-description: Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzuladen, können Sie automatische, regelbasierte Classifications erstellen und diese auf mehrere Report Suites anwenden. Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
-seo-title: Classification Rule Builder-Workflow
 solution: Analytics
 subtopic: Classifications
 title: Classification Rule Builder-Workflow
-topic: Admin Tools
+topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Hier sind die Schritte auf hoher Ebene, die Sie zur Implementierung von Classifi
 
 >[!NOTE]
 >
-> Gruppen mit der Berechtigung zum Verwenden des Classification-Import-Tools können Classification-Regeln verwenden. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>Gruppen mit der Berechtigung zum Verwenden des Classification-Import-Tools können Classification-Regeln verwenden. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **Zusätzliche Ressourcen**
 
