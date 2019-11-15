@@ -1,14 +1,12 @@
 ---
 description: Ein Besuch, der aus einem einzelnen Server-Aufruf besteht. Zum Beispiel handelt es sich bei einem einzelnen Seitenbesuch um einen Absprung, wenn ein Besucher keine Interaktion mit der Seite führt, bei der Daten zu Adobe gesendet werden, zum Beispiel durch Anklicken eines Links oder eines Videostarts. Wenn mehrere Hits bei einem Besuch empfangen werden, wird kein Absprung gezählt.
-keywords: Absprung
-seo-description: Ein Besuch, der aus einem einzelnen Server-Aufruf besteht. Zum Beispiel handelt es sich bei einem einzelnen Seitenbesuch um einen Absprung, wenn ein Besucher keine Interaktion mit der Seite führt, bei der Daten zu Adobe gesendet werden, zum Beispiel durch Anklicken eines Links oder eines Videostarts. Wenn mehrere Hits bei einem Besuch empfangen werden, wird kein Absprung gezählt.
-seo-title: Absprünge
+keywords: bounce
 solution: Analytics
 title: Absprünge
-topic: Metriken
-uuid: 0 a 5 efe 5 f -467 e -4 d 40-951 a -5 b 462149 e 482
+topic: Metrics
+uuid: 0a5efe5f-467e-4d40-951a-5b462149e482
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
