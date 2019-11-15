@@ -1,14 +1,12 @@
 ---
 description: Die s_gi()-Funktion wird dazu verwendet, Ihre Instanz von AppMeasurement nach Report Suite-ID zu erstellen oder zu suchen. Intern verfolgt AppMeasurement jede erstellt Instanz, und die s_gi()-Funktion gibt die vorhandene Instanz an eine Report Suite zurück, sofern eine Instanz vorhanden ist. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt und zurückgegeben.
-keywords: Analytics-Implementierung
-seo-description: Die s_gi()-Funktion wird dazu verwendet, Ihre Instanz von AppMeasurement nach Report Suite-ID zu erstellen oder zu suchen. Intern verfolgt AppMeasurement jede erstellt Instanz, und die s_gi()-Funktion gibt die vorhandene Instanz an eine Report Suite zurück, sofern eine Instanz vorhanden ist. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt und zurückgegeben.
-seo-title: Die s_gi()-Funktion
+keywords: Analytics Implementation
 solution: Analytics
 title: Die s_gi()-Funktion
-topic: Entwickler und Implementierung
-uuid: a77de90e-c60e-4946-90cf-tauf8aa3d755
+topic: Developer and implementation
+uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Die s_gi()-Funktion wird dazu verwendet, Ihre Instanz von AppMeasurement nach Report Suite-ID zu erstellen oder zu suchen. Intern verfolgt AppMeasurement jede erstellt Instanz, und die s_gi()-Funktion gibt die vorhandene Instanz an eine Report Suite zurück, sofern eine Instanz vorhanden ist. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt und zurückgegeben.
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. Dadurch wird sichergestellt, dass für den Nachverfolgungsaufruf das richtige Objekt verwendet wird, sollte die Variable „s“ versehentlich überschrieben werden.
+Wir empfehlen, die Funktion `s_gi()` aufzurufen, bevor in Ihrem gesamten Seiten-Code Variablen gesetzt und Nachverfolgungsaufrufe ausgeführt werden. Dadurch wird sichergestellt, dass für den Nachverfolgungsaufruf das richtige Objekt verwendet wird, sollte die Variable „s“ versehentlich überschrieben werden.
 
 ## Verwenden mehrerer Report Suites {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
@@ -29,7 +27,7 @@ var s=s_gi('rsid1,rsid2')
 
 In der folgenden Tabelle ist aufgeführt, was von den nachfolgenden Aufrufen zurückgegeben wird:
 
-| **Nachfolgender Aufruf an „s_gi“** | **Beschreibung des zurückgegebenen Objekts** |
+| **Nachfolgender Aufruf an s_gi** | **Beschreibung des zurückgegebenen Objekts** |
 |---|---|
 | `s=s_gi('rsid1,rsid2')` | Dasselbe Objekt, auf das vorher verwiesen wurde. |
 | `s=s_gi('rsid1')` | Eine Kopie des vorher erstellten Objekts, aber nicht das Original. |
