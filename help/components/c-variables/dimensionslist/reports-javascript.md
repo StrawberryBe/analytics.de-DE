@@ -1,13 +1,11 @@
 ---
 description: Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät aktiviert oder deaktiviert ist oder ob es als „nicht identifiziert“ gezählt wird.
-seo-description: Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät aktiviert oder deaktiviert ist oder ob es als „nicht identifiziert“ gezählt wird.
-seo-title: JavaScript-Unterstützung
 solution: Analytics
 title: JavaScript-Unterstützung
-topic: Berichte
-uuid: 7b95001a-cd35-478a-8b24-54d3066110d
+topic: Reports
+uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
