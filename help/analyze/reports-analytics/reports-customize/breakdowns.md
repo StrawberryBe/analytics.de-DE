@@ -1,13 +1,11 @@
 ---
 description: Verwenden Sie Aufschlüsselungen, wenn Sie weitere Informationen darüber erhalten möchten, wie ein Berichtselement oder -segment mit anderen Berichten zusammenhängt. Dies wird oft als "Aufschlüsselung"eines Berichts durch einen anderen Bericht bezeichnet.
-seo-description: Verwenden Sie Aufschlüsselungen, wenn Sie weitere Informationen darüber erhalten möchten, wie ein Berichtselement oder -segment mit anderen Berichten zusammenhängt. Dies wird oft als "Aufschlüsselung"eines Berichts durch einen anderen Bericht bezeichnet.
-seo-title: Aufschlüsselung
 solution: Analytics
 title: Aufschlüsselung
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
