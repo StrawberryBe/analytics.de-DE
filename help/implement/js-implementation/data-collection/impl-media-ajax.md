@@ -1,14 +1,12 @@
 ---
 description: AJAX ist ein Konzept, das sich beim Webdesign zunehmender Beliebtheit erfreut, da hiermit dynamische Inhalte auf Webseiten durch Einsatz mehrerer Technologien erstellt und verwaltet werden können.
-keywords: Analytics-Implementierung
-seo-description: AJAX ist ein Konzept, das sich beim Webdesign zunehmender Beliebtheit erfreut, da hiermit dynamische Inhalte auf Webseiten durch Einsatz mehrerer Technologien erstellt und verwaltet werden können.
-seo-title: AJAX-Track Rich-Media-Anwendungen
+keywords: Analytics Implementation
 solution: Analytics
 title: AJAX-Track Rich-Media-Anwendungen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
