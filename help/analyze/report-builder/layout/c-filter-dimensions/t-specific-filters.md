@@ -1,13 +1,11 @@
 ---
 description: Filter, die dimensionsspezifische Terme anwenden.
-seo-description: Filter, die dimensionsspezifische Terme anwenden.
-seo-title: Spezifische Filter
 solution: Analytics
 title: Spezifische Filter
-topic: ReportBuilder
+topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
