@@ -1,15 +1,13 @@
 ---
 description: Adobe setzt ein Cookie zur Verfolgung individueller Browser/Geräte ein.
-keywords: Analytics-Implementierung
-seo-description: Adobe setzt ein Cookie zur Verfolgung individueller Browser/Geräte ein.
-seo-title: Unique Visitors identifizieren
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Besucher
+subtopic: Visitors
 title: Unique Visitors identifizieren
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
