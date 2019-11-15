@@ -1,15 +1,13 @@
 ---
 description: Zeichen und Zeichenfolgen, die in JavaScript-Variablen nicht erlaubt sind
-keywords: Analytics-Implementierung
-seo-description: Zeichen und Zeichenfolgen, die in JavaScript-Variablen nicht erlaubt sind
-seo-title: Unzulässige JavaScript-Zeichen
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Variablen
+subtopic: Variables
 title: Unzulässige JavaScript-Zeichen
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
