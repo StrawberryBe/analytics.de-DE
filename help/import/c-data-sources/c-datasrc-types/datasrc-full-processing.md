@@ -1,14 +1,12 @@
 ---
 description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Volle Verarbeitung“).
-seo-description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Volle Verarbeitung“).
-seo-title: Vollständige Verarbeitung
 solution: Analytics
-subtopic: Datenquellen
+subtopic: Data sources
 title: Vollständige Verarbeitung
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
