@@ -1,13 +1,11 @@
 ---
 description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Bericht an.
-seo-description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Bericht an.
-seo-title: Segmente auswählen und anwenden
 solution: Analytics
 title: Segmente auswählen und anwenden
-topic: Segmente
-uuid: f 835 ddc 1-4650-4 e 5 f -848 d -6 c 97 fb 7 d 6141
+topic: Segments
+uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,11 +23,11 @@ So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Beri
 
    >[!NOTE]
    >
-   >Sie können mehrere Segmente auf einen Bericht anwenden (dies wird als Segmentstapelung bezeichnet). Wenn mehrere Segmente angewendet werden, werden die in den einzelnen Segmenten enthaltenen Kriterien mit einem UND-Operator verbunden und dann angewendet. Sie können beliebig viele Segmente stapeln.
+   >Sie können mehr als ein Segment auf einen Bericht anwenden (dies wird als Segmentstapelung bezeichnet). Wenn mehrere Segmente angewendet werden, werden die in den einzelnen Segmenten enthaltenen Kriterien mit einem UND-Operator verbunden und dann angewendet. Sie können beliebig viele Segmente stapeln.
 
    >[!NOTE]
    >
-   >Durch Klicken auf das Informationssymbol (i) neben dem Segmentnamen können Sie eine Vorschau der Schlüsselmetriken anzeigen, um zu sehen, ob Sie über ein gültiges Segment verfügen und wie breit das Segment ist.
+   >Durch Klicken auf das Informationssymbol (i) neben dem Segmentnamen können Sie eine Vorschau der Schlüsselmetriken anzeigen, um zu sehen, ob ein gültiges Segment vorhanden ist und wie breit das Segment ist.
 
 1. You can filter by report suite by selecting the **[!UICONTROL (Only)`<report suite name>`]** check box. Dadurch werden nur die Segmente angezeigt, die zuletzt in der entsprechenden Report Suite gespeichert wurden.
 1. Click **[!UICONTROL Apply Segment]** and the report will refresh. Die angewendeten Segmente werden jetzt oben im Bericht angezeigt:
