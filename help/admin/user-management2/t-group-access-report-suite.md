@@ -1,14 +1,12 @@
 ---
 description: Diese Schritte beschreiben, wie Sie Benutzergruppen zu einer Report Suite zuweisen.
-seo-description: Diese Schritte beschreiben, wie Sie Benutzergruppen zu einer Report Suite zuweisen.
-seo-title: Zuweisen von Benutzergruppen zu einer Report Suite
 solution: Analytics
-subtopic: Benutzer und Gruppen
+subtopic: Users and groups
 title: Zuweisen von Benutzergruppen zu einer Report Suite
-topic: Admin Tools
+topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
