@@ -1,13 +1,11 @@
 ---
 description: Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Siteabschnitte können kategorienähnliche Produktgruppen enthalten, die Sie definieren. Sie können beispielsweise eine Seitengruppe „Kameras“ oder „Computer“ usw. einrichten. Daten für den Bericht „Konversionssitebereiche“ werden aus dem Bericht „Sitebereiche“ in der Traffic-Gruppe importiert, welcher seine Daten aus der Kanalvariablen im Trackingcode erhält. Mithilfe dieses Berichts können Sie die stärkste Auswirkung bestimmter Einheiten in unterschiedlichen Sitebereichen auf die Site-Statistik identifizieren.
-seo-description: Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Siteabschnitte können kategorienähnliche Produktgruppen enthalten, die Sie definieren. Sie können beispielsweise eine Seitengruppe „Kameras“ oder „Computer“ usw. einrichten. Daten für den Bericht „Konversionssitebereiche“ werden aus dem Bericht „Sitebereiche“ in der Traffic-Gruppe importiert, welcher seine Daten aus der Kanalvariablen im Trackingcode erhält. Mithilfe dieses Berichts können Sie die stärkste Auswirkung bestimmter Einheiten in unterschiedlichen Sitebereichen auf die Site-Statistik identifizieren.
-seo-title: Sitebereiche
 solution: Analytics
 title: Sitebereiche
-topic: Berichte
+topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
