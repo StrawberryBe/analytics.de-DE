@@ -1,13 +1,11 @@
 ---
 description: Durch die Aktivierung von Mobile Management aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken mobiler Anwendungen erfassen.
-seo-description: Durch die Aktivierung von Mobile Management aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken mobiler Anwendungen erfassen.
-seo-title: Mobile Management
 solution: Analytics
 title: Mobile Management
-topic: Admin Tools
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
