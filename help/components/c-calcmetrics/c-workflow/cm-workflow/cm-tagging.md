@@ -1,11 +1,9 @@
 ---
 description: Durch das Taggen von Segmenten können Sie diese im Manager für berechnete Metriken organisieren.
-seo-description: Durch das Taggen von Segmenten können Sie diese im Manager für berechnete Metriken organisieren.
-seo-title: Berechnete Metriken taggen
 title: Berechnete Metriken taggen
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
