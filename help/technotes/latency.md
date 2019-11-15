@@ -1,15 +1,13 @@
 ---
 description: Die folgenden Informationen können bei der Fehlerbehebung von Report Suite-Latenzproblemen in Analytics-Daten helfen.
-keywords: fehlende Daten; langsam
-seo-description: Die folgenden Informationen können bei der Fehlerbehebung von Report Suite-Latenzproblemen in Analytics-Daten helfen.
-seo-title: Datenverfügbarkeit und Latenz
+keywords: missing data;slow
 solution: Analytics
-subtopic: aktuelle Daten
+subtopic: Current data
 title: Datenverfügbarkeit und Latenz
-topic: Berichte
+topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
