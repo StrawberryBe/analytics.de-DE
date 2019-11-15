@@ -1,14 +1,12 @@
 ---
 description: Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu einer anderen migriert.
-keywords: Analytics-Implementierung
-seo-description: Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu einer anderen migriert.
-seo-title: Besuchermigration
+keywords: Analytics Implementation
 solution: Analytics
 title: Besuchermigration
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
