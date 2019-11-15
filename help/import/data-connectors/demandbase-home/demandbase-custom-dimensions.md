@@ -1,11 +1,9 @@
 ---
 description: Listet optionale Dimensionskennungen auf, die in Schritt 4 des Adobe Integration-Assistenten angegeben werden können.
-seo-description: Listet optionale Dimensionskennungen auf, die in Schritt 4 des Adobe Integration-Assistenten angegeben werden können.
-seo-title: Benutzerdefinierte Dimensionen der Demandbase
 title: Benutzerdefinierte Dimensionen der Demandbase
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
