@@ -1,13 +1,11 @@
 ---
 description: Auf die gleiche Weise, auf die Sie Anforderungen kopieren und einfügen, können Sie auch Anforderungen in einen anderen des Arbeitsblattes verschieben, indem Sie im Kontextmenü die Option Anforderung ausschneiden wählen.
-seo-description: Auf die gleiche Weise, auf die Sie Anforderungen kopieren und einfügen, können Sie auch Anforderungen in einen anderen des Arbeitsblattes verschieben, indem Sie im Kontextmenü die Option Anforderung ausschneiden wählen.
-seo-title: Angrenzende Anforderungen kopieren
 solution: Analytics
 title: Angrenzende Anforderungen kopieren
-topic: ReportBuilder
+topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
