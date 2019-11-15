@@ -1,14 +1,12 @@
 ---
 description: 'Erfolgsereignisse sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..'
 keywords: event
-seo-description: 'Erfolgsereignisse sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..'
-seo-title: Übersicht über Erfolgsereignisse
 solution: Analytics
 title: Übersicht über Erfolgsereignisse
-topic: Admin Tools
-uuid: 410ee44-8960-462c-a9c3-07b44d0b1df0
+topic: Admin tools
+uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
