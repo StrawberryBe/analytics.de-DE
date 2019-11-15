@@ -1,15 +1,13 @@
 ---
 description: Die Plug-in-Unterstützung wurde in der neuen Version von JavaScript AppMeasurement geändert.
-keywords: Analytics-Implementierung;AppMeasurement;JavaScript;Plugin;Plug-in
-seo-description: Die Plug-in-Unterstützung wurde in der neuen Version von JavaScript AppMeasurement geändert.
-seo-title: Plug-in-Unterstützung in AppMeasurement
+keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Plug-in-Unterstützung in AppMeasurement
-topic: Entwickler und Implementierung
+topic: Developer and implementation
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
