@@ -1,14 +1,12 @@
 ---
 description: In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe von Datenfeeds berechnet werden.
-keywords: Datenfeed;Auftrag;Metriken;Pre-Spalte;Post-Spalte;Bots;Datumsfilterung;Ereigniszeichenfolge;häufig;Formeln
-seo-description: In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe von Datenfeeds berechnet werden.
-seo-title: Berechnete Metriken
+keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
 solution: Analytics
 title: Berechnete Metriken
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
