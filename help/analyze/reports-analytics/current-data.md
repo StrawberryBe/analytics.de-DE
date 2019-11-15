@@ -1,13 +1,12 @@
 ---
 description: Mit der Option „Aktuelle Daten einschließen“ in Reports & Analytics können Sie die jüngsten Analytics-Daten abrufen, und das häufig noch bevor die Daten vollständig verarbeitet und abgeschlossen sind. Die aktuellen Daten zeigen die meisten Metriken in Minutenschnelle und liefern so relevante Daten für die rasche Entscheidungsfindung.
-seo-title: Aktuelle Daten
 solution: Analytics
-subtopic: Aktuelle Daten
+subtopic: Current Data
 title: Aktuelle Daten
-topic: Berichte
+topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
