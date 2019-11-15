@@ -1,13 +1,11 @@
 ---
 description: Eine Seitenansicht wird für jeden versandten Server-Aufruf gezählt. Diese Metrik repräsentiert die Gesamtinstanzen von Seitenansichten. TrackLink-Aufrufe werden nicht als Seitenansichten gezählt und erhöhen nicht die Seitenansichten-Metrik.
-seo-description: Eine Seitenansicht wird für jeden versandten Server-Aufruf gezählt. Diese Metrik repräsentiert die Gesamtinstanzen von Seitenansichten. TrackLink-Aufrufe werden nicht als Seitenansichten gezählt und erhöhen nicht die Seitenansichten-Metrik.
-seo-title: Seitenansicht
 solution: Analytics
 title: Seitenansicht
-topic: Metriken
+topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
