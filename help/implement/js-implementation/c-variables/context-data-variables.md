@@ -19,13 +19,11 @@ Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefiniert
 Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die Daten in Kontextdatenvariablen senden, die mithilfe von Verarbeitungsregeln zugeordnet werden. Verarbeitungsregeln bieten eine leistungsfähige grafische Benutzeroberfläche, in der Sie Änderungen an Daten bei deren Erhalt vornehmen können. Auf Grundlage der in Kontextdaten gesendeten Werte können Sie Ereignisse festlegen, Werte in eVars und Eigenschaftsvariablen kopieren und zusätzliche bedingte Anweisungen ausführen.
 
 > [!NOTE] Bei Kontextvariablen wird die Schreibweise nicht beachtet. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch:
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >und
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
