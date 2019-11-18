@@ -6,38 +6,55 @@ title: Löschen von Classification-Daten
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
 
 # Löschen von Classification-Daten
 
-In diesen Schritten wird beschrieben, wie Sie Classification-Daten löschen oder entfernen.
+In einigen Fällen müssen Klassifizierungsdaten nach dem Hochladen entfernt werden. Verwenden Sie entweder `~empty~` oder `~deletekey~`, je nachdem, was Sie entfernen möchten.
+
+## Schritte zum Entfernen von Classification-Daten
+
+Das Entfernen von Classification-Daten umfasst das Hochladen einer Classification-Datei, die die entsprechenden Zellen enthält `~empty~` oder `~deletekey~` in ihnen liegt.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Browser Export]**.
 1. Wählen Sie die Report Suite und den Datensatz aus, aus denen Classification-Daten entfernt werden sollen.
 1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
-1. Once the file has been downloaded, open the file and replace any classification values you wish to delete with [!DNL ~empty~].
+1. Nachdem die Datei heruntergeladen wurde, öffnen Sie die Datei und ersetzen Sie alle Classification-Werte durch `~empty~` oder `~deletekey~`.
+1. Speichern Sie die Datei als tabulatorgetrennte Textdatei.
+1. Klicken Sie auf Datei **[!UICONTROL importieren]** und laden Sie die gespeicherte Classification-Datei erneut in Adobe Analytics hoch.
 
-   Alternatively, use [!DNL ~deletekey~]. Mit diesem Befehl wird die Classification für den betreffenden Schlüssel so behandelt, als wäre sie nie erfolgt. Der Schlüssel und alle Spaltendaten werden aus den Suchtabellen entfernt.
+## Löschen eines einzelnen Classification-Werts
 
-   **Caveat**: Sie benötigen nur eine Spalte, die [!DNL ~deletekey~]enthält. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Mit diesem Befehl werden alle Metadaten aus der Zeile gelöscht. Adobe interpretiert dies so, als wäre der Schlüssel nie klassifiziert worden, und zeigt ihn in der Kategorie [Keine](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF) an.
+Mehrere Classifications können zur gleichen Variablen gehören. Sie können beispielsweise zwei verschiedene Klassifizierungen von eVar1 haben. Wenn Sie nur einen einzelnen klassifizierten Wert entfernen möchten, ersetzen Sie den Klassifizierungswert durch `~empty~`. Beispiel:
 
-1. Speichern Sie die Datei, und laden Sie sie danach über die Registerkarte [!UICONTROL Datei importieren] hoch.
+| Bestands-SKU (eVar8) | Lagerbestandsname | Bestandskategorie |
+| --- | --- | --- |
+| 857467 | V-Nacken-Pullover | Damenbekleidung |
+| 948203 | Armband | Schmuck |
+| 174391 | Weiße korduroide Hose | `~empty~` |
 
-   After you upload the file, the system recognizes [!DNL ~empty~] as a command to delete that classification value.
+Die Verwendung `~empty~` unter der Classification der Lagerbestandskategorie behält weiterhin Daten für die Classification der Lagerbestandsnamen bei. Der `~empty~` Wert löscht nur die Classification-Daten für diese Zelle.
 
-   **Eigenschaften dieses Befehls**
+## Löschen einer gesamten Classification-Zeile
 
-* [!DNL ~leer~] muss Kleinbuchstaben ohne Leerzeichen sein. Die folgenden Eingaben sind ungültig:
+Verwenden Sie `~deletekey~` in einer beliebigen Spalte, um die gesamte Classification-Zeile zu löschen. Beispiel:
 
-   * [!DNL ~EMPTY~]
-   * [!DNL ~ empty ~]
-   * [!DNL ~Empty~]
+| Bestands-SKU (eVar8) | Lagerbestandsname | Bestandskategorie |
+| --- | --- | --- |
+| 857467 | V-Nacken-Pullover | Damenbekleidung |
+| 948203 | Armband | Schmuck |
+| 174391 | Weiße korduroide Hose | `~deletekey~` |
 
-* Werte in der Schlüsselspalte können nicht gelöscht werden. Diese Daten werden direkt an die Berichterstellung übergeben und sind dauerhaft.
-* Wenn Sie einen Classification-Wert entfernen, der Unter-Classifications enthält, werden diese ebenfalls entfernt. Classifications können nicht ohne Schlüsselwert bestehen, und die übergeordnete Classification ist der Schlüsselwert für eine Unter-Classification.
+Durch Verwendung `~deletekey~` unter der Classification der Lagerbestandskategorie werden alle Classification-Daten für den Schlüsselwert gelöscht `174391`. Es wird so, als ob die Zeile nie klassifiziert wurde.
+
+## Fallstricke und Tipps
+
+* Bei Verwendung `~deletekey~`benötigen Sie nur eine Zeile in einer Classification-Datei.
+* `~empty~` und `~deletekey~` muss *exakt* übereinstimmen. Leerzeichen oder Groß-/Kleinschreibung sind nicht zulässig.
+* Werte in der Schlüsselspalte können nicht gelöscht werden. Diese Werte werden direkt in die Variable übergeben und sind dauerhaft.
+* Wenn Sie einen Classification-Wert mit Unterklassifizierungen entfernen, werden diese Unterklassifizierungen ebenfalls entfernt. Classifications können nicht ohne Schlüsselwert bestehen, und die übergeordnete Classification ist der Schlüsselwert für eine Unter-Classification.
 * Sie können die Unter-Classificationsdaten entfernen, wobei die übergeordnete Classification intakt bleibt.
-
