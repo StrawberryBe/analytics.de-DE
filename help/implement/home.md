@@ -2,7 +2,7 @@
 title: Analytics für Mobilgeräte implementieren
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Analytics für Mobilgeräte implementieren
 
 ![Banner](../../assets/doc_banner_implement.png)
-
-Informationen zur Implementierung von Analytics für Mobilgeräte finden Sie in der folgenden Liste von SDK-Repositorys und -Dokumentation:
-
-Experience Platform SDKs
-
-
-Experience Platform SDKs
-
-Dokumentation zum Experience Platform SDK
-
-4.x-SDKs:
-
-4.x SDK-Dokumentation
-
-3.x SDK-Dokumentation: Obwohl 3.x Analytics-SDKs für Mobilgeräte nicht mehr unterstützt werden, können Sie die folgende Dokumentation aufrufen:
-
-
-
-
 
 
 * **Adobe Experience Platform Launch:** Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics. Platzieren Sie ein Loader-Tag auf jeder Seite und definieren Sie die einzelnen Variablen über die Benutzeroberfläche von Launch.
