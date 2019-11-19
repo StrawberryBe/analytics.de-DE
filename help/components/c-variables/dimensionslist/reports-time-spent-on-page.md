@@ -2,9 +2,9 @@
 description: Zeigt den Zeitraum an, den Besucher auf der Seite verbringen.
 solution: Analytics
 title: Besuchszeit pro Seite
-topic: Berichte
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ Die auf der Seite verbrachte Zeit misst die verstrichene Zeit zwischen Treffern 
 
 Diese Dimension basiert auf Treffern, die bei Verwendung als Aufschlüsselung aussagekräftigere Daten liefern können. Vergleichen Sie diese Dimension mit der [Besuchszeit pro Besuch](reports-time-spent-per-visit.md), einer besuchsbasierten Dimension.
 
-![Besuchszeit](assets/time-spent1.png)
+![Besuchszeit](/help/components/c-variables/c-metrics/assets/time-spent1.png)
