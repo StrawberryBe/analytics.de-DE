@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** Absprung: Ein Besuch, der aus einem einzelnen Treffer besteht. Siehe [Absprünge](/help/components/c-variables/c-metrics/metrics-bounces.md) im Komponenten-Benutzerhandbuch. Siehe auch Einzelzugriff.
 * **** Berechnete Metrik: Ermöglicht die Kombination vorhandener Metriken, statistischer Funktionen und Formeln zur Verwendung in Berichten. Siehe [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) im Komponenten-Benutzerhandbuch.
 * **** Kampagne: Kann auf Folgendes verweisen:
-   * Die Kampagnenvariable, die die Dimension "Rückverfolgungscode"ausfüllt. Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
+   * Die Kampagnenvariable, die die Dimension "Rückverfolgungscode"ausfüllt. Siehe [Seitenvariablen](/help/implement/js-implementation/page-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
    * eine Standardklassifizierung der Dimension "Trackingcode"; automatisch für alle Report Suites erstellt.
    * Adobe Campaign, Teil der Adobe Experience Cloud. Weitere Informationen zu [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Kanal: Kann auf Folgendes verweisen:
-   * Die Kanalvariable, die die Dimension "Sitebereiche"füllt. Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
+   * Die Kanalvariable, die die Dimension "Sitebereiche"füllt. Siehe [Seitenvariablen](/help/implement/js-implementation/page-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
    * Marketingkanäle, eine Komponente, die veranschaulicht, wie Benutzer zu Ihrer Site gelangen. Siehe [Marketingkanäle](/help/components/c-marketing-channels/c-overview.md) im Komponenten-Benutzerhandbuch.
 * **** Klassifizierung: Eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionswerten ermöglicht. Siehe [Klassifizierungen](/help/components/c-classifications2/c-classifications.md) im Komponenten-Benutzerhandbuch.
 * **** ClickMap: Nicht mehr verwendet. Ein älteres Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
@@ -65,8 +65,8 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** KPI: Abkürzung für wichtige Leistungsindikatoren. Metriken, die einem Unternehmen helfen, die Leistung seiner Site zu verstehen. Jede Organisation verfügt über unterschiedliche KPIs, die verschiedene Aspekte ihres Geschäfts messen. Siehe [Erstellen eines Lösungsdesigndokuments](/help/implement/prepare/solution-design.md) im Implementierungs-Benutzerhandbuch.
 * **** Latenz: Die Verzögerung zwischen der Datenerfassung und der Verfügbarkeit in Berichten. Die typische Latenz in einer Report Suite beträgt 30-90 Minuten. Siehe [Latenzzeit](/help/technotes/latency.md) im Technotes-Benutzerhandbuch.
 * **** Start: Abgesehen von Adobe Experience Platform Launch, der aktuellen Implementierungslösung von Adobe. Siehe [Übersicht](https://docs.adobe.com/content/help/en/launch/using/overview.html) im Benutzerhandbuch zum Starten der Adobe Experience Platform.
-* **** Listen-Prop: Eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerdefinierte Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
-* **** List var: Eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Eine Organisation kann nur drei Listenvariablen verwenden. Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
+* **** Listen-Prop: Eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerdefinierte Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Seitenvariablen](/help/implement/js-implementation/page-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
+* **** List var: Eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Eine Organisation kann nur drei Listenvariablen verwenden. Siehe [Seitenvariablen](/help/implement/js-implementation/page-variables/page-variables.md) im Benutzerhandbuch "Implementierung".
 * **** Anmeldeunternehmen: Eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Unternehmen verfügen über mehrere Anmeldeunternehmen, die für verschiedene Bereiche ihres Unternehmens gelten.
 * **** Marketingkanal: Eine Funktion in Adobe Analytics, die Treffer nach der Ankunft auf Ihrer Site kategorisiert. Die zur Kategorisierung von Treffern verwendete Logik kann mithilfe von Marketingkanal-Verarbeitungsregeln angepasst werden. Siehe [Erste Schritte mit Marketingkanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Komponenten-Benutzerhandbuch.
 * **** Metrik: Ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension ist normalerweise ihr Gegenstück.
