@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -84,7 +84,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wo kann ich diese Dimensionen in Analytics verwenden?</b> </p> </td> 
-   <td colname="col2"> <p>Fast überall; sie werden wie jede andere in Analytics erfasste Dimension behandelt. Es gibt zwei Ausnahmen: Vorerst gibt es keine Daten in Data Workbench oder Livestream. </p> </td> 
+   <td colname="col2"> <p>Fast überall; sie werden wie jede andere in Analytics erfasste Dimension behandelt. Es gibt eine Ausnahme: Daten befinden sich derzeit nicht in Data Workbench. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Warum werden in Analytics keine Daten angezeigt?</b> </p> </td> 
