@@ -1,12 +1,13 @@
 ---
 description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
-keywords: Analytics-Implementierung
+keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
+
 
 
 # s.useForcedLinkTracking
@@ -22,9 +23,8 @@ In JavaScript H.25.4 (im Februar 2013 veröffentlicht) wurden die folgenden Eins
 * The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
-Standardwert = true
+Standardwert = `true`
 
 ## Beispiel
 
 `s.useForcedLinkTracking = false`
-
