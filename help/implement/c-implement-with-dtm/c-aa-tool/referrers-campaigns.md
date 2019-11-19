@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referrer und Kampagnen
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -26,11 +26,11 @@ Beschreibung der Felder des [!UICONTROL Dynamic Tag Managements] für Referrer- 
  <tbody> 
   <tr> 
    <td colname="col1"> Verweisende Stelle überschreiben </td> 
-   <td colname="col2"> <p>Überschreibt den Wert, der in der Variable <span class="varname">s.referrer</span> festgelegt ist, die normalerweise mit dem im Browser festgelegten Referrer aufgefüllt ist. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/page-variables.md">Seitenvariablen</a>. </p> </td> 
+   <td colname="col2"> <p>Überschreibt den Wert, der in der Variable <span class="varname">s.referrer</span> festgelegt ist, die normalerweise mit dem im Browser festgelegten Referrer aufgefüllt ist. </p> <p>Siehe <a href="/help/implement/js-implementation/page-variables/page-variables.md">Seitenvariablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Kampagne </td> 
-   <td colname="col2"> <p>Eine Variable, die Marketing-Kampagnen kennzeichnet, über die Besucher zu Ihrer Website gelangen. Der Wert einer Kampagne wird normalerweise einem Abfragezeichenfolgen-Parameter entnommen. </p> <p>See [<a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>Eine Variable, die Marketing-Kampagnen kennzeichnet, über die Besucher zu Ihrer Website gelangen. Der Wert einer Kampagne wird normalerweise einem Abfragezeichenfolgen-Parameter entnommen. </p> <p>See [<a href="/help/implement/js-implementation/page-variables/campaign.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
