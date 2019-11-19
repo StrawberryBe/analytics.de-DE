@@ -5,7 +5,7 @@ title: Trackingcodes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen K
 
 **Allgemeine Eigenschaften**
 
-* Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen [„s.campaign“](/help/implement/js-implementation/c-variables/page-variables.md) auf.
+* Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen [„s.campaign“](/help/implement/js-implementation/page-variables/page-variables.md) auf.
 * Die Variable, auf der dieser Bericht basiert, ist eine [Konversionsvariable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Das heißt, sie kann über die Seitenansicht hinaus bestehen und innerhalb des angegebenen Ablaufzeitraums Metriken zugeordnet werden.
 * Umsatz ist die Standardmetrik des Berichts. Sie können diesen Standardwert im [!UICONTROL Report Suite Manager] in den [!UICONTROL Admin Tools] ändern. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
