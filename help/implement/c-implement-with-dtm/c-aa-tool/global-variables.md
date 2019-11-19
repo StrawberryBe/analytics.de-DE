@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Globale Variablen
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -22,7 +22,7 @@ Diese Variablen werden bei allen Seitenladeregel-Beacons ausgelöst. Den gleiche
 
 | Element | Beschreibung |
 |--- |--- |
-| Server | Diese vordefinierte Variable füllt die Server-Dimension in Adobe Analytics aus. Siehe [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md) |
-| eVars | Die [eVar-Variablen](/help/implement/js-implementation/c-variables/page-variables.md) dienen zum Erstellen benutzerdefinierter Konversionsberichte. |
-| Props | [Prop-Variablen](/help/implement/js-implementation/c-variables/page-variables.md) werden zum Erstellen benutzerdefinierter Traffic-Berichte verwendet. |
-| Dynamisches Variablenpräfix | Ein spezielles Präfix am Anfang des Werts. Das Standard-Präfix ist „D=“. Siehe [Dynamische Variablen](/help/implement/js-implementation/c-variables/dynvars-overview.md) |
+| Server | Diese vordefinierte Variable füllt die Server-Dimension in Adobe Analytics aus. Siehe [Seitenvariablen](/help/implement/js-implementation/page-variables/page-variables.md) |
+| eVars | Die [eVar-Variablen](/help/implement/js-implementation/page-variables/evarn.md) dienen zum Erstellen benutzerdefinierter Konversionsberichte. |
+| Props | [Prop-Variablen](/help/implement/js-implementation/page-variables/propn.md) werden zum Erstellen benutzerdefinierter Traffic-Berichte verwendet. |
+| Dynamisches Variablenpräfix | Ein spezielles Präfix am Anfang des Werts. Das Standard-Präfix ist „D=“. Siehe [Dynamische Variablen](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
