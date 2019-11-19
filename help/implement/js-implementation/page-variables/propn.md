@@ -7,14 +7,14 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
 
 # propN
 
-Mithilfe von Eigenschaftsvariablen ([!UICONTROL props]) werden benutzerdefinierte Berichte im [!UICONTROL Datenverkehrmodul] erstellt.
+Mithilfe von (`prop`)-Eigenschaftsvariablen werden benutzerdefinierte Berichte im Traffic-Modul erstellt.
 
 <!-- 
 
@@ -28,7 +28,7 @@ Eigenschaftsvariablen können als Zähler verwendet werden (um zu zählen, wie o
 |---|---|---|---|
 | 100 Byte | c1 - c75 | Benutzerspezifischer Traffic | "" |
 
-**Syntax und mögliche Werte** {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**Syntax und mögliche Werte**
 
 ```js
 s.propN="value"
@@ -36,7 +36,7 @@ s.propN="value"
 
 Für [!UICONTROL Eigenschafts]variablen gelten die gleichen Einschränkungen wie für alle normalen Variablen.
 
-**Beispiele** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**Beispiele**
 
 ```js
 s.prop2="editorial" 
@@ -46,6 +46,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**Konfigurationseinstellungen** {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**Konfigurationseinstellungen**
 
-Wenden Sie sich an den Adobe-Kundendienst, wenn Sie Fragen zu [!UICONTROL Besuchs]-, [!UICONTROL Besucher]- und [!UICONTROL Pfad]metriken bei [!UICONTROL Eigenschaft]svariablen haben.
+Contact Adobe Customer Care about showing Visit, Visitor, and Path metrics for `prop` variables.
