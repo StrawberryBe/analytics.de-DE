@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **Zu beachten**
 
-* Listen-Props sind nur für Traffic-Variablen ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
+* Listen-Props sind nur für Traffic-Variablen ( [props](/help/implement/js-implementation/page-variables/propn.md)).
 * Die Pathing-Funktion und Korrelationen können bei Listen-Props nicht aktiviert werden.
 * Analytics gibt Besuche und Unique Visitors in fast jedem Bericht an (inklusive aller Listen-Props-Berichte).
 * Für Listen-Props werden Classifications unterstützt.
-* Jede benutzerspezifische Traffic-Variable kann zu einer Listen-Prop werden. (Ausnahmen: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md) und [server](/help/implement/js-implementation/c-variables/page-variables.md).)
+* Jede benutzerspezifische Traffic-Variable kann zu einer Listen-Prop werden. (Ausnahmen: [pageName](/help/implement/js-implementation/page-variables/pagename.md), [channel](/help/implement/js-implementation/page-variables/channel.md) und [server](/help/implement/js-implementation/page-variables/server.md).)
 
 * Wenn in einer Bildanforderung Werte doppelt definiert sind, werden Instanzen nicht dedupliziert.
 
 Ein Prop kann auf der Seite „Admin Tools &gt; Report Suite &gt; Traffic-Variablen“ in ein Listen-Prop umgewandelt werden, indem Sie die Listenunterstützung aktivieren und anschließend ein Trennzeichen auswählen. Häufig verwendete Trennzeichen sind: Doppelpunkt, Semikolon, Komma oder senkrechter Strich (Pipe). Als Trennzeichen können grundsätzlich die ersten 127 ASCII-Zeichen verwendet werden.
 
-**Implementierungsbeispiele** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**Implementierungsbeispiele**
 
 Wenn Sie eine Aktivierung von Listen-Props anfordern, müssen Sie das Trennzeichen angeben, das Sie verwenden möchten. Nach Aktivierung der gewünschten *`s.prop`* können mehrere Werte in der Variable – wie in den folgenden Beispielen gezeigt – festgelegt werden:
 
