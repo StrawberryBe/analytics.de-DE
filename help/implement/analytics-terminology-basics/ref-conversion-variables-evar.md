@@ -6,7 +6,7 @@ title: Konversionsvariablen (eVars)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -29,14 +29,14 @@ Eine eVar kann auf Besuchen basieren und ähnlich wie Cookies funktionieren. In 
 
 Wenn eine eVar auf einen Wert für einen Besucher gesetzt wird, merkt Adobe sich automatisch diesen Wert, bis er abläuft. Jedes Erfolgsereignis, das beim Besucher während der eVar-Aktivität eintritt, wird für den eVar-Wert gezählt.
 
-> [!NOTE] Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](/help/implement/js-implementation/c-variables/page-variables.md).
+> [!NOTE] Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](/help/implement/js-implementation/page-variables/listvariable.md).
 
 Weitere Informationen zu Variablen finden Sie unter:
 
 * [Variablen für die Analytics-Implementierung und -Berichte](/help/implement/js-implementation/c-variables/sc-variables.md) in dieser Hilfe
 * [Variablen – Verwendung in den Berichten](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [Seitenvariablen](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Kampagnenvariable](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variable „products“](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Seitenvariablen](/help/implement/js-implementation/page-variables/page-variables.md)
+* [Kampagnenvariable](/help/implement/js-implementation/page-variables/campaign.md)
+* [Variable „products“](/help/implement/js-implementation/page-variables/products.md)
 * [Variable „products“](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) in der Dokumentation zum mobilen SDK
 
