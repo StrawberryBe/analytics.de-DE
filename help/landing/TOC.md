@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics-Dokumentation
-user-guide-url: /content/help/de-DE/analytics/landing/home.html
+user-guide-title: Analytics Documentation
+user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: e95673ff669b395ce942d6a0ccd644221c3d9381
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 * [Integrationshandbuch](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
 * [Handbuch zu Medienanalysen](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench-Handbuch](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+* [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 
 * [Dokumentation – Aktualisierungen](doc-updates.md)
 * [Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
