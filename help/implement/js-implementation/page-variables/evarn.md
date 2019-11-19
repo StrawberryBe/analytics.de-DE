@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -26,11 +26,11 @@ Wenn in einer eVar ein Wert für einen Benutzer festgelegt ist, bleibt dieser We
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| 255 Byte | V1-v75 ( [oder v100 oder v250](/help/implement/js-implementation/c-variables/page-variables.md)) | Benutzerspezifische Konversion | "" |
+| 255 Byte | V1-v75 ( [oder v100 oder v250](/help/implement/js-implementation/page-variables/page-variables.md)) | Benutzerspezifische Konversion | "" |
 
-**Ablauf** {#section_6DB5882B960D4660AE248B91B76883C4}
+**Ablauf**
 
-[!UICONTROL eVars] laufen nach dem von Ihnen festgelegten Zeitraum ab. Nach dem Ablauf werden in der eVar keine Erfolgsereignisse mehr gezählt. eVars können auch so konfiguriert werden, dass sie bei Erfolgsereignissen ablaufen. Beispiel: Wenn Sie eine interne Werbeaktion haben, die am Ende eines Besuchs abläuft, werden für diese interne Werbeaktionen nur Einkäufe oder Registrierungen gezählt, die während des Besuchs erfolgten, in der sie aktiviert wurde.
+`eVars` laufen nach dem von Ihnen festgelegten Zeitraum ab. Nach dem Ablauf werden in der eVar keine Erfolgsereignisse mehr gezählt. eVars können auch so konfiguriert werden, dass sie bei Erfolgsereignissen ablaufen. Beispiel: Wenn Sie eine interne Werbeaktion haben, die am Ende eines Besuchs abläuft, werden für diese interne Werbeaktionen nur Einkäufe oder Registrierungen gezählt, die während des Besuchs erfolgten, in der sie aktiviert wurde.
 
 Es gibt zwei Möglichkeiten für den Ablauf einer eVar:
 
@@ -39,21 +39,21 @@ Es gibt zwei Möglichkeiten für den Ablauf einer eVar:
 
 Wenn zum Beispiel eine eVar im Mai dazu dienen soll, interne Werbeaktionen widerzuspiegeln (wobei sie nach 21 Tagen ablaufen soll) und im Juni dann eingesetzt wird, um interne Keywords zu erfassen, müssen Sie am 1. Juni ihren Ablauf erzwingen oder die Variable zurücksetzen. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
 
-**Groß-/Kleinschreibung** {#section_6E9145B7FCC2438E95BB35AAE3857412}
+**Groß-/Kleinschreibung**
 
 Bei eVars wird zwischen Groß- und Kleinschreibung unterschieden, sie werden jedoch in der Schreibweise angezeigt, die sie an der ersten Stelle ihres Auftretens hatten. Beispiel: Wenn eVar1 bei der ersten Instanz den Wert „Angemeldet“ enthält, in den darauf folgenden Instanzen jedoch „angemeldet“ heißt, wird in Berichten immer „Angemeldet“ als Wert von eVar angezeigt.
 
-**Zähler** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**Zähler**
 
 Während eVars meist zur Speicherung von Zeichenfolgenwerten dienen, können sie auch so konfiguriert werden, dass sie als Zähler funktionieren. Als Zähler sind eVars dann nützlich, wenn Sie die Anzahl von Aktionen zählen möchten, die ein Benutzer vor einem Ereignis durchführt. So können Sie eine eVar beispielsweise einsetzen, um die Anzahl der internen Suchvorgänge vor einem Kauf zu zählen. Sobald ein Besucher eine Suche durchführt, wird der Wert der eVar um 1 erhöht. Wenn ein Besucher vier Suchen durchführt, bevor er einen Einkauf tätigt, wird Ihnen zu jeder Instanz eine Zählersumme angezeigt (1,00, 2,00, 3,00 und 4.00). Für das Kaufereignis wird jedoch nur die 4,00 gutgeschrieben (Bestellungen und Umsatz). Als Werte für eVar-Zähler sind nur positive Zahlen erlaubt.
 
-**Subrelationen** {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
+**Subrelationen**
 
-Eine gängige Anforderung an Berichte mit [!UICONTROL benutzerdefinierten eVars] besteht darin, dass ein [!UICONTROL benutzerdefinierter eVar]-Bericht nach einem anderen Bericht weiter aufgeschlüsselt werden kann. Wenn zum Beispiel eine eVar das Geschlecht und eine andere das Gehalt enthält, könnten Sie vielleicht die folgende Frage stellen: Wie viel Umsätze haben weibliche Besucher auf meiner Site getätigt, deren jährliches Einkommen mehr als 50.000 EUR beträgt? Aufschlüsselungen dieser Art sind mit allen eVars möglich, die vollständig miteinander verknüpft werden können. Beispiel: Wenn bei der eVar für das Geschlecht vollständige Subrelationen aktiviert sind, können alle anderen Berichte mit benutzerdefinierten eVars nach dem Geschlecht aufgeschlüsselt werden (und umgekehrt, d. h., das Geschlecht kann nach allen weiteren Aspekten, die in anderen eVar-Berichten aufgeführt sind, aufgeschlüsselt werden). Damit die Beziehung zwischen zwei Berichten angezeigt wird, müssen nur bei einem der beiden Berichte vollständige Subrelationen aktiviert sein. In der Standardeinstellung sind bei den Berichten [!UICONTROL Kampagnen], [!UICONTROL Produkte] und [!UICONTROL Kategorie] vollständige Subrelationen aktiviert (d. h., jede beliebige eVar kann nach der Kampagne oder nach Produkten weiter aufgeschlüsselt werden).
+Eine gängige Anforderung an Berichte mit benutzerdefinierten eVars besteht darin, dass ein benutzerdefinierter eVar-Bericht nach einem anderen Bericht weiter aufgeschlüsselt werden kann. Wenn zum Beispiel eine eVar das Geschlecht und eine andere das Gehalt enthält, könnten Sie vielleicht die folgende Frage stellen: Wie viel Umsätze haben weibliche Besucher auf meiner Site getätigt, deren jährliches Einkommen mehr als 50.000 EUR beträgt? Aufschlüsselungen dieser Art sind mit allen eVars möglich, die vollständig miteinander verknüpft werden können. Beispiel: Wenn bei der eVar für das Geschlecht vollständige Subrelationen aktiviert sind, können alle anderen Berichte mit benutzerdefinierten eVars nach dem Geschlecht aufgeschlüsselt werden (und umgekehrt, d. h., das Geschlecht kann nach allen weiteren Aspekten, die in anderen eVar-Berichten aufgeführt sind, aufgeschlüsselt werden). Damit die Beziehung zwischen zwei Berichten angezeigt wird, müssen nur bei einem der beiden Berichte vollständige Subrelationen aktiviert sein. Standardmäßig sind die Berichte "Kampagne", "Produkte"und "Kategorie"vollständig untergeordnet (jede eVar kann nach Kampagne oder Produkten aufgeschlüsselt werden).
 
-**Syntax und mögliche Werte** {#section_BD46438B14F3488FB9AC42994C317B06}
+**Syntax und mögliche Werte**
 
-Auch wenn eVars umbenannt werden dürfen, sollten Verweise auf eVars in der JavaScript-Datei immer in der Form „eVarX“ erfolgen, wobei X eine Zahl zwischen 1 und 75 ist ([oder 100 oder 250](/help/implement/js-implementation/c-variables/page-variables.md)).
+Auch wenn eVars umbenannt werden dürfen, sollten Verweise auf eVars in der JavaScript-Datei immer in der Form „eVarX“ erfolgen, wobei X eine Zahl zwischen 1 und 75 ist ([oder 100 oder 250](/help/implement/js-implementation/page-variables/page-variables.md)).
 
 ```js
 s.eVarX="value"
@@ -61,7 +61,7 @@ s.eVarX="value"
 
 Außer beim Einsatz als Zähler gelten für eVars die gleichen Einschränkungen wie für alle anderen Variablen. In eVars, die als Zähler dienen, werden numerische Werte erwartet (z. B. „1“ oder „2,5“) Wenn mehr als zwei Dezimalstellen angegeben sind, wird die Zähler-eVar auf zwei Dezimalstellen gerundet. Negative Zahlen sind in Zähler-eVar nicht erlaubt.
 
-**Beispiele** {#section_B37F4B0D56734DA3AB02BB218825BA4E}
+**Beispiele**
 
 ```js
 s.eVar1="logged in"
@@ -71,9 +71,9 @@ s.eVar1="logged in"
 s.eVar23="internal spring promo 4"
 ```
 
-**Konfigurationseinstellungen** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
+**Konfigurationseinstellungen**
 
-eVars können unter [!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; Einstellungen bearbeiten &gt; Konversion &gt; Konversionsvariablen] konfiguriert werden. Bei allen eVars können [!UICONTROL Name], [!UICONTROL Typ], [!UICONTROL Zuordnung], [!UICONTROL Läuft ab nach] und [!UICONTROL Zurücksetzen] konfiguriert werden. Jede Konfigurationseinstellung wird separat vorgenommen.
+eVars können unter Analytics &gt; Admin &gt; Report Suites &gt; Einstellungen bearbeiten &gt; Konversion &gt; Konversionsvariablen konfiguriert werden]. Bei allen eVars können Name, Typ, Zuordnung, Läuft ab nach und Zurücksetzen konfiguriert werden. Jede Konfigurationseinstellung wird separat vorgenommen.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -106,7 +106,7 @@ eVars können unter [!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; Ein
  </tbody> 
 </table>
 
-**Probleme, Fragen und Tipps** {#section_DA6912C802E445F986C6DE4234C6C737}
+**Probleme, Fragen und Tipps**
 
 * Im Unterschied zu [!UICONTROL Eigenschaftsvariablen] dürfen eVars keine Listen aus getrennten Werten sein. Wenn Sie in einer eVar eine Liste mit Werten eintragen (z. B. „Eins,Zwei,Drei“), wird als Wert exakt diese Zeichenfolge in Berichten angezeigt.
 * Negative Zahlen sind in Zähler-eVar nicht erlaubt.
