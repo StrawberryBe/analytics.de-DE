@@ -7,7 +7,7 @@ title: Übersicht über Variablen
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. So ist zum Beispiel der Wert der Variablen „pageName“ der Name der Webseite, auf die sich der Bericht bezieht. In diesem Abschnitt werden die Variablen aufgeführt, die von AppMeasurement unterstützt werden.
 
-Weitere Informationen zu Seitenvariablen finden Sie [hier](/help/implement/js-implementation/c-variables/page-variables.md).
+Weitere Informationen zu Seitenvariablen finden Sie [hier](/help/implement/js-implementation/page-variables/page-variables.md).
 Weitere Informationen zu Konfigurationsvariablen finden Sie [hier](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
-## Festlegen von Variablen {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## Festlegen von Variablen
 
 Für AppMeasurement müssen alle Konfigurationsvariablen vor dem ersten Aufruf der Tracking-Funktion *`t()`* festgelegt werden. Wenn Konfigurationsvariablen nach dem Aufruf von *`t()`* festgelegt werden, können unerwartete Ergebnisse auftreten.
 
