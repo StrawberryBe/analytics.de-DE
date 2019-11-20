@@ -1,11 +1,10 @@
 ---
 description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
-keywords: Analytics-Implementierung
-seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
+keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
 translation-type: tm+mt
-source-git-commit: 82060388a9a2122b66c57725cafa0eb4ce54e147
+source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
 
 ---
 
