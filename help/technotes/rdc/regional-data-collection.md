@@ -2,7 +2,7 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -20,7 +20,6 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 | RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
 | Standardeinstellung | San Jose, Virginia, London, Singapur, Hongkong, Sydney, Amsterdam |
-| Nur China | Peking |
 
 Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
 
