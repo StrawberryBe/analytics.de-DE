@@ -4,7 +4,7 @@ solution: Analytics
 title: Besuchszeit
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. Bei Metriken zur Besuchszeit auf Trefferebene handelt es sich um Sequenzen. Eine Sequenz ist ein Satz aufeinanderfolgender Treffer, in dem eine beliebige Variable denselben Wert enthält (egal, ob festgelegt, nach vorne verteilt oder permanent gespeichert). "Weitergeben"bezieht sich auf die Persistenz von Props zwischen Seitenansichten (d. h. über nachfolgende Link-Ereignisse) zum Zwecke der Berechnung der Besuchszeit.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * Absprung- und Abbruchtreffer werden auch aus dem Nenner entfernt, da die "Besuchszeit"nicht bekannt ist.
 
 ## Häufig gestellte Fragen (FAQ)
 
-**Q1: Können alle "Besuchszeit"-Metriken auf eine Dimension angewendet werden?** A: Die Metriken zur "Besuchszeit"können auf beliebige Dimensionen angewendet werden:
+**Q1: Können alle "Besuchszeit"-Metriken auf eine Dimension angewendet werden?**
+
+A: Die Metriken zur "Besuchszeit"können auf beliebige Dimensionen angewendet werden:
 
 * [!UICONTROL Gesamtbesuchszeit in Sekunden]
 
@@ -62,16 +64,22 @@ The **denominator** is not available as a separate metric in Adobe Analytics. Be
 
 * [!UICONTROL Durchschnittliche Besuchszeit pro Site] (Sekunden)
 
-**Q2: Welche Besuchszeit-Dimension wird am besten bei Aufschlüsselungen mit anderen Dimensionen verwendet?** A: Die Dimension " [!UICONTROL Besuchszeit pro Seite - granular] "ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckte, von dem auch die Aufschlüsselungsdimension betroffen war.
+**Q2: Welche Besuchszeit-Dimension wird am besten bei Aufschlüsselungen mit anderen Dimensionen verwendet?**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckte, von dem auch die Aufschlüsselungsdimension betroffen war.
 Im Beispiel unten wird der Suchbegriff "klassifiziert"mit Trefferzeiten von 54 Sekunden, 59 Sekunden usw. verknüpft. Dies zeigt möglicherweise an, dass Besucher Zeit mit dem Lesen von Inhalten verbringen, die für diesen Begriff zurückgegeben wurden.
 
 ![](assets/time-spent1.png)
 
-**Q3: Welche Metrik eignet sich für die Dimension "[!UICONTROL Besuchszeit pro Seite - granular]"?** A: Jede Metrik. Die Dimension zeigt die Zeit, die für den exakten Treffer, bei dem das Ereignis auftrat, verbracht wurde. Eine längere Besuchszeit bedeutet, dass ein Besucher mehr Zeit auf einer Seite (Treffer) verbracht hat, auf der es zu dem Ereignis kam.
+**Q3: Welche Metrik eignet sich für die Dimension "[!UICONTROL Besuchszeit pro Seite - granular]"?**
+
+A: Jede Metrik. Die Dimension zeigt die Zeit, die für den exakten Treffer, bei dem das Ereignis auftrat, verbracht wurde. Eine längere Besuchszeit bedeutet, dass ein Besucher mehr Zeit auf einer Seite (Treffer) verbracht hat, auf der es zu dem Ereignis kam.
 
 ![](assets/time-spent2.png)
 
-**4. Quartal: Wie unterscheidet sich die[!UICONTROL durchschnittliche Besuchszeit pro Site]von der[!UICONTROL Zeit pro Besuch]?** A: Die Differenz ist der Nenner in der Metrik:
+**4. Quartal: Wie unterscheidet sich die[!UICONTROL durchschnittliche Besuchszeit pro Site]von der[!UICONTROL Zeit pro Besuch]?**
+
+A: Die Differenz ist der Nenner in der Metrik:
 
 * [!UICONTROL Die durchschnittliche Besuchszeit pro Site] verwendet die Sequenzen, die ein Dimensionselement enthalten.
 
@@ -88,7 +96,7 @@ Angenommen, der folgende Satz von Server-Aufrufen gilt für einen einzigen Besuc
 | **Verstrichene Zeit des Besuchs (in Sekunden)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Besuchszeit in Sekunden** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Treffertyp** | Seite | Link | Seite | Seite | Seite | Seite | Seite |
-| **Seitenname** | Startseite | - | Produkt | Home | Home (neu laden) | Korb | Oder-Bestätigung |
+| **Seitenname** | Startseite | - | Produkt | Home | Home (neu laden) | Korb | Bestellungsbestätigung |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (festgelegt) | A (Spread forward) | nicht festgelegt | B (Set) | B (Set) | A(festgelegt) | C (festgelegt) |
 | **prop1 – Besuchszeit in Sekunden** | 30 | 50 | - | 10 | 40 | 60 | - |
