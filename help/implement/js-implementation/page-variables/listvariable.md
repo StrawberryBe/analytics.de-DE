@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # Listenvariable
 
 Wird auch als „List Var“ bezeichnet. Ähnlich wie bei Listen-Props sind bei Listenvariablen mehrere Werte in derselben Bildanforderung möglich. Sie funktionieren auch ähnlich wie eVars, die über die Bildanforderung hinaus erhalten bleiben, für die sie definiert wurden. Sie können mit diesen Variablen bei vielen Elementen auf einer einzelnen Seite Ursache und Wirkung erkennen (z. B. bei Produktlisten, Wunschlisten, Listen mit Sucheinschränkungen oder Listen mit Display-Anzeigen).
+
 
 <!-- 
 
