@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # Ereignisse
 
 Die Variable „“ wird zur Aufzeichnung von Erfolgsereignissen normaler Warenkorbvorgänge sowie benutzerspezifischer Erfolgsereignisse verwendet.
+
 
 <!-- 
 
