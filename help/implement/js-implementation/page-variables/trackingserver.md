@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 # trackingServer
 
 Die Variable „“ dient in Erstanbieter-Cookie-Implementierungen zur Angabe der Domäne, in die die Bildanforderung und das Cookie geschrieben werden.
+
 
 <!-- 
 
