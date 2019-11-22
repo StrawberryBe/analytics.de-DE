@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # connectionType
 
 Die Variable „“ in Internet Explorer gibt an, ob der Browser für eine LAN- oder eine Modemverbindung konfiguriert ist.
+
 
 <!-- 
 
