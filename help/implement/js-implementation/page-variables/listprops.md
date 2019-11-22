@@ -7,7 +7,7 @@ title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # Listen-Props
 
 Listen-Props sind eine Liste getrennter Werte, die in einer Variablen übergeben und in Berichten dann als einzelne Zeilenelemente behandelt werden. Listen-Props werden meist auf Seiten implementiert, die vom Benutzer auswählbare Werte enthalten (wie z. B. Artikellisten mit Kontrollkästchen oder Optionsschaltern). Sie sind nützlich, wenn Sie mehrere Werte in einer einzigen Variablen definieren möchten, ohne dass mehrere Bildanforderungen gesendet werden.
+
 
 <!-- 
 
