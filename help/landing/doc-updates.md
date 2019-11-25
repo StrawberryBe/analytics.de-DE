@@ -3,7 +3,7 @@ title: Aktualisierungen der Adobe Analytics-Dokumentation
 description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 811a5d8c8a79d6522173aa1ef77ea9a0af9f8c80
 
 ---
 
@@ -20,7 +20,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
+| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
+| 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analyse](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md) |
 | 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/timestamp-optional.md) |
