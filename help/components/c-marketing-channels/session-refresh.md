@@ -2,7 +2,7 @@
 title: Interner Kanal (Sitzungsaktualisierung)
 description: Lesen Sie mehr über den Kanal "Intern"(Sitzungsaktualisierung).
 translation-type: tm+mt
-source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -42,11 +42,11 @@ Um die Interaktion zwischen First Touch und Last Touch zu verstehen und zu best�
 
 ![](assets/int-channel3.png)
 
-Die Kreuzung, an der "first equals last touch"markiert ist, wird orange hervorgehoben. Sowohl Direct- als auch Session Refresh erhalten nur dann eine Last Touch-Gutschrift, wenn sie auch der First Touch-Kanal sind, da sie keine Gutschrift von anderen beständigen Kanälen erhalten können (hervorgehobene Zeilen in Grau).
+Die Kreuzung, bei der "first equals last touch"steht, wird orange hervorgehoben. Sowohl Direct- als auch Session Refresh erhalten nur dann eine Last Touch-Gutschrift, wenn sie auch der First Touch-Kanal sind, da sie keine Gutschrift von anderen beständigen Kanälen erhalten können (hervorgehobene Zeilen in Grau).
 
 ## Warum wird die Sitzung aktualisiert?
 
-Da wir wissen, dass eine Aktualisierung der Sitzung nur bei einem First Touch-Ereignis erfolgen kann, erläutern die folgenden Szenarien, wie die Sitzungsaktualisierung ein First Touch-Kanal sein könnte.
+Da wir wissen, dass eine Aktualisierung der Sitzung nur bei einem First Touch erfolgen kann, erläutern die Szenarien unten, wie Sitzungsaktualisierung ein First Touch-Kanal sein kann.
 
 ### Szenario 1: Sitzungs-Timeout
 
@@ -58,7 +58,7 @@ Ein Besucher landet auf Seite A, die nicht mit Tags versehen ist, und wechselt d
 
 ### Szenario 3: Umleitungen
 
-Wenn eine Umleitung nicht so eingerichtet ist, dass Daten der verweisenden Stelle an die neue Seite der Landung weitergegeben werden, gehen die Daten der verweisenden Stelle verloren und jetzt erscheint die Umleitungsseite (wahrscheinlich eine interne Seite) als verweisende Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+Wenn eine Umleitung nicht so eingerichtet ist, dass Daten der verweisenden Stelle an die neue Einstiegsseite weitergegeben werden, gehen die Daten der verweisenden Stelle verloren und jetzt erscheint die Umleitungsseite (wahrscheinlich eine interne Seite) als verweisende Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 ### Szenario 4: Domänenübergreifender Traffic
 
