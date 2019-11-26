@@ -2,7 +2,7 @@
 title: Interner Kanal (Sitzungsaktualisierung)
 description: Lesen Sie mehr über den Kanal "Intern"(Sitzungsaktualisierung).
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ Ein Besucher wechselt von einer Domäne, die zu Suite A auslöst, zu einer zweit
 
 ### Szenario 5: Lange Ladezeiten der Einstiegsseite
 
-Ein Besucher landet auf Seite A, die stark belastet ist, und der Adobe Analytics-Code befindet sich im Bot-Kern der Seite. Vor dem Laden des gesamten Symbols (einschließlich Adobe Analytics-Bildanforderung) klickt der Besucher auf Seite B. Seite B löst die Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als verweisende Stelle dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+Ein Besucher landet auf Seite A, die stark mit Inhalt umgeht, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderung) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst die Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als verweisende Stelle dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 ### Szenario 6: Löschen von Cookies mitten auf der Site
 
