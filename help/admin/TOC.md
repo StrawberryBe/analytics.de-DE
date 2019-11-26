@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Administratorhandbuch für Analytics
-user-guide-url: /content/help/de-DE/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Co-Branding](company/co-branding-admin.md)
    + [Report Suites ausblenden](company/c-hide-report-suites.md)
    + [Sicherheits-Manager](company/security-manager.md)
+   + [Ende der Lebensdauer für "IP-Anmeldebeschränkungen erzwingen"](company/login-restrictions-eol.md)
 + Report Suites verwalten {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Datenaggregations-Report-Suites und globale Report Suites](c-manage-report-suites/rollup-report-suite.md)
@@ -161,9 +162,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [E-Mail-Benutzer](user-management2/t-email-users.md)
 + Data Governance {#data-governance}
    + [Adobe Analytics und die DSGVO](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics und CCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics und der CCPA](c-data-governance/an-ccpa-overview.md)
    + [Häufig gestellte Fragen](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics-Arbeitsablauf zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics-Workflow zum Datenschutz](c-data-governance/an-gdpr-workflow.md)
    + [Data Governance-Einstellungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
    + [Report Suite-Daten beschriften](c-data-governance/gdpr-setup-reportsuite.md)
    + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
