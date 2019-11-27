@@ -5,7 +5,7 @@ title: Segmente erstellen
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ Sie können wie folgt auf den Segmentaufbau zugreifen:
    * **[!UICONTROL Behälter aus Auswahl hinzufügen]**: Hiermit erstellen Sie einen neuen Behälter aus den im Feld „Definitionen“ ausgewählten Elementen.
    * **[!UICONTROL Ausschließen]**: Hiermit definieren Sie das Segment, indem Sie eine oder mehrere Dimensionen, Segmente oder Metriken ausschließen.
 
-**[!UICONTROL Zuordnungsmodelle]**: Für Dimensionssegmentierung. Dimensionsmodelle sind besonders bei der sequenziellen Segmentierung nützlich, z. B. bei solchen, die Flussvisualisierungen unterstützen:
+1. **[!UICONTROL Zuordnungsmodelle]**: Für Dimensionssegmentierung. Dimensionsmodelle sind besonders bei der sequenziellen Segmentierung nützlich, z. B. bei solchen, die Flussvisualisierungen unterstützen:
 
-    * **[!UICONTROL Wiederholen]** (Standard): Beinhaltet Instanzen und beständige Werte für die Dimension.
-    * **[!UICONTROL Instanz]**: Beinhaltet Instanzen für die Dimension.
-    * **[!UICONTROL Nicht wiederholende Instanz]**: Umfasst eindeutige Instanzen (nicht wiederholend) für die Dimension.
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL Wiederholen]** (Standard): Beinhaltet Instanzen und beständige Werte für die Dimension.
+   * **[!UICONTROL Instanz]**: Beinhaltet Instanzen für die Dimension.
+   * **[!UICONTROL Nicht wiederholende Instanz]**: Umfasst eindeutige Instanzen (nicht wiederholend) für die Dimension.
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensionen]**: Dimension wird aus der Liste Dimensionen (orange Seitenleiste) gezogen und abgelegt.
 1. **[!UICONTROL Vergleich]**: Sie können Werte mit ausgewählten Operatoren vergleichen und beschränken.
