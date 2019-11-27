@@ -3,7 +3,7 @@ description: Mit der Funktion „Metriken mit Mehrfachanforderungen bearbeiten�
 title: Metriken mit Mehrfachanforderungen bearbeiten
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -14,7 +14,7 @@ Mit der Funktion „Metriken mit Mehrfachanforderungen bearbeiten“ können Sie
 
 ## Add metrics {#section_3FBDA9668039404895059618D70FCBCD}
 
-Bedenken Sie Folgendes:
+Bedenken Sie Folgendes
 
 * Metriken können nur zu Anforderungen des Typs „Pivot-Layout“ hinzugefügt werden. Wenn einige der ausgewählten Anforderungen benutzerdefinierte Layouts sind, können keine Metriken hinzugefügt werden. Der Grund dafür liegt darin, dass ReportBuilder nicht weiß, wo im Arbeitsblatt die neue Metrik hinzugefügt werden soll, da das Layout benutzerdefiniert ist.
 * Deshalb ist die Option **[!UICONTROL Metrik(en) hinzufügen]nicht verfügbar, wenn Sie ausschließlich benutzerdefinierte Layout-Anforderungen ausgewählt haben.**
@@ -32,7 +32,7 @@ So fügen Sie eine oder mehrere Metriken hinzu:
 
 ## Replace metric {#section_D773AAC7B30C4FBEBDB66B203C217818}
 
-Bedenken Sie Folgendes:
+Bedenken Sie Folgendes
 
 * Nur 1:1-Ersetzungen sind erlaubt, nicht aber 1:viele oder viele :1.
 * Wenn die ausgewählte Metrik, die ersetzt werden soll, nicht in einer der ausgewählten Anforderungen vorhanden ist, wird diese Anforderung nicht geändert.
@@ -45,7 +45,7 @@ Bedenken Sie Folgendes:
 
 So ersetzen Sie eine Metrik:
 
-1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten aus]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten aus]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Wählen Sie **[!UICONTROL Metrik ersetzen aus]**.
 
@@ -56,7 +56,7 @@ So ersetzen Sie eine Metrik:
 
 ## Remove metrics {#section_D3CD5BAC7670416593B633B2B8423C60}
 
-Bedenken Sie Folgendes:
+Bedenken Sie Folgendes
 
 * Wenn eine der zum Entfernen ausgewählten Metriken in einer ausgewählten Anforderungen nicht vorhanden ist, wird diese Anforderung nicht geändert.
 * Wenn in einem Pivot-Layout eine Metrik entfernt wird, rücken im Layout die Metriken nach, die hinter der entfernten Metrik stehen.
@@ -65,7 +65,7 @@ Bedenken Sie Folgendes:
 
 So entfernen Sie Metriken:
 
-1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten aus]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten aus]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 
