@@ -2,7 +2,7 @@
 description: 'null'
 title: Beschriftungsbeispiel
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -37,15 +37,15 @@ Wenn Sieh eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in
 | API-Werte | API-Werte | Zurückgegebener Dateityp | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff |
 |--- |--- |--- |---|---|---|---|---|
 | **Namensraum/ID** | **expandIDs** |  | **MyProp1** | **Besucher-ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| AAID=77 | false | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
-| AAID=77 | wahr | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
-| user=Mary | false | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | wahr | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | wahr | Gerät | nicht vorhanden | 77, 88 | nicht vorhanden | N, P | U, W |
-| user=Mary  AAID=66 | wahr | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | wahr | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
-| xyz=X | false | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, R | X |
-| xyz=X | wahr | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, P, R | W, X |
+| AAID=77 | false (falsch) | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
+| AAID=77 | true (wahr) | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
+| user=Mary | false (falsch) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true (wahr) | Gerät | nicht vorhanden | 77, 88 | nicht vorhanden | N, P | U, W |
+| user=Mary AAID=66 | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true (wahr) | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
+| xyz=X | false (falsch) | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, R | X |
+| xyz=X | true (wahr) | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, P, R | W, X |
 
 Beachten Sie, dass die Einstellung für „expandIDs“ keinen Einfluss auf die Ausgabe hat, wenn eine Cookie-ID verwendet wird.
 
