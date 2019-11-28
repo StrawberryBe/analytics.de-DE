@@ -2,7 +2,7 @@
 description: 'null'
 title: DSGVO-Terminologie
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Hauptniederlassung:** der Ort innerhalb der Europäischen Union, an dem der Auftragsverwalter die Hauptentscheidungen zur Datenverarbeitung trifft
 
-**Persönliche Daten** - alle Informationen, die sich auf eine natürliche Person oder eine "betroffene Person"beziehen und die zur direkten oder indirekten Identifizierung der Person verwendet werden können
+**Personenbezogene Daten**: alle Informationen, die eine natürliche Person (das „Datensubjekt“) betreffen und die zur direkten oder indirekten Identifikation dieser Person verwendet werden können
 
 **Verletzung des Schutzes personenbezogener Daten:** eine Verletzung des Datenschutzes, die zum versehentlichen oder ungesetzlichen Zugriff, dem Missbrauch oder der Vernichtung personenbezogener Daten führt
 
