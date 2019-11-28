@@ -2,7 +2,7 @@
 description: Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ihren Report Suites Beschriftungen zu Identität, Vertraulichkeit und Data Governance zuweisen. Machen Sie sich hierzu zunächst mit den Beschriftungen und ihren Definitionen vertraut.
 title: Report Suite-Daten beschriften
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -59,7 +59,7 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
 1. Nachdem Sie sämtliche Beschriftungen abgeschlossen haben, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
-## Beschriftungen zu Report Suite(s) kopieren{#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Beschriftungen zu Report Suite(s) kopieren {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 Wenn Sie DULE-/Datenschutzeinstellungen auf mehr als eine Report Suite anwenden möchten, führen Sie folgende Schritte aus:
 
