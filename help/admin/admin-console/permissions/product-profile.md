@@ -1,54 +1,54 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Produktprofile in Adobe Analytics
 
-Produktprofile sind eine Berechtigungsvorgabe, die Produktadministratoren Benutzern innerhalb einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen sie die im Produktprofil enthaltenen Berechtigungselemente.
+Produktprofile sind eine Berechtigungsvorgabe, die Produktadministratoren Benutzern in einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
 
-See [Manage products and profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in the Enterprise user guide for general information on product profiles.
+Allgemeine Informationen zu Produktprofilen finden Sie unter [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html) im Enterprise-Benutzerhandbuch.
 
 ## Produktprofiladministratoren
 
-Produktprofiladministratoren sind eine optionale Gruppe, die Benutzer diesem Produktprofil hinzufügen oder entfernen kann. Beachten Sie, dass ein Produktprofil-Administrator nicht mit einem Produkt-Admin identisch ist:
+Produktprofiladministratoren sind eine optionale Gruppe, die Benutzer zu diesem Produktprofil hinzufügen oder entfernen kann. Beachten Sie, dass ein Produktprofiladministrator nicht mit einem Produktadministrator identisch ist:
 
-* Produktprofiladministratoren sind nur für die Benutzerliste eines Produktprofils verantwortlich.
-* Produktprofiladministratoren haben keinen vollständigen Zugriff auf Adobe Analytics. Kompletter Zugriff auf Adobe Analytics ist für Produktadministratoren reserviert.
-* Produktprofiladministratoren können Berechtigungselemente in ihrem Produktprofil nicht anpassen; Ein Produktadministrator muss Berechtigungsanpassungen vornehmen.
-* Produktprofiladministratoren sind ideal für Team-Interessenten oder -manager, die einfach den Zugriff auf Adobe Analytics für ihr Team erteilen und verwalten müssen. Personen müssen Systemadministratoren oder Produktadministratoren nicht zur Verfügung stellen, um Zugriff auf Adobe Analytics zu gewähren.
+* Produktprofiladministratoren sind lediglich für die Benutzerliste eines Produktprofils verantwortlich.
+* Produktprofiladministratoren haben keinen vollständigen Zugriff auf Adobe Analytics. Der uneingeschränkte Zugriff auf Adobe Analytics ist Produktadministratoren vorbehalten.
+* Produktprofiladministratoren können Berechtigungselemente in ihrem Produktprofil nicht anpassen. Ein Produktadministrator muss Änderungen an den Berechtigungselementen vornehmen.
+* Produktprofiladministratoren eignen sich ideal für Teamleiter oder Manager, die für ihr Team lediglich Zugriff auf Adobe Analytics gewähren und verwalten müssen. Für Einzelpersonen ist es nicht erforderlich, dass Systemadministratoren oder Produktadministratoren sich die Mühe geben, Zugriff auf Adobe Analytics zu gewähren.
 
-## Berechtigungselemente von Adobe Analytics
+## Adobe Analytics-Berechtigungselemente
 
-Für den Zugriff auf Adobe Analytics sind die erforderlichen Berechtigungen in einem Produktprofil erforderlich:
+Für den Zugriff auf Adobe Analytics sind in einem Produktprofil mindestens folgende Berechtigungen erforderlich:
 
-* Das Produktprofil muss Zugriff auf mindestens eine Report Suite haben.
-* The product profile must belong to the Analytics Tools permission item **Analysis Workspace Access** (or **Reports &amp; Analytics Access**)
+* Das Produktprofil muss Zugriff auf mindestens eine Report Suite haben
+* Das Produktprofil muss zum Berechtigungselement **Zugriff auf Analysis Workspace** (oder **Zugriff auf Reports &amp; Analytics**) in Analytics Tools gehören
 
 ### Report Suites
 
-Gewährt Zugriff auf Report Suites, die zu Ihrer Analytics-Organisation gehören. Ein Benutzer muss mindestens einer Report Suite angehören, um Zugriff auf Adobe Analytics zu erhalten.
+Ermöglicht Zugriff auf Report Suites, die zu Ihrer Organisation in Analytics gehören. Ein Benutzer muss zu mindestens einer Report Suite gehören, um Zugriff auf Adobe Analytics erhalten zu können.
 
 ### Metriken
 
-Gewährt Zugriff auf Metriken in Ihrer Report Suite. Metriken werden als ihre jeweilige Komponente im Analysis Workspace aufgeführt oder wenn die Metrik in Reports &amp; Analysen verfügbar ist, verfügbar als Menüelement unter Site-Metriken.
+Ermöglicht Zugriff auf Metriken in Ihrer Report Suite. Metriken werden als ihre jeweilige Komponente in Analysis Workspace aufgelistet, oder wenn die Metrik in Reports &amp; Analytics verfügbar ist, als Menüpunkt unter „Site-Metriken“.
 
-Benutzerspezifische Metriken sind mit "Benutzerdefiniertes Ereignis 1-1000" gekennzeichnet, um sie von Report Suites unabhängig zu halten. Wenn es sich bei "Benutzerspezifisches Ereignis 1" um ein aktiviertes Berechtigungselement handelt, hat dieser Benutzer Zugriff auf event 1 in allen Report Suites des Produktprofils.
+Benutzerdefinierte Metriken werden als „Benutzerspezifisches Ereignis 1-1000“ bezeichnet, um sie unabhängig von Report Suites zu halten. Wenn „Benutzerspezifisches Ereignis 1“ ein aktiviertes Berechtigungselement ist, hat dieser Benutzer Zugriff auf „event1“ in allen Report Suites des Produktprofils.
 
 ### Dimensionen
 
-Gewährt Zugriff auf Dimensionen in Ihrer Report Suite. Dimensionen werden als ihre jeweilige Komponente im Analysis Workspace oder, falls die Dimension in Reports &amp; Analysen verfügbar ist, als Menüelement aufgeführt.
+Gewährt Zugriff auf Dimensionen in Ihrer Report Suite. Dimensionen werden als ihre jeweilige Komponente in Analysis Workspace aufgelistet, oder wenn die Dimension in Reports &amp; Analytics verfügbar ist, als Menüpunkt.
 
-Benutzerdefinierte Variablen wie evars sind mit "Benutzerspez. Umrechnung 1-250" beschriftet, um sie von Report Suites unabhängig zu halten. Wenn es sich bei "Custom Conversion 1" um ein aktiviertes Berechtigungselement handelt, hat dieser Benutzer Zugriff auf evar 1 in allen Report Suites des Produktprofils.
+Benutzerdefinierte Variablen, wie z. B. eVars, werden als „Benutzerspezifische Konversion 1-250“ bezeichnet, um sie unabhängig von Report Suites zu halten. Wenn „Benutzerspezifische Konversion 1“ ein aktiviertes Berechtigungselement ist, hat dieser Benutzer Zugriff auf „eVar1“ in allen Report Suites des Produktprofils.
 
 ### Report Suite-Tools
 
-Die Berechtigungselemente der Report Suite-Tools gewähren Zugriff auf Funktionen, die für die Report Suites gelten, auf die der Benutzer Zugriff hat. See [Report Suite Tools](report-suite-tools.md) for a full list of permission items and descriptions.
+Die Berechtigungselemente der Report Suite-Tools gewähren Zugriff auf Funktionen, die spezifisch für die Report Suites sind, auf die der Benutzer Zugriff hat. Eine vollständige Liste der Berechtigungselemente und Beschreibungen finden Sie unter [Report Suite-Tools](report-suite-tools.md).
 
 ### Analytics-Tools
 
-Berechtigungselemente von Analytics-Tools gewähren Zugriff auf Funktionen, die unabhängig von den Report Suite-Einstellungen sind. See [Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
+Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, die unabhängig von den Report Suite-Einstellungen sind. Eine vollständige Liste der Berechtigungselemente und Beschreibungen finden Sie unter [Analytics-Tools](analytics-tools.md).
 
-## Entwickler von Produktprofilen
+## Produktprofilentwickler
 
-Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information.
+Entwickler ähneln Benutzern, allerdings können sie die Experience Cloud API auf Adobe I/O verwenden. Weitere Informationen finden Sie unter [Verwalten von Entwicklern](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) im Enterprise-Benutzerhandbuch.
