@@ -5,7 +5,7 @@ solution: Analytics
 title: Fehlerbehebung bei Daten-Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
@@ -38,11 +38,11 @@ Mit AWS kann ein Benutzer aber auch Objekte in einem Bucket erstellen, die einem
 
 Im Fall eines FTP-Übertragungsfehlers (Anmeldung verweigert, Verbindung getrennt, Kontingent überschritten usw.) versucht Adobe automatisch, eine Verbindung herzustellen und sendet die Daten bis zu drei Mal separat. Sollten die Fehler weiterhin bestehen, wird der Feed als fehlgeschlagen markiert und es wird eine E-Mail-Benachrichtigung gesendet.
 
-Im Fall eines Übertragungsfehlers können Sie [einen Auftrag erneut ausführen](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md), bis der Vorgang erfolgreich ausgeführt wird.
+Im Fall eines Übertragungsfehlers können Sie einen Auftrag erneut ausführen, bis der Vorgang erfolgreich ausgeführt wird.
 
 ## Optionen zum erneuten Senden {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, verwenden Sie einfach den Auftrag [erneut](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) , um die Dateien abzurufen.
+Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, führen Sie den Auftrag erneut aus, um die Dateien abzurufen.
 
 ## Auswirkungen der Sommerzeit auf stündliche Datenfeeds {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -56,7 +56,7 @@ Bei DST-&gt; STD-Übergängen ("Fall Back") erhält der Kunde 24 Dateien. Die St
 
 Sie können einen Datenfeed optional so konfigurieren, dass eine Manifestdatei bereitgestellt wird, wenn für einen bestimmten Zeitraum keine Daten erfasst werden. Wenn Sie diese Option aktivieren, erhalten Sie eine Manifestdatei, die folgendem Schema entspricht:
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0
