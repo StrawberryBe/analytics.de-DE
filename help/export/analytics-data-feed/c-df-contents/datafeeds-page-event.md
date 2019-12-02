@@ -6,7 +6,7 @@ title: Seitenereignissuche
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -15,47 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
 
-<table id="table_33AF375E0B41474696D7A4A92C652A5F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Treffertyp </th> 
-   <th colname="col02" class="entry"> Wert „page_event“ </th> 
-   <th colname="col2" class="entry"> Wert „post_page_event“ </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Seitenansichten </td> 
-   <td colname="col02"> identisch mit „post“-Wert </td> 
-   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 für <code> trackState </code>-Aufrufe von mobilen SDKs. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Linktracking  </td> 
-   <td colname="col02"> <p>10 für „Sonstige-Link“ </p> <p>10 für <code> trackAction </code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>11 für „Download-Link“ </p> <p>12 für „externer Link oder Exitlink“ </p> </td> 
-   <td colname="col2"> <p>100 für „Sonstige-Link“ </p> <p>100 für <code> trackAction </code>- und Lebenszyklusaufrufe von mobile SDKs. </p> <p>101 für „Download-Link“ </p> <p>102 für „externer Link oder Exitlink“ </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Meilenstein-Video </td> 
-   <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Ereignis Medium starten </p> <p>32 – Ereignis Nur Medium aktualisieren (es wird keine eVar- oder andere Variablenverarbeitung ausgeführt) </p> <p>33 – Ereignis Medium und andere Variable aktualisieren (einschließlich eVar- oder andere Variablenverarbeitung) </p> </td> 
-   <td colname="col2"> 
-    <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – Ereignis Medium starten </p> <p>77 – Ereignis Nur Medium aktualisieren (es wird keine eVar- oder andere Variablenverarbeitung ausgeführt) </p> <p>78 – Ereignis Medium und andere Variable aktualisieren (einschließlich eVar- oder andere Variablenverarbeitung) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Heartbeat-Video </p> </td> 
-   <td colname="col02"> identisch mit „post“-Wert </td> 
-   <td colname="col2"> <p> 50 = (Nicht-Primetime) Medien-Stream-Start </p> <p> 51 = (Nicht-Primetime) Medien-Stream-Abschluss (Beenden/Abschließen) </p> <p> 52 = (Nicht-Primetime) Medien-Stream-Scrubbing </p> <p> 53 = (Nicht-Primetime) Medien-Stream-Keepalive </p> <p> 54 = (Nicht-Primetime) Medien-Stream-Anzeigenstart </p> <p> 55 = (Nicht-Primetime) Medien-Stream-Anzeigenbeendigung (Beenden/Abschließen) </p> <p> 56 = (Nicht-Primetime) Medien-Stream-Anzeigen-Suche </p> <p> 60 = Primetime-Medien-Stream-Start </p> <p> 61 = Primetime-Medien-Stream-Abschluss (Beenden/Abschließen) </p> <p> 62 = Primetime-Medien-Stream-Scrubbing </p> <p> 63 = Primetime-Medien-Stream-Keepalive </p> <p> 64 = Primetime-Medien-Stream-Anzeigenstart </p> <p> 65 = Primetime-Medien-Stream-Anzeigenabschluss (Beenden/Abschließen) </p> <p> 66 = Primetime-Medien-Stream-Anzeigen-Suche </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Survey </td> 
-   <td colname="col02"> 40 </td> 
-   <td colname="col2"> 80 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Analytics für Target </td> 
-   <td colname="col02"> 70 – Gibt einen Treffer an, der Zielaktivitätsdaten enthält. Dieser Wert beträgt 70 für Treffer, die möglicherweise mit einem Analytics-Aufruf in Verbindung stehen. </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Treffertyp | `page_event` value | `post_page_event` value |
+| --- | --- | --- |
+| Seitenansichten | 0: Alle Seitenansichtsaufrufe und -aufrufe von `trackState` mobilen SDKs | Gleicher Wert `post_page_event` |
+| Linktracking  | 10: Benutzerspezifische Links und `trackAction` Aufrufe in den<br>11 des mobilen SDKs: Download-Links<br>12: Ausstiegslinks | 100: Benutzerspezifische Links und `trackAction` Aufrufe in Mobile SDKs<br>101: Download-Links<br>102: Ausstiegslinks |
+| Meilensteinvideo | 31: Medienstart<br>32: Medienaktualisierungen (keine andere Variablenverarbeitung)<br>33: Medienaktualisierungen (mit anderen Variablen) | 76: Medienstart<br>77: Medienaktualisierungen (keine andere Variablenverarbeitung)<br>78: Medienaktualisierungen (mit anderen Variablen) |
+| Heartbeat-Video | 50: Medienstream-Start (nicht Primetime)<br>51: Medienstream schließen (Nicht-Primetime)<br>52: Medienstream-Scrubbing (Nicht-Primetime)<br>53: Medienstream am Leben erhalten (Nicht-Primetime)<br>54: Medienstream-Anzeigenstart (nicht Primetime)<br>55: Medienstream-Anzeigenbeendigung (außerhalb von Primetime)<br>56: Medien-Stream-Anzeigen-Scrubbing (Nicht-Primetime)<br>60: Primetime-Medienstream starten<br>61: Primetime-Medienstream schließen<br>62: Primetime-Medien-Stream-Scrubbing<br>63: Primetime-Medienstream am Leben<br>erhalten 64: Primetime-Medienstream und Start<br>65: Primetime-Medienstream und Schließen<br>66: Primetime-Medien-Stream und Scrubbing | Gleicher Wert `post_page_event` |
+| Survey | 40: Jeder Aufruf, der aus Survey generiert wurde | 80: Jeder Aufruf, der aus Survey generiert wurde |
+| Analytics für Target | 70: Treffer enthält Target-Aktivitätsdaten | Gleicher Wert `post_page_event` |
