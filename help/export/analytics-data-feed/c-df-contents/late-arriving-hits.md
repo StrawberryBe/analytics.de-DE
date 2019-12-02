@@ -1,28 +1,32 @@
 ---
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+title: Verspätete Treffer
+description: Erfahren Sie, wie Datenfeeds verspätete Zugriffe behandeln.
 translation-type: tm+mt
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
-# Verspätete Treffer mit Treffern
 
-Historische Daten können eingehen, nachdem ein Datenfeed-Auftrag für eine bestimmte Stunde oder einen bestimmten Tag verarbeitet wurde, z. B. durch Treffer mit Zeitstempel oder Datenquellen. Verspätete Treffer sind eine Backend-Anpassung, die von Adobe bereitgestellt wird, um diese Daten in Datenfeeds einzubinden.
 
-## Funktionsweise der verspäteten Treffer
+# Verspätete Treffer
 
-Wenn ein Datenfeed normalerweise Daten verarbeitet, wird er nur Daten innerhalb des Berichtsfensters (gewöhnlich die letzte Stunde oder Tag) betrachtet. Wenn Daten eingehen, nachdem ein Feed die Verarbeitung des Berichtsfensters abgeschlossen hat, werden diese Daten in keinem Datenfeed enthalten.
+Historische Daten können nach Abschluss der Verarbeitung eines Datenfeed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag eingehen, z. B. durch Treffer mit Zeitstempel oder Datenquellen. Bei verspäteten Zugriffen handelt es sich um eine Einstellung zur Backend-Anpassung, die von Adobe bereitgestellt wird, um diese Daten in Datenfeeds einzubeziehen.
 
-Wenn verspätete Treffer aktiviert sind, ändert sich die Verarbeitungsmethode, um diese Daten aufzunehmen. Jedes Mal, wenn ein Datenfeed Daten verarbeitet, werden alle verspäteten Treffer betrachtet, die eingetroffen sind und in der nächsten Datenfeed-Datei, die an Ihre FTP-Site gesendet wird, gefüllt sind.
+## Wie lange die Treffer noch nicht erreicht haben
 
-## Aktivieren von spät eintreffenden Treffern
+Wenn ein Datenfeed normalerweise Daten verarbeitet, werden nur Daten innerhalb des Berichtsfensters (in der Regel die letzte Stunde oder der letzte Tag) betrachtet. Wenn Daten nach der Verarbeitung dieses Berichtsfensters durch einen Feed eingehen, werden diese Daten nie in einen Datenfeed aufgenommen.
 
-Verspätete Treffer können von Adobe für einzelne Datenfeeds manuell aktiviert werden. Beachten Sie zuvor Folgendes:
+Bei aktivierten Treffern mit verspäteter Eingabe ändert sich die Verarbeitungsmethode, um diese Daten einzuschließen. Jedes Mal, wenn ein Data Feed Daten verarbeitet, werden alle verspäteten Treffer geprüft, die eingetroffen sind, und diese in der nächsten an Ihre FTP-Site gesendeten Datenfeed-Datei stapelt.
 
-* Daten für verschiedene Tage werden häufig in Datenfeeds angezeigt, wenn verspätete Treffer aktiviert sind. Stellen Sie sicher, dass die Plattform, die Sie zum Erfassen von Datenfeeds verwenden, Daten aus unterschiedlichen Tagen derselben Datei aufnehmen kann.
-* Verspätete Treffer erhöhen die Verarbeitungszeit. Normalerweise liegt diese Verzögerung unter der Stunde, kann aber mehrere Stunden oder mehr betragen, wenn Ihre Report Suite eine große Anzahl verspäteter Treffer erhält. Adobe empfiehlt, diese Einstellung zu aktivieren, wenn die rechtzeitige Ankunft von Datenfeeds für den Arbeitsablauf Ihres Unternehmens unabdingbar ist.
-* Wenn eine Datenfeed-Datei erneut verarbeitet wird, sind die verspäteten Treffer, die in der Originaldatei enthalten waren, nicht in der erneut verarbeiteten Datei enthalten.
+## Aktivieren verspäteter Treffer
 
-Wenn Sie verspätet eintreffende Treffer für einen vorhandenen wiederkehrenden Datenfeed aktivieren möchten, bitten Sie einen unterstützten Benutzer, sich an den Kundendienst zu wenden und Folgendes zu berücksichtigen:
+Verspätete Zugriffe können von Adobe für einzelne Datenfeeds manuell aktiviert werden. Berücksichtigen Sie zunächst Folgendes:
 
-* Hinweis, dass Sie verspätet eintreffende Treffer für einen bestimmten Datenfeed aktivieren möchten
+* Daten für verschiedene Tage werden häufig in Datenfeeds angezeigt, wenn Treffer mit verspäteter Eingabe aktiviert sind. Stellen Sie sicher, dass die Plattform, die Sie zum Erfassen von Datenfeeds verwenden, Daten aus verschiedenen Tagen in derselben Datei aufnehmen kann.
+* Bei verspäteten Zugriffen verlängert sich die Verarbeitungszeit. In der Regel beträgt diese Verzögerung weniger als eine Stunde, kann aber mehrere Stunden betragen, wenn Ihre Report Suite eine große Anzahl verspäteter Treffer erhält. Adobe empfiehlt, diese Einstellung nicht zu aktivieren, wenn eine rechtzeitige Ankunft für Data Feeds für den Arbeitsablauf in Ihrem Unternehmen unbedingt erforderlich ist.
+* Wenn eine Datenfeed-Datei erneut verarbeitet wird, werden die verspäteten Treffer, die in der Originaldatei enthalten waren, nicht in die erneut verarbeitete Datei aufgenommen.
+
+Wenn Sie für einen vorhandenen wiederkehrenden Datenfeed verspätete Treffer aktivieren möchten, bitten Sie einen unterstützten Benutzer, sich an die Kundenunterstützung zu wenden und Folgendes einzuschließen:
+
+* Hinweis, dass Sie für einen bestimmten Data Feed Treffer mit verspätetem Zugriff aktivieren möchten
 * Report Suite-ID
-* Datenfeed-Name
+* Data Feed-Name
