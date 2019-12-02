@@ -1,58 +1,33 @@
 ---
 product: analytics
-audience: Endanwender
-user-guide-title: Exportleitfaden für Analytics
-user-guide-url: /content/help/de-DE/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+audience: end-user
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Exportleitfaden für Analytics {#export}
 
-+ [Export-Hilfe für Analytics](home.md)
++ [Analytics Export Home](home.md)
 + Analytics Data Feed {#analytics-data-feed}
-   + Erste Schritte {#get-started}
-      + [Analytics-Daten-Feed-Dokumentation](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [Terminologie](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [Bewährte Methoden und allgemeine Informationen](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + Daten-Feed-Benutzeroberfläche {#data-feed-ui}
-      + [Daten-Feed-Benutzeroberfläche öffnen](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [Spalten sortieren](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [Suchen und filtern](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [Daten-Feed-Status](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + Daten-Feed-Aktionen {#data-feed-actions}
-      + [Daten-Feed-Bedienfeld](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [Feed hinzufügen](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [Feed-Informationen](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [Feed-Ziel](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [Auftragsverlauf eines Feeds anzeigen](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [Feed löschen](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [Feed pausieren](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [Feed aktivieren](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [Feed bearbeiten](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + Daten-Feed-Aufträge {#data-feed-jobs}
-      + [Daten-Feed-Aufträge – Übersicht](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [Auftragsliste filtern](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [Auftragseinstellungen](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [Auftragsstatus](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [Auftrag erneut ausführen](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [Übersicht über Datenfeeds](analytics-data-feed/data-feed-overview.md)
+   + [Datenfeed erstellen oder bearbeiten](analytics-data-feed/create-feed.md)
+   + [Verwalten von Datenfeeds](analytics-data-feed/df-manage-feeds.md)
+   + [Verwalten von Datenfeed-Aufträgen](analytics-data-feed/df-manage-jobs.md)
    + Daten-Feed-Inhalte {#data-feed-contents}
-      + [Daten-Feed-Inhalte – Übersicht](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Übersicht über den Datenfeed](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Berechnete Metriken](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [Besucher identifizieren](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [Datenspaltendefinitionen](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [Datenspaltenreferenz](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Seitenereignissuche](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Trefferquellensuche](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [Pre- und Post-Spalten](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
       + [Sonderzeichen](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [Häufig gestellte Fragen zu Aufträgen](analytics-data-feed/c-df-contents/jobs-faq.md)
-   + [Fehlerbehebung bei Daten-Feeds](analytics-data-feed/feed-troubleshooting.md)
+   + [Häufig gestellte Fragen zum Datenfeed](analytics-data-feed/df-faq.md)
+   + [Best Practices für Data Feeds](analytics-data-feed/data-feeds-best-practices.md)
+   + [Fehlerbehebung bei Datenfeeds](analytics-data-feed/feed-troubleshooting.md)
    + [Fehlerbehebung bei Aufträgen](analytics-data-feed/jobs-troubleshooting.md)
-   + [Versionshinweise für den Daten-Feed](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse-Übersicht](data-warehouse/data-warehouse.md)
    + [Hinzufügen einer Data Warehouse-Benutzergruppe](data-warehouse/t-dw-group.md)
