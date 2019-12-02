@@ -7,7 +7,7 @@ title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten sind. Bei den meisten Implementierungen wird nicht jede Spalte verwendet. Daher kann auf diese Seite verwiesen werden, wenn bestimmt wird, welche Spalten in einen Datenfeed-Export einbezogen werden sollen.
 
-> [!IMPORTANT] Für jede Spalte (z. B. eine Spalte, die als 255 Zeichen definiert ist) kann ein Datenfeed zusätzliche Zeichen senden, da Zeichen hinzugefügt werden, die Werte in einer Zeichenfolge Escapezeichen enthalten. Beachten Sie dieses Thema, wenn Ihre Implementierung regelmäßig Werte sendet, die die Zeichenbeschränkungen überschreiten.
+> [!IMPORTANT] Für jede Spalte (z. B. eine Spalte, die als 255 Zeichen definiert ist) kann ein Datenfeed zusätzliche Zeichen senden, da Zeichen hinzugefügt werden, die Werte in einer Zeichenfolge Escapezeichen enthalten. Berücksichtigen Sie diese potenziellen zusätzlichen Zeichen, wenn Ihre Implementierung regelmäßig Werte sendet, die die Zeichenbeschränkungen überschreiten.
 
 ## Spalten, Beschreibungen und Datentypen
 
-> [!NOTE] Die meisten Spalten enthalten eine ähnliche Spalte mit dem Präfix `post_`. Post-Spalten enthalten Werte nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten.
+> [!NOTE] Die meisten Spalten enthalten eine ähnliche Spalte mit dem Präfix `post_`. Post-Spalten enthalten Werte nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. Weitere Informationen finden Sie unter Häufig gestellte Fragen zu [Datenfeeds](../df-faq.md) .
 
 | Spaltenname | Spaltenbeschreibung | Datentyp |
 | --- | --- | --- |
