@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** Activity Map: Ein Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Siehe [Activity Map](/help/analyze/activity-map/activity-map.md) im Analyze-Benutzerhandbuch.
 * **** Admin-Konsole: Kann auf Folgendes verweisen:
    * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden auch hier Benutzerberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/admin/c-admin-tools.md) im Admin-Benutzerhandbuch.
-   * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Benutzerberechtigungen verwaltet werden. Siehe [Admin-Konsole](/help/admin/admin-console/home.md) im Admin-Benutzerhandbuch.
+   * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Benutzerberechtigungen verwaltet werden. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** Zuordnung: Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** Anomalie: Wird mithilfe der statistischen Modellierung erkannt, um automatisch unerwartete Trends in den Daten zu ermitteln. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) im Analyze-Benutzerhandbuch.
 * **** AppMeasurement: Die Codebibliothek, mit der Daten erfasst und an Adobe gesendet werden. Siehe auch [Homepage](/help/implement/home.md) des Implementierungs-Benutzerhandbuchs.
@@ -43,7 +43,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** Kundensupport-Stellvertreter: Ein bestimmter Benutzer, der zur direkten Interaktion mit der Adobe-Kundenunterstützung berechtigt ist. Siehe Delegierte[ des ](https://helpx.adobe.com/experience-cloud/supported-users.html)Kundensupports in der Experience Cloud-Wissensdatenbank.
 * **** Datenerfassungsserver: Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungsserver von Adobe gesendet.
 * **** Data Connectors: Eine vollständige Entwicklungslösung, die es einem Drittanbieter ermöglicht, das Hochladen von Daten in Adobe Analytics zu automatisieren. Kunden dieses Drittanbieters können einen Data Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Die meisten Data Connectors verwenden einen ähnlichen Arbeitsablauf, der in Data Sources verwendet wird. Siehe Data Connectors im Import-Benutzerhandbuch.
-* **** Datenfeed: Ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten wird Adobe Analytics-Daten in eine Datenbank von Drittanbietern exportiert. Siehe [Datenfeeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) im Benutzerhandbuch "Exportieren".
+* **** Datenfeed: Ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten wird Adobe Analytics-Daten in eine Datenbank von Drittanbietern exportiert. Siehe [Datenfeeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch "Exportieren".
 * **** Datenquellen: Ermöglicht dem Benutzer das Hochladen von Daten aus einer Datei in Adobe Analytics. Die Datei wird normalerweise von einer FTP-Site abgerufen. Siehe [Datenquellen](/help/import/c-data-sources/datasrc-home.md) im Benutzerhandbuch zum Importieren.
 * **** Data Warehouse: Eine Funktion in Adobe Analytics, mit der Sie größere Berichte anfordern können. Siehe [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) im Benutzerhandbuch "Exportieren".
 * **** Dimension: Ein Komponententyp, der Variablenwerte wie Text enthält. Beispiele sind Seitenname, Rückverfolgungscode oder verweisende Domäne. Eine Metrik ist normalerweise ihr Gegenstück.
