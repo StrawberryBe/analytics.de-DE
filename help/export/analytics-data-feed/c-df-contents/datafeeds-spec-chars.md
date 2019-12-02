@@ -3,122 +3,53 @@ description: In diesem Abschnitt erhalten Sie Informationen zu Sonderzeichen, di
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
 subtopic: data feeds
-title: Sonderzeichen
+title: Sonderzeichen in Datenfeeds
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# Sonderzeichen
+# Sonderzeichen in Datenfeeds
 
-In diesem Abschnitt erhalten Sie Informationen zu Sonderzeichen, die im Datenfeed verwendet werden.
+Adobe verwendet Escape-Logik, um sicherzustellen, dass an Datenerfassungsserver gesendete Werte keine Daten-Feed-Dateien beschädigen oder negativ beeinflussen. Die folgenden Zeichen sind von Adobe für folgende Zwecke in `hit_data.tsv`reserviert.
 
-* [Sonderzeichen in der Datei „hit_data“](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars)](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [Beispielarbeitsablauf](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+## Sonderzeichen in einer beliebigen Spalte
 
-## Sonderzeichen in der Datei „hit_data“ {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+| Zeichen | Beschreibung |
+|--- |--- |
+| `\t` | Stellt eine Registerkarte dar. Markiert das Ende einer Spalte oder eines Datenfelds. |
+| `\n` | Stellt einen Zeilenumbruch dar. Markiert das Ende einer Zeile oder eines Treffers. |
+| `\` | Umgekehrter Schrägstrich. Escape-Zeichen, wenn sie im Rahmen der Datenerfassung gesendet werden. |
 
-Die folgenden Zeichen haben in der Datei „hit_data“ eine besondere Bedeutung:
+Wenn diesen reservierten Werten ein umgekehrter Schrägstrich vorangestellt wird, wurden sie als Teil der Datenerfassung gesendet.
 
-| Zeichen | Beschreibung | Beschreibung |
-|--- |--- |--- |
-| \t (Tabstoppzeichen) | Spaltenende | Markiert das Ende des Datenfelds. |
-| \n (Zeilenumbruchzeichen) | Ende der Zeile | Markiert das Ende einer Datenzeile. |
-| \  (umgekehrter Schrägstrich) | Escape-Zeichen | Kommentiert die Zeichen „Tabstopp“, „Zeilenumbruch“ und „umgekehrter Schrägstrich“ aus, wenn das Zeichen Teil des Werts war, der bei der Datenerfassung gesendet wurde. |
+| Zeichen | Beschreibung |
+|--- |--- |
+| `\\t` | Der Wert '`\t`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
+| `\\n` | Der Wert '`\n`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
+| `\\` | Der Wert '`\`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
 
-Wenn einem dieser Sonderzeichen ein umgekehrter Schrägstrich vorangestellt ist, repräsentiert es das tatsächliche (literale) Zeichen.
+Beispielsweise verwendet ein Besucher Ihrer Site die interne Suche und sucht nach "search\nstring". Sie füllen eVar1 mit "search\nstring"und senden diesen Wert an Adobe. Adobe erhält diesen Treffer und entgeht der in der Zeichenfolge enthaltenen Zeilenumbruchposition. Der tatsächliche Wert, der in Rohdaten platziert wird, ist "search\\nstring".
 
-| Zeichen | Beschreibung | Beschreibung |
-|--- |--- |--- |
-| \\t | Tab | Tabstoppzeichen in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
-| \\n | Umbruch | Umbruch in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
-| \\ | Umgekehrter Schrägstrich | Umgekehrter Schrägstrich in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
+## Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars)
 
-## Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars) {#section_056F8D540FFC4F24A001DC74331C2AAC}
+Die folgenden Zeichen haben eine besondere Bedeutung in Spalten, die mehrere Werte enthalten können.
 
-Die folgenden Zeichen haben in Variablen mit mehreren Werten eine besondere Bedeutung:
+| Zeichen | Beschreibung |
+|--- |--- |
+| `,` | Komma. Stellt das Ende eines einzelnen Werts dar. Trennt Produktzeichenfolgen, Ereignis-IDs oder andere Werte. |
+| `;` | Semikolon. Stellt das Ende eines einzelnen Werts in `product_list`dar. Trennt Felder in einer einzelnen Produktzeichenfolge. |
+| `=` | Gleich Zeichen. Assigns a value to an event in `product_list`. |
+| `^` | Caret. Escape-Zeichen, wenn sie im Rahmen der Datenerfassung gesendet werden. |
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Zeichen </th> 
-   <th colname="col02" class="entry"> Beschreibung </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> (Kommazeichen) </td> 
-   <td colname="col02"> Ende des Werts </td> 
-   <td colname="col2"> <p>Trennt Produktzeichenfolgen, Ereignis-IDs oder andere Werte in Variablen mit mehreren Werten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> (Semikolon-Zeichen) </td> 
-   <td colname="col02"> Ende des untergeordneten Werts in einem einzelnen Produktwert </td> 
-   <td colname="col2"> <p>Trennt Werte, die mit einem einzelnen Produkt in der <code> product_list </code> verknüpft sind. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> (Gleichheitszeichen) </td> 
-   <td colname="col02"> Wertzuweisung </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Wenn diesen reservierten Werten ein Caret vorangeht, wurden sie als Teil der Datenerfassung gesendet.
 
-Wenn einem dieser Sonderzeichen ein Caret vorangestellt ist, repräsentiert es das tatsächliche (literale) Zeichen.
-
-| Zeichen | Beschreibung | Beschreibung |
-|--- |--- |--- |
-| ^, | Komma | Komma in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
-| ^; | Semikolon | Semikolon in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
-| ^= | Gleichheitszeichen | Gleichheitszeichen in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
-| ^^ | Caret | Caret in Textform. Dieses Zeichen war Teil des Werts, der bei der Datenerfassung gesendet wurde. |
-
-## Beispielarbeitsablauf {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-Wenn einige Spalten in Ihrem Datenfeed vom Benutzer übermittelte Daten enthalten, sollte Sie eine Überprüfung auf Sonderzeichen ausführen, bevor Sie die Daten mithilfe von `split`, `readLine` usw. nach Spalten oder Zeilen aufteilen.
-
-Betrachten wir die folgenden Daten:
-
-| Browserbreite | Browserhöhe | eVar1 | prop1 |
-|---|---|---|---|
-| 1680 | 1050 | search\nstring | en |
-| 800 | 600 | search\tstring | en |
-
-Beim Export werden die Zeichen für Zeilenumbruch und Tabstopp in den eVar1-Werten mit Escape-Zeichen versehen. Der Datenfeed für diese Zeilen wird wie folgt angezeigt:
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Calling `readLine()` on the first row returns the following partial string:
-
-```
-800\t600\tsearch\
-```
-
-Calling `split("\t")` on the second row returns the following string array:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-Um dies zu vermeiden, wird die Verwendung folgender Vorgehensweise empfohlen:
-
-1. Beginnen Sie am Anfang der Datei und lesen Sie, bis Sie auf ein Tabstopp-, Umbruch-, Caret-Zeichen oder einen umgekehrten Schrägstrich treffen.
-1. Führen Sie – je nach aufgetretenem Sonderzeichen – eine entsprechende Aktion aus:
-
-   * Tabstopp – Fügen Sie die Zeichenfolge bis dahin in eine Datenspeicherzelle ein und setzen Sie den Vorgang fort.
-   * Umbruch – Schließen Sie die Datenspeicherzeile ab.
-   * Umgekehrter Schrägstrich – Lesen Sie das nächste Zeichen, fügen Sie die entsprechende Zeichenfolge in Textform ein und setzen Sie den Vorgang fort.
-   * Caret – Lesen Sie das nächste Zeichen, fügen Sie die entsprechende Zeichenfolge in Textform ein und setzen Sie den Vorgang fort.
-
+| Zeichen | Beschreibung |
+|--- |--- |
+| `^,` | Der Wert '`,`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
+| `^;` | Der Wert '`;`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
+| `^=` | Der Wert '`=`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
+| `^^` | Der Wert '`^`' wurde während der Datenerfassung gesendet, die von Adobe mit Escapezeichen versehen wurde. |
