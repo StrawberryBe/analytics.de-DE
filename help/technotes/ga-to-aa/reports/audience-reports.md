@@ -2,7 +2,7 @@
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit dem Analysis Workspace zielgruppenbasierte Berichte erstellen.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ Der Zielgruppenbericht in Google Analytics erfordert die Einrichtung von Zielgru
 Der Bericht "Benutzer-Explorer"ermöglicht es einem Analysten, einzelne Besuche über anonymisierte IDs anzuzeigen. Adobe deckt die Backend-IDs nicht außerhalb von Data Feeds auf, bei denen es sich um Rohdatenexporte auf Trefferebene handelt.
 
 * Wenn diese Daten in Analysis Workspace gewünscht werden, ist es möglich, mit einem Implementierungsberater zusammenzuarbeiten, um den Wert des anonymisierten Cookies für die eindeutige Kennung an eine eVar weiterzugeben. Beachten Sie, dass dies nur bei kleineren Implementierungen funktioniert, die aus weniger als 1 Million Unique Visitors pro Monat bestehen.
-* Wenn diese Daten in Datenfeeds gewünscht werden, sind die verketteten Spalten `visid_high` und `visid_low` die gängigsten Methoden zur Identifizierung individueller Besucher. Weitere Informationen zu [Datenfeeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) finden Sie im Benutzerhandbuch zum Exportieren.
+* Wenn diese Daten in Datenfeeds gewünscht werden, sind die verketteten Spalten `visid_high` und `visid_low` die gängigsten Methoden zur Identifizierung individueller Besucher. Weitere Informationen zu [Datenfeeds](/help/export/analytics-data-feed/data-feed-overview.md) finden Sie im Benutzerhandbuch zum Exportieren.
 
 ## Berichte zu Demografie und Interessen
 
