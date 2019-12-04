@@ -3,7 +3,7 @@ title: Aktualisierungen der Adobe Analytics-Dokumentation
 description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
+source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 ---
 
@@ -20,6 +20,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
+| 29. November 2019 | Überarbeitung der Dokumentation zu [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25. November 2019 | Neues Thema zum [Ende der Lebensdauer für IP-Anmeldebeschränkungen erzwingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25. November 2019 | Neues Thema im [internen Marketingkanal (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
