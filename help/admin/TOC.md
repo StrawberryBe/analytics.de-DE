@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -42,9 +42,9 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Menüanpassung](admin/customize-menus.md)
    + [Sichtbarkeit der Metriken](admin/metric-visibility.md)
    + [Mobile Management](admin/mobile-management.md)
-   + Erkennung von Paid Search{#paid-search-detection}
-      + [Übersicht über die Erkennung gebührenpflichtiger Suchvorgänge](admin/paid-search-detection/paid-search-detection.md)
-      + [Erkennung gebührenpflichtiger Suchvorgänge konfigurieren](admin/paid-search-detection/t-paid-search-detection.md)
+   + Erkennung von Paid Search {#paid-search-detection}
+      + [Übersicht über die Erkennung von Paid Search](admin/paid-search-detection/paid-search-detection.md)
+      + [Erkennung von Paid Search konfigurieren](admin/paid-search-detection/t-paid-search-detection.md)
    + [Publishing-Listen](admin/publishing-list.md)
    + [Publishing-Widget](admin/publishing-widgets-admin.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
@@ -73,13 +73,14 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
          + [Ereignis mit einer Kontextdatenvariable festlegen](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [Ereignis aus einem Treffer entfernen](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Verarbeitungsregeln – Tipps und Tricks](admin/c-processing-rules/processing-rules-tips.md)
-   + Echtzeitberichte{#real-time-reports}
+   + Echtzeitberichte {#real-time-reports}
       + [Übersicht über Echtzeitberichte](admin/realtime/realtime.md)
       + [Konfiguration von Echtzeit-Berichten](admin/realtime/t-realtime-admin.md)
       + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/realtime/realtime-metrics.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
    + Serverseitige Weiterleitung {#server-side-forwarding}
       + [Übersicht über die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
+      + [DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Anforderungen an die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Daten- und Codereferenz für die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-reference.md)
       + [Serverseitige Weiterleitungsimplementierung überprüfen](admin/c-server-side-forwarding/ssf-verify.md)
@@ -135,12 +136,12 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Speichern einer Report Suite-Suche](c-manage-report-suites/t-report-suite-saved-search.md)
    + [Individuelle Report Suite-Einstellungen](c-manage-report-suites/individual-rs-settings.md)
    + [Herunterladen von Report Suite-Einstellungen](c-manage-report-suites/t-download-rs-settings.md)
-   + Neue Report Suite{#new-report-suite}
+   + Neue Report Suite {#new-report-suite}
       + [Report Suite erstellen](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
       + [Neue Report Suite – Einstellungen](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [Aus einer Quell-Report Suite nicht kopierte Einstellungen](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [Erstellen einer Report Suite-Gruppe](c-manage-report-suites/t-create-rs-group.md)
-+ Benutzer und Produkte verwalten (alt){#user-product-management}
++ Benutzer und Produkte verwalten (alt) {#user-product-management}
    + [Benutzer und Produkte verwalten](user-management2/user-management.md)
    + [Zuweisen von Benutzergruppen zu einer Report Suite](user-management2/t-group-access-report-suite.md)
    + Benutzerverwaltung {#user-management}
@@ -168,7 +169,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Data Governance-Einstellungen von Report Suites anzeigen/verwalten](c-data-governance/gdpr-view-settings.md)
    + [Report Suite-Daten beschriften](c-data-governance/gdpr-setup-reportsuite.md)
    + [Zugriffs- und Löschanfragen einreichen](c-data-governance/gdpr-submit-access-delete.md)
-   + [Datenschutzbeschriftungen für Analytics-Variablen](c-data-governance/gdpr-labels.md)
+   + [Datenschutzbezeichnungen für Analytics-Variablen](c-data-governance/gdpr-labels.md)
    + [Namespaces](c-data-governance/gdpr-namespaces.md)
    + [ID-Erweiterung](c-data-governance/gdpr-id-expansion.md)
    + [Best Practices für Beschriftungen](c-data-governance/gdpr-analytics-ids.md)
