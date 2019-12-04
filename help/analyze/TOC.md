@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
       + [Projekt erstellen – Übersicht](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Workspace-Projekt erstellen](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Mehrere Report Suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Spalten- und Zeileneinstellungen {#column-row-settings}
          + [Spalteneinstellungen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Zeileneinstellungen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -80,7 +81,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
       + Attribution {#attribution}
          + [Übersicht über die Zuordnung](analysis-workspace/c-panels/attribution/attribution.md)
          + [Bedienfeld "Zuordnung"verwenden](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [Häufig gestellte Fragen zur Zuordnung](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [Häufig gestellte Fragen zu Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [Übersicht über Segment-IQ](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -115,7 +116,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
    + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace-Beschränkungen](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
-   + [Segment-IQ](analysis-workspace/segment-iq.md)
+   + [Segment IQ](analysis-workspace/segment-iq.md)
    + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Hilfe zu Adobe Report Builder](report-builder/home.md)
