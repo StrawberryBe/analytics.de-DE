@@ -2,7 +2,7 @@
 description: Anleitung zum Einrichten der App-Scorecards.
 title: Adobe Analytics Mobile App Curator Guide
 translation-type: tm+mt
-source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
+source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
 
 ---
 
@@ -32,15 +32,18 @@ Die folgende Tabelle beschreibt die Begriffe zum Verständnis der Zielgruppe, Fu
 Eine mobile Scorecard zeigt wichtige Datenvisualisierungen für Benutzer in einem gekachelten Layout an, wie nachfolgend gezeigt:
 
 
+![Beispiel-Scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
+
 Als Kurator für diese Scorecard können Sie mit dem Scorecard Builder konfigurieren, welche Kacheln auf der Scorecard für Ihren Kunden angezeigt werden. Sie können auch konfigurieren, wie die detaillierten Ansichten oder Aufschlüsselungen angepasst werden können, sobald auf die Kacheln getippt wird. Die Scorecard Builder-Oberfläche ist unten dargestellt:
+
+![Scorecard Builder](help/analyze/mobile-app/assets/scorecard_builder.png)
+
 
 Zur Erstellung des Scorecard müssen Sie folgende Schritte ausführen:
 
 1. Greifen Sie auf die Vorlage "Leeres mobiles Scorecard"zu.
 2. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
-
-![Beispiel-Scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
-
 
 
 ### Zugriff auf die Vorlage "Leeres mobiles Scorecard"
@@ -49,94 +52,97 @@ Sie haben folgende Möglichkeiten, auf die Vorlage Blank Mobile Scorecard zuzugr
 
 **Neues Projekt erstellen**
 
-1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte Arbeitsbereich.
-2. Klicken Sie auf die Schaltfläche "Neues Projekt erstellen"und wählen Sie die Projektvorlage "Leeres mobiles Scorecard"aus.
+1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **Arbeitsbereich** .
+2. Klicken Sie auf die Schaltfläche "Neues Projekt **** erstellen"und wählen Sie die Projektvorlage für die **leere mobile Scorecard** aus.
 3. Klicken Sie auf die Schaltfläche **erstellen**.
+
+![Scorecard-Vorlage](help/analyze/mobile-app/assets/new_template.png)
+
 
 *Hinweis: Wenn Sie die Vorlage Blank Mobile Scorecard nicht sehen, wie unten gezeigt, wurde Ihr Unternehmen noch nicht für Beta aktiviert. Wenden Sie sich an Ihren Kundenbetreuer.*
 
 
 **Projekt hinzufügen**
 
-Klicken Sie im Bildschirm "Projekte"auf der Registerkarte "Komponenten"auf die Schaltfläche "Hinzufügen"und wählen Sie "Mobile Scorecard"aus.
+Klicken Sie im Bildschirm " **Projekte** "auf der Registerkarte " **Komponenten** "auf die Schaltfläche " **Hinzufügen** "und wählen Sie " **Mobilgerät-Scorecard"**.
 
-
-
+![Projekte hinzufügen](help/analyze/mobile-app/assets/add_project.png)
 
 **Analytics-Werkzeuge verwenden**
 
-Klicken Sie in Analytics auf das Extras-Menü und wählen Sie "Mobile App". Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche "Scorecard erstellen".
+Klicken Sie in Analytics auf das **Extras** -Menü und wählen Sie " **Mobile App**"aus. Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche " **Scorecard** erstellen".
 
 ### Konfigurieren des Scorecards mit Daten und Speichern
 
 So implementieren Sie die Scorecard-Vorlage:
 
-1. Geben Sie unter Eigenschaften (in der rechten Leiste) eine Projekt-Report Suite an, aus der Sie Daten verwenden möchten.
+1. Geben Sie unter **Eigenschaften** (in der rechten Leiste) eine **Projekt-Report Suite** an, aus der Sie Daten verwenden möchten.
+
+   ![Report Suite-Auswahl](help/analyze/mobile-app/assets/properties_save.png)
+
+2. Um eine neue Kachel zu Ihrer Scorecard hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bereich und legen Sie sie in die **Drag &amp; Drop-Metriken hier** -Zone. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Arbeitsablauf verwenden.
+
+   ![Hinzufügen von Kacheln](help/analyze/mobile-app/assets/build_list.png)
 
 
-
-2. Um eine neue Kachel zu Ihrer Scorecard hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bereich und legen Sie sie in der Zone Metriken hierher ziehen und ablegen ab. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Arbeitsablauf verwenden.
-
-
-   Von jeder Kachel aus können Sie auf eine detaillierte Ansicht zugreifen, die zusätzliche Informationen zur Metrik anzeigt, z. B. die obersten Elemente für eine Liste der zugehörigen Dimensionen.
+   *Von jeder Kachel aus können Sie auf eine detaillierte Ansicht zugreifen, die zusätzliche Informationen zur Metrik anzeigt, z. B. die obersten Elemente für eine Liste der zugehörigen Dimensionen.*
 
 
-3. Um einer Metrik eine zugehörige Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab. Sie können z. B. der Metrik "Unique Visitors"geeignete Dimensionen (wie in diesem Beispiel DMA-Region) hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Dimensionen, die Sie hinzufügen, werden im Unterteilungsabschnitt der kachelspezifischen Eigenschaften angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
+3. Um einer Metrik eine zugehörige Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab. Sie können beispielsweise geeignete Dimensionen (wie **DMA-Region** in diesem Beispiel) zur Metrik " **Unique Visitors** "hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Dimensionen, die Sie hinzufügen, werden im Unterteilungsabschnitt der kachelspezifischen **Eigenschaften** angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
+
+   ![Dimensionen hinzufügen](help/analyze/mobile-app/assets/layer_dimensions.png)
+
+   *Hinweis: Sie können allen Kacheln auch eine Dimension hinzufügen, indem Sie sie auf der Arbeitsfläche "Scorecard"ablegen.*
+
+   Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Eigenschaften an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
 
 
-   *Hinweis: Sie können allen Kacheln auch eine Dimension hinzufügen, indem Sie sie auf der Arbeitsfläche "Scorecard"ablegen. *
+   Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Aufschlüsselungsansicht dem Benutzer in der App angezeigt wird. Wenn keine Dimension auf die Kachel angewendet wurde, beträgt die Aufschlüsselungsdimension je nach Standarddatumsbereich **Stunde** oder **Tage**.
 
-   Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Eigenschaften an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen Titel für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
+   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
 
-
-
-
-
-
-
-
-   Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Aufschlüsselungsansicht dem Benutzer in der App angezeigt wird. Wenn keine Dimension auf die Kachel angewendet wurde, ist die Aufschlüsselungsdimension je nach Standarddatumsbereich Stunden oder Tage.
-
-
-
-
-   Wenn Sie auf eine Kachel klicken, wird die Aufschlüsselungsansicht für diese Kachel neben der Scorecard angezeigt.
-Beachten Sie, dass jede der Kachel hinzugefügte Dimension in einer Dropdown-Liste in der Detailansicht der App angezeigt wird. Der Exekutivbenutzer kann dann aus den in der Dropdownliste aufgelisteten Optionen auswählen.
+   *Beachten Sie, dass jede der Kachel hinzugefügte Dimension in einer Dropdown-Liste in der Detailansicht der App angezeigt wird. Der Exekutivbenutzer kann dann aus den in der Dropdownliste aufgelisteten Optionen auswählen.*
 
 4. Um Segmente auf einzelne Kacheln anzuwenden, ziehen Sie ein Segment aus dem linken Bereich und legen es direkt über die Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel auf der Scorecard ab.
 
-5. Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard und entfernen Sie sie, indem Sie auf das X klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment Mobile Customers dargestellt:
+5. Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard und entfernen Sie sie, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Mobile Customers** dargestellt:
 
-6. Unter Eigenschaften von Scorecard können Sie optional auch Folgendes angeben:
+   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
 
-   * Ein Standarddatumsbereich. Die hier angegebenen Bereiche gelten für den ersten Zugriff des Benutzers auf die Scorecard in seiner App.
+6. Unter **Eigenschaften** von Scorecard können Sie optional auch Folgendes angeben:
 
-   * Ein Vergleichsdatumsbereich
+   * Ein **Standarddatumsbereich**. Die hier angegebenen Bereiche gelten für den ersten Zugriff des Benutzers auf die Scorecard in seiner App.
 
-   * Alle Segmente, die für die gesamte Wertungsliste gelten sollen
+   * Ein **Vergleichsdatumsbereich**
+
+   * Alle **Segmente** , die für die gesamte Wertungsliste gelten sollen
 
 7. Um der Scorecard einen Namen zu geben, klicken Sie auf den Namespace oben links im Bildschirm und geben Sie den neuen Namen ein.
+
+   ![Naming_scorecards](help/analyze/mobile-app/assets/new_name.png)
 
 ## Scorecard freigeben
 
 So geben Sie die Scorecard für einen Executive-Benutzer frei:
 
-1. Klicken Sie auf das Menü "Freigeben"und wählen Sie "Freigeben-Scorecard".
+1. Klicken Sie auf das Menü " **Freigeben** "und wählen Sie " **Freigeben**".
 
-2. Füllen Sie im Freigabeformular die Felder aus, um:
+2. Füllen Sie die Felder im **Freigabeformular** aus, indem Sie:
 
    * Bezeichnung der Scorecard
    * Beschreibung des Scorecard
    * Hinzufügen relevanter Tags
    * Empfänger für die Scorecard angeben
-   * Wählen Sie die Option "Eingebettete Komponenten mit Empfängern teilen", um sicherzustellen, dass der exekutive Benutzer Zugriff auf alle Komponenten in der Scorecard hat.
+   * Wählen Sie die Option zum **Freigeben eingebetteter Komponenten mit Empfängern** aus, um sicherzustellen, dass der exekutive Benutzer Zugriff auf alle Komponenten in der Scorecard hat.
 
-3. Klicken Sie auf Freigabe.
+3. Klicken Sie auf **Freigabe**.
+
+![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+
 
 Nachdem Sie eine Scorecard freigegeben haben, können Ihre Empfänger auf diese in ihrer mobilen Analytics-App zugreifen. Wenn Sie nachfolgende Änderungen am Scorecard im Scorecard Builder vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Die Änderungen werden dann angezeigt, nachdem die Scorecard in der App aktualisiert wurde.
 
-*Hinweis: Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option "Embedded-Komponenten automatisch mit Empfängern teilen"aktivieren), um sicherzustellen, dass Ihre Manager-Benutzer Zugriff auf diese Änderungen haben.*
-
+*Hinweis: Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option "Eingebettete Komponenten **automatisch mit Empfängern**teilen"aktivieren), um sicherzustellen, dass Ihre Manager-Benutzer Zugriff auf diese Änderungen haben.*
 
 ## Einrichten von Executive-Benutzern mit der App
 
@@ -150,23 +156,48 @@ Um leitende Benutzer beim Zugriff auf Ihre Scorecards in der App zu unterstütze
     * Sie haben eine gültige Anmeldung bei Adobe Analytics
     * Sie haben für sie korrekte mobile Scorecards erstellt und teilen diese mit ihnen.
     * Sie haben Zugriff auf den Arbeitsbereich für Analysen und die Report Suite, auf
-    der die Scorecard basiert* Sie haben Zugriff auf die Komponenten, die die Scorecard enthält. Hinweis: Sie können eine Option auswählen, wenn Sie Ihre Scorecards freigeben, um eingebettete Komponenten automatisch für Empfänger freizugeben.
-
+    der die Scorecard basiert* Sie haben Zugriff auf die Komponenten, die die Scorecard enthält. Hinweis: Sie können eine Option auswählen, wenn Sie Ihre Scorecards für **Eingebettete Komponenten automatisch für Empfänger freigeben**.
 
 ### Hilfe für Benutzer, die die App verwenden
 
-1. Um leitenden Benutzern zu helfen, stellen Sie sicher, dass sie die App gemäß ihrem Betriebssystem für Mobilgeräte herunterladen und installieren können.
+Während der Betaphase und bevor die App für die Öffentlichkeit freigegeben wird, können Sie steuern, wer Zugriff auf die App hat.
 
-   **iOS**
+1. Helfen Sie leitenden Benutzern, die App herunterzuladen und zu installieren. Führen Sie zu diesem Zweck die folgenden Schritte aus, um den Zugriff auf Ihre leitenden Benutzer zu erweitern, je nachdem, ob sie ein iOS- oder ein Android-Gerät verwenden.
+
+   **Für leitende Benutzer unter iOS:**
+
+   1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** &gt; **Mobile App** verfügbar):
+
+      [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+
+      Nachdem Sie auf den Link geklickt haben, wird der folgende Testflight-Bildschirm angezeigt:
+
+      ![Testflight-Bildschirm](help/analyze/mobile-app/assets/testflight1.png)
+
+   2. Tippen Sie auf den Link **Im App Store** anzeigen, um die Testflight-App herunterzuladen.
+
+   3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics Mobile-App aus Testflight:
+   ![Testflight-Bildschirm](help/analyze/mobile-app/assets/testflight2.png)
+
+   **Für Führungskräfte unter Android:**
+
+   1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** &gt; **Mobile App** verfügbar):
 
 
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   **Android**
+      Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link Als Tester werden:
 
+      ![Play Store-Bildschirm](help/analyze/mobile-app/assets/play.png)
 
+   2. Tippen Sie auf den Link zum **Herunterladen auf Google Play** im folgenden Bildschirm:
 
+      ![Download-Link](help/analyze/mobile-app/assets/playnext.png)
 
+   3. Laden Sie die App herunter und installieren Sie sie.
+   Nach dem Herunterladen und der Installation können sich Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
 
+   ![App-Startbildschirm](help/analyze/mobile-app/assets/welcome.png)
 
 2. Helfen Sie ihnen beim Zugriff auf Ihre Scorecard. Nachdem sich Benutzer mit leitenden Funktionen bei der App angemeldet haben, wird der Bildschirm "Unternehmen auswählen"angezeigt. Dieser Bildschirm listet die Anmeldeunternehmen auf, zu denen der geschäftsführende Benutzer gehört. Um ihnen beim Aufrufen des Scorecard zu helfen:
 
