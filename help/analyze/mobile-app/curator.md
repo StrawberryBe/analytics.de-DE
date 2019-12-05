@@ -2,7 +2,7 @@
 description: Anleitung zum Einrichten der App-Scorecards.
 title: Adobe Analytics Mobile App Curator Guide
 translation-type: tm+mt
-source-git-commit: 13fddb340dd05a24234814f7ca8579e9861335bd
+source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
 
 ---
 
@@ -24,7 +24,7 @@ Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration v
 
 Die folgende Tabelle beschreibt die Begriffe zum Verständnis der Zielgruppe, Funktionen und Funktionsweise der mobilen Analytics-App.
 
-|Begriff|Definition||—|—||Consumer| Executive persona sieht wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät an||Kurator|Datenliteratpersona, der Erkenntnisse aus Analytics findet und verteilt und die vom Verbraucher anzuzeigenden Scorecards konfiguriert||Kuratierung|Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher||Scorecard|Eine mobile App-Ansicht mit einer oder mehreren Kacheln||Kachel|Ein Rendering für eine Metrik in einer Scorecard-Ansicht||Aufschlüsselung|Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard aufgerufen werden kann. Diese Ansicht wird bei der auf der Kachel angezeigten Metrik erweitert und optional bei weiteren Aufschlüsselungsdimensionen berichtet.||Datumsbereich|Der primäre Datumsbereich für Berichte zu mobilen Anwendungen||Vergleichsdatumsbereich|Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird.|
+|Begriff|Definition||—|—||Consumer| Executive persona sieht wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät an||Kurator|Datenliteratpersona, der Erkenntnisse aus Analytics findet und verteilt und die vom Verbraucher anzuzeigenden Scorecards konfiguriert||Kuratierung|Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher||Scorecard|Eine mobile App-Ansicht mit einer oder mehreren Kacheln||Kachel|Ein Rendering für eine Metrik in einer Scorecard-Ansicht||Aufschlüsselung|Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard aufgerufen werden kann. Diese Ansicht wird bei der auf der Kachel angezeigten Metrik erweitert und optional bei weiteren Aufschlüsselungsdimensionen berichtet.||Datumsbereich|Der primäre Datumsbereich für Berichte zu mobilen Anwendungen||Vergleichsdatumsbereich|Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird|
 
  
 ## Eine Wertungsliste für Führungskräfte erstellen
@@ -38,6 +38,9 @@ Zur Erstellung des Scorecard müssen Sie folgende Schritte ausführen:
 
 1. Greifen Sie auf die Vorlage "Leeres mobiles Scorecard"zu.
 2. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
+
+![Beispiel-Scorecard](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
 
 
 ### Zugriff auf die Vorlage "Leeres mobiles Scorecard"
