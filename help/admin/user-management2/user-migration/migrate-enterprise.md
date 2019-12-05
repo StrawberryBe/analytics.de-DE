@@ -3,7 +3,7 @@ description: Migrieren von Analytics-Benutzerkonten als Enterprise IDs oder Fede
 title: 'Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs '
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -64,9 +64,9 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
 
       > [!TIP] In diesem Schritt empfiehlt Adobe, Ihre Benutzerliste abzugleichen, um sicherzustellen, dass nur Benutzer mit einer gültigen E-Mail-ID in die Migration von Enterprise oder Federated IDs einbezogen werden.
 
-1. Laden Sie in der Admin Console eine Liste der Benutzer der Admin Console herunter:
+1. In the [!UICONTROL Admin Console], download a list of Admin Console users:
 
-   1. Gehen Sie zu [Admin Console](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL Benutzer]** und klicken Sie auf [Benutzerliste in CSV exportieren](https://helpx.adobe.com/enterprise/using/users.html).
+   1. Gehen Sie zu [!UICONTROL Admin Console] &gt; **[!UICONTROL Benutzer]** und klicken Sie auf [Benutzerliste in CSV exportieren](https://helpx.adobe.com/enterprise/using/users.html).
 
       ![](assets/export-csv.png)
 
@@ -119,7 +119,7 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domäne </p> </td> 
-   <td colname="col2"> <p>Achten Sie darauf, dass die Domänen in den Spalten <span class="term">Domäne</span> und <span class="term">E-Mail</span> mit den Domänen übereinstimmen, die in den <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  >Voraussetzungen</a> festgelegt wurden. </p> </td> 
+   <td colname="col2"> <p>Achten Sie darauf, dass die Domänen in den Spalten <span class="term">Domäne</span> und <span class="term">E-Mail</span> mit den Domänen übereinstimmen, die in den Voraussetzungen</a> festgelegt wurden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ländercode </p> </td> 
@@ -130,16 +130,16 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
 
 Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/enterprise/using/users.html).
 
-> [!NOTE] Andere Spalten, wie z. B. *`Product Configurations`* und *`Admin Roles`*, können leer sein.
+> [!NOTE] Andere Spalten wie [!UICONTROL Produktkonfigurationen] und [!UICONTROL Administratorrollen] können leer sein.
 
 1. Laden Sie die Vorlagendatei auf der Registerkarte „Benutzer“ in der Admin Console hoch, indem Sie auf **[!UICONTROL Benutzer gemäß CSV zufügen]** klicken (vgl. Schritt 3).
-1. Führen Sie in Analytics das Migrationstool aus (wie unter [Migrieren von Analytics-Benutzerkonten](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md) beschrieben).
+1. Führen Sie in Analytics das Migrationstool aus (wie unter [Migrieren von Analytics-Benutzerkonten](/help/admin/user-management2/user-migration/t-migrate-users.md) beschrieben).
 1. Klicken Sie auf **[!UICONTROL Migrieren]** &gt; **[!UICONTROL Als Enterprise IDs migrieren]**.
 
    ![Informationen zum Schritt](assets/migrate-as-enterprise.png)
 
    Wenn Sie auf **[!UICONTROL Migrieren]** klicken, werden die Benutzer mit dem Enterprise ID/Federated ID-Konto in der Admin Console verknüpft. Die Berechtigungen des bisherigen Benutzerkontos in Analytics stimmen mit den Berechtigungen überein, die für die Anmeldung von Enterprise/Federated IDs unter **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Produktprofile]** erteilt wurden. Die Benutzer-ID wird im Bereich „Migration abgeschlossen“ angezeigt. Sie können die bisherigen [!DNL my.omniture.com]-Zugriffsdaten nun deaktivieren.
 
-   Nach der Migration von Benutzern ändert sich der Wert in der Spalte „Migrationsstatus“ von *`Not Initiated`* auf *`Migrated`*.
+   After migrating users, the status under the Migration Status column changes from **[!UICONTROL Not Initiated]** to **[!UICONTROL Migrated]**.
 
    Auch Adobe ID-Benutzer, die im Migrationstool erscheinen, können in diesem Prozess migriert werden. Sie müssen sich weiterhin mit ihrer Adobe ID anmelden, bis ein Identitätswechsel durchgeführt ist. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie Hilfe beim Identitätswechsel benötigen.
