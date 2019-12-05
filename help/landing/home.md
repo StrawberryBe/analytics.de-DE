@@ -2,7 +2,7 @@
 title: Technische Handbücher für Adobe Analytics
 description: Benutzerhandbücher und Ressourcen für Analytics
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 Willkommen auf der Homepage für Adobe Analytics-Produkte und -technische Dokumentation. Hier finden Sie Hilfe- und Supportinformationen zu Berichterstellungs-Tools wie [!UICONTROL Analysis Workspace], [!UICONTROL ReportBuilder], Berichterstellungs-API, [!UICONTROL Data Workbench]und [!UICONTROL Activity Map]. Sie können auch auf die Dokumentation für Produkt- und Benutzerverwaltung, Implementierung und alle in Adobe Analytics unterstützten Funktionen zugreifen.
 
-[![Werkzeuge](assets/analyze_50px.png)](/help/analyze/home.md) [Handbuch für Analytics-Tools](/help/analyze/home.md) – Enthält alle Analyse-Tools, die in Adobe Analytics verwendet werden können. Es bietet vor allem eine umfassende Dokumentation zu Analysis Workspace, dem wichtigsten Analyse- und Visualisierungs-Tool für Analytics.
+[![Tools](assets/analyze_50px.png)](/help/analyze/home.md)[Analytics-Tools - Bietet Zugriff auf den ](/help/analyze/home.md)Analysis Workspace[](/help/analyze/analysis-workspace/home.md) , das führende Analyse- und Visualisierungswerkzeug für Analytics. Enthält außerdem alle Analysetools ([!UICONTROL ReportBuilder], Berichterstellungs-API, [!UICONTROL Data Workbench]und [!UICONTROL Activity Map]), die Sie in Adobe Analytics verwenden können.
 
-[![Administration](assets/admin_50px.png)](/help/admin/home.md) [Administratorhandbuch](/help/admin/home.md) – Erläuterung von Administratoraufgaben, u. a. die Konfiguration von Berichten, von Datenströmen und der Servernutzung.
+[![Admin](assets/admin_50px.png)](/help/admin/home.md)-[Administratorhandbuch](/help/admin/home.md) - Erfahren Sie mehr über die Verwaltung von Benutzern und Produkten in der Experience Cloud Admin-Konsole, Konfiguration von Report Suites, Unternehmenseinstellungen, Datenverwaltung, Verwendung von Server-Aufrufen, Traffic-Management und mehr.
 
-[![Implementierung](assets/implement_50px.png)](/help/implement/home.md) [Implementierungshandbuch](/help/implement/home.md) – Festlegen, welche Daten erfasst werden, um Adobe Analytics optimal zu nutzen. Enthält Kapitel zur Implementierung von Adobe Experience Platform Launch und JavaScript.
+[![Implementierung](assets/implement_50px.png)](/help/implement/home.md) [Implementierungshandbuch](/help/implement/home.md) – Festlegen, welche Daten erfasst werden, um Adobe Analytics optimal zu nutzen. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![Komponenten](assets/components_50px.png)](/help/components/home.md) [Komponentenhandbuch](/help/components/home.md) – Erläutert die Funktionen zur Steuerung der Datennutzung. Zu Komponenten gehören u. a. Segmente, berechnete Metriken, Virtual Report Suites und Warnhinweise. Dieses Handbuch enthält auch einen Abschnitt zu Variablen mit einer Erläuterung aller verfügbarer Dimensionen und Metriken.
 
-[![Export](assets/export_50px.png)](/help/export/home.md) [Exporthandbuch](/help/export/home.md) – Erläuterung von Exporten von Daten aus Adobe Analytics u. a. mithilfe von Data Warehouse und Daten-Feeds.
+[![Export](assets/export_50px.png)](/help/export/home.md)[Export-Handbuch](/help/export/home.md) - Daten aus Adobe Analytics abrufen: Verwenden Sie [!UICONTROL Data Feeds] , um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Rufen Sie eine Tabellenausgabe mit [!UICONTROL Data Warehouse]ab.
 
-[![Import](assets/import_50px.png)](/help/import/home.md) [Importhandbuch](/help/import/home.md) – Erläuterung von Importen von Daten in Analytics von externen Quellen durch Bulk-Importe oder in Echtzeit. Dieses Handbuch beinhaltet auch Informationen zu Data Sources, einer Dateneinfüge-API und Data Connectors.
+[![Import](assets/import_50px.png)](/help/import/home.md) [Importhandbuch](/help/import/home.md) – Erläuterung von Importen von Daten in Analytics von externen Quellen durch Bulk-Importe oder in Echtzeit. Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
 
-[![Integration](assets/integrate_50px.png)](/help/integrate/home.md) [Integrationshandbuch](/help/integrate/home.md) – Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen, wie Audience Manager, Advertising Cloud oder Target.
+[![Integrationsleitfaden](assets/integrate_50px.png)](/help/integrate/home.md)für die[Integration](/help/integrate/home.md) - Konfigurieren Sie Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager, Advertising Cloud und Target.
 
 [![Medienanalysen](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)[Medienanalysen-Handbuch](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - Implementieren von Analytics in Audio- oder Videoquellen. Beinhaltet auch Informationen zum Media SDK und zur Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[Data Workbench-Guides](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Data Workbench-Client, Installation, DataSet-Konfiguration und mehr
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[Data Workbench Guides](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Erfahren Sie mehr über die hochflexiblen, leistungsfähigen Funktionen von [!UICONTROL Data Workbench]mit mehreren Kanälen. Umfasst Anleitungen zum [!UICONTROL Data Workbench-Client], zur Installation, [!UICONTROL Datensatzkonfiguration] usw.
 
 [![Technotes](assets/technotes_50px.png)](/help/technotes/home.md) [Technotes zu Analytics](/help/technotes/home.md) – Ein Nachschlagewerk mit hilfreichen Artikeln, die sich nicht auf ein bestimmtes Analysetool oder eine bestimmte Komponente beschränken.
 
