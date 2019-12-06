@@ -3,7 +3,7 @@ description: 'null'
 title: Implementierungs-Roadmap
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9d0b8e1e9bc2d92fb949ceed7bcfaa31818d02b8
 
 ---
 
@@ -70,12 +70,7 @@ Wenn Sie mit Adobe Analytics noch nicht vertraut sind, können Sie mithilfe des 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Validieren Sie die Implementierung. </td> 
-   <td colname="col2"> <p> Unter <a href="/help/implement/impl-testing/impl-validation/impl-validation.md">Test und Validierung</a> erhalten Sie Informationen zur Validierung Ihrer Implementierung. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Prüfen Sie mit dem Adobe Experience Cloud-Debugger, ob Daten gesendet werden. </td> 
    <td colname="col2"> <p>Installieren Sie den <a href="/help/implement/impl-testing/debugger.md">Experience Cloud-Debugger </a>. Laden Sie anschließend eine Seite, auf der Sie den Seiten-Code bereitgestellt haben, und öffnen Sie den Debugger. Der Debugger zeigt Information darüber an, welche erfassten Daten gesendet wurden. </p> </td> 
   </tr> 
