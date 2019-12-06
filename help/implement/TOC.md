@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -181,7 +181,7 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
          + [pageType](js-implementation/page-variables/pagetype.md)
          + [pageURL](js-implementation/page-variables/pageurl.md)
          + [plugins](js-implementation/page-variables/plugins.md)
-         + [„products“](js-implementation/page-variables/products.md)
+         + [products](js-implementation/page-variables/products.md)
          + [propN](js-implementation/page-variables/propn.md)
          + [purchaseID](js-implementation/page-variables/purchaseid.md)
          + [referrer](js-implementation/page-variables/referrer.md)
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Experience Cloud – Hauptdienste](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Geräteübergreifende Besuchererkennung {#cross-device-visitor-id}
       + [Benutzer geräteübergreifend verbinden](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [Auswirkungen der geräteübergreifenden Besucheridentifizierung auf die Daten](js-implementation/xdevice-visid/xdevice-data.md)
-      + [Beispielbesuch](js-implementation/xdevice-visid/visit-example.md)
-      + [Besucher](js-implementation/xdevice-visid/visitors.md)
-      + [Besuche](js-implementation/xdevice-visid/visits.md)
-      + [Segmente erstellen](js-implementation/xdevice-visid/segments.md)
-      + [Geo-Segmentdaten](js-implementation/xdevice-visid/geo-data.md)
+      + [Geräteübergreifendes Beispiel](js-implementation/xdevice-visid/visit-example.md)
       + [Attribution und Persistenz](js-implementation/xdevice-visid/variable-persistence.md)
+      + [Geräteübergreifende Fragen](js-implementation/xdevice-visid/xdevice-faq.md)
    + [Besuchermigration](js-implementation/visitor-migration.md)
    + [Verwendung von „Zeitstempel optional“](js-implementation/timestamps-overview.md)
    + [Umleitungen und Aliase](js-implementation/redirects-overview.md)
 + Test und Validierung {#testing-and-validation}
-   + Test- und Validierungsprozess {#testing-and-validation-process}
-      + [Test- und Validierungsübersicht](impl-testing/impl-validation/impl-validation.md)
-      + [Variable „s_account“ im Debugger identifizieren](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript-JS-Datei](impl-testing/impl-validation/impl-js-file.md)
-      + [Codeänderungen](impl-testing/impl-validation/impl-code-updates.md)
-      + [Variablen und Werte](impl-testing/impl-validation/impl-var-values.md)
-      + [Benutzerdefinierte Variablen](impl-testing/impl-validation/impl-custom-vars.md)
-      + [Abnahme der Implementierung](impl-testing/impl-validation/impl-acceptance.md)
-      + [Beurteilung der Genauigkeit von Daten](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud-Debugger](impl-testing/debugger.md)
    + [Paket-Analyzer](impl-testing/packet-monitor.md)
    + Fehlerbehebung bei der Implementierung {#implementation-troubleshooting}
