@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
+source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
 
 ---
 
@@ -327,6 +327,10 @@ source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
    + [Zeit](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Übersicht über Labs](tech-previews/overview.md)
++ Mobile Anwendung {#mobapp}
+   + [Übersicht über mobile Apps](mobile-app/home.md)
+   + [Kuratorleitfaden](mobile-app/curator.md)
+   + [Schnellstartanleitung für Führungskräfte](mobile-app/executive.md)
 + Progressive Web-Apps {#pwa}
    + [Progressive Web-Apps](pwa/pwa.md)
 + Analytics-Reporting-API {#analytics-reporting-api}
