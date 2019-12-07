@@ -1,11 +1,10 @@
 ---
 description: Diese Berichte beinhalten Informationen über die von den Besuchern verwendeten Browser, Betriebssysteme, Bildschirmauflösungen usw.
-solution: Analytics
 title: Technologie
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ Diese Berichte beinhalten Informationen über die von den Besuchern verwendeten 
   </tr> 
   <tr> 
    <td colname="col1"> Bildschirmfarbtiefen </td> 
-   <td colname="col2"> <p> Zeigt die beliebtesten Farbtiefeneinstellungen Ihrer Besucher an, die auf ihrem Computer konfiguriert wurden. Die Farbtiefe bezeichnet die Anzahl der Farben, die auf dem Bildschirm angezeigt werden können. </p> </td> 
+   <td colname="col2"> <p> Zeigt Informationen über die beliebtesten Bildschirmfarbtiefeneinstellungen der Computer Ihrer Benutzer an. Die Farbtiefe bezeichnet die Anzahl der Farben, die auf dem Bildschirm angezeigt werden können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bildschirmauflösungen </td> 
@@ -60,7 +59,7 @@ Diese Berichte beinhalten Informationen über die von den Besuchern verwendeten 
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript-Version </td> 
-   <td colname="col2"> <p> Zeigt die Versionen von JavaScript an, die die Browser Ihrer Besucher während der Ansicht Ihrer Site verwenden. </p> </td> 
+   <td colname="col2"> <p> Zeigt Informationen über die JavaScript-Version an, die die Browser Ihrer Besucher während des Besuchs auf Ihrer Site verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 
