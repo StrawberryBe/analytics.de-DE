@@ -1,12 +1,11 @@
 ---
 description: Beim Kaufereignis werden Analytics-Variablen verwendet, um Informationen zu dem jeweiligen Einkauf zu erfassen. Mithilfe der Variablen „s.purchaseID“ wird das Ereignis serialisiert (d. h., Duplikate werden entfernt).
 keywords: Analytics Implementation
-solution: Analytics
 title: Kaufereignisse
 topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
