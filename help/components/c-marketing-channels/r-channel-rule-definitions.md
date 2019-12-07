@@ -1,12 +1,11 @@
 ---
 description: Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „Marketingkanalregeln“ auswählen können.
-solution: Analytics
 subtopic: Marketing channels
 title: Marketing-Kanal-Verarbeitungsregeln – Definitionen
 topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,11 +32,11 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr>
   <tr> 
    <td colname="col1"> <p>AMO-ID </p> </td> 
-   <td colname="col2"> <p>Der primäre Rückverfolgungscode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Präfix des Rückverfolgungscodes verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von "AMO-ID"beginnt mit "AL"für die Suche, "AC"für die Anzeige oder "AO"für Social. Wenn die AMO-ID in Marketingkanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu Direct oder None). </p> </td> 
+   <td colname="col2"> <p>Der primäre Trackingcode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von „AMO-ID“ beginnt mit „AL“ für die Suche, „AC“ für die Anzeige oder „AO“ für Social. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu „Direkt“ oder „Keine“). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>AMO-ID </p> </td> 
-   <td colname="col2"> <p>Der von der Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Rückverfolgungscodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Display-ClickThroughs oder Display-ViewThroughs verwendet werden, wenn Sie diese als zwei separate Marketingkanäle betrachten möchten. Dazu können Sie die Marketingkanallogik für "AMO EF-ID"mit ":d"für Display ClickThroughs oder "AMO EF-ID"endet mit ":i"für Display ViewThroughs festlegen. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die AMO-ID-Dimension. </p> </td> 
+   <td colname="col1"> <p>AMO-EF-ID </p> </td> 
+   <td colname="col2"> <p>Der von Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Anzeige-Clickthrough oder Anzeige-Viewthroughs verwendet werden, wenn Sie diese als zwei separate Marketing-Kanäle betrachten möchten. Dazu können Sie die Marketing-Kanal-Logik so festlegen, dass „AMO EF ID“ für Anzeige-Clickthroughs auf „:d“ oder „AMO EF ID“ für Anzeige-Viewthroughs auf „:i“ endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konversionsvariablen </p> </td> 
@@ -49,12 +48,12 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
       <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">Nicht vorhanden</span>: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer verweisenden Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die verweisende Domäne nicht vorhanden. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> Ist leer</span>: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Enthält nicht </span>: Hier können Sie beispielsweise angeben, dass eine verweisende Domäne keinen bestimmten Wert enthält (im Gegensatz zur Auswahl <span class="term"> Enthält </span>). </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Enthält nicht</span>: Hiermit können Sie beispielsweise angeben, dass eine verweisende Domäne einen bestimmten Wert nicht enthält (anders als bei Auswahl von <span class="term"> Enthält</span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Den Kanal identifizieren als </p> </td> 
-   <td colname="col2"> <p>Verbindet die Regel mit dem Marketingkanal, den Sie der Seite <span class="wintitle">Marketingkanal-Manager</span> hinzugefügt haben. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Verbindet die Regel mit dem Marketingkanal, den Sie der Seite <span class="wintitle">Marketingkanal-Manager</span> hinzugefügt haben. </p> <p>Weitere Informationen finden Sie unter <a href="/help/components/c-marketing-channels/c-channels.md"   >Hinzufügen von Marketing-Kanälen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stimmt mit Erkennungsregeln gebührenpflichtiger Suchvorgänge überein </p> </td> 
@@ -70,7 +69,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verweisende Stelle stimmt nicht mit internen URL-Filtern überein </p> </td> 
-   <td colname="col2"> <p>Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit <span class="term">Seiten-URL</span> und <span class="term">Existiert</span> einsetzen, um eine Sammelregel zu erstellen, sodass keine Besuche im Berichtabschnitt <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" >Kein Kanal identifiziert</a> landen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Treffer ignorieren, die mit internen URL-Filtern übereinstimmen </p> </td> 
@@ -82,7 +81,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seite </p> </td> 
-   <td colname="col2"> <p>Der Seitenname einer Webseite auf Ihrer Site, die mit dem Adobe-Web-Beacon getaggt wird. This value is equivalent to <span class="varname"> s.pageName </span>. Beispiele sind <span class="varname"> Homepage </span> und <span class="varname"> Info </span>. </p> </td> 
+   <td colname="col2"> <p>Der Seitenname einer Web-Seite auf Ihrer Site, die unter Verwendung des Adobe Webbeacons mit Tags versehen wurde. Dieser Wert entspricht <span class="varname"> s.pageName </span>. Beispiele sind <span class="varname">Startseite</span> und <span class="varname">Info</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seitendomäne </p> </td> 
@@ -90,7 +89,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seitendomäne und Pfad </p> </td> 
-   <td colname="col2"> <p>Die Domäne und der Pfad, z. B. <span class="filepath">products.example.co.uk/mens/pants/overview.html </span>. </p> </td> 
+   <td colname="col2"> <p>Die Domäne und der Pfad, z. B. <span class="filepath">products.example.co.uk/mens/pants/overview.html</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stammdomäne der Seite (TLD+1) </p> </td> 
@@ -102,11 +101,11 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verweisende Domäne </p> </td> 
-   <td colname="col2"> <p>Die Domäne, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; verweisende Stellen können z. B. <span class="filepath">abcsite.com</span> oder <span class="filepath">xyzsite.com</span> sein . </p> </td> 
+   <td colname="col2"> <p>Die Domäne, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; verweisende Stellen können z. B. <span class="filepath">abcsite.com</span> oder <span class="filepath">xyzsite.com</span> sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abfragezeichenfolgenparameter </p> </td> 
-   <td colname="col2"> <p>If a page URL on your site looks like <span class="filepath"> https://example.com/?page=12345&amp;cat=1 </span>, then page and cat are both query string parameters. (See <span class="filepath"> https://en.wikipedia.org/wiki/Query_string </span>.) </p> <p>Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter <span class="uicontrol">ANY</span> als Ihren Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. </p> </td> 
+   <td colname="col2"> <p>Wenn die Seiten-URL Ihrer Site z. B. <span class="filepath">https://example.com/?page=12345&amp;cat=1</span> lautet, dann sind „page“ und „cat“ beide Abfragezeichenfolgenparameter. (Weitere Informationen finden Sie unter <span class="filepath">https://en.wikipedia.org/wiki/Query_string</span>.) </p> <p>Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter <span class="uicontrol">ANY</span> als Ihren Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verweisende Stelle </p> </td> 
@@ -137,11 +136,11 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
    <td colname="col2"> <p>Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie z. B. nach dem Begriff „computer“ suchen, werden die Suchmaschine und Keyword wie folgt identifiziert: </p> 
     <code>
       Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
-    </code> <p><b></b> Hinweis: n = natürlich; p = gebührenpflichtig </p> </td> 
+    </code> <p><b>Hinweis:</b> „n“ = kostenlos; „p“ = gebührenpflichtig </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Den Kanalwert setzen auf </p> </td> 
-   <td colname="col2"> <p>Neben der Erkenntnis, welcher Marketingkanal einen Besucher zu Ihrer Site bringt, können Sie wissen, welche Bannerwerbung, welcher Suchbegriff oder welche E-Mail-Kampagne im Kanal die Gutschrift für die Site-Aktivität eines Besuchers erhält. Diese ID ist ein Kanalwert, der mit dem Kanal gespeichert wird. Häufig handelt es sich dabei um eine Kampagnen-ID, die in die Landingpage oder die verweisende URL integriert ist. In anderen Fällen ist es eine Kombination aus Suchmaschine und Keyword oder die verweisende URL, die den Besucher aus einem bestimmten Kanal am genauesten identifiziert. </p> </td> 
+   <td colname="col2"> <p>Neben der Erkenntnis, welche Marketing-Kanäle einen Besucher zu Ihrer Site führen, ist es auch von Interesse, welche Bannerwerbung, welches Keyword und welche E-Mail-Kampagne in dem Kanal die Gutschrift für die Site-Aktivität des Besuchers erhält. Diese ID ist ein Kanalwert, der mit dem Kanal gespeichert wird. Häufig handelt es sich dabei um eine Kampagnen-ID, die in die Landingpage oder die verweisende URL integriert ist. In anderen Fällen ist es eine Kombination aus Suchmaschine und Keyword oder die verweisende URL, die den Besucher aus einem bestimmten Kanal am genauesten identifiziert. </p> </td> 
   </tr> 
  </tbody> 
 </table>
