@@ -1,11 +1,10 @@
 ---
 description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
-solution: Analytics
 title: Berichtübersicht
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,9 +43,9 @@ Konversionsberichte liefern eine umfassende, genaue und detaillierte Analyse der
 
 Traffic-Berichte verschaffen Ihnen einen umfassenden Einblick in die Interaktion der Besucher mit Ihrer Website.
 
-* kritische Aspekte des Besucherverhaltens analysieren
-* Verkehrsmuster beobachten und verstehen
-* bevorzugte Site-Inhalte bestimmen
+* kritische Aspekte des Besucherverhaltens analysieren.
+* Verkehrsmuster beobachten und verstehen.
+* bevorzugte Site-Inhalte bestimmen.
 * Besucher nach beliebigen messbaren Kriterien segmentieren.
 
 ## Kampagnen {#concept_A407CDF1D4AA49BAB396A1666E67FC87}
@@ -85,7 +84,7 @@ Rangberichte können um weitere Standardstatistiken ergänzt werden, die beim Au
 | Berechnung | Beschreibung |
 |--- |--- |
 | Max. | Der Maximalwert aller Zeilen in einem bestimmten Datensatz. |
-| Min. | Der Minimalwert aller Zeilen in einem bestimmten Datensatz. |
+| Min | Der Minimalwert aller Zeilen in einem bestimmten Datensatz. |
 | Summe | Die Summe aller Werte für jede einzelne Zeile des Datensatzes.  Bei der Summe werden z. B. alle Besuche eines Besuchers zusammengefasst, anstatt den Besucher (unabhängig von der Zahl seiner Besuche) nur einmal zu erfassen. Dieser Wert ist der umfassende Gesamtwert der erfassten Datenpunkte. |
 | Arithmetisches Mittel | Dieser Mittelwert ist der arithmetische Durchschnittwert der Zeilen eines Datensatzes und wird durch Division der Summe durch die Anzahl ermittelt. Im Gegensatz zum Mittelwert, der im Allgemeinen bei ungleichmäßigen Verteilungen eingesetzt wird, wird das arithmetische Mittel durch Ausreißer stark beeinflusst. |
 | Standardabweichung | Dieser Wert gibt die Abweichung vom erwarteten arithmetischen Mittelwert an. Je geringer die Abweichung, desto näher liegen die Datenpunkte am Mittel. Eine hohe Abweichung bedeutet, dass die Datenpunkte über einen großen Wertebereich verteilt sind. |
@@ -109,7 +108,7 @@ Das arithmetische Mittel wird ähnlich wie bei Spalten in Microsoft Excel berech
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>August 2013 </p> </td> 
+   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>August 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34,4 % </p> <p>29,7 % </p> <p>41,0 % </p> </td> 
