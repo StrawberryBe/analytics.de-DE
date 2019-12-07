@@ -1,12 +1,11 @@
 ---
 description: Wenn ein Benutzer Ihre Site besucht, wird ein beständiges Cookie vom Adobe-Webserver gesetzt, indem es in die HTTP-Antwort an den Browser aufgenommen wird. Dieses Cookie wird in der angegebenen Datenerfassungsdomäne gesetzt.
 keywords: Analytics Implementation
-solution: Analytics
 title: Analytics-Besucher-ID
 topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
