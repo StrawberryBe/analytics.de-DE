@@ -1,11 +1,10 @@
 ---
 description: Sie können dem Schritt 2 des Anforderungs-Assistenten Metriken und Dimensionen hinzufügen, um das Analytics-Layout der Daten in Ihrer Anforderung zu definieren. Die Liste der Metriken und Dimensionen in ReportBuilder wird entsprechend dem Menülayout in Reports & Analysen angezeigt.
-solution: Analytics
 title: Übersicht über Metriken und Dimensionen
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
