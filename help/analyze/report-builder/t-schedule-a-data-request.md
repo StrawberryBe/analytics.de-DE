@@ -1,11 +1,10 @@
 ---
 description: Sie können Berichte entsprechend der von Ihnen festgelegten Datums- und Dateiformate planen.
-solution: Analytics
 title: Planen einer Datenanforderung
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -47,7 +46,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Bericht auswählen | Der Name der Arbeitsmappe. Bei neuen terminierten Berichten erscheint in diesem Feld automatisch der Name der aktiven Arbeitsmappe. |
 | Auswählen | Hierdurch wird die Seite Bericht auswählen angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie einen Arbeitsmappe von der lokalen Festplatte im .xls-Format auswählen, wandelt das System sie in eine .xlsx-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die für den terminierten Bericht ausgewählte Arbeitsmappe denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System statt der vorher hochgeladenen Datei die lokale Datei. Wenn Sie einen Bericht aus dem Zeitplan-Repository auswählen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt, deren Dateiname mit 1 aktualisiert wird. Der neu erstellte terminierte Bericht verwendet die kopierte Arbeitsmappe. |
 | Anpassen | Ermöglicht Ihnen, das Datumsformat anzupassen. |
-| An | Zeigt Ihr gegebenenfalls vorhandenes Outlook-Adressbuch an. |
+| Hierzu | Zeigt Ihr gegebenenfalls vorhandenes Outlook-Adressbuch an. |
 | Senden an: E-Mail | Der E-Mail-Empfänger der Arbeitsmappe. |
 | Senden an: Veröffentlichungsliste | Hiermit zeigen Sie eine Liste der in Ihrem Unternehmen verfügbaren Veröffentlichungslisten an. |
 | Power BI | Weitere Informationen finden Sie unter [Arbeitsmappe in Microsoft Power BI veröffentlichen](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md). |
