@@ -1,12 +1,11 @@
 ---
 description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
-solution: Analytics
 subtopic: Classifications
 title: Klassifizierungsregelsätze
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -56,7 +55,7 @@ Die Seite [!UICONTROL Classifications Rule Builder] bietet die nachfolgenden Fel
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#create-classification-rule-set}
+## Erstellen eines Klassifizierungsregelsatzes {#create-classification-rule-set}
 
 <!-- 
 
@@ -66,27 +65,27 @@ t_classification_rule_set.xml
 
 Benennen Sie den Classification-Regelsatz, wenden Sie die Variable an und legen Sie die Einstellungen für Überschreiben fest.
 
-1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. (Voraussetzung) Definieren Sie die Klassifizierungsstruktur unter **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
    (Informationen zum Hinzufügen von Classifications finden Sie unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in der Admin Tools-Hilfe.)
 
    Variablen werden erst im Bereich [!UICONTROL Neuer Regelsatz] angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde.
 
-   You can create classifications on a variable in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). Wählen Sie dann die Variable aus und klicken Sie auf **[!UICONTROL Classification hinzufügen]**.
+   Sie können Klassifizierungen für eine Variable unter **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic-Klassifizierungen]** (oder **[!UICONTROL Konversion]** &gt; **[!UICONTROL Konversionsklassifizierungen]**) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf **[!UICONTROL Classification hinzufügen]**.
 
-1. To create the rule set, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
+1. Um den Regelsatz zu erstellen, klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Regelsatz hinzufügen]**.
 
    ![](assets/new_rule_set.png)
 
-1. Name the rule set, then click **[!UICONTROL Create Rule Set]**.
+1. Geben Sie dem Regelsatz einen Namen und klicken Sie auf **[!UICONTROL Regelsatz erstellen]**.
 1. Wählen Sie den zu bearbeitenden Regelsatz aus.
 
    ![](assets/classification_rules_page.png)
 
-1. Click **[!UICONTROL Select Report Suites and Variables]**.
+1. Klicken Sie auf **[!UICONTROL Report Suites und Variablen auswählen]**.
 
    Die Report Suite und die Variablenliste werden mit allen klassifizierten Variablen ausgefüllt, die in allen Report Suites Ihres angemeldeten Unternehmens verfügbar sind. Eine Variable in einer Report Suite kann nur zu jeweils einem einzigen Regelsatz gehören.
 
    Siehe *`Variable`* in den Definitionen für die Seite [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) für weitere Informationen.
-1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
+1. Geben Sie die zu verwendenden Report Suites und Variablen an und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Fahren Sie fort, indem Sie [Klassifizierungsregeln zum Regelsatz hinzufügen](/help/components/c-classifications2/crb/classification-rule-set.md).
