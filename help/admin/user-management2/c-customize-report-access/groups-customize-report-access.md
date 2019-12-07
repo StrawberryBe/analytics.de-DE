@@ -1,32 +1,31 @@
 ---
 description: Passen Sie Gruppenberechtigungen für den Zugriff auf Analytics-Tools, Report Suite-Tools, Metriken und Dimensionen an.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
-title: Berichtszugriff anpassen – Übersicht
+title: Anpassen des Berichtszugriffs – Übersicht
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Berichtszugriff anpassen – Übersicht
+# Anpassen des Berichtszugriffs – Übersicht
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Passen Sie Gruppenberechtigungen für den Zugriff auf Analytics-Tools, Report Suite-Tools, Metriken und Dimensionen an.
 
-**[!UICONTROL Neue Gruppe]** hinzufügen &gt; Zugriff auf **[!UICONTROL Bericht]**
+**[!UICONTROL Neue Gruppe hinzufügen]** &gt; **[!UICONTROL Zugriff auf Berichte]**
 
-Im Abschnitt [!UICONTROL Zugriff auf Bericht] auf der Seite [!UICONTROL Benutzergruppe definieren] werden verschiedene Zugriffskategorien aufgeführt, mit deren Hilfe Sie Berechtigungen granular festlegen können.
+Im Abschnitt [!UICONTROL Zugriff auf Berichte] auf der Seite [!UICONTROL Benutzergruppe definieren] werden verschiedene Zugriffskategorien aufgeführt, mit denen Sie Berechtigungen auf granularer Ebene anpassen können.
 
 ![](assets/report-access.png)
 
-Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] und [!UICONTROL Report Builder]) erstellen, die Zugriff auf bestimmte Metriken und Dimensionen (einschließlich eVars) erhält und beispielswiese Segmente oder berechnete Metriken erstellen kann.
+Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] und [!UICONTROL Report Builder]) erstellen, die Zugriff auf bestimmte Metriken und Dimensionen (einschließlich eVars) erhält und beispielsweise Segmente oder berechnete Metriken erstellen kann.
 
 ## Wissenswertes über Berechtigungen {#section_3D25D4A5BD044008870C5B98F696244E}
 
@@ -44,7 +43,7 @@ Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools (
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerspezifische Gruppen </p> </td> 
-   <td colname="col2"> <p> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Anpassung der Analytics-Tools</a>. </p> <p> Benutzer, die zu <span class="term"> Zugriff auf</span> alle Berichte gehören, wurden zu einer benutzerspezifischen Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
+   <td colname="col2"> <p> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Anpassen der Analytics-Tools</a>. </p> <p> Benutzer mit <span class="term">Zugriff auf Berichte</span> wurden zu einer benutzerdefinierten Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">Alle Dimensionen </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">Alle Metriken </li> 
@@ -53,19 +52,19 @@ Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools (
      <li id="li_B35420302AAB42509BD6AF0FA6349BF8">Anomalieerkennung </li> 
      <li id="li_3787E4696C454D3ABD1D75F6C282A9A2">Echtzeitbericht </li> 
      <li id="li_3797DF9C40D1426588819116362962F5">Zugriff auf Analysis Workspace </li> 
-    </ul> <p>Administratoren können benutzerspezifische Gruppen löschen und eigene Gruppen erstellen, da sämtliche zuvor in vordefinierten Gruppen zur Verfügung stehenden Einstellungen auch für die Anpassung mit Einstellungen für den <span class="wintitle">Zugriff auf Berichte</span> unter Benutzergruppen definieren</a> verfügbar sind. </p> </td> 
+    </ul> <p>Administratoren können benutzerdefinierte Gruppen löschen und eigene Gruppen erstellen, da sämtliche zuvor in vordefinierten Gruppen zur Verfügung stehenden Einstellungen auch für die Anpassung mit Einstellungen für den <span class="wintitle">Zugriff auf Berichte</span> unter Benutzergruppen definieren</a> verfügbar sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berechtigungen auf Dimensionsebene </p> </td> 
    <td colname="col2"> <p>Sie können Berechtigungen so anpassen, dass der Zugriff auf bestimmte Dimensionen (zusätzlich zu den Metriken) eingeschränkt oder ausgeweitet werden kann. </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Alle aktuellen Dimensionen und Metriken in benutzerdefinierten Gruppen wurden automatisch in die neuen Kategorien migriert. Wenn in einer bestehenden Gruppe Metriken aktiv sind, werden für diese Gruppe sämtliche Dimensionen, für die neue Berechtigungen erteilt werden (eVars und inhaltsbasiert), und Metriken als Standardeinstellungen festgelegt. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">Variable</a> bestimmt, auf der Classification basiert. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer-Berechtigungen (bisher SAINT): Der Zugriff auf Klassifizierungen wird durch den Zugriff auf die <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">Variable</a> bestimmt, auf die sich die Klassifizierung stützt. </li> 
+    </ul> <p>Siehe <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">Anpassen von Dimensionsberechtigungen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Wird nur neuen Kunden empfohlen sowie Kunden mit Unternehmen, die in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud</a> bereitgestellt wurden. Für bestehende <span class="keyword">Analytics</span>-Kunden ist eine Migration in das Identitätsverwaltungssystem von <span class="keyword">Experience Cloud</span> geplant. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analytics-Benutzermigration in die Admin-Konsole</a>. </p> </td> 
+   <td colname="col2"> <p>Wird nur neuen Kunden empfohlen sowie Kunden mit Unternehmen, die in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud bereitgestellt wurden</a>. Für bestehende <span class="keyword">Analytics</span>-Kunden ist eine Migration in das Identity Management-System von <span class="keyword">Experience Cloud</span> geplant. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics-Benutzermigration zur Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Content-Unterstützung </p> </td> 
