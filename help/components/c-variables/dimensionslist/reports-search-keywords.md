@@ -1,11 +1,10 @@
 ---
 description: Zeigt eine Aufschlüsselung der Suchkeywords an.
-solution: Analytics
 title: Suchkeywords
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,11 +17,11 @@ Zeigt eine Aufschlüsselung der Suchkeywords an.
 
 **Suchkeywords – gebührenpflichtig**: Zeigt eine Auflistung der einzelnen gebührenpflichtigen Suchkeywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Suchkeywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigen.
 
-**Keywords – kostenlos**: Zeigt eine Auflistung der einzelnen kostenlosen Suchkeywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Suchkeywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**Keywords – kostenlos**: Zeigt eine Auflistung der einzelnen kostenlosen Suchkeywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Suchkeywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigen.
 
 >[!IMPORTANT]
 >
->Bei der gebührenpflichtigen und kostenlosen Suche stellten Suchmaschinen (in den meisten Fällen) die Suchbegriffe als Teil der verweisenden Stelle nicht mehr bereit. Demzufolge klassifiziert Adobe die Google (Bing/Yahoo)-Domäne immer als Suche. Basierend auf dem Format und Inhalt der verweisenden Stelle (auch ohne Suchbegriffe) kann Adobe oftmals feststellen, dass es sich um das Ergebnis einer Suche handelt. Daher wird die Suche mit den nicht verfügbaren Suchbegriffen gezählt. [Mehr …](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Bei kostenpflichtigen und kostenlosen Suchvorgängen stellen die Suchmaschinen (in den meisten Fällen) die Suchbegriffe nicht mehr als Teil des Referrers bereit. Demzufolge klassifiziert Adobe die Google (Bing/Yahoo)-Domäne immer als Suche. Basierend auf dem Format und Inhalt der verweisenden Stelle (auch ohne Suchbegriffe) kann Adobe oftmals feststellen, dass es sich um das Ergebnis einer Suche handelt. Daher wird die Suche mit den nicht verfügbaren Suchbegriffen gezählt. [Mehr …](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## Zuordnung, Ablauf und spezielle Werte {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -31,7 +30,7 @@ Zeigt eine Aufschlüsselung der Suchkeywords an.
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
