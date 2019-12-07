@@ -1,13 +1,12 @@
 ---
 description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an Datenerfassungsserver von Adobe gesendet werden.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Debugger
 title: Paket-Analyzer
 topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 
 > [!NOTE] Die Liste ist nicht vollständig, sondern dient zur Angabe häufig eingesetzter Monitore. Wenn Sie einen Paketmonitor haben, der sich als nützlich erwiesen hat, können Sie über die Schaltfläche [!UICONTROL Feedback] rechts in diesem Fenster ein Feedback dazu abgeben.
 
-| Firefox | Internet Explorer | Chrome | Eigenständige Programme |
+| Firefox | Internet Explorer  | Chrome | Eigenständige Programme |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (Tag-Viewer) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (Tag-Viewer) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
