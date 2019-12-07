@@ -1,11 +1,10 @@
 ---
 description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Durchklicks, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
-solution: Analytics
 title: Metriken
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwi
 
 Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 
-Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt. Traffic-Metriken zeigen Daten zum Besuchervolumen. Konversionsmetriken zeigen Daten zu Erfolgsereignissen wie z. B. Käufen, Downloads oder anderen Aktionen, die Sie von Benutzern auf Ihrer Webseite im optimalen Fall erwarten. 
+Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt. Traffic-Metriken zeigen Daten zum Besuchervolumen. Konversionsmetriken zeigen Daten zu Erfolgsereignissen wie z. B. Käufen, Downloads oder anderen Aktionen, die Sie von Benutzern auf Ihrer Webseite im optimalen Fall erwarten.
 
 [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) werden durch die Kombination von Metriken erstellt.
 
