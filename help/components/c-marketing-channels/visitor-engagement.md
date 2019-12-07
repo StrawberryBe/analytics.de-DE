@@ -1,19 +1,18 @@
 ---
-description: Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
-solution: Analytics
+description: Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
 subtopic: Marketing channels
 title: Besucherinteraktionsablauf
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Besucherinteraktionsablauf
 
-Erfahren Sie, wie Sie den Ablauf der Besucherbindung in Marketingkanälen festlegen.
+Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
 
 Die Besucherinteraktion bezeichnet die Zeit, die Sie der vorherigen Aktivität des Besuchers auf Ihrer Site zur Anrechnung im First Touch-Kanal einräumen wollen.
 
@@ -29,10 +28,10 @@ So klicken Besucher häufig durch eine gebührenpflichtige Suchkampagne und lege
 
 Geben Sie den Ablauf der Besucherinteraktion an.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie im [!UICONTROL Report Suite Manager] auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Marketing-Kanäle]** &gt; **[!UICONTROL Besucherinteraktionsablauf]**.
 
    ![](assets/mchannel_expiration.png)
 
-1. Konfigurieren Sie die Felder zum Ablauf der Besucherbindung.
+1. Konfigurieren Sie die Felder für den Besucherinteraktionsablauf.
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
