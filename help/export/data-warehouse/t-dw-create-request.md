@@ -1,11 +1,10 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
-solution: Analytics
 title: Erstellen einer Data Warehouse-Anforderung
 topic: Data warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
