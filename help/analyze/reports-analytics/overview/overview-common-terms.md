@@ -1,11 +1,10 @@
 ---
 description: Eine Einführung in häufig gebrauchte Webanalysebegriffe, die in Marketingberichten verwendet werden
-solution: Analytics
 title: Häufig verwendete Begriffe
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p>Metrik </p> </td> 
-   <td> <p>Quantitative Informationen zu Aktivitäten auf Ihrer Website, z. B. Ansichten, Clickthroughs, Neuladungen, durchschnittlicher Besuchszeit, Datum, Einheiten usw. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
+   <td> <p>Quantitative Informationen zu Aktivitäten auf Ihrer Website, z. B. Ansichten, Clickthroughs, Neuladungen, durchschnittlicher Besuchszeit, Datum, Einheiten usw. </p> <p>Weitere Informationen finden Sie unter <a href="/help/analyze/reports-analytics/metrics.md">Metriken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Dimension </p> </td> 
@@ -36,7 +35,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p> Bericht </p> </td> 
-   <td> <p>Die Grundlage der Funktionen für Marketingberichte. Zu allen erfassten Daten können Sie Onlineberichte ausführen. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"> Report Types</a>. </p> </td> 
+   <td> <p>Die Grundlage der Funktionen für Marketingberichte. Zu allen erfassten Daten können Sie Onlineberichte ausführen. </p> <p>Weitere Informationen finden Sie unter    <a href="/help/analyze/reports-analytics/reports.md"> Berichtstypen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Seitenansicht </p> </td> 
