@@ -1,12 +1,11 @@
 ---
 description: Ruft die Ladezeit für die Seite bis auf die Zehntelsekunde genau ab und ermöglicht das Speichern des Werts in einem Ereignis „prop“ und „eVar“ und/oder in einem numerischen Ereignis.
 keywords: Analytics Implementation
-solution: Analytics
 title: getLoadTime
 topic: Developer and implementation
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
