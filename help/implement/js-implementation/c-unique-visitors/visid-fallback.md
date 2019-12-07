@@ -1,12 +1,11 @@
 ---
 description: Wenn andere Besucher-ID-Methoden fehlschlagen, setzt Adobe ein Ausweich-Cookie oder verwendet eine Kombination aus IP-Adresse und Benutzeragent, um den Besucher zu identifizieren.
 keywords: Analytics Implementation
-solution: Analytics
 title: Ausweich-ID-Methoden
 topic: Developer and implementation
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
