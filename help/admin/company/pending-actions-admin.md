@@ -1,11 +1,10 @@
 ---
 description: Auf der Seite „Ausstehende Aktionen verwalten“ können Sie eine Liste der in Ihrer Analytics-Umgebung ausstehenden Aktionen anzeigen. Bei einer ausstehenden Aktion handelt es sich um eine Systemänderung, die vor der Umsetzung von Adobe genehmigt werden muss.
-solution: Analytics
 title: Ausstehende Aktionen
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
