@@ -1,19 +1,18 @@
 ---
-description: Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen verwenden, die in Analysis Workspace verfügbar sind.
+description: Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die in Analysis Workspace verfügbar sind.
 keywords: Analysis Workspace
-solution: Analytics
-title: In Analysis Workspace verfügbare Hotkeys
+title: In Analysis Workspace verfügbare Tastaturbefehle
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# In Analysis Workspace verfügbare Hotkeys
+# In Analysis Workspace verfügbare Tastaturbefehle
 
-Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen verwenden, die in Analysis Workspace verfügbar sind.
+Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die in Analysis Workspace verfügbar sind.
 
 `CTRL` = Windows
 
@@ -23,7 +22,7 @@ Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen 
  <tbody> 
   <tr> 
    <td> <b> Aktion</b> </td> 
-   <td> <b> Tastenkombination</b> </td> 
+   <td> <b> Tastaturbefehl</b> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alle löschen </p> </td> 
@@ -31,39 +30,39 @@ Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kopieren </p> </td> 
-   <td colname="col2"> <p>STRG (oder Cmd) + C </p> </td> 
+   <td colname="col2"> <p>STRG (oder Befehl) + C </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erstellen eines Warnhinweises </p> </td> 
-   <td colname="col2"> <p>STRG (oder Cmd) + UMSCHALT + A </p> </td> 
+   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + A </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Berechnete Metrik erstellen </p> </td> 
-   <td> <p> STRG (oder Cmd) + UMSCHALT + C </p> </td> 
+   <td> <p> STRG (oder Befehl) + UMSCHALT + C </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Datumsbereich erstellen </p> </td> 
-   <td colname="col2"> <p> STRG (oder Cmd) + UMSCHALT + D </p> </td> 
+   <td colname="col2"> <p> STRG (oder Befehl) + UMSCHALT + D </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Neues Projekt erstellen </p> </td> 
-   <td colname="col2"> <p> STRG (oder Cmd) + UMSCHALT + P </p> </td> 
+   <td colname="col2"> <p> STRG (oder Befehl) + UMSCHALT + P </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Segment erstellen </p> </td> 
-   <td colname="col2"> <p> STRG (oder Cmd) + UMSCHALT + E </p> </td> 
+   <td colname="col2"> <p> STRG (oder Befehl) + UMSCHALT + E </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Projekt kuratieren </p> </td> 
-   <td colname="col2"> <p>STRG (oder Cmd) + UMSCHALT + G </p> </td> 
+   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + G </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Als CSV herunterladen </p> </td> 
-   <td colname="col2"> <p>STRG (oder Cmd) + UMSCHALT + V </p> </td> 
+   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + V </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Als PDF herunterladen </p> </td> 
-   <td colname="col2"> <p>STRG (oder Cmd) + UMSCHALT + B </p> </td> 
+   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + B </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Projektverknüpfung abrufen </p> </td> 
@@ -83,7 +82,7 @@ Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen 
   </tr> 
   <tr> 
    <td> <p> Vorhandenes Projekt öffnen </p> </td> 
-   <td> <p> STRG (oder Cmd) + O </p> </td> 
+   <td> <p> STRG (oder Befehl) + O </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Neuer Attributionsbereich </p> </td> 
@@ -102,7 +101,7 @@ Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen 
    <td colname="col2"> <p>ALT + A </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Neue Freiform-Tabelle </p> </td> 
+   <td colname="col1"> <p>Neue Freiformtabelle </p> </td> 
    <td colname="col2"> <p>ALT + 1 </p> </td> 
   </tr> 
   <tr> 
@@ -123,11 +122,11 @@ Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen 
   </tr> 
   <tr> 
    <td> <p> Projekt speichern </p> </td> 
-   <td> <p> STRG (oder Cmd) + S </p> </td> 
+   <td> <p> STRG (oder Befehl) + S </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Projekt speichern unter </p> </td> 
-   <td> <p> STRG (oder Cmd) + UMSCHALT + S </p> </td> 
+   <td> <p> STRG (oder Befehl) + UMSCHALT + S </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Als Vorlage speichern </td> 
@@ -143,19 +142,19 @@ Tastaturinteraktionen, Tastenkombinationen und Point-and-Click-Verhaltensweisen 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Als Landingpage festlegen </p> </td> 
-   <td colname="col2"> STRG (oder Cmd) + UMSCHALT + L </td> 
+   <td colname="col2"> STRG (oder Befehl) + UMSCHALT + L </td> 
   </tr> 
   <tr> 
    <td> <p> Projekt freigeben </p> </td> 
-   <td> <p> STRG (oder Cmd) + G </p> </td> 
+   <td> <p> STRG (oder Befehl) + G </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wiederherstellen </p> </td> 
-   <td colname="col2"> <p>STRG (oder Cmd) + UMSCHALT + Z </p> </td> 
+   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + Z </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Rückgängig </p> </td> 
-   <td> <p>STRG (oder Cmd) + Z </p> </td> 
+   <td> <p>STRG (oder Befehl) + Z </p> </td> 
   </tr> 
  </tbody> 
 </table>
