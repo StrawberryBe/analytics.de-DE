@@ -1,13 +1,12 @@
 ---
 description: Seitenvariablen werden direkt in Berichten ausgefüllt, z. B. pageName, List Props, List Variables usw.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,6 +27,6 @@ dc.xml
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | Keine | Keine | 112 |
+| nicht angegeben | nicht angegeben | nicht angegeben | 112 |
 
 Das Data Center ist in der Variablen *`dc`* zum Abgleich mit [!UICONTROL ActionSource] angegeben.
