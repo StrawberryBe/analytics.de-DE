@@ -1,11 +1,10 @@
 ---
 description: Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die mit dem Segment Builder erstellt wurden und mit dem Segment-Manager verwaltet werden.
-solution: Analytics
 title: Übersicht über den Segmentierungs-Workflow
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ seg_workflow.xml
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png) Segmente [ planen](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
+![](assets/step1_icon.png) [ Segmente planen](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
 
 Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment mit Blick auf seinen Einsatzzweck und die konkrete Verwendung entworfen?
 
@@ -37,17 +36,17 @@ Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die  Che
 
 Erstellen und bearbeiten Sie Segmente für die Verwendung mit sämtlichen Analytics-Funktionen.
 
-Siehe [Build Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) for how to build segments with the THEN operator.
+Siehe [Erstellen sequenzieller Segmente](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem DANN-Operator.
 
-![](assets/step3_icon.png) [ Tag-Segmente](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
+![](assets/step3_icon.png) [ Segmente taggen](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
 Taggen Sie Segmente, um die Organisation und Freigabe zu erleichtern. Das Taggen ersetzt die Ordnerhierarchien in Ad-hoc-Analysen. Erhalten Sie Informationen zum Planen und Zuweisen von Tags für einfache und erweiterte Suchvorgänge und für die Organisation.
 
-![](assets/step4_icon.png) Segmente [ genehmigen](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)
+![](assets/step4_icon.png) [ Segmente genehmigen](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)
 
 Genehmigen Sie Segmente, um diese zu autorisieren.
 
-![](assets/step5_icon.png) Segmente [ anwenden](/help/components/c-segmentation/c-segmentation-workflow/t-seg-apply.md)
+![](assets/step5_icon.png) [ Segmente anwenden](/help/components/c-segmentation/c-segmentation-workflow/t-seg-apply.md)
 
 Sie können Segmente direkt in einem Bericht auf der Segmentleiste (Segmente anzeigen) anwenden.
 
@@ -55,11 +54,11 @@ Sie können Segmente direkt in einem Bericht auf der Segmentleiste (Segmente anz
 
 Geben Sie Ihre Segmente für die gewünschte Zielgruppe in anderen Analytics-Werkzeugen und in Adobe Target und der Adobe Experience Cloud frei.
 
-![](assets/step7_icon.png) Segmente [ filtern](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
+![](assets/step7_icon.png) [ Segmente filtern](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
 
 Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“.)
 
-![](assets/step8_icon.png) Segment als Favoriten [ markieren](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
+![](assets/step8_icon.png) [ Segment als Favoriten markieren](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
 
 Das Kennzeichnen von Segmenten als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren.
 
