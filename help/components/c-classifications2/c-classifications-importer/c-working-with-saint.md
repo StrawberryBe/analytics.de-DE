@@ -1,19 +1,18 @@
 ---
-description: Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
-solution: Analytics
+description: Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics hoch. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
 subtopic: Classifications
-title: Klassifizierungsimport – Übersicht
+title: Classifications importer – Übersicht
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Klassifizierungsimport – Übersicht
+# Classifications importer – Übersicht
 
-Verwenden Sie den Importeur, um Classifications in Adobe Analytics hochzuladen. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
+Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics hoch. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
 
 **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**
 
@@ -21,6 +20,6 @@ Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweis
 
 > [!NOTE] Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 
-See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
+Unter [„Numerisch 2“-Klassifizierungen](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) finden Sie Informationen zum Hochladen von Daten mithilfe von „Numerisch 2“-Klassifizierungen.
 
 Siehe [Häufige Saint-Upload-Probleme](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme beschrieben werden, die sich aus falschen Dateiformaten und Dateiinhalten ergeben.
