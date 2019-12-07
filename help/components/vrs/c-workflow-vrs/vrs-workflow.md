@@ -1,12 +1,11 @@
 ---
 description: Eine Übersicht über die Schritte, die zur Planung der Implementierung einer Virtual Report Suite unternommen werden müssen.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Virtual Report Suite – Workflow
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Eine Übersicht über die Schritte, die zur Planung der Implementierung einer Vi
 
 ![](assets/step1_icon.png) Planung Ihrer Virtual Report Suite-Strategie.
 
-Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/components/vrs/vrs-considerations.md) and the FAQs as you decide on your strategy.
+Machen Sie sich mit den [Überlegungen zum globalen/Multisuite-Tagging](/help/components/vrs/vrs-considerations.md) und den häufig gestellten Fragen vertraut, bevor Sie sich für eine Strategie entscheiden.
 
 ![](assets/step2_icon.png) [Erstellen einer Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) durch Anwendung eines oder mehrerer Segmente auf eine übergeordnete Report Suite.
 
@@ -27,7 +26,7 @@ Nachdem sie erstellt wurde, wird eine Virtual Report Suite auf der Benutzeroberf
 
 Klicken Sie auf das Info-Symbol neben dem Namen der Report Suite, um [die zugehörigen Informationen anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png)Einrichten von [Gruppenberechtigungen](/help/components/vrs/c-workflow-vrs/vrs-create.md)
+![](assets/step3_icon.png)Einrichten von [Gruppenberechtigungen](/help/components/vrs/c-workflow-vrs/vrs-create.md).
 
 Beim Erstellen einer Virtual Report Suite ist es erforderlich, dass Sie Gruppenberechtigungen hinzufügen.
 
