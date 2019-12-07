@@ -1,10 +1,9 @@
 ---
 description: Berechnete Metriken ermöglichen Ihnen die Kombination von Metriken zu mathematischen Operationen, die als neue Metriken eingesetzt werden. Diese Metriken können für Berichte erstellt werden, denen Sie Metriken hinzufügen möchten. Administratoren können berechnete Metriken für alle Benutzer einer Report Suite erstellen.
-solution: Analytics
 title: Berechnete Metriken
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
 translation-type: tm+mt
-source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
