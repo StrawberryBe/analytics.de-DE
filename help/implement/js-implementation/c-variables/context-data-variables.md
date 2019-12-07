@@ -1,13 +1,12 @@
 ---
 description: Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefinierte Variablen definieren, die von Verarbeitungsregeln gelesen werden können.
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: Kontextdatenvariablen
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ Mithilfe von Kontextdatenvariablen können Sie für jede Seite benutzerdefiniert
 Statt Props und eVars in Ihrem Code explizit Werte zuzuweisen, können Sie die Daten in Kontextdatenvariablen senden, die mithilfe von Verarbeitungsregeln zugeordnet werden. Verarbeitungsregeln bieten eine leistungsfähige grafische Benutzeroberfläche, in der Sie Änderungen an Daten bei deren Erhalt vornehmen können. Auf Grundlage der in Kontextdaten gesendeten Werte können Sie Ereignisse festlegen, Werte in eVars und Eigenschaftsvariablen kopieren und zusätzliche bedingte Anweisungen ausführen.
 
 > [!NOTE] Bei Kontextvariablen wird die Schreibweise nicht beachtet. Die beiden folgenden Variablen sind beispielsweise im Prinzip identisch:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >und
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -53,7 +54,7 @@ Da Verarbeitungsregeln nur bei der Erfassung von Daten angewendet werden, müsse
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Unterstützte Namen und Zeichen </p> </td> 
-   <td colname="col2"> <p>Namen von Kontextdatenvariablen dürfen nur alphanumerische Zeichen, Unterstriche und Punkte enthalten. Alle anderen Zeichen werden entfernt. Kontextdatenvariablen dienen nicht numerischen Zwecken, sondern als Benennungen. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>Namen von Kontextdatenvariablen dürfen nur alphanumerische Zeichen, Unterstriche und Punkte enthalten. Alle anderen Zeichen werden entfernt. Kontextdatenvariablen dienen nicht numerischen Zwecken, sondern als Benennungen. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. Alle an die <code> login_page-home </code>-Variable gesendeten Daten werden unter <code> login_pagehome </code> zugeordnet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Namespace </p> </td> 
