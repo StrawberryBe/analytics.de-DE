@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: Analytics Implementation
-solution: Analytics
 title: Adobe-Ausschlüsse implementieren
 topic: Developer and implementation
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,6 +32,6 @@ Besucher können im [Datenschutzzentrum von Adobe](https://www.adobe.com/privacy
 Adobe bietet drei Ausschlussmöglichkeiten für Adobe Analytics (einschließlich [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
 * Wenn Sie Adobe Analytics-Produkte mit Ihrem eigenen Erstanbieter-Cookie implementieren, müssen Sie Ihren eigenen [benutzerspezifischen Ausschluss-Link](/help/implement/js-implementation/data-collection/opt-out-link.md) für Ihre Website-Besucher entwickeln.
-* Ihre Kunden haben die Möglichkeit des Ausschlusses mittels der Cookieeinstellungen des Browsers. Lesen Sie hierzu auch [Enable privacy settings for browser cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html) (in englischer Sprache).
+* Ihre Kunden haben die Möglichkeit des Ausschlusses mittels der Cookieeinstellungen des Browsers. Lesen Sie hierzu auch [Datenschutzeinstellungen für Browser-Cookies aktivieren](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Unabhängig davon, welchen Mechanismus zum Ausschluss von der Datenerfassung Sie verwenden, empfiehlt Adobe, dass Sie die Verfügbarkeit eines solchen Mechanismus in Ihren Datenschutzrichtlinien klar beschreiben und auch anderweitig jegliche gesetzlichen Vorschriften oder empfohlene Best Practices einhalten.
