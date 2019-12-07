@@ -1,11 +1,10 @@
 ---
 description: Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filter aktuell ausgewählt ist, entspricht der Gesamtwert dem gefilterten Gesamtwert anstatt dem Report Suite-Gesamtwert. Wenn kein Filter ausgewählt ist, entspricht der Gesamtwert dem Report Suite-Gesamtwert.
-solution: Analytics
 title: Gesamt
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,8 +30,8 @@ Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filt
    <td colname="col2"> <p>Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ad Hoc Analysis  </p> </td> 
-   <td colname="col2"> <p>Keine </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
+   <td colname="col2"> <p>nicht angegeben </p> </td> 
   </tr> 
  </tbody> 
 </table>
