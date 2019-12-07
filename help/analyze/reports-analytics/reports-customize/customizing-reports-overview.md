@@ -1,11 +1,10 @@
 ---
 description: 'Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw. '
-solution: Analytics
 title: Übersicht über das Anpassen von Berichten
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,7 +58,7 @@ Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öff
 1. Klicken Sie oben rechts auf das Kalendersymbol.
 1. Wählen Sie ein Datum aus.
 
-   Sie haben folgende Möglichkeiten:
+   Sie können:
 
    * Sie können bis zu drei Tages-, Monats- oder Jahreszeiträume anzeigen.
    * Sie können mit dem Cursor einen Datenbereich auswählen.
