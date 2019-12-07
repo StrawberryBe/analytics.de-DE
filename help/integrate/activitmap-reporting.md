@@ -1,11 +1,10 @@
 ---
 description: Administrative Schritte für die Aktivierung der Activity Map-Berichterstellung in Analytics
-solution: Analytics
 title: Activity Map-Berichterstellung
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
