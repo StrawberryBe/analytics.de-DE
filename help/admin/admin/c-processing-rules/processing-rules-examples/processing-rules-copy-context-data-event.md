@@ -1,17 +1,16 @@
 ---
 description: Verarbeitungsregeln können Ereignisse auf der Grundlage von Kontextdatenvariablen auslösen.
-solution: Analytics
 subtopic: Processing rules
-title: Ereignis mit einer Kontextdatenvariable festlegen
+title: Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Ereignis mit einer Kontextdatenvariable festlegen
+# Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 
 Verarbeitungsregeln können Ereignisse auf der Grundlage von Kontextdatenvariablen auslösen.
 
@@ -21,11 +20,11 @@ Kontextdatenvariablen werden in AppMeasurement im folgenden Format spezifiziert:
  s.contextData['search_term']
 ```
 
-Die [!UICONTROL Kontextvariablenliste] enthält alle Variablen, die in den vorherigen 30 Tagen an die Report Suite gesendet wurden. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
+Die [!UICONTROL Kontextvariablenliste] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, diese aber nicht an die aktuelle Report Suite gesendet haben, können Sie einen Wert hinzufügen, indem Sie den Variablennamen eingeben und auf **[!UICONTROL Kontextdaten für Variablennamen hinzufügen]** klicken:
 
 ![](assets/add-context-variable.png)
 
-Die folgende Regeldefinition erweitert die Regel "Kontextdatenvariable [kopieren"auf eine eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) -Regel, um auch bei jedem Treffer, der eine spezifische Kontextdatenvariable enthält, ein Ereignis festzulegen:
+Die folgende Regeldefinition erweitert die Regel [Kontextdatenvariable in eine eVar kopieren](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md), um bei jedem Hit, der eine bestimmte Kontextdatenvariable enthält, auch ein Ereignis zu setzen:
 
 | Regelsatz | Wert |
 |---|---|
