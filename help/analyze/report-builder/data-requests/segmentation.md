@@ -1,11 +1,10 @@
 ---
 description: So können Sie in ReportBuilder Adobe Analytics-Segmente hinzufügen, bearbeiten, anwenden und filtern.
-solution: Analytics
 title: Segmente verwalten
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,13 +68,13 @@ Folgende Filter stehen zur Verfügung:
 
 | Filtername | Beschreibung |
 |---|---|
-| Tags | Filtern Sie Segmente mit bestimmten Tags. Beachten Sie, dass Tagfilter mit dem Operator UND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
+| Tags | Filtert Segmente nach bestimmten Tags zu platzieren. Beachten Sie, dass Tagfilter mit dem Operator UND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
 | Inhaber | Filtern Sie Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator ODER arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Segmente angezeigt, die **beiden** Inhabern gehören. |
 | Weitere Filter &gt; Nur *Name der Report Suite* | If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only. |
 | Weitere Filter &gt; Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
-| Weitere Filter &gt; Für mich freigegeben | Es werden alle Segmente angezeigt, die für Sie freigegeben wurden. |
-| Weitere Filter &gt; Favoriten | Es werden alle Segmente angezeigt, die Sie als Favoriten markiert haben. |
-| Weitere Filter &gt; Genehmigt | Es werden alle offiziell genehmigten Segmente angezeigt. |
+| Weitere Filter &gt; Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie freigegeben haben. |
+| Weitere Filter &gt; Favoriten | Zeigt alle Segmente an, die Sie als Favoriten. |
+| Weitere Filter &gt; Genehmigt | Zeigt alle offiziell genehmigten Segmente an. |
 
 ## Segmentsteuerelement zu einer Arbeitsmappe hinzufügen {#section_E3E5149A8464441FA5445A98DBD520AC}
 
@@ -115,7 +114,7 @@ In ReportBuilder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder 
 
    | Option | Beschreibung |
    |---|---|
-   | Segment hinzufügen | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
+   | Fügen Sie Segment | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
    | Segment(e) ersetzen | Sie können auswählen, welche(s) Segment(e) Sie durch ein Segment bzw. mehrere Segmente ersetzen möchten. |
    | Alle Segmente ersetzen nach | Sie können eines oder mehrere Segmente auswählen und damit vorhandene Segmente ersetzen. |
    | Segment(e) entfernen | Sie können Segmente aus Anforderungen entfernen. |
