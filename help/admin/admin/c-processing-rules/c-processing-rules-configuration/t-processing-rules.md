@@ -1,12 +1,11 @@
 ---
 description: Verarbeitungsregeln werden in Report Suites festgelegt.
-solution: Analytics
 subtopic: Processing rules
 title: Erstellen von Verarbeitungsregeln
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Verarbeitungsregeln werden in Report Suites festgelegt.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Eine Report Suite auswählen.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
-1. Klicken Sie auf der Seite **Verarbeitungsregeln** auf das Register **[!UICONTROL Regel hinzufügen]**.
-1. Click **[!UICONTROL Add Condition]** and then select when the rule applies.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Wählen Sie eine Report Suite aus.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Verarbeitungsregeln]**.
+1. Klicken Sie auf der Seite **[!UICONTROL Verarbeitungsregeln]** auf das Register **[!UICONTROL Regel hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** und legen Sie anschließend fest, wann die Regel angewendet werden soll.
 
-   Wenn Sie mehrere Bedingungen hinzufügen, klicken Sie auf die Dropdownliste **[!UICONTROL Alle], und wählen Sie die Bedingungen aus, die erfüllt sein müssen, damit die Regel angewendet wird.** Wenn Sie keine Bedingungen hinzufügen, wird die definierte Aktion immer ausgeführt.
+   Wenn Sie mehrere Bedingungen hinzufügen, klicken Sie auf die Dropdown-Liste **[!UICONTROL Alle]**, und wählen Sie die Bedingungen aus, die erfüllt sein müssen, damit die Regel angewendet wird. Wenn Sie keine Bedingungen hinzufügen, wird die definierte Aktion immer ausgeführt.
 
-1. Click **[!UICONTROL Add Action]** and then select the action you want performed when the conditions match.
+1. Klicken Sie auf **[!UICONTROL Aktion hinzufügen]** und wählen Sie anschließend die Aktion aus, die beim Eintreten der Bedingungen durchgeführt werden soll.
 1. Fügen Sie eine Notiz mit Details zur Regel hinzu, und klicken Sie auf **[!UICONTROL Speichern]**.
 
    Wenn mehrere Regeln vorliegen, können Sie die Verarbeitungsreihenfolge ändern, indem Sie die Regeln auf der Seite per Drag and Drop verschieben.
