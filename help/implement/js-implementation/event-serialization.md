@@ -1,12 +1,11 @@
 ---
 description: 'Bei der Ereignis-Serialisierung werden Maßnahmen implementiert, um zu verhindern, dass doppelte Ereignisse in die Analytics-Berichterstattung aufgenommen werden. Dazu kann es kommen, wenn ein Benutzer die Seite mehrmals aktualisiert, mehrmals zu einer bestimmten Seite navigiert oder die Webseite auf einem Computer speichert. (Beispiel: Wenn ein Kunde eine Kaufbestätigungsseite auf seinem Computer speichert, würden Bestellungen und Umsatz jedes Mal, wenn der Kunde die Seite anzeigt, erneut gezählt, wenn die Ereignis-Serialisierung nicht eingerichtet wäre.)'
 keywords: Analytics Implementation
-solution: Analytics
 title: Übersicht über die Ereignis-Serialisierung
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
