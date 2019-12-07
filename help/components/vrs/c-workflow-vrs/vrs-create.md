@@ -1,12 +1,11 @@
 ---
 description: Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Virtual Report Suites erstellen
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,9 +16,9 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
 
 * Nicht-Admin-Benutzer können den Virtual Report Suite Manager nicht sehen.
 * Virtual Report Suites können nicht freigegeben werden. Die Freigabe erfolgt über Gruppen/Berechtigungen.
-* Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. Sie müssen auf "Alle anzeigen"klicken, um die aller anderen anzuzeigen.
+* Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. Sie müssen auf „Alle anzeigen“ klicken, um die aller anderen anzuzeigen.
 
-1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
+1. Navigieren Sie zu **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Virtual Report Suites]**.
 1. Klicken Sie auf **[!UICONTROL Hinzufügen +]**.
 
    ![](assets/new_vrs.png)
