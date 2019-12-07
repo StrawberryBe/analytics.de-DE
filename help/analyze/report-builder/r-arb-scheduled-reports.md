@@ -1,11 +1,10 @@
 ---
 description: Feldbeschreibungen für den Manager für geplante Aufgaben.
-solution: Analytics
 title: Manager für geplante Aufgaben
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Im Manager für geplante Aufgaben können Sie eine Liste mit den vorhandenen ter
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Berichtname </p> </td> 
+   <td colname="col1"> <p>Berichtsname </p> </td> 
    <td colname="col2"> <p>Dies ist der Name des terminierten Berichts. </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +76,7 @@ Im Manager für geplante Aufgaben können Sie eine Liste mit den vorhandenen ter
    <td colname="col2"> Dies ist der Name des terminierten Berichts. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Datums </p> </td> 
+   <td colname="col1"> <p>Datum </p> </td> 
    <td colname="col2"> Das Datum und die Uhrzeit, an denen der Bericht zuletzt gesendet wurde. </td> 
   </tr> 
   <tr> 
