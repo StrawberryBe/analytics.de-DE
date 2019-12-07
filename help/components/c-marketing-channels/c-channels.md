@@ -1,19 +1,18 @@
 ---
-description: Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
-solution: Analytics
+description: Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Marketing-Kanäle verwalten
 
-Hinzufügen oder Aktivieren von Marketingkanälen im Marketingkanal-Manager. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
+Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
 
 Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
 
@@ -28,27 +27,27 @@ Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
 > [!NOTE] Ein Kanal kann nicht gelöscht werden. Wenn Sie einen Kanal nicht verwenden möchten, können Sie ihn deaktivieren oder umbenennen oder ihn zur späteren Verwendung aufbewahren.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Wählen Sie im [!UICONTROL „Report Suite Manager“] die Report Suite aus.
 
    Wenn Sie mehrere Report Suites auswählen, wählen Sie eine Vorlage aus, die die Einstellungen aus der Vorlage in die jeweiligen Report Suites kopiert.
 
    Siehe [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](/help/components/c-marketing-channels/t-template.md).
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Marketing-Kanäle]** &gt; **[!UICONTROL Marketing-Kanal-Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
+   Wenn in Ihrer Report Suite keine Kanäle definiert wurden, wird die Seite [Automatisches Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) angezeigt.
 
 1. Klicken Sie auf der Seite [!UICONTROL Marketingkanal-Manager]**auf[!UICONTROL Kanal hinzufügen]**.
 
    Diese Option steht nicht zur Verfügung, wenn 25 Kanäle definiert wurden.
 
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
-1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Klicken Sie zur Regelkonfiguration für den Kanal auf **[!UICONTROL Marketing-Kanal-Verarbeitungsregeln]**.
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
+   Weitere Informationen finden Sie unter [Einrichten von Marketing-Kanal-Verarbeitungsregeln](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
+## Marketing-Kanal-Manager – Benutzeroberflächendefinitionen {#mktg-channel-mgr}
 
 Felddefinitionen für die Seite [!UICONTROL Marketingkanal-Manager].
 
@@ -78,7 +77,7 @@ Felddefinitionen für die Seite [!UICONTROL Marketingkanal-Manager].
   </tr> 
   <tr> 
    <td colname="col1"> <p>Typ </p> </td> 
-   <td colname="col2"> <p> Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können <span class="uicontrol">Online</span> oder <span class="uicontrol">Offline</span> auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offlinekanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Data Sources</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können <span class="uicontrol">Online</span> oder <span class="uicontrol">Offline</span> auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offlinekanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. </p> <p>Siehe <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Data Sources</a>. </p> <p>Weitere Informationen finden Sie unter <a href="/help/components/c-marketing-channels/t-offline-data.md"   >Hinzufügen von Offline-Daten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kanalfarbe </p> </td> 
