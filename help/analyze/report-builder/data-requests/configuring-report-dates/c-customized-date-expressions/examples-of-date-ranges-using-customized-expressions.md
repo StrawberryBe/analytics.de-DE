@@ -1,11 +1,10 @@
 ---
 description: Beispiele, Hinweise und Syntaxhinweise zur Verwendung von Datumsbereichen in benutzerdefinierten Ausdrücken.
-solution: Analytics
 title: Beispiele für Datumsbereiche mit benutzerdefinierten Ausdrücken
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 
 Wenn heute Montag, der 10. November 2011 ist, das aktuelle Datum nehmen und eine Woche abziehen, um die letzte volle Woche im Oktober zu erhalten.
 
-**Beispiel 2**
+**Beispiel 2**
 
 Dem Beginn des Jahres (dem Monat Januar) vier Monate hinzufügen, um den Mai zu erhalten; dem ersten Tag des Monats zwei Tage hinzufügen, um den dritten Tag des Monats zu erhalten.
 
