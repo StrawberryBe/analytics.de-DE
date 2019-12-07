@@ -1,11 +1,10 @@
 ---
 description: Ermittelt Seiten mit beschädigten Links und misst den Traffic zu nicht vorhandenen Seiten. Diese Seiten werden meist als 404-Seiten bezeichnet. In diesem Bericht sehen Sie, wo und wie oft die Besucher auf diese beschädigten Seiten zugreifen.
-solution: Analytics
 title: Seiten nicht gefunden
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
