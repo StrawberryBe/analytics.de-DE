@@ -1,12 +1,11 @@
 ---
 description: Informationen zum Planen, Herunterladen und Verteilen von Berichten.
-solution: Analytics
 subtopic: Schedule
 title: Berichtsplanung und -verteilung
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -101,7 +100,7 @@ Informationen über die Verwaltung von terminierten Berichten
 
 Im [!UICONTROL Manager für geplante Berichte] können regelmäßige Berichtauslieferungen bearbeitet und gelöscht werden. Richten Sie Auslieferungspläne ein, um Ihre Berichte per E-Mail oder FTP an bestimmte Adressen zu senden. Sie können diese Pläne zum automatischen Versand der Berichte in bestimmten, befristeten oder unbefristeten Intervallen konfigurieren oder die Auslieferung eines sich wiederholenden Berichts stoppen.
 
-Im [!UICONTROL „Manager für geplante Berichte“] werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Auslieferungen gestoppt.
+Im [!UICONTROL „Manager für geplante Berichte“] werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt.
 
 1. To access the manager, click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Scheduled Reports]**.
 
