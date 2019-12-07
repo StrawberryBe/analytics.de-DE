@@ -1,12 +1,11 @@
 ---
 description: Erstellen Sie eine Gruppe, die Benutzern des Marketingkanalberichts eingeschränkte Administratorrechte erteilt, und weisen Sie dann dieser Gruppe Benutzer zu. Beispielsweise könnten Sie eine Gruppe erstellen, damit Benutzer, die keine Administratoren sind, Kosten- oder Budgetbeträge eingeben können.
-solution: Analytics
 subtopic: Marketing channels
 title: Erteilen beschränkter Administratorrechte
 topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,17 +14,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Erstellen Sie eine Gruppe, die Benutzern des Marketingkanalberichts eingeschränkte Administratorrechte erteilt, und weisen Sie dann dieser Gruppe Benutzer zu. Beispielsweise könnten Sie eine Gruppe erstellen, damit Benutzer, die keine Administratoren sind, Kosten- oder Budgetbeträge eingeben können.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Groups.]**
-1. Klicken Sie auf einen benutzerspezifischen Gruppennamen oder auf **Neue Benutzergruppe hinzufügen**, um eine Benutzergruppe zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]**.
+1. Klicken Sie auf **[!UICONTROL Gruppen.]**
+1. Klicken Sie auf einen benutzerspezifischen Gruppennamen oder auf **[!UICONTROL Neue Benutzergruppe hinzufügen]**, um eine Benutzergruppe zu erstellen.
 
    Siehe [Benutzerverwaltung](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) in der *Administratorhilfe*.
 
-1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
-1. Aktivieren Sie die **Kanäle** und **[!UICONTROL Kosten.]**
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Save.]**
+1. Suchen Sie unter „Zugriff auf Bericht“ die Option „Admin “ und klicken Sie auf **[!UICONTROL Anpassen.]**
+1. Aktivieren Sie die **[!UICONTROL Kanäle]** und **[!UICONTROL Kosten.]**
+1. Klicken Sie auf **[!UICONTROL OK]** und dann auf **[!UICONTROL Speichern.]**
 
-Felddefinitionen für Benutzergruppen definieren in den Admin Tools:
+Felddefinitionen für „Benutzergruppen definieren“ in „Admin Tools“.
 
 | Feld | Definition |
 |--- |--- |
