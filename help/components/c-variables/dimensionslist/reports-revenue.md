@@ -1,11 +1,10 @@
 ---
 description: Ermittelt die Höhe der Einnahmen, die mit allen Produkten in einem bestimmten Zeitraum generiert wurden.
-solution: Analytics
 title: Umsatz
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,11 +32,11 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
        s.events="purchase"
       ```
 
-* Wenn mehrere Produkte in der der Variablen [!UICONTROL „s.products“] vorhanden sind, werden alle Produkte im Umsatzbericht erfasst. Beispielsweise [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] würden 9 USD Umsatz an die Berichterstellung übergeben.
+* Wenn mehrere Produkte in der der Variablen [!UICONTROL „s.products“] vorhanden sind, werden alle Produkte im Umsatzbericht erfasst. Beispiel: [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] wird als Umsatz von 9 USD in der Berichterstellung ausgewiesen.
 
    >[!NOTE]
    >
-   >Der Umsatz wird nicht multipliziert, wenn die Menge in einem einzigen Produkt erhöht wird. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >Der Umsatz wird nicht vervielfacht, wenn sich die Menge in einem einzelnen Produkt erhöht. Beispiel: [!DNL s.products="Womens;Socks;5;4.50"] wird nicht als 22,50 USD in der Berichterstellung ausgewiesen, sondern als 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist ([!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL Umsatz] rundet den Gesamtbetrag für einen Zeitraum auf den nächsten Währungsbetrag auf. Es wird nicht jedes einzelne Produkt oder jeder Hit gerundet.
 * Da in Analytics-Berichten jeder Tag auf den nächsten vollen Betrag gerundet wird, weicht die Summe der einzelnen Tage im Vergleich zum monatlichen Gesamtbetrag geringfügig ab. Denn der monatliche Gesamtbetrag ist nicht mit dem gerundeten Betrag der einzelnen Tage identisch. Es handelt sich um die absolute Summe, die auf den nächsten vollen Betrag gerundet wird.
@@ -48,10 +47,10 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
 * Eine Granularität wie Stunde, Tag, Woche, Monat, Quartal und Jahr kann angewendet werden. Die Verfügbarkeit dieser Granularitäten hängt vom Datumsbereich der Berichterstellung ab.
 * Dieser Bericht kann in die folgenden Berichte aufgeschlüsselt werden (je nach Unternehmens- und Report Suite-Einstellungen).
 
-   * [!UICONTROL Zeit pro Besuch]
-   * [!UICONTROL Seiten und Sitebereiche]
-   * [!UICONTROL Videos]
-   * [!UICONTROL Klicktiefe und Entrypages]
+   * [!UICONTROL Zeit pro Besuch].
+   * [!UICONTROL Seiten und Sitebereiche].
+   * [!UICONTROL Videos].
+   * [!UICONTROL Klicktiefe und Entrypages].
    * In die meisten Berichte zu [!UICONTROL Traffic-Quellen] wie [!UICONTROL „Suchkeywords“], [!UICONTROL „Suchmaschinen“] und [!UICONTROL „Referrer-Domänen“].
 
    * In den [!UICONTROL Trackingcodebericht] und alle zugehörigen Classification-Berichte.
@@ -65,15 +64,15 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
 
 ## Produktspezifische Eigenschaften {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* So greifen Sie auf diesen Bericht zu: **[!UICONTROL Konversion]** &gt; **[!UICONTROL Einkäufe]** &gt; **[!UICONTROL Umsatz]**.
 
 * Die Berichte zu [!UICONTROL Traffic-Quellen] finden Sie unter [!UICONTROL Suchmethoden].
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* So greifen Sie auf diesen Bericht zu: **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Einkäufe]** &gt; **[!UICONTROL Umsatz]**.
 
 * Abgesehen von den oben aufgeführten Aufschlüsselungen sind auch Aufschlüsselungen zum [!UICONTROL Erst- und Letztkontakt von Marketingkanälen] verfügbar.
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Auch auf diesen Bericht können Sie so zugreifen: **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Einkäufe]** &gt; **[!UICONTROL Umsatz]**.
 
 * Neben den oben aufgeführten Aufschlüsselungen können auch [!UICONTROL Listenvariablen] und die aktuellen [!UICONTROL Videovariablen] verwendet werden.
 
