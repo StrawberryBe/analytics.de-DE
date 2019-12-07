@@ -1,11 +1,10 @@
 ---
 description: Ein Ad Hoc Analysis-Bericht. In der Site-Analyse können Sie sehen, wie Besucher festgelegte Seiten und Ereignisse durchlaufen. Sie können beispielsweise den Traffic-Fluss zwischen Seiten, die Affinität zwischen Produkten und Marketingkanälen und den Fluss zwischen Kampagnen/Kanälen und Produktbestellungen beobachten. Sie können Seiten, Dimensionselemente (und Listen) sowie Metrikereignisse hineinziehen. Jede Säule steht für eines oder mehrere Dimensionselemente (Seiten) oder ein Ereignis. Pfeile stehen für den Fluss zwischen den Säulenwerten. Metriken sind den Säulenpositionen (X und Y), der Säulenbreite, Säulenhöhe und -farbe zugeordnet. Die Position, Größe und Farben ändern sich abhängig von den Metrikwerten.
-solution: Analytics
 title: Site-Analyse
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -70,7 +69,7 @@ Klicken Sie mit der rechten Maustaste auf Säulen, um sie zu bearbeiten oder zu 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Bearbeiten </p> </td> 
+   <td colname="col1"> <p>Vorlage </p> </td> 
    <td colname="col2"> <p>Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. </p> </td> 
   </tr> 
   <tr> 
