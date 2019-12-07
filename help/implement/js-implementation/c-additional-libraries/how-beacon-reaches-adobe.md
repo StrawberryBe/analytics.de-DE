@@ -1,12 +1,11 @@
 ---
 description: Wenn ein Mobilgerät eine Seite von einem Webserver anfordert, wird die Anforderung über ein Gateway gesendet, das die Anforderung des Mobilgeräts (die meist über WAP oder i-mode erfolgt) in eine HTTP-Anforderung umwandelt, die dann an einen Webserver gesendet wird.
 keywords: Analytics Implementation;gateway;wap;i-mode;wbmp
-solution: Analytics
 title: Mobilfunknetz-Protokoll-Gateway
 topic: Developer and implementation
 uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
