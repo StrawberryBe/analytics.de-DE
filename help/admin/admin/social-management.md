@@ -1,19 +1,18 @@
 ---
 description: Wenn Adobe Social aktiviert ist, können Sie mit dieser Option Social-Variablen klassifizieren.
-solution: Analytics
-title: Social-Verwaltung
+title: Social-Media-Verwaltung
 topic: Admin tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Social-Verwaltung
+# Social-Media-Verwaltung
 
 Wenn Adobe Social aktiviert ist, können Sie mit dieser Option Social-Variablen klassifizieren.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **[!UICONTROL bearbeiten]** &gt; **[!UICONTROL Social-Verwaltung]** &gt; **[!UICONTROL Social-Klassifizierungen.]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Social-Verwaltung]** &gt; **[!UICONTROL Soziale Classifications.]**
 
 <!--Meike, link to social user guide?-->
