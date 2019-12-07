@@ -1,12 +1,11 @@
 ---
 description: Zum Abschluss des Integrationsassistenten ist ein Token erforderlich. Um diese ID zu finden, führen Sie die folgenden Schritte aus.
-solution: Analytics
 subtopic: Qualtrics
 title: Generieren Ihres Qualtrics-Adobe Analytics-Tokens
 topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
