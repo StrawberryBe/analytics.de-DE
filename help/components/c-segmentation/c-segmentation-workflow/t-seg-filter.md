@@ -1,11 +1,10 @@
 ---
 description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“.)
-solution: Analytics
 title: Segmente filtern
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Mei
 
 Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
 
-1. In the Segment Manager, click the **[!UICONTROL Filters]** icon:  ![](assets/filter_icon.png)
+1. Klicken Sie im Segment-Manager auf das **[!UICONTROL Filter]**-Symbol:  ![](assets/filter_icon.png)
 
    ![](assets/filtering.png)
 
@@ -30,6 +29,6 @@ Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
    | Weitere Filter &gt; Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
    | Weitere Filter &gt; Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie [freigegeben](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md) haben. |
    | Weitere Filter &gt; Favoriten | Zeigt alle Segmente an, die Sie als [Favoriten](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md). |
-   | Weitere Filter &gt; Genehmigt | Zeigt alle offiziell   [genehmigten](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) Segmente an. |
+   | Weitere Filter &gt; Genehmigt | Zeigt alle offiziell [genehmigten](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) Segmente an. |
    | Segmente durchsuchen | Sucht Segmente nach Namen. |
 
