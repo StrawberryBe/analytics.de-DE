@@ -1,11 +1,10 @@
 ---
 description: Verwenden Sie das Adobe ReportBuilder-Add-in für Microsoft Excel, um benutzerdefinierte Anforderungen aus Webanalysedaten zu erstellen, die Sie in Ihre Excel-Arbeitsblätter einfügen können.
 keywords: ftp;sftp
-solution: Analytics
 title: Von Report Builder bereitgestellte Berichte
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
