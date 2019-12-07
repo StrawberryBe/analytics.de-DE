@@ -1,13 +1,12 @@
 ---
 description: Mit dem apl-Plug-in (oder appendList) können Sie jeder getrennten Liste einen Wert anhängen und dabei festlegen, ob nach Groß- und Kleinschreibung unterschieden werden soll oder nicht, um sicherzustellen, dass der Wert nicht bereits in der Liste vorhanden ist. Auf das APL-Plug-in wird von diversen Standard-Plug-ins verwiesen, aber es kann auch in einer Reihe von Situationen direkt verwendet werden.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Das Plug-in ist hilfreich, um:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Szenario </p> </td> 
-   <td colname="col2"> <p>Fügen Sie <span class="term">event1</span> zur aktuellen Ereignisvariable hinzu und stellen Sie sicher, dass das Ereignis nicht dupliziert wird. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code </p> </td> 
