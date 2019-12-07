@@ -1,11 +1,10 @@
 ---
 description: Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werden. Ggfs. definierte Classifications werden ebenfalls unterstützt.
-solution: Analytics
 title: Unterstützte Echtzeit-Metriken und -Dimensionen
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
