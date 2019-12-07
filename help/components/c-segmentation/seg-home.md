@@ -1,12 +1,11 @@
 ---
 description: Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen.
 keywords: segmentation;segments
-solution: Analytics
 title: Analytics-Segmentierung
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,4 +22,4 @@ Data Scientists und Marketinganalysten können für bedarfsgerechte Analysen Seg
 
 **Einstieg**
 
-Beginnen Sie mit dem [Einrichten eines Segmentierungsarbeitsablaufs](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) oder dem [Erstellen von Segmenten](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)oder lesen Sie [Segmente](/help/components/c-segmentation/seg-overview.md) für einen schnellen Überblick.
+Beginnen Sie mit dem [Einrichten eines Segmentierungsarbeitsablaufs](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) oder dem [Erstellen von Segmenten](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) oder lesen Sie [Segmente](/help/components/c-segmentation/seg-overview.md) für einen schnellen Überblick.
