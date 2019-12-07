@@ -1,11 +1,10 @@
 ---
 description: Definiert die allgemeinen Einstellungen für eine Website, für die Originalinhalte entwickelt und auf der Artikel und Videos präsentiert werden.
-solution: Analytics
 title: Inhalte und Medien
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,14 +13,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Definiert die allgemeinen Einstellungen für eine Website, für die Originalinhalte entwickelt und auf der Artikel und Videos präsentiert werden.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code` festgelegt |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code`-Variable |
 |---|---|---|---|---|---|
 | Interne Kampagne | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
 | Handelsvariable 3 | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar3` |
 | Handelsvariable 4 | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar4` |
 
-| Erfolgsereignisse | Typ | `s_code` festgelegt |
+| Erfolgsereignisse | Typ | `s_code`-Variable |
 |---|---|---|
 | Registrierungen | Zähler (keine Subrelationen) | `event1` |
 | E-Mail-Registrierungen | Zähler (keine Subrelationen) | `event2` |
@@ -30,25 +29,25 @@ Definiert die allgemeinen Einstellungen für eine Website, für die Originalinha
 | Anzeigenimpressionen | Zähler (keine Subrelationen) | `event5` |
 | Anzeigenklicks | Zähler (keine Subrelationen) | `event6` |
 
-| Benutzerspezifische Insight-Variablen | `s_code` festgelegt |
+| Benutzerdefinierte Insight-Variablen | `s_code`-Variable |
 |---|---|
-| Trafficeigenschaft 1-5 | `prop1, prop2, prop3, prop4, prop5` |
+| Traffic-Eigenschaft 1-5 | `prop1, prop2, prop3, prop4, prop5` |
 
 Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die Anfangskonfiguration für diese Ereignisse ist in allen Report Suite-Vorlagen gleich. Ereignisse mit einer N/A Variablen „s_code“ müssen nicht eingestellt werden, da sie automatisch bereitgestellt werden.
 
-| Standard-Verkaufsereignisse | Typ | `s_code` festgelegt |
+| Standard-Verkaufsereignisse | Typ | `s_code`-Variable |
 |---|---|---|
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
 | Einheiten | Zähler | `purchase` |
 | Warenkorb | Zähler | `scOpen` |
-| Warenkorbansicht | Zähler | `scView` |
-| Instanzen | Zähler | Keine |
+| Warenkorbansichten | Zähler | `scView` |
+| Instanzen | Zähler | nicht angegeben |
 | Checkouts | Zähler | `scCheckout` |
 | Zusatz zum Warenkorb | Zähler | `scAdd` |
 | Entnahme aus Warenkorb | Zähler | `scRemove` |
-| Besuche | Zähler (keine Subrelationen) | Keine |
-| Seitenansichten | Zähler (keine Subrelationen) | Keine |
-| Unique Visitors pro Tag | Zähler (keine Subrelationen) | Keine |
-| Unique Visitors | Zähler (keine Subrelationen) | Keine |
+| Besuche | Zähler (keine Subrelationen) | nicht angegeben |
+| Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
+| Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
+| Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
 
