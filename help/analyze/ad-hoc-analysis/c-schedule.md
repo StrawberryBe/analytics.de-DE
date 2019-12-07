@@ -1,11 +1,10 @@
 ---
 description: Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstellung zu einem bestimmten Zeitpunkt stoppen oder die Häufigkeit des Berichtversands festlegen. Neue Zeitpläne verwenden den im Bericht definierten Datumsbereich. Wenn Sie beispielsweise einen Bericht für die letzten 90 Tage erstellen und eine tägliche Ausführung ansetzen, erhalten Sie jeden Tag einen Bericht für die letzten 90 Tage. Wenn Sie einen Bericht mit einem statischen Datumsbereich aus dem Kalender erstellen, sehen Sie jedes Mal, wenn der Bericht gesendet wird, denselben Bericht.
-solution: Analytics
 title: Zeitplan-Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
