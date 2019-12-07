@@ -1,11 +1,10 @@
 ---
 description: Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stellensuche.
-solution: Analytics
 title: Job-Portal
 topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stellensuche.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code` festgelegt |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code`-Variable |
 |---|---|---|---|---|---|
 | Interne Promotion | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
@@ -22,26 +21,26 @@ Definiert allgemeine Einstellungen für ein Jobportal oder eine Website zur Stel
 
 Mit dieser Report Suite-Vorlage werden keine Erfolgsereignisse konfiguriert.
 
-| Benutzerspezifische Insight-Variablen | `s_code` festgelegt |
+| Benutzerdefinierte Insight-Variablen | `s_code`-Variable |
 |---|---|
-| Sicher/Nicht-Sicher | `prop1` |
-| Trafficeigenschaft 2–5 | `prop2, prop3, prop4, prop5` |
+| Sicher/Nicht sicher | `prop1` |
+| Traffic-Eigenschaft 2-5 | `prop2, prop3, prop4, prop5` |
 
 Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die Anfangskonfiguration für diese Ereignisse ist in allen Report Suite-Vorlagen gleich. Ereignisse mit einer N/A Variablen „s_code“ müssen nicht eingestellt werden, da sie automatisch bereitgestellt werden.
 
-| Standard-Verkaufsereignisse | Typ | `s_code` festgelegt |
+| Standard-Verkaufsereignisse | Typ | `s_code`-Variable |
 |---|---|---|
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
 | Einheiten | Zähler | `purchase` |
 | Warenkorb | Zähler | `scOpen` |
-| Warenkorbansicht | Zähler | `scView` |
-| Instanzen | Zähler | Keine |
+| Warenkorbansichten | Zähler | `scView` |
+| Instanzen | Zähler | nicht angegeben |
 | Checkouts | Zähler | `scCheckout` |
 | Zusatz zum Warenkorb | Zähler | `scAdd` |
 | Entnahme aus Warenkorb | Zähler | `scRemove` |
-| Besuche | Zähler (keine Subrelationen) | Keine |
-| Seitenansichten | Zähler (keine Subrelationen) | Keine |
-| Unique Visitors pro Tag | Zähler (keine Subrelationen) | Keine |
-| Unique Visitors | Zähler (keine Subrelationen) | Keine |
+| Besuche | Zähler (keine Subrelationen) | nicht angegeben |
+| Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
+| Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
+| Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
 
