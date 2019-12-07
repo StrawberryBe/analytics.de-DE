@@ -1,12 +1,11 @@
 ---
 description: Beispiele, die den Einsatz eines servergenerierten Image-Tags in einer HTML-Beispielseite zeigen
 keywords: Analytics Implementation;variables
-solution: Analytics
 title: Beispielcode
 topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,14 +16,14 @@ Beispiele, die den Einsatz eines servergenerierten Image-Tags in einer HTML-Beis
 
 In der folgenden Tabelle sind die in diesem Beispiel verwendeten Werte aufgeführt.
 
-| Überschreiben von | Wert |
+| Variable | Wert |
 |---|---|
 | pageName | Bestellungsbestätigung |
 | Aktuelle URL | https://www.somesite.com/cart/confirmation.asp |
 | events | purchase,event1 |
 | c1 | Registriert |
 | purchaseID | 0123456 |
-| „products“ | Books;Book Name;1;19.95 |
+| products | Books;Book Name;1;19.95 |
 | state | CA |
 | zip | 90210 |
 | Eine Zufallszahl | 123456 |
