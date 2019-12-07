@@ -1,13 +1,12 @@
 ---
 description: Seitenvariablen werden direkt in Berichten ausgefüllt, z. B. pageName, List Props, List Variables usw.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ So könnten bei einem Händler zum Beispiel die Abschnitte „Elektronik“, „
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| 100 Byte | CH | „Site-Content“ &gt; „Site-Abschnitte“ | "" |
+| 100 Byte | CH | „Site-Content“ &gt; „Sitebereiche“ | "" |
 
 Adobe empfiehlt, die Kanalvariable auf jeder Seite mit Werten zu füllen. Sie können auch eine Korrelation zwischen den Variablen *`channel`* und [!UICONTROL page name] aktivieren.
 
