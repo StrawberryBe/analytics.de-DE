@@ -1,11 +1,10 @@
 ---
 description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktionen in Activity Map.
-solution: Analytics
 title: Activity Map – Häufig gestellte Fragen
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ A: Das Rollout von AppMeasurement wird auf Report Suite-Ebene ausgeführt. Die R
 
 **F: DTM lädt automatisch eine ältere Version (1.3.4) der Besucher-API als die von Activity Map verlangte Version (1.5.1). Ist das ein Problem?**
 
-A: Nein. Die Activity Map-Funktion hängt nicht von der Besucher-API ab.
+A.: Nein. Die Activity Map-Funktion hängt nicht von der Besucher-API ab.
 
 ## Activity Map-Anwendung {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
