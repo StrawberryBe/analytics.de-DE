@@ -1,11 +1,10 @@
 ---
 description: Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit denen Kunden am effektivsten zu Ihrer Site gelangen. Verwenden Sie diesen Bericht, um den verschiedenen Kanälen Erfolgsmetriken und Umsätze zuzuordnen. Sie sehen außerdem, welche speziellen Kampagnen oder Keywords im jeweiligen Kanal am erfolgreichsten sind. Er enthält eine eigene intuitive Benutzeroberfläche, mit der Sie gleichzeitig Erst- und Letztkontaktmetriken anzeigen können.
-solution: Analytics
 title: Marketingkanal-Übersicht
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit 
 
 **Version 14 und 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+So greifen Sie auf diesen Bericht zu: **[!UICONTROL Marketing-Kanäle]** &gt; **[!UICONTROL Kanalübersichtsbericht]** (sofern das Menü nicht angepasst wurde).
 
 In diesem Bericht ist keine Segmentierung verfügbar. Verwenden Sie stattdessen die Berichte [!UICONTROL Erstkontakt/Letztkontakt Kanal] oder [!UICONTROL Erstkontakt/Letztkontakt Detail].
 
