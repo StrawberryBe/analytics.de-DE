@@ -1,29 +1,28 @@
 ---
 description: Beschreibende Schritte zum Erstellen einer Report Suite und zum Kopieren der Einstellungen einer Report Suite in eine neue.
-solution: Analytics
-title: Report Suite erstellen
+title: Erstellen einer Report Suite
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Report Suite erstellen
+# Erstellen einer Report Suite
 
 Beschreibende Schritte zum Erstellen einer Report Suite und zum Kopieren der Einstellungen einer Report Suite in eine neue.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Report Suite auswählen.
-1. Click **[!UICONTROL Create New]** &gt; **[!UICONTROL Report Suite]**.
-1. To copy a report suite's settings, in the template list, select either a predefined template or an existing report suite to use as a [template.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Wählen Sie eine Report Suite aus.
+1. Klicken Sie auf **[!UICONTROL Neu erstellen]** &gt; **[!UICONTROL Report Suite]**.
+1. Wenn Sie die Einstellungen einer Report Suite kopieren möchten, wählen Sie in der Vorlagenliste eine vordefinierte Vorlage oder eine vorhandene Report Suite als [Vorlage](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md) aus.
 
    >[!NOTE]
    >
-   >Es können nur Einstellungen kopiert werden, nicht die Daten. Wenn die Kundenunterstützung die Einstellungen kopiert, müssen Sie den Haftungsausschluss der Kundenunterstützung bezüglich der involvierten Risiken schriftlich bestätigen. See [Settings not copied from a source report suite](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) for more information.
+   >Es können nur Einstellungen und keine Daten kopiert werden. Wenn die Kundenunterstützung die Einstellungen kopiert, müssen Sie den Haftungsausschluss der Kundenunterstützung bezüglich der involvierten Risiken schriftlich bestätigen. Weitere Informationen finden Sie unter [Aus einer Quell-Report Suite nicht kopierte Einstellungen](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md).
 
-1. Füllen Sie die unter [Neue Report Suite beschriebenen Felder aus.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+1. Füllen Sie die unter [Neue Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md) beschriebenen Felder aus.
 1. Klicken Sie auf **[!UICONTROL Report Suite erstellen]**.
 
 >[!MORELIKETHIS]
