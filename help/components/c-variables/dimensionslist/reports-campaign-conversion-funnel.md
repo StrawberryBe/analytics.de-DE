@@ -1,11 +1,10 @@
 ---
 description: Zeigt Mittelwerte für die Metriken in der Berichterstellungsgruppe an. Standardmetriken sind Clickthroughs, Gesamtverkäufe, Bestellungen und Umsatz.
-solution: Analytics
 title: Kampagnenkonversionstrichter
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
