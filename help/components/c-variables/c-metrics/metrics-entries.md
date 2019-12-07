@@ -1,11 +1,10 @@
 ---
 description: Einstiege geben an, wie oft ein Wert als erster Wert bei einem Besuch erfasst wird. Einstiege können nur einmal pro Besuch auftreten. Wenn die Variable nicht definiert ist, dann ist dies jedoch nicht zwingend der erste Hit.
-solution: Analytics
 title: Einträge
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
