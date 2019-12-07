@@ -1,12 +1,11 @@
 ---
 description: In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgeführt oder angegeben, in welchen Berichten und Variablen diese verwendet werden.
 keywords: Analytics Implementation
-solution: Analytics
 title: Zuordnung von Berichten zu Variablen
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,8 +49,8 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 |---|
 | Konversionen und Durchschnittswerte | s.products, s.events, s.campaign |  |
 | Trackingcode | s.campaign |  |
-| Bericht | Keine | Definiert in [!DNL Analytics] |
-| Kampagnen | Keine | Definiert in [!DNL Analytics] |
+| Bericht | nicht angegeben | Definiert in [!DNL Analytics] |
+| Kampagnen | nicht angegeben | Definiert in [!DNL Analytics] |
 
 | Kundentreue |
 |---|
@@ -68,33 +67,33 @@ In der folgenden Tabelle sind die Zuordnungen von Berichten und Variablen aufgef
 
 | Suchmethoden |
 |---|
-| Referrerdomänen | Keine | Automatisch von der JS-Datei festgelegt |
-| Ursprünglich Referrerdomänen | Keine | Automatisch von der JS-Datei festgelegt |
-| Suchmaschinen | Keine | Automatisch von der JS-Datei festgelegt |
-| Suchkeywords | Keine | Automatisch von der JS-Datei festgelegt |
+| Referrerdomänen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Ursprünglich Referrerdomänen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Suchmaschinen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Suchkeywords | nicht angegeben | Automatisch von der JS-Datei festgelegt |
 
 | Besucherprofil |
 |---|
-| Domänen auf oberster Ebene | Keine | Automatisch von der JS-Datei festgelegt |
-| Sprachen | Keine | Automatisch von der JS-Datei festgelegt |
-| Zeitzonen | Keine | Automatisch von der JS-Datei festgelegt |
+| Domänen auf oberster Ebene | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Sprachen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Zeitzonen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
 | Status | s.state | Variable wird auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
 | PLZ/Postleitzahlen | s.zip | Variable wird auf der Bestätigungsseite für die Bestellung („Vielen Dank!“) festgelegt |
-| Domänen | Keine | Automatisch von der JS-Datei festgelegt |
+| Domänen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
 
 | Technologie |
 |---|
-| Browser | Keine | Automatisch von der JS-Datei festgelegt |
-| Betriebssysteme | Keine | Automatisch von der JS-Datei festgelegt |
-| Bildschirmauflösungen | Keine | Automatisch von der JS-Datei festgelegt |
+| Browser | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Betriebssysteme | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Bildschirmauflösungen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
 
 | Site-Pfad |
 |---|
 | Seitenwert | s.pageName, s.products, s.events, s.purchaseID |  |
 | Entrypages | s.pageName |  |
 | Ursprüngliche Entrypages | s.pageName |  |
-| Seiten pro Besuch | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Besuchszeit pro Site | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Seiten pro Besuch | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Besuchszeit pro Site | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 | Sitebereiche | [!UICONTROL s.channel] | Entspricht dem [!UICONTROL Kanal]bericht im Bereich [!UICONTROL Traffic]-Berichte |
 
 | Benutzerdefinierte Variablen |
@@ -111,65 +110,65 @@ In der folgenden Tabelle sind die [!UICONTROL Traffic]-Variablen aufgeführt, mi
 
 | Berechnete Metriken |
 |---|
-| Keine | Keine | Keine |
+| nicht angegeben | nicht angegeben | nicht angegeben |
 
 | Site-Traffic |
 |---|
-| Seitenansichten | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Unique Visitors pro Stunde | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Unique Visitors pro Tag | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Unique Visitors pro Monat | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Unique Visitors pro Jahr | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Besuche | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Dateiladungen | Keine | Wird (je nach Einstellungen der JS-Variablen) automatisch von der JS-Datei verfolgt |
+| Seitenansichten | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Unique Visitors pro Stunde | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Unique Visitors pro Tag | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Unique Visitors pro Monat | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Unique Visitors pro Jahr | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Besuche | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Dateiladungen | nicht angegeben | Wird (je nach Einstellungen der JS-Variablen) automatisch von der JS-Datei verfolgt |
 
 | Suchmethoden |
 |---|
-| Referrerdomänen | Keine | Automatisch von der JS-Datei festgelegt |
-| Verweisende Stellen | Keine | Automatisch von der JS-Datei festgelegt |
-| Suchmaschinen | Keine | Automatisch von der JS-Datei festgelegt |
-| Suchkeywords | Keine | Automatisch von der JS-Datei festgelegt |
-| Rückkehrhäufigkeit | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Rückkehrende Besucher pro Tag | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Rückkehrende Besucher | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Besuch-Nr. | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Referrerdomänen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Verweisende Stellen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Suchmaschinen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Suchkeywords | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Rückkehrhäufigkeit | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Rückkehrende Besucher pro Tag | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Rückkehrende Besucher | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Besuch-Nr. | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
 
 | Besucherprofil |
 |---|
-| Domänen | Keine | Automatisch von der JS-Datei festgelegt |
-| Domänen auf oberster Ebene | Keine | Automatisch von der JS-Datei festgelegt |
-| Sprachen | Keine | Automatisch von der JS-Datei festgelegt |
-| Zeitzonen | Keine | Automatisch von der JS-Datei festgelegt |
-| Besucherdetails | Keine | Automatisch von der JS-Datei festgelegt |
-| Letzte 100 Besucher | Keine | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
-| Homepage des Benutzers | Keine | Automatisch von der JS-Datei festgelegt |
-| Wichtige Besucher | Keine | Basiert auf der IP-Adresse des Besuchers |
-| Von wichtigen Besuchern angezeigte Seiten | Keine | Basiert auf der IP-Adresse des Besuchers |
+| Domänen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Domänen auf oberster Ebene | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Sprachen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Zeitzonen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Besucherdetails | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Letzte 100 Besucher | nicht angegeben | Wird von Geschäftsregeln in [!DNL Analytics] ausgerechnet |
+| Homepage des Benutzers | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Wichtige Besucher | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
+| Von wichtigen Besuchern angezeigte Seiten | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
 
 | Geo-Segmentierung |
 |---|
-| Länder | Keine | Basiert auf der IP-Adresse des Besuchers |
-| U.S. Bundesstaaten | Keine | Basiert auf der IP-Adresse des Besuchers |
-| DMA | Keine | Basiert auf der IP-Adresse des Besuchers |
-| Internationale Städte | Keine | Basiert auf der IP-Adresse des Besuchers |
-| Städte in den USA | Keine | Basiert auf der IP-Adresse des Besuchers |
+| Länder | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
+| U.S. Bundesstaaten | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
+| DMA | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
+| Internationale Städte | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
+| Städte in den USA | nicht angegeben | Basiert auf der IP-Adresse des Besuchers |
 
 | Technologie |
 |---|
-| Browsertypen | Keine | Automatisch von der JS-Datei festgelegt |
-| Browser | Keine | Automatisch von der JS-Datei festgelegt |
-| Mobilgeräte | Keine | Automatisch von der JS-Datei festgelegt |
-| Browserbreite | Keine | Automatisch von der JS-Datei festgelegt |
-| Browserhöhe | Keine | Automatisch von der JS-Datei festgelegt |
-| Betriebssysteme | Keine | Automatisch von der JS-Datei festgelegt |
-| Bildschirmfarbtiefe | Keine | Automatisch von der JS-Datei festgelegt |
-| Bildschirmauflösungen | Keine | Automatisch von der JS-Datei festgelegt |
-| Netscape-Plug-ins | Keine | Automatisch von der JS-Datei festgelegt |
-| Java | Keine | Automatisch von der JS-Datei festgelegt |
-| JavaScript | Keine | Automatisch von der JS-Datei festgelegt |
-| JavaScript-Version | Keine | Automatisch von der JS-Datei festgelegt |
-| Cookies | Keine | Automatisch von der JS-Datei festgelegt |
-| Verbindungstypen | Keine | Automatisch von der JS-Datei festgelegt |
+| Browsertypen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Browser | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Mobilgeräte | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Browserbreite | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Browserhöhe | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Betriebssysteme | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Bildschirmfarbtiefe | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Bildschirmauflösungen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Netscape-Plug-ins | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Java | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| JavaScript | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| JavaScript-Version | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Cookies | nicht angegeben | Automatisch von der JS-Datei festgelegt |
+| Verbindungstypen | nicht angegeben | Automatisch von der JS-Datei festgelegt |
 | Segmentierung |
 
 | Segmentierung |
@@ -180,7 +179,7 @@ In der folgenden Tabelle sind die [!UICONTROL Traffic]-Variablen aufgeführt, mi
 
 | Custom Insight |
 |---|
-| Benutzerspezifische Links | s.linkName | Muss benutzerdefiniert implementiert werden |
+| Benutzerdefinierte Links | s.linkName | Muss benutzerdefiniert implementiert werden |
 | Custom Insight 1 | s.prop1 |  |
 | … | … |  |
 | Custom Insight 75 | s.prop75 |  |
