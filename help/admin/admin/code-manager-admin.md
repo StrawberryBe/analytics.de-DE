@@ -1,11 +1,10 @@
 ---
 description: Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile Plattformen herunterladen.
-solution: Analytics
 title: Code-Manager
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Mithilfe des Code-Managers können Sie Datenerfassungscode für Web- und mobile 
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code-Manager]**.
 
-Nach dem Herunterladen der Bibliothek müssen Sie den Code so konfigurieren, dass Daten an den richtigen Verfolgungsserver und an die richtige Report Suite gesendet werden. Weitere Implementierungsressourcen finden Sie im Benutzerhandbuch [zur Implementierung](/help/implement/home.md) .
+Nach dem Herunterladen der Bibliothek müssen Sie den Code so konfigurieren, dass Daten an den richtigen Tracking-Server und an die richtige Report Suite gesendet werden. Weitere Ressourcen zur Implementierung finden Sie im Benutzerhandbuch zur [Implementierung](/help/implement/home.md).
 
 ## Seitenbeschreibungen im Code-Manager {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
