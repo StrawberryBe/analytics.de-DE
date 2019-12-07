@@ -1,11 +1,10 @@
 ---
 description: Informationen zu den drei Möglichkeiten, sich bei ReportBuilder anzumelden.
-solution: Analytics
 title: Anmelden bei Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Zurzeit sind beim Klicken auf **[!UICONTROL Anmelden]in ReportBuilder folgende A
 ![](assets/login_screen.png)
 
 * [Standard](/help/analyze/report-builder/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
-* [Single-Sign-On](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
+* [Single Sign-on](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
 * [Experience Cloud und Single-Sign-On](/help/analyze/report-builder/setup/login.md#section_1FA230F35AB54021A874A7A28DE4C850)
 
 ## Standard {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
