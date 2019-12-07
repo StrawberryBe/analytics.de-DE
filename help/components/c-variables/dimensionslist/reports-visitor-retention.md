@@ -1,11 +1,10 @@
 ---
 description: Zeigt Informationen über Ihre Kundenloyalität an. Sie können feststellen, wie viele Besucher wie oft zu Ihrer Site zurückkehren. Berichte dieser Kategorie zeigen Informationen zur Kundenloyalität an. Sie können feststellen, wie viele Besucher wie oft zu Ihrer Site zurückkehren.
-solution: Analytics
 title: Besuchertreue
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -52,7 +51,7 @@ Zeigt Informationen über Ihre Kundenloyalität an. Sie können feststellen, wie
   </tr> 
   <tr> 
    <td colname="col1"> Tage seit letztem Kauf </td> 
-   <td colname="col2"> <p>Zeigt die häufigste Anzahl von Tagen an, die zwischen Wiederholungskäufen verstreichen. Sie können die Zeiträume anzeigen, die am stärksten zur wichtigsten Erfolgsmetrik Ihrer Site, wie Umsatz und Bestellungen, beigetragen haben. </p> </td> 
+   <td colname="col2"> <p>Zeigt die häufigste Anzahl von Tagen an, die zwischen Wiederholungskäufen verstreichen. Sie können die Zeiträume anzeigen, die am stärksten zur bedeutendsten Erfolgsmetrik der Site, z. B. dem Umsatz und den Bestellungen, beitrugen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Unique Customers pro Tag </td> 
