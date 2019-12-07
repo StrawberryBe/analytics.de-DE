@@ -1,11 +1,10 @@
 ---
 description: Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Einblick in die Interaktion der Besucher mit Ihrer Website.
-solution: Analytics
 title: Berichte zu Traffic-Quellen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,14 +19,14 @@ Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Einblick in die 
 
 Anhand der Berichte zu Traffic-Quellen können Sie:
 
-* kritische Aspekte des Besucherverhaltens analysieren
-* Verkehrsmuster beobachten und verstehen
-* bevorzugte Site-Inhalte bestimmen
+* kritische Aspekte des Besucherverhaltens analysieren.
+* Verkehrsmuster beobachten und verstehen.
+* bevorzugte Site-Inhalte bestimmen.
 * Besucher nach beliebigen messbaren Kriterien segmentieren
 
 **Allgemeine Persistenz**
 
-Alle Berichtwerte in [!UICONTROL Traffic-Quellen] sind persistent und erhalten die Zuschreibung, bis sie überschrieben werden oder bis der Besuch endet, je nachdem, was zuerst erfolgt. Zuvor waren nur Keywords und Referrerdomänen persistent. Wenn ein Besucher z. B. eine Google-Suche nach      „DVD“ durchführt, was ihn zu Ihrer Site mit einem Kauf von 100 US-Dollar bringt, schreibt der Bericht dem Keyword „DVD“ sowie der Suchmaschine Google 100 US-Dollar gut. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+Alle Berichtwerte in [!UICONTROL Traffic-Quellen] sind persistent und erhalten die Zuschreibung, bis sie überschrieben werden oder bis der Besuch endet, je nachdem, was zuerst erfolgt. Zuvor waren nur Keywords und Referrerdomänen persistent. Wenn ein Besucher z. B. eine Google-Suche nach „DVD“ durchführt, was ihn zu Ihrer Site mit einem Kauf von 100 US-Dollar bringt, schreibt der Bericht dem Keyword „DVD“ sowie der Suchmaschine Google 100 US-Dollar gut. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
 
 ## Suchkeywords {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -39,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Suchkeywords – Alle]**: Zeigt eine Auflistung der einzelnen Keywords an, die bei der Suche nach Ihrer Site eingesetzt werden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**[!UICONTROL Suchkeywords – Alle]**: Zeigt eine Auflistung der einzelnen Keywords an, die bei der Suche nach Ihrer Site eingesetzt werden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigen.
 
-**[!UICONTROL Suchkeywords – Gebührenpflichtig]**: Zeigt eine Auflistung der einzelnen gebührenpflichtigen Keywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**[!UICONTROL Suchkeywords – Gebührenpflichtig]**: Zeigt eine Auflistung der einzelnen gebührenpflichtigen Keywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigen.
 
-**[!UICONTROL Suchkeywords – Kostenlos]**: Zeigt eine Auflistung der einzelnen kostenlosen Keywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigan.
+**[!UICONTROL Suchkeywords – Kostenlos]**: Zeigt eine Auflistung der einzelnen kostenlosen Keywords an, die bei der Suche nach Ihrer Site eingesetzt wurden. Sie können die Liste nach Seitenansichten oder Keywords ordnen, indem Sie oberhalb der Auflistung auf die Spaltenüberschrift klicken. Klicken Sie auf die Lupe neben dem Keyword, um den Suchergebnisbildschirm Ihrer Site anzuzeigen.
 
 ## Suchmaschinen {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -79,7 +78,7 @@ c_reports_original_ref_domains.xml
 
  -->
 
-Zeigt die ursprünglich verweisenden Stellen an, die die Kunden zu Ihrer Site führten. Kunden können Ihre Site mehrmals besuchen und für jeden Besuch eine andere verweisende Stelle verwenden. Dieser Bericht zeigt an, von wo die Kunden beim ersten Besuch Ihrer Site verwiesen wurden. Auf diese Weise können Sie sehen, ob die Kunden weiterhin dieselbe verweisende Stelle verwenden, und Muster erkennen, wie Kunden zu Ihrer Site verwiesen werden. Sie können die Anzahl der Besucher anzeigen, die von einer ursprünglichen verweisenden Stelle generiert wurden, oder feststellen, für wie viel Umsatz jede ursprüngliche verweisende Stelle verantwortlich war. Berichte der verweisenden Stelle können jedes Mal ausgefüllt werden, wenn ein Besucher Ihre Site aufsucht, auch wenn der Besucher während einer Sitzung mehrmals zur Site kommt (bevor der Besuch abläuft).
+Zeigt die ursprünglich verweisenden Stellen an, die die Kunden zu Ihrer Site führten. Kunden können Ihre Site mehrmals besuchen und für jeden Besuch eine andere verweisende Stelle verwenden. Dieser Bericht zeigt an, von wo die Kunden beim ersten Besuch Ihrer Site verwiesen wurden. Auf diese Weise können Sie sehen, ob die Kunden weiterhin dieselbe verweisende Stelle verwenden, und Muster erkennen, wie Kunden zu Ihrer Site verwiesen werden. Sie können die Anzahl der Besucher anzeigen, die von einer ursprünglichen verweisenden Stelle generiert wurden, oder feststellen, für wie viel Umsatz jede ursprüngliche verweisende Stelle verantwortlich war. Berichte des Referrers können jedes Mal gefüllt werden, wenn ein Besucher Ihre Site aufsucht, auch wenn der Besucher während einer Sitzung mehrmals zur Site kommt (bevor der Besuch abläuft).
 
 ## Verweisende Stellen {#concept_40CF9C2D10B94E82819BC65A232F05C3}
 
@@ -97,11 +96,11 @@ Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind
 
 Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html)Interne URL-Filter[!DNL Admin Console].
 
-> [!NOTE] Marketing Reports &amp; Analysen zeichnet eine Referrerdomäne als E-Mail auf, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] die Site enthält. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] :// lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
+> [!NOTE] Marketing Reports &amp; Analysen zeichnet eine Referrerdomäne als E-Mail auf, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] die Site enthält. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
 
 ## Typ der verweisenden Stelle {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Indem Sie die verweisenden Stellen bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
+Wenn Sie die Referrer bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
 
 <!-- 
 
@@ -124,7 +123,7 @@ In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen def
 
 Die folgenden Zeilenelemente werden evtl. bei Ausführung dieses Berichts angezeigt:
 
-**Innerhalb Ihrer Site**: Diese Elemente sind URLs, die von den internen URL-Filtern vergeben werden. Diese Elemente werden nicht als     Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
+**Innerhalb Ihrer Site**: Diese Elemente sind URLs, die von den internen URL-Filtern vergeben werden. Diese Elemente werden nicht als Instanzen der verweisenden Stelle gezählt, können aber bei der Berichterstellung für andere Metriken angezeigt werden.
 
 **Kein JavaScript**: Es gab kein JavaScript, weshalb der Typ nicht identifiziert werden konnte (unbekannt). Das heißt, dass es keine Informationen zu Referrern von einem Client für einen Browser gibt, der keine Unterstützung von JavaScript meldet. Diese Elemente werden nicht als Instanzen von Referrern gezählt, sind jedoch in den Berichten zu anderen Metriken ersichtlich.
 
