@@ -1,11 +1,10 @@
 ---
 description: Führt die Standardmetriken in Adobe Analytics auf.
-solution: Analytics
 title: Kurzübersicht über Metriken
 topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,15 +15,15 @@ Führt die Standardmetriken in Adobe Analytics auf.
 
 >[!NOTE]
 >
->Jede Metrik (Ereignis), die unten nicht aufgeführt wird, ist eine [benutzerspezifische Metrik](/help/components/c-variables/c-metrics/metrics-custom.md) (benutzerdefiniertes Ereignis).
+>Jede Metrik (Ereignis), die unten nicht aufgeführt wird, ist eine [benutzerspezifische Metrik](/help/components/c-variables/c-metrics/metrics-custom.md) (benutzerspezifisches Ereignis).
 
 >[!IMPORTANT]
 >
->Analysis Workspace unterscheidet sich nicht mehr zwischen Traffic- und Konversionsmetriken. Daher ist der Metriktyp nur für Tools wie Reports &amp; Analysen, Web Services 1.4 und ReportBuilder relevant.)
+>Analysis Workspace unterscheidet nicht mehr zwischen Traffic- und Konversionsmetriken. Daher ist der Metriktyp nur für Werkzeuge wie Reports &amp; Analytics, Web Services 1.4 und Report Builder relevant.)
 
 | Kennzahlname | Beschreibung | Typ |
 |--- |--- |---|
-| Durchschnittl. Seitentiefe | Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Klicktiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist. | Traffic |
+| Durchschnittl. Klicktiefe | Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Klicktiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist. | Traffic |
 | Durchschnittliche Besuchszeit pro Seite | Stellt die durchschnittliche Zeit dar, die während eines Besuchs auf der Seite verbracht wurde. | Traffic |
 | Durchschnittliche Besuchszeit pro Site | Stellt die durchschnittliche Zeit dar, die während eines Besuchs auf der Website verbracht wurde. | Traffic |
 | Absprungrate | Zeigt den Prozentsatz der Besuche mit einem einzelnen Hit an. Die Absprungrate verwendet die Absprungmetrik und wird berechnet aus: Absprünge geteilt durch Einstiege. | Konversion |
@@ -44,7 +43,7 @@ Führt die Standardmetriken in Adobe Analytics auf.
 | Instanzen | Gibt an, wie oft ein Wert für eine Variable festgelegt wurde. Instanzen werden für alle Hit-Typen gezählt, außer wenn ein Wert für eine Variable bei einem nachfolgenden Hit aufgrund der Persistenz aufgezeichnet wird. | Konversion |
 | Mobilansichten | Gibt an, wie oft eine Seite angezeigt oder eine Dimension festgelegt wird, wenn der Zugriff über ein Mobilgerät stattfindet. Nur Ad-hoc-Analyse. Es wird empfohlen, anstelle der Metrik für Mobilansichten das Segment „Besuche von Mobilgeräten“ anzuwenden. | Konversion |
 | Neue Interaktionen | Neue Interaktionen sind eine Marketingkanal-Berichtsmetrik, die neue Besucher zählt, die aus einem Kanal stammen. Diese Metrik führt zudem Besucher auf, die Ihre Site in den letzten 30 Tagen nicht aufgerufen haben. Eine „Neue Interaktion“ ist eine eVar, die zu Beginn eines jeden Besuchs eingestellt wird (ursprüngliche Zuordnung). First Touch-Kanäle können auch neue Interaktionen sein (je nach Ablaufeinstellung der Besucher-Interaktion). | Konversion |
-| Vorfälle | Die Frequenz, mit der ein bestimmter Wert erfasst wird, plus die Anzahl der Seitenansichten, für die dieser Wert weiter besteht. Das heißt, Vorfälle sind die Summe der Seitenansichten und der Seitenereignisse. Vorfälle sind nur in Ad Hoc Analysis verfügbar. | Nicht verfügbar in Reports &amp; Analysen, Web Services 1.4 oder ReportBuilder |
+| Vorfälle | Die Frequenz, mit der ein bestimmter Wert erfasst wird, plus die Anzahl der Seitenansichten, für die dieser Wert weiter besteht. Das heißt, Vorfälle sind die Summe der Seitenansichten und der Seitenereignisse. Vorfälle sind nur in Ad Hoc Analysis verfügbar. | Nicht verfügbar in Reports &amp; Analytics, Web Services 1.4 oder Report Builder |
 | Bestellungen | Die Anzahl der Bestellungen, die während des ausgewählten Zeitraums auf Ihrer Website erfolgt sind. Sie können die einzelnen Zeiträume nach anderen Metriken unterteilen, um Elemente (wie z. B. Produkte oder Kampagnen) anzuzeigen, die während des Zeitraums zu den meisten Bestellungen beitrugen. | Konversion |
 | Klicktiefe | Die durchschnittliche Anzahl an Klicks, die von Benutzern ausgeführt werden, um zu einer bestimmten Seite auf der Website zu gelangen. | Traffic |
 | Seitenereignisse | Seitenereignisse umfassen Bildanforderungsdaten aus nicht standardmäßigen Bildanforderungen. Quellen für nicht standardmäßige Bildanforderungen sind Downloadlinks, Exitlinks und Linktracking benutzerspezifischer Links. | Traffic |
@@ -57,7 +56,7 @@ Führt die Standardmetriken in Adobe Analytics auf.
 | Suchvorgänge | Suchvorgänge sind keine Standardmetrik. Es handelt sich dabei immer um eine angepasste Metrik.  Es handelt sich dabei um die empfohlene Standardmetrik für Suchmaschinen und Keywords. Die Metrik stellt Instanzen von Clickthroughs dar und zeigt die Seite, die in Verbindung mit einer bestimmten Suchmaschine oder einem bestimmten Keyword steht. Suchmetrikdaten können rückwirkend bis zu Beginn des Datensatzes gemeldet werden. | Konversion |
 | Einzelzugriff | Der Einzelzugriff definiert sich aus der Anzahl der Besuche auf Ihrer Website, die einen einzelnen, eindeutigen Seitennamenwert enthielten. Wenn ein Benutzer Ihre Website aufruft und auf einen verfolgten Link klickt, ein Ereignis auslöst (z. B. durch den Start eines Videos) oder die Seite neu lädt, wird der Besuch weiterhin als Einzelzugriffsbesuch gewertet. Solange sich der Wert für die Variable „pageName“ nicht ändert, kann eine beliebige Anzahl an Anfragen gesendet werden, und der Besuch wird dennoch als Einzelzugriff gewertet. | Traffic |
 | Besuchszeit | Metriken, die die Verweilzeit von Besuchern auf einer Seite, Site oder pro Besuch melden. | Traffic |
-| Gesamt | Die Metrik insgesamt, der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filter aktuell ausgewählt ist, entspricht der Gesamtwert dem gefilterten Gesamtwert anstatt dem Report Suite-Gesamtwert. Wenn kein Filter ausgewählt ist, entspricht der Gesamtwert dem Report Suite-Gesamtwert. | Die Gesamtversion einer Metrik entspricht dem Typ der Basismetrik. Zum Beispiel `totalpageviews` wäre Traffic, weil `pageviews` Traffic. |
+| Gesamt | Die Metrik insgesamt, der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. Wenn ein Filter aktuell ausgewählt ist, entspricht der Gesamtwert dem gefilterten Gesamtwert anstatt dem Report Suite-Gesamtwert. Wenn kein Filter ausgewählt ist, entspricht der Gesamtwert dem Report Suite-Gesamtwert. | Die Gesamtversion einer Metrik entspricht dem Typ der Basismetrik. Beispielsweise wäre `totalpageviews` Traffic, da `pageviews` Traffic ist. |
 | Unique Customer | (stündlich, täglich, wöchentlich, monatlich, vierteljährlich, jährlich)  Ein Unique Customer wird für den entsprechenden Zeitraum nur einmal gezählt. Eine wiederholte Zählung ist nicht möglich, ganz gleich, wie oft der Besucher zurückkehrt und etwas kauft. Ein Unique Visitor wird in einem bestimmten Zeitraum einmal beim ersten Besuch und bis zum Ablauf des Zeitraums nicht wieder gezählt. Nach Ablauf des Zeitraums wird der Unique Visitor erneut erfasst. Unique Customers werden immer als Unique Visitor gezählt, da sie zum Einkauf die Site aufsuchen müssen. | Konversion |
 | Unique Visitors | Zeigt die Gesamtanzahl aller Unique Visitors für den Berichterstellungszeitraum an (kann konfiguriert werden für täglich, wöchentlich, monatlich, vierteljährlich, jährlich). | Konversion |
 | Einheiten | Die Gesamteinheiten, die während des ausgewählten Zeitraums bestellt wurden. Da Sie viele Einheiten bestellt und erworben haben, ist „Einheiten“ eine wichtige Metrik, die die allgemeine Bestandsbewegung beschreibt. | Konversion |
