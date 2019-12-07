@@ -1,11 +1,10 @@
 ---
 description: Sie können Ihre Adobe Target-Traffic-Daten in einem Bericht anzeigen und segmentieren.
-solution: Analytics
 title: Target
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,10 +19,10 @@ Sie können Ihre Adobe Target-Traffic-Daten in einem Bericht anzeigen und segmen
 
 Zu den Beispielen gehören:
 
-* Measuring the success of Adobe [!DNL Target] campaigns through your KPIs.
-* Breaking down [!DNL Target] campaign and recipe data with conversion variables.
-* Breaking down other reports with [!DNL Target] campaign and recipe traffic data.
+* Messen des Erfolgs von Adobe [!DNL Target]-Kampagnen anhand Ihrer KPIs.
+* Aufschlüsseln von [!DNL Target]-Kampagnen- und Rezeptdaten mit Konversionsvariablen.
+* Aufschlüsseln anderer Berichte mit [!DNL Target]-Kampagnen- und Rezept-Traffic-Daten.
 
-By leveraging data in Analytics reports, you can drill into your [!DNL Target] recipes using [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The report displays Analytics conversion data rather than conversion data from [!DNL Target].
+Über die Datenauswertung in Analytics-Berichten können Sie mithilfe von [Aufschlüsselungen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) einen Drilldown in Ihren [!DNL Target]-Rezepten durchführen und für künftige Tests und mögliche gezielte Kampagnen leistungsstarke Segmente ermitteln. Der Bericht zeigt Analytics-Konversionsdaten und nicht Konversionsdaten aus [!DNL Target] an.
 
 Weitere Informationen finden Sie im [Target](https://help.testandtarget.omniture.com/)-Hilfesystem.
