@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: Verwenden der Integration
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,7 +44,7 @@ Listet die Dimensionen der dynamischen Signalberichterstellung auf, die in diese
 | Artikel-ID | Die Artikel-ID identifiziert jedes Inhaltselement in der Dynamic Signal-Community eindeutig. |
 | Typ der Quelle | Dieses Feld gibt an, ob der Beitrag von einem "Mitglied"oder einer "Marke"erstellt wurde. Beachten Sie, dass in beiden Fällen Inhalte manuell in der Anwendung erstellt oder aus einem externen Feed importiert werden können. |
 | Benutzername | Der Benutzer, der einen Beitrag in seinem/seinen sozialen Netzwerk(en) geteilt hat und Clickthroughs zu Ihrer Site generiert hat. |
-| Quellen-ID | Die Quell-ID identifiziert eindeutig den Ersteller (oder Autor) des freigegebenen Beitrags. Meistens handelt es sich dabei um ein bestimmtes Mitglied oder einen externen Feed. |
+| Quell-ID | Die Quell-ID identifiziert eindeutig den Ersteller (oder Autor) des freigegebenen Beitrags. Meistens handelt es sich dabei um ein bestimmtes Mitglied oder einen externen Feed. |
 | Benutzer-ID | Die Benutzer-ID identifiziert eindeutig einen Benutzer (d. h. einen Mitglied) in der Dynamic Signal-Community. In diesem Fall ist der Benutzer der freigebende Benutzer, der den Beitrag in seinem/seinen sozialen Netzwerk(n) geteilt hat. |
 | Name der Quelle | Die Quelle ist der Ersteller (oder Autor) des freigegebenen Beitrags. In den meisten Fällen ist dies ein Mitglied der Community oder ein externer Feed. |
 | Artikeltitel | Der Titel des freigegebenen Beitrags, der Klicks zu Ihrer Site generiert hat. |
