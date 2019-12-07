@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
-solution: Analytics
 subtopic: Classifications
 title: Informationen über Unterklassifizierungen
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 
-> [!NOTE] Unter-Classification bezieht sich auf die Möglichkeit, Classifications von Classifications zu erstellen. Das ist allerdings nicht dasselbe wie eine zum Erstellen von [!UICONTROL Hierarchie]berichten verwendete [!UICONTROL Classification-Hierarchie]. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](classification-hierarchies.md).
+> [!NOTE] Unterklassifizierungen bezeichnen die Möglichkeit, Klassifizierungen weiter zu klassifizieren. Das ist allerdings nicht dasselbe wie eine zum Erstellen von [!UICONTROL Hierarchie]berichten verwendete [!UICONTROL Classification-Hierarchie]. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](classification-hierarchies.md).
 
 <!-- 
 
@@ -40,7 +39,7 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Weitere Informationen über die Datendatei finden Sie unter [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+Weitere Informationen über die Datendatei finden Sie unter [Klassifizierungsdatendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -60,18 +59,18 @@ Jede Classification, ob über- oder untergeordnet, stellt eine Datenspalte in de
 
 `<parent_name>^<child_name>`
 
-Weitere Informationen zum Datendateiformat finden Sie unter [Classification-Datendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdatendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 Beispiel:
 
-| SCHLÜSSEL | EIGENSCHAFT 1 | Eigenschaft 1&amp;Hat;Eigenschaft 1-1 | Eigenschaft 1&amp;Hat;Eigenschaft 1-2 | Eigenschaft 2 |
+| SCHLÜSSEL | EIGENSCHAFT 1 | Eigenschaft 1&amp;Hut;Eigenschaft1-1 | Eigenschaft 1&amp;Hut;Eigenschaft1-2 | Eigenschaft 2 |
 |---|---|---|---|---|
 | 123 | ABC | Grün | Klein | A12B |
 | 456 | DEF | Rot | Groß | C3D4 |
 
 Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, liegt der Vorteil mehrstufiger Classifications darin, dass einzelne Stufen als einzelne Dateien hochgeladen werden können. Dieser Ansatz sorgt für eine Minimierung der Datenmenge, die regelmäßig hochgeladen werden muss (täglich, wöchentlich usw.), indem Daten in Classification-Stufen gruppiert werden, die sich mit der Zeit ändern, im Gegensatz zu solchen, die das nicht tun.
 
-> [!NOTE] Wenn die Spalte [!UICONTROL Schlüssel] in einer Datendatei leer ist, generiert Adobe automatisch eindeutige Schlüssel für jede Datenzeile. Um beim Hochladen einer Datendatei mit Classification-Daten der zweiten oder einer höheren Stufe mögliche Dateibeschädigungen zu vermeiden, fügen Sie in jeder Zeile der [!UICONTROL Schlüssel]spalte ein Sternchen (*) ein.
+> [!NOTE] Wenn die [!UICONTROL Schlüssel]spalte in einer Datendatei leer ist, erzeugt Adobe automatisch eindeutige Schlüssel für jede Datenzeile. Um beim Hochladen einer Datendatei mit Classification-Daten der zweiten oder einer höheren Stufe mögliche Dateibeschädigungen zu vermeiden, fügen Sie in jeder Zeile der [!UICONTROL Schlüssel]spalte ein Sternchen (*) ein.
 
 Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues).
 
@@ -83,9 +82,9 @@ c_classifications_example.xml
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE] Produktklassifizierungsdaten sind auf Datenattribute beschränkt, die direkt mit dem Produkt zusammenhängen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
+>[!NOTE] Die Produktklassifizierungsdaten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
 
-Beim Hochladen von Datendateien für diese Produkt-Classification können Sie die Classification-Daten wahlweise als einzelne Datei oder in mehreren Dateien hochladen (siehe unten). Durch das Aufteilen des Farbcodes in Datei 1 und des Farbnamens in Datei 2 müssen die Farbnamensdaten (die möglicherweise nur ein paar Zeilen umfassen) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dadurch wird das Farbnamenfeld (CODE&amp;Hat;COLOR) aus der häufiger aktualisierten Datei 1 entfernt und die Dateigröße und Komplexität beim Generieren der Datendatei verringert.
+Beim Hochladen von Datendateien für diese Produkt-Classification können Sie die Classification-Daten wahlweise als einzelne Datei oder in mehreren Dateien hochladen (siehe unten). Durch das Aufteilen des Farbcodes in Datei 1 und des Farbnamens in Datei 2 müssen die Farbnamensdaten (die möglicherweise nur ein paar Zeilen umfassen) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dies schließt das Farbnamenfeld (CODE&amp;Hut;FARBE) aus der häufiger aktualisierten Datei 1 aus und verringert damit Dateigröße und Komplexität beim Generieren der Datendatei.
 
 ## Produkt-Classification – Einzeldatei {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
