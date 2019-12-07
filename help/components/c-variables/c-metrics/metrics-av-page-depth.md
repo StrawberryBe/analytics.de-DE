@@ -1,16 +1,15 @@
 ---
 description: Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Seitentiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
-solution: Analytics
-title: Durchschnittl. Seitentiefe
+title: Durchschnittl. Klicktiefe
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Durchschnittl. Seitentiefe
+# Durchschnittl. Klicktiefe
 
 Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Klicktiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
 
@@ -28,11 +27,11 @@ Anhand der [!UICONTROL Klicktiefe] können Sie erkennen, wo eine gegebene Seite 
  <tbody> 
   <tr> 
    <td colname="col1"> Traffic </td> 
-   <td colname="col2"> <p>Die Berechnung der Seitenereignisse und der angezeigten Seiten dividiert durch die Besuche ergibt die durchschnittliche Klickanzahl einer Seite. Betrachten Sie denselben Besuchspfad: </p> <p>A &gt; B &gt; B &gt; C &gt; D &gt; B </p> <p>Die Klickanzahl wird für jede Seite und jedes Seitenereignis berechnet, einschließlich der Neuladungen, wenn die Option „Wiederholte Instanzen zählen“ aktiviert ist (standardmäßig aktiviert in Ad Hoc Analysis und immer aktiviert in Marketing Reports and Analytics). Für Seite A beträgt die Klickanzahl bei diesem Besuch 0. Für Seite B würde die Klickanzahl 1, 2 und 5 betragen. Die Berechnung des Durchschnitts würde folgendermaßen erfolgen: [(1+2+5) / 3] = 2,67 Durchschnittliche Klicktiefe für Seite B. </p> <p>Wenn die Option „Wiederholte Instanzen zählen“ deaktiviert ist, erhält Seite B 1 und 4. Die Sekunde würde nicht mitgezählt. Die Berechnung würde folgendermaßen erfolgen: [(1+4) / 2 = 2,5] </p> </td> 
+   <td colname="col2"> <p>Die Berechnung der Seitenereignisse und der angezeigten Seiten dividiert durch die Besuche ergibt die durchschnittliche Klickanzahl einer Seite. Betrachten Sie denselben Besuchspfad: </p> <p>A &gt; B &gt; B &gt; C &gt; D &gt; B </p> <p>Die Klickanzahl wird für jede Seite und jedes Seitenereignis berechnet, einschließlich der Neuladungen, wenn die Option „Wiederholte Instanzen zählen“ aktiviert ist (standardmäßig aktiviert in Ad Hoc Analysis und immer aktiviert in Marketing Reports and Analytics). Für Seite A beträgt die Klickanzahl bei diesem Besuch 0. Für Seite B würde die Klickanzahl 1, 2 und 5 betragen. Die Berechnung des Durchschnitts würde folgendermaßen erfolgen: [(1+2+5) / 3] = 2,67 Durchschnittliche Klicktiefe für Seite B. </p> <p>Wenn die Option „Wiederholte Instanzen zählen“ deaktiviert ist, erhält Seite B 1 und 4. Die Sekunde würde nicht mitgezählt. Die Berechnung würde folgendermaßen erfolgen: [(1+4) / 2 = 2,5]. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Konversion </td> 
-   <td colname="col2"> Keine </td> 
+   <td colname="col2"> nicht angegeben </td> 
   </tr> 
  </tbody> 
 </table>
