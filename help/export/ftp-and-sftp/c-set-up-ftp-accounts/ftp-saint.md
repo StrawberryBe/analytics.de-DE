@@ -1,16 +1,15 @@
 ---
 description: Die FTP-Option für Classifications (SAINT) bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
 keywords: ftp;sftp
-solution: Analytics
-title: Classifications
+title: Klassifizierungen
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Classifications
+# Klassifizierungen
 
 Die FTP-Option für Classifications bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze, einschließlich der Möglichkeit, Daten in mehrere Report Suites hochzuladen und Datensätze mit mehr als 50.000 Zeilen hochzuladen.
 
