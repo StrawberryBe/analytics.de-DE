@@ -1,12 +1,11 @@
 ---
 description: Bevor Kanäle und ihre Daten im Bericht angezeigt werden, müssen Sie die Kanäle und die zur Datenverarbeitung erforderlichen Regeln einrichten. Sie können auch Kosten- und Budgetbeträge für betreffende Kanälen einrichten und angeben, wie lange der Besucherinteraktionszeitraum dauern soll. Sie führen Berichtskonfigurationsaufgaben in „Admin Tools“ durch.
-solution: Analytics
 subtopic: Marketing channels
 title: Informationen über Kanäle und Regeln
 topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,17 +35,17 @@ Lesen Sie folgende Themen durch:
 
 Gegebenenfalls müssen Sie sich für Support zu den Voraussetzungen an die Kundenunterstützung wenden:
 
-* In the Administration Console (General Account Settings), enable the **[!UICONTROL Conversion Level]** (e-commerce) option for the report suite.
+* Aktivieren Sie in den allgemeinen Kontoeinstellungen der Admin Console die Option **[!UICONTROL Konversionsstufe]** (E-Commerce) für die Report Suite.
 
-   See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information.
+   Weitere Informationen finden Sie unter [Allgemeine Kontoeinstellungen](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in der Hilfe zu Analytics.
 
 * Richten Sie den Benutzergruppenzugriff auf den **[!UICONTROL Marketingkanalbericht ein]**.
 
-   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
+   Weitere Informationen finden Sie unter [Konfigurieren des Benutzergruppenzugriffs](/help/components/c-marketing-channels/t-user-groups.md).
 
-* Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
+* Stellen Sie sicher, dass Ihr Kundenbetreuer die **[!UICONTROL Kanalberichte]** für Ihre Report Suite aktiviert hat.
 
-## Important processing notes {#important-proc-rules}
+## Wichtige Verarbeitungshinweise {#important-proc-rules}
 
 * Das System verarbeitet die Regeln in der angegebenen Reihenfolge. Sobald eine Regel erfüllt ist, stoppt das System die Verarbeitung der verbleibenden Regeln.
 * Regeln haben Zugriff auf Variablen, die von VISTA gesetzt wurden, können jedoch nicht auf Daten zugreifen, die von VISTA gelöscht wurden.
