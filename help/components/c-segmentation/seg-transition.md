@@ -1,19 +1,18 @@
 ---
 description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: Häufig gestellte Fragen
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Häufig gestellte Fragen
 
-Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen, Best Practices und Verwaltung älterer Segmente.
+Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen, Best Practices und Verwaltung alter Segmente.
 
 ## Funktionen {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -25,10 +24,10 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 
 * Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Alle Segmente gelten nun für alle Report Suites.
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* Der [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) vereinfacht das Erstellen von Segmenten.
 * Der neue [Segment-Manager](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) ermöglicht die Einrichtung von [Workflows](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
 
-* Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden. Bisher wurden Ordner verwendet (in [!DNL Ad Hoc Analysis]), um Segmente zu organisieren.
 
 * [Sequenzielle Segmente](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) können jetzt außerhalb von Ad Hoc Analysis erstellt werden.
 * Der Seitenansichtscontainer wurde in Treffercontainer umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
@@ -41,9 +40,9 @@ Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe A
 
 Sie können wie folgt auf den Segment Builder zugreifen:
 
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![ im linken Navigationsmenü. ](assets/segment_icon.png) In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![](assets/add_button.png)
 
    oder
 
@@ -53,17 +52,17 @@ Sie können wie folgt auf den Segment Builder zugreifen:
 
 Sie können wie folgt auf den Segment-Manager zugreifen:
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
 
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![ im linken Navigationsmenü. ](assets/segment_icon.png) Then click **[!UICONTROL Manage]**, or
+* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
 
 * drücken Sie an einer beliebigen Stelle die Schrägstrich-Taste (/) und suchen Sie nach Segment Manager.
 
 **Wo ist das Dropdown-Feld für Segmente?**
 
-Die Dropdown-Liste "Segmente"in Reports &amp; Analysen wurde durch eine wesentlich leistungsfähigere Benutzeroberfläche des [Segmentaufbaus](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) ersetzt, mit der Sie "universelle"Segmente erstellen können, die über Report Suites und Adobe Analytics-Lösungen hinweg nutzbar sind. Um eine Liste der vorhandenen Segmente anzuzeigen, klicken Sie auf das Symbol Segmente ![](assets/segment_icon.png)
+Die Dropdown-Liste „Segmente“ in Reports &amp; Analytics wurde durch eine wesentlich umfangreichere Benutzeroberfläche des [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) ersetzt, mit der Sie „universelle“ Segmente erstellen können, die über Report Suites und Adobe Analytics-Lösungen hinweg nutzbar sind. Um eine Liste der vorhandenen Segmente anzuzeigen, klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png)
 
-in der linken Navigation und die Segmentleiste wird angezeigt.
+in der linken Navigation, woraufhin die Segmentleiste angezeigt wird.
 
 **Wo ist das Dropdown-Feld für die Report Suite?**
 
@@ -73,7 +72,7 @@ Das Dropdown-Feld für die Report Suite wurde in die obere rechte Ecke jedes Ber
 
 ## Zugriffsberechtigung {#section_648DFA3A882146C485A84ED014EEC707}
 
-**Welche Berechtigungen und Rechte brauche ich, um Segmente zu verwenden, zu erstellen und zu verwalten?**
+**Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?**
 
 Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
 
@@ -81,17 +80,17 @@ Administratoren können alle Segmente bearbeiten und Segmente für Gruppen und a
 
 **Kann ich alle in meinem Unternehmen vorhandenen Segmente sehen?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+Ja, Administratoren können alle Segmente innerhalb der Benutzeroberflächen von [!DNL Analysis Workspace] und [!DNL Reports & Analytics] sehen.
 
-Ad-hoc-Analysen und ReportBuilder zeigen Segmente an, deren Inhaber Sie sind, sowie Segmente, die für Sie freigegeben wurden.
+Ad-hoc-Analysen und Report Builder zeigen Segmente an, deren Inhaber Sie sind, sowie Segmente, die für Sie freigegeben wurden.
 
 **Kann ich alle Analytics-Segmente im Segment-Manager verwalten?**
 
-Ja, alle Segmente können im Segment-Manager in Analysis Workspace und Reports &amp; Analysen sowie in Ad-hoc-Analysen verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
+Ja, alle Segmente können im Segment-Manager in Analysis Workspace und Reports &amp; Analytics sowie in Ad Hoc Analysis verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
 
-Admins can see all segments within the Analysis Workspace and [!DNL Reports & Analytics] user interfaces.
+Administratoren können alle Segmente innerhalb der Benutzeroberflächen von Analysis Workspace und [!DNL Reports & Analytics] sehen.
 
-Ad-hoc-Analysen und ReportBuilder zeigen lediglich von Ihnen erstellte Segmente oder Segmente, die spezifisch mit Ihnen geteilt wurden, an.
+Ad Hoc Analysis und Report Builder zeigen lediglich von Ihnen erstellte Segmente oder Segmente, die spezifisch mit Ihnen geteilt wurden, an.
 
 **Warum kann ich dieses Segment nicht löschen?**
 
@@ -111,7 +110,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Taggen Sie Segmente unter Einhaltung der [Best Practices](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Verwaltung alter Segmente {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -119,7 +118,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/c-segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als  Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -127,7 +126,7 @@ Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet
 
 **Was ist mit meinen vorhandenen Segmentordnern passiert?**
 
-Anstatt der (Ad-hoc-Analysen-) Ordner verwendet der Segment-Manager  Tags zu platzieren. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
+Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager Tags zu platzieren. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
 
 **Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?**
 
@@ -139,17 +138,17 @@ Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselb
 
 ![](assets/duplicate_seg_names.png)
 
-Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ referenziert. Dann löschen Sie dieses Segment, weil es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition des maindev-Segments ändern und „Catalina Island“ und „Tijuana Mexiko“ einfügen, wird das auf das Lesezeichen angewendete Segment nicht geändert. Es verwendet weiterhin die alte Definition. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie sich nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht ein gelöschtes Segment verwendet, können Sie den Namen des verbleibenden Segments ändern, damit klarer wird, ob das Lesezeichen das restliche Segment verwendet.
+Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ referenziert. Dann löschen Sie das Segment, weil es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition des maindev-Segments ändern und „Catalina Island“ und „Tijuana Mexiko“ einfügen, wird das auf das Lesezeichen angewendete Segment nicht geändert. Es verwendet weiterhin die alte Definition. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht ein gelöschtes Segment verwendet, können Sie den Namen des Segments ändern, damit deutlich wird, ob das Lesezeichen das Segment verwendet.
 
 **Was passiert mit Data Warehouse-Segmenten?**
 
-Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace, Ad-hoc-Analysen und Reports &amp; Analysen.
+Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten, z. B. Analysis Workspace, Ad Hoc Analysis und Reports &amp; Analytics.
 
 Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Durch den Produktkompatibilitätsmechanismus wird im Segment Builder automatisch ermittelt, ob ein Segment mit Data Warehouse kompatibel ist.
 
-**Was geschieht mit Favoriten-Segmenten (Ad-hoc-Analysen)?**
+**Was geschieht mit Favoriten-Segmenten (Ad Hoc Analysis)?**
 
-Diese Ad-hoc-Analysen-Segmente werden in Adobe Analytics als gewöhnliche Segmente angezeigt.
+Diese Ad Hoc Analysis-Segmente werden in Adobe Analytics als gewöhnliche Segmente angezeigt.
 
 Verwechseln Sie sie nicht mit der Favoriten-Funktion im Segment-Manager, über die Sie Segmente als Favoriten markieren können.
 
@@ -161,7 +160,7 @@ Verwechseln Sie sie nicht mit der Favoriten-Funktion im Segment-Manager, über d
 * **Besuche über eine gebührenpflichtige Suche**
 * **Besuche mit Besucher-ID-Cookie**
 
-Diese Segmente werden als Segmentvorlagen in den Segmentaufbaur migriert.
+Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
@@ -175,7 +174,7 @@ Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren we
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
@@ -183,7 +182,7 @@ Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren we
 
 **Admin**-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt.
 
-Der Inhaber dieser Segmente ist auf den Administrator mit dem ältesten Konto in der Liste der Admin-Benutzer des Anmeldeunternehmens eingestellt. Alle Administratoren können diese Segmente jedoch löschen, bearbeiten und freigeben.
+Der Eigentümer dieser Segmente wird mit dem ältesten Konto in der Liste der Admin-Benutzer in der Organisation als Admin angelegt. Es können jedoch alle Administratoren diese Segmente löschen, bearbeiten und teilen.
 
 Die Segmentverwaltungsoberfläche der Admin Console, über die Administratoren diese globalen Segmente erstellen und verwalten konnten, gibt es nicht mehr. Administratoren sollten jetzt den neuen Segmentaufbau verwenden, um Segmente zu erstellen und für geeignete Gruppen, für alle oder für einzelne Personen freizugeben.
 
@@ -199,13 +198,13 @@ Vorhandene Segmente, die Logik verwenden, die wie in diesem Dokument beschrieben
 
 Folgende Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
 
-* Geo-Stadt/Region/Land - Suchen Sie nach bestimmten Städten, Regionen oder Ländern und wählen Sie diese aus, anstatt eine teilweise Übereinstimmung zu verwenden.
-* Browser - Verwenden Sie die Dimension "Browsertypen", um alle Browser eines Typs, z. B. Google Chrome, zu erhalten
-* Betriebssysteme - verwenden Sie die Dimensionen Betriebssystemtypen, um alle Betriebssysteme eines Typs, z.B. Microsoft Windows, zu erhalten.
+* Geo-Stadt/Region/Land – Suche nach und Auswahl bestimmter Städte, Regionen oder Länder, anstelle einer teilweisen Übereinstimmung.
+* Browser – benutzen Sie die Browsertypen-Dimension, um alle Browser eines Typs zu erhalten, z. B. Google Chrome.
+* Betriebssysteme – benutzen Sie die Betriebssystemtypen-Dimensionen, um alle Betriebssysteme eines Typs zu erhalten, z. B. Microsoft Windows.
 
 * [Neue und umbenannte Dimensionen](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Änderungen an Contains](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Änderungen an kleiner als und größer als](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Änderungen an „Enthält“](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [Änderungen an „Weniger als“ und „Mehr als“](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Neue und umbenannte Dimensionen {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -214,7 +213,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
 <table id="table_1A8C1940FD0446FA8414C6A7DE66E44C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Neuer Dimensionsname  </th> 
+   <th colname="col1" class="entry"> Neuer Dimensionsname </th> 
    <th colname="col2" class="entry"> Vorheriger Name </th> 
    <th colname="col3" class="entry"> Hinweise </th> 
   </tr> 
