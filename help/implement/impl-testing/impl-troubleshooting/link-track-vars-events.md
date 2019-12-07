@@ -1,12 +1,11 @@
 ---
 description: Für eine erfolgreiche Implementierung der Linktracking ist es unbedingt erforderlich, dass man weiß, wie die Variablen „s.linkTrackVars“ und „s.linkTrackEvents“ funktionieren. Hiermit können benutzerspezifische Variablenwerte bei Benutzeraktionen weitergegeben werden.
 keywords: Analytics Implementation
-solution: Analytics
 title: Verwendung von „s.linkTrackVars“ und „s.linkTrackEvents“
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
