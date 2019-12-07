@@ -1,27 +1,26 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie allen Benutzern in Ihrem Unternehmen eine E-Mail schicken.
-solution: Analytics
 subtopic: Users and groups
-title: E-Mail-Benutzer
+title: Senden von E-Mails an Benutzer
 topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# E-Mail-Benutzer
+# Senden von E-Mails an Benutzer
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 In diesen Schritten wird beschrieben, wie Sie allen Benutzern in Ihrem Unternehmen eine E-Mail schicken.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Email Users]**.
-1. Select the **[!UICONTROL Administrators Only]** check box to restrict email to administrators only.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]**.
+1. Klicken Sie auf **[!UICONTROL E-Mail an Benutzer]**.
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Nur Administratoren]**, um E-Mails nur auf Administratoren zu beschränken.
 
    Standardmäßig werden Nachrichten an alle Benutzer im Unternehmen gesendet.
 1. Füllen Sie die folgenden Felder aus:
@@ -30,5 +29,5 @@ In diesen Schritten wird beschrieben, wie Sie allen Benutzern in Ihrem Unternehm
 
    **[!UICONTROL Betreff:]** Hier geben Sie den Text ein, der in der Betreffzeile der E-Mail angezeigt werden soll.
 
-   **[!UICONTROL Haupttext:]** Geben Sie den Haupttext der E-Mail ein.
-1. Click **[!UICONTROL Send Message Now]**.
+   **[!UICONTROL Textkörper:]** Geben Sie den Text ein, der im Textkörper der E-Mail-Nachricht angezeigt wird.
+1. Klicken Sie auf **[!UICONTROL Nachricht jetzt senden]**.
