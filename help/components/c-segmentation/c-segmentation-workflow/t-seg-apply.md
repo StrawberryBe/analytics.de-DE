@@ -1,11 +1,10 @@
 ---
 description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Bericht an.
-solution: Analytics
 title: Segmente auswählen und anwenden
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Bericht an.
 
 1. Wählen Sie den Bericht aus, auf den Sie ein Segment anwenden möchten, z. B. den [!UICONTROL Seitenbericht].
-1. Click **[!UICONTROL Show Segments]** above the report. Die Segmentleiste wird geöffnet.
+1. Klicken Sie über dem Bericht auf **[!UICONTROL Segmente anzeigen]**. Die Segmentleiste wird geöffnet.
 
    ![](assets/segment_rail.png)
 
-1. Mark the checkbox next to one or more of the segments or **[!UICONTROL Search Segments]** to find the right segment.
+1. Aktivieren Sie das Kontrollkästchen neben Segmenten oder **[!UICONTROL Segmente durchsuchen]**, um das richtige Segment zu finden.
 
    >[!NOTE]
    >
@@ -27,9 +26,9 @@ So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Beri
 
    >[!NOTE]
    >
-   >Durch Klicken auf das Informationssymbol (i) neben dem Segmentnamen können Sie eine Vorschau der Schlüsselmetriken anzeigen, um zu sehen, ob ein gültiges Segment vorhanden ist und wie breit das Segment ist.
+   >Wenn Sie neben dem Segmentnamen auf das Informationssymbol (i) klicken, erhalten Sie eine Vorschau der Schlüsselmetriken und sehen, ob Sie ein gültiges Segment besitzen und wie breit das Segment ist.
 
-1. You can filter by report suite by selecting the **[!UICONTROL (Only)`<report suite name>`]** check box. Dadurch werden nur die Segmente angezeigt, die zuletzt in der entsprechenden Report Suite gespeichert wurden.
-1. Click **[!UICONTROL Apply Segment]** and the report will refresh. Die angewendeten Segmente werden jetzt oben im Bericht angezeigt:
+1. Sie können nach Report Suite filtern, indem Sie das Kontrollkästchen **[!UICONTROL (Nur)`<report suite name>`]** aktivieren. Dadurch werden nur die Segmente angezeigt, die zuletzt in der entsprechenden Report Suite gespeichert wurden.
+1. Klicken Sie auf **[!UICONTROL Segment anwenden]**, damit der Bericht aktualisiert wird. Die angewendeten Segmente werden jetzt oben im Bericht angezeigt:
 
    ![](assets/applied_segments.png)
