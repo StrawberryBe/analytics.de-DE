@@ -1,11 +1,10 @@
 ---
 description: Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere Dimensionen in Berichten darstellen, die nicht standardmäßig implementiert werden. Benutzerspezifischen Traffic-Berichte lassen sich auf verschiedene Weise einsetzen, meist zum Messen von Traffic und Pfaden.
-solution: Analytics
 title: Benutzerspezifischer Traffic
 topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,12 +16,12 @@ Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere
 ## Eigenschaften von benutzerspezifischen Traffic-Berichten {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
 * Benutzerspezifischen Traffic-Berichte beruhen ausschließlich auf [Props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (Traffic-Variablen).
-* Die Standardmetrik des Berichts sind Seitenansichten (bzw. Instanzen in Version 15). Die Seitenansichten in Version 14 und die Instanzen in Version 15 sind identisch; beide Werte geben an, wie oft die Variable definiert wurde. Die Seitenansichten in Version 15 zählen lediglich die Anzahl der Bildanforderungen *`s.t()`* (ohne *`s.tl()`* Anforderungen).
+* Die Standardmetrik des Berichts sind Seitenansichten (bzw. Instanzen in Version 15). Die Seitenansichten in Version 14 und die Instanzen in Version 15 sind identisch; beide Werte geben an, wie oft die Variable definiert wurde. Die Seitenansichten in Version 15 zählen lediglich die Anzahl der *`s.t()`*-Bildanforderungen (ohne *`s.tl()`*-Anforderungen).
 
 * Die Pfade können aktiviert werden, wenn dies im Vertrag Ihres Unternehmens inbegriffen ist und ein unterstützter Benutzer diese Aktivierung anfordert. Wenn Pfade für eine Traffic-Variable aktiviert sind, stehen die folgenden Metriken zur Verfügung:
 * 
 
-   * Durchschnittl. Seitentiefe
+   * Durchschnittl. Klicktiefe
    * Durchschnittliche Besuchszeit
    * Einträge
    * Ausstiege
