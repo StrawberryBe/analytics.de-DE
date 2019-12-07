@@ -1,11 +1,10 @@
 ---
 description: Zeigt die Zahl der Unique Visitors Ihrer Site in der jeweiligen Stunde bzw. am jeweiligen Tag, der Woche, im Quartal oder im Jahr. Ein Unique Visitor wird für den ausgewählten Zeitraum nur einmal gezählt. Besucher, die zu Ihrer Website zurückkehren, werden erst nach abgelaufenem Zeitraum wieder als Unique User gezählt.
-solution: Analytics
 title: Besucher
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
