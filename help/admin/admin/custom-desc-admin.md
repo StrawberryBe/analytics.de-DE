@@ -1,22 +1,21 @@
 ---
 description: Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classifications und Ereignisse angeben. Die Beschreibungen sind für alle Endbenutzer verfügbar.
-solution: Analytics
-title: Benutzerspezifische Berichtbeschreibung
+title: Benutzerdefinierte Berichtbeschreibungen
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Benutzerspezifische Berichtbeschreibung
+# Benutzerdefinierte Berichtbeschreibungen
 
 Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classifications und Ereignisse angeben. Die Beschreibungen sind für alle Endbenutzer verfügbar.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **[!UICONTROL bearbeiten]** &gt; **[!UICONTROL *Variable*]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL *Variable*]**
 
-> [!NOTE] Das Hinzufügen von Beschreibungen ist für die meisten herkömmlichen Classifications verfügbar, derzeit jedoch nicht für mobile Classifications.
+> [!NOTE] Das Hinzufügen von Beschreibungen ist für die meisten traditionellen Klassifizierungen verfügbar, derzeit jedoch nicht für mobile Klassifizierungen.
 
 ![](assets/report_descriptions.png)
 
