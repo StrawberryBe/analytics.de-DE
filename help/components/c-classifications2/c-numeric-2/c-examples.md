@@ -1,12 +1,11 @@
 ---
 description: Beispiele, die den Import von Nummerisch 2 Klassifizierungen veranschaulichen.
-solution: Analytics
 subtopic: Classifications
 title: Beispiele
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ In diesem Fall haben Sie die Classification im Manager für [!UICONTROL Konversi
 | 2010/01/01 – 2010/01/31 | revenue | revenue |
 | 2010/01/01 – 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+Im Januar hatte Produkt 1 Kosten in Höhe von 20 % seines Umsatzes (zu sehen unter `~MyCost^~value~`), bei Produkt 2 lagen die Kosten bei 30 % des Umsatzes. Da Sie eine neue Zeile importieren, ist `~MyCost^~id~` leer.
 
 ## Ergebnis {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 – 2010/02/28 | revenue | revenue |
 | 2010/02/01 – 2010/02/28 | revenue | revenue |
 
-Im Februar gingen die Kosten des Benutzers für Produkt1 auf 15 % des Umsatzes zurück, und Produkt2 sank auf 25 % seines Umsatzes.
+Im Februar sind die Kosten des Benutzers für Produkt 1 um 15 % des Umsatzes gefallen, bei Produkt 2 sanken die Kosten um 25 % des Umsatzes.
 
 ## Ergebnis {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -130,7 +129,7 @@ Bericht: Produkte
 | Produkte | Umsatz | MyCost |
 |---|---|---|
 | Product1 | 11.023,75 $ | 3000,00 $ |
-| Product2 | 8000,12 $ | 2000,00 $ |
+| Product2 | 8000,12 $ | $2000.00 |
 
 <!-- 
 
@@ -168,7 +167,7 @@ Bericht: Produkte
 |---|---|---|
 | Product1 | 10.000,23 $ | 2500,05 $ |
 
-> [!NOTE] Diese Funktion ist für fortgeschrittene Benutzer geeignet, Werte anzunähern. Die Ergebnisinformationen sollten nicht als exakte Werte gesehen werden.
+> [!NOTE] Diese Funktion sollte nur von fortgeschrittenen Benutzern zur Ermittlung von Näherungswerten genutzt werden. Die Ergebnisinformationen sollten nicht als exakte Werte gesehen werden.
 
 <!-- 
 
@@ -197,7 +196,7 @@ Bericht: Produkte nach Seite
 | Produkte nach Seite | Bestellungen | MyCost |
 |---|---|---|
 | Product1 | 1000 | 1000.00 $ |
-| „Homepage“ | 600 | 600 $ |
+| „Homepage“ | 600 | $600 |
 | Warenkorb | 400 | 400 $ |
 
 <!-- 
