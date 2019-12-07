@@ -1,11 +1,10 @@
 ---
 description: Die Anzahl nicht duplizierter (nur einmal gezählter) Besucher Ihrer Website im Verlauf eines Tages. Der Besuch für „Individuelle Besucher pro Tag“ endet für die in der Report Suite ausgewählte Zeitzone um Mitternacht.
-solution: Analytics
 title: Unique Visitors pro Tag
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,6 +17,6 @@ Die Anzahl nicht duplizierter (nur einmal gezählter) Besucher Ihrer Website im 
 |---|---|
 | Traffic | Unique Visitor, der Ihre Site an einem Tag aufruft. Mehrere Besuche innerhalb eines Tages durch denselben Besucher zählen als ein Unique Visitor pro Tag. |
 | Konversion | Unterstützt nur [!UICONTROL Unique Visitors pro Tag]. Wird wie für Traffic definiert, allerdings nur bei einem konversionsbezogenen Ereignis gezählt. |
-| Ad Hoc Analysis  | Unique Visitor, der Ihre Site an einem Tag aufruft. Mehrere Besuche innerhalb eines Tages durch denselben Besucher zählen als ein [!UICONTROL Unique Visitor pro Tag]. |
+| Ad Hoc Analysis | Unique Visitor, der Ihre Site an einem Tag aufruft. Mehrere Besuche innerhalb eines Tages durch denselben Besucher zählen als ein [!UICONTROL Unique Visitor pro Tag]. |
 
-Siehe [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
+Weitere Informationen finden Sie unter [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
