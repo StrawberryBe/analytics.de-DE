@@ -1,12 +1,11 @@
 ---
 description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Wenn Sie sich in Marketing-Berichte, Ad Hoc Analysis und Report Builder anmelden, wählen Sie die gewünschte Report Suite aus (eine Ausnahme sind die Datenaggregationen, die Report Suites kombinieren).
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: Berichte und Report Suites
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,7 +36,7 @@ Zu den allgemeinen Berichtstypen gehören:
 * [Konversionsberichte](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html): Zeigen Informationen über von Ihnen definierte Erfolgsindikatoren an.
 * [Pfadberichte](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html): Ermöglichen es Ihnen, komplette Browsing-Pfade von Besuchern zurückzuverfolgen und aufzuzeichnen.
 
-Mit [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) können Sie die typischen Einschränkungen eines einzelnen Analytics-Berichts überwinden. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag &amp; Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse, Warnhinweise und Segmente, und kuratieren Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
+Mit [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) können Sie die typischen Einschränkungen eines einzelnen Analytics-Berichts überwinden. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse, Warnhinweise und Segmente, und kuratieren Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
 
 <p class="head"> <b>Siehe auch</b> </p>
 
