@@ -1,11 +1,10 @@
 ---
 description: Erläutert die Schritte und die Best Practices für die Planung von Segmenten.
-solution: Analytics
 title: Segmente planen
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,5 +25,5 @@ Wenn Sie für die Planung von Segmenten etwas Zeit aufwenden, verbessern Sie die
 1. Entscheiden Sie, welche **Elemente** und welche Werte in die Segmentdefinition aufgenommen werden. Berücksichtigen Sie bei dieser Entscheidung die [Variablenpersistenz](/help/components/c-segmentation/seg-overview.md).
 
 1. Überlegen Sie, wie der **Genehmigungsprozess** verlaufen soll. Wird eine einzelne Person die Segmente prüfen und genehmigen oder wird dies die Entscheidung einer Kommission sein?
-1. Definieren Sie Ihre Segmente mit Blick auf eine **Segmentbibliothek**, die Unternehmensbenutzern die Möglichkeit gibt, Segmentteile oder Komponenten modular zu stapeln und wiederzuverwenden. [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) Welche „Module“ müssen Sie definieren, um diese Bibliothek zu realisieren?
+1. Definieren Sie Ihre Segmente mit Blick auf eine **Segmentbibliothek**, die Unternehmensbenutzern die Möglichkeit gibt, Segmentteile oder Komponenten modular zu [stapeln](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) und wiederzuverwenden. Welche „Module“ müssen Sie definieren, um diese Bibliothek zu realisieren?
 
