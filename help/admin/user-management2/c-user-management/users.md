@@ -1,12 +1,11 @@
 ---
-description: In der Verwaltung für Bericht-Benutzer und Bericht-Gruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Werkzeuge und Report Suites steuern.
-solution: Analytics
+description: In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
 subtopic: Users and groups
 title: Übersicht über die Benutzerverwaltung
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
-In der Verwaltung für Bericht-Benutzer und Bericht-Gruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Werkzeuge und Report Suites steuern.
+In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; Benutzer **[!UICONTROL bearbeiten]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Benutzer bearbeiten]**
 
 ## Beschreibungen zu Benutzerkonten {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -80,7 +79,7 @@ Erstellt ein Standard-Dashboard für eine bestimmte Report Suite.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Benutzer</span> </td> 
-   <td colname="col2"> <p> Hiermit werden dem Benutzer nur die ausgewählten Gruppenberechtigungen gewährt. Wählen Sie die gewünschten Gruppen im Feld <span class="uicontrol">Verfügbare Gruppen</span> (links) aus, und klicken Sie anschließend auf <span class="uicontrol">Hinzufügen</span>. Die zugewiesenen Gruppen werden im Feld <span class="uicontrol">Zugewiesene Gruppen</span> (rechts) angezeigt. For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Hiermit werden dem Benutzer nur die ausgewählten Gruppenberechtigungen gewährt. Wählen Sie die gewünschten Gruppen im Feld <span class="uicontrol">Verfügbare Gruppen</span> (links) aus, und klicken Sie anschließend auf <span class="uicontrol">Hinzufügen</span>. Die zugewiesenen Gruppen werden im Feld <span class="uicontrol">Zugewiesene Gruppen</span> (rechts) angezeigt. Weitere Informationen zur Erstellung und Verwaltung von Gruppen finden Sie unter <a href="/help/admin/user-management2/c-user-groups/groups.md">Gruppen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +89,7 @@ Erstellt ein Standard-Dashboard für eine bestimmte Report Suite.
 | Element | Beschreibung |
 |---|---|
 | [!UICONTROL Begrüßungs-E-Mail senden an] | Bei Auswahl dieser Option wird vom System automatisch eine Nachricht mit Informationen zum neuen Konto an die E-Mail-Adresse des Benutzers gesendet. |
-| [!UICONTROL Benutzerspezifische Nachricht] | Hier können Sie zusätzlichen Inhalt für die Begrüßungsmeldung eingeben. Im Feld „Benutzerspezifische Nachricht“ wird HTML-Code unterstützt, aber es können keine Dateien angehängt werden. |
+| [!UICONTROL Benutzerdefinierte Nachricht] | Hier können Sie zusätzlichen Inhalt für die Begrüßungsmeldung eingeben. Im Feld „Benutzerspezifische Nachricht“ wird HTML-Code unterstützt, aber es können keine Dateien angehängt werden. |
 | [!UICONTROL E-Mail-Vorschau] | Hiermit wird die Begrüßungs-E-Mail in einem separaten Browser-Fenster angezeigt. |
-| [!UICONTROL Als Standardbegrüßung einrichten] | Hiermit wird die Standardbegrüßungsmeldung um den Inhalt aus dem Bereich „Benutzerspezifische Nachricht“ erweitert. |
+| [!UICONTROL Als Standardbegrüßung einrichten] | Hiermit wird die Standardbegrüßungsmeldung um den Inhalt aus dem Bereich „Benutzerdefinierte Nachricht“ erweitert. |
 
