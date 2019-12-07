@@ -1,11 +1,10 @@
 ---
 description: Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während eines angegebenen Zeitraums an.
-solution: Analytics
 title: Besuche
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,11 +39,11 @@ Siehe [Besuchsmetrik](/help/components/c-variables/c-metrics/metrics-visit.md), 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Reports and Analytics </p> </td> 
+   <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Sitemetriken“</span> &gt; <span class="uicontrol">„Besuche“</span> </p> <p>Sie können einen <span class="wintitle">„Besuche“-Bericht</span> auf einer ausgewählten Seite ausführen. Besuche, die über Mitternacht hinausgehen, werden sowohl für den Tag gezählt, an dem der Besuch begann, als auch für den Tag, an dem er endete. In der Gesamtsumme für den speziellen Datumsbereich werden Doppelzählungen jedoch dedupliziert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Ad Hoc Analysis  </p> </td> 
+   <td colname="col1"> <p> Ad Hoc Analysis </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Berichte“</span> &gt; <span class="uicontrol">„Sitemetriken“</span> &gt; <span class="uicontrol">„Besuche“</span> </p> 
     <ul id="ul_73FEE02C129041D6A63F2DB07676960F"> 
      <li id="li_CC3BB22DE97941EB8032BE4421FFC173"> Sie können jedes Element in diesem Bericht nach nahezu jedem anderen Bericht und beliebigen Variablen aufschlüsseln, sodass Sie Aufschlüsselungen jeder Granularität sehen können. </li> 
