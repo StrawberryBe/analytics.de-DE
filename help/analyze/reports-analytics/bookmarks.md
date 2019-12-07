@@ -1,12 +1,11 @@
 ---
 description: Anhand von Lesezeichen haben Sie Zugriff auf die Berichte, die Sie am meisten verwenden. Die von Ihnen erstellten Lesezeichen werden der Experience Cloud hinzugefügt und sind in integrierten Funktionen wie Data Connectors verfügbar.
-solution: Analytics
 subtopic: Bookmarks
 title: Lesezeichen-Manager
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Name|Ein benutzerfreundlicher Name für dieses Lesezeichen.|
-       |—|—|
-       |Hinzufügen zu|Gibt den Ordner an, in dem Sie das Lesezeichen ablegen möchten.|
-       |Als öffentlich einstellen| Stellt dieses Lesezeichen Benutzern mit Zugriff auf die Report Suite zur Verfügung.|
-       |Bericht bei Anmeldung anzeigen| Zeigt den Bericht bei der Anmeldung an.|
+       |Name|Ein benutzerfreundlicher Name für dieses Lesezeichen.
+    |
+ |—|—|     |Hinzufügen zu|Gibt den Ordner an, in dem Sie das Lesezeichen ablegen möchten.
+|     |Als öffentlich einstellen| Stellt dieses Lesezeichen Benutzern mit Zugriff auf die Report Suite zur Verfügung.
+|     |Bericht bei Anmeldung anzeigen| Zeigt den Bericht bei der Anmeldung an.|
    
 ## Lesezeichen verwalten {#task_1EE793CB52EA467787817BBD98DEF150}
 
