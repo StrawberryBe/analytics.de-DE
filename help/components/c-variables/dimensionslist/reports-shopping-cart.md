@@ -1,11 +1,10 @@
 ---
 description: Zeigt die Anzahl der Warenkörbe an, die während des angegebenen Zeitraums geöffnet werden. Sie haben die Möglichkeit, Warenkorbansichten, Zusätze, Entnahmen und Checkouts zu analysieren. Der Warenkorb wird gewöhnlich geöffnet, wenn der Kunde einen Artikel zum Kauf auswählt, das Öffnen kann jedoch auch ohne einen Artikel erfolgen.
-solution: Analytics
 title: Warenkorb
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
