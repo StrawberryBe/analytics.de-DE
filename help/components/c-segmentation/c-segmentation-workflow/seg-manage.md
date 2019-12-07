@@ -1,11 +1,10 @@
 ---
 description: Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratieren von Segmenten wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
-solution: Analytics
 title: Segmente verwalten
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,8 +15,8 @@ Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratieren von Segmen
 
 Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Besitz befinden und für Sie freigegeben wurden. Benutzer auf Administratorebene sehen alle Segmente der Organisation. Dieser Überblick präsentiert die Benutzeroberfläche und die Funktionen des Segment-Managers. Sie können wie folgt auf den Segmentaufbau zugreifen
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** in the top navigation.
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![ im linken Navigationsmenü. ](assets/segment_icon.png) Klicken Sie anschließend auf **[!UICONTROL Verwalten]**.
+* Gehen Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Segmente]** in der Navigation oben.
+* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]**.
 
 ## Anleitungsvideo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
@@ -44,13 +43,13 @@ In diesem [YouTube-Video von Adobe Analytics](https://www.youtube.com/watch?v=Cd
 | 13 | Freigegeben-Symbol | Zeigt an, dass dieses Segment durch einen Administrator freigegeben wurde. |
 | 14 | Filter | Ermöglicht Ihnen, die Filter unter „Tags“, „Report Suites“, „Inhaber“ und „Sonstige“ („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Genehmigt“, „Favoriten“) zu sehen. |
 
-## Segment-Manager in Ad-hoc-Analysen {#section_CC8BDC968EBC4BC1919870869D8443A9}
+## Segment-Manager in Ad Hoc Analysis {#section_CC8BDC968EBC4BC1919870869D8443A9}
 
 Der Segment Organizer in Ad-hoc-Analysen zeigt Ihnen alle Segmente an, deren Inhaber Sie sind oder die für Sie freigegeben wurden.
 
-So greifen Sie auf den Segment Organizer in [!DNL ad hoc analysis]zu:
+So greifen Sie auf den Segment Organizer in [!DNL ad hoc analysis] zu:
 
-* Öffnen Sie im linken Seitenfenster die Registerkarte **[!UICONTROL Segmente]**. Klicken Sie auf das Schraubenschlüsselsymbol ![ und wählen Sie im Menü **Segmente organisieren]aus.](assets/wrench_icon.png)[!UICONTROL **
+* Öffnen Sie im linken Seitenfenster die Registerkarte **[!UICONTROL Segmente]**. Klicken Sie auf das Schraubenschlüsselsymbol ![](assets/wrench_icon.png) und wählen Sie im Menü **[!UICONTROL Segmente organisieren]** aus.
 
 ![](assets/ad_hoc_organize_segments.png)
 
