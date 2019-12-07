@@ -1,11 +1,10 @@
 ---
 description: Anleitung zum Einrichten einer sicheren Übertragung mit Adobe FTP-Servern.
 keywords: ftp;sftp
-solution: Analytics
 title: Verbindung zu einem Adobe FTP-Konto mit SFTP herstellen
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,4 +32,4 @@ Anleitung zum Einrichten einer sicheren Übertragung mit Adobe FTP-Servern.
 
 1. Testen Sie die Verbindung, indem Sie sich mit SFTP beim FTP-Konto anmelden.
 
-[Weitere Informationen finden Sie unter ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)Verbindung mit Adobe über sFTP ohne Kennwort herstellen_....
+[Weitere Informationen finden Sie unter ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)Verbindung mit Adobe über sFTP ohne Kennwort herstellen_... .
