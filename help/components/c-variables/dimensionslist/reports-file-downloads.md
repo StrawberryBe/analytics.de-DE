@@ -1,11 +1,10 @@
 ---
 description: „Dateidownloads“ zeigt Ihnen, wie oft Besucher Dateien von Ihrer Site herunterladen. Beispiele für Dateidownloads sind Dateien aus Textverarbeitungsprogrammen, Tabellen, Audiodateien, Filmdateien, Benutzerhandbücher und Ähnliches. Dazu gehören sowohl Dateien, die direkt im Browser gespeichert und geöffnet werden, als auch Dateien, die auf dem Computer des Benutzers gespeichert werden. Der Bericht zeigt den Namen der heruntergeladenen Datei sowie die vollständige URL, die für den Zugriff auf die Datei benötigt wird.
-solution: Analytics
 title: Dateiladungen
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **Navigation**
 
-**[!UICONTROL Berichte]** &gt; **[!UICONTROL Site-Inhalt]** &gt; **[!UICONTROL Links]** &gt; **[!UICONTROL Dateidownloads]**
+**[!UICONTROL Berichte]** &gt; **[!UICONTROL Site-Content]** &gt; **[!UICONTROL Links]** &gt; **[!UICONTROL Dateidownloads]**
 
 Wenn sich dieser Bericht nicht an der üblichen Stelle befindet, wenden Sie sich an einen Administrator. Möglicherweise wurde die Standardmenüstruktur den Anforderungen Ihrer Organisation entsprechend geändert.
 
@@ -32,10 +31,10 @@ Verwenden Sie diesen Bericht, um:
 
 Marketing-Berichte erfassen Informationen zu Dateien, die von Seiten Ihrer Website heruntergeladen wurden, sofern diese Seiten JavaScript-Code enthalten. Bestimmte Variablen müssen jedoch vorhanden und ordnungsgemäß eingerichtet sein, damit Informationen zum Dateidownload berichtet werden können. Falls dieser Bericht keine Daten oder nicht die erwarteten Werte anzeigt, führen Sie zum Überprüfen Ihrer Implementierung die folgenden Schritte aus.
 
-1. Suchen Sie auf Ihrer Site die globale JavaScript-Datei. Die Datei trägt häufig den Namen [!DNL s_code.js]„, “, kann jedoch umbenannt worden sein. Wenn sie umbenannt wurde, können Sie die JavaScript-Dateien auf Ihrer Site nach dem Wert durchsuchen, der Teil des JavaScript-Codes *`s.account`* ist.
+1. Suchen Sie auf Ihrer Site die globale JavaScript-Datei. Die Datei trägt häufig den Namen [!DNL s_code.js]„, “, kann jedoch umbenannt worden sein. Wenn sie umbenannt wurde, können Sie die JavaScript-Dateien auf Ihrer Site nach dem Wert *`s.account`* durchsuchen, der Teil des JavaScript-Codes ist.
 
 1. Suchen Sie in der Datei die Variable [„s.trackDownloadLinks“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Stellen Sie sicher, dass die Variable auf *„True“* festgelegt ist.
 
-1. Suchen Sie die Variable [„s.linkDownloadFileTypes“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Stellen Sie sicher, dass alle gewünschten Dateierweiterungen in der Liste enthalten sind. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. Suchen Sie die Variable [„s.linkDownloadFileTypes“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Stellen Sie sicher, dass alle gewünschten Dateierweiterungen in der Liste enthalten sind. Fügen Sie ggf. fehlende Erweiterungen (wie [!DNL .zip], [!DNL .pdf] usw.) hinzu.
 
 Wenn diese Variablen anscheinend richtig konfiguriert sind, der [!UICONTROL Download-Bericht] jedoch trotzdem keine Daten empfängt, sollte sich ein unterstützter Benutzer Ihrer Organisation an den Kundendienst wenden.
