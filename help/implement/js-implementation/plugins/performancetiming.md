@@ -1,12 +1,11 @@
 ---
 description: Bei diesem Plug-in wird die Navigation Timing JavaScript API zur präzisen Messung der Leistung im Web verwendet. Dies stellt eine native Methode dar, um präzise und detaillierte Zeitstatistiken zu Seitenladeereignissen und Assetladezeiten abzurufen. Zuvor verwendeten Messungen dieser Sorte entweder das JavaScript Date-Objekt für Zeitmetriken oder eine rudimentäre Weiterführung der Metriken für die Navigationszeit. Beide Methoden sind unzuverlässig, obwohl sie einige Trenddaten für die Seitenladezeit bereitstellen.
 keywords: Analytics Implementation
-solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Bei diesem Plug-in wird die Navigation Timing JavaScript API zur präzisen Messu
 
 Dieses Plug-in nutzt die folgenden detaillierten Ereignisse zum Tracking der einzelnen Zeitkomponenten einer Seitenladung:
 
-| Ereignis | Name | Berechnet aus |
+| Ereignis- | Name | Berechnet aus |
 |---|---|---|
 | 1 | Umleitungszeit | fetchStart - navigationStart |
 | 2 | App-Cache-Zeit | domainLookupStart - fetchStart |
