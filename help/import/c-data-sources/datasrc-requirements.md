@@ -1,12 +1,11 @@
 ---
 description: Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data Sources.
-solution: Analytics
 subtopic: Data sources
 title: Anforderungen und Upload-Beschränkungen
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 * Nur Daten aktuellen Datums oder vergangener Daten können importiert werden. Versuchen Sie nicht, zukünftige Daten in Ihren Data Sources-Daten zu verwenden.
 * In allen Zeilen muss ein Datum angegeben sein, um die Diagrammfunktionen für Berichte zu aktivieren. Wenn eine Zeile kein Datum umfasst, generiert Data Sources einen Fehler und lehnt die Datei ab. Das Datum-/Zeit-Format variiert je nach Datenquellentyp:
 
-   * **Datenquellen** für die vollständige Verarbeitung:Verwenden Sie das ISO 8601-Datumsformat `YYYY-MM-DDThh:mm:ss±UTC_offset` (z. B. `2013-09-01T12:00:00-07:00`) oder Unix Time Format (die Anzahl der seit dem 1. Januar 1970 verstrichenen Sekunden).
+   * **Datenquellen** für die vollständige Verarbeitung: Verwenden Sie das ISO 8601-Datumsformat `YYYY-MM-DDThh:mm:ss±UTC_offset` (z. B. `2013-09-01T12:00:00-07:00`) oder Unix Time Format (die Anzahl der seit dem 1. Januar 1970 verstrichenen Sekunden).
 
    * **Standard- und Integrationsdatenquellen**: Verwenden Sie das folgende Datumsformat: `MM/DD/YYYY/HH/mm/SS` (z. B. `01/01/2013/06/00/00`)
 
@@ -52,7 +51,7 @@ Data Sources unterstützt Multibyte-Codierung. Data Sources versucht, das Format
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Zeichenformat </th> 
-   <th colname="col2" class="entry"> Unterstützung </th> 
+   <th colname="col2" class="entry"> Support </th> 
   </tr> 
  </thead>
  <tbody> 
