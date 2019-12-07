@@ -1,13 +1,12 @@
 ---
 description: Seitenvariablen werden direkt in Berichten ausgefüllt, z. B. pageName, List Props, List Variables usw.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ Die Variable *`linkType`* ist normalerweise nicht erforderlich, da diese Variabl
   <tr> 
    <td> Ein Zeichen </td> 
    <td> pe=[lnk_o|lnk_d|lnk_e] </td> 
-   <td> <p>Dateiladungen </p> <p>Benutzerspezifische Links </p> <p>Exitlinks </p> </td> 
+   <td> <p>Dateiladungen </p> <p>Benutzerdefinierte Links </p> <p>Exitlinks </p> </td> 
    <td> "" </td> 
   </tr> 
  </tbody> 
