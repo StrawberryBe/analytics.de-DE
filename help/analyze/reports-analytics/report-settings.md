@@ -1,11 +1,10 @@
 ---
 description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informationen, die auf die Standardmenüoptionen im vereinfachten Menü klicken.
-solution: Analytics
 title: Einstellungen zur Berichtsanzeige und Navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -106,7 +105,7 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 |  | Referrerdomänen | Traffic-Quellen &gt; Verweisende Domänen |
 |  | Ursprünglich Referrerdomänen | Traffic-Quellen &gt; Ursprünglich verweisende Domänen |
 |  | Verweisende Stellen | Traffic-Quellen &gt; Verweisende Stellen |
-|  | Typen der verweisenden Stellen | Traffic-Quellen &gt; Typen der verweisenden Stellen |
+|  | Referrertypen | Traffic-Quellen &gt; Typen der verweisenden Stellen |
 | **Kampagnen** |  |  |
 |  | Kampagnenkonversionstrichter | Traffic-Quellen &gt; Kampagnen &gt; Kampagnenkonversionstrichter |
 |  | Trackingcode | Traffic-Quellen &gt; Kampagnen &gt; Trackingcode |
