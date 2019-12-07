@@ -1,11 +1,10 @@
 ---
 description: Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Report Suite.
-solution: Analytics
 title: Zeitstempel optional
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ Unter [Verwendung von „Zeitstempel optional“](/help/implement/js-implementat
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
+>Wenn Sie „Zeitstempel optional“ verwenden, dürfen Sie für bereits mit einem Zeitstempel versehene Daten [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) nicht festlegen. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchsnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
 
-> [!NOTE] Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang "geöffnet"bleibt, während ein zusätzlicher Treffer - also nicht 30 Minuten nach dem vorherigen Treffer (in Trefferzeit) - weiterhin im selben Besuch/derselben Sitzung eingeschlossen werden kann. Alle "alten"Treffer, die nicht in der Reihenfolge empfangen werden, führen zu "unbekannten"Ergebnissen, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) Einfluss darauf, ob diese Treffer in die Berichterstellung einbezogen werden.
+> [!NOTE] Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang „offen gehalten“ wird, während jeder zusätzliche Hit – also keine 30 Minuten nach dem vorherigen Hit (in der Hit-Zeit) – noch in denselben Besuch/dieselbe Sitzung einbezogen werden kann. Alle „alten“ Hits, die nicht in Reihenfolge empfangen werden, führen zu „unbekannten“ Ergebnissen, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) beeinflussen, ob diese Hits in die Berichterstellung einbezogen werden.
 
 ## Neue Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -46,5 +45,5 @@ Unter [Verwendung von „Zeitstempel optional“](/help/implement/js-implementat
 
    Damit wird die Report Suite in „Zeitstempel optional“ geändert.
 
-> [!NOTE] Wenn eine Report Suite auf " **Zeitstempel optional**"eingestellt wurde, um dies in eine andere Einstellung zu ändern, wenden Sie sich an den Adobe Client Care.
+> [!NOTE] Wurde eine Report Suite auf **Zeitstempel optional** festgelegt, müssen Sie sich an den Adobe-Kundendienst wenden, um diese oder andere Einstellungen zu ändern.
 
