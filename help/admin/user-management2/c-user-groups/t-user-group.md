@@ -1,12 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie eine Benutzergruppe hinzugefügt wird.
-solution: Analytics
 subtopic: Users and groups
 title: Hinzufügen einer Benutzergruppe
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,18 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 In diesen Schritten wird beschrieben, wie eine Benutzergruppe hinzugefügt wird.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Add New User Group]**, then complete the fields and options described in [Define User Groups](/help/admin/user-management2/c-user-groups/groups.md).
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]**.
+1. Klicken Sie auf **[!UICONTROL Neue Benutzergruppe hinzufügen]** und füllen Sie dann die unter [Benutzergruppe definieren](/help/admin/user-management2/c-user-groups/groups.md) beschriebenen Felder und Optionen aus.
 
-   Quick Links:
+   Quick-Links:
 
-   * [Analytics-Werkzeuge](/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md): Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration.
-   * [Report Suite Tools](/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md): Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
-   * [Metriken](/help/admin/user-management2/c-customize-report-access/groups-metrics.md): Gewähren Sie Zugriff auf Traffic, Konversion, benutzerdefinierte Ereignisse, Lösungsereignisse, Content-Unterstützung und mehr.
-   * [Dimensionen](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md): Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
+   * [Analytics-Tools](/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md): Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Tools, Web-Services, Report Builder und die Data Connectors-Integration.
+   * [Report Suite-Tools](/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md): Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
+   * [Metriken](/help/admin/user-management2/c-customize-report-access/groups-metrics.md): Gewähren Sie Zugriff auf Traffic, Konversion, benutzerspezifische Ereignisse, Lösungsereignisse, Content-Unterstützung und mehr.
+   * [Dimensionen](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md): Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
 
-1. Click **[!UICONTROL Save Group]** to create the group and return to the [!UICONTROL Groups] page.
+1. Klicken Sie auf **[!UICONTROL Gruppe speichern]**, um die Gruppe zu erstellen und zur Seite [!UICONTROL Gruppen] zurückzukehren.
