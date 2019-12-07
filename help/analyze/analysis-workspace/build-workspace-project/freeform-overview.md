@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: Analysis Workspace
-solution: Analytics
 title: Projekt erstellen – Übersicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Die Abfrage erfolgt direkt an die Berichts-Engine. Sie können Änderungen inlin
 
 ## Workspace-Seite mit Projektliste {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. Sie können diese Seite als Adobe Analytics-Landingpage festlegen, indem Sie auf **[!UICONTROL Als Landingpage festlegen klicken]**. (Wenn die Option wie im unten stehenden Screenshot nicht angezeigt wird, ist die Seite bereits Ihre Landingpage.)
+Wenn Sie **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** erstmalig aufrufen, werden auf der Seite alle Projekte aufgeführt, die Ihnen gehören oder zu denen Ihnen Zugriff gewährt wurde. Sie können diese Seite als Startseite für Adobe Analytics festlegen, indem Sie auf **[!UICONTROL Als Landingpage festlegen]** klicken. (Wenn die Option wie im unten stehenden Screenshot nicht angezeigt wird, ist die Seite bereits Ihre Landingpage.)
 
 ![](assets/sample-project.png)
 
@@ -31,18 +30,18 @@ Die Workspace-Seite mit Projektliste umfasst die folgenden Informationen:
 
 | Element | Beschreibung |
 |---|---|
-| Projekt       [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Sie können diese fertig ausgefüllten Projektvorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern. |
+| Projekt [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Sie können diese fertig ausgefüllten Projektvorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern. |
 | [Neues Projekt erstellen](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klicken Sie auf diesen Link, um ein neues Projekt von Grund auf zu erstellen. |
-| Projekte verwalten | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| Projekte verwalten | Wenn Sie auf diesen Link klicken, wird der Projektkomponenten-Manager aufgerufen (**[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Projekte]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
 | Tutorials anzeigen | Sie gelangen zu den [YouTube-Videos für Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Name | Name des Workspace-Projekts. |
 | Erstellt von | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
-| Tags | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]**. |
+| Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponenten-Manager oder unter **[!UICONTROL Workspace]** &gt; **[!UICONTROL Projekt]** &gt; **[!UICONTROL Projektinfo und Einstellungen]**. |
 | Zuletzt geändert | Datum und Zeitpunkt der letzten Änderung des Projekts. |
 
 ## Projektinfo und Einstellungen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Arbeitsbereich]** &gt; **[!UICONTROL Projekt]** &gt; **[!UICONTROL Projektinfo und Einstellungen]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL Projekt]** &gt; **[!UICONTROL Projektinfo und Einstellungen]**
 
 ![](assets/projectinfo.png)
 
@@ -69,12 +68,12 @@ Die Untermenüs enthalten die folgenden Optionen.
 
 > [!NOTE] Mit einem Sternchen (*) markierte Optionen werden nur bei **gespeicherten** Projekten angezeigt.
 
-| Projekt | Bearbeiten | Einfügen | Komponenten | Freigabe | Hilfe |
+| Projekt | Vorlage | Einfügen | Komponenten | Freigabe | Hilfe |
 |---|---|---|---|---|---|
 | Neu | „Rückgängig“ | Neues Bedienfeld | Neues Segment | Projekt freigeben | Videos |
-| Öffnen | Leeren | Neues Freiformfeld | Neue Metrik | Projektverknüpfung abrufen* | Hotkeys |
+| Öffnen | Leeren | Neues Freiformfeld | Neue Metrik | Projektverknüpfung abrufen* | Tastaturbefehle |
 | Speichern | Alle löschen | Neues Bedienfeld für Segmentvergleich | Neuer Datumsbereich | Datei jetzt senden* | Hilfeforum |
-| Speichern unter* |  | Neue Freiform-Tabelle | Neuer Warnhinweis | Datei planmäßig senden* |  |
+| Speichern unter* |  | Neue Freiformtabelle | Neuer Warnhinweis | Datei planmäßig senden* |  |
 | Als Landingpage festlegen* |  | New Line | Komponenten aktualisieren | Projekt kuratieren |  |
 | Projekt aktualisieren |  | Neuer Balken |  |  |  |
 | CSV herunterladen |  |  |  |  |  |
@@ -83,8 +82,8 @@ Die Untermenüs enthalten die folgenden Optionen.
 
 ## Linke Leiste {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+Die linke Leiste enthält 3 Symbole, über die Sie mit einem Klick auf Bedienfelder, [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) und [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (Dimensionen, Metriken, Segmente, Datenbereiche) zugreifen können:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-Zur Liste der auf der linken Leiste verfügbaren Bedienfelder wurde ein **[!UICONTROL leeres Bedienfeld]hinzugefügt.** Ziehen Sie, um ein **neues Kohortenbedienfeld** zu erstellen, eine Kohortentabellen-Visualisierung auf ein leeres Bedienfeld.
+Zur Liste der auf der linken Leiste verfügbaren Bedienfelder wurde ein **[!UICONTROL leeres Bedienfeld]** hinzugefügt. Um ein **neues Kohortenbedienfeld** zu erstellen, ziehen Sie eine Kohortentabellen-Visualisierung auf ein leeres Bedienfeld.
