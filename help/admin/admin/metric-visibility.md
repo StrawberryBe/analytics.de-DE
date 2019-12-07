@@ -1,10 +1,9 @@
 ---
 description: Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
-solution: Analytics
 title: Metriksichtbarkeit
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,8 +12,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Mehr …](/help/admin/admin/c-success-events/t-success-events.md)
-1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
+1. Gehen Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Erfolgsereignisse]**. [Mehr…](/help/admin/admin/c-success-events/t-success-events.md)
+1. Legen Sie für die Spalte „Sichtbarkeit“ entweder **[!UICONTROL Überall eingeblendet]**, **[!UICONTROL Builder]** oder **[!UICONTROL Überall ausgeblendet]** fest.
 
 Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik aus, sondern nur auf die Sichtbarkeit in der Benutzeroberfläche. Diese Einstellungen wirken sich wie folgt auf die Sichtbarkeit der Metriken auf der Benutzeroberfläche aus:
 
@@ -36,7 +35,7 @@ Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik aus,
      <li id="li_0C550B8F99C94620999331BBA1F3659C">Segmentaufbau </li> 
      <li id="li_E2663CFA5F8541C39CE9A18173A074AC">Aufbau berechneter Metriken </li> 
     </ul> </td> 
-   <td colname="col3"> Nicht zutreffend </td> 
+   <td colname="col3"> nicht angegeben </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Builder</b> </td> 
@@ -53,7 +52,7 @@ Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik aus,
   </tr> 
   <tr> 
    <td colname="col1"> <b>Überall ausgeblendet</b> </td> 
-   <td colname="col2"> Nicht zutreffend </td> 
+   <td colname="col2"> nicht angegeben </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (Menü und Metrikauswahl) </li> 
