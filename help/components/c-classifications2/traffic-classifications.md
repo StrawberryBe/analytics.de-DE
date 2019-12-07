@@ -1,12 +1,11 @@
 ---
 description: Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
-solution: Analytics
 subtopic: Classifications
 title: Traffic-Klassifizierungen
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Auf der Seite „Traffic-Classifications“ können Sie Classifications für aus
 
 Nach der Aktivierung der Classifications verwenden Sie den [Classifications Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
-## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
+## Hinzufügen einer Traffic-Klassifizierung {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
 <!-- 
 
@@ -33,15 +32,15 @@ t_classification_add_traffic.xml
 
 Schritte, die beschreiben, wie Classifications für bestimmte Report Suites hinzugefügt oder bearbeitet werden.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** in the Suite header.
+1. Klicken Sie in der Suite-Kopfzeile auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Report Suite auswählen.
-1.  Wählen Sie im Feld **„Einen Klassifizierungstyp auswählen“** die Variable aus, für die Sie eine Klassifizierung hinzufügen möchten.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
+1. Wählen Sie im Feld **[!UICONTROL „Einen Klassifizierungstyp auswählen“]** die Variable aus, für die Sie eine Klassifizierung hinzufügen möchten.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic-Klassifizierungen]**.
 
    ![Schritt-Info](assets/traffic-classification.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
-1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:
+1. Fahren Sie mit dem Mauszeiger über das Symbol **[!UICONTROL Klassifizierung bearbeiten]** und wählen Sie dann **[!UICONTROL Klassifizierung hinzufügen]** oder **[!UICONTROL Klassifizierung bearbeiten]**.
+1. Konfigurieren Sie die Klassifizierung im Dialogfeld **[!UICONTROL Textklassifizierungen]** nach Bedarf:
 
    **[!UICONTROL Name:]** Geben Sie den Classification-Namen ein.
 
