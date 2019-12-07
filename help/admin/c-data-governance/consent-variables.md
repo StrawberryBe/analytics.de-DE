@@ -1,10 +1,9 @@
 ---
 description: Variablen für Berichte beim Datenschutz.
-solution: Analytics
 title: Variablen für Datenschutzberichte
-topic: Admin Tools
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+topic: Admin tools
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,13 +58,13 @@ Jede Report Suite kann wie folgt konfiguriert werden:
 
 Drei Kontextdatenvariablen sind vordefiniert, um mit den vom Datenschutzmanagement reservierten Variablen zu arbeiten.  Die Bestimmung der Verwaltung und des Beibehaltens der Einstellung dieser Variablen liegt bei den einzelnen Implementierungstechnikern.
 
-Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html).
+Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html).
 
 ### SSF
 
 * Kontextdaten: `contextData.['cm.ssf']`
 * Akzeptierte Werte:
-   * 1 – Wenn der Wert „1“gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Opt-out-Status aufweist. Der Wert „1“ in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-ePrivacy – Einhaltung](https://docs.adobe.com/content/help/de-DE/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 – Wenn der Wert „1“gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Opt-out-Status aufweist. Der Wert „1“ in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-ePrivacy – Einhaltung](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * Für diesen Parameter werden keine anderen Werte akzeptiert.
 
 ### DMP
