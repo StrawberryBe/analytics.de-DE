@@ -1,11 +1,10 @@
 ---
 description: In der Regel wird die Konversion zwischen Start-, End- und Meilensteinereignissen oder den Punkten in einem Konversionsprozess anhand von Konversionsquotienten gemessen. Nachdem Sie die Erfolgsereignisse auf Ihrer Website kodiert haben, werden die Quotienten zwischen den verschiedenen Erfolgsereignissen von dem Bericht erstellt und in einem Konversionstrichterbericht dargestellt.
-solution: Analytics
 title: Konversionstrichter
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,5 +32,5 @@ Auch dieser Bericht kann angepasst werden. Sie können somit dem Konversionstric
 
 Die Berichttabelle zeigt Statistiken zu durchschnittlichen Verkäufen pro Clickthrough-Rate und durchschnittlich verkauften Einheiten pro Clickthrough-Rate an. Sie können zu diesen Berichten Metriken und benutzerspezifische Ereignisse aus anderen Berichtgruppen hinzufügen. Diese Trichter haben viele Ähnlichkeiten, basieren aber auf verschiedenen Variablen und Ereignissen. Sie können diese Berichte nutzen, um zu prüfen, welche Prozentsätze und allgemeine Besuchertrends von Ihnen spezifizierte Ereignisse auslösen. Sie können sehen, wo Benutzer nicht bis zu bestimmen Ereignissen folgen und erhalten so umfassende Informationen zu diesem spezifischen Punkt im Konversionsprozess.
 
-> [!NOTE] Instanzen im Kontext dieser Berichte entsprechen der Gesamtzahl der Besuche, bei denen eine eVar oder ein Ereignis definiert wurde.
+> [!NOTE] Instanzen entsprechen im Kontext dieser Berichte der Gesamtzahl der Besuche, bei denen eVar oder ein Ereignis definiert wurde.
 
