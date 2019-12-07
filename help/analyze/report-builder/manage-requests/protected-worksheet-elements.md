@@ -1,11 +1,10 @@
 ---
 description: Wenn Sie einen Schreibschutz für ein Arbeitsblatt setzen (durch Sperren von Zellen), können Sie keine Anforderungen erstellen, bearbeiten oder aktualisieren. Heben Sie einen etwaigen Blatt- oder Zellschutz für das Arbeitsblatt auf, bevor Sie den Anforderungs-Manager verwenden.
-solution: Analytics
 title: Geschützte Elemente in Arbeitsblättern
 topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
