@@ -1,11 +1,10 @@
 ---
 description: Die Beitragsmetrik schreibt den Erfolg allen Werten einer eVar gut, die während eines Besuchs übertragen wurden. Beitragsmetriken sind hilfreich, um festzustellen, welche Seiten, Kampagnen oder anderen benutzerspezifischen Variablenwerte den größten Beitrag zum Erfolg Ihrer Website leisten. Der Beitrag beruht auf den Besuchen. Alle eVar-Werte eines Besuchs bis einschließlich des Treffers, wenn ein Ereignis eintritt, erhalten unabhängig von der Ablaufeinstellung Beitragsgutschriften.
-solution: Analytics
 title: Beitrag
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,14 +13,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Die Beitragsmetrik schreibt den Erfolg allen Werten einer eVar gut, die während eines Besuchs übertragen wurden. Beitragsmetriken sind hilfreich, um festzustellen, welche Seiten, Kampagnen oder anderen benutzerspezifischen Variablenwerte den größten Beitrag zum Erfolg Ihrer Website leisten. Der Beitrag beruht auf den Besuchen. Alle eVar-Werte eines Besuchs bis einschließlich des Treffers, wenn ein Ereignis eintritt, erhalten unabhängig von der Ablaufeinstellung Beitragsgutschriften.
 
-See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
+Weitere Informationen dazu, wie die Beteiligung in Ad Hoc Analysis genutzt wird, finden Sie unter [Besucherbeteiligung – Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md).
 
 Beitragsmetriken verfügen pro Konversionsereignis über zwei Einstellungen:
 
 * **Deaktiviert**: Der Standardzustand von Konversionsereignissen. Für dieses Ereignis werden keine Beitragsdaten erfasst.
 * **Aktiviert**: Für dieses Ereignis werden Beitragsdaten erfasst.
 
-> [!NOTE] Sie können die Teilnahme für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
+> [!NOTE] Sie können die Beteiligung für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
 
 Nach der Aktivierung sind Beitragsmetriken automatisch in allen Konversionsberichten verfügbar. Beitragsmetriken können aber auf Anfrage auch in bestimmten Traffic-Berichten angezeigt werden. Sie können optional anfordern, dass Beitragsmetriken in bestimmten benutzerspezifischen Traffic-Berichten zur Verfügung stehen.
 
