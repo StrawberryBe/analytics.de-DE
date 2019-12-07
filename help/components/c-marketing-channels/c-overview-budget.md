@@ -1,12 +1,11 @@
 ---
 description: Erfahren Sie, wie Sie Kanälen Kosten- und Budgetbeträge zuweisen.
-solution: Analytics
 subtopic: Marketing channels
 title: Kosten und Budgets
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,17 +28,17 @@ Nach Hinzufügen der Kosten- und Budgeteinträge können Sie die Tabellendaten i
 
 Fügen Sie Marketingkanälen Kosten- und Budgeteinträge hinzu.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Wählen Sie im [!UICONTROL „Report Suite Manager“] die Report Suite aus.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Marketing-Kanäle]** &gt; **[!UICONTROL Marketing-Kanal-Kosten]**.
 1. Klicken Sie auf der Seite der [!UICONTROL Marketingkanal-Kosten]**auf[!UICONTROL Kosteneintrag hinzufügen]** oder **[!UICONTROL Budgeteintrag hinzufügen]**.
 1. Klicken Sie auf **[!UICONTROL Speichern.]**
 
    Klicken Sie auf **[!UICONTROL Speichern und eine weitere hinzufügen, wenn Sie weitere Kosteneinträge vornehmen möchten]**.
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. (Optional) Um CSV-Dateien zu exportieren oder importieren, öffnen Sie die Seite [!UICONTROL Marketing-Kanal-Kosten], klicken Sie auf **[!UICONTROL Datei exportieren]** bzw. **[!UICONTROL Datei importieren]** und befolgen Sie die Anweisungen.
 
-## Marketing Channel costs - definitions {#mktg-channel-costs}
+## Marketing-Kanal-Kosten – Definitionen {#mktg-channel-costs}
 
 Felddefinitionen für Marketingkanal-Kosten oder -Budgets.
 
