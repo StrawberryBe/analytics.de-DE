@@ -1,12 +1,11 @@
 ---
 description: Erfasst die Zeitspanne in Sekunden, während der Ihre Seite die aktive Registerkarte im Browser war. Dieser Wert wird auf der nächsten Seite in Form einer Kennzahl angezeigt.
 keywords: Analytics Implementation
-solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,7 +36,7 @@ Sie müssen das getPreviousValue-Plug-in verwenden, um den Namen der vorherigen 
 
 Die `s.pvel`-Variable sollte die drei Ereignisse verwenden, die Sie verwenden möchten:
 
-| Ereignis | Definition |
+| Ereignis- | Definition |
 |---|---|
 | Gesamtdauer der Anzeige der Seite in Sekunden (numerisch) | Die Zeitdauer, während der die Seite aktiv im Browser angezeigt wurde |
 | Gesamtdauer der Seite (numerisch) | Die Zeitdauer, während der die Seite im Browser geöffnet war, unabhängig vom Anzeigestatus |
