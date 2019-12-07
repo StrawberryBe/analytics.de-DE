@@ -1,11 +1,10 @@
 ---
 description: Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
-solution: Analytics
 title: Warteschlange für terminierte Berichte
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Geplante Berichte]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Terminierte Berichte]**
 
 Zu den Admin-spezifischen Fähigkeiten des Managers für terminierte Berichte gehören:
 
@@ -25,15 +24,15 @@ Zu den Admin-spezifischen Fähigkeiten des Managers für terminierte Berichte ge
 
 ## Alle terminierten Berichte anzeigen {#section_3F167CAAEEC24140B476CF95B7402690}
 
-In der Registerkarte **[!UICONTROL Berichtsliste]** können Sie neben den von Ihnen terminierten Berichten mit der Option **Alle terminierten Berichte anzeigen]alle terminierten Berichte in Ihrer Organisation anzeigen.[!UICONTROL **
+Auf der Registerkarte **[!UICONTROL Berichtsliste]** können Sie neben den von Ihnen terminierten Berichten mit der Option **[!UICONTROL Alle terminierten Berichte anzeigen]** alle terminierten Berichte in Ihrer Organisation anzeigen.
 
-> [!NOTE] In der Spalte **[!UICONTROL Berichtsname]** wird der Name des terminierten Berichts angezeigt. In der Spalte **[!UICONTROL Dateiname]** werden alle benutzerdefinierten Dateinamen angezeigt, die Sie unter Erweiterte Auslieferungsoptionen festgelegt haben. In Folge zeigt der Manager für terminierte Berichte mehrere Einträge mit dem gleichen Berichtsnamen, aber unterschiedlichen Dateinamen an, wenn Sie mehrere Berichte des gleichen Berichtstyps terminieren und jeweils benutzerdefinierte Namen angeben. Das liegt daran, dass der terminierte Back-End-Bericht identisch ist, so dass die Spalte „Berichtsname“ dieselben Berichtsnamen für alle außer den (festgelegten) benutzerdefinierten Dateinamen enthalten würde.
+> [!NOTE] Die Spalte **[!UICONTROL Berichtsname]** zeigt den Namen des terminierten Berichts an, und die Spalte **[!UICONTROL Dateiname]** zeigt benutzerdefinierte Dateinamen an, die Sie unter „Erweiterte Bereitstellungsoptionen“ eingestellt haben. In Folge zeigt der Manager für terminierte Berichte mehrere Einträge mit dem gleichen Berichtsnamen, aber unterschiedlichen Dateinamen an, wenn Sie mehrere Berichte des gleichen Berichtstyps terminieren und jeweils benutzerdefinierte Namen angeben. Das liegt daran, dass der terminierte Back-End-Bericht identisch ist, so dass die Spalte „Berichtsname“ dieselben Berichtsnamen für alle außer den (festgelegten) benutzerdefinierten Dateinamen enthalten würde.
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## Erweiterte Filterfunktionen {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
+Beispiel: Wenn Sie nach allen Berichten filtern möchten, die für die stündliche Ausführung geplant sind, geben Sie **[!UICONTROL Häufigkeit = Stündlich]** in den Filter **[!UICONTROL Erweitert]** ein und klicken Sie auf **[!UICONTROL Übernehmen]**:
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
@@ -43,10 +42,10 @@ In dieser Warteschlange können Sie alle terminierten Berichte verwalten und nac
 
 ![](assets/scheduled_reports_2.png)
 
-Die Berichtwarteschlange bietet außerdem die Option „Terminierten Bericht einmal überspringen“. Klicken Sie einfach auf das blaue Symbol in der Spalte **[!UICONTROL Verwalten].**
+Die Berichtwarteschlange bietet außerdem die Option „Terminierten Bericht einmal überspringen“. Klicken Sie einfach auf das blaue Symbol in der Spalte **[!UICONTROL Verwalten]**.
 
 ## Zeitplan-ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-Die Anzeige der **[!UICONTROL Zeitplan-ID]in der Benutzeroberfläche der Berichtwarteschlange ist nützlich, wenn Sie den Kundendienst von Adobe kontaktieren müssen, um ein Problem mit terminierten Berichten zu lösen.**
+Die Anzeige der **[!UICONTROL Zeitplan-ID]** in der Benutzeroberfläche der Berichtwarteschlange ist nützlich, wenn Sie den Kundendienst von Adobe kontaktieren müssen, um ein Problem mit terminierten Berichten zu lösen.
 
 ![](assets/schedule_id.png)
