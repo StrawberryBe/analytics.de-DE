@@ -1,11 +1,10 @@
 ---
 description: Anzahl der Entfernungsvorgänge eines Produkts aus dem Warenkorb. Dieser Wert stammt aus dem scRemove-Ereignis.
-solution: Analytics
 title: Entnahme aus Warenkorb
 topic: Metrics
 uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Anzahl der Entfernungsvorgänge eines Produkts aus dem Warenkorb. Dieser Wert st
 
 | Verwendet | Beschreibung |
 |---|---|
-| Traffic | Keine |
+| Traffic | nicht angegeben |
 | Konversion | Instanz des Ereignisses [!UICONTROL „Entnahme aus dem Warenkorb“]. Tritt auf, wenn ein Produkt aus dem Warenkorb entfernt wird. |
-| Ad Hoc Analysis  | Instanz des Ereignisses [!UICONTROL „Entnahme aus dem Warenkorb“]. Tritt auf, wenn ein Produkt aus dem Warenkorb entfernt wird. |
+| Ad Hoc Analysis | Instanz des Ereignisses [!UICONTROL „Entnahme aus dem Warenkorb“]. Tritt auf, wenn ein Produkt aus dem Warenkorb entfernt wird. |
 
