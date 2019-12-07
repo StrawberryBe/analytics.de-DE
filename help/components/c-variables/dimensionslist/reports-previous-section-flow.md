@@ -1,11 +1,10 @@
 ---
 description: Der Bericht „Vorheriger Abschnittsfluss“ ähnelt dem Bericht „Vorheriger Seitenfluss“. Er zeigt Daten für Sitebereiche (Gruppen miteinander in Beziehung stehender Webseiten) an. Falls eine Seite in mehr als einem Sitebereich enthalten ist, zeigt der Bericht Daten für alle Sitebereiche an.
-solution: Analytics
 title: Vorheriger Abschnittsfluss
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
