@@ -1,12 +1,11 @@
 ---
 description: Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Auslieferung planen.
-solution: Analytics
 subtopic: Dashboards
 title: Dashboard-Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 |--- |--- |
 | Freigegeben | Zeigt an, ob das Dashboard freigegeben ist. |
 | Eingeplant | Damit können Sie die Bereitstellung eines Dashboards einplanen. |
-| Archiv anzeigen | Hiermit können Sie das Dashboard-Archiv anzeigen.  Diese Funktion ist ab Januar 2020 nicht mehr verfügbar. |
+| Archiv anzeigen | Hiermit können Sie das Dashboard-Archiv anzeigen. Diese Funktion ist ab Januar 2020 nicht mehr verfügbar. |
 | An Benutzer senden | Hiermit können Sie ein Dashboard freigeben. |
 | Verwalten | Hiermit können Sie ein Dashboard bearbeiten, kopieren und löschen. |
 
