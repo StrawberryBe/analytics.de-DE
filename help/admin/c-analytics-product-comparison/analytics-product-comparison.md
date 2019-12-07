@@ -1,26 +1,25 @@
 ---
-description: Systemanforderungen und ein Vergleich von Analysis Workspace, Reports & Analysen, Ad-hoc-Analysen, ReportBuilder, Data Warehouse und Data Workbench
-solution: Analytics
+description: Systemanforderungen und ein Vergleich von Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse und Data Workbench
 title: Analytics – Produktvergleich und Voraussetzungen
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Analytics – Produktvergleich und Voraussetzungen
 
-Systemanforderungen und ein Vergleich von Analysis Workspace, Reports &amp; Analysen, Ad-hoc-Analysen, ReportBuilder, Data Warehouse und Data Workbench
+Systemanforderungen und ein Vergleich von Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse und Data Workbench
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+Informationen zu den zu verwendenden Adobe Analytics-Produkten finden Sie [hier](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
   <tr> 
    <td> <b>Produktname und Link zur Hilfe</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports and Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/">Ad Hoc Analysis </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
    <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
@@ -32,7 +31,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> Browserlösung für digitale Analysen </td> 
    <td> Java-basiertes Tool für erweiterte digitale Analysen </td> 
    <td> Excel-Add-in, mit dem Sie benutzerspezifische Anfragen für Reports &amp; Analyse-Daten erstellen und mit Microsoft Excel visualisieren können </td> 
-   <td colname="col06"> Browserlösung, die Berichte im <span class="filepath">CSV</span>-Format generiert, kann Dateien im Tableau-Format generieren </td> 
+   <td colname="col06"> Browserlösung, die Berichte im <span class="filepath">CSV</span>-Format generiert, kann Dateien im Tableau-Format generieren. </td> 
    <td colname="col6"> Mehrkanalanalysetool für erweiterte Analysen, wie benutzerspezifische Zuordnungsmodelle, Predictive Analytics und Rundum-Kundenanalysen </td> 
   </tr> 
   <tr> 
@@ -73,7 +72,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Trichter/Pfadsetzung</b> </td> 
-   <td> Ja <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> Trichteranalyse </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> Fluss </a> </p> </td> 
+   <td> Ja <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> Fallout </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> Fluss </a> </p> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html"> Ja </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html"> Ja </a> </td> 
    <td> Ja </td> 
@@ -154,11 +153,11 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Systemanforderungen</b> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html">Mehr …</a> </p> </td> 
-   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html">Mehr …</a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html">Mehr …</a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html">Mehr …</a> </p> </td> 
-   <td colname="col06"> Browser und Programm zum Öffnen von <span class="filepath">CSV</span>-Dateien wie MS Excel, kann Dateien im Tableau-Format generieren </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Mehr... </a> </p> </td> 
+   <td> <p>Browser </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Mehr... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> Mehr... </a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> Mehr... </a> </p> </td> 
+   <td colname="col06"> Browser und Programm zum Öffnen von <span class="filepath">CSV</span>-Dateien wie MS Excel, kann Dateien im Tableau-Format generieren. </td> 
    <td colname="col6"> Windows 64 Bit, gute Grafikkarte für OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Mehr...</a></u>) </td> 
   </tr> 
  </tbody> 
