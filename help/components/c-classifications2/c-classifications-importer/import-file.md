@@ -1,12 +1,11 @@
 ---
 description: Sobald Sie die gewünschten Daten in die Classification-Vorlagendatei kopiert haben, können Sie diese Datei in die Adobe-Datenerfassungsserver importieren (hochladen).
-solution: Analytics
 subtopic: Classifications
 title: Browser- und FTP-Import
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Sobald Sie die gewünschten Daten in die Classification-Vorlagendatei kopiert haben, können Sie diese Datei in die Adobe-Datenerfassungsserver importieren (hochladen).
 
-> [!NOTE] Sie müssen Ihre vorhandenen Classification-Daten nicht (mithilfe der Exportfunktion) herunterladen, bevor Sie neue Daten hochladen. Es genügt, wenn Sie eine neue Datei mit den neuen Datenzeilen hochladen. Diese Methode steigert die Leistung.
+> [!NOTE] Vor dem Hochladen neuer Daten müssen Sie die vorhandenen Klassifizierungsdaten nicht (mit der Exportfunktion) herunterladen. Es genügt, wenn Sie eine neue Datei mit den neuen Datenzeilen hochladen. Diese Methode steigert die Leistung.
 
 Siehe [Allgemeine Dateistruktur](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) für wichtige Informationen zur Struktur und zu den Beschränkungen für hochgeladene Dateien.
 
