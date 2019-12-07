@@ -1,12 +1,11 @@
 ---
 description: Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben können (sofern nicht anderweitig vermerkt).
-solution: Analytics
 subtopic: Processing rules
 title: Für Verarbeitungsregeln verfügbare Dimensionen
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kontextdatenvariablen </p> </td> 
-   <td colname="col2"> <p>Benannte Variablen, die bei einem Hit versendet werden. </p> <p>Hinweis: Alle Daten, die in einer Kontextdatenvariablen enthalten sind, müssen in eine Berichterstellungsvariable kopiert werden, damit sie in einem Bericht angezeigt werden können. Kontextdatenvariablen sind in den Berichtsoberflächen nicht anzeigbar, auch nicht in den Clickstream-Datenfeeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Eine Kontextdatenvariable in eine eVar kopieren </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Festlegen eines Ereignisses mit einer Kontextdatenvariablen </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Kontextdatenvariablen</a> </p> </td> 
+   <td colname="col2"> <p>Benannte Variablen, die bei einem Hit versendet werden. </p> <p>Hinweis: Alle Daten, die in einer Kontextdatenvariablen enthalten sind, müssen in eine Berichterstellungsvariable kopiert werden, damit sie in einem Bericht angezeigt werden können. Kontextdatenvariablen sind in den Berichtsoberflächen nicht anzeigbar, auch nicht in den Clickstream-Daten-Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieren einer Kontextdatenvariable in eine eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Festlegen eines Ereignisses mit einer Kontextdatenvariablen </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Kontextdatenvariablen</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +72,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
  </tbody> 
 </table>
 
-## Hit-Atribute {#section_07E69A86A47741A083FD84F112EB80D0}
+## Hit-Attribute {#section_07E69A86A47741A083FD84F112EB80D0}
 
 <table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
  <thead> 
@@ -89,19 +88,19 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seitenname </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis: Eine Seitenansicht wird bei allen Treffern gezählt, bei denen der Seitenname nicht leer ist. Wenn ein Link verfolgt wird, entfernt der Datenerfassungsserver den Seitennamen von dem Treffer, so dass Seitenansichten nicht gezählt werden. Wenn Sie mithilfe der Verarbeitungsregeln wieder einen Seitennamen in diese Aufrufe einfügen, wird eine Seitenansicht gezählt. Wir empfehlen eine Prüfung, um sicherzustellen, dass der Seitenname bereits eingestellt wurde, bevor Sie den Seitennamen ändern. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis: Eine Seitenansicht wird bei allen Hits gezählt, bei denen der Seitenname nicht leer ist. Wenn ein Link verfolgt wird, entfernt der Datenerfassungsserver den Seitennamen von dem Treffer, so dass Seitenansichten nicht gezählt werden. Wenn Sie mithilfe der Verarbeitungsregeln wieder einen Seitennamen in diese Aufrufe einfügen, wird eine Seitenansicht gezählt. Wir empfehlen eine Prüfung, um sicherzustellen, dass der Seitenname bereits eingestellt wurde, bevor Sie den Seitennamen ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>„Seiten-URL“ </p> </td> 
+   <td colname="col1"> <p>Seiten-URL </p> </td> 
    <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abfragezeichenfolgenparameter </p> </td> 
-   <td colname="col2"> <p>Der Wert eines spezifizierten Abfragezeichenfolgenparameters in der aktuellen URL oder Null, wenn kein Parameter existiert. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Wenn Sie mit JavaScript AppMeasurement H.25.2 oder früher arbeiten, wird die Seiten-URL unter Umständen nach 255 Zeichen abgeschnitten. JavaScript AppMeasurement H.25.3 (Januar 2013) und höher liefert den Verarbeitungsregeln die vollständige URL. </p> </td> 
+   <td colname="col2"> <p>Der Wert eines spezifizierten Abfragezeichenfolgenparameters in der aktuellen URL oder Null, wenn kein Parameter existiert. Für die URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> ist der Wert des Abfragezeichenfolgenparameters <span class="syntax codeph"> cid</span> <b>ad1</b> und der Wert des Abfragezeichenfolgenparameters <span class="syntax codeph"> node</span> ist <b>4</b>. </p> <p>Wenn Sie mit JavaScript AppMeasurement H.25.2 oder früher arbeiten, wird die Seiten-URL unter Umständen nach 255 Zeichen abgeschnitten. JavaScript AppMeasurement H.25.3 (Januar 2013) und höher liefert den Verarbeitungsregeln die vollständige URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seitenpfad </p> </td> 
-   <td colname="col2"> <p>Der Pfad der Seiten-URL. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>Der Pfad der Seiten-URL. Der Pfad der URL <b>https://www.example.com/news/a.html?cid=ad1</b> ist <span class="syntax codeph">news/a.html</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seitendomäne </p> </td> 
@@ -121,7 +120,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verweisabfragezeichenfolgenparameter (schreibgeschützt) </p> </td> 
-   <td colname="col2"> <p>Der Wert eines spezifizierten Abfragezeichenfolgenparameters in der verweisenden URL oder Null, wenn kein Parameter existiert. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Wenn Sie mit JavaScript AppMeasurement H.25.2 oder früher arbeiten, wird die Seiten-URL unter Umständen nach 255 Zeichen abgeschnitten. JavaScript AppMeasurement H.25.3 (Januar 2013) und höher liefert den Verarbeitungsregeln die vollständige URL. </p> </td> 
+   <td colname="col2"> <p>Der Wert eines spezifizierten Abfragezeichenfolgenparameters in der verweisenden URL oder Null, wenn kein Parameter existiert. Für die URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> ist der Wert des Abfragezeichenfolgenparameters <span class="syntax codeph"> cid</span> <b>ad1</b> und der Wert des Abfragezeichenfolgenparameters <span class="syntax codeph"> node</span> ist <b>4</b>. </p> <p>Wenn Sie mit JavaScript AppMeasurement H.25.2 oder früher arbeiten, wird die Seiten-URL unter Umständen nach 255 Zeichen abgeschnitten. JavaScript AppMeasurement H.25.3 (Januar 2013) und höher liefert den Verarbeitungsregeln die vollständige URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verweisdomäne (schreibgeschützt) </p> </td> 
@@ -202,7 +201,7 @@ Verarbeitungsregeln können Ereignisse einstellen, diese aber nicht als Bedingun
 <table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ereignis </th> 
+   <th colname="col1" class="entry"> Ereignis- </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
