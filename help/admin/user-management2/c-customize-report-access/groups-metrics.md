@@ -1,26 +1,25 @@
 ---
-description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
+description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und Content-Unterstützung.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
-title: Berechtigungen für Metriken anpassen
+title: Anpassen von Berechtigungen für Metriken
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Berechtigungen für Metriken anpassen
+# Anpassen von Berechtigungen für Metriken
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
-Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerdefinierte Ereignisse, Lösungsereignisse und Content-Unterstützung.
+Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und Content-Unterstützung.
 
-**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; Zugriff auf **[!UICONTROL Berichte]** &gt; **[!UICONTROL Metriken]** &gt; **[!UICONTROL Anpassen]**
+**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Zugriff auf Berichte]** &gt; **[!UICONTROL Metriken]** &gt; **[!UICONTROL Anpassen]**
 
 Die Einstellungen auf der Seite für die Metrikanpassung beziehen sich auf die Report Suites, die auf der Seite [!UICONTROL Benutzergruppe definieren] ausgewählt wurden.
 
@@ -28,14 +27,14 @@ Die Einstellungen auf der Seite für die Metrikanpassung beziehen sich auf die R
 
 ## Lösungsereignisse
 
-In addition to [Custom Events](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html), this category includes Analytics solution events, including Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video, and Social.). Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
+Zusätzlich zu [benutzerspezifischen Ereignissen](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html) enthält diese Kategorie Analytics-Lösungsereignisse, darunter Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video und Social. Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
 
 Sie können für benutzerdefinierte Ereignisse und Analytics-Lösungsereignisse (AEM, AMO, Mobile Video und Social) Zugriffsberechtigungen festlegen.
 
 Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
 
-Informationen zu den in Analytics verwendeten Metriken finden Sie unter Übersicht über [Metriken](/help/components/c-variables/c-metrics/metricslist.md) .
+Informationen zu den in Analytics verwendeten Metriken finden Sie unter [Übersicht über Metriken](/help/components/c-variables/c-metrics/metricslist.md).
 
 ## Content-Unterstützung
 
-Die Content-Unterstützung enthält Variablen, mit deren Hilfe Sie Berechtigungen für Metriken der Experience Cloud-Lösungsintegrationen verwalten können. You can manage permissions on [!DNL Social], [!DNL Mobile], or any other data that was inserted through a [!DNL Experience Cloud] integration. Diese Funktionen sind standardmäßig aktiviert.
+Die Content-Unterstützung enthält Variablen, mit deren Hilfe Sie Berechtigungen für Metriken der Experience Cloud-Lösungsintegrationen verwalten können. Sie können Berechtigungen für [!DNL Social] und [!DNL Mobile] verwalten sowie beliebige andere Daten, die über eine [!DNL Experience Cloud]-Integration bereitgestellt wurden. Diese Funktionen sind standardmäßig aktiviert.
