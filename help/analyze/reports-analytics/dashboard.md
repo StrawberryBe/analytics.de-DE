@@ -1,12 +1,11 @@
 ---
 description: Das Dashboard ist eine Sammlung von Berichten in Miniaturansicht, die Reportlets genannt werden. Ein Dashboard kann am effektivsten genutzt werden wenn es miteinander verbundene Reportlets enthält, die Ihnen einen umfassenden Überblick über bestimmte Aspekte Ihrer Site bieten, wie beispielsweise Suchmethoden, Besucherprofile usw.
-solution: Analytics
 subtopic: Dashboards
 title: Dashboards und Kurzberichte
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,7 +49,7 @@ Dieses Dashboard bietet Ihnen eine Übersicht über die Schlüsselmetriken in Be
 * Exitpages
 * Bevorzugte Seiten
 * Bevorzugte Site-Abschnitte
-* KPI/Kennzahlen-Reportlet
+* KPI-/Kennzahlen-Reportlet
 * Text-Reportlet
 * Firmenzusammenfassungs-Reportlet
 
