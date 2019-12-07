@@ -1,11 +1,10 @@
 ---
 description: Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
-solution: Analytics
 title: Pathing
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Verwenden Sie die [Flussfunktion in Analysis Workspace](https://marketing.adobe
 
 Wenn Sie die Reihenfolge benötigen, in der Werte erfasst werden, müssen Sie Pfade für die Variablenerfassung dieser Werte aktivieren. Pfade werden standardmäßig für Seiten aktiviert. Pfade werden nicht standardmäßig für Eigenschaften aktiviert, da dies nur in bestimmten Fällen angebracht ist. Wenden Sie sich an den Kundendienst, um Pfade für eine Eigenschaft zu aktivieren.
 
-> [!NOTE] Wenn Sie in Ad-hoc-Analysen Klassifizierungen für eine Eigenschaftsvariable aktivieren, stehen Pfadmetriken für alle für die aktivierte Eigenschaftsvariable eingerichteten Klassifizierungen zur Verfügung.
+> [!NOTE] Wenn Sie in Ad Hoc Analysis Klassifizierungen für Eigenschaften aktivieren, werden Pfadmetriken aller für die aktivierte Eigenschaft eingerichteten Klassifizierungen angezeigt.
 
 **Beispiel: Pfade für Sitebereiche**
 
@@ -34,7 +33,7 @@ Pfadsetzungen sind dann in unterschiedlichen Pfadberichten verfügbar, wie [!UIC
 
 **Beispiel: Pfade bei Suchvorgängen**
 
-Dieses Konzept der Navigation von einem Wert zum nächsten gilt auch für andere Traffic-Variablen, wie *`s.props`*. Wenn Sie z. B. Pfade für Ihren internen Suchbegriff aktivieren *`s.prop`*, können Sie sehen, welchen Pfad Besucher durch Suchbegriffe führen.
+Dieses Konzept der Navigation von einem Wert zum nächsten gilt auch für andere Traffic-Variablen, wie *`s.props`*. Wenn Sie beispielsweise Pfade für Ihren internen Suchbegriff *`s.prop`* aktivieren, können Sie sehen, welchen Pfad Besucher durch Suchbegriffe nehmen.
 
 **Beispiel: Pfade pro Anmeldestatus**
 
@@ -48,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Aktivieren Sie dann die Pfade für *`s.prop19`*, um zu verfolgen, wie Besucher durch die Seiten navigieren.
 
-> [!NOTE] Wenn Sie eine Ad-hoc-Analyse durchführen, können Sie Seitenpfade segmentieren, ohne Segmentwerte verketten zu müssen, und jedes Segment auf Pfadberichte anwenden.
+> [!NOTE] Wenn Sie Ad-hoc-Analysen durchführen, können Sie Seitenpfade segmentieren, ohne die Segmentwerte verketten zu müssen. Weisen Sie dann alle Segmente den Pfadsetzungsberichten zu.
 
