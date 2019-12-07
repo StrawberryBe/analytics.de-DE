@@ -1,11 +1,10 @@
 ---
 description: Den Pfadansichtsmetriken liegen Pfaddaten zugrunde, die für alle Benutzer verfolgt werden, die persistente Cookies akzeptieren.
-solution: Analytics
 title: Pfadansichten
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Der Begriff [!UICONTROL Pfadansichten] wird unter Berücksichtigung der angegebe
 | Verwendet | Beschreibung |
 |---|---|
 | Traffic | Nicht die gesamte Dauer eines Besuchs. Gewöhnlich eine Sammlung von Pfaden, von denen jeder im Allgemeinen drei bis vier Seiten lang ist. Zeigt die Frequenz der Besuche auf diesem Pfad an. |
-| Konversion | Keine |
+| Konversion | nicht angegeben |
 | Ad Hoc Analysis | Nicht die gesamte Dauer eines Besuchs. Gewöhnlich eine Sammlung von Pfaden, von denen jeder im Allgemeinen drei bis vier Seiten lang ist. Zeigt die Frequenz der Besuche auf diesem Pfad an. |
 
 >[!MORELIKETHIS]
