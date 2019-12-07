@@ -1,11 +1,10 @@
 ---
 description: Beschreibt, wie Merchandising-Variablen aktiviert und implementiert werden.
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
-solution: Analytics
 title: Implementierung einer Merchandising-Variable
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,15 +15,15 @@ Beschreibt, wie Merchandising-Variablen aktiviert und implementiert werden.
 
 ## Aktivieren einer Merchandising-Variablen
 
-Merchandising kann für jede benutzerdefinierte eVar unter **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Konversionsvariablen]** aktiviert werden.
+Merchandising kann für jede benutzerspezifische eVar unter **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Konversionsvariablen]** aktiviert werden.
 
 ![](assets/merch-enable.png)
 
 | Einstellung | Beschreibung |
 |--- |--- |
 | Läuft ab nach | Legt fest, wie lange Merchandising-Werte bestehen bleiben sollen. |
-| Merchandising | **** Produktsyntax: Der Wert wird innerhalb von `s.products`festgelegt.<br>**** Syntax der Konversionsvariablen: Der Wert wird in der angegebenen Merchandising eVar festgelegt. |
-| Merchandising-Binding-Ereignis (nur Konversionsvariablensyntax) | Gibt an, wann ein Produkt mit der aktuellen Merchandising-Kategorie verknüpft werden soll. Sie können mehrere Ereignisse auswählen, indem Sie die Strg-Taste gedrückt halten und auf mehrere Elemente in der Liste klicken. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde. |
+| Merchandising | **Produktsyntax:** Dieser Wert wird innerhalb von `s.products` festgelegt.<br>**Konversionsvariablensyntax:** Dieser Wert wird innerhalb der festgelegten Merchandising-eVar gesetzt. |
+| Merchandising-Binding-Ereignis (nur Konversionsvariablensyntax) | Gibt an, wann ein Produkt mit der aktuellen Merchandising-Kategorie verknüpft werden soll. Es können mehrere Ereignisse ausgewählt werden, indem Sie die STRG-Taste gedrückt halten und mehrere Elemente in der Liste anklicken. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde. |
 
 ## Implementierung anhand der Produktsyntax
 
@@ -43,7 +42,7 @@ s.events="prodView";
 s.products=";Snow Goggles;;;;eVar1=goggles";
 ```
 
-Der Wert "Skibrille"für eVar1 wird dem Produkt "Schneeschuhe"zugewiesen. Alle nachfolgenden Erfolgsereignisse (dem Warenkorb hinzugefügte Produkte, Checkouts, Käufe usw.), die mit diesem Produkt in Verbindung stehen, werden dem Wert „Skibrille“ gutgeschrieben.
+Der Wert „Skibrille“ für „eVar1“ wird dem Produkt „Snow Skibrille“ zugewiesen. Alle nachfolgenden Erfolgsereignisse (dem Warenkorb hinzugefügte Produkte, Checkouts, Käufe usw.), die mit diesem Produkt in Verbindung stehen, werden dem Wert „Skibrille“ gutgeschrieben.
 
 ## Implementierung anhand der Konversionsvariablensyntax
 
@@ -53,13 +52,13 @@ Wenn das bei der Konfiguration ausgewählte Binding-Ereignis eintritt, wird der 
 
 ### Syntax
 
-Auf derselben oder vorherigen Seite vor dem Binding-Ereignis platzieren:
+Platzierung auf derselben oder der vorhergehenden Seite vor dem Binding-Ereignis:
 
 ```js
 s.eVar1="merchandising_category";
 ```
 
-Platzieren Sie auf der Seite, auf der das Binding-Ereignis eintritt:
+Platzierung auf der Seite, auf der das Binding-Ereignis eintritt:
 
 ```js
 s.events="prodView";
@@ -68,24 +67,24 @@ s.products="category;product";
 
 ### Beispiel
 
-Auf Seite 1 des Besuchs:
+Auf Seite 1 des Besuchs:
 
 ```js
 s.eVar1="Outdoors"
 ```
 
-Seite 2 des Besuchs:
+Auf Seite 2 des Besuchs:
 
 ```js
 s.events="prodView";
 s.products=";Snow Goggles";
 ```
 
-Der Wert "Outdoors"für eVar1 wird dem Produkt "Schneeschuhe"zugewiesen. Alle nachfolgenden Erfolgsereignisse (Produkthinzufügungen, Kassengänge, Käufe usw.), die dieses Produkt betreffen, werden "Schneeschuhe"gutgeschrieben. Des Weiteren wird der aktuelle Wert der Merchandising-Variablen allen nachfolgenden Produkten zugewiesen, bis eine der folgenden Bedingungen erfüllt ist:
+Der Wert „Outdoor“ für „eVar1“ wird dem Produkt „Snow Skibrille“ zugewiesen. Alle nachfolgenden Erfolgsereignisse (dem Warenkorb hinzugefügte Produkte, Checkouts, Käufe usw.), die mit diesem Produkt in Verbindung stehen, werden dem Wert „Snow Skibrille“ gutgeschrieben. Des Weiteren wird der aktuelle Wert der Merchandising-Variablen allen nachfolgenden Produkten zugewiesen, bis eine der folgenden Bedingungen erfüllt ist:
 
 * „eVar“ läuft ab (basierend auf der Einstellung „Läuft ab nach“)
 * Die Merchandising-eVar wird mit einem neuen Wert überschrieben.
 
 ## Zusätzliche externe Informationen
 
-[Erweitertes Merchandising](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) für Konversionssyntax [!DNL analyticsdemystified.com]
+[Merchandising mit erweiterter Konversionssyntax](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) auf [!DNL analyticsdemystified.com]
