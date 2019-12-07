@@ -1,13 +1,12 @@
 ---
 description: Geben Sie einen Ausschluss-Link an und personalisieren Sie das Branding dieses Links. Besucher Ihrer Website können sich entscheiden, ihre Aktivitäten nicht in den Analyseprodukten von Adobe nachverfolgen zu lassen, indem sie die Ausschluss-Seite für Ihre Datenerfassungsdomäne besuchen.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Ausschluss-Link hinzufügen
 topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
