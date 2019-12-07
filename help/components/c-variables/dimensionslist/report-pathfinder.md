@@ -1,10 +1,9 @@
 ---
 description: Der Bericht „PathFinder“ soll Ihnen helfen, Ihre vollständigen Pfade in Fragmente zu unterteilen, um die genauen Muster zu ermitteln, mit denen Sie Ihre Site optimieren können.
-solution: Analytics
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
