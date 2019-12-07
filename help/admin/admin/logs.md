@@ -1,11 +1,10 @@
 ---
 description: Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen.
-solution: Analytics
 title: Protokolle
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | IP | Filtern Sie das Protokoll nach der IP-Adresse. |
 | Report Suite | Filtern Sie das Protokoll nach einer bestimmten Report Suite-ID. |
 | Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie einen Ereignistyp aus der Dropdownliste aus. |
-| Ereignis | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
+| Ereignis- | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
 | Bericht herunterladen | Exportiert den Inhalt des [!UICONTROL Nutzungs- und Zugriffsprotokolls] in eine durch Tabulatoren getrennte Datei. |
 
 ## Report Suite-Änderungsprotokoll {#section_3864966639414BBEA871F4D0352F56B6}
@@ -50,6 +49,6 @@ Unter anderem kann mit den folgenden Tools eine Report Suite außerhalb der [!UI
 | Firma | Filtern Sie das Protokoll nach dem Firmennamen. |
 | Anmelden | Filtern Sie das Protokoll nach dem Benutzernamen. |
 | IP | Filtern Sie das Protokoll nach der IP-Adresse. |
-| Ereignis | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
+| Ereignis- | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
 | Bericht herunterladen | Exportiert den Inhalt des [!UICONTROL Nutzungs- und Zugriffsprotokolls] in eine durch Tabulatoren getrennte Datei. |
 
