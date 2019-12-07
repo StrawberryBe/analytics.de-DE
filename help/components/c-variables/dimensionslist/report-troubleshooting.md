@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics bietet eine flexible Berichtsoberfläche, mit der Sie eine Vielzahl an komplexen Berichten generieren können. Während die meisten Berichte sehr schnell generiert werden, kann es bei manchen Berichten auch zu Timeouts oder Fehlern bei der Generierung kommen. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt zahlreiche Faktoren erläutert, die sich auf die Geschwindigkeit bei der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass Sie eher erfolgreich generiert werden können.
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: Best Practices und Fehlerbehebung für Berichterstellung
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,9 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Adobe Analytics bietet eine flexible Berichtsoberfläche, mit der Sie eine Vielzahl an komplexen Berichten generieren können. Während die meisten Berichte sehr schnell generiert werden, kann es bei manchen Berichten auch zu Timeouts oder Fehlern bei der Generierung kommen. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt zahlreiche Faktoren erläutert, die sich auf die Geschwindigkeit bei der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass Sie eher erfolgreich generiert werden können.
 
 >[!Note]
->Diese Empfehlungen gelten für Reports &amp; Analysen, Ad-hoc-Analysen und ReportBuilder.
->Sie gelten nicht für den Analysis Workspace, der über eigene [Best Practices](/help/analyze/analysis-workspace/optimizing-performance.md)verfügt. They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Ein zusätzlicher Satz von
->[Best Practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) sind für die Adobe Analytics-Berichterstellungs-API verfügbar.
+>Diese Empfehlungen gelten für Reports &amp; Analytics, Ad Hoc Analysis und Report Builder.
+>Sie gelten nicht für Analysis Workspace, da es dafür eigene [Best Practices](/help/analyze/analysis-workspace/optimizing-performance.md) gibt. Sie gelten auch nicht für die [Best Practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) für Data Warehouse. Ein weiterer Satz
+>[Best Practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) ist für die Reporting-API von Adobe Analytics verfügbar.
 
 ## Bericht-Timeouts und Anforderungswarteschlange {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
