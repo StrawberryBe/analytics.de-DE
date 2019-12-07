@@ -1,11 +1,10 @@
 ---
 description: Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Service-APIs oder Datenquellen hochgeladen werden, werden im Adobe Data Warehouse verarbeitet und gespeichert. Diese Clickstream-Rohdaten bilden die Grundlage für den Datensatz, der von Adobe Analytics genutzt wird.
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Analytics-Daten-Feed-Dokumentation
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ Bevor Sie Datenfeeds verwenden, müssen Sie alle folgenden Anforderungen erfüll
 
 Sobald Sie den grundlegenden Arbeitsablauf beim Abrufen von Datenfeeds kennen, können Sie mit Teams in Ihrem Unternehmen zusammenarbeiten, um Rohdaten in einer Datenbank zu speichern oder zu erfassen.
 
-[Erstellen Sie einen Datenfeed](create-feed.md): Technische Details zum Erstellen eines Datenfeeds, Erläuterungen zu einzelnen Feldern im Detail[Datenfeeds](df-manage-feeds.md)verwalten: Weitere Informationen zum Navigieren in der Data Feed-Oberfläche[Data Feed-Inhalte](c-df-contents/datafeeds-contents.md): Verstehen Sie, was sich in den Definitionen der komprimierten Datei[-Datenspalte befindet](c-df-contents/datafeeds-reference.md): Eine umfassende Liste aller verfügbaren Spalten
+* [Erstellen Sie einen Datenfeed](create-feed.md): Technische Details zum Erstellen eines Datenfeeds, Erläuterungen zu einzelnen Feldern im Detail
+* [Verwalten von Datenfeeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Data Feed-Oberfläche
+* [Datenfeed-Inhalte](c-df-contents/datafeeds-contents.md): Verstehen Sie, was sich in der komprimierten Datei befindet.
+* [Datenspaltendefinitionen](c-df-contents/datafeeds-reference.md): Eine umfassende Liste aller verfügbaren Spalten
 
 ## Zusätzliche Ressourcen
 
