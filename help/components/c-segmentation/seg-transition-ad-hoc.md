@@ -1,25 +1,24 @@
 ---
-description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad-hoc-Analysen gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
+description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 keywords: segmentation;segments
-solution: Analytics
 title: Übergangsleitfaden für Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Übergangsleitfaden für Ad Hoc Analysis
 
-Wenn Sie die Arbeit mit dem Segmentaufbau in Ad-hoc-Analysen gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
+Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 
 ## Funktionen {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * Alle Segmente gelten nun für alle Report Suites. Bisher waren Segmente spezifisch für eine Report Suite.
-* Ad-hoc-Analysen umfassen Aktualisierungen für den Segment Builder und ein vollständiges Update des Segment-Managers.
-* Sie können Segmente nun zum Organisieren und Suchen taggen, anstatt Ordner zu verwenden. Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
+* Ad Hoc Analysis umfassen Aktualisierungen für den Segment Builder und ein vollständiges Update des Segment-Managers.
+* Sie können Segmente nun zum Organisieren und Suchen taggen, anstatt Ordner zu verwenden. Bisher wurden Ordner in [!DNL Ad Hoc Analysis] verwendet, um Segmente zu organisieren.
 
 ## Was ist mit meinen vorhandenen Segmenten passiert? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -41,13 +40,13 @@ Wenn Sie ein Segment löschen, funktionieren terminierte Berichte und Dashboards
 
 ## Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer? {#section_65BBE60A836C4001938830DDA15DC256}
 
-Der Seitenansichtscontainer wurde in Treffercontainer umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. 
+Der Seitenansichtscontainer wurde in Treffercontainer umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen.
 
 Beachten Sie, dass sich die Funktionsweise dieses Behälters nicht geändert hat. Er wurde lediglich umbenannt.
 
 ## Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten? {#section_648DFA3A882146C485A84ED014EEC707}
 
-Alle Benutzer können persönliche Segmente erstellen und bearbeiten. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden. Benutzer von Ad-hoc-Analysen können jeweils die erstellten und die direkt mit dem Benutzer geteilten Segmente sehen.
+Alle Benutzer können persönliche Segmente erstellen und bearbeiten. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden. Benutzer von Ad Hoc Analysis können jeweils die erstellten und die direkt mit dem Benutzer geteilten Segmente sehen.
 
 In der Webkonsole „Einheitliche Segmentierung“ können Administratoren jedes Segment bearbeiten und Segmente mit Gruppen und allen Angehörigen der Organisation teilen.
 
@@ -88,11 +87,11 @@ In der Experience Cloud veröffentlichte Segmente können nicht gelöscht oder b
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Favoriten-Segmente in Ad-hoc-Analysen </td> 
+   <td colname="col1"> Favoriten-Segmente in Ad Hoc Analysis </td> 
    <td colname="col2">Diese Ad Hoc Analysis-Segmente werden in Adobe Analytics als gewöhnliche Segmente angezeigt. <p>Verwechseln Sie sie nicht mit der Favoriten-Funktion im Segment-Manager, über die Sie Segmente als Favoriten markieren können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Vorkonfigurierte Segmente in Ad-hoc-Analysen: 
+   <td colname="col1">Vorkonfigurierte Segmente in Ad Hoc Analysis: 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">Einzelseitenbesuche </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">Besuche von Mobilgeräten </li> 
@@ -100,7 +99,7 @@ In der Experience Cloud veröffentlichte Segmente können nicht gelöscht oder b
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Besuche über eine gebührenpflichtige Suche </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Besuche mit Besucher-ID-Cookie </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Diese Segmente werden als  Segmentvorlagen in den Segmentaufbau migriert. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p>Diese Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (Suite)-Segmente: 
@@ -113,7 +112,7 @@ In der Experience Cloud veröffentlichte Segmente können nicht gelöscht oder b
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Besuche mit mehr als 5 vorherigen Besuchen* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Besuche von Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
  </tbody> 
 </table>
