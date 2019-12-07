@@ -1,11 +1,10 @@
 ---
 description: Die Web-Services-APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
-solution: Analytics
 title: Web-Services
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,9 +19,9 @@ Die Web-Services-APIs bieten Programmierungszugriff auf Marketing-Berichte und a
 
 Unter „Benutzerverwaltung“ &gt; [Gruppen](/help/admin/user-management2/c-user-groups/groups.md) können Sie die Gruppe mit dem Web-Services-Zugriff um die Benutzer erweitern, die auf die Web-Services-APIs zugreifen müssen.
 
-## WSDL: Hier laden Sie die Web-Services-API-WSDL herunter (für Web-Services-Entwickler).
+## WSDL: Hier laden Sie die WSDL für die Web Services API herunter (für Web-Services-Entwickler).
 
-Besuchen Sie [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), das Dokumentation, Beispielcode und Foren zu den Web-Services-APIs bereitstellt. Weitere Informationen finden Sie unter „Übersicht über Web-Services-APIs“.
+Besuchen Sie [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), wo Sie Dokumentationen, Beispielcode und Foren zu den Web-Services-APIs finden. Weitere Informationen finden Sie unter „Übersicht über Web-Services-APIs“.
 
 ## Filteroptionen
 
