@@ -1,11 +1,10 @@
 ---
 description: Kundenloyalität veranschaulicht die Einkaufsmuster der Kunden.
-solution: Analytics
 title: Kundentreue
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,14 +39,14 @@ In den folgenden Tabellen finden Sie Informationen dazu, wie Analysis Workspace,
   <tr> 
    <td colname="col1"> <p>Kein Kunde </p> </td> 
    <td colname="col2"> <p>Besucher, die nie gekauft haben </p> </td> 
-   <td colname="col3"> <p>Besucher, die bis zur Beendigung eines Besuchs nicht gekauft haben </p> </td> 
+   <td colname="col3"> <p>Besucher, die bis zur Beendigung eines Besuchs nicht gekauft haben. </p> </td> 
    <td colname="col4"> <p>Nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Neuer Kunde </p> </td> 
    <td colname="col2"> <p>Besucher, die einmal gekauft haben </p> </td> 
-   <td colname="col3"> <p>Besucher, die bis zur Beendigung eines Besuchs einmal gekauft haben </p> <p>(Wurde gekauft, wurde der Kundenstatus beim nächsten Besuch nach diesem Kauf aktualisiert.) </p> </td> 
-   <td colname="col4"> <p>Besucher, die bis zur Beendigung des Besuchs nicht gekauft haben </p> </td> 
+   <td colname="col3"> <p>Besucher, die bis zur Beendigung eines Besuchs einmal gekauft haben. </p> <p>(Wurde gekauft, wurde der Kundenstatus beim nächsten Besuch nach diesem Kauf aktualisiert.) </p> </td> 
+   <td colname="col4"> <p>Besucher, die bis zur Beendigung des Besuchs nicht gekauft haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rückkehrender Kunde </p> </td> 
