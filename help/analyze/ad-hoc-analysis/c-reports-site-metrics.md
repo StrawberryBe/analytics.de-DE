@@ -1,11 +1,10 @@
 ---
 description: Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
-solution: Analytics
-title: Site-Metrikberichte
+title: Sitemetriken Berichte
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,11 +13,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-## Site-Metrikberichte {#concept_0639CA16551749A693F49ADED4842CCE}
+## Sitemetriken reports {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-Der Trend von Metrikberichten kann im Verlauf der Zeit verfolgt werden. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
+Metrikberichte zeigen einen Trend über einen Zeitraum. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
 
 Die folgenden Site-Metrik-Berichte stehen im Menü [!UICONTROL Site-Metrik] zur Verfügung.
 
@@ -128,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Da jede Report Suite der Analysen unterschiedlich ist, wird dieses Berichtsset für jeden Kunden unterschiedlich eingesetzt. Ein [!UICONTROL benutzerspezifisches Ereignis] kann als Zähler verwendet werden, der angibt, wie oft ein Ereignis auftritt. Wenn Sie beispielsweise **[!UICONTROL event1]** (Ereignis1) auf die Zählung von Dokumentladungen einstellen, zeigt der Bericht [!UICONTROL „Benutzerspezifisches Ereignis“] die Gesamtanzahl der aufgetretenen Ereignisse (Ladevorgänge) an. Sie können mehrere benutzerspezifische Ereignisberichte verwenden.
+Da jede Report Suite der Analysen unterschiedlich ist, wird dieses Berichtsset für jeden Kunden unterschiedlich eingesetzt. Ein [!UICONTROL benutzerspezifisches Ereignis] kann als Zähler verwendet werden, der angibt, wie oft ein Ereignis auftritt. Wenn Sie beispielsweise **[!UICONTROL event1]** (Ereignis1) auf die Zählung von Dokumentladungen einstellen, zeigt der Bericht „Benutzerspezifisches Ereignis“ die Gesamtanzahl der aufgetretenen Ereignisse (Ladevorgänge) an.  Sie können mehrere benutzerspezifische Ereignisberichte verwenden.
 
 ## Konversionsberichte {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
