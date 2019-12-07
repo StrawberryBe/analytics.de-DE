@@ -1,24 +1,23 @@
 ---
 description: Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
-solution: Analytics
-title: Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
+title: Konfigurieren der Erkennung von Paid Search
 topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Erkennung gebührenpflichtiger Suchvorgänge konfigurieren
+# Konfigurieren der Erkennung von Paid Search
 
 Schritte, die die Konfiguration der Erkennung gebührenpflichtiger Suchvorgänge beschreiben.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the [!UICONTROL Report Suite Manager].
-1. Report Suite auswählen.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**.
-1. Konfigurieren Sie auf der Seite [!UICONTROL Gebührenpflichtige Sucherkennung] die Felder, die unter [Gebührenpflichtige Sucherkennung - Beschreibungen](/help/admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D)beschrieben werden.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**, um [!UICONTROL Report Suite Manager] zu öffnen.
+1. Wählen Sie eine Report Suite aus.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Erkennung von Paid Search]**.
+1. Konfigurieren Sie auf der Seite [!UICONTROL Gebührenpflichtige Sucherkennung] die unter [Erkennung von Paid Search – Beschreibungen](/help/admin/admin/paid-search-detection/paid-search-detection.md#section_0C2CFA0AF77B47098BE37CB024665D0D) beschriebenen Felder.
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-Die Liste [!UICONTROL „Derzeitige Regeln zur gebührenpflichtigen Sucherkennung“] zeigt die aktuellen Regeln zur gebührenpflichtigen Sucherkennung an.
+Die Liste [!UICONTROL Derzeitige Regeln zur Erkennung von Paid Search] zeigt die aktuellen Regeln zur Erkennung von Paid Search an.
 
