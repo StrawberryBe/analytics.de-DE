@@ -1,12 +1,11 @@
 ---
 description: Besucher-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
-solution: Analytics
 subtopic: Data sources
 title: Visitor ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Besucher-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
 
-Siehe [Offline-Daten](/help/import/c-data-sources/datasrc-integrating-offline-data.md)integrieren.
+See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 <p class="head"> <b>Besucher-ID-Dimensionen</b> </p>
 
