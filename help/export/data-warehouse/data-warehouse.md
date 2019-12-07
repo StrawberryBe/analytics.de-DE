@@ -1,11 +1,10 @@
 ---
 description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. Data Warehouse-Berichte werden per E-Mail oder über FTP versendet. Die Verarbeitung von Data Warehouse-Berichten kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der zu verarbeitenden Daten.
-solution: Analytics
 title: Data Warehouse-Übersicht
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -65,7 +64,7 @@ In dieser Tabelle werden die Felder und Optionen in dem Register [!UICONTROL Dat
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Sortieren von Metriken</span> </td> 
-   <td colname="col2">Bietet aufgeschlüsselte Rangberichte, die nach absteigendem Metrikwert sortiert sind und in etwa dem entsprechen, was in den Benutzeroberflächen von Reports &amp; Analytics, Data Workbench usw. angezeigt wird. <a href="/help/export/data-warehouse/sorting-by-metric.md"  >Mehr …</a> </td> 
+   <td colname="col2">Bietet aufgeschlüsselte Rangberichte, die nach absteigendem Metrikwert sortiert sind und in etwa dem entsprechen, was in den Benutzeroberflächen von Reports &amp; Analytics, Data Workbench usw. angezeigt wird. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Mehr...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Bereitstellung planen</span> </td> 
