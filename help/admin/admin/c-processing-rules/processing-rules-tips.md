@@ -1,12 +1,11 @@
 ---
 description: Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
-solution: Analytics
 subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,21 +14,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Dieser Abschnitt enthält Richtlinien zum Testen von Verarbeitungsregeln und eine Liste häufiger Fehler, die vermieden werden können.
 
-## Verarbeitungsregeln testen {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Testen der Verarbeitungsregeln {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Dieser Abschnitt enthält einige Anleitungen, die Ihnen helfen, Verarbeitungsregeln zu testen, bevor diese in der Produktion bereitgestellt werden.
 
 **Testen von Regeln, die Suchbegriffe lesen**
 
-Für alle Kriterien, die auf einer Suche basieren, z. B. wenn prop1 "news"enthält, gehen Sie zum prop 1-Bericht und suchen Sie nach "news", um zu sehen, ob Übereinstimmungen vorliegen, die Sie nicht erwartet haben.
+Für Kriterien, die auf einer Suche basieren, z. B., ob prop1 das Wort „Neuigkeiten“ enthält, rufen Sie den prop1-Bericht auf und suchen Sie nach „Neuigkeiten“, um zu sehen, ob es Übereinstimmungen gibt, die Sie nicht erwartet haben.
 
 **Testen von Regeln, die Variablen lesen**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. Wenn Ihre Regeln auf einem Referrer, einer verweisenden Domäne usw. basieren, nehmen Sie einige Beispiel-URLs aus dem Live-Verweisbericht, stellen Sie die `s.referrer`-Variable auf einen dieser Werte ein und laden Sie die Seite. Auf die gleiche Weise können Sie, wenn die Regel auf dem Seiten-URL-Wert basiert, `s.pageURL` einstellen. Dieser Prozess kann für alle Variablen genutzt werden.
+Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von Ihrer Website auf und stellen Sie die `s.account`-Variable auf eine dev-Report Suite ein. Wenn Ihre Regeln auf einer verweisenden Stelle, einer verweisenden Domäne usw. basieren, nehmen Sie einige Beispiel-URLs aus dem Live-Verweisbericht, stellen Sie die `s.referrer`-Variable auf einen dieser Werte ein und laden Sie die Seite. Auf die gleiche Weise können Sie, wenn die Regel auf dem Seiten-URL-Wert basiert, `s.pageURL` einstellen. Dieser Prozess kann für alle Variablen genutzt werden.
 
 **Verwenden einer dev-Report Suite**
 
-Es wird empfohlen, Verarbeitungsregeln für eine dev-Report Suite zu konfigurieren, um sicherzustellen, dass sie ordnungsgemäß funktionieren. Wenn möglich sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
+Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
 
 ## Auf leere Werte hin überprüfen {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -37,7 +36,7 @@ Wenn Sie eine Regel erstellen, sollten Sie berücksichtigen, dass ein Wert leer 
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-Es ist auch wichtig, die Verarbeitungsreihenfolge zu beachten. Im folgenden Beispiel wird die benutzerdefinierte eVar "Vorheriger Seitenname"auf die URL eingestellt, wenn der Seitenname nicht vorhanden ist. Die URL wird jedoch im Seitennamen platziert, nachdem die Verarbeitungsregeln angewandt wurden, sodass in diesem Fall der Seitenname leer ist, wenn er nicht auf der Seite eingestellt wird.
+Es ist auch wichtig, die Verarbeitungsreihenfolge zu beachten. Im folgenden Beispiel scheint es, dass die benutzerspezifische eVar für den vorherigen Seitennamen auf die URL gesetzt wird, wenn der Seitenname nicht vorhanden ist. Die URL wird jedoch im Seitennamen platziert, nachdem die Verarbeitungsregeln angewandt wurden, sodass in diesem Fall der Seitenname leer ist, wenn er nicht auf der Seite eingestellt wird.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
