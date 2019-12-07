@@ -1,13 +1,12 @@
 ---
 description: Seitenvariablen werden direkt in Berichten ausgefüllt, z. B. pageName, List Props, List Variables usw.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -51,7 +50,7 @@ Die Variable *`products`* sollte immer in Verbindung mit einem Erfolgsereignis f
  <tbody> 
   <tr> 
    <td> <p>Die Zeichenfolge <span class="wintitle">Produkte</span> hat eine maximale Größe von 64.000. </p> </td> 
-   <td> „products“ </td> 
+   <td> products </td> 
    <td> Produkte <p>Kategorien (optional) </p> <p>Umsatz (optional) </p> <p>Einheiten (optional) </p> <p>Benutzerspezifische Ereignisse (optional) </p> <p>eVars (optional) </p> </td> 
    <td> " " </td> 
   </tr> 
