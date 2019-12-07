@@ -1,11 +1,10 @@
 ---
 description: Im Bereich „Optionen“ können Sie Einstellungen für Datum und Latenzzeit (aktuelle Daten) sowie die Anmeldeinformationen festlegen und Updates konfigurieren.
-solution: Analytics
 title: Report Builder-Optionen
 topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
