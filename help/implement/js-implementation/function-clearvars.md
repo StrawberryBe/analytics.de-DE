@@ -1,12 +1,11 @@
 ---
 description: Löscht die folgenden Werte aus dem Instanzobjekt. Diese Funktion entfernt die Elemente (legt sie als „undefiniert“ fest).
 keywords: Analytics Implementation
-solution: Analytics
 title: Die s.clearVars()-Funktion
 topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
