@@ -1,12 +1,11 @@
 ---
 description: Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltung der Inhalte, die an die Berichterstellung gesendet wurden.
-solution: Analytics
 subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,22 +25,22 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 
 *Sehen Sie sich die Übersicht zu Verarbeitungsregeln und die Schulung von Adobe Summit an, um zu erfahren, wozu die Verarbeitungsregeln nützlich sind.*
 
-## Autorisierung zur Verwendung der Verarbeitungsregeln erhalten {#section_8A4846688050453784DAE4D89355169A}
+## Erhalten der Autorisierung zur Verwendung der Verarbeitungsregeln {#section_8A4846688050453784DAE4D89355169A}
 
 Vor dem 20. April 2017 mussten alle Benutzer (einschließlich Administratoren) einen Test bestehen und eine Autorisierung für die Nutzung von Verarbeitungsregeln von der Adobe-Kundenunterstützung erhalten.
 
 Nun sind Administratoren **standardmäßig** dazu berechtigt, Verarbeitungsregeln zu nutzen. Der Test ist nicht mehr erforderlich. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. So geht’s:
 
 1. Wenn nicht bereits geschehen, [erstellen Sie eine Gruppe](/help/admin/user-management2/c-user-groups/groups.md), die nur die Benutzer ohne Administratorstatus enthält, die zur Verwendung der Verarbeitungsregeln autorisiert sein sollen.
-1. [Fügen Sie die Nicht-Administratoren dieser Gruppe](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)hinzu.
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
-1. Aktivieren Sie das Kontrollkästchen neben „[!UICONTROL Verarbeitungsregeln]“ und klicken Sie auf **[!UICONTROL OK]**.
+1. [Fügen Sie dieser Gruppe Benutzer ohne Administratorstatus hinzu](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
+1. Gehen Sie dann zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL [Gruppenname]]** &gt; **[!UICONTROL Bearbeiten]** &gt; **[!UICONTROL Zugriff auf Berichte]** &gt; **[!UICONTROL Report Suite-Tools]** &gt; **[!UICONTROL Anpassen]** &gt; **[!UICONTROL Report Suite-Verwaltung]**.
+1. Aktivieren Sie das Kontrollkästchen neben [!UICONTROL Verarbeitungsregeln] und klicken Sie auf **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Da Verarbeitungsregeln dauerhafte Auswirkungen auf Analytics-Daten haben, empfehlen wir dringend, dass Verarbeitungsregeladministratoren eine Zertifizierungsschulung in Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
+>Da die Verarbeitungsregeln dauerhafte Auswirkungen auf die Analytics-Daten haben, empfehlen wir dringend, dass Verarbeitungsregeladministratoren eine Zertifizierung für Adobe Analytics erhalten und mit sämtlichen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Websites, mobile Apps, Data Insertion API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
 
 ## Vereinfachung der Datenerfassung durch Kontextdaten {#section_09EEA03612D24C15839631AA9E9668D8}
 
