@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
 title: Was ist eine Kohortenanalyse?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Was ist eine Kohortenanalyse?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. Die Kohortenanalyse ist beispielsweise hilfreich, wenn Sie erfahren möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trendänderungen offenlegen und entsprechend reagieren. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur Kohortenanalyse sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Nachdem Sie einen Kohortenbericht erstellt haben, können Sie dessen Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. Weitere Informationen finden Sie unter [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+Nachdem Sie einen Kohortenbericht erstellt haben, können Sie dessen Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. Weitere Informationen finden Sie unter [Kuratieren und freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
-Beispiele für die Arbeit mit Kohortenanalyse:
+Beispiele für die Nutzung einer Kohortenanalyse:
 
 * Starten Sie Kampagnen, die dafür ausgelegt sind, eine erwünschte Aktion anzuregen.
 * Erhöhen Sie das Marketingbudget genau zum richtigen Zeitpunkt im Kundenlebenszyklus.
@@ -34,19 +33,19 @@ Die Kohortenanalyse steht allen Analytics-Kunden mit Zugriffsrechten auf Analysi
 >
 >Die Kohortenanalyse unterstützt keine berechneten Metriken.
 
-## Kohortenanalysefunktionen
+## Funktionen der Kohortenanalyse
 
 Im Januar 2019 veröffentlichte Adobe eine neue und deutlich verbesserte Version der Kohortenanalyse. Sie erhalten damit eine sehr viel feinere Steuerung der Kohorten, die Sie erstellen. Dies sind die Verbesserungen:
 
 ### Bindungstabelle
 
-Ein Bericht zur Aufbewahrungskohorte gibt Besucher zurück: Jede Datenzelle zeigt die Rohanzahl und den Prozentsatz der Besucher in der Kohorte, die die Aktion während dieses Zeitraums durchgeführt haben. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
+Ein Bindungskohortenbericht gibt Besucherdaten aus: Jede Datenzelle zeigt die Roh- und Prozentanzahl der Besucher in der Kohorte, die die Aktion während dieses Zeitraums ausgeführt haben. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
 
 ![](assets/retention-report.png)
 
 ### Abwanderungstabelle
 
-Eine Churn-Kohorte ist das Gegenteil einer Retentionstabelle und zeigt die Besucher an, die im Laufe der Zeit die Rückgabekriterien für Ihre Kohorte überschritten haben oder nicht erfüllt haben. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
+Eine Abwanderungskohorte ist die Umkehrung einer Bindungstabelle und zeigt Besucher, die abgewandert sind oder die Rückkehrkriterien für Ihre Kohorte im Laufe der Zeit nie erfüllt haben. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
 
 ![](assets/churn-report.png)
 
