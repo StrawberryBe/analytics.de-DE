@@ -1,12 +1,11 @@
 ---
 description: Definitionen der Elemente auf den Seiten im Classification Rule Builder.
-solution: Analytics
 subtopic: Classifications
 title: Klassifizierungsregeln – Definitionen
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 
-## Seite „Regeln“{#section_4A5BF384EEEE4994B6DC888339833529}
+## Seite „Regeln“ {#section_4A5BF384EEEE4994B6DC888339833529}
 
 Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
 
@@ -33,7 +32,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen auswählen </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p>Um beispielsweise <span class="term"> Seiten</span> als Variable für den Regelsatz verfügbar zu machen, stellen Sie sicher, dass die Report Suite Traffic-Classifications<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > für die </a> Seite<span class="term"></span> implementiert hat. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >Traffic-Classifications</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >Konversion-Classifications</a>. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p>Um beispielsweise <span class="term">Seiten</span> als Variable für den Regelsatz verfügbar zu machen, stellen Sie sicher, dass für die Report Suite <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  >Traffic-Klassifizierungen</a> für <span class="term">Seite</span> implementiert wurden. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >Traffic-Classifications</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >Konversion-Classifications</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aktivieren</span> </p> </td> 
@@ -45,7 +44,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen konfigurieren </p> </td> 
-   <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Hinweis: Eine Report Suite steht <span class="term"> nur</span> zur Verfügung, wenn in den Report Suites mindestens eine Classification für die Variable in den <span class="wintitle"> Admin Tools</span>definiert ist. <p>(Eine Erläuterung zu dieser Voraussetzung finden Sie unter <span class="term"> Variable</span> in <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Classification Rule Sets</a> .) </p> </p> </td> 
+   <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>Die hier gewählten Report Suites werden auf Regelebene verfügbar gemacht, wenn Sie auf <span class="uicontrol">Suites hinzufügen</span> klicken, während Sie eine Regel erstellen. </p> <p>Hinweis: Eine Report Suite steht <span class="term">nur</span> zur Verfügung, wenn in den Report Suites mindestens eine Klassifizierung für die Variable in den <span class="wintitle">Admin Tools</span> definiert ist. <p>(Eine Erläuterung zu dieser Voraussetzung finden Sie unter <span class="term">Variable</span> unter <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  >Klassifizierungsregelsätze</a>.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regeln überschreiben alle vorhandenen Werte </p> </td> 
@@ -57,7 +56,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lookback-Fenster </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Regeln aktivieren und validieren, können Sie angeben, ob die Regeln vorhandene Classifications für die betroffenen Schlüssel überschreiben sollen. (Hiervon sind ausschließlich klassifizierte Schlüssel betroffen, die vorher im angegebenen Zeitraum an <span class="keyword">Adobe Analytics</span> übergeben wurden.) </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) Vorhandene Classifications werden nicht überschrieben, sofern Sie diese Option nicht aktivieren. </p> <p><b>Entwicklungszentrum</b>: Partner können im <span class="wintitle">Entwicklungszentrum</span> Classification-Regeln erstellen. Diese Regeln werden angewandt, wenn der Kunde eine Integration aktiviert. Mit der Option <span class="wintitle">„Seit“ überschreiben</span> im <span class="uicontrol">Entwicklungszentrum</span> kann der Partner angeben, ob der Kunde den Überschreibungswert festlegen kann, wenn er eine Integration aktiviert oder bearbeitet. </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Regeln aktivieren und validieren, können Sie angeben, ob die Regeln vorhandene Classifications für die betroffenen Schlüssel überschreiben sollen. (Hiervon sind ausschließlich klassifizierte Schlüssel betroffen, die vorher im angegebenen Zeitraum an <span class="keyword">Adobe Analytics</span> übergeben wurden.) </p> <p>Wenn Sie kein <span class="term">Lookback-Fenster</span> festlegen, betrachten die Regeln rückblickend einen Zeitraum von etwa einem Monat (hängt vom aktuellen Tag des Monats ab). Vorhandene Classifications werden nicht überschrieben, sofern Sie diese Option nicht aktivieren. </p> <p><b>Entwicklungszentrum</b>: Partner können im <span class="wintitle">Entwicklungszentrum</span> Classification-Regeln erstellen. Diese Regeln werden angewandt, wenn der Kunde eine Integration aktiviert. Mit der Option <span class="wintitle">„Seit“ überschreiben</span> im <span class="uicontrol">Entwicklungszentrum</span> kann der Partner angeben, ob der Kunde den Überschreibungswert festlegen kann, wenn er eine Integration aktiviert oder bearbeitet. </p> <p>Weitere Informationen zur Verarbeitung von Regeln finden Sie unter <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  >Verarbeitung der Regeln</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Regel hinzufügen </a> </td> 
@@ -132,7 +131,7 @@ Auf der Seite [!UICONTROL Regulärer Ausdruck] können Sie reguläre Ausdrücke 
 
 Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
-## Seite „Tests“{#section_EC926F97901C4E65901413F9683AA70A}
+## Seite „Tests“ {#section_EC926F97901C4E65901413F9683AA70A}
 
 Auf dieser Seite können Sie die Regeln in einem Regelsatz testen.
 
