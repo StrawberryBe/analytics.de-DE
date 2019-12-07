@@ -1,11 +1,10 @@
 ---
 description: Zeigt an, welche Spider und Bots Ihre Website in einem bestimmten Zeitraum besucht haben. Wenn erkannt wird, dass Traffic von einem Bot generiert wurde (basierend auf von Ihnen festgelegten Regeln), wird er nicht an die Report Suite gesendet. Er wird stattdessen gesondert erfasst. Der Bericht zeigt die Seiten an, die von diesen Agents besucht wurden.
-solution: Analytics
 title: Bots
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
