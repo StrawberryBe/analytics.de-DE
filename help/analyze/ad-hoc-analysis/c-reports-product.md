@@ -1,11 +1,10 @@
 ---
 description: Bietet Informationen über alle Artikel/Produkte, die Sie auf Ihrer Website verkaufen, handeln oder anzeigen. Sie können Daten zu Bestellungen oder Downloads von Produkten, Anwendungen oder Inhalten anzeigen.
-solution: Analytics
 title: Produktberichte
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ c_reports_products_conv_funnel.xml
 
  -->
 
-Um Metriken und andere benutzerspezifische Ereignisse aus anderen Berichtsgruppen hinzuzufügen, klicken Sie auf einen Link **[!UICONTROL Ausgewählte Ereignisse]in der Kopfzeile des Berichts.**
+Um Metriken und andere benutzerspezifische Ereignisse aus anderen Berichtsgruppen hinzuzufügen, klicken Sie auf einen Link **[!UICONTROL Ausgewählte Ereignisse]** in der Kopfzeile des Berichts.
 
-Da die aktuellen Zeiträume bei Ansicht der Daten noch nicht abgeschlossen sind, kann dieser Bericht auf einen Abwärtstrend im Vergleich zum vorhergehenden Zeitraum hindeuten. Zum Beispiel kann es heute weniger Besuche als gestern geben, aber nur, weil die Statistikdaten des restlichen Zeitraums noch nicht vorliegen.
+Da die aktuellen Zeiträume bei Ansicht der Daten noch nicht abgeschlossen sind, kann dieser Bericht auf einen Abwärtstrend im Vergleich zum vorhergehenden Zeitraum hindeuten. So gibt es möglicherweise weniger Besuche als am Vortag, da der Rest der Angaben aus diesem Zeitraum noch eingehen muss.
 
 ## Kategorien {#concept_3260EE45B2164E478E8A90E046D078AB}
 
@@ -36,4 +35,4 @@ c_reports_categories.xml
 
  -->
 
-Zeigt, wie verschiedene Produktkategorien die Erfolgsmetriken Ihrer Site beeinflussen.
+Zeigt an, wie verschiedene Produktkategorien die Erfolgsmetrik Ihrer Site beeinflussen.
