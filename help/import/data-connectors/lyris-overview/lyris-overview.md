@@ -1,10 +1,9 @@
 ---
 description: Beschreibt die durch die Integration erzielten Marketing-Effizienzen.
-solution: Analytics
 title: Lyris Data Connector for Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,14 +47,14 @@ Dadurch wird sichergestellt, dass vor der Aktivierung die entsprechenden Best Pr
 
 ### Voraussetzungen für Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
-* **Report Suite-spezifisch**: Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren
-* **Verfügbare und konfigurierte Analytics-Variablen**: Für diese Integration sind benutzerdefinierte Ereignisse und benutzerdefinierte eVars sowie optional zusätzliche Ereignisse und eVars erforderlich.
+* **Report Suite-spezifisch**:Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren
+* **Verfügbare und konfigurierte Analytics-Variablen**:Für diese Integration sind benutzerdefinierte Ereignisse und benutzerdefinierte eVars sowie optional zusätzliche Ereignisse und eVars erforderlich.
 
-* **Bevollmächtigter**: Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden.
+* **Bevollmächtigter**:Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden.
 * **Adobe Analytics Data Warehouse**: Für diese Integration muss Adobe Analytics Data Warehouse aktiviert sein, um Remarketing-Segmente zu generieren. Wenn Sie Data Warehouse nicht aktiviert haben, wenden Sie sich für weitere Informationen an Adobe.
 * **Empfänger-ID**: Die Integration erfordert, dass wir eine "Besucher-ID"in einer Analytics-Variablen (eVar) erfassen und speichern. Die Besucher-ID (häufig als "Empfänger-ID"bezeichnet) ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse aus dem Lyris-System. Diese "Empfänger-ID"ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft. die in das Lyris-System zurückgezogen werden und zu Wiederverkaufszwecken genutzt werden können. Während des Setupprozesses müssen Sie eine eVar für diesen Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden.
 * **Externe Verfolgung**: Wenn Sie derzeit die Best Practice zur Aktivierung der externen Verfolgung für jede gesendete E-Mail-Kampagne nicht befolgen, müssen Sie dies tun, um eine erfolgreiche Integration sicherzustellen. Weitere Informationen finden Sie im Abschnitt "Lyris"
-* **Datenschutzbestimmungen**: Sie sollten sich bewusst sein, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung persönlich identifizierbare Informationen über Ihre Site-Besucher verfolgen kann. Dies hat Auswirkungen auf die Privatsphäre, sodass Ihre Organisation entsprechende Verfahren implementieren muss, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
+* **Datenschutzbestimmungen**:Sie sollten sich bewusst sein, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung persönlich identifizierbare Informationen über Ihre Site-Besucher verfolgen kann. Dies hat Auswirkungen auf die Privatsphäre, sodass Ihre Organisation entsprechende Verfahren implementieren muss, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
 
 ### Voraussetzungen für Lyris EmailLabs {#section-84abae9401224a3699fed861f715ebde}
 
