@@ -1,12 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie ein Benutzer zu einer Gruppe hinzugefügt wird.
-solution: Analytics
 subtopic: Users and groups
 title: Einen Benutzer zu einer Gruppe hinzufügen
 topic: Admin tools
 uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 In diesen Schritten wird beschrieben, wie ein Benutzer zu einer Gruppe hinzugefügt wird.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]**.
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
-1. In the **[!UICONTROL Manage]** column, click **[!UICONTROL Edit]**.
-1. Under **[!UICONTROL Access]**, assign group membership by clicking a group in the left list and then clicking **[!UICONTROL Add]**.
+1. Klicken Sie in der Spalte **[!UICONTROL Verwalten]** auf **[!UICONTROL Bearbeiten]**.
+1. Weisen Sie unter **[!UICONTROL Zugriff]** die Gruppenmitgliedschaft zu, indem Sie auf eine Gruppe in der linken Liste und dann auf **[!UICONTROL Hinzufügen]** klicken.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
