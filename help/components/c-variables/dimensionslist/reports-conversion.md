@@ -1,11 +1,10 @@
 ---
 description: Liefert eine umfassende, genaue und detaillierte Analyse der Kundenaktivität. Die Metriken Kampagnenverwaltung, Verkaufszyklus, Kundenabgang und Kundenkonversion dienen der Messung von E-Commerce-Transaktionen, Verkaufsquellen, Werbewirksamkeit, Kundenloyalität und vielem mehr.
-solution: Analytics
 title: Konversion
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Liefert eine umfassende, genaue und detaillierte Analyse der Kundenaktivität. D
 
 Wenn Sie beispielsweise sehen möchten, welcher interne Kampagnentyp zu Einkäufen führt, müssen Sie zuerst die internen Trackingcodes erfassen und die Persistenz für die Variable *`s.eVar`* zum Erfassen interner Kampagnen auf den Zeitraum eines Besuchs festlegen. Ist ein Erfolgsereignis abgeschlossen (z. B. ein Einkauf), wird dieser Erfolg den Konversionsvariablen zugeschrieben, die für den Besucher persistent sind, wie beispielweise der internen Kampagnen-ID. Wenn Sie den [!UICONTROL internen Kampagnenbericht] ausführen, sehen Sie, welche Kampagne die meisten Onsitekonversionen erzielt hat.
 
-Einige Out-of-the-Box-Berichte enthalten sowohl Traffic- als auch Konversionsmetriken (wie z. B. die [!UICONTROL Suchmaschinen]-Berichte). [!UICONTROL Traffic]- und [!UICONTROL Konversions]berichte sind jedoch einmalig für Ihr Unternehmen und werden in den **[!UICONTROL Traffic]**- und **Konversions[!UICONTROL menüs angezeigt.]**
+Einige Out-of-the-Box-Berichte enthalten sowohl Traffic- als auch Konversionsmetriken (wie z. B. die [!UICONTROL Suchmaschinen]-Berichte). [!UICONTROL Traffic]- und [!UICONTROL Konversions]berichte sind jedoch einmalig für Ihr Unternehmen und werden in den **[!UICONTROL Traffic]**- und **[!UICONTROL Konversionsmenüs angezeigt]**.
 
 **Berichteigenschaften**
 
