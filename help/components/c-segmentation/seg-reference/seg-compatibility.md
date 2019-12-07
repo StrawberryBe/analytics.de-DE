@@ -1,24 +1,23 @@
 ---
 description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
-solution: Analytics
 title: Data Warehouse-Segmentkompatibilität
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Data Warehouse-Segmentkompatibilität
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. Diese Tabelle listet die unterstützten Funktionen auf.
+Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse] kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analysen, Ad-hoc-Analysen </th> 
+   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
    <th colname="col3" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -45,7 +44,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensionen</b> </td> 
-   <td colname="col2">Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Beispielsweise werden diese Dimensionen nur in Analysis Workspace, Reports &amp; Analysen und Ad-hoc-Analysen unterstützt: 
+   <td colname="col2">Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Folgende Dimensionen werden beispielsweise nur in Analysis Workspace, Reports &amp; Analytics und Ad Hoc Analysis unterstützt: 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">Entryserver </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">Entrykategorie </li> 
@@ -58,7 +57,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">„Seiten-URL“ </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">Visitor ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud-Besucher-ID </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>Die folgenden Dimensionen <b>können nicht </b>in Data Warehouse-Segmenten verwendet werden: </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">Rangansicht aller Suchseiten </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">Vormittag/Nachmittag </li> 
@@ -74,7 +73,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_52ECB31657DF4180BDB9C8D21CC74313">Stunde des Tages </li> 
      <li id="li_93716207F2614822ACB84100B35D27BC">Monat des Jahres </li> 
      <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">Seiten nicht gefunden </li> 
-     <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">Gebührenpflichtige Suche </li> 
+     <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">Paid Search </li> 
      <li id="li_12228C18BF90463C8D8394FB810843D3">Viertel des Jahres </li> 
      <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">Rückkehrhäufigkeit </li> 
      <li id="li_39154CD74A534D9AA09C701FE1E2C521">Einzelseitenbesuche </li> 
