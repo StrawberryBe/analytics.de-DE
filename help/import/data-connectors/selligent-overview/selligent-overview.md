@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: Selektiver Data Connector für Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,9 +22,9 @@ Diese E-Mail-Integration unterstützt dynamische Marketingsegmente, die Sie bei 
 
 | Segment | Beschreibung |
 |---|---|
-| **Einkaufswagenabbruchprofil** |  hilft Besuchern, sich durch Feinabstimmungskampagnen zu Kunden zu konvertieren, die speziell für diejenigen entwickelt wurden, die zögern, Einkaufswagen abzuschließen. |
-| **Kaufprofil** |  Erhöhen Sie Wiederholungsbestellungen und den durchschnittlichen Bestellwert durch Kampagnen, die auf die Kaufmuster der Besucher ausgerichtet sind. |
-| **Verhaltensprofil "Produkt/Inhalt"** |  Kontaktieren Sie potenzielle Kunden über Marketingsegmente, die auf Produktansichten und der Erstellung von Inhaltsprofilen basieren. |
+| **Einkaufswagenabbruchprofil** | hilft Besuchern, sich durch Feinabstimmungskampagnen zu Kunden zu konvertieren, die speziell für diejenigen entwickelt wurden, die zögern, Einkaufswagen abzuschließen. |
+| **Kaufprofil** | Erhöhen Sie Wiederholungsbestellungen und den durchschnittlichen Bestellwert durch Kampagnen, die auf die Kaufmuster der Besucher ausgerichtet sind. |
+| **Verhaltensprofil "Produkt/Inhalt"** | Kontaktieren Sie potenzielle Kunden über Marketingsegmente, die auf Produktansichten und der Erstellung von Inhaltsprofilen basieren. |
 | **Benutzerspezifische Remarketing-Segmente** | Kunden können auch benutzerspezifische Remarketing-Segmente erstellen und planen, die den Anforderungen ihrer Benutzer entsprechen. |
 
 ## Vor Aktivierung dieser Integration{#before-you-activate-this-integration}
@@ -40,13 +39,13 @@ Listet die erforderlichen Aktionen auf, die in Adobe Analytics durchgeführt wer
 
 | Voraussetzung | Hinweise |
 |---|---|
-| Report Suite auswählen |  Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren. |
-| Analytics-Variablen konfigurieren |  Für diese Integration sind benutzerdefinierte Ereignisse und benutzerdefinierte eVars sowie optional zusätzliche Ereignisse und eVars erforderlich. Siehe Konfigurieren von Analytics-Variablen für Selligent. |
-| Bevollmächtigter |  Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden. |
+| Report Suite auswählen | Beachten Sie, dass diese Integration spezifisch für Report Suites ist. Stellen Sie sicher, dass Sie die gewünschte Report Suite ausgewählt haben, bevor Sie die Integration aktivieren. |
+| Analytics-Variablen konfigurieren | Für diese Integration sind benutzerdefinierte Ereignisse und benutzerdefinierte eVars sowie optional zusätzliche Ereignisse und eVars erforderlich. Siehe Konfigurieren von Analytics-Variablen für Selligent. |
+| Bevollmächtigter | Achten Sie darauf, dass Ihre Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe erhebt. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein Bevollmächtigter Ihres Unternehmens sind. und somit ist Ihr Unternehmen bereit, die in der oben beschriebenen Servicevereinbarung genannten Gebühren zu zahlen, sofern vorhanden. |
 | Adobe Data Warehouse™ aktivieren | Für diese Integration muss Data Warehouse aktiviert sein, damit Remarketing-Segmente generiert werden können. Wenn Sie Adobe Data Warehouse nicht aktiviert haben, wenden Sie sich für weitere Informationen an Adobe. |
 | Recipient ID | Die Integration erfordert, dass wir eine "Besucher-ID"in einer Analytics-Variablen (eVar) erfassen und speichern. Die Besucher-ID (häufig als "Empfänger-ID"bezeichnet) ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse des Selligent-Systems. Diese "Empfänger-ID"ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft. die in das Selligent-System zurückgezogen werden und für Remarketing-Zwecke genutzt werden können. Während des Setupprozesses müssen Sie eine eVar für diesen Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden. |
-| Externe Verfolgung |  Wenn Sie derzeit nicht die Best Practice zur Aktivierung der externen Verfolgung für jede gesendete E-Mail-Kampagne befolgen, müssen Sie dies tun, um eine erfolgreiche Integration sicherzustellen. Weitere Informationen finden Sie im Abschnitt Selligent. |
-| Datenschutzbestimmungen |  Sie sollten sich bewusst sein, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung persönlich identifizierbare Informationen über Ihre Site-Besucher verfolgen kann. Dies hat Auswirkungen auf die Privatsphäre, die die Implementierung geeigneter Verfahren durch Ihr Unternehmen erfordern, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher. |
+| Externe Verfolgung | Wenn Sie derzeit nicht die Best Practice zur Aktivierung der externen Verfolgung für jede gesendete E-Mail-Kampagne befolgen, müssen Sie dies tun, um eine erfolgreiche Integration sicherzustellen. Weitere Informationen finden Sie im Abschnitt Selligent. |
+| Datenschutzbestimmungen | Sie sollten sich bewusst sein, dass diese Funktion durch Aktivierung der Empfänger- oder Besucher-ID-Verfolgung persönlich identifizierbare Informationen über Ihre Site-Besucher verfolgen kann. Dies hat Auswirkungen auf die Privatsphäre, die die Implementierung geeigneter Verfahren durch Ihr Unternehmen erfordern, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher. |
 
 ## Analytics-Variablen für Selligent konfigurieren{#configure-analytics-variables-for-selligent}
 
