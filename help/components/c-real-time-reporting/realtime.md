@@ -1,22 +1,21 @@
 ---
 description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
-solution: Analytics
-title: 'Übersicht über die Echtzeitberichterstellung '
+title: Übersicht über die Echtzeitberichterstellung
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Übersicht über die Echtzeitberichterstellung 
+# Übersicht über die Echtzeitberichterstellung
 
-Echtzeitberichte zeigen den Webseiten-Traffic an und ordnen Seitenansichten in Echtzeit an. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
+Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge. Liefert relevante Daten, auf die Sie Ihre Geschäftsentscheidungen stützen können.
 
 >[!NOTE]
 >
-> Der Echtzeitbericht erfordert keine zusätzliche Implementierung oder kein Tagging. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md)
+>Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Echtzeit]**
 
@@ -48,7 +47,7 @@ Das Einrichten und Anzeigen von Echtzeitberichten ist auf Administratoren oder B
 
 ## Datenlatenz als Folge der A4T-Konfiguration {#section_806CE36354FC4C539A0DED9266A5C704}
 
-After the A4T integration is enabled in Adobe [!DNL Target], you will experience an additional 5-10 minutes of latency in Adobe Analytics. This latency increase allows data from Analytics and [!DNL Target] to be stored on the same hit, allowing you to break down tests by page and site section.
+Nach Aktivierung der A4T-Integration in Adobe [!DNL Target] ist in Adobe Analytics eine zusätzliche Latenz von 5 bis 10 Minuten festzustellen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und [!DNL Target] für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
 Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
 
