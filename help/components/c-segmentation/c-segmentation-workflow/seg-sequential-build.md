@@ -1,40 +1,39 @@
 ---
-description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
-solution: Analytics
+description: Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
 title: Sequentielle Segmente erstellen
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Sequentielle Segmente erstellen
 
-Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten und zeigt den Filter "Alle einschließen"an. Sequenzielle Segmente können mithilfe der Optionen "Nur vor Sequenz"und "Nur nach Sequenz"weiter zu einer Untergruppe übereinstimmender Treffer gefiltert werden.
+Sequenzielle Segmente werden über den DANN-Operator anstelle von UND oder ODER erstellt. DANN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
 
 ![](assets/before-after-sequence.png)
 
-Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
+Darüber hinaus können Sie sequenzielle Segmente nach spezifischer Zeitdauer, Granularität und Anzahl zwischen Checkpoints beschränken. Verwenden Sie dazu die [Nach- und In-Operatoren](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ## Alle einschließen {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-Beim Erstellen eines Segments, bei dem "Alle einschließen"festgelegt ist, identifiziert das Segment Pfade, die dem angegebenen Muster als Ganzes entsprechen. Hier ist ein Beispiel für ein einfaches Sequenzsegment, das nach einem Treffer sucht (Seite A), auf den ein weiterer folgt (Seite B), der vom gleichen Besucher besucht wurde. Das Segment ist so eingestellt, dass es alle einschließt.
+Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist, identifiziert das Segment Pfade, die mit dem jeweiligen Muster insgesamt übereinstimmen. Hier ist ein Beispiel für ein einfaches Sequenzsegment, das nach einem Treffer sucht (Seite A), auf den ein weiterer folgt (Seite B), der vom gleichen Besucher besucht wurde. Das Segment ist so eingestellt, dass es alle einschließt.
 
 ![](assets/sequence-filter.png)
 
 | Wenn Ergebnis... | Sequenz |
 |--- |--- |
-| Stimmt überein | A, dann<br>BA, dann (bei einem anderen Besuch)<br>BA, dann D, dann B |
+| Stimmt überein | A, dann B<br>A, dann B (in einem anderen Besuch) B<br>A, dann D, dann B |
 | Stimmt nicht überein mit | B, dann A |
 
 ## „Nur vor Sequenz“ und „Nur nach Sequenz“ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-Die Optionen **[!UICONTROL Nur vor Sequenz]** und **Nur nach Sequenz]filtern das Segment vor oder nach der angegebenen Sequenz nach einer Teilmenge an Daten.[!UICONTROL **
+Die Optionen **[!UICONTROL Nur vor Sequenz]** und **[!UICONTROL Nur nach Sequenz]** filtern das Segment vor oder nach der angegebenen Sequenz nach einer Teilmenge an Daten.
 
-* **Nur vor Sequenz**: Umfasst alle Treffer vor einer Sequenz sowie den ersten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz mehrere Male in einem Pfad angezeigt wird, enthält "Nur vor Sequenz"den ersten Treffer des letzten Vorkommens der Sequenz und alle vorherigen Treffer (siehe Beispiel 2).
-* **Nur nach Sequenz**: Umfasst alle Treffer nach einer Sequenz sowie den letzten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz mehrere Male in einem Pfad angezeigt wird, enthält "Nur nach"den letzten Treffer des ersten Vorkommens der Sequenz und alle nachfolgenden Treffer (siehe Beispiel 2).
+* **Nur vor Sequenz**: Umfasst alle Treffer vor einer Sequenz sowie den ersten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz innerhalb eines Pfads mehrmals vorkommt, umfasst „Nur vor Sequenz“ den ersten Treffer des letzten Vorkommens der Sequenz sowie alle vorangegangenen Treffer (siehe Beispiel 2).
+* **Nur nach Sequenz**: Umfasst alle Treffer nach einer Sequenz sowie den letzten Treffer der Sequenz selbst (siehe Beispiel 1 und 3). Wenn eine Sequenz innerhalb eines Pfads mehrmals vorkommt, umfasst „Nur nach Sequenz“ den letzten Treffer des ersten Vorkommens der Sequenz sowie alle darauffolgenden Treffer (siehe Beispiel 2).
 
 Betrachten wir beispielsweise eine Sequenz von B gefolgt von D. Die drei Filter würden die Treffer folgendermaßen identifizieren:
 
@@ -54,7 +53,7 @@ Betrachten wir beispielsweise eine Sequenz von B gefolgt von D. Die drei Filter 
 | Nur vor Sequenz | A | B | C | D | B |  |  |  |
 | Nur nach Sequenz |  |  |  | D | B | C | D | E |
 
-Lassen Sie uns dieses Konzept auch mit der Dimension "Treffertiefe"umreißen.
+Nehmen wir zu diesem Konzept außerdem die Dimension der Treffertiefe hinzu.
 
 **Beispiel 3: Treffertiefe 3 gefolgt von 5**
 
@@ -62,22 +61,22 @@ Lassen Sie uns dieses Konzept auch mit der Dimension "Treffertiefe"umreißen.
 
 ## Dimensionsbegrenzungen {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-In einer "Innerhalb"-Klausel können Sie zwischen THEN-Anweisungen beispielsweise "innerhalb 1 Suchbegriffsinstanz", "innerhalb 1 eVar 47-Instanz"hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
+In einem „Innerhalb“-Satz können Sie zwischen DANN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
 
-Durch die Festlegung einer "Innerhalb der Dimension"-Klausel zwischen Regeln kann ein Segment Daten auf Sequenzen beschränken, bei denen diese Klausel erfüllt ist. Siehe untenstehendes Beispiel, in dem die Begrenzung auf „Innerhalb 1 Seite“ festgelegt ist:
+Durch einen „Innerhalb von Dimension“-Satz zwischen Regeln kann ein Segment Daten auf Sequenzen beschränken, in denen dieser Satz zutrifft. Siehe untenstehendes Beispiel, in dem die Begrenzung auf „Innerhalb 1 Seite“ festgelegt ist:
 
 ![](assets/sequence-filter4.png)
 
 | Wenn Ergebnis... | Sequenz |
 |--- |--- |
 | Stimmt überein | A, dann B |
-| Stimmt nicht überein mit | <br> A, dann C, dann B (da B nicht innerhalb einer Seite von A war)**** Hinweis:  Wenn die Dimensionsbeschränkung entfernt wird, stimmen "A, dann B"und "A, dann C, dann B"überein. |
+| Stimmt nicht überein mit | A, dann C, dann B (da B nicht innerhalb einer Seite von A war)<br>**Hinweis:** Wenn die Dimensionsbeschränkung entfernt wird, stimmen „A, dann B“und „A, dann C, dann B“ überein. |
 
-## Einfache Seitenansichtsreihenfolge
+## Einfache Seitenansichtssequenz
 
 Identifizieren Sie Benutzer, die eine Seite und anschließend eine andere Seite angezeigt haben. Die Daten auf Trefferebene filtern diese Sequenz ungeachtet vorheriger, letzter oder zwischenzeitlicher Besuchssitzungen oder der Zeit oder der Anzahl der Seitenansichten, die zwischenzeitlich vergangen ist bzw. erfolgt sind.
 
-**Beispiel**: Besucher hat Seite A und dann Seite B im selben oder einem anderen Besuch angesehen.
+**Beispiel**: Besucher hat Seite A angesehen, dann Seite B bei demselben oder einem anderen Besuch.
 
 **Anwendungsbeispiele**
 
@@ -92,11 +91,11 @@ Sie verschachteln zwei Seitenregeln in einem [!UICONTROL Besucherbehälter] der 
 
 ![](assets/segment_sequential_1.png)
 
-## Besuchersequenz über mehrere Besuche hinweg
+## Besuchsübergreifende Besuchersequenz
 
 Identifizieren Sie die Besucher, die aus einer Kampagne herausgefallen, aber im Rahmen einer anderen Sitzung zur Sequenz der Seitenansichten zurückgekehrt sind.
 
-**Beispiel**: Besucher hat Seite A bei einem Besuch und dann Seite B bei einem anderen Besuch angesehen.
+**Beispiel**: Besucher hat Seite A in einem Besuch aufgerufen und dann Seite B in einem anderen Besuch besucht.
 
 **Nutzungsszenarios**
 
@@ -107,15 +106,15 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 **Dieses Segment erstellen**
 
-In diesem Beispiel sind zwei **[!UICONTROL Besuchebehälter]** im **[!UICONTROL Besucherbehälter]der obersten Ebene verschachtelt und das Segment ist mit dem[!UICONTROL DANN]-Operator sequenziert.**
+In diesem Beispiel sind zwei **[!UICONTROL Besuchebehälter]** im **[!UICONTROL Besucherbehälter]** der obersten Ebene verschachtelt und das Segment ist mit dem [!UICONTROL DANN]-Operator sequenziert.
 
 ![](assets/visitor_seq_across_visits.png)
 
-## Sequenz auf gemischten Ebenen
+## Sequenz mit gemischten Ebenen
 
 Erkennen von Besuchern, die bei einer nicht festgelegten Anzahl von Besuchen zwei Seiten ansehen, dann aber bei einem separaten Besuch eine dritte Seite ansehen.
 
-**Beispiel**: Besucher besuchen Seite A und dann Seite B bei einem oder mehreren Besuchen, gefolgt von einem Besuch auf Seite C bei einem separaten Besuch.
+**Beispiel**: Besucher besuchen Seite A und dann Seite B bei einem oder mehreren Besuchen, gefolgt von einem Besuch der Seite C bei einem separaten Besuch.
 
 **Nutzungsszenarios**
 
@@ -127,12 +126,12 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 **Dieses Segment erstellen**
 
 1. Legen Sie zwei Seitendimensionen aus den linken Fenstern in einem [!UICONTROL Besucherbehälter] der obersten Ebene ab.
-1. Fügen Sie zwischen den beiden den DANN-Operator ein. 
-1. Click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container]** and add a [!UICONTROL Visit] container underneath the [!UICONTROL Visitor] level and sequenced using the [!UICONTROL THEN] operator.
+1. Fügen Sie zwischen den beiden den DANN-Operator ein.
+1. Klicken Sie auf **[!UICONTROL Optionen]** &gt; **[!UICONTROL Container hinzufügen]** und fügen Sie einen [!UICONTROL Besuchecontainer] unter der [!UICONTROL Besucherebene] ein und bilden Sie mit dem [!UICONTROL DANN]-Operator eine Sequenz.
 
 ![](assets/mixed_level_checkpoints.png)
 
-## Aggregatbehälter
+## Aggregieren von Containern
 
 Durch das Hinzufügen mehrerer [!UICONTROL Trefferbehälter] innerhalb eines [!UICONTROL Besucherbehälters] können Sie die entsprechenden Operatoren zwischen identischen Behältertypen anwenden und Regeln und Dimensionen wie Seiten- und Besuchsnummer verwenden, um die Seitenansicht zu definieren und eine Sequenzdefinition innerhalb des [!UICONTROL Trefferbehälters] bereitzustellen. Wenn Sie eine Logik auf Trefferebene anwenden, können Sie Übereinstimmungen einschränken und als Treffer derselben Ebene im [!UICONTROL Besucherbehälter] kombinieren, um eine Vielzahl von Segmenttypen zu erstellen.
 
@@ -155,16 +154,16 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 ![](assets/aggregate_checkpoints2.png)
 
-## "Verschachtelung"in sequenziellen Segmenten
+## „Verschachtelung“ in sequenziellen Segmenten
 
 Durch das Positionieren von Checkpoints auf [!UICONTROL Besuchs-] und [!UICONTROL Trefferebene] können Sie das Segment so einschränken, dass Anforderungen innerhalb eines spezifischen Besuchs sowie an einen spezifischen Treffer erfüllt werden.
 
-**Beispiel**: Besucher besuchte Seite A und besuchte dann Seite B im selben Besuch. Bei einem neuen Besuch ist der Besucher dann zur Seite C gewechselt.
+**Beispiel**: Besucher hat Seite A und dann Seite B im selben Besuch besucht. Bei einem neuen Besuch ist der Besucher dann zur Seite C gewechselt.
 
 **Dieses Segment erstellen**
 
 1. Legen Sie unter einem [!UICONTROL Besuchebehälter] der obersten Ebene zwei Seitendimensionen ab.
-1. Multi-select both rules, click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container from selection]** and change it to a [!UICONTROL Visit] container.
+1. Wählen Sie beide Regeln aus, klicken Sie auf **[!UICONTROL Optionen]** &gt; **[!UICONTROL Container aus Auswahl hinzufügen]** und ändern Sie ihn in einen [!UICONTROL Besuchecontainer].
 1. Verbinden Sie beide mit einem [!UICONTROL DANN]-Operator.
 1. Erstellen Sie einen Trefferbehälter, der gleichrangig zum [!UICONTROL Besuchebehälter] ist, und legen Sie darin eine Seitendimension ab.
 1. Verknüpfen Sie die verschachtelte Sequenz im [!UICONTROL Besuchsbehälter] mit dem [!UICONTROL Trefferbehälter]. Verwenden Sie dazu einen weiteren [!UICONTROL DANN]-Operator.
@@ -177,7 +176,7 @@ Segmentregeln beinhalten alle Daten, es sei denn, Sie schließen mithilfe der Re
 
 Beispiel:
 
-* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die *`Home Page`*) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
+* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite der „Homepage“ entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
 * **Schließen Sie die Referrerdomäne aus**. Verwenden Sie eine Regel, die nur Referrerdomänen aus „Google.com“ einschließt und alle anderen Domänen ausschließt.
 * **Identifizieren Sie Nicht-Käufer**. Bestimmen Sie, wann Bestellungen größer als null sind, und schließen Sie dann den [!UICONTROL Besucher] aus.
 
@@ -187,7 +186,7 @@ Der [!UICONTROL Ausschlussoperator] kann zum Identifizieren einer Sequenz verwen
 
 Erzwingen Sie das Segmentieren von Besuchern mit einer Logik, wenn ein Checkpoint nicht explizit zwischen zwei anderen Checkpoints aufgetreten ist.
 
-**Beispiel**: Besucher, die Seite A und dann Seite C besucht haben, aber Seite B nicht besucht haben.
+**Beispiel**: Besucher, die Seite A besucht haben und anschließend Seite C – ohne Seite B besucht zu haben.
 
 **Nutzungsszenarios**
 
@@ -198,19 +197,19 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 **Dieses Segment erstellen**
 
-Erstellen Sie ein Segment, wie Sie dies für ein  einfaches oder verschachteltes sequenzielles Segment bzw. ein Segment mit gemischten Ebenen tun würden, und legen Sie dann den [!UICONTROL AUSSCHLIESSEN]-Operator für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL DANN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
+Erstellen Sie ein Segment, wie Sie dies für ein einfaches oder verschachteltes sequenzielles Segment bzw. ein Segment mit gemischten Ebenen tun würden, und legen Sie dann den [!UICONTROL AUSSCHLIESSEN]-Operator für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL DANN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
 
 ![](assets/exclude_between_checkpoints.png)
 
-### Am Anfang der Sequenz ausschließen
+### Ausschluss am Anfang der Sequenz
 
 Wenn sich der Ausschluss-Checkpoint am Anfang eines sequenziellen Segments befindet, wird sichergestellt, dass vor dem ersten nicht ausgeschlossenen Treffer keine ausgeschlossene Seitenansicht aufgetreten ist.
 
-**Beispiel**: Besucher besuchte Seite A und nicht Seite B.
+**Beispiel**: Besucher hat Seite A und nicht Seite B besucht.
 
 **Nutzungsszenarios**
 
-Im Folgenden finden Sie Beispiele für Anwendungsfälle, wie dieser Segmenttyp verwendet werden kann:
+Die folgenden Anwendungsbeispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 * Besucher, die Seite A, aber nicht Seite B besucht haben.
 * Ein Restaurant möchte treue Benutzer erkennen, die die Haupt-Landingpage umgehen und direkt zur Bestellseite navigieren.
@@ -221,11 +220,11 @@ Erstellen Sie zwei separate Trefferbehälter in einem Besucherbehälter der ober
 
 ![](assets/exclude_beginning_sequence.png)
 
-### Am Ende der Sequenz ausschließen
+### Ausschluss am Ende der Sequenz
 
 Wenn der Ausschluss-Checkpoint am Ende einer Sequenz liegt, wird sichergestellt, dass der Checkpoint nicht zwischen dem letzten nicht ausgeschlossenen Checkpoint und dem Ende der Besuchersequenz auftritt.
 
-**Beispiel**: Besucher besuchen Seite A und besuchten dann Seite B bei den aktuellen oder nachfolgenden Besuchen nicht.
+**Beispiel**: Besucher besuchen Seite A und sie haben dann im aktuellen Besuch oder in darauf folgenden Besuchen nicht Seite B besucht.
 
 **Nutzungsszenarios**
 
@@ -236,31 +235,31 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 **Dieses Segment erstellen**
 
-Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to the canvas and connecting them using the [!UICONTROL THEN] operator. Weisen Sie dann den [!UICONTROL AUSSCHLIESSEN]-Operator dem zweiten [!UICONTROL Trefferbehälter] in der Sequenz zu.
+Erstellen Sie eine einfache Sequenz, indem Sie zwei [!UICONTROL Treffercontainer] in die Arbeitsfläche ziehen und sie mit dem [!UICONTROL DANN]-Operator verbinden. Weisen Sie dann den [!UICONTROL AUSSCHLIESSEN]-Operator dem zweiten [!UICONTROL Trefferbehälter] in der Sequenz zu.
 
 ![](assets/exclude_end_sequence.png)
 
-## Logische Gruppenbehälter
+## Logische Gruppencontainer
 
-Logische Gruppenbehälter sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segmentprüfpunkt zu gruppieren. Der spezielle logische Gruppenbehälter ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden. Dagegen erfordern nicht sequenzielle Behälter (Treffer, Besuch, Besucher) nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was bei Verwendung mit einem DANN-Operator zu intuitiven Ergebnissen führt.
-Der [!UICONTROL logische Gruppenbehälter] wurde so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden können, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints erfolgt. Mit anderen Worten, die Reihenfolge der Checkpoints in dieser Gruppe ist uns egal. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Logische Gruppencontainer sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segmentprüfpunkt zu gruppieren. Der spezielle logische Gruppencontainer ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden. Dagegen erfordern nicht sequenzielle Container (Treffer, Besuch, Besucher) nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was bei Verwendung mit einem DANN-Operator zu intuitiven Ergebnissen führt.
+Der [!UICONTROL logische Gruppencontainer] wurde so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden können, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints besteht. Mit anderen Worten: Die Reihenfolge der Checkpoints in dieser Gruppe spielt keine Rolle. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. Stattdessen können Sie jedoch einen [!UICONTROL logischen Gruppencontainer] in einem [!UICONTROL Besuchercontainer] verschachteln, indem Sie spezielle Checkpoints auf [!UICONTROL Besuchsebene] und [!UICONTROL Trefferebene] verwenden.
 
-> [!NOTE] Eine [!UICONTROL logische Gruppe] kann nur in einem sequenziellen Segment definiert werden, d. h. der [!UICONTROL DANN] -Operator wird im Ausdruck verwendet.
+> [!NOTE] Eine [!UICONTROL logische Gruppe] kann nur in einem sequenziellen Segment definiert werden, was bedeutet, dass der [!UICONTROL DANN]-Operator innerhalb des Ausdrucks verwendet wird.
 
 | Behälterhierarchie | Illustration | Definition |
 |---|---|---|
 | Standardbehälterhierarchie | ![](assets/nesting_container.png) | Innerhalb des [!UICONTROL Besuchercontainers] werden die Container für [!UICONTROL Besuche] und [!UICONTROL Treffer] in einer Sequenz verschachtelt, um Segmente basierend auf Treffern, der Anzahl der Besuche und basierend auf dem Besucher zu extrahieren. |
-| Logische Behälterhierarchie | ![](assets/logic_group_hierarchy.png) | Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
+| Logische Containerhierarchie | ![](assets/logic_group_hierarchy.png) | Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
 
-Logische Gruppen mögen abschreckend erscheinen - hier einige Best Practices für ihre Verwendung:
+Logische Gruppen wirken vielleicht abschreckend – hier finden Sie einige Best Practices zur Verwendung dieser Gruppen:
 
-**Logische Gruppe oder Treffer-/Besuchsbehälter?**
-Wenn Sie sequenzielle Checkpoints gruppieren möchten, lautet Ihr "Container"logische Gruppe. Müssen diese sequenziellen Checkpoints jedoch innerhalb eines einzelnen Treffers oder Besuchs auftreten, ist ein Treffer oder ein Besuchsbehälter erforderlich. (Natürlich ergibt "Treffer"keinen Sinn für eine Gruppe sequenzieller Checkpoints, wenn einem Treffer nicht mehr als ein Checkpoint gutgeschrieben werden kann).
+**Logische Gruppe oder Treffer-/Besuchecontainer?**
+Wenn Sie sequenzielle Checkpoints gruppieren möchten, ist Ihr „Container“ eine logische Gruppe. Müssen diese sequenziellen Checkpoints jedoch innerhalb eines einzelnen Treffers oder Besuchs auftreten, ist ein „Treffercontainer“ oder ein „Besuchecontainer“ erforderlich. (Natürlich ergibt „Treffer“ keinen Sinn für eine Gruppe sequenzieller Checkpoints, wenn einem Treffer nicht mehr als ein Checkpoint gutgeschrieben werden kann).
 
 **Vereinfachen logische Gruppen das Erstellen sequenzieller Segmente?**
-Ja, sie können. Nehmen wir einmal an, Sie versuchen, diese Frage zu beantworten: Hat ein Besucher nach Seite A Seite B, Seite C oder Seite D **gesehen?**
+Ja, unter Umständen. Nehmen wir einmal an, Sie versuchen, diese Frage zu beantworten: **Hat ein Besucher nach Seite A Seite B, Seite C oder Seite D angesehen?**
 
-Sie können dieses Segment ohne logischen Gruppenbehälter erstellen, es ist jedoch komplex und aufwändig:
+Sie können dieses Segment ohne logischen Gruppencontainer erstellen, was jedoch komplex und aufwändig ist:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
@@ -268,23 +267,23 @@ Sie können dieses Segment ohne logischen Gruppenbehälter erstellen, es ist jed
 * `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
 * `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
 
-Ein logischer Gruppenbehälter vereinfacht das Erstellen dieses Segments erheblich, wie im Folgenden gezeigt:
+Ein logischer Gruppencontainer vereinfacht das Erstellen dieses Segments erheblich, wie nachfolgend gezeigt:
 
 ![](assets/logic-grp-example.png)
 
 
-### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Erstellen eines logischen Gruppensegments {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Wie andere Behälter können auch [!UICONTROL logische Gruppenbehälter] auf mehrere Arten innerhalb des [!UICONTROL Segmentaufbaus]erstellt werden. Hier finden Sie eine bevorzugte Methode zum Verschachteln von [!UICONTROL logischen Gruppenbehältern]:
+Wie andere Container können auch [!UICONTROL logische Gruppencontainer] auf mehrere Arten im [!UICONTROL Segment Builder] erstellt werden. Hier finden Sie eine bevorzugte Methode zum Verschachteln von [!UICONTROL logischen Gruppenbehältern]:
 
 1. Ziehen Sie Dimensionen, Ereignisse oder Segmente aus den linken Fenstern.
 1. Ändern Sie den oberen Behälter in einen [!UICONTROL Besucher]behälter.
 1. Ändern Sie den standardmäßig eingefügten [!UICONTROL UND]- oder [!UICONTROL ODER]-Operator in den DANN-Operator.
-1. Select the [!UICONTROL Hit] containers (the Dimension, Event, or Item) and click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container from selection]**.
+1. Wählen Sie die [!UICONTROL Treffercontainer] aus (Dimension, Ereignis oder Element) und klicken Sie auf **[!UICONTROL Optionen]** &gt; **[!UICONTROL Container aus Auswahl hinzufügen]**.
 1. Klicken Sie auf das Behältersymbol und wählen Sie **[!UICONTROL Logische Gruppe aus]**.  ![](assets/logic_group_checkpoints.png)
 1. Nun können Sie die [!UICONTROL Treffer] im [!UICONTROL logischen Gruppenbehälter] ungeachtet der Hierarchie festlegen.
 
-### Checkpoints für logische Gruppen in beliebiger Reihenfolge
+### Logische Gruppe – Checkpoints in beliebiger Reihenfolge
 
 Die Verwendung der [!UICONTROL logischen Gruppe] ermöglicht Ihnen das Erfüllen von Bedingungen innerhalb der jeweiligen Gruppe, die sich außerhalb der Sequenz befinden. Dies ermöglicht Ihnen das Erstellen von Segmenten, in denen ungeachtet der normalen Hierarchie ein [!UICONTROL Besuchs-] oder [!UICONTROL Trefferbehälter] existiert.
 
@@ -292,21 +291,21 @@ Die Verwendung der [!UICONTROL logischen Gruppe] ermöglicht Ihnen das Erfüllen
 
 **Dieses Segment erstellen**
 
-Seite B und C sind in einem [!UICONTROL logischen Gruppenbehälter] innerhalb des äußeren [!UICONTROL Besucherbehälters] verschachtelt. Der [!UICONTROL Trefferbehälter] für A wird anschließend vom [!UICONTROL logischen Gruppenbehälter] gefolgt, wobei B und C mithilfe des [!UICONTROL UND]-Operators identifiziert werden. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
+Seite B und C sind in einem [!UICONTROL logischen Gruppenbehälter] innerhalb des äußeren [!UICONTROL Besucherbehälters] verschachtelt. Der [!UICONTROL Trefferbehälter] für A wird anschließend vom [!UICONTROL logischen Gruppenbehälter] gefolgt, wobei B und C mithilfe des [!UICONTROL UND]-Operators identifiziert werden. Da sie sich in der [!UICONTROL logischen Gruppe] befindet, wird die Sequenz nicht definiert und durch einen Treffer auf Seite B und C in beliebiger Reihenfolge wird das Argument wahr.
 
 ![](assets/logic_group_any_order2.png)
 
-**Ein weiteres Beispiel**: Besucher, die Seite B oder C und dann Seite A besucht haben:
+**Weiteres Beispiel**: Besucher, die Seite B oder C und anschließend Seite A besucht haben:
 
 ![](assets/logic_group_any_order3.png)
 
-Das Segment muss mindestens mit einem der Checkpoints der logischen Gruppe (B oder C) übereinstimmen. Auch können die Bedingungen für logische Gruppen im selben Treffer oder über mehrere Treffer hinweg erfüllt werden. &#x200B;
+Das Segment muss mindestens mit einem der Checkpoints der logischen Gruppe (B oder C) übereinstimmen. Außerdem können die Bedingungen für logische Gruppen im selben Treffer oder über mehrere Treffer hinweg erfüllt werden.&#x200B;
 
-### Erste Übereinstimmung mit der logischen Gruppe
+### Logische Gruppe – Erste Übereinstimmung
 
 Die Verwendung der [!UICONTROL logischen Gruppe] ermöglicht Ihnen das Erfüllen von Bedingungen innerhalb der jeweiligen Gruppe, die sich außerhalb der Sequenz befinden. In diesem nicht geordneten Segment der ersten Übereinstimmung werden die Regeln der [!UICONTROL logischen Gruppe] zuerst als Seitenansicht von Seite B oder C und dann als erforderliche Ansicht von Seite A identifiziert.
 
-**Beispiel**: Besucher, die Seite B oder C und dann Seite A besucht haben.
+**Beispiel**: Besucher, die Seite B oder C und anschließend Seite A besucht haben.
 
 **Dieses Segment erstellen**
 
@@ -314,11 +313,11 @@ Die Dimensionen von Seite B und C werden innerhalb eines [!UICONTROL logischen G
 
 ![](assets/logic_group_1st_match.png)
 
-### Logische Gruppe ausschließen UND
+### Logische Gruppe – UND-Ausschluss
 
 Erstellen Sie mithilfe der [!UICONTROL logischen Gruppe] Segmente, wobei mehrere Seitenansichten aggregiert werden, um zu definieren, welche Seiten getroffen werden müssen, während andere Seiten speziell ausgelassen wurden. ****
 
-**Beispiel**: Besucher hat Seite A besucht und dann explizit nicht Seite B oder C besucht, sondern Seite D getroffen.
+**Beispiel**: Der Besucher hat Seite A besucht. Anschließend hat er Seite B oder C explizit nicht besucht, aber auf Seite D einen Treffer erzielt.
 
 **Dieses Segment erstellen**
 
@@ -328,11 +327,11 @@ Klicken Sie nach dem Verschachteln der Werte in der [!UICONTROL logischen Gruppe
 
 ![](assets/logic_exclude_and.png)
 
-### Logische Gruppe - ODER
+### Logische Gruppe – ODER-Ausschluss
 
 Erstellen Sie mithilfe der [!UICONTROL logischen Gruppe] Segmente, wobei mehrere Seitenansichten aggregiert werden, um zu definieren, welche Seiten getroffen werden müssen, während andere Seiten speziell ausgelassen wurden.
 
-**Beispiel**: Besucher, die Seite A, aber vor Seite A weder Seite B noch Seite C besucht haben.
+**Beispiel**: Besucher, die Seite A besucht haben, die jedoch vor dem Besuch von Seite A die Seite B oder C nicht besucht haben.
 
 **Dieses Segment erstellen**
 
@@ -344,7 +343,7 @@ Klicken Sie nach dem Verschachteln der Werte in der [!UICONTROL logischen Gruppe
 
 ![](assets/logic_exclude_or.png)
 
-## Erstellen von Zeit- und Nachschlagesegmenten
+## Erstellen von Zeit-In- und Zeit-Nach-Segmenten
 
 Mithilfe der in die Kopfzeilen der einzelnen Behälter integrierten [!UICONTROL In]- und [!UICONTROL Nach]-Operatoren können Sie die Zeit, Ereignisse und Anzahl definieren.
 
@@ -362,62 +361,62 @@ Die Dauer wird durch einen einzelnen Großbuchstaben für die Granularität gefo
 
 | Operatoren | Beschreibung |
 |--- |--- |
-| NACH | Der Nach-Operator wird zum Angeben einer minimalen Zeitbegrenzung zwischen zwei Checkpoints verwendet. Beim Festlegen der Nach-Werte beginnt die Zeitbegrenzung mit dem Anwenden des Segments. Wenn der Nach-Operator beispielsweise für einen Behälter festgelegt ist, um Besucher zu identifizieren, die Seite A besuchen, aber erst nach einem Tag zum Besuch von Seite B zurückkehren, beginnt dieser Tag, wenn der Besucher Seite A verlässt.  Damit der Besucher in das Segment einbezogen wird, müssen nach dem Verlassen von Seite A zur Ansicht von Seite B mindestens 1440 Minuten (ein Tag) vergehen. |
-| IN | Der In-Operator wird zum Angeben einer maximalen Zeitbegrenzung zwischen zwei Checkpoints verwendet. Wenn der In-Operator beispielsweise für einen Behälter festgelegt ist, um Besucher zu identifizieren, die Seite A besuchen und dann innerhalb eines Tages zurückkehren, um Seite B zu besuchen, beginnt dieser Tag, sobald der Besucher Seite A verlässt. Um in das Segment aufgenommen zu werden, hat der Besucher eine maximale Zeit von einem Tag, bevor er Seite B öffnet.   Damit der Besucher in das Segment eingeschlossen wird, muss der Besuch auf Seite B innerhalb von maximal 1440 Minuten (einen Tag) erfolgen, nachdem die Seite A zur Ansicht von Seite B verlassen wurde. |
-| NACH/IN | Beim Verwenden der Nach- und In-Operatoren gilt es zu beachten, dass beide Operatoren parallel und nicht sequenziell beginnen und enden.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Beide Bedingungen werden vom Zeitpunkt des ersten Seitentreffers an erzwungen. |
+| NACH | Der Nach-Operator wird zum Angeben einer minimalen Zeitbegrenzung zwischen zwei Checkpoints verwendet. Beim Festlegen der Nach-Werte beginnt die Zeitbegrenzung mit dem Anwenden des Segments. Wenn der Nach-Operator beispielsweise für einen Container festgelegt ist, um Besucher zu identifizieren, die Seite A besuchen, aber erst einen Tag später zum Besuch von Seite B zurückkehren, beginnt dieser Tag, wenn der Besucher Seite A verlässt. Damit der Besucher in das Segment einbezogen wird, müssen nach dem Verlassen von Seite A und der Ansicht von Seite B mindestens 1.440 Minuten (ein Tag) vergehen. |
+| IN | Der In-Operator wird zum Angeben einer maximalen Zeitbegrenzung zwischen zwei Checkpoints verwendet. Wenn der In-Operator beispielsweise für einen Container festgelegt ist, um Besucher zu identifizieren, die Seite A besuchen und dann am selben Tag zum Besuch von Seite B zurückkehren, beginnt dieser Tag, sobald der Besucher Seite A verlässt. Damit der Besucher in das Segment einbezogen wird, muss er innerhalb von maximal einem Tag Seite B öffnen. Damit der Besucher in das Segment einbezogen wird, muss der Besuch auf Seite B innerhalb von maximal 1.440 Minuten (einem Tag) erfolgen, nachdem Seite A zur Ansicht von Seite B verlassen wurde. |
+| NACH/IN | Beim Verwenden der Nach- und In-Operatoren gilt es zu beachten, dass beide Operatoren parallel und nicht sequenziell beginnen und enden.   Wenn Sie beispielsweise ein Segment erstellen, bei dem der Container auf <br>`After = 1 Week(s) and Within = 2 Week(s)`<br> festgelegt ist, werden die Bedingungen zum Identifizieren von Besuchern nur zwischen 1 und 2 Wochen erfüllt. Beide Bedingungen werden vom Zeitpunkt des ersten Seitentreffers an erzwungen. |
 
-### Nach-Operator verwenden
+### Verwenden von Nach-Operatoren
 
 * Der Nach-Zeitoperator ermöglicht Ihnen eine Verfolgung nach Jahr, Monat, Tag, Stunde und Minute, um Besuche zuzuordnen.
 * Der Nach-Zeitoperator kann nur auf einen [!UICONTROL Trefferbehälter] angewendet werden, da dies die einzige Ebene ist, für die eine solch feine Granularität definiert ist.
 
-**Beispiel**: Besucher, die Seite A und dann Seite B erst nach 2 Wochen besucht haben.****
+**Beispiel**: Besucher, die Seite A und dann erst nach 2 Wochen Seite B besucht haben.****
 
 ![](assets/time_between_after_operator.png)
 
-**Segment** erstellen: Dieses Segment wird durch Hinzufügen eines [!UICONTROL Besucherbehälters] mit zwei [!UICONTROL Trefferbehältern] erstellt. Anschließend können Sie den [!UICONTROL DANN]-Operator festlegen und die Dropdown-Liste für den [!UICONTROL NACH]-Operator öffnen, um die Wochenanzahl festzulegen.
+**Erstellen des Segments**: Dieses Segment wird durch das Hinzufügen eines [!UICONTROL Besuchercontainers] mit zwei [!UICONTROL Treffercontainern] erstellt. Anschließend können Sie den [!UICONTROL DANN]-Operator festlegen und die Dropdown-Liste für den [!UICONTROL NACH]-Operator öffnen, um die Wochenanzahl festzulegen.
 
 ![](assets/after_operator.png)
 
 **Stimmt überein mit**
 
-Wenn „Nach 2 Wochen“ festgelegt ist und am 1. Juni 2019 um 00:01 Uhr auf Seite A ein Treffer stattfindet, stimmt ein darauf folgender Treffer auf Seite B überein, sofern er vor dem 15. Juni 2019 um 00:01 Uhr (14 Tage später) erfolgt. 
+Wenn „Nach 2 Wochen“ festgelegt ist und am 1. Juni 2019 um 00:01 Uhr auf Seite A ein Treffer stattfindet, stimmt ein darauf folgender Treffer auf Seite B überein, sofern er vor dem 15. Juni 2019 um 00:01 Uhr (14 Tage später) erfolgt.
 
 | Treffer A | Treffer B | Übereinstimmend |
 |--- |--- |--- |
-| Treffer **A**: 01. Juni 2019 00:01 | Treffer **B**: 15. Juni 2019 00:01 | **** Sucht: Diese Zeitbeschränkung stimmt überein, da sie nach dem 1. Juni 2019 (zwei Wochen) liegt. |
-| Treffer **A**: 01. Juni 2019 00:01 | **Treffer B** : Treffer 8. Juni 2019 00:01 B: 15. Juni 2019 00:01 | **** Stimmt nicht überein: Der erste Treffer auf Seite B stimmt nicht überein, da er mit der Beschränkung in Konflikt steht, die nach zwei Wochen erforderlich ist. |
+| Treffer **A**: 01. Juni 2019 00:01 | Treffer **B**: 15. Juni 2019 00:01 | **Stimmt überein mit:** Diese Zeitbeschränkung erzielt eine Übereinstimmung, weil sie nach dem 1. Juni 2019 (zwei Wochen) liegt. |
+| Treffer **A**: 01. Juni 2019 00:01 | Treffer **B**: 8. Juni 2019 00:01 Treffer B: 15. Juni 2019 00:01 | **Stimmt nicht überein mit:** Der erste Treffer auf Seite B erzielt keine Übereinstimmung, weil er mit der Beschränkung in Konflikt gerät, laut der er nach zwei Wochen erforderlich ist. |
 
-### Verwenden Sie den In-Operator
+### Verwenden von In-Operatoren
 
 * Mit dem [!UICONTROL In]-Operator können Sie eine Verfolgung nach Jahr, Monat, Tag, Stunde und Minute ausführen, um Besuche zuzuordnen.
 * Der [!UICONTROL In]-Operator kann nur auf einen [!UICONTROL Trefferbehälter] angewendet werden, da dies die einzige Ebene ist, für die eine solch feine Granularität definiert ist.
 
 >[!IMPORTANT]
 >
->In einer "Innerhalb"-Klausel können Sie zwischen THEN-Anweisungen beispielsweise "innerhalb 1 Suchbegriffsinstanz", "innerhalb 1 eVar 47-Instanz"hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
+>In einem „Innerhalb“-Satz können Sie zwischen DANN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt.
 
 **Beispiel**: Besucher, die Seite A und dann innerhalb von 5 Minuten Seite B besucht haben.
 
 ![](assets/time_between_within_operator.png)
 
-**Segment** erstellen: Dieses Segment wird erstellt, indem ein [!UICONTROL Besucherbehälter] hinzugefügt und dann mit zwei [!UICONTROL Trefferbehältern] gezogen wird. Dann können Sie den [!UICONTROL DANN]-Operator festlegen und das Dropdown-Feld [!UICONTROL NACH] öffnen, um das Intervall festzulegen: Treffer, Seitenansichten, Besuche, Minuten, Stunden, Tage, Wochen, Monate, Quartale oder Jahre.
+**Erstellen des Segments**: Dieses Segment wird durch das Hinzufügen eines [!UICONTROL Besuchercontainers] und das anschließende Ziehen von zwei [!UICONTROL Treffercontainern] erstellt. Dann können Sie den [!UICONTROL DANN]-Operator festlegen und das Dropdown-Feld [!UICONTROL NACH] öffnen, um das Intervall festzulegen: Treffer, Seitenansichten, Besuche, Minuten, Stunden, Tage, Wochen, Monate, Quartale oder Jahre.
 
 ![](assets/within_operator.png)
 
 **Stimmt überein mit**
 
-Übereinstimmungen müssen innerhalb der Zeitbeschränkung erfolgen. Wenn ein Besucher bei dem Ausdruck um 00:01 Uhr Seite A trifft, stimmt ein darauf folgender Treffer auf Seite B überein, solange er an oder vor 00:06 Uhr erfolgt (fünf Minuten später, einschließlich derselben Minute). Mit Treffern innerhalb derselben Minuten werden ebenfalls Treffer erzielt.
+Übereinstimmungen müssen innerhalb der Zeitbeschränkung erfolgen. Für den Ausdruck gilt Folgendes: Wenn ein Besucher um 00:01 Uhr Seite A trifft, stimmt ein darauf folgender Treffer auf Seite B überein, sofern er innerhalb von 6 Minuten erfolgt (fünf Minuten später, einschließlich derselben Minute). Mit Treffern innerhalb derselben Minuten werden ebenfalls Treffer erzielt.
 
 ### Die In- und Nach-Operatoren
 
 Verwenden Sie die [!UICONTROL In]- und [!UICONTROL Nach]-Operatoren zum Bereitstellen eines maximalen und minimalen Endpunkts an beiden Enden eines Segments.
 
-**Beispiel**: Besucher, die Seite A und dann Seite B nach 2 Wochen, aber innerhalb eines Monats besucht haben.
+**Beispiel**: Besucher, die Seite A und dann nach 2 Wochen, aber innerhalb eines Monats, Seite B besucht haben.
 
 ![](assets/time_between_using_both_operators.png)
 
-**Segment** erstellen: Erstellen Sie das Segment, indem Sie zwei [!UICONTROL Trefferbehälter] in einem [!UICONTROL Besucherbehälter] sequenzieren. Legen Sie anschließend die [!UICONTROL Nach]- und [!UICONTROL In]-Operatoren fest.
+**Erstellen des Segments**: Erstellen Sie das Segment, indem Sie zwei [!UICONTROL Treffercontainer] in einem [!UICONTROL Besuchercontainer] sequenzieren. Legen Sie anschließend die [!UICONTROL Nach]- und [!UICONTROL In]-Operatoren fest.
 
 ![](assets/within_after_together.png)
 
