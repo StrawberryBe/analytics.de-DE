@@ -1,13 +1,12 @@
 ---
 description: Seitenvariablen werden direkt in Berichten ausgefüllt, z. B. pageName, List Props, List Variables usw.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Seitenvariablen
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Dies gilt nur bei JavaScript und [!UICONTROL ActionSource].
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | Keine | Keine | s.Media.trackVars="None" |
+| nicht angegeben | nicht angegeben | nicht angegeben | s.Media.trackVars="None" |
 
 **Syntax und mögliche Werte** {#section_7374684A7EB34AE685E8C40A66CFD289}
 
@@ -57,7 +56,7 @@ Siehe [Mobilfunkprotokolle](/help/implement/js-implementation/c-additional-libra
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | /5/ oder /1/ im Pfad der Bild-URL | Keine | Keine |
+| nicht angegeben | /5/ oder /1/ im Pfad der Bild-URL | nicht angegeben | Keine |
 
 **Syntax und mögliche Werte** {#section_7F1C58090C454882BA9D3D66C9263A76}
 
