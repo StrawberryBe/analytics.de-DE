@@ -1,11 +1,10 @@
 ---
 description: Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei neuen Besuchen zuerst aufgerufen werden.
-solution: Analytics
 title: Ein- und Ausstiege
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Ein- und Ausstiege
 
 >[!NOTE]
->Bei Treffern mit mehreren Werten in der Produktvariablen gelten "Einstiege"und "Ausstiege"für alle Produktwerte in einem Treffer und nicht nur für den ersten.
+>Bei Treffern, die mehrere Werte in der Produktvariable aufweisen, gelten Einstiege und Ausstiege für alle Produktwerte in einem Treffer, und nicht mehr nur für den ersten.
 
 Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei neuen Besuchen zuerst aufgerufen werden.
 
@@ -21,7 +20,7 @@ Die Ansicht erfasst:
 
 * **Entrypages** (oder Abschnitte): Zeigt nach Prozentsatz und nach Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei einem neuen Besuch zuerst aufgerufen werden. Anhand dieses Berichts können Sie erkennen, welche Ihrer Webseiten die häufigsten Einstiegspunkte sind, und können dann die primären Einstiegspunkte Ihrer Site optimieren, um den Einstiegs-Traffic auf Ihre wichtigsten Mitteilungen zu lenken.
 
-   A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Entry]** report, sort by it, and see which entry pages drive the most page views.
+   Eine nützliche Möglichkeit, die Metrik „Seitenansicht“ zu verwenden, besteht darin, den Bericht **[!UICONTROL Pfade]** &gt; **[!UICONTROL Seiten]** &gt; **[!UICONTROL Entrypages]** auszuführen, danach zu sortieren und zu sehen, welche Entrypages zu den meisten Seitenansichten führen.
 
 * **Ursprüngliche Entrypages**: Zeigt die erste angezeigte Seite eines ersten Besuchs auf Ihrer Site. Benutzer werden nur einmal gezählt, es sei denn, der Benutzer löscht seine Cookies oder wird nicht durch Cookies verfolgt.
 * **Einzelseitenbesuche**: Zeigt Seiten, die am häufigsten sowohl Einstiegs- als auch Exitpages für Besucher waren.
