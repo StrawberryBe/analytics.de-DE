@@ -1,11 +1,10 @@
 ---
 description: Beschreibungen von Berichtstypen, die in der Experience Cloud verwendet werden.
-solution: Analytics
 title: Berichtstypen
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -105,8 +104,8 @@ Der Bericht zeigt in der Standardeinstellung die 10 am häufigsten aufgerufenen 
 
 Verwenden Sie diesen Bericht, um:
 
-* zu erkennen, welche Schritte am häufigsten nach Ansicht der gewählten Seite ausgeführt werden
-* Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken
+* zu erkennen, welche Schritte am häufigsten nach Ansicht der gewählten Seite ausgeführt werden.
+* Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken.
 * zu identifizieren, welche Seiten statt der gewünschten Zielseiten die Besucher aufrufen.
 
 ## Nächster Serverfluss {#concept_DB8C20E18AEA4051903C47A16C0E9C4E}
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. Sie können beispielsweise sehen, wie viele Benutzer von `https://www.mysite.com` zu `https://info.mysite.com` oder `https://sales.mysite.com` gelangt sind.
 
 ## Nächster Abschnittsfluss {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -146,7 +145,7 @@ c_reports_previous_page_flow.xml
 Verwenden Sie diesen Bericht, um:
 
 * Einblick in die Schritte zu erhalten, die am häufigsten vor Ansicht der gewählten Seite ausgeführt werden
-* Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken
+* Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken.
 
 ## Vorheriger Abschnittsfluss {#concept_30688D97B48449E1958866BAF376FA8C}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. Sie können beispielsweise sehen, wie viele Benutzer von `www.mysite.com` zu `info.mysite.com` oder `sales.mysite.com` gelangt sind.
 
 ## Konversionstrichterberichte {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
@@ -219,7 +218,7 @@ Klicken Sie mit der rechten Maustaste auf Säulen, um sie zu bearbeiten oder zu 
 
 | Option | Beschreibung |
 |--- |--- |
-| Bearbeiten | Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. |
+| Vorlage | Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. |
 | Entfernen | Hiermit können Sie eine Säule entfernen. |
 | Berichte | Hiermit können Sie einen anderen Bericht über die Säule starten. |
 | Diagramm speichern unter | Hiermit können Sie das Diagramm als .png- oder .jpg-Datei speichern. Wenn Sie die Diagrammsteuerungen (Graph-Winkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. |
