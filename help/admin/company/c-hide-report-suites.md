@@ -1,17 +1,16 @@
 ---
 description: Ermöglicht Ihnen das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics.
 keywords: delete report suite
-solution: Analytics
-title: Report Suites ausblenden
+title: Ausblenden von Report Suites
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Report Suites ausblenden
+# Ausblenden von Report Suites
 
 Ermöglicht Ihnen das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics.
 
@@ -21,14 +20,14 @@ Das Ausblenden einer Report Suite führt dazu, dass sie nicht mehr im Dropdown-M
 
 >[!IMPORTANT]
 >
->Daten, die von Ihrer Site an eine ausgeblendete Report Suite gesendet werden, werden weiterhin erfasst, verarbeitet und in Rechnung gestellt. So wird eine Report Suite nie vollständig gelöscht.
+>Daten, die von Ihrer Site an eine ausgeblendete Report Suite gesendet werden, werden weiterhin erfasst, verarbeitet und abgerechnet. So wird eine Report Suite nie vollständig gelöscht.
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Unsichtbar]links neben dem Namen der Report Suite.**
+Gehen Sie zum Ausblenden einer Report Suite zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]** &gt; **[!UICONTROL Report Suites ausblenden]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]** links neben dem Namen der Report Suite.
 
-Um die Report Suite wieder einzublenden, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Unsichtbar].**
+Um die Report Suite wieder einzublenden, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]**.
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+Wenn unter **[!UICONTROL Unternehmenseinstellungen]** nur ausgeblendete Report Suites angezeigt werden sollen, wählen Sie **[!UICONTROL Anzeigen]** &gt; **[!UICONTROL Nur ausgeblendete Report Suites]** aus.
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+Wenn unter **[!UICONTROL Unternehmenseinstellungen]** nur sichtbare Report Suites angezeigt werden sollen, wählen Sie **[!UICONTROL Anzeigen]** &gt; **[!UICONTROL Nur sichtbare Report Suites]** aus.
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+Die Standardeinstellung ist **[!UICONTROL Anzeigen]** &gt; **[!UICONTROL Alle]**.
