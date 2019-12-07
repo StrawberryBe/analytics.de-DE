@@ -1,11 +1,10 @@
 ---
 description: Die Konversionsaktionen auf Ihrer Site, die Benutzer ausführen sollen. Dies kann etwa eine Registrierung, ein Abonnement, ein Abschluss des Interessentenformulars, ein gestarteter Chat, ein Kauf, eine Buchung oder die Teilnahme an einer Umfrage sein.
-solution: Analytics
 title: Benutzerspezifische Ereignisse
 topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
