@@ -1,26 +1,25 @@
 ---
-description: Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
+description: Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
-title: Dimensionsberechtigungen anpassen
+title: Anpassen von Dimensionsberechtigungen
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Dimensionsberechtigungen anpassen
+# Anpassen von Dimensionsberechtigungen
 
-> [!IMPORTANT] Benutzer- und Produktverwaltung wechseln zur [Admin-Konsole](https://helpx.adobe.com/enterprise/using/admin-console.html). Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
-Legen Sie Benutzerrechte granular fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
+Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
 
-**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; Zugriff auf **[!UICONTROL Berichte]** &gt; **[!UICONTROL Dimensionen]** &gt; **[!UICONTROL Anpassen]**
+**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Zugriff auf Berichte]** &gt; **[!UICONTROL Dimensionen]** &gt; **[!UICONTROL Anpassen]**
 
-> [!IMPORTANT] Einige Dimensionen sind derzeit nicht zulässig. Es handelt sich um die folgenden Dimensionen: Mobile Lesezeichenlänge; Mobilgerätenummer; Mobil-DRM; Mobile Informationsdienste; Mobile Java-VM; Mobiles Mail-Design; Mobile Netzprotokolle; Mobilbetriebssystem; Mobiles PTT.
+> [!IMPORTANT] Für einige Dimensionen sind aktuell keine Berechtigungen erforderlich. Es handelt sich um die folgenden Dimensionen: Mobile Lesezeichenlänge; Mobilgerätenummer; Mobil-DRM; Mobile Informationsdienste; Mobile Java-VM; Mobiles Mail-Design; Mobile Netzprotokolle; Mobilbetriebssystem; Mobiles PTT.
 >
 >Diese Dimensionen sind für alle Benutzer verfügbar, unabhängig von anderen Berechtigungen.
 
@@ -32,10 +31,10 @@ Lesen Sie sich folgende Informationen zur Dimensionskategorie in den Berechtigun
 
 * Individuelle Berechtigung für eVars 1–250.
 * Sämtliche Traffic-Berichte sind Dimensionen.
-* Video- und Mobil-Berichte sind Dimensionen sowie andere Analytics-Lösungsberichte (Experience Manager, Advertising Cloud, Social usw.).
+* Video- und Mobilberichte sind Dimensionen, ebenso wie andere Analytics-Lösungsberichte (Experience Manager, Advertising Cloud, Social usw.).
 * Pfadsetzungsberichte sind für Benutzer mit Zugang zu den übergeordneten Dimensionen verfügbar.
 * Alle aktuellen Dimensionen und Metriken in benutzerdefinierten Gruppen wurden automatisch in die neuen Kategorien migriert. Wenn in einer bestehenden Gruppe Metriken aktiv sind, werden für diese Gruppe sämtliche Dimensionen, für die neue Berechtigungen erteilt werden (eVars und inhaltsbasiert), und Metriken als Standardeinstellungen festgelegt.
-* Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die [Variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) bestimmt, auf der Classification basiert.
+* Classifications Importer-Berechtigungen (bisher SAINT): Der Zugriff auf Klassifizierungen wird durch den Zugriff auf die [Variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) bestimmt, auf die sich die Klassifizierung stützt.
 
 Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu geänderten Berechtigungen](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html).
 
@@ -60,7 +59,7 @@ Bei den folgenden Elementen handelt es sich um Dimensionen, für die Sie Zugriff
    <td colname="col2"> <p>Props sind benutzerdefinierte Traffic-Variablen. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html">Traffic-Props und Konversions-eVars</a> in der Implementierung von Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> Hierarchie </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/hierN.html"> Hierarchy </a> </p> </td> 
    <td colname="col2"> <p> Die Hierarchievariable bestimmt die Positionierung einer Seite in der Hierarchie der Site oder Seitenstruktur. </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +72,7 @@ Bei den folgenden Elementen handelt es sich um Dimensionen, für die Sie Zugriff
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
-   <td colname="col2"> <p>Adobe Experience Manager     </p> </td> 
+   <td colname="col2"> <p>Adobe Experience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/media-optimizer/"> AMO </a> </p> </td> 
