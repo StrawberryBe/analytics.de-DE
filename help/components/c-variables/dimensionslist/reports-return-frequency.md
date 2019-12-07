@@ -1,11 +1,10 @@
 ---
 description: Zeigt Ihnen, wie viel Zeit zwischen Besuchen zurückkehrender Besucher vergeht, sowie die Anzahl der Besucher, die in die einzelnen Zeitkategorien fallen. Verwenden Sie den Bericht, um zu ermitteln, wie lange rückkehrende Besucher im Durchschnitt ihre Website nicht besuchen, und um Trends bei rückkehrenden Besuchern zu sehen.
-solution: Analytics
 title: Rückkehrhäufigkeit
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -35,5 +34,5 @@ Standardmäßig umfasst der Bericht die folgenden Zeiträume:
 ## Hinweise {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Dieser Bericht zeichnet keine Erstbesucher auf, da kein Vergleich mit früheren Besuchen angestellt werden kann.
-* Der Datumsbereich in diesem Bericht bezieht sich auf die Zeit, in der der Besuch stattgefunden hat. Beispiel: Ein Besucher besucht Ihre Site im April und zweimal an einem Tag im Oktober. Wenn Sie einen Rückkehrhäufigkeitsbericht für den Monat Oktober abrufen, wird ein Besuch unter "länger als 1 Monat"und ein Besuch unter "weniger als 1 Tag"angezeigt.
+* Der Datumsbereich in diesem Bericht bezieht sich auf die Zeit, in der der Besuch stattgefunden hat. Beispiel: Ein Besucher besucht Ihre Site im April und zweimal an einem Tag im Oktober. In einem Rückkehrhäufigkeitsbericht für den Monat Oktober wird daher ein Besuch unter „länger als 1 Monat“ und ein Besuch unter „weniger als 1 Tag“ aufgeführt.
 
