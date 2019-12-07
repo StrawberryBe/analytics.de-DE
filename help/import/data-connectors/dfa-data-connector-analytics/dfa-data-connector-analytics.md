@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: DFA
-solution: Analytics
 title: DFA-Data Connectors für Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -64,7 +63,7 @@ Wenn diese Daten ankommen oder der Abruf zu viel Zeit in Anspruch nimmt, wird ei
 
 Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` definiert, wie lange das Integrate-Modul auf Daten vom DFA Floodlight-Server wartet, bevor das Image-Tag an den Browser des Besuchers gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
 
-Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analysen-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann jedoch zu hoch eingestellt werden. In diesem Fall könnten Besucher die Site verlassen, bevor der `s.maxDelay` Timer abläuft..
+Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analysen-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann jedoch zu hoch eingestellt werden. In diesem Fall könnten Besucher die Site verlassen, bevor der `s.maxDelay` Timer abläuft. .
 
 Manchmal gibt der Floodlight-Server Fehler zu Besuchern aus. Dieser Fall tritt normalerweise ein, wenn dem Floodlight-Server keine Informationen zu Besuchern vorliegen, da sie zuvor noch keine Anzeigen gesehen haben oder kein DFA-Besuchercookie verwenden. Im Seiten-Code kann eine benutzerspezifische Konversionsvariable (eVar) festgelegt werden, in der diese Fehler erfasst werden. Dadurch können die Fehlerbehebung bei Implementierungsproblemen erleichtert und Fehler bei der Google-Transkation erkannt werden. Die herkömmlichsten Fehler sind, wie in folgender Tabelle beschrieben, „No History“ (Kein Verlauf), „No Cookie“ (Kein Cookie), „Query Error“ (Abfragefehler) und „Opted Out“ (Abgemeldet):
 
