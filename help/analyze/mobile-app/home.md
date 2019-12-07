@@ -2,7 +2,7 @@
 title: Mobile Anwendung
 description: Produktdokumentation und Selbsthilfe für die mobile Adobe Analytics-App
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ Die mobile Adobe Analytics-App bietet jederzeit und überall Einblicke aus Adobe
 
 Die folgende Beta-Dokumentation ist für die Analytics Mobile App verfügbar:
 
-* Schnellstartanleitung für Executive-Benutzer: Dieses Handbuch soll leitenden Benutzern helfen, Scorecards in der mobilen Analytics-App zu lesen und zu interpretieren. Die App ermöglicht es leitenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+* [Kuratorleitfaden](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html): Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ihre leitenden Benutzer in der Analytics Mobile App helfen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind.
 
-* Kuratorleitfaden: Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ihre leitenden Benutzer in der Analytics Mobile App helfen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind.
+* [Kurzanleitung](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html)für leitende Benutzer: Dieses Handbuch soll leitenden Benutzern helfen, Scorecards in der mobilen Analytics-App zu lesen und zu interpretieren. Die App ermöglicht es leitenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
