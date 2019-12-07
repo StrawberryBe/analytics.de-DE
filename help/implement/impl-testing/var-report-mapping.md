@@ -1,12 +1,11 @@
 ---
 description: In der folgenden Tabelle ist aufgeführt, welchen Berichten die Variablen zugeordnet sind, mit denen Analytics-Berichte aufgefüllt werden.
 keywords: Analytics Implementation
-solution: Analytics
 title: Zuordnung von Variablen zu Berichten
 topic: Developer and implementation
 uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Zu jeder Variablen sind die Berichte mit den verwendeten Variablen aufgeführt.
 <table id="table_16443E46AC0E46509F8533D26EDE1BCC"> 
  <thead> 
   <tr> 
-   <th class="entry"> Überschreiben von </th> 
+   <th class="entry"> Variable </th> 
    <th class="entry"> Ausgefüllte Berichte </th> 
   </tr> 
  </thead>
