@@ -1,11 +1,10 @@
 ---
 description: Administratoren können einen Bericht mit spezifischen Metriken und einem spezifischen Datumsbereich konfigurieren und diesen dann in den Berichtsmenüs speichern, sodass jeder Nutzer darauf zugreifen kann.
-solution: Analytics
 title: Benutzerspezifisch
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
