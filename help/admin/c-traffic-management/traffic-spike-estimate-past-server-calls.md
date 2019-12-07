@@ -1,24 +1,23 @@
 ---
 description: Hiermit können Sie die durchschnittliche Anzahl der Server-Aufrufe pro Tag im letzten Jahr innerhalb eines bestimmten Zeitraums abrufen und die erwartete Steigerung des Server-Aufrufvolumens für das aktuelle Jahr anzeigen. Anschließend können Sie anhand dieses Multiplikationsfaktors eine Traffic-Spitze planen.
-solution: Analytics
-title: Geschätzte vergangene Server-Aufrufe und Traffic-Spitze planen
+title: Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Geschätzte vergangene Server-Aufrufe und Traffic-Spitze planen
+# Schätzen vergangener Server-Aufrufe und Planen einer Traffic-Spitze
 
 Hiermit können Sie die durchschnittliche Anzahl der Server-Aufrufe pro Tag im letzten Jahr innerhalb eines bestimmten Zeitraums abrufen und die erwartete Steigerung des Server-Aufrufvolumens für das aktuelle Jahr anzeigen. Anschließend können Sie anhand dieses Multiplikationsfaktors eine Traffic-Spitze planen.
 
-1. Log in to Analytics as an Admin and go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Traffic Management]**.
+1. Melden Sie sich bei Analytics als Administrator an und wechseln Sie zu **[!UICONTROL Admin]** &gt; **[!UICONTROL Traffic-Management]**.
 
-1. Klicken Sie auf **[!UICONTROL Erweitern]**, um die Report Suite-Liste zu erweitern, und klicken Sie auf **Report Suites auswählen], um mehrere Report Suites auszuwählen.[!UICONTROL **
+1. Klicken Sie auf **[!UICONTROL Erweitern]**, um die Report Suite-Liste zu erweitern, und klicken Sie auf **[!UICONTROL Report Suites auswählen]**, um mehrere Report Suites auszuwählen.
 
-1. Klicken Sie auf **[!UICONTROL Spitze planen]**.
-1. Under **[!UICONTROL Past Server Calls]**, select a start and end date for the selected report suites.
+1. Klicken Sie auf **[!UICONTROL Spitzen planen]**.
+1. Wählen Sie unter **[!UICONTROL Vergangene Server-Aufrufe]** für die ausgewählten Report Suites ein Start- und ein Enddatum aus.
 
    Die Werte für „Spitzenwert pro Tag“, „Spitzenwert Server-Aufrufe pro Tag“ und „Tagesdurchschnitt an Server-Aufrufen“ werden generiert.
 
@@ -26,9 +25,9 @@ Hiermit können Sie die durchschnittliche Anzahl der Server-Aufrufe pro Tag im l
 
    Die Werte der einzelnen Spalten werden für die einzelnen Reports Suites multipliziert.
 
-1. Under **[!UICONTROL Set Spike Parameters]**, submit the spike parameters for the selected report suites.
+1. Senden Sie unter **[!UICONTROL Spitzenparameter festlegen]** die Spitzenparameter für die ausgewählten Report Suites.
 
-   Jetzt wird der Spitzenwert für die einzelnen ausgewählten Report Suites geplant.
+   Die Spitze ist jetzt für jede ausgewählte Report Suite geplant.
 
 ![](assets/past_server_calls.png)
 
