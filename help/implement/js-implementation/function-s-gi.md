@@ -1,12 +1,11 @@
 ---
 description: Die s_gi()-Funktion wird dazu verwendet, Ihre Instanz von AppMeasurement nach Report Suite-ID zu erstellen oder zu suchen. Intern verfolgt AppMeasurement jede erstellt Instanz, und die s_gi()-Funktion gibt die vorhandene Instanz an eine Report Suite zurück, sofern eine Instanz vorhanden ist. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt und zurückgegeben.
 keywords: Analytics Implementation
-solution: Analytics
 title: Die s_gi()-Funktion
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
