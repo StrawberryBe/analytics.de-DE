@@ -1,12 +1,11 @@
 ---
 description: Fügen Sie Marketingkanalberichten Offlinedaten hinzu.
-solution: Analytics
 subtopic: Marketing channels
 title: Hinzufügen von Offline-Daten
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Fügen Sie Marketingkanalberichten Offlinedaten hinzu.
 
 Online-Kanäle ermöglichen die Datenkategorisierung zu Besuchern, die über Suchmaschinen, Internet-Werbung, verweisende Domänen oder E-Mail-Kampagnen zu Ihnen gelangen. Offline-Kanäle gelten für Besucher, die Ihre Site durch TV-Werbung oder Anzeigen in Zeitungen und Zeitschriften fanden.
 
-**Datenquellen in Marketingkanalberichte integrieren**
+**Integrieren von Datenquellen in Marketing-Kanal-Berichte**
 
 Wenn Sie [datenbezogene Daten](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) in Marketingkanalberichte integrieren möchten, sollten Sie Folgendes beachten:
 
@@ -33,11 +32,11 @@ Siehe „Mit Data Sources arbeiten“ im [Data Sources-Benutzerhandbuch](https:/
 
 **Hinzufügen von Offline-Daten**
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
-1. Klicken Sie auf der Seite „Datenquellen“ auf **[!UICONTROL Erstellen.]**
-1. Under **[!UICONTROL 1. Kategorie auswählen]** die Option **[!UICONTROL Offline-Kanaldaten aus]**.
-1. Under **[!UICONTROL 2. Typ auswählen]** die Option **[!UICONTROL Offline-Kanaldaten]**.
-1. Click **[!UICONTROL Activate.]**
+1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+1. Klicken Sie auf der Seite „Data Sources“ auf **[!UICONTROL Erstellen.]**
+1. Unter **[!UICONTROL 1. Kategorie auswählen]** die Option **[!UICONTROL Offline-Kanaldaten aus]**.
+1. Unter **[!UICONTROL 2. Typ auswählen]** die Option **[!UICONTROL Offline-Kanaldaten]**.
+1. Klicken Sie auf **[!UICONTROL Aktivieren.]**
 1. Ordnen Sie den Berichterstellungsmetriken die Offline-Metriken zu, indem Sie den Eingabeaufforderungen im Datenquellen-Aktivierungsassistenten folgen.
 1. Laden und bearbeiten Sie die Vorlagendatei in einem Texteditor wie z. B. Excel.
 
