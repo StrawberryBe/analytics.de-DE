@@ -1,16 +1,15 @@
 ---
 description: Bei Datenaggregations-Report Suites werden Daten aus mehreren untergeordneten Report Suites in einem Datensatz zusammengefasst.
-solution: Analytics
-title: Datenaggregations-Report-Suites und globale Report Suites
+title: Datenaggregations-Report Suites und globale Report Suites
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Datenaggregations-Report-Suites und globale Report Suites
+# Datenaggregations-Report Suites und globale Report Suites
 
 Bei Datenaggregations-Report Suites werden Daten aus mehreren untergeordneten Report Suites in einem Datensatz zusammengefasst. Sie bieten eine komfortable Möglichkeit, die Gesamtsummen wie Seitenansichten, Umsatz oder andere grundlegende Dimensionen anzuzeigen. Datenaggregationen werden häufig verwendet, weil sie keine zusätzliche Implementierung erfordern.
 
