@@ -1,12 +1,11 @@
 ---
 description: Die Datenextraktion ermöglicht die Auswahl der Parameter, die auf der X- und Y-Achse des Berichts angezeigt werden, sowie des Objekts, nach dem der Bericht gefiltert wird.
-solution: Analytics
 subtopic: Schedule
 title: Datenextraktion
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
