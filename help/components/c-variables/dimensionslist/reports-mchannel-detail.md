@@ -1,11 +1,10 @@
 ---
 description: Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektivsten sind. Mit diesem Bericht können Sie die Erfolgsmetriken und den Umsatz verschiedenen Kanaldetails gutschreiben, wobei der Kanal, in dem diese Details sich befinden, außer Acht gelassen wird. Sie können beispielsweise feststellen, wie ein bestimmter gebührenpflichtiger Keyword im Vergleich zu einer bestimmten E-Mail-Kampagne abschneidet. Im Gegensatz zum Marketingkanal-Übersichtsbericht ist dieser Bericht ähnlich wie ein standardmäßiger Marketing-Bericht aufgebaut.
-solution: Analytics
 title: Marketingkanal-Detail – (Erst- und Letztkontakt)
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektiv
 
 * Dieser Bericht wird mit Regeln ausgeführt, die in Marketingkanälen definiert sind. Weitere Informationen finden Sie unter [Kanäle und Regeln](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html).
 
-   In diesem Bericht wird insbesondere der Teil **[!UICONTROL Den Kanalwert setzen auf]in den einzelnen Regeln genutzt.** Wenn Sie diese Regeln oder die Einstellung des Kanalwerts ändern, so ändert sich auch die Berechnung der Daten in diesem Bericht. Weitere Informationen finden Sie in den [häufig gestellten Fragen](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) zu den Marketingkanal-Verarbeitungsregeln.
+   In diesem Bericht wird insbesondere der Teil **[!UICONTROL Den Kanalwert setzen auf]** in den einzelnen Regeln genutzt. Wenn Sie diese Regeln oder die Einstellung des Kanalwerts ändern, so ändert sich auch die Berechnung der Daten in diesem Bericht. Weitere Informationen finden Sie in den [häufig gestellten Fragen](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) zu den Marketingkanal-Verarbeitungsregeln.
 
 * Die Unterschiede zwischen *Erst-* und *Letztkontakt* werden unter [Informationen zu Marketingkanalberichten](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview.html) beschrieben.
 
@@ -33,12 +32,12 @@ Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektiv
 * In diesem Bericht können die folgenden Metriken verwendet werden (je nach Unternehmens- und Report Suite-Einstellungen):
 * 
 
-   * Click-throughs: the number of times the *`s.campaign`* variable is defined.
+   * Clickthroughs: Anzahl der Definitionen der Variable *`s.campaign`*.
    * Neue Interaktionen: die Anzahl der Besucher, die den neuen Erstkontaktkanal empfangen haben.
    * Alle E-Commerce-Standardmetriken: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb, Entnahmen aus Warenkorb.
    * Alle benutzerspezifischen Ereignisse: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
    * Besuche und Besucher: Die Verfügbarkeit hängt von der Organisation und der Report Suite ab. Weitere Details erfahren Sie von Ihrem Kundenbetreuer.
    Weitere Informationen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) in der [!UICONTROL Marketingkanal-Hilfe].
 
-> [!NOTE] Die [!UICONTROL Marketingkanal] -Berichte stehen in Version 13.5 nicht zur Verfügung.
+> [!NOTE] In Version 13.5 sind die [!UICONTROL Marketing-Kanal]-Berichte nicht verfügbar.
 
