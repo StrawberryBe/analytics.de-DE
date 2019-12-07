@@ -1,11 +1,10 @@
 ---
 description: Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Siteabschnitte können kategorienähnliche Produktgruppen enthalten, die Sie definieren. Sie können beispielsweise eine Seitengruppe „Kameras“ oder „Computer“ usw. einrichten. Daten für den Bericht „Konversionssitebereiche“ werden aus dem Bericht „Sitebereiche“ in der Traffic-Gruppe importiert, welcher seine Daten aus der Kanalvariablen im Trackingcode erhält. Mithilfe dieses Berichts können Sie die stärkste Auswirkung bestimmter Einheiten in unterschiedlichen Sitebereichen auf die Site-Statistik identifizieren.
-solution: Analytics
 title: Sitebereiche
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -41,18 +40,18 @@ Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die let
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Reports and Analytics </td> 
+   <td colname="col1"> Reports &amp; Analytics </td> 
    <td colname="col2"> <p> <span class="uicontrol">„Site-Content“</span> &gt; <span class="uicontrol">„Sitebereiche“</span> </p> <p>Abgesehen von Korrelationen kann dieser Bericht die folgenden Aufschlüsselungen verwenden: </p> 
     <ul id="ul_9CD009D89B134C53807332E3C88D3C44"> 
      <li id="li_566417EB074D425C9A1F4FB28AA7FAB4"> 
       <ul id="ul_3795C7AAE6DA4B7E96FCDC7F3211DFBB"> 
        <li id="li_50B295E961724CFB83D222DE9B4C7FF2">Alle klassifizierten Berichte, die auf diesem Bericht basieren </li> 
        <li id="li_697682892D8841BC8120BEC0E1AE9753"> <span class="wintitle"> Bericht zu Trackingcodes</span> </li> 
-       <li id="li_F6D893FCBA7A4B3EB04715833CA41022">  Berichte zu <span class="wintitle">Produkten</span> und <span class="wintitle">Kategorien</span> </li> 
+       <li id="li_F6D893FCBA7A4B3EB04715833CA41022"> Berichte zu <span class="wintitle">Produkten</span> und <span class="wintitle">Kategorien</span> </li> 
        <li id="li_9F379E61DB4F4753AE1FFFC8F9C17347"> <span class="wintitle"> Bericht zur Kundenloyalität</span> </li> 
        <li id="li_64A6A06F9265410ABB425DA4AF50C440">Alle Konversionsvariablen mit voller Subrelation </li> 
        <li id="li_907DDFCC35AB48EEA5B169B4A2598FB1"> <span class="wintitle"> Erst- und Letztkontakt von Marketingkanälen</span> </li> 
-       <li id="li_B08A0DCB40154152AF1033B7629A5B5A">  Bericht <span class="uicontrol">Target</span> &gt; <span class="uicontrol">Kampagnen</span> (wenn aktiviert) </li> 
+       <li id="li_B08A0DCB40154152AF1033B7629A5B5A"> Bericht <span class="uicontrol">Target</span> &gt; <span class="uicontrol">Kampagnen</span> (wenn aktiviert) </li> 
        <li id="li_6D4E65DD6E2B49C9A8C12181D23F185A">Zeit pro Besuch </li> 
        <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">Sitebereiche </li> 
        <li id="li_E1F46EED5CE2425D83200A2FCB686EE5">Entrypages </li> 
@@ -65,7 +64,7 @@ Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die let
     </ul> <p>Dieser Bericht kann Segmente verwenden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis  </td> 
+   <td colname="col1"> Ad Hoc Analysis </td> 
    <td colname="col2"> 
     <ul id="ul_DFF9BFC01FC1424B8905C2D2C0EFD156"> 
      <li id="li_65FDF1C165C84F729E0EE84FF671B5E4">Ad Hoc Analysis können den Bericht „Site-Abschnitte“ nach fast allen anderen Berichten der Marketing-Bericht-Oberfläche aufschlüsseln. </li> 
