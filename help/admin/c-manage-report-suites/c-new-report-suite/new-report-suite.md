@@ -1,11 +1,10 @@
 ---
 description: Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorlage auswählen oder eine Ihrer vorhandenen Report Suites als Modell verwenden.
-solution: Analytics
 title: Neue Report Suite – Einstellungen
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorla
 
 Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
-> [!NOTE] Die Dokumentation[ zur ](/help/components/vrs/c-workflow-vrs/vrs-create.md)Virtual Report Suite zeigt Ihnen, wie Virtual Report Suites erstellt werden.
+> [!NOTE] In der [Dokumentation zur Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) erfahren Sie, wie Sie Virtual Report Suites erstellen.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -32,7 +31,7 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Site-Titel</span> </td> 
-   <td colname="col2">Gibt die Report Suite in den <span class="wintitle">Admin Tools</span> an. Der Titel wird ebenfalls in der Dropdownliste <span class="wintitle">„Report Suite“</span> im Suite-Header verwendet. </td> 
+   <td colname="col2">Gibt die Report Suite in den <span class="wintitle">Admin Tools</span> an. Der Titel wird ebenfalls in der Dropdown-Liste <span class="wintitle">Report Suite</span> in der Kopfzeile der Suite verwendet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Zeitzone</span> </td> 
@@ -44,11 +43,11 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Standardseite</span> </td> 
-   <td colname="col2"> <p>(Optional) Bereinigt Vorkommnisse des Werts <span class="wintitle">Standardseite</span> von den dabei auftretenden URL-Adressen. Wenn der Bericht <span class="wintitle">Bevorzugte Seiten</span> URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Webseite mehrere URLs angegeben werden. </p> <p>For example, the URLs<span class="filepath"> https://mysite.com</span> and <span class="filepath"> https://mysite.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://mysite.com</span> in your reports. </p> <p>Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> und <span class="filepath">home.asp</span>. </p> <p>Wenn Sie die Bereinigung von Dateinamen deaktivieren möchten, geben Sie einen Wert für „Standardseite“ an, der in keiner URL-Adresse vorkommt. </p> </td> 
+   <td colname="col2"> <p>(Optional) Bereinigt Vorkommnisse des Werts <span class="wintitle">Standardseite</span> von den dabei auftretenden URL-Adressen. Wenn der Bericht <span class="wintitle">Bevorzugte Seiten</span> URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Webseite mehrere URLs angegeben werden. </p> <p>Beispielsweise sind die URLs <span class="filepath">https://meinsesite.com</span> und <span class="filepath">https://meinesite.com/index.html</span> normalerweise dieselben Seiten. Sie können irrelevante Dateinamen entfernen, sodass beide URL-Adressen in den Berichten als <span class="filepath">https://meinesite.com</span> angezeigt werden. </p> <p>Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> und <span class="filepath">home.asp</span>. </p> <p>Wenn Sie die Bereinigung von Dateinamen deaktivieren möchten, geben Sie einen Wert für „Standardseite“ an, der in keiner URL-Adresse vorkommt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschaltdatum </p> </td> 
-   <td colname="col2">Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>. </td> 
+   <td colname="col2">Informiert Adobe über das Datum, ab dem diese Report Suite aktiv sein soll. Wenn sich der Implementierungsplan ändert, müssen Sie mithilfe des Tools <span class="wintitle">Dauerhaft erwarteter Traffic</span> in <a href="/help/admin/c-traffic-management/traffic-management.md">Traffic-Management</a> eine aktualisierte Traffic-Schätzung eingeben. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Geschätzte Seitenansichten pro Tag</span> </td> 
@@ -56,11 +55,11 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Basiswährung</span> </td> 
-   <td colname="col2"> <p>Gibt die Standardwährung für die Speicherung sämtlicher Beträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. </p> <p> Die Analytics-Berichterstellung verwendet die <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
+   <td colname="col2"> <p>Gibt die Standardwährung für die Speicherung sämtlicher Beträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. </p> <p> Die Analytics-Berichterstellung verwendet die <span class="varname"> currencyCode</span>-JavaScript-Variable, um die Währung einer Transaktion zu bestimmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Multibytezeichenunterstützung deaktivieren </span> </td> 
-   <td colname="col2"> <p>Deaktiviert die Multibytezeichenunterstützung für die Report Suite. Wenn Sie die Multibytezeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen JavaScript-Variable <span class="varname"> charSet</span> . </p> <p>Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. </p> </td> 
+   <td colname="col2"> <p>Deaktiviert die Multibytezeichenunterstützung für die Report Suite. Wenn Sie die Multibytezeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen <span class="varname"> „charSet“</span> angeben. </p> <p>Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ad Hoc Analysis für diese Suite aktivieren</span> </td> 
