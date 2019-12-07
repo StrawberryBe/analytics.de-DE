@@ -1,13 +1,12 @@
 ---
 description: Überblick über Variablen und deren Einschränkungen
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: Variablen und Einschränkungen
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,7 +68,7 @@ Die folgende Tabelle enthält einen Überblick über [!DNL Analytics]-Variablen:
 | pageType | Dient nur zur Angabe einer Fehlerseite für den HTML-Fehler 404 (Seite nicht gefunden). Ihr einziger möglicher Wert lautet „errorPage“. Auf einer 404-Fehlerseite sollte die Variable *`pageName`* nicht gefüllt werden. |
 | pageURL | In seltenen Fällen kann es vorkommen, dass die URL der Seite nicht die ist, die in [!DNL Analytics]-Berichten aufgeführt wird. Um diesen Situationen Rechnung zu tragen, bietet [!DNL Analytics] die Variable *`pageURL`*, die die tatsächliche URL der Seite überschreibt. |
 | plugins | Listet bei Netscape- und Mozilla-basierten Browsern die im Browser installierten Plug-ins auf. |
-| „products“ | Dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis). Die Variable *`products`* sollte immer in Verbindung mit einem Erfolgsereignis festgelegt werden. Die Variable *`products`* kann optional auch numerische und Währungs-Ereignisse sowie [!UICONTROL Merchandising]-eVars nachverfolgen. |
+| products | Dient zur Nachverfolgung von Produkten und Produktkategorien (sowie von Kaufmenge und Kaufpreis). Die Variable *`products`* sollte immer in Verbindung mit einem Erfolgsereignis festgelegt werden. Die Variable *`products`* kann optional auch numerische und Währungs-Ereignisse sowie [!UICONTROL Merchandising]-eVars nachverfolgen. |
 | propN | Dient zum Erstellen von benutzerdefinierten Berichten im [!DNL Analytics][!UICONTROL -Datenverkehrmodul]. [!UICONTROL Eigenschaftsvariablen] können als Zähler verwendet werden (um zu zählen, wie oft eine Seitenansicht gesendet wird), in Pfadsetzungsberichten oder in Korrelationsberichten. |
 | purchaseID | Soll verhindern, dass eine Bestellung in [!DNL Analytics] mehrmals gezählt wird. Wann immer das Kaufereignis auf Ihrer Site verwendet wird, sollten Sie die Variable *`purchaseID`* verwenden. |
 | referrer | Speichert verlorene Referrer-Informationen. |
