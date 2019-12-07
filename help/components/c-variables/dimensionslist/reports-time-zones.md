@@ -1,11 +1,10 @@
 ---
 description: Zeigt die Zeitzonen an, aus denen die Besucher kommen. Das Diagramm zeigt eine Weltkarte. Wenn Sie Besucher aus einer bestimmten Zeitzone hatten, erscheint eine farbige Spalte in der Zeitzone, die die Anzahl der Besucher im jeweiligen Zeitraum widerspiegelt. Alle Zeitzonen werden gemäß dem internationalen Standard in GMT (Greenwich Mean Time) angezeigt.
-solution: Analytics
 title: Zeitzonen
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
