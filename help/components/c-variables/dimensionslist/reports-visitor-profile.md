@@ -1,11 +1,10 @@
 ---
 description: Mit diesen Berichten können Sie Kaufmuster von Kunden aus verschiedenen Profilkategorien (z. B. Ländern, Bundesländern, Postleitzahlen oder Domänen) ersehen.
-solution: Analytics
 title: Besucherprofil
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Mit diesen Berichten können Sie Kaufmuster von Kunden aus verschiedenen Profilk
  <tbody> 
   <tr> 
    <td colname="col1"> Sprachen </td> 
-   <td colname="col2"> <p> Zeigt die von Ihren Besuchern bevorzugten Sprachen an, erfasst die Standardsprache des Browsers und zeigt die Sprachen an, die Besucher auf Ihrer Site am häufigsten verwenden. </p> </td> 
+   <td colname="col2"> <p> Zeigt die bevorzugte Sprache Ihrer Besucher an, zeichnet die Standardsprache des Browsers auf und zeigt an, welche Sprachen Besucher am häufigsten auf Ihrer Site verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domänen </td> 
