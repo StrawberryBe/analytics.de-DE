@@ -1,11 +1,10 @@
 ---
 description: Zeigt die Links auf der Seite zu Websites außerhalb Ihrer Website an, auf die die Benutzer am häufigsten klicken. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Websites. Es sind jedoch auch andere Websites möglich, auf die Sie einen externen Link gelegt haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
-solution: Analytics
 title: Exitlinks
 topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Damit diese Seite ordnungsgemäß mit Daten gefüllt werden kann, müssen bestim
 * Wie bei allen Linktracking-Treffern für benutzerspezifische Links wird die Variable [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) aus der Bildanforderung entfernt, damit keine irrelevanten Seitenansichten gezählt werden.
 * Sie können diesen Bericht als Trend- und als Rangansicht anzeigen.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
-* Sie können [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
+* Sie können [Aufschlüsselungen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) in den Admin Tools mit jeder beliebigen Variable erstellen.
 * [Instanzen](/help/components/c-variables/c-metrics/metrics-instance.md) sind die einzigen Metriken, die standardmäßig für diesen Bericht zur Verfügung stehen, wobei ermittelt wird, wie oft der Exitlink ausgelöst wird.
 * Für diesen Bericht können Besucher pro Tag, Woche, Monat und Quartal aktiviert werden. Die Aktivierung ist jedoch nur durch einen Adobe-Support-Mitarbeiter möglich und ist kostenpflichtig. Wenn Unique Visitors für Variablen zu Linktracking benutzerspezifischer Links aktiviert werden, steigt die Latenz der Report Suite erheblich an.
 
