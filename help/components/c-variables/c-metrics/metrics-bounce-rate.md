@@ -1,11 +1,10 @@
 ---
 description: Zeigt den Prozentsatz der Besuche mit einem einzelnen Hit an.
-solution: Analytics
 title: Absprungrate
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,6 +19,6 @@ Die Absprungrate verwendet die Metrik [Absprünge](/help/components/c-variables/
 
 Die Absprungrate beinhaltet keine Besuche, bei denen auf einer einzigen Seite mehrere Aktionen aufgetreten sind. Beispiel: Ein Besuch mit angeschautem Video auf einer Einzelseite gilt als Einzelzugriff, nicht als Absprung.
 
-> [!NOTE] Vorhandene Implementierungen können manchmal eine berechnete Metrik enthalten, die von der Analytics-Standardmetrik abweicht. Prüfen Sie die Definition der berechneten Metrik, um sicherzustellen, dass es keine Abweichungen gibt.
+> [!NOTE] Bestehende Implementierungen können manchmal eine berechnete Metrik enthalten, die von der Analytics-Standard-Metrik abweicht. Prüfen Sie die Definition der berechneten Metrik, um sicherzustellen, dass es keine Abweichungen gibt.
 
 Weitere Informationen finden Sie in diesem [Knowledge Base-Artikel](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access).
