@@ -1,11 +1,10 @@
 ---
 description: Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen Konversionsereignisse auf Ihrer Site auswirken. Mit diesem Bericht können Sie feststellen, welche speziellen Kampagnen bei verschiedenen Erfolgsereignissen bessere Ergebnisse erzielen, oder wie Kampagnen die Aktionen auf Ihrer Site unterstützen oder behindern. Sie können z. B. ermitteln, welche Kampagnen den meisten Umsatz generieren.
-solution: Analytics
 title: Trackingcodes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen K
 
 * Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen [„s.campaign“](/help/implement/js-implementation/page-variables/page-variables.md) auf.
 * Die Variable, auf der dieser Bericht basiert, ist eine [Konversionsvariable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Das heißt, sie kann über die Seitenansicht hinaus bestehen und innerhalb des angegebenen Ablaufzeitraums Metriken zugeordnet werden.
-* Umsatz ist die Standardmetrik des Berichts. Sie können diesen Standardwert im [!UICONTROL Report Suite Manager] in den [!UICONTROL Admin Tools] ändern. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
+* Umsatz ist die Standardmetrik des Berichts. Sie können diesen Standardwert im [!UICONTROL Report Suite Manager] in den [!UICONTROL Admin Tools] ändern. (**[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Individuelle Report Suite-Einstellungen]** &gt; **[!UICONTROL Standardmetriken]**.)
 
 * Der Bericht kann sowohl als Trendansicht als auch als Rangansicht angezeigt werden.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
@@ -37,14 +36,14 @@ Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen K
 
 * In diesem Bericht können die folgenden Metriken verwendet werden (je nach Unternehmens- und Report Suite-Einstellungen):
 
-   * Click-throughs: the number of times the *`s.campaign`* variable is defined
+   * Clickthroughs: Anzahl der Definitionen der Variable *`s.campaign`*
    * Alle E-Commerce-Standardmetriken: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb, Entnahmen aus Warenkorb.
    * Alle benutzerspezifischen Ereignisse: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
    * Besuche und Besucher: Die Verfügbarkeit hängt von der Organisation und der Report Suite ab. Nähere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
 **Reports &amp; Analytics – Eigenschaften**
 
-* Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
+* Klicken Sie auf **[!UICONTROL Konversion]** &gt; **[!UICONTROL Kampagnen]** &gt; **[!UICONTROL Trackingcode]**, um zu diesem Bericht zu gelangen (sofern das Menü nicht angepasst wurde).
 
 * Dieser Bericht kann auch nach allen [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html) aufgeschlüsselt werden.
 * Verfügbare Metriken: Seitenansichten, Besuche und Unique Visitor.
