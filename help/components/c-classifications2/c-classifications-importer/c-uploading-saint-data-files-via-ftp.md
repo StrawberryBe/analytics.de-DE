@@ -1,12 +1,11 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
-solution: Analytics
 subtopic: Classifications
 title: FTP-Import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,9 +33,9 @@ Jeder neue Schlüsselwert, den Sie hochladen, zählt als eindeutige Classificati
 
 Wenn Sie die Zahl eindeutiger Classifications für den Monat überschritten haben, werden Ihnen für die über dem Grenzwert liegenden Classifications in den Berichten nicht die zugehörigen Classification-Daten angezeigt. Sie können sich diese Classifications entweder in Data Warehouse oder der Ad-hoc-Analyse anzeigen lassen.
 
-> [!NOTE] Die für die Verarbeitung einer Classification-Datendatei benötigte Zeit hängt von der Größe der Datei und der aktuellen Anzahl der Dateien ab, die bereits von den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
+> [!NOTE] Die erforderliche Verarbeitungszeit für eine Klassifizierungsdatendatei hängt von der Dateigröße und der aktuellen Anzahl der Dateien ab, die zu dem Zeitpunkt auf den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
 
-Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. Weitere Informationen finden Sie unter [Erstellen eines FTP-Kontos](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importieren von Classifications über FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -50,14 +49,14 @@ In diesen Schritten wird beschrieben, wie Sie Classifications mithilfe eines FTP
 
 Weitere Informationen zum Erstellen eines FTP-Kontos finden Sie unter [Erstellen Sie ein FTP-Konto](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
-1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Klicken Sie auf **[!UICONTROL Datei importieren]** und dann auf **[!UICONTROL FTP-Import]**.
+1. Klicken Sie neben dem FTP-Konto, das Sie verwenden möchten, auf **[!UICONTROL Ansicht]**.
 1. Verwenden Sie die FTP-Zugriffsinformationen (Host, Benutzername, Kennwort), um mit einem FTP-Client Ihrer Wahl auf den FTP-Server zuzugreifen.
-1. Upload the data file ( [!DNL .tab] or [!DNL .txt]) to the FTP server.
+1. Laden Sie die Datendatei ([!DNL .tab] oder [!DNL .txt]) auf den FTP-Server hoch.
 1. Laden Sie nach dem Hochladen der Datendatei eine FIN-Datei hoch, die anzeigt, dass die Datei zur Verarbeitung bereit ist.
 
-   The FIN file is an empty file that has the same name as your data file, with a [!DNL .fin] filename extension. For example, if your data file is [!DNL classdata1.tab], the FIN filename is [!DNL classdata1.fin].
+   Die FIN-Datei ist eine leere Datei mit demselben Namen wie Ihre Datendatei, nur mit der Dateierweiterung [!DNL .fin]. Wenn Ihre Datendatei also [!DNL classdata1.tab] heißt, lautet der Name der FIN-Datei [!DNL classdata1.fin].
 
 Adobe ruft in regelmäßigen Abständen die hochgeladenen Datendateien mit zugewiesener FIN-Datei ab. Diese werden dann von Adobe in die Report Suites und Datensätze importiert, die bei der Konfiguration des FTP-Kontos angegeben wurden.
 
@@ -73,9 +72,9 @@ t_create_an_ftp_account.xml
 
 Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/).
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
-1. Klicken Sie auf der Registerkarte **Datei importieren** auf **[!UICONTROL Neu hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Klicken Sie auf **[!UICONTROL Datei importieren]** und dann auf **[!UICONTROL FTP-Import]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Datei importieren]** auf **[!UICONTROL Neu hinzufügen]**.
 1. Geben Sie die Details zum FTP-Konto an:
 
    | Element | Beschreibung |
