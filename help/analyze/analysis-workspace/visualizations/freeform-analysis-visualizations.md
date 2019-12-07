@@ -1,12 +1,11 @@
 ---
 description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Visualisierungsübersicht
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 
-[Visualisierungstypen im Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Visualisierungstypen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## Visualisierungsbereich {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Klicken Sie im seitlichen Bedienfeld auf **[!UICONTROL Visualisierungen], um den Visualisierungsbereich zu öffnen.**
+Klicken Sie im seitlichen Bedienfeld auf **[!UICONTROL Visualisierungen]**, um den Visualisierungsbereich zu öffnen.
 
 ![Schritt Ergebnis](assets/visualizations.png)
 
 Wenn Sie Adobe Analytics verwenden, werden Sie mit den meisten Visualisierungsarten (z. B. Flächen-, Balken-, Donut- und Liniendiagramme) bereits vertraut sein. Analysis Workspace verfügt jedoch über Visualisierungseinstellungen sowie viele neue und einzigartige Visualisierungsarten mit interaktiven Funktionen.
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## Visualisierungseinstellungen {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie eine Visualisierung in das [!UICONTROL Freiformfeld], und klicken Sie dann auf das Zahnrad-Symbol [!UICONTROL Visualisierungseinstellungen].
+Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie eine Visualisierung in das [!UICONTROL Freiformfeld] und klicken Sie dann auf das Zahnrad-Symbol [!UICONTROL Visualisierungseinstellungen].
 
 >[!IMPORTANT]
 >
->Welche Visualisierungseinstellungen sichtbar sind, hängt von der Visualisierung ab. Nicht alle Einstellungen gelten für alle Visualisierungen. Zudem treten einige erweiterte Einstellungen **nur** bei bestimmten Visualisierungen in Erscheinung. Dies ist z. B. bei den [Histogrammeinstellungen](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477) der Fall.
+>Welche Visualisierungseinstellungen sichtbar sind, ist von der jeweiligen Visualisierung abhängig. Nicht alle Einstellungen gelten für alle Visualisierungen. Zudem treten einige erweiterte Einstellungen **nur** bei bestimmten Visualisierungen in Erscheinung. Dies ist z. B. bei den [Histogrammeinstellungen](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477) der Fall.
 
 ![](assets/visualization_settings.png)
 
@@ -69,22 +68,22 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zwei Achsen anzeigen </p> </td> 
-   <td colname="col2"> <p>Gilt nur, wenn Sie zwei Metriken haben - Sie können eine Y-Achse links (für eine Metrik) und rechts (für die andere Metrik) haben. </p> </td> 
+   <td colname="col2"> <p>Gilt nur, wenn Sie zwei Metriken haben – möglich sind eine Y-Achse links (für die eine Metrik) und eine rechts (für die andere). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anomalien anzeigen </p> </td> 
-   <td colname="col2"> <p>Reichert Liniendiagramme und Freiform-Tabellen so an, dass sie auch Datenanomalien anzeigen. </p> </td> 
+   <td colname="col2"> <p>Reichert Liniendiagramme und Freiformtabellen so an, dass sie auch Datenanomalien anzeigen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Symbol „Visualisierung erstellen“{#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Wenn Sie nicht sicher sind, welche Visualisierung Sie auswählen sollen, klicken Sie in einer beliebigen Tabellenzeile auf das Symbol **[!UICONTROL Visualisierung erstellen].** Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
+Wenn Sie nicht sicher sind, welche Visualisierung Sie auswählen sollen, klicken Sie in einer beliebigen Tabellenzeile auf das Symbol **[!UICONTROL Visualisierung erstellen]**. Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## Rechtsklick auf das Visualierungs-/Feldmenü {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 Auf Einstellungen, die sich auf eine Grafik beziehen, können Sie per Rechtsklick neben der Überschrift einer Visualisierung oder eines Felds zugreifen. Einige oder alle der folgenden Einstellungen sind dann verfügbar:
 
@@ -99,12 +98,12 @@ Auf Einstellungen, die sich auf eine Grafik beziehen, können Sie per Rechtsklic
 | Alle Darstellungen in Leiste ausblenden | Alle Visualisierungen in dieser Projektleiste werden ausgeblendet. |
 | Alle Leisten einblenden | Alle Projektleisten werden eingeblendet. |
 | Alle Visualisierungen in Leiste einblenden | Alle Visualisierungen in dieser Projektleiste werden eingeblendet. |
-| Beschreibung bearbeiten | Hiermit können Sie einen Text zur Beschreibung der Visualisierung oder des Bedienfeldes hinzufügen (oder bearbeiten). Diese Beschreibung wird in Projekt &gt; Projektinfo und Einstellungen angezeigt . |
+| Beschreibung bearbeiten | Hiermit können Sie einen Text zur Beschreibung der Visualisierung oder des Bedienfeldes hinzufügen (oder bearbeiten). Diese Beschreibung wird in „Projekt“ &gt; „Projektinfo und Einstellungen“ angezeigt. |
 | Bereichslink abrufen | Sie können Personen zu einem bestimmten Bereich innerhalb eines Projekts leiten. |
 | Visualisierungslink anfordern | Hiermit können Sie diesen Link kopieren und freigeben, um andere Personen direkt zu dieser Visualisierung zu leiten. Benutzer müssen sich hierzu anmelden. |
 | Neu starten | (Funktioniert bei Fluss, Venn, Histogramm) Löscht die Konfiguration für die aktuelle Visualisierung und öffnet ein neues Bedienfeld, in dem Sie diese neu konfigurieren können. |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## Bearbeiten von Legendenbeschriftungen {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 Sie können Seriennamen in Visualisierungslegenden (Fallout, Bereich, Bereich gestapelt, Balken, Balken gestapelt, Ringdiagramm, Histogramm, Horizontalbalken, Horizontalbalken gestapelt, Linie, Streuung, Venn) umbenennen, um die Visualisierungen zugänglicher zu gestalten.
 
@@ -118,6 +117,6 @@ Wenn Sie beispielsweise eine Legendenbeschriftung für ein Liniendiagramm bearbe
    ![](assets/edit-label.png)
 
 1. Geben Sie den neuen Beschriftungstext ein.
-1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste].**
+1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
 
 Hier finden Sie einen [Link zu einem Video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) zu diesem Thema.
