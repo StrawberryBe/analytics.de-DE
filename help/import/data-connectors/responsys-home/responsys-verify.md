@@ -1,10 +1,9 @@
 ---
 description: Nach der Bereitstellung sollten Sie überprüfen, ob die Integration die Daten mithilfe der folgenden Prüfungen erfolgreich übertragen hat.
-solution: Analytics
 title: Überprüfen der Integration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,4 +24,4 @@ Nach der Bereitstellung sollten Sie überprüfen, ob die Integration die Daten m
 
       ![](assets/reporting.png)
 
-   1. Suchen Sie nach Berichten zu Antworten.  Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+   1. Suchen Sie nach Berichten zu Antworten. Diese Daten sollten innerhalb von 24-48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
