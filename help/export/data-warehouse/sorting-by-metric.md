@@ -1,10 +1,9 @@
 ---
 description: Bietet nach Rang geordnet Aufschlüsselungsberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
-solution: Analytics
 title: Nach Metrik sortieren
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -30,7 +29,7 @@ In der Spalte „Berichtslayout“ sehen Sie, wie „Sortieren von Metriken“ m
 |---|---|---|---|---|---|
 | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
 | Ja | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
-| Ja | Ja | Nein | Nein | Nicht zutreffend | 1 |
+| Ja | Ja | Nein | Nein | nicht angegeben | 1 |
 | Ja | Ja | Nein | Ja oder Nein | Nein | 1 |
 | Ja | Ja | Ja | Nein | Nein | 2 |
 | Ja | Ja | Nein | Ja | Ja | 3 |
