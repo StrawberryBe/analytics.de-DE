@@ -1,12 +1,11 @@
 ---
 description: HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, als bereits von AppMeasurement gesammelt werden. In diesem Abschnitt werden die bei der Datenerfassung eingesetzten Header beschrieben.
 keywords: Analytics Implementation
-solution: Analytics
 title: Datenerfassungs-HTTP-Header
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -102,7 +101,7 @@ HTTP-Anforderungs- und Antwortheader dienen zur Erfassung zusätzlicher Daten, a
 | P3P | Gibt die standardmäßige oder benutzerdefinierte P3P-Richtlinie für die Datenerfassungsanforderung an. |
 | Status | Enthält den Status „SUCCESS“ oder „FAILURE“ für Anforderungen ohne Inhalte. Wird nur verwendet, wenn laut der Anforderung keine Inhalte zurückgegeben werden sollen. |
 | Grund | Enthält den Grund für den Status „Failure“ bei einer Anforderung ohne Inhalte. Wird nur verwendet, wenn laut der Anforderung keine Inhalte zurückgegeben werden sollen. |
-| Stelle | Leitet den Client, von dem die Datenerfassungsanforderung stammt, zu einer anderen URL um. Ein Beispiel dazu wäre unser Cookie-Handshake, mit dem festgestellt werden soll, ob das Besucher-ID-Cookie gesetzt werden kann. |
+| Standort | Leitet den Client, von dem die Datenerfassungsanforderung stammt, zu einer anderen URL um. Ein Beispiel dazu wäre unser Cookie-Handshake, mit dem festgestellt werden soll, ob das Besucher-ID-Cookie gesetzt werden kann. |
 | Content-Type | Gibt den Typ von Inhalt an, der an den Client zurückgesendet wird (GIF, Text, Javascript usw.). |
 | Content-Length | Gibt die Größe des Inhalts an, der an den Client zurück gesendet wird. |
 
