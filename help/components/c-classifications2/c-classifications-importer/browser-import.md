@@ -1,12 +1,11 @@
 ---
 description: Sie können Classification-Daten über den Browser importieren (hochladen). Diese Methode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
-solution: Analytics
 subtopic: Classifications
 title: Browser-Import
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. Konfigurieren Sie die **[!UICONTROL Browser-Importfelder]** .
-1. Click **[!UICONTROL Import File]**.
-1.  Behalten Sie das Statusfenster für Benachrichtigungen zum Stand der Verarbeitung im Auge.
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Klicken Sie auf **[!UICONTROL Datei importieren]**.
+1. Konfigurieren Sie die Felder **[!UICONTROL Browser-Import]**.
+1. Klicken Sie auf **[!UICONTROL Datei importieren]**.
+1. Behalten Sie das Statusfenster für Benachrichtigungen zum Stand der Verarbeitung im Auge.
+1. (Bedingt) Wenn Sie die Option **[!UICONTROL Klassifizierungsdatei nach dem Hochladen automatisch herunterladen]** ausgewählt haben, geben Sie an, wo die entsprechende Datei nach Abschluss der Bearbeitung gespeichert werden soll.
 >Bei einem erfolgreichen Import werden die entsprechenden Änderungen automatisch in einem Export angezeigt. Datenänderungen in Berichten können hingegen vier Stunden bei Verwendung der Browser-Methode und bis zu 24 Stunden bei einem FTP-Import in Anspruch nehmen.
 
