@@ -1,11 +1,10 @@
 ---
 description: Die Metrikenreihe zum Besucherbeitrag bietet Ihnen einen Einblick in den Beitrag zu Marketingkanälen, Kampagnen, Umsatz usw. über mehrere Besuchersitzungen hinweg. Beispielsweise können Einkauf- und Umsatzgutschriften zurück zu anderen Marketing-Berührungspunkten verfolgt werden, die vor dem Besuch stattfanden, bei dem eine Bestellung aufgegeben wurde. Ad Hoc Analysis erfassen den Besucherbeitrag über mehrere Besuche hinweg.
-solution: Analytics
 title: Besucherbeitrag – Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
