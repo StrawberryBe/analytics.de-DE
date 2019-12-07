@@ -1,11 +1,10 @@
 ---
 description: Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
-solution: Analytics
 title: Suchmethoden
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; Einstellungen **** bearbeiten &gt; **[!UICONTROL Konversion]** &gt; **** Suchmethoden.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Suchmethoden]**.
 
 ## Suchmethoden – Beschreibungen {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -32,7 +31,7 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
   </tr> 
   <tr> 
    <td colname="col1"> Zuordnung </td> 
-   <td colname="col2"> Gibt an, wie eine Gutschrift für einen Verweis angewendet werden soll. Die unterstützten Optionen für die Zuordnung umfassen: <p> <span class="uicontrol"> Zuletzt verwendet (Letzter):</span> Alle Gutschriften gehen an die erste verweisende Stelle (Standard). </p> <p> <span class="uicontrol"> Ausgangswert:</span> Alle Gutschriften gehen an den ersten Referrer. </p> <p> <span class="uicontrol"> Linear:</span> Gutschriften werden gleichberechtigt an alle Referrer verteilt. </p> </td> 
+   <td colname="col2"> Gibt an, wie eine Gutschrift für einen Verweis angewendet werden soll. Die unterstützten Optionen für die Zuordnung umfassen: <p> <span class="uicontrol"> Zuletzt verwendet (Letzter):</span> Alle Gutschriften gehen an die letzte verweisende Stelle (Standard). </p> <p> <span class="uicontrol"> Ausgangswert:</span> Alle Gutschriften gehen an die erste verweisende Stelle. </p> <p> <span class="uicontrol"> Linear:</span> Gutschriften werden gleichberechtigt an alle verweisenden Stellen verteilt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Läuft ab nach </td> 
@@ -53,5 +52,5 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
  </tbody> 
 </table>
 
-> [!NOTE] Alle Suchmethoden laufen mit Ende des Besuchs ab. Wenn Sie für „Läuft ab nach“ ein anderes Ereignis auswählen (z. B. „Warenkorb zur Kasse“), läuft die Suchmethode ab, wenn dieses Ereignis während des Besuchs erfolgt. Wenn „Warenkorb zur Kasse“ nicht während des Besuchs erfolgt, läuft die Suchmethode trotzdem mit dem Besuch ab.
+> [!NOTE] Alle Suchmethoden laufen mit dem Ende des Besuchs ab. Wenn Sie für „Läuft ab nach“ ein anderes Ereignis auswählen (z. B. „Warenkorb zur Kasse“), läuft die Suchmethode ab, wenn dieses Ereignis während des Besuchs erfolgt. Wenn „Warenkorb zur Kasse“ nicht während des Besuchs erfolgt, läuft die Suchmethode trotzdem mit dem Besuch ab.
 
