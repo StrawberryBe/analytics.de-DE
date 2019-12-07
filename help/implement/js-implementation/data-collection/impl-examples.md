@@ -1,12 +1,11 @@
 ---
 description: Unter Verwendung von „adobe.com“ zu Beispielzwecken beziehen sich die hier beschriebenen Implementierungen auf das gleiche „visid“-Cookie.
 keywords: Analytics Implementation
-solution: Analytics
 title: Implementierungsbeispiel
 topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Unter Verwendung von „adobe.com“ zu Beispielzwecken beziehen sich die hier beschriebenen Implementierungen auf das gleiche „visid“-Cookie.
 
-**Javascript:**
+**JavaScript:**
 
 ```js
 var s_account="omniturecom" 
@@ -39,7 +38,7 @@ s.trackingServer="omniture.112.2o7.net";
 
 Und, wenn Erstanbieter-Cookies eingesetzt werden:
 
-**Javascript:**
+**JavaScript:**
 
 ```js
 var s_account="omniturecom" 
