@@ -1,11 +1,10 @@
 ---
 description: Wenn Sie Einstellungen aus einer vorhandenen Report Suite kopiert haben, werden Sie in einer Systemmeldung auf die Einstellungen hingewiesen, die nicht in die neue Report Suite kopiert wurden.
-solution: Analytics
 title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hierarchie </p> </td> 
-   <td colname="col2"> <p>Wenden Sie sich an die Adobe-Kundenunterstützung. </p> </td> 
+   <td colname="col2"> <p>Wenden Sie sich an die Adobe-Kundenunterstützung </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Menüanpassungen </p> </td> 
@@ -55,11 +54,11 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
     <ol id="ol_903A5FEF5B9847929BBB514A481F6E22"> 
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span>. Wählen Sie dann eine Report Suite aus. </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B">Klicken Sie auf <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Variablen</span>. </li> 
-     <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">Aktivieren Sie das Kontrollkästchen und wählen Sie die Einstellung unter <span class="uicontrol">Pfadsetzungsbericht</span> aus. </li> 
+     <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">Aktivieren Sie das Kontrollkästchen und wählen Sie die Einstellung für <span class="uicontrol">Pfadsetzungsberichte</span> aus. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Individuelle Ereignisse-Manager </p> </td> 
+   <td colname="col1"> <p>Unique Events Manager </p> </td> 
    <td colname="col2"> 
     <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
      <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span>. Wählen Sie dann eine Report Suite aus. </li> 
