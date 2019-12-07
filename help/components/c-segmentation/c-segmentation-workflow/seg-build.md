@@ -1,11 +1,10 @@
 ---
 description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen von metrischen Dimensionen, Segmenten und Ereignissen für das Segmentieren von Besuchern auf der Grundlage von Behälterhierarchielogik, Regeln und Operatoren. Mit diesem integrierten Entwicklungstool können Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
-solution: Analytics
 title: Segmente erstellen
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
