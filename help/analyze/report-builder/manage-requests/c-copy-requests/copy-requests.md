@@ -1,11 +1,10 @@
 ---
 description: Sie können Zellen, die mehr als einer Anforderung zugeordnet sind, kopieren und den Inhalt in einen leeren, ausgewählten Bereich des Arbeitsblatts einfügen.
-solution: Analytics
 title: Anforderungen kopieren – Übersicht
 topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
