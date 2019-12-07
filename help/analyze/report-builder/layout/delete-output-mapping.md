@@ -1,11 +1,10 @@
 ---
 description: Wenn Sie eine Arbeitsmappe bearbeiten und Platz für neue Anforderungen schaffen möchten, müssen Sie möglicherweise vorhandene Anforderungen löschen.
-solution: Analytics
 title: Ausgabezuordnung löschen
 topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
