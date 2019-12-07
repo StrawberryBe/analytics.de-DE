@@ -1,12 +1,11 @@
 ---
 description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
-solution: Analytics
 subtopic: Classifications
 title: Klassifizierungsvorlage
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,15 +24,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|
 | Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage genutzt werden soll. Report Suite und Datensatz müssen übereinstimmen. |
 | Datensatz, der klassifiziert werden soll | Wählen Sie den Typ der Daten für die Datendatei aus. Das Menü enthält alle Berichte aus Ihren Report Suites, die für Classifications konfiguriert sind. |
-| Nummerisch exportieren 2 | Mit dem Importeur können Sie Nummerisch-2-Classifications in das System importieren. Nummerisch-2-Classifications sind für Variablen sinnvoll, die sich im Laufe der Zeit für verschiedene Artikel bzw. Einheiten ändern, z. B. Kosten und Budgetwerte im [!UICONTROL Marketingkanal]bericht. Unter [Numerisch-2-Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) für Informationen zum Hochladen von Daten mit Numerisch-2-Classifications. |
+| Nummerisch exportieren 2 | Mit dem Importeur können Sie Nummerisch-2-Classifications in das System importieren. Nummerisch-2-Classifications sind für Variablen sinnvoll, die sich im Laufe der Zeit für verschiedene Artikel bzw. Einheiten ändern, z. B. Kosten und Budgetwerte im [!UICONTROL Marketingkanal]bericht. Unter [„Numerisch 2“-Klassifizierungen](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) finden Sie Informationen zum Hochladen von Daten mithilfe von „Numerisch 2“-Klassifizierungen. |
 | Kodierung | Wählen Sie die Zeichenkodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet. |
 | Download | Lädt die Vorlagendatei herunter. |
 
 Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschriften) eines spezifischen Datensatzes ohne die jeder Classification zugeordneten Daten.
 
-> [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
+> [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Klassifizierungsdaten auf eine einzige Report Suite.
 
-Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu Classification-Datendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu Klassifizierungsdatendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 ## Herunterladen einer Classification-Datenvorlage (optional) {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -41,10 +40,10 @@ Die Vorlage liefert das Dateiformat, das für Classifications genutzt werden mus
 
 > [!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Daten auf eine einzige Report Suite.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Legen Sie unter der Registerkarte **Vorlage herunterladen** die Konfiguration für die [-Datenvorlage fest](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
+1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Legen Sie unter der Registerkarte **[!UICONTROL Vorlage herunterladen]** die Konfiguration für die [-Datenvorlage fest](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 1. Speichern Sie die Vorlagendatei auf Ihrem lokalen System.
 
-   The template file is a tab-delimited data file ( [!DNL .tab] filename extension) that most spreadsheet applications support.
+   Die Vorlagendatei ist eine tabulatorgetrennte Datendatei (Dateierweiterung [!DNL .tab]), die von den meisten Tabellenkalkulationsprogrammen unterstützt wird.
 
