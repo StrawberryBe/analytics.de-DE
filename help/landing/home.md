@@ -2,7 +2,7 @@
 title: Technische Handbücher für Adobe Analytics
 description: Benutzerhandbücher und Ressourcen für Analytics
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
