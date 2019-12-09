@@ -5,7 +5,7 @@ title: Verwalten von Benutzern und Produkten
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
 
@@ -30,7 +30,7 @@ Verwalten Sie Analytics-Benutzer, -Gruppen und -Produkte in der Admin Console.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics Benutzer-IDs in die Admin Console migrieren </p> </td> 
-   <td colname="col2"> <p> Adobe unterstützt Analytics-Administratoren bei der Migration von Benutzer-IDs in die Admin Console. Dieser Ansatz erfolgt in Wellen. Wenn Sie mit dem Migrieren Ihrer Benutzer an der Reihe sind, benachrichtigt Adobe die Analytics-Administratoren per E-Mail mit entsprechenden Anweisungen. Zu diesem Zeitpunkt ist ein <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">Migrationstool</a> in Analytics User Management verfügbar, um diese Aufgabe zu vereinfachen. </p> <p>Wichtig: Am Tag der Benutzermigration werden Ihre vorherigen Berechtigungsgruppen automatisch in die Admin Console kopiert. Sie können dann in den Analytics Admin Tools keine Benutzer mehr einladen oder neue Gruppen erstellen. Lesen Sie die häufig gestellten Fragen und die Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics-Benutzermigration zur Admin Console</a>, um Informationen zur Vorbereitung der Migration und über betroffene administrative Funktionen zu erhalten. </p> </td> 
+   <td colname="col2"> <p> Adobe unterstützt Analytics-Administratoren bei der Migration von Benutzer-IDs in die Admin Console. Dieser Ansatz erfolgt in Wellen. Wenn Sie mit dem Migrieren Ihrer Benutzer an der Reihe sind, benachrichtigt Adobe die Analytics-Administratoren per E-Mail mit entsprechenden Anweisungen. Zu diesem Zeitpunkt ist ein <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Migrationstool</a> in Analytics User Management verfügbar, um diese Aufgabe zu vereinfachen. </p> <p>Wichtig: Am Tag der Benutzermigration werden Ihre vorherigen Berechtigungsgruppen automatisch in die Admin Console kopiert. Sie können dann in den Analytics Admin Tools keine Benutzer mehr einladen oder neue Gruppen erstellen. Lesen Sie die häufig gestellten Fragen und die Hilfe unter <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics-Benutzermigration zur Admin Console</a>, um Informationen zur Vorbereitung der Migration und über betroffene administrative Funktionen zu erhalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console starten </p> </td> 
