@@ -26,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Name|Ein benutzerfreundlicher Name für dieses Lesezeichen.
-    |
- |—|—|     |Hinzufügen zu|Gibt den Ordner an, in dem Sie das Lesezeichen ablegen möchten.
-|     |Als öffentlich einstellen| Stellt dieses Lesezeichen Benutzern mit Zugriff auf die Report Suite zur Verfügung.
-|     |Bericht bei Anmeldung anzeigen| Zeigt den Bericht bei der Anmeldung an.|
+ |Name|Ein benutzerfreundlicher Name für dieses Lesezeichen.    |
+ |---|---|    
+ |Hinzufügen zu|Gibt den Ordner an, in dem Sie das Lesezeichen ablegen möchten.|     
+ |Als öffentlich einstellen| Stellt dieses Lesezeichen Benutzern mit Zugriff auf die Report Suite zur Verfügung.|     
+ |Bericht bei Anmeldung anzeigen| Zeigt den Bericht bei der Anmeldung an.|
    
 ## Lesezeichen verwalten {#task_1EE793CB52EA467787817BBD98DEF150}
 
