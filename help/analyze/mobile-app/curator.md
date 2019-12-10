@@ -2,7 +2,7 @@
 description: Anleitung zum Einrichten der App-Scorecards.
 title: Adobe Analytics Mobile App Curator Guide
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -190,9 +190,7 @@ Während der Betaphase und bevor die App für die Öffentlichkeit freigegeben wi
       ![Testflight-Bildschirm](assets/testflight2.png)
    **Für Führungskräfte unter Android:**
 
-   1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** &gt; **Mobile App** verfügbar):
-
-
+   1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** &gt; **Mobile App**verfügbar):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link Als Tester werden:
@@ -200,12 +198,10 @@ Während der Betaphase und bevor die App für die Öffentlichkeit freigegeben wi
       ![Play Store-Bildschirm](assets/play.png)
 
    2. Tippen Sie auf den Link zum **Herunterladen auf Google Play** im folgenden Bildschirm:
-
       ![Download-Link](assets/playnext.png)
 
    3. Laden Sie die App herunter und installieren Sie sie.
-   Nach dem Herunterladen und der Installation können sich Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
-
+Nach dem Herunterladen und der Installation können sich Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
    ![App-Startbildschirm](assets/welcome.png)
 
 2. Helfen Sie ihnen beim Zugriff auf Ihre Scorecard. Nachdem sich Benutzer mit leitenden Funktionen bei der App angemeldet haben, wird der Bildschirm "Unternehmen **auswählen** "angezeigt. Dieser Bildschirm listet die Anmeldeunternehmen auf, zu denen der geschäftsführende Benutzer gehört. Um ihnen beim Aufrufen des Scorecard zu helfen:
