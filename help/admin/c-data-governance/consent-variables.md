@@ -3,7 +3,7 @@ description: Variablen für Berichte beim Datenschutz.
 title: Variablen für Datenschutzberichte
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
 
 ---
 
@@ -65,7 +65,7 @@ Allgemeine Anleitungen zur Implementierung von Kontextdatenvariablen finden Sie 
 * Kontextdaten: `contextData.['cm.ssf']`
 * Akzeptierte Werte:
    * 1 – Wenn der Wert „1“gesendet wird, bedeutet dies, dass die serverseitige Weiterleitung einen Opt-out-Status aufweist. Der Wert „1“ in Verbindung mit dieser Variablen blockiert die Freigabe dieses Treffers für Adobe Audience Manager. Siehe [AAM-ePrivacy – Einhaltung](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
-   * Für diesen Parameter werden keine anderen Werte akzeptiert.
+   * 0 - Optional. Verwenden Sie den Wert "0"für Kunden, die zielgerichtetem Marketing zugestimmt haben. Wenn Sie die Variable nicht festlegen, führt dies ebenfalls zu denselben Ergebnissen.
 
 ### DMP
 
