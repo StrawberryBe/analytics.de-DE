@@ -1,22 +1,16 @@
 ---
-description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweitert anzeigen“ wählen.
-title: Erweiterte Funktionen referenzieren
+description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste Funktionen die Option Erweitert anzeigen wählen.
+title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Referenz: Erweiterte Funktionen
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTROL Funktionen]** die Option **[!UICONTROL Erweitert anzeigen]** wählen.
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +28,7 @@ Wenn Sie allerdings an zwei Metriken interessiert sind, soll vielleicht nicht ei
 
 Gibt den Wert des zugehörigen Arguments zurück. Mit „NICHT“ können Sie sicherstellen, dass ein Wert nicht mit einem bestimmten Wert übereinstimmt.
 
-> [!NOTE] 0 (null) bedeutet "False", und jeder andere Wert ist "True".
+> [!NOTE] 0 (null) bedeutet „Falsch“ und jeder andere Wert „Wahr“.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -42,12 +36,12 @@ AND(logical_test1,[logical_test2],...)
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test1* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logical_test1* | erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 | *logical_test2* | Optional. Zusätzliche Bedingungen, die als TRUE oder FALSE ausgewertet werden sollen. |
 
 ## Ungefährer Distinct Count (Dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Gibt den ungefähren Distinct Count für die Elemente der ausgewählten Dimension zurück. Diese Funktion verwendet die HyperLogLog (HLL)-Methode zur ungefähren Bestimmung des Distinct Count. Sie ist entsprechend eingestellt, um zu garantieren, dass der Wert zu 95 % der Zeit 5 % des tatsächlichen Werts beträgt.
+Gibt den ungefähren Distinct Count für die Elemente der ausgewählten Dimension zurück. Diese Funktion verwendet die HyperLogLog (HLL)-Methode zur ungefähren Bestimmung des Distinct Count.  Sie ist entsprechend eingestellt, um zu garantieren, dass der Wert zu 95 % der Zeit 5 % des tatsächlichen Werts beträgt.
 
 ```
 Approximate Count Distinct (dimension)
@@ -61,7 +55,7 @@ Approximate Count Distinct (dimension)
 
 Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
 
-Definition für eine neue berechnete Metrik "Ungefähre Kunden":
+Definition für eine neue berechnete „Ungefähre Kunden“-Metrik:
 
 ![](assets/approx-count-distinct.png)
 
@@ -210,7 +204,7 @@ Gibt den Durchschnitt der letzten N Zeilen zurück.
 
 Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. Da die Anordnung nach Dimensionen erfolgt, ist dies nur bei Dimensionen mit einer natürlichen Reihenfolge nützlich, wie Datum oder Pfadlänge.
 
-> [!NOTE] Dies funktioniert nicht wie erwartet mit Metriken wie Umsatz/Besucher: es berechnet die Durchschnittswerte der Raten, anstatt den Umsatz über die letzten N zu erfassen und Besucher über die letzten N zu summieren und sie dann zu teilen. Verwenden Sie stattdessen
+> [!NOTE] Mit Quotenmetriken, wie Umsatz/Besucher, funktioniert dies nicht so, wie Sie es vielleicht erwarten: Es wird der Quotendurchschnitt ermittelt, anstatt dass der Umsatz über die letzten N und die Besucher über die letzten N summiert und anschließend geteilt werden. Verwenden Sie stattdessen
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -222,7 +216,7 @@ Gibt Elemente mit einer exakten Entsprechung für numerische oder Zeichenfolgenw
 
 ## Exponentielle Regression: Korrelationskoeffizient (Tabelle) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_A* und *metric_B*) für die Regressionsgleichung zurück.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## Exponentielle Regression: Konstante (Tabelle) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) zurück für
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Exponentielle Regression: Steigung (Tabelle) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) zurück für.
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -325,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logical_test* | erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 | *[value_if_true]* | Der Wert, der zurückgegeben soll, wenn das Argument *logical_test* TRUE ergibt. (Für dieses Argument wird standardmäßig 0 verwendet, wenn es nicht angegeben wird.) |
 | *[value_if_false]* | Der Wert, der zurückgegeben soll, wenn das Argument *logical_test* FALSE ergibt. (Für dieses Argument wird standardmäßig 0 verwendet, wenn es nicht angegeben wird.) |
 
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## Logistische Regression: Korrelationskoeffizient (Tabelle) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. Dies wird mit der Gleichung CORREL berechnet.
+Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für die Regressionsgleichung [!DNL Y = a ln(X) + b] zurück. Dies wird mit der Gleichung CORREL berechnet.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -393,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Logistische Regression: Vorhersage für Y (Zeile) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. Dies wird mit der Gleichung ESTIMATE berechnet.
+Berechnet die prognostizierten [!DNL y]-Werte (metric_Y) anhand der bekannten [!DNL x]-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden mit [!DNL Y = a ln(X) + b]. Dies wird mit der Gleichung ESTIMATE berechnet.
 
 In der Regressionsanalyse berechnet diese Funktion die prognostizierten [!DNL y]-Werte (*metric_Y*) anhand der bekannten [!DNL x]-Werte (*metric_X*) mithilfe des Logarithmus zur Berechnung der Ausgleichsgraden für die Regressionsgleichung [!DNL Y = a ln(X) + b]. Die [!DNL a]-Werte entsprechen den jeweiligen x-Werten und [!DNL b] ist eine Konstante.
 
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## Logistische Regression: Steigung (Tabelle) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. Dies wird mit der Gleichung SLOPE berechnet.
+Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für die Regressionsgleichung [!DNL Y = a ln(X) + b] zurück. Dies wird mit der Gleichung SLOPE berechnet.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -441,7 +435,7 @@ NOT(logical)
 
 | Argument | Beschreibung |
 |---|---|
-| *logisch* | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logisch* | erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 
 Bei Verwendung von NICHT müssen Sie wissen, ob die Ausdrücke (&lt;, &gt;, =, &lt;&gt; usw.) 0- oder 1-Werte zurückgeben.
 
@@ -453,7 +447,7 @@ Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegeben
 
 Gibt TRUE zurück, wenn ein Argument TRUE ist, oder FALSE, wenn alle Argumente FALSE sind.
 
-> [!NOTE] 0 (null) bedeutet "False", und jeder andere Wert ist "True".
+> [!NOTE] 0 (null) bedeutet „Falsch“ und jeder andere Wert „Wahr“.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -461,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test1* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logical_test1* | erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 | *logical_test2* | Optional. Zusätzliche Bedingungen, die als TRUE oder FALSE ausgewertet werden sollen. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -476,7 +470,7 @@ Die Funktion [!DNL PI] weist keine Argumente auf.
 
 ## Potenzregression: Korrelationskoeffizient (Tabelle) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X] zurück.
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## Potenzregression: Konstante (Tabelle) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X] zurück.
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## Potenzregression: Vorhersage für Y (Zeile) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+Berechnet die prognostizierten [!DNL y]-Werte ([!DNL metric_Y]) anhand der bekannten [!DNL x]-Werte ([!DNL metric_X]) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden für [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## Potenzregression: Steigung (Tabelle) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Gibt die Steigung ** zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X]a zurück.
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## Quadratische Regression: Korrelationskoeffizient (Tabelle) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y=(a*X+b)]**** zurück.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## Quadratische Regression: Konstante (Tabelle) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y=(a*X+b)]**** zurück.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Quadratische Regression: Vorhersage für Y (Zeile) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+Berechnet die prognostizierten [!DNL y]-Werte (metric_Y) anhand der bekannten [!DNL x]-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden mit [!DNL Y=(a*X+b)]**** .
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -567,7 +561,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## Quadratische Regression: Steigung (Tabelle) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und metric_Y) für [!DNL Y=(a*X+b)]**** zurück.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## Reziproke Regression: Konstante (Tabelle) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b] zurück.
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## Reziproke Regression: Vorhersage für Y (Zeile) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+Berechnet die prognostizierten [!DNL y]-Werte (metric_Y) anhand der bekannten [!DNL x]-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden mit [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## Reziproke Regression: Steigung (Tabelle) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Gibt die Steigung ** zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b]a zurück.
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,7 +644,7 @@ Alias für z-Transformation, also die Abweichung vom arithmetischen Mittel getei
 
 Führt einen m-seitigen t-Test mit einem t-Wert von Spalte und n Freiheitsgraden durch.
 
-Die Unterschrift ist `t_test( x, n, m )`. Darunter wird einfach `m*cdf_t(-abs(x),n)`gerufen. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+Die Signatur lautet `t_test( x, n, m )`. Darunter wird einfach `m*cdf_t(-abs(x),n)` aufgerufen. (Dies entspricht der z-Test-Funktion, die wie folgt lautet `m*cdf_z(-abs(x))`.
 
 Hier gibt `m` die Anzahl der Seiten und `n` die Freiheitsgrade an. Hierbei sollte es sich um Ziffern handeln (im gesamten Bericht konstant, d. h. die Werte sollten nicht von Zeile zu Zeile variieren).
 
@@ -694,9 +688,9 @@ Die Gleichung für z-Transformation lautet:
 
 wobei [!DNL x] der Rohwert, [!DNL μ] das arithmetische Mittel der Population und [!DNL σ] die Standardabweichung der Population ist.
 
-> [!NOTE] [!DNL μ] (mu) und[!DNL σ] (sigma) werden automatisch aus der Metrik berechnet.
+> [!NOTE] [!DNL μ] (Mu) und[!DNL σ] (Sigma) werden automatisch aus der Metrik berechnet.
 
-z-score(metric)
+z-Transformation (Metrik)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -719,5 +713,5 @@ Führt einen n-seitigen z-Test mit einem z-Wert von A durch.
 
 Gibt zurück, wie wahrscheinlich es ist, dass die aktuelle Zeile zufällig in der Spalte gesehen wird.
 
-> [!NOTE] Gehen Sie davon aus, dass die Werte normalerweise verteilt werden.
+> [!NOTE] Dabei wird von einer Normalverteilung der Werte ausgegangen.
 
