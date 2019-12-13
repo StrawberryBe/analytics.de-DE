@@ -1,8 +1,8 @@
 ---
 title: Attribution IQ
-description: Attribution IQ ist eine Reihe von Funktionen in Adobe Analytics, die zusätzliche Einblicke in den Beitrag von Marketing-Maßnahmen zur Konversion bieten.
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+description: 'Attribution IQ ist eine Reihe von Funktionen in Adobe Analytics, die zusätzliche Einblicke in den Beitrag von Marketing-Maßnahmen zur Konversion bieten. '
+translation-type: tm+mt
+source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 * Wichtige Marketing-Sequenzen visuell analysieren: Erkunden Sie zur Konversion führende Pfade visuell mithilfe von mehrknotigen Fluss- und Fallout-Visualisierungen.
 * Berechnete Metriken erstellen: Verwenden Sie eine beliebige Anzahl an Attributionszuordnungsmethoden.
 
-## Funktionen
+## Funktionen {#features}
 
 Attribution IQ umfasst die folgenden Funktionen:
 
