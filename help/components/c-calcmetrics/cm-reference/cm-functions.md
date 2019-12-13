@@ -1,26 +1,20 @@
 ---
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
-title: Grundlegende Funktionen
+title: 'Referenz: Grundfunktionen'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Referenz: Grundfunktionen
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 
 Im Folgenden werden die Funktionen und ihre Definitionen alphabetisch aufgelistet.
 
-> [!NOTE] Wenn in einer Funktion als Argument identifiziert [!DNL metric] wird, sind auch andere Ausdrücke von Metriken zulässig. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Wenn [!DNL metric] als Argument in einer Funktion angegeben ist, sind auch andere Ausdrücke von Metriken zulässig. Beispiel: [!DNL MAXV(metrics)] ermöglicht auch [!DNL MAXV(PageViews + Visits).]
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -103,7 +97,7 @@ EXP(metric)
 Potenzierungsoperator
 
 <pre>
-pow(x,y) =<sup>xy</sup> = x*x*x*... (y-mal)
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y-mal)
 </pre>
 
 ## Arithmetisches Mittel (Tabelle) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Perzentil (Tabelle) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Gibt das k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion können Sie einen Akzeptanzschwellenwert einrichten. Sie können beispielsweise Dimensionselemente untersuchen, deren Wert über dem 90-Perzentil liegt.
+Gibt das k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion können Sie einen Akzeptanzschwellenwert einrichten. Sie können beispielsweise Dimensionselemente untersuchen, die über dem 90. Perzentil liegen.
 
 ```
 PERCENTILE(metric,k)
@@ -208,7 +202,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*Wenn *quart* = 0 ist, gibt QUARTILE den Mindestwert zurück. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
+*Wenn *quart* = 0 ist, gibt QUARTILE den Mindestwert zurück. Wenn *quart* = 1 ist, gibt QUARTILE das zweite Quartil (25. Perzentil) zurück. Wenn *quart* = 2 ist, gibt QUARTILE das zweite Quartil (50. Perzentil) zurück. Wenn *quart* = 3 ist, gibt QUARTILE das zweite Quartil (75. Perzentil) zurück. Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
 
 ## Rund {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## Zeilenanzahl {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Gibt die Anzahl der Zeilen für eine bestimmte Spalte zurück (die Anzahl der eindeutigen Elemente, die innerhalb einer Dimension gemeldet werden). "Individuelle Werte überschritten"wird als 1 gezählt.
+Gibt die Anzahl der Zeilen in einer bestimmten Spalte zurück (die Anzahl berichteter eindeutiger Elemente innerhalb einer Dimension). „Individuelle Werte überschritten“ wird als 1 gezählt.
 
 ## Zeilenmaximum {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -322,7 +316,7 @@ Beispiel: Sie haben eine Spalte mit drei Elementen:
 
 3
 
-Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spalte ist ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis wird dies wie folgt aussehen:
+Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spaltet lautet dann ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis wird dies wie folgt aussehen:
 
 1 2/3
 
