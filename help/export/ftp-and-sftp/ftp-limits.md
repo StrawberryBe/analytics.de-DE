@@ -4,12 +4,12 @@ keywords: ftp;sftp
 title: FTP-Beschränkungen und Datenaufbewahrung
 uuid: deb807c9-e988-4587-b518-881857cad1cf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fc14751c810019c5257a23a8a598b16f42ed10ee
 
 ---
 
 
 # FTP-Beschränkungen und Datenaufbewahrung
 
-Alle Adobe FTP-Konten unterliegen einer Speichergrenze von 2 GB (oder 63 Dateien). Dateien werden in diesen FTP-Konten 90 Tage lang aufbewahrt.
+Für alle Adobe FTP-Konten gilt eine Speichergrenze von 10 GB. Dateien werden in diesen FTP-Konten 90 Tage lang aufbewahrt.
 
