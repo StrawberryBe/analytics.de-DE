@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
+source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
       + [Datei senden – Bereitstellung eines Projekts planen](analysis-workspace/curate-share/t-schedule-report.md)
       + [Manager für geplante Projekte](analysis-workspace/curate-share/schedule-projects.md)
    + Virtual Analyst {#virtual-analyst}
-      + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
+      + [Übersicht über Virtual Analytics](analysis-workspace/virtual-analyst.md)
       + Anomalieerkennung {#anomaly-detection}
          + [Übersicht über die Anomalieerkennung](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Anomalien in Analysis Workspace anzeigen](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -117,7 +117,6 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
    + [Analysis Workspace-Beschränkungen](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
-   + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Hilfe zu Adobe Report Builder](report-builder/home.md)
    + [Neue Funktionen in Report Builder](report-builder/whats-new-arb.md)
