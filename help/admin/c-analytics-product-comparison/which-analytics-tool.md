@@ -3,7 +3,7 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
 
@@ -16,12 +16,11 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 
 ## Adobe Analytics-Berichtsoberflächen {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Können Sie eine Aufgabe nicht mit Analysis Workspace durchführen, versuchen Sie eine der unten stehenden Oberflächen.**
+**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)**sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Können Sie eine Aufgabe nicht mit Analysis Workspace durchführen, versuchen Sie eine der unten stehenden Oberflächen.**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** sollte verwendet werden:
+**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**sollte verwendet werden:
 
 * Von Einsteigern, die auf eine vorkonfigurierte Berichterstellung zugreifen müssen, in der einfacher navigiert werden kann.
-* Für eine genaue Zählung von A4T-Aktivitätsimpressionen und Aktivitätskonversionen
 * Für ein besseres Verständnis der Target-Aktivität (Analytics für Target/A4T)
 * Für den Zugriff auf Echtzeitdaten in der Benutzeroberfläche
 * Zum Einrichten von Kalenderereignissen
@@ -31,7 +30,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 * Für den Zugriff auf Videovisualisierungen von gleichzeitigen Zuschauern, Videotagesabschnitten und Zuschauerrückgängen
 * Zur Nutzung von Veröffentlichungslisten für geplante Berichte
 
-**[Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** sollte verwendet werden:
+**[Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**sollte verwendet werden:
 
 * Wenn eine Silo-Ansicht mobiler App-Daten benötigt wird.
 * So verwalten Sie die Implementierung Ihrer SDKs für mobile Apps.
@@ -40,14 +39,13 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 * Zur visuellen Darstellung von Zielpunkten auf einer Karte.
 * Für Lebenszeitwert-Metriken.
 
-**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** sollten verwendet werden:
+**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**sollte verwendet werden:
 
-* Wenn echte Tabellenerstellungsfunktionalität benötigt wird. Beispiel: a) Analysis Workspace unterstützt Ihre Anforderungen nicht, b) Sie möchten die Neuerstellung der Tabelle kontrollieren, c) die Tabelle soll die verschiedenen Aufschlüsselungsstufen speichern, die Sie auf die einzelnen Zeilen anwenden, d) Sie möchten die Zeilen in der Metrik manuell sortieren
 * Für den Export von 50.000 Datenzeilen
 * Wenn die Projektarbeit tabellar organisiert werden soll.
 * Für die Verwendung des Site-Analyse-Berichts (3D-Pfadsetzungsbericht).
 
-**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** sollte verwendet werden:
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**sollte verwendet werden:
 
 * Als flexibelste Analyseoption (bis hin zur Analyse auf Besucher-/Trefferebene).
 * Für die Erstellung eines Mehrkanal-Datensatzes der Online- und Offline-Interaktionen von CRM über POS bis Web.
@@ -58,15 +56,15 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 
 ## Importieren von Daten in Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Classifications](/help/components/c-classifications2/c-classifications.md)** sollten verwendet werden:
+**[Klassifizierungen](/help/components/c-classifications2/c-classifications.md)**sollten verwendet werden:
 
 * Wenn Metadaten vorliegen, die Sie einem Erfassungswert (eVar, prop, Marketingkanal) zuweisen möchten
 * Optionen:
 
    * Rule Builder: verwenden, wenn für eine Variable Werte in einem vorhersagbaren Format erfasst werden, z. B. durch Trennzeichen getrennte Werte. Mit diesem Ansatz können Sie Regeln einmal erstellen, ohne sich später weiter damit beschäftigen zu müssen.
-   * Browser-Importeur: verwenden, wenn Sie nicht über berechenbare Werte verfügen oder wenn Sie über eine endliche Liste von Werten verfügen, die eine einmalige Aktualisierung erfordern. Bei diesem Ansatz ist eine fortlaufende Überwachung der Classifications auf neue Werte nötig.
+   * Browser-Importtool: verwenden, wenn Sie nicht über vorhersagbare Werte oder über eine begrenzte Liste von Werten verfügen, die eine einmalige Aktualisierung erfordern. Bei diesem Ansatz ist eine fortlaufende Überwachung der Klassifizierungen auf neue Werte nötig.
 
-**[Data Sources](/help/import/c-data-sources/datasrc-home.md)** sollte verwendet werden:
+**[Data Sources](/help/import/c-data-sources/datasrc-home.md)**sollte verwendet werden:
 
 * Wenn Offline-Daten vorliegen, die dauerhaft in Adobe Analytics geschrieben werden sollen
 * Optionen:
@@ -79,23 +77,23 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 
 * Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Data Connectors übernimmt meist zusammengefasste Daten automatisch, dauerhaft und wiederholt in Adobe Analytics.
 
-Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)** sollte verwendet werden:
+Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**sollte verwendet werden:
 
 * Wenn Sie Daten in Adobe Analytics laden und den Adobe AppMeasurement- oder mobilen SDK-Code nicht nutzen können.
 
-**[Kundenattribute](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)** sollten verwendet werden:
+**[Kundenattribute](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**sollten verwendet werden:
 
 * Wenn Sie Unternehmenskundendaten in einer Datenbank für Customer Relationship Management (CRM) speichern und die Daten in die Experience Cloud hochladen möchten.
 * Wenn Sie CRM-Daten für tiefgreifende Analysen in Analytics oder als Targeting-Kriterien in Adobe Target verwenden möchten.
 
-**[Zielgruppenanalysen](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** sollten verwendet werden:
+**[Zielgruppenanalysen](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**sollten verwendet werden:
 
 * Wenn Sie Zielgruppendaten des Adobe Audience Manager (AAM) – wie beispielsweise demografische Daten (z. B. Geschlecht oder Verdienstniveau), psychografische Daten (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
 * Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
 
 ## Exportieren von Daten aus Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
 
-**[Report Builder](/help/analyze/report-builder/home.md)** sollte verwendet werden:
+**[Report Builder](/help/analyze/report-builder/home.md)**sollte verwendet werden:
 
 * Wenn die individuellen Layoutoptionen von Workspace zu sehr einschränken (in Report Builder sind sämtliche Optionen möglich, die Excel bietet).
 * Zur lockeren Verknüpfung von Benutzereingaben oder Offline-Datenquellen (Impressionen, Kosten) mit Adobe-Daten. Eine dauerhaftere Lösung für das Einbinden von Daten ist Data Sources (siehe „Importieren von Daten in Analytics“).
@@ -103,31 +101,31 @@ Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation
 * Für Berichtssuite-übergreifende Ansichten.
 * Wenn bei der Planung Automatisierung gewünscht wird (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
-**[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** sollte verwendet werden:
+**[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**sollte verwendet werden:
 
-* So greifen Sie auf Variablen zu, die sonst in der Benutzeroberfläche ausgeblendet sind: IP-Adresse, Experience Cloud ID, Analytics-Besucher-ID, Seiten-URL)
+* Für den Zugriff auf Variablen, die ansonsten in der Benutzeroberfläche verborgen sind: IP-Adresse, Experience Cloud ID, Analytics-Besucher-ID, Seiten-URL
 * Für den Zugriff auf granularere Daten als jene in der Benutzeroberfläche (denormalisierte Tabellenansicht)
 * Für den Download von Daten in einem für die Pivot-Tabellen-Eingabe geeigneten Format
 * Wenn der Kunde Adobe-Daten in ein Drittanbieter-Tool für die Datenvisualisierung eingeben möchte (leicht zusammengefasst und nicht auf Trefferebene)
-* So greifen Sie auf alle eindeutigen Dimensionswerte zu, wenn Sie in Adobe Analytics mit "geringer Traffic"arbeiten
+* Für den Zugriff auf alle eindeutigen Dimensionswerte, wenn in Adobe Analytics ein geringer Datenverkehr für Sie vorliegt
 
-**[Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** sollte verwendet werden:
+**[Analytics-Daten-Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**sollte verwendet werden:
 
 * Zur Nutzung des granularsten Daten-Feeds, der möglich ist (Besucher-ID, Treffer).
 * Wenn der Kunde Adobe-Dateien in einer clientseitigen Datenbank und so granular wie möglich speichern möchte.
 * Wenn der Kunde ein Business Intelligence-Tool entwickeln oder Adobe-Daten auf Trefferebene in ein Drittanbieter-Tool importieren möchte.
 
-**[Bericht-APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)** sollten verwendet werden, wenn die anderen Visualisierungsoptionen Ihren Anforderungen nicht gerecht werden. Die 3 API-Optionen sind:
+**[Bericht-APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**sollten verwendet werden, wenn die anderen Visualisierungsoptionen Ihren Anforderungen nicht gerecht werden. Die 3 API-Optionen sind:
 
 * **Vollständig verarbeitet:** Wenn Sie umfangreiche Daten präsentieren möchten (einschließlich Besuchen, Besuchern und Segmenten). Dabei handelt es sich üblicherweise um in der Analytics-Benutzeroberfläche zusammengefasste Daten, die innerhalb von etwa 30–90 Minuten verfügbar sind. Die Verwendung ist überall im Report Builder möglich.
 * **Echtzeit:** Wenn Sie einige Metriken und Dimensionen mit nur wenigen Sekunden Latenz anzeigen möchten. Hierbei handelt es sich um begrenzte, teilweise verarbeitete, zusammengefasste Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Umfasst eindeutige Algorithmen für die beliebtesten Elemente, Gewinner und Verlierer. Die Verwendung ist überall im Report Builder möglich.
-* **[!UICONTROL Livestream:]** Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
+* **[!UICONTROL Livestream:]**Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
 
 ## Individuelle Lösungen {#section_4A212F26A15947599DFB0399A0440CB6}
 
-Engineering Services sollten verwendet werden, wenn:
+Engineering Services sollten in folgenden Fällen verwendet werden:
 
-* Die anderen Adobe-Werkzeuge entsprechen nicht Ihren Anforderungen.
+* Die anderen Adobe-Tools entsprechen nicht Ihren Anforderungen.
 * Sie benötigen ein individuelles Erlebnis.
 * Sie benötigen eine vollständig automatisierte Lösung.
 * Sie möchten viele Geräte erreichen.
