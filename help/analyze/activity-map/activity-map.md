@@ -4,7 +4,7 @@ title: Übersicht über Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
+source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 # Übersicht über Activity Map
 
 >[!IMPORTANT]
->Am 16. Januar 2020 beginnt Adobe Analytics mit der Umstellung auf eine neue Domäne: https://experience.adobe.com/analytics. Diese Änderung kann dazu führen, dass Activity Map in bestimmten Fällen für einige Kunden nicht mehr funktioniert. Wie Sie wissen, wird Activity Map in einen iframe (einen iframe für die Activity Map-Symbolleiste und einen iframe für das Activity Map-untere Bedienfeld) in die Kundenseite eingefügt. Möglicherweise haben Sie auf Ihrer Webseite eine Richtlinie zur Inhaltssicherheit für &quot;frame-src&quot;festgelegt, die nicht &quot;.adobe.com&quot;enthält. Ist dies der Fall, funktioniert Activity Map nicht mehr, wenn eine Seite &quot;.adobe.com&quot;aufgerufen wird. Zur Behebung dieses Problems müssen Sie &quot;.adobe.com&quot;zu Ihrer Richtlinie zur Inhaltssicherheit hinzufügen.
+>Am 16. Januar 2020 beginnt Adobe Analytics mit der Umstellung auf eine neue Domäne: https://experience.adobe.com/analytics. Diese Änderung kann dazu führen, dass Activity Map in bestimmten Fällen für einige Kunden nicht mehr funktioniert. Wie Sie wissen, wird Activity Map in einen iframe (einen iframe für die Activity Map-Symbolleiste und einen iframe für das Activity Map-untere Bedienfeld) in die Kundenseite eingefügt. Möglicherweise haben Sie auf Ihrer Webseite eine Richtlinie zur Inhaltssicherheit für &quot;frame-src&quot;festgelegt, die nicht &quot;.adobe.com&quot;enthält. In diesem Fall funktioniert Activity Map nicht mehr auf einer solchen Webseite.
 
 Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
 
