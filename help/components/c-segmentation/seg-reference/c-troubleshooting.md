@@ -1,16 +1,16 @@
 ---
 description: 'null'
-title: Segmentfehlerbehebung
+title: Fehlerbehebung bei der Segmentierung
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Segmentfehlerbehebung
+# Fehlerbehebung bei der Segmentierung
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Fehler: „Inkompatible Elemente in diesem Segment“ {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
 Dieser Fehler wird angezeigt, wenn Sie versuchen, ein Segment im Data Warehouse-Ordner zu speichern und das Segment Elemente enthält, die mit Data Warehouse nicht kompatibel sind. Um den Fehler zu beheben, befolgen Sie eine der beiden folgenden Möglichkeiten:
 
@@ -30,7 +30,7 @@ Mögliche Gründe:
 Mögliche Gründe:
 
 * Einige Dimensionen sind nur in Data Warehouse und nicht im Segment-Manager verfügbar.
-* Das Segment ist mit Reports &amp; Analysen nicht kompatibel.
+* Das Segment ist mit Reports &amp; Analytics nicht kompatibel.
 * Das Segment ist nur für eine bestimmte Report Suite aktiviert.
 * Ein freigegebenes Segment wurde möglicherweise von einem anderen Benutzer gelöscht.
 * Segmente konnten aufgrund eines Problems mit dem Datencenter oder dem Browser-Cache nicht geladen werden.
