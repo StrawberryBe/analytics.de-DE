@@ -1,7 +1,7 @@
 ---
 title: Hilfe zu den Analytics-Komponenten
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -33,7 +33,7 @@ Mithilfe von Analytics-Komponenten können Sie die Datenanalyse optimieren. Zu d
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
 * [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics-Ressourcen](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
