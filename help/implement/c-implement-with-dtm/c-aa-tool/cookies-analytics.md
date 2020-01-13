@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -38,7 +38,7 @@ Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Ber
   </tr> 
   <tr> 
    <td colname="col1"> FP-Domänenpunkte </td> 
-   <td colname="col2"> <p>Die Variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>Die Variable <span class="term">fpCookieDomainPeriods</span> dient für Cookies, die von JavaScript gesetzt werden (<code> s_sq</code>, <code> s_cc</code>, Plug-ins) und von Erstanbietern stammen, selbst wenn Ihre Implementierung die Domänen <span class="filepath"> 2o7.net</span> oder <span class="filepath"> omtrdc.net</span> von Drittanbietern verwendet. </p> <p>Siehe <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transaktions-ID </td> 
