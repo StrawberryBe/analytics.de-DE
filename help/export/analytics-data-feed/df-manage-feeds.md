@@ -1,27 +1,27 @@
 ---
-title: Data Feed-Benutzeroberfläche
-description: Erfahren Sie, wie Sie in der Data Feed-Oberfläche navigieren.
-translation-type: tm+mt
+title: Daten-Feed-Benutzeroberfläche
+description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
-# Verwalten von Datenfeeds
+# Verwalten von Daten-Feeds
 
-Mit dem Data Feed Manager können Sie Datenfeeds für Ihr Unternehmen erstellen, bearbeiten und löschen. Wenn Sie berechtigt sind, auf den Data Feed Manager zuzugreifen, können Sie Datenfeeds für alle Report Suites verwalten, die für Sie sichtbar sind.
+Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstellen, bearbeiten und löschen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
 
-Gehen Sie wie folgt vor, um auf die Datenfeed-Verwaltung zuzugreifen:
+Gehen Sie wie folgt vor, um auf das Daten-Feed-Management zuzugreifen:
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+1. Melden Sie sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Raster-Menü und dann auf [!UICONTROL Analytics].
-3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] &gt; [!UICONTROL Datenfeeds].
+3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] &gt; [!UICONTROL Daten-Feeds].
 
-![Datenfeed-Menü](assets/AdminMenu.png)
+![Daten-Feed-Menü](assets/AdminMenu.png)
 
-## Navigieren in der Oberfläche
+## Navigieren der Oberfläche
 
-Wenn Sie zur Seite "Data Feed Manager"gelangen, sieht die Oberfläche wie folgt aus:
+Wenn Sie zur Seite „Daten-Feed-Manager“ gelangen, sieht die Oberfläche wie folgt aus:
 
 ![Datenfeeds](assets/feeds.png)
 
@@ -31,7 +31,7 @@ Wenn keine Feeds eingerichtet wurden, wird auf der Seite die Schaltfläche [!UIC
 
 Verwenden Sie Filter und suchen Sie nach dem gewünschten Feed.
 
-Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Klicken Sie auf das Chevron, um die Filterkategorien zu reduzieren oder zu erweitern. Markieren Sie das Kontrollkästchen, um diesen Filter anzuwenden.
+Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Klicken Sie auf das Chevron, um die Filterkategorien ein- oder auszublenden. Markieren Sie das Kontrollkästchen, um diesen Filter anzuwenden.
 
 ![Filter](assets/filters.jpg)
 
@@ -41,44 +41,44 @@ Suchen Sie nach einem Feed anhand des Namens.
 
 ### Feeds und Aufträge
 
-Klicken Sie auf die Registerkarte "Aufträge", um einzelne Aufträge anzuzeigen, die von den einzelnen Feeds erstellt werden. Siehe Datenfeed-Aufträge [verwalten](df-manage-jobs.md).
+Klicken Sie auf die Registerkarte „Aufträge“, um einzelne Aufträge anzuzeigen, die von den jeweiligen Feeds erstellt werden. Siehe [Verwalten von Daten-Feed-Aufträgen](df-manage-jobs.md).
 
 ### Fügen Sie
 
-Klicken Sie in der Nähe der Registerkarten Feeds und Aufträge auf die Schaltfläche + [!UICONTROL Hinzufügen] , um einen neuen Feed zu erstellen. Weitere Informationen finden Sie unter Feed [hinzufügen](create-feed.md) .
+Klicken Sie in der Nähe der Registerkarten „Feeds“ und „Aufträge“ auf die Schaltfläche + [!UICONTROL Hinzufügen], um einen neuen Feed zu erstellen. Weitere Informationen finden Sie unter [Hinzufügen eines Feeds](create-feed.md).
 
 ### Spalten
 
-Jeder erstellte Feed zeigt mehrere Spalten mit Informationen dazu an. Klicken Sie auf eine Spaltenüberschrift, um sie in aufsteigender Reihenfolge zu sortieren. Klicken Sie erneut auf eine Spaltenüberschrift, um sie in absteigender Reihenfolge zu sortieren. Wenn eine bestimmte Spalte nicht angezeigt wird, klicken Sie auf das Spaltensymbol oben rechts.
+Jeder erstellte Feed zeigt mehrere Spalten mit Informationen an. Klicken Sie auf eine Spaltenüberschrift, um sie in aufsteigender Reihenfolge zu sortieren. Klicken Sie erneut auf eine Spaltenüberschrift, um sie in absteigender Reihenfolge zu sortieren. Wenn eine bestimmte Spalte nicht angezeigt wird, klicken Sie auf das Spaltensymbol oben rechts.
 
 ![Spaltensymbol](assets/cols.jpg)
 
 * **Feed-Name**: Erforderliche Spalte. Zeigt den Feed-Namen an.
-* **Feed-ID**: Zeigt die Feed-ID an, eine eindeutige ID.
+* **Feed-ID**: Zeigt die Feed-ID an, eine eindeutige Kennung.
 * **Report Suite**: Die Report Suite, aus der der Feed Daten referenziert.
 * **Report Suite-ID**: Die eindeutige Kennung der Report Suite.
-* **Datenspalten**: Welche Datenspalten sind für den Feed aktiv? In den meisten Fällen gibt es zu viele Spalten, die in diesem Format angezeigt werden können.
-* **Intervall**: Geben Sie an, ob der Feed stündlich oder täglich gesendet wird.
-* **Zieltyp**: Der Zieltyp für den Feed. Zum Beispiel FTP, Amazon S3 oder Azurblau.
-* **Zielhost**: Der Speicherort der Datei. Beispiel, `ftp.example.com`.
-* **Inhaber**: Das Benutzerkonto, das den Feed erstellt hat.
-* **Status**: Der Status des Feeds.
-   * Aktiv: Der Feed ist betriebsbereit.
+* **Datenspalten**: Gibt an, welche Datenspalten für den Feed aktiv sind. In den meisten Fällen gibt es so viele Spalten, dass sie in diesem Format nicht alle angezeigt werden können.
+* **Intervall**: Gibt an, ob der Feed stündlich oder täglich ist.
+* **Zieltyp**: Der Zieltyp für den Feed. Zum Beispiel FTP, Amazon S3 oder Azure.
+* **Zielhost**: Der Speicherort der Datei. Beispiel: `ftp.example.com`.
+* **Inhaber**: Das Benutzerkonto, über das der Feed erstellt wurde.
+* **Status:** Der Status des Feeds.
+   * Aktiv: Der Feed ist betriebsfähig.
    * Genehmigung ausstehend: Unter bestimmten Umständen muss ein Feed von Adobe genehmigt werden, bevor er Aufträge generieren kann.
-   * Gelöscht: Der Feed wird gelöscht.
-   * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, ausgesetzt oder abgebrochen werden.
-   * Ausstehend: Der Feed wird erstellt, aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-   * Inaktiv: Entspricht einem Status "angehalten"oder "im Halten". Wenn der Feed reaktiviert wird, wird die Bereitstellung von Aufträgen beim Beenden fortgesetzt.
-* **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Versatz angezeigt.
-* **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Versatz angezeigt.
-* **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Datenfeeds haben kein Enddatum.
+   * Gelöscht: Der Feed wurde gelöscht.
+   * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, angehalten und abgebrochen werden.
+   * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
+   * Inaktiv: Entspricht einem Status „angehalten“. Wenn der Feed reaktiviert wird, wird die Bereitstellung von Aufträgen an derselben Stelle fortgesetzt.
+* **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
+* **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
+* **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.
 
-## Datenfeed-Aktionen
+## Daten-Feed-Aktionen
 
-Aktivieren Sie das Kontrollkästchen neben einem Datenfeed, um verfügbare Aktionen anzuzeigen.
+Aktivieren Sie das Kontrollkästchen neben einem Daten-Feed, um verfügbare Aktionen anzuzeigen.
 
-* **Auftragsverlauf**: Zeigen Sie alle Aufträge an, die mit diesen Datenfeeds verknüpft sind. Leitet Sie automatisch zur [Oberfläche](df-manage-jobs.md)für Aufträge verwalten.
-* **Löschen**: Löscht den Datenfeed und stellt dessen Status auf " [!UICONTROL Gelöscht]"ein.
-* **Kopieren**: Ermöglicht die [Erstellung eines neuen Feeds](create-feed.md) mit allen Einstellungen des aktuellen Feeds. Ein Datenfeed kann nicht kopiert werden, wenn mehrere ausgewählt sind.
-* **Anhalten**: Beendet die Verarbeitung für den Feed und legt dessen Status auf [!UICONTROL Inaktiv]fest.
-* **Aktivieren**: Nur für inaktive Feeds verfügbar. Ruft die Verarbeitungsdaten an der Stelle ab, an der sie aufgehört wurden, und füllt ggf. alle Daten auf.
+* **Auftragsverlauf**: Zeigen Sie alle Aufträge an, die mit diesem Daten-Feed verknüpft sind. Leitet Sie automatisch zur [Oberfläche für die Verwaltung von Aufträgen](df-manage-jobs.md) weiter.
+* **Löschen**: Löscht den Daten-Feed und ändert dessen Status zu [!UICONTROL Gelöscht].
+* **Kopieren**: Ermöglicht die [Erstellung eines neuen Feeds](create-feed.md) mit allen Einstellungen des aktuellen Feeds. Ein Daten-Feed kann nicht kopiert werden, wenn mehrere Feeds ausgewählt sind.
+* **Anhalten**: Beendet die Verarbeitung für den Feed und setzt dessen Status auf [!UICONTROL Inaktiv].
+* **Aktivieren**: Nur für inaktive Feeds verfügbar. Ruft die Verarbeitungsdaten an der Stelle ab, an der aufgehört wurde, und füllt ggf. alle Daten rückwirkend auf.
