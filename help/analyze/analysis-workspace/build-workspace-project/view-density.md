@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie, wie Sie die Dichte der Ansicht anpassen.
+description: Erfahren Sie, wie Sie die Anzeigedichte anpassen.
 title: Dichte anzeigen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,14 +12,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Durch die Anpassung der Anzeigedichte können Sie mehr Daten auf dem Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren.
 Sie haben beim Umstellen der Anzeigedichte über die Optionsfelder 3 Optionen:
 
-- **[!UICONTROL Kompakt]**: Dies ist die Version mit der am stärksten verkürzten Ansicht.
-- **[!UICONTROL Komfortabel]**: Dadurch bleibt ein wenig mehr Auffüllung als die Compact-Version.
-- **[!UICONTROL Erweitert]** (Standard): Dies ist die Ansicht, die Sie in Workspace gewohnt sind.
+- **[!UICONTROL Kompakt]**: Die Version mit der am meisten gekürzten Anzeige.
+- **[!UICONTROL Komfort]**: Bietet etwas mehr Abstand als die Kompaktversion.
+- **[!UICONTROL Erweitert]** (Standard): Die aus Workspace bekannte Anzeige.
 
 ![](assets/view-density.png)
 
-Zum Einstellen der Anzeigedichte:
+So stellen Sie die Anzeigedichte ein:
 
-1. In Workspace, navigate to **[!UICONTROL Projects]** &gt; **[!UICONTROL Project Info and Settings]**.
+1. Navigieren Sie in Workspace zu **[!UICONTROL Projekte]** &gt; **[!UICONTROL Projektinfo und Einstellungen]**.
 
 1. Wählen Sie eine der 3 oben erwähnten Optionen und klicken Sie auf **[!UICONTROL Speichern]**.
