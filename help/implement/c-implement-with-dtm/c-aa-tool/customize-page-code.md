@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Seiten-Code anpassen
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Tool bearbeiten]** &gt; **[!UICONTROL Seiten-Code anpassen]**
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Editor öffnen </p> </td> 
-   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
+   <td colname="col2"> <p>Sie können einen beliebigen JavaScript-Aufruf einfügen, der vor dem finalen <code> s.t()</code>-Aufruf ausgelöst werden muss, der im <code> s_code</code> enthalten ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Starte </p> </td> 
