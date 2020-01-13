@@ -1,8 +1,8 @@
 ---
-description: Beschreibt die beiden Hauptmethoden zum Suchen der Metriken nach Sortieren und Filtern.
+description: 'Hier werden die zwei Hauptarten zum Suchen von Metriken beschrieben: Sortieren und Filtern.'
 title: Metriken suchen
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Hier werden die zwei Hauptarten zum Suchen von Metriken beschrieben: Sortieren u
 
 ## Sortieren {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Wenn Sie einen Bericht öffnen und auf das Metriksymbol ![](assets/metrics_icon.png) auf der linken Seite des Berichts klicken, um die Metrikleiste anzuzeigen, werden in der Dropdown-Liste **Sortieren nach]der Metrikauswahl vier Optionen zur Sortierung angezeigt:[!UICONTROL **
+Wenn Sie einen Bericht öffnen und auf das Metriksymbol ![](assets/metrics_icon.png) auf der linken Seite des Berichts klicken, um die Metrikleiste anzuzeigen, werden in der Dropdown-Liste **[!UICONTROL Sortieren nach]** der Metrikauswahl vier Optionen zur Sortierung angezeigt:
 
 ![](assets/cm_sort.png)
 
@@ -25,7 +25,7 @@ Wenn Sie einen Bericht öffnen und auf das Metriksymbol ![](assets/metrics_icon.
 | Häufig verwendet | Nützlich, wenn Sie ein unerfahrener Benutzer sind und sehen möchten, was häufig im Bericht verwendet wird. |
 | Kürzlich verwendet | Nützlich, wenn Sie an einem Projekt arbeiten und denselben Satz aus Metriken immer wieder verwenden. |
 
-## Filtern – Erweiterte Auswahl {#section_33818CC048C04F098703AC229693F8CA}
+## Filtern - Erweiterte Auswahl {#section_33818CC048C04F098703AC229693F8CA}
 
 Wenn Sie einen Bericht öffnen, klicken Sie auf das Metriksymbol und anschließend auf **[!UICONTROL Verwalten]**. Klicken Sie dann auf das Filtersymbol. Sie haben verschiedene Möglichkeiten zum Filtern.
 
@@ -40,7 +40,7 @@ Wenn Sie einen Bericht öffnen, klicken Sie auf das Metriksymbol und anschließe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Anzeigen aller Metriken in dieser Report Suite </td> 
+   <td colname="col1"> Anzeigen aller Metriken in dieser Report Suite. </td> 
    <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Weitere Filter</span> &gt; <span class="uicontrol">Alle anzeigen</span></span> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Wenn Sie einen Bericht öffnen, klicken Sie auf das Metriksymbol und anschließe
    <td colname="col2"><span class="uicontrol"> Genehmigt</span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Filtern von Metriken für ein Projekt, an dem Sie arbeiten </td> 
+   <td colname="col1"> Filtern von Metriken für ein Projekt, an dem Sie arbeiten. </td> 
    <td colname="col2">Einem der <span class="uicontrol">Tags</span>. </td> 
   </tr> 
  </tbody> 
