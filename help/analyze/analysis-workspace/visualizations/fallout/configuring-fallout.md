@@ -2,7 +2,7 @@
 description: 'null'
 title: Fallout-Visualisierung konfigurieren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,11 +16,11 @@ Sogar Segmente können Sie innerhalb eines Touchpoints hinzufügen. Vielleicht m
 
 Bezüglich der Anzahl der Schritte, die hinzugefügt, oder der Dimensionen, die verwendet werden können, gibt es keine Einschränkungen.
 
-Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (Variablen, die mehrere Werte pro Treffer haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Angenommen, jemand sieht sich auf einer Seite Schuhe, Hemd und auf der nächsten Seite Shirt, Socken an. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
+Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://marketing.adobe.com/resources/help/de_DE/sc/implement/listN.html) (Variablen, die mehrere Werte pro Hit haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Beispiel: Angenommen, jemand sucht auf der einen Seite nach „Schuhe,Shirt“ und auf der nächsten Seite nach „Schuhe,Socken“. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
 
-1. Ziehen Sie eine [!UICONTROL Fallout]-Visualisierung aus dem Dropdownfeld „Visualisierung“ in eine [!UICONTROL Freiform-Tabelle].
+1. Ziehen Sie eine [!UICONTROL Fallout]-Visualisierung aus dem Dropdownfeld „Visualisierung“ in eine [!UICONTROL Freiformtabelle].
 
-1. Ziehen Sie die Dimension „Seite“ in die Freiform-Tabelle, und ziehen Sie von dort eine Seite (in diesem Fall „Startseite – JJEsquire“) als ersten Touchpoint in das Feld **[!UICONTROL TouchPoint hinzufügen].**
+1. Ziehen Sie die Dimension „Seite“ in die Freiformtabelle und ziehen Sie von dort eine Seite (in diesem Fall „Startseite – JJEsquire“) als ersten Touchpoint in das Feld **[!UICONTROL Touchpoint hinzufügen]**.
 
    ![](assets/fallout1.png)
 
@@ -36,11 +36,11 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
 
    >[!NOTE]
    >
-   >Mehrere Segmente sind mit UND verbunden, aber mehrere Elemente wie Dimensionselemente und Metriken werden mit ODER verknüpft.
+   >Hinweis: Mehrere Segmente werden mit UND verbunden, mehrere Elemente wie Dimensionselemente und Metriken hingegen mit ODER.
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. Einzelne Touchpoints können nun auch **auf den nächsten Treffer** (statt am Ende) im Pfad eingegrenzt werden. Jedem Touchpoint unterliegen die Auswahlmöglichkeiten „Pfad am Ende“ und „Nächster Treffer“:
+1. Einzelne Touchpoints können nun auch **auf den nächsten Hit** (statt am Ende) im Pfad eingegrenzt werden. Jedem Touchpoint unterliegen die Auswahlmöglichkeiten „Pfad am Ende“ und „Nächster Hit“:
 
    ![](assets/next-hit-eventually.png)
 
@@ -48,29 +48,29 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Pfad am Ende </p> <p>(Standardeinstellung) </p> </td> 
-   <td colname="col2"> <p>Die Besucher, die „am Ende“ auf der nächsten Seite im Pfad, aber nicht notwendigerweise beim nächsten Treffer landen, werden gezählt. </p> </td> 
+   <td colname="col2"> <p>Die Besucher, die „am Ende“ auf der nächsten Seite im Pfad, aber nicht notwendigerweise beim nächsten Hit landen, werden gezählt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nächster Treffer </p> </td> 
-   <td colname="col2"> <p>Die Besucher, die auf der nächsten Seite im Pfad, genau beim nächsten Treffer landen, werden gezählt. </p> </td> 
+   <td colname="col1"> <p>Nächster Hit </p> </td> 
+   <td colname="col2"> <p>Die Besucher, die auf der nächsten Seite im Pfad, genau beim nächsten Hit landen, werden gezählt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Fallout settings {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Fallout-Einstellungen {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Einstellung | Beschreibung |
 |--- |--- |
 | Fallout-Container <ul><li>Besuch</li><li>Besucher</li></ul> | Hiermit können Sie bei der Analyse der Besucherpfade zwischen Besuch und Besucher wechseln. Die Standardeinstellung lautet „Besucher“.  Mithilfe dieser Einstellungen können Sie Einblicke in Besucheraktivitäten auf der Besucherebene (besuchsübergreifend) erhalten oder die Analyse auf einen einzelnen Besuch einschränken. |
-| "Alle Besucher"als ersten Touchpoint anzeigen | Diese Option können Sie deaktivieren, wenn Sie nicht möchten, dass „Alle Besucher“ der erste Touchpoint ist. |
+| „Alle Besucher“ als ersten Touchpoint anzeigen. | Diese Option können Sie deaktivieren, wenn Sie nicht möchten, dass „Alle Besucher“ der erste Touchpoint ist. |
 
-When you **right-click a touchpoint**, the following options appear:
+Wenn Sie **mit der rechten Maustaste auf einen Touchpoint klicken**, werden die folgenden Optionen angezeigt:
 
 | Option | Beschreibung |
 |--- |--- |
 | Trend-Touchpoint | Zeigt Trenddaten für einen Touchpoint in einem Liniendiagramm mit einigen vorab definierten Anomalieerkennungsdaten an. |
 | Trend-Touchpoint (%) | Trends für den gesamten Fallout-Prozentsatz |
 | Trenderstellung aller Touchpoints (%) | Trends für alle Touchpoint-Prozentsätze im Fallout (außer „Alle Besuche“, falls vorhanden) im selben Diagramm. |
-| Aufschlüsselung für Verbleib an diesem Touchpoint | Zeigt die Aktivitäten von Besuchern zwischen zwei Touchpoints, wenn diese zum nächsten Touchpoint übergegangen sind. Diese Option erstellt eine Freiform-Tabelle, die Ihre Dimensionen enthält. Dimensionen und andere Elemente der Tabelle können Sie austauschen. |
+| Aufschlüsselung für Verbleib an diesem Touchpoint | Zeigt die Aktivitäten von Besuchern zwischen zwei Touchpoints, wenn diese zum nächsten Touchpoint übergegangen sind. Diese Option erstellt eine Freiformtabelle, die Ihre Dimensionen enthält. Dimensionen und andere Elemente der Tabelle können Sie austauschen. |
 | Aufschlüsselung für Abgang an diesem Touchpoint | Zeigt an, was Besucher, die nicht im Trichter verblieben sind, unmittelbar nach dem ausgewählten Schritt getan haben. |
 | Segment aus Touchpoint erstellen | Erstellen Sie ein Segment aus dem ausgewählten Touchpoint. |
