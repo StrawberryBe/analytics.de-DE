@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,13 +17,13 @@ Alle Geldbeträge werden in einer Währung Ihrer Wahl gespeichert. Wenn dies die
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |--- |--- |--- |--- |
-| Keine | cc | Konversion &gt; Einkäufe &gt; Umsatz Alle Konversionsberichte, die Umsätze oder Geldbeträge anzeigen | „USD“ |
+| nicht angegeben | cc | Konversion &gt; Einkäufe &gt; Umsatz Alle Konversionsberichte, die Umsätze oder Geldbeträge anzeigen | „USD“ |
 
 Wenn Besucher auf Ihrer Website Einkäufe in verschiedenen Währungen tätigen können, müssen Sie mithilfe der Variable *`currencyCode`* sicherstellen, dass Umsätze in der entsprechenden Währung gespeichert werden. Wenn die Basiswährung für Ihre Report Suite beispielsweise USD ist und Sie einen Artikel für 40 Euro verkaufen, müssen Sie die *`currencyCode`* mit „EUR“ auf der HTML-Seite ausfüllen. Nach Eingang der Daten bei der Datenerfassung werden diese 40 Euro dann unter Verwendung des aktuellen Konversionskurses in USD umgerechnet.
 
 Wenn Sie Verkäufe in mehreren Währungen tätigen, empfiehlt es sich, die Variable *`currencyCode`* auf der HTML-Seite anstatt in der JavaScript-Datei aufzufüllen. Wenn Sie anstelle der von Adobe verwendeten Konversionsraten Ihre eigenen Konversionsraten verwenden möchten, stellen Sie *`currencyCode`* auf die Basiswährung Ihrer Report Suite ein. Dann rechnen Sie alle Umsätze um, bevor diese nach [!DNL Analytics] gesendet werden.
 
-Wechselkurskonversionen werden sowohl bei Umsatz- als auch bei Währungs-Ereignissen vorgenommen. Das sind Ereignisse, mit denen Werte zu Umsätzen summiert werden, wie Steuern und Versandkosten. Die Umsatz- und Währungs-Ereignisse werden in den Produktzeichenfolgen angegeben. Weitere Informationen zu Produkten finden Sie unter [events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
+Wechselkurskonversionen werden sowohl bei Umsatz- als auch bei Währungs-Ereignissen vorgenommen. Das sind Ereignisse, mit denen Werte zu Umsätzen summiert werden, wie Steuern und Versandkosten. Die Umsatz- und Währungs-Ereignisse werden in den Produktzeichenfolgen angegeben. Weitere Informationen zu Produkten finden Sie unter [events](https://docs.adobe.com/content/help/de-DE/analytics/implementation/analytics-basics/ref-events.html).
 
 ## Syntax und mögliche Werte
 
@@ -52,4 +52,4 @@ Adobe [!DNL Customer Care] kann die für Ihre Report Suite standardmäßig einge
 * Währungs-Ereignisse dürfen nicht für Zwecke eingesetzt werden, bei denen es nicht um Währungen geht. Wenn Sie beliebige oder dynamische Werte zählen möchten, die keine Währungen sind, verwenden Sie den Ereignistyp [!UICONTROL numeric].
 * Wenn die Variable *`currencyCode`* leer ist, wird keine Konversion vorgenommen.
 
-Weitere Informationen finden Sie unter [Währungscodes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
+Weitere Informationen finden Sie unter [Währungscodes](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/currency.html).
