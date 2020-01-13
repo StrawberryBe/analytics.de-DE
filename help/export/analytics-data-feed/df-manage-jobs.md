@@ -1,28 +1,28 @@
 ---
-title: Verwalten von Datenfeed-Aufträgen
-description: Erfahren Sie, wie Sie einzelne Aufträge in Data Feeds verwalten.
-translation-type: tm+mt
+title: Verwalten von Daten-Feed-Aufträgen
+description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten.
+translation-type: ht
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# Verwalten von Datenfeed-Aufträgen
+# Verwalten von Daten-Feed-Aufträgen
 
 Aufträge sind einzelne Aufgaben, die eine komprimierte Datei ausgeben. Sie werden von Feeds erstellt und verwaltet.
 
-Gehen Sie wie folgt vor, um auf die Verwaltung von Data Feed-Aufträgen zuzugreifen:
+Gehen Sie wie folgt vor, um auf das Daten-Feed-Auftragsmanagement zuzugreifen:
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+1. Melden Sie sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Raster-Menü und dann auf [!UICONTROL Analytics].
-3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] &gt; [!UICONTROL Datenfeeds].
-4. Klicken Sie oben auf die Registerkarte "Aufträge".
+3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] &gt; [!UICONTROL Daten-Feeds].
+4. Klicken Sie oben auf die Registerkarte „Aufträge“.
 
-![Datenfeed-Menü](assets/AdminMenu.png)
+![Daten-Feed-Menü](assets/AdminMenu.png)
 
-## Navigieren in der Oberfläche
+## Navigieren der Oberfläche
 
-Ein Datenfeed-Auftrag ist eine einzelne Instanz, in der Adobe eine komprimierte Datei für ein bestimmtes Berichtsfenster verarbeitet und ausgibt. Der Job Manager bietet eine verfeinerte Ansicht, um den Status einzelner Aufträge zu sehen.
+Ein Daten-Feed-Auftrag ist eine einzelne Instanz, in der Adobe eine komprimierte Datei für ein bestimmtes Berichtsfenster verarbeitet und ausgibt. Der Auftragsmanager bietet eine detailliertere Ansicht mit dem Status einzelner Aufträge.
 
 ![Aufträge](assets/jobs.jpg)
 
@@ -30,36 +30,36 @@ Ein Datenfeed-Auftrag ist eine einzelne Instanz, in der Adobe eine komprimierte 
 
 Verwenden Sie Filter und suchen Sie nach dem gewünschten Auftrag.
 
-Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Klicken Sie auf das Chevron, um die Filterkategorien zu reduzieren oder zu erweitern. Markieren Sie das Kontrollkästchen, um diesen Filter anzuwenden.
+Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Klicken Sie auf das Chevron, um die Filterkategorien ein- oder auszublenden. Markieren Sie das Kontrollkästchen, um diesen Filter anzuwenden.
 
 ![Filter](assets/jobs-filter.jpg)
 
-Verwenden Sie die Suche, um einen Auftrag nach Namen zu suchen.
+Suchen Sie nach einem Auftrag anhand des Namens.
 
 ![Durchsuchen](assets/search.jpg)
 
 ### Feeds und Aufträge
 
-Klicken Sie auf die Registerkarte Feeds, um allgemeine Feeds anzuzeigen, die diese Aufträge erstellen. See [Manage data feeds](df-manage-feeds.md).
+Klicken Sie auf die Registerkarte „Feeds“, um allgemeine Feeds anzuzeigen, die diese Aufträge erstellen. [Datenquellen verwalten](df-manage-feeds.md).
 
 ### Spalten
 
-Jeder Auftrag zeigt mehrere Spalten mit Informationen dazu an. Klicken Sie auf eine Spaltenüberschrift, um sie in aufsteigender Reihenfolge zu sortieren. Klicken Sie erneut auf eine Spaltenüberschrift, um sie in absteigender Reihenfolge zu sortieren. Wenn eine bestimmte Spalte nicht angezeigt wird, klicken Sie auf das Spaltensymbol oben rechts.
+Jeder Auftrag zeigt mehrere Spalten mit Informationen an. Klicken Sie auf eine Spaltenüberschrift, um sie in aufsteigender Reihenfolge zu sortieren. Klicken Sie erneut auf eine Spaltenüberschrift, um sie in absteigender Reihenfolge zu sortieren. Wenn eine bestimmte Spalte nicht angezeigt wird, klicken Sie auf das Spaltensymbol oben rechts.
 
 ![Spaltensymbol](assets/job-cols.jpg)
 
-* **Feed-ID**: Zeigt die Feed-ID an, eine eindeutige ID. Aufträge, die von demselben Feed erstellt werden, haben dieselbe Feed-ID.
-* **Auftrag-ID**: Eine eindeutige ID für den Auftrag. Alle Aufträge haben eine andere Job-ID.
-* **Feed-Name**: Erforderliche Spalte. Zeigt den Feed-Namen an. Aufträge, die von demselben Feed erstellt werden, haben denselben Feed-Namen.
+* **Feed-ID**: Zeigt die Feed-ID an, eine eindeutige Kennung. Aufträge, die von demselben Feed erstellt werden, haben dieselbe Feed-ID.
+* **Auftrags-ID**: Eine eindeutige ID für den Auftrag. Alle Aufträge haben eine andere Auftrags-ID.
+* **Feed-Name**: Erforderliche Spalte. Zeigt den Feed-Namen an. Aufträge, die von demselben Feed erstellt werden, haben denselben Feednamen.
 * **Report Suite**: Die Report Suite, aus der der Auftrag Daten referenziert.
 * **Report Suite-ID**: Die eindeutige Kennung der Report Suite.
-* **Startzeit**: Der Zeitpunkt, zu dem der Auftrag gestartet wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Versatz angezeigt. Tägliche Feeds beginnen üblicherweise nahe Mitternacht in der Zeitzone der Report Suite.
-* **Status**: Der Status des Feeds.
-   * Warten auf Daten: Der Auftrag ist betriebsbereit und Daten für das Berichtsfenster werden erfasst.
-   * Verarbeitung: Der Auftrag erstellt die Datendateien und bereitet das Senden vor.
+* **Startzeit**: Der Zeitpunkt, zu dem der Auftrag gestartet wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt. Tägliche Feeds beginnen üblicherweise gegen Mitternacht in der Zeitzone der Report Suite.
+* **Status:** Der Status des Feeds.
+   * Warten auf Daten: Der Auftrag ist betriebsfähig, und Daten für das Berichtsfenster werden erfasst.
+   * In Verarbeitung: Der Auftrag erstellt die Datendateien und bereitet das Senden dieser Dateien vor.
    * Abgeschlossen: Der Auftrag wurde ohne Probleme abgeschlossen.
-   * Fehlgeschlagen: Der Auftrag wurde nicht abgeschlossen. Informationen zur Ermittlung der Fehlerursache finden Sie unter [Fehlerbehebung bei Aufträgen](jobs-troubleshooting.md) .
+   * Fehlgeschlagen: Der Auftrag wurde nicht abgeschlossen. Informationen zur Ermittlung der Fehlerursache finden Sie unter [Fehlerbehebung bei Aufträgen](jobs-troubleshooting.md).
    * Warten auf Export: Die Daten für das Berichtsfenster wurden noch nicht vollständig verarbeitet.
-   * Keine Daten: Die Report Suite für das angeforderte Berichtsfenster enthält keine Daten.
-* **Abschlusszeit**: Der Zeitpunkt, zu dem der Auftrag beendet wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Versatz angezeigt.
-* **Angefordertes Datum**: Das Berichtsfenster der Datei. Tägliche Feeds zeigen in der Regel 00:00 - 23:59 mit einem GMT-Offset an, was einen vollständigen Tag basierend auf der Zeitzone der Report Suite anzeigt. Stündliche Feeds zeigen die einzelne Stunde an, für die der Auftrag ausgeführt wird.
+   * Keine Daten: Die Report Suite enthält für das angeforderte Berichtsfenster keine Daten.
+* **Abschlusszeit**: Der Zeitpunkt, zu dem der Auftrag abgeschlossen wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
+* **Angefordertes Datum**: Das Berichtsfenster der Datei. Tägliche Feeds zeigen in der Regel 00:00–23:59 mit einer GMT-Verschiebung an, was einem vollständigen Tag basierend auf der Zeitzone der Report Suite entspricht. Stündliche Feeds zeigen die jeweilige Stunde an, für die der Auftrag ausgeführt wird.
