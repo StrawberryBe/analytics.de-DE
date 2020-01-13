@@ -3,7 +3,7 @@ description: Berechnete und erweiterte berechnete (abgeleitete) Metriken sind be
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,16 +15,16 @@ Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinie
 
 >[!IMPORTANT]
 >
->In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
+>Im Juli 2018 hat Adobe die Funktion [Attribution IQ](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/attribution.html) eingeführt, mit der die Bewertung von Zuordnungsmodellen bei berechneten Metriken geändert wurde. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
 >
->* Zuordnungsmodelle für "Marketingkanal-Letztkontakt"und "Marketingkanal-Erstkontakt"wurden zu neuen Zuordnungsmodellen für "Letztkontakt"und "Erstkontakt"migriert (Hinweis: "Marketingkanäle"wurde nicht mehr unterstützt - nur die beiden Zuordnungsmodelle, die in berechneten Metriken angezeigt werden, wurden entfernt).
->* Darüber hinaus haben wir die Berechnung der linearen Zuordnung korrigiert. Bei Kunden, die berechnete Metriken mit "linearen"Zuordnungsmodellen verwenden, ändern sich die Berichte möglicherweise leicht, um das neue, korrigierte Zuordnungsmodell wiederzugeben. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung ab 19. Juli 2018 funktioniert](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Die Zuordnungsmodelle „Marketing-Kanal – Letztkontakt“ und „Marketing-Kanal – Erstkontakt“ wurden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle sind nicht veraltet, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen.)
+>* Darüber hinaus wurde die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an den berechneten Metriken betrifft [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], die Reporting-API, Report Builder und Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung ab 19. Juli 2018 funktioniert](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
-Mit unseren Werkzeugen für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
+Mit unseren Werkzeugen für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
 
-* Adobe [!DNL Analytics] Foundation: Calculated
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Berechnet  + Erweitert berechnet
+* Adobe [!DNL Analytics] Foundation: Berechnet
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Berechnet + Erweitert berechnet
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Berechnet + erweitert berechnet
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Berechnet + erweitert berechnet
 
@@ -44,24 +44,24 @@ Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berec
 
 Sie können
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* Metriken über [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] hinweg erstellen.
 * Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, [ohne die Implementierung ändern zu müssen](https://youtu.be/CuQTm9RaUpY). Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
 * (Nur erweiterte berechnete Metriken) Segmente für Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist.
 * (Nur erweiterte berechnete Metriken) Statistische Funktionen miteinbeziehen, um Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
+* Metriken, die in [!UICONTROL Ad Hoc Analysis] erstellt wurden, in anderen [!DNL Analytics]-Werkzeugen verwenden und umgekehrt.
 
    >[!NOTE]
    >
-   >Sie können weiterhin Metriken in Ad-hoc-Analysen erstellen. Die Benutzeroberfläche des dortigen Generators für berechnete Metriken ähnelt jetzt dem neuen Generator für Metriken.
+   >Sie können weiterhin Metriken in Ad Hoc Analysis erstellen. Die Benutzeroberfläche des dortigen Generators für berechnete Metriken ähnelt jetzt dem neuen Generator für Metriken.
 
 ## Einschränkungen {#section_CB878B02451541D68A68B508D4DBD19A}
 
-Some [!DNL Analytics] features let you use events but not calculated metrics:
+Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berechneten Metriken verwenden:
 
-* Trichter in Reports &amp; Analytics
-* Fallout in Analysis Workspace
-* [!UICONTROL Kohortenanalyse in Analysis Workspace]
+* [!UICONTROL Trichter] in [!UICONTROL Reports &amp; Analytics]
+* Fallout in [!UICONTROL Analysis Workspace]
+* [!UICONTROL Kohortenanalyse] in Analysis Workspace
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL Segmente]
 * [!UICONTROL Echtzeitberichte]
@@ -70,7 +70,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
+Im Folgenden erhalten Sie einen kurzen Überblick über die Werkzeuge für [!UICONTROL berechnete Metriken]:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
@@ -86,29 +86,29 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">Erstellen Sie einfache berechnete Metriken oder erweiterte berechnete Metriken mit erweiterten Zuordnungsmodellen. </li> 
      <li id="li_C8C97BA4E227463E98077ABA5818FFC6">Segmente inline zu Metrik-Formeln hinzufügen. </li> 
-     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Segmente in einem Bericht vergleichen (beispielsweise lokale Besucher mit internationalen Besuchern vergleichen) </li> 
-     <li id="li_4B528FDE1F96400DBA0D3276408FF919">Statistische Funktionen verwenden </li> 
-     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Detaillierte Metrikbeschreibungen angeben (was die Metrik macht, wo sie verwendet werden sollte, wo sie NICHT verwendet werden sollte) </li> 
-     <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Definitionen in neue Metriken kopieren </li> 
-     <li id="li_8C21F55015D44910904202D2BF74221C">Eine Inline-Metrikvorschau bereitstellen </li> 
-     <li id="li_3704F66C321C477F9D4F52E068C231BD">Die Metrikpolarität festlegen, die angibt, ob es gut oder schlecht ist, wenn ein bestimmtes benutzerspezifisches Ereignis (eine Metrik) steigt </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Metriken taggen </li> 
+     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Segmente in einem Bericht vergleichen (beispielsweise lokale Besucher mit internationalen Besuchern vergleichen.) </li> 
+     <li id="li_4B528FDE1F96400DBA0D3276408FF919">Statistische Funktionen verwenden. </li> 
+     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Detaillierte Metrikbeschreibungen angeben (was die Metrik macht, wo sie verwendet werden sollte, wo sie NICHT verwendet werden sollte.) </li> 
+     <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Definitionen in neue Metriken kopieren. </li> 
+     <li id="li_8C21F55015D44910904202D2BF74221C">Eine Inline-Metrikvorschau bereitstellen. </li> 
+     <li id="li_3704F66C321C477F9D4F52E068C231BD">Die Metrikpolarität festlegen, die angibt, ob es gut oder schlecht ist, wenn ein bestimmtes benutzerspezifisches Ereignis (eine Metrik) steigt. </li> 
+     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Metriken taggen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Berechnete Metrik – Manager</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
-     <li id="li_E0B216BA1478406EB6212263DF71D85B">Metriken für andere freigeben </li> 
-     <li id="li_96EB16FAF3454211AAEF78EA5B08927F">Metriken genehmigen und kuratieren </li> 
-     <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">Metriken organisieren (taggen), damit sie von Benutzern gefunden werden können </li> 
-     <li id="li_726F3C3390744E49BA63606FE196880E">Metriken löschen </li> 
-     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">Metriken umbenennen </li> 
+     <li id="li_E0B216BA1478406EB6212263DF71D85B">Metriken für andere freigeben. </li> 
+     <li id="li_96EB16FAF3454211AAEF78EA5B08927F">Metriken genehmigen und kuratieren. </li> 
+     <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">Metriken organisieren (taggen), damit sie von Benutzern gefunden werden können. </li> 
+     <li id="li_726F3C3390744E49BA63606FE196880E">Metriken löschen. </li> 
+     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">Metriken umbenennen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Leiste „Metrikauswahl“ </td> 
-   <td colname="col2"> <p>Ersetzt das Popup-Fenster <span class="uicontrol">Metriken anzeigen</span><span class="uicontrol"> in Reports &amp; Analytics</span>. </p> <p>Damit können Sie auch Metriken suchen und diese dem Bericht hinzufügen bzw. darauf anwenden. Außerdem können Sie die <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >Sortierfolge</a> ändern (Optionen sind: Alphabetisch, Empfohlen, Häufig verwendet, Kürzlich verwendet). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden. </p> <p>Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> auf der linken Seite eines Berichts. Die Metrikauswahl sieht wie folgt aus: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Ersetzt das Popup-Fenster <span class="uicontrol">Metriken anzeigen</span> in <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Damit können Sie auch Metriken suchen und sie dem Bericht hinzufügen bzw. auf ihn anwenden. Außerdem können Sie die <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >Sortierfolge</a> ändern (Optionen sind: Alphabetisch, Empfohlen, Häufig verwendet, Kürzlich verwendet). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden. </p> <p>Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> auf der linken Seite eines Berichts. Die Metrikauswahl sieht wie folgt aus: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API für berechnete Metriken</a> </td> 
