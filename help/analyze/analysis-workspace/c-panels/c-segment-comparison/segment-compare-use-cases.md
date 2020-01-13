@@ -1,63 +1,63 @@
 ---
 title: Anwendungsfälle für Segmentvergleiche
-description: Erfahren Sie, wie Sie mithilfe des Segmentvergleichsfelds Einblicke in die Marketingstrategie gewinnen können.
-keywords: Segment-IQ
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie mithilfe des Segmentvergleichsfelds Einblicke in die Marketing-Strategie gewinnen können.
+keywords: Segment IQ
+translation-type: ht
 source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
-# Anwendungsfälle für Segment-IQ
+# Anwendungsfälle für Segment IQ
 
-Der Bereich für den Segmentvergleich ist eine häufig verwendete Funktion im Arbeitsbereich für Analysen. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
+Der Bereich für den Segmentvergleich ist eine häufig verwendete Funktion in Analysis Workspace. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
 
-## Anwendungsfall 1: Vergleich von Mobil- und Desktop-Implementierungen
+## Anwendungsfall 1: Vergleich zwischen Mobile- und Desktop-Implementierung
 
-> *„Wir haben zwei Seiten hinsichtlich der Treffer verglichen und schnell einige Abweichungen beim Tagging festgestellt. So konnten wir Datenprobleme vor der Produktveröffentlichung vermeiden.“*
+> *„Wir haben zwei Seiten hinsichtlich der Hits verglichen und schnell einige Abweichungen beim Tagging festgestellt. So konnten wir Datenprobleme vor der Produktveröffentlichung vermeiden.“*
 
-Ein Produktmanager, der für eine mobile Website und eine Desktop-Website zuständig ist, wurde damit beauftragt, sicherzustellen, dass die Tags für Mobilgeräte und Desktop einheitlich sind. Um sicherzustellen, dass er nichts Wichtiges versäumt hatte, nutzte er das Fenster für den Segmentvergleich, um Treffer von ihrer mobilen Site mit Treffern zu vergleichen, die von ihrer Desktop-Site kamen. Er bemerkte, dass es auf der mobilen Website keine Kassengangereignisse gab und die korrekten Tags vor der Veröffentlichung der mobilen Site vorhanden waren. So konnte der Produktmanager vermeiden, dass die mobile Website keine Konversionen aufzeichnete, was zu einer Datenkatastrophe geführt hätte.
+Ein Produkt-Manager, der für eine mobile Website und eine Desktop-Website zuständig ist, sollte sicherstellen, dass die Tags auf beiden Websites einheitlich waren. Um sicherzustellen, dass er nichts Wichtiges versäumt hatte, nutzte er das Fenster für den Segmentvergleich, um Hits von der mobilen Site mit Hits zu vergleichen, die von der Desktop-Site stammten. Er bemerkte, dass es auf der mobilen Website keine Checkout-Ereignisse gab, und implementierte die korrekten Tags vor der Veröffentlichung der mobilen Site. So konnte der Produkt-Manager vermeiden, dass die mobile Website keine Konversionen aufzeichnete, was zu einer Datenkatastrophe geführt hätte.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Trefferbehälter, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
+| Hit-Container, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
 
-## Anwendungsfall 2: Kunden, die eine bestimmte Funktion verwenden, mit Kunden vergleichen, die
+## Anwendungsfall 2: Vergleich zwischen Kunden, die eine bestimmte Funktion nutzen, und solchen, die sie nicht nutzen
 
 > *„Wir stellten fest, dass Kunden, die unseren Produktvergleich nutzten, mit 10 % höherer Wahrscheinlichkeit konvertierten. Wir platzierten diese Funktion am Anfang der Seite. Dadurch stieg die Anzahl der Bestellungen um 4 %!“*
 
-Ein Site-Optimierungsteam für den Handel wollte die Benutzer besser verstehen, die mit einer kürzlich veröffentlichten Produktvergleichsfunktion interagierten. Sie nutzten das Bedienfeld für den Segmentvergleich, um Benutzer, die die Produktvergleichsfunktion verwendeten, mit allen anderen auf der Site zu vergleichen. Sie haben schnell mehrere wichtige Unterschiede festgestellt, darunter die Tatsache, dass diese Benutzer mit 10 % höherer Wahrscheinlichkeit ein Produkt kaufen. Das Optimierungsteam entschied sich, versuchsweise die Produktvergleichsfunktion auffälliger am Anfang der Seite zu platzieren.
+Das Optimierungs-Team einer Einzelhandels-Website wollte die Nutzer besser verstehen, die eine kürzlich veröffentlichte Produktvergleichsfunktion nutzten. Sie nutzten das Bedienfeld für den Segmentvergleich, um Benutzer, die die Produktvergleichsfunktion verwendeten, mit allen anderen auf der Site zu vergleichen. Sie fanden schnell einige wichtige Unterschiede, darunter die Tatsache, dass diese Nutzer mit 10 % höherer Wahrscheinlichkeit ein Produkt kauften. Das Optimierungs-Team entschied sich, versuchsweise die Produktvergleichsfunktion auffälliger am Anfang der Seite zu platzieren.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Besucherbehälter, in dem benutzerdefiniertes Ereignis (Preisvergleichswerkzeug) vorhanden ist | Alle anderen |
+| Besucher-Container, in dem ein benutzerdefiniertes Ereignis (Preisvergleichswerkzeug) vorhanden ist | Alle anderen |
 
-## Anwendungsfall 3: die Besucher der News-Site mit anderen Site-Abschnittsbesuchern vergleichen
+## Anwendungsfall 3: Vergleich zwischen Besuchern der News-Website und Besuchern anderer Website-Abschnitte
 
 > *„Wir haben festgestellt, dass sich Besucher unseres News-Abschnitts mit doppelter Wahrscheinlichkeit Videoanzeigen ansehen. Deshalb haben wir in diesem Abschnitt mehr Videooptionen hinzugefügt. Dadurch sind die angesehenen Videoanzeigen um 7 % gestiegen!“*
 
-Ein großer Medienverlag untersuchte in seinem Nachrichtenbereich, wie die Interaktion mit Inhalten für Zielgruppen verbessert werden kann. Sie haben ein Segment von Besuchern erstellt, die den Bereich News-Site besucht hatten, um die News-Zielgruppe besser zu verstehen. Sie stellten sofort fest, dass diese Benutzer mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen wie Besucher anderer Sitebereiche. Das Videoteam hat einen empfohlenen Videoabschnitt auf der News-Seitenleiste zusammengestellt und eine 7%ige Steigerung der angezeigten Videoanzeigen erzielt.
+Ein großer Medienverlag suchte nach Möglichkeiten, die Interaktion mit Inhalten durch Besucher seines News-Bereichs zu verbessern. Er erstellte ein Segment von Besuchern, die die News-Site besucht hatten, um die News-Zielgruppe besser zu verstehen. Sofort wurde festgestellt, dass diese Benutzer mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen wie Besucher anderer Website-Bereiche. Das Video-Team erstellte in der Seitenleiste des News-Bereichs einen Abschnitt mit empfohlenen Videos und erzielte eine Steigerung der angesehenen Videoanzeigen um 7 %.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Besucherbehälter, bei dem der Sitebereich gleich "Nachrichten" ist | Alle anderen |
+| Besucher-Container, bei dem der Website-Bereich „News“ entspricht | Alle anderen |
 
-## Anwendungsfall 4: Vergleich von Besuchern aus der gebührenpflichtigen Suche mit allen anderen
+## Anwendungsfall 4: Vergleich zwischen Besuchern aus Paid Search und allen anderen
 
-> *„Wir konnten bei Besuchern, die unsere Seite über Suchmaschinen erreicht hatten, mit dreimal höherer Wahrscheinlichkeit einen Up-Sell erzielen als bei allen anderen. We upped our spend on specific keywords as a result and achieved a 56% increase in up-sells."*
+> *„Wir konnten bei Besuchern, die unsere Seite über Suchmaschinen erreicht hatten, mit dreimal höherer Wahrscheinlichkeit einen Upsell erzielen als bei allen anderen. Wir steigerten daher unsere Ausgaben für bestimmte Schlüsselwörter und erzielten eine Steigerung der Upsells um 56 %.“*
 
-Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch bezahlte Suchbegriffe seine Website erreichte. Die gebührenpflichtige Suche hatte nicht zu einer Menge Umrechnungen direkt geführt, und der Marketingmanager überlegte, das Budget dafür zu senken. Das Marketing-Team erstellte ein Segment von Besuchern, die über die gebührenpflichtige Suche zur Site kamen, und verglich diese mit allen anderen Besuchern im Bereich Segmentvergleich. Sie entdeckten, dass diese Besucher zwar nicht so wahrscheinlich direkt umgerechnet werden, dass sie aber mit dreimal höherer Wahrscheinlichkeit einen Upsell für einen zuvor erworbenen Dienst durchführen. Das Marketing-Team konzentrierte sich bei seinem Budget nur auf die mit dem Upsell zusammenhängenden Suchbegriffe und verzeichnete einen Anstieg der Serviceverkäufe um 56 %.
-
-| Segment 1 | Segment 2 |
-|--- |--- |
-| Besucherbehälter, bei dem der Typ der verweisenden Stelle der gebührenpflichtigen Suche entspricht | Alle anderen |
-
-## Anwendungsfall 5: Vergleich von Fitbit-Käufern mit allen anderen
-
-> *"Wir haben herausgefunden, dass Leute, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine 'out of stock'-Nachricht bekommen als alle anderen, sodass wir schnell mehr Fitbits bestellten und vermeiden konnten, dass der Vorrat ausgeht!"*
-
-**** Szenario: Ein großer Online-Händler interessierte sich dafür, wie eines der heißesten Urlaubsprodukte - Fitbit - verkauft wurde und was Fitbit Käufer unter anderen Kunden einzigartig machte. Das Marketingteam konnte einfach auf den Zeileneintrag „Fitbit“ im Produktbericht rechtsklicken und im Handumdrehen eine Segment-IQ-Analyse durchführen. Das Team fand heraus, dass Nutzer, die Fitbits kauften, mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten als alle anderen Kunden. Nach weiteren Analysen konnte das Marketingteam diese Besucher an seine Ladengeschäfte verweisen, während es darauf wartete, dass die Einkaufsabteilung weitere Fitbits bestellte. So konnte das Unternehmen weitere Bestandslücken vermeiden und die Weihnachtsnachfrage besser decken.
+Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch Paid-Search-Suchbegriffe seine Website erreichte. Es hatte durch Paid Search nicht viele Konversionen direkt erzielt, und der Marketing-Leiter dachte darüber nach, das Budget dafür zu senken. Das Marketing-Team erstellte ein Segment mit Besuchern, die die Website über Paid Search erreicht hatten, und verglich sie mit dem Segmentvergleich mit allen anderen Besuchern. Das Ergebnis war, dass diese Besucher zwar weniger wahrscheinlich direkt konvertierten, aber mit dreimal höherer Wahrscheinlichkeit einen Upsell für eine zuvor gekaufte Dienstleistung erzielt werden konnte. Das Marketing-Team konzentrierte sein Budget auf Suchbegriffe im Zusammenhang mit Upselling und erzielte eine Steigerung der Upsells für Dienstleistungen um 56 %.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Besucherbehälter, in dem Bestellungen vorhanden sind und benutzerdefinierte Dimension Marke gleich FitBit | Alle anderen |
+| Besucher-Container, bei dem der Typ der verweisenden Stelle „Paid Search“ ist | Alle anderen |
+
+## Anwendungsfall 5: Vergleich zwischen Käufern von Fitbit und allen anderen
+
+> *„Wir haben festgestellt, dass Käufer von Fitbits mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten. Deshalb haben wir schnell mehr Fitbits bestellt und konnten die Nachfrage decken!“*
+
+**Szenario:** Ein großes Online-Einzelhandelsunternehmen hatte die Absicht, herauszufinden, wie sich Fitbit – einer der beliebtesten Weihnachtsartikel – verkaufte und was Fitbit-Käufer von anderen Kunden unterschied. Das Marketingteam konnte einfach auf den Zeileneintrag „Fitbit“ im Produktbericht rechtsklicken und im Handumdrehen eine Segment-IQ-Analyse durchführen. Das Team fand heraus, dass Nutzer, die Fitbits kauften, mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten als alle anderen Kunden. Nach weiteren Analysen konnte das Marketingteam diese Besucher an seine Ladengeschäfte verweisen, während es darauf wartete, dass die Einkaufsabteilung weitere Fitbits bestellte. So konnte das Unternehmen weitere Bestandslücken vermeiden und die Weihnachtsnachfrage besser decken.
+
+| Segment 1 | Segment 2 |
+|--- |--- |
+| Besucher-Container, in dem Bestellungen vorhanden sind und benutzerdefinierte Dimension „Marke“ gleich „FitBit“ | Alle anderen |
