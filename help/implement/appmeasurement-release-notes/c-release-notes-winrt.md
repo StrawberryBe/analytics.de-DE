@@ -5,7 +5,7 @@ subtopic: Release notes
 title: WinRT für Windows 8
 topic: Developer and implementation
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >Schalten Sie die Debug-Protokollierung ein, um die aktuelle Bibliotheksversion zu suchen.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+[Downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) mobiler Bibliotheken sind über [!DNL Developer Connection] verfügbar.
 
 >[!NOTE]
 >
@@ -25,38 +25,38 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 ## Version 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
-Releasedatum: **17. Juni 2014**
+Releasedatum: **17. Juni 2014**
 
 Neue Version mit neuen Funktionen, einschließlich des geografischen Standorts, Lebenszykluswerts, zeitgesteuerter Aktionen und Anmeldeunterstützung.
 
 ## Version 3.1.1 {#section_6E925545B72240BB816DA2333CA93E46}
 
-Releasedatum: **22. Mai 2014**
+Releasedatum: **22. Mai 2014**
 
 Fehlerbehebungen und kleinere Verbesserungen.
 
 ## Version 3.1.0 {#section_F9059928B6FE43C99322A0DA35EB85C3}
 
-Releasedatum: **17. Oktober 2013**
+Releasedatum: **17. Oktober 2013**
 
 * [!DNL Windows]Kompatibilität mit 8.1
 
 ## Version 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
-Releasedatum: **18. April 2013**
+Releasedatum: **18. April 2013**
 
 * Problem behoben, bei dem die Länge der vorherigen Sitzung in manchen Fällen fehlerhaft berechnet wurde.
 
 ## Version 3.0.4 {#section_FD242F9BA3D1481090E45998883E4CDD}
 
-Releasedatum: **21. März 2013**
+Releasedatum: **21. März 2013**
 
 * `ADMS_Measurement.visitorID` wird jetzt automatisch auf den Standardwert festgelegt.
 * Problem beim Abrufen der Geräteinformationen behoben.
 
 ## Version 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
 
-Releasedatum: **21. Februar 2013**
+Releasedatum: **21. Februar 2013**
 
 * Aufgrund der Thread-Optimierung ist die Einstellung `offlineThrottleDelay` veraltet und nicht mehr erforderlich. Die Einstellung ist noch vorhanden, um die Rückwärtskompatibilität zu gewährleisten, hat jedoch keine Auswirkung mehr.
 * `DayOfWeek` ist nun 1-basiert mit Start am Sonntag, um mit den auf anderen Plattformen erfassten Werten übereinzustimmen.
