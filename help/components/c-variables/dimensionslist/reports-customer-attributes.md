@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zu Analytics für Kundenattribute und Info
 solution: Experience Cloud,Analytics
 title: Kundenattribute
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,11 +20,11 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 * [Kundenattribute und Berichterstattungsmetriken in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Häufig gestellte Fragen – Kundenattribute in Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Informationen zum Hochladen von Kundenattributdaten erhalten Sie unter [Kundenattribute](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in Experience Cloud.
+Informationen zum Hochladen von Kundenattributdaten erhalten Sie unter [Kundenattribute](https://marketing.adobe.com/resources/help/de_DE/mcloud/attributes.html) in Experience Cloud.
 
 ## Kundenattribute und Berichterstattungsmetriken in Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
-Nach dem Hochladen von Kundenattributen und der Validierung des Schemas (in der Experience Cloud) erstellt das System Metriken basierend auf den benutzerfreundlichen Namen (wie *`age`* oder *`gender`*), die Sie den Attributzeichenfolgen und -ganzzahlen zuordnen. These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
+Nach dem Hochladen von Kundenattributen und der Validierung des Schemas (in der Experience Cloud) erstellt das System Metriken basierend auf den freundlichen Namen (wie *`age`* oder *`gender`*), die Sie den Attributzeichenfolgen und -ganzzahlen zuordnen. Diese Metriken werden in den Berichten **[!UICONTROL Besucherprofil]** &gt; **[!UICONTROL Kundenattribute]** angezeigt.
 
 Beispiel:
 
@@ -40,7 +40,7 @@ Wenn Sie eine Zeichenfolge als *`age`* angeben, erstellt das System die folgende
 * Altersmetrik: Eine Metrik, die Sie zu einem Bericht hinzufügen können, beispielsweise einem Unique Visitors-Bericht.
 * Zählung der Altersmetrik: Sie können beispielsweise nachvollziehen, ob Besucher einen Wert für *`age`* auf einem Formular angegeben haben.
 
-Da Metriken in einer Berichtstabelle Summen darstellen, sollten Sie [eine berechnete Metrik erstellen](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/), über die Sie Informationen zum Durchschnittsalter erhalten. Die Formel für diese Metrik lautet `Age / Count of Age`.
+Da Metriken in einer Berichtstabelle Summen darstellen, sollten Sie [eine berechnete Metrik erstellen](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/), über die Sie Informationen zum Durchschnittsalter erhalten. Die Formel für diese Metrik lautet `Age / Count of Age`.
 
 ## Häufig gestellte Fragen – Kundenattribute in Analytics {#section_E29641D1F3D649C1AC9EA5231921F038}
 
@@ -53,12 +53,12 @@ Da Metriken in einer Berichtstabelle Summen darstellen, sollten Sie [eine berech
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Warum ist es besser, den Identitäts-Service zum Festlegen der Kunden-ID zu verwenden, anstatt die Kunden-ID in eine Prop oder eVar einzugeben? </p> </td> 
-   <td colname="col2"> <p>Die Verwendung des Identitätsdienstes bietet eine Reihe von Vorteilen: </p> 
+   <td colname="col1"> <p>Warum ist es empfehlenswert, den Identity Service zu verwenden, um die Kunden-ID festzulegen, anstatt die Kunden-ID in eine Eigenschaft oder eVar einzugeben? </p> </td> 
+   <td colname="col2"> <p>Die Verwendung des Identity Service bietet eine Reihe von Vorteilen: </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Wenn Sie die Kunden-ID nicht mit dem Identitätsdienst festlegen, stehen die Kundendatensätze nur für Adobe Analytics zur Verfügung. Wenn Sie die Kundendatensätze für Echtzeit-Targeting verwenden möchten, müssen Sie den Identitätsdienst verwenden. </li> 
-     <li id="li_228358684E474A298E39578D427BF932">Die Verwendung des Identitätsdienstes zum Festlegen der Kunden-ID verringert die Zeit, die für die Synchronisierung der IDs mit der Experience Cloud benötigt wird. Wenn Sie die Kunden-ID in eine Prop oder eVar eingeben, werden die Kunden-IDs über Back-End-Serversynchronisierung an Experience Cloud gesendet. Die Synchronisierung erfolgt in diesem Fall in Stapeln. Der Identitätsdienst synchronisiert die Kunden-ID sofort mit der Experience Cloud. </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Die Verwendung des Identitätsdienstes anstelle einer Prop oder eVar gibt diese Prop oder eVar für andere Zwecke frei. </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Wenn Sie die Kunden-ID nicht mit dem Identity Service festlegen, sind die Kundendatensätze nur für Adobe Analytics verfügbar. Wenn Sie die Kundendatensätze für Echtzeit-Targeting verwenden möchten, müssen Sie den Identity Service verwenden. </li> 
+     <li id="li_228358684E474A298E39578D427BF932">Durch die Verwendung des Identity Service für das Festlegen der Kunden-ID wird die Zeit zur Synchronisierung der IDs mit Experience Cloud verkürzt. Wenn Sie die Kunden-ID in eine Prop oder eVar eingeben, werden die Kunden-IDs über Back-End-Serversynchronisierung an Experience Cloud gesendet. Die Synchronisierung erfolgt in diesem Fall in Stapeln. Der Identity Service synchronisiert die Kunden-ID sofort mit Experience Cloud. </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Wenn der Identity Service anstatt einer Eigenschaft oder einer eVar verwendet wird, kann diese Eigenschaft oder eVar für andere Zwecke verwendet werden. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
