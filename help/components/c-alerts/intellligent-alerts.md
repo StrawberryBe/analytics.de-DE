@@ -2,7 +2,7 @@
 description: Das neue System für intelligente Warnhinweise erlaubt eine feiner abgestufte Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
 title: Intelligente Warnhinweise
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,34 +16,34 @@ Das neue System für intelligente Warnhinweise erlaubt eine feiner abgestufte Ko
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>Intelligente Warnhinweise sind nur für Kunden von Adobe [!DNL Analytics] Prime und Adobe [!DNL Analytics] Ultimate verfügbar.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. Mithilfe intelligenter Warnhinweise können Sie
+Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ ersetzen die bisherigen Funktionen in Adobe [!DNL Analytics]. Mithilfe intelligenter Warnhinweise können Sie
 
-* Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%-, 99-%-, 99,75-%- und 99,9-%-Schwellen, Änderungen in %, darüber/darunter).
+* Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%-, 99-%-, 99,75-%- und 99,9-%-Schwellen, Änderungen in %, darüber/darunter).
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird.
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken.
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-Das neue Warnhinweissystem enthält die folgenden Komponenten: Warnhinweiserstellung, Alert-Manager, Warnhinweisvorschau und einen besseren kontextbezogenen Zugriff für das Erstellen von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [werden nicht mehr zur Verfügung stehen](https://marketing.adobe.com/resources/help/en_US/sc/user/deprecated_alerts.html).
+Das neue Warnhinweissystem enthält die folgenden Komponenten: Warnhinweiserstellung, Alert-Manager, Warnhinweisvorschau und einen besseren kontextbezogenen Zugriff für das Erstellen von Warnhinweisen. Die Benutzeroberfläche für das alte Warnhinweissystem wird nicht mehr zur Verfügung stehen, die Warnhinweise werden jedoch migriert. Einige alte Warnhinweisfunktionen [werden nicht mehr zur Verfügung stehen](https://marketing.adobe.com/resources/help/de_DE/sc/user/deprecated_alerts.html).
 
 Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
-* Mithilfe der folgenden Tastenkombination in Analysis Workspace:
+* Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going directly to the Alert Builder:  **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]** .
+* Indem Sie direkt zur Warnhinweiserstellung wechseln: **[!UICONTROL Workspace]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Neuer Warnhinweis]** .
 * Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**. Dadurch wird die Warnhinweiserstellung geöffnet, und die entsprechenden Metriken und angewendeten Filter aus der Tabelle werden automatisch eingetragen sein. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
    ![](assets/create-alert-from-selection.png)
 
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to  **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** . Dadurch wird die neue Warnhinweiserstellung geöffnet, und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden automatisch eingetragen sein. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
+* Indem Sie in einem [!UICONTROL Reports &amp; Analytics]-Bericht zu **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweis hinzufügen]** navigieren. Dadurch wird die neue Warnhinweiserstellung geöffnet, und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden automatisch eingetragen sein. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
    ![](assets/add-alert.png)
 
 ## FAQ: Wie werden Warnhinweise berechnet und ausgelöst? {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität [werden verschiedene Modelle](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). 99,75%- und 99,99%-Schwellenwerte wurden speziell für die Granularität "Stündlich"eingeführt, damit nicht so viele Anomalien ausgelöst werden.
+Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität [werden verschiedene Modelle](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -55,7 +55,7 @@ Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Be
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Frage: Wie weit reicht die Anomalieerkennung des Warnhinweises zur Ermittlung von Datenanomalien zurück?</b> </p> </td> 
-   <td colname="col2"> <p>Der Trainingszeitraum hängt von der ausgewählten Granularität ab. Weitere Informationen finden Sie unter Statistische Verfahren zur <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomalieerkennung</a> . Zusammenfassung: </p> 
+   <td colname="col2"> <p>Der Trainingszeitraum hängt von der ausgewählten Granularität ab. Weitere Informationen finden Sie unter den statistischen Verfahren für die <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomalieerkennung</a>. Zusammenfassung: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Monatlich = 15 Monate + derselbe Bereich im letzten Jahr </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Wöchentlich = 15 Wochen + derselbe Bereich im letzten Jahr </li> 
@@ -72,8 +72,8 @@ Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Be
    <td colname="col2"> <p>Derzeit ist dies leider nicht möglich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Kann ich eine Tabelle mit den "erwarteten Werten", die aus der gepunkteten Linie bestehen, oder eine Art Ausgabe dessen erhalten, was diese Werte sind? </b> </p> </td> 
-   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Anomalieerkennung in Report Builder </a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein nicht konfigurierbarer Trainingszeitraum von 30 Tagen mit einem festgelegten 95-%-Intervall Training angewandt. Der Vorgang ist vergleichbar mit der <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>Anomalieerkennung in Reports &amp; Analytics </a>. </p> </td> 
+   <td colname="col1"> <p><b>Frage: Kann ich eine Tabelle der „erwarteten Werte“, die die gepunktete Linie ausmachen, oder eine andere Art von Darstellung dieser Werte erhalten? </b> </p> </td> 
+   <td colname="col2"> <p>Nicht in Workspace, aber Sie können dazu Report Builder nutzen (siehe Video zum Thema <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Anomalieerkennung in Report Builder </a>). </p> <p>Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein nicht konfigurierbarer Trainingszeitraum von 30 Tagen mit einem festgelegten 95-%-Intervall Training angewandt. Der Vorgang ist vergleichbar mit der Anomalieerkennung in<a href="https://marketing.adobe.com/resources/help/de_DE/reference/anomaly.html"  > <span class="uicontrol">Reports &amp; Analytics</span></a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
