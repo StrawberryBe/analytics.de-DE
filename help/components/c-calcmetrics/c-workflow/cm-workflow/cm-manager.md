@@ -2,7 +2,7 @@
 description: Der Manager für berechnete Metriken bietet verschiedene Möglichkeiten zum Kuratieren von Metriken, wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 title: Berechnete Metrik – Manager
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Der Manager für berechnete Metriken bietet verschiedene Möglichkeiten zum Kura
 
 Der Manager für berechnete Metriken zeigt Ihnen alle Segmente, die sich in Ihrem Besitz befinden und für Sie freigegeben wurden. Benutzer auf Administratorebene sehen alle benutzerdefinierten Metriken der Organisation. Dieser Überblick präsentiert die Benutzeroberfläche und die Funktionen des Managers für berechnete Metriken. Sie greifen wie folgt darauf zu:
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the left navigation. Klicken Sie anschließend auf **[!UICONTROL Berechnete Metriken]**.
+* Wechseln Sie in der linken Navigation zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Berechnete Metriken]**.
 
 ![](assets/calcmet_mgr_ui.png)
 
@@ -30,5 +30,5 @@ Der Manager für berechnete Metriken zeigt Ihnen alle Segmente, die sich in Ihre
 | Tags | Zeigt Tags an, die entweder durch Sie oder durch Personen, die eine Metrik für Sie freigegeben haben, auf die Metrik angewendet wurden. |
 | Freigegeben für | Zeigt Personen oder Gruppen (nur Administrator) oder „Alle“ (nur Administrator) an, für die Sie das Segment freigegeben haben. |
 | Spaltenauswahl | Damit können Sie Spalten im Manager für berechnete Metriken aktivieren oder deaktivieren, um so die Ansicht anzupassen. |
-| Gemeinsam-Symbol  (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik von Ihnen oder für Sie freigegeben wurde. |
-| Freigegeben-Symbol  (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik durch einen Administrator genehmigt wurde. |
+| Gemeinsam-Symbol (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik von Ihnen oder für Sie freigegeben wurde. |
+| Freigegeben-Symbol (nicht angezeigt) | Gibt an, dass diese benutzerdefinierte Metrik durch einen Administrator genehmigt wurde. |
