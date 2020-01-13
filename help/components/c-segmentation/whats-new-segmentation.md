@@ -2,7 +2,7 @@
 description: Neue Funktionen bei der Adobe Analytics-Segmentierung.
 title: Neue Funktionen bei der Analytics-Segmentierung
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,12 +13,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Neue Funktionen bei der Adobe Analytics-Segmentierung.
 
 * [November 2016](/help/components/c-segmentation/whats-new-segmentation.md)
-* [Oktober 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Oktober 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [September 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Juni 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Januar 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [November 2015](/help/components/c-segmentation/whats-new-segmentation.md)
-* [Oktober 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Oktober 2015](/help/components/c-segmentation/whats-new-segmentation.md)
 * [September 2015](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Oktober 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 * [September 2014](/help/components/c-segmentation/whats-new-segmentation.md)
@@ -51,7 +51,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datumsbereiche in Segmenten </p> </td> 
-   <td colname="col2"> <p>Damit können Sie Segmente erstellen, die rollierende Datumsbereiche enthalten, um Fragen zu laufenden Kampagnen oder Ereignissen zu beantworten. Beispielsweise können Sie jetzt ganz einfach ein Segment erstellen, das "alle, die in den letzten 60 Tagen einen Kauf getätigt haben" enthält. </p> <p> <p>Hinweis: Diese Funktion ist nicht in Ad-hoc-Analysen verfügbar. </p> </p> </td> 
+   <td colname="col2"> <p>Damit können Sie Segmente erstellen, die rollierende Datumsbereiche enthalten, um Fragen zu laufenden Kampagnen oder Ereignissen zu beantworten. Sie können nun beispielsweise ganz einfach ein Segment erstellen, das „alle, die etwas in den vergangenen 60 Tagen gekauft haben“ beinhaltet. </p> <p> <p>Hinweis: Diese Funktion ist nicht in Ad Hoc Analysis verfügbar. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,14 +66,14 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Segmente vor/nach Sequenz </p> </td> 
-   <td colname="col2"> <p>Beim Erstellen sequenzieller Segmente haben Sie ab sofort die Option, nach Besuchern „vor Sequenz“ oder „nach Sequenz“ zu filtern. </p> <p> <p>Hinweis: Diese Funktion ist nicht in Ad-hoc-Analysen verfügbar. </p> </p> </td> 
+   <td colname="col2"> <p>Beim Erstellen sequenzieller Segmente haben Sie ab sofort die Option, nach Besuchern „vor Sequenz“ oder „nach Sequenz“ zu filtern. </p> <p> <p>Hinweis: Diese Funktion ist nicht in Ad Hoc Analysis verfügbar. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensionsbegrenzungen mit sequenziellen Segmenten </p> </td> 
-   <td colname="col2"> <p>In einer "Innerhalb"-Klausel können Sie zwischen THEN-Anweisungen beispielsweise "innerhalb 1 Suchbegriffsinstanz", "innerhalb 1 eVar 47-Instanz"hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt. </p> </td> 
+   <td colname="col2"> <p>In einem „Innerhalb“-Satz können Sie zwischen DANN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >Verwenden Sie Segmente in der Fallout-Analyse </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/fallout_flow.html"  >Verwenden Sie Segmente in der Fallout-Analyse </a> </p> </td> 
    <td colname="col2"> <p>Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segmente als Touchpoints hinzufügen und wichtige Workflows über verschiedene Segmente hinweg vergleichen. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Segmentvergleich </p> </td> 
-   <td colname="col2"> <p> Der Bereich <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >Segmentvergleich</a> (Segment-IQ) in Analysis Workspace ermöglicht Kunden einen schnellen Vergleich zwischen zwei beliebigen Analytics-Segmenten, um die wichtigsten Unterschiede für alle Datenpunkte festzustellen. </p> </td> 
+   <td colname="col2"> <p> Der Bereich <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segment-comparison.html"  >Segmentvergleich</a> (Segment-IQ) in Analysis Workspace ermöglicht Kunden einen schnellen Vergleich zwischen zwei beliebigen Analytics-Segmenten, um die wichtigsten Unterschiede für alle Datenpunkte festzustellen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,8 +118,8 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Berechtigung <span class="wintitle">Segment erstellen</span> </p> </td> 
-   <td colname="col2"> <p>Ohne die <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Berechtigung Segment erstellen</a> haben Benutzer keinen Zugriff mehr auf den Segmentaufbau. </p> </td> 
+   <td colname="col1"> <p>Berechtigung <span class="wintitle">Segment erstellen</span> </p> </td> 
+   <td colname="col2"> <p>Ohne die <a href="https://marketing.adobe.com/resources/help/de_DE/reference/groups.html"  >Berechtigung Segment erstellen</a> haben Benutzer keinen Zugriff mehr auf den Segmentaufbau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: Aufschlüsselung nach Segment </p> </td> 
-   <td colname="col2"> <p>Hinzugefügte Unterstützung für  <span class="wintitle">Aufschlüsselung nach Segment</span>. Zusätzlich zu den Aufschlüsselungen nach „Standard“ (Elemente) und „Benutzerspezifisch“ (Insights) können Sie Berichte nun auch nach Segmenten aufschlüsseln. Wenn Sie die Registerkarte <span class="wintitle">Segmente</span> auswählen, wird die Liste mit den Segmenten gefüllt, die auch in der Dropdown-Liste <span class="wintitle">Verfügbare Segmente</span> angeboten werden. </p> <p>Linienelemente mit Mitgliedschaft im Segment melden den Wert "1"und Elemente außerhalb des Segmentberichts "0". </p> </td> 
+   <td colname="col2"> <p>Hinzugefügte Unterstützung für <span class="wintitle">Aufschlüsselung nach Segment</span>. Zusätzlich zu den Aufschlüsselungen nach „Standard“ (Elemente) und „Benutzerspezifisch“ (Insights) können Sie Berichte nun auch nach Segmenten aufschlüsseln. Wenn Sie die Registerkarte <span class="wintitle">Segmente</span> auswählen, wird die Liste mit den Segmenten gefüllt, die auch in der Dropdown-Liste <span class="wintitle">Verfügbare Segmente</span> angeboten werden. </p> <p>Linienelemente mit Mitgliedschaft im Segment melden den Wert „1“ und Elemente außerhalb des Segments „0“. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,8 +152,8 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
    <td colname="col2"> <p>Zusätzliche Unterstützung für mehrere Segmente (Segmentstapelung) für Data Warehouse. </p> <p>Bei der Auswahl von mehreren Segmenten wird im Vorschaubereich jetzt eine kommagetrennte Namensliste (z. B. Segment 1, Segment 2) angezeigt. Wir haben außerdem die Seite „Anforderungs-Manager“ und das Popup-Fenster „Anfragedetails“ aktualisiert, um die kommagetrennte Liste anzuzeigen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ad-hoc-Analysen: Erstellen von Segmenten aus Fallout-Berichten </p> </td> 
-   <td colname="col2"> <p>Es wurde eine Änderung an der Art vorgenommen, wie Ad-hoc-Analysen Segmente aus einem Fallout-Bericht erstellt. </p> <p>Vorher wurden sämtliche Segmente, die auf Berichts- oder Arbeitsplatzebene angewendet wurden, vom Segment ignoriert, das Sie vom Fallout-Bericht erstellt haben, und das Segment enthielt nur sequentielle Regeln für die Checkpoints in dem Bericht. </p> <p>Damit das im Fallout-Bericht erstellte Segment dieselben Zahlen wie im Fallout-Bericht erstellt, haben wir jetzt das Segment bzw. die Segmente aus der Berichts- und Arbeitsplatzebene in jeden einzelnen Checkpoint des Fallout-Bericht eingebettet. </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis: Erstellen von Segmenten aus Fallout-Berichten </p> </td> 
+   <td colname="col2"> <p>Es wurde eine Änderung an der Art vorgenommen, wie Ad Hoc Analysis Segmente aus einem Fallout-Bericht erstellt. </p> <p>Vorher wurden sämtliche Segmente, die auf Berichts- oder Arbeitsplatzebene angewendet wurden, vom Segment ignoriert, das Sie vom Fallout-Bericht erstellt haben, und das Segment enthielt nur sequentielle Regeln für die Checkpoints in dem Bericht. </p> <p>Damit das im Fallout-Bericht erstellte Segment dieselben Zahlen wie im Fallout-Bericht erstellt, haben wir jetzt das Segment bzw. die Segmente aus der Berichts- und Arbeitsplatzebene in jeden einzelnen Checkpoint des Fallout-Bericht eingebettet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Änderungen an Berechtigungen im Segmentaufbau </p> </td> 
-   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Mehr …</a> </p> </td> 
+   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/de_DE/reference/groups.html"  > Mehr...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -198,11 +198,11 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Konsistent benannte Segmentierungsoperatoren </p> </td> 
-   <td colname="col2"> <p> Reports &amp; Analysen und Ad-hoc-Analysen verwenden jetzt konsistente Operatoren und Operatorennamen bei der Erstellung von Segmenten. </p> <p><b>Neue Operatoren</b> </p> <p>Die Operatoren <span class="wintitle">vorhanden</span> und <span class="wintitle">nicht vorhanden</span> sind jetzt bei Reports &amp; Analysen verfügbar, wenn die Segmentierung auf nummerierten Zeichenfolgen basiert. </p> <p>Die Operatoren <span class="wintitle">enthält nicht alle</span> und <span class="wintitle">enthält keinerlei</span> sind jetzt bei der Ad-hoc-Analysen verfügbar, wenn die Segmentierung auf Zeichenfolgewerten basiert. </p> <p><b>Umbenannte Operatoren</b> </p> <p>Bei Reports &amp; Analysen: </p> 
+   <td colname="col2"> <p> Reports &amp; Analytics und Ad Hoc Analysis verwenden jetzt konsistente Operatoren und Operatorennamen bei der Erstellung von Segmenten. </p> <p><b>Neue Operatoren</b> </p> <p>Die Operatoren <span class="wintitle">vorhanden</span> und <span class="wintitle">nicht vorhanden</span> sind jetzt bei Reports &amp; Analytics verfügbar, wenn die Segmentierung auf nummerierten Zeichenfolgen basiert. </p> <p>Die Operatoren <span class="wintitle">enthält nicht alle</span> und <span class="wintitle">enthält keinerlei</span> sind jetzt bei der Ad Hoc Analysis verfügbar, wenn die Segmentierung auf Zeichenfolgewerten basiert. </p> <p><b>Umbenannte Operatoren</b> </p> <p>Bei Reports &amp; Analytics: </p> 
     <ul id="ul_5CD24677CF5A456FBCC5D2C19067F979"> 
      <li id="li_40203624AFE2402C8B95FADEAF186091"> <span class="wintitle">does not contains all of (enthält nicht alle)</span> wurde in <span class="wintitle">does not contain all of (enthält nicht alle)</span> umbenannt. </li> 
      <li id="li_1152DF6AA6064FC29498F37BDCC36B2A"><span class="wintitle">does not contains any of (enthält keinerlei)</span> wurde in <span class="wintitle">does not contain any of (enthält keinerlei)</span> umbenannt. </li> 
-    </ul> <p>Bei Ad-hoc-Analysen: </p> 
+    </ul> <p>Bei Ad Hoc Analysis: </p> 
     <ul id="ul_FF23ECD55AFC4AF1A7A5B9D95A892DB1"> 
      <li id="li_6186A838DB0341858A6EB00AE945F059"><span class="wintitle">enthält eines von</span> wurde in <span class="wintitle">enthält beliebige von</span> umbenannt. </li> 
      <li id="li_A18936F850B44F4CBC364083E6161A8D"><span class="wintitle">ist nicht Null</span> wurde in <span class="wintitle">ist vorhanden</span> umbenannt. </li> 
@@ -226,7 +226,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Unterstützung für „stimmt überein mit“ und „stimmt nicht überein mit“ in Data Warehouse-Segmenten </p> </td> 
-   <td colname="col2"> <p>Data Warehouse unterstützt jetzt "stimmt überein mit"und "stimmt nicht überein mit"in Segmentdefinitionen. (Reports &amp; Analysen und Ad-hoc-Analysen unterstützen diese Funktion bereits.) </p> <p>Segmente, die zuvor mit Data Warehouse inkompatibel waren, weil Data Warehouse "stimmt überein mit"und "stimmt nicht überein mit"nicht unterstützt hat, werden nach der Veröffentlichung kompatibel (sofern dies der einzige Grund für die Inkompatibilität ist). Ab dieser Version werden in der Segmentliste von Data Warehouse möglicherweise zusätzliche Segmente angezeigt. </p> </td> 
+   <td colname="col2"> <p>Data Warehouse unterstützt jetzt die Optionen „stimmt überein mit“ und „stimmt nicht überein mit“ in Segmentdefinitionen. (Reports &amp; Analytics und Ad Hoc Analysis unterstützen diese Funktion bereits.) </p> <p>Segmente, die mit Data Warehouse bisher inkompatibel waren, weil Data Warehouse „stimmt überein mit“ und „stimmt nicht überein mit“ nicht unterstützte, sind ab dieser Version kompatibel (sofern dies der einzige Grund für die Inkompatibilität war). Ab dieser Version werden in der Segmentliste von Data Warehouse möglicherweise zusätzliche Segmente angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segments.Save in Web-Services-API </p> </td> 
@@ -248,7 +248,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
    <td colname="col2"> <p>Die neue Segmentauswahlleiste wurde zu „Anomalieerkennung“ hinzugefügt. Segmente können nun demnach auf Anomalieerkennungsberichte angewendet werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Reports &amp; Analysen: Fähigkeit, Segmente aus Fallout-Berichten zu erstellen </p> </td> 
+   <td colname="col1"> <p>Reports &amp; Analytics: Fähigkeit, Segmente aus Fallout-Berichten zu erstellen </p> </td> 
    <td colname="col2"> <p>Es wurde eine Verknüpfung für das „Erstellen von Segmenten aus Pfad“ in den Fallout-Berichten hinzugefügt, die zum Segmentaufbau führt. Das Klicken auf die Verknüpfung hat eine automatisch erstellte sequenzierte Segmentdefinition zur Folge, die die Checkpoints aus dem Fallout-Bericht verwendet. </p> </td> 
   </tr> 
  </tbody> 
@@ -267,8 +267,8 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
    <td colname="col2"> <p>Segmente werden jetzt über Analytics-Benutzeroberflächen und Report Suites hinweg erstellt, verwaltet und verwendet. </p> <p>Eine neue Segment Builder-Oberfläche ermöglicht das Erstellen einfacher, verschachtelter und sequenzieller Segmente. Sie können jetzt mehrere Segmente auf einen einzelnen Bericht anwenden, um Logikverdopplung in mehreren Segmenten zu vermeiden. </p> <p>Ein neuer Segment Manager ermöglicht das einfache Verwalten, Genehmigen, Freigeben und Taggen von Segmenten. Segmente können für Analytics-unterstütztes Targeting in der Experience Cloud veröffentlicht werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Erstellen und Verwalten von Segmenten in Ad-hoc-Analysen </p> </td> 
-   <td colname="col2"> <p>Ad-hoc-Analysen ist nun Teil der Analytics Unified Segmentierung-Umgebung, die Funktionen zur Erstellung, Verwaltung und Freigabe von Segmenten mit Adobe Analytics vereint. </p> <p>Die Segmentaufbau-Konsole innerhalb von Ad-hoc-Analysen wurde aktualisiert und enthält nun neue Funktionen, einschließlich neuer Symbole, Änderungen an der Konsolenfunktion und der Möglichkeit, Behälter in allen Ebenen zu speichern. Der Segment-Manager (Segmente organisieren) wurde aktualisiert und enthält jetzt neue Funktionen, um Segmente in Ad-hoc-Analysen zu organisieren und zu taggen. </p> </td> 
+   <td colname="col1"> <p>Erstellen und Verwalten von Segmenten in Ad Hoc Analysis </p> </td> 
+   <td colname="col2"> <p>Ad Hoc Analysis ist nun Teil der Analytics Unified Segmentierung-Umgebung, die Funktionen zur Erstellung, Verwaltung und Freigabe von Segmenten mit Adobe Analytics vereint. </p> <p>Die Segmentaufbau-Konsole innerhalb von Ad Hoc Analysis wurde aktualisiert und enthält nun neue Funktionen, einschließlich neuer Symbole, Änderungen an der Konsolenfunktion und der Möglichkeit, Behälter in allen Ebenen zu speichern. Der Segment-Manager (Segmente organisieren) wurde aktualisiert und enthält jetzt neue Funktionen, um Segmente in Ad Hoc Analysis zu organisieren und zu taggen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
