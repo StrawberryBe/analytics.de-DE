@@ -2,7 +2,7 @@
 description: 'null'
 title: Warnhinweiserstellung
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>Intelligente Warnhinweise sind nur für Kunden von Adobe [!DNL Analytics] Prime und Adobe [!DNL Analytics] Ultimate verfügbar.
 
 Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 
-* Mithilfe der folgenden Tastenkombination in Analysis Workspace:
+* Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* Indem Sie zu **[!UICONTROL Workspace]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Neuer Warnhinweis]** navigieren.
 * Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Indem Sie in einem [!UICONTROL Reports &amp; Analytics]-Bericht zu **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
-The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
+Die Benutzeroberfläche der Warnhinweiserstellung ähnelt solchen mit erstellten Segmenten oder berechneten Metriken in [!DNL Analytics]:
 
 ![](assets/alert_builder.png)
 
@@ -35,15 +35,15 @@ Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den N
 
 Geben Sie an, wann die Metrik überprüft werden soll: stündlich, täglich, wöchentlich oder monatlich.
 
-> [!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Granularität im Warnhinweiserstellung nicht unterstützt.
+> [!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
 
 **Empfänger**
 
-Geben Sie an, wo der Warnhinweis hingeschickt werden soll. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann an einen [!DNL Analytics]-Benutzer, eine [!DNL Analytics]-Gruppe, eine E-Mail-Adresse oder eine Telefonnummer gesendet werden.
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>Die Telefonnummer muss über ein vorangestelltes Pluszeichen („+“) und eine [Landesvorwahl](https://countrycode.org/) verfügen.
 
 **Ablaufdatum**
 
@@ -55,7 +55,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 * Ziehen Sie Metriken per Drag &amp; Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Hinweis: Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
 
 * Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
 
@@ -73,7 +73,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 *... Mit diesen Filtern*
 
-Platzieren Sie mittels Drag &amp; Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
+Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
 
 Zusätzliche Filter werden mithilfe einer AND-Anweisung hinzugefügt.
 
