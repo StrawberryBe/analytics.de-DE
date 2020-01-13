@@ -1,8 +1,8 @@
 ---
-description: Mit dem Datumsvergleich in Analysis Workspace können Sie eine beliebige Spalte mit einem Datumsbereich ziehen und einen gemeinsamen Datumsvergleich erstellen, z. B. Jahr über Jahr, Quartal, Monat über Monat usw.
+description: Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die einen Datumsbereich enthält, einen standardmäßigen Datumsvergleich erstellen, z. B. Jahres-, Quartals-, Monatsvergleich usw.
 title: Datumsvergleich
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,16 +14,16 @@ Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die 
 
 ## Zeiträume vergleichen {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum bereitgestellt wird. „Wie viel besser/schlechter geht es uns als zu diesem Zeitpunkt letztes Jahr?“ ist beispielsweise eine Kernfrage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch die Spalte "Differenz", die die prozentuale Änderung im Vergleich zu einem bestimmten Zeitraum anzeigt.
+Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum bereitgestellt wird. Beispielsweise ist „Wie viel besser/schlechter geht es uns als zu diesem Zeitpunkt letztes Jahr?“ eine Kernfrage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch eine Spalte „Differenz“, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
 
-1. Erstellen Sie eine Freiform-Tabelle mit beliebigen Dimensionen und Metriken, die Sie mit einem bestimmten Zeitraum vergleichen möchten.
-1. Rechtsklicken Sie auf eine Tabellenzeile und wählen Sie **[!UICONTROL Zeiträume vergleichen aus]**.
+1. Erstellen Sie eine Freiformtabelle mit beliebigen Dimensionen und Metriken, die Sie mit einem bestimmten Zeitraum vergleichen möchten.
+1. Rechtsklicken Sie auf eine Tabellenzeile und wählen Sie **[!UICONTROL Zeiträume vergleichen]** aus.
 
    ![](assets/compare-time.png)
 
    >[!IMPORTANT]
    >
-   >Diese Option mit der rechten Maustaste ist für Metrikzeilen, Datumsbereichszeilen und Zeitdimensionszeilen deaktiviert.
+   >Diese Rechtsklickoption ist für Metrikzeilen, Datumsbereichzeilen und Zeitdimensionszeilen deaktiviert.
 
 1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen die folgenden Optionen zum Vergleich zur Verfügung:
 
@@ -35,7 +35,7 @@ Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum be
 
    >[!NOTE]
    >
-   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Select range]**.
+   >Wenn Sie eine benutzerdefinierte Anzahl an Tagen auswählen, z. B. 7.–20. Oktober (ein Zeitraum von 14 Tagen), stehen nur zwei Optionen zur Verfügung: **[!UICONTROL Vorherige 14 Tage vor diesem Datumsbereich]** und **[!UICONTROL Bereich auswählen]**.
 
 1. Der resultierende Vergleich sieht wie folgt aus:
 
@@ -49,11 +49,11 @@ Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum be
 
    Beachten Sie, dass Sie die Einstellung [!UICONTROL Prozentsätze] in den [!UICONTROL Visualisierungseinstellungen] aktivieren müssen, damit die prozentuale Änderung im Balkendiagramm angezeigt wird.
 
-## Add a time period column for comparison {#section_93CC2B4F48504125BEC104046A32EB93}
+## Eine Zeitraumspalte zum Vergleich hinzufügen {#section_93CC2B4F48504125BEC104046A32EB93}
 
 Sie können jetzt Zeiträume zu allen Spalten in einer Tabelle hinzufügen. So können Sie einen Zeitraum hinzufügen, der von dem abweicht, auf den Ihr Kalender eingestellt ist. Dies ist eine weitere Möglichkeit, um Daten zu vergleichen.
 
-1. Rechtsklicken Sie auf eine Spalte in der Tabelle und wählen Sie **[!UICONTROL Spalte für Zeitraum hinzufügen aus]** ![](assets/add-time-period-column.png)
+1. Rechtsklicken Sie auf eine Spalte in der Tabelle und wählen Sie **[!UICONTROL Spalte für Zeitraum hinzufügen]** aus![](assets/add-time-period-column.png)
 
 1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen die folgenden Optionen zum Vergleich zur Verfügung:
 
@@ -65,7 +65,7 @@ Sie können jetzt Zeiträume zu allen Spalten in einer Tabelle hinzufügen. So k
 
    >[!NOTE]
    >
-   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Select range]**.
+   >Wenn Sie eine benutzerdefinierte Anzahl an Tagen auswählen, z. B. 7.–20. Oktober (ein Zeitraum von 14 Tagen), stehen nur zwei Optionen zur Verfügung: **[!UICONTROL Vorherige 14 Tage vor diesem Datumsbereich]** und **[!UICONTROL Bereich auswählen]**.
 
 1. Der Zeitraum wird am Anfang der ausgewählten Spalte eingefügt:
 
@@ -77,7 +77,7 @@ Sie können jetzt Zeiträume zu allen Spalten in einer Tabelle hinzufügen. So k
 
 1. Sie können außerdem nach jeder Spalte sortieren. Dadurch wird die Reihenfolge der Tage abhängig von der jeweiligen Spalte geändert.
 
-## Align column dates to start on same row {#section_5085E200082048CB899C3F355062A733}
+## Beginn der Spaltendaten an derselben Zeile ausrichten {#section_5085E200082048CB899C3F355062A733}
 
 Mit einer neuen Einstellung für alle Tabellen können Sie **[!UICONTROL Datumswerte in jeder Spalte so ausrichten, dass sie in der gleichen Zeile beginnen (wird auf die gesamte Tabelle angewendet)]**. „Wird auf die gesamte Tabelle angewendet“ bedeutet, dass, wenn Sie z. B. eine Aufschlüsselung in der Tabelle durchführen und diese Einstellung für die Aufschlüsselung ändern, die Einstellung für die gesamte Tabelle geändert wird.
 
@@ -85,7 +85,7 @@ Mit einer neuen Einstellung für alle Tabellen können Sie **[!UICONTROL Datumsw
 
 >[!IMPORTANT]
 >
->This setting is **disabled** (unchecked) for all existing projects and **enabled** (checked) for all new projects.
+>Diese Einstellung ist für alle bestehenden Projekte **deaktiviert** und für alle neuen Projekte **aktiviert**.
 
 Beispiel: Wenn Sie die Daten in einem Monatsvergleich zwischen Oktober und September 2016 ausrichten, beginnt die linke Spalte mit dem 1. Oktober und die rechte Spalte mit dem 1. September:
 
