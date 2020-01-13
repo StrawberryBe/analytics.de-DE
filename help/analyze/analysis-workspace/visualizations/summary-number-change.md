@@ -2,7 +2,7 @@
 description: 'null'
 title: Sammelnummer und Sammeländerung
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/summary-number.png)
 
-## Visualisierung der Zusammenfassungsänderung
+## Visualisierung für Zusammenfassungsänderung:
 
 * Wenn keine Zelle ausgewählt ist, werden die ersten beiden Zellenwerte in der Spalte verglichen.
 * Wenn eine Zelle ausgewählt ist, wird 0 angezeigt, weil der Zellenwert mit sich selbst verglichen wird.
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Wenn die Spalte ausgewählt ist, wird der erste Wert mit sich selbst verglichen, sodass eine Änderung von 0 angezeigt wird.
 * Die grüne bzw. rote Farbgebung der Zusammenfassungsänderung kann durch Folgendes bestimmt werden:
 
-   * [Polarität benutzerspezifischer Ereignisse](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
-   * Option [Aufwärts-Trend anzeigen als](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html) einer berechneten Metrik.
+   * [Polarität benutzerspezifischer Ereignisse](https://marketing.adobe.com/resources/help/de_DE/reference/success_event.html).
+   * Option [Aufwärts-Trend anzeigen als](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/cm_build_metrics.html) einer berechneten Metrik.
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## Einstellungen zur Zusammenfassungsänderung {#section_2581AC0107634FB4990AB8347E5897AA}
 
 Klicken Sie auf das Zahnrad-Symbol neben der Visualisierung, um die Einstellungen für die Zusammenfassung zu konfigurieren:
 
