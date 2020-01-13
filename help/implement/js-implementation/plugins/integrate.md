@@ -1,7 +1,7 @@
 ---
 title: Modul integrieren
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -82,7 +82,7 @@ s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 
 * **Name des Partners:** Ihr Unternehmen arbeitet normalerweise mit dem Adobe-Partner zusammen, um den Wert für den Partnernamen zu ermitteln.
 * **URL zum JSON-Objekt:** Die URL zu einem JSON-Objekt, das die Partnervariablen enthält, die in eine Bildanforderung eingebunden werden sollen.
-* **Abfragezeichenfolgen-Parameter:** Angaben zum Partnerkonto, die Ihre Organisation im System des Partners identifizieren. Der Adobe-Partner verwendet diese Informationen zur Identifizierung Ihres Datensatzes.
+* **Abfragezeichenfolgenparameter:** Angaben zum Partnerkonto, die Ihre Organisation im System des Partners identifizieren. Der Adobe-Partner verwendet diese Informationen zur Identifizierung Ihres Datensatzes.
 
 Das Integrationsmodul fügt der URL automatisch weitere Abfragezeichenfolgen hinzu. Eine Var-Abfragezeichenfolge gibt den Namen des JSON-Objekts an, das das Modul vom Partner zurückerwartet. Außerdem wird eine Zufallszahl hinzugefügt, um die Zwischenspeicherung im Browser zu verhindern.
 
