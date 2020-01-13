@@ -2,7 +2,7 @@
 description: Mit dem Generator für berechnete Metriken kann jeder Benutzer eine Beitragsmetrik erstellen.
 title: Beitragsmetrik
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,20 +10,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Beitragsmetrik
 
-Hier ein einfacher Anwendungsfall: Sie sind Inhaltsbesitzer und möchten sehen, welche Seiten zu Besuchen beigetragen haben (d.h. an Besuchen teilgenommen haben), die eine Bestellung enthielten. So geht’s:
+Im Folgenden wird ein einfacher Anwendungsfall beschrieben: Als Inhaber von Inhalt möchten Sie sehen, welche Seiten bei Besuchen beteiligt waren, die zu einer Bestellung geführt haben. So geht’s:
 
-> [!NOTE] Früher mussten Sie dies über die Admin Tools tun. Sie können Teilnahmemetriken nach wie vor in der Admin Tools aktivieren, jedoch lediglich für die benutzerdefinierten Ereignisse 1–100.
+> [!NOTE] Bisher mussten Sie hierzu die Admin Tools verwenden. Sie können Teilnahmemetriken nach wie vor in der Admin Tools aktivieren, jedoch lediglich für die benutzerdefinierten Ereignisse 1–100.
 
 Im Folgenden wird ein einfacher Anwendungsfall beschrieben: Als Inhaber von Inhalt möchten Sie sehen, welche Seiten bei Besuchen beteiligt waren, die zu E-Mail-Anmeldungen geführt haben. So geht’s:
 
 1. Erstellen Sie eine neue Metrik im Generator für berechnete Metriken.
-1. Ziehen Sie das Erfolgsereignis "Bestellungen"in die Arbeitsfläche "Definition".
-1. Ändern Sie das [Zuordnungsmodell](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) dieses Ereignisses in **[!UICONTROL Teilnahme]** unter dem **[!UICONTROL Einstellungswerkzeug]** . Wählen Sie **[!UICONTROL Besuchs]** -Lookback. Die Definition sollte etwa so aussehen:
+1. Ziehen Sie das Erfolgsereignis „Bestellungen“ in die Arbeitsfläche „Definition“.
+1. Ändern Sie das [Attributionsmodell](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) dieses Ereignisses in **[!UICONTROL Beteiligung]** unter dem Zahnradsymbol für **[!UICONTROL Einstellungen]**. Wählen Sie das Lookback **[!UICONTROL Besuch]**. Die Definition sollte etwa so aussehen:
 
    ![](assets/participation.png)
 
 1. Speichern Sie die Metrik.
-1. Verwenden Sie die berechnete Metrik in einem **[!UICONTROL Seitenbericht]** .
+1. Verwenden Sie die berechnete Metrik im Bericht **[!UICONTROL Seiten]**.
 
    ![](assets/participation-pages.png)
 
