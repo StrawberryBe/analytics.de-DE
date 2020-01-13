@@ -1,18 +1,18 @@
 ---
 description: Zeigt, wie ein Ereignis mithilfe einer Verarbeitungsregel aus einem Ergebnis gelöscht/entfernt werden kann, ohne dass eine Änderung an der Seite vorgenommen werden muss.
-title: Ereignis aus einem Treffer entfernen
+title: Entfernen eines Ereignisses aus einem Hit
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Ereignis aus einem Treffer entfernen
+# Entfernen eines Ereignisses aus einem Hit
 
 Zeigt, wie ein Ereignis mithilfe einer Verarbeitungsregel aus einem Ergebnis gelöscht/entfernt werden kann, ohne dass eine Änderung an der Seite vorgenommen werden muss.
 
-## Ereignis aus einem Treffer entfernen {#topic_9548385BFE344FC08CA99718A24FC093}
+## Entfernen eines Ereignisses aus einem Hit {#topic_9548385BFE344FC08CA99718A24FC093}
 
 Zeigt, wie ein Ereignis mithilfe einer Verarbeitungsregel aus einem Ergebnis gelöscht/entfernt werden kann, ohne dass eine Änderung an der Seite vorgenommen werden muss.
 
