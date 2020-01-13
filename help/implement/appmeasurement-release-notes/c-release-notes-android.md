@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -91,7 +91,7 @@ Die [!DNL Android]-SDK-Version 4.13.2 (10. November 2016) enthält folgende �
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep-Linking </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>Beim Aufrufen von <code> trackAdobeDeepLink</code> werden ab sofort Variablen mit dem Präfix „<code> adb</code>“ und „<code> ctx</code>“ ordnungsgemäß verarbeitet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ Die [!DNL Android]-SDK-Version 4.13.1 (20. Oktober 2016) enthält folgende Ä
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2">  Besucher-ID-Service-Parameter werden jetzt in <span class="keyword">Target</span>-Aufrufen über <code> mboxParams</code> übergeben. </td> 
+   <td colname="2"> Besucher-ID-Service-Parameter werden jetzt in <span class="keyword">Target</span>-Aufrufen über <code> mboxParams</code> übergeben. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -250,7 +250,7 @@ Die [!DNL Android]-SDK-Version 4.8.3 (18. Februar 2016) enthält folgende Ände
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> Opt-out- und Datenschutzeinstellungen </td> 
-   <td colname="2"> <p>Ab <span class="keyword">Android</span> SDK 4.8.3 wirken sich die über die Methode <code> setPrivacyStatus</code> festgelegten Datenschutzeinstellungen auf die Aktivität von <span class="keyword">Analytics</span>, <span class="keyword">Target</span> und <span class="keyword">Audience Manager</span> aus. </p> </td> 
+   <td colname="2"> <p>Ab <span class="keyword">Android</span> SDK 4.8.3 wirken sich die über die Methode <code> setPrivacyStatus</code> festgelegten Datenschutzeinstellungen auf die Aktivität von <span class="keyword">Analytics</span>, <span class="keyword">Target</span> und <span class="keyword">Audience Manager</span> aus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,14 +405,14 @@ Die [!DNL Android]-SDK-Version 4.4 enthält folgende Änderungen:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Unterstützung für Beacon-Tracking in <span class="keyword">PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>Die Aufrufe <code> trackBeacon</code> und <code> clearCurrentBeacon</code> sind jetzt in <span class="keyword">PhoneGap</span> verfügbar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.3 {#section_789F3DA3DD3146CAA126B303F62D1A1A}
 
-Releasedatum: **24. November 2014**
+Releasedatum: **24. November 2014**
 
 * Neu: Integration der Adobe Experience Cloud ID
 * Verbesserte Debug-Protokolle für mehr Klarheit
@@ -420,7 +420,7 @@ Releasedatum: **24. November 2014**
 
 ## Version 4.2 {#section_EDF95BA0301C4B54AAE839768917D439}
 
-Releasedatum: **16. Oktober 2014**
+Releasedatum: **16. Oktober 2014**
 
 * Neu: Funktionen für In-App-Nachrichten
 * Neu: Speicherort für Konfigurationsdatei kann nun beim Anwendungsstart angegeben werden.
@@ -432,13 +432,13 @@ Releasedatum: **16. Oktober 2014**
 
 ## Version 4.1.7 {#section_DD98F9A4F00A457AA79D223CB1113A06}
 
-Releasedatum: **4. August 2014**
+Releasedatum: **4. August 2014**
 
 * Problem behoben, bei dem der Lebenszyklustreffer nicht gesendet wurde, wenn das Referrer-Timeout über 5 Sekunden lag und das Offline-Tracking deaktiviert war.
 
 ## Version 4.1.6 {#section_B665DF1A4FB249539D73569B52FA8786}
 
-Releasedatum: **17. Juli 2014**
+Releasedatum: **17. Juli 2014**
 
 * Schutzmechanismen für Ausnahmefehler hinzugefügt, die auftraten, wenn die Datenbank beschädigt wurde oder nicht erstellt werden konnte.
 * Schutzmechanismen für Probleme hinzugefügt, die auftraten, wenn die Konfigurationsdatei nicht geladen werden konnte (für gewöhnlich aufgrund eines Null-Kontexts).
@@ -446,13 +446,13 @@ Releasedatum: **17. Juli 2014**
 
 ## Version 4.1.1 {#section_E5EFA05CEE9D486BA6B5C12B1102C117}
 
-Releasedatum: **23. April 2014**
+Releasedatum: **23. April 2014**
 
 * Potenzielles Problem behoben, das auftrat, wenn das Referrer-Tracking aktiviert war und ein Tracking-Aufruf vor dem Lebenszyklus durchgeführt wurde.
 
 ## Version 4.1.0 {#section_266B62F5B6A44F5F8E6AB8ED1870C4A3}
 
-Releasedatum: **17. April 2014**
+Releasedatum: **17. April 2014**
 
 * Neu: Bluetooth-Beacon-Tracking.
 * Neu: Bei Anwendungen, bei denen Zeitstempel aktiviert sind, werden Absturztreffer auf die richtige Sitzung zurückdatiert.
@@ -464,40 +464,40 @@ Releasedatum: **17. April 2014**
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
-Releasedatum: **24. Februar 2014**
+Releasedatum: **24. Februar 2014**
 
 * Problem behoben, das eine erweiterte Medien-Wiedergabezeit verursachte, wenn Stopp und später Schließen aufgerufen wurde, ohne dass andere Aufrufe dazwischen lagen.
 * Problem gelöst, bei dem der Medien-Schließen-Treffer gesendet wurde, obwohl die Medien über einen beliebigen Zeitraum hinweg nicht wiedergegeben wurden.
 
 ## Version 4.0.3 {#section_FCC3D7D22EBF4A2FA949A4E88AD89F5C}
 
-Releasedatum: **20. Februar 2014**
+Releasedatum: **20. Februar 2014**
 
-* Sicherheit zum Netzwerkcode hinzugefügt, um Abstürze zu verhindern, die durch einen [!DNL Android]-Fehler verursacht wurden (https://code.google.com/p/issues/detail?id=54072).
+* Sicherheit zum Netzwerkcode hinzugefügt, um Abstürze zu verhindern, die durch einen [!DNL Android]-Fehler verursacht wurden (https://code.google.com/p/android/issues/detail?id=54072).
 
 ## Version 4.0.2 {#section_5A7F4D5D9CBD4B79B3B590A2C3F4D0F9}
 
-Releasedatum: **30. Januar 2014**
+Releasedatum: **30. Januar 2014**
 
 * Problem behoben, bei dem mehrere Treffer gesendet wurden, wenn die Datenbank beschädigt war.
 * Problem behoben, das im Durchschnitt hohe Sitzungslängen verursachte, wenn ein Gerät über die korrekten Zeiteinstellungen verfügte.
 
 ## Version 3.2.5 {#section_A6E60DB42241481DA62F660344128F53}
 
-Releasedatum: **30. Januar 2014**
+Releasedatum: **30. Januar 2014**
 
 * Schutzmechanismen für beschädigte Datenbanken hinzugefügt, um zu vermeiden, dass sich Treffer wiederholen.
 * Maximale Sitzungslänge hinzugefügt, um extrem lange Sitzungen bei nicht korrekten Gerätezeiten zu vermeiden.
 
 ## Version 4.0.1 {#section_5F58DBABDAA049FE9070E46989B2E9A9}
 
-Releasedatum: **14. November 2013**
+Releasedatum: **14. November 2013**
 
 * Fehlerhafte Formatierung der trackLocation-Daten unter bestimmten Gebietsschemas behoben.
 
 ## Version 4.0.0 {#section_79DCFAAF1DCB404898E3BE389AC835A6}
 
-Releasedatum: **27. September 2013**
+Releasedatum: **27. September 2013**
 
 [!DNL Android]-SDK 4.x für Experience Cloud-Lösungen ist jetzt mit folgenden neuen Funktionen verfügbar:
 
@@ -512,27 +512,27 @@ Releasedatum: **27. September 2013**
 
 ## Version 3.2.3 {#section_E3464DDC3B4844CF9CC5FC3E35C5C785}
 
-Releasedatum: **23. September 2013**
+Releasedatum: **23. September 2013**
 
 * Problem in Audience Manager behoben, bei dem Null-Werte oder -Schlüssel im Parameter nicht erlaubt waren.
 
 ## Version 3.2.2 {#section_7D631AA2474F4DBAA043703629E3ECC6}
 
-Releasedatum: **12. September 2013**
+Releasedatum: **12. September 2013**
 
 * Problem behoben, bei dem Medienereignisse in linkTrackEvents nicht zur Anfrage hinzugefügt wurden.
 * Potenzieller Ausnahmefehler behoben, der auftrat, wenn ContextData geändert wurde, nachdem sie an einen Tracking-Aufruf übergeben wurde.
 
 ## Version 3.2.1 {#section_D269F9145B2844B6855423A30B125D5C}
 
-Releasedatum: **16. August 2013**
+Releasedatum: **16. August 2013**
 
 * SSL-Verbindungen nutzen nun eine strenge Hostvalidierung.
 * Problem behoben, bei dem Treffer einige Sekunden lang schnell erneut versucht wurden, wenn die Netzwerkverbindung getrennt wurde und offlineTracking deaktiviert war.
 
 ## Version 3.2 {#section_ABD4D192E3FF4240B1451262EAEE4F17}
 
-Releasedatum: **6. August 2013**
+Releasedatum: **6. August 2013**
 
 * Unterstützung für Adobe Audience Manager hinzugefügt.
 * Lebenszyklusdaten werden jetzt mit Ziel-Mbox-Anfragen gesendet, wenn das Lebenszyklus-Tracking aktiviert ist.
@@ -540,7 +540,7 @@ Releasedatum: **6. August 2013**
 
 ## Version 3.1.0 {#section_836B4F580B1C436FABD524A91857F882}
 
-Releasedatum: **13. Juni 2013**
+Releasedatum: **13. Juni 2013**
 
 * Offlinespeicher für Verwendung von SQLite aktualisiert.
 * Fehler behoben, bei dem das Offlinelimit auf den Standardwert (1000) zurückgesetzt wurde.
@@ -549,13 +549,13 @@ Releasedatum: **13. Juni 2013**
 
 ## Version 3.0.8 {#section_51F50CD81C6A40C8BCF62F6F332A0800}
 
-Releasedatum: **18. April 2013**
+Releasedatum: **18. April 2013**
 
 * Codierungsproblem mit einigen UTF-8-Zeichen behoben.
 
 ## Version 3.0.7 {#section_0F3FEE2886EB4AB7BA288891FF6B6BCD}
 
-Releasedatum: **18. April 2013**
+Releasedatum: **18. April 2013**
 
 * Problem behoben, bei dem die Länge der vorherigen Sitzung in manchen Fällen fehlerhaft berechnet wurde.
 * Neue Besucher-IDs basieren nicht länger auf deviceID oder subscriberID.
@@ -563,7 +563,7 @@ Releasedatum: **18. April 2013**
 
 ## Version 3.0.6 {#section_72F3F9CB95BF4076AD882B3270F77B87}
 
-Releasedatum: **21. März 2013**
+Releasedatum: **21. März 2013**
 
 * Problem behoben, bei dem die visitorID nicht gelesen werden konnte, ohne vorher festgelegt worden zu sein.
 * Benennungskonventionen in einigen Fehlerprotokollen geändert, um für mehr Klarheit zu sorgen.
@@ -572,7 +572,7 @@ Releasedatum: **21. März 2013**
 
 ## Version 3.0.5 {#section_0540FF6477D74D1F8274E9340EDE7E16}
 
-Releasedatum: **21. Februar 2013**
+Releasedatum: **21. Februar 2013**
 
 * Aufgrund der Thread-Optimierung ist die Einstellung `offlineThrottleDelay` veraltet und nicht mehr erforderlich. Die Einstellung ist noch vorhanden, um die Rückwärtskompatibilität zu gewährleisten, hat jedoch keine Auswirkung mehr.
 * Das potenzielle Problem im Offline-Treffer-Cachespeicher wurde behoben.
