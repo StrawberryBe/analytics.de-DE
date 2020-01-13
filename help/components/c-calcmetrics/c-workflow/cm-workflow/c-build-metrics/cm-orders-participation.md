@@ -2,7 +2,7 @@
 description: Erläutert, wie Sie eine Metrik erstellen, die zeigt, welche Marketing-Kanäle zur Erhöhung der Bestellungen beitragen. Dies kann an beliebige relevante Dimensionen oder Erfolgsereignisse angepasst werden.
 title: Bestellbeitragsmetrik
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Erläutert, wie Sie eine Metrik erstellen, die zeigt, welche Marketing-Kanäle zur Erhöhung der Bestellungen beitragen. Dies kann an beliebige relevante Dimensionen oder Erfolgsereignisse angepasst werden.
 
 1. Benennen Sie die Metrik im Generator für berechnete Metriken „Assisted Orders“ (Unterstützte Bestellungen).
-1. Ziehen Sie eine Bestellungsmetrik in die Arbeitsfläche „Definition“. Passen Sie das Attributionsmodell anschließend über das Zahnradsymbol für Einstellungen an, indem Sie das Kontrollkästchen **[!UICONTROL Nicht standardmäßige Attributionsmodelle verwenden]aktivieren.**
+1. Ziehen Sie eine Bestellungsmetrik in die Arbeitsfläche „Definition“. Passen Sie das Attributionsmodell anschließend über das Zahnradsymbol für Einstellungen an, indem Sie das Kontrollkästchen **[!UICONTROL Nicht standardmäßige Attributionsmodelle verwenden]** aktivieren.
 
    ![](assets/attr-model.png)
 
-1. Wählen Sie als Attributionsmodell **[!UICONTROL Benutzerdefiniert]aus.** Ändern Sie die Attributstärke zu 0 (Starter), 100 (Player) und 0 (Closer).
+1. Wählen Sie als Attributionsmodell **[!UICONTROL Benutzerdefiniert]** aus. Ändern Sie die Attributstärke zu 0 (Starter), 100 (Player) und 0 (Closer).
 
    ![](assets/custom-attr-model.png)
 
