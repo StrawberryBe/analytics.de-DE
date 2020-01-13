@@ -2,7 +2,7 @@
 description: Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über verschiedene Dimensionen hinweg untersuchen.
 title: Interdimensionale Flüsse
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,9 +16,9 @@ Eine Dimensionsbezeichnung jeweils oben in der Spalte „Fluss“ vereinfacht di
 
 ![](assets/flow.png)
 
-Schauen wir uns 2 Verwendungsfälle an: einen App-Verwendungsfall und einen Web-Verwendungsfall.
+Sehen wir uns 2 Anwendungsfälle an: einen App-Anwendungsfall und einen Web-Anwendungsfall.
 
-## Anwendungsfall 1: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Anwendungsfall 1: App {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 Die Dimension [!UICONTROL Aktionsname] wurde dem Fluss hinzugefügt, wobei das oberste zurückgegebene Element [!UICONTROL ItemAdded] ist:
 
@@ -48,7 +48,7 @@ Wenn Sie eine weitere Dimension Aktionsname am Ende der Visualisierung hinzufüg
 
 Dies gibt Ihnen tiefere Einblicke in die App, die Sie analysieren möchten, und erlaubt geeignete Änderungen.
 
-## Fall 2: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Anwendungsfall 2: Web {#section_8D55983FA0C84926995270052AE01CD8}
 
 Dieser Verwendungsfall zeigt, wie Sie anaysieren können, welche Kampagnen die meisten Einstiege auf einer Website einbringen.
 
