@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,11 +17,11 @@ Die Variable *`fpCookieDomainPeriods`* sollte niemals dynamisch gesetzt werden. 
 
 Der Name „*`fpCookieDomainPeriods`*“ bezieht sich auf die Anzahl der Punkte („.“) in der Domäne, wenn diese mit „www“. beginnt. So enthält zum Beispiel `www.mysite.com` zwei Punkte, während `www.mysite.co.jp` drei Punkte enthält. Eine andere Interpretationsmöglichkeit wäre, dass diese Variable angibt, in wie viele Abschnitte die Hauptdomäne der Site untergliedert ist (zwei bei `mysite.com` und drei bei `mysite.co.jp`).
 
-Die [!DNL AppMeasurement] für JavaScript-Datei verwendet die Variable *`fpCookieDomainPeriods`*, um die Domäne zu bestimmen, mit der Erstanbieter-Cookies außer dem [!UICONTROL Besucher-ID]-Cookie (s_vi) gesetzt werden. There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). Außerdem hat es auch Auswirkungen auf Cookies, die von Plug-ins verwendet werden (wie z. B. [!UICONTROL getValOnce]).
+Die [!DNL AppMeasurement] für JavaScript-Datei verwendet die Variable *`fpCookieDomainPeriods`*, um die Domäne zu bestimmen, mit der Erstanbieter-Cookies außer dem [!UICONTROL Besucher-ID]-Cookie (s_vi) gesetzt werden. Diese Variable wirkt sich auf mindestens zwei andere Cookies aus, inklusive `s_sq` und `s_cc` (mit denen Besucherklicks zugeordnet bzw. Cookies geprüft werden). Außerdem hat es auch Auswirkungen auf Cookies, die von Plug-ins verwendet werden (wie z. B. [!UICONTROL getValOnce]).
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | Keine | Keine | cookieDomainPeriods |
+| nicht angegeben | nicht angegeben | nicht angegeben | cookieDomainPeriods |
 
 ## Codebeispiel für das Festlegen von Cookiedomänenvariablen
 
