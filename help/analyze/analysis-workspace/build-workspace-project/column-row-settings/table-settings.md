@@ -1,8 +1,8 @@
 ---
-description: Die Zeileneinstellungen variieren, je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
+description: Die Zeileneinstellungen variieren je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
 title: Zeileneinstellungen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Zeileneinstellungen
 
-Die Zeileneinstellungen variieren, je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
+Die Zeileneinstellungen variieren je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
 
 Sie können außerdem die ausgewählte(n) Zeile(n) mit den [Rechtsklickaktionen in einer Tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table.md) verwalten.
 
@@ -32,7 +32,7 @@ Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstell
   </tr> 
   <tr> 
    <td colname="col1"> <p>Prozentsatz </p> </td> 
-   <td colname="col2"> <p><b>Prozentsätze nach Zeile berechnen</b> </p> <p>Erzwingt, dass die Freiform-Tabelle die Zellprozentsätze über die gesamte Zeile berechnet, anstatt die Spalte nach unten zu verschieben. Diese ist besonders nützlich für die Trenddarstellung von Prozentangaben. Sie ist standardmäßig aktiviert, wenn Sie das <span class="uicontrol">Visualisieren</span>-Symbol verwenden. </p> </td> 
+   <td colname="col2"> <p><b>Prozentsätze nach Zeile berechnen</b> </p> <p>Erzwingt, dass die Freiformtabelle die Zellprozentsätze über die gesamte Zeile berechnet, anstatt die Spalte nach unten zu verschieben. Dies ist besonders nützlich für die Trend-Darstellung von Prozentangaben. Die Option ist standardmäßig aktiviert, wenn Sie das Symbol <span class="uicontrol">Visualisieren</span> verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spaltensummen </p> </td> 
@@ -40,11 +40,11 @@ Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstell
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschlüsselung </p> </td> 
-   <td colname="col2"> <p><b>Aufschlüsselung nach Position:</b> </p> <p>Sie können Aufschlüsselungen nach fester Position in einer Freiform-Tabelle durchführen. Sie können z. B. festlegen, dass die ersten sieben Zeilen immer aufgeschlüsselt werden. </p> <p>(Zuvor war die Liste der Werte in der Aufschlüsselung "gesperrt". This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Wenn Sie diesen Bericht speicherten und ihn einen Monat später erneut durchführen wollten, hätten sich die ersten 50 Seiten wahrscheinlich geändert. In Analysis Workspace werden jedoch die Ergebnisse der ursprünglichen Aufschlüsselung verwendet und dieselben Seiten angezeigt, aber mit dem aktuellen Monat als Zeitraum.) </p> <p>So führen Sie Aufschlüsselung anhand eines festen Ortes durch: </p> 
+   <td colname="col2"> <p><b>Aufschlüsselung nach Position:</b> </p> <p>Sie können Aufschlüsselungen nach fester Position in einer Freiformtabelle durchführen. Sie können z. B. festlegen, dass die ersten sieben Zeilen immer aufgeschlüsselt werden. </p> <p>(Zuvor war die Liste mit den Werten in der Aufschlüsselung „gesperrt“. Dies konnte z. B. dazu führen, dass Sie eine Aufschlüsselung des <span class="term">Datums</span> nach <span class="term">Seite</span> durchführten und die ersten 50 Seiten für den ausgewählten Datumsbereich erhielten. Wenn Sie diesen Bericht speicherten und ihn einen Monat später erneut durchführen wollten, hätten sich die ersten 50 Seiten wahrscheinlich geändert. In Analysis Workspace werden jedoch die Ergebnisse der ursprünglichen Aufschlüsselung verwendet und dieselben Seiten angezeigt, aber mit dem aktuellen Monat als Zeitraum.) </p> <p>So führen Sie Aufschlüsselung anhand eines festen Ortes durch: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Schlüsseln Sie einige Zeilen in Ihrer Tabelle auf. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Klicken Sie auf das Einstellungs-Symbol (Zahnrad) neben der Tabellenzeile, die Sie fixieren möchten. </li> 
-     <li id="li_675E429DC3B94201978166F9408D30B1">Aktivieren Sie das Kästchen neben <span class="uicontrol">Schlüsseln Sie nach Position auf</span>. </li> 
+     <li id="li_675E429DC3B94201978166F9408D30B1">Aktivieren Sie das Kästchen neben <span class="uicontrol">Aufschlüsselung nach Position</span>. </li> 
      <li id="li_E8A417D0D6D1438CAE825843BA0A7060">Ändern Sie die Sortierungsreihenfolge oder den Datumsbereich. Die Aufschlüsselungen sind jetzt an die Zeilenposition und nicht die hartcodierten Zeilen gebunden. </li> 
     </ol> <p>Standardmäßig deaktiviert. </p> </td> 
   </tr> 
