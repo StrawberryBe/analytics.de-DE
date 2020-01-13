@@ -2,7 +2,7 @@
 description: 'null'
 title: Ausführen einer Beitragsanalyse
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,15 +16,15 @@ Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll
 
 Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
 
-* In einer Freiform-Tabelle mit täglicher Granularität klicken Sie mit der rechten Maustaste auf eine beliebige Zeile und wählen dann **[!UICONTROL Beitragsanalyse durchführen aus]**. Sie können die Analyse sogar für Zeilen durchführen, die nicht als anormal gekennzeichnet sind.
+* In einer Freiformtabelle mit täglicher Granularität klicken Sie mit der rechten Maustaste auf eine beliebige Zeile und wählen Sie dann **[!UICONTROL Beitragsanalyse durchführen]** aus. Sie können die Analyse sogar für Zeilen durchführen, die nicht als anormal gekennzeichnet sind.
 
    >[!NOTE]
    >
-   >Zur Zeit unterstützen wir die Beitragsanalyse nur mit täglicher Granularität.
+   >Hinweis: Beitragsanalyse wird derzeit nur mit täglicher Granularität unterstützt.
 
    ![](assets/run_ca.png)
 
-* Zeigen Sie in einem Liniendiagramm auf einen anomalen Datenpunkt im Diagramm. Klicken Sie auf den Link **[!UICONTROL Analysieren], der erscheint.**
+* Zeigen Sie in einem Liniendiagramm auf einen anomalen Datenpunkt im Diagramm. Klicken Sie auf den Link **[!UICONTROL Analysieren]**, der erscheint.
 
    ![](assets/contribution-analysis.png)
 
@@ -35,9 +35,9 @@ Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
 
    * Eine Visualisierung, die die Anzahl der **Besuche** an diesem Tag anzeigt.
    * Eine monatliche **Besuchstrendlinie** für den Kontext.
-   * **Oberste Elemente**, die zu dieser Anomalie beigetragen haben, sortiert nach der [Beitragsbewertung](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_contribution_score.html), plus der fraglichen Metrik, und eine Metrik namens Unique Visitors, um die Metrik hinsichtlich der Größe in einen Kontext zu setzen.
+   * **Oberste Elemente**, die zu dieser Anomalie beigetragen haben, sortiert nach der [Beitragsbewertung](https://marketing.adobe.com/resources/help/de_DE/analytics/contribution/ca_contribution_score.html), plus der fraglichen Metrik, und eine Metrik namens Unique Visitors, um die Metrik hinsichtlich der Größe in einen Kontext zu setzen.
 
-   * Die Tabelle [Generierte Segmente](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_workflow_premium.html) (Wichtigste Element-Cluster) gibt die Zugehörigkeiten der obersten Elemente basierend auf der Beitragsbewertung, den ungewöhnlichen Vorkommen und dem gesamten prozentualen Beitrag zu der anormalen Metrik an. Dies wird dann als Zielgruppensegment (Beitragssegment 1, Beitragssegment 2 usw.) erfasst. Wenn Sie auf die Infoschaltfläche („i“) klicken, sehen Sie eine Ansicht mit der Definition des jeweiligen Segments inklusive der obersten Elemente, aus denen dieses besteht:
+   * Die Tabelle [Generierte Segmente](https://marketing.adobe.com/resources/help/de_DE/analytics/contribution/ca_workflow_premium.html) (Wichtigste Element-Cluster) gibt die Zugehörigkeiten der obersten Elemente basierend auf der Beitragsbewertung, den ungewöhnlichen Vorkommen und dem gesamten prozentualen Beitrag zu der anormalen Metrik an. Dies wird dann als Zielgruppensegment (Beitragssegment 1, Beitragssegment 2 usw.) erfasst. Wenn Sie auf die Infoschaltfläche („i“) klicken, sehen Sie eine Ansicht mit der Definition des jeweiligen Segments inklusive der obersten Elemente, aus denen dieses besteht:
 
       ![](assets/auto_segment.png)
 
@@ -49,22 +49,22 @@ Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
    * [Erstellen von Warnhinweisen](/help/components/c-alerts/intellligent-alerts.md)
    * [Erstellen oder Vergleichen von Segmenten](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-> [!NOTE] Wir heben die zu analysierende Anomalie mit einem blauen Punkt in der Beitragsanalyse und den verknüpften Intelligent Alert-Projekten hervor. Dadurch ist die gerade analysierte Anomalie leichter zu erkennen.
+> [!NOTE] Hinweis: Die analysierte Anomalie wird durch einen blauen Punkt in der Beitragsanalyse und in den verknüpften intelligenten Benachrichtigungsprojekten markiert. Dadurch ist die gerade analysierte Anomalie leichter zu erkennen.
 
-## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Ausschluss von Dimensionen aus einer Beitragsanalyse {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
 Es kann von Zeit zu Zeit erforderlich sein, einige Dimensionen bei der Beitragsanalyse auszuschließen. Hier ein Beispiel: Sie sind nicht an Dimensionen interessiert, die mit Browsern oder Hardware in Zusammenhang stehen, und möchten die Analyse beschleunigen, indem Sie die entsprechenden Dimensionen entfernen.
 
-1. Nachdem Sie auf **[!UICONTROL Beitragsanalyse durchführen]** (oder in einem Liniendiagramm auf **[!UICONTROL Analysieren]) geklickt haben, wird der Bereich** Ausgeschlossene Dimensionen] angezeigt.**[!UICONTROL **
+1. Nachdem Sie auf **[!UICONTROL Beitragsanalyse durchführen]** (oder in einem Liniendiagramm auf **[!UICONTROL Analysieren]**) geklickt haben, wird der Bereich **[!UICONTROL Ausgeschlossene Dimensionen]** angezeigt.
 
-1. Just drag any unwanted dimensions into the **[!UICONTROL Excluded Dimensions]** panel, then save the list by clicking **[!UICONTROL Set as Default]**. Alternativ können Sie auch auf **[!UICONTROL Alle löschen]klicken, um neue Dimensionen auszuwählen, die Sie ausschließen möchten.**
+1. Ziehen Sie einfach alle nicht erforderlichen Dimensionen in den Bereich **[!UICONTROL Ausgeschlossene Dimensionen]** und speichern Sie dann die Liste, indem Sie auf **[!UICONTROL Als Standard festlegen]** klicken. Alternativ können Sie auch auf **[!UICONTROL Alle löschen]** klicken, um neue Dimensionen auszuwählen, die Sie ausschließen möchten.
 
    ![](assets/exclude_dimensions.png)
 
-1. Nachdem Sie Dimensionen hinzugefügt haben, die ausgeschlossen werden sollen, klicken Sie wieder auf **[!UICONTROL Beitragsanalyse durchführen].**
+1. Nachdem Sie Dimensionen hinzugefügt haben, die ausgeschlossen werden sollen, klicken Sie wieder auf **[!UICONTROL Beitragsanalyse durchführen]**.
 1. Wenn Sie die Liste mit ausgeschlossenen Dimensionen verändern müssen, doppelklicken Sie einfach auf „Dimensionen“. Die Liste mit ausgeschlossenen Dimensionen wird dann angezeigt:
 
    ![](assets/excluded-dimensions.png)
 
-1. Löschen Sie einfach alle nicht erforderlichen Dimensionen, indem Sie auf das x-Symbol neben den einzelnen Dimensionen klicken. Speichern Sie dann die Liste, indem Sie auf **[!UICONTROL Als Standard festlegen klicken]**.
+1. Löschen Sie einfach alle nicht erforderlichen Dimensionen, indem Sie auf das x-Symbol neben den einzelnen Dimensionen klicken. Speichern Sie dann die Liste, indem Sie auf **[!UICONTROL Als Standard festlegen]** klicken.
 
