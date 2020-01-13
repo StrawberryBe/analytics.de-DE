@@ -2,7 +2,7 @@
 description: 'null'
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**
 
->[!IMPORTANT] Öffnen Sie nicht mehrere Admin-Registerkarten im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
+>[!IMPORTANT] Vermeiden Sie das Öffnen mehrerer Admin-Tabs im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
 
 + [Rechnungsstellung](billing-admin.md)
 + [Übersicht über Bot-Regeln](bot-removal/bot-rules.md)
@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [Menüanpassung](customize-menus.md)
 + [Metriksichtbarkeit](metric-visibility.md)
 + [Mobile Management](mobile-management.md)
-+ [Übersicht über die Erkennung gebührenpflichtiger Suchvorgänge](paid-search-detection/paid-search-detection.md)
++ [Übersicht über die Erkennung von Paid Search](paid-search-detection/paid-search-detection.md)
 + [Veröffentlichungslisten](publishing-list.md)
 + [Veröffentlichungs-Widget](publishing-widgets-admin.md)
 + [Voreinstellungs-Manager](preferences-manager.md)
