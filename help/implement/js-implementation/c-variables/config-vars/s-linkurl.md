@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 seo-description: Mit dynamischen Variablen können Sie Werte von einer Variablen in eine andere kopieren, ohne die vollständigen Werte mehrfach in die Bildanforderung auf Ihrer Site eingeben zu müssen.
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 # s-linkURL
 
-The URL of the link, which acts as the name if a `linkName` does not exist. Kann auf jede beliebige Zeichenfolge eingestellt werden. Dies ist der Parameter `pev1` in der Bildanforderung.
+Die URL des Links, die als Name verwendet wird, wenn `linkName` nicht verfügbar ist. Kann auf jede beliebige Zeichenfolge eingestellt werden. Dies ist der Parameter `pev1` in der Bildanforderung.
 
 
-If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html), an image request will be sent as a download, custom or exit link.
+Wenn mit [`linkType`](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) festgelegt, wird eine Bildanforderung als Downloadlink, Exitlink oder benutzerspezifischer Link gesendet.
 
 
 **Beispiel**
