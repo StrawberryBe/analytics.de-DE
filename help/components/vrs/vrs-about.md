@@ -2,7 +2,7 @@
 description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann.
 title: Virtual Report Suites – Übersicht
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -59,7 +59,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
 | Kann Admin-Funktionen verwenden, um einzelne Einstellungen für diese Report Suite zu ändern (Admin &gt; Report Suites) | Nein (Einstellungen werden von der übergeordneten Report Suite geerbt.) | Ja |
 
-## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Kombinieren von Virtual Report Suites und Multi-Suite-Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 In einigen Fällen hat die Verwendung von Virtual Report Suites und des Multi-Suite-Taggens Vorteile.
 
