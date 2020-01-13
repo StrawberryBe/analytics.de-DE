@@ -2,7 +2,7 @@
 description: Enthält Beispiele für gefilterte und gewichtete Metriken.
 title: Gefilterte und gewichtete Metriken
 uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Denken Sie daran, dass diese Formel von einem konsistenten Zeitraum abhängig is
 
 ## Gefilterte Absprungrate mit Perzentil {#section_4F3E6D33A1FD438A932FA662B3510552}
 
-Dieser Filter zeigt die Absprungrate für die oberen 30 Prozent der Seiten bei Sortierung nach Besuchen an.
+Dieser Filter zeigt die Absprungrate für die oberen 30 Prozent der Seiten bei Sortierung nach Besuchen an.
 
 ![](assets/cm_wbr_2.png)
 
