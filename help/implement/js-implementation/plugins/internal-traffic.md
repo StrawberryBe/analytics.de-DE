@@ -1,7 +1,7 @@
 ---
 title: Interner Traffic
 description: Das Plug-in „Interner Traffic“ identifiziert dynamisch Besucher, die aus einem internen Netzwerk stammen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,10 +26,10 @@ Das Plug-in versucht, eine Datei zu laden, die nur innerhalb des internen Netzwe
 ## Implementierung
 
 1. Fügen Sie Ihr Intranet-Pixel hinzu: Sie können beliebige Dateitypen in Ihrem Intranet hinzufügen, auf die das Plug-in zugreifen möchte. Es wird ein transparentes 1x1-Pixel empfohlen. Es sollte an einem Ort in Ihrem Intranet platziert werden, der von Ihrem internen Netzwerk bzw. Ihren internen Netzen aus leicht zugänglich ist.
-1. Konfigurieren einer eVar: In Ihrer Ziel-Report Suite muss eine eVar hinzugefügt werden. Es sollte einen Ablauf von "Besuch"und eine Zuordnung von "Ausgangswert (Erster)"haben.
+1. Konfigurieren einer eVar: In Ihrer Ziel-Report Suite muss eine eVar hinzugefügt werden. Sie sollte einen Ablauf von „Besuch“ und eine Zuordnung von „Ausgangswert (Erster)“ haben.
 1. Definieren Sie die interne URL: Definieren Sie innerhalb der AppMeasurement-Konfigurationsvariablen und vor der Instanziierung von doPlugins die interne URL-Variable (s.intURL) für die Pixel- oder andere Datei, die für die Traffic-Prüfung verwendet werden kann. Beispiel: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to "internal" or "external".
+1. Ändern Sie doPlugins und legen Sie die eVar fest: Das Plug-in kann dann initialisiert werden, indem Sie diese Codezeile im Abschnitt „doPlugins“ Ihres AppMeasurement-Bibliothekscodes einschließen und dabei die in Schritt 1 definierte eVar verwenden: `s.eVarXX = s.intCheck();`
+Der Variablenwert wird auf „intern“ oder „extern“ eingestellt.
 1. Fügen Sie den Plug-in-Quellcode hinzu: Schließen Sie den Plug-in-Code unter dem doPlugins-Abschnitt Ihrer AppMeasurement-Datei ein.
 
 ## Plug-in-Quellcode
