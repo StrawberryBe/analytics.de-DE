@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,13 +21,13 @@ Wenn Sie beispielsweise *`cookieDomainPeriods`* auf „2“ für die Domäne `ww
 
 Wenn *`cookieDomainPeriods`* auf „3“ eingestellt ist, die Domäne jedoch nur zwei Punkte enthält, setzt die JavaScript-Datei Cookies in der Subdomäne der Site. Wenn Sie beispielsweise *`cookieDomainPeriods`* auf „3“ für die Domäne `www2.mysite.com` einstellen, werden die Cookies `s_cc` und `s_sq`Cookies für die Domäne `www2.mysite.com` erstellt. Wenn ein Besucher in eine andere Subdomäne der Site wechselt (z. B. `www4.mysite.com`), können alle mit `www2.mysite.com` gesetzten Cookies nicht mehr gelesen werden.
 
-> [!NOTE] Schließen Sie keine zusätzlichen Subdomänen als Teil von ein *`cookieDomainPeriods`*. Zum Beispiel wäre `store.toys.mysite.com` immer noch *`cookieDomainPeriods`* auf „2“ gesetzt. Bei dieser Variablendefinition werden die Cookies korrekt in der Stammdomäne [!DNL mysite.com] gesetzt. Wenn *`cookieDomainPeriods`* in diesem Beispiel auf „3“ eingestellt wird, würden Cookies in der Domäne [!DNL toys.mysite.com] gesetzt, was die gleichen Folgen wie das Beispiel zuvor hätte.
+> [!NOTE] Fügen Sie keine zusätzlichen Subdomänen als Teil von *`cookieDomainPeriods`* hinzu. Zum Beispiel wäre `store.toys.mysite.com` immer noch *`cookieDomainPeriods`* auf „2“ gesetzt. Bei dieser Variablendefinition werden die Cookies korrekt in der Stammdomäne [!DNL mysite.com] gesetzt. Wenn *`cookieDomainPeriods`* in diesem Beispiel auf „3“ eingestellt wird, würden Cookies in der Domäne [!DNL toys.mysite.com] gesetzt, was die gleichen Folgen wie das Beispiel zuvor hätte.
 
-Siehe auch [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
+Siehe auch [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | CDP | Betrifft mehrere Berichte und steuert, wie die Besucherkennung gespeichert und verarbeitet wird. | 2 |
+| nicht angegeben | CDP | Betrifft mehrere Berichte und steuert, wie die Besucherkennung gespeichert und verarbeitet wird. | „2“ |
 
 >[!NOTE]
 >
