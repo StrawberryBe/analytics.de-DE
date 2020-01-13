@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Die Variable „“ ruft mithilfe des DOM-Objekts den Abschnitt der URL ab, auf den alle in „“ aufgeführten Regeln angewendet werden.
 
-Diese Variable ist nur gültig, wenn *`dynamicAccountSelection`* auf „True“ festgelegt ist. Da der Standardwert [!DNL window.location.host] lautet, ist diese Variable nicht erforderlich, damit die [!UICONTROL dynamische Kontoauswahl] ordnungsgemäß funktioniert. Weitere Informationen finden Sie unter [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Diese Variable ist nur gültig, wenn *`dynamicAccountSelection`* auf „True“ festgelegt ist. Da der Standardwert [!DNL window.location.host] lautet, ist diese Variable nicht erforderlich, damit die [!UICONTROL dynamische Kontoauswahl] ordnungsgemäß funktioniert. Weitere Informationen finden Sie unter [dynamicAccountList](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 Die Regeln in `dynamicAccountList` werden auf den Wert von `dynamicAccountMatch` angewendet. Wenn `dynamicAccountMatch` nur [!DNL window.location.host] (Standard) enthält, gelten die Regeln in `dynamicAccountList` nur für die Domäne der Seite.
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | Keine | Keine | window.location.host |
+| nicht angegeben | nicht angegeben | nicht angegeben | window.location.host |
 
 ## Syntax und mögliche Werte
 
@@ -54,7 +54,7 @@ Keine
 
 ## Probleme, Fragen und Tipps
 
-* Die dynamische Kontoauswahl wird von [AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) nicht unterstützt.
+* Die dynamische Kontoauswahl wird von [AppMeasurement für JavaScript](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) nicht unterstützt.
 
 * Bei auf einer Festplatte gespeicherten Seiten ist [!DNL window.location.host] leer, wodurch deren Seitenansichten an die standardmäßige Report Suite (in `s_account`).
 
