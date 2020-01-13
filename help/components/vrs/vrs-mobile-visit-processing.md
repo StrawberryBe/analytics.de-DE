@@ -1,8 +1,8 @@
 ---
-description: Kontextbezogene Sitzungen in Virtual Report Suites ändern die Berechnung von Besuchen auf Mobilgeräten durch Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
+description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics mobile Besuche berechnet. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 title: Kontextbezogene Sitzungen
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Kontextbezogene Sitzungen
 
-Kontextbezogene Sitzungen in Virtual Report Suites ändern die Berechnung von Besuchen auf Mobilgeräten durch Adobe Analytics. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
+Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics mobile Besuche berechnet. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 
 Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrunde liegenden Daten zu ändern, um ihn auf die Interaktion Ihrer Besucher mit Ihren mobilen Apps abzustimmen.
 
@@ -125,7 +125,7 @@ Die verbrachte Zeit wird weiterhin analog zur Berechnung ohne Hintergrundtreffer
 
 ## Einstellungen zur Verarbeitung von Treffern im Hintergrund {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
 
-Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Report Time Processing verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Report Time Processing“ nicht verwendet wird. Navigieren Sie für den Zugriff auf diese Einstellung zur Adobe Analytics Admin Console, rufen Sie die Einstellungen der jeweiligen zugrunde liegenden Report Suite auf, navigieren Sie dann zum Menü „Mobile Verwaltung“ und dann zum Untermenü „Mobile App-Berichte“.
+Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Report Time Processing verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Navigieren Sie für den Zugriff auf diese Einstellung zur Adobe Analytics Admin Console, rufen Sie die Einstellungen der jeweiligen zugrunde liegenden Report Suite auf, navigieren Sie dann zum Menü „Mobile Verwaltung“ und dann zum Untermenü „Mobile App-Berichte“.
 
 1. „Legacy-Verarbeitung Ein“: Standardeinstellung für alle Report Suites. Wenn Sie die Legacy-Verarbeitung aktiviert lassen, werden Hintergrundtreffer in der Verarbeitungspipeline wie normale Treffer behandelt, was die zugrunde liegende Report Suite ohne Zuordnung der Berichtszeit betrifft. Demnach inkrementieren Hintergrundtreffer, die in der zugrunde liegenden Report Suite angezeigt werden, Besuche als normalen Treffer. Wenn keine Hintergrundtreffer in Ihrer zugrunde liegenden Report Suite angezeigt werden sollen, ändern Sie diese Einstellung zu „Aus“.
 1. „Legacy-Verarbeitung Aus“: Wenn die Legacy-Verarbeitung für Hintergrundtreffer aus ist, werden an die zugrunde liegende Report Suite gesendete Hintergrundtreffer von der zugrunde liegenden Report Suite ignoriert, und sie sind nur zugänglich, wenn eine in dieser zugrunde liegenden Report Suite erstellte Virtual Report Suite für die Verwendung der Funktion „Report Time Processing“ konfiguriert ist. Demnach werden von den Hintergrundtreffern erfasste Daten, die an diese zugrunde liegende Report Suite gesendet werden, nur in einer Virtual Report Suite mit aktivierter Funktion „Report Time Processing“ angezeigt.
