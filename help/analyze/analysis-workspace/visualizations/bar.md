@@ -2,7 +2,7 @@
 description: 'null'
 title: Balken und Balken gestapelt
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,9 +16,9 @@ Diese Visualisierung zeigt vertikale Balken, die verschiedene Werte aus einer od
 
 ![](assets/bar.png)
 
-In den Visualisierungseinstellungen können Sie über ein Dropdown-Menü für die Granularität eine Trend-Visualisierung (z. B. Linie, Balken) von täglich zu wöchentlich zu monatlich usw. ändern.
+In den Visualisierungseinstellungen können Sie über ein Dropdown-Menü für die Granularität eine Trend-Visualisierung (z. B. Linie, Balken) von täglich über wöchentlich zu monatlich usw. ändern.
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+## Balken gestapelt {#section_9EA83779AE964635907EE5031A785A49}
 
 Diese Visualisierung entspricht einem Balkendiagramm, aber die Serienbalken sind hier übereinander gestapelt.
 
