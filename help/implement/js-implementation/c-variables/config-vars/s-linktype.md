@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 Enthält den automatisch ermittelten Linktyp (wenn vorhanden). Kann auf einen der folgenden Werte eingestellt werden:
 
-    * `d` (Download)
-    * `e` (Ausstieg)
-    * `o` (benutzerspezifisch/sonstige)
+    * `d` (Herunterladen)
+    * `e` (Beenden)
+    * `o` (Benutzerdefiniert/Sonstiges)
 
-Dies ist der Parameter `pe` in der Bildanforderung. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
+Dies ist der Parameter `pe` in der Bildanforderung. Wenn mit [`linkURL`](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) oder [`linkName`](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html) festgelegt, wird ein Server-Aufruf als Downloadlink, Exitlink oder benutzerspezifischer Link gesendet.
 
-*Hinweis: Die Variable[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)kann nicht für einen Datei-Download, Exitlink oder benutzerspezifischen Link festgelegt werden, da jeder Linktyp keine Seitenansicht und keinen zugehörigen Seitennamen darstellt.*
+*Hinweis: Die Variable[`pageName`](https://docs.adobe.com/content/help/de-DE/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)kann nicht für Dateidownloads, Exitlinks oder benutzerspezifische Links festgelegt werden, da Links dieser Typen keine Seitenansichten sind und somit keinen zugehörigen Seitennamen haben.*
 
 
 **Beispiel**
