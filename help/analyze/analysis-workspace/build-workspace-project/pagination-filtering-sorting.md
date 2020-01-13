@@ -2,7 +2,7 @@
 description: 'null'
 title: Paginierung, Filtern und Sortieren von Tabellen
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,9 +14,9 @@ Mit diesem Video auf YouTube können Sie sich einen Überblick verschaffen:
 
 [Paginierung, Filtern und Sortieren von Tabellen in Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
 
-## Advanced filtering options {#section_36E92E31442B4EBCB052073590C1F025}
+## Erweiterte Filteroptionen {#section_36E92E31442B4EBCB052073590C1F025}
 
-Wenn Sie auf das Filtersymbol und anschließend neben einer Dimension in einer Freiform-Tabelle auf „Erweiterte Optionen anzeigen“ klicken, können Sie nach folgenden Kriterien filtern:
+Wenn Sie auf das Filtersymbol und anschließend neben einer Dimension in einer Freiformtabelle auf „Erweiterte Optionen anzeigen“ klicken, können Sie nach folgenden Kriterien filtern:
 
 * Enthält
 * Enthält nicht
