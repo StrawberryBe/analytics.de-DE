@@ -1,15 +1,15 @@
 ---
 description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
 solution: Audience Manager
-title: Serverseitige Weiterleitungsimplementierung überprüfen
+title: Überprüfen der serverseitigen Weiterleitungsimplementierung
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Serverseitige Weiterleitungsimplementierung überprüfen
+# Überprüfen der serverseitigen Weiterleitungsimplementierung
 
 Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um eine ordnungsgemäße Aktivierung der serverseitigen Weiterleitung zu gewährleisten.
 
@@ -23,7 +23,7 @@ So überprüfen Sie den Status der serverseitigen Weiterleitung:
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Vergewissern Sie sich, dass der Identitätsdienst ordnungsgemäß bereitgestellt ist, Sie das App Measurement-Modul bereitgestellt haben, dass die entsprechende Report Suite dem richtigen IMS-Org zugeordnet wurde und dass die serverseitige Weiterleitung in der Analytics Admin-Konsole aktiviert wurde.
+>Wenn die Antwort das Schlüssel/Wert-Paar „`"status":"SUCCESS"`“ oder ein 2-x-2-Bild enthält, ist die serverseitige Weiterleitung nicht korrekt konfiguriert. Stellen Sie sicher, dass der Identity Service ordnungsgemäß bereitgestellt ist, dass Sie das AppMeasurement-Modul bereitgestellt haben, dass die jeweilige Report Suite der korrekten IMS-Org. zugewiesen wurde und dass die serverseitige Weiterleitung in der Analytics Admin Console aktiviert wurde.
 
 >[!MORELIKETHIS]
 >
