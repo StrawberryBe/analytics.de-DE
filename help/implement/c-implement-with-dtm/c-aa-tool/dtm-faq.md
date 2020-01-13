@@ -1,10 +1,10 @@
 ---
-description: Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der AppMeasurement-Code für Sie verwaltet.
+description: Häufig gestellte Fragen zur automatischen Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der AppMeasurement-Code für Sie verwaltet.
 keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Häufig gestellte Fragen zum Adobe Analytics-Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Häufig gestellte Fragen zum Adobe Analytics-Tool
 
-Häufig gestellte Fragen über die automatische Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der [!DNL AppMeasurement]-Code für Sie verwaltet.
+Häufig gestellte Fragen zur automatischen Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der [!DNL AppMeasurement]-Code für Sie verwaltet.
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
