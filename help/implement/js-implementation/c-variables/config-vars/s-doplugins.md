@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -25,7 +25,7 @@ Die Variable *`doPlugins`* dient zum Ausführen angepasster Routinen für die Sa
 
 ## Syntax und mögliche Werte
 
-Die Funktion *`s_doPlugins`* sollte nicht in Anführungszeichen gesetzt werden und *`doPlugins`* muss immer dem genauen Namen der Funktion *`s_doPlugins`* zugeordnet werden (wenn diese Funktion umbenannt wird).
+Die Funktion *`s_doPlugins`* sollte nicht in Anführungszeichen gesetzt werden, und *`doPlugins`* muss immer dem genauen Namen der Funktion *`s_doPlugins`* zugeordnet werden (wenn diese Funktion umbenannt wird).
 
 ```js
 s.doPlugins=s_doPlugins;
@@ -47,6 +47,6 @@ Keine
 
 ## Probleme, Fragen und Tipps
 
-* Der einzige Grund, den Objektnamen zu ändern (z. B. von „s“ zu „s_mc“), wäre, wenn Sie Inhalt mit anderen Benutzern teilen oder von anderen Benutzern beziehen möchten. Beim Umbenennen der  Funktion *`s_doPlugins`* in [!UICONTROL s_mc_doPlugins] stellt sicher, dass die JavaScript-Datei eines anderen Clients Ihre Funktion *`doPlugins`* nicht überschreibt.
+* Der einzige Grund, den Objektnamen zu ändern (z. B. von „s“ zu „s_mc“), wäre, wenn Sie Inhalt mit anderen Benutzern teilen oder von anderen Benutzern beziehen möchten. Beim Umbenennen der Funktion *`s_doPlugins`* in [!UICONTROL s_mc_doPlugins] stellt sicher, dass die JavaScript-Datei eines anderen Clients Ihre Funktion *`doPlugins`* nicht überschreibt.
 
 * Wenn Sie unerwartet damit beginnen, Inhalte von einem anderen Adobe-Kunden abzurufen, und Ihre Funktion *`s_doPlugins`* überschrieben wird, können Sie die Funktion *`s_doPlugins`* einfach umbenennen, ohne den Objektnamen zu ändern. Wählen Sie einfach einen anderen Objektnamen, als andere JavaScript-Dateien auf der gleichen Seite verwenden würden – das ist zwar nicht erforderlich, stellt jedoch die beste Lösung dar.
