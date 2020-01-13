@@ -1,18 +1,18 @@
 ---
 description: 'null'
-title: Aktuelle Nutzung der Server-Aufrufe anzeigen
+title: Anzeigen der aktuellen Nutzung der Server-Aufrufe
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Aktuelle Nutzung der Server-Aufrufe anzeigen
+# Anzeigen der aktuellen Nutzung der Server-Aufrufe
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Verwendung **[!UICONTROL des]** Server-Aufrufs &gt; **[!UICONTROL Aktuelle Nutzung]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Nutzung der Serveraufrufe]** &gt; **[!UICONTROL Aktuelle Verwendung]**
 
-> [!IMPORTANT] Alle Nutzungsnummern und Verpflichtungsnummern, die Ihnen angezeigt werden, sind für alle Ihre Anmeldeunternehmen und Report Suites kumulativ.
+> [!IMPORTANT] Sämtliche Nutzungs- und Zusagedaten, die Sie dort sehen, beziehen sich zusammengenommen auf alle Anmeldeunternehmen und Report Suites.
 
 Das Dashboard für aktuelle Nutzung:
 
@@ -23,7 +23,7 @@ Das Dashboard für aktuelle Nutzung:
 
 * Vergleicht Ihre aktuelle Nutzungsperiode mit der Nutzung im letzten Jahr (blaue Linie). Natürlich wird die blaue Linie nur angezeigt, wenn für Ihr Unternehmen Daten zu den Server-Aufrufen im letzten Jahr vorliegen.
 
-   > [!NOTE] Wenn Sie die Nutzung für einen vorherigen Zeitraum anzeigen möchten, müssen Sie zur Registerkarte " [Report Suite-Nutzung](/help/admin/c-server-call-usage/report-suite-usage.md) "gehen und die Nutzungsdaten für einen vorherigen Zeitraum herunterladen.
+   > [!NOTE] Wenn Sie die Nutzung für einen vorherigen Zeitraum anzeigen möchten, gehen Sie zur Registerkarte [Nutzung der Report Suite](/help/admin/c-server-call-usage/report-suite-usage.md) und laden Sie die Gebrauchsdaten für einen vorherigen Zeitraum herunter.
 
 * Listet den Anteil an genutzten Aufrufen (in Prozent und in unverarbeiteten Daten) und den Anteil der bereits abgelaufenen Nutzungsperiode (in Prozent und in unverarbeiteten Daten) auf.
 * Wird standardmäßig täglich mit einer Verarbeitungsverzögerung von 5 Tagen aktualisiert.
