@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,9 +15,9 @@ Wenn Ihre Site viele Links zu externen Sites enthält und Sie nicht sämtliche E
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |---|---|---|---|
-| Keine | Keine | Pfade &gt; Einstiege und Ausstiege &gt; Exitlinks | "" |
+| nicht angegeben | nicht angegeben | Pfade &gt; Einstiege und Ausstiege &gt; Exitlinks | "" |
 
-The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. Jeder Link, der einen Besucher weg von Ihrer Site führt, gilt als Exitlink. Ob ein Exitlink in ein Popupfenster oder in das vorhandene Fenster führt, spielt keine Rolle, damit ein Link in Berichten als Exitlink aufgeführt wird. Exitlinks werden nur verfolgt, wenn *`trackExternalLinks`* auf „True“ festgelegt ist. Bei den Filtern in *`linkExternalFilters`* und *`linkInternalFilters`* sind die Groß- und Kleinschreibung nicht zu beachten.
+*`linkExternalFilters`* ist eine optionale Variable, die in Verbindung mit *`linkInternalFilters`* verwendet wird, um festzustellen, ob ein Link ein Exitlink ist. Jeder Link, der einen Besucher weg von Ihrer Site führt, gilt als Exitlink. Ob ein Exitlink in ein Popupfenster oder in das vorhandene Fenster führt, spielt keine Rolle, damit ein Link in Berichten als Exitlink aufgeführt wird. Exitlinks werden nur verfolgt, wenn *`trackExternalLinks`* auf „True“ festgelegt ist. Bei den Filtern in *`linkExternalFilters`* und *`linkInternalFilters`* sind die Groß- und Kleinschreibung nicht zu beachten.
 
 > [!NOTE]Wenn Sie *`linkExternalFilters`* nicht verwenden möchten, löschen Sie sie oder setzen Sie sie auf „“.
 
@@ -68,6 +68,6 @@ Keine
 
 * Das Verwenden von *`linkExternalFilters`* kann dazu führen, dass weniger Links in einer Site Exitlinks sind. Verwenden Sie diese Variable nicht anstelle von *`linkInternalFilters`*, um interne Links zu zwingen, Exitlinks zu werden.
 
-* Wenn *`linkLeaveQueryString`* auf die Abfragezeichenfolge eines Links angewendet werden soll, stellen Sie sicher, dass *`linkExternalFilters`* auf „true“ eingestellt ist. Siehe [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html), bevor Sie `"true"` einstellen.
+* Wenn *`linkLeaveQueryString`* auf die Abfragezeichenfolge eines Links angewendet werden soll, stellen Sie sicher, dass *`linkExternalFilters`* auf „true“ eingestellt ist. Siehe [linkLeaveQueryString](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html), bevor Sie `"true"` einstellen.
 
 * Um Exitlinktracking zu deaktivieren, legen Sie *`trackExternalLinks`* auf `"false"` fest.
