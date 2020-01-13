@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -11,22 +11,22 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 # Exportleitfaden für Analytics {#export}
 
-+ [Analytics Export Home](home.md)
++ [Analytics-Export-Startseite](home.md)
 + Analytics Data Feed {#analytics-data-feed}
-   + [Übersicht über Datenfeeds](analytics-data-feed/data-feed-overview.md)
-   + [Datenfeed erstellen oder bearbeiten](analytics-data-feed/create-feed.md)
-   + [Verwalten von Datenfeeds](analytics-data-feed/df-manage-feeds.md)
-   + [Verwalten von Datenfeed-Aufträgen](analytics-data-feed/df-manage-jobs.md)
+   + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
+   + [Erstellen oder Bearbeiten eines Daten-Feeds](analytics-data-feed/create-feed.md)
+   + [Verwalten von Daten-Feeds](analytics-data-feed/df-manage-feeds.md)
+   + [Verwalten von Daten-Feed-Aufträgen](analytics-data-feed/df-manage-jobs.md)
    + Daten-Feed-Inhalte {#data-feed-contents}
-      + [Übersicht über den Datenfeed](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Daten-Feed-Inhalte – Übersicht](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Berechnete Metriken](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Datenspaltenreferenz](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Seitenereignissuche](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Sonderzeichen](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [Häufig gestellte Fragen zum Datenfeed](analytics-data-feed/df-faq.md)
-   + [Best Practices für Data Feeds](analytics-data-feed/data-feeds-best-practices.md)
-   + [Fehlerbehebung bei Datenfeeds](analytics-data-feed/feed-troubleshooting.md)
+   + [Häufig gestellte Fragen zu Daten-Feeds](analytics-data-feed/df-faq.md)
+   + [Best Practice für Daten-Feeds](analytics-data-feed/data-feeds-best-practices.md)
+   + [Fehlerbehebung bei Daten-Feeds](analytics-data-feed/feed-troubleshooting.md)
    + [Fehlerbehebung bei Aufträgen](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse-Übersicht](data-warehouse/data-warehouse.md)
