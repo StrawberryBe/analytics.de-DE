@@ -2,7 +2,7 @@
 description: 'null'
 title: Warnhinweiserstellung
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,22 +12,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligente Warnhinweise stehen nur Adobe Analytics Prime- und Adobe Analytics Ultimate-Kunden zur Verfügung.
+>Intelligente Warnhinweise sind nur für Kunden von Adobe Analytics Prime und Adobe Analytics Ultimate verfügbar.
 
 ## Warnhinweiserstellung aufrufen
 
 Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 
-* Mithilfe der folgenden Tastenkombination in Analysis Workspace:
+* Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Indem Sie zu **[!UICONTROL Workspace]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Neuer Warnhinweis]** navigieren.
+* Indem Sie ein oder mehrere Freiformtabellen-Zeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen]** auswählen.
+* Indem Sie von einem Reports &amp; Analytics-Bericht aus zu **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
 ## Warnhinweise erstellen
 
-Die Benutzeroberfläche der Warnhinweiserstellung ähnelt dem Segment-Manager und dem Manager für berechnete Metriken in Analysen:
+Die Benutzeroberfläche der Warnhinweiserstellung ähnelt dem Segment-Manager und dem Manager für berechnete Metriken in Analytics:
 
 ![](assets/alert_builder.png)
 
@@ -41,7 +41,7 @@ Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den N
 
 Geben Sie an, wann die Metrik überprüft werden soll: stündlich, täglich, wöchentlich oder monatlich.
 
-> [!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Granularität im Warnhinweiserstellung nicht unterstützt.
+> [!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
 
 **Empfänger**
 
@@ -49,7 +49,7 @@ Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann 
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>Die Telefonnummer muss über ein vorangestelltes Pluszeichen („+“) und eine [Landesvorwahl](https://countrycode.org/) verfügen.
 
 Die E-Mail, die ein Benutzer erhalten würde, sobald eine Warnung ausgelöst wurde, sieht in etwa so aus:
 
@@ -63,9 +63,9 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 *... Jede dieser Metriken ist ein Auslöser*
 
-* Ziehen Sie Metriken per Drag &amp; Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
+* Ziehen Sie Metriken per Drag-and-Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
 * Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
 
    * Anomalie vorhanden
@@ -79,14 +79,14 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 *... Mit diesen Filtern*
 
-* Platzieren Sie mittels Drag &amp; Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
+* Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
 * Zusätzliche Filter werden mithilfe einer AND-Anweisung hinzugefügt.
 
 **Eine Regel hinzufügen**
 
-Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.
+Per Klick auf das Zahnrad-Symbol können Sie UND- oder ODER-Regeln hinzufügen.
 
-## Warnungen in der Vorschau {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Warnungen in der Vorschau anzeigen {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.
 
