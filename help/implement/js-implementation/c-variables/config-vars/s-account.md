@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -20,7 +20,7 @@ Wenn Daten an mehrere Report Suites gesendet werden (Multi-Suite-Tagging), kann 
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |--- |--- |--- |--- |
-| 40 Byte | Im URL-Pfad | Keine | Keine |
+| 40 Byte | Im URL-Pfad | nicht angegeben | nicht angegeben |
 
 Jede Report Suite-ID muss mit dem Wert übereinstimmen, der in der [!DNL Admin Console] erstellt wurde. Report Suite-IDs dürfen maximal 40 Byte lang sein. Alle Report Suites zusammengenommen (die gesamte kommagetrennte Liste) unterliegen jedoch keinen Beschränkungen.
 
@@ -30,7 +30,7 @@ Die aktuelle Report Suite wird in [!DNL Analytics] oben links in den Berichten i
 
 Die Variable `s_account` wird normalerweise in der JavaScript-Datei (s_code.js) deklariert. Sie können die Variable `s_account` auf der HTML-Seite deklarieren. Dies ist eine gängige Praxis, wenn sich der Wert von `s_account` von Seite zu Seite ändern kann. Da die Variable `s_account` einen globalen Gültigkeitsbereich besitzt, sollte sie sofort deklariert werden, bevor die JavaScript-Datei von Adobe aufgenommen wird. Wenn `s_account` beim Laden der JavaScript-Datei keinen Wert enthält, werden auch keine Daten an [!DNL Analytics] gesendet.
 
-[!DNL DigitalPulse Debugger]von Adobe zeigt den Wert von `s_account` im Pfad der URL an, die direkt unter dem Wort „Bild“ direkt nach /b/ss/ angezeigt wird. In einigen Fällen wird der Wert von `s_account` auch in der Domäne vor 112.2o7.net angezeigt. Der Wert im Pfad ist der einzige Wert, der die Ziel-Report Suite vorgibt. Im folgenden Beispiel ist die Stelle im Debugger, die die Report Suites angibt, fett markiert dargestellt. Siehe   [DigitalPulse-Debugger prüfen](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+[!DNL DigitalPulse Debugger]von Adobe zeigt den Wert von `s_account` im Pfad der URL an, die direkt unter dem Wort „Bild“ direkt nach /b/ss/ angezeigt wird. In einigen Fällen wird der Wert von `s_account` auch in der Domäne vor 112.2o7.net angezeigt. Der Wert im Pfad ist der einzige Wert, der die Ziel-Report Suite vorgibt. Im folgenden Beispiel ist die Stelle im Debugger, die die Report Suites angibt, fett markiert dargestellt. Siehe [DigitalPulse-Debugger prüfen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
