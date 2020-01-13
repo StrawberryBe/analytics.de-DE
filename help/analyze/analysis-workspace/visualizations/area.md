@@ -2,7 +2,7 @@
 description: 'null'
 title: Bereich und Bereich gestapelt
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Diese Visualisierung entspricht einem Kantengraph, bei dem der Bereich unter der
 
 ![](assets/area.png)
 
-## Area stacked {#section_922BBC5A6D254778A050DF710B0BD8D9}
+## Bereich gestapelt {#section_922BBC5A6D254778A050DF710B0BD8D9}
 
 Diese Visualisierung entspricht einem Flächendiagramm, aber hier beginnt jede Serie über der vorherigen Serie.
 
