@@ -2,7 +2,7 @@
 description: Durch das Taggen von Segmenten können Sie diese im Manager für berechnete Metriken organisieren.
 title: Berechnete Metriken taggen
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,8 +27,8 @@ Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder meh
 
       ![](assets/cm_add_tags.png)
 
-1. Klicken Sie erneut auf **[!UICONTROL Taggen], um die Metrik zu taggen.**
+1. Klicken Sie erneut auf **[!UICONTROL Taggen]**, um die Metrik zu taggen.
 
 Das Tag wird jetzt in der Spalte „Tags“ angezeigt. (Klicken Sie oben rechts auf das Zahnradsymbol, um Ihre Spalten zu verwalten.)
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+Sie können unter **[!UICONTROL Filter anzeigen]** &gt; **[!UICONTROL Tags]** auch nach Tags filtern.
