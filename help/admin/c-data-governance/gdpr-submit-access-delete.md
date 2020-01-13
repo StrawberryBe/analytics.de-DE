@@ -103,7 +103,7 @@ Beachten Sie, dass der Benutzerabschnitt drei Blöcke enthält, die drei separat
 * Die zweite Anfrage ist ebenfalls eine Zugriffsanfrage, in der jedoch ein MCID-/ECID-Cookie verwendet wird.
 * Die dritte Anfrage dient sowohl dem Zugriff als auch dem Löschen für die angegebenen IDs. Obwohl für alle Anfragen eine ID-Erweiterung angegeben ist, wird sie die größte Auswirkung auf die dritte Anfrage haben, weil dies die einzige Anfrage ist, für die Nicht-Cookie-IDs verwendet werden. Infolgedessen erkennt diese Anfrage auch Cookie-IDs, die beliebigen Geräten mit der angegebenen CRM-ID oder E-Mail-Adresse zugeordnet sind. Zudem wird die Anfrage erweitert, sodass sie auch diese IDs beinhaltet.
 
-Bedenken Sie Folgendes:
+Bedenken Sie Folgendes
 
 * Der Wert „5D7236525AA6D9580A495C6C@AdobeOrg“ im Abschnitt „companyContexts“ muss mit dem Wert Ihrer eigenen Experience Cloud-Organisation aktualisiert werden.
 * Die Felder „type“ und „namespace“ werden im Abschnitt [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) beschrieben.
