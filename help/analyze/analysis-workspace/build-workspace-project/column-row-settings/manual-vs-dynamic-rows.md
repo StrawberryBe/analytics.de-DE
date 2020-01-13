@@ -1,14 +1,14 @@
 ---
 description: Interaktion mit statischen Zeilen in Tabellen.
-title: Statische und dynamische Zeilen
+title: Statische Zeilen im Vergleich zu dynamischen Zeilen
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Statische und dynamische Zeilen
+# Statische Zeilen im Vergleich zu dynamischen Zeilen
 
 Analysis Workspace-Tabellen generieren dynamische Zeilen, wenn Sie eine Dimension in der Tabelle ablegen; d. h., dass alle für eine bestimmte Metrik zu der Dimension gehörenden Elemente in die Tabelle eingefügt werden.
 
@@ -25,12 +25,12 @@ Im Gegensatz dazu wird, wenn Sie manuell eine bestimmte Metrik, ein Segment, ein
 
    ![](assets/static_rows.png)
 
-Darüber hinaus können Sie (nur) im statischen Zeilenmodus die Berechnung der Spaltensummen ändern. Klicken Sie einfach auf das Zahnrad-Symbol und schalten Sie zwischen den beiden folgenden Optionen um:
+Darüber hinaus können Sie (nur) im statischen Zeilenmodus jetzt ändern, wie die Spaltensummen berechnet werden. Klicken Sie einfach auf das Zahnrad-Symbol und schalten Sie zwischen den beiden folgenden Optionen um:
 
 ![](assets/column-totals.png)
 
 | Option | Beschreibung |
 |---|---|
-| (Standard) Berechnen Sie die Summen, indem Sie die Werte zusammenfassen, die sich derzeit in den einzelnen Spalten befinden. | Diese Option berechnet nur die aktuell in der Tabelle vorhandenen Spalten. (Clientseitige Berechnung) |
+| (Standardmäßig) Berechnen der Summen durch Addieren der Werte, die sich zurzeit in jeder Spalte befinden. | Diese Option berechnet nur die aktuell in der Tabelle vorhandenen Spalten. (Clientseitige Berechnung) |
 | Berechnen der Summen anhand aller Zeilen für jede Metrik. | Diese Option bezieht alle Dimensionselemente für diese Dimension ein, auch dann, wenn diese nicht in der Tabelle aufgeführt sind. (Serverseitige Berechnung) |
 
