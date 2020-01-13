@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referrer und Kampagnen
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -30,7 +30,7 @@ Beschreibung der Felder des [!UICONTROL Dynamic Tag Managements] für Referrer- 
   </tr> 
   <tr> 
    <td colname="col1"> Kampagne </td> 
-   <td colname="col2"> <p>Eine Variable, die Marketing-Kampagnen kennzeichnet, über die Besucher zu Ihrer Website gelangen. Der Wert einer Kampagne wird normalerweise einem Abfragezeichenfolgen-Parameter entnommen. </p> <p>See [<a href="/help/implement/js-implementation/page-variables/campaign.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>Eine Variable, die Marketing-Kampagnen kennzeichnet, über die Besucher zu Ihrer Website gelangen. Der Wert einer Kampagne wird normalerweise einem Abfragezeichenfolgenparameter entnommen. </p> <p>Siehe <a href="/help/implement/js-implementation/page-variables/campaign.md">Seitenvariablen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
