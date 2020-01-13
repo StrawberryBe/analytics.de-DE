@@ -3,7 +3,7 @@ description: Mit dynamischen Variablen können Sie Werte von einer Variablen in 
 keywords: Analytics Implementation
 solution: null
 title: Dynamische Variablen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -25,9 +25,9 @@ Die Variable *`linkLeaveQueryString`* bestimmt, ob die Abfragezeichenfolge in de
 
 | Maximale Größe | Debug-Parameter | Ausgefüllte Berichte | Standardwert |
 |--- |--- |--- |--- |
-| Keine | Keine | Datei-Downloads für Exitlinks | false |
+| nicht angegeben | nicht angegeben | Datei-Downloads für Exitlinks | false |
 
-*Hinweis: Die Einstellung`linkLeaveQueryString=true`umfasst alle Abfragezeichenfolgenparameter für alle Exitlinks und Downloadlinks.*
+*Hinweis: Wenn`linkLeaveQueryString=true`festgelegt wird, sind sämtliche Abfragezeichenfolgenparameter für alle Exit- und Downloadlinks eingeschlossen.*
 
 ## Syntax
 
@@ -53,11 +53,11 @@ s.linkLeaveQueryString=true
 
 ## Konfigurationseinstellungen
 
-Bei dieser Variablen sind keine Konfigurationen erforderlich.
+Bei dieser Variable sind keine Konfigurationen erforderlich.
 
 ## Probleme, Fragen und Tipps
 
-* Wenn `s.linkLeaveQueryString=true` eingestellt wird, werden alle Abfragezeichenfolgen-Parameter für alle Exitlinks und Downloadlinks mit aufgenommen.
+* Wenn `s.linkLeaveQueryString=true` eingestellt wird, werden alle Abfragezeichenfolgenparameter für alle Exitlinks und Downloadlinks mit aufgenommen.
 * Die `linkLeaveQueryString`-Variable hat keine Auswirkungen auf aufgezeichnete Seiten-URLs, Besucherklickzuordnungen oder [!UICONTROL Pfadberichte].
 
 ## Automatische Verfolgung von Exitlinks und Dateidownloads
@@ -74,15 +74,15 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-Die Parameter `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. Wenn diese Option aktiviert ist, wird jeder Link mit einem Dateityp, der mit einem der Werte in übereinstimmt, automatisch als Dateidownload verfolgt. `linkDownloadFileTypes` Jeder Link mit einer URL, der keinen der Werte in enthält, `linkInternalFilters` wird automatisch als Ausstiegslink verfolgt.
+Die Parameter `trackDownloadLinks` und `trackExternalLinks` bestimmen, ob ein automatischer Dateidownload und Exitlinktracking aktiviert sind. Wenn diese Option aktiviert ist, wird jeder Link mit einem Dateityp, der mit einem der Werte unter `linkDownloadFileTypes` übereinstimmt, automatisch als Dateidownload verfolgt. Jeder Link mit einer URL ohne die Werte unter `linkInternalFilters` wird automatisch als Exitlink verfolgt.
 
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+In H.25.4 (im Februar 2013 veröffentlicht) wurde das automatische Exitlinktracking so geändert, dass Links mit `HREF`-Attributen, die mit `#`, `about:` oder `javascript:` beginnen, stets ignoriert werden.
 
 ### Beispiel 1
 
-Die Dateitypen `.jpg` und `.aspx` sind in `linkDownloadFileTypes` oben nicht enthalten, daher werden keine Klicks auf sie automatisch verfolgt und als Datei-Downloads gemeldet.
+Die Dateitypen `.jpg` und `.aspx` sind unter `linkDownloadFileTypes` oben nicht enthalten, daher werden keine Klicks auf sie automatisch verfolgt und als Dateidownloads berichtet.
 
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+Der Parameter `linkLeaveQueryString` verändert die Logik zur Bestimmung von Exitlinks. Wenn `linkLeaveQueryString` den Wert „false“ hat, werden Exitlinks nur anhand von Domäne, Pfad und Dateiteil der Link-URL ermittelt. Wenn `linkLeaveQueryString` den Wert „true“ hat, wird auch der Teil der Link-URL mit der Abfragezeichenfolge zur Ermittlung eines Exitlinks verwendet.
 
 ### Beispiel 2
 
@@ -110,4 +110,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*Hinweis: Ein einzelner Link kann nur als Dateidownload oder Exitlink verfolgt werden, wobei der Dateidownload die Priorität hat. Wenn es sich bei einem Link sowohl um einen Ausstiegslink als auch um einen Dateidownload handelt, der auf den Parametern basiert,`linkDownloadFileTypes`und`linkInternalFilters`er wird als Datei-Download und nicht als Ausstiegslink verfolgt und berichtet.*
+*Hinweis: Ein einzelner Link kann nur als Dateidownload oder Exitlink verfolgt werden, wobei der Dateidownload Priorität hat. Wenn es sich bei einem Link sowohl um einen Exitlink als auch um einen Dateidownload handelt, der auf den Parametern`linkDownloadFileTypes`und`linkInternalFilters`basiert, wird er als Dateidownload und nicht als Exitlink verfolgt und berichtet.*
