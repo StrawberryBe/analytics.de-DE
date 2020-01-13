@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -86,14 +86,14 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Warnhinweiserstellung](c-alerts/alert-builder.md)
    + [Warnhinweis-Manager](c-alerts/alert-manager.md)
    + [Intelligente Warnhinweise – Anwendungsfälle](c-alerts/alerts-use-cases.md)
-+ Klassifizierungen{#classifications}
++ Klassifizierungen {#classifications}
    + [Informationen über Klassifizierungen](c-classifications2/c-classifications.md)
    + [Informationen über Unterklassifizierungen](c-classifications2/c-sub-classifications.md)
    + [Konversionsklassifizierungen](c-classifications2/conversion-classifications.md)
    + [Traffic-Klassifizierungen](c-classifications2/traffic-classifications.md)
    + [Klassifizierungshierarchien](c-classifications2/classification-hierarchies.md)
-   + Klassifizierungsimport (Hochladen) {#classifications-importer}
-      + [Klassifizierungsimport – Übersicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
+   + Classifications importer (Hochladen) {#classifications-importer}
+      + [Classifications importer – Übersicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
       + [Klassifizierungsdatendateien](c-classifications2/c-classifications-importer/c-saint-data-files.md)
       + [Löschen von Classification-Daten](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
       + [Classification-Daten maskieren](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
@@ -108,10 +108,10 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Klassifizierungsregeln](c-classifications2/crb/classification-quickstart-rules.md)
       + [Klassifizierungsregeln – Definitionen](c-classifications2/crb/classification-rule-definitions.md)
       + [Unterklassifizierungen und der Rule Builder – Anwendungsfall](c-classifications2/crb/sub-classification-rule-builder.md)
-   + Numerisch-2-Klassifizierungen {#numeric2-classification}
-      + [Numerisch-2-Klassifizierungen – Übersicht](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [Nummerisch-2-Klassifizierungen erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Nummerisch-2-Klassifizierungen importieren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
+   + Numerisch 2 Classifications {#numeric2-classification}
+      + [Numerisch 2 Classifications – Übersicht](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
+      + [Numerisch 2 Classifications erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [Numerisch 2 Classifications importieren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [Beispiele](c-classifications2/c-numeric-2/c-examples.md)
    + [Fehlerbehebung für Classifications](c-classifications2/c-classifications-troubleshooting.md)
 + [Kalenderereignisse](t-calendar-event.md)
@@ -273,7 +273,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Übersicht über Metriken](c-variables/c-metrics/metricslist.md)
       + [Kurzübersicht über Metriken](c-variables/c-metrics/metrics-overview.md)
       + [Metrikberechnungen](c-variables/c-metrics/metrics-calculations.md)
-      + [Durchschnittl. Seitentiefe](c-variables/c-metrics/metrics-av-page-depth.md)
+      + [Durchschnittl. Klicktiefe](c-variables/c-metrics/metrics-av-page-depth.md)
       + [Durchschnittliche Besuchszeit](c-variables/c-metrics/metrics-av-time-spent.md)
       + [Absprünge](c-variables/c-metrics/metrics-bounces.md)
       + [Absprungrate](c-variables/c-metrics/metrics-bounce-rate.md)
@@ -332,7 +332,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Informationen über Kanäle und Regeln](c-marketing-channels/c-channels-rules.md)
    + [Automatisches Setup](c-marketing-channels/c-channel-autosetup.md)
    + [Marketing-Kanäle verwalten](c-marketing-channels/c-channels.md)
-   + [Interner Kanal (Sitzungsaktualisierung)](c-marketing-channels/session-refresh.md)
+   + [Kanal „Intern“ (Sitzungsaktualisierung)](c-marketing-channels/session-refresh.md)
    + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/c-rules.md)
    + [Einrichten von Marketingkanal-Verarbeitungsregeln](c-marketing-channels/t-rules.md)
    + [Marketing-Kanal-Verarbeitungsregeln – Definitionen](c-marketing-channels/r-channel-rule-definitions.md)
