@@ -5,7 +5,7 @@ subtopic: Release notes
 title: iOS
 topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,9 +19,9 @@ Gesammelte Versionshinweise für iOS.
 
 Downloads mobiler Bibliotheken stehen über [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) und über [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) zur Verfügung.
 
-[Dokumentation zu 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[Dokumentation zu 4.x](https://marketing.adobe.com/resources/help/de_DE/mobile/ios/)
 
-[Dokumentation zu 3.x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[Dokumentation zu 3.x](https://marketing.adobe.com/resources/help/de_DE/sc/appmeasurement/ios/)
 
 ## Version 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -91,11 +91,11 @@ Die [!DNL iOS]-SDK-Version 4.13.2 (10. November 2016) enthält folgende Ände
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Konfiguration </p> </td> 
-   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
+   <td colname="2"> <p> Über <code> setAdvertisingIdentifier:</code> an das SDK weitergegebene ungültige IDFAs (00000000-0000-0000-0000-000000000000) werden ignoriert. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Deep-Linking </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>Beim Aufrufen von <code> trackAdobeDeepLink</code> werden ab sofort Variablen mit dem Präfix „<code> adb</code>“ und „<code> ctx</code>“ ordnungsgemäß verarbeitet. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Akquise </p> </td> 
@@ -294,7 +294,7 @@ Die [!DNL iOS]-SDK-Version 4.8.5 (18. Februar 2016) enthält folgende Änderung
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Opt-out- und Datenschutzeinstellungen </p> </td> 
-   <td colname="2"> <p>Ab <span class="keyword">iOS</span>-SDK 4.8.5 wirken sich die über die Methode <code> setPrivacyStatus</code> festgelegten Datenschutzeinstellungen auf die Aktivität von <span class="keyword">Analytics</span>, <span class="keyword">Target</span> und <span class="keyword">Audience Manager</span> aus. </p> </td> 
+   <td colname="2"> <p>Ab <span class="keyword">iOS</span>-SDK 4.8.5 wirken sich die über die Methode <code> setPrivacyStatus</code> festgelegten Datenschutzeinstellungen auf die Aktivität von <span class="keyword">Analytics</span>, <span class="keyword">Target</span> und <span class="keyword">Audience Manager</span> aus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -318,7 +318,7 @@ Die [!DNL iOS]-SDK-Version 4.8.0 (2. November 2015) enthält folgende Änderung
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Die <code> visitorSyncIdentifiers:identifiers</code> Methode wurde in <code> visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p><code> visitorSyncIdentifiers:identifiers</code>-Methode wurde zu <code> visitorSyncIdentifiers:</code> geändert </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Neue TVJS-Methoden </td> 
@@ -428,7 +428,7 @@ Die [!DNL iOS]-SDK-Version 4.6 (17. September 2015) enthält folgende Änderu
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E">Die Variablen <code> trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">Der <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -452,7 +452,7 @@ Die [!DNL iOS]-SDK-Version 4.5 enthält folgende Änderungen:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS-Erweiterung</span> </p> </td> 
-   <td colname="2"> <p>Die <span class="keyword">iOS</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">iOS</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Anwendungen, Today Widgets, Photo Editing Widgets und all den anderen Anwendungen der <span class="keyword">iOS</span>-Erweiterung erlaubt. </p> <p>Wir empfehlen ausdrücklich die Verwendung von <span class="keyword">iOS</span>-SDK anstelle Ihres eigenen Wrappers. </p> <p>Apple bietet einen Satz APIs, über die die Watch-Anwendung mit der übergeordneten Anwendung kommunizieren (Anfragen an die übergeordnete Anwendung senden und Antworten erhalten) kann. </p> <p>Es ist zwar möglich, Tracking-Daten als Wörterbuch von der Watch-Anwendung an die übergeordnete Anwendung zu senden und die übergeordnete Anwendung anschließend über eine beliebige Tracking-Methode zum Senden der Daten aufzufordern, jedoch gibt es bei dieser Methode Einschränkungen. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. Andere Tracking-Methoden aufzurufen würde Lebenszyklusdaten beeinträchtigen, also sollten Sie nur diese drei Methoden verwenden, um Daten von der Watch-Anwendung zu senden. </p> <p>Selbst wenn diese drei Tracking-Methoden Ihren Anforderungen genügen, empfehlen wir die Verwendung des <span class="keyword">iOS</span>-SDK, da das SDK für Watch-Anwendungen alle <span class="keyword">Mobilgerät</span>-Funktionen außer In-App-Nachrichten enthält. </p> </td> 
+   <td colname="2"> <p>Die <span class="keyword">iOS</span>-SDK-Version 4.5 enthält eine neue Erweiterung von <span class="keyword">iOS</span>, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Anwendungen, Today Widgets, Photo Editing Widgets und all den anderen Anwendungen der <span class="keyword">iOS</span>-Erweiterung erlaubt. </p> <p>Wir empfehlen ausdrücklich die Verwendung von <span class="keyword">iOS</span>-SDK anstelle Ihres eigenen Wrappers. </p> <p>Apple bietet einen Satz APIs, über die die Watch-Anwendung mit der übergeordneten Anwendung kommunizieren (Anfragen an die übergeordnete Anwendung senden und Antworten erhalten) kann. </p> <p>Es ist zwar möglich, Tracking-Daten als Wörterbuch von der Watch-Anwendung an die übergeordnete Anwendung zu senden und die übergeordnete Anwendung anschließend über eine beliebige Tracking-Methode zum Senden der Daten aufzufordern, jedoch gibt es bei dieser Methode Einschränkungen. </p> <p>Wenn ein Benutzer die Watch-Anwendung verwendet, läuft die übergeordnete Anwendung meistens im Hintergrund, und es ist nur sicher, <code> TrackActionInBackground</code>, <code> TrackLocation</code> und <code> TrackBeacon</code> aufzurufen. Andere Tracking-Methoden aufzurufen würde Lebenszyklusdaten beeinträchtigen, also sollten Sie nur diese drei Methoden verwenden, um Daten von der Watch-Anwendung zu senden. </p> <p>Selbst wenn diese drei Tracking-Methoden Ihren Anforderungen genügen, empfehlen wir die Verwendung des <span class="keyword">iOS</span>-SDK, da das SDK für Watch-Anwendungen alle <span class="keyword">Mobilgerät</span>-Funktionen außer In-App-Nachrichten enthält. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,21 +473,21 @@ Die [!DNL iOS]-SDK-Version 4.5 enthält folgende Änderungen:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Unterstützung für Beacon-Tracking in <span class="keyword">PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>Die Aufrufe <code> trackBeacon</code> und <code> clearCurrentBeacon</code> sind jetzt in <span class="keyword">PhoneGap</span> verfügbar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.3 {#section_0FD2B2C4F54E4A9E8C6D0CD2F103BB9A}
 
-Releasedatum: **24. November 2014**
+Releasedatum: **24. November 2014**
 
 * Neu: Integration der Adobe Experience Cloud ID
 * Verbesserte Debug-Protokolle für mehr Klarheit
 
 ## Version 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
 
-Releasedatum: **16. Oktober 2014**
+Releasedatum: **16. Oktober 2014**
 
 * Neu: Funktionen für In-App-Nachrichten
 * Neu: Speicherort für Konfigurationsdatei kann nun beim Anwendungsstart angegeben werden.
@@ -498,21 +498,21 @@ Releasedatum: **16. Oktober 2014**
 
 ## Version 4.1.3 {#section_8D679B676F604E0B9A64748569185368}
 
-Releasedatum: **18. September 2014**
+Releasedatum: **18. September 2014**
 
 * Potenziellen Absturz behoben, der auftrat, wenn der Audience Manager-Aufruf „Submit Call“ oder der [!DNL Target]-Aufruf „Load Request“ aufgrund eines unbekannten Netzwerkfehlers fehlschlug.
 
 ## Version 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
 
-Releasedatum: **5. August 2014**
+Releasedatum: **5. August 2014**
 
 * Deadlock-Problem behoben, das bei der Konfiguration von privacyStatus:optunknown und offlineEnabled:false auftrat.
 
-Releasedatum: **4. August 2014**
+Releasedatum: **4. August 2014**
 
 * Problem behoben, bei dem der Lebenszyklustreffer nicht gesendet wurde, wenn das Referrer-Timeout über 5 Sekunden lag und das Offline-Tracking deaktiviert war.
 
-Releasedatum: **17. April 2014**
+Releasedatum: **17. April 2014**
 
 * Bluetooth-Beacon-Tracking.
 * App-Akquise-Analyse.
@@ -522,26 +522,26 @@ Releasedatum: **17. April 2014**
 
 ## Version 4.0.2 {#section_B78AE82CDFAD44DCAC6D61E0B80BF4C8}
 
-Releasedatum: **20. Februar 2014**
+Releasedatum: **20. Februar 2014**
 
 * Problem behoben, das ein fehlerhaftes Verhalten verursachte, wenn dasselbe Medienelement zweimal hintereinander geöffnet wurde, ohne das vorherige Element zu schließen.
 
 ## Version 4.0.1 {#section_A6D017015BC742F69B6EE4A461D00FD7}
 
-Releasedatum: **30. Januar 2014**
+Releasedatum: **30. Januar 2014**
 
 * Problem behoben, bei dem mehrere Treffer gesendet wurden, wenn die Datenbank beschädigt war.
 * Problem behoben, das im Durchschnitt hohe Sitzungslängen verursachte, wenn ein Gerät über die korrekten Zeiteinstellungen verfügte.
 
 ## Version 3.3.2 {#section_6D12768F20C44BA4A0D1EA607D367147}
 
-Releasedatum: **30. Januar 2014**
+Releasedatum: **30. Januar 2014**
 
 * Problem behoben, das im Durchschnitt hohe Sitzungslängen verursachte, wenn ein Gerät über die korrekten Zeiteinstellungen verfügte.
 
 ## Version 4.0.0 {#section_79DCFAAF1DCB404898E3BE389AC835A6}
 
-Releasedatum: **27. September 2013**
+Releasedatum: **27. September 2013**
 
 [!DNL iOS]-SDK 4.x für Experience Cloud-Lösungen ist jetzt mit folgenden neuen Funktionen verfügbar:
 
@@ -556,51 +556,51 @@ Releasedatum: **27. September 2013**
 
 ## Version 3.3.0 {#section_28FB7CD64D6C49BF93E321587F1E8950}
 
-Releasedatum: **23. September 2013**
+Releasedatum: **23. September 2013**
 
 * Unterstützung für ARM64- und X64 Simulator-Architekturen (iPhone 5s) hinzugefügt.
 
 ## Version 3.2.1 {#section_3E73A76401664C54B32C7F3BE8BE36E3}
 
-Releasedatum: **16. August 2013**
+Releasedatum: **16. August 2013**
 
 * Durch Entfernen ungenutzten Codes optimiert.
 * Potenzieller Absturz behoben, der auftrat, wenn clearVars in einem Szenario mit Threads verwendet wurde.
 
 ## Version 3.2 {#section_A51E0EB26EF246DABE27234C77598D99}
 
-Releasedatum: **6. August 2013**
+Releasedatum: **6. August 2013**
 
 * Unterstützung für Adobe Audience Manager hinzugefügt.
 * Lebenszyklusdaten werden jetzt mit [!DNL Target]-Mbox-Anfragen gesendet, wenn das Lebenszyklus-Tracking aktiviert ist.
 
 ## Version 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
 
-Releasedatum: **20. Juni 2013**
+Releasedatum: **20. Juni 2013**
 
 * Fehler behoben, der in Version 3.1.7 eingeführt wurde und auf Geräten mit einer [!DNL iOS]-Version vor 5.0 Probleme mit dem Lebenszyklus verursachte.
 
 ## Version 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
-Releasedatum: **23. Mai 2013**
+Releasedatum: **23. Mai 2013**
 
 * Code hinzugefügt, um zu verhindern, dass übermäßige Lebenszyklustreffer über Standortbenachrichtigungen und Zeitungskiosk-Benachrichtigungen gesendet werden, die eine Anwendung starten.
 
 ## Version 3.1.6 {#section_4617D7A41D0841BEBD5829001DC74854}
 
-Releasedatum: **18. April 2013**
+Releasedatum: **18. April 2013**
 
 * Problem behoben, bei dem die Länge der vorherigen Sitzung in manchen Fällen fehlerhaft berechnet wurde.
 
 ## Version 3.1.5 {#section_620AA594868F47619A514AF3C1EAC93B}
 
-Releasedatum: **21. März 2013**
+Releasedatum: **21. März 2013**
 
 * `ADMS_Measurement.visitorID` wird jetzt automatisch auf den Standardwert festgelegt.
 
 ## Version 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
-Releasedatum: **21. Februar 2013**
+Releasedatum: **21. Februar 2013**
 
 * Aufgrund der Thread-Optimierung ist die Einstellung `offlineThrottleDelay` veraltet und nicht mehr erforderlich. Die Einstellung ist noch vorhanden, um die Rückwärtskompatibilität zu gewährleisten, hat jedoch keine Auswirkung mehr.
 
@@ -737,7 +737,7 @@ Releasedatum: **Januar 2012**
 Releasedatum: **November 2011**
 
 * Hinzugefügte Unterstützung für [!DNL iOS] 5.
-* [!DNL AppMeasurement] für wurde aktualisiert und verwendet jetzt nicht mehr den veralteten UDID-Wert als Standardwert für visitorID.[!DNL iOS] Wenn Sie in Ihrer Anwendung eine benutzerdefinierte visitorID festlegen (z. B. `s.visitorID = @12345`), wirkt sich diese Änderung nicht darauf aus. Wenn Sie eine benutzerdefinierte visitorID festlegen, wird nicht die UDID als Wert für visitorID verwendet. Stattdessen wird beim ersten Starten eine zufällige visitorID generiert und in einem Benutzerstandardschlüssel gespeichert. Dieser Schlüssel wird ab diesem Zeitpunkt von [!DNL AppMeasurement] verwendet. Dieser Schlüssel wird auch während des Standardprozesses zur Anwendungssicherung gespeichert und wiederhergestellt.
+* [!DNL AppMeasurement] für [!DNL iOS] wurde aktualisiert und verwendet jetzt nicht mehr den veralteten UDID-Wert als Standardwert für visitorID. Wenn Sie in Ihrer Anwendung eine benutzerdefinierte visitorID festlegen (z. B. `s.visitorID = @12345`), wirkt sich diese Änderung nicht darauf aus. Wenn Sie eine benutzerdefinierte visitorID festlegen, wird nicht die UDID als Wert für visitorID verwendet. Stattdessen wird beim ersten Starten eine zufällige visitorID generiert und in einem Benutzerstandardschlüssel gespeichert. Dieser Schlüssel wird ab diesem Zeitpunkt von [!DNL AppMeasurement] verwendet. Dieser Schlüssel wird auch während des Standardprozesses zur Anwendungssicherung gespeichert und wiederhergestellt.
 
 * Aktualisierung von Aufrufen aus dem [!DNL iOS] Best Practices-Plug-in, die nicht mit einer Seitenansicht verknüpft sind, um Treffer mithilfe von trackLink zu senden. Dadurch wird verhindert, dass diese Treffer Seitenansichten mit dem Standardwert „Anwendungsname/Version“ aufzeichnen.
 
