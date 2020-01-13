@@ -2,19 +2,19 @@
 description: 'null'
 title: Von der Migration betroffene APIs
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Von der Migration betroffene APIs{#apis-affected-by-the-migration}
+# Von der Migration betroffene APIs {#apis-affected-by-the-migration}
 
 ## Von der Migration betroffene APIs {#topic-8d34296a67d74b1081c3f7e8f650f3ce}
 
-Adobe migriert alle Analytics-Login-Unternehmen weg von [!DNL my.omniture.com] und hin zur Authentifizierung über die Adobe Experience Cloud. Once a company begins this migration, programmatic user creation and management through the Analytics-specific permissions and `GetLoginKey` methods available via v1.3 and v1.4 of the Analytics Admin API will no longer be supported. Solche Aktionen sind nun in der Experience Cloud über [!DNL adobe.io] möglich.
+Adobe migriert alle Analytics-Anmeldeunternehmen weg von [!DNL my.omniture.com] und hin zur Authentifizierung über Adobe Experience Cloud. Sobald ein Unternehmen mit dieser Migration beginnt, wird die programmgemäße Benutzererstellung und -verwaltung durch die Analytics-spezifischen Berechtigungen und `GetLoginKey`-Methoden, die mit den Versionen 1.3 und 1.4 der Analytics Admin-API verfügbar sind, nicht mehr unterstützt. Solche Aktionen sind nun in Experience Cloud über [!DNL adobe.io] möglich.
 
-## Betroffenen API-Methoden {#section-d19051ac26cc49aeb124f767c4760254}
+## Betroffene API-Methoden {#section-d19051ac26cc49aeb124f767c4760254}
 
 Die folgenden API-Methoden in den Versionen v1.3 und v1.4 der Admin-API werden nach Beginn der Benutzermigration nicht mehr unterstützt:
 
@@ -41,8 +41,8 @@ Wenn Ihr Unternehmen keine dieser Methoden verwendet, ist keine weitere Aktion e
 
 Weitere Informationen:
 
-* [Allgemeines User Management – Start](https://helpx.adobe.com/enterprise/help/users.html)
+* [Allgemeines User Management – Start](https://helpx.adobe.com/de/enterprise/help/users.html)
 * [User Managements-APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [User Managements-API-Forum](https://forums.adobe.com/community/umapi/overview)
-* [Migration des Analytics-Benutzerzugriffs und -managements zur Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [Migration des Analytics-Benutzerzugriffs und -managements zur Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/experience-cloud/admin-console/analytics-migration/)
 
