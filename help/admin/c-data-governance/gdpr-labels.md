@@ -278,7 +278,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
      <li id="li_6E614B7036994434BFDA71A4424529A0">Commerce-Variablen (Nicht-Merchandising-eVars) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Alle Beschriftungen </p> </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Die meisten anderen Variablen </p> <p><i>(Ausnahmen finden Sie in der unten stehenden Tabelle.)</i> </p> </td> 
@@ -344,7 +344,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
    <td colname="col4"> <p>Sie können die DEL-Beschriftung zwar nicht ändern, Sie können sie jedoch zu DEL-DEVICE oder DEL-PERSON oder beidem ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap-Aktion (Legacy) </p> <p>ClickMap-Kontext (Legacy) </p> <p>Seite </p> <p>Seiten-URL </p> <p>URL der ursprünglichen Entrypage </p> <p>Verweisende Stelle </p> <p>URL der Besuchsstartseite </p> </td> 
+   <td colname="col2"> <p>ClickMap-Aktion (Legacy) </p> <p>ClickMap-Kontext (Legacy) </p> <p>Seite </p> <p>Seiten-URL, </p> <p>URL der ursprünglichen Entrypage </p> <p>Verweisende Stelle </p> <p>URL der Besuchsstartseite </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Variablen können URL-Parameter enthalten, die möglicherweise direkt oder indirekt identifizierbare Daten beinhalten. Wenn Ihre Implementierung keine direkt oder indirekt identifizierbaren Daten in diesen Variablen erfasst, benötigen sie keine Identitäts- oder Löschbeschriftungen. </p> <p>Hinweis: Beim Löschen werden die URL-Parameter entfernt, aber die Basis-URL wird beibehalten. </p> </td> 
   </tr> 
@@ -425,7 +425,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
    <td colname="col2"> <p> Gibt die Analytics Report Suite (als Nummer) an, die die Daten enthält. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Report Suite-ID </p> </td> 
+   <td colname="col1"> <p>Report Suite-ID </p> </td> 
    <td colname="col2"> <p> Gibt den Namen der Analytics Report Suite an, die die Daten enthält. </p> </td> 
   </tr> 
   <tr> 
