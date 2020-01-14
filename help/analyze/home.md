@@ -1,8 +1,8 @@
 ---
-title: Hilfe zu Analysis Workspace
-description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Activity Map, ReportBuilder, Berichterstellungs-API und Reports & Analysen (früher Omniture Analytics-Produkte).
+title: Leitfaden für Analytics-Tools
+description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Activity Map, Report Builder, Reporting-API und Reports & Analytics (früher Omniture Analytics-Produkte).
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -11,14 +11,14 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden Adobe Analytics-Berichterstellungs- und Analysetools:
+Dieses Handbuch enthält Produktdokumentation und Selbsthilfe für die folgenden Adobe Analytics-Reporting- und Analyse-Werkzeuge:
 
-* **Arbeitsbereich** für Analysen: Die wichtigste Funktion in Adobe Analytics. Workspace bietet eine Arbeitsfläche, auf die Sie Komponenten für die zu erstellenden Berichte ziehen können.
-* **Activity Map**: Ein Browser-Plugin, das eine Überlagerung auf Ihrer Site anzeigt, die anzeigt, auf welche Elemente am häufigsten geklickt wurde.
-* **Ad-hoc-Analysen**: Eine eigenständige Java-Anwendung mit robusten Berichtsfunktionen. Dieses Tool wird nicht mehr aktualisiert und wird irgendwann in Zukunft entfernt.
-* **Berichterstellungs-API**: Stellen Sie Berichtsabfragen direkt an die Adobe-Server und erhalten Sie Antworten zur Verwendung in Ihren eigenen Berichterstellungs-Tools.
-* **ReportBuilder**: Ein Excel-Add-in, mit dem Sie Analytics-Daten abrufen und direkt in einer Arbeitsmappe platzieren können.
-* **Reports &amp; Analysen**: Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt die Verwendung von Analysis Workspace für die meisten Berichterstellungserfordernisse.
+* **[!UICONTROL Analysis Workspace]:** Die wichtigste Funktion in Adobe Analytics. Workspace bietet eine Arbeitsfläche, auf die Sie Komponenten für die zu erstellenden Berichte ziehen können.
+* **[!UICONTROL Activity Map]:** Ein Browser-Plugin, das auf Ihrer Site ein Overlay anzeigt, auf dem zu sehen ist, welche Elemente am häufigsten angeklickt wurden.
+* **[!UICONTROL Ad Hoc Analysis]:** Eine eigenständige Java-Anwendung mit stabilen Berichterstellungsfunktionen. Dieses Tool wird nicht mehr aktualisiert und irgendwann in Zukunft entfernt.
+* **[!UICONTROL Reporting-API]:** Stellen Sie Reporting-Anfragen direkt an die Server von Adobe und erhalten Sie Antworten, die Sie in Ihren eigenen Kunden-Reporting-Tools nutzen können.
+* **[!UICONTROL Report Builder]:** Ein Excel-Add-in, mit dem Sie Analytics-Daten abrufen und direkt in eine Arbeitsmappe einfügen können.
+* **[!UICONTROL Reports &amp; Analytics]:** Ein Tool mit Dutzenden vordefinierten Berichten. Adobe empfiehlt die Verwendung von Analysis Workspace für die meisten Berichterstellungserfordernisse.
 
 ## Wichtige Artikel zu Analytics-Tools
 
