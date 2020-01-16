@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
+source-git-commit: 1aaba87b40f1715fe8365b60b6a4afab9b4b3a3d
 
 ---
 
@@ -151,7 +151,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Kontextdatenvariablen](js-implementation/c-variables/context-data-variables.md)
       + [Dynamische Variablen](js-implementation/c-variables/dynvars-overview.md)
       + Seitenvariablen {#page-variables}
-         + [Seitenvariablen - Übersicht](js-implementation/page-variables/page-variables.md)
+         + [Seitenvariablen-Übersicht](js-implementation/page-variables/page-variables.md)
          + [browserHeight](js-implementation/page-variables/browserheight.md)
          + [browserWidth](js-implementation/page-variables/browserwidth.md)
          + [Kampagne](js-implementation/page-variables/campaign.md)
@@ -263,6 +263,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Analytics-Besucher-ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Ausweich-ID-Methoden](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Mobile Geräte identifizieren](js-implementation/c-unique-visitors/visid-mobile.md)
+      + [Browser- und Analytics-Cookies](js-implementation/c-unique-visitors/cookie-changes.md)
    + [Experience Cloud – Hauptdienste](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Geräteübergreifende Besuchererkennung {#cross-device-visitor-id}
       + [Benutzer geräteübergreifend verbinden](js-implementation/xdevice-visid/xdevice-connecting.md)
@@ -303,4 +304,4 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
    + [Zuordnung von Berichten zu Variablen](impl-testing/report-variable-mapping.md)
    + [Zuordnung von Variablen zu Berichten](impl-testing/var-report-mapping.md)
 + [Analytics für digitale Assistenten implementieren](c-analytics-digital-assistants/digital-assistants-white-paper.md)
-+ [Analytics für Mobilgeräte implementieren](mobile-device-sdk.md)
++ [Implementieren von Analytics für Mobilgeräte](mobile-device-sdk.md)
