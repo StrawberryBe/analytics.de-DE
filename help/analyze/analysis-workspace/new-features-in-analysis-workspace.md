@@ -5,7 +5,7 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -28,18 +28,18 @@ Verbesserung veröffentlicht am 11. April 2019.
 |--- |--- |
 | Verbesserungen bei der Optimierung von Best Practices | [Leistungsoptimierung](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 
-## 2019. Januar
+## Januar 2019
 
 Am 17. Januar 2019 veröffentlichte neue Funktionen und Verbesserungen.
 
 | Funktion | Beschreibung |
 |--- |--- |
 | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Umfangreiche Verbesserungen an der Kohortenanalyse ermöglichen Ihnen Folgendes:<ul><li>Anwendung einer Segmentaufnahme und separate Rückgabe von Metriken. </li><li>Anzeige von Abwanderung statt Treue.</li><li>Anzeige von Latenztabellen (verstrichene Zeit vor und nach einem Aufnahmeereignis).</li><li>Anpassung der Kohortendimension (Gruppierung von Besuchern basierend auf einem eVar, nicht nur auf der Zeit).</li><li>Führen Sie eine rollierende Kohortenberechnung durch: Berechnung von Bindung/Abwanderung basierend auf dem vorherigen Zeitraum, nicht auf der ursprünglichen Kohorte. </li><li>Hinzufügen mehrerer Metriken in Aufnahme- und Rückkehrfeldern sowie Anwendung von Segmenten. (Berechnete Metriken werden nicht unterstützt)</li></ul> |
-| [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Mit dieser neuen Einstellung können Sie mehr Daten auf einem einzigen Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. Zugriff erhalten Sie über „Projekt“ &gt; „Projektinfo und Einstellungen“. |
+| [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Mit dieser neuen Einstellung können Sie mehr Daten auf einem einzigen Bildschirm anzeigen, indem Sie den vertikalen Abstand der linken Schiene, Freiformtabellen und Kohortentabellen reduzieren. Zugriff erhalten Sie über „Projekt“ > „Projektinfo und Einstellungen“. |
 | [Unterstützung für Mehrwert-Variablen in Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Einige Dimensionen in Analytics können mehrere Werte für einen Hit enthalten, zum Beispiel listVars, die Produktvariable, Listen-Props oder Merchandising-eVars. Mit Analysis Workspace können Sie Attribution IQ auf jede dieser Arten von Variablen auf der Hit-Ebene anwenden. |
 | Leistungsverbesserungen | Geschwindigkeitsverbesserungen bei der Visualisierung von Aufschlüsselungen – Projekte mit vielen Aufschlüsselungen werden schneller geladen. |
 
-## November 2018
+## November 2018
 
 Am 1. November 2018 veröffentlichte neue Funktionen und Verbesserungen.
 
@@ -246,7 +246,7 @@ Am 12. April 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Mit der neuen Visualisierungseinstellung für die Visualisierungen „Bereich gestapelt“, „Balken gestapelt“ und „Horizontalbalken gestapelt“ erhalten Sie eine zu „100 % gestapelte“ Visualisierung, damit Sie relative Anteile messen können. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  > Anomalieerkennung und Beitragsanalyse</a> jetzt nur über Analysis Workspace verfügbar </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomalieerkennung und Beitragsanalyse</a> jetzt nur über Analysis Workspace verfügbar </p> </td> 
    <td colname="col2"> <p>Anomalieerkennung und Beitragsanalyse wurden aus dem Funktionsumfang von Reports &amp; Analytics entfernt und sind nun nur noch über Analysis Workspace verfügbar. </p> <p>Beachten Sie, dass Kunden von Adobe Analytics Select und Adobe Analytics Foundation in Workspace nur Zugriff auf die Anomalieerkennung „tägliche Granularität“ haben. </p> </td> 
   </tr> 
  </tbody> 
@@ -414,7 +414,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
  </tbody> 
 </table>
 
-## November 2017
+## November 2017
 
 Am 09. November 2017 veröffentlichte neue Funktion.
 
@@ -706,7 +706,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Neue <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Tastaturbefehle </a></b> </p> </td> 
+   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
    <td colname="col2"> <p>Folgende Tastaturbefehle wurden hinzugefügt: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Umschalt + 1 = Zum Fenster „Bereiche“ </li> 
@@ -759,7 +759,7 @@ Am 16. Februar 2017 veröffentlichte neue Funktion:
  </tbody> 
 </table>
 
-## 2017. Januar
+## Januar 2017
 
 Am 19. Januar 2017 veröffentlichte neue Funktion:
 
@@ -794,7 +794,7 @@ Am 19. Januar 2017 veröffentlichte neue Funktion:
  </tbody> 
 </table>
 
-## November 2016
+## November 2016
 
 Am 10. November 2016 veröffentlichte neue Funktion:
 
@@ -808,7 +808,7 @@ Am 10. November 2016 veröffentlichte neue Funktion:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Datumsvergleich </a> </p> </td> 
-   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B.: Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte , die die Änderung in Prozent angibt. </p> </td> 
+   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte , die die Änderung in Prozent angibt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -897,11 +897,11 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
  </tbody> 
 </table>
 
-## Juni 2016
+## Juni 2016
 
 Am 16. Juni 2016 veröffentlichte neue Funktionen:
 
-* [Neue Gruppenberechtigung](https://marketing.adobe.com/resources/help/en_US/reference/groups.html), über die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** für Benutzer zulassen oder verweigern können. Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
+* [Neue Gruppenberechtigung](https://marketing.adobe.com/resources/help/en_US/reference/groups.html), über die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]**>**[!UICONTROL  Arbeitsbereich]** für Benutzer zulassen oder verweigern können. Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
 * Das [Bedienfeld „Segmentvergleich“](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) erkennt die meisten statistisch signifikanten Unterschiede zwischen zwei beliebigen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben.
 * [Neue Menüstruktur für „Projekte“](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), die das obere Menü neu gestaltet und erweiterbarer macht. Um z. B. ein **neues Kohorten-Bedienfeld** zu erstellen, muss jetzt ein leeres Bedienfeld erstellt werden, in dem eine Kohortentabellenvisualisierung abgelegt wird.
 * [Neue linke Leiste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Bedienfelder, Visualisierungen, Komponenten
@@ -939,7 +939,7 @@ Am 21. April 2016 veröffentlichte neue Funktionen:
  </tbody> 
 </table>
 
-## 2016. Januar
+## Januar 2016
 
 Am 21. Januar 2016 veröffentlichte neue Funktionen.
 
@@ -966,11 +966,11 @@ Um eine Aktion rückgängig zu machen, klicken Sie im Menü „Aktion“ auf **[
 
 Sie können auch die standardmäßigen Windows- und Mac- [Tastaturbefehle](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (Strg/Befehl+Z) für „Rückgängig“ verwenden.
 
-*`Undo`* ist besonders hilfreich, wenn Sie Aufschlüsselungen in der Tabelle rückgängig machen möchten.
+*`Undo`*ist besonders hilfreich, wenn Sie Aufschlüsselungen in der Tabelle rückgängig machen möchten.
 
-Aktionen, die *`not`* rückgängig gemacht werden können:
+Aktionen, die *`not`*rückgängig gemacht werden können:
 
-* Änderung der Konfiguration einer [!UICONTROL Kohortentabelle] (z. B. Ziehen von Metriken und Änderung von Werten). Sie können allerdings auf **[!UICONTROL Rückgängig]** klicken, nachdem Sie auf **[!UICONTROL Ausführen]** geklickt haben.
+* Änderung der Konfiguration einer [!UICONTROL Kohortentabelle] (z. B. Ziehen von Metriken und Änderung von Werten). Sie können allerdings auf **[!UICONTROL Rückgängig]**klicken, nachdem Sie auf**[!UICONTROL  Ausführen]** geklickt haben.
 
 * Größenanpassung oder Verschiebung von Feldern und Unterfeldern.
 
@@ -985,7 +985,7 @@ Klicken Sie in einem Projekt im Aktionsmenü auf **[!UICONTROL Link zu diesem Pr
 
 ![](assets/link-to-this-project.png)
 
-> [!NOTE ] Sie können keine Links zu Berichten teilen, wenn Ihr Unternehmen Single Sign-On verwendet (dies gilt für Legacy-Single-Sign-On und für die Anmeldung über Experience Cloud).
+> [!NOTE]  Sie können keine Links zu Berichten teilen, wenn Ihr Unternehmen Single Sign-On verwendet (dies gilt für Legacy-Single-Sign-On und für die Anmeldung über Experience Cloud).
 
 ## Lineardiagramm-, Streudiagramm- und Treemap-Visualisierungen {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1023,15 +1023,15 @@ Klicken Sie beim Bearbeiten eines vorhandenen (gespeicherten) Segments des Segme
 
 Das neue Segment wird in der Gruppe [!UICONTROL Segmente] im Feld [!UICONTROL Komponenten] angezeigt.
 
-*`Save As`* Diese Funktion ist auch für den [!UICONTROL Generator für berechnete Metriken] und den [!UICONTROL Generator für Datumsbereiche] verfügbar.
+*`Save As`*Diese Funktion ist auch für den[!UICONTROL Generator für berechnete Metriken]und den[!UICONTROL Generator für Datumsbereiche]verfügbar.
 
-## Schaltfläche „Neues Segment hinzufügen“{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## Schaltfläche „Neues Segment hinzufügen“ {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-Die Schaltfläche **[!UICONTROL Neues Segment hinzufügen]** wurde an der Stelle hinzugefügt, an der Sie Segmente per Drag-and-Drop in ein Projekt einfügen.
+Die Schaltfläche **[!UICONTROL Neues Segment hinzufügen]**wurde an der Stelle hinzugefügt, an der Sie Segmente per Drag-and-Drop in ein Projekt einfügen.
 
 ![](assets/add-new-segment.png)
 
-Diese Verbesserung ist insbesondere dann hilfreich, wenn Sie beim Bearbeiten eines Projekts direkt Segmente erstellen möchten, anstatt den [!UICONTROL Segment]-Bereich zum Erstellen von Segmenten zu verwenden.
+Diese Verbesserung ist insbesondere dann hilfreich, wenn Sie beim Bearbeiten eines Projekts direkt Segmente erstellen möchten, statt den [!UICONTROL Segment]-Bereich zum Erstellen von Segmenten zu verwenden.
 
 ## Bedingte Formatierung {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
@@ -1075,13 +1075,13 @@ Im Komponentenfeld [!UICONTROL „Dimensionen“] können Sie den Cursor über d
 
 ## Legende eingeblendet {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTROL Legende eingeblendet]** die Visualisierungslegende ein- oder ausgeblendet werden.
+In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTROL Legende eingeblendet]**die Visualisierungslegende ein- oder ausgeblendet werden.
 
 ![](assets/legend-visible.png)
 
 ## Y-Achse bei null verankern {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Durch Aktivieren von **[!UICONTROL Y-Achse bei null verankern]** unter [!UICONTROL Visualisierungseinstellungen] wird die Y-Achse für eine genauere Anzeige von Trends bei null erzwungen. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
+Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Durch Aktivieren von **[!UICONTROL Y-Achse bei null verankern]**unter[!UICONTROL Visualisierungseinstellungen]wird die Y-Achse für eine genauere Anzeige von Trends bei null erzwungen. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
 
 „**Y-Achse bei null verankern**“ deaktiviert
 
@@ -1099,4 +1099,4 @@ Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers 
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
-Navigieren Sie zum Übertragen von Projekten zu **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Übertragen]**.
+Navigieren Sie zum Übertragen von Projekten zu **[!UICONTROL Admin]**>**[!UICONTROL  Benutzerverwaltung]** > **[!UICONTROL Übertragen]**.
