@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -94,8 +94,15 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
       + [Projektdateien freigeben und planen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Datei senden – Bereitstellung eines Projekts planen](analysis-workspace/curate-share/t-schedule-report.md)
       + [Manager für geplante Projekte](analysis-workspace/curate-share/schedule-projects.md)
+   + [Häufig gestellte Fragen](analysis-workspace/faq.md)
+   + [Administrationsanforderungen](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
+   + [Analysis Workspace-Leistung optimieren](analysis-workspace/optimizing-performance.md)
+   + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+   + [Analysis Workspace-Beschränkungen](analysis-workspace/aw-limitations.md)
+   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
-      + [Übersicht über Virtual Analytics](analysis-workspace/virtual-analyst.md)
+      + [Übersicht über Virtual Analytics](analysis-workspace/virtual-analyst/overview.md)
       + Anomalieerkennung {#anomaly-detection}
          + [Übersicht über die Anomalieerkennung](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Anomalien in Analysis Workspace anzeigen](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -110,13 +117,6 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
          + [Warnhinweiserstellung](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Warnhinweis-Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente Warnhinweise – Anwendungsfälle](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [Häufig gestellte Fragen](analysis-workspace/faq.md)
-   + [Administrationsanforderungen](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace-Leistung optimieren](analysis-workspace/optimizing-performance.md)
-   + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace-Beschränkungen](analysis-workspace/aw-limitations.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
-   + [Segment IQ](analysis-workspace/segment-iq.md)
 + Report Builder {#report-builder}
    + [Hilfe zu Adobe Report Builder](report-builder/home.md)
    + [Neue Funktionen in Report Builder](report-builder/whats-new-arb.md)
