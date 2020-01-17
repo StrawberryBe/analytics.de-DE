@@ -3,7 +3,7 @@ description: Cookies in Analytics
 title: Häufig gestellte Fragen zu Browser- und Analytics-Cookies
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ Bei Browsern, die Google als falsch gehandhabt hat, wenn sie auf `SameSite`einge
 Die folgende Tabelle fasst Analytics-Cookies zusammen:
 
 
-![Analytics-Cookie-Tabelle](assets/cookie_table.png)
+![Analytics-Cookie-Tabelle](assets/cookietable.png)
 
 
 ## Wie kann ich meine Site am besten auf Chrome-, Firefox- und Edge-Änderungen vorbereiten?
