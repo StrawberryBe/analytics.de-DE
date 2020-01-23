@@ -5,12 +5,56 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ---
 
 
 # Neuerungen in Analysis Workspace
+
+## Januar 2020
+
+Am 16. Januar 2020 veröffentlichte neue Funktion.
+
+| Funktion | Beschreibung |
+|--- |--- |
+| [Freiformtabellen-Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]**angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
+
+## Oktober 2019
+
+Am 10. Oktober 2019 veröffentlichte Verbesserungen.
+
+| Verbesserung | Beschreibung |
+|--- |--- |
+| Auf Freiform-Tabellen aktualisieren | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]**und**[!UICONTROL  Gesamtwert]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Gesamt anzeigen]**und**[!UICONTROL  Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]**hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von**[!UICONTROL  Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
+| Option zum Entfernen von &quot;Nicht angegeben/Keine&quot; | Den Berichtsfiltern wurde eine einfache Funktion zum Entfernen von „Nicht angegeben (keine)“ hinzugefügt. |
+| Abbau der lila Granularitätskomponenten | Die lilafarbenen Zeitkomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) wurden entfernt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]**in**[!UICONTROL  Datumsbereiche]** umbenannt. |
+
+## August 2019
+
+Verbesserung veröffentlicht am 8. August 2019.
+
+| Verbesserung | Beschreibung |
+|--- |--- |
+| Erhöhung der Anzahl der Elemente im Dropdown-Filter von 50 auf 200 | Wir haben die Anzahl der Elemente von 50 auf 200 erhöht, die in einem Dropdown-Filter platziert werden können. Dank dieser Verbesserung sind jetzt zahlreiche Anwendungen möglich, z. B. das Hinzufügen aller Länder (195) zu einem Filter oder aller US-Bundesstaaten und Provinzen (52). |
+
+## Juli 2019
+
+Am 18. Juli 2019 veröffentlichte Verbesserungen.
+
+| Verbesserung | Beschreibung |
+|--- |--- |
+| Verbesserungen bei der Kohortenanalyse | Zur [Kohortenanalyse wurden neue Einstellungen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) hinzugefügt: <ul><li>Nur Prozentwert anzeigen</li><li>Prozentwert auf nächste Ganzzahl runden</li><li>Zeile mit durchschnittlichem Prozentwert anzeigen</li></ul> |
+| Artikel der letzten 18 Monate anzeigen | In der linken Leiste haben Benutzer jetzt die Möglichkeit, _Elemente aus den letzten 18 Monaten anzuzeigen_. Zuvor betrug der Anzeigezeitraum maximal 6 Monate. Dies erleichtert den Vergleich mit Seiten oder Kampagnen aus dem Vorjahr bzw. bis vor maximal 18 Monaten. |
+| Neue Vorlage für Analysis Workspace | Wir haben Analysis Workspace eine neue Vorlage mit dem Namen [Magento: Marketing &amp; Commerce](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) hinzugefügt. Sie wurde speziell für E-Commerce-Kunden von Magento konzipiert, aber alle anderen Händler können sie ebenfalls verwenden, um nützliche Einblicke in ihre Commerce-Aktivitäten zu erhalten. |
+
+## Juni 2019
+
+Verbesserung veröffentlicht am 13. Juni 2019.
+
+| Verbesserung | Beschreibung |
+|--- |--- |
+| Neue vordefinierte Filter | Es wurden neue Standardfilter zur linken Leiste hinzugefügt. Über das hinaus, was Sie heute sehen (Dimensionen, Metriken, Genehmigt usw.), wurden neue Filter wie „Berechnete Metriken“, „Kundenattribute“, „eVars“, „Eigenschaften“, „Video“ usw. hinzugefügt, damit die benötigten Komponenten leichter gefunden werden können. |
 
 ## Mai 2019
 
