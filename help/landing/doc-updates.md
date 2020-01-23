@@ -3,7 +3,7 @@ title: Aktualisierungen der Adobe Analytics-Dokumentation
 description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
+source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 
 ---
 
@@ -20,7 +20,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
-| 22. Januar 2020 | Seite in der Freiform-Tabelle mit dem neuen [Freiform-Tabellenaufbau aktualisiert](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 22. Januar 2020 | Die Seite &quot;Freiform-Tabelle&quot;wurde aktualisiert und enthält Informationen zum neuen [Freiform-Tabellenaufbau](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
 | 29. November 2019 | Überarbeitung der Dokumentation zu [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25. November 2019 | Neues Thema zum [Ende der Lebensdauer für IP-Anmeldebeschränkungen erzwingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25. November 2019 | Neues Thema im [internen Marketingkanal (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
