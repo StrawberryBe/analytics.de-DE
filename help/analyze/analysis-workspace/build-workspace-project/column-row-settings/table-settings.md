@@ -2,8 +2,8 @@
 description: Die Zeileneinstellungen variieren je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
 title: Zeileneinstellungen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
 
 ---
 
@@ -51,3 +51,9 @@ Um auf die Tabellenzeileneinstellungen zuzugreifen, klicken Sie auf das Einstell
  </tbody> 
 </table>
 
+| Zeileneinstellung | Beschreibung |
+|--- |--- |
+| Datumsvergleiche | Richten Sie die Daten in allen Spalten so aus, dass sie alle in derselben Zeile beginnen.   Wenn Sie z. B. die Daten in einem Monatsvergleich zwischen Oktober und September 2016 ausrichten, beginnt die linke Spalte mit dem 1. Oktober und die rechte Spalte mit dem 1. September.<br>Standardmäßig deaktiviert. |
+| Prozentsatz | Berechnen der Prozentsätze nach Zeile Zwingt die Freiform-Tabelle, die Zellprozentsätze in der Zeile zu berechnen, anstatt in der Spalte. Dies ist besonders nützlich für die Trend-Darstellung von Prozentangaben.<br>Bei Verwendung des Visualize-Symbols ist dies standardmäßig aktiviert. |
+| Spaltensummen | Diese Einstellungen werden nur bei [static) rows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) (when you have selected a finite set of items), not with dynamic rows (i.e., when you drop in a dimension that shows all items).<ul><li>**[!UICONTROL Summe der aktuellen Zeilen als Gesamtsumme anzeigen]**: Zeigt eine Client-seitige Summe der Zeilen in der Tabelle, was bedeutet, dass die Gesamtsumme die Metriken wie Besuche oder Besucher** nicht **dedupliziert.</li><li>**[!UICONTROL Gesamte Summe anzeigen]**: Zeigt eine Server-seitige Summe an, d. h. die Gesamtsumme dedupliziert Metriken wie Besuche oder Besucher.</li></ul> |
+| Aufschlüsselung | **[!UICONTROL Aufschlüsselung nach Position]**:  Sie können Aufschlüsselungen basierend auf einer festen Position in einer Freiform-Tabelle durchführen. Sie können z. B. festlegen, dass die ersten sieben Zeilen immer aufgeschlüsselt werden.<br>(Zuvor war die Liste mit den Werten in der Aufschlüsselung „gesperrt“. Dies konnte z. B. dazu führen, dass Sie eine Aufschlüsselung des Datums nach Seite durchführten und die ersten 50 Seiten für den ausgewählten Datumsbereich erhielten. Wenn Sie diesen Bericht speicherten und ihn einen Monat später erneut durchführen wollten, hätten sich die ersten 50 Seiten wahrscheinlich geändert. In Analysis Workspace werden jedoch die Ergebnisse der ursprünglichen Aufschlüsselung verwendet und dieselben Seiten angezeigt, aber mit dem aktuellen Monat als Zeitraum.)<br>So führen Sie Aufschlüsselungen basierend auf einer festen Position durch:1. Schlüsseln Sie einige Zeilen in Ihrer Tabelle auf. 2. Klicken Sie auf das Symbol Einstellungen (Zahnrad) neben der Tabellenzeile, die Sie an einer festen Position platzieren möchten. 3. Aktivieren Sie das Kontrollkästchen neben Aufschlüsselung nach Position. 4. Ändern Sie die Sortierreihenfolge oder den Datumsbereich und beachten Sie, dass die Aufschlüsselungen jetzt an die Zeilenposition und nicht an die hartkodierten Zeilen gebunden sind.<br>Standardmäßig deaktiviert. |
