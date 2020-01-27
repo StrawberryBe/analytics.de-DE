@@ -2,7 +2,7 @@
 title: VRS und Projektkuratierung
 description: Hier erfahren Sie, wie Sie vrs-Komponenten und -Projekte kuratieren.
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 Wenn Sie Projekte oder Virtual Report Suites (VRSs) kuratieren, filtern Sie im Wesentlichen Komponenten heraus, sodass Ihre Zielgruppe nur die von Ihnen gewünschten Projekte/VRS-Komponenten (Abmessungen, Kennzahlen, Segmente, Datumsbereiche) sehen.
 
->[!Note]
+>[!NOTE]
 >
 >Produktprofile sind der primäre Mechanismus, der bestimmt, welche Komponenten ein Benutzer sehen kann. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). Kuratierung ist ein Sekundärfilter.
 
