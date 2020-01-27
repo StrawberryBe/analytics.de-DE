@@ -3,7 +3,7 @@ description: Cookies in Analytics
 title: Häufig gestellte Fragen zu Browser- und Analytics-Cookies
 uuid: null
 translation-type: tm+mt
-source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
+source-git-commit: b25c052dee5ee22ca009cbe43356007210a06d19
 
 ---
 
@@ -34,7 +34,7 @@ Erstanbieter-Cookies werden von Kunden-Websites (domänenspezifisch) erstellt un
 
 Drittanbieter-Cookies werden nicht von Websites erstellt, die Benutzer besuchen. Obwohl Browser derzeit alle Drittanbieter-Cookies gleich behandeln und entsprechend speichern, können sich Drittanbieter-Cookies selbst auf unterschiedliche, wichtige Weise verhalten. Bei der Analytics-Drittanbieter-Cookie-Implementierung eines Kunden ruft der Client nur Adobe an und nicht unbekannte oder verdächtige Drittanbieterdomänen. Dies ist die aktuelle Methode zur Implementierung von Analytics für sichere (HTTPS) und zuverlässige Verfolgung mit beständigen Bezeichnern. Diese Methode wird durch Konfiguration der Datei AppMeasurement.js implementiert. Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
-![Cookie-Unterschiede](assets/cookieimage.PNG)
+![](assets/cookies2.png)
 
 ## Wie speichern und verwalten Browser derzeit Analytics-Cookies?
 
@@ -70,9 +70,7 @@ Bei Browsern, die Google als falsch gehandhabt hat, wenn sie auf `SameSite`einge
 
 Die folgende Tabelle fasst Analytics-Cookies zusammen:
 
-
-![Analytics-Cookie-Tabelle](assets/cookietable.png)
-
+![](assets/cookies1.png)
 
 ## Wie kann ich meine Site am besten auf Chrome-, Firefox- und Edge-Änderungen vorbereiten?
 
