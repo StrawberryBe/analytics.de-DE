@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -232,7 +232,20 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Fehlerbehebung und Best Practices für Report Builder](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Übersicht über Activity Map](activity-map/activity-map.md)
+   + Erste Schritte {#getting-started}
+      + Erste Schritte für Administratoren {#get-started-admins}
+         + [Activity Map aktivieren](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [Beispiel-Implementierungscode](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + Erste Schritte für Anwender {#get-started-users}
+         + [Activity Map Browser-Plug-ins installieren](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [Zuverlässiges Linktracking](activity-map/lnk-tracking-overview.md)
+   + Linktracking {#link-tracking}
+      + [Linktracking-Methode](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+      + [Linktracking – Häufig gestellte Fragen](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [Links mit Verweis auf dieselbe Link-ID und Region unterscheiden](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [Linktracking beenden](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+      + [s.tl()-Funktion verwenden](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Standardmodus im Vergleich zum Livemodus](activity-map/activitymap-standard-live.md)
    + [Link-Bericht](activity-map/activitymap-links-report.md)
    + [Seitendetails](activity-map/activitymap-page-flow.md)
@@ -244,20 +257,6 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Exportieren in CSV-Datei](activity-map/activitymap-csv.md)
    + [Unterstützte Systeme und Anforderungen](activity-map/activitymap-sysreqs.md)
    + [Activity Map – Häufig gestellte Fragen](activity-map/activitymap-faq.md)
-   + Erste Schritte {#getting-started}
-      + Erste Schritte für Administratoren {#get-started-admins}
-         + [Activity Map aktivieren](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Beispiel-Implementierungscode](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Erste Schritte für Anwender {#get-started-users}
-         + [Activity Map Browser-Plug-ins installieren](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map starten](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + Linktracking {#link-tracking}
-      + [Linktracking-Methode](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [Linktracking – Häufig gestellte Fragen](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [Links mit Verweis auf dieselbe Link-ID und Region unterscheiden](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [Linktracking starten](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-      + [Linktracking beenden](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [s.tl()-Funktion verwenden](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Activity Map-Einstellungen konfigurieren](activity-map/activitymap-overlay-settings.md)
    + [Activity Map-Benutzeroberfläche](activity-map/activitymap-user-interface.md)
    + [Activity Map – Berichterstattung in Analytics](activity-map/activitymap-reporting-analytics.md)
