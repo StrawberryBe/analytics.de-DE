@@ -2,7 +2,7 @@
 title: Mehrere Report Suites in Workspace
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen.
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -22,7 +22,7 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie
 
 ## Aktives Bedienfeld
 
-Mit dieser Funktion stellen wir das Konzept des "aktiven Panels" gegen "inaktiver Panel" vor. Die aktive Leiste wird durch den hellblauen Rand um sie herum erkennbar. Wenn Sie einfach in einen Bereich klicken, wird dieser Bereich zum aktiven Bereich.
+Mit dieser Funktion stellen wir das Konzept des &quot;aktiven Panels&quot; gegen &quot;inaktiver Panel&quot; vor. Die aktive Leiste wird durch den hellblauen Rand um sie herum erkennbar. Wenn Sie einfach in einen Bereich klicken, wird dieser Bereich zum aktiven Bereich.
 
 >[!IMPORTANT]
 >Sie können Komponenten **nur in das aktive Bedienfeld** ziehen und dort ablegen, auch wenn andere Bedienfelder dieselbe Report Suite haben. Wenn Sie das Bedienfeld beim Ziehen und Ablegen ändern möchten, können Sie einen Kurzschnitt verwenden: Drücken Sie `shift` beim Ziehen die Taste, um einen inaktiven Bereich in einen aktiven Bereich zu ändern.
@@ -43,12 +43,12 @@ Mit dieser Funktion stellen wir das Konzept des "aktiven Panels" gegen "inaktive
 
 
    >[!NOTE]
-   >Manchmal wird beim Laden eines Projekts (oder beim Wechsel zu einer Report Suite) die Meldung "Inkompatible Report Suite"angezeigt, wenn nicht alle im Projekt enthaltenen Komponenten in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) , um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
+   >Manchmal wird beim Laden eines Projekts (oder beim Wechsel zu einer Report Suite) die Meldung &quot;Inkompatible Report Suite&quot;angezeigt, wenn nicht alle im Projekt enthaltenen Komponenten in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) , um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
 
    ![](assets/incompat-rs.png)
 
-   1. Sie haben 3 Optionen, um mit dieser Inkompatibilität umzugehen:
-   * Fahren Sie mit einigen fehlenden Komponenten fort.
+   Sie haben 3 Optionen, um mit dieser Inkompatibilität umzugehen:
+   * Fahren Sie mit einigen fehlenden Komponenten fort. Dies führt zu keinen Daten für diese Komponenten und/oder zu leeren Visualisierungen.
    * Rückgängig.
    * Report Suite ändern.
 
@@ -58,6 +58,6 @@ Mit dieser Funktion stellen wir das Konzept des "aktiven Panels" gegen "inaktive
 
 1. (Optional) Sie können auch andere Analytics-Komponenten-Builder aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die
 
-   * Wo ein Segment erstellt wird (Segmentaufbau).
-   * Wo eine berechnete Metrik erstellt wird (Generator für berechnete Metriken).
-   * Wo eine Warnung erstellt wird (Warnhinweiserstellung).
+   * Wo ein Segment erstellt wird: [Segmentaufbau](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Wo eine berechnete Metrik erstellt wird: Aufbau [berechneter Metriken](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Wenn eine Warnung erstellt wird: [Warnhinweiserstellung](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
