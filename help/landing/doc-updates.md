@@ -3,7 +3,7 @@ title: Aktualisierungen der Adobe Analytics-Dokumentation
 description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -40,6 +40,6 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 11. April 2019 | Aktualisierung von [Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md). |
 | 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](/help/technotes/rdc/regional-data-collection.md). |
 | 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md). |
-| 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md). |
+| 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17. Januar 2019 | Neue Projekteinstellung im Analysis Workspace namens [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
 | 17. Januar 2019 | Umfassende Aktualisierung von [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
