@@ -3,7 +3,7 @@ description: Die Bereitstellung dieser Integration erfolgt in drei Schritten.
 title: Bereitstellen der Integration
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -20,15 +20,15 @@ Um die Integration zu aktivieren, müssen Sie den Assistenten für die intellige
 
    ![](assets/selligent-data_connectors.png)
 
-1. Ziehen Sie unter "Integrationen **[!UICONTROL hinzufügen]**"das Plugin "Selligent"in Adobe Experience Cloud.
+1. Ziehen Sie unter &quot;Integrationen **[!UICONTROL hinzufügen]**&quot;das Selligent-Plug-in in Adobe Experience Cloud.
 
    ![](assets/selligent-add_integration.png)
 
    Dadurch wird die Selligent Data Connector-Integration geöffnet.
 
-1. **Integrationseinstellungen**: Wählen Sie die gewünschte Report Suite und geben Sie unter **[!UICONTROL Integrationseinstellungen]** einen Namen für die Integration ein.
+1. **Integrationseinstellungen**: Wählen Sie die gewünschte Report Suite und geben Sie unter **[!UICONTROL Integrationseinstellungen]**einen Namen für die Integration ein.
 
-1. Geben Sie unter " **[!UICONTROL Benutzerdefinierte Werte]**"alle Informationen zum Selligent-Konto ein.
+1. Geben Sie unter &quot; **[!UICONTROL Benutzerdefinierte Werte]**&quot;alle Informationen zum Selligent-Konto ein.
 
    ![](assets/selligent-general_settings.png)
 
@@ -36,11 +36,11 @@ Um die Integration zu aktivieren, müssen Sie den Assistenten für die intellige
 
    ![](assets/selligent-variables.png)
 
-1. **Dateneinstellungen**: Sie können Ihre eigenen Segmente unter **[!UICONTROL Ihre Segmente]** mit Ausnahme der 3 automatisierten **[!UICONTROL Partnersegmente]** auswählen.
+1. **Dateneinstellungen**: Sie können Ihre eigenen Segmente unter **[!UICONTROL Ihre Segmente]**mit Ausnahme der 3 automatisierten**[!UICONTROL  Partnersegmente]** auswählen.
 
-1. Diese Integration erfordert möglicherweise das Herunterladen einiger Datenpunkte in Ihr Selligent-Konto. Sie können unter **[!UICONTROL Zugriffsanfrage]** Zugriff auf das Gleiche gewähren.
-1. Wählen Sie unter **[!UICONTROL Datenerfassung]** eine automatisierte oder manuelle Lösung (JavaScript-Plugin), um Abfragezeichenfolgenparameter aus der URL der Einstiegsseite zu erfassen. Wenn Sie eine automatisierte Lösung wählen, geben Sie den Abfragezeichenfolgenparameter für die Nachrichten-ID und die Empfänger-ID ein, die jeweils MID bzw. RID lautet. Wenden Sie sich für das JavaScript-Plug-in an Ihren Adobe-Berater.
-1. **Berichtseinstellungen**: Aktivieren Sie unter **[!UICONTROL Dashboard-Erstellung]** das Kontrollkästchen, damit das Selligent-Dashboard automatisch für Sie generiert wird.
+1. Diese Integration erfordert möglicherweise das Herunterladen einiger Datenpunkte in Ihr Selligent-Konto. Sie können unter **[!UICONTROL Zugriffsanfrage]**Zugriff auf das Gleiche gewähren.
+1. Wählen Sie unter **[!UICONTROL Datenerfassung]**eine automatisierte oder manuelle Lösung (JavaScript-Plugin), um Abfragezeichenfolgenparameter aus der URL der Einstiegsseite zu erfassen. Wenn Sie eine automatisierte Lösung wählen, geben Sie den Abfragezeichenfolgenparameter für die Nachrichten-ID und die Empfänger-ID ein, die jeweils MID bzw. RID lautet. Wenden Sie sich für das JavaScript-Plug-in an Ihren Adobe-Berater.
+1. **Berichtseinstellungen**: Aktivieren Sie unter **[!UICONTROL Dashboard-Erstellung]**das Kontrollkästchen, damit das Selligent-Dashboard automatisch für Sie generiert wird.
 
    ![](assets/selligent-report_settings.png)
 
@@ -64,7 +64,7 @@ Der Datenaustausch wird einige Tage dauern. Bitte stellen Sie sicher, dass Sie s
 
 ### Protokoll zu den Integrationsaktivitäten {#section-927e270495db479fba9578915d9ae9c9}
 
-Navigieren Sie zu Ihrer selbstbestimmten Integration in Data Connectors. Auf der Registerkarte **[!UICONTROL Support]** sollten Sie Ereignisse wie importierte Metrikdaten und/oder erfolgreich importierte Klassifizierungsdaten sehen:
+Navigieren Sie zu Ihrer selbstbestimmten Integration in Data Connectors. Auf der Registerkarte **[!UICONTROL Support]**sollten Sie Ereignisse wie importierte Metrikdaten und/oder erfolgreich importierte Klassifizierungsdaten sehen:
 
 ![](assets/selligent-verifying.png)
 
@@ -72,6 +72,6 @@ Navigieren Sie zu Ihrer selbstbestimmten Integration in Data Connectors. Auf der
 
 Zeigen Sie Ihre Berichte mit der entsprechenden Metrik an.
 
-1. Gehen Sie zu "Reports &amp; Analysen"unter "Adobe Experience Cloud".
+1. Gehen Sie zu &quot;Reports &amp; Analysen&quot;unter &quot;Adobe Experience Cloud&quot;.
 1. Wählen Sie die gewünschte Report Suite aus.
-1. Wählen Sie unter " **[!UICONTROL Benutzerspezifische Konversion]**"die **[!UICONTROL Nachrichten-ID-Berichte]** und dann " **[!UICONTROL Nachrichten-ID/Nachrichtenname]**"aus.
+1. Wählen Sie unter &quot; **[!UICONTROL Benutzerspezifische Konversion]**&quot;die**[!UICONTROL  Nachrichten-ID-Berichte]** und dann &quot; **[!UICONTROL Nachrichten-ID/Nachrichtenname]**&quot;aus.
