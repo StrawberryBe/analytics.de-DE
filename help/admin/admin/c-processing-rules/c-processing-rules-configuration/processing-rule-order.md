@@ -5,7 +5,7 @@ title: Verarbeitungsreihenfolge
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -23,7 +23,7 @@ In den folgenden Tabellen sind die Daten aufgeführt, die in der Regel vor und n
 | Dimension | Beschreibung |
 |--- |--- |
 | Suche dynamischer Variablen | Variablen werden dynamisch ausgefüllt, indem Informationen aus HTTP-Kopfzeilen oder anderen Variablen abgerufen werden. So setzt z. B. `s.eVar5="D=c1"` den Wert von prop1 in eVar5. |
-| AppMeasurement | Funktionen und Plugins, die in AppMeasurement genutzt werden, werden im Browser oder der Client-Anwendung ausgeführt. |
+| AppMeasurement | In AppMeasurement verwendete Funktionen und Plug-Ins werden im Browser oder in der Clientanwendung ausgeführt. |
 | Dynamic Tag Management | Die unter „Dynamic Tag Management“ festgelegten Regeln werden per Definition ausgeführt. |
 | Bot-Regeln | Mit [Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md) können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. |
 
