@@ -3,7 +3,7 @@ description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In aus
 title: Adobe Analytics-Plug-in-Code
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -22,5 +22,5 @@ Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt habe
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] Das oben stehende Plugin setzt voraus, dass bestimmte Custom Commerce-Variablen (eVars) verfügbar sind. Wenn die im obigen Plugin angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
+> [!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte Custom Commerce-Variablen (eVars) verfügbar sind. Wenn die im Plug-In angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
 
