@@ -2,7 +2,7 @@
 title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
 description: Erfahren Sie, wie Sie Adobe Experience Platform Launch verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
@@ -69,8 +69,8 @@ Ein häufiger Grund dafür ist, dass Elemente bereits in anderen Bibliotheken vo
 
 ## Dokumentation und zusätzliche Ressourcen
 
-- [Erste Schritte mit Launch](https://docs.adobelaunch.com/getting-started): Grundlegender Workflow von Launch
-- [Administration in Launch](https://docs.adobelaunch.com/administration): Erfahren Sie mehr über Adapter und Umgebungen
+- [Erste Schritte mit Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html): Grundlegender Workflow von Launch
+- [Veröffentlichung starten](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html): Weitere Informationen zu Veröffentlichungen und Umgebungen
 
 ## Nächste Schritte
 
