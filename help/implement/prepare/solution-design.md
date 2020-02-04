@@ -1,8 +1,8 @@
 ---
 title: Lösungsdesigndokument erstellen
 description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in Ihrem Unternehmen verwenden können.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ Ein Dokument zum Lösungsentwurf (auch als Referenz zum Lösungsentwurf oder als
 
 ## Voraussetzungen
 
-[Überprüfen Sie Ihre Analytics-Implementierung und veröffentlichen Sie sie in der Produktion](../implement-with-launch/validate-publish-prod.md) - Adobe empfiehlt, eine Basisimplementierung einzurichten, damit wichtige Daten gesammelt werden, während zusätzliche Geschäftsanforderungen festgelegt und implementiert werden.
+[Überprüfen Sie Ihre Analytics-Implementierung und veröffentlichen Sie sie in der Produktion](../launch/validate-publish-prod.md) - Adobe empfiehlt, eine Basisimplementierung einzurichten, damit wichtige Daten gesammelt werden, während zusätzliche Geschäftsanforderungen festgelegt und implementiert werden.
 
 ## Eigentum und Speicherort des Entwurfspapiers
 
@@ -41,14 +41,6 @@ Bei der Ermittlung der zu erfassenden Daten ist es leicht, „alles“ zu sagen,
 Die Definition eines Lösungsdesigndokuments ist ein ziemlich komplexes Projekt, besonders für Unternehmen, die noch kein Projekt erstellt haben. Wenn Sie weitere Unterstützung benötigen, bietet Adobe eine spezielle Beratung an, um Ihr Unternehmen bei der Einführung von Adobe Analytics zu unterstützen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie die professionellen Services von Adobe nutzen möchten. Es kann ein [technischer Fragenkatalog](assets/technical-pre-implementation-questionnaire.pdf) zur Implementierung ausgefüllt werden, damit Adobe anhand der Anforderungen Ihres Unternehmens genau weiß, wie Sie dabei unterstützt werden können.
 
 Es gibt auch mehrere Adobe-Partner, die sich auf die Unterstützung bei der Erstellung eines Lösungsdesigndokuments sowie die Implementierung von Adobe Analytics auf Ihrer Site spezialisiert haben.
-
-> [!NOTE] Mitglieder der Analytics-Community fanden die folgenden Links hilfreich, die allerdings nicht zu Adobe gehören. Berücksichtigen Sie diese Anmerkung bei der Anzeige der Inhalte.
-
-* [7 Schritte zum Einrichten Ihres Web Analytics-Lösungsdesigns](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) von ObservePoint
-* [Ein Framework für Digital-Analytics-Prozesse](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) von Analytics Demystified
-* [Die Lösungsdesign-Referenz ist tatsächlich Ihr bester Freund](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) von Numeric Analytics
-* [So erstellen Sie eine Adobe Analytics-Tagging-Karte](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) von Antti Koski
-* [Die Bedeutung des Lösungsdesign-Dokuments](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) von Ebiquity
 
 ## Nächste Schritte
 
