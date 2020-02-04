@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Konversionsvariablen (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Konversionsvariablen bearbeiten](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Konversionsklassifizierungen](admin/conversion-var-admin/conversion-classifications.md)
+      + [Listenvariablen](admin/conversion-var-admin/list-var-admin.md)
    + [Währungscodes](admin/currency.md)
    + [Beschreibung benutzerspezifischer Berichte](admin/custom-desc-admin.md)
    + [Kalender anpassen](admin/custom-calendar.md)
@@ -63,12 +64,12 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Für Verarbeitungsregeln verfügbare Dimensionen](admin/c-processing-rules/processing-rule-dimensions.md)
       + Beispiele für Verarbeitungsregeln {#processing-rules-examples}
          + [Beispiele für Verarbeitungsregeln](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [Kampagnen-ID-Einträge aus einem Abfragezeichenfolgen-Parameter auffüllen](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [Kampagnen-ID-Einträge aus einem Abfragezeichenfolgenparameter auffüllen](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [Produktansichtsereignis auf der Seite „Produktübersicht“ festlegen](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [Unterkategorie durch Verketten von Kategorie und Seitenname hinzufügen](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [Pfad durch Kopieren eines eVar-Werts in eine Eigenschaft bestimmen](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [Werte in einem Bericht bereinigen](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [Interne Suchbegriffe mit einem Abfragezeichenfolgen-Parameter auffüllen](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+         + [Interne Suchbegriffe mit einem Abfragezeichenfolgenparameter auffüllen](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [Kontextdatenvariable in eine eVar kopieren](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [Ereignis mit einer Kontextdatenvariable festlegen](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [Ereignis aus einem Treffer entfernen](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [Co-Branding](company/co-branding-admin.md)
    + [Report Suites ausblenden](company/c-hide-report-suites.md)
    + [Sicherheits-Manager](company/security-manager.md)
-   + [Ende der Lebensdauer für "IP-Anmeldebeschränkungen erzwingen"](company/login-restrictions-eol.md)
+   + [Abschaffung der Funktion „IP-Anmeldebeschränkungen erzwingen“](company/login-restrictions-eol.md)
 + Report Suites verwalten {#manage-report-suites}
    + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
    + [Datenaggregations-Report-Suites und globale Report Suites](c-manage-report-suites/rollup-report-suite.md)
