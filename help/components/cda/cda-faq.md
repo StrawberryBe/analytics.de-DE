@@ -1,8 +1,8 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -35,7 +35,7 @@ Adobe behandelt Treffer mit Zeitstempel so, als wären sie zum Zeitpunkt des Zei
 
 **Wie unterscheidet sich die geräteübergreifende Analyse von der benutzerspezifischen Besucher-ID?**
 
-Die [benutzerspezifische Besucher-ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) ist eine veraltete Methode, um [Benutzer geräteübergreifend zu verbinden](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Bei einer benutzerspezifischen Besucher-ID verwenden Sie die `s.visitorID`-Variable, um die für die Besucherlogik verwendete ID explizit festzulegen. Die `s.visitorID`-Variable setzt alle Cookie-basierten IDs außer Kraft, die vorhanden sind. Weitere Informationen finden Sie unter [Erkennen von Unique Visitors](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) im Implementierungshandbuch.
+Die [benutzerspezifische Besucher-ID](/help/implement/vars/config-vars/visitorid.md) ist eine veraltete Methode, um [Benutzer geräteübergreifend zu verbinden](/help/implement/js/xdevice-visid/xdevice-connecting.md). Bei einer benutzerspezifischen Besucher-ID verwenden Sie die `s.visitorID`-Variable, um die für die Besucherlogik verwendete ID explizit festzulegen. Die `s.visitorID`-Variable setzt alle Cookie-basierten IDs außer Kraft, die vorhanden sind.
 
 Benutzerspezifische Besucher-IDs haben eine Reihe unerwünschter Nebenwirkungen, die die geräteübergreifende Analyse vermeiden oder minimieren soll. Beispielsweise verfügt die Methode der benutzerspezifischen Besucher-ID über keine Lookback-Funktionen. Wenn sich ein Benutzer während eines Besuchs authentifiziert, wird der erste Teil des Besuchs mit einer anderen Besucher-ID verknüpft als der letzte Teil des Besuchs. Die separaten Besucher-IDs führen zu Besuchs- und Besucherinflation. Das 30-Tage-Lookback-Fenster der geräteübergreifenden Analyse ermöglicht es, rückwirkend festzulegen, dass das bisherige Verhalten zu derselben Person gehört. Das bedeutet, dass unauthentifiziertes geräteübergreifendes Verhalten mit authentifiziertem geräteübergreifenden Verhalten bei keiner oder minimaler Inflation kombiniert wird.
 
