@@ -4,7 +4,7 @@ title: Activity Map – Häufig gestellte Fragen
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -17,7 +17,7 @@ Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden der Funktion
 
 **F: Welche Implementierungsschritte sind zur Aktivierung der neuen Activity Map erforderlich?**
 
-A: Lesen Sie  [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+A: Lesen Sie [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **F: Haben alle Analytics-Kunden Zugriff auf die Seite „Activity Map – Aktivierung“ in den Admin Tools?**
 
@@ -66,7 +66,7 @@ A: Einige Links mit einem Rang können auf der Seite verborgen sein (beispielswe
 
 **F: Warum werden keine Link-Klickdaten erfasst, wenn Activity Map ausgeführt wird?**
 
-A: Während Activity Map in Verwendung ist, werden keine Link-Klickdaten vom Analytics-Tag erfasst. Dieses Verhalten folgt dem Verhalten des ClickMap-Plugins.
+A: Während Activity Map in Verwendung ist, werden keine Link-Klickdaten vom Analytics-Tag erfasst. Dieses Verhalten entspricht dem Verhalten des ClickMap-Plugins.
 
 **F: Warum wird in der Metrik-Dropdownliste die gleiche Metrik mehrmals aufgeführt?**
 
@@ -76,7 +76,7 @@ Mit dem Metrikmenü können Sie die Liste berechneter Metriken auf diejenigen be
 
 **F: Wo liegt der Unterschied zwischen dem Activity Map-Bericht „Alle Links“ und der Activity Map-Berichterstattung in „Reports &amp; Analytics“?**
 
-A: Um den Bericht „Alle Links“ in Activity Map abzurufen, erstellen wir wie folgt eine Aufschlüsselungsanforderung: Activity Map-Seite = "visitedpage", aufgeschlüsselt nach Activity Map-Link und -Region in `<list of link&regions present in the page at rendering time>`.
+A: Um den Bericht „Alle Links“ in Activity Map abzurufen, erstellen wir wie folgt eine Aufschlüsselungsanforderung: Activity Map-Seite = &quot;visitedpage&quot;, aufgeschlüsselt nach Activity Map-Link und -Region in `<list of link&regions present in the page at rendering time>`.
 
 Um einen entsprechenden Bericht in „Reports &amp; Analytics“ zu erhalten, müssen Sie zunächst zum Activity Map-Seitenbericht navigieren. Dort filtern Sie nach dem Namen der besuchten Seite in Activity Map. Der Name der besuchten Seite wird in der linken Spalte der Activity Map-Seitendetails im unteren Bereich angezeigt. Sobald die Seite gefunden wurde, können Sie die Aufschlüsselung vornehmen und Activity Map-Links und -Regionen als sekundäre Dimension auswählen.
 
@@ -86,7 +86,7 @@ Beachten Sie jedoch, dass der in „Reports &amp; Analysen“ generierte Bericht
 
 A: Standardmäßig verwendet Activity Map die Report Suite, die mit dem ersten Tag verbunden ist, das von der Seite gesendet wird.
 
-Sie können eine andere getaggte Report Suite auf der Registerkarte unter Einstellungen für Activity Map &gt; Andere auswählen.
+Sie können eine andere getaggte Report Suite auf der Registerkarte unter Einstellungen für Activity Map > Andere auswählen.
 
 **F: Wie lange sucht Activity Map das Analytics-Tag?**
 
@@ -120,7 +120,7 @@ Eine Warnmeldung weist darauf hin, dass Sie (/home/analyze/activity-map/activity
 
 *Webseite mit kompatiblem Analytics-Tag (AppMeasurement v1.6 oder höher), für die jedoch die Activity Map-Berichterstattung in den Admin Tools nicht aktiviert wurde*
 
-Eine Warnmeldung weist Sie darauf hin, dass Sie Ihren Administrator bitten müssen, den \[Activity Map-Bericht zu aktivieren\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
+Eine Warnmeldung weist Sie darauf hin, dass Sie Ihren Administrator bitten müssen, den \[Activity Map-Bericht zu aktivieren\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
 **F: Kann ich Activity Map-Daten (contextData) über[Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)exportieren?**
 
