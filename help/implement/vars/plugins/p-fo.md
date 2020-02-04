@@ -2,14 +2,14 @@
 title: p_fo (nur Seite zuerst)
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe-Plug-in:p_fo (nur Seite zuerst)
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen bei der Verwendung von Adobe Analytics mehr Nutzen zu verschaffen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
 Das `p_fo` Plug-In ist ein Dienstprogramm, das prüft, ob ein bestimmtes JavaScript-Objekt vorhanden ist. Wenn das Objekt nicht vorhanden ist, erstellt das Plug-In das Objekt und gibt es zurück `true`. Wenn das JavaScript-Objekt bereits auf der Seite vorhanden ist, wird es zurückgegeben `false`. Dieses Plug-in ist nützlich, um Code exakt einmal auf einer Seite auszuführen. Einige andere Plug-Ins setzen für die Verwendung dieses Codes voraus. Dieses Plug-in ist nicht erforderlich, wenn Sie sich nicht darüber Gedanken machen, wie oft Code auf einer Seite ausgeführt wird oder wenn Sie keine abhängigen Plug-ins verwenden.
 
