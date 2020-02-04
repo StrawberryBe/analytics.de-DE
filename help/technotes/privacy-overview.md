@@ -4,14 +4,16 @@ keywords: privacy
 title: Datenschutzübersicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
 # Datenschutzübersicht
 
-Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hinweise zum Datenschutz.
+Adobe empfiehlt Ihnen, dass Sie den Besuchern Ihrer Website leicht auffindbare und leicht verständliche Informationen darüber bereitstellen, wie sie sich von der Erfassung von Browserinformationen durch Adobe-Produkte und -Dienste ausschließen lassen können.
+
+Besucher können mehr darüber erfahren, wie Adobe im Allgemeinen die von ihm erfassten Informationen im [Adobe Datenschutzcenter](https://www.adobe.com/privacy.html)verwendet. Es ist Sache Ihres Unternehmens, anzugeben, wie Sie die Adobe-Produkte und -Dienste verwenden, da Ihre Organisation ausschließlich die Kontrolle darüber hat, wie die Adobe-Dienste implementiert werden. Sie sind selbst für die Erstellung Ihrer eigenen Datenschutzrichtlinien verantwortlich sowie für die Einhaltung Ihrer Datenschutzrichtlinien, die Einhaltung Ihres Servicevertrags mit Adobe und die Einhaltung jeglichen geltenden Rechts.
 
 ## Aufschlüsselung der Datenerfassung {#section_F59D958D7AE44747846993E643CD4BF2}
 
