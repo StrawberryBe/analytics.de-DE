@@ -5,7 +5,7 @@ title: Kopieren einer Kontextdatenvariable in eine eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props (Eigenschaften) und eVars zu verschieben. Ohne Verarbeitungsregeln sind Kontextdatenvariablen bedeutungslos und füllen keine Berichte in Analytics aus.
 
-Die [!UICONTROL Kontextvariablenliste] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, diese aber nicht an die aktuelle Report Suite gesendet haben, können Sie einen Wert hinzufügen, indem Sie den Variablennamen eingeben und auf **[!UICONTROL Kontextdaten für Variablennamen hinzufügen]** klicken:
+Die [!UICONTROL Kontextvariablenliste] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, diese aber nicht an die aktuelle Report Suite gesendet haben, können Sie einen Wert hinzufügen, indem Sie den Variablennamen eingeben und auf **[!UICONTROL Kontextdaten für Variablennamen hinzufügen]**klicken:
 
 ![Hinzufügen](assets/add-context-variable.png)
 
@@ -28,4 +28,4 @@ Im folgenden Beispiel wird `prop7` mit der Kontextdatenvariablen `testhierarchy`
 
 ![Bedingt](assets/add-conditional.png)
 
-Weitere Informationen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](/help/implement/js-implementation/c-variables/context-data-variables.md) im Benutzerhandbuch zur Implementierung.
+Weitere Informationen zur Implementierung von Kontextdatenvariablen finden Sie unter [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) im Benutzerhandbuch zur Implementierung.
