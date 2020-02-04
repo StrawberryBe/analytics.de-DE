@@ -1,8 +1,8 @@
 ---
 title: Erstellen einer Report Suite
 description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics.
-translation-type: ht
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -31,6 +31,8 @@ Dieser Artikel wurde für Administratoren oder Analytics-Administratoren auf Sys
 Geben Sie dieser Report Suite denselben Namen und hängen Sie am Ende „- DEV“an. Da diese Report Suite nur internen Traffic erhält, kann die geschätzte Größe die kleinste sein.
 1. Klicken Sie auf „Weiter“, um Ihre dev-Report Suite zu erstellen.
 
+Weitere Informationen zu den Schritten in diesem modalen Fenster finden Sie unter [Implementierungsmodal](/help/implement/prepare/implementation-modal.md) im Implementierungs-Benutzerhandbuch.
+
 ## Fehlerbehebung
 
 **Nach der Anmeldung bei Experience Cloud ist das Analytics-Symbol grau ausgeblendet.**
@@ -43,4 +45,4 @@ Stellen Sie sicher, dass Sie sich über Experience Cloud und nicht über my.omni
 
 ## Nächste Schritte
 
-[Erstellen und Konfigurieren einer Eigenschaft für Adobe Analytics in Launch](/help/implement/implement-with-launch/create-analytics-property.md): Erstellen Sie einen Bereich zur Verwaltung Ihrer Analytics-Implementierung
+[Erstellen und Konfigurieren einer Eigenschaft für Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Erstellen Sie einen Bereich zur Verwaltung Ihrer Analytics-Implementierung
