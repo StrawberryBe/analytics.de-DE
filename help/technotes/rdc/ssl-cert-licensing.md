@@ -1,22 +1,24 @@
 ---
 title: SSL-Zertifikatslizenzierung
-description: null
+description: Zertifizierungsverfahren für kundenverwaltete Zertifikate
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
 
 
-# SSL-Zertifikatslizenzierung
+# SSL/TLS-Zertifikatlizenzierung
 
-Wenn Sie Erstanbieter-Cookies verwenden und sicheren Traffic messen, müssen Sie ausreichende SSL-Zertifikatslizenzen bereitstellen, um die RDC-Implementierung zu unterstützen.
+Adobe empfiehlt, dass Sie Ihr Zertifikat ohne zusätzliche Kosten im Rahmen des [Adobe Managed Certificate-Programms](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)verwalten.  Das Adobe-Programm für verwaltete Zertifikate ist vollständig automatisiert und stellt sicher, dass Zertifikate zeitnah erneuert werden, sodass abgelaufene Zertifikate keine Auswirkungen haben.
 
-Ihre SSL-Zertifikatslizenzen müssen die Installation auf bis zu 10 Servern unterstützen. Diese Zertifikate werden auf Load Balancern auf der ganzen Welt installiert. Wenn Adobe weitere Datenerfassungscenter online stellt, muss das SSL-Zertifikat geändert werden. Inwiefern sich dies mit der Zeit auf Ihre Zertifikatslizenzierungsanforderungen auswirkt, hängt vom Typ Ihrer Zertifikatslizenz ab:
+Wenn Sie das [Adobe Managed Certificate-Programm](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
 
-* Serverbasierte Lizenzen: Lizenzanforderungen für RDC-Implementierungen wachsen mit der Zeit.
-* Volumenbasierte Lizenzen: Lizenzanforderungen sind nicht von Änderungen der Infrastruktur betroffen, sondern nur von Änderungen im Traffic-Volumen.
-* Unbegrenzte Lizenzen: Lizenzanforderungen sollten relativ stabil bleiben.
+Bei Bereitstellung Ihres eigenen Zertifikats sind Sie dafür verantwortlich, diese SSL-Zertifikate zu kaufen und zu verwalten.  Ihr SSL/TLS-Zertifikat muss eine unbegrenzte Serverlizenz enthalten.
 
-Bei Bereitstellung Ihres eigenen Zertifikats sind Sie dafür verantwortlich, diese SSL-Zertifikate zu kaufen und zu verwalten. Überprüfen Sie im Vertrag des Zertifikatanbieters, ob SSL-Zertifikate in mehreren Rechenzentren installiert werden können.
+Um die Zertifikatsicherheit zu gewährleisten, fordern Sie bei Adobe eine [CSR] -Anforderung für die Zertifikatsignierung an und stellen Sie bei Ihrer zuständigen Zertifizierungsstelle sicher, dass das Zertifikat signiert wird.  Stellen Sie Adobe das signierte Zertifikat zur Implementierung zur Verfügung.  Bei diesem Vorgang wird die Sicherheit des Zertifikatsschlüssels beibehalten.  Die Adobe-Kundenunterstützung unterstützt diesen Prozess.
 
-Alternativ dazu kann Adobe Ihr Zertifikat ohne zusätzliche Kosten über das [Adobe Managed Certificate-Programm](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) verwalten.
+Im Rahmen der Zertifikatwartung stellen Sie mindestens einen Monat vor Ablauf Ihres Zertifikats bei Ihrer gewünschten Zertifizierungsstelle sicher, dass Sie ein neues Zertifikat erhalten und dies Adobe zur Verfügung stellen.  Dieses Zertifikat sollte dieselbe CSR verwenden, die zuvor verwendet wurde.  Wenden Sie sich an Adobe, wenn Sie eine Kopie der CSR benötigen oder eine neue CSR mit einem neuen Schlüssel erstellen möchten.
+
+Die Kundenunterstützung ist unter customercare@adobe.com oder 1-800-497-0335 erreichbar.
+
+Häufig verwendete Zertifizierungsstellen sind DigiCert, Comodo und GeoTrust.
