@@ -2,14 +2,14 @@
 title: apl (appendToList)
 description: Fügen Sie Werte an Variablen hinzu, die mehrere Werte unterstützen.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe-Plug-in:apl (appendToList)
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen bei der Verwendung von Adobe Analytics mehr Nutzen zu verschaffen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
 Mit dem `apl` Plug-in können Sie mit Sicherheit neue Werte zu Variablen mit Listentrennzeichen hinzufügen, z. B. `events`, `linkTrackVars`Listenvariablen und andere.
 
