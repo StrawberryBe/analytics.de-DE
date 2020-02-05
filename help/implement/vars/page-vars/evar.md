@@ -2,7 +2,7 @@
 title: eVar
 description: Benutzerspezifische Variablen, die Sie in Ihrer Implementierung verwenden können.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 Wenn mehr als zwei Dezimalstellen angegeben sind, wird die Zähler-eVar auf zwei Dezimalstellen gerundet. Ein eVar-Zähler darf keine negativen Zahlen enthalten.
 
+> [!IMPORTANT] Bevor Sie Zähler-eVars verwenden können, müssen Sie eVars zunächst in der Admin-Konsole auf &quot;Zähler&quot;konfigurieren. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## Exklusive Vorteile für Props oder eVars
 
 In der aktuellen Version von Adobe Analytics sind Props und eVars benutzerdefinierte Variablen mit ähnlichen Funktionen. Es gibt jedoch mehrere große Unterschiede:
@@ -61,4 +63,4 @@ In der aktuellen Version von Adobe Analytics sind Props und eVars benutzerdefini
 * Daten in Eigenschaftsvariablen stehen in wenigen Minuten zur Verfügung. eVars können bis zu 30 Minuten dauern, bis sie in Berichten angezeigt werden.
 * Props haben in Berichten eine Beschränkung von 100 Byte. eVars sind auf 255 Byte begrenzt.
 * Eigenschaften können zu Listen-Props werden, die mehrere Werte im selben Treffer akzeptieren. Listenvariablen sind eine separate Variable, und es sind nur drei Listenvariablen verfügbar.
-* Eigenschaften bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben einen benutzerdefinierten Ablauf, mit dem Sie feststellen können, wann eine eVar nicht mehr für ein nachfolgendes Ereignis gutgeschrieben wird. Wenn Sie die [Berichtszeitverarbeitung](../../../components/vrs/vrs-report-time-processing.md)verwenden, können sowohl Eigenschaftsvariablen als auch eVars beliebige Zuordnungsmodelle verwenden.
+* Eigenschaften bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben einen benutzerdefinierten Ablauf, mit dem Sie feststellen können, wann eine eVar nicht mehr für ein nachfolgendes Ereignis gutgeschrieben wird. Wenn Sie jedoch die [Berichtszeitverarbeitung](../../../components/vrs/vrs-report-time-processing.md)verwenden, können sowohl props als auch eVars ein benutzerdefiniertes Zuordnungsmodell verwenden.
