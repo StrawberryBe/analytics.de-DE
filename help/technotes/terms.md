@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** Konversionsvariable: Kolloquial als eVars bezeichnet. Speichert einen benutzerdefinierten Wert und behält den Variablenwert bei, bis er abläuft. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** Korrelation: nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen unterteilt. Siehe Dimensionen [unterteilen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch Analysieren.
 * **** Aktuelle Daten: Eine Option in einigen Berichten, mit der kürzlich gesammelte Daten, die noch nicht vollständig verarbeitet wurden, aufgenommen werden können. Siehe [Aktuelle Daten](/help/analyze/reports-analytics/current-data.md) im Benutzerhandbuch Analysieren.
-* **** Benutzerspezifischer Link: Ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe auch [s.tl()-Funktion](../implement/vars/functions/tl.md) im Implementierungs-Benutzerhandbuch. Siehe auch Treffer.
+* **** Benutzerspezifischer Link: Ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe auch [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Implementierungs-Benutzerhandbuch. Siehe auch Treffer.
 * **** Kundenattribute: Eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) im Benutzerhandbuch für die Hauptdienste.
 * **** Kundensupport-Stellvertreter: Ein bestimmter Benutzer, der zur direkten Interaktion mit der Adobe-Kundenunterstützung berechtigt ist. Siehe Delegierte[ des ](https://helpx.adobe.com/experience-cloud/supported-users.html)Kundensupports in der Experience Cloud-Wissensdatenbank.
 * **** Datenerfassungsserver: Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungsserver von Adobe gesendet.
@@ -87,8 +87,8 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** Report Suite: Ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
 * **** Rollierender Datumsbereich: Ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten 7 Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch statischer Datumsbereich.
 * **** RSID: Abkürzung für Report Suite-ID. Eine Report Suite hat sowohl einen benutzerfreundlichen Namen als auch eine Report Suite-ID.
-* **** s.t(): Der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden `s.track()` stattdessen. Siehe [dazu](../implement/vars/functions/t.md) im Benutzerhandbuch &quot;Implementierung&quot;.
-* **s<span>.</span>** tl(): Der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Linktracking sendet. Einige AppMeasurement-Bibliotheken verwenden `s.trackLink()` stattdessen. Siehe [tl](../implement/vars/functions/tl.md) im Benutzerhandbuch &quot;Implementierung&quot;.
+* **** s.t(): Der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden `s.track()` stattdessen. Siehe [dazu](../implement/vars/functions/t-method.md) im Benutzerhandbuch &quot;Implementierung&quot;.
+* **s<span>.</span>** tl(): Der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Linktracking sendet. Einige AppMeasurement-Bibliotheken verwenden `s.trackLink()` stattdessen. Siehe [tl](../implement/vars/functions/tl-method.md) im Benutzerhandbuch &quot;Implementierung&quot;.
 * **** s_code.js: Der Name der JavaScript-Datei, die in historischen Versionen von Adobe Analytics verwendet wird. Der aktuelle Name der verwendeten JavaScript-Datei ist AppMeasurement.js.
 * **** Satellit: Wird nicht mehr als Begriff verwendet. Der frühere Produktname für das dynamische Tag-Management.
 * **** Sekundärer Server-Aufruf: Alternativname für Bildanforderung oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Rechnungsstellung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, sind alle Report Suites nach dem ersten aufgelisteten Aufruf sekundäre Server-Aufrufe. Siehe auch Primäre Serveraufrufe.
