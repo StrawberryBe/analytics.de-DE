@@ -2,14 +2,14 @@
 title: account
 description: Verwenden Sie die Kontovariable, um die Report Suite zu bestimmen, an die Daten gesendet werden.
 translation-type: tm+mt
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
 
 # account
 
-> [!IMPORTANT] Diese Variable wird eingestellt. Verwenden Sie die [`s.sa()`](../functions/sa.md) Funktion, wenn Sie bei Ihrer Implementierung das Ziel der Report Suite ändern müssen.
+> [!IMPORTANT] Diese Variable wird eingestellt. Verwenden Sie die [`s.sa()`](../functions/sa-method.md) Funktion, wenn Sie bei Ihrer Implementierung das Ziel der Report Suite ändern müssen.
 
 In früheren Versionen von Adobe Analytics hat die `account` Variable die Report Suite ermittelt, an die Sie Daten senden möchten. Zum Senden von Daten an Adobe Analytics ist eine Report Suite-ID erforderlich.
 
