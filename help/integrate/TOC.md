@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
+source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
 
 ---
 
@@ -16,11 +16,6 @@ source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
    + [Audience Analytics-Übersicht](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics-Workflow {#audience-analytics-workflow}
       + [Workflow-Übersicht](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Übersicht über die serverseitige Weiterleitung – Administratorhandbuch](/help/admin/admin/c-server-side-forwarding/ssf.md)
-      + [DSGVO/ePrivacy-Konformität und serverseitige Weiterleitung – Administratorhandbuch](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Anforderungen an die serverseitige Weiterleitung – Administratorhandbuch](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Serverseitige Weiterleitungsimplementierung überprüfen – Administratorhandbuch](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
-      + [Häufig gestellte Fragen zur serverseitigen Weiterleitung – Administratorhandbuch](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
       + [Analytics-Ziel erstellen - AAM-Handbuch](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Zielgruppendaten in Analytics verwenden](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Anwendungsfälle für Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
