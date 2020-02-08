@@ -3,7 +3,7 @@ title: Aktualisierungen der Adobe Analytics-Dokumentation
 description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
+source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 ---
 
@@ -13,16 +13,17 @@ source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 * Eine umfassende Liste der neuen Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
-* Weitere Informationen zu neuen Funktionen von Analysis Workspace finden Sie [hier](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
+* Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen im Arbeitsbereich](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) für Analysen im Benutzerhandbuch für Analysen.
 * Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Aktualisierungen im Detail
 
 | Datum | Beschreibung |
 |---|---|
+| 7. Februar 2020 | Aktualisierungen zum [Einrichten von geräteübergreifenden Analysen](../components/cda/cda-setup.md) und [häufig gestellte Fragen](../components/cda/cda-faq.md) |
 | 4. Februar 2020 | Umschreiben des [Implementierungs-Benutzerhandbuchs](../implement/home.md)abgeschlossen. |
-| 22. Januar 2020 | Die Seite &quot;Freiform-Tabelle&quot;wurde aktualisiert und enthält Informationen zum neuen [Freiform-Tabellenaufbau](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| 13. Januar 2020 | Es wurden [Adobe Analytics- und Browser-Cookies](../technotes/cookies.md)hinzugefügt. |
+| 22. Januar 2020 | Die Seite &quot;Freiform-Tabelle&quot;wurde aktualisiert und enthält Informationen zum neuen [Freiform-Tabellenaufbau](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 13. Januar 2020 | Es wurden [Adobe Analytics- und Browser-Cookies](../technotes/cookies.md)hinzugefügt. |
 | 29. November 2019 | Überarbeitung der Dokumentation zu [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25. November 2019 | Neues Thema zum [Ende der Lebensdauer für IP-Anmeldebeschränkungen erzwingen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25. November 2019 | Neues Thema im [internen Marketingkanal (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
