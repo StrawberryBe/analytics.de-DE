@@ -1,8 +1,8 @@
 ---
 title: Geräteübergreifende Analyse einrichten
 description: Erfahren Sie, wie Sie die geräteübergreifende Analyse einrichten, wenn Sie die Voraussetzungen erfüllen.
-translation-type: ht
-source-git-commit: 8c5e8d18ce4e09049d3fea07b8dd75ded6894313
+translation-type: tm+mt
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -40,33 +40,32 @@ Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Sui
 Wenn die geräteübergreifende Analyse für eine Virtual Report Suite aktiviert ist, beachten Sie die folgenden Änderungen:
 
 * Neben dem Namen der Virtual Report Suite wird ein neues geräteübergreifendes Symbol angezeigt. Dieses Symbol ist ausschließlich für geräteübergreifende Virtual Report Suites vorgesehen.
+* Eine neue Dimension mit der Bezeichnung &quot;Identifizierter Status&quot;ist verfügbar. Diese Dimension bestimmt, ob die Experience Cloud-ID bei diesem Treffer vom Gerätediagramm zu diesem Zeitpunkt bekannt ist.
 * Es sind neue Metriken mit den Bezeichnungen „Personen“ und „Eindeutige Geräte“ verfügbar.
-* Die Metrik „Unique Visitors“ ist nicht verfügbar, da sie durch „Personen“ und „Eindeutige Geräte“ ersetzt wurde.
+* Die Metrik &quot;Unique Visitors&quot;ist nicht verfügbar, da sie durch &quot;People&quot;und &quot;Unique Devices&quot;ersetzt wird.
 * Beim Erstellen von Segmenten wird der Segmentcontainer „Besucher“ durch den Container „Person“ ersetzt.
 
-## Die berechnete Metrik „Komprimierung“
+## CDA Workspace-Vorlage
 
-Die Fähigkeit der geräteübergreifenden Analyse, Geräte einander zuzuordnen, hängt von einer Vielzahl von Faktoren ab. Die Effektivität der Funktion beim Zuordnen von Daten kann mit einer berechneten Metrik, der so genannten Komprimierung, gemessen werden. Folgende Faktoren tragen unter anderem zur Komprimierung bei:
+Adobe bietet eine Vorlage, um wichtige geräteübergreifende Leistungsdaten anzuzeigen.
 
-* Verwenden des Co-op-Diagramms oder des privaten Diagramms: Im Allgemeinen erhalten Organisationen, die die Co-op-Funktion von Geräten verwenden, bessere Komprimierungsraten als Organisationen, die das private Diagramm verwenden.
-* Anmelderate: Je mehr Benutzer sich auf Ihrer Site anmelden, desto besser kann Adobe Besucher geräteübergreifend identifizieren und zuordnen. Sites mit einer niedrigen Anmelderate haben auch niedrige Komprimierungsraten.
-* Experience Cloud ID-Abdeckung: Es können nur Besucher mit einer ECID zugeordnet werden. Ein geringerer Prozentsatz der Besucher Ihrer Site, die eine ECID verwenden, steht im Zusammenhang mit niedrigeren Kompressionsraten.
-* Verwendung mehrerer Geräte: Wenn Besucher Ihrer Site nicht mehrere Geräte verwenden, erhalten Sie niedrigere Komprimierungsraten.
-* Berichtsgranularität: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
+1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren AdobeID-Anmeldeinformationen an.
+1. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
+1. Klicken Sie [!UICONTROL Workspace] oben auf und dann auf [!UICONTROL Create New Project].
+1. Suchen Sie nach dem &quot;Journey IQ: &quot;Geräteübergreifende Analyse&quot;-Vorlage und klicken Sie dann auf [!UICONTROL Create].
+1. Ändern Sie bei Aufforderung die Report Suite in eine Report Suite, die CDA unterstützt.
 
-So sehen Sie die Komprimierung Ihrer Organisation für einen bestimmten Zeitraum:
+Es wird ein Projekt im Arbeitsbereich für Analysen erstellt, das mehrere Bereiche enthält. Oben werden ein Inhaltsverzeichnis und eine Einführung angezeigt, die den Kontext zum Bericht und die Navigation zu einzelnen Berichten ermöglichen. Klicken Sie auf einen Link im Inhaltsverzeichnis oder erweitern Sie das Akkordeon eines Bedienfelds, um diese Berichte anzuzeigen.
 
-1. Klicken Sie oben in Workspace auf „Neues Projekt erstellen“.
-2. Beginnen Sie mit einem leeren Projekt und klicken Sie dann auf „Erstellen“.
-3. Ziehen Sie die Metrik „Eindeutige Geräte“ in den Arbeitsflächenbereich mit der Bezeichnung „Metrik hier ablegen“.
-4. Ziehen Sie die Metrik „Personen“ direkt rechts neben der Überschrift der Metrik „Eindeutige Geräte“ auf die Arbeitsfläche, damit sich die beiden Metriken nebeneinander befinden.
-5. Klicken Sie links neben den verfügbaren Metriken auf das Symbol „`+`“, um den Generator für berechnete Metriken zu öffnen.
-6. Geben Sie für diese berechnete Metrik die folgenden Einstellungen ein:
-   * Name: Geräteübergreifende Komprimierung
-   * Format: Prozent
-   * Dezimalstellen: 2
-   * Definition: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!TIP] Klicken Sie oben rechts im Definitionsbereich auf „Hinzufügen“, um eine statische Zahl hinzuzufügen. Ziehen Sie „Personen“ und „Eindeutige Geräte“ aus der Liste der verfügbaren Metriken auf der linken Seite.
-7. Klicken Sie auf „Speichern“.
-8. Ziehen Sie die neue berechnete Metrik direkt rechts neben der Überschrift der Metrik „Personen“ auf die Arbeitsfläche, damit sich alle drei Metriken nebeneinander befinden.
-9. Optional: Der Arbeitsbereich lädt standardmäßig die Dimension „Tag“. Ziehen Sie eine alternative Datumsdimension (z. B. „Woche“ oder „Monat“) auf die Dimension „Tag“, wenn eine andere Zeitgranularität gewünscht wird.
+* **Besondere Anmerkung für die Mitglieder des Kooperationdiagramms**: Zeigt, welcher Teil Ihrer Report Suite Besucher in Regionen enthält, in denen das Co-op-Diagramm unterstützt wird, und in Regionen, in denen es nicht unterstützt wird.
+* **Identifizierung der Benutzer**: Zeigt, wie oft Besucher Ihrer Site anhand von Methoden identifiziert werden, die auf geräteübergreifender Analyse basieren.
+* **Messen der Zielgruppengröße**: Zeigt einen Vergleich von &quot;Unique Devices&quot;mit &quot;People&quot;an. Der Anteil dieser beiden Zahlen wird als &quot;geräteübergreifende Komprimierung&quot;bezeichnet, eine berechnete Metrik, die in diesem Bedienfeld sichtbar ist. Diese Komprimierungsmetrik hängt von einem breiten Spektrum von Faktoren ab:
+   * Verwenden des Co-op-Diagramms oder des privaten Diagramms: Im Allgemeinen erhalten Organisationen, die die Co-op-Funktion von Geräten verwenden, bessere Komprimierungsraten als Organisationen, die das private Diagramm verwenden.
+   * Anmelderate: Je mehr Benutzer sich auf Ihrer Site anmelden, desto besser kann Adobe Besucher geräteübergreifend identifizieren und zuordnen. Sites mit einer niedrigen Anmelderate haben auch niedrige Komprimierungsraten.
+   * Experience Cloud ID-Abdeckung: Es können nur Besucher mit einer ECID zugeordnet werden. Ein geringerer Prozentsatz der Besucher Ihrer Site, die eine ECID verwenden, steht im Zusammenhang mit niedrigeren Kompressionsraten.
+   * Verwendung mehrerer Geräte: Wenn Besucher Ihrer Site nicht mehrere Geräte verwenden, erhalten Sie niedrigere Komprimierungsraten.
+   * Berichtsgranularität: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
+* **Benutzerbasierte Segmente**: Enthält ein Segment-Dropdown, mit dem Sie gerätespezifische Daten anzeigen können. In diesem Bereich wird empfohlen, mit Segmenten zu experimentieren, um zu sehen, wie sich das Ein- oder Ausschließen von Gerätetypen auf Berichte auswirkt.
+* **Analyse der geräteübergreifenden Reise**: Bietet Fluss- und Trichteranalyseberichte je nach Gerätetyp.
+* **Geräteübergreifende Zuordnung**: Kombinieren Sie die Funktionen von Journey IQ und Attribution IQ zusammen.
+* **Weitere Tipps und Tricks**: Hilfreiche Themen rund um CDA, mit denen Sie mehr aus der Nutzung herausholen können.
