@@ -2,7 +2,7 @@
 title: Geräteübergreifende Analyse
 description: Die geräteübergreifende Analyse verändert Ihre Daten von geräteorientiert zu personenorientiert, indem sie Gerätedaten zuordnet.
 translation-type: tm+mt
-source-git-commit: c358df811f23a57441e6f9410c957e34954de712
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -55,7 +55,7 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die Kundenunterstützung unterstützt diese Funktion noch nicht vollständig. Das [geräteübergreifende Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) kann für Support zu dieser Funktion verwendet werden, wobei Adobe-Produktmanager aktiv und direkt beteiligt sind.
 * Die geräteübergreifende Analyse verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](../vrs/vrs-about.md) und [Berichtszeitverarbeitung](../vrs/vrs-report-time-processing.md).
 * Die 1.4-API wird nicht unterstützt. Power BI-Anschlüsse und ReportBuilder basieren beide auf der 1.4-API und sind daher nicht mit CDA kompatibel.
-* Bei neuen Geräten, die Ihre Site besuchen, kann es bis zu zwei Wochen dauern, bis sie vom Co-op-Diagramm oder privaten Diagramm verarbeitet werden. Die Zuordnungsrate in der geräteübergreifenden Analyse in den letzten zwei Wochen ist in der Regel niedriger als in Datumsbereichen, die älter als zwei Wochen sind. Adobe plant, den Identity Service der Adobe Experience Platform zu verbessern, um in Zukunft neue Geräte in Echtzeit zuzuordnen.
+* Neue Geräte, die Ihre Site besuchen, können bis zu zwei Wochen dauern, bis sie mit dem Co-op-Diagramm verarbeitet werden. Die Zuordnungsrate in der geräteübergreifenden Analyse in den letzten zwei Wochen ist in der Regel niedriger als in Datumsbereichen, die älter als zwei Wochen sind. Adobe plant, den Identity Service der Adobe Experience Platform zu verbessern, um in Zukunft neue Geräte in Echtzeit zuzuordnen.
 * Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
 
 Sobald Ihre Organisation alle Anforderungen erfüllt und die Einschränkungen versteht, können Sie mit der [Einrichtung der geräteübergreifenden Analyse](cda-setup.md) beginnen.
