@@ -2,7 +2,7 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -33,11 +33,11 @@ Wenn Sie den Mobilgerätetyp wie oben dargestellt verwenden, können Sie sehen, 
 
 Adobe behandelt Treffer mit Zeitstempel so, als wären sie zum Zeitpunkt des Zeitstempels eingegangen, nicht zum Zeitpunkt, zu dem Adobe den Treffer erhalten hat. Treffer mit Zeitstempel, die älter als 1 Monat sind, können nicht zugeordnet werden, da sie außerhalb des Bereichs liegen, in dem Adobe Daten zum Zuordnen aufbewahrt.
 
-**Wie unterscheidet sich die geräteübergreifende Analyse von der benutzerspezifischen Besucher-ID?**
+**Wie sieht CDA im Vergleich zu benutzerdefinierten Besucher-IDs aus?**
 
 Die [benutzerspezifische Besucher-ID](/help/implement/vars/config-vars/visitorid.md) ist eine veraltete Methode, um [Benutzer geräteübergreifend zu verbinden](/help/implement/js/xdevice-visid/xdevice-connecting.md). Bei einer benutzerspezifischen Besucher-ID verwenden Sie die `s.visitorID`-Variable, um die für die Besucherlogik verwendete ID explizit festzulegen. Die `s.visitorID`-Variable setzt alle Cookie-basierten IDs außer Kraft, die vorhanden sind.
 
-Benutzerspezifische Besucher-IDs haben eine Reihe unerwünschter Nebenwirkungen, die die geräteübergreifende Analyse vermeiden oder minimieren soll. Beispielsweise verfügt die Methode der benutzerspezifischen Besucher-ID über keine Lookback-Funktionen. Wenn sich ein Benutzer während eines Besuchs authentifiziert, wird der erste Teil des Besuchs mit einer anderen Besucher-ID verknüpft als der letzte Teil des Besuchs. Die separaten Besucher-IDs führen zu Besuchs- und Besucherinflation. Das 30-Tage-Lookback-Fenster der geräteübergreifenden Analyse ermöglicht es, rückwirkend festzulegen, dass das bisherige Verhalten zu derselben Person gehört. Das bedeutet, dass unauthentifiziertes geräteübergreifendes Verhalten mit authentifiziertem geräteübergreifenden Verhalten bei keiner oder minimaler Inflation kombiniert wird.
+Benutzerspezifische Besucher-IDs haben mehrere unerwünschte Nebenwirkungen, die CDA überwindet oder minimiert. Beispielsweise verfügt die Methode der benutzerspezifischen Besucher-ID über keine Lookback-Funktionen. Wenn sich ein Benutzer während eines Besuchs authentifiziert, wird der erste Teil des Besuchs mit einer anderen Besucher-ID verknüpft als der letzte Teil des Besuchs. Die separaten Besucher-IDs führen zu Besuchs- und Besucherinflation. Das 30-Tage-Lookback-Fenster der geräteübergreifenden Analyse ermöglicht es, rückwirkend festzulegen, dass das bisherige Verhalten zu derselben Person gehört. Das bedeutet, dass unauthentifiziertes geräteübergreifendes Verhalten mit authentifiziertem geräteübergreifenden Verhalten bei keiner oder minimaler Inflation kombiniert wird.
 
 **Kann ich von der benutzerspezifischen Besucher-ID auf die geräteübergreifende Analyse umsteigen?**
 
@@ -50,3 +50,28 @@ In einigen Situationen ist es möglich, dass sich mehrere Personen von demselben
 **Wie behandelt das Gerätediagramm Situationen, in denen eine einzelne Person über VIELE Geräte/ECIDs verfügt?**
 
 In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl von ECIDs verknüpft sein. Dies kann vorkommen, wenn der Benutzer eine Vielzahl von Browsern oder Apps verwendet, vor allem dann, wenn er häufig Cookies löscht oder den privaten oder Inkognito-Modus des Browsers verwendet. Das Gerätediagramm begrenzt die Anzahl der ECIDs, die mit einer bestimmten Benutzer-ID verknüpft sind, auf 200. Wenn eine Benutzer-ID mit zu vielen ECIDs verknüpft ist, geht das Gerätediagramm davon aus, dass die Benutzer-ID ungültig ist, und entfernt den mit dieser Benutzer-ID verknüpften Cluster. Die Benutzer-ID wird dann auf der Blacklist aufgeführt, sodass sie künftig nicht mehr in den Cluster aufgenommen werden kann. Das Ergebnis in der geräteübergreifenden Analyse ist, dass das Verhalten der Benutzer-ID nicht geräteübergreifend zugeordnet wird.
+
+**Was ist der Unterschied zwischen der Metrik &quot;Personen&quot;in CDA und der Metrik &quot;Unique Visitors&quot;außerhalb von CDA?**
+
+Die Metrik &quot;Personen&quot;ähnelt der Metrik &quot;Individuelle Besucher&quot;insofern, als sie die Anzahl individueller Personen meldet. Bei der Verwendung von geräteübergreifender Analyse werden individuelle Besucher jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik &quot;Personen&quot;ersetzt die Metrik &quot;Unique Visitors&quot;, wenn &quot;Geräteübergreifende Analyse&quot;aktiviert ist.
+
+**Was ist der Unterschied zwischen der Metrik &quot;Unique Devices&quot;in CDA und der Metrik &quot;Unique Visitors&quot;außerhalb von CDA?**
+
+Diese beiden Metriken sind in etwa gleich.
+
+**Kann ich CDA-Metriken mit der 2.0-API einbeziehen?**
+
+Ja. Der Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufordern, und Sie können API-Aufrufe anzeigen, die Adobe verwendet, um Ihre eigenen Berichte zu erstellen:
+
+1. Öffnen Sie bei Anmeldung beim Analysis Workspace die Entwicklerwerkzeuge Ihres Browsers (F12 bei den meisten Browsern).
+1. Geben Sie in die Browser-Konsole `adobeTools.showDebugger()`ein. Die Seite wird mit Debugging-Symbolen in der oberen rechten Ecke jedes Bedienfelds neu geladen.
+1. Klicken Sie im gewünschten Bereich auf das Debugging-Symbol und wählen Sie dann die gewünschte Visualisierung und die Uhrzeit der Anforderung aus.
+1. Suchen Sie die JSON-Anforderung, die Sie in Ihrem API-Aufruf an Adobe verwenden können.
+
+**Geräteübergreifende Analysen können individuelle Besucher zusammenführen. Kann sie die Besuche zusammenhalten?**
+
+Ja. Wenn eine Einzelperson Treffer von zwei verschiedenen Geräten innerhalb des Timeouts für Besuche Ihrer Virtual Report Suite sendet (standardmäßig 30 Minuten), werden diese in denselben Besuch eingefügt.
+
+**Was ist die ultimative Besucher-ID, die CDA verwendet? Kann ich es aus Adobe Analytics exportieren?**
+
+Geräteübergreifende Analysen berechnen geheftete Daten mit einer &quot;Cluster-ID&quot;. Diese Kennung wird von Adobe zum Zeitpunkt der Ausführung des Berichts berechnet, auch als Berichtszeitverarbeitung bezeichnet. Die Art der Berichtszeitverarbeitung bedeutet, dass diese nicht mit Data Warehouse, Data Feeds oder anderen Exportfunktionen kompatibel ist, die Adobe anbietet.
