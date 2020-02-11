@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Erstellen Sie Rückruffunktionen, nachdem Sie einen Treffer an Adobe gesendet haben.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 ---
 
@@ -15,7 +15,7 @@ Mit der `registerPostTrackCallback` Variablen kann Ihr Unternehmen eine JavaScri
 
 Jedes Mal, wenn Sie die `registerPostTrackCallback` Variable aufrufen, stellen Sie eine Verknüpfung zu dieser Funktion her, um sie unmittelbar nach dem erfolgreichen Senden einer Bildanforderung auszuführen. Vermeiden Sie es, dieselbe Funktion mehrmals beim Laden derselben Seite zu registrieren.
 
-> [!NOTE] Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen- `registerPostTrackCallback` und `registerPostTrackCallback` -ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
+> [!NOTE] Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen- `registerPreTrackCallback` und `registerPostTrackCallback` -ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
 
 ## Rückruffunktion bei der Nachverfolgung beim Starten der Adobe Experience Platform registrieren
 
