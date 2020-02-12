@@ -4,15 +4,15 @@ title: Marketing-Kanäle
 topic: Admin tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
 
 ---
 
 
 # Marketing-Kanäle
 
-Marketingkanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können Verarbeitungsregeln für Marketingkanäle auf Basis der zu verfolgenden Kanäle und der Verfolgungsart erstellen.
+Marketingkanäle werden häufig verwendet, um Einblicke darüber zu erhalten, wie (über welchen Kanal) Besucher auf Ihre Site gelangen. Sie können Verarbeitungsregeln für Marketingkanäle auf Basis der zu verfolgenden Kanäle und der Verfolgungsart erstellen.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Marketing-Kanäle]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
 
-Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-overview.md).
+Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md).
