@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: ht
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+translation-type: tm+mt
+source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
 
 ---
 
@@ -327,24 +327,25 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Echtzeitberichte konfigurieren](c-real-time-reporting/t-realtime-admin.md)
    + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)
 + Marketing-Kanäle {#marketing-channels}
-   + [Erste Schritte mit Marketingkanälen](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Informationen über Marketing-Kanalberichte](c-marketing-channels/c-overview.md)
-   + [Informationen über Kanäle und Regeln](c-marketing-channels/c-channels-rules.md)
-   + [Automatisches Setup](c-marketing-channels/c-channel-autosetup.md)
-   + [Marketing-Kanäle verwalten](c-marketing-channels/c-channels.md)
-   + [Kanal „Intern“ (Sitzungsaktualisierung)](c-marketing-channels/session-refresh.md)
-   + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/c-rules.md)
-   + [Einrichten von Marketingkanal-Verarbeitungsregeln](c-marketing-channels/t-rules.md)
-   + [Marketing-Kanal-Verarbeitungsregeln – Definitionen](c-marketing-channels/r-channel-rule-definitions.md)
-   + [Häufig gestellte Fragen und Beispiele](c-marketing-channels/c-faq.md)
-   + [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](c-marketing-channels/t-template.md)
-   + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/classifictions-mchannel.md)
-   + [Besucherinteraktionsablauf](c-marketing-channels/visitor-engagement.md)
-   + [In Marketing-Kanalberichten verwendete Metriken](c-marketing-channels/c-overview-metrics.md)
-   + [In Marketing-Kanalberichten verwendete berechnete Metriken](c-marketing-channels/c-channel-calc-metrics.md)
-   + [Kosten und Budgets](c-marketing-channels/c-overview-budget.md)
-   + [Hinzufügen von Offline-Daten](c-marketing-channels/t-offline-data.md)
-   + [Zugriff auf Bericht](c-marketing-channels/c-channel-report-access.md)
-   + [Konfigurieren des Benutzergruppenzugriffs](c-marketing-channels/t-user-groups.md)
-   + [Erteilen beschränkter Administratorrechte](c-marketing-channels/t-admin-rights.md)
-   + [Ausführen von Marketingkanalberichten](c-marketing-channels/t-reports-sc.md)
+   + [Erste Schritte mit Marketingkanälen]{#mc-get-started}
+      + [Erste Schritte](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+      + [Automatisches Setup](c-marketing-channels/getting-started/c-channel-autosetup.md)
+      + [Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites](c-marketing-channels/getting-started/t-template.md)
+   + [Marketingkanal-Manager]{#mc-manager}
+      + [Marketing-Kanäle verwalten](c-marketing-channels/mark-channel-mgr/c-channels.md)
+      + [Informationen über Kanäle und Regeln](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+   + [Verarbeitungsregeln] für Marketingkanäle {#mc-proc-rules}
+      + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/mc-proc-rules/c-rules.md)
+      + [Einrichten von Marketingkanal-Verarbeitungsregeln](c-marketing-channels/mc-proc-rules/t-rules.md)
+      + [Marketingkanal-Regelkriterien](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+      + [Kanal „Intern“ (Sitzungsaktualisierung)](c-marketing-channels/mc-proc-rules/session-refresh.md)
+   + [Marketingkanal-Klassifizierungen]{#mc-classifications}
+      + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+   + [Ablauf] von Marketingkanälen {#mc-expire}
+      + [Besucherinteraktionsablauf](c-marketing-channels/mc-expiration/visitor-engagement.md)
+   + [Marketingkanäle] analysieren {#mc-analyze}
+      + [Marketingkanäle analysieren](c-marketing-channels/mc-analyze/analyze-mc.md)
+   + [Zugriff auf Marketingkanäle]{#mc-access}
+      + [Berechtigungen für Marketingkanäle](c-marketing-channels/mc-access/c-channel-report-access.md)
+   + [Häufig gestellte Fragen zum] Marketingkanal {#mc-faq}
+      + [Häufig gestellte Fragen und Beispiele zu Marketingkanälen](c-marketing-channels/mc-faq/c-faq.md)
