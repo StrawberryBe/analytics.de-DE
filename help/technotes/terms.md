@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
 
 ---
 
@@ -28,7 +28,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Adobe Campaign, Teil der Adobe Experience Cloud. Weitere Informationen zu [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Kanal: Kann auf Folgendes verweisen:
    * Die Kanalvariable, die die Dimension &quot;Sitebereiche&quot;füllt. Siehe [Kanal](../implement/vars/page-vars/channel.md) im Benutzerhandbuch &quot;Implementierung&quot;.
-   * Marketingkanäle, eine Komponente, die veranschaulicht, wie Benutzer zu Ihrer Site gelangen. Siehe [Marketingkanäle](/help/components/c-marketing-channels/c-overview.md) im Komponenten-Benutzerhandbuch.
+   * Marketingkanäle, eine Komponente, die veranschaulicht, wie Benutzer zu Ihrer Site gelangen. Siehe [Marketingkanäle](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) im Komponenten-Benutzerhandbuch.
 * **** Klassifizierung: Eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionswerten ermöglicht. Siehe [Klassifizierungen](/help/components/c-classifications2/c-classifications.md) im Komponenten-Benutzerhandbuch.
 * **** ClickMap: Nicht mehr verwendet. Ein älteres Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
 * **** Clickstream-Datenfeed: Siehe Datenfeed.
@@ -68,7 +68,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **** Listen-Prop: Eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerdefinierte Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Eigenschaftsvariablen](../implement/vars/page-vars/prop.md) im Benutzerhandbuch &quot;Implementierung&quot;.
 * **** List var: Eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Eine Organisation kann nur drei Listenvariablen verwenden. Siehe [Liste](../implement/vars/page-vars/list.md) im Benutzerhandbuch &quot;Implementierung&quot;.
 * **** Anmeldeunternehmen: Eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Unternehmen verfügen über mehrere Anmeldeunternehmen, die für verschiedene Bereiche ihres Unternehmens gelten.
-* **** Marketingkanal: Eine Funktion in Adobe Analytics, die Treffer nach der Ankunft auf Ihrer Site kategorisiert. Die zur Kategorisierung von Treffern verwendete Logik kann mithilfe von Marketingkanal-Verarbeitungsregeln angepasst werden. Siehe [Erste Schritte mit Marketingkanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Komponenten-Benutzerhandbuch.
+* **** Marketingkanal: Eine Funktion in Adobe Analytics, die Treffer nach der Ankunft auf Ihrer Site kategorisiert. Die zur Kategorisierung von Treffern verwendete Logik kann mithilfe von Marketingkanal-Verarbeitungsregeln angepasst werden. Siehe [Erste Schritte mit Marketingkanälen](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) im Komponenten-Benutzerhandbuch.
 * **** Metrik: Ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension ist normalerweise ihr Gegenstück.
 * **** Multi-Suite-Tagging: Die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung in Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
 * **** Normalisierung: Eine Möglichkeit, eine Visualisierung zu organisieren, bei der alle Metriken in gleiche Proportionen umgewandelt werden, sodass Trends leichter verglichen werden können.
