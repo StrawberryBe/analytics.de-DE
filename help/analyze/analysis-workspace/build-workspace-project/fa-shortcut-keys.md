@@ -5,7 +5,7 @@ title: In Analysis Workspace verfügbare Tastaturbefehle
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -18,144 +18,43 @@ Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die
 
 `command` = Mac
 
-<table id="table_01F961F4F7E644E682B8A95B44F14FEE"> 
- <tbody> 
-  <tr> 
-   <td> <b> Aktion</b> </td> 
-   <td> <b> Tastaturbefehl</b> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Alle löschen </p> </td> 
-   <td colname="col2"> <p>ALT + W </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Kopieren </p> </td> 
-   <td colname="col2"> <p>STRG (oder Befehl) + C </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Erstellen eines Warnhinweises </p> </td> 
-   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + A </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Berechnete Metrik erstellen </p> </td> 
-   <td> <p> STRG (oder Befehl) + UMSCHALT + C </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Datumsbereich erstellen </p> </td> 
-   <td colname="col2"> <p> STRG (oder Befehl) + UMSCHALT + D </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Neues Projekt erstellen </p> </td> 
-   <td colname="col2"> <p> STRG (oder Befehl) + UMSCHALT + P </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Segment erstellen </p> </td> 
-   <td colname="col2"> <p> STRG (oder Befehl) + UMSCHALT + E </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Projekt kuratieren </p> </td> 
-   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + G </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Als CSV herunterladen </p> </td> 
-   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + V </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Als PDF herunterladen </p> </td> 
-   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + B </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Projektverknüpfung abrufen </p> </td> 
-   <td colname="col2"> <p>ALT + L </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Zum Fenster „Bereiche“ </p> </td> 
-   <td colname="col2"> <p>ALT + UMSCHALT + 1 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Zum Fenster „Visualisierungen“ </p> </td> 
-   <td colname="col2"> <p>ALT + UMSCHALT + 2 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Zum Fenster „Komponenten“ </p> </td> 
-   <td colname="col2"> <p>ALT + UMSCHALT + 3 </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Vorhandenes Projekt öffnen </p> </td> 
-   <td> <p> STRG (oder Befehl) + O </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Neuer Attributionsbereich </p> </td> 
-   <td colname="col2"> <p>ALT + E </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Neues Balkendiagramm </p> </td> 
-   <td colname="col2"> <p>ALT + 3 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Neues leeres Bedienfeld </p> </td> 
-   <td colname="col2"> <p>ALT + B </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Neues Freiformfeld </p> </td> 
-   <td colname="col2"> <p>ALT + A </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Neue Freiformtabelle </p> </td> 
-   <td colname="col2"> <p>ALT + 1 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Neuer Kantengraph </p> </td> 
-   <td colname="col2"> <p>ALT + 2 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Neues Bedienfeld für Segmentvergleich </p> </td> 
-   <td colname="col2"> <p>ALT + C </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Komponenten aktualisieren </p> </td> 
-   <td colname="col2"> <p>ALT + UMSCHALT + R </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Projekt aktualisieren </p> </td> 
-   <td colname="col2"> <p>ALT + R </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Projekt speichern </p> </td> 
-   <td> <p> STRG (oder Befehl) + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Projekt speichern unter </p> </td> 
-   <td> <p> STRG (oder Befehl) + UMSCHALT + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Als Vorlage speichern </td> 
-   <td colname="col2"> Alt + t </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Datei jetzt senden </p> </td> 
-   <td colname="col2"> <p>ALT + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Datei planmäßig senden </p> </td> 
-   <td> <p>UMSCHALT + ALT + S </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Als Landingpage festlegen </p> </td> 
-   <td colname="col2"> STRG (oder Befehl) + UMSCHALT + L </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Projekt freigeben </p> </td> 
-   <td> <p> STRG (oder Befehl) + G </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Wiederherstellen </p> </td> 
-   <td colname="col2"> <p>STRG (oder Befehl) + UMSCHALT + Z </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Rückgängig </p> </td> 
-   <td> <p>STRG (oder Befehl) + Z </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Aktion | Tastaturbefehl |
+|---|---|
+| Alle löschen | ALT + W |
+| Alle Bereiche reduzieren/erweitern | ALT + M |
+| Aktives Bedienfeld reduzieren/erweitern | alt + Strg + m |
+| Kopieren | STRG (oder Befehl) + C |
+| Erstellen eines Warnhinweises | STRG (oder Befehl) + UMSCHALT + A |
+| Berechnete Metrik erstellen | STRG (oder Befehl) + UMSCHALT + C |
+| Datumsbereich erstellen | STRG (oder Befehl) + UMSCHALT + D |
+| Neues Projekt erstellen | STRG (oder Befehl) + UMSCHALT + P |
+| Segment erstellen | STRG (oder Befehl) + UMSCHALT + E |
+| Projekt kuratieren | STRG (oder Befehl) + UMSCHALT + G |
+| Als CSV herunterladen | STRG (oder Befehl) + UMSCHALT + V |
+| Als PDF herunterladen | STRG (oder Befehl) + UMSCHALT + B |
+| Projektverknüpfung abrufen | ALT + L |
+| Zum Fenster „Bereiche“ | ALT + UMSCHALT + 1 |
+| Zum Fenster „Visualisierungen“ | ALT + UMSCHALT + 2 |
+| Zum Fenster „Komponenten“ | ALT + UMSCHALT + 3 |
+| Zum nächsten Fenster | ALT + RECHTER Schlüssel |
+| Zum vorherigen Fenster wechseln | Alt + Linker Schlüssel |
+| Neuer Attributionsbereich | ALT + E |
+| Neues Balkendiagramm | ALT + 3 |
+| Neues leeres Bedienfeld | ALT + B |
+| Neues Freiformfeld | ALT + A |
+| Neue Freiformtabelle | ALT + 1 |
+| Neuer Kantengraph | ALT + 2 |
+| Neues Bedienfeld für Segmentvergleich | ALT + C |
+| Vorhandenes Projekt öffnen | STRG (oder Befehl) + O |
+| Komponenten aktualisieren | ALT + UMSCHALT + R |
+| Projekt aktualisieren | ALT + R |
+| Projekt speichern | STRG (oder Befehl) + S |
+| Projekt speichern unter | STRG (oder Befehl) + UMSCHALT + S |
+| Als Vorlage speichern | Alt + t |
+| Links suchen | Strg + / |
+| Datei jetzt senden | ALT + S |
+| Datei planmäßig senden | UMSCHALT + ALT + S |
+| Als Landingpage festlegen | STRG (oder Befehl) + UMSCHALT + L |
+| Projekt freigeben | STRG (oder Befehl) + G |
+| Wiederherstellen | STRG (oder Befehl) + UMSCHALT + Z |
+| Rückgängig | STRG (oder Befehl) + Z |
