@@ -3,7 +3,7 @@ title: AppMeasurement für JavaScript - Versionshinweise
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -14,7 +14,13 @@ Gesammelte Versionshinweise für [!DNL AppMeasurement] für JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin/admin/code-manager-admin.md)herunterladen.
+Sie können die neueste Version von AppMeasurement im [Code-Manager]herunterladen (/help/admin/admin/code-manager-admin.md).
+
+## Version 2.18.0
+
+Releasedatum: **20. Februar 2020**
+
+* AppMeasurement kann nun erzwingen, dass Cookies das sichere Tag einschließen, indem sie `writeSecureCookies` auf &quot;true&quot;gesetzt wird. Die Voraussetzung für diese Einstellung ist, dass die gesamte Client-Website sicher bereitgestellt wird (https). (AN-204604)
 
 ## Version 2.17.0
 
@@ -228,7 +234,7 @@ Releasedatum: **16. Juni 2016**
 Releasedatum: **21. April 2016**
 
 * Das [!DNL AppMeasurement] Activity Map-Module wurde in das [!DNL AppMeasurement]-Standardmodul integriert, sodass Sie nur noch eine [!DNL .js]-Datei referenzieren müssen. Zusätzlich ist die Activity Map-Verfolgung standardmäßig aktiviert. (AN-112689)
-* Ein Kürzungsproblem wurde behoben, das durch die Reihenfolge der Abfragezeichenfolgenvariablen in [!DNL AppMeasurement] entstand, sodass *`pageURLRest`*zuletzt kommt. (AN-114647)
+* Ein Kürzungsproblem wurde behoben, das durch die Reihenfolge der Abfragezeichenfolgenvariablen in [!DNL AppMeasurement] entstand, sodass *`pageURLRest`* zuletzt kommt. (AN-114647)
 
 ## Version 1.5.4
 
@@ -262,7 +268,7 @@ Releasedatum: **17. September 2015**
 
 Releasedatum: **18. Juni 2015**
 
-* Unterstützung für Visitor API 1.5, die die Methode *`getCustomerIDs`*verwendet, um Kunden-IDs und authentifizierte Status zu erfassen und die IDs mit Datenerfassungsanforderungen zu senden.
+* Unterstützung für Visitor API 1.5, die die Methode *`getCustomerIDs`* verwendet, um Kunden-IDs und authentifizierte Status zu erfassen und die IDs mit Datenerfassungsanforderungen zu senden.
 * Das Erstellen eines doppelten zielangebenden iFrames im **[!UICONTROL AudienceManagement]**-Modul (DIL 6.1) wurde korrigiert
 * In Version 1.4.5. beschriebenes, bekanntes Problem behoben.
 
@@ -290,7 +296,7 @@ Releasedatum: **16. April 2015**
 Releasedatum: **19. Februar 2015**
 
 * Die Verarbeitung aller verzögerten Tracking-Aufrufe wurde vereinheitlicht. Dadurch werden Probleme mit während der Verzögerung zurückgestellten Variablen, z. B. dem angeklickten Objekt, behoben.
-* Geändert, sodass kein automatisches Referrer-Tracking nach dem ersten Tracking-Aufruf stattfindet. Der zweite, dritte usw. Tracking-Aufruf (im Regelfall Linktracking) zählen somit den Referrer nicht doppelt, wenn *`s.referrer`*vor dem ersten Tracking-Aufruf manuell eingestellt wurde.
+* Geändert, sodass kein automatisches Referrer-Tracking nach dem ersten Tracking-Aufruf stattfindet. Der zweite, dritte usw. Tracking-Aufruf (im Regelfall Linktracking) zählen somit den Referrer nicht doppelt, wenn *`s.referrer`* vor dem ersten Tracking-Aufruf manuell eingestellt wurde.
 * Die ZIP-Datei für die Verteilung wurde aktualisiert und enthält nun die Visitor API 1.3.5.
 
 ## Version 1.4.2
