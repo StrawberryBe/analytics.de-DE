@@ -2,7 +2,7 @@
 title: Akquise-Berichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Berichte mit dem Analysis Workspace erstellen.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
 
 ---
 
@@ -15,7 +15,7 @@ In Adobe Analytics werden diese Berichte als **Marketingkanäle** bezeichnet. Si
 
 > [!IMPORTANT]
 >
-> Richten Sie Ihre Marketingkanal-Verarbeitungsregeln zur Verwendung dieser Berichte ein. Informationen zur bestmöglichen Konfiguration von Marketingkanälen in Ihrem Unternehmen finden Sie unter [Erste Schritte mit Marketingkanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) .
+> Richten Sie Ihre Marketingkanal-Verarbeitungsregeln zur Verwendung dieser Berichte ein. Informationen zur bestmöglichen Konfiguration von Marketingkanälen in Ihrem Unternehmen finden Sie unter [Erste Schritte mit Marketingkanälen](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) .
 
 Auf dieser Seite wird davon ausgegangen, dass der Benutzer über grundlegende Kenntnisse in der Verwendung des Analysis Workspace verfügt. Siehe [Erstellen eines einfachen Berichts im Analysis Workspace für Google Analytics-Benutzer](create-report.md) , wenn Sie mit dem Tool in Adobe Analytics noch nicht vertraut sind.
 
