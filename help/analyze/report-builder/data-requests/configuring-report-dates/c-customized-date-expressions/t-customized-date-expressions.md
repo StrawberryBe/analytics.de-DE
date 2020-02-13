@@ -4,7 +4,7 @@ title: Benutzerdefinierte Datumsausdrücke – Übersicht
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -17,6 +17,10 @@ Es wird empfohlen, beim Erstellen von Ausdrucken auf einen bestimmten Kalender z
 
 **So aktivieren Sie benutzerdefinierte Ausdrücke**
 
-1. Wählen Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1]**die Option[!UICONTROL Rollierende Datumswerte]**.
-1. Enable **[!UICONTROL Custom Expression]**.
-1. Geben Sie den gewünschten Ausdruck in die Felder **Von** und **[!UICONTROL Bis]ein. Beachten Sie dabei die nachstehend aufgeführten Abkürzungen, Syntaxregeln und Beispiele.**
+1. Wählen Sie auf der [!UICONTROL Request Wizard: Step 1]Seite **[!UICONTROL Rolling Dates]**.
+
+   ![](assets/rolldates1.png)
+
+1. 
+1. Aktivieren **[!UICONTROL Customize Expression]**.
+1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
