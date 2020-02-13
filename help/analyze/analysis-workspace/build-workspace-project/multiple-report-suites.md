@@ -2,7 +2,7 @@
 title: Mehrere Report Suites in Workspace
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen.
 translation-type: tm+mt
-source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
+source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
 
 ---
 
@@ -10,7 +10,7 @@ source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
 # Mehrere Report Suites in Workspace
 
 >[!IMPORTANT]
->Mehrere Report Suites in Workspace befinden sich derzeit in einer eingeschränkten Version. Ab dem 20. Februar 2020 wird die Funktion im Laufe einiger Wochen für alle Kunden eingeführt.
+>Mehrere Report Suites in Workspace befinden sich derzeit in einer eingeschränkten Version.
 
 Sie können jetzt im Arbeitsbereich für Analysen Projekte mit Daten aus mehr als einer Report Suite erstellen. Report Suites werden jetzt auf Bereichsebene ausgewählt, sodass Sie für jeden Bereich innerhalb desselben Workspace-Projekts eine andere Report Suite auswählen können.
 
