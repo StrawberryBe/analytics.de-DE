@@ -3,7 +3,7 @@ title: Aktualisierungen der Adobe Analytics-Dokumentation
 description: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
-| 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu Marketingkanälen. |
+| 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu [Marketingkanälen](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
 | 7. Februar 2020 | Aktualisierungen zum [Einrichten von geräteübergreifenden Analysen](../components/cda/cda-setup.md) und [häufig gestellte Fragen](../components/cda/cda-faq.md) |
 | 4. Februar 2020 | Umschreiben des [Implementierungsbenutzerhandbuchs](../implement/home.md)abgeschlossen. |
 | 22. Januar 2020 | Die Seite „Freiform-Tabelle“ wurde aktualisiert und enthält Informationen zum neuen [Freiform-Tabellen-Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
