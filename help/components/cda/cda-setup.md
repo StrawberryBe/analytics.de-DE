@@ -2,7 +2,7 @@
 title: Geräteübergreifende Analyse einrichten
 description: Erfahren Sie, wie Sie die geräteübergreifende Analyse einrichten, wenn Sie die Voraussetzungen erfüllen.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ Adobe bietet eine Vorlage, um wichtige geräteübergreifende Leistungsdaten anzu
 1. Ändern Sie bei Aufforderung die Report Suite in eine Report Suite, die CDA unterstützt.
 
 Es wird ein Projekt im Arbeitsbereich für Analysen erstellt, das mehrere Bereiche enthält. Oben werden ein Inhaltsverzeichnis und eine Einführung angezeigt, die den Kontext zum Bericht und die Navigation zu einzelnen Berichten ermöglichen. Klicken Sie auf einen Link im Inhaltsverzeichnis oder erweitern Sie das Akkordeon eines Bedienfelds, um diese Berichte anzuzeigen.
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Besondere Anmerkung für die Mitglieder des Kooperationdiagramms**: Zeigt, welcher Teil Ihrer Report Suite Besucher in Regionen enthält, in denen das Co-op-Diagramm unterstützt wird, und in Regionen, in denen es nicht unterstützt wird.
 * **Identifizierung der Benutzer**: Zeigt, wie oft Besucher Ihrer Site anhand von Methoden identifiziert werden, die auf geräteübergreifender Analyse basieren.
