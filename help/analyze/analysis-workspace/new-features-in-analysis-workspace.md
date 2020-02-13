@@ -5,7 +5,7 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ Am 20. Februar 2020 veröffentlichte neue Funktionen.
 | Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über CDA-exklusive Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Einrichten von geräteübergreifenden Analysen](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) . |
 | Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Bereich &quot;Aktiv reduzieren/erweitern&quot;: `alt + ctrl + m`</li><li>Links suchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Mehr Info...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Weitere Verbesserungen am Arbeitsbereich | <ul><li>Wenn ein Bedienfeld oder eine Visualisierung in Workspace abgelegt wird, wechselt die linke Leiste jetzt automatisch zu Komponenten, um einen nahtlosen Arbeitsablauf zu gewährleisten.</li><li>Vorlagenkomponenten können nun mit Aktionen versehen werden (z. B. mit Tags, Favoriten, Genehmigt).</li><li>Gefilterte Metrik- und Segmentlisten bieten die Schaltfläche &quot;+&quot;, um eine neue Komponente hinzuzufügen, wenn Sie Ihre Anforderungen nicht finden.</li></ul> |
+| Workspace-Debugger | Der Workspace-Debugger wurde dem Menü &quot;Hilfe&quot;hinzugefügt, sodass Sie ihn nahtloser zum Debuggen von Workspace-Anforderungen aktivieren können. [Mehr Info...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Januar 2020
 
