@@ -2,7 +2,7 @@
 title: Marketingkanäle analysieren
 description: Erfahren Sie, wie Sie die Dimensionen der Marketingkanäle in Workspace verwenden.
 translation-type: tm+mt
-source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
+source-git-commit: 49e349b2caefdad09ff31550649b5dc35656b9bb
 
 ---
 
@@ -18,7 +18,7 @@ Wahrscheinlich möchten Sie wissen, welche Ihrer Marketingkanäle am effektivste
 | Marketingkanal | Dies ist die Marketingkanal-Dimension, die wir empfehlen. Zuordnungs-IQ-Modelle können zur Laufzeit darauf angewendet werden. Die allgemeine Dimension &quot;Marketingkanäle&quot;verhält sich genauso wie die Dimension &quot;Letztkontakt Kanal&quot;, wird jedoch anders beschriftet, um Verwirrung zu vermeiden, wenn sie mit einem anderen Zuordnungsmodell verwendet wird. |
 | Letztkontakt Kanal | Legacy-Dimension, mit einem Zuordnungsmodell, das vorab angewendet und unverändert ist. |
 | Erstkontakt Kanal | Legacy-Dimension, mit einem Zuordnungsmodell, das vorab angewendet und unverändert ist. |
-| [Marketingkanal-InstanzenDiese Metrik...] |
+| Marketingkanal-Instanzen | Diese Metrik... |
 | Neue Interaktionen | Hierbei handelt es sich um eine veraltete Metrik, die nur inkrementiert wird, wenn für einen Kanal die Zuordnung &quot;First Touch&quot;angewendet wurde. |
 
 ## Basisanalyse
@@ -57,4 +57,4 @@ Mithilfe des alten First Touch- und Last Touch-Kanals können Sie eine hilfreich
 
 ![](assets/mc-viz6.png)
 
-Weitere Informationen finden Sie in [diesem Video](https://www.youtube.com/watch?v=M3EOdONa-3E).
+In [diesem Video](https://www.youtube.com/watch?v=M3EOdONa-3E)erfahren Sie mehr über tabulatorübergreifende Marketinganalyse.
