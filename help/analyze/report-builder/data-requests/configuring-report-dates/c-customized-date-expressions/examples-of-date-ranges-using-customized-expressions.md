@@ -4,7 +4,7 @@ title: Beispiele für Datumsbereiche mit benutzerdefinierten Ausdrücken
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -31,7 +31,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 
 Wenn heute Montag, der 10. November 2011 ist, das aktuelle Datum nehmen und eine Woche abziehen, um die letzte volle Woche im Oktober zu erhalten.
 
-**Beispiel 2**
+**Beispiel 2**
 
 Dem Beginn des Jahres (dem Monat Januar) vier Monate hinzufügen, um den Mai zu erhalten; dem ersten Tag des Monats zwei Tage hinzufügen, um den dritten Tag des Monats zu erhalten.
 
@@ -43,10 +43,8 @@ Benutzerdefinierte Ausdrücke für die Abdeckung eines Großteils aller möglich
 * Verwenden Sie nur diese Abkürzungen: cd, cw, cm, cq, cy, d, w, m, q, y
 * Die Best Practice ist, denselben Datumsverweis im Start- und im Enddatum zu verwenden: cd, cd oder cw, cw oder cy, cy. Die Verwendung verschiedenartiger Abkürzungen kann an bestimmten Tagen des Jahres zu fehlerhaften Ergebnissen führen.
 * Gültige Vielfache der Abkürzungen d w m q y werden durch ganze Zahlen (1 2 3 ... ) gebildet, die Abkürzung vorangestellt werden, z. B. 53d 3w 5q 9m 2y
-
-   * Nicht-ganzzahlige Werte sind nicht zulässig.
-   * Stellen Sie einer Abkürzung keine Null voran. Beispielsweise ist 0w nicht zulässig.
-
+* Nicht-ganzzahlige Werte sind nicht zulässig.
+* Stellen Sie einer Abkürzung keine Null voran. Beispielsweise ist 0w nicht zulässig.
 * Die folgenden Operatoren werden verwendet, um Abkürzungen zu verknüpfen: + -
 * Da Datumsbereiche relativ zum aktuellen Zeitraum betrachtet werden müssen, beginnt der erste Term eines Ausdrucks immer mit einem c.
 
