@@ -1,16 +1,14 @@
 ---
 title: Labs-Benutzerhandbuch
 description: Vorschau von Prototypprojekten für Adobe Analytics
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
 
 
 
 # Labs-Benutzerhandbuch
-
->[!NOTE] Labs wird derzeit als Version mit frühzeitigem Zugriff für eine begrenzte Anzahl von Kunden veröffentlicht, wird aber später in großem Umfang veröffentlicht.
 
 Labs ermöglicht eine schnellere Prototypisierung von Ideen in der Frühphase. Es handelt sich dabei um eine Kombination von Werkzeugen und Prozessen, die die Entwicklung transparent und kundenorientiert beschleunigt. Es ermöglicht es Benutzern, sich mit neuen Technologien zu beschäftigen, wertvolle Einblicke zu erhalten und die Entwicklung künftiger Funktionen und Prioritäten zu beeinflussen. Sie können Labs verwenden, um frühzeitig auf Analytics-Innovationen zugreifen zu können und zukünftige Funktionen im Rahmen Ihrer eigenen geschäftlichen Nutzungsszenarien und Daten zu bewerten.
 
