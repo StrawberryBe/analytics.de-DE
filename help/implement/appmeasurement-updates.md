@@ -3,7 +3,7 @@ title: AppMeasurement für JavaScript - Versionshinweise
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 
 ---
 
@@ -14,13 +14,13 @@ Gesammelte Versionshinweise für [!DNL AppMeasurement] für JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Sie können die neueste Version von AppMeasurement im [Code-Manager]herunterladen (/help/admin/admin/code-manager-admin.md).
+Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin/admin/code-manager-admin.md)herunterladen.
 
 ## Version 2.18.0
 
 Releasedatum: **13. Februar 2020**
 
-* AppMeasurement kann nun erzwingen, dass Cookies das sichere Tag einschließen, indem sie `writeSecureCookies` auf &quot;true&quot;gesetzt wird. Die Voraussetzung für diese Einstellung ist, dass die gesamte Client-Website sicher bereitgestellt wird (https). (AN-204604)
+* AppMeasurement kann nun erzwingen, dass Cookies das Secure-Attribut einschließen, indem die [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) Variable festgelegt wird. Die Voraussetzung für diese Variable ist, dass die gesamte Client-Website sicher bereitgestellt wird (HTTPS). (AN-204604)
 
 ## Version 2.17.0
 
