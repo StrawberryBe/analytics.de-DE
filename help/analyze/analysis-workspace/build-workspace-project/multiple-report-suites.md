@@ -2,7 +2,7 @@
 title: Mehrere Report Suites in Workspace
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen.
 translation-type: tm+mt
-source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
+source-git-commit: 1a08003170ba07a722927e935ecda26e1d189235
 
 ---
 
@@ -22,16 +22,16 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie
 
 ## Aktives Bedienfeld
 
-Mit dieser Funktion stellen wir das Konzept des &quot;aktiven Panels&quot; gegen &quot;inaktiver Panel&quot; vor. Die aktive Leiste wird durch den hellblauen Rand um sie herum erkennbar. Wenn Sie einfach in einen Bereich klicken, wird dieser Bereich zum aktiven Bereich.
+Mit dieser Funktion stellen wir das Konzept des &quot;aktiven Panels&quot; gegen &quot;inaktiver Panel&quot; vor. Sie können das aktive Bedienfeld am hellblauen Rand erkennen. Durch einfaches Klicken in ein Bedienfeld wird dieses Bedienfeld zum aktiven Bedienfeld.
 
 >[!IMPORTANT]
->Sie können Komponenten **nur in das aktive Bedienfeld** ziehen und dort ablegen, auch wenn andere Bedienfelder dieselbe Report Suite haben. Wenn Sie das Bedienfeld beim Ziehen und Ablegen ändern möchten, können Sie einen Kurzschnitt verwenden: Drücken Sie `shift` beim Ziehen die Taste, um einen inaktiven Bereich in einen aktiven Bereich zu ändern.
+>Sie können per Drag &amp; Drop in ein beliebiges Bedienfeld ziehen, das sich in derselben Report Suite wie das aktive Bedienfeld befindet. Durch Ziehen in einen inaktiven Bereich derselben Report Suite wird das Bedienfeld aktiv.
 
 | Aufgabe | Aktives Bedienfeld | Inaktives Bedienfeld |
 |---|---|---|
 | Report Suite ändern | Ja | Nein |
-| Komponenten ziehen und ablegen | Ja | Nein |
-| Visualisierungen per Drag &amp; Drop | Ja | Nein |
+| Komponenten ziehen und ablegen | Ja | Jafür alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
+| Visualisierungen per Drag &amp; Drop | Ja | Jafür alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
 
 ## Arbeiten mit mehreren Report Suites
 
@@ -43,18 +43,18 @@ Mit dieser Funktion stellen wir das Konzept des &quot;aktiven Panels&quot; gegen
 
 
    >[!NOTE]
-   >Manchmal wird beim Laden eines Projekts (oder beim Wechsel zu einer Report Suite) die Meldung &quot;Inkompatible Report Suite&quot;angezeigt, wenn nicht alle im Projekt enthaltenen Komponenten in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) , um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
+   >Manchmal wird beim Laden eines Projekts (oder beim Wechsel zu einer Report Suite) ein Banner angezeigt, bei dem nicht alle im Projekt enthaltenen Komponenten in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](/help/admin/admin-console/permissions/product-profile.md) , um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
 
    ![](assets/incompat-rs.png)
 
    Sie haben 3 Optionen, um mit dieser Inkompatibilität umzugehen:
-   * Fahren Sie mit einigen fehlenden Komponenten fort. Dies führt zu keinen Daten für diese Komponenten und/oder zu leeren Visualisierungen.
-   * Rückgängig.
+   * Erforderliche Dimensionen/Metriken aktivieren
    * Report Suite ändern.
+   * Fahren Sie mit einigen fehlenden Komponenten fort. Dies führt zu keinen Daten für diese Komponenten und/oder zu leeren Visualisierungen.
 
 1. Ändern Sie das Bedienfeld in eine andere Report Suite und beachten Sie, wie die Komponentenbeschriftung (derzeit aktive Report Suite) und die aufgelisteten Komponenten basierend auf der neuen Report Suite aktualisiert werden.
 
-1. Verwenden Sie den Tastaturbefehl (`shift` während Sie ziehen), um einen inaktiven Bereich in einen aktiven Bereich umzuwandeln.
+1. Verwenden Sie einen Tastaturbefehl (`shift` während Sie ziehen), um einen inaktiven Bereich in einen aktiven Bereich umzuwandeln.
 
 1. (Optional) Sie können auch andere Analytics-Komponenten-Builder aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die
 
