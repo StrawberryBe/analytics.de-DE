@@ -4,7 +4,7 @@ title: Benutzerdefinierte Datumsausdrücke – Übersicht
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ Es wird empfohlen, beim Erstellen von Ausdrucken auf einen bestimmten Kalender z
 
    Wenn Sie beispielsweise die oben genannten Daten in &quot;Monatlich rollierend&quot;vom ersten Tag vor drei Monaten bis zum ersten Tag dieses Monats ändern, werden die Daten in den erweiterten Optionen entsprechend aktualisiert:
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
