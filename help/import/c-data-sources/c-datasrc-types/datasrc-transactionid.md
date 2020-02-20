@@ -2,7 +2,7 @@
 title: Transaktions-ID-Datenquellen
 description: Erfahren Sie mehr über den allgemeinen Arbeitsablauf bei der Verwendung von Transaktions-ID-Datenquellen.
 translation-type: tm+mt
-source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
+source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 ---
 
@@ -30,9 +30,8 @@ Wenn Sie die folgende Datenquellen-Datei hochgeladen und den folgenden Code auf 
 
 Laden Sie die Vorlage herunter, aktualisieren Sie die Werte und laden Sie sie dann in den FTP-Speicherort der Datenquellen hoch:
 
-| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
-|---|---|---|---|
 | `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+|---|---|---|---|
 | `Date` | `Evar 1` | `Event 1` | `transactionID` |
 | `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
 
