@@ -1,52 +1,23 @@
 ---
-description: Transaktions-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
-subtopic: Data sources
-title: Transaktions-ID
-topic: Developer and implementation
-uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
+title: Transaktions-ID-Datenquellen
+description: Erfahren Sie mehr über den allgemeinen Arbeitsablauf bei der Verwendung von Transaktions-ID-Datenquellen.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 
 ---
 
 
-# Transaktions-ID
+# Transaktions-ID-Datenquellen
 
-Transaktions-IDs können durch Auswahl der Kategorie „Generisch (Transaktions-ID)“ integriert werden.
+Transaktions-ID-Datenquellen ermöglichen es Ihnen, nicht nur Online- und Offlinedaten nebeneinander anzuzeigen, sondern die Daten miteinander zu verbinden. Es erfordert die Verwendung der [`transactionID`](/help/implement/vars/page-vars/transactionid.md) Variablen in Ihrer Analytics-Implementierung.
 
-See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+Wenn Sie einen Online-Treffer senden, der einen `transactionID` Wert enthält, erstellt Adobe einen &quot;Schnappschuss&quot;aller Variablen, die zu diesem Zeitpunkt festgelegt wurden oder beibehalten wurden. Wenn eine übereinstimmende Transaktions-ID gefunden wird, die über Data Sources hochgeladen wurde, werden die Offline- und Onlinedaten miteinander verknüpft. Es spielt keine Rolle, welche Datenquelle zuerst gesehen wird.
 
-Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
+## Gesamtarbeitsablauf für Transaktions-ID-Datenquellen
 
-**Transaktions-ID-Dimensionen**
+Verwenden Sie den folgenden generischen Arbeitsablauf, um mit der Verwendung von Transaktions-ID-Datenquellen zu beginnen:
 
-| Spaltenname | Beschreibung |
-|--- |--- |
-| Transaktions-ID | (Erforderlich) Eindeutiger Wert, der eine Online-Transaktion kennzeichnet, die zu einer Offline-Aktivität geführt hat. |
-| Datum | Verwenden Sie das folgende Datumsformat: MM/TT/JJJJ/HH/mm/SS (zum Beispiel 01/01/2015/06/00/00). |
-| Trackingcode | Name des Trackingcodes. |
-| Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
-| Kanal | Kanalname. |
-| eVarN | eVarN-Name. Gültige Werte für N sind Ganzzahlen 1 - 250. |
-| Produkt | Produktname. |
-| Land | Name des Landes. |
-| Zip | Postleitzahl. |
-
-<p class="head"> <b>Transaktions-ID-Metriken</b> </p>
-
-
-
-| Spaltenname | Beschreibung |
-|--- |--- |
-| Clickthroughs | Anzahl der Trackingcode-Ansichten. |
-| Hinzufügen zum Einkaufswagen | Anzahl der Zusätze zum Einkaufswagen. |
-| Öffnung des Einkaufswagens | Anzahl der Öffnungen des Einkaufswagens. |
-| Entnahmen aus dem Einkaufswagen | Anzahl der Entnahmen aus dem Einkaufswagen. |
-| Warenkorbansicht | Anzahl der Einkaufswagenansichten. |
-| Checkouts | Anzahl der Kassengänge. |
-| EventN | Häufigkeit, mit der eventN aufgetreten ist. Gültige Werte für N sind Ganzzahlen zwischen 1 und 1000.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
-| eVarN-Ansichten | Anzahl der Wiedergaben von eVarN. Gültige Werte für N sind Ganzzahlen 1 - 250. |
-| Preis | Produktpreis. |
-| Bestellungen | Anzahl der aufgegebenen Bestellungen. |
-| Produktansichten | Anzahl der Produktansichten. |
-| Quantität | Anzahl der verkauften Einheiten. |
+1. Erstellen Sie eine Datenquelle (&quot;Generisch&quot;und &quot;Generische Datenquelle (Transaktions-ID)&quot;).
+1. Folgen Sie dem Setup-Assistenten für Datenfeeds, um einen FTP-Speicherort zum Hochladen von Daten und Herunterladen einer Vorlagendatei für Datenquellen abzurufen.
+1. Aktualisieren Sie Ihre Implementierung, um die `transactionID` Variable einzuschließen.
+1. Laden Sie eine Datenquellen-Datei mit einer `.fin` Datei auf die FTP-Site hoch.
