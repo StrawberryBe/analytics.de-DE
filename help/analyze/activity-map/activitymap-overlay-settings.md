@@ -1,9 +1,9 @@
 ---
-description: Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
+description: Das Activity Map-Einstellungsbedienfeld ermöglicht es Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
 title: Activity Map-Einstellungen konfigurieren
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,15 +11,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Activity Map-Einstellungen konfigurieren
 
-Das Activity Map-Einstellungsbedienfeld ermöglicht Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
+Das Activity Map-Einstellungsbedienfeld ermöglicht es Ihnen, die Einstellungen und Eigenschaften für alle Arten von Überlagerungsvisualisierungen zu ändern.
 
 Rufen Sie das Activity Map-Einstellungsbedienfeld durch Klicken auf das Zahnradsymbol in der Activity Map-Symbolleiste auf.
 
 Der Inhalt des Einstellungsbedienfelds variiert abhängig vom ausgewählten Anwendungsmodus. Die Registerkarte „Sonstige“ enthält allgemeine Einstellungen.
 
-| Standard | **[!UICONTROL Verlaufs]**- oder **[!UICONTROL Blasen]** überlagerungen |
+| Standard | **[!UICONTROL Verlaufs]**- oder **[!UICONTROL Blasen]**&#x200B;überlagerungen |
 |---|---|
-| Live | **[!UICONTROL Gewinner und Verlierer]**, **[!UICONTROL Verlaufs-]**, **[!UICONTROL Blasen]** überlagerungen |
+| Live | **[!UICONTROL Gewinner und Verlierer]**-, **[!UICONTROL Verlaufs]**-, **[!UICONTROL Blasen]** überlagerungen |
 | Sonstige | Report Suite-Auswahl und Sprachauswahl |
 
 ## Einstellungen für die Überlagerung im Standardmodus {#section_24DB95376E1A448494ECF3F57743FC19}
