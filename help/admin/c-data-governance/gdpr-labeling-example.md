@@ -20,7 +20,7 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 | Bezeichnungen | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Variablenname**<br>**(Namespace)** | **MyProp1**<br>**(Benutzer)** | **Besucher-ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Variablenname **<br>**(Namespace)** | **MyProp1 **<br>**(Benutzer)** | **Besucher-ID **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Trefferdaten | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -42,8 +42,8 @@ Wenn Sieh eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in
 | user=Mary | false (falsch) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true (wahr) | Gerät | nicht vorhanden | 77, 88 | nicht vorhanden | N, P | U, W |
-| user=Mary AAID=66 | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary AAID=66 | true (wahr) | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
+| user=Mary  AAID=66 | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  AAID=66 | true (wahr) | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
 | xyz=X | false (falsch) | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, R | X |
 | xyz=X | true (wahr) | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, P, R | W, X |
 
