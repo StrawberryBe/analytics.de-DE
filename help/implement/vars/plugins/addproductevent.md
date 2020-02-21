@@ -2,7 +2,7 @@
 title: addProductEvent
 description: Fügt der Variablen "products"und "events"benutzerspezifische Ereignisse hinzu.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 ---
 
@@ -19,8 +19,8 @@ Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins ve
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
@@ -35,8 +35,8 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Erweiterung Adobe Analytics.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Die `addProductEvent` Methode verwendet die folgenden Argumente:
 
-* **`en`**(erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der`products`Variablen hinzugefügt wird. Wenn die`products`Variable leer ist, wird ein &quot;leerer&quot;Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
-* **`ev`**(erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im`en`Argument zugewiesen wird.  Die Standardeinstellung ist`1`nicht festgelegt.
-* **`ap`**(optional, boolean): Wenn die Produktvariable derzeit mehr als einen Produkteintrag enthält, wird das Ereignis mit dem Wert`true`(oder`1`) allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist`false`nicht festgelegt.
+* **`en`** (erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der `products` Variablen hinzugefügt wird. Wenn die `products` Variable leer ist, wird ein &quot;leerer&quot;Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
+* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en` Argument zugewiesen wird.  Die Standardeinstellung ist `1` nicht festgelegt.
+* **`ap`** (optional, boolean): Wenn die Produktvariable derzeit mehr als einen Produkteintrag enthält, wird das Ereignis mit dem Wert `true` (oder `1`) allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist `false` nicht festgelegt.
 
 Die `addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products` Variablen hinzugefügt. Das Plug-In fügt das Ereignis automatisch der `events` Variablen hinzu, da es auch dort benötigt wird.
 
@@ -75,126 +75,66 @@ Das addProductEvent-Plug-in erstellt keine Cookies oder verwendet keine Cookies
 
 ### Beispiel 1
 
-Wenn...
+Der folgende Code setzt die `s.products` Variable auf `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
- ...und der folgende Code wird ausgeführt...
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
- ... der Endwert von s.products lautet:
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
- ...und der Endwert von s.events lautet:
-
-```js
-s.events="purchase,event35"
-```
+Der obige Code setzt außerdem die `s.events` Variable auf `"purchase,event35"`
 
 ### Beispiel 2
 
-Wenn...
+Der folgende Code setzt die `s.products` Variable auf `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
- ...und der folgende Code wird ausgeführt...
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
- ... der Endwert von s.products lautet:
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-Wenn das dritte Argument true (oder 1) ist, wird für jeden Produkteintrag das Ereignis angegeben, das im Aufruf zum Wert hinzugefügt wird
+Wenn das dritte Argument im `addProductEvent` Aufruf `true` (oder `1`) lautet, wird für jeden Produkteintrag das im Aufruf angegebene Ereignis zu seinem Wert hinzugefügt.
 
 ### Beispiel 3
 
-Wenn...
+Der folgende Code setzt die `s.products` Variable auf `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
- ...und der folgende Code wird ausgeführt...
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
- ... Der Endwert von s.products ist...
-
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
-
- ...und s.events wie folgt festgelegt werden:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+Der obige Code setzt außerdem die `s.events` Variable auf `"purchase,event2,event33,event34,event35"`
 
 ### Beispiel 4
 
-Wenn...
+Der folgende Code setzt die `s.products` Variable auf `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
- ...und der folgende Code wird ausgeführt...
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
- ... Der Endwert von s.products ist...
+Der obige Code setzt auch die `s.events` Variable auf `"purchase,event2,event33,event34,event35"`.
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
-
- ...und s.events wie folgt festgelegt werden:
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+> [!NOTE] Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
 
 ### Beispiel 5
 
-Wenn s.products nicht eingestellt ist und der folgende Code ausgeführt wird...
+Wenn `s.products` noch nicht festgelegt ist, setzt der folgende Code ihn auf `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
- ... der Endwert von s.products lautet:
-
-```js
-s.products=";;;;event35=25"
-```
-
-In diesem Fall wird event35 auch am Ende von s.events angehängt
+Der oben genannte Code wird auch `"event35"` am Ende von angehängt `s.events`**oder**, falls `s.events` noch nicht festgelegt, wird der oben genannte Code auf `s.events``"event35"`
 
 ## Versionsverlauf
 
