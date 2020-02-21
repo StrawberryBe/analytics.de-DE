@@ -3,13 +3,13 @@ description: 'null'
 title: Beispiel-Implementierungscode
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
 
-# Beispiel-Implementierungscode{#sample-implementation-code}
+# Beispiel-Implementierungscode {#sample-implementation-code}
 
 ## Beispieldatei für AppMeasurement.js
 
