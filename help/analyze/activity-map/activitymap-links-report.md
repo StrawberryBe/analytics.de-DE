@@ -3,7 +3,7 @@ description: Der Linkbericht enthält Daten zu den Links, die auf der aktuellen 
 title: Link-Bericht
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -86,7 +86,7 @@ Im Livemodus zeigt der Bericht „Links auf Seite“ die Trenddaten über mehrer
   </tr> 
   <tr> 
    <td colname="col1"> Link-Klicks </td> 
-   <td colname="col2"> Klicks insgesamt für den ausgewählten Zeitraum </td> 
+   <td colname="col2"> Klicks insgesamt für den ausgewählten Zeitraum. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Änderungen in % </td> 
