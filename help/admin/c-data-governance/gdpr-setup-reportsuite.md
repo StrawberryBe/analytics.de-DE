@@ -18,7 +18,7 @@ Die Beschriftung von Report Suite-Daten bedeutet, dass Sie jeder Variablen in Ih
 
 **Beispiel**: Sie als Datenverantwortlicher planen die Erfassung von E-Mail-Adressen und Cookie-IDs von Datensubjekten, um ihre Datenschutzanfragen zu verarbeiten. Diese Cookie-IDs werden in einer Adobe Analytics Report Suite gespeichert. Um eine Beschriftung für E-Mail-Adressen und Cookie-IDs zu erstellen, müssen Sie das Adobe Cloud Platform-DULE-Framework (Data Usage Labeling &amp; Enforcement) in Analytics verwenden.
 
-1. Öffnen Sie hierzu in Analytics **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (Wählen Sie die gewünschte Report Suite aus)]** ![](assets/privacy_rs_settings.png)
+1. Öffnen Sie hierzu in Analytics **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (Wählen Sie die gewünschte Report Suite aus)]** ![](assets/privacy_rs_settings.png)
 
 1. Wählen Sie aus, welche Variablengruppe Sie beschriften wollen.
 
@@ -87,5 +87,5 @@ Wenn Sie DULE-/Datenschutzeinstellungen auf mehr als eine Report Suite anwenden 
    >
    >Sie sollten immer die Ziel-Report Suites überprüfen, um sicherzustellen, dass die Beschriftungen korrekt kopiert wurden. Dies ist insbesondere für Variablen mit ID- oder DEL-Beschriftungen wichtig.
 
-1. Klicken Sie auf **[!UICONTROL Anwenden]**.
+1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
