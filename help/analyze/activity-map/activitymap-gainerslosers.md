@@ -3,7 +3,7 @@ description: Mit Überlagerungen verfügen Sie über zahlreiche Möglichkeiten z
 title: Anpassbare Überlagerungen
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Blasenüberlagerungen werden angezeigt, wenn Sie diese Überlagerung in „Über
 
 > [!NOTE] Blasenüberlagerungen für Untermenüs werden nur angezeigt, wenn Sie das Untermenü einblenden:
 >
->![](assets/bubbles_submenu.png)&gt;
+>![](assets/bubbles_submenu.png)>
 
 ## Überlagerungen für Gewinner und Verlierer {#section_EE80278E20C14824869BF5A27A4634C8}
 
