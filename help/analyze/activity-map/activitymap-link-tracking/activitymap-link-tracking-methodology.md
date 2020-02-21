@@ -3,8 +3,8 @@ description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. 
 title: Linktracking-Methode
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
 
 ---
 
@@ -15,14 +15,14 @@ Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. Im Vordergrun
 
 >[!IMPORTANT]
 >
->Bei der Implementierung von Links, deren Text (nicht href) personenbezogene Daten (PII-Daten) enthalten könnte, sollte [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) verwendet oder die Activity Map-Linkerfassung mit [s.ActivityMap.linkExclusions oder s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) ausgeschlossen werden. Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Bei der Implementierung von Links, deren Text (nicht href) personenbezogene Daten (PII-Daten) enthalten könnte, sollte [s_objectID](https://marketing.adobe.com/resources/help/de_DE/sc/implement/s_objectID.html) verwendet oder die Activity Map-Linkerfassung mit [s.ActivityMap.linkExclusions oder s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) ausgeschlossen werden. Weitere Informationen zum Sammeln von PII-Daten durch Activity Map finden Sie [hier](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 In Activity Map basiert Linktracking auf diesen beiden IDs:
 
 * Primäre ID: Dies ist der erkennbare Parameter des Links.
 * Linkregion: Dies ist ein sekundärer Parameter, der es Benutzern ermöglicht, eine Zeichenfolge anzugeben, die für den gesamten Linkbereich der Seite oder der Region repräsentativ ist. Dieser Parameter kann automatisch generiert werden, wenn er nicht vom Benutzer bereitgestellt wird.
 
-## Primäre ID  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## Primäre ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als primäre ID verwendet. Andernfalls werden folgende Parameter als primäre ID verwendet (hier in der Reihenfolge der Priorität aufgeführt):
 
@@ -32,7 +32,7 @@ Wenn der HTML-Code eine s_objectid enthält, dann wird diese standardmäßig als
 * Src
 * Action
 
-## Verwenden von InnerText im Vergleich zur Linkaktion (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
+## Verwenden von InnerText im Vergleich zur Linkaktion (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 Die Linkaktion (URL) ist die Aktion, die von der Webseite beim Klicken auf den Link ausgeführt wird. Normalerweise wird die URL angegeben, die nach dem Klicken auf den Link aufgerufen wird. Einige der Probleme, die bei der Verwendung der Linkaktion auftreten, sind:
 
@@ -66,7 +66,7 @@ Die Verwendung der Linkregion hat diese Vorteile:
 
 Sie können den Regionsparameter für einen Link (Standard ist Link-ID) anpassen: Ein auf „ID“ gesetztes Tag verwendet alle HTML-Elemente mit dem Parameter „id“ als Region. Wenn Sie daher das Regions-Tag auf „id“ setzen, führt dies wahrscheinlich zu sehr vielen Regionen (so viele, wie es unterschiedliche IDs auf der Seite gibt). Für eine spezifischere Implementierung können Sie das Regions-Tag alternativ auch auf einen genauer bestimmten Parameter setzen, beispielsweise auf „region_id“.
 
-Der folgende Abschnitt enthält ein Beispiel für HTML-Code, in dem das standardmäßige Attribut für die ID einer Region, „id“, verwendet wird: 
+Der folgende Abschnitt enthält ein Beispiel für HTML-Code, in dem das standardmäßige Attribut für die ID einer Region, „id“, verwendet wird:
 
 ```
 <div id="content"> 
@@ -81,7 +81,9 @@ Der folgende Abschnitt enthält ein Beispiel für HTML-Code, in dem das standard
 Sie können Elemente auch mit einer frei gewählten Zeichenfolge-ID markieren, in diesem Fall „lpos“, und dann Attribute mit dem Namen „lpos“ hinzufügen.
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute="lpos";
+</script> 
    
 <div id="nav" lpos="navbar"> 
   <ul> 
