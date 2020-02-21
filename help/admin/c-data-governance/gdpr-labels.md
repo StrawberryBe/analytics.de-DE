@@ -20,11 +20,11 @@ Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern h
 
 Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftungen für Identitätsdaten, vertrauliche Daten und Data Governance.
 
-## DULE-Beschriftungen {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE-Beschriftungen  {#section_B2E78130957647338495EF37DE21D6BC}
 
 > [!NOTE] Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über alle Lösungen, Services und Plattformen von Adobe hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten. In dieser ersten Version zeigt Analytics nur die DULE-Beschriftungen, die für den Datenschutz relevant sind. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
 
-## Beschriftungen für Identitätsdaten (DULE) {#identity-data-labels}
+## Beschriftungen für Identitätsdaten (DULE)  {#identity-data-labels}
 
 Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann.
 
@@ -58,7 +58,7 @@ Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu
  </tbody> 
 </table>
 
-## Beschriftungen für vertrauliche Daten (DULE) {#sensitive-data-labels}
+## Beschriftungen für vertrauliche Daten (DULE)  {#sensitive-data-labels}
 
 Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren.
 
@@ -137,7 +137,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
    <td colname="col2"> <p>Bei Datenschutz-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-DEVICE im Treffer vorhanden ist. </p> <p>Wenn derselbe Wert in anderen Hits auftritt, die nicht gelöscht werden, werden diese Instanzen nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Auf gemeinsam genutzten Geräten werden hierdurch möglicherweise IDs von anderen Personen als nur dem Datensubjekt entfernt. </p> <p>Die Werte ändern sich nicht, wenn dieses Feld eine ID-DEVICE-Beschriftung enthält und der Wert in diesem Feld als ID für eine Datenschutzanfrage verwendet wurde. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
-     <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Erfordert auch eine I1- oder I2-/S1-Beschriftung. </li> 
+     <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Erfordert auch eine I1- oder I2-/S1-Beschriftung </li> 
      <li id="li_6DDFC0571457489CBA9D76F547247F20">Kann nicht für Ereignisse festgelegt werden </li> 
      <li id="li_E79C6DFC6C58478EAA1504E3820D512C">Kann nicht für Merchandising-eVars festgelegt werden </li> 
      <li id="li_B78E273212E447D49D0707E174B66DEC">Kann nicht für Classifications festgelegt werden </li> 
@@ -149,7 +149,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
    <td colname="col2"> <p>Bei Datenschutz-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-PERSON im Hit vorhanden ist. </p> <p>Wenn derselbe Wert in anderen Hits auftritt, die nicht gelöscht werden, werden diese Werte nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Die Werte ändern sich nicht, wenn dieses Feld eine ID-PERSON-Beschriftung enthält und der Wert in diesem Feld als ID für eine Datenschutzanfrage verwendet wurde. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
-     <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Erfordert auch eine I1- oder I2-/S1-Beschriftung. </li> 
+     <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Erfordert auch eine I1- oder I2-/S1-Beschriftung </li> 
      <li id="li_8053533FFE874EE795C8B6043A4F73B3">Kann nicht für Ereignisse festgelegt werden </li> 
      <li id="li_D6700CF4D03E44DDA83C4DDBB5B70CC3">Kann nicht für Merchandising-eVars festgelegt werden </li> 
      <li id="li_B6C2B15484B344889DBF29B62E2EA8FD">Kann nicht für Classifications festgelegt werden </li> 
@@ -200,7 +200,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
  </tbody> 
 </table>
 
-## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren.
 
@@ -209,7 +209,7 @@ Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum 
 Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmeldeunternehmen eine ID-Beschriftung zugewiesen haben, können Sie einen dieser vorhandenen Namespaces auswählen. Sie sollten den Namespace wiederverwenden, wenn diese Variable denselben ID-Typ enthält wie andere Variablen, die bereits mit diesem Namespace beschriftet sind, und Sie beim Senden einer Anfrage alle Variablen durchsuchen wollen.
 
 1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und wählen Sie einen der vorhandenen Namespaces aus.
-1. Klicken Sie auf **[!UICONTROL Anwenden]**.
+1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
 ![](assets/namespace.png)
 
@@ -222,7 +222,7 @@ Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-
    ![](assets/namespace2.png)
 
 1. Drücken Sie die **[!UICONTROL Eingabetaste]**, um diesen Namespace hinzuzufügen. Erst jetzt ist die Schaltfläche „Übernehmen“ aktiviert.
-1. Klicken Sie auf **[!UICONTROL Anwenden]**.
+1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
 Die von Ihnen als Namespace angegebene Zeichenfolge ist dieselbe Zeichenfolge, die Sie beim Senden von Anfragen über die Datenschutz-API als Wert des Parameters „namespace“ verwenden sollten. Aufgrund der Anfrage durchsucht Adobe Analytics anschließend alle Variablen in allen Report Suites, in denen dieser Namespace verwendet wird, nach der ID, die Sie in der Anfrage angegeben haben.
 
@@ -288,7 +288,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
  </tbody> 
 </table>
 
-## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen werden können/geändert {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen werden können/geändert  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -351,7 +351,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
  </tbody> 
 </table>
 
-## Löschverarbeitung {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Löschverarbeitung  {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Die Adobe Analytics-Unterstützung für Datenschutz-Löschanfragen soll die Auswirkungen auf das Reporting minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein Verlaufsbericht, der vor der Datenschutzlöschung ausgeführt wurde, stimmt mit dem Bericht nach der Löschung überein. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die angezeigten Werte gleich bleiben.
 
@@ -430,7 +430,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Werte für Unique Visitors im Verlaufsbericht. </p> </td> 
+   <td colname="col2"> <p> Diese IDs verfügen über eine DEL-DEVICE-Beschriftung, jedoch kann keine DEL-PERSON-Beschriftung hinzugefügt werden. Wenn Sie die  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID-Erweiterung</a> bei jeder Anfrage angeben, werden diese IDs automatisch für alle Löschanfragen gelöscht, selbst wenn sie eine ID-PERSON verwenden. </p> <p>Wenn Sie die ID-Erweiterung nicht verwenden, aber diese Cookie-IDs in Hits anonymisieren wollen, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen zu DEL-DEVICE-Beschriftungen geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Werte für Unique Visitors im Verlaufsbericht. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO-ID </p> </td> 
@@ -439,7 +439,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
  </tbody> 
 </table>
 
-## Datumsfelder für Zugriffsanfragen {#section_6678FB4FF42B481C9B78E64F61782397}
+## Datumsfelder für Zugriffsanfragen  {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
