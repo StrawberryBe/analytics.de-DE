@@ -1,9 +1,9 @@
 ---
-description: Ermöglicht Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
+description: Ermöglicht es Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
 title: Kundensegmentierung
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Kundensegmentierung
 
-Ermöglicht Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
+Ermöglicht es Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
 
 > [!NOTE] Die Segmentsteuerung ist nur im Standardmodus verfügbar, da die Adobe Analytics-Plattform die Segmentierung von Echtzeitdaten nicht unterstützt.
 
