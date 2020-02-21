@@ -12,7 +12,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
 
-## Adobe-Übersicht {#section_E582A1D77583410EBB790BB646854A2C}
+## Adobe-Übersicht  {#section_E582A1D77583410EBB790BB646854A2C}
 
 > [!IMPORTANT] Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich zur Unterstützung in DSGVO-Fragen an die Rechtsabteilung Ihres Unternehmens.
 
@@ -36,7 +36,7 @@ Wir wissen, dass Sie die individuellen Daten Ihrer Report Suites am besten kenne
 
 Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz festlegen, die direkt oder indirekt identifizierbare Daten enthalten, damit Sie Zugriffs- und Löschanfragen zu diesen Daten einreichen können. Bei jeder Anfrage werden die in der Data-Governance-Benutzeroberfläche festgelegten Beschriftungen für die spezifische ID berücksichtigt, die mit der Anfrage übereinstimmt.
 
-Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
+Weitere Informationen finden Sie unter  [Report Suite-Daten beschriften](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
 
 ## Voraussetzungen {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
