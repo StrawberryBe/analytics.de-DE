@@ -4,7 +4,7 @@ title: Benutzerdefinierte Datumsausdrücke – Übersicht
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ Es wird empfohlen, beim Erstellen von Ausdrucken auf einen bestimmten Kalender z
 
 1. Aktivieren **[!UICONTROL Customize Expression]**. Durch Auswahl der Optionen unter **[!UICONTROL Rolling Dates]** können Sie die Syntax für benutzerdefinierte Datumsausdrücke leicht erkennen.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    Sie können erweiterte Optionen verwenden, um benutzerdefinierte Datumsausdrücke zu kombinieren und zuzuordnen. Wenn Sie z. B. Daten vom ersten Jahr bis zum Ende des letzten vollen Monats anzeigen möchten, können sie Folgendes schreiben:Von: cy To: cm-1d. Sie können sehen, dass im Assistenten diese Daten als 1/1/2020-1/31/2020 bestätigt werden.
 
    Wenn Sie beispielsweise die oben genannten Daten in &quot;Monatlich rollierend&quot;vom ersten Tag vor drei Monaten bis zum ersten Tag dieses Monats ändern, werden die Daten in den erweiterten Optionen entsprechend aktualisiert:
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
