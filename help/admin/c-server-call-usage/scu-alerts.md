@@ -27,7 +27,7 @@ Diese Kategorie enthält **standardmäßig einen Warnhinweis**, der innerhalb je
 Sie können mithilfe von zwei Methoden auf die Warnhinweise zur Nutzung von Server-Aufrufen zugreifen:
 
 * Klicken Sie auf **[!UICONTROL Warnhinweise verwalten]** in der oberen rechten Ecke der Registerkarte „Aktuelle Nutzung“ oder der Registerkarte „Nutzung der Report Suite“; oder
-* Gehen Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Warnhinweise]**.
+* Navigieren Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**.
 
 ## Erstellen von Warnhinweisen zur Nutzung von Server-Aufrufen {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
