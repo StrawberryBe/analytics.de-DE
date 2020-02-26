@@ -1,9 +1,9 @@
 ---
-description: Beschreibende Schritte zum Erstellen einer Report Suite und zum Kopieren der Einstellungen einer Report Suite in eine neue.
+description: Schritte, die beschreiben, wie man eine Report Suite erstellt und die Einstellungen einer Report Suite in eine neue kopiert.
 title: Erstellen einer Report Suite
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Erstellen einer Report Suite
 
-Beschreibende Schritte zum Erstellen einer Report Suite und zum Kopieren der Einstellungen einer Report Suite in eine neue.
+Schritte, die beschreiben, wie man eine Report Suite erstellt und die Einstellungen einer Report Suite in eine neue kopiert.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
-1. Klicken Sie auf **[!UICONTROL Neu erstellen]** &gt; **[!UICONTROL Report Suite]**.
+1. Klicken Sie auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Report Suite]**.
 1. Wenn Sie die Einstellungen einer Report Suite kopieren möchten, wählen Sie in der Vorlagenliste eine vordefinierte Vorlage oder eine vorhandene Report Suite als [Vorlage](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md) aus.
 
    >[!NOTE]
