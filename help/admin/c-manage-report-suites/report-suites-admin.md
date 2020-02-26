@@ -3,7 +3,7 @@ description: Eine Report Suite definiert die vollständige, unabhängige Bericht
 title: Report Suite Manager
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites). Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
-> [!NOTE] Virtual Report Suites werden unter **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zur Virtual Report Suite](/help/components/vrs/vrs-about.md).
+> [!NOTE] Virtual Report Suites werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zur Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
