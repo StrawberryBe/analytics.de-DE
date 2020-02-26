@@ -3,7 +3,7 @@ description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfigu
 title: Konfigurieren von Erfolgsereignissen
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Erfolgsereignisse]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**.
 
    ![Schritt Ergebnis](assets/success_event_page.png)
 
@@ -29,16 +29,16 @@ In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
    Weitere Informationen zu diesen Elementen finden Sie unter [Seite „Erfolgsereignisse“ – Beschreibungen](/help/admin/admin/c-success-events/success-event.md).
 
 1. Geben Sie in der Spalte **[!UICONTROL Polarität]** an, ob ein Aufwärtstrend für diese Metrik positiv oder negativ ist.
-1. In der Spalte **[!UICONTROL Sichtbarkeit]** können Sie Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
+1. In der Spalte **[!UICONTROL Sichtbarkeit]** können Sie Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segment Builder integrierten Ereignisse ausblenden.
 
-   Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit auf der Benutzeroberfläche. [Mehr…](/help/admin/admin/metric-visibility.md)
+   Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit auf der Benutzeroberfläche. [Mehr …](/help/admin/admin/metric-visibility.md)
 1. Geben Sie eine Beschreibung ein.
 1. Legen Sie fest, ob das Ereignis immer aufgezeichnet werden soll.
 1. Aktivieren oder deaktivieren Sie [Beitragsmetriken](/help/components/c-variables/c-metrics/metrics-participation.md).
 
    >[!NOTE]
    >
-   >Sie können den Beitrag für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
+   >Sie können den Beitrag für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
