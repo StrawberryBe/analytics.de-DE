@@ -1,16 +1,16 @@
 ---
-description: Single Sign-on ist in Adobe Experience Cloud über die Admin Console implementiert.
-title: Single Sign-on
+description: Single Sign-On ist in Adobe Experience Cloud über die Admin Console implementiert.
+title: Single Sign-On
 topic: Admin tools
 uuid: 4f20dcfa-d148-42ec-9399-1c8d1720333e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Single Sign-on
+# Single Sign-On
 
-Single Sign-on ist in Adobe Experience Cloud über die Admin Console implementiert.
+Single Sign-On ist in Adobe Experience Cloud über die Admin Console implementiert.
 
-Hilfe erhalten Sie im [Benutzerhandbuch für Administratoren](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Hilfe erhalten Sie im [Benutzerhandbuch für Administratoren](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
