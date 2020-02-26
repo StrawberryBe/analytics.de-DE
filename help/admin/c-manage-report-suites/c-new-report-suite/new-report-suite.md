@@ -3,7 +3,7 @@ description: Sie können eine neue Report Suite erstellen, indem Sie eine vordef
 title: Neue Report Suite – Einstellungen
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
