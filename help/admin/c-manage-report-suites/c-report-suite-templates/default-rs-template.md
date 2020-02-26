@@ -3,7 +3,7 @@ description: Konfiguriert diverse allgemeine Variablen und Erfolgsereignisse fü
 title: Standardvorlage
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Konfiguriert diverse allgemeine Variablen und Erfolgsereignisse für eine typische Website.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code`-Variable |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Gültigkeit | `s_code`-Variable |
 |---|---|---|---|---|---|
 | Interne Kampagne | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
