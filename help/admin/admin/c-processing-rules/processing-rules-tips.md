@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von
 
 **Verwenden einer dev-Report Suite**
 
-Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
+Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich, sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
 
 ## Auf leere Werte hin überprüfen {#section_EE84A5525E26415787930723B0CAAE0F}
 
