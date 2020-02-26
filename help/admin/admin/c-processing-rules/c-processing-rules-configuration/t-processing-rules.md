@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Erstellen von Verarbeitungsregeln
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Verarbeitungsregeln werden in Report Suites festgelegt.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Verarbeitungsregeln]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
 1. Klicken Sie auf der Seite **[!UICONTROL Verarbeitungsregeln]** auf das Register **[!UICONTROL Regel hinzufügen]**.
 1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** und legen Sie anschließend fest, wann die Regel angewendet werden soll.
 
