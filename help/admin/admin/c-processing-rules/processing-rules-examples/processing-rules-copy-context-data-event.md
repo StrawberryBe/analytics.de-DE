@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,4 +35,4 @@ Beispiel:
 
 ![](assets/processing_rule_set_event.png)
 
-Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) in der Implementierungshilfe.
+Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/de_DE/sc/implement/context_data_variables.html) in der Implementierungshilfe.
