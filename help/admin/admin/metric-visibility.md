@@ -2,7 +2,7 @@
 description: Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
 title: Metriksichtbarkeit
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Sie können Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und die im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau integrierten Ereignisse ausblenden.
 
-1. Gehen Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Erfolgsereignisse]**. [Mehr…](/help/admin/admin/c-success-events/t-success-events.md)
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**. [Mehr …](/help/admin/admin/c-success-events/t-success-events.md)
 1. Legen Sie für die Spalte „Sichtbarkeit“ entweder **[!UICONTROL Überall eingeblendet]**, **[!UICONTROL Builder]** oder **[!UICONTROL Überall ausgeblendet]** fest.
 
 Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik aus, sondern nur auf die Sichtbarkeit in der Benutzeroberfläche. Diese Einstellungen wirken sich wie folgt auf die Sichtbarkeit der Metriken auf der Benutzeroberfläche aus:
@@ -20,7 +20,7 @@ Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik aus,
 <table id="table_26814F83F39C47D08361365E2658D249"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Wenn </th> 
+   <th colname="col1" class="entry"> Einstellung </th> 
    <th colname="col2" class="entry"> Sichtbar in </th> 
    <th colname="col3" class="entry"> Nicht sichtbar in </th> 
   </tr> 
