@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Admin Tools
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
 >[!IMPORTANT] Vermeiden Sie das Öffnen mehrerer Admin-Tabs im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
 
