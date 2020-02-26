@@ -2,7 +2,7 @@
 description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -30,7 +30,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 * Für den Zugriff auf Videovisualisierungen von gleichzeitigen Zuschauern, Videotagesabschnitten und Zuschauerrückgängen
 * Zur Nutzung von Veröffentlichungslisten für geplante Berichte
 
-**[Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**sollte verwendet werden:
+**[Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html)**sollte verwendet werden:
 
 * Wenn eine Silo-Ansicht mobiler App-Daten benötigt wird.
 * So verwalten Sie die Implementierung Ihrer SDKs für mobile Apps.
@@ -56,7 +56,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 
 ## Importieren von Daten in Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Klassifizierungen](/help/components/c-classifications2/c-classifications.md)**sollten verwendet werden:
+**[Classifications](/help/components/c-classifications2/c-classifications.md)**sollte verwendet werden:
 
 * Wenn Metadaten vorliegen, die Sie einem Erfassungswert (eVar, prop, Marketingkanal) zuweisen möchten
 * Optionen:
@@ -73,11 +73,11 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
    * Transaktions-ID: Datenuploads, die einen Online-Endpunkt mit Offlinedaten verknüpfen und importierte Daten vollständig einem online erstellten Besucher-Schnappschuss zuordnen (z. B. online abgeschlossene Bestellungen, die offline zurückgegeben werden)
    * Volle Verarbeitung: Datenquellen mit Zeitstempel, verarbeitet, als ob es sich dabei um einen von Adobe-Servern abgerufenen Treffer handeln würde. D. h. die Daten werden direkt in die Visitor Journey eingefügt.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(ehemals Genesis)** sollte verwendet werden:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(ehemals Genesis)**sollte verwendet werden:
 
 * Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Data Connectors übernimmt meist zusammengefasste Daten automatisch, dauerhaft und wiederholt in Adobe Analytics.
 
-Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**sollte verwendet werden:
+Die **[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**sollte verwendet werden:
 
 * Wenn Sie Daten in Adobe Analytics laden und den Adobe AppMeasurement- oder mobilen SDK-Code nicht nutzen können.
 
@@ -86,7 +86,7 @@ Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation
 * Wenn Sie Unternehmenskundendaten in einer Datenbank für Customer Relationship Management (CRM) speichern und die Daten in die Experience Cloud hochladen möchten.
 * Wenn Sie CRM-Daten für tiefgreifende Analysen in Analytics oder als Targeting-Kriterien in Adobe Target verwenden möchten.
 
-**[Zielgruppenanalysen](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**sollten verwendet werden:
+**[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**sollte verwendet werden:
 
 * Wenn Sie Zielgruppendaten des Adobe Audience Manager (AAM) – wie beispielsweise demografische Daten (z. B. Geschlecht oder Verdienstniveau), psychografische Daten (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
 * Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
@@ -115,11 +115,11 @@ Die **[Dateneinfügungs-API](https://marketing.adobe.com/developer/documentation
 * Wenn der Kunde Adobe-Dateien in einer clientseitigen Datenbank und so granular wie möglich speichern möchte.
 * Wenn der Kunde ein Business Intelligence-Tool entwickeln oder Adobe-Daten auf Trefferebene in ein Drittanbieter-Tool importieren möchte.
 
-**[Bericht-APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**sollten verwendet werden, wenn die anderen Visualisierungsoptionen Ihren Anforderungen nicht gerecht werden. Die 3 API-Optionen sind:
+**[Reporting-APIs](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**sollten verwendet werden, wenn die anderen Visualisierungsoptionen Ihren Anforderungen nicht gerecht werden. Die 3 API-Optionen sind:
 
 * **Vollständig verarbeitet:** Wenn Sie umfangreiche Daten präsentieren möchten (einschließlich Besuchen, Besuchern und Segmenten). Dabei handelt es sich üblicherweise um in der Analytics-Benutzeroberfläche zusammengefasste Daten, die innerhalb von etwa 30–90 Minuten verfügbar sind. Die Verwendung ist überall im Report Builder möglich.
 * **Echtzeit:** Wenn Sie einige Metriken und Dimensionen mit nur wenigen Sekunden Latenz anzeigen möchten. Hierbei handelt es sich um begrenzte, teilweise verarbeitete, zusammengefasste Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Umfasst eindeutige Algorithmen für die beliebtesten Elemente, Gewinner und Verlierer. Die Verwendung ist überall im Report Builder möglich.
-* **[!UICONTROL Livestream:]**Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
+* **[!UICONTROL Livestream:]** Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
 
 ## Individuelle Lösungen {#section_4A212F26A15947599DFB0399A0440CB6}
 
