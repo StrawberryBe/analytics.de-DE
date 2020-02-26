@@ -1,9 +1,9 @@
 ---
-description: Definiert allgemeine Einstellungen für eine Website, die Inhalte zusammenträgt, z. B. ein Nachrichtenportal.
+description: Definiert allgemeine Einstellungen für eine Website, die Inhalte zusammenträgt, z. B. ein Nachrichtenportal.
 title: Aggregatorportal
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Aggregatorportal
 
-Definiert allgemeine Einstellungen für eine Website, die Inhalte zusammenträgt, z. B. ein Nachrichtenportal.
+Definiert allgemeine Einstellungen für eine Website, die Inhalte zusammenträgt, z. B. ein Nachrichtenportal.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code`-Variable |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Gültigkeit | `s_code`-Variable |
 |---|---|---|---|---|---|
 | Interne Kampagne | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
