@@ -2,7 +2,7 @@
 description: In diesem Thema werden die Systemanforderungen für die einzelnen Benutzeroberflächen von Adobe Analytics erläutert.
 title: Systemanforderungen
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,10 +23,10 @@ Adobe unterstützt die neueste Hauptversion dieser Browser:
 
 **Anforderungen der Lösung und des Produkts**
 
-* [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html) (einschließlich Adobe Social)
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/r_supported_browsers.html)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_supported_browsers.html)
+* [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/de_DE/sc/user/requirements.html) (einschließlich Adobe Social)
+* [Report Builder](https://marketing.adobe.com/resources/help/de_DE/arb/system_requirements.html)
+* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/de_DE/dsc/c_sys_reqs.html)
+* [Data Workbench](https://marketing.adobe.com/resources/help/de_DE/insight/install/c_Data_Workbench_Client_install.html)
+* [Adobe Target](https://marketing.adobe.com/resources/help/de_DE/target/ov/r_supported_browsers.html)
+* [Adobe Audience Manager](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/supported-browsers.html)
 
