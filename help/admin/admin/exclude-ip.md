@@ -3,7 +3,7 @@ description: Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivi
 title: Nach IP-Adresse ausschließen
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websitetests und der Verwendung durch Mitarbeiter, können aus Berichten ausgeschlossen werden. Durch das Ausschließen von Daten nach der IP-Adresse wird die Genauigkeit der Berichte erhöht. Zudem können Sie Daten entfernen, die auf DoS-Angriffen oder anderen böswilligen Ereignissen beruhen und Ihre Berichte verfälschen könnten. Die Ausschlüsse lassen sich wahlweise oder über die Firewall konfigurieren.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Ausschluss nach IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Nach IP ausschließen]**
 
-> [!NOTE] Hits, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html) in Rechnung gestellt.
+> [!NOTE] Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://marketing.adobe.com/resources/help/de_DE/reference/primary_server_calls.html) in Rechnung gestellt.
 
 ## Ausschließen nach Cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,7 +25,7 @@ Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne di
 
 | Element | Beschreibung |
 |--- |--- |
-| [!UICONTROL CNAME hinzufügen] | Erzeugt einen Ausschluss-Link, mit dem Sie Ihre Domäne ausschließen. Wenden Sie sich zwecks Hilfe an die Support-Benutzer in Ihrem Unternehmen. <br>Sie können Ihren Datenverkehr aus der Berichterstattung in Ihren Report Suites ausschließen, indem Sie die Opt-out-Seite Ihres Unternehmens aufrufen und dort Ihren Browser aus der Messung ausschließen. <br>Wenn bei Ihrer Implementierung Cookies von Drittanbietern verwendet werden, finden Sie Ihre Opt-out-Seite [hier](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
+| [!UICONTROL CNAME hinzufügen] | Erzeugt einen Ausschluss-Link, mit dem Sie Ihre Domäne ausschließen. Wenden Sie sich zwecks Hilfe an die Support-Benutzer in Ihrem Unternehmen. <br>Sie können Ihren Datenverkehr aus der Berichterstattung in Ihren Report Suites ausschließen, indem Sie die Opt-out-Seite Ihres Unternehmens aufrufen und dort Ihren Browser aus der Messung ausschließen. <br>Wenn bei Ihrer Implementierung Cookies von Drittanbietern verwendet werden, finden Sie Ihre Opt-out-Seite [hier](https://democorp.112.2o7.net/optout.html?locale=de_DE&amp;popup=true). |
 
 > [!NOTE] Der Ausschluss nach Computer funktioniert nur dann, wenn:
 >
@@ -36,7 +36,7 @@ Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne di
 
 ## Nach IP-Adresse ausschließen {#section_609FB6461529409D840111A32FEF5C3D}
 
-Eine IP-Adresse ist eine Internet-Adresse. Allen Internetbenutzern wird eine nummerische IP-Adresse zugewiesen (in der Regel durch Internetdienstanbieter), die als elektronische Kennung fungiert.
+Eine IP-Adresse ist eine Internet-Adresse. Allen Internetbenutzern wird eine numerische IP-Adresse zugewiesen (in der Regel durch Internetdienstanbieter), die als elektronische Kennung fungiert.
 
 Seitenansichten und individuelle Seitenbesucher werden anhand ihrer IP-Adressen gezählt bzw. identifiziert. Indem Sie IP-Adressen aus der Erfassung ausschließen, können Sie verhindern, dass Adobe die Aktivität häufiger Besucher verfolgt. Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne dadurch die Traffic-Daten zu verfälschen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
 
@@ -46,7 +46,7 @@ Mit Platzhaltern (*) können Sie einen ganzen Adressenbereich ausschließen. Zum
 
 Sie können die Datenerfassung auch mithilfe einer Firewall für bestimmte IP-Adressen sperren.
 
-Weitere Informationen finden Sie im Artikel [In der Experience Cloud verwendete IP-Adressen](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses).
+Weitere Informationen finden Sie im Artikel [In der Experience Cloud verwendete IP-Adressen](https://marketing.adobe.com/resources/help/de_DE/home/index.html#kb-adobe-ip-addresses).
 
 ## Auswirkung der IP-Verschleierung {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
