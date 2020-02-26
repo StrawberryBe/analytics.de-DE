@@ -1,11 +1,11 @@
 ---
-description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und Content-Unterstützung.
+description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und „Inhalt bewahren“.
 keywords: groups;permissions
 subtopic: Users and groups
 title: Anpassen von Berechtigungen für Metriken
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
-Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und Content-Unterstützung.
+Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und „Inhalt bewahren“.
 
-**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Zugriff auf Berichte]** &gt; **[!UICONTROL Metriken]** &gt; **[!UICONTROL Anpassen]**
+**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf Bericht]** > **[!UICONTROL Metriken]** > **[!UICONTROL Anpassen]**
 
 Die Einstellungen auf der Seite für die Metrikanpassung beziehen sich auf die Report Suites, die auf der Seite [!UICONTROL Benutzergruppe definieren] ausgewählt wurden.
 
@@ -27,7 +27,7 @@ Die Einstellungen auf der Seite für die Metrikanpassung beziehen sich auf die R
 
 ## Lösungsereignisse
 
-Zusätzlich zu [benutzerspezifischen Ereignissen](https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html) enthält diese Kategorie Analytics-Lösungsereignisse, darunter Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video und Social. Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
+Zusätzlich zu [benutzerspezifischen Ereignissen](https://marketing.adobe.com/resources/help/de_DE/sc/implement/events.html) enthält diese Kategorie Analytics-Lösungsereignisse, darunter Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video und Social. Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt.
 
 Sie können für benutzerdefinierte Ereignisse und Analytics-Lösungsereignisse (AEM, AMO, Mobile Video und Social) Zugriffsberechtigungen festlegen.
 
