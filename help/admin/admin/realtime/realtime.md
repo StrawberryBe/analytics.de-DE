@@ -3,7 +3,7 @@ description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtz
 title: Echtzeitberichte
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rang
 
 > [!NOTE] Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter [Konfiguration von Echtzeit-Berichten](/help/admin/admin/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Echtzeit]**
+**[!UICONTROL Site-Metriken]** > **[!UICONTROL Echtzeit]**
 
 Beantwortet in Echtzeit die folgenden Fragen: Welche Trends sind auf meiner Site zu beobachten und warum? Marketingexperten können schnell auf die Leistung ihrer Marketinginhalte und Kampagnen reagieren und diese verwalten. Die gelieferten Echtzeitdaten verfügen über eine Latenz von weniger als zwei Minuten und werden minutenweise automatisch aktualisiert.
 
