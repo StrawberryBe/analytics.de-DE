@@ -3,7 +3,7 @@ description: Auf der Seite Rechnungsstellung können Sie auf die Rechnungsinfoma
 title: Rechnungsstellung
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Auf der Seite Rechnungsstellung können Sie auf die Rechnungsinfomationen zugreifen, einschließlich der Traffic-Details der einzelnen Report Suites. Nur autorisierte Administratoren haben Zugriff auf diese Seite.
 
-> [!NOTE] Wenden Sie sich an Ihren Kundenbetreuer, wenn für Ihr Unternehmen der Zugriff auf die Registerkarte „Rechnungsstellung“ deaktiviert ist.
+> [!NOTE] Wenden Sie sich an Ihren Kundenbetreuer, wenn für Ihr Unternehmen der Zugriff auf die Registerkarte „Abrechnung“ deaktiviert ist.
 
 Mit Hilfe der Übersichtsdaten zum Traffic auf der Seite „Rechnungsstellung“ können Sie die Seitenansichtsdaten aus Berichten mit den abrechnungsfähigen Server-Aufrufen aus der Rechnung in Verbindung setzen. Auf der Seite [!UICONTROL Rechnungsstellung] haben Sie folgende Möglichkeiten:
 
@@ -34,10 +34,10 @@ Der [!UICONTROL Monatsrechnungs]-Bericht enthält die folgenden Informationen:
 | Primäre Server-Aufrufe | Anforderungen, die direkt von den Browsern der Website-Besucher oder von der Dateneinfüge-API empfangen werden. Umfasst Primärtreffer (Seitenansichten), primäre benutzerspezifische Ereignisse, primäre Download-Ereignisse sowie primäre Ausstiegsereignisse. |
 | Sekundäre Server-Aufrufe | Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden.  Falls ein sekundärer Serveraufruf mittels VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, wird der Transfer mit einer negativen Zahl auf der Seite für die Rechnungsstellung aufgeführt. In diesem Fall werden die angesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. |
 | Server-Aufrufe insgesamt | Die Gesamtanzahl an primären und sekundären Server-Aufrufen für diese Report Suite an einem vorgegebenen Standort. |
-| Seitenansichten | Die Gesamtanzahl an Seitenansichten für die einzelnen Report Suites. Die Seitenansichtswerte können unter „Site-Metriken &gt; Seitenansichten“ bestätigt werden. |
-| Downloads | Die Download-Summen für die einzelnen Report Suites. Die Download-Werte können unter „Site-Content &gt; Links &gt; Datei-Downloads“ bestätigt werden. |
-| Benutzerdefinierte Links | Die Summen der benutzerdefinierten Links für die einzelnen Report Suites. Die Werte für benutzerdefinierte Links können unter „Site-Content &gt; Links &gt; benutzerdefinierte Links“ bestätigt werden. |
-| Exitlinks | Die Summen der Exitlinks für die einzelnen Report Suites. Die Werte für Exitlinks können unter „Site-Content &gt; Links &gt; Exitlinks“ bestätigt werden. |
+| Seitenansichten | Die Gesamtanzahl an Seitenansichten für die einzelnen Report Suites. Die Seitenansichtswerte können unter „Site-Metriken > Seitenansichten“ bestätigt werden. |
+| Downloads | Die Download-Summen für die einzelnen Report Suites. Die Download-Werte können unter „Site-Content > Links > Datei-Downloads“ bestätigt werden. |
+| Benutzerdefinierte Links | Die Summen der benutzerdefinierten Links für die einzelnen Report Suites. Die Werte für benutzerdefinierte Links können unter „Site-Content > Links > benutzerdefinierte Links“ bestätigt werden. |
+| Exitlinks | Die Summen der Exitlinks für die einzelnen Report Suites. Die Werte für Exitlinks können unter „Site-Content > Links > Exitlinks“ bestätigt werden. |
 
 > [!NOTE] Wenn Sie eine Arbeitskopie des Berichts [!UICONTROL Monatliche Rechnungen] erstellen möchten, kopieren Sie den Bericht in die Zwischenablage und fügen Sie ihn anschließend in eine Tabellenkalkulation wie z. B. Microsoft Excel* ein.
 
