@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: Anpassen von Berechtigungen für Report Suite-Tools
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
 
-**[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Gruppen]** &gt; **[!UICONTROL Zugriff auf Berichte]** &gt; **[!UICONTROL Report Suite-Tools]** &gt; **[!UICONTROL Anpassen]**
+**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf Bericht]** > **[!UICONTROL Report Suite-Tools]** > **[!UICONTROL Anpassen]**
 
 Über die Seite für das [!UICONTROL Anpassen der Report Suite-Tools] erhalten Gruppenmitglieder Zugriff auf folgende Elemente.
 
@@ -37,33 +37,33 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | Report Suites (Lesen) | Ermöglicht Nichtadministratoren die Verwendung von Report Suite-Methoden in der API. |
 | Report Suites (Schreiben) | Ermöglicht Nichtadministratoren die Verwendung von Report Suite-Methoden in der API. |
 | **Report Suite-Verwaltung** |  |
-| Mit diesen Einstellungen wird Zugriff auf die Menüpunkte unter „Admin &gt; Report Suites &gt; Einstellungen bearbeiten ([Report Suite Manager](/help/admin/c-manage-report-suites/report-suites-admin.md))“ gewährt. |  |
+| Mit diesen Einstellungen wird Zugriff auf die Menüpunkte unter „Admin > Report Suites > Einstellungen bearbeiten ([Report Suite Manager](/help/admin/c-manage-report-suites/report-suites-admin.md))“ gewährt. |  |
 | [Traffic-Management](/help/admin/c-traffic-management/traffic-management.md) | Ermöglicht Zugriff auf Traffic-Management. |
 | [Report Suite-Verwaltung](/help/admin/c-manage-report-suites/report-suites-admin.md) | Ermöglicht Zugriff auf die Verwaltung von Report Suites. |
 | [Kontozusammenfassung](/help/admin/admin/general-acct-settings-admin.md) | Ermöglicht Zugriff auf die Bearbeitung der Kontoeinstellungen für eine Report Suite. |
 | [URL-Filter](/help/admin/admin/internal-url-filter-admin.md) | Ermöglicht Zugriff auf interne URL-Filter in Report Suites. Mithilfe interner URL-Filter wird festgelegt, welche Verweise oder verweisenden Seiten Ihrer Site intern angehören. |
 | [Benutzerdefinierter Kalender](/help/admin/admin/custom-calendar.md) | Ermöglicht das Bearbeiten des benutzerdefinierten Kalenders. |
-| [Paid Search](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) | Die Erkennung von Paid Search unterscheidet gebührenpflichtige von kostenlosen Suchvorgängen in Suchmaschinen- und Suchbegriffberichten. |
+| [Paid Search](https://marketing.adobe.com/resources/help/de_DE/reference/paid_search_detection.html) | Die Erkennung von Paid Search unterscheidet gebührenpflichtige von kostenlosen Suchvorgängen in Suchmaschinen- und Suchbegriffberichten. |
 | [Menüanpassung](/help/admin/admin/customize-menus.md) | Bearbeiten Sie die Berichtsmenüs, die Benutzern in Reports &amp; Analytics angezeigt werden. |
 | [Konfiguration von Echtzeitberichten](/help/admin/admin/realtime/t-realtime-admin.md) | Möglichkeit zur Einrichtung von Echtzeitberichten in Analytics. |
 | [Video-Einstellungen](/help/admin/admin/video-management.md) | Möglichkeit zur Reservierung einer Reihe von benutzerspezifischen Konversionsvariablen (eVars) und benutzerspezifischen Ereignissen für die Videoverfolgung und Videoberichte. |
-| [Video-Classifications](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_config.html) | Möglichkeiten zur Reservierung einer Reihe von benutzerspezifischen Konversionsvariablen (eVars) und benutzerspezifischen Ereignissen für die Videoverfolgung und Videoberichte. |
+| [Video-Classifications](https://marketing.adobe.com/resources/help/de_DE/sc/appmeasurement/video/video_config.html) | Möglichkeiten zur Reservierung einer Reihe von benutzerspezifischen Konversionsvariablen (eVars) und benutzerspezifischen Ereignissen für die Videoverfolgung und Videoberichte. |
 | [Traffic-Variablen](/help/admin/admin/c-traffic-variables/traffic-var.md) | Ermöglicht das Verknüpfen benutzerdefinierter Daten mit spezifischen, Traffic-bezogenen Ereignissen. |
 | [Traffic-Klassifizierungen](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
-| [Kanäle](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Ermöglicht Zugriff auf Marketing-Kanal-Einstellungen unter „Report Suite Manager &gt; Einstellungen bearbeiten &gt; Marketing-Kanäle“. |
-| [Kosten](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html) | Ermöglicht Zugriff auf „Marketing-Kanäle &gt; Marketing-Kanal-Kosten“ im Report Suite Manager. |
+| [Kanäle](https://marketing.adobe.com/resources/help/de_DE/mchannel/index.html) | Ermöglicht Zugriff auf Marketing-Kanal-Einstellungen unter „Report Suite Manager > Einstellungen bearbeiten > Marketing-Kanäle“. |
+| [Kosten](https://marketing.adobe.com/resources/help/de_DE/mchannel/c_overview_budget.html) | Ermöglicht Zugriff auf „Marketing-Kanäle > Marketing-Kanal-Kosten“ im Report Suite Manager. |
 | [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | Die benutzerspezifische Insight-Konversionsvariable (oder eVar) wird auf ausgewählten Webseiten Ihrer Site in den Adobe-Code aufgenommen. Ihr Hauptzweck besteht darin, Konversionserfolgsmetriken in benutzerspezifischen Marketing-Berichten zu segmentieren. |
 | [Suchmethoden](/help/admin/admin/finding-methods.md) | Ermöglicht es Ihnen, herauszufinden, wie verschiedene Berichte zu Suchmethoden Gutschriften für Konversionserfolgsergebnisse auf Ihrer Site erhalten. |
 | [Konversionsklassifizierungen](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
-| [Unique Visitor](https://marketing.adobe.com/resources/help/en_US/reference/t_unique_visitor_variable.html) | Ermöglicht das Festlegen einer Variable für Unique Visitor. |
-| [Erfolgsereignisse](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) | Aktionen, die verfolgt werden können, beispielsweise Produktansicht, Checkout und Kauf. |
+| [Unique Visitor](https://marketing.adobe.com/resources/help/de_DE/reference/t_unique_visitor_variable.html) | Ermöglicht das Festlegen einer Variable für Unique Visitor. |
+| [Erfolgsereignisse](https://marketing.adobe.com/resources/help/de_DE/reference/success_event.html) | Aktionen, die verfolgt werden können, beispielsweise Produktansicht, Checkout und Kauf. |
 | [Klassifizierungshierarchien](/help/components/c-classifications2/classification-hierarchies.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
-| [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) | Wird auch als „List Var“ bezeichnet. Ähnlich wie bei Listen-Props sind bei Listenvariablen mehrere Werte in derselben Bildanforderung möglich. |
+| [Listenvariablen](https://marketing.adobe.com/resources/help/de_DE/sc/implement/listN.html) | Wird auch als „List Var“ bezeichnet. Ähnlich wie bei Listen-Props sind bei Listenvariablen mehrere Werte in derselben Bildanforderung möglich. |
 | [Standardmetriken](/help/admin/admin/default-metrics.md) | In Reports &amp; Analytics wird ein Standardsatz an Metriken in allen Konversionsberichten angezeigt, es sei denn, ein Benutzer wählt einen benutzerspezifischen Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. |
-| [Verarbeitungsregeln](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-processing-rules.html) | Erteilt Zugriff auf Verarbeitungsregeln, durch die die Datenerfassung und Inhaltsverwaltung beim Senden an Berichte vereinfacht wird. |
+| [Verarbeitungsregeln](https://marketing.adobe.com/resources/help/de_DE/sc/implement/ref-processing-rules.html) | Erteilt Zugriff auf Verarbeitungsregeln, durch die die Datenerfassung und Inhaltsverwaltung beim Senden an Berichte vereinfacht wird. |
 | **Werkzeuge und Berichte** |  |
-| [Anomalieerkennung](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
-| [Kanalbericht](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Ermöglicht Zugriff auf Marketing-Kanal-Berichte, zu finden unter „Berichte &gt; Marketing-Kanalberichte“. |
+| [Anomalieerkennung](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/anomaly_detection.html) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
+| [Kanalbericht](https://marketing.adobe.com/resources/help/de_DE/mchannel/index.html) | Ermöglicht Zugriff auf Marketing-Kanal-Berichte, zu finden unter „Berichte > Marketing-Kanalberichte“. |
 | [Echtzeitbericht](/help/admin/admin/realtime/t-realtime-admin.md) | Ermöglicht Zugriff auf den Echtzeitbericht. |
 | [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
 | [Bots](/help/admin/admin/bot-removal/bot-rules.md) | Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
@@ -72,13 +72,13 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Data Sources Manager](/help/admin/admin/data-sources.md) | Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. |
 | [Nach IP-Adresse ausschließen](/help/admin/admin/exclude-ip.md) | Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websitetests und der Verwendung durch Mitarbeiter, können aus Berichten ausgeschlossen werden. |
 | Veraltete ClickMap | Ermöglicht Zugriff auf das Menü des veralteten ClickMap-Overlay-Tools. |
-| Installation der alten ClickMap | Gewährt Installationsrechte für das alte ClickMap-Tool. |
+| Ältere ClickMap-Installation | Gewährt Installationsrechte für das alte ClickMap-Tool. |
 | [Rückkehrende Besucher](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Ein Bericht, der die Anzahl der Besuche anzeigt, wobei die Besuchnummer größer als 1 ist. Der Bericht über rückkehrende Besucher schließt Besucher ohne Cookie ein. |
-| [Classifications Importer](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)/Exporter und [Rule Builder](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | Konsolidiert in Classifications (siehe unten). |
+| [Classifications Importer](https://marketing.adobe.com/resources/help/de_DE/reference/c_working_with_saint.html)/Exporter und [Rule Builder](https://marketing.adobe.com/resources/help/de_DE/reference/classification_rule_builder.html) | Konsolidiert in Classifications (siehe unten). |
 | Data Feeds Manager | Erteilt Rechte an Analytics-Daten-Feed. |
-| Klassifizierungen | Kombiniert die folgenden Berechtigungen: „Traffic-Klassifizierungen“, „Video-Klassifizierungen“, „Konversionsklassifizierungen“, „Klassifizierungshierarchien“, „Klassifizierungsmanager“ und „Classifications Importer/Exporter &amp; Rule Builder“. Hinweis: Mit dieser Berechtigung bearbeiten Anwender Klassifizierungen für alle Report Suites und nicht nur für die ausgewählte(n) Report Suite(s). |
-| [Beitragsanalyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Gewährt Rechte für die Verwendung von Beitragsanalysen in Analysis Workspace. |
+| Klassifizierungen | Kombiniert die folgenden Berechtigungen: „Traffic-Klassifizierungen“, „Video-Klassifizierungen“, „Konversionsklassifizierungen“, „Klassifizierungshierarchien“, „Klassifizierungsmanager“ und „Classifications Importer/Exporter &amp; Rule Builder“.  Hinweis: Mit dieser Berechtigung bearbeiten Anwender Klassifizierungen für alle Report Suites und nicht nur für die ausgewählte(n) Report Suite(s). |
+| [Beitragsanalyse](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/contribution-analysis.html) | Gewährt Rechte für die Verwendung von Beitragsanalysen in Analysis Workspace. |
 | **Dashboard-Elemente** |  |
-| Die Einstellungen in „Dashboard-Elemente“ ermöglichen den Zugriff auf [Reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics: Meine empfohlenen Berichte, Firmenzusammenfassungs-Reportlet, Grafik, KPI-/Kennzahlen-Reportlet, Report Suite insgesamt, Text, Reportlet, Gebrauchszusammenfassungs-Reportlet und Web-Ressourcen |  |
+| Die Einstellungen in „Dashboard-Elemente“ ermöglichen den Zugriff auf [Reportlets](https://marketing.adobe.com/resources/help/de_DE/sc/user/dashboard.html) in Reports &amp; Analytics: Meine empfohlenen Berichte, Firmenzusammenfassungs-Reportlet, Grafik, KPI-/Kennzahlen-Reportlet, Report Suite insgesamt, Text, Reportlet, Gebrauchszusammenfassungs-Reportlet und Web-Ressourcen |  |
 | **Sonstige** |  |
 | Social | Steuern Sie den Zugriff auf das Social-Media-Verwaltungsmenü im Report Suite Manager. |
