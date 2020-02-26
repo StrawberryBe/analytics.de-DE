@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Auf der Seite [!UICONTROL Unternehmenseinstellungen] können Sie Einstellungen konfigurieren, die für alle von Ihrer Organisation verwalteten Report Suites gelten.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Unternehmenseinstellungen]**
 
 + [Funktionszugriffsebenen](feature-access-levels.md)
 + [Web-Services](web-services-admin.md)
