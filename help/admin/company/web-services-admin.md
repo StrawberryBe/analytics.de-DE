@@ -1,9 +1,9 @@
 ---
-description: Die Web-Services-APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
+description: Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
 title: Web-Services
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,13 +11,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Web-Services
 
-Die Web-Services-APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
+Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]** &gt; **[!UICONTROL Web-Services]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Webdienste]**
 
 ## Web-Services verwalten
 
-Unter „Benutzerverwaltung“ &gt; [Gruppen](/help/admin/user-management2/c-user-groups/groups.md) können Sie die Gruppe mit dem Web-Services-Zugriff um die Benutzer erweitern, die auf die Web-Services-APIs zugreifen müssen.
+Unter „Benutzerverwaltung“ > [Gruppen](/help/admin/user-management2/c-user-groups/groups.md) können Sie die Gruppe mit dem Web-Services-Zugriff um die Benutzer erweitern, die auf die Web-Services-APIs zugreifen müssen.
 
 ## WSDL: Hier laden Sie die WSDL für die Web Services API herunter (für Web-Services-Entwickler).
 
