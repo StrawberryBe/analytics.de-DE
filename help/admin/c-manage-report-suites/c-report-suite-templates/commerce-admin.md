@@ -3,7 +3,7 @@ description: Definiert allgemeine Einstellungen für eine E-Commerce-Website.
 title: Handel
 topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Definiert allgemeine Einstellungen für eine E-Commerce-Website.
 
-| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Ablauf | `s_code`-Variable |
+| Konversionsvariablen | Typ | Subrelationen | Zuordnung | Gültigkeit | `s_code`-Variable |
 |---|---|---|---|---|---|
 | Interne Promotions | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
