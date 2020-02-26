@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Anzeigen der aktuellen Nutzung der Server-Aufrufe
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Nutzung der Serveraufrufe]** &gt; **[!UICONTROL Aktuelle Verwendung]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Nutzung der Server-Aufrufe]** > **[!UICONTROL Aktuelle Nutzung]**
 
 > [!IMPORTANT] Sämtliche Nutzungs- und Zusagedaten, die Sie dort sehen, beziehen sich zusammengenommen auf alle Anmeldeunternehmen und Report Suites.
 
@@ -23,7 +23,7 @@ Das Dashboard für aktuelle Nutzung:
 
 * Vergleicht Ihre aktuelle Nutzungsperiode mit der Nutzung im letzten Jahr (blaue Linie). Natürlich wird die blaue Linie nur angezeigt, wenn für Ihr Unternehmen Daten zu den Server-Aufrufen im letzten Jahr vorliegen.
 
-   > [!NOTE] Wenn Sie die Nutzung für einen vorherigen Zeitraum anzeigen möchten, gehen Sie zur Registerkarte [Nutzung der Report Suite](/help/admin/c-server-call-usage/report-suite-usage.md) und laden Sie die Gebrauchsdaten für einen vorherigen Zeitraum herunter.
+   > [!NOTE] Wenn Sie die Nutzung für einen früheren Zeitraum anzeigen möchten, gehen Sie zur Registerkarte [Nutzung der Report Suite](/help/admin/c-server-call-usage/report-suite-usage.md) und laden Sie die Gebrauchsdaten für einen früheren Zeitraum herunter.
 
 * Listet den Anteil an genutzten Aufrufen (in Prozent und in unverarbeiteten Daten) und den Anteil der bereits abgelaufenen Nutzungsperiode (in Prozent und in unverarbeiteten Daten) auf.
 * Wird standardmäßig täglich mit einer Verarbeitungsverzögerung von 5 Tagen aktualisiert.
