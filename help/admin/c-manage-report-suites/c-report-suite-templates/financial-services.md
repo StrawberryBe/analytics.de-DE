@@ -3,7 +3,7 @@ description: Definiert häufige Einstellungen für Banken und andere Institution
 title: Finanzdienste
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Definiert häufige Einstellungen für Banken und andere Institutionen, die Zugriff auf Onlinedienste bieten.
 
-| Konversionsvariablen (eVars) | Typ | Subrelationen | Zuordnung | Ablauf | `s_code`-Variable |
+| Konversionsvariablen (eVars) | Typ | Subrelationen | Zuordnung | Gültigkeit | `s_code`-Variable |
 |---|---|---|---|---|---|
 | Interne Promotion | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
 | Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
