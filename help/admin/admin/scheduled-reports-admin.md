@@ -3,7 +3,7 @@ description: Damit können Administratoren terminierte Berichte für die ganze O
 title: Warteschlange für terminierte Berichte
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Damit können Administratoren terminierte Berichte für die ganze Organisation anzeigen und verwalten.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Terminierte Berichte]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Terminierte Berichte]**
 
 Zu den Admin-spezifischen Fähigkeiten des Managers für terminierte Berichte gehören:
 
@@ -46,6 +46,6 @@ Die Berichtwarteschlange bietet außerdem die Option „Terminierten Bericht ein
 
 ## Zeitplan-ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-Die Anzeige der **[!UICONTROL Zeitplan-ID]** in der Benutzeroberfläche der Berichtwarteschlange ist nützlich, wenn Sie den Kundendienst von Adobe kontaktieren müssen, um ein Problem mit terminierten Berichten zu lösen.
+Die Anzeige der **[!UICONTROL Zeitplan-ID]** in der Benutzeroberfläche der Berichtwarteschlange ist nützlich, wenn Sie die Kundenunterstützung von Adobe kontaktieren müssen, um ein Problem mit terminierten Berichten zu lösen.
 
 ![](assets/schedule_id.png)
