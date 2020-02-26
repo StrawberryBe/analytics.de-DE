@@ -3,7 +3,7 @@ description: Führt Metriken und Dimensionen auf, die von Echtzeitberichten unte
 title: Unterstützte Echtzeit-Metriken und -Dimensionen
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werd
 * Bestellungen
 * Einheiten
 * Warenkorb
-* Warenkorbansicht
+* Warenkorbansichten
 * Checkouts
 * Zusatz zum Warenkorb
 * Entnahme aus Warenkorb
@@ -38,7 +38,7 @@ Führt Metriken und Dimensionen auf, die von Echtzeitberichten unterstützt werd
 * GeoSegmentation U.S. DMA
 * Produkt
 * Server
-* Sitebereich
+* Website-Bereich
 * Trackingcode
 * Anwenderspezifischer Link
 * Dateidownload
