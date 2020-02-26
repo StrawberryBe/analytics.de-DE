@@ -14,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Mit der Nutzung der Server-Aufrufe von Adobe Analytics können Sie Einsicht in Daten über die Server-Aufrufe von Browsern und Mobilgeräten erhalten. Sie können damit auf Folgendes zugreifen:
 
-* Ein Dashboard zur Nutzung von Server-Aufrufen, das Ihre Verbrauchsdaten bezüglich Server-Aufrufen verfolgt und mit Ihrem vertraglich festgelegten Limit vergleicht. (**[!UICONTROL Analyse &gt; Admin &gt; Nutzung der Server-Aufrufe]**)
-* Ein Warntyp für die Nutzung der Serveraufrufe bei der Warnhinweiserstellung, mit dem Sie Warnhinweise einrichten können, um Überschüsse zu verhindern (**[!UICONTROL Analytics &gt; Komponenten &gt;Warnhinweise]**)
+* Ein Dashboard zur Nutzung von Server-Aufrufen, das Ihre Verbrauchsdaten bezüglich Server-Aufrufen verfolgt und mit Ihrem vertraglich festgelegten Limit vergleicht. (**[!UICONTROL Analyse > Admin > Nutzung der Server-Aufrufe]**)
+* Ein Warntyp für die Nutzung der Serveraufrufe bei der Warnhinweiserstellung, mit dem Sie Warnhinweise einrichten können, um Überschüsse zu verhindern (**[!UICONTROL Analytics > Komponenten >Warnhinweise]**)
 
 Die Hauptvorteile der Nutzung der Server-Aufrufe umfassen:
 
 * **Einsicht** in Ihre Daten zur Verwendung und zur Zusage von Server-Aufrufen, einschließlich mobilem Verbrauch gegenüber dem vertraglich festgelegten Nutzungslimit für Server-Aufrufe.
 * **Warnhinweise**, die Sie darauf hinweisen, wenn das Risiko von Überschüssen besteht und mit denen Sie sich auf mögliche Überschüsse vorbereiten können.
 
-Bisher konnten Sie zwar unter **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Abrechnung]** auf Ihre monatlichen Daten zur Nutzung von Server-Aufrufen zugreifen, doch diese Daten wurden erst 6 Tage nach Abschluss der Abrechnung des jeweiligen Monats aktualisiert. Zusätzlich dazu enthielten die Daten keine Informationen über die mobile Nutzung. Diese Funktion wird außerdem den aktuellen Bericht über die **[!UICONTROL Abrechnungsinformationen]** unter **[!UICONTROL Analytics]** &gt; **[!UICONTROL Berichte]** ersetzen.
+Bisher konnten Sie zwar unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Abrechnung]** auf Ihre monatlichen Daten zur Nutzung von Server-Aufrufen zugreifen, doch diese Daten wurden erst 6 Tage nach Abschluss der Abrechnung des jeweiligen Monats aktualisiert. Zusätzlich dazu enthielten die Daten keine Informationen über die mobile Nutzung. Diese Funktion wird außerdem den aktuellen Bericht über die **[!UICONTROL Abrechnungsinformationen]** unter **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** ersetzen.
 
 ## Voraussetzungen {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
