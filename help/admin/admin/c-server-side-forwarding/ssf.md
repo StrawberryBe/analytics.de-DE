@@ -3,7 +3,7 @@ description: Die serverseitige Weiterleitung ist für Kunden bestimmt, die Daten
 solution: Audience Manager
 title: Übersicht über die serverseitige Weiterleitung
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
@@ -28,14 +28,14 @@ Die serverseitige Weiterleitung führt aus folgenden Gründen zu Optimierungen b
 
 Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Implementierung der serverseitigen Weiterleitung befindet, führen Sie die folgenden Validierungsschritte durch:
 
-## ![step1_icon.png image](assets/step1_icon.png) Überprüfen der ECID-Dienstimplementierung
+## ![Grafik step1_icon.png](assets/step1_icon.png) ECID-Dienstimplementierung überprüfen
 
-Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
+Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Dienst implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://marketing.adobe.com/resources/help/de_DE/mcvid/mcvid-test-verify.html) prüfen.
 
-Überprüfen Sie auf der Registerkarte Anforderung, ob ein ECID-Wert festgelegt wurde. Dies gibt darüber Auskunft, dass der Identity Service korrekt implementiert wurde. Dies ist eine Voraussetzung für die serverseitige Weiterleitung.
+Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festgelegt wurde. Dies gibt darüber Auskunft, dass der Identity Service korrekt implementiert wurde. Dies ist eine Voraussetzung für die serverseitige Weiterleitung.
 
 * Wenn ein ECID-Wert angezeigt wird, fahren Sie mit Schritt 2 fort.
-* If you do not see an ECID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
+* Wenn kein ECID-Wert angezeigt wird, [implementieren Sie den Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/implementation-guides.html), bevor Sie den Vorgang bei Schritt 2 fortsetzen.
 
 ## ![Grafik step2_icon.png](assets/step2_icon.png) Implementierungsversion der serverseitigen Weiterleitung überprüfen
 
@@ -44,14 +44,14 @@ Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting 
 Überprüfen Sie auf der Registerkarte „Antwort“, ob die Antwort Audience Manager-Daten umfasst. Bei Anzeige des Folgenden gilt das Nachstehende:
 
 * Eine **JSON-Antwort von Audience Manager mit Elementen wie „postbacks“ oder „dcs_region“**: Es ist bereits eine Form der serverseitigen Weiterleitung aktiviert. Fahren Sie mit Schritt 3 fort.
-* **"status":"SUCCESS"**: Das Zielgruppen-Management-Modul ist zwar implementiert, die serverseitige Weiterleitung ist jedoch nicht ordnungsgemäß konfiguriert. Fahren Sie mit Schritt 3 fort.
+* **&quot;status&quot;:&quot;SUCCESS&quot;**: Das Zielgruppen-Management-Modul ist zwar implementiert, die serverseitige Weiterleitung ist jedoch nicht ordnungsgemäß konfiguriert. Fahren Sie mit Schritt 3 fort.
 * Ein **2-x-2-Bild**: Die serverseitige Weiterleitung oder das Zielgruppen-Management-Modul wurde nicht implementiert. Korrektur:
 
    * **AAM-Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
 
-      1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html).
+      1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Aktivieren Sie die serverseitige Weiterleitung auf der Analytics Admin-Benutzeroberfläche, wie unter Schritt 3 beschrieben. Durch die Aktivierung dieser Einstellung vor dem Entfernen des DIL-Codes werden die Daten dupliziert, und es werden zusätzliche abgerechnete Serveraufrufe für Audience Manager erstellt.
-   * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
+   * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
 
 
 ## ![Grafik step3_icon.png](assets/step3_icon.png) Implementierung der serverseitigen Weiterleitung der Report Suite überprüfen
@@ -60,11 +60,11 @@ Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting 
 
 Die serverseitige Weiterleitung auf Ebene der Report Suite wird dem alten Ansatz mit Verfolgungsserver vorgezogen, weil Sie detaillierter kontrollieren können, welche Daten aus Analytics freigegeben werden. Dies ist zudem eine Voraussetzung für diese Audience Analytics-Integration.
 
-Gehen Sie zu **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (**Report Suites** auswählen) &gt; **Einstellungen bearbeiten** &gt; **Allgemein** &gt; **Serverseitige Weiterleitung**. Wenn das Kontrollkästchen folgenden Zustand aufweist, gilt das Nachfolgende:
+Gehen Sie zu **Analytics** > **Admin** > **Report Suites** > (**Report Suites** auswählen) > **Einstellungen bearbeiten** > **Allgemein** > **Serverseitige Weiterleitung**. Wenn das Kontrollkästchen folgenden Zustand aufweist, gilt das Nachfolgende:
 
-* **Inaktiv** (Sie können keine Auswahl treffen oder das Menü ist nicht vorhanden): Sie haben nicht die ausgewählten Report Suites Ihrem IMS-Org zugeordnet. Vergewissern Sie sich, dass Ihre jeweiligen Report Suites der richtigen Experience Cloud-Organisation mithilfe der Benutzeroberfläche für die [Report Suite-Zuordnung zugeordnet sind](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inaktiv** (Sie können keine Auswahl treffen, oder das Menü ist nicht vorhanden): Die ausgewählten Report Suites sind der IMS-Org. nicht zugeordnet. Stellen Sie mithilfe der [Report Suite-Zuordnungs-UI](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html) sicher, dass die jeweiligen Report Suites der entsprechenden Experience Cloud-Organisation zugeordnet sind.
 * **Deaktiviert**: Die neue serverseitige Weiterleitung ist nicht aktiviert. Lesen Sie den Inhalt der Seite, und fahren Sie dann mit der Aktivierung der Funktion fort.
 * **Aktiviert**: Die neue serverseitige Weiterleitung ist bereitgestellt. Sie können auch diese Audience Analytics-Integration einrichten.
 
-> [!NOTE] In anderen Experience Cloud-Lösungen wie [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) oder [Zielgruppen](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) werden erst Daten angezeigt, nachdem alle drei Schritte abgeschlossen wurden. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
+> [!NOTE] In anderen Experience Cloud-Lösungen wie [Audience Manager](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/aam-home.translate.html) oder [Audiences](https://marketing.adobe.com/resources/help/de_DE/mcloud/audience_library.html) werden erst Daten angezeigt, nachdem alle drei Schritte abgeschlossen wurden. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
 
