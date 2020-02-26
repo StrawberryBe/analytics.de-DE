@@ -3,7 +3,7 @@ description: Verfügt neben dem gregorianischen Kalender noch über andere Kalen
 title: Anpassen von Kalendern benutzerspezifisch einstellen
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Darüber hinaus bietet die Berichterstellung eine Option für einen komplett individualisierbaren Kalender, den Sie selbst einrichten können.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Report Suite auswählen]]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Kalender benutzerspezifisch einstellen]**
+**[!UICONTROL Administrator]** > **[!UICONTROL Report Suites]** > **[!UICONTROL [Report Suite auswählen]]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Kalender benutzerspezifisch einstellen]**
 
 >[!CAUTION]
 >
