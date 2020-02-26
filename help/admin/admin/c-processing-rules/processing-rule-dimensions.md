@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Für Verarbeitungsregeln verfügbare Dimensionen
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,7 +38,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kontextdatenvariablen </p> </td> 
-   <td colname="col2"> <p>Benannte Variablen, die bei einem Hit versendet werden. </p> <p>Hinweis: Alle Daten, die in einer Kontextdatenvariablen enthalten sind, müssen in eine Berichterstellungsvariable kopiert werden, damit sie in einem Bericht angezeigt werden können. Kontextdatenvariablen sind in den Berichtsoberflächen nicht anzeigbar, auch nicht in den Clickstream-Daten-Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieren einer Kontextdatenvariable in eine eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Festlegen eines Ereignisses mit einer Kontextdatenvariablen </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Kontextdatenvariablen</a> </p> </td> 
+   <td colname="col2"> <p>Benannte Variablen, die bei einem Hit versendet werden. </p> <p>Hinweis: Alle Daten, die in einer Kontextdatenvariablen enthalten sind, müssen in eine Berichterstellungsvariable kopiert werden, damit sie in einem Bericht angezeigt werden können. Kontextdatenvariablen sind in den Berichtsoberflächen nicht anzeigbar, auch nicht in den Clickstream-Daten-Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieren einer Kontextdatenvariable in eine eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Festlegen eines Ereignisses mit einer Kontextdatenvariablen </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/de_DE/sc/implement/context_data_variables.html"> Kontextdatenvariablen</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
    <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Site-Abschnitt </p> </td> 
+   <td colname="col1"> <p>Website-Bereich </p> </td> 
    <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
    <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis: Eine Seitenansicht wird bei allen Hits gezählt, bei denen der Seitenname nicht leer ist. Wenn ein Link verfolgt wird, entfernt der Datenerfassungsserver den Seitennamen von dem Treffer, so dass Seitenansichten nicht gezählt werden. Wenn Sie mithilfe der Verarbeitungsregeln wieder einen Seitennamen in diese Aufrufe einfügen, wird eine Seitenansicht gezählt. Wir empfehlen eine Prüfung, um sicherzustellen, dass der Seitenname bereits eingestellt wurde, bevor Sie den Seitennamen ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Seiten-URL </p> </td> 
+   <td colname="col1"> <p>„Seiten-URL“ </p> </td> 
    <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. </td> 
   </tr> 
   <tr> 
@@ -207,7 +207,7 @@ Verarbeitungsregeln können Ereignisse einstellen, diese aber nicht als Bedingun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ereignis 1–1000 </p> <p>(Für Kunden mit SiteCatalyst 15: Ereignis 1–100.) </p> </td> 
+   <td colname="col1"> <p>Ereignis- 1-1000 </p> <p>(Für Kunden mit SiteCatalyst 15: Ereignis 1–100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
