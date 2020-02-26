@@ -3,7 +3,7 @@ description: Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene S
 title: Suchmethoden
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Suchmethoden]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Suchmethoden]**.
 
 ## Suchmethoden – Beschreibungen {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
