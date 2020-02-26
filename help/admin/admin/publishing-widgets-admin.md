@@ -3,7 +3,7 @@ description: Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Market
 title: Veröffentlichungs-Widget
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
