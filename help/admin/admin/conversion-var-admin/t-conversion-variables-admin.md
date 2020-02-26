@@ -3,7 +3,7 @@ description: Schritte, die beschreiben, wie Konversionsvariablen hinzugefügt od
 title: Bearbeiten von Konversionsvariablen
 topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Schritte, die beschreiben, wie Konversionsvariablen hinzugefügt oder bearbeitet werden.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Konversionsvariablen]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversionsvariablen]**.
 1. Klicken Sie auf der Seite [!UICONTROL Konversionsvariablen] auf das Symbol **[!UICONTROL Erweitern]** [+] neben der Konversionsvariablen, die Sie ändern möchten.
 
    Oder
