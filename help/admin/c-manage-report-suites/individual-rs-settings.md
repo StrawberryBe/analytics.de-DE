@@ -3,7 +3,7 @@ description: In den individuellen Report Suite-Einstellungen können Sie die St
 title: Individuelle Report Suite-Einstellungen
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,5 +18,5 @@ So öffnen Sie die Seite [!UICONTROL Individuelle Report Suite-Einstellungen]:
 1. Klicken Sie auf **[!UICONTROL Admin]** und dann auf **[!UICONTROL Report Suites]**.
 
 1. Wählen Sie eine Report Suite aus.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Individuelle Report Suite-Einstellungen]** &gt; *`<selection>`*.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Individuelle Report Suite-Einstellungen]** > *`<selection>`*.
 
