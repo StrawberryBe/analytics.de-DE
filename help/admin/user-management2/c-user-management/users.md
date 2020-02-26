@@ -1,10 +1,10 @@
 ---
-description: In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
+description: In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „User Management“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
 subtopic: Users and groups
 title: Übersicht über die Benutzerverwaltung
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
-In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „Benutzerverwaltung“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
+In der Verwaltung für Berichtbenutzer und Berichtgruppen auf der Seite „User Management“ können Sie Benutzer und Gruppen verwalten und den Zugriff auf Berichte, Tools und Report Suites steuern.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** &gt; **[!UICONTROL Benutzer bearbeiten]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Benutzer bearbeiten]**
 
 ## Beschreibungen zu Benutzerkonten {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
