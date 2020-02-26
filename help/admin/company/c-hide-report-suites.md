@@ -4,7 +4,7 @@ keywords: delete report suite
 title: Ausblenden von Report Suites
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,12 +22,12 @@ Das Ausblenden einer Report Suite führt dazu, dass sie nicht mehr im Dropdown-M
 >
 >Daten, die von Ihrer Site an eine ausgeblendete Report Suite gesendet werden, werden weiterhin erfasst, verarbeitet und abgerechnet. So wird eine Report Suite nie vollständig gelöscht.
 
-Gehen Sie zum Ausblenden einer Report Suite zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Unternehmenseinstellungen]** &gt; **[!UICONTROL Report Suites ausblenden]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]** links neben dem Namen der Report Suite.
+Gehen Sie zum Ausblenden einer Report Suite zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Report Suites ausblenden]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]** links neben dem Namen der Report Suite.
 
 Um die Report Suite wieder einzublenden, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Ausgeblendet]**.
 
-Wenn unter **[!UICONTROL Unternehmenseinstellungen]** nur ausgeblendete Report Suites angezeigt werden sollen, wählen Sie **[!UICONTROL Anzeigen]** &gt; **[!UICONTROL Nur ausgeblendete Report Suites]** aus.
+Wenn unter **[!UICONTROL Unternehmenseinstellungen]** nur ausgeblendete Report Suites angezeigt werden sollen, wählen Sie **[!UICONTROL Anzeigen]** > **[!UICONTROL Nur ausgeblendete Report Suites]**.
 
-Wenn unter **[!UICONTROL Unternehmenseinstellungen]** nur sichtbare Report Suites angezeigt werden sollen, wählen Sie **[!UICONTROL Anzeigen]** &gt; **[!UICONTROL Nur sichtbare Report Suites]** aus.
+Wenn unter **[!UICONTROL Unternehmenseinstellungen]** nur sichtbare Report Suites angezeigt werden sollen, wählen Sie **[!UICONTROL Anzeigen]** > **[!UICONTROL Nur sichtbare Report Suites]**.
 
-Die Standardeinstellung ist **[!UICONTROL Anzeigen]** &gt; **[!UICONTROL Alle]**.
+Die Standardeinstellung ist **[!UICONTROL Anzeigen]** > **[!UICONTROL Alle]**.
