@@ -50,7 +50,7 @@ Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Sie
 | c_clientDateTime | Zeitstempel formatiert als TT/MM/JJJ hh:mm:ss W TZ .    TZ ist in Minuten angegeben und stimmt mit der Rückgabe der Methode Date.getTimezoneOffset überein. |
 | c_colorDepth | Angabe als 16- oder 32-Bit-Farbe. |
 | c_connectionType | Gibt den Verbindungstyp an. Zu den Optionen zählen:<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Beispiele:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Signal: c_contextData.category=news</li></ul> |
+| c_contextData.* | Beispiele:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signal: c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Gibt an, ob Cookies aktiviert werden können. Zu den Optionen zählen: ja, nein, unbekannt |
 | c_currencyCode | Typ der für die Transaktion verwendeten Währung. |
 | c_evar# | Benutzerdefinierte eVars |
