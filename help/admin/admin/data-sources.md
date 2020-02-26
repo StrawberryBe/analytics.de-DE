@@ -3,7 +3,7 @@ description: Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Q
 title: Data Sources
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ Data Sources werden zu folgenden Zwecken verwendet:
 
 Wenn die Data Sources für eine Report Suite aktiviert sind, wird ein FTP-Speicherort bereitgestellt, damit die Dateien für die Integration in die Berichte hochgeladen werden können. Nachdem sie hochgeladen wurden, werden sie von den Adobe-Servern automatisch verarbeitet und in die Report Suite integriert.
 
-Siehe [Hilfe zu Data Sources](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)
+Siehe [Hilfe zu Data Sources](https://marketing.adobe.com/resources/help/de_DE/sc/datasources/)
