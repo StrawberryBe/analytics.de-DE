@@ -4,7 +4,7 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Data Sources verwalten
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,10 +38,10 @@ Diese Architektur unterscheidet sich von der vorherigen darin, dass Analysis Wor
 
 * Sie können eine Zusammenfassungsvisualisierung erstellen und mit einer Zelle in der Tabelle verknüpfen, aus der Sie sie erstellt haben. Wenn Sie „Datenquelle anzeigen“ aktivieren, wird angezeigt, wo genau die Informationen aus der Tabelle herkommen. Die Quelldaten werden abgeblendet dargestellt:
 
-   ![](assets/data-source2.png)&gt;
+   ![](assets/data-source2.png)>
 * Sie können zahlreiche Visualisierungen hinzufügen und sie aus unterschiedlichen Zellen in derselben Tabelle beziehen, wie hier gezeigt wird. Es handelt sich um dieselbe Tabelle wie im Beispiel oben, allerdings ist die bezogene Zelle (und Metrik) anders:
 
-   ![](assets/data-source3.png)&gt;
+   ![](assets/data-source3.png)>
 * Sie können sehen, ob es mit einer Freiform- oder Kohortentabelle verknüpfte Visualisierungen gibt, indem Sie auf den Punkt oben links klicken (Datenquelleneinstellungen). Durch Bewegen der Maus über die betreffende Stelle wird die verbundene Visualisierung hervorgehoben. Sie haben auch die Möglichkeit, durch Klicken mit der Maus dorthin zu gelangen.
 
-   ![](assets/linked-visualizations.png)&gt;
+   ![](assets/linked-visualizations.png)>
