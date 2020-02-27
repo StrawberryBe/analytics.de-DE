@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Welche Administrations- und Zugriffsanforderungen gibt es für Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Administrationsanforderungen</a>. </p> </td> 
+   <td colname="col2"> <p>Siehe  <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Administrationsanforderungen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wie viele Report Suites können in einem Projekt des Analysis Workspace angezeigt werden? </p> </td> 
@@ -36,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kann ich den Analysis Workspace für Data Warehouse verwenden? </p> </td> 
-   <td colname="col2"> <p>Der Analysis Workspace wird für den Export von Massendaten nicht empfohlen. Es handelt sich um einen Visualisierungsarbeitsbereich für das Erstellen dashboardartiger Analyseprojekte. </p> </td> 
+   <td colname="col2"> <p>Der Analysis Workspace wird für den Export von Massendaten nicht empfohlen. Es handelt sich um einen VisualisierungsWorkspace für das Erstellen dashboardartiger Analyseprojekte. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>Wie kann ich die Leistung von Analysis Workspace optimieren? </p> </td> 
