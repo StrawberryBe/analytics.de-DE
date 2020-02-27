@@ -1,9 +1,9 @@
 ---
-description: Zeigt Informationen zu Besuchern an, einschließlich Besucherzahlen, Kundentreue und Besuchereigenschaften.
+description: Zeigt Informationen zu Besuchern, wie beispielsweise Besucherzahlen, Kundentreue und Besuchereigenschaften, an.
 title: Besucherberichte
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Besucherberichte
 
-Zeigt Informationen zu Besuchern an, einschließlich Besucherzahlen, Kundentreue und Besuchereigenschaften.
+Zeigt Informationen zu Besuchern, wie beispielsweise Besucherzahlen, Kundentreue und Besuchereigenschaften, an.
 
 ## Rückkehrhäufigkeit {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -41,7 +41,7 @@ Standardmäßig umfasst der Bericht die folgenden Zeiträume:
 * Vierzehn Tage bis ein Monat
 * Länger als ein Monat
 
-## Besuchnummer {#concept_BBB614072FD74379B1A8520ACB75AE9A}
+## Besuchsnummer {#concept_BBB614072FD74379B1A8520ACB75AE9A}
 
 Zeigt, welcher Kundenbesuch auf Ihrer Website den größten Einfluss auf Ihre Erfolgsmetriken hatte. Ein Besucher, der Ihre Website zum ersten Mal besucht, wird im Zeileneintrag „Besuch Nr. 1“ gezählt. Besucher, die zum zweiten Mal zur Seite zurückkehren, werden im Zeileneintrag „Besuch Nr. 2“ usw. gezählt.
 
@@ -60,7 +60,7 @@ Sie können diesen Bericht nach jedem anderen Bericht oder jeder anderen Variabl
 * wie viele Besuche es üblicherweise braucht, bis ein Besucher, der bei Kampagne XYZ durchgeklickt hat, einen Kauf tätigt.
 * ob beispielsweise Benutzer in Tokio mehr Besuche als Besucher in London brauchen, bis ein Lead generiert wird.
 
-> [!NOTE] Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer für jeden Besuch inkrementiert.
+> [!NOTE] Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer bei jedem Besuch inkrementiert.
 
 Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch einen Besucher an Adobe weitergegeben werden. Nach Empfang dieser Daten vergleicht Adobe sie mit historischen Daten zur Besucher ID, um festzustellen, ob es sich um einen:
 
@@ -87,7 +87,7 @@ Der Bericht [!UICONTROL Kundeloyalität] gibt Aufschluss über Einkaufsmuster vo
 * **Rückkehrender Kunde**: Besucher, die zwei Einkäufe getätigt haben
 * **Loyaler Kunde**: Besucher, die mehr als drei Einkäufe getätigt haben
 
-> [!NOTE] Bei Verwendung dieser Metriken werden alle Besuche des Benutzers (oder alle Besucher) in diesem Bericht dargestellt, unabhängig davon, ob der Besuch (oder Besucher) einen Kauf enthalten hat.
+> [!NOTE] Bei der Verwendung dieser Metriken werden alle Besuche (oder Besucher) eines Benutzers in diesem Bericht repräsentiert, unabhängig davon, ob im Besuch (oder Besucher) ein Kauf inbegriffen war.
 
 Der Loyalitätsstatus ändert sich nach dem Ende eines Besuchs, bei dem es zu einem Einkaufsereignis gekommen ist. Beispiel: Ein Neukunde (1 Einkauf) tätigt einen Kauf und registriert sich dann innerhalb desselben Besuchs für einen Newsletter. Das Ereignis zur Newsletter-Registrierung wird dennoch als Interaktion mit einem Neukunden betrachtet, da sich der Status der Kundenloyalität erst beim nächsten Besuch ändert.
 
@@ -101,11 +101,11 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Sprachen]**: Zeigt die von Ihren Besuchern bevorzugten Sprachen an, erfasst die Standardsprache des Browsers und zeigt die Sprachen an, die Besucher auf Ihrer Site am häufigsten verwenden.
+**[!UICONTROL Sprachen]**: Zeigt die bevorzugte Sprache Ihrer Besucher an, zeichnet die Standardsprache des Browsers auf und zeigt an, welche Sprachen Besucher am häufigsten auf Ihrer Site verwenden.
 
-**[!UICONTROL Domänen]**: Listet die Organisationen und ISPs auf, die Ihre Besucher zum Zugriff auf Ihre Site verwenden. Dieser Bericht unterscheidet sich vom Bericht [!UICONTROL Vollständige Domänen] insofern, als der Bericht Vollständige Domänen die vollständige ISP-Domäne registriert, während dieser Bericht die sekundäre Domäne auflistet.
+**[!UICONTROL Domänen]**: Listet die Organisationen und ISPs auf, die Ihre Besucher zum Zugriff auf Ihre Site verwenden. Dieser Bericht unterscheidet sich vom Bericht [!UICONTROL Vollständige Domänen] insofern, als der Bericht „Vollständige Domänen“ die vollständige ISP-Domäne registriert, während dieser Bericht die sekundäre Domäne auflistet.
 
-**[!UICONTROL Domänen auf oberster Ebene]**: Identifiziert anhand ihrer ursprünglichen Domänenerweiterung die Regionen der Welt, aus denen die Besucher stammen, und zeigt an, wie viele Besucher aus diesen Ländern kommen. Domänen mit den Erweiterungen kommerzieller Einrichtungen (.com), von Netzwerken (.net), des Bildungswesens (.edu), von Regierungsbehörden (.gov) und Organisationen (.org) befinden sich meistens in den USA und sind gesondert von anderen Domänen aufgeführt.
+**[!UICONTROL Domänen auf oberster Ebene]**: Identifiziert anhand ihrer ursprünglichen Domänenerweiterung die Regionen der Welt, aus denen die Besucher stammen, und zeigt an, wie viele Besucher aus diesen Ländern kommen. Domänen mit den Erweiterungen kommerzieller Einrichtungen (.com), Netzwerken (.net), des Bildungswesens (.edu), Regierungsbehörden (.gov) und Organisationen (.org) befinden sich meistens in den USA und sind gesondert von anderen Domänen aufgeführt.
 
 **[!UICONTROL Postleitzahl des Besuchers]**: Zeigt die Postleitzahlbereiche an, aus denen die Kunden stammten, die die zum Kauf beitragende Erfolgsmetrik am stärksten beeinflussten.
 
