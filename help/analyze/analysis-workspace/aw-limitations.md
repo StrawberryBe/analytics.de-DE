@@ -1,7 +1,7 @@
 ---
-description: Liste der bekannten Einschränkungen im Adobe Analysis Workspace und den zugehörigen Komponenten
+description: Liste der bekannten Einschränkungen in Adobe Analysis Workspace und der zugehörigen Komponenten
 title: Bekannte Einschränkungen in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -29,26 +29,26 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 
 * Segmentvergleich: Das Segment [!UICONTROL Alle anderen] wird nicht erstellt, wenn eine Segmentvorlage in der ersten Dropzone verwendet wird.
 
-## Komponenten &gt; Segmente
+## Komponenten > Segmente
 
 * Bestimmte Metriken und Dimensionen können nicht segmentiert werden, wie [!UICONTROL Vorfälle], [!UICONTROL Unique Visitors] usw.
-* Bestimmte Komponenten und Operatoren sind nicht verfügbar, wenn ein Segment aus Workspace erstellt wird (im Gegensatz zu [!UICONTROL Komponenten &gt; Segmente]). Beispiel: IP-Adresse.
+* Bestimmte Komponenten und Operatoren sind nicht verfügbar, wenn ein Segment aus Workspace erstellt wird (im Gegensatz zu [!UICONTROL Komponenten > Segmente]). Beispiel: IP-Adresse.
 
-## Komponenten &gt; Berechnete Metriken
+## Komponenten > Berechnete Metriken
 
 * Berechnete Metriken können in bestimmten Visualisierungen nicht verwendet werden. Siehe „Visualisierungen“ oben.
 * Berechnete Metriken können nicht im Bereich [!UICONTROL Attribution] verwendet werden, da berechnete Metriken selbst separate Attributionsmodelle enthalten können.
-* Bestimmte Komponenten und Operatoren sind nicht verfügbar, wenn eine berechnete Metrik aus Workspace erstellt wird (im Gegensatz zu [!UICONTROL Komponenten &gt; Segmente]). Beispiel: [!UICONTROL IP-Adresse].
+* Bestimmte Komponenten und Operatoren sind nicht verfügbar, wenn eine berechnete Metrik aus Workspace erstellt wird (im Gegensatz zu [!UICONTROL Komponenten > Segmente]). Beispiel: [!UICONTROL IP-Adresse].
 
-## Komponenten &gt; Datumsbereiche
+## Komponenten > Datumsbereiche
 
 * Benutzerdefinierte Datumsbereiche werden nicht unterstützt [!UICONTROL Dieser Tag im letzten Jahr], [!UICONTROL Dieser Tag im letzten Monat] usw.
 
-## Komponenten &gt; Virtual Report Suites
+## Komponenten > Virtual Report Suites
 
 * Wenn die Berichtszeitverarbeitung aktiviert ist, werden bestimmte Komponenten nicht unterstützt. Eine vollständige Liste finden Sie unter [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md).
 
-## Komponenten &gt; Berichtseinstellungen
+## Komponenten > Berichtseinstellungen
 
 * Einige der Einstellungen auf der Seite [!UICONTROL Berichtseinstellungen] gelten nicht. Analysis Workspace verwendet nur die [!UICONTROL Einstellungen für Sprache/Währung/Kodierung] am unteren Rand: [!UICONTROL Tausendertrennzeichen], [!UICONTROL Kodierung des terminierten Berichts] und [!UICONTROL CSV-Trennzeichen].
 
