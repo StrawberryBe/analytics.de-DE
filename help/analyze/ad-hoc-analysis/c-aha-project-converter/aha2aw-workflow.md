@@ -2,7 +2,7 @@
 description: 'null'
 title: Projekte in Ad Hoc Analysis konvertieren
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,22 +27,22 @@ Für das Konvertieren von Ad Hoc Analysis-Projekten bestehen zwei Optionen:
 
 **Projekte aus einer Liste auswählen**
 
-1. In Ad Hoc Analysis, click **[!UICONTROL File]** &gt; **[!UICONTROL Convert Projects to Analysis Workspace]**.
+1. Klicken Sie in Ad Hoc Analysis auf **[!UICONTROL Datei]** > **[!UICONTROL Projekte in Analysis Workspace exportieren]**.
 
    ![](assets/aha2aw_convert.png)
 
-1. In the **[!UICONTROL Convert Projects to Analysis Workspace]** dialog, select the project to convert or press  +  to select the entire list.
+1. Wählen Sie im Dialogfeld **[!UICONTROL Projekte in Analysis Workspace exportieren]** das Projekt zum Konvertieren oder drücken Sie  +  um die gesamte Liste auszuwählen.
 
    ![](assets/aha2aw_projects.png)
 
 1. Klicken Sie auf **[!UICONTROL Export]**.
-1. In einer [!UICONTROL Exportzusammenfassung] werden nun alle konvertierten Projekte aufgeführt, zusammen mit Statusspalten, in denen angegeben wird, ob das Konvertieren erfolgreich war oder fehlgeschlagen ist, sowie der zugehörige Fehlercode. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. In einer [!UICONTROL Exportzusammenfassung] werden nun alle konvertierten Projekte aufgeführt, zusammen mit Statusspalten, in denen angegeben wird, ob das Konvertieren erfolgreich war oder fehlgeschlagen ist, sowie der zugehörige Fehlercode. Wenden Sie sich mit dem `Error-Id: <Error-Code>` an den Adobe-Kundendienst, wenn Sie eine genauere Diagnose benötigen.
 
    ![](assets/export_summary.png)
 
 **Aktuelles Projekt konvertieren**
 
 1. Öffnen Sie in Ad Hoc Analysis das Projekt, das Sie konvertieren möchten.
-1. Klicken Sie auf **[!UICONTROL Aktuelles Projekt in Analysis Workspace exportieren.]** ![](assets/export_current.png)
+1. Klicken Sie auf **[!UICONTROL Aktuelles Projekt in Analysis Workspace exportieren]**.  ![](assets/export_current.png)
 
-1. In einer [!UICONTROL Exportzusammenfassung] werden nun alle konvertierten Projekte aufgeführt, zusammen mit Statusspalten, in denen angegeben wird, ob das Konvertieren erfolgreich war oder fehlgeschlagen ist, sowie der zugehörige Fehlercode. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. In einer [!UICONTROL Exportzusammenfassung] werden nun alle konvertierten Projekte aufgeführt, zusammen mit Statusspalten, in denen angegeben wird, ob das Konvertieren erfolgreich war oder fehlgeschlagen ist, sowie der zugehörige Fehlercode. Wenden Sie sich mit dem `Error-Id: <Error-Code>` an den Adobe-Kundendienst, wenn Sie eine genauere Diagnose benötigen.
