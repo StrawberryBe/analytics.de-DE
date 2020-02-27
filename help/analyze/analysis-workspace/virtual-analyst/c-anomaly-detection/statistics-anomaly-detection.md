@@ -14,11 +14,11 @@ Die Anomalieerkennung in Analysis Workspace setzt eine Reihe statistischer Verfa
 
 Je nach der im Bericht verwendeten Datumsgranularität werden 3 verschiedene statistische Verfahren eingesetzt – für stündliche, tägliche, wöchentliche/monatliche Anomalieerkennung. Die statistischen Verfahren werden nachfolgend beschrieben.
 
-## Anomalieerkennung für Granularität „Täglich“{#section_758ACA3C0A6B4D399563ECABFB8316FA}
+## Anomalieerkennung für Granularität „Täglich“ {#section_758ACA3C0A6B4D399563ECABFB8316FA}
 
 Für Berichte mit täglicher Granularität berücksichtigt der Algorithmus verschiedene wichtige Faktoren, um Ergebnisse mit höchstmöglicher Genauigkeit bereitzustellen. Zuerst bestimmt der Algorithmus anhand der verfügbaren Daten, welches Modell anzuwenden ist. Die Auswahl erfolgt zwischen zwei Klassen – einem zeitreihenbasierten Modell oder einem Modell zur Erkennung von Ausreißern (als funktionale Filterung bezeichnet).
 
-Die Entscheidung für das zeitreihenbasierte Modell beruht auf den folgenden Kombinationen für den Typ ETS (Error, Trend and Seasonality = Fehler, Trend und Saisonabhängigkeit), wie von [Hyndman und Kollegen (2008)](https://www.springer.com/us/book/9783540719168) beschrieben. Dabei versucht der Algorithmus insbesondere die folgenden Kombinationen:
+Die Entscheidung für das zeitreihenbasierte Modell beruht auf den folgenden Kombinationen für den Typ ETS (Error, Trend and Seasonality = Fehler, Trend und Saisonabhängigkeit), wie von [Hyndman und Kollegen (2008)](https://www.springer.com/de/book/9783540719168) beschrieben. Dabei versucht der Algorithmus insbesondere die folgenden Kombinationen:
 
 1. ANA (Additive error, No trend, Additive seasonality = Additiver Fehler, Kein Trend, Additive Saisonabhängigkeit)
 1. AAA (Additive error, Additive trend, Additive seasonality = Additiver Fehler, Additiver Trend, Additive Saisonabhängigkeit)
@@ -36,7 +36,7 @@ Nach Auswahl des Modells passt der Algorithmus die Ergebnisse basierend auf Feie
 * Black Friday (nur USA)
 * Cyber Monday (nur USA)
 * 24.–26. Dezember
-* &#x200B;1. Januar
+* 1. Januar
 * 31. Dezember
 
 Diese Feiertage wurden anhand umfangreicher statistischer Analysen einer großen Anzahl von Datenpunkten ausgewählt, um die Feiertage zu ermitteln, die den größten Einfluss in den meisten Kunden-Trends gezeigt haben. Die Liste ist zwar nicht für alle Kunden oder Geschäftszyklen vollständig, wir haben jedoch festgestellt, dass eine Berücksichtigung dieser Feiertage die Zuverlässigkeit des Algorithmus insgesamt für fast alle Kundendatensätze stark verbessert hat.
@@ -55,13 +55,13 @@ Beachten Sie im folgenden Beispiel die deutliche Verbesserung der Performance an
 
 ![](assets/anomaly_statistics.png)
 
-## Anomalieerkennung für Granularität „Stündlich“{#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
+## Anomalieerkennung für Granularität „Stündlich“ {#section_014C9E9209AF43F8A03D5D46E3B3AEE7}
 
 Stündliche Daten basieren auf der gleichen Vorgehensweise des zeitreihenbasierten Algorithmus wie beim Algorithmus für tägliche Granularität: Allerdings setzt der Algorithmus hier primär auf zwei Trendmuster: den 24-Stunden-Zyklus sowie den Wochenende-Wochentag-Zyklus. Um diese beiden saisonalen Effekte zu erfassen, erstellt der stündliche Algorithmus zwei separate Modelle (für ein Wochenende und einen Wochentag), wobei er auf die gleiche Weise wie oben beschrieben vorgeht.
 
 Das Trainingfenster für stündliche Trends basiert auf einem 336-Stunden rückwärts gerichteten Fenster.
 
-## Anomalieerkennung für die Granularitäten „Wöchentlich“ und „Monatlich“{#section_5D421576BFBC4B24A58DFCC0A6407545}
+## Anomalieerkennung für die Granularitäten „Wöchentlich“ und „Monatlich“ {#section_5D421576BFBC4B24A58DFCC0A6407545}
 
 Da wöchentliche und monatliche Trends nicht die gleichen wöchentlichen oder täglichen Trends wie bei täglicher oder stündlicher Granularität aufweisen, wird ein separater Algorithmus verwendet. Für wöchentliche oder monatliche Granularität wird ein aus zwei Schritten bestehender Ausreißererkennungsalgorithmus eingesetzt, der als GESD-Test (Generalized Extreme Studentized Deviate, Generalisierte Extreme Studentisierte Abweichung) bezeichnet wird. Dieser Test betrachtet die maximale Anzahl der zu erwartenden Anomalien kombiniert mit dem angepassten Box-Plot-Ansatz (ein nichtparametrisches Verfahren zur Erkennung von Ausreißern), um die maximale Anzahl von Ausreißern zu ermitteln. Die beiden Schritte sehen wie folgt aus:
 
