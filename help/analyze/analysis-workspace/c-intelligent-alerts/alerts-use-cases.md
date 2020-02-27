@@ -22,7 +22,7 @@ Update screenshots for better readability.
 
 ## Erstellen eines Warnhinweises aus einer Tabellenauswahl {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freiform-Tabellen können Sie nun kontextbezogene Warnhinweise erstellen, indem Sie mit der rechten Maustaste auf eine Tabellenzeile klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
+In Freiformtabellen können Sie nun kontextbezogene Warnhinweise erstellen, indem Sie mit der rechten Maustaste auf eine Tabellenzeile klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen]** auswählen.
 
 ![](assets/alert_selection.png)
 
