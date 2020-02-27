@@ -53,7 +53,7 @@ Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum be
 
 Sie können jetzt Zeiträume zu allen Spalten in einer Tabelle hinzufügen. So können Sie einen Zeitraum hinzufügen, der von dem abweicht, auf den Ihr Kalender eingestellt ist. Dies ist eine weitere Möglichkeit, um Daten zu vergleichen.
 
-1. Rechtsklicken Sie auf eine Spalte in der Tabelle und wählen Sie **[!UICONTROL Spalte für Zeitraum hinzufügen]** aus![](assets/add-time-period-column.png)
+1. Rechtsklicken Sie auf eine Spalte in der Tabelle und wählen Sie **[!UICONTROL Spalte für Zeitraum hinzufügen]**![](assets/add-time-period-column.png) aus
 
 1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen die folgenden Optionen zum Vergleich zur Verfügung:
 
