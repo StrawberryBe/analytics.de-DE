@@ -33,7 +33,7 @@ Die Zuordnungsvisualisierung in Analysis Workspace
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Mobiler Breitengrad/Längengrad</b> </p> </td> 
-   <td colname="col2"> <p>Diese Option stellt die Daten der mobilen App dar. </p> <p>Diese Option wird Ihnen nur angezeigt, wenn Sie sie für Ihre Report Suite unter <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">&lt;gewünschte Report Suite&gt;</span> &gt; <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Mobile Management</span> &gt; <span class="uicontrol">Standortverfolgung aktivieren</span></span> aktiviert haben. </p> <p>Das ist die Standardeinstellung (sofern die Standardverfolgung aktiviert ist). </p> </td> 
+   <td colname="col2"> <p>Diese Option stellt die Daten der mobilen App dar. </p> <p>Diese Option wird Ihnen nur angezeigt, wenn Sie sie für Ihre Report Suite unter <span class="ignoretag"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol"> &lt;gewünschte Report Suite&gt; </span> &gt; <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Mobile Management</span> &gt; <span class="uicontrol">Standortverfolgung aktivieren </span> </span> aktiviert haben. </p> <p>Das ist die Standardeinstellung (sofern die Standardverfolgung aktiviert ist). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Geographische Dimensionen</b> </p> </td> 
@@ -50,7 +50,7 @@ Die Zuordnungsvisualisierung in Analysis Workspace
 
 1. Sie können jetzt
 
-   * die Landkarte **heranzoomen**, um bestimmte Bereiche zu vergrößern. Klicken Sie dazu doppelt auf die Landkarte oder nutzen Sie das Scrollrad. Die Landkarte wird an der Stelle herangezoomt, an der Sie den Cursor platziert haben. Durch die Zoom-Interaktion wird die erforderliche Dimension (Land &gt; Bundesland &gt; Stadt) basierend auf dem Zoomfaktor aktualisiert.
+   * die Landkarte **heranzoomen**, um bestimmte Bereiche zu vergrößern. Klicken Sie dazu doppelt auf die Landkarte oder nutzen Sie das Scrollrad. Die Landkarte wird an der Stelle herangezoomt, an der Sie den Cursor platziert haben. Durch die Zoom-Interaktion wird die erforderliche Dimension (Land > Bundesland > Stadt) basierend auf dem Zoomfaktor aktualisiert.
    * zwei oder mehr Map Visualizations im selben Projekt **vergleichen**. Platzieren Sie sie dazu nebeneinander.
    * **Zeitraumsvergleiche anzeigen (beispielsweise Jahresvergleiche)**:
 
