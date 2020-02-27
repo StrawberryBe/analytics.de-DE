@@ -21,9 +21,9 @@ Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Indem Sie zu **[!UICONTROL Workspace]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Neuer Warnhinweis]** navigieren.
-* Indem Sie ein oder mehrere Freiformtabellen-Zeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen]** auswählen.
-* Indem Sie von einem Reports &amp; Analytics-Bericht aus zu **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
+* Indem Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
+* Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
+* Indem Sie in einem Reports &amp; Analytics-Bericht zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
 ## Warnhinweise erstellen
 
