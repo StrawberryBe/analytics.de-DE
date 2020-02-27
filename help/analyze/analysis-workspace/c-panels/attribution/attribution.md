@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Übersicht über das Attributionsbedienfeld
 
->[!IMPORTANT] Das Attributionsbedienfeld ist für Kunden auf SKUs Adobe Analytics Ultimate, Prime, Select und Foundation verfügbar.
+>[!IMPORTANT] Das Attributionsbedienfeld ist für Kunden mit Adobe Analytics Ultimate-, Prime-, Select- und Foundation-SKUs verfügbar.
 
 Das Attributionsbedienfeld ist eine Funktion von [Attribution IQ](../../attribution-iq.md), mit der Sie viele neue Arten von Attributionsmodellen zu Freiformtabellen, Visualisierungen und berechneten Metriken hinzufügen können. Alle Attributionsmodelle weisen zwei Komponenten auf:
 
