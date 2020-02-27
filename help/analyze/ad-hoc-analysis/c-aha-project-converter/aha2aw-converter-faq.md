@@ -2,7 +2,7 @@
 description: 'null'
 title: Project Converter – FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,8 +19,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | Fehler | Beschreibung |
 |--- |--- |
-| Minutengranularität mit Aufschlüsselungen oder in Spalten | Wenn die Granularität "Minute"Unterteilungen enthält oder wenn die Granularität "Minute"in Spalten vorhanden ist, kann das Projekt nicht in den Analysis Workspace konvertiert werden.  Eine Lösung besteht darin, die Aufschlüsselung für die Granularität "Minute"zu entfernen, sie aus den Spalten zu entfernen und das Projekt dann zu konvertieren. Anschließend können Sie Aufschlüsselungen für die Minutengranularität im Analysis Workspace anwenden. |
-| Interne berechnete Metrik, die zusammen mit einem Spaltensegment verwendet wird | Wenn Sie eine interne berechnete Metrik zusammen mit einem Spaltensegment verwenden, kann das Projekt nicht in den Analysis Workspace konvertiert werden. Um dieses Problem zu umgehen, entfernen Sie die internen berechneten Metriken vor der Konvertierung aus dem Projekt und fügen Sie sie dann erneut im Arbeitsbereich für Analysen hinzu. |
+| Minutengranularität mit Aufschlüsselungen oder in Spalten | Wenn die Minutengranularität Aufschlüsselungen enthält oder in Spalten vorhanden ist, kann das Projekt nicht in Analysis Workspace konvertiert werden.  Eine Lösung besteht darin, die Aufschlüsselung für die Minutengranularität zu entfernen, sie aus den Spalten zu entfernen und das Projekt dann zu konvertieren. Anschließend können Sie in Analysis Workspace Aufschlüsselungen für die Minutengranularität anwenden. |
+| Interne, berechnete Metrik, die zusammen mit einem Spaltensegment verwendet wird | Wenn Sie eine interne, berechnete Metrik zusammen mit einem Spaltensegment verwenden, kann das Projekt nicht in Analysis Workspace konvertiert werden. Um dieses Problem zu umgehen, entfernen Sie die internen, berechneten Metriken vor der Konvertierung aus dem Projekt und fügen Sie sie dann erneut in Analysis Workspace hinzu. |
 
 
 ## Häufig gestellte Fragen zur Konversion {#section_1E53FE373AF045978F939916124E194E}
@@ -35,14 +35,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Gibt es Funktionen von Ad Hoc Analysis, die in Analysis Workspace nicht unterstützt werden?</b> </p> </td> 
-   <td colname="col2"> <p>A: Die Site-Analyse wird in Analysis Workspace nicht unterstützt. Es gibt auch einige geringfügige Unterschiede zwischen anderen Visualisierungen in Ad-hoc-Analysen und Workspace. Weitere Informationen dazu können Sie den folgenden Fragen entnehmen. </p> </td> 
+   <td colname="col2"> <p>A: Die Site-Analyse wird in Analysis Workspace nicht unterstützt. Darüber hinaus bestehen leichte Unterschiede bei anderen Visualisierungen in Ad Hoc Analysis und Analysis Workspace. Weitere Informationen dazu können Sie den folgenden Fragen entnehmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden Tabelleneinstellungen konvertiert?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A645A004FB094A1593439A6607FE9A6B"> 
      <li id="li_033CA771F08A4BC3B0BC52CDCCA03FF4"><b>Anzahl an dargestellten Zeilen</b>: Analysis Workspace ist paginiert, um nur 10 Zeilen anzuzeigen (anpassbar für eine Darstellung von bis zu 400 Zeilen gleichzeitig), Ad Hoc Analysis hingegen zeigt bis zu 50.000 Zeilen auf einer Seite an. Beachten Sie, dass sich die Daten dabei alle in Workspace befinden, die Darstellung ist lediglich auf den Standardwert von 10 Zeilen festgelegt. </li> 
-     <li id="li_A8B8890149334032A56D8D1C0F8691EA"><b>Erweiterte Suche: </b>Mehrere gleichzeitige Suchoptionen werden nicht unterstützt, eine einzelne Suchoption (wie <span class="wintitle">Alle Wörter</span>, <span class="wintitle">Der exakte Begriff</span>, <span class="wintitle">Eines dieser Wörter</span> oder <span class="wintitle">Keines dieser Wörter</span>) wird nach Analysis Workspace konvertiert. </li> 
+     <li id="li_A8B8890149334032A56D8D1C0F8691EA"><b>Erweiterte Suche:</b> Mehrere gleichzeitige Suchoptionen werden nicht unterstützt, eine einzelne Suchoption (wie <span class="wintitle">Alle Wörter</span>, <span class="wintitle">Der exakte Begriff</span>, <span class="wintitle">Eines dieser Wörter</span> oder <span class="wintitle">Keines dieser Wörter</span>) wird nach Analysis Workspace konvertiert. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -50,9 +50,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>A: Beachten Sie, dass Diagramme und Grafiken in Workspace als „Visualisierungen“ bezeichnet werden. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Einstellungen</b>: Visualisierungseinstellungen wie die „Anzahl der Elemente“ oder „Anzahl an Balken“ werden in Workspace nicht unterstützt. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Tortendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  >Donut</a>-Visualisierung. Diese Visualisierung wird in Workspace nach 19 Abschnitten abgeschnitten. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Blasendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  >Streudiagramm</a>-Visualisierung. Im Streudiagramm wird die erste Kennzahl standardmäßig auf der X-Achse positioniert und die zweite auf der Y-Achse. Sofern nur eine Kennzahl vorhanden ist, werden Blasendiagramme in Linienvisualisierungen umgewandelt. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramm</b>: Unterstützt für Analysis Workspace und Ad Hoc Analysis eine unterschiedliche Bucket-Logik. Daher wird ein Histogramm in eine <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  >Balken</a>visualisierung umgewandelt. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Tortendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/donut.html"  >Donut</a>-Visualisierung. Diese Visualisierung wird in Workspace nach 19 Abschnitten abgeschnitten. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Blasendiagramm</b>: Exportiert als <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/scatterplot.html"  >Streudiagramm</a>-Visualisierung. Im Streudiagramm wird die erste Kennzahl standardmäßig auf der X-Achse positioniert und die zweite auf der Y-Achse. Sofern nur eine Kennzahl vorhanden ist, werden Blasendiagramme in Linienvisualisierungen umgewandelt. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramm</b>: Unterstützt für Analysis Workspace und Ad Hoc Analysis eine unterschiedliche Bucket-Logik. Daher wird ein Histogramm in eine <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/bar.html"  >Balken</a> visualisierung umgewandelt. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Streudiagramm</b>: In exportierten Projekten in Analysis Workspace wird die Y-Achse als erste Spalte, die X-Achse als zweite und der Durchmesser als dritte Spalte festgelegt. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Trichteranalysetabellen</b>: Wenn Sie Fallthrough- oder Trichteranalysetabellen anzeigen möchten, klicken Sie mit der rechten Maustaste auf den Checkpoint und wählen eine Aufschlüsselungsoption aus. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumsbereiche für Trichteranalyse-Berichtsebene</b>: Angepasste Datumsbereiche werden nicht auf Trichteranalyse-Visualisierungen angewendet. </li> 
@@ -65,19 +65,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> 
     <ul id="ul_15D5B17461E2402DB07DF8B0A10AAC37"> 
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Segmente befinden sich innerhalb des konvertierten Projekts (und sind nicht öffentlich). Sie können diese jedoch als öffentlich festlegen, wie im Folgenden dargestellt: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
-     <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Segmente der Ad Hoc Analysis auf Arbeitsbereichsebene werden in Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
+     <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Der Datumsbereich auf Ad Hoc Analysis-Arbeitsbereichsebene wird in Analysis Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Segmente der Ad Hoc Analysis auf Berichtsebene werden in Workspace auf Tabellenspaltenebene angewendet. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis-Tabellensegmente werden in Workspace auf Spaltenebene angewendet. </li> 
-    </ul> <p>Die Segmente lassen sich im <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >Segment-Builder</a> bearbeiten. </p> </td> 
+    </ul> <p>Die Segmente lassen sich im <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/"  >Segment-Builder</a> bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden Datumsbereiche konvertiert?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. Daher stimmen Datumsbereiche wie "letzte 90 Tage"möglicherweise nicht genau zwischen den Tools überein. Nutzen Sie individuelle Datumsbereiche, um den gleichen Zeitraum in Analysis Workspace abzurufen. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">In dem Datumsbereich „Letzte X Tage“ in Ad Hoc Analysis wird der heutige Tag <i>nicht einbezogen</i>, in Analysis Workspace hingegen <i>erfolgt die Einbeziehung</i> des aktuellen Tages. Daher wird ein Datumsbereich wie „Letzte 90 Tage“ in den beiden Tools unter Umständen keine genaue Übereinstimmung liefern. Nutzen Sie individuelle Datumsbereiche, um den gleichen Zeitraum in Analysis Workspace abzurufen. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Der Datumsbereich auf Ad Hoc Analysis-Arbeitsbereichsebene wird in Analysis Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Der Datumsbereich auf Ad Hoc Analysis-Berichtsebene wird in Analysis Workspace auf Tabellenspaltenebene angewendet. </li> 
-    </ul> <p>Sie haben die Möglichkeit, benutzerdefinierte Datumsbereiche zu bearbeiten, unter <span class="uicontrol">Analyse</span> &gt; <span class="uicontrol">Komponenten</span> &gt; <span class="uicontrol">Datumsbereiche</span>. </p> </td> 
+    </ul> <p>Sie haben die Möglichkeit, benutzerdefinierte Datumsbereiche unter <span class="uicontrol">Analyse</span> &gt; <span class="uicontrol">Komponenten</span> &gt; <span class="uicontrol">Datumsbereiche</span> zu bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden berechnete Kennzahlen konvertiert?</b> </p> </td> 
@@ -86,7 +86,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_010572F793F54680ABE64117DAB7E800">Berechnete Kennzahlen befinden sich innerhalb des exportierten Projekts (und sind nicht öffentlich). Sie können diese jedoch als öffentlich festlegen, indem Sie mit der rechten Maustaste auf die Kennzahl klicken und die Option <span class="uicontrol">Veröffentlichen</span> wählen. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">Für den Export werden alle Arten berechneter Kennzahlen unterstützt. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>Zuordnungstypen</b>: Obwohl in Analysis Workspace der Zuordnungstyp einer berechneten Kennzahl nicht explizit angezeigt wird, wird beim Export der Zuordnungstyp erstellt und zugeordnet, der in Ad Hoc Analysis vorhanden war. </li> 
-    </ul> <p>Sie haben die Möglichkeit, den Zuordnungstyp im <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  >Generator für berechnete Metriken</a> zu bearbeiten, indem Sie auf das Symbol zum Bearbeiten (Bleistift) klicken. </p> </td> 
+    </ul> <p>Sie haben die Möglichkeit, den Zuordnungstyp im <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/"  >Generator für berechnete Metriken</a> zu bearbeiten, indem Sie auf das Symbol zum Bearbeiten (Bleistift) klicken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden globale Dateneinstellungen in Ad Hoc Analysis auf konvertierte Projekte angewendet?</b> </p> </td> 
@@ -102,7 +102,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Gibt es für die beiden Tools Unterschiede bei der Benennung?</b> </p> </td> 
-   <td colname="col2"> <p>A: Ja. Weitere Informationen zu diesem Thema finden Sie in der Dokumentation von Analysis Workspace unter dem <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >Vergleich der wichtigsten Terminologie</a>. </p> </td> 
+   <td colname="col2"> <p>A: Ja. Weitere Informationen zu diesem Thema finden Sie in der Dokumentation von Analysis Workspace unter dem <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >Vergleich der wichtigsten Terminologien</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
