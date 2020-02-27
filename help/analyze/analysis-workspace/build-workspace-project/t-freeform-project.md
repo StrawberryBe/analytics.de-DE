@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace-Projekt erstellen
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,19 +20,19 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
 1. Legen Sie die Benutzerberechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **[!UICONTROL Erstellen/Kuratieren von Projekten in Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte]**. ( **[!UICONTROL Admin]** &gt;**[!UICONTROL Benutzerverwaltung]** &gt; [Gruppen](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **[!UICONTROL Erstellen/Kuratieren von Projekten in Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte]**. (**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppen](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html)).
 
-1. Klicken Sie in [!DNL Experience Cloud] auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. Klicken Sie in [!DNL Experience Cloud] auf **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
-   Geben Sie alternativ einen Schrägstrich (/) ein, um die Berichtssuche zu öffnen, und geben Sie *`workspace`* ein,
+   Geben Sie alternativ einen Schrägstrich (/) ein, um die Berichtssuche zu öffnen, und geben Sie *`workspace`* ein.
 
    ![](assets/analysis-app-search.png)
 
 1. Klicken Sie auf **[!UICONTROL Neues Projekt erstellen]**.
 
-   Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte
+   Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 * Ein leeres Projekt (Standard). Eine Anleitung finden Sie unten.
 * Eine Standardvorlage. Diese Vorlagen wurden von Adobe erstellt und können sofort verwendet werden. Eine Anleitung finden Sie unter [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
