@@ -1,10 +1,10 @@
 ---
-description: Beispiele zur Verwendung von Datentabellen und Segmenten sowie exemplarische Anwendungsfälle für den Analysis Workspace.
+description: Beispiele zur Verwendung von Datentabellen und Segmenten sowie exemplarische Anwendungsfälle für Analysis Workspace.
 keywords: Analysis Workspace
 title: Anwendungsfälle von Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Anwendungsfälle von Analysis Workspace
 
-Beispiele zur Verwendung von Datentabellen und Segmenten sowie exemplarische Anwendungsfälle für den Analysis Workspace.
+Beispiele zur Verwendung von Datentabellen und Segmenten sowie exemplarische Anwendungsfälle für Analysis Workspace.
 
 Sie können Ihre gesamten Daten im Hinblick auf spezifische Fragen untersuchen und Berichte zu den Interaktionen Ihrer Kunden und den Interessen der Zielgruppe zusammenstellen. In einer Freiformumgebung können Sie Dimensionen, Metriken und Segmente über einen Zeitraum hinweg anwenden, um die gewünschten Daten direkt abzurufen. Entwerfen Sie Ihre Analyse so, dass sie spezifische Fragen beantwortet, und veröffentlichen Sie die Informationen dann in komplexen Berichten und Visualisierungen, die freigegeben und auch von Geschäftsanwendern mit hohem Zeitdruck problemlos interpretiert werden können.
 
@@ -57,5 +57,5 @@ Angenommen Sie sind Marketinganalyst eines Einzelhändlers für Outdoor-Ausrüst
 
    Jetzt haben Sie die Daten bereits auf eine Weise aufgeschlüsselt, die Empfehlungen und Cross-Sells ermöglicht, die Ihre Verkaufsteams in andere Kampagnen implementieren können. Auf diese Weise können Sie noch mehr Umsatz für Ihr Unternehmen erzielen. Sie können weiter aufschlüsseln, bis Sie die gesuchten Ergebnisse erhalten.
 
-   Jetzt können Sie den Bericht für diese Merchandising-Teams [freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
+   Jetzt können Sie den Bericht für diese Merchandising-Teams  [freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
