@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace – Übersicht
+title: Analysis Workspace  Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 ## Überblickvideo {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -71,7 +71,7 @@ Wenn Bereiche oder Visualisierungen innerhalb Ihres Projekts ausgeblendet sind, 
 
 ## Verknüpfung zu anderen Projekten {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-Sie können Benutzer mit anderen u. U. für sie interessanten Projekten verknüpfen, indem Sie **[!UICONTROL Freigabe]** &gt; **[!UICONTROL Projektverknüpfung abrufen]** aufrufen und diesen Link z. B. in Projektbeschreibungen einbetten.
+Sie können Benutzer mit anderen u. U. für sie interessanten Projekten verknüpfen, indem Sie **[!UICONTROL Freigabe]** > **[!UICONTROL Projektverknüpfung abrufen]** aufrufen und diesen Link z. B. in Projektbeschreibungen einbetten.
 
 ## Dynamische Visualisierung ausgewählter Zellen {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -89,7 +89,7 @@ Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Date
 
 ## Trend-Visualisierungen aus ausgewählten Zellen {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick &gt; **[!UICONTROL Trendauswahl]**.)
+Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick > **[!UICONTROL Trendauswahl]**.)
 
 ![](assets/trend-selection.png)
 
@@ -123,7 +123,7 @@ Siehe [Segmente](/help/analyze/analysis-workspace/components/t-freeform-project-
 
 In Analysis Workspace können Sie Tags auf Projekte und Komponenten anwenden:
 
-* Anwenden oder Erstellen von Tags auf Projektebene im Informationsbereich (![](assets/information_icon.png)
+* Anwenden oder Erstellen von Tags auf Projektebene im Informationsbereich ![](assets/information_icon.png)
 
 * Rechtsklick auf Komponenten zum Taggen (oder Erstellen von Tags) im Komponentenbereich
 * Suchen von Tags durch Eingabe von „#“ im Suchfeld
@@ -134,13 +134,13 @@ Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, 
 
 | Komponentenaktion | Beschreibung |
 |--- |--- |
-| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ &gt; „Komponenten“ &gt; „Segmente“ oder „Analysen“ &gt; „Komponenten“ &gt; „Projekte“. |
-| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ &gt; „Komponenten“ &gt; „Segmente“ oder „Analysen“ &gt; „Komponenten“ &gt; „Projekte“. |
-| Genehmigen | Genehmigen Sie die Komponente, um sie zu autorisieren. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ &gt; „Komponenten“ &gt; „Segmente“ oder „Analysen“ &gt; „Komponenten“ &gt; „Projekte“. |
+| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Genehmigen | Genehmigen Sie die Komponente, um sie zu autorisieren. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
 | Freigabe | Gilt nur für Segmente. |
 | Löschen | Gilt nur für Segmente. |
 
-Weitere Informationen zu diesem Thema finden Sie unter [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+Weitere Informationen zu diesem Thema finden Sie unter  [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 ## Beschreibung weiterer Funktionen {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -187,4 +187,4 @@ Ein spezifisches Standardsegment von Analysis Workspace. *`All Visits`* zeigt di
 
 Verwenden Sie Berechnungen so, wie Sie Standardmetriken verwenden.
 
-Siehe [Berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Siehe [Berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/).
