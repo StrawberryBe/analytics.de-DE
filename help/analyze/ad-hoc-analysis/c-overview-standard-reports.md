@@ -3,7 +3,7 @@ description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, 
 title: Berichtübersicht
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Diese Berichte werden in der Regel benutzerspezifisch angepasst und unterscheiden sich daher für jeden Analysten. Weitere Informationen finden Sie in der Hilfe zur [ unter ](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html)Kampagnen-Manager[!DNL Admin Console].
+Diese Berichte werden in der Regel benutzerspezifisch angepasst und unterscheiden sich daher für jeden Analysten. Weitere Informationen dazu finden Sie in der Hilfe zu [!DNL Admin Console] unter [Campaign Manager](https://marketing.adobe.com/resources/help/de_DE/reference/campaign_manager_admin.html).
 
 ## Statistische Berechnungen {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,7 +74,7 @@ Rangberichte können um weitere Standardstatistiken ergänzt werden, die beim Au
 
 **So öffnen Sie die Statistikberechnungen für Rangberichte:**
 
-1. Select **[!UICONTROL Tools]** &gt; **[!UICONTROL Ranked]** from the menu.
+1. Wählen Sie im Menü **[!UICONTROL Werkzeuge]** > **[!UICONTROL Rangansicht]**.
 
 1. Wählen Sie **[!UICONTROL Einstellungen]**.
 1. Wählen Sie **[!UICONTROL Standardstatistik]**.
@@ -92,7 +92,7 @@ Rangberichte können um weitere Standardstatistiken ergänzt werden, die beim Au
 | Quartile | Ein Quartil ist eine Gruppe von Werten in einem Datensatz, die durch drei Punkte definiert wird, welche den Datensatz in vier gleichgroße Datengruppen teilen, die jeweils ein Viertel des Datensatzes ausmachen. Das erste Quartil ist das 25. Perzentil, das dritte Quartil ist das 75. Perzentil. (Das zweite Quartil ist das arithmetische Mittel, das vierte Quartil ist die Summe.) |
 | Anzahl | Anzahl der Reihen in einem Datensatz. |
 
-## Beispiel der Berechnung arithmetisches Mittel vs. Metrik insgesamt {#section_7C49196503964FB0A429FA347BC92D09}
+## Beispiel der Berechnung arithmetisches Mittel vs. Metrik insgesamt  {#section_7C49196503964FB0A429FA347BC92D09}
 
 Das arithmetische Mittel wird ähnlich wie bei Spalten in Microsoft Excel berechnet. Das bedeutet, dass das **arithmetische Mittel** eines Verhältnisses (z. B. beim Bestimmen der durchschnittlichen Absprungrate) dem Durchschnitt der Verhältnisse und nicht dem Verhältnis der Durchschnitte entspricht. Das Verhältnis der Durchschnitte umfasst den **Gesamtwert** der Absprungraten-Metrik.
 
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-In einem Bericht, der Zeitdaten darstellt, können Sie über die Schaltfläche **[!UICONTROL Statistiken]Berechnungen auswählen, die als Überlagerung über der Zeitleiste des Berichts angezeigt werden.**
+In einem Bericht, der Zeitdaten darstellt, können Sie über die Schaltfläche **[!UICONTROL Statistiken]** Berechnungen auswählen, die als Überlagerung über der Zeitleiste des Berichts angezeigt werden.
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
+Erweiterung der Standardfunktionen  [Statistische Berechnungen](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585): Sie können die 1., 2. und 3. Standardabweichung der Überlagerungen auswählen.
 
 ## Gruppen-Manager {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Sie können Gruppen vom Hauptmenü aus oder innerhalb des Berichts bearbeiten. Von Ihnen in „Marketing Reports and Analytics“ erstellte Kategorien erscheinen ebenfalls in der [!UICONTROL Checkpoint-Auswahl].
+Statt eine einzelne Seite in einem Bericht zu verwenden, können Sie mehrere Seiten gruppieren und sie als Kategorien für Start-, Zwischen- oder Endpunkte im Bericht [!UICONTROL Fallout] und [!UICONTROL Site-Analyse] verwenden. Sie können Gruppen vom Hauptmenü aus oder innerhalb des Berichts bearbeiten. Von Ihnen in „Marketing Reports and Analytics“ erstellte Kategorien erscheinen ebenfalls in der [!UICONTROL Checkpoint-Auswahl].
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
+Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Gruppen-Manager]**.
