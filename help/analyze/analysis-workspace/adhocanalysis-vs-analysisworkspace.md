@@ -16,7 +16,7 @@ Analysis Workspace bringt viele Funktionen von Ad Hoc Analysis in den Arbeitsabl
 
 Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderungen der beiden Produkte finden Sie [hier](https://marketing.adobe.com/resources/help/de_DE/reference/analytics-product-comparison.html).
 
-## Vergleich der Schlüsselbegriffe {#section_6109406B83B043A18E46D38F130B1D2E}
+## Vergleich der Schlüsselbegriffe  {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -24,17 +24,17 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
 | Workspace | Bereich |
 | Bericht | Freiformtabelle |
 | Diagramme | Visualization |
-| Hierarchie: Projekt &gt; Workspace &gt; Berichte | Hierarchie: Projekt &gt; Bedienfelder &gt; Tabellen |
+| Hierarchie: Projekt > Workspace > Berichte | Hierarchie: Projekt > Bedienfelder > Tabellen |
 | Berichtsvorlagen „Bewerteter Bericht“, „Trendbericht“, „Summenbericht“ | Freiformtabellen-Visualisierung |
 | Flussvorlage | Flussvisualisierung |
 | Fallout | Fallout-Visualisierung |
 
-## Vergleich der wichtigsten Aufgaben {#section_F31446F1DFA742D794A30D713E223440}
+## Vergleich der wichtigsten Aufgaben  {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis Aufgabe </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis  Aufgabe </th> 
    <th colname="col2" class="entry"> Aufgabe in Analysis Workspace </th> 
   </tr>
  </thead>
@@ -72,7 +72,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Fallout kann für einen Besuch oder Besucher gelten. Optional kann „Alle Besuche“ einbezogen werden. Für Fallout kann über das Kontextmenü schnell ein Trend erstellt werden. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Dimensionselemente können mit einem ODER-Operator verknüpft werden (ähnlich wie Gruppen) und Ereignisse können im Trichter verwendet werden. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Die nächsten Fallthrough- und Fallout-Schritte können auch über das Kontextmenü gerendert werden. </li> 
-    </ol> <p>Außerdem können Sie mit der Fallout-Funktion in Analysis Workspace <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > gemischte Dimensionen</a> innerhalb von Schritten verwenden, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. Gemischte Dimensionen in Schritten werden mit einem UND-Operator verwendet. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Fallout und Trichter</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Verwendung mehrerer Fallout-Dimensionen</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Vergleich von Segmenten in Fallout</a> </p> </td> 
+    </ol> <p>Außerdem können Sie mit der Fallout-Funktion in Analysis Workspace  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > gemischte Dimensionen</a> innerhalb von Schritten verwenden, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. Gemischte Dimensionen in Schritten werden mit einem UND-Operator verwendet. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Fallout und Trichter</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Verwendung mehrerer Fallout-Dimensionen</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Vergleich von Segmenten in Fallout</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fluss untersuchen (Pfade) </p> </td> 
@@ -80,7 +80,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Der Fluss kann für einen Besuch oder Besucher gelten. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Die wichtigsten Statistiken werden als prozentuale Pfadansichten gezeigt. </li> 
-    </ul> <p>Außerdem ermöglicht der Fluss <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > gemischte Dimensionen</a> sowie die Fähigkeit, mit der rechten Maustaste zu klicken und ein Segment zu erstellen, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. </p> <p>Derzeit ist mit dem Fluss in Analysis Workspace Folgendes <b>nicht möglich</b>: </p> 
+    </ul> <p>Außerdem ermöglicht der Fluss  <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > gemischte Dimensionen</a> sowie die Fähigkeit, mit der rechten Maustaste zu klicken und ein Segment zu erstellen, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. </p> <p>Derzeit ist mit dem Fluss in Analysis Workspace Folgendes <b>nicht möglich</b>: </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">Wiederholte Instanzen deaktivieren. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Nutzern ermöglichen, ein Erfolgsereignis zu wählen. </li> 
