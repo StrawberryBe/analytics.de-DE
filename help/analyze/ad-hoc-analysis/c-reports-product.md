@@ -3,7 +3,7 @@ description: Bietet Informationen über alle Artikel/Produkte, die Sie auf Ihrer
 title: Produktberichte
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,4 +35,4 @@ c_reports_categories.xml
 
  -->
 
-Zeigt an, wie verschiedene Produktkategorien die Erfolgsmetrik Ihrer Site beeinflussen.
+Zeigt an, wie verschiedene Produktkategorien die Erfolgsmetriken Ihrer Site beeinflussen.
