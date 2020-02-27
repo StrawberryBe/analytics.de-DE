@@ -16,7 +16,7 @@ Die Bedienfelder „Leeres Bedienfeld“ und „Freiform-Bedienfeld“ bieten si
 
 Das standardmäßige Start-Bedienfeld ist das Freiform-Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als Ihren Standard festlegen.
 
-## Dropdown-Filter in Bedienfeldern {#section_D2828EEDD52944528E87F470EAB581CF}
+## Dropdown-Filter in Bedienfeldern  {#section_D2828EEDD52944528E87F470EAB581CF}
 
 Die Dropzone für Bedienfelder verfügt über Dropdown-Filterfunktionen. Mit diesen Filtern können Sie kontrolliert mit den Projektdaten interagieren und somit tiefgreifende Analysen durchführen, Ihre Projekte vereinfachen und/oder Erkenntnisse mit anderen teilen.
 
