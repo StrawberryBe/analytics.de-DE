@@ -14,8 +14,8 @@ Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berich
 
 Mit Fallout-Visualisierungen können Sie:
 
-* eine Gegenüberstellung zweier verschiedener Segmente im gleichen Bericht vornehmen.
-* Trichterschritte (Touchpoints) ziehen, ablegen und neu anordnen.
+* eine Gegenüberstellung zweier verschiedener Segmente im gleichen Bericht vornehmen
+* Trichterschritte (Touchpoints) ziehen, ablegen und neu anordnen
 * Werte aus unterschiedlichen Dimensionen und Metriken mischen und kombinieren
 * Einen multidimensionalen Fallout-Bericht erstellen
 * Feststellen, wohin Kunden unmittelbar nach dem Ausstieg navigieren
