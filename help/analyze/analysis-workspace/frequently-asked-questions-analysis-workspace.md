@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Administrationsanforderungen
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,7 +34,7 @@ Systemanforderungen für Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Benutzer </td> 
-   <td colname="col2"> <p>Um den Zugriff auf die Registerkarte „Workspace“ in Analytics zu aktivieren, müssen Administratoren Benutzer zur Gruppe <span class="uicontrol">Analysis Workspace-Zugriff</span> unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Gruppen</a> hinzufügen. </p> </td> 
+   <td colname="col2"> <p>Um den Zugriff auf die Registerkarte „Workspace“ in Analytics zu aktivieren, müssen Administratoren Benutzer zur Gruppe <span class="uicontrol">Analysis Workspace-Zugriff</span> unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <a href="https://marketing.adobe.com/resources/help/de_DE/reference/groups.html"  >Gruppen</a> hinzufügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Projekte übertragen </td> 
