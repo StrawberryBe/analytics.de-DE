@@ -1,9 +1,9 @@
 ---
-description: Ad-hoc-Analysen werden in die Umgebung der Analytics-Segmentierung integriert, sodass Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, freigeben, verwalten und anwenden können. Ad-hoc-Analysen bieten eine Java-basierte Benutzeroberfläche für Segment Builder und Segment Manager, die mit den webbasierten Werkzeugen anderer Analytics-Werkzeuge identisch ist. Dadurch werden Serveraufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt.
+description: Ad Hoc Analysis können in die Analytics-Segmentierungs-Umgebung integriert werden. So können Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, teilen, verwalten und anwenden. Ad Hoc Analysis bietet für Segment Builder und Segment Manager dieselbe Java-basierte Benutzeroberfläche, die auch von anderen webbasierten Analytics-Werkzeugen verwendet wird. Dadurch können Server-Aufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt werden.
 title: Segmente erstellen
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,87 +11,87 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Segmente erstellen
 
-Ad-hoc-Analysen werden in die Umgebung der Analytics-Segmentierung integriert, sodass Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, freigeben, verwalten und anwenden können. Ad-hoc-Analysen bieten eine Java-basierte Benutzeroberfläche für Segment Builder und Segment Manager, die mit den webbasierten Werkzeugen anderer Analytics-Werkzeuge identisch ist. Dadurch werden Serveraufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt.
+Ad Hoc Analysis können in die Analytics-Segmentierungs-Umgebung integriert werden. So können Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, teilen, verwalten und anwenden. Ad Hoc Analysis bietet für Segment Builder und Segment Manager dieselbe Java-basierte Benutzeroberfläche, die auch von anderen webbasierten Analytics-Werkzeugen verwendet wird. Dadurch können Server-Aufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt werden.
 
-Ad Hoc Analysis umfassen bewährte Funktionen zum Erstellen von Segmenten, aber auch neue Funktionsupgrades wie den [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) zum Einrichten eines [Segmentverwaltungs arbeitsablaufs](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html). Sie können wie gewohnt im [Segment-Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) Segmente erstellen und speichern, [oder Sie können über die Ad Hoc Analysis-Konsole](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) Segmente aus einem Fallout-Bericht erstellen und dann die neuen oder erweiterten Segmente in der Zielgruppenbibliothek speichern, damit sie allgemein zugänglich sind und angewendet werden können. ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis umfassen bewährte Funktionen zum Erstellen von Segmenten, aber auch neue Funktionsupgrades wie den [Segment Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html) zum Einrichten eines [Segmentverwaltungs arbeitsablaufs](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_workflow.html). Sie können wie gewohnt im [Segment-Builder](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_build.html) Segmente erstellen und speichern, [oder Sie können über die Ad Hoc Analysis-Konsole](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/t_seg_fallout.html) Segmente aus einem Fallout-Bericht erstellen und dann die neuen oder erweiterten Segmente in der Zielgruppenbibliothek speichern, damit sie allgemein zugänglich sind und angewendet werden können.  ![](assets/seg__overview_ad_hoc.png)
 
 ## Einheitliche Segmentierung in Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Informationen zum Erstellen und Verwalten von Segmenten in der Umgebung der einheitlichen Segmentierung, einschließlich der Ad-hoc-Analysefunktionen, finden Sie in der Dokumentation zum Bereich [Einheitliche Segmentierung](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html).
+Informationen zum Erstellen und Verwalten von Segmenten in der Umgebung der einheitlichen Segmentierung, einschließlich der Ad-hoc-Analysefunktionen, finden Sie in der Dokumentation zum Bereich [Einheitliche Segmentierung](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/index.html).
 
 * [Neue Funktionen](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
-* [Änderungen der Segmentdefinition](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
+* [Änderungen der Segmentdefinition](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_definition.html)
 * [Was ist mit meinen vorhandenen Segmenten passiert?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [Was ist mit meinen vorhandenen Segmentordnern passiert?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Kann ich mit dem Segment-Manager alle Analytics-Segmente verwalten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [Was soll ich mit doppelten Segmenten tun, die ...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [Welche Maßnahmen empfiehlt Adobe zum Aufräumen von Segmenten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [Was ist ein Treffer-Container? Unterscheidet er sich vom Seitenansichts-Container?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [Welche Berechtigungen benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [Was soll ich mit doppelten Segmenten tun, die...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Wie lautet die Empfehlung von Adobe für das Bereinigen von Segmenten?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
 * [Warum kann ich dieses Segment nicht löschen?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
 * [Weitere Informationen zu bestehenden Segmenten](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Funktionen {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* [Alle Segmente gelten nun für alle Report Suites. ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) Bisher waren die Segmente spezifisch für die jeweilige Report Suite.
-* Der neue [Segment-Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) ermöglicht die Einrichtung von [Workflows](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
+* [Alle Segmente](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_overview.html) gelten nun für alle Report Suites. Bisher waren die Segmente spezifisch für die jeweilige Report Suite.
+* Der neue [Segment-Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html) ermöglicht die Einrichtung von [Workflows](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_workflow.html) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
 
-* Der [Segment-Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) wurde aktualisiert, um das Erstellen von Segmenten zu vereinfachen.
-* Sie können Segmente zum Organisieren und Suchen [taggen](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html), anstatt Ordner zu verwenden. Bisher wurden Ordner verwendet (in [!DNL ad hoc analysis]), um Segmente zu organisieren.
+* Der [Segment-Builder](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_build_ui.html) wurde aktualisiert, um das Erstellen von Segmenten zu vereinfachen.
+* Sie können Segmente zum Organisieren und Suchen [taggen](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_tag.html), anstatt Ordner zu verwenden. Bisher wurden Ordner verwendet (in [!DNL ad hoc analysis]), um Segmente zu organisieren.
 
-* [Sequenzielle Segmente](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) können jetzt außerhalb von Ad Hoc Analysis erstellt werden.
+* [Sequenzielle Segmente](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_sequential.html) können jetzt außerhalb von Ad Hoc Analysis erstellt werden.
 * 
 
 >[!NOTE]
 >
->In Ad-hoc-Analysen können Sie keine Datumsbereiche zu Segmenten hinzufügen. Diese Funktion ist in Analysis Workspace verfügbar. Außerdem können Sie „Nur vor Sequenz“ oder „Nur nach Sequenz“ in Ad Hoc Analysis nicht verwenden.
+>In Ad Hoc Analysis können Sie Segmenten keine Datumsbereiche hinzufügen. Diese Funktion ist in Analysis Workspace verfügbar. Außerdem können Sie „Nur vor Sequenz“ oder „Nur nach Sequenz“ in Ad Hoc Analysis nicht verwenden.
 
 ## Was ist mit meinen vorhandenen Segmenten passiert? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-Ihre vorhandenen Segmente funktionieren genau wie vor der Einführung der Analytics-Segmentierung. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt.
+Ihre vorhandenen Segmente funktionieren genau wie vor der Einführung der Analytics-Segmentierung. Alle Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als [Segment-Vorlagen](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html) in den Segment-Builder migriert. Mit Segmentvorlagen können Sie schnell benutzerdefinierte Segmente für Standard-Zielgruppen erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als [Segment-Vorlagen](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_templates.html) in den Segment-Builder migriert. Mit Segmentvorlagen können Sie schnell benutzerdefinierte Segmente für Standard-Zielgruppen erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
-## Was ist mit meinen vorhandenen Segmentordnern passiert? {#section_FB04DCF775694E69B761DCA53F301C30}
+## Was ist mit meinen vorhandenen Segmentordnern passiert?  {#section_FB04DCF775694E69B761DCA53F301C30}
 
-Anstatt der (Ad Hoc Analysis-)Ordner verwendet der Segment-Manager [Tags](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html). Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
+Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager [Tags](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_tag.html). Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
 
-## Kann ich alle Analytics-Segmente im Segment-Manager verwalten? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## Kann ich alle Analytics-Segmente im Segment-Manager verwalten?  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Im Segment Manager der Ad Hoc Analysis sehen Sie nur Ihre eigenen Segmente (Segmente, die Sie selbst erstellt haben) und Segmente, die für Sie freigegeben wurden.
 
-## Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer? {#section_65BBE60A836C4001938830DDA15DC256}
+## Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer?  {#section_65BBE60A836C4001938830DDA15DC256}
 
-Der Seitenansichtscontainer wurde in Treffercontainer umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. Zum Beispiel werden Linktracking-Aufrufe und [!DNL trackAction]-Aufrufe von mobilen SDKs vom Treffer-Container entweder komplett eingeschlossen oder ausgeschlossen.
+Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. Zum Beispiel werden Linktracking-Aufrufe und [!DNL trackAction]-Aufrufe von mobilen SDKs vom Treffer-Container entweder komplett eingeschlossen oder ausgeschlossen.
 
-Beachten Sie, dass sich die Funktionsweise dieses Behälters nicht geändert hat. Er wurde lediglich umbenannt.
+Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
-## Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten? {#section_648DFA3A882146C485A84ED014EEC707}
+## Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?  {#section_648DFA3A882146C485A84ED014EEC707}
 
 Alle Benutzer können persönliche Segmente erstellen und bearbeiten. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
 
-Admins können alle Segmente bearbeiten, [Segmente für Gruppen freigeben](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html) und [Rechte](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html) für den Zugriff auf Segmente innerhalb der Organisation festlegen.
+Admins können alle Segmente bearbeiten, [Segmente für Gruppen freigeben](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/t_seg_share.html) und [Rechte](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_rights.html) für den Zugriff auf Segmente innerhalb der Organisation festlegen.
 
-## Was mache ich mit doppelten Segmenten, die zwar denselben Namen, aber unterschiedliche Definitionen haben? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## Was mache ich mit doppelten Segmenten, die zwar denselben Namen, aber unterschiedliche Definitionen haben?  {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 Da Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Wir empfehlen Folgendes:
 
 * Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
 * Löschen Sie Segmente, die Sie nicht mehr benötigen.
 
-## Welche Maßnahmen empfiehlt Adobe zum Aufräumen von Segmenten? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Welche Maßnahmen empfiehlt Adobe zum Aufräumen von Segmenten?  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Markieren Sie alle alten Segmente mit einem Tag.
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Bestätigen Sie die vorschriftsgemäßen Segmente.
-* Taggen Sie Segmente unter Einhaltung der Best Practices.
+* Taggen Sie Segmente unter Einhaltung der  Best Practices.
 
-## Warum kann ich dieses Segment nicht löschen? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## Warum kann ich dieses Segment nicht löschen?  {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-In der [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html) veröffentlichte Segmente können nicht gelöscht oder bearbeitet werden. Sie können das Segment jedoch kopieren und die Kopie bearbeiten.
+In der [Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mcloud/t_publish_audience_segment.html) veröffentlichte Segmente können nicht gelöscht oder bearbeitet werden. Sie können das Segment jedoch kopieren und die Kopie bearbeiten.
 
-## Weitere Informationen zu bestehenden Segmenten {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Weitere Informationen zu bestehenden Segmenten  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
@@ -114,7 +114,7 @@ In der [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mclou
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Besuche über eine gebührenpflichtige Suche </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Besuche mit Besucher-ID-Cookie </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Diese Segmente werden als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > Segmentvorlagen in den Segmentaufbau migriert.</a> </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p>Diese Segmente werden als <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_templates.html"  >Segmentvorlagen</a> in den Segment-Builder migriert. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (Suite)-Segmente: 
@@ -127,7 +127,7 @@ In der [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mclou
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Besuche mit mehr als 5 vorherigen Besuchen* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Besuche von Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > Segmentvorlagen in den Segmentaufbau migriert. </a> Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
+   <td colname="col2"> <p> Die meisten dieser Segmente (bis auf die mit einem Sternchen * markierten) werden als <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_templates.html"  >Segmentvorlagen</a> in den Segment-Builder migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt. </p> <p>Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Admin-Segmente <p>(auch „globale Segmente“ genannt) </p> </td> 
