@@ -18,7 +18,7 @@ Sie können entweder eine Standardmetrik, eine berechnete Metrik oder eine Vorla
 
 > [!NOTE] Die Verwendung von Metriken ist einfach und leistungsstark zugleich. Sie können einem Bericht Metriken hinzufügen, indem Sie die entsprechende Metrik in den Metrikabschnitt einer Tabelle ziehen. Sie können Dimensionen auch nach Metriken aufschlüsseln, um die Tabellenansicht detailliert zu steuern. Außerdem können Sie eine Metrik als Dimension und eine Dimension als Metrik einfügen, um einen Zeitverlaufsbericht zu erstellen. Spielen Sie mit den verschiedenen Komponenten und sehen Sie, was Sie tun können. Die Möglichkeiten sind endlos.
 
-Sie können auch auf **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Neue Metrik]** klicken. Sie gelangen so zum [Generator für berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/), wo Sie aus bereits vorhandenen Metriken benutzerdefinierte Metriken erstellen können.
+Oder Sie können auf **[!UICONTROL Komponenten]** > **[!UICONTROL Neue Metrik]** klicken. Sie gelangen so zum [Generator für berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/), wo Sie aus bereits vorhandenen Metriken benutzerdefinierte Metriken erstellen können.
 
 Um das schnelle Erstellen berechneter Metriken zu vereinfachen, wurde dem Spalten-Kontextmenü von Freiformtabellen die Option **[!UICONTROL Metrik aus Auswahl erstellen]** hinzugefügt. Diese Option wird angezeigt, wenn mindestens eine Spaltenüberschriftszelle ausgewählt ist.
 
