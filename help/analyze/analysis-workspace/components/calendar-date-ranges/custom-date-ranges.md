@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Benutzerdefinierte Datumsbereiche erstellen
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Erstellen Sie benutzerdefinierte Datumsbereiche in Analysis Workspace und speichern Sie sie als Zeitkomponenten.
 
-**[!UICONTROL Komponenten]** &gt; **[!UICONTROL Neuer Datumsbereich]**
+**[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Datumsbereich]**
 
-Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Bedienfelder** &gt; *`<select panel>`* und legen Sie einen neuen Datumsbereich fest.
+Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Bedienfelder** > *`<select panel>`* und legen Sie einen neuen Datumsbereich fest.
 
-## Datumsbereich für „Vor zwei Monaten“{#section_C4109C57CB444BB2A79CC8082BD67294}
+## Datumsbereich für „Vor zwei Monaten“ {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 Der folgende benutzerdefinierte Datumsbereich zeigt den Bereich vor zwei Monaten mit einer Visualisierung der Zusammenfassungsänderung, die eine Trend-Entwicklung anzeigt.
 
@@ -34,7 +34,7 @@ Sie können diesen benutzerdefinierten Datumsbereich auf eine Spalte neben einem
 
 ## Verwenden eines 7-Tage-Datumsbereichs {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Aktionen** &gt; **Bereich hinzufügen** und geben Sie einen neuen Datumsbereich an.
+Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Aktionen** > **Bereich hinzufügen** und geben Sie einen neuen Datumsbereich an.
 
 Im Datumsbereich-Builder können Sie einen benutzerdefinierten Datumsbereich erstellen, der zusammen mit anderen Datumsbereichen im Komponentenbereich angezeigt wird.
 
