@@ -46,7 +46,7 @@ Wenn Sie die Einstellungen für Ihr Histogramm ändern möchten, klicken Sie auf
 
 ## Anzeigen und Bearbeiten von Histogrammdaten {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Wenn Sie die Datenquelle für das Histogramm-Diagramm anzeigen oder ändern möchten, klicken Sie auf den Punkt neben der Histogramm-Überschrift und navigieren Sie zu **[!UICONTROL Datenquelleneinstellungen]** &gt; **[!UICONTROL Datenquelle anzeigen]**.
+Wenn Sie die Datenquelle für das Histogramm-Diagramm anzeigen oder ändern möchten, klicken Sie auf den Punkt neben der Histogramm-Überschrift, und navigieren Sie zu **[!UICONTROL Datenquelleneinstellungen]** > **[!UICONTROL Datenquelle anzeigen]**.
 
 ![](assets/manage-data-source.png)
 
