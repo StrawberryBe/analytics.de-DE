@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Visualisierungsübersicht
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 
-[Visualisierungstypen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Visualisierungstypen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualisierungsbereich {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalisierung </p> </td> 
-   <td colname="col2"> <p>Erzwingt Metriken für gleiche Anteile. Siehe <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalisierung</a>. </p> </td> 
+   <td colname="col2"> <p>Erzwingt Metriken für gleiche Anteile. Siehe <a href="https://marketing.adobe.com/resources/help/de_DE/reference/normalization.html"  > Normalisierung</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zwei Achsen anzeigen </p> </td> 
@@ -77,7 +77,7 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
  </tbody> 
 </table>
 
-## Symbol „Visualisierung erstellen“{#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Symbol „Visualisierung erstellen“ {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
 Wenn Sie nicht sicher sind, welche Visualisierung Sie auswählen sollen, klicken Sie in einer beliebigen Tabellenzeile auf das Symbol **[!UICONTROL Visualisierung erstellen]**. Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
 
@@ -98,7 +98,7 @@ Auf Einstellungen, die sich auf eine Grafik beziehen, können Sie per Rechtsklic
 | Alle Darstellungen in Leiste ausblenden | Alle Visualisierungen in dieser Projektleiste werden ausgeblendet. |
 | Alle Leisten einblenden | Alle Projektleisten werden eingeblendet. |
 | Alle Visualisierungen in Leiste einblenden | Alle Visualisierungen in dieser Projektleiste werden eingeblendet. |
-| Beschreibung bearbeiten | Hiermit können Sie einen Text zur Beschreibung der Visualisierung oder des Bedienfeldes hinzufügen (oder bearbeiten). Diese Beschreibung wird in „Projekt“ &gt; „Projektinfo und Einstellungen“ angezeigt. |
+| Beschreibung bearbeiten | Hiermit können Sie einen Text zur Beschreibung der Visualisierung oder des Bedienfeldes hinzufügen (oder bearbeiten). Diese Beschreibung wird in „Projekt“ > „Projektinfo und Einstellungen“ angezeigt. |
 | Bereichslink abrufen | Sie können Personen zu einem bestimmten Bereich innerhalb eines Projekts leiten. |
 | Visualisierungslink anfordern | Hiermit können Sie diesen Link kopieren und freigeben, um andere Personen direkt zu dieser Visualisierung zu leiten. Benutzer müssen sich hierzu anmelden. |
 | Neu starten | (Funktioniert bei Fluss, Venn, Histogramm) Löscht die Konfiguration für die aktuelle Visualisierung und öffnet ein neues Bedienfeld, in dem Sie diese neu konfigurieren können. |
@@ -119,4 +119,4 @@ Wenn Sie beispielsweise eine Legendenbeschriftung für ein Liniendiagramm bearbe
 1. Geben Sie den neuen Beschriftungstext ein.
 1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
 
-Hier finden Sie einen [Link zu einem Video](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) zu diesem Thema.
+Hier finden Sie einen [Link zu einem Video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) zu diesem Thema.
