@@ -40,4 +40,4 @@ In der Standardeinstellung zeigt das Diagramm die obersten fünf Flüsse an. Wen
 
 Es gibt keine Einschränkungen dafür, wie tief Sie in das Flussdiagramm navigieren können.
 
-Sie können Ihr Flussdiagramm als Teil der .CSV-Datei eines Projekts auch exportieren und weiter analysieren, indem Sie **[!UICONTROL Projekt]** &gt; **[!UICONTROL CSV herunterladen]** wählen.
+Sie können Ihr Flussdiagramm als Teil der .CSV-Datei eines Projekts auch exportieren und weiter analysieren, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen.
