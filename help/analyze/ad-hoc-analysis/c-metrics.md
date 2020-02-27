@@ -2,7 +2,7 @@
 description: Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Datum, Einheiten, Bestellungen, Umsatz usw. Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt.
 title: Metriken
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Zu den Standardmetriken zählen:
 * **Konversion**: Zeigt Daten zu Erfolgsereignissen auf Ihrer Website. Erfolgsereignisse sind unter anderem Einkäufe, Downloads oder andere Aktionen, die Benutzer auf Ihrer Website ausführen sollen.
 * **Errechnet**: Benutzerspezifische Metriken, die durch Kombination anderer Metriken erstellt werden. Sie könnten z. B. eine Metrik erstellen, die die Kosten des Keyword und die Fertigungskosten vom Umsatz subtrahiert und so den Nettoumsatz berechnet. Sie könnten diesen Betrag dann durch die Gesamtanzahl der Bestellungen dividieren, um den Nettoumsatz pro Bestellung zu erhalten.
 
-Informationen zur Verwendung von Metriken in der [ finden Sie unter ](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)Metrikdefinitionen *in der* Analysereferenz[!DNL Experience Cloud].
+Informationen zur Verwendung von Metriken in [!DNL Experience Cloud] finden Sie unter [Metrikdefinitionen](https://marketing.adobe.com/resources/help/de_DE/reference/metrics.html) in der *Analysereferenz*.
 
 Mit dem Tool [!UICONTROL Metriken organisieren] erstellen Sie neue Ordner für Ihre Metriken. Sie können Metriken dann beliebig gruppieren. Mit dem Organizer können Sie vorhandene Metriken per Drag-and-Drop in Ihre benutzerspezifischen Ordner kopieren.
 
@@ -41,14 +41,14 @@ t_organize_metrics.xml
 1. Klicken Sie im Tool-Bereich [!UICONTROL Metriken] auf **[!UICONTROL Mehr Aktionen]**. (  ![](assets/tools_icon.png)
 
    )
-1. Click **[!UICONTROL Organize Metrics]**.
-1. Click **[!UICONTROL New]** to create a folder.
-1. Wählen Sie die Metriken in anderen Ordnern, und ziehen Sie die ausgewählten Metriken in den neuen Ordner.
+1. Klicken Sie auf **[!UICONTROL Metriken organisieren]**.
+1. Klicken Sie auf **[!UICONTROL Neu]**, um einen Ordner zu erstellen.
+1. Wählen Sie die Metriken in anderen Ordnern aus, und ziehen Sie die ausgewählten Metriken in den neuen Ordner.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
-   >Wenn Sie einen Ordner löschen, werden alle Metriken im Ordner aus dem aktuell ausgewählten Projekt gelöscht.
+   >Wenn Sie einen Ordner löschen, werden alle Metriken im Ordner aus Ihrem aktuell ausgewählten Projekt gelöscht.
 
 ## Metriken zu einem Bericht hinzufügen {#task_747DD1718B3F4776B83A115D0BE8754C}
 
@@ -60,7 +60,7 @@ t_add_metrics_dsc.xml
 
  -->
 
-1. Suchen Sie die Metrik im Tool-Bereich [!UICONTROL Metriken.]
+1. Suchen Sie die Metrik im Tool-Bereich [!UICONTROL Metriken].
 
    Sie können Metriken über das Suchfeld oder ein Drilldown im Metrikordner suchen.
 
@@ -68,7 +68,7 @@ t_add_metrics_dsc.xml
 
    Sie können vorab Standardmetriken unter [!UICONTROL Einstellungen] angeben, wenn Sie Metriken nicht wiederholt zu einem Bericht hinzufügen möchten.
 
-   Siehe [Registerkarte „Rangansicht“ – Definitionen](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   Siehe  [Registerkarte „Rangansicht“ – Definitionen](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Aufbau berechneter Metriken {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
@@ -80,7 +80,7 @@ c_calc_metric_builder.xml
 
  -->
 
-Weitere Informationen zum Aufbau und zur Verwaltung berechneter Metriken finden Sie im [Leitfaden zu berechneten Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Weitere Informationen zum Aufbau und zur Verwaltung berechneter Metriken finden Sie im [Leitfaden zu berechneten Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/).
 
 So rufen Sie die Funktion „Aufbau berechneter Metriken“ in Ad Hoc Analysis auf:
 
