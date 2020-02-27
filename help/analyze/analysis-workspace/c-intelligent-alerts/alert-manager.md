@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-Der Warnhinweis-Manager (**[!UICONTROL Analysen]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Warnhinweise]**) ähnelt sehr dem [Segment-Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html) und dem [Manager für berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/cm_manager.html) und ermöglicht Ihnen Folgendes:
+Der Warnhinweis-Manager (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**) ähnelt sehr dem [Segment Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html) und dem [Manager für berechnete Metrik](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/cm_manager.html) und ermöglicht Ihnen Folgendes:
 
 ![](assets/alert-manager-tasks.png)
 
