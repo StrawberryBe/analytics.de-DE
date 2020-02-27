@@ -18,9 +18,9 @@ Sie können den Mauszeiger über Segmente bewegen, damit mehr Details zu Prozent
 
 ![](assets/venn_hover.png)
 
-Um das Venn-Diagramm in eine Freiformtabelle umzuwandeln, klicken Sie auf den farbigen Punkt neben der Überschrift **[!UICONTROL Venn]** und wählen Sie **[!UICONTROL Data Sources verwalten]** &gt; **[!UICONTROL Verfügbare Data Sources]** &gt; **[!UICONTROL Freiformtabelle aus]**.
+Um das Venn-Diagramm in eine Freiformtabelle umzuwandeln, klicken Sie auf den farbigen Punkt neben der Überschrift **[!UICONTROL Venn]** und wählen Sie **[!UICONTROL Data Sources verwalten]** > **[!UICONTROL Verfügbare Data Sources]** > **[!UICONTROL Freiformtabelle]** aus.
 
-Um das Venn-Diagramm zu normalisieren (die Größe zu entfernen), klicken Sie auf das Symbol für seine Visualisierungseinstellungen und wählen Sie **[!UICONTROL Normalisierung aus]**.
+Um das Venn-Diagramm zu normalisieren (die Größeninformationen zu entfernen), klicken Sie auf das Symbol für seine Visualisierungseinstellungen und wählen Sie **[!UICONTROL Normalisierung aus]**.
 
 ![](assets/normalization.png)
 
