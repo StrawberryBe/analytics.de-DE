@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Einstellungen zum Rückgängigmachen und Wiederherstellen
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Projekt]** &gt; **[!UICONTROL Rückgängigmachen/Wiederherstellen]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Rückgängig/Wiederherstellen]**
 
 * Die Option **[!UICONTROL Wiederherstellen]** (Wiederherstellen nach Rückgängigmachen) befindet sich im Menü **[!UICONTROL Bearbeiten]**.
 
