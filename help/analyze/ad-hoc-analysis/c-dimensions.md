@@ -3,7 +3,7 @@ description: Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten
 title: Dimensionen
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Dimensionen
 
-Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Classification ursprünglichen Berichtstyp-Metrik darstellen.
+Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht-numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Klassifizierung ursprünglichen Berichtstyp-Metrik darstellen.
 
 Beispiele für Dimensionen:
 
@@ -25,7 +25,7 @@ Beispiele für Dimensionen:
 * Bildschirmauflösung
 * Benutzerspezifische eVars und s.prop-Werte
 
-**[!UICONTROL Dimensions]fenster**
+Das Fenster **[!UICONTROL Dimension]**
 
 Im Fenster [!UICONTROL Dimension] werden alle Produktdimensionen Ihrer Implementierung von „Marketing Reports and Analytics“ aufgelistet und organisiert. Sie können Berichte auf einem beliebigen Dimensionsobjekt basieren lassen. Sie können Dimensionen nach anderen Dimensionen unterteilen, um praktisch alle Arten von Informationen zu analysieren und zu vergleichen.
 
@@ -33,9 +33,9 @@ Im [!UICONTROL Dimensionsfenster] können Sie nach Dimensionen suchen und sie in
 
 Sie können diese auf Grundlage der folgenden Kategorien sortieren:
 
-| Dimensionskategorie | Beschreibung |
+| Kategorie „Dimension“ | Beschreibung |
 |--- |--- |
-| Traffic | Umfasst Informationen zu Browser-Elementen, Target-Kampagnen, Geografie, benutzerspezifischen Links, benutzerspezifischen Traffic-Eigenschaften, Domänen, Downloads, verweisenden Stellen und Domänen usw. |
+| Traffic | Umfasst Informationen zu Browser-Elementen, Target-Kampagnen, Geografie, benutzerspezifischen Links, benutzerspezifischen Traffic-Eigenschaften, Domänen, Downloads, verweisenden Stellen und Referrer-Domänen usw. |
 | Konversion | Umfasst Kampagnen, Kategorien, benutzerspezifische eVars, Produkte, Trackingcode usw. |
 | Props | Umfasst benutzerspezifische Traffic-Eigenschaften z. B. Entrypages und Exitpages. |
 | Evars | Umfasst eVars, die bei der Datenkollektion als Erfolgsmetriken eingesetzt werden. |
