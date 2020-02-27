@@ -2,7 +2,7 @@
 description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
 title: Bestehende Berichte konfigurieren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ c_report_actions.xml
 
  -->
 
-Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktionen]** ![. ](assets/tools_icon.png)
+Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktionen]** ![](assets/tools_icon.png). 
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -50,7 +50,7 @@ Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktione
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bereitstellungsoptionen </p> </td> 
-   <td colname="col2"> <p> Siehe <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > Auslieferungsoptionen</a>. </p> </td> 
+   <td colname="col2"> <p> Siehe <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >Bereitstellungsoptionen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Drucken </p> </td> 
@@ -62,7 +62,7 @@ Klicken Sie in einem Bericht auf das Dropdown-Menü **[!UICONTROL Berichtaktione
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Sources </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >Registerkarte „Allgemeine Einstellungen“ – Definitionen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ansicht </p> </td> 
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lineare Regression anzeigen </p> </td> 
-   <td colname="col2"> <p>Für <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > Punktdiagramme</a>. Zeigt eine statistische Näherung Ihrer Daten an. </p> </td> 
+   <td colname="col2"> <p>Für  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > Punktdiagramme</a>. Zeigt eine statistische Näherung Ihrer Daten an. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ Mit Punktdiagrammen lassen sich Metrikanalysen in bis zu fünf verschiedenen Dim
 | [!UICONTROL Datenpunkte] | Gibt die Anzahl der Datenpunkte an, die im Punktdiagramm angezeigt werden sollen. |
 | [!UICONTROL Lineare Regression anzeigen] | Zeigt eine statistische Näherung Ihrer Daten an. |
 
-## Tabellendaten unterteilen {#task_29BEE0AF09DA4625B9B44BAB77D7C841}
+## Tabellendaten aufschlüsseln {#task_29BEE0AF09DA4625B9B44BAB77D7C841}
 
 <!-- 
 
@@ -155,12 +155,12 @@ Bestimmte Berichte lassen eine Aufschlüsselung der Tabellendaten zu, sodass Sie
 
 **So unterteilen Sie Tabellendaten**
 
-1. Einen Bericht ausführen.
-1. Klicken Sie mit der rechten Maustaste auf ein Zeilenelement und dann auf **Unterteilen** &gt; *Element.*
+1. Führen Sie einen Bericht aus.
+1. Klicken Sie mit der rechten Maustaste auf ein Zeilenelement und dann auf **[!UICONTROL Unterteilen]** > *Element*. 
 
    >[!NOTE]
    >
-   >Für mehr Flexibilität verwenden Sie den [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) , um einen Bericht mit Unterteilungen zu konfigurieren. Nach dem Öffnen eines gespeicherten oder terminierten Berichts mit Aufschlüsselungen müssen Sie eventuell auf **[!UICONTROL Tabelle ersetzen]klicken, um eine Aufschlüsselung der dynamischen Berichtsdaten zu aktualisieren.** Beispiel: Sie müssen evtl. einen terminierten Bericht mit Aufschlüsselungen von Zeilenelementen aktualisieren, die sich basierend auf dem Datumsbereich oder der Besucheraktivität ändern können.
+   >Mehr Flexibilität erhalten Sie, wenn Sie den [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) verwenden, um einen Bericht mit Aufschlüsselungen zu konfigurieren. Nach dem Öffnen eines gespeicherten oder terminierten Berichts mit Aufschlüsselungen müssen Sie eventuell auf **[!UICONTROL Tabelle ersetzen]** klicken, um eine Aufschlüsselung der dynamischen Berichtsdaten zu aktualisieren. Beispiel: Sie müssen evtl. einen terminierten Bericht mit Aufschlüsselungen von Zeilenelementen aktualisieren, die sich basierend auf dem Datumsbereich oder der Besucheraktivität ändern können.
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ Sie können Rangberichte in einen anderen Berichtstyp ändern und dabei die im O
 **So ändern Sie den Berichtstyp in der Tabelle**
 
 1. Öffnen und konfigurieren Sie einen Rangbericht.
-1. Klicken Sie mit der rechten Maustaste auf den die Spaltenüberschrift zum Berichtnamen in der Tabelle und dann auf **Bericht auswählen**. Navigieren Sie anschließend zum Bericht.
+1. Klicken Sie mit der rechten Maustaste auf den Berichtnamen in der Spaltenüberschrift der Tabelle und dann auf **[!UICONTROL Bericht auswählen]**. Navigieren Sie anschließend zum Bericht.
 
 ## Daten in die Zwischenablage kopieren {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    Es wird empfohlen, Excel vor dem Kopieren der Daten zu öffnen, da Excel beim Start den Arbeitsspeicherpuffer löscht.
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. Klicken Sie auf Berichtsebene auf **[!UICONTROL Einstellungen]** ![](assets/settings_icon.png) und dann auf **[!UICONTROL Berichtdaten kopieren]**.
 1. Wählen Sie in Excel eine Zelle aus und fügen Sie die Daten ein.
 
 ## Besucher-IDs extrahieren {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,12 +205,12 @@ t_reports_extract_ID.xml
 
  -->
 
-In Reports &amp; Analysen können Sie ein Feld für Benutzer-ID-Daten festlegen. Wenn Sie diese Option konfiguriert haben, steht die Option [!UICONTROL Besucher-IDs extrahieren] zur Verfügung. Falls Sie diese Option nicht aktiviert haben, sie aber später aktivieren möchten, lassen sich historische Besucher-IDs zum späteren Zeitpunkt nicht extrahieren.
+Sie können in „Reports &amp; Analytics“ ein Feld für Benutzer-ID-Daten einrichten. Wenn Sie diese Option konfiguriert haben, steht die Option [!UICONTROL Besucher-IDs extrahieren] zur Verfügung. Falls Sie diese Option nicht aktiviert haben, sie aber später aktivieren möchten, lassen sich historische Besucher-IDs zum späteren Zeitpunkt nicht extrahieren.
 
 **So extrahieren Sie Besucher-IDs**
 
 1. Fügen Sie ein Data Warehouse-Segment zum Bericht hinzu.
-1. Klicken Sie mit der rechten Maustaste auf das Segment und wählen Sie **[!UICONTROL Besucher-IDs extrahieren]**.
+1. Klicken Sie mit der rechten Maustaste auf das Segment und wählen Sie **[!UICONTROL Besucher-IDs extrahieren]** aus.
 
    Die Data Warehouse-Anwendung wird gestartet.
 1. Geben Sie unter der Registerkarte [!UICONTROL Data Warehouse-Anfrage] den Filternamen ein.
@@ -228,8 +228,8 @@ Bei Ansicht eines Rangberichts wie dem Produktbericht können Sie Trenddaten fü
 
 **So verfolgen Sie eine Zeile als Trend**
 
-1. Rangbericht ausführen.
-1. Klicken Sie auf das [!UICONTROL Trend]symbol ![. ](assets/TrendInspector_Buttcon.png)
+1. Führen Sie einen Rangbericht aus.
+1. Klicken Sie auf das [!UICONTROL Trend]-Symbol ![](assets/TrendInspector_Buttcon.png). 
 
    Sie können mehrere Zellen auswählen, die auf einen einzelnen Trendbericht angewandt werden sollen.
 
@@ -245,7 +245,7 @@ t_column_width.xml
 
 1. Klicken Sie in der Tabelle mit der rechten Maustaste auf die Spaltenüberschrift und dann auf **[!UICONTROL Spaltenbreite]**.
 
-   Diese Option ist deaktiviert, wenn die Option [!UICONTROL Bildschirmgröße] aktiv ist. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   Diese Option ist deaktiviert, wenn die Option [!UICONTROL Bildschirmgröße] aktiv ist. 1. Geben Sie eine Breite in Pixel an, und klicken Sie dann auf **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]
 >
