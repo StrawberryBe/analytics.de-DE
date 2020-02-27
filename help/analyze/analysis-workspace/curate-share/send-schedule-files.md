@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
 
-**[!UICONTROL Arbeitsplatz]** &gt; **[!UICONTROL Freigabe]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Freigabe]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
