@@ -1,9 +1,9 @@
 ---
 description: Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
-title: Sitemetriken Berichte
+title: Sitemetriken  Berichte
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-## Sitemetriken reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Sitemetriken  Berichte {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-Metrikberichte zeigen einen Trend über einen Zeitraum. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
+Metrikberichte zeigen einen  Trend über einen Zeitraum. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
 
 Die folgenden Site-Metrik-Berichte stehen im Menü [!UICONTROL Site-Metrik] zur Verfügung.
 
-## Bericht „Seitenansichten“{#concept_5331AFB6948547F7B8DF367B49360E6B}
+## Bericht „Seitenansichten“ {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
 <!-- 
 
@@ -31,9 +31,9 @@ c_reports_pageviews.xml
 
 Ein Trendbericht, der anzeigt, wie oft Ihre Webseiten im ausgewählten Zeitraum (Stunde, Tag, Woche, Monat, Quartal oder Jahr) angesehen wurden. Eine [!UICONTROL Seitenansicht] ist eher eine Anforderung eines ganzseitigen Dokuments als eines Elements einer Seite, wie es beispielsweise ein Bild oder ein Video ist. Wenn z. B. ein einzelner Benutzer während eines Besuchs 15 Seiten aufruft, werden 15 Seitenansichten gezählt. Wenn ein Benutzer die gleiche Seite dreimal während eines Besuchs aufruft, werden drei Seitenansichten gezählt. Anhand dieses Berichts können Sie Seitenansichten jeder Seite auf Ihrer Site sowie die Gesamtübersicht der Seitenansichten auf Ihrer gesamten Site zurückverfolgen.
 
-## Bericht „Besuche“{#concept_50CA55CF2A41430CBC754AEEEE6023A9}
+## Bericht „Besuche“ {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
-Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während eines angegebenen Zeitraums an. Ein *Besuch* ist eine Sequenz von Seitenansichten. Ein Besuch beginnt, wenn ein Besucher eine Seite lädt, und endet nach 30 Minuten der Inaktivität. Ein Besuch kann mehrere Stunden dauern, solange der Besucher vor der Zeitüberschreitung mindestens eine Seite lädt. Ein Besuch verläuft jedoch nicht unbedingt gleichzeitig mit einer Browsersitzung. Mit anderen Worten, wenn ein Besucher den Browser schließt, ihn erneut öffnet und fünf Minuten später zu Ihrer Website zurückkehrt, wird dies als Fortsetzung des gleichen Besuchs erkannt. Wenn zudem ein Besucher eine Seite 35 Minuten lang liest, wird der Besuch geschlossen und verarbeitet und ein neuer Besuch beginnt, wenn der Besucher zu einer anderen Seite durchklickt. Besuche werden anhand von Cookies nachverfolgt. Ein Besuch wird nach 12 Stunden durchgehender Aktivität beendet.
+Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während eines bestimmten Zeitraums an. Ein *Besuch* ist eine Sequenz von Seitenansichten. Ein Besuch beginnt, wenn ein Besucher eine Seite lädt, und endet nach 30 Minuten der Inaktivität. Ein Besuch kann mehrere Stunden dauern, solange der Besucher vor der Zeitüberschreitung mindestens eine Seite lädt. Ein Besuch verläuft jedoch nicht unbedingt gleichzeitig mit einer Browsersitzung. Mit anderen Worten, wenn ein Besucher den Browser schließt, ihn erneut öffnet und fünf Minuten später zu Ihrer Website zurückkehrt, wird dies als Fortsetzung des gleichen Besuchs erkannt. Wenn zudem ein Besucher eine Seite 35 Minuten lang liest, wird der Besuch geschlossen und verarbeitet und ein neuer Besuch beginnt, wenn der Besucher zu einer anderen Seite durchklickt. Besuche werden anhand von Cookies nachverfolgt. Ein Besuch wird nach 12 Stunden durchgehender Aktivität beendet.
 
 <!-- 
 
@@ -43,7 +43,7 @@ c_reports_visits.xml
 
 In „Marketing Reports and Analytics“ können Sie einen [!UICONTROL „Besuche“-Bericht] auf einer ausgewählten Seite ausführen. In Ad Hoc Analysis haben Sie die Möglichkeit, die Daten zu segmentieren, um bestimmte Seiten anzuzeigen.
 
-## Bericht „Unique Visitors“{#concept_39097C54E46C496CBAD537329DB3C84A}
+## Bericht „Unique Visitors“ {#concept_39097C54E46C496CBAD537329DB3C84A}
 
 Ein Trendbericht, der die Anzahl der Unique Visitors anzeigt, die Ihre Website aufgerufen haben. Jeder Besucher wird einmal gezählt, unabhängig davon, wie oft die Person Ihre Website besucht. Adobe verwendet eine „Cookie-Handshake“-Technologie mit angemeldetem Patent, um einen Unique Visitor von einem wiederkehrenden Besucher zu unterscheiden. Der „Cookie-Handshake“ überwindet die Einschränkungen der Browser-Cookie-Technologie des Internets.
 
@@ -59,7 +59,7 @@ Weitere Verwendungszwecke dieses Berichts:
 * Ansicht von Verkehrsmustern der letzten Zeit und Einblick in die Promo-Aktivitäten, die Unique Visitor zu Ihrer Site bringen.
 * Vergleich der Anzahl der Unique Visitors mit der Anzahl der Seitenansichten.
 
-## Bericht „Besucher“{#concept_7371DAB5DA474D03A2D1448F151E011B}
+## Bericht „Besucher“ {#concept_7371DAB5DA474D03A2D1448F151E011B}
 
 Zeigt die Zahl der Unique Visitors Ihrer Site in der jeweiligen Stunde bzw. am jeweiligen Tag, der Woche, im Quartal oder im Jahr. Ein Unique Visitor wird für den ausgewählten Zeitraum nur einmal gezählt. Besucher, die zu Ihrer Website zurückkehren, werden erst nach abgelaufenem Zeitraum wieder als Unique User gezählt.
 
@@ -71,7 +71,7 @@ c_reports_visitors.xml
 
 Der unten in der Tabelle angezeigte Gesamtwert ist die Summe aller Besuche im angegebenen Zeitraum und gibt nicht immer die Zahl der Unique Visitors wieder. Wenn Sie beispielsweise den Bericht [!UICONTROL Unique Visitors pro Tag] für einen Zeitraum von mehreren Tagen ausführen, kann der Gesamtwert rückkehrende Besucher umfassen, da derselbe Besucher möglicherweise am nächsten Tag zurückkehrt und erneut gezählt wird. Wenn Sie jedoch den Bericht [!UICONTROL Unique Visitors pro Monat] ausführen, spiegelt der Wert in der Spalte „Summe“ genau wider, wie viele individuelle Besucher während des Monats die Site aufsuchen.
 
-## Bericht „Zeit pro Besuch“{#concept_5CDB759F9C9B4002A786A71F2BDBB292}
+## Bericht „Zeit pro Besuch“ {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
 Zeigt, wie lange ein Besucher Ihre Website während jedes Besuchs angesehen hat. Er enthält außerdem die Statistik „Durchschn. Besuchszeit pro Site“, die die durchschnittliche Dauer des Besuchs Ihrer Site angibt.
 
@@ -87,9 +87,9 @@ Verwenden Sie diesen Bericht, um:
 * den Site-Inhalt und Promo-Aktionen zu identifizieren, die das Interesse der Besucher erwecken.
 * zu erkennen, warum Ihr Traffic-Vorkommen hoch ist, aber die Besucher umgehend aussteigen.
 
-## Bericht „Käufe“{#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
+## Bericht „Käufe“ {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Zeigt zusammenfassende Daten zu Umsatz, Bestellungen und Einheiten an. Sie können den [!DNL Purchase Conversion Funnel] Bericht auch anzeigen.
+Zeigt zusammenfassende Daten zu Umsatz, Bestellungen und Einheiten an. Sie können auch den Bericht [!DNL Purchase Conversion Funnel] aufrufen.
 
 <!-- 
 
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Da jede Report Suite der Analysen unterschiedlich ist, wird dieses Berichtsset für jeden Kunden unterschiedlich eingesetzt. Ein [!UICONTROL benutzerspezifisches Ereignis] kann als Zähler verwendet werden, der angibt, wie oft ein Ereignis auftritt. Wenn Sie beispielsweise **[!UICONTROL event1]** (Ereignis1) auf die Zählung von Dokumentladungen einstellen, zeigt der Bericht „Benutzerspezifisches Ereignis“ die Gesamtanzahl der aufgetretenen Ereignisse (Ladevorgänge) an.  Sie können mehrere benutzerspezifische Ereignisberichte verwenden.
+Da jede Report Suite der Analysen unterschiedlich ist, wird dieses Berichtsset für jeden Kunden unterschiedlich eingesetzt. Ein [!UICONTROL benutzerspezifisches Ereignis] kann als Zähler verwendet werden, der angibt, wie oft ein Ereignis auftritt. Wenn Sie beispielsweise **[!UICONTROL event1]** (Ereignis1) auf die Zählung von Dokumentladungen einstellen, zeigt der Bericht [!UICONTROL „Benutzerspezifisches Ereignis“] die Gesamtanzahl der aufgetretenen Ereignisse (Ladevorgänge) an. Sie können mehrere benutzerspezifische Ereignisberichte verwenden.
 
 ## Konversionsberichte {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -161,6 +161,6 @@ c_reports_marketing_channel.xml
 
 **[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Metriken an, die Daten zu einem bestimmten First Touch- oder Last Touch-Kanal einblenden. In diesen Berichten können Sie einen Kanal unterteilen und die Details der einzelnen Kanäle anzeigen. Wenn Sie AdLens aktiviert haben, sehen Sie Classifications in Ihren Kanalberichten von „Marketing Reports and Analytics“.
 
-**[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Details wie Seitennamen und verweisende Stellen an. Diese Informationen werden aus den Kanalwerten extrahiert, die Sie beim Konfigurieren von Regeln in der Option [!UICONTROL „Den Kanalwert setzen auf“] festgelegt haben. Kanaldetailberichte geben Ihnen die Möglichkeit, die Kanaldetailwerte aus dem Übersichtsbericht sorgfältig zu prüfen.
+**[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Details wie Seitennamen und verweisende Stellen an. Diese Informationen werden aus den Kanalwerten extrahiert, die Sie beim Konfigurieren von Regeln in der Option [!UICONTROL Den Kanalwert setzen auf] festgelegt haben. Kanaldetailberichte geben Ihnen die Möglichkeit, die Kanaldetailwerte vom Übersichtsbericht sorgfältig zu prüfen.
 
-Detailliertere Informationen zur Konfiguration des Marketingkanals in „Marketing Reports &amp; Analysen“ finden Sie im Hilfesystem zu [Marketingkanal](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
+Detailliertere Informationen zur Konfiguration des Marketingkanals in „Marketing Reports &amp; Analysen“ finden Sie im Hilfesystem zu [Marketingkanal](https://marketing.adobe.com/resources/help/de_DE/mchannel/index.html).
