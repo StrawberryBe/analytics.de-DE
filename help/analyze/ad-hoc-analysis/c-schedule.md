@@ -1,9 +1,9 @@
 ---
-description: Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstellung zu einem bestimmten Zeitpunkt stoppen oder die Häufigkeit des Berichtversands festlegen. Neue Zeitpläne verwenden den im Bericht definierten Datumsbereich. Wenn Sie beispielsweise einen Bericht für die letzten 90 Tage erstellen und eine tägliche Ausführung ansetzen, erhalten Sie jeden Tag einen Bericht für die letzten 90 Tage. Wenn Sie einen Bericht mit einem statischen Datumsbereich aus dem Kalender erstellen, sehen Sie jedes Mal, wenn der Bericht gesendet wird, denselben Bericht.
+description: Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstellung zu einem bestimmten Zeitpunkt stoppen oder die Häufigkeit des Berichtversands festlegen. Neue Zeitpläne verwenden den im Bericht definierten Datumsbereich. Wenn Sie beispielsweise einen Bericht für die letzten 90 Tage erstellen und eine tägliche Ausführung ansetzen, erhalten Sie jeden Tag einen Bericht für die letzten 90 Tage. Wenn Sie einen Bericht mit einem statischen Datumsbereich aus dem Kalender erstellen, sehen Sie jedes Mal, wenn der Bericht versendet wird, denselben Bericht.
 title: Zeitplan-Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,13 +17,13 @@ Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstell
 
 Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstellung zu einem bestimmten Zeitpunkt stoppen oder die Häufigkeit des Berichtversands festlegen. Neue Zeitpläne verwenden den im Bericht definierten Datumsbereich. Wenn Sie beispielsweise einen Bericht für die letzten 90 Tage erstellen und eine tägliche Ausführung ansetzen, erhalten Sie jeden Tag einen Bericht für die letzten 90 Tage. Wenn Sie einen Bericht mit einem statischen Datumsbereich aus dem Kalender erstellen, sehen Sie jedes Mal, wenn der Bericht versendet wird, denselben Bericht.
 
-> [!NOTE] Wenn ein Benutzerkonto deaktiviert ist, werden alle geplanten Berichtauslieferungen, die von diesem Benutzer erstellt wurden, ausgesetzt.
+> [!NOTE] Bei Deaktivierung eines Benutzerkontos werden terminierte Berichtbereitstellungen dieses Benutzers ausgesetzt.
 
-Um sicherzustellen, dass Zeilenelemente in einer Aufschlüsselung in gespeicherten und geplanten Berichten persistent sind, verwenden Sie die Funktion Elemente **[!UICONTROL bearbeiten]** im [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) , um feste Dimensionslisten in Aufschlüsselungen zu erstellen.
+Um sicherzustellen, dass Zeileneinträge in einer Aufschlüsselung in gespeicherten und terminierten Berichten persistent sind, verwenden Sie die Funktion **[!UICONTROL Elemente bearbeiten]** im [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md), um in Aufschlüsselungen feste Dimensionslisten zu erstellen.
 
 >[!IMPORTANT]
 >
->Mit Ad-hoc-Analysen können Sie schnell Berichte für spezifische, zeitnahe Ad-hoc-Berichterstellungsanforderungen definieren und planen. Die Anwendung ist nicht für den vollständigen Datenexport mit einer hohen Anzahl Zeilen, Werte, Metrik-Auswertungen oder umfangreiche Aufschlüsselungen mittels Datenextraktion ausgelegt.
+>Mithilfe von Ad Hoc Analysis können Sie schnell und einfach Berichte für spezielle, zeitnahe Ad-hoc-Berichtsanforderungen erstellen. Die Anwendung ist nicht für den vollständigen Datenexport mit einer hohen Anzahl Zeilen, Werte, Metrik-Auswertungen oder umfangreiche Aufschlüsselungen mittels Datenextraktion ausgelegt.
 >
 >Praktische Beschränkungen der terminierten Berichtsfunktion bei Ad Hoc Analysis basieren auf diesem Prinzip: Wenn der Bericht nicht innerhalb von 10 Minuten erstellt wird (Timeout für Ad Hoc Analysis), dann ist der Bericht wahrscheinlich zu komplex.
 >
@@ -33,7 +33,7 @@ Um sicherzustellen, dass Zeilenelemente in einer Aufschlüsselung in gespeichert
 
 ## Bereitstellung eines Berichts planen {#task_7A3165C8C5C349718FE3B2B0C727ACFD}
 
-Schritte, die beschreiben, wie Sie die Bereitstellung eines Berichts planen.
+Die folgenden Schritte beschreiben, wie Sie die Bereitstellung eines Berichts planen.
 
 <!-- 
 
@@ -41,8 +41,8 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. Klicken Sie im [!UICONTROL Zeitplan-Manager]**auf[!UICONTROL Neu].**
+1. Klicken Sie auf **[!UICONTROL Tools]** und dann auf **[!UICONTROL Zeitplan-Manager]**.
+1. Klicken Sie im [!UICONTROL Zeitplan-Manager] auf **[!UICONTROL Neu]**. 
 
 ## Bereitstellungsoptionen – Definitionen {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -85,7 +85,7 @@ Sie können die derzeit im Bericht angezeigten Informationen an das Format Ihrer
   </tr> 
   <tr> 
    <td colname="col1"> <p> Erweitert </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> Weitere Informationen finden Sie unter <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >Erweiterte Formateinstellungen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dateiziel </p> </td> 
