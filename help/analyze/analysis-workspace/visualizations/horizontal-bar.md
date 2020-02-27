@@ -16,7 +16,7 @@ Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer od
 
 ![](assets/horizontal_bar.png)
 
-## Horizontalbalken gestapelt {#section_50C08E9E20A94024A6553BC352ADB597}
+## Horizontalbalken gestapelt  {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Diese Visualisierung entspricht dem [!UICONTROL horizontalen Balkendiagramm], die Serien sind hier jedoch gestapelt.
 
