@@ -1,9 +1,9 @@
 ---
-description: Beschreibungen von Berichtstypen, die in der Experience Cloud verwendet werden.
+description: Beschreibungen von Berichtstypen, die in Experience Cloud verwendet werden.
 title: Berichtstypen
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Berichtstypen
 
-Beschreibungen von Berichtstypen, die in der Experience Cloud verwendet werden.
+Beschreibungen von Berichtstypen, die in Experience Cloud verwendet werden.
 
 ## Rangberichte {#concept_E1710FFFBB334F3D9DB63A1626DBCB01}
 
@@ -60,7 +60,7 @@ t_trend_row.xml
 
 1. Um einen vollständigen Bericht zu der Zelle anzuzeigen, klicken Sie auf **[!UICONTROL Trendbericht starten]**.
 
-   Alternativ können Sie mit der rechten Maustaste auf die Zelle und dann auf **[!UICONTROL Zelle als Trend verfolgen klicken]**. Sie können diese Aufgabe aus ausführen, nachdem Sie mehrere Zellen ausgewählt haben.
+   Alternativ können Sie mit der rechten Maustaste auf die Zelle und dann auf **[!UICONTROL Zelle als Trend verfolgen]** klicken. Sie können diese Aufgabe aus ausführen, nachdem Sie mehrere Zellen ausgewählt haben.
 
 ## Summenbericht {#concept_48E23FB3BCCD43DFB486A048960800A8}
 
@@ -144,7 +144,7 @@ c_reports_previous_page_flow.xml
 
 Verwenden Sie diesen Bericht, um:
 
-* Einblick in die Schritte zu erhalten, die am häufigsten vor Ansicht der gewählten Seite ausgeführt werden
+* Einblick in die Schritte zu erhalten, die am häufigsten vor Ansicht der gewählten Seite ausgeführt werden.
 * Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken.
 
 ## Vorheriger Abschnittsfluss {#concept_30688D97B48449E1958866BAF376FA8C}
@@ -190,7 +190,7 @@ Die folgenden Trichterberichte stehen zur Verfügung:
 
 Die Berichtstabelle zeigt Statistiken zu durchschnittlichen Verkäufen pro Clickthrough-Rate und durchschnittlich verkauften Einheiten pro Clickthrough-Rate an. Sie können zu diesen Berichten Metriken und benutzerspezifische Ereignisse aus anderen Berichtgruppen hinzufügen. Diese Trichter haben viele Ähnlichkeiten, basieren aber auf verschiedenen Variablen und Ereignissen. Sie können diese Berichte nutzen, um zu prüfen, welche Prozentsätze und allgemeine Besuchertrends von Ihnen spezifizierte Ereignisse auslösen. Sie können sehen, wo Benutzer nicht bis zu bestimmen Ereignissen folgen und erhalten so umfassende Informationen zu diesem spezifischen Punkt im Konversionsprozess.
 
-## Bericht „Site-Analyse“{#concept_65694C6BDE424714B7975764F95497A4}
+## Bericht „Site-Analyse“ {#concept_65694C6BDE424714B7975764F95497A4}
 
 In der [!UICONTROL Site-Analyse] können Sie sehen, wie Besucher festgelegte Seiten und Ereignisse durchlaufen. Sie können beispielsweise den Traffic-Fluss zwischen Seiten, die Affinität zwischen Produkten und Marketingkanälen und den Fluss zwischen Kampagnen/Kanälen und Produktbestellungen beobachten. Sie können Seiten, Dimensionselemente (und Listen) sowie Metrikereignisse hineinziehen. Jede Säule steht für eines oder mehrere Dimensionselemente (Seiten) oder ein Ereignis. Pfeile stehen für den Fluss zwischen den Säulenwerten. Metriken sind den Säulenpositionen (X und Y), der Säulenbreite, Säulenhöhe und -farbe zugeordnet. Die Position, Größe und Farben ändern sich abhängig von den Metrikwerten.
 
@@ -221,5 +221,5 @@ Klicken Sie mit der rechten Maustaste auf Säulen, um sie zu bearbeiten oder zu 
 | Vorlage | Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. |
 | Entfernen | Hiermit können Sie eine Säule entfernen. |
 | Berichte | Hiermit können Sie einen anderen Bericht über die Säule starten. |
-| Diagramm speichern unter | Hiermit können Sie das Diagramm als .png- oder .jpg-Datei speichern. Wenn Sie die Diagrammsteuerungen (Graph-Winkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. |
+| Diagramm speichern unter | Hiermit können Sie das Diagramm als .png- oder .jpg-Datei speichern. Wenn Sie die Diagrammsteuerungen (Diagrammwinkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. |
 | Diagramm in Zwischenablage kopieren | Kopiert das Diagramm, um es in anderen Anwendungen einfügen zu können. Wenn Sie die Diagrammsteuerungen (Diagrammwinkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. |
