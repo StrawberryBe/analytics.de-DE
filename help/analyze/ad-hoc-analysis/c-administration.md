@@ -2,7 +2,7 @@
 description: Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling von Daten.
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling von Daten.
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+Hilfe hinsichtlich der [!DNL Admin Console] erhalten Sie in der [Analysereferenz](https://marketing.adobe.com/resources/help/de_DE/reference/index.html).
 
 ## Anwenderlizenzen {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -28,7 +28,7 @@ c_user_license.html
 
 ## Anwenderlizenzen erteilen {#task_22AE669703EC48BA9685414538D8B1FA}
 
-Schritte, die beschreiben, wie lokale Administratoren von „Reports and Analytics“ Anwenderlizenzen über das Zugriffberechtigungssystem erteilen können.
+Schritte, die beschreiben, wie lokale Administratoren von „Reports and Analytics“ Anwenderlizenzen über das Zugriffsberechtigungssystem erteilen können.
 
 <!-- 
 
@@ -36,15 +36,15 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Edit Groups]**.
+1. Melden Sie sich bei [!DNL Experience Cloud] an.
+1.  Klicken sie auf **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]**. 
+1. Klicken Sie auf **[!UICONTROL Gruppen bearbeiten]**. 
 
    Wenn Ihr Unternehmen Lizenzen erworben hat, wird die Gruppe [!UICONTROL Ad Hoc Analysis-Lizenzanwender] in der Spalte [!UICONTROL Gruppenname] angezeigt. Die Anzahl der verfügbaren Lizenzen für die Benutzeranmeldung wird ebenfalls angezeigt.
 
-1. Click **[!UICONTROL Edit]**.
-1. Wählen Sie unter [!UICONTROL Benutzeranmeldungen zuweisen]**die Benutzer aus, die Sie der Gruppe hinzufügen möchten, und klicken Sie dann auf[!UICONTROL Hinzufügen.]**
-1. Click **[!UICONTROL Save Group]**.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie unter [!UICONTROL Benutzeranmeldungen zuweisen] die Benutzer aus, die Sie der Gruppe hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Gruppe speichern]**.
 
    Die Anzahl der Benutzer, die zu einer Gruppe hinzugefügt werden, wird vom Lizenzierungssystem nicht begrenzt. Die gleichzeitige Nutzung ist auf die Anzahl der erworbenen Anwenderlizenzen eingeschränkt.
 
@@ -58,8 +58,8 @@ t_managing_users.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]** und dann auf Benutzer **[!UICONTROL verwalten]**.
-1. Suchen Sie den Benutzer und klicken Sie auf **[!UICONTROL Beenden.]**
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]** und dann auf **[!UICONTROL Benutzer verwalten]**.
+1. Suchen Sie den Benutzer und klicken Sie auf **[!UICONTROL Beenden]**.
 
    Auf der Seite [!UICONTROL Aktive Ad Hoc Analysis-Sitzungen] wird der Benutzer, der am längsten untätig war, ganz oben auf der Liste angezeigt.
 
@@ -71,7 +71,7 @@ c_permissions.xml
 
  -->
 
-You set up access to report suites in the [!DNL Administration Console]. Sie können Berechtigungen auf der Report Suite-Ebene konfigurieren. Wenn Sie beispielsweise mehrere Report Suites aktiviert haben, aber nicht allen Benutzern Zugriff auf alle Report Suites gewähren möchten, können Sie Gruppen mit spezifischen Report Suites erstellen und die Benutzer dann der entsprechenden Gruppe zuweisen.
+Sie können den Zugriff auf Report Suites in der [!DNL Administration Console] einstellen. Sie können Berechtigungen auf der Report Suite-Ebene konfigurieren. Wenn Sie beispielsweise mehrere Report Suites aktiviert haben, aber nicht allen Benutzern Zugriff auf alle Report Suites gewähren möchten, können Sie Gruppen mit spezifischen Report Suites erstellen und die Benutzer dann der entsprechenden Gruppe zuweisen.
 
 ## Einen Benutzer zur Gruppe mit Zugriff auf alle Berichte hinzufügen {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL All Report Access]**.
-1. Wählen Sie unter [!UICONTROL Verfügbare Benutzer]**den Benutzer aus und klicken Sie dann auf[!UICONTROL Hinzufügen].**
-1. Click **[!UICONTROL Save Group]**.
+1. Melden Sie sich bei **[!UICONTROL Experience Cloud]** an.
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Zugriff auf alle Berichte]**.
+1. Wählen Sie unter [!UICONTROL Verfügbare Benutzer] den Benutzer aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**. 
+1. Klicken Sie auf **[!UICONTROL Gruppe speichern]**.
 
 ## Berechtigungsgruppen erstellen {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,8 +99,8 @@ t_permission_groups.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
+1. Melden Sie sich bei **[!UICONTROL Experience Cloud]** an.
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
 1. Erstellen Sie eine Berechtigungsgruppe für Benutzer ohne Admin-Berechtigungen, in denen die für Ad Hoc Analysis aktivierten Report Suites enthalten sind, die Sie für Benutzer zugänglich machen möchten.
 
    Die dem Benutzer zur Verfügung stehenden Report Suites werden im Menü [!UICONTROL Report Cloud] angezeigt, wenn Sie ein neues Projekt erstellen.
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis nutzen HTTP zur Serverkommunikation. Es gelten dieselben Proxy-Richtlinien wie für anderen HTTP-Datenverkehr.
 
-1. Starten Sie im [!DNL Windows Control Panel]Fenster die [!UICONTROL Java-Systemsteuerung].
-1. Klicken Sie in der Registerkarte **Allgemein** auf **[!UICONTROL Netzwerkeinstellungen]**.
-1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
+1. Starten Sie im Fenster [!DNL Windows Control Panel] die [!UICONTROL Java-Systemsteuerung].
+1. Klicken Sie in der Registerkarte **[!UICONTROL Allgemein]** auf **[!UICONTROL Netzwerkeinstellungen]**.
+1. Wählen Sie **[!UICONTROL Browsereinstellungen verwenden]** oder konfigurieren Sie die Proxy-Einstellungen manuell.
+1. Klicken Sie auf **[!UICONTROL OK]** und dann in der **[!UICONTROL Java-Systemsteuerung]** erneut auf [!UICONTROL OK].
 
 ## Ziehen von Stichproben von Daten {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
