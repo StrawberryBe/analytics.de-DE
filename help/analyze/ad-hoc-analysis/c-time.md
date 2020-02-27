@@ -2,7 +2,7 @@
 description: Zeit ist eine Berichtdimension, die zur Abbildung von Trends über Stunden, Tage, Wochen und Datumsbereiche genutzt werden kann. Beispielsweise zeigt ein Produktbericht an, wie viel Umsatz ein Produkt während des ausgewählten Datumsbereichs generiert hat. Sie können eine Tages-Dimension hinzufügen, um den Trend für jeden Tag des Berichtszeitraums zu ermitteln. Die verfügbaren Granularitäten für die Zeiteinstellungen sind Stunde, Tag, Woche, Monat, Quartal und Jahr. Als voreingestellte Datumsbereiche stehen z. B. Heute, Gestern und Letzte 7 Tage zur Auswahl.
 title: Zeit
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,7 +24,7 @@ Dieses Beispiel zeigt den Umsatztrend einer Tages-Dimension.
 
 ## Zeit – Definitionen {#reference_6E718B78E437438E825DB9262086A987}
 
-Im Zeitfenster können Sie Datumsbereiche und Trendvoreinstellungen auswählen und Ihre Auswahl in den [!UICONTROL Tabellenaufbau] oder das Berichtraster ziehen.
+Im Zeitfenster können Sie Datumsbereiche und Voreinstellungen auswählen und Ihre Auswahl in den [!UICONTROL Tabellenaufbau] oder das Berichtraster ziehen.
 
 <!-- 
 
