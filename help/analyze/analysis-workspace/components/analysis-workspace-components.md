@@ -26,9 +26,9 @@ Sie können Komponenten (separat oder mehrere gleichzeitig) auf verschiedene Wei
 
 | Komponentenaktion | Beschreibung |
 |--- |--- |
-| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ &gt; „Komponenten“ &gt; „Segmente“ oder „Analysen“ &gt; „Komponenten“ &gt; „Projekte“. |
-| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ &gt; „Komponenten“ &gt; „Segmente“ oder „Analysen“ &gt; „Komponenten“ &gt; „Projekte“. |
-| Genehmigen | Genehmigen Sie die Komponente, um sie zu autorisieren. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ &gt; „Komponenten“ &gt; „Segmente“ oder „Analysen“ &gt; „Komponenten“ &gt; „Projekte“. |
+| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Genehmigen | Genehmigen Sie die Komponente, um sie zu autorisieren. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
 | Freigabe | Gilt nur für Segmente. |
 | Löschen | Gilt nur für Segmente. |
 
