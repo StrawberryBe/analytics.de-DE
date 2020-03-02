@@ -1,8 +1,8 @@
 ---
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ Das Zeilenelement „Keine“ ist ein Sammelpunkt, der alle Konversionen darstel
 
 **Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?**
 
-Diese zusätzlichen Daten sind auf das Lookback-Fenster des Besucherberichts zurückzuführen. Weitere Informationen finden Sie unter [Daten, die außerhalb des Berichtsfensters angezeigt werden](https://helpx.adobe.com/de/analytics/kb/data-appearing-outside-reporting-window.html) in der Analytics-KB. Adobe wird diese zusätzlichen Zeilen in einer künftigen Version herausfiltern.
+Diese zusätzlichen Daten sind auf das Lookback-Fenster des Besucherberichts zurückzuführen. Weitere Informationen finden Sie unter [Daten, die außerhalb des Berichtsfensters angezeigt werden](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) in der Analytics-KB. Adobe wird diese zusätzlichen Zeilen in einer künftigen Version herausfiltern.
 
 **Kann ich ein benutzerdefiniertes Lookback-Fenster mit meinen Attributionsmodellen verwenden?**
 
@@ -56,13 +56,9 @@ Das Attributionsbedienfeld unterstützt alle Dimensionen. Nicht unterstützte Me
 * Einzelseitenbesuche
 * Einzelzugriff
 
-**Wie unterscheidet sich die Attribution in Analysis Workspace von der Attribution in Data Workbench?**
+**Kann ich ein benutzerdefiniertes Lookback-Fenster mit meinen Attributionsmodellen verwenden?**
 
-Data Workbench bietet stufenweise Folgendes:
-
-* Die Fähigkeit, eine Attribution über weitere Datenquellen auf Besucherebene vorzunehmen, beispielsweise Anzeigen-Impressions und Point of Sale.
-* Algorithmische Modellierung. Die Attribution in Analysis Workspace umfasst nur regelbasierte Modelle. Siehe [Best fit-Modellierung](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html) im Data Workbench-Benutzerhandbuch.
-* Zusätzliche Visualisierungen, beispielsweise Wartezeittabellen. Siehe [Latenztabellen](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html) im Data Workbench-Benutzerhandbuch.
+Ja. Mithilfe der Option für das benutzerdefinierte Lookback-Fenster können Lookback-Fenster bis zu 90 Tage vor dem Berichtsfenster für einen beliebigen Datumsbereich konfiguriert werden. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **Funktioniert die Attribution mit Klassifizierungen?**
 
