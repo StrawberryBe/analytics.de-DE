@@ -4,12 +4,21 @@ title: Verbindungstyp
 topic: Reports
 uuid: acd458d7-b1df-412f-bb04-3886d393c2f0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b580a8cb149babd9f64ec1ac532fdff7e7c18df7
 
 ---
 
 
 # Verbindungstyp
 
-Zeigt die Metriken für die Geschwindigkeit der Internetverbindung an, z. B. Modem, LAN, mobiler Traffic usw.
+Zeigt Metriken zum Typ der Internetverbindung an, einschließlich Modem, LAN/WLAN, Mobilnetzbetreiber usw.
 
+![Typen](assets/connection.png)
+
+## Beispiel
+
+Im folgenden Bericht werden Verbindungstypen für die Metriken [Besuche](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) und [Seitenansichten](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)verglichen:
+
+![anzuzeigen](assets/contype_compare.png)
+
+Weitere Einblicke in den Verbindungstyp des Mobilnetzbetreibers finden Sie im [**Mobilnetzbetreiber-Bericht **](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile-carrier.html).
