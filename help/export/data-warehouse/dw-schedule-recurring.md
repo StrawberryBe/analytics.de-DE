@@ -2,7 +2,7 @@
 description: 'null'
 title: Planen einer wiederkehrenden Anforderung
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Möchten Sie tägliche/monatliche/jährliche Data Warehouse-Anfragen planen, stellen Sie sicher, dass die *Voreinstellungen *korrekt ausgewählt wurden.
 
-1. Wählen Sie unter [!UICONTROL Berichtsdatum] die Option **[!UICONTROL Voreingestellt aus]**.
+1. Wählen Sie unter [!UICONTROL Berichtsdatum] die Option **[!UICONTROL Voreingestellt]** aus.
 
 1. Klicken Sie unter [!UICONTROL Bereitstellung planen] auf **[!UICONTROL Erweiterte Bereitstellungsoptionen]**.
 
