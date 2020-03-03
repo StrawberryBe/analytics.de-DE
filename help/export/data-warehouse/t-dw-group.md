@@ -1,9 +1,9 @@
 ---
-description: In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe den Zugriff auf die Data Warehouse-Berichterstellung erteilen.
+description: In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe den Zugriff auf die Data Warehouse-Berichterstellung ermöglichen.
 title: Hinzufügen einer Data Warehouse-Benutzergruppe
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,19 +11,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Hinzufügen einer Data Warehouse-Benutzergruppe
 
-In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe den Zugriff auf die Data Warehouse-Berichterstellung erteilen.
+In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe den Zugriff auf die Data Warehouse-Berichterstellung ermöglichen.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Benutzerverwaltung]**.
-1. Click **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL Add New User Group]**.
-1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. Geben Sie die folgenden Gruppeninformationen ein:
+1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]**.
+1. Klicken Sie auf **[!UICONTROL „Gruppen bearbeiten“]**.
+1. Klicken Sie auf **[!UICONTROL „Neue Benutzergruppe hinzufügen“]**.
+1. Geben Sie im Abschnitt **[!UICONTROL Benutzergruppe definieren]** einen Gruppennamen in das entsprechende Feld ein. Geben Sie die folgenden Gruppeninformationen ein:
 
-   Beispiel, `Data Warehouse Access`.
-1. Type a description in the **[!UICONTROL Group Description]** field.
-1. Wählen Sie im Abschnitt **Report Suite-Zugriff** die Report Suites aus, auf die Gruppenmitglieder zugreifen sollen.
-1. Aktivieren Sie unter [!UICONTROL Tools]**die Option[!UICONTROL Alle Tools]**.
+   Beispiel: `Data Warehouse Access`.
+1. Geben Sie eine Beschreibung in das Feld **[!UICONTROL Gruppenbeschreibung]** ein.
+1. Wählen Sie im Abschnitt **[!UICONTROL Report Suite-Zugriff]** die Report Suites aus, auf die Gruppenmitglieder zugreifen sollen.
+1. Aktivieren Sie unter [!UICONTROL Tools] die Option **[!UICONTROL Alle Tools]**.
 
-   Alternatively, click **[!UICONTROL Customize]**, then enable **[!UICONTROL Custom Data Warehouse Report]**.
+   Alternativ können Sie auch auf **[!UICONTROL Benutzerspezifisch]** klicken und die Option **[!UICONTROL Benutzerspezifischer Data Warehouse-Bericht]** aktivieren.
 
 1. Fügen Sie unter [!UICONTROL Benutzeranmeldungen zuweisen] die gewünschten Benutzeranmeldungen hinzu.
 1. Klicken Sie auf **[!UICONTROL Gruppe speichern]**.
@@ -32,7 +32,7 @@ In diesen Schritten wird beschrieben, wie Administratoren einer Benutzergruppe d
 
    >[!NOTE]
    >
-   >Bei Berechtigungen, die in Konflikt zueinander stehen (z. B. wenn ein Benutzer zwei Gruppen zugewiesen ist, von denen eine den Zugriff auf eine Funktion verweigert und die andere den gleichen Zugriff gewährt), beschränkt das System die Berechtigungen. Benutzer in Gruppen, die den Data Warehouse-Zugriff nicht erlauben, müssen unter Umständen aus diesen Gruppen entfernt werden.
+   >Wenn Berechtigungen in Konflikt zueinander stehen (z. B. wenn ein Benutzer zwei Gruppen zugewiesen ist und einer dieser Gruppen der Zugriff auf eine Funktion untersagt, der anderen jedoch gestattet ist), beschränkt das System die Berechtigungen. Benutzer in Gruppen, die den Data Warehouse-Zugriff nicht erlauben, müssen unter Umständen aus diesen Gruppen entfernt werden.
 
 >[!MORELIKETHIS]
 >
