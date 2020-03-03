@@ -38,7 +38,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
    + [Verwalten von Data Warehouse-Anforderungen](data-warehouse/data-warehouse-requests-manage.md)
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
    + [Dimensionen, die nicht mit Data Warehouse-Segmenten kompatibel sind](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
-   + [Bewährte Methoden für Data Warehouse](data-warehouse/data-warehouse-bp.md)
+   + [Best Practice für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
    + [FTP und SFTP mit der Adobe Experience Cloud verwenden](ftp-and-sftp/ftp-overview.md)
    + Von Adobe gehostete FTP-Konten einrichten {#set-up-ftp-accounts}
