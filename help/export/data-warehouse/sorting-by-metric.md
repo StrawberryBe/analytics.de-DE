@@ -1,8 +1,8 @@
 ---
-description: Bietet nach Rang geordnet Aufschlüsselungsberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
+description: Bietet nach Rang geordnet Detailberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
 title: Nach Metrik sortieren
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Nach Metrik sortieren
 
-Bietet nach Rang geordnet Aufschlüsselungsberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
+Bietet nach Rang geordnet Detailberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
 
 Die Sortierung nach Metrik erleichtert die Interpretation von Data Warehouse-Berichten und den Vergleich mit anderen Ansichten von Analytics-Aufschlüsselungsberichten.
 
