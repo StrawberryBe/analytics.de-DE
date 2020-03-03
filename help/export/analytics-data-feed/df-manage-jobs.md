@@ -15,7 +15,7 @@ Gehen Sie wie folgt vor, um auf das Daten-Feed-Auftragsmanagement zuzugreifen:
 
 1. Melden Sie sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Raster-Menü und dann auf [!UICONTROL Analytics].
-3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] &gt; [!UICONTROL Daten-Feeds].
+3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] > [!UICONTROL Daten-Feeds].
 4. Klicken Sie oben auf die Registerkarte „Aufträge“.
 
 ![Daten-Feed-Menü](assets/AdminMenu.png)
