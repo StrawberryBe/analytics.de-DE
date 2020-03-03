@@ -3,7 +3,7 @@ description: Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Se
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics-Daten-Feed-Dokumentation
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -56,10 +56,10 @@ Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfül
 
 Sobald Sie den grundlegenden Workflow beim Abrufen von Daten-Feeds kennen, können Sie mit Teams in Ihrer Organisation zusammenarbeiten, um Rohdaten in einer Datenbank zu speichern oder zu erfassen.
 
-* [Erstellen Sie einen Datenfeed](create-feed.md): Technische Details zum Erstellen eines Datenfeeds, Erläuterungen zu einzelnen Feldern im Detail
-* [Verwalten von Datenfeeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Data Feed-Oberfläche
-* [Datenfeed-Inhalte](c-df-contents/datafeeds-contents.md): Verstehen Sie, was sich in der komprimierten Datei befindet.
-* [Datenspaltendefinitionen](c-df-contents/datafeeds-reference.md): Eine umfassende Liste aller verfügbaren Spalten
+* [Erstellen von Daten-Feeds](create-feed.md): Technische Details zum Erstellen eines Daten-Feed, detaillierte Erläuterungen einzelner Felder
+* [Verwalten von Daten-Feeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Daten-Feed-Benutzeroberfläche
+* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Informationen zum Inhalt der komprimierten Datei
+* [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten
 
 ## Zusätzliche Ressourcen
 
