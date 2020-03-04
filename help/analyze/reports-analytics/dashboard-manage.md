@@ -16,7 +16,7 @@ Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archiviere
 
 >[!IMPORTANT]
 >
->Beim Einsatz des Dashboard-Managers wird empfohlen, für einen Benutzer nicht mehr als 300 Dashboards zu verwenden. Beachten Sie auch, dass der Manager alle freigegebenen Dashboards unten lädt. Achten Sie daher darauf, Dashboards freizugeben.
+>Beim Einsatz des Dashboard-Managers wird empfohlen, für einen einzelnen Benutzer nicht mehr als 300 Dashboards zu verwenden. Beachten Sie auch, dass der Manager alle freigegebenen Dashboards unten lädt. Achten Sie daher darauf, Dashboards freizugeben.
 
 ## Dashboard-Manager
 
@@ -70,7 +70,7 @@ Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freige
 
 Sie können vorhandene Legacy-Dashboards weiterhin ausführen, bearbeiten, herunterladen und planen. Neue Legacy-Dashboards können Sie jedoch nicht mehr erstellen. Wir empfehlen Ihnen dringend, vorhandene Legacy-Dashboards auf das neue Dashboard-Format zu aktualisieren.
 
-> [!NOTE] In Zukunft sollten Sie die Verwendung von Projekten[ im ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)Arbeitsbereich für Analysen und deren Möglichkeit zum Herunterladen und Planen in Betracht ziehen.
+> [!NOTE] In Zukunft sollten Sie die Verwendung von [Analysis Workspace-Projekten](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) und deren Möglichkeit, sie herunterzuladen und zu planen, in Erwägung ziehen.
 
 Beim Kopieren eines Legacy-Dashboards öffnet das System dieses zur Bearbeitung, wobei Sie Legacy-Inhalt oder neuen Inhalt hinzufügen können. Wenn Sie ein Legacy-Dashboard kopieren, bleibt das Original in der Liste der Legacy-Dashboards erhalten.
 
