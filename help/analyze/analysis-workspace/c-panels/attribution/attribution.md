@@ -41,7 +41,7 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 
 * **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Wenn der Berichts-Datumsbereich beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
 
-* **** Benutzerdefiniertes Lookback-Fenster: Ermöglicht Ihnen, das Zuordnungsfenster bis zu maximal 90 Tage über den Berichtsdatumsbereich hinaus zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konvertierung im Berichtszeitraum ausgewertet. Beispiel: Bei einer Konvertierung am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimension-Touchpoints vom 10. bis 20. Februar im Zuordnungsmodell auswerten.
+* **Benutzerdefiniertes Lookback-Fenster:** Ermöglicht Ihnen, das Zuordnungsfenster bis zu maximal 90 Tage über den Datumsbereich der Berichterstellung hinaus zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konvertierung im Berichtszeitraum ausgewertet. Beispiel: Bei einer Konvertierung am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimension-Touchpoints vom 10. bis 20. Februar im Zuordnungsmodell auswerten.
 
 ## Beispiel
 
