@@ -58,7 +58,7 @@ Das Attributionsbedienfeld unterstützt alle Dimensionen. Nicht unterstützte Me
 
 **Kann ich ein benutzerdefiniertes Lookback-Fenster mit meinen Attributionsmodellen verwenden?**
 
-Ja. Mithilfe der Option für das benutzerdefinierte Lookback-Fenster können Lookback-Fenster bis zu 90 Tage vor dem Berichtsfenster für einen beliebigen Datumsbereich konfiguriert werden. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
+Ja. Mithilfe der Option für ein benutzerdefiniertes Lookback-Fenster können Lookback-Fenster bis zu 90 Tage vor dem Berichtsfenster für einen beliebigen Datumsbereich konfiguriert werden. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **Funktioniert die Attribution mit Klassifizierungen?**
 
