@@ -3,7 +3,7 @@ description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
 keywords: Data Feed;troubleshooting
 title: Fehlerbehebung bei Daten-Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -41,15 +41,15 @@ Im Fall eines Übertragungsfehlers können Sie einen Auftrag erneut ausführen, 
 
 ## Optionen zum erneuten Senden {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, führen Sie den Auftrag erneut aus, um die Dateien abzurufen.
+Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, führen Sie den Vorgang erneut aus, um die Dateien abzurufen.
 
-## Auswirkungen der Sommerzeit auf stündliche Datenfeeds {#section_70E867D942054DD09048E027A9474FFD}
+## Auswirkungen der Sommerzeit auf stündliche Daten-Feeds {#section_70E867D942054DD09048E027A9474FFD}
 
 Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Datenfeeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an den anderen Tagen des Jahres. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (normalerweise 2:00 Uhr morgens).
 
-Bei STD-&gt; DST-Zeitübergängen ("Spring Forward") erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn der Übergang z. B. um 2 Uhr erfolgt, erhalten sie eine Datei für 1 Uhr und eine Datei für 3 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit der Sommerzeit-Uhrzeit 3:00 Uhr entspricht.
+Bei der Umstellung von Normalzeit auf Sommerzeit (im Frühling) erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Beispiel: Wenn die Umstellung um 2:00 Uhr erfolgt, erhalten die Kunden eine Datei für 1:00 Uhr und eine Datei für 3:00 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit während der Sommerzeit 3:00 Uhr entspricht.
 
-Bei DST-&gt; STD-Übergängen ("Fall Back") erhält der Kunde 24 Dateien. Die Stunde des Übergangs umfasst jedoch Daten von 2 Stunden. Beispiel: Wenn die Umstellung 2:00 Uhr erfolgt, erhalten die Kunden die Datei für 1:00 Uhr verspätet, diese umfasst jedoch Daten für insgesamt zwei Stunden. Nämlich Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr nach Sommerzeit entspricht). Die nächste Datei beginnt ab 2:00 Uhr Normalzeit.
+Bei der Umstellung von Sommerzeit auf Normalzeit (im Herbst) erhält der Kunde 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt 2 Stunden. Beispiel: Wenn die Umstellung 2:00 Uhr erfolgt, erhalten die Kunden die Datei für 1:00 Uhr verspätet, diese umfasst jedoch Daten für insgesamt zwei Stunden. Nämlich Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr nach Sommerzeit entspricht). Die nächste Datei beginnt ab 2:00 Uhr Normalzeit.
 
 ## Keine Daten für Zeitraum {#section_72510794694D42A9A75C966B812AEB0F}
 
@@ -64,8 +64,8 @@ Datafeed-Manifest-Version: 1.0
 
 ## Keine Domäneninfo für Domänenberichterstellung {#section_B7508D65370442C7A314EAED711A2C75}
 
-Einige Mobilfunknetzbetreiber (wie T-Mobile und O1) bieten keine Domänen mehr für Reverse-DNS-Lookups an. Daher sind die Daten nicht für die Domänenberichterstellung verfügbar.
+Einige Mobilnetzbetreiber (wie T-Mobile und O1) bieten keine Domänen mehr für Reverse-DNS-Lookups an. Daher sind die Daten nicht für die Domänenberichterstellung verfügbar.
 
 ## Übersicht zu Datenverarbeitung {#section_6346328F8D8848A7B81474229481D404}
 
-Bevor Sie stündliche oder tägliche Daten verarbeiten können, warten die Datenfeeds, bis alle Treffer, die innerhalb des Zeitrahmens (Tag oder Stunde) in die Datenerfassung eingehen, aus dem Data Warehouse geschrieben werden. Anschließend erfassen die Datenfeeds die Daten mit Zeitstempeln, die in diesen Zeitrahmen fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Daten normalerweise innerhalb von 15 bis 30 Minuten nach Ablauf der entsprechenden Stunde aus dem Data Warehouse geschrieben, es gibt jedoch keinen festgelegten Zeitraum. Wenn es keine Daten mit Zeitstempeln gibt, die in diesen Zeitrahmen passen, erfolgt der Prozess im nächsten Zeitrahmen erneut. Der aktuelle Datenfeedprozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
+Bevor stündliche oder tägliche Daten verarbeitet werden, warten die Daten-Feeds, bis alle Treffer, die innerhalb des Zeitrahmens (Tag oder Stunde) in die Datenerfassung eingehen, in Data Warehouse geschrieben wurden. Anschließend erfassen die Daten-Feeds die Daten mit Zeitstempeln, die in diesen Zeitrahmen fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Daten normalerweise innerhalb von 15 bis 30 Minuten nach Ablauf der entsprechenden Stunde aus dem Data Warehouse geschrieben, es gibt jedoch keinen festgelegten Zeitraum. Wenn es keine Daten mit Zeitstempeln gibt, die in diesen Zeitrahmen passen, erfolgt der Prozess im nächsten Zeitrahmen erneut. Der aktuelle Daten-Feed-Prozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
