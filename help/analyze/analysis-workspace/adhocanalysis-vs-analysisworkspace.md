@@ -2,8 +2,8 @@
 description: Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis und Analysis Workspace.
 title: Analysis Workspace im Vergleich mit Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis und Analysis Wo
 
 Analysis Workspace bringt viele Funktionen von Ad Hoc Analysis in den Arbeitsablauf im Browser. Einige Begriffe und Funktionen werden zwischen den Produkten übernommen, doch es gibt auch einige neue Begriffe und Ansätze für Analysen, die in Analysis Workspace neu eingeführt werden.
 
-Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderungen der beiden Produkte finden Sie [hier](https://marketing.adobe.com/resources/help/de_DE/reference/analytics-product-comparison.html).
+Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderungen der beiden Produkte finden Sie [hier](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html).
 
 ## Vergleich der Schlüsselbegriffe  {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +100,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Mit <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >Attribution IQ</a> in Analysis Workspace können Sie Freiformtabellen, Visualisierungen und berechneten Metriken viele neue Attributionsmodelltypen hinzufügen. </p> </td> 
+   <td colname="col2"> <p>Mit <a href="/help/analyze/analysis-workspace/attribution-iq.md"  >Attribution IQ</a> in Analysis Workspace können Sie Freiformtabellen, Visualisierungen und berechneten Metriken viele neue Attributionsmodelltypen hinzufügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nicht eingeschlossen </p> </td> 
