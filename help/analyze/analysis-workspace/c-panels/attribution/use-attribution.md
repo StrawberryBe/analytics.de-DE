@@ -1,14 +1,13 @@
 ---
-description: 'null'
-title: Attribution IQ in Analysis Workspace verwenden
-uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Attribution in Analysis Workspace verwenden
+description: Erfahren Sie mehr über die Orte in Adobe Analytics, an denen Sie die Zuordnung verwenden können.
+translation-type: tm+mt
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
 
-# Attribution IQ in Analysis Workspace verwenden
+# Attribution in Analysis Workspace verwenden
 
 Mit Attribution IQ in Analysis Workspace können Sie unterstützte Attributionsmodelle miteinander vergleichen, die wichtigsten zur Konversion führenden Marketing-Sequenzen mit erweiterten Fluss- und Fallout-Visualisierungen visualisieren, Trends für Marketing-Kanäle oder Kampagnen einfach offenlegen, um die Leistung über einen Zeitraum anzuzeigen, nach statistischen Abweichungen in der Kanal-/Kampagnenleistung suchen und gewarnt werden, wenn die Leistung sich verschlechtert oder verbessert.
 
@@ -20,7 +19,7 @@ Analysis Workspace-Freiformtabellen unterstützen Attributionsmodelle, die für 
 
    ![](assets/Column_Settings.png)
 
-1. Aktivieren Sie unter **[!UICONTROL Dateneinstellungen]** die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**. Weitere Informationen zu den unterschiedlichen Attributionsmodellen finden Sie in der [Übersicht zu Attribution IQ](attribution.md).
+1. Überprüfen Sie **[!UICONTROL Data Settings]** unter **[!UICONTROL Use non-default attribution model]**. Weitere Informationen zu den unterschiedlichen Attributionsmodellen finden Sie in der [Übersicht zu Attribution IQ](attribution.md).
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -32,7 +31,7 @@ Auf die Aufschlüsselungen in einer Freiformtabelle kann auch ein beliebiges Att
 
 ## Attributionsmodellvergleich {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-Wenn Sie Attributionsmodelle schnell und einfach miteinander vergleichen möchten, sollten Sie mit der rechten Maustaste klicken und **[!UICONTROL Vergleichsattributionsmodell hinzufügen]** auswählen:
+If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
