@@ -3,7 +3,7 @@ title: AppMeasurement für JavaScript - Versionshinweise
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
+source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 ---
 
@@ -15,6 +15,12 @@ Gesammelte Versionshinweise für [!DNL AppMeasurement] für JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin/admin/code-manager-admin.md)herunterladen.
+
+## Version 2.20.0
+
+Releasedatum: **5. März 2020**
+
+* Ein sicherheitsbezogenes Problem wurde behoben.
 
 ## Version 2.19.0
 
@@ -193,7 +199,7 @@ Releasedatum: **19. Januar 2017**
 * Funktionsaufrufe und -überprüfungen wurden neu sequenziert, damit die SDID nach einem vollständigen Überprüfungsabbruch verbraucht wird. (AN-134364)
 * Hinzugefügt `s.registerPreTrackCallback` und `s.registerPostTrackCallback` Haken. (AN-134567)
 
-## Version 1.7.0
+## Version 1.7.0
 
 Aktualisiert: **11. November 2016**
 
@@ -287,7 +293,7 @@ Releasedatum: **21. Mai 2015**
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 
-> [!NOTE] **Bekanntes Problem**: In den Integrationen Visitor API/ [!DNL AppMeasurement] [!DNL Audience Manager] Module gibt es zwei iFrame-Anfragen zur Zielveröffentlichung in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
+> [!NOTE] **Bekanntes Problem**: In den Integrationen Visitor API/ [!DNL AppMeasurement] [!DNL Audience Manager] Module gibt es zwei iFrame-Anfragen zur Zielveröffentlichung, die in IE6-9 gestellt wurden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
