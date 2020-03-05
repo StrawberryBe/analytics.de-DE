@@ -1,7 +1,7 @@
 ---
 title: Werbekonto einrichten
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,14 +15,14 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
 
 ![](assets/aa_accounts.png)
 
-1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
 1. (Nur bei erster Verwendung) Akzeptieren Sie die Bedingungen der Endnutzer-Lizenzvereinbarung.
 1. Klicken Sie auf **[!UICONTROL + Hinzufügen]**.
 1. Das Dialogfeld [!UICONTROL Neues Suchmaschinenkonto] wird angezeigt:
 
    ![](assets/aa_new_se_account.png)
 
-1. Legen Sie die **[!UICONTROL Suchmaschineneinstellungen]gemäß folgenden Richtlinien fest:**
+1. Legen Sie die **[!UICONTROL Suchmaschineneinstellungen]** gemäß folgenden Richtlinien fest:
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -34,7 +34,7 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Typ </p> </td> 
-      <td colname="col2"> <p>Sie haben zwei Optionen: Google AdWords und Microsoft Bing Ads. </p> <p>Hinweis: Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.  </p> </td> 
+      <td colname="col2"> <p>Sie haben zwei Möglichkeiten: Google AdWords und Microsoft Bing. </p> <p>Hinweis: Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Kontoname </p> </td> 
@@ -46,16 +46,16 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: Geben Sie die Google-Konto-ID an. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geben Sie die Bing-Konto-ID und die Bing-Kunden-ID an. </li> 
-        </ul> <p>Weitere Informationen finden Sie unter <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Finden Sie Ihre Konto-ID</a>, um weitere Informationen zu diesen IDs zu erhalten. </p> <p>Nach erfolgreicher Anmeldung wird das Feld OAuth-Token angezeigt 
+        </ul> <p>Weitere Informationen finden Sie unter  <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Finden Sie Ihre Konto-ID</a>. </p> <p>Sobald Sie sich erfolgreich angemeldet haben, wird im OAuth-Token-Feld 
         <systemoutput>
-          abgerufen
+          „Abgerufen“ angezeigt
         </systemoutput>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Geben Sie im Abschnitt **[!UICONTROL Tracking]Informationen dazu ein, wie die Suchmaschine von Ihrer Adobe Analytics-Implementierung verfolgt wird.** Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß durch die Suchmaschinendaten zu ergänzen.
-Legen Sie die **[!UICONTROL Tracking-Einstellungen]gemäß folgenden Richtlinien fest:**
+1. Geben Sie im Abschnitt **[!UICONTROL Tracking]** Informationen dazu ein, wie die Suchmaschine von Ihrer Adobe Analytics-Implementierung verfolgt wird. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß durch die Suchmaschinendaten zu ergänzen.
+Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlinien fest:
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -69,24 +69,24 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]gemäß folgenden Richtlinien
       <td colname="col1"> <p>Typ </p> </td> 
       <td colname="col2"> 
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Auto</span>: Hiermit kann die Advertising Cloud-Engine entscheiden, wie die Verfolgungsparameter an die Verfolgungsvorlagen/Ziel-URLs der Suchmaschine angehängt werden. Dies ist der einfachste Ansatz, der jedoch möglicherweise nicht zum besten integrierten Datensatz führt. <p>Wichtig: Zur Konfiguration eines Suchmaschinenkontos im automatischen Modus sind Sie für die folgenden Schritte verantwortlich: 
+        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Auto</span>: Hier entscheidet die Advertising Cloud-Engine, wie die Tracking-Parameter an die Tracking-Vorlagen/Ziel-URLs der Suchmaschine angehängt werden. Dies ist der einfachste Ansatz, der jedoch möglicherweise nicht zum besten integrierten Datensatz führt. <p>Wichtig: Wenn Sie ein Suchmaschinenkonto im „Auto-Modus“ konfigurieren möchten, sind Sie für die folgenden Aktionen verantwortlich: 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Der Parameter „s_kwcid“ und der Wert „s_kwcid“ werden den Kontotracking-Vorlagen oder Landingpage-URLs in dem hinzugefügten Konto hinzugefügt. Die Einfügung erfolgt am Ende der URL. Daher können zusätzliche Maßnahmen von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Darüber hinaus können Keywords als Teil des Wertes „s_kwcid“ in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie daher bitte, ob Ihr Webserver diese Zeichen unterstützen kann. (Ein häufig verwendetes Sonderzeichen ist beispielsweise „+“, das in „Broad Match Modified“-Keywords verwendet wird.) </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuell</span>: Ermöglicht Ihnen die Verwaltung, wie die Verfolgungsparameter den Verfolgungsvorlagen/Ziel-URLs der Suchmaschine hinzugefügt werden. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Weitere Informationen finden Sie in den Beispielen für manuelles Tracking für die einzelnen Suchmaschinen</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuell</span>: Hierüber können Sie verwalten, wie Tracking-Parameter zu den Tracking-Vorlagen/Ziel-URLs der Suchmaschine hinzugefügt werden. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Weitere Informationen finden Sie in den Beispielen für manuelles Tracking für die einzelnen Suchmaschinen</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Zuordnung]aus, welche Report Suite(s) mit diesem Suchmaschinenkonto verknüpft werden soll(en).** Sie müssen mindestens eine Report Suite angeben, bevor Sie das Werbekonto speichern können. Sie können mehrere Konten verschiedenen Report Suites zuordnen (1:1, 1:n, n:n). Beachten Sie, dass die Daten, die AMO aus der Suchmaschine abruft, einfach in die zugeordnete Report Suite kopiert werden. Die Daten werden also nicht aufgeteilt.
+1. Wählen Sie im Abschnitt **[!UICONTROL Zuordnung]** aus, welche Report Suite(s) mit diesem Suchmaschinenkonto verknüpft werden soll(en). Sie müssen mindestens eine Report Suite angeben, bevor Sie das Werbekonto speichern können. Sie können mehrere Konten verschiedenen Report Suites zuordnen (1:1, 1:n, n:n). Beachten Sie, dass die Daten, die AMO aus der Suchmaschine abruft, einfach in die zugeordnete Report Suite kopiert werden. Die Daten werden also nicht aufgeteilt.
 
    >[!IMPORTANT]
    >
-   >Only report suites that have been [mapped to an Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) will be available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Nur Report Suites, die [einer Experience Cloud-Organisation zugeordnet sind](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html), stehen zur Auswahl zur Verfügung. Wenn Ihre Report Suite nicht aufgeführt ist, suchen Sie im Abschnitt [Problembehebung in Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) nach weiteren Informationen.
 
-   Legen Sie die **[!UICONTROL Zuordnungseinstellungen]gemäß folgenden Richtlinien fest:**
+   Legen Sie die **[!UICONTROL Zuordnungseinstellungen]** gemäß folgenden Richtlinien fest:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -97,7 +97,7 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]gemäß folgenden Richtlinien
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Report-Suite-Zuordnung </p> </td> 
+      <td colname="col1"> <p>Report Suite  Zuordnen </p> </td> 
       <td colname="col2"> <p>Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. </p> <p>Wenn Ihre Report Suite nicht aufgeführt ist, können Sie sie mit diesem Tool <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >einer Experience Cloud-Organisation zuordnen</a>. </p> </td> 
       </tr> 
     </tbody> 
@@ -108,5 +108,5 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]gemäß folgenden Richtlinien
 
    Nun wird die [Verwaltungsoberfläche](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) für Werbekonten angezeigt, in der das neu erstellte Konto aufgeführt sein sollte.
 
-> [!NOTE] Sie sollten mindestens 24 Stunden warten, bevor die Daten der Suchmaschine mit dem Füllen Ihrer Analytics-Berichte beginnen.
+> [!NOTE] Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden.
 
