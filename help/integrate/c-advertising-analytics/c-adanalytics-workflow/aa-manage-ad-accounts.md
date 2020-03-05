@@ -2,7 +2,7 @@
 description: 'null'
 title: Werbekonten verwalten
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Werbekonten verwalten
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+Sie können wie folgt auf die Verwaltungsoberfläche zugreifen: **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,10 +24,10 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Aktionen</b> </p> </td> 
-   <td colname="col2"> <p><b>Hinweis: Aktionen werden nur angezeigt, wenn Sie mindestens ein Werbekonto ausgewählt haben. </b> </p> </td> 
+   <td colname="col2"> <p><b>Aktionen werden nur angezeigt, wenn Sie mindestens ein Werbekonto ausgewählt haben. </b> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+ Fügen Sie </p> </td> 
+   <td colname="col1"> <p>+ Hinzufügen </p> </td> 
    <td colname="col2"> <p>Hierdurch gelangen Sie zur Benutzeroberfläche <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Werbekonto einrichten</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konto </p> </td> 
-   <td colname="col2"> <p>Listet einen der 2 unterstützten Kontotypen auf: Google Adwords oder Bing Ads. </p> </td> 
+   <td colname="col2"> <p>Listet einen der zwei unterstützten Kontotypen auf: Google AdWords oder Bing Ads. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Status </p> </td> 
