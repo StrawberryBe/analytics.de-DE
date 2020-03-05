@@ -2,7 +2,7 @@
 description: Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports & Analytics und Report Builder.
 title: Berichte zu Werbedaten in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,23 +12,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports &amp; Analytics und Report Builder.
 
-> [!NOTE] Sie sollten mindestens 24 Stunden warten, bevor die Daten der Suchmaschine in Ihre Analytics-Berichte aufgenommen werden. Beachten Sie, dass auch Analytics-Reporting keine Daten mit stündlicher Granularität zurückgibt, da AMO-Daten keine stündliche Granularität unterstützen.
+> [!NOTE] Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden. Beachten Sie, dass auch Analytics-Reporting keine Daten mit stündlicher Granularität zurückgibt, da AMO-Daten keine stündliche Granularität unterstützen.
 
-## Analysis Workspace: Search Engines {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Analysis Workspace: Suchmaschinen {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, in Analytics auf umfassende Suchmaschinendaten zugreifen. You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
+Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, in Analytics auf umfassende Suchmaschinendaten zugreifen. Der Zugriff erfolgt über **[!UICONTROL Workspace]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Advertising]** > **[!UICONTROL Suchmaschinen]**.
 
 >[!NOTE]
 >
->Die Kategorie "Werbevorlage"ist für alle Kunden sichtbar, auch wenn Sie keine Werbekonten implementiert haben. Wenn Sie jedoch die Vorlage „ Suchmaschinen“ für ein Unternehmen öffnen, das nicht bereitgestellt wurde, werden Sie über eine Fehlermeldung darüber benachrichtigt, dass Sie noch keine Suchmaschinenkonten konfiguriert haben. Klicken Sie in diesem Fall auf **[!UICONTROL Jetzt konfigurieren]**. Hierdurch gelangen Sie zum Bildschirm zur [Einrichtung eines Werbekontos](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>Die Kategorie „Advertising Template“ wird allen Kunden angezeigt, selbst wenn sie keine Werbekonten implementiert haben. Wenn Sie jedoch die Vorlage „ Suchmaschinen“ für ein Unternehmen öffnen, das nicht bereitgestellt wurde, werden Sie über eine Fehlermeldung darüber benachrichtigt, dass Sie noch keine Suchmaschinenkonten konfiguriert haben. Klicken Sie in diesem Fall auf **[!UICONTROL Jetzt konfigurieren]**. Hierdurch gelangen Sie zum Bildschirm zur [Einrichtung eines Werbekontos](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
 | Tabelle/Visualisierung | Beschreibung |
 |--- |--- |
 | Werbetrends | Tägliche Übersicht mit Trenddaten für AMO-Impressionen, -Klicks und -Kosten |
-| Anzeigenplattformen | Ringdiagramm für die Kosten der Top 2 Plattformen (Google, Bing). |
-| Werbeplattform gesamt | Freiformtabelle der führenden Plattformen, aufgeschlüsselt nach AMO-Impressionen, -Klicks, -Kosten, durchschnittlicher AMO-Position und durchschnittlicher AMO- Qualitätsbewertung |
+| Anzeigenplattformen | Kreisdiagramm mit Kosten der führenden zwei Plattformen (Google, Bing) |
+| Werbeplattform gesamt | Freiformtabelle der führenden Plattformen, aufgeschlüsselt nach AMO-Impressionen, -Klicks, -Kosten, durchschnittlicher AMO-Position und durchschnittlicher AMO- Qualitätsbewertung. |
 | Konten | Zusammengefasster Kostenbereich |
 | Konto gesamt | Freiformtabelle der führenden Konten, aufgeschlüsselt nach zugehörigen Metriken |
 | Kampagnen | Balkendiagramm der Kampagnenkosten |
@@ -40,7 +40,7 @@ Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, 
 | Keywords | Punktdiagramm der Impressionen, Klicks und Kosten für alle Kombinationen aus Keyword und Übereinstimmungstyp |
 | Keyword gesamt | Freiformtabelle der führenden Kombinationen aus Keyword und Übereinstimmungstyp, aufgeschlüsselt nach zugehörigen Metriken |
 
-## Reports and Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
+## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
 Sobald Sie ein Advertising Analytics-Konto eingerichtet haben, steht Ihnen der Advertising Analytics-Bericht zur Verfügung.
 
