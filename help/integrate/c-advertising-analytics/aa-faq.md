@@ -2,7 +2,7 @@
 description: 'null'
 title: Häufig gestellte Fragen
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>F: Muss ich <b>Kunde von Adobe Advertising Cloud oder Adobe Advertising Cloud (AMO)</b> sein, um diese Funktion zu nutzen? </p> </td> 
    <td colname="col2"> <p>A: Nein, diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung. </p> <p>AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Verwenden von Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Verwenden von Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -89,15 +89,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Ich möchte <b>meine Advertising Analytics-Konten einer bestimmten Report Suite zuordnen</b>, aber sie ist nicht im Report Suite-Dialog verfügbar. Warum? </p> </td> 
-   <td colname="col2"> <p>A: Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die entsprechende Suite <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >für Advertising Analytics-Reporting bereitgestellt</a> werden . </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>A: Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die entsprechende Suite <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >für Advertising Analytics-Reporting bereitgestellt</a> werden. </p> <p>Dies erledigen Sie über eine separate Admin-Seite, die Sie wie folgt öffnen können: <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">[Experience Cloud-fähige Report Suite auswählen]</span> &gt; <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Ist es möglich, einem Advertising Analytics-Konto eine <b>Virtual Report Suite</b> (VRS) zuzuweisen? </p> </td> 
-   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten. Deshalb können Sie ein Advertising Analytics-Konto nicht direkt einer VRS zuweisen. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der VRS zuweisen, zu der die Daten hinzugefügt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klick-/Kosten-/Impressionen) werden möglicherweise nicht in der VRS angezeigt, es sei denn, Sie fügen Ihrer Segmentlogik eine "oder"-Bedingung basierend auf der AMO-ID (oder deren Klassifizierung) hinzu. Beispiel: Wenn Sie "alle Treffer, bei denen eine AMO-ID vorhanden ist"hinzufügen, werden die Suchmaschinenmetriken in das Segment einbezogen. </p> </td> 
+   <td colname="col2"> <p>A: Virtual Report Suites erfassen keine Daten. Deshalb können Sie ein Advertising Analytics-Konto nicht direkt einer VRS zuweisen. </p> <p>Sie können das Advertising Analytics-Konto jedoch der übergeordneten Report Suite der VRS zuweisen, zu der die Daten hinzugefügt werden sollen. </p> <p>Die Suchmaschinenmetriken (Klicks/Kosten/Impressionen) werden unter Umständen nur dann in der VRS angezeigt, wenn Sie eine „oder“-Bedingung in Ihre Segmentlogik auf der Grundlage der AMO-ID (oder ihrer Classification) aufnehmen. Beispiel: Durch das Hinzufügen von „alle Treffer, bei denen eine AMO-ID existiert“ werden die Suchmaschinenmetriken in das Segment aufgenommen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Können Advertising Analytics-Metriken zum Bericht <b>Marketingkanäle</b> hinzugefügt werden? </p> </td> 
-   <td colname="col2"> <p>A: Nein, sie sind nicht im Marketingkanalbericht enthalten. </p> </td> 
+   <td colname="col2"> <p>A: Nein, sie sind nicht im Bericht „Marketingkanäle“ enthalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: <b>Wann</b> werden die Suchdaten in Analytics abgerufen? </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Werden derzeit nur Daten von google.com erfasst oder auch von den <b>Länderversionen</b> (wie google.co.uk, google.it, google.fr oder google.de)? </p> </td> 
-   <td colname="col2"> <p>A: Die Anzeigenplattformklassifizierung erfasst folgende Werte: "Google Adwords" und "Bing Ads". </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Sie können dann nach unten oder nach Segment filtern (z. B. wenn alle Kampagnen mit countryCode_ beginnen, und dann ein Segment erstellen, bei dem Kampagnen (AMO-ID) mit "UK_"beginnen, würde Ihnen nur Daten für das Vereinigte Königreich liefern). </p> </td> 
+   <td colname="col2"> <p>A: Die Anzeigenplattform-Classification erfasst folgende Werte: „Google Adwords“ und „Bing Ads“. </p> <p>Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>F: Die Metrik „AMO-Kosten“ bezeichnet die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. Handelt es sich hierbei um Netto- oder Bruttokosten? </p> </td> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Automatisches Tracking im Vergleich zu manuellem Tracking {#section_7437C4698A6D482EB7ED94A948390119}
+## Automatisches Tracking im Vergleich zu manuellem Tracking  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
