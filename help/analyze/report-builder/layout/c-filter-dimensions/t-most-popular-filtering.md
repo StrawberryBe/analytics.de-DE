@@ -3,7 +3,7 @@ description: Rangordnung und bedingte Filter, die Sie mit UND/ODER-Suchausdrück
 title: Bevorzugte Filter
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Rangordnung und bedingte Filter, die Sie mit UND/ODER-Suchausdrücken entsprechend Boolscher Logik konfigurieren.
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) these expressions for other request in this workbook, or in other workbooks.
+Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedingungen der Boolschen Logik konfigurieren, beispielsweise [!UICONTROL Seite enthält nicht ]*`<product name>`* mit Bedingungen oder Gruppen von Bedingungen wie[!UICONTROL Alle eingeschlossen],[!UICONTROL Beliebige eingeschlossen]oder[!UICONTROL Alle ausgeschlossen]. Sie können die Ausdrücke [speichern](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md), um sie in anderen Anforderungen in der aktuellen oder anderen Arbeitsmappen zu verwenden.
 
 **So erstellen Sie am meisten bevorzugte Filter**
 
@@ -21,8 +21,8 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![Schritt-Info](assets/dimension_filter.png)
 
-1. Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2]**im Raster auf den Link neben der Dimension und wählen Sie dann[!UICONTROL Filter]**.
-1. Aktivieren Sie im Dialogfeld [!UICONTROL Seiten auswählen]**die Option[!UICONTROL Am meisten bevorzugte]** und konfigurieren Sie dann die folgenden Optionen:
+1. Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] im Raster auf den Link neben der Dimension und wählen Sie dann **[!UICONTROL Filter]**.
+1. Aktivieren Sie im Dialogfeld [!UICONTROL Seiten auswählen] die Option **[!UICONTROL Am meisten bevorzugte]** und konfigurieren Sie dann die folgenden Optionen:
 
    **Startrang:** Der Startrang einer Dimension. Der Standardwert von 1 steht für das Element mit dem höchsten Wert in der Liste der berichteten Daten. Beispielsweise zeigt ein Startrang von 1 für die Dimension [!UICONTROL Seite] die Seite Ihre Website mit der absolut höchsten Besucherzahl an. Sie können beispielsweise 10 oder einen anderen Wert als Startrangzelle angeben, wodurch ein Bericht erstellt wird, der mit 10 als höchstem Wert beginnt. Metriken werden in absteigender Reihenfolge angeordnet, d. h. die Zeileneinträge mit der höchsten Aktivität werden als erste in der Liste aufgeführt. Wenn Sie mehr als 50.000 Seitennamen in einer Anforderung benötigen, aber einen Bericht über tausende von Seiten ausführen, können Sie die Anforderung kopieren und den Startrang so ändern, dass die Daten in Blöcken von 50.000 abgerufen werden.
 
@@ -32,7 +32,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >Die Anwendung von Filtern auf bestehende Anforderungen führt zu Änderungen in den angezeigten Daten. Angenommen, Sie haben die zehn beliebtesten [!UICONTROL Seiten] den Zellen $A$1 bis $A$10 zugeordnet, mit einem [!UICONTROL Startrang] von 1 und einer [!UICONTROL Anzahl der Einträge] von 10. Wenn Sie diese Werte auf 1 für den [!UICONTROL Startrang] und nur 3 für die [!UICONTROL Anzahl der Einträge] ändern, werden die vorher in den Zellen $A$4 bis $A$10 angezeigten Daten nicht mehr angezeigt.
+   >Wenn Sie Filter auf bestehende Anforderungen anwenden, ändern sich die angezeigten Daten. Angenommen, Sie haben die zehn beliebtesten [!UICONTROL Seiten] den Zellen $A$1 bis $A$10 zugeordnet, mit einem [!UICONTROL Startrang] von 1 und einer [!UICONTROL Anzahl der Einträge] von 10. Wenn Sie diese Werte auf 1 für den [!UICONTROL Startrang] und nur 3 für die [!UICONTROL Anzahl der Einträge] ändern, werden die vorher in den Zellen $A$4 bis $A$10 angezeigten Daten nicht mehr angezeigt.
 
 1. Um einen Suchausdruck zu erstellen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
@@ -48,5 +48,5 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![Schritt-Info](assets/choose_page_02.png)
 
-1. Klicken Sie im Dialogfeld [!UICONTROL Seiten auswählen]**auf[!UICONTROL Speichern]**, um den Ausdruck zu speichern.
+1. Klicken Sie im Dialogfeld [!UICONTROL Seiten auswählen] auf **[!UICONTROL Speichern]**, um den Ausdruck zu speichern.
 1. Klicken Sie auf **[!UICONTROL OK]**.
