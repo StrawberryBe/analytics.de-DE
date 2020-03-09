@@ -1,9 +1,9 @@
 ---
-description: Eine Verweisanforderung verwendet Werte aus Zellen als Eingabe für Parameter, etwa als Daten- oder relationale Filter.
+description: Eine Verweisanforderung verwendet Zellenwerte als Eingabe für Parameter, etwa als Daten- oder relationale Filter.
 title: Verweisanforderungen kopieren
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,24 +11,24 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Verweisanforderungen kopieren
 
-Eine Verweisanforderung verwendet Werte aus Zellen als Eingabe für Parameter, etwa als Daten- oder relationale Filter.
+Eine Verweisanforderung verwendet Zellenwerte als Eingabe für Parameter, etwa als Daten- oder relationale Filter.
 
 Um Verweisanforderungen propagieren bzw. im Arbeitsblatt kopieren und einfügen zu können, muss das Arbeitsblatt mindestens eine gültige Anforderung enthalten. Darüber hinaus müssen die von der Anforderung erzeugten Daten eine Zelle enthalten, deren Wert entweder von einer Anforderung in einer anderen Zelle (unter Verwendung einer Aufschlüsselung oder eines Übereinstimmungsfilters) oder von einem Filter, der durch Daten, die in eine Zelle eingegeben werden, gesteuert wird.
 
 Sie können außerdem Anforderungen erstellen, die auf Eingabefilter von Anforderungen in unterschiedlichen Arbeitsblättern verweisen, aber nicht in unterschiedlichen Arbeitsmappen. Beispielsweise kann eine Report Suite in Blatt 2 eine Report Suite aus einer bestimmten Zelle in Blatt 1 und einen Datumsbereich aus einer Zelle in Blatt 2 verwenden. Die neue Ausgabe kann in einem der beiden Blätter oder in einem neuen Blatt innerhalb der Arbeitsmappe positioniert werden. Wenn Sie eine relative Anforderung einfügen und ein Eingabefilter sich auf einem anderen Arbeitsblatt befindet als die Ausgabe der kopierten Anforderung, wird der Filter als absoluter Filter eingefügt.
 
-> [!NOTE] Eine einzelne Anforderung kann nicht in mehreren Arbeitsblättern ausgegeben werden. Darüber hinaus kann das System die kopierten Anforderungen nicht in neue Arbeitsmappen einfügen, wenn die Anforderungen Eingabefilter aus anderen Arbeitsblättern enthalten. Eingabefilter enthalten Report Suites aus Zellen, Datumsbereiche aus Zellen, Filter aus Zellen und andere zugehörige Parameter.
+> [!NOTE] Eine einzelne Anforderung kann nicht in mehreren Arbeitsblättern gleichzeitig ausgegeben werden. Darüber hinaus kann das System die kopierten Anforderungen nicht in neue Arbeitsmappen einfügen, wenn die Anforderungen Eingabefilter aus anderen Arbeitsblättern enthalten. Eingabefilter enthalten Report Suites aus Zellen, Datumsbereiche aus Zellen, Filter aus Zellen und andere zugehörige Parameter.
 
 **So kopieren Sie Verweisanforderungen**
 
-1.  Wählen Sie die zu kopierenden Zellen aus, die Anforderungen enthalten. Schließen Sie dabei die Eingabezelle und die Zelle ein, auf die verwiesen wird.
-1.  Klicken Sie mit der rechten Maustaste auf die markierten Zellen und wählen Sie im Kontextmenü die Option **Anforderungen kopieren**. 
+1. Wählen Sie die Zellen aus, die die zu kopierenden Anforderungen enthalten. Schließen Sie dabei die Eingabezelle oder die Zelle ein, auf die verwiesen wird.
+1. Klicken Sie mit der rechten Maustaste auf die markierten Zellen und wählen Sie im Kontextmenü die Option **[!UICONTROL Anforderungen kopieren]** aus.
 
    Nach der Auswahl des Bereichs, in dem sich Anforderungen und Eingabezellen befinden, werden die Zellen mit diesen Elementen vom System hervorgehoben dargestellt.
 1. Wählen Sie entweder eine Zelle oder einen Bereich angrenzender Zellen aus, in den die Anforderungen eingefügt werden sollen.
 
    Stellen Sie sicher, dass die ausgewählte Zelle bzw. der ausgewählte Bereich keine anderen Daten oder Anforderungen enthält.
-1. Klicken Sie mit der rechten Maustaste auf die einzelne Zelle oder die Zelle oben Links im Zellenbereich und wählen Sie **[!UICONTROL Anforderungen einfügen]**.
+1. Klicken Sie mit der rechten Maustaste auf die einzelne Zelle oder die oberste Zelle ganz links im Zellenbereich und wählen Sie **[!UICONTROL Anforderungen einfügen]** aus.
 
    Beim Einfügen von Anforderungen, die eine Eingabezelle enthalten, sind unter [!UICONTROL Anforderungen einfügen] folgende Optionen verfügbar:
 
