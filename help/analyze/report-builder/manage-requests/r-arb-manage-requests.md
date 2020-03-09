@@ -1,9 +1,9 @@
 ---
-description: Feldbeschreibungen zur Verwaltung von Anforderungen in ReportBuilder.
+description: Feldbeschreibungen zur Verwaltung von Anforderungen in Report Builder.
 title: Anforderungen verwalten – Definitionen
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,15 +11,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Anforderungen verwalten – Definitionen
 
-Feldbeschreibungen zur Verwaltung von Anforderungen in ReportBuilder.
+Feldbeschreibungen zur Verwaltung von Anforderungen in Report Builder.
 
 ## Überblick {#section_75C288C945FA4781A4EDF806711A5660}
 
 Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Übersicht der von Ihnen erstellten Anforderungen, entweder aller Anforderungen in allen Arbeitsblättern oder nur der Anforderungen der aktiven Arbeitsmappe. Sie können außerdem Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen (also typische Funktionen des [!UICONTROL Anforderungs-Assistenten] bzw. des [!UICONTROL Anforderungs-Managers] ausführen), indem Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die bereits erstellte Anforderungen enthält.
 
-Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]** klicken ( ![](assets/edit_request.gif) in der ReportBuilder-Symbolleiste).
+Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]** klicken (![](assets/edit_request.gif) in der Report Builder-Symbolleiste).
 
-> [!NOTE] Adobe ReportBuilder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht in allen Arbeitsblättern. Die Einschränkung auf Abhängigkeiten innerhalb eines einzelnen Arbeitsblatts stellt eine pünktliche Ausführung sicher.
+> [!NOTE] Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
 
 ## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -53,7 +53,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p> Letzter Lauf </p> </td> 
-   <td colname="col2"> <p>Es wird das Datum angezeigt, an dem die Anforderung zuletzt von ReportBuilder verarbeitet wurde. In dieser Tabelle werden in der Spalte <span class="wintitle">Letzter Lauf</span> auch gegebenenfalls erforderliche diagnostische Meldungen angezeigt. </p> </td> 
+   <td colname="col2"> <p>Es wird das Datum angezeigt, an dem die Anforderung zuletzt von Report Builder verarbeitet wurde. In dieser Tabelle werden in der Spalte <span class="wintitle">Letzte Ausführung</span> auch gegebenenfalls erforderliche diagnostische Meldungen angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fügen Sie </p> </td> 
@@ -61,7 +61,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vorlage </p> </td> 
-   <td colname="col2"> <p> (bzw. Mehrere Anforderungen bearbeiten) Eine ausgewählte Anforderung wird bearbeitet. Das System zeigt den <span class="wintitle">Anforderungs-Assistenten</span> an. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (bzw. Mehrere Anforderungen bearbeiten) Eine ausgewählte Anforderung wird bearbeitet. Das System zeigt den <span class="wintitle">Anforderungs-Assistenten</span> an. Siehe <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Mehrere Anforderungen bearbeiten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Löschen </p> </td> 
