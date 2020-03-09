@@ -3,7 +3,7 @@ description: Ab sofort können Sie diese beiden Metriktypen in ein und derselben
 title: Traffic- und Commerce-Metriken in derselben Anforderung kombinieren
 topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Ab sofort können Sie diese beiden Metriktypen in ein und derselben Anforderung 
 
 Traffic- und Commerce-Metriken werden nun in derselben Metrikkategorie in Schritt 2 des Anforderungs-Assistenten angezeigt. Bisher wurden diese Metriken getrennt in einer Commerce- und einer Traffic-Kategorie angezeigt.
 
-The new grouped category is labeled **[!UICONTROL Standard]**. .
+Die neue gruppierte Kategorie heißt **[!UICONTROL Standard]**.
 
 ![](assets/standard_metrics.png)
 
