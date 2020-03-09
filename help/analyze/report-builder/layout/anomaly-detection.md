@@ -1,17 +1,17 @@
 ---
-description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine   Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
+description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
 title: Anomalieerkennung
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Anomalieerkennung{#anomaly-detection}
+# Anomalieerkennung {#anomaly-detection}
 
-Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine   Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
+Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und bestimmt eine Untergrenze, eine Obergrenze und einen erwarteten Bereich von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
 
 Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 
@@ -22,7 +22,7 @@ Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 * Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
-> [!NOTE] Die Anomalieerkennung ist nur verfügbar, wenn Sie die Granularität "Tag"auswählen.
+> [!NOTE] Die Anomalieerkennung ist nur verfügbar, wenn Sie als Granularität „Tag“ auswählen.
 
 <p class="head"> <b>Metrik für die Anomalieerkennung</b> </p>
 
