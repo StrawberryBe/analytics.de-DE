@@ -1,9 +1,9 @@
 ---
-description: Auf die gleiche Weise, auf die Sie Anforderungen kopieren und einfügen, können Sie auch Anforderungen in einen anderen des Arbeitsblattes verschieben, indem Sie im Kontextmenü die Option Anforderung ausschneiden wählen.
+description: Ebenso wie Sie Anforderungen kopieren und einfügen, können Sie auch Anforderungen in einen anderen Teil des Arbeitsblattes verschieben, indem Sie im Kontextmenü die Option „Anforderung ausschneiden“ auswählen.
 title: Angrenzende Anforderungen kopieren
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Angrenzende Anforderungen kopieren
 
-Auf die gleiche Weise, auf die Sie Anforderungen kopieren und einfügen, können Sie auch Anforderungen in einen anderen des Arbeitsblattes verschieben, indem Sie im Kontextmenü die Option Anforderung ausschneiden wählen.
+Ebenso wie Sie Anforderungen kopieren und einfügen, können Sie auch Anforderungen in einen anderen Teil des Arbeitsblattes verschieben, indem Sie im Kontextmenü die Option „Anforderung ausschneiden“ auswählen.
 
-Wenn Sie eine Anforderung ausschneiden, wird Sie von der ursprünglichen Position entfernt. Erst nach Wahl von [!UICONTROL Anforderung einfügen] wird die Anforderung an der neuen Position eingefügt. Wenn Sie sich nach dem Ausschneiden einer bestimmten Anforderung anders entscheiden und eine andere Anforderung aus einer anderen Zelle kopieren oder ausschneiden, belässt ReportBuilder die erste Auswahl in der ursprünglichen Zelle und reagiert nur auf die zweite Anforderung (kopieren oder ausschneiden).
+Wenn Sie eine Anforderung ausschneiden, wird sie von ihrer ursprünglichen Position entfernt. Erst nach Auswahl von [!UICONTROL Anforderung einfügen] wird die Anforderung an der neuen Position eingefügt. Wenn Sie sich nach dem Ausschneiden einer bestimmten Anforderung anders entscheiden und eine andere Anforderung aus einer anderen Zelle kopieren oder ausschneiden, belässt Report Builder die erste Auswahl in der ursprünglichen Zelle und reagiert nur auf die zweite Anforderung (kopieren oder ausschneiden).
 
-> [!NOTE] ReportBuilder unterstützt den Excel-Befehl "Rückgängig"zum Ausschneiden oder Einfügen von Anforderungen nicht. Seien Sie daher beim Ausschneiden von Anforderungen vorsichtig.
+> [!NOTE] Der Excel-Befehl „Rückgängig“ wird von Report Builder beim Ausschneiden oder Einfügen von Anforderungen nicht unterstützt. Seien Sie daher beim Ausschneiden von Anforderungen vorsichtig.
 
 Das Kopieren und Einfügen muss nicht innerhalb desselben Arbeitsblatts der Arbeitsmappe erfolgen. Sie können eine Anforderung in einem Blatt kopieren und sie in einem anderen Blatt einfügen.
 
