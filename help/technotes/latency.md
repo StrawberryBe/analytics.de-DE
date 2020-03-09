@@ -6,7 +6,7 @@ title: Datenverfügbarkeit und Latenz
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
 
 ---
 
@@ -27,30 +27,30 @@ Die Latenz ist eine Verzögerung, die länger als die normalen 2 Stunden dauert,
 
 Latenzzeiten werden durch eine der folgenden allgemeinen Kategorien verursacht:
 
-* **** Unerwartete Traffic-Spitze: Diese Art von Latenz tritt auf, wenn mehr Daten an eine Report Suite gesendet werden, als vertraglich festgelegt oder erwartet wurde. Dies ist die häufigste Ursache für Latenzzeiten.
-* **** Normale Hardwareprobleme: Adobe setzt erstklassige Strategien für die Verwaltung und Überwachung von Rechenzentren, Datenredundanz und Hardwarezuverlässigkeit ein. Die Hardware wird regelmäßig und in Verbindung mit bekanntgegebenen Wartungsfenstern aktualisiert. Die Notwartung von fehlerhaften Hardware kann eine zeitweilige Unterbrechung der Datenverarbeitung (nicht der Datenerfassung) erfordern, da Ersatzhardware online verfügbar gemacht wird. Dieser vorübergehende Stillstand bei der Verarbeitung kann zu einer merklichen Latenzzeit führen.
-* **** Ungewöhnliche Daten: Unnatürliche Datenmuster wie ungewöhnlich lange Besuche, die von einem Bot oder Crawler verursacht werden, können zeitweise bestimmte Verarbeitungslasten erhöhen, die zu Latenzzeiten führen.
+* **Unerwartete Traffic-Spitze:** Diese Art von Latenz tritt auf, wenn mehr Daten an eine Report Suite gesendet werden, als vertraglich festgelegt oder erwartet wurde. Dies ist die häufigste Ursache für Latenzzeiten.
+* **Normale Hardwareprobleme:** Adobe setzt erstklassige Strategien für die Verwaltung und Überwachung von Rechenzentren, Datenredundanz und Hardwarezuverlässigkeit ein. Die Hardware wird regelmäßig und in Verbindung mit bekanntgegebenen Wartungsfenstern aktualisiert. Die Notwartung von fehlerhaften Hardware kann eine notwendige und vorübergehende Unterbrechung der Datenverarbeitung (nicht der Datenerfassung) erfordern, da Ersatzhardware online verfügbar gemacht wird. Dieser vorübergehende Stillstand bei der Verarbeitung kann zu einer merklichen Latenzzeit führen.
+* **Ungewöhnliche Daten:** Unnatürliche Datenmuster wie ungewöhnlich lange Besuche, die von einem Bot oder Crawler verursacht werden, können zeitweise bestimmte Verarbeitungslasten erhöhen, die zu Latenzzeiten führen.
 
-## Von Latenz abhängige Funktionen
+## Funktionen, die von der Latenz abhängen
 
 Einige Funktionen der Adobe Experience Cloud verfügen über eine angeborene Latenzzeit zusätzlich zur standardmäßigen Verarbeitungszeit.
 
-* Für Analytics for Target (A4T) ist eine zusätzliche Latenz von 5-10 Minuten erforderlich, damit gesammelte Daten von beiden Plattformen im selben Treffer gespeichert werden können.
+* Für Analytics for Zielgruppe (A4T) ist eine zusätzliche Latenz von 5-10 Minuten erforderlich, damit gesammelte Daten von beiden Plattformen im selben Treffer gespeichert werden können.
 * Daten mit Zeitstempel erfordern aufgrund verschiedener Server, auf denen diese Daten verarbeitet werden, zusätzliche Zeit. Treffer mit Zeitstempel, die in Echtzeit oder in der Nähe von Echtzeit empfangen werden, können bis zu 15 Minuten dauern. Treffer mit einem Zeitstempel von gestern können bis zu 2 Stunden dauern. Ältere Treffer können länger dauern und jeden Tag bis zu einer Höchstdauer von etwa 24 Stunden ansteigen.
 
 ## Möglichkeiten zur Verringerung oder Verhinderung von Latenzzeiten
 
 Zur Vermeidung von Latenzzeiten oder Verkürzung der Wiederherstellungsdauer bei eingetretener Latenz gibt es mehrere Strategien:
 
-* **** Informieren Sie Adobe über erwartete Traffic-Spitzen: Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele sind eine besonders erfolgreiche Urlaubszeit oder kurz nach einem großen Kampagnen-Push. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter Traffic-Spitzen [planen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) im Admin-Benutzerhandbuch.
-* **** Berücksichtigen Sie beim Aktivieren neuer Funktionen die Verarbeitungslast: Einige Funktionen sind verarbeitungsintensiver als andere. Je mehr Funktionen für eine Report Suite aktiviert sind, desto schwieriger ist die Wiederherstellung des normalen Betriebs nach dem Auftreten von Latenzzeiten. Beachten Sie beim Aktivieren von Funktionen für eine Report Suite, dass die folgenden Funktionen die zu verarbeitende Datenmenge vergrößern:
+* **Informieren Sie Adobe über erwartete Traffic-Spitzen:** Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele hierfür sind eine besonders erfolgreiche Urlaubszeit oder kurz nach einem großen Campaign-Push. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter Traffic-Spitzen [planen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) im Admin-Benutzerhandbuch.
+* **Berücksichtigen Sie beim Aktivieren neuer Funktionen die Verarbeitungslast:** Einige Funktionen sind verarbeitungsintensiver als andere. Je mehr Funktionen für eine Report Suite aktiviert sind, desto schwieriger ist die Wiederherstellung des normalen Betriebs nach dem Auftreten von Latenzzeiten. Beachten Sie beim Aktivieren von Funktionen für eine Report Suite, dass die folgenden Funktionen die zu verarbeitende Datenmenge vergrößern:
 
    * Implementieren von mehr als 20 Ereignissen auf derselben Seite
    * Komplexe VISTA-Regeln
    * Mehr als 20 Werte in der Variable products
    * Ereignis-Serialisierung
 
-* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html) can greatly reduce latency if your report suite is frequented by bots or crawlers. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Ein Benutzer kann seine eigenen Bot-Regeln anpassen, um die vom IAB zu ergänzen.
+* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Ein Benutzer kann seine eigenen Bot-Regeln anpassen, um die vom IAB zu ergänzen.
 
 ## Verfahren bei Latenzzeit
 
