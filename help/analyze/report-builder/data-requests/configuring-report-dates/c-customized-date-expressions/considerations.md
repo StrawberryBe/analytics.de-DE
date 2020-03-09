@@ -1,15 +1,15 @@
 ---
 description: 'Bei der Verwendung von „Ausdruck anpassen“ für die Festlegung eines Datumsbereichs sind zwei Umstände besonders zu beachten '
-title: Angepasste Datumsaspekte
+title: Überlegungen zum benutzerdefinierten Datum
 topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Angepasste Datumsaspekte
+# Überlegungen zum benutzerdefinierten Datum
 
 Bei der Verwendung von „Ausdruck anpassen“ für die Festlegung eines Datumsbereichs sind zwei Umstände besonders zu beachten:
 
@@ -28,7 +28,7 @@ Eine Analyse des benutzerdefinierten Ausdrucks, wenn das einschließliche [!UICO
 
 *Von:* cw-1w
 
-der aktuelle Tag in der am Sonntag, dem 30. November beginnenden Woche minus sieben Tage = der Tag der am Sonntag, dem 23. November beginnenden vergangenen Woche 
+der aktuelle Tag in der am Sonntag, dem 30. November beginnenden Woche minus sieben Tage = der Tag der am Sonntag, dem 23. November beginnenden vergangenen Woche
 
 *Bis:* cw-1d
 
@@ -42,7 +42,7 @@ Hier sind die Unterschiede, wenn das einschließliche [!UICONTROL Enddatum] der 
 
 *Von:* cw-1w
 
-der aktuelle Tag in der am Sonntag, dem 23. November beginnenden Woche minus sieben Tage = der Tag der am Sonntag, dem 16. November beginnenden vergangenen Woche 
+der aktuelle Tag in der am Sonntag, dem 23. November beginnenden Woche minus sieben Tage = der Tag der am Sonntag, dem 16. November beginnenden vergangenen Woche
 
 *Bis:* cw-1d
 
