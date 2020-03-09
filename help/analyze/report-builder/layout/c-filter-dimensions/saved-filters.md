@@ -3,7 +3,7 @@ description: Sie können in ReportBuilder Filter oder andere Parameter speichern
 title: Gespeicherte Filter
 topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
