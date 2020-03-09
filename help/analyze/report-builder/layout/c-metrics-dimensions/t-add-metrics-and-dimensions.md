@@ -3,7 +3,7 @@ description: Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anfo
 title: Metriken und Dimensionen hinzufügen
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -43,7 +43,7 @@ Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anforderung.
 
       * Formulare für Dimensionsfilter
       * Formulare für die Datumsbereichformatierung
-      * Formulare für Formatoptionen 
+      * Formulare für Formatoptionen
       * Formulare für das Voranstellen/Anhängen von Text
       * Formulare für das Festlegen des Ausgabebereichs
 
@@ -62,7 +62,7 @@ Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren
     * Datumsbereich (wenn keine Granularität angegeben ist)
 
 1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](/help/analyze/report-builder/layout/t-format-display-headers.md) und Filter konfigurieren.
-1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
+1. Klicken Sie auf **[!UICONTROL Fertigstellen]**. 
 Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Hier erstellt die Dimension [!UICONTROL Verweisende Domäne] einen Detailbericht für [!UICONTROL Seite] und [!UICONTROL Verweisende Domäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
 
 ![](assets/page_pageview_02.png)
