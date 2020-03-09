@@ -2,7 +2,7 @@
 description: 'null'
 title: Best Practices
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Wenn Sie eine Anforderung erstellen, besitzt diese Anforderung immer die gleiche
 
 Wenn Sie eine Anforderung in Ihrer Arbeitsmappe löschen, stellen Sie sicher, dass in Power BI keine Visualisierung auf diese Anforderung verweist, da die Visualisierung dadurch beschädigt wird.
 
-* Sofern möglich, löschen Sie keine Anforderungen, die Sie in ReportBuilder erstellt haben.
-* Wenn Sie Anforderungen in ReportBuilder löschen müssen, löschen Sie auch die entsprechenden Visualisierungen in Power BI.
+* Sofern möglich, löschen Sie keine Anforderungen, die Sie in Report Builder erstellt haben.
+* Wenn Sie Anforderungen in Report Builder löschen müssen, löschen Sie auch die entsprechenden Visualisierungen in Power BI.
 * Wenn Sie nicht sicher sind, löschen Sie die Anforderungen, die Sie nicht mehr benötigen, führen Sie eine erneute Veröffentlichung durch und wechseln Sie zu Power BI, um festzustellen, welche Visualisierungen beschädigt wurden.
 
