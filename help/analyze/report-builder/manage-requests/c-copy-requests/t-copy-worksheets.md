@@ -3,7 +3,7 @@ description: Kopieren Sie in derselben Arbeitsmappe ein Arbeitsblatt in ein ande
 title: Arbeitsblätter kopieren
 topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,4 +18,4 @@ Kopieren Sie in derselben Arbeitsmappe ein Arbeitsblatt in ein anderes.
 
    Der Arbeitsmappe wird ein neues Arbeitsblatt hinzugefügt. Standardmäßig weist das neue Arbeitsblatt denselben Namen wie das ursprüngliche Arbeitsblatt auf, allerdings gefolgt von dem Suffix (2). Wenn Sie die Einfügeoperation wiederholen, hat das entstehende neue Arbeitsblatt das Suffix (3) usw. Wenn Sie ein kopiertes Arbeitsblatt einfügen, befindet sich das neue Arbeitsblatt rechts vom aktiven Arbeitsblatt (d. h. unmittelbar darauffolgend).
 
-   Anders als beim Kopieren und Einfügen von Anforderungen werden direkt eingegebene Zellinhalte (z. B. Spaltenbezeichnungen, Zeilenbezeichnungen oder Formatierungen) von ReportBuilder beim Kopieren von Arbeitsblättern direkt kopiert und eingefügt.
+   Anders als beim Kopieren und Einfügen von Anforderungen werden direkt eingegebene Zellinhalte (z. B. Spaltenbezeichnungen, Zeilenbezeichnungen oder Formatierungen) von Report Builder beim Kopieren von Arbeitsblättern direkt kopiert und eingefügt.
