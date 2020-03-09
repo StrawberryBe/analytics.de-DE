@@ -3,7 +3,7 @@ description: Eine abhängige Anforderung ist eine Anforderung, die von einer and
 title: Abhängige Anforderungen hinzufügen
 topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,10 +13,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Eine abhängige Anforderung ist eine Anforderung, die von einer anderen Anforderung abhängt.
 
-For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** &gt; **[!UICONTROL Breakdown]**.
+Bei Berichten mit in der Berichtstabelle aktivierten Korrelationsaufschlüsselungen können Sie ein Element näher untersuchen, indem Sie mit der rechten Maustaste auf die zugehörige Zelle klicken und dann auf **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Aufgliederung]** klicken.
 
-> [!NOTE] Sie können beim Erstellen der ursprünglichen Anforderung auch eine Aufschlüsselungsanforderung hinzufügen. See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+> [!NOTE] Sie können eine Aufschlüsselungsanforderung auch gleich bei der Erstellung der ursprünglichen Anforderung hinzufügen. Siehe [Eine Datenanforderung erstellen](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
-> [!NOTE] Adobe ReportBuilder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht in allen Arbeitsblättern. Die Einschränkung auf Abhängigkeiten innerhalb eines einzelnen Arbeitsblatts stellt eine pünktliche Ausführung sicher.
+> [!NOTE] Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
 
-Siehe [Unterteilungsberichte](/help/analyze/reports-analytics/reports-customize/breakdowns.md).
+Siehe [Detailberichte](/help/analyze/reports-analytics/reports-customize/breakdowns.md).
