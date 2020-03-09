@@ -3,7 +3,7 @@ description: Systemempfehlungen und -voraussetzungen.
 title: Systemanforderungen
 topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Systemempfehlungen und -voraussetzungen.
 
 **Voraussetzungen**
 
-* Der Vertrag Ihrer Firma umfasst ReportBuilder für Excel.
-* Ihr Benutzername ist Teil der vordefinierten ReportBuilder-Benutzergruppe. This requirement includes [!DNL Analytics] administrators.
+* Der Vertrag Ihrer Firma umfasst Report Builder für Excel.
+* Ihr Benutzername ist Teil der vordefinierten Report Builder-Benutzergruppe. Diese Anforderung umfasst [!DNL Analytics]-Administratoren.
 * Der Benutzer muss Windows ausführen und als Administrator angemeldet sein.
 
