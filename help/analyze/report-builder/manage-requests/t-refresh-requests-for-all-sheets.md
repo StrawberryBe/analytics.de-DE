@@ -3,7 +3,7 @@ description: Sie können Anforderungen in allen Arbeitsblättern oder mehrere An
 title: Anforderungen für alle Arbeitsblätter aktualisieren
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Um alle Anforderungen aktualisieren zu können, müssen Sie Zugriff auf alle in 
 
 Wenn Sie mehrere Anforderungen aktualisieren, führt das System eine Erfassung und Priorisierung von Anforderungen entsprechend dem Status der Anforderungen (ursprünglich oder abhängig) durch. Das System zeigt Meldungen über den Aktualisierungsvorgang an. Der Aktualisierungsvorgang kann mehrere Minuten in Anspruch nehmen, je nach der Menge der angeforderten Daten.
 
-1. Click **[!UICONTROL Manage]**.
-1. Enable **[!UICONTROL All Sheets]**.
-1. Click **[!UICONTROL Refresh]**.
+1. Klicken Sie auf **[!UICONTROL Verwalten]**.
+1. Aktivieren Sie **[!UICONTROL Alle Blätter]**.
+1. Klicken Sie auf **[!UICONTROL Aktualisieren]**.
 1. Geben Sie einen Datumsbereich an und klicken Sie auf **[!UICONTROL OK]**.
