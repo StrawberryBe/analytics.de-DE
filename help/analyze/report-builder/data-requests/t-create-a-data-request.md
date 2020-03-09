@@ -1,27 +1,27 @@
 ---
-description: Schritte zum Erstellen einer grundlegenden ReportBuilder-Datenanforderung.
+description: Schritte zum Erstellen einer grundlegenden Report Builder-Datenanforderung.
 title: Datenanforderung erstellen
 topic: Report builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Erstellen einer ReportBuilder-Datenanforderung
+# Report Builder-Datenanforderung erstellen
 
 Schritte zum Erstellen einer grundlegenden Datenanforderung.
 
-1. In Excel, click **[!UICONTROL Create]**.
-1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
-1. (Optional) Wählen Sie ein Segment, auf das Sie die Anforderung anwenden möchten. Wenn Sie eines oder mehrere Segmente ausgewählt haben, werden diese an Anfang der Liste verschoben.
+1. Klicken Sie in Excel auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1] eine [Report Suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. (Optional) Wählen Sie ein Segment, auf das Sie die Anforderung anwenden möchten. Wenn Sie eines oder mehrere Segmente ausgewählt haben, werden diese an den Anfang der Liste verschoben.
 
-   ReportBuilder verwendet Segmente auf dieselbe Weise wie Adobe Analytics. Weitere Informationen finden Sie im [Analytics-Segmentierungshandbuch](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 1. (Optional) Wählen Sie eine [Veröffentlichungsliste](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) für die Verteilung aus.
-1. Select a [report type](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
-1. Geben Sie einen [Datumsbereich](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) und eine [Berichtsgranularität](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)an.
+   Report Builder verwendet Segmente auf dieselbe Weise wie Adobe Analytics. Weitere Informationen finden Sie im [Analytics-Segmentierungshandbuch](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/). 1. (Optional) Wählen Sie eine [Veröffentlichungsliste](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) für die Verteilung aus.
+1. Wählen Sie einen [Berichtstyp](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) aus.
+1. Definieren Sie einen [Datumsbereich](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) und eine [Granularität](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md) für den Bericht.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
-1. In the [Layout - Request Wizard Step 2](/help/analyze/report-builder/layout/layout.md) window, specify a layout:
+1. Geben Sie im Fenster [Layout – Anforderungs-Assistent: Schritt 2](/help/analyze/report-builder/layout/layout.md) ein Layout an:
 
    | Element | Beschreibung |
    |---|---|
@@ -31,6 +31,6 @@ Schritte zum Erstellen einer grundlegenden Datenanforderung.
 1. Doppelklicken Sie auf der Registerkarte [!UICONTROL Metriken] auf Metriken, um sie dem Raster [!UICONTROL Metriken] hinzuzufügen (wahlweise können Sie die Metriken auch in das Raster ziehen).
 1. Doppelklicken Sie auf der Registerkarte [!UICONTROL Dimensionen] auf Dimensionen, um sie dem Raster [!UICONTROL Zeilenbezeichnungen] hinzuzufügen.
 
-   Die in Schritt 2 verfügbaren [Dimensionen](https://marketing.adobe.com/resources/help/en_US/reference/dimensions.html) hängen davon ab, welchen Basisbericht Sie in Schritt 1 gewählt haben und wie Ihre Report Suite konfiguriert ist. Die Dimensionen sind Elemente, die korrelieren, Unterbeziehungen herstellen oder eine Classification der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählten Berichtstypmetrik darstellen. Wenn Sie in Schritt 2 mehr als eine Dimension hinzufügen, wird dadurch eine Aufschlüsselung der Datenanforderung erreicht.
+   Die in Schritt 2 verfügbaren [Dimensionen](https://marketing.adobe.com/resources/help/de_DE/reference/dimensions.html) hängen davon ab, welchen Basisbericht Sie in Schritt 1 gewählt haben und wie Ihre Report Suite konfiguriert ist. Die Dimensionen sind Elemente, die korrelieren, Unterbeziehungen herstellen oder eine Classification der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählten Berichtstypmetrik darstellen. Wenn Sie in Schritt 2 mehr als eine Dimension hinzufügen, wird dadurch eine Aufschlüsselung der Datenanforderung erreicht.
 
    Siehe [Metriken und Dimensionen hinzufügen](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) für weitere Informationen.
