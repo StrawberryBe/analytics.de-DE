@@ -1,9 +1,9 @@
 ---
-description: Methoden zur Optimierung der ReportBuilder-Bereitstellung und eine Liste mit Fehlermeldungen, die möglicherweise auftreten könnten.
+description: Methoden zur Optimierung der Report Builder-Bereitstellung und eine Liste mit Fehlermeldungen, die auftreten könnten.
 title: Fehlerbehebung und Best Practices für Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,25 +11,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Fehlerbehebung und Best Practices für Report Builder
 
-Methoden zur Optimierung der ReportBuilder-Bereitstellung und eine Liste mit Fehlermeldungen, die möglicherweise auftreten könnten.
+Methoden zur Optimierung der Report Builder-Bereitstellung und eine Liste mit Fehlermeldungen, die auftreten könnten.
 
-## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
+## Benutzer von Report Builder 5.0 und Öffnen von 5.1-Arbeitsmappen {#section_C29898775999453FABB5FB0E098415C8}
 
-Adobe hat das Trennzeichen zwischen Dimensionen und Classifications von einem Unterstrich (_) in || geändert. Diese Änderung wirkt sich auf die Kompatibilität für Benutzer von ReportBuilder Version 5.0 aus, die eine ReportBuilder 5.1-Arbeitsmappe mit Classification-Anforderungen öffnen. Sobald eine Arbeitsmappe, die mit Version 5.1 oder älter erstellt wurde, geöffnet wird, werden alle serialisierten Classification-Anforderungen in dieses Format umgewandelt.
+Adobe hat das Trennzeichen zwischen Dimensionen und Classifications von einem Unterstrich (_) in || geändert. Diese Änderung wirkt sich auf die Kompatibilität für Benutzer von Report Builder Version 5.0 aus, die eine Report Builder 5.1-Arbeitsmappe mit Classification-Anforderungen öffnen. Sobald eine Arbeitsmappe, die mit Version 5.1 oder älter erstellt wurde, geöffnet wird, werden alle serialisierten Classification-Anforderungen in dieses Format umgewandelt.
 
-Dies bringt ein Kompatibilitätsproblem beim Weiterleiten mit sich: Sobald eine Arbeitsmappe, die in Version 5.1 konvertiert wurde, an einen Benutzer mit ReportBuilder Version 5.0 weitergegeben wird, kann dieser Benutzer die Classification-Anforderung nicht mehr erkennen (es wird nach „_“ gesucht, aber Version 5.1 hat „||“ serialisiert).
+Dies bringt ein Kompatibilitätsproblem beim Weiterleiten mit sich: Sobald eine Arbeitsmappe, die in Version 5.1 konvertiert wurde, an einen Benutzer mit Report Builder Version 5.0 weitergegeben wird, kann dieser Benutzer die Classification-Anforderung nicht mehr erkennen (es wird nach „_“ gesucht, aber Version 5.1 hat „||“ serialisiert).
 
-Außerdem führt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classification-Anforderung zu folgender Nebenwirkung:
+Außerdem bewirkt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classification-Anforderung Folgendes:
 
-* Beim Öffnen der Arbeitsmappe erhalten Sie folgende Warnung: "Diese Arbeitsmappe wurde zuletzt mit ReportBuilder v5.1 gespeichert. Mit dieser Version wurden einige Funktionen eingeführt, die mit der auf diesem Computer installierten ReportBuilder-Version nicht kompatibel sind. Es wird dringend empfohlen, vor der Aktualisierung dieser Arbeitsmappe auf die neueste Version von ReportBuilder zu aktualisieren."
-* Wenn Sie einen Rechtsklick auf eine ARB-Anfrage mit Classification ausführen, werden die ReportBuilder-Kontextmenüs („Anforderung bearbeiten“, „Abhängige Anforderung hinzufügen“ ...) nicht angezeigt.
+* Wenn Sie die Arbeitsmappe öffnen, erhalten Sie folgende Warnmeldung: „Diese Arbeitsmappe wurde zuletzt mit Report Builder Version 5.1 gespeichert. Diese Version hat einige Funktionen eingefügt, die mit der Report Builder-Version, die auf diesem Computer installiert ist, nicht kompatibel sind. Es wird dringend empfohlen, ein Upgrade auf die neueste Version von Report Builder durchzuführen, bevor diese Arbeitsmappe aktualisiert wird.“
+* Wenn Sie einen Rechtsklick auf eine ARB-Anfrage mit Classification ausführen, werden die Report Builder-Kontextmenüs („Anforderung bearbeiten“, „Abhängige Anforderung hinzufügen“ ...) nicht angezeigt.
 * Wenn Sie die Option „Alle aktualisieren“ ausführen, indem Sie auf die dritte Schaltfläche klicken oder indem Sie einen Satz Anforderungen aus dem Anforderungs-Manager aktualisieren, wird die Classification-Anforderung ohne Fehler ausgeführt. Die Classification-Werte werden jedoch nicht ausgeschrieben.
 * Sie können die Anforderung weiterhin bearbeiten, indem Sie den Anforderungs-Manager öffnen und dann von Zeile zu Zeile navigieren, bis Sie bei der richtigen Anforderung angelangt sind.
 * Wenn Sie die Anforderung bearbeiten, alle Parameter beibehalten und dann auf „Abschließen“ klicken, wird die Antwort ordnungsgemäß ausgeschrieben. Das Bearbeiten der Anforderung löst also das Problem, da die Antwortlayoutparameter neu serialisiert werden. Abhilfe ist also möglich, wenn auch zeitaufwendig.
 
-## Authentication issues in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
+## Authentifizierungsprobleme in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-Zur Erstellung von Datenanforderungen aus Report Suites durch ReportBuilder ist eine Authentifizierung erforderlich. Manchmal kann es bei der Anmeldung bei ReportBuilder abhängig von Ihren persönlichen Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk zu Schwierigkeiten kommen.
+Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist eine Authentifizierung erforderlich. Manchmal kann es bei der Anmeldung bei Report Builder abhängig von Ihren persönlichen Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk zu Problemen kommen.
 
 **Firmen-Anmeldung ungültig**
 
@@ -40,29 +40,29 @@ Dieser Fehler tritt normalerweise auf, wenn bei der Anmeldung der Firmenname fal
 
 **Firewall**
 
-ReportBuilder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
+Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
 
-## Recommendations for optimizing requests {#section_33EF919255BF46CD97105D8ACB43573F}
+## Recommendations zur Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die Verarbeitungsgeschwindigkeit verringert werden:
 
-**Faktoren, die zu Lieferverzögerungen beitragen können**
+**Mögliche Gründe für Bereitstellungsverzögerungen**
 
-* Es wurden zu viele Lesezeichen, Dashboards und ReportBuilder-Arbeitsmappen innerhalb weniger Stunden geplant.
-* Es wurden zu viele ReportBuilder-Arbeitsmappen für die gleiche Uhrzeit geplant. In diesem Fall tritt für die Berichts-API-Warteschlange ein Rückstand ein.
+* Es wurden zu viele Lesezeichen, Dashboards und Report Builder-Arbeitsmappen innerhalb weniger Stunden geplant.
+* Es wurden zu viele Report Builder-Arbeitsmappen für die gleiche Uhrzeit geplant. In diesem Fall tritt in der Berichts-API-Warteschlange ein Rückstand ein.
 
-**Faktoren, die zu Verzögerungen bei der Ausführung von Arbeitsmappen beitragen können**
+**Mögliche Gründe für Verzögerungen bei der Ausführung von Arbeitsmappen**
 
 * Deutliche Erhöhung der Classifications.
 * Erweiterung des Anfragedatenbereichs im Laufe der Zeit.
 
-   **Beispiel**: Angenommen, Sie haben eine Trendanforderung mit der Einstellung Aktuelles Jahr erstellt und diese mit der Granularität Tag aufgegliedert. Am Ende des Jahres werden mit der Anforderung mehr Zeiträume als der eine zu Beginn des Jahres erstellte Zeitraum zurückgegeben.
+   **Beispiel**: Angenommen, Sie haben eine Trendanforderung mit der Einstellung „Aktuelles Jahr“ erstellt und diese mit der Granularität „Tag“ aufgegliedert. Am Ende des Jahres werden mit der Anforderung mehr Zeiträume als der eine zu Beginn des Jahres erstellte Zeitraum zurückgegeben.
 
    `(January 1 - January 30 versus January 1 - December 31.)`
 
-**Ursachen, die zu einem Arbeitsmappen-Bereitstellungsfehler beitragen**
+**Mögliche Gründe für einen Arbeitsmappen-Bereitstellungsfehler**
 
-Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere, wenn die Arbeitsmappe Datums- und Uhrzeitwerte enthält.
+Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere wenn die Arbeitsmappe Datums- und Uhrzeitwerte enthält.
 
 **Zellen, die 0 zurückgeben (keine Werte)**
 
@@ -82,29 +82,29 @@ Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeintr�
 | Anzahl der Einträge | Kleiner Datensatz | Großer Datensatz |
 
 
-**Planungszeit**
+**Zeitplanung**
 
-Staffeln Sie die Zeitplanung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und ReportBuilder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden.
+Staffeln Sie die Zeitplanung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und Report Builder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden.
 
 Planen Sie größere, komplexere Anforderungen in den frühen Morgenstunden, um manuelle Abrufe und Aktualisierungen im Laufe des Arbeitstages zuzulassen.
 
 | Zeitplanung | 01:00 – 02:00 Uhr | 02:00 – 07:00 Uhr | 07:00 – 18:00 Uhr | 18:00 – 24:00 Uhr |
 |--- |--- |--- |--- |--- |
-| ReportBuilder – Nutzung | Ruhig | Hohe Auslastung | clientseitige Nutzung<br>Höhere Anzahl an Nutzern, die eine lokale Aktualisierung vornehmen und ein „Sofortiges Senden“ anfordern<br>Überprüfen Sie außerdem, ob die API-Warteschlange gelöscht wird, wenn bei geplanten Arbeitsmappen ein Timeout auftritt. | Geringe Auslastung |
+| Report Builder – Nutzung | Ruhig | Hohe Auslastung | clientseitige Nutzung<br>Höhere Anzahl an Nutzern, die eine lokale Aktualisierung vornehmen und ein „Sofortiges Senden“ anfordern.<br>Überprüfen Sie außerdem, ob die API-Warteschlange gelöscht wird, wenn bei geplanten Arbeitsmappen ein Timeout auftritt. | Geringe Auslastung |
 
 **Timeouts**
 
-Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert die Ausführung.) Dies wird in der [!DNL Analytics]-Berichterstellung und ReportBuilder angezeigt:
+Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert die Ausführung.) Dies wird in der [!DNL Analytics]-Berichterstellung und in Report Builder angezeigt:
 
-* [!DNL Analytics]: **[!UICONTROL Favoriten]** &gt; **[!UICONTROL Geplante Berichte]**
+* [!DNL Analytics]: **[!UICONTROL Favoriten]** > **[!UICONTROL Terminierte Berichte]**
 
-* ReportBuilder: Klicken Sie auf der Registerkarte **[!UICONTROL Add-Ins]** in Excel auf [!UICONTROL Verwaltung].
+* Report Builder: Klicken Sie auf der Registerkarte **[!UICONTROL Add-Ins]** in Excel auf [!UICONTROL Verwaltung].
 
-## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## Beschreibung der Fehlermeldungen {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
-Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von ReportBuilder auftreten können.
+Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report Builder auftreten können.
 
-> [!NOTE] Dies ist nur eine Auswahl von Fehlermeldungen und keine erschöpfende Liste. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
+> [!NOTE] Dies ist nur eine Auswahl der Fehlermeldungen, keine umfassende Auflistung. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
 
 **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**
 
@@ -128,7 +128,7 @@ Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln
 
 **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**
 
-Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der ReportBuilder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in das [!UICONTROL Namensfeld] in der [!UICONTROL Formelleiste] eingeben.
+Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in das [!UICONTROL Namensfeld] in der [!UICONTROL Formelleiste] eingeben.
 
 **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.**
 
