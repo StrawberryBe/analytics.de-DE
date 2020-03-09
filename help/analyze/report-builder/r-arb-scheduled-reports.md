@@ -3,7 +3,7 @@ description: Feldbeschreibungen für den Manager für geplante Aufgaben.
 title: Manager für geplante Aufgaben
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Im Manager für geplante Aufgaben können Sie eine Liste mit den vorhandenen ter
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reaktivieren </p> </td> 
-   <td colname="col2"> <p>Wenn eine geplante Arbeitsmappe nicht ausgeführt werden kann, unternimmt ReportBuilder in jeweils 15 Minuten Abstand zwei weitere Ausführungsversuche. Nach drei fehlgeschlagenen Versuchen deaktiviert ReportBuilder den Plan und zeigt die Schaltfläche <span class="wintitle">Reaktivieren</span> an. Wenn Sie eine Arbeitsmappe reaktivieren, wird die geplante Bereitstellung ab dem Zeitpunkt wiederaufgenommen, an dem die Deaktivierung erfolgte. </p> <p>Wenn eine geplante Arbeitsmappe beispielsweise vor 14 Tagen deaktiviert wurde und Sie sie heute reaktivieren, wird sie für jeden fehlenden Tag, also 14-mal ausgeliefert. Wenn die Arbeitsmappe für die fehlenden Tage nicht ausgeliefert werden soll, können Sie die geplante Arbeitsmappe löschen und eine neue geplante Arbeitsmappe unter Verwendung derselben Planungsparameter erstellen. </p> <p> <p>Hinweis: Sie sollten eine Arbeitsmappe nicht reaktivieren, bevor Sie die Ursache der Deaktivierung durch das System kennen. Eine Möglichkeit der Fehlerbehebung besteht darin, die deaktivierte Arbeitsmappe herunterzuladen und sie auf der Clientseite aktualisieren. Wenn keine Fehlermeldung erfolgt, sollte die Arbeitsmappe reaktiviert werden können. </p> </p> </td> 
+   <td colname="col2"> <p>Wenn eine geplante Arbeitsmappe nicht ausgeführt werden kann, unternimmt Report Builder in jeweils 15 Minuten Abstand zwei weitere Ausführungsversuche. Nach drei fehlgeschlagenen Versuchen deaktiviert Report Builder den Plan und zeigt die Schaltfläche <span class="wintitle">Reaktivieren</span> an. Wenn Sie eine Arbeitsmappe reaktivieren, wird die geplante Bereitstellung ab dem Zeitpunkt wiederaufgenommen, an dem die Deaktivierung erfolgte. </p> <p>Wenn eine geplante Arbeitsmappe beispielsweise vor 14 Tagen deaktiviert wurde und Sie sie heute reaktivieren, wird sie für jeden fehlenden Tag, also 14-mal ausgeliefert. Wenn die Arbeitsmappe für die fehlenden Tage nicht ausgeliefert werden soll, können Sie die geplante Arbeitsmappe löschen und eine neue geplante Arbeitsmappe unter Verwendung derselben Planungsparameter erstellen. </p> <p> <p>Hinweis: Sie sollten eine Arbeitsmappe erst reaktivieren, wenn Sie die Ursache der Deaktivierung durch das System kennen. Eine Möglichkeit der Fehlerbehebung besteht darin, die deaktivierte Arbeitsmappe herunterzuladen und sie auf der Clientseite aktualisieren. Wenn keine Fehlermeldung erfolgt, sollte die Arbeitsmappe reaktiviert werden können. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zuletzt gesendet </p> </td> 
