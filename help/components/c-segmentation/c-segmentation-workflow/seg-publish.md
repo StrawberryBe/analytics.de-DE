@@ -4,7 +4,7 @@ title: Segmente in der Experience Cloud veröffentlichen
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -118,6 +118,7 @@ In AAM wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment in Form
 ![](assets/aam-traits.png)
 
 * Es wird ein Segment mit einer Eigenschaft erstellt. Es verwendet die Datenquelle, die mit der Report Suite verknüpft ist, in der Sie das Segment veröffentlicht haben.
+* Der Trait-Ablauf ist nun auf 16 Tage eingestellt (zuvor war es 2 Tage).
 
 ## Anzeigen des Segments in [!DNL Adobe Target]
 
