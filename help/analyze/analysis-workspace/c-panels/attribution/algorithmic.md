@@ -2,14 +2,16 @@
 title: Algorithmische Zuordnung
 description: Details zum algorithmischen Zuordnungsmodell in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 143cbed5f2159b7faab387e10896af836d0780f7
+source-git-commit: 30d44e990f9ed33d15cc1845e6bd11a1fef14eda
 
 ---
 
 
 # Algorithmische Zuordnung
 
-Das algorithmische [Zuordnungsmodell](attribution.md) in Analysis Workspace unterscheidet sich von anderen Modellen insofern, als es mithilfe statistischer Verfahren Gutschriften über die Dimensionswerte in Ihrem Bericht oder Ihrer Freiformtabelle verteilt. Wie alle anderen Zuordnungsmodelle in Analysis Workspace kann es für jede Dimension oder Metrik verwendet werden und unterstützt unbegrenzte Segmentierung und Aufschlüsselungen und verteilt 100 % der Konversionen auf die Dimension(en) in der Tabelle (auch als &quot;Bruchzuordnung&quot;bezeichnet).
+> [!NOTE] Algorithmische Zuordnung ist derzeit nur über [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)verfügbar. Die Funktion wird im Juni 2020 in einer allgemeinen Version veröffentlicht.
+
+Das algorithmische [Zuordnungsmodell](attribution.md) in Analyse Workspace unterscheidet sich von anderen Modellen insofern, als es mithilfe statistischer Verfahren Gutschriften über die Dimensionswerte in Ihrem Bericht oder Ihrer Freiformtabelle zuweist. Wie alle anderen Zuordnungsmodelle in Analyse Workspace kann es für jede Dimension oder Metrik verwendet werden und unterstützt eine unbegrenzte Segmentierung und Aufschlüsselung und verteilt 100 % der Konversionen auf die Dimension(en) in der Tabelle (auch als &quot;Bruchzuordnung&quot;bezeichnet).
 
 Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi Dividend aus der Genossenschaftsspieltheorie. Die Harsanyi-Dividende ist eine Verallgemeinerung der Shapley-Wertlösung (die nach Lloyd Shapley, einem Nobelpreisträger für Ökonomie, benannt wurde), um die Kreditvergabe an Spieler in einem Spiel mit ungleichen Beiträgen zum Ausgang zu verteilen.
 
