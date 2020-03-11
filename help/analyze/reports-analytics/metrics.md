@@ -1,9 +1,9 @@
 ---
-description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Durchklicks, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
+description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 title: Metriken
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Metriken
 
-Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Durchklicks, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
+Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Beziehungen zwischen Daten zu erkennen. Anhand von Metriken können Sie verschiedene Datensätze aus Ihrer Website nebeneinander darstellen und miteinander vergleichen. Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw.
 
 ## Metriken
 
@@ -21,7 +21,7 @@ Metriken und die damit verbundenen Daten werden in den Spalten von Berichten ang
 
 [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) werden durch die Kombination von Metriken erstellt.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+Definitionen finden Sie unter [Metrikübersicht](/help/components/c-variables/c-metrics/metricslist.md).
 
 ## Standard-Berichtsmetriken auswählen
 
@@ -35,7 +35,7 @@ t_metrics_set_default.xml
 
 1. Einen Bericht ausführen.
 1. Hinzufügen der Metriken, die Sie als Standardmetriken speichern möchten.
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. Klicken Sie auf die Dropdownliste **[!UICONTROL Metriken hinzufügen]** und wählen Sie anschließend die Option **[!UICONTROL Als Standard festlegen]** aus.
 
    Die ausgewählten Metriken werden als Standard für diesen Bericht gespeichert. Die folgenden Informationen gelten für Standardmetriken:
 
