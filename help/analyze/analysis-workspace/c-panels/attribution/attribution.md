@@ -3,7 +3,7 @@ description: 'null'
 title: Übersicht über das Attributionsbedienfeld
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ Das Attributionsbedienfeld ist eine Funktion von [Attribution IQ](../../attribut
 | ![Zeitverfall](assets/time_decay.png) | Zeitverfall | Folgt einem exponentiellen Abfall mit einem benutzerdefinierten Parameter für die Halbwertszeit, wobei der Standardwert 7 Tage ist. Die Gewichtung der einzelnen Kanäle hängt von der Zeit ab, die zwischen dem Beginn des Touchpoints und der letztendlichen Konversion verstrichen ist. Die Formel, die zur Bestimmung der Gewichtung verwendet wird, lautet `2^(-t/halflife)`, wobei `t` die Zeit zwischen einem Touchpoint und einer Konversion ist. Alle Touchpoints werden dann auf 100 % normalisiert. | Ideal für Teams, die regelmäßig Videowerbung betreiben oder Marketing im Zusammenhang mit Ereignissen mit festem Datum durchführen. Je länger eine Konversion nach einem Marketing-Ereignis erfolgt, desto geringer ist die zugeschriebene Gewichtung. |
 | ![Beitrag](assets/participation.png) | Beitrag | 100 % Gewichtung für alle eindeutigen Touchpoints. Die Gesamtanzahl der Konversionen ist im Vergleich zu anderen Attributionsmodellen überhöht. Durch den Beitrag werden Kanäle dedupliziert, die mehrmals angezeigt werden. | Ausgezeichnet, um zu verstehen, wie häufig Kunden einer bestimmten Interaktion ausgesetzt sind. Medienunternehmen verwenden dieses Modell häufig zur Berechnung der Content Velocity. Einzelhandelsunternehmen verwenden dieses Modell oft, um zu verstehen, welche Teile ihrer Site für die Konversion von entscheidender Bedeutung sind. |
 
-> [!NOTE] Das folgende algorithmische Zuordnungsmodell ist derzeit in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) verfügbar und wird 2020 in einer allgemeinen Version veröffentlicht.
+> [!NOTE] Das folgende algorithmische Zuordnungsmodell ist derzeit in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) verfügbar und wird möglicherweise Teil einer allgemeinen Version sein.
 
 | Benutzeroberflächensymbol | Attributionsmodell | Definition | Verwendungsbereiche |
 | --- | --- | --- | --- |
