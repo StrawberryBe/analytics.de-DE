@@ -1,17 +1,17 @@
 ---
-description: Einführung in die iPad-Anwendung
+description: Einführung in die iPad-Anwendung.
 title: Adobe Analytics für iOS
 topic: Reports and analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Adobe Analytics für iOS{#adobe-analytics-for-ios}
+# Adobe Analytics für iOS {#adobe-analytics-for-ios}
 
-Einführung in die iPad-Anwendung
+Einführung in die iPad-Anwendung.
 
 Sie können Analytics für iOS jederzeit und überall verwenden, um Echtzeit-Trenddaten anzuzeigen, zu präsentieren oder per E-Mail zu versenden.
 
