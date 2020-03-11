@@ -4,7 +4,7 @@ subtopic: Get started
 title: Über die Datenerfassung
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,4 +26,4 @@ Im Detail verläuft der Datenkollektionsprozess wie folgt:
 
 Die Datenkollektion erfolgt sehr schnell und beeinträchtigt die Seitenladezeiten nicht merklich. Zu den erfassten Daten zählen Seitenansichten, die durch Klicken auf die **Aktualisieren**- oder **Zurück**-Schaltflächen im Browser zustande gekommen sind. Der JavaScript-Code wird ausgeführt, selbst wenn die Seite aus dem Cache-Speicher geladen wird.
 
-See [Data Collection in Analytics.](/help/import/home.md)
+Siehe [Datenerfassung in Analytics](/help/import/home.md).
