@@ -2,13 +2,13 @@
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Menü Berichte{#reports-menu}
+# Menü Berichte {#reports-menu}
 
 Eine Übersicht zum Menü „Berichte“ in Reports &amp; Analytics.
 
@@ -23,21 +23,21 @@ Das Menü „Berichte“ bietet:
 
 „Meine Favoriten“, „Häufig angezeigt“ und „Berichtsverlauf“ sind alle Report Suite-spezifisch. Wenn Sie die Report Suites ändern, verändern sich alle drei Listen.
 
-Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten möglich. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Betätigen Sie die Escape-Taste, um das Menü zu schließen, ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
+Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten möglich. Klicken Sie auf **[!UICONTROL Alle Berichte anzeigen]** oder betätigen Sie die Schrägstrich-Taste (/) und anschließend die Taste „Pfeil nach unten“ (↓), um das Menü mithilfe der Pfeiltasten schnell anzuzeigen und in ihm zu navigieren. Betätigen Sie die Escape-Taste, um das Menü zu schließen, ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
-![](assets/reports-landing.png){width="672px"}
+![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
+Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://marketing.adobe.com/resources/help/de_DE/reference/reports_descriptions.html).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Das Menü „Berichte“ bietet eine erweiterte Suchoberfläche. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. Die Berichtssuche umfasst nun alle Elemente der linken Navigationsleiste in Analytics (Admin, Komponenten usw.).
+Das Menü „Berichte“ bietet eine erweiterte Suchoberfläche. Klicken Sie auf **[!UICONTROL Alle Berichte anzeigen]** oder betätigen Sie die Schrägstrich-Taste (/) und beginnen Sie dann zu tippen, um schnell nach Berichten zu suchen. Die Berichtssuche umfasst nun alle Elemente der linken Navigationsleiste in Analytics (Admin, Komponenten usw.).
 
 ![](assets/menu-search.png)
 
 Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), um durch die Liste mit den Berichten zu navigieren. Betätigen Sie die Escape-Taste, um die Suche zu schließen ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
-> [!NOTE] Sie können die Berichtsliste auch nach Prop, eVar und Ereignisnummer durchsuchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
+> [!NOTE] Sie können in der Berichtsliste nun nach Eigenschaften, eVar-Variablen und Ereignisnummern suchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
 
 ## Navigationsübersicht {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -51,7 +51,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud-Lösungsmenü<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Durch Klicken auf dieses Symbol wird das Menü "Experience Cloud"erweitert, damit Sie auf andere Marketing Cloud-Lösungen zugreifen können. </td> 
+   <td colname="col2"> Wenn Sie auf dieses Symbol klicken, wird das Experience Cloud-Menü eingeblendet, über das Sie auf andere Marketing Cloud-Lösungen zugreifen können. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Menü „Berichte“ ein-/ausblenden <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -59,7 +59,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >Segmentaufbau</a> und <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >Segment-Manager</a> zugreifen. </td> 
+   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_build_ui.html"  >Segmentaufbau</a> und <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html"  >Segment-Manager</a> zugreifen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -75,7 +75,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Meine Favoriten </span> </td> 
-   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
+   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Häufig angezeigt</span> </td> 
@@ -95,19 +95,19 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Lesezeichen...</span> </td> 
-   <td colname="col2">Hiermit können Sie den Bericht mit einem Lesezeichen versehen<a href="/help/analyze/reports-analytics/bookmarks.md"  > </a> . </td> 
+   <td colname="col2">Hiermit können Sie den Bericht mit einem <a href="/help/analyze/reports-analytics/bookmarks.md"  >Lesezeichen</a> versehen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Dashboard</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
+   <td colname="col2">Hiermit können Sie den Bericht einem <a href="/help/analyze/reports-analytics/dashboard.md"  >Dashboard</a> hinzufügen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Mehr …</span> </td> 
+   <td colname="col1"><span class="uicontrol">Mehr...</span> </td> 
    <td colname="col2"> Damit können Sie alle oder mehrere der folgenden Aktionen durchführen: Drucken, Daten extrahieren, einen Warnhinweis hinzufügen, einen benutzerdefinierten Bericht erstellen, ein Diagramm kopieren, einen Link zu diesem Bericht erstellen und ein neues Fenster öffnen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Report Suite-Auswahl <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hier können Sie <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >normale Report Suites</a> und <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >Virtual Report Suites</a> auswählen. </td> 
+   <td colname="col2">Hier können Sie <a href="https://marketing.adobe.com/resources/help/de_DE/reference/report_suites_admin.html"  >normale Report Suites</a> und <a href="https://marketing.adobe.com/resources/help/de_DE/reference/virtual-report-suites.html"  >Virtual Report Suites</a> auswählen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 ## Anpassen des Menüs „Alle Berichte“{#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) in der Admin-Hilfe.
+Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/customize-menus.translate.html) in der Admin-Hilfe.
