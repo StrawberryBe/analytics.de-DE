@@ -4,7 +4,7 @@ subtopic: Alerts
 title: Warnhinweise
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,16 +14,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Warnhinweise {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Als neues Warnhinweissystem für Adobe Analytics können Sie mit intelligenten Warnhinweisen Warnhinweise erstellen und verwalten, einschließlich Warnhinweisvorschau und Regelbeitrag. Sie können
+Intelligente Warnhinweise, das neue Warnhinweissystem für sämtliche Bereiche von Adobe Analytics, erlauben das Erstellen und Verwalten von Warnhinweisen, inklusive Warnhinweis-Vorschau und Regelbeiträgen. Sie können
 
 * Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%- oder 99-%-Schwellen, Änderungen in %, darüber/darunter).
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird.
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken.
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-Über **[!UICONTROL Mehr]** &gt; **[!UICONTROL Warnhinweise]** können Sie in allen Berichten in Reports &amp; Analytics auf das neue Warnhinweissystem zugreifen.
+Über **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweise]** können Sie in allen Berichten in Reports &amp; Analytics auf das neue Warnhinweissystem zugreifen.
 
-Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter [Intelligente Warnhinweise](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
+Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter [Intelligente Warnhinweise](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/intellligent_alerts.html).
 
 ## Warnhinweis hinzufügen {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-Navigieren Sie zum neuen Warnhinweiserstellung im Menü **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** . Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
+Navigieren Sie zur neuen Warnhinweiserstellung im Menü **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]**. Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
 
 1. Öffnen Sie in Reports &amp; Analytics den Bericht, für den Sie einen Warnhinweis einrichten möchten.
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
-1. This will take you to the [new Alert Builder](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html).
+1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]**.
+1. Dadurch werden Sie zur [neuen Warnhinweiserstellung](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/alert-builder.html) geleitet.
 
 ## Bestehende Warnhinweise anzeigen oder bearbeiten {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Aufgabenkontext
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**. This takes you to the new [Alert Manager](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html).
+1. Gehen Sie zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**. Dadurch werden Sie zum neuen [Warnhinweis-Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/alert-manager.html) geleitet.
 
 ## Migration veralteter Warnhinweise {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Warnhinweise mit ASI-Slot als Report Suite </p> </td> 
-   <td colname="col2"> <p>Das <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >Erstellen oder Bearbeiten von ASI-Slots</a> ist nicht länger möglich und sie sind auch nicht in Analysis Workspace verfügbar. Daher werden sie von den neuen Warnhinweisen nicht unterstützt. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Das <a href="https://marketing.adobe.com/resources/help/de_DE/reference/ASI_slots_admin.html"  >Erstellen oder Bearbeiten von ASI-Slots</a> ist nicht länger möglich und sie sind auch nicht in Analysis Workspace verfügbar. Daher werden sie von den neuen Warnhinweisen nicht unterstützt. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Warnhinweise mit Teilnahmemetriken </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  > Teilnahmemetriken</a> sind in Reports &amp; Analytics verfügbar, jedoch zur Zeit nicht im neuen Warnhinweissystem in Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/de_DE/reference/metrics_participation.html"  > Teilnahmemetriken</a> sind in Reports &amp; Analytics verfügbar, jedoch zur Zeit nicht im neuen Warnhinweissystem in Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Monatliche Warnhinweise für benutzerdefinierte Kalender-Report Suites </p> </td> 
-   <td colname="col2"> <p>Dies betrifft nur Kunden, die Warnhinweise für Report Suites mit <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >benutzerdefinierten Monatsanfängen</a> nutzen (National Retail Federation/NRF und benutzerdefinierte Kalendertypen). </p> <p>Es betrifft keine Warnhinweise für Report Suites mit gregorianischem oder modifiziertem gregorianischem Kalender. Bisher wurden diese Warnhinweise am ersten Tag des gregorianischen Monats gesendet (zum Beispiel am 1. Januar, am 1. Februar usw.). Dies ist mit der neuen Anomalieerkennungsfunktion für Warnhinweise nicht mehr möglich. Diese Funktion bezieht die Daten des vorangegangenen Monats in die Suche nach Anomalien ein. Zukünftig werden in unserer Terminplanung auch benutzerdefinierte Kalender unterstützt, damit für Warnhinweise und für geplante Projekte festgelegt werden kann, dass sie am ersten Tag des benutzerdefinierten Kalendermonats ausgelöst werden, und nicht nur am ersten Tag des gregorianischen Monats. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Dies betrifft nur Kunden, die Warnhinweise für Report Suites mit <a href="https://marketing.adobe.com/resources/help/de_DE/arb/custom_calendar.html"  >benutzerdefinierten Monatsanfängen</a> nutzen (National Retail Federation/NRF und benutzerdefinierte Kalendertypen). </p> <p>Es betrifft keine Warnhinweise für Report Suites mit gregorianischem oder modifiziertem gregorianischem Kalender. Bisher wurden diese Warnhinweise am ersten Tag des gregorianischen Monats gesendet (zum Beispiel am 1. Januar, am 1. Februar usw.). Dies ist mit der neuen Anomalieerkennungsfunktion für Warnhinweise nicht mehr möglich. Diese Funktion bezieht die Daten des vorangegangenen Monats in die Suche nach Anomalien ein. Zukünftig werden in unserer Terminplanung auch benutzerdefinierte Kalender unterstützt, damit für Warnhinweise und für geplante Projekte festgelegt werden kann, dass sie am ersten Tag des benutzerdefinierten Kalendermonats ausgelöst werden, und nicht nur am ersten Tag des gregorianischen Monats. </p> <p> </p> </td> 
    <td colname="col3"> <p>Im neuen Warnhinweis-Manager nicht verfügbar. </p> </td> 
   </tr> 
   <tr> 
