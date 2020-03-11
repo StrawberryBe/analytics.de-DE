@@ -3,7 +3,7 @@ description: In diesen Schritten wird beschrieben, wie Sie das Diagramm so anpas
 title: Berichtsdiagramme ändern
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Die verfügbaren Diagrammtypen sind vom Berichtstyp abhängig, den Sie ausführe
 **So ändern Sie ein Berichtsdiagramm**
 
 1. Einen Bericht ausführen.
-1. Click **[!UICONTROL Configure Graph]**.
+1. Klicken Sie auf **[!UICONTROL Grafik konfigurieren]**.
 1. Wählen Sie einen Diagrammtyp aus.
 
    **[!UICONTROL Trendlinie]**: Trendlinien zeigen tägliche Trends für die Berichtmetriken an sind für die Trendbildung einer Metrik über Zeit pro Linie nützlich.
