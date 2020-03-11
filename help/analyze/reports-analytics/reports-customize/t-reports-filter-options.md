@@ -3,7 +3,7 @@ description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, 
 title: Filtern von Berichtsdaten
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
 
-## Einfacher Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Einfacher Filter  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
-Der einfache Filter wird in den meisten Berichten angezeigt, damit Sie spezielle Einzelelemente einfach finden können. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. Sie können Einzelelemente, die mehrere Begriffe enthalten, mit einem Leerzeichen suchen.
+Der einfache Filter wird in den meisten Berichten angezeigt, damit Sie spezielle Einzelelemente einfach finden können. Bei einfachen Filtern werden keine Sonderzeichen verwendet, sodass `-, ", ', +` und andere Sonderzeichen dem literalen Wert im Bericht entsprechen. Sie können Einzelelemente, die mehrere Begriffe enthalten, mit einem Leerzeichen suchen.
 
 Beispiel:
 
@@ -45,11 +45,11 @@ Mit erweiterten Filtern können Sie den Umfang Ihrer Suche anhand einer Sammlung
 
 Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzelelement gefunden wird. Dieser Filter funktioniert genauso wie der einfache Filter.
 
-> [!NOTE] Leerzeichen können nicht in Filtern verwendet werden, da Leerzeichen in Suchvorgängen Trennzeichen sind
+> [!NOTE] Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
 
 **Enthält nicht**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://marketing.adobe.com/resources/help/de_DE/reference/none-unspecified-unknown-other.html) aus Berichten filtern.
 
 Enthält nicht: `none`
 
@@ -126,11 +126,11 @@ Mit dem erweiterten Filter können Sie Platzhalter- und andere komplexe Suchvorg
 | Erweitert (Sonderzeichen) | Beschreibung |
 |--- |--- |
 | `" "` | Übereinstimmung mit genauem Wortlaut. |
-| `*` | Platzhalter, Greedy-Abgleich. <br>Entspricht beispielsweise `r*p` "Registrierung". |
+| `*` | Platzhalter, Greedy-Abgleich. <br>Beispielsweise entspricht `r*p` „Registration Signup“. |
 | `^` | Beginnt mit. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
 | `$` | Endet mit. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
 | `-` | Nicht. <br>Verwenden Sie kein Leerzeichen zwischen dem Sonderzeichen und dem Suchausdruck. |
-| `|` | <br>OderHinweis:  Sie müssen auf jeder Seite des Senkrechtstrichs ein Leerzeichen einfügen, `" | "`. |
+| `|` | Oder<br>Hinweis: Sie müssen ein Leerzeichen auf jeder Seite des Senkrechtstriches (`" | "`) einfügen. |
 
 ## Berichtsspezifische Filter erstellen {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -148,10 +148,10 @@ Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken für die in der Lis
 
 **So erstellen Sie berichtsspezifische Filter**
 
-1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
-1. Klicken Sie im Berichtkopf auf den Link **Filter.**
-1. Klicken Sie auf der Seite [!UICONTROL Filterauswahl]**auf[!UICONTROL Einen Filter einsetzen]** und wählen Sie anschließend einen Filtertyp aus.
-1. Geben Sie zur Suche nach einem Element eine Zeichenfolge in das **Such** feld ein.
+1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Kaufbericht] (**[!UICONTROL Site-Metriken]** > **[!UICONTROL Kauf]** > **[!UICONTROL Einkaufs-Konversionstrichter]**).
+1. Klicken Sie im Berichtkopf auf den Link **[!UICONTROL Filter]**.
+1. Klicken Sie auf der Seite [!UICONTROL Filterauswahl] auf **[!UICONTROL Einen Filter einsetzen]** und wählen Sie anschließend einen Filtertyp aus.
+1. Geben Sie zur Suche nach einem Element eine Zeichenfolge in das **[!UICONTROL Suchfeld]** ein.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Korrelationsfilter hinzufügen {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -170,7 +170,7 @@ Sie können die in einem Korrelationsbericht angezeigten Daten anhand einer beli
 
 **So fügen Sie einen Korrelationsfilter hinzu**
 
-1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
+1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (Siehe [Ausführen eines Unterteilungsberichts](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Klicken Sie in dem Berichtkopf auf den Link **[!UICONTROL „Korrelationsfilter“]**. 
 1. Wählen Sie unter [!UICONTROL „Filterregelerstellung“] eine Kategorie, die Sie mit einem Element korrelieren möchten.
-1. Klicken Sie auf **[!UICONTROL OK.]**
+1. Klicken Sie auf **[!UICONTROL OK]**.
