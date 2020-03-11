@@ -3,7 +3,7 @@ description: Vollständige Subrelationen sind für alle Konversionsberichte akti
 title: Subrelationen
 topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Unser Backend funktioniert, indem post_campaign und post_evar1 die in Kampagne u
 
 Zusammenfassend führen Subrelationen folgende Schritte aus, um den Bericht zu erstellen:
 
-* Isolieren der Bildanforderungen, die die Erfolgsereignisse beinhalten, die Sie im Bericht anzeigen
-* Ausgeben der beibehaltenen Werte aller in der Subrelation verwendeten Konversionsvariablen
-* Organisieren der Werte basierend auf der Reihenfolge der Subrelation Wenn eine Variable keinen fortbestehenden Wert enthält (wenn beispielsweise eine eVar nie definiert wurde oder abgelaufen ist), wird sie unter „Keine“ gespeichert.
+* Isolieren der Bildanforderungen, die die Erfolgsereignisse beinhalten, die Sie im Bericht anzeigen.
+* Ausgeben der beibehaltenen Werte aller in der Subrelation verwendeten Konversionsvariablen.
+* Organisieren der Werte basierend auf der Reihenfolge der Subrelation. Wenn eine Variable keinen fortbestehenden Wert enthält (wenn beispielsweise eine eVar nie definiert wurde oder abgelaufen ist), wird sie unter „Keine“ gespeichert.
 
