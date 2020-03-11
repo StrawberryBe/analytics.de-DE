@@ -3,7 +3,7 @@ title: AppMeasurement für JavaScript - Versionshinweise
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin
 
 Releasedatum: **5. März 2020**
 
-* Ein sicherheitsbezogenes Problem wurde behoben.
+* Ein sicherheitsbezogenes Problem wurde behoben, indem die Erkennung von Internet Explorer aktualisiert wurde, um die JSLint-Warnung zu unterdrücken.
 
 ## Version 2.19.0
 
@@ -293,7 +293,7 @@ Releasedatum: **21. Mai 2015**
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 
-> [!NOTE] **Bekanntes Problem**: In den Integrationen Visitor API/ [!DNL AppMeasurement] [!DNL Audience Manager] Module gibt es zwei iFrame-Anfragen zur Zielveröffentlichung, die in IE6-9 gestellt wurden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
+> [!NOTE] **Bekanntes Problem**: In den Besucher-API-/ [!DNL AppMeasurement] [!DNL Audience Manager] -Modulintegrationen gibt es zwei iFrame-Anfragen zur Zielveröffentlichung, die in IE6-9 gestellt werden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
@@ -392,7 +392,7 @@ Releasedatum: **6. Februar 2014**
 
 Releasedatum: **15. November 2013**
 
-* Es wurden Seitenereignisse behoben, die für die Puls-Videomessung verwendet wurden.
+* Korrektur der Ereignis von Seiten, die für die Puls-Videomessung verwendet werden.
 
 ## Version 1.2
 
