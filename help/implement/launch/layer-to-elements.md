@@ -1,44 +1,36 @@
 ---
-description: 'null'
-title: Datenschichtobjekte Datenelementen zuordnen
-uuid: null
+title: Zuordnen von Datenschichtobjekten zu Datenelementen
+description: Konfigurieren Sie Launch, um aus Ihrer Datenschicht zu lesen.
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
 
-# Datenschichtobjekte Datenelementen zuordnen
+# Zuordnen von Datenschichtobjekten zu Datenelementen
 
+Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implementiert hat, können Sie Datenschichtobjekte innerhalb von Launch Datenelementen zuordnen.
 
-Nachdem Sie eine Datenschicht [für Ihre Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) erstellt haben, können Sie Objekte darin [Datenelementen in Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)zuordnen. Datenelemente sind Bausteine für Ihre Datenzuordnung, die auf unterschiedliche Weise genutzt werden können. Sie können Datenelemente verwenden, um Daten über Adobe-Plattformlösungen hinweg zu erfassen, zu organisieren und bereitzustellen, einschließlich Ihrer Analytics-Berichte.
+## Voraussetzungen
 
-So ordnen Sie Datenschichtobjekte zu Datenelementen starten zu:
+[Erstellen Sie eine Datenschicht](../prepare/data-layer.md): Stellen Sie sicher, dass auf Ihrer Site eine Datenschicht vorhanden ist. Obwohl Sie technisch alle JavaScript-Objekte oder CSS-Elemente direkt auf der Seite zuordnen können, empfiehlt Adobe diese Vorgehensweise als letztes Mittel. Wenn sich Ihr Site-Layout ändert, funktionieren die in Launch verwendeten CSS-Selektoren nicht mehr, was zu Datenverlusten führt.
 
-1. Klicken Sie in Start auf den Namen der Eigenschaft, der Sie das Datenelement hinzufügen möchten. Wenn Sie noch keine Eigenschaft eingerichtet haben, lesen Sie die Anweisungen zum [Erstellen einer Starteigenschaft](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html).
+## Verwenden Sie Adobe Experience Platform Launch, um Datenelemente zu erstellen
 
-2. Click **Data Elements** and then click **Create New Data Element**.
+[Datenelemente](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) sind Komponenten in Launch, die Sie über das Tool hinweg verwenden können. Sie können Variablenwerte in der Adobe Analytics-Erweiterung mithilfe von Datenelementen zuweisen.
+
+1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
+1. Klicken Sie auf die gewünschte Eigenschaft Start.
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
    ![Datenelement erstellen](assets/createelement.png)
 
+1. Geben Sie einen Namen für Ihr Datenelement ein. Es kann sich um eine einfache Beschriftung handeln, die einer JavaScript-Variablen in Ihrer Datenschicht entspricht, die Sie verfolgen möchten.
+1. Wählen Sie unter der [!UICONTROL Extension] Dropdownliste [!UICONTROL Core].
+1. Wählen Sie unter der [!UICONTROL Data Element Type] Dropdownliste [!UICONTROL JavaScript Variable]. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
+1. Geben Sie die gewünschte JavaScript-Variable ein, normalerweise in Ihrer Datenschicht. Wenn beispielsweise die Datenschicht Ihres Unternehmens der empfohlenen Vorgehensweise von Adobe sehr ähnlich ist, könnte ein Wert `digitalData.page.pageInfo.pageName`verwendet werden. Sie können die JavaScript-Variablensyntax und -werte in der Browser-Konsole überprüfen.
+1. Klicken Sie auf [!UICONTROL Save].
 
-3. Geben Sie einen Namen für Ihr Datenelement ein. Dieser Name sollte eine einfache Beschriftung sein, die einer JavaScript-Variablen in Ihrer Datenschicht entspricht, die Sie verfolgen möchten.
+## Nächste Schritte
 
-4. Wählen Sie als Erweiterung &quot; **Core&quot;aus.** Diese Erweiterung umfasst alle Variablen, die Sie benötigen.
-
-5. For **Data Element Type**, select **JavaScript Variable**. Geben Sie den Namen der **JavaScript-Variablen** in das entsprechende Feld ein. Dies sollte mit dem exakten Namen des Objekts in Ihrer JavaScript-Datenschicht übereinstimmen.
-
-6. Geben Sie als **Standardwert** einen Wert ein, den Sie standardmäßig festlegen möchten, oder lassen Sie ihn gegebenenfalls leer.
-
-7. Gemäß Ihren Vorgehensweisen können Sie die Optionen auswählen, um Kleinbuchstaben zu erzwingen und sauberen Text zu erzwingen (Start wird mit einem herkömmlichen Abstand ausgeführt).
-
-8. Geben Sie die Dauer an, für die Startspeicher-Werte für das neue Datenelement verwendet werden sollen.
-
-9. Klicken Sie auf **Speichern**.
-
-Das folgende Beispiel zeigt ein Datenelement &quot;Seitenname&quot;in Launch, das für die JavaScript-Variable ``pageName`` in der Datenschicht erstellt wurde:
-
-![Element angeben](assets/new_element.png)
-
-
-Wenn Ihre Datenschichtobjekte Datenelementen zugeordnet sind, können Sie diese zum Füllen von Analytics-Variablen nutzen. Weitere Informationen finden Sie unter [Zuordnen von Datenelementen zu Analytics-Variablen](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html).
+[Zuordnen von Datenelementen zu Analytics-Variablen](elements-to-variable.md): Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analyse Workspace verwenden können.
