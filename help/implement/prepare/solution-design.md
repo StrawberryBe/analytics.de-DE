@@ -2,7 +2,7 @@
 title: Lösungsdesigndokument erstellen
 description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in Ihrem Unternehmen verwenden können.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ Es gibt auch mehrere Adobe-Partner, die sich auf die Unterstützung bei der Erst
 
 Implementieren Sie die Variablen in Ihr Lösungsdesigndokument.
 
-* Einführung in eVars: Erfahren Sie, was eine eVar ist, wie sie funktioniert und wie Sie sie in Ihrer Implementierung verwenden
-* Einführung in Ereignisse: Erfahren Sie, was ein Erfolgsereignis ist, wie es funktioniert und wie sie es in Ihrer Implementierung verwenden
+[Erstellen Sie eine Datenschicht](data-layer.md): Übersetzen Sie Variablen in Ihrem Design-Dokument in JavaScript-Variablen auf Ihrer Site.
