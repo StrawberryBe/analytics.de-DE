@@ -26,7 +26,7 @@ t_bookmarks_creating.xml
 
 1. Führen Sie einen Bericht aus und klicken Sie anschließend auf **[!UICONTROL Lesezeichen]**.
 
-       |Name|Ein benutzerfreundlicher Name für das Lesezeichen.
+       |Name|Ein benutzerfreundlicher Name für das Lesezeichen.|
        |---|---|
        |Hinzufügen zu| Geben Sie den Ordner an, in dem Sie das Lesezeichen ablegen möchten.|
        |Als öffentlich einstellen| Dieses Lesezeichen steht Benutzern mit Zugriff auf die Report Suite zur Verfügung.|
