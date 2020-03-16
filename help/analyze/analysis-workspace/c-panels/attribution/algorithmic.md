@@ -2,7 +2,7 @@
 title: Algorithmische Zuordnung
 description: Details zum algorithmischen Zuordnungsmodell in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: c3f81b6bca97dafaf328d09534e55d4d77bd87b4
+source-git-commit: 59ca7a8b6f067d62c4abea572c199fb95897d854
 
 ---
 
@@ -17,7 +17,7 @@ Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi Dividend 
 
 Auf hoher Ebene betrachtet die Zuordnungsberechnung des Konversionsguthabens für jeden Touchpoint jeden Marketing-Touchpoint innerhalb eines Lookback-Fensters als eine Koalition von Akteuren, auf die ein Überschuss gleichmäßig verteilt werden muss. Die Überschusshöhe jeder Koalition wird nach dem Überschuss bestimmt, der zuvor von jeder Unterkoalition (oder zuvor teilnehmenden Dimensionswerten) rekursiv erzeugt wurde. Weitere Informationen finden Sie in den Originaldokumenten von John Harsanyi und Lloyd Shapley:
 
-* Shapley, Lloyd S. &quot;Ein Wert für persönliche Spiele.&quot; *Beiträge zur Theory of Games 2.28*, 1953, S. 1. 307-317.
-* Harsanyi, John C. &quot;Ein vereinfachtes Verhandlungsmodell für das persönliche Genossenschaftsspiel.&quot; *International Economic Review 4.2*, 1963, S. 1. 194-220.
+* Shapley, Lloyd S. (1953). Ein Wert für persönliche Spiele. *Beiträge zur Theorie der Spiele, 2(28)*, 307-317.
+* Harsanyi, John C. (1963). Ein vereinfachtes Verhandlungsmodell für das persönliche Genossenschaftsspiel. *International Economic Review 4(2)*, 194-220.
 
 > [!NOTE] Das Ergebnis der algorithmischen Zuordnung unterscheidet sich nur dann von anderen Modellen, wenn innerhalb des angegebenen Lookback-Fensters mehrere Touchpoints vorhanden sind. Umrechnungen mit einem einzigen Touchpoint erhalten eine Gutschrift von 100 % unabhängig vom Zuordnungsmodell.
