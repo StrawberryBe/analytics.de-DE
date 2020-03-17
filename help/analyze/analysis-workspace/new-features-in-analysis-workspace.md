@@ -5,12 +5,21 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Neuerungen in Analysis Workspace
+
+## März 2020
+
+Am 12. März 2020 veröffentlichte neue Funktionen.
+
+| Funktion | Beschreibung |
+|--- |--- |
+| Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein einzelnes Projekt zur Ansicht nebeneinander einfügen. [Mehr Info...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Übungsvorlage | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modul „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Mehr Info...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Februar 2020
 
@@ -18,10 +27,9 @@ Am 20. Februar 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein einzelnes Projekt einbeziehen, um sie nebeneinander anzuzeigen. Ab dem 20. Februar 2020 wird die Funktion im Laufe einiger Wochen für alle Kunden eingeführt. [Mehr Info...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über CDA-exklusive Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Einrichten von geräteübergreifenden Analysen](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html). |
 | Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Aktiven Bereich reduzieren/erweitern: `alt + ctrl + m`</li><li>Linke Leiste durchsuchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Mehr Info...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| Weitere Neuerungen in Workspace | <ul><li>Wenn ein Bedienfeld oder eine Visualisierung in Workspace abgelegt wird, wechselt die linke Leiste jetzt automatisch zu Komponenten, um einen nahtlosen Arbeitsablauf zu gewährleisten.</li><li>Vorlagenkomponenten können nun mit Aktionen versehen werden (z. B. mit Tags, Favoriten, Genehmigt).</li><li>Gefilterte Metrik- und Segmentlisten bieten die Schaltfläche &quot;+&quot;, um eine neue Komponente hinzuzufügen, wenn Sie nicht genau das finden, was Sie benötigen.</li></ul> |
+| Weitere Neuerungen in Workspace | <ul><li>Wenn ein Bedienfeld oder eine Visualisierung in Workspace abgelegt wird, wechselt die linke Leiste jetzt automatisch zu Komponenten, um einen nahtlosen Arbeitsablauf zu gewährleisten.</li><li>Vorlagenkomponenten können nun mit Aktionen versehen werden (z. B. mit Tags, Favoriten, Genehmigt).</li><li>Gefilterte Metriken und Segmentkomponenten Angebot der Schaltfläche +, um eine neue Liste hinzuzufügen, wenn Sie nicht finden, was Sie benötigen.</li></ul> |
 | Workspace-Debugger | Der Workspace-Debugger wurde dem Menü „Hilfe“ hinzugefügt, sodass Sie ihn nahtloser zum Debuggen von Workspace-Anforderungen aktivieren können. [Mehr Info...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Januar 2020
@@ -1137,7 +1145,7 @@ In [!UICONTROL Visualization Settings] der **[!UICONTROL Legend Visible]** Optio
 
 ## Y-Achse bei null verankern {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Die Aktivierung **[!UICONTROL Anchor Y Axis at Zero]** der Y-Achse [!UICONTROL Visualization Settings] erzwingt null, um eine genauere Ansicht der Trends zu erhalten. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
+Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Die Aktivierung **[!UICONTROL Anchor Y Axis at Zero]** der Y-Achse auf Null [!UICONTROL Visualization Settings] erzwingt eine genauere Ansicht der Trends. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
 
 „**Y-Achse bei null verankern**“ deaktiviert
 
