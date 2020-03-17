@@ -3,7 +3,7 @@ description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
-* **Leeres Projekt (Standard)**: Anweisungen finden Sie unter [Erstellen eines Projekts](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)im Arbeitsbereich für Analysen.
+* **Leeres Projekt (Standard)**: Anweisungen hierzu finden Sie unter [Erstellen eines Analyse Workspace-Projekts](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * **Standardvorlage**: Diese Vorlagen werden von Adobe erstellt und mit dem Produkt geliefert.
 * **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen die [!UICONTROL Analysis Workspace: Save as Template] Berechtigung in der Admin-Konsole erteilt wurde. [Mehr Info...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
@@ -25,7 +25,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
 1. Öffnen Sie das Projekt.
-1. Go to **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
+1. Öffnen von **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -41,7 +41,7 @@ Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benu
 
 | Aktion | Beschreibung |
 |--- |--- |
-| Vorlage bearbeiten | Lässt einen Administrator die Vorlage durch Änderung der Datenquelle, Anpassung von Komponenten, Visualisierungen, Datumsbereichen usw. bearbeiten.  Um eine Standardvorlage zu bearbeiten, können Sie entweder<ul><li>die Liste von benutzerdefinierten Vorlagen in Analysis Workspace öffnen, eine auswählen und auf Vorlage bearbeiten klicken oder</li><li>in Analytics Komponenten > Projekte wählen und dann nach Vorlagen filtern. Klicken Sie auf den Namen der Vorlage, die Sie bearbeiten möchten.</li></ul>**Hinweis:** Nachdem Sie eine Vorlage bearbeitet haben, haben Sie je nach Situation zwei Optionen: Speichern, Speichern unter. Sie unterscheiden sich in Folgendem:<ul><li>**** Speichern: Aktualisiert die benutzerdefinierte Vorlage für alle Benutzer. Wenn jemand anderer ein Projekt aus dieser benutzerdefinierten Vorlage erstellt, sehen sie die von Ihnen gemachten Änderungen.</li><li>**** Speichern unter: Erstellt eine Kopie der benutzerdefinierten Vorlage mit Ihren Änderungen. (Dass Sie im Bearbeitungsmodus sind, lässt sich daran erkennen, dass das Menüelement Freigabe > Projekt freigeben deaktiviert ist.)</li></ul> |
+| Vorlage  bearbeiten | Lässt einen Administrator die Vorlage durch Änderung der Datenquelle, Anpassung von Komponenten, Visualisierungen, Datumsbereichen usw. bearbeiten.  Um eine Standardvorlage zu bearbeiten, können Sie entweder<ul><li>die Liste von benutzerdefinierten Vorlagen in Analysis Workspace öffnen, eine auswählen und auf Vorlage bearbeiten klicken oder</li><li>in Analytics Komponenten > Projekte wählen und dann nach Vorlagen filtern. Klicken Sie auf den Namen der Vorlage, die Sie bearbeiten möchten.</li></ul>**Hinweis:** Nachdem Sie eine Vorlage bearbeitet haben, haben Sie je nach Situation zwei Optionen: Speichern, Speichern unter. Sie unterscheiden sich in Folgendem:<ul><li>**Speichern:** Aktualisiert die benutzerdefinierte Vorlage für alle Benutzer. Wenn jemand anderer ein Projekt aus dieser benutzerdefinierten Vorlage erstellt, sehen sie die von Ihnen gemachten Änderungen.</li><li>**Speichern unter:** Erstellt eine Kopie der benutzerdefinierten Vorlage mit Ihren Änderungen. (Dass Sie im Bearbeitungsmodus sind, lässt sich daran erkennen, dass das Menüelement Freigabe > Projekt freigeben deaktiviert ist.)</li></ul> |
 | Nach Vorlagen suchen | Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf Vorlagen suchen. |
 | Vorlagen ordnen | Sie können Vorlagen alphabetisch, nach Relevanz und nach Erstellungsdatum ordnen.  Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf Ordnen:. |
 | Tags auf eine Vorlage anwenden | Öffnen Sie die Vorlage und wählen Sie Projekt > Projektinfo und Einstellungen. Klicken Sie auf Tags hinzufügen. |
@@ -56,7 +56,9 @@ Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an
 
 [Standardvorlagen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten:
+Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten.
+
+* **Schulungslehrgang**: Diese Standardvorlage führt Sie durch die gängige Terminologie und Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modul „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben.
 
 ### Werbung
 
@@ -64,7 +66,7 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 >
 >Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für Advertising Cloud aktiviert ist.
 
-* **Suchmaschinen**: Diese Vorlage schlüsselt nach Werbe-Trends, Anzeigenplattformen, Suchbegriffen, Konten, Kampagnen und mehr auf.
+* **Gebührenpflichtige Suchmaschinen**: Diese Vorlage unterteilt Werbetrends, Anzeigenplattformen, Suchbegriffe, Konten, Campaign und mehr.
 
 ### Handel
 
@@ -106,7 +108,7 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 
 > [!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html) verfügbar.
 
-Dies basiert auf der Metrik für Personen, die eine deduplizierte Version der Metrik „Unique Visitors“ darstellt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
+Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um eine deduplizierte Version der Metrik &quot;Individuelle Besucher&quot;handelt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
 * Ihre Daten für die USA/Kanada gegen die restliche Welt segmentieren (Device Co-op ist momentan nur in Nordamerika verfügbar);
 * die Metriken für Personen und Unique Visitors nebeneinander vergleichen;
@@ -123,14 +125,14 @@ Dies basiert auf der Metrik für Personen, die eine deduplizierte Version der Me
 Mit dieser Vorlage können Sie wichtige geräteübergreifende Leistungsdaten anzeigen. Sie steht nur Kunden zur Verfügung, die Zugriff auf [geräteübergreifende Analysen](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) haben.
 
 * **Besondere Anmerkung für die Mitglieder des Kooperationdiagramms**: Zeigt, welcher Teil Ihrer Report Suite Besucher in Regionen enthält, in denen das Co-op-Diagramm unterstützt wird, und in Regionen, in denen es nicht unterstützt wird.
-* **Identifizierung der Benutzer**: Zeigt, wie oft Besucher Ihrer Site anhand von Methoden identifiziert werden, die auf geräteübergreifender Analyse basieren.
-* **Messen der Zielgruppengröße**: Zeigt einen Vergleich von &quot;Unique Devices&quot;mit &quot;People&quot;an. Der Anteil dieser beiden Zahlen wird als &quot;geräteübergreifende Komprimierung&quot;bezeichnet, eine berechnete Metrik, die in diesem Bedienfeld sichtbar ist. Diese Komprimierungsmetrik hängt von einem breiten Spektrum von Faktoren ab:
+* **Identifizierung der Benutzer**: Zeigt, wie oft Besucher Ihrer Site anhand von geräteübergreifenden Analysen identifiziert werden.
+* **Messen der Audience**: Zeigt einen Vergleich von &quot;Unique Devices&quot;mit &quot;People&quot;an. Der Anteil dieser beiden Zahlen wird als &quot;geräteübergreifende Komprimierung&quot;bezeichnet, eine berechnete Metrik, die in diesem Bedienfeld sichtbar ist. Diese Komprimierungsmetrik hängt von einem breiten Spektrum von Faktoren ab:
    * **Verwenden des Co-op-Diagramms oder des privaten Diagramms**: Im Allgemeinen sehen Organisationen, die die Geräte-Co-op verwenden, bessere Komprimierungsraten als Organisationen, die das private Diagramm verwenden.
    * **Anmeldungsrate**: Je mehr Benutzer sich auf Ihrer Site anmelden, desto mehr kann Adobe Besucher geräteübergreifend identifizieren und verbinden. Sites mit einer niedrigen Anmelderate haben auch niedrige Komprimierungsraten.
-   * **Erlebnis-Cloud-ID-Abdeckung**: Es können nur Besucher mit einer ECID verknüpft werden. Ein geringerer Prozentsatz der Besucher Ihrer Site, die eine ECID verwenden, steht im Zusammenhang mit niedrigeren Kompressionsraten.
-   * **Verwendung** mehrerer Geräte: Wenn Besucher Ihrer Site nicht mehrere Geräte verwenden, sehen Sie niedrigere Komprimierungsraten.
-   * **Berichtsgranularität**: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
-* **Benutzerbasierte Segmente**: Enthält ein Segment-Dropdown, mit dem Sie gerätespezifische Daten anzeigen können. In diesem Bereich wird empfohlen, mit Segmenten zu experimentieren, um zu sehen, wie sich das Ein- oder Ausschließen von Gerätetypen auf Berichte auswirkt.
+   * **Erlebnis-Cloud-ID-Abdeckung**: Es können nur Besucher mit einer ECID zusammengefügt werden. Ein geringerer Prozentsatz der Besucher Ihrer Site, die eine ECID verwenden, steht im Zusammenhang mit niedrigeren Kompressionsraten.
+   * **Verwendung** mehrerer Geräte: Wenn Besucher Ihrer Site nicht mehrere Geräte verwenden, können Sie niedrigere Komprimierungsraten sehen.
+   * **Berichte-Granularität**: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
+* **Benutzerbasierte Segmente**: Enthält ein Segment-Dropdown, das die Ansicht gerätespezifischer Daten ermöglicht. In diesem Bereich wird empfohlen, mit Segmenten zu experimentieren, um zu sehen, wie sich das Ein- oder Ausschließen von Gerätetypen auf Berichte auswirkt.
 * **Analyse der geräteübergreifenden Reise**: Bietet Fluss- und Trichteranalyseberichte je nach Gerätetyp.
 * **Geräteübergreifende Zuordnung**: Kombinieren Sie die Funktionen von Journey IQ und Attribution IQ zusammen.
 * **Weitere Tipps und Tricks**: Hilfreiche Themen rund um CDA, mit denen Sie mehr aus der Nutzung herausholen können.
