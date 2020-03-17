@@ -2,8 +2,8 @@
 description: Sie können gespeicherte und ungespeicherte Projekte im PDF- oder CSV-Format herunterladen.
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
@@ -14,15 +14,18 @@ Sie können gespeicherte und ungespeicherte Projekte im PDF- oder CSV-Format her
 
 Der Name der PDF- oder CSV-Datei entspricht dem aktuellen Projektnamen. Bei ungespeicherten Projekten sind die nicht gespeicherten Änderungen am Projekt in der heruntergeladenen Datei enthalten. Beachten Sie, dass Sie ungespeicherte Projekte im PDF- oder CSV-Format nicht planen können.
 
-> [!NOTE] Wir unterstützen auch die Fallout-Visualisierung im CSV-Format.
+Beachten Sie:
 
-> [!NOTE] Wenn ein Projekt in eine PDF gerendert wird, dann wird nur der Seiteninhalt gerendert. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
+* Wir unterstützen auch die Fallout-Visualisierung im CSV-Format.
+* Wenn ein Projekt in eine PDF gerendert wird, dann wird nur der Seiteninhalt gerendert. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
+* Der Export von im Browser heruntergeladenen PDFs kann einige Minuten dauern. Das liegt daran, dass wir das gesamte Projekt auf unseren Servern erneut ausführen müssen, bevor wir es im PDF-Format wiedergeben können. Es wird empfohlen, das Projekt erst dann zu verlassen, wenn die PDF-Datei in Ihrem Browser heruntergeladen wurde. Sie können jedoch weiterhin Änderungen am Projekt vornehmen, während Sie warten.
+* Wenn Sie sehr lange Workspace-Projekte haben, werden PDFs derzeit als eine Riesenseite und nicht als paginiertes Dokument exportiert. Wir arbeiten an einer Verbesserung des PDF-Exports von Workspace, die Paginierung ermöglicht.
 
 1. Erstellen oder öffnen Sie ein Projekt.
-1. Klicken Sie auf **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen (bzw. PDF herunterladen).]**
+1. Klicken Sie auf **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
 
 Am 11. April 2019 wurden mehrere Änderungen an **[!CSV Downloads]** (und **[!CIn Zwischenablage kopieren]**) in Analysis Workspace vorgenommen, um die Formatierung aus den exportierten Daten zu entfernen.
-* Das Tausendertrennzeichen ist nicht mehr enthalten. (Das Dezimaltrennzeichen wird weiterhin enthalten sein und dem unter **[!UICONTROL Komponenten > Berichtseinstellungen > Tausendertrennzeichen]** definierten Format entsprechen.)
+* Das Tausendertrennzeichen ist nicht mehr enthalten. (The decimal separator will continue to be included, and will adhere to the format defined under **[!UICONTROL Components > Report Settings > Thousands Separator]**).
 * Es werden keine Währungssymbole angezeigt.
 * Es werden keine Prozentzeichen angezeigt.
 * Prozentsätze sind dezimal; 75 % wird beispielsweise als 0,75 angezeigt.
