@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
       + [Dynamische Variablen](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + events {#events}
-         + [Ereignisübersicht](vars/page-vars/events/events-overview.md)
+         + [Übersicht über Ereignis](vars/page-vars/events/events-overview.md)
          + [Kaufereignis](vars/page-vars/events/event-purchase.md)
          + [Ereignis-Serialisierung](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
@@ -148,10 +148,12 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 + Implement Analytics using Adobe Experience Platform Launch {#launch}
    + [Launch-Übersicht](launch/overview.md)
    + [Eine Analytics-Eigenschaft erstellen](launch/create-analytics-property.md)
-   + [In einer Entwicklungsumgebung bereitstellen](launch/deploy-dev.md)
+   + [In einer dev-Umgebung bereitstellen](launch/deploy-dev.md)
    + [Validieren und Veröffentlichen auf Proof](launch/validate-publish-prod.md)
+   + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
+   + [Zuordnen von Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Analytics auf anderen Plattformen implementieren {#other}
-   + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
+   + [Analytics mithilfe von fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
       + [Überblick über die Implementierung des Dynamic Tag Management](other/dtm/dtm-implementation-overview.md)
       + [Webeigenschaft erstellen](other/dtm/t-create-web-property.md)
