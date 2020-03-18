@@ -5,7 +5,7 @@ subtopic: Redirects
 title: Umleitungen und Aliase
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -64,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-Der nachstehende Codeabschnitt zeigt zwei JavaScript-Variablen, *`s_referrer`*und*`s_pageURL`*. Dieser Code wird auf der endgültigen Landingpage der Weiterleitung platziert.
+Der nachstehende Codeabschnitt zeigt zwei JavaScript-Variablen, *`s_referrer`* und *`s_pageURL`*. Dieser Code wird auf der endgültigen Landingpage der Weiterleitung platziert.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -80,7 +80,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Stellen Sie *`s.referrer`*nur einmal auf der Seite ein. Wenn Sie die Variable bei jedem Tracking-Aufruf oder jedem Klick festlegen, wird sie vom Referrer und ähnlichen Dimensionen wie Suchmaschinen und Schlüsselwörtern doppelt gezählt.
+>Stellen Sie *`s.referrer`* nur einmal auf der Seite ein. Wenn Sie die Variable bei jedem Tracking-Aufruf oder jedem Klick festlegen, wird sie vom Referrer und ähnlichen Dimensionen wie Suchmaschinen und Schlüsselwörtern doppelt gezählt.
 
 ## Weiterleitungen mittels getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -108,7 +108,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die Variable *`s_pageURL`*zum Überschreiben der aktuellen URL.
+Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die Variable *`s_pageURL`* zum Überschreiben der aktuellen URL.
 
 Da viele Möglichkeiten zur Implementierung einer Weiterleitung bestehen, müssen Sie ggf. mit Ihrer Web Operations-Gruppe oder Ihrem Online-Werbepartner die spezifischen Mechanismen bestimmen, die Weiterleitungen auf Ihrer Website ausführen.
 
@@ -120,7 +120,7 @@ redirects_referrer.xml
 
  -->
 
-Für gewöhnlich ruft [!DNL Analytics] die verweisende URL aus der Eigenschaft [!UICONTROL document.referrer] und die aktuelle URL aus der Eigenschaft [!UICONTROL document.location] des Browsers ab. Durch Übergabe von Werten an die Variablen *`referrer`*und*`pageURL`* können Sie die Standardverarbeitung überschreiben. Durch Übergabe eines Werts an die Variable „referrer“ teilen Sie [!DNL Analytics] mit, dass die Referrer-Information in der Eigenschaft [!UICONTROL document.referrer] ignoriert und stattdessen ein anderer, von Ihnen definierter Wert verwendet werden soll.
+Für gewöhnlich ruft [!DNL Analytics] die verweisende URL aus der Eigenschaft [!UICONTROL document.referrer] und die aktuelle URL aus der Eigenschaft [!UICONTROL document.location] des Browsers ab. Durch Übergabe von Werten an die Variablen *`referrer`* und *`pageURL`* können Sie die Standardverarbeitung überschreiben. Durch Übergabe eines Werts an die Variable „referrer“ teilen Sie [!DNL Analytics] mit, dass die Referrer-Information in der Eigenschaft [!UICONTROL document.referrer] ignoriert und stattdessen ein anderer, von Ihnen definierter Wert verwendet werden soll.
 
 Daher muss die finale Version der Landingpage den folgenden Code enthalten, damit die Fehler im Szenario „Discount-Airline Tickets“ korrigiert werden können.
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
-Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) repräsentiert.
+Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) repräsentiert.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -170,7 +170,7 @@ Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugg
   </tr> 
   <tr> 
    <td> <p>Endgültige Landingpage-URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
+   <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Dieser Wert wird NICHT im DigitalPulse-Debugger angezeigt, wenn die Variable <span class="varname">pageURL</span> verwendet wird. </p> </td> 
   </tr> 
  </tbody> 
