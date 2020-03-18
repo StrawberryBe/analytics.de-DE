@@ -3,7 +3,7 @@ description: Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hin
 keywords: privacy
 title: Datenschutzübersicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Adobe empfiehlt Ihnen, dass Sie den Besuchern Ihrer Website leicht auffindbare und leicht verständliche Informationen darüber bereitstellen, wie sie sich von der Erfassung von Browserinformationen durch Adobe-Produkte und -Dienste ausschließen lassen können.
 
-Besucher können mehr darüber erfahren, wie Adobe im Allgemeinen die von ihm erfassten Informationen im [Adobe Datenschutzcenter](https://www.adobe.com/privacy.html)verwendet. Es ist Sache Ihres Unternehmens, anzugeben, wie Sie die Adobe-Produkte und -Dienste verwenden, da Ihre Organisation ausschließlich die Kontrolle darüber hat, wie die Adobe-Dienste implementiert werden. Sie sind selbst für die Erstellung Ihrer eigenen Datenschutzrichtlinien verantwortlich sowie für die Einhaltung Ihrer Datenschutzrichtlinien, die Einhaltung Ihres Servicevertrags mit Adobe und die Einhaltung jeglichen geltenden Rechts.
+Besucher können mehr darüber erfahren, wie Adobe die im [Adobe-Datenschutzzentrum](https://www.adobe.com/de/privacy.html) erfassten Informationen im Allgemeinen verwendet. Es ist Sache Ihres Unternehmens, ob Sie offenlegen möchten, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Dienste implementiert werden. Sie sind selbst für die Erstellung Ihrer eigenen Datenschutzrichtlinien verantwortlich sowie für die Einhaltung Ihrer Datenschutzrichtlinien, die Einhaltung Ihres Servicevertrags mit Adobe und die Einhaltung jeglichen geltenden Rechts.
 
 ## Aufschlüsselung der Datenerfassung {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -73,7 +73,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Analysen von Erstanbietern fallen nicht in den Anwendungsbereich des Selbstregulierungsprogramms für Online-verhaltensbasierte Werbung ("AdChoices"). </td> 
+   <td colname="col2"> Analysen von Erstanbietern sind nicht Teil des Self-Regulatory Program for Online Behavioral Advertising („AdChoices“). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -89,15 +89,15 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/de_DE/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://marketing.adobe.com/resources/help/de_DE/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/de_DE/reference/index.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungscode auf den Wert "none", "session"oder einen anderen, in Sekunden gemessenen Wert setzen. </td> 
+   <td colname="col2"> Ein Kunde kann die Variable für die Cookie-Lebensdauer im JavaScript-Messungs-Code auf den Wert „none“, „session“ oder einen anderen spezifischen, in Sekunden gemessenen Wert setzen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe hat eine neue Einstellung für den Schutz personenbezogener Daten entwickelt, die jetzt von Adobe ClientCare für Adobe Analytics (früher SiteCatalyst) in den Versionen 14.9 und 15.4 aktiviert werden kann. Wenn diese neue Einstellung aktiviert ist, wird das letzte Oktett (der letzte Teil) der IP-Adresse sofort durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. </td> 
+   <td colname="col2"> Adobe verfügt über eine neue Einstellung für eingebauten Datenschutz, die jetzt mit Adobe ClientCare für die Versionen 14.9 und 15.4 von Adobe Analytics (früher SiteCatalyst) aktiviert werden können. Ist diese neue Einstellung aktiviert, wird das letzte Oktett (der letzte Teil) der IP-Adresse unverzüglich durch den Wert 0 ersetzt, sobald die IP-Adresse von Adobe erfasst wird. Diese Anonymisierung wird vor der Verarbeitung der IP-Adresse durchgeführt, also auch vor einer optionalen Geo-Suche und ISP-Suche der IP-Adresse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Deutschland </td> 
