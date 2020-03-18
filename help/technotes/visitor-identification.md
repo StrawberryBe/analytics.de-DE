@@ -5,7 +5,7 @@ subtopic: Visitors
 title: Unique Visitors identifizieren
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics bietet verschiedene Mechanismen zur Identifizierung von Besucher
 | 1 | vid (s.visitorID) | s.visitorID festgelegt ist. |
 | 2 | aid (s_vi-Cookie) | der Besucher über bestehendes s_vi-Cookie verfügt, bevor Sie den Besucher-ID-Dienst bereitgestellt haben, oder wenn Sie eine Schonfrist für die Besucher-ID konfiguriert haben. |
 | 3 | mid (AMCV_-Cookie, der vom Experience Cloud-Besucher-ID-Dienst gesetzt wird) | der Browser des Besuchers Cookies (von Erstanbietern) akzeptiert. |
-| 4 | fid (Ausweichcookie) | der Browser des Besuchers Cookies (von Erstanbietern) akzeptiert. |
+| 4 | fid (Ausweich-Cookie) | der Browser des Besuchers Cookies (von Erstanbietern) akzeptiert. |
 | 5 | IP-Adresse, Benutzeragent, Gateway-IP-Adresse | der Browser des Besuchers keine Cookies akzeptiert. |
 
 In vielen Szenarien sehen Sie möglicherweise 2 oder 3 verschiedene IDs für einen Aufruf, jedoch verwendet Analytics die erste vorhandene ID aus der vorigen Tabelle als offizielle Besucher-ID. Wenn Sie zum Beispiel eine benutzerdefinierte Besucher-ID (im Abfrageparameter „vid“ enthalten) festlegen, wird diese ID vor anderen IDs verwendet, die möglicherweise bei dem gleichen Treffer vorhanden sind.
@@ -41,12 +41,12 @@ Wenn Sie die [!UICONTROL Besucher-IDs] Ihrer Benutzer ableiten und verwalten kö
 
 | Methode | Beschreibung |
 |---|---|
-| [Variable „s.visitorID“](../implement/vars/config-vars/visitorid.md) | Wenn JavaScript im Browser verwendet wird oder Sie eine andere AppMeasurement-Bibliothek verwenden, können Sie die Besucher-ID in einer Datenerfassungsvariablen festlegen. |
+| Variable [„s.visitorID“](../implement/vars/config-vars/visitorid.md) | Wenn JavaScript im Browser verwendet wird oder Sie eine andere AppMeasurement-Bibliothek verwenden, können Sie die Besucher-ID in einer Datenerfassungsvariablen festlegen. |
 | Abfragezeichenfolgenparameter in der Bildanforderung | Bei dieser Option können Sie die [!UICONTROL Besucher-ID] über den Abfragezeichenfolgenparameter [!UICONTROL vid] in einer fest programmierten Bildanforderung an Adobe übergeben. |
 | Dateneinfüge-API | Bei Geräten mit Wireless-Protokollen, die kein JavaScript akzeptieren, können Sie einen XML-Post mit dem XML-Element `<visitorid/>` von Ihren Servern an Adobe-Erfassungsserver senden. |
 | Umschreiben der URL und VISTA | Einige Implementierungsarchitekturen bieten Unterstützung für das Umschreiben von URLs an, damit der Sitzungsstatus auch dann aufrechterhalten werden kann, wenn das Setzen eines Cookies nicht möglich ist. In solchen Fällen kann Adobe Engineering Services eine [!DNL VISTA]-Regel implementieren, die nach dem Sitzungswert in der URL der Seite sucht und diesen dann formatiert und in die [!UICONTROL visid]-Werte einsetzt. |
 >[!CAUTION]
->**Benutzerspezifische Besucher-IDs müssen ausreichend granular/eindeutig sein **: Eine ungültige Implementierung benutzerspezifischer Besucher-IDs kann zu falschen Daten und schlechter Berichterstellung führen. Wenn die benutzerdefinierte Besucher-ID nicht eindeutig oder granular genug ist oder falsch auf einen allgemeinen Standardwert wie die Zeichenfolge „NULL“ bzw. „0“eingestellt ist, werden die Hits vieler verschiedener Besucher von Adobe Analytics als einzelner Besucher gewertet. Dies führt zu falschen Daten, da die Besucherzahlen zu niedrig sind und Segmente für diesen Besucher nicht richtig funktionieren. Eine nicht ausreichend granulare benutzerdefinierte Besucher-ID verhindert auch, dass die Daten ordnungsgemäß über Knoten im Analytics-Berichtscluster verteilt werden. In diesem Fall wird ein Knoten überlastet und kann Berichtsanforderungen nicht zeitnah verarbeiten. Schließlich schlägt die Berichterstellung für die Report Suite fehl.<br>Schlecht implementierte benutzerdefinierte Besucher-IDs wirken sich möglicherweise nicht sofort auf die Berichterstellungsleistung aus, da Analytics häufig unausgeglichene Daten aus mehreren Monaten verarbeiten kann. Im Laufe der Zeit kann ein schlecht implementierter benutzerdefinierter Besucher-ID-Wert jedoch so problematisch werden, dass Analytics die Verarbeitung für betroffene Report Suites deaktivieren muss.</br><br>Implementierer sollten die Richtlinie befolgen, wonach einem einzelnen benutzerdefinierten Besucher-ID-Wert nie mehr als 1 % des Traffics einer Report Suite zugerechnet werden sollte. Obwohl die Leitlinie von 1 % für die meisten Report Suites ausreicht, kann die tatsächliche Grenze, ab der die Berichtsleistung beeinträchtigt werden könnte, bei sehr großen Report Suites unter 1 % liegen.</br>
+>**Benutzerspezifische Besucher-IDs müssen ausreichend granular/eindeutig sein ** : Eine ungültige Implementierung benutzerspezifischer Besucher-IDs kann zu falschen Daten und schlechter Berichterstellung führen. Wenn die benutzerdefinierte Besucher-ID nicht eindeutig oder granular genug ist oder falsch auf einen allgemeinen Standardwert wie die Zeichenfolge „NULL“ bzw. „0“eingestellt ist, werden die Hits vieler verschiedener Besucher von Adobe Analytics als einzelner Besucher gewertet. Dies führt zu falschen Daten, da die Besucherzahlen zu niedrig sind und Segmente für diesen Besucher nicht richtig funktionieren. Eine nicht ausreichend granulare benutzerdefinierte Besucher-ID verhindert auch, dass die Daten ordnungsgemäß über Knoten im Analytics-Berichtscluster verteilt werden. In diesem Fall wird ein Knoten überlastet und kann Berichtsanforderungen nicht zeitnah verarbeiten. Schließlich schlägt die Berichterstellung für die Report Suite fehl.<br>Schlecht implementierte benutzerdefinierte Besucher-IDs wirken sich möglicherweise nicht sofort auf die Berichterstellungsleistung aus, da Analytics häufig unausgeglichene Daten aus mehreren Monaten verarbeiten kann. Im Laufe der Zeit kann ein schlecht implementierter benutzerdefinierter Besucher-ID-Wert jedoch so problematisch werden, dass Analytics die Verarbeitung für betroffene Report Suites deaktivieren muss.</br><br>Implementierer sollten die Richtlinie befolgen, wonach einem einzelnen benutzerdefinierten Besucher-ID-Wert nie mehr als 1 % des Traffics einer Report Suite zugerechnet werden sollte. Obwohl die Leitlinie von 1 % für die meisten Report Suites ausreicht, kann die tatsächliche Grenze, ab der die Berichtsleistung beeinträchtigt werden könnte, bei sehr großen Report Suites unter 1 % liegen.</br>
 
 ## Analytics-Besucher-ID
 
@@ -58,7 +58,7 @@ Wenn eine Anforderung an den Adobe-Datenerfassungsserver gesendet wird, wird gep
 
 Einige Browser, wie Apple Safari, speichern keine Cookies mehr, die im HTTP-Header gesetzt sind von Domänen, die nicht mit der Domäne der aktuellen Website übereinstimmen (dies ist ein Cookie, das in einem Drittanbieterkontext verwendet wird, bzw. ein Drittanbieter-Cookie). Wenn Ihre Domäne z. B. `mysite.com` ist und sich Ihr Datenerfassungsserver unter der Domäne `mysite.omtrdc.net` befindet, wird der von `mysite.omtrdc.net` im HTTP-Header zurückgegebene Cookie möglicherweise vom Browser abgewiesen.
 
-Um dies zu vermeiden, haben viele Kunden für ihre Datenerfassungsserver CNAME-Einträge als [Erstanbieter-Cookie-Implementierung](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/) implementiert. Wenn ein CNAME-Eintrag so konfiguriert wurde, dass ein Hostname unter der Domäne des Kunden einem Datenerfassungsserver zugeordnet wird (z. B. die Zuordnung von `metrics.mysite.com` zu `mysite.omtrdc.net`), wird der Besucher-ID-Cookie gespeichert, da die Datenerfassungsdomäne nun mit der Domäne der Website übereinstimmt. Somit besteht zwar eine höhere Wahrscheinlichkeit, dass das Besucher-ID-Cookie gespeichert wird, es entsteht jedoch auch etwas Mehraufwand, da CNAME-Einträge konfiguriert und SSL-Zertifikate für Datenerfassungsserver verwaltet werden müssen.
+Um dies zu vermeiden, haben viele Kunden für ihre Datenerfassungsserver CNAME-Einträge als [Erstanbieter-Cookie-Implementierung](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.translate.html) implementiert. Wenn ein CNAME-Eintrag so konfiguriert wurde, dass ein Hostname unter der Domäne des Kunden einem Datenerfassungsserver zugeordnet wird (z. B. die Zuordnung von `metrics.mysite.com` zu `mysite.omtrdc.net`), wird der Besucher-ID-Cookie gespeichert, da die Datenerfassungsdomäne nun mit der Domäne der Website übereinstimmt. Somit besteht zwar eine höhere Wahrscheinlichkeit, dass das Besucher-ID-Cookie gespeichert wird, es entsteht jedoch auch etwas Mehraufwand, da CNAME-Einträge konfiguriert und SSL-Zertifikate für Datenerfassungsserver verwaltet werden müssen.
 
 ### Cookies auf Mobilgeräten {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -68,7 +68,7 @@ Wenn Mobilgeräte anhand von Cookies nachverfolgt werden, können Sie den Ablauf
 
 Der Identitätsdienst ersetzt den bisher verwendeten Analytics-Besucher-ID-Mechanismus und ist für [!UICONTROL Heartbeat]-Videomessungen, Analytics für Target sowie zukünftige zentrale Dienste und Integrationen von Experience Cloud erforderlich.
 
-Die Produktdokumentation zu diesem Service finden Sie unter [Identitätsdienst](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+Die Produktdokumentation zu diesem Service finden Sie unter [Identitätsdienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/).
 
 ## Mobile Geräte identifizieren
 
