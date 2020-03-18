@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: Besuchermigration
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
@@ -16,11 +16,11 @@ Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu ei
 
 Besuchermigration lässt Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
-* Wechsel von `2o7.net` auf `omtrdc.net` ([regionale Datenerfassung](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* Wechsel von `2o7.net` auf `omtrdc.net` ([regionale Datenerfassung](https://marketing.adobe.com/resources/help/de_DE/whitepapers/rdc/)).
 
-* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/) und wechseln von einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext zu `2o7.net` oder `omtrdc.net` ([regionale Datenerfassung](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/) und wechseln von einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext zu `2o7.net` oder `omtrdc.net` ([regionale Datenerfassung](https://marketing.adobe.com/resources/help/de_DE/whitepapers/rdc/)).
 
-* Wechsel von `2o7.net` oder `omtrdc.net` zu einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)).
+* Wechsel von `2o7.net` oder `omtrdc.net` zu einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.translate.html)).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
@@ -39,7 +39,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domäne(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die sicheren und nicht sicheren Domänen mit einbeziehen. </p> </td> 
+   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html"  >Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domäne(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die sicheren und nicht sicheren Domänen mit einbeziehen. </p> </td> 
    <td colname="col3"> <p>Erstellen Sie eine Liste mit der <i>exakten</i> Syntax für die Domänen, zu denen und von denen migriert werden soll. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -48,11 +48,11 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 und mehr Stunden nach dem Konfigurationswechsel</b>: Aktualisieren Sie die Variablen <code> s.trackingServer</code> und <code> s.trackingServerSecure</code> in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. </p> </td> 
-   <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie einen [Paketmonitor](../implement/validate/packet-monitor.md), um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. </p> </td> 
+   <td colname="col3"> <p>Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie einen [Paketmonitor](../implement/validate/packet-monitor.md), um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungs-Server gesendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unmittelbar nach Aktualisierung Ihres Analytics-Code</b>: Testen Sie Ihre Website, um zu verifizieren, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie einen [Paketmonitor](../implement/validate/packet-monitor.md), um sicherzustellen, dass beim erstmaligen Zugriff auf Ihre Site oder nach dem Löschen von Cookies zwei 302 (Weiterleitung) HTTP-Statuscodes vor dem 200 (OK)-HTTP-Statuscode angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
+   <td colname="col3"> <p>Verwenden Sie einen [Paketmonitor](../implement/validate/packet-monitor.md), um zu verifizieren, dass beim erstmaligen Zugriff auf Ihre Website bzw. nach dem Löschen von Cookies zwei HTTP-Status-Codes „302“ (Redirect) vor dem HTTP-Status-Code „200“ (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Im gesamten Migrationszeitraum</b>: Belassen Sie den DNS-Eintrag für den vorherigen Hostnamen weiterhin aktiviert. </p> </td> 
