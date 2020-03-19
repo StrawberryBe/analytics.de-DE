@@ -1,8 +1,8 @@
 ---
 title: getPercentPageViewed
-description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher aufgerufen hat.
+description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher angezeigt hat.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. Dieses Plug-in ist nicht erforderlich, wenn Ihre Seiten klein sind oder die Bildlaufaktivität nicht gemessen werden soll.
+The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. Dieses Plug-in ist nicht erforderlich, wenn Ihre Seiten klein sind oder die Aktivität des Bildlaufs nicht gemessen werden soll.
 
 ## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
 
@@ -19,14 +19,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,17 +45,17 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 Die `getPercentPageViewed` Methode verwendet die folgenden Argumente:
 
-* **`pid`**(optional, Zeichenfolge):  Ein seitenbasierter Identifikator, den Sie mit den Prozentsätzen korrelieren können, die durch die Messungen des Plug-Ins bereitgestellt werden.  Die Standardeinstellung ist die`pageName`Variable.
-* **`ch`**(optional, boolean):  Setzen Sie dies auf`false`(oder`0`), wenn Sie nicht möchten, dass das Plug-In Änderungen berücksichtigt, die nach dem ersten Laden an der Größe einer Seite vorgenommen wurden. Wenn dieses Argument weggelassen wird, wird standardmäßig`true`verwendet. Adobe empfiehlt, dieses Argument in den meisten Fällen wegzulassen.
+* **`pid`** (optional, Zeichenfolge):  Ein seitenbasierter Identifikator, den Sie mit den Prozentsätzen korrelieren können, die durch die Messungen des Plug-Ins bereitgestellt werden.  Die Standardeinstellung ist die `pageName` Variable.
+* **`ch`** (optional, boolean):  Setzen Sie dies auf `false` (oder `0`), wenn Sie nicht möchten, dass das Plug-In Änderungen berücksichtigt, die nach dem ersten Laden an der Größe einer Seite vorgenommen wurden. Wenn dieses Argument weggelassen wird, wird standardmäßig `true`verwendet. Adobe empfiehlt, dieses Argument in den meisten Fällen wegzulassen.
 
-Der Aufruf dieser Methode gibt nichts zurück. stattdessen werden die folgenden Variablen festgelegt:
+Der Aufruf dieser Methode gibt nichts zurück. Stattdessen werden die folgenden Variablen festgelegt:
 
 * `s._ppvPreviousPage`: Der Name der vorherigen angezeigten Seite. Abschließende Bildlaufmessungen für die aktuelle Seite sind erst verfügbar, nachdem eine neue Seite geladen wurde.
-* `s._ppvHighestPercentViewed`: Der höchste Prozentsatz der vorherigen Seite, die der Besucher angezeigt hat (im Höhenbereich). Der am weitesten entfernte Punkt, zu dem der Besucher auf der vorherigen Seite nach unten blätterte.
+* `s._ppvHighestPercentViewed`: Der höchste Prozentsatz der vorherigen Seite, die der Besucher angezeigt hat (im Höhenbereich). Der am weitesten entfernte Punkt, zu dem der Besucher auf der vorherigen Seite einen Bildlauf durchgeführt hat.
 * `s._ppvInitialPercentViewed`: Der Prozentsatz der vorherigen Seite, der beim ersten Laden der vorherigen Seite angezeigt wurde.
 * `s._ppvHighestPixelsSeen`: Die höchste Anzahl der insgesamt angesehenen Pixel (in der Höhe), während der Besucher einen Bildlauf auf der vorherigen Seite ausgeführt hat.
-* `s._ppvFoldsSeen`: Die höchste Anzahl an &quot;Seitenfalzen&quot;wurde erreicht, als der Besucher die vorherige Seite herunterscrollte. Diese Variable enthält den &quot;Anfang der Seite&quot;.
-* `s._ppvFoldsAvailable`: Die Anzahl der insgesamt verfügbaren &quot;Seitenfalts&quot;, die auf der vorherigen Seite nach unten blättern können.
+* `s._ppvFoldsSeen`: Die höchste Anzahl an &quot;Seitenfalten&quot;wurde erreicht, als der Besucher auf der vorherigen Seite einen Bildlauf nach unten durchlief. Diese Variable enthält den &quot;Anfang der Seite&quot;.
+* `s._ppvFoldsAvailable`: Die Anzahl der insgesamt verfügbaren &quot;Seitenfalts&quot;, die auf der vorherigen Seite nach unten durchlaufen werden können.
 
 Weisen Sie eine oder mehrere dieser Variablen eVars zu, um Dimensionsdaten in Berichten anzuzeigen.
 
@@ -80,9 +80,9 @@ if(s._ppvPreviousPage)
 * Wenn die Funktion getPercentPageViewed ausgeführt wird, erstellt sie die Variablen, die oben im Abschnitt &quot;Rückgaben&quot;beschrieben werden
 * Wenn die Variablen &quot;Rückgaben&quot;erfolgreich eingestellt wurden:
    * Der Code setzt s.prop1 gleich dem Wert von s._ppvPreviousPage (d. h. dem vorherigen Wert von s.pageName oder der vorherigen Seite)
-   * Der Code legt außerdem s.prop2 so fest, dass er dem höchsten angesehenen Prozentsatz der vorherigen Seite und dem ersten Prozent der vorherigen Seite entspricht, zusammen mit der Anzahl der Ordner, die der Besucher erreicht hat, und der Anzahl der verfügbaren Ordner
+   * Der Code legt außerdem s.prop2 so fest, dass er dem höchsten Prozentsatz der vorherigen Seite und dem ersten Prozent der vorherigen Seite entspricht, zusammen mit der Anzahl der Ordner, die der Besucher erreicht hat, und der Anzahl der verfügbaren Falten
 
-**Hinweis**:  Wenn beim ersten Laden eine ganze Seite sichtbar ist, sind sowohl die Dimensionen &quot;Höchster Prozentsatz angezeigt&quot;als auch &quot;Anfänglicher Prozentsatz angezeigt&quot;gleich 100 und sowohl die Dimensionen &quot;Angezeigte Ordner&quot;als auch &quot;Verfügbare Ordner&quot;gleich 1.   Wenn eine ganze Seite beim ersten Laden NICHT sichtbar ist, der Besucher jedoch nie nach unten blättert, bevor er zur nächsten Seite wechselt, dann sind sowohl die Dimensionen &quot;Höchster Prozentsatz angezeigt&quot;als auch &quot;Anfänglicher Prozentsatz angezeigt&quot;gleich demselben Wert.
+**Hinweis**:  Wenn beim ersten Laden eine ganze Seite sichtbar ist, sind sowohl die Dimensionen &quot;Höchster Prozentsatz angezeigt&quot;als auch &quot;Anfänglicher Prozentsatz angezeigt&quot;gleich 100 und sowohl die Dimensionen &quot;Angezeigte Ordner&quot;als auch &quot;Verfügbare Ordner&quot;gleich 1.   Wenn eine ganze Seite beim ersten Laden NICHT sichtbar ist, der Besucher jedoch nie nach unten scrollt, bevor er zur nächsten Seite wechselt, dann sind sowohl die Dimensionen &quot;Höchster Prozent angezeigt&quot;als auch &quot;Anfänglicher Prozentsatz angezeigt&quot;gleich demselben Wert.
 
 ### Beispiel 2
 
