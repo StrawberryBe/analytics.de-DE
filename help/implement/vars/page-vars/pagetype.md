@@ -1,7 +1,7 @@
 ---
 title: pageType
 description: Stellen Sie fest, ob es sich bei der aktuellen Seite um einen 404-Fehler handelt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,20 +9,20 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # pageType
 
-Die `pageType` Variable ist ein Flag, mit dem Sie Fehlerseiten auf Ihrer Site angeben können, z. B. 404-Fehler. Wenn diese Variable die Zeichenfolge enthält, `errorPage`wird die Dimension &quot;Seiten nicht gefunden&quot;gefüllt.
+Die `pageType`-Variable ist eine Markierung, mit der Sie Fehlerseiten (wie z. B. 404-Fehler) auf Ihrer Website angeben können. Wenn diese Variable die Zeichenfolge `errorPage` enthält, wird die Dimension „Seiten nicht gefunden“ gefüllt.
 
 > [!IMPORTANT] Legen Sie diese Variable nicht auf Seiten ohne Fehler fest.
 
-## Seitentyp beim Starten der Adobe Experience Platform
+## Seitentyp in Adobe Experience Platform Launch
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.pageType in AppMeasurement und Starten des benutzerdefinierten Code-Editors
+## s.pageType in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.pageType` Variable ist eine Zeichenfolge, bei der der Wert der einzige gültige Wert `errorPage` ist. Setzen Sie diese Variable auf diesen Wert auf jeder Fehlerseite Ihrer Site, z. B. auf 404 Seiten.
+Die `s.pageType`-Variable ist eine Zeichenfolge, bei der der `errorPage`-Wert der einzige gültige Wert ist. Setzen Sie diese Variable auf diesen Wert auf jeder Fehlerseite Ihrer Website, z. B. auf 404-Seiten.
 
 ```js
 s.pageType = "errorPage";
 ```
 
-> [!TIP] Verwenden Sie eine eVar, um den Fehlercode zu erfassen, damit Sie weitere Informationen zu spezifischen Fehlern erhalten, auf die Besucher Ihrer Site stoßen.
+> [!TIP] Verwenden Sie eine eVar, um den Fehlercode zu erfassen, damit Sie weitere Informationen zu spezifischen Fehlern erhalten, auf die Besucher Ihrer Website stoßen.
