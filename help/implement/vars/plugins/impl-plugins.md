@@ -2,18 +2,18 @@
 title: Übersicht über Zusatzmodule
 description: Fügen Sie Code auf Ihrer Site ein, um neue Funktionen einzuführen.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Übersicht über Zusatzmodule
 
-Plug-ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ihre Analytics-Implementierung zu unterstützen. Diese Plug-ins erweitern den Funktionsumfang Ihrer JavaScript-Datei um Funktionen, die bei einer Basisimplementierung nicht vorhanden sind. Im Rahmen erweiterter Lösungen bietet Adobe noch andere Plug-ins an.
+Plug-Ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ihre Analytics-Implementierung zu unterstützen. Diese Plug-ins erweitern den Funktionsumfang Ihrer JavaScript-Datei um Funktionen, die bei einer Basisimplementierung nicht vorhanden sind. Im Rahmen erweiterter Lösungen bietet Adobe noch andere Plug-ins an.
 
 > [!IMPORTANT] Plug-ins werden von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Die Adobe-Kundenunterstützung bietet keine Unterstützung für diese Plug-ins, einschließlich Installation oder Fehlerbehebung. Wenn Sie Hilfe bei einem Plug-In benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-Adobe bietet mehrere Möglichkeiten, ein bestimmtes Plug-In zu installieren:
+Adobe Angebots bietet mehrere Möglichkeiten, ein bestimmtes Plug-In zu installieren:
 
 1. Verwenden Sie die Erweiterung &quot;Common Analytics Plugins&quot;mit Adobe Experience Platform Launch
 2. Fügen Sie Plug-in-Code mit dem Editor Benutzerdefinierten Code starten ein.
@@ -21,7 +21,7 @@ Adobe bietet mehrere Möglichkeiten, ein bestimmtes Plug-In zu installieren:
 
 Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie entscheiden können, wie Sie sie in Ihre Implementierung einbeziehen möchten. Stellen Sie sicher, dass Sie die folgenden Kriterien erfüllen, wenn Sie den Code auf Ihrer Site einbeziehen:
 
-1. Instanziieren Sie zuerst das Analytics-Verfolgungsobjekt (unter Verwendung `s_gi`).
+1. Instanziieren Sie zuerst das Analytics-Verfolgungsobjekt (unter Verwendung [`s_gi`](../functions/s-gi.md)).
    * Beim Laden von Adobe Analytics wird das Verfolgungsobjekt automatisch instanziiert.
    * Implementierungen, bei denen das Verfolgungsobjekt `AppMeasurement.js` normalerweise oben in der JavaScript-Datei initialisiert wird.
 2. Fügen Sie Plug-in-Code Sekunde ein.
