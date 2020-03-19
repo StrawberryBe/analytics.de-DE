@@ -2,27 +2,27 @@
 title: trackingServerSecure
 description: Stellen Sie fest, wo Bildanforderungen auf HTTPS-Seiten gesendet werden.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # trackingServerSecure
 
-Adobe erfasst Daten auf Ihrer Site, indem es eine vom Besucher erstellte Bildanforderung empfängt. Die `trackingServerSecure` Variable bestimmt den Ort, an dem eine Bildanforderung über HTTPS gesendet wird. Außerdem wird festgelegt, an welchem Ort die Cookies von Besuchern gespeichert werden. Wenn diese Variable nicht richtig definiert ist, kann es bei Ihrer Implementierung zu Datenverlusten kommen.
+Adobe erfasst Daten auf Ihrer Site, indem eine vom Besucher generierte Bildanforderung empfangen wird. Die `trackingServerSecure` Variable bestimmt den Ort, an dem eine Bildanforderung über HTTPS gesendet wird. Er legt auch fest, wo Besucher-Cookies gespeichert werden. Wenn diese Variable nicht richtig definiert ist, kann es bei Ihrer Implementierung zu Datenverlusten kommen.
 
-> [!IMPORTANT] Wenn Sie diesen Wert ändern, sucht AppMeasurement an einem anderen Ort nach Cookies. Die Anzahl individueller Besucher kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besuchercookies an der neuen Position eingestellt werden.
+> [!IMPORTANT] Wenn Sie diesen Wert ändern, sucht AppMeasurement an einem anderen Ort nach Cookies. Die Anzahl der individuellen Besucher kann vorübergehend zu einer Spitze des Berichte führen, wenn Besucher-Cookies an der neuen Position gesetzt werden.
 
 ## SSL-Tracking-Server beim Start der Adobe Experience Platform
 
-[!UICONTROL SSL-Tracking-Server] ist ein Feld unter dem Akkordeon &quot; [!UICONTROL Allgemein] &quot;beim Konfigurieren der Adobe Analytics-Erweiterung.
+[!UICONTROL SSL Tracking Server] ist ein Feld unter dem [!UICONTROL General] Akkordeon, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-4. Erweitern Sie das Akkordeon &quot; [!UICONTROL Allgemein] &quot;, das das Feld &quot; [!UICONTROL SSL-Tracking-Server] &quot;anzeigt.
+3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+4. Erweitern Sie das [!UICONTROL General] Akkordeon, das das [!UICONTROL SSL Tracking Server] Feld aufdeckt.
 
-Wenn dieses Feld leer gelassen wird, wird standardmäßig der Wert in der `trackingServer` Variablen verwendet.
+Wenn dieses Feld leer gelassen wird, wird standardmäßig der Wert in der [`trackingServer`](trackingserver.md) Variablen verwendet.
 
 ## s.trackingServerSecure in AppMeasurement und Benutzerdefinierter Code-Editor starten
 
