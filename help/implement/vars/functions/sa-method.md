@@ -2,18 +2,18 @@
 title: sa
 description: Ändern Sie die Report Suite jederzeit in Ihrer Implementierung.
 translation-type: tm+mt
-source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # sa
 
-Mit der `sa` Methode können Sie eine Report Suite jederzeit auf der Seite dynamisch ändern. Wenn Sie Daten ohne Seitenneuladung an andere Report Suites senden möchten, können Sie diese Methode verwenden.
+Mit der `sa()` Methode können Sie eine Report Suite jederzeit auf der Seite dynamisch ändern. Wenn Sie Daten ohne Seitenneuladung an andere Report Suites senden möchten, können Sie diese Methode verwenden.
 
 ## Verwenden der sa-Methode beim Starten der Adobe Experience Platform
 
-Es gibt keine flexible Möglichkeit, Report Suite in der Oberfläche zu ändern. Sie können die Report Suite beim Konfigurieren der Adobe Analytics-Erweiterung im Akkordeon &quot; [!UICONTROL Bibliotheksverwaltung] &quot;festlegen. Sie können die Report Suite jedoch nicht mithilfe von Regeln ändern oder aktualisieren. Wenn Sie die Report Suite-Werte nach dem Festlegen aktualisieren möchten, verwenden Sie den benutzerdefinierten Code-Editor nach der AppMeasurement-Syntax.
+Es gibt keine flexible Möglichkeit, Report Suite in der Oberfläche zu ändern. Sie können die Report Suite beim Konfigurieren der Adobe Analytics-Erweiterung unter dem [!UICONTROL Library Management] Akkordeon einstellen. Sie können die Report Suite jedoch nicht mithilfe von Regeln ändern oder aktualisieren. Wenn Sie die Report Suite-Werte nach dem Festlegen aktualisieren möchten, verwenden Sie den benutzerdefinierten Code-Editor nach der AppMeasurement-Syntax.
 
 ## s.sa() in AppMeasurement und Starten des benutzerdefinierten Code-Editors
 
