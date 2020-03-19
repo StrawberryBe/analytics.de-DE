@@ -1,7 +1,7 @@
 ---
 title: transactionID
-description: Verwenden Sie diese Variable, um Online- und Offlinedaten miteinander zu verknüpfen.
-translation-type: tm+mt
+description: Verwenden Sie diese Variable, um Online- und Offline-Daten miteinander zu verknüpfen.
+translation-type: ht
 source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 ---
@@ -9,39 +9,39 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 # transactionID
 
-Die `transactionID` Variable identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Data Sources hochgeladen wurden. Diese Variable ist nützlich, wenn Sie Daten aus anderen Kanälen verwenden und mit mit AppMeasurement erfassten Daten verknüpfen möchten.
+Die `transactionID`-Variable identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Data Sources hochgeladen wurden. Diese Variable ist nützlich, wenn Sie Daten aus anderen Kanälen verwenden und mit Daten verknüpfen möchten, die mit AppMeasurement erfasst werden.
 
-> [!NOTE] Stellen Sie sicher, dass der [!UICONTROL Transaktions-ID-Speicher] in einer Report Suite aktiviert ist, bevor Sie diese Variable verwenden. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
+> [!NOTE] Stellen Sie sicher, dass der [!UICONTROL Transaktions-ID-Speicher] in einer Report Suite aktiviert ist, bevor Sie diese Variable verwenden. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md).
 
-Wenn Sie `transactionID` bei einem Treffer festlegen, erstellt Adobe einen &quot;Schnappschuss&quot;aller zu diesem Zeitpunkt festgelegten oder beständigen Analytics-Variablen. Daten, die über Data Sources mit einer übereinstimmenden Transaktions-ID hochgeladen wurden, sind dauerhaft mit diesen Variablenwerten verknüpft.
+Wenn Sie `transactionID` für einen Treffer festlegen, erstellt Adobe einen „Schnappschuss“ aller zu diesem Zeitpunkt festgelegten oder beibehaltenen Analytics-Variablen. Daten, die über Data Sources mit einer übereinstimmenden Transaktions-ID hochgeladen wurden, sind dauerhaft mit diesen Variablenwerten verknüpft.
 
-Adobe speichert standardmäßig alle Transaktions-ID-Werte (verknüpft und nicht verknüpft) bis zu 90 Tage lang. Wenn Ihr Offline-Interaktionsprozess länger als 90 Tage ist, wenden Sie sich an den Kundendienst, um diese Beschränkung zu verlängern.
+Adobe speichert standardmäßig alle (verknüpfte und nicht verknüpfte) Transaktions-ID-Werte bis zu 90 Tage lang. Wenn die Offline-Interaktion länger als 90 Tage dauert, lassen Sie diese Zeitspanne vom Kundendienst verlängern.
 
-## Transaktions-ID beim Starten der Adobe Experience Platform
+## Transaktions-ID in Adobe Experience Platform Launch
 
 Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Aktionen]auf eine bestehende Aktion [!UICONTROL Adobe Analytics - Set Variables] , oder klicken Sie auf das Pluszeichen.
-5. Legen Sie das [!UICONTROL Erweiterungs] -Dropdownmenü auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf Variablen [!UICONTROL festlegen]fest.
-6. Suchen Sie den Abschnitt [!UICONTROL Transaktions-ID] .
+4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
+5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
+6. Suchen Sie den Abschnitt [!UICONTROL Transaktions-ID].
 
-Sie können die Transaktions-ID auf einen beliebigen Zeichenfolgenwert, einschließlich Datenelementen, setzen.
+Sie können die Transaktions-ID auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
 
-## s.transactionID in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.transactionID in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.transactionID` Variable ist eine Zeichenfolge, die einen eindeutigen Bezeichner für eine Transaktion enthält. Gültige Werte sind alphanumerische Zeichen mit einer Länge von bis zu 100 Byte. Der Standardwert ist eine leere Zeichenfolge.
+Die `s.transactionID`-Variable ist eine Zeichenfolge, die eine eindeutige Kennung für eine Transaktion enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Der Standardwert ist eine leere Zeichenfolge.
 
 ```js
 s.transactionID = "ABC123";
 ```
 
-Wenn Sie mehr als eine Transaktions-ID für einen Treffer haben, können Sie jede durch ein Komma trennen. Für mehrere Transaktions-IDs gilt weiterhin der Grenzwert von 100 Byte.
+Wenn Sie mehr als eine Transaktions-ID für einen Treffer haben, können Sie diese mit einem Komma trennen. Für mehrere Transaktions-IDs gilt weiterhin die 100-Byte-Grenze.
 
 ```js
 s.transactionID = "ABC123,XYZ456";
 ```
 
-> [!NOTE] Wenn Sie mit dieser Variablen mehrere Offlinekanäle integrieren, stellen Sie sicher, dass sich die Transaktions-IDs nicht in verschiedenen Kanälen überschneiden. Wenn Sie z. B. einen Transaktions-ID-Wert für Call-Center `1234` und einen Wert für die Transaktions-ID für Verkaufsgespräche `1234`haben, kann dies zu Konflikten und unerwarteten Ergebnissen führen. Stellen Sie sicher, dass Transaktions-IDs eindeutige Formate pro Offlinekanal enthalten, und unterscheiden Sie diese bei Bedarf. Legen Sie z. B. Ihre Call-Center-Transaktions-ID und Ihre Verkaufs-Interessenten-Transaktions-ID `call_1234` `lead_1234` in Data Sources und AppMeasurement fest.
+> [!NOTE] Wenn Sie mit dieser Variablen mehrere Offline-Kanäle integrieren, stellen Sie sicher, dass sich die Transaktions-IDs nicht in verschiedenen Kanälen überschneiden. Wenn Sie beispielsweise eine Call-Center-Transaktions-ID mit dem Wert `1234` und eine Verkaufs-Lead-Transaktions-ID mit dem Wert `1234` haben, können sie miteinander in Konflikt geraten und unerwartete Ergebnisse verursachen. Stellen Sie sicher, dass Transaktions-IDs eindeutige Formate pro Offline-Kanal enthalten, und unterscheiden Sie diese bei Bedarf. Setzen Sie z. B. Ihre Call-Center-Transaktions-ID `call_1234` und Ihre Verkaufs-Lead-Transaktions-ID `lead_1234` sowohl in Data Sources als auch in AppMeasurement.
