@@ -2,7 +2,7 @@
 title: registerPreTrackCallback
 description: Erstellen Sie Rückruffunktionen, bevor Sie einen Treffer an Adobe senden.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 Mit der `registerPreTrackCallback` Variablen kann Ihr Unternehmen eine JavaScript-Funktion verbinden, nachdem eine Bildanforderungs-URL kompiliert wurde, aber bevor sie gesendet wird. Mit dieser Variablen können Sie von AppMeasurement erfasste Daten an einen Partner oder eine interne Infrastruktur senden.
 
-> [!IMPORTANT] Rufen Sie keine Verfolgungsfunktionen wie `t` oder `tl` innerhalb der `registerPostTrackCallback` Variablen auf. Tracking-Funktionen in dieser Variablen verursachen eine unendliche Schleife von Bildanforderungen!
+> [!IMPORTANT] Rufen Sie keine Verfolgungsaufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der [`registerPostTrackCallback`](registerposttrackcallback.md) Variablen auf. Tracking-Funktionen in dieser Variablen verursachen eine unendliche Schleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPreTrackCallback` Variable aufrufen, stellen Sie eine Verknüpfung zu dieser Funktion her, um sie bei jeder Kompilierung der URL einer Bildanforderung auszuführen. Vermeiden Sie es, dieselbe Funktion mehrmals beim Laden derselben Seite zu registrieren.
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-Zusätzliche Argumente können in die `s.registerPreTrackCallback` Funktion aufgenommen werden, die in der verschachtelten Funktion verwendet werden kann:
+Sie können zusätzliche Argumente in die `s.registerPreTrackCallback` Funktion einfügen, die in der verschachtelten Funktion verwendet werden kann:
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] Das Festlegen von Seitenvariablen oder das Ändern der `requestUrl` Zeichenfolge in dieser Funktion hat *keine* Auswirkungen auf die Bildanforderung, die kurz nach diesem Funktionsaufruf gesendet wird.
+> [!NOTE] Das Festlegen von Seitenvariablen oder das Ändern der `requestUrl` Zeichenfolge in dieser Funktion hat **keine** Auswirkungen auf die Bildanforderung, die kurz nach diesem Funktionsaufruf gesendet wird. Verwenden Sie stattdessen die [`doPlugins()`](doplugins.md) Variable.
