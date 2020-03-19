@@ -1,7 +1,7 @@
 ---
 title: Hash-Kollisionen
 description: Beschreibt, was eine Hash-Kollision ist und wie sie sich manifestieren kann.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,18 +9,18 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Hash-Kollisionen
 
-Adobe behandelt prop- und eVar-Werte als Zeichenfolgen, auch wenn der Wert eine Zahl ist. Manchmal sind diese Zeichenfolgen Hunderte von Zeichen lang, manchmal sind sie kurz. Um Platz zu sparen, die Leistung zu verbessern und alles einheitlich zu gestalten, werden die Zeichenfolgen nicht direkt in der Verarbeitung verwendet. Stattdessen wird für jeden Wert ein 32-Bit- oder 64-Bit-Hash berechnet. Alle Berichte werden mit diesen Hash-Werten ausgeführt, wobei jeder Hash durch den Originaltext ersetzt wird. Hashes erhöhen die Leistung von Analytics-Berichten drastisch.
+Adobe behandelt prop- und eVar-Werte als Zeichenfolgen, auch wenn der Wert eine Zahl ist. Manchmal sind diese Zeichenfolgen Hunderte von Zeichen lang, manchmal sind sie kurz. Um Platz zu sparen, die Performance zu verbessern und alles einheitlich zu gestalten, werden die Zeichenfolgen nicht direkt in der Verarbeitung verwendet. Stattdessen wird für jeden Wert ein 32-Bit- oder 64-Bit-Hash berechnet. Alle Berichte werden mit diesen Hash-Werten ausgeführt, wobei jeder Hash durch den Originaltext ersetzt wird. Hashes erhöhen die Performance von Analytics-Berichten drastisch.
 
-Bei den meisten Feldern wird die Zeichenfolge zuerst komplett in Kleinschreibung konvertiert (reduziert die Anzahl einzigartiger Werte). Hash-Werte werden auf Monatsbasis vergeben (bei der ersten Anzeige pro Monat). Von Monat zu Monat besteht die kleine Möglichkeit, dass zwei einzigartige Variablenwerte denselben Wert hash. This concept is known as a *hash collision*.
+Bei den meisten Feldern wird die Zeichenfolge zuerst komplett in Kleinschreibung konvertiert (reduziert die Anzahl einzigartiger Werte). Hash-Werte werden auf Monatsbasis vergeben (bei der ersten Anzeige pro Monat). Von Monat zu Monat besteht eine geringe Wahrscheinlichkeit, dass zwei eindeutige Variablenwerte denselben Wert haben. Dieses Konzept wird als *Hash-Kollision* bezeichnet.
 
 Hash-Kollisionen können sich wie folgt im Bericht manifestieren:
 
 * Wenn Sie einen Trend für einen Wert erstellen und in einem Monat eine Spitze verzeichnen, haben vermutlich andere Werte für diese Variable denselben Hash-Wert erhalten wie der Wert, den Sie gerade prüfen.
 * Dasselbe passiert mit Segmenten für einen bestimmten Wert.
 
-## Beispiel für Hash-Kollision
+## Beispiel einer Hash-Kollision
 
-Die Wahrscheinlichkeit von Hash-Kollisionen steigt analog zur Anzahl an einzigartigen Werten in einer Dimension. Beispielsweise könnte einer der Werte, die gegen Ende des Monats eingehen, denselben Hash-Wert erhalten, der bereits einem anderen Wert in diesem Monat zugewiesen wurde. Im folgenden Beispiel wird erläutert, wie sich die Segmentergebnisse ändern können. Nehmen wir an, eVar62 wird am 18. Februar den Wert 100 zugewiesen. Analytics pflegt eine Tabelle, die wie folgt aussehen kann:
+Die Wahrscheinlichkeit von Hash-Kollisionen steigt mit der Anzahl der eindeutigen Werte in einer Dimension. Beispielsweise könnte einer der Werte, die gegen Ende des Monats eingehen, denselben Hash-Wert erhalten, der bereits einem anderen Wert in diesem Monat zugewiesen wurde. Die folgenden Beispiele veranschaulichen, wie sich dies auf Segmentergebnisse auswirken kann. Nehmen wir an, eVar62 wird am 18. Februar den Wert 100 zugewiesen. Analytics pflegt eine Tabelle, die wie folgt aussehen kann:
 
 <table id="table_6A49D1D5932E485DB2083154897E5074"> 
  <thead> 
