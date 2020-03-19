@@ -1,7 +1,7 @@
 ---
 title: Paket-Analyzer
-description: Mit Paketanalysatoren können Sie die Daten anzeigen, die Ihre Implementierung an Adobe-Datenerfassungsserver sendet.
-translation-type: tm+mt
+description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Paket-Analyzer
 
-Mit Paketanalysatoren können Sie die Daten anzeigen, die Ihre Implementierung an Adobe-Datenerfassungsserver sendet.
+Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
 
-Ähnlich wie beim Adobe Experience Cloud-Debugger zeigt ein Paketmonitor an, welche Datenparameter in einer Bildanforderung weitergegeben werden. Paketmonitore bieten jedoch zusätzliche Funktionen:
+Ähnlich dem Adobe Experience Cloud-Debugger zeigen Paketmonitore an, welche Datenparameter bei einer Bildanforderung übertragen werden. Paketmonitore bieten jedoch zusätzliche Funktionen:
 
 * Anzeige von Bildanforderungen aus benutzerspezifischen Linktracking
 * Anzeige von Bildanforderungen mit anderen Implementierungsmethoden als JavaScript (wie z. B. fest programmierte Bildanforderungen oder [!DNL Appmeasurement])
@@ -38,7 +38,7 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 
 Der Grund für diesen Fehler liegt darin, dass die zur Linktracking dienende Bildanforderung es dem Browser erlauben soll, zur nächsten Seite zu wechseln, ohne auf eine Antwort von den Datenerfassungsservern von Adobe warten zu müssen.
 
-Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]**oder**[!UICONTROL  NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei unserem Server angekommen sind. Dann besteht kein Grund mehr, die Seite noch länger warten zu lassen.
+Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]** oder **[!UICONTROL NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei unserem Server angekommen sind. Dann besteht kein Grund mehr, die Seite noch länger warten zu lassen.
 
 Für Paketmonitore, die als Plug-in integriert sind, ist selten die vollständige Antwort sichtbar. Monitore neigen dazu, die Anforderung als abgebrochen zu betrachten, da die vollständige Antwort nicht erhalten wurde. Diese Monitore machen außerdem sehr selten die Unterscheidung, ob die Anforderung oder die Antwort abgebrochen wurde. Eigenständige Paketmonitore verfügen dagegen meist über detailliertere Informationen und melden daher den Status exakter. Beispiel: Ein Benutzer erhält in *Charles* eine Meldung, die besagt, dass der Client die Verbindung abgebrochen hat, bevor eine vollständige Antwort erhalten wurde. Das bedeutet, die Daten haben unsere Server erreicht, aber der Browser ist bereits auf der nächsten Seite, bevor das 1x1-Pixel erhalten wurde.
 
