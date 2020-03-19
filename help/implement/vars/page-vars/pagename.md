@@ -2,7 +2,7 @@
 title: pageName
 description: Der Name der Seite auf Ihrer Site.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ Die `pageName` Variable speichert normalerweise den Namen einer bestimmten Seite
 
 > [!NOTE] Diese Dimension wird immer aus Linktracking-Aufrufen entfernt. Wenn Sie den Seitennamen sehen möchten, auf dem ein Link verfolgt wurde, sollten Sie diese Variable in eine eVar kopieren.
 
-Wenn diese Variable bei einem gegebenen Seitenverfolgungsaufruf nicht definiert ist, wird stattdessen die `pageURL` Variable verwendet.
+Wenn diese Variable bei einem gegebenen Seitenverfolgungsaufruf nicht definiert ist, wird stattdessen die [`pageURL`](pageurl.md) Variable verwendet.
 
 ## Seitenname beim Start der Adobe Experience Platform
 
@@ -21,10 +21,10 @@ Sie können den Seitennamen entweder beim Konfigurieren der Analytics-Erweiterun
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Aktionen]auf eine bestehende Aktion [!UICONTROL Adobe Analytics - Set Variables] , oder klicken Sie auf das Pluszeichen.
-5. Legen Sie das [!UICONTROL Erweiterungs] -Dropdownmenü auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf Variablen [!UICONTROL festlegen]fest.
-6. Suchen Sie den Abschnitt [!UICONTROL Seitenname] .
+3. Gehen Sie zur [!UICONTROL Rules] Registerkarte und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+4. Klicken Sie [!UICONTROL Actions]unter &quot;auf eine bestehende [!UICONTROL Adobe Analytics - Set Variables] Aktion&quot;oder auf das Symbol &quot;+&quot;.
+5. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und [!UICONTROL Action Type] auf [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Page name] section.
 
 Sie können den Seitennamen auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
 
