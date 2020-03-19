@@ -2,16 +2,16 @@
 title: linkTrackVars
 description: Geben Sie an, welche Variablen in Bildanforderungen zur Linktracking einbezogen werden sollen.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackVars
 
-Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen zur Linktracking einbeziehen. Verwenden Sie die Variablen `linkTrackVars` und `linkTrackEvents` , um Dimensionen und Metriken selektiv in `tl()` Aufrufe einzubeziehen.
+Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen zur Linktracking einbeziehen. Verwenden Sie die Variablen `linkTrackVars` und [`linkTrackEvents`](linktrackevents.md) , um Dimensionen und Metriken selektiv in [`tl()`](../functions/tl-method.md) Aufrufe einzubeziehen.
 
-Diese Variable wird nicht für Seitenansichtsaufrufe (`t()` Funktion) verwendet.
+Diese Variable wird nicht für Aufrufe der Ansicht von Seiten verwendet (`t()` Methode).
 
 ## Variablen bei Linktracking-Aufrufen mit Adobe Experience Platform Launch
 
@@ -21,7 +21,7 @@ Launch füllt diese Variable automatisch auf dem Backend basierend auf Variablen
 
 ## s.linkTrackVars in AppMeasurement und Starten des benutzerdefinierten Code-Editors
 
-Die `s.linkTrackVars` Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Variablen enthält, die Sie in Bildanforderungen zur Linktracking einbeziehen möchten (`tl()` Funktion). Beide der folgenden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffern einzubeziehen:
+Die `s.linkTrackVars` Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Variablen enthält, die Sie in Bildanforderungen zur Linktracking einbeziehen möchten (`tl()` Methode). Beide der folgenden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffern einzubeziehen:
 
 * Legen Sie den gewünschten Variablenwert fest. Beispiel: `s.eVar1 = "Example value";`.
 * Legen Sie die gewünschte Variable in der `linkTrackVars` Variablen fest. Beispiel: `s.linkTrackEvents = "eVar1";`.
@@ -30,7 +30,7 @@ Die `s.linkTrackVars` Variable ist eine Zeichenfolge, die eine kommagetrennte Li
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-Der Standardwert für diese Variable ist eine leere Zeichenfolge. Adobe hat jedoch AppMeasurement-Code im Code-Manager bereitgestellt, wobei diese Variable auf `"None"`. Gültige Werte sind alle Variablen auf Seitenebene, die eine Dimension ausfüllen.
+Der Standardwert für diese Variable ist eine leere Zeichenfolge. Adobe hat jedoch AppMeasurement-Code im Code-Manager bereitgestellt, in dem diese Variable auf `"None"`. Gültige Werte sind alle Variablen auf Seitenebene, die eine Dimension ausfüllen.
 
 * Wenn diese Variable nicht definiert oder auf eine leere Zeichenfolge festgelegt ist, werden *alle* Variablen in Bildanforderungen zur Linktracking einbezogen.
 * Wenn diese Variable auf `"None"`festgelegt ist, werden in Bildanforderungen zur Linktracking *keine* Variablen einbezogen.
