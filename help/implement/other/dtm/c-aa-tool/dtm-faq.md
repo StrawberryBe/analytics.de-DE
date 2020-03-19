@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;rev
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Häufig gestellte Fragen zum Adobe Analytics-Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -23,8 +23,8 @@ Häufig gestellte Fragen zur automatischen Konfiguration der Adobe Analytics-Imp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Wo platziere ich meine Plugins bei der Implementierung von Adobe Analytics über DTM? </p> </td> 
-   <td colname="col2"> <p> If using DTM to manually host the <code> s_code</code>, plug-ins can be added in the same editor as the hosted <code> s_code</code>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plug-ins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Beide Implementierungsmethoden sollten gleichermaßen effektiv sein. </p> </td> 
+   <td colname="col1"> <p> Wo werden die Plug-ins bei einer Adobe Analytics-Implementierung über DTM eingefügt? </p> </td> 
+   <td colname="col2"> <p> Wenn Sie DTM zum manuellen Hosten von <code> s_code</code> verwenden, können Plug-ins im selben Editor wie der gehostete <code> s_code</code> hinzugefügt werden, ganz so wie bei einer typischen Adobe Analytics-Implementierung. </p> <p>Es ist jedoch auch eine Option, die Plug-ins im Editor im Abschnitt <span class="term">Seiten-Code anpassen</span> der Tool-Einstellungen zu platzieren. Beide Implementierungsmethoden sollten gleichermaßen effektiv sein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wenn ich in der neuen Version des Tools Änderungen an der Konfiguration vornehme, kann ich sie im Staging testen, bevor ich sie in der Produktion veröffentliche? </p> </td> 
