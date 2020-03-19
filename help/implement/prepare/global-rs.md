@@ -44,7 +44,7 @@ Der Prozess der Umstellung einer vorhandenen Implementierung über mehrere Sites
 1. Bestimmen Sie, ob Sie eine Ihrer vorhandenen Report Suites oder eine neue Report Suite verwenden möchten. Wenn Sie die Verwendungszwecke vorhandener Variablen in Ihrer Implementierung ändern möchten, wird empfohlen, mit einer neuen Report Suite zu beginnen.
 2. Legen Sie ein Umstellungsdatum fest, an dem Sie zu einer globalen Report Suite wechseln möchten. Der beste Zeitpunkt für eine Umstellung ist zwischen zwei wichtigen Reporting-Zeiträumen oder in Kombination mit größeren Änderungen an Ihrer Site. Beispiele sind der Beginn eines Geschäftsquartals oder -jahres, während einer Site-Aktualisierung oder beim Wechsel zu einem neuen Tag-Management-System.
 3. Gehen Sie wie oben beschrieben vor (erstellen Sie eine Report Suite, erfassen Sie Reporting-Anforderungen in einem Lösungsdesigndokument und richten Sie auf jeder Site eine Datenschicht ein). Validieren Sie bei der Implementierung von Launch Ihre Implementierung mit einer Entwicklungsversion Ihrer Website.
-4. Sobald Sie sich vergewissert haben, dass Ihre Implementierung in der Entwicklung funktioniert, veröffentlichen Sie Ihre Implementierung am Umstellungsdatum.
+4. Sobald Sie sich vergewissert haben, dass Ihre Implementierung in der Entwicklung funktioniert, veröffentlichen Sie Ihre Launch-Implementierung am Umstellungsdatum.
 
 ## Weiterführende Seiten
 
