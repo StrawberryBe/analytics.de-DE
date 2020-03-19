@@ -2,7 +2,7 @@
 title: 'manageVars  '
 description: Ändern Sie die Werte mehrerer Analytics-Variablen gleichzeitig.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,16 +15,16 @@ Mit dem `manageVars` Plug-in können Sie die Werte mehrerer Analytics-Variablen 
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: Initialisieren von manageVars
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -35,14 +35,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,8 +67,8 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 Die `manageVars` Methode verwendet die folgenden Argumente:
 
-* **`cb`**(erforderlich, Zeichenfolge): Der Name einer Rückruffunktion, mit der das Plug-In die Analytics-Variablen bearbeiten kann. Sie können eine Adobe-Funktion wie`cleanStr`oder Ihre eigene benutzerdefinierte Funktion verwenden.
-* **`l`**(optional, Zeichenfolge): Eine kommagetrennte Liste der Analytics-Variablen, die Sie bearbeiten möchten. Standardmäßig werden ALLE Adobe Analytics-Variablen verwendet, wenn sie nicht festgelegt sind. Dazu gehören:
+* **`cb`** (erforderlich, Zeichenfolge): Der Name einer Rückruffunktion, mit der das Plug-In die Analytics-Variablen bearbeiten kann. Sie können eine Adobe-Funktion wie `cleanStr` oder Ihre eigene benutzerdefinierte Funktion verwenden.
+* **`l`** (optional, Zeichenfolge): Eine kommagetrennte Liste von Analytics-Variablen, die Sie bearbeiten möchten. Standardmäßig werden ALLE Adobe Analytics-Variablen verwendet, wenn sie nicht festgelegt sind. Dazu gehören:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -83,9 +83,9 @@ Die `manageVars` Methode verwendet die folgenden Argumente:
    * Alle Props
    * Alle eVars
    * Alle Hierarchievariablen
-   * Alle Listenvariablen
+   * Alle Listen
    * Alle Kontextdatenvariablen
-* **`Il`**(optional, boolean): Auf`false`, wenn Sie die Liste der im Argument deklarierten Variablen *ausschließen*`l`möchten, anstatt sie einzubeziehen. Die Standardeinstellung ist`true`.
+* **`Il`** (optional, boolean): Auf `false` , wenn Sie die Liste der im *Argument deklarierten Variablen* ausschließen `l` möchten, anstatt sie einzubeziehen. Die Standardeinstellung ist `true`.
 
 Der Aufruf dieser Methode gibt nichts zurück. Stattdessen werden die Werte der Analytics-Variablen basierend auf der gewünschten Rückruffunktion geändert.
 
@@ -99,7 +99,7 @@ Der folgende Code...
 s.manageVars("lowerCaseVars");
 ```
 
- ...ändert die Werte aller oben beschriebenen Variablen in kleinere Versionen.  Die einzige Ausnahme hiervon ist die Ereignisvariable, da einige der Ereignisse (z. B. scAdd, scCheckout usw.) die Groß-/Kleinschreibung beachten und nicht herabgesetzt werden sollten
+...ändert die Werte aller oben beschriebenen Variablen in kleinere Versionen.  Die einzige Ausnahme hiervon ist die Variable &quot;Ereignisses&quot;, wie einige der Ereignis (z. B. scAdd, scCheckout usw.) die Groß-/Kleinschreibung beachten und nicht herabgesetzt werden sollten
 
 ### Beispiel 2
 
@@ -109,7 +109,7 @@ Der folgende Code...
 s.manageVars("lowerCaseVars", "events", false);
 ```
 
- ...generiert im Wesentlichen genau das gleiche Ergebnis wie im ersten Beispiel, da die Variable events nicht standardmäßig verringert wird.
+...führt im Wesentlichen zum exakt gleichen Ergebnis wie im ersten Beispiel, da die Variable &quot;Ereignisses&quot;nicht standardmäßig verringert wird.
 
 ### Beispiel 3
 
@@ -119,7 +119,7 @@ Der folgende Code...
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
- ...ändert sich (z. B. in Kleinbuchstaben) nur die Werte von eVar1, eVar2, eVar3 und list2
+...ändert sich (z. B. in Kleinbuchstaben) nur die Werte von eVar1, eVar2, eVar3 und Liste2
 
 ### Beispiel 4
 
@@ -129,7 +129,7 @@ Der folgende Code...
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
- ...ändert (z. B. in Kleinbuchstaben) die Werte aller oben beschriebenen Variablen außer für eVar1, eVar2, eVar3 und list2
+...ändert (z. B. in Kleinbuchstaben) die Werte aller oben beschriebenen Variablen außer für eVar1, eVar2, eVar3 und Liste2
 
 ### Beispiel 5
 
@@ -139,13 +139,13 @@ Der folgende Code...
 s.manageVars("cleanStr");
 ```
 
- ...ändert die Werte aller oben beschriebenen Variablen, einschließlich der Ereignisvariablen.  Die cleanStr-Rückruffunktion führt für jeden Variablenwert Folgendes aus:
+...ändert die Werte aller oben beschriebenen Variablen, einschließlich der Ereignis-Variablen.  Die cleanStr-Rückruffunktion führt für jeden Variablenwert Folgendes aus:
 
 * Entfernt die HTML-Kodierung
 * Entfernt Leerzeichen am Anfang und Ende des Werts
 * Ersetzt linke/rechte einfache Anführungszeichen (z. B. &quot;) mit einem einfachen einfachen einfachen Anführungszeichen (&quot;)
 * Ersetzt TabTabZeichen, Zeilenumbruch- und Wagenrücklaufzeichen durch Leerzeichen
-* Ersetzt alle doppelten (oder dreifachen usw.) Leerzeichen mit Leerzeichen
+* Ersetzt alle Dubletten (oder Dreifache usw.) Leerzeichen mit Leerzeichen
 
 ## Versionsverlauf
 
