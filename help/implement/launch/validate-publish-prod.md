@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
 description: Erfahren Sie, wie Sie Adobe Experience Platform Launch verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -19,9 +19,9 @@ Sobald Ihre Adobe Experience Platform Launch-Bibliothek in die Produktion versch
 
 Der Experience Cloud-Debugger ist ein Chrome-Plug-in, das alle auf einer Seite vorhandenen Experience Cloud-Tags anzeigt.
 
-1. Öffnen Sie den [Chrome-Webbrowser](https://www.google.com/chrome/) und gehen Sie zu [Adobe Experience Cloud-Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) im Chrome Web Store, um die Erweiterung zu installieren.
+1. Öffnen Sie den [Chrome-Webbrowser](https://www.google.com/intl/de/chrome/) und gehen Sie zu [Adobe Experience Cloud-Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) im Chrome Web Store, um die Erweiterung zu installieren.
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Launch implementiert haben.
-3. Klicken Sie oben rechts in Chrome auf das Symbol für den Adobe Experience Cloud-Debugger
+3. Klicken Sie oben rechts in Chrome auf das Symbol für den Adobe Experience Cloud-Debugger.
 4. Wenn alles ordnungsgemäß implementiert ist, sollten Sie Inhalte in Adobe Analytics, Adobe Experience Platform Launch und dem Adobe Experience Cloud-Besucher-ID-Dienst sehen:
 
 ![Debugger][assets/debugger.png]
@@ -45,7 +45,7 @@ Nachdem Sie überprüft haben, dass Daten angezeigt werden, können Sie Ihre Imp
 
 Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beginnen Sie mit der offiziellen Datenerfassung für Adobe Analytics.
 
-1. Nachdem Sie bei Ihren Website-Eigentümern bestätigt haben, dass sie den Startcode in die Produktion verschoben haben, navigieren Sie zur Homepage Ihrer Website in Chrome und öffnen Sie den Adobe Experience Cloud-Debugger.
+1. Nachdem Sie bei Ihren Website-Eigentümern bestätigt haben, dass sie den Launch-Code in die Produktion verschoben haben, navigieren Sie zur Homepage Ihrer Website in Chrome und öffnen Sie den Adobe Experience Cloud-Debugger.
 2. Wenn alles funktioniert, sollten Sie ähnliche Daten wie Ihre Tests in Ihrer Entwicklungsumgebung sehen. Zu diesem Zeitpunkt erfassen Sie jetzt Daten auf Ihrer Site und können nun Adobe Analytics für die Berichterstellung verwenden.
 
 ## Fehlerbehebung
@@ -57,7 +57,7 @@ Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beg
 * Es gibt keine JavaScript-Fehler in der Konsole. Wenden Sie sich an die Website-Inhaber Ihres Unternehmens, um sicherzustellen, dass alle JS-Fehler behoben sind.
 * Der Kopfzeilencode ist ordnungsgemäß implementiert: Stellen Sie sicher, dass sich der Kopfzeilencode innerhalb des `<head>`-Tags befindet und dass die Datei vorhanden ist.
 * AppMeasurement-Bibliothek vorhanden: Navigieren Sie direkt zur JS-Quelle, um sicherzustellen, dass die JS-Datei Code enthält. Ist dies nicht der Fall, stellen Sie sicher, dass jede Umgebung erstellt und die Bibliothek in der entsprechenden Umgebung veröffentlicht wurde.
-* Interfering-Plug-Ins: Einige Chrome-Plug-ins können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Plug-Ins, die verhindern können, dass Daten an die Adobe-Server gesendet werden.
+* Störende Plug-ins: Einige Chrome-Plug-ins können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Plug-ins, die verhindern könnten, dass Daten an die Adobe-Server gesendet werden.
 
 ## Nächste Schritte
 
