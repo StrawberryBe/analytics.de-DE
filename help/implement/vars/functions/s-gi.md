@@ -2,7 +2,7 @@
 title: s_gi()
 description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,12 +13,12 @@ Die `s_gi()` Funktion instanziiert oder findet eine Instanz von AppMeasurement n
 
 ## s_gi() in Adobe Experience Platform Launch
 
-Die Analytics-Erweiterung instanziiert und verwaltet das Verfolgungsobjekt für Sie. Sie können jedoch auch ein globales Verfolgungsobjekt im Akkordeon &quot; [!UICONTROL Bibliotheksverwaltung] &quot;festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
+Die Analytics-Erweiterung instanziiert und verwaltet das Verfolgungsobjekt für Sie. Sie können jedoch auch ein globales Verfolgungsobjekt im [!UICONTROL Library Management] Akkordeon festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-4. Erweitern Sie das Akkordeon &quot; [!UICONTROL Bibliotheksverwaltung] &quot;und wählen Sie ein anderes Optionsfeld als &quot;Bibliothek für mich [!UICONTROL verwalten&quot;].
+3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+4. Erweitern Sie das [!UICONTROL Library Management] Akkordeon und wählen Sie ein anderes Optionsfeld als [!UICONTROL Manage the library for me].
 
 Im Textfeld für globale Variable können Sie ein benutzerdefiniertes Verfolgungsobjekt festlegen. Its default value is `s`.
 
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] Die folgenden Abschnitte und Beispiele enthalten komplexe Implementierungsthemen. Testen Sie Ihre Implementierung gründlich und verfolgen Sie wichtige Anpassungen im [Lösungsdesigndokument](../../prepare/solution-design.md)Ihres Unternehmens.
+> [!CAUTION] Die folgenden Abschnitte und Beispiele enthalten komplexe Implementierungsthemen. Testen Sie Ihre Implementierung gründlich und verfolgen Sie wichtige Anpassungen im [Lösungsdesign-Dokument](../../prepare/solution-design.md)Ihres Unternehmens.
 
 ## Verwalten mehrerer Implementierungen mit verschiedenen Verfolgungsobjekten
 
@@ -58,7 +58,7 @@ s.t();
 z.t();
 ```
 
-## Stellen Sie AppMeasurement-Variablen nach dem Überschreiben des s-Objekts wieder her
+## AppMeasurement-Variablen nach dem Überschreiben des s-Objekts wiederherstellen
 
 Einige Werkzeuge von Drittanbietern können auch das JavaScript- `s` Objekt verwenden. Wenn Sie versehentlich das `s` Objekt auf Ihrer Site überschreiben, können Sie `s_gi` mit demselben RSID-Zeichenfolgenargument aufrufen, um alle überschriebenen Variablen und Methoden wiederherzustellen.
 
