@@ -1,7 +1,7 @@
 ---
 title: visitorID
 description: Verwenden Sie eine benutzerdefinierte Besucher-ID.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
@@ -9,26 +9,26 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 # visitorID
 
-Adobe verwendet verschiedene Methoden zur Identifizierung von Besuchern Ihrer Site. Die `visitorID` Variable setzt alle anderen Methoden zur Besucheridentifizierung außer Kraft.
+Adobe verwendet verschiedene Methoden zur Identifizierung von Besuchern Ihrer Website. Die `visitorID`-Variable setzt alle anderen Methoden zur Besucheridentifizierung außer Kraft.
 
-> [!IMPORTANT] Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
+> [!IMPORTANT] Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
 
-## Besucher-ID beim Start der Adobe Experience Platform
+## Besucher-ID in Adobe Experience Platform Launch
 
-[!UICONTROL Besucher-ID] ist ein Feld unter dem Akkordeon &quot; [!UICONTROL Cookies] &quot;beim Konfigurieren der Adobe Analytics-Erweiterung.
+[!UICONTROL Besucher-ID] ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-4. Erweitern Sie das Akkordeon [!UICONTROL Cookies] , das das Feld [!UICONTROL Besucher-ID] anzeigt.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Feld [!UICONTROL Besucher-ID] angezeigt wird.
 
 Weisen Sie dieses Feld dem Datenelement zu, das Ihre benutzerdefinierte Besucher-ID enthält. Legen Sie für dieses Feld keinen statischen Wert fest.
 
-## s.visitorID in AppMeasurement und Starten des benutzerdefinierten Code-Editors
+## s.visitorID in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.visitorID` Variable ist eine Zeichenfolge, die einen benutzerdefinierten eindeutigen Bezeichner für den Besucher enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Verwenden Sie in dieser Variablen keine Bindestriche, Leerzeichen, Unterstriche oder Symbole.
+Die `s.visitorID`-Variable ist eine Zeichenfolge, die eine benutzerdefinierte eindeutige Kennung für den Besucher enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Verwenden Sie in dieser Variablen keine Bindestriche, Leerzeichen, Unterstriche oder Symbole.
 
-> [!WARNING] Wenn Sie die `visitorID` Variable durch einen Besuch getrennt festlegen, ergeben die Daten zwei separate Unique Visitors.
+> [!WARNING] Wenn Sie die `visitorID`-Variable während eines Besuchs festlegen, führen die Daten zu zwei separaten Unique Visitors.
 
 ```js
 s.visitorID = "abc123";
