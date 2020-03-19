@@ -1,7 +1,7 @@
 ---
 title: charSet
-description: Die Variable "charSet"bestimmt, mit welcher Kodierung Adobe Ihre Bildanforderung analysiert.
-translation-type: tm+mt
+description: Die Variable „charSet“ bestimmt, mit welcher Codierung Adobe Ihre Bildanforderung analysiert.
+translation-type: ht
 source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ---
@@ -9,22 +9,22 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 # charSet
 
-Die Variable &quot;charSet&quot;wird von Adobe verwendet, um eingehende Daten für die Speicherung und Berichterstellung in UTF-8 zu konvertieren. Wenn Ihre Site einen anderen charSet als UTF-8 verwendet, ermöglicht diese Variable die korrekte Kodierung Ihrer Daten durch Adobe. Diese Variable kann seitenweise eingestellt werden, wenn Ihre Site auf verschiedenen Seiten unterschiedliche Kodierungen verwendet.
+Die Variable „charSet“ wird von Adobe verwendet, um eingehende Daten für die Speicherung und Berichterstellung in UTF-8 zu konvertieren. Wenn Ihre Website einen anderen charSet als UTF-8 verwendet, ermöglicht diese Variable die korrekte Codierung Ihrer Daten durch Adobe. Diese Variable kann seitenweise eingestellt werden, wenn Ihre Website auf verschiedenen Seiten unterschiedliche Codierungen verwendet.
 
-## Zeichensatz beim Start der Adobe Experience Platform
+## Zeichensatz in Adobe Experience Platform Launch
 
-Der Zeichensatz ist ein Feld unter dem Akkordeon &quot; [!UICONTROL Allgemein] &quot;beim Konfigurieren der Adobe Analytics-Erweiterung.
+Zeichensatz ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfigurierung der Adobe Analytics-Erweiterung.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-4. Erweitern Sie das Akkordeon &quot; [!UICONTROL Allgemein] &quot;, mit dem das Feld &quot; [!UICONTROL Zeichensatz] &quot;angezeigt wird.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Zeichensatz] angezeigt wird.
 
-Sie können entweder einen voreingestellten Zeichensatz oder einen benutzerdefinierten Zeichensatz verwenden. Dieser Wert sollte mit der Zeichenkodierung auf Ihrer Site übereinstimmen. Die meisten Sites verwenden `UTF-8`.
+Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Zeichensatz verwenden. Dieser Wert sollte mit der Zeichencodierung auf Ihrer Website übereinstimmen. Die meisten Websites verwenden `UTF-8`.
 
-## s.charSet in AppMeasurement und benutzerdefinierten Codeeditor starten
+## s.charSet in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `charSet` Variable ist eine Zeichenfolge. Legen Sie diese Variable auf denselben Wert wie das `<meta charset="">` HTML-Tag auf Ihrer Site fest.
+Die `charSet`-Variable ist eine Zeichenfolge. Legen Sie diese Variable auf denselben Wert wie das HTML-Tag `<meta charset="">` auf Ihrer Website fest.
 
 ```js
 s.charSet = "UTF-8";
