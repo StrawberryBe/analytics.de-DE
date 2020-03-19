@@ -1,7 +1,7 @@
 ---
 title: Fehlerbehebung bei H-Code-Implementierungen
 description: Erfahren Sie mehr über einige häufige Probleme bei älteren JavaScript-Implementierungen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -9,16 +9,16 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 # Fehlerbehebung bei H-Code-Implementierungen
 
-Im Folgenden finden Sie Anweisungen zur Fehlerbehebung, die spezifisch für H-Code-Implementierungen gelten.
+Im Folgenden finden Sie Schritte zur Fehlerbehebung bei H-Code-Implementierungen.
 
 ## Analytics-Code im Head-Tag platzieren
 
-> [!NOTE] Bei H-Code-Implementierungen muss im Tag auf Code verwiesen werden, bei anderen Implementierungen (z. B. beim Einsatz von Adobe Experience Platform Launch) muss im Tag auf Code verwiesen werden `<body>` , der `<head>` verwendet wird.
+> [!NOTE] Während bei H-Code-Implementierungen der Code im `<body>`-Tag referenziert werden muss, ist bei anderen Implementierungen (z. B. bei Verwendung der Adobe Experience Platform Launch) der Code im `<head>`-Tag zu referenzieren.
 
-Analytics-Code erstellt ein unsichtbares 1x1-Pixelbild. Zuvor bestand eine gängige Implementierungsmethode darin, den `s_code.js` Verweis in das `<head>` -Tag zu setzen. Die Platzierung des Codes hier verhinderte, dass das Bild das Seitenlayout in irgendeiner Weise beeinflusst. Es wird auch früher ausgeführt, sodass Sie Seitenansichten für teilweise Seitenladevorgänge effizienter zählen können.
+Analytics-Code erstellt ein unsichtbares 1x1-Pixelbild. Früher war es gängige Praxis, den `s_code.js`-Verweis im `<head>`-Tag zu platzieren. Die Platzierung des Codes hier verhinderte, dass das Bild das Seitenlayout in irgendeiner Weise beeinflusst. Er wurde auch früher ausgeführt, sodass Seitenansichten auch bei partiell geladenen Seiten effizienter gezählt werden können.
 
-However, certain elements of the code require the existence of the `<body>` object. Wenn sich der Analytics-JavaScript-Code im Tag befindet, wird er ausgeführt, bevor das `<head>` Objekt vorhanden `<body>` ist. As a result, your implementation does not collect [!UICONTROL ClickMap] data, automatic tracking of file downloads or exit links, or connection type data. Die Platzierung des Skriptverweises `s_code.js` im `<head>` -Tag funktioniert, aber das Ergebnis ist eine sehr begrenzte Version von Analytics.
+Allerdings setzen bestimmte Elemente des Codes voraus, dass ein `<body>`-Objekt vorhanden ist. Wenn sich der Analytics-JavaScript-Code im `<head>`-Tag befindet, wird er ausgeführt, bevor das `<body>`-Objekt vorhanden ist. Infolgedessen sammelt Ihre Implementierung keine [!UICONTROL ClickMap]-Daten, kein automatisches Tracking von Datei-Downloads oder Exitlinks und keine Daten zum Verbindungstyp. Die Platzierung der Skript-Referenz auf `s_code.js` im `<head>`-Tag funktioniert, aber das Ergebnis ist eine sehr begrenzte Version von Analytics.
 
-The Analytics code can be placed anywhere inside the `<body>` tag of a well-formed HTML page. Adobe empfiehlt, Analytics-Code so nah wie möglich am Anfang des `<body>` Tags zu platzieren. Stellen Sie sicher, dass alle Seitenvariablen festgelegt werden, nachdem die `s_code.js` Datei geladen wurde.
+Der Analytics-Code kann an einer beliebigen Stelle innerhalb der `<body>`-Tags einer korrekt formatierten HTML-Seite untergebracht werden. Adobe empfiehlt, Analytics-Code so nah wie möglich am Anfang des `<body>`-Tags zu platzieren. Stellen Sie sicher, dass alle Seitenvariablen festgelegt werden, nachdem die `s_code.js`-Datei geladen wurde.
 
-> [!TIP] Wenn Sie Adobe Analytics in Adobe Target integrieren möchten, muss die JavaScript-Include-Datei unten auf der Seite platziert werden.
+> [!TIP] Wenn Sie Adobe Analytics mit Adobe Target integrieren möchten, muss die JavaScript-Include-Datei am Ende der Seite platziert werden.
