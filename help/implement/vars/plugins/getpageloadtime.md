@@ -1,8 +1,8 @@
 ---
-title: ' getPageLoadTime'
+title: getPageLoadTime
 description: Verfolgen Sie die Ladezeit einer Seite.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,16 +15,16 @@ Das `getPageLoadTime` Plug-In verwendet das JavaScript-Leistungsobjekt, um zu me
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: Initialize getPageLoadTime
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -35,14 +35,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -86,12 +86,12 @@ if(s._pltPreviousPage)
 }
 ```
 
- ...Folgendes tun:
+...Folgendes tun:
 
 * Führen Sie das getPageLoadTime-Plug-in aus, wenn s.pageName eingestellt ist
 * Setzen Sie s.prop10 auf die Ladezeit der vorherigen Seite
 * Stellen Sie s.prop11 und s.eVar10 auf den Namen der vorherigen Seite ein (wie in s.pageName aufgezeichnet)
-* Setzen Sie event100, ein benutzerdefiniertes numerisches Ereignis, das der Ladezeit der vorherigen Seite entspricht.   Wenn Sie in diesem Fall ein benutzerspezifisches Ereignis verwenden, können Sie die Gesamtdauer für alle Seitenladevorgänge der vorherigen Seite (von allen Besuchern/Besuchen) abrufen und somit eine berechnete Metrik verwenden, um die durchschnittliche Seitenladezeit für jede Seite zu ermitteln
+* Legen Sie Ereignis100 fest, bei dem es sich um ein benutzerdefiniertes numerisches Ereignis handelt, das der Ladezeit der vorherigen Seite entspricht.   Wenn Sie in diesem Fall ein benutzerdefiniertes Ereignis verwenden, können Sie die Gesamtdauer für alle Seitenladevorgänge der vorherigen Seite (von allen Besuchern/Besuchen) abrufen und somit eine berechnete Metrik verwenden, um die durchschnittliche Seitenladezeit für jede Seite zu ermitteln
 
 ## Versionsverlauf
 
