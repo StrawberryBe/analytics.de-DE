@@ -1,7 +1,7 @@
 ---
 title: Analytics-Eigenschaft in Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 # Analytics-Eigenschaft in Adobe Experience Platform Launch erstellen
 
-Adobe Experience Platform Launch ist das Tool, mit dem Sie Experience Cloud-Lösungen auf Ihrer Website integrieren können (einschließlich Analytics). Auf dieser Seite wird speziell erläutert, wie ein Startadministrator eine grundlegende Adobe Analytics-Implementierung ordnungsgemäß konfigurieren kann.
+Adobe Experience Platform Launch ist das Tool, mit dem Sie Experience Cloud-Lösungen auf Ihrer Website integrieren können (einschließlich Analytics). Auf dieser Seite wird speziell erläutert, wie ein Launch-Administrator eine grundlegende Adobe Analytics-Implementierung ordnungsgemäß konfigurieren kann.
 
 ## Voraussetzungen
 
-[Report Suite erstellen](/help/admin/admin-console/create-report-suite.md): Erstellen eines Silos für zu erfassende Analytics-Daten
+[Report Suite erstellen](/help/admin/admin-console/create-report-suite.md): Erstellen eines Silos für zu erfassende Analytics-Daten.
 
 ## Eigenschaften erstellen und wichtige Erweiterungen installieren
 
@@ -61,7 +61,7 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 1. Klicken Sie unter „Aktionen“ auf „Hinzufügen“ und geben Sie die folgenden Einstellungen ein:
    * Erweiterung: Adobe Analytics
    * Aktionstyp: Variablen festlegen
-   * Seitenname: Klicken Sie auf das Container-Symbol und wählen Sie das `Page Name`-Datenelement aus.
+   * Seitenname: Klicken Sie auf das Container-Symbol und wählen Sie das `Page Name`-Datenelement aus
    * Kampagne: Abfrageparameter mit dem Wert `cid`
 1. Klicken Sie auf „Änderungen beibehalten“.
 1. Klicken Sie auf das Pluszeichen neben „Aktionen“, um eine weitere Aktion hinzuzufügen, und geben Sie die folgenden Einstellungen ein:
@@ -75,9 +75,9 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 ## Dokumentation und zusätzliche Ressourcen
 
 * [Dokumentation zu Adobe Analytics-Erweiterungen](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
-* [Erste Schritte mit Launch](https://docs.adobelaunch.com/getting-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte
-* [Adobe Experience Platform Launch-YouTube-Kanal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Lehrvideos zur Nutzung von Launch
+* [Erste Schritte mit Launch](https://docs.adobelaunch.com/getting-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
+* [Adobe Experience Platform Launch-YouTube-Kanal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): Lehrvideos zur Nutzung von Launch.
 
 ## Nächste Schritte
 
-[Stellen Sie Ihre Analytics-Implementierung in Ihrer Entwicklungsumgebung bereit](deploy-dev.md): Analytics-Code in einer Testumgebung verwenden
+[Stellen Sie Ihre Analytics-Implementierung in Ihrer Entwicklungsumgebung bereit](deploy-dev.md): Analytics-Code in einer Testumgebung verwenden.
