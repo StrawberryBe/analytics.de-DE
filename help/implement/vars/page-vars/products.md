@@ -2,7 +2,7 @@
 title: „products“
 description: Senden Sie Daten darüber, welche Produkte oder Produkte im Warenkorb angezeigt werden.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 Die `products` Variable verfolgt mit ihnen verbundene Produkte und Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine Variable mit mehreren Werten. Das bedeutet, dass Sie mehrere Produkte im selben Treffer senden können und Adobe den Wert in separate Dimensionswerte analysiert.
 
-> [!NOTE] Wenn diese Variable in einem Treffer ohne Warenkorbereignis in der `events` Variablen festgelegt wird, wird die Metrik &quot;Produktansichten&quot;um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer das entsprechende Warenkorbereignis festlegen.
+> [!NOTE] Wenn diese Variable in einem Treffer ohne Warenkorb-Ereignis in der [`events`](events/events-overview.md) Variablen festgelegt wird, wird die Metrik &quot;Ansichten&quot;um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer das passende Ereignis für den Warenkorb festlegen.
 
 ## Produkte in Adobe Experience Platform Launch
 
@@ -19,20 +19,20 @@ Es gibt kein spezielles Feld in Launch, um diese Variable festzulegen. Es gibt j
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf [!UICONTROL Katalog] , um alle verfügbaren Erweiterungen anzuzeigen.
+3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf [!UICONTROL Catalog] , um alle verfügbaren Erweiterungen anzuzeigen.
 4. Suchen Sie nach dem Begriff &quot;Produkt&quot;, der mehrere verfügbare Erweiterungen enthält, um diese Variable einzustellen.
 
 Sie können eine dieser Erweiterungen verwenden oder den benutzerdefinierten Code-Editor nach der AppMeasurement-Syntax weiter unten verwenden.
 
 ## s.products in AppMeasurement und Benutzerdefinierter Code-Editor starten
 
-Die `s.products` Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Jedes einzelne Produkt kann bis zu 100 Byte über alle Felder hinweg enthalten. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
+Die `s.products` Variable ist eine Zeichenfolge, die mehrere durch Trennzeichen getrennte Felder pro Produkt enthält. Jedes einzelne Produkt kann bis zu 100 Byte über alle Felder hinweg enthalten. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
 
-* **Kategorie** (optional): Die übergreifende Produktkategorie. Ihr Unternehmen entscheidet, wie Produkte in Kategorien unterteilt werden.
+* **Kategorie** (optional): Die übergreifende Kategorie des Produkts. Ihr Unternehmen entscheidet, wie Produkte in Kategorien gruppiert werden.
 * **Produktname** (erforderlich): Der Name des Produkts.
-* **Menge** (optional): Wie viele dieser Produkte sind im Einkaufswagen. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
-* **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge mehr als ein Produkt, so setzen Sie den Preis auf den Gesamtpreis und nicht auf den individuellen Produktpreis. Richten Sie die Währung dieses Werts an die `currencyCode` Variable aus. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
-* **Ereignisse** (optional): Ereignisse, die mit dem Produkt verknüpft sind. Senden Sie mehrere Ereignisse mit einer Pipe (`|`). Weitere Informationen finden Sie unter [Ereignisse](events/events-overview.md) .
+* **Menge** (optional): Wie viele dieser Produkte sind im Einkaufswagen. Dieses Feld gilt nur für Treffer mit dem Kauf-Ereignis.
+* **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge mehr als ein Produkt, so setzen Sie den Preis auf den Gesamtpreis und nicht auf den individuellen Produktpreis. Richten Sie die Währung dieses Werts an die [`currencyCode`](../config-vars/currencycode.md) Variable aus. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kauf-Ereignis.
+* **Ereignisse** (optional): Ereignis, die an das Produkt gebunden sind. Senden Sie mehrere Ereignis mit einer Pipe (`|`). Weitere Informationen finden Sie unter [Ereignisse](events/events-overview.md) .
 * **eVars** (optional): Merchandising-eVars, die mit dem Produkt verknüpft sind. Senden Sie mehrere Merchandising-eVars mit einer Pipe (`|`). Weitere Informationen finden Sie unter [Merchandising eVars](../../../components/c-variables/c-merch-variables/var-merchandising.md) .
 
 ```js
@@ -47,7 +47,7 @@ Diese Variable unterstützt mehrere Produkte im selben Treffer. Es ist wertvoll 
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Achten Sie darauf, alle Semikolons, Kommas und Rohre aus Produktnamen, Kategorien und Merchandising-eVar-Werten zu entfernen. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Diese fehlerhafte Analyse löst den Rest der Produktzeichenfolge aus und führt zu fehlerhaften Daten in Dimensionen und Berichten.
+> [!IMPORTANT] Entfernen Sie alle Semikolons, Kommas und Rohre aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Diese fehlerhafte Analyse löst den Rest der Produktzeichenfolge aus und führt zu fehlerhaften Daten in Dimensionen und Berichten.
 
 ## Beispiele
 
