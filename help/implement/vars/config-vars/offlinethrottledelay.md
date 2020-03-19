@@ -1,7 +1,7 @@
 ---
 title: offlineThrottleDelay
-description: Legt die Häufigkeit von Treffern fest, wenn ein Gerät wieder online ist.
-translation-type: tm+mt
+description: Legt die Häufigkeit von Treffern fest, wenn ein Gerät wieder online geht.
+translation-type: ht
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 ---
@@ -9,17 +9,17 @@ source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 # offlineThrottleDelay
 
-Die Offline-Verfolgung ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Verbindung zum Internet trennt, aber weiterhin auf Ihrer Site surft, werden die Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät wieder eine Verbindung zum Internet herstellt. Die Offline-Verfolgung wird hauptsächlich für mobile Anwendungen verwendet.
+Offline-Tracking ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Verbindung zum Internet trennt, aber weiterhin auf Ihrer Website surft, werden die Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät wieder eine Verbindung zum Internet herstellt. Offline-Tracking wird hauptsächlich für mobile Anwendungen verwendet.
 
-Wenn ein Gerät wieder online ist, werden alle auf dem Gerät gespeicherten Treffer an die Adobe-Datenerfassungsserver gesendet. Eine große Anzahl von Treffern in der Warteschlange kann sich möglicherweise auf die Leistung älterer Geräte auswirken. Verwenden Sie die `offlineThrottleDelay` Variable, um festzulegen, wie oft Treffer in der Warteschlange an Adobe gesendet werden.
+Wenn ein Gerät wieder online geht, werden alle auf dem Gerät gespeicherten Treffer an die Adobe-Datenerfassungs-Server gesendet. Eine große Anzahl von Treffern in der Warteschlange kann sich möglicherweise auf die Leistung älterer Geräte auswirken. Verwenden Sie die `offlineThrottleDelay`-Variable, um festzulegen, wie oft Treffer in der Warteschlange an Adobe gesendet werden.
 
-## Zeitverzögerung bei Offline-Throttle beim Start der Adobe Experience Platform
+## Offline-Einschränkungsverzögerung in Adobe Experience Platform Launch
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.offlineThrottleDelay in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.offlineThrottleDelay in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.offlineThrottleDelay` Variable ist eine Ganzzahl, die die Anzahl der Millisekunden angibt, die AppMeasurement zwischen dem Senden von Treffern in der Warteschlange wartet. Der Standardwert lautet `0`also, dass alle Treffer in der Warteschlange gleichzeitig gesendet werden. Wenn `trackOffline` dies `false`der Fall ist, hat diese Variable nichts.
+Die `s.offlineThrottleDelay`-Variable ist eine Ganzzahl, die die Anzahl der Millisekunden angibt, die AppMeasurement zwischen dem Senden von Treffern in der Warteschlange wartet. Der Standardwert lautet `0`, was bedeutet, dass alle Treffer in der Warteschlange gleichzeitig gesendet werden. Wenn diese Variable auf `trackOffline` `false` gesetzt ist, hat sie keine Auswirkung.
 
 ```js
 s.offlineThrottleDelay = 500;
