@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Bedingungen für Seitenladeregeln erstellen
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -22,7 +22,7 @@ Erstellen Sie Regeln, die bestimmen, auf welchen Seiten eine Regel ausgelöst wi
 
 1. Geben Sie die Bedingung an, durch die die Regel ausgelöst wird.
 
-   Sie können beispielsweise **[!UICONTROL Pfad]**auswählen, um spezifische Seiten anzugeben, für die die Regel ausgelöst werden soll.
+   Sie können beispielsweise **[!UICONTROL Pfad]** auswählen, um spezifische Seiten anzugeben, für die die Regel ausgelöst werden soll.
 
    ![](assets/conditions-page-load-rules2.png)
 
