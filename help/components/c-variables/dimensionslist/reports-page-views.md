@@ -4,7 +4,7 @@ title: Seitenansichten
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,23 +15,22 @@ Ein Trendbericht, der anzeigt, wie oft Ihre Web-Seiten im ausgewählten Zeitraum
 
 Eine [Seitenansicht](/help/components/c-variables/c-metrics/metrics-page-view.md) ist eher eine Anforderung eines ganzseitigen Dokuments als eines Elements einer Seite, wie es beispielsweise ein Bild oder ein Video ist. Wenn z. B. ein einzelner Benutzer während eines Besuchs 15 Seiten aufruft, werden 15 Seitenansichten gezählt. Wenn ein Benutzer die gleiche Seite drei Mal während eines Besuchs aufruft, werden drei Seitenansichten gezählt.
 
-**Berichteigenschaften**
+## Berichtseigenschaften
 
-* Dieser Bericht zeigt, wie oft die Funktion [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) auf Ihrer Site aufgerufen wurde.
-* Benutzerspezifische Aufrufe zu [Linktracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) (z. B. benutzerspezifische Links, Dateidownloads und Exitlinks) verwenden die Funktion [!DNL s.tl()] und werden in diesem Bericht nicht berücksichtigt.
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* Linkverfolgungsaufrufe, die die [`tl()`](/help/implement/vars/functions/tl-method.md) Methode verwenden, werden in diesem Bericht nicht gezählt.
 * Wenn der Benutzer die Seite aktualisiert oder auf die Schaltfläche „Zurück“ klickt, werden Bildanforderungen gesendet. Deshalb beinhaltet der Bericht auch diese Aktionen.
 * Stündliche Aufschlüsselungen basieren auf der Zeitzone der Report Suite.
 * Der Bericht enthält keine Zeileneinträge. Folglich kann der Bericht nur als Trendansicht angezeigt werden.
 * Eine Granularität wie Stunde, Tag, Woche, Monat, Quartal und Jahr kann angewendet werden. Die Verfügbarkeit dieser Granularität hängt vom Datumsbereich der Berichterstellung ab.
 
-**Produktspezifische Informationen**
+## Produktspezifische Informationen
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">„Site-Content“</span> &gt; <span class="uicontrol">„Seitenansichten“</span> </p> <p>Dieser Bericht kann Segmente verwenden. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Site-Content</span> &gt; <span class="uicontrol"> Seitenansichten</span> </p> <p>Dieser Bericht kann Segmente verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ad Hoc Analysis </p> </td> 
