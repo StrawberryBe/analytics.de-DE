@@ -2,16 +2,16 @@
 title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # contextData
 
-Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können. Anstatt Analytics-Variablen explizit Werte in Ihrem Code zuzuweisen, können Sie Daten in Kontextdatenvariablen senden. Verarbeitungsregeln nehmen dann Kontextdatenvariablenwerte auf und übergeben sie an die entsprechenden Analytics-Variablen. See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können. Anstatt Analytics-Variablen explizit Werte in Ihrem Code zuzuweisen, können Sie Daten in Kontextdatenvariablen senden. Verarbeitungsregeln nehmen dann Kontextdatenvariablenwerte auf und übergeben sie an die entsprechenden Analytics-Variablen. Siehe [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) im Administratorhandbuch.
 
-Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen statt in nummerierten Variablen zu erfassen. Anstatt zum Beispiel Entwicklungsteams anzufordern, den Autor der Seite zuzuweisen, können Sie `eVar10`anfordern, dass sie `s.contextData["author"]` stattdessen die Seite zuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen kümmern, nicht um die vielen Seitenvariablen, die Adobe anbietet.
+Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen statt in nummerierten Variablen zu erfassen. Anstatt zum Beispiel Entwicklungsteams anzufordern, den Autor der Seite zuzuweisen, können Sie `eVar10`anfordern, dass sie `s.contextData["author"]` stattdessen die Seite zuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen zu Analysevariablen für den Berichte zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen und nicht um die vielen Seitenvariablen kümmern, die Adobe-Angebot verwenden.
 
 ## Kontextdatenvariablen beim Start der Adobe Experience Platform
 
@@ -27,7 +27,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Gültige Kontextdatenvariablen enthalten nur alphanumerische Zeichen, Unterstriche und Punkte. Adobe übernimmt keine Garantie für die Datenerfassung in Verarbeitungsregeln, wenn Sie andere Zeichen wie z. B. Bindestriche einschließen.
-* Starten Sie keine Kontextdatenvariablen mit `"a."`. Dieses Präfix ist von Adobe reserviert und wird verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
+* Verwenden Sie keine Kontextdatenvariablen `"a."`. Dieses Präfix ist von Adobe reserviert und wird verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
 * Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Variablen `s.contextData["example"]` und `s.contextData["EXAMPLE"]` sind identisch.
 
 ## Verwenden von Verarbeitungsregeln zum Ausfüllen von Analysevariablen
@@ -44,7 +44,7 @@ Verarbeitungsregeln werden sofort nach dem Speichern wirksam. Sie gelten nicht f
 
 ## Senden von Kontextdaten in einem Linkverfolgungsaufruf
 
-Schließen Sie die Kontextdatenvariable als Eigenschaft von `contextData` in ein `s.linkTrackVars`:
+Schließen Sie die Kontextdatenvariable als Eigenschaft von `contextData` in ein [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
