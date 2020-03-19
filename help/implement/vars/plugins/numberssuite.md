@@ -2,33 +2,33 @@
 title: Numbers Suite
 description: Generieren und Bearbeiten von Zahlen zur Verwendung in anderen JavaScript-Variablen.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Adobe-Plug-in:Numbers Suite
+# Adobe-Plug-in: Numbers Suite
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
 Die Numbers Suite bietet eine Reihe von JavaScript-Funktionen. Es enthält die folgenden Plug-ins:
 
-* **`zeroPad`**: Fügen Sie am Anfang einer Zahl eine bestimmte Anzahl von Nullen hinzu. Dieses Plug-in ist nützlich, wenn eine Variable eine bestimmte Anzahl von Ziffern benötigt, z. B. wenn Sie mit JavaScript-Datumsobjekten arbeiten und einen Datums-/Tag mit zwei Ziffern statt nur einer Ziffer formatieren möchten. Beispiel:`01/09/2020`anstelle von`1/9/2020`.
+* **`zeroPad`**: Hinzufügen einer bestimmten Anzahl von Nullen bis zum Anfang einer Zahl. Dieses Plug-in ist nützlich, wenn eine Variable eine bestimmte Anzahl von Ziffern benötigt, z. B. wenn Sie mit JavaScript-Datumsobjekten arbeiten und einen Datums-/Tag mit zwei Ziffern statt nur einer Ziffer formatieren möchten. Beispiel: `01/09/2020` anstelle von `1/9/2020`.
 * **`randomNumber`**: Generieren Sie eine Zufallszahl mit einer bestimmten Anzahl von Ziffern. Dieses Plug-in ist nützlich, wenn Sie Drittanbieter-Tags bereitstellen und eine Zufallszahl wünschen, die im Cache gespeichert wird.
-* **`twoDecimals`**: Runden Sie eine Zahl bis zum hundertsten Schrank. Dieses Plug-in eignet sich für Währungszwecke, sodass Sie eine Zahl auf einen gültigen Währungswert runden können.
+* **`twoDecimals`**: Runden Sie eine Zahl auf den Schrank hundert. Dieses Plug-in eignet sich für Währungszwecke, sodass Sie eine Zahl auf einen gültigen Währungswert runden können.
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: Numbers Suite initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -39,14 +39,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
