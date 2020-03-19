@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Globale Variablen
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ---
@@ -18,11 +18,11 @@ Diese Variablen werden bei allen Seitenladeregel-Beacons ausgelöst. Den gleiche
 
 ## Globale Variablen – Feldbeschreibungen {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL Tool bearbeiten]**>**[!UICONTROL Globale Variablen]**
+**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Tool bearbeiten ]** > **[!UICONTROL  Globale Variablen ]**
 
 | Element | Beschreibung |
 |--- |--- |
-| Server | Diese vordefinierte Variable füllt die Server-Dimension in Adobe Analytics aus. See [Server](../../../vars/page-vars/server.md). |
+| Server | Diese vordefinierte Variable füllt die Server-Dimension in Adobe Analytics aus. Siehe [Server](../../../vars/page-vars/server.md). |
 | eVars | Die [eVar-Variablen](../../../vars/page-vars/evar.md) dienen zum Erstellen benutzerdefinierter Konversionsberichte. |
 | Props | [Prop-Variablen](../../../vars/page-vars/prop.md) werden zum Erstellen benutzerdefinierter Traffic-Berichte verwendet. |
-| Dynamisches Variablenpräfix | Ein spezielles Präfix am Anfang des Werts. Das Standard-Präfix ist „D=“. Siehe [Dynamische Variablen](../../../vars/page-vars/dynamic-variables.md |
+| Dynamisches Variablenpräfix | Ein spezielles Präfix am Anfang des Werts. Das Standard-Präfix ist „D=“. Siehe [Dynamische Variablen](../../../vars/page-vars/dynamic-variables.md). |
