@@ -1,13 +1,13 @@
 ---
-title: Externe E-Mail-Verfolgung
-description: Verwenden Sie Adobe Analytics, um E-Mail-Inhalte zu verfolgen.
-translation-type: tm+mt
+title: Externes E-Mail-Tracking
+description: Verwenden Sie Adobe Analytics, um E-Mail-Inhalte zu verfolgen.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
 
 
-# Externe E-Mail-Verfolgung
+# Externes E-Mail-Tracking
 
 Firmen setzen Analytics ein, um den Erfolg einer E-Mail-Kampagne zu ermitteln.
 
@@ -56,7 +56,7 @@ Damit in einem Bericht brauchbare Analysedaten zu einer E-Mail-Kampagne angezeig
 
    1. Anpassen von [!DNL s_code.js] durch Aufruf von [!UICONTROL getQueryParam]
 
-      Die Datei [!DNL s_code.js] sollte sich auf dem Webserver an einem Speicherort befinden, auf den jede Webseite zugreifen kann. Die Funktion *`doPlugins`*in dieser Datei muss so geändert werden, dass sie die Abfragezeichenfolgenparameter in den E-Mail-Links erfasst. Beispiel:
+      Die Datei [!DNL s_code.js] sollte sich auf dem Webserver an einem Speicherort befinden, auf den jede Webseite zugreifen kann. Die Funktion *`doPlugins`* in dieser Datei muss so geändert werden, dass sie die Abfragezeichenfolgenparameter in den E-Mail-Links erfasst. Beispiel:
 
       ```js
       /* Plugin Config */ 
