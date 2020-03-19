@@ -1,7 +1,7 @@
 ---
 title: Ausschluss-Links
-description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Site implementieren.
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
+translation-type: ht
 source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ---
@@ -9,49 +9,49 @@ source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 # Implementieren von Ausschluss-Links
 
-> [!IMPORTANT] Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit GDPR-Vorschriften befassen. See [Opt-in service overview](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.
+> [!IMPORTANT] Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit DSGVO-Vorschriften befassen. Weitere Informationen finden Sie unter [Übersicht über den Opt-in-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/opt-in-service/optin-overview.html) im Benutzerhandbuch des Experience Cloud ID-Dienstes.
 
-Einige Besucher Ihrer Website ziehen es vor, ihre Browserinformationen nicht in Ihren Datensatz aufzunehmen. Adobe bietet die Möglichkeit, Besuchern Ihrer Website die Möglichkeit zu geben, sich von der Erfassung ihrer Informationen abzumelden. Alle Implementierungstypen sind untergebracht. Ihre Organisation ist für Ihre eigenen Datenschutzrichtlinien und die Einhaltung Ihrer unterzeichneten Bedingungen verantwortlich.
+Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, den Besuchern Ihrer Website die Option bereitzustellen, sich von der Datenerfassung ausschließen zu lassen. Alle Implementierungsarten werden berücksichtigt; Ihre Organisation ist für Ihre eigene Datenschutzrichtlinie und für die Einhaltung der von Ihnen unterzeichneten Bedingungen verantwortlich.
 
-Wenn ein Besucher eine Ausschluss-URL erreicht, wird er aufgefordert, ein Ausschluss-Cookie zu installieren. Wenn ein Benutzer sich dafür entscheidet, nicht verfolgt zu werden und ein Ausschluss-Cookie gesetzt ist, sendet Ihre JavaScript-Datei weiterhin Daten an Adobe-Server. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
+Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn ein Benutzer sich entscheidet, nicht verfolgt zu werden, und ein Opt-out-Cookie gesetzt wird, sendet Ihre JavaScript-Datei weiterhin Daten an die Adobe-Server. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
 
-> [!TIP] Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Siehe [Datenschutzeinstellungen](../../admin/admin/privacy-settings.md) im Admin-Benutzerhandbuch.
+> [!TIP] Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](../../admin/admin/privacy-settings.md).
 
-## Ausschluss-URL
+## Opt-out-URL
 
-Die Ausschluss-Seite für Ihr Unternehmen hängt vom [`trackingServer`](../vars/config-vars/trackingserver.md) Variablenwert in Ihrer Implementierung ab.
+Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](../vars/config-vars/trackingserver.md)-Variablen in Ihrer Implementierung ab.
 
-* Starten der Adobe Experience Platform:
+* In Adobe Experience Platform Launch:
    1. Melden Sie sich bei [launch.adobe.com](https://launch.adobe.com) an und klicken Sie auf die gewünschte Eigenschaft.
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. Klicken Sie auf das Akkordeon &quot; [!UICONTROL Allgemein] &quot;und beachten Sie den Wert &quot; [!UICONTROL Tracking-Server] &quot;.
+   2. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
+   3. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].
 
 * In einer JavaScript-Implementierung:
-   1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Site verwendet wird, in einem Code- oder Texteditor.
-   2. Notieren Sie den `trackingServer` Variablenwert.
+   1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
+   2. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Using the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html):
-   1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Site.
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html):
+   1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    2. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
-   3. Notieren Sie den Wert [!UICONTROL Request URL - Hostname] .
+   3. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
 
-Wenn Sie die `trackingServer` Domäne Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:
+Wenn Sie die `trackingServer`-Domäne Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:
 
 * Drittanbieter-Cookies: `https://example.sc.omtrdc.net/optout.html`
 * Erstanbieter-Cookies: `https://stats.example.com/optout.html`
 
-## Abfragezeichenfolgen-Parameter für Ausschluss
+## Opt-out-Abfragezeichenfolgenparameter
 
 Es gibt Einstellungen, die Sie mithilfe von Abfragezeichenfolgen automatisch auf diese Seite laden können.
 
 ### Gebietsschema
 
-Wechseln Sie automatisch die Sprache der Ausschluss-Seite, indem Sie den Abfragezeichenfolgenparameter `locale` einbeziehen. Weisen Sie diesem Abfragezeichenfolgenparameter einen der folgenden Werte zu:
+Wechseln Sie automatisch die Sprache der Opt-out-Seite, indem Sie den Abfragezeichenfolgenparameter `locale` einbeziehen. Weisen Sie diesem Abfragezeichenfolgenparameter einen der folgenden Werte zu:
 
-* en_US (Englisch, Standard)
+* en_US (Englisch, standardmäßig)
 * bg_BG (Bulgarisch)
 * zh_CN (Vereinfachtes Chinesisch)
-* zh_TW (traditionelles Chinesisch)
+* zh_TW (Traditionelles Chinesisch)
 * cs_CZ (Tschechisch)
 * da_NK (Dänisch)
 * nl_NL (Niederländisch)
@@ -71,26 +71,26 @@ Wechseln Sie automatisch die Sprache der Ausschluss-Seite, indem Sie den Abfrage
 * sk_SK (Slowakisch)
 * es_ES (Spanisch)
 
-Zum Beispiel `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` lädt die Ausschluss-Seite auf Koreanisch.
+Zum Beispiel lädt `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` die Opt-out-Seite auf Koreanisch.
 
-> [!TIP] Der Wert der `en_US` Abfragezeichenfolge ist nicht erforderlich, da die Seite standardmäßig in Englisch geladen wird.
+> [!TIP] Der Abfragezeichenfolgewert `en_US` ist nicht erforderlich, da die Seite standardmäßig in Englisch geladen wird.
 
 ### Popup
 
-Fügt der Seite die Schaltfläche &quot;Fenster schließen&quot;hinzu, sodass die Ausschluss-Seite ein Popup-Fenster werden kann. Verwenden Sie den `popup` Abfragezeichenfolgenparameter und geben Sie ihm den Wert `1`.
+Fügt der Seite eine Schaltfläche „Fenster schließen“ hinzu, wodurch die Möglichkeit besteht, die Opt-out-Seite zu einem Popup-Fenster zu machen. Verwenden Sie den Abfragezeichenfolgenparameter `popup` und geben Sie ihm den Wert `1`.
 
-Lädt beispielsweise die Ausschluss-Seite mit der Schaltfläche &quot;Fenster schließen&quot;. `https://example.sc.omtrdc.net/optout.html?popup=1`
+Zum Beispiel lädt `https://example.sc.omtrdc.net/optout.html?popup=1` die Opt-out-Seite mit einer Schaltfläche „Fenster schließen“.
 
-> [!NOTE] Dieser Abfragezeichenfolgen-Parameter hat bisher ein Popup-Fenster erzwungen. Die meisten modernen Browser geben dem Endbenutzer jedoch Kontrolle über Popups.
+> [!NOTE] Dieser Abfragezeichenfolgenparameter hat bisher ein Popup-Fenster erzwungen. Die meisten modernen Browser geben dem Endbenutzer jedoch Kontrolle über Popups.
 
-### Ausschluss mit einem Klick
+### Opt-out mit einem Klick
 
-Ermöglicht dem Benutzer, die Verfolgung sofort abzuwählen. Fügen Sie die beiden Abfragezeichenfolgenparameter hinzu `opt_out` und `confirm_change`geben Sie jeweils den Wert `1`.
+Ermöglicht dem Benutzer, das Tracking sofort abzuwählen. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_out` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
 
-Beispielsweise wird das Ausschluss-Cookie sofort auf der Seite des Besuchers installiert `https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1` .
+Beispielsweise installiert `https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1` sofort das Opt-out-Cookie auf der Seite des Besuchers.
 
-### Single-Click-Teilnahme
+### Opt-in mit einem Klick
 
-Ermöglicht dem Benutzer, sich sofort wieder bei der Verfolgung anzumelden, indem er das Ausschluss-Cookie löscht. Fügen Sie die beiden Abfragezeichenfolgenparameter hinzu `opt_in` und `confirm_change`geben Sie jeweils den Wert `1`.
+Ermöglicht dem Benutzer, sich sofort wieder beim Tracking anzumelden, indem er das Opt-out-Cookie löscht. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_in` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
 
-Löscht beispielsweise `https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1` sofort das Ausschluss-Cookie für den Besucher.
+Beispielsweise löscht `https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1` sofort das Opt-out-Cookie für den Besucher.
