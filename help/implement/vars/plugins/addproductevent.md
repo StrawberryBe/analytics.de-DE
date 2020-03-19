@@ -1,21 +1,21 @@
 ---
 title: addProductEvent
-description: Fügt der Variablen "products"und "events"benutzerspezifische Ereignisse hinzu.
+description: Fügt der Variablen "products"und "Ereignisses"benutzerdefinierte Ereignis hinzu.
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Adobe-Plug-in:addProductEvent
+# Adobe-Plug-in: addProductEvent
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-Das `addProductEvent` Plug-In fügt der Variablen ein numerisches oder Währungsereignis hinzu `products` . Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie der Variablen ein numerisches oder Währungs-Ereignis hinzufügen möchten, ohne sich um das Format der Produktzeichenfolge zu sorgen. `products` Dieses Plug-in ist nicht erforderlich, wenn Sie keine numerischen oder Währungsereignisse in der `products` Variablen verwenden.
+Das `addProductEvent` Plug-In fügt der Variablen ein numerisches oder Währungs-Ereignis hinzu [`products`](../page-vars/products.md) . Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie der `products` Variablen ein numerisches oder Währungs-Ereignis hinzufügen möchten, ohne sich um das Format der Produktzeichenfolge zu sorgen. Dieses Plug-in ist nicht erforderlich, wenn Sie keine numerischen oder Währungs-Ereignis in der `products` Variablen verwenden.
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
@@ -24,7 +24,7 @@ Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins ve
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: Initialize addProductEvent
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -35,14 +35,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Erweiterung Adobe Analytics.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,10 +62,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 Die `addProductEvent` Methode verwendet die folgenden Argumente:
 
 * **`en`** (erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der `products` Variablen hinzugefügt wird. Wenn die `products` Variable leer ist, wird ein &quot;leerer&quot;Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
-* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en` Argument zugewiesen wird.  Die Standardeinstellung ist `1` nicht festgelegt.
+* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsargument im `en` Argument zugewiesen ist.  Die Standardeinstellung ist `1` nicht festgelegt.
 * **`ap`** (optional, boolean): Wenn die Produktvariable derzeit mehr als einen Produkteintrag enthält, wird das Ereignis mit dem Wert `true` (oder `1`) allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist `false` nicht festgelegt.
 
-Die `addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products` Variablen hinzugefügt. Das Plug-In fügt das Ereignis automatisch der `events` Variablen hinzu, da es auch dort benötigt wird.
+Die `addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products` Variablen hinzugefügt. Das Plug-In fügt das Ereignis automatisch zur [`events`](../page-vars/events/events-overview.md) Variablen hinzu, da es auch dort benötigt wird.
 
 ## Cookies
 
