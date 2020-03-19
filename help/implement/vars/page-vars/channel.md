@@ -1,32 +1,32 @@
 ---
-title: kanal
-description: Füllen Sie die Dimension "Sitebereiche".
-translation-type: tm+mt
+title: channel
+description: Füllen Sie die Dimension „Website-Bereiche“.
+translation-type: ht
 source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 ---
 
 
-# kanal
+# channel
 
-Die `channel` Variable speichert normalerweise den Abschnitt der Site, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich festzustellen, welche Gruppen Ihrer Site bevorzugt werden. Diese Variable füllt die Dimension &quot;Sitebereiche&quot;.
+Die `channel`-Variable speichert normalerweise den Abschnitt der Website, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich, zu bestimmen, welche Gruppen Ihrer Website am beliebtesten sind. Diese Variable füllt die Dimension „Website-Bereiche“.
 
-## Kanal in Adobe Experience Platform Launch
+## channel in Adobe Experience Platform Launch
 
-Sie können den Kanal entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
+Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Aktionen]auf eine bestehende Aktion [!UICONTROL Adobe Analytics - Set Variables] , oder klicken Sie auf das Pluszeichen.
-5. Legen Sie das [!UICONTROL Erweiterungs] -Dropdownmenü auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf Variablen [!UICONTROL festlegen]fest.
-6. Suchen Sie den Abschnitt [!UICONTROL Kanal] .
+4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
+5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
+6. Suchen Sie den Abschnitt [!UICONTROL Kanal].
 
-Sie können channel auf einen beliebigen Zeichenfolgenwert oder Datenelement einstellen.
+Sie können „channel“ auf einen beliebigen Zeichenfolgenwert oder ein beliebiges Datenelement einstellen.
 
-## s.channel in AppMeasurement und benutzerdefinierten Codeeditor starten
+## s.channel in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.channel` Variable ist eine Zeichenfolge, die normalerweise den Site-Abschnitt der Seite enthält. Er hat einen Maximalwert von 100 Byte. längere Werte werden abgeschnitten.
+Die `s.channel`-Variable ist eine Zeichenfolge, die normalerweise den Website-Bereich der Seite enthält. Sie hat einen Maximalwert von 100 Byte. Längere Werte werden abgeschnitten.
 
 ```js
 s.channel = "Example site section";
