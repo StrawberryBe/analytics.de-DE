@@ -1,7 +1,7 @@
 ---
 title: trackInlineStats
 description: Aktivieren oder deaktivieren Sie Activity Map in Ihrer Implementierung.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
@@ -9,24 +9,24 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 # trackInlineStats
 
-Activity Map ist eine Funktion in Adobe Analytics, mit der Daten gesammelt werden, auf die Besucher klicken und auf die sie klicken. Sie können diese Daten in Analytics-Berichten oder mithilfe einer Browser-Erweiterungs-Überlagerung anzeigen. Aktivieren Sie diese Variable, wenn Sie Activity Map-Funktionen verwenden möchten.
+Activity Map ist eine Funktion in Adobe Analytics, mit der Daten darüber erfasst werden, wo Besucher klicken und worauf sie klicken. Sie können diese Daten in Analytics-Berichten oder mithilfe eines Browser-Erweiterungs-Overlays anzeigen. Aktivieren Sie diese Variable, wenn Sie Activity Map-Funktionen verwenden möchten.
 
-Wenn diese Option aktiviert ist, erfasst AppMeasurement Informationen zum Link und sendet diese Daten in der nächsten Bildanforderung. Informationen aus jedem Klick werden in einem Cookie mit der Bezeichnung `s_sq`.
+Wenn diese Option aktiviert ist, erfasst AppMeasurement Informationen zum Link und sendet diese Daten in der nächsten Bildanforderung. Informationen aus jedem Klick werden in einem Cookie mit der Bezeichnung `s_sq` gespeichert.
 
-## ClickMap in Adobe Experience Platform Launch aktivieren
+## Aktivieren der ClickMap in Adobe Experience Platform Launch
 
-[!UICONTROL ClickMap] aktivieren ist ein Kontrollkästchen unter dem Akkordeon &quot; [!UICONTROL Linkverfolgung] &quot;beim Konfigurieren der Adobe Analytics-Erweiterung.
+[!UICONTROL ClickMap aktivieren] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-4. Erweitern Sie das Akkordeon &quot; [!UICONTROL Linktracking] &quot;, das das Kontrollkästchen &quot;ClickMap [!UICONTROL aktivieren] &quot;anzeigt.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Kontrollkästchen [!UICONTROL ClickMap aktivieren] angezeigt wird.
 
-Aktivieren Sie das Kontrollkästchen, um die Activity Map-Verfolgung zu aktivieren.
+Aktivieren Sie das Kontrollkästchen, um Activity Map-Tracking zu aktivieren.
 
-## s.trackInlineStats in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.trackInlineStats in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die Variable `s.trackInlineStats` ist ein boolescher Wert, der die Activity Map-Verfolgung aktiviert oder deaktiviert. Its default value is `false`. Legen Sie diesen Wert fest, `true` wenn Sie die Activity Map-Datenerfassung aktivieren möchten.
+`s.trackInlineStats` ist ein boolescher Wert, der Activity Map-Tracking aktiviert oder deaktiviert. Der Standardwert lautet `false`. Setzen Sie diesen Wert auf `true`, wenn Sie die Activity Map-Datenerfassung aktivieren möchten.
 
 ```js
 s.trackInlineStats = true;
