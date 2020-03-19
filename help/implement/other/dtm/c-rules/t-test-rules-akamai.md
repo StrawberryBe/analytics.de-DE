@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpubl
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Testen unveröffentlichter Regeln für Akamai-Hosting
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Wenn Sie Akamai-Hosting verwenden, testen Sie nicht veröffentlichte Regeln über Ihre Konsole.
 
-Das Switch-Plug-in ist oft die einfachste Methode zum Testen. See [Search Discovery plug-ins](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in the Dynamic Tag Management Product Documentation for more information.
+Mit dem Switcher-Plug-in sind die Tests meist am einfachsten durchzuführen. Weitere Informationen finden Sie unter [Search Discovery-Plug-ins](https://marketing.adobe.com/resources/help/de_DE/dtm/search_discovery_plugins.html) in der Produktdokumentation für das Dynamic Tag Management.
 
-Die folgenden Schritte zeigen, wie Sie ohne Verwendung des Switch-Plug-Ins testen:
+Führen Sie die folgenden Schritte zum Testen ohne Switcher-Plug-in aus:
 
-1. Greifen Sie auf die Webkonsole auf Ihrer Website zu und geben Sie `localStorage.setItem('sdsat_stagingLibrary', true)`.
+1. Greifen Sie auf die Webkonsole auf Ihrer Website zu und geben Sie `localStorage.setItem('sdsat_stagingLibrary', true)` ein.
 1. Drücken Sie die **[!UICONTROL Eingabetaste]**.
 1. Geben Sie `_satellite.setDebug(true)` ein und drücken Sie dann die **[!UICONTROL Eingabetaste]**.
 1. Aktualisieren Sie die Seite.
@@ -26,4 +26,4 @@ Die folgenden Schritte zeigen, wie Sie ohne Verwendung des Switch-Plug-Ins teste
    Mit dieser Aktion wird Ihre Staging-Bibliothek geladen und der Debugger festgelegt, sodass Sie Details aller verfügbaren (veröffentlichten/nicht veröffentlichten) Regeln sehen können, die auf der Seite ausgelöst werden.
 1. Führen Sie abschließend `localStorage.setItem('sdsat_stagingLibrary', false)` aus und drücken Sie die **[!UICONTROL Eingabetaste]**.
 
-   Schritt Ergebnis
+   Schrittergebnis
