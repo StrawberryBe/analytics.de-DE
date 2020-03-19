@@ -1,7 +1,7 @@
 ---
 title: trackOffline
-description: Aktivieren oder deaktivieren Sie die Offline-Verfolgung, wodurch sich die Datenerfassung in AppMeasurement ändert.
-translation-type: tm+mt
+description: Aktivieren oder deaktivieren Sie Offline-Tracking, wodurch sich die Datenerfassung in AppMeasurement ändert.
+translation-type: ht
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
@@ -9,27 +9,27 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 # trackOffline
 
-Die Offline-Verfolgung ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Verbindung zum Internet trennt, aber weiterhin auf Ihrer Site surft, werden die Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät wieder eine Verbindung zum Internet herstellt. Die Offline-Verfolgung wird hauptsächlich für mobile Anwendungen verwendet.
+Offline-Tracking ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Verbindung zum Internet trennt, aber weiterhin auf Ihrer Website surft, werden die Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät wieder eine Verbindung zum Internet herstellt. Offline-Tracking wird hauptsächlich für mobile Anwendungen verwendet.
 
-Die `trackOffline` Variable bestimmt, ob Sie die Offline-Verfolgung in Ihrer Implementierung verwenden möchten.
+Die `trackOffline`-Variable bestimmt, ob Sie Offline-Tracking in Ihrer Implementierung verwenden möchten.
 
 > [!IMPORTANT] Sie müssen Ihre Report Suite so konfigurieren, dass sie Treffer mit Zeitstempel akzeptiert, bevor Sie diese Variable aktivieren. Wenn eine Report Suite keine Treffer mit Zeitstempel akzeptiert und diese Variable aktiviert ist, gehen diese Daten verloren und können nicht wiederhergestellt werden.
 
 Wenn diese Option aktiviert ist, verwendet AppMeasurement den folgenden Prozess zum Senden von Daten an Adobe:
 
-* Beim Kompilieren einer Bildanforderung wird ein Abfragezeichenfolgen-Parameter für Zeitstempel eingefügt.
-* Wenn das Gerät nicht auf Adobe-Datenerfassungsserver zugreifen kann, wird der Treffer lokal auf dem Gerät gespeichert.
+* Beim Kompilieren einer Bildanforderung wird ein Abfragezeichenfolgenparameter für Zeitstempel eingefügt.
+* Wenn das Gerät nicht auf Adobe-Datenerfassungs-Server zugreifen kann, wird der Treffer lokal auf dem Gerät gespeichert.
 * Bei jedem nachfolgenden Treffer versucht AppMeasurement, eine Bildanforderung an Adobe zu senden.
-   * Wenn der Treffer nicht auf Adobe-Datenerfassungsserver zugreifen kann, wird er der Warteschlange auf dem Gerät hinzugefügt.
-   * Wenn das Gerät Adobe-Datenerfassungsserver erreichen kann, werden der Treffer und die Warteschlange der Treffer gesendet, während das Gerät offline war.
+   * Wenn nicht auf Adobe-Datenerfassungs-Server zugegriffen werden kann, wird der Treffer Warteschlange auf dem Gerät hinzugefügt.
+   * Wenn auf Adobe-Datenerfassungs-Server zugegriffen werden kann, werden der Treffer und die Warteschlange der Treffer gesendet, während das Gerät offline war.
 
-## Offline verfolgen beim Starten der Adobe Experience Platform
+## Offline-Verfolgen in Adobe Experience Platform Launch
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.trackOffline in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.trackOffline in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.trackOffline` Variable ist ein boolescher Wert, der die Offline-Verfolgung aktiviert oder deaktiviert. Its default value is `false`. Legen Sie diesen Wert fest, `true` wenn Sie die Offline-Verfolgung aktivieren möchten.
+Die `s.trackOffline`-Variable ist ein boolescher Wert, der Offline-Tracking aktiviert oder deaktiviert. Der Standardwert lautet `false`. Setzen Sie diesen Wert auf `true`, wenn Sie Offline-Tracking aktivieren möchten.
 
 ```js
 s.trackOffline = true;
