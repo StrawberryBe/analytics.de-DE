@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Webeigenschaft erstellen
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
 
-> [!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
+> [!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://marketing.adobe.com/resources/help/de_DE/dtm/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
 
 Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
-Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) in der Produktdokumentation zu Dynamic Tag Management.
+Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://marketing.adobe.com/resources/help/de_DE/dtm/web_property.html) in der Produktdokumentation zu Dynamic Tag Management.
 
 1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
 
@@ -36,11 +36,11 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     <tbody> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Name</span> </td> 
-    <td colname="col2"> <p>Der Name Ihrer Eigenschaft </p> </td> 
+    <td colname="col2"> <p>Der Name Ihrer Eigenschaft. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> URL</span> </td> 
-    <td colname="col2"> <p>Die Basis-URL der Eigenschaft </p> </td> 
+    <td colname="col2"> <p>Die Basis-URL der Eigenschaft. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol">Diese Website umfasst mehrere Domänen. </span> </td> 
