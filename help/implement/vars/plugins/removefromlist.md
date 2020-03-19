@@ -2,7 +2,7 @@
 title: rfl
 description: Entfernen Sie einen bestimmten Wert aus einer durch Zeichen getrennten Zeichenfolge.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,27 +11,27 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-Mit dem `rfl` Plug-in können Sie Werte aus getrennten Zeichenfolgen wie `events`, `products`, Listenvariablen und anderen &quot;sicher&quot;entfernen. Dieses Plug-in ist nützlich, wenn Sie bestimmte Werte aus einer mit Trennzeichen versehenen Zeichenfolge entfernen möchten, ohne sich Gedanken über Trennzeichen machen zu müssen. Einige andere Plug-ins hängen von diesem Code ab, um korrekt ausgeführt zu werden. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
+Mit dem `rfl` Plug-in können Sie Werte aus getrennten Zeichenfolgen wie [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md)usw. &quot;sicher&quot;entfernen. Dieses Plug-in ist nützlich, wenn Sie bestimmte Werte aus einer mit Trennzeichen versehenen Zeichenfolge entfernen möchten, ohne sich Gedanken über Trennzeichen machen zu müssen. Einige andere Plug-ins hängen von diesem Code ab, um korrekt ausgeführt zu werden. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehr als eine Analytics-Variable ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
 
-Das Plug-In verwendet folgende Logik:
+Das Plug-In verwendet die folgende Logik:
 
 * Wenn der Wert, den Sie entfernen möchten, vorhanden ist, behält das Plug-In alle Elemente in der Variablen mit Ausnahme des zu entfernenden Werts bei.
 * Wenn der Wert, den Sie entfernen möchten, nicht vorhanden ist, behält das Plug-In die ursprüngliche Zeichenfolge unverändert bei.
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
-   * Aktionstyp: RFP initialisieren (aus Liste entfernen)
+   * Aktionstyp: RFP initialisieren (Aus Liste entfernen)
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
 ## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
@@ -40,14 +40,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,13 +60,13 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 Die `rfl` Methode verwendet die folgenden Argumente:
 
-* **`lv`**(erforderlich, Zeichenfolge): Eine Variable (oder Zeichenfolge), die eine Liste mit getrennten Werten enthält
-* **`vr`**(erforderlich, Zeichenfolge): Der Wert, der aus dem`lv`Argument entfernt werden soll. Adobe empfiehlt, während eines einzelnen`rfl`Aufrufs nicht mehrere Werte zu entfernen.
-* **`d1`**(optional, Zeichenfolge): Das Trennzeichen, das vom`lv`Argument verwendet wird. Der Standardwert ist Komma (`,`).
-* **`d2`**(optional, Zeichenfolge): Das Trennzeichen, das die Rückgabezeichenfolge verwenden soll. Die Standardeinstellung ist derselbe Wert wie das`d1`Argument.
-* **`df`**(optional, boolean): Wenn`true`dies der Fall ist, werden anstelle aller Instanzen nur doppelte Instanzen des`vr`Arguments vom`lv`Argument erzwungen. Die Standardeinstellung ist`false`nicht festgelegt.
+* **`lv`** (erforderlich, Zeichenfolge): Eine Variable (oder Zeichenfolge), die eine Liste mit getrennten Werten enthält
+* **`vr`** (erforderlich, Zeichenfolge): Der Wert, der aus dem `lv` Argument entfernt werden soll. Adobe empfiehlt, während eines einzelnen `rfl` Aufrufs nicht mehrere Werte zu entfernen.
+* **`d1`** (optional, Zeichenfolge): Das Trennzeichen, das vom `lv` Argument verwendet wird. Der Standardwert ist Komma (`,`).
+* **`d2`** (optional, Zeichenfolge): Das Trennzeichen, das die Rückgabezeichenfolge verwenden soll. Die Standardeinstellung ist derselbe Wert wie das `d1` Argument.
+* **`df`** (optional, boolean): Wenn `true`dies der Fall ist, werden anstelle aller Instanzen nur Duplikat-Instanzen des `vr` Arguments vom `lv` Argument erzwungen. Die Standardeinstellung ist `false` nicht festgelegt.
 
-Der Aufruf dieser Methode gibt eine geänderte Zeichenfolge zurück, die das `lv` Argument enthält, jedoch keine Instanzen (oder doppelten Instanzen) des im `vr` Argument angegebenen Werts.
+Der Aufruf dieser Methode gibt eine geänderte Zeichenfolge zurück, die das `lv` Argument enthält, jedoch keine Instanzen (oder Duplikat-Instanzen) des im `vr` Argument angegebenen Werts.
 
 ## Beispielaufrufe
 
@@ -78,13 +78,13 @@ Wenn...
 s.events = "event22,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event24");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event25";
@@ -98,19 +98,19 @@ Wenn...
 s.events = "event22,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event26");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event24,event25";
 ```
 
-In diesem Beispiel hat der rfl-Aufruf keine Änderungen an s.events vorgenommen, da s.events &quot;event26&quot;nicht enthielt
+In diesem Beispiel hat der rfl-Aufruf keine Änderungen an s.Ereignisses vorgenommen, da s.Ereignisses &quot;Ereignis26&quot;nicht enthielt
 
 ### Beispiel 3
 
@@ -120,13 +120,13 @@ Wenn...
 s.events = "event22,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events);
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "";
@@ -142,19 +142,19 @@ Wenn...
 s.prop4 = "hello|people|today";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.eVar5 = s.rfl(s.prop4,"people","|");
 ```
 
- ... Der Endwert von s.prop4 bleibt...
+...Der Endwert von s.prop4 bleibt...
 
 ```js
 s.prop4 = "hello|people|today";
 ```
 
- ...Der Endwert von s.eVar5 ist jedoch:
+...Der Endwert von s.eVar5 ist jedoch:
 
 ```js
 s.eVar5 = "hello|today";
@@ -170,13 +170,13 @@ Wenn...
 s.prop4 = "hello|people|today";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.prop4 = s.rfl(s.prop4,"people");
 ```
 
- ... Der Endwert von s.prop4 bleibt...
+...Der Endwert von s.prop4 bleibt...
 
 ```js
 s.prop4 = "hello|people|today";
@@ -192,13 +192,13 @@ Wenn...
 s.events = "event22,event23,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"EVenT23");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event23,event25";
@@ -214,13 +214,13 @@ Wenn...
 s.events = "event22,event23:12345,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event25";
@@ -234,19 +234,19 @@ Wenn...
 s.events = "event22,event23:12345,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23:12345");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event23:12345,event25";
 ```
 
-Wenn Sie ein Ereignis entfernen müssen, das eine Serialisierung und/oder numerische/Währungs-Syntax verwendet, sollten Sie im s.rfl-Aufruf nur das Ereignis selbst angeben (d. h. ohne die Werte für Serialisierung/Nummerisch/Währung).
+Wenn Sie ein Ereignis entfernen müssen, das eine Serialisierung und/oder numerische/Währungs-Syntax verwendet, sollten Sie im s.rfl-Aufruf nur das Ereignis selbst angeben (d. h. ohne die Serialisierungs-/numerischen/Währungswerte).
 
 ### Beispiel 9
 
@@ -256,13 +256,13 @@ Wenn...
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event24,event25");
@@ -276,13 +276,13 @@ Wenn...
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23", "", "",true);
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event23,event24,event25");
@@ -296,13 +296,13 @@ Wenn...
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23", "", "|",true);
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22|event23|event24|event25");
@@ -316,19 +316,19 @@ Wenn...
 s.events = "event22,event23,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23,event24");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event23,event24,event25";
 ```
 
-Das Festlegen mehrerer Werte im vr-Argument wird nicht unterstützt. Die rfl-Logik im obigen Beispiel teilte zunächst die Werte im lv-Argument (d.h. s.events) und versuchte dann, jeden getrennten Wert mit dem vollständigen vr-Argumentwert (d.h. &quot;event23,event24&quot;).
+Das Festlegen mehrerer Werte im vr-Argument wird nicht unterstützt. Die rfl-Logik im obigen Beispiel teilte zunächst die Werte im lv-Argument (d.h. s.Ereignisses) und versuchte dann, jeden getrennten Wert mit dem vollständigen vr-Argumentwert (d.h. &quot;Ereignis23,Ereignis24&quot;).
 
 ### Beispiel 13
 
@@ -338,14 +338,14 @@ Wenn...
 s.events = "event22,event23,event24,event25";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.events = s.rfl(s.events,"event23");
 s.events = s.rfl(s.events,"event24");
 ```
 
- ... Der Endwert von s.events lautet:
+...Der Endwert von s.Ereignisses ist:
 
 ```js
 s.events = "event22,event25");
@@ -361,13 +361,13 @@ Wenn...
 s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
- ... Der Endwert von s.linkTrackVars lautet:
+...Der Endwert von s.linkTrackVars lautet:
 
 ```js
 s.linkTrackVars = "events,eVar1,eVar3";
@@ -383,13 +383,13 @@ Wenn...
 s.events = "event22,event23,event24";
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.rfl(s.events,"event23");
 ```
 
- ... Der Endwert von s.events lautet weiterhin:
+...Der Endwert von s.Ereignisses ist weiterhin:
 
 ```js
 s.events = "event22,event23,event24";
