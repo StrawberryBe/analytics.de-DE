@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Erstellen Sie Rückruffunktionen, nachdem Sie einen Treffer an Adobe gesendet haben.
 translation-type: tm+mt
-source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 Mit der `registerPostTrackCallback` Variablen kann Ihr Unternehmen eine JavaScript-Funktion unmittelbar nach erfolgreichem Senden eines Treffers an Adobe in einen Haken setzen. Wenn ein Verfolgungsaufruf fehlschlägt, wird diese Funktion nicht ausgeführt. Mit dieser Variablen können Sie von AppMeasurement erfasste Daten an eine Partner- oder interne Infrastruktur senden oder Variablenwerte in Einzelseitenanwendungen bereinigen.
 
-> [!IMPORTANT] Rufen Sie keine Verfolgungsfunktionen wie `t` oder `tl` innerhalb der `registerPostTrackCallback` Variablen auf. Tracking-Funktionen in dieser Variablen verursachen eine unendliche Schleife von Bildanforderungen!
+> [!IMPORTANT] Rufen Sie keine Verfolgungsaufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPostTrackCallback` Variablen auf. Tracking-Funktionen in dieser Variablen verursachen eine unendliche Schleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPostTrackCallback` Variable aufrufen, stellen Sie eine Verknüpfung zu dieser Funktion her, um sie unmittelbar nach dem erfolgreichen Senden einer Bildanforderung auszuführen. Vermeiden Sie es, dieselbe Funktion mehrmals beim Laden derselben Seite zu registrieren.
 
-> [!NOTE] Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen- `registerPreTrackCallback` und `registerPostTrackCallback` -ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
+> [!NOTE] Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen- [`registerPreTrackCallback`](registerpretrackcallback.md) und `registerPostTrackCallback` -ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
 
 ## Rückruffunktion bei der Nachverfolgung beim Starten der Adobe Experience Platform registrieren
 
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Verwendungsfallbeispiel
 
-Die Registrierung der `clearVars()` Funktion im Nachverfolgungsrückruf kann für Einzelseitenanwendungen von Vorteil sein. Jedes Mal, wenn Sie einen Treffer erfolgreich an Adobe senden, wird die `clearVars()` Funktion ausgeführt. Ihre Implementierung kann dann Variablen erneut definieren, ohne sich Gedanken über falsch vorhandene Werte machen zu müssen.
+Die Registrierung der [`clearVars()`](clearvars.md) Funktion im Nachverfolgungsrückruf kann für Einzelseitenanwendungen von Vorteil sein. Jedes Mal, wenn Sie einen Treffer erfolgreich an Adobe senden, wird die `clearVars()` Funktion ausgeführt. Ihre Implementierung kann dann Variablen erneut definieren, ohne sich Gedanken über falsch vorhandene Werte machen zu müssen.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
