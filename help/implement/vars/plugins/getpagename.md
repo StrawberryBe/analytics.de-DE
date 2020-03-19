@@ -2,7 +2,7 @@
 title: getPageName
 description: Erstellen Sie einen leicht lesbaren pageName aus dem aktuellen Website-Pfad.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,20 +11,20 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-Das `getPageName` Plug-in erstellt eine leicht lesbare, benutzerfreundliche formatierte Version der aktuellen URL. Adobe empfiehlt die Verwendung dieses Plug-Ins, wenn Sie einen `pageName` Wert wünschen, der sich leicht in der Berichterstellung einstellen und verstehen lässt. Dieses Plug-in ist nicht erforderlich, wenn Sie bereits über eine Benennungsstruktur für die `pageName` Variable verfügen, z. B. über eine Datenschicht. Es wird am besten verwendet, wenn Sie keine andere Lösung zum Festlegen der `pageName` Variablen haben.
+Das `getPageName` Plug-in erstellt eine leicht lesbare, benutzerfreundliche formatierte Version der aktuellen URL. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie einen [`pageName`](../page-vars/pagename.md) Wert wünschen, der in Berichte leicht festzulegen und verständlich ist. Dieses Plug-in ist nicht erforderlich, wenn Sie bereits über eine Benennungsstruktur für die `pageName` Variable verfügen, z. B. über eine Datenschicht. Es wird am besten verwendet, wenn Sie keine andere Lösung zum Festlegen der `pageName` Variablen haben.
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: getPageName initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -35,14 +35,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,12 +55,12 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 
 Die `getPageName` Methode verwendet die folgenden Argumente:
 
-* **`si`**(optional, Zeichenfolge): Eine ID, die am Anfang der Zeichenfolge eingefügt wird, welche die ID der Site darstellt. Dieser Wert kann entweder eine numerische ID oder ein benutzerfreundlicher Name sein. Wenn sie nicht eingestellt ist, wird standardmäßig die aktuelle Domäne verwendet.
-* **`qv`**(optional, Zeichenfolge): Eine kommagetrennte Liste von Abfragezeichenfolgenparametern, die, falls sie in der URL enthalten sind, der Zeichenfolge hinzugefügt werden
-* **`hv`**(optional, Zeichenfolge): Eine kommagetrennte Liste von Parametern im URL-Hash, die, wenn sie in der URL gefunden werden, der Zeichenfolge hinzugefügt werden
-* **`de`**(optional, Zeichenfolge): Das Trennzeichen zum Aufteilen einzelner Teile der Zeichenfolge. Der Standardwert ist ein Rohr (`|`).
+* **`si`** (optional, Zeichenfolge): Eine ID, die am Anfang der Zeichenfolge eingefügt wird, welche die ID der Site darstellt. Dieser Wert kann entweder eine numerische ID oder ein benutzerfreundlicher Name sein. Wenn sie nicht eingestellt ist, wird standardmäßig die aktuelle Domäne verwendet.
+* **`qv`** (optional, Zeichenfolge): Eine kommagetrennte Liste von Abfrage-Zeichenfolgenparametern, die, falls sie in der URL enthalten sind, der Zeichenfolge hinzugefügt werden
+* **`hv`** (optional, Zeichenfolge): Eine kommagetrennte Liste von Parametern im URL-Hash, die, falls sie in der URL gefunden werden, der Zeichenfolge hinzugefügt werden
+* **`de`** (optional, Zeichenfolge): Das Trennzeichen zum Aufteilen einzelner Teile der Zeichenfolge. Der Standardwert ist ein Rohr (`|`).
 
-Die Methode gibt eine Zeichenfolge zurück, die eine benutzerfreundliche Version der URL enthält. Diese Zeichenfolge wird normalerweise der `pageName` Variablen zugewiesen, kann aber auch in anderen Variablen verwendet werden.
+Die Methode gibt eine Zeichenfolge zurück, die eine benutzerfreundliche Version der URL enthält. Diese Zeichenfolge wird in der Regel der `pageName` Variablen zugewiesen, kann aber auch in anderen Variablen verwendet werden.
 
 ## Beispielaufrufe
 
@@ -72,13 +72,13 @@ Wenn die aktuelle URL...
 https://mail.google.com/mail/u/0/#inbox
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.pageName = getPageName()
 ```
 
- ...Der Endwert von s.pageName lautet:
+...Der Endwert von s.pageName lautet:
 
 ```js
 s.pageName = "mail.google.com|mail|u|0";
@@ -92,13 +92,13 @@ Wenn die aktuelle URL...
 https://mail.google.com/mail/u/0/#inbox
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.pageName = getPageName("gmail")
 ```
 
- ...Der Endwert von s.pageName lautet:
+...Der Endwert von s.pageName lautet:
 
 ```js
 s.pageName = "gmail|mail|u|0";
@@ -112,13 +112,13 @@ Wenn die aktuelle URL...
 https://www.google.com/
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.pageName = getPageName()
 ```
 
- ...Der Endwert von s.pageName lautet:
+...Der Endwert von s.pageName lautet:
 
 ```js
 s.pageName = "www.google.com|home"
@@ -134,13 +134,13 @@ Wenn die aktuelle URL...
 https://www.google.com/
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.pageName = getPageName("google","","","|")
 ```
 
- ...Der Endwert von s.pageName lautet:
+...Der Endwert von s.pageName lautet:
 
 ```js
 s.pageName = "google|home"
@@ -154,13 +154,13 @@ Wenn die aktuelle URL...
 https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
 ```
 
- ...und der folgende Code wird ausgeführt...
+...und der folgende Code wird ausgeführt...
 
 ```js
 s.pageName = getPageName()
 ```
 
- ...Der Endwert von s.pageName lautet:
+...Der Endwert von s.pageName lautet:
 
 ```js
 s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
@@ -172,7 +172,7 @@ Wenn der folgende Code jedoch stattdessen ausgeführt wird...
 s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
 ```
 
- ...Der Endwert von s.pageName lautet:
+...Der Endwert von s.pageName lautet:
 
 ```js
 s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
@@ -180,7 +180,7 @@ s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-
 
 ## Von früheren Versionen aktualisieren
 
-Version 4.0+ des getPageName-Plug-Ins ist nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. des &quot;s&quot;-Objekts) abhängig, das ausgeführt werden soll.  Wenn Sie sich für eine Aktualisierung auf diese Version entscheiden, müssen Sie den Code ändern, der das Plug-In aufruft, indem Sie alle Instanzen des &quot;s&quot;-Objekts aus dem Aufruf entfernen.
+Version 4.0+ des getPageName-Plug-Ins ist nicht von der Existenz des AppMeasurement-Objekts von Adobe Analytics (d. h. des &quot;s&quot;-Objekts), das ausgeführt werden soll, abhängig.  Wenn Sie sich für eine Aktualisierung auf diese Version entscheiden, vergewissern Sie sich, dass Sie den Code ändern, der das Plug-In aufruft, indem Sie alle Instanzen des &quot;s&quot;-Objekts aus dem Aufruf entfernen.
 Ändern Sie beispielsweise Folgendes:
 
 ```js
@@ -201,4 +201,4 @@ s.pageName = getPageName();
 
 ### 4.0 (22. Mai 2018)
 
-* Vollständige Neuanalyse/Umschreiben des Plugins
+* Vollständige Neuanalyse/Umschreiben des Plug-Ins
