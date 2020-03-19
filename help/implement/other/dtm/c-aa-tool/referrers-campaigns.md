@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referrer und Kampagnen
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 # Referrer und Kampagnen
 
-Beschreibung der Felder des [!UICONTROL Dynamic Tag Managements] für Referrer- und Kampagnenoptionen bei der Bereitstellung des [!UICONTROL Dynamic Tag Managements] in Adobe [!DNL Analytics].
+Beschreibung der Felder des [!UICONTROL Dynamic Tag Managements] für Referrer- und Kampagnenoptionen bei der Bereitstellung des [!UICONTROL Dynamic Tag Managements] in Adobe [!DNL Analytics].
 
-**[!UICONTROL *`Property`*]**>![Zahnradsymbol](assets/settings_gear.png)**[!UICONTROL Tool]**bearbeiten >**[!UICONTROL Referrer und Kampagnen]**
+**[!UICONTROL *`Property`*]** > ![Zahnradsymbol](assets/settings_gear.png)**[!UICONTROL  Tool bearbeiten ]** > **[!UICONTROL  Referrer und Kampagnen ]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -26,11 +26,11 @@ Beschreibung der Felder des [!UICONTROL Dynamic Tag Managements] für Referrer- 
  <tbody>
   <tr>
    <td colname="col1"> Verweisende Stelle überschreiben </td>
-   <td colname="col2"> <p>Überschreibt den Wert, der in der Variable <span class="varname">s.referrer</span> festgelegt ist, die normalerweise mit dem im Browser festgelegten Referrer aufgefüllt ist. </p> <p>Siehe [referrer](../../../vars/page-vars/referrer.md). </p> </td>
+   <td colname="col2"> <p>Überschreibt den Wert, der in der Variablen <span class="varname">s.referrer</span> festgelegt ist, die normalerweise mit dem im Browser festgelegten Referrer aufgefüllt ist. </p> <p>Siehe [referrer](../../../vars/page-vars/referrer.md). </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Kampagne </td>
-   <td colname="col2"> <p>Eine Variable, die Marketing-Kampagnen kennzeichnet, über die Besucher zu Ihrer Website gelangen. Der Wert einer Kampagne wird normalerweise einem Abfragezeichenfolgenparameter entnommen. </p> <p>Siehe [Kampagne](../../../vars/page-vars/campaign.md). </p> </td>
+   <td colname="col2"> <p>Eine Variable, die Marketing-Kampagnen kennzeichnet, über die Besucher zu Ihrer Website gelangen. Der Wert einer Kampagne wird normalerweise einem Abfragezeichenfolgenparameter entnommen. </p> <p>Siehe [campaign](../../../vars/page-vars/campaign.md). </p> </td>
   </tr>
  </tbody>
 </table>
