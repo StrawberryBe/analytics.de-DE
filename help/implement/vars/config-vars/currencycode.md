@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 Bei Sites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bestandteil von Analytics. Viele Websites, insbesondere solche, die sich über mehrere Länder erstrecken, verwenden verschiedene Währungen. Verwenden Sie die `currencyCode` Variable, um sicherzustellen, dass die Umsatzattribute der richtigen Währung entsprechen.
 
-Wenn `currencyCode` `products` nicht definiert ist, werden Währungswerte, die die Variablen- und Währungsereignisse definieren, so behandelt, als wären sie mit der Währung der Report Suite identisch. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) im Admin-Benutzerhandbuch, um die Währung der Report Suite anzuzeigen.
+Wenn `currencyCode` nicht definiert ist, werden die Währungswerte, die die Variablen- und [`products`](../page-vars/products.md) Währungswerte definieren, so behandelt, als wären sie mit der Währung der Report Suite identisch. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) im Admin-Benutzerhandbuch, um die Währung der Report Suite anzuzeigen.
 
 Wenn definiert `currencyCode` ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.
 
@@ -19,16 +19,16 @@ Wenn definiert `currencyCode` ist und sich von der Währung der Report Suite unt
 
 > [!IMPORTANT] Wenn ein ungültiger Wert `currencyCode` enthalten ist, wird der gesamte Treffer verworfen und führt zu Datenverlust. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
 
-Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
+Diese Variable bleibt nicht zwischen Treffern bestehen. Vergewissern Sie sich, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungs-Ereignis enthält.
 
 ## Währungscode beim Start der Adobe Experience Platform
 
-Währungscode ist ein Feld unter dem Akkordeon &quot; [!UICONTROL Allgemein] &quot;beim Konfigurieren der Adobe Analytics-Erweiterung.
+Währungscode ist ein Feld unter dem [!UICONTROL General] Akkordeon, wenn die Adobe Analytics-Erweiterung konfiguriert wird.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-4. Erweitern Sie das [!UICONTROL Akkordeon Allgemein] , das das Feld [!UICONTROL Währungscode] enthält.
+3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+4. Erweitern Sie das [!UICONTROL General] Akkordeon, das das [!UICONTROL Currency Code] Feld aufdeckt.
 
 Sie können entweder einen voreingestellten Währungscode oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
