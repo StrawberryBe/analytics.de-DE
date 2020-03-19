@@ -1,8 +1,8 @@
 ---
 title: getTimeToComplete
-description: Messen Sie die zum Abschließen einer Aufgabe benötigte Zeit.
+description: Messen Sie den Zeitraum, der zum Abschluss einer Aufgabe benötigt wird.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,20 +11,20 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-Das `getTimeToComplete` Plug-In verfolgt die Zeit, die ein Benutzer zum Abschluss eines Prozesses auf einer Site benötigt. Die &quot;Uhr&quot;beginnt, wenn die `start` Aktion aufgerufen wird, und endet, wenn die `stop` Aktion aufgerufen wird. Adobe empfiehlt die Verwendung dieses Plug-Ins, wenn ein Workflow auf der Site einige Zeit in Anspruch nimmt und Sie wissen möchten, wie viel Zeit die Besucher benötigen, um das Plug-In abzuschließen. Es ist nicht erforderlich, dieses Plug-in zu verwenden, wenn der Workflow auf Ihrer Site einen kurzen Zeitraum (weniger als 3 Sekunden) in Anspruch nimmt, da die Granularität nur auf die volle Sekunde reduziert wird.
+Das `getTimeToComplete` Plug-In verfolgt die Zeit, die ein Benutzer zum Abschluss eines Prozesses auf einer Site benötigt. Die &quot;Uhr&quot;beginnt, wenn die `start` Aktion aufgerufen wird, und endet, wenn die `stop` Aktion aufgerufen wird. Adobe empfiehlt die Verwendung dieses Plug-Ins, wenn ein Workflow auf der Site einige Zeit in Anspruch nimmt und Sie wissen möchten, wie viel Zeit Besucher benötigen, um das Plug-In abzuschließen. Es ist nicht erforderlich, dieses Plug-in zu verwenden, wenn der Workflow auf Ihrer Site einen kurzen Zeitraum (weniger als 3 Sekunden) in Anspruch nimmt, da die Granularität nur auf die volle Sekunde reduziert wird.
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: Initialize getTimeToComplete
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -35,14 +35,14 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
 ## Plug-In mit AppMeasurement installieren
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung `s_gi`). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 Die `getTimeToComplete` Methode verwendet die folgenden Argumente:
 
-* **`sos`**(optional, Zeichenfolge): Legen Sie fest,`"start"`wann der Timer gestartet werden soll. Legen Sie fest,`"stop"`wann der Timer angehalten werden soll. Die Standardeinstellung ist`"start"`.
-* **`cn`**(optional, Zeichenfolge): Der Name des Cookies, mit dem die Startzeit gespeichert werden soll. Die Standardeinstellung ist`"s_gttc"`.
-* **`exp`**(optional, integer): Die Anzahl der Tage, in denen das Cookie (und der Timer) abläuft. Die Standardeinstellung ist`0`das Ende der Browsersitzung.
+* **`sos`** (optional, Zeichenfolge): Legen Sie `"start"` fest, wann der Timer Beginn werden soll. Legen Sie fest, `"stop"` wann der Timer angehalten werden soll. Die Standardeinstellung ist `"start"`.
+* **`cn`** (optional, Zeichenfolge): Der Name des Cookies, in dem die Beginn gespeichert werden. Die Standardeinstellung ist `"s_gttc"`.
+* **`exp`** (optional, integer): Die Anzahl der Tage, in denen das Cookie (und der Timer) abläuft. Die Standardeinstellung ist `0`das Ende der Browsersitzung.
 
 Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die Anzahl der Tage, Stunden, Minuten und/oder Sekunden zwischen der `"start"` und der `"stop"` Aktion enthält.
 
@@ -71,15 +71,15 @@ Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die Anza
 
 ### Beispiel 1
 
-Verwenden Sie diese Aufrufe, um die Zeit zwischen dem Start des Kassengangprozesses durch einen Besucher und dem Kaufvorgang zu bestimmen.
+Verwenden Sie diese Aufrufe, um den Zeitraum zwischen dem Beginn des Kassengangs durch einen Besucher und dem Kaufvorgang zu bestimmen.
 
-Starten Sie den Timer, wenn der Besucher den Checkout startet:
+Beginn des Timers, wenn der Besucher den Checkout Beginn:
 
 ```js
 if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
 ```
 
-Beenden Sie den Timer, wenn der Besucher den Einkauf tätigt, und setzen Sie prop1 auf den Zeitunterschied zwischen Stopp und Start:
+Beenden Sie den Timer, wenn der Besucher den Einkauf tätigt, und setzen Sie prop1 auf den Zeitunterschied zwischen Stopp und Beginn:
 
 ```js
 if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
@@ -96,20 +96,20 @@ if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase"
 if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
 ```
 
- ...Wenn Sie aber auch (gleichzeitig) messen möchten, wie lange ein Registrierungsformular ausgefüllt werden muss, führen Sie auch den folgenden Code aus:
+...Wenn Sie aber auch (gleichzeitig) messen möchten, wie lange ein Registrierungsformular ausgefüllt werden muss, führen Sie auch den folgenden Code aus:
 
 ```js
 if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
 if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
 ```
 
-Im zweiten Beispiel soll event1 den Beginn eines Registrierungsprozesses erfassen, der - aus welchen Gründen auch immer - bis zu 7 Tagen dauern kann, und event2 soll den Abschluss der Registrierung erfassen.  s.prop2 erfasst die Zeit, die zum Abschluss des Registrierungsprozesses benötigt wird
+Im zweiten Beispiel soll Ereignis1 den Beginn eines Registrierungsprozesses erfassen, der aus welchen Gründen auch immer bis zu 7 Tage dauern kann, und Ereignis2 soll den Abschluss der Registrierung erfassen.  s.prop2 erfasst die Zeit, die zum Abschluss des Registrierungsprozesses benötigt wird
 
 ## Versionsverlauf
 
 ### 3.1 (30. September 2019)
 
-* Es wurde eine Logik hinzugefügt, die den Wert &quot;start&quot;oder &quot;stop&quot;im ersten Argument erfordert.  Alle anderen übergebenen Werte verhindern, dass das Plug-In ausgeführt wird.
+* Es wurde eine Logik hinzugefügt, die den Wert &quot;Beginn&quot;oder &quot;Stopp&quot;im ersten Argument erfordert.  Alle anderen übergebenen Werte verhindern, dass das Plug-In ausgeführt wird.
 * Aktualisierung des `inList 2.0` Plug-ins auf `inList 2.1`.
 
 ### 3.0 (23. August 2018)
