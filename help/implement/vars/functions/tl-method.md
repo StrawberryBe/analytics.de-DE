@@ -2,16 +2,16 @@
 title: tl
 description: Senden Sie einen Link-Verfolgungsaufruf an Adobe.
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # tl
 
-Die `tl` Methode ist eine wichtige Kernkomponente von Adobe Analytics. Es nimmt alle auf der Seite definierten Analytics-Variablen auf, kompiliert sie in eine Bildanforderung und sendet diese Daten an die Adobe-Datenerfassungsserver. Es funktioniert ähnlich wie die `t` Methode, allerdings inkrementiert diese Methode keine Seitenansichten. Es ist nützlich, um Links und andere Elemente zu verfolgen, die nicht als vollständige Seitenladung betrachtet werden.
+Die `tl()` Methode ist eine wichtige Kernkomponente von Adobe Analytics. Es nimmt alle auf der Seite definierten Analytics-Variablen auf, kompiliert sie in eine Bildanforderung und sendet diese Daten an die Adobe-Datenerfassungsserver. Es funktioniert ähnlich wie die [`t()`](t-method.md) Methode, allerdings inkrementiert diese Methode keine Ansichten der Seite. Es ist nützlich, um Links und andere Elemente zu verfolgen, die nicht als vollständige Seitenladung betrachtet werden.
 
-Wenn `trackDownloadLinks` oder `trackExternalLinks` aktiviert, ruft AppMeasurement automatisch die `tl` Methode auf, um Download- und Ausstiegslink-Verfolgungsdaten zu senden. Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten hat, können Sie die `tl` Methode manuell aufrufen. Benutzerspezifische Links können nur manuell verfolgt werden.
+Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackExternalLinks`](../config-vars/trackexternallinks.md) aktiviert, ruft AppMeasurement automatisch die `tl()` Methode auf, um Download- und Ausstiegslink-Verfolgungsdaten zu senden. Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten hat, können Sie die `tl()` Methode manuell aufrufen. Benutzerspezifische Links können nur manuell verfolgt werden.
 
 ## Link-Verfolgungsaufruf beim Start der Adobe Experience Platform
 
@@ -19,9 +19,9 @@ Wenn `trackDownloadLinks` oder `trackExternalLinks` aktiviert, ruft AppMeasureme
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken Sie unter &quot; [!UICONTROL Aktionen]&quot;auf das Symbol &quot;+&quot;
-1. Legen Sie das [!UICONTROL Erweiterungs] -Dropdownmenü auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf Beacon senden fest.
+1. Gehen Sie zur [!UICONTROL Rules] Registerkarte und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+1. Klicken Sie unter [!UICONTROL Actions]dem Symbol &quot;+&quot;auf
+1. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und das [!UICONTROL Action Type] auf Beacon senden fest.
 1. Click the `s.tl()` radio button.
 
 Sie können keine optionalen Argumente in Launch festlegen.
@@ -44,7 +44,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 Das link-Objekt-Argument bestimmt, ob der Browser bis zu 500 ms wartet, bevor er von der Seite weg navigiert. Wenn eine Bildanforderung früher als 500 ms gesendet wird, navigiert die Seite sofort zum angeklickten Link.
 
-> [!NOTE] AppMeasurement aktiviert automatisch die `useBeacon` Variable für Exitlinks, sodass dieses Argument in modernen Browsern nicht mehr benötigt wird. Dieses Argument wurde in früheren Versionen von AppMeasurement häufiger verwendet.
+> [!NOTE] AppMeasurement aktiviert automatisch die [`useBeacon`](../config-vars/usebeacon.md) Variable für Exitlinks, sodass dieses Argument in modernen Browsern nicht mehr benötigt wird. Dieses Argument wurde in früheren Versionen von AppMeasurement häufiger verwendet.
 
 * `this`: Warten Sie bis zu 500 ms, damit AppMeasurement Zeit zum Senden einer Bildanforderung hat. Standardwert.
 * `true`: Nicht warten.
@@ -59,7 +59,7 @@ s.tl(true);
 
 ### Link-Typ
 
-Das Linktypargument ist eine Zeichenfolge aus einem einzelnen Buchstaben, die den Typ des Linkverfolgungsaufrufs bestimmt. Es entspricht dem Festlegen der `linkType` Variablen.
+Das Linktypargument ist eine Zeichenfolge aus einem einzelnen Buchstaben, die den Typ des Linkverfolgungsaufrufs bestimmt. Es entspricht dem Festlegen der [`linkType`](../config-vars/linktype.md) Variablen.
 
 ```js
 // Send a custom link
@@ -74,7 +74,7 @@ s.tl(true,"e");
 
 ### Linkname
 
-Das Linknamenargument ist eine Zeichenfolge, die den Wert der Linktracking-Dimension bestimmt. Es entspricht dem Festlegen der `linkName` Variablen.
+Das Linknamenargument ist eine Zeichenfolge, die den Wert der Linktracking-Dimension bestimmt. Es entspricht dem Festlegen der [`linkName`](../config-vars/linkname.md) Variablen.
 
 ```js
 s.tl(true,"d","Example download link");
@@ -133,9 +133,9 @@ Sie können die Funktion dann immer dann aufrufen, wenn Sie einen bestimmten Lin
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
 
-### Vermeiden der Verfolgung doppelter Links
+### Vermeiden Sie die Verfolgung von Duplikat-Links
 
-Wenn AppMeasurement aktiviert `trackDownloadLinks` oder `trackExternalLinks` aktiviert ist, führt automatisch einen Link-Verfolgungsaufruf durch, wenn die richtigen Filter übereinstimmen. Wenn Sie auch manuell `s.tl()` für diese Link-Klicks aufrufen, können Sie doppelte Daten an Adobe senden. Duplizierte Daten führen zu einer Erhöhung der Berichtszahlen und deren Genauigkeit.
+Wenn AppMeasurement aktiviert `trackDownloadLinks` oder `trackExternalLinks` aktiviert ist, führt automatisch einen Link-Verfolgungsaufruf durch, wenn die richtigen Filter übereinstimmen. Wenn Sie auch manuell `s.tl()` für diese Link-Klicks aufrufen, können Sie Duplikat-Daten an Adobe senden. Die Duplikat-Daten erhöhen die Genauigkeit der Berichtszahlen und machen sie ungenauer.
 
 Beispielsweise sendet die folgende Funktion zwei Linktracking-Aufrufe für denselben Link-Klick (manuelle und automatische Downloadlinks):
 
@@ -145,7 +145,7 @@ function trackDownload(obj) {
 }
 ```
 
-Mithilfe der folgenden geänderten Funktion können Sie doppelte Linktracking-Aufrufe vermeiden. Zunächst wird geprüft, ob ein Linkobjekt vorhanden ist, und es wird nur ein manueller Linkverfolgungsaufruf gesendet, wenn das Linkobjekt eine leere Zeichenfolge ist.
+Mithilfe der folgenden geänderten Funktion können Sie Duplikat-Linktracking-Aufrufe verhindern. Zunächst wird geprüft, ob ein Linkobjekt vorhanden ist, und es wird nur ein manueller Linkverfolgungsaufruf gesendet, wenn das Linkobjekt eine leere Zeichenfolge ist.
 
 ```JavaScript
 function linkCode(obj) {
