@@ -1,8 +1,8 @@
 ---
 title: getQueryParam
-description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
+description: Extrahieren Sie den Wert des Abfragen-Zeichenfolgenparameters einer URL.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,22 +11,22 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
 
-Mit dem `getQueryParam` Plug-in können Sie den Wert eines beliebigen Abfragezeichenfolgen-Parameters extrahieren, der in einer URL enthalten ist. Es ist nützlich, um interne und externe Kampagnencodes aus den Einstiegsseiten-URLs zu extrahieren. Sie ist auch beim Extrahieren von Suchbegriffen oder anderen Abfragezeichenfolgenparametern nützlich.
+Mit dem `getQueryParam` Plug-In können Sie den Wert eines beliebigen Abfrage-Zeichenfolgenparameters extrahieren, der in einer URL enthalten ist. Es ist nützlich, um interne und externe Campaign-Codes aus Landingpages-URLs zu extrahieren. Sie ist auch beim Extrahieren von Suchbegriffen oder anderen Abfragen-Zeichenfolgenparametern nützlich.
 
-Dieses Plug-in bietet stabile Funktionen zum Analysieren komplexer URLs, einschließlich Hashes und URLs, die mehrere Abfragezeichenfolgenparameter enthalten. Wenn Sie nur einfache Abfragezeichenfolgenparameter benötigen, empfiehlt Adobe die Verwendung der URL-Parameterfunktionen in Launch oder der in AppMeasurement enthaltenen `Util.getQueryParam` Methode.
+Dieses Plug-in bietet leistungsstarke Funktionen zum Analysieren komplexer URLs, einschließlich Hashes und URLs, die mehrere Zeichenfolgenparameter für die Abfrage enthalten. Wenn Sie nur über einfache Zeichenfolgenparameter verfügen, empfiehlt Adobe die Verwendung der URL-Parameterfunktionen in Launch oder der in AppMeasurement enthaltenen [`Util.getQueryParam()`](../functions/util-getqueryparam.md) Methode.
 
 ## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann auf die Schaltfläche [!UICONTROL Katalog]
-1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins]
+1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
+1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
    * Bedingung: Keines
    * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Fügen Sie der oben stehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
    * Erweiterung: Allgemeine Analytics-Plugins
    * Aktionstyp: getQueryParam initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
@@ -37,8 +37,8 @@ Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Edito
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung Adobe Analytics auf die Schaltfläche [!UICONTROL Konfigurieren] .
-1. Erweitern Sie die [!UICONTROL Verfolgung mithilfe eines benutzerdefinierten Code] -Akkordeons, das die Schaltfläche zum [!UICONTROL Öffnen des Editors] anzeigt.
+1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
 1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
 1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
 
@@ -56,16 +56,16 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 Die `getQueryParam` Methode verwendet die folgenden Argumente:
 
-* **`qsp`**(erforderlich): Eine kommagetrennte Liste von Abfragezeichenfolgenparametern, nach denen in der URL gesucht werden soll. Es wird nicht zwischen Groß- und Kleinschreibung unterschieden.
-* **`de`**(optional): Das zu verwendende Trennzeichen, wenn mehrere Abfragezeichenfolgenparameter übereinstimmen. Der Standardwert ist eine leere Zeichenfolge.
-* **`url`**(optional): Eine benutzerdefinierte URL, Zeichenfolge oder Variable, aus der die Parameterwerte der Abfragezeichenfolge extrahiert werden. Die Standardeinstellung ist`window.location`.
+* **`qsp`** (erforderlich): Eine kommagetrennte Liste von Abfragen-Zeichenfolgenparametern, nach denen in der URL gesucht werden soll. Es wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+* **`de`** (optional): Das Trennzeichen, das verwendet wird, wenn mehrere Zeichenfolgenparameter der Abfrage übereinstimmen. Der Standardwert ist eine leere Zeichenfolge.
+* **`url`** (optional): Eine benutzerdefinierte URL, Zeichenfolge oder Variable, aus der die Parameterwerte der Abfrage-Zeichenfolge extrahiert werden. Die Standardeinstellung ist `window.location`.
 
 Der Aufruf dieser Methode gibt einen Wert zurück, der von den oben genannten Argumenten und der URL abhängt:
 
-* Wenn kein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Methode eine leere Zeichenfolge zurück.
-* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, gibt die Methode den Parameterwert der Abfragezeichenfolge zurück.
-* Wenn ein übereinstimmender Abfragezeichenfolgenparameter gefunden wird, der Wert jedoch leer ist, gibt die Methode `true`zurück.
-* Wenn mehrere übereinstimmende Abfragezeichenfolgenparameter gefunden werden, gibt die Methode eine Zeichenfolge zurück, bei der jeder Parameterwert durch die Zeichenfolge im `de` Argument getrennt wird.
+* Wenn kein übereinstimmender Zeichenfolgenparameter gefunden wird, gibt die Abfrage eine leere Zeichenfolge zurück.
+* Wenn ein übereinstimmender Abfrage-Zeichenfolgenparameter gefunden wird, gibt die Methode den Parameterwert der Abfrage-Zeichenfolge zurück.
+* Wenn ein übereinstimmender Abfrage-Zeichenfolgenparameter gefunden wird, der Wert jedoch leer ist, gibt die Methode `true`zurück.
+* Wenn mehrere übereinstimmende Zeichenfolgenparameter gefunden werden, gibt die Abfrage eine Zeichenfolge zurück, bei der jeder Parameterwert durch die Zeichenfolge im `de` Argument getrennt wird.
 
 ## Beispielaufrufe
 
@@ -77,7 +77,7 @@ Wenn die aktuelle URL die folgende ist:
 http://www.abc123.com/?cid=trackingcode1
 ```
 
-Der folgende Code setzt s.campaign gleich &quot;trackingcode1&quot;:
+Der folgende Code setzt s.Campaign gleich &quot;trackingcode1&quot;:
 
 ```js
 s.campaign=s.getQueryParam('cid');
@@ -91,7 +91,7 @@ Wenn die aktuelle URL die folgende ist:
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-Im folgenden Code wird s.campaign auf &quot;trackingcode1:123456&quot;eingestellt:
+Im folgenden Code wird s.Campaign gleich &quot;trackingcode1:123456&quot;eingestellt:
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid',':');
@@ -105,7 +105,7 @@ Wenn die aktuelle URL die folgende ist:
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-Im folgenden Code wird s.campaign auf &quot;trackingcode1123456&quot;eingestellt:
+Im folgenden Code wird s.Campaign gleich &quot;trackingcode1123456&quot;eingestellt:
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid');
@@ -119,7 +119,7 @@ Wenn die aktuelle URL die folgende ist:
 http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
 ```
 
-Im folgenden Code wird s.campaign auf &quot;123456&quot;eingestellt:
+Im folgenden Code wird s.Campaign auf &quot;123456&quot;eingestellt:
 
 ```js
 s.campaign=s.getQueryParam('ecid');
@@ -133,13 +133,13 @@ Wenn die aktuelle URL die folgende ist:
 http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 ```
 
-Im folgenden Code wird s.campaign auf &quot;123456&quot;eingestellt
+Im folgenden Code wird s.Campaign auf &quot;123456&quot;eingestellt
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** Hinweis: Das Plug-In ersetzt die URL durch ein Fragezeichen, wenn kein Fragezeichen vorhanden ist.  Wenn die URL ein Fragezeichen enthält, das vor dem Hashzeichen steht, ersetzt das Plug-In die URL durch das Hashzeichen der Prüfung durch ein kaufmännisches Und;
+**Hinweis:** Das Plug-In ersetzt die URL durch ein Fragezeichen, wenn kein Fragezeichen vorhanden ist.  Wenn die URL ein Fragezeichen enthält, das vor dem Hashzeichen steht, ersetzt das Plug-In die URL durch das Hashzeichen der Prüfung durch ein kaufmännisches Und;
 
 ### Beispiel 6
 
@@ -149,25 +149,25 @@ Wenn die aktuelle URL die folgende ist...
 http://www.abc123.com/
 ```
 
- ...und wenn die Variable s.testURL wie folgt eingestellt ist:
+...und wenn die Variable s.testURL wie folgt eingestellt ist:
 
 ```js
 s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
 ```
 
-Der folgende Code legt s.campaign überhaupt nicht fest:
+Der folgende Code legt s.Campaign überhaupt nicht fest:
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
 
-Im folgenden Code wird s.campaign jedoch gleich &quot;trackingcode1&quot;eingestellt:
+Im folgenden Code wird s.Campaign jedoch gleich &quot;trackingcode1&quot;eingestellt:
 
 ```js
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** Hinweis: Der dritte Parameter kann jede beliebige Zeichenfolge/Variable sein, die der Code verwendet, um die Abfragezeichenfolgenparameter in
+**Hinweis:** Der dritte Parameter kann jede beliebige Zeichenfolge/Variable sein, die der Code verwendet, um die Zeichenfolgenparameter der Abfrage in
 
 Im folgenden Code wird s.eVar2 gleich &quot;123456|trackingcode1|true|300&quot;eingestellt:
 
@@ -193,13 +193,13 @@ Der Wert von 300 stammt aus dem Wert des Parameters &quot;pos&quot;in der Variab
 
 ### 3.1 (10. Mai 2018)
 
-* Problem mit der Erfassung von Abfragezeichenfolgenparametern ohne Wert behoben
+* Es wurde ein Problem bei der Erfassung von Zeichenfolgenparametern für Abfragen ohne Wert behoben.
 
 ### 3.0 (16. April 2018)
 
 * Point Release (neu kompiliert, kleinere Codegröße).
 * Umbenannte Hilfsfunktionen für Lesbarkeit `findParameterValue` und `getParameterValue` für Lesbarkeit.
-* Die Notwendigkeit, ein Argument hinzuzufügen, um Parameter im URL-Hash zu finden, wurde entfernt
+* Die Notwendigkeit, ein Argument für die Suche nach Parametern im URL-Hash hinzuzufügen, wurde entfernt.
 
 ### 2.5 (8. Januar 2016)
 
@@ -207,7 +207,7 @@ Der Wert von 300 stammt aus dem Wert des Parameters &quot;pos&quot;in der Variab
 
 ### 2.4
 
-* Der `h` Parameter wurde hinzugefügt, sodass der Code nach Abfragezeichenfolgen-Parametern suchen kann, die nach dem Hash-Zeichen (`#`) gefunden wurden
+* Der `h` Parameter wurde hinzugefügt, sodass der Code die Zeichenfolgenparameter nach dem Hashzeichen (`#`) finden kann
 
 ### 2.3
 
