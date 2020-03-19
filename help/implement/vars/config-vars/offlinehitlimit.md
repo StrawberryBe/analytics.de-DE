@@ -1,17 +1,17 @@
 ---
 title: offlineHitLimit
-description: Legen Sie die maximale Anzahl von Treffern fest, die zur Offline-Verfolgung in die Warteschlange gestellt werden sollen.
+description: Legen Sie die maximale Anzahl von Treffern fest, die für die Offline-Verfolgung in die Warteschlange gestellt werden sollen.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # offlineHitLimit
 
-Die Offline-Verfolgung ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Verbindung zum Internet trennt, aber weiterhin auf Ihrer Site surft, werden die Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät wieder eine Verbindung zum Internet herstellt. Die Offline-Verfolgung wird hauptsächlich für mobile Anwendungen verwendet.
+Die Offline-Verfolgung ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Internetverbindung trennt, aber weiterhin auf Ihrer Site surft, werden die Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät wieder eine Internetverbindung herstellt. Die Offline-Verfolgung wird hauptsächlich für mobile Anwendungen verwendet.
 
-Die `offlineHitLimit` Variable platziert eine Obergrenze für die Anzahl der Treffer, die das Gerät lokal speichert. Diese Variable funktioniert nur, wenn `trackOffline` dies `true`der Fall ist.
+Die `offlineHitLimit` Variable platziert eine Obergrenze für die Anzahl der Treffer, die das Gerät lokal speichert. Diese Variable funktioniert nur, wenn sie aktiviert [`trackOffline`](trackoffline.md) ist.
 
 ## Offline-Trefferbeschränkung beim Start der Adobe Experience Platform
 
