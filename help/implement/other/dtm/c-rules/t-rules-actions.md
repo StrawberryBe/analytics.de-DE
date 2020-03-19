@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Aktionen einrichten, die von der Bedingung ausgelöst werden
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -35,5 +35,5 @@ Jede Regel kann beliebig viele Skripte auslösen oder HTML-Codes einfügen.
 1. Benennen Sie das Skript.
 1. Geben Sie an, wie das Skript ausgelöst werden soll, und fügen Sie den gewünschten Inhalt in den Textbereich ein. ![](assets/scripts-actions3.png)
 
-1. Klicken Sie auf **[!UICONTROL Code speichern]**. Das Skript wird der Warteschlange für die Regel hinzugefügt.![](assets/scripts-actions4.png)
+1. Klicken Sie auf **[!UICONTROL Code speichern]**. Das Skript wird der Warteschlange für die Regel hinzugefügt. ![](assets/scripts-actions4.png)
 
