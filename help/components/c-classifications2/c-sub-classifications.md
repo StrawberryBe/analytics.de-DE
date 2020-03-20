@@ -63,7 +63,7 @@ Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdat
 
 Beispiel:
 
-| SCHLÜSSEL | EIGENSCHAFT 1 | Eigenschaft 1&amp;Hut;Eigenschaft1-1 | Eigenschaft 1&amp;Hut;Eigenschaft1-2 | Eigenschaft 2 |
+| SCHLÜSSEL | EIGENSCHAFT 1 | Eigenschaft 1^Eigenschaft 1-1 | Eigenschaft 1^Eigenschaft 1-2 | Eigenschaft 2 |
 |---|---|---|---|---|
 | 123 | ABC | Grün | Klein | A12B |
 | 456 | DEF | Rot | Groß | C3D4 |
