@@ -2,8 +2,8 @@
 description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 title: Übersicht über Kalender und Datumsbereiche
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 
-Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweilige Bedienfeld. Sie haben jedoch die Möglichkeit, die Auswahl auf sämtliche Bedienfelder anzuwenden. Der Workspace-Kalender zeigt standardmäßig den aktuellen und den vorherigen Monat an.
+Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweilige Bedienfeld. Sie haben jedoch die Möglichkeit, die Auswahl auf sämtliche Bedienfelder anzuwenden. Wenn Sie in Workspace auf einen Datumsbereich klicken, zeigt die Benutzeroberfläche den aktuellen Kalendermonat und den vorherigen Kalendermonat an. Sie können diese beiden Kalender anpassen, indem Sie auf die Rechts- und Linkspfeile in den jeweiligen oberen Ecken klicken.
 
-Mit dem ersten Klick öffnet sich die Auswahl eines Datumsbereichs. Anschließend kann der Datumsbereich in beide Richtungen markiert werden. Mit einem zweiten Klick wählen Sie den Bereich für das Enddatum aus. Wird `Shift` beim Klick auf das erste Datum gedrückt gehalten (oder Rechtsklick verwendet), wird dies an den Bereich angehängt.
+![Kalender](assets/aw_calendar.png)
+
+Beim ersten Klick auf einen Kalender wird eine Datumsbereichsauswahl Beginn. Der zweite Klick schließt eine Datumsbereichsauswahl ab, die hervorgehoben wird. Wenn die `Shift` Taste gedrückt gehalten wird (oder ein Rechtsklick verwendet wird), wird sie an den derzeit ausgewählten Bereich angehängt.
 
 Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspace-Projekt ablegen. Sie können spezifische Tage, Wochen, Monate, Jahre oder ein rollierendes Datum auswählen.
 
-![](assets/aw_calendar.png)
-
-[Verwendung von Datumsbereichen und Kalender in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
-
+[Verwendung von Datumsbereichen und Kalender in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 | Einstellung | Beschreibung |
 |--- |--- |
