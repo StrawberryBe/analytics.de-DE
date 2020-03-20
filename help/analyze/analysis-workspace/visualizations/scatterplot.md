@@ -1,20 +1,20 @@
 ---
-description: Zeigen Sie die erzielten Impressionen und die Anzahl der Unique Users an, die diese Impressionen gesehen haben.
 title: Streudiagramm
-uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+description: Eine Visualisierung, die die Beziehung zwischen bis zu drei Metriken anzeigt.
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
 
 # Streudiagramm
 
-Zeigen Sie die erzielten Impressionen und die Anzahl der Unique Users an, die diese Impressionen gesehen haben.
+Die Streudiagrammdarstellung zeigt die Beziehung zwischen Dimensionswerten und bis zu drei Metriken. Es erfordert drei Komponenten und unterstützt die Visualisierung von bis zu vier Komponenten.
 
-Die Größe jedes Datenpunkts verdeutlicht visuell, wie oft ein Benutzer durchschnittlich eine Werbeanzeige gesehen hat. Die Größe und Daten variieren je nach ausgewählten Dimensionen, Datumsbereichen und Filtern.
+* Die Zeilenkomponente (normalerweise eine Dimension) stellt jeden Punkt im Diagramm dar. Verschiedene Zeilen werden als unterschiedliche farbige Punkte angezeigt.
+* Die Spalte ganz links (normalerweise eine Metrik) zeichnet die Position des Punkts auf der Y-Achse (vertikal).
+* Die zweite Spalte zeichnet die Position des Punkts auf der X-Achse (horizontal).
+* Die dritte Spalte bestimmt den Radius des Punkts.
+* Alle nachfolgenden Spalten in einer Freiform-Tabelle werden von der Streudiagrammdarstellung ignoriert.
 
-![](assets/scatter.png)
-
-> [!NOTE]Eine zu einem Streudiagramm zugeordnete Tabelle muss mindestens zwei Säulen enthalten. Die erste Spalte definiert die X-Achse, die zweite Spalte die Y-Achse. Wenn eine dritte Spalte vorhanden ist, verwendet das Streudiagramm sie, um den Radius des Punkts zu bestimmen. In anderen Worten: Spalten *1*, *2* und *3* werden der *X-Achse*, der *Y-Achse* bzw. dem *Punktradius* zugeordnet.
-
+![Streudiagramm](assets/scatter.png)
