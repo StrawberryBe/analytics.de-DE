@@ -1,37 +1,24 @@
 ---
-description: Zeigt die Links auf der Seite zu Websites außerhalb Ihrer Website an, auf die die Benutzer am häufigsten klicken. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Websites. Es sind jedoch auch andere Websites möglich, auf die Sie einen externen Link gelegt haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
 title: Exitlinks
-topic: Reports
-uuid: e1452f04-389d-4aa3-8763-732880284302
+description: Berichte zu den häufigsten Links, auf die Benutzer klicken, um Ihre Site zu verlassen.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: be4c3ec95b9e93dda7603c0bdb178c0a54d800a0
 
 ---
 
 
 # Exitlinks
 
-Zeigt die Links auf der Seite zu Websites außerhalb Ihrer Website an, auf die die Benutzer am häufigsten klicken. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Websites. Es sind jedoch auch andere Websites möglich, auf die Sie einen externen Link gelegt haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
+Zeigt die häufigsten Links an, auf die Personen klicken, um Ihre Site zu verlassen. Diese Links verweisen in der Regel auf Partner- oder Affiliate-Sites. Sie können jedoch an jedem Ort sein, an dem Sie einen externen Link haben. In diesem Bericht können Sie die beliebtesten Affiliate-Links abrufen oder auch die Anzahl der Verweise überprüfen, die nach Angaben Ihrer Partner von Ihrer Website stammen.
 
 Damit diese Seite ordnungsgemäß mit Daten gefüllt werden kann, müssen bestimmte Anforderungen erfüllt sein:
-
-* Bei manuellen Linktracking von benutzerspezifischen Links muss eine *`s.tl()`*-Anforderung ausgelöst werden, bei der der mittlere Parameter auf *e* eingestellt ist.
-
+* Bei Verwendung der manuellen Verfolgung benutzerspezifischer Links muss eine `tl()` Anforderung ausgelöst werden, wobei der mittlere Parameter auf `e`.
 * Bei automatischen Linktracking von benutzerspezifischen Links müssen alle Anforderungen erfüllt sein:
-* 
-
-   * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) muss auf *True* eingestellt sein.
-
-   * Der Link, auf den der Benutzer geklickt hat, darf nicht mit den Werten in der Variable [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) übereinstimmen.
-   * Wenn [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) implementiert ist, muss der externe Link mit mindestens einem der in dieser Variablen festgelegten Werte übereinstimmen.
-
-* Ist eine der obigen Anforderungen nicht erfüllt, wird der Treffer nicht in diesen Bericht aufgenommen.
-
-* 
-* Wie bei allen Linktracking-Treffern für benutzerspezifische Links wird die Variable [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) aus der Bildanforderung entfernt, damit keine irrelevanten Seitenansichten gezählt werden.
+   * Die [Variable trackExternalLinks](/help/implement/vars/config-vars/trackexternallinks.md) muss aktiviert sein.
+   * The link the user clicked on must not match any values within the [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
+   * If the [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) variable exists, the external link must match at least one of the values set in this variable.
+* Wenn eine der oben genannten Anforderungen nicht erfüllt wird, füllt der Treffer diesen Bericht nicht.
+* Wie bei allen Treffern zur Verfolgung benutzerspezifischer Links wird die Variable &quot; [pageName](/help/implement/vars/page-vars/pagename.md) &quot;aus der Bildanforderung entfernt, um eine Erhöhung der Ansichten auf der Seite zu verhindern.
 * Sie können diesen Bericht als Trend- und als Rangansicht anzeigen.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
-* Sie können [Aufschlüsselungen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) in den Admin Tools mit jeder beliebigen Variable erstellen.
-* [Instanzen](/help/components/c-variables/c-metrics/metrics-instance.md) sind die einzigen Metriken, die standardmäßig für diesen Bericht zur Verfügung stehen, wobei ermittelt wird, wie oft der Exitlink ausgelöst wird.
-* Für diesen Bericht können Besucher pro Tag, Woche, Monat und Quartal aktiviert werden. Die Aktivierung ist jedoch nur durch einen Adobe-Support-Mitarbeiter möglich und ist kostenpflichtig. Wenn Unique Visitors für Variablen zu Linktracking benutzerspezifischer Links aktiviert werden, steigt die Latenz der Report Suite erheblich an.
-
+* Sie können  [Aufschlüsselungen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) mit jeder anderen Variablen.
