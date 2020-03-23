@@ -2,18 +2,17 @@
 description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen es Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
 title: Seitenanalysen in Echtzeit (Livemodus)
 topic: Activity map
-uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
 
 ---
 
 
-# Seitenanalysen in Echtzeit (Livemodus)
+# Seitenanalyse in Echtzeit (Livemodus)
 
 Seitenanalysen in Echtzeit (Livemodus) ermöglichen es Ihnen, Ergebnisse mit genauen Details in Echtzeit zu erhalten.
 
-Activity Map zeigt jetzt Analysedaten in Inkrementen von 1 bis 15 Minuten an, um die Beliebtheit von Links basierend auf Micro-Trends für ausgewählte Seiten zu überwachen. Es ist besonders wichtig für publizierende Unternehmen, das steigende oder sinkende Interesse an Beiträgen zu verfolgen, darauf zu reagieren und den Datenverkehr in Echtzeit zu überwachen.
+Aktivität Map zeigt jetzt Analysedaten in Inkrementen von 1 bis 15 Minuten an, um die Linkpopularität basierend auf Mikrotrends für ausgewählte Seiten zu überwachen. Es ist besonders wichtig für publizierende Unternehmen, das steigende oder sinkende Interesse an Beiträgen zu verfolgen, darauf zu reagieren und den Datenverkehr in Echtzeit zu überwachen.
 
 Als Eigentümer des Inhalts einer Site gehört es zu Ihren Aufgaben, zu erkennen, wann Inhalt höhergestuft oder entfernt werden muss, um den Besuchern laufend interessanten Inhalt zu bieten. Echtzeit-Daten sind das A und O, um diese Aufgabe erfüllen zu können. Wenn Sie den aktuellen Trend für Links und Inhalt kennen, können Sie schnell und gezielt reagieren, um Leser und Kunden weiterhin an Ihre Marke zu binden.
 
@@ -25,13 +24,21 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-## Datenlatenz als Folge der A4T-Konfiguration {#section_806CE36354FC4C539A0DED9266A5C704}
+Wenn Sie prüfen möchten, welches Element im Livemodus am häufigsten angeklickt wird:
 
-Nach Aktivierung der A4T-Integration in Adobe Target ist in Adobe Analytics eine zusätzliche Latenz von 5 bis 10 Minuten festzustellen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
+1. Wählen Sie den Zeitraum in der **[!UICONTROL Live Mode]** Trendlinie der Symbolleiste aus, den Sie analysieren möchten.
+1. Klicken Sie auf das Augensymbol in der Symbolleiste, um auf die Tabelle &quot;Linkbericht&quot;zuzugreifen.
+1. Ordnen Sie die Tabelle über den Link an.
+
+## Datenlatenz als Folge der A4T-Konfiguration
+
+After the [A4T integration](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
 Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
 
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/de_DE/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+
+Weitere Informationen [hier](/help/analyze/activity-map/activitymap-standard-live.md).
