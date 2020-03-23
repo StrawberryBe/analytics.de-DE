@@ -3,7 +3,7 @@ description: 'null'
 title: Übersicht über das Attributionsbedienfeld
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -36,7 +36,7 @@ Das Attributionsbedienfeld ist eine Funktion von [Attribution IQ](../../attribut
 
 | Benutzeroberflächensymbol | Attributionsmodell | Definition | Verwendungsbereiche |
 | --- | --- | --- | --- |
-| ![Algorithmus](assets/algorithmic.png) | [Algorithmus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Verwendet statistische Verfahren, um die optimale Zuordnung der Gutschrift für die ausgewählte Metrik dynamisch zu bestimmen. | Nützlich, um bei der Auswahl des richtigen Zuordnungsmodells für Ihr Unternehmen Ratschläge oder Heuristik zu vermeiden. |
+| ![Algorithmisch](assets/algorithmic.png) | [Algorithmisch](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Verwendet statistische Verfahren, um die optimale Zuordnung der Gutschrift für die ausgewählte Metrik dynamisch zu bestimmen. | Nützlich, um bei der Auswahl des richtigen Zuordnungsmodells für Ihr Unternehmen Ratschläge oder Heuristik zu vermeiden. |
 
 ## Lookback-Fenster
 
@@ -96,3 +96,5 @@ Die Attribution wird immer vor der Segmentierung ausgeführt und die Segmentieru
 Wenn Sie z. B. eine VRS mit angewendetem Segment „Hits anzeigen“ erstellen, können Sie mithilfe einiger Attributionsmodelle andere Kanäle in einer Tabelle sehen.
 
 ![Schreibgeschützte Virtual Report Suite](assets/vrs-aiq-example.png)
+
+> [!NOTE] Wenn ein Segment Treffer unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter werden jedoch lediglich einige Dimensionswerte ausgeblendet, ohne dass dies Auswirkungen auf die pro Zuordnungsmodell verarbeiteten Metriken hat. Daher können Segmente und Filter mit vergleichbaren Definitionen manchmal niedrigere Werte für das Segment zurückgeben.
