@@ -4,15 +4,18 @@ title: Übersicht über Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
 
 # Übersicht über Activity Map
 
+>[!Note]
+>Erfahren Sie, wie Aktivität Map Einzelseitenanwendungen (SPA) auf unserer [FAQ](/help/analyze/activity-map/activitymap-faq.md) -Seite unterstützt.
+
 >[!IMPORTANT]
->Am 16. Januar 2020 beginnt Adobe Analytics mit dem Wechsel zur neuen Domäne https://experience.adobe.com/analytics. Diese Änderung kann in bestimmten Fällen dazu führen, dass die Activity Map für einige Kunden nicht mehr funktioniert. Wie Sie wissen, wird Activity Map in einem iframe in die Kundenseite eingefügt (ein iframe für die Activity Map-Symbolleiste und ein iframe für das untere Bedienfeld von Activity Map). Möglicherweise haben Sie auf Ihrer Webseite eine Richtlinie zur Inhaltssicherheit für „frame-src“ festgelegt, die „.adobe.com“ nicht enthält. In diesem Fall wird Activity Map auf einer solchen Webseite nicht mehr funktionieren.
+>Am 16. Januar 2020 begann Adobe Analytics mit der Umstellung auf eine neue Domäne: https://experience.adobe.com/analytics. Diese Änderung kann in bestimmten Fällen dazu führen, dass die Activity Map für einige Kunden nicht mehr funktioniert. Wie Sie wissen, wird Activity Map in einem iframe in die Kundenseite eingefügt (ein iframe für die Activity Map-Symbolleiste und ein iframe für das untere Bedienfeld von Activity Map). Möglicherweise haben Sie auf Ihrer Webseite eine Richtlinie zur Inhaltssicherheit für „frame-src“ festgelegt, die „.adobe.com“ nicht enthält. In diesem Fall wird Activity Map auf einer solchen Webseite nicht mehr funktionieren.
 
 Activity Map ist eine Adobe Analytics-Anwendung, die der Linkaktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Webseiten zu überwachen.
 
