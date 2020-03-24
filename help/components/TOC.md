@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [Klassifizierungsregelsätze](c-classifications2/crb/classification-rule-set.md)
       + [Klassifizierungsregeln](c-classifications2/crb/classification-quickstart-rules.md)
       + [Klassifizierungsregeln – Definitionen](c-classifications2/crb/classification-rule-definitions.md)
-      + [Unterklassifizierungen und der Rule Builder – Anwendungsfall](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Unterklassifizierungen und der Regelaufbau](c-classifications2/crb/sub-classification-rule-builder.md)
    + Numerisch 2 Classifications {#numeric2-classification}
       + [Numerisch 2 Classifications – Übersicht](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Numerisch 2 Classifications erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -327,11 +327,11 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
    + [Echtzeitberichte konfigurieren](c-real-time-reporting/t-realtime-admin.md)
    + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)
 + Marketing-Kanäle {#marketing-channels}
-   + [Erste Schritte mit Marketingkanälen](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Erste Schritte mit Marketing-Kanälen](c-marketing-channels/c-getting-started-mchannel.md)
    + [Marketing-Kanäle verwalten](c-marketing-channels/c-channels.md)
    + [Verarbeitungsregeln für Marketing-Kanäle](c-marketing-channels/c-rules.md)
    + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/classifictions-mchannel.md)
    + [Besucherinteraktionsablauf](c-marketing-channels/visitor-engagement.md)
-   + [Marketingkanäle analysieren](c-marketing-channels/analyze-mc.md)
-   + [Berechtigungen für Marketingkanäle](c-marketing-channels/c-channel-report-access.md)
-   + [Häufig gestellte Fragen und Beispiele zu Marketingkanälen](c-marketing-channels/c-faq.md)
+   + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
+   + [Berechtigungen für Marketing-Kanal](c-marketing-channels/c-channel-report-access.md)
+   + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)
