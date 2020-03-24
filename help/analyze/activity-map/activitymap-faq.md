@@ -4,7 +4,7 @@ title: Activity Map – Häufig gestellte Fragen
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
 
 ---
 
@@ -21,104 +21,104 @@ A: Lesen Sie [Activity Map aktivieren](/help/analyze/activity-map/activitymap-ge
 
 **F: Haben alle Analytics-Kunden Zugriff auf die Seite „Activity Map – Aktivierung“ in den Admin Tools?**
 
-A: Adobe SiteCatalyst-Kunden haben keinen Zugriff auf die Seite „Activity Map – Aktivierung“ in der Admin Console. Nur Unternehmen mit Adobe Analytics Standard- und Adobe Analytics Premium-Verträgen haben Zugriff auf diese Konfigurationsseite.
+A: Adobe SiteCatalyst-Kunden haben keinen Zugriff auf die Seite „Activity Map – Aktivierung“ in der Admin Console. Auf diese Konfigurationsseite haben nur Firmen mit Adobe Analytics Standard- und Adobe Analytics Premium-Verträgen Zugriff.
 
-**F: Kann der neue AppMeasurement-Code über Dynamic Tag Management (DTM) konfiguriert werden?**
+**Q: Kann der neue AppMeasurement-Code über das dynamische Tag-Management (DTM) konfiguriert werden?**
 
-A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html).
+A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) .
 
-**F: Welche großen Änderungen wurden an der AppMeasurement v1.6-Bibliothek vorgenommen?**
+**Q: Was sind die großen Änderungen in der AppMeasurement v1.6-Bibliothek?**
 
-A: Die einzige Änderung in AppMeasurement v1.6 ist die Linktracking-Methode in Activity Map, für die Seitenname, Link-ID und Regions-ID erfasst werden müssen.
+A: Die einzige Änderung in AppMeasurement v1.6 betrifft die Linktracking-Methode für Aktivitäten-Map, die die Erfassung von Seitennamen, Link-ID und Regions-ID erfordert.
 
-**F: Wird das Rollout von AppMeasurement auf Domänenebene oder nur auf bestimmten Seiten ausgeführt?**
+**Q: Wird das Rollout von AppMeasurement eher auf Domänenebene als auf bestimmten Seiten erfolgen?**
 
-A: Das Rollout von AppMeasurement wird auf Report Suite-Ebene ausgeführt. Die Report Suite-Ebene ist typischerweise mit einer Domänenebene verbunden. Dies ist jedoch bei jeder Implementierung anders.
+A: Das Rollout von AppMeasurement wird auf Report Suite-Ebene ausgeführt. Die Report Suite-Ebene ist in der Regel mit einer Domänenebene verknüpft, dies unterscheidet sich jedoch je nach Implementierung.
 
-**F: DTM lädt automatisch eine ältere Version (1.3.4) der Besucher-API als die von Activity Map verlangte Version (1.5.1). Ist das ein Problem?**
+**Q: DTM lädt automatisch eine ältere Version (1.3.4) der Besucher-API, als die Aktivität Map es wünscht (1.5.1). Ist das ein Problem?**
 
-A.: Nein. Die Activity Map-Funktion hängt nicht von der Besucher-API ab.
+A.: Nein. Die Funktion für die Zuordnung von Aktivitäten ist nicht von der VisitorAPI abhängig.
 
 ## Activity Map-Anwendung
 
-**Q: Wie unterstützt Aktivität Map Einzelseitenanwendungen (SPA)?**
+<!--**Q: How does Activity Map support Single-Page Applications (SPA)?**
 
-A:
+A: 
 
-* Alle paar Sekunden scannt die Aktivität Map die Webseite und sucht nach Seitenänderungen. ActivityMap findet neue Inhalte auf der Seite, ohne dass eine neue Seite geladen werden muss, aber dieser neue Inhalt wird immer dem ersten pageName zugeordnet, der beim Laden der Seite gefunden wurde.
+* Every few seconds, Activity Map scans the web page, looking for changes to the page. ActivityMap finds new content on the page without needing a new page load, but this new content is always attributed to the first pageName found when the page loaded.
 
-* Aktivität Map überprüft, ob sich die Sichtbarkeit der Links, über die es weiß, geändert hat. Wird eine Änderung der Sichtbarkeit festgestellt, wird die Spalte &quot;Präsenz&quot;der Tabelle &quot; [Links auf Seite](/help/analyze/activity-map/activitymap-links-report.md) &quot;für diesen Link mit **[!UICONTROL Displayed]** oder **[!UICONTROL Hidden]** aktualisiert.
+* Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the [Links On Page](/help/analyze/activity-map/activitymap-links-report.md) table's Present column for that link updates with **[!UICONTROL Displayed]** or **[!UICONTROL Hidden]**.
 
-* Wenn durch Benutzerinteraktion neue Inhalte erstellt werden, werden alle neuen Elemente, die von AppMeasurement als Link erkannt werden, der **[!UICONTROL Links On Page]** Tabelle hinzugefügt. Aktivität Map sendet eine neue Datenanforderung, die diese neuen Links enthält. Die neuen Links sollten in der **[!UICONTROL Links On Page]** Tabelle angezeigt werden, wenn die Datenanforderung von der Benutzeroberfläche verarbeitet wird.
+* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
 **Q: Bietet Aktivität Map Daten zu &quot;Ansichten&quot;?**
 
-A: Nein, wenn wir alle Links verfolgen, die bei jedem Laden der Seite angezeigt werden, müssen wir viel mehr Daten erfassen. Als kostenloses Add-on bietet Aktivität Map diese Funktion nicht.
+A: Nein, Adobe verfolgt keine angezeigten Links.
 
-**F: Kann ich Activity Map verwenden, wenn ich zuvor Besucher-ClickMap auf meiner Website nicht verwendet habe?**
+**Q: Kann ich die Aktivität Map verwenden, wenn ich Besucher ClickMap auf meiner Website noch nicht verwendet habe?**
 
-A: Die Installation der älteren Version (wird jetzt auch einfach als ClickMap bezeichnet) ist keine Voraussetzung für die Implementierung der neuen Version. Für einen beschränkten Zeitraum wird die ältere Version weiterhin von Adobe unterstützt.
+A: Die Installation der älteren Version - jetzt einfach als ClickMap bezeichnet - ist keine Voraussetzung für die Implementierung der neuen Version. Adobe wird die ältere Version für einen begrenzten Zeitraum weiterhin unterstützen.
 
-**F: Welche Browser und Versionen werden von Activity Map unterstützt?**
+**Q: Welche Browser und Versionen werden von Aktivität Map unterstützt?**
 
 A: Wir unterstützen die neueste Version der vier wichtigsten Browser (Chrome, Firefox, Safari und IE).
 
-**F: Was sind die Standardeinstellungen für Überlagerungen?**
+**Q: Was sind die Standardeinstellungen für Überlagerungen?**
 
-A: Standardmäßig zeigt Activity Map Überlagerungen für ALLE Links mit erfassten Daten an.
+A: Standardmäßig zeigt Aktivität Map ALLE Links an, die Daten erfasst haben.
 
-Wenn Popupfenster über den Webseiten von Kunden angezeigt werden, können Überlagerungen für Links unter dem Popupfenster auch über dem Popupfenster angezeigt werden.
+Wenn Popup-Bedienfelder über den Webseiten von Kunden angezeigt werden, können Überlagerungen, die zu Links gehören, die sich unterhalb des Popup-Bedienfelds befinden, über dem Popup-Bedienfeld angezeigt werden.
 
-**F: Warum fehlen für einige Elemente, denen ein Rang zugewiesen wurde, die Überlagerungen?**
+**Q: Warum fehlen Überlagerungen für Elemente mit Rangansicht?**
 
-A: Einige Links mit einem Rang können auf der Seite verborgen sein (beispielsweise Links in Untermenüs). Daher werden die entsprechenden Linküberlagerungen nicht angezeigt. Sie können also damit rechnen, dass in einigen Überlagerungen bestimmte Rangwerte fehlen, da der Rang anhand aller Links auf der Seite (vorhandene und verborgene) berechnet wird.
+A: Einige Links mit Rangansicht können auf der Seite ausgeblendet werden (z. B. Links im Untermenü). Daher werden die entsprechenden Linküberlagerungen nicht angezeigt. Sie können also erwarten, dass Überlagerungsrankings angezeigt werden, bei denen bestimmte Rangwerte fehlen, da der Rang für alle Links auf der Seite berechnet wird (der aktuelle und der verborgene).
 
-**F: Wie wird die Rangzuweisung für Links im Bericht „Alle Links“ bestimmt?**
+**Q: Wie wird die Rangfolge von Links im Bericht &quot;Alle Links&quot;bestimmt?**
 
-* In den Modi **Verlauf** und **Blase**: Die Rangzuweisung wird anhand der Metrikspalte bestimmt. Für Links mit dem gleichen Metrikwert basiert der Rang außerdem auf der alphabetischen Reihenfolge der Link-IDs.
-* Im Modus **Gewinner und Verlierer** wird der Rang hauptsächlich anhand der Spalte „% Gewinn“ bestimmt. Für Links mit dem gleichen Gewinn basiert der Rang außerdem auf der alphabetischen Reihenfolge der Link-IDs.
+* Im **Verlauf** - und **Blasenmodus** : Die Rangfolge wird durch die Metrikspalte bestimmt. Bei Links mit demselben Metrikwert basiert der Rang außerdem auf der alphabetischen Reihenfolge der Link-IDs.
+* Im **Modus Gewinner und Verlierer** wird der Rang primär durch die Spalte &quot;% Gewinn&quot;bestimmt. Bei Links mit demselben Gewinn basiert der Rang außerdem auf der alphabetischen Reihenfolge der Link-IDs.
 
-**F: Warum werden keine Link-Klickdaten erfasst, wenn Activity Map ausgeführt wird?**
+**Q: Warum werden keine Link-Klickdaten erfasst, wenn Aktivität Map ausgeführt wird?**
 
-A: Während Activity Map in Verwendung ist, werden keine Link-Klickdaten vom Analytics-Tag erfasst. Dieses Verhalten entspricht dem Verhalten des ClickMap-Plugins.
+A: Während die Aktivität Map verwendet wird, werden die Link-Klickdaten nicht vom Analytics-Tag erfasst. Dieses Verhalten entspricht dem Verhalten des ClickMap-Plugins.
 
-**F: Wo liegt der Unterschied zwischen dem Activity Map-Bericht „Alle Links“ und der Activity Map-Berichterstattung in „Reports &amp; Analytics“?**
+**Q: Wie sieht der Bericht &quot;Aktivität alle Links&quot;im Vergleich zum Berichte &quot;Aktivität für Reports &amp; Analysen&quot;aus?**
 
 A: Um den Bericht „Alle Links“ in Activity Map abzurufen, erstellen wir wie folgt eine Aufschlüsselungsanforderung: Activity Map-Seite = &quot;visitedpage&quot;, aufgeschlüsselt nach Activity Map-Link und -Region in `<list of link&regions present in the page at rendering time>`.
 
-Um einen entsprechenden Bericht in „Reports &amp; Analytics“ zu erhalten, müssen Sie zunächst zum Activity Map-Seitenbericht navigieren. Dort filtern Sie nach dem Namen der besuchten Seite in Activity Map. Der Name der besuchten Seite wird in der linken Spalte der Activity Map-Seitendetails im unteren Bereich angezeigt. Sobald die Seite gefunden wurde, können Sie die Aufschlüsselung vornehmen und Activity Map-Links und -Regionen als sekundäre Dimension auswählen.
+Um einen entsprechenden Bericht in „Reports &amp; Analytics“ zu erhalten, müssen Sie zunächst zum Activity Map-Seitenbericht navigieren. Dort filtern Sie nach dem Namen der besuchten Seite in der Aktivität Map. Der besuchte Seitenname wird in der linken Spalte im unteren Bedienfeld &quot;Seitendetails der Aktivität zuordnen&quot;angezeigt. Sobald die Aktivität gefunden wurde, können Sie von dieser Seite nach unten unterteilen und die Seitenzuordnungslinks und -bereiche als sekundäre Dimension auswählen.
 
-Beachten Sie jedoch, dass der in „Reports &amp; Analysen“ generierte Bericht alle Links und Regionen enthält, die für diese Seite erfasst wurden. Activity Map erstellt jedoch nur Berichte für Links und Regionen, die aktuell auf der Webseite vorhanden sind. Auf einer Nachrichtensite werden daher nur die Daten für den aktuell vorhandenen Artikel angezeigt, nicht für Artikel, die zu einem früheren Zeitpunkt am selben Tag zu sehen waren.
+Es ist jedoch wichtig zu beachten, dass der in der FuA abgerufene Bericht alle Links und Regionen, die für diese Seite erfasst wurden, Liste. Aktivität Map erstellt jedoch nur Berichte zu Links und Regionen, die aktuell auf der Webseite vorhanden sind. Wenn Sie also eine News-Site haben, werden nur Daten zu der aktuellen Meldung angezeigt, nicht zu den Nachrichten, die zu einem früheren Zeitpunkt am Tag zu sehen waren.
 
-**F: Wie funktioniert Activity Map bei Seiten, die mehrere Tags für verschiedene Report Suites aufweisen?**
+**Q: Wie funktioniert Aktivität Map mit Seiten, die mehrere Tags enthalten, die mehrere Report Suites auflisten?**
 
-A: Standardmäßig verwendet Activity Map die Report Suite, die mit dem ersten Tag verbunden ist, das von der Seite gesendet wird. Sie können eine andere getaggte Report Suite auf der Registerkarte unter Einstellungen für Activity Map > Andere auswählen.
+A: Standardmäßig verwendet Aktivität Map die Report Suite, die mit dem ersten Tag verknüpft ist, das von der Seite gesendet wird. Sie können eine andere getaggte Report Suite auf der Registerkarte unter Einstellungen für Activity Map > Andere auswählen.
 
-**F: Wie lange sucht Activity Map das Analytics-Tag?**
+**Q: Wie lange sucht Aktivität Map nach dem Analytics-Tag?**
 
-A: Das Analytics-Tag wird bis zu 20 Sekunden nach einem Page Complete-Ereignis gesucht.
+A: Wir suchen nach dem Analytics-Tag bis zu 20 Sekunden nach einem Ereignis zum Abschluss der Seite.
 
-**F: Wie behandelt Activity Map dynamischen Inhalt?**
+**Q: Wie behandelt Aktivität Map dynamischen Inhalt?**
 
-A: Activity Map sucht alle zwei Sekunden nach Statusänderungen der Webseite wie:
+A: Aktivität Map überprüft alle 2 Sekunden, ob sich der Status der Webseite verändert hat, z. B.:
 
-* HTML-Inhalt wurde angezeigt
-* HTML-Inhalt wurde verborgen
-* Neuer HTML-Inhalt wurde eingefügt
+* HTML-Inhalt, der sichtbar geworden ist
+* HTML-Inhalt, der ausgeblendet wird
+* Neuer HTML-Inhalt, der eingefügt wurde
 
-Wird Inhalt verborgen oder angezeigt, so ändert die Anwendung automatisch den Status der betroffenen Links (und somit der Überlagerungen) von „verborgen“ in „angezeigt“ oder umgekehrt.
+Wenn Inhalte ausgeblendet oder angezeigt werden, ändert die Anwendung automatisch den Status der betroffenen Links (und damit der Überlagerungen) von ausgeblendet zu eingeblendet oder eingeblendet zu.
 
-Wird neuer Inhalt eingefügt, ruft die Anwendung die zugehörigen Links ab, generiert Analysedaten für sie und fügt Überlagerungen für diese Links hinzu.
+Wenn neue Inhalte eingefügt werden, ruft die Anwendung die zugehörigen Links ab, ruft Analysedaten für sie ab und fügt Überlagerungen für diese Links hinzu.
 
-**F: Auf welcher Metrik basiert der Seitenflussbericht?**
+**Q: Auf welcher Metrik basiert der Seitenflussbericht?**
 
-A: Alle angezeigten Daten basieren auf Seitenansichten.
+A: Alle angezeigten Daten basieren auf den Ansichten der Seite.
 
-**F: Können Sie das Activity Map-Verhalten für verschiedene Seitentypen erklären?**
+**Q: Können Sie das Seitenbildverhalten mit verschiedenen Seitentypen erklären?**
 
 *Webseite ohne Analytics-Tag*
 
-Unter der Symbolleiste wird eine Warnmeldung angezeigt, die angibt, dass kein Tag vorhanden ist.
+Unter der Symbolleiste wird eine Warnmeldung angezeigt, die darauf hinweist, dass kein Tag vorhanden ist.
 
 *Webseite mit inkompatiblem Analytics-Tag (AppMeasurement v1.5 oder früher)*
 
@@ -134,16 +134,16 @@ A: Nein.
 
 ## Segmentierung in Activity Map
 
-**F: Sind Segmente auf bestimmte Benutzersegmente beschränkt? Are shared segments available in Activity Map?**
+**Q: Sind Segmente an die einzelnen Benutzersegmente gebunden? Sind freigegebene Segmente in der Aktivität verfügbar?**
 
 A: Aktivität Map übernimmt Ihre Berichte-Segmente aus Analytics.
 
-**F: Funktionieren Segmente im Livemodus?**
+**Q: Funktionieren Segmente im Livemodus?**
 
-A: Nein, Segmente funktionieren nicht im Livemodus. Die Funktionalität entspricht der Echtzeit-Berichterstellung in „Reports &amp; Analytics“.
+A: Nein, Segmente funktionieren nicht im Livemodus. Die Funktionalität entspricht der des Echtzeit-Berichte in Reports &amp; Analysen.
 
 ## Virtual Report Suites
 
-**F: Ist Activity Map mit Virtual Report Suites kompatibel?**
+**Q: Ist Aktivität Map mit Virtual Report Suites kompatibel?**
 
-A: Ja. Aufgrund der Einschränkungen der Virtual Report Suites ist jedoch der Livemodus von Activity Map nicht mit Virtual Report Suites kompatibel.
+A: Ja. Aufgrund der Einschränkungen der Virtual Report Suite ist der Livemodus von Aktivität Map jedoch nicht mit Virtual Report Suites kompatibel.
