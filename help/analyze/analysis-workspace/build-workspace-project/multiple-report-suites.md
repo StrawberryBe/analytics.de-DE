@@ -2,7 +2,7 @@
 title: 'Mehrere Report Suites in Workspace '
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -17,6 +17,12 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 * ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können jetzt Daten aus verschiedenen Report Suites in dasselbe Projekt ziehen.
 
+## Report Suite auf alle Bereiche anwenden
+
+Sie können eine Report Suite auf alle Bereiche gleichzeitig anwenden, indem Sie mit der rechten Maustaste auf eine beliebige Bereichsüberschrift klicken und **[!UICONTROL Apply Report Suite to All Panels]** diese auswählen.
+
+![](assets/apply-rs-all-panels.png)
+
 ## Aktives Bedienfeld
 
 Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Vergleich zum „interaktiven Bedienfeld“ ein. Sie können das aktive Bedienfeld am hellblauen Rand erkennen. Durch einfaches Klicken in ein Bedienfeld wird dieses Bedienfeld zum aktiven Bedienfeld.
@@ -27,8 +33,8 @@ Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Ver
 | Aufgabe | Aktives Bedienfeld | Inaktives Bedienfeld |
 |---|---|---|
 | Report Suite ändern | Ja | Nein |
-| Komponenten per Drag &amp; Drop verschieben | Ja  | Ja, für alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
-| Visualisierungen per Drag &amp; Drop verschieben | Ja  | Ja, für alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
+| Komponenten per Drag &amp; Drop verschieben | Ja | Ja, für alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
+| Visualisierungen per Drag &amp; Drop verschieben | Ja | Ja, für alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
 
 ## Arbeiten mit mehreren Report Suites
 
