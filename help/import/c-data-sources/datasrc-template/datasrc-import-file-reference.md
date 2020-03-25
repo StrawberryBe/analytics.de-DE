@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Importdatei-Referenz
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,13 +21,13 @@ Verwenden Sie den Data Sources-Assistenten, um eine Importvorlage zu erstellen. 
 * Ein Kommentar, in dem der Titel der Vorlagendatei aufgeführt wird.
 * Ein Kommentar, in dem die Namen von externen Metriken und Datendimensionen aufgeführt werden, die im [!UICONTROL Datenquelle-Aktivierungsassistenten angegeben werden].
 
-Mithilfe von Spaltenüberschriften werden die Daten in jeder  Spalte der Datenquelle-Datei identifiziert. Es gibt drei Arten von Spaltenüberschriften:
+Mithilfe von Spaltenüberschriften werden die Daten in jeder Spalte der Datenquelle-Datei identifiziert. Es gibt drei Arten von Spaltenüberschriften:
 
 **Datum**: (Erforderlich) Ein Zeitstempel für jede Datenzeile in der Datei.
 
-**Variablen**: Die Namen der Berichtsvariablen, die den Datendimensionen der Datenquelle zugeordnet sind.
+**Variablen**: Die Namen der Berichterstellungsvariablen, die den Datendimensionen der Datenquelle zugeordnet sind.
 
-**Ereignisse**: Die Namen der Ereignisse, die den Metriken der Datenquelle zugeordnet sind.
+**Ereignisse**: Die Namen der Ereignisse, die den Metriken der Datenquellen zugeordnet sind.
 
 Verwenden Sie die Datenquelle-Vorlage, um eine Data Sources-Datei zu erstellen, die Daten enthält, die Sie hochladen möchten. Beachten Sie beim Erstellen einer Data Sources-Datei Folgendes:
 
@@ -60,6 +60,6 @@ Verwenden Sie die Datenquelle-Vorlage, um eine Data Sources-Datei zu erstellen, 
 
 **.FIN-Datei**
 
-Wenn Sie die Datenquellendatei ausgefüllt haben, können Sie sie per FTP in Analytics übertragen. Es ist jedoch eine weitere Datei erforderlich, damit Ihre Daten verarbeitet werden können. You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Wenn Sie die Datenquellendatei gefüllt haben, können Sie sie über FTP in Analytics laden. Es ist jedoch eine weitere Datei erforderlich, damit Ihre Daten verarbeitet werden können. Sie müssen eine leere Textdatei mit demselben Namen wie Ihre Datendatei erstellen und die Erweiterung [!DNL .fin] verwenden.
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+Wenn Sie zum Beispiel eine (tabulatorgetrennte) Datendatei mit dem Namen [!DNL myproductdata.txt] hochladen, müssen Sie außerdem eine leere Textdatei mit dem Namen [!DNL myproductdata.fin] hochladen. Ohne diese [!DNL .fin]-Datei können die Daten nicht verarbeitet werden.
