@@ -2,7 +2,7 @@
 description: 'null'
 title: Data Sources-Verarbeitungszeit
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,12 +11,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 # Data Sources-Verarbeitungszeit
 
 >[!Note]
->Sämtliche Datenverarbeitungszeiträume sollten als ungefähre Zeiträume betrachtet werden und stellen keine Service Level Agreement (SLA) dar.
+>Sämtliche Datenverarbeitungszeiträume sollten als ungefähre Zeiträume betrachtet werden und stellen kein Service Level Agreement (SLA) dar.
 
 Die Datenverarbeitungszeit variiert. Es gelten folgende Richtwerte:
 
-* Daten für den aktuellen Tag: Die Verarbeitung wird etwa 2 Stunden nach dem Hochladen der Daten abgeschlossen.
-* Daten für den Vortag: Die Verarbeitung wird etwa 3 Stunden nach dem Hochladen der Daten abgeschlossen.
+* Daten für den aktuellen Tag: Die Verarbeitung wird etwa 2 Stunden nach dem Hochladen der Daten abgeschlossen.
+* Daten für den Vortag: Die Verarbeitung wird etwa 3 Stunden nach dem Hochladen der Daten abgeschlossen.
 
 Durch jeden zusätzlichen Tag in den hochgeladenen Daten verlängert sich die Verarbeitungszeit um etwa eine Stunde bis zu maximal 17 Stunden.
 
