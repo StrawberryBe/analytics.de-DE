@@ -1,37 +1,37 @@
 ---
-description: Sobald die Integration bereitgestellt ist, können Sie mit der Nutzung der zusätzlichen Funktionen beginnen, die sie bietet.
+description: Sie können die zusätzlichen Funktionen der Integration nutzen, sobald sie bereitgestellt ist.
 title: Verwenden der Integration
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Verwenden der Integration{#using-the-integration}
+# Verwenden der Integration {#using-the-integration}
 
-Sobald die Integration bereitgestellt ist, können Sie mit der Nutzung der zusätzlichen Funktionen beginnen, die sie bietet.
+Sie können die zusätzlichen Funktionen der Integration nutzen, sobald sie bereitgestellt ist.
 
-> [!NOTE] Es kann 24-48 Stunden dauern, bis einige der Demandbase-Daten in den Adobe Analytics-Berichten angezeigt werden.
+> [!NOTE] Es kann 24–48 Stunden dauern, bis einige der Demandbase-Daten in den Adobe Analytics-Berichten angezeigt werden.
 
-Hier einige Aktionen, die Sie ausführen können, um aus dieser Integration in Adobe Analytics Nutzen zu ziehen:
+Im Folgenden finden Sie einige Aktionen, mit denen Sie von dieser Integration in Adobe Analytics profitieren können:
 
-## Ansicht von Traffic- und Konversionsmetriken nach Demandbase-Dimension{#viewing-traffic-and-conversion-metrics-by-demandbase-dimension}
+## Anzeigen von Traffic- und Konversionsmetriken nach Demandbase-Dimension {#viewing-traffic-and-conversion-metrics-by-demandbase-dimension}
 
 Diese Integration bietet neue Dimensionen, die als Adobe Analytics-Berichte verfügbar werden.
 
-Der unten stehende Bericht ist ein Beispiel für die Analyse von Besuchen und Konversionsmetriken (Webinar-Registrierungen), die sowohl nach Zielgruppentyp als auch danach nach Branche aufgeschlüsselt wurden.
+Der folgende Bericht ist ein Beispiel für die Analyse von Besuchen und Konversionsmetriken (Webinar-Registrierungen), die nach Zielgruppentyp und dann nach Branche aufgeschlüsselt wurden.
 
 ![](assets/metrics_db_dimensions.png)
 
-## Segmentierung nach Demandbase-Dimensionen{#segmenting-by-demandbase-dimensions}
+## Segmentieren nach Demandbase-Dimensionen {#segmenting-by-demandbase-dimensions}
 
 Eine wichtige Funktion dieser Integration ist die Möglichkeit, Adobe Analytics-Segmente basierend auf den Demandbase-Dimensionen zu erstellen.
 
-Sie können beispielsweise ein Segment erstellen, das nur Besuche von KMU-Organisationen umfasst. Sie können diese Besuche von KMUs nennen. Die Definition lautet:
+Sie können beispielsweise ein Segment erstellen, das nur Besuche von KMU-Organisationen umfasst. Sie könnten dies „Besuche von KMUs“ nennen. Die Definition lautet:
 
-Zielgruppe ist SMB.
+Zielgruppe ist KMU.
 
-Weitere Informationen zum Erstellen von Segmenten finden Sie im [Analytics-Segmentierungshandbuch](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
+Weitere Informationen zum Erstellen von Segmenten finden Sie im [Analytics-Segmentierungshandbuch](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
 
-Dieses Segment kann dann auf praktisch jeden Bericht angewendet werden - ein Beispiel ist der Bericht "Zeit pro Besuch"hier: ![](assets/segment_applied_report.png)
+Dieses Segment kann dann auf praktisch jeden Bericht angewendet werden. Ein Beispiel dafür ist der hier angezeigte „Time Spent per Visit Report“ (Bericht über die pro Besuch verbrachte Zeit): ![](assets/segment_applied_report.png)
