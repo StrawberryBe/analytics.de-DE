@@ -2,13 +2,13 @@
 description: Die folgenden Metriken werden im Rahmen der appFigures-Integration synchronisiert.
 title: Metriken und Dimensionen
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Metriken und Dimensionen{#metrics-and-dimensions}
+# Metriken und Dimensionen {#metrics-and-dimensions}
 
 Die folgenden Metriken werden im Rahmen der appFigures-Integration synchronisiert.
 
@@ -16,35 +16,35 @@ Die folgenden Metriken werden im Rahmen der appFigures-Integration synchronisier
 |---|---|
 | App Store-Downloads | Anzahl der mobilen Anwendungs-Downloads. |
 | App Store-Käufe (in App) | Die Anzahl der In-App-Käufe. |
-| App Store-Platzierung | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
-| App Store-Divisor-Platzierung | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
-| App Store-Bewertung | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
-| Divisor für App Store-Bewertung | Dient zur Definition der berechneten Metrik "Durchschnittliche appFigures". Nicht direkt verwendet. |
+| App Store-Platzierung | Dient zur Definition der durchschnittlichen berechneten Metrik für appFigures. Nicht direkt verwendet. |
+| App Store-Divisor-Platzierung | Dient zur Definition der durchschnittlichen berechneten Metrik für appFigures. Nicht direkt verwendet. |
+| App Store-Bewertung | Dient zur Definition der durchschnittlichen berechneten Metrik für appFigures. Nicht direkt verwendet. |
+| Divisor für App Store-Bewertung | Dient zur Definition der durchschnittlichen berechneten Metrik für appFigures. Nicht direkt verwendet. |
 | App Store-Umsatz (in App) | Betrag des In-App-Umsatzes. |
 | App Store-Umsatz (einmalig) | Der Betrag des Umsatzes, der dem Kauf einer App zugeordnet werden kann. |
 | App Store-Lizenzgebühren (in App) | Nicht mehr verwendet |
-| App Store-Lizenzgebühren (einmal) | Nicht mehr verwendet |
+| App Store-Lizenzgebühren (einmalig) | Nicht mehr verwendet |
 
-Die folgenden reservierten Classification-Dimensionen werden vom Data Connectors-Assistenten für die AppFigures-Objekt-ID-reservierte eVar erstellt.
+Die folgenden reservierten Klassifizierungsdimensionen werden vom Data Connectors-Assistenten für die eVar erstellt, die für die appFigures-Objekt-ID reserviert ist.
 
-| Classification-Dimension | Beschreibung |
+| Klassifizierungsdimension | Beschreibung |
 |---|---|
 | Landesname | Der Name des Landes im Zusammenhang mit der App Store-Aktivität. |
 | Gerätename | Der Name des Mobilgeräts im Zusammenhang mit der App Store-Aktivität. |
-| Appstore-Name | Der Name des Appstore, der die Aktivität gemeldet hat. |
-| Anwendungsname | Der Name der mobilen Anwendung. |
+| App Store-Name | Der App Store-Name, der die Aktivität gemeldet hat. |
+| Anwendungsname | Der Name der App. |
 | In-App-Name | Der Artikel, der innerhalb der Anwendung gekauft wurde. |
 | Kategoriename | Primäre Kategorie der App im App Store. |
-| Review-Titel | Titel der Überprüfung. |
-| Review-Kommentar | Stellungnahme der Überprüfung |
-| Anwendungsversion | Version der Anwendung, die zum Generieren der Überprüfung verwendet wurde. |
+| Review-Titel | Titel des Reviews. |
+| Review-Kommentar | Kommentar zum Review |
+| Anwendungsversion | Version der Anwendung, die zum Generieren des Reviews verwendet wurde. |
 | App Store-Benutzer | Autor (Benutzername) des Reviews. |
 
 Die folgende berechnete Metrik wird vom Data Connectors-Assistenten erstellt:
 
 | Berechnete Metrik | Beschreibung |
 |--- |--- |
-| Durchschnittlicher App Store-Rang (numerisch) | Die durchschnittliche App-Rangfolge. Diese berechnete Metrik wird mit der folgenden Formel definiert:   `[App Store Rank]` / `[App Store Rank Divisor]` <br> Hinweis:  Die Anzahl der Anwendungen, die nach Kategorie und Land sortiert werden, variiert je nach App Store. Wenn Ihre Anwendung unter diesem Schwellenwert liegt, stehen keine Anwendungsreihen zur Verfügung. |
+| Durchschnittlicher App Store-Rang (numerisch) | Das durchschnittliche App-Ranking. Diese berechnete Metrik wird mit der folgenden Formel definiert: `[App Store Rank]` / `[App Store Rank Divisor]` <br> Hinweis: Die Anzahl der Anwendungen, die nach Kategorie und Land sortiert werden, variiert je nach App Store. Wenn Ihre Anwendung unter diesem Schwellenwert liegt, stehen keine Anwendungsränge zur Verfügung. |
 | App Store-Durchschnittsbewertung | Die durchschnittliche App-Bewertung. Diese berechnete Metrik wird mithilfe der folgenden Formel definiert:  `[App Store Rating]` / `[App Store Rating Divisor]` |
 
 ## Relevante Dimensionen für jede AppFigures-Metrik {#section-cd356d3dce04412893beed345305c247}
@@ -93,7 +93,7 @@ Die folgende Tabelle zeigt, welche Berichtsdimensionen sich auf welche Metriken 
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Appstore-Name </td> 
+   <td> App Store-Name </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
