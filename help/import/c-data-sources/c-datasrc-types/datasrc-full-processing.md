@@ -1,10 +1,10 @@
 ---
-description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Volle Verarbeitung“).
+description: Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 subtopic: Data sources
 title: Vollständige Verarbeitung
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Vollständige Verarbeitung
 
-Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ &gt; „Volle Verarbeitung“).
+Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 
 Daten aus Datenquellen mit vollständiger Verarbeitung werden so verarbeitet, wie das beim Empfang von Adobe-Servern zum angegebenen Zeitpunkt (jeder Treffer enthält einen Zeitstempel) der Fall wäre.
 
@@ -23,7 +23,7 @@ Daten aus Datenquellen mit vollständiger Verarbeitung werden so verarbeitet, wi
 
 Daten aus Datenquellen mit vollständiger Verarbeitung werden mit getrennten Besucherprofilen verarbeitet. Das heißt, selbst wenn die Besucher-ID in den hochgeladenen Daten mit den Daten übereinstimmt, die mit JavaScript oder einer anderen AppMeasurement-Bibliothek erfasst wurden, sind die Benutzerprofile aus der Sicht einer eVar-Zuordnung nicht miteinander verbunden.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Wenn Sie später eine Transaktion mit derselben Besucher-ID hochladen, erhält die Kampagne „Spring Sale“ keine Gutschriften für jegliche Umsätze oder Erfolgsereignisse, die mit Datenquellen mit vollständiger Verarbeitung hochgeladen wurden.
+Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Site von einer Marketing-Kampagne mit der Bezeichnung „Spring Sale“ aus, die in der Kampagnenvariable gespeichert ist. Wenn Sie später eine Transaktion mit derselben Besucher-ID hochladen, erhält die Kampagne „Spring Sale“ keine Gutschriften für jegliche Umsätze oder Erfolgsereignisse, die mit Datenquellen mit vollständiger Verarbeitung hochgeladen wurden.
 
 ## Spaltenreferenz {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -54,17 +54,17 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col3"> <p>Verwenden Sie das ISO 8601-Datumsformat <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (z. B. <code> 2013-09-01T12:00:00-07:00 </code>) oder das Unix-Zeitformat (d. h. die seit dem 1. Januar 1970 abgelaufenen Sekunden). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, z. B. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
+   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen (  <span class="varname"> eVar1 </span> bis <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Ereigniszeichenfolge, mit derselben Syntax für die Variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> formatiert. </p> <p>Beispiel: </p> 
+   <td colname="col3"> <p>Ereigniszeichenfolge, mit derselben Syntax für die Variable <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> formatiert. </p> <p>Beispiel: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -72,7 +72,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, z. B. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Sie können den Standardhierarchienamen (<span class="varname">hier2</span>) oder einen benutzerfreundlichen Namen (<span class="term">Yankees</span>) festlegen. </p> </td> 
+   <td colname="col3"> <p>Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Sie können den Standardhierarchienamen (<span class="varname">hier2</span>) oder einen benutzerfreundlichen Namen (<span class="term">Yankees</span>) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -107,17 +107,17 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Seiten-URL (z. B. <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Seiten-URL (z. B. <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col1"> <p>„products“ </p> </td> 
+   <td colname="col2"> <p>„products“ </p> </td> 
+   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, z. B. &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Property#-Zeichenfolge (z. B. <span class="term"> Sportbereich </span>). </p> </td> 
+   <td colname="col3"> <p>Property#-Zeichenfolge (z. B.  <span class="term"> Sportbereich </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -199,7 +199,7 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Verbindungstyp des Besuchers ( <span class="term"> LAN </span> oder <span class="term"> Modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
