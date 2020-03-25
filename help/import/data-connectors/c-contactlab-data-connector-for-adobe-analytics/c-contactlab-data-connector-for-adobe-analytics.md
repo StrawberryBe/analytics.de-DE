@@ -1,31 +1,31 @@
 ---
 description: 'null'
-title: ContactLab Data Connector for Adobe Analytics
+title: ContactLab-Data Connector für Adobe Analytics
 uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# ContactLab Data Connector for Adobe Analytics{#contactlab-data-connector-for-adobe-analytics}
+# ContactLab-Data Connector für Adobe Analytics {#contactlab-data-connector-for-adobe-analytics}
 
-Die Integration von ContactLab und Adobe Analytics ermöglicht es aktuellen ContactLab-Kunden, die Renditen aus E-Mail-Marketing zu steigern. Es ermöglicht Ihnen, die Effektivität von Kampagnen aus fast allen Blickwinkeln zu verstehen und dann auf Basis von Warenkorbabbrüchen, Produktkäufen, Produktansichten und mehr an Kunden zu vermarkten.
+Die Integration von ContactLab und Adobe Analytics ermöglicht es aktuellen ContactLab-Kunden, die Erträge aus dem E-Mail-Marketing zu steigern. Dadurch können Sie die Effektivität von Kampagnen aus nahezu jedem Blickwinkel nachvollziehen. Anschließend können Sie basierend auf Warenkorbabbrüchen, Produktkäufen, Produktansichten und mehr mittels Remarketing auf Kunden abzielen.
 
-Bei dieser Integration werden E-Mail-Metriken automatisch mit Adobe Analytics synchronisiert, um das Marketing mit einer geschlossenen Schleife mit der richtigen Zielgruppe zu ermöglichen.
+Bei dieser Integration werden E-Mail-Metriken automatisch mit Adobe Analytics synchronisiert, wodurch ein Closed-Loop-Marketing maximal effektiv auf die richtige Zielgruppe angewendet werden kann.
 
-## Hauptvorteile und Funktionen{#key-benefits-and-features}
+## Hauptvorteile und Funktionen {#key-benefits-and-features}
 
-Listet die Hauptvorteile der Integration zwischen Adobe Analytics und ContactLab auf.
+Führt die wichtigsten Vorteile der Integration zwischen Adobe Analytics und ContactLab auf.
 
-* Konsolidieren Sie E-Mail-Marketing- und Analysedaten in einer Berichtsschnittstelle.
-* Stellen Sie Traffic- und Konversionsberichte basierend auf Details auf der Umfrage-, Fragestellungs- und Antwortebene bereit.
-* Optimieren Sie E-Mail-Kampagnen nach Konversion und Beitrag zum Umsatz und zum Site-Erfolg.
-* Markieren Sie wichtige Besucher und Marktsegmente anhand von Warenkorbabbrüchen, Produktkäufen, Produktansichten (und vieles mehr) neu, wobei Sie aktuelle und historische Daten (bis zu 90 Tage vor der Aktivierung) einbeziehen.
+* Zusammenfassen von E-Mail-Marketing- und Analysedaten auf einer Berichtsoberfläche.
+* Bereitstellen von Traffic- und Konversionsberichten basierend auf Details auf Umfrage-, Frage- und Antwortebene.
+* Optimieren von E-Mail-Kampagnen nach Konversion und Beitrag zum Umsatz und zum Site-Erfolg.
+* Remarketing für wichtige Besucher und Marktsegmente anhand von Warenkorbabbrüchen, Produktkäufen, Produktansichten (und vieles mehr), die aktuelle und historische Daten umfassen (bis zu 90 Tage vor der Aktivierung).
 
 ## Voraussetzungen für Adobe-Kunden {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
 
 * Muss aktueller Kunde von Adobe Analytics sein.
 * Muss über Administratorrechte verfügen.
 * Muss in Ihrer Report Suite über 2 verfügbare und aktivierte eVars verfügen.
-* In Ihrer Report Suite müssen fünf verfügbare Ereignisse aktiviert sein.
+* Muss in Ihrer Report Suite über 5 verfügbare und aktivierte Ereignisse verfügen.
