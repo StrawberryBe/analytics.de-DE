@@ -1,27 +1,27 @@
 ---
-description: Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
+description: Mit einem „Plug&Play“-Assistenten nehmen Sie eine schrittweise Systemsynchronisation und Initialisierung der Integration vor.
 title: Integrationsverfahren und -voraussetzungen
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Integrationsverfahren und -voraussetzungen{#integration-procedure-and-prerequisites}
+# Integrationsverfahren und -voraussetzungen {#integration-procedure-and-prerequisites}
 
-Mithilfe eines Assistenten zum "Plug-and-Play"-Modus werden Sie durch intuitive Schritte zur Systemsynchronisierung geführt und die Integration initialisiert.
+Mit einem „Plug&amp;Play“-Assistenten nehmen Sie eine schrittweise Systemsynchronisation und Initialisierung der Integration vor.
 
 Diese Data Connectors-Integration erfordert Folgendes:
 
 ## Adobe-Voraussetzungen {#section-bce14015fb7f41b3bc754da0eb7567bc}
 
-* Data Warehouse
-* Adobe- [!DNL Analytics] Konto
-* Verfügbare und konfigurierte [!DNL Analytics] Variablen, einschließlich eVars und benutzerspezifische Ereignisse.
+* Data Warehouse.
+* Adobe [!DNL Analytics]-Konto.
+* Verfügbare und konfigurierte [!DNL Analytics] Variablen, darunter eVars und benutzerspezifische Ereignisse.
 
-## Voraussetzungen für Partner: {#section-bcb904574ccf42308bcf7a15e45b4d58}
+## Partner-Voraussetzungen {#section-bcb904574ccf42308bcf7a15e45b4d58}
 
-* Ein aktives eMail-Konto
+* Ein aktives emarsys-Konto.
 
-Anweisungen zur schrittweisen Integration finden Sie unter [Ausführen des Data Connectors-Integrationsassistenten](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
+Eine schrittweise Anleitung zur Integration finden Sie unter [Ausführen des Data Connectors-Integrationsassistenten.](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
