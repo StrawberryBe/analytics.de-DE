@@ -1,26 +1,26 @@
 ---
 description: 'null'
 keywords: DFA
-title: DFA-Data Connectors für Adobe Analytics
+title: DFA-Data Connector für Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# DFA Data Connector for Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
+# DFA-Data Connector für Adobe Analytics {#dfa-data-connector-for-adobe-analytics}
 
-Im heutigen, immer komplexeren und wettbewerbsfähigeren Online-Marktplatz müssen Online-Advertiser und -Agenturen ihr Verständnis der Online-Marketingumgebung und ihre Rendite aus Werbeausgaben kontinuierlich verbessern. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
+Online-Advertiser und Agenturen sind im modernen Onlinemarkt, der immer komplexer und umkämpfter wird, auf eine kontinuierliche Verbesserung ihres Verständnisses für Online-Marketingumgebungen sowie ihrer Rendite aus Werbeausgaben angewiesen. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
 
 Dieses Problem kann mithilfe der DoubleClick for Advertisers (DFA)-Integration gelöst werden, bei der Adobe® Data Connectors™ verwendet wird, sodass DoubleClick DFA-Daten automatisch an Reports &amp; Analysen senden kann.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**
 
 ![](assets/data-connectors-home.png)
 
-## Wesentliche Vorteile{#key-benefits}
+## Wesentliche Vorteile {#key-benefits}
 
 Wesentliche Vorteile der Data Connectors-DFA-Integration sind unter anderem:
 
@@ -33,25 +33,25 @@ Wesentliche Vorteile der Data Connectors-DFA-Integration sind unter anderem:
 * **Lebenszyklusanalyse für Besucher**: Messen Sie die Kampagneneffizienz nach mehreren benutzerdefinierten Erfolgsergebnissen und dem Lebenszykluswert.
 * **Kostenmetriken**: Optimieren Sie durch den Vergleich von DFA-Kosten und den durch diese Ausgaben erzeugten Umsatz in nur einem System Ihre Kapitalrendite.
 
-## Übersicht zur AdServing-Integration{#ad-serving-integration-overview}
+## Übersicht zur AdServing-Integration {#ad-serving-integration-overview}
 
 Diese Integration erfasst Daten über Besucher, deren Aktionen von Anzeigen bestimmt werden, auf viele verschiedene Wege. Zunächst gibt es den so genannten Clickthrough, das heißt Besucher klicken auf eine Anzeige und werden auf eine getaggte Landingpage weitergeleitet:
 
 ![](assets/Diagram1.png)
 
-Der Besucher gelangt auf die Site eines Herausgebers, auf der die Anzeige gehostet wird. Diese Anzeige verfügt über die so genannte einzigartige Anzeigen-ID. Anzeigen umfassen eine Platzierung sowie ein Kreativelement, das beschreibt, wo sich die Anzeige auf der Site des Herausgebers befindet und welcher Inhalt dem Besucher gezeigt wurde. Rufen Besucher diese Anzeige, diese Platzierung oder diesen kreativen Inhalt von den DFA-Inhaltsservern ab, wird auf den DFA Floodlight-Servern für sie eine Impression getrackt (1).
+Besucher gelangen zur Site eines Vermarkters, auf der die Anzeige gehostet wird. Diese Anzeige verfügt über die so genannte einzigartige Anzeigen-ID. Eine Anzeige besteht aus einer Platzierung sowie dem zugehörigen kreativen Inhalt. Sie beschreiben den Anzeigeort auf der Site des Vermarkters und den angezeigten Inhalt für Besucher. Rufen Besucher diese Anzeige, diese Platzierung oder diesen kreativen Inhalt von den DFA-Inhaltsservern ab, wird auf den DFA Floodlight-Servern für sie eine Impression getrackt (1).
 
 Klicken Besucher auf die Anzeige (2), wird der Floodlight-Server kontaktiert, was als Klick zählt. Anschließend werden Besucher durch 302 auf die Landingpage weitergeleitet (3). Befinden sich die Besucher dann auf der Landingpage, wird dies als Clickthrough bezeichnet. Diese Seite enthält Adobe-Trackingcode, durch den Daten vom DFA Floodlight-Server abgerufen werden.
 
-Gelangen die Besucher nach dem Tracken eines Klicks durch den Floodlight-Server nicht auf die Landingpage, wird nicht von einem Clickthrough gesprochen. Einige Anzeigen und Implementierungen führen möglicherweise nicht dazu, dass der Browser des Besuchers die 302-Umleitung befolgt. Weitere Diskussionen zu diesem Thema finden Sie unter [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
+Gelangen die Besucher nach dem Tracken eines Klicks durch den Floodlight-Server nicht auf die Landingpage, wird nicht von einem Clickthrough gesprochen. Bei einigen Anzeigen oder Implementierungen kann es vorkommen, dass der Besucherbrowser nicht durch 302 weitergeleitet wird. Weitere Diskussionen zu diesem Thema finden Sie unter [Abgleich von Metrikdiskrepanzen](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
 
 Eine weitere Metrik, die von dieser Integration erfasst wird, tritt ein, wenn Besucher die Anzeigenimpression erhalten, nicht klicken, aber doch auf anderem Weg kurze Zeit nach der Impression auf die Landingpage gelangen.
 
 ![](assets/Viewthrough.png)
 
-In diesem Fall wird von einer Durchsicht gesprochen. Der Unterschied zwischen diesem Szenario und dem Clickthrough besteht darin, dass Besucher nicht auf die Anzeige klicken, sondern erst andere Aktivitäten durchführen und anschließend anderweitig zur Landingpage gelangen (2). Im einfachsten Fall gibt der Besucher die URL der Einstiegsseite im Browser ein. In anderen Fällen fahren die Besucher mit dem Browsen fort, verwenden später aber eine Suchmaschine, durch die sie auf die Landingpage gelangen. Die Besucher gelangen in jedem Fall auf die Landingpage.
+In diesem Fall wird von einer Durchsicht gesprochen. Der Unterschied zwischen diesem Szenario und dem Clickthrough besteht darin, dass Besucher nicht auf die Anzeige klicken, sondern erst andere Aktivitäten durchführen und anschließend anderweitig zur Landingpage gelangen (2). Der einfachste Fall besteht darin, dass Besucher die URL der Landingpage in ihre Adresszeile im Browser eingeben. In anderen Fällen fahren die Besucher mit dem Browsen fort, verwenden später aber eine Suchmaschine, durch die sie auf die Landingpage gelangen. Die Besucher gelangen in jedem Fall auf die Landingpage.
 
-## Adobe-Integration: Echtzeit-Datenerfassung{#adobe-integration-real-time-data-collection}
+## Adobe-Integration: Echtzeit-Datenerfassung {#adobe-integration-real-time-data-collection}
 
 In der folgenden Abbildung sehen Sie, wie die Datenerfassung funktioniert.
 
@@ -61,9 +61,9 @@ Die Datenerfassung der Adobe-Integration beginnt, sobald die Besucher auf die La
 
 Wenn diese Daten ankommen oder der Abruf zu viel Zeit in Anspruch nimmt, wird ein Treffer an die Adobe-Trackingserver gemeldet (3).
 
-Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` definiert, wie lange das Integrate-Modul auf Daten vom DFA Floodlight-Server wartet, bevor das Image-Tag an den Browser des Besuchers gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
+Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` bestimmt, wie lange das Integrate-Modul auf Daten des DFA Floodlight-Servers wartet, bis das Bild-Tag an den Browser der Besucher gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor  `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
 
-Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analysen-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann jedoch zu hoch eingestellt werden. In diesem Fall könnten Besucher die Site verlassen, bevor der `s.maxDelay` Timer abläuft. .
+Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analysen-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von  `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann aber auch einen zu hohen Wert aufweisen. In diesem Fall kann es sein, dass Besucher die Site verlassen, bevor der `s.maxDelay`-Timer abläuft. 
 
 Manchmal gibt der Floodlight-Server Fehler zu Besuchern aus. Dieser Fall tritt normalerweise ein, wenn dem Floodlight-Server keine Informationen zu Besuchern vorliegen, da sie zuvor noch keine Anzeigen gesehen haben oder kein DFA-Besuchercookie verwenden. Im Seiten-Code kann eine benutzerspezifische Konversionsvariable (eVar) festgelegt werden, in der diese Fehler erfasst werden. Dadurch können die Fehlerbehebung bei Implementierungsproblemen erleichtert und Fehler bei der Google-Transkation erkannt werden. Die herkömmlichsten Fehler sind, wie in folgender Tabelle beschrieben, „No History“ (Kein Verlauf), „No Cookie“ (Kein Cookie), „Query Error“ (Abfragefehler) und „Opted Out“ (Abgemeldet):
 
@@ -74,11 +74,11 @@ Manchmal gibt der Floodlight-Server Fehler zu Besuchern aus. Dieser Fall tritt n
 | qe | Query Error | Bei der Abfrage von Daten für den Floodlight-Server ist ein Fehler aufgetreten. |
 | oo | Opted Out | Der Besucher hat sich vom Google-Impressions-/Klick-Tracking abgemeldet. |
 
-## Adobe-Integration: Nächtlicher Datenimport{#adobe-integration-nightly-data-import}
+## Adobe-Integration: Nächtlicher Datenimport {#adobe-integration-nightly-data-import}
 
 Im Datenerfassungsteil der Integration werden Clickthrough- und Durchsichtsdaten zu Sitebesuchern gesammelt. Zur Erfassung von DFA-Klick-, Impressions- und Kostenmetriken gibt es einen nächtlichen Prozess zum Import dieser zusätzlichen Daten in die integrierte Report Suite, der von Google und Adobe koordiniert wird. Diese Metriken werden über Data Sources importiert, sind also nur zusammengefasst verfügbar und befinden sich nicht auf Besuchsebene.
 
-## Versionsunterschiede{#version-differences}
+## Versionsunterschiede {#version-differences}
 
 Momentan stehen drei Versionen der DFA-Integration zur Verfügung: 1.0, 1.5 und 2.0.
 
@@ -97,9 +97,9 @@ In der folgenden Tabelle sind die Funktionen jeder Version der Integration zusam
 | Timeout- und Fehlertracking | Nein | Ja | Ja |
 | Keine ausgehandelte Client-Site-ID erforderlich | Nein | Nein | Ja |
 
-### Info zu Version 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
+### Info zu Version 1.5  {#section-b5a3e967cfa141ea8f740612336181be}
 
-In Version 1.5 der Integration wird das Integrate-Modul für Landingpage-JavaScript eingeführt. Das Integrate-Modul ermöglicht Abfragen des DFA-Anzeigenservers (ad.doubleclick.net) mit fester Größe. Dadurch wird die Abfragenbeschränkung auf 2.000 Bytes der Vorgängerversion umgangen. Außerdem wird mit ihr der verstellbare Timeoutwert *`s.maxDelay`*, to continue collecting Adobe visitor data when network outages occur. Fehler und Timeouts können auch in Analytics-Variablen erfasst werden.
+In Version 1.5 der Integration wird das Integrate-Modul für Landingpage-JavaScript eingeführt. Das Integrate-Modul ermöglicht Abfragen des DFA-Anzeigenservers (ad.doubleclick.net) mit fester Größe. Dadurch wird die Abfragenbeschränkung auf 2.000 Bytes der Vorgängerversion umgangen. Außerdem wird mit ihr der verstellbare Timeoutwert  *`s.maxDelay`* eingeführt, damit die Erfassung von Adobe-Besucherdaten auch möglich ist, wenn das Netzwerk ausfällt. Fehler und Timeouts können auch in Analytics-Variablen erfasst werden.
 
 Auf der folgenden Abbildung sehen Sie Netzwerkinteraktionen auf der Landingpage in Version 1.5.
 
@@ -107,11 +107,11 @@ Auf der folgenden Abbildung sehen Sie Netzwerkinteraktionen auf der Landingpage 
 
 Das Integrate-Modul (2) fragt in Version 1.5 Daten vom Floodlight-Server (3) ab. Der Floodlight-Server veranlasst eine Weiterleitung auf den DFA-Anzeigenserver, von dem aus Besucherdaten auf dieselbe Weise zurückgegeben werden wie in Version 1.0. Es erfolgt eine 302-Weiterleitung (4) zu einem speziellen Übersetzungsservice auf integrate.112.2o7.net, durch den die Reaktionsstruktur in ein JSON-Objekt übertragen wird. Das Integrate-Modul nimmt dieses JSON-Objekt auf und gibt die Information an das Adobe-Tracking (5) weiter.
 
-Bei einem Wechsel von Version 1.0 der Integration auf Version 1.5 gibt es eine JavaScript-Änderung. Sie können dieses JavaScipt aufrufen, indem Sie sich bei Ihrem Adobe Online Marketing Suite-Konto anmelden, das Genesis-Produkt auswählen, in Ihrer DFA-Integration auf „Bearbeiten“ klicken und mit dem Assistenten fortfahren. Wenn zuvor eine Client-Site-ID zugewiesen wurde, erhalten Sie sofort einen neuen JavaScript-Code per E-Mail, sobald Sie die Integration speichern. Wenn Sie diesen Code erhalten haben, benötigen Sie außerdem eine neue Version des Kern-„s_code“ mit dem Integrate-Modul. Sie erhalten diesen Code von Ihrem Kundenbetreuer oder Implementationsberater.
+Bei einem Wechsel von Version 1.0 der Integration auf Version 1.5 gibt es eine JavaScript-Änderung. Sie können dieses JavaScript aufrufen, indem Sie sich bei Ihrem Adobe Online Marketing Suite-Konto anmelden, das Genesis-Produkt auswählen, in Ihrer DFA-Integration auf „Bearbeiten“ klicken und mit dem Assistenten fortfahren. Wenn zuvor eine Client-Site-ID zugewiesen wurde, erhalten Sie sofort einen neuen JavaScript-Code per E-Mail, sobald Sie die Integration speichern. Wenn Sie diesen Code erhalten haben, benötigen Sie außerdem eine neue Version des Kern-„s_code“ mit dem Integrate-Modul. Sie erhalten diesen Code von Ihrem Kundenbetreuer oder Implementationsberater.
 
 Ein wichtiger Aspekt des neuen JavaScript-Codes ist, dass zwischen Version 1.5 und 2.0 keine Implementationsänderungen notwendig sind.
 
-### Info zu Version 2.0 {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### Info zu Version 2.0  {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 Durch die neueste Version der DFA-Integration gelangen Daten einer ganzen Floodlight-Konfiguration in die Integration. Vor Version 2.0 waren einzelne Integrationen an einzelne DFA-Advertiser gebunden. Durch diese Änderungen werden Klicks, Impressionen und Kostenmetriken für die gesamte Floodlight-Konfiguration in die Integrations-Report Suite eingebunden. Sie können außerdem siteübergreifende Durchsichten tracken, wenn sich die beiden Sites innerhalb derselben Floodlight-Konfiguration befinden. 
 
@@ -121,11 +121,11 @@ Unter Version 2.0 der Integration wird die Anzahl der Timeouts voraussichtlich 
 
 Wenn es sich bei einer Floodlight-Konfiguration um eine in DFA freigegebene Konfiguration handelt, werden durch ein Upgrade von Version 1. 5 auf 2.0 Konversionsdaten aller freigegebenen Advertiser in der Floodlight-Konfiguration in die Report Suite eingeschlossen.
 
-### Upgrade auf Version 2.0 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### Upgrade auf Version 2.0  {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 In der folgenden Tabelle sind die Inhaber der Migration auf neue Versionen der Integration zusammengefasst:
 
 | Migration | Inhaber | Aufgaben |
 |---|---|---|
 | Version 1.0 auf 1.5 | Client | Implementierung von JavaScript für Version 1.5 in das Integrate-Modul |
-| Version 1.5 auf 2.0 | Client | Beginn der Kommunikation des Clients mit Google zu Zeitrahmen für das Upgrade Aktivierung des erweiterten AdServings durch Google nach Genehmigung |
+| Version 1.5 auf 2.0 | Client | Beginn der Kommunikation des Clients mit Google zu Zeitrahmen für das Upgrade. Aktivierung des erweiterten AdServings durch Google nach Genehmigung |
