@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Konversion
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Data Sources unterstützt die folgenden Konversion-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
 
-## Konversion-Dimensionen und -Metriken {#section_FA1731B232B246DABEDF5A5D84159084}
+## Konversion-Dimensionen und -Metriken  {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. Die Anzahl der von einer Bericht-Suite unterstützten benutzerspezifischen Ereignisse und eVar-Ansichten ist vom Vertrag abhängig und kann sich je nach Unternehmen unterscheiden.
 
@@ -26,7 +26,7 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 | Datum | Verwenden Sie das folgende Datumsformat: MM/TT/JJJJ/HH/mm/SS (zum Beispiel 01/01/2015/06/00/00). |
 | Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
 | Kanal | Kanalname. |
-| eVarn | Name der Variablen. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
+| eVarn | eVarn-Name. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
 | Produkt | Produktname. |
 | Land | Name des Landes. |
 | Zip | Postleitzahl. |
@@ -42,7 +42,7 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 | Warenkorbansicht | Anzahl der Einkaufswagenansichten. |
 | Checkouts | Anzahl der Kassengänge. |
 | Ereignis n | Häufigkeit, in der Ereignis n eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
-| eVarn-Ansichten | Häufigkeit, in der eVarn angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
+| eVarn-Ansichten | Häufigkeit, in der eVar n angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
 | Preis | Produktpreis. |
 | Bestellungen | Anzahl der aufgegebenen Bestellungen. |
 | Produktansichten | Anzahl der Produktansichten. |
