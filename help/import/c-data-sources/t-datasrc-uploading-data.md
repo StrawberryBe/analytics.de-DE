@@ -1,22 +1,22 @@
 ---
 description: Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
 subtopic: Data sources
-title: Datenquellen-Datei hochladen
+title: Data Sources-Datei hochladen
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Datenquellen-Datei hochladen
+# Data Sources-Datei hochladen
 
 Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
 
 Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Verarbeitung an Data Sources weiter. Adobe unterhält mehrere Data Sources-FTP-Server, auf die Sie Data Sources-Dateien hochladen können. Beachten Sie Folgendes über die Data Sources-FTP-Server:
 
-* Select FTP Info next to the Data Source entry in the [!UICONTROL Data Sources Manage] tab to see the FTP Host, Login, and Password information for the data source's FTP account. Jeder mit Zugriff auf diese Informationen kann Daten in Ihre Report Suite hochladen.
+* Wählen Sie auf der Registerkarte [!UICONTROL Data Sources-Manager] neben dem Datenquelleneintrag die Option „FTP-Info“ aus, um den FTP-Host sowie Anmelde- und Kennwortinformationen für das FTP-Konto der Datenquelle anzuzeigen. Jeder mit Zugriff auf diese Informationen kann Daten in Ihre Report Suite hochladen.
 * Aus Sicherheitsgründen werden FTP-Konten nach 30 Tagen Inaktivität geschlossen.
 * FTP-Konten sind Datenquellen-spezifisch. Sie können nicht ein FTP-Konto zum Hochladen von Data Sources-Dateien in mehrere Datenquellen verwenden.
 
@@ -26,9 +26,9 @@ Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Ve
 
    (Verfügbar im Data Sources-Manager unter dem Link „FTP-Info“).
 
-1. Upload a [!DNL .fin] file to notify Adobe that the Data Sources file upload is complete.
+1. Laden Sie eine [!DNL .fin]-Datei hoch, um Adobe darüber zu informieren, dass der Data Sources-Datei-Upload abgeschlossen ist.
 
-   The [!DNL .fin] file must have the exact same name as the Data Sources file, except for the file extension. Adobe does not queue the Data Sources file for processing until you upload the [!DNL .fin] file.
+   Die [!DNL .fin]-Datei muss genau den gleichen Namen aufweisen wie die Data Sources-Datei, mit Ausnahme der Dateierweiterung. Adobe stellt die Data Sources-Datei nicht für die Verarbeitung in eine Warteschlange, bis Sie die [!DNL .fin]-Datei hochgeladen haben.
 
    Laden Sie die Datei erst hoch, wenn alle Data Sources-Dateien vollständig hochgeladen wurden. Anderenfalls könnte Data Sources versuchen, eine unvollständige Datei zu verarbeiten.
 1. Achten Sie darauf, ob bei der Verarbeitung der Data Sources-Datei Meldungen ausgegeben werden.
