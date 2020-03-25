@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -23,14 +23,14 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
       + [Data Sources-Vorlagenübersicht ](c-data-sources/datasrc-template/datasrc-template-file.md)
       + [Importdatei-Vorlage generieren](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
       + [Importdatei-Referenz](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
-   + [Datenquellen-Datei hochladen](c-data-sources/t-datasrc-uploading-data.md)
+   + [Data Sources-Datei hochladen](c-data-sources/t-datasrc-uploading-data.md)
    + Datentypen und -kategorien {#data-types-and-categories}
       + [Übersicht über Datentypen und Kategorien](c-data-sources/c-datasrc-types/datasrc-categories.md)
       + [Webprotokoll](c-data-sources/c-datasrc-types/datasrc-web-log.md)
       + [Traffic](c-data-sources/c-datasrc-types/datasrc-traffic.md)
       + [Konversion](c-data-sources/c-datasrc-types/datasrc-conversion.md)
       + [Transaktions-ID](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-      + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+      + [Besucher-ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Vollständige Verarbeitung](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
    + [Transaktions- und Kundenintegration](c-data-sources/datasrc-integrating-offline-data.md)
    + [Transaktions-ID und Besucherprofile](c-data-sources/datasrc-tid-visitor-profile.md)
