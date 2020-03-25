@@ -1,18 +1,18 @@
 ---
 description: Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
-title: Abfragezeichenfolgen-Param-Plug-In-Code
+title: Abfragezeichenfolgen-Param-Plug-in-Code
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Abfragezeichenfolgen-Param-Plug-In-Code{#query-string-param-plug-in-code}
+# Abfragezeichenfolgen-Param-Plug-in-Code {#query-string-param-plug-in-code}
 
 Reservieren Sie die erforderlichen eVars im Admin Tool von Adobe Analytics, bevor Sie mit dem unten stehenden Code arbeiten.
 
-Sobald Sie die reservierten eVars kennen, ersetzen Sie eVarN durch die entsprechende eVar, z. B. eVar10.
+Sobald Sie die reservierten eVars kennen, ersetzen Sie eVarN durch die entsprechende eVar, beispielsweise eVar10.
 
 ```
 /* 
