@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Data Sources Manager
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Erstellen, verwalten und zeigen Sie die Nutzung von Datenquellen in einer Report Suite an.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
 
-## Registerkarte „Erstellen“{#section_74603FDA3D8842E49F1A51624A06DE20}
+## Registerkarte „Erstellen“ {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 Über die Registerkarte [!UICONTROL Erstellen] können Sie eine neue Datenquelle für die aktuell ausgewählte Report Suite konfigurieren. Wenn Sie eine Datenquelle aktivieren, führt Sie der [!UICONTROL Data Sources-Assistent] durch den Erstellungsvorgang einer Data Sources-Vorlage und legt einen FTP-Speicherort zum Hochladen der Daten an.
 
-Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswahl auf der Registerkarte „Erstellen“ abhängig. Siehe [Erstellen einer Importdatei-Vorlage](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
+Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswahl auf der Registerkarte „Erstellen“ abhängig. Siehe  [Erstellen einer Importdatei-Vorlage](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
-## Registerkarte „Verwalten“{#section_DD559A6701CA45F1A85E56F840F48DBE}
+## Registerkarte „Verwalten“ {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
@@ -38,7 +38,7 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitung abschließen </p> </td> 
-   <td colname="col2"> <p>Weist Data Sources an, offene Besuche in der Datei zu schließen und die Verarbeitung der Data Sources-Datei abzuschließen, als wäre sie vollständig. Dies ist nützlich, wenn Sie Besuche haben, die sich über mehrere Data Sources-Dateien erstrecken. Dies gilt nur für <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volle Verarbeitung</a>. </p> </td> 
+   <td colname="col2"> <p>Weist Data Sources an, offene Besuche in der Datei zu schließen und die Verarbeitung der Data Sources-Datei abzuschließen, als wäre sie vollständig. Dies ist nützlich, wenn Sie Besuche haben, die sich über mehrere Data Sources-Dateien erstrecken. Dies gilt nur für  <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Vollständige Verarbeitung</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Deaktivieren </p> </td> 
@@ -46,7 +46,7 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitung bei Fehler/Warnung stoppen </p> </td> 
-   <td colname="col2"> <p> Weist die Verarbeitungs-Engine von Data Sources an, die Verarbeitung zu stoppen, sobald ein Fehler auftritt. Die Verarbeitung der Datenquelle wird erst fortgesetzt, nachdem Sie „Verarbeitung neu starten“ gewählt haben. Die Option „Verarbeitung bei Fehler/Warnung stoppen“ gilt nur für <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volle Verarbeitung</a>. </p> <p>Wenn in Data Sources ein Dateifehler auftritt, wird eine Fehlermeldung ausgegeben. Das System verschiebt die Data Sources-Datei mit dem Fehler in einen Ordner mit dem Namen <span class="filepath">files_with_errors</span> auf dem FTP-Server. Sobald Sie das Problem gelöst haben, können Sie die Data Sources-Datei erneut für die Verarbeitung einreichen. </p> </td> 
+   <td colname="col2"> <p> Weist die Verarbeitungs-Engine von Data Sources an, die Verarbeitung zu stoppen, sobald ein Fehler auftritt. Die Verarbeitung der Datenquelle wird erst fortgesetzt, nachdem Sie „Verarbeitung neu starten“ gewählt haben. Die Option „Verarbeitung bei Fehler/Warnung stoppen“ gilt nur für  <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Vollständige Verarbeitung</a>. </p> <p>Wenn in Data Sources ein Dateifehler auftritt, wird eine Fehlermeldung ausgegeben. Das System verschiebt die Data Sources-Datei mit dem Fehler in einen Ordner mit dem Namen <span class="filepath">files_with_errors</span> auf dem FTP-Server. Sobald Sie das Problem gelöst haben, können Sie die Data Sources-Datei erneut für die Verarbeitung einreichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konfigurieren </p> </td> 
@@ -64,7 +64,7 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
    <td colname="col1"> <p>Status </p> </td> 
    <td colname="col2"> <p> Der aktuelle Status der Datei. Mögliche Statuswerte: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">In Warteschlange (Schritt 1 von 3): Die Datei existiert, aber die Verarbeitung hat noch nicht begonnen. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">In Warteschlange (Schritt 1 von 3): Die Datei existiert, aber die Verarbeitung hat noch nicht begonnen. Wenn die Datei nicht innerhalb von 30 Minuten angezeigt wird, überprüfen Sie, ob die zugehörige <span class="filepath">.fin</span>-Datei vorliegt. </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Vorbereitung (Schritt 2 von 3): Die Datei wird auf Fehler oder Warnungen geprüft. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Verarbeitung (Schritt 3 von 3): Die Datei wird verarbeitet. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Fehlgeschlagen: Die Datei wurde aufgrund von Fehlern nicht verarbeitet. </li> 
@@ -74,6 +74,6 @@ Die anfänglich in der erstellten Vorlage angezeigten Felder sind von der Auswah
  </tbody> 
 </table>
 
-## Registerkarte „Dateiprotokoll“ {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## Registerkarte „Dateiprotokoll“  {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 Das Dateiprotokoll enthält eine Suchfunktion, mit der Sie anhand von Datenquelle-Name, Datenquelle-Typ, Dateiname, Empfangsdatum oder Status nach Informationen suchen können.
