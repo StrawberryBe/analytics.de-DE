@@ -4,7 +4,7 @@ title: Activity Map – Häufig gestellte Fragen
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
+source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
 
 ---
 
@@ -53,7 +53,7 @@ A:
 
 **Q: Bietet Aktivität Map Daten zu &quot;Ansichten&quot;?**
 
-A: Nein, Adobe verfolgt keine angezeigten Links.
+A: Nein, Adobe verfolgt keine Links, die angezeigt wurden.
 
 **Q: Kann ich die Aktivität Map verwenden, wenn ich Besucher ClickMap auf meiner Website noch nicht verwendet habe?**
 
