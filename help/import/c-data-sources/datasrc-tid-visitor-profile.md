@@ -3,7 +3,7 @@ description: 'null'
 title: Transaktions-ID und Besucherprofile
 topic: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Dieser Abschnitt enthält wichtige Informationen zu den Daten aus dem Besucherpr
 
 ## Transaktions-ID {#section_B248FA93ECC84F6290D237EB83618070}
 
-Beim Aufzeichnen einer Transaktions-ID wird ein „Schnappschuss“ des aktuellen Besucherprofils gespeichert und mit der Transaktions-ID verbunden. Dieser „Schnappschuss“ enthält alle aktuell für den Besucher eingestellten Variablenwerte, inklusive Variablen, die bestehen bleiben (z. B. eVars und Kampagnen). Werte in diesem „Schnappschuss“ erhalten eine Zuordnung für Erfolgsereignisse, Kaufereignisse und Umsätze, die später mit derselben Transaktions-ID hochgeladen werden.
+Beim Aufzeichnen einer Transaktions-ID wird ein „Schnappschuss“ des aktuellen Besucherprofils gespeichert und mit der Transaktions-ID verbunden. Dieser „Schnappschuss“ enthält alle aktuell für den Besucher eingestellten Variablenwerte, inklusive Variablen, die bestehen bleiben (z. B. eVars und Kampagnen). Werte in diesem „Schnappschuss“ erhalten eine Zuordnung für Erfolgsereignisse, Kaufereignisse und Umsätze, die später mit derselben Transaktions-ID hochgeladen werden.
 
 Nachdem der „Schnappschuss“ des Besucherprofils erstellt wurde, wird er nicht aktualisiert, wenn das aktuelle Besucherprofil geändert wird (aufgrund des Online-Verhaltens). Er wird lediglich mit Daten aktualisiert, die mithilfe von Transaktions-ID-Datenquellen hochgeladen werden. Wenn Sie den Wert für die Transaktions-ID auf mehreren Seiten während desselben Besuchs festlegen, wird der später stattfindende Datenquellen-Upload an den „Schnappschuss“ gebunden, der erstellt wurde, als die ID zum ersten Mal festgelegt wurde.
 
@@ -39,7 +39,7 @@ eVars, die mit Transaktions-ID-Datenquellen hochgeladen wurden, werden dem „Sc
 
 Der „Schnappschuss“ des Besucherprofils, der mit einer Transaktions-ID verbunden ist, kann nach 90 Tagen gelöscht werden. Der tatsächliche Löschplan kann jedoch abweichen. Sie können sich, falls erforderlich, an die Adobe-Kundenunterstützung wenden, um das Ablauffenster erweitern zu lassen. Wird eine Zeile nach dem Transaktions-ID-Ablauffenster hochgeladen, werden die Zeilendaten zwar aufgezeichnet, aber keine der Daten im „Schnappschuss“ des Besucherprofils werden gutgeschrieben, wenn das Profil gelöscht wurde.
 
-## Aufschlüsselungen und Segmentierung mithilfe von Transaktions-IDs {#section_A4D39291200A42C496122FDB9EF6EF68}
+## Aufschlüsselungen und Segmentierung mithilfe von Transaktions-IDs  {#section_A4D39291200A42C496122FDB9EF6EF68}
 
 Mit Datenquellen hochgeladene eVars können verwendet werden, um im „Schnappschuss“ des Besucherprofils enthaltene eVars aufzuschlüsseln. Da diese Daten vom aktuellen Besucherprofil getrennt sind, können Sie keine anderen eVars zur Aufschlüsselung verwenden, die festgelegt wurden, bevor oder nachdem die Transaktions-ID festgelegt wurde, die aber nicht Teil des „Schnappschusses“ sind.
 
