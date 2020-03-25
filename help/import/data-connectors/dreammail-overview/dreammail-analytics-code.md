@@ -2,13 +2,13 @@
 description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu.
 title: Analytics-Plug-in-Code
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Analytics-Plug-in-Code{#analytics-plug-in-code}
+# Analytics-Plug-in-Code {#analytics-plug-in-code}
 
 Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Analytics-Code auf Ihren Seiten hinzu.
 
@@ -26,4 +26,4 @@ Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt habe
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte Custom Commerce-Variablen (eVars) verfügbar sind. Wenn die im obigen Plug-in angegebenen Variablen nicht in Ihrer Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
+> [!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte benutzerspezifische Commerce-Variablen (eVars) verfügbar sind. Wenn die im Plug-in angegebenen Variablen nicht in Ihrer Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
