@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Übersicht über Datentypen und Kategorien
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Mithilfe von Datenquellen-Kategorien werden die unterschiedlichen Datenquellen-Typen identifiziert, die ähnliche Funktionen bieten.
 
-Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benutzers zu gruppieren. Wenn Sie eine Datenquelle über Data Sources erstellen, wählen Sie zuerst eine Datenquellen-Kategorie aus und geben Sie dann einen Datenquellen-Typ an. Jede Kategorie enthält Datenquellen-Typen, die ähnliche Datentypen unterstützen. Data Sources bietet die folgenden Datenquellen-Kategorien:
+Kategorien bieten eine Möglichkeit, Datenquellen aus Sicht eines Benutzers zu gruppieren. Wenn Sie eine Datenquelle über Data Sources erstellen, wählen Sie zuerst eine Datenquellen-Kategorie aus und geben Sie dann einen Datenquellen-Typ an. Jede Kategorie enthält Datenquellen-Typen, die ähnliche Datentypen unterstützen. Data Sources bietet die folgenden Datenquellen-Kategorien:
 
 ## Website-Gebrauch {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -33,9 +33,9 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
    <td colname="col3"> <p>Die meisten Webserver generieren Protokolldateien, die jede Seite in ihrem Versorgungsnetz aufzeichnen. Mithilfe dieser Datenquelle können Sie die Protokolldateien der meisten Webserver-Daten verarbeiten und diese Daten zu Ihren Berichten hinzufügen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising Cloud-Massen-Upload </p> </td> 
+   <td colname="col1"> <p>Massen-Upload in Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Konversion </a> </p> </td> 
-   <td colname="col3"> <p>Bietet manuelle und Excel-automatisierte Massen-Uploads in der Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Ermöglicht den manuellen und von Excel automatisierten Massen-Upload in Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Traffic-Datenquelle auf Site-Ebene </p> </td> 
@@ -50,7 +50,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
  </tbody> 
 </table>
 
-## Werbekampagnen {#section_9AE27E347CFC48F29E7C1134B6E928A6}
+## Werbekampagnen  {#section_9AE27E347CFC48F29E7C1134B6E928A6}
 
 <table id="table_2A297A86CC3E4B1E8B72389AA148549A"> 
  <thead> 
@@ -79,7 +79,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
  </tbody> 
 </table>
 
-## CRM (Customer Relationship Management) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## CRM (Customer Relationship Management)  {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
@@ -103,7 +103,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
  </tbody> 
 </table>
 
-## Kundenzufriedenheit {#section_1058CA3860044630B0B06EEDA261DBA2}
+## Kundenzufriedenheit  {#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -122,7 +122,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
  </tbody> 
 </table>
 
-## Site-Leistung {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## Site-Leistung  {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -141,7 +141,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
  </tbody> 
 </table>
 
-## Generisch {#section_9B9A2A9871894B6491032AE1E961629A}
+## Generisch  {#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -159,7 +159,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Generische Datenquelle (volle Verarbeitung) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Volle Verarbeitung </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Vollständige Verarbeitung </a> </p> </td> 
    <td colname="col3"> <p>Ermöglicht Ihnen den Import von Protokolldateidaten. Diese Daten werden so verarbeitet, als seien sie zur angegebenen Zeit von den Datenerfassungsservern empfangen worden (jeder Hit erhält einen Zeitstempel). </p> </td> 
   </tr> 
   <tr> 
@@ -199,7 +199,7 @@ Kategorien bieten eine Möglichkeit, Datenquellen aus der Perspektive eines Benu
  </tbody> 
 </table>
 
-## Interessenten und Preisangebote {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## Interessenten und Preisangebote  {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
