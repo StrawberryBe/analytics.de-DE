@@ -1,25 +1,25 @@
 ---
 description: Listet die Standarddimensionen auf, die automatisch mit der Integration erfasst werden.
-title: Standardmaße der Demandbase
+title: Demandbase-Standarddimensionen
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Standardmaße der Demandbase{#demandbase-standard-dimensions}
+# Demandbase-Standarddimensionen {#demandbase-standard-dimensions}
 
 Listet die Standarddimensionen auf, die automatisch mit der Integration erfasst werden.
 
 | Dimension | API-Feld | Beschreibung |
 |---|---|---|
-| Demandbase SID | demandbase_sid | Der eindeutige Bezeichner für die Organisation, der in der Demandbase-Datenbank identifiziert wird. |
-| Firmenname | Unternehmensname | Der standardisierte Unternehmensname der Demandbase für das identifizierte Unternehmen. |
-| Branche | Branche | Branchenname oder Branche vertikal für das identifizierte Unternehmen. |
-| Subindustrie | sub_industry | Branchenspezifischer Name der identifizierten Organisation. |
+| Demandbase-SID | demandbase_sid | Die eindeutige Kennung für die Organisation, die in der Demandbase-Datenbank identifiziert wird. |
+| Firmenname | Unternehmensname | Der standardisierte Organisationsname von Demandbase für die identifizierte Firma. |
+| Branche | industry | Branchenname oder Branchenzweig für die identifizierte Organisation. |
+| Unterbranche | sub_industry | Branchenspezifischer Name der identifizierten Organisation. |
 | Mitarbeiterbereich | employee_range | Mitarbeiterbereich basierend auf der Anzahl der Mitarbeiter für die identifizierte Organisation. |
-| Umsatzbereich | Umsatz_Bereich | Der Umsatzbereich basiert auf dem Jahresumsatz der identifizierten Organisation. |
-| Zielgruppe | Zielgruppe | Klassifiziert den Web-Traffic nach definierten Kategorien (z.B. Enterprise Business, Mid-Market Business, SMB, Government, Wireless, Residential usw.). |
-| Zielgruppensegment | audience_segment | Je nach Zielgruppentyp wird eine zusätzliche Classification-Granularität zurückgegeben (z. B. Branchentyp für Behörden; Art der Einrichtung für Bildung; Industrie für Unternehmen). |
+| Umsatzbereich | revenue_range | Der Umsatzbereich basiert auf dem Jahresumsatz der identifizierten Organisation. |
+| Zielgruppe | audience | Klassifiziert den Web-Traffic nach definierten Kategorien (z. B. „Enterprise Business“ (Unternehmensgeschäft), „Mid-Market Business“ (Mittelständisches Unternehmen), „SMB“ (KMU), „Government“ (Behörden), „Wireless“, „Residential“ (Wohneinrichtung) usw.). |
+| Zielgruppensegment | audience_segment | Je nach Zielgruppentyp wird eine zusätzliche Klassifizierungsgranularität zurückgegeben (z. B. Verzweigungstyp für Behörden; Art der Einrichtung für Bildung; Branche für Unternehmen). |
 
