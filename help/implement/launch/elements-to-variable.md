@@ -2,7 +2,7 @@
 title: Zuordnen von Datenelementen zu Analytics-Variablen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analyse Workspace verwenden können.
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -38,8 +38,8 @@ Die in Regeln festgelegten Variablen eignen sich ideal, wenn Sie nicht möchten,
 1. Klicken Sie auf die gewünschte Eigenschaft Start.
 1. Klicken Sie auf die [!UICONTROL Rules] Registerkarte und dann auf die gewünschte Regel (oder erstellen Sie eine).
 1. Klicken Sie auf die [!UICONTROL Add] Schaltfläche unter [!UICONTROL Actions].
-1. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und das [!UICONTROL Action Type] auf Variablen festlegen fest.
-1. Klicken Sie auf das [!DDatenelement](assets/data-element.png) -Symbol rechts neben der gewünschten Analytics-Variable. Das [Lösungsdesign-Dokument](../prepare/solution-design.md) Ihres Unternehmens bestimmt, welche Analytics-Variable verwendet werden soll.
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Klicken Sie auf das Symbol ![Datenelement](assets/data-element.png) rechts neben der gewünschten Analytics-Variable. Das [Lösungsdesign-Dokument](../prepare/solution-design.md) Ihres Unternehmens bestimmt, welche Analytics-Variable verwendet werden soll.
 1. Wählen Sie im modalen Fenster das gewünschte Datenelement aus. Klicken Sie auf [!UICONTROL Select].
 1. Der Name des Datenelements wird dem Textfeld, das von `%` Zeichen umgeben ist, hinzugefügt. Wenn Sie Ihr Datenelement beispielsweise &quot;Seitenname&quot;nennen, wird die Zeichenfolge angezeigt, `%Page name%` wenn Sie einer Variablen ein Datenelement zuweisen.
 
