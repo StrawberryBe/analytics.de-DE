@@ -1,52 +1,70 @@
 ---
-description: Liefert eine umfassende, genaue und detaillierte Analyse der Kundenaktivität. Die Metriken Kampagnenverwaltung, Verkaufszyklus, Kundenabgang und Kundenkonversion dienen der Messung von E-Commerce-Transaktionen, Verkaufsquellen, Werbewirksamkeit, Kundenloyalität und vielem mehr.
-title: Konversion
-topic: Reports
-uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
+title: eVar
+description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
-# Konversion
+# eVar
 
-Liefert eine umfassende, genaue und detaillierte Analyse der Kundenaktivität. Die Metriken Kampagnenverwaltung, Verkaufszyklus, Kundenabgang und Kundenkonversion dienen der Messung von E-Commerce-Transaktionen, Verkaufsquellen, Werbewirksamkeit, Kundenloyalität und vielem mehr.
+*Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter[eVars](/help/implement/vars/page-vars/evar.md)im Implementierungs-Benutzerhandbuch.*
 
-Wenn Sie beispielsweise sehen möchten, welcher interne Kampagnentyp zu Einkäufen führt, müssen Sie zuerst die internen Trackingcodes erfassen und die Persistenz für die Variable *`s.eVar`* zum Erfassen interner Kampagnen auf den Zeitraum eines Besuchs festlegen. Ist ein Erfolgsereignis abgeschlossen (z. B. ein Einkauf), wird dieser Erfolg den Konversionsvariablen zugeschrieben, die für den Besucher persistent sind, wie beispielweise der internen Kampagnen-ID. Wenn Sie den [!UICONTROL internen Kampagnenbericht] ausführen, sehen Sie, welche Kampagne die meisten Onsitekonversionen erzielt hat.
+eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)verfügen, werden die meisten unternehmensspezifischen Dimensionen als eVars bezeichnet. Standardmäßig bleiben eVars über den Treffer hinaus erhalten, auf dem sie eingestellt sind. Sie können ihren Ablauf und ihre Zuordnung unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen anpassen.
 
-Einige Out-of-the-Box-Berichte enthalten sowohl Traffic- als auch Konversionsmetriken (wie z. B. die [!UICONTROL Suchmaschinen]-Berichte). [!UICONTROL Traffic]- und [!UICONTROL Konversions]berichte sind jedoch einmalig für Ihr Unternehmen und werden in den **[!UICONTROL Traffic]**- und **[!UICONTROL Konversionsmenüs angezeigt]**.
+## Funktionsweise von eVars
 
-**Berichteigenschaften**
+Wenn Sie Daten an Adobe Analytics senden, übersetzen die Datenerfassungsserver den Treffer in eine Datenzeile mit Hunderten von Spalten. Für jede eVar sind zwei Spalten vorgesehen. eine für die direkte Datenerfassung und die andere für die Beibehaltung von Werten.
 
-* [!UICONTROL Benutzerspezifische Konversions]berichte basieren auf eVars (Konversionsvariablen).
-* Konversionsvariablen können über die Seitenansicht hinaus bestehen und innerhalb des angegebenen Ablaufzeitraums Metriken zugeordnet werden.
-* Der Umsatz ist die Standardmetrik des Berichts. Informationen zum Ändern der Standardmetriken finden Sie unter [Auswählen der Standardberichtmetriken](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
-* Sie können diese Berichte als Trend- und als Rangansicht anzeigen.
-* In diesen Berichten können Sie Zeileneinträge mit Classifications umbenennen und zusammenfassen.
-* Wenn grundlegende Subrelationen aktiviert sind, können diese Berichte nach folgenden Faktoren aufgeschlüsselt werden:
+* Eine Standardspalte enthält Daten, die von der Bildanforderung an Adobe gesendet werden.
+* Eine Spalte &quot;Beitrag&quot;enthält beständige Daten, die vom Ablauf und der Zuordnung der eVar abhängen.
 
-   * Kampagnen und Produkte mit allen zugehörigen Classifications
-   * Kundentreue
-   * Alle eVars mit voller Subrelation
+Unter fast allen Umständen wird die `post_evar` Spalte in Berichten verwendet.
 
-* Wenn volle Subrelationen aktiviert sind, sind weitere Berichte für eine Aufschlüsselung verfügbar:
+### Verknüpfung von eVars mit Metriken
 
-   * Zeit pro Besuch
-   * Seiten und Sitebereiche mit allen zugehörigen Classifications
-   * Entrypages
-   * Nahezu alle Berichte zu Traffic-Quellen
-   * Besuchnummer
-   * Berichte zu Besucherprofil und Technologie
-   * Alle sonstigen eVars
-   * Erst- und Letztkontakt von Marketingkanälen
+Erfolgreiche Ereignis und eVars werden häufig in verschiedenen Bildanforderungen definiert. In der `post_evar` Spalte können eVar-Werte sich mit Ereignissen verbinden und Daten in Berichte anzeigen. Gehen Sie zum Beispiel wie folgt vor:
 
-* Die folgenden Ereignisse können als Metriken verwendet werden:
+1. Ein Besucher gelangt zu Ihrer Site auf Ihrer Startseite.
+2. Sie suchen nach &quot;Katzen&quot;mithilfe der internen Suche Ihrer Site. Ihre Implementierung setzt eVar1 auf die interne Suche.
+3. Sie haben ein Produkt Ansicht und fahren mit dem Kassengang fort.
 
-   * Instanzen, d. h. wie oft die eVar definiert wurde
-   * Alle E-Commerce-Standardmetriken: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb, Entnahmen aus Warenkorb.
-   * Alle benutzerspezifischen Ereignisse: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
-   * Besuche und Besucher: Die Verfügbarkeit hängt von der Organisation und der Report Suite ab. Nähere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+Eine vereinfachte Version der Rohdaten würde wie folgt aussehen:
 
-* Der Speicherort der einzelnen [!UICONTROL benutzerspezifischen Konversion]-Berichte hängt von dem numerischen Wert ab, der der eVar zugeordnet ist. Grundsätzlich sind sie im Ordner [!UICONTROL Benutzerspez. Konversion] zu finden (sofern das Menü nicht benutzerdefiniert ist).
+| `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
+| --- | --- | --- | --- | --- |
+| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
+| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
 
+* Die `visitor_id` Spalte verknüpft Treffer mit demselben Besucher. In den eigentlichen Rohdaten werden die verketteten Werte der Besucher-ID `visid_high` und `visid_low` bestimmt.
+* Die `pagename` Spalte füllt die Dimension &quot;Seiten&quot;.
+* Die `evar` Spalte bestimmt die Treffer, wenn eVar1 explizit festgelegt wurde.
+* Der `post_evar1` vorherige Wert wird abhängig von der Zuordnung und dem Ablauf der Variablen in den Report Suite-Einstellungen übernommen.
+* Die `event_list` Spalte enthält alle Metrikdaten. Bei diesem Beispiel `event1` handelt es sich um &quot;Suchen&quot;, bei den anderen Ereignissen um Standardmetriken zum Einkaufswagen. In den eigentlichen Rohdaten `event_list` enthält ein kommagetrennter Zahlensatz mit einer Nachschlagetabelle, die diese Zahlen an eine Metrik bindet.
+
+### Übersetzen der Datenerfassung in Berichte
+
+Die Tools in Adobe Analytics, z. B. Analyse Workspace, arbeiten von diesen erfassten Daten ab. Wenn Sie z. B. einen Bericht mit eVar1 als Dimension und Bestellungen als Metrik abrufen, wird ein Bericht ähnlich dem folgenden angezeigt:
+
+| `Internal search term (eVar1)` | `Orders` |
+| --- | --- |
+| `cats` | `1` |
+
+Analyse Workspace ruft diesen Bericht mit der folgenden Logik ab:
+
+* Sehen Sie sich alle `event_list` Werte an und wählen Sie alle Treffer mit `purchase` ihnen aus.
+* Zeigen Sie den `post_evar1` Wert aus diesen Treffern an.
+
+### Bedeutung der Zuteilung und des Ablaufs
+
+Da Zuordnung und Ablauf bestimmen, welche Werte beibehalten werden, sind sie entscheidend, um den größtmöglichen Nutzen aus einer Analytics-Implementierung zu ziehen. Adobe empfiehlt dringend, dass Sie innerhalb Ihres Unternehmens besprechen, wie mehrere Werte für jede eVar verarbeitet werden (Zuordnung) und wann eVars die Speicherung der Daten beenden (Ablauf).
+
+* Standardmäßig verwendet eine eVar die letzte Zuordnung. Neue Werte überschreiben behaltene Werte.
+* Standardmäßig verwendet eine eVar einen Ablauf des Besuchs. Nach Ende eines Besuchs werden Werte nicht mehr von Zeile zu Zeile in der `post_evar` Spalte kopiert.
+
+Sie können die eVar-Zuordnung und den Ablauf unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen ändern.
