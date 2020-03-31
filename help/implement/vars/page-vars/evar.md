@@ -1,38 +1,40 @@
 ---
 title: eVar
-description: Benutzerspezifische Variablen, die Sie in Ihrer Implementierung verwenden können.
+description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 translation-type: tm+mt
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # eVar
 
-eVars sind benutzerspezifische Variablen, die Sie beliebig verwenden können.
+*Auf dieser Hilfeseite wird die Implementierung von eVars beschrieben. Informationen dazu, wie eVars als Dimension funktionieren, finden Sie unter[eVars](../../../components/c-variables/dimensionslist/reports-conversion.md)im Komponenten-Benutzerhandbuch.*
 
-> [!TIP] Adobe empfiehlt in den meisten Fällen, eVars über Props zu verwenden. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können.
 
-Vergewissern Sie sich, dass Sie die Verwendung der einzelnen eVars und deren Logik in Ihrem [Lösungsdesigndokument](../../prepare/solution-design.md)aufzeichnen.
+> [!TIP] Adobe empfiehlt in den meisten Fällen die Verwendung von eVars anstelle von Props. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+
+Vergewissern Sie sich, dass Sie die Verwendung der einzelnen eVars und deren Logik in Ihrem [Lösungsdesigndokument](../../prepare/solution-design.md) aufzeichnen.
 
 ## Einrichten von eVars in den Report Suite-Einstellungen
 
-Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie jede eVar in den Report Suite-Einstellungen konfigurieren. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie jede eVar in den Report Suite-Einstellungen konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
-## eVars beim Start der Adobe Experience Platform
+## eVars in Adobe Experience Platform Launch
 
 Sie können eVars entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Aktionen]auf eine bestehende Aktion [!UICONTROL Adobe Analytics - Set Variables] , oder klicken Sie auf das Pluszeichen.
-5. Legen Sie das [!UICONTROL Erweiterungs] -Dropdownmenü auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf Variablen [!UICONTROL festlegen]fest.
-6. Suchen Sie den Abschnitt [!UICONTROL eVars] .
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Klicken Sie [!UICONTROL Actions]unter &quot;auf eine bestehende [!UICONTROL Adobe Analytics - Set Variables] Aktion&quot;oder auf das Symbol &quot;+&quot;.
+5. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und [!UICONTROL Action Type] auf [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL eVars] section.
 
 Sie können eine eVar auswählen, um einen Wert oder ein Datenelement festzulegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
-## s.eVar1 - s.eVar250 in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.eVar1 – s.eVar250 in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
 Jede eVar ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Die maximale Länge beträgt 255 Byte. Werte, die länger als 255 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 
@@ -52,15 +54,15 @@ s.eVar1 = "+1";
 s.eVar1 = "+12.49";
 ```
 
-Wenn mehr als zwei Dezimalstellen angegeben sind, wird die Zähler-eVar auf zwei Dezimalstellen gerundet. Ein eVar-Zähler darf keine negativen Zahlen enthalten.
+Wenn mehr als zwei Dezimalstellen angegeben sind, wird die Zähler-eVar auf zwei Dezimalstellen gerundet. Ein eVar-Zähler kann keine negativen Zahlen enthalten.
 
-> [!IMPORTANT] Bevor Sie Zähler-eVars verwenden können, müssen Sie eVars zunächst in der Admin-Konsole auf &quot;Zähler&quot;konfigurieren. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+> [!IMPORTANT] Bevor Sie Zähler-eVars verwenden können, müssen Sie eVars zunächst in der Admin-Konsole auf &quot;Zähler&quot;konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
-## Exklusive Vorteile für Props oder eVars
+## Vorteile von Props oder eVars
 
-In der aktuellen Version von Adobe Analytics sind Props und eVars benutzerdefinierte Variablen mit ähnlichen Funktionen. Es gibt jedoch mehrere große Unterschiede:
+In der aktuellen Version von Adobe Analytics sind Props und eVars benutzerdefinierte Variablen mit ähnlichen Funktionen. Sie haben jedoch einige große Unterschiede:
 
-* Daten in Eigenschaftsvariablen stehen in wenigen Minuten zur Verfügung. eVars können bis zu 30 Minuten dauern, bis sie in Berichten angezeigt werden.
+* Die Daten in Props sind innerhalb von Minuten in der Berichterstellung verfügbar. Bei eVars kann es bis zu 30 Minuten dauern, bis die Daten in der Berichterstellung angezeigt werden.
 * Props haben in Berichten eine Beschränkung von 100 Byte. eVars sind auf 255 Byte begrenzt.
-* Eigenschaften können zu Listen-Props werden, die mehrere Werte im selben Treffer akzeptieren. Listenvariablen sind eine separate Variable, und es sind nur drei Listenvariablen verfügbar.
-* Eigenschaften bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben einen benutzerdefinierten Ablauf, mit dem Sie feststellen können, wann eine eVar nicht mehr für ein nachfolgendes Ereignis gutgeschrieben wird. Wenn Sie jedoch die [Berichtszeitverarbeitung](../../../components/vrs/vrs-report-time-processing.md)verwenden, können sowohl props als auch eVars ein benutzerdefiniertes Zuordnungsmodell verwenden.
+* Props können zu Listen-Props werden, die mehrere Werte im selben Treffer akzeptieren. Listenvariablen sind eine separate Variable, und es sind nur drei Listenvariablen verfügbar.
+* Props bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben eine benutzerdefinierte Gültigkeit, mit der Sie feststellen können, wann einer eVar ein nachfolgendes Ereignis nicht mehr gutgeschrieben wird. Wenn Sie jedoch die [Berichtszeitverarbeitung](../../../components/vrs/vrs-report-time-processing.md)verwenden, können sowohl props als auch eVars ein benutzerdefiniertes Zuordnungsmodell verwenden.
