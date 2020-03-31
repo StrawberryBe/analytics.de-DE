@@ -1,8 +1,8 @@
 ---
 title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
@@ -15,12 +15,12 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 
 ## Tracking-Server in Adobe Experience Platform Launch
 
-„Tracking-Server“ ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfiguration der Adobe Analytics-Erweiterung.
+Tracking Server is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
-4. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Tracking-Server] angezeigt wird.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Erweitern Sie das [!UICONTROL General] Akkordeon, das das [!UICONTROL Tracking Server] Feld aufdeckt.
 
 Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].112.2o7.net`ausgewählt.
 
@@ -36,7 +36,7 @@ Der Wert dieser Variablen hängt davon ab, ob Sie Erstanbieter-Cookies oder Drit
 
 ### Erstanbieter-Cookies
 
-Wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, ist es wahrscheinlich, dass jemand in Ihrem Unternehmen den Erstanbieter-Cookie-Prozess bereits abgeschlossen hat. Weitere Informationen zum Erstanbieter-Cookie-Prozess finden Sie unter [Erstanbieter-Cookies in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) im Core Services-Benutzerhandbuch.
+Wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, ist es wahrscheinlich, dass jemand in Ihrem Unternehmen den Erstanbieter-Cookie-Prozess bereits abgeschlossen hat. Weitere Informationen zum Erstanbieter-Cookie-Prozess finden Sie unter [Erstanbieter-Cookies in der Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) im Core Services-Benutzerhandbuch.
 
 Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert, definiert auch die verwendete Domäne und Unterdomäne. Beispiel:
 
@@ -57,3 +57,5 @@ s.trackingServer = "example.sc.omtrdc.net";
 ```
 
 Wählen Sie eine für Ihre Organisation eindeutige Unterdomäne aus, die wahrscheinlich nicht von einer anderen Organisation ausgewählt wird, die Adobe Analytics verwendet. Stellen Sie sicher, dass alle Implementierungen in Ihrem Unternehmen denselben Tracking-Server verwenden. Es kann hilfreich sein, diese Informationen in einem [Lösungsdesigndokument](../../prepare/solution-design.md) zu verwalten.
+
+> [!NOTE] Verwenden Sie keine Subdomänen, die tiefer als `example.sc.omtrdc.net`. Zum Beispiel `custom.example.sc.omtrdc.net` ist kein gültiger Tracking-Server.
