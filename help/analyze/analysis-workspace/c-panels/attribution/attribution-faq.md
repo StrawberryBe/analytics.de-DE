@@ -2,7 +2,7 @@
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **Was ist der Zeileneintrag „Keine“ bei Verwendung von Attribution?**
 
-Das Zeilenelement „Keine“ ist ein Sammelpunkt, der alle Konversionen darstellt, die ohne Touchpoints im Lookback-Fenster stattgefunden haben. Versuchen Sie, einen längeren Zeitraum in Ihr Berichtsfenster aufzunehmen.
+Das Zeilenelement &quot;Keine&quot;ist ein Sammelelement, das alle Konvertierungen darstellt, die ohne Berührungspunkte im Lookback-Fenster stattgefunden haben. Versuchen Sie, einen längeren Zeitraum in Ihr Berichtsfenster aufzunehmen.
 
 **Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?**
 
@@ -58,7 +58,7 @@ Das Attributionsbedienfeld unterstützt alle Dimensionen. Nicht unterstützte Me
 
 **Kann ich ein benutzerdefiniertes Lookback-Fenster mit meinen Attributionsmodellen verwenden?**
 
-Ja. Mithilfe der Option für ein benutzerdefiniertes Lookback-Fenster können Lookback-Fenster bis zu 90 Tage vor dem Berichtsfenster für einen beliebigen Datumsbereich konfiguriert werden. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
+Ja. Mithilfe der Option für das benutzerdefinierte Lookback-Fenster können Lookback-Fenster bis zu 90 Tage vor dem Fenster des Berichte für einen beliebigen Datumsbereich konfiguriert werden. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **Funktioniert die Attribution mit Klassifizierungen?**
 
