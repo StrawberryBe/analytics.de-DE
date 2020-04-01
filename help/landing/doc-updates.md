@@ -3,7 +3,7 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen am Adobe Analytics-Dokumentations-Repository.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
+source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 
 ---
 
@@ -13,20 +13,20 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 * Eine umfassende Liste der neuen Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
-* Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen im Arbeitsbereich](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) für Analysen im Tool-Benutzerhandbuch.
+* Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen in Analyse Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) im Tools-Benutzerhandbuch.
 * Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Aktualisierungen im Detail
 
 | Datum | Beschreibung |
 |---|---|
-| 25. Februar 2020 | Variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) hinzugefügt. |
-| 18. Februar 2020 | Variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) hinzugefügt. |
-| 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu [Marketingkanälen](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
-| 7. Februar 2020 | Aktualisierungen zum [Einrichten von geräteübergreifenden Analysen](../components/cda/cda-setup.md) und [häufig gestellte Fragen](../components/cda/cda-faq.md) |
-| 4. Februar 2020 | Umschreiben des [Implementierungsbenutzerhandbuchs](../implement/home.md)abgeschlossen. |
+| 25. Februar 2020 | Variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) hinzugefügt. |
+| 18. Februar 2020 | Variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) hinzugefügt. |
+| 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu [Marketing-Kanälen](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
+| 7. Februar 2020 | Aktualisierungen zum [Einrichten von geräteübergreifenden Analysen](../components/cda/cda-setup.md) und [häufig gestellte Fragen](../components/cda/cda-faq.md) |
+| 4. Februar 2020 | Umschreiben des [Implementierungsbenutzerhandbuchs](../implement/home.md)abgeschlossen. |
 | 22. Januar 2020 | Die Seite „Freiform-Tabelle“ wurde aktualisiert und enthält Informationen zum neuen [Freiform-Tabellen-Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| 13. Januar 2020 | Es wurden [Adobe Analytics- und Browser-Cookies](../technotes/cookies.md)hinzugefügt. |
+| 13. Januar 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25. November 2019 | Neues Thema zum [internen Marketing-Kanal (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
@@ -43,9 +43,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 10. Juni 2019 | Neuer Artikel zur [regionalen Datenerfassung (Regional Data Collection, RDC) für China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
 | 4. Juni 2019 | Neues Handbuch mit dem Titel [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30. Mai 2019 | Aktualisierung von [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 11. April 2019 | Aktualisierung von [Optimize Workspace Performance](/help/analyze/analysis-workspace/optimizing-performance.md). |
+| 11. April 2019 | Aktualisierung von [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). |
 | 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](/help/technotes/rdc/regional-data-collection.md). |
-| 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md). |
-| 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
-| 17. Januar 2019 | Neue Projekteinstellung im Analysis Workspace namens [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
-| 17. Januar 2019 | Umfassende Aktualisierung von [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
+| 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md). |
+| 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
+| 17. Januar 2019 | Neue Projekteinstellung im Analysis Workspace namens [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
+| 17. Januar 2019 | Umfassende Aktualisierung von [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
