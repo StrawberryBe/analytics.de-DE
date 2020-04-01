@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 + [Leitfaden für Analytics-Tools](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Hilfe zum Analysis Workspace](analysis-workspace/home.md)
    + [Funktionen des Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
+   + [Hilfe zum Analysis Workspace](analysis-workspace/home.md)
    + [Anwendungsfälle von Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Neuerungen in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Workspace-Projekt erstellen {#build-workspace-project}
@@ -95,11 +95,6 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
       + [Projektdateien freigeben und planen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Datei senden – Bereitstellung eines Projekts planen](analysis-workspace/curate-share/t-schedule-report.md)
       + [Manager für geplante Projekte](analysis-workspace/curate-share/schedule-projects.md)
-   + [Häufig gestellte Fragen](analysis-workspace/faq.md)
-   + [Administrationsanforderungen](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace-Leistung optimieren](analysis-workspace/optimizing-performance.md)
-   + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace-Beschränkungen](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
@@ -118,6 +113,12 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
          + [Warnhinweiserstellung](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Warnhinweis-Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente Warnhinweise – Anwendungsfälle](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + Häufig gestellte Fragen zum Arbeitsbereich {#workspace-faq}
+      + [Häufig gestellte Fragen](analysis-workspace/workspace-faqs/faq.md)
+      + [Analysis Workspace-Leistung optimieren](analysis-workspace/workspace-faqs/optimizing-performance.md)
+      + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
+      + [Analysis Workspace-Beschränkungen](analysis-workspace/workspace-faqs/aw-limitations.md)
+      + [Administrationsanforderungen](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Hilfe zu Adobe Report Builder](report-builder/home.md)
    + [Neue Funktionen in Report Builder](report-builder/whats-new-arb.md)
@@ -329,7 +330,7 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 + Mobile Anwendung {#mobapp}
    + [Übersicht über mobile Apps](mobile-app/home.md)
    + [Kuratorleitfaden](mobile-app/curator.md)
-   + [Schnellstartanleitung für Führungskräfte](mobile-app/executive.md)
+   + [Handbuch zum schnellen Beginn für Führungskräfte](mobile-app/executive.md)
 + Progressive Web-Apps {#pwa}
    + [Progressive Web-Apps](pwa/pwa.md)
 + Analytics-Reporting-API {#analytics-reporting-api}
