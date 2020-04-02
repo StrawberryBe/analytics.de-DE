@@ -134,7 +134,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: Aufschlüsselung nach Segment </p> </td> 
-   <td colname="col2"> <p>Hinzugefügte Unterstützung für <span class="wintitle">Aufschlüsselung nach Segment</span>. Zusätzlich zu den Aufschlüsselungen nach „Standard“ (Elemente) und „Benutzerspezifisch“ (Insights) können Sie Berichte nun auch nach Segmenten aufschlüsseln. Wenn Sie die Registerkarte <span class="wintitle">Segmente</span> auswählen, wird die Liste mit den Segmenten gefüllt, die auch in der Dropdown-Liste <span class="wintitle">Verfügbare Segmente</span> angeboten werden. </p> <p>Linienelemente mit Mitgliedschaft im Segment melden den Wert „1“ und Elemente außerhalb des Segments „0“. </p> </td> 
+   <td colname="col2"> <p>Hinzugefügte Unterstützung für  <span class="wintitle">Aufschlüsselung nach Segment</span>. Zusätzlich zu den Aufschlüsselungen nach „Standard“ (Elemente) und „Benutzerspezifisch“ (Insights) können Sie Berichte nun auch nach Segmenten aufschlüsseln. Wenn Sie die Registerkarte <span class="wintitle">Segmente</span> auswählen, wird die Liste mit den Segmenten gefüllt, die auch in der Dropdown-Liste <span class="wintitle">Verfügbare Segmente</span> angeboten werden. </p> <p>Linienelemente mit Mitgliedschaft im Segment melden den Wert „1“ und Elemente außerhalb des Segments „0“. </p> </td> 
   </tr> 
  </tbody> 
 </table>
