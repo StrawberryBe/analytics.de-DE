@@ -1,10 +1,10 @@
 ---
-description: Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage sie Hierarchieberichte mit dem gleichen Namen erstellen können.
+description: Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage Sie Hierarchieberichte mit dem gleichen Namen erstellen können.
 subtopic: Classifications
 title: Klassifizierungshierarchien
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Klassifizierungshierarchien
 
-Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage sie Hierarchieberichte mit dem gleichen Namen erstellen können.
+Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierarchien definieren, auf deren Grundlage Sie Hierarchieberichte mit dem gleichen Namen erstellen können.
 
 ## Klassifizierungshierarchien {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
@@ -22,7 +22,7 @@ In einem [!UICONTROL Hierarchie]-Bericht können Sie gestützt auf die Classific
 
 Sie können Classification-Hierarchien für Webseiten, Kampagnen, Produkte oder beliebige andere Berichtsvariablen erstellen. Im Hierarchiebericht werden Einheiten, Bestellungen und Umsatz für jede Variablen-Classification in der Hierarchie angezeigt.
 
-Angenommen, eine Produkthierarchie sieht wie folgt aus: Bekleidung &gt; Herrenbekleidung &gt; Hemden &gt; Polohemden &gt; XL-Polohemden. In diesem Fall werden im Hierarchiebericht Vertriebsdaten für die Classification „Bekleidung“ angezeigt. Anschließend können Sie per Drilldown weitere Informationen zu Herrenbekleidung, Hemden, Polohemden und XL-Polohemden abrufen. Durch die Classification-Hierarchie können Sie schnell feststellen, wie jede der Classifications in der Hierarchie zur Performance der Classification „Bekleidung“ beiträgt.
+Angenommen, eine Produkthierarchie sieht wie folgt aus: Bekleidung > Herrenbekleidung > Hemden > Polohemden > XL-Polohemden. In diesem Fall werden im Hierarchiebericht Vertriebsdaten für die Classification „Bekleidung“ angezeigt. Anschließend können Sie per Drilldown weitere Informationen zu Herrenbekleidung, Hemden, Polohemden und XL-Polohemden abrufen. Durch die Classification-Hierarchie können Sie schnell feststellen, wie jede der Classifications in der Hierarchie zur Performance der Classification „Bekleidung“ beiträgt.
 
 Erstellen Sie die Classifications, bevor Sie sie einer Hierarchie hinzufügen.
 
@@ -34,9 +34,9 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
 1. Report Suite auswählen.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Klassifizierungshierarchien]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Classification-Hierarchien]**.
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Hierarchieaufbau für]** die Variable aus, in der Sie eine Klassifizierungshierarchie erstellen möchten.
 
    In der Classification-List werden die verfügbaren Classifications für die ausgewählte Variable automatisch angezeigt.
