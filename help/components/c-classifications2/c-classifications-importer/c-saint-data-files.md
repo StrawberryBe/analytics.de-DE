@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Klassifizierungsdatendateien
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Der Wert von Classifications darf nicht 0 (null) sein.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [maskiert wurde](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß  [maskiert wurde](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
 
    ```
    \t     tab character 
@@ -52,12 +52,12 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Classification-Exporte können aufgrund von Zeilenumbruchzeichen im Schlüssel doppelte Schlüssel aufweisen. Bei einem FTP- oder Browser-Export können Sie dies vermeiden, indem Sie Anführungszeichen für das FTP-Konto aktivieren. Dadurch wird jeder Schlüssel mit Zeilenumbruchzeichen in Anführungszeichen gesetzt.
 * Die Zelle C1 in der ersten Zeile der Importdatei enthält eine Versionskennung, die festlegt, wie Classifications die Verwendung von Anführungszeichen im Rest der Datei handhaben.
 
-   * v2.0 ignoriert Anführungszeichen und nimmt an, dass sie alle Bestandteil der angegebenen Schlüssel und Werte sind. Beachten Sie z. B. diesen Wert: "Dies ist ""irgendein Wert""". v2.0 würde dies wörtlich wie folgt interpretieren: "Dies ist ""irgendein Wert""".
-   * v2.1 teilt Classifications mit, dass sie Anführungszeichen als Bestandteil der in Excel-Dateien verwendeten Dateiformatierungen betrachten sollen. Daher würde v2.1 das obenstehende Beispiel wie folgt umformatieren: Dies ist "irgendein Wert".
+   * v2.0 ignoriert Anführungszeichen und nimmt an, dass sie alle Bestandteil der angegebenen Schlüssel und Werte sind. Beachten Sie z. B. diesen Wert: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;. v2.0 würde dies wörtlich wie folgt interpretieren: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;.
+   * v2.1 teilt Classifications mit, dass sie Anführungszeichen als Bestandteil der in Excel-Dateien verwendeten Dateiformatierungen betrachten sollen. Daher würde v2.1 das obenstehende Beispiel wie folgt umformatieren: Dies ist &quot;irgendein Wert&quot;.
    * Es kann zu Problemen kommen, wenn in der Datei v2.1 angegeben ist, jedoch tatsächlich v2.0 gewünscht wurde – und zwar, wenn Anführungszeichen auf eine Weise verwendet werden, die bei Excel-Formatierung nicht zulässig wäre. Z. B., wenn folgender Wert vorliegt: „VP NO REPS“ S/l Dress w/ Overlay. Im Fall von v2.1 ist diese Formatierung nicht korrekt (der Wert sollte von öffnenden und schließenden Anführungszeichen eingeschlossen sein, und Anführungszeichen, die Bestandteil des eigentlichen Werts sind, müssen von Anführungszeichen umgeben sein), und Classifications funktionieren über diesen Punkt hinaus nicht.
    * Vergewissern Sie sich, dass Sie eine der folgenden Aktionen durchführen: Ändern Sie das Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den Dateien ändern, die Sie hochladen, ODER setzen Sie die Anführungszeichen für Excel in allen Ihren Dateien korrekt um.
 
-* Die erste (Nicht-Kommentar-)Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Für Spaltenüberschriften ist im Importeur ein bestimmtes Format erforderlich. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+* Die erste (Nicht-Kommentar)-Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Für Spaltenüberschriften ist im Importeur ein bestimmtes Format erforderlich. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 * Unmittelbar auf die Überschriftenzeile in einer Datendatei folgen die Datenzeilen. Jede Zeile mit Daten sollte ein Datenfeld für jede Spaltenüberschrift enthalten.
 * Die Datendatei unterstützt die folgenden Steuercodes, die von Adobe genutzt werden, um die Datei zu strukturieren und Classification-Daten korrekt zu importieren:
 
@@ -94,7 +94,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 
 >[!MORELIKETHIS]
 >
->* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html)
 
 
 ## Format der Spaltenüberschrift
@@ -109,7 +109,7 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 
 ### Überschrift einer Klassifizierungsspalte
 
-Reports &amp; Analytics enthalten beispielsweise automatisch zwei Classifications für [!UICONTROL Kampagnen]variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
+Reports &amp; Analytics enthalten beispielsweise automatisch zwei Classifications für [!UICONTROL Kampagnen] variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
 
 > [!NOTE] Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden.
 
@@ -121,7 +121,7 @@ Beispielsweise ist [!UICONTROL Campaigns^Owner] eine Spaltenüberschrift für di
 
 ### Klassifizierungsmetrik-Überschriften
 
-So bezieht sich beispielsweise [!UICONTROL Campaigns^~Cost] auf die [!UICONTROL Kosten]metrik in der [!UICONTROL Kampagnen]-Classification.
+So bezieht sich beispielsweise [!UICONTROL Campaigns^~Cost] auf die [!UICONTROL Kosten] metrik in der [!UICONTROL Kampagnen]-Classification.
 
 ### PER-Modifizierer-Überschriften
 
@@ -163,17 +163,17 @@ Weitere Informationen finden Sie unter [Konversion-Classifications](https://mark
 
 > [!NOTE] Seit der [!DNL Analytics]-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte und numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
 
-## Verwendung von Datumsangaben zusammen mit [!UICONTROL Klassifizierungen ] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Verwendung von Datumsangaben zusammen mit [!UICONTROL Klassifizierungen] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-Mit [!UICONTROL Klassifizierungen] können Sie Datumsbereiche zu Ihren Kampagnen oder anderen Konversions[!UICONTROL klassifizierungen] zuweisen, um eine genauere Kampagnenmessung zu erreichen. Nachdem Sie den Datumsbereich eines Wertes angegeben haben, werden übereinstimmende Werte, die außerhalb des Datumsbereichs auftreten, nicht klassifiziert. Dies ist für Kampagnenmessungen nützlich, bei denen die genauen Tage genutzt werden sollen, an denen die Kampagne aktiv war, und nicht alle Hits, die mit der Kampagne selbst übereinstimmen. Um einen Wert erfolgreich mit einem Datumsbereich zu klassifizieren, müssen die folgenden Voraussetzungen erfüllt werden:
+Mit [!UICONTROL Klassifizierungen] können Sie Datumsbereiche zu Ihren Kampagnen oder anderen Konversions [!UICONTROL klassifizierungen] zuweisen, um eine genauere Kampagnenmessung zu erreichen. Nachdem Sie den Datumsbereich eines Wertes angegeben haben, werden übereinstimmende Werte, die außerhalb des Datumsbereichs auftreten, nicht klassifiziert. Dies ist für Kampagnenmessungen nützlich, bei denen die genauen Tage genutzt werden sollen, an denen die Kampagne aktiv war, und nicht alle Hits, die mit der Kampagne selbst übereinstimmen. Um einen Wert erfolgreich mit einem Datumsbereich zu klassifizieren, müssen die folgenden Voraussetzungen erfüllt werden:
 
 * Die [!UICONTROL Klassifizierung] muss auf einer Konversionsvariable basieren.
-* Die verwendete [!UICONTROL Klassifizierung] muss auf „Datumsaktiviert“ oder „Nummerisch 2“ eingestellt sein.
+* Die verwendete [!UICONTROL Klassifizierung] muss auf „Datumsaktiviert“ oder „Numerisch 2“ eingestellt sein.
 * Der betreffende Datumsbereich muss ein Anfangsdatum und (optional) ein Enddatum enthalten.
 
 So klassifizieren Sie Kampagnen basierend auf einem Datumsbereich:
 
-1. Melden Sie sich bei [!DNL Analytics] an und gehen Sie zu „Admin“ &gt; „Klassifizierungen“.
+1. Melden Sie sich bei [!DNL Analytics] an und gehen Sie zu „Admin“ > „Klassifizierungen“.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Browser-Export]**, stellen Sie sicher, dass die Einstellungen für die datumsaktivierte Classification richtig sind, und klicken Sie dann auf „Datei exportieren“.
 1. Öffnen Sie diese Datei in Microsoft Excel oder einem anderen Tabelleneditor, mit dem Sie vertraut sind.
 1. Eine der Spalten endet auf
@@ -195,5 +195,5 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 ## Fehlerbehebung für Classifications
 
-* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
+* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
 
