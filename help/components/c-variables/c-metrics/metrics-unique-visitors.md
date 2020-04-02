@@ -1,9 +1,9 @@
 ---
-description: In Version 14 werden Besucher als Unique Visitor bezeichnet, die eine Site zum ersten Mal innerhalb eines festgelegten Zeitraums besuchen. Zum Beispiel kann ein Unique Visitor eine Site zehnmal in einer Woche besuchen, wenn als Zeitraum jedoch „Woche“ festgelegt ist, wird ein einzelner nur einmal für diese Woche gezählt. Wenn die Woche vorüber ist, kann der betreffende individuelle Besucher erneut für einen anderen Zeitraum gezählt werden.
+description: In Version 14 werden Besucher als Unique Visitor bezeichnet, die eine Site zum ersten Mal innerhalb eines festgelegten Zeitraums besuchen. Zum Beispiel kann ein Unique Visitor eine Site zehnmal in einer Woche besuchen, wenn als Zeitraum jedoch „Woche“ festgelegt ist, wird ein einzelner nur einmal für diese Woche gezählt. Wenn die Woche vorüber ist, kann der betreffende Unique Visitor erneut für einen anderen Zeitraum gezählt werden.
 title: Unique Visitors
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
