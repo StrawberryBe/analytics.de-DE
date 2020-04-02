@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 
-Eine ausführliche Beschreibung der Komponenten der Benutzeroberfläche finden Sie unter [Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+Eine ausführliche Beschreibung der Komponenten der Benutzeroberfläche finden Sie unter  [Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Hier sehen Sie, wie Sie eine einfache Metrik für Seitenansichten pro Besuche erstellen.
 
