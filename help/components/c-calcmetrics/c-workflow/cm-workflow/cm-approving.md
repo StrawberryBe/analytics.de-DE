@@ -21,5 +21,5 @@ So wird eine berechnete Metrik als genehmigt gekennzeichnet:
 1. Beachten Sie, dass in der Liste neben der berechneten Metrik ein Genehmigungssymbol angezeigt wird:  ![](assets/cm_approve_icon.png)
 
 1. Sie können auch auf **[!UICONTROL Nicht genehmigen]** klicken, um diese Metrik aus der Liste der genehmigten Metriken zu entfernen.
-1. Außerdem können Sie genehmigte Metriken herausfiltern, indem Sie auf **[!UICONTROL Filter anzeigen]** &gt; **[!UICONTROL Weitere Filter]** &gt; **[!UICONTROL Genehmigt]** klicken.
+1. Außerdem können Sie genehmigte Metriken herausfiltern, indem Sie auf **[!UICONTROL Filter anzeigen]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Genehmigt]** klicken.
 
