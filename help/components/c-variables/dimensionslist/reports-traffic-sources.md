@@ -3,7 +3,7 @@ description: Zeigt Informationen zu den Stellen im Web an, die Traffic zu Ihrer 
 title: Traffic-Quellen
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -61,7 +61,7 @@ Diese Berichte lassen sich in drei Basiskategorien unterteilen:
   </tr> 
   <tr> 
    <td colname="col1"> Referrerdomänen </td> 
-   <td colname="col2"> <p> Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Referrer lassen sich zwei Hauptkategorien zuweisen: Domänen und URLs. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse. </p> </td> 
+   <td colname="col2"> <p> Zeigt die Domänen an, die jene Kunden an Sie verwiesen haben, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Referrer lassen sich zwei Hauptkategorien zuweisen: Domänen und URLs. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ursprünglich Referrerdomänen </td> 
@@ -69,7 +69,7 @@ Diese Berichte lassen sich in drei Basiskategorien unterteilen:
   </tr> 
   <tr> 
    <td colname="col1"> Verweisende Stellen </td> 
-   <td colname="col2"> <p> Zeigt an, wo Ihre Besucher herkommen, bevor sie zu Ihrer Site gelangten, welche Methoden Ihre Besucher zum Suchen Ihrer Website verwenden und wie viele Besuche Ihrer Site von diesen verweisenden Stellen stammen. </p> <p>Wenn beispielsweise ein Besucher auf Site A auf einen Link klickt und zu Ihrer Seite gelangt, ist Site A der Referrer, falls diese nicht als Teil Ihrer Domäne definiert ist. Während der Implementierung hilft Ihnen Ihr Implementierungsberater bei der Definition der Domänen und URLs, die Teil Ihrer Website sind. (Dieser Vorgang kann auch nach der Implementierung durchgeführt werden.) Alle Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind, gelten als Referrer. </p> <p>Wenn Webseiten A und B dem Filter für interne URLs hinzugefügt werden, Webseite C jedoch nicht, gilt Webseite C als Referrer. </p> <p>Siehe <a href="/help/admin/admin/internal-url-filter-admin.md"> Interne URL-Filter</a></p>  <p>Hinweis: Analytics registriert eine Referrerdomäne als E-Mail, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll <code> imap://</code> oder <span class="filepath"> mail://</span> enthält, und zu Ihrer Site gelangen. </p> <p>So würden beispielsweise alle Nachrichten, die von <code> https://mail.yahoo.com</code> kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll <span class="filepath">https://</span> lautet. E-Mails von Outlook sind in der Zeile <span class="wintitle">Eingegeben/Mit Lesezeichen versehen</span> aufgeführt. Und Referrer mit einem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, sind in der Zeile <span class="wintitle">Suchmaschine</span> aufgeführt. </p> </td> 
+   <td colname="col2"> <p> Zeigt an, wo Ihre Besucher herkommen, bevor sie zu Ihrer Site gelangten, welche Methoden Ihre Besucher zum Suchen Ihrer Website verwenden und wie viele Besuche Ihrer Site von diesen verweisenden Stellen stammen. </p> <p>Wenn beispielsweise ein Besucher auf Site A auf einen Link klickt und zu Ihrer Seite gelangt, ist Site A der Referrer, falls diese nicht als Teil Ihrer Domäne definiert ist. Während der Implementierung hilft Ihnen Ihr Implementierungsberater bei der Definition der Domänen und URLs, die Teil Ihrer Website sind. (Dieser Vorgang kann auch nach der Implementierung durchgeführt werden.) Alle Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind, gelten als Referrer. </p> <p>Wenn Webseiten A und B dem Filter für interne URLs hinzugefügt werden, Webseite C jedoch nicht, gilt Webseite C als Referrer. </p> <p>Siehe  <a href="/help/admin/admin/internal-url-filter-admin.md"> Interne URL-Filter</a></p>  <p>Hinweis: Analytics registriert eine Referrerdomäne als E-Mail, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll <code> imap://</code> oder <span class="filepath"> mail://</span> enthält, und zu Ihrer Site gelangen. </p> <p>So würden beispielsweise alle Nachrichten, die von <code> https://mail.yahoo.com</code> kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll <span class="filepath">https://</span> lautet. E-Mails von Outlook sind in der Zeile <span class="wintitle">Eingegeben/Mit Lesezeichen versehen</span> aufgeführt. Und Referrer mit einem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, sind in der Zeile <span class="wintitle">Suchmaschine</span> aufgeführt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Referrertypen </td> 
