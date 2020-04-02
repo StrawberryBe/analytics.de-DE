@@ -3,7 +3,7 @@ description: Die Anzahl der (einmal gezählten) Einzelbesucher Ihrer Website im 
 title: Unique Visitors pro Monat
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Unique Visitors pro Monat
 
-Die Anzahl der nicht duplizierten (d. h. nur einmal gezählten) Besucher Ihrer Website im Verlauf eines Monats.
+Die Anzahl der nicht duplizierten (d. h. einmal gezählten) Einzelbesucher Ihrer Website im Laufe eines Monats.
 
 | Verwendet | Beschreibung |
 |---|---|
