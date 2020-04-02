@@ -57,7 +57,7 @@ Diese Änderungen an der Funktionsweise von berechneten Metriken in [!DNL Analyt
 
 ## Wie greife ich auf den Manager für berechnete Metriken zu? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* Wechseln Sie in der linken Navigation zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Berechnete Metriken]**.
+* Wechseln Sie in der linken Navigation zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Berechnete Metriken]**.
 
 * Klicken Sie in einem beliebigen [!DNL Analytics]-Bericht auf das Metriksymbol ![](assets/metrics_icon.png) auf der linken Seite des Berichts, um die Metrikleiste anzuzeigen. Klicken Sie anschließend auf **[!UICONTROL Verwalten]**.
 
