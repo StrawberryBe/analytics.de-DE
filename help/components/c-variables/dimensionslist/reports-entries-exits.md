@@ -3,7 +3,7 @@ description: Der Bericht zu Entrypages zeigt nach Prozentsatz und Gesamtanzahl d
 title: Ein- und Ausstiege
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Die Ansicht erfasst:
 
 * **Entrypages** (oder Abschnitte): Zeigt nach Prozentsatz und nach Gesamtanzahl der Besuche an, welche Seiten auf Ihrer Site bei einem neuen Besuch zuerst aufgerufen werden. Anhand dieses Berichts können Sie erkennen, welche Ihrer Webseiten die häufigsten Einstiegspunkte sind, und können dann die primären Einstiegspunkte Ihrer Site optimieren, um den Einstiegs-Traffic auf Ihre wichtigsten Mitteilungen zu lenken.
 
-   Eine nützliche Möglichkeit, die Metrik „Seitenansicht“ zu verwenden, besteht darin, den Bericht **[!UICONTROL Pfade]** &gt; **[!UICONTROL Seiten]** &gt; **[!UICONTROL Entrypages]** auszuführen, danach zu sortieren und zu sehen, welche Entrypages zu den meisten Seitenansichten führen.
+   Eine nützliche Verwendungsmöglichkeit für die Seitenansichten-Metrik: Führen Sie einen **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Einstiegsseiten]**-Bericht aus, sortieren Sie nach dieser Metrik, und sehen Sie, welche Entrypages zu den meisten Seitenansichten führen.
 
 * **Ursprüngliche Entrypages**: Zeigt die erste angezeigte Seite eines ersten Besuchs auf Ihrer Site. Benutzer werden nur einmal gezählt, es sei denn, der Benutzer löscht seine Cookies oder wird nicht durch Cookies verfolgt.
 * **Einzelseitenbesuche**: Zeigt Seiten, die am häufigsten sowohl Einstiegs- als auch Exitpages für Besucher waren.
@@ -38,6 +38,6 @@ Wenn Sie einen [!UICONTROL Entrypages-Bericht] ausführen, werden ausschließlic
 
 Nehmen Sie z. B. folgende Besuchssequenz an:
 
-[!DNL Page A] &gt; [!DNL Page B] &gt; [!DNL Page C]
+[!DNL Page A] > [!DNL Page B] > [!DNL Page C]
 
 Wenn Seite B und Seite C in einem Segment verwendet werden, dann wird nur die Seite A in einem [!UICONTROL Entrypages-Bericht] gemeldet, da die Seite A die Entrypage ist.
