@@ -3,7 +3,7 @@ description: Gruppiert den Web-Traffic nach dem vom Kunden verwendeten Betriebss
 title: Betriebssysteme
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ Mobil- und Desktop-Betriebssysteme werden in diesem Bericht angezeigt. Beispiel:
 
 Dieser Bericht verwendet dynamische Gerätedaten, die im Zuge der Veröffentlichung und Ermittlung neuer Geräte fortlaufend aktualisiert werden. Beispielsweise kann ein neues Tablet, das während des aktuellen Monats veröffentlicht wird, fehlerhaft identifiziert werden, da es in der Gerätedatenbank noch nicht vorhanden ist. Wenn das neue Gerät in die Gerätedatenbank aufgenommen wird, werden die sich daraus ergebenden Änderungen auf alle Berichterstellungsdaten angewendet. Daher kann es in diesem Bericht bei historischen Daten im Zeitablauf zu leichten Abweichungen kommen. Allgemein gilt, dass der neueste Bericht die genauesten Daten für jeden Berichtszeitraum enthält.
 
-## Änderungen {#section_B028CE3DDDC4401FA0609F908885A5DD}
+## Änderungen  {#section_B028CE3DDDC4401FA0609F908885A5DD}
 
 <table id="table_82084301B1044103BB3B293595BC86BD"> 
  <thead> 
