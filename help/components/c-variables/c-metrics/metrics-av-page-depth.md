@@ -1,9 +1,9 @@
 ---
-description: Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Seitentiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
+description: Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Klicktiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
 title: Durchschnittl. Klicktiefe
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zeigt an, wie tief (in Bezug auf die Seitenposition) jeder Wert während eines Besuchs durchschnittlich ausgelöst wurde. Diese Metrik gibt Aufschluss darüber, wie tief (in Bezug auf die Seitenposition) Ihre Zielgruppe während eines Besuchs eine bestimmte Seite oder einen Eigenschaftswert erreicht. „Durchschnittliche Klicktiefe“ ist für jede Variable verfügbar, für die die Pfadsetzung aktiviert ist.
 
-Wenn ein Besuch beispielsweise den Pfad „Seite A &gt; Seite B &gt; Seite C &gt; Seite D &gt; Seite E &gt; Seite F“ enthält, ist die Tiefe ein Index für die Position der Seite. Beispielsweise hat „Seite A“ eine Tiefe von 0 und „Seite F“ eine Tiefe von 5. Der Durchschnitt berechnet sich dann aus einer Kombination aller Besuche. Eine Klicktiefe von unter eins (z. B. 0,9) bezieht sich auf den Mittelwert aller Seiten, die vor der fraglichen Seite besucht wurden.
+Wenn ein Besuch beispielsweise den Pfad „Seite A > Seite B > Seite C > Seite D > Seite E > Seite F“ enthält, ist die Tiefe ein Index für die Position der Seite. Beispielsweise hat „Seite A“ eine Tiefe von 0 und „Seite F“ eine Tiefe von 5. Der Durchschnitt berechnet sich dann aus einer Kombination aller Besuche. Eine Klicktiefe von unter eins (z. B. 0,9) bezieht sich auf den Mittelwert aller Seiten, die vor der fraglichen Seite besucht wurden.
 
 Anhand der [!UICONTROL Klicktiefe] können Sie erkennen, wo eine gegebene Seite in der Regel in einen Benutzerpfad fällt, unabhängig von den vorherigen oder nächsten Seiten in diesem Pfad. Damit hilft diese Angabe zu erkennen, wie sich die Seite in das Gesamtbild der Besucherwahrnehmung Ihrer Website einfügt. Am deutlichsten zu erkennen ist dies in einem [!UICONTROL Seitenbericht].
 
