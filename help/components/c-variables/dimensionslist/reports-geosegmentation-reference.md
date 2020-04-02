@@ -3,7 +3,7 @@ description: Die folgende Tabelle gibt an, ob das Land in Regionen oder Postleit
 title: Verwendung von GeoSegmentation-Regionen und Postleitzahlen nach Land
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -60,7 +60,7 @@ Die folgende Tabelle gibt an, ob das Land in Regionen oder Postleitzahlbereiche 
 | Botswana | Ja | Nein |
 | Zentralafrikanische Republik | Ja | Nein |
 | Kanada | Ja | Ja |
-| Cocos-(Keeling-)Inseln | Nein | Ja |
+| Cocos-(Keeling)-Inseln | Nein | Ja |
 | Schweiz | Ja | Ja |
 | Chile | Ja | Ja |
 | China | Ja | Ja |
