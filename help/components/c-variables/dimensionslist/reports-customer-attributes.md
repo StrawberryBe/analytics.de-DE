@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Häufig gestellte Fragen zu Analytics für Kundenattribute und Informationen zum Erstellen des Berichts „Kundenattribute“.
 
-**[!UICONTROL Berichte]** **[!UICONTROL &gt; Besucherprofil]** &gt; **[!UICONTROL Kundenattribute]**
+**[!UICONTROL Berichte]** > **[!UICONTROL Besucherprofil]** > **[!UICONTROL Kundenattribute]**
 
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie in „Reports &amp; Analytics“ den Bericht „Kundenattribute“ erstellen.
 
@@ -22,13 +22,13 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 
 Informationen zum Hochladen von Kundenattributdaten erhalten Sie unter [Kundenattribute](https://marketing.adobe.com/resources/help/de_DE/mcloud/attributes.html) in Experience Cloud.
 
-## Kundenattribute und Berichterstattungsmetriken in Analytics {#section_EF343662146B460A882D3DF772ADD86D}
+## Kundenattribute und Berichterstattungsmetriken in Analytics  {#section_EF343662146B460A882D3DF772ADD86D}
 
-Nach dem Hochladen von Kundenattributen und der Validierung des Schemas (in der Experience Cloud) erstellt das System Metriken basierend auf den freundlichen Namen (wie *`age`* oder *`gender`*), die Sie den Attributzeichenfolgen und -ganzzahlen zuordnen. Diese Metriken werden in den Berichten **[!UICONTROL Besucherprofil]** &gt; **[!UICONTROL Kundenattribute]** angezeigt.
+Nach dem Hochladen von Kundenattributen und der Validierung des Schemas (in der Experience Cloud) erstellt das System Metriken basierend auf den freundlichen Namen (wie *`age`* oder *`gender`*), die Sie den Attributzeichenfolgen und -ganzzahlen zuordnen. Diese Metriken werden in den Berichten **[!UICONTROL Besucherprofil]** > **[!UICONTROL Kundenattribute]** angezeigt.
 
 Beispiel:
 
-**[!UICONTROL Besucherprofil]** &gt; **[!UICONTROL Kundenattribute]** &gt; **[!UICONTROL Alter]**
+**[!UICONTROL Besucherprofile]** > **[!UICONTROL Kundenattribute]** > **[!UICONTROL Alter]**
 
 ![](assets/report_age.png)
 
@@ -38,9 +38,9 @@ Wenn Sie eine Zeichenfolge als *`age`* angeben, erstellt das System die folgende
 
 * Altersdimension: Sie können einen Bericht basierend auf dem Altersattribut erstellen.
 * Altersmetrik: Eine Metrik, die Sie zu einem Bericht hinzufügen können, beispielsweise einem Unique Visitors-Bericht.
-* Zählung der Altersmetrik: Sie können beispielsweise nachvollziehen, ob Besucher einen Wert für *`age`* auf einem Formular angegeben haben.
+* Zählung der Altersmetrik: Sie können beispielsweise nachvollziehen, ob Besucher einen Wert für  *`age`* auf einem Formular angegeben haben.
 
-Da Metriken in einer Berichtstabelle Summen darstellen, sollten Sie [eine berechnete Metrik erstellen](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/), über die Sie Informationen zum Durchschnittsalter erhalten. Die Formel für diese Metrik lautet `Age / Count of Age`.
+Da Metriken in einer Berichtstabelle Summen darstellen, sollten Sie  [eine berechnete Metrik erstellen](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/), über die Sie Informationen zum Durchschnittsalter erhalten. Die Formel für diese Metrik lautet `Age / Count of Age`.
 
 ## Häufig gestellte Fragen – Kundenattribute in Analytics {#section_E29641D1F3D649C1AC9EA5231921F038}
 
