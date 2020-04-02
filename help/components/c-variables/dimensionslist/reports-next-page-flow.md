@@ -3,7 +3,7 @@ description: Zeigt Pfadanzeigen oder die Anzahl der Male sowie Prozentzahlen an,
 title: Nächster Seitenfluss
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Verwenden Sie diesen Bericht, um:
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Klicken Sie auf <span class="uicontrol">„Grafisch“</span>, um die die beiden Stufen der bevorzugten Seiten zu sehen, die Besucher nach der gewählten Seite aufrufen. Der Bericht hebt auch hervor, wo die Besucher aus der Site aussteigen. </p> <p>Klicken Sie auf <b>„Tabellarisch“</b>, um die nächsten Seiten in einer Liste ähnlich dem <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Bericht zur nächsten Seite</a> zu sehen. Sie können jedoch auch jeweils zur <i>nächsten Seite</i> gehen, um die nächsten Seiten in jedem zweiseitigen Seitenfluss zu sehen. </p> <p>In Reports &amp; Analytics werden Pfadansichten verwendet. </p> </td> 
+   <td colname="col2"> <p> Klicken Sie auf <span class="uicontrol">Grafisch</span>, um die die beiden Stufen der bevorzugten Seiten zu sehen, die Besucher nach der gewählten Seite aufrufen. Der Bericht hebt auch hervor, wo die Besucher aus der Site aussteigen. </p> <p>Klicken Sie auf <b>„Tabellarisch“</b>, um die nächsten Seiten in einer Liste ähnlich dem  <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Bericht zur nächsten Seite</a> zu sehen. Sie können jedoch auch jeweils zur <i>nächsten Seite</i> gehen, um die nächsten Seiten in jedem zweiseitigen Seitenfluss zu sehen. </p> <p>In Reports &amp; Analytics werden Pfadansichten verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
