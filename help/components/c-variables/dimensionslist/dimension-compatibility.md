@@ -41,7 +41,7 @@ Bitte beachten Sie:
 | Downloadlink | downloadlink |
 | Entrypage | entrypage |
 | Entrypage ursprünglich | entrypageoriginal |
-| Exitlink | exitlink |
+| Exitlink | Exitlink |
 | Erstkontakt Kanal | firsttouchchannel |
 | Erstkontakt Kanaldetail | firsttouchchanneldetail |
 | Java aktiviert | javaEnabled |
@@ -157,7 +157,7 @@ Bitte beachten Sie:
 | Nielsen-Zugriffsmethode | nielsenaccmethod |
 | Nielsen-App-ID | nielsenappid |
 | Nielsen-Channel-Asset | nielsenchannelasset |
-| Nielsen-Inhalts-Typ | nielsencontenttype |
+| Nielsen-Content-Typ | nielsencontenttype |
 
 ## Dimensionen, die nur in Reports &amp; Analytics unterstützt werden
 
