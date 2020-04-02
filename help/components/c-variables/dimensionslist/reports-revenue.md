@@ -3,7 +3,7 @@ description: Ermittelt die Höhe der Einnahmen, die mit allen Produkten in einem
 title: Umsatz
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
 
 * Damit dieser Bericht erfolgreich Daten erfassen kann, müssen bestimmte Anforderungen erfüllt sein. In der Bildanforderung muss Folgendes stattfinden:
 
-   * Ein [!UICONTROL Kaufereignis] muss in der Variablen `s.events` festgelegt.
+   * Ein [!UICONTROL Kaufereignis] muss in der Variablen  `s.events` festgelegt.
 
    * Die Variable `products` muss mit einer Zahl im Preisfeld definiert werden.
    * Folgendes würde beispielsweise mit 35,99 € im Umsatzbericht ausgewiesen:
@@ -32,7 +32,7 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
        s.events="purchase"
       ```
 
-* Wenn mehrere Produkte in der der Variablen [!UICONTROL „s.products“] vorhanden sind, werden alle Produkte im Umsatzbericht erfasst. Beispiel: [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] wird als Umsatz von 9 USD in der Berichterstellung ausgewiesen.
+* Wenn mehrere Produkte in der der Variablen [!UICONTROL s.products] vorhanden sind, werden alle Produkte im Umsatzbericht erfasst. Beispiel: [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] wird als Umsatz von 9 USD in der Berichterstellung ausgewiesen.
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
 
 * [!UICONTROL Umsatz] rundet den Gesamtbetrag für einen Zeitraum auf den nächsten Währungsbetrag auf. Es wird nicht jedes einzelne Produkt oder jeder Hit gerundet.
 * Da in Analytics-Berichten jeder Tag auf den nächsten vollen Betrag gerundet wird, weicht die Summe der einzelnen Tage im Vergleich zum monatlichen Gesamtbetrag geringfügig ab. Denn der monatliche Gesamtbetrag ist nicht mit dem gerundeten Betrag der einzelnen Tage identisch. Es handelt sich um die absolute Summe, die auf den nächsten vollen Betrag gerundet wird.
-* Sie können einen Bericht erstellen, bei dem der Umsatz nicht auf den nächsten vollen Betrag gerundet wird, indem Sie eine [berechnete Metrik](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) verwenden.
+* Sie können einen Bericht erstellen, bei dem der Umsatz nicht auf den nächsten vollen Betrag gerundet wird, indem Sie eine  [berechnete Metrik](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/) verwenden.
 * Wenn die Variable `purchaseID` nicht verwendet wird, könnten Benutzer beim Aktualisieren der Seite den Umsatz fälschlicherweise erhöhen, da die Daten mehrmals an Adobe gesendet werden.
 * Stündliche Aufschlüsselungen basieren auf der Zeitzone der Report Suite.
 * Der Bericht enthält keine Zeileneinträge. Er kann nur als Trendansicht angezeigt werden.
@@ -51,28 +51,28 @@ Verwenden Sie „Umsatz“, um den allgemeinen Erfolg und Trend Ihrer Site anzuz
    * [!UICONTROL Seiten und Sitebereiche].
    * [!UICONTROL Videos].
    * [!UICONTROL Klicktiefe und Entrypages].
-   * In die meisten Berichte zu [!UICONTROL Traffic-Quellen] wie [!UICONTROL „Suchkeywords“], [!UICONTROL „Suchmaschinen“] und [!UICONTROL „Referrer-Domänen“].
+   * In die meisten Berichte zu [!UICONTROL Traffic-Quellen] wie [!UICONTROL Suchkeywords], [!UICONTROL Suchmaschinen] und [!UICONTROL Referrer-Domänen].
 
    * In den [!UICONTROL Trackingcodebericht] und alle zugehörigen Classification-Berichte.
    * In den [!UICONTROL Produktvariablenbericht] und alle zugehörigen Classification-Berichte. Auch in [!UICONTROL Kategorienberichte].
 
    * In fast alle [!UICONTROL Besucherprofil]-Berichte mit Ausnahme der [!UICONTROL Geosegmentation]-Berichte.
 
-   * Alle Variablenberichte [!UICONTROL „benutzerspezifische Konversion“] mit grundlegenden Subrelationen.
+   * Alle Variablenberichte [!UICONTROL benutzerspezifische Konversion] mit grundlegenden Subrelationen.
 
 * Stündliche Aufschlüsselungen sind nicht verfügbar.
 
-## Produktspezifische Eigenschaften {#section_ED87FFD020634453AABE86B0248BE69B}
+## Produktspezifische Eigenschaften  {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* So greifen Sie auf diesen Bericht zu: **[!UICONTROL Konversion]** &gt; **[!UICONTROL Einkäufe]** &gt; **[!UICONTROL Umsatz]**.
+* So greifen Sie auf diesen Bericht zu: **[!UICONTROL Konversion]** > **[!UICONTROL Einkäufe]** > **[!UICONTROL Umsatz]**.
 
 * Die Berichte zu [!UICONTROL Traffic-Quellen] finden Sie unter [!UICONTROL Suchmethoden].
 
-* So greifen Sie auf diesen Bericht zu: **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Einkäufe]** &gt; **[!UICONTROL Umsatz]**.
+* So greifen Sie auf diesen Bericht zu: **[!UICONTROL Sitemetriken]** > **[!UICONTROL Einkäufe]** > **[!UICONTROL Umsatz]**.
 
 * Abgesehen von den oben aufgeführten Aufschlüsselungen sind auch Aufschlüsselungen zum [!UICONTROL Erst- und Letztkontakt von Marketingkanälen] verfügbar.
 
-* Auch auf diesen Bericht können Sie so zugreifen: **[!UICONTROL Site-Metriken]** &gt; **[!UICONTROL Einkäufe]** &gt; **[!UICONTROL Umsatz]**.
+* Auch auf diesen Bericht können Sie so zugreifen: **[!UICONTROL Sitemetriken]** > **[!UICONTROL Einkäufe]** > **[!UICONTROL Umsatz]**.
 
 * Neben den oben aufgeführten Aufschlüsselungen können auch [!UICONTROL Listenvariablen] und die aktuellen [!UICONTROL Videovariablen] verwendet werden.
 
