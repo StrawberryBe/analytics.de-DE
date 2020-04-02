@@ -3,7 +3,7 @@ description: Einstiege geben an, wie oft ein Wert als erster Wert bei einem Besu
 title: Einträge
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
