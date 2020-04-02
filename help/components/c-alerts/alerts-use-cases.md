@@ -30,7 +30,7 @@ Dadurch wird die Warnhinweiserstellung unverzüglich mit den entsprechenden Wert
 
 ![](assets/prepopulated_alert.png)
 
-## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen  {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 Durch das Stapeln von Warnhinweisen wird dafür gesorgt, dass Warnhinweise kombiniert werden und nicht separat angezeigt werden.
 
