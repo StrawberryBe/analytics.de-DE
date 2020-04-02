@@ -3,7 +3,7 @@ description: Die Beitragsmetrik schreibt den Erfolg allen Werten einer eVar gut,
 title: Beitrag
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,11 +20,11 @@ Beitragsmetriken verfügen pro Konversionsereignis über zwei Einstellungen:
 * **Deaktiviert**: Der Standardzustand von Konversionsereignissen. Für dieses Ereignis werden keine Beitragsdaten erfasst.
 * **Aktiviert**: Für dieses Ereignis werden Beitragsdaten erfasst.
 
-> [!NOTE] Sie können die Beteiligung für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
+> [!NOTE] Sie können die Beteiligung für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
 
 Nach der Aktivierung sind Beitragsmetriken automatisch in allen Konversionsberichten verfügbar. Beitragsmetriken können aber auf Anfrage auch in bestimmten Traffic-Berichten angezeigt werden. Sie können optional anfordern, dass Beitragsmetriken in bestimmten benutzerspezifischen Traffic-Berichten zur Verfügung stehen.
 
-## Beispiel zum Umsatzbeitrag {#section_DAB6C348201B454BB4ED01313AA777AF}
+## Beispiel zum Umsatzbeitrag  {#section_DAB6C348201B454BB4ED01313AA777AF}
 
 Gehen Sie von der folgenden Abfolge aus:
 
