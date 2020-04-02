@@ -3,7 +3,7 @@ description: Die Frequenz, mit der ein bestimmter Wert erfasst wird, plus die An
 title: Vorfälle
 topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Die Frequenz, mit der ein bestimmter Wert erfasst wird, plus die Anzahl der Seitenansichten, für die dieser Wert weiter besteht. Das heißt, Vorfälle sind die Summe der Seitenansichten und der Seitenereignisse. Vorkommen sind in Analysis Workspace und Ad Hoc Analysis zu finden.
 
-## Vergleichen von Instanzen und Vorfällen {#section_4B0741AC1A78456E98AE0D4D28D70D29}
+## Vergleichen von Instanzen und Vorfällen  {#section_4B0741AC1A78456E98AE0D4D28D70D29}
 
 Zwei Metriken sind aufgeführt, die sich zu ähneln scheinen:
 
