@@ -20,7 +20,7 @@ Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder meh
 * **Arbeitsablauf**-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich)
 
 1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben der Metrik, die Sie taggen möchten. Die Werkzeugleiste für die Verwaltung wird angezeigt:
-1. Klicken Sie auf **[!UICONTROL Taggen]und**
+1. Klicken Sie auf **[!UICONTROL Taggen]** und
 
    * wählen Sie entweder ein vorhandenes Tag aus oder
    * fügen Sie einen neuen Tag-Namen im Dialogfeld „Tags hinzufügen/Suchen“ hinzu und drücken Sie die **[!UICONTROL Eingabetaste]**.
@@ -31,4 +31,4 @@ Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder meh
 
 Das Tag wird jetzt in der Spalte „Tags“ angezeigt. (Klicken Sie oben rechts auf das Zahnradsymbol, um Ihre Spalten zu verwalten.)
 
-Sie können unter **[!UICONTROL Filter anzeigen]** &gt; **[!UICONTROL Tags]** auch nach Tags filtern.
+Sie können unter **[!UICONTROL Filter anzeigen]** > **[!UICONTROL Tags]** auch nach Tags filtern.
