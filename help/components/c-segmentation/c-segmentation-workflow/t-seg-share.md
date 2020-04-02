@@ -3,7 +3,7 @@ description: Abhängig von Ihren Berechtigungen können Sie Segmente für Ihre g
 title: Segmente freigeben
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,4 +36,4 @@ Wann sollten Segmente für das gesamte Unternehmen und wann nur für eine Benutz
 
    Neben dem Segment wird das Freigabesymbol angezeigt:  ![](assets/share_icon.png)
 
-1. Sie können nach für Sie freigegebenen Segmenten filtern, indem Sie zu **[!UICONTROL Filter]** &gt; **[!UICONTROL Weitere Filter]** &gt; **[!UICONTROL Für mich freigegeben]** wechseln.
+1. Sie können nach für Sie freigegebenen Segmenten filtern, indem Sie zu **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Für mich freigegeben]** wechseln.
