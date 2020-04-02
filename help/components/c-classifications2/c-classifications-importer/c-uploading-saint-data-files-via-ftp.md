@@ -4,7 +4,7 @@ subtopic: Classifications
 title: FTP-Import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
 Beachten Sie bitte die folgenden Empfehlungswerte:
 
@@ -47,9 +47,9 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 In diesen Schritten wird beschrieben, wie Sie Classifications mithilfe eines FTP-Kontos in Adobe Analytics importieren.
 
-Weitere Informationen zum Erstellen eines FTP-Kontos finden Sie unter [Erstellen Sie ein FTP-Konto](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Weitere Informationen zum Erstellen eines FTP-Kontos finden Sie unter  [Erstellen Sie ein FTP-Konto](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klicken Sie auf **[!UICONTROL Datei importieren]** und dann auf **[!UICONTROL FTP-Import]**.
 1. Klicken Sie neben dem FTP-Konto, das Sie verwenden möchten, auf **[!UICONTROL Ansicht]**.
 1. Verwenden Sie die FTP-Zugriffsinformationen (Host, Benutzername, Kennwort), um mit einem FTP-Client Ihrer Wahl auf den FTP-Server zuzugreifen.
@@ -62,7 +62,7 @@ Adobe ruft in regelmäßigen Abständen die hochgeladenen Datendateien mit zugew
 
 ## Erstellen Sie ein FTP-Konto {#task_C019268E6C934C7C95F4326F42A22CCF}
 
-Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. &gt;
+Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. >
 
 <!-- 
 
@@ -70,9 +70,9 @@ t_create_an_ftp_account.xml
 
  -->
 
-Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/).
+Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](https://marketing.adobe.com/resources/help/de_DE/whitepapers/ftp/).
 
-1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klicken Sie auf **[!UICONTROL Datei importieren]** und dann auf **[!UICONTROL FTP-Import]**.
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Datei importieren]** auf **[!UICONTROL Neu hinzufügen]**.
 1. Geben Sie die Details zum FTP-Konto an:
