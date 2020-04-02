@@ -24,7 +24,7 @@ Eine Virtual Report Suite erbt die meisten Service-Levels der zugrunde liegenden
 * Name der Report Suite
 * Berechtigungsgruppen (Virtual Report Suites können eigenen Berechtigungsgruppen zugewiesen werden.)
 
-## Vorteile von Virtual Report Suites {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## Vorteile von Virtual Report Suites  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 Die Kunden zahlen für sekundäre Serveraufrufe, sodass eine Eliminierung dieser Aufrufe zu deutlichen Einsparungen führen kann. Eine Virtual Report Suite ist zudem vollständig retroaktiv. Wenn die globale Report Suite bereits Daten enthält, werden die relevanten Daten automatisch in eine neue Virtual Report Suite einbezogen. Eine neue sekundäre Report Suite beginnt erst nach ihrer Erstellung mit dem Erfassen von Daten, sodass sie keine historischen Daten beinhaltet. Beim Implementieren von Analytics müssen Sie lediglich Daten an eine Report Suite senden, anstatt Implementierungen für die globale Report Suite und alle sekundären Report Suites erstellen zu müssen.
 
@@ -38,7 +38,7 @@ Virtual Report Suites sind für Folgendes hilfreich:
 * Einzelkundenansicht der Daten (künftig)
 * Möglichkeit zur Erstellung unbegrenzter Virtual Report Suites zum Segmentieren von Daten
 
-## Einschränkungen von Virtual Report Suites {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Einschränkungen von Virtual Report Suites  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Virtual Report Suites haben die folgenden Einschränkungen:
 
@@ -48,7 +48,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 * Echtzeitbericht
 * Einstellungen und Variablennamen können nicht wie bei einer vollständigen Report Suite angepasst werden
 
-## Virtual Report Suites vs. Multisuite-Taggen {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites vs. Multisuite-Taggen  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Funktion | Virtual Report Suite | Multisuite-Taggen |
 |--- |--- |--- |
@@ -57,7 +57,7 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 | Hochladen von Daten (über Classifications, Datenfeeds usw.) | Nein | Ja |
 | Unterstützt die Erstellung von DL-Berichten, Lesezeichen, Dashboards, Zielgruppen, Warnhinweisen, Segmenten, berechneten Metriken... | Ja | Ja |
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |
-| Kann Admin-Funktionen verwenden, um einzelne Einstellungen für diese Report Suite zu ändern (Admin &gt; Report Suites) | Nein (Einstellungen werden von der übergeordneten Report Suite geerbt.) | Ja |
+| Kann Admin-Funktionen verwenden, um einzelne Einstellungen für diese Report Suite zu ändern (Admin > Report Suites) | Nein (Einstellungen werden von der übergeordneten Report Suite geerbt.) | Ja |
 
 ## Kombinieren von Virtual Report Suites und Multi-Suite-Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
