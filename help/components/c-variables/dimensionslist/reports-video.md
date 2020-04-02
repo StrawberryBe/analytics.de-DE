@@ -3,7 +3,7 @@ description: Zeigt statistische Informationen über Ihren Online-Medienzugriff a
 title: Video
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,4 +44,4 @@ Zeigt statistische Informationen über Ihren Online-Medienzugriff an. Dazu gehö
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Messen von Audio und Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+Weitere Informationen finden Sie unter [Messen von Audio und Video in Adobe Analytics](https://marketing.adobe.com/resources/help/de_DE/sc/appmeasurement/hbvideo/).
