@@ -3,7 +3,7 @@ description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an
 title: Mobile
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -76,14 +76,14 @@ Die folgenden Mobile-Berichte sind verfügbar:
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem von ihnen unterstützten Digital Rights Management (DRM). Zu den DRM-Gruppen gehören <span class="term"> Weiterleitungssperre</span>, <span class="term"> Kombinierte Bereitstellung</span>, <span class="term"> Separate Bereitstellung</span> und <span class="term"> Nicht bekannt.</span> </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem von ihnen unterstützten Digital Rights Management (DRM). Zu den DRM-Gruppen gehören  <span class="term"> Weiterleitungssperre</span>, <span class="term"> Kombinierte Bereitstellung</span>, <span class="term"> Separate Bereitstellung</span> und <span class="term"> Nicht bekannt.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Netzprotokolle </td> 
    <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem von ihnen unterstützten Netzprotokoll (GPRS, CSD, EDGE, HSCSD etc.). Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte Netzprotokolle. </p> <p>Wenn ein Besucher mit einem Mobilgerät auf Ihre Site zugreift, wird der Bericht „Netzprotokolle“ um mindestens 1 inkrementiert. Wenn das Telefon mehrere Netzprotokolle unterstützt, werden die entsprechenden Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Betriebssystem (veraltet) </td> 
+   <td colname="col1"> Betriebssystem  (veraltet) </td> 
    <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem mobilen Betriebssystem, das auf dem Gerät ausgeführt wird. Zu den mobilen Betriebssystemen gehören Windows, RIM, iOS, Symbian etc. Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Hinweis: Dieser Bericht wird nicht mehr unterstützt, seit der Bericht „Technologie“ &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Betriebssysteme </a> aktualisiert wurde, um alle Betriebssysteme, einschließlich der von Mobilgeräten, einzuschließen. Sie können ein Segment erstellen, wenn „Mobilgeräte“ vorhanden ist, und es auf den Bericht „Technologie &gt; Betriebssysteme“ anwenden, um lediglich Betriebssysteme für Mobilgeräte anzuzeigen. </p> </td> 
   </tr> 
   <tr> 
@@ -108,15 +108,15 @@ Die folgenden Mobile-Berichte sind verfügbar:
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung von Push To Talk (PTT). Der Bericht enthält u. a. die Gruppe <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die PTT-Unterstützung nicht ermittelt werden kann. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung von Push To Talk (PTT). Der Bericht enthält u. a. die Gruppe  <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die PTT-Unterstützung nicht ermittelt werden kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Design-Mail-Unterstützung </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung von Design-Mail. Design-Mail ermöglicht es Benutzern, E-Mail-Nachrichten mit Grafiken und Animationen zu gestalten. Der Bericht enthält u. a. die Gruppe <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die Design-Mail-Unterstützung nicht ermittelt werden kann. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung von Design-Mail. Design-Mail ermöglicht es Benutzern, E-Mail-Nachrichten mit Grafiken und Animationen zu gestalten. Der Bericht enthält u. a. die Gruppe  <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die Design-Mail-Unterstützung nicht ermittelt werden kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Informationsdienste </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach deren Unterstützung von Informationsdiensten (Channel I/B, EZ News Flash, W+INFO etc.) . Wenn ein Besucher mit einem Mobilgerät, das Informationsdienste unterstützt, auf Ihre Site zugreift, wird der Bericht <span class="wintitle">Informationsdienste</span> um mindestens 1 inkrementiert. Wenn das Telefon mehrere Informationsdienste unterstützt, werden die entsprechenden Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach den Informationsdiensten (Channel I/B, EZ News Flash, W+INFO etc.), die von ihnen unterstützt werden. Wenn ein Besucher mit einem Mobilgerät, das Informationsdienste unterstützt, auf Ihre Site zugreift, wird der Bericht <span class="wintitle">Informationsdienste</span> um mindestens 1 inkrementiert. Wenn das Telefon mehrere Informationsdienste unterstützt, werden die entsprechenden Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
