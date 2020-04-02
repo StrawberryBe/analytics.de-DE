@@ -3,7 +3,7 @@ description: Erfasst die Spracheinstellung im Browser des Besuchers, so dass Sie
 title: Sprache
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Erfasst die Spracheinstellung im Browser des Besuchers, so dass Sie den Umsatz und die Anzahl der Unique Visitors für die einzelnen Spracheinstellungen feststellen können. Wenn Sie wissen, wie sich bevorzugte Sprachen auf die Erfolgsmetriken Ihrer Site auswirken, können Sie entscheiden, Ihre Site auch in anderen Sprachen zu präsentieren. Wenn Sie beispielsweise eine große Anzahl italienischsprachiger Kunden mit hoher Warenkorbaktivität haben, könnten Sie die Site auf Italienisch übersetzen lassen und eine Marketing-Kampagne starten, um mehr Datenverkehr zu Ihrer italienischen Site zu lenken.
 
-**[!UICONTROL Besucherprofil]** &gt; **[!UICONTROL Sprachen]**
+**[!UICONTROL Besucherprofil]** > **[!UICONTROL Sprachen]**
 
 Dieser Bericht wird basierend auf dem accept-language-Abschnitt der HTTP-Header-Anforderung gefüllt. Die language-accept-HTTP-Kopfzeile wird als Teil der Sprachvoreinstellungen für die einzelnen Browser konfiguriert:
 
