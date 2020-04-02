@@ -17,7 +17,7 @@ Dieser Fehler wird angezeigt, wenn Sie versuchen, ein Segment im Data Warehouse-
 * Speichern Sie das Segment in einem anderen Ordner.
 * Entfernen oder ändern Sie die inkompatiblen Segmentbestandteile.
 
-## Warum gibt mein Segment überhaupt keine Daten zurück? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Warum gibt mein Segment überhaupt keine Daten zurück?  {#section_999749CBBE984142AEA49A6E68E6730A}
 
 Mögliche Gründe:
 
@@ -25,7 +25,7 @@ Mögliche Gründe:
 * Der Bericht unterstützt keine Segmentierung.
 * Es stimmen keine Daten mit den Segmentierungskriterien überein.
 
-## Warum sehe ich das Segment, das ich erstellt habe, nicht im Segment-Manager? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Warum sehe ich das Segment, das ich erstellt habe, nicht im Segment-Manager?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Mögliche Gründe:
 
@@ -37,7 +37,7 @@ Mögliche Gründe:
 * Das Segment wurde nicht gespeichert.
 * Die IP-Adresse ist möglicherweise auf Seiten des Benutzers gesperrt.
 
-## Warum sind die Seitendaten, die nach dem Anwenden eines Segments angezeigt werden, falsch? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Warum sind die Seitendaten, die nach dem Anwenden eines Segments angezeigt werden, falsch?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Mögliche Gründe:
 
