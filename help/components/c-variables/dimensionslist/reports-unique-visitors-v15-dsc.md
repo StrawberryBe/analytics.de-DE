@@ -3,7 +3,7 @@ description: Zeigt die Anzahl der Unique Visitors, die auf Ihre Site zugegriffen
 title: Unique Visitors
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,13 +21,13 @@ Die folgende Tabelle enthält Beispiele zu dieser Seite. Derselbe Besucher wird 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Datum </th> 
-   <th colname="col2" class="entry"> 1.1.2017 </th> 
-   <th colname="col3" class="entry"> 1.1.2017 </th> 
-   <th colname="col4" class="entry"> 2.1.2017 </th> 
-   <th colname="col5" class="entry"> 2.1.2017 </th> 
-   <th colname="col6" class="entry"> 2.1.2017 </th> 
-   <th colname="col7" class="entry"> 3.1.2017 </th> 
-   <th colname="col8" class="entry"> 4.1.2017 </th> 
+   <th colname="col2" class="entry"> 01.01.2017 </th> 
+   <th colname="col3" class="entry"> 01.01.2017 </th> 
+   <th colname="col4" class="entry"> 02.01.2017 </th> 
+   <th colname="col5" class="entry"> 02.01.2017 </th> 
+   <th colname="col6" class="entry"> 02.01.2017 </th> 
+   <th colname="col7" class="entry"> 03.01.2017 </th> 
+   <th colname="col8" class="entry"> 04.01.2017 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -54,7 +54,7 @@ Die folgende Tabelle enthält Beispiele zu dieser Seite. Derselbe Besucher wird 
  </tbody> 
 </table>
 
-## Bericht „Unique Visitors“ – Trendmetrik {#section_372C08A881D34BBF811C1DE0A1460617}
+## Bericht „Unique Visitors“ – Trendmetrik  {#section_372C08A881D34BBF811C1DE0A1460617}
 
 Die Berichte [!UICONTROL Unique Visitors] verhalten sich ähnlich wie in Ad Hoc Analysis. Für jeden Hit, bei dem ein Besuch stattfindet, wird der Besucher gezählt. Jeder Seite wird der Besucher dafür zugeschrieben.
 
@@ -104,19 +104,19 @@ Zudem wird jedem Datum der entsprechende Besucher dafür zugeschrieben.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +126,7 @@ Zudem wird jedem Datum der entsprechende Besucher dafür zugeschrieben.
  </tbody> 
 </table>
 
-**[!UICONTROL Bericht zu individuellen Besuchern]aufgeschlüsselt nach *`Page`*.**
+**[!UICONTROL Bericht zu individuellen Besuchern] aufgeschlüsselt nach *`Page`*.**
 
 Sie können eine Seite für den [!UICONTROL Bericht zu Unique Visitors] auswählen. Im folgenden Bericht wird die Seite A zum entsprechenden Datum besucht:
 
@@ -139,19 +139,19 @@ Sie können eine Seite für den [!UICONTROL Bericht zu Unique Visitors] auswähl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -161,7 +161,7 @@ Sie können eine Seite für den [!UICONTROL Bericht zu Unique Visitors] auswähl
  </tbody> 
 </table>
 
-## Zeitraumbasierte Unique Visitors (Trendansicht) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## Zeitraumbasierte Unique Visitors (Trendansicht)  {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
 Sie können [!UICONTROL Berichte zu Unique Visitors] (Trendansicht) pro Stunde, Tag, Woche, Monat, Quartal oder Jahr ausführen.
 
@@ -176,19 +176,19 @@ Bei zeitraumbasierten Berichten wird nur der erste Besuch des Unique Visitorss i
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -209,19 +209,19 @@ Der folgende Bericht zeigt die Unique Visitors pro Tag an.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -242,11 +242,11 @@ Die Summen der Metrik können Sie dem Datumsbereich des Berichts entsprechend ä
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -277,19 +277,19 @@ Bei „Unique Visitors pro Woche“ mit Seite = A schließen die Marketing-Beric
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -310,19 +310,19 @@ Bei Unique Visitors pro Woche mit Seite = B, wird lediglich der 2. Januar gezäh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Januar </p> </td> 
+   <td colname="col1"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -332,7 +332,7 @@ Bei Unique Visitors pro Woche mit Seite = B, wird lediglich der 2. Januar gezäh
  </tbody> 
 </table>
 
-## Metriken zu zeitraumbasierten Unique Visitorn für Berichte ohne Trendansicht {#section_90B784F4E49F4930B3F0923B95958BA2}
+## Metriken zu zeitraumbasierten Unique Visitorn für Berichte ohne Trendansicht  {#section_90B784F4E49F4930B3F0923B95958BA2}
 
 Sie können Berichten ohne Trendansicht Metriken zu zeitraumbasierten Unique Visitors hinzufügen, z. B. eine Metrik zu Unique Visitors pro Woche für einen [!UICONTROL Seitenbericht].
 
@@ -346,28 +346,28 @@ Sie können Berichten ohne Trendansicht Metriken zu zeitraumbasierten Unique Vis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eine </p> </td> 
-   <td colname="col02"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col02"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>5. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 5 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -390,23 +390,23 @@ Eine Metrik zu Unique Visitors pro Tag für einen [!UICONTROL Seitenberichte] ka
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eine </p> </td> 
-   <td colname="col02"> <p>1. Januar </p> </td> 
+   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col02"> <p>Januar 1 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 2 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4. Januar </p> </td> 
+   <td colname="col02"> <p>Januar 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -417,7 +417,7 @@ Eine Metrik zu Unique Visitors pro Tag für einen [!UICONTROL Seitenberichte] ka
  </tbody> 
 </table>
 
-Zum Aufschlüsseln eines Attributs nach einem anderen (z. B. *`page`* von *`eVar`*), weist Analytics einen zeitraumbasierten Unique Visitor für jede individuelle Instanz des Zeitraums und der Seite zu (oder das Attribut für die Korrelation).
+Zum Aufschlüsseln eines Attributs nach einem anderen (z. B.  *`page`* von *`eVar`*), weist Analytics einen zeitraumbasierten Unique Visitor für jede individuelle Instanz des Zeitraums und der Seite zu (oder das Attribut für die Korrelation).
 
 Wenn Sie Seite A in die eVars T und U aufschlüsseln, wird der 2. Januar ausgeschlossen, da Seite A am 1. Januar angezeigt wurde. Der folgende Bericht zeigt die Unique Visitors pro Woche an.
 
@@ -444,8 +444,8 @@ Wenn Sie Seite A in die eVars T und U aufschlüsseln, wird der 2. Januar ausgesc
  </tbody> 
 </table>
 
-## Persistente Cookies {#section_81E139F08AEB4E30A06472856975EA1E}
+## Persistente Cookies  {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Persistente Cookies bleiben zwischen Besuchen auf dem Computer des Besuchers, so dass Adobe Besucher bei nachfolgenden Besuchen erkennen kann. Um den Anteil der Benutzer anzuzeigen, die persistente Cookies akzeptieren bzw. nicht akzeptieren, wählen Sie **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistente Cookies]**.
+Persistente Cookies bleiben zwischen Besuchen auf dem Computer des Besuchers, so dass Adobe Besucher bei nachfolgenden Besuchen erkennen kann. Um den Anteil der Benutzer anzuzeigen, die persistente Cookies akzeptieren bzw. nicht akzeptieren, wählen Sie **[!UICONTROL Filter]** > **[!UICONTROL Persistente Cookies]**.
 
 Das Diagramm sowie die Detailansicht unten zeigen sowohl Besucher mit persistenten Cookies als auch solche ohne persistente Cookies. Meistens ist die Anzahl der Besucher ohne persistente Cookies vernachlässigbar.
