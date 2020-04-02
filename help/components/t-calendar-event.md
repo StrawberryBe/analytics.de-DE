@@ -3,7 +3,7 @@ description: Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten 
 title: Kalenderereignisse
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten von freigegeb
 
 In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwieweit Kampagnen und andere Ereignisse Ihren Webseiten-Traffic, Umsatz und andere Metriken beeinflusst haben. Das Einrichten eines Kalenderereignisses beinhaltet die Benennung des Ereignisses, die Festsetzung des Datumsbereichs, das Hinzufügen von Anmerkungen und die Bestimmung eines Symbols. Wenn Sie beispielsweise „Social“ verwenden, können Sie ein Kalenderereignis erstellen, um anzuzeigen, dass eine Korrelation zwischen einem erhöhten Sitetraffic und der Erwähnung eines Produkts durch einen Prominenten via Twitter besteht.
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponente]** &gt; **[!UICONTROL Kalenderereignisse]**.
+1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Kalenderereignisse]**.
 1. Klicken Sie auf **[!UICONTROL Neu hinzufügen]**.
    1. Geben Sie unter **[!UICONTROL Titel]** einen Namen für das Kalenderereignis an.
    1. Geben Sie das **[!UICONTROL Ereignisdatum]** an.
@@ -31,7 +31,7 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
    1. Klicken Sie auf **[!UICONTROL Alle auswählen]** oder aktivieren Sie das Kästchen neben dem/den Benutzernamen.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
    Damit lassen sich Kalenderereignisse wesentlich umfassender verwenden. Analysten können nun Overlays für Benutzerberichte erzwingen und so mehr Kontext bereitstellen.
-1. Klicken Sie auf **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponente]** &gt; **[!UICONTROL Kalenderereignisse]**.
+1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Kalenderereignisse]**.
 1. Geben Sie unter **[!UICONTROL Gemeinsame Kalenderereignisse]** eine der folgenden Optionen an.
 
        | **Copy Me** | fügt Ihrer Ereignisliste eine Kopie hinzu und verwendet dabei den gleichen Namen wie das Original. Sie können allerdings keine vom Eigentümer des Ereignisses vorgenommenen Aktualisierungen/Änderungen sehen. |
