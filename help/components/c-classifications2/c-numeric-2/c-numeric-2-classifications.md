@@ -1,34 +1,34 @@
 ---
-description: Numerisch-2-Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
+description: Numerisch 2 Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
 subtopic: Classifications
-title: Numerisch-2-Klassifizierungen – Übersicht
+title: Numerisch 2 Classifications – Übersicht
 topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Numerisch-2-Klassifizierungen – Übersicht
+# Numerisch 2 Classifications – Übersicht
 
-Numerisch-2-Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
-
->[!IMPORTANT]
->
->Die Möglichkeit, die Classifications „Numerisch 2“ und „Datumsaktiviert“ zu importieren, wurde aus der Codebasis entfernt. Diese Änderung wird mit der Wartungsversion vom Juli 2019 wirksam. Wenn die Importdatei die Spalte „Numerisch“ oder „Datumsaktiviert“ enthält, werden diese Zellen still ignoriert und alle anderen Daten in dieser Datei werden normal importiert. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf exportiert werden und sind weiterhin in Berichten verfügbar.
-
-> [!NOTE] Seit der Analytics-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte und numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
-
-Eine gängige Verwendung von Nummerisch-2-Classifications sind nummerische Variablen, die sich im Laufe der Zeit für verschiedene Elemente verändern, z. B. die Kosten verkaufter Waren. In Admin können Sie auf der Seite [!UICONTROL Konversion-Classification] Classifications erstellen und dann mithilfe des Importeurs eine Datei exportieren, Bearbeitungen vornehmen und anschließend die Datei wieder in Adobe zurückimportieren. Nach dem Datenimport können Sie die nummerischen Classifications beim Erstellen berechneter Metriken nutzen.
+Numerisch 2 Classifications stellen benutzerdefinierte, flexible Metriken bereit, die Sie mit dem Importer in Adobe Experience Cloud importieren können.
 
 >[!IMPORTANT]
 >
->Analysis Workspace und Ad Hoc Analysis unterstützen keine „Numerisch 2“-Klassifizierungen.
+>Die Möglichkeit, die Classifications „Numerisch 2“ und „Datumsaktiviert“ zu importieren, wurde aus der Codebasis entfernt. Diese Änderung wird mit der Wartungsversion vom Juli 2019 wirksam. Wenn die Importdatei die Spalte „Numerisch“ oder „Datumsaktiviert“ enthält, werden diese Zellen still ignoriert, und alle anderen Daten in dieser Datei werden normal importiert. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf exportiert werden und sind weiterhin in Berichten verfügbar.
+
+> [!NOTE] Nach der Analytics-Wartungsversion vom 10. Mai 2018 schränkte Adobe die Funktion für datumsaktivierte und numerische Classifications ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
+
+Eine gängige Verwendung von Numerisch 2 Classifications sind numerische Variablen, die sich im Laufe der Zeit für verschiedene Elemente verändern, z. B. die Kosten verkaufter Waren. In Admin können Sie auf der Seite [!UICONTROL Konversion-Classification] Classifications erstellen und dann mithilfe des Importeurs eine Datei exportieren, Bearbeitungen vornehmen und anschließend die Datei wieder in Adobe zurückimportieren. Nach dem Datenimport können Sie die numerischen Classifications beim Erstellen berechneter Metriken nutzen.
+
+>[!IMPORTANT]
+>
+>Analysis Workspace und Ad Hoc Analysis unterstützen keine Numerisch 2 Classifications.
 
 In der folgenden Tabelle werden die Unterschiede zwischen den Classification-Typen erläutert:
 
-| FUNKTION | TEXT | NUMMERISCH 1.0 | NUMMERISCH 2.0 |
+| FUNKTION | TEXT | NUMERISCH 1.0 | NUMERISCH 2.0 |
 |---|---|---|---|
 | Wird als Bericht angezeigt | Ja | Nein | Nein |
 | Kann als Metrik verwendet werden | Nein | Ja | Ja |
