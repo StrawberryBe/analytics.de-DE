@@ -3,7 +3,7 @@ description: Beschreibt, wie Merchandising-Variablen aktiviert und implementiert
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: Implementierung einer Merchandising-Variable
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,14 +15,14 @@ Beschreibt, wie Merchandising-Variablen aktiviert und implementiert werden.
 
 ## Aktivieren einer Merchandising-Variablen
 
-Merchandising kann für jede benutzerspezifische eVar unter **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Konversionsvariablen]** aktiviert werden.
+Merchandising kann für jede benutzerspezifische eVar unter **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Konversionsvariablen]** aktiviert werden.
 
 ![](assets/merch-enable.png)
 
 | Einstellung | Beschreibung |
 |--- |--- |
 | Läuft ab nach | Legt fest, wie lange Merchandising-Werte bestehen bleiben sollen. |
-| Merchandising | **Produktsyntax:** Dieser Wert wird innerhalb von `s.products` festgelegt.<br>**Konversionsvariablensyntax:** Dieser Wert wird innerhalb der festgelegten Merchandising-eVar gesetzt. |
+| Merchandising | **Produktsyntax:** Dieser Wert wird innerhalb von `s.products` festgelegt.<br>**Konversionsvariablensyntax:** Dieser Wert wird innerhalb der festgelegten Merchandising-eVar gesetzt. |
 | Merchandising-Binding-Ereignis (nur Konversionsvariablensyntax) | Gibt an, wann ein Produkt mit der aktuellen Merchandising-Kategorie verknüpft werden soll. Es können mehrere Ereignisse ausgewählt werden, indem Sie die STRG-Taste gedrückt halten und mehrere Elemente in der Liste anklicken. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde. |
 
 ## Implementierung anhand der Produktsyntax
