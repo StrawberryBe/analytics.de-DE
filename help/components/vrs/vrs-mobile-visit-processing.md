@@ -14,11 +14,11 @@ Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analyti
 
 Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrunde liegenden Daten zu ändern, um ihn auf die Interaktion Ihrer Besucher mit Ihren mobilen Apps abzustimmen.
 
-## URL-Parameter für Kundenperspektive {#section_8B298006362341E3AC16A148422D1F65}
+## URL-Parameter für Kundenperspektive  {#section_8B298006362341E3AC16A148422D1F65}
 
 Mithilfe des Adobe Analytics-Datenerfassungsprozesses können Sie einen Abfrage-Zeichenfolgenparameter festlegen, der die Kundenperspektive angibt (Bezeichnung als Abfrage-Zeichenfolgenparameter „cp“). In diesem Feld wird der Status der digitalen Anwendung des Endbenutzers angegeben. Dies hilft Ihnen bei der Feststellung, ob ein Treffer generiert wurde, während sich eine mobile App in einem Hintergrundzustand befand.
 
-## Verarbeitung von Treffern im Hintergrund {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Verarbeitung von Treffern im Hintergrund  {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
 
 Ein Hintergrundtreffer ist ein Treffertyp, der von der Adobe Mobile SDK-Version 4.13.6 und höher an Analytics gesendet wird, wenn sich die App in einem Hintergrundzustand befindet und eine Verfolgungsanfrage stellt. Typische Beispiele dafür umfassen Folgendes:
 
@@ -115,25 +115,25 @@ Wenn eine Reihe von Hintergrundtreffern vor einer Serie von Vordergrundereigniss
 
 Hintergrundtreffer haben dieses Verhalten, um jegliche Zuordnungseffekte aus eVars oder anderen Variablen beizubehalten, die im Rahmen von Hintergrundtreffern festgelegt wurden. Dadurch können nachfolgende Vordergrundkonvertierungsereignisse Aktionen zugeordnet werden, die ausgeführt werden, während sich eine App im Hintergrundzustand befindet. Dies ermöglicht zudem das Einbeziehen von Hintergrundtreffern, die zu einer nachfolgenden Vordergrundsitzung geführt haben, in einen Besuchssegmentcontainer. Dies ist vor allem für die Messung der Effizienz von Push-Nachrichten hilfreich.
 
-## Besuchsmetrikverhalten {#section_50B82618A39B454493B33B1450CCBD3E}
+## Besuchsmetrikverhalten  {#section_50B82618A39B454493B33B1450CCBD3E}
 
 Die Besuchszahl basiert ausschließlich auf der Anzahl der Besuche mit mindestens einem Vordergrundtreffer. Demnach werden verwaiste Hintergrundtreffer oder „Hintergrundbesuche“ nicht in die Besuchsmetrik einbezogen.
 
-## Zeit pro Besuch – Metrikverhalten {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Zeit pro Besuch – Metrikverhalten  {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
 
 Die verbrachte Zeit wird weiterhin analog zur Berechnung ohne Hintergrundtreffer mithilfe der Zeit zwischen den Treffern berechnet. Falls ein Besuch Hintergrundtreffer umfasst (weil sie nahe genug an Vordergrundtreffern aufgetreten sind), werden diese Treffer dennoch in die Berechnung der pro Besuch verbrachten Zeit einbezogen, als würde es sich um einen Vordergrundtreffer handeln.
 
-## Einstellungen zur Verarbeitung von Treffern im Hintergrund {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Einstellungen zur Verarbeitung von Treffern im Hintergrund  {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
 
-Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Report Time Processing verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Navigieren Sie für den Zugriff auf diese Einstellung zur Adobe Analytics Admin Console, rufen Sie die Einstellungen der jeweiligen zugrunde liegenden Report Suite auf, navigieren Sie dann zum Menü „Mobile Verwaltung“ und dann zum Untermenü „Mobile App-Berichte“.
+Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Navigieren Sie für den Zugriff auf diese Einstellung zur Adobe Analytics Admin Console, rufen Sie die Einstellungen der jeweiligen zugrunde liegenden Report Suite auf, navigieren Sie dann zum Menü „Mobile Verwaltung“ und dann zum Untermenü „Mobile App-Berichte“.
 
 1. „Legacy-Verarbeitung Ein“: Standardeinstellung für alle Report Suites. Wenn Sie die Legacy-Verarbeitung aktiviert lassen, werden Hintergrundtreffer in der Verarbeitungspipeline wie normale Treffer behandelt, was die zugrunde liegende Report Suite ohne Zuordnung der Berichtszeit betrifft. Demnach inkrementieren Hintergrundtreffer, die in der zugrunde liegenden Report Suite angezeigt werden, Besuche als normalen Treffer. Wenn keine Hintergrundtreffer in Ihrer zugrunde liegenden Report Suite angezeigt werden sollen, ändern Sie diese Einstellung zu „Aus“.
-1. „Legacy-Verarbeitung Aus“: Wenn die Legacy-Verarbeitung für Hintergrundtreffer aus ist, werden an die zugrunde liegende Report Suite gesendete Hintergrundtreffer von der zugrunde liegenden Report Suite ignoriert, und sie sind nur zugänglich, wenn eine in dieser zugrunde liegenden Report Suite erstellte Virtual Report Suite für die Verwendung der Funktion „Report Time Processing“ konfiguriert ist. Demnach werden von den Hintergrundtreffern erfasste Daten, die an diese zugrunde liegende Report Suite gesendet werden, nur in einer Virtual Report Suite mit aktivierter Funktion „Report Time Processing“ angezeigt.
+1. „Legacy-Verarbeitung Aus“: Wenn die Legacy-Verarbeitung für Hintergrundtreffer aus ist, werden an die zugrunde liegende Report Suite gesendete Hintergrundtreffer von der zugrunde liegenden Report Suite ignoriert, und sie sind nur zugänglich, wenn eine in dieser zugrunde liegenden Report Suite erstellte Virtual Report Suite für die Verwendung der Funktion „Berichtszeitverarbeitung“ konfiguriert ist. Demnach werden von den Hintergrundtreffern erfasste Daten, die an diese zugrunde liegende Report Suite gesendet werden, nur in einer Virtual Report Suite mit aktivierter Funktion „Berichtszeitverarbeitung“ angezeigt.
 
    Diese Einstellung ist für Kunden vorgesehen, die die neue Verarbeitung von Hintergrundtreffern nutzen möchten, ohne die Besuchszahlen ihrer zugrunde liegenden Report Suite zu ändern.
 
 In beiden Fällen werden Hintergrundtreffer mit denselben Kosten wie andere an Analytics gesendete Treffer abgerechnet.
 
-## Starten neuer Besuche bei allen App-Starts {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Starten neuer Besuche bei allen App-Starts  {#section_9DA9A8B9758248A6B311EFBA06AECA80}
 
 Zusätzlich zur Verarbeitung von Hintergrundtreffern können Virtual Report Suites immer dann das Starten eines neuen Besuchs erzwingen, wenn das mobile SDK ein App-Startereignis sendet. Wenn diese Einstellung aktiviert ist, wird bei jedem Senden eines App-Startereignisses vom SDK das Starten eines neuen Besuchs erzwungen. Dabei ist es unerheblich, ob ein offener Besuch sein Timeout erreicht hat. Der Treffer mit dem App-Startereignis wird als erster Treffer des nächsten Besuchs betrachtet. Er inkrementiert die Besuchszahl und erzeugt einen gesonderten Besuchscontainer für die Segmentierung.
