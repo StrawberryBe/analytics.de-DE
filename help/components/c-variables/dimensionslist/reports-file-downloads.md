@@ -3,7 +3,7 @@ description: „Dateidownloads“ zeigt Ihnen, wie oft Besucher Dateien von Ihre
 title: Dateiladungen
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **Navigation**
 
-**[!UICONTROL Berichte]** &gt; **[!UICONTROL Site-Content]** &gt; **[!UICONTROL Links]** &gt; **[!UICONTROL Dateidownloads]**
+**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Links]** > **[!UICONTROL Dateidownloads]**
 
 Wenn sich dieser Bericht nicht an der üblichen Stelle befindet, wenden Sie sich an einen Administrator. Möglicherweise wurde die Standardmenüstruktur den Anforderungen Ihrer Organisation entsprechend geändert.
 
