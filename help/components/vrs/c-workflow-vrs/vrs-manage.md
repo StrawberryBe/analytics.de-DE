@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites verwalten
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Im Virtual Report Suite Manager können Administratoren Virtual Report Suites bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Er ist für Nicht-Admin-Benutzer nicht sichtbar.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Virtual Report Suites]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]**
 
 ![](assets/vrs-manage.png)
 
@@ -29,4 +29,4 @@ Im Virtual Report Suite Manager können Administratoren Virtual Report Suites be
 | Genehmigen/Nicht genehmigen | Genehmigen Sie Virtual Report Suites, um diese „offiziell“ oder „kanonisch“ zu machen. Der Vorgang kann umgekehrt werden, indem Sie die Genehmigung aufheben. |
 | Kopieren | Erstellt eine eigenständige Kopie mit einer eigenen neuen Report Suite-ID, jedoch mit demselben Namen und derselben Definition. |
 | In CSV exportieren | Exportiert die Definition der Virtual Report Suite in eine CSV-Datei. |
-| Filtern | Filtert nach Tags, übergeordneter Report Suite, Inhabern und anderen Filterkriterien („Alle anzeigen“, „Meine“, „Favoriten“ und „Genehmigt“). |
+| Filter | Filtert nach Tags, übergeordneter Report Suite, Inhabern und anderen Filterkriterien („Alle anzeigen“, „Meine“, „Favoriten“ und „Genehmigt“). |
