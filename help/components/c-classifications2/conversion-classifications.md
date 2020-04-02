@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Konversionsklassifizierungen
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf 
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nach der Aktivierung der Classifications verwenden Sie den  [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
 ## Konversion-Classifications – Beschreibungen {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -61,10 +61,10 @@ t_classification_conversion.xml
 
 Schritte, die beschreiben, wie Konversion-Classifications in der Admin-Konsole hinzugefügt werden.
 
-1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
 1. Report Suite auswählen.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Konversionsklassifizierungen]**.
-1. Wählen Sie in der Dropdownliste **[!UICONTROL „Einen Klassifizierungstyp auswählen“]** die Variable aus, der Sie eine Klassifizierung hinzufügen möchten.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversion-Classifications]**. 
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Einen Klassifizierungstyp auswählen]** die Variable aus, der Sie eine Klassifizierung hinzufügen möchten.
 
    ![Schritt-Info](assets/sub_class_create.png)
 
@@ -91,9 +91,9 @@ t_classification_delete_conversion.xml
 
 Löschen Sie nicht mehr benötigte Konversion-Classifications.
 
-1. Öffnen Sie den Report Suite Manager, indem Sie in der Suite-Kopfzeile auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** klicken.
+1. Öffnen Sie den Report Suite Manager, indem Sie in der Suite-Kopfzeile auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** klicken.
 1. Report Suite auswählen.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Konversion]** &gt; **[!UICONTROL Konversionsklassifizierungen]**.
-1. Wählen Sie in der Dropdownliste **[!UICONTROL „Einen Klassifizierungstyp auswählen“]** die Variable aus, in der Sie eine Klassifizierung löschen möchten.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversion-Classifications]**. 
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Einen Klassifizierungstyp auswählen]** die Variable aus, in der Sie eine Klassifizierung löschen möchten.
 1. Bewegen Sie den Mauszeiger über das Symbol **[!UICONTROL Klassifizierung bearbeiten]** und wählen Sie dann **[!UICONTROL Klassifizierung löschen]**.
-1. Klicken Sie im Dialogfeld „Klassifizierung löschen“ auf **[!UICONTROL Löschen**].
+1. Klicken Sie im Dialogfeld „Klassifizierung löschen“ auf **[!UICONTROL Löschen]**.
