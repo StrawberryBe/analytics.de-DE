@@ -3,7 +3,7 @@ description: 'Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die E
 title: Referrerdomänen
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Referrerdomänen
 
-Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Referrer lassen sich zwei Hauptkategorien zuweisen: Domänen und URLs. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
+Zeigt die Domänen an, die jene Kunden an Sie verwiesen haben, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Referrer lassen sich zwei Hauptkategorien zuweisen: Domänen und URLs. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
 
 ## Zuordnung, Ablauf und spezielle Werte {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
