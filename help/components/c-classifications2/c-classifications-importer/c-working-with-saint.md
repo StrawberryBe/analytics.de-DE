@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Classifications importer – Übersicht
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics hoch. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
 Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweisen. Adobe bietet eine Datenvorlage mit den richtigen Header-Details in einer mit Tabulatoren begrenzten Datei zum Herunterladen an. Sie können Ihre neuen Daten in diese Vorlage einfügen und dann die Datendatei über FTP in den Browser importieren.
 
@@ -22,4 +22,4 @@ Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweis
 
 Unter [„Numerisch 2“-Klassifizierungen](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) finden Sie Informationen zum Hochladen von Daten mithilfe von „Numerisch 2“-Klassifizierungen.
 
-Siehe [Häufige Saint-Upload-Probleme](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme beschrieben werden, die sich aus falschen Dateiformaten und Dateiinhalten ergeben.
+Siehe [Häufige Saint-Upload-Probleme](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme beschrieben werden, die sich aus falschen Dateiformaten und Dateiinhalten ergeben.
