@@ -3,7 +3,7 @@ description: Zeigt Daten zum Standort des Besuchers. GeoSegmentation-Berichte be
 title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -29,7 +29,7 @@ Alle Metriken, die an anderen Stellen in Reports &amp; Analytics für Sie verfü
   </tr> 
   <tr> 
    <td colname="col1"> Regionen </td> 
-   <td colname="col2"> <p> Ein geografischer Bereich, der kleiner ist als ein Land, jedoch größer als eine Stadt. In einigen Ländern ist unter einer Region ein Bundesstaat, eine Provinz oder eine Präfektur zu verstehen. In anderen Bereichen handelt es sich um ein eigenständiges Land, ein Distrikt oder eine Metropolregion. Rechts neben der jeweiligen Region wird das Land in Klammern angezeigt. </p> <p>Klicken Sie in den Tabellendetails auf Städtebericht für diese Region ausführen (die Lupe), um einen Bericht auszuführen, der Leistungsdaten zu Städten in einer ausgewählten Region im Vergleich mit anderen Städten in der Region liefert. </p> <p>Siehe <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > Verwendung von GeoSegmentation-Regionen und Postleitzahlen nach Land</a>, um zu sehen, welche Länder Regionen verwenden. </p> </td> 
+   <td colname="col2"> <p> Ein geografischer Bereich, der kleiner ist als ein Land, jedoch größer als eine Stadt. In einigen Ländern ist unter einer Region ein Bundesstaat, eine Provinz oder eine Präfektur zu verstehen. In anderen Bereichen handelt es sich um ein eigenständiges Land, ein Distrikt oder eine Metropolregion. Rechts neben der jeweiligen Region wird das Land in Klammern angezeigt. </p> <p>Klicken Sie in den Tabellendetails auf Städtebericht für diese Region ausführen (die Lupe), um einen Bericht auszuführen, der Leistungsdaten zu Städten in einer ausgewählten Region im Vergleich mit anderen Städten in der Region liefert. </p> <p>Siehe  <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > Verwendung von GeoSegmentation-Regionen und Postleitzahlen nach Land</a>, um zu sehen, welche Länder Regionen verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Städte </td> 
