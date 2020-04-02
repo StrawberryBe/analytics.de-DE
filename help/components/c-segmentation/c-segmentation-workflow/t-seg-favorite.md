@@ -3,7 +3,7 @@ description: Das Kennzeichnen von Segmenten als Favoriten bietet eine weitere M�
 title: Segmente als Favoriten markieren
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ Das Kennzeichnen von Segmenten als Favoriten bietet eine weitere Möglichkeit, d
 
    ![](assets/favorites.png)
 
-1. Sie können unter **[!UICONTROL Filter]** &gt; **[!UICONTROL Weitere Filter]** &gt; **[!UICONTROL Favoriten]** nach Favoriten filtern.
+1. Sie können unter **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Favoriten]** nach Favoriten filtern.
