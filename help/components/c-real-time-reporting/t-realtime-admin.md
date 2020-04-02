@@ -3,7 +3,7 @@ description: Administrative Schritte zum Einrichten von Echtzeit-Berichten.
 title: Echtzeitberichte konfigurieren
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurich
 
 1. Wählen Sie die Report Suite aus, für die Sie Echtzeit-Berichte aktivieren möchten.
 
-   Navigieren Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Berichte]** &gt; **[!UICONTROL Alle Berichte anzeigen &gt; Site-Metriken]** &gt; **[!UICONTROL Echtzeit]** und wählen Sie die Report Suite oben aus dem Dropdown-Menü aus:
+   Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Alle Berichte anzeigen > Site-Metriken]** > **[!UICONTROL Echtzeit]** und wählen Sie die Report Suite oben aus dem Dropdown-Menü aus:
 
    ![](assets/report_suite_selector.png)
 
@@ -27,7 +27,7 @@ Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurich
 
 1. Klicken Sie auf **[!UICONTROL Konfigurieren]** (Zahnradsymbol), um den [!UICONTROL Report Suite Manager] auszuführen.
 
-   (Auch verfügbar unter **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Report Suites]** &gt; **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Echtzeit]**.)
+   (Auch verfügbar unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Echtzeit]**)
 
 1. Aktivieren Sie die Einstellung **[!UICONTROL Echtzeit aktivieren]**.
 1. Richten Sie die Echtzeit-Datenerfassung für bis zu drei Berichte ein, wobei pro Bericht eine Metrik und drei Dimensionen oder Classifications erstellt werden.
@@ -54,6 +54,6 @@ Um Echtzeit-Berichte in Marketing [!UICONTROL Reports &amp; Analytics] einzurich
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
 
-   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html).
+   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://marketing.adobe.com/resources/help/de_DE/sc/user/reports_realtime.html).
 
 1. Standardmäßig haben alle Benutzer Zugriff auf Echtzeitberichte.
