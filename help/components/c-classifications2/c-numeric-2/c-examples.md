@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Beispiele
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -111,7 +111,7 @@ Daher würden Sie die folgenden Daten importieren:
 | Schlüssel | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000,00 |
-| Product2 | Text2 | `Cost2_jan_fixed` |  | 2000.00 |
+| Product2 | Text2 | `Cost2_jan_fixed` |  | 2000,00 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -128,8 +128,8 @@ Bericht: Produkte
 
 | Produkte | Umsatz | MyCost |
 |---|---|---|
-| Product1 | 11.023,75 $ | 3000,00 $ |
-| Product2 | 8000,12 $ | $2000.00 |
+| Product1 | 11.023,75 $ | 3000,00$ |
+| Product2 | 8000,12 $ | 2000.00 $ |
 
 <!-- 
 
@@ -196,8 +196,8 @@ Bericht: Produkte nach Seite
 | Produkte nach Seite | Bestellungen | MyCost |
 |---|---|---|
 | Product1 | 1000 | 1000.00 $ |
-| „Homepage“ | 600 | $600 |
-| Warenkorb | 400 | 400 $ |
+| „Homepage“ | 600 | 600 $ |
+| Warenkorb | 400 | 400$ |
 
 <!-- 
 
@@ -208,7 +208,7 @@ c_example_5__fixed_no_hinge.xml
 | Schlüssel | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000,00 |
-| Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
+| Product2 | Text2 | `Cost2_mar_fixed` |  | 2000,00 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -225,7 +225,7 @@ Bericht: Produkte nach Seite
 
 | Produkte nach Seite | Bestellungen | MyCost |
 |---|---|---|
-| Product1 | 1000 | 3000,00 $ |
+| Product1 | 1000 | 3000,00$ |
 | „Homepage“ | 600 | 0 |
 | Warenkorb | 400 | 0 |
 
@@ -240,7 +240,7 @@ In diesem Fall würden Sie die folgenden Daten eingeben:
 | Schlüssel | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000,00 |
-| Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
+| Product2 | Text2 | `Cost2_mar_fixed` |  | 2000,00 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -257,9 +257,9 @@ Bericht: Produkte nach Seite
 
 | Produkte nach Seite | Bestellungen | MyCost |
 |---|---|---|
-| Product1 | 1000 | 3000,00 $ |
-| „Homepage“ | 600 | 1800,00 $ |
-| Warenkorb | 400 | 1200,00 $ |
+| Product1 | 1000 | 3000,00$ |
+| „Homepage“ | 600 | 1800,00$ |
+| Warenkorb | 400 | 1200,00$ |
 
 <!-- 
 
@@ -287,7 +287,7 @@ Bericht: Produkte nach Seite
 
 | Produkte nach Seite | Bestellungen | MyCost |
 |---|---|---|
-| Product1 | 1000 | 3000,00 $ |
-| „Homepage“ | 600 | 1000,00 $ |
-| Warenkorb | 400 | 2.000,00 $ |
+| Product1 | 1000 | 3000,00$ |
+| „Homepage“ | 600 | 1.000,00$ |
+| Warenkorb | 400 | 2.000,00$ |
 
