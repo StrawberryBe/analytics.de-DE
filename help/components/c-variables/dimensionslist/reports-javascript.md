@@ -3,7 +3,7 @@ description: Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät aktiv
 title: JavaScript-Unterstützung
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Siehe folgendes Beispiel:
 | Treffer | j_jscript | javascript |
 |---|---|---|
 | 1 |  | 0 |
-| 2 | 1.6 | 0 |
-| 3 | 1.6 | 0 |
+| 2 | 1,6 | 0 |
+| 3 | 1,6 | 0 |
 
 Demzufolge ist es unwichtig, ob Sie an irgendeinem Punkt des Besuchs eine JavaScript-Version festgelegt hatten – es kommt immer zu einer Nicht-JavaScript-Anzeige, weil der erste Treffer keinen Wert für „j_jscript“ enthalten hat.
