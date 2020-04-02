@@ -3,7 +3,7 @@ description: Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten
 title: Sitebereiche
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Si
    * **Alle E-Commerce-Standardmetriken**: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb und Entnahmen aus Warenkorb.
    * **Alle benutzerspezifischen Ereignisse**: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
 
-Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die letzte Zuordnung. Sie sehen die Konversion auf die Seiten aufgeteilt, die in Ihrer Implementierung keine Erfolgsereignisse enthalten. Das unterscheidet sich vom [Seitenbericht](/help/components/c-variables/dimensionslist/reports-pages.md), bei dem eine lineare Zuordnung verwendet wird.
+Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die letzte Zuordnung. Sie sehen die Konversion auf die Seiten aufgeteilt, die in Ihrer Implementierung keine Erfolgsereignisse enthalten. Das unterscheidet sich vom  [Seitenbericht](/help/components/c-variables/dimensionslist/reports-pages.md), bei dem eine lineare Zuordnung verwendet wird.
 
 **Produktspezifische Informationen**
 
@@ -41,7 +41,7 @@ Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die let
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol">„Site-Content“</span> &gt; <span class="uicontrol">„Sitebereiche“</span> </p> <p>Abgesehen von Korrelationen kann dieser Bericht die folgenden Aufschlüsselungen verwenden: </p> 
+   <td colname="col2"> <p> <span class="uicontrol"> Site-Content</span> &gt; <span class="uicontrol"> Sitebereiche</span> </p> <p>Abgesehen von Korrelationen kann dieser Bericht die folgenden Aufschlüsselungen verwenden: </p> 
     <ul id="ul_9CD009D89B134C53807332E3C88D3C44"> 
      <li id="li_566417EB074D425C9A1F4FB28AA7FAB4"> 
       <ul id="ul_3795C7AAE6DA4B7E96FCDC7F3211DFBB"> 
