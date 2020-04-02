@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
 * Virtual Report Suites können nicht freigegeben werden. Die Freigabe erfolgt über Gruppen/Berechtigungen.
 * Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. Sie müssen auf „Alle anzeigen“ klicken, um die aller anderen anzuzeigen.
 
-1. Navigieren Sie zu **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Virtual Report Suites]**.
+1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]**.
 1. Klicken Sie auf **[!UICONTROL Hinzufügen +]**.
 
    ![](assets/new_vrs.png)
@@ -59,7 +59,7 @@ Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Asp
   </tr> 
   <tr> 
    <td colname="col1"> Segmente </td> 
-   <td colname="col2"> <p>Sie können nur ein Segment hinzufügen oder Sie können <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >Segmente stapeln</a>. </p> <p> <p>Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine ODER-Anweisung geändert werden. </p> </p> <p>Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. </p> </td> 
+   <td colname="col2"> <p>Sie können nur ein Segment hinzufügen oder Sie können <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_stack.html"  >Segmente stapeln</a>. </p> <p> <p>Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine ODER-Anweisung geändert werden. </p> </p> <p>Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
