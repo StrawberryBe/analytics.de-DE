@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Häufig gestellte Fragen
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,8 +18,8 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 
 * Segmentierung in Analysis Workspace:
 
-   * Sie können [Segmente vergleichen](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
-   * Verwenden Sie [Segmente als Dimensionen](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) bei Vergleichen.
+   * Sie können [Segmente vergleichen](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segment-comparison.html).
+   * Verwenden Sie [Segmente als Dimensionen](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segments_as_dimensions.html) bei Vergleichen.
    * Verwenden Sie Segmente in der [Fallout-Analyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
 * Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
@@ -52,7 +52,7 @@ Sie können wie folgt auf den Segment Builder zugreifen:
 
 Sie können wie folgt auf den Segment-Manager zugreifen:
 
-* Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
+* Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
 
 * öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
 
@@ -74,7 +74,7 @@ Das Dropdown-Feld für die Report Suite wurde in die obere rechte Ecke jedes Ber
 
 **Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?**
 
-Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
+Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
 
 Administratoren können alle Segmente bearbeiten und Segmente für Gruppen und alle Personen der Organisation freigeben. [Mehr …](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
@@ -110,7 +110,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der [Best Practices](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Verwaltung alter Segmente {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -118,7 +118,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/c-segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als  Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -126,7 +126,7 @@ Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet
 
 **Was ist mit meinen vorhandenen Segmentordnern passiert?**
 
-Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager Tags zu platzieren. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
+Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager  Tags zu platzieren. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
 
 **Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?**
 
@@ -174,7 +174,7 @@ Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren we
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
@@ -247,52 +247,52 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
   <tr> 
    <td colname="col1"> Cookie-Unterstützung </td> 
    <td colname="col2"> Cookies </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Farbtiefe </td> 
    <td colname="col2"> Bildschirmfarbtiefe </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> - </td> 
+   <td colname="col1"> – </td> 
    <td colname="col2"> „App - *“ </td> 
    <td colname="col3"> Die „App -“-Präfixe wurden aus einigen Dimensionstypen entfernt. Da mobile App-Daten in der Regel in einer Report Suite erfasst werden, die keine Webdaten enthält, waren diese Präfixe nicht erforderlich. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Entrypage ursprünglich </td> 
    <td colname="col2"> Ursprüngliche Entrypage </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java aktiviert </td> 
    <td colname="col2"> Java </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Max. Länge der mobilen Browser-URL </td> 
    <td colname="col2"> Länge der mobilen Browser-URL </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobilgerät – Mail-Design </td> 
    <td colname="col2"> Mobile Design-Mail-Unterstützung </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobilgerät </td> 
    <td colname="col2"> Mobilgerätname </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobil Max. Lesezeichen-Länge </td> 
    <td colname="col2"> Mobil Max. Lesezeichen URL-Länge </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobil Max. E-Mail-Länge </td> 
    <td colname="col2"> Mobil Max. Mail URL-Länge </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobiles Betriebssystem (Veraltet) </td> 
@@ -302,32 +302,32 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
   <tr> 
    <td colname="col1"> Mobilgerät – Push To Talk </td> 
    <td colname="col2"> Mobile PTT </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Umfrageansichten </td> 
    <td colname="col2"> Umfrageansichten insgesamt </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Umfrageantworten </td> 
    <td colname="col2"> Umfrageantworten insgesamt </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuchstiefe </td> 
    <td colname="col2"> Path Length </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Postleitzahl </td> 
    <td colname="col2"> Postleitzahl </td> 
-   <td colname="col3"> - </td> 
+   <td colname="col3"> – </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Auf Zeichenketten basierende Dimensionen, die einen bekannten Satz Werte besitzen, wurden in Aufzählungstypen geändert. Wenn Sie mit diesen Dimensionen ein Segment erstellen, wird die Liste mit allen bekannten Werten vorbelegt und „Gleich“ wird als einziger Operator unterstützt. So können Sie die genauen Werte, nach denen Sie suchen, schnell segmentieren, ohne nicht beabsichtigte Werte auszuwählen, die bei einer weniger restriktiven Übereinstimmung auftreten.
 
@@ -349,7 +349,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobile Lesezeichenlänge | Java aktiviert | Gebührenpflichtige Suche |
 | Mobil URL-Länge | Sprache |  |
 
-## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segmentaufbauoberfläche segmentiert werden:
 
