@@ -3,7 +3,7 @@ description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste a
 title: Segmente auswählen und anwenden
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Beri
    >
    >Wenn Sie neben dem Segmentnamen auf das Informationssymbol (i) klicken, erhalten Sie eine Vorschau der Schlüsselmetriken und sehen, ob Sie ein gültiges Segment besitzen und wie breit das Segment ist.
 
-1. Sie können nach Report Suite filtern, indem Sie das Kontrollkästchen **[!UICONTROL (Nur)`<report suite name>`]** aktivieren. Dadurch werden nur die Segmente angezeigt, die zuletzt in der entsprechenden Report Suite gespeichert wurden.
+1. Sie können nach Report Suite filtern, indem Sie das Kontrollkästchen **[!UICONTROL (Nur) `<report suite name>`]** aktivieren. Dadurch werden nur die Segmente angezeigt, die zuletzt in der entsprechenden Report Suite gespeichert wurden.
 1. Klicken Sie auf **[!UICONTROL Segment anwenden]**, damit der Bericht aktualisiert wird. Die angewendeten Segmente werden jetzt oben im Bericht angezeigt:
 
    ![](assets/applied_segments.png)
