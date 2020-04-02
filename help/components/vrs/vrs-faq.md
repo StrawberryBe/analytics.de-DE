@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Häufig gestellte Fragen zu VRS
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
@@ -60,11 +60,11 @@ Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
   </tr> 
   <tr> 
    <td colname="col1"> <b> Ich habe „Bei Start neuen Besuch beginnen“ ausgewählt. Warum sehe ich nach wie vor wesentlich mehr Besuche als Starts?</b> </td> 
-   <td colname="col2"> <p> Wenn die Option "Neuen Besuch beim Start starten"aktiviert ist, gilt der Timeout weiterhin. Wenn ein Benutzer die App also zehn Minuten lang mit einer Pause von einer Minute zwischen den einzelnen Aktionen verwendet, beginnt ein neuer Besuch beim Start und neun weitere Besuche werden erstellt, sobald der Besuch beendet ist. Um Starts und Besuche bei Verwendung der Option "Neuen Besuch beim Start starten"so nah wie möglich zu halten, sollten Sie einen Timeout verwenden, der länger ist als der im SDK festgelegte Sitzungs-Timeout. </p> </td> 
+   <td colname="col2"> <p> Wenn „Bei Start neuen Besuch beginnen“ aktiviert wird, gilt der Timeout nach wie vor. Wenn ein Benutzer also die App zehn Minuten lang mit einminütigen Pausen zwischen den einzelnen Aktionen verwendet, beginnt bei jedem Besuch ein neuer Start und dann werden neun zusätzliche Besuche erstellt, wenn es beim aktuellen Besuch zu einem Timeout kommt. Damit Starts und Besuche bei der Verwendung der Option „Bei Start neuen Besuch beginnen“ so nahe beieinander sind wie möglich, sollten Sie einen längeren Timeout als den im SDK festgelegten Sitzungstimeout verwenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Ich habe „Bei Start neuen Besuch beginnen“ festgelegt und einen längeren als den in meinem SDK festgelegten Timeout eingestellt. Warum habe ich immer noch wesentlich weniger Starts als Besuche?</b> </td> 
-   <td colname="col2"> <p> Wenn der Timeout höher als der im SDK festgelegte Wert ist, versendet Ihre App höchstwahrscheinlich im Hintergrund Treffer und diese Treffer werden als neue Besuche aufgezeichnet. Dies können Sie prüfen, indem Sie die Dimension „Art des Treffers“ auf die übergeordnete Report Suite anwenden, um festzustellen, ob es Hintergrund-Treffer gibt. </p> <p> <p>Hinweis: Zwischen Hintergrund- und Vordergrundtreffern wird nur in Version 4.13.6 und späteren Versionen des SDK unterschieden. Wenn Sie eine frühere Version verwenden, werden alle Treffer als Vordergrundtreffer angezeigt. Wenn Sie die richtige Version des SDK verwenden, sollten Sie die Einstellung "Hintergrundtreffer am Starten eines neuen Besuchs verhindern"aktivieren. </p> </p> <p> <p>Hinweis: Wenn Sie die veraltete Verarbeitung von Hintergrundtreffern in der Admin Console deaktiviert haben, werden diese nicht in der übergeordneten Report Suite, sondern in der Virtual Report Suite angezeigt. </p> </p> </td> 
+   <td colname="col2"> <p> Wenn der Timeout höher als der im SDK festgelegte Wert ist, versendet Ihre App höchstwahrscheinlich im Hintergrund Treffer und diese Treffer werden als neue Besuche aufgezeichnet. Dies können Sie prüfen, indem Sie die Dimension „Art des Treffers“ auf die übergeordnete Report Suite anwenden, um festzustellen, ob es Hintergrund-Treffer gibt. </p> <p> <p>Hinweis: Zwischen Hintergrund- und Vordergrundtreffern wird nur in Version 4.13.6 und späteren Versionen des SDK unterschieden. Wenn Sie eine frühere Version verwenden, werden alle Treffer als Vordergrundtreffer angezeigt. Wenn Sie die korrekte Version des SDK verwenden, sollten Sie die Einstellung „Starten neuer Besuche durch Hintergrundtreffer verhindern“ festlegen. </p> </p> <p> <p>Hinweis: Wenn Sie die veraltete Verarbeitung von Hintergrundtreffern in der Admin Console deaktiviert haben, werden diese nicht in der übergeordneten Report Suite, sondern in der Virtual Report Suite angezeigt. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Welche Version des SDK benötige ich, um Hintergrundtreffer zu verfolgen?</b> </td> 
