@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Browser-Import
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Sie können Classification-Daten über den Browser importieren (hochladen). Dies
 
 Sie können Classification-Daten über den Browser importieren (hochladen). Diese Methode beschränkt Ihre heruntergeladenen Classification-Daten auf eine einzige Report Suite.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
 ## Browser-Import von Classifications – Feldbeschreibungen {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -61,7 +61,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klicken Sie auf **[!UICONTROL Datei importieren]**.
 1. Konfigurieren Sie die Felder **[!UICONTROL Browser-Import]**.
 1. Klicken Sie auf **[!UICONTROL Datei importieren]**.
