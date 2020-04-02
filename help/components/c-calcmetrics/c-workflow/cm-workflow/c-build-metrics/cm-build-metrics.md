@@ -14,12 +14,12 @@ Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie D
 
 Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
 
-* Öffnen Sie ein Projekt in Analysis Workspace und klicken Sie auf **[!UICONTROL + Neu]** &gt; **[!UICONTROL Metrik erstellen]**.
-* Gehen Sie in [!DNL Analytics] zu **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Berechnete Metriken]**.
+* Öffnen Sie ein Projekt in Analysis Workspace und klicken Sie auf **[!UICONTROL + Neu]** > **[!UICONTROL Metrik erstellen]** .
+* Gehen Sie in [!DNL Analytics] zu **[!UICONTROL Komponenten]** > **[!UICONTROL Berechnete Metriken]**.
 
 * Klicken Sie oben im [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) auf **[!UICONTROL + Hinzufügen]** oder
 
-* gehen Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Berichte]**, öffnen Sie einen beliebigen Bericht und klicken Sie auf das Metriksymbol ![](assets/metrics_icon.png), um die Metrikleiste aufzurufen. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+* gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]**, öffnen Sie einen beliebigen Bericht und klicken Sie auf das Metrikensymbol ![](assets/metrics_icon.png), um die Metrikenleiste aufzurufen. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -132,7 +132,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Funktionen </p> </td> 
-   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Funktionen werden in zwei Listen aufgeteilt: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Einfach</a> (am häufigsten verwendet) und <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Erweitert</a>. </p> </td> 
+   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Funktionen werden in zwei Listen aufgeteilt:  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Einfach</a> (am häufigsten verwendet) und <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Erweitert</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Report Suite-Auswahl </p> </td> 
