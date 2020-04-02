@@ -3,7 +3,7 @@ description: Die Frequenz, mit der einem Warenkorb ein Produkt hinzugefügt wurd
 title: Zusatz zum Warenkorb
 topic: Metrics
 uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,6 +16,6 @@ Die Frequenz, mit der einem Warenkorb ein Produkt hinzugefügt wurde. Dieser Wer
 | Verwendet | Beschreibung |
 |---|---|
 | Traffic | nicht angegeben |
-| Konversion | Instanz des Ereignisses [!UICONTROL „Zusatz zum Warenkorb“]. Tritt auf, wenn dem Warenkorb ein Artikel hinzugefügt wird. |
-| Ad Hoc Analysis | Instanz des Ereignisses [!UICONTROL „Zusatz zum Warenkorb“]. Tritt auf, wenn dem Warenkorb ein Artikel hinzugefügt wird. |
+| Konversion | Instanz des Ereignisses [!UICONTROL Zusatz zum Warenkorb]. Tritt auf, wenn dem Warenkorb ein Artikel hinzugefügt wird. |
+| Ad Hoc Analysis | Instanz des Ereignisses [!UICONTROL Zusatz zum Warenkorb]. Tritt auf, wenn dem Warenkorb ein Artikel hinzugefügt wird. |
 
