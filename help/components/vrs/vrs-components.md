@@ -16,7 +16,7 @@ Virtual Report Suites können so zusammengestellt werden, dass Komponenten in An
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
-1. Gehen Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Neue Virtual Report Suite erstellen]**.
+1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Neue Virtual Report Suite erstellen]**.
 1. Wenn Sie die **[!UICONTROL Einstellungen]** festgelegt haben, klicken Sie auf die Registerkarte **[!UICONTROL Komponenten]**.
 
 1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzerdefinierte Anpassung von Komponenten virtueller Report Suites aktivieren]**:
@@ -56,12 +56,12 @@ Klicken Sie in Analysis Workspace auf das Informationssymbol für eine beliebige
 
 ![](assets/vrs-aw-renamed.png)
 
-## Komponentengruppen {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Komponentengruppen  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Mithilfe von Komponentengruppen können Sie Ihrer Virtual Report Suite stapelweise Komponenten hinzufügen. Wenn Sie beispielsweise einen Standardsatz mit spezifischen Komponenten für die mobile App-Analyse importieren möchten, wählen Sie die mobile App-Gruppe aus. Daraufhin wird der Liste „Eingeschlossen“ der Virtual Report Suite automatisch ein entsprechender Satz mit Dimensionen und Metriken (bereits umbenannt) hinzugefügt.
 
 ![](assets/vrs-comp-grp.png)
 
-## Arbeitsbereichsverhalten {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Workspace-Verhalten {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Weitere Informationen zum Kuratieren in Analysis Workspace finden Sie unter [Kuratieren und Freigeben von Projekten](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/curate.html).
