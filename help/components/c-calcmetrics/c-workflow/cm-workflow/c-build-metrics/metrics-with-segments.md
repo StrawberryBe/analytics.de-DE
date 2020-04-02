@@ -65,7 +65,7 @@ Sie können eine weitere Ebene einführen, indem Sie das Browsingverhalten der B
 
 Wenn Sie die größten Unterschiede zwischen dem Browsingverhalten der US-Besucher und der internationalen Besucher auf einen Blick sehen möchten, können Sie eine weitere Metrik erstellen, mit der die Prozentsätze voneinander abgezogen werden. Dazu können Sie die Containerfunktion verwenden, die gewissermaßen als Klammer um die zwei Metriksätze dient.
 
-1. Klicken Sie in der Arbeitsfläche [!UICONTROL Definition] auf **[!UICONTROL Hinzufügen]** &gt; **[!UICONTROL Container]**:
+1. Klicken Sie in der Arbeitsfläche [!UICONTROL Definition] auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL Container]**:
 
    ![](assets/cm_add_container.png)
 
