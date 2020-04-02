@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Informationen zu Virtual Report Suites anzeigen
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Klicken Sie auf das Symbol „i“ (Info) neben dem Namen der Report Suite, um die zugehörigen Informationen anzuzeigen.
 
-## In der Report Suite-Auswahl {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
+## In der Report Suite-Auswahl  {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
 
 Wenn Sie in der Report Suite-Auswahl neben der Virtual Report Suite auf das Info-Symbol klicken, werden folgende Informationen angezeigt:
 
