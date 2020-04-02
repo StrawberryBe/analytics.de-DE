@@ -3,7 +3,7 @@ description: Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unters
 title: Trackingcodes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -15,13 +15,13 @@ Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen K
 
 **Allgemeine Eigenschaften**
 
-* Dieser Bericht listet Daten direkt aus der [s.campaign auf](/help/implement/vars/page-vars/campaign.md)
-* Die Variable, auf der dieser Bericht basiert, ist eine [Konversionsvariable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Das heißt, sie kann über die Seitenansicht hinaus bestehen und innerhalb des angegebenen Ablaufzeitraums Metriken zugeordnet werden.
-* Umsatz ist die Standardmetrik des Berichts. Sie können diesen Standardwert im [!UICONTROL Report Suite Manager] in den [!UICONTROL Admin Tools] ändern. (**[!UICONTROL „Einstellungen bearbeiten“]**>**[!UICONTROL „Individuelle Report Suite-Einstellungen“]** > **[!UICONTROL „Standardmetriken“]**.)
+* Dieser Bericht referenziert Daten direkt in [s.campaign](/help/implement/vars/page-vars/campaign.md)
+* Die Variable, auf der dieser Bericht basiert, ist eine  [Konversionsvariable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Das heißt, sie kann über die Seitenansicht hinaus bestehen und innerhalb des angegebenen Ablaufzeitraums Metriken zugeordnet werden.
+* Umsatz ist die Standardmetrik des Berichts. Sie können diesen Standardwert im [!UICONTROL Report Suite Manager] in den [!UICONTROL Admin Tools] ändern. (**[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Individuelle Report Suite-Einstellungen]** > **[!UICONTROL Standardmetriken]**.)
 
 * Der Bericht kann sowohl als Trendansicht als auch als Rangansicht angezeigt werden.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
-* Die Berichte [!UICONTROL „Kampagnen“] und [!UICONTROL „Kreativelemente“] sind auf diesem Bericht basierende Classifications und werden automatisch mit jeder Report Suite erstellt.
+* Die Berichte [!UICONTROL Kampagnen] und [!UICONTROL Kreativelemente] sind auf diesem Bericht basierende Classifications und werden automatisch mit jeder Report Suite erstellt.
 
 * Sie können SAINT-Classifications zum Umbenennen und Konsolidieren von Zeileneinträgen in dem Bericht verwenden.
 * Sie können diesen Bericht durch die folgenden Berichte aufschlüsseln (je nach Unternehmens- und Report Suite-Einstellungen):
@@ -43,7 +43,7 @@ Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unterschiedlichen K
 
 **Reports &amp; Analytics – Eigenschaften**
 
-* Klicken Sie auf **[!UICONTROL Konversion]** >**[!UICONTROL  Kampagnen]** > **[!UICONTROL Trackingcode]**, um zu diesen Bericht zu gelangen (sofern das Menü nicht angepasst wurde).
+* Klicken Sie auf **[!UICONTROL Konversion]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Trackingcode]**, um zu diesen Bericht zu gelangen (sofern das Menü nicht angepasst wurde).
 
 * Dieser Bericht kann auch nach allen [Listenvariablen](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html) aufgeschlüsselt werden.
 * Verfügbare Metriken: Seitenansichten, Besuche und Unique Visitor.
