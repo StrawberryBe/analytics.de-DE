@@ -3,7 +3,7 @@ description: In diesen Schritten wird beschrieben, wie Sie Beitragsmetriken hinz
 title: Beitragsmetriken hinzufügen
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ In diesen Schritten wird beschrieben, wie Sie Beitragsmetriken hinzufügen.
 
 Die Beteiligung muss für Ereignisse (1–100) in den Admin Tools [aktiviert](/help/components/c-variables/c-metrics/metrics-participation.md) werden, damit Sie diese zu einem Bericht hinzufügen können.
 
-Sie können auch im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
+Sie können auch im Generator für [berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/participation_metric.html) Beitragsmetriken erstellen.
 
 1. Melden Sie sich an und navigieren Sie zu einem Konversionsbericht oder Traffic-Bericht, zu dem Sie Beitragsmetriken angefordert haben.
 1. Klicken Sie auf **[!UICONTROL Metrik hinzufügen]**.
