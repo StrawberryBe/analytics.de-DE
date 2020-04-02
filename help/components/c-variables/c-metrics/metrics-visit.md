@@ -4,7 +4,7 @@ keywords: visit
 title: Besuch
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Eine Folge von Seitenansichten während einer Sitzung. Die Besuchsmetrik wird häufig in Berichten verwendet, die die Anzahl der Besuchersitzungen in dem ausgewählten Zeitraum anzeigen.
 
-> [!NOTE] Informationen dazu, wie Besuche und Aufrufe mobiler Apps berechnet werden, finden Sie unter [Vergleich von Besuchen und Aufrufen mobiler Apps](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in der Knowledge Base.
+> [!NOTE] Informationen dazu, wie Besuche und Aufrufe mobiler Apps berechnet werden, finden Sie unter [Vergleich von Besuchen und Aufrufen mobiler Apps](https://helpx.adobe.com/de/analytics/kb/compare-visits-and-mobile-app-launches.html) in der Knowledge Base.
 
 Die Besuchsmetrik wird immer mit einem Zeitraum verknüpft. So wissen Sie, ob es sich um einen neuen Besuch handelt, wenn ein Besucher zu Ihrer Site zurückkehrt. Eine Sitzung beginnt, wenn der Benutzer auf Ihre Site zugreift, und endet in einem der folgenden Fälle:
 
@@ -34,9 +34,9 @@ Ein Besuch verläuft jedoch nicht unbedingt gleichzeitig mit einer Browsersitzun
 
 Beim Ende eines Besuchs laufen alle Variablen mit Besuchsablauf ab und werden nicht länger beibehalten. Die Metrik „Besuchnummer“ wird beim nächsten Besuch dieses Besuchers erhöht.
 
-> [!NOTE] Wenn Sie Analytics als Quelle für die Berichterstellung für Adobe Target verwenden, schlagen Sie in der [!DNL Target]-Dokumentation unter [Minimieren zu hoher Besuchs- und Besucherzahlen in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) nach.
+> [!NOTE] Wenn Sie Analytics als Quelle für die Berichterstellung für Adobe Target verwenden, schlagen Sie in der [!DNL Target]-Dokumentation unter [Minimieren zu hoher Besuchs- und Besucherzahlen in A4T](https://marketing.adobe.com/resources/help/de_DE/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) nach.
 
-Weitere Informationen finden Sie im Adobe Analytics-Implementierungshandbuch im Abschnitt zum [Identifizieren von Unique Visitors](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html).
+Weitere Informationen finden Sie im Adobe Analytics-Implementierungshandbuch im Abschnitt zum [Identifizieren von Unique Visitors](https://marketing.adobe.com/resources/help/de_DE/sc/implement/visid_overview.html).
 
 **Zeiträume**
 
