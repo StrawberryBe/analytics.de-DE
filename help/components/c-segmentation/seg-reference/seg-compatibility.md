@@ -3,7 +3,7 @@ description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Wareh
 title: Data Warehouse-Segmentkompatibilität
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
   <tr> 
    <td colname="col1"> <b>UND und ODER können uneingeschränkt kombiniert werden</b> </td> 
    <td colname="col2"> Unterstützt </td> 
-   <td colname="col3"> Einige Einschränkungen. Siehe *Hinweis* unten Tabelle. </td> 
+   <td colname="col3"> Einige Einschränkungen. Siehe *Hinweis* unter der Tabelle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Verschachtelte Behälter</b> </td> 
@@ -93,4 +93,4 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
  </tbody> 
 </table>
 
-*Hinweis: Data Warehouse unterstützt nicht alle Fälle der Verwendung eines`exclusion`oder eines`without`Containers bei der Verwendung`AND/OR`. Bei Verwendung einer solchen Kombination werden in Data Warehouse nur Segmente unterstützt, die als`A AND NOT B`,**einschließlich dieser Eigenschaft**und unter **Ausschluss dieser Eigenschaft**neu geschrieben werden können.*
+*Hinweis: Data Warehouse unterstützt nicht alle Fälle der Verwendung eines`exclusion`- oder eines`without`-Containers bei der Verwendung von`AND/OR`. Bei Verwendung einer solchen Kombination werden in Data Warehouse nur Segmente unterstützt, die als `A AND NOT B` neu geschrieben werden können (oder **dieses Merkmal einbeziehen** und **dieses Merkmal ausschließen**).*
