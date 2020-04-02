@@ -1,9 +1,9 @@
 ---
-description: Gruppiert Mobilgeräte in Kategorien wie Mobiltelefone, Tablets, E-Reader, Spielekonsolen, Fernseher, Set-Top-Boxen, Media Player und weitere hochwertige Kategorien, um Ihnen die Verteilung zwischen Mobilgerätetypen zu veranschaulichen.
+description: Gruppiert Mobilgeräte in Kategorien wie Mobiltelefone, Tablets, E-Reader, Spielekonsolen, Fernseher, Set-Top-Boxen, Media Player und weiteren hochwertigen Kategorien, um Ihnen die Verteilung zwischen Mobilgerätetypen zu veranschaulichen.
 title: Gerätetypen
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Gerätetypen
 
-Gruppiert Mobilgeräte in Kategorien wie Mobiltelefone, Tablets, E-Reader, Spielekonsolen, Fernseher, Set-Top-Boxen, Media Player und weitere hochwertige Kategorien, um Ihnen die Verteilung zwischen Mobilgerätetypen zu veranschaulichen.
+Gruppiert Mobilgeräte in Kategorien wie Mobiltelefone, Tablets, E-Reader, Spielekonsolen, Fernseher, Set-Top-Boxen, Media Player und weiteren hochwertigen Kategorien, um Ihnen die Verteilung zwischen Mobilgerätetypen zu veranschaulichen.
 
 Diese Dimension hilft auch bei der Definition von Segmenten für Telefon- und Tablet-Nutzer durch Segmentierung, wobei „Mobilgerätetyp“ identisch mit „Gerätetyp“ verwendet wird.
 
