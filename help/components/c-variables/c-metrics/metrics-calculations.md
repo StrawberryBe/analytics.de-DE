@@ -3,7 +3,7 @@ description: Metriken werden nach den Methoden „Standard“, Beitrag, „Zulet
 title: Metrikberechnungen
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,11 +31,11 @@ Metriken werden nach den Methoden „Standard“, Beitrag, „Zuletzt“ und „
   </tr> 
   <tr> 
    <td colname="col1"> Linear </td> 
-   <td colname="col2"> <p>Wenn die lineare Zuordnung ausgewählt ist, werden die Erfolgserlebnisse gleichmäßig auf alle Variablenwerte im Besuch aufgeteilt. Bei numerischen Ereignissen und bei Währungsereignissen, beispielsweise <span class="term"> Umsatz</span>, wird der Geldbetrag aufgeteilt. Bei Zählerereignissen, beispielsweise <span class="term"> Bestellungen</span>, wird jedem Variablenwert des Besuchs ein Bruchteil des Ereignisses zugewiesen. Diese Bruchteile werden bei der Berichterstellung summiert und dann auf die nächste Ganzzahl gerundet. </p> <p>Beispiel: Wenn bei einem Besuch vier Seiten aufgerufen werden, bevor ein Erfolgsereignis eintritt, erhält jede Seite eine Gutschrift von 25 % für das Ereignis. Falls die<span class="varname"> Kampagne</span> im selben Besuch zwei Werte hat, erhält jeder Kampagnenwert eine Gutschrift von 50 % für das Ereignis. </p> </td> 
+   <td colname="col2"> <p>Wenn die lineare Zuordnung ausgewählt ist, werden die Erfolgserlebnisse gleichmäßig auf alle Variablenwerte im Besuch aufgeteilt. Bei numerischen Ereignissen und bei Währungsereignissen, beispielsweise  <span class="term"> Umsatz</span>, wird der Geldbetrag aufgeteilt. Bei Zählerereignissen, beispielsweise <span class="term"> Bestellungen</span>, wird jedem Variablenwert des Besuchs ein Bruchteil des Ereignisses zugewiesen. Diese Bruchteile werden bei der Berichterstellung summiert und dann auf die nächste Ganzzahl gerundet. </p> <p>Beispiel: Wenn bei einem Besuch vier Seiten aufgerufen werden, bevor ein Erfolgsereignis eintritt, erhält jede Seite eine Gutschrift von 25 % für das Ereignis. Falls  die<span class="varname"> Kampagne</span> im selben Besuch zwei Werte hat, erhält jeder Kampagnenwert eine Gutschrift von 50 % für das Ereignis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Beitrag </td> 
-   <td colname="col2"> <p>Schreibt den Erfolg jedem Variablenwert gut, der zu einem Erfolgsereignis bei einem Besuch beigetragen hat. Diese Berechnung kann auch übergreifend auf mehrere Besuchersitzungen angewandt werden, wenn Sie besuchsübergreifende Beitragsmetriken verwenden. </p> <p>Siehe <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Beitrag</a> finden Sie weitere Informationen. </p> </td> 
+   <td colname="col2"> <p>Schreibt den Erfolg jedem Variablenwert gut, der zu einem Erfolgsereignis bei einem Besuch beigetragen hat. Diese Berechnung kann auch übergreifend auf mehrere Besuchersitzungen angewandt werden, wenn Sie besuchsübergreifende Beitragsmetriken verwenden. </p> <p>Siehe  <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Beitrag</a> finden Sie weitere Informationen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +44,7 @@ Metriken werden nach den Methoden „Standard“, Beitrag, „Zuletzt“ und „
 
 Angenommen, Ihre Site bietet eine interne Suche, die mithilfe einer Konversionsvariable (eVar) nachverfolgt wird. Der Benutzer führt mehrere interne Suchvorgänge durch und kauft dann Waren im Wert von $100 ein:
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; Kauf im Wert von 100 USD
+*`Pet`* > *`Feline`* > *`Cat`* > *`Kitten`* > $100 Einkauf
 
 Die Gutschrift wird im Bericht wie folgt zugeordnet:
 
@@ -61,31 +61,31 @@ Die Gutschrift wird im Bericht wie folgt zugeordnet:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Haustier </p> </td> 
-   <td colname="col2"> <p>100 $ </p> </td> 
-   <td colname="col3"> <p>$0 </p> </td> 
-   <td colname="col4"> <p>$25 </p> </td> 
-   <td colname="col5"> <p>100 $ </p> </td> 
+   <td colname="col2"> <p>100$ </p> </td> 
+   <td colname="col3"> <p>0$ </p> </td> 
+   <td colname="col4"> <p>25$ </p> </td> 
+   <td colname="col5"> <p>100$ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Katze </p> </td> 
-   <td colname="col2"> <p>$0 </p> </td> 
-   <td colname="col3"> <p>$0 </p> </td> 
-   <td colname="col4"> <p>$25 </p> </td> 
-   <td colname="col5"> <p>100 $ </p> </td> 
+   <td colname="col2"> <p>0$ </p> </td> 
+   <td colname="col3"> <p>0$ </p> </td> 
+   <td colname="col4"> <p>25$ </p> </td> 
+   <td colname="col5"> <p>100$ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hauskatze </p> </td> 
-   <td colname="col2"> <p>$0 </p> </td> 
-   <td colname="col3"> <p>$0 </p> </td> 
-   <td colname="col4"> <p>$25 </p> </td> 
-   <td colname="col5"> <p>100 $ </p> </td> 
+   <td colname="col2"> <p>0$ </p> </td> 
+   <td colname="col3"> <p>0$ </p> </td> 
+   <td colname="col4"> <p>25$ </p> </td> 
+   <td colname="col5"> <p>100$ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Junges Kätzchen </p> </td> 
-   <td colname="col2"> <p>$0 </p> </td> 
-   <td colname="col3"> <p>100 $ </p> </td> 
-   <td colname="col4"> <p>$25 </p> </td> 
-   <td colname="col5"> <p>100 $ </p> </td> 
+   <td colname="col2"> <p>0$ </p> </td> 
+   <td colname="col3"> <p>100$ </p> </td> 
+   <td colname="col4"> <p>25$ </p> </td> 
+   <td colname="col5"> <p>100$ </p> </td> 
   </tr> 
  </tbody> 
 </table>
