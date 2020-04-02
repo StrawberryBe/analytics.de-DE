@@ -1,8 +1,8 @@
 ---
-description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste Funktionen die Option Erweitert anzeigen wählen.
+description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste Funktionen die Option „Erweitert anzeigen“ wählen.
 title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -16,7 +16,7 @@ Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTR
 
 Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
-## Was bedeutet der Parameter „Include-Zeros“? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Was bedeutet der Parameter „Include-Zeros“?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null „nichts“, in anderen Fällen kann sie aber auch wichtig sein.
 
@@ -36,7 +36,7 @@ AND(logical_test1,[logical_test2],...)
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test1* | erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logical_test1* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 | *logical_test2* | Optional. Zusätzliche Bedingungen, die als TRUE oder FALSE ausgewertet werden sollen. |
 
 ## Ungefährer Distinct Count (Dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
@@ -51,7 +51,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | Die Dimension, für die Sie den ungefähren Distinct Count für Elemente ermitteln möchten. |
 
-## Beispielanwendungsfall {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## Beispielanwendungsfall  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
 
@@ -63,11 +63,11 @@ So könnte die „Ungefähre Kunden“-Metrik für Berichte verwendet werden:
 
 ![](assets/approx-customers.png)
 
-## Individuelle Werte überschritten {#section_9C583858A9F94FF7BA054D1043194BAA}
+## Individuelle Werte überschritten  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
+Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://marketing.adobe.com/resources/help/de_DE/reference/metrics_uniques_high_numbers.html). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
 
-## Vergleich von Count-Funktionen {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## Vergleich von Count-Funktionen  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Ungefährer Distinct Count() ist eine Verbesserung im Vergleich zu Count()- und RowCount()-Funktionen, da die dadurch erstellte Metrik in allen Dimensionsberichten verwendet werden kann, um eine ungefähre Elementanzahl für eine separate Dimension zu rendern. Beispielsweise wird eine Anzahl an Kunden-IDs in einem Bericht zu Mobilgerätetypen verwendet.
 
@@ -136,7 +136,7 @@ cdf_t( x, ∞ ) ? cdf_z( x )
 
 ## Cdf-Z {#concept_99C97ACC40A94FADBCF7393A17BC2D12}
 
-Gibt den Prozentsatz von Werten in einer Normalverteilung zurück, die einen z-Wert unter x aufweisen.
+Gibt den Prozentsatz von Werten in einer normalen Verteilung zurück, die einen z-Wert unter x aufweisen.
 
 ```
 cdf_z( -∞ ) = 0 
@@ -319,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test* | erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logical_test* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 | *[value_if_true]* | Der Wert, der zurückgegeben soll, wenn das Argument *logical_test* TRUE ergibt. (Für dieses Argument wird standardmäßig 0 verwendet, wenn es nicht angegeben wird.) |
 | *[value_if_false]* | Der Wert, der zurückgegeben soll, wenn das Argument *logical_test* FALSE ergibt. (Für dieses Argument wird standardmäßig 0 verwendet, wenn es nicht angegeben wird.) |
 
@@ -435,9 +435,9 @@ NOT(logical)
 
 | Argument | Beschreibung |
 |---|---|
-| *logisch* | erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logisch* | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 
-Bei Verwendung von NICHT müssen Sie wissen, ob die Ausdrücke (&lt;, &gt;, =, &lt;&gt; usw.) 0- oder 1-Werte zurückgeben.
+Bei Verwendung von NICHT müssen Sie wissen, ob die Ausdrücke (&lt;, >, =, &lt;> usw.) 0- oder 1-Werte zurückgeben.
 
 ## Ungleich {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -455,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test1* | erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| *logical_test1* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 | *logical_test2* | Optional. Zusätzliche Bedingungen, die als TRUE oder FALSE ausgewertet werden sollen. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -466,7 +466,7 @@ Gibt die Konstante PI (3,14159265358979) mit 15 Stellen zurück.
 PI()
 ```
 
-Die Funktion [!DNL PI] weist keine Argumente auf.
+Die Funktion [!DNL PI]weist keine Argumente auf.
 
 ## Potenzregression: Korrelationskoeffizient (Tabelle) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
@@ -680,7 +680,7 @@ TAN (metric)
 
 ## z-Transformation (Zeile) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Gibt die z-Transformation oder Normaltransformation basierend auf einer Normalverteilung zurück. Die z-Transformation ist die Anzahl der Standardabweichungen, die eine Beobachtung vom arithmetischen Mittel darstellt. Eine z-Transformation von 0 (null) gibt an, dass die Transformation mit dem arithmetischen Mittel identisch ist. Eine z-Transformation kann positiv oder negativ sein, abhängig davon, ob sie über oder unter dem arithmetischen Mittel liegt und um wie viele Standardabweichungen es sich handelt.
+Gibt die z-Transformation oder Normaltransformation basierend auf einer normalen Verteilung zurück. Die z-Transformation ist die Anzahl der Standardabweichungen, die eine Beobachtung vom arithmetischen Mittel darstellt. Eine z-Transformation von 0 (null) gibt an, dass die Transformation mit dem arithmetischen Mittel identisch ist. Eine z-Transformation kann positiv oder negativ sein, abhängig davon, ob sie über oder unter dem arithmetischen Mittel liegt und um wie viele Standardabweichungen es sich handelt.
 
 Die Gleichung für z-Transformation lautet:
 
