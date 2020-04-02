@@ -3,7 +3,7 @@ description: Zeigt eine Aufschlüsselung der Suchkeywords an.
 title: Suchkeywords
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Zeigt eine Aufschlüsselung der Suchkeywords an.
 
 >[!IMPORTANT]
 >
->Bei kostenpflichtigen und kostenlosen Suchvorgängen stellen die Suchmaschinen (in den meisten Fällen) die Suchbegriffe nicht mehr als Teil des Referrers bereit. Demzufolge klassifiziert Adobe die Google (Bing/Yahoo)-Domäne immer als Suche. Basierend auf dem Format und Inhalt der verweisenden Stelle (auch ohne Suchbegriffe) kann Adobe oftmals feststellen, dass es sich um das Ergebnis einer Suche handelt. Daher wird die Suche mit den nicht verfügbaren Suchbegriffen gezählt. [Mehr …](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Bei kostenpflichtigen und kostenlosen Suchvorgängen stellen die Suchmaschinen (in den meisten Fällen) die Suchbegriffe nicht mehr als Teil des Referrers bereit. Demzufolge klassifiziert Adobe die Google (Bing/Yahoo)-Domäne immer als Suche. Basierend auf dem Format und Inhalt der verweisenden Stelle (auch ohne Suchbegriffe) kann Adobe oftmals feststellen, dass es sich um das Ergebnis einer Suche handelt. Daher wird die Suche mit den nicht verfügbaren Suchbegriffen gezählt. [Mehr …](https://helpx.adobe.com/de/analytics/kb/keyword-unavailable.html)
 
 ## Zuordnung, Ablauf und spezielle Werte {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -62,7 +62,7 @@ Zeigt eine Aufschlüsselung der Suchkeywords an.
  </tbody> 
 </table>
 
-## Berichte – Verlauf {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Berichte – Verlauf  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Datum | Ändern |
 |---|---|
