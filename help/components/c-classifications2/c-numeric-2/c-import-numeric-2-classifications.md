@@ -1,24 +1,24 @@
 ---
-description: Die Import- und Exportdatei enthält sechs Spalten für jede Nummerisch 2 Classification.
+description: Die Import- und Exportdatei enthält sechs Spalten für jede Numerisch 2 Classification.
 subtopic: Classifications
-title: Nummerisch-2-Klassifizierungen importieren
+title: Numerisch 2 Classifications importieren
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Nummerisch-2-Klassifizierungen importieren
+# Numerisch 2 Classifications importieren
 
 >[!IMPORTANT]
 >
->Die Möglichkeit, die Classifications „Numerisch 2“ und „Datumsaktiviert“ zu importieren, wurde aus der Codebasis entfernt. Diese Änderung wird mit der Wartungsversion vom Juli 2019 wirksam. Wenn die Importdatei die Spalte „Numerisch“ oder „Datumsaktiviert“ enthält, werden diese Zellen still ignoriert und alle anderen Daten in dieser Datei werden normal importiert. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf exportiert werden und sind weiterhin in Berichten verfügbar.
+>Die Möglichkeit, die Classifications „Numerisch 2“ und „Datumsaktiviert“ zu importieren, wurde aus der Codebasis entfernt. Diese Änderung wird mit der Wartungsversion vom Juli 2019 wirksam. Wenn die Importdatei die Spalte „Numerisch“ oder „Datumsaktiviert“ enthält, werden diese Zellen still ignoriert, und alle anderen Daten in dieser Datei werden normal importiert. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf exportiert werden und sind weiterhin in Berichten verfügbar.
 
-Die Import- und Exportdatei enthält sechs Spalten für jede Nummerisch 2 Classification.
+Die Import- und Exportdatei enthält sechs Spalten für jede Numerisch 2 Classification.
 
-In den folgenden Definitionen wird davon ausgegangen, dass der Name Ihrer Nummerisch 2 Classification „MyCost“ lautet.
+In den folgenden Definitionen wird davon ausgegangen, dass der Name Ihrer Numerisch 2 Classification „MyCost“ lautet.
 
 **~MyCost:** Ein beschreibender Name für die Zeile.
 
