@@ -3,7 +3,7 @@ description: Kundenloyalität veranschaulicht die Einkaufsmuster der Kunden.
 title: Kundentreue
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Dieser Bericht gibt Aufschluss über Einkaufsmuster von Kunden, wobei vier Loyal
 * Rückkehrender Kunde
 * Loyaler Kunde
 
-Auch wenn in diesem Bericht nicht einkaufsbasierte Metriken (z. B. zu benutzerspezifischen oder Warenkorb-Ereignissen usw.) angezeigt werden können, basieren die Kategorien immer auf der Anzahl aufgegebener Bestellungen. Beispielsweise könnte ein Besucher ein benutzerspezifisches Ereignis namens „Interne Suchläufe“ zum Bericht hinzufügen. Im Zeileneintrag [!UICONTROL „Rückkehrender Kunde“] würde dann die Zahl der internen Suchläufe angezeigt, die von Kunden, die zuvor zwei Käufe getätigt haben, durchgeführt wurden – nicht aber die Anzahl der Besucher allgemein, die zwei interne Suchläufe durchgeführt haben.
+Auch wenn in diesem Bericht nicht einkaufsbasierte Metriken (z. B. zu benutzerspezifischen oder Warenkorb-Ereignissen usw.) angezeigt werden können, basieren die Kategorien immer auf der Anzahl aufgegebener Bestellungen. Beispielsweise könnte ein Besucher ein benutzerspezifisches Ereignis namens „Interne Suchläufe“ zum Bericht hinzufügen. Im Zeileneintrag [!UICONTROL Rückkehrender Kunde] würde dann die Zahl der internen Suchläufe angezeigt, die von Kunden, die zuvor zwei Käufe getätigt haben, durchgeführt wurden – nicht aber die Anzahl der Besucher allgemein, die zwei interne Suchläufe durchgeführt haben.
 
 **Verarbeitung der Kundenloyalität**
 
