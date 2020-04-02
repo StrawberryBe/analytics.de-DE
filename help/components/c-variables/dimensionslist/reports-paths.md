@@ -3,7 +3,7 @@ description: Zeigt Informationen zur Reihenfolge an, in der die Seiten Ihrer Web
 title: Pfade
 topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Pfadberichte enthalten standardmäßig umfassende und optional erweiterte Analys
 * Ihren Site-Pfadentwurf zu optimieren, um mehr Traffic auf die gewünschte Zielseite zu lenken.
 * zu identifizieren, welche Seiten statt der gewünschten Zielseiten die Besucher aufrufen.
 
-**[!UICONTROL Nächste Seite]** (oder nächste Kategorien): Bietet eine detaillierte Site-Pfad-Analyse durch die Anzeige der Seiten auf Ihrer Site, die die Besucher nach einer bestimmten Seite aufgerufen haben. Wenn Sie beispielsweise eine Auswahl und einen Bericht für Ihre gesamte Site erstellen, werden Ihnen hier die Top-10 der Landingpages angezeigt. Unter jeder der Landingpages werden darüber hinaus die fünf beliebtesten nächsten Seiten aufgeführt. Mithilfe dieser Daten können Sie erkennen, welcher Inhalt, welche Merkmale und andere Daten Ihre Besucher am ehesten dazu verleiten, durch Ihre Website zu navigieren.
+**[!UICONTROL Nächste Seite]** (oder nächste Kategorien): Bietet eine detaillierte Site-Pfad-Analyse durch die Anzeige der Seiten auf Ihrer Site, die die Besucher nach einer bestimmten Seite aufgerufen haben. Wenn Sie beispielsweise eine Auswahl und einen Bericht für Ihre gesamte Site erstellen, werden Ihnen hier die Top-10 Landingpages angezeigt. Unter jeder Landingpages werden darüber hinaus die fünf beliebtesten nächsten Seiten aufgeführt. Mithilfe dieser Daten können Sie erkennen, welcher Inhalt, welche Merkmale und andere Daten Ihre Besucher am ehesten dazu verleiten, durch Ihre Website zu navigieren.
 
 **[!UICONTROL Vorheriger Seitenfluss]** (oder Fluss anderer vorheriger Kategorien): Zeigt die zwei Stufen der am häufigsten bevorzugten Seiten an, die Besucher vor der gewählten Seite aufrufen. Der Bericht hebt auch hervor, wo die Besucher in die Site einsteigen.
 
@@ -35,7 +35,7 @@ Pfadberichte enthalten standardmäßig umfassende und optional erweiterte Analys
 
 ![](assets/fallout_graphic.png)
 
-Siehe [Fallout-Bericht](/help/components/c-variables/dimensionslist/reports-fallout.md).
+Siehe  [Fallout-Bericht](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: Hiermit können Sie Ihre vollständigen Pfade weiter in Fragmente aufschlüsseln, um die genauen Muster zu ermitteln, mit denen Sie Ihre Site optimieren können. Mit dem PathFinder-Assistenten können Sie Auswahlkriterien angeben, die für die Berichterstellung verwendet werden, damit Sie die Pfadfragmente analysieren und diejenigen abfragen können, die mit einer bestimmten Seite beginnen oder enden, oder auch solche, die mit einer Seite beginnen und mit einer anderen enden.
 
