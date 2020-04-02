@@ -3,7 +3,7 @@ description: Die Metrikenreihe zum Besucherbeitrag bietet Ihnen einen Einblick i
 title: Besucherbeitrag – Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ Die Konversion wird im Bericht wie folgt zugeordnet:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eine </p> </td> 
+   <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
    <td colname="col3"> <p>60 $ </p> </td> 
    <td colname="col4"> <p>60 $ </p> </td> 
