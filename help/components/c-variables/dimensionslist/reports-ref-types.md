@@ -3,7 +3,7 @@ description: Wenn Sie die Referrer-Sites der Besucher bei jedem Besuch verfolgen
 title: Typ der verweisenden Stelle
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen def
 
 **Suchmaschinen**: Verweisende Suchmaschinen werden aufgezeichnet, wenn Besucher eine Suchmaschine verwenden, um auf Ihre Website zuzugreifen. Der Wert für die verweisende Stelle muss für Adobe als Suchmaschine zu erkennen sein. Dieser Wert darf nicht aus einer Subdomäne bestehen, die nicht als Suchmaschine gilt ([!DNL mail.yahoo.com] ist beispielsweise keine Suchmaschine, da diese Domäne für E-Mails verwendet wird).
 
-**[!UICONTROL Soziale Netzwerke:]** Der Wert für die verweisende Stelle muss für Adobe als soziales Netzwerk erkennbar sein. Siehe die [Liste der sozialen Netzwerke](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
+**[!UICONTROL Soziale Netzwerke:]** Der Wert für die verweisende Stelle muss für Adobe als soziales Netzwerk erkennbar sein. Siehe die [Liste der sozialen Netzwerke](https://helpx.adobe.com/de/analytics/kb/list-social-networks.html).
 
 **E-Mail**: Eine Referrer-Domäne wird als auf eine E-Mail verweisende Domäne registriert, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] enthält, und zu Ihrer Site gelangen. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
 
@@ -72,7 +72,7 @@ In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen def
 * Die verweisende Stelle, der Typ der verweisenden Stelle und die verweisende Domäne werden beim ersten Treffer jedes Besuchs festgelegt, oder während eines Besuchs, wenn es sich um eine externe verweisende Stelle handelt (z. B. wenn ein Besucher Ihre Site verlässt, eine Suchmaschine verwendet und zur Site zurückkehrt, bevor der erste Besuch abläuft). Diese Werte werden gleichzeitig festgelegt und bleiben für die Dauer des Besuchs persistent.
 * Nicht alle Typen von verweisenden Stellen werden in diesem Bericht aufgelistet. Das bedeutet, dass die Besuche der gesamten Site nicht mit den Besuchen in diesem Bericht übereinstimmen.
 
-## Berichte – Verlauf {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Berichte – Verlauf  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Datum | Ändern |
 |---|---|
