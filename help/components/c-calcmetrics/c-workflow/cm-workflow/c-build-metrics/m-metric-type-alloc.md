@@ -38,7 +38,7 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 
 
 
-## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)  {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
 Im Juli 2018 wurde die Berichterstellung für die lineare Zuordnung bei berechneten Metriken in Adobe geändert. Diese Änderung betrifft Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map und die Reporting-APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Diese Änderungen treffen nur auf berechnete Metriken zu und haben keinen Einfluss auf andere Berichte, die lineare Zuordnung verwenden (z. B. den Bericht „Seiten“ in [!UICONTROL Reports &amp; Analytics]). Andere Berichte, die die lineare Zuordnung verwenden, werden weiter die aktuelle Methode zur linearen Zuordnung verwenden.
 
