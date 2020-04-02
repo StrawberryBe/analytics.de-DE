@@ -37,5 +37,5 @@ Wann sollten Metriken für das gesamte Unternehmen und wann nur für eine Benutz
 
    Neben der Metrik wird das Freigabesymbol angezeigt:  ![](assets/share_icon.png)
 
-1. Sie können nach für Sie freigegebenen Metriken filtern, indem Sie zu **[!UICONTROL Filter]** &gt; **[!UICONTROL Weitere Filter]** &gt; **[!UICONTROL Für mich freigegeben]** navigieren.
+1. Sie können nach für Sie freigegebenen Metriken filtern, indem Sie **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Für mich freigegeben]** verwenden.
 
