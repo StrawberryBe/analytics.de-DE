@@ -3,7 +3,7 @@ description: Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratier
 title: Segmente verwalten
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,14 +15,14 @@ Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratieren von Segmen
 
 Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Besitz befinden und für Sie freigegeben wurden. Benutzer auf Administratorebene sehen alle Segmente der Organisation. Dieser Überblick präsentiert die Benutzeroberfläche und die Funktionen des Segment-Managers. Sie können wie folgt auf den Segmentaufbau zugreifen
 
-* Gehen Sie zu **[!UICONTROL Analytics]** &gt; **[!UICONTROL Komponenten]** &gt; **[!UICONTROL Segmente]** in der Navigation oben.
+* **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]** in der Navigation oben.
 * öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]**.
 
 ## Anleitungsvideo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-In diesem [YouTube-Video von Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) erhalten Sie einen kurzen Überblick darüber, wie Sie den Segment-Manager einsetzen können.
+In diesem [YouTube-Video von Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) erhalten Sie einen kurzen Überblick darüber, wie Sie den Segment-Manager einsetzen können.
 
-## Benutzeroberfläche des Segment-Managers {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Benutzeroberfläche des Segment-Managers  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
