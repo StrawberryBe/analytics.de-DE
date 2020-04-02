@@ -3,7 +3,7 @@ description: 'null'
 title: Zeit pro Besuch
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,13 +28,13 @@ Die Zeit pro Besuch misst die gesamte verstrichene Zeit eines Besuchs. Es gibt s
 * **Präzise:** Jeder Dimensionswert entspricht einer anderen Anzahl von Sekunden, die einen Besuch ergeben.
 * **Zusammengefasst:** Jeder Dimensionswert entspricht einem vordefinierten Container:
    * Weniger als 1 Minute
-   * 1-5 Minuten
-   * 5-10 Minuten
-   * 30-60 Minuten
-   * 1-2 Stunden
-   * 2-5 Stunden
-   * 5-10 Stunden
-   * 10-15 Stunden
+   * 1–5 Minuten
+   * 5–10 Minuten
+   * 30–60 Minuten
+   * 1–2 Stunden
+   * 2–5 Stunden
+   * 5–10 Stunden
+   * 10–15 Stunden
    * Über 15 Stunden
 
 > [!NOTE] [Besuche](../c-metrics/metrics-visit.md) enden in der Regel nach 12 Stunden Aktivität. Besuche können jedoch 12 Stunden überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
