@@ -3,7 +3,7 @@ description: Ein Pfadbericht, der eine detaillierte Sitepfadanalyse bereitstellt
 title: Vorherige Seite
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Angenommen, Sie möchten wissen, woher die Personen kamen, die die Homepage ange
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol">„Pfade“</span> &gt; <span class="uicontrol">„Seiten“</span> &gt; <span class="uicontrol">„Vorherige Seite“</span> </p> <p>Zeigt, woher Besucher der einzelnen Seiten kamen. Wenn Sie z. B. eine Seite mit Funktion besitzen, zeigt Ihnen dieser Bericht die ersten fünf Seiten, über die Ihre Besucher zu Ihrer Funktionsseite gelangten. Dieser Bericht ermöglicht Folgendes: </p> 
+   <td colname="col2"> <p> <span class="uicontrol"> Pfade</span> &gt; <span class="uicontrol"> Seiten</span> &gt; <span class="uicontrol"> Vorherige Seite</span> </p> <p>Zeigt, woher Besucher der einzelnen Seiten kamen. Wenn Sie z. B. eine Seite mit Funktion besitzen, zeigt Ihnen dieser Bericht die ersten fünf Seiten, über die Ihre Besucher zu Ihrer Funktionsseite gelangten. Dieser Bericht ermöglicht Folgendes: </p> 
     <ul id="ul_940C3FBD466A49CFB0AC56C170997031"> 
      <li id="li_3C27174CC49D4BF7A76227BE1CD44CCC">den Weg zu identifizieren, den ein Besucher beim Einstieg in eine Seite Ihrer Website wählt. </li> 
      <li id="li_C2C472CC765C48F8AD97CAE588D8F009">zu erkennen, welche Seiten Besucher zu den wichtigen Seiten Ihrer Site leiten. </li> 
