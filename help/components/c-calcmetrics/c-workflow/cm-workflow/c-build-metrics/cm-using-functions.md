@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Mit Funktionen können Sie Daten filtern/sortieren und eine statistische Analyse vornehmen.
 
-Eine Liste aller Funktionen finden Sie unter [Grundfunktionen](/help/components/c-calcmetrics/cm-reference/cm-functions.md) und [Erweiterte Funktionen](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
+Eine Liste aller Funktionen finden Sie unter  [Grundfunktionen](/help/components/c-calcmetrics/cm-reference/cm-functions.md) und [Erweiterte Funktionen](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 > [!NOTE] Wenn Sie Funktionen in die Formel einer berechneten Metrik aufnehmen, wenden Sie immer die Funktion an, bevor Sie Metriken oder Segmente hineinziehen.
 
