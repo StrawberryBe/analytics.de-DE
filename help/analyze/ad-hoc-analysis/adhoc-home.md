@@ -2,7 +2,7 @@
 description: Einführung in Ad-hoc-Analysen
 title: Übersicht über Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -17,5 +17,5 @@ Mithilfe von Ad Hoc Analysis können Sie mit unbegrenzten Echtzeit-Besucherinfor
 ## Neue und beliebte Themen
 
 * Sie können jetzt Ihre Ad Hoc Analysis-Projekte nahtlos in Analysis Workspace-Projekte konvertieren. In der [Übersicht zum Ad Hoc Analysis Project Converter](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) finden Sie eine Anleitung dazu.
-* Sehen Sie sich den Abschnitt zu [Ad-hoc-Analysen- vs. Analyse-Arbeitsbereich](/help/analyze/analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)an: Analyse Workspace integriert einen Großteil der Ad-hoc-Analysen-Funktionen in den Browser-Workflow. Während einige Terminologie und Funktionen zwischen den Produkten unverändert bleiben, gibt es einige neue Begriffe und Ansätze zur Analyse, die in Analyse Workspace eingeführt werden.
+* Sehen Sie sich den Abschnitt zu [Ad-hoc-Analysen- vs. Analyse-Arbeitsbereich](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)an: Analyse Workspace integriert einen Großteil der Ad-hoc-Analysen-Funktionen in den Browser-Workflow. Während einige Terminologie und Funktionen zwischen den Produkten unverändert bleiben, gibt es einige neue Begriffe und Ansätze zur Analyse, die in Analyse Workspace eingeführt werden.
 * [Administration](/help/analyze/ad-hoc-analysis/c-administration.md): Erfahren Sie, wie Sie Benutzer und Beispieldaten konfigurieren.
