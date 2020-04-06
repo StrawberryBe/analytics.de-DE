@@ -3,7 +3,7 @@ description: 'null'
 title: Bereitstellen der Integration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ Um die Integration zu aktivieren, führen Sie den Konfigurationsassistenten in d
 
 Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigurationsobjekt für Ihre Webeigenschaft bereit. In vielen Fällen ist es am einfachsten, das Integrationskonfigurationsobjekt in Ihren Adobe Analytics-Bereitstellungscode aufzunehmen.
 
-> [!NOTE] Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt einfach über dieses Tool hinzufügen.
+>[!NOTE] Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt einfach über dieses Tool hinzufügen.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Download and save the **[!UICONTROL Kampyle Integration Code (JS)]** resource. Der Code sieht in etwa so aus:
@@ -61,7 +61,7 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] Protokolleinträge werden in der Regel innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt.
+>[!NOTE] Protokolleinträge werden in der Regel innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt.
 
 ![Integrations-Aktivität-Protokoll](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 Zeigen Sie Ihre Kampyle-Feedback-Berichte mit Adobe Analytics an, indem Sie innerhalb der entsprechenden Menüstruktur zur Kampyle-Berichterstellung navigieren.
 
-> [!NOTE] Berichtsdaten sollten innerhalb von 24–48 Stunden nach erfolgreicher Bereitstellung angezeigt werden, sofern die integrierten Feedback-Formulare Übermittlungen aktiv empfangen.
+>[!NOTE] Berichtsdaten sollten innerhalb von 24–48 Stunden nach erfolgreicher Bereitstellung angezeigt werden, sofern die integrierten Feedback-Formulare Übermittlungen aktiv empfangen.
 
 ![Adobe Berichte-Daten](assets/adobe_reporting_data.png)
