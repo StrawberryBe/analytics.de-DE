@@ -1,16 +1,16 @@
 ---
-description: Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Attributionsmodell angeben.
+description: Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Zuordnungsmodell angeben.
 title: Metriktyp und Attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 ---
 
 
 # Metriktyp und Attribution
 
-Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Attributionsmodell angeben.
+Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Zuordnungsmodell angeben.
 
 * [Metriktyp](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
 * [Spaltenattributionsmodell](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
@@ -22,8 +22,8 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 
 | Metriktyp | Definition |
 |---|---|
-| Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
-| Gesamt | Verwenden Sie den Gesamtwert für den Berichtszeitraum in jedem Einzelposten. Wenn eine Formel aus einer einzelnen Gesamtmetrik besteht, zeigt sie dieselbe Gesamtzahl für jeden Einzelposten an. Gesamtmetriken eignen sich für die Erstellung berechneter Metriken, die mit den Gesamtdaten der Site verglichen werden. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
+| Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik bestand, zeigt sie identische Daten an wie das nicht berechnete MetrikGegenstück. Standardmetriken sind nützlich, um errechnete Metriken zu erstellen, die für jedes einzelne Zeilenelement spezifisch sind. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
+| Gesamt | Verwenden Sie die Gesamtsumme für den Berichte in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Summenmetrik bestand, wird für jeden Zeileneintrag dieselbe Gesamtanzahl angezeigt. Summenmetriken sind nützlich, um errechnete Metriken zu erstellen, die mit den Gesamtdaten der Site verglichen werden. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
 
 ## Spaltenattributionsmodell {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
@@ -31,18 +31,18 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 >
 >Im Juli 2018 hat [!DNL Analytics] die Funktion [Attribution IQ](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/attribution.html) eingeführt, mit der die Bewertung von Zuordnungsmodellen bei berechneten Metriken geändert wurde. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
 >
->* Eine vollständige Liste der unterstützten nicht standardmäßigen Modelle und Lookback-Fenster finden Sie in der Dokumentation zu [Attribution IQ](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/attribution.html).
+>* Eine vollständige Liste der nicht standardmäßigen Zuordnungsmodelle und der unterstützten Lookback-Fenster finden Sie in der [Zuordnungs-IQ](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/attribution.html) -Dokumentation.
 >* Die Zuordnungsmodelle „Marketing-Kanal – Letztkontakt“ und „Marketing-Kanal – Erstkontakt“ werden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle werden nicht veraltet sein, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen.)
->* Darüber hinaus wird die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an den berechneten Metriken betrifft Analysis Workspace, [!UICONTROL Reports &amp; Analytics], die Reporting-API, Report Builder und Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Darüber hinaus wird die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an den berechneten Metriken betrifft Analysis Workspace, Reports &amp; Analytics, die Reporting-API, Report Builder und Ad Hoc Analysis. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 >
 
 
 
-## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)  {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018) 
 
-Im Juli 2018 wurde die Berichterstellung für die lineare Zuordnung bei berechneten Metriken in Adobe geändert. Diese Änderung betrifft Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map und die Reporting-APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Diese Änderungen treffen nur auf berechnete Metriken zu und haben keinen Einfluss auf andere Berichte, die lineare Zuordnung verwenden (z. B. den Bericht „Seiten“ in [!UICONTROL Reports &amp; Analytics]). Andere Berichte, die die lineare Zuordnung verwenden, werden weiter die aktuelle Methode zur linearen Zuordnung verwenden.
+Im Juli 2018 wurde die Berichterstellung für die lineare Zuordnung bei berechneten Metriken in Adobe geändert. Diese Änderung betrifft Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map und die Reporting-APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Diese Änderungen treffen nur auf berechnete Metriken zu und haben keinen Einfluss auf andere Berichte, die lineare Zuordnung verwenden (z. B. den Bericht „Seiten“ in Reports &amp; Analytics). Andere Berichte, die eine lineare Zuordnung verwenden, verwenden weiterhin die vorhandene Methode der linearen Zuordnung.
 
-Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit linearer Zuordnung beim Reporting ändern:
+Das folgende Beispiel zeigt, wie sich berechnete Metriken mit linearer Zuordnung im Berichte ändern:
 
 <table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
  <thead> 
@@ -59,7 +59,7 @@ Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Eingereichte Daten </p> </td> 
+   <td colname="col1"> <p>Daten gesendet in </p> </td> 
    <td colname="col2"> PROMO A </td> 
    <td colname="col3"> – </td> 
    <td colname="col4"> PROMO A </td> 
@@ -69,7 +69,7 @@ Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit 
    <td colname="col8"> 10$ </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Letztkontakt-eVar </p> </td> 
+   <td colname="col1"> <p>Letztkontakt eVar </p> </td> 
    <td colname="col2"> PROMO A </td> 
    <td colname="col3"> PROMO A </td> 
    <td colname="col4"> PROMO A </td> 
@@ -79,7 +79,7 @@ Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit 
    <td colname="col8"> 10$ </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Erstkontakt-eVar </p> </td> 
+   <td colname="col1"> <p>First Touch eVar </p> </td> 
    <td colname="col2"> PROMO A </td> 
    <td colname="col3"> PROMO A </td> 
    <td colname="col4"> PROMO A </td> 
@@ -101,194 +101,29 @@ Im folgenden Beispiel soll illustriert werden, wie sich berechnete Metriken mit 
  </tbody> 
 </table>
 
-In diesem Beispiel wurden die Werte A, B und C in eine Variable für die Treffer 1, 3, 4 und 6 gesendet, bevor ein Kauf in Höhe von 10 USD bei Treffer 7 getätigt wurde. In der zweiten Zeile werden dieses Werte bei Treffern auf Grundlage von Letztkontaktbesuchen gespeichert. In der dritten Zeile wird das Speichern auf Grundlage des Erstkontaktbesuchs dargestellt. Zu guter Letzt stellt die letzte Zeile dar, wie Daten aus einer Eigenschaft aufgezeichnet würden, bei denen kein Speichern vorgesehen ist.
+In diesem Beispiel wurden die Werte A, B und C bei Treffern 1, 3, 4 und 6 in eine Variable gesendet, bevor ein Kauf im Wert von 10 USD bei Treffer 7 erfolgte. In der zweiten Zeile bleiben diese Werte bei einem Besuch mit Last Touch über Treffer hinweg erhalten. Die dritte Zeile zeigt die Persistenz eines First Touch-Besuchs. Schließlich wird in der letzten Zeile veranschaulicht, wie Daten für eine Eigenschaftsvariable ohne Persistenz aufgezeichnet werden.
 
-**Zusammenfassung der Funktionsweise der linearen Zuordnung vor Juli 2018**
+## Funktionsweise der linearen Zuteilung vor Juli 2018
 
-Vor dem 19. Juli 2018 wurde die lineare Attribution berechnet, nachdem die Erst- bzw. Letztkontakt-Persistenz bereits erfolgt war. Gemäß dem Letztkontakt-eVar wurden die 10 USD daher wie folgt verteilt: A = 10 x (3/6) = 5 USD, B = 10 x (2/6) = 3,33 USD, C = 10 x (1/6) = 1,67 USD.
+Vor dem 19. Juli 2018 wurde die lineare Attribution berechnet, nachdem die Erst- bzw. Letztkontakt-Persistenz bereits erfolgt war. Dies bedeutete, dass für die oben genannte &quot;last touch&quot;-eVar die 10 USD wie folgt verteilt würden: A = 10 * (3/6) = $5, B = 10 * (2/6) = $3.33, C = 10 * (1/6) = $1.67.
 
-Gemäß dem oberen Erstkontakt-eVar würden alle 10 USD-Beträge zu A gegeben. Für die Eigenschaft: A = 10 x (2/4) = 5 USD, B = 10 x (1/4) = 2,50 USD und C = 10 x (1/4) = 2.50 USD. Um die frühere Funktionsweise der linearen Zuordnung zusammenzufassen:
+Für die oben genannte First Touch eVar würden alle $10 an A übergeben. Für die Eigenschaftsvariable: A = 10 * (2/4) = 5, B = 10 * (1/4) = 2,50 $ und C = 10 * (1/4) = 2,50 $. So fassen Sie die lineare Zuordnung wie zuvor zusammen:
 
-| Werte | Aktueller Letztkontakt-eVar | Aktueller Erstkontakt-eVar | Aktuelle Eigenschaft |
+| Werte | Aktuelle Letztkontakt-eVar | Aktuelle eVar für Erstkontakt | Aktuelle Eigenschaft |
 |---|---|---|---|
 | PROMO A | 5,00$ | 10,00$ | 5,00$ |
 | PROMO B | 3,33$ | 0$ | 2,50$ |
 | PROMO C | 1,67$ | 0$ | 2,50$ |
 | Gesamt | 10,00$ | 10,00$ | 10,00$ |
 
-**Zusammenfassung der Funktionsweise der linearen Zuordnung ab 19. Juli 2018**
+**Zusammenfassung der Funktionsweise der linearen Zuweisung zum 19. Juli 2018**
 
-Nach dem 19. Juli wurde dieses Verhalten in berechneten Metriken korrigiert. Statt die gespeicherten Werte aufgrund von Letzt- bzw. Erstkontakt zu verwenden, verwendet [!DNL Analytics] nur die Werte, die übertragen wurden (erste Zeile der Tabelle). Daher haben die Dimensions-Zuordnungseinstellungen keinen Einfluss mehr darauf, wie die lineare Zuordnung berechnet wird (d. h. Eigenschaften und eVars werden gleich behandelt), und die Ergebnisse spiegeln wider, was ursprünglich übertragen wurde, statt der möglicherweise gespeicherten Erst- bzw. Letztkontaktwerte. In allen drei Fällen gilt dann: A = 10 x (2/4) = 5 USD, B = 10 x (1/4) = 2,50 USD und C = 10 x (1/4) = 2,50 USD.
+Nach dem 19. Juli haben wir dieses Verhalten in berechneten Metriken korrigiert. Statt die gespeicherten Werte aufgrund von Letzt- bzw. Erstkontakt zu verwenden, verwendet [!DNL Analytics] nur die Werte, die übertragen wurden (erste Zeile der Tabelle). Daher haben die Dimensions-Zuordnungseinstellungen keinen Einfluss mehr darauf, wie die lineare Zuordnung berechnet wird (d. h. Eigenschaften und eVars werden gleich behandelt), und die Ergebnisse spiegeln wider, was ursprünglich übertragen wurde, statt der möglicherweise gespeicherten Erst- bzw. Letztkontaktwerte. So, in allen drei Fällen, A = 10 * (2/4) = 5, B = 10 * (1/4) = 2,50 $ und C = 10 * (1/4) = 2,50 $.
 
-| Werte | Neuer Letztkontakt-eVar | Neuer Erstkontakt-eVar | Neue Eigenschaft |
+| Werte | Neue Letztkontakt-eVar | Neue eVar für Erstkontakt | Neue Eigenschaft |
 |---|---|---|---|
 | PROMO A | 5,00$ | 5,00$ | 5,00$ |
 | PROMO B | 2,50$ | 2,50$ | 2,50$ |
 | PROMO C | 2,50$ | 2,50$ | 2,50$ |
 | Gesamt | 10,00$ | 10,00$ | 10,00$ |
-
-<!-- 
-
-<p>Additionally, as part of this change, [!DNL Analytics] is <b>changing how multiple sequential successes</b> are treated. In the following example, 7 hits occurred in the same visit with two orders, one $10 order on hit 4, and one $5 order on hit 7: </p> 
-<table id="table_4647AA466D1447F6961DDC10468FCCE1"> 
- <tgroup cols="8">
-  <colspec colnum="1" colname="col1" colwidth="1.00*" />
-  <colspec colnum="2" colname="col2" colwidth="1.04*" />
-  <colspec colnum="3" colname="col3" colwidth="1.02*" />
-  <colspec colnum="4" colname="col4" colwidth="1.02*" />
-  <colspec colnum="5" colname="col5" colwidth="1.03*" />
-  <colspec colnum="6" colname="col6" colwidth="1.02*" />
-  <colspec colnum="7" colname="col7" colwidth="1.02*" />
-  <colspec colnum="8" colname="col8" colwidth="1.03*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> </th> 
-    <th colname="col2" class="entry"> Hit 1 </th> 
-    <th colname="col3" class="entry"> Hit 2 </th> 
-    <th colname="col4" class="entry"> Hit 3 </th> 
-    <th colname="col5" class="entry"> Hit 4 </th> 
-    <th colname="col6" class="entry"> Hit 5 </th> 
-    <th colname="col7" class="entry"> Hit 6 </th> 
-    <th colname="col8" class="entry"> Hit 7 </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> <p>Data Sent In </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> - </td> 
-    <td colname="col4"> PROMO B </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> - </td> 
-    <td colname="col7"> PROMO C </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Last Touch eVar </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> PROMO A </td> 
-    <td colname="col4"> PROMO B </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> PROMO B </td> 
-    <td colname="col7"> PROMO C </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>First Touch eVar </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> PROMO A </td> 
-    <td colname="col4"> PROMO A </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> PROMO A </td> 
-    <td colname="col7"> PROMO A </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Example prop </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> - </td> 
-    <td colname="col4"> PROMO A </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> - </td> 
-    <td colname="col7"> PROMO C </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table> 
-<p> </p> 
-<p>Currently (<b>prior to July 19, 2018</b>), linear attribution would carry forward past the initial conversion and persist into the second conversion </p> 
-<ul id="ul_FD09813B59F04FF2A96A70BBE0A8F349"> 
- <li id="li_2EC965DDAE334C1795530F7C6F1674C5">In our first-touch eVar example, the total revenue for each promotion would be calculated using the promos prior to conversion on hit 4 for revenue on hit 4, but all promos for the conversion on hit 7. </li> 
- <li id="li_687C03C4B0A941AA800084F324A95FD6">In our last-touch eVar example, this would be: A = (2/3) * 10 + (2/5) * 5 = $8.66, B = (1/3) * 10 + (2/5) * 5 = $5.33, C = (1/5) * 5 = $1.00. In our FT eVar example: A = (3/3) * 10 + (5/5) * 5 = $15.00, and for the prop: A = (1/2) * 10 + (1/3) * 5 = $6.66, B = (1/2) * 10 + (1/3) * 5 = $6.66, and C = (1/3) * 5 = $1.66. </li> 
-</ul> 
-<p>Resulting in a distribution as follows: </p> 
-<table id="table_6A066E602BF641B0BD4B175EE9753C6E"> 
- <tgroup cols="4">
-  <colspec colnum="1" colname="col1" colwidth="*" />
-  <colspec colnum="2" colname="col2" colwidth="*" />
-  <colspec colnum="3" colname="col3" colwidth="*" />
-  <colspec colnum="4" colname="col4" colwidth="*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> Values </th> 
-    <th colname="col2" class="entry"> Current Last Touch eVar </th> 
-    <th colname="col3" class="entry"> Current First Touch eVar </th> 
-    <th colname="col4" class="entry"> Current Prop </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> PROMO A </td> 
-    <td colname="col2"> $8.66 </td> 
-    <td colname="col3"> $15.00 </td> 
-    <td colname="col4"> $6.66 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO B </td> 
-    <td colname="col2"> $5.33 </td> 
-    <td colname="col3"> $0.00 </td> 
-    <td colname="col4"> $6.66 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO C </td> 
-    <td colname="col2"> $1.00 </td> 
-    <td colname="col3"> $0.00 </td> 
-    <td colname="col4"> $1.66 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> Total </td> 
-    <td colname="col2"> $15.00 </td> 
-    <td colname="col3"> $15.00 </td> 
-    <td colname="col4"> $15.00 </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table> 
-<p> </p> 
-<p><b>After July 19, 2018</b>, [!DNL Analytics] will treat each sequence of conversions independently, meaning linear attribution will no longer carry forward from one conversion to another. In the previous example, attribution will always be treated the same way (regardless of the eVar allocation settings as stated above) and will be calculated as follows: A = (1/2) * 10 = $5, B = (1/2) * 10 = $5, and C = (1/1) * 5 = $5. To summarize: </p> 
-<table id="table_2D39CCD158BF488EA404324DF50B9579"> 
- <tgroup cols="4">
-  <colspec colnum="1" colname="col1" colwidth="*" />
-  <colspec colnum="2" colname="col2" colwidth="*" />
-  <colspec colnum="3" colname="col3" colwidth="*" />
-  <colspec colnum="4" colname="col4" colwidth="*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> Values </th> 
-    <th colname="col2" class="entry"> New Last Touch eVar </th> 
-    <th colname="col3" class="entry"> New First Touch eVar </th> 
-    <th colname="col4" class="entry"> New Prop </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> PROMO A </td> 
-    <td colname="col2"> $5.00 </td> 
-    <td colname="col3"> $5.00 </td> 
-    <td colname="col4"> $5.00 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO B </td> 
-    <td colname="col2"> $5.00 </td> 
-    <td colname="col3"> $5.00 </td> 
-    <td colname="col4"> $5.00 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO C </td> 
-    <td colname="col2"> $5.00 </td> 
-    <td colname="col3"> $5.00 </td> 
-    <td colname="col4"> $5.00 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> Total </td> 
-    <td colname="col2"> $15.00 </td> 
-    <td colname="col3"> $15.00 </td> 
-    <td colname="col4"> $15.00 </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table>
-
- -->
 
