@@ -3,7 +3,7 @@ description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ Wenn Sie einen Workspace zum ersten Mal öffnen, sind Vorlagen in der linken Lei
 
 Sie können diese vorausgefüllten Vorlagen unverändert verwenden oder sie an Ihre Anforderungen anpassen (z. B. durch Hinzufügen oder Ersetzen von Metriken oder Visualisierungen) und unter einem neuen Namen speichern.
 
-[Standardvorlagen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Standardvorlagen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
 Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten.
 
@@ -106,7 +106,7 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 
 ### Personen
 
-> [!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html) verfügbar.
+>[!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/de_DE/mcdc/mcdc-people.html) verfügbar.
 
 Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um eine deduplizierte Version der Metrik &quot;Individuelle Besucher&quot;handelt. Die Metrik &quot;Personen&quot;gibt Aufschluss darüber, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mit der Vorlage können Sie
 
@@ -122,7 +122,7 @@ Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um ei
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-Mit dieser Vorlage können Sie wichtige geräteübergreifende Leistungsdaten anzeigen. Sie steht nur Kunden zur Verfügung, die Zugriff auf [geräteübergreifende Analysen](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) haben.
+Mit dieser Vorlage können Sie wichtige geräteübergreifende Leistungsdaten anzeigen. Sie steht nur Kunden zur Verfügung, die Zugriff auf [geräteübergreifende Analysen](https://docs.adobe.com/content/help/de-DE/analytics/components/cda/cda-home.html) haben.
 
 * **Besondere Anmerkung für die Mitglieder des Kooperationdiagramms**: Zeigt, welcher Teil Ihrer Report Suite Besucher in Regionen enthält, in denen das Co-op-Diagramm unterstützt wird, und in Regionen, in denen es nicht unterstützt wird.
 * **Identifizierung der Benutzer**: Zeigt, wie oft Besucher Ihrer Site anhand von geräteübergreifenden Analysen identifiziert werden.
