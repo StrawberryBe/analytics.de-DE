@@ -1,8 +1,8 @@
 ---
 title: Dynamische Variablen
 description: Kopieren Sie Variablen, ohne die Bildanforderungslänge zu erhöhen.
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Dynamische Variablen unterstützen Abfragezeichenfolgenparameter oder HTTP-Heade
 
 Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch die Abfragezeichenfolge oder den HTTP-Header-Wert in Ihre Report Suite. Diese Aktion erfolgt vor jeder anderen Verarbeitung, einschließlich Verarbeitungsregeln und VISTA-Regeln.
 
-> [!TIP] Achten Sie beim Kopieren von Variablen auf maximale Zeichenbeschränkungen. Wenn Sie z. B. `eVar1` nach `prop1` kopieren, kann `prop1` einen abgeschnittenen Wert haben, da sie eine 100-Byte-Grenze hat (während `eVar1` eine 255-Byte-Grenze hat).
+>[!TIP] Achten Sie beim Kopieren von Variablen auf maximale Zeichenbeschränkungen. Wenn Sie z. B. `eVar1` nach `prop1` kopieren, kann `prop1` einen abgeschnittenen Wert haben, da sie eine 100-Byte-Grenze hat (während `eVar1` eine 255-Byte-Grenze hat).
 
 ## Dynamische Variablen in Adobe Experience Platform Launch
 
@@ -25,9 +25,9 @@ Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zei
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Klicken Sie [!UICONTROL Actions]unter &quot;auf eine bestehende [!UICONTROL Adobe Analytics - Set Variables] Aktion&quot;oder auf das Symbol &quot;+&quot;.
+5. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und [!UICONTROL Action Type] auf [!UICONTROL Set Variables].
 6. Suchen Sie den gewünschten Dimensionswert.
 
 Platzieren Sie das Präfix der dynamischen Variablen in das Textfeld, gefolgt vom Abfragezeichenfolgenparameter oder dem HTTP-Header, auf den Sie verweisen möchten. Standardmäßig ist das dynamische Variablenpräfix `D=`.
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] Dynamische Variablen werden beim Debugging Ihrer Implementierung als Zeichenfolgen angezeigt. Die Werte werden Server-seitig von Adobe-Datenerfassungs-Servern kopiert.
+>[!NOTE] Dynamische Variablen werden beim Debugging Ihrer Implementierung als Zeichenfolgen angezeigt. Die Werte werden Server-seitig von Adobe-Datenerfassungs-Servern kopiert.
