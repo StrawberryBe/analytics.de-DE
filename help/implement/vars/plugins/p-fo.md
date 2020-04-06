@@ -1,48 +1,48 @@
 ---
-title: p_fo (nur Seite zuerst)
+title: p_fo (Page First Only (nur einmal pro Seite))
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe-Plug-in: p_fo (nur Seite zuerst)
+# Adobe-Plug-in: p_fo (Page First Only (nur einmal pro Seite))
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Das `p_fo` Plug-In ist ein Dienstprogramm, das prüft, ob ein bestimmtes JavaScript-Objekt vorhanden ist. Wenn das Objekt nicht vorhanden ist, erstellt das Plug-In das Objekt und gibt es zurück `true`. Wenn das JavaScript-Objekt bereits auf der Seite vorhanden ist, wird es zurückgegeben `false`. Dieses Plug-in ist nützlich, um Code exakt einmal auf einer Seite auszuführen. Einige andere Plug-Ins setzen für die Verwendung dieses Codes voraus. Dieses Plug-in ist nicht erforderlich, wenn Sie sich nicht darüber Gedanken machen, wie oft Code auf einer Seite ausgeführt wird, oder wenn Sie keine abhängigen Plug-ins verwenden.
+Das `p_fo`-Plug-in ist ein Dienstprogramm, das prüft, ob ein bestimmtes JavaScript-Objekt vorhanden ist. Wenn das Objekt nicht vorhanden ist, erstellt das Plug-in das Objekt und gibt `true` zurück. Wenn das JavaScript-Objekt bereits auf der Seite vorhanden ist, gibt es `false` zurück. Dieses Plug-in ist nützlich, um Code exakt einmal auf einer Seite auszuführen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht daran interessiert sind, wie oft Code auf einer Seite ausgeführt wird, oder wenn Sie keine abhängigen Plug-ins verwenden.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
-   * Aktionstyp: Initialize p_fo
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: p_fo initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,21 +51,21 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `p_fo` Methode verwendet die folgenden Argumente:
+Die `p_fo`-Methode verwendet die folgenden Argumente:
 
-* **on** (erforderlich, Zeichenfolge): Der Name des JavaScript-Objekts, das vom Plug-In erstellt wird, wenn das Objekt noch nicht auf der Seite vorhanden ist.
+* **on** (erforderlich, Zeichenfolge): Der Name des JavaScript-Objekts, das vom Plug-in erzeugt wird, wenn das Objekt noch nicht auf der Seite vorhanden ist.
 
-Wenn das Objekt noch nicht vorhanden ist, gibt diese Methode das Objekt zurück `true` und erstellt es. Wenn das Objekt bereits vorhanden ist, gibt diese Methode zurück `false`.
+Wenn das Objekt noch nicht vorhanden ist, gibt diese Methode `true` zurück und erzeugt das Objekt. Wenn das Objekt bereits vorhanden ist, gibt diese Methode `false` zurück.
 
 ## Beispielaufrufe
 
 ### Beispiel 1
 
-Der folgende Code prüft, ob das Objekt &quot;myobject&quot;auf der Seite vorhanden ist.  Wenn das Objekt &quot;myobject&quot;nicht vorhanden ist, erstellt der Code das Objekt &quot;myobject&quot;und gibt den Wert &quot;true&quot;zurück.  Daher wird der Code innerhalb der bedingten Anweisung (z. B. Console.log(&#39;hello&#39;);) ausgeführt.
+Der folgende Code prüft, ob das Objekt „myobject“ auf der Seite vorhanden ist.  Wenn das Objekt „myobject“ nicht vorhanden ist, erzeugt der Code das Objekt „myobject“ und gibt den Wert „true“ zurück.  Daher wird der Code innerhalb der bedingten Anweisung (z. B. „Console.log(&#39;hello&#39;);“) ausgeführt.
 
-Wenn hingegen das Objekt &quot;myobject&quot;bereits vorhanden ist, wenn der Aufruf p_fo erfolgt, gibt die Funktion p_fo den Wert false zurück und die bedingte Anweisung wird daher als false betrachtet.  In diesem Fall wird der Code innerhalb der bedingten Anweisung nicht ausgeführt.
+Wenn hingegen das Objekt „myobject“ bereits vorhanden ist, wenn p_fo aufgerufen wird, gibt die p_fo-Funktion den Wert „false“ zurück und die bedingte Anweisung wird daher als „false“ betrachtet.  In diesem Fall wird der Code innerhalb der bedingten Anweisung nicht ausgeführt.
 
 ```javascript
 if(s.p_fo("myobject"))
@@ -74,15 +74,15 @@ if(s.p_fo("myobject"))
 }
 ```
 
-**HINWEIS:** Jedes Mal, wenn ein neues Seitenobjekt/ein neues DOM geladen wird (oder die aktuelle Seite erneut geladen wird), ist das im on-Argument angegebene Objekt nicht mehr vorhanden. Daher gibt das p_fo-Plug-in nach dem ersten Laden der Seite erneut true zurück, wenn es ausgeführt wird.
+**HINWEIS:** Jedes Mal, wenn ein neues Seitenobjekt/DOM geladen wird (oder die aktuelle Seite erneut geladen wird), ist das im on-Argument angegebene Objekt nicht mehr vorhanden. Daher gibt das p_fo-Plug-in nach dem ersten Laden der Seite erneut „true“ zurück, wenn es ausgeführt wird.
 
 ## Versionsverlauf
 
 ### 2.0
 
-* Point Release (neu kompiliert, kleinere Codegröße).
-* Der Rückgabewerttyp wurde von integer in boolean geändert
+* Zwischenversion (neu kompiliert, kleinere Code-Größe).
+* Rückgabewerttyp von Integer (Ganzzahl) auf Boolean (Boolesch) geändert.
 
 ### 1.0
 
-* Erstes Release.
+* Erste Version.
