@@ -1,8 +1,8 @@
 ---
 title: Konversionsberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Konversionsberichte in Adobe Analytics verwenden.
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Sowohl E-Commerce-Berichte in Google Analytics als auch Produktberichte in Adobe
 
 Multi-Channel-Trichterberichte bieten zusätzliche Marketing-Kanaldaten, die über das hinausgehen, was Akquiseberichte bieten. Diese Berichte konzentrieren sich auf die Konversion der Besucher statt darauf, wie Besucher zu Ihrer Site gelangen.
 
-> [!NOTE]
+>[!NOTE]
 >
 > Die Verwendung von Multi-Channel-Berichten in Adobe Analytics erfordert sowohl die Einrichtung von Marketing-Kanälen als auch eine benutzerspezifische Implementierung, um die Produktvariable und das Kaufereignis aufzunehmen. Adobe empfiehlt die Zusammenarbeit mit einem Implementierungsberater, wenn diese Funktionen noch nicht für Ihre Report Suite konfiguriert sind.
 
