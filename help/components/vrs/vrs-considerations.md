@@ -4,8 +4,8 @@ keywords: Virtual Report Suite,VRS
 title: Virtual Report Suites und Multisuite-Tagging
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,9 +16,9 @@ Mit Virtual Report Suites werden Daten einer Report Suite angezeigt, die in Ihre
 
 In vielen Fällen können Sie Virtual Report Suites verwenden, um Multi-Suite-Tagging zu ersetzen. Durch den Wechsel zu Virtual Report Suites kann die Notwendigkeit [sekundärer Server-Aufrufe](/help/admin/c-server-call-usage/overage-overview.md) effektiv beseitigt werden. Ihre Organisation verfügt beispielsweise über 6 verschiedene Websites, von denen jede Daten an ihre eigene Report Suite sowie eine kombinierte globale Report Suite sendet. Jede Site erhält einen sekundären Server-Aufruf, einen an die Report Suite der jeweiligen Marken und einen zweiten an die globale Report Suite. Stattdessen können Sie Daten von allen Sites ausschließlich an die globale Report Suite senden und dann mehrere Virtual Report Suites verwenden, um die Marken voneinander zu trennen.
 
-Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suites ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und die Anzahl der Server-Aufrufe reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen für Virtual Report Suites. Die folgenden Richtlinien sollen Ihnen bei der Entscheidung helfen, ob auf einer globalen Report Suite erstellte Virtual Report Suites der richtige Ansatz für Sie sind.
+Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suites ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und die Anzahl der Server-Aufrufe reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen für Virtual Report Suites. Die folgenden Richtlinien helfen Ihnen bei der Entscheidung, ob die Implementierung von Virtual Report Suites, die auf einer globalen Report Suite basieren, der richtige Ansatz für Sie ist.
 
-## Richtlinien
+## Leitlinien
 
 Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an andere Administratoren von Adobe Analytics oder an Ihren Adobe-Kundenbetreuer. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
 
@@ -52,7 +52,7 @@ Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. E
 
 Stellen Sie sicher, dass die Anzahl der individuellen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele individuelle Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/c-classifications2/c-classifications.md). Sie können zum Beispiel die Klassifizierung „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
-> [!TIP] Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
+>[!TIP] Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
 
 ### Segmentierungsnuancen
 
@@ -82,7 +82,7 @@ Beispielsweise ist pro Report Suite nur ein Google DCM zulässig. Viele Unterneh
 
 Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von „Zusammenfassungsdatenquellen“ aggregierte Metriken enthalten, können sie nicht segmentiert werden. Da VRS mit Segmentierung arbeitet, sind nicht alle Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites verfügbar. Zusammenfassungsdatenquellen sind nur in der Quell-Report Suite sichtbar.
 
-> [!TIP] Datenquellen mit vollständiger Verarbeitung unterstützen die Segmentierung und können in Virtual Report Suites verwendet werden.
+>[!TIP] Datenquellen mit vollständiger Verarbeitung unterstützen die Segmentierung und können in Virtual Report Suites verwendet werden.
 
 ## Schritte, die bei der Verwendung von Virtual Report Suites zu befolgen sind
 
