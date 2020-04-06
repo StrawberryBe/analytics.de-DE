@@ -2,31 +2,31 @@
 title: s_gi()
 description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_gi
 
-Die `s_gi()` Funktion instanziiert oder findet eine Instanz von AppMeasurement nach Report Suite-ID. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt.
+Die `s_gi()`-Funktion instanziiert oder findet eine Instanz von AppMeasurement nach Report Suite-ID. AppMeasurement verfolgt jede erstellte Instanz, und die `s_gi()`-Funktion gibt die vorhandene Instanz für eine Berichtssuite zurück, falls eine solche existiert. Wenn keine Instanz vorhanden ist, wird eine neue Instanz erstellt.
 
 ## s_gi() in Adobe Experience Platform Launch
 
-Die Analytics-Erweiterung instanziiert und verwaltet das Verfolgungsobjekt für Sie. Sie können jedoch auch ein globales Verfolgungsobjekt im [!UICONTROL Library Management] Akkordeon festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
+Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Erweitern Sie das [!UICONTROL Library Management] Akkordeon und wählen Sie ein anderes Optionsfeld als [!UICONTROL Manage the library for me].
 
-Im Textfeld für globale Variable können Sie ein benutzerdefiniertes Verfolgungsobjekt festlegen. Its default value is `s`.
+Im Textfeld für globale Variablen können Sie ein benutzerdefiniertes Tracking-Objekt festlegen. Der Standardwert lautet `s`.
 
-## s_gi() in AppMeasurement und Starten des benutzerdefinierten Code-Editors
+## s_gi() in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Rufen Sie die `s_gi()` Funktion auf, um ein Verfolgungsobjekt zu instanziieren. Das einzige Argument enthält eine kommagetrennte Zeichenfolge aus Report Suite-IDs. Das Argument der Report Suite-ID ist erforderlich.
+Rufen Sie die `s_gi()`-Funktion auf, um ein Tracking-Objekt zu instanziieren. Das einzige Argument enthält eine kommagetrennte Zeichenfolge von Report Suite-IDs. Das Argument der Report Suite-ID ist erforderlich.
 
-> [!TIP] Adobe empfiehlt, die `s` Variable als Verfolgungsobjekt zu verwenden. Adobe verwendet `s` in seiner Dokumentation, Implementierungsbeispiele und Plug-ins. Sie können jedoch jede beliebige Variable verwenden, solange Sie auf Ihrer Site konsistent sind.
+>[!TIP] Adobe empfiehlt, die `s`-Variable als Tracking-Objekt zu verwenden. Adobe verwendet `s` in seiner Dokumentation, Implementierungsbeispielen und Plug-ins. Sie können jedoch jede beliebige Variable verwenden, solange Sie auf Ihrer Website konsistent sind.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] Die folgenden Abschnitte und Beispiele enthalten komplexe Implementierungsthemen. Testen Sie Ihre Implementierung gründlich und verfolgen Sie wichtige Anpassungen im [Lösungsdesign-Dokument](../../prepare/solution-design.md)Ihres Unternehmens.
+>[!CAUTION] Die folgenden Abschnitte und Beispiele enthalten komplexe Implementierungsthemen. Testen Sie Ihre Implementierung gründlich und verfolgen Sie wichtige Anpassungen im [Lösungsdesigndokument](../../prepare/solution-design.md) Ihres Unternehmens.
 
-## Verwalten mehrerer Implementierungen mit verschiedenen Verfolgungsobjekten
+## Verwalten mehrerer Implementierungen mit verschiedenen Tracking-Objekten
 
-Sie können verschiedene Daten an verschiedene Report Suites senden, wenn Sie mehrere Verfolgungsobjekte instanziieren. Diese beiden Verfolgungsobjekte funktionieren unabhängig voneinander.
+Sie können verschiedene Daten an verschiedene Report Suites senden, wenn Sie mehrere Tracking-Objekte instanziieren. Diese beiden Tracking-Objekte funktionieren unabhängig voneinander.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -58,9 +58,9 @@ s.t();
 z.t();
 ```
 
-## AppMeasurement-Variablen nach dem Überschreiben des s-Objekts wiederherstellen
+## Wiederherstellen von AppMeasurement-Variablen nach dem Überschreiben des s-Objekts
 
-Einige Werkzeuge von Drittanbietern können auch das JavaScript- `s` Objekt verwenden. Wenn Sie versehentlich das `s` Objekt auf Ihrer Site überschreiben, können Sie `s_gi` mit demselben RSID-Zeichenfolgenargument aufrufen, um alle überschriebenen Variablen und Methoden wiederherzustellen.
+Einige Drittanbieter-Tools können auch das JavaScript-`s`-Objekt verwenden. Wenn Sie versehentlich das `s`-Objekt auf Ihrer Website überschreiben, können Sie `s_gi` mit demselben RSID-Zeichenfolgenargument aufrufen, um alle überschriebenen Variablen und Methoden wiederherzustellen.
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -79,9 +79,9 @@ s = s_gi("examplersid");
 s.t();
 ```
 
-## Auf dasselbe Verfolgungsobjekt mit mehreren Variablen verweisen
+## Referenzieren desselben Tracking-Objekts mit mehreren Variablen
 
-Wenn zwei Variablen auf dieselbe `s_gi()` Funktion mit derselben Report Suite verweisen, können Sie die Variablen austauschbar verwenden.
+Wenn zwei Variablen auf dieselbe `s_gi()`-Funktion mit derselben Report Suite verweisen, können Sie die Variablen austauschbar verwenden.
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
