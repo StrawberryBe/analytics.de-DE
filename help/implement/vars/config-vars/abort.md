@@ -1,36 +1,36 @@
 ---
-title: abbrechen
-description: Die abort-Variable ist ein boolescher Wert, der verhindert, dass ein Treffer an Adobe-Datenerfassungsserver gesendet wird.
+title: abort
+description: Die Variable „abort“ ist ein boolescher Wert, der verhindert, dass ein Treffer an die Adobe-Datenerfassungs-Server gesendet wird.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# abbrechen
+# abort
 
-Die `abort` Variable ist ein boolescher Wert, der verhindern kann, dass der nächste Verfolgungsaufruf an Adobe gesendet wird.
+Die Variable `abort` ist ein boolescher Wert, der verhindern kann, dass der nächste Tracking-Aufruf an Adobe gesendet wird.
 
-## Verwenden der Variablen abort in Adobe Experience Platform Launch
+## Verwenden der abort-Variablen in Adobe Experience Platform Launch
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
 ## AppMeasurement-Syntax und benutzerdefinierter Code-Editor in Launch
 
-Die `abort` Variable ist ein boolescher Wert. Its default value is `false`.
+Die `abort`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 
-* Bei Festlegung auf `true`sendet der nächste Verfolgungsaufruf ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)) keine Daten an Adobe.
-* Wenn diese Variable auf `false` oder nicht definiert ist, hat sie keine Auswirkung.
+* Wenn auf `true` gesetzt, sendet der nächste Tracking-Aufruf ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)) keine Daten an Adobe.
+* Wenn diese Variable auf `false` gesetzt oder nicht definiert ist, hat sie keine Auswirkung.
 
 ```js
 s.abort = true;
 ```
 
-> [!NOTE] Die `abort` Variable wird nach jedem Verfolgungsaufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Verfolgungsaufrufe auf derselben Seite abbrechen müssen, setzen Sie `abort` den Wert `true` erneut.
+>[!NOTE] Die `abort`-Variable wird nach jedem Tracking-Aufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Tracking-Aufrufe auf derselben Seite abbrechen müssen, setzen Sie `abort` erneut auf `true`.
 
 ## Beispiel
 
-Die `abort` Variable kann in der [`doPlugins()`](../functions/doplugins.md) Funktion eingestellt werden, die die letzte Funktion ist, die ausgeführt wird, bevor eine Bildanforderung an Adobe gesendet wird.
+Die `abort`-Variable kann in der [`doPlugins()`](../functions/doplugins.md)-Funktion gesetzt werden. Dies ist die letzte Funktion, die ausgeführt wird, bevor eine Bildanforderung an Adobe gesendet wird.
 
 ```js
 s.doPlugins = function(s) {
@@ -41,4 +41,4 @@ s.doPlugins = function(s) {
 };
 ```
 
-Sie können die Logik zentralisieren, mit der Sie Aktivitäten identifizieren können, die Sie nicht verfolgen möchten, z. B. einige benutzerspezifische Links oder externe Links in Display-Anzeigen.
+Damit können Sie die Logik zentralisieren, mit der Sie Aktivitäten ermitteln, die Sie nicht nachverfolgen möchten, z. B. einige benutzerspezifische Links oder externe Links in Display-Anzeigen.
