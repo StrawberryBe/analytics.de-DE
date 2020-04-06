@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Classifications importer – Übersicht
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,9 +16,9 @@ Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics ho
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweisen. Adobe bietet eine Datenvorlage mit den richtigen Header-Details in einer mit Tabulatoren begrenzten Datei zum Herunterladen an. Sie können Ihre neuen Daten in diese Vorlage einfügen und dann die Datendatei über FTP in den Browser importieren.
+Die mit dem Import-Tool importierten Daten müssen in einem bestimmten Format vorliegen. Adobe bietet Ihnen die Möglichkeit, eine Datenvorlage mit allen erforderlichen Kopfzeilendetails in einer tabulatorgetrennten Datendatei herunterzuladen. Sie können Ihre neuen Daten dieser Vorlage hinzufügen und die Datendatei dann über FTP in den Browser importieren.
 
-> [!NOTE] Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
+>[!NOTE] Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 
 Unter [„Numerisch 2“-Klassifizierungen](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) finden Sie Informationen zum Hochladen von Daten mithilfe von „Numerisch 2“-Klassifizierungen.
 
