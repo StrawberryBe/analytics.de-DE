@@ -1,35 +1,35 @@
 ---
 title: cookieDomainPeriods
-description: Hilft AppMeasurement zu verstehen, welche Domäne Cookies gespeichert werden sollen, wenn die Domäne einen Punkt in ihrem Suffix hat.
+description: Hilft AppMeasurement zu verstehen, welche Domäne Cookies speichern soll, wenn Ihre Domäne einen Punkt im Suffix hat.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # fpCookieDomainPeriods
 
-Die `fpCookieDomainPeriods` Variable hilft AppMeasurement bei der Bestimmung, wo Analytics-Cookies gesetzt werden, indem sie aufruft, dass das Domänensuffix einen zusätzlichen Zeitraum enthält. Diese Variable ermöglicht es AppMeasurement, den zusätzlichen Zeitraum im Domänensuffix aufzunehmen und Cookies am richtigen Ort einzustellen. Es erbt den Wert von [`cookieDomainPeriods`](cookiedomainperiods.md), ist jedoch nach wie vor eine Best Practice, wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden.
+Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo Analytics-Cookies gesetzt werden, indem darauf hingewiesen wird, dass das Domänensuffix einen zusätzlichen Punkt enthält. Diese Variable ermöglicht es AppMeasurement, den zusätzlichen Punkt im Domänensuffix zu berücksichtigen und Cookies an der richtigen Stelle zu setzen. Sie erbt den Wert von [`cookieDomainPeriods`](cookiedomainperiods.md), ist jedoch nach wie vor eine Best Practice, wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden.
 
-* Bei Domänen wie `example.com` oder `www.example.com`muss diese Variable nicht eingestellt werden. Bei Bedarf können Sie diese Variable auf `"2"`.
-* Bei Domänen wie `example.co.uk` oder `www.example.co.jp`setzen Sie diese Variable auf `"3"`.
+* Bei Domänen wie `example.com` oder `www.example.com` muss diese Variable nicht eingestellt werden. Bei Bedarf können Sie diese Variable auf `"2"` setzen.
+* Bei Domänen wie `example.co.uk` oder `www.example.co.jp` setzen Sie diese Variable auf `"3"`.
 
-> [!IMPORTANT] Unterdomänen für diese Variable nicht berücksichtigen. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL fest `store.toys.example.com`. AppMeasurement erkennt standardmäßig, dass Cookies auch auf URLs mit vielen Subdomänen gespeichert werden `example.com`sollen.
+>[!IMPORTANT] Berücksichtigen Sie für diese Variable keine Unterdomänen. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
 
-## Erstanbieter-Domänenabschnitte beim Start der Adobe Experience Platform
+## Erstanbieter-Domänenpunkte in Adobe Experience Platform Launch
 
-Bei der Konfiguration der Adobe Analytics-Erweiterung ist &quot;Erstanbieter-Domänenzeiträume&quot;ein Feld unter dem [!UICONTROL Cookies] Akkordeon.
+„Erstanbieter-Domänenpunkte“ ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Erweitern Sie das [!UICONTROL Cookies] Akkordeon, das das [!UICONTROL First-party Domain Periods] Feld aufdeckt.
 
-Stellen Sie dieses Feld `3` nur auf Domänen ein, die einen Punkt in ihrem Suffix enthalten. Andernfalls kann dieses Feld leer gelassen werden.
+Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
-## s.fpCookieDomainPeriods in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `fpCookieDomainPeriods` Variable ist eine Zeichenfolge, die in der Regel nur für Domänen festgelegt ist, die einen Punkt in ihrem Suffix enthalten `"3"`. Der Standardwert ist `"2"`für die meisten Domänen geeignet.
+Die Variable `fpCookieDomainPeriods` ist eine Zeichenfolge, die normalerweise auf `"3"` gesetzt wird, und zwar nur bei Domänen, die einen Punkt in ihrem Suffix enthalten. Der Standardwert ist `"2"`, der für die meisten Domänen geeignet ist.
 
 ```js
 // Manually set fpCookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk
