@@ -2,8 +2,8 @@
 description: 'null'
 title: Warnhinweiserstellung
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Warnhinweiserstellung aufrufen
 
-Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
+Sie haben vier Möglichkeiten, auf den Warnhinweiserstellung zuzugreifen:
 
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Indem Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
-* Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
-* Indem Sie in einem Reports &amp; Analytics-Bericht zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
+* Gehen Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
+* Gehen Sie von einem Reports &amp; Analysen-Bericht zu **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Warnhinweise erstellen
 
@@ -35,17 +35,17 @@ Die Benutzeroberfläche der Warnhinweiserstellung ähnelt dem Segment-Manager un
 
 **Warnungsname**
 
-Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den Namen des Berichts oder den Schwellenwert einer Metrik enthalten.
+Geben Sie einen Namen für die Warnung an. Der Warnungsname kann den Namen des Berichts oder den Schwellenwert für Metriken enthalten.
 
 **Zeitgranularität**
 
 Geben Sie an, wann die Metrik überprüft werden soll: stündlich, täglich, wöchentlich oder monatlich.
 
-> [!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
+>[!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
 
 **Empfänger**
 
-Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann an einen Analyse-Benutzer, eine Analyse-Gruppe, eine E-Mail-Adresse oder eine Telefonnummer gesendet werden.
+Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Eine Warnung kann an einen Analytics-Benutzer, eine Analytics-Gruppe, eine unbearbeitete E-Mail-Adresse oder eine Telefonnummer gesendet werden.
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 * Ziehen Sie Metriken per Drag-and-Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
 
    Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
-* Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
+* Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, bevor eine Warnung eingestellt wird. Sie können diesen Wert auf einen Schwellenwert und dann auf eine der folgenden Bedingungen setzen:
 
    * Anomalie vorhanden
-   * Anomalie liegt über erwartetem Wert
-   * Anomalie liegt unter erwartetem Wert
-   * ist größer oder gleich
-   * ist kleiner oder gleich
-   * ändert sich um
+   * Anomalie höher als erwartet
+   * Anomalie niedriger als erwartet
+   * größer oder gleich
+   * kleiner oder gleich
+   * ändert sich nach
    * Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.
    Beachten Sie, dass Sie auch berechnete Metriken verwenden können.
 
 *... Mit diesen Filtern*
 
-* Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
-* Zusätzliche Filter werden mithilfe einer AND-Anweisung hinzugefügt.
+* Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie beispielsweise das Segment &quot;Nur Mobilgeräte&quot;hinzufügen, wird die Regel nur für Mobilgeräte ausgelöst.
+* Zusätzliche Filter werden mit einer AND-Anweisung hinzugefügt.
 
 **Eine Regel hinzufügen**
 
@@ -88,10 +88,10 @@ Per Klick auf das Zahnrad-Symbol können Sie UND- oder ODER-Regeln hinzufügen.
 
 ## Warnungen in der Vorschau anzeigen {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.
+Die interaktive Warnhinweis-Vorschau zeigt Ihnen, wie oft ein Warnhinweis auf der Grundlage vergangener Erfahrungen ausgelöst wird.
 
-Beispiel: Wenn Sie die Zeitgranularität auf „Stündlich“ festlegen, kann Ihnen die Vorschau verraten, dass der Warnhinweis zu einer bestimmten Metrik während der letzten 30 oder 31 Tage x-mal ausgelöst worden wäre.
+Wenn Sie beispielsweise die Zeitgranularität auf &quot;Täglich&quot;einstellen, kann Ihnen die Vorschau mitteilen, dass die Warnung während der letzten 30 oder 31 Tage für eine bestimmte Metrik x-mal ausgelöst worden wäre.
 
-Wenn Sie feststellen, dass Warnhinweise zu oft ausgelöst werden würden, können Sie den Schwellenwert im [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) anpassen.
+Wenn Sie feststellen, dass zu viele Warnungen ausgelöst wurden, können Sie den Schwellenwert im [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md)anpassen.
 
 ![](assets/alert_preview.png)
