@@ -1,8 +1,8 @@
 ---
 title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
-translation-type: ht
-source-git-commit: d7c4412feb85f4381d8811b29fc23c9c85d23555
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report
 * **Präzisere markenübergreifende Attribution:** Wenn ein Besuch auf einer Site beginnt und der Besucher dann auf eine andere Ihrer eigenen Sites klickt, bevor ein Erfolgsereignis ausgelöst wird, wird die Attribution genau erfasst. Beispiel: Ein Besucher klickt auf einen Paid Search-Link und landet auf Site A. Anschließend klickt er auf einen Link zu Site B und tätigt dort einen Kauf. Eine globale Report Suite ordnet die erworbenen Produkte korrekt der Paid Search zu.
 * **Vereinfachte Implementierung:** Da alle Marken/Sites Daten an dieselbe Report Suite senden, sind Ihre Implementierungen auf jeder Site aufeinander abgestimmt. Diese erzwungene Verwaltung stellt sicher, dass eine bestimmte Dimension oder Metrik in derselben eVar oder demselben Ereignis gespeichert wird. Administratoren, Tester, Tag-Management-Inhaber und Analysten profitieren von dieser Vereinfachung.
 
-> [!NOTE] Die Koordination einer globalen Report Suite-Implementierung ist ein großes Projekt. Adobe empfiehlt, mit einem Berater zusammenzuarbeiten, um Komplikationen und auftretende Probleme zu reduzieren.
+>[!NOTE] Die Koordination einer globalen Report Suite-Implementierung ist ein großes Projekt. Adobe empfiehlt, mit einem Berater zusammenzuarbeiten, um Komplikationen und auftretende Probleme zu reduzieren.
 
 ## Starten einer neuen Implementierung mit einer globalen Report Suite
 
