@@ -2,39 +2,39 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-Bei Sites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bestandteil von Analytics. Viele Websites, insbesondere solche, die sich über mehrere Länder erstrecken, verwenden verschiedene Währungen. Verwenden Sie die `currencyCode` Variable, um sicherzustellen, dass die Umsatzattribute der richtigen Währung entsprechen.
+Bei Websites, die Commerce verwenden, sind Umsatz und Währung ein wichtiger Bestandteil von Analytics. Viele Websites, insbesondere solche, die sich über mehrere Länder erstrecken, verwenden verschiedene Währungen. Verwenden Sie die `currencyCode`-Variable, um sicherzustellen, dass die Umsatzattribute der richtigen Währung entsprechen.
 
-Wenn `currencyCode` nicht definiert ist, werden die Währungswerte, die die Variablen- und [`products`](../page-vars/products.md) Währungswerte definieren, so behandelt, als wären sie mit der Währung der Report Suite identisch. Siehe [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) im Admin-Benutzerhandbuch, um die Währung der Report Suite anzuzeigen.
+Wenn `currencyCode` nicht definiert ist, werden die für die [`products`](../page-vars/products.md)-Variablen und die Währungsereignisse definierten Geldwerte so behandelt, als ob sie mit der Währung der Report Suite identisch wären. Informationen zur Währung einer Report Suite finden Sie unter [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) im Admin-Benutzerhandbuch.
 
-Wenn definiert `currencyCode` ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.
+Wenn `currencyCode` definiert ist und mit der Währung der Report Suite übereinstimmt, wird keine Währungsumrechnung angewendet.
 
-Wenn definiert `currencyCode` ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in Datenerfassungsservern gespeicherten Werte werden letztendlich in der Währung der Report Suite gespeichert.
+Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in Datenerfassungs-Servern gespeicherten Werte werden letztendlich in der Währung der Report Suite gespeichert.
 
-> [!IMPORTANT] Wenn ein ungültiger Wert `currencyCode` enthalten ist, wird der gesamte Treffer verworfen und führt zu Datenverlust. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
+>[!IMPORTANT] Wenn `currencyCode` einen ungültigen Wert enthält, wird der gesamte Treffer verworfen, was zu Datenverlust führt. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
 
-Diese Variable bleibt nicht zwischen Treffern bestehen. Vergewissern Sie sich, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungs-Ereignis enthält.
+Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
 
-## Währungscode beim Start der Adobe Experience Platform
+## Währungscode in Adobe Experience Platform Launch
 
-Währungscode ist ein Feld unter dem [!UICONTROL General] Akkordeon, wenn die Adobe Analytics-Erweiterung konfiguriert wird.
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Erweitern Sie das [!UICONTROL General] Akkordeon, das das [!UICONTROL Currency Code] Feld aufdeckt.
 
-Sie können entweder einen voreingestellten Währungscode oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
+Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
-## s.currencyCode in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.currencyCode in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.currencyCode` Variable ist eine Zeichenfolge mit einem aus 3 Buchstaben bestehenden Großbuchstabencode, der die Währung auf der Seite darstellt.
+Die `s.currencyCode`-Variable ist eine Zeichenfolge, die einen dreistelligen Code in Großbuchstaben enthält, der die Währung auf der Seite darstellt.
 
 ```js
 s.currencyCode = "USD";
@@ -48,7 +48,7 @@ Die folgenden Währungscodes sind gültig:
 | `AFA` | Afghanistan Afghani |
 | `ALL` | Albanien Lek |
 | `AMD` | Armenien Dram |
-| `ANG` | Niederlande Atilles Gulden |
+| `ANG` | Niederländische Antillen Gulden |
 | `AOA` | Angola Kwanza |
 | `ARS` | Argentinien Peso |
 | `AUD` | Australien Dollar |
@@ -151,14 +151,14 @@ Die folgenden Währungscodes sind gültig:
 | `MZM` | Mosambik Metical |
 | `NAD` | Namibia Dollar |
 | `NGN` | Nigeria Naira |
-| `NIO` | Nicaragua-Gold-Cordoba |
+| `NIO` | Nicaragua Gold Cordoba |
 | `NOK` | Norwegen Krone |
 | `NPR` | Nepal Rupie |
 | `NZD` | Neuseeland Dollar |
 | `OMR` | Oman Rial |
 | `PAB` | Panama Balboa |
 | `PEN` | Peru Nuevo Sol |
-| `PGK` | Papua Neuguinea Kina |
+| `PGK` | Papua-Neuguinea Kina |
 | `PHP` | Philippinen Peso |
 | `PKR` | Pakistan Rupie |
 | `PLN` | Polen Zloty |
@@ -181,7 +181,7 @@ Die folgenden Währungscodes sind gültig:
 | `SPL` | Seborga Luigino |
 | `SRD` | Suriname Dollar |
 | `SRG` | Suriname Gulden |
-| `STD` | Sao-Tome und Principe-Dobras |
+| `STD` | São Tomé und Príncipe |
 | `SVC` | El Salvador Colon |
 | `SYP` | Syrien Pfund |
 | `SZL` | Swasiland Lilangeni |
@@ -208,7 +208,7 @@ Die folgenden Währungscodes sind gültig:
 | `XAG` | Silberunzen |
 | `XAU` | Goldunzen |
 | `XCD` | Ost-Karibik Dollar |
-| `XDR` | Sonderziehungsrecht des Internationalen Währungsfonds |
+| `XDR` | Sonderziehung Internationaler Währungsfonds |
 | `XOF` | Communauté Financière Africaine Francs B |
 | `XPD` | Palladiumunzen |
 | `XPF` | Comptoirs Français du Pacifique Francs |
@@ -216,4 +216,4 @@ Die folgenden Währungscodes sind gültig:
 | `YER` | Yemen Rial |
 | `ZAR` | Südafrika Rand |
 | `ZMK` | Sambia Kwacha |
-| `ZWD` | Simbabwe-Dollar |
+| `ZWD` | Simbabwe Dollar |
