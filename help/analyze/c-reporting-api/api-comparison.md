@@ -2,7 +2,7 @@
 description: Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
 title: Vergleich der Analytics-Reporting-APIs
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
 
-> [!NOTE] In Bezug auf die Latenz kombiniert Analytics for Target (A4T) Analytics- und Target-Daten zum gleichen Treffer für die integrierte Berichterstellung. Da Analytics- und Target-Aufrufe zu unterschiedlichen Zeitpunkten stattfinden, werden Treffer vor der Verarbeitung gespeichert, um Daten aus beiden Lösungen zu sammeln. Durch diesen Prozess entsteht für alle Checkpoints eine **zusätzliche Latenz von 7 bis 10 Minuten**.
+> [!NOTE] Bezüglich der Latenz werden in Analytics für Target (A4T) die Daten für den gleichen Treffer aus Analytics und Target für eine integrierte Berichterstellung miteinander kombiniert. Da Analytics- und Target-Aufrufe zu unterschiedlichen Zeitpunkten stattfinden, werden Treffer vor der Verarbeitung gespeichert, um Daten aus beiden Lösungen zu sammeln. Durch diesen Prozess entsteht für alle Checkpoints eine **zusätzliche Latenz von 7 bis 10 Minuten**.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -47,7 +47,7 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
    <td colname="col5"> „Voll“ </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Berichtsschnittstellen</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/de_DE/reference/"  > Berichtsschnittstellen</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Echtzeitberichte in Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> Nur API </td> 
@@ -86,7 +86,7 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web-Services</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Echtzeitberichte</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream-Übersicht</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/de_DE/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
