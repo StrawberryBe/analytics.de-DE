@@ -3,8 +3,8 @@ description: Sie können in Analysis Workspace Segmente aus einem Touchpoint ers
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Segmente in der Fallout-Analyse anwenden
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segmente als Touchpoints hinzufügen und wichtige Workflows über verschiedene Segmente hinweg vergleichen.
 
-> [!IMPORTANT] Segmente, die als Checkpoints in Fallout verwendet werden, müssen einen Container verwenden, der auf einer niedrigeren Ebene als der Gesamtkontext der Fallout-Visualisierung liegt. Bei einem Besucherkontext-Fallout müssen Segmente, die als Checkpoints verwendet werden, besuchsbasierte oder Hit-basierte Segmente sein. Bei einem besuchskontextbezogenen Fallout müssen Segmente, die als Checkpoint verwendet werden, Hit-basierte Segmente sein. Wenn Sie eine ungültige Kombination verwenden, beträgt der Fallout 100 %. Wir haben eine Warnung zur Fallout-Visualisierung hinzugefügt, die angezeigt wird, wenn Sie ein inkompatibles Segment als Touchpoint hinzufügen. Bestimmte ungültige Segment-Container-Kombinationen führen zu ungültigen Fallout-Diagrammen, z. B.:
+>[!IMPORTANT] Segmente, die als Checkpoints in Fallout verwendet werden, müssen einen Container verwenden, der auf einer niedrigeren Ebene als der Gesamtkontext der Fallout-Visualisierung liegt. Bei einem Besucherkontext-Fallout müssen Segmente, die als Checkpoints verwendet werden, besuchsbasierte oder Hit-basierte Segmente sein. Bei einem besuchskontextbezogenen Fallout müssen Segmente, die als Checkpoint verwendet werden, Hit-basierte Segmente sein. Wenn Sie eine ungültige Kombination verwenden, beträgt der Fallout 100 %. Wir haben eine Warnung zur Fallout-Visualisierung hinzugefügt, die angezeigt wird, wenn Sie ein inkompatibles Segment als Touchpoint hinzufügen. Bestimmte ungültige Segment-Container-Kombinationen führen zu ungültigen Fallout-Diagrammen, z. B.:
 
 * Verwenden eines besucherbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung des Besuchers
 * Verwenden eines besucherbasierten Segments als Touchpoint innerhalb einer Fallout-Visualisierung eines Besuches
@@ -21,37 +21,37 @@ Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segme
 
 ## Erstellen eines Segments aus einem Touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Als Erstes erstellen Sie ein Segment aus einem bestimmten Touchpoint, an dem Sie interessiert sind und der sich möglicherweise lohnt, auch in andere Berichte übernommen zu werden. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint und wählen Sie dann **[!UICONTROL Segment aus Touchpoint erstellen aus]**.
+1. Als Erstes erstellen Sie ein Segment aus einem bestimmten Touchpoint, an dem Sie interessiert sind und der sich möglicherweise lohnt, auch in andere Berichte übernommen zu werden. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint und wählen Sie **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
-   Der Segment Builder wird geöffnet und enthält das vorab erstellte sequenzielle Segment, das zu dem von Ihnen ausgewählten Touchpoint passt:
+   Der Segmentaufbau wird geöffnet und vorab mit dem vordefinierten sequenziellen Segment gefüllt, das dem ausgewählten Touchpoint entspricht:
 
    ![](assets/segment-builder.png)
 
-1. Geben Sie einen Titel und eine Beschreibung für das Segment ein, und speichern Sie es.
+1. Geben Sie dem Segment einen Titel und eine Beschreibung und speichern Sie es.
 
-   Nun können Sie dieses Segment in jedem gewünschten Bericht verwenden.
+   Sie können dieses Segment jetzt in jedem gewünschten Bericht verwenden.
 
 ## Hinzufügen eines Segments als Touchpoint {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Wenn Sie zum Beispiel wissen möchten, wie der Trend bei Ihren Benutzern aus den USA aussieht und wie sich dies in der Fallout-Analyse auswirkt, ziehen Sie einfach das Segment „USA-Benutzer“ in den Trichter:
+Wenn Sie z. B. sehen möchten, wie Ihre US-Benutzer den Trend verfolgen und den Trichteranalysevorgang beeinflussen, ziehen Sie einfach das Segment &quot;US-Benutzer&quot;in den Fallout:
 
 ![](assets/segment-touchpoint.png)
 
-Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer“ auf einen anderen Checkpoint ziehen.
+Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment &quot;US-Benutzer&quot;an einen anderen Checkpoint ziehen.
 
 ## Vergleichen von Segmenten im Fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten miteinander vergleichen.
+Sie können eine unbegrenzte Anzahl von Segmenten in der Fallout-Visualisierung vergleichen.
 
-1. Wählen Sie die zu vergleichenden Segmente links in der Leiste [!UICONTROL Segmente] aus. Im vorliegenden Beispiel haben wir 2 Segmente ausgewählt: „USA-Benutzer“ und „Benutzer außerhalb der USA“.
-1. Ziehen Sie sie nach oben in die Ablegezone „Segmente“.
+1. Wählen Sie die zu vergleichenden Segmente in der [!UICONTROL Segments] Leiste auf der linken Seite aus. In unserem Beispiel haben wir 2 Segmente ausgewählt: US-Benutzer und Nicht-US-Benutzer.
+1. Ziehen Sie sie in die Dropzone Segment oben.
 
    ![](assets/segment-drop.png)
 
-1. Optional: Sie können „Alle Besuche“ als Standardcontainer belassen oder löschen.
+1. Optional: Sie können &quot;Alle Besuche&quot;als Standard-Container beibehalten oder löschen.
 
    ![](assets/seg-compare.png)
 
-1. Sie können nun den Fallout über zwei Segmente hinweg vergleichen (z. B. an welcher Stelle ein Segment eine bessere Leistung als das andere hat) oder sonstige Einblicke erhalten.
+1. Sie können nun den Trichteranalysebericht über die beiden Segmente hinweg vergleichen, z. B., wo ein Segment ein anderes übertrifft, oder andere Einblicke.
