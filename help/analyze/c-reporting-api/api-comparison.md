@@ -1,18 +1,18 @@
 ---
-description: Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
+description: Eine Vergleichstabelle für Analytics Berichte-APIs. Links zur Dokumentation finden Sie hier.
 title: Vergleich der Analytics-Reporting-APIs
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Vergleich der Analytics-Reporting-APIs
 
-Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
+Eine Vergleichstabelle für Analytics Berichte-APIs. Links zur Dokumentation finden Sie hier.
 
-> [!NOTE] Bezüglich der Latenz werden in Analytics für Target (A4T) die Daten für den gleichen Treffer aus Analytics und Target für eine integrierte Berichterstellung miteinander kombiniert. Da Analytics- und Target-Aufrufe zu unterschiedlichen Zeitpunkten stattfinden, werden Treffer vor der Verarbeitung gespeichert, um Daten aus beiden Lösungen zu sammeln. Durch diesen Prozess entsteht für alle Checkpoints eine **zusätzliche Latenz von 7 bis 10 Minuten**.
+>[!NOTE] Bezüglich der Latenz werden in Analytics für Target (A4T) die Daten für den gleichen Treffer aus Analytics und Target für eine integrierte Berichterstellung miteinander kombiniert. Da Analytics- und Zielgruppe-Aufrufe zu unterschiedlichen Zeitpunkten erfolgen, werden Treffer vor jeder Verarbeitung gespeichert, um Daten aus beiden Lösungen zu erfassen. Durch diesen Prozess wird allen Checkpoints **eine Latenz von 7-10 Minuten** hinzugefügt.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -27,29 +27,29 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Beschreibung</b> </td> 
-   <td colname="col2"> Vollständig verarbeitete, finale Daten, die für alle Analytics-Schnittstellen zur Verfügung stehen. </td> 
-   <td colname="col3"> Teilweise verarbeitete, beschränkte Metriken, die innerhalb von Sekunden nach der Erfassung verfügbar sind. </td> 
+   <td colname="col2"> Vollständig verarbeitete, finalisierte Daten, die in allen Analytics-Schnittstellen verfügbar sind. </td> 
+   <td colname="col3"> Teilweise verarbeitete, eingeschränkte Metriken, die innerhalb von Sekunden nach der Erfassung verfügbar sind. </td> 
    <td colname="col4"> Teilweise verarbeitete Trefferdaten, die innerhalb von Sekunden nach der Erfassung verfügbar sind. </td> 
-   <td colname="col5"> Vollständig verarbeitete, finale Daten, die als Grundlage für umfangreiche Datenexporte dienen. </td> 
+   <td colname="col5"> Vollständig verarbeitete, finalisierte Daten, die zum Abruf großer Datenexporte verwendet werden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latenz</a> </p> </td> 
-   <td colname="col2"> 30–90 Minuten </td> 
-   <td colname="col3"> * Sekunden – 10 Minuten </td> 
-   <td colname="col4"> Sekunden – 10 Minuten </td> 
+   <td colname="col2"> 30-90 Minuten </td> 
+   <td colname="col3"> * Sekunden - 10 Minuten </td> 
+   <td colname="col4"> Sekunden - 10 Minuten </td> 
    <td colname="col5"> 90 Minuten + </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Abschluss der Verarbeitung</b> </td> 
-   <td colname="col2"> „Voll“ </td> 
+   <td colname="col2"> Voll </td> 
    <td colname="col3"> Teilweise </td> 
    <td colname="col4"> Teilweise </td> 
-   <td colname="col5"> „Voll“ </td> 
+   <td colname="col5"> Voll </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/de_DE/reference/"  > Berichtsschnittstellen</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
-   <td colname="col3"> Echtzeitberichte in Reports &amp; Analytics, Report Builder, API </td> 
+   <td colname="col2"> Reports &amp; Analysen, ReportBuilder, API </td> 
+   <td colname="col3"> Echtzeitbericht in Reports &amp; Analysen, ReportBuilder, API </td> 
    <td colname="col4"> Nur API </td> 
    <td colname="col5"> Data Warehouse und API </td> 
   </tr> 
@@ -61,18 +61,18 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
    <td colname="col5"> Zusammenfassung </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Verarbeitung von Besucherprofilen</b> </td> 
+   <td colname="col1"> <b>Verarbeitung von Besucher Profil</b> </td> 
    <td colname="col2"> Ja </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Nein </td> 
-   <td colname="col5"> Ja </td> 
+   <td colname="col5"> Ja  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Unterstützung von Segmenten</b> </td> 
+   <td colname="col1"> <b>Unterstützt Segmente</b> </td> 
    <td colname="col2"> Ja </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Nein </td> 
-   <td colname="col5"> Ja (jedoch nur mit Data Warehouse kompatible Segmente) </td> 
+   <td colname="col5"> Ja (aber nur mit Data Warehouse kompatible Segmente) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Analytics-SKU</b> </td> 
@@ -93,6 +93,6 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
 
 **Verwandte Hilfe**
 
-* [Adobe/IO](https://www.adobe.io/) – Eine umfassende Quelle technischer Dokumentation und Tools für die Integration von Adobe-Technologien in Ihre Anwendungen.
+* [Adobe/IO](https://www.adobe.io/) - Eine umfassende Quelle für die technische Dokumentation und die Werkzeuge, die zur Integration von Adobe-Technologien in Ihre Anwendungen erforderlich sind.
 * [Data Workbench-Abfrage-API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
