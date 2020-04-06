@@ -2,47 +2,47 @@
 title: getTimeSinceLastVisit
 description: Messen Sie den Zeitraum zwischen zwei Besuchen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: getTimeSinceLastVisit
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `getTimeSinceLastVisit` Plug-in können Sie verfolgen, wie lange ein Besucher nach dem letzten Besuch zu Ihrer Site zurückkehrt.
+Mit dem `getTimeSinceLastVisit`-Plug-in können Sie verfolgen, wie lange ein Besucher nach seinem letzten Besuch gebraucht hat, um zu Ihrer Website zurückzukehren.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
-   * Aktionstyp: Initialize getTimeSinceLastVisit
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: getTimeSinceLastVisit initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,40 +57,40 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
  /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `getTimeSinceLastVisit` Methode verwendet keine Argumente. Gibt den Zeitraum zurück, der seit dem letzten Besuch des Besuchers auf der Site verstrichen ist und im folgenden Format zusammengefasst wurde:
+Die `getTimeSinceLastVisit`-Methode verwendet keine Argumente. Sie gibt die seit dem letzten Website-Besuch des Besuchers verstrichene Zeit in folgendem Format zurück:
 
-* Die Zeit zwischen 30 Minuten und einer Stunde seit dem letzten Besuch wird auf die nächste halbe Minute-Benchmark gesetzt. Beispiel, `"30.5 minutes"`, `"53 minutes"`
-* Die Zeit zwischen einer Stunde und einem Tag wird auf die nächste viertelstündige Benchmark gerundet. Beispiel, `"2.25 hours"`, `"7.5 hours"`
-* Die Zeit, die länger als ein Tag ist, wird auf den nächsten Tag gerundet. Beispiel, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
-* Wenn ein Besucher vor oder nach Ablauf von zwei Jahren noch nicht besucht wurde, wird der Wert auf `"New Visitor"`festgelegt.
+* Eine Zeit zwischen 30 Minuten und einer Stunde seit dem letzten Besuch wird auf den nächsten halbminütigen Benchmark gesetzt. Beispiel: `"30.5 minutes"`, `"53 minutes"`.
+* Eine Zeit zwischen einer Stunde und einem wird auf den nächsten viertelstündigen Benchmark gerundet. Beispiel: `"2.25 hours"`, `"7.5 hours"`.
+* Eine Zeit, die länger als ein Tag ist, wird auf den nächsten Tages-Benchmark gerundet. Beispiel: `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`.
+* Wenn ein Besucher noch nie zuvor einen Besuch gemacht hat oder die verstrichene Zeit größer als zwei Jahre ist, wird der Wert auf `"New Visitor"` gesetzt.
 
-> [!NOTE] Dieses Plug-In gibt nur einen Wert beim ersten Treffer eines Besuchs zurück.
+>[!NOTE] Dieses Plug-in gibt nur einen Wert beim ersten Treffer eines Besuchs zurück.
 
-Dieses Plug-in erstellt ein Erstanbieter-Cookie, das auf einen Unix-Zeitstempel der aktuellen Zeit `"s_tslv"` gesetzt wird. Das Cookie läuft nach zwei Jahren Inaktivität ab.
+Dieses Plug-in erzeugt ein First-Party-Cookie namens `"s_tslv"`, das auf einen Unix-Zeitstempel der aktuellen Zeit gesetzt wird. Das Cookie läuft nach zwei Jahren Inaktivität ab.
 
 ## Beispielaufrufe
 
 ### Beispiel 1
 
-Wenn ein brandneuer Besucher zur Site kommt und der folgende Code auf der ersten Seite des Besuchs ausgeführt wird ...
+Wenn ein brandneuer Besucher zur Website kommt und der folgende Code auf der ersten Seite des Besuchs ausgeführt wird ...
 
 ```javascript
 s.prop1 = s.getTimeSinceLastVisit();
 s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
 ```
 
-...Der Wert von s.prop1 wird gleich &quot;Neuer Besucher&quot;gesetzt.
+... wird der Wert von s.prop1 auf „Neuer Besucher“ gesetzt.
 
-Wenn derselbe Code nach 35 Minuten Inaktivität auf derselben Domäne ausgeführt wird, wird der Wert von s.prop1 auf &quot;35 Minuten&quot;eingestellt.
+Wenn derselbe Code nach 35 Minuten Inaktivität auf derselben Domäne ausgeführt wird, wird der Wert von s.prop1 auf „35 Minuten“ eingestellt.
 
-Wenn derselbe Code nach 4 Tagen weiterer Inaktivität auf derselben Domäne ausgeführt wird, wird der Wert von s.prop1 auf &quot;4 Tage&quot;gesetzt.
+Wenn derselbe Code nach 4 Tagen weiterer Inaktivität auf derselben Domäne ausgeführt wird, wird der Wert von s.prop1 auf „4 Tage“ gesetzt.
 
 ## Versionsverlauf
 
 ### 1.0 (16. April 2018)
 
-* Point Release (neu kompilierter Code und kleinere Größe).
-* Aus dem `getDaysSinceLastVisit` Plug-In abgeleiteter Code (jetzt nicht mehr unterstützt und umbenannt).
-* Verwendet jetzt `formatTime` und `inList` Plug-ins als Rückgabewert.
+* Zwischenversion (neu kompilierter Code und kleinere Code-Größe).
+* Aus dem Plug-in `getDaysSinceLastVisit` abgeleiteter Code (jetzt veraltet und umbenannt).
+* Verwendet jetzt die Plug-ins `formatTime` und `inList` für den Rückgabewert.
