@@ -1,17 +1,17 @@
 ---
 title: Legacy Adobe Experience Cloud-Debugger
 description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising Cloud, den Identitätsdienst, DTM und Launch.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Legacy Adobe Experience Cloud-Debugger
 
-> [!IMPORTANT] Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Chrome-Erweiterung [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html).
+>[!IMPORTANT] Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Chrome-Erweiterung [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html).
 
-Der [!UICONTROL Legacy-Debugger] prüft Tags für die meisten Adobe Experience Cloud-Dienste. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
+The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
 
 ## Installieren des Legacy-Debuggers
 
@@ -68,7 +68,7 @@ In Safari können Sie Lesezeichen nicht manuell erstellen, jedoch können Sie ei
 
 Navigieren Sie zur gewünschten Seite auf Ihrer Website und klicken Sie dann auf das Lesezeichen. Es wird ein Popupfenster mit an Adobe gesendeten Daten angezeigt.
 
-> [!NOTE] Bestimmte werbeblockierende Plug-ins und Popupblocker können das Laden des Debugger-Fensters beeinträchtigen. Überprüfen Sie, ob Popups im Browser blockiert sind, und lassen Sie sie zu, damit der Debugger ordnungsgemäß funktioniert.
+>[!NOTE] Bestimmte werbeblockierende Plug-ins und Popupblocker können das Laden des Debugger-Fensters beeinträchtigen. Überprüfen Sie, ob Popups im Browser blockiert sind, und lassen Sie sie zu, damit der Debugger ordnungsgemäß funktioniert.
 
 Für den Debugger stehen verschiedene Optionen zur Verfügung, mit denen die Anzeige der Daten angepasst wird. Keine dieser Optionen wirkt sich auf die Datenerfassung aus.
 
