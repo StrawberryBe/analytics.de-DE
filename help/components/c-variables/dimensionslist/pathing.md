@@ -1,25 +1,25 @@
 ---
-description: Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
+description: Eine Gruppe von Berichten, die auf der Analyse des Pfads basieren. Technisch gesehen bedeutet Pfade, von einem Seitennamen zu einem anderen zu wechseln (von einem Wert zum anderen).
 title: Pathing
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Pathing
 
-Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
+Eine Gruppe von Berichten, die auf der Analyse des Pfads basieren. Technisch gesehen bedeutet Pfade, von einem Seitennamen zu einem anderen zu wechseln (von einem Wert zum anderen).
 
 Verwenden Sie die [Flussfunktion in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) für flexiblere Pfadoptionen.
 
-> [!NOTE] Navigieren Sie zum Aktivieren von Pfaden zu **[!UICONTROL Admin > Report Suites > Einstellungen bearbeiten > Traffic > Traffic-Variablen]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
+>[!NOTE] Gehen Sie zu , um Pfade zu aktivieren **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
 
-Wenn Sie die Reihenfolge benötigen, in der Werte erfasst werden, müssen Sie Pfade für die Variablenerfassung dieser Werte aktivieren. Pfade werden standardmäßig für Seiten aktiviert. Pfade werden nicht standardmäßig für Eigenschaften aktiviert, da dies nur in bestimmten Fällen angebracht ist. Wenden Sie sich an den Kundendienst, um Pfade für eine Eigenschaft zu aktivieren.
+Wenn Sie wissen müssen, in welcher Reihenfolge Werte erfasst werden, müssen Sie die Pathing-Funktion für die Variable aktivieren, die diese Werte erfasst. Pfade sind für Seiten standardmäßig aktiviert. Pfade sind für Props standardmäßig nicht aktiviert, da sie nur in bestimmten Fällen geeignet sind. Wenden Sie sich an den Kundendienst, um Pfade für eine Eigenschaftsvariable zu aktivieren.
 
-> [!NOTE] Wenn Sie in Ad Hoc Analysis Klassifizierungen für Eigenschaften aktivieren, werden Pfadmetriken aller für die aktivierte Eigenschaft eingerichteten Klassifizierungen angezeigt.
+>[!NOTE] Wenn Sie in Ad Hoc Analysis Klassifizierungen für Eigenschaften aktivieren, werden Pfadmetriken aller für die aktivierte Eigenschaft eingerichteten Klassifizierungen angezeigt.
 
 **Beispiel: Pfade für Sitebereiche**
 
@@ -27,7 +27,7 @@ Mit dem Aktivieren von Pfaden für  *`s.channel`* die Variable können Sie verfo
 
 ![](assets/path_sections.png)
 
-Pfadsetzungen sind dann in unterschiedlichen Pfadberichten verfügbar, wie [!UICONTROL Bereichsfluss Nächste Site], in dem angezeigt wird, wie Besucher durch Seitengruppen oder Bereiche Ihrer Site navigieren.
+Pfade stehen dann in verschiedenen Pfadberichten zur Verfügung, z. B. [!UICONTROL Next Site Section Flow]in denen angezeigt wird, wie Besucher durch Seitengruppen oder Bereiche Ihrer Site navigieren.
 
 ![](assets/paths_report.png)
 
@@ -37,7 +37,7 @@ Dieses Konzept der Navigation von einem Wert zum nächsten gilt auch für andere
 
 **Beispiel: Pfade pro Anmeldestatus**
 
-Sie möchten vielleicht wissen, wie Besucher basierend auf ihrem Anmeldestatus durch Ihre Site navigieren. Um diese Informationen zu erhalten, würden Sie nicht die Pfadsetzungsberichte zum Anmeldestatus ansehen, da diese zeigen, wie Besucher Werte in diesem Bericht verändert haben oder welche Veränderungen Besucher zwischen An- und Abmelden durchgemacht haben. Sie würden stattdessen den Segmentwert mit der  *`s.pageName`* Variablen verketten und dann den Pfad für die sich ergebende Variable analysieren. Hier ist ein Codebeispiel für eine Seitenpfadanalyse nach Mitgliedsstatus:
+Möglicherweise möchten Sie wissen, wie die Besucher anhand des Anmeldestatus eines Besuchers durch Ihre Site navigieren. Um diese Informationen anzuzeigen, würden Sie die Pfadberichte nicht auf den Anmeldestatus prüfen, da sie Ihnen zeigen würden, wie Besucher die Werte in diesem Bericht geändert haben oder wie sich Besucher möglicherweise von angemeldet zu abgemeldet haben. Sie würden stattdessen den Segmentwert mit der  *`s.pageName`* Variablen verketten und dann den Pfad für die sich ergebende Variable analysieren. Hier ist ein Codebeispiel für eine Seitenpfadanalyse nach Mitgliedsstatus:
 
 ```js
 s.pageName="Home Page"; 
@@ -47,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Aktivieren Sie dann die Pfade für  *`s.prop19`*, um zu verfolgen, wie Besucher durch die Seiten navigieren.
 
-> [!NOTE] Wenn Sie Ad-hoc-Analysen durchführen, können Sie Seitenpfade segmentieren, ohne die Segmentwerte verketten zu müssen. Weisen Sie dann alle Segmente den Pfadsetzungsberichten zu.
+>[!NOTE] Wenn Sie Ad-hoc-Analysen durchführen, können Sie Seitenpfade segmentieren, ohne die Segmentwerte verketten zu müssen. Weisen Sie dann alle Segmente den Pfadsetzungsberichten zu.
 
