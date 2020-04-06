@@ -1,41 +1,41 @@
 ---
 title: linkLeaveQueryString
-description: Ermöglicht die Beibehaltung von Abfragen-Zeichenfolgen in den Dimensionen der Linktracking.
+description: Ermöglicht die Beibehaltung von Abfragezeichenfolgen in Linktracking-Dimensionen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkLeaveQueryString
 
-AppMeasurement entfernt standardmäßig Abfragen-Zeichenfolgen von Link-Tracking-URLs. Verwenden Sie die `linkLeaveQueryString` Variable, um die Zeichenfolgen der Abfrage in den Abmessungen der Linktracking beizubehalten.
+AppMeasurement entfernt Abfragezeichenfolgen standardmäßig aus Linktracking-URLs. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
 
-Bei einigen Exitlinks und Downloadlinks kann sich der wichtige Teil der URL in der Abfrage-Zeichenfolge befinden. Beispielsweise enthält ein Downloadlink wie `https://example.com/download.asp?filename=myfile.exe` er wichtige Linkinformationen in der Abfrage-Zeichenfolge.
+Bei einigen Exitlinks und Downloadlinks kann sich der wichtige Teil der URL in der Abfragezeichenfolge befinden. Beispielsweise enthält ein Downloadlink wie `https://example.com/download.asp?filename=myfile.exe` wichtige Link-Informationen in der Abfragezeichenfolge.
 
-Wenn die Linktracking-Informationen nicht in den URLs Ihrer Site enthalten sind, ist die Verwendung dieser Variablen nicht erforderlich. Durch Entfernen von Abfragen-Zeichenfolgen aus Link-Tracking-URLs wird die Anzahl der eindeutigen Werte in der Dimension eingeschränkt.
+Wenn die Linktracking-Informationen nicht in den URLs Ihrer Website enthalten sind, ist die Verwendung dieser Variablen nicht erforderlich. Das Entfernen von Abfragezeichenfolgen aus Linktracking-URLs hilft, die Anzahl der eindeutigen Werte zu begrenzen, die die Dimension enthält.
 
-Die Aktivierung `linkLeaveQueryString` gilt für alle Dimensionen der Linktracking (einschließlich benutzerspezifischer Links, Exitlinks und Downloadlinks).
+Die Aktivierung von `linkLeaveQueryString` gilt für alle Linktracking-Dimensionen (einschließlich benutzerspezifischer Links, Exitlinks und Downloadlinks).
 
-> [!TIP] Diese Variable wirkt sich nicht auf Dimensionen außerhalb der Linktracking aus. Dies betrifft nur benutzerspezifische Links, Ausstiegslinks und Downloadlinks.
+>[!TIP] Diese Variable hat keine Auswirkungen auf Dimensionen außerhalb des Linktrackings. Sie betrifft nur benutzerspezifische Links, Exitlinks und Downloadlinks.
 
-## URL-Parameter beim Starten der Adobe Experience Platform beibehalten
+## „URL-Parameter beibehalten“ in Adobe Experience Platform Launch
 
 [!UICONTROL Keep URL Parameters] ein Kontrollkästchen unter dem [!UICONTROL Link Tracking] Akkordeon beim Konfigurieren der Adobe Analytics-Erweiterung.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Erweitern Sie das [!UICONTROL Link Tracking] Akkordeon, das das [!UICONTROL Keep URL Parameters] Kontrollkästchen einblenden soll.
 
-Aktivieren Sie dieses Kontrollkästchen, wenn Sie Abfragen-Zeichenfolgen in die Abmessungen der Linktracking einbeziehen möchten.
+Aktivieren Sie dieses Kontrollkästchen, wenn Sie Abfragezeichenfolgen in die Linktracking-Dimensionen einbeziehen möchten.
 
-## s.linkLeaveQueryString im AppMeasurement- und Launch-Editor für benutzerdefinierten Code
+## s.linkLeaveQueryString in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.linkLeaveQueryString` Variable ist ein boolescher Wert. Its default value is `false`.
+Die `s.linkLeaveQueryString`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 
-* Wenn diese Variable auf `true`festgelegt ist, bleiben die Zeichenfolgen der Abfrage in den Linktracking-URLs erhalten.
-* Wenn diese Variable auf `false` oder nicht definiert ist, werden Abfragen-Zeichenfolgen aus den Linktracking-URLs entfernt.
+* Wenn diese Variable auf `true` festgelegt ist, werden Abfragezeichenfolgen in Linktracking-URLs beibehalten.
+* Wenn diese Variable auf `false` festgelegt oder nicht definiert ist, werden Abfragezeichenfolgen aus den Linktracking-URLs entfernt.
 
 ```js
 s.linkLeaveQueryString = true;
@@ -43,9 +43,9 @@ s.linkLeaveQueryString = true;
 
 ## Beispiel
 
-Seien Sie vorsichtig, wenn Sie diese Variable auf &quot;true&quot;setzen, da dies Auswirkungen auf Filter wie [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md)und [`linkDownloadFiletypes`](linkdownloadfiletypes.md)die Linktracking haben kann.
+Seien Sie vorsichtig, wenn Sie diese Variable auf „true“ setzen, da dies Auswirkungen auf Linktracking-Filter wie [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md) und [`linkDownloadFiletypes`](linkdownloadfiletypes.md) haben kann.
 
-Betrachten Sie das folgende Beispiel, als wäre es auf `adobe.com`:
+Betrachten Sie das folgende Beispiel, als ob es auf `adobe.com` wäre:
 
 ```html
 <script>
