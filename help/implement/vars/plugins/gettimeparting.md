@@ -2,51 +2,51 @@
 title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: getTimeParting
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `getTimeParting` Plug-in können Sie die Details zu dem Zeitpunkt erfassen, zu dem eine beliebige messbare Aktivität auf Ihrer Site stattfindet. Dieses Plug-in ist nützlich, wenn Sie Metriken nach wiederholbarer Zeitteilung über einen bestimmten Datumsbereich aufschlüsseln möchten. Sie können beispielsweise die Konversionsraten zwischen zwei verschiedenen Wochentagen vergleichen, z. B. sonntags und donnerstags. Sie können auch Tageszeiträume vergleichen, z. B. jeden Morgen im Vergleich zu allen Abenden.
+Mit dem `getTimeParting`-Plug-in können Sie die Details zu dem Zeitpunkt erfassen, zu dem eine beliebige messbare Aktivität auf Ihrer Website stattfindet. Dieses Plug-in ist nützlich, wenn Sie Metriken nach wiederholbarer Zeitteilung über einen bestimmten Datumsbereich aufschlüsseln möchten. Sie können beispielsweise die Konversionsraten zwischen zwei verschiedenen Wochentagen vergleichen, z. B. alle Sonntage im Vergleich zu allen Donnerstagen. Sie können auch Tageszeiträume vergleichen, z. B. alle Morgen im Vergleich zu allen Abenden.
 
-Analyse Workspace bietet ähnliche vordefinierte Dimensionen, die etwas anders formatiert sind als dieses Plug-in. Weitere Informationen finden Sie unter Dimensionen der [Zeitaufteilung](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) im Benutzerhandbuch für Analysieren. Einige Unternehmen finden, dass die vordefinierten Dimensionen von Analyse Workspace ausreichend sind.
+Analysis Workspace bietet ähnliche vordefinierte Dimensionen, die etwas anders formatiert sind als dieses Plug-in. Weitere Informationen finden Sie unter [Dimensionen für die Zeitunterteilung](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) im Analysebenutzerhandbuch. Für einige Unternehmen sind die vordefinierten Dimensionen von Analysis Workspace ausreichend.
 
-> [WICHTIGE] Version 4.0+ dieses Plug-ins unterscheidet sich deutlich von früheren Versionen. Adobe empfiehlt dringend, dieses Plug-in &quot;von Grund auf&quot;zu implementieren. Code, der auf das Plug-In vor Version 4.0 verweist, ist nicht mit der aktuellen Version dieses Plug-Ins kompatibel.
+>[WICHTIG] Version 4.0+ dieses Plug-ins unterscheidet sich deutlich von früheren Versionen. Adobe empfiehlt dringend, dieses Plug-in von Grund auf neu zu implementieren. Code, der auf das Plug-in vor Version 4.0 verweist, ist nicht mit der aktuellen Version dieses Plug-ins kompatibel.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
    * Aktionstyp: getTimeParting initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,26 +55,26 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `getTimeParting` Methode verwendet das folgende Argument:
+Die `getTimeParting`-Methode verwendet das folgende Argument:
 
-**`t`** (Optional, aber empfohlen, Zeichenfolge): Der Name der Zeitzone, in die die Ortszeit des Besuchers konvertiert werden soll.  Die Standardeinstellung ist UTC/GMT-Zeit. Eine vollständige Liste der gültigen Werte finden Sie in der [Liste der Zeitzonen](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) der TZ-Datenbank auf Wikipedia.
+**`t`** (Optional, aber empfohlen, Zeichenfolge): Der Name der Zeitzone, in die die Ortszeit des Besuchers umgerechnet werden soll.  Die Standardeinstellung ist die UTC/GMT-Zeit. Eine vollständige Liste der gültigen Werte finden Sie unter [List of tz database time zones (Liste der Zeitzonen der Zeitzonen-Datenbank)](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) auf Wikipedia.
 
-Zu den allgemeinen gültigen Werten gehören:
+Zu den üblichen gültigen Werten gehören:
 
-* `"America/New_York"` für Eastern Time
-* `"America/Chicago"` für Central Time
-* `"America/Denver"` für Mountain Time
-* `"America/Los_Angeles"` für Pacific Time
+* `"America/New_York"` für Eastern Time (EST)
+* `"America/Chicago"` für Central Time (CST)
+* `"America/Denver"` für Mountain Time (MST)
+* `"America/Los_Angeles"` für Pacific Time (PST)
 
-Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die folgenden durch ein Pipe getrennten Zeichen enthält (`|`):
+Beim Aufrufen dieser Methode wird eine Zeichenfolge zurückgegeben, die die folgenden, durch einen senkrechten Strich (`|`) getrennte, Zeichen enthält:
 
 * Das aktuelle Jahr
 * Der aktuelle Monat
 * Der Tag des Monats
-* Wochentag
-* Die aktuelle Zeit (AM/PM)
+* Der Tag des Woche
+* Die aktuelle Zeit
 
 ## Beispielaufrufe
 
@@ -86,13 +86,13 @@ Verwenden Sie den folgenden Beispielcode, wenn sich der Client in Paris, Frankre
 s.eVarX = getTimeParting("Europe/Paris");
 ```
 
-Befindet sich der Kunde in San Jose, Kalifornien:
+Der Client befindet sich in San Jose, Kalifornien:
 
 ```js
 s.eVarX = getTimeParting("America/Los_Angeles");
 ```
 
-Befindet sich der Kunde im afrikanischen Land Ghana:
+Der Client befindet sich in Ghana:
 
 ```js
 s.eVarX = getTimeParting();
@@ -100,9 +100,9 @@ s.eVarX = getTimeParting();
 
 Ghana liegt innerhalb der UTC/GMT-Zeitzone.  Dieses Beispiel zeigt, dass unter solchen Umständen kein Plug-in-Argument erforderlich ist.
 
-### Buchhaltung für Internet Explorer-Browser
+### Für Internet Explorer-Browser
 
-Verwenden Sie das folgende Beispiel, wenn Sie Zeitaufteilungsdaten aus Internet Explorer-Besuchern ausschließen möchten (da der von IE-Browsern zurückgegebene Wert nur in der Ortszeit des Besuchers liegen kann)
+Verwenden Sie das folgende Beispiel, wenn Sie Zeitunterteilungsdaten von Internet Explorer-Besuchern ausschließen möchten (da der von IE-Browsern zurückgegebene Wert nur in der Ortszeit des Besuchers liegen kann)
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -111,60 +111,60 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Ergebnisse von Aufrufen
 
-Wenn ein Besucher aus Denver am 31. August 2020 um 9:15 Uhr eine Site besucht,
+Wenn ein Besucher aus Denver, Colorado, am 31. August 2020 um 9:15 Uhr einen Standort besucht:
 
-Ausführen des folgenden Codes...
+Das Ausführen des folgenden Codes ...
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
 ```
 
-...würde s.eVar10 gleich &quot;year=2020&quot;einstellen| month=August| date=31| day=Friday| time=6:15 PM&quot;
+... würde s.eVar10 auf „year=2020 | month=August | date=31 | day=Freitag | time=18:15“ setzen
 
-Während der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar10 = getTimeParting("America/Nome");
 ```
 
-...würde s.eVar10 gleich &quot;year=2020&quot;einstellen| month=August| date=31| day=Friday| time=6:15 AM&quot;
+... würde s.eVar10 auf „year=2020 | month=August | date=31 | day=Freitag | time=06:15“ setzen
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar10 = getTimeParting("Asia/Calcutta");
 ```
 
-...würde s.eVar10 gleich &quot;year=2020&quot;einstellen| month=August| date=31| day=Friday| time=8:45 PM&quot;
+... würde s.eVar10 auf „year=2020 | month=August | date=31 | day=Freitag | time=20:45“ setzen
 
-Und der folgende Code...
+Und der folgende Code ...
 
 ```js
 s.eVar10 = getTimeParting("Australia/Sydney");
 ```
 
-...würde s.eVar10 gleich &quot;year=2020&quot;einstellen| month=September| date=1| day=Saturday| time=1:15 AM&quot;
+... würde s.eVar10 auf „year=2020 | month=September | date=1 | day=Samstag | time=1:15“ setzen
 
 ## Versionsverlauf
 
 ### 6.2 (5. November 2019)
 
 * Kleine Fehlerbehebungen
-* Reduzierte Codegröße
+* Reduzierte Gesamt-Code-Größe
 
 ### 6.1 (26. November 2018)
 
-* Fehlerbehebung für Internet Explorer-Browser. Sie können die Zeit zurückgeben, jedoch nur in der Ortszeit des Besuchers.
+* Korrektur für Internet Explorer-Browser. Sie können die Zeit zurückgeben, jedoch nur in der Ortszeit des Besuchers.
 
 ### 6.0 (14. August 2018)
 
-* Umschreiben nach internationalen Standards Konvertiert nun die Sommerzeit und alle Zeitzonen entsprechend.
+* Vollständige Neufassung zur Anpassung an internationale Standards. Die Sommerzeit und alle Zeitzonen werden jetzt richtig konvertiert.
 
 ### 5.0 (17. April 2018)
 
-* Point Release (neu kompiliert, kleinere Codegröße)
-* Die Notwendigkeit für den `tpDST` Parameter wurde entfernt, da jetzt automatisch Sommerzeit-/Beginn-Daten erkannt werden
+* Zwischenversion (neu kompiliert, kleinere Code-Größe)
+* Der `tpDST`-Parameter ist nicht mehr erforderlich, da das Start-/Enddatum der Sommerzeit jetzt automatisch erkannt wird.
 
 ### 4.0 (22. August 2016)
 
-* Bietet eine brandneue Lösung und enthält nun Informationen zu Jahr, Monat und Datum.
+* Bietet eine brandneue Lösung und enthält jetzt Informationen zu Jahr, Monat und Datum.
