@@ -1,54 +1,54 @@
 ---
 title: apl (appendToList)
-description: Fügen Sie Werte an Variablen hinzu, die mehrere Werte unterstützen.
+description: Fügen Sie Werte an Variablen an, die mehrere Werte unterstützen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: apl (appendToList)
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `apl` Plug-in können Sie problemlos neue Listen zu Variablen mit Trennzeichen wie [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)usw. hinzufügen.
+The `apl` plug-in allows you to safely add new values to list-delimited variables, such as [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md), and others.
 
 * Wenn der Wert, den Sie hinzufügen möchten, nicht in der Variablen vorhanden ist, fügt der Code den Wert am Ende der Zeichenfolge hinzu.
-* Wenn der Wert, den Sie hinzufügen möchten, bereits in der Variablen vorhanden ist, ändert dieses Plug-In den Wert nicht. Diese Funktionen ermöglichen es Ihrer Implementierung, Duplikat-Werte zu vermeiden.
-* Wenn die Variable, der Sie hinzufügen möchten, leer ist, setzt das Plug-In die Variable auf den neuen Wert.
+* Wenn der Wert, den Sie hinzufügen möchten, bereits in der Variablen vorhanden ist, ändert dieses Plug-in den Wert nicht. Diese Funktionen ermöglichen es Ihrer Implementierung, doppelte Werte zu vermeiden.
+* Wenn die Variable, der Sie hinzufügen möchten, leer ist, setzt das Plug-in die Variable auf den neuen Wert.
 
-Adobe empfiehlt die Verwendung dieses Plug-Ins, wenn Sie vorhandenen Variablen, die eine Zeichenfolge aus getrennten Werten enthalten, neue Werte hinzufügen möchten. Dieses Plug-in ist nicht erforderlich, wenn Sie Zeichenfolgen für Variablen mit getrennten Werten verknüpfen möchten.
+Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie vorhandenen Variablen, die eine Zeichenfolge aus durch Trennzeichen getrennten Werten enthalten, neue Werte hinzufügen möchten. Dieses Plug-in ist nicht erforderlich, wenn Sie Zeichenfolgen für Variablen mit getrennten Werten verknüpfen möchten.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
-   * Aktionstyp: APL initialisieren (an Liste anhängen)
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: APL („Append To List“ (An Liste anhängen)) initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,35 +60,35 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `apl` Methode verwendet die folgenden Argumente:
+Die `apl`-Methode verwendet die folgenden Argumente:
 
 * **`lv`** (erforderlich, Zeichenfolge): Die Variable, die eine durch Trennzeichen getrennte Liste von Elementen enthält, der ein neuer Wert hinzugefügt werden soll
-* **`vta`** (erforderlich, Zeichenfolge): Eine kommagetrennte Liste der neuen Werte, die dem `lv` Argumentwert hinzugefügt werden sollen.
-* **`d1`** (optional, Zeichenfolge): Das Trennzeichen, mit dem die einzelnen Werte getrennt werden, die bereits im `lv` Argument enthalten sind.  Wenn kein Komma festgelegt ist, wird standardmäßig ein Komma (`,`) verwendet.
-* **`d2`** (optional, Zeichenfolge): Das Ausgabetrennzeichen. Der Standardwert ist derselbe Wert wie `d1` , wenn er nicht festgelegt wird.
-* **`cc`** (optional, boolean): Ein Flag, das anzeigt, ob bei einer Prüfung die Groß-/Kleinschreibung beachtet wird. Wenn `true`bei der Duplizierungsprüfung die Groß- und Kleinschreibung beachtet wird. Bei `false` oder ohne Einstellung wird bei der Duplizierungsprüfung nicht zwischen Groß- und Kleinschreibung unterschieden. Die Standardeinstellung ist `false`.
+* **`vta`** (erforderlich, Zeichenfolge): Eine durch Komma getrennte Liste der neuen Werte, die dem `lv`-Argumentwert hinzugefügt werden sollen.
+* **`d1`** (optional, Zeichenfolge): Das Trennzeichen, mit dem die einzelnen Werte getrennt werden, die bereits im `lv`-Argument enthalten sind.  Die Standardeinstellung ist ein Komma (`,`), wenn nicht festgelegt.
+* **`d2`** (optional, Zeichenfolge): Das Ausgabetrennzeichen. Der Standardwert ist derselbe Wert wie `d1`, wenn nicht festgelegt.
+* **`cc`** (optional, boolesch): Eine Markierung, die anzeigt, ob bei einer Prüfung die Groß-/Kleinschreibung beachtet wird. Wenn die Markierung `true` ist, wird bei der Duplizierungsprüfung die Groß- und Kleinschreibung beachtet. Wenn die Markierung `false` oder nicht gesetzt ist, wird bei der Duplizierungsprüfung nicht zwischen Groß- und Kleinschreibung unterschieden. Die Standardeinstellung ist `false`.
 
-Die `apl` Methode gibt den Wert des `lv` Arguments plus alle Nicht-Duplikat-Werte im `vta` Argument zurück.
+Die `apl`-Methode gibt den Wert des `lv`-Arguments sowie alle nicht duplizierten Werte im `vta`-Argument zurück.
 
 ## Beispielaufrufe
 
 ### Beispiel 1
 
-Wenn...
+Wenn ...
 
 ```js
 s.events = "event22,event24";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.events = s.apl(s.events, "event23");
 ```
 
-... Der Endwert von s.Ereignisses ist:
+... lautet der Endwert von s.events:
 
 ```js
 s.events = "event22,event24,event23";
@@ -96,41 +96,41 @@ s.events = "event22,event24,event23";
 
 ### Beispiel 2
 
-Wenn...
+Wenn ...
 
 ```js
 s.events = "event22,event23";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.events = s.apl(s.events, "event23");
 ```
 
-... Der Endwert von s.Ereignisses ist weiterhin:
+... lautet der Endwert von s.events weiterhin:
 
 ```js
 s.events = "event22,event23";
 ```
 
-In diesem Beispiel hat der apl-Aufruf keine Änderungen an s.Ereignisses vorgenommen, da s.Ereignis bereits &quot;Ereignis23&quot;enthielt
+In diesem Beispiel hat der apl-Aufruf keine Änderungen an s.events vorgenommen, da s.events bereits „event23“ enthielt
 
 ### Beispiel 3
 
-Wenn...
+Wenn ...
 
 ```js
 s.events = ""; //blank value
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.events = s.apl(s.events, "event23");
 ```
 
-... Der Endwert von s.Ereignisses ist...
+ ... lautet der Endwert von s.events ...
 
 ```js
 s.events = "event23";
@@ -138,190 +138,190 @@ s.events = "event23";
 
 ### Beispiel 4
 
-Wenn...
+Wenn ...
 
 ```js
 s.prop4 = "hello|people";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.eVar5 = s.apl(s.prop4, "today", "|");
 ```
 
-... Der Endwert von s.prop4 bleibt...
+ ... lautet der Endwert von s.prop4 weiterhin ...
 
 ```js
 s.prop4 = "hello|people";
 ```
 
-...aber der Endwert von s.eVar5 ist
+... aber der Endwert von s.eVar5 lautet
 
 ```js
 s.eVar5 = "hello|people|today";
 ```
 
-Beachten Sie, dass das Plug-In nur einen Wert zurückgibt. Es wird nicht unbedingt die Variable zurückgesetzt, die über das lv-Argument übergeben wird.
+Beachten Sie, dass das Plug-in nur einen Wert zurückgibt; es setzt die durch das lv-Argument übergebene Variable nicht unbedingt zurück.
 
 ### Beispiel 5
 
-Wenn...
+Wenn ...
 
 ```js
 s.prop4 = "hello|people";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.prop4 = s.apl(s.prop4, "today");
 ```
 
-... der Endwert von s.prop4 ist...
+ ... lautet der Endwert von s.prop4 ...
 
 ```js
 s.prop4 = "hello|people,today";
 ```
 
-Stellen Sie sicher, dass das Trennzeichen zwischen dem Wert des Arguments &quot;lv&quot;und dem, was in den Argumenten &quot;d1/d2&quot;enthalten ist, konsistent ist.
+Stellen Sie sicher, dass das Trennzeichen zwischen dem Wert des lv-Arguments und dem Wert der Argumente d1/d2 konsistent ist
 
 ### Beispiel 6
 
-Wenn...
+Wenn ...
 
 ```js
 s.events = "event22,event23";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.events = s.apl(s.events,"EVenT23", ",", ",", true);
 ```
 
-... Der Endwert von s.Ereignisses ist:
+... lautet der Endwert von s.events:
 
 ```js
 s.events = "event22,event23,EVentT23";
 ```
 
-Dieses Beispiel ist zwar nicht praktikabel, zeigt aber, dass bei der Verwendung des Flags unter Beachtung der Groß- und Kleinschreibung Vorsicht geboten ist.
+Obwohl dieses Beispiel nicht praktikabel ist, zeigt es, dass bei Verwendung der Markierung, bei der die Groß- und Kleinschreibung beachtet werden muss, Vorsicht geboten ist.
 
 ### Beispiel 7
 
-Wenn...
+Wenn ...
 
 ```js
 s.events = "event22,event23";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.events = s.apl(s.events, "event23,event24,event25");
 ```
 
-... Der Endwert von s.Ereignisses ist:
+... lautet der Endwert von s.events:
 
 ```js
 s.events = "event22,event23,event24,event25");
 ```
 
-Das Plug-in fügt s.Ereignisses nicht &quot;Ereignis23&quot;hinzu, da es bereits in s.Ereignisses vorhanden ist.  Es werden jedoch sowohl Ereignis24 als auch Ereignis25 zu s.Ereignisses hinzugefügt, da keine der beiden zuvor in s.Ereignisses enthalten war.
+Das Plug-in fügt s.events „event23“ nicht hinzu, da es bereits in s.events vorhanden ist.  Allerdings werden „event24“ und „event25“ zu s.events hinzugefügt, da keines der beiden Ereignisse zuvor in s.events enthalten war.
 
 ### Beispiel 8
 
-Wenn...
+Wenn ...
 
 ```js
 s.linkTrackVars = "events,eVar1";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
 ```
 
-... Der Endwert von s.linkTrackVars lautet:
+... lautet der Endwert von s.linkTrackVars:
 
 ```js
 s.linkTrackVars = "events,eVar1,campaign";
 ```
 
-Die letzten drei Argumente (d.h. &quot;,&quot;, &quot;,&quot;, false) am Ende dieses apl-Aufrufs sind nicht erforderlich, sondern auch nicht &quot;verletzen irgendetwas&quot;, da sie eingestellt werden, da sie mit den Standard-Argumentwerten übereinstimmen.
+Die letzten drei Argumente (d. h. „,“, „,“, false) am Ende dieses apl-Aufrufs sind nicht erforderlich, verletzen aber auch nichts, da sie mit den Standardargumentwerten übereinstimmen.
 
 ### Beispiel 9
 
-Wenn...
+Wenn ...
 
 ```js
 s.events = "event22,event24";
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.apl(s.events, "event23");
 ```
 
-... Der Endwert von s.Ereignisses ist weiterhin:
+... lautet der Endwert von s.events weiterhin:
 
 ```js
 s.events = "event22,event24";
 ```
 
-Wenn Sie das Plug-In ganz alleine ausführen (ohne den Rückgabewert einer Variablen zuzuweisen), wird die Variable, die über das lv-Argument übergeben wird, nicht &quot;zurückgesetzt&quot;.
+Wenn Sie das Plug-in allein ausführen (ohne den Rückgabewert einer Variablen zuzuweisen), wird die Variable, die über das lv-Argument übergeben wird, nicht zurückgesetzt.
 
-### Beispiel #10
+### Beispiel 10
 
-Wenn...
+Wenn ...
 
 ```js
 s.list2 = "casesensitivevalue|casesensitiveValue"
 ```
 
-...und der folgende Code wird ausgeführt...
+ ... und der folgende Code ausgeführt wird ...
 
 ```js
 s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
 ```
 
-... der Endwert von s.Liste2 lautet:
+... lautet der Endwert von s.list2:
 
 ```js
 s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 ```
 
-Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene Wert durch das erste Trennzeichen-Argument (&quot;|&quot;) getrennt und dann durch das zweite Trennzeichen (&quot;-&quot;) verbunden
+Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene Wert durch das erste Trennzeichen-Argument („|“) getrennt und dann durch das zweite Trennzeichen („-“) verbunden
 
 ## Versionsverlauf
 
 ### 3.2 (25. September 2019)
 
-* Kompatibilitätsprobleme mit `apl` Aufrufen behoben, bei denen ältere Versionen des Plug-Ins verwendet wurden
-* Entfernen von Konsolenwarnungen zur Verringerung der Größe
+* Kompatibilitätsprobleme mit `apl`-Aufrufen behoben, bei denen ältere Versionen des Plug-ins verwendet wurden
+* Konsolenwarnungen zur Reduzierung der Größe entfernt
 * Hinzufügung von `inList 2.1`
 
 ### 3.1 (22. April 2018)
 
-* `d2` ist jetzt standardmäßig der Wert des `d1` Arguments, wenn nicht festgelegt
+* Das Argument `d2` wird jetzt standardmäßig auf den Wert des Arguments `d1` gesetzt, wenn nicht festgelegt
 
 ### 3.0 (16. April 2018)
 
-* Vollständige Neuanalyse/Umschreiben des Plug-Ins
+* Vollständige Neuanalyse/Umformulierung des Plug-ins
 * Erweiterte Fehlerprüfung hinzugefügt
-* Das `vta` Argument akzeptiert jetzt mehrere Werte gleichzeitig
-* Das `d2` Argument zum Formatieren des Rückgabewerts wurde hinzugefügt
-* Das `cc` Argument wurde in einen booleschen
+* Das `vta`-Argument akzeptiert jetzt mehrere Werte auf einmal
+* Das `d2`-Argument zum Formatieren des Rückgabewerts wurde hinzugefügt
+* Das `cc`-Argument wurde in einen boolesches Argument geändert
 
 ### 2.5 (18. Februar 2016)
 
-* Verwendet jetzt die `inList` Methode für die Vergleichsverarbeitung
+* Verwendet jetzt die `inList`-Methode für die Vergleichsverarbeitung
 
 ### 2.0 (26. Januar 2016)
 
-* `d` (Trennzeichen) Argument jetzt optional (standardmäßig ein Komma)
-* `u` (Kennzeichen für Groß-/Kleinschreibung) ist jetzt optional (standardmäßig wird nicht zwischen Groß- und Kleinschreibung unterschieden)
-* Unabhängig vom Flag `u` (Groß-/Kleinschreibung beachten) hängt das Plug-In keinen Wert mehr an eine Liste an, wenn der Wert bereits in der Liste vorhanden ist
+* Das Argument `d` (Trennzeichen) ist jetzt optional (standardmäßig ein Komma)
+* Das Argument `u` (Markierung für Groß-/Kleinschreibung) ist jetzt optional (standardmäßig wird nicht zwischen Groß- und Kleinschreibung unterschieden)
+* Unabhängig vom Argument `u` (Markierung für Groß-/Kleinschreibung), hängt das Plug-in keinen Wert mehr an eine Liste an, wenn der Wert bereits in der Liste vorhanden ist
