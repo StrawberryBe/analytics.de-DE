@@ -1,19 +1,19 @@
 ---
 title: Übersicht über die JavaScript-Implementierung mit H-Code
 description: Erfahren Sie mehr über den Workflow zur Implementierung von H-Code auf Ihrer Website.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Übersicht über die JavaScript-Implementierung mit H-Code
 
-> [!IMPORTANT] Diese Version der Datenerfassung wird nicht mehr unterstützt. Aktualisieren Sie auf [Adobe Experience Platform Launch](../../launch/overview.md) oder [AppMeasurement für JavaScript](../overview.md).
+>[!IMPORTANT] Diese Version der Datenerfassung wird nicht mehr unterstützt. Aktualisieren Sie auf [Adobe Experience Platform Launch](../../launch/overview.md) oder [AppMeasurement für JavaScript](../overview.md).
 
 Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Datenerfassung erfolgreich implementieren zu können. Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Implementierung mit H-Code geführt.
 
-> [!NOTE] Sie müssen bereits über eine vorhandene Kopie von `s_code.js` verfügen, um diese Anweisungen zu befolgen. Adobe bietet keine Möglichkeit mehr, H-Code im Code-Manager herunterzuladen.
+>[!NOTE] Sie müssen bereits über eine vorhandene Kopie von `s_code.js` verfügen, um diese Anweisungen zu befolgen. Adobe bietet keine Möglichkeit mehr, H-Code im Code-Manager herunterzuladen.
 
 1. **JS-Hauptdateivariablen aktualisieren**: Bearbeiten Sie die `s_code.js`-Datei und stellen Sie sicher, dass die folgenden Variablen aktualisiert werden:
    * `s_account` enthält die Report Suite-ID, an die Sie Daten senden möchten. Siehe
@@ -26,7 +26,7 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
 
 ## Caching
 
-Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur ein Mal pro Sitzung heruntergeladen. Die Datei wird nicht für jede Seite erneut heruntergeladen, selbst wenn sie auf jeder Seite der Website verwendet wird. Auf den meisten Websites rufen Benutzer im Durchschnitt mehr als nur ein paar Seitenansichten pro Sitzung auf. Somit kann durch die Übertragung von mehrfach verwendetem JavaScript in diese Datei die insgesamt heruntergeladene Datenmenge reduziert werden.
+Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur einmal pro Sitzung heruntergeladen. Die Datei wird nicht auf jeder Seite heruntergeladen, obwohl sie von jeder Seite der Site verwendet wird. Auf den meisten Websites verwenden die Benutzer im Durchschnitt mehr als einige Ansichten pro Sitzung. Daher kann die Übertragung von mehrfach verwendetem JavaScript in diese  zu einer Verringerung der insgesamt heruntergeladenen Daten führen.
 
 ## H-Code-Komprimierung
 
