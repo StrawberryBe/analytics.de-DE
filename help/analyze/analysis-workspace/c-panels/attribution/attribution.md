@@ -3,7 +3,7 @@ description: 'null'
 title: Übersicht über das Attributionsbedienfeld
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Das Attributionsbedienfeld ist eine Funktion von [Attribution IQ](../../attribut
 | ![Zeitverfall](assets/time_decay.png) | Zeitverfall | Folgt einem exponentiellen Abfall mit einem benutzerdefinierten Parameter für die Halbwertszeit, wobei der Standardwert 7 Tage ist. Die Gewichtung der einzelnen Kanäle hängt von der Zeit ab, die zwischen dem Beginn des Touchpoints und der letztendlichen Konversion verstrichen ist. Die Formel, die zur Bestimmung der Gewichtung verwendet wird, lautet `2^(-t/halflife)`, wobei `t` die Zeit zwischen einem Touchpoint und einer Konversion ist. Alle Touchpoints werden dann auf 100 % normalisiert. | Ideal für Teams, die regelmäßig Videowerbung betreiben oder Marketing im Zusammenhang mit Ereignissen mit festem Datum durchführen. Je länger eine Konversion nach einem Marketing-Ereignis erfolgt, desto geringer ist die zugeschriebene Gewichtung. |
 | ![Beitrag](assets/participation.png) | Beitrag | 100 % Gewichtung für alle eindeutigen Touchpoints. Die Gesamtanzahl der Konversionen ist im Vergleich zu anderen Attributionsmodellen überhöht. Durch den Beitrag werden Kanäle dedupliziert, die mehrmals angezeigt werden. | Ausgezeichnet, um zu verstehen, wie häufig Kunden einer bestimmten Interaktion ausgesetzt sind. Medienunternehmen verwenden dieses Modell häufig zur Berechnung der Content Velocity. Einzelhandelsunternehmen verwenden dieses Modell oft, um zu verstehen, welche Teile ihrer Site für die Konversion von entscheidender Bedeutung sind. |
 
-> [!NOTE] Das folgende algorithmische Zuordnungsmodell ist derzeit in [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) verfügbar und wird möglicherweise Teil einer allgemeinen Version sein.
+>[!NOTE] Das folgende algorithmische Zuordnungsmodell ist derzeit in [Adobe Analytics Labs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/tech-previews/overview.html) verfügbar und wird möglicherweise Teil einer allgemeinen Version sein.
 
 | Benutzeroberflächensymbol | Attributionsmodell | Definition | Verwendungsbereiche |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Je nach Lookback-Fenster und Attributionsmodell erhalten Kanäle eine unterschie
       * Social Media: 18,6 %, 9,32 Euro
       * Paid Search: 13,8 %, 6,92 Euro
 
-> [!TIP] Andere Konversionsereignisse wie Bestellungen oder benutzerspezifische Ereignisse werden ebenfalls aufgeteilt, wenn die Gewichtung für mehrere Kanäle erfolgt. Wenn beispielsweise zwei Kanäle mit einem linearen Attributionsmodell zu einem benutzerspezifischen Ereignis beitragen, erhalten beide Kanäle 0,5 des benutzerspezifischen Ereignisses. Diese Ereignis-Teilbereiche werden über alle Besuche summiert und dann zur Berichterstellung auf die nächste Ganzzahl gerundet.
+>[!TIP] Andere Konversionsereignisse wie Bestellungen oder benutzerspezifische Ereignisse werden ebenfalls aufgeteilt, wenn die Gewichtung für mehrere Kanäle erfolgt. Wenn beispielsweise zwei Kanäle mit einem linearen Attributionsmodell zu einem benutzerspezifischen Ereignis beitragen, erhalten beide Kanäle 0,5 des benutzerspezifischen Ereignisses. Diese Ereignis-Teilbereiche werden über alle Besuche summiert und dann zur Berichterstellung auf die nächste Ganzzahl gerundet.
 
 ## Attribution für Marketing-Kanäle
 
@@ -97,4 +97,4 @@ Wenn Sie z. B. eine VRS mit angewendetem Segment „Hits anzeigen“ erstellen, 
 
 ![Schreibgeschützte Virtual Report Suite](assets/vrs-aiq-example.png)
 
-> [!NOTE] Wenn ein Segment Treffer unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter werden jedoch lediglich einige Dimensionswerte ausgeblendet, ohne dass dies Auswirkungen auf die pro Zuordnungsmodell verarbeiteten Metriken hat. Daher können Segmente und Filter mit vergleichbaren Definitionen manchmal niedrigere Werte für das Segment zurückgeben.
+>[!NOTE] Wenn ein Segment Treffer unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter werden jedoch lediglich einige Dimensionswerte ausgeblendet, ohne dass dies Auswirkungen auf die pro Zuordnungsmodell verarbeiteten Metriken hat. Daher können Segmente und Filter mit vergleichbaren Definitionen manchmal niedrigere Werte für das Segment zurückgeben.
