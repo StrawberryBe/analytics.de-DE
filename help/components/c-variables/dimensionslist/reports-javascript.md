@@ -3,8 +3,8 @@ description: Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät aktiv
 title: JavaScript-Unterstützung
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,13 +13,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zeigt Metriken basierend darauf an, ob JavaScript beim Gerät aktiviert oder deaktiviert ist oder ob es als „nicht identifiziert“ gezählt wird.
 
-> [!NOTE] Anfang November 2016 wird voraussichtlich die Beschränkung aufgehoben, durch die JavaScript immer aufgeführt ist als *`disabled / unidentified`* für Mobilgeräte.
+>[!NOTE] Anfang November 2016 wird voraussichtlich die Beschränkung aufgehoben, durch die JavaScript immer aufgeführt ist als *`disabled / unidentified`* für Mobilgeräte.
 
-Der JavaScript-Bericht entspricht der Spalte „javascript“ in den Rohdaten.
+Der JavaScript-Bericht entspricht der Spalte &quot;javascript&quot;in den Rohdaten.
 
-„javascript“ ist ein Feld auf Besuchsebene, daher bleibt der Wert des ersten Treffers des Besuchs erhalten. Die Spalte „javascript“ basiert auf dem ersten Wert in der Spalte „j_jscript“ (so wie in „visit_referrer“ nur der erste Referrer des Besuchs erhalten bleibt).
+javascript ist ein Feld auf Besuchsebene, daher wird der Wert des ersten Treffers im Besuch beibehalten. Die Spalte &quot;javascript&quot;basiert auf dem ersten Wert in der Spalte &quot;j_jscript&quot;(wie ein visit_Werber nur den ersten Werber des Besuchs beibehalten wird).
 
-„j_jscript“ wird über den Parameter „j“ aus der Adobe Analytics-Bildanforderung gefüllt.
+j_jscript wird aus dem Parameter j aus der Adobe Analytics-Bildanforderung gefüllt.
 
 Siehe folgendes Beispiel:
 
@@ -29,4 +29,4 @@ Siehe folgendes Beispiel:
 | 2 | 1,6 | 0 |
 | 3 | 1,6 | 0 |
 
-Demzufolge ist es unwichtig, ob Sie an irgendeinem Punkt des Besuchs eine JavaScript-Version festgelegt hatten – es kommt immer zu einer Nicht-JavaScript-Anzeige, weil der erste Treffer keinen Wert für „j_jscript“ enthalten hat.
+Daher ist es nicht wichtig, ob Sie eine JavaScript-Version zu einem bestimmten Zeitpunkt des Besuchs angegeben haben - es wird immer so angezeigt, als ob sie nicht Javascript ist, da der erste Treffer keinen Wert für j_jscript enthielt.
