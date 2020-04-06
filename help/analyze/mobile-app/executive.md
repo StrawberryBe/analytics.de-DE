@@ -1,53 +1,53 @@
 ---
-description: Anleitung zum Einrichten der App-Scorecards.
-title: Adobe Analytics Mobile App Curator Guide
-translation-type: tm+mt
+description: Anweisungen zum Einrichten von Scorecards für die mobile App.
+title: Kuratorhandbuch für die Adobe Analytics Mobile App
+translation-type: ht
 source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
 
-# Analytics Mobile App: Schnellstartanleitung für leitende Benutzer
+# Analytics Mobile App: Schnellstarthandbuch für ausführende Benutzer
 
 ## Einführung
 
-Die mobile Adobe Analytics-App bietet jederzeit und überall Einblicke aus Adobe Analytics.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Bei Scorecards handelt es sich um eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt sind und auf die Sie für detailliertere Aufschlüsselungen und Trendberichte tippen können. Die mobile App wird auf iOS- und Android-Betriebssystemen unterstützt.
+Mit der Adobe Analytics Mobile App stehen Benutzern jederzeit und überall Einblicke aus Adobe Analytics zur Verfügung.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
 
 ## Informationen zu diesem Handbuch
 
- Dieses Handbuch soll leitenden Benutzern helfen, Scorecards in der mobilen Analytics-App zu lesen und zu interpretieren. Die App ermöglicht es leitenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in der Analytics Mobile App zu lesen und zu interpretieren. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
-## Glossar der Begriffe
+## Glossar
 
 | Begriff | Definition |
 |--- |--- |
-| Verbraucher | Executive persona zeigt wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät an |
-| Kurator | Datenwörterbuch-Persona, die Erkenntnisse aus Analytics findet und verteilt und die vom Verbraucher anzuzeigenden Barcodes konfiguriert |
+| Verbraucher | Ausführende Person, die wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
+| Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
 | Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
-| Scorecard | Eine Ansicht für eine mobile App mit einer oder mehreren Kacheln |
-| Kachel | Rendering einer Metrik in einer Scorecard-Ansicht |
-| Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard aufgerufen werden kann. Diese Ansicht wird bei der auf der Kachel angezeigten Metrik erweitert und optional bei weiteren Aufschlüsselungsdimensionen berichtet. |
-| Datumsbereich | Der primäre Datumsbereich für Berichte über mobile Anwendungen |
+| Scorecard | Eine Ansicht der mobilen App mit einer oder mehreren Kacheln |
+| Kachel | Wiedergabe einer Metrik in einer Scorecard-Ansicht |
+| Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an. |
+| Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die mobile App |
 | Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
 
 ## App auf Ihrem Gerät einrichten
 
-Um die App effektiv zu nutzen, müssen Sie den Scorecard-Kurator zur Einrichtung der App verwenden. Dieser Abschnitt enthält Informationen, die Ihnen bei der Einrichtung mithilfe Ihres Kurators helfen.
+Um die App effektiv zu nutzen, bitten Sie Ihren Scorecard-Kurator bei der Einrichtung der App um Hilfe. Dieser Abschnitt enthält Informationen, die Ihnen helfen, die App zusammen mit Ihrem Kurator einzurichten.
 
-### Zugriff
+### Zugriff erhalten
 
 Um auf Scorecards in der App zuzugreifen, stellen Sie Folgendes sicher:
 
-* Sie haben eine gültige Anmeldung bei Adobe Analytics
-* Ihr Kurator hat Mobilgeräte-Scorecards korrekt erstellt und für Sie freigegeben
+* Sie haben gültige Anmeldeinformationen für Adobe Analytics.
+* Ihr Kurator hat mobile Scorecards korrekt erstellt und für Sie freigegeben.
 
-### Herunterladen und Installieren der App
+### App herunterladen und installieren
 
 Um die App herunterzuladen und zu installieren, führen Sie die Schritte entsprechend dem Betriebssystem auf Ihrem Gerät aus.
 
 **Für iOS-Geräte:**
 
-1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** &gt; **Mobile App** verfügbar):
+1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** > **Mobile App** verfügbar):
 
    [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -55,24 +55,24 @@ Um die App herunterzuladen und zu installieren, führen Sie die Schritte entspre
 
    ![Testflight-Bildschirm](assets/testflight1.png)
 
-2. Tippen Sie auf den Link **Im App Store** anzeigen, um die Testflight-App herunterzuladen.
+2. Tippen Sie auf den Link **Im App Store anzeigen** auf dem Bildschirm, um die Testflight-App herunterzuladen.
 
-3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics Mobile-App aus Testflight:
+3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics Mobile App in Testflight, wie unten gezeigt:
 
    ![Testflight-Bildschirm](assets/testflight2.png)
 
 **Für Android-Geräte:**
 
-1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** &gt; **Mobile App** verfügbar):
+1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** > **Mobile App** verfügbar):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link Als Tester werden:
+   Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link „Tester werden“:
 
    ![Play Store-Bildschirm](assets/play.png)
 
-2. Tippen Sie auf den Link zum **Herunterladen auf Google Play** im folgenden Bildschirm:
+2. Tippen Sie im folgenden Bildschirm auf den Link, damit Sie die App **bei Google Play herunterladen** können:
 
    ![Download-Link](assets/playnext.png)
 
@@ -80,73 +80,73 @@ Um die App herunterzuladen und zu installieren, führen Sie die Schritte entspre
 
 So verwenden Sie die App:
 
-1. Melden Sie sich bei der App an. Der Anmeldebildschirm wird beim Starten der App angezeigt. Folgen Sie den Eingabeaufforderungen mit Ihren vorhandenen Adobe Analytics-Anmeldeinformationen. Adobe und Enterprise/Federated IDs werden unterstützt.
+1. Melden Sie sich bei der App an. Der Anmeldebildschirm wird beim Start der App angezeigt. Folgen Sie den Anweisungen und melden Sie sich mit Ihren bestehenden Adobe Analytics-Anmeldeinformationen an. Adobe und Enterprise/Federated IDs werden unterstützt.
 
-   ![Sequenz anmelden](assets/signseq.png)
+   ![Anmeldesequenz](assets/signseq.png)
 
-2. Wählen Sie ein Unternehmen. Nach der Anmeldung bei der App wird der Bildschirm "Unternehmen **auswählen** "angezeigt. In diesem Bildschirm werden die Anmeldeunternehmen aufgelistet, zu denen Sie gehören. Tippen Sie auf den Firmennamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
+2. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei der App wird der Bildschirm **Unternehmen auswählen** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
-3. Die Scorecard-Liste zeigt dann alle Scorecards an, die für Sie freigegeben wurden. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
+3. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
 
-   *Hinweis: Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes mit Ihrem Kurator:*
+   *Hinweis: Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes zusammen mit Ihrem Kurator:*
 
-   * *Sie können sich bei der richtigen Analytics-Instanz anmelden*
-   * *Die Scorecard wurde für Sie freigegeben*
+   * *Sie können sich bei der richtigen Analytics-Instanz anmelden.*
+   * *Die Scorecard wurde für Sie freigegeben.*
 
       ![Nichts freigegeben](assets/nothing.png)
 
-4. Untersuchen Sie, wie die Kacheln in der Scorecard angezeigt werden.
+4. Sehen Sie sich die Kacheln an, die in der Scorecard angezeigt werden.
 
    ![Erklärte Kacheln](assets/newexplain.png)
 
    Zusätzliche Informationen zu Kacheln:
 
-   * Die Granularität der Wortgrafiken hängt von der Länge des Datumsbereichs ab:
-   * Ein Tag zeigt einen stündlichen Trend
-   * Mehr als ein Tag und weniger als ein Jahr zeigen einen täglichen Trend
-   * Ein Jahr oder mehr zeigt einen wöchentlichen Trend an
-   * Formel zur Änderung des Prozentwerts ist Metriksumme (aktueller Datumsbereich) - Metriksumme (Vergleichsdatumsbereich) / Metriksumme (Vergleichsdatumsbereich).
+   * Die Granularität der Sparklines hängt von der Länge des Datumsbereichs ab:
+   * Für einen Tag wird ein stündlicher Trend angezeigt.
+   * Für mehr als einen Tag und weniger als ein Jahr wird ein täglicher Trend angezeigt.
+   * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
+   * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
    * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.
 
-5. Tippen Sie auf eine Kachel, um anzuzeigen, wie eine detaillierte Aufschlüsselung für die Kachel funktioniert.
+5. Tippen Sie auf eine Kachel, um zu zeigen, wie eine detaillierte Aufschlüsselung für die Kachel funktioniert.
 
    ![Aufschlüsselungsansicht](assets/sparkline.png)
 
 
-6. So ändern Sie Datumsbereiche für Ihre Wertungsliste:
+6. So ändern Sie Datumsbereiche für Ihre Scorecard:
 
    ![Datum ändern](assets/changedate.png)
 
    *Hinweis: Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungsansicht auf dieselbe Weise ändern.*
 
-   Je nachdem, auf welchen Zeitraum Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche: entweder den aktuellen Zeitraum oder den unmittelbar davor liegenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste " **VERGLEICHEN MIT** "auf eine der angezeigten Optionen, um die Daten dieses Zeitraums mit dem ersten ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig** . Die Kacheln **Datumsbereiche** und Scorecard werden mit den neuen Vergleichsdaten aus den ausgewählten Bereichen aktualisiert.
+   Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
-7. Hier finden Sie Aktualisierungen zu Scorecard. Wenn eine Scorecard nicht alle Metriken oder Aufschlüsselungen enthält, die für Sie von Interesse sein könnten, wenden Sie sich an Ihr Analytics-Team, um die Scorecard zu aktualisieren. Nach der Aktualisierung können Sie die Karte auf dem Bildschirm nach unten ziehen, um sie zu aktualisieren und die kürzlich hinzugefügten Daten zu laden.
+7. Fordern Sie eine Scorecard-Aktualisierung an. Wenn eine Scorecard nicht alle Metriken oder Aufschlüsselungen enthält, die für Sie von Interesse sein könnten, wenden Sie sich an Ihr Analytics-Team, um die Scorecard zu aktualisieren. Nach der Aktualisierung können Sie die Karte auf dem Bildschirm nach unten ziehen, um sie zu aktualisieren und die kürzlich hinzugefügten Daten zu laden.
 
 
 
-8. Lassen Sie Feedback. So hinterlassen Sie Feedback:
+8. Feedback hinterlassen. So hinterlassen Sie Feedback:
 
-   1. Tippen Sie auf das Benutzersymbol oben rechts im App-Bildschirm.
-   2. Tippen Sie im Bildschirm " **Mein Konto** "auf die Option **Feedback** .
-   3. Tippen Sie auf , um die Optionen zum Verlassen des Feedbacks anzuzeigen.
+   1. Tippen Sie auf das Benutzersymbol in der oberen rechten Ecke des App-Bildschirms.
+   2. Tippen Sie auf dem Bildschirm **Mein Konto** auf die Option **Feedback**.
+   3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
    ![Feedback hinterlassen](assets/feedback.png)
    ![Feedback-Optionen](assets/feedback_option.png)
 
 
-**So melden Sie einen Fehler**:
+**So melden Sie einen Fehler:**
 
-Tippen Sie auf die Option und wählen Sie eine Unterkategorie des Fehlers. Geben Sie im Formular zur Meldung eines Fehlers im oberen Feld Ihre E-Mail-Adresse und Ihre Beschreibung des Fehlers im Feld darunter ein. Ein Screenshot Ihrer Kontoinformationen wird automatisch an die Nachricht angehängt. Sie können dies jedoch löschen, indem Sie auf das **X** im Anlagenbild tippen. Sie haben auch Optionen zum Aufnehmen von Screenshots, Hinzufügen von Screenshots oder Anhängen von Dateien. Um den Bericht zu senden, tippen Sie oben rechts im Formular auf das Papierebenensymbol.
+Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Fehler aus. Geben Sie im Formular zur Meldung eines Fehlers im obersten Feld Ihre E-Mail-Adresse und im Feld darunter eine Beschreibung des Fehlers an. Ein Screenshot Ihrer Kontoinformationen wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um den Bericht zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
 
 
-![Berichtsfehler](assets/newbug.png)
+![Fehler melden](assets/newbug.png)
 
-**Verbesserungsvorschläge**:
+**So schlagen Sie eine Verbesserung vor**:
 
-Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Vorschlag aus. Geben Sie im Empfehlungsformular Ihre E-Mail-Adresse im oberen Feld und Ihre Beschreibung des Fehlers im Feld darunter ein. Ein Screenshot Ihrer Kontoinformationen wird automatisch an die Nachricht angehängt. Sie können dies jedoch löschen, indem Sie auf das **X** im Anlagenbild tippen. Sie haben auch Optionen zum Aufnehmen von Screenshots, Hinzufügen von Screenshots oder Anhängen von Dateien. Um den Vorschlag zu senden, tippen Sie oben rechts im Formular auf das Papierebenensymbol.
+Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Vorschlag aus. Geben Sie im Vorschlagsformular im obersten Feld Ihre E-Mail-Adresse und im Feld darunter eine Beschreibung des Vorschlags an. Ein Screenshot Ihrer Kontoinformationen wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um den Vorschlag zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
 
-**So stellen Sie eine Frage**:
+**So stellen Sie eine Frage:**
 
-Tippen Sie auf die Option und geben Sie Ihre E-Mail-Adresse im oberen Feld und Ihre Frage im Feld darunter ein. Ein Screenshot wird automatisch an die Nachricht angehängt. Sie können dies jedoch löschen, indem Sie im Anlagenbild auf das **X** tippen. Sie haben auch Optionen zum Aufnehmen von Screenshots, Hinzufügen von Screenshots oder Anhängen von Dateien. Um die Frage zu senden, tippen Sie oben rechts im Formular auf das Papierebenensymbol.
+Tippen Sie auf die Option und geben Sie im obersten Feld Ihre E-Mail-Adresse und im Feld darunter Ihre Frage an. Ein Screenshot wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um die Frage zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
