@@ -1,19 +1,19 @@
 ---
-description: Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
+description: Auf der Seite "Suchmethoden"wird angegeben, wie verschiedene Suchmethodenberichte Gutschriften für Konversionserfolg-Ereignis auf Ihrer Site erhalten. Wenn eine Suchmaschine beispielsweise einen Besucher auf Ihre Site verweist, der einen Kauf tätigt, geben Suchmethoden an, wie die Suchmaschine die Gutschrift für den Verweis erhält.
 title: Suchmethoden
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Suchmethoden
 
-Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
+Auf der Seite &quot;Suchmethoden&quot;wird angegeben, wie verschiedene Suchmethodenberichte Gutschriften für Konversionserfolg-Ereignis auf Ihrer Site erhalten. Wenn eine Suchmaschine beispielsweise einen Besucher auf Ihre Site verweist, der einen Kauf tätigt, geben Suchmethoden an, wie die Suchmaschine die Gutschrift für den Verweis erhält.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Suchmethoden]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
 
 ## Suchmethoden – Beschreibungen {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -27,11 +27,11 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
  <tbody> 
   <tr> 
    <td colname="col1"> Name </td> 
-   <td colname="col2"> Die zu ändernde Suchmethode </td> 
+   <td colname="col2"> Die Suchmethode, die Sie ändern möchten </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Zuordnung </td> 
-   <td colname="col2"> Gibt an, wie eine Gutschrift für einen Verweis angewendet werden soll. Die unterstützten Optionen für die Zuordnung umfassen: <p> <span class="uicontrol"> Zuletzt verwendet (Letzter):</span> Alle Gutschriften gehen an die letzte verweisende Stelle (Standard). </p> <p> <span class="uicontrol"> Ausgangswert:</span> Alle Gutschriften gehen an die erste verweisende Stelle. </p> <p> <span class="uicontrol"> Linear:</span> Gutschriften werden gleichberechtigt an alle verweisenden Stellen verteilt. </p> </td> 
+   <td colname="col2"> Gibt an, wie eine Gutschrift für eine Verweisung angewendet werden soll. Zu den unterstützten Zuordnungsoptionen gehören: <p> <span class="uicontrol"> Zuletzt verwendet (Letzter):</span> Alle Gutschriften gehen an die letzte verweisende Stelle (Standard). </p> <p> <span class="uicontrol"> Ausgangswert:</span> Alle Gutschriften gehen an die erste verweisende Stelle. </p> <p> <span class="uicontrol"> Linear:</span> Gutschriften werden gleichberechtigt an alle verweisenden Stellen verteilt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Läuft ab nach </td> 
@@ -52,5 +52,5 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
  </tbody> 
 </table>
 
-> [!NOTE] Alle Suchmethoden laufen mit dem Ende des Besuchs ab. Wenn Sie für „Läuft ab nach“ ein anderes Ereignis auswählen (z. B. „Warenkorb zur Kasse“), läuft die Suchmethode ab, wenn dieses Ereignis während des Besuchs erfolgt. Wenn „Warenkorb zur Kasse“ nicht während des Besuchs erfolgt, läuft die Suchmethode trotzdem mit dem Besuch ab.
+>[!NOTE] Alle Suchmethoden laufen mit dem Ende des Besuchs ab. Wenn Sie &quot;Läuft ab nach einem anderen Ereignis&quot;(z. B. &quot;Einkaufswagen zur Kasse&quot;) wählen, läuft die Suchmethode ab, wenn der Einkaufswagen während des Besuchs ausgecheckt wird. Wenn während des Besuchs kein Einkaufswagen zur Kasse geöffnet wird, läuft die Suchmethode immer noch ab, wenn der Besuch beendet wird.
 
