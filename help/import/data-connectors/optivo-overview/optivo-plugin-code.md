@@ -2,8 +2,8 @@
 description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
 title: Adobe Analytics-Plug-in-Code
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte benutzerspezifische Commerce-Variablen (eVars) verfügbar sind. Wenn die im Plug-in angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
+>[!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte benutzerspezifische Commerce-Variablen (eVars) verfügbar sind. Wenn die im Plug-in angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
 
