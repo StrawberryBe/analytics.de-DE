@@ -1,8 +1,8 @@
 ---
 title: Implementierungs-Modal
 description: Setzen Sie mit den Erfahrungen von Erstkonsumenten Adobe Analytics-Implementierungen um.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,14 +24,14 @@ Ihre Adobe ID muss Zugriff auf Adobe Analytics und Adobe Experience Platform
 Greifen Sie auf das Modal zu, um eine Report Suite mit den folgenden Schritten zu erstellen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf [!UICONTROL Adobe Analytics].
-3. Wenn Sie noch keine Report Suite erstellt haben, wird das Modal automatisch angezeigt. Wenn für dieses Anmeldeunternehmen eine Report Suite vorhanden ist, klicken Sie auf das Hilfesymbol oben rechts und dann auf [!UICONTROL Willkommen bei Adobe Analytics].
+2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf [!UICONTROL Adobe Analytics].
+3. Wenn Sie noch keine Report Suite erstellt haben, wird das Modal automatisch angezeigt. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] Die Option [!UICONTROL Willkommen bei Adobe Analytics] wird nur angezeigt, wenn Sie sich über die Adobe Experience Cloud anmelden. Wenn Sie sich über veraltete Domänen anmelden, ist das Modal nicht verfügbar.
+>[!NOTE] Die [!UICONTROL Welcome to Adobe Analytics] Option wird nur angezeigt, wenn Sie sich über die Adobe Experience Cloud anmelden. Wenn Sie sich über veraltete Domänen anmelden, ist das Modal nicht verfügbar.
 
 ## Erstellen einer Report Suite
 
-Klicken Sie auf die Schaltfläche [!UICONTROL Einrichtung beginnen], um den Workflow zum Erstellen der Report Suite zu starten.
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![RS-Assistent](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ Schätzen Sie, wie viel Traffic Ihre Website oder App pro Tag erhält. Anhand di
 
 Legen Sie fest, in welcher Währung die Report Suite Geldwerte speichert.
 
-> [!IMPORTANT] Stellen Sie sicher, dass Sie die richtige Währung angeben, insbesondere wenn Sie Umsatzberichtspflichten unterliegen. Es ist schwierig, die Basiswährung nach dem Beginn der Datenerfassung zu ändern.
+>[!IMPORTANT] Stellen Sie sicher, dass Sie die richtige Währung angeben, insbesondere wenn Sie Umsatzberichtspflichten unterliegen. Es ist schwierig, die Basiswährung nach dem Beginn der Datenerfassung zu ändern.
 
 ## Ressourcen für die Implementierung
 
