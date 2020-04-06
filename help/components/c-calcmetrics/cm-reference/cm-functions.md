@@ -2,8 +2,8 @@
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 title: 'Referenz: Grundfunktionen'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,15 +14,15 @@ Mit dem Generator für berechnete Metriken können Sie statistische und mathemat
 
 Im Folgenden werden die Funktionen und ihre Definitionen alphabetisch aufgelistet.
 
-> [!NOTE] Wenn [!DNL metric] als Argument in einer Funktion angegeben ist, sind auch andere Ausdrücke von Metriken zulässig. Beispiel: [!DNL MAXV(metrics)] ermöglicht auch [!DNL MAXV(PageViews + Visits).]
+>[!NOTE] Wenn [!DNL metric] als Argument in einer Funktion angegeben ist, sind auch andere Ausdrücke von Metriken zulässig. Beispiel: [!DNL MAXV(metrics)] ermöglicht auch [!DNL MAXV(PageViews + Visits).]
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
+Eine Tabellenfunktion ist eine Funktion, bei der die Ausgabe für jede Tabellenzeile gleich ist. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
 ## Absolutwert (Zeile) {#concept_4CC47884F7CA49D5B84AC898EA596673}
 
-Gibt den Absolutwert einer Zahl zurück. Der Absolutwert einer Zahl ist die Zahl mit einem positiven Wert.
+Liefert den Absolutwert einer Zahl. Der Absolutwert einer Zahl ist die Zahl ohne Vorzeichen.
 
 ```
 ABS(metric)
@@ -30,7 +30,7 @@ ABS(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Absolutwert abrufen möchten. |
+| *Metrik* | Die Metrik, deren Absolutbetrag gewünscht ist. |
 
 ## Spaltenmaximum {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
@@ -42,7 +42,7 @@ MAXV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die Sie auswerten möchten. |
+| *Metrik* | Eine Metrik, die ausgewertet werden soll. |
 
 ## Spaltenminimum {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -54,7 +54,7 @@ MINV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die Sie auswerten möchten. |
+| *Metrik* | Eine Metrik, die ausgewertet werden soll. |
 
 ## Spaltensumme {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -66,11 +66,11 @@ SUM(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
 
 ## Anzahl (Tabelle) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
-Gibt die Zahl oder Anzahl der Werte ungleich null für eine Metrik innerhalb einer Spalte zurück (die Anzahl der eindeutigen Elemente innerhalb einer Dimension).
+Gibt die Zahl oder Anzahl der Werte für eine Metrik innerhalb einer Spalte zurück, die ungleich null sind (die Anzahl berichteter eindeutiger Elemente innerhalb einer Dimension).
 
 ```
 COUNT(metric)
@@ -78,11 +78,11 @@ COUNT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die gezählt werden soll. |
+| *Metrik* | Die Metrik, die gezählt werden soll. |
 
 ## Exponent (Zeile) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
-Gibt *e* hoch eine angegebene Zahl zurück. Die Konstante *e* ist gleich 2,71828182845904 (der Basis des natürlichen Logarithmus). EXP ist die Umkehrung von LN, des natürlichen Logarithmus einer Zahl.
+Returns *e* raised to the power of a given number. The constant *e* equals 2.71828182845904, the base of the natural logarithm. EXP is the inverse of LN, the natural logarithm of a number.
 
 ```
 EXP(metric)
@@ -90,7 +90,7 @@ EXP(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Exponent, der auf Basis *e* angewendet wird. |
+| *Metrik* | The exponent applied to the base *e*. |
 
 ## Potenzierung {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -110,11 +110,11 @@ MEAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
+| *Metrik* | Die Metrik, deren Durchschnitt gewünscht ist. |
 
 ## Medianwert (Tabelle) {#concept_183EC31208524EDB8463D986DE2E895F}
 
-Gibt den Medianwert für eine Metrik in einer Spalte zurück. Der Medianwert ist die Zahl in der Mitte eines Zahlensatzes, d. h. die Hälfte der Zahlen hat Werte größer oder gleich dem Medianwert und die Hälfte ist kleiner oder gleich dem Medianwert.
+Gibt den Medianwert für eine Metrik in einer Spalte zurück. Der Medianwert ist die Zahl in der Mitte eines Zahlensatzes, d. h. die Hälfte der Zahlen hat Werte größer oder gleich dem Medianwert und die Hälfte ist kleiner oder gleich dem Medianwert.
 
 ```
 MEDIAN(metric)
@@ -122,11 +122,11 @@ MEDIAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
+| *Metrik* | Die Metrik, deren Mittelwert gewünscht ist. |
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
-Der Rest von col1/col2 mit euklidischer Division.
+Der Rest von col1 / col2, unter Verwendung der Euclidean Division.
 
 Gibt den Rest zurück, nachdem x durch y geteilt wurde.
 
@@ -134,7 +134,7 @@ Gibt den Rest zurück, nachdem x durch y geteilt wurde.
 x = floor(x/y) + modulo(x,y)
 ```
 
-Der Rückgabewert hat dasselbe Vorzeichen wie die Eingabe (oder ist null).
+Der Rückgabewert hat das gleiche Zeichen wie die Eingabe (oder ist Null).
 
 ```
 modulo(4,3) = 1 
@@ -150,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Perzentil (Tabelle) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Gibt das k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion können Sie einen Akzeptanzschwellenwert einrichten. Sie können beispielsweise Dimensionselemente untersuchen, die über dem 90. Perzentil liegen.
+Gibt den k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion können Sie einen Akzeptanzschwellenwert festlegen. Sie können beispielsweise Dimensionselemente untersuchen, die über dem 90. Perzentil liegen.
 
 ```
 PERCENTILE(metric,k)
@@ -165,12 +165,12 @@ PERCENTILE(metric,k)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Die Metrikspalte, die die relative Position definiert. </td> 
+   <td colname="col1"> <i>Metrik</i> </td> 
+   <td colname="col2"> Die metrische Spalte, die die relative Position definiert. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> Der Perzentilwert im Bereich von 0 bis 100 (einschließlich). </td> 
+   <td colname="col2"> Der Prozentwert im Bereich von 0 bis 100. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -192,21 +192,21 @@ QUARTILE(metric,quart)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Die Metrik, für die Sie den Quartilwert abrufen möchten. </td> 
+   <td colname="col1"> <i>Metrik</i> </td> 
+   <td colname="col2"> Die Metrik, deren Quartalswert gewünscht ist. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> Gibt an, welcher *-Wert zurückgegeben werden soll. </td> 
+   <td colname="col2"> Gibt an, welcher *Wert zurückgegeben werden soll. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenn *quart* = 0 ist, gibt QUARTILE den Mindestwert zurück. Wenn *quart* = 1 ist, gibt QUARTILE das zweite Quartil (25. Perzentil) zurück. Wenn *quart* = 2 ist, gibt QUARTILE das zweite Quartil (50. Perzentil) zurück. Wenn *quart* = 3 ist, gibt QUARTILE das zweite Quartil (75. Perzentil) zurück. Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
+*If *quart* = 0, QUARTILE returns the minimum value. Wenn *quart* = 1 ist, gibt QUARTILE das zweite Quartil (25. Perzentil) zurück. Wenn *quart* = 2 ist, gibt QUARTILE das zweite Quartil (50. Perzentil) zurück. Wenn *quart* = 3 ist, gibt QUARTILE das zweite Quartil (75. Perzentil) zurück. Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
 
 ## Rund {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Gibt die nächste Ganzzahl für einen Wert zurück. Beispiel: Wenn Sie keine Währungsdezimalzahlen für den Umsatz in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel Rund(*Umsatz*) den Umsatz bis zum nächsten Dollar runden (in diesem Fall 569 US-Dollar). Ein Produkt mit einem Umsatz von 569,51 US-Dollar wird zum nächsten Dollarbetrag (570 US-Dollar) gerundet.
+Gibt die nächste Ganzzahl für einen Wert zurück. Beispiel: Wenn Sie keine Währungsdezimalzahlen für den Umsatz in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel Rund(*Umsatz*) den Umsatz bis zum nächsten Dollar runden (in diesem Fall 569 US-Dollar). Ein Berichte im Wert von 569,51 US-Dollar wird auf den nächsten Dollar gerundet oder 570 US-Dollar.
 
 ```
 ROUND(metric)
@@ -216,7 +216,7 @@ ROUND(metric)
 |---|---|
 | *Anzahl* | Die Metrik, die gerundet werden soll. |
 
-Das Runden ohne Stellenparameter ist mit dem Runden mit dem Stellenparameter 0 identisch, also der Rundung zur nächsten Ganzzahl. Wenn Sie einen Stellenparameter angeben, wird die angegebene Anzahl an Stellen rechts neben dem Dezimalzeichen zurückgegeben. Wenn der Stellenparameter negativ ist, werden Nullen links neben dem Dezimalzeichen zurückgegeben.
+Das Runden ohne Ziffer-Parameter entspricht dem Runden mit einem Ziffer-Parameter von 0, also dem Runden auf die nächste Ganzzahl. Bei der Verwendung eines Ziffer-Parameters wird ein Wert mit der angegebenen Zahl rechts vom Dezimaltrennzeichen zurückgegeben. Falls der Ziffer-Parameter negativ ist, werden Nullen links vom Dezimaltrennzeichen zurückgegeben.
 
 ```
 round( 314.15, 0) = 314 
@@ -243,7 +243,7 @@ Die Summe der Spalten in jeder Zeile.
 
 ## Quadratwurzel (Zeile) {#concept_6460DFA51EC24527A2317970FB76D404}
 
-Gibt die positive Quadratwurzel einer Zahl zurück. Die Quadratwurzel einer Zahl ist der Wert dieser Zahl hoch 1/2.
+Gibt die positive Quadratwurzel einer Zahl zurück. Die Quadratwurzel einer Zahl ist der Wert der Zahl hoch 1/2.
 
 ```
 SQRT(metric)
@@ -251,7 +251,7 @@ SQRT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Anzahl* | Die Metrik, für die Sie die Quadratwurzel abrufen möchten. |
+| *Anzahl* | Die Metrik, deren Quadratwurzel gewünscht ist. |
 
 ## Standardabweichung (Tabelle) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
@@ -261,7 +261,7 @@ Die Gleichung für STDEV lautet:
 
 ![](assets/std_dev.png)
 
-wobei x das arithmetische Beispielmittel (*metric*) und *n* die Beispielgröße ist.
+wobei x das Beispielmittel (*Metrik*) und *n* die Stichprobengröße ist.
 
 ```
 STDEV(metric)
@@ -274,7 +274,7 @@ STDEV(metric)
    <td> <b> Beschreibung</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
+   <td> <b> <i> Metrik</i></b> </td> 
    <td> <p> Die Metrik, deren Standardabweichung gewünscht ist. </p> </td> 
   </tr> 
  </tbody> 
@@ -288,7 +288,7 @@ Die Gleichung für VARIANCE lautet:
 
 ![](assets/variance_eq.png)
 
-wobei x das arithmetische Beispielmittel MEAN(*metric*) und *n* die Beispielgröße ist.
+wobei x das Beispielmittel, MEAN(*metric*) und *n* die Stichprobengröße ist.
 
 ```
 VARIANCE(metric)
@@ -296,9 +296,9 @@ VARIANCE(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
+| *Metrik* | Die Metrik, deren Varianz gewünscht ist. |
 
-Zur Berechnung einer Varianz sehen Sie sich eine gesamte Spalte von Zahlen an. Aus dieser Liste von Zahlen berechnen Sie zunächst den Durchschnitt. Sobald Sie den Durchschnitt ermittelt haben, sehen Sie sich jeden Eintrag an und tun Folgendes:
+Um eine Varianz zu berechnen, betrachten Sie eine ganze Spalte mit Zahlen. Aus dieser Liste von Zahlen berechnen Sie zunächst den Durchschnitt. Sobald Sie den Durchschnitt erreicht haben, durchlaufen Sie jeden Eintrag und führen Sie folgende Schritte durch:
 
 1. Ziehen Sie den Durchschnitt von der Zahl ab.
 
@@ -306,7 +306,7 @@ Zur Berechnung einer Varianz sehen Sie sich eine gesamte Spalte von Zahlen an. A
 
 3. Fügen Sie diesen Wert zum Gesamtergebnis hinzu.
 
-Sobald Sie die gesamte Spalte durchlaufen haben, haben Sie ein einziges Gesamtergebnis. Teilen Sie dann dieses Gesamtergebnis durch die Anzahl der Elemente in der Spalte. Die resultierende Zahl ist die Varianz für die Spalte. Es handelt sich dabei um eine einzige Zahl. Allerdings wird der Wert in Form einer Spalte mit Zahlen angezeigt.
+Nachdem Sie die gesamte Spalte durchlaufen haben, haben Sie eine einzige Summe. Dividieren Sie dann diese Summe durch die Anzahl der Elemente in der Spalte. Diese Zahl ist die Varianz für die Spalte. Es ist eine einzige Zahl. Er wird jedoch als Zahlenspalte angezeigt.
 
 Beispiel: Sie haben eine Spalte mit drei Elementen:
 
@@ -316,7 +316,7 @@ Beispiel: Sie haben eine Spalte mit drei Elementen:
 
 3
 
-Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spaltet lautet dann ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis wird dies wie folgt aussehen:
+Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spaltet lautet dann ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad-hoc-Analysen sieht dies wie folgt aus:
 
 1 2/3
 
