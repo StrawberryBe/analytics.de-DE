@@ -2,8 +2,8 @@
 description: Das neue System für intelligente Warnhinweise erlaubt eine feiner abgestufte Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
 title: Übersicht über intelligente Warnhinweise
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Intelligente Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Wa
 
 ## Überblick
 
-Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ in Analysis Workspace ersetzen die bisherigen Funktionen in Reports &amp; Analytics. Mithilfe intelligenter Warnhinweise können Sie:
+Die neue Warnhinweiserstellung und der Warnhinweis-Manager in Analyse Workspace ersetzen die vorhandene Warnhinweisfunktion in Reports &amp; Analysen. Mithilfe intelligenter Warnhinweise können Sie:
 
 * Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%-, 99-%-, 99,75-%- und 99,9-%-Schwellen, Änderungen in %, darüber/darunter)
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird
@@ -25,19 +25,19 @@ Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ i
 
 Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
-* Direkt zum Warnhinweiserstellung wechseln: **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**
+* Direkt zum Warnhinweiserstellung wechseln:  **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
 * Verwenden des Tastaturbefehls in Workspace : `Ctrl + Shift + A` (Windows) oder `Cmd + Shift + A` (Mac)
-* Ein oder mehrerer Freiformtabellen-Zeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen]** auswählen. Dadurch wird der Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
+* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Dadurch wird der Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
    ![Warnhinweis aus Auswahl erstellen](assets/create-alert-from-selection.png)
 
-* Indem Sie in einem Reports &amp; Analytics-Bericht zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren. Dadurch wird die Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden vorausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
+* Gehen Sie von einem Reports &amp; Analysen-Bericht zu **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Dadurch wird die Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter aus dem Bericht werden vorausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
    ![Warnhinweis hinzufügen](assets/add-alert.png)
 
 Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  werden [verschiedene Modelle](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99.75 %).
 
-> [!IMPORTANT] Die Verwendung von Zeitstempeldaten zur Erstellung von Warnhinweisen kann dazu führen, dass Warnhinweise falsch ausgelöst werden. Adobe empfiehlt die Verwendung von Daten ohne Zeitstempel für intelligente Warnhinweise.
+>[!IMPORTANT] Die Verwendung von Zeitstempeldaten zur Erstellung von Warnhinweisen kann dazu führen, dass Warnhinweise falsch ausgelöst werden. Adobe empfiehlt die Verwendung von Daten ohne Zeitstempel für intelligente Warnhinweise.
 
 ## Anomalie-Suche nach Warnungen
 
