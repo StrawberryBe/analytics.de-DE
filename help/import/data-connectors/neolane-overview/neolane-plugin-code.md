@@ -2,8 +2,8 @@
 description: Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt haben, kopieren Sie die folgenden Codezeilen und fügen Sie sie dem Adobe Analytics-Code auf Ihren Seiten hinzu.
 title: Adobe Analytics-Plug-in-Code
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,5 +22,5 @@ Wenn Sie die Datenerfassungsmethode für das JavaScript-Plug-In ausgewählt habe
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte benutzerspezifische Commerce-Variablen (eVars) verfügbar sind. Wenn die im Plug-in angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
+>[!NOTE] Das oben stehende Plug-in setzt voraus, dass bestimmte benutzerspezifische Commerce-Variablen (eVars) verfügbar sind. Wenn die im Plug-in angegebenen Variablen nicht in Ihrer Adobe Analytics-Bereitstellung verfügbar sind, ersetzen Sie sie einfach durch die verfügbaren Variablen.
 
