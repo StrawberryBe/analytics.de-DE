@@ -1,57 +1,57 @@
 ---
-title: „products“
-description: Senden Sie Daten darüber, welche Produkte oder Produkte im Warenkorb angezeigt werden.
+title: products
+description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# „products“
+# products
 
-Die `products` Variable verfolgt mit ihnen verbundene Produkte und Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine Variable mit mehreren Werten. Das bedeutet, dass Sie mehrere Produkte im selben Treffer senden können und Adobe den Wert in separate Dimensionswerte analysiert.
+Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine mehrwertige Variable, d. h. Sie können mehrere Produkte mit demselben Treffer senden, und Adobe parst den Wert in separate Dimensionswerte.
 
-> [!NOTE] Wenn diese Variable in einem Treffer ohne Warenkorb-Ereignis in der [`events`](events/events-overview.md) Variablen festgelegt wird, wird die Metrik &quot;Ansichten&quot;um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer das passende Ereignis für den Warenkorb festlegen.
+>[!NOTE] Wenn diese Variable in einem Treffer ohne Warenkorbereignis in der [`events`](events/events-overview.md)-Variablen festgelegt wird, wird die Metrik „Produktansichten“ um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer das entsprechende Warenkorbereignis festlegen.
 
 ## Produkte in Adobe Experience Platform Launch
 
-Es gibt kein spezielles Feld in Launch, um diese Variable festzulegen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, um Hilfe zu leisten.
+Es gibt kein spezielles Feld in Launch, um diese Variable zu setzen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, die helfen können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf [!UICONTROL Catalog] , um alle verfügbaren Erweiterungen anzuzeigen.
-4. Suchen Sie nach dem Begriff &quot;Produkt&quot;, der mehrere verfügbare Erweiterungen enthält, um diese Variable einzustellen.
+3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
+4. Suchen Sie nach dem Begriff „product“, der mehrere verfügbare Erweiterungen zum Festlegen dieser Variablen anzeigt.
 
-Sie können eine dieser Erweiterungen verwenden oder den benutzerdefinierten Code-Editor nach der AppMeasurement-Syntax weiter unten verwenden.
+Sie können eine dieser Erweiterungen oder den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax unten verwenden.
 
-## s.products in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.products in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.products` Variable ist eine Zeichenfolge, die mehrere durch Trennzeichen getrennte Felder pro Produkt enthält. Jedes einzelne Produkt kann bis zu 100 Byte über alle Felder hinweg enthalten. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
+Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pro Produkt enthält. Jedes einzelne Produkt kann über alle Felder hinweg bis zu 100 Byte enthalten. Übergeben Sie jedes Feld mit einem Semikolon (`;`) in der Zeichenfolge.
 
-* **Kategorie** (optional): Die übergreifende Kategorie des Produkts. Ihr Unternehmen entscheidet, wie Produkte in Kategorien gruppiert werden.
+* **Kategorie** (optional): Die übergeordnete Produktkategorie. Ihr Unternehmen entscheidet, wie Produkte in Kategorien unterteilt werden.
 * **Produktname** (erforderlich): Der Name des Produkts.
-* **Menge** (optional): Wie viele dieser Produkte sind im Einkaufswagen. Dieses Feld gilt nur für Treffer mit dem Kauf-Ereignis.
-* **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge mehr als ein Produkt, so setzen Sie den Preis auf den Gesamtpreis und nicht auf den individuellen Produktpreis. Richten Sie die Währung dieses Werts an die [`currencyCode`](../config-vars/currencycode.md) Variable aus. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kauf-Ereignis.
-* **Ereignisse** (optional): Ereignis, die an das Produkt gebunden sind. Senden Sie mehrere Ereignis mit einer Pipe (`|`). Weitere Informationen finden Sie unter [Ereignisse](events/events-overview.md) .
-* **eVars** (optional): Merchandising-eVars, die mit dem Produkt verknüpft sind. Senden Sie mehrere Merchandising-eVars mit einer Pipe (`|`). Weitere Informationen finden Sie unter [Merchandising eVars](../../../components/c-variables/c-merch-variables/var-merchandising.md) .
+* **Menge** (optional): Die Anzahl dieser Produkte im Warenkorb. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
+* **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge größer als 1, setzen Sie den Preis auf den Gesamtpreis und nicht auf den Einzelproduktpreis. Stellen Sie sicher, dass die Währung dieses Werts mit der [`currencyCode`](../config-vars/currencycode.md)-Variablen übereinstimmt. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
+* **Ereignisse** (optional): Ereignisse, die mit dem Produkt verknüpft sind. Trennen Sie mehrere Ereignisse mit einem senkrechten Strich (`|`). Weitere Informationen finden Sie unter [Ereignisse](events/events-overview.md).
+* **eVars** (optional): Merchandising-eVars, die mit dem Produkt verknüpft sind. Trennen Sie mehrere Merchandising-eVars mit einem senkrechten Strich (`|`). Weitere Informationen finden Sie unter [Merchandising eVars](../../../components/c-variables/c-merch-variables/var-merchandising.md).
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Diese Variable unterstützt mehrere Produkte im selben Treffer. Es ist wertvoll für Einkaufswagen und Einkäufe mit mehreren Produkten. Während pro Produkt ein Grenzwert von 100 Byte gilt, beträgt die Gesamtlänge der `products` Variablen 64 K. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
+Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Während pro Produkt ein 100-Byte-Grenze gilt, beträgt die Gesamtlänge der `products`-Variablen 64 KB. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Entfernen Sie alle Semikolons, Kommas und Rohre aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Diese fehlerhafte Analyse löst den Rest der Produktzeichenfolge aus und führt zu fehlerhaften Daten in Dimensionen und Berichten.
+>[!IMPORTANT] Entfernen Sie alle Semikolons, Kommas und Rohre aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Durch dieses fehlerhafte Parsing wird der Rest der Produktzeichenfolge falsch analysiert. Das führt zu fehlerhaften Daten in Dimensionen und Berichten.
 
 ## Beispiele
 
-Die `products` Variable ist flexibel, wenn Felder ausgelassen und mehrere Produkte einbezogen werden. Durch diese Flexibilität kann es leicht sein, ein Trennzeichen zu verpassen, wodurch Ihre Implementierung falsche Daten an Adobe sendet.
+Die `products`-Variable ist flexibel, wenn Felder ausgelassen und mehrere Produkte einbezogen werden. Durch diese Flexibilität kann es leicht sein, ein Trennzeichen zu verpassen, wodurch Ihre Implementierung falsche Daten an Adobe sendet.
 
 ```js
 // Include only product and category. Common on individual product pages
