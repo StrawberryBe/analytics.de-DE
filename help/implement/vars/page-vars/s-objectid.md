@@ -1,8 +1,8 @@
 ---
 title: s_objectID
 description: Hilft Activity Map, eindeutige Links auf Ihrer Website zu identifizieren.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Diese Variable wird normalerweise im `onClick`-Ereignis eines HTML-Links gesetzt
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] Fügen Sie immer das Semikolon ein, das eine JavaScript-Anweisung abschließt. Das Semikolon ist erforderlich, damit Activity Map funktioniert.
+>[!NOTE] Fügen Sie immer das Semikolon ein, das eine JavaScript-Anweisung abschließt. Das Semikolon ist erforderlich, damit Activity Map funktioniert.
 
 ## Anwendungsbeispiele
 
