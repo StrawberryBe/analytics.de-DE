@@ -1,8 +1,8 @@
 ---
 title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Listenvariablen sind benutzerspezifische Variablen, die Sie beliebig verwenden k
 
 Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und deren Logik in Ihrem [Lösungsdesigndokument](../../prepare/solution-design.md) aufzeichnen.
 
-> [!NOTE] Listenvariablen speichern die letzten 250 Werte pro Besucher. Wenn mehr als 250 individuelle Werte für einen bestimmten Besucher vorhanden sind, werden die ältesten Werte nicht den Metriken zugeordnet.
+>[!NOTE] Listenvariablen speichern die letzten 250 Werte pro Besucher. Wenn mehr als 250 individuelle Werte für einen bestimmten Besucher vorhanden sind, werden die ältesten Werte nicht den Metriken zugeordnet.
 
 ## Einrichten von Listenvariablen in den Report Suite-Einstellungen
 
@@ -32,7 +32,7 @@ Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische 
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] Wenn Sie im selben Treffer doppelte Werte festlegen, dedupliziert Adobe alle Instanzen dieser Werte. Wenn Sie z. B. `s.list1 = "Example,Example";` festlegen, wird eine Instanz in Berichten gezählt.
+>[!TIP] Wenn Sie im selben Treffer doppelte Werte festlegen, dedupliziert Adobe alle Instanzen dieser Werte. Wenn Sie z. B. `s.list1 = "Example,Example";` festlegen, wird eine Instanz in Berichten gezählt.
 
 ## Vergleich von Listen-Props mit Listenvariablen
 
