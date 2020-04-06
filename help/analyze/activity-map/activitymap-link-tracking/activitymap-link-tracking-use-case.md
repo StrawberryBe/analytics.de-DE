@@ -3,8 +3,8 @@ description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mith
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die Activity Map-Moduldatei AppMeasurement anpassen.
 
-Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activity Map unter der gleichen Link-ID und Region identifiziert werden.
+Angenommen, Sie haben mehrere Links zum &quot;Buy&quot;, die von Aktivität Map unter derselben Link-ID und Region identifiziert werden:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -38,17 +38,17 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Bereich für Empfehlungen <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Kaufen <p> </p> <p> </p> <p>Kaufen </p> <p> </p> <p> </p> <p>Kaufen </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Empfehlungsbereich <p> </p> <p> </p> <p>Empfehlungsbereich </p> <p> </p> <p> </p> <p>Empfehlungsbereich </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Links zu unterscheiden? Sie haben drei Optionen: Sie können die Link-ID anpassen, die Region anpassen oder die Activity Map-Moduldatei AppMeasurement anpassen.
+Wie können Sie Ihre Webseite und das Tagging anpassen, um die Werte dieser Links zu unterscheiden? Es stehen drei Optionen zur Verfügung: Sie können die Link-ID anpassen, die Region anpassen oder die Activity Map-Moduldatei von AppMeasurement anpassen.
 
 ## Link-ID mit s_objectID anpassen {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposition auf einer Seite können Sie die Activity Map-Verfolgung verbessern. Sie können Activity Map auch zum Generieren von Berichten zum Linktyp oder zur Linkposition anstelle der Link-URL verwenden. Klicken Sie [hier](https://marketing.adobe.com/resources/help/de_DE/sc/implement/s_objectID.html), um weitere Informationen zur Variablen s_objectID zu erhalten.
+Durch Erstellen einer eindeutigen Objekt-ID für einen Link oder eine Link-Position auf einer Seite können Sie entweder die Seitenzuordnung verbessern oder mithilfe der Aktivität Map Berichte zu einem Linktyp oder einer Link-Position statt zur Link-URL erstellen. Klicken Sie [hier](https://marketing.adobe.com/resources/help/de_DE/sc/implement/s_objectID.html) , um weitere Informationen zur Variablen s_objectID zu erhalten.
 
 >[!IMPORTANT]
 >
@@ -78,16 +78,16 @@ Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposit
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Empfehlungsbereich </p> <p> </p> <p> </p> <p>Empfehlungsbereich </p> <p> </p> <p> </p> <p>Empfehlungsbereich </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Region anpassen {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link vom Typ „buy“ eine eigene Region definiert ist. Dazu fügen Sie einem der übergeordneten Elemente jedes Anker-Tags „Buy“ den Parameter „id“ hinzu.
+Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link &quot;Kauf&quot;eine eigene Region definiert ist. Fügen Sie dazu einen &quot;id&quot;-Parameter zu einem der übergeordneten Elemente jedes &quot;Buy&quot;-Anker-Tags hinzu.
 
-> [!NOTE] Sie sind nicht auf den Parameter „id“ zur Identifikation einer Region beschränkt. Sie können auch eine eigene ID mithilfe der JavaScript-Variablen „s.ActivityMap.regionIDAttribute“ festlegen.
+>[!NOTE] Sie sind nicht auf den Parameter „id“ zur Identifikation einer Region beschränkt. Sie können auch eine eigene ID mithilfe der JavaScript-Variablen „s.ActivityMap.regionIDAttribute“ festlegen.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -112,8 +112,8 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>Region a <p> </p> <p> </p> <p>Region b </p> <p> </p> <p> </p> <p>Region c </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Kaufen </p> <p> </p> <p> </p> <p>Kaufen </p> <p> </p> <p> </p> <p>Kaufen </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>Region a <p> </p> <p> </p> <p>Region b </p> <p> </p> <p> </p> <p>Region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
