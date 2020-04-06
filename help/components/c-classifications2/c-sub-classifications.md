@@ -5,7 +5,7 @@ title: Informationen über Unterklassifizierungen
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 
-> [!NOTE] Unterklassifizierungen bezeichnen die Möglichkeit, Klassifizierungen weiter zu klassifizieren. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](classification-hierarchies.md).
+>[!NOTE] Unterklassifizierungen bezeichnen die Möglichkeit, Klassifizierungen weiter zu klassifizieren. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](classification-hierarchies.md).
 
 Beispiel:
 
@@ -52,9 +52,9 @@ Beispiel:
 
 Obwohl die Dateivorlage für eine mehrstufige Klassifizierung komplexer ist, haben mehrstufige Klassifizierungen den Vorteil, dass separate Ebenen als separate Dateien hochgeladen werden können. Dieser Ansatz kann verwendet werden, um die Menge der Daten zu minimieren, die regelmäßig hochgeladen werden müssen (täglich, wöchentlich usw.), indem Daten in Klassifizierungsstufen gruppiert werden, die sich im Laufe der Zeit ändern, im Gegensatz zu solchen, die dies nicht tun.
 
-> [!NOTE] Wenn die [!UICONTROL Key] Spalte in einer Datendatei leer ist, generiert Adobe automatisch eindeutige Schlüssel für jede Datenzeile. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
+>[!NOTE] Wenn die [!UICONTROL Key] Spalte in einer Datendatei leer ist, generiert Adobe automatisch eindeutige Schlüssel für jede Datenzeile. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
 
-Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues).
+Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://marketing.adobe.com/resources/help/de_DE/home/index.html#kb-common-saint-upload-issues).
 
 ## Beispiele
 
