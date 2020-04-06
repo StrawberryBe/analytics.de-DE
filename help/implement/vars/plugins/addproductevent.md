@@ -1,48 +1,48 @@
 ---
 title: addProductEvent
-description: Fügt der Variablen "products"und "Ereignisses"benutzerdefinierte Ereignis hinzu.
+description: Fügt den Variablen „products“ und „events“ benutzerspezifische Ereignisse hinzu.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: addProductEvent
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Das `addProductEvent` Plug-In fügt der Variablen ein numerisches oder Währungs-Ereignis hinzu [`products`](../page-vars/products.md) . Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie der `products` Variablen ein numerisches oder Währungs-Ereignis hinzufügen möchten, ohne sich um das Format der Produktzeichenfolge zu sorgen. Dieses Plug-in ist nicht erforderlich, wenn Sie keine numerischen oder Währungs-Ereignis in der `products` Variablen verwenden.
+Das Plug-in `addProductEvent` fügt der [`products`](../page-vars/products.md)-Variablen ein numerisches oder Währungsereignis hinzu. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie der `products`-Variablen ein numerisches oder Währungs-Ereignis hinzufügen möchten, ohne sich um das Format der Produktzeichenfolge zu sorgen. Dieses Plug-in ist nicht erforderlich, wenn Sie keine numerischen oder Währungsereignisse in der `products`-Variablen verwenden.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
-   * Aktionstyp: Initialize addProductEvent
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: addProductEvent initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,19 +57,19 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `addProductEvent` Methode verwendet die folgenden Argumente:
+Die `addProductEvent`-Methode verwendet die folgenden Argumente:
 
-* **`en`** (erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der `products` Variablen hinzugefügt wird. Wenn die `products` Variable leer ist, wird ein &quot;leerer&quot;Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
-* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsargument im `en` Argument zugewiesen ist.  Die Standardeinstellung ist `1` nicht festgelegt.
-* **`ap`** (optional, boolean): Wenn die Produktvariable derzeit mehr als einen Produkteintrag enthält, wird das Ereignis mit dem Wert `true` (oder `1`) allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist `false` nicht festgelegt.
+* **`en`** (erforderlich, Zeichenfolge): Das Ereignis, das zum letzten Eintrag in der `products`-Variablen hinzugefügt wird. Wenn die `products`-Variable leer ist, wird ein „leerer“ Produkteintrag mit dem angehängten Ereignis (und dessen Wert) erstellt.
+* **`ev`** (erforderlich, Zeichenfolge): Der Wert, der dem numerischen Ereignis oder dem Währungsereignis im `en`-Argument zugewiesen wird.  Die Standardeinstellung ist `1`, wenn nicht festgelegt.
+* **`ap`** (optional, boolesch): Wenn die Variable „products“ derzeit mehr als einen Produkteintrag enthält, wird mit dem Wert `true` (oder `1`) das Ereignis allen Produkteinträgen hinzugefügt.  Die Standardeinstellung ist `false`, wenn nicht festgelegt.
 
-Die `addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products` Variablen hinzugefügt. Das Plug-In fügt das Ereignis automatisch zur [`events`](../page-vars/events/events-overview.md) Variablen hinzu, da es auch dort benötigt wird.
+`addProductEvent` gibt nichts zurück. Stattdessen werden das Ereignis und sein Wert der `products`-Variablen hinzugefügt. Das Plug-in fügt das Ereignis auch automatisch der [`events`](../page-vars/events/events-overview.md)-Variablen hinzu, da es auch dort benötigt wird.
 
 ## Cookies
 
-Das addProductEvent-Plug-in erstellt keine Cookies oder verwendet keine Cookies
+Das addProductEvent-Plug-in erstellt und verwendet keine Cookies.
 
 ## Beispielaufrufe
 
@@ -124,7 +124,7 @@ s.addProductEvent("event35", "15", 1);
 
 Der obige Code setzt auch die `s.events` Variable auf `"purchase,event2,event33,event34,event35"`.
 
-> [!NOTE] Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
+>[!NOTE] Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
 
 ### Beispiel 5
 
@@ -140,4 +140,4 @@ Der oben genannte Code wird auch `"event35"` am Ende von angehängt `s.events`**
 
 ### 1.0 (7. Oktober 2019)
 
-* Erstes Release.
+* Erste Version.
