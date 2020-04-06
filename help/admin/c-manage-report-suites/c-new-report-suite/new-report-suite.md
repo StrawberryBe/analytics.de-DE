@@ -3,8 +3,8 @@ description: Sie können eine neue Report Suite erstellen, indem Sie eine vordef
 title: Neue Report Suite – Einstellungen
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,7 +15,7 @@ Sie können eine neue Report Suite erstellen, indem Sie eine vordefinierte Vorla
 
 Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
-> [!NOTE] In der [Dokumentation zur Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) erfahren Sie, wie Sie Virtual Report Suites erstellen.
+>[!NOTE] In der [Dokumentation zur Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) erfahren Sie, wie Sie Virtual Report Suites erstellen.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -27,7 +27,7 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Report Suite-ID </span> </td> 
-   <td colname="col2"> <p>Gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach dem Erstellen nicht mehr geändert werden. Adobe legt das erforderliche ID-Präfix fest, das ebenfalls nicht geändert werden kann. </p> <p>Achten Sie beim Erstellen mehrerer Report Suites darauf, dass die von Ihnen verwendeten Benennungsregeln eindeutige Report Suite-IDs ergeben. </p> </td> 
+   <td colname="col2"> <p>Gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach der Erstellung nicht mehr geändert werden. Adobe legt das erforderliche ID-Präfix fest und kann auch nicht geändert werden. </p> <p>Stellen Sie beim Erstellen mehrerer Report Suites sicher, dass die von Ihnen verwendete Benennungsregel eindeutige Report Suite-IDs gewährleistet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Site-Titel</span> </td> 
@@ -39,11 +39,11 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Basis-URL</span> </td> 
-   <td colname="col2"> (Optional) Definiert die Basisdomäne für die Report Suite. Diese URL-Adresse fungiert als interner URL-Filter, wenn Sie nicht explizit interne URL-Filter für die Report Suite definiert haben. </td> 
+   <td colname="col2"> (Optional) Definiert die Basisdomäne für die Report Suite. Diese URL fungiert als interner URL-Filter, wenn Sie für die Report Suite keine expliziten internen URL-Filter definieren. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Standardseite</span> </td> 
-   <td colname="col2"> <p>(Optional) Bereinigt Vorkommnisse des Werts <span class="wintitle">Standardseite</span> von den dabei auftretenden URL-Adressen. Wenn der Bericht <span class="wintitle">Bevorzugte Seiten</span> URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Webseite mehrere URLs angegeben werden. </p> <p>Beispielsweise sind die URLs <span class="filepath">https://meinsesite.com</span> und <span class="filepath">https://meinesite.com/index.html</span> normalerweise dieselben Seiten. Sie können irrelevante Dateinamen entfernen, sodass beide URL-Adressen in den Berichten als <span class="filepath">https://meinesite.com</span> angezeigt werden. </p> <p>Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> und <span class="filepath">home.asp</span>. </p> <p>Wenn Sie die Bereinigung von Dateinamen deaktivieren möchten, geben Sie einen Wert für „Standardseite“ an, der in keiner URL-Adresse vorkommt. </p> </td> 
+   <td colname="col2"> <p>(Optional) Bereinigt Vorkommnisse des Werts <span class="wintitle">Standardseite</span> von den dabei auftretenden URL-Adressen. Wenn der Bericht <span class="wintitle">Bevorzugte Seiten</span> URLs statt Seitennamen enthält, verhindert diese Einstellung, dass für eine Webseite mehrere URLs angegeben werden. </p> <p>Beispielsweise sind die URLs <span class="filepath">https://meinsesite.com</span> und <span class="filepath">https://meinesite.com/index.html</span> normalerweise dieselben Seiten. Sie können irrelevante Dateinamen entfernen, sodass beide URL-Adressen in den Berichten als <span class="filepath">https://meinesite.com</span> angezeigt werden. </p> <p>Wenn Sie diesen Wert nicht angeben, entfernt Analytics automatisch die folgenden Dateinamen aus den URLs: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> und <span class="filepath">home.asp</span>. </p> <p>Um das Entfernen von Dateinamen zu deaktivieren, geben Sie einen Wert für die Standardseite an, der in Ihren URLs nicht vorkommt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aufschaltdatum </p> </td> 
@@ -51,15 +51,15 @@ Beschreibung der verwendeten Elemente beim [Erstellen einer Report Suite](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Geschätzte Seitenansichten pro Tag</span> </td> 
-   <td colname="col2"> Gibt an, wie viele Seitenaufrufe diese Report Suite pro Tag unterstützen soll. Ein großes Traffic-Volumen beansprucht mehr Zeit im Genehmigungsprozess. Die Schätzung sollte möglichst genau ausfallen, damit es nicht zu Verzögerungen bei der Verarbeitung kommt. </td> 
+   <td colname="col2"> Identifiziert die geschätzte Anzahl der Seitenzahlen, die diese Report Suite pro Tag unterstützen soll. Große Traffic-Volumes erfordern einen längeren Genehmigungsprozess. Um Verzögerungen bei der Verarbeitung zu vermeiden, sollten Sie bei dieser Schätzung so genau wie möglich sein. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Basiswährung</span> </td> 
-   <td colname="col2"> <p>Gibt die Standardwährung für die Speicherung sämtlicher Beträge an. In der Analytics-Berichterstellung werden Transaktionen in anderen Währungen zum aktuellen Konversionskurs (d. h. zum Zeitpunkt des Eingangs der Daten) in die Basiswährung umgerechnet. </p> <p> Die Analytics-Berichterstellung verwendet die <span class="varname"> currencyCode</span>-JavaScript-Variable, um die Währung einer Transaktion zu bestimmen. </p> </td> 
+   <td colname="col2"> <p>Gibt die Standardwährung an, in der alle Währungsdaten gespeichert werden. Analytics Berichte konvertiert Transaktionen in anderen Währungen in die Basiswährung, wobei der aktuelle Konversionsrate zum Zeitpunkt des Eingangs der Daten verwendet wird. </p> <p> Die Analytics-Berichterstellung verwendet die <span class="varname"> currencyCode</span>-JavaScript-Variable, um die Währung einer Transaktion zu bestimmen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Multibytezeichenunterstützung deaktivieren </span> </td> 
-   <td colname="col2"> <p>Deaktiviert die Multibytezeichenunterstützung für die Report Suite. Wenn Sie die Multibytezeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen <span class="varname"> „charSet“</span> angeben. </p> <p>Bei der Multibytezeichenunterstützung werden Zeichen der Report Suite als UTF-8 gespeichert. Beim Empfang der Daten konvertiert das System die Daten aus dem Zeichensatz der Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten eine beliebige Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder an den Kundendienst, wenn die Multibytezeichenunterstützung für eine Report Suite geändert werden soll. </p> </td> 
+   <td colname="col2"> <p>Deaktiviert die Multibyte-Zeichenunterstützung für die Report Suite. Wenn Sie die Multibyte-Zeichenunterstützung deaktivieren, geht das System davon aus, dass die Daten im ISO-8859-1-Format vorliegen. Auf Webseiten muss der Zeichensatz in der JavaScript-Variablen <span class="varname"> „charSet“</span> angeben. </p> <p>Die Multibyte-Zeichenunterstützung speichert Zeichen in der Report Suite mit UTF-8. Nach Eingang konvertiert das System Daten aus dem Zeichensatz Ihrer Webseite in den UTF-8-Zeichensatz, damit Sie in Ihren Marketing-Berichten jede Sprache verwenden können. </p> <p>Wenden Sie sich an Ihren Kundenbetreuer oder die Kundenunterstützung, um die Multibyte-Zeichenunterstützung für eine Report Suite zu ändern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ad Hoc Analysis für diese Suite aktivieren</span> </td> 
