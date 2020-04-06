@@ -1,8 +1,8 @@
 ---
 title: purchaseID
 description: Deduplizieren Sie Treffer basierend auf einer eindeutigen Kaufkennung.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,4 +29,4 @@ Diese Variable kann maximal 20 Byte speichern. Werte, die länger als 20 Byte si
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] Verwenden Sie keine Randomisierungsfunktion, um eine Kauf-ID zu generieren. Adobe empfiehlt die Verwendung einer [Datenschicht](../../prepare/data-layer.md) zum Speichern einer bestimmten Kauf-ID.
+>[!NOTE] Verwenden Sie keine Randomisierungsfunktion, um eine Kauf-ID zu generieren. Adobe empfiehlt die Verwendung einer [Datenschicht](../../prepare/data-layer.md) zum Speichern einer bestimmten Kauf-ID.
