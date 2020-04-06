@@ -2,7 +2,7 @@
 title: eVar
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können.
 
-> [!TIP] Adobe empfiehlt in den meisten Fällen die Verwendung von eVars anstelle von Props. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+>[!TIP] Adobe empfiehlt in den meisten Fällen die Verwendung von eVars anstelle von Props. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
 
 Vergewissern Sie sich, dass Sie die Verwendung der einzelnen eVars und deren Logik in Ihrem [Lösungsdesigndokument](../../prepare/solution-design.md) aufzeichnen.
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 Wenn mehr als zwei Dezimalstellen angegeben sind, wird die Zähler-eVar auf zwei Dezimalstellen gerundet. Ein eVar-Zähler kann keine negativen Zahlen enthalten.
 
-> [!IMPORTANT] Bevor Sie Zähler-eVars verwenden können, müssen Sie eVars zunächst in der Admin-Konsole auf &quot;Zähler&quot;konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
+>[!IMPORTANT] Bevor Sie Zähler-eVars verwenden können, müssen Sie eVars zunächst in der Admin-Konsole auf &quot;Zähler&quot;konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
 ## Vorteile von Props oder eVars
 
