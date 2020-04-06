@@ -1,48 +1,48 @@
 ---
 title: getGeoCoordinates
-description: Verfolgen Sie den GeoLocation eines Besuchers.
+description: Verfolgen Sie den Standort (geoLocation) eines Besuchers.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: getGeoCoordinates
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `getGeoCoordinates` Plug-In können Sie die Breiten- und Längengrade der Geräte des Besuchers erfassen. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie Daten zum geografischen Standort in Analytics-Variablen erfassen möchten.
+Mit dem `getGeoCoordinates`-Plug-in können Sie die Breiten- und Längengrade der Geräte von Besuchern erfassen. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie Daten zum geografischen Standort in Analytics-Variablen erfassen möchten.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
    * Aktionstyp: getGeoCoordinates initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,33 +51,33 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `getGeoCoordinates` Methode verwendet keine Argumente. Es gibt einen der folgenden Werte zurück:
+Die `getGeoCoordinates`-Methode verwendet keine Argumente. Sie gibt einen der folgenden Werte zurück:
 
-* `"geo coordinates not available"`: Für Geräte, die zum Zeitpunkt der Ausführung des Plug-Ins keine Geolocation-Daten zur Verfügung haben. Dieser Wert wird beim ersten Treffer des Besuchs häufig verwendet, insbesondere, wenn Besucher zum ersten Mal ihre Zustimmung zur Verfolgung ihres Standorts einholen müssen.
-* `"error retrieving geo coordinates"`: Wenn das Plug-In beim Versuch, den Speicherort des Geräts abzurufen, auf Fehler stößt
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Dabei [LATITUDE]/[LONGITUDE] der Breiten- bzw. Längen- bzw. Breitengrad
+* `"geo coordinates not available"`: Für Geräte, die zum Zeitpunkt der Ausführung des Plug-ins keine Geolocation-Daten verfügbar haben. Dieser Wert wird häufig beim ersten Treffer des Besuchs verwendet, insbesondere dann, wenn Besucher zunächst ihre Zustimmung zum Tracking ihres Standorts geben müssen.
+* `"error retrieving geo coordinates"`: Wenn das Plug-in beim Versuch, den Standort des Geräts abzurufen, auf Fehler stößt.
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Wobei [BREITENGRAD]/[LÄNGENGRAD] der Breitengrad bzw. der Längengrad ist.
 
-> [!NOTE] Die Koordinatenwerte werden auf das nächstliegende vierte Dezimalzeichen gerundet. Beispielsweise `"40.438635333"` wird der Wert von gerundet, `"40.4386"` um die Anzahl der zu erfassenden eindeutigen Werte zu begrenzen. Die Werte sind nahe genug, um die exakte Position des Geräts innerhalb von 10 Fuß zu bestimmen.
+>[!NOTE] Die Koordinatenwerte werden auf die nächstliegende vierte Dezimalstelle gerundet. Beispielsweise wird der Wert `"40.438635333"` auf `"40.4386"` gerundet, um die Anzahl der zu erfassenden eindeutigen Werte zu begrenzen. Die Werte sind genau genug, um die exakte Position des Geräts innerhalb von etwa 20 Fuß zu bestimmen.
 
-Dieses Plug-in verwendet ein Cookie mit dem Namen, um bei Bedarf Koordinaten zwischen Treffern `"s_ggc"` zu speichern.
+Dieses Plug-in verwendet ein Cookie namens `"s_ggc"`, um gegebenenfalls Koordinaten zwischen den Treffern zu speichern.
 
 ## Beispielaufrufe
 
 ### Beispiel 1
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar1 = s.getGeoCoordinates();
 ```
 
-...setzt eVar1 je nach Gerätestatus des Besuchers auf einen der oben genannten Rückgabewerte.
+... setzt eVar1 je nach Gerätestatus des Besuchers auf einen der oben genannten Rückgabewerte.
 
 ### Beispiel 2
 
-Der folgende Code extrahiert Breiten- und Längengrad in ihre eigenen Variablen finalLatitude und finalLongitude zur Verwendung in anderen Code-/Anwendungen
+Der folgende Code extrahiert Breiten- und Längengrad in ihre eigenen Variablen „finalLatitude“ und „finalLongitude“ zur Verwendung in anderen Codes/Anwendungen.
 
 ```js
 var coordinates = s.getGeoCoordinates();
@@ -88,7 +88,7 @@ if(coordinates.indexOf("latitude") > -1)
 }
 ```
 
-Von dort können Sie bestimmen, ob sich ein Besucher beispielsweise in der Freiheitsstatue befindet:
+Von diesen können Sie ermitteln, ob sich ein Besucher beispielsweise bei der Freiheitsstatue befindet:
 
 ```js
 if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
@@ -101,4 +101,4 @@ else
 
 ### 1.0 (25. Mai 2015)
 
-* Erstes Release.
+* Erste Version.
