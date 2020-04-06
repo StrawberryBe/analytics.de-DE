@@ -1,15 +1,15 @@
 ---
 title: t
-description: Senden Sie einen Verfolgungsaufruf für die Ansicht einer Seite an Adobe.
+description: Senden Sie einen Seitenansichts-Tracking-Aufruf an Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# t() 
+# t()
 
-Die `t()` Methode ist eine wichtige Kernkomponente von Adobe Analytics. Es nimmt alle auf der Seite definierten Analytics-Variablen auf, kompiliert sie in eine Bildanforderung und sendet diese Daten an die Adobe-Datenerfassungsserver.
+Die `t()`-Methode ist eine wichtige Kernkomponente von Adobe Analytics. Sie nimmt alle auf der Seite definierten Analytics-Variablen, kompiliert sie in eine Bildanforderung und sendet diese Daten an die Adobe-Datenerfassungs-Server.
 
 Betrachten Sie beispielsweise den folgenden JavaScript-Code:
 
@@ -25,34 +25,34 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-Die Ausführung der `t()` Methode nimmt alle Analytics-Variablen in Anspruch und formuliert eine URL, die auf diesen Variablen basiert. Einige Analytics-Variablen bestimmen die URL des Bilds, während andere Abfragen Parameterwerte für die Zeichenfolge festlegen.
+Beim Ausführen der `t()`-Methode werden alle definierten Analytics-Variablen verwendet und eine URL auf der Grundlage dieser Variablen formuliert. Einige Analytics-Variablen bestimmen die URL des Bildes, während andere Variablen die Parameterwerte der Abfragezeichenfolge bestimmen.
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-Adobe empfängt die Bildanforderung und analysiert dann die Parameter für den Anforderungsheader, die URL und die Abfrage. Datenerfassungsserver geben dann ein transparentes 1x1-Pixel-Bild zurück, das unsichtbar auf Ihrer Site angezeigt wird.
+Adobe empfängt die Bildanforderung und analysiert dann die Parameter für Anforderungsheader, URL und Abfragezeichenfolge. Datenerfassungs-Server geben dann ein transparentes 1x1-Pixel-Bild zurück, das unsichtbar auf Ihrer Website angezeigt wird.
 
-## Seitenverfolgungsaufruf bei der Ansicht in Adobe Experience Platform Launch
+## Seitenansichts-Tracking-Aufruf in Adobe Experience Platform Launch
 
-&quot;Launch&quot;verfügt über einen eigenen Standort, der einen Seitenverfolgungsaufruf für die Ansicht festlegt.
+Launch verfügt über einen speziellen Speicherort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Rules] Registerkarte und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Actions]dem Symbol &quot;+&quot;auf
-5. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und das [!UICONTROL Action Type] auf Beacon senden fest.
-6. Click the `s.t()` radio button.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Klicken Sie auf die Optionsschaltfläche `s.t()`.
 
-## s.t()-Methode in AppMeasurement und Starten des benutzerdefinierten Codeeditors
+## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Rufen Sie die `s.t()` Methode auf, wenn Sie einen Verfolgungsaufruf an Adobe senden möchten.
+Rufen Sie die `s.t()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
 ```js
 s.t();
 ```
 
-Optional können Sie ein Objekt als Argument verwenden, um Variablenwerte zu überschreiben. Weitere Informationen finden Sie unter [Variablenüberschreibungen](../../js/overrides.md) .
+Optional können Sie ein Objekt als Argument verwenden, um Variablenwerte zu überschreiben. Weitere Informationen finden Sie unter [Variablenüberschreibungen](../../js/overrides.md).
 
 ```js
 var y = new Object();
@@ -60,4 +60,4 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
-> [!NOTE] In früheren Versionen von AppMeasurement wurden mehrere Codezeilen verwendet, um diese Funktion aufzurufen. Der zusätzliche Code wurde historisch für verschiedene Browser angepasst. Die Standardisierung und Best Practices in modernen Browsern erfordern diesen Codeblock nicht mehr. Jetzt `s.t()` ist nur der Methodenaufruf erforderlich.
+>[!NOTE] In früheren Versionen von AppMeasurement wurden mehrere Code-Zeilen verwendet, um diese Funktion aufzurufen. Der zusätzliche Code enthielt historisch gesehen Workarounds für verschiedene Browser. Die Standardisierung und Best Practices in modernen Browsern erfordern diesen Code-Block nicht mehr. Jetzt wird nur noch der `s.t()`-Methodenaufruf benötigt.
