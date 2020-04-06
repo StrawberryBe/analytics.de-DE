@@ -2,7 +2,7 @@
 title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bildanforderung empfängt. Die `trackingServer`-Variable bestimmt die Position, an der eine Bildanforderung gesendet wird. Wenn diese Variable nicht richtig definiert ist, kann es bei Ihrer Implementierung zu Datenverlusten kommen.
 
-> [!IMPORTANT] Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Unique Visitor-Anzahl kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
+>[!IMPORTANT] Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Unique Visitor-Anzahl kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
 
 ## Tracking-Server in Adobe Experience Platform Launch
 
@@ -28,7 +28,7 @@ Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].112.2o7.net`au
 
 Die `s.trackingServer`-Variable ist eine Zeichenfolge, die die Stelle enthält, an die Daten gesendet werden sollen.
 
-> [!TIP] Einige Implementierungen senden Daten an `2o7.net`. Dies ist zwar eine gültige Datenerfassungsdomäne, verwendet aber keine regionale Datenerfassung. Implementierungen mit `2o7.net` sehen etwas höhere Antwortzeiten für Bildanforderungen.
+>[!TIP] Einige Implementierungen senden Daten an `2o7.net`. Dies ist zwar eine gültige Datenerfassungsdomäne, verwendet aber keine regionale Datenerfassung. Implementierungen mit `2o7.net` sehen etwas höhere Antwortzeiten für Bildanforderungen.
 
 ## Bestimmen des Werts für „trackingServer“
 
@@ -36,7 +36,7 @@ Der Wert dieser Variablen hängt davon ab, ob Sie Erstanbieter-Cookies oder Drit
 
 ### Erstanbieter-Cookies
 
-Wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, ist es wahrscheinlich, dass jemand in Ihrem Unternehmen den Erstanbieter-Cookie-Prozess bereits abgeschlossen hat. Weitere Informationen zum Erstanbieter-Cookie-Prozess finden Sie unter [Erstanbieter-Cookies in der Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) im Core Services-Benutzerhandbuch.
+Wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, ist es wahrscheinlich, dass jemand in Ihrem Unternehmen den Erstanbieter-Cookie-Prozess bereits abgeschlossen hat. Weitere Informationen zum Erstanbieter-Cookie-Prozess finden Sie unter [Erstanbieter-Cookies in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) im Core Services-Benutzerhandbuch.
 
 Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert, definiert auch die verwendete Domäne und Unterdomäne. Beispiel:
 
@@ -48,7 +48,7 @@ Normalerweise sind CNAME-Einträge bereits eingerichtet und verweisen auf `sc.om
 
 ### Drittanbieter-Cookies
 
-> [!TIP] Durch die zunehmenden Datenschutzpraktiken in modernen Browsern werden die Cookies von Drittanbietern weniger zuverlässig. Adobe empfiehlt, den Erstanbieter-Cookie-Workflow zu befolgen.
+>[!TIP] Durch die zunehmenden Datenschutzpraktiken in modernen Browsern werden die Cookies von Drittanbietern weniger zuverlässig. Adobe empfiehlt, den Erstanbieter-Cookie-Workflow zu befolgen.
 
 Wenn Sie eine Drittanbieter-Cookie-Implementierung verwenden, ist der Wert für `trackingServer` eine Unterdomäne von `sc.omtrdc.net`. Beispiel:
 
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Wählen Sie eine für Ihre Organisation eindeutige Unterdomäne aus, die wahrscheinlich nicht von einer anderen Organisation ausgewählt wird, die Adobe Analytics verwendet. Stellen Sie sicher, dass alle Implementierungen in Ihrem Unternehmen denselben Tracking-Server verwenden. Es kann hilfreich sein, diese Informationen in einem [Lösungsdesigndokument](../../prepare/solution-design.md) zu verwalten.
 
-> [!NOTE] Verwenden Sie keine Subdomänen, die tiefer als `example.sc.omtrdc.net`. Zum Beispiel `custom.example.sc.omtrdc.net` ist kein gültiger Tracking-Server.
+>[!NOTE] Verwenden Sie keine Subdomänen, die tiefer als `example.sc.omtrdc.net`. Zum Beispiel `custom.example.sc.omtrdc.net` ist kein gültiger Tracking-Server.
