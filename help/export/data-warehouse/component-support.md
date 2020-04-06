@@ -1,8 +1,8 @@
 ---
 title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
-translation-type: ht
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,12 +31,12 @@ Einige Dimensionen und Metriken können in Data Warehouse verwendet werden, nich
 
 Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 
-> [!NOTE] Wenn eine Dimension oder Metrik in Data Warehouse nicht unterstützt wird, werden Segmente, die diese Komponenten verwenden, auch nicht unterstützt. Überprüfen Sie beim Erstellen oder Bearbeiten eines Segments immer die Produktkompatibilität.
+>[!NOTE] Wenn eine Dimension oder Metrik in Data Warehouse nicht unterstützt wird, werden Segmente, die diese Komponenten verwenden, auch nicht unterstützt. Überprüfen Sie beim Erstellen oder Bearbeiten eines Segments immer die Produktkompatibilität.
 
 ### Nicht unterstützte Dimensionen
 
 * Einige zeitbasierte Dimensionen, darunter:
-   * Vormittag/Nachmittag
+   * vor Mittag/nach Mittag
    * Tag des Monats
    * Wochentag
    * Tag des Jahres
@@ -53,7 +53,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Rückkehrhäufigkeit
    * Zeit vor Ereignis
    * Besuchszeit pro Seite – Zusammengefasst
-   * Zeit pro Besuch – Zusammengefasst
+   * Zeit pro Besuch – Zusammengefasst
    * Besuchstiefe
 * Rangansicht aller Suchseiten
 * Hierarchievariablen
@@ -61,8 +61,8 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 * Nicht gefundene Seiten (als Dimension verfügbar; nicht unterstützt für Segmentierung)
 * Paid Search
 * Einzelseitenbesuche
-* Nachverfolgung der Gründe für den Ausstieg
-* US-Staaten
+* Nachverfolgen des Abmeldegrunds
+* USA
 
 ### Nicht unterstützte Metriken
 
