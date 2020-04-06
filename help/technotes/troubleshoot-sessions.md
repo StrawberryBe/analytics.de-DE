@@ -1,8 +1,8 @@
 ---
 title: Fehlerbehebung bei Sitzungen in Adobe Analytics
 description: Erfahren Sie, wie Sie Probleme bei der Abmeldung von Adobe Analytics beheben können.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,7 +25,7 @@ Adobe verwendet bei Anforderungen an Adobe einen Autorisierungs-Header. Einige P
 
 Um dieses Problem zu beheben, empfiehlt Adobe, mit dem IT-Team Ihres Unternehmens zusammenzuarbeiten, um den Autorisierungs-Header über den Proxy Ihres Unternehmens zuzulassen.
 
-> [!NOTE] Mitglieder der Analytics-Community fanden die folgenden Links hilfreich, die allerdings nicht zu Adobe gehören. Berücksichtigen Sie diese Anmerkung bei der Anzeige der Inhalte.
+>[!NOTE] Mitglieder der Analytics-Community fanden die folgenden Links hilfreich, die allerdings nicht zu Adobe gehören. Berücksichtigen Sie diese Anmerkung bei der Anzeige der Inhalte.
 
 Informationen zu Symantec-Proxies und Authentifizierungs-Headern finden Sie hier:
 
