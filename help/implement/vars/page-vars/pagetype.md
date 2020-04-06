@@ -1,8 +1,8 @@
 ---
 title: pageType
 description: Stellen Sie fest, ob es sich bei der aktuellen Seite um einen 404-Fehler handelt.
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 Die `pageType`-Variable ist eine Markierung, mit der Sie Fehlerseiten (wie z. B. 404-Fehler) auf Ihrer Website angeben können. Wenn diese Variable die Zeichenfolge `errorPage` enthält, wird die Dimension „Seiten nicht gefunden“ gefüllt.
 
-> [!IMPORTANT] Legen Sie diese Variable nicht auf Seiten ohne Fehler fest.
+>[!IMPORTANT] Legen Sie diese Variable nicht auf Seiten ohne Fehler fest.
 
 ## Seitentyp in Adobe Experience Platform Launch
 
@@ -25,4 +25,4 @@ Die `s.pageType`-Variable ist eine Zeichenfolge, bei der der `errorPage`-Wert de
 s.pageType = "errorPage";
 ```
 
-> [!TIP] Verwenden Sie eine eVar, um den Fehlercode zu erfassen, damit Sie weitere Informationen zu spezifischen Fehlern erhalten, auf die Besucher Ihrer Website stoßen.
+>[!TIP] Verwenden Sie eine eVar, um den Fehlercode zu erfassen, damit Sie weitere Informationen zu spezifischen Fehlern erhalten, auf die Besucher Ihrer Website stoßen.
