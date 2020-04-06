@@ -2,47 +2,47 @@
 title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: getTimeBetweenEvents
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `getTimeBetweenEvents` Plug-in können Sie die Zeitspanne zwischen zwei beliebigen Analytics-Ereignissen, einschließlich Warenkorb- und benutzerspezifischen Ereignissen, verfolgen. Es ist nützlich, wenn Sie verfolgen möchten, wie lange ein Kassengangprozess dauert, oder einen anderen Prozess, bei dem Sie die Zeit messen möchten. Dieses Plug-in ist nicht erforderlich, wenn Sie keine Konvertierungsprozesse haben, mit denen Sie messen möchten, wie lange sie dauern.
+Mit dem `getTimeBetweenEvents`-Plug-in können Sie die Zeitspanne zwischen zwei beliebigen Analytics-Ereignissen, einschließlich Warenkorb- und benutzerspezifischen Ereignissen, verfolgen. Es ist nützlich, um die Zeit zu verfolgen, die ein Checkout-Prozess oder ein anderer Prozess, den Sie messen möchten, benötigt. Dieses Plug-in ist nicht erforderlich, wenn Sie keine Konversionsprozesse haben, bei denen Sie messen möchten, wie lange sie dauern.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
-   * Aktionstyp: Initialize getTimeBetweenEvents
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
+   * Aktionstyp: getTimeBetweenEvents initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,85 +57,85 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `getTimeBetweenEvents` Methode verwendet die folgenden Argumente:
+Die `getTimeBetweenEvents`-Methode verwendet die folgenden Argumente:
 
-* **`ste`** (erforderlich, Zeichenfolge): Beginn Timer-Ereignis. Eine kommagetrennte Zeichenfolge aus Analytics-Ereignissen, die als &quot;Beginn des Timers&quot;bezeichnet wird.
-* **`rt`** (erforderlich, Boolescher Wert): Option Timer neu starten. Legen Sie diese Einstellung fest, `true` wenn Sie den Timer jedes Mal neu starten möchten, wenn die `events` Variable ein Beginn-Timer-Ereignis enthält. Legen Sie diese Einstellung fest, `false` wenn der Timer nicht neu gestartet werden soll, wenn ein Beginn-Timer-Ereignis angezeigt wird.
-* **`stp`** (erforderlich, Zeichenfolge): Stoppen Sie Timer-Ereignis. Eine kommagetrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer stoppt.
-* **`res`** (erforderlich, Boolescher Wert): Option Timer zurücksetzen. Legen Sie diese Einstellung fest, `true` wenn Sie die Zeit seit dem Start des Timers aufzeichnen möchten UND setzen Sie den Timer nach dem Beenden zurück. Legen Sie diese Einstellung fest, `false` wenn Sie die Zeit aufzeichnen möchten, den Timer jedoch nicht beenden möchten. Bei Festlegung auf `false`wird der Timer weiter ausgeführt, nachdem die Variable &quot;Ereignisses&quot;ein stop-Ereignis aufgezeichnet hat.
-   > [!TIP] Wenn Sie dieses Argument auf `false`setzen, empfiehlt es sich dringend, das unten stehende `rte` Argument festzulegen.
-* **`cn`** (optional, Zeichenfolge): Der Cookie-Name, in dem die Uhrzeit des ersten Ereignisses gespeichert wird. Die Standardeinstellung ist `"s_tbe"`.
-* **`etd`** (optional, integer): Die Ablaufzeit für das Cookie in Tagen. Mit `0` Ablauf am Ende der Browsersitzung festlegen. Wenn kein Wert festgelegt ist, wird standardmäßig 1 Tag verwendet.
-* **`fmt`** (optional, Zeichenfolge): Das Format der Zeit, in der die Anzahl der Sekunden zurückgegeben wird (standardmäßig ohne)
+* **`ste`** (erforderlich, Zeichenfolge): Start-Timer-Ereignisse. Eine durch Komma getrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer starten sollen.
+* **`rt`** (erforderlich, boolesch): Option, den Timer erneut zu starten. Setzen Sie das Argument auf `true`, wenn Sie den Timer jedes Mal neu starten möchten, wenn die `events`-Variable ein Start-timer-Ereignis enthält. Setzen Sie das Argument auf `false`, wenn der Timer bei einem Start-Timer-Ereignis nicht neu gestartet werden soll.
+* **`stp`** (erforderlich, Zeichenfolge): Stop-Timer-Ereignisse. Eine durch Komma getrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer stoppen sollen.
+* **`res`** (erforderlich, boolesch): Option, den Timer zurückzusetzen. Setzen Sie das Argument auf `true`, wenn Sie die Zeit seit dem Start des Timers aufzeichnen UND den Timer nach dem Stoppen zurücksetzen möchten. Setzen Sie das Argument auf `false`, wenn Sie die Zeit aufzeichnen, den Timer jedoch nicht stoppen möchten. Wenn das Argument auf `false` gesetzt ist, läuft der Timer nach der Aufzeichnung eines Stopp-Ereignisses durch die Ereignisvariable weiter.
+   > [!TIP] Wenn Sie dieses Argument auf `false` setzen, empfiehlt es sich dringend, das unten stehende `rte`-Argument festzulegen.
+* **`cn`** (optional, Zeichenfolge): Der Cookie-Name, in dem die Zeit des ersten Ereignisses gespeichert wird. Die Standardeinstellung ist `"s_tbe"`.
+* **`etd`** (optional, Ganzzahl): Die Ablaufzeit für das Cookie in Tagen. Setzen Sie das Argument auf `0`, damit das Cookie am Ende der Browser-Sitzung abläuft. Wenn kein Wert festgelegt ist, wird standardmäßig 1 Tag verwendet.
+* **`fmt`** (optional, Zeichenfolge): Das Format der Zeit, in der die Anzahl der Sekunden zurückgegeben wird (standardmäßig leer)
    * `"s"` für Sekunden
    * `"m"` für Minuten
    * `"h"` für Stunden
    * `"d"` für Tage
-   * Ist dies nicht der Fall, basiert das Format des Rückgabewerts auf den folgenden Regeln:
-      * Alles, was weniger als eine Minute beträgt, wird auf die nächste 5-Sekunden-Benchmark gerundet. Beispiel: 10 Sekunden, 15 Sekunden
-      * Alles zwischen einer Minute und einer Stunde wird auf den nächsten 1/2-Minuten-Benchmark gerundet. Beispiel: 30,5 Minuten, 31 Minuten
-      * Alles, was zwischen einer Stunde und einem Tag liegt, wird auf den nächstgelegenen Referenzwert der Viertelstunde gerundet. Beispiel: 2,25 Stunden, 3,5 Stunden
-      * Alles, was länger als ein Tag ist, wird auf die nächste Benchmark gerundet. Beispiel: 1 Tage, 3 Tage, 9 Tage
-* **`bml`** (optional, Zahl): Die Länge des Rundungs-Referenzwerts entsprechend dem Format des `fmt` Arguments. Wenn das `fmt` Argument beispielsweise `"s"` und dieses Argument `2`lautet, wird der Rückgabewert auf den nächsten 2-Sekunden-Referenzwert gerundet. Wenn `fmt` das Argument `"m"` und dieses Argument `0.5`vorliegt, wird der Rückgabewert auf den nächstgelegenen Halbminutenwert gerundet.
-* **`rte`** (optional, Zeichenfolge): Kommagetrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer entfernen oder löschen. Die Standardeinstellung ist nichts.
+   * Wenn das Argument nicht gesetzt ist, basiert das Format des Rückgabewerts auf den folgenden Regeln:
+      * Alles unter einer Minute wird auf den nächstliegenden 5-Sekunden-Benchmark gerundet. Beispiele: 10 Sekunden, 15 Sekunden
+      * Alles zwischen einer Minute und einer Stunde wird auf den nächsten 1/2-Minuten-Benchmark gerundet. Beispiele: 30,5 Minuten, 31 Minuten
+      * Alles zwischen einer Stunde und einem wird auf den nächsten viertelstündigen Benchmark gerundet. Beispiel: 2,25 Stunden, 3,5 Stunden
+      * Alles, was länger als ein Tag ist, wird auf den nächsten Tages-Benchmark gerundet. Beispiel: 1 Tag, 3 Tage, 9 Tage
+* **`bml`** (optional, Zahl): Die Länge des Rundungs-Benchmarks entsprechend dem Format des `fmt`-Arguments. Wenn das `fmt`-Argument beispielsweise `"s"` ist und dieses Argument `2` lautet, wird der Rückgabewert auf den nächsten 2-Sekunden-Benchmark gerundet. Wenn das `fmt`-Argument `"m"` ist und dieses Argument `0.5` lautet, wird der Rückgabewert auf den nächsten Halbminuten-Benchmark gerundet.
+* **`rte`** (optional, Zeichenfolge): Durch Komma getrennte Zeichenfolge von Analytics-Ereignissen, die den Timer entfernen oder löschen. Die Standardeinstellung ist leer.
 
-Beim Aufrufen dieser Methode wird eine Ganzzahl zurückgegeben, die die Zeitdauer zwischen dem Beginn-Timer-Ereignis und dem Stopp-Timer-Ereignis im gewünschten Format darstellt.
+Beim Aufrufen dieser Methode wird eine Ganzzahl zurückgegeben, die die Zeit zwischen dem Start-Timer-Ereignis und dem Stop-Timer-Ereignis im gewünschten Format darstellt.
 
 ## Beispielaufrufe
 
 ### Beispiel 1
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
 ```
 
-...konfiguriert ist, sich wie folgt zu verhalten:
+... ist so konfiguriert, dass er sich wie folgt verhält:
 
-* Der Timer wird Beginn, wenn s.Ereignisses Ereignis1 enthält.
-* Der Timer wird jedes Mal neu gestartet, wenn s.Ereignisses Ereignis1 enthält
-* Der Timer wird beendet, wenn s.Ereignisses Ereignis2 enthält
-* Der Timer wird jedes Mal, wenn s.Ereignisses Ereignis2 enthält, auf 0 Sekunden zurückgesetzt (d.h. auf 0 Sekunden gehen)
-* Der Timer wird auch dann zurückgesetzt, wenn s.Ereignisses Ereignis3 enthält ODER wenn der Besucher seinen Browser schließt
-* Wenn eine tatsächliche Zeit zwischen Ereignis1 und Ereignis2 aufgezeichnet wird, stellt das Plug-In eVar1 auf die Anzahl der Sekunden zwischen den beiden Ereignissen ein, die auf die nächste 2-Sekunden-Benchmark gerundet werden (z. B. 0 Sekunden, 2 Sekunden, 4 Sekunden, 10 Sekunden, 184 Sekunden usw.).
-* Wenn s.Ereignisses Ereignis2 enthält, bevor ein Timer gestartet wurde, wird eVar1 überhaupt nicht eingestellt.
+* Der Timer startet, wenn s.events event1 enthält.
+* Der Timer startet jedes Mal erneut, wenn s.events event1 enthält
+* Der Timer stoppt, wenn s.events event2 enthält
+* Der Timer wird jedes Mal, wenn s.events event2 enthält, zurückgesetzt (d. h. auf 0 Sekunden gehen)
+* Der Timer wird auch dann zurückgesetzt, wenn s.events event3 enthält ODER wenn der Besucher seinen Browser schließt
+* Wenn eine tatsächliche Zeit zwischen event1 und event2 aufgezeichnet wird, setzt das Plug-in eVar1 auf die Anzahl der Sekunden zwischen den beiden eingestellten Ereignissen, gerundet auf den nächsten 2-Sekunden-Benchmark (z. B. 0 Sekunden, 2 Sekunden, 4 Sekunden, 10 Sekunden, 184 Sekunden usw.)
+* Wenn s.events event2 enthält, bevor ein Timer gestartet wurde, wird eVar1 nicht gesetzt.
 
 ### Beispiel 2
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
 ```
 
-...konfiguriert ist, sich wie folgt zu verhalten:
+... ist so konfiguriert, dass er sich wie folgt verhält:
 
-* Der Timer wird Beginn, wenn s.Ereignisses Ereignis1 enthält.
-* Der Timer wird NICHT jedes Mal neu gestartet, wenn s.Ereignisses Ereignis1 enthält. Der ursprüngliche Timer wird weiterhin ausgeführt
-* Der Timer wird NICHT angehalten, wenn s.Ereignisses Ereignis2 enthält. Das Plug-In zeichnet jedoch die Zeit seit der Aufzeichnung der ursprünglichen Einstellung Ereignis1 auf
-* Der Timer wird in einem Cookie namens &quot;s_20&quot;gespeichert
-* Der Timer wird nur zurückgesetzt, wenn s.Ereignisses Ereignis3 enthält ODER wenn 20 Tage seit dem Start des Timers vergangen sind
-* Wenn ein Zeitraum zwischen (dem ursprünglichen) Ereignis1 und Ereignis2 aufgezeichnet wird, stellt das Plug-In eVar1 auf die Anzahl der Stunden zwischen den beiden eingestellten Ereignissen ein, gerundet auf den nächsten 1 1/2-Stunden-Benchmark (z. B. 0 Stunden, 1,5 Stunden, 3 Stunden, 7,5 Stunden, 478,5 Stunden usw.)
+* Der Timer startet, wenn s.events event1 enthält.
+* Der Timer wird NICHT jedes Mal neu gestartet, wenn s.events event1 enthält. Der ursprüngliche Timer wird weiterhin ausgeführt
+* Der Timer wird NICHT gestoppt, wenn s.events event2 enthält, aber das Plug-in zeichnet die Zeit auf, seitdem das ursprüngliche Ereignis event1 aufgezeichnet wurde
+* Der Timer wird in einem Cookie mit dem Namen „s_20“ gespeichert
+* Der Timer wird nur zurückgesetzt, wenn s.events event3 enthält ODER wenn 20 Tage seit dem Start des Timers vergangen sind
+* Wenn eine Zeit zwischen (dem ursprünglichen) event1 und event2 aufgezeichnet wird, setzt das Plug-in eVar1 auf die Anzahl der Stunden zwischen den beiden Ereignissen, die auf den nächsten 1,5-Stunden-Benchmark gerundet werden (z. B. 0 Stunden, 1,5 Stunden, 3 Stunden, 7,5 Stunden, 478,5 Stunden usw.).
 
 ### Beispiel 3
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
 
-...werden ähnliche Ergebnisse wie im ersten Beispiel oben erzielt; Der Wert von eVar1 wird jedoch je nach der endgültigen Länge des Timers in Sekunden, Minuten, Stunden oder Tagen zurückgegeben.  Außerdem läuft der Timer 1 Tag nach der ersten Einstellung ab und nicht, wenn der Besucher seinen Browser schließt.
+... erzielt ähnliche Ergebnisse wie im ersten Beispiel oben. Der Wert von eVar1 wird jedoch je nach der endgültigen Länge des Timers in Sekunden, Minuten, Stunden oder Tagen zurückgegeben.  Außerdem läuft der Timer 1 Tag nach der ersten Einstellung ab und nicht, wenn der Besucher seinen Browser schließt.
 
 ## Versionsverlauf
 
 ### 2.1 (26. Mai 2018)
 
-* Hiermit werden Änderungen an der neuen Version des `formatTime` Plug-Ins unterstützt.
+* Unterstützt Änderungen an der neuen Version des `formatTime`-Plug-ins.
 
 ### 2.0 (6. April 2018)
 
-* Umschreiben/Neuanalyse des Plug-Ins
+* Vollständige Umformulierung/Neuanalyse des Plug-ins.
