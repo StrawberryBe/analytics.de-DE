@@ -4,8 +4,8 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Metriken berechnen
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe von Daten-Feeds berechnet werden.
 
-> [!IMPORTANT] Treffer, die normalerweise von Adobe Analytics ausgeschlossen sind, werden in Daten-Feeds eingeschlossen. Mit `exclude_hit > 0` können Sie ausgeschlossene Treffer aus Abfragen von Rohdaten entfernen. Daten aus Datenquellen werden in Daten-Feeds ebenfalls eingeschlossen. Wenn Sie Datenquellen ausschließen möchten, schließen Sie alle Zeilen mit `hit_source = 5,7,8,9` aus.
+>[!IMPORTANT] Treffer, die normalerweise von Adobe Analytics ausgeschlossen sind, werden in Daten-Feeds eingeschlossen. Mit `exclude_hit > 0` können Sie ausgeschlossene Treffer aus Abfragen von Rohdaten entfernen. Daten aus Datenquellen werden in Daten-Feeds ebenfalls eingeschlossen. Wenn Sie Datenquellen ausschließen möchten, schließen Sie alle Zeilen mit `hit_source = 5,7,8,9` aus.
 
 ## Seitenansichten
 
@@ -25,7 +25,7 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 1. Verkettet `post_visid_high`, `post_visid_low`, `visit_num` und `visit_start_time_gmt`.
 1. Zählen Sie die Anzahl der Einzelwerte.
 
-> [!NOTE] In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie `visit_start_time_gmt` beim Zählen von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
+>[!NOTE] In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie `visit_start_time_gmt` beim Zählen von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
 
 ## Besucher
 
