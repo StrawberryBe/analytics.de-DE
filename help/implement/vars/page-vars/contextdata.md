@@ -2,49 +2,49 @@
 title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # contextData
 
-Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können. Anstatt Analytics-Variablen explizit Werte in Ihrem Code zuzuweisen, können Sie Daten in Kontextdatenvariablen senden. Verarbeitungsregeln nehmen dann Kontextdatenvariablenwerte auf und übergeben sie an die entsprechenden Analytics-Variablen. Siehe [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) im Administratorhandbuch.
+Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können. Anstatt Analytics-Variablen explizit Werte in Ihrem Code zuzuweisen, können Sie Daten in Kontextdatenvariablen senden. Verarbeitungsregeln nehmen dann Kontextdatenvariablenwerte auf und übergeben sie an die entsprechenden Analytics-Variablen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md).
 
-Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen statt in nummerierten Variablen zu erfassen. Anstatt zum Beispiel Entwicklungsteams anzufordern, den Autor der Seite zuzuweisen, können Sie `eVar10`anfordern, dass sie `s.contextData["author"]` stattdessen die Seite zuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen zu Analysevariablen für den Berichte zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen und nicht um die vielen Seitenvariablen kümmern, die Adobe-Angebot verwenden.
+Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen, statt in nummerierten Variablen zu erfassen. Anstatt beispielsweise anzufordern, dass Entwicklungsteams den Autor der Seite `eVar10` zuweisen, können Sie sie stattdessen auffordern, ihn `s.contextData["author"]` zuzuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungsteams würden sich letztlich nur um Kontextdatenvariablen kümmern, nicht um die vielen Seitenvariablen, die Adobe anbietet.
 
-## Kontextdatenvariablen beim Start der Adobe Experience Platform
+## Kontextdatenvariablen in Adobe Experience Platform Launch
 
-Launch verfügt nicht über einen speziellen Speicherort zum Festlegen von Kontextdatenvariablen. Verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
+Es gibt keine spezielle Stelle in Launch, um Kontextdatenvariablen festzulegen. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.contextData in AppMeasurement und benutzerdefinierten Codeeditor starten
+## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.contextData` Variable nimmt keinen Wert direkt an. Legen Sie stattdessen die Eigenschaften dieser Variablen auf eine Zeichenfolge fest.
+Die `s.contextData`-Variable nimmt keinen Wert direkt an. Setzen Sie stattdessen die Eigenschaften dieser Variable auf eine Zeichenfolge.
 
 ```js
 // Assign the example_variable property a value
 s.contextData["example_variable"] = "Example value";
 ```
 
-* Gültige Kontextdatenvariablen enthalten nur alphanumerische Zeichen, Unterstriche und Punkte. Adobe übernimmt keine Garantie für die Datenerfassung in Verarbeitungsregeln, wenn Sie andere Zeichen wie z. B. Bindestriche einschließen.
-* Verwenden Sie keine Kontextdatenvariablen `"a."`. Dieses Präfix ist von Adobe reserviert und wird verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
+* Gültige Kontextdatenvariablen enthalten nur alphanumerische Zeichen, Unterstriche und Punkte. Adobe garantiert die Datenerfassung in den Verarbeitungsregeln nicht, wenn Sie andere Zeichen, wie z. B. Bindestriche, einfügen.
+* Starten Sie Kontextdatenvariablen nicht mit `"a."`. Dieses Präfix ist reserviert und wird von Adobe verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
 * Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Variablen `s.contextData["example"]` und `s.contextData["EXAMPLE"]` sind identisch.
 
-## Verwenden von Verarbeitungsregeln zum Ausfüllen von Analysevariablen
+## Verwenden von Verarbeitungsregeln zum Ausfüllen von Analytics-Variablen
 
-> [!IMPORTANT] Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
+>[!IMPORTANT] Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
 
 1. Aktualisieren Sie Ihre Implementierung, um Kontextdatenvariablennamen und -werte festzulegen.
-2. Melden Sie sich bei Adobe Analytics an und gehen Sie zu Admin > Report Suites.
-3. Wählen Sie die gewünschte Report Suite aus und gehen Sie dann zu Einstellungen bearbeiten > Allgemein > Verarbeitungsregeln.
+2. Melden Sie sich bei Adobe Analytics an und gehen Sie zu „Admin“ > „Report Suites“.
+3. Wählen Sie die gewünschte Report Suite aus und gehen Sie dann zu „Einstellungen bearbeiten“ > „Allgemein“ > „Verarbeitungsregeln“.
 4. Erstellen Sie eine Verarbeitungsregel, die eine Analytics-Variable auf den Wert der Kontextdatenvariablen setzt.
 5. Speichern Sie die Änderungen.
 
 Verarbeitungsregeln werden sofort nach dem Speichern wirksam. Sie gelten nicht für historische Daten.
 
-## Senden von Kontextdaten in einem Linkverfolgungsaufruf
+## Senden von Kontextdaten in einem Linktracking-Aufruf
 
-Schließen Sie die Kontextdatenvariable als Eigenschaft von `contextData` in ein [`s.linkTrackVars`](../config-vars/linktrackvars.md):
+Schließen Sie die Kontextdatenvariable als Eigenschaft von `contextData` in [`s.linkTrackVars`](../config-vars/linktrackvars.md) ein:
 
 ```js
 s.contextData["example_variable"] = "Example value";
