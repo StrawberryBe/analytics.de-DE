@@ -1,8 +1,8 @@
 ---
 title: Fehlerbehebung bei H-Code-Implementierungen
 description: Erfahren Sie mehr über einige häufige Probleme bei älteren JavaScript-Implementierungen.
-translation-type: ht
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Im Folgenden finden Sie Schritte zur Fehlerbehebung bei H-Code-Implementierungen
 
 ## Analytics-Code im Head-Tag platzieren
 
-> [!NOTE] Während bei H-Code-Implementierungen der Code im `<body>`-Tag referenziert werden muss, ist bei anderen Implementierungen (z. B. bei Verwendung der Adobe Experience Platform Launch) der Code im `<head>`-Tag zu referenzieren.
+>[!NOTE] Während bei H-Code-Implementierungen der Code im `<body>`-Tag referenziert werden muss, ist bei anderen Implementierungen (z. B. bei Verwendung der Adobe Experience Platform Launch) der Code im `<head>`-Tag zu referenzieren.
 
 Analytics-Code erstellt ein unsichtbares 1x1-Pixelbild. Früher war es gängige Praxis, den `s_code.js`-Verweis im `<head>`-Tag zu platzieren. Die Platzierung des Codes hier verhinderte, dass das Bild das Seitenlayout in irgendeiner Weise beeinflusst. Er wurde auch früher ausgeführt, sodass Seitenansichten auch bei partiell geladenen Seiten effizienter gezählt werden können.
 
@@ -21,4 +21,4 @@ Allerdings setzen bestimmte Elemente des Codes voraus, dass ein `<body>`-Objekt 
 
 Der Analytics-Code kann an einer beliebigen Stelle innerhalb der `<body>`-Tags einer korrekt formatierten HTML-Seite untergebracht werden. Adobe empfiehlt, Analytics-Code so nah wie möglich am Anfang des `<body>`-Tags zu platzieren. Stellen Sie sicher, dass alle Seitenvariablen festgelegt werden, nachdem die `s_code.js`-Datei geladen wurde.
 
-> [!TIP] Wenn Sie Adobe Analytics mit Adobe Target integrieren möchten, muss die JavaScript-Include-Datei am Ende der Seite platziert werden.
+>[!TIP] Wenn Sie Adobe Analytics mit Adobe Target integrieren möchten, muss die JavaScript-Include-Datei am Ende der Seite platziert werden.
