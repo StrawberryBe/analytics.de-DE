@@ -3,8 +3,8 @@ description: Ermöglicht es Ihnen, in Activity Map Filter anzuwenden, die mehrer
 title: Kundensegmentierung
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,16 +13,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Ermöglicht es Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente umfassen.
 
-> [!NOTE] Die Segmentsteuerung ist nur im Standardmodus verfügbar, da die Adobe Analytics-Plattform die Segmentierung von Echtzeitdaten nicht unterstützt.
+>[!NOTE] Die Segmentsteuerung ist nur im Standardmodus verfügbar, da die Adobe Analytics-Plattform die Segmentierung von Echtzeitdaten nicht unterstützt.
 
-Sie können ein oder mehrere Segmente aus dem unten abgebildeten Dropdownmenü **[!UICONTROL Segmente]** auswählen. Die aufgelisteten Segmente sind entweder Ihre eigenen oder solche, die über „Reports &amp; Analytics“ für die ausgewählte Report Suite für Sie freigegeben wurden.
+You can select one or several of the segments from the **[!UICONTROL Segments]** drop-down menu shown below. Die aufgelisteten Segmente sind identisch mit denen, die Sie besitzen oder die über Reports &amp; Analysen für die ausgewählte Report Suite für Sie freigegeben wurden.
 
 ![](assets/segments.png)
 
-Wenn sich die ausgewählten Segmente geändert haben und nachdem die Segmentauswahl geschlossen wurde, wird ein neuer Analytics-Datenabrufprozess für alle Metriken gestartet, die in der Anwendung angezeigt werden. Während Sie von Seite zu Seite navigieren, „merkt“ sich das Programm die ausgewählten Segmente.
+Wenn sich die Auswahl der Segmente geändert hat und die Segmentauswahl geschlossen wurde, wird für alle in der Anwendung angezeigten Metriken ein neuer Analytics-Datenabruf-Prozess gestartet. Die ausgewählten Segmente werden beim Navigieren von Seite zu Seite gespeichert.
 
-Sind mehrere Segmente ausgewählt, so lautet die Beschriftung der Segmentauswahl (in minimiertem Zustand) „Mehrere“. Die vollständige Liste der ausgewählten Segmente wird angezeigt, wenn Sie auf das Steuerelement klicken.
+Wenn mehr als ein Segment ausgewählt ist, zeigt die Beschriftung für die Segmentauswahl (in reduziertem Zustand) &quot;Mehrere&quot;an. Die vollständige Liste der ausgewählten Segmente wird angezeigt, wenn Sie auf das Steuerelement klicken.
 
 ![](assets/two_segments.png)
 
-Die ausgewählten Segmente werden auf alle in Activity Map dargestellten Analytics-Berichte angewendet, d. h. auf Überlagerungen sowie auf die Berichte **[!UICONTROL Links auf Seite]** und **[!UICONTROL Seitendetails]**.
+The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
