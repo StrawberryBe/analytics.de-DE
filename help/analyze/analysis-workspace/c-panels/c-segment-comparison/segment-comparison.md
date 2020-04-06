@@ -2,8 +2,8 @@
 title: Übersicht über den Segmentvergleich
 description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“, Teil von Segment IQ in Analysis Workspace, verwenden.
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,11 +27,11 @@ Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segmen
 
    ![Zielgruppen vergleichen](assets/compare-audiences.png)
 
-   Nachdem Sie ein Segment in das Bedienfeld gezogen haben, erstellt Analytics automatisch ein Segment [!UICONTROL Alle anderen], das alle NICHT in das ausgewählte Segment eingeschlossenen enthält. Es handelt sich um ein häufig verwendetes Segment im Vergleichsbedienfeld, Sie können es jedoch entfernen und ein anderes Segment Ihrer Wahl vergleichen.
+   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. Es handelt sich um ein häufig verwendetes Segment im Vergleichsbedienfeld, Sie können es jedoch entfernen und ein anderes Segment Ihrer Wahl vergleichen.
 
    ![Alle anderen](assets/everyone-else.png)
 
-1. Nachdem Sie ermittelt haben, welche Segmente Sie vergleichen möchten, klicken Sie auf [!UICONTROL Erstellen].
+1. Once you have determined which two segments to compare, click [!UICONTROL Build].
 
    Diese Aktion startet einen Backend-Prozess, der nach statistischen Unterschieden zwischen den beiden ausgewählten Segmenten und allen Dimensionen, Metriken und anderen Segmenten sucht. Eine Fortschrittsleiste oben im Bedienfeld gibt die verbleibende Zeit an, bis jede Metrik und Dimension analysiert wird. Die am häufigsten verwendeten Metriken, Dimensionen und Segmente werden bei der Ausführung priorisiert, damit die relevantesten Ergebnisse zuerst zurückgegeben werden.
 
@@ -39,12 +39,12 @@ Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segmen
 
 Manchmal ist es wünschenswert, Dimensionen, Metriken oder Segmente aus Segmentvergleichen auszuschließen. Beispiel: Sie möchten das Segment „Mobile Nutzer aus den USA“ mit „Mobile Nutzer aus Deutschland“ vergleichen. Die Einbeziehung geografischer Dimensionen wäre nicht sinnvoll, da diese Segmente diese Unterschiede bereits implizieren.
 
-1. Nachdem sich die beiden gewünschten Segmente im Bedienfeld befinden, klicken Sie auf [!UICONTROL Erweiterte Optionen anzeigen].
-1. Verschieben Sie die Komponenten, die Sie ausschließen möchten, per Drag-and-Drop in den Bereich [!UICONTROL Ausgeschlossene Komponenten].
+1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
+1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
 
    ![Ausgeschlossene Komponenten](assets/excluded-components.png)
 
-Klicken Sie auf [!UICONTROL Als Standard festlegen], um Ihre aktuellen Komponenten bei allen zukünftigen Segmentvergleichen automatisch auszuschließen. Wenn Sie ausgeschlossene Komponenten bearbeiten möchten, klicken Sie auf einen Komponententyp und dann auf das X neben einer Komponente, um sie erneut in Ihre Analyse einzuschließen. Klicken Sie auf „Alle löschen“, um alle Komponenten erneut in Ihren Segmentvergleich einzubeziehen.
+Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. Wenn Sie ausgeschlossene Komponenten bearbeiten möchten, klicken Sie auf einen Komponententyp und dann auf das X neben einer Komponente, um sie erneut in Ihre Analyse einzuschließen. Klicken Sie auf „Alle löschen“, um alle Komponenten erneut in Ihren Segmentvergleich einzubeziehen.
 
 ![Ausgeschlossene Dimensionen](assets/excluded-dimensions.png)
 
@@ -58,7 +58,7 @@ Nachdem Adobe die Analyse der beiden gewünschten Segmente abgeschlossen hat, we
 
 ### Größe und Überschneidung
 
-Veranschaulicht die vergleichenden Größen jedes ausgewählten Segments und wie stark sie sich mithilfe eines Venendiagramms überschneiden. Wenn Sie den Mauszeiger auf die Visualisierung bewegen, sehen Sie, wie viele Besucher in den einzelnen sich überschneidenden oder sich nicht überschneidenden Bereichen enthalten sind. Sie können auch mit der rechten Maustaste auf die Überschneidung klicken, um für weitere Analysen ein ganz neues Segment zu erstellen. Wenn sich die beiden Segmente gegenseitig ausschließen, wird keine Überschneidung zwischen den beiden Kreisen angezeigt (typischerweise bei Segmenten, die einen Hit-Container verwenden).
+Veranschaulicht die vergleichenden Größen jedes ausgewählten Segments und wie stark sie sich mithilfe eines Venendiagramms überschneiden. Sie können den Mauszeiger über das Visuelle bewegen, um zu sehen, wie viele Besucher sich in den einzelnen überlappenden oder nicht überlappenden Abschnitten befanden. Sie können auch mit der rechten Maustaste auf die Überschneidung klicken, um ein neues Segment für weitere Analysen zu erstellen. Wenn sich die beiden Segmente gegenseitig ausschließen, wird keine Überschneidung zwischen den beiden Kreisen angezeigt (typischerweise bei Segmenten, die einen Hit-Container verwenden).
 
 ![Größe und Überschneidung](assets/size-overlap.png)
 
@@ -74,7 +74,7 @@ Zeigt die statistisch bedeutendsten Metriken für die beiden Segmente an. Jede Z
 
 Diese Visualisierung ähnelt den Freiformtabellen in Analysis Workspace. Wenn eine tiefere Analyse einer bestimmten Metrik gewünscht wird, halten Sie den Mauszeiger über ein Zeilenelement und klicken Sie auf „Visualisierung erstellen“. Eine neue Tabelle wird erstellt, um diese spezifische Metrik zu analysieren. Wenn eine Metrik für Ihre Analyse irrelevant ist, halten Sie den Mauszeiger über das Zeilenelement und klicken Sie auf das X, um es zu entfernen.
 
-> [!NOTE] Metriken, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
+>[!NOTE] Metriken, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
 
 ![Top-Metriken](assets/top-metrics.png)
 
@@ -90,7 +90,7 @@ Zeigt die statistisch signifikantesten Dimensionswerte für alle Dimensionen an.
 
 Diese Visualisierung ähnelt den Freiformtabellen in Analysis Workspace. Wenn eine tiefere Analyse eines bestimmten Dimensionswerts gewünscht wird, halten Sie den Mauszeiger über ein Zeilenelement und klicken Sie auf „Visualisierung erstellen“. Eine neue Tabelle wird erstellt, um diesen spezifischen Dimensionswert zu analysieren. Wenn ein Dimensionswert für Ihre Analyse irrelevant ist, halten Sie den Mauszeiger über den Zeileneintrag und klicken Sie auf das X, um ihn zu entfernen.
 
-> [!NOTE] Dimensionswerte, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt werden, erhalten keine Differenzbewertung.
+>[!NOTE] Dimensionswerte, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt werden, erhalten keine Differenzbewertung.
 
 ![Top-Dimensionen](assets/top-dimension-item1.png)
 
@@ -106,7 +106,7 @@ Zeigt, welche anderen Segmente (außer den beiden zum Vergleich ausgewählten Se
 
 Diese Visualisierung ähnelt den Freiformtabellen in Analysis Workspace. Wenn eine tiefere Analyse eines bestimmten Segments gewünscht wird, halten Sie den Mauszeiger über ein Zeilenelement und klicken Sie auf „Visualisierung erstellen“. Eine neue Tabelle wird erstellt, um dieses spezifische Segment zu analysieren. Wenn ein Segment für Ihre Analyse irrelevant ist, halten Sie den Mauszeiger über das Zeilenelement und klicken Sie auf das X, um es zu entfernen.
 
-> [!NOTE] Segmente, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
+>[!NOTE] Segmente, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
 
 ![Top-Segmente](assets/top-segments.png)
 
