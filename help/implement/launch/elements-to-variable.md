@@ -2,7 +2,7 @@
 title: Zuordnen von Datenelementen zu Analytics-Variablen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analyse Workspace verwenden können.
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten fe
 
 ### Variablen in Regeln festlegen
 
-Die in Regeln festgelegten Variablen eignen sich ideal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+Die in Regeln festgelegten Variablen eignen sich ideal, wenn Sie nicht möchten, dass Variablen auf jeder Seite festgelegt werden. Sie definieren die Kriterien in der Regel. See [Rules](https://docs.adobe.com/content/help/de-DE/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die gewünschte Eigenschaft Start.
@@ -43,7 +43,7 @@ Die in Regeln festgelegten Variablen eignen sich ideal, wenn Sie nicht möchten,
 1. Wählen Sie im modalen Fenster das gewünschte Datenelement aus. Klicken Sie auf [!UICONTROL Select].
 1. Der Name des Datenelements wird dem Textfeld, das von `%` Zeichen umgeben ist, hinzugefügt. Wenn Sie Ihr Datenelement beispielsweise &quot;Seitenname&quot;nennen, wird die Zeichenfolge angezeigt, `%Page name%` wenn Sie einer Variablen ein Datenelement zuweisen.
 
-> [!TIP] Sie können Datenelemente in derselben Variablen verketten. Wenn Sie beispielsweise ein Datenelement &quot;Hostname&quot;und ein Datenelement &quot;Pathname&quot;haben, können Sie beide mit `%Hostname%%Pathname%`einer Variablen kombinieren.
+>[!TIP] Sie können Datenelemente in derselben Variablen verketten. Wenn Sie beispielsweise ein Datenelement &quot;Hostname&quot;und ein Datenelement &quot;Pathname&quot;haben, können Sie beide mit `%Hostname%%Pathname%`einer Variablen kombinieren.
 
 ## Nächste Schritte
 
