@@ -1,35 +1,35 @@
 ---
 title: Verarbeitungsregeln für Marketing-Kanäle
-description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
+description: Die Verarbeitungsregeln für Marketing Kanal bestimmen, ob ein Besucher-Treffer die einem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien für einen Kanal nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, weist das System den Treffer zu "Kein Kanal identifiziert"zu.
 translation-type: tm+mt
-source-git-commit: c10a12781a8fe52b7b897cd337dc686aa0bbb240
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Verarbeitungsregeln für Marketing-Kanäle
 
-Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
+Die Verarbeitungsregeln für Marketing Kanal bestimmen, ob ein Besucher-Treffer die einem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien für einen Kanal nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, weist das System den Treffer zu &quot;Kein Kanal identifiziert&quot;zu.
 
-Beachten Sie bei der Regelerstellung diese wichtigen Richtlinien:
+Beachten Sie beim Erstellen von Regeln die folgenden wichtigen Richtlinien:
 
 * Sortieren Sie die Regeln in der Reihenfolge, in der sie verarbeitet werden sollen.
-* Setzen Sie an das Ende Ihrer Liste eine Sammelregel wie „Sonstige“. Diese Regel identifiziert externen Traffic, jedoch nicht den internen Traffic.
+* Schließen Sie am Ende Ihrer Liste eine Sammelregel wie &quot;Sonstige&quot;ein. Diese Regel identifiziert externen Traffic, jedoch nicht den internen Traffic.
 
    Siehe [Kein Kanal identifiziert.](/help/components/c-marketing-channels/c-faq.md)
 
-> [!NOTE] Auch wenn diese Regeln keine Auswirkungen auf die Berichterstellung außerhalb der Marketing-Kanäle haben, beeinflussen sie die Marketing-Kanal-Datenerfassung. Mit diesen Regeln erfasste Daten sind zu 100 % dauerhaft und nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+>[!NOTE] Auch wenn diese Regeln keine Auswirkungen auf die Berichterstellung außerhalb der Marketing-Kanäle haben, beeinflussen sie die Marketing-Kanal-Datenerfassung. Mit diesen Regeln gesammelte Daten sind zu 100 % dauerhaft, und nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Es wird dringend empfohlen, alle Umstände zu überprüfen und zu berücksichtigen, bevor Daten gespeichert werden, [!UICONTROL Marketing Channel Processing Rules] um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
 
 ## Voraussetzungen
 
-* Überprüfen Sie die Konzeptinformationen unter [Erste Schritte mit Marketingkanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. See [Add marketing channels.](/help/components/c-marketing-channels/c-channels.md)
+* Überprüfen Sie die Konzeptinformationen unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+* Erstellen Sie einen oder mehrere Kanal, damit Sie ihnen Regeln zuweisen können. See [Add marketing channels.](/help/components/c-marketing-channels/c-channels.md)
 
 ## Einrichten von Marketingkanal-Verarbeitungsregeln
 
 Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt.
 
-Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegangen, dass Sie Ihrer Kanalliste auf der Seite „Marketingkanal-Manager“ einen E-Mail-Kanal hinzugefügt haben.
+Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Bei diesem Beispiel wird davon ausgegangen, dass Sie Ihrer Liste der Kanal auf der Seite &quot;Marketing Kanal-Manager&quot;einen E-Mail-Kanal hinzugefügt haben.
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Report Suite auswählen.
@@ -48,7 +48,7 @@ Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegang
 
    ![Schritt Ergebnis](assets/example_email.png)
 
-   Verwenden Sie zur Regelkonfiguration die Boolesche Logik (if/then (wenn/dann) Aussagen). In einer E-Mail-Kanalregel geben Sie z. B. die Einstellungen oder Informationen ein, die in der folgenden Regelaussage hervorgehoben sind:
+   Verwenden Sie die Boolesche Logik (if/then-Anweisungen), um eine Regel zu konfigurieren. Geben Sie beispielsweise in einer E-Mail-Kanal-Regel die Einstellungen oder Informationen ein, die in der folgenden Regelaussage hervorgehoben werden:
 
    `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
 
@@ -66,25 +66,25 @@ Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegang
 >* [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md)
 
 
-## Marketingkanal-Regelkriterien
+## Regelkriterien für Marketing-Kanal
 
 Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „Marketingkanalregeln“ auswählen können.
 
 | Begriff | Definition |
 |--- |--- |
-| Alle | Aktiviert diesen Kanal nur, wenn alle Regeln in der nummerierten Regel „true“ sind. |
-| Alle | Aktiviert diesen Kanal, wenn eine der Regeln im Regelsatz „true“ ist. Diese Option steht nur zur Verfügung, wenn mehr als eine Regel in der nummerierten Regel vorhanden ist. |
+| Alle | Aktiviert diesen Kanal nur, wenn alle Regeln in der nummerierten Regel &quot;true&quot;sind. |
+| Eines | Aktiviert diesen Kanal, wenn eine der Regeln im Regelsatz &quot;true&quot;lautet. Diese Option ist nur verfügbar, wenn in der nummerierten Regel mehr als eine Regel vorhanden ist. |
 | AMO-ID | Der primäre Trackingcode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von „AMO-ID“ beginnt mit „AL“ für die Suche, „AC“ für die Anzeige oder „AO“ für Social. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu „Direkt“ oder „Keine“). |
 | AMO-EF-ID | Der von Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Anzeige-Clickthrough oder Anzeige-Viewthroughs verwendet werden, wenn Sie diese als zwei separate Marketing-Kanäle betrachten möchten. Dazu können Sie die Marketing-Kanal-Logik so festlegen, dass „AMO EF ID“ für Anzeige-Clickthroughs auf „:d“ oder „AMO EF ID“ für Anzeige-Viewthroughs auf „:i“ endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
-| Konversionsvariablen | Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden.  Siehe Implementierungshandbuch . |
-| Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer verweisenden Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die verweisende Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine verweisende Domäne einen bestimmten Wert nicht enthält (anders als bei Auswahl von &quot;Enthält&quot;.)</li></ul> |
+| Konversionsvariablen | Besteht aus eVars, die für diese Report Suite aktiviert sind, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite eingestellt werden.  Siehe Implementierungshandbuch . |
+| Vorhanden | Es stehen verschiedene Auswahlmöglichkeiten zur Verfügung, darunter:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer verweisenden Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die verweisende Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält** nicht: Hier können Sie beispielsweise angeben, dass eine verweisende Domäne keinen bestimmten Wert enthält (im Gegensatz zur Auswahl von &quot;Enthält&quot;).</li></ul> |
 | Den Kanal identifizieren als | Verbindet die Regel mit dem Marketingkanal, den Sie der Seite Marketingkanal-Manager hinzugefügt haben.  Weitere Informationen finden Sie unter Hinzufügen von Marketing-Kanälen. |
-| Stimmt mit Erkennungsregeln gebührenpflichtiger Suchvorgänge überein | Eine von Adobe erkannte, gebührenpflichtige Suche. Gebührenpflichtige Suchvorgänge treten ein, wenn Firmen Gebühren an die Suchmaschine zahlen, damit diese deren Site auflistet. Gebührenpflichtige Suchergebnisse tauchen gewöhnlich oben oder rechts von den Suchergebnissen auf. |
-| Stimmt mit Erkennungsregeln kostenloser Suchvorgänge überein | Eine von Adobe erkannte, kostenlose Suche. |
-| Verweisende Stelle stimmt mit internen URL-Filtern überein | Ein Besuch, dessen Seiten-URL laut der Definition für die Report Suite in „Admin Tools“ mit dem internen URL-Filter übereinstimmt. |
-| Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit Seiten-URL und Existiert einsetzen, um eine Sammelregel zu erstellen, sodass keine Besuche im Berichtabschnitt Kein Kanal identifiziert landen. |
-| Treffer ignorieren, die mit internen URL-Filtern übereinstimmen | (Für verweisende Stellen) Verfolgt nur Treffer, die von extern verweisenden Stellen stammen. Normalerweise wird diese Option nicht aktiviert, es sei denn, Sie möchten internen Traffic einbeziehen. |
-| Ist erste Seite des Besuchs | Die erste Seite eines Besuchs, die in der Adobe Berichterstellung erkannt wurde. |
+| Stimmt mit Erkennungsregeln gebührenpflichtiger Suchvorgänge überein | Eine von Adobe erkannte, gebührenpflichtige Suche. Gebührenpflichtige Suchvorgänge treten ein, wenn Firmen Gebühren an die Suchmaschine zahlen, damit diese deren Site auflistet. Gebührenpflichtige Suchvorgänge erscheinen in der Regel oben oder rechts in den Suchergebnissen. |
+| Stimmt mit Erkennungsregeln kostenloser Suchvorgänge überein | Eine von Adobe Berichte erkannte kostenlose Suche. |
+| Verweisende Stelle stimmt mit internen URL-Filtern überein | Ein Besuch, dessen Seiten-URL mit einem internen URL-Filter übereinstimmt, wie in den Admin Tools für die Report Suite definiert. |
+| Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt nicht mit einem internen URL-Filter überein, wie in den Admin Tools für die Report Suite definiert. Sie können diese Einstellung mit   Seiten-URL und Existiert einsetzen, um eine Sammelregel zu erstellen, sodass keine Besuche im Berichtabschnitt Kein Kanal identifiziert landen. |
+| Treffer ignorieren, die mit internen URL-Filtern übereinstimmen | (Für Werber) Verfolgt nur Treffer von extern verweisenden Sites. Lassen Sie diese Einstellung normalerweise aktiviert, es sei denn, Sie möchten internen Traffic einbeziehen. |
+| Ist erste Seite des Besuchs | Die erste Seite eines Besuchs, die von Adobe Berichte erkannt wurde. |
 | Seite | Der Seitenname einer Web-Seite auf Ihrer Site, die unter Verwendung des Adobe Webbeacons mit Tags versehen wurde. Dieser Wert entspricht  s.pageName . Beispiele sind `Home Page` und `About Us`. |
 | Seitendomäne | Die Domäne der Seite, auf der der Besucher landet, z. B. `products.example.co.uk`. |
 | Seitendomäne und Pfad | The domain and path, such as `products.example.co.uk/mens/pants/overview.html` . |
@@ -92,14 +92,14 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
 | „Seiten-URL“ | Die URL einer Webseite auf Ihrer Site. |
 | Verweisende Domäne | Die Domäne, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; verweisende Stellen können z. B. `abcsite.com` oder `xyzsite.com` sein. |
 | Abfragezeichenfolgenparameter | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (Siehe `https://en.wikipedia.org/wiki/Query_string`.)  Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. |
-| Verweisende Stelle | Die Webseite (volle URL), auf der sich Besucher befanden, bevor sie zu Ihrer Site kamen. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domäne. |
-| Verweisende Domäne und Pfad | Eine Verkettung aus verweisender Domäne und URL-Pfad. Zu den Beispielen gehören:    `www.example.com/products/id/12345` oder `ad.example.com/foo` |
+| Verweisende Stelle | Der Speicherort der Webseite (vollständige URL), auf dem sich Ihre Besucher befanden, bevor sie zu Ihrer Site kamen. Ein Werber befindet sich außerhalb Ihrer definierten Domäne. |
+| Verweisende Domäne und Pfad | Eine Verkettung aus verweisender Domäne und URL-Pfad. Beispiele:    `www.example.com/products/id/12345` oder `ad.example.com/foo` |
 | Verweisender Parameter | Abfragezeichenfolgenparameter der verweisenden URL. Wenn Ihre Besucher z. B. von `example.com/?page=12345&cat=1` kommen, sind „page“ und „cat“ die verweisenden Parameter. |
-| Verweisende Stammdomäne | Die Stammdomäne der verweisenden Stelle. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domäne. |
+| Verweisende Stammdomäne | Die Stammdomäne der verweisenden Stelle. Ein Werber befindet sich außerhalb Ihrer definierten Domäne. |
 | Suchmaschine | Eine Suchmaschine wie Google oder Yahoo!, über die Besucher zu Ihrer Site gelangten. |
 | Suchkeywords | Ein Wort, mit dem in einer Suchmaschine gesucht wird. |
-| Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie z. B. nach dem Begriff „computer“ suchen, werden die Suchmaschine und Keyword wie folgt identifiziert: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:**„n“ = kostenlos; „p“ = gebührenpflichtig |
-| Den Kanalwert setzen auf | Neben der Erkenntnis, welche Marketing-Kanäle einen Besucher zu Ihrer Site führen, ist es auch von Interesse, welche Bannerwerbung, welches Keyword und welche E-Mail-Kampagne in dem Kanal die Gutschrift für die Site-Aktivität des Besuchers erhält. Diese ID ist ein Kanalwert, der mit dem Kanal gespeichert wird. Häufig handelt es sich dabei um eine Kampagnen-ID, die in die Landingpage oder die verweisende URL integriert ist. In anderen Fällen ist es eine Kombination aus Suchmaschine und Keyword oder die verweisende URL, die den Besucher aus einem bestimmten Kanal am genauesten identifiziert. |
+| Suchmaschine + Suchbegriffe | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie beispielsweise nach dem Wort &quot;computer&quot;suchen, werden die Suchmaschine und der Suchbegriff wie folgt identifiziert: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:**n = natürlich; p = gebührenpflichtig |
+| Den Kanalwert setzen auf | Neben der Erkenntnis, welche Marketing-Kanäle einen Besucher zu Ihrer Site führen, ist es auch von Interesse, welche Bannerwerbung, welches Keyword und welche E-Mail-Kampagne in dem Kanal die Gutschrift für die Site-Aktivität des Besuchers erhält. Diese ID ist ein Kanalwert, der mit dem Kanal gespeichert wird. Dieser Wert ist häufig eine Kampagnen-ID, die in die Landingpage oder die verweisende URL eingebettet ist. in anderen Fällen ist es die Kombination aus Suchmaschine und Suchbegriff oder die verweisende URL, die den Besucher eines bestimmten Kanals am besten identifiziert. |
 
 ## Kanal „Intern“ (Sitzungsaktualisierung)
 
