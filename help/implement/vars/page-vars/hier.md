@@ -2,18 +2,18 @@
 title: hier
 description: Implementieren Sie Hierarchievariablen in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # hier
 
-Hierarchievariablen sind benutzerdefinierte Variablen, mit denen Sie die Struktur einer Site sehen können.
+Hierarchievariablen sind benutzerdefinierte Variablen, mit denen Sie die Struktur einer Website sehen können.
 
-> [!TIP] Diese Variable wurde in früheren Versionen von Adobe Analytics häufiger verwendet. Adobe empfiehlt stattdessen die Verwendung von [eVars](evar.md) und Classifications.
+>[!TIP] Diese Variable wurde in früheren Versionen von Adobe Analytics häufiger verwendet. Adobe empfiehlt stattdessen die Verwendung von [eVars](evar.md) und Classifications.
 
-Diese Variable ist nützlich für Sites mit mehr als drei Ebenen in ihrer Site-Struktur. Eine Medien-Site kann beispielsweise vier Ebenen zum Abschnitt &quot;Sport&quot;haben: `Sports`, `Local Sports`, `Baseball`und `Team name`. Wenn ein Besucher die Fußballseite aufruft, wird dieser Besuch in den Ebenen „Sport“, „Lokaler Sport“ und „Fußball“ widergegeben.
+Diese Variable ist nützlich für Sites mit mehr als drei Ebenen in ihrer Site-Struktur. Eine Medien-Site kann beispielsweise vier Ebenen zum Abschnitt &quot;Sport&quot;haben: `Sports`, `Local Sports`, `Baseball`und `Team name`. Wenn jemand die Baseballseite, &quot;Sport&quot;, &quot;Lokaler Sport&quot;und &quot;Baseball&quot;besucht, spiegeln alle Ebenen diesen Besuch wider.
 
 Adobe unterstützt bis zu 5 Hierarchievariablen in Ihrer Implementierung. Wenn die Hierarchie aktiviert ist, entscheiden Sie über ein Trennzeichen für die Variable und die maximale Anzahl von Ebenen für die Hierarchie. Wenn das Trennzeichen beispielsweise ein Komma ist, würde die Hierarchie wie folgt aussehen:
 
