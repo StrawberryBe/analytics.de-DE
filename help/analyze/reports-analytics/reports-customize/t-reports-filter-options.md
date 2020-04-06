@@ -3,8 +3,8 @@ description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, 
 title: Filtern von Berichtsdaten
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem
 
 ![](assets/filter.png)
 
-Der einfache Filter wird in den meisten Berichten angezeigt, damit Sie spezielle Einzelelemente einfach finden können. Bei einfachen Filtern werden keine Sonderzeichen verwendet, sodass `-, ", ', +` und andere Sonderzeichen dem literalen Wert im Bericht entsprechen. Sie können Einzelelemente, die mehrere Begriffe enthalten, mit einem Leerzeichen suchen.
+Der einfache Filter wird in den meisten Berichten angezeigt, damit Sie spezielle Einzelelemente einfach finden können. Bei einfachen Filtern werden keine Sonderzeichen verwendet, sodass `-, ", ', +` und andere Sonderzeichen dem literalen Wert im Bericht entsprechen. Sie können Zeilenelemente, die mehrere Begriffe enthalten, mit einem Leerzeichen suchen.
 
 Beispiel:
 
@@ -37,28 +37,28 @@ help:Internal Search Term
 
 ## Erweiterte Filter {#section_E016626C084640E8A066B2FDA5B932BF}
 
-Mit erweiterten Filtern können Sie den Umfang Ihrer Suche anhand einer Sammlung aus Filtern kontrollieren. Sie können festlegen, dass alle Filter oder beliebige Filter abgeglichen werden.
+Mit erweiterten Filtern können Sie den Umfang Ihrer Suche mithilfe einer Sammlung von Filtern steuern. Sie können festlegen, dass alle Filter oder Filter übereinstimmen.
 
 ![](assets/advanced_filter.png)
 
 **Enthält**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzelelement gefunden wird. Dieser Filter funktioniert genauso wie der einfache Filter.
+Sucht nach Begriffen, die an einer beliebigen Stelle im Zeileneintrag gefunden werden. Dies funktioniert genauso wie der einfache Filter.
 
-> [!NOTE] Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
+>[!NOTE] Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
 
 **Enthält nicht**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://marketing.adobe.com/resources/help/de_DE/reference/none-unspecified-unknown-other.html) aus Berichten filtern.
+Sucht, wenn der Begriff an keiner Stelle im Zeileneintrag gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://marketing.adobe.com/resources/help/de_DE/reference/none-unspecified-unknown-other.html) aus Berichten filtern.
 
 Enthält nicht: `none`
 
-Mit dem Filter „Erweitert (Sonderzeichen)“ können Sie noch genauer filtern:
+Für einen genaueren Filter können Sie den Filter &quot;Erweitert (Sonderzeichen)&quot;verwenden:
 
 * Erweitert (Sonderzeichen): `-^none$`
 * Erweitert (Sonderzeichen): `-"keyword unavailable"`
 
-Beispiel: Das folgende Einzelelement wird vom Kriterium „Enthält nicht“ gefiltert, aber nicht vom Kriterium „Erweitert (Sonderzeichen)“:
+Beispielsweise wird der folgende Zeileneintrag nach dem Kriterium &quot;Enthält nicht&quot;gefiltert, jedoch nicht nach dem Kriterium &quot;Erweitert (Sonderzeichen)&quot;:
 
 ```
 help:Rename the None classification key
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **Enthält eins von**
 
-Gibt ein Ergebnis zurück, wenn beliebige durch Leerzeichen getrennte Begriffe im Einzelelement gefunden werden. Der folgende Filter zeigt alle Seiten an, die „Männer“ oder „Verkauf“ enthalten:
+Sucht nach Begriffen, die durch Leerzeichen voneinander getrennt sind, im Zeileneintrag. Der folgende Filter zeigt alle Seiten an, die &quot;Männer&quot;oder &quot;Verkauf&quot;enthalten:
 
 Enthält eins von: `mens sale`
 
@@ -81,7 +81,7 @@ Sale & Values
 
 **Gleich**
 
-Gibt ein Ergebnis zurück, wenn das ganze Einzelelement, einschließlich Leerzeichen und anderer Zeichen, mit der angegebenen Phrase übereinstimmt.
+Sucht nach Übereinstimmung des gesamten Zeileneintrags, einschließlich Leerzeichen und anderer Zeichen, mit der angegebenen Wortgruppe.
 
 Gleich: `mens:desk & travel`
 
@@ -89,7 +89,7 @@ Gleich: `mens:desk & travel`
 
 **Beginnt mit**
 
-Gibt ein Ergebnis zurück, wenn das Einzelelement, einschließlich Leerzeichen und anderer Zeichen, mit der angegebenen Phrase beginnt.
+Sucht nach Beginn mit der angegebenen Wortgruppe, wenn das Zeilenelement einschließlich Leerzeichen und anderer Zeichen übereinstimmt.
 
 Beginnt mit: `mens`
 
@@ -105,7 +105,7 @@ Mens Hemp/Bamboo Flip Flops
 
 **Endet in**
 
-Gibt ein Ergebnis zurück, wenn das Einzelelement, einschließlich Leerzeichen und anderer Zeichen, mit dem angegebenen Ausdruck endet.
+Gibt ein Ergebnis zurück, wenn das Zeilenelement, einschließlich Leerzeichen und anderer Zeichen, mit der angegebenen Wortgruppe endet.
 
 Endet in: `jean`
 
@@ -121,7 +121,7 @@ Ocean Blue Jean
 
 ## Erweitert (Sonderzeichen) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-Mit dem erweiterten Filter können Sie Platzhalter- und andere komplexe Suchvorgänge durchführen.
+Mit &quot;Erweitert&quot;können Sie Platzhalter und andere komplexe Suchen durchführen.
 
 | Erweitert (Sonderzeichen) | Beschreibung |
 |--- |--- |
@@ -134,7 +134,7 @@ Mit dem erweiterten Filter können Sie Platzhalter- und andere komplexe Suchvorg
 
 ## Berichtsspezifische Filter erstellen {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-In diesen Schritten wird beschrieben, wie Filter für Berichte erstellt werden.
+Schritte, die beschreiben, wie Filter für Berichte erstellt werden.
 
 <!-- 
 
@@ -142,16 +142,16 @@ t_reports_filter_specific.xml
 
  -->
 
-Bestimmte Berichte enthalten einen Filter, der speziell an diesen angepasst ist. Der [!UICONTROL Bericht „Kaufkonversionstrichter“] kann z. B. nach Webseiten gefiltert werden. In einem [!UICONTROL Geosegmentation-Bericht] können Sie nach geografischen Regionen filtern. Weitere Berichte enthalten andere, jeweils spezifische Filter.
+Bestimmte Berichte enthalten einen Filter, der für diesen Bericht spezifisch ist. Beispielsweise [!UICONTROL Purchase Conversion Funnel Report] können Sie mit einer nach Webseiten filtern. Mit einer [!UICONTROL Geosegmentation Report] können Sie nach geografischer Region filtern. Zusätzliche Berichte haben andere Filter, die spezifisch für diese Berichte sind.
 
-Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken für die in der Liste angegebenen Elemente angezeigt.
+Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken zu den in der Liste angegebenen Elementen angezeigt.
 
 **So erstellen Sie berichtsspezifische Filter**
 
-1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Kaufbericht] (**[!UICONTROL Site-Metriken]** > **[!UICONTROL Kauf]** > **[!UICONTROL Einkaufs-Konversionstrichter]**).
+1. Erstellen Sie einen Bericht, z. B. [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
 1. Klicken Sie im Berichtkopf auf den Link **[!UICONTROL Filter]**.
-1. Klicken Sie auf der Seite [!UICONTROL Filterauswahl] auf **[!UICONTROL Einen Filter einsetzen]** und wählen Sie anschließend einen Filtertyp aus.
-1. Geben Sie zur Suche nach einem Element eine Zeichenfolge in das **[!UICONTROL Suchfeld]** ein.
+1. Klicken Sie auf der [!UICONTROL Filter Selector] Seite auf **[!UICONTROL Apply a Filter]** und wählen Sie dann einen Filtertyp aus.
+1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Korrelationsfilter hinzufügen {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Bestimmten Berichten können Sie benutzerspezifische Korrelationsfilter hinzufügen. Wenn Sie beispielsweise den [!UICONTROL Bericht „Seiten“] für eine Report Suite anzeigen, der mit einer Frauen-Seite korrelierte Site-Bereiche enthält, können Sie einen Filter für einen Bericht einrichten, der die bevorzugten Seiten innerhalb des Site-Bereichs „Frauen“ anzeigt.
+Bestimmte Berichte ermöglichen Ihnen das Hinzufügen benutzerdefinierter Korrelationsvariablen-Filter. Wenn Sie beispielsweise die [!UICONTROL Pages Report] für eine Report Suite anzeigen, für die Sitebereiche mit einer Frauenseite korreliert sind, können Sie eine Filterregel erstellen, die einen Bericht generiert, der die bevorzugten Seiten zeigt, wenn Site-Abschnitte = Frauen.
 
-Sie können die in einem Korrelationsbericht angezeigten Daten anhand einer beliebigen verfügbaren Korrelation filtern. Das hier dargestellte Beispiel zeigt, wie Sie einen Korrelationsfilter für Suchmaschinen hinzufügen.
+Sie können die in einem Korrelationsbericht angezeigten Daten mit einer beliebigen verfügbaren Korrelation filtern. Das Beispiel hier zeigt, wie Sie einen Korrelationsfilter für Suchmaschinen hinzufügen.
 
 **So fügen Sie einen Korrelationsfilter hinzu**
 
 1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (Siehe [Ausführen eines Unterteilungsberichts](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. Klicken Sie in dem Berichtkopf auf den Link **[!UICONTROL „Korrelationsfilter“]**. 
-1. Wählen Sie unter [!UICONTROL „Filterregelerstellung“] eine Kategorie, die Sie mit einem Element korrelieren möchten.
-1. Klicken Sie auf **[!UICONTROL OK]**.
+1. Klicken Sie im Berichtkopf auf den Link **[!UICONTROL Correlation Filter]**.
+1. Wählen Sie unter [!UICONTROL Filter Rule Creator]eine Kategorie aus, die mit einem Element korreliert werden soll.
+1. Klicken Sie auf **[!UICONTROL OK.]**
