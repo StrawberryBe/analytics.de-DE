@@ -1,16 +1,16 @@
 ---
 title: dc
-description: Eine zurückgestellte Variable, mit der Sie bestimmen können, welches Rechenzentrum verwendet werden soll.
+description: Eine eingestellte Variable, mit der Sie bestimmen können, welches Rechenzentrum verwendet werden soll.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dc
 
-> [!IMPORTANT] Diese Variable wird eingestellt. Verwenden Sie [`trackingServer`](trackingserver.md) stattdessen.
+>[!IMPORTANT] Diese Variable wurde eingestellt. Verwenden Sie stattdessen [`trackingServer`](trackingserver.md).
 
-In früheren Versionen von Adobe Analytics mussten Sie von Adobe angeben, an welches Rechenzentrum Sie Daten senden möchten. Das Senden von Treffern an das falsche Rechenzentrum führte zu Datenverlust.
+In früheren Versionen von Adobe Analytics mussten Sie bei Adobe angeben, an welches Rechenzentrum Sie Daten senden möchten. Das Senden von Treffern an das falsche Rechenzentrum führte zu Datenverlust.
 
-Adobe hat diese Erfahrung verbessert, da jede Implementierung Treffer an senden kann `sc.omtrdc.net`. Die Angabe des Rechenzentrums ist nicht mehr erforderlich.
+Adobe hat diese Erfahrung verbessert, indem es jeder Implementierung erlaubt, Treffer an `sc.omtrdc.net` zu senden. Die Angabe des Rechenzentrums ist nicht mehr erforderlich.
