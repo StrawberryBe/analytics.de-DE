@@ -1,25 +1,25 @@
 ---
-description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Bericht-Suites verfügbar.
-title: Mobile
+description: Zeigt Informationen zum Zugriff auf Websites von einem Mobilgerät aus an. Mobil-Berichte verbessern die Identifizierung von Besuchern, indem Daten über Mobilgeräte gesammelt werden, die zur Ansicht Ihrer Site verwendet werden. Mobil-Berichte können den Hersteller und die Funktionen eines Geräts identifizieren, z. B. Bildschirmgrößen, Video-, Audio- und Cookie-Unterstützung und andere Metriken. Mobil-Berichte stehen für alle Report Suites zur Verfügung.
+title: 'Mobile '
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Mobile
 
-Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
+Zeigt Informationen zum Zugriff auf Websites von einem Mobilgerät aus an. Mobil-Berichte verbessern die Identifizierung von Besuchern, indem Daten über Mobilgeräte gesammelt werden, die zur Ansicht Ihrer Site verwendet werden. Mobil-Berichte können den Hersteller und die Funktionen eines Geräts identifizieren, z. B. Bildschirmgrößen, Video-, Audio- und Cookie-Unterstützung und andere Metriken. Mobil-Berichte stehen für alle Report Suites zur Verfügung.
 
 ## Mobile {#topic_D306EA4558194488AC47A45B9C570150}
 
-Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
+Zeigt Informationen zum Zugriff auf Websites von einem Mobilgerät aus an. Mobil-Berichte verbessern die Identifizierung von Besuchern, indem Daten über Mobilgeräte gesammelt werden, die zur Ansicht Ihrer Site verwendet werden. Mobil-Berichte können den Hersteller und die Funktionen eines Geräts identifizieren, z. B. Bildschirmgrößen, Video-, Audio- und Cookie-Unterstützung und andere Metriken. Mobil-Berichte stehen für alle Report Suites zur Verfügung.
 
-> [!NOTE] Die Mobil-Berichte zeigen nur den mobilen Web-Traffic an. Mobile Anwendungsdaten, die mit dem nativen iOS, Android und anderen SDKs erfasst wurden, erscheinen in den Mobilanwendungsberichten und werden nur angezeigt, wenn sie unter „Admin Tools“ aktiviert werden.
+>[!NOTE] Die Mobil-Berichte zeigen nur den mobilen Web-Traffic an. Mobile App-Daten, die mit nativen iOS-, Android- und anderen SDKs erfasst wurden, werden in den Mobile App-Berichten angezeigt und nur angezeigt, wenn sie in den Admin Tools aktiviert sind.
 
-Die folgenden Mobile-Berichte sind verfügbar:
+Die folgenden Mobilberichte stehen zur Verfügung:
 
 <table id="table_900BB8F2F3A746B6B97DC629B39910DA"> 
  <thead> 
@@ -31,20 +31,20 @@ Die folgenden Mobile-Berichte sind verfügbar:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Geräte </p> </td> 
-   <td colname="col2"> <p>Zeigt die Anzahl der Besucher an, die mit Mobilgeräten auf Ihre Site zugegriffen haben, z. B. von einem iOS- oder Android-Gerät. Auf diese Weise können Sie den Einfluss von Mobilinitiativen bewerten, um diese in Ihre Planung aufzunehmen. Weitere Verwendungszwecke dieses Berichts: </p> <p> 
+   <td colname="col2"> <p>Zeigt die Anzahl der Besucher an, die mit Mobilgeräten auf Ihre Site zugriffen, z. B. mit iOS oder Android. Dieser Bericht kann Ihnen dabei helfen, die Auswirkungen mobiler Initiativen zu verstehen, sodass Sie entsprechend planen können. Mit diesem Bericht können Sie: </p> <p> 
      <ul id="ul_8CC40461C2944A63AED561E384275D24"> 
-      <li id="li_4667815ED7384DE9824FB47F02040374"> <p>Strategien für Mobilanwender entwickeln </p> </li> 
+      <li id="li_4667815ED7384DE9824FB47F02040374"> <p>Strategien für Mobilanwender zu entwickeln. </p> </li> 
       <li id="li_12C1F430E5464FB4AC29C2D970165935"> <p>Zielgruppenpräferenzen identifizieren </p> </li> 
       <li id="li_BFECB3B1F5A345BA82FC22BF99E8E418"> <p>Wireless- und Mobilanwenderpräsenz zu verfolgen. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hersteller </td> 
-   <td colname="col2"> Fasst Treffer von Mobilgeräten auf Ihrer Site nach Mobilgerätehersteller zusammen. Der Bericht zeigt den Herstellertyp, die Anzahl der Ansichten pro Hersteller und die entsprechenden Prozentwerte an. </td> 
+   <td colname="col2"> Fasst Treffer von Mobilgeräten auf Ihrer Site nach Mobilgerätehersteller zusammen. Der Bericht zeigt den Herstellertyp, die Anzahl der Ansichten für jeden Hersteller und die entsprechenden Prozentsätze an. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bildschirmgröße </td> 
-   <td colname="col2"> <p> Fasst die Treffer von Mobilgeräten auf Ihrer Site nach der Bildschirmgröße des Geräts zusammen. Der Bericht zeigt alle Bildschirmgrößen, die Anzahl der Besucher Ihrer Website, die die einzelnen Bildschirmgrößen verwenden, und den prozentualen Anteil der einzelnen Bildschirmgrößen an allen Ansichten. Der Bericht „Bildschirmgröße“ zeigt sowohl Höhe und Breite des Bildschirms im Vergleich zu den Berichten „Bildschirmhöhe“ und „Bildschirmbreite“ an. </p> <p>Der Bericht „Mobilgerät – Bildschirmgröße“ ist derzeit für jedes Gerät statisch. Jedes Gerät besitzt eine feste Bildschirmauflösung im Bericht, unabhängig von der Bildschirmausrichtung. Sie erkennen das anhand der Unterteilung der Bildschirmgröße nach Mobilgerät. </p><img placement="break" align="center"  src="assets/mobile-screen-sizes.png" id="image_A6DB4558376042A5822B892C7CEA1A7C" /> </td> 
+   <td colname="col2"> <p> Fasst Treffer von Mobilgeräten auf Ihrer Site nach der Bildschirmgröße des Geräts zusammen. Der Bericht zeigt die einzelnen Bildschirmgrößen, die Anzahl der Besucher Ihrer Site, die die einzelnen Bildschirmgrößen verwendet haben, und die jeweilige Bildschirmgröße als Prozentsatz der gesamten Ansichten an. Der Bericht Bildschirmgröße zeigt sowohl Höhe als auch Breite des Bildschirms im Vergleich zu den Berichten Bildschirmhöhe und Bildschirmbreite an. </p> <p>Der Bericht zur Mobilgerät-Bildschirmgröße ist derzeit statisch pro Gerät. Unabhängig von der Bildschirmausrichtung verfügt jedes Gerät über eine feste Bildschirmauflösung im Bericht. Sie können dies sehen, indem Sie die Bildschirmgröße nach Mobilgerät unterteilen. </p><img placement="break" align="center"  src="assets/mobile-screen-sizes.png" id="image_A6DB4558376042A5822B892C7CEA1A7C" /> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bildschirmhöhe </td> 
@@ -56,19 +56,19 @@ Die folgenden Mobile-Berichte sind verfügbar:
   </tr> 
   <tr> 
    <td colname="col1"> Cookie-Unterstützung </td> 
-   <td colname="col2"> <p>Fasst Treffer von Mobilgeräten danach zusammen, ob sie Cookies unterstützen. Besucher werden in Gruppen, die Cookies unterstützen, und in Gruppen, die dies nicht tun, unterteilt. Die Art des Mobilgeräts wird in der Zeichenfolge des Benutzeragents identifiziert. Adobe unterhält eine Liste der Mobilgeräte, die bekanntermaßen Cookies unterstützen. Wenn das in der Benutzeragenten-Zeichenfolge aufgelistete Mobilgerät auch in der Liste der Mobilgeräte von Adobe steht, wird der Zeileneintrag <span class="term">Unterstützt</span> im Bericht <span class="wintitle">Cookie-Unterstützung</span> inkrementiert. Andernfalls wird der Zeileneintrag <span class="term">Nicht unterstützt</span> im Bericht inkrementiert. </p> </td> 
+   <td colname="col2"> <p>Fasst Treffer von Mobilgeräten danach zusammen, ob sie Cookies unterstützen oder nicht. Besucher werden in Gruppen, die Cookies unterstützen, und Gruppen, die dies nicht tun, unterteilt. Der Typ des Mobilgeräts wird in der Benutzeragenten-Zeichenfolge angegeben. Adobe unterhält eine Liste von Mobilgeräten, die bekanntermaßen Cookies unterstützen. Wenn das in der Benutzeragenten-Zeichenfolge aufgelistete Mobilgerät auch in der Liste der Mobilgeräte von Adobe steht, wird der Zeileneintrag <span class="term">Unterstützt</span> im Bericht <span class="wintitle">Cookie-Unterstützung</span> inkrementiert. Andernfalls wird der Zeileneintrag <span class="term">Nicht unterstützt</span> im Bericht inkrementiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bildunterstützung </td> 
-   <td colname="col2"> <p> Fasst Mobilgeräte nach der Art von Bildern zusammen, die sie unterstützen. </p> <p>Wenn beispielsweise das Handy eines Besuchers, das <span class="filepath">.jpeg</span>-Bilder unterstützt, auf eine Site zugreift, wird der Bericht <span class="wintitle">Bildunterstützung</span> um mindestens 1 inkrementiert. Wenn Ihr Handy mehr als ein Bildformat unterstützt, ergibt der Besuch möglicherweise mehrere Inkrementierungen. Oder anders gesagt: Wenn Ihr Handy die Formate <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> und <span class="filepath">.gif</span> unterstützt, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
+   <td colname="col2"> <p> Fasst Mobilgeräte nach den von ihnen unterstützten Bildtypen zusammen. </p> <p>Wenn beispielsweise das Handy eines Besuchers, das <span class="filepath">.jpeg</span>-Bilder unterstützt, auf eine Site zugreift, wird der Bericht <span class="wintitle">Bildunterstützung</span> um mindestens 1 inkrementiert. Wenn Ihr Handy mehr als ein Bildformat unterstützt, ergibt der Besuch möglicherweise mehrere Inkrementierungen. Oder anders gesagt: Wenn Ihr Handy die Formate <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> und <span class="filepath">.gif</span> unterstützt, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Farbtiefe </td> 
-   <td colname="col2"> <p> Fasst Treffer von Mobilgeräten nach der Anzahl der unterstützten Farben zusammen. Der Bericht zeigt die Gesamtanzahl der Besucher auf Ihrer Site an, die ein Mobilgerät verwendet haben, und unterteilt diese in Gruppen je nach Anzahl der auf dem jeweiligen Mobilgerät konfigurierten Farben. </p> <p>Wenn das Handy Ihres Besuchers z. B. 24 Farben unterstützt, inkrementiert der Bericht den Zeileneintrag entsprechend den 24 Farben. </p> </td> 
+   <td colname="col2"> <p> Fasst Treffer von Mobilgeräten nach der Anzahl der unterstützten Farben zusammen. Der Bericht zeigt die Gesamtzahl der Besucher Ihrer Site an, die ein Mobilgerät verwendet haben, und unterteilt diese in Gruppen, je nachdem, wie viele Farben auf den Mobilgeräten konfiguriert wurden. </p> <p>Wenn das Handy Ihres Besuchers z. B. 24 Farben unterstützt, inkrementiert der Bericht den Zeileneintrag entsprechend den 24 Farben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Audiounterstützung </td> 
-   <td colname="col2"> <p> Fasst Mobilgeräte nach der Art von Audioformaten zusammen, die sie unterstützen. </p> <p>Wenn das Handy eines Benutzers beispielsweise das Format <span class="filepath">.mp3</span> unterstützt, wird der Bericht zur Audiounterstützung um mindestens 1 inkrementiert. Wenn Ihr Handy mehr als ein Audioformat unterstützt, ergibt ein Besuch auf der Site möglicherweise Inkrementierungen für jeden unterstützten Audiotyp. Sollte Ihr Handy die Formate <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> und <span class="filepath">.amr</span> unterstützen, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
+   <td colname="col1"> Audio-Unterstützung </td> 
+   <td colname="col2"> <p> Fasst Mobilgeräte nach den von ihnen unterstützten Audioformaten zusammen. </p> <p>Wenn das Handy eines Benutzers beispielsweise das Format <span class="filepath">.mp3</span> unterstützt, wird der Bericht zur Audiounterstützung um mindestens 1 inkrementiert. Wenn Ihr Handy mehr als ein Audioformat unterstützt, ergibt ein Besuch auf der Site möglicherweise Inkrementierungen für jeden unterstützten Audiotyp. Sollte Ihr Handy die Formate <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> und <span class="filepath">.amr</span> unterstützen, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Video-Unterstützung </td> 
@@ -76,19 +76,19 @@ Die folgenden Mobile-Berichte sind verfügbar:
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem von ihnen unterstützten Digital Rights Management (DRM). Zu den DRM-Gruppen gehören  <span class="term"> Weiterleitungssperre</span>, <span class="term"> Kombinierte Bereitstellung</span>, <span class="term"> Separate Bereitstellung</span> und <span class="term"> Nicht bekannt.</span> </p> </td> 
+   <td colname="col2"> <p> Fasst Mobilgeräte nach dem von ihnen unterstützten Digital Rights Management (DRM) zusammen. Zu den DRM-Gruppen gehören  <span class="term"> Weiterleitungssperre</span>, <span class="term"> Kombinierte Bereitstellung</span>, <span class="term"> Separate Bereitstellung</span> und <span class="term"> Nicht bekannt.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Netzprotokolle </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem von ihnen unterstützten Netzprotokoll (GPRS, CSD, EDGE, HSCSD etc.). Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte Netzprotokolle. </p> <p>Wenn ein Besucher mit einem Mobilgerät auf Ihre Site zugreift, wird der Bericht „Netzprotokolle“ um mindestens 1 inkrementiert. Wenn das Telefon mehrere Netzprotokolle unterstützt, werden die entsprechenden Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach den von ihnen unterstützten Netzprotokollen (GPRS, CSD, EDGE, HSCSD usw.). Der Bericht enthält auch eine Gruppe "Unbekannt"für nicht identifizierte Netzwerkprotokolle. </p> <p>Wenn ein Besucher mit einem Mobilgerät auf Ihre Site zugreift, wird der Bericht Netzprotokolle um mindestens 1 inkrementiert. Wenn das Telefon mehrere Netzwerkprotokolle unterstützt, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Betriebssystem  (veraltet) </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem mobilen Betriebssystem, das auf dem Gerät ausgeführt wird. Zu den mobilen Betriebssystemen gehören Windows, RIM, iOS, Symbian etc. Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Hinweis: Dieser Bericht wird nicht mehr unterstützt, seit der Bericht „Technologie“ &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Betriebssysteme </a> aktualisiert wurde, um alle Betriebssysteme, einschließlich der von Mobilgeräten, einzuschließen. Sie können ein Segment erstellen, wenn „Mobilgeräte“ vorhanden ist, und es auf den Bericht „Technologie &gt; Betriebssysteme“ anwenden, um lediglich Betriebssysteme für Mobilgeräte anzuzeigen. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach dem mobilen Betriebssystem, das auf dem Gerät ausgeführt wird. Zu den mobilen Betriebssystemen gehören Windows, RIM, iOS, Symbian usw. Der Bericht enthält auch eine Gruppe "Unbekannt"für nicht identifizierte mobile Betriebssysteme. </p> <p>Hinweis: Dieser Bericht wird nicht mehr unterstützt, seit der Bericht „Technologie“ &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Betriebssysteme </a> aktualisiert wurde, um alle Betriebssysteme, einschließlich der von Mobilgeräten, einzuschließen. Sie können ein Segment erstellen, in dem "Mobilgerät"vorhanden ist, und es auf den Bericht "Technologie"&gt; "Betriebssysteme"anwenden, damit nur mobile Betriebssysteme für die Ansicht verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java-Version </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach der von diesen Geräten unterstützten Java-Version. Der Bericht zur Java-Version identifiziert die Java-Version nach dem vom Gerät unterstützten Java Specification Request (JSR). Der Bericht enthält u. a. die Gruppe „Unbekannt“ für nicht identifizierte mobile Betriebssysteme. </p> <p>Weitere Informationen zu bestimmten JSRs finden Sie auf der Website <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach der von ihnen unterstützten Java-Version. Der Java-Versionsbericht identifiziert die Java-Version nach der Java Specification Request (JSR), die vom Gerät unterstützt wird. Der Bericht enthält auch eine Gruppe "Unbekannt"für nicht identifizierte mobile Betriebssysteme. </p> <p>Weitere Informationen zu bestimmten JSRs finden Sie auf der Website <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Länge der Lesezeichen-URL </td> 
@@ -103,8 +103,8 @@ Die folgenden Mobile-Berichte sind verfügbar:
    <td colname="col2"> <p> Gruppiert Mobilgeräte nach der maximal unterstützten Länge (in Zeichen) einer Webbrowser-URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Gerätenr.-Übertragung (EIN/AUS) </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung der Device Number Transmit (Gerätenr.-Übertragung). Der Bericht enthält u. a. die Gruppe „Unbekannt“ für Geräte, für die sich nicht feststellen lässt, ob sie die Gerätenr.-Übertragung unterstützen. </p> </td> 
+   <td colname="col1"> Gerätenr.-Transit (EIN/AUS) </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung der Device Number Transmit. Der Bericht enthält auch eine Gruppe "Unbekannt"für Geräte, bei denen die Unterstützung für die Gerätenr.-Übertragung nicht ermittelt werden kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
@@ -112,11 +112,11 @@ Die folgenden Mobile-Berichte sind verfügbar:
   </tr> 
   <tr> 
    <td colname="col1"> Design-Mail-Unterstützung </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach Unterstützung von Design-Mail. Design-Mail ermöglicht es Benutzern, E-Mail-Nachrichten mit Grafiken und Animationen zu gestalten. Der Bericht enthält u. a. die Gruppe  <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die Design-Mail-Unterstützung nicht ermittelt werden kann. </p> </td> 
+   <td colname="col2"> <p> Fasst Mobilgeräte nach Unterstützung von DecoMail zusammen, wodurch Benutzer ihre E-Mail mit Grafiken und Animationen dekorieren können. Der Bericht enthält u. a. die Gruppe  <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die Design-Mail-Unterstützung nicht ermittelt werden kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Informationsdienste </td> 
-   <td colname="col2"> <p> Gruppiert Mobilgeräte nach den Informationsdiensten (Channel I/B, EZ News Flash, W+INFO etc.), die von ihnen unterstützt werden. Wenn ein Besucher mit einem Mobilgerät, das Informationsdienste unterstützt, auf Ihre Site zugreift, wird der Bericht <span class="wintitle">Informationsdienste</span> um mindestens 1 inkrementiert. Wenn das Telefon mehrere Informationsdienste unterstützt, werden die entsprechenden Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
+   <td colname="col2"> <p> Gruppiert Mobilgeräte nach den Informationsdiensten (Channel I/B, EZ News Flash, W+INFO etc.), die von ihnen unterstützt werden. Wenn ein Besucher mit einem Mobilgerät, das Informationsdienste unterstützt, auf Ihre Site zugreift, wird der Bericht <span class="wintitle">Informationsdienste</span> um mindestens 1 inkrementiert. Wenn das Telefon mehrere Nachrichtendienste unterstützt, wird jede dieser Gruppen im Bericht inkrementiert. Somit ist die Summe der Gruppen möglicherweise größer als die Gesamtsumme am Ende des Berichts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
