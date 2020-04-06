@@ -1,52 +1,52 @@
 ---
 title: Numbers Suite
-description: Generieren und Bearbeiten von Zahlen zur Verwendung in anderen JavaScript-Variablen.
+description: Generieren und bearbeiten Sie Zahlen zur Verwendung in anderen JavaScript-Variablen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: Numbers Suite
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Die Numbers Suite bietet eine Reihe von JavaScript-Funktionen. Es enthält die folgenden Plug-ins:
+Numbers Suite bietet eine Reihe von JavaScript-Funktionen. Es enthält die folgenden Plug-ins:
 
-* **`zeroPad`**: Hinzufügen einer bestimmten Anzahl von Nullen bis zum Anfang einer Zahl. Dieses Plug-in ist nützlich, wenn eine Variable eine bestimmte Anzahl von Ziffern benötigt, z. B. wenn Sie mit JavaScript-Datumsobjekten arbeiten und einen Datums-/Tag mit zwei Ziffern statt nur einer Ziffer formatieren möchten. Beispiel: `01/09/2020` anstelle von `1/9/2020`.
-* **`randomNumber`**: Generieren Sie eine Zufallszahl mit einer bestimmten Anzahl von Ziffern. Dieses Plug-in ist nützlich, wenn Sie Drittanbieter-Tags bereitstellen und eine Zufallszahl wünschen, die im Cache gespeichert wird.
-* **`twoDecimals`**: Runden Sie eine Zahl auf den Schrank hundert. Dieses Plug-in eignet sich für Währungszwecke, sodass Sie eine Zahl auf einen gültigen Währungswert runden können.
+* **`zeroPad`**: Fügen Sie am Anfang einer Zahl eine bestimmte Anzahl von Nullen hinzu. Dieses Plug-in ist nützlich, wenn eine Variable eine bestimmte Anzahl von Ziffern benötigt, z. B. wenn Sie mit JavaScript-Datumsobjekten arbeiten und den Monat und Tag eines Datums mit zwei anstelle von nur einer Ziffer formatieren möchten. Beispiel: `01/09/2020` anstelle von `1/9/2020`.
+* **`randomNumber`**: Generieren Sie eine Zufallszahl mit einer bestimmten Anzahl von Ziffern. Dieses Plug-in ist nützlich, wenn Sie Tags von Drittanbietern bereitstellen und eine Cache-Busting-Zufallszahl wünschen.
+* **`twoDecimals`**: Runden Sie eine Zahl auf das nächste Hundertstel. Dieses Plug-in eignet sich für Währungszwecke, sodass Sie eine Zahl auf einen gültigen Währungswert runden können.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
    * Aktionstyp: Numbers Suite initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,26 +61,26 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-ins verwenden
+## Verwenden der Plug-ins
 
-Die `zeroPad` Methode verwendet die folgenden Argumente:
+Die `zeroPad`-Methode verwendet die folgenden Argumente:
 
 * **num** (erforderlich, Ganzzahl): Die Nummer, die aufgefüllt werden soll. Die Methode rundet den Wert dieses Arguments ab, wenn es Dezimalstellen enthält.
-* **nod** (erforderlich, ganze Zahl): Die Anzahl der Ziffern im endgültigen Rückgabewert. Wenn die Zahl, die aufgefüllt werden soll, weniger Ziffern enthält als die Anzahl der zu verwendenden Stellen, fügt das Plug-In dem Argument Nullen am Anfang hinzu. `num`
+* **nod** (erforderlich, Ganzzahl): Die Anzahl der Ziffern im endgültigen Rückgabewert. Wenn die Zahl, die aufgefüllt werden soll, weniger Ziffern enthält als die Anzahl der zu verwendenden Ziffern, fügt das Plug-in dem `num`-Argument Nullen am Anfang hinzu.
 
-Die `randomNumber` Methode verwendet die folgenden Argumente:
+Die `randomNumber`-Methode verwendet die folgenden Argumente:
 
-* **nod** (optional, integer): Die Anzahl der Ziffern in der Zufallszahl, die Sie generieren möchten. Der Höchstwert beträgt 17 Ziffern. Der Standardwert ist 10 Ziffern.
+* **nod** (optional, Ganzzahl): Die Anzahl der Ziffern in der Zufallszahl, die Sie generieren möchten. Der Höchstwert beträgt 17 Ziffern. Der Standardwert beträgt 10 Ziffern.
 
-Die `twoDecimals` Methode verwendet die folgenden Argumente:
+Die `twoDecimals`-Methode verwendet die folgenden Argumente:
 
-* **val** (erforderlich, Zahl): Eine Zahl (die durch ein String- oder Zahlenobjekt dargestellt wird), die auf das nächste Hundertstel gerundet werden soll.
+* **val** (erforderlich, Zahl): Eine Zahl (die durch ein Zeichenfolgen- oder Zahlenobjekt dargestellt wird), die auf das nächste Hundertstel gerundet werden soll.
 
-## Rückgabe
+## Rückgaben
 
-* Die **zeroPad** -Methode gibt eine Zeichenfolge zurück, die dem `num` Argument entspricht, jedoch eine bestimmte Anzahl von Nullen am Anfang des Werts hinzugefügt wird. Dadurch wird sichergestellt, dass der Rückgabewert die richtige Anzahl von Ziffern aufweist.
-* Die Methode **randomNumber** gibt eine Zeichenfolge zurück, die einer Zufallszahl mit der gewünschten Anzahl von Ziffern entspricht.
-* Die **Methode twoDecimals** gibt ein auf das nächste Hundertstel gerundetes Zahlenobjekt zurück.
+* Die **zeroPad**-Methode gibt eine Zeichenfolge zurück, die dem `num`-Argument entspricht, wobei jedoch eine bestimmte Anzahl von Nullen am Anfang des Werts hinzugefügt wird. Dadurch wird sichergestellt, dass der Rückgabewert die richtige Anzahl von Ziffern aufweist.
+* Die **randomNumber**-Methode gibt eine Zeichenfolge zurück, die einer Zufallszahl mit der gewünschten Anzahl von Ziffern entspricht.
+* Die **twoDecimals**-Methode gibt ein auf das nächste Hundertstel gerundetes Zahlenobjekt zurück.
 
 ## Beispielaufrufe
 
@@ -104,7 +104,7 @@ randomNumber() //returns a random 10-digit number but is useless since this isn'
 var j = randomNumber(35) //sets a variable named j equal to "15476068651810060" or another random 17-digit number
 ```
 
-### Beispiele für zwei Dezimalstellen
+### twoDecimals-Beispiele
 
 ```js
 s.events = "event10=" + twoDecimals("85.4827128694") //sets s.events="event10=85.48"
@@ -118,4 +118,4 @@ s.eVar65 = twoDecimals("672132.9699736457") //sets s.eVar65 equal to 672132.97
 
 ### 1.0 (25. Mai 2019)
 
-* Erstes Release.
+* Erste Version.
