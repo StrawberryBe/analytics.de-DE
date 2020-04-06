@@ -2,31 +2,31 @@
 title: useBeacon
 description: Mit useBeacon können Sie AppMeasurement zur Verwendung der sendBeacon-API des Browsers zwingen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # useBeacon
 
-Die meisten modernen Browser beinhalten die native Methode `navigator.sendBeacon()`. Es sendet asynchron eine kleine Menge Daten über HTTP an einen Webserver. AppMeasurement kann die `navigator.sendBeacon()` Methode verwenden, wenn die `useBeacon` Variable aktiviert ist. Es ist nützlich für Ausstiegslinks und andere Situationen, in denen Sie Informationen senden möchten, bevor die Seite entladen wird.
+Die meisten modernen Browser enthalten die native Methode `navigator.sendBeacon()`. Sie sendet asynchron eine kleine Datenmenge über HTTP an einen Webserver. AppMeasurement kann die `navigator.sendBeacon()`-Methode verwenden, wenn die `useBeacon`-Variable aktiviert ist. Sie ist nützlich für Exitlinks und andere Situationen, in denen Sie Informationen vor dem Entladen der Seite senden möchten.
 
-Wenn `useBeacon` diese Option aktiviert ist, verwendet der nächste an Adobe gesendete Treffer die `navigator.sendBeacon()` Methode des Browsers anstelle einer Standard- `GET` Bildanforderung. Diese Variable gilt für [`s.t()`](../functions/t-method.md)- und [`s.tl()`](../functions/tl-method.md)-Bildanforderungen. Hierfür ist AppMeasurement 2.17.0 oder höher erforderlich.
+Wenn `useBeacon` aktiviert ist, verwendet der nächste an Adobe gesendete Treffer die `navigator.sendBeacon()`-Methode des Browsers anstelle einer standardmäßigen `GET`-Bildanforderung. Diese Variable gilt für [`s.t()`](../functions/t-method.md)- und [`s.tl()`](../functions/tl-method.md)-Bildanforderungen. Sie erfordert AppMeasurement 2.17.0 oder höher.
 
-> [!TIP] AppMeasurement aktiviert automatisch `useBeacon` Ausstiegslink-Bildanforderungen.
+>[!TIP] AppMeasurement aktiviert automatisch `useBeacon` für Exitlink-Bildanforderungen.
 
-Die `useBeacon` Variable wird ignoriert, wenn der Besucher einen Browser verwendet, der nicht unterstützt `navigator.sendBeacon()`. Für die Verwendung dieser Variablen ist AppMeasurement 2.16.0 oder höher erforderlich.
+Die `useBeacon`-Variable wird ignoriert, wenn der Besucher einen Browser verwendet, der `navigator.sendBeacon()` nicht unterstützt. Für die Verwendung dieser Variablen ist AppMeasurement 2.16.0 oder höher erforderlich.
 
-## Beacon in Adobe Experience Platform Launch verwenden
+## Verwenden von Beacons in Adobe Experience Platform Launch
 
-Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den benutzerdefinierten Code-Editor entsprechend der AppMeasurement-Syntax.
+Es gibt kein spezielles Feld in Launch, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.useBeacon in AppMeasurement und Starten des benutzerdefinierten Code-Editors
+## s.useBeacon in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.useBeacon` Variable ist ein boolescher Wert, der bestimmt, ob AppMeasurement die `navigator.sendBeacon()` Methode des Browsers verwendet. Its default value is `false`. Legen Sie diese Variable auf `true` vor dem Aufruf einer Verfolgungsfunktion fest, wenn Sie die asynchrone Natur von verwenden möchten `navigator.sendBeacon()`.
+Die `s.useBeacon`-Variable ist ein boolescher Wert, der bestimmt, ob AppMeasurement die `navigator.sendBeacon()`-Methode des Browsers verwendet. Der Standardwert lautet `false`. Setzen Sie diese Variable vor dem Aufruf einer Tracking-Funktion auf `true`, wenn Sie die asynchrone Natur von `navigator.sendBeacon()` nutzen möchten.
 
 ```js
 s.useBeacon = true;
 ```
 
-> [!NOTE] Nach Ausführung eines Tracking-Aufrufs wird diese Variable auf `false`zurückgesetzt. Wenn Ihre Implementierung mehrere Bildanforderungen beim Laden derselben Seite sendet (z. B. Einzelseitenanwendungen), stellen Sie diese Variable auf `true` vor jedem Verfolgungsaufruf ein.
+>[!NOTE] Nach Ausführung eines Tracking-Aufrufs wird diese Variable auf `false`zurückgesetzt. Wenn Ihre Implementierung mehrere Bildanforderungen mit demselben Seitenladevorgang sendet (z. B. bei Einzelseitenanwendungen), setzen Sie diese Variable vor jedem Tracking-Aufruf auf `true`.
