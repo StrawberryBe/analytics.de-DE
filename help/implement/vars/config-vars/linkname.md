@@ -2,33 +2,33 @@
 title: linkName
 description: Legen Sie den Namen des Treffers für den benutzerspezifischen Link fest.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkName
 
-Verwenden Sie die `linkName` Variable, um den Dimensionswert von benutzerspezifischen Links, Downloadlinks oder Exitlinks beim Ausführen der nächsten [`tl()`](../functions/tl-method.md) Methode zu bestimmen.
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-Wenn diese Variable leer ist, kehrt AppMeasurement zur [`linkURL`](linkurl.md) Variablen zurück.
+Wenn diese Variable leer ist, kehrt AppMeasurement zur [`linkURL`](linkurl.md)-Variablen zurück.
 
-## Linkname beim Start der Adobe Experience Platform
+## Link-Name in Adobe Experience Platform Launch
 
-Sie können das Feld für den Linknamen festlegen, wenn Sie eine Regel zum Senden eines Beacons konfigurieren.
+Sie können das Feld für den Link-Namen festlegen, wenn Sie eine Regel zum Senden eines Beacons konfigurieren.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Rules] Registerkarte und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Actions]dem Symbol &quot;+&quot;auf
-5. Legen Sie das [!UICONTROL Extension] Dropdown-Menü auf Adobe Analytics und das [!UICONTROL Action Type] auf Beacon senden fest.
-6. Klicken Sie auf das `s.tl()` Optionsfeld, mit dem das [!UICONTROL Link Name] Feld angezeigt wird.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-## s.linkName in AppMeasurement und benutzerdefinierten Codeeditor starten
+## s.linkName in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.linkName` Variable ist eine Zeichenfolge, die den Dimensionswert für benutzerspezifische Links, Downloadlinks oder Exitlinks bestimmt (je nachdem, was [`s.linkType`](linktype.md) ist). Er kann bis zu 100 Byte lang sein.
+Die `s.linkName`-Variable ist eine Zeichenfolge, die den Dimensionswert für benutzerspezifische Links, Downloadlinks oder Exitlinks bestimmt (je nachdem, was [`s.linkType`](linktype.md) ist). Sie kann bis zu 100 Byte enthalten.
 
-> [!TIP] Diese Variable ist der dritte Parameter der `tl()` Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. Sie können die `linkName` Variable jedoch verwenden, wenn Sie Werte nicht als Argumente in der `tl()` Methode festlegen möchten.
+>[!TIP] Diese Variable ist der dritte Parameter der `tl()` Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";
@@ -36,7 +36,7 @@ s.linkName = "Example custom link";
 
 ## Beispiel
 
-Die folgenden beiden Beispiel-Linkverfolgungsaufrufe sind funktionell identisch. Es gibt verschiedene Methoden, um denselben Link-Verfolgungshit zu erzielen.
+Die folgenden beiden beispielhaften Linktracking-Aufrufe sind funktionell identisch. Es handelt sich um verschiedene Methoden, um denselben Linktracking-Treffer zu erzielen.
 
 ```js
 // Set link tracking arguments as individual variables
