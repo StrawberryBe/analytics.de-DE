@@ -2,8 +2,8 @@
 description: Die Bereitstellung dieser Integration ist ein einfacher Prozess, der die folgenden Aktionen erfordert.
 title: Bereitstellen der Integration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -65,13 +65,13 @@ Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten auf der
    1. Die Namen der 8 Standarddimensionen sollte **NICHT** geändert werden (d. h. „Demandbase-SID“, „Firmenname“, „Branche“).
 
 1. Aktivieren Sie das Kästchen, damit das Dashboard für die Demandbase-Integration automatisch für Sie erstellt wird (empfohlen).
-1. Überprüfen Sie alle Konfigurationselemente. Klicken Sie dann auf **[!UICONTROL Jetzt aktivieren]**.
+1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## Bereitstellen des Integrationscodes {#deploying-the-integration-code}
 
 Nach Abschluss des Integrationsassistenten müssen Sie den Integrationscode für Ihren Adobe Analytics-Bereitstellungscode (s_code) bereitstellen.
 
-> [!NOTE] Wenn Sie Adobe TagManager oder Dynamic Tag Management zur Bereitstellung von Adobe Analytics verwendet haben, können Sie den Integrationscode einfach mit einem dieser Tools hinzufügen.
+>[!NOTE] Wenn Sie Adobe TagManager oder Dynamic Tag Management zur Bereitstellung von Adobe Analytics verwendet haben, können Sie den Integrationscode einfach mit einem dieser Tools hinzufügen.
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Support]**, laden Sie die Ressource `integration code v2_0_1` im Bereich „Ressourcen“ der Integration herunter und speichern Sie sie.
 
@@ -155,7 +155,7 @@ Wenn Sie das Integrate-Modul noch nicht im Rahmen Ihrer Bereitstellung installie
 
 ### Für AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Entpacken Sie die AppMeasurement-ZIP-Datei, die Sie unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]** heruntergeladen haben.
+1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. Öffnen Sie die Datei mit dem Namen [!DNL AppMeasurement_Module_Integrate.js].
 1. Kopieren Sie die Inhalte dieser Datei und fügen Sie diese in Ihre primäre [!DNL AppMeasurement.js]-Datei ein.
@@ -199,7 +199,7 @@ Dies wird nur angezeigt, wenn Target auf der Seite implementiert ist UND Sie die
 
 Alternativ können Sie in der Menüstruktur von Adobe Analytics zur Demandbase-Berichterstellung navigieren (siehe Screenshots unten).
 
-> [!NOTE] Diese Daten sollten innerhalb von 24–48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
+>[!NOTE] Diese Daten sollten innerhalb von 24–48 Stunden nach erfolgreicher Bereitstellung angezeigt werden.
 
 ![](assets/reporting1.png)
 
