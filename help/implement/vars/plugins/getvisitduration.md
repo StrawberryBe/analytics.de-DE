@@ -1,48 +1,48 @@
 ---
 title: getVisitDuration
-description: Verfolgen Sie, wie lange ein Besucher bis jetzt auf der Site war.
+description: Verfolgen Sie, wie viel Zeit ein Besucher bisher auf der Website verbracht hat.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe-Plug-in: getVisitDuration
 
-> [!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Der Adobe-Kundendienst bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe zu diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Das `getVisitDuration` Plug-In verfolgt die Zeit in Minuten, die der Besucher bis zu diesem Zeitpunkt auf der Site verbracht hat. Adobe empfiehlt die Verwendung dieses Plug-Ins, wenn Sie die kumulative Zeit auf der Site bis zu diesem Zeitpunkt verfolgen oder die für die Durchführung einer Aktivität benötigte Zeit verfolgen möchten. Dieses Plug-In verfolgt nicht die Zeitdauer zwischen Ereignissen. Wenn diese Funktion gewünscht wird, verwenden Sie das [`getTimeBetweenEvents`](gettimebetweenevents.md) Plug-In.
+Das `getVisitDuration`-Plug-in verfolgt die Zeit in Minuten, die der Besucher bis zu diesem Zeitpunkt auf der Website verbracht hat. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie die kumulative Zeit auf der Website bis zu diesem Zeitpunkt oder die für die Durchführung einer Aktivität benötigte Zeit verfolgen möchten. Dieses Plug-in verfolgt nicht die Zeitspanne zwischen Ereignissen. Wenn diese Funktion gewünscht wird, verwenden Sie das [`getTimeBetweenEvents`](gettimebetweenevents.md)-Plug-in.
 
-## Installieren Sie das Plug-In mit der Adobe Experience Platform Launch-Erweiterung
+## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
-Adobe Angebots ist eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die gängigsten Plug-ins verwenden können.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Catalog] Schaltfläche
-1. Installieren und Veröffentlichen der [!UICONTROL Common Analytics Plugins] Erweiterung
-1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung &quot;Plug-ins initialisieren&quot;mit der folgenden Konfiguration:
-   * Bedingung: Keines
-   * Ereignis: Core - Bibliothek geladen (Seitenanfang)
-1. Hinzufügen Sie eine Aktion mit der folgenden Konfiguration auf die oben stehende Regel:
-   * Erweiterung: Allgemeine Analytics-Plugins
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
+   * Bedingung: Keine
+   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
+   * Erweiterung: Common Analytics Plugins
    * Aktionstyp: getVisitDuration initialisieren
 1. Speichern und veröffentlichen Sie die Änderungen an der Regel.
 
-## Installieren des Plug-Ins mit dem Editor für benutzerdefinierten Code starten
+## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
-Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
+Wenn Sie die Plug-in-Erweiterung nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Wechseln Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter der Adobe Analytics-Erweiterung.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Erweitern Sie das [!UICONTROL Configure tracking using custom code] Akkordeon, das die [!UICONTROL Open Editor] Schaltfläche einblendet.
-1. Öffnen Sie den benutzerdefinierten Code-Editor und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen in der Analytics-Erweiterung.
+1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
+1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
 
-## Plug-In mit AppMeasurement installieren
+## Installieren des Plug-ins mit AppMeasurement
 
-Kopieren Sie den folgenden Code an einer beliebigen Stelle in der AppMeasurement-Datei, nachdem das Analytics-Verfolgungsobjekt instanziiert wurde (unter Verwendung [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
+Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der AppMeasurement Datei ein, nachdem das Analytics-Tracking-Objekt instanziiert wurde (unter Verwendung von [`s_gi`](../functions/s-gi.md)). Die Beibehaltung von Kommentaren und Versionsnummern des Codes in Ihrer Implementierung hilft Adobe bei der Fehlerbehebung potenzieller Probleme.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,51 +51,51 @@ s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");i
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Plug-In verwenden
+## Verwenden des Plug-ins
 
-Die `getVisitDuration` Methode verwendet keine Argumente. Es gibt einen der folgenden Werte zurück:
+Die `getVisitDuration`-Methode verwendet keine Argumente. Sie gibt einen der folgenden Werte zurück:
 
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"` (wobei `[x]` die Anzahl der Minuten seit der Anlandung des Besuchers auf dem Standort angegeben ist)
+* `"[x] minutes"` (wobei `[x]` die Anzahl der Minuten ist, die seit der Landung des Besuchers auf der Website vergangen sind)
 
-Dieses Plug-In erstellt ein Erstanbieter-Cookie mit dem Namen `"s_dur"`, das die Anzahl der Millisekunden angibt, die seit der Landung des Besuchers auf der Site vergangen sind. Das Cookie läuft nach 30 Minuten Inaktivität ab.
+Dieses Plug-in erzeugt ein Erstanbieter-Cookie mit dem Namen `"s_dur"`, das die Anzahl der Millisekunden angibt, die seit der Landung des Besuchers auf der Website vergangen sind. Das Cookie läuft nach 30 Minuten Inaktivität ab.
 
 ## Beispielaufrufe
 
 ### Beispiel 1
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.eVar10 = s.getVisitDuration();
 ```
 
-...stellt eVar10 immer auf die Anzahl der Minuten ein, die seit der Landung des Besuchers auf der Site vergangen sind.
+... stellt eVar10 immer auf die Anzahl der Minuten ein, die vergangen sind, seit der Besucher auf der Website gelandet ist.
 
 ### Beispiel 2
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 ```
 
-...verwendet das Plug-in inList, um zu überprüfen, ob die Variable &quot;Ereignisses&quot;das Ereignis &quot;purchase&quot;enthält.  Ist dies der Fall, wird eVar10 auf die Anzahl der Minuten zwischen dem Beginn des Besuchers des Besuchs und dem Kaufzeitpunkt eingestellt.
+... prüft mithilfe des InList-Plug-ins, ob die Ereignisvariable das Kaufereignis enthält.  Ist dies der Fall, wird eVar10 auf die Anzahl der Minuten zwischen dem Beginn des Besuchs und dem Kaufzeitpunkt des Besuchers eingestellt.
 
 ### Beispiel 3
 
-Der folgende Code...
+Der folgende Code ...
 
 ```js
 s.prop10 = s.getVisitDuration();
 ```
 
-...wird immer prop10 so eingestellt, wie viele Minuten vergangen sind, seit der Besucher auf der Site gelandet ist.  Dies ist nützlich, wenn bei prop10 die Pfadsetzung aktiviert ist.  Wenn Sie die Metrik &quot;Ausstiege&quot;zum Bericht &quot;prop10&quot;hinzufügen, wird ein granularer &quot;Streudiagramm&quot;angezeigt, wie lange ein Besuch innerhalb von Minuten dauerte, bevor ein Besucher die Site verließ.
+... stellt prop10 immer auf die Anzahl der Minuten ein, die vergangen sind, seit der Besucher auf der Website gelandet ist.  Dies ist nützlich, wenn bei prop10 die Pfadsetzung aktiviert ist.  Wenn Sie die Metrik „Ausstiege“ zum Bericht „prop10“ hinzufügen, wird ein granularer Streudiagramm-Bericht angezeigt, wie lange ein Besuch in Minuten gedauert hat, bevor ein Besucher die Website verlassen hat.
 
 ## Versionsverlauf
 
 ### 2.0 (2. Mai 2018)
 
-* Point Release (vollständige Neuanalyse/Umschreiben des Plugins).
+* Zwischenversion (vollständige Neuanalyse/Umformulierung des Plug-ins).
