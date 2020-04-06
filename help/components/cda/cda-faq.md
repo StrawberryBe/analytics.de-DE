@@ -2,14 +2,14 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Häufig gestellte Fragen
 
-> [!NOTE] Die Dokumentation zur geräteübergreifenden Analyse kann sich ändern, wenn die Funktion weiterentwickelt wird. Achten Sie regelmäßig auf Updates.
+>[!NOTE] Die Dokumentation zur geräteübergreifenden Analyse kann sich ändern, wenn die Funktion weiterentwickelt wird. Achten Sie regelmäßig auf Updates.
 
 **Wie kann ich die geräteübergreifende Analyse verwenden, um zu sehen, wie Benutzer von einem Gerätetyp zum anderen wechseln?**
 
@@ -51,27 +51,27 @@ In einigen Situationen ist es möglich, dass sich mehrere Personen von demselben
 
 In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl von ECIDs verknüpft sein. Dies kann vorkommen, wenn der Benutzer eine Vielzahl von Browsern oder Apps verwendet, vor allem dann, wenn er häufig Cookies löscht oder den privaten oder Inkognito-Modus des Browsers verwendet. Das Gerätediagramm begrenzt die Anzahl der ECIDs, die mit einer bestimmten Benutzer-ID verknüpft sind, auf 200. Wenn eine Benutzer-ID mit zu vielen ECIDs verknüpft ist, geht das Gerätediagramm davon aus, dass die Benutzer-ID ungültig ist, und entfernt den mit dieser Benutzer-ID verknüpften Cluster. Die Benutzer-ID wird dann auf der Blacklist aufgeführt, sodass sie künftig nicht mehr in den Cluster aufgenommen werden kann. Das Ergebnis in der geräteübergreifenden Analyse ist, dass das Verhalten der Benutzer-ID nicht geräteübergreifend zugeordnet wird.
 
-**Was ist der Unterschied zwischen der Metrik &quot;Personen&quot;in CDA und der Metrik &quot;Unique Visitors&quot;außerhalb von CDA?**
+**Was ist der Unterschied zwischen der Metrik &quot;Personen&quot;in CDA und der Metrik &quot;Individuelle Besucher&quot;außerhalb von CDA?**
 
-Die Metrik &quot;Personen&quot;ähnelt der Metrik &quot;Individuelle Besucher&quot;insofern, als sie die Anzahl individueller Personen meldet. Bei der Verwendung von geräteübergreifender Analyse werden individuelle Besucher jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik &quot;Personen&quot;ersetzt die Metrik &quot;Unique Visitors&quot;, wenn &quot;Geräteübergreifende Analyse&quot;aktiviert ist.
+Die Metrik &quot;Personen&quot;ähnelt der Metrik &quot;Individuelle Besucher&quot;insofern, als sie die Anzahl der Einzelpersonen angibt. Bei der Verwendung von geräteübergreifender Analyse werden individuelle Besucher jedoch kombiniert, wenn sie ansonsten als zwei separate eindeutige Besucher außerhalb von CDA aufgezeichnet werden. Die Metrik &quot;Personen&quot;ersetzt die Metrik &quot;Individuelle Besucher&quot;, wenn &quot;Geräteübergreifende Analyse&quot;aktiviert ist.
 
-**Was ist der Unterschied zwischen der Metrik &quot;Unique Devices&quot;in CDA und der Metrik &quot;Unique Visitors&quot;außerhalb von CDA?**
+**Was ist der Unterschied zwischen der Metrik &quot;Unique Devices&quot;in CDA und der Metrik &quot;Unique Besuchers&quot;außerhalb von CDA?**
 
 Diese beiden Metriken sind in etwa gleich.
 
 **Kann ich CDA-Metriken mit der 2.0-API einbeziehen?**
 
-Ja. Der Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufordern, und Sie können API-Aufrufe anzeigen, die Adobe verwendet, um Ihre eigenen Berichte zu erstellen:
+Ja. Analyse Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufordern, und Sie können API-Aufrufe Ansicht verwenden, um Ihre eigenen Berichte zu erstellen:
 
-1. Öffnen Sie bei Anmeldung beim Analysis Workspace die Entwicklerwerkzeuge Ihres Browsers (F12 bei den meisten Browsern).
+1. Wenn Sie sich bei Analyse Workspace angemeldet haben, öffnen Sie die Entwicklerwerkzeuge Ihres Browsers (F12 für die meisten Browser).
 1. Geben Sie in die Browser-Konsole `adobeTools.showDebugger()`ein. Die Seite wird mit Debugging-Symbolen in der oberen rechten Ecke jedes Bedienfelds neu geladen.
 1. Klicken Sie im gewünschten Bereich auf das Debugging-Symbol und wählen Sie dann die gewünschte Visualisierung und die Uhrzeit der Anforderung aus.
 1. Suchen Sie die JSON-Anforderung, die Sie in Ihrem API-Aufruf an Adobe verwenden können.
 
-**Geräteübergreifende Analysen können individuelle Besucher zusammenführen. Kann sie die Besuche zusammenhalten?**
+**Geräteübergreifende Analysen können individuelle Besucher miteinander verbinden. Kann sie die Besuche zusammenhalten?**
 
 Ja. Wenn eine Einzelperson Treffer von zwei verschiedenen Geräten innerhalb des Timeouts für Besuche Ihrer Virtual Report Suite sendet (standardmäßig 30 Minuten), werden diese in denselben Besuch eingefügt.
 
 **Was ist die ultimative Besucher-ID, die CDA verwendet? Kann ich es aus Adobe Analytics exportieren?**
 
-Geräteübergreifende Analysen berechnen geheftete Daten mit einer &quot;Cluster-ID&quot;. Diese Kennung wird von Adobe zum Zeitpunkt der Ausführung des Berichts berechnet, auch als Berichtszeitverarbeitung bezeichnet. Die Art der Berichtszeitverarbeitung bedeutet, dass diese nicht mit Data Warehouse, Data Feeds oder anderen Exportfunktionen kompatibel ist, die Adobe anbietet.
+Geräteübergreifende Analysen berechnen geheftete Daten mit einer &quot;Cluster-ID&quot;. Diese Kennung wird von Adobe zum Zeitpunkt der Ausführung des Berichts berechnet, auch als Berichtszeitverarbeitung bezeichnet. Die Art der Berichtszeitverarbeitung bedeutet, dass diese nicht mit Data Warehouse, Data Feeds oder anderen Exportfunktionen von Adobe-Angeboten kompatibel ist.
