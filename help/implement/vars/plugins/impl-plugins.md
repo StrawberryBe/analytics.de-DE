@@ -1,35 +1,35 @@
 ---
-title: Übersicht über Zusatzmodule
-description: Fügen Sie Code auf Ihrer Site ein, um neue Funktionen einzuführen.
+title: Übersicht über Plug-ins
+description: Fügen Sie Code auf Ihrer Website ein, um neue Funktionen einzuführen.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Übersicht über Zusatzmodule
+# Übersicht über Plug-ins
 
-Plug-Ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ihre Analytics-Implementierung zu unterstützen. Diese Plug-ins erweitern den Funktionsumfang Ihrer JavaScript-Datei um Funktionen, die bei einer Basisimplementierung nicht vorhanden sind. Im Rahmen erweiterter Lösungen bietet Adobe noch andere Plug-ins an.
+Plug-ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ihre Analytics-Implementierung zu unterstützen. Diese Plug-ins erweitern den Funktionsumfang Ihrer JavaScript-Datei um Funktionen, die bei einer Basisimplementierung nicht vorhanden sind. Im Rahmen erweiterter Lösungen bietet Adobe noch andere Plug-ins an.
 
-> [!IMPORTANT] Plug-ins werden von Adobe Consulting bereitgestellt, um Ihnen zu helfen, aus Adobe Analytics mehr Nutzen zu ziehen. Die Adobe-Kundenunterstützung bietet keine Unterstützung für diese Plug-ins, einschließlich Installation oder Fehlerbehebung. Wenn Sie Hilfe bei einem Plug-In benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater für Hilfe arrangieren.
+>[!IMPORTANT] Plug-ins werden von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für diese Plug-ins, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit einem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Adobe Angebots bietet mehrere Möglichkeiten, ein bestimmtes Plug-In zu installieren:
+Adobe bietet mehrere Möglichkeiten, ein bestimmtes Plug-in zu installieren:
 
-1. Verwenden Sie die Erweiterung &quot;Common Analytics Plugins&quot;mit Adobe Experience Platform Launch
-2. Fügen Sie Plug-in-Code mit dem Editor Benutzerdefinierten Code starten ein.
-3. Fügen Sie den Plug-in-Code in Ihre `AppMeasurement.js` Datei ein
+1. Verwenden der Erweiterung „Common Analytics Plugins“ mit Adobe Experience Platform Launch.
+2. Einfügen des Plug-in-Codes mit dem benutzerdefinierten Code-Editor in Launch.
+3. Einfügen des Plug-in-Codes in Ihre `AppMeasurement.js`-Datei.
 
-Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie entscheiden können, wie Sie sie in Ihre Implementierung einbeziehen möchten. Stellen Sie sicher, dass Sie die folgenden Kriterien erfüllen, wenn Sie den Code auf Ihrer Site einbeziehen:
+Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie entscheiden können, wie Sie sie in Ihre Implementierung einbeziehen möchten. Stellen Sie sicher, dass Sie die folgenden Kriterien erfüllen, wenn Sie den Code auf Ihrer Website einbeziehen:
 
-1. Instanziieren Sie zuerst das Analytics-Verfolgungsobjekt (unter Verwendung [`s_gi`](../functions/s-gi.md)).
-   * Beim Laden von Adobe Analytics wird das Verfolgungsobjekt automatisch instanziiert.
-   * Implementierungen, bei denen das Verfolgungsobjekt `AppMeasurement.js` normalerweise oben in der JavaScript-Datei initialisiert wird.
-2. Fügen Sie Plug-in-Code Sekunde ein.
-   * Die Erweiterung &quot;Common Analytics Plugins&quot;verfügt über eine Aktionskonfiguration, in der Sie Plug-ins initialisieren können.
-   * Wenn Sie das Plug-in nicht verwenden möchten, können Sie beim Konfigurieren der Analytics-Erweiterung den Plug-in-Code im Editor für benutzerspezifischen Code einfügen.
-   * Wenn in Ihrer Implementierung &quot;Launch&quot;nicht verwendet wird, können Sie nach der Instanziierung des Verfolgungsobjekts Plug-in-Code an einer beliebigen `AppMeasurement.js` Stelle einfügen.
-3. Rufen Sie das Plug-in dritt auf.
-   * Alle Implementierungen, sowohl innerhalb als auch außerhalb von Launch, verwenden JavaScript, um Plug-ins aufzurufen. Rufen Sie das Plug-In in dem Format auf, das auf der Seite dieses Plug-Ins beschrieben ist.
+1. Instanziieren Sie zuerst das Analytics-Tracking-Objekt (unter Verwendung von [`s_gi`](../functions/s-gi.md)).
+   * Launch instanziiert das Tracking-Objekt beim Laden von Adobe Analytics automatisch.
+   * Implementierungen mit `AppMeasurement.js` initialisieren normalerweise das Tracking-Objekt am Anfang der JavaScript-Datei.
+2. Fügen Sie als Zweites den Plug-in-Code ein.
+   * Die Erweiterung „Common Analytics Plugins“ verfügt über eine Aktionskonfiguration, in der Sie Plug-ins initialisieren können.
+   * Wenn Sie das Plug-in nicht verwenden möchten, können Sie beim Konfigurieren der Analytics-Erweiterung den Plug-in-Code im Editor für benutzerdefinierten Code einfügen.
+   * Wenn Ihre Implementierung Launch nicht verwendet, können Sie Plug-in-Code an einer beliebigen Stelle in `AppMeasurement.js` einfügen, nachdem Sie das Tracking-Objekt instanziiert haben.
+3. Rufen Sie das Plug-in als Drittes auf.
+   * Alle Implementierungen, sowohl innerhalb als auch außerhalb von Launch, verwenden JavaScript, um Plug-ins aufzurufen. Rufen Sie das Plug-in in dem Format auf, das auf der Seite des Plug-ins beschrieben ist.
 4. Validieren Sie Ihre Implementierung und veröffentlichen Sie sie.
 
-Viele Unternehmen rufen Plug-ins über die [`doPlugins`](../functions/doplugins.md) Funktion auf. Diese Funktion ist zwar nicht erforderlich, Adobe hält sie jedoch für eine Best Practice. AppMeasurement ruft diese Funktion kurz vor dem Kompilieren und Senden einer Bildanforderung auf. Dies ist ideal, da mehrere Plug-ins von anderen Analytics-Variablen abhängen.
+Viele Unternehmen rufen Plug-ins über die [`doPlugins`](../functions/doplugins.md)-Funktion auf. Diese Funktion ist zwar nicht erforderlich, Adobe hält sie jedoch für eine Best Practice. AppMeasurement ruft diese Funktion kurz vor dem Kompilieren und Senden einer Bildanforderung auf. Dies ist ideal, da mehrere Plug-ins von anderen Analytics-Variablen abhängen.
