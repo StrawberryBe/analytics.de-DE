@@ -4,7 +4,7 @@ title: Segmente in der Experience Cloud veröffentlichen
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
 
 ---
 
@@ -41,6 +41,9 @@ Die Verarbeitung kann jetzt bis zu 8 Stunden dauern, aber je nach anderem Traff
 | Verwendbares Segment mit Mitgliedschaft | ~ 8 Stunden nach der Veröffentlichung | Besucherprofil-Betrachter in [!DNL Audience Manager] |
 | Eigenschaften- und Mitgliedspopulation | Nach 24–48 Stunden | [!DNL Audience Manager] |
 
+>[!NOTE]
+>Einmal pro Woche werden alle Daten vollständig synchronisiert, um alle Deltas oder Diskrepanzen zu berücksichtigen, die in der Vorwoche nicht erfasst wurden.
+
 ## Publish segments in [!UICONTROL Segment Builder]
 
 1. Navigieren Sie zu **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
@@ -51,7 +54,6 @@ Die Verarbeitung kann jetzt bis zu 8 Stunden dauern, aber je nach anderem Traff
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >Stellen Sie sicher, dass Sie „Besucher mit Experience Cloud ID“ verwenden, wenn Sie Segmentvorschauen in Analytics anstelle der Segmentvorschau „Unique Visitors“ insgesamt betrachten, wenn Sie Adobe Analytics-Zahlen mit Audience Manager-Zahlen vergleichen:
 >
 >![](assets/seg-vis-ecid.png)
