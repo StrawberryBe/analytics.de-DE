@@ -3,7 +3,7 @@ description: Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe A
 title: Berechnete Metriken
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
 
 ---
 
@@ -26,7 +26,7 @@ In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filter
 
 Zu den verfügbaren Filtern gehören:
 
-![](assets/advanced_filters_(2).png)
+![](assets/advanced_filters.png)
 
 | Filtername | Beschreibung |
 |---|---|
