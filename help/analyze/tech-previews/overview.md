@@ -1,8 +1,8 @@
 ---
 title: Labs-Benutzerhandbuch
 description: Vorschau von Prototypprojekten für Adobe Analytics
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ So starten und bewerten Sie einen Prototyp:
 
 1. Wenn Sie einen anderen Prototyp testen oder die Prototypumgebung verlassen möchten, klicken Sie oben rechts im Bildschirm auf die Schaltfläche **Prototyp verlassen** und füllen Sie die kurze Umfrage zum Prototyp aus. Änderungen, die an einem Prototypprojekt vorgenommen wurden, gehen beim Verlassen der Prototypumgebung verloren.
 
-   ![Feld für neues Feedback](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![Feld für neues Feedback](assets/short-survey.png)
 
 1. Klicken Sie auf **Senden**, um zum Hauptportal „Vorschau“ zurückzukehren.
 
