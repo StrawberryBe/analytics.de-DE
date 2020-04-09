@@ -1,10 +1,10 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace  Übersicht
+title: Analysis Workspace – Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ Analyse Workspace entfernt alle typischen Einschränkungen eines einzelnen Analy
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## Überblickvideo {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## Überblickvideo
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 Eine vollständige YouTube-Playlist ist [hier](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) verfügbar.
 
@@ -25,7 +25,7 @@ Eine vollständige YouTube-Playlist ist [hier](https://www.youtube.com/playlist?
 >
 >[Neuerungen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) enthält aktuelle Informationen zu Funktionen.
 
-## Vollständige Kontrolle über Projektelemente und Komponenten {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## Vollständige Kontrolle über Projektelemente und Komponenten
 
 Analyse Workspace bietet Freiheit und Flexibilität:
 
@@ -37,7 +37,7 @@ Analyse Workspace bietet Freiheit und Flexibilität:
 
 Weitere Informationen finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 
-## Mehrere Visualisierungen in einem Projekt {#section_B7670740C2D44130B21DAF0873280DA5}
+## Mehrere Visualisierungen in einem Projekt
 
 Erstellen Sie per Drag-and-Drop beliebig viele Visualisierungen in einem Projekt.
 
@@ -49,7 +49,7 @@ Erstellen Sie ein Projekt, das den Prozentsatz der Veränderung anzeigt, mit meh
 
 Weitere Informationen finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 
-## Intra-Linking zu Bereichen und Visualisierungen {#section_253EA04E067F4A29A8B54CE2B7631086}
+## Intra-Linking zu Bereichen und Visualisierungen
 
 Mithilfe der [Rich-Text-Bearbeitungsfunktionen](/help/analyze/analysis-workspace/visualizations/text.md) von Analysis Workspace können Sie innerhalb eines Projekts von einem Textfeld aus Verknüpfungen zu bestimmten Bereichen und Visualisierungen anlegen, beispielsweise um das Inhaltsverzeichnis eines Projekts zu erstellen. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Die neuen Rechtsklickoptionen „Bereichslink abrufen“ und „Visualisierungslink abrufen“ wurden hinzugefügt. So fügen Sie Ihrem Projekt Intra-Linking hinzu:
 
@@ -69,17 +69,17 @@ Wenn in Ihrem Projekt Bereiche oder Visualisierungen reduziert sind, wird durch 
 
 >[!NOTE] Sie können diese Funktion auch mit der **[!UICONTROL Edit Description]** Rechtsklick-Option verwenden.
 
-## Verknüpfung zu anderen Projekten {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## Verknüpfung zu anderen Projekten
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## Dynamische Visualisierung ausgewählter Zellen {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## Dynamische Visualisierung ausgewählter Zellen
 
 Wählen Sie einzelne Zellen aus und sehen Sie, wie sich die Visualisierungen dynamisch ändern. [Synchronisieren und sperren](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) Sie eine Visualisierung mit ausgewählten Zellen.
 
 ![](assets/visualize-selected-cells.png)
 
-## Ausgewählte Elemente oder Positionen sperren {#section_9D66A001586F49CEB0C565581E44957C}
+## Ausgewählte Elemente oder Positionen sperren
 
 Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Datentabellenquellen den Visualisierungen entsprechen.
 
@@ -87,7 +87,7 @@ Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Date
 
 [Data Sources verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## Trend-Visualisierungen aus ausgewählten Zellen {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## Trend-Visualisierungen aus ausgewählten Zellen
 
 Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick > **[!UICONTROL Trend Selection]**.)
 
@@ -97,7 +97,7 @@ Trendauswahlen werden jetzt mit der Tabelle darunter **verknüpft**. Wenn Sie da
 
 ![](assets/trend-selection2.png)
 
-## Aufschlüsselungen von Dimensionen und Dimensionselementen {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## Aufschlüsselungen von Dimensionen und Dimensionselementen
 
 Als Einzelhändler können Sie tiefer als je zuvor in Ihre Kampagnen eintauchen, um zu verstehen, wie Sie Ihre Kunden besser binden können. Daten auf unbegrenzte Weise für Ihre spezifischen Anforderungen aufschlüsseln; Erstellen Sie Abfragen mithilfe relevanter Metriken, Dimensionen, Segmente, Zeitlinien und anderer Aufschlüsselungswerte für Analysen.
 
@@ -105,7 +105,7 @@ Als Einzelhändler können Sie tiefer als je zuvor in Ihre Kampagnen eintauchen,
 
 [Schlüsseln Sie Dimensionen auf](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-## Segmente aus Tabellenauswahlen {#section_73BC3688089B426D969B3D5B606DA970}
+## Segmente aus Tabellenauswahlen
 
 Wählen Sie Zellen in der Freiformtabelle aus und erstellen Sie aus der Auswahl ein Segment.
 
@@ -119,7 +119,7 @@ Ziehen Sie ein Segment auf der Projektebene in den Freiformbereich, und das Segm
 
 Siehe [Segmente](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
-## Projekt- und Komponenten-Tagging {#section_F54D688132A541F2982326D5E022B90D}
+## Projekt- und Komponenten-Tagging
 
 In Analysis Workspace können Sie Tags auf Projekte und Komponenten anwenden:
 
@@ -128,7 +128,7 @@ In Analysis Workspace können Sie Tags auf Projekte und Komponenten anwenden:
 * Klicken Sie mit der rechten Maustaste auf Komponenten, um Tags im Komponentenbedienfeld zu taggen (oder zu erstellen).
 * Verwenden Sie # im Suchfeld, um Tags zu suchen.
 
-## Komponentenaktionen {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## Komponentenaktionen
 
 Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, das sich oben in der linken Leiste von „Komponenten“ befindet. Select a component and click **[!UICONTROL Actions]** to view the actions.
 
@@ -142,7 +142,7 @@ Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, 
 
 Weitere Informationen finden Sie unter [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) .
 
-## Beschreibung weiterer Funktionen {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## Beschreibung weiterer Funktionen
 
 **Was Sie ziehen und stapeln können**
 
@@ -187,4 +187,4 @@ Ein spezifisches Standardsegment von Analysis Workspace. *`All Visits`* zeigt di
 
 Verwenden Sie Berechnungen auf dieselbe Weise wie Standardmetriken.
 
-Siehe [Berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/).
+Siehe [Berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html).
