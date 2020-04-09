@@ -5,12 +5,20 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Neuerungen in Analysis Workspace
+
+## April 2020
+
+Am 16. April 2020 veröffentlichte neue Funktion.
+
+| Funktion | Beschreibung |
+|--- |--- |
+| Automatisch [!UICONTROL Freeform Tables] aus einem leeren Status erstellen | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu verschieben. Sie mussten zuerst eine Freiformtabelle hinzufügen. Sie können jetzt Komponenten direkt in einem leeren Projekt oder Fenster ablegen. Eine Freiform-Tabelle wird automatisch in einem empfohlenen Format erstellt. Darüber hinaus wurden Verbesserungen daran vorgenommen, wie gemischte Komponententypen (z. B. Dimensionen und Metriken) behandelt werden, wenn sie [!UICONTROL Freeform Table] zusammen in ein leeres Feld fallen. |
 
 ## März 2020
 
