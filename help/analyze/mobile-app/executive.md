@@ -1,21 +1,21 @@
 ---
-description: Anweisungen zum Einrichten von Scorecards für die mobile App.
-title: Kuratorhandbuch für die Adobe Analytics Mobile App
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: Anleitung zur Verwendung der Dashboards-Scorecards.
+title: Handbuch zu Adobe Analytics Dashboards
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# Analytics Mobile App: Schnellstarthandbuch für ausführende Benutzer
+# Adobe Analytics-Dashboard: Handbuch zum Beginn für Führungskräfte
 
 ## Einführung
 
-Mit der Adobe Analytics Mobile App stehen Benutzern jederzeit und überall Einblicke aus Adobe Analytics zur Verfügung.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
+Adobe Analytics-Dashboard bieten jederzeit und überall Einblicke aus Adobe Analytics.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Dashboard werden auf iOS- und Android-Betriebssystemen unterstützt.
 
 ## Informationen zu diesem Handbuch
 
-Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in der Analytics Mobile App zu lesen und zu interpretieren. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+Dieses Handbuch soll leitenden Benutzern helfen, Scorecards zu Analytics-Dashboards zu lesen und zu interpretieren. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
 ## Glossar
 
@@ -24,30 +24,30 @@ Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in der Analy
 | Verbraucher | Ausführende Person, die wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
 | Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
 | Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
-| Scorecard | Eine Ansicht der mobilen App mit einer oder mehreren Kacheln |
+| Scorecard | Eine Dashboard-Ansicht, die eine oder mehrere Kacheln enthält |
 | Kachel | Wiedergabe einer Metrik in einer Scorecard-Ansicht |
 | Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an. |
-| Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die mobile App |
+| Datumsbereich | Der primäre Datumsbereich für den Dashboard-Berichte |
 | Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
 
-## App auf Ihrem Gerät einrichten
+## Dashboard auf Ihrem Gerät einrichten
 
-Um die App effektiv zu nutzen, bitten Sie Ihren Scorecard-Kurator bei der Einrichtung der App um Hilfe. Dieser Abschnitt enthält Informationen, die Ihnen helfen, die App zusammen mit Ihrem Kurator einzurichten.
+Um die Dashboard effektiv nutzen zu können, benötigen Sie einen Scorecard-Kurator, der Sie bei der Einrichtung unterstützt. Dieser Abschnitt enthält Informationen, die Ihnen helfen, die App zusammen mit Ihrem Kurator einzurichten.
 
 ### Zugriff erhalten
 
-Um auf Scorecards in der App zuzugreifen, stellen Sie Folgendes sicher:
+Für den Zugriff auf Scorecards zu Dashboards müssen Sie Folgendes sicherstellen:
 
 * Sie haben gültige Anmeldeinformationen für Adobe Analytics.
 * Ihr Kurator hat mobile Scorecards korrekt erstellt und für Sie freigegeben.
 
-### App herunterladen und installieren
+### Herunterladen und Installieren von Dashboards
 
 Um die App herunterzuladen und zu installieren, führen Sie die Schritte entsprechend dem Betriebssystem auf Ihrem Gerät aus.
 
 **Für iOS-Geräte:**
 
-1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** > **Mobile App** verfügbar):
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Um die App herunterzuladen und zu installieren, führen Sie die Schritte entspre
 
 2. Tippen Sie auf den Link **Im App Store anzeigen** auf dem Bildschirm, um die Testflight-App herunterzuladen.
 
-3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics Mobile App in Testflight, wie unten gezeigt:
+3. Suchen und installieren Sie nach der Installation der Testflight-App Adobe Analytics-Dashboard aus Testflight:
 
    ![Testflight-Bildschirm](assets/testflight2.png)
 
 **Für Android-Geräte:**
 
-1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** > **Mobile App** verfügbar):
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Um die App herunterzuladen und zu installieren, führen Sie die Schritte entspre
 
    ![Download-Link](assets/playnext.png)
 
-## App verwenden
+## Dashboard verwenden
 
-So verwenden Sie die App:
+So verwenden Sie Dashboard:
 
-1. Melden Sie sich bei der App an. Der Anmeldebildschirm wird beim Start der App angezeigt. Folgen Sie den Anweisungen und melden Sie sich mit Ihren bestehenden Adobe Analytics-Anmeldeinformationen an. Adobe und Enterprise/Federated IDs werden unterstützt.
+1. Melden Sie sich bei der App an. Der Anmeldebildschirm wird beim Starten von Dashboards angezeigt. Folgen Sie den Anweisungen und melden Sie sich mit Ihren bestehenden Adobe Analytics-Anmeldeinformationen an. Adobe und Enterprise/Federated IDs werden unterstützt.
 
    ![Anmeldesequenz](assets/signseq.png)
 
-2. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei der App wird der Bildschirm **Unternehmen auswählen** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
+2. Wählen Sie ein Unternehmen aus. After you sign into dashboards, the **Choose a company** screen appears. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
 3. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
@@ -129,7 +129,7 @@ So verwenden Sie die App:
 
 8. Feedback hinterlassen. So hinterlassen Sie Feedback:
 
-   1. Tippen Sie auf das Benutzersymbol in der oberen rechten Ecke des App-Bildschirms.
+   1. Tippen Sie auf das Benutzersymbol oben rechts im Bildschirm &quot;Dashboards&quot;.
    2. Tippen Sie auf dem Bildschirm **Mein Konto** auf die Option **Feedback**.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
    ![Feedback hinterlassen](assets/feedback.png)
