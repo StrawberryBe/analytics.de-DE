@@ -1,44 +1,44 @@
 ---
-description: Anweisungen zum Einrichten von Scorecards für die mobile App.
-title: Kuratorhandbuch für die Adobe Analytics Mobile App
+description: Anleitung zum Einrichten der Dashboards-Scorecards.
+title: Leitfaden zum Kurator für Adobe Analytics-Dashboard
 translation-type: tm+mt
-source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
+source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
 
 ---
 
 
 
-# BETA: Kuratorhandbuch für die Analytics Mobile App
+# BETA: Leitfaden des Kurators für Adobe Analytics-Dashboard
 
 
 ## Einführung
 
-Mit der Adobe Analytics Mobile App stehen Benutzern jederzeit und überall Einblicke aus Adobe Analytics zur Verfügung.  Die App bietet Benutzern auf Mobilgeräten Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
+Adobe Analytics-Dashboard bieten jederzeit und überall Einblicke aus Adobe Analytics. Die App bietet Benutzern auf Mobilgeräten Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboard werden auf iOS- und Android-Betriebssystemen unterstützt.
 
 ## Informationen zu diesem Handbuch
 
-Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ausführende Benutzer in der Analytics Mobile App unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl ausführende Benutzer die Endbenutzer der Analytics Mobile App sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
+Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ihre leitenden Benutzer auf den Analytics-Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl geschäftsführende Benutzer Endbenutzer von Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
 
 
 ## Glossar
 
-In der folgenden Tabelle werden Begriffe zum Verständnis von Zielgruppe, Funktionen und Verwendung der Analytics Mobile App beschrieben.
+Die folgende Tabelle beschreibt die Begriffe zum Verständnis der Audience, der Funktionen und des Betriebs der Analytics-Dashboard.
 
 | Begriff | Definition |
 |--- |--- |
 | Verbraucher | Ausführende Person, die wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
 | Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
-| Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
-| Scorecard | Eine Ansicht der mobilen App mit einer oder mehreren Kacheln |
+| Kuratierung | Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
+| Scorecard | Eine Dashboard-Ansicht, die eine oder mehrere Kacheln enthält |
 | Kachel | Wiedergabe einer Metrik in einer Scorecard-Ansicht |
 | Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an. |
-| Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die mobile App |
+| Datumsbereich | Der primäre Datumsbereich für den Dashboard-Berichte |
 | Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
 
  
 ## Scorecard für ausführende Benutzer erstellen
 
-Eine mobile Scorecard stellt wichtige Datenvisualisierungen für ausführende Benutzer in einem gekachelten Layout bereit, wie nachfolgend gezeigt:
+Eine Scorecard stellt wichtige Datenvisualisierungen für ausführende Benutzer in einem gekachelten Layout bereit, wie nachfolgend gezeigt:
 
 
 ![Beispiel-Scorecard](assets/intro_scorecard.png)
@@ -79,7 +79,7 @@ Klicken Sie im Bildschirm **Projekte** auf der Registerkarte **Komponenten** auf
 
 **Analytics-Tools verwenden**
 
-Klicken Sie in Analytics auf das Menü **Tools** und wählen Sie **Mobile App** aus. Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche **Scorecard erstellen**.
+In Analytics, click the **Tools** menu and select **dashboards**. Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche **Scorecard erstellen**.
 
 ### Scorecard mit Daten konfigurieren und speichern
 
@@ -149,7 +149,7 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 ![Scorecards freigeben](assets/new_share.png)
 
 
-Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in der Analytics Mobile App darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
+Nachdem Sie eine Scorecard freigegeben haben, können Ihre Empfänger auf ihre Analytics-Dashboard zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
 *Hinweis: Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **automatischen Freigeben eingebetteter Komponenten für Empfänger**aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.*
 
@@ -175,7 +175,7 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** > **Mobile App** verfügbar):
+   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
 
       [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -185,13 +185,12 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
 
    2. Tippen Sie auf den Link **Im App Store anzeigen** auf dem Bildschirm, um die Testflight-App herunterzuladen.
 
-   3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics Mobile App in Testflight, wie unten gezeigt:
+   3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics-Dashboard wie folgt in Testflight:
 
       ![Testflight-Bildschirm](assets/testflight2.png)
-
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** > **Mobile App** verfügbar):
+   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link „Tester werden“:
