@@ -1,20 +1,22 @@
 ---
-title: Mobile App
-description: Produktdokumentation und Selbsthilfe für die Adobe Analytics Mobile App
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+title: Übersicht über Dashboard
+description: Produktdokumentation und Selbsthilfe für Adobe Analytics-Dashboard
+translation-type: tm+mt
+source-git-commit: 246093efc32e20f114a81f7ff8bb17131b3aafb2
 
 ---
 
 
-# Übersicht Mobile App
+# Übersicht über Dashboard
 
-**Hinweis: Die Analytics Mobile App wurde noch nicht veröffentlicht und steht nur eingeladenen Kunden zum Beta-Test zur Verfügung. Diese Dokumentation ist nur für Beta-Benutzer gedacht und enthält keine vollständige Beschreibung aller Funktionen. Wenn Sie Interesse haben, die App als Beta-Benutzer zu verwenden, wenden Sie sich an die Adobe-[Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html).**
+>[!IMPORTANT]
+>
+>Adobe Analytics-Dashboard werden nicht veröffentlicht und stehen nur eingeladenen Kunden zum Betatest zur Verfügung. Diese Dokumentation ist nur für Betabenutzer gedacht und stellt keine vollständige Funktionalität der Funktion dar. If you are interested in becoming a beta user for this >feature, please contact Adobe [Customer Care](https://helpx.adobe.com/de/contact/enterprise-support.ec.html).
 
-Mit der Adobe Analytics Mobile App stehen Benutzern jederzeit und überall Einblicke aus Adobe Analytics zur Verfügung.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
+Adobe Analytics-Dashboard bieten jederzeit und überall Einblicke aus Adobe Analytics. Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
 
-Die folgende Beta-Dokumentation ist für die Analytics Mobile App verfügbar:
+Die folgende Beta-Dokumentation steht für Dashboards zur Verfügung:
 
-* [Kuratorhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/curator.html): Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ausführende Benutzer in der Analytics Mobile App helfen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind.
+* [Kuratorleitfaden](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/curator.html): Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ihre Manager auf Dashboards helfen. Kuratoren können organisatorische Administratoren oder Personen in anderen Positionen sein, die für die Einrichtung von Scorecards zuständig sind.
 
-* [Schnellstarthandbuch für ausführende Benutzer](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/executive.html): Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in der Analytics Mobile App zu lesen und zu interpretieren. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+* [Leitfaden](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/executive.html)zum schnellen Beginn für Führungskräfte: Dieses Handbuch soll leitenden Benutzern helfen, Scorecards zu Dashboards zu lesen und zu interpretieren. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
