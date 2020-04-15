@@ -1,9 +1,9 @@
 ---
-description: Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metriktyp und das Zuordnungsmodell angeben.
+description: 'Weitere Informationen '
 title: Metriktyp und Attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 * [Spaltenattributionsmodell](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Metriktyp {#section_34A86FB402F94E988724232283BF18B7}
+## Metriktyp
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 | Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik bestand, zeigt sie identische Daten an wie das nicht berechnete MetrikGegenstück. Standardmetriken sind nützlich, um errechnete Metriken zu erstellen, die für jedes einzelne Zeilenelement spezifisch sind. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
 | Gesamt | Verwenden Sie die Gesamtsumme für den Berichte in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Summenmetrik bestand, wird für jeden Zeileneintrag dieselbe Gesamtanzahl angezeigt. Summenmetriken sind nützlich, um errechnete Metriken zu erstellen, die mit den Gesamtdaten der Site verglichen werden. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
 
-## Spaltenattributionsmodell {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Spaltenattributionsmodell
 
 >[!IMPORTANT]
 >
@@ -38,70 +38,27 @@ Wenn Sie das Zahnradsymbol neben einer Metrik auswählen, können Sie den Metrik
 
 
 
-## Wie die lineare Zuordnung funktioniert (ab 19. Juli 2018) 
+## Funktionsweise der linearen Zuteilung (ab 19. Juli 2018)
 
-Im Juli 2018 wurde die Berichterstellung für die lineare Zuordnung bei berechneten Metriken in Adobe geändert. Diese Änderung betrifft Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map und die Reporting-APIs. Die Änderung betrifft in erster Linie eVars und andere Dimensionen mit Persistenz. Diese Änderungen treffen nur auf berechnete Metriken zu und haben keinen Einfluss auf andere Berichte, die lineare Zuordnung verwenden (z. B. den Bericht „Seiten“ in Reports &amp; Analytics). Andere Berichte, die eine lineare Zuordnung verwenden, verwenden weiterhin die vorhandene Methode der linearen Zuordnung.
+Im Juli 2018 wurde die Berichterstellung für die lineare Zuordnung bei berechneten Metriken in Adobe geändert. Diese Änderung betrifft Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map und die Reporting-APIs. Die Änderung wirkt sich in erster Linie auf eVars und andere Dimensionen mit Persistenz aus. Beachten Sie, dass diese Änderungen nur für berechnete Metriken gelten und sich nicht auf andere Berichte auswirken, die eine lineare Zuordnung verwenden (z. B. den Seitenbericht in Reports &amp; Analysen). Andere Berichte, die eine lineare Zuordnung verwenden, verwenden weiterhin die vorhandene Methode der linearen Zuordnung.
 
 Das folgende Beispiel zeigt, wie sich berechnete Metriken mit linearer Zuordnung im Berichte ändern:
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Treffer 1 </th> 
-   <th colname="col3" class="entry"> Treffer 2 </th> 
-   <th colname="col4" class="entry"> Treffer 3 </th> 
-   <th colname="col5" class="entry"> Treffer 4 </th> 
-   <th colname="col6" class="entry"> Treffer 5 </th> 
-   <th colname="col7" class="entry"> Treffer 6 </th> 
-   <th colname="col8" class="entry"> Treffer 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Daten gesendet in </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> – </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> – </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> 10$ </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Letztkontakt eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> 10$ </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Touch eVar </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> 10$ </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Beispieleigenschaft </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> – </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> – </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> 10$ </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Treffer 1 | Treffer 2 | Treffer 3 | Treffer 4 | Treffer 5 | Treffer 6 | Treffer 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Daten gesendet in | PROMO A | – | PROMO A | PROMO B | – | PROMO C | 10$ |
+| Letztkontakt eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | 10$ |
+| First Touch eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | 10$ |
+| Beispieleigenschaft | PROMO A | – | PROMO A | PROMO B | – | PROMO C | 10$ |
 
 In diesem Beispiel wurden die Werte A, B und C bei Treffern 1, 3, 4 und 6 in eine Variable gesendet, bevor ein Kauf im Wert von 10 USD bei Treffer 7 erfolgte. In der zweiten Zeile bleiben diese Werte bei einem Besuch mit Last Touch über Treffer hinweg erhalten. Die dritte Zeile zeigt die Persistenz eines First Touch-Besuchs. Schließlich wird in der letzten Zeile veranschaulicht, wie Daten für eine Eigenschaftsvariable ohne Persistenz aufgezeichnet werden.
+
+## Unterschiede in der Funktionsweise der linearen Zuordnung in Reports &amp; Analysen im Vergleich zum Arbeitsbereich
+
+Es gibt einige Unterschiede in der Funktionsweise der linearen Zuordnung zwischen diesen beiden Werkzeugen:
+
+* In Reports &amp; Analysen basiert die (verarbeitete) lineare Zuordnung immer auf Besuchen, während sie in Workspace besuchsbasiert oder auf Besuchern basieren kann.
+* Wenn in Reports &amp; Analysen beim ersten Treffer eines Besuchs kein Wert weitergegeben wurde, bleibt der (ursprüngliche) Wert des vorherigen Besuchs erhalten. Dies ist in Workspace NICHT der Fall (Attribution IQ). Wenn beim ersten Treffer eines Besuchs kein Wert weitergegeben wird, ist &quot;Keine&quot;der Ausgangswert.
 
 ## Funktionsweise der linearen Zuteilung vor Juli 2018
 
