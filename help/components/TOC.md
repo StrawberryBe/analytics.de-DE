@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Components Guide
+user-guide-title: Komponentenleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
       + [Data Warehouse-Segmentkompatibilität](c-segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](c-segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](c-segmentation/seg-reference/c-troubleshooting.md)
+   + Anwendungsfälle {#use-cases}
+      + [Ausschließen spezifischer Daten](c-segmentation/use-cases/exclude-date-range.md)
    + [Häufig gestellte Fragen](c-segmentation/seg-transition.md)
    + [Neue Funktionen bei der Analytics-Segmentierung](c-segmentation/whats-new-segmentation.md)
    + [Übergangsleitfaden für Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
