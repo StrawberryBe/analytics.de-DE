@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + Anwendungsfälle {#use-cases}
       + [Ausschließen spezifischer Daten](c-segmentation/use-cases/exclude-date-range.md)
    + [Häufig gestellte Fragen](c-segmentation/seg-transition.md)
-   + [Neue Funktionen bei der Analytics-Segmentierung](c-segmentation/whats-new-segmentation.md)
+   + [Neue Funktionen in der Analytics-Segmentierung](c-segmentation/whats-new-segmentation.md)
    + [Übergangsleitfaden für Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
-   + [Häufig gestellte Fragen](c-calcmetrics/cm-transition.md)
-   + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
       + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
       + [Berechnete Metriken: Rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
       + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
+   + [Ableiten von Daten, die von Ereignissen betroffen sind](c-calcmetrics/cm-events.md)
+   + [Häufig gestellte Fragen](c-calcmetrics/cm-transition.md)
+   + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
 + Virtual Report Suites {#virtual-report-suites}
    + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
    + [Zusammenstellung der Virtual Report Suite-Komponenten](vrs/vrs-components.md)
