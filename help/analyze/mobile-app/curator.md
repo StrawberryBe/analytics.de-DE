@@ -188,6 +188,7 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
    3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics-Dashboard wie folgt in Testflight:
 
       ![Testflight-Bildschirm](assets/testflight2.png)
+   
    **Für ausführende Benutzer mit Android-Geräten:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
