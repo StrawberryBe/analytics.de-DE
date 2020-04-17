@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Technische Hinweise zu Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
 # Analytics-Dokumentation {#technotes}
 
 + [Technische Hinweise zu Analytics – Hilfe](home.md)
-+ Anwender von Adobe Analytics für Google Analytics{#ga-to-aa}
++ Anwender von Adobe Analytics für Google Analytics {#ga-to-aa}
    + [Hilfe für Anwender von Adobe Analytics für Google Analytics](ga-to-aa/home.md)
    + [Konten und Report Suites](ga-to-aa/accounts.md)
    + [Berichtsansichten anpassen](ga-to-aa/customization.md)
@@ -26,13 +26,14 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [Konversionen](ga-to-aa/reports/conversions-reports.md)
    + [Häufig gestellte Fragen](ga-to-aa/faq.md)
    + [Verarbeitungsunterschiede zwischen Plattformen](ga-to-aa/processing-differences.md)
-+ [Browser-Cookies](cookies.md)
++ [Analyse der von Ereignissen betroffenen Daten](event-impacted.md)
++ [Browsercookies](cookies.md)
 + [Datenaufbewahrung](data-retention.md)
 + [Latenz](latency.md)
 + [Geringer Traffic-Wert](low-traffic.md)
 + [Datenschutzübersicht](privacy-overview.md)
 + [Umleitungen und Aliase](redirects.md)
-+ [Unterstützung für mehrere Währungen](multicurrency.md)
++ [Unterstützung mehrerer Währungen](multicurrency.md)
 + Regionale Datenerfassung {rdc}
    + [Hilfe zur regionalen Datenerfassung](rdc/regional-data-collection.md)
    + [SSL-Zertifizierungslizenzierung](rdc/ssl-cert-licensing.md)
@@ -41,6 +42,6 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
 + [Zeitstempel optional](timestamps-optional.md)
 + [Fehlerbehebung für das Anmelden](troubleshoot-login.md)
 + [Fehlerbehebung für das Abmelden](troubleshoot-sessions.md)
-+ [Nicht angegeben, sonstige und unbekannt](unspecified.md)
-+ [Besucher-ID](visitor-identification.md)
++ [„Nicht angegeben“, „Sonstige“ und „Nicht bekannt“](unspecified.md)
++ [Besucheridentifizierung](visitor-identification.md)
 + [Besuchermigration](visitor-migration.md)
