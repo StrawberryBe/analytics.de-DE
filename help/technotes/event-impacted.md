@@ -2,7 +2,7 @@
 title: Analyse der von Ereignissen betroffenen Daten
 description: Verstehen Sie, wie die von einem Ereignis betroffenen Daten zur Datenqualität insgesamt beitragen.
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -24,6 +24,10 @@ Adobe Analytics-Angebot bieten eine einfache und stabile Möglichkeit, Daten mit
 ## Vergleichen eines Ereignisses mit vorherigen Datumsbereichen
 
 Wenn Sie mehr über die Auswirkungen eines Ereignisses auf Ihre Daten im Zeitverlauf erfahren möchten, können Sie den Datumsvergleich in Analyse Workspace verwenden. Mit dieser Funktion können Sie Daten von Tag zu Tag, Woche oder Monat miteinander vergleichen, um einen Vergleich mit vorherigen Bereichen anzustellen. Mit diesem Vergleich können Sie dann bestimmen, wie stark ein Ereignis Trends beeinflusst. Siehe [Datumsvergleiche, die von einem Ereignis beeinflusst wurden, mit vorherigen Bereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) im Analysieren-Benutzerhandbuch.
+
+## Trenddaten mit berechneten Metriken korrigieren
+
+Nachdem Sie Segmente erstellt und den Datumsvergleich verwendet haben, können Sie beide Konzepte kombinieren, um Trenddaten mithilfe von berechneten Metriken zu korrigieren. Schließen Sie die Segmente in eine berechnete Metrik ein und multiplizieren Sie dann die betroffenen Tage mit dem beim Datumsvergleich gefundenen Offset. Siehe [Ableiten von Daten, die von Ereignissen](/help/components/c-calcmetrics/cm-events.md) betroffen sind, im Komponentenbenutzerhandbuch.
 
 ## Kalendereinstellungen in Reports &amp; Analysen verwenden
 
