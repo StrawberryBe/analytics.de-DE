@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
          + [Übersicht über Kalender und Datumsbereiche](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Erstellen Sie benutzerdefinierte Datumsbereiche](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Datumsvergleich](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Von einem Ereignis betroffene Datumsangaben vergleichen](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + Visualisierungen {#visualizations}
       + [Visualisierungsübersicht](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Data Sources verwalten](analysis-workspace/visualizations/t-sync-visualization.md)
