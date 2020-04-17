@@ -2,16 +2,14 @@
 title: Ausschließen spezifischer Daten in der Analyse
 description: Tipps zum Ausschließen von Daten oder Datumsbereichen, wenn Sie sie nicht in Berichte aufnehmen möchten.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # Ausschließen spezifischer Daten in der Analyse
 
-Manchmal enthält ein Datumsbereich Daten, die Sie nicht analysieren möchten. Ein Bot sendet beispielsweise einen Ausreißer-Treffer mit einer falschen Umsatzmenge, wodurch die Metrik drastisch erhöht wird. Wenn auf Ihrer Site Implementierungsprobleme oder andere Datenlücken aufgetreten sind, sollten Sie diese eventuell vom Berichte ausschließen, um zu verhindern, dass Entscheidungen zu partiellen Daten getroffen werden.
-
-Sie können ein Segment verwenden, um alle Datumsbereiche auszuschließen, die Sie nicht in Ihre Berichte aufnehmen möchten.
+Wenn Daten von einem Ereignis [](/help/technotes/event-impacted.md)betroffen sind, können Sie mit einem Segment alle Datumsbereiche ausschließen, die Sie nicht in Ihre Berichte aufnehmen möchten. Die Segmentierung von Datumsangaben, die vom Ereignis betroffen sind, kann dazu beitragen, dass Ihr Unternehmen keine Entscheidungen zu partiellen Daten trifft.
 
 ## Betroffene Tage isolieren
 
@@ -67,15 +65,3 @@ Sie können das Segment in einer [Virtual Report Suite](../../vrs/vrs-about.md) 
 5. Klicken Sie **[!UICONTROL Continue]** oben rechts und dann auf **[!UICONTROL Save]**.
 
 ![Auf VRS angewendetes Segment](../assets/exclude_segment_vrs.png)
-
-## Alternativen zu anderen Instrumenten
-
-Wenn Sie Reports &amp; Analysen verwenden, können Sie mithilfe eines [Kalenderberichts](../../t-calendar-event.md) die betroffenen Ereignis in einem beliebigen Trendbericht hervorheben.
-
->[!NOTE] Diese Methode gilt nicht für Analyse Workspace.
-
-1. Navigieren Sie zu **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Geben Sie den gewünschten Titel, den Datumsbereich und den Notiztext ein.
-3. Klicken Sie auf **[!UICONTROL Save]**.
-
-![Kalender-Ereignis](../assets/exclude_calendar_event.jpg)
