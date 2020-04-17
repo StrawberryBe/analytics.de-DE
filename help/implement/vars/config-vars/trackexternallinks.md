@@ -1,33 +1,33 @@
 ---
 title: trackExternalLinks
-description: Aktivieren oder deaktivieren Sie die automatische Linktracking für Exitlinks.
+description: Aktivieren oder deaktivieren Sie das automatische Linktracking für Exitlinks.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
 
 
 # trackExternalLinks
 
-Adobe Angebots bietet die Möglichkeit, ausgehende Links zu verfolgen, ohne die [`tl()`](../functions/tl-method.md) Methode für jeden Ausstiegslink manuell festzulegen. Aktivieren Sie diese Variable, wenn Sie die automatische Linktracking für Ausstiegslinks verwenden möchten.
+Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. Aktivieren Sie diese Variable, wenn Sie das automatische Linktracking für Exitlinks verwenden möchten.
 
-Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle angeklickten Link-URL mit Werten in [`linkInternalFilters`](linkinternalfilters.md) und [`linkExternalFilters`](linkexternalfilters.md). Wenn eine Übereinstimmung vorliegt, wird automatisch ein Ausstiegslink-Verfolgungsaufruf ausgelöst.
+Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-URLs mit den Werten in [`linkInternalFilters`](linkinternalfilters.md) und [`linkExternalFilters`](linkexternalfilters.md). Bei Übereinstimmung wird automatisch ein Exitlinktracking-Aufruf ausgelöst.
 
-## Ausgehende Links in Adobe Experience Platform Launch verfolgen
+## Verfolgen von ausgehenden Links in Adobe Experience Platform Launch
 
-Ausgehende Links verfolgen ist ein Kontrollkästchen unter dem [!UICONTROL Link Tracking] Akkordeon, wenn die Adobe Analytics-Erweiterung konfiguriert wird.
+Track outbound links is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur [!UICONTROL Extensions] Registerkarte und klicken Sie dann auf die [!UICONTROL Configure] Schaltfläche unter Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Erweitern Sie das [!UICONTROL Link Tracking] Akkordeon, das das [!UICONTROL Track outbound links] Kontrollkästchen einblenden soll.
 
-Markieren Sie das Kontrollkästchen, um die automatische Verfolgung von Ausstiegslinks zu aktivieren.
+Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Exitlinks zu aktivieren.
 
-## s.trackExternalLinks in AppMeasurement und Benutzerdefinierter Code-Editor starten
+## s.trackExternalLinks in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Der `s.trackExternalLinks` ist ein boolescher Wert, der die automatische Ausstiegslink-Verfolgung aktiviert oder deaktiviert. Wenn Sie ausgehende Links nicht verfolgen möchten oder die `tl()` Methode zur Verfolgung von Ausstiegslinks lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
+`s.trackExternalLinks` ist ein boolescher Wert, der das automatische Tracking von Exitlinks aktiviert oder deaktiviert. If you do not want to track outbound links, or would prefer to manually call the `tl()` method to track exit links, set this variable to `false`.
 
 ```js
-s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
 ```
