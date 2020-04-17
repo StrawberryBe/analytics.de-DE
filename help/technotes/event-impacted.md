@@ -2,7 +2,7 @@
 title: Analyse der von Ereignissen betroffenen Daten
 description: Verstehen Sie, wie die von einem Ereignis betroffenen Daten zur Datenqualität insgesamt beitragen.
 translation-type: tm+mt
-source-git-commit: e3360e15de14f594e62b4be6316f8b095091ec1f
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -13,7 +13,7 @@ Manchmal kann ein Ereignis die Datenqualität in Ihrem Unternehmen beeinträchti
 
 * Ein Bot sendet Auslieferungsdaten, z. B. Millionen Dollar Umsatz
 * Ihr Unternehmen hat eine Aktualisierung Ihrer Website veröffentlicht, die negative Auswirkungen auf Ihre Analytics-Implementierung hat
-* Ausfälle, die sich auf die Serverqualität auswirken, entweder auf das Ende Ihres Unternehmens oder auf das Ende von Adobe
+* Andere Aspekte, die sich auf die Datenqualität oder -vollständigkeit auswirken
 
 Wenn auf Ihrer Site Probleme mit der Datenqualität, Implementierungsprobleme oder andere Datenlücken aufgetreten sind, sollten Sie diese möglicherweise vom Berichte ausschließen, um zu verhindern, dass Entscheidungen zu partiellen Daten getroffen werden. Verwenden Sie diese Abschnitte, um die Auswirkungen des Ereignisses auf Ihre Daten zu messen und festzulegen, wie Sie fortfahren möchten.
 
