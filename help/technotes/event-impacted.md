@@ -2,7 +2,7 @@
 title: Analyse der von Ereignissen betroffenen Daten
 description: Verstehen Sie, wie die von einem Ereignis betroffenen Daten zur Datenqualität insgesamt beitragen.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ Adobe Analytics-Angebot bieten eine einfache und stabile Möglichkeit, Daten mit
 
 Wenn Sie mehr über die Auswirkungen eines Ereignisses auf Ihre Daten im Zeitverlauf erfahren möchten, können Sie den Datumsvergleich in Analyse Workspace verwenden. Mit dieser Funktion können Sie Daten von Tag zu Tag, Woche oder Monat miteinander vergleichen, um einen Vergleich mit vorherigen Bereichen anzustellen. Mit diesem Vergleich können Sie dann bestimmen, wie stark ein Ereignis Trends beeinflusst. Siehe [Datumsvergleiche, die von einem Ereignis beeinflusst wurden, mit vorherigen Bereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) im Analysieren-Benutzerhandbuch.
 
-## Trenddaten mit berechneten Metriken korrigieren
+## Daten mithilfe berechneter Metriken ableiten
 
 Nachdem Sie Segmente erstellt und den Datumsvergleich verwendet haben, können Sie beide Konzepte kombinieren, um Trenddaten mithilfe von berechneten Metriken zu korrigieren. Schließen Sie die Segmente in eine berechnete Metrik ein und multiplizieren Sie dann die betroffenen Tage mit dem beim Datumsvergleich gefundenen Offset. Siehe [Ableiten von Daten, die von Ereignissen](/help/components/c-calcmetrics/cm-events.md) betroffen sind, im Komponentenbenutzerhandbuch.
 
-## Kalendereinstellungen in Reports &amp; Analysen verwenden
+## Auswirkungen auf Benutzer in Ihrer Organisation kommunizieren
 
-Wenn Sie Reports &amp; Analysen verwenden, können Sie mithilfe eines [Kalenderberichts](/help/components/t-calendar-event.md) die betroffenen Ereignis in einem beliebigen Trendbericht hervorheben. Diese Methode gilt nicht für Analyse Workspace.
-
-1. Navigieren Sie zu **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Geben Sie den gewünschten Titel, den Datumsbereich und den Notiztext ein.
-3. Klicken Sie auf **[!UICONTROL Save]**.
-
-![Kalender-Ereignis](assets/exclude_calendar_event.jpg)
+Sobald Sie mit der geplanten Handhabung eines Ereignisses vertraut sind, können Sie mit den Benutzern in Ihrem Unternehmen [kommunizieren](event/event-communicate.md). Adobe Angebote bietet verschiedene Orte in Analytics, an denen Sie Text platzieren können, um den Benutzern mitzuteilen, was passiert ist und welche Komponenten sie verwenden können.
