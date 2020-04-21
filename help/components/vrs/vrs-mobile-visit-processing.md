@@ -2,38 +2,38 @@
 description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics mobile Besuche berechnet. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 title: Kontextbezogene Sitzungen
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 ---
 
 
 # Kontextbezogene Sitzungen
 
-Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics mobile Besuche berechnet. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
+Kontextsensitive Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics Besuche von jedem Gerät berechnet. In diesem Artikel werden auch die Verarbeitungsauswirkungen von Hintergrundbesuchen und App-Start-Ereignissen (beide vom mobilen SDK festgelegt) auf die Definition von Mobilbesuchen beschrieben.
 
-Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrunde liegenden Daten zu ändern, um ihn auf die Interaktion Ihrer Besucher mit Ihren mobilen Apps abzustimmen.
+Sie können einen Besuch beliebig definieren, ohne die zugrunde liegenden Daten zu verändern, um der Interaktion Ihrer Besucher mit Ihren digitalen Erlebnissen zu entsprechen.
 
-## URL-Parameter für Kundenperspektive  {#section_8B298006362341E3AC16A148422D1F65}
+## URL-Parameter für Kundenperspektive 
 
-Mithilfe des Adobe Analytics-Datenerfassungsprozesses können Sie einen Abfrage-Zeichenfolgenparameter festlegen, der die Kundenperspektive angibt (Bezeichnung als Abfrage-Zeichenfolgenparameter „cp“). In diesem Feld wird der Status der digitalen Anwendung des Endbenutzers angegeben. Dies hilft Ihnen bei der Feststellung, ob ein Treffer generiert wurde, während sich eine mobile App in einem Hintergrundzustand befand.
+Mit dem Datenerfassungsprozess von Adobe Analytics können Sie einen Abfragen-Zeichenfolgenparameter festlegen, der die Kundenperspektive (als Zeichenfolgenparameter &quot;cp&quot; bezeichnet) angibt. Dieses Feld gibt den Status der digitalen Anwendung des Endbenutzers an. Auf diese Weise können Sie erkennen, ob ein Treffer generiert wurde, während sich eine mobile App im Hintergrund befand.
 
-## Verarbeitung von Treffern im Hintergrund  {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Verarbeitung von Treffern im Hintergrund 
 
-Ein Hintergrundtreffer ist ein Treffertyp, der von der Adobe Mobile SDK-Version 4.13.6 und höher an Analytics gesendet wird, wenn sich die App in einem Hintergrundzustand befindet und eine Verfolgungsanfrage stellt. Typische Beispiele dafür umfassen Folgendes:
+Ein Hintergrundschlag ist ein Treffer, der von Adobe Mobile SDK Version 4.13.6 und höher an Analytics gesendet wird, wenn die App eine Verfolgungsanfrage im Hintergrund durchführt. Zu den typischen Beispielen zählen:
 
-* Während eines Geo-Fence-Crossing-Vorgangs gesendete Daten
-* Eine Push-Benachrichtigungsinteraktion
+* Daten, die während eines Geo-Zauns gesendet werden
+* Push-Benachrichtigungsinteraktion
 
-Die folgenden Beispiele erläutern die verwendete Logik bei der Bestimmung von Anfang und Ende eines Besuchs eines beliebigen Besuchers, wenn die Einstellung „Starten neuer Besuche durch Hintergrundtreffer verhindern“ für eine Virtual Report Suite aktiviert ist oder nicht.
+In den folgenden Beispielen wird die Logik erläutert, die verwendet wird, um zu bestimmen, wann ein Besuch-Beginn endet und wann die Einstellung &quot;Hintergrundtreffer am Starten eines neuen Besuchs verhindern&quot;für eine Virtual Report Suite aktiviert ist oder nicht aktiviert ist.
 
 **Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ nicht aktiviert ist:**
 
-Wenn diese Funktion für eine Virtual Report Suite nicht aktiviert ist, werden Hintergrundtreffer genau wie andere Treffer behandelt. Das heißt, neue Besuche werden wie Vordergrundtreffer gestartet und sie agieren wie Vordergrundtreffer. Wenn beispielsweise ein Hintergrundtreffer weniger als 30 Minuten (Standard-Sitzungstimeout für eine Report Suite) vor einer Reihe von Vordergrundtreffern auftritt, ist der Hintergrundtreffer Teil der Sitzung.
+Wenn diese Funktion für eine Virtual Report Suite nicht aktiviert ist, werden Hintergrundtreffer genauso behandelt wie jeder andere Treffer, d. h. sie werden für neue Besuche Beginn und verhalten sich genauso wie Vordergrundtreffer. Beispiel: Wenn ein Hintergrundschlag weniger als 30 Minuten vor einer Reihe von Vordergrundtreffer (der Standard-Sitzungs-Timeout für eine Report Suite) eintritt, ist der Hintergrundtreffer Teil der Sitzung.
 
 ![](assets/nogood1.jpg)
 
-Tritt der Hintergrundtreffer mehr als 30 Minuten vor jeglichen Vordergrundtreffern auf, erzeugt der Hintergrundtreffer einen eigenen Besuch, sodass die Gesamtzahl der Besuche 2 beträgt.
+Tritt der Hintergrundschlag mehr als 30 Minuten vor einem Treffer im Vordergrund auf, erstellt der Hintergrundschlag einen eigenen Besuch, bei einem Gesamtbesuch von 2.
 
 ![](assets/nogood2.jpg)
 
@@ -45,57 +45,57 @@ Beispiel 1: Ein Hintergrundtreffer tritt eine gewisse Zeitspanne (t) vor einer R
 
 ![](assets/nogoodexample1.jpg)
 
-Wenn *t* in diesem Beispiel größer als das konfigurierte Besuchstimeout der Virtual Report Suite ist, wird der Hintergrundtreffer aus dem Besuch ausgeschlossen, der sich aus den Vordergrundtreffern ergibt. Wenn beispielsweise das Besuchstimeout der Virtual Report Suite auf 15 Minuten festgelegt wurde und *t* 20 Minuten beträgt, würde der durch diese Trefferserie (grüne Abgrenzung) generierte Besuch den Hintergrundtreffer ausschließen. Demnach würden eVars mit festgelegtem Besuchsablauf für den Hintergrundtreffer im folgenden Besuch **nicht** bestehen bleiben, und der Besuchssegmentcontainer würde nur die Vordergrundtreffer in der grünen Abgrenzung beinhalten.
+Wenn in diesem Beispiel der *Wert* größer ist als der von der Virtual Report Suite konfigurierte Timeout für Besuche, wird der Hintergrundtreffer aus dem Besuch ausgeschlossen, der durch die Vordergrundtreffer gebildet wird. Wenn beispielsweise der Timeout für den Besuch der Virtual Report Suite auf 15 Minuten festgelegt wurde und ** er 20 Minuten betrug, würde der Besuch, der aus dieser Trefferreihe (die durch die grüne Gliederung angezeigt wird) gebildet wurde, den Hintergrundschlag ausschließen. Das bedeutet, dass eVars, die mit einem &quot;Besuch&quot;-Ablauf beim Hintergrundschlag festgelegt wurden, **nicht** beim folgenden Besuch beibehalten werden und ein Container für Besuchersegment nur die Vordergrundtreffer in der grünen Umrisslinie enthalten würde.
 
 ![](assets/nogoodexample1-2.jpg)
 
-Wenn im Gegensatz dazu *t* kleiner ist als das konfigurierte Besuchstimeout der Virtual Report Suite, wird der Hintergrundtreffer als Teil des Besuchs einbezogen, so als würde es sich um einen Vordergrundtreffer handeln (durch die grüne Abgrenzung veranschaulicht):
+Wenn *t* dagegen unter dem konfigurierten Timeout der Besuchszeit der Virtual Report Suite liegt, wird der Hintergrundtreffer als Teil des Besuchs einbezogen, als wäre er ein Vordergrundtreffer (wird durch die grüne Umrisslinie angezeigt):
 
 ![](assets/nogoodexample1-3.jpg)
 
-Das heißt:
+Das bedeutet:
 
-* eVars mit festgelegtem Besuchsablauf für den Hintergrundtreffer behalten ihre Werte für die anderen Treffer während dieses Besuchs bei.
-* Jegliche Werte, die für den Hintergrundtreffer festgelegt werden, werden in die logische Evaluierung des Segmentcontainers auf Besuchsebene einbezogen.
+* Alle eVars, die mit dem Ablauf &quot;Besuch&quot;beim Hintergrundschlag festgelegt wurden, bleiben bei den anderen Treffern dieses Besuchs unverändert.
+* Alle Werte, die im Hintergrund-Treffer festgelegt werden, werden in die Logikbewertung der Segmentlogik auf Besuchsebene einbezogen.
 
-In beiden Fällen lautet die Gesamtzahl der Besuche 1.
+In beiden Fällen beträgt die Gesamtanzahl der Besuche 1.
 
 Beispiel 2: Wenn ein Hintergrundtreffer nach einer Reihe von Vordergrundtreffern auftritt, ist das Verhalten ähnlich:
 
 ![](assets/nogoodexample2.jpg)
 
-Tritt der Hintergrundtreffer nach dem konfigurierten Timeout der Virtual Report Suite auf, ist er nicht Teil einer Sitzung (grün dargestellt):
+Wenn der Hintergrundschlag nach dem konfigurierten Timeout der Virtual Report Suite erfolgt, ist der Hintergrundschlag nicht Teil einer Sitzung (grün dargestellt):
 
 ![](assets/nogoodexample2-1.jpg)
 
-Wenn die Zeitspanne *t* kleiner wäre als das konfigurierte Timeout der Virtual Report Suite, wird der Hintergrundtreffer gleichermaßen in den Besuch einbezogen, der durch die vorherigen Vordergrundtreffer generiert wird:
+Genauso wird der Hintergrundschlag in den Besuch aufgenommen, der durch die vorherigen Vordergrundtreffer gebildet wurde, wenn der Zeitraum *t* niedriger war als der konfigurierte Timeout der Virtual Report Suite:
 
 ![](assets/nogoodexample2-2.jpg)
 
-Das heißt:
+Das bedeutet:
 
-* eVars mit festgelegtem Besuchsablauf für die vorherigen Vordergrundtreffer behalten ihre Werte für den anderen Treffer während dieses Besuchs bei.
-* Jegliche Werte, die für den Hintergrundtreffer festgelegt werden, werden in die logische Evaluierung des Segmentcontainers auf Besuchsebene einbezogen.
+* Alle eVars, die bei den vorherigen Treffern im Vordergrund mit dem Ablauf &quot;Besuch&quot;festgelegt wurden, bleiben beim Hintergrundschlag dieses Besuchs mit ihren Werten erhalten.
+* Alle Werte, die im Hintergrund-Treffer festgelegt werden, werden in die Logikbewertung der Segmentlogik auf Besuchsebene einbezogen.
 
-Wie zuvor würde die Gesamtzahl der Besuche in beiden Fällen 1 lauten.
+Wie zuvor wäre die Gesamtzahl der Besuche in beiden Fällen 1.
 
-Beispiel 3: Unter bestimmten Umständen kann ein Hintergrundtreffer dazu führen, dass zwei separate Besuche in einem einzelnen Besuch kombiniert werden. Im folgenden Szenario geht einem Hintergrundtreffer eine Reihe von Vordergrundtreffern voran, die sich auch an den Hintergrundtreffer anschließt:
+Beispiel 3: Unter bestimmten Umständen kann ein Hintergrundtreffer dazu führen, dass zwei separate Besuche in einem einzelnen Besuch kombiniert werden. Im folgenden Szenario wird einem Hintergrundschlag eine Reihe von Vordergrundtreffer vorangestellt und gefolgt:
 
 ![](assets/nogoodexample3.jpg)
 
-Wenn *t1* und *t2* in diesem Beispiel jeweils kleiner sind als das konfigurierte Besuchstimeout der Virtual Report Suite, werden alle diese Treffer in einem einzelnen Besuch kombiniert. Dies ist selbst dann der Fall, wenn *t1* und *t2* zusammen das Besuchstimeout übersteigen:
+Wenn in diesem Beispiel *t1* und *t2* beide kleiner als die für die Virtual Report Suite konfigurierte Timeout-Werte für den Besuch sind, würden all diese Treffer zu einem einzigen Besuch zusammengefasst, selbst wenn *t1* und *t2* zusammen größer als der Timeout für den Besuch sind:
 
 ![](assets/nogoodexample3-1.jpg)
 
-Sind *t1* und *t2* jedoch größer als das konfigurierte Timeout der Virtual Report Suite, werden diese Treffer in zwei unterschiedliche Besuche geteilt:
+Wenn jedoch *t1* und *t2* größer als der für die Virtual Report Suite konfigurierte Timeout sind, werden diese Treffer in zwei unterschiedliche Besuche aufgeteilt:
 
 ![](assets/nogoodexample3-2.jpg)
 
-Wenn *t1* kleiner ist als das Timeout und *t2* ebenfalls kleiner als das Timeout ist, wird der Hintergrundtreffer gleichermaßen (wie in den vorherigen Beispielen) in den ersten Besuch einbezogen:
+Genauso (wie in unseren vorherigen Beispielen) würde, wenn *t1* kleiner als der Timeout und *t2* kleiner als der Timeout ist, der Hintergrundhit im ersten Besuch eingeschlossen werden:
 
 ![](assets/nogoodexample3-3.jpg)
 
-Wenn *t1* größer als das Timeout und *t2* kleiner als das Timeout ist, wird der Hintergrundtreffer in den zweiten Besuch einbezogen:
+Wenn *t1* größer als der Timeout und *t2* kleiner als der Timeout ist, wird der Hintergrundtreffer beim zweiten Besuch eingeschlossen:
 
 ![](assets/nogoodexample3-4.jpg)
 
@@ -105,35 +105,35 @@ Beispiel 4: In Szenarien mit einer Reihe von Hintergrundtreffern im Zeitraum de
 
 Obwohl dies nicht als Besuch gilt, behalten festgelegte eVars mit Besuchsablauf ihre Werte für die anderen Hintergrundtreffer in diesem „Hintergrundbesuch“.
 
-Beispiel 5: In Szenarien, in denen mehrere Hintergrundtreffer nacheinander im Anschluss an eine Reihe von Vordergrundtreffern auftreten, ist es möglich (je nach Timeouteinstellung), dass die Hintergrundtreffer einen Besuch länger aufrecht erhalten als für die Zeitspanne des Besuchstimeouts. Wenn beispielsweise *t1* und *t2* zusammen größer sind als das Besuchstimeout der Virtual Report Suite, sie jedoch einzeln kleiner sind als das Timeout, umfasst der Besuch weiterhin beide Hintergrundtreffer:
+Beispiel 5: In Szenarien, in denen mehrere Hintergrundtreffer nacheinander im Anschluss an eine Reihe von Vordergrundtreffern auftreten, ist es möglich (je nach Timeouteinstellung), dass die Hintergrundtreffer einen Besuch länger aufrecht erhalten als für die Zeitspanne des Besuchstimeouts. Wenn zum Beispiel *t1* und *t2* zusammen größer als der Timeout für den Besuch der Virtual Report Suite, aber einzeln kleiner als der Timeout waren, würde der Besuch weiterhin beide Hintergrundtreffer umfassen:
 
 ![](assets/nogoodexample5.jpg)
 
-Wenn eine Reihe von Hintergrundtreffern vor einer Serie von Vordergrundereignissen auftritt, ist gleichermaßen ein ähnliches Verhalten feststellbar:
+Wenn eine Reihe von Hintergrundtreffern vor einer Reihe von Ereignissen im Vordergrund auftreten, tritt ein ähnliches Verhalten auf:
 
 ![](assets/nogoodexample5-1.jpg)
 
-Hintergrundtreffer haben dieses Verhalten, um jegliche Zuordnungseffekte aus eVars oder anderen Variablen beizubehalten, die im Rahmen von Hintergrundtreffern festgelegt wurden. Dadurch können nachfolgende Vordergrundkonvertierungsereignisse Aktionen zugeordnet werden, die ausgeführt werden, während sich eine App im Hintergrundzustand befindet. Dies ermöglicht zudem das Einbeziehen von Hintergrundtreffern, die zu einer nachfolgenden Vordergrundsitzung geführt haben, in einen Besuchssegmentcontainer. Dies ist vor allem für die Messung der Effizienz von Push-Nachrichten hilfreich.
+Hintergrundtreffer verhalten sich auf diese Weise, um alle Zuordnungseffekte von eVars oder anderen Variablen zu erhalten, die während Hintergrundtreffer festgelegt wurden. Auf diese Weise können nachgelagerte Ereignis zur Vordergrundkonvertierung auf Aktionen zurückgeführt werden, die während der Ausführung einer App im Hintergrund ausgeführt wurden. Sie ermöglicht es auch einem Besuchssegment-Container, Hintergrundtreffer einzuschließen, die zu einer nachgelagerten Vordergrundsitzung führten, was zur Messung der Effektivität von Push-Nachrichten nützlich ist.
 
-## Besuchsmetrikverhalten  {#section_50B82618A39B454493B33B1450CCBD3E}
+## Besuchsmetrikverhalten 
 
-Die Besuchszahl basiert ausschließlich auf der Anzahl der Besuche mit mindestens einem Vordergrundtreffer. Demnach werden verwaiste Hintergrundtreffer oder „Hintergrundbesuche“ nicht in die Besuchsmetrik einbezogen.
+Die Besuchszahl basiert ausschließlich auf der Anzahl der Besuche, die mindestens einen Treffer im Vordergrund enthalten. Das bedeutet, dass verwaiste Hintergrundbesuche oder &quot;Hintergrundbesuche&quot;nicht in die Besuchsmetrik einbezogen werden.
 
-## Zeit pro Besuch – Metrikverhalten  {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Zeit pro Besuch – Metrikverhalten 
 
-Die verbrachte Zeit wird weiterhin analog zur Berechnung ohne Hintergrundtreffer mithilfe der Zeit zwischen den Treffern berechnet. Falls ein Besuch Hintergrundtreffer umfasst (weil sie nahe genug an Vordergrundtreffern aufgetreten sind), werden diese Treffer dennoch in die Berechnung der pro Besuch verbrachten Zeit einbezogen, als würde es sich um einen Vordergrundtreffer handeln.
+Die Besuchszeit wird immer noch analog zur Zeit zwischen Treffern ohne Hintergrundtreffer berechnet. Wenn ein Besuch Hintergrundtreffer enthält (weil diese Treffer nahe genug an die Treffer im Vordergrund gingen), werden diese Treffer in die Berechnung der Besuchszeit pro Besuch eingeschlossen, als ob sie ein Treffer im Vordergrund wären.
 
-## Einstellungen zur Verarbeitung von Treffern im Hintergrund  {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Einstellungen zur Verarbeitung von Treffern im Hintergrund 
 
-Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Navigieren Sie für den Zugriff auf diese Einstellung zur Adobe Analytics Admin Console, rufen Sie die Einstellungen der jeweiligen zugrunde liegenden Report Suite auf, navigieren Sie dann zum Menü „Mobile Verwaltung“ und dann zum Untermenü „Mobile App-Berichte“.
+Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Um auf diese Einstellung zuzugreifen, navigieren Sie zur Adobe Analytics Admin Console, gehen Sie zu den Einstellungen der jeweiligen Basis-Report Suite, navigieren Sie dann zum Menü &quot;Mobile Management&quot;und zum Untermenü &quot;Mobile Application Berichte&quot;.
 
-1. „Legacy-Verarbeitung Ein“: Standardeinstellung für alle Report Suites. Wenn Sie die Legacy-Verarbeitung aktiviert lassen, werden Hintergrundtreffer in der Verarbeitungspipeline wie normale Treffer behandelt, was die zugrunde liegende Report Suite ohne Zuordnung der Berichtszeit betrifft. Demnach inkrementieren Hintergrundtreffer, die in der zugrunde liegenden Report Suite angezeigt werden, Besuche als normalen Treffer. Wenn keine Hintergrundtreffer in Ihrer zugrunde liegenden Report Suite angezeigt werden sollen, ändern Sie diese Einstellung zu „Aus“.
+1. &quot;Veraltete Verarbeitung am&quot;: Dies ist die Standardeinstellung für alle Report Suites. Die Verarbeitung von älterer Verarbeitung bei Prozesshintergrund-Treffern als normale Treffer in unserer Verarbeitungspipeline zu belassen, soweit es die Report Suite ohne Berichtszeitzuordnung betrifft. Das bedeutet, dass alle Hintergrundtreffer, die in der Basis-Report Suite angezeigt werden, die Besuche als normalen Treffer inkrementieren. Wenn in Ihrer Basis-Report Suite keine Hintergrundtreffer angezeigt werden sollen, ändern Sie diese Einstellung in &quot;Aus&quot;.
 1. „Legacy-Verarbeitung Aus“: Wenn die Legacy-Verarbeitung für Hintergrundtreffer aus ist, werden an die zugrunde liegende Report Suite gesendete Hintergrundtreffer von der zugrunde liegenden Report Suite ignoriert, und sie sind nur zugänglich, wenn eine in dieser zugrunde liegenden Report Suite erstellte Virtual Report Suite für die Verwendung der Funktion „Berichtszeitverarbeitung“ konfiguriert ist. Demnach werden von den Hintergrundtreffern erfasste Daten, die an diese zugrunde liegende Report Suite gesendet werden, nur in einer Virtual Report Suite mit aktivierter Funktion „Berichtszeitverarbeitung“ angezeigt.
 
-   Diese Einstellung ist für Kunden vorgesehen, die die neue Verarbeitung von Hintergrundtreffern nutzen möchten, ohne die Besuchszahlen ihrer zugrunde liegenden Report Suite zu ändern.
+   Diese Einstellung ist für Kunden gedacht, die die neue Verarbeitung von Hintergrundschlägen nutzen möchten, ohne die Anzahl der Besuche ihrer Basis-Report Suite zu ändern.
 
-In beiden Fällen werden Hintergrundtreffer mit denselben Kosten wie andere an Analytics gesendete Treffer abgerechnet.
+In beiden Fällen werden Hintergrundtreffer mit denselben Kosten berechnet wie jeder andere Treffer, der an Analytics gesendet wird.
 
-## Starten neuer Besuche bei allen App-Starts  {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Starten neuer Besuche bei allen App-Starts 
 
-Zusätzlich zur Verarbeitung von Hintergrundtreffern können Virtual Report Suites immer dann das Starten eines neuen Besuchs erzwingen, wenn das mobile SDK ein App-Startereignis sendet. Wenn diese Einstellung aktiviert ist, wird bei jedem Senden eines App-Startereignisses vom SDK das Starten eines neuen Besuchs erzwungen. Dabei ist es unerheblich, ob ein offener Besuch sein Timeout erreicht hat. Der Treffer mit dem App-Startereignis wird als erster Treffer des nächsten Besuchs betrachtet. Er inkrementiert die Besuchszahl und erzeugt einen gesonderten Besuchscontainer für die Segmentierung.
+Neben der Verarbeitung von Hintergrundtreffervorgängen können Virtual Report Suites einen neuen Besuch von Beginn erzwingen, sobald das mobile SDK ein App-Start-Ereignis sendet. Wenn diese Einstellung aktiviert ist, erzwingt sie jedes Mal, wenn ein App-Start-Ereignis vom SDK gesendet wird, einen neuen Besuch bei Beginn, unabhängig davon, ob ein offener Besuch seinen Timeout erreicht hat. Der Treffer mit dem App-Start-Ereignis wird als erster Treffer beim nächsten Besuch eingeschlossen und inkrementiert die Besuchszahl und erstellt einen eindeutigen Container für die Segmentierung.
