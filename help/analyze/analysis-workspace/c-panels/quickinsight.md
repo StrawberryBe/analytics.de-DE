@@ -2,7 +2,7 @@
 description: 'null'
 title: Quick Insights Builder
 translation-type: tm+mt
-source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
+source-git-commit: 718de88664e9d27ed5973f5269a324ffbc3b5414
 
 ---
 
@@ -13,17 +13,17 @@ source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 >
 >**[!UICONTROL Quick Insights]** befindet sich derzeit im Beta-Test und ist noch nicht generell für alle Adobe Analytics-Kunden verfügbar.
 
-[!UICONTROL Quick Insights] bietet Analysten und Anwendern von Analyse Workspace Anleitungen, wie sie Geschäftsfragen schnell und einfach beantworten können. Es ist auch ein großartiges Werkzeug für fortgeschrittene Benutzer, die eine einfache Frage schnell beantworten möchten, ohne selbst eine Tabelle erstellen zu müssen.
+[!UICONTROL Quick Insights] bietet Analysten und neuen Benutzern von Informationen [!UICONTROL Analysis Workspace] zur schnellen und einfachen Beantwortung von Geschäftsfragen. Es ist auch ein großartiges Werkzeug für fortgeschrittene Benutzer, die eine einfache Frage schnell beantworten möchten, ohne selbst eine Tabelle erstellen zu müssen.
 
-Wenn Sie diesen Arbeitsbereich für Analysen zum ersten Beginn verwenden, fragen Sie sich vielleicht, welche Visualisierungen am nützlichsten sind, welche Dimensionen und Metriken Einblicke ermöglichen, wo Elemente per Drag &amp; Drop eingefügt werden können, wo ein  erstellt werden kann usw.
+Wenn Sie diesen Beginn zum ersten Mal verwenden, [!UICONTROL Analysis Workspace]fragen Sie sich vielleicht, welche Visualisierungen am nützlichsten sind, welche Dimensionen und Metriken Einblicke erleichtern können, wo Elemente per Drag &amp; Drop eingefügt werden können, wo ein Segment erstellt werden soll usw.
 
-Um dies zu unterstützen und basierend auf der Nutzung von Datenkomponenten durch Ihre eigene Firma im Analyse Workspace einen Algorithmus zu verwenden, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche, die Ihre Firma verwendet, präsentiert. [!UICONTROL Quick Insights]
+Um dies zu unterstützen und basierend auf der Nutzung der Datenkomponenten in Ihrer eigenen Firma [!UICONTROL Analysis Workspace]nutzt [!UICONTROL Quick Insights] ein Algorithmus, der Ihnen die bevorzugten Dimensionen, Metriken, Segmente und Datumsbereiche Ihrer Firma präsentiert.
 
 [!UICONTROL Quick Insights] hilft Ihnen
 
-* Erstellen Sie eine Datentabelle und die zugehörige Visualisierung in Analyse Workspace ordnungsgemäß.
-* Erfahren Sie mehr über die Terminologie und das Vokabular für Grundelemente und Analyse Workspace.
-* Machen Sie einfache Aufschlüsselungen von Dimensionen, fügen Sie mehrere Metriken hinzu oder vergleichen Sie Segmente einfach in einer Freiform-Tabelle.
+* Erstellen Sie eine Datentabelle und die zugehörige Visualisierung in [!UICONTROL Analysis Workspace].
+* Lernen Sie die Terminologie und das Vokabular für einfache Komponenten und Teile davon [!UICONTROL Analysis Workspace].
+* Machen Sie einfache Aufschlüsselungen von Dimensionen, fügen Sie mehrere Metriken hinzu oder vergleichen Sie Segmente einfach innerhalb eines [!UICONTROL Freeform table]Segments.
 * Ändern Sie die verschiedenen Visualisierungstypen oder versuchen Sie es auszuprobieren, um das Suchwerkzeug für Ihre Analyse schnell und intuitiv zu finden.
 
 ## Grundlegende Terminologie
@@ -35,7 +35,8 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 | [!UICONTROL Dimension] | Dimensionen sind Beschreibungen oder Merkmale von Metrikdaten, die in einem Projekt angezeigt, aufgeschlüsselt und verglichen werden können. Es handelt sich um nicht-numerische Werte und Daten, die in Dimensionselemente unterteilt werden. Beispielsweise sind &quot;browser&quot;oder &quot;page&quot;Dimensionen. |
 | [!UICONTROL Dimension item] | Dimensionselemente sind individuelle Werte für eine Dimension. Beispielsweise wären Dimensionselemente für die Browserdimension &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;usw. |
 | [!UICONTROL Metric] | Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
-| Visualisierung | Workspace Angebot [eine Reihe von Visualisierungen](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) , um visuelle Darstellungen Ihrer Daten zu erstellen, z. B. Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. |
+| [!UICONTROL Visualization] | Workspace Angebot [eine Reihe von Visualisierungen](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) , um visuelle Darstellungen Ihrer Daten zu erstellen, z. B. Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. |
+| [!UICONTROL Breakdown] | Eine Aufschlüsselung ist eine Möglichkeit, eine Dimension buchstäblich nach anderen Dimensionen zu unterteilen. In unserem Beispiel könnten Sie die US-Bundesstaaten nach Mobilgeräten aufschlüsseln, um die Besuche der Mobilgeräte nach Bundesland, Mobilgerätetypen oder Regionen, nach internen Kampagnen usw. zu erhalten. |
 | [!UICONTROL Segment] | Mit Segmenten können Sie Untergruppen von Besuchern anhand von Merkmalen oder Website-Interaktionen identifizieren. Sie können beispielsweise [!UICONTROL Visitor] Segmente basierend auf Attributen erstellen: Browsertyp, Gerät, Anzahl der Besuche, Land, Geschlecht oder basierend auf Interaktionen: Kampagnen, Suchbegriffssuche, Suchmaschinen oder auf der Grundlage von Ausstiegen und Einstiegen: Besucher aus Facebook, einer definierten Landingpage, einer verweisenden Domäne oder basierend auf benutzerspezifischen Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
 
 ## Erste Schritte mit Quick Insights
@@ -45,14 +46,14 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 
    ![](assets/qibuilder.png)
 
-1. Wenn Sie den ersten Beginn abschließen, führen Sie das kurze Lernprogramm durch, in dem Sie einige der Grundlagen des Quick Insight Builder kennenlernen. Oder klicken Sie auf **[!UICONTROL Skip Tutorial]**.
+1. Wenn Sie den ersten Beginn verbringen, gehen Sie durch das kurze Lernprogramm, das Ihnen einige der [!UICONTROL Quick Insights Builder] Grundlagen beibringt. Oder klicken Sie auf **[!UICONTROL Skip Tutorial]**.
 1. Wählen Sie die Bausteine aus (auch als Komponenten bezeichnet): Dimensionen (orange), Metriken (grün), Segmente (blau) oder Datumsbereiche (violett) Sie müssen mindestens eine Dimension und eine Metrik auswählen, damit eine Tabelle automatisch erstellt wird.
 
    ![](assets/qibuilder2.png)
 
    Sie haben drei Möglichkeiten, die Bausteine auszuwählen:
    * Ziehen Sie sie per Drag &amp; Drop aus der linken Leiste.
-   * Wenn Sie wissen, was Sie suchen: Beginn, die den Namen eingeben, und Quick Insights füllen die Lücken für Sie aus.
+   * Wenn Sie wissen, was Sie suchen: Beginn, der den Namen eingibt, [!UICONTROL Quick Insights Builder] füllt die Leerzeichen für Sie aus.
    * Klicken Sie auf die Dropdown-Liste und suchen Sie die Liste.
 
 1. Wenn Sie mindestens eine Dimension und eine Metrik hinzugefügt haben, wird Folgendes erstellt:
@@ -69,7 +70,7 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 
 ## Weitere hilfreiche Optionen
 
-Weitere nützliche Hinweise werden im Quick Insights-Builder angezeigt, einige davon abhängig von Ihrer letzten Aktion.
+Andere nützliche Hinweise werden in der angezeigt [!UICONTROL Quick Insights Builder], einige davon abhängig von Ihrer letzten Aktion.
 
 * **Ziehen und Ablegen** versuchen: Wenn Sie z. B. den Baustein mithilfe der Dropdownliste ausgewählt haben, kann dies Popup-Fenster werden:
 
@@ -79,7 +80,7 @@ Weitere nützliche Hinweise werden im Quick Insights-Builder angezeigt, einige d
 
    ![](assets/qibuilder8.png)
 
-* **Aufschlüsselung nach**: Sie können bis zu drei Stufen von Aufschlüsselungen für Dimensionen verwenden, um einen Drilldown zu den Daten durchzuführen, die Sie wirklich benötigen. Eine Aufschlüsselung ist eine Möglichkeit, die Dimension buchstäblich nach anderen Dimensionen zu unterteilen. In unserem Beispiel könnten Sie die US-Bundesstaaten nach Mobilgeräten aufschlüsseln, um die Besuche der Mobilgeräte nach Bundesland, Mobilgerätetypen oder Regionen, nach internen Kampagnen usw. zu erhalten.
+* **Aufschlüsselung nach**: Sie können bis zu drei Stufen von Aufschlüsselungen für Dimensionen verwenden, um einen Drilldown zu den Daten durchzuführen, die Sie wirklich benötigen.
 
    ![](assets/qibuilder5.png)
 
@@ -93,7 +94,7 @@ Weitere nützliche Hinweise werden im Quick Insights-Builder angezeigt, einige d
 
 ## Bekannte Einschränkungen
 
-Wenn Sie versuchen, direkt in der Tabelle zu bearbeiten, führt dies dazu, dass der Quick Insight-Builder (das leere Füllwerkzeug) nicht mehr synchron ist. Sie können die vorherigen Quick Insight-Einstellungen wiederherstellen, indem Sie zu der Tabelle navigieren **[!UICONTROL Help > Tutorials]** oder sie löschen, indem Sie oben rechts im Fenster &quot;Quick Insight&quot;auf **[!UICONTROL Clear]** klicken.
+Wenn Sie versuchen, direkt innerhalb der Tabelle zu bearbeiten, wird das [!UICONTROL Quick Insights Builder] (das leere Füllwerkzeug) nicht mehr synchronisiert. Sie können die vorherigen Quick Insight-Einstellungen wiederherstellen, indem Sie zu der Tabelle navigieren **[!UICONTROL Help > Tutorials]** oder sie löschen, indem Sie oben rechts im Fenster &quot;Quick Insight&quot;auf **[!UICONTROL Resync Builder]** klicken.
 
 Andernfalls führt das direkte Erstellen dazu, dass sich die Tabelle jetzt als herkömmliche Freiform-Tabelle ohne die nützlichen Funktionen für neue Benutzer verhält.
 
