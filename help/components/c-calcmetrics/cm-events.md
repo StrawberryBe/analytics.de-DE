@@ -2,14 +2,14 @@
 title: Ableiten von Daten, die von Ereignissen betroffen sind
 description: Verwenden Sie berechnete Metriken, um Trenddaten zu korrigieren, die von einem Ereignis betroffen sind.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # Ableiten von Daten, die von Ereignissen betroffen sind
 
-Wenn Daten von einem Ereignis [](/help/technotes/event-impacted.md)beeinflusst werden, können Sie berechnete Metriken verwenden, um Trendwerte für die Dauer des Ereignisses abzuleiten. Wenn Sie z. B. ein Ereignis hatten, das zu einem Datenverlust von 25 % führte, können Sie dies als Multiplikator in einer berechneten Metrik verwenden.
+Wenn Daten von einem Ereignis [](/help/technotes/event-impacted.md)beeinflusst werden, können Sie berechnete Metriken verwenden, um Trendwerte für die Dauer des Ereignisses abzuleiten. Wenn Sie z. B. ein Ereignis hatten, das zu einem Datenverlust von 25 % führte, können Sie dies als Multiplikator in einer berechneten Metrik verwenden. Diese Methode ist hilfreich, wenn Sie nicht über die Zeit oder Ressourcen verfügen, um Daten mithilfe von [Datenquellen](/help/import/c-data-sources/datasrc-home.md) oder der [Dateneinfüge-API](/help/import/c-data-insertion-api/c-data-insertion-api.md)in Adobe Analytics einzufügen.
 
 >[!NOTE] Diese Schritte funktionieren am besten, wenn Sie die Auswirkungen eines Ereignisses aus der Sicht der Segmentierung und des Datumsvergleichs verstehen. Vergewissern Sie sich, dass Sie die Daten [vergleichen, die von einem Ereignis betroffen sind, mit vorherigen Datumsbereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) und bestimmte Daten in Analyse [](../c-segmentation/use-cases/exclude-date-range.md) ausschließen, bevor Sie dieser Seite folgen.
 
