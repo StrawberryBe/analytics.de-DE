@@ -2,7 +2,7 @@
 title: Analyse der von Ereignissen betroffenen Daten
 description: Verstehen Sie, wie die von einem Ereignis betroffenen Daten zur Datenqualität insgesamt beitragen.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -32,3 +32,9 @@ Nachdem Sie Segmente erstellt und den Datumsvergleich verwendet haben, können S
 ## Auswirkungen auf Benutzer in Ihrer Organisation kommunizieren
 
 Sobald Sie mit der geplanten Handhabung eines Ereignisses vertraut sind, können Sie mit den Benutzern in Ihrem Unternehmen [kommunizieren](event/event-communicate.md). Adobe Angebote bietet verschiedene Orte in Analytics, an denen Sie Text platzieren können, um den Benutzern mitzuteilen, was passiert ist und welche Komponenten sie verwenden können.
+
+## Video
+
+Dieses Video führt Sie durch die oben genannten Schritte.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
