@@ -3,7 +3,7 @@ description: Adobe unterstützt den Export von Data Warehouse-Anforderungen an S
 keywords: ftp;sftp
 title: Data Warehouse-Anforderungen an SFTP-Server senden
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ So senden Sie eine [!DNL Data Warehouse]-Anforderung erfolgreich über SFTP:
 1. Nachdem Sie die Datei erhalten haben, melden Sie sich bei der FTP-Site mit den Anmeldedaten an, die für die [!DNL Data Warehouse]-Anforderung verwendet werden.
 1. Navigieren Sie im Stammverzeichnis zu dem Ordner [!DNL .ssh] (erstellen Sie diesen, falls er nicht vorhanden ist) und legen Sie dort die Datei [!DNL authorized_keys] ab.
 
-1. Wechseln Sie zum [!DNL Data Warehouse]-Anforderungs-Manager. Konfigurieren Sie die Anforderung und klicken Sie auf **[!UICONTROL Erweiterte Bereitstellungsoptionen]**.
+1. Wechseln Sie zum [!DNL Data Warehouse]-Anforderungs-Manager. Konfigurieren Sie die Anforderung und klicken Sie auf **[!UICONTROL Advanced Delivery Options]**.
 
 1. Klicken Sie im Popup-Fenster auf **[!UICONTROL FTP]** und geben Sie die FTP-Site (mit dem Protokoll [!DNL sftp://], z. B. [!DNL sftp://ftp.omniture.com]) über Port 22 an.
 
@@ -41,7 +41,7 @@ So senden Sie eine [!DNL Data Warehouse]-Anforderung erfolgreich über SFTP:
 
 1. Geben Sie im Feld „Ordner“ den Namen des Ordners ein, in dem Sie die Datei ablegen möchten. Es muss ein Ordner eingegeben werden.
 1. Geben Sie den Benutzernamen und das Kennwort aus Schritt 2 ein.
-1. Klicken Sie auf **[!UICONTROL Senden]**.
+1. Klicken Sie auf **[!UICONTROL Send]**.
 
 Der sFTP-Befehl PUT platziert eine temporäre Datei mit der Erweiterung „.part“ im angegebenen Verzeichnis. Sobald das Hochladen abgeschlossen ist, wird die Dateierweiterung in die endgültige Erweiterung geändert, und die Datei kann verwendet werden.
 
