@@ -2,7 +2,7 @@
 title: Auswirkungen an Benutzer kommunizieren
 description: Erfahren Sie, wie Sie die Wirkung eines Ereignisses in Ihrem Unternehmen effektiv kommunizieren können.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ Wenn Sie Reports &amp; Analysen verwenden, können Sie mithilfe eines [Kalenderb
 2. Geben Sie den gewünschten Titel, den Datumsbereich und den Notiztext ein.
 3. Klicken Sie auf **[!UICONTROL Save]**.
 
-![Kalender-Ereignis](../assets/exclude_calendar_event.jpg)
+![Kalender-Ereignis](../assets/exclude_calendar_event.png)
