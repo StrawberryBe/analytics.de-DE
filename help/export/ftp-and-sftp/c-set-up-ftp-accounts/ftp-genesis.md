@@ -3,7 +3,7 @@ description: Wenn Sie eine Integration mit einem Adobe-Partner über Data Connec
 keywords: ftp;sftp
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
