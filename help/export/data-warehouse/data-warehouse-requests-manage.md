@@ -15,18 +15,18 @@ Der Anforderungs-Manager ermöglicht es Ihnen, Anforderungen anzuzeigen, zu dupl
 
 Wählen Sie in Data Warehouse die **[!UICONTROL Request Manager]** Registerkarte aus.
 
-Mithilfe dieser Registerkarte können Sie
+Die Arbeit in dieser Registerkarte ermöglicht es Ihnen,
 
-* Ansicht der letzten Berichtsanforderungen nach Berichtsname, angewendetem Segment, anfordernder Person, Anforderungsdatum und -status.
-* Duplikat-Anfragen. Klicken Sie auf **[!UICONTROL Duplicate]** neben der Anforderung.
+* aktuelle Berichtsanforderungen nach Berichtsnamen, angewendetem Segment, anfordernder Person, Anforderungsdatum und -status anzuzeigen.
+* Anforderungen zu duplizieren. Click **[!UICONTROL Duplicate]** next to the request.
 
    >[!NOTE]
    >
    >Diese Aktion dupliziert lediglich die Anforderung, jedoch nicht den Zeitplan bzw. die Lieferdetails.
 
-* Suchen Sie nach Berichten nach dem Berichtsnamen oder dem Anmeldenamen des Antragstellers.
-* Berichte neu zu priorisieren, indem Sie sie an eine neue Position in der Warteschlange ziehen und dort ablegen.
-* Um zu sehen, wann die Verarbeitung einer Anforderung begonnen hat, klicken Sie auf eine ID einer geplanten Anforderung und prüfen Sie das Popup, das geöffnet wird.
+* Berichte nach Berichtsnamen oder Anmeldenamen der anfordernden Person zu suchen.
+* Berichte durch Ziehen und Ablegen an einer neuen Position in der Warteschlange neu zu priorisieren.
+* Möchten Sie es anzeigen, wenn eine Anfrage verarbeitet wird, klicken Sie auf die ID einer geplanten Anfrage und prüfen Sie das sich öffnende Popup.
 
 >[!NOTE] Möchten Sie eine Data Warehouse-Anfrage abbrechen, [finden Sie hier entsprechende Anweisungen](https://helpx.adobe.com/de/analytics/kb/cancel-data-warehouse-requests.html).
 
