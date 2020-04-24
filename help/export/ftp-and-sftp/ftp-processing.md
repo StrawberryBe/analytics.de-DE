@@ -3,7 +3,7 @@ description: Die Verarbeitungszeit für eine FTP-Datei, ob für Classifications 
 keywords: ftp;sftp
 title: FTP-Verarbeitungszeiten
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
