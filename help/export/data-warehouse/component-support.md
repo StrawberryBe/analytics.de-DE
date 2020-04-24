@@ -36,7 +36,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 ### Nicht unterstützte Dimensionen
 
 * Einige zeitbasierte Dimensionen, darunter:
-   * vor Mittag/nach Mittag
+   * Vormittag/Nachmittag
    * Tag des Monats
    * Wochentag
    * Tag des Jahres
@@ -53,7 +53,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Rückkehrhäufigkeit
    * Zeit vor Ereignis
    * Besuchszeit pro Seite – Zusammengefasst
-   * Zeit pro Besuch – Zusammengefasst
+   * Zeit pro Besuch – Zusammengefasst
    * Besuchstiefe
 * Rangansicht aller Suchseiten
 * Hierarchievariablen
@@ -61,8 +61,8 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 * Nicht gefundene Seiten (als Dimension verfügbar; nicht unterstützt für Segmentierung)
 * Paid Search
 * Einzelseitenbesuche
-* Nachverfolgen des Abmeldegrunds
-* USA
+* Nachverfolgung der Gründe für den Ausstieg
+* US-Staaten
 
 ### Nicht unterstützte Metriken
 
