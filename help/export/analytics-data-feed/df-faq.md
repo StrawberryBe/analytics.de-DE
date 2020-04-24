@@ -2,7 +2,7 @@
 description: Häufig gestellte Fragen zu Daten-Feeds
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Häufig gestellte Fragen zu Daten-Feeds
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
