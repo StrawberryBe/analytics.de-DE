@@ -14,17 +14,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Numerisch 2 Classifications werden auf dieselbe Art wie andere Classifications erstellt. Numerisch 2 Classifications können nur zu Konversion- oder Kanalvariablen hinzugefügt werden.
 
->[!NOTE] Nach der Analytics-Wartungsversion vom 10. Mai 2018 schränkte Adobe die Funktion für datumsaktivierte und numerische Classifications ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und numerischen Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
+>[!NOTE] Nach der Analytics-Wartungsversion vom 10. Mai 2018 schränkte Adobe die Funktion für datumsaktivierte und numerische Classifications ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
 
-1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Wählen Sie die Report Suite aus und klicken Sie dann auf **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
-1. Click the **[!UICONTROL Add Classification]** icon.
+1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
+1. Wählen Sie die Report Suite aus und klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversion-Classifications]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Klassifizierung hinzufügen]**.
 1. Füllen Sie die Felder aus:
 
-   **Typ auswählen:** Wählen Sie **[!UICONTROL Numeric 2]**.
+   **Typ auswählen:** Wählen Sie **[!UICONTROL Numerisch-2]**.
 
    **Name:** Geben Sie einen Namen für die Classification an.
 
-   **Nummerisch:** Wählen Sie aus, ob es sich um eine Klassifizierung handelt **[!UICONTROL Percent (%)]** oder **[!UICONTROL Currency ($)]**.
+   **Numerisch:** Wählen Sie für die Klassifizierung zwischen den Optionen **[!UICONTROL Prozent (%)]** oder **[!UICONTROL Währung ($)]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
