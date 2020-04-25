@@ -2,7 +2,7 @@
 description: Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Datum, Einheiten, Bestellungen, Umsatz usw. Metriken und die damit verbundenen Daten werden in den Spalten von Berichten angezeigt.
 title: Metriken
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -68,7 +68,7 @@ t_add_metrics_dsc.xml
 
    Sie können vorab Standardmetriken unter [!UICONTROL Einstellungen] angeben, wenn Sie Metriken nicht wiederholt zu einem Bericht hinzufügen möchten.
 
-   Siehe  [Registerkarte „Rangansicht“ – Definitionen](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   Siehe [Registerkarte „Rangansicht“ – Definitionen](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Aufbau berechneter Metriken {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
