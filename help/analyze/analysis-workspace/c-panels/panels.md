@@ -2,7 +2,7 @@
 description: 'null'
 title: Übersicht über Bedienfelder
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -43,7 +43,7 @@ Beachten Sie:
 
    ![](assets/dropdown.png)
 
-1. Wählen Sie eine der Optionen aus der Dropdown-Liste aus, um die Daten im unteren Bedienfeld zu ändern. (Sie können auch auf die Filterung von Bedienfelddaten verzichten, indem Sie **[!UICONTROL Kein Filter]** auswählen.)
+1. Wählen Sie eine der Optionen aus der Dropdown-Liste aus, um die Daten im unteren Bedienfeld zu ändern. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
 1. Wenn Sie beispielsweise die Daten auch nach Marketing-Kanälen aufteilen möchten, können Sie ein weiteres Dropdown namens „Marketing-Kanal“ hinzufügen:
 
    ![](assets/mc_dropdown.png)
