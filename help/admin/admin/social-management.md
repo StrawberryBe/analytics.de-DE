@@ -3,7 +3,7 @@ description: Wenn Adobe Social aktiviert ist, können Sie mit dieser Option Soci
 title: Social-Media-Verwaltung
 topic: Admin tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
