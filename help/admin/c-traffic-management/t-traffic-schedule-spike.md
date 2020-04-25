@@ -3,7 +3,7 @@ description: Im Abschnitt „Spitze planen“ können Sie Adobe vor vorübergehe
 title: Planen von Traffic-Spitzen
 topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
