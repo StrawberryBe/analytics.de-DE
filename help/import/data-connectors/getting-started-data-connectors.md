@@ -9,20 +9,20 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Übersicht über Data Connectors
 
-Adobe bietet Organisationen umsetzbare Echtzeit-Informationen zu ihren digitalen Strategien und Marketinginitiativen. Mit Data Connectors können Sie Verfolgungsdaten aus Drittanbieteranwendungen in Analytics importieren, um Daten von einem zentralen Standort zu erfassen und zu verwenden. Wenn Sie eines der Partnerprodukte verwenden, können Sie eine Integration erstellen, die die Anwendungsdaten in Marketing-Berichte importiert. Nach der Integration können Sie Berichte erstellen, die Daten aus Ihrer Anwendung enthalten.
+Adobe bietet Organisationen umsetzbare Echtzeit-Informationen zu ihren digitalen Strategien und Marketinginitiativen. Mit Data Connectors können Sie Verfolgungsdaten aus Drittanbieter-Anwendungen in Analysen importieren, um Daten über eine zentrale Stelle zu erfassen und zu nutzen. Wenn Sie eines der Partnerprodukte verwenden, können Sie eine Integration erstellen, die die Anwendungsdaten in Marketing-Berichte importiert. Nach der Integration können Sie Berichte erzeugen, die die Daten aus Ihrer Anwendung mit einbeziehen.
 
-Für eine E-Mail-Integration möchten Sie z. B. vielleicht einen E-Mail-Partner nutzen, der für die Verteilung einer E-Mail-Kampagne sorgt. Wenn Besucher Ihre Website besuchen, möchten Sie wissen, wer aufgrund der E-Mail-Kampagne auf der Seite gelandet ist. Data Connectors integrieren Daten von Ihrem E-Mail-Partner in Marketingberichte, damit Sie diese Informationen zur Messung der Effektivität Ihrer E-Mail-Kampagne bestimmen können.
+Für eine E-Mail-Integration möchten Sie z. B. vielleicht einen E-Mail-Partner nutzen, der für die Verteilung einer E-Mail-Kampagne sorgt. Wenn Besucher Ihre Website besuchen, möchten Sie wissen, wer aufgrund der E-Mail-Kampagne auf der Seite gelandet ist. Data Connectors integrieren Daten von Ihrem E-Mail-Partner in Marketing-Berichte, damit Sie diese Informationen zur Messung der Effektivität Ihrer E-Mail-Kampagne nutzen können.
 
 **Systemanforderungen**
 
-Data Connectors sollten in die gängigsten Browser ordnungsgemäß integriert werden. Die beste Darstellung und Funktion von Berichten auf Systemen, die die folgenden Empfehlungen erfüllen:
+Die Integration von Data Connectors sollte mit den herkömmlichen Browsern problemlos möglich sein. Die Berichtdarstellung und -funktion arbeitet jedoch am besten auf Systemen, die die folgenden Empfehlungen erfüllen:
 
-* Browser: Microsoft Internet Explorer Version 6 und höher
+* Browser: Microsoft Internet Explorer Version 6 oder höher
 * Cookies: Erforderlich
 * JavaScript: Aktiviert
 * Betriebssystem: Windows-basiert
-* Macromedia Flash Player: Version 6 oder höher
-* Bildschirmauflösung: 1024 x 768 (800 x 600 funktioniert)
+* Macromedia Flash Player: Version 6 oder neuer
+* Bildschirmauflösung: 1.024x768 (800x600 funktioniert auch)
 * Farbtiefe: 16-Bit oder höher
 
 Zusätzlich wird die Datenerfassung verbessert, wenn für die Webbrowser der Benutzer JavaScript aktiviert wurde.
@@ -31,10 +31,10 @@ Zusätzlich wird die Datenerfassung verbessert, wenn für die Webbrowser der Ben
 
 Bevor Sie eine Data Connectors-Integration für Ihr Produkt konfigurieren, führen Sie die folgenden Schritte aus:
 
-* Sie haben die erforderlichen Zugangsdaten für das Partnerprodukt-Konto mit Zugriffsrechten auf alle Daten, die Sie in Marketing-Berichte integrieren möchten. Möglicherweise möchten Sie ein spezielles E-Mail-Konto für Berichtverteiler und für Benachrichtigungen über die integrierten Vorgänge erstellen.
-* Identifizieren Sie die benutzerspezifischen Variablen, die die Informationen zu Ihrer Kampagne enthalten. Diese werden in der Regel als Kampagnen-Trackingcode bezeichnet, möglicherweise wird in Ihrer Organisation aber auch eine andere Terminologie verwendet.
-* Bestimmen Sie die Ereignis, die Impressionen erhalten sollen, und klicken Sie auf Daten. Möglicherweise möchten Sie die Ereignis entsprechend umbenennen.
-* Platzieren Sie den entsprechenden Code auf Ihrer Landingpage, damit Analytics eine geeignete Modellierung mit den Daten des Partnerprodukts durchführen kann. Spezifische Anweisungen für die jeweiligen Partnerprodukte finden Sie im Data Connectors-Showcase unter der Registerkarte Ressourcen.
+* Besorgen Sie sich die notwendigen Zugangsdaten für das Partnerprodukt-Konto sowie die entsprechenden Zugriffsberechtigungen für alle Daten, die Sie in Marketing-Berichte integrieren möchten. Möglicherweise empfiehlt es sich, ein eigenes E-Mail-Konto für Berichtverteiler und für Benachrichtigungen zu den integrierten Operationen anzulegen.
+* Identifizieren Sie die benutzerspezifischen Variablen, die Ihre Kampagneninformationen enthalten. Diese werden in der Regel als Kampagnen-Trackingcode bezeichnet, möglicherweise wird in Ihrer Organisation aber auch eine andere Terminologie verwendet.
+* Bestimmen Sie die Ereignisse, für die Sie Impressionen und Klickdaten erhalten möchten. Möglicherweise empfiehlt es sich, die Ereignisse entsprechend umzubenennen.
+* Platzieren Sie den entsprechenden Code auf Ihrer Landingpage, sodass Analytics eine entsprechende Modellierung mit den Daten durchführen kann, die vom Partnerprodukt übermittelt werden. Spezifische Anweisungen für die jeweiligen Partnerprodukte finden Sie im Data Connectors-Showcase unter der Registerkarte Ressourcen.
 
 ## Eine Integration hinzufügen
 
@@ -42,8 +42,8 @@ Sie benötigen ein aktuelles Konto, um auf die [!UICONTROL Data Connectors]-Land
 
 1. Melden Sie sich bei Adobe Experience Cloud an.
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**.
-1. Klicken Sie auf **[!UICONTROL Add New]**.
-1. Gehen Sie durch die **[!UICONTROL Add Integration]** Oberfläche.
+1. Klicken Sie auf **[!UICONTROL Neu hinzufügen]**.
+1. Gehen Sie die Oberfläche **[!UICONTROL Integration hinzufügen]** schrittweise durch.
 
    Abhängig von der jeweiligen Produktintegration müssen Sie im Zuge des Integrationsprozesses eventuell spezifische Konfigurationsinformationen bereitstellen.
 
@@ -51,7 +51,7 @@ Sie benötigen ein aktuelles Konto, um auf die [!UICONTROL Data Connectors]-Land
 
 ## Data Connectors-Konsole
 
-Nachdem Sie eine Integration aktiviert haben, wird sie auf der Seite [!UICONTROL Data Connectors] angezeigt. Sie können Details anzeigen und Konfigurationsänderungen in der Konsole vornehmen. Sie können aktive Integrationen und Integrationen für alle Report Suites in Ihrer Firma anzeigen. Sie können auch ein Integrationsprotokoll Ansicht vornehmen, eine Aktivität als Dashboard festlegen, eine Integration konfigurieren und Hilfe suchen.
+Nachdem Sie eine Integration aktiviert haben, wird sie auf der Seite [!UICONTROL Data Connectors] angezeigt. Sie können Details anzeigen und Konfigurationsänderungen in der Konsole vornehmen. Sie können aktive Integrationen und Integrationen für alle Report Suites in Ihrer Firma anzeigen. Darüber hinaus können Sie sich ein Aktivitätsprotokoll ansehen, eine Integration als Dashboard einstellen, eine Integration konfigurieren oder die Hilfe-Funktion nutzen.
 
 ![Data Connectors-Konsole](assets/data-connectors-console.png)
 
@@ -59,20 +59,20 @@ Nachdem Sie eine Integration aktiviert haben, wird sie auf der Seite [!UICONTROL
 
 Remarketing-Segmente sind Datendateien, die auf der Grundlage der in einer Data Connectors-Integration verwendeten Variablen erstellt werden.
 
-Adobe Analytics sendet diese täglich in separaten Dateien über Data Warehouse an ein durch Adobe für den Drittanbieter erstelltes FTP-Konto. Der Drittanbieter verteilt diese Dateien dann an den Client. Firmen nutzen dies in der Regel für ein Remarketing für Besucher, die die Site besucht und sich ein Produkt angesehen, dieses aber nicht gekauft haben. (Sie wenden sich z. B. an einen Kunden, der einen Rabatt für ein Produkt anbietet, das er angesehen hat, aber am Ende nicht gekauft hat).
+Adobe Analytics sendet diese täglich in separaten Dateien über Data Warehouse an ein durch Adobe für den Drittanbieter erstelltes FTP-Konto. Der Drittanbieter verteilt diese Dateien dann an den Kunden. Firmen nutzen dies in der Regel für ein Remarketing für Besucher, die die Site besucht und sich ein Produkt angesehen, dieses aber nicht gekauft haben. (Sie kontaktieren z. B. einen Kunden, um ihm einen Rabatt für ein Produkt anzubieten, das er sich angesehen, dann aber nicht gekauft hat).
 
 **Segmente**
 
-* [!UICONTROL Cart Abandonment]: Der Prozentsatz der Besucher, die einen Artikel zum Einkaufswagen hinzugefügt, ihn aber nicht gekauft haben. Technisch gesehen handelt es sich um eine berechnete Metrik, die aus Bestellungen besteht, geteilt durch Zusätze zum Warenkorb.
-* [!UICONTROL Purchases]: Die Empfänger-IDs (oder Besucher-IDs), die Käufe auf der Grundlage der Nachrichten-ID in einem bestimmten Produkt getätigt haben.
-* [!UICONTROL Product Views]: Ähnlich [!UICONTROL Cart Abandonment]ist dies auch eine berechnete Metrik. It reports [!UICONTROL Product Views] divided by Orders, because customers&#39; viewing the product shows some interest.
+* [!UICONTROL Warenkorbabbruch]: Der Prozentsatz der Besucher, die einen Artikel zu ihrem Warenkorb hinzugefügt, aber nicht gekauft haben. Diese Metrik wird berechnet, indem Bestellungen durch zum Warenkorb hinzugefügte Artikel dividiert werden.
+* [!UICONTROL Käufe]: Die Empfänger-IDs (oder Besucher-IDs), die Käufe getätigt haben, die auf der Nachrichten-ID in einem bestimmten Produkt basieren.
+* [!UICONTROL Produktansichten]: Analog zu [!UICONTROL Warenkorbabbrüche] ist auch dies eine berechnete Metrik. Diese gibt [!UICONTROL Produktansichten] dividiert durch Bestellungen an, weil die Betrachtung des Produkts durch die Kunden ein gewisses Interesse zeigt.
 
 **Implementierungsbeispiele**
 
-Um Remarketing-Segmente erfolgreich implementieren zu können, müssen die folgenden Bedingungen erfüllt sein:
+Für eine erfolgreiche Implementierung von Remarketing-Segmenten müssen folgende Bedingungen erfüllt sein:
 
-* Es wurde ein Data Connectors-Vertrag abgeschlossen, und Ihre Organisation hat die Implementierungsphase mit einem Adobe-Berater abgeschlossen.
-* Das entsprechende Ereignis wird gleichzeitig mit der Produktvariablen ausgelöst:
+* Ein Data Connectors-Vertrag liegt vor und Ihre Organisation hat die Implementierungsphase zusammen mit einem Adobe-Berater abgeschlossen.
+* Das zugehörige Ereignis wird zusammen mit der Produktvariablen ausgelöst:
    * Warenkorbabbruch: `scAdd`-Ereignis
    * Einkäufe: `purchase`-Ereignis
    * Produktansichten: `prodView`-Ereignis
@@ -80,14 +80,14 @@ Um Remarketing-Segmente erfolgreich implementieren zu können, müssen die folge
 >[!NOTE] Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird das prodView-Ereignis automatisch ausgelöst.
 Falls die obigen Voraussetzungen nicht erfüllt sind, werden die entsprechenden Remarketing-Segmente nicht korrekt berichtet.
 
-[!UICONTROL Cart Abandonment]: wird ausgelöst, nachdem der Benutzer ein Produkt zum Warenkorb hinzugefügt hat:
+[!UICONTROL Warenkorbabbruch]: Wird ausgelöst, nachdem der Benutzer ein Produkt zum Warenkorb hinzugefügt hat:
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL Purchases]: wird auf der Kaufbestätigungsseite ausgelöst:
+[!UICONTROL Käufe]: Wird auf der Kaufbestätigungsseite ausgelöst:
 
 ```
 s.products=";
@@ -98,10 +98,10 @@ s.events="purchase";
 
 **Häufige Probleme**
 
-| Problem | Beschreibung |
+| Fehler | Beschreibung |
 | -----------| ---------- |  
-| In der Remarketing-Segmentdatei werden keine Produkt-ID-Informationen angezeigt. | Dies passiert, wenn das richtige Ereignis ausgelöst wird, für dieselbe Bildanforderung jedoch keine Produktvariable vorhanden ist. Um dies zu korrigieren, vergewissern Sie sich, dass die Produktvariable und das zugehörige Ereignis auf derselben Seite ausgelöst werden, wie in den Implementierungsbeispielen oben dargestellt. |
-| Remarketing-Segmentdateien werden nicht empfangen. | Wenn Sie Ihre Dateien nicht erhalten, bitten Sie einen unterstützten Benutzer Ihrer Organisation, sich an ClientCare zu wenden, um zu untersuchen, warum Berichte nicht erfolgreich empfangen wurden. |
+| In der Remarketing-Segment-Datei wird keine Produkt-ID angezeigt. | Dies passiert, wenn das richtige Ereignis ausgelöst wird, für dieselbe Bildanforderung jedoch keine Produktvariable vorhanden ist. Um dies zu korrigieren, müssen Sie sicherstellen, dass die Produktvariable und das zugehörige Ereignis wie im obigen Beispiel auf derselben Seite ausgelöst werden. |
+| Es werden keine Remarketing-Segment-Dateien empfangen. | Falls Sie Ihre Dateien nicht empfangen, bitten Sie einen unterstützten Benutzer Ihrer Organisation, sich an ClientCare zu wenden, damit untersucht wird, aus welchen Gründen die Berichte nicht erfolgreich empfangen werden. |
 
 
->[!IMPORTANT] In der Regel richten Berater zusätzlich zu Ihrer standardmäßigen Remarketing Segment-Datei aus der Data Connectors-Integration auch eine Data Warehouse-Anforderung als terminierten täglichen Bericht ein. Diese Data Warehouse-Anforderung umfasst sowohl Data Connectors-Variablen als auch Nicht-Data Connectors-Variablen. Die Anforderung kann nur auf Basis der spezifischen Anforderung Ihres Unternehmens geplant werden. Um Verwirrung bei der Fehlerbehebung zu vermeiden, geben Sie an, ob es sich bei der betreffenden Datei um die eigentliche Remarketing-Segmentdatei oder um eine Data Warehouse-Anforderung mit Nicht-Genesis-Variablen handelt.
+>[!IMPORTANT] In der Regel richten Berater zusätzlich zu Ihrer standardmäßigen Remarketing Segment-Datei aus der Data Connectors-Integration auch eine Data Warehouse-Anforderung als terminierten täglichen Bericht ein. Diese Data Warehouse-Anforderung enthält sowohl Data Connectors-Variablen als auch Nicht-Data Connectors-Variablen und die Anforderung kann nur auf Grundlage der spezifischen Anforderung Ihrer Organisation terminiert werden. Damit bei der Fehlerbeseitigung keine Missverständnisse auftreten, geben Sie an, ob es sich bei der fraglichen Datei um die tatsächliche Remarketing-Segment-Datei oder um eine Data Warehouse-Anforderung handelt, die Nicht-Genesis-Variablen enthält.
