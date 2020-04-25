@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Konversionsklassifizierungen
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf 
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nach der Aktivierung der Classifications verwenden Sie den  [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
 ## Konversion-Classifications – Beschreibungen {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
