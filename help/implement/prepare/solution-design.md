@@ -34,7 +34,7 @@ Bei der Ermittlung der zu erfassenden Daten ist es leicht, „alles“ zu sagen,
    * Variablenname: Beispiel: „Interne Suchbegriffe“. Dieser Wert ist der Wert, den Analysten bei der Arbeit in Analytics sehen.
    * Zugeordnete Analytics-Variable: welcher standardmäßigen oder benutzerdefinierten Analytics-Variable Werte zugewiesen werden sollen. Dimensionen fallen normalerweise unter eVars, während Metriken unter Ereignisse fallen.
    * Logik: Eine Beschreibung, wie die Variable festgelegt wird und was deren Wert bestimmt. Beispiel: „Nur auf internen Suchseiten eingestellt. Übernimmt den Wert des Abfragezeichenfolgenparameters q.“
-   * Sonstige Hinweise zur Variablen
+   * Sonstige Hinweise zur Variablen.
 
 ## Zusätzliche Ressourcen
 
