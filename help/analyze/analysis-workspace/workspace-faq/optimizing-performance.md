@@ -17,8 +17,8 @@ Bestimmte Faktoren können die Leistung eines Projekts in Analysis Workspace bee
 Komplizierte Segmente können einen erheblichen Einfluss auf die Projektleistung haben. Zu den Faktoren, die einem Segment Komplexität verleihen (in grober Reihenfolge der Auswirkungen), gehören:
 
 * Operatoren von „enthält“, „enthält beliebige von“, „stimmt überein mit“, „beginnt mit“ oder „endet mit“
-* Sequenzielle Segmentierung, insbesondere wenn Dimensionsbeschränkungen (In/Nach) verwendet werden
-* Anzahl der Elemente mit eindeutiger Dimension innerhalb der im Segment verwendeten Dimensionen (z. B. Seite = &#39;A&#39;, wenn Seite 10 eindeutige Elemente enthält, ist schneller als Seite = &#39;A&#39;, wenn Seite 100000 eindeutige Elemente hat)
+* Sequentielle Segmentierung, insbesondere wenn Dimensionseinschränkungen (innerhalb/nachher) verwendet werden
+* Anzahl der eindeutigen Dimensionselemente innerhalb der Dimensionen, die im Segment verwendet werden (z. B.: Seite = „A“, wenn Seite 10 eindeutige Elemente hat, ist schneller als Seite = „A“, wenn Seite 100000 eindeutige Elemente hat)
 * Anzahl der verschiedenen verwendeten Dimensionen (z. B.: Seite = „Startseite“ und Seite = „Suchergebnisse“ sind schneller als eVar 1 = „rot“ und eVar 2 = „blau“)
 * Viele ODER-Operatoren (anstelle von UND)
 * Verschachtelte Container mit unterschiedlichem Umfang (z. B. Hit innerhalb des Besuchs innerhalb des Besuchers)
@@ -27,7 +27,7 @@ Komplizierte Segmente können einen erheblichen Einfluss auf die Projektleistung
 
 Während einige der Komplexitätsfaktoren nicht verhindert werden können, sollten Sie über Möglichkeiten nachdenken, die Komplexität Ihrer Segmente zu verringern. Generell gilt: Je genauer Sie mit Ihren Segmentkriterien umgehen können, desto besser. Beispiel:
 
-* Bei Containern ist die Verwendung eines einzigen Containers am oberen Segmentrand schneller als bei einer Reihe verschachtelter Container.
+* Bei Containern ist die Verwendung eines einzelnen Containers am oberen Rand des Segments schneller als die Verwendung einer Reihe verschachtelter Container.
 * Bei Operatoren ist „stimmt überein mit“ schneller als „enthält“ und „entspricht beliebigen von“ ist schneller als „enthält beliebige von“.
 * Mit vielen Kriterien sind UND-Operatoren schneller als eine Reihe von ODER-Operatoren. Suchen Sie außerdem nach Möglichkeiten, viele ODER-Anweisungen in eine einzelne Anweisung „entspricht einem von“ zu reduzieren.
 
@@ -41,7 +41,7 @@ Der Bereich der während eines Projekts angeforderten Daten beeinflusst die Perf
 
 Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen.
 
-Denken Sie daran, dass Datumsbereiche (violette Komponenten) den Datumsbereich des Bedienfelds außer Kraft setzen. Wenn Sie daher unterschiedliche Datumsbereiche als Spalten verwenden (z. B. Spalten vom letzten Monat, letzte Woche und gestern), muss der Datumsbereich des Bereichs nicht alle Datumsbereiche der Spalte umfassen. Sie können ihn einfach auf „gestern“ festlegen, da die Datumsbereiche in der Freiformtabelle den des Feldes überschreiben. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=ybmv6EBmhn0).
+Beachten Sie, dass Datumsbereiche (violette Komponenten) den Datumsbereich des Feldes überschreiben. Wenn Sie also verschiedene Datumsbereiche als Spalten verwenden (z. B. letzter Monat, letzte Woche und gestern), muss der Datumsbereich für das Feld nicht alle Datumsbereiche der Spalten umfassen. Sie können ihn einfach auf „gestern“ festlegen, da die Datumsbereiche in der Freiformtabelle den des Feldes überschreiben. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=ybmv6EBmhn0).
 
 Nutzen Sie [Datumsvergleichsoptionen](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md), um die Daten für die Zeiträume abzurufen, die Sie vergleichen möchten. Wenn Sie z. B. die Daten des letzten Monats mit dem entsprechenden Vorjahresmonat vergleichen möchten, können Sie mit der Option „Zeiträume vergleichen“ den Jahresvergleich anzeigen, anstatt das Feld auf die Daten der letzten 13 Monate festzulegen.
 
@@ -51,18 +51,18 @@ Die Anzahl der Diagrammvisualisierungen beeinflusst die Reaktionsschnelligkeit v
 
 **Best Practices für die Anzahl der Visualisierungen**
 
-Verringern Sie die Anzahl der Visualisierungen in Ihrem Projekt. Im Arbeitsbereich für Analysen werden hinter den Kulissen viele Visualisierungen für jede hinzugefügte Visualisierung verarbeitet. Priorisieren Sie daher die Visualisierungen, die für den Benutzer des Berichts am wichtigsten sind, und unterteilen Sie ggf. unterstützende Visualisierungen in ein separates, detaillierteres Projekt.
+Verwenden Sie weniger Visualisierungen in Ihrem Projekt. Analysis Workspace führt für jede hinzugefügte Visualisierung viele Berechnungen durch. Priorisieren Sie also die Visualisierungen, die für den Nutzer des Berichts am wichtigsten sind, und erstellen Sie bei Bedarf für begleitende Visualisierungen ein separates, detaillierteres Projekt.
 
 ## Komplexität der Visualisierungen (Segmente, Metriken, Filter)
 
-Die Art der Visualisierung (z. B. Fallout oder Freiformtabelle), die zu einem Projekt hinzugefügt wird, beeinflusst die Leistung selbst nur geringfügig. Die Komplexität der Visualisierung erhöht die Verarbeitungszeit. Zu den Faktoren, die eine Visualisierung komplexer machen, zählen:
+Die Art der Visualisierung (z. B. Fallout oder Freiformtabelle), die zu einem Projekt hinzugefügt wird, beeinflusst die Leistung selbst nur geringfügig. Die Verarbeitungszeit wird durch die Komplexität der Visualisierung gesteigert. U. a. machen folgende Faktoren eine Visualisierung komplexer:
 
-* Umfang der angeforderten Daten, wie oben erwähnt
+* Angeforderter Datumsbereich, wie oben erwähnt
 * Anzahl der angewandten Segmente, z. B. als Zeilen verwendete Segmente in einer Freiformtabelle
-* Verwendung komplexer Segmente
+* Verwendung von komplizierten Segmenten
 * Statische Elementzeilen oder Spalten in Freiformtabellen
 * Auf Zeilen angewandte Filter in Freiformtabellen
-* Anzahl der enthaltenen Metriken, insbesondere berechnete Metriken, die Segmente verwenden
+* Anzahl verwendeter Metriken, insbesondere berechneter Metriken, die Segmente verwenden
 
 **Best Practice für die Visualisierungskomplexität**
 
@@ -76,14 +76,14 @@ Ein Bereich kann viele Visualisierungen enthalten. Deshalb kann die Anzahl der F
 
 **Best Practices für die Anzahl der Bereiche**
 
-Versuchen Sie nicht, alles in ein Projekt zu packen. Erstellen Sie stattdessen spezifische Projekte, die für einen bestimmten Zweck oder eine Gruppe von Entscheidungsträgern zugeschnitten sind. Verwenden Sie Tags, um Projekte in wichtigen Themen zu organisieren und zugehörige Projekte mit Interessengruppen zu teilen.
+Versuchen Sie nicht, alles in ein Projekt zu packen. Erstellen Sie stattdessen spezifische Projekte, die für einen bestimmten Zweck oder eine Gruppe von Entscheidungsträgern zugeschnitten sind. Organisieren Sie Projekte mithilfe von Tags nach Schlüsselthemen und teilen Sie relevante Projekte mit Gruppen von Entscheidungsträgern.
 
-Wenn Sie eine größere Organisation von Projekten wünschen, denken Sie daran, dass eine [direkte Verknüpfung](https://www.youtube.com/watch?v=6IOEewflG2U) mit Ihrem Projekt eine Option ist. Erstellen Sie einen internen Index Ihrer Projekte, sodass Entscheidungsträger einfacher die gewünschten Informationen finden können.
+Wenn Sie Ihre Projekte noch genauer organisieren möchten, denken Sie daran, dass Sie [direkte Links](https://www.youtube.com/watch?v=6IOEewflG2U) auf Ihre Projekte setzen können. Erstellen Sie einen internen Index Ihrer Projekte, sodass Entscheidungsträger einfacher die gewünschten Informationen finden können.
 
-Wenn in einem Arbeitsbereich viele Bedienfelder benötigt werden, reduzieren Sie die Bedienfelder vor dem Speichern und Freigeben. Beim Laden eines Projekts lädt der Arbeitsbereich für Analysen nur Inhalte für die erweiterten Bereiche. Reduzierte Bereiche werden erst geladen, wenn der Benutzer sie erweitert. Dieser Ansatz hilft in zweierlei Hinsicht:
+Wenn Sie in einem Projekt viele Felder benötigen, reduzieren Sie sie, bevor Sie das Projekt speichern und freigeben. Wenn ein Projekt geladen wird, lädt Analysis Workspace nur den Inhalt der erweiterten Felder. Reduzierte Felder werden erst geladen, wenn der Nutzer sie erweitert. Dies hilft auf zwei Arten:
 
-* Reduzierte Bedienfelder werden bei der Gesamtladezeit eines Projekts gespeichert
-* Reduzierte Bereiche sind eine hervorragende Möglichkeit, Ihre Projekte logisch für den Verbraucher des Berichts zu organisieren.
+* Reduzierte Felder verringern die gesamte Ladezeit eines Projekts
+* Mit reduzierten Feldern können Sie Ihre Projekte für den Nutzer des Berichts logisch organisieren
 
 ## Größe der Report Suite
 
