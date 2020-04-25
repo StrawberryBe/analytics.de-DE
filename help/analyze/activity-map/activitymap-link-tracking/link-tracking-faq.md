@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 title: Linktracking – Häufig gestellte Fragen
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
