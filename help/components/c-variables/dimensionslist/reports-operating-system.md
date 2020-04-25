@@ -3,7 +3,7 @@ description: Gruppiert den Web-Traffic nach dem vom Kunden verwendeten Betriebss
 title: Betriebssysteme
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
