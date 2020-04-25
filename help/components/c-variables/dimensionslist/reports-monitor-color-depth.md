@@ -3,7 +3,7 @@ description: Zeigt Daten zur Farbtiefe an, die Besucher Ihrer Website auf deren 
 title: Bildschirmfarbtiefe
 topic: Reports
 uuid: 508b2e13-43ae-463d-bfca-7dda77807aa3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
