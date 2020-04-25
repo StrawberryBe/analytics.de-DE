@@ -2,7 +2,7 @@
 description: Zeigt den Zeitraum an, den Besucher auf der Seite verbringen.
 title: Besuchszeit pro Seite
 topic: Reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
