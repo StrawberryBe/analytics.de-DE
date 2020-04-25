@@ -3,7 +3,7 @@ description: Zeigt das hierarchische Layout der Seiten auf Ihrer Website an, und
 title: Hierarchie
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
