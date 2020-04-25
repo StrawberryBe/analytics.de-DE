@@ -3,7 +3,7 @@ description: Anhand von benutzerspezifischen Metriken können Sie zusätzliche E
 title: Benutzerdefinierte Metriken
 topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
