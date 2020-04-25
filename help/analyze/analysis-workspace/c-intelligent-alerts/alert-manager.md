@@ -2,7 +2,7 @@
 description: 'null'
 title: Warnhinweis-Manager
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-Der Warnhinweis-Manager (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**) ähnelt sehr dem [Segment Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html) und dem [Manager für berechnete Metrik](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/cm_manager.html) und ermöglicht Ihnen Folgendes:
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/cm_manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 
-* Die Warnhinweiserstellung per Klick auf **[!UICONTROL + Hinzufügen]** öffnen.
+* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
 * Warnhinweise mit einem Tag versehen: Dadurch können Sie sie zur einfachen Anwendung organisieren.
 * Warnhinweise löschen.
 * Warnhinweise umbenennen.
