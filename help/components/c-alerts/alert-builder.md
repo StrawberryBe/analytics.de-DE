@@ -14,14 +14,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >Intelligente Warnhinweise sind nur für Kunden von Adobe [!DNL Analytics] Prime und Adobe [!DNL Analytics] Ultimate verfügbar.
 
-Sie haben vier Möglichkeiten, auf den Warnhinweiserstellung zuzugreifen:
+Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Gehen Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* Gehen Sie von innerhalb eines [!UICONTROL Reports & Analytics] Berichts zu **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* Indem Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
+* Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
+* Indem Sie von einem [!UICONTROL Reports &amp; Analytics]-Bericht aus zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
 Die Benutzeroberfläche der Warnhinweiserstellung ähnelt solchen mit erstellten Segmenten oder berechneten Metriken in [!DNL Analytics]:
 
@@ -29,7 +29,7 @@ Die Benutzeroberfläche der Warnhinweiserstellung ähnelt solchen mit erstellten
 
 **Warnungsname**
 
-Geben Sie einen Namen für die Warnung an. Der Warnungsname kann den Namen des Berichts oder den Schwellenwert für Metriken enthalten.
+Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den Namen des Berichts oder den Schwellenwert einer Metrik enthalten.
 
 **Zeitgranularität**
 
@@ -57,25 +57,25 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
    Hinweis: Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
 
-* Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, bevor eine Warnung eingestellt wird. Sie können diesen Wert auf einen Schwellenwert und dann auf eine der folgenden Bedingungen setzen:
+* Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
 
    * Anomalie vorhanden
-   * Anomalie höher als erwartet
-   * Anomalie niedriger als erwartet
+   * Anomalie liegt über erwartetem Wert
+   * Anomalie liegt unter erwartetem Wert
    * Anomalie überschreitet
-   * größer oder gleich
-   * kleiner oder gleich
-   * ändert sich nach
+   * ist größer oder gleich
+   * ist kleiner oder gleich
+   * ändert sich um
 
-* &quot;Anomalie überschreitet&quot;ist eine neue Bedingung, die über die vorhandenen (statischen) Schwellenwerte hinausgeht. Er bezieht Anomalieerkennungsalgorithmen ein, die den Auslöser dynamisch definieren. Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.
-* Die Granularitäten pro Stunde werden auf einen Schwellenwert von 99,75 % und die Granularitäten pro Tag auf 99 % festgelegt.
+* „Anomalie überschreitet“ ist eine neue Bedingung, die über die vorhandenen (statischen) Schwellenwerte hinausgeht. Sie bezieht Anomalieerkennungsalgorithmen mit ein, die den Auslöser dynamisch definieren. Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.
+* Für die stündliche Granularität ist ein Schwellenwert von 99,75 % und für die tägliche Granularität ein Schwellenwert von 99 % festgelegt.
 * Beachten Sie, dass Sie auch berechnete Metriken verwenden können.
 
 *... Mit diesen Filtern*
 
-Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie beispielsweise das Segment &quot;Nur Mobilgeräte&quot;hinzufügen, wird die Regel nur für Mobilgeräte ausgelöst.
+Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
 
-Zusätzliche Filter werden mit einer AND-Anweisung hinzugefügt.
+Zusätzliche Filter werden mithilfe einer AND-Anweisung hinzugefügt.
 
 **Eine Regel hinzufügen**
 
@@ -83,10 +83,10 @@ Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.
 
 ## Warnhinweisvorschau {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-Die interaktive Warnhinweis-Vorschau zeigt Ihnen, wie oft ein Warnhinweis auf der Grundlage vergangener Erfahrungen ausgelöst wird.
+Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.
 
-Wenn Sie beispielsweise die Zeitgranularität auf &quot;Täglich&quot;einstellen, kann Ihnen die Vorschau mitteilen, dass die Warnung während der letzten 30 oder 31 Tage für eine bestimmte Metrik x-mal ausgelöst worden wäre.
+Beispiel: Wenn Sie die Zeitgranularität auf „Stündlich“ festlegen, kann Ihnen die Vorschau verraten, dass der Warnhinweis zu einer bestimmten Metrik während der letzten 30 oder 31 Tage x-mal ausgelöst worden wäre.
 
-Wenn Sie feststellen, dass zu viele Warnungen ausgelöst wurden, können Sie den Schwellenwert im [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md)anpassen.
+Wenn Sie feststellen, dass Warnhinweise zu oft ausgelöst werden würden, können Sie den Schwellenwert im [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) anpassen.
 
 ![](assets/alert_preview.png)
