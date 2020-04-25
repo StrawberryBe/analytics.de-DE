@@ -16,7 +16,7 @@ Intelligente Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Wa
 
 ## Überblick
 
-Die neue Warnhinweiserstellung und der Warnhinweis-Manager in Analyse Workspace ersetzen die vorhandene Warnhinweisfunktion in Reports &amp; Analysen. Mithilfe intelligenter Warnhinweise können Sie:
+Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ in Analysis Workspace ersetzen die bisherigen Funktionen in Reports &amp; Analytics. Mithilfe intelligenter Warnhinweise können Sie:
 
 * Warnhinweise erstellen, die auf Anomalien basieren (90-%-, 95-%-, 99-%-, 99,75-%- und 99,9-%-Schwellen, Änderungen in %, darüber/darunter)
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird
