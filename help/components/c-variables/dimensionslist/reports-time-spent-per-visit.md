@@ -35,7 +35,7 @@ Die Zeit pro Besuch misst die gesamte verstrichene Zeit eines Besuchs. Es gibt s
    * 2–5 Stunden
    * 5–10 Stunden
    * 10–15 Stunden
-   * 15+ Stunden
+   * Über 15 Stunden
 
 >[!NOTE] [Besuche](../c-metrics/metrics-visit.md) enden in der Regel nach 12 Stunden Aktivität. Besuche können jedoch 12 Stunden überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
 
