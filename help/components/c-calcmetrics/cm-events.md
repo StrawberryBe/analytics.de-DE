@@ -14,14 +14,14 @@ Wenn Daten von einem Ereignis [](/help/technotes/event-impacted.md)beeinflusst w
 >[!NOTE] Diese Schritte funktionieren am besten, wenn Sie die Auswirkungen eines Ereignisses aus der Sicht der Segmentierung und des Datumsvergleichs verstehen. Vergewissern Sie sich, dass Sie die Daten [vergleichen, die von einem Ereignis betroffen sind, mit vorherigen Datumsbereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) und bestimmte Daten in Analyse [](../c-segmentation/use-cases/exclude-date-range.md) ausschließen, bevor Sie dieser Seite folgen.
 
 1. Erstellen Sie zwei Segmente für &quot;Betroffene Tage&quot;und &quot;Betroffene Tage ausschließen&quot;, wie unter Bestimmte Daten in der Analyse [ausschließen](../c-segmentation/use-cases/exclude-date-range.md)beschrieben.
-2. Navigieren Sie zu **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
-3. Klicken Sie auf **[!UICONTROL Add]**.
+2. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
+3. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 4. Ziehen Sie beide oben genannten Segmente in die Arbeitsfläche der Definition. Ändern Sie den Operator zwischen ihnen in eine `+` Zusammenfassung.
 5. Hinzufügen Sie die gewünschte Metrik in beiden Segmenten. Sie können beispielsweise die Metrik &quot;Besuche&quot;verwenden.
 
    ![Segmentaufbau](assets/event_segment_builder.png)
 
-6. Klicken Sie **[!UICONTROL Add]** oben rechts im Container &quot;Betroffene Tage&quot;auf und klicken Sie dann auf **[!UICONTROL Static number]**. Stellen Sie die statische Zahl auf den Prozentwert ein, mit dem Sie Ihre Daten verrechnen möchten, wie unter Datum [vergleichen, das von einem Ereignis beeinflusst wurde, mit vorherigen Bereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)beschrieben. In diesem Beispiel beträgt der Offset 25 % oder 1,25.
+6. Klicken Sie **[!UICONTROL Hinzufügen]** oben rechts im Container &quot;Betroffene Tage&quot;und dann auf **[!UICONTROL Statische Nummer]**. Stellen Sie die statische Zahl auf den Prozentwert ein, mit dem Sie Ihre Daten verrechnen möchten, wie unter Datum [vergleichen, das von einem Ereignis beeinflusst wurde, mit vorherigen Bereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)beschrieben. In diesem Beispiel beträgt der Offset 25 % oder 1,25.
 
    ![Statische Zahl](assets/event_static_number.png)
 
