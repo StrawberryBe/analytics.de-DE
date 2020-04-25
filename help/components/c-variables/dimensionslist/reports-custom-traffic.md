@@ -18,4 +18,4 @@ Mithilfe von benutzerspezifischen Traffic-Berichten kann ein Unternehmen weitere
 * Diese Berichte können sowohl als Trendansicht als auch als Rangansicht angezeigt werden.
 * Mit Suchfiltern können Sie bestimmte Zeileneinträge auffinden.
 * Sie können Classifications zum Umbenennen und Konsolidieren von Zeileneinträgen in den Berichten verwenden.
-* Der Speicherort der einzelnen benutzerspezifischen Traffic-Berichte hängt von dem numerischen Wert ab, der der Prop zugeordnet ist. Generally they can be found under [!UICONTROL Traffic] or [!UICONTROL Custom Traffic] folder).
+* Der Speicherort der einzelnen benutzerspezifischen Traffic-Berichte hängt von dem numerischen Wert ab, der der Prop zugeordnet ist. Im Allgemeinen finden Sie sie im Ordner [!UICONTROL Traffic] oder [!UICONTROL benutzerspezifische Traffic]).
