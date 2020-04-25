@@ -1,5 +1,5 @@
 ---
-description: Jeder ID, nach der Sie suchen möchten, wird ein Namensraum zugewiesen. Hierbei handelt es sich um eine benutzerdefinierte Zeichenfolge, die diese ID in jeder Variablen identifiziert, in der sie in allen Report Suites verwendet wird.
+description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 title: Namespaces
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
@@ -10,13 +10,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Namespaces
 
-Jeder ID, nach der Sie suchen möchten, wird ein Namensraum zugewiesen. Hierbei handelt es sich um eine benutzerdefinierte Zeichenfolge, die diese ID in jeder Variablen identifiziert, in der sie in allen Report Suites verwendet wird.
+Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 
-Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage eingereicht wird, enthält die Anfrage einen JSON-Abschnitt, der die Datensubjekt-IDs angibt, die für die Anfrage verwendet werden sollen. Mehrere IDs können als Teil einer einzigen Anforderung für eine betroffene Person eingeschlossen werden. Das JSON umfasst:
+Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage eingereicht wird, enthält die Anfrage einen JSON-Abschnitt, der die Datensubjekt-IDs angibt, die für die Anfrage verwendet werden sollen. Es können mehrere IDs in einer einzelnen Anfrage für eine betroffene Person enthalten sein. Dieser JSON-Abschnitt enthält Folgendes:
 
-* Ein Feld &quot;Namensraum&quot;mit der Namensraum-Zeichenfolge.
-* Ein &quot;Typ&quot;-Feld, das bei den meisten Adobe Analytics-Anforderungen den Wert &quot;Analytics&quot;enthält.
-* Ein Wertefeld, das die ID enthält, nach der Analytics in den zugehörigen Namensraum-Variablen aus jeder Report Suite suchen soll.
+* ein Feld „namespace“ mit der Namespace-Zeichenfolge
+* ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
+* ein Feld „value“, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen all Ihrer Report Suites suchen soll
 
 Weitere Einzelheiten finden Sie in der [Dokumentation der Experience Cloud-Datenschutz-API](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md).
 
@@ -32,7 +32,7 @@ Legacy-Analytics-Tracking-Cookie, auch bekannt als Adobe Analytics-ID (AAID):
 }
 ```
 
-Der Wert muss als zwei Hexadezimalzahlen getrennt durch einen Bindestrich angegeben werden. Alle alphabetischen Hexadezimalziffern müssen in Großbuchstaben angegeben werden. Die Hexadezimalwerte dürfen keine führenden Nullen aufweisen (beachten Sie die Differenz zu demselben Wert, der im nicht mehr unterstützten Formular angegeben ist, wo die führenden Nullen erforderlich sind).
+Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestrich, angegeben werden. Alle Hexadezimalzahlen, die alphabetische Zeichen sind, müssen in Großbuchstaben angegeben werden. Die Hexadezimalwerte sollte keine vorangestellten Nullen enthalten. (Beachten Sie die Differenz zum gleichen Wert, der in der veralteten Form angegeben ist, bei der vorangestellte Nullen erforderlich sind.)
 
 Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"namespace": "AAID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
@@ -48,7 +48,7 @@ Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"nam
 
 Veraltete Form:
 
-Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, Unterstrich oder Doppelpunkt getrennt werden. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
+Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, Unterstrich oder Doppelpunkt getrennt sein. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
 
 ## Identity Service Cookie
 
@@ -84,7 +84,7 @@ Der JavaScript-Code füllt den JSON-Abschnitt mit anderen Schlüssel-Wert-Paaren
 }
 ```
 
-Der Namensraum ist auch für die benutzerdefinierte Besucher-ID vordefiniert.
+Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 
 ## IDs in benutzerspezifischen Variablen
 
@@ -102,7 +102,7 @@ Der Namensraum ist auch für die benutzerdefinierte Besucher-ID vordefiniert.
 
 Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Beschriftung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](gdpr-labels.md)
 
-Sie können auch Namensraum sehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben, und einen davon wiederverwenden, sodass derselbe Namensraum problemlos für alle Report Suites verwendet werden kann, die diesen ID-Typ speichern. Es ist auch möglich, denselben Namensraum mehreren Variablen in einer Report Suite zuzuweisen. Einige Kunden speichern beispielsweise eine CRM-ID in einer Traffic-Variablen und eine Konversionsvariable (je nach Seite ist sie manchmal in einer oder beiden) und könnten den Namensraum &quot;CRM-ID&quot;beiden Variablen zuweisen.
+Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben und diese wiederverwenden. So können Sie einfach einen Namespace für all Ihre Report Suites verwenden, die diesen ID-Typ enthalten. Darüber hinaus ist es möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Manche Kunden speichern beispielsweise eine CRM-ID in einer Traffic- oder Konversionsvariablen (je nach Seite, manchmal auch beide). Sie können den Namespace „CRM-ID“ beiden Variablen zuweisen.
 
 >[!TIP] Vermeiden Sie bei der Namespace-Angabe für die Datenschutz-API die Verwendung des Anzeigenamens einer Variablen (der auf der UI für die Berichterstellung angezeigte Name) oder die Nummer der Variablen (z. B. eVar12), es sei denn, es handelt sich um den Namespace, den Sie beim Anwenden der Beschriftung ID-DEVICE oder ID-PERSON angegeben haben. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden. Dies ist beispielsweise der Fall, wenn die ID in manchen Report Suites in unterschiedlichen eVars ist oder die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
 
