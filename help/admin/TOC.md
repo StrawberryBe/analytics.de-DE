@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Administratorhandbuch für Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -151,7 +151,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
       + [Änderungen an Berechtigungen für Benutzer und Gruppen](user-management2/c-user-management/permissions-changes.md)
       + [Übertragen von Benutzerkontoelementen](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [Einen Benutzer zu einer Gruppe hinzufügen](user-management2/c-user-management/t-add-user-to-group.md)
-      + Benutzer zur Adobe Admin Console migrieren {#migrate-users}
+      + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
          + [Analytics-Benutzermigration zur Admin Console](user-management2/user-migration/c-migration-tool.md)
          + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](user-management2/user-migration/t-migrate-users.md)
          + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](user-management2/user-migration/migrate-enterprise.md)
