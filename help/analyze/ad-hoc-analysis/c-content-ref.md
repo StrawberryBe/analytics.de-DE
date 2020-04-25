@@ -3,7 +3,7 @@ description: Ad Hoc Analysis können in die Analytics-Segmentierungs-Umgebung in
 title: Segmente erstellen
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
