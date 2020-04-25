@@ -3,7 +3,7 @@ description: Beschreibt, wie Berechtigungen festgelegt werden und welche Abmessu
 title: Activity Map – Berichterstattung in Analytics
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Sie können den [Anwenderzugriff auf Abmessungen](https://marketing.adobe.com/re
 
 | Dimension | Beschreibung |
 |---|---|
-| Activity Map-Seite | Führt die Seiten auf, auf denen auf einen Link geklickt wurde. |
+| Activity Map -Seite | Führt die Seiten auf, auf denen auf einen Link geklickt wurde. |
 | Activity Map-Region | Listet alle erfassten Linkregionen auf der gesamten Website auf. Beachten Sie, dass die Metrik über alle Seiten hinweg erfasst wird, wenn eine Region auf mehreren Seiten angezeigt wird. |
 | Activity Map-Links | Listet alle erfassten Links auf der gesamten Website auf. |
 | Activity Map-Links und -Region | Listet alle erfassten Links zusammen mit ihrer Region über die gesamte Website hinweg auf. |
