@@ -1,5 +1,5 @@
 ---
-description: Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Marketingberichte (Lesezeichen und Dashboards) in eine Webseite einbetten können. Mitarbeiter in Ihrem Unternehmen, die keinen Zugriff auf Marketing-Berichte haben, können relevante Daten Ansicht haben.
+description: Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Marketing-Berichte (nur Lesezeichen und Dashboards) in Webseiten einbetten können. Personen in Ihrem Unternehmen, die keinen Zugriff auf Marketing-Berichte haben, können damit die entsprechenden Daten betrachten.
 title: Veröffentlichungs-Widget
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
@@ -15,21 +15,21 @@ Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Analytics-Berichte 
 
 Sie können beispielsweise ein Dashboard bereitstellen, damit Führungskräfte des Unternehmens die Anzahl der Seitenbesucher, die Anzahl der Einzelseitenbesucher usw. einsehen können.
 
->[!CAUTION] Zum Anzeigen von Daten, die über das Veröffentlichungs-Widget veröffentlicht werden, ist keine Authentifizierung erforderlich. Die veröffentlichten Daten sind daher nicht stärker geschützt als Daten, die Sie an eine E-Mail-Gruppe oder an einen Listenserver senden. Verwenden Sie das Widget nur unter Einhaltung der Sicherheitsstandards Ihres Unternehmens, der bestehenden vertraglichen Anforderungen und der geltenden Gesetze. Das Veröffentlichungs-Widget bietet die Möglichkeit, die Veröffentlichung von Daten nach IP-Adresse oder Domänenpfad einzuschränken. Diese Mechanismen dienen jedoch ausschließlich dazu, eine unbeabsichtigte Datenverbreitung zu verhindern, und stellen keine effektive Möglichkeit dar, den Zugriff auf über das Veröffentlichungs-Widget verteilte Daten zu sichern.
+>[!CAUTION] Zum Anzeigen von Daten, die über das Veröffentlichungs-Widget veröffentlicht werden, ist keine Authentifizierung erforderlich. Die veröffentlichten Daten sind daher nicht stärker geschützt als Daten, die Sie an eine E-Mail-Gruppe oder an einen Listenserver senden. Beachten Sie beim Verwenden des Widgets die Sicherheitsvorschriften Ihres Unternehmens, bestehende vertragliche Verpflichtungen und die einschlägigen Gesetze. Das Veröffentlichungs-Widget bietet die Möglichkeit, die Veröffentlichung von Daten nach IP-Adresse oder Domänenpfad einzuschränken. Diese Mechanismen dienen jedoch ausschließlich dem Zweck, eine unbeabsichtigte Datenverbreitung zu verhindern; sie stellen kein wirksames Verfahren dar, den Zugriff auf Daten, die über das Veröffentlichungs-Widget verbreitet werden, abzusichern.
 >
-> Adobe übernimmt keine Verantwortung oder Haftung für Daten, die über das Veröffentlichungs-Widget offen gelegt werden.
+> Adobe lehnt jegliche Verantwortung oder Haftung für über das Veröffentlichungs-Widget offengelegte Daten ab.
 
-Da Veröffentlichungs-Widgets potenziell zu hohem Traffic-Aufkommen führen, behält sich Adobe das Recht vor, nach eigenem Ermessen Veröffentlichungs-Widgets einer Firma zu deaktivieren, wenn unsachgemäße Verwendung oder übermäßiges Datenaufkommen zu Leistungsbeeinträchtigung führen.
+Da Veröffentlichungs-Widgets potenziell zu hohem Traffic-Aufkommen führen, behält sich Adobe das Recht vor, nach eigenem Ermessen die Veröffentlichungs-Widgets eines Unternehmens zu deaktivieren, wenn unsachgemäße Nutzung oder übermäßiges Datenaufkommen zu Leistungsbeeinträchtigung führen.
 
 ## Fehlerbehebung – Cache des Veröffentlichungs-Widgets
 
-Wenn ein Benutzer das bereitgestellte Veröffentlichungs-Widget zum ersten Mal anzeigt, wird der Bericht vom Widget ausgeführt. Nach der Ausführung des Berichts werden die Ergebnisse einem Cache hinzugefügt und sind 1 Stunde gültig. Jeder nachfolgende Benutzer, der das Veröffentlichungs-Widget innerhalb der nächsten Stunde Ansicht, sieht die zwischengespeicherte Version (diese wird sofort zurückgegeben). Nach Ablauf einer Stunde zwingt jeder nachfolgende Benutzer, der das Veröffentlichungs-Widget Ansicht, den Bericht erneut auszuführen. Anschließend werden diese Ergebnisse zwischengespeichert usw. Auf diese Weise ist gewährleistet, dass die Daten maximal eine Stunde alt sind.
+Das Widget führt den Bericht aus, wenn ein beliebiger Nutzer erstmalig das bereitgestellte Veröffentlichungs-Widget ansieht. Nach der Ausführung des Berichts werden die Ergebnisse zu einem Cache hinzugefügt und bleiben eine Stunde gültig. Nachfolgende Benutzer, die das Veröffentlichungs-Widget innerhalb der nächsten Stunde ansehen, sehen die gecachete Version (diese wird sofort zurückgegeben). Nach Ablauf einer Stunde erzwingt eine erneute Ansicht durch einen weiteren Benutzer das Veröffentlichungs-Widget zu einer erneuten Ausführung des Berichts, wobei diese Daten zu einem Cache hinzugefügt werden, usw. Auf diese Weise wird sichergestellt, dass die Daten nicht älter als eine Stunde sind.
 
-Wenn Sie Datenunterschiede zwischen dem Veröffentlichungs-Widget und der Benutzeroberfläche des Berichte sehen, müssen Sie möglicherweise den Cache des Veröffentlichungs-Widgets löschen.
+Wenn Sie Datenunterschiede zwischen dem Veröffentlichungs-Widget und der Berichterstellungsoberfläche feststellen, sollten Sie den Cache des Veröffentlichungs-Widgets löschen.
 
-1. Klicken Sie auf das Veröffentlichungs-Widget (damit das Widget den Fokus hat).
-1. Click **[!UICONTROL Save]** on the widget.
-1. Führen Sie das Widget erneut aus. (Im Vorschau-Modus wird der Cache des Widgets nicht verwendet.)
+1. Klicken Sie in das Veröffentlichungs-Widget (damit das Widget im Fokus ist).
+1. Klicken Sie im Widget auf **[!UICONTROL Speichern]**.
+1. Führen Sie das Widget erneut aus. (Im Vorschaumodus wird der Cache des Widgets nicht verwendet.)
 
 >[!NOTE] Veröffentlichungs-Widgets zeigen nur die erste Datenspalte eines Berichts an.
 
@@ -37,7 +37,7 @@ Wenn Sie Datenunterschiede zwischen dem Veröffentlichungs-Widget und der Benutz
 
 | Element | Beschreibung |
 |--- |--- |
-| Name | Der Name des Widgets. |
-| Beschreibung | (Optional) Geben Sie eine Beschreibung für das Widget ein. |
-| Bericht | Wählen Sie in der oberen Dropdown-Liste &quot;Bericht&quot;einen Ordner oder ein Dashboard aus. Wählen Sie in der unteren Dropdown-Liste „Bericht“ ein Reportlet oder ein Lesezeichen aus.  Für diese Berichte ist keine Besucherauthentifizierung erforderlich. <br>Wenn ein Besucher eine Webseite lädt, die ein Veröffentlichungs-Widget enthält, zeigt das Widget den betreffenden Bericht mit aktuellen Berichtsdaten an. Änderungen am Veröffentlichungs-Widget, zum Beispiel die Änderung des zugehörigen Berichts, führen zu einer automatischen Aktualisierung der Berichtsausgabe sämtlicher Webseiten, die das Widget verwenden. Dafür müssen die Webseiten nicht erneut bereitgestellt werden.</br> |
+| Name | Der Name für das Widget. |
+| Beschreibung | (Optional) Geben Sie eine Beschreibung des Widgets ein. |
+| Bericht | Wählen Sie in der oberen Dropdownliste „Bericht“ einen Ordner oder ein Dashboard aus. Wählen Sie in der unteren Dropdown-Liste „Bericht“ ein Reportlet oder ein Lesezeichen aus.  Für diese Berichte ist keine Besucherauthentifizierung erforderlich. <br>Wenn ein Besucher eine Webseite lädt, die ein Veröffentlichungs-Widget enthält, zeigt das Widget den betreffenden Bericht mit aktuellen Berichtsdaten an. Änderungen am Veröffentlichungs-Widget, zum Beispiel die Änderung des zugehörigen Berichts, führen zu einer automatischen Aktualisierung der Berichtsausgabe sämtlicher Webseiten, die das Widget verwenden. Dafür müssen die Webseiten nicht erneut bereitgestellt werden.</br> |
 | Ziel | Legen Sie die Zieladresse für das Widget fest.   Das Ziel muss ein gültiges URL-Format aufweisen, einschließlich des Präfix https:// oder https://. Die Ziele von Veröffentlichungs-Widgets sind inklusiv definiert, d. h., das Veröffentlichungs-Widget wirkt sich auf alle URLs aus, die das jeweilige Ziel enthalten. <br>So lässt das Ziel https://www.corp1.com/sales/ beispielsweise Veröffentlichungs-Widgets auf allen Webseiten auf bzw. unterhalb der Seite „sales“ auf der Website www.corp1.com zu.</br> |
