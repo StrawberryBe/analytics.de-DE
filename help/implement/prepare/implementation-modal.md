@@ -24,14 +24,14 @@ Ihre Adobe ID muss Zugriff auf Adobe Analytics und Adobe Experience Platform
 Greifen Sie auf das Modal zu, um eine Report Suite mit den folgenden Schritten zu erstellen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf [!UICONTROL Adobe Analytics].
-3. Wenn Sie noch keine Report Suite erstellt haben, wird das Modal automatisch angezeigt. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
+2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf [!UICONTROL Adobe Analytics].
+3. Wenn Sie noch keine Report Suite erstellt haben, wird das Modal automatisch angezeigt. Wenn für dieses Anmeldeunternehmen eine Report Suite vorhanden ist, klicken Sie auf das Hilfesymbol oben rechts und dann auf [!UICONTROL Willkommen bei Adobe Analytics].
 
->[!NOTE] Die [!UICONTROL Welcome to Adobe Analytics] Option wird nur angezeigt, wenn Sie sich über die Adobe Experience Cloud anmelden. Wenn Sie sich über veraltete Domänen anmelden, ist das Modal nicht verfügbar.
+>[!NOTE] Die Option [!UICONTROL Willkommen bei Adobe Analytics] wird nur angezeigt, wenn Sie sich über die Adobe Experience Cloud anmelden. Wenn Sie sich über veraltete Domänen anmelden, ist das Modal nicht verfügbar.
 
 ## Erstellen einer Report Suite
 
-Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
+Klicken Sie auf die Schaltfläche [!UICONTROL Einrichtung beginnen], um den Workflow zum Erstellen der Report Suite zu starten.
 
 ![RS-Assistent](assets/analytics-implementation-rs-wizard.png)
 
