@@ -2,7 +2,7 @@
 description: In der Oberfläche von Adobe Mobile Services werden Daten der mobilen Anwendungen über Ihre Adobe Analytics Report Suites zusammengefasst, und Sie können Push-Benachrichtigungen versenden und In-App-Benachrichtigungen erstellen.
 title: VRS-Unterstützung in Mobile Services
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9193a520b13a0717a3383a32b39936f278c49d49
 
 ---
