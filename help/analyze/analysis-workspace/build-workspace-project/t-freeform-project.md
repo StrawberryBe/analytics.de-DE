@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace-Projekt erstellen
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
 1. Legen Sie die Benutzerberechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer Gruppe hinzufügen, für die die Berechtigung zum **[!UICONTROL Erstellen/Kuratieren von Projekten in Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte]**. (**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppen](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html)).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppen](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html)).
 
-1. Klicken Sie in [!DNL Experience Cloud] auf **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +30,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
    ![](assets/analysis-app-search.png)
 
-1. Klicken Sie auf **[!UICONTROL Neues Projekt erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Create New Project]**.
 
    Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
@@ -40,10 +40,10 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
    ![](assets/start_modal.png)
 
-1. Um ein Projekt aus einem leeren Projekt zu erstellen, klicken Sie auf **[!UICONTROL Leeres Projekt]**.
+1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
 
-   * Klicken Sie anschließend auf **[!UICONTROL Erstellen]** oder
-   * einfach auf **[!UICONTROL Eingabe]**.
+   * Klicken Sie dann auf **[!UICONTROL Create]** oder
+   * Klicken Sie einfach **[!UICONTROL Enter]**.
    Ein leeres Projekt wird angezeigt, das einen Freiformbereich und eine Datentabellenvisualisierung enthält.
 
    ![](assets/fa_project_new.png)
@@ -75,7 +75,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
  </tbody> 
 </table>
 
-1. Speichern Sie Ihr Projekt. Vergeben Sie einen Namen für das Projekt, geben Sie eine Beschreibung an (optional, aber hilfreich) und taggen Sie das Projekt (optional). Klicken Sie dann auf **[!UICONTROL Projekt speichern]**.
+1. Speichern Sie Ihr Projekt. Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
 
    ![](assets/save_project.png)
 
@@ -124,7 +124,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
 **[Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-Der Bereich [!UICONTROL Visualisierungen] enthält standardmäßige Analytics-Graphen, Ringdiagramme, Datentabellen, [Kohorten](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)-Tabellen, Venn-Diagramme usw. Sie können mehrere Visualisierungen per Drag-and-Drop in Ihrem Projekt platzieren.
+The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. Sie können mehrere Visualisierungen per Drag-and-Drop in Ihrem Projekt platzieren.
 
 ![Schritt Ergebnis](assets/visualizations.png)
 
