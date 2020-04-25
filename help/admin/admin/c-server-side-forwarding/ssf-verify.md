@@ -3,7 +3,7 @@ description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitig
 solution: Audience Manager
 title: Überprüfen der serverseitigen Weiterleitungsimplementierung
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
