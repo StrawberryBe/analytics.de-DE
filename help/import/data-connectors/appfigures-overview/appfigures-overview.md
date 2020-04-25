@@ -3,7 +3,7 @@ description: Diese Adobe-Data Connector-Integration vereint die Leistungsfähigk
 keywords: AppFigures
 title: appFigures-Data Connector für Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
