@@ -20,20 +20,20 @@ Neben integrierten Tools wie [!DNL Adobe Analytics] und Google Analytics kann da
 
 Jede Regel kann beliebig viele Skripte auslösen oder HTML-Codes einfügen.
 
->[!NOTE] Da DTM es Ihnen ermöglicht, benutzerdefinierten Code in Ihre Seite aufzunehmen, müssen Sie darauf achten, keine Sicherheitslücken durch seitenübergreifende Skripterstellung (XSS) zu erzeugen (weitere Informationen finden Sie im [OWASP-Leitfaden](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))). Die Verwendung von Datenelementen in einem Skript erfordert besondere Aufmerksamkeit. Gehen Sie immer davon aus, dass Datenelementwerte von einer nicht vertrauenswürdigen Quelle stammen könnten.
+>[!NOTE] Da DTM es Ihnen ermöglicht, benutzerdefinierten Code in Ihre Seite aufzunehmen, müssen Sie darauf achten, keine Sicherheitslücken durch seitenübergreifende Skripterstellung (XSS) zu erzeugen (weitere Informationen finden Sie im [OWASP-Leitfaden](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))). Bei der Verwendung von Datenelementen in Skripten muss besonders vorsichtig vorgegangen werden. Gehen Sie stets davon aus, dass Datenelementwerte von nicht vertrauenswürdigen Quellen übermittelt werden könnten.
 
 **So richten Sie Aktionen ein, die von der Bedingung ausgelöst werden**
 
-1. Klicken Sie auf **[!UICONTROL JavaScript / Third Party Tags]** , um Ihrer Regel ein neues Skript hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL JavaScript/Drittanbieter-Tags]**, um Ihrer Regel ein neues Skript hinzuzufügen.
 
    ![](assets/scripts-actions.png)
 
-1. Klicken Sie auf **[!UICONTROL Add New Script]**.
+1. Klicken Sie auf **[!UICONTROL Neues Skript hinzufügen]**.
 
    ![](assets/scripts-actions2.png)
 
 1. Benennen Sie das Skript.
 1. Geben Sie an, wie das Skript ausgelöst werden soll, und fügen Sie den gewünschten Inhalt in den Textbereich ein. ![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. Klicken Sie auf **[!UICONTROL Code speichern]**. Das Skript wird der Warteschlange für die Regel hinzugefügt. ![](assets/scripts-actions4.png)
 
