@@ -2,7 +2,7 @@
 description: 'null'
 title: Zuordnung
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Die Zuordnungsvisualisierung in Analysis Workspace
 
 ## Eine Zuordnungsvisualisierung erstellen {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. Ziehen Sie eine **[!UICONTROL Zuordnung]** aus der Liste der Visualisierungen in ein Freiform-Bedienfeld:
+1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ Die Zuordnungsvisualisierung in Analysis Workspace
  </tbody> 
 </table>
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Build]**.
 
    Die erste Ansicht, die Sie sehen, ist eine Weltansicht mit einer Blasendiagrammkarte, die in etwa so aussieht.
 
@@ -57,7 +57,7 @@ Die Zuordnungsvisualisierung in Analysis Workspace
       * Negative Zahlen anzeigen: Wenn Sie beispielsweise eine Metrik zum Jahresvergleich plotten, kann auf der Karte für New York -33 % angezeigt werden.
       * Mit Metriken des Typs „Prozent“ werden die Prozentanzeigen mit Durchschnitten gebündelt.
       * Grünes/rotes Farbschema: Positiv/negativ
-   * die Landkarte in 2D oder 3D **drehen**. Halten Sie dazu die Taste [!UICONTROL Strg] gedrückt und verschieben Sie die Landkarte.
+   * **Drehen** Sie die Karte in 2D oder 3D, indem Sie die [!UICONTROL Ctrl] Taste gedrückt halten und die Karte verschieben.
 
    * **Umschalten** auf eine andere Ansicht wie die Heatmap. Nehmen Sie dazu die unten beschriebenen [Einstellungen](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) vor. Beachten Sie, dass die Blasendiagramm-Ansicht die Standardeinstellung ist.
 
