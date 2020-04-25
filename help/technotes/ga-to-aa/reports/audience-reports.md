@@ -1,7 +1,7 @@
 ---
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace zielgruppenbasierte Berichte erstellen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
