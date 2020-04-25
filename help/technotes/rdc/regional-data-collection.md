@@ -1,7 +1,7 @@
 ---
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 ---
