@@ -3,7 +3,7 @@ description: Mithilfe von Veröffentlichungslisten können verschiedene Berichte
 title: Veröffentlichungslisten
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
