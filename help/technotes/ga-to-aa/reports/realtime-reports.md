@@ -17,9 +17,9 @@ Echtzeitberichte sind eine der wenigen Funktionen, die noch nicht in Analysis Wo
 
 So rufen Sie die Seite zur Konfiguration von Echtzeitberichten auf (Administratorberechtigungen erforderlich):
 
-1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
-2. Klicken Sie im linken Menü auf *[!UICONTROL Site Metrics]* > *[!UICONTROL Real-Time]*.
-3. Wenn Echtzeit in der Report Suite noch nicht aktiviert ist, wird eine Meldung mit einem Link zur Konfiguration der Report Suite angezeigt. If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Klicken Sie in der oberen Navigationsleiste von Adobe Analytics auf [!UICONTROL Berichte].
+2. Klicken Sie im linken Menü auf *[!UICONTROL Site-Metriken]* > *[!UICONTROL Echtzeit]*.
+3. Wenn Echtzeit in der Report Suite noch nicht aktiviert ist, wird eine Meldung mit einem Link zur Konfiguration der Report Suite angezeigt. Wenn Echtzeit in der Report Suite aktiviert ist, klicken Sie neben dem Titel des Echtzeitberichts auf [!UICONTROL Konfigurieren].
 
 Adobe ermöglicht bis zu drei Echtzeitberichte, die Daten gleichzeitig erfassen. Jede muss konfiguriert werden, bevor sie mit der Datenerfassung in Echtzeit beginnen.
 
@@ -29,13 +29,13 @@ Adobe ermöglicht bis zu drei Echtzeitberichte, die Daten gleichzeitig erfassen.
 
 Die Echtzeitstandorte zeigen Ihnen, wo sich Besucher während des Besuchs Ihrer Site im aktuellen Moment befinden. So konfigurieren Sie einen Ihrer drei Echtzeitberichte, um Standortdaten anzuzeigen:
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Klicken Sie neben dem Titel des Echtzeitberichts auf [!UICONTROL Konfigurieren].
 2. Unter einem der Slots für Echtzeitberichte:
    * Benennen Sie Ihren Echtzeitbericht, z. B. mit „Standorte“.
    * Als Metrik wird in der Regel „Instanzen“ verwendet. „Benutzer“/„Unique Visitors“ stehen derzeit in Echtzeitberichten nicht zur Verfügung.
    * Als primäre Dimension wird in der Regel „GeoSegmentation Land“ verwendet. „GeoSegmentation Region“, „GeoSegmentation U.S. DMA“ und „GeoSegmentation Stadt“ sind ebenfalls verfügbar.
    * Verwenden Sie als die beiden sekundären Dimensionen die gewünschten zusätzlichen Daten, die Sie für diesen Traffic anzeigen möchten. Sekundäre Dimensionen müssen nicht standortspezifisch sein.
-3. Klicken Sie auf [!UICONTROL Save and View Report].
+3. Klicken Sie auf [!UICONTROL Speichern und Bericht anzeigen].
 
 ## Echtzeit-Traffic-Quellen
 
@@ -47,19 +47,19 @@ Echtzeit-Traffic-Quellen geben an, woher Besucher während des Besuchs Ihrer Sit
    * Als Metrik wird in der Regel „Instanzen“ verwendet. „Benutzer“/„Unique Visitors“ stehen derzeit in Echtzeitberichten nicht zur Verfügung.
    * Als primäre Dimension wird in der Regel „Referrer-Domäne“ verwendet. „Suchmaschine“ und „Suchbegriff“ sind ebenfalls verfügbar.
    * Verwenden Sie als die beiden sekundären Dimensionen die gewünschten zusätzlichen Daten, die Sie für diesen Traffic anzeigen möchten. Sekundäre Dimensionen müssen nicht Traffic-Quellen-spezifisch sein.
-3. Klicken Sie auf [!UICONTROL Save and View Report].
+3. Klicken Sie auf [!UICONTROL Speichern und Bericht anzeigen].
 
 ## Echtzeitinhalt
 
 Echtzeitinhalt zeigt Ihnen an, welche Seiten Ihre Besucher derzeit anzeigen. So konfigurieren Sie einen Ihrer drei Echtzeitberichte, um Inhaltsdaten anzuzeigen:
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Klicken Sie neben dem Titel des Echtzeitberichts auf [!UICONTROL Konfigurieren].
 2. Unter einem der Slots für Echtzeitberichte:
    * Benennen Sie Ihren Echtzeitbericht, z. B. mit „Inhalt“.
    * Als Metrik wird in der Regel „Instanzen“ verwendet. „Benutzer“/„Unique Visitors“ stehen derzeit in Echtzeitberichten nicht zur Verfügung.
    * Als primäre Dimension wird in der Regel „Seite“ verwendet. „Sitebereich“ und „Server“ sind ebenfalls verfügbar, wenn Ihre Implementierung diese Variablen definiert.
    * Verwenden Sie als die beiden sekundären Dimensionen die gewünschten zusätzlichen Daten, die Sie für diesen Traffic anzeigen möchten. Sekundäre Dimensionen müssen nicht inhaltsspezifisch sein.
-3. Klicken Sie auf [!UICONTROL Save and View Report].
+3. Klicken Sie auf [!UICONTROL Speichern und Bericht anzeigen].
 
 ## Echtzeitereignisse
 
@@ -71,12 +71,12 @@ Echtzeitereignisse zeigen Ihnen, welche Ereignisse derzeit auf Ihrer Site am hä
 
 Echtzeitkonversionen stellen Daten zwischen Plattformen unterschiedlich dar. Zielvorhaben in Google Analytics sind mit Metriken und Erfolgsereignissen in Adobe Analytics vergleichbar. Sie können die meisten Metriken in Adobe Analytics (sowohl benutzerspezifische Metriken wie Erfolgsereignisse als auch Standardmetriken wie den Umsatz) in Echtzeitberichten verwenden. Ähnlich wie Google Analytics können Sie auch Dimensionen wie Produktname, Trackingcode und Kampagnenleistung in Echtzeitberichten anwenden.
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Klicken Sie neben dem Titel des Echtzeitberichts auf [!UICONTROL Konfigurieren].
 2. Unter einem der Slots für Echtzeitberichte:
    * Benennen Sie Ihren Echtzeitbericht, z. B. mit „Konversionen“.
    * Als Metrik wird in der Regel „Instanzen“ verwendet. „Benutzer“/„Unique Visitors“ stehen derzeit in Echtzeitberichten nicht zur Verfügung.
    * Als primäre Dimension wird in der Regel „Trackingcode“ verwendet. Die Dimension „Produkte“ ist ebenfalls verfügbar, wenn Ihre Implementierung sie verwendet.
    * Verwenden Sie als die beiden sekundären Dimensionen die gewünschten zusätzlichen Daten, die Sie für diesen Traffic anzeigen möchten. Sekundäre Dimensionen müssen nicht konversionsspezifisch sein.
-3. Klicken Sie auf [!UICONTROL Save and View Report].
+3. Klicken Sie auf [!UICONTROL Speichern und Bericht anzeigen].
 
 >[!NOTE] Wenn Sie Ereignisse außerhalb von Instanzen verwenden, z. B. Bestellungen, stellen Sie sicher, dass Ihre Implementierung die Dimension und das Ereignis im selben Treffer definiert. Wenn Dimensionen und Ereignisse nicht im selben Treffer ausgelöst werden, stehen diese Daten in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz (in der Regel 30 bis 90 Minuten) zur Verfügung.
