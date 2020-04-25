@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Transaktions- und Kundenintegration
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -65,4 +65,4 @@ Transaktions-ID-Ereignisse zwar nicht in Metriken für Beiträge zu Besuchen ent
 
 Der Grund hierfür besteht darin, dass die Transaktions-ID-Daten nicht mit einem Besuch (weil das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verbunden sind. 
 
-Siehe  [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+Siehe [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
