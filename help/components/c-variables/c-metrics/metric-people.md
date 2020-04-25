@@ -2,7 +2,7 @@
 description: Die Metrik für Personen ist eine Berichterstattungsmetrik in Adobe Analytics, die Ihnen dabei hilft, Personen Geräte zuzuordnen.
 title: Personen
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
