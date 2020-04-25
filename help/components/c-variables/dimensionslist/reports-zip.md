@@ -1,7 +1,7 @@
 ---
 title: Postleitzahl der Besucher
 description: Zeigt die Postleitzahlen an, aus denen die Kunden stammen, die die Erfolgsmetrik am stärksten beeinflussten. Die Informationen für diesen Bericht werden üblicherweise während des Kaufvorgangs erfasst, wenn die Postleitzahl, von der aus der Kauf getätigt wird, bekannt ist. Mit diesem Bericht ermitteln Sie den Erfolg einer lokalisierten Werbekampagne bis auf die Ebene einer bestimmten Stadt oder Ortschaft hinunter.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
