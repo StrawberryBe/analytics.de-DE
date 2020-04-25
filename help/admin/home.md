@@ -1,7 +1,7 @@
 ---
 title: Administratorhilfe für Analytics
 description: Hilfe zur Verwaltung für Adobe Analytics-Administratoren, darunter zu Benutzer- und Produktverwaltung in der Admin Console, Einrichtung von Report Suites, Variablen, Klassifizierungen und Datenerfassung.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
