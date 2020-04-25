@@ -3,7 +3,7 @@ description: Administrative Schritte für die Aktivierung von AEM Assets Reporti
 title: Berichterstellung für AEM Assets
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
