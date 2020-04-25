@@ -3,7 +3,7 @@ description: Der Bericht „Site-Metriken“ > „Site-Übersicht“ wird bei de
 title: Site-Übersicht
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
