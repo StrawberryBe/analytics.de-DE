@@ -3,7 +3,7 @@ description: In diesen Schritten wird beschrieben, wie Sie einen Kriteriensatz d
 title: Speichern einer Report Suite-Suche
 topic: Admin tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
