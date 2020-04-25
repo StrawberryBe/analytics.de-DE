@@ -3,7 +3,7 @@ description: Dieser Bericht zeigt die Navigationsdaten zwischen Servern auf Ihre
 title: Vorheriger Serverfluss
 topic: Reports
 uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ed
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
