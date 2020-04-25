@@ -28,17 +28,17 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Alt</b> </p> </td> 
+   <td colname="col1"> <p><b>Alset</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>appFigures</b> </p> </td> 
-   <td colname="col2"> <p>App Store-Objekt-ID -&gt; App Store-Benutzer </p> <p>App Store-Objekt-ID -&gt; Kommentar überprüfen </p> <p>App Store-Objekt-ID -&gt; Titel überprüfen </p> </td> 
+   <td colname="col2"> <p>App Store Object ID -&gt; App Store User </p> <p>App Store Object ID -&gt; Review Comment </p> <p>App Store Object ID -&gt; Review Title </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Aprio Enterprise Marketing Management</b> </p> </td> 
+   <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
@@ -63,12 +63,12 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>Dialog</b> </p> </td> 
-   <td colname="col2"> <p>Dialog-Tech-Aufrufer </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>Dialog Tech</b> </p> </td> 
+   <td colname="col2"> <p>Dialog Tech Caller </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Dialog-Tech-Anrufer -&gt; Stadt </p> <p>Dialogfeld Tech Caller -&gt; Vorname </p> <p>Dialogfeld Tech Caller -&gt; Nachname </p> <p>Dialogfeld Tech Caller -&gt; State </p> <p>Dialogfeld Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Postleitzahl </p> </td> 
+   <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>Dialog Tech Caller -&gt; First Name </p> <p>Dialog Tech Caller -&gt; Last Name </p> <p>Dialog Tech Caller -&gt; State </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Zip Code </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -77,8 +77,8 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Dynamisches Signal</b> </p> </td> 
-   <td colname="col2"> <p>Rückverfolgungscode -&gt; Quell-ID </p> <p>Rückverfolgungscode -&gt; Quellname </p> <p>Rückverfolgungscode -&gt; Benutzer-ID </p> <p>Rückverfolgungscode -&gt; Benutzername </p> </td> 
+   <td colname="col1"> <p><b>Dynamic Signal</b> </p> </td> 
+   <td colname="col2"> <p>Tracking Code -&gt; Source ID </p> <p>Tracking Code -&gt; Source Name </p> <p>Tracking Code -&gt; User ID </p> <p>Tracking Code -&gt; User Name </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -92,36 +92,36 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>Befehlshaber der E-Mail-Kampagne</b> </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Nachrichten-ID -&gt; Name der Liste senden </p> <p>Nachrichten-ID -&gt; Manager-ID </p> <p>Nachrichten-ID -&gt; Name des Managers </p> </td> 
+   <td colname="col2"> <p>Message ID -&gt; Mailing List Name </p> <p>Message ID -&gt; Manager ID </p> <p>Message ID -&gt; Manager Name </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Epsilon Harmonie</b> </p> </td> 
-   <td colname="col2"> <p>E-Mail-Adresse </p> <p>Kundenschlüssel </p> </td> 
+   <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
+   <td colname="col2"> <p>E-Mail-Adresse </p> <p>Customer Key </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Genaue Zielgruppe</b> </p> </td> 
+   <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>ForeSee (v2.0)</b> </p> </td> 
-   <td colname="col2"> <p>Befragungs-ID </p> </td> 
+   <td colname="col2"> <p>Foresee Respondent ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Vorherige Befragte-ID -&gt; Variablenname 1 </p> <p>... </p> <p>Vorherige Befragte-ID -&gt; Variablenname n </p> </td> 
+   <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Vorheriges Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response Liste -&gt; Response </p> <p>ForeSee Response Liste -&gt; Umfrage &gt; Frage &gt; Antwort </p> </td> 
+   <td colname="col1"> <p><b>Foresee-Feedback</b> </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -140,18 +140,18 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>optivo Broadmail</b> </p> </td> 
+   <td colname="col1"> <p><b>optivo broadmail</b> </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Antworten</b> </p> </td> 
+   <td colname="col1"> <p><b>Responsys</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Antworten 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Kunden-ID </p> </td> 
+   <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
+   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -160,7 +160,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Empfänger-ID -&gt; RecipientField1 </p> <p>Empfänger-ID -&gt; RecipientField2 </p> <p>Empfänger-ID -&gt; RecipientField3 </p> <p>Empfänger-ID -&gt; RecipientField4 </p> <p>Empfänger-ID -&gt; EmpfängerField5 </p> </td> 
+   <td colname="col2"> <p>Empfänger-ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -174,8 +174,8 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Synergie!360</b> </p> </td> 
-   <td colname="col2"> <p>Kunden-ID </p> </td> 
+   <td colname="col1"> <p><b>Synergy!360</b> </p> </td> 
+   <td colname="col2"> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>WhatCounts-E-Mail</b> </p> </td> 
+   <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
