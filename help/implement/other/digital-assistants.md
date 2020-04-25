@@ -1,13 +1,13 @@
 ---
-title: Analytics für digitale Assistenten implementieren
-description: Implementieren Sie Adobe Analytics auf Digital-Assistenten, wie Amazon Alexa oder Google Home.
+title: Implementieren von Analytics für digitale Assistenten
+description: Implementieren Sie Adobe Analytics für digitale Assistenten, wie Amazon Alexa oder Google Home.
 translation-type: tm+mt
 source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
 
 ---
 
 
-# Analytics für digitale Assistenten implementieren
+# Implementieren von Analytics für digitale Assistenten
 
 <!-- 
 https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
@@ -25,13 +25,13 @@ Diese Seite bietet einen Überblick darüber, wie Sie Adobe Analytics am besten 
 
 ## Übersicht über die digitale Erfahrungsarchitektur
 
-![Digital Assistant Worflow](assets/Digital-Assitants.png)
+![Workflow für digitale Assistenten](assets/Digital-Assitants.png)
 
-Die meisten heutigen digitalen Assistenten basieren auf einer ähnlichen allgemeinen Architektur:
+Derzeit basieren die meisten digitalen Assistenten auf einer ähnlichen allgemeinen Architektur:
 
-1. **Gerät**: Es gibt ein Gerät (wie ein Amazon Echo oder ein Telefon) mit einem Mikrofon, das dem Benutzer die Möglichkeit gibt, eine Frage zu stellen.
-1. **Digitale Assistenzkraft**: Das Gerät interagiert mit dem Dienst, der die digitale Assistenzkraft beherrscht. Dort wird die Sprache in maschinenverständliche „Intents“ (Absichten) umgewandelt, und die Details der Anfrage werden analysiert. Sobald die Absicht des Benutzers verstanden wurde, leitet der digitale Assistent den Intent und Details der Anfrage an die App weiter, die die Anfrage bearbeitet.
-1. **&quot;App&quot;**: Die App kann entweder eine App auf dem Smartphone oder eine Voice-App sein. Die App ist für die Beantwortung der Anfrage verantwortlich. Sie antwortet dem digitalen Assistenten, und der digitale Assistent antwortet dann dem Benutzer.
+1. **Gerät**: Ein Gerät (wie Amazon Echo oder ein Telefon) mit einem Mikrofon, über das der Benutzer eine Frage stellen kann.
+1. **Digitaler Assistent**: Das Gerät interagiert mit dem Dienst, der den digitalen Assistenten steuert. Dort wird die Sprache in maschinenverständliche „Intents“ (Absichten) umgewandelt, und die Details der Anfrage werden analysiert. Sobald die Absicht des Benutzers verstanden wurde, leitet der digitale Assistent den Intent und Details der Anfrage an die App weiter, die die Anfrage bearbeitet.
+1. **„App“**: Bei der App kann es sich entweder um eine Telefon- oder um eine Sprach-App handeln. Die App ist für die Beantwortung der Anfrage verantwortlich. Sie antwortet dem digitalen Assistenten, und der digitale Assistent antwortet dann dem Benutzer.
 
 ## Wo kann Analytics implementiert werden?
 
@@ -77,7 +77,7 @@ Cache-Control: no-cache
 
 ## Benutzer-/Besucheridentifizierung
 
-Adobe Analytics verwendet den [Adobe Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/en/id-service/using/home.html), um Interaktionen über einen bestimmten Zeitraum hinweg mit derselben Person zu verknüpfen. Die meisten digitalen Assistenten geben eine `userID` zurück, mit der Sie die Aktivität für verschiedene Benutzer speichern können. In den meisten Fällen können Sie diesen Wert als eindeutige Kennung weitergeben. Einige Plattformen geben eine Kennung zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, dass Sie die eindeutige Kennung mithilfe eines standardmäßigen Hashing-Algorithmus wie MD5 oder Sha1 auf einen Wert mit fester Länge hashen.
+Adobe Analytics verwendet den [Adobe Experience Cloud-Identitätsdienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html), um Interaktionen über einen bestimmten Zeitraum hinweg mit derselben Person zu verknüpfen. Die meisten digitalen Assistenten geben eine `userID` zurück, mit der Sie die Aktivität für verschiedene Benutzer speichern können. In den meisten Fällen können Sie diesen Wert als eindeutige Kennung weitergeben. Einige Plattformen geben eine Kennung zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, dass Sie die eindeutige Kennung mithilfe eines standardmäßigen Hashing-Algorithmus wie MD5 oder Sha1 auf einen Wert mit fester Länge hashen.
 
 Die Verwendung des ID-Service bietet den größten Nutzen, wenn Sie ECIDs über verschiedene Geräte (z. B. Web-to-Digital-Assistant) hinweg zuordnen. Wenn es sich bei Ihrer App um eine mobile App handelt, verwenden Sie die Experience Platform-SDKs unverändert und senden Sie die Benutzer-ID mit der `setCustomerID`-Methode. Wenn Ihre App jedoch ein Dienst ist, verwenden Sie die vom Dienst als ECID bereitgestellte Benutzer-ID und legen Sie sie in der `setCustomerID` fest.
 
@@ -97,12 +97,12 @@ Da digitale Assistenten auf Konversationen basieren, sind sie häufig mit dem Ko
 
 **Verbraucher:** „20:30 Uhr.“
 
-**** Google: &quot;Klingt gut, der Treiber wird um 20:30 Uhr sein&quot;
+**Google**: „Klingt gut, der Fahrer ist um 20:30 Uhr hier.“
 
 Sitzungen sind wichtig, um den Kontext zu wahren und mehr Details zu sammeln, um den digitalen Assistenten natürlicher zu machen. Wenn Sie Analytics für eine Konversation implementieren, sollten Sie zweierlei tun, sobald eine neue Sitzung gestartet wird:
 
-1. **Kontakt zu Audience Manager**: Rufen Sie die relevanten Segmente ab, zu denen ein Benutzer gehört, damit Sie die Antwort anpassen können. (Zum Beispiel: Diese Person ist zurzeit berechtigt, einen Mehrkanal-Rabatt zu erhalten.)
-2. **In einer neuen Sitzung oder einem Startereignis** senden: Wenn Sie die erste Antwort an Analytics senden, fügen Sie ein Launch-Ereignis ein. Normalerweise kann dies gesendet werden, indem `a.LaunchEvent=1` als Kontextdaten eingestellt werden.
+1. **Verwenden Sie Audience Manager**: Rufen Sie die relevanten Segmente ab, zu denen ein Benutzer gehört, damit Sie die Antwort anpassen können. (Zum Beispiel: Diese Person ist zurzeit berechtigt, einen Mehrkanal-Rabatt zu erhalten.)
+2. **Senden Sie eine neue Sitzung oder ein Launch-Ereignis**: Wenn Sie die erste Antwort an Analytics senden, fügen Sie ein Launch-Ereignis hinzu. Normalerweise kann dies gesendet werden, indem als Kontextdaten eingestellt werden `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
