@@ -8,17 +8,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 ---
 
 
-# Palette &quot;Visualisierungsfarbe&quot;
+# Visualisierung Farbpalette
 
-Sie können die Farbpalette der Visualisierung ändern, die in Workspace verwendet wird, indem Sie eine andere Farbpalette auswählen oder eine eigene Palette angeben, die mit den Brandingfarben Ihrer Firma übereinstimmen kann. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus. Die Zusammenfassungsänderung, die bedingte Formatierung in Freiformtabellen und die Zuordnungsvisualisierung sind davon jedoch **nicht** betroffen.
+Sie können die in Workspace verwendete Visualisierungsfarbpalette ändern, indem Sie eine andere Farbpalette auswählen oder Ihre eigene Palette festlegen, die den Markenfarben Ihres Unternehmens entsprechen könnte. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus. Die Zusammenfassungsänderung, die bedingte Formatierung in Freiformtabellen und die Zuordnungsvisualisierung sind davon jedoch **nicht** betroffen.
 
 >[!NOTE] Die Farbpalettenunterstützung ist für Internet Explorer 11 nicht aktiviert.
 
 ![](assets/color_palettes.png)
 
-Beachten Sie:
+Bitte beachten Sie:
 
-* Es stehen fünf vordefinierte Farbpaletten zur Auswahl. Die Standardpalette und die unten stehende wurden für optimalen Kontrast optimiert und sind für Farbenblindheit besser zugänglich.
+* Es stehen fünf voreingestellte Farbpaletten zur Auswahl. Die Standardpalette und die unten stehende wurden für optimalen Kontrast optimiert und sind für Farbenblindheit besser zugänglich.
 * Die dritte bis fünfte Farbpalette unter den ersten beiden wurden auf Farbharmonie optimiert.
 
 ## So ändern Sie Ihre Farbpalette:
@@ -29,5 +29,5 @@ Beachten Sie:
    ![](assets/custom_palette.png)
 
 1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
-1. Geben Sie bis zu 16 kommagetrennte Hexadezimalwerte (z. B. #00a4e4) für die gewünschten Farben an. Wenn Sie beispielsweise nur vier Werte verwenden möchten, werden diese Farben automatisch in Visualisierungen wiederholt, die mehr Farben enthalten.
+1. Geben Sie bis zu 16 kommagetrennte hexadezimale Werte (z. B. #00a4e4) für die Farben an, die Sie verwenden möchten. Wenn Sie beispielsweise nur vier Werte verwenden möchten, werden diese Farben in Visualisierungen, die mehr Farben enthalten, automatisch wiederholt.
 
