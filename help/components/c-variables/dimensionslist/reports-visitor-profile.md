@@ -3,7 +3,7 @@ description: Mit diesen Berichten können Sie Kaufmuster von Kunden aus verschie
 title: Besucherprofil
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
