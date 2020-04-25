@@ -1,5 +1,5 @@
 ---
-description: Adobe Analytics bietet eine flexible Benutzeroberfläche für Berichte, mit der Sie eine Vielzahl komplexer Berichte erstellen können. Während die meisten Berichte sehr schnell generiert werden, kann es vorkommen, dass ein Timeout auftritt oder die Erstellung fehlschlägt. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt viele Faktoren erläutert, die sich auf die Geschwindigkeit der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass eine erfolgreiche Erstellung wahrscheinlicher ist.
+description: Adobe Analytics bietet eine flexible Berichtsoberfläche, mit der Sie eine Vielzahl an komplexen Berichten generieren können. Während die meisten Berichte sehr schnell generiert werden, kann es bei manchen Berichten auch zu Timeouts oder Fehlern bei der Generierung kommen. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt zahlreiche Faktoren erläutert, die sich auf die Geschwindigkeit bei der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass Sie eher erfolgreich generiert werden können.
 keywords: best practices;failure;timeout;troubleshooting;slow
 title: Best Practices und Fehlerbehebung für Berichterstellung
 topic: Reports
@@ -12,52 +12,52 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 # Best Practices und Fehlerbehebung für Berichterstellung
 
-Adobe Analytics bietet eine flexible Benutzeroberfläche für Berichte, mit der Sie eine Vielzahl komplexer Berichte erstellen können. Während die meisten Berichte sehr schnell generiert werden, kann es vorkommen, dass ein Timeout auftritt oder die Erstellung fehlschlägt. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt viele Faktoren erläutert, die sich auf die Geschwindigkeit der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass eine erfolgreiche Erstellung wahrscheinlicher ist.
+Adobe Analytics bietet eine flexible Berichtsoberfläche, mit der Sie eine Vielzahl an komplexen Berichten generieren können. Während die meisten Berichte sehr schnell generiert werden, kann es bei manchen Berichten auch zu Timeouts oder Fehlern bei der Generierung kommen. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt zahlreiche Faktoren erläutert, die sich auf die Geschwindigkeit bei der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass Sie eher erfolgreich generiert werden können.
 
 >[!Note]
 >Diese Empfehlungen gelten für Reports &amp; Analytics, Ad Hoc Analysis und Report Builder.
->Sie gelten nicht für Analysis Workspace, da es dafür eigene [Best Practices](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) gibt. Sie gelten auch nicht für die [Best Practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) für Data Warehouse. Ein weiterer Satz
->[Best Practices](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) ist für die Reporting-API von Adobe Analytics verfügbar.
+>Sie gelten nicht für Analysis Workspace, da es dafür eigene [Best Practices](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) gibt. Sie gelten auch nicht für die [Best Practices](https://marketing.adobe.com/resources/help/de_DE/reference/data_warehouse_bp.html) für Data Warehouse. Ein weiterer Satz
+>[Best Practices](https://marketing.adobe.com/developer/de_DE/get-started/best-practices/c-best-practices) ist für die Reporting-API von Adobe Analytics verfügbar.
 
 ## Bericht-Timeouts und Anforderungswarteschlange {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
 **Timeouts**
 
-Ein einzelner Bericht wird in mehrere Anforderungen unterteilt (eine pro Aufschlüsselung), und jede Anforderung unterliegt einem individuellen Timeout. Terminierte Berichte erhalten längere Timeout-Zeiträume und sind wahrscheinlicher als direkt in der Benutzeroberfläche erstellte Berichte.
+Ein einzelner Bericht ist in mehrere Anforderungen unterteilt (eine pro Aufschlüsselung), und jede Anforderung unterliegt einem individuellen Timeout. Terminierte Berichte erhalten längere Timeout-Intervalle und haben eine größere Erfolgswahrscheinlichkeit als Berichte, die direkt in einer Benutzeroberfläche generiert werden.
 
-**Report Suite-Warteschlange**
+**Report Suite-Warteschlange**
 
-Jede Report Suite führt eine separate Anforderungswarteschlange. Wenn viele Berichte gleichzeitig angefordert werden, auch von separaten Benutzern, wird eine kleine Anzahl von Berichten gleichzeitig generiert. Nach Abschluss der Berichte werden die verbleibenden Berichte in der Reihenfolge generiert, in der sie empfangen wurden. Wenn sich daher bereits eine große Anzahl komplexer Berichte in der Report Suite-Warteschlange befinden, kann es vorkommen, dass ein Bericht, der in der Regel schnell generiert wird, einen Timeout aufweist.
+Jede Report Suite pflegt eine eigene Anforderungswarteschlange. Wenn zahlreiche Berichte gleichzeitig angefordert werden (selbst von unterschiedlichen Benutzern), wird eine geringe Anzahl an Berichten gleichzeitig generiert. Nach dem Abschluss von Berichten werden verbleibende Berichte in der Reihenfolge generiert, in der sie eingegangen sind. Wenn also bereits zahlreiche komplexe Berichte in der Report Suite-Warteschlange enthalten sind, kann es bei einem Bericht, der normalerweise schnell generiert wird, zu einem Timeout kommen.
 
 ## Faktoren, die sich auf die Berichtgeschwindigkeit auswirken  {#section_6BA937EB6CEC4CBCB71FAAD32F031DC2}
 
-Die folgenden Faktoren tragen zu längeren Berichtgenerierungszeiten bei. Das Erhöhen eines dieser Faktoren führt möglicherweise nicht zu einem Timeout für diesen Bericht, kann jedoch zu Verzögerungen bei anderen Berichten in der Report Suite-Warteschlange führen und zu einem Timeout in einem nachfolgenden Bericht.
+Die folgenden Faktoren tragen zu längeren Berichtgenerierungszeiten bei. Wenn Sie einen dieser Faktoren erhöhen, kommt es möglicherweise nicht zu einem Timeout für diesen Bericht. Es können aber andere Berichte in der Report Suite-Warteschlange verzögert werden, wodurch bei einem nachfolgenden Bericht möglicherweise ein Timeout auftritt.
 
 **Berichtszeitraum**
 
-Der größte Faktor, der sich auf die Berichtgenerierungszeit auswirkt, ist die Anzahl der angeforderten Monate. Wenn Sie die Anzahl der Monate von drei auf eins reduzieren, verringert sich die Generierungszeit erheblich, aber eine Reduzierung des Zeitraums von einem Monat auf eine Woche hat keine großen Auswirkungen auf die Berichtgenerierungszeit.
+Der Hauptfaktor, der sich auf die Berichtgenerierungszeit auswirkt, ist die Anzahl der angeforderten Monate. Wenn Sie die Anzahl der Monate von drei auf eins verringern, wird die Generierungszeit erheblich verkürzt. Wenn Sie den Zeitraum aber von einem Monat auf eine Woche reduzieren, hat dies keine großen Auswirkungen auf die Berichtgenerierungszeit.
 
 **Anzahl der Metriken**
 
-Mit zunehmender Anzahl der Metriken steigt die Berichtslaufzeit. Durch Entfernen von Metriken wird die Berichtgenerierungszeit oft verkürzt.
+Je höher die Anzahl der Metriken, desto länger die Berichtausführungszeit. Durch Entfernen von Metriken kann die Berichtgenerierungszeit häufig verbessert werden.
 
 **Anzahl der Aufschlüsselungen**
 
-Innerhalb eines Berichts stellt jede Aufschlüsselung eine separate Anforderung dar. Während einzelne Anforderungen schnell abgeschlossen werden können, kann die Ausführung von Tausenden von Aufschlüsselungen in einem einzelnen Bericht die Berichtgenerierungszeit erheblich verlangsamen und die Report Suite-Warteschlange beeinträchtigen.
+Jede Aufschlüsselung steht für eine eigene Anforderung in einem Bericht. Während individuelle Anforderungen schnell abgeschlossen werden können, kann die Ausführung von Tausenden Aufschlüsselungen in einem einzelnen Bericht die Berichtgenerierungszeit erheblich verlangsamen und die Report Suite-Warteschlange beeinträchtigen.
 
 **Segmentkomplexität**
 
-Segmente, die viele Dimensionen berücksichtigen oder über viele (über 24) Regeln verfügen, erhöhen die Verarbeitungsauswirkungen und erhöhen die Berichtgenerierungszeit.
+Segmente für zahlreiche Dimensionen oder mit vielen (mehr als 24) Regeln erhöhen die Verarbeitungsauswirkungen und verlängern die Berichtgenerierungszeit.
 
 **Anzahl der eindeutigen Werte**
 
-Berichte mit Hunderttausenden individueller Werte werden langsamer generiert als Berichte mit weniger eindeutigen Werten, selbst wenn das Segment oder der Filter die Anzahl der Werte reduziert, die letztendlich in einem Bericht erscheinen. Ein Bericht, der Suchbegriffe anzeigt, generiert in der Regel langsamer als andere Berichte, selbst wenn ein Filter angewendet wird, um nur Suchbegriffe anzuzeigen, die einen bestimmten Wert enthalten.
+Berichte mit Hunderttausenden eindeutigen Werten werden langsamer generiert als Berichte mit weniger eindeutigen Werten, selbst wenn das Segment oder der Filter die Anzahl der Werte reduziert, die schließlich in einem Bericht angezeigt werden. Beispiel: Ein Bericht, der Suchbegriffe anzeigt, wird im Allgemeinen langsamer generiert als andere Berichte, selbst wenn ein Filter angewendet wurde, um nur Suchbegriffe anzuzeigen, die einen bestimmen Wert enthalten.
 
 ## Andere Berichtsoptionen  {#section_FEF85C7FC6E14755A6086AFFF36E0EB4}
 
 Zusätzlich zur Reduzierung des Zeitraums, der Anzahl der Metriken und der Anzahl der Aufschlüsselungen in einem Bericht können auch die folgenden Richtlinien dabei helfen, die Zuverlässigkeit bei der Berichterstellung zu verbessern:
 
-* Verwenden Sie Data Warehouse, um Berichte anzufordern, die viele Aufschlüsselungen oder Metriken enthalten. Data Warehouse wurde zur Erstellung dieser Berichtstypen entwickelt.
-* Planen Sie Berichte, die nicht zu Spitzenzeiten ausgeführt werden. Dadurch erhöht sich die Wahrscheinlichkeit, dass ein Bericht zurückgegeben wird, da die Anforderungswarteschlange für eine Report Suite in diesen Zeiten mit größerer Wahrscheinlichkeit leer ist.
-* ReportBuilder kann verwendet werden, um Berichte in kleinere Zeiträume und Anforderungen mit weniger Metriken zu unterteilen. Anschließend können Sie mithilfe der nativen Excel-Funktion Daten aus verschiedenen Anforderungen in einem einzelnen Bericht zusammenführen.
+* Verwenden Sie Data Warehouse, um Berichte anzufordern, die zahlreiche Aufschlüsselungen oder Metriken enthalten. Data Warehouse wurde für die Generierung dieser Berichtstypen entwickelt.
+* Planen Sie Berichte so, dass sie außerhalb der Spitzenzeiten ausgeführt werden. Dadurch wird die Wahrscheinlichkeit, dass ein Bericht zurückgegeben wird, erhöht, da die Anforderungswarteschlange für eine Report Suite in diesen Zeiten eher leer ist.
+* Sie können Report Builder verwenden, um Berichte in kleinere Zeiträume und Anforderungen mit weniger Metriken einzuteilen. Dann können Sie mit der nativen Excel-Funktionalität Daten aus verschiedenen Anforderungen in einem Bericht zusammenführen.
 
