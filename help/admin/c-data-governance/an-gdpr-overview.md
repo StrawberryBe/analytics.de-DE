@@ -1,5 +1,5 @@
 ---
-description: In diesem Dokument wird beschrieben, was Sie in Adobe Analytics tun müssen, um die GDPR-Zugriffsrechte und Löschrechte der betroffenen Personen zu unterstützen.
+description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
 title: Adobe Analytics und die DSGVO
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Adobe Analytics und die DSGVO
 
-In diesem Dokument wird beschrieben, was Sie in Adobe Analytics tun müssen, um die GDPR-Zugriffsrechte und Löschrechte der betroffenen Personen zu unterstützen.
+Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
 
 ## Adobe-Übersicht  {#section_E582A1D77583410EBB790BB646854A2C}
 
@@ -26,7 +26,7 @@ Als Datenverantwortlicher legen Sie fest, welche personenbezogenen Daten Adobe i
 
 ## So verarbeitet Adobe DSGVO-Daten {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Die Adobe Cloud-Plattform (ACP) bietet eine integrierte Lösung, die die Infrastruktur für die Datenverwaltung Ihrer Marke mit den Adobe-Werkzeugen verbindet, mit denen Sie Erlebnisse für Kunden erstellen und verwalten können. Die Funktionen zur Datenverwaltung der Adobe Cloud-Plattform ermöglichen eine direkte Verknüpfung der Datenverwaltungs-Richtlinie mit der Datenverwendung.
+Die Adobe Cloud Platform (ACP) bietet eine integrierte Lösung, die die Data-Governance-Infrastruktur Ihrer Marke mit den Adobe-Tools zur Erstellung und Verwaltung von Kundenerlebnissen verbindet. Die Data-Governance-Funktionen der Adobe Cloud Platform ermöglichen direkte Verbindungen zwischen Data-Governance-Richtlinie und Datennutzung.
 
 Machen Sie sich mit der [DSGVO-Verarbeitung in Adobe Analytics](https://www.adobe.com/de/data-analytics-cloud/analytics/general-data-protection-regulation.html) vertraut. Dort werden die Schritte zur DSGVO-Bereitschaft und zur Integration in die DSGVO-API von Adobe Experience Cloud erläutert.
 
@@ -34,9 +34,9 @@ Machen Sie sich mit der [DSGVO-Verarbeitung in Adobe Analytics](https://www.adob
 
 Wir wissen, dass Sie die individuellen Daten Ihrer Report Suites am besten kennen. Deshalb bietet Adobe Ihnen die Möglichkeit, Ihre Data-Governance-Einstellungen und -Präferenzen selbst zu definieren.
 
-Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz identifizieren, die direkt identifizierbare Daten oder indirekt identifizierbare Daten enthalten, sodass Sie Ihren Zugriff senden und Anforderungen löschen können, um diese Daten zu bearbeiten. Für jede Anforderung werden die in der Benutzeroberfläche für die Datenverwaltung von Analytics definierten Bezeichnungen für den spezifischen Bezeichner berücksichtigt, der dieser Anforderung entspricht.
+Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz festlegen, die direkt oder indirekt identifizierbare Daten enthalten, damit Sie Zugriffs- und Löschanfragen zu diesen Daten einreichen können. Bei jeder Anfrage werden die in der Data-Governance-Benutzeroberfläche festgelegten Beschriftungen für die spezifische ID berücksichtigt, die mit der Anfrage übereinstimmt.
 
-See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) for more information on how to set the labels.
+Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
 
 ## Voraussetzungen {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -45,6 +45,6 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
 * Ordnen Sie eine Adobe Analytics Report Suite, die Sie für Data Governance einrichten wollen, [Ihrer Experience Cloud-Organisation](https://marketing.adobe.com/resources/help/de_DE/mcloud/report-suite-mapping.html) zu.
 * Legen Sie für jede Report Suite eine Richtlinie zur Datenaufbewahrung fest, damit DSGVO-Zugriffs- und -Löschanfragen bearbeitet werden können.
 
-   > [!NOTE] Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die DSGVO-API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihren Kundenbetreuer, um Ihre Datenaufbewahrungszeit festzulegen.
+   > [!NOTE] Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die DSGVO-API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen.
 
-* Überprüfen Sie Ihre Berechtigungen: Um die Benutzeroberfläche &quot;Datenverwaltung&quot;in Adobe Analytics verwenden zu können, müssen Sie Adobe Analytics-Administrator sein.
+* Überprüfen Sie Ihre Berechtigungen: Um die Analytics-Benutzeroberfläche zur Data-Governance-Verwaltung zu verwenden, müssen Sie Adobe Analytics-Administrator sein.
