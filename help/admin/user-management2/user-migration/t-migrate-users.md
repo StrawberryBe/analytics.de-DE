@@ -20,13 +20,13 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
 
 **Migrieren von Analytics-Benutzern**
 
-1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzer-ID-Migration]**.
 
    ![](assets/migration-progress.png)
 
-   Die Seite &quot;Benutzer-ID-Migration&quot;besteht aus zwei Abschnitten: *Migrationsfortschritt* und *Benutzerinformationen*.
+   Die Seite zur Migration von Benutzer-IDs besteht aus zwei Abschnitten: *Migrationsprozess* und *Benutzerdaten*.
 
-   **Migrationsfortschritt**
+   **Migrationsprozess**
 
    <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
@@ -37,19 +37,19 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
    </thead>
    <tbody> 
    <tr> 
-      <td colname="col1"> <p>Abgeschlossene Migrationen </p> </td> 
-      <td colname="col2"> <p>Die Benutzer nahmen die Einladung an. </p> </td> 
+      <td colname="col1"> <p>Migration abgeschlossen </p> </td> 
+      <td colname="col2"> <p>Die Benutzer haben die Einladung angenommen. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>Alte Anmeldung deaktiviert </p> </td> 
-      <td colname="col2"> <p>Die alte Anmeldung mit einer Firmen-ID ist deaktiviert. Benutzer können nun mit ihrer Adobe ID oder Enterprise ID auf die Experience Cloud zugreifen. Wenn alle Benutzer diese Phase erreicht haben, haben Sie die Migration abgeschlossen. </p> <p>Bei der Migration ist die bisherige Anmeldung deaktiviert. Benutzer werden zu <span class="filepath">experiencecloud.adobe.com</span> umgeleitet und müssen sich mit der Adobe ID oder Enterprise ID anmelden. </p> </td> 
+      <td colname="col1"> <p>Bisherige Anmeldedaten deaktiviert </p> </td> 
+      <td colname="col2"> <p>Die bisherigen Anmeldedaten mit Unternehmens-ID wurden deaktiviert. Benutzer greifen nun mit ihrer Adobe ID oder Enterprise ID auf die Experience Cloud zu. Wenn alle Ihre Benutzer diese Phase erreicht haben, ist die Migration abgeschlossen. </p> <p>Bei der Migration ist die bisherige Anmeldung deaktiviert. Benutzer werden zu <span class="filepath">experiencecloud.adobe.com</span> umgeleitet und müssen sich mit der Adobe ID oder Enterprise ID anmelden. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
-   **Benutzerinformationen**
+   **Benutzerdaten**
 
-   In den Benutzerinformationen werden die Benutzer in Ihrer Organisation nach Domänennamen getrennt dargestellt.
+   Die Benutzerdaten zeigen die Benutzer in Ihrer Organisation an, getrennt durch den Domänennamen.
 
    <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
    <thead> 
@@ -61,7 +61,7 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Domäne </p> </td> 
-      <td colname="col2"> <p>Domänen sind spezifisch für die E-Mail-IDs der aktuellen Analytics-Benutzerbasis. Eine Domäne kann nur von einem einzigen Unternehmen und nur durch Systemadministratoren in Anspruch genommen werden. Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/de/enterprise/help/request-access-to-claimed-domain.html">Anfordern des Zugriffs auf eine beanspruchte Domäne</a>. </p> </td> 
+      <td colname="col2"> <p>Domänen beziehen sich auf die E-Mail-IDs der aktuellen Analytics-Benutzerbasis. Eine Domäne kann nur von einem einzigen Unternehmen und nur durch Systemadministratoren in Anspruch genommen werden. Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/de/enterprise/help/request-access-to-claimed-domain.html">Anfordern des Zugriffs auf eine beanspruchte Domäne</a>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domäne angefordert </p> </td> 
@@ -70,10 +70,10 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
    </tbody> 
    </table>
 
-1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
+1. Suchen Sie nach der Domäne, die die zu migrierenden Benutzer-IDs enthält, und klicken Sie dann unter **[!UICONTROL Migration erforderlich]** auf **[!UICONTROL Benutzer auswählen]**.
+1. Wählen Sie auf der Seite „[!DNL Users]“ die Benutzer aus, die Sie migrieren möchten, und klicken Sie dann auf **[!UICONTROL Migrieren]**.
 
-   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. Dadurch wird die Benutzer-ID in die Kategorie „Migration abgeschlossen“ verschoben. Sie können dann die bisherigen `[!DNL my.omniture.com].`-Anmeldedaten deaktivieren
+   Wenn Sie auf **[!UICONTROL Migrieren]** klicken, erhalten Benutzer eine Einladung (die Migration wird initiiert) und müssen diese annehmen. Dadurch wird die Benutzer-ID in die Kategorie „Migration abgeschlossen“ verschoben. Sie können dann die bisherigen `[!DNL my.omniture.com].`-Anmeldedaten deaktivieren
 
    ![](assets/user-info.png)
 
