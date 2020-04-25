@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 In Analysis Workspace gibt es zwei Möglichkeiten zur Verwendung von Metriken.
 
-Sie können entweder eine Standardmetrik, eine berechnete Metrik oder eine Vorlage für eine berechnete Metrik aus dem [!UICONTROL Components] Menü in die Tabelle ziehen:
+You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
 
 ![](assets/metrics_icons.png)
 
