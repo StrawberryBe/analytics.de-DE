@@ -1,5 +1,5 @@
 ---
-description: Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenzzeiten und mögliche negative Auswirkungen auf das Gesamtsystem zu minimieren.
+description: Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenz sowie mögliche negative Auswirkungen auf das gesamte System zu minimieren.
 title: Erforderliche Vorlaufzeit für Traffic-Zunahme
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
@@ -11,20 +11,20 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Erforderliche Vorlaufzeit für Traffic-Zunahme
 
-Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenzzeiten und mögliche negative Auswirkungen auf das Gesamtsystem zu minimieren.
+Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenz sowie mögliche negative Auswirkungen auf das gesamte System zu minimieren.
 
 Die Zuordnung von Hardware wird durch Warnhinweise gesteuert, die über die Benutzeroberfläche für Reports &amp; Analytics übermittelt werden.
 
 >[!IMPORTANT] Adobe kann keine Traffic-Änderungsanforderungen für „Platzhalter“ berücksichtigen. Sofern nicht anders angegeben, halten Sie die vorgeschlagene Vorlaufzeit so gut wie möglich ein. Senden Sie wenn möglich auch keinen Warnhinweis zu früh. Siehe [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Angeben einer dauerhaften Traffic-Zunahme](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
-Verwenden Sie die folgenden Richtlinien, um zu bestimmen, wie lange im Voraus Sie eine Traffic-Warnung senden müssen:
+Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Verkehrswarnhinweis übermitteln müssen:
 
-## Vorlaufzeiten für die Hardware-Zuordnung
+## Vorlaufzeiten Hardware-Zuordnung
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> TÄGLICHE Traffic-Schätzungen (Treffer) </th>
+   <th colname="col1" class="entry"> TÄGLICHE Traffic-Prognose (Treffer) </th>
    <th colname="col2" class="entry"> <p>Benötigte Vorlaufzeit (Januar–Oktober) </p> </th>
    <th colname="col3" class="entry"> <p>Benötigte Vorlaufzeit (November–Dezember) </p> </th>
   </tr>
@@ -32,8 +32,8 @@ Verwenden Sie die folgenden Richtlinien, um zu bestimmen, wie lange im Voraus Si
  <tbody>
   <tr>
    <td colname="col1"> Bis zu 1.000.000 </td>
-   <td colname="col2"> Keine Vorlaufzeit erforderlich </td>
-   <td colname="col3"> Keine Vorlaufzeit erforderlich </td>
+   <td colname="col2"> Keine Vorlaufzeit notwendig </td>
+   <td colname="col3"> Keine Vorlaufzeit notwendig </td>
   </tr>
   <tr>
    <td colname="col1"> 1.000.000 - 5.000.000 </td>
@@ -49,22 +49,22 @@ Verwenden Sie die folgenden Richtlinien, um zu bestimmen, wie lange im Voraus Si
    <td colname="col2"> Zwei Kalenderwochen </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>über 25.000.000 </p> </td>
-   <td colname="col2"> Ein oder mehrere Monate </td>
+   <td colname="col1"> <p>Über 25.000.000 </p> </td>
+   <td colname="col2"> Ein Monat bzw. mehrere Monate </td>
   </tr>
  </tbody>
 </table>
 
-Weitere Aspekte:
+Was Sie außerdem noch beachten müssen:
 
-* Wenn Sie mehrere Report Suites starten oder erhöhen, die zu den oben aufgeführten Zahlen führen, gilt die Vorlaufzeit als Summe des für jeden von ihnen erwarteten Traffics.
-* Halten Sie die folgenden Informationen bereit, um eine Traffic-Änderung zu senden:
+* Wenn Sie mehrere Report Suites einrichten oder erweitern, sodass die oben aufgeführten Zahlen erreicht werden, gilt die Vorlaufzeit für den zusammengefassten Traffic für alle diese Report Suites.
+* Um eine Traffic-Änderung zu übermitteln, benötigen Sie die folgenden Informationen:
 
    * Die Report Suite-ID
-   * Geschätzte Treffer pro Tag
+   * Geschätzte Trefferanzahl pro Tag
    * Aufschaltdatum
 
-* Client-Warnhinweise sind auch erforderlich, wenn der Traffic abnimmt oder eine Report Suite nicht mehr unterstützt wird.
+* Client-Warnhinweise werden auch benötigt, wenn der Datenverkehr nachlässt oder eine Report Suite veraltet ist.
 
 ## Aufhebung der Hardware-Zuordnung aufgrund von nicht realisiertem Traffic
 
