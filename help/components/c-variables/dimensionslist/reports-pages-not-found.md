@@ -3,7 +3,7 @@ description: Ermittelt Seiten mit beschädigten Links und misst den Traffic zu n
 title: Seiten nicht gefunden
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
