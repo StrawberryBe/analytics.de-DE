@@ -9,22 +9,22 @@ source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 # Transaktions-ID-Datenquellen
 
-Transaktions-ID-Datenquellen ermöglichen es Ihnen, nicht nur Online- und Offlinedaten nebeneinander anzuzeigen, sondern die Daten miteinander zu verbinden. Es erfordert die Verwendung der [`transactionID`](/help/implement/vars/page-vars/transactionid.md) Variablen in Ihrer Analytics-Implementierung.
+Transaktions-ID-Datenquellen ermöglichen Ihnen nicht nur die Ansicht von Online- und Offlinedaten nebeneinander, sondern auch die Verknüpfung der Daten. Es erfordert die Verwendung der [`transactionID`](/help/implement/vars/page-vars/transactionid.md) Variablen in Ihrer Analytics-Implementierung.
 
 Wenn Sie einen Online-Treffer senden, der einen `transactionID` Wert enthält, erstellt Adobe einen &quot;Schnappschuss&quot;aller Variablen, die zu diesem Zeitpunkt festgelegt wurden oder beibehalten wurden. Wenn eine übereinstimmende Transaktions-ID gefunden wird, die über Data Sources hochgeladen wurde, werden die Offline- und Onlinedaten miteinander verknüpft. Es spielt keine Rolle, welche Datenquelle zuerst gesehen wird.
 
 ## Gesamtarbeitsablauf für Transaktions-ID-Datenquellen
 
-Verwenden Sie den folgenden generischen Arbeitsablauf, um mit der Verwendung von Transaktions-ID-Datenquellen zu beginnen:
+Verwenden Sie den folgenden generischen Arbeitsablauf zum Beginn mit Transaktions-ID-Datenquellen:
 
-1. Erstellen Sie eine Datenquelle (&quot;Generisch&quot;und &quot;Generische Datenquelle (Transaktions-ID)&quot;).
+1. Erstellen Sie eine Datenquelle (&quot;Generische&quot;Kategorie und &quot;Generische Datenquelle (Transaktions-ID)&quot;).
 1. Folgen Sie dem Setup-Assistenten für Datenfeeds, um einen FTP-Speicherort zum Hochladen von Daten und Herunterladen einer Vorlagendatei für Datenquellen abzurufen.
 1. Aktualisieren Sie Ihre Implementierung, um die `transactionID` Variable einzuschließen.
 1. Laden Sie eine Datenquellen-Datei mit einer `.fin` Datei auf die FTP-Site hoch.
 
 ## Beispiel für Upload-Datei und Implementierungscode
 
-Wenn Sie die folgende Datenquellen-Datei hochgeladen und den folgenden Code auf Ihrer Site implementiert haben, werden Daten in Berichten verknüpft. Die Datenquellen-Datei verwendet eVar1 und event1, während die Online-Implementierung eVar2 und event2 verwendet. Da die Transaktions-ID übereinstimmt, können Sie Ereignisdaten für eVar1 und Ereignisdaten1 für eVar2 sehen.
+Wenn Sie die folgende Datenquellen-Datei hochgeladen und den folgenden Code auf Ihrer Site implementiert haben, werden Daten in Berichte verknüpft. Die Datenquellen-Datei verwendet eVar1 und Ereignis1, während die Online-Implementierung eVar2 und Ereignis2 verwendet. Da die Transaktions-ID übereinstimmt, können Sie Ereignis2-Daten für eVar1 und Ereignis1-Daten für eVar2 sehen.
 
 ### Beispieldatei
 
