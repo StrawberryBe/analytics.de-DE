@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Häufig gestellte Fragen
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,7 +30,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 * Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden. Bisher wurden Ordner verwendet (in [!DNL Ad Hoc Analysis]), um Segmente zu organisieren.
 
 * [Sequenzielle Segmente](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) können jetzt außerhalb von Ad Hoc Analysis erstellt werden.
-* Der Seitenansichtscontainer wurde in Treffercontainer umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
+* Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen. Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
 Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) im Digital Marketing Blog.
 
@@ -341,7 +341,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobilgerät – Bildunterstützung | Mobile Informationsdienste | Referrer-Typ |
 | Mobilgerät – Farbtiefe | Mobilgerätetyp | Suchmaschine |
 | Mobilgerät – Audiounterstützung | Browsertyp | state |
-| Mobilgerät – Videounterstützung | Browser | Geo-Land |
+| Mobilgerät – Videounterstützung | browser | Geo-Land |
 | Mobil-DRM | Verbindungstyp | Geo-Region |
 | Mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
 | Mobilbetriebssystem | Cookie | Geo-DMA |
