@@ -3,7 +3,7 @@ description: 'Zeigt die Domänen an, die jene Kunden an Sie verwiesen, die die E
 title: Referrerdomänen
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
