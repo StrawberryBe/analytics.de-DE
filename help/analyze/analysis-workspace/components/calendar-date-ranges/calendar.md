@@ -20,7 +20,7 @@ Beim ersten Klick auf einen Kalender wird eine Datumsbereichsauswahl Beginn. Der
 
 Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspace-Projekt ablegen. Sie können spezifische Tage, Wochen, Monate, Jahre oder ein rollierendes Datum auswählen.
 
-[Verwendung von Datumsbereichen und Kalender in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Verwendung von Datumsbereichen und Kalender in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
 
 | Einstellung | Beschreibung |
 |--- |--- |
