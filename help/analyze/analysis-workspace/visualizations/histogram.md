@@ -1,5 +1,5 @@
 ---
-description: Ein Histogramm ist ein neuer Visualisierungstyp in Analyse Workspace.
+description: Ein Histogramm ist ein neuer Visualisierungstyp in Analysis Workspace.
 title: Histogramm
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Histogramm
 
-Ein Histogramm ähnelt einem Balkendiagramm, gruppiert jedoch Zahlen in Bereiche (Behälter). Analytics automatisiert die &quot;Zusammenfassung&quot;von Zahlen in Bereiche, Sie können jedoch die Einstellungen in den [erweiterten Einstellungen](#section_09D774C584864D4CA6B5672DC2927477)ändern.
+Ein Histogramm ähnelt einem Balkendiagramm, fasst jedoch Zahlen zu Bereichen („Pakete“) zusammen. Analytics automatisiert diese Zusammenfassung von Zahlen zu Bereichen, wobei Sie jedoch die Einstellungen unter [Erweiterte Einstellungen](#section_09D774C584864D4CA6B5672DC2927477) ändern können.
 
 ## Erstellen eines Histogramms {#section_74647707CC984A1CB6D3097F43A30B45}
 
@@ -24,25 +24,25 @@ So erstellen Sie ein Histogramm:
 
 >[!NOTE]Histogramme unterstützen nur normale Metriken, nicht jedoch berechnete Metriken.
 
-Hier haben wir die Metrik &quot;Ansichten pro individueller Besucher&quot;verwendet. Der erste (linke) Behälter entspricht 1 Ansicht pro individuellem Besucher, der zweite Behälter 2 Ansichten usw.
+Hier haben wir die Metrik „Seitenansichten pro Unique Visitors“ verwendet. Das erste Paket (links) bezieht sich auf 1 Seitenansicht pro Unique Visitor, das zweite auf 2 Seitenansichten usw.
 
 ![](assets/histogram2.png)
 
 ## Erweiterte Einstellungen {#section_09D774C584864D4CA6B5672DC2927477}
 
-Klicken Sie zum Anpassen Ihrer Histogrammeinstellungen auf das Symbol Einstellungen (&quot;Zahnrad&quot;) in der oberen rechten Ecke. Folgende Einstellungen können Sie ändern:
+Wenn Sie die Einstellungen für Ihr Histogramm ändern möchten, klicken Sie auf das Einstellungssymbol (Zahnrad) in der Ecke oben rechts. Die folgenden Einstellungen können Sie ändern:
 
-| Histogrammeinstellungen | Funktionsweise |
+| Histogramm-Einstellungen | Dient dem folgenden Zweck |
 |---|---|
-| Startpaket | Legt fest, mit welcher Zusammenfassung die Histogramm-Beginn verbunden werden. &quot;1&quot;ist die Standardeinstellung. Sie können Anfangszahlen von 0 bis unendlich einstellen (keine negativen Zahlen). |
-| Metrikbehälter | Hiermit können Sie die Anzahl der Datenbereiche (Behälter) erhöhen/verringern. Die maximale Anzahl an Behältern ist 50. |
-| Metrik-Behältergröße | Hiermit können Sie die Größe der einzelnen Behälter festlegen. Sie können beispielsweise die Behältergröße von 1 Ansicht auf 2 Ansichten ändern. |
+| Startpaket | Bestimmt, mit welchem Paket das Histogramm beginnt. Die Standardeinstellung lautet 1. Sie können Startwerte von null bis unendlich festlegen, jedoch keine negativen Zahlen. |
+| Metrische Behälter | Hiermit können Sie die Anzahl der Datumsbereiche (Behälter) erhöhen/verringern. Maximal 50 Behälter sind möglich. |
+| Metrische Behältergröße | Hiermit können Sie die Größe der einzelnen Behälter festlegen. So könnten Sie zum Beispiel die Behältergröße von 1 Seitenansicht zu 2 Seitenansichten ändern. |
 | Zählmethode | Sie können [Besucher](https://marketing.adobe.com/resources/help/de_DE/reference/visitors.html), [Besuch](https://marketing.adobe.com/resources/help/de_DE/reference/metrics_visit.html) oder [Hit](https://marketing.adobe.com/resources/help/de_DE/reference/hit.html) auswählen, z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Hit. Für Hits wird „Vorkommen“ in der Freiformtabelle als Metrik der Y-Achse verwendet. |
 
 **Beispiele**:
 
-* Startpaket: 1. Metrikbehälter: 5; Metrik-Behältergröße: 2 führt zu diesem Histogramm: 1-2, 3-4, 5-6, 7-8, 9-10.
-* Startpaket: 0; Metrikbehälter: 3; Metrik-Behältergröße: 5 führt zu diesem Histogramm: 0-4, 5-9, 10-14
+* Startpaket: 1; Metrische Behälter: 5; Metrische Behältergröße: 2 – Diese Werte würden zu dem folgenden Histogramm führen: 1-2, 3-4, 5-6, 7-8, 9-10.
+* Startpaket: 0; Metrische Behälter: 3; Metrische Behältergröße: 5 – Diese Werte würden zu dem folgenden Histogramm führen: 0-4, 5-9, 10-14.
 
 ## Anzeigen und Bearbeiten von Histogrammdaten {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
