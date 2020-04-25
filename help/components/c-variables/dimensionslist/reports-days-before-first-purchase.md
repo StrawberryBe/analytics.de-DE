@@ -3,7 +3,7 @@ description: Zeigt die Anzahl der Tage an, die zwischen dem ersten Sitebesuch ei
 title: Tage bis Erstkauf
 topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
