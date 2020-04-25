@@ -17,8 +17,8 @@ Die Absprungrate verwendet die Metrik  [Absprünge](/help/components/c-variables
 
 `Bounces divided by Entries`
 
-Die Absprungrate umfasst keine Besuche, bei denen auf einer einzelnen Seite mehrere Aktionen aufgetreten sind. Ein Besuch mit einer Videowiedergabe auf einer einzigen Ansicht ist beispielsweise ein Einzelzugriff, nicht aber ein Absprung.
+Die Absprungrate beinhaltet keine Besuche, bei denen auf einer einzigen Seite mehrere Aktionen aufgetreten sind. Beispiel: Ein Besuch mit angeschautem Video auf einer Einzelseite gilt als Einzelzugriff, nicht als Absprung.
 
->[!NOTE] Bestehende Implementierungen können manchmal eine berechnete Metrik enthalten, die von der Analytics-Standard-Metrik abweicht. Überprüfen Sie die Definition der berechneten Metrik, um sicherzustellen, dass es keine Unterschiede gibt.
+>[!NOTE] Bestehende Implementierungen können manchmal eine berechnete Metrik enthalten, die von der Analytics-Standard-Metrik abweicht. Prüfen Sie die Definition der berechneten Metrik, um sicherzustellen, dass es keine Abweichungen gibt.
 
-Weitere Informationen finden Sie in diesem [Artikel](https://marketing.adobe.com/resources/help/de_DE/home/index.html#kb-analytics-comparing-bounces-and-single-access) der Wissensdatenbank.
+Weitere Informationen finden Sie in diesem [Knowledge Base-Artikel](https://marketing.adobe.com/resources/help/de_DE/home/index.html#kb-analytics-comparing-bounces-and-single-access).
