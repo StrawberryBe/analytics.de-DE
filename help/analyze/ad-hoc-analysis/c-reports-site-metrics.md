@@ -1,9 +1,9 @@
 ---
 description: Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
-title: Sitemetriken  Berichte
+title: Site-Metrikberichte
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-## Sitemetriken  Berichte {#concept_0639CA16551749A693F49ADED4842CCE}
+## Site-Metrikberichte {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
