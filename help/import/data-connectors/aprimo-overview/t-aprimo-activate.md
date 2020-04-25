@@ -2,7 +2,7 @@
 description: Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 title: Aktivieren der Integration
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Da
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
+| Report Suite  | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
 | Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. |
 | Konto-ID | Geben Sie Ihre Aprimo-Konto-ID ein. |
 | Empfänger-ID | Diese ID ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse des Aprimo-Systems. Diese „Empfänger-ID“ ist mit dem nachgelagerten Besucherverhalten der Site-Empfänger-ID (Warenkorbabbrüche, Käufe usw.) verknüpft, wird in das Aprimo-System übertragen und kann für Remarketing-Zecke genutzt werden. |
