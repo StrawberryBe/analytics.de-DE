@@ -2,7 +2,7 @@
 description: Diese Adobe® Data Connectors-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit Datran-E-Mail-Marketing, um ein leistungsfähiges Tool zu schaffen, um die Erfolgsmessung neu zu definieren und Zielgruppen mit relevanterem Messaging anzusprechen.
 title: Datran-Data Connector für Adobe Analytics
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
