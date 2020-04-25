@@ -2,7 +2,7 @@
 description: Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 title: Aktivieren der Integration
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Da
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
+| Report Suite  | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
 | Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. |
 | Angeklickt | Gesamtzahl der E-Mail-Klicks. |
 | Kampagnen-ID | Speichert die eindeutige Nachrichten-ID. Dies wird häufig in der Kampagnenvariablen gespeichert. |
