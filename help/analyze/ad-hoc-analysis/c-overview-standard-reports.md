@@ -3,7 +3,7 @@ description: Standardberichte zeigen Daten zur Website- und Besucheraktivität, 
 title: Berichtübersicht
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -108,7 +108,7 @@ Das arithmetische Mittel wird ähnlich wie bei Spalten in Microsoft Excel berech
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>August 2013 </p> </td> 
+   <td colname="col1"> <p>Juni 2013 </p> <p>Juli 2013 </p> <p>August 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34,4 % </p> <p>29,7 % </p> <p>41,0 % </p> </td> 
