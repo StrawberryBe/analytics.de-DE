@@ -2,7 +2,7 @@
 description: Sie werden vom Data Connectors-Integrationsassistenten durch den Data Connectors-Integrationsprozess geführt.
 title: Ausführen des Data Connectors-Integrationsassistenten
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
