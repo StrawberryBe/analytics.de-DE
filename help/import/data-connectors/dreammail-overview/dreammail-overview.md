@@ -2,7 +2,7 @@
 description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Analytics® mit E-Mail-Marketing zum Schaffen eines leistungsfähigen Tools, um die Erfolgsmessung neu zu definieren und Zielgruppen mit relevanterem Messaging anzusprechen.
 title: DreamMail-Data Connector für Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
