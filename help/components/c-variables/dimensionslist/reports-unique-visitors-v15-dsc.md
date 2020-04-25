@@ -3,7 +3,7 @@ description: Zeigt die Anzahl der Unique Visitors, die auf Ihre Site zugegriffen
 title: Unique Visitors
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -104,7 +104,7 @@ Zudem wird jedem Datum der entsprechende Besucher dafür zugeschrieben.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ Sie können eine Seite für den [!UICONTROL Bericht zu Unique Visitors] auswähl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ Bei zeitraumbasierten Berichten wird nur der erste Besuch des Unique Visitorss i
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -209,7 +209,7 @@ Der folgende Bericht zeigt die Unique Visitors pro Tag an.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ Bei „Unique Visitors pro Woche“ mit Seite = A schließen die Marketing-Beric
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -310,7 +310,7 @@ Bei Unique Visitors pro Woche mit Seite = B, wird lediglich der 2. Januar gezäh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Januar 1 </p> </td> 
+   <td colname="col1"> <p>&amp;#x200B;1. Januar </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -347,7 +347,7 @@ Sie können Berichten ohne Trendansicht Metriken zu zeitraumbasierten Unique Vis
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>Januar 1 </p> </td> 
+   <td colname="col02"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -391,7 +391,7 @@ Eine Metrik zu Unique Visitors pro Tag für einen [!UICONTROL Seitenberichte] ka
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>Januar 1 </p> </td> 
+   <td colname="col02"> <p>1 Januar </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
