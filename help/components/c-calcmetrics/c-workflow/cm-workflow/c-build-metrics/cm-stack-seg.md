@@ -2,7 +2,7 @@
 description: Hier wird erläutert, wie Sie Segmente mit dem Generator für berechnete Metriken stapeln und ersetzen.
 title: Segmente stapeln und ersetzen
 uuid: f6d4db9e-d982-4731-b342-7e49dee02035
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
