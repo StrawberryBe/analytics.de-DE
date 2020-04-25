@@ -51,8 +51,8 @@ Adobe Angebot eine Vorlage, um wichtige geräteübergreifende Leistungsdaten anz
 
 1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren AdobeID-Anmeldeinformationen an.
 1. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
-1. Klicken Sie [!UICONTROL Workspace] oben auf und dann auf [!UICONTROL Create New Project].
-1. Suchen Sie nach dem &quot;Journey IQ: &quot;Geräteübergreifende Analyse&quot;-Vorlage und klicken Sie dann auf [!UICONTROL Create].
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. Suchen Sie nach dem &quot;Journey IQ: &quot;Geräteübergreifende Analyse&quot;-Vorlage und klicken Sie dann auf [!UICONTROL Erstellen].
 1. Ändern Sie bei Aufforderung die Report Suite in eine Report Suite, die CDA unterstützt.
 
 Es wird ein Analyse Workspace-Projekt erstellt, das mehrere Bereiche enthält. Oben werden ein Inhaltsverzeichnis und eine Einführung angezeigt, die den Kontext zum Bericht und die Navigation zu einzelnen Berichten ermöglichen. Klicken Sie auf einen Link im Inhaltsverzeichnis oder erweitern Sie das Akkordeon eines Bereichs, um diese Berichte zur Ansicht zu verwenden.
