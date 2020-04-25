@@ -26,7 +26,7 @@ Releasedatum: **5. März 2020**
 
 Releasedatum: **21. Februar 2020**
 
-* Das Modul Audience Management wurde auf DIL 9.4 aktualisiert. (AN-209341)
+* Aktualisiertes Zielgruppen-Management Module auf DIL 9.4. (AN-209341)
 
 ## Version 2.18.0
 
@@ -75,8 +75,8 @@ Releasedatum: **10. April 2019**
 
 Releasedatum: **22. Februar 2019**
 
-* Das Modul Audience Management wurde auf DIL 9.1 aktualisiert. (AN-175255)
-* GTM-Sicherheitsrichtlinie erlaubt kein Aktivität Map-Modul. (AN-174679)
+* Aktualisiertes Zielgruppen-Management Module auf DIL 9.1. (AN-175255)
+* GTM-Sicherheitsrichtlinie gestattet nicht das Activity Map-Modul. (AN-174679)
 * Verbessertes AppMeasurement berücksichtigt Abmeldungen (Opt-out), auch wenn der Identitätsdienst bei der Anmeldung nicht genehmigt wurde. (AN-175259)
 
 ## Version 2.11.0
@@ -113,7 +113,7 @@ Releasedatum: **24. Mai 2018**
 Releasedatum: **12. April 2018**
 
 * [!DNL AppMeasurement] wurde aktualisiert, um die aktualisierte Besucheroberfläche für die Anforderung von IDs zu verwenden. (AN-151483)
-* Das Linktracking-Cookie wird immer geschrieben, sobald die Linktracking deaktiviert ist. (AN-156332)
+* Nach der Deaktivierung von Linktracking wird weiterhin ein Linktracking-Cookie erstellt. (AN-156332)
 * Die [!DNL AppMeasurement]-Standard-Cookie-Lebensdauer von wurde von fünf auf zwei Jahre reduziert. (AN-158572)
 
 ## Version 2.8.1
@@ -136,8 +136,8 @@ Re-Bundle Visitor API 3.1.0 (AN-159524), die folgende Korrekturen beinhaltet: (C
 
 Releasedatum: **18. Januar 2018**
 
-* Support für IE 6 bis 9 fallen lassen
-* Aufnahme der Besucher-API, Version 3.0.0
+* Keine Unterstützung für IE 6 bis 9 mehr
+* Aufnahme der Visitor API 3.0.0
 * Aufnahme von DIL 7.00 
 
 ## Version 2.6.0
@@ -157,7 +157,7 @@ Releasedatum: **21. September 2017**
 
 Releasedatum: **17. August 2017**
 
-* Include dil.js v6.11
+* Enthält dil.js v6.11
 * Die Visitor API 2.4.0 wurde hinzugefügt
 
 ## Version 2.3.0
@@ -180,23 +180,23 @@ Releasedatum: **20. April 2017**
 
 * Die letzte Version von `dil.js` wurde hinzugefügt (AN-140396).
 * Der Parameter `adobe_mc_ref`, der die verweisende Stelle der Seite außer Kraft setzt, wird jetzt unterstützt. (AN-131920)
-* Besucher-API 2.1.0 erneut einschließen. (AN-140873)
+* Die Visitor API 2.1.0 wurde wieder hinzugefügt. (AN-140873)
 * Parameter `mcorgid` hinzugefügt. (AN-139586)
-* Parameter cp (customerPerspektive) hinzugefügt. (AN-140897)
+* Der Parameter „cp“ (customerPerspective) wurde hinzugefügt. (AN-140897)
 
 ## Version 2.0.0
 
 Releasedatum: **9. März 2017**
 
 * Zu einem neuen Build-Prozess gewechselt, für den eine Aktualisierung der Versionsnummer auf 2.0.0 erforderlich ist. (AN-137878)
-* Die Verarbeitung von mboxMCSDID wurde an die richtige Abschnittsposition verschoben, an der der Verfolgungsaufruf erfolgt. (AN-138483)
+* mboxMCSDID-Bearbeitung wurde in die korrekte Stelle verschoben, an der der Tracking-Anruf getätigt wird. (AN-138483)
 
 ## Version 1.8.0
 
 Releasedatum: **19. Januar 2017**
 
-* Include VisitorAPI 2.0.0
-* Funktionsaufrufe und -prüfungen wurden neu sequenziert, sodass die SDID nach Abschluss der Abbruchüberprüfung genutzt wird. (AN-134364)
+* Visitor API 2.0.0 miteinbeziehen
+* Funktionsaufrufe und -überprüfungen wurden neu sequenziert, damit die SDID nach einem vollständigen Überprüfungsabbruch verbraucht wird. (AN-134364)
 * `s.registerPreTrackCallback`- und `s.registerPostTrackCallback`-Hooks hinzugefügt. (AN-134567)
 
 ## Version 1.7.0
@@ -245,7 +245,7 @@ Releasedatum: **16. Juni 2016**
 
 Releasedatum: **21. April 2016**
 
-* Das [!DNL AppMeasurement] Activity Map-Module wurde in das [!DNL AppMeasurement]-Standardmodul integriert, sodass Sie nur noch eine [!DNL .js]-Datei referenzieren müssen. Außerdem ist die Aktivität Map-Verfolgung standardmäßig aktiviert. (AN-112689)
+* Das [!DNL AppMeasurement] Activity Map-Module wurde in das [!DNL AppMeasurement]-Standardmodul integriert, sodass Sie nur noch eine [!DNL .js]-Datei referenzieren müssen. Zusätzlich ist die Activity Map-Verfolgung standardmäßig aktiviert. (AN-112689)
 * Ein Kürzungsproblem wurde behoben, das durch die Reihenfolge der Abfragezeichenfolgenvariablen in [!DNL AppMeasurement] entstand, sodass *`pageURLRest`* zuletzt kommt. (AN-114647)
 
 ## Version 1.5.4
@@ -253,21 +253,21 @@ Releasedatum: **21. April 2016**
 Releasedatum: **17. März 2016**
 
 * Aufnahme der Visitor API 1.5.4
-* Abmeldeunterstützung für Besucher API 1.5.4+
+* Abmeldeunterstützung für Visitor API 1.5.4 (und höher)
 
 ## Version 1.5.3
 
 Releasedatum: **21. Januar 2016**
 
 * Feste Behandlung des [!DNL Audience Manager]-Moduls, wenn POSTs zum Verfolgen von Aufrufen verwendet werden. (AN-115381)
-* Der Rest der Seiten-URL (&quot;-g&quot;) wurde an das Ende der Zeichenfolge zur Abfrage der Verfolgungsanforderung verschoben. (AN-114647)
+* Der Rest der Seiten-URL („-g“) wurde an das Ende der Abfragezeichenfolge für die Verfolgungsanforderung verschoben. (AN-114647)
 
 ## Version 1.5.2
 
 Releasedatum: **5. November 2015**
 
 * Aufnahme der Visitor API 1.5.3.
-* Erkennung von IE11 für URL-Kürzung 2047 (AN-114914) korrigiert
+* Erkennung von IE11 für URL-Trunkierung 2047 (AN-114914) behoben.
 
 ## Version 1.5.1
 
@@ -291,7 +291,7 @@ Releasedatum: **21. Mai 2015**
 * Die iOS SDK-Version 4.5 enthält eine neue iOS-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihren Apple Watch-Apps, Today Widgets, Photo Editing Widgets und allen anderen Apps der iOS-Erweiterung erlaubt. Siehe [Implementierung der iOS-Erweiterung](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/ios-ext/ios-ext.html) im Mobile Services-Benutzerhandbuch.
 * Die Android SDK-Version 4.5 enthält eine neue Android-Erweiterung, die Ihnen das Erfassen der Nutzungsdaten von Ihrer Android Wearable App ermöglicht. Siehe [Android Wearables](https://docs.adobe.com/content/help/de-DE/mobile-services/android/wearables-android/android-wearable.html) im Mobile Services-Benutzerhandbuch.
 * Aufnahme der Visitor API 1.4.
-* AudienceManagement-Modul für die Verwendung von DIL Version 6.0 aktualisiert.
+* AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 
 >[!NOTE] **Bekanntes Problem**: In den Visitor API-/[!DNL AppMeasurement] [!DNL Audience Manager]-Modulintegrationen gibt es zwei iFrame-Anfragen zum Veröffentlichen von Zielgruppen, die in IE6-9 gestellt werden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
 
@@ -315,7 +315,7 @@ Releasedatum: **19. Februar 2015**
 
 Releasedatum: **15. Januar 2015**
 
-* Die Handhabung der Vorab-Bearbeitung von WebKit wurde korrigiert, um die Verfolgung vorab gerenderter Seiten zu verhindern, die nicht angezeigt werden.
+* Die Verarbeitung des Vorab-Renderings von WebKits wurde korrigiert, um die Verfolgung vorab gerenderter Seiten, die nicht angezeigt werden, zu verhindern.
 * Die ZIP-Datei für die Verteilung wurde aktualisiert und enthält nun die Visitor API 1.3.4 sowie ein aktualisiertes **[!UICONTROL AudienceManagement]**-Modul mit DIL-Version 5.5.
 
 ## Version 1.4.1
@@ -332,12 +332,12 @@ Releasedatum: **18. September 2014**
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   Die 4 Zeichen sind auf Zeichen beschränkt, die in URL-Dateipfaden zulässig sind, z. B. alphanumerisch und Punkt.
+   Die 4 Zeichen sind auf in URL-Dateipfaden zulässige Zeichen beschränkt, dazu zählen beispielsweise alphanumerische Zeichen und Punkte.
 
-* Auf Seiten, die mit H-Code doppelt getaggt sind, wurde eine Schleife behoben, die während der automatischen Linktracking (Download und Ausstieg) auftreten kann, wenn die erzwungene Linktracking aktiviert ist (Standard in Webkit-Browsern). Zusätzlich wurde eine allgemeine Schutzmaßnahme zur automatischen Linktracking hinzugefügt, um ähnliche Schleifen zu verhindern. Durch diese Schutzmaßnahme wird die automatische Linktracking von wiederholten Klicks auf das *gleiche* Objekt auf einmal alle 10 Sekunden beschränkt. Diese Schutzmaßnahme gilt nur für die automatische Linkverfolgung, sodass Aufrufe zur manuellen Linkverfolgung (s.tl) nicht eingeschränkt sind. Klicks auf verschiedene Objekte werden ebenfalls nicht von dieser Schutzmaßnahme beeinflusst und verfolgt.
-* Die Verarbeitung des angeklickten Objekts bei einer Verzögerung wurde korrigiert.
-* Es wurde ein Fehler behoben, der dazu führte, dass die Seitenanzahl einer Dublette bei Ansicht gezählt wurde, wenn s.t über eine Link-Onclick-Funktion aufgerufen wurde, wenn die Besucher-API noch nicht über die erforderlichen Werte verfügte.
-* HTTP POST-Unterstützung.
+* Auf doppelt getaggten Seiten mit H-Code wurde eine Schleife behoben, die während des automatischen Linktrackings auftreten kann (Herunterladen und Beenden), wenn das erzwungene Linktracking aktiviert ist (Standardeinstellung in Webkit-Browsern). Zudem wurde eine allgemeine Schutzmaßnahme für das automatische Linktracking hinzugefügt, um ähnliche Schleifen zu verhindern. Durch diese Schutzmaßnahme wird das automatische Linktracking für wiederholte Klicks auf *dasselbe* Objekt auf ein 10-Sekunden-Intervall beschränkt. Diese Schutzmaßnahme gilt nur für das automatische Linktracking. Demzufolge werden Aufrufe mit manuellem Linktracking (s.tl) nicht beschränkt. Klicks auf verschiedene Objekte sind von dieser Schutzmaßnahme ebenfalls nicht betroffen und werden verfolgt.
+* Die Verarbeitung eines angeklickten Objekts mit erforderlicher Verzögerung wurde korrigiert.
+* Es wurde ein Problem behoben, das bei einem Aufruf von s.t über eine Link-Klickfunktion zu einer doppelten Seitenansichtszahl geführt hat, wenn die Visitor API noch nicht über die benötigten Werte verfügt.
+* HTTP-POST-Unterstützung.
 
    > [!IMPORTANT] Damit ein [!DNL Analytics]-Aufruf in [!DNL AppMeasurement] die POST-Methode anstelle der GET-Methode verwendet (eine Methode, [gekürzte URLs in IE](https://helpx.adobe.com/de/analytics/kb/shortening-image-request-urls.html) aufzulösen), müssen Sie die neueste Besucher-ID-Dienst-Implementierung für Experience Cloud verwenden.
 
@@ -374,13 +374,13 @@ Releasedatum: **17. April 2014**
 
 Releasedatum: **13. März 2014**
 
-* Fehlerkorrekturen für Heartbeat-Video.
+* Fehlerbehebungen für Puls-Video.
 
 ## Version 1.2.3
 
 Releasedatum: **20. Februar 2014**
 
-* Fehlerkorrekturen für Heartbeat-Video.
+* Fehlerbehebungen für Puls-Video.
 
 ## Version 1.2.2
 
@@ -417,14 +417,14 @@ Releasedatum: **18. September 2013**
 
 Releasedatum: **15. August 2013**
 
-* Unterstützung für die Bereitstellung über das Adobe Tag-Management hinzugefügt.
+* Unterstützung für Implementierung über Adobe Tag-Management hinzugefügt.
 * Ein Problem wurde behoben, bei dem verhindert wurde, dass Hierarchievariablen für das [!DNL AppMeasurement]-Objekt festgelegt wurden.
 
 ## Version 1.0.2
 
 Releasedatum: **18. Juli 2013**
 
-* Der Hash/das Fragment wird jetzt von der automatischen Linktracking ignoriert. Zuvor wurde die folgende URL automatisch verfolgt, weil das gesamte `href` auf `.pdf` endete:
+* Hashes/Fragmentbezeichner werden nun beim automatischen Linktracking ignoriert. Zuvor wurde die folgende URL automatisch verfolgt, weil das gesamte `href` auf `.pdf` endete:
 
    ```js
    <a href="index.htm#anchor.pdf">Test Link</a>
@@ -438,7 +438,7 @@ Releasedatum: **23. Mai 2013**
 
 Eine neue [!DNL JavaScript] [!DNL AppMeasurement]-Bibliothek ist jetzt im Code-Manager verfügbar. Diese Bibliothek bietet die gleichen Kernfunktionen wie [!DNL s_code.js], ist jedoch schlanker und schneller und kann sowohl für mobile als auch für Desktop-Websites verwendet werden.
 
-* 3- bis 7-mal schneller als der H.25-Code.
-* Nur 21k unkomprimiert und 8 k komprimiert (H.25-Code ist 33k unkomprimiert und 13k komprimiert).
-* Native Unterstützung für das Abrufen von Abfrage-Parametern, das Lesen und Schreiben von Cookies und die erweiterte Linktracking.
-* Klein und schnell genug, um mit mobilen Sites verwendet zu werden, und robust genug, um im gesamten Desktop-Web verwendet zu werden, sodass Sie eine einzige Umgebung für alle Web-Anwendungen nutzen können.
+* 3-bis 7-mal schneller als der H.25-Code.
+* Dekomprimiert nur 21 k und komprimiert im GZIP-Format nur 8 k (H.25-Code dekomprimiert 33 k und komprimiert im GZIP-Format 13 k).
+* Native Unterstützung des Abrufens von Abfrageparametern, des Lesens und Schreibens von Cookies und des Durchführens des erweiterten Linktrackings.
+* Handlich und schnell genug zur Verwendung bei Websites für Mobilgeräte, stabil genug für die Verwendung bei vollwertigem Web für Desktops, ermöglicht Ihnen die Nutzung einer einzigen Bibliothek für alle Webumgebungen.
