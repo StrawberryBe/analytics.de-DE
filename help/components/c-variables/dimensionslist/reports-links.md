@@ -3,7 +3,7 @@ description: Zeigt die Links an, auf die Besucher Ihrer Website klicken. Dazu ge
 title: Links
 topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
