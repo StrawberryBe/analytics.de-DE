@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Übergangsleitfaden für Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,9 +40,9 @@ Wenn Sie ein Segment löschen, funktionieren terminierte Berichte und Dashboards
 
 ## Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer?  {#section_65BBE60A836C4001938830DDA15DC256}
 
-Der Seitenansichtscontainer wurde in Treffercontainer umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen.
+Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen.
 
-Beachten Sie, dass sich die Funktionsweise dieses Behälters nicht geändert hat. Er wurde lediglich umbenannt.
+Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
 ## Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?  {#section_648DFA3A882146C485A84ED014EEC707}
 
