@@ -23,8 +23,8 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
 
 * In Adobe Experience Platform Launch:
    1. Melden Sie sich bei [launch.adobe.com](https://launch.adobe.com) an und klicken Sie auf die gewünschte Eigenschaft.
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. Klicken Sie auf das [!UICONTROL General] Akkordeon und beachten Sie den [!UICONTROL Tracking Server] Wert.
+   2. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
+   3. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].
 
 * In einer JavaScript-Implementierung:
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
@@ -32,8 +32,8 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
 
 * Mithilfe des [Adobe Experience Cloud-Debuggers](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
-   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-   3. Note the [!UICONTROL Request URL - Hostname] value.
+   2. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
+   3. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
 
 Wenn Sie die `trackingServer`-Domäne Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:
 
