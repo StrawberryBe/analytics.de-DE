@@ -2,7 +2,7 @@
 description: Listet optionale Dimensionskennungen auf, die in Schritt 4 des Adobe-Integrationsassistenten angegeben werden können.
 title: Benutzerdefinierte Demandbase-Dimensionen
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
