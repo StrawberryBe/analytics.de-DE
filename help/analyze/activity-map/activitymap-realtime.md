@@ -26,19 +26,19 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 Wenn Sie prüfen möchten, welches Element im Livemodus am häufigsten angeklickt wird:
 
-1. Wählen Sie den Zeitraum in der **[!UICONTROL Live Mode]** Trendlinie der Symbolleiste aus, den Sie analysieren möchten.
+1. Wählen Sie den Zeitraum in der Trendlinie **[!UICONTROL Livemodus]** der Symbolleiste aus, den Sie analysieren möchten.
 1. Klicken Sie auf das Augensymbol in der Symbolleiste, um auf die Tabelle &quot;Linkbericht&quot;zuzugreifen.
 1. Ordnen Sie die Tabelle über den Link an.
 
 ## Datenlatenz als Folge der A4T-Konfiguration
 
-After the [A4T integration](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
+After the [A4T integration](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t.html) is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
 Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
 
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/de_DE/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
 Weitere Informationen [hier](/help/analyze/activity-map/activitymap-standard-live.md).
