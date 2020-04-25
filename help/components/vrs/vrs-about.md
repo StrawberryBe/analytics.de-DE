@@ -2,7 +2,7 @@
 description: Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann.
 title: Virtual Report Suites – Übersicht
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
