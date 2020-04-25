@@ -61,6 +61,6 @@ Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Ver
 
 1. (Optional) Sie können auch andere Komponenten-Builder in Analytics aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die angibt
 
-   * wo ein Segment erstellt wird: [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * wo eine berechnete Metrik erstellt wird: [Generator für berechnete Metriken](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * wo eine Warnung erstellt wird: [Warnhinweiserstellung](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * wo ein Segment erstellt wird: [Segment Builder](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * wo eine berechnete Metrik erstellt wird: [Generator für berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * wo eine Warnung erstellt wird: [Warnhinweiserstellung](https://docs.adobe.com/content/help/de-DE/analytics/components/alerts/alert-builder.html).
