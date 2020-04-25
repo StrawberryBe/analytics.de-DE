@@ -3,7 +3,7 @@ description: Zeigt Ihnen, wie viel Zeit zwischen Besuchen zurückkehrender Besuc
 title: Rückkehrhäufigkeit
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
