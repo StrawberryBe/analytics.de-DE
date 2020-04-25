@@ -1,43 +1,43 @@
 ---
-title: Marketingkanäle analysieren
-description: Erfahren Sie, wie Sie die Dimensionen der Marketingkanäle in Workspace verwenden.
+title: Analysieren von Marketing-Kanälen
+description: Erfahren Sie, wie Sie die Dimensionen der Marketing-Kanal in Workspace verwenden.
 translation-type: tm+mt
 source-git-commit: 57f1f7d11c13fb11ea12404e9a98fad955e48d9b
 
 ---
 
 
-# Marketingkanäle analysieren
+# Analysieren von Marketing-Kanälen
 
-Wahrscheinlich möchten Sie wissen, welche Ihrer Marketingkanäle am effektivsten sind und mit wem, damit Sie Ihre Bemühungen zielgerichteter gestalten und eine bessere Rendite aus Ihren Marketinggeldern erhalten können. In Adobe Analytics sind die Dimensionen und Metriken der Marketingkanäle in Workspace eines der Werkzeuge, mit denen Sie den Einfluss verschiedener Kanäle auf Ihre Bestellungen, Umsätze usw. verfolgen können. und geben Ihnen nützliche Kanaleinblicke. Hier finden Sie die Dimensionen und Metriken, die Sie im Zusammenhang mit Marketingkanälen verwenden können:
+Sie möchten wahrscheinlich wissen, welche Ihrer Marketing-Kanal am effektivsten sind und mit wem, damit Sie Ihre Bemühungen besser Zielgruppe und eine bessere Rendite aus Ihren Marketing-Dollars erhalten. In Adobe Analytics sind die Dimensionen und Metriken der Marketing-Kanal in Workspace eines der Tools, mit dem Sie den Einfluss verschiedener Kanal auf Ihre Bestellungen, Umsätze usw. verfolgen können. und geben Ihnen nützliche Einblicke in den Kanal. Im Folgenden finden Sie die Dimensionen und Metriken, die Sie im Zusammenhang mit Marketing-Kanälen verwenden können:
 
 ![](assets/mc-dims.png)
 
 | Dimension/Metrik | Definition |
 |---|---|
-| Marketingkanal | Dies ist die Marketingkanal-Dimension, die wir empfehlen. Zuordnungs-IQ-Modelle können zur Laufzeit darauf angewendet werden. Die allgemeine Dimension &quot;Marketingkanäle&quot;verhält sich genauso wie die Dimension &quot;Letztkontakt Kanal&quot;, wird jedoch anders beschriftet, um Verwirrung zu vermeiden, wenn sie mit einem anderen Zuordnungsmodell verwendet wird. |
+| Marketingkanal | Dies ist die Marketing-Kanal-Dimension, die wir empfehlen. Zuordnungs-IQ-Modelle können zur Laufzeit darauf angewendet werden. Die allgemeine Dimension &quot;Marketing-Kanal&quot;verhält sich genauso wie die Dimension &quot;Letztkontakt-Kanal&quot;, wird jedoch anders gekennzeichnet, um Verwirrung zu vermeiden, wenn sie mit einem anderen Zuordnungsmodell verwendet wird. |
 | Letztkontakt Kanal | Legacy-Dimension, mit einem Zuordnungsmodell, das vorab angewendet und unverändert ist. |
 | Erstkontakt Kanal | Legacy-Dimension, mit einem Zuordnungsmodell, das vorab angewendet und unverändert ist. |
 | Marketingkanal-Instanzen | Diese Metrik... |
-| Neue Interaktionen | Hierbei handelt es sich um eine veraltete Metrik, die nur inkrementiert wird, wenn für einen Kanal die Zuordnung &quot;First Touch&quot;angewendet wurde. |
+| Neue Interaktionen | Hierbei handelt es sich um eine veraltete Metrik, die nur inkrementiert wird, wenn für einen Kanal eine First Touch-Zuordnung angewendet wurde. |
 
 ## Basisanalyse
 
-Diese Freiform-Tabelle zeigt die Metriken Online-Bestellungen, Online-Umsatz und die Konversionsrate für jeden der Marketingkanäle:
+Diese Freiform-Tabelle zeigt die Metriken Online-Bestellungen, Online-Umsatz und den Konversionsrate für jeden Marketing-Kanal:
 
 ![](assets/mc-viz1.png)
 
-Hier sehen Sie die Online-Bestellungen und den Online-Umsatz der einzelnen Marketingkanäle in einem Ringdiagramm:
+Hier sehen Sie die Online-Bestellungen und den Online-Umsatz der einzelnen Marketing-Kanal in einem Ringdiagramm:
 
 ![](assets/mc-viz2.png)
 
-Dieses Liniendiagramm zeigt Trends bei Online-Bestellungen für verschiedene Kanäle im Zeitverlauf:
+Dieses Liniendiagramm zeigt Trends bei Online-Bestellungen für verschiedene Kanal im Zeitverlauf:
 
 ![](assets/mc-viz3.png)
 
 ## Erweiterte Analyse
 
-Details zu Marketingkanälen tauchen tiefer in die einzelnen Kanäle ein, um Ihnen bestimmte Kampagnen, Platzierungen usw. anzuzeigen. Sie können jeden Marketingkanal in Details unterteilen:
+Marketing-Kanal Details tauchen tiefer in die einzelnen Kanal ein, um Ihnen bestimmte Kampagnen, Platzierungen usw. zu zeigen. Sie können jeden Marketing-Kanal in Details unterteilen:
 
 ![](assets/mc-viz4.png)
 
@@ -51,10 +51,10 @@ Beachten Sie, dass dieselbe Metrik (Online-Bestellungen) unterschiedliche Ergebn
 
 Im Folgenden finden Sie einige Videos, die Attribution IQ detaillierter erklären: IQ- [Playlist](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)für Zuordnungen.
 
-## Tabulatorübergreifende Marketinganalyse
+## Tabulatorübergreifende Marketing-Analyse
 
-Mithilfe des alten First Touch- und Last Touch-Kanals können Sie eine hilfreiche Ansicht der Kanalinteraktionen erhalten:
+Mithilfe des alten First Touch-Kanals und des Last Touch-Kanals erhalten Sie eine hilfreiche Ansicht zu den Interaktionen von Kanälen:
 
 ![](assets/mc-viz6.png)
 
-In [diesem Video](https://www.youtube.com/watch?v=M3EOdONa-3E)erfahren Sie mehr über tabulatorübergreifende Marketinganalyse.
+In [diesem Video](https://www.youtube.com/watch?v=M3EOdONa-3E)erhalten Sie weitere Informationen zur tabulatorübergreifenden Marketing-Analyse.
