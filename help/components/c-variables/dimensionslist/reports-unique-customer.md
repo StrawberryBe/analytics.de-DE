@@ -3,7 +3,7 @@ description: Ein Unique Visitor, der einen Einkauf tätigt. Ein Unique Customer 
 title: Unique Customers
 topic: Reports
 uuid: f4fb15e8-482d-4467-81dc-58ade7743822
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
