@@ -3,7 +3,7 @@ description: Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während ei
 title: Besuche
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,19 +21,19 @@ Zeigt die Anzahl der Besuche auf Ihrer gesamten Website während eines angegeben
 * Ein Besuch wird mit der ersten Bildanforderung eingeleitet, die von einem neuen Besucher oder von einem vorhandenen Benutzer stammt, dessen Besuch abgelaufen war. Damit wird die Entrypage bezeichnet.
 * Die letzte Bildanforderung vor Ablauf eines Besuchs gilt das Ende eines Besuchs. Damit wird die Exitpage bezeichnet.
 
-   Siehe  [Berichte zu Einstiegen und Ausstiegen](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+   Siehe [Berichte zu Einstiegen und Ausstiegen](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * Stündliche Aufschlüsselungen basieren auf der Zeitzone der Report Suite.
 * Der Bericht enthält keine Zeileneinträge. Sie können ihn nur in der Trendansicht anzeigen.
 * Eine Granularität wie Stunde, Tag, Woche, Monat, Quartal und Jahr kann angewendet werden. Die Verfügbarkeit dieser Granularitätseinstellungen hängt vom Datumsbereich der Berichterstellung ab.
 
-Siehe  [Besuchsmetrik](/help/components/c-variables/c-metrics/metrics-visit.md), um weitere Informationen zur Verarbeitung dieser Metrik in Experience Cloud zu erhalten.
+Siehe [Besuchsmetrik](/help/components/c-variables/c-metrics/metrics-visit.md), um weitere Informationen zur Verarbeitung dieser Metrik in Experience Cloud zu erhalten.
 
 **Produktspezifische Berichtinformationen**
 
 <table id="table_3138CA443CAC4F55838216E8B8786EE2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Produkt </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Navigation </th> 
   </tr> 
  </thead>
