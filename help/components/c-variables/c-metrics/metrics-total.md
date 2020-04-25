@@ -3,7 +3,7 @@ description: Der Wert aller Berichtszeileneinträge aus einem Berichtszeitraum. 
 title: Gesamt
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
