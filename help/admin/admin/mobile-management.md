@@ -3,7 +3,7 @@ description: Durch die Aktivierung von Mobile Management aktivieren Sie die mobi
 title: Mobile Management
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -58,7 +58,7 @@ Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf 
 | App-ID | Speichert den Applikationsnamen und die Version im folgenden Format:   `[AppName] [BundleVersion]`  Beispiel, `myapp 1.1.` |
 | Startanzahl | Gibt an, wie oft die Applikation gestartet bzw. aus dem Hintergrund gebracht wurde. |
 | Tage seit der ersten Verwendung | Anzahl der Tage seit dem ersten Ausführen. |
-| Tage seit der letzten Verwendung | Anzahl der Tage seit dem letzten Ausführen. |
+| Tage seit der letzten Verwendung | Anzahl der Tage seit der letzten Verwendung. |
 | Stunde des Tages | Misst, zu welcher Stunde die Anwendung gestartet wurde; es wird ein 24-Stunden-Format genutzt. Wird für die Zeitaufteilung verwendet, um Spitzennutzungszeiten zu ermitteln. |
 | Wochentag | Nummer des Wochentags, an dem die Applikation gestartet wurde. |
 | Gerätename | Speichert den Gerätenamen.  Zweistellige, kommagetrennte Zeichenfolge, die das Gerät angibt. Die erste Ziffer steht üblicherweise für die Gerätegeneration, die zweite weist die Version der verschiedenen Mitglieder der Gerätefamilie aus. |
