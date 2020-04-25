@@ -22,7 +22,7 @@ Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die
 |---|---|
 | Alle löschen | ALT + W |
 | Alle Bereiche reduzieren/erweitern | ALT + M |
-| Aktives Bedienfeld reduzieren/erweitern | alt + Strg + m |
+| Aktiven Bereich reduzieren/erweitern | alt + Strg + m |
 | Kopieren | STRG (oder Befehl) + C |
 | Erstellen eines Warnhinweises | STRG (oder Befehl) + UMSCHALT + A |
 | Berechnete Metrik erstellen | STRG (oder Befehl) + UMSCHALT + C |
@@ -36,8 +36,8 @@ Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die
 | Zum Fenster „Bereiche“ | ALT + UMSCHALT + 1 |
 | Zum Fenster „Visualisierungen“ | ALT + UMSCHALT + 2 |
 | Zum Fenster „Komponenten“ | ALT + UMSCHALT + 3 |
-| Zum nächsten Fenster | ALT + RECHTER Schlüssel |
-| Zum vorherigen Fenster wechseln | Alt + Linker Schlüssel |
+| Zum nächsten Bereich wechseln | ALT + RECHTER Schlüssel |
+| Zum vorherigen Bereich wechseln | Alt + Linker Schlüssel |
 | Neuer Attributionsbereich | ALT + E |
 | Neues Balkendiagramm | ALT + 3 |
 | Neues leeres Bedienfeld | ALT + B |
@@ -51,10 +51,10 @@ Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die
 | Projekt speichern | STRG (oder Befehl) + S |
 | Projekt speichern unter | STRG (oder Befehl) + UMSCHALT + S |
 | Als Vorlage speichern | Alt + t |
-| Links suchen | Strg + / |
+| Linke Leiste durchsuchen | Strg + / |
 | Datei jetzt senden | ALT + S |
 | Datei planmäßig senden | UMSCHALT + ALT + S |
 | Als Landingpage festlegen | STRG (oder Befehl) + UMSCHALT + L |
 | Projekt freigeben | STRG (oder Befehl) + G |
 | Wiederherstellen | STRG (oder Befehl) + UMSCHALT + Z |
-| Rückgängig | STRG (oder Befehl) + Z |
+| Machen Sie Ihre Änderungen rückgängig | STRG (oder Befehl) + Z |
