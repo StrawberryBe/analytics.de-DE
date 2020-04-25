@@ -3,7 +3,7 @@ description: Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die m
 title: Übersicht über den Segmentierungs-Workflow
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,13 +30,13 @@ seg_workflow.xml
 
 Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment mit Blick auf seinen Einsatzzweck und die konkrete Verwendung entworfen?
 
-Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die   Checkliste für die Segmentplanung.
+Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die  Checkliste für die Segmentplanung.
 
 ![](assets/step2_icon.png) [Segmente erstellen](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)
 
 Erstellen und bearbeiten Sie Segmente für die Verwendung mit sämtlichen Analytics-Funktionen.
 
-Siehe  [Erstellen sequenzieller Segmente](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem DANN-Operator.
+Siehe [Erstellen sequenzieller Segmente](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem DANN-Operator.
 
 ![](assets/step3_icon.png) [ Segmente taggen](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
