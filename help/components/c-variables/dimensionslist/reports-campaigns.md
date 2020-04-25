@@ -3,7 +3,7 @@ description: Zeigt Informationen über die Effektivität Ihrer Werbemaßnahmen a
 title: Kampagnen
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
