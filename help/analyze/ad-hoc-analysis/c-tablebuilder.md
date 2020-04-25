@@ -2,7 +2,7 @@
 description: Verwenden Sie den Tabellenaufbau, um einen Bericht mit einer beliebigen Konfiguration von Metriken, Dimensionen und Segmenten zu erstellen. Beispielsweise können Sie mehrere Metriken zum Tabellenaufbau hinzufügen und dann das Segment auf alle gleichzeitig anwenden. Sie können Elemente aus den Tool-Bereichen als Zeilen und Aufschlüsselungen oder als Spalten anwenden und die Tabelle für eine andere Ansicht einfach drehen. Nachdem Sie die Tabelle erstellt haben, können Sie direkt mit der erhaltenen Datentabelle interagieren und weitere Analysen anstellen. Denken Sie daran, dass beim Erzeugen einer Datentabelle über den Tabellenaufbau eine Abfrage ausgeführt und eine neue Datentabelle erstellt wird.
 title: Tabellenaufbau
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -42,7 +42,7 @@ Der [!UICONTROL Tabellenaufbau] steht für bestimmte Pfadsetzungsberichte wie [!
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Elemente bearbeiten</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Wählen Sie eine Liste mit Dimensionselementen, um eine feste Liste für Aufschlüsselungen zu erstellen. Wenn Sie Elemente zu dieser Liste hinzufügen, sind sie in einem gespeicherten Bericht persistent und werden nicht ausgeblendet, wenn Sie einen gespeicherten oder terminierten Bericht öffnen. </p> <p>Siehe  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Tabellendaten unterteilen</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Wählen Sie eine Liste mit Dimensionselementen, um eine feste Liste für Aufschlüsselungen zu erstellen. Wenn Sie Elemente zu dieser Liste hinzufügen, sind sie in einem gespeicherten Bericht persistent und werden nicht ausgeblendet, wenn Sie einen gespeicherten oder terminierten Bericht öffnen. </p> <p>Siehe <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Tabellendaten unterteilen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Spalten</span> </td> 
