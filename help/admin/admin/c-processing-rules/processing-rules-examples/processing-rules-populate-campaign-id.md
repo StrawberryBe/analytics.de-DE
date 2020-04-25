@@ -14,7 +14,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Sie können eine Variable mithilfe eines Abfragezeichenfolgenparameters auffüllen.
 
-In den meisten Fällen verwenden Sie ein Plug-in, um Variablen aus der Abfragezeichenfolge zu füllen. Wenn das Auffüllen aufgrund eines Schreibfehlers oder einer vergleichbaren Ursache fehlschlägt, können Sie die Variable mit Hilfe von Verarbeitungsregeln auffüllen.
+In den meisten Fällen verwenden Sie ein Plug-in, um Variablen aus der Abfrage-Zeichenfolge zu füllen. Wenn das Auffüllen aufgrund eines Schreibfehlers oder einer vergleichbaren Ursache fehlschlägt, können Sie die Variable mit Hilfe von Verarbeitungsregeln auffüllen.
 
 Prüfen Sie vor dem Überschreiben stets nach, ob ein Wert leer ist oder den erwarteten Wert enthält.
 
