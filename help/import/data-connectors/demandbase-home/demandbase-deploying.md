@@ -65,7 +65,7 @@ Zum Aktivieren der Integration müssen Sie den Konfigurationsassistenten auf der
    1. Die Namen der 8 Standarddimensionen sollte **NICHT** geändert werden (d. h. „Demandbase-SID“, „Firmenname“, „Branche“).
 
 1. Aktivieren Sie das Kästchen, damit das Dashboard für die Demandbase-Integration automatisch für Sie erstellt wird (empfohlen).
-1. Review all configuration items and click **[!UICONTROL Activate Now]**.
+1. Überprüfen Sie alle Konfigurationselemente. Klicken Sie dann auf **[!UICONTROL Jetzt aktivieren]**.
 
 ## Bereitstellen des Integrationscodes {#deploying-the-integration-code}
 
@@ -155,7 +155,7 @@ Wenn Sie das Integrate-Modul noch nicht im Rahmen Ihrer Bereitstellung installie
 
 ### Für AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
+1. Entpacken Sie die AppMeasurement-ZIP-Datei, die Sie unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]** heruntergeladen haben.
 
 1. Öffnen Sie die Datei mit dem Namen [!DNL AppMeasurement_Module_Integrate.js].
 1. Kopieren Sie die Inhalte dieser Datei und fügen Sie diese in Ihre primäre [!DNL AppMeasurement.js]-Datei ein.
