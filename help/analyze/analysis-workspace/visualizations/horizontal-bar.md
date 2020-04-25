@@ -2,7 +2,7 @@
 description: 'null'
 title: Horizontalbalken und Horizontalbalken gestapelt
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,11 +18,11 @@ Diese Visualisierung zeigt Horizontalbalken, die verschiedene Werte aus einer od
 
 ## Horizontalbalken gestapelt  {#section_50C08E9E20A94024A6553BC352ADB597}
 
-Diese Visualisierung entspricht dem [!UICONTROL horizontalen Balkendiagramm], die Serien sind hier jedoch gestapelt.
+This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
 
 ![](assets/horizontal-bar-stacked.png)
 
-Mit der neuen Einstellung [!UICONTROL Horizontalbalken gestapelt] erhalten Sie eine zu „100 % gestapelte“ Visualisierung.
+The [!UICONTROL Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a &quot;100% stacked&quot; visualization:
 
 ![](assets/horizstacked100.png)
 
