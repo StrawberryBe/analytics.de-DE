@@ -17,12 +17,12 @@ In früheren Versionen von Adobe Analytics verwendete AppMeasurement die `visito
 
 ## Besucher-Namespace in Adobe Experience Platform Launch
 
-[!UICONTROL Visitor Namespace] ist ein Feld unter dem [!UICONTROL Cookies] Akkordeon, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
+[!UICONTROL Besucher-Namespace] ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Erweitern Sie das [!UICONTROL Cookies] Akkordeon, das das [!UICONTROL Visitor Namespace] Feld aufdeckt.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Feld [!UICONTROL Besucher-Namespace] angezeigt wird.
 
 Adobe empfiehlt, dieses Feld nicht zu verwenden. Verwenden Sie stattdessen `trackingServer` und `trackingServerSecure`.
 
