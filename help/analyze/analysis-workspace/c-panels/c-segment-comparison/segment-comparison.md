@@ -58,7 +58,7 @@ Nachdem Adobe die Analyse der beiden gewünschten Segmente abgeschlossen hat, we
 
 ### Größe und Überschneidung
 
-Veranschaulicht die vergleichenden Größen jedes ausgewählten Segments und wie stark sie sich mithilfe eines Venendiagramms überschneiden. Sie können den Mauszeiger über das Visuelle bewegen, um zu sehen, wie viele Besucher sich in den einzelnen überlappenden oder nicht überlappenden Abschnitten befanden. Sie können auch mit der rechten Maustaste auf die Überschneidung klicken, um ein neues Segment für weitere Analysen zu erstellen. Wenn sich die beiden Segmente gegenseitig ausschließen, wird keine Überschneidung zwischen den beiden Kreisen angezeigt (typischerweise bei Segmenten, die einen Hit-Container verwenden).
+Veranschaulicht die vergleichenden Größen jedes ausgewählten Segments und wie stark sie sich mithilfe eines Venendiagramms überschneiden. Wenn Sie den Mauszeiger auf die Visualisierung bewegen, sehen Sie, wie viele Besucher in den einzelnen sich überschneidenden oder sich nicht überschneidenden Bereichen enthalten sind. Sie können auch mit der rechten Maustaste auf die Überschneidung klicken, um für weitere Analysen ein ganz neues Segment zu erstellen. Wenn sich die beiden Segmente gegenseitig ausschließen, wird keine Überschneidung zwischen den beiden Kreisen angezeigt (typischerweise bei Segmenten, die einen Hit-Container verwenden).
 
 ![Größe und Überschneidung](assets/size-overlap.png)
 
