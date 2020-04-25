@@ -3,7 +3,7 @@ description: Wird in den Berichterstellungsbereichen „Einkäufe“, „Warenko
 title: Im Zeitverlauf
 topic: Reports
 uuid: 4cd8492b-319e-4a55-8d99-70dd6ec9b4ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
