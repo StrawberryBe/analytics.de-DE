@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Anforderungen und Upload-Beschränkungen
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,11 +16,11 @@ Informationen zu den Anforderungen an Ihre Report Suite vor der Nutzung von Data
 
 In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data Sources und für in Marketing Reports &amp; Analysen importierte Daten gelten.
 
-* [Größenbeschränkungen](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [Datum](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [Größenbeschränkungen ](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [Daten ](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
 * [Allgemein](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
 * [Multibyte-Unterstützung](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [Hochladen von Webprotokolldateien](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [Hochladen von Webprotokolldateien ](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## Größenbeschränkungen  {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
