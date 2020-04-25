@@ -1,5 +1,5 @@
 ---
-description: Virtual Report Suites können kuratiert werden, um Komponenten einzuschließen und auszuschließen.in Analyse Workspace.
+description: Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 title: Zusammenstellung der Virtual Report Suite-Komponenten
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
@@ -10,16 +10,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Zusammenstellung der Virtual Report Suite-Komponenten
 
-Virtual Report Suites können kuratiert werden, um Komponenten einzuschließen und auszuschließen.in Analyse Workspace.
+Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 
->[!NOTE]Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Zuvor konnte jeder nicht kuratierte Komponenten sehen, indem er auf **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
+>[!NOTE]Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/curate-projects-vrs.html) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
-1. Öffnen von **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. Klicken Sie nach dem Definieren der **[!UICONTROL Settings]** Registerkarte auf die **[!UICONTROL Components]** Registerkarte.
+1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Neue Virtual Report Suite erstellen]**.
+1. Wenn Sie die **[!UICONTROL Einstellungen]** festgelegt haben, klicken Sie auf die Registerkarte **[!UICONTROL Komponenten]**.
 
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzerdefinierte Anpassung von Komponenten virtueller Report Suites aktivieren]**:
 
    ![](assets/vrs-enable.png)
 
@@ -27,12 +27,12 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    >
    >Bei Aktivierung der Komponentenanpassung ist die Virtual Report Suite **nur über Analysis Workspace** zugänglich, nicht aber über Folgendes:
 
-   * [!UICONTROL Reports & Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
+   * [!UICONTROL Reports &amp; Analytics]
+   * [!UICONTROL Ad Hoc Analysis ]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics-Reporting-API
-   Nach der Aktivierung können Sie die Komponenten, die Sie in die Virtual Report Suite aufnehmen möchten, hinzufügen, indem Sie die entsprechenden Komponenten aus der Spalte &quot;Ausgeschlossene Komponenten&quot;in die Spalte &quot;Einbezogene Komponenten&quot;ziehen. Folgende Komponenten können einbezogen und ausgeschlossen werden:
+   Nach der Aktivierung können Sie die in die Virtual Report Suite einzubeziehenden Komponenten hinzufügen, indem Sie die betreffenden Komponenten aus der Spalte „ausgeschlossene Komponenten“ in die Spalte „eingeschlossene Komponenten“ ziehen. Die ein- und ausschließbaren Komponenten lauten wie folgt:
 
    * Dimensionen
    * Metriken
@@ -42,23 +42,23 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    >
    >Kuratierte Komponenten (Segmente, berechnete Metriken, Datumsbereiche) müssen nicht *freigegeben* werden. Für die Virtual Report Suite kuratierte Komponenten sind in Analysis Workspace stets sichtbar, auch wenn sie nicht freigegeben werden.
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. Zudem können Sie die Komponenten filtern oder suchen und die gesamte gefilterte Auswahl der Spalte der eingeschlossenen Elemente hinzufügen, indem Sie auf **[!UICONTROL Alle hinzufügen klicken]**.
 
    ![](assets/vrs-add-all.png)
 
 ## Umbenannte Komponenten {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-Sie können die Anzeigenamen der eingeschlossenen Komponenten ändern, die für die Virtual Report Suite spezifisch sind. Wenn Sie z. B. den Seitennamen in die Virtual Report Suite aufnehmen möchten, ihn aber in einen benutzerfreundlicheren Kontext umbenennen möchten, können Sie ihn in App-Bildschirme ändern. Der neue Name wird im Arbeitsbereich für Analysen immer dann angezeigt, wenn diese Virtual Report Suite verwendet wird.
+Sie können die Anzeigenamen eingeschlossener Komponenten je nach Virtual Report Suite ändern. Wenn Sie beispielsweise den Seitennamen in die Virtual Report Suite einschließen möchten, er jedoch in einen Mobilgeräte-tauglicheren Kontext umbenannt werden soll, können Sie ihn in App-Bildschirme ändern. Der neue Name wird immer dann in Analysis Workspace angezeigt, wenn diese Virtual Report Suite verwendet wird.
 
 ![](assets/vrs-rename-component.png)
 
-Klicken Sie im Arbeitsbereich für Analyse auf das Informationssymbol für eine beliebige Komponente, um den Originalnamen der umbenannten Komponente anzuzeigen:
+Klicken Sie in Analysis Workspace auf das Informationssymbol für eine beliebige eingeschlossene Komponente, um den ursprünglichen Namen der umbenannten Komponente anzuzeigen:
 
 ![](assets/vrs-aw-renamed.png)
 
 ## Komponentengruppen  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-Verwenden Sie Komponentengruppen, um Ihrer Virtual Report Suite Massenkomponenten hinzuzufügen. Wenn Sie z. B. einen Standardsatz von Komponenten importieren möchten, die für die mobile App-Analyse spezifisch sind, wählen Sie die Gruppe der mobilen App aus. Ein entsprechender Satz von Dimensionen und Metriken (bereits umbenannt) wird automatisch der Virtual Report Suite Included Liste hinzugefügt.
+Mithilfe von Komponentengruppen können Sie Ihrer Virtual Report Suite stapelweise Komponenten hinzufügen. Wenn Sie beispielsweise einen Standardsatz mit spezifischen Komponenten für die mobile App-Analyse importieren möchten, wählen Sie die mobile App-Gruppe aus. Daraufhin wird der Liste „Eingeschlossen“ der Virtual Report Suite automatisch ein entsprechender Satz mit Dimensionen und Metriken (bereits umbenannt) hinzugefügt.
 
 ![](assets/vrs-comp-grp.png)
 
