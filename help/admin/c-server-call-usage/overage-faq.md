@@ -2,7 +2,7 @@
 description: 'null'
 title: Häufig gestellte Fragen zur Nutzung von Server-Aufrufen
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
