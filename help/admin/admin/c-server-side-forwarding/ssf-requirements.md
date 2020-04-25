@@ -3,7 +3,7 @@ description: Sie müssen diese Anforderungen bezüglich Experience Cloud-Lösung
 solution: Audience Manager
 title: Anforderungen an die serverseitige Weiterleitung
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
