@@ -12,9 +12,9 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
-* Eine umfassende Liste der neuen Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* Eine umfassende Liste der neuen Funktionen, Admin-Benachrichtigungen und Fehlerbehebungen finden Sie in den aktuellen [Versionshinweisen zu Experience Cloud](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
 * Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen in Analyse Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) im Tools-Benutzerhandbuch.
-* Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+* Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html).
 
 ## Aktualisierungen im Detail
 
@@ -28,12 +28,12 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 22. Januar 2020 | Die Seite „Freiform-Tabelle“ wurde aktualisiert und enthält Informationen zum neuen [Freiform-Tabellen-Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13. Januar 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 25. November 2019 | Neues Thema zum [internen Marketing-Kanal (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 25. November 2019 | Neues Thema zum [internen Marketing-Kanal (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/session-refresh.html) |
 | 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) festgelegt |
-| 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analysen](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
+| 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
+| 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analysen](https://docs.adobe.com/content/help/de-DE/analytics/components/cda/cda-home.html) |
+| 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](https://docs.adobe.com/content/help/de-DE/analytics/analyze/pwa/pwa.html) |
 | 8. August 2019 | Neuer Artikel zu [Gesamtwerten für berechnete Metriken](/help/components/c-calcmetrics/cm-totals.md) |
 | 8. August 2019 | Erläuterungen zu [zeitstempelaktivierten Sitzungsdaten](/help/admin/admin/timestamp-optional.md) |
 | 5. August 2019 | Aktualisierungen von [Schlüsselkonzepten](/help/analyze/reports-analytics/key-concepts.md) |
