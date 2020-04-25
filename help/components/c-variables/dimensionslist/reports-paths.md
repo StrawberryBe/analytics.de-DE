@@ -3,7 +3,7 @@ description: Zeigt Informationen zur Reihenfolge an, in der die Seiten Ihrer Web
 title: Pfade
 topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Pfadberichte enthalten standardmäßig umfassende und optional erweiterte Analys
 
 ![](assets/fallout_graphic.png)
 
-Siehe  [Fallout-Bericht](/help/components/c-variables/dimensionslist/reports-fallout.md).
+Siehe [Fallout-Bericht](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: Hiermit können Sie Ihre vollständigen Pfade weiter in Fragmente aufschlüsseln, um die genauen Muster zu ermitteln, mit denen Sie Ihre Site optimieren können. Mit dem PathFinder-Assistenten können Sie Auswahlkriterien angeben, die für die Berichterstellung verwendet werden, damit Sie die Pfadfragmente analysieren und diejenigen abfragen können, die mit einer bestimmten Seite beginnen oder enden, oder auch solche, die mit einer Seite beginnen und mit einer anderen enden.
 
