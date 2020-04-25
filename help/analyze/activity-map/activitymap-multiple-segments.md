@@ -15,14 +15,14 @@ Ermöglicht es Ihnen, in Activity Map Filter anzuwenden, die mehrere Segmente um
 
 >[!NOTE] Die Segmentsteuerung ist nur im Standardmodus verfügbar, da die Adobe Analytics-Plattform die Segmentierung von Echtzeitdaten nicht unterstützt.
 
-You can select one or several of the segments from the **[!UICONTROL Segments]** drop-down menu shown below. Die aufgelisteten Segmente sind identisch mit denen, die Sie besitzen oder die über Reports &amp; Analysen für die ausgewählte Report Suite für Sie freigegeben wurden.
+Sie können ein oder mehrere Segmente aus dem unten abgebildeten Dropdownmenü **[!UICONTROL Segmente]** auswählen. Die aufgelisteten Segmente sind entweder Ihre eigenen oder solche, die über „Reports &amp; Analytics“ für die ausgewählte Report Suite für Sie freigegeben wurden.
 
 ![](assets/segments.png)
 
-Wenn sich die Auswahl der Segmente geändert hat und die Segmentauswahl geschlossen wurde, wird für alle in der Anwendung angezeigten Metriken ein neuer Analytics-Datenabruf-Prozess gestartet. Die ausgewählten Segmente werden beim Navigieren von Seite zu Seite gespeichert.
+Wenn sich die ausgewählten Segmente geändert haben und nachdem die Segmentauswahl geschlossen wurde, wird ein neuer Analytics-Datenabrufprozess für alle Metriken gestartet, die in der Anwendung angezeigt werden. Während Sie von Seite zu Seite navigieren, „merkt“ sich das Programm die ausgewählten Segmente.
 
-Wenn mehr als ein Segment ausgewählt ist, zeigt die Beschriftung für die Segmentauswahl (in reduziertem Zustand) &quot;Mehrere&quot;an. Die vollständige Liste der ausgewählten Segmente wird angezeigt, wenn Sie auf das Steuerelement klicken.
+Sind mehrere Segmente ausgewählt, so lautet die Beschriftung der Segmentauswahl (in minimiertem Zustand) „Mehrere“. Die vollständige Liste der ausgewählten Segmente wird angezeigt, wenn Sie auf das Steuerelement klicken.
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+Die ausgewählten Segmente werden auf alle in Activity Map dargestellten Analytics-Berichte angewendet, d. h. auf Überlagerungen sowie auf die Berichte **[!UICONTROL Links auf Seite]** und **[!UICONTROL Seitendetails]**.
