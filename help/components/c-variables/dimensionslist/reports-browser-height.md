@@ -3,7 +3,7 @@ description: Bezeichnet nur das vertikale Ausmaß der Daten im Browser-Fenster. 
 title: Browserhöhe
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
