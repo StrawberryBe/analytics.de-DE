@@ -19,15 +19,15 @@ Cookie-Lebensdauer ist ein Dropdown-Menü unter dem Akkordeon [!UICONTROL Cookie
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Erweitern Sie das [!UICONTROL Cookies] Akkordeon, das die [!UICONTROL Cookie Lifetime] Dropdownliste aufdeckt.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Dropdown-Menü [!UICONTROL Cookie-Lebensdauer] angezeigt wird.
 
 Dieses Dropdown-Menü enthält die folgenden Werte:
 
 * **Standardmäßig**: Cookie läuft nach 2 Jahren ab.
 * **Keine**: AppMeasurement setzt keine Cookies.
 * **Sitzung**: Cookie läuft am Ende der Sitzung des Besuchers ab.
-* **Sekunden**: Cookie läuft nach der angegebenen Anzahl von Sekunden ab. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
+* **Sekunden**: Cookie läuft nach der angegebenen Anzahl von Sekunden ab. Wenn Sie dieses Dropdown-Menü beispielsweise auf [!UICONTROL Sekunden] festlegen und `86400` in das benutzerdefinierte Feld platzieren, laufen Cookies nach genau 24 Stunden ab.
 
 ## s.cookieLifetime in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
