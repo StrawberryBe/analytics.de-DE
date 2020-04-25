@@ -2,7 +2,7 @@
 description: Eine appFigures-Integration wird häufig verwendet, um Daten für mehrere Anwendungen aus mehreren App Stores zu erfassen. Sie können Segmente erstellen, um Berichtsdaten für eine bestimmte App oder einen App Store zu isolieren.
 title: Segmentieren von App-Daten
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
