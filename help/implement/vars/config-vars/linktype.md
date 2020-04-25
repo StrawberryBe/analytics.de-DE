@@ -23,12 +23,12 @@ Legen Sie den Link-Typ fest, wenn Sie eine Regel zum Senden eines Beacons konfig
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Type] dropdown.
+3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
+5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
+6. Klicken Sie auf die Optionsschaltfläche `s.tl()`, wodurch das Dropdown-Menü [!UICONTROL Link-Typ] angezeigt wird.
 
-Sie können dieses Dropdown-Menü auf [!UICONTROL Custom Link], [!UICONTROL Download Link]oder [!UICONTROL Exit Link]einstellen.
+Sie können dieses Dropdown-Menü auf [!UICONTROL Benutzerspezifischer Link], [!UICONTROL Downloadlink] oder [!UICONTROL Exitlink] setzen.
 
 ## s.linkType in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
