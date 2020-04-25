@@ -2,7 +2,7 @@
 description: Es gibt Besuchermetriken in Adobe Analytics und Adobe Audience Manager, die ähnliche Definitionen haben, die sich aber aus verschiedenen Gründen nicht zu 100 % entsprechen.
 title: Unterschiede in der Besucherzahl
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -65,7 +65,7 @@ Die AAM-Segmentpopulation in Echtzeit und die in der Audience Analytics-Bericht
   <tr> 
    <td colname="col1"> <p>Begrenzung von 150 Segmenten </p> </td> 
    <td colname="col2"> <p>Nein </p> </td> 
-   <td colname="col3"> <p>Ja  , Zählungen in Analytics können von der Integrationsbegrenzung von 150 Segmenten zu bis zu 5 % betroffen sein. „Zielgruppenlimit erreicht“ wird in der Dimension „Zielgruppenname“ angezeigt, wenn es zu einer Kürzung kam. </p> </td> 
+   <td colname="col3"> <p>Ja – Zählungen in Analytics können von der Integrationsbegrenzung von 150 Segmenten zu bis zu 5 % betroffen sein. „Zielgruppenlimit erreicht“ wird in der Dimension „Zielgruppenname“ angezeigt, wenn es zu einer Kürzung kam. </p> </td> 
   </tr> 
  </tbody> 
 </table>
