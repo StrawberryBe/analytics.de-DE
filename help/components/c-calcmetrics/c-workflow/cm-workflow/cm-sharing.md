@@ -2,7 +2,7 @@
 description: Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre gesamte Organisation, für Gruppen oder für einzelne Benutzer freigeben.
 title: Berechnete Metriken freigeben
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
