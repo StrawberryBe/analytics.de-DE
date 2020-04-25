@@ -2,7 +2,7 @@
 description: Die Data Connectors-Integration für emarsys verwendet Analytics-Variablen zur Verfolgung verschiedener emarsys-Metriken.
 title: Analytics-Variablen
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
