@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Integration Guide
+user-guide-title: Integrationsleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
 source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
@@ -16,7 +16,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
    + [Audience Analytics-Übersicht](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics-Workflow {#audience-analytics-workflow}
       + [Workflow-Übersicht](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Analytics-Ziel erstellen - AAM-Handbuch](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Analytics-Ziel erstellen – AAM-Handbuch](https://docs.adobe.com/help/de-DE/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Zielgruppendaten in Analytics verwenden](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Anwendungsfälle für Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Häufig gestellte Fragen](c-audience-analytics/mc-audiences-faqs.md)
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [Werbekonten verwalten](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Problembehebung in Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Häufig gestellte Fragen](c-advertising-analytics/aa-faq.md)
-+ [Analytics für Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
++ [Analytics for Target – A4T](https://marketing.adobe.com/resources/help/de_DE/target/a4t/a4t.html)
 + [Berichterstellung für Adobe Campaign](adobe-campaign.md)
 + [Berichterstellung für AEM Assets](aem-assets-reporting.md)
 + [Activity Map-Berichterstellung](activitmap-reporting.md)
