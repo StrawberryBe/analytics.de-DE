@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # Verweisende Stellen
 
-Die Dimension &quot;Werber&quot;zeigt die URL an, von der Ihre Besucher kamen, bevor sie zu Ihrer Site gelangten. Wenn ein Besucher beispielsweise auf einen Link von Ihrer Site klickt `example.com/example-page.html` `example.com/example-page.html` und zu Ihrer Site gelangt, ist dies der Werber, wenn er nicht als Teil Ihrer Domäne definiert ist.
+Die Dimension &quot;Werber&quot;zeigt die URL an, von der Ihre Besucher kamen, bevor sie zu Ihrer Site gelangten. For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 Für diese Dimension müssen Sie die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md)Ihrer Report Suite konfigurieren. Wenn Sie keine internen URL-Filter konfigurieren, betrachtet Adobe Analytics alle Domänen als intern für Ihre Site.
 
