@@ -3,7 +3,7 @@ description: Eine Seitenansicht wird für jeden versandten Server-Aufruf gezähl
 title: Seitenansicht
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ Eine nützliche Verwendungsmöglichkeit für die Seitenansichten-Metrik: Führen
 | Konversion | Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website aufruft. |
 | Ad Hoc Analysis | Eine Seitenansicht tritt auf, wenn ein Besucher eine Seite auf Ihrer Website aufruft. |
 
-Siehe  [Bericht „Seitenansichten“](/help/components/c-variables/dimensionslist/reports-page-views.md).
+Siehe [Bericht „Seitenansichten“](/help/components/c-variables/dimensionslist/reports-page-views.md).
