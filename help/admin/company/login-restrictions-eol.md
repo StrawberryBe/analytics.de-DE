@@ -1,7 +1,7 @@
 ---
 title: Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 description: Erfahren Sie mehr über die Abschaffung und die Auswirkungen für die Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
