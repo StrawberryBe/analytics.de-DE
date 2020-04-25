@@ -13,4 +13,4 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Sie können Datenschutzeinstellungen für Browser-Cookies aktivieren.
 
-Siehe Datenschutzeinstellungen für Browser-Cookies[ ](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/browser-cookie-settings.html)aktivieren im Core Services-Benutzerhandbuch.
+Siehe Datenschutzeinstellungen für Browser-Cookies [](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/browser-cookie-settings.html) aktivieren im Core Services-Benutzerhandbuch.
