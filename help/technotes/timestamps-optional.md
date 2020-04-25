@@ -14,37 +14,37 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der Einstellung „Zeitstempel optional“.
 
-&quot;Zeitstempel optional&quot;ist die Standardeinstellung für alle neuen Report Suites.
+„Zeitstempel optional“ ist die Standardeinstellung für alle neuen Report Suites.
 
-* Mischen Sie Daten mit und ohne Zeitstempel in derselben globalen Report Suite.
-* Senden von Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite
-* Aktualisieren Sie Apps, um Zeitstempel zu verwenden, ohne eine neue Report Suite erstellen zu müssen.
+* Sie können auch Daten mit und Daten ohne Zeitstempel gemeinsam in einer globalen Report Suite verwenden.
+* Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
+* Aktualisieren Sie Apps, sodass Sie ohne Erstellung einer neuen Report Suite Zeitstempel verwenden können.
 
 >[!NOTE] Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
 
-Weitere Informationen zur Einrichtung finden Sie unter [Zeitstempel optional](https://marketing.adobe.com/resources/help/de_DE/reference/timestamp-optional.html) .
+Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://marketing.adobe.com/resources/help/de_DE/reference/timestamp-optional.html).
 
 ## Zeitstempel optional: Integration von Daten mit und ohne Zeitstempel {#section_BF17CB593044462B993FD0D28EA56518}
 
-Mit der Funktion &quot;Zeitstempel optional&quot;können Sie Daten ohne Zeitstempel mit Daten mit Zeitstempel kombinieren, ohne dass dabei Datenverluste auftreten. Offline-Daten mit Zeitstempeln, die von einem Mobilgerät generiert werden, können mit Live-Daten ohne Zeitstempel von einer Webseite kombiniert werden - oder mit Daten von einer beliebigen Plattform über einen clientseitigen Zeitstempelaufruf integriert werden.
+Mit der Funktion „Zeitstempel optional“ können Sie Daten mit und ohne Zeitstempel ohne Datenverlust kombinieren. Offline-Daten mit Zeitstempel von einem mobilen Gerät können – mittels eines clientseitigen Zeitstempelaufrufs – mit Daten ohne Zeitstempel einer Live-Webseite kombiniert oder in die Daten jeder Plattform integriert werden.
 
-* **Zeitstempeldaten**. Client-seitige Daten mit Zeitstempel werden erfasst und direkt mit den Gerätedaten über Client-seitige Zeitstempelvariablen übertragen: mittels Javascript von einer Webseite oder mittels eines Mobile SDK-Aufrufs ([!DNL offlineEnabled=true]) aus einer App.
-* **Daten** ohne Zeitstempel. Adobe legt einen Zeitstempel für Daten ohne Zeitstempel in einer Report Suite fest, wenn die Daten auf die Erfassungsserver gelangen.
+* **Daten mit Zeitstempel**: Client-seitige Daten mit Zeitstempel werden erfasst und direkt mit den Gerätedaten über Client-seitige Zeitstempelvariablen übertragen: mittels Javascript von einer Webseite oder mittels eines Mobile SDK-Aufrufs ([!DNL offlineEnabled=true]) aus einer App.
+* **Daten ohne Zeitstempel**: Adobe versieht Daten einer Report Suite ohne Zeitstempel mit einem Zeitstempel, sobald die Daten beim Erfassungsserver eintreffen.
 
 
-Eine Report Suite kann über eine der folgenden Zeitstempeleinstellungen verfügen:
+Eine Report Suite kann eine der folgenden Zeitstempeleinstellungen haben:
 
-* Keine Zeitstempel zulässig (Festlegen von visitorID unterstützt)
-* Zeitstempel erforderlich (Festlegen von visitorID nicht unterstützt)
-* Zeitstempel optional (Festlegen von visitorID unterstützt, aber nicht bei Treffern mit Zeitstempel)
+* Zeitstempel nicht zugelassen (Einstellen der Besucher-ID unterstützt)
+* Zeitstempel erforderlich (Einstellen der Besucher-ID nicht unterstützt)
+* Zeitstempel optional (Einstellen der Besucher-ID unterstützt, aber nicht bei Treffern mit Zeitstempel)
 
 ## Informationen zu den Funktionen von „Zeitstempel optional“ {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
-Mit &quot;Zeitstempel optional&quot;können Sie mehrere Report Suites mit oder ohne clientseitige Zeitstempel integrieren und Berichte darüber erstellen. Mit &quot;Zeitstempel optional&quot;können Sie Ihre App so aktualisieren, dass Zeitstempel verwendet werden, während Sie weiterhin Daten ohne Zeitstempel aus der vorherigen App verwenden.
+„Zeitstempel optional“ ermöglicht die Berichterstattung über mehrere Report Suites, und zwar unabhängig davon, ob clientseitige Zeitstempel enthalten sind oder nicht. Wenn Sie die Option „Zeitstempel optional“ gewählt haben, können Sie Ihre App so aktualisieren, dass Zeitstempel, nach wie vor aber auch Daten ohne Zeitstempel aus früheren Apps verwendet werden.
 
-| In früheren Versionen ... | Zusätzlich... |
+| In früheren Versionen … | Zusätzlich … |
 |--- |--- |
-| Daten mit Zeitstempel konnten nicht an eine globale Report Suite ohne Zeitstempel gesendet werden. Trefferdaten von Offline-Geräten wurden daher bei dem Versuch, sie einer Report Suite ohne Zeitstempel hinzuzufügen, verworfen. <br/><br/>Trefferdaten aus Offline-Daten wurden daher bei dem Versuch, sie einer Report Suite ohne Zeitstempel hinzuzufügen, verworfen. | Wenn Sie eine App so aktualisieren möchten, dass sie Zeitstempel erfasst und verwendet, müssen Sie eine neue Report Suite einrichten. <br/>Nach der Aktualisierung zur Verwendung von Zeitstempeln war ein Speichern in die alte Report Suite oder die Integration vorhandener Daten nicht mehr möglich. |
+| Daten mit Zeitstempel konnten nicht in eine globale Report Suite ohne Zeitstempel übertragen werden. Trefferdaten von Offline-Geräten wurden daher bei dem Versuch, sie einer Report Suite ohne Zeitstempel hinzuzufügen, verworfen. <br/><br/>Trefferdaten aus Offline-Daten wurden daher bei dem Versuch, sie einer Report Suite ohne Zeitstempel hinzuzufügen, verworfen. | Wenn Sie eine App so aktualisieren möchten, dass sie Zeitstempel erfasst und verwendet, müssen Sie eine neue Report Suite einrichten. <br/>Nach der Aktualisierung zur Verwendung von Zeitstempeln war ein Speichern in die alte Report Suite oder die Integration vorhandener Daten nicht mehr möglich. |
 
 Mit **Zeitstempel optional** können Sie nicht zeitgestempelte Daten einer Live-Webseite mit Offline-Daten von mobilen Geräten integrieren oder Ihre App ohne Zeitstempel zu einer App aktualisieren, die Zeitstempel verwendet.
 
@@ -56,14 +56,14 @@ Sie können Daten auf verschiedene Weise zu einer globalen Report Suite kombinie
 
 ## Best Practices in Verbindung mit Zeitstempeln {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
-Im Folgenden finden Sie bewährte Verfahren sowie einige Anforderungen und Einschränkungen, die bei der Integration von Daten mit Zeitstempel mit Daten ohne Zeitstempel beachtet werden müssen.
+Nachfolgend finden Sie Best Practices in Verbindung mit Zeitstempeln sowie einige Anforderungen und Einschränkungen, derer Sie sich bewusst sein sollten, wenn Sie Daten mit und ohne Zeitstempel integrieren möchten.
 
-* In der Regel müssen Zeitstempel für einen bestimmten Besucher oder Besuch in der richtigen chronologischen Reihenfolge bei Adobe eingehen.
+* Im Allgemeinen müssen die Zeitstempel für einen bestimmten Besucher oder Besuch in korrekter chronologischer Reihenfolge bei Adobe eintreffen.
 
-   Zu den nicht in der Reihenfolge befindlichen Daten können Daten aus der Offline-Datenerfassung und verspätete Zugriffe oder nicht synchronisierte Uhren auf mobilen Offline-Geräten gehören. Daten außerhalb der Reihenfolge können Zeitberechnungen (wie Besuchszeitwerte), Zuordnungen (eVar-Persistenz), Besuchszahlen und Pfadsetzungsberichte negativ beeinflussen.
+   Daten außerhalb der Reihenfolge können verspätet eintreffende Daten aus Offline-Datenerfassungen, verspätet eintreffende Treffer oder nicht synchronisierte Zeiten von Offline-Mobilgeräten sein. Diese nicht chronologischen Daten können Berechnungen (z. B. die Angabe der Dauer), Zuordnungen (eVar-Persistenz), Besucherzahlen und Pfadsetzungsberichte beeinträchtigen.
 
-* Die Verwendung von Zeitstempeln beim Festlegen einer [s.visitorID](https://marketing.adobe.com/resources/help/de_DE/sc/implement/visid_custom.html) wird nicht empfohlen. Dies kann zu nicht sortierten Daten führen.
+* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://marketing.adobe.com/resources/help/de_DE/sc/implement/visid_custom.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
 
-* Hybrid-Apps, die aus einer App (mit Zeitstempel, Offlinedaten) bestehen und einen Webbrowser öffnen (ohne Zeitstempel, Live-Daten), sollten keine Zeitstempel verwenden. Das Ergebnis ist ein ungenauer Berichte der Sitzung.
+* Hybridanwendungen mit einer App (Offline-Daten mit Zeitstempel), die einen Webbrowser öffnet (Live-Daten ohne Zeitstempel), sollten keine Zeitstempel verwenden. Die Daten der Sitzung würden dadurch nicht korrekt gemeldet werden.
 
-   Darüber hinaus sollten Hybridanwendungen keine Besucher-ID festlegen.
+   Zudem sollten Hybridanwendungen keine Besucher-IDs verwenden.
