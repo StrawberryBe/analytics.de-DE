@@ -3,7 +3,7 @@ description: Wenn Sie die Referrer-Sites der Besucher bei jedem Besuch verfolgen
 title: Typ der verweisenden Stelle
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Wenn Sie die Referrer-Sites der Besucher bei jedem Besuch verfolgen und aufzeichnen, können Sie feststellen, wie Ihre Besucher bei jedem Besuch zu Ihrer Site gefunden haben.
 
-In der folgenden Liste sind die verschiedenen Arten von verweisenden Stellen definiert:
+In der folgenden Liste sind die verschiedenen Arten von Referrern definiert:
 
 **Andere Websites**: Andere verweisende Websites werden aufgezeichnet, wenn Besucher auf einen Link auf einer Seite einer anderen Website klicken (die nicht Bestandteil Ihrer Website ist) und daraufhin zu Ihrer Website gelangen.
 
