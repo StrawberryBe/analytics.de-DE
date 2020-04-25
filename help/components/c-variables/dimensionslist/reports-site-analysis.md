@@ -3,7 +3,7 @@ description: Ein Ad Hoc Analysis-Bericht. In der Site-Analyse können Sie sehen,
 title: Site-Analyse
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -69,7 +69,7 @@ Klicken Sie mit der rechten Maustaste auf Säulen, um sie zu bearbeiten oder zu 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Vorlage </p> </td> 
+   <td colname="col1"> <p>Vorlage  </p> </td> 
    <td colname="col2"> <p>Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Klicken Sie mit der rechten Maustaste auf Säulen, um sie zu bearbeiten oder zu 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Diagramm speichern unter </p> </td> 
-   <td colname="col2"> <p>Hiermit können Sie das Diagramm als <span class="filepath">.png</span>- oder <span class="filepath">.jpg</span>-Datei speichern. Wenn Sie die Diagrammsteuerungen (Graph-Winkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. </p> </td> 
+   <td colname="col2"> <p>Hiermit können Sie das Diagramm als <span class="filepath">.png</span>- oder <span class="filepath">.jpg</span>-Datei speichern. Wenn Sie die Diagrammsteuerungen (Diagrammwinkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Diagramm in Zwischenablage kopieren </p> </td> 
