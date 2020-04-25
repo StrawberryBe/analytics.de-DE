@@ -2,7 +2,7 @@
 description: Durch die Segmentierung einzelner Metriken können Sie Metriken innerhalb eines Berichts vergleichen. (Nur abgeleitete Metriken)
 title: Segmentierte Metriken
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
