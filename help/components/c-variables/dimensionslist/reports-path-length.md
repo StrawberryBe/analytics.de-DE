@@ -3,7 +3,7 @@ description: Zeigt die Tiefe der einzelnen Besuche auf Ihrer Website nach Prozen
 title: Path Length
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
