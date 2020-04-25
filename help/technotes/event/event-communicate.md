@@ -13,7 +13,7 @@ Wenn Sie Daten haben, die von einem Ereignis [](../event-impacted.md)betroffen s
 
 ## Kommunikation über Bedienfeld- oder Visualisierungsbeschreibungen
 
-Wenn Sie ein Workspace-Projekt verwenden, das von Benutzern in Ihrem Unternehmen gemeinsam genutzt wird, können Sie die Auswirkungen eines Ereignisses über Bedienfeld- oder Visualisierungsbeschreibungen kommunizieren. Klicken Sie mit der rechten Maustaste auf einen Bereich oder eine Visualisierungskopfzeile und wählen Sie **[!UICONTROL Edit description]**.
+Wenn Sie ein Workspace-Projekt verwenden, das von Benutzern in Ihrem Unternehmen gemeinsam genutzt wird, können Sie die Auswirkungen eines Ereignisses über Bedienfeld- oder Visualisierungsbeschreibungen kommunizieren. Klicken Sie mit der rechten Maustaste auf ein Bedienfeld oder eine Visualisierungskopfzeile und wählen Sie anschließend Beschreibung **[!UICONTROL bearbeiten]**.
 
 ![Bereichsbeschreibung](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ Sie können die Auswirkungen eines Ereignisses auch über spezielle Textvisualis
 
 Wenn Sie Reports &amp; Analysen verwenden, können Sie mithilfe eines [Kalenderberichts](/help/components/t-calendar-event.md) die betroffenen Ereignis in einem beliebigen Trendbericht hervorheben. Diese Methode gilt nicht für Analyse Workspace.
 
-1. Navigieren Sie zu **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Kalenderelemente]**.
 2. Geben Sie den gewünschten Titel, den Datumsbereich und den Notiztext ein.
-3. Klicken Sie auf **[!UICONTROL Save]**.
+3. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![Kalender-Ereignis](../assets/exclude_calendar_event.png)
