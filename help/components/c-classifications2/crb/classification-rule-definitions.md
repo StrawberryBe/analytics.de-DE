@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Klassifizierungsregeln – Definitionen
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -84,7 +84,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Die Nummer der Regel. </p> <p>Siehe  <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Verarbeitung der Regeln</a> für weitere Informationen. </p> </td> 
+   <td colname="col2"> <p>Die Nummer der Regel. </p> <p>Siehe <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Verarbeitung der Regeln</a> für weitere Informationen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Regeltyp auswählen</span> </td> 
@@ -129,7 +129,7 @@ Auf der Seite [!UICONTROL Regulärer Ausdruck] können Sie reguläre Ausdrücke 
 | Übereinstimmungsgruppen | Zeigt, wie der reguläre Ausdruck den Zeichen der Kampagnen-ID entspricht, so dass Sie eine Position in der Kampagnen-ID klassifizieren können. |
 | Übereinstimmungsergebnis | Zeigt die Teile einer Zeichenfolge an, die mit dem regulären Ausdruck übereinstimmt. |
 
-Siehe  [Reguläre Ausdrücke in Classification-Regeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## Seite „Tests“ {#section_EC926F97901C4E65901413F9683AA70A}
 
