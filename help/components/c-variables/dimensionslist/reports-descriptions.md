@@ -3,7 +3,7 @@ description: Definitionen der vordefinierten Berichte, die in Reports & Analytic
 title: Dimensionsbeschreibungen
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
