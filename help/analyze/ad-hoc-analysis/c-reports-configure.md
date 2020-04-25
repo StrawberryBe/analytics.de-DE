@@ -2,7 +2,7 @@
 description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
 title: Bestehende Berichte konfigurieren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lineare Regression anzeigen </p> </td> 
-   <td colname="col2"> <p>Für  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > Punktdiagramme</a>. Zeigt eine statistische Näherung Ihrer Daten an. </p> </td> 
+   <td colname="col2"> <p>Für <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > Punktdiagramme</a>. Zeigt eine statistische Näherung Ihrer Daten an. </p> </td> 
   </tr> 
  </tbody> 
 </table>
