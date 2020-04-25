@@ -18,24 +18,24 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Welche Administrator- und Zugriffsanforderungen gelten für Analyse Workspace? </p> </td> 
+   <td colname="col1"> <p>Welche Administrations- und Zugriffsanforderungen gibt es für Analysis Workspace? </p> </td> 
    <td colname="col2"> <p>Siehe <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Administrationsanforderungen</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Wie viele Report Suites können in einem Analyse Workspace-Projekt angezeigt werden? </p> </td> 
-   <td colname="col2"> <p>Derzeit können Sie nur eine Report Suite pro Projekt anzeigen. </p> </td> 
+   <td colname="col1"> <p>Wie viele Report Suites können in einem Projekt des Analysis Workspace angezeigt werden? </p> </td> 
+   <td colname="col2"> <p>Zurzeit können Sie nur eine Report Suite pro Projekt anzeigen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Wie implementieren Sie Analyse Workspace? </p> </td> 
-   <td colname="col2"> <p>Es ist keine spezielle Implementierung erforderlich. Analyse Workspace steht allen Firmen mit Analytics Standard oder Premium zur Verfügung. Es gelten jedoch die Standardberechtigungen für Inhalte (wie Report Suites und Projektkomponenten) sowie für die Kuratierung und Freigabe von Projekten. Weitere Informationen finden Sie unter <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  >Administrations- und Zugriffsanforderungen</a>. </p> </td> 
+   <td colname="col1"> <p>Wie wird der Analysis Workspace implementiert? </p> </td> 
+   <td colname="col2"> <p>Es ist keine spezielle Implementierung erforderlich. Der Analysis Workspace steht allen Unternehmen mit Analytics Standard oder Premium zur Verfügung. Es gelten jedoch die Standardberechtigungen für Inhalte (z. B. Report Suites und Projektkomponenten) und für die Kuratierung und Freigabe von Projekten. Weitere Informationen finden Sie unter <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  >Administrations- und Zugriffsanforderungen</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ändert der Arbeitsbereich für Analysen vorkonfigurierte Berichte in Adobe Analytics? </p> </td> 
-   <td colname="col2"> <p>Nein. Da es sich hierbei um eine separate Umgebung handelt, werden Ihre vorhandenen oder vorkonfigurierten Berichte in Adobe Analytics nicht geändert. Sie können mit Analysis Workspace weiterhin Standardberichte aus Reports &amp; Analytics sowie vom Report Builder nutzen. </p> </td> 
+   <td colname="col1"> <p>Ändert der Analysis Workspace die vorkonfigurierten Berichte in Adobe Analytics? </p> </td> 
+   <td colname="col2"> <p>Nein. Da es sich hier um eine separate Umgebung handelt, ergeben sich keine Änderungen an Ihren vorhandenen oder vorkonfigurierten Berichten in Adobe Analytics. Sie können mit Analysis Workspace weiterhin Standardberichte aus Reports &amp; Analytics sowie vom Report Builder nutzen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Kann ich Analyse Workspace für Data Warehouse verwenden? </p> </td> 
-   <td colname="col2"> <p>Für den Massendatenexport wird der Arbeitsbereich für Analysen nicht empfohlen. Es handelt sich um einen VisualisierungsWorkspace für das Erstellen dashboardartiger Analyseprojekte. </p> </td> 
+   <td colname="col1"> <p>Kann ich den Analysis Workspace für Data Warehouse verwenden? </p> </td> 
+   <td colname="col2"> <p>Der Analysis Workspace wird für den Export von Massendaten nicht empfohlen. Es handelt sich um einen VisualisierungsWorkspace für das Erstellen dashboardartiger Analyseprojekte. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>Wie kann ich die Leistung von Analysis Workspace optimieren? </p> </td> 
