@@ -2,7 +2,7 @@
 description: Häufig gestellte Fragen zu den Funktionen, der Funktionalität und den Problemen bezüglich der serverseitigen Weiterleitung.
 title: Häufig gestellte Fragen zur serverseitigen Weiterleitung
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
