@@ -3,7 +3,7 @@ description: „Neue Interaktionen“ ist eine Berichterstellungsmetrik für Mar
 title: Neue Interaktionen
 topic: Metrics
 uuid: 2d1dc194-10f3-4bfd-ba60-2a57fc2ad2a8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
