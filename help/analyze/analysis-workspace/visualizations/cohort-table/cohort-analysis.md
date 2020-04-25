@@ -13,19 +13,19 @@ source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur Kohortenanalyse sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Nachdem Sie einen Kohortenbericht erstellt haben, können Sie seine Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. See [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+Nachdem Sie einen Kohortenbericht erstellt haben, können Sie dessen Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. Weitere Informationen finden Sie unter [Kuratieren und freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Beispiele für die Nutzung einer Kohortenanalyse:
 
-* Starten Sie Kampagnen, die eine gewünschte Aktion auslösen sollen.
-* Verschiebt das Marketingbudget genau zum richtigen Zeitpunkt im Kundenlebenszyklus.
-* Erkennen Sie, wann eine Testversion oder ein Angebot beendet werden soll, um den Wert zu maximieren.
-* Erhalten Sie Ideen für A/B-Tests in Bereichen wie Preisgestaltung, Aktualisierungspfad usw.
-* Ansicht eines Berichts zur Kohorte-Analyse in einem Bericht zur geführten Analyse.
+* Starten Sie Kampagnen, die dafür ausgelegt sind, eine erwünschte Aktion anzuregen.
+* Erhöhen Sie das Marketingbudget genau zum richtigen Zeitpunkt im Kundenlebenszyklus.
+* Erkennen Sie, wann eine Testphase oder ein Angebot beendet werden sollte, um den Wert zu maximieren.
+* Gewinnen Sie Ideen für A/B-Tests in Bereichen wie Preisstruktur, Upgradepfad usw.
+* Zeigen Sie einen Kohortenanalysebericht mit einem angeleiteten Analysebericht an.
 
-Die Analyse der Kohorte steht allen Analytics-Kunden mit Zugriffsrechten auf den Analyse Workspace zur Verfügung.
+Die Kohortenanalyse steht allen Analytics-Kunden mit Zugriffsrechten auf Analysis Workspace zur Verfügung.
 
-[Kohortenanalyse auf YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Kohortenanalyse auf YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Die Analyse der Kohorte steht allen Analytics-Kunden mit Zugriffsrechten auf den
 
 ## Funktionen der Kohortenanalyse
 
-Im Januar 2019 veröffentlichte Adobe eine neue und deutlich verbesserte Version der Kohortenanalyse. Sie erhalten damit eine sehr viel feinere Steuerung der Kohorten, die Sie erstellen. Die folgenden Erweiterungen wurden vorgestellt:
+Im Januar 2019 veröffentlichte Adobe eine neue und deutlich verbesserte Version der Kohortenanalyse. Sie erhalten damit eine sehr viel feinere Steuerung der Kohorten, die Sie erstellen. Dies sind die Verbesserungen:
 
 ### Bindungstabelle
 
@@ -55,13 +55,13 @@ Ermöglicht es Ihnen, die Bindung oder die Abwanderung auf Grundlage der vorheri
 
 ### Latenztabelle
 
-Misst die Zeit, die vor und nach dem Aufnahmeereignis verstrichen ist. Ein hervorragendes Tool für die Vor- und Nachanalyse. Die Spalte &quot;Einbezogen&quot;befindet sich in der Mitte der Tabelle und die Zeiträume vor und nach dem Einschluss-Ereignis werden auf beiden Seiten angezeigt.
+Misst die Zeit, die vor und nach dem Aufnahmeereignis verstrichen ist. Ein hervorragendes Tool für die Vor- und Nachanalyse. Die Spalte „Aufnahme“ befindet sich in der Mitte der Tabelle und die Zeiträume vor und nach dem Aufnahmeereignis werden auf beiden Seiten angezeigt.
 
 ![](assets/cohort-latency.png)
 
 ### Angepasste Dimensionskohorte
 
-Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf Grundlage zeitbasierter Kohorten, die Standardeinstellung sind. Verwenden Sie Dimensionen wie Marketing-Kanal, Kampagne, Produkt, Seite, Region oder andere Dimensionen in Adobe Analytics, um zu zeigen, wie sich die Bindung je nach den verschiedenen Werten dieser Dimensionen ändert.
+Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf Grundlage zeitbasierter Kohorten, die Standardeinstellung sind. Verwenden Sie Dimensionen wie Marketing-Kanal, Kampagne, Produkt, Seite, Region oder jede andere Dimension in Adobe Analytics, um anzuzeigen, wie die Bindung sich basierend auf verschiedenen Werten dieser Dimensionen verändert.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
