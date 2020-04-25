@@ -13,11 +13,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Report Suite.
 
-Mit Zeitstempel optional können Sie:
+„Zeitstempel optional“ bietet folgende Möglichkeiten:
 
-* Mischen Sie Daten mit und ohne Zeitstempel in derselben globalen Report Suite.
-* Senden von Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite
-* Aktualisieren Sie Apps, um die Offline-Verfolgung zu verwenden, ohne eine neue Report Suite erstellen zu müssen.
+* Sie können auch Daten mit und Daten ohne Zeitstempel gemeinsam in einer globalen Report Suite verwenden.
+* Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
+* Aktualisieren Sie Apps, um die Offline-Nachverfolgung zu verwenden, ohne eine neue Report Suite erstellen zu müssen.
 
 >[!IMPORTANT] Wenn Sie &quot;Zeitstempel optional&quot;verwenden, stellen Sie [s.visitorID](/help/implement/vars/config-vars/visitorid.md) nicht für Daten ein, die bereits mit einem Zeitstempel versehen sind. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchsnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
 
@@ -25,21 +25,21 @@ Mit Zeitstempel optional können Sie:
 
 ## Neue Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 
-* Wenn eine neue Report Suite aus einer Vorlage erstellt wird, wird standardmäßig &quot;Zeitstempel optional&quot;verwendet.
+* Wenn sie aus einer Vorlage erstellt wird, gilt für eine neue Report Suite die Standardeinstellung „Zeitstempel optional“.
 
-   (Sie können eine neue Report Suite aus einer Vorlage unter **Admin > Report Suites > Neu erstellen > Report Suite** erstellen.)
-* Wenn sie aus einer vorhandenen Report Suite kopiert wird, übernimmt die neue Report Suite die Zeitstempeleinstellung des Originals, einschließlich:
+   (Sie können eine neue Report Suite über **Admin > Report Suites > Neu erstellen > Report Suite** aus einer Vorlage erstellen.)
+* Wenn sie aus einer vorhandenen Report Suite kopiert wird, erbt die neue Report Suite die Zeitstempeleinstellung des Originals, einschließlich:
 
-   * **Zeitstempel nicht zulässig** (Einstellung &quot;s.visitorID&quot;wird unterstützt)
-   * **Zeitstempel erforderlich** (Einstellung s.visitorID wird nicht unterstützt)
-   * **Zeitstempel optional** (Einstellung von s.visitorID unterstützt, jedoch nicht bei Treffern mit Zeitstempel)
+   * **Keine Zeitstempel zulässig** (Einstellung „s.visitorID“ wird unterstützt)
+   * **Zeitstempel erforderlich** (Einstellung „s.visitorID“ wird nicht unterstützt)
+   * **Zeitstempel optional** (Einstellung „s.visitorID“ wird unterstützt, aber nicht für Zeitstempeltreffer)
 
 ## Änderung vorhandener Report Suites in „Zeitstempel optional“ {#section_40BCD3B4639241DEA716F7640ED33E72}
 
-1. Gehen Sie zu **Admin > Report Suites > Einstellungen bearbeiten > Allgemein > Zeitstempelkonfiguration**.
-1. Wählen Sie das Feld &quot;Ausgewählte Report Suites in optionale Zeitstempel **konvertieren&quot;** .
+1. Wechseln Sie zu **Admin > Report Suites > Einstellungen bearbeiten > Allgemein > Zeitstempelkonfiguration**.
+1. Aktivieren Sie **Ausgewählte Report Suites in „Zeitstempel optional“ konvertieren**.
 
-   Dadurch wird Ihre Report Suite in &quot;Zeitstempel optional&quot;geändert.
+   Damit wird die Report Suite in „Zeitstempel optional“ geändert.
 
 >[!NOTE] Wurde eine Report Suite auf **Zeitstempel optional** festgelegt, müssen Sie sich an die Adobe-Kundenunterstützung wenden, um diese oder andere Einstellungen zu ändern.
 
