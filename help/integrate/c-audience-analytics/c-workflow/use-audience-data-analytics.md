@@ -3,7 +3,7 @@ description: 'Sie können die AAM Zielgruppen-Dimensionen überall in Analytics
 solution: Experience Cloud
 title: Zielgruppendaten in Analytics verwenden
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
