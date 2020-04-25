@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: Anpassen des Berichtszugriffs – Übersicht
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -87,7 +87,7 @@ Sie können beispielsweise eine Gruppe mit Zugriff auf mehrere Analytics-Tools (
      <li id="li_3035442010984C409089B21E03DB7BCC">Gerätenummerübertragung </li> 
      <li id="li_6B2163ED8FC84EBF933D97A504B4D527">PTT </li> 
      <li id="li_0EB8A4A7619B45DF87109B183A7C69C8">Design-Mail-Unterstützung </li> 
-     <li id="li_989FAC662F7344E6BDDC517B79D4581E">Informationen </li> 
+     <li id="li_989FAC662F7344E6BDDC517B79D4581E">Information </li> 
      <li id="li_F1FB7F8E415443F3B63F6D11D59A04AB">Informationsdienst </li> 
     </ul> <p>Diese Berichte: </p> 
     <ul id="ul_F71505C59F734EA9B541BF8AB9F9388F"> 
