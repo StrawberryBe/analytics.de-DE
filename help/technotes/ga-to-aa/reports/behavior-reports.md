@@ -1,7 +1,7 @@
 ---
 title: Verhaltensberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Verhaltensberichte in Adobe Analytics erstellen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
