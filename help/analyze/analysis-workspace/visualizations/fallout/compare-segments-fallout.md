@@ -25,33 +25,33 @@ Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segme
 
    ![](assets/segment-from-touchpoint.png)
 
-   Der Segmentaufbau wird geöffnet und vorab mit dem vordefinierten sequenziellen Segment gefüllt, das dem ausgewählten Touchpoint entspricht:
+   Der Segment Builder wird geöffnet und enthält das vorab erstellte sequenzielle Segment, das zu dem von Ihnen ausgewählten Touchpoint passt:
 
    ![](assets/segment-builder.png)
 
-1. Geben Sie dem Segment einen Titel und eine Beschreibung und speichern Sie es.
+1. Geben Sie einen Titel und eine Beschreibung für das Segment ein, und speichern Sie es.
 
-   Sie können dieses Segment jetzt in jedem gewünschten Bericht verwenden.
+   Nun können Sie dieses Segment in jedem gewünschten Bericht verwenden.
 
 ## Hinzufügen eines Segments als Touchpoint {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Wenn Sie z. B. sehen möchten, wie Ihre US-Benutzer den Trend verfolgen und den Trichteranalysevorgang beeinflussen, ziehen Sie einfach das Segment &quot;US-Benutzer&quot;in den Fallout:
+Wenn Sie zum Beispiel wissen möchten, wie der Trend bei Ihren Benutzern aus den USA aussieht und wie sich dies in der Fallout-Analyse auswirkt, ziehen Sie einfach das Segment „USA-Benutzer“ in den Trichter:
 
 ![](assets/segment-touchpoint.png)
 
-Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment &quot;US-Benutzer&quot;an einen anderen Checkpoint ziehen.
+Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer“ auf einen anderen Checkpoint ziehen.
 
 ## Vergleichen von Segmenten im Fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-Sie können eine unbegrenzte Anzahl von Segmenten in der Fallout-Visualisierung vergleichen.
+In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten miteinander vergleichen.
 
-1. Wählen Sie die zu vergleichenden Segmente in der [!UICONTROL Segments] Leiste auf der linken Seite aus. In unserem Beispiel haben wir 2 Segmente ausgewählt: US-Benutzer und Nicht-US-Benutzer.
-1. Ziehen Sie sie in die Dropzone Segment oben.
+1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. Im vorliegenden Beispiel haben wir 2 Segmente ausgewählt: „USA-Benutzer“ und „Benutzer außerhalb der USA“.
+1. Ziehen Sie sie nach oben in die Ablegezone „Segmente“.
 
    ![](assets/segment-drop.png)
 
-1. Optional: Sie können &quot;Alle Besuche&quot;als Standard-Container beibehalten oder löschen.
+1. Optional: Sie können „Alle Besuche“ als Standardcontainer belassen oder löschen.
 
    ![](assets/seg-compare.png)
 
-1. Sie können nun den Trichteranalysebericht über die beiden Segmente hinweg vergleichen, z. B., wo ein Segment ein anderes übertrifft, oder andere Einblicke.
+1. Sie können nun den Fallout über zwei Segmente hinweg vergleichen (z. B. an welcher Stelle ein Segment eine bessere Leistung als das andere hat) oder sonstige Einblicke erhalten.
