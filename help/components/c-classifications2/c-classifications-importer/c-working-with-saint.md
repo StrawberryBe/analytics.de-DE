@@ -16,7 +16,7 @@ Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics ho
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-Die mit dem Import-Tool importierten Daten müssen in einem bestimmten Format vorliegen. Adobe bietet Ihnen die Möglichkeit, eine Datenvorlage mit allen erforderlichen Kopfzeilendetails in einer tabulatorgetrennten Datendatei herunterzuladen. Sie können Ihre neuen Daten dieser Vorlage hinzufügen und die Datendatei dann über FTP in den Browser importieren.
+Die mit dem Import-Tool importierten Daten müssen ein bestimmtes Format aufweisen. Adobe bietet eine Datenvorlage mit den richtigen Header-Details in einer mit Tabulatoren begrenzten Datei zum Herunterladen an. Sie können Ihre neuen Daten in diese Vorlage einfügen und dann die Datendatei über FTP in den Browser importieren.
 
 >[!NOTE] Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 
