@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics und Browsercookies
 description: Erfahren Sie, wie Adobe Analytics die Cookies von Browsern verarbeitet.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
 
 ---
