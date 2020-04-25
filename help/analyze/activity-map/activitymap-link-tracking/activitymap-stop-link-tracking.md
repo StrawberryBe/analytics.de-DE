@@ -3,7 +3,7 @@ description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in 
 title: Linktracking beenden
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
