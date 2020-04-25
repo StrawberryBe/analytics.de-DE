@@ -2,7 +2,7 @@
 description: Listet die Standarddimensionen auf, die automatisch mit der Integration erfasst werden.
 title: Demandbase-Standarddimensionen
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
