@@ -1,7 +1,7 @@
 ---
 title: Häufig gestellte Fragen
 description: Erhalten Sie Antworten auf häufig gestellte Fragen, wenn Sie von einer Plattform eines Drittanbieters zu Adobe wechseln.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
