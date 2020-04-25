@@ -17,8 +17,8 @@ Zeigt Metriken zum Typ der Internetverbindung an, einschließlich Modem, LAN/WLA
 
 ## Beispiel
 
-Im folgenden Bericht werden Verbindungstypen für die Metriken [Besuche](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) und [Seitenansichten](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)verglichen:
+Der folgende Bericht vergleicht Verbindungstypen für die Metriken [Besuche](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/metrics/metrics-visit.html) und [Ansichten](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html):
 
-![anzuzeigen](assets/contype_compare.png)
+![zur Verfügung](assets/contype_compare.png)
 
 Weitere Einblicke in den Verbindungstyp des Mobilnetzbetreibers finden Sie im [**Mobilnetzbetreiber-Bericht **](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile-carrier.html).
