@@ -16,9 +16,9 @@ Mit Virtual Report Suites werden Daten einer Report Suite angezeigt, die in Ihre
 
 In vielen Fällen können Sie Virtual Report Suites verwenden, um Multi-Suite-Tagging zu ersetzen. Durch den Wechsel zu Virtual Report Suites kann die Notwendigkeit [sekundärer Server-Aufrufe](/help/admin/c-server-call-usage/overage-overview.md) effektiv beseitigt werden. Ihre Organisation verfügt beispielsweise über 6 verschiedene Websites, von denen jede Daten an ihre eigene Report Suite sowie eine kombinierte globale Report Suite sendet. Jede Site erhält einen sekundären Server-Aufruf, einen an die Report Suite der jeweiligen Marken und einen zweiten an die globale Report Suite. Stattdessen können Sie Daten von allen Sites ausschließlich an die globale Report Suite senden und dann mehrere Virtual Report Suites verwenden, um die Marken voneinander zu trennen.
 
-Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suites ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und die Anzahl der Server-Aufrufe reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen für Virtual Report Suites. Die folgenden Richtlinien helfen Ihnen bei der Entscheidung, ob die Implementierung von Virtual Report Suites, die auf einer globalen Report Suite basieren, der richtige Ansatz für Sie ist.
+Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suites ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und die Anzahl der Server-Aufrufe reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen für Virtual Report Suites. Die folgenden Richtlinien sollen Ihnen bei der Entscheidung helfen, ob auf einer globalen Report Suite erstellte Virtual Report Suites der richtige Ansatz für Sie sind.
 
-## Leitlinien
+## Richtlinien
 
 Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an andere Administratoren von Adobe Analytics oder an Ihren Adobe-Kundenbetreuer. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
 
