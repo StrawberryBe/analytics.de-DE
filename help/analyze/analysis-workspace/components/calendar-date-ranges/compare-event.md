@@ -31,7 +31,7 @@ Sie können eine beliebige Metrik zwischen dem Datumsbereich des Ereignisses mit
 
 2. Klicken Sie mit der rechten Maustaste auf den Datumsbereich und dann auf **[!UICONTROL Add time period column]** > **[!UICONTROL Custom date range to this date range]**.
    * Wählen Sie für einen wöchentlichen Vergleich den Bereich des Ereignisses minus 7 Tage aus. Stellen Sie sicher, dass die Wochentage zwischen dem Ereignis und diesem Datumsbereich ausgerichtet sind.
-   * Wählen Sie für einen Monatsvergleich den Bereich des Ereignisses im letzten Monat aus. Sie können auch den Bereich des Ereignisses minus 28 Tage auswählen, wenn Sie die Wochentage ausrichten möchten.
+   * Wählen Sie für einen Monat-zu-Monat-Vergleich den Bereich des Ereignisses im letzten Monat aus. Sie können auch den Bereich des Ereignisses minus 28 Tage auswählen, wenn Sie die Wochentage ausrichten möchten.
    * Wählen Sie für einen Jahresvergleich den Bereich des Ereignisses im letzten Jahr aus.
 3. Wenn Sie den gewünschten Datumsbereich auswählen, werden diese der Freiformtabelle hinzugefügt. Sie können mit der rechten Maustaste klicken und so viele Datumsbereiche hinzufügen, wie Sie vergleichen möchten.
 
