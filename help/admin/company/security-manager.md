@@ -3,7 +3,7 @@ description: Ermöglicht das Steuern des Zugriffs auf Berichterstellungsdaten. Z
 title: Sicherheits-Manager
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
