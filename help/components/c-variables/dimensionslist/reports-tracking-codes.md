@@ -3,7 +3,7 @@ description: Ermittelt, wie sich verschiedene Werbe-Trackingcodes auf die unters
 title: Trackingcodes
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
