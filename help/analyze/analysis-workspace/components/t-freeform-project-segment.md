@@ -20,13 +20,13 @@ Die Segmentleiste im Menü „Komponenten“ zeigt Segmente sowie Segmentvorlage
 
 ## Segmente erstellen {#section_693CFADA668B4542B982446C2B4CF0F5}
 
-Sie können Instant-Segmente erstellen, indem Sie jeden beliebigen Komponententyp (Dimension, Dimensionselement, Ereignis, Metrik, Segment, Segmentvorlage, Datumsbereich) oben im Bedienfeld in die Segment-Dropzone verschieben.
+Sie können sofort Segmente erstellen, indem Sie einen beliebigen Komponententyp (Dimension, Dimensionselement, Ereignis, Metrik, Segment, Segmentvorlage, Datenreichweite) in die Ablagefläche für Segmente oben in einem Bereich ablegen.
 
 Komponententypen werden automatisch in Segmente umgewandelt. Alternativ können Sie auf das „+“-Symbol im Ablagefeld „Segment hinzufügen“ klicken.
 
 Bedenken Sie Folgendes:
 
-* Die folgenden Komponententypen **können nicht** in der Segmentzone abgelegt werden: berechnete Metriken und Dimensionen/Metriken, aus denen Sie keine Segmente erstellen können.
+* Folgende Komponenten können Sie **nicht** im Segmentbereich ablegen: berechnete Metriken und Dimensionen/Metriken, aus denen Sie keine Segmente erstellen können.
 * Bei vollständigen Dimensionen und Ereignissen erstellt Analysis Workspace Hit-Segmente mit „vorhanden“. Beispiele: „Hit, wenn eVar1 vorhanden ist“ oder „Hit, wenn event1 vorhanden ist“.
 * Wenn „nicht angegeben“ oder „keine“ im Segmentablagebereich abgelegt werden, werden sie automatisch in ein Segment mit „nicht vorhanden“ umgewandelt, damit sie bei der Segmentierung korrekt behandelt werden.
 
@@ -36,18 +36,18 @@ Bedenken Sie Folgendes:
 
 Sie können diese Segmente wie folgt öffentlich (global) machen:
 
-1. Bewegen Sie den Mauszeiger über das Segment in der Dropzone und klicken Sie auf das Symbol &quot;i&quot;.
+1. Bewegen Sie den Mauszeiger auf das Segment in der Dropzone und klicken Sie auf das Symbol „i“.
 1. In the information panel that displays, click **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
 
 ## Andere Methoden für das Anwenden von Segmenten {#section_10FF2E309BA84618990EA5B473015894}
 
-Für die Anwendung von Segmenten auf ein Freiformprojekt gibt es mehrere weitere Methoden.
+Es gibt verschiedene weitere Methoden für das Anwenden von Segmenten auf ein Freiformprojekt.
 
 | Aktion | Beschreibung |
 |--- |--- |
-| Segment aus Auswahl erstellen | Erstellen Sie ein Inline-Segment. Wählen Sie Zeilen aus, klicken Sie mit der rechten Maustaste auf die Auswahl und erstellen Sie dann ein Inline-Segment. Dieses Segment wird nur auf das geöffnete Projekt angewendet und nicht als Analytics-Segment gespeichert. 1. Zeilen auswählen.  2. Rechtsklick auf die Auswahl.  3. Klick auf *Segment aus Auswahl erstellen*. |
+| Segment aus Auswahl erstellen | Erstellt ein Inline-Segment. Wählen Sie Zeilen aus, klicken Sie mit der rechten Maustaste auf die Auswahl und erstellen Sie ein Inline-Segment. Dieses Segment wird nur auf das geöffnete Projekt angewendet und nicht als Analytics-Segment gespeichert. 1. Zeilen auswählen.  2. Rechtsklick auf die Auswahl.  3. Klick auf *Segment aus Auswahl erstellen*. |
 | Komponenten > Neues Segment | Zeigt den Segment Builder an Weitere Informationen zur Segmentierung finden Sie unter [Segmente erstellen](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-build.html). |
 | „Freigeben“ > „Projekt freigeben“ oder „Freigeben“ > „Projektdaten kuratieren“ | In [Kuratieren und freigeben](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) werden Segmente, die Sie auf das Projekt anwenden, in freigegebenen Analysen für den Empfänger verfügbar. |
-| Segmente als Dimensionen verwenden | Video: Segmente [als Dimensionen in Analyse Workspace verwenden](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
+| Segmente als Dimensionen verwenden | Video: [Verwenden von Segmenten als Dimensionen in Analysis Workspace](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
