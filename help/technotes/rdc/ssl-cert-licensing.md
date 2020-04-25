@@ -1,7 +1,7 @@
 ---
 title: SSL-Zertifikatslizenzierung
 description: Zertifizierungsverfahren für kundenverwaltete Zertifikate
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
