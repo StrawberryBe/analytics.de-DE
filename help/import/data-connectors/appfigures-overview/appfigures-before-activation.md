@@ -58,7 +58,7 @@ In der folgenden Tabelle sind die Analytics-Variablen beschrieben, die für die 
 
 >[!NOTE] Diese Integration verwendet dedizierte Variablen für App Store-Daten, sodass Sie keine benutzerspezifischen Commerce-Variablen und -Ereignisse zuweisen müssen.
 
-| Variablentyp | Name | Populationsmethode | Beschreibung |
+| Variablentyp | Name | Methode zum Ausfüllen | Beschreibung |
 |---|---|---|---|
 | eVar | App Store Objekt-ID | Aus appFigures importiert. | Konfigurieren Sie diese eVar mit „Besuchsablauf“, der Zuordnung „Zuletzt verwendet“ und grundlegenden untergeordneten Beziehungen. |
 | event (numerisch) | App Store-Downloads | Aus appFigures importiert. | Anzahl der mobilen Anwendungs-Downloads. |
