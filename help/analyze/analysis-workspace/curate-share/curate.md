@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Übersicht über die Kuratierung/Freigabe
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,24 +18,24 @@ Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Proje
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Freigabe]** > **[!UICONTROL Projekt kuratieren]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
 
 ## Projekt kuratieren
 
 1. Legen Sie die Berechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Damit Sie ein Projekt in Analysis Workspace erstellen oder kuratieren können, müssen die Administratoren Sie zuerst zu einer [Gruppe](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html) hinzufügen, für die die Berechtigung zum **[!UICONTROL Zugriff auf Analysis Workspace]** aktiviert ist, oder zu einer Benutzergruppe mit **[!UICONTROL Zugriff auf alle Berichte]**. (**[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen]**)
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
 
-1. [Erstellen und speichern Sie](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) ein Projekt und klicken Sie dann auf **[!UICONTROL Freigabe]** > **[!UICONTROL Projekt kuratieren]**.
-1. Ziehen Sie Komponenten, die Sie freigeben möchten, vom verschiebbaren Komponentenstapel auf der linken Seite zum Feld **[!UICONTROL Kuratierte Komponenten]**.
+1. [Erstellen und speichern](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) Sie ein Projekt und klicken Sie dann auf **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >Um ein Projekt freizugeben, ist es nicht erforderlich, Komponenten zu kuratieren. Sie können ein Projekt mit allen verfügbaren Standardkomponenten oder mit den ausgewählten Komponenten freigeben. Damit alle Standardkomponenten im Projekt erhalten bleiben, sollten Sie für Ihre eigene Verwendung eine Kopie des Projekts erstellen (mithilfe von **[!UICONTROL Speichern unter]**), bevor Sie Komponenten kuratieren. Nach dem Kuratieren der Komponenten in einem Projekt sind die anderen Komponenten für das Projekt nicht mehr für Sie verfügbar.
+   >Um ein Projekt freizugeben, ist es nicht erforderlich, Komponenten zu kuratieren. Sie können ein Projekt mit allen verfügbaren Standardkomponenten oder mit den ausgewählten Komponenten freigeben. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Nach dem Kuratieren der Komponenten in einem Projekt sind die anderen Komponenten für das Projekt nicht mehr für Sie verfügbar.
 
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
+1. Klicken Sie auf **[!UICONTROL Done]**.
 
 Das resultierende Projekt verhält sich in Analysis Workspace wie ein normales Projekt, bietet jedoch nur die festgelegten Komponenten zur Auswahl an.
 
@@ -43,7 +43,7 @@ Das resultierende Projekt verhält sich in Analysis Workspace wie ein normales P
 
 Durch Freigabe können Sie dieses Projekt anderen Benutzern des Analysis Workspace in Ihrer Organisation zur Verfügung stellen. Wenn Sie Komponenten kuratiert haben, wirkt sich das aus, wenn andere Benutzer das Projekt verwenden.
 
-1. Klicken Sie nach dem Kuratieren der Komponenten eines Berichts auf **[!UICONTROL Freigabe]** > **[!UICONTROL Projekt freigeben]**.
+1. After you curate the components of a report, click **[!UICONTROL Share]** > **[!UICONTROL Share Project]**.
 
    ![](assets/share_component.png)
 
@@ -60,7 +60,7 @@ Durch Freigabe können Sie dieses Projekt anderen Benutzern des Analysis Workspa
    >
    >Diese Einstellung wird nicht beibehalten. Es handelt sich um eine einmalige Aktion zum Zeitpunkt der Freigabe.
 
-1. Klicken Sie auf **[!UICONTROL Freigabe]**.
+1. Klicken Sie auf **[!UICONTROL Share]**.
 
 <!-- 
 
