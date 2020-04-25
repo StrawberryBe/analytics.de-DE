@@ -3,7 +3,7 @@ description: Definiert allgemeine Einstellungen für eine Website, die Inhalte z
 title: Aggregatorportal
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
