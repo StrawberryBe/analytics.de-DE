@@ -2,7 +2,7 @@
 description: Sie können damit in Adobe Analytics auf dieselbe Weise den Erfolg von Kampagnen bewerten, wie Sie es in der Vergangenheit in Target Classic getan haben.
 title: Target – Steigerung und Konfidenz
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
