@@ -20,14 +20,14 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 ## Erstellen einer benutzerdefinierten Vorlage {#create-custom-template}
 
-Benutzer mit Administratorrechten können jedes von ihnen erstellte Projekt in eine benutzerdefinierte Vorlage umwandeln. So geht’s:
+Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
 1. Öffnen Sie das Projekt.
 1. Öffnen von **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
-   Das Projekt wird unter dem aktuellen Projektnamen gespeichert, gefolgt vom Wort (Vorlage) in Klammern. Administratoren können diesen Namen ändern, indem sie die Vorlage bearbeiten.
+   Das Projekt wird unter dem aktuellen Projektnamen gefolgt von dem Wort (Vorlage) in Klammern gespeichert. Administratoren können diese Benennung durch Bearbeiten der Vorlage ändern.
 
    >[!NOTE]
    >
@@ -39,18 +39,18 @@ Benutzer mit Administratorrechten können jedes von ihnen erstellte Projekt in e
 
 | Aktion | Beschreibung |
 |--- |--- |
-| Vorlage  bearbeiten | Ermöglicht es einem Administrator, die Vorlage zu bearbeiten, indem er die Datenquelle ändert, Komponenten, Visualisierungen, Datumsbereiche usw.  So bearbeiten Sie eine benutzerdefinierte Vorlage<ul><li>die Liste von benutzerdefinierten Vorlagen in Analysis Workspace öffnen, eine auswählen und auf Vorlage bearbeiten klicken oder</li><li>in Analytics Komponenten > Projekte wählen und dann nach Vorlagen filtern. Klicken Sie auf den Namen der Vorlage, die Sie bearbeiten möchten.</li></ul>**Hinweis:** Nach dem Bearbeiten einer Vorlage haben Sie je nach Situation zwei Optionen: Speichern, Speichern unter. So unterscheiden sie sich:<ul><li>**Speichern:** Aktualisiert die benutzerdefinierte Vorlage für alle Benutzer. Wenn ein anderer Benutzer ein Projekt aus dieser benutzerdefinierten Vorlage erstellt, werden die vorgenommenen Änderungen angezeigt.</li><li>**Speichern unter:** Erstellt eine Kopie der benutzerdefinierten Vorlage mit Ihren Änderungen. (Dass Sie im Bearbeitungsmodus sind, lässt sich daran erkennen, dass das Menüelement Freigabe > Projekt freigeben deaktiviert ist.)</li></ul> |
+| Vorlage  bearbeiten | Lässt einen Administrator die Vorlage durch Änderung der Datenquelle, Anpassung von Komponenten, Visualisierungen, Datumsbereichen usw. bearbeiten.  Um eine Standardvorlage zu bearbeiten, können Sie entweder<ul><li>die Liste von benutzerdefinierten Vorlagen in Analysis Workspace öffnen, eine auswählen und auf Vorlage bearbeiten klicken oder</li><li>in Analytics Komponenten > Projekte wählen und dann nach Vorlagen filtern. Klicken Sie auf den Namen der Vorlage, die Sie bearbeiten möchten.</li></ul>**Hinweis:** Nachdem Sie eine Vorlage bearbeitet haben, haben Sie je nach Situation zwei Optionen: Speichern, Speichern unter. Sie unterscheiden sich in Folgendem:<ul><li>**Speichern:** Aktualisiert die benutzerdefinierte Vorlage für alle Benutzer. Wenn jemand anderer ein Projekt aus dieser benutzerdefinierten Vorlage erstellt, sehen sie die von Ihnen gemachten Änderungen.</li><li>**Speichern unter:** Erstellt eine Kopie der benutzerdefinierten Vorlage mit Ihren Änderungen. (Dass Sie im Bearbeitungsmodus sind, lässt sich daran erkennen, dass das Menüelement Freigabe > Projekt freigeben deaktiviert ist.)</li></ul> |
 | Nach Vorlagen suchen | Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf Vorlagen suchen. |
-| Sortieren von Vorlagen | Sie können Vorlagen alphabetisch nach Relevanz und Erstellungsdatum sortieren.  Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf Ordnen:. |
+| Vorlagen ordnen | Sie können Vorlagen alphabetisch, nach Relevanz und nach Erstellungsdatum ordnen.  Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf Ordnen:. |
 | Tags auf eine Vorlage anwenden | Öffnen Sie die Vorlage und wählen Sie Projekt > Projektinfo und Einstellungen. Klicken Sie auf Tags hinzufügen. |
 | Vorlagenbeschreibung ändern | Öffnen Sie die Vorlage und wählen Sie Projekt > Projektinfo und Einstellungen. Doppelklicken Sie auf die Beschreibung und bearbeiten Sie sie. |
 
 
 ## Standardvorlagen
 
-Wenn Sie einen Workspace zum ersten Mal öffnen, sind Vorlagen in der linken Leiste verfügbar. Arbeitsbereichvorlagen für Analysen decken häufige Anwendungsfälle ab. Sie werden je nach der ausgewählten Report Suite nach der Vertikale gruppiert, zu der sie gehören, und mit unterschiedlichen Dimensionen, Segmenten, Metriken und Visualisierungen aufgefüllt.
+Wenn Sie einen Workspace zum ersten Mal öffnen, sind Vorlagen in der linken Leiste verfügbar. Analysis Workspace-Vorlagen decken häufige Anwendungsfälle ab. Diese sind senkrecht danach gruppiert, wohin sie gehören, und werden je nach der Report Suite, die Sie auswählen, mit verschiedenen Dimensionen, Segmenten, Metriken und Visualisierungen aufgefüllt.
 
-Sie können diese vorausgefüllten Vorlagen unverändert verwenden oder sie an Ihre Anforderungen anpassen (z. B. durch Hinzufügen oder Ersetzen von Metriken oder Visualisierungen) und unter einem neuen Namen speichern.
+Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern.
 
 [Standardvorlagen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
@@ -108,15 +108,15 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 
 >[!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/de_DE/mcdc/mcdc-people.html) verfügbar.
 
-Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um eine deduplizierte Version der Metrik &quot;Individuelle Besucher&quot;handelt. Die Metrik &quot;Personen&quot;gibt Aufschluss darüber, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mit der Vorlage können Sie
+Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um eine deduplizierte Version der Metrik &quot;Individuelle Besucher&quot;handelt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
-* Ihre Daten für die USA/Kanada gegen die restliche Welt segmentieren Die Device Co-op ist derzeit nur in Nordamerika verfügbar.
-* Vergleichen Sie die Metriken &quot;Personen&quot;und &quot;Individuelle Besucher&quot;nebeneinander.
-* Siehe &quot;Komprimierungsrate&quot;, eine berechnete Metrik, die errechnet, wie viel kleiner die Metrik &quot;Personen&quot;als Prozentsatz der individuellen Besucher ist.
-* Vergleichen Sie die von Ihren Kunden verwendeten Gerätetypsummen.
-* Erkennen Sie, wie viele Geräte pro Person im Durchschnitt verwendet werden.
-* Erfahren Sie, wie Sie die Segmentstapelung mit der Metrik &quot;Personen&quot;verwenden.
-* Erfahren Sie, wie die Verwendung der Experience Cloud ID in Ihrer Umgebung die Effektivität der Metrik &quot;Personen&quot;verbessert.
+* Ihre Daten für die USA/Kanada gegen die restliche Welt segmentieren (Device Co-op ist momentan nur in Nordamerika verfügbar);
+* die Metriken für Personen und Unique Visitors nebeneinander vergleichen;
+* die Komprimierungsrate anzeigen (dabei handelt es sich um eine berechnete Metrik, mit der Sie bestimmen können, um wie viel geringer die Metrik für Personen als Prozentsatz der Unique Visitors ist);
+* die Gesamtzahlen der Gerätetypen vergleichen, die Ihre Kunden verwenden;
+* anzeigen, wie viele Geräte durchschnittlich pro Person verwendet werden;
+* herausfinden, wie Sie die Segmentstapelung mit der Metrik für Personen verwenden;
+* Entdecken Sie, wie die Experience Cloud ID in Ihrer Umgebung zur Effizienzverbesserung der Metrik für Personen beiträgt.
 
 ### IQ: Geräteübergreifende Analytics-Vorlage
 
