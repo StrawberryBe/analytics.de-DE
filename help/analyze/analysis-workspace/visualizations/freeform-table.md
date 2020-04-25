@@ -1,7 +1,7 @@
 ---
 title: Freiformtabelle
 description: Weitere Information zu Freiformtabellen und zum Freiformtabellen-Builder
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,14 +25,14 @@ Sie können die Tabelle auf verschiedene Arten anpassen:
 
 ## Freiformtabellen-Builder
 
-Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Tabellen-Builder aktiviert ist, können Sie für komplexe Fragen Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Sie werden erst aktualisiert, wenn Sie auf **[!UICONTROL Erstellen]** klicken.
+Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Tabellen-Builder aktiviert ist, können Sie für komplexe Fragen Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
 
 Der Tabellen-Builder ist eine zeitsparende Option, wenn Sie eine komplexe Frage zu den Daten stellen müssen und eine Vorstellung von der Tabelle haben, die Sie zur Beantwortung Ihrer Frage erstellen möchten. Weitere Vorteile des Tabellen-Builder sind:
 
 * Anordnen der Tabelle im gewünschten Format, ohne auf das Rendern jeder Aktion warten zu müssen.
 * Schnelle Ausführung von bis zu vier Stufen von Aufschlüsselungen.
 * Definieren der Einstellungen für Zeile und Aufschlüsselung für jede Tabellenzeile und Dimensionsspalte.
-* Die **[!UICONTROL Aufschlüsselung nach Position]** erfolgt standardmäßig auf jeder Tabellenebene (in den herkömmlichen Freiformtabellen ist die Standardeinstellung „**[!UICONTROL Aufschlüsselung nach Element]**“).
+* **[!UICONTROL Breakdown by Position]** für jede Tabellenebene (in den herkömmlichen Freiform-Tabellen ist der Standardwert **[!UICONTROL Breakdown by Item]**)
 * Manuelles Anordnen statischer Zeilen in der Tabelle manuell. Zum Beispiel, wenn Metrikzeilen in einer bestimmten Reihenfolge angezeigt werden sollen.
 * Anzeigen einer Vorschau des Tabellenformats, bevor Sie echte Daten rendern.
 
@@ -42,6 +42,6 @@ Sehen Sie sich [hier](https://youtu.be/GUMWiJAmMGI) den Freiformtabellen-Builder
 
 Die Daten in einer Freiform-Tabelle können auf verschiedene Weise aus Analysis Workspace kopiert werden:
 
-* Klicken Sie mit der rechten Maustaste auf die Tabellenüberschrift und wählen Sie **[!UICONTROL In die Zwischenablage kopieren]** aus. Dadurch wird die gesamte (sichtbare) Tabelle exportiert.
-* Markieren Sie bestimmte Zellen in der Tabelle, klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL In die Zwischenablage kopieren]** aus oder verwenden Sie die Tastenkombination Strg + C.
-* **[!UICONTROL Projekt > CSV herunterladen]**. Dadurch werden alle sichtbaren Tabellen im Projekt als CSV exportiert.
+* Klicken Sie mit der rechten Maustaste auf die Tabellenüberschrift und wählen Sie **[!UICONTROL Copy to Clipboard]**. Dadurch wird die gesamte (sichtbare) Tabelle exportiert.
+* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
+* **[!UICONTROL Project > Download CSV]**. Dadurch werden alle sichtbaren Tabellen im Projekt als CSV exportiert.
