@@ -2,7 +2,7 @@
 description: Über das Data-Governance-Dialogfeld in den Admin Tools können Sie einsehen, welche Report Suites für Data Governance konfiguriert wurden, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob für die entsprechende Report Suite eine Richtlinie zur Datenaufbewahrung vorhanden ist.
 title: Data-Governance-Einstellungen von Report Suites anzeigen/verwalten
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
