@@ -3,7 +3,7 @@ description: Zeigt, welche Suchmaschinen Besucher für alle, gebührenpflichtige
 title: Suchmaschinen
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
