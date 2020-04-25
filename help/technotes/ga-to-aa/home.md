@@ -1,7 +1,7 @@
 ---
 title: Umstieg von einer Drittanbieter-Analyseplattform auf Adobe Analytics
 description: Erfahren Sie mehr über die wichtigsten Konzepte zum Abrufen von Berichten, die auf Anwender ausgerichtet sind, die mit anderen Plattformen wie Google Analytics vertraut sind.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
