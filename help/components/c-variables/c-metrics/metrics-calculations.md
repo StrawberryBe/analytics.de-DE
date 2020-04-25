@@ -3,7 +3,7 @@ description: Metriken werden nach den Methoden „Standard“, Beitrag, „Zulet
 title: Metrikberechnungen
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Metriken werden nach den Methoden „Standard“, Beitrag, „Zuletzt“ und „
   </tr> 
   <tr> 
    <td colname="col1"> Beitrag </td> 
-   <td colname="col2"> <p>Schreibt den Erfolg jedem Variablenwert gut, der zu einem Erfolgsereignis bei einem Besuch beigetragen hat. Diese Berechnung kann auch übergreifend auf mehrere Besuchersitzungen angewandt werden, wenn Sie besuchsübergreifende Beitragsmetriken verwenden. </p> <p>Siehe  <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Beitrag</a> finden Sie weitere Informationen. </p> </td> 
+   <td colname="col2"> <p>Schreibt den Erfolg jedem Variablenwert gut, der zu einem Erfolgsereignis bei einem Besuch beigetragen hat. Diese Berechnung kann auch übergreifend auf mehrere Besuchersitzungen angewandt werden, wenn Sie besuchsübergreifende Beitragsmetriken verwenden. </p> <p>Siehe <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Beitrag</a> finden Sie weitere Informationen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
