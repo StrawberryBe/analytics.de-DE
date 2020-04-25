@@ -15,11 +15,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, werden die Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** zurückgezogen.
 
 Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Abrechnung, Protokolle usw.), Unternehmensverwaltung, Tools, Web-Services, Report Builder und die Data Connectors-Integration.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL All Report Access]** > **[!UICONTROL Analytics Tools]** > **[!UICONTROL Customize]**
+**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf alle Berichte]** > **[!UICONTROL Analytics-Tools]** > **[!UICONTROL Anpassen]**
 
 >[!NOTE] In der Herbstversion 2016 (20. Oktober) wurden neue Gruppenverwaltungsfunktionen eingeführt. Unter [Administrative Änderungen – Herbst 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) finden Sie eine Zusammenfassung der Neuheiten.
 
@@ -27,40 +27,40 @@ Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Abrechnung, Protokolle 
 
 ![](assets/report-access-analytics-tools.png)
 
-Click **[!UICONTROL Customize]** to select items to which this group will have access.
+Klicken Sie auf **[!UICONTROL Anpassen]**, um Elemente auszuwählen, auf die die Gruppe Zugriff erhalten soll.
 
 ## Feldbeschreibungen
 
-Die Einstellungen auf dieser Seite beziehen sich auf die auf der [!UICONTROL Define User Groups] Seite ausgewählten Report Suites.
+Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf der Seite „[!UICONTROL Benutzergruppe definieren]“ ausgewählt wurden.
 
 | Element | Beschreibung |
 |--- |--- |
 | **Allgemein** |  |
-| [Code-Manager](/help/admin/admin/code-manager-admin.md) | Ermöglicht das Herunterladen von Datenerfassungscode für Web- und mobile Plattformen. |
-| Code-Manager – Web-Services | Ermöglicht Nichtadministratoren den Zugriff auf den Code-Manager über Web-Services. |
-| [Protokolle](/help/admin/admin/logs.md) | Ermöglicht Zugriff auf Protokolldateien, mit deren Hilfe Sie sehen können, wann sich Benutzer anmelden, wie sie nutzen, auf die Dateien zugreifen, Report Suites erstellen und Admin-Änderungen vornehmen. |
-| Protokolle – Web-Services | Ermöglicht es Nichtadministratoren, über Web-Services auf die Admin Tools-Protokolle zuzugreifen. |
-| [Traffic-Management](/help/admin/c-traffic-management/traffic-management.md) | Auf der Seite &quot;Traffic-Management&quot;können Sie erwartete Änderungen des Traffic-Volumens angeben. |
-| Berechtigungsverwaltung | Ermöglicht Nichtadministratoren Zugriff auf die Seiten zur Benutzerverwaltung in den Admin Tools. Diese Benutzer haben Lese-, aber keine Schreibberechtigung. |
-| Berechtigungen (schreiben) – Web-Services | Ermöglicht Nichtadministratoren die Lese- und Schreibberechtigungseinstellungen unter Benutzerverwaltung in Web-Services.<br>Diese Einstellung bezieht sich insbesondere auf die angegebenen Berechtigungsaktionen in der Admin-API. |
-| Berechtigungen (lesen) – Web-Services | Ermöglicht Nichtadministratoren die Ansicht von Berechtigungseinstellungen unter Benutzerverwaltung in Web-Services.<br>Diese Einstellung bezieht sich insbesondere auf die angegebenen Berechtigungsaktionen in der Admin-API. |
+| [Code-Manager](/help/admin/admin/code-manager-admin.md) | Ermöglicht das Herunterladen von Datensammlungs-Code für Web- und mobile Plattformen. |
+| Code-Manager – Web-Services | Ermöglicht es Nichtadministratoren, über Web-Services auf den Code-Manager zuzugreifen. |
+| [Protokolle](/help/admin/admin/logs.md) | Ermöglicht Zugriff auf Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen. |
+| Protokolle – Web-Services | Ermöglicht es Nichtadministratoren, über Web-Services auf Admin Tools-Protokolle zuzugreifen. |
+| [Traffic-Management](/help/admin/c-traffic-management/traffic-management.md) | Auf der Seite „Traffic-Management“ können Sie Informationen zu erwarteten Änderungen des Trafficvolumens angeben. |
+| Berechtigungsverwaltung | Ermöglicht Nichtadministratoren Zugriff auf Benutzerverwaltungsseiten in den Admin Tools. Diese Benutzer können die Einstellungen zwar lesen, aber nicht bearbeiten. |
+| Berechtigungen (schreiben) – Web-Services | Erteilt Benutzern ohne Administratorrechte Lese- und Schreibberechtigungen für das Benutzermanagement der Web-Services.<br>Diese Einstellung bezieht sich insbesondere auf die angegebenen Berechtigungsaktionen in der Admin-API. |
+| Berechtigungen (lesen) – Web-Services | Ermöglicht es Nichtadministratoren, Berechtigungseinstellungen in der Benutzerverwaltung über Web-Services einzusehen.<br>Diese Einstellung bezieht sich insbesondere auf die angegebenen Berechtigungsaktionen in der Admin-API. |
 | **Unternehmensverwaltung** |  |
 | [Sicherheit](/help/admin/company/security-manager.md) | Gewährt Zugriff auf die Sicherheits-Manager-Seite, über die der Zugriff auf Berichtsdaten gesteuert wird. Zu den Optionen gehören sichere Passwörter, Passwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. |
-| Supportinfo | Gewährt Zugriff auf die Supportinformationen in den Unternehmenseinstellungen. |
-| [Web-Services](/help/admin/company/web-services-admin.md) | Ermöglicht den Zugriff auf die Seite &quot;Web-Services&quot;in der Oberfläche der Admin Tools ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>Mit der Web Services API erhalten Sie programmatischen Zugriff auf Adobe Analytics-Dienste, mit denen Sie verfügbare Funktionen über die Benutzeroberfläche duplizieren und erweitern können. |
-| Single-Sign-On (veraltet) | Gewährt Zugriff auf die Single Sign-On-Seite in den Admin Tools.<br>**Hinweis:**Single Sign-on wird in Adobe Experience Cloud mithilfe der[Kontoverknüpfung](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html)zwischen Experience Cloud und anderen Lösungen ermöglicht. |
-| [Ausstehende Aktionen](/help/admin/company/pending-actions-admin.md) | Grants permission to manage pending actions in [!UICONTROL Company Settings]. |
+| Support-Info | Gewährt Zugriff auf die Supportinformationen in den Unternehmenseinstellungen. |
+| [Web-Services](/help/admin/company/web-services-admin.md) | Gewährt Zugriff auf die Web-Services-Seite in der Benutzeroberfläche der Admin Tools ([!UICONTROL Unternehmenseinstellungen] > [!UICONTROL Web-Services]).<br>Mit der Web Services API erhalten Sie programmatischen Zugriff auf Adobe Analytics-Dienste, mit denen Sie verfügbare Funktionen über die Benutzeroberfläche duplizieren und erweitern können. |
+| Single Sign-on (veraltet) | Gewährt Zugriff auf die Single Sign-on-Seite in den Admin Tools.<br>**Hinweis:**Single Sign-on wird in Adobe Experience Cloud mithilfe der[Kontoverknüpfung](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html)zwischen Experience Cloud und anderen Lösungen ermöglicht. |
+| [Ausstehende Aktionen](/help/admin/company/pending-actions-admin.md) | Ermöglicht die Bearbeitung ausstehender Aktionen in den [!UICONTROL Unternehmenseinstellungen]. |
 | [Co-Branding](/help/admin/company/co-branding-admin.md) | Ermöglicht das Co-Branding von Analytics. |
-| [Voreinstellungen](/help/admin/admin/preferences-manager.md) | Grants permission to the [!UICONTROL Preference Manager]. |
+| [Voreinstellungen](/help/admin/admin/preferences-manager.md) | Ermöglicht Zugriff auf den [!UICONTROL Preference Manager]. |
 | [Report Suites ausblenden](/help/admin/company/c-hide-report-suites.md) | Erteilt die Berechtigung zum Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics. |
-| **Tools** | Diese Einstellungen gewähren Zugriff auf Analytics-Tools (Schnittstellen und Anwendungen) und erweiterte Funktionen wie Segmentierung und berechnete Metriken. |
-| [Aktuelle Daten](https://marketing.adobe.com/resources/help/de_DE/reference/data_latency.html) | Ermöglicht die Verwendung der Funktion &quot;Aktuelle Daten&quot;in Berichte. |
-| [Ad Hoc Analysis-Lizenzanwender](https://marketing.adobe.com/resources/help/de_DE/dsc/) | Ermöglicht Zugriff [!UICONTROL Ad Hoc Analysis]. |
-| Zugriff auf Web Services | Aktiviert den Web-Services-Zugriff für Nicht-Administratoren. Generiert Webdienst-Anmeldeinformationen. |
-| [Report Builder](https://marketing.adobe.com/resources/help/de_DE/arb/setup.html) | Gewährt Mitgliedern dieser Gruppe Zugriff auf [!UICONTROL Report Builder] Lizenzen. |
+| **Tools** | Mit diesen Einstellungen kann Zugriff auf Analytics-Tools (Oberflächen und Anwendungen) und erweiterte Funktionen wie Segmentierung und berechnete Metriken gewährt werden. |
+| [Aktuelle Daten](https://marketing.adobe.com/resources/help/de_DE/reference/data_latency.html) | Ermöglicht die Verwendung der Funktion „Aktuelle Daten“ für Berichte. |
+| [Ad Hoc Analysis-Lizenzanwender](https://marketing.adobe.com/resources/help/de_DE/dsc/) | Gewährt Zugriff auf [!UICONTROL Ad Hoc Analysis]. |
+| Zugriff auf Web Services | Ermöglicht Nichtadministratoren Zugriff auf Web-Services. Erstellt Anmeldedaten für Web-Services. |
+| [Report Builder](https://marketing.adobe.com/resources/help/de_DE/arb/setup.html) | Ermöglicht Mitgliedern der Gruppe Zugriff auf [!UICONTROL Report Builder]-Lizenzen. |
 | [Zugriff auf Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/) | Gewährt Benutzern Zugriff auf Analysis Workspace, die für [!DNL Adobe Analytics] empfohlene Berichtsschnittstelle. |
 | [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/de_DE/sc/user/) | Gewährt Benutzern Zugriff auf Reports &amp; Analytics. |
-| [Erstellung berechneter Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/) | Ermöglicht Benutzern das Erstellen von berechneten Metriken. |
-| [Erstellung von Segmenten](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/) | Ermöglicht Benutzern das Erstellen von Segmenten. |
+| [Erstellung berechneter Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/) | Ermöglicht es Benutzern, berechnete Metriken zu erstellen. |
+| [Erstellung von Segmenten](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/) | Ermöglicht es Benutzern, Segmente zu erstellen. |
 | **Data Connectors** |  |
-| Integrationen (Erstellen, Aktualisieren oder Löschen) | Ermöglicht das Erstellen, Aktualisieren und Löschen von Data Connector-Integrationen. |
+| Integrationen (erstellen, aktualisieren oder löschen) | Ermöglicht das Erstellen, Aktualisieren und Löschen von Data Connector-Integrationen. |
