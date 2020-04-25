@@ -3,7 +3,7 @@ description: Beschreibt, wie Sie Zielwährungs-Codes definieren, damit die Unter
 title: Unterstützung mehrerer Währungen
 topic: null
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
