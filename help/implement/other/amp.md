@@ -26,10 +26,10 @@ In der folgenden Tabelle werden die beiden Methoden verglichen:
 |---|---|---|
 | Besucher-/Besuchsanzahlen in bestehender Report Suite | Hohe Inflation | Minimale Inflation |
 | Separate Report Suite verwenden | Empfohlen | Nicht erforderlich |
-| Neue im Vergleich zu zurückkehrenden Besuchern | Nicht unterstützt | Unterstützt |
-| Besucher-ID-Dienst | Nicht unterstützt | Unterstützt |
+| Neue vs. wiederkehrende Besucher | Nicht unterstützt | Unterstützt |
+| Besucher-ID-Service | Nicht unterstützt | Unterstützt |
 | Video- und Linktracking | Teilweise unterstützt | Noch nicht unterstützt |
-| Schwierigkeiten bei der Umsetzung | Etwas schwierig | Relativ einfach |
+| Schwierigkeitsgrad der Implementierung | Eher schwierig | Relativ einfach |
 | Integrationen mit Adobe Experience Cloud | Nicht unterstützt | Teilweise unterstützt |
 
 Legen Sie anhand der Vor- und Nachteile in Ihrer Organisation fest, welche Methode Sie verwenden möchten. Beispielcode finden Sie unter [AMP-Beispiele](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) im GitHub-Repository von Adobe.
@@ -161,7 +161,7 @@ Nein. Der AMP-Standard unterstützt nur Auslöser für „visible“ (sichtbar),
 
 **Wie können AMP-Besucher in den Daten von anderen unterschieden werden?**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. Sie können auch eine benutzerdefinierte Dimension auf „AMP“ festlegen, damit Sie diese Besucher segmentieren können.
+Die Dimension [!UICONTROL JavaScript-Version] erfasst für alle AMP-Seiten einen Wert ähnlich `AMP vX.X`. Sie können auch eine benutzerdefinierte Dimension auf „AMP“ festlegen, damit Sie diese Besucher segmentieren können.
 
 **Wie ist diese Implementierungsmethode mit Facebook Instant Articles zu vergleichen?**
 
