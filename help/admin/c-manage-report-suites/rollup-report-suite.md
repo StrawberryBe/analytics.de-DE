@@ -20,13 +20,13 @@ Bei Datenaggregations-Report Suites werden Daten aus mehreren untergeordneten R
 **Datenaggregations-Report Suite**: Wird in den Admin Tools erstellt. Am Ende jeden Tages wird die Summe jeder Metrik berechnet.
 
 * Datenaggregationen können kostenlos verwendet werden und erhöhen nicht die Nutzung der Server-Aufrufe.
-* Datenaggregationen liefern Gesamtdaten, melden jedoch keine einzelnen Werte in Berichten. Beispielsweise werden eVar1-Werte nicht einbezogen, aber der Gesamtwert des Aggregats kann angegeben werden.
+* Datenaggregationen liefern Daten zu Gesamtsummen und verzeichnen keine Einzelwerte in Berichten. Beispielsweise sind keine eVar1-Werte enthalten, aber ihre aggregierte Summe kann enthalten sein.
 * Daten werden beim Zusammenfassen der Daten aus den Report Suites nicht dedupliziert.
 * Datenaggregationen werden jede Nacht ausgeführt.
 * Wenn Sie eine Report Suite einer vorhandenen Datenaggregation hinzufügen, werden historische Daten nicht einbezogen.
-* Alle untergeordneten Report Suites müssen Daten enthalten, damit eine Datenaggregation funktioniert. Wenn neue Report Suites in einer Datenaggregation enthalten sind, stellen Sie sicher, dass Sie mindestens eine Ansicht an diese Report Suites senden.
-* Datenaggregations-Report Suites sind auf maximal 40 untergeordnete Report Suites beschränkt.
-* Datenaggregations-Report-Suites sind auf maximal 100 Ereignis beschränkt.
+* Alle untergeordneten Report Suites müssen Daten enthalten, damit eine Datenaggregation funktioniert. Wenn in eine Datenaggregation neue Report Suites einbezogen werden, müssen Sie mindestens eine Seitenansicht an diese Report Suites senden.
+* Datenaggregations-Report Suites sind auf maximal 40 untergeordnete Report Suites beschränkt.
+* Datenaggregations-Report Suites sind auf maximal 100 Ereignisse begrenzt.
 * Daten in Datenaggregations-Report Suites unterstützen keine Aufschlüsselungen oder Segmente.
 * Der Seitenbericht wird durch den Bericht zu den beliebtesten Sites ersetzt, der Metriken auf der Ebene der untergeordneten Suite enthält.
 
@@ -38,9 +38,9 @@ Bei Datenaggregations-Report Suites werden Daten aus mehreren untergeordneten R
 
 **Implementierungsänderungen**: Bei Datenaggregationen sind keine Implementierungsänderungen erforderlich, bei globalen Report Suites müssen Sie jedoch die globale Report Suite-ID in Ihre Implementierung einbeziehen.
 
-**Duplizierung**: Globale Report Suites deduplizieren eindeutige Besucher, Datenaggregationen nicht. Wenn ein Benutzer z. B. drei Ihrer Domänen am selben Tag besucht, zählen Datenaggregationen drei individuelle Besucher pro Tag. Globale Report Suites würden einen eindeutigen Besucher aufzeichnen.
+**Duplizierung:** In globalen Report Suites werden doppelte Unique Visitor entfernt, in Aggregationen dagegen nicht. Wenn ein Besucher beispielsweise drei Ihrer Domänen am gleichen Tag besucht, werden in den Aggregationen drei Unique Visitors pro Tag gezählt. In globalen Report Suites wird nur ein einziger Unique Visitor festgehalten.
 
-**Zeitraum**: Datenaggregationen werden nur jeden Abend um Mitternacht verarbeitet, während globale Report Suites Daten mit Standardlatenz melden.
+**Zeitrahmen:** Aggregationen werden lediglich jeden Tag um Mitternacht verarbeitet, globale Report Suites melden Daten dagegen mit einer gewissen Standardlatenz.
 
 **Breite**: Bei Aggregationen gibt es keine Möglichkeit für eine Kommunikation zwischen den Report Suites. Globale Report Suites können Gutschriften für Konversionsvariablen in anderen Report Suites vornehmen und auch Pfade zu anderen Report Suites bereitstellen.
 
