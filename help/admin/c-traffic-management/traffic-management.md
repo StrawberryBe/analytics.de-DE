@@ -3,7 +3,7 @@ description: Auf der Seite „Traffic-Management“ können Sie Informationen zu
 title: Verwalten von Traffic
 topic: Admin tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
