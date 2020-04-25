@@ -2,7 +2,7 @@
 description: Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Data Connectors ein.
 title: Aktivieren der Integration
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Richten Sie die Integration mithilfe des Adobe-Konfigurationsassistenten für Da
 
 | Feld | Beschreibung |
 |--- |--- |
-| Report Suite | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
+| Report Suite  | Die Report Suite, an welche die Daten aus dieser Integration gesendet werden. |
 | Integrationsname | Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. |
 | Integrations-UUID | Geben Sie Ihre Integrations-UUID für DreamMail an. |
 | Clientname | Geben Sie Ihren Clientnamen für DreamMail an. |
