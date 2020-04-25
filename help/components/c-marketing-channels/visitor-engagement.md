@@ -20,7 +20,7 @@ So klicken Besucher häufig durch eine gebührenpflichtige Suchkampagne und lege
 
 | Feld | Definition |
 |--- |--- |
-| Tage der Inaktivität | Diese Anzahl von Tagen muss verstreichen, bevor die First Touch-Interaktion des Besuchers abläuft. Die Standardeinstellung ist „30“. |
+| Tage der Inaktivität | Diese Anzahl von Tagen muss verstreichen, bevor die First Touch-Interaktion des Besuchers abläuft. Der Standardwert lautet 30. |
 | Nie | Die Zeit der Besucherinteraktion läuft nie ab. |
 | Kanal zurücksetzen | Lässt alle Besucherinteraktionszeiträume ablaufen.  Wenn Sie alle Marketingkanaldaten zurücksetzen müssen, können Sie die Besucherinteraktionszeiträume ablaufen lassen. Sie müssen möglicherweise Daten zurücksetzen, wenn die Verarbeitungsregeln zuvor falsch konfiguriert wurden. Alle Erst- und Letztkontaktkanalwerte laufen sofort ab und werden bei der Rückkehr der Besucher zurückgesetzt. |
 
@@ -29,9 +29,9 @@ So klicken Besucher häufig durch eine gebührenpflichtige Suchkampagne und lege
 Geben Sie den Ablauf der Besucherinteraktion an.
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. Klicken Sie in [!UICONTROL Report Suite Manager] auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Gültigkeitsende des Marketing-Kanals]**.
 
    ![](assets/mchannel_expiration.png)
 
 1. Konfigurieren Sie die Felder für den Besucherinteraktionsablauf.
-1. Klicken Sie auf **[!UICONTROL Save.]**
+1. Klicken Sie auf **[!UICONTROL Speichern.]**
