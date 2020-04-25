@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Besucher-ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Weitere Informationen finden Sie im Thema über das [Integrieren von Offline-Dat
 | Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
 | Kanal | Kanalname. |
 | eVarn | eVarn-Name. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
-| Produkt | Produktname. |
+| Product | Produktname. |
 | Land | Name des Landes. |
 | Zip | Postleitzahl. |
 
