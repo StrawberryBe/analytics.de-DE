@@ -3,7 +3,7 @@ description: Die empfohlene Standardmetrik für Suchmaschinen und Keywords. Die 
 title: Suchvorgänge
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
