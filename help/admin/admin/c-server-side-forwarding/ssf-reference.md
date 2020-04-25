@@ -2,7 +2,7 @@
 description: Eine umfassende Liste und Beschreibung der Konfigurationsvariablen, HTTP-Header und Datensignale in Aufrufen der serverseitigen Weiterleitung.
 title: Daten- und Codereferenz für die serverseitige Weiterleitung
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
