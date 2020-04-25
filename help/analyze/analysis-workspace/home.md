@@ -97,6 +97,6 @@ Es gibt viele Ressourcen, mit deren Hilfe Sie Analysis Workspace besser verstehe
 
 ### Analysten und Administratoren, die die Qualität von Workspace in ihrem Unternehmen verbessern möchten
 
-* [Berechtigungen in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Weisen Sie über Adobe Admin Console Benutzerberechtigungen für Workspace zu.
+* [Berechtigungen in Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/mcloud/admin_getting_started.html): Weisen Sie über Adobe Admin Console Benutzerberechtigungen für Workspace zu.
 * [Vorlagen in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Erstellen Sie Vorlagen, damit Ihre Kollegen mit einem auf ihre Bedürfnisse zugeschnittenen Projektraum beginnen können.
 * [Workspace-Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md): Erstellen Sie ein Projekt, das die verfügbaren Komponenten einschränkt, damit Workspace für diejenigen, die mit dem Tool weniger vertraut sind, leichter zugänglich ist.
