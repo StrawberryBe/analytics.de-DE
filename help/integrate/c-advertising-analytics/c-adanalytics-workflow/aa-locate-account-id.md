@@ -18,13 +18,13 @@ Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google ode
 >
 >Google AdWords nutzt zwei Kontotypen: a) MCC-Konto (My Client Center) und b) Standardkonto. Für diese Integration in Adobe Analytics **müssen Sie ein Standardkonto-Login und keine MCC-Kontoanmeldung verwenden**. Das liegt daran, dass das MCC-Konto als übergeordnetes Konto dient, das mit einem einzelnen Login auf verschiedene AdWords-Konten zugreifen kann. Die Standardkonto-Anmeldung kann hingegen pro Login nur auf ein AdWords-Konto zugreifen.
 
-Klicken Sie auf das Kontosymbol oben rechts, um die AdWords-Kontonummer (Kunden-ID) Ansicht.
+Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-ID) anzuzeigen.
 
 ![](assets/google_account.png)
 
 ## Bing  {#section_F1B9C7E997444746936599732CD62665}
 
-Sowohl die Konto-ID als auch die Kunden-ID sind erforderlich. Sie werden auf der Registerkarte &quot;Konten&quot;aufgeführt.
+Sowohl Konto- als auch Kunden-ID sind erforderlich. Sie sind auf der Registerkarte „Konten“ aufgeführt.
 
 >[!NOTE] Die Kontonummer ist nicht dasselbe wie die Konto-ID.
 
