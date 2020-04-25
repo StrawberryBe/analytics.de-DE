@@ -1,5 +1,5 @@
 ---
-description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Wenn Sie sich bei einer Adobe Analytics-Lösung anmelden, wählen Sie eine zu verwendende Report Suite aus (außer bei Datenaggregationen, die Report Suites kombinieren). Eine Report Suite kann auch kleiner als eine Website sein, wenn Sie Berichte für einen Teil Ihrer Site ausführen möchten. Analytics-Lösungen - Aggregat und Bericht zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln für die Verarbeitung von Daten in einer Report Suite definieren.
+description: Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites). Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
 title: Report Suite Manager
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
@@ -11,15 +11,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Report Suite Manager
 
-Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Wenn Sie sich bei einer Adobe Analytics-Lösung anmelden, wählen Sie eine zu verwendende Report Suite aus (außer bei Datenaggregationen, die Report Suites kombinieren). Eine Report Suite kann auch kleiner als eine Website sein, wenn Sie Berichte für einen Teil Ihrer Site ausführen möchten. Analytics-Lösungen - Aggregat und Bericht zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln für die Verarbeitung von Daten in einer Report Suite definieren.
+Eine Report Suite definiert die vollständige, unabhängige Berichterstellung über eine bestimmte Website, eine Gruppe von Websites oder eine Untergruppe von Seiten einer Website. In der Regel handelt es sich bei einer Report Suite um eine Website, es kann sich aber auch um ein globales Segment handeln, bei dem die Zahlen mehrerer Seiten zur Ermittlung der Gesamtwerte kombiniert wurden. Beim Anmelden bei einer Adobe Analytics-Lösung wählen Sie eine zu verwendende Report Suite aus (außer bei Verwendung von Datenaggregationen mit kombinierten Report Suites). Wenn Sie Berichte über ein Segment Ihrer Site ausführen möchten, kann die Report Suite auch kleiner als eine Website sein. Analytics-Lösungen tragen Daten in Datenspeichern zusammen und erstellen Berichte zu diesen Datenspeichern. Mit dem Report Suite Manager unter Admin können Sie die Regeln dafür festlegen, wie Daten in einer Report Suite verarbeitet werden.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
->[!NOTE] Virtual Report Suites werden über **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Weitere Informationen finden Sie in der [Dokumentation zur Virtual Report Suite](/help/components/vrs/vrs-about.md).
+>[!NOTE] Virtual Report Suites werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zur Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-The following table describes elements on the [!UICONTROL Report Suite Manager] page.
+Die folgende Tabelle beschreibt die Elemente auf der Seite [!UICONTROL Report Suite Manager].
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,11 +39,11 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Durchsuchen</span> </td> 
-   <td colname="col2"> Ermöglicht die Suche nach einer bestimmten Report Suite in der Report Suite-Liste. Das Suchwerkzeug enthält sowohl eine grundlegende namensbasierte Suche als auch eine erweiterte Suchseite für eingehende Suchen. </td> 
+   <td colname="col2"> Sie können nach einer bestimmten Report Suite in der Liste suchen. Das Suchtool beinhaltet sowohl eine grundlegende namensbasierte Suche als auch eine erweiterte Suchseite für tiefer gehende Suchvorgänge. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Gruppen</span> </td> 
-   <td colname="col2"> <p>Hiermit können Sie Ihre Report Suites in benutzerspezifische Gruppen organisieren. Sie können schnell auf mehrere Report Suites zugreifen, die ähnliche Einstellungen haben oder die Sie normalerweise gemeinsam bearbeiten. </p> </td> 
+   <td colname="col2"> <p>Sie können Report Suites in benutzerdefinierten Gruppen organisieren. So können Sie schnell auf mehrere Report Suites zugreifen, die ähnliche Einstellungen haben oder die Sie in der Regel gemeinsam bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Gespeicherte Suchen</span> </td> 
@@ -51,7 +51,7 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Datenaggregationen</span> </td> 
-   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Verfolgungsdaten mehrerer anderer Report Suites kombiniert. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>Eine Datenaggregation ist eine einzelne Report Suite, die die Rückverfolgungsdaten verschiedener anderer Report Suites kombiniert. </p> <p>Siehe <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Datenaggregations-Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Einstellungen bearbeiten</span> </td> 
