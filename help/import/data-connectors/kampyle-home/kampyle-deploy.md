@@ -21,18 +21,18 @@ Um die Integration zu aktivieren, führen Sie den Konfigurationsassistenten in d
 1. Starten Sie den Kampyle-Integrationsassistenten.
 1. Wählen Sie die gewünschte Report Suite aus. Geben Sie dann einen Namen für die Integration ein.
 1. Konfigurieren Sie die folgenden Elemente:
-   1. **[!UICONTROL Email address]**: Die E-Mail-Adresse des Hauptkontakts.
-   1. **[!UICONTROL Description]** (optional): Beschreibung für diese Integrationseinrichtung.
-   1. **[!UICONTROL Kampyle Key]**: Suchen Sie diesen Schlüssel in der Anwendung Kampyle unter **[!UICONTROL Feedback Form]** > **[!UICONTROL Feedback Form Customization]**.
-   1. **[!UICONTROL Tracking Server]**: Der Wert des Tracking-Servers, den Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
-   1. **[!UICONTROL Tracking Server Secure]**: Wenn sich Ihr Tracking-Server für sicheren/https-Traffic unterscheidet, geben Sie diese Einstellung hier an.
-1. Configure the following **[!UICONTROL Variable Mappings]** items:
-   1. **[!UICONTROL Kampyle Feedback ID]**: Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite aus
-   1. **[!UICONTROL Feedback Grade]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
-   1. **[!UICONTROL Feedback Items]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
-   1. **[!UICONTROL Feedback with Grade]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
+   1. **[!UICONTROL E-Mail-Adresse]**: Die E-Mail-Adresse des Hauptkontakts.
+   1. **[!UICONTROL Beschreibung]** (optional): Beschreibung für diese Integrationseinrichtung.
+   1. **[!UICONTROL Kampyle-Schlüssel]**: Suchen Sie diesen Schlüssel in der Anwendung Kampyle unter **[!UICONTROL Feedback-Formular]** > **[!UICONTROL Feedback-Formularanpassung]**.
+   1. **[!UICONTROL Tracking-Server]**: Der Wert des Tracking-Servers, den Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
+   1. **[!UICONTROL Sicherer]** Tracking-Server: Wenn sich Ihr Tracking-Server für sicheren/https-Traffic unterscheidet, geben Sie diese Einstellung hier an.
+1. Konfigurieren Sie die folgenden **[!UICONTROL Variablenzuordnungselemente]**:
+   1. **[!UICONTROL Kampyle Feedback-ID]**: Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite
+   1. **[!UICONTROL Feedback-Bewertung]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
+   1. **[!UICONTROL Feedback-Elemente]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
+   1. **[!UICONTROL Feedback mit Bewertung]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
 1. Aktivieren Sie das Kästchen, damit das Dashboard für die Kampyle-Integration automatisch für Sie erstellt wird (empfohlen).
-1. Review all configuration items and click **[!UICONTROL Activate Now]**.
+1. Überprüfen Sie alle Konfigurationselemente. Klicken Sie dann auf **[!UICONTROL Jetzt aktivieren]**.
 
 ## Bereitstellen des Integrationskonfigurationsobjekts {#deploy-the-integration-configuration-object}
 
@@ -40,8 +40,8 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 >[!NOTE] Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt einfach über dieses Tool hinzufügen.
 
-1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
-1. Download and save the **[!UICONTROL Kampyle Integration Code (JS)]** resource. Der Code sieht in etwa so aus:
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Ressourcen]** > **[!UICONTROL Support]** der Integration.
+1. Laden Sie die Ressource **[!UICONTROL Kampyle Integration Code (JS)]** herunter. Speichern Sie diese anschließend. Der Code sieht in etwa so aus:
 
    ```
    /* Kampyle:  Integration configuration settings */
@@ -59,7 +59,7 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 ### Protokoll zu den Integrationsaktivitäten {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
+Zeigen Sie Ihre Einrichtung für die Kampyle-Integration in der Adobe Experience Cloud an. Navigieren Sie dazu zu **[!UICONTROL Support]** > **[!UICONTROL Protokoll zu den Integrationsaktivitäten]**. Auf der Registerkarte **[!UICONTROL Dateneingang]** werden Einträge angezeigt, aus denen hervorgeht, dass Klassifizierungsdaten erfolgreich importiert wurden.
 
 >[!NOTE] Protokolleinträge werden in der Regel innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt.
 
