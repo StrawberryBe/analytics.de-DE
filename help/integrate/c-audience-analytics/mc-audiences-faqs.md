@@ -3,7 +3,7 @@ description: Antworten auf Fragen, die Sie unter Umständen bei der Implementier
 solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
@@ -136,11 +136,11 @@ Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>F: Warum unterscheiden sich die Besucherzahlen für Segmente in Audience Manager und Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen „Zielgruppen“ in AAM und „Segmenten“ in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager – Grundlagen </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager – Grundlagen </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und von AAM integrierten Kundendaten?</b> </p> </td> 
