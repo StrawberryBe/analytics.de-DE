@@ -1,6 +1,6 @@
 ---
 title: Listenvariablen
-description: Erstellen und konfigurieren Sie Listenvariablen zur Verwendung in Berichten.
+description: Erstellen und konfigurieren Sie Listen für die Verwendung in Berichte.
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
@@ -9,13 +9,13 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # Listenvariablen
 
-Erstellen und konfigurieren Sie Listenvariablen zur Verwendung in Berichten. Legen Sie hier die Werte für Trennzeichen, Ablauf, Zuordnung und max. fest.
+Erstellen und konfigurieren Sie Listen für die Verwendung in Berichte. Legen Sie hier die Werte für Trennzeichen, Ablauf, Zuordnung und max. fest.
 
 Sie können auf die Konfiguration in der Admin-Konsole zugreifen:
 
-1. Navigieren Sie zu: **[!UICONTROL Analytics]**>**[!UICONTROL  Admin]** > **[!UICONTROL Report Suites]**
+1. Navigieren Sie zu: **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 2. Wählen Sie die Report Suite aus.
-3. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]**>**[!UICONTROL  Konversion]** > **[!UICONTROL Listenvariablen]**.
+3. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Listenvariablen]** .
 
 * **Name**: Jeder durch ein Trennzeichen begrenzte Wert kann maximal 255 Zeichen (bei Multibytezeichen weniger) enthalten. Dies ist die maximale Länge jedes Elements.
 * **Trennzeichen für Werte**: Das Zeichen, mit dem Werte in der Listenvariable voneinander getrennt werden. Häufig handelt es sich dabei um Zeichen wie Komma, Doppelpunkt, senkrechter Strich (Pipe) usw.
