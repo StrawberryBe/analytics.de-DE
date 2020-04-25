@@ -2,7 +2,7 @@
 description: Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling von Daten.
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -136,7 +136,7 @@ Zur optimalen Verarbeitung verwendet Ad Hoc Analysis in etwa 750 Mio. als die ma
 
 Um die projizierte Stichprobenrate zu erhalten, werden die voraussichtlichen Treffer pro Datensatz errechnet und diese dann durch 750 Mio. dividiert, wie hier dargestellt:
 
-* (Durchschn. Treffer pro Tag × Anzahl der Tage im Ausschnitt) ÷ 750 Mio.
+* (Durchschnittl. Treffer pro Tag × Anzahl der Tage im Ausschnitt) ÷ 750 Mio.
 
 Wenn Sie beispielsweise 10 Mio. Treffer pro Tag verzeichnen und einen Datenausschnitt von 90 Tagen verwenden:
 
