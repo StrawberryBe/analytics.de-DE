@@ -15,4 +15,4 @@ Benutzerspezifische Insight-Traffic-Variablen (oder Eigenschaften/Props) ermögl
 
 Auf der Seite [!UICONTROL Traffic-Variablen] können Sie Traffic-Variablen-Berichte aktivieren, deaktivieren und umbenennen. Deaktivierte Berichte für Traffic-Variablen werden in der Benutzeroberfläche nicht mehr aufgeführt.
 
-Siehe auch [prop](../../../implement/vars/page-vars/prop.md) im Benutzerhandbuch &quot;Implementierung&quot;enthalten.
+Siehe also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
