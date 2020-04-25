@@ -10,20 +10,20 @@ source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 # Dimensionsvorschau
 
-Bewegen Sie den Cursor über das Informations-Symbol neben einer Dimension, um die obersten fünf Werte für nicht zeitabhängige Dimensionen (und 15 für zeitabhängige Dimensionen) anzuzeigen. Früher haben wir diese Werte statisch gehalten (d.h. die 5 gewählten Werte haben sich nie geändert).
+Bewegen Sie den Cursor über das Informations-Symbol neben einer Dimension, um die obersten fünf Werte für nicht zeitabhängige Dimensionen (und 15 für zeitabhängige Dimensionen) anzuzeigen. Bisher waren diese Werte statisch (d. h. die fünf ausgewählten Werte blieben unverändert).
 
 ![](assets/dimension-preview.png)
 
-Jetzt zeigen wir standardmäßig dynamische Werte anstelle von statischen an, mit der Option, diese in statische Werte umzuwandeln. Andere Aspekte:
+Jetzt zeigen wir standardmäßig dynamische Werte anstelle von statischen an, mit der Option, diese in statische Werte umzuwandeln. Wissenswertes:
 
-* Während Ihre Daten aktualisiert werden, werden die Spalten der dynamischen Dimension aktualisiert, um die aktuellen Elemente der 5/15-Dimension anzuzeigen.
-* Eine Spalte der dynamischen Dimension, die kopiert oder verschoben wird, wird statisch.
-* Wenn Sie den Mauszeiger über eine Spalte mit der statischen Dimension bewegen, wird ein Sperrsymbol angezeigt, das angibt, dass die Dimension statisch ist.
+* Bei einer Aktualisierung Ihrer Daten werden die Spalten der dynamischen Dimension aktualisiert, um die aktuellen 5/15 Dimensionselemente anzuzeigen.
+* Eine dynamische Dimensionsspalte, die kopiert oder bewegt wird, wird statisch.
+* Wenn Sie mit dem Mauszeiger über eine statische Dimensionsspalte fahren, wird ein Schlosssymbol angezeigt, das angibt, dass es sich bei der Dimension um eine statische handelt.
 
 ![](assets/dimension_static.png)
 
 ## Anzeige von Dimensionselementen
 
-Wenn Sie den Mauszeiger über eine Dimension halten und auf den grauen Pfeil rechts neben der Dimension klicken, wird eine Liste der zugehörigen Dimensionselemente angezeigt. Jede Liste von Dimensionselementen zeigt in der Regel die obersten Elemente der letzten 30 Tage an.
+Wenn Sie auf eine Dimension zeigen und auf den grauen, nach rechts zeigenden Pfeil daneben klicken, wird eine Liste der jeweiligen Dimensionselemente angezeigt. Dimensionselementlisten zeigen normalerweise die Top-Elemente der letzten 30 Tage an.
 
 Wenn Sie nach unten zum unteren Rand der Liste blättern, sehen Sie eine **[!UICONTROL Show Top Items From Last 6 Months]**. Klicken Sie auf diese Option, um die Top-Dimensionselemente der letzten 180 Tage anzuzeigen.
