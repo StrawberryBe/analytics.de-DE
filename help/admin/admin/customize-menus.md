@@ -1,5 +1,5 @@
 ---
-description: Mit dieser Funktion können Sie die Berichtmenüs anpassen, die einem Benutzer in Reports & Analysen angezeigt werden. Sie können Berichte ein- oder ausblenden und sie über alle Benutzer hinweg in verschiedene Ordner verschieben. Diese Funktion ist besonders nützlich, wenn Ihr Unternehmen nur bestimmte Berichte verwendet und Ihr Menü auf der linken Seite nicht mit ungenutzten oder irrelevanten Daten überladen möchte.
+description: Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benutzer in Reports & Analytics angezeigt werden. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Diese Funktion ist besonders dann nützlich, wenn in Ihrem Unternehmen nur bestimmte Berichte genutzt werden und das linke Menü nicht mit ungenutzten oder irrelevanten Daten überladen werden soll.
 title: Menüanpassung
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
@@ -11,9 +11,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Menüanpassung
 
-Mit dieser Funktion können Sie die Berichtmenüs anpassen, die einem Benutzer in Reports &amp; Analysen angezeigt werden. Sie können Berichte ein- oder ausblenden und sie über alle Benutzer hinweg in verschiedene Ordner verschieben. Diese Funktion ist besonders nützlich, wenn Ihr Unternehmen nur bestimmte Berichte verwendet und Ihr Menü auf der linken Seite nicht mit ungenutzten oder irrelevanten Daten überladen möchte.
+Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benutzer in Reports &amp; Analytics angezeigt werden. Sie können Berichte ein- oder ausblenden und sie benutzerübergreifend in verschiedene Ordner verschieben. Diese Funktion ist besonders dann nützlich, wenn in Ihrem Unternehmen nur bestimmte Berichte genutzt werden und das linke Menü nicht mit ungenutzten oder irrelevanten Daten überladen werden soll.
 
-Die Menüänderungen gelten für alle Benutzer, die auf die Report Suite zugreifen. Die Benutzer können jedoch die Standardkonfiguration eines Menüs während der Verwendung der Report Suite wiederherstellen.
+Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite zugreifen. Die Benutzer haben jedoch die Möglichkeit, bei der Verwendung der Report Suite die Standardkonfiguration eines Menüs wiederherzustellen.
 
 >[!NOTE] Änderungen der Menüstruktur wirken sich nicht auf Report Builder oder Ad Hoc Analysis aus. Ein umbenannter Bericht wird hingegen in beiden Anwendungen unter dem neuen Namen angezeigt.
 
@@ -29,7 +29,7 @@ Die Menüänderungen gelten für alle Benutzer, die auf die Report Suite zugreif
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Neuer Ordner</span> </td> 
-   <td colname="col2"> <p> Fügt einen neuen Ordner über dem derzeit ausgewählten Element hinzu. Beachten Sie, dass Sie mindestens einen Bericht zu einem Ordner hinzufügen müssen, bevor der Ordner sichtbar ist. </p> </td> 
+   <td colname="col2"> <p> Fügt einen neuen Ordner über dem zurzeit ausgewählten Element hinzu. Sie müssen mindestens einen Bericht zu einem Ordner hinzufügen, bevor der Ordner sichtbar wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Umbenennen</span> </td> 
@@ -41,7 +41,7 @@ Die Menüänderungen gelten für alle Benutzer, die auf die Report Suite zugreif
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Anzeige ein-/ausschalten</span> </td> 
-   <td colname="col2"> <p> Blendet das aktuell ausgewählte Element aus (ein). Ausgeblendete Elemente werden auf der Seite "Menüanpassung"mit einem grauen Linienmuster angezeigt. </p> </td> 
+   <td colname="col2"> <p> Blendet das aktuell ausgewählte Element aus oder ein. Ausgeblendete Elemente werden auf der Seite „Menüanpassung“ mit einem grauen Linienmuster angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Löschen</span> </td> 
