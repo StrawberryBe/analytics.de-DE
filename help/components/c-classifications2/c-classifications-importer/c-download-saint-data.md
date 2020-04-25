@@ -1,5 +1,5 @@
 ---
-description: (Optional) Bevor Sie Klassifizierungen in Marketing-Berichte importieren, können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen können. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichte-Datensatz unter den entsprechenden Classification-Überschriften.
+description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 subtopic: Classifications
 title: Klassifizierungsvorlage
 topic: Admin tools
@@ -12,23 +12,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Klassifizierungsvorlage
 
-(Optional) Bevor Sie Klassifizierungen in Marketing-Berichte importieren, können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen können. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichte-Datensatz unter den entsprechenden Classification-Überschriften.
+(Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 
 ## Klassifizierungsvorlage {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
-(Optional) Bevor Sie Klassifizierungen in Marketing-Berichte importieren, können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen können. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichte-Datensatz unter den entsprechenden Classification-Überschriften.
+(Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Classifications als Spaltenüberschriften und organisiert dann den Berichtdatensatz unter den entsprechenden Classification-Überschriften.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
 | Element | Beschreibung |
 |---|---|
-| Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage verwendet werden soll. Die Report Suite und der Datensatz müssen übereinstimmen. |
-| Zu klassifizierender Datensatz | Wählen Sie den Datentyp für die Datendatei aus. Das Menü enthält alle Berichte in Ihren Report Suites, die für Klassifizierungen konfiguriert sind. |
-| Export Numeric 2 | Nummerisch-2-Klassifizierungen können über den Importeur in das System importiert werden. Numeric 2 classifications are useful for variables that change over time for different items, such as cost and budget values for the [!UICONTROL Marketing Channel] report. Unter [„Numerisch 2“-Klassifizierungen](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) finden Sie Informationen zum Hochladen von Daten mithilfe von „Numerisch 2“-Klassifizierungen. |
-| Kodierung | Wählen Sie die Zeichenkodierung für die Datendatei aus. Das Standard-Kodierungsformat ist UTF-8. |
+| Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage genutzt werden soll. Report Suite und Datensatz müssen übereinstimmen. |
+| Datensatz, der klassifiziert werden soll | Wählen Sie den Typ der Daten für die Datendatei aus. Das Menü enthält alle Berichte aus Ihren Report Suites, die für Classifications konfiguriert sind. |
+| Nummerisch exportieren 2 | Mit dem Importeur können Sie Nummerisch-2-Classifications in das System importieren. Nummerisch-2-Classifications sind für Variablen sinnvoll, die sich im Laufe der Zeit für verschiedene Artikel bzw. Einheiten ändern, z. B. Kosten und Budgetwerte im [!UICONTROL Marketingkanal] bericht. Unter [„Numerisch 2“-Klassifizierungen](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) finden Sie Informationen zum Hochladen von Daten mithilfe von „Numerisch 2“-Klassifizierungen. |
+| Kodierung | Wählen Sie die Zeichenkodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet. |
 | Download | Lädt die Vorlagendatei herunter. |
 
-Die Vorlage enthält die derzeit definierten Klassifizierungen (Spaltenüberschriften) eines bestimmten Datensatzes, ohne die mit jeder Klassifizierung verknüpften Daten einzubeziehen.
+Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschriften) eines spezifischen Datensatzes ohne die jeder Classification zugeordneten Daten.
 
 >[!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Klassifizierungsdaten auf eine einzige Report Suite.
 
@@ -41,8 +41,8 @@ Die Vorlage liefert das Dateiformat, das für Classifications genutzt werden mus
 >[!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Daten auf eine einzige Report Suite.
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
-1. Klicken Sie auf **[!UICONTROL Download]**.
+1. Legen Sie unter der Registerkarte **[!UICONTROL Vorlage herunterladen]** die Konfiguration für die [-Datenvorlage fest](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
+1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 1. Speichern Sie die Vorlagendatei auf Ihrem lokalen System.
 
    Die Vorlagendatei ist eine tabulatorgetrennte Datendatei (Dateierweiterung [!DNL .tab]), die von den meisten Tabellenkalkulationsprogrammen unterstützt wird.
