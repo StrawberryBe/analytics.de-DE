@@ -21,12 +21,12 @@ Die Aktivierung von `linkLeaveQueryString` gilt für alle Linktracking-Dimension
 
 ## „URL-Parameter beibehalten“ in Adobe Experience Platform Launch
 
-[!UICONTROL Keep URL Parameters] ein Kontrollkästchen unter dem [!UICONTROL Link Tracking] Akkordeon beim Konfigurieren der Adobe Analytics-Erweiterung.
+[!UICONTROL URL-Parameter beibehalten] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Erweitern Sie das [!UICONTROL Link Tracking] Akkordeon, das das [!UICONTROL Keep URL Parameters] Kontrollkästchen einblenden soll.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Kontrollkästchen [!UICONTROL URL-Parameter beibehalten] angezeigt wird.
 
 Aktivieren Sie dieses Kontrollkästchen, wenn Sie Abfragezeichenfolgen in die Linktracking-Dimensionen einbeziehen möchten.
 
