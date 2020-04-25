@@ -3,7 +3,7 @@ description: Dieser Bericht ordnet die Seiten Ihrer Site anhand der Seiten mit d
 title: Seiten
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -63,7 +63,7 @@ Wenn Sie in Reports &amp; Analytics ein benutzerspezifisches Ereignis als Metrik
 
 Dies bedeutet, dass das Ereignis, selbst wenn mit einem s.tl()-Aufruf gesendet wurde, die lineare Zuordnung des vorherigen s.t()-Aufrufs erhält. Beispiel:
 
-| Seitenname | Page_event | Ereignisse |
+| Webseitenname | Page_event | Ereignisse |
 |---|---|---|
 | Seite 1 | **s.t()** |  |
 | Seite 1 | s.tl() | Ereignis 1 |
