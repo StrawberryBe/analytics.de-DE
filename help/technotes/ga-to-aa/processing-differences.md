@@ -1,7 +1,7 @@
 ---
 title: Unterschiede bei Verarbeitung und Architektur von Analyseplattformen
 description: Erfahren Sie, wie einige Daten auf unterschiedlichen Plattformen wie Adobe Analytics und Google Analytics auf verschiedene Weise erfasst und angezeigt werden.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
