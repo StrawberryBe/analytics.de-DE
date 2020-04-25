@@ -11,23 +11,23 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Sie können den Classification Rule Builder mit Unter-Classifications kombinieren, wenn Sie sicherstellen, dass jede Unterklassifizierung über einen übergeordneten Wert verfügt.
 
-Die Kombination des Classification Rule Builder mit Unterklassifizierungen kann die Classification-Verwaltung vereinfachen und die Anzahl der erforderlichen Regeln reduzieren. Dies ist sinnvoll, wenn Ihr Trackingcode aus Codes besteht, die Sie gesondert klassifizieren möchten.
+Die Kombination des Classification Rule Builder mit Unterklassifizierungen kann die Classification-Verwaltung vereinfachen und die Anzahl der erforderlichen Regeln reduzieren. Dies empfiehlt sich zum Beispiel, wenn Ihr Trackingcode aus Codes besteht, die Sie einzeln klassifizieren möchten.
 
 Grundlegende Informationen zu Unterklassifizierungen finden Sie unter [Unterklassifizierungen](/help/components/c-classifications2/c-sub-classifications.md).
 
 ## Beispiel
 
-Nehmen Sie den folgenden Trackingcode an:
+Nehmen Sie als Beispiel den folgenden Trackingcode an:
 
 `channel:broad_campaign:creative`
 
-Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine andere Klassifizierung (*`sub-classification`*) anwenden. Das bedeutet, Sie können den Importeur wie eine relationale Datenbank mit mehreren Tabellen verwenden. Eine Tabelle ordnet den Schlüsseln vollständige Rückverfolgungscodes zu und eine andere ordnet diese Schlüssel anderen Tabellen zu.
+Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine andere Klassifizierung (*`sub-classification`*) anwenden. Das bedeutet, Sie können den Importeur wie eine relationale Datenbank mit vielen Tabellen verwenden. In der einen Tabelle werden die vollständigen Trackingcodes Schlüsseln zugeordnet, während in einer anderen Tabelle diese Schlüssel dann anderen Tabellen zugeordnet werden.
 
 ![](assets/sub_class_table.png)
 
-Wenn diese Struktur erstellt ist, können Sie den  [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) nutzen, um die kleinen Dateien hochzuladen, die dann die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Anschließend können Sie den Rule Builder verwenden, um die Haupt-Classification-Tabelle auf dem neuesten Stand zu halten.
+Wenn diese Struktur erstellt ist, können Sie den  [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) nutzen, um die kleinen Dateien hochzuladen, die dann die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
 
-In der folgenden Aufgabe wird beschrieben, wie Sie dies erreichen.
+In der folgenden Aufgabe wird beschrieben, wie Sie das machen.
 
 ## Einrichten von Unterklassifizierungen mithilfe des Rule Builder {#task_2D9016D8B4E84DBDAF88555E5369546F}
 
@@ -37,7 +37,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 >
 >In diesen Schritten wird beschrieben, wie Sie den unter [Unterklassifizierungen und der Rule Builder](/help/components/c-classifications2/crb/sub-classification-rule-builder.md) beschriebenen Anwendungsfall ausführen.
 
-1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
+1. Erstellen Sie Classifications und Unter-Classifications im [Classification-Manager](https://marketing.adobe.com/resources/help/de_DE/reference/classifications.html).
 
    Beispiel:
 
@@ -71,4 +71,4 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
    Zum Beispiel würden Sie eine solche Datei hochladen, wenn ein neuer *`Broad Campaign code`* eingeführt wird. Diese Datei würde dann für bereits klassifizierte Werte gelten. Oder wenn Sie eine neue Unter-Classification erstellen (z. B.  *`Creative Theme`* als Unterklassifizierung von *`Creative code`*), laden Sie nur die Unterklassifizierungsdatei hoch und nicht die gesamte Klassifizierungsdatei.
 
-   Zum Berichte funktionieren diese Unterklassifizierungen genau wie Klassifizierungen der obersten Ebene. Auf diese Weise wird der Verwaltungsaufwand für ihre Verwendung verringert.-->
+   Bei der Berichterstellung funktionieren die Unter-Classifications genauso wie die übergeordneten Classifications. So haben Sie weniger Verwaltungsaufwand, wenn Sie Unter-Classifications verwenden.-->
