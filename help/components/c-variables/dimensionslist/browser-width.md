@@ -3,7 +3,7 @@ description: Metriken, die sich ausschließlich auf die horizontale/vertikale Di
 title: Browserbreite/-höhe
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
