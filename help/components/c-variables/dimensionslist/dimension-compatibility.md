@@ -1,7 +1,7 @@
 ---
 title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ Bitte beachten Sie:
 |---|---|
 | Analytics für Target | targetraw |
 | Audiences ID | mcaudiences |
-| Browser | Browser |
+| Browser | browser |
 | Browsertyp | browsertype |
 | Kategorie | category |
 | Städte | geocity |
@@ -70,7 +70,7 @@ Bitte beachten Sie:
 | Ursprünglich verweisende Domäne | referringdomainoriginal |
 | Seite | Seite |
 | Seiten nicht gefunden | pagesnotfound |
-| Produkt | Produkt |
+| Product | product |
 | Verweisende Stelle | referrer |
 | Typ der verweisenden Stelle | referrertype |
 | Verweisende Domäne | referringdomain |
@@ -86,7 +86,7 @@ Bitte beachten Sie:
 | Rangansicht aller Suchseiten | searchenginepagerank |
 | Server | server |
 | Einzelseitenbesuche | singlepagevisits |
-| Sitebereich | sitesections |
+| Website-Bereich | sitesections |
 | Zeit pro Besuch – präzise | sitetime |
 | Trackingcode | Kampagne |
 | US-DMA | geodma |
@@ -140,7 +140,7 @@ Bitte beachten Sie:
 | Dauerhafte Cookie-Unterstützung | persistentcookie |
 | Quartal | daterangequarter |
 | Viertel des Jahres | timepartquarterofyear |
-| Survey | surveybase |
+| Umfrage | surveybase |
 | Besuchszeit pro Seite – zusammengefasst | averagepagetime |
 | Besuchszeit pro Seite – präzise | pagetimeseconds |
 | Nachverfolgung der Gründe für den Ausstieg | optoutreason |
