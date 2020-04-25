@@ -3,7 +3,7 @@ description: Zeigt die Zahl der Unique Visitors Ihrer Site in der jeweiligen Stu
 title: Besucher
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
