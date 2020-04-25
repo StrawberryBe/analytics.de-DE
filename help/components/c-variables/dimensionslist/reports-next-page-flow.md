@@ -3,7 +3,7 @@ description: Zeigt Pfadanzeigen oder die Anzahl der Male sowie Prozentzahlen an,
 title: Nächster Seitenfluss
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Verwenden Sie diesen Bericht, um:
 <table id="table_A68A0DC384A74DC4895C8B01F760E175"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Produkt </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
