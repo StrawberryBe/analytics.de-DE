@@ -21,4 +21,4 @@ Damit diese Seite ordnungsgemäß mit Daten gefüllt werden kann, müssen bestim
 * Wie bei allen Treffern zur Verfolgung benutzerspezifischer Links wird die Variable &quot; [pageName](/help/implement/vars/page-vars/pagename.md) &quot;aus der Bildanforderung entfernt, um eine Erhöhung der Ansichten auf der Seite zu verhindern.
 * Sie können diesen Bericht als Trend- und als Rangansicht anzeigen.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
-* Sie können  [Aufschlüsselungen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) mit jeder anderen Variablen.
+* Sie können [Aufschlüsselungen](/help/analyze/reports-analytics/reports-customize/breakdowns.md) mit jeder anderen Variablen.
