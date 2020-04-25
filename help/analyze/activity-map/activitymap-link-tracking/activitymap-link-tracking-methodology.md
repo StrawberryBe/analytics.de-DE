@@ -3,7 +3,7 @@ description: Dieser Abschnitt ist an Adobe Analytics-Administratoren gerichtet. 
 title: Linktracking-Methode
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
 
 ---
