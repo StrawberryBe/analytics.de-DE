@@ -3,7 +3,7 @@ description: Ermöglicht die Gruppierung von Seiten, die auf einem bestimmten Se
 title: Server
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
