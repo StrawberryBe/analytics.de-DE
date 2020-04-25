@@ -1,5 +1,5 @@
 ---
-description: Konversionsquotienten messen üblicherweise die Konvertierung zwischen den Start-, End- und Meilensteinpunkten oder Ereignissen eines Konversionsprozesses. Nachdem Sie die Erfolgsergebnisse auf Ihrer Site kodiert haben, erstellt der Bericht die Quotienten zwischen diesen verschiedenen Ereignissen und zeigt sie in einem Umrechnungstrichterbericht an.
+description: In der Regel wird die Konversion zwischen Start-, End- und Meilensteinereignissen oder den Punkten in einem Konversionsprozess anhand von Konversionsquotienten gemessen. Nachdem Sie die Erfolgsereignisse auf Ihrer Website kodiert haben, werden die Quotienten zwischen den verschiedenen Erfolgsereignissen von dem Bericht erstellt und in einem Konversionstrichterbericht dargestellt.
 title: Konversionstrichter
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
@@ -11,16 +11,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Konversionstrichter
 
-Konversionsquotienten messen üblicherweise die Konvertierung zwischen den Start-, End- und Meilensteinpunkten oder Ereignissen eines Konversionsprozesses. Nachdem Sie die Erfolgsergebnisse auf Ihrer Site kodiert haben, erstellt der Bericht die Quotienten zwischen diesen verschiedenen Ereignissen und zeigt sie in einem Umrechnungstrichterbericht an.
+In der Regel wird die Konversion zwischen Start-, End- und Meilensteinereignissen oder den Punkten in einem Konversionsprozess anhand von Konversionsquotienten gemessen. Nachdem Sie die Erfolgsereignisse auf Ihrer Website kodiert haben, werden die Quotienten zwischen den verschiedenen Erfolgsereignissen von dem Bericht erstellt und in einem Konversionstrichterbericht dargestellt.
 
 Die folgenden Trichterberichte stehen zur Verfügung:
 
-* [!UICONTROL Purchase Conversion Funnel]: Zeigt Besuche (berichtspezifisch), Warenkorb, Bestellungen, Einheiten und Umsatz an.
-* [!UICONTROL Cart Conversion Funnel]: Zeigt Besuche (berichtspezifisch), Warenkorb, Kassengänge, Bestellungen und Umsatz an.
-* [!UICONTROL Custom Event Funnel]: Zeigt benutzerspezifische Ereignis auf Ihrer Site an. Es werden standardmäßig die benutzerdefinierten Ereignis 1-5 angezeigt.
-* [!UICONTROL Campaign Conversion Funnel]: Zeigt Durchklickraten, Kassengänge, Bestellungen und Umsatz an.
+* [!UICONTROL Einkaufskonversionstrichter]: Zeigt Besuche (berichtspezifisch), Warenkorb, Bestellungen, Einheiten und Umsatz an.
+* [!UICONTROL Warenkorbkonversionstrichter]: Zeigt Besuche (berichtspezifisch), Warenkorb, Checkouts, Bestellungen und Umsatz an.
+* [!UICONTROL Benutzerspezifischer Ereignistrichter]: Zeigt benutzerspezifische Ereignisse auf Ihrer Site an. Standardmäßig werden die benutzerspezifischen Ereignisse 1-5 angezeigt.
+* [!UICONTROL Kampagnenkonversionstrichter]: Zeigt Clickthroughs, Checkouts, Bestellungen und Umsatz an.
 
-Dieser Bericht kann auch angepasst werden, sodass Sie dem Umrechnungstrichter benutzerspezifische Umrechnungs-Ereignis hinzufügen können, um zu sehen, ob Besucher Ihrer Site dies von einem Schritt zum nächsten tun. Erfolgserlebnisse sind gute Kandidaten für diese Analyse, wenn sie fast immer in einer bestimmten Reihenfolge auftreten. So treten beispielsweise auf einer Einzelhandels-Site ErfolgserfolgEreignis in der Regel in der folgenden Reihenfolge auf:
+Auch dieser Bericht kann angepasst werden. Sie können somit dem Konversionstrichter Konversionsereignisse hinzufügen, um zu sehen, ob Besucher die einzelnen Schritte durchlaufen. Erfolgsereignisse eignen sich gut für diesen Analysetyp, falls sie fast immer in einer bestimmten Reihenfolge auftreten. Beispielsweise treten Erfolgsereignisse auf einer Retail-Website im Allgemeinen in der folgenden Reihenfolge auf:
 
 1. Produktansichten
 
@@ -30,7 +30,7 @@ Dieser Bericht kann auch angepasst werden, sodass Sie dem Umrechnungstrichter be
 
 4. Einkäufe
 
-Die Berichtstabelle enthält Statistiken über den durchschnittlichen Umsatz pro Durchklick und die durchschnittlichen Einheiten, die pro Durchklick verkauft werden. Sie können diesen Berichten Metriken und benutzerspezifische Ereignis aus anderen Berichten hinzufügen. Diese Trichter weisen viele Ähnlichkeiten auf, basieren aber auf verschiedenen Variablen und Ereignissen. Anhand dieser Berichte können Sie erkennen, welche Prozentsätze und Trends von Benutzern bestimmte Ereignis auslösen. Sie können sehen, wo Benutzer nicht bis zu Ereignissen folgen, was einen Einblick in diesen bestimmten Punkt im Konvertierungsprozess bietet.
+Die Berichttabelle zeigt Statistiken zu durchschnittlichen Verkäufen pro Clickthrough-Rate und durchschnittlich verkauften Einheiten pro Clickthrough-Rate an. Sie können zu diesen Berichten Metriken und benutzerspezifische Ereignisse aus anderen Berichtgruppen hinzufügen. Diese Trichter haben viele Ähnlichkeiten, basieren aber auf verschiedenen Variablen und Ereignissen. Sie können diese Berichte nutzen, um zu prüfen, welche Prozentsätze und allgemeine Besuchertrends von Ihnen spezifizierte Ereignisse auslösen. Sie können sehen, wo Benutzer nicht bis zu bestimmen Ereignissen folgen und erhalten so umfassende Informationen zu diesem spezifischen Punkt im Konversionsprozess.
 
 >[!NOTE] Instanzen entsprechen im Kontext dieser Berichte der Gesamtzahl der Besuche, bei denen eVar oder ein Ereignis definiert wurde.
 
