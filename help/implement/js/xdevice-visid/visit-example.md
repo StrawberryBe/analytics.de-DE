@@ -17,15 +17,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Das folgende Beispiel veranschaulicht die geräteübergreifende Besucheridentifizierung anhand eines Beispiels von Server-Aufrufen, die in einer üblichen Kundeninteraktion gesendet werden.
 
-| Serveraufruf | Aktion | Besucher-ID-Cookie | Besucher-ID-Variable | Effektive Besucher-ID | Seitennummer des Besuchs | Besuchnummer |
+| Server-Aufruf | Aktion | Besucher-ID-Cookie | Besucher-ID-Variable | Effektive Besucher-ID | Anzahl besuchter Seiten | Besuchnummer |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Ein Besucher klickt auf einen Link in einer Marketing-E-Mail und gelangt so von seinem privaten Computer aus auf Ihre Website. Dieser Besucher hat Ihre Site bereits 7 Mal besucht. | 1 | – | 1 | 1 | 8 |
-| 2-8 | Besucht 7 weitere Seiten auf Ihrer Site. | 1 | – | 1 | 2-8 | 8 |
-| 9 | Authentifiziert sich auf dem Heimcomputer. | 1 | CID1 | CID1 | 9 <br>(Dies ist der erste Treffer für CID1, also übernimmt CID1 und wird für das Besucherprofil von Besucher-ID 1 weiterverwendet.) | 8 |
-| 10 | Besucht 1 weitere Seite. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Öffnet Ihre Website auf seinem Laptop im Büro. Dieser Besucher hat Ihre Site vor der Verwendung dieses Geräts nicht besucht. | 2 | – | 2 | 1 | 1 |
-| 12 | Authentifiziert sich auf einem Laptop. | 2 | CID1 | CID1 | 1 | 9 |
-| 13 | Ansichten 1 zusätzliche Seite. | 2 | CID1 | CID1 | 2 | 9 |
+| 1 | Ein Besucher klickt auf einen Link in einer Marketing-E-Mail und gelangt so von seinem privaten Computer aus auf Ihre Website. Dieser Besucher hat Ihre Website zuvor bereits 7 Mal besucht. | 1 | – | 1 | 1 | 8 |
+| 2-8 | Er ruft 7 weitere Seiten auf Ihrer Website auf. | 1 | – | 1 | 2-8 | 8 |
+| 9 | Authentifiziert sich auf privatem Computer. | 1 | CID1 | CID1 | 9 <br>(Dies ist der erste Treffer für CID1, also übernimmt CID1 und wird für das Besucherprofil von Besucher-ID 1 weiterverwendet.) | 8 |
+| 10 | Besucht eine weitere Seite. | 1 | CID1 | CID1 | 10 | 8 |
+| 11 | Öffnet Ihre Website auf seinem Laptop im Büro. Dieser Besucher hat Ihre Website zuvor nicht mithilfe dieses Geräts besucht. | 2 | – | 2 | 1 | 1 |
+| 12 | Authentifiziert sich auf Laptop. | 2 | CID1 | CID1 | 1 | 9 |
+| 13 | Zeigt eine weitere Seite an. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Besuchszählung
 
