@@ -22,8 +22,8 @@ Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Erweitern Sie das [!UICONTROL Cookies] Akkordeon, das das [!UICONTROL First-party Domain Periods] Feld aufdeckt.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Cookies], wodurch das Feld [!UICONTROL Erstanbieter-Domänenpunkte] angezeigt wird.
 
 Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
