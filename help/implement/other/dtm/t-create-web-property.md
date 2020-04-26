@@ -16,11 +16,11 @@ Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehrere
 
 >[!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://marketing.adobe.com/resources/help/de_DE/dtm/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
 
-Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten dieselben Assets auf allen diesen Websites verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
+Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
 Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://marketing.adobe.com/resources/help/de_DE/dtm/web_property.html) in der Produktdokumentation zu Dynamic Tag Management.
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -44,12 +44,12 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol">Diese Website umfasst mehrere Domänen. </span> </td> 
-    <td colname="col2"> <p>Sie können Domänen hinzufügen und entfernen, wenn die Daten des Besuchers zwischen Domänen beibehalten werden sollen. Wenn diese Option aktiviert ist, bleiben die Daten für den Besuch über Subdomänen hinweg erhalten. </p> <p>Mit dieser Einstellung können Sie angeben, wie Sie Traffic-Bewegungen zwischen Ihren verbundenen Subdomänen oder Domänen verfolgen möchten. Links zu Subdomänen werden als ausgehende Links betrachtet. Besuche von Subdomänen werden separat verfolgt. </p> </td> 
+    <td colname="col2"> <p>Sie können Domänen hinzufügen oder entfernen, wenn die Besucherdaten zwischen Domänen beibehalten werden sollen. Wenn diese Option ausgewählt ist, bleiben die Daten zu dem Besuch über Subdomänen hinweg bestehen. </p> <p>Mit dieser Einstellung können Sie festlegen, wie Sie den Traffic zwischen verbundenen Subdomänen oder Domänen verfolgen möchten. Links zu Subdomänen werden als ausgehende Links betrachtet. Besuche in Subdomänen werden separat verfolgt. </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1. (Optional) Konfigurieren [!UICONTROL Advanced Settings].
+1. (Optional) Konfigurieren Sie [!UICONTROL Erweiterte Einstellungen].
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -61,7 +61,7 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     <tbody> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Genehmigungen für mehrere Regeln zulassen</span> </td> 
-    <td colname="col2"> <p>Es können gleichzeitig mehrere Regeln für diese Eigenschaft genehmigt werden. Die Standardgenehmigung erlaubt nur die Genehmigung einer einzelnen Regel. </p> </td> 
+    <td colname="col2"> <p>Es können gleichzeitig mehrere Regeln für diese Eigenschaft genehmigt werden. Bei der Standardgenehmigung ist nur die Genehmigung einer einzelnen Regel zulässig. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Selektive Veröffentlichung aktivieren</span> </td> 
@@ -69,17 +69,17 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Tracking-Cookie-Name</span> </td> 
-    <td colname="col2"> <p>Überschreibt den Standard-Tracking-Cookie-Namen. Sie können den Namen anpassen, den das dynamische Tag-Management verwendet, um Ihren Ausschluss-Status beim Empfang anderer Cookies zu verfolgen. </p> </td> 
+    <td colname="col2"> <p>Überschreibt den Standard-Tracking-Cookie-Namen. Sie können den Namen, den das Dynamic Tag Management verwendet, zur Verfolgung Ihres Opt-out-Status für den Erhalt anderer Cookies anpassen. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Tag-Timeout</span> </td> 
-    <td colname="col2"> <p>Gibt an, wie lange vom dynamischen Tag-Management gewartet wird, bis ein Tag ausgelöst wird, bevor die Tag-Anforderung beendet und abgebrochen wird. </p> <p> Aufgrund der Funktionsweise des dynamischen Tag-Managements sollten Sie sich keine Gedanken darüber machen, dass dies eine hohe Zahl ist. DTM verfügt über effektive Methoden, um sicherzustellen, dass langsame Tags die Benutzererfahrung nicht beeinträchtigen. </p> </td> 
+    <td colname="col2"> <p>Gibt an, wie lange das Dynamic Tag Management auf das Auslösen eines Tags wartet, bevor das Zeitlimit überschritten und die Tag-Anforderung abgebrochen wird. </p> <p> Aufgrund der Funktionsweise des Dynamic Tag Managements können Sie auch einen hohen Wert eingeben. DTM verfügt über effektive Methoden, sicherzustellen, dass langsame Tags keine negativen Auswirkungen auf das Benutzererlebnis haben. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Verankerungsverzögerung</span> </td> 
-    <td colname="col2"> <p>Gibt an, wie lange vom dynamischen Tag-Management gewartet wird, dass Tags bei angeklickten Links ausgelöst werden, bevor zur nächsten Seite gewechselt wird. Der Standardwert beträgt 100 Millisekunden. </p> <p>Größere Verzögerungen erhöhen die Genauigkeit der Verfolgung. Adobe empfiehlt eine Verzögerung von 500 Millisekunden oder weniger; eine solche wird vom Benutzer nicht wahrgenommen. </p> <p>Das dynamische Tag-Management wartet bis zur angegebenen Zeit, aber wenn der Beacon früher ausgelöst wird, wird die Verzögerung verkürzt. (Das bedeutet, dass der Benutzer nicht immer die volle Verzögerungsdauer abwarten muss.) </p> </td> 
+    <td colname="col2"> <p>Gibt an, wie lange das Dynamic Tag Management darauf wartet, dass Tags bei geklickten Links ausgelöst werden, bevor ein Wechsel zur nächsten Seite erfolgt. Der Standardwert beträgt 100 Millisekunden. </p> <p>Größere Verzögerungen erhöhen die Genauigkeit der Verfolgung. Adobe empfiehlt eine Verzögerung von 500 Millisekunden oder weniger; eine solche wird vom Benutzer nicht wahrgenommen. </p> <p>Das Dynamic Tag Management wartet die gegebene Zeitspanne ab, wird das Signal jedoch früher ausgelöst, wird die Verzögerung verkürzt. (Das bedeutet, dass der Benutzer nicht immer die volle Verzögerungsdauer abwarten muss.) </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Create Property]**.
+1. Klicken Sie auf **[!UICONTROL Eigenschaft erstellen]**.
