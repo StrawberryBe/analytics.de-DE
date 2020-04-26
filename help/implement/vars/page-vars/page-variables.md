@@ -14,6 +14,6 @@ Seitenvariablen bestimmen die Werte für Dimensionen und Metriken in Berichte.
 Die folgende Liste enthält häufig bei Implementierungen verwendete Variablen:
 
 * [`pageName`](pagename.md): Der Name der Seite.
-* [`campaign`](campaign.md): Legen Sie diese Variable auf einen Abfrage-String-Parameter für die Verfolgung von Campaignen fest.
+* [`campaign`](campaign.md): Legen Sie diese Variable zur Verfolgung von Kampagnen auf einen Abfragen-Zeichenfolgenparameter fest.
 * [`events`](events/events-overview.md): Füllen Sie die Metriken zur Verwendung in Berichte.
 * [`products`](products.md): Wenn Sie eine E-Commerce-Site haben, legen Sie diese Variable fest, wenn ein Besucher ein Produkt Ansicht oder kauft.
