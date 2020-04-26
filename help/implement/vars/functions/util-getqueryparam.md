@@ -17,8 +17,8 @@ Sie können Abfragezeichenfolgenparameterdaten abrufen, indem Sie Werte in Daten
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. Legen Sie die [!UICONTROL Extension] Dropdown-Liste auf [!UICONTROL Core]und die [!UICONTROL Data Element Type] auf [!UICONTROL Query String Parameter].
+3. Gehen Sie zur Registerkarte [!UICONTROL Datenelemente] und klicken Sie dann auf das gewünschte Datenelement (oder erstellen Sie ein Datenelement).
+4. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] [!UICONTROL Core] aus und setzen Sie [!UICONTROL Datenelementtyp] auf [!UICONTROL Abfragezeichenfolgenparameter].
 5. Geben Sie den Abfragezeichenfolgenparameter in das Textfeld ein.
 
 Der Wert des Abfragezeichenfolgenparameters wird im Datenelement gespeichert. Anschließend können Sie auf das Datenelement in Regeln verweisen, um Analytics-Variablen zuzuweisen.
