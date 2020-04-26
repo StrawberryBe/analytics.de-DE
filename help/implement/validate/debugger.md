@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Chrome-Erweiterung [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html).
 
-The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
+Der [!UICONTROL Legacy-Debugger] prüft Tags für die meisten Adobe Experience Cloud-Dienste. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
 
 ## Installieren des Legacy-Debuggers
 
