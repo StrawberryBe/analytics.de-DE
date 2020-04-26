@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -30,7 +30,7 @@ Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Ber
   </tr> 
   <tr> 
    <td colname="col1"> Besuchernamespace </td> 
-   <td colname="col2"> <p>Variable zur Angabe der Domäne, bei der Cookies gesetzt werden </p> </td>
+   <td colname="col2"> <p>Variable zur Angabe der Domäne, bei der Cookies gesetzt werden. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Domänenpunkte </td> 
