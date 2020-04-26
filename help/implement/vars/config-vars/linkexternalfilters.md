@@ -19,12 +19,12 @@ Wenn Sie sowohl `linkInternalFilters` als auch `linkExternalFilters` gleichzeiti
 
 ## Ausgehende Links – Verfolgen in Adobe Experience Platform Launch
 
-The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+Das Feld „Verfolgen“ ist eine kommagetrennte Liste von Filtern (üblicherweise Domänen) unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Erweitern Sie das [!UICONTROL Link Tracking] Akkordeon, das das [!UICONTROL Outbound Links - Track] Feld aufdeckt.
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Feld [!UICONTROL Ausgehende Links – Verfolgen] angezeigt wird.
 
 Platzieren Sie Filter, die Sie immer als extern betrachten wollen, in diesem Feld. Trennen Sie mehrere Domänen durch ein Komma ohne Leerzeichen.
 
