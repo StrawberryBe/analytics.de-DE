@@ -27,8 +27,8 @@ Globale Variablen eignen sich ideal, wenn Sie Variablenwerte auf allen Seiten fe
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die gewünschte Eigenschaft Start.
-1. Klicken Sie auf [!UICONTROL Extensions tab]und dann auf [!UICONTROL Configure] unter der Erweiterung Adobe Analytics.
-1. Klicken Sie auf das [!UICONTROL Global variables] Akkordeon, das die Oberfläche zum Zuweisen globaler Variablen anzeigt.
+1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
+1. Klicken Sie auf das Akkordeon [!UICONTROL Globale Variablen] , das die Oberfläche zum Zuweisen globaler Variablen anzeigt.
 
 ### Variablen in Regeln festlegen
 
@@ -36,11 +36,11 @@ Die in Regeln festgelegten Variablen eignen sich ideal, wenn Sie nicht möchten,
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die gewünschte Eigenschaft Start.
-1. Klicken Sie auf die [!UICONTROL Rules] Registerkarte und dann auf die gewünschte Regel (oder erstellen Sie eine).
-1. Klicken Sie auf die [!UICONTROL Add] Schaltfläche unter [!UICONTROL Actions].
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Klicken Sie auf die Registerkarte [!UICONTROL Regeln] und dann auf die gewünschte Regel (oder erstellen Sie eine).
+1. Klicken Sie auf die [!UICONTROL Hinzufügen] -Schaltfläche unter [!UICONTROL Aktionen].
+1. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf Variablen festlegen.
 1. Klicken Sie auf das Symbol ![Datenelement](assets/data-element.png) rechts neben der gewünschten Analytics-Variable. Das [Lösungsdesign-Dokument](../prepare/solution-design.md) Ihres Unternehmens bestimmt, welche Analytics-Variable verwendet werden soll.
-1. Wählen Sie im modalen Fenster das gewünschte Datenelement aus. Klicken Sie auf [!UICONTROL Select].
+1. Wählen Sie im modalen Fenster das gewünschte Datenelement aus. Klicken Sie auf [!UICONTROL Auswählen].
 1. Der Name des Datenelements wird dem Textfeld, das von `%` Zeichen umgeben ist, hinzugefügt. Wenn Sie Ihr Datenelement beispielsweise &quot;Seitenname&quot;nennen, wird die Zeichenfolge angezeigt, `%Page name%` wenn Sie einer Variablen ein Datenelement zuweisen.
 
 >[!TIP] Sie können Datenelemente in derselben Variablen verketten. Wenn Sie beispielsweise ein Datenelement &quot;Hostname&quot;und ein Datenelement &quot;Pathname&quot;haben, können Sie beide mit `%Hostname%%Pathname%`einer Variablen kombinieren.
