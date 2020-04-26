@@ -14,7 +14,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Beschreibung der Felder des Dynamic Tag Managements für Seitenansichten und Inhaltseinstellungen bei der Bereitstellung von Analytics.
 
-**[!UICONTROL  *`Property`*]** > ![Zahnradsymbol](assets/settings_gear.png) **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
+**[!UICONTROL *`Property`*]** > ![Zahnradsymbol](assets/settings_gear.png)**[!UICONTROL  Tool bearbeiten ]** > **[!UICONTROL  Seitenansichten und Inhalt ]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -26,15 +26,15 @@ Beschreibung der Felder des Dynamic Tag Managements für Seitenansichten und Inh
  <tbody>
   <tr>
    <td colname="col1"> Webseitenname </td>
-   <td colname="col2"> <p>Der Name der einzelnen Seiten Ihrer Site. </p> <p>Siehe <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
+   <td colname="col2"> <p>Der Name der einzelnen Seiten Ihrer Website. </p> <p>Siehe <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Seiten-URL-Überschreibung </td>
+   <td colname="col1"> Seiten-URL-Umgehung </td>
    <td colname="col2"> <p> Überschreibt die tatsächliche URL der Seite. </p> <p>Siehe <a href="../../../vars/page-vars/pageurl.md">pageURL</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Kanal (Site-Abschnitt) </td>
-   <td colname="col2"> <p>Identifiziert einen Abschnitt Ihrer Site. </p> <p>Siehe <a href="../../../vars/page-vars/channel.md">kanal</a>. </p> </td>
+   <td colname="col2"> <p>Kennzeichnet einen Bereich Ihrer Site. </p> <p>Siehe <a href="../../../vars/page-vars/channel.md">kanal</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Hierarchie </td>
