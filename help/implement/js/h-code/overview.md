@@ -26,7 +26,7 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
 
 ## Caching
 
-Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur einmal pro Sitzung heruntergeladen. Die Datei wird nicht auf jeder Seite heruntergeladen, obwohl sie von jeder Seite der Site verwendet wird. Auf den meisten Websites verwenden die Benutzer im Durchschnitt mehr als einige Ansichten pro Sitzung. Daher kann die Übertragung von mehrfach verwendetem JavaScript in diese  zu einer Verringerung der insgesamt heruntergeladenen Daten führen.
+Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur ein Mal pro Sitzung heruntergeladen. Die Datei wird nicht für jede Seite erneut heruntergeladen, selbst wenn sie auf jeder Seite der Website verwendet wird. Auf den meisten Websites rufen Benutzer im Durchschnitt mehr als nur ein paar Seitenansichten pro Sitzung auf. Somit kann durch die Übertragung von mehrfach verwendetem JavaScript in diese Datei die insgesamt heruntergeladene Datenmenge reduziert werden.
 
 ## H-Code-Komprimierung
 
