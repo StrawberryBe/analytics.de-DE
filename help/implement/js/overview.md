@@ -9,17 +9,17 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # AppMeasurement für JavaScript
 
-AppMeasurement für JavaScript ist seit jeher eine häufige Methode zur Implementierung von Adobe Analytics. Da Tag-Management-Systeme jedoch immer beliebter werden, wird empfohlen, [Adobe Experience Platform Launch](../launch/overview.md) zu verwenden.
+AppMeasurement für JavaScript ist seit jeher eine gängige Methode zur Implementierung von Adobe Analytics. Da Tag-Management-Systeme jedoch immer beliebter werden, wird empfohlen, [Adobe Experience Platform Launch](../launch/overview.md) zu verwenden.
 
-## Gesamtarbeitsablauf für das Senden von Daten an Adobe mit JavaScript
+## Genereller Workflow zum Senden von Daten an Adobe mit JavaScript
 
-1. Laden Sie die `AppMeasurement.js` Datei. Diese Datei enthält die Bibliotheken, die zum Senden von Daten an Adobe erforderlich sind.
+1. Laden Sie die `AppMeasurement.js`-Datei. Diese Datei enthält die Bibliotheken, die zum Senden von Daten an Adobe erforderlich sind.
 
    ```html
    <script src="AppMeasurement.js"></script>
    ```
 
-2. Definieren Sie Konfigurationsvariablen in `AppMeasurement.js`. Wenn das Analytics-Objekt instanziiert wird, stellen diese Variablen sicher, dass die Datenerfassungseinstellungen korrekt sind. Eine vollständige Liste der zu definierenden Variablen finden Sie unter [Konfigurationsvariablen](../vars/config-vars/configuration-variables.md) .
+2. Definieren Sie Konfigurationsvariablen in `AppMeasurement.js`. Wenn das Analytics-Objekt instanziiert wird, stellen diese Variablen sicher, dass die Datenerfassungseinstellungen korrekt sind. Eine vollständige Liste der Variablen, die Sie definieren können, finden Sie unter [Konfigurationsvariablen](../vars/config-vars/configuration-variables.md).
 
    ```js
    // Instantiate the Analytics tracking object with report suite ID
@@ -29,7 +29,7 @@ AppMeasurement für JavaScript ist seit jeher eine häufige Methode zur Implemen
    s.trackingServer = "example.omtrdc.net";
    ```
 
-3. Definieren Sie Variablen auf Seitenebene im Seitencode Ihrer Site. Diese Variablen bestimmen bestimmte Dimensionen und Metriken, die an Adobe gesendet werden. Eine vollständige Liste der zu definierenden Variablen finden Sie unter [Seitenvariablen](../vars/page-vars/page-variables.md) .
+3. Definieren Sie Variablen auf Seitenebene im Seiten-Code Ihrer Website. Diese Variablen bestimmen spezifische Dimensionen und Metriken, die an Adobe gesendet werden. Eine vollständige Liste der Variablen, die Sie definieren können, finden Sie unter [Seitenvariablen](../vars/page-vars/page-variables.md).
 
    ```js
    s.pageName = "Example page";
@@ -37,7 +37,7 @@ AppMeasurement für JavaScript ist seit jeher eine häufige Methode zur Implemen
    s.events = "event1";
    ```
 
-4. Wenn alle Variablen auf Seitenebene definiert sind, senden Sie die Daten mit der `t()` Methode an Adobe. Weitere Informationen finden Sie [in diesem Abschnitt](../vars/functions/t-method.md) .
+4. When all page-level variables are defined, send the data to Adobe using the `t()` method. Weitere Informationen finden Sie unter [t](../vars/functions/t-method.md).
 
    ```js
    s.t();
