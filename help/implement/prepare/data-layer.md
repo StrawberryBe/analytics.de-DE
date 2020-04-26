@@ -9,27 +9,27 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 # Datenschicht erstellen
 
-Eine Datenschicht ist ein Framework von JavaScript-Objekten auf Ihrer Site, die alle in Ihrer Implementierung verwendeten Variablenwerte enthalten. Dadurch erhalten Sie mehr Kontrolle und eine einfachere Wartung Ihrer Implementierung.
+Eine Datenschicht ist ein Framework von JavaScript-Objekten auf Ihrer Website, die alle in Ihrer Implementierung verwendeten Variablenwerte enthalten. Sie ermöglicht eine bessere Kontrolle und einfachere Wartung Ihrer Implementierung.
 
 ## Voraussetzungen
 
-[Erstellen Sie ein Lösungsdesigndesign-Dokument](solution-design.md) - Es ist wichtig, dass Ihr Unternehmen die Anforderungen für die Verfolgung einhält. Stellen Sie sicher, dass Sie mit einem Lösungsdesign-Dokument vorbereitet sind, bevor Sie sich an Entwicklungsteams in Ihrem Unternehmen wenden.
+[Erstellen Sie ein Lösungsdesigndokument](solution-design.md): Für Ihr Unternehmen ist es wichtig, die Tracking-Anforderungen abzustimmen. Stellen Sie sicher, dass Sie ein Lösungsdesigndokument vorbereitet haben, bevor Sie sich an die Entwicklungs-Teams in Ihrer Organisation wenden.
 
-## Arbeitsablauf
+## Workflow
 
-Die Implementierung von Adobe Analytics mit einer Datenschicht führt in der Regel folgende Schritte aus:
+Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerweise diesen Schritten:
 
-1. **Arbeiten Sie mit Ihrem Site-Entwicklungsteam zusammen, um eine Datenschicht** zu implementieren: Ihr Site-Entwicklungsteam ist in erster Linie dafür verantwortlich sicherzustellen, dass das Datenschichtobjekt mit korrekten Werten gefüllt wird. Überprüfen Sie diese Seite mit Ihrem Site-Entwicklungsteam, um sicherzustellen, dass die Erwartungen zwischen den Teams übereinstimmen.
-   > [!NOTE] Die von Adobe empfohlenen Datenschichtspezifikationen sind optional. Wenn Sie bereits über eine Datenschicht verfügen oder sich anderweitig dafür entscheiden, die Adobe-Spezifikationen nicht einzuhalten, stellen Sie sicher, dass sich Ihr Unternehmen an den zu beachtenden Spezifikationen orientiert.
-2. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Nachdem eine Datenschicht erstellt wurde, können Sie überprüfen, ob sie mit der Entwicklerkonsole eines Browsers funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit dem `F12` Schlüssel öffnen. Ein Beispiel für einen Variablenwert wäre `digitalData.page.pageInfo.pageID`.
-3. **Verwenden Sie Adobe Experience Platform Launch, um Datenschichtobjekte zu Datenelementen** starten zuzuordnen: Erstellen Sie Datenelemente in Launch und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
-4. **Verwenden Sie die Adobe Analytics-Erweiterung in Launch, um Datenelemente Analytics-Variablen** zuzuordnen: Weisen Sie nach dem Dokument des Lösungsentwurfs jedes Datenelement der entsprechenden Analytics-Variable zu.
+1. **Arbeiten Sie mit Ihrem Website-Entwicklungs-Team zusammen, um eine Datenschicht zu implementieren**: Ihr Website-Entwicklungs-Team ist in erster Linie dafür verantwortlich, dass das Datenschichtobjekt mit den richtigen Werten gefüllt wird. Gehen Sie diese Seite mit Ihrem Website-Entwicklungs-Team durch, um sicherzustellen, dass die Erwartungen zwischen den Teams abgestimmt sind.
+   > [!NOTE] Das Befolgen der von Adobe empfohlenen Datenschichtspezifikationen ist optional. Wenn Sie bereits über eine Datenschicht verfügen oder sich anderweitig gegen die Adobe-Spezifikationen entscheiden, stellen Sie sicher, dass Ihre Organisation sich an den zu befolgenden Spezifikationen orientiert.
+2. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `digitalData.page.pageInfo.pageID`.
+3. **Verwenden Sie Adobe Experience Platform Launch, um Datenschichtobjekte auf Launch-Datenelemente abzubilden**: Erstellen Sie Datenelemente in Launch und ordnen Sie sie den in Ihrer Datenschicht beschriebenen JavaScript-Attributen zu.
+4. **Verwenden Sie die Adobe Analytics-Erweiterung in Launch, um Datenelemente auf Analytics-Variablen abzubilden**: Ordnen Sie nach Ihrem Lösungsentwurfsdokument jedes Datenelement der entsprechenden Analytics-Variablen zu.
 
 ## Spezifikationen
 
-Adobe empfiehlt, der [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) zu folgen, die von der [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/)beschrieben wird. In den folgenden Abschnitten erfahren Sie, wie Datenschichtelemente mit Adobe Analytics interagieren.
+Adobe empfiehlt, sich an die von der [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/) veröffentlichten Dokumentation [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) zu halten. In den folgenden Abschnitten erfahren Sie, wie Datenschichtelemente mit Adobe Analytics interagieren.
 
-Das zu verwendende übergreifende Datenschichtobjekt wird empfohlen `digitalData`. Im folgenden Beispiel wird ein etwas umfangreiches JSON-Objekt der Datenschicht mit Beispielwerten Liste:
+Es wird empfohlen, das übergreifende Datenschichtobjekt `digitalData` zu verwenden. Im folgenden Beispiel wird ein etwas umfangreiches JSON-Objekt mit Beispielwerten aufgeführt:
 
 ```js
 digitalData = {
@@ -160,13 +160,13 @@ digitalData = {
 }
 ```
 
-Verwenden Sie den Bericht &quot; [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) &quot;für Details zu den einzelnen Objekten und Unterobjekten. Nicht alle Websites verwenden alle Objekte. Wenn Sie beispielsweise eine News-Site hosten, ist es unwahrscheinlich, dass Sie diese für das `digitalData.product` Objekt verwenden.
+Details zu den einzelnen Objekten und Unterobjekten finden Sie im Bericht [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf). Nicht alle Websites verwenden alle Objekte. Wenn Sie beispielsweise eine News-Website hosten, werden Sie das `digitalData.product`-Objekt wahrscheinlich nicht verwenden.
 
 Datenschichten sind erweiterbar. Wenn Sie unternehmensspezifische Anforderungen haben, können Sie Objekte in Ihre Datenschicht aufnehmen, um diese Anforderungen zu erfüllen.
 
 ## Festlegen von Datenschichtwerten
 
-Datenschichten generieren in der Regel serverseitig und beziehen sich dabei auf dieselben Objekte, die zum Erstellen des Site-Inhalts verwendet werden. Stellen Sie die Datenschicht der Site auf der Grundlage der im [Lösungsdesign-Dokument](solution-design.md)Ihres Unternehmens festgelegten Tracking-Anforderungen ein.
+Datenschichten werden normalerweise Server-seitig generiert und verweisen auf dieselben Objekte, die zum Erstellen des Website-Inhalts verwendet wurden. Richten Sie die Datenschicht der Website anhand der im [Lösungsdesigndokument](solution-design.md) Ihres Unternehmens festgelegten Tracking-Anforderungen ein.
 
 ## Nächste Schritte
 
