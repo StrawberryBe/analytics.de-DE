@@ -13,12 +13,12 @@ Die `s_gi()`-Funktion instanziiert oder findet eine Instanz von AppMeasurement n
 
 ## s_gi() in Adobe Experience Platform Launch
 
-Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+Die Analytics-Erweiterung instanziiert und verwaltet das Tracking-Objekt für Sie. Sie können jedoch auch ein globales Tracking-Objekt im Akkordeon [!UICONTROL Bibliotheksverwaltung] festlegen, wenn Sie die Adobe Analytics-Erweiterung konfigurieren.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Erweitern Sie das [!UICONTROL Library Management] Akkordeon und wählen Sie ein anderes Optionsfeld als [!UICONTROL Manage the library for me].
+3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
+4. Erweitern Sie das Akkordeon [!UICONTROL Bibliotheksverwaltung] und wählen Sie eine andere Optionsschaltfläche als [!UICONTROL Bibliothek für mich verwalten] aus.
 
 Im Textfeld für globale Variablen können Sie ein benutzerdefiniertes Tracking-Objekt festlegen. Der Standardwert lautet `s`.
 
