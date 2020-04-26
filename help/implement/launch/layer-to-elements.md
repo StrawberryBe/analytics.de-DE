@@ -17,7 +17,7 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
 
 ## Verwenden Sie Adobe Experience Platform Launch, um Datenelemente zu erstellen
 
-[Datenelemente](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) sind Komponenten in Launch, die Sie über das Tool hinweg verwenden können. Sie können Variablenwerte in der Adobe Analytics-Erweiterung mithilfe von Datenelementen zuweisen.
+[Datenelemente](https://docs.adobe.com/content/help/de-DE/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) sind Komponenten in Launch, die Sie über das Tool hinweg verwenden können. Sie können Variablenwerte in der Adobe Analytics-Erweiterung mithilfe von Datenelementen zuweisen.
 
 1. Wechseln Sie zu [Adobe Experience Platform Launch](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die gewünschte Eigenschaft Start.
@@ -26,10 +26,10 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
    ![Datenelement erstellen](assets/createelement.png)
 
 1. Geben Sie einen Namen für Ihr Datenelement ein. Es kann sich um eine einfache Beschriftung handeln, die einer JavaScript-Variablen in Ihrer Datenschicht entspricht, die Sie verfolgen möchten.
-1. Wählen Sie unter der [!UICONTROL Extension] Dropdownliste [!UICONTROL Core].
-1. Wählen Sie unter der [!UICONTROL Data Element Type] Dropdownliste [!UICONTROL JavaScript Variable]. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
+1. Wählen Sie im Dropdownmenü [!UICONTROL Erweiterung] die Option [!UICONTROL Core].
+1. Under the [!UICONTROL Data Element Type] dropdown, select [!UICONTROL JavaScript Variable]. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
 1. Geben Sie die gewünschte JavaScript-Variable ein, normalerweise in Ihrer Datenschicht. Wenn beispielsweise die Datenschicht Ihres Unternehmens der empfohlenen Vorgehensweise von Adobe sehr ähnlich ist, könnte ein Wert `digitalData.page.pageInfo.pageName`verwendet werden. Sie können die JavaScript-Variablensyntax und -werte in der Browser-Konsole überprüfen.
-1. Klicken Sie auf [!UICONTROL Save].
+1. Klicken Sie auf [!UICONTROL Speichern].
 
 ## Nächste Schritte
 
