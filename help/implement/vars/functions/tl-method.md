@@ -19,9 +19,9 @@ Launch verfügt über einen speziellen Speicherort, um einen Linktracking-Aufruf
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
-1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+1. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
+1. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie [!UICONTROL Aktionstyp] auf „Beacon senden“.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können keine optionalen Argumente in Launch festlegen.
