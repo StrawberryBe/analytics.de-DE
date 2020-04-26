@@ -24,7 +24,7 @@ Der übergreifende Workflow zur Implementierung von Adobe Analytics lautet wie 
 
 ### Schritt 1: Erstellen einer `stats.html`-Seite
 
-Der unten stehende HTML-Beispielcode kann verwendet werden, um Statistiken aus den Instant Articles zu erfassen. Diese Datei wird normalerweise auf einem der Webserver Ihrer Firma gehostet. Jedes Mal, wenn ein Instant Article geladen wird, wird die Datei in einen iFrame geladen, wodurch Daten an Adobe gesendet werden.
+Mit dem folgenden HTML-Muster können Sie Statistiken aus den Instant Articles verwenden. Diese Datei wird in der Regel auf einem der Webserver Ihres Unternehmens gehostet. Jedes Mal, wenn ein Instant Article geladen wird, wird die Datei in einen iFrame geladen, wodurch Daten an Adobe gesendet werden.
 
 ```html
 <html>
