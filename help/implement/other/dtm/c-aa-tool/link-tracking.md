@@ -14,9 +14,9 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei der Bereitstellung von Analytics.
 
-**[!UICONTROL  *`Property`*]**  > **[!UICONTROL   ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** > **[!UICONTROL![](assets/settings_gear.png)
 
-Edit Tool]** > **[!UICONTROL Link Tracking]**
+Tool bearbeiten]** > **[!UICONTROL Linktracking]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -28,15 +28,15 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> ClickMap aktivieren </td>
-   <td colname="col2"> <p>Bestimmt, ob Daten zur Besucher-ClickMap gesammelt werden. </p> <p>Siehe <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Bestimmt, ob Daten zur Besucherklickzuordnung gesammelt werden. </p> <p>Siehe <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Downloadlinks verfolgen </td>
-   <td colname="col2"> <p>Verfolgt Links zu herunterladbaren Dateien auf Ihrer Site. </p> <p>Siehe <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>Verfolgt die Links zu Dateien Ihrer Site, die heruntergeladen werden können. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Download-Erweiterungen </td> 
-   <td colname="col2"> <p>Wenn Ihre Site Links zu Dateien mit einer der aufgeführten Erweiterungen enthält, werden die URLs dieser Links in Berichte angezeigt. </p>Siehe <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
+   <td colname="col2"> <p>Wenn die Site Links zu Dateien mit einer der genannten Dateierweiterungen enthält, werden die URLs dieser Links im Bericht angezeigt. </p>Siehe <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> Ausgehende Links verfolgen </td>
@@ -48,7 +48,7 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
   </tr>
   <tr>
    <td colname="col1"> URL-Parameter beibehalten </td>
-   <td colname="col2"> <p>Behält die Zeichenfolgen der Abfrage bei. </p> <p>Siehe <a href="../../../vars/config-vars/linkleavequerystring.md">linkLeaveQueryString</a>. </p> </td>
+   <td colname="col2"> <p>Die Abfragezeichenfolgen bleiben erhalten. </p> <p>Siehe <a href="../../../vars/config-vars/linkleavequerystring.md">linkLeaveQueryString</a>. </p> </td>
   </tr>
  </tbody>
 </table>
