@@ -19,6 +19,6 @@ Bei Implementierungen mit Adobe Experience Platform Launch werden die Konfigu
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die Eigenschaft, die Sie bearbeiten möchten.
-3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
+3. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
 
 >[!IMPORTANT] Vergewissern Sie sich, dass alle Konfigurationsvariablen festgelegt sind, bevor Sie eine Verfolgungsmethode ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)) aufrufen. Vermeiden Sie das Festlegen von Konfigurationsvariablen in der [`doPlugins()`](../functions/doplugins.md)-Funktion.
