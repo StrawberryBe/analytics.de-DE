@@ -3,7 +3,7 @@ description: Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt we
 title: Pfadberichte durch Hinzufügen von abhängigen Anforderungen filtern
 topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
 
-Marketing Reports &amp; Analytics bietet einige eigenständige Berichte, die Top-Pfadberichte sind und vordefinierte Filter enthalten, z. B. Berichte zu den [!UICONTROL nächsten] und [!UICONTROL vorherigen Sitebereichen], zu Ein- und [!UICONTROL Ausstiegssitebereichen] und zu [!UICONTROL einzelnen Sitebereichen].
+Marketing Reports &amp; Analysen Angebote umfassen einige eigenständige Berichte, die zu Top-Pfadberichten mit Vordefinierte Filtern gehören, wie z. B. [!UICONTROL Next] und [!UICONTROL Previous Site Section] Berichte, Einstiegs- und [!UICONTROL Exit Site Section] -Berichte und [!UICONTROL Single Site Section] -Berichte.
 
-Report Builder bietet diese nicht als eigenständige Berichte an, aber Sie können sie über die Kontextmenüs **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Pfad]** erstellen. Die folgenden Berichte sind verfügbar:
+Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. Die folgenden Berichte sind verfügbar:
 
 * Pfad > Trichteranalyse für Seite
 * Pfad > Einstiegspfad
@@ -27,12 +27,12 @@ Report Builder bietet diese nicht als eigenständige Berichte an, aber Sie könn
 * Pfad > Einstiegspfad > Als Entrypage
 * Pfad > Ausstiegspfad > Als Exitpage
 
-1. Wählen Sie mehrere Zeilen aus einer vorhandenen Anforderung aus und klicken Sie dann mit der rechten Maustaste auf **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Pfad]**.
+1. Wählen Sie mehrere Zeilen aus einer vorhandenen Anforderung aus und klicken Sie dann mit der rechten Maustaste **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
 
-   (Beachten Sie, dass Sie mindestens 3 Zeilen auswählen müssen, wenn Sie das Menüelement **[!UICONTROL Trichteranalyse für Seite]** anzeigen möchten.)
+   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
 
    ![](assets/dependen_request.png)
 
-1. Wählen Sie den vordefinierten Filter aus, z. B. **[!UICONTROL Vorherige Seite]**.
+1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
    Der Anforderungs-Assistent wird angezeigt, wobei die Metrik „Vorherige Seite“ bereits ausgewählt ist. 1. Verfeinern Sie Ihre Anforderung im Anforderungs-Assistenten weiter und generieren Sie Ihre Anforderung.
