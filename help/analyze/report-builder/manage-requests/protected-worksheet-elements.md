@@ -3,7 +3,7 @@ description: Wenn Sie einen Schreibschutz für ein Arbeitsblatt setzen (durch Sp
 title: Geschützte Elemente in Arbeitsblättern
 topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
