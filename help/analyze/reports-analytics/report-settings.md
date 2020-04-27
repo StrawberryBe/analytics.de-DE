@@ -3,7 +3,7 @@ description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, u
 title: Einstellungen zur Berichtsanzeige und Navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informatio
 
 ## Einstellungen zur Berichtsanzeige und Navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Berichtseinstellungen]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -135,15 +135,15 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 | **Benutzerspezifischer Traffic** |  |  |
 |  | Benutzerspez. Traffic 1-10 | Inhalt > Benutzerspezifischer Traffic > Benutzerspez. Traffic 1-10 |
 | **Test&amp;Target** |  | Konversion > Test&amp;Target |
-| **Survey** |  | Zielgruppe > Survey |
+| **Umfrage** |  | Zielgruppe > Survey |
 | **Marketing-Kanäle** |  |  |
 |  | Kanalübersichtsbericht | Traffic-Quellen > Marketing-Kanäle > Kanalübersichtsbericht |
 |  | Erstkontakt Kanal | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanal |
 |  | Erstkontakt Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanaldetail |
 |  | Letztkontakt Kanal | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanal |
 |  | Letztkontakt Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanaldetail |
-| **Mobile Anwendung** |  |  |
-|  | Übersicht Mobile Anwendung | Inhalt > Mobile Anwendung > Übersicht Mobile Anwendung |
+| **Mobile App** |  |  |
+|  | Übersicht Mobile App | Inhalt > Mobile Anwendung > Übersicht Mobile Anwendung |
 |  | Lebenszyklus-Berichte | Inhalt > Mobile Anwendung > Lebenszyklus-Berichte |
 | **Benutzerspezifische Berichte** |  |  |
 |  | Benutzerspezifische Berichte werden nur angezeigt, wenn Sie welche eingerichtet haben. | Benutzerspezifische Berichte |
