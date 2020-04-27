@@ -10,11 +10,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # In Power BI veröffentlichen – Übersicht
 
-Microsoft Power BI ist eine Suite von Business Analytics-Dashboards, um Daten zu analysieren und Erkenntnisse zu teilen. Die Adobe Analytics-Integration mit Power BI ermöglicht Ihnen, Report Builder-Analysedaten in Microsoft Power BI zu visualisieren und in Ihrem Unternehmen bequem gemeinsam zu verwenden.
+Bei Microsoft Power BI handelt es sich um eine Suite von Business Analytics-Dashboards, die zur Analyse von Daten und zur Weitergabe von Erkenntnissen genutzt werden können. Die Adobe Analytics-Integration mit Power BI ermöglicht Ihnen, Report Builder-Analysedaten in Microsoft Power BI zu visualisieren und in Ihrem Unternehmen bequem gemeinsam zu verwenden.
 
-Als Analytiker mussten Sie zuvor eine Verteilung von Report Builder-Arbeitsmappen per E-Mail (oder ftp) planen. Sie können Ihren Geschäftspartnern nun (aus ihren Power BI-Konten) Zugriff auf genaue und aktuelle Daten in einer webbasierten Umgebung geben, die plattformübergreifend und geräteübergreifend verfügbar ist.
+Als Analytiker mussten Sie zuvor eine Verteilung von Report Builder-Arbeitsmappen per E-Mail (oder ftp) planen. Jetzt können Sie den Entscheidungsträgern in Ihrem Unternehmen Zugriff (über ihre Power BI-Konten) gewähren, um Daten in einer webbasierten Umgebung zu korrigieren und zu aktualisieren, die unabhängig von der Plattform und vom Gerät zugänglich ist.
 
-Durch Kombination der Berichterstellungsfunktion von Report Builder mit den Visualisierungsfunktionen von Power BI sind Informationen für alle Mitglieder Ihres Unternehmens leichter zugänglich. Mit Power BI können Sie Adobe Analytics auch mit anderen Datenquellen (z. B. Verkaufsorte, CRM) integrieren, um einzigartige Kundeneinblicke, Verbände und Chancen zu ermitteln.
+Durch Kombination der Berichterstellungsfunktion von Report Builder mit den Visualisierungsfunktionen von Power BI sind Informationen für alle Mitglieder Ihres Unternehmens leichter zugänglich. Mithilfe von Power BI können Sie Adobe Analytics auch mit anderen Datenquellen verbinden (z. B. Verkaufsstellendaten, CRM), um einzigartige Erkenntnisse über Kunden, Zusammenhänge und Opportunities abzuleiten.
 
 ![](assets/aaplusbi.png)
 
@@ -42,16 +42,16 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
    ![](assets/simple-schedule-wizard.png)
 
-1. Geben Sie Ihre E-Mail an und senden Sie sie sofort oder geben Sie die Häufigkeit der Planung an (stündlich, täglich usw.).
-1. Klicken Sie **[!UICONTROL OK]** zum Veröffentlichen auf .
-1. Sie werden jetzt aufgefordert, sich bei Ihrem Microsoft-Konto anzumelden. Geben Sie Ihre Anmeldeinformationen ein.
+1. Geben Sie Ihre E-Mail-Adresse an, um die Arbeitsmappe sofort zu senden, oder geben Sie die Planungshäufigkeit (stündlich, täglich usw.) an.
+1. Click **[!UICONTROL OK]** to publish.
+1. Jetzt werden Sie aufgefordert, sich bei Ihrem Microsoft-Konto anzumelden. Geben Sie Ihre Anmeldedaten an.
 1. Die Report Builder-Arbeitsmappe wird in die Planung aufgenommen und in Power BI veröffentlicht.
 
    Durch jede geplante Instanz und nachdem der Report Builder-Prozess die Arbeitsmappe mit den neuesten Analytics-Daten aktualisiert hat, wird die Arbeitsmappe in Microsoft Power BI veröffentlicht.
 
 **Report Builder-Arbeitsmappendaten in Power BI anzeigen**
 
-1. Klicken Sie in Power BI auf die Arbeitsmappe unter dem [!UICONTROL Workbooks] Menü.
+1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
 
    ![](assets/workbooks-power-bi.png)
 
@@ -63,9 +63,9 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
 >[!NOTE] Wenn die Arbeitsmappe ein Makro enthält, wird „Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen“ deaktiviert.
 
-Anstatt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller formatierten Tabellen in der Arbeitsmappe importieren.
+Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller formatierten Tabellen innerhalb der Arbeitsmappe importieren.
 
-**Verwendungsfall**: Sie besitzen eine Excel-Arbeitsmappe, die Daten aus mehreren Report Builder-Anforderungen abruft und eine Zusammenfassungstabelle mit zahlreichen Formeln erstellt. Sie können nur die Zusammenfassungstabelle in Power BI importieren und eine Visualisierung dafür erstellen.
+**Verwendungsfall**: Sie besitzen eine Excel-Arbeitsmappe, die Daten aus mehreren Report Builder-Anforderungen abruft und eine Zusammenfassungstabelle mit zahlreichen Formeln erstellt. Sie können nur die Zusammenfassungstabelle in Power BI importieren und eine Visualisierung dafür erstellen.
 
 **Formatierte Tabelle in Report Builder veröffentlichen**
 
@@ -79,27 +79,27 @@ Anstatt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt alle
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Optional) Sie können den Namen des veröffentlichten Assets in Power BI anpassen. Dies kann nützlich sein, wenn Sie die Versionsverwaltung als Teil des Arbeitsmappennamens verwenden (z. B. myappe_v1.1.xlsx) und die Versionsnummer nicht im Namen des veröffentlichten Power BI-Assets angezeigt werden soll. Es hat den zusätzlichen Vorteil, dass sich das veröffentlichte Asset nicht ändert, wenn sich die Versionsnummer ändert. ( [Spezifikationen](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) zur Ansicht.)
+1. (Optional) Sie können den Namen des veröffentlichten Assets in Power BI anpassen. Dies kann nützlich sein, wenn Sie eine Versionsnummer als Teil des Arbeitsmappennamens verwenden (z. B. meineArbeitsmappe_v1.1.xlsx) und nicht möchten, dass die Versionsnummer im Namen des veröffentlichten Power BI-Assets angezeigt wird. Dies hat den zusätzlichen Vorteil, dass sich das veröffentlichte Asset nicht ändert, wenn sich die Versionsnummer ändert. ([Angaben](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) dazu finden Sie hier.)
 
 **Tabellendaten in Power BI anzeigen**
 
-1. Wechseln Sie in Power BI zum **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** -Menü.
+1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
    ![](assets/datasets-menu.png)
 
-1. Wählen Sie den veröffentlichten Datensatz aus und klicken Sie auf das [!UICONTROL Create report] Symbol daneben. Beachten Sie, dass die Tabellen als Felder angezeigt werden.
+1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. Beachten Sie, dass die Tabellen als Felder angezeigt werden.
 
    ![](assets/formatted-tables.png)
 
-1. Wählen Sie eine Tabelle und die zugehörigen Spalten aus.
+1. Wählen Sie eine Tabelle und die dazugehörigen Spalten aus.
 
    ![](assets/view-table-dataset.png)
 
-1. Im [!UICONTROL Visualizations] Menü können Sie auswählen, wie eine Tabelle in Power BI visualisiert werden soll. Sie können Ihre Daten beispielsweise als Liniendiagramm präsentieren:
+1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. Beispielsweise können Sie festlegen, dass Ihre Daten als Kantengraph dargestellt werden:
 
    ![](assets/bi-line-graph.png)
 
-1. Von hier aus können Sie Visualisierungen aus dieser Datensatztabelle erstellen.
+1. Hier können Sie Visualisierungen aus dieser Datensatztabelle erstellen.
 
 ## Veröffentlichen Sie alle Report Builder-Anforderungen als Power BI-Datensatztabellen {#section_0C26057C7DBB4068A643FDD688F6E463}
 
@@ -107,7 +107,7 @@ Sie können alle Ihre Anforderungen in Datensatztabellen umwandeln und daraus Vi
 
 >[!IMPORTANT]
 >
->Wenn die Arbeitsmappe mehr als 100 Anforderungen enthält, werden nur die ersten 100 Anforderungen in Power BI veröffentlicht. Darüber hinaus werden für jede an Power BI veröffentlichte Anforderung nur die ersten 10.000 Datenzeilen veröffentlicht. Während diese Anfragen erfolgreich über die Planung bereitgestellt werden, ist der Umfang der Veröffentlichung auf Power BI begrenzt.
+>Wenn die Arbeitsmappe mehr als 100 Anforderungen enthält, werden nur die ersten 100 Anforderungen in Power BI veröffentlicht. Außerdem werden nur die ersten 10.000 Datenzeilen jeder an Power BI gesendeten Anforderung veröffentlicht. Während diese Anforderungen also erfolgreich von der Planungsfunktion bereitgestellt werden, ist der Umfang der Veröffentlichungen in Power BI eingeschränkt.
 
 1. Öffnen oder erstellen Sie in Report Builder eine Arbeitsmappe mit Report Builder-Anforderungen.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
@@ -119,13 +119,13 @@ Sie können alle Ihre Anforderungen in Datensatztabellen umwandeln und daraus Vi
 
 **Anforderungsdaten in Power BI anzeigen**
 
-Jede terminierte Report Builder-Anforderung wird als Tabelle im Datensatz veröffentlicht. Jede Anforderungstabelle wird nach der primären Dimension in der Anforderung benannt und verfügt über eine [!UICONTROL Report Suite] und eine [!UICONTROL Segments] Spalte.
+Jede terminierte Report Builder-Anforderung wird als Tabelle im Datensatz veröffentlicht. Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
 
-1. Wechseln Sie in Power BI zum **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** -Menü.
+1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
-1. Wählen Sie die von Ihnen veröffentlichte Anforderung aus und klicken Sie auf das [!UICONTROL Create report] Symbol daneben.
+1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
 
-   Beachten Sie, dass die Anforderungen als Tabellen im [!UICONTROL Fields] Menü angezeigt werden.
+   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Jede terminierte Report Builder-Anforderung wird als Tabelle im Datensatz veröf
    >
    >Unabhängig davon, welches Layout Sie für Ihre Report Builder-Anforderung auf dem Arbeitsblatt konfiguriert haben (Pivot-Layout, benutzerdefiniertes Layout, Layout mit nicht sichtbaren Spalten), veröffentlicht Report Builder Ihre Anforderung immer in dem gleichen zweidimensionalen Format mit einer Kopfzeile: Datum, Dimensionen, Metriken, Report Suites, Segmente.
 
-1. Beachten Sie auch, dass es eine zusätzliche Tabelle namens **[!UICONTROL Legend]**. Wenn Sie eine Anforderung aus dem Report Builder-Kontext herausnehmen, können Sie sich möglicherweise nicht mehr an die Bedeutung jeder einzelnen Anforderung erinnern. Die Legende-Tabelle zeigt beispielsweise den Namen der einzelnen Anforderungen unter der Tabelle-ID an. Sie können auch die anderen Legend-Spalten hinzufügen, um eine vollständige Ansicht der Anforderung zu erhalten.
+1. Also notice that there is an additional table called **[!UICONTROL Legend]**. Wenn Sie eine Anforderung aus dem Report Builder-Kontext herausnehmen, können Sie sich möglicherweise nicht mehr an die Bedeutung jeder einzelnen Anforderung erinnern. Der Zweck der Tabelle „Legende“ besteht darin, beispielsweise den Namen der einzelnen Anforderungen unter „Tabellen-ID“ anzuzeigen. Sie können die anderen Legendenspalten hinzufügen, um eine vollständige Ansicht der Anforderung zu erhalten.
 
    ![](assets/legend-table.png)
 
