@@ -3,7 +3,7 @@ description: Definitionen für feste Datumswerte in Report Builder
 title: Definitionen des Anforderungs-Assistenten – Feste Datumswerte
 topic: Report builder
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
