@@ -32,8 +32,8 @@ Dies ist ein Beispiel für die Verwendung **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Aktivieren **[!UICONTROL Customize Expression]**. Durch Auswahl der Optionen unter **[!UICONTROL Rolling Dates]** können Sie die Syntax für benutzerdefinierte Datumsausdrücke leicht erkennen.
+1. Aktivieren **[!UICONTROL Customize Expression]**. Durch Auswahl der Optionen unter **[!UICONTROL Rolling Dates]** können Sie die Syntax für benutzerdefinierte Ausdruck leicht erkennen.
 
    ![](assets/rolldatesfor5.png)
 
-   Sie können erweiterte Optionen verwenden, um benutzerdefinierte Datumsausdrücke zu kombinieren und zuzuordnen. Wenn Sie z. B. Daten vom ersten Jahr bis zum Ende des letzten vollen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy``To: cm-1d`. Im Assistenten werden diese Daten als 1/1/2020-1/31/2020 angezeigt.
+   Sie können erweiterte Optionen verwenden, um benutzerdefinierte Ausdruck zu kombinieren und zuzuordnen. Wenn Sie z. B. Daten vom ersten Jahr bis zum Ende des letzten vollen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy``To: cm-1d`. Im Assistenten werden diese Daten als 1/1/2020-1/31/2020 angezeigt.
