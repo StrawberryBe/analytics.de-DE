@@ -2,7 +2,7 @@
 description: Führt aktuelle und vorhergehende Versionen und ihre Funktionen auf.
 title: Neue Funktionen in Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ Durch Kombination der Berichterstellungsfunktion von Report Builder mit den Visu
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **Verbesserte Verwaltung und Bearbeitung von Segmenten in mehreren Anforderungen.** Neue Optionen unter [!UICONTROL Mehrere Anforderungen bearbeiten] erlauben das Hinzufügen, Entfernen und Ersetzen einzelner oder aller Segmente innerhalb mehrerer Zielanforderungen. [Mehr…](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Verbesserte Verwaltung und Bearbeitung von Segmenten in mehreren Anforderungen.** Mit den neuen Optionen unter [!UICONTROL Edit Multiple Requests] können Sie alle Segmente innerhalb mehrerer Zielgruppen hinzufügen, entfernen, ersetzen und ersetzen. [Mehr …](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Neuer Link zur Adobe Report Builder-Community** Mit dem neuen Link zur Adobe-Community unter „Hilfe“ werden Sie zum Adobe-Community-Forum weitergeleitet. Die Suche ist dabei auf Report Builder-Probleme eingegrenzt. In der Adobe-Community haben Sie die Möglichkeit, anderen Report Builder-Experten Fragen zur Anwendung zu stellen und sich über verfügbare Best Practices zu informieren bzw. diese weiterzugeben.
 
