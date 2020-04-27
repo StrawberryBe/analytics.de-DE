@@ -20,7 +20,7 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Klicken Sie auf **[!UICONTROL Add New]**.
    1. Under **[!UICONTROL Title]**, name the calendar event.
-   1. Geben Sie die **[!UICONTROL Event Date]** an.
+   1. Geben Sie die **[!UICONTROL Event Date]**.
    1. Choose the **[!UICONTROL Report Suite]** to which this event applies.
    1. (Optional) Hinzufügen Sie alle **[!UICONTROL Note Text]** für dieses Ereignis.
    1. Wählen Sie ein Anzeigesymbol und eine Farbe.
@@ -30,7 +30,7 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
    1. Klicken Sie auf **[!UICONTROL Push To Users]**.
    1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Klicken Sie auf **[!UICONTROL Save]**.
-   Dadurch werden Kalenderdaten wesentlich benutzerfreundlicher. Analysten haben jetzt die Möglichkeit, eine Überlagerung in die Berichte ihrer Benutzer zu erzwingen, um mehr Kontext bereitzustellen.
+   Damit lassen sich Kalenderereignisse wesentlich umfassender verwenden. Analysten können nun Overlays für Benutzerberichte erzwingen und so mehr Kontext bereitstellen.
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Geben Sie unter Gemeinsame Kalenderereignisse eine der folgenden Optionen an.
 
