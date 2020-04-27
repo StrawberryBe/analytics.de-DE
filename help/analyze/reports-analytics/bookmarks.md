@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: Lesezeichen-Manager
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Führen Sie einen Bericht aus und klicken Sie anschließend auf **[!UICONTROL Lesezeichen]**.
+1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
        |Name|Ein benutzerfreundlicher Name für das Lesezeichen.|
        |---|---|
@@ -34,7 +34,7 @@ t_bookmarks_creating.xml
    
 ## Lesezeichen verwalten {#task_1EE793CB52EA467787817BBD98DEF150}
 
-Nachdem Sie Lesezeichen erstellt haben, können Sie diese im [!UICONTROL Lesezeichen-Manager] verwalten. Hier haben Sie die Möglichkeit, Ihre Lesezeichen und Ordner zentral zu bearbeiten, zu löschen und zu organisieren.
+After you create report bookmarks, you can manage them in the [!UICONTROL Bookmark Manager]. Hier haben Sie die Möglichkeit, Ihre Lesezeichen und Ordner zentral zu bearbeiten, zu löschen und zu organisieren.
 
 <!-- 
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Lesezeichen]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
 
 **Meine Lesezeichen**
 
