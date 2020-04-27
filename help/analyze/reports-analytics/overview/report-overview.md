@@ -3,7 +3,7 @@ description: Eine Einführung in die Funktionen eines Berichts, einschließlich 
 title: Berichtsfunktionen
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Eine Einführung in die Funktionen eines Berichts, einschließlich der Symbolleiste, des Kalenders und der Detailtabelle
 
-Das folgende Beispiel zeigt einen [!UICONTROL Seitenbericht]. Die Konfigurationsoptionen können je nach ausgeführtem Bericht variieren. So sollten Sie z. B. besser die Granularität und den Seitennamen für einen Metrik-Bericht festlegen, als in einem Site-Content-Bericht [!UICONTROL Trendansicht] oder [!UICONTROL Rangansicht] auszuwählen.
+This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
 ## Beispiel für einen Seitenbericht {#section_288CC85536684C2DB184141358481EF0}
 
-Ein Beispiel für einen Seitenbericht (**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seitenberichte]** > **[!UICONTROL Seiten]**).
+Ein Beispiel für einen Seitenbericht ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -77,4 +77,4 @@ Die Details bilden den Hauptteil der Berichtsdaten. Im vorliegenden Fall werden 
 
 In der Detailtabelle können Sie Daten filtern, Aufschlüsselungen erstellen, Metriken hinzufügen und anderes mehr.
 
-Siehe  [Benutzerspezifische Berichte](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Siehe [Anpassen von Berichten](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
