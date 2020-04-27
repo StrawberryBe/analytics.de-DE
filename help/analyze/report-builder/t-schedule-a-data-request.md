@@ -43,13 +43,13 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 | Feld | Beschreibung |
 |--- |--- |
-| Bericht auswählen | Der Name der Arbeitsmappe. Bei neuen terminierten Berichten wird dieses Feld mit dem aktiven Arbeitsmappennamen gefüllt. |
-| Auswählen | Hierdurch wird die Seite „Bericht auswählen“ angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie eine Arbeitsmappe von der lokalen Festplatte im .xls-Format auswählen, wandelt das System sie in eine .xlsx-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die ausgewählte Arbeitsmappe für den geplanten Bericht denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System die lokale Datei anstelle der zuvor hochgeladenen Datei aus. Wenn Sie einen Bericht aus dem Repository der terminierten Berichte wählen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt und deren Dateiname um „1“ erweitert. Der neu terminierte Bericht verwendet die kopierte Arbeitsmappe. |
-| Benutzerspezifisch | Hier können Sie das Datumsformat anpassen. |
-| An | Zeigt ggf. Ihr Outlook-Adressbuch an. |
-| Senden an: Email | Die E-Mail-Adresse des Empfängers der Arbeitsmappe. |
-| Senden an: Publishing-Liste | Zeigt eine Liste der verfügbaren Distribution-Listen für diese Firma an. |
-| Power-BI | Weitere Informationen finden Sie unter Arbeitsmappe [für Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) veröffentlichen. |
+| Bericht auswählen | Der Name der Arbeitsmappe. Bei neuen terminierten Berichten erscheint in diesem Feld automatisch der Name der aktiven Arbeitsmappe. |
+| Auswählen | Hierdurch wird die Seite „Bericht auswählen“ angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie eine Arbeitsmappe von der lokalen Festplatte im .xls-Format auswählen, wandelt das System sie in eine .xlsx-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die für den terminierten Bericht ausgewählte Arbeitsmappe denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System statt der vorher hochgeladenen Datei die lokale Datei. Wenn Sie einen Bericht aus dem Repository der terminierten Berichte wählen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt und deren Dateiname um „1“ erweitert. Der neu terminierte Bericht verwendet die kopierte Arbeitsmappe. |
+| Anpassen | Ermöglicht Ihnen, das Datumsformat anzupassen. |
+| An | Zeigt Ihr gegebenenfalls vorhandenes Outlook-Adressbuch an. |
+| Senden an: E-Mail | Die E-Mail-Adresse des Empfängers der Arbeitsmappe. |
+| Senden an: Veröffentlichungsliste | Hiermit zeigen Sie eine Liste der in Ihrem Unternehmen verfügbaren Veröffentlichungslisten an. |
+| Power BI | Weitere Informationen finden Sie unter [Arbeitsmappe in Microsoft Power BI veröffentlichen](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md). |
 | Betreff | Eine benutzerdefinierte Beschreibung. |
 | Zeitplan | Hier können Sie angeben, wann die Arbeitsmappe gesendet werden soll (sofort, stündlich, täglich, wöchentlich oder jährlich). |
 
@@ -60,19 +60,19 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Feld | Beschreibung |
 |--- |--- |
 | Registerkarte **Zeitplan** |  |
-| Zeitpunkt der Bereitstellung | Hier können Sie eine sofortige oder spätere Auslieferung der Arbeitsmappe planen. Die Tageszeit ist relativ zur auf Ihrem Computer angegebenen Zeitzone. |
+| Zeitpunkt der Bereitstellung | Hier können Sie eine sofortige oder spätere Auslieferung der Arbeitsmappe planen. Die Uhrzeit entspricht der Zeitzoneneinstellung auf Ihrem Computer. |
 | Wiederholungsmuster | Hiermit wird die Arbeitsmappe entsprechend Ihrer Auswahl gesendet. |
 | Bereich der Wiederholung | Hier geben Sie an, wann der Empfang der Arbeitsmappe beginnen und enden soll.   Hinweis: Wenn Sie eine Arbeitsmappe für den ersten Tag eines bestimmten Zeitraums (Woche, Monat, Quartal oder Jahr) planen, werden nur Daten für den ersten Tag zurückgegeben. |
 | Registerkarte **Dateioptionen** |  |
 | Dateiformat | Hier können Sie als Bereitstellungsformat Excel 2007 (.xlsx) oder 2003 (.xls), .pdf, .csv, .mht, .txt oder .xml auswählen. |
-| Dateiziel | Gibt E-Mail oder FTP an. Die verfügbaren Optionen wechseln ja nach der bisherigen Auswahl. Für FTP müssen Sie sicherstellen, dass der Host extern verfügbar ist. |
+| Dateiziel | Hier wird die E-Mail- oder FTP-Adresse angegeben. Die verfügbaren Optionen wechseln ja nach der bisherigen Auswahl. Für FTP müssen Sie sicherstellen, dass der Host extern verfügbar ist. |
 | Veröffentlichungsliste | Wenn Sie die terminierte Arbeitsmappe an mehrere Veröffentlichungslisten gleichzeitig senden, wird die Arbeitsmappe jeweils einmal pro Liste ausgeführt. Variable Report Suites werden durch die Report Suite ersetzt, die der Veröffentlichungsliste zugeordnet ist. |
-| Sprache des Dateiinhalts | Gibt die Sprache an, die Sie für den Deckblattbrief verwenden möchten. Sie können Chinesisch (vereinfacht oder traditionell), Deutsch, Französisch, Japanisch, Koreanisch, brasilianisches Portugiesisch oder Spanisch auswählen. |
+| Sprache des Dateiinhalts | Gibt die Sprache an, die für das Anschreiben verwendet werden soll. Zur Auswahl stehen Chinesisch (vereinfacht oder traditionell), Deutsch, Französisch, Japanisch, Koreanisch, Portugiesisch (Brasilien) oder Spanisch. |
 | Registerkarte **Veröffentlichungsoptionen** |  |
 | In Power BI veröffentlichen | <ul><li>Arbeitsmappe in Power BI veröffentlichen</li><li>Alle Report Builder-Anforderungen als Power BI-Datensätze veröffentlichen</li><li>Alle formatierten Tabellen als Power BI-Datensätze veröffentlichen</li></ul> |
-| Kennzeichnen Sie diesen Power BI-Bericht als | Angaben zur Etikettierung |
+| Diesen Power BI-Bericht bezeichnen als | Bezeichnungsdetails |
 
-1. Klicken Sie auf **[!UICONTROL OK]** und dann auf **[!UICONTROL Exit]**.
+1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
    Report Builder zeigt die terminierte Arbeitsmappe im [Manager für geplante Aufgaben](/help/analyze/report-builder/r-arb-scheduled-reports.md) an.
 
