@@ -3,7 +3,7 @@ description: Anforderungen werden aktualisiert, nachdem Sie sie bearbeitet haben
 title: Anforderung aktualisieren
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,13 +16,13 @@ Anforderungen werden aktualisiert, nachdem Sie sie bearbeitet haben oder wenn Si
 Wenn Sie den Datumsbereich einer Anforderung erweitern und die Anforderung dann aktualisieren, werden von ReportBuilder Zellen hinzugefügt, um die zusätzlichen Zeiträume aufzunehmen.
 
 1. Erstellen Sie eine Anforderung und führen Sie sie aus.
-1. Klicken Sie nach Änderung einer Anforderung mit der rechten Maustaste darauf und wählen Sie im Kontextmenü die Option **[!UICONTROL Anforderung aktualisieren]**. (Alternativ können Sie auf die Anforderung klicken und dann in der Symbolleiste die Option **[!UICONTROL Aktualisieren]** wählen.)
+1. After you have changed the request, right-click the request, then choose **[!UICONTROL Refresh Request]** from the shortcut menu. (Alternatively, click in the request, then click **[!UICONTROL Refresh]** in the toolbar.)
 
-   Das Dialogfeld [!UICONTROL Anforderung aktualisieren] wird angezeigt:
+   Das System zeigt das [!UICONTROL Refresh Requests] Formular an:
 
-   **Datum für „Jetzt“:** Das Datum für die Aktualisierung der Anforderung. Auch [!UICONTROL Ausführungsdatum] genannt.
+   **Datum für „Jetzt“:** Das Datum für die Aktualisierung der Anforderung. Wird auch als [!UICONTROL As Of] Datum bezeichnet.
 
-   **Bei zukünftigen Aktualisierungsvorgängen auf aktuelles Datum setzen:** Durch Aktivieren dieser Option wird Report Builder angewiesen, immer das aktuelle Datum für [!UICONTROL Jetzt] (bzw. als [!UICONTROL Ausführungsdatum]) zu verwenden. Sie können diese Einstellung wieder ändern, indem Sie in der Symbolleiste auf [!UICONTROL Optionen] klicken.
+   **Auf aktuelles Datum bei zukünftigen Aktualisierungsaktionen setzen:** Durch Aktivierung dieser Option wird ReportBuilder angewiesen, immer das aktuelle Datum als [!UICONTROL Now] (oder [!UICONTROL As Of]) Datum zu verwenden. You can revert this setting by clicking [!UICONTROL Options] in the toolbar.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
-   Eine erfolgreich abgeschlossene Aktualisierung wird durch ein grünes Symbol im [!UICONTROL Anforderungs-Manager] gekennzeichnet.
+   When a refresh is successful, the system reports this with a green icon on the [!UICONTROL Request Manager].
