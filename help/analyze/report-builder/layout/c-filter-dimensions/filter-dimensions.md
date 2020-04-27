@@ -3,7 +3,7 @@ description: Sie können Dimensionen filtern, die Sie dem Raster „Zeilenbezeic
 title: Übersicht über Filterdimensionen
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Das Formular „Ausgewählter Filter“ wird auf der Grundlage des Elements und 
 
 ## Filter definieren – Werte und Sonderzeichen {#section_15840216A4044C40974945FAA435AD93}
 
-Informationen über Filter im Bereich **[!UICONTROL Am meisten bevorzugte Filter]** > **[!UICONTROL Filter definieren]**.
+Informationen zu Filtern im Bereich **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
 
 ![](assets/define_filter.png)
 
@@ -82,10 +82,10 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
    <td colname="col3"> <p>Stimmt überein mit <span class="term"> abcd</span>, aber nicht mit <span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Endet auf </p> </td> 
+   <td colname="col1"> <p>Endet mit </p> </td> 
    <td colname="col02"> <p>Gibt Ergebnisse zurück, die mit einem bestimmten Wert enden. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Stimmt überein mit <span class="term"> wxyz</span>, aber nicht mit<span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erweitert (Sonderzeichen) </p> </td> 
@@ -108,7 +108,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Sonderzeichen </th> 
-   <th colname="col2" class="entry"> Zielsetzung </th> 
+   <th colname="col2" class="entry"> Zweck </th> 
    <th colname="col3" class="entry"> Hinweise </th> 
   </tr> 
  </thead>
@@ -130,12 +130,12 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
   </tr> 
   <tr> 
    <td colname="col1"> $ </td> 
-   <td colname="col2"> Endet auf </td> 
+   <td colname="col2"> Endet mit </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> – </td> 
-   <td colname="col2"> NOT- </td> 
+   <td colname="col2"> Nicht </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
