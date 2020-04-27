@@ -3,7 +3,7 @@ description: Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anfo
 title: Metriken und Dimensionen hinzufügen
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,14 +13,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anforderung.
 
-1. [Erstellen Sie die Datenanforderung](/help/analyze/report-builder/data-requests/data-requests.md) im [!UICONTROL Dialogfeld Anforderungs-Assistent: Schritt 1] und klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Doppelklicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] auf Metriken oder ziehen Sie sie an die gewünschte Position.
+1. [Erstellen Sie die Datenanforderung](/help/analyze/report-builder/data-requests/data-requests.md) auf der [!UICONTROL Request Wizard: Step 1]und klicken Sie auf **[!UICONTROL Next]**.
+1. On the [!UICONTROL Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
 
    ![Schritt-Info](assets/adding_metrics.png)
 
-   Wenn Sie Metriken hinzufügen, werden sie nicht aus der Registerkarte [!UICONTROL Metriken] entfernt, da Metriken innerhalb einer Anforderung mehrfach verwendet werden können. Beispielsweise kann die Zwischensumme einer Metrik neben jedem Wert angezeigt werden. Allerdings ändert sich die Liste der verfügbaren Metriken jedes Mal, wenn Sie eine Dimension hinzufügen oder entfernen.
+   When you add metrics, they are not removed from the [!UICONTROL Metrics] tab, because you can display metrics multiple times within a request. Beispielsweise kann die Zwischensumme einer Metrik neben jedem Wert angezeigt werden. Allerdings ändert sich die Liste der verfügbaren Metriken jedes Mal, wenn Sie eine Dimension hinzufügen oder entfernen.
 
-   Metriken können nur im Abschnitt [!UICONTROL Metriken] des Layoutbereichs hinzugefügt werden. Metriken werden dem Layout [!UICONTROL Spaltenbezeichnung] als [!UICONTROL Metrik-Überschrift] hinzugefügt. Wenn Sie eine [!UICONTROL Metrik-Überschrift] aus dem [!UICONTROL Spalten-Layout] in das [!UICONTROL Zeilen-Layout] verschieben, wird sie dort angezeigt und die zugehörige Metrik wird für die Aufschlüsselung verwendet.
+   You can add only metrics to the [!UICONTROL Metrics] layout section. Metriken werden dem [!UICONTROL Column Label] Layout als [!UICONTROL Metric Header]. If you move a [!UICONTROL Metric Header] from [!UICONTROL Column Layout] to [!UICONTROL Row Layout], it is displayed there and is used as a metric as a breakdown.
 
    Beachten Sie, dass auf der Registerkarte „Metriken“ direkt über der Metrikenliste eine Suchleiste angezeigt wird.
 
@@ -50,9 +50,9 @@ Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anforderung.
 1. (Optional) Um eine Anforderung nach Metrik zu sortieren, klicken Sie einfach auf die Metrikbezeichnung.
 1. Dimensionen werden auf die gleiche Weise wie Metriken hinzugefügt.
 
-Auf der Registerkarte [!UICONTROL Dimensionen] zeigt das System Dimensionen an, die eine Aufschlüsselung oder Classification des in Schritt 1 ausgewählten Basisberichts darstellen. Außerdem werden Informationen über die Konfiguration der Report Suite angezeigt. Wenn Sie eine Dimension auf dem Layoutraster ablegen, wird sie aus der Strukturansicht entfernt und eine Neuberechnung der Liste der verfügbaren Dimensionen durchgeführt.
+On the [!UICONTROL Dimensions] tab, the system displays dimensions that break down or are a classification of any base report you select on Step 1, and on the configuration of the report suite. Wenn Sie eine Dimension auf dem Layoutraster ablegen, wird sie aus der Strukturansicht entfernt und eine Neuberechnung der Liste der verfügbaren Dimensionen durchgeführt.
 
-Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren Datumsdimensionen hängen von der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] gewählten Granularität ab. (Gültige Werte sind:
+The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. (Gültige Werte sind:
 
     * Stunde
     * Tag
@@ -62,7 +62,7 @@ Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren
     * Datumsbereich (wenn keine Granularität angegeben ist)
 
 1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](/help/analyze/report-builder/layout/t-format-display-headers.md) und Filter konfigurieren.
-1. Klicken Sie auf **[!UICONTROL Fertigstellen]**. 
-Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Hier erstellt die Dimension [!UICONTROL Verweisende Domäne] einen Detailbericht für [!UICONTROL Seite] und [!UICONTROL Verweisende Domäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
+1. Klicken Sie auf **[!UICONTROL Finish]**.
+In the following example, dimensions relate to the [!UICONTROL Page] metric. Hier erstellt die [!UICONTROL Referring Domain] Dimension einen Unterteilungsbericht zwischen [!UICONTROL Page] und [!UICONTROL Referring Domain]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
 
 ![](assets/page_pageview_02.png)
