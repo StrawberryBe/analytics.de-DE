@@ -3,7 +3,7 @@ description: Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an d
 title: Datumsabkürzungen
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
