@@ -3,7 +3,7 @@ description: Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei si
 title: Mehrere Anforderungen bearbeiten
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,25 +17,25 @@ Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report
 
 **So bearbeiten Sie mehrere Anforderungen**
 
-1. Klicken Sie in Excel auf **[!UICONTROL Verwalten]**.
+1. In Excel, click **[!UICONTROL Manage]**.
 
    >[!NOTE]
    >
-   >Wenn Sie die Anforderungen in Zellen eines einzelnen Arbeitsblatts bearbeiten möchten, deaktivieren Sie im [!UICONTROL Anforderungs-Manager] die Option [!UICONTROL Alle Blätter]. Dieses Kontrollkästchen ist standardmäßig aktiviert, wenn Anforderungen in mehreren Arbeitsblättern vorliegen.
+   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. Dieses Kontrollkästchen ist standardmäßig aktiviert, wenn Anforderungen in mehreren Arbeitsblättern vorliegen.
 
-1. Wählen Sie im [!UICONTROL Anforderungs-Manager] mindestens zwei Anforderungen aus und klicken Sie dann auf **[!UICONTROL Mehrere Anforderungen bearbeiten]**.
+1. Wählen Sie im [!UICONTROL Request Manager] Formular zwei oder mehr Anforderungen aus und klicken Sie dann auf **[!UICONTROL Edit Multiple]**.
 
-   Im Formular [!UICONTROL Mehrere Anforderungen bearbeiten] werden Spalten mit Informationen anzeigt: [!UICONTROL Nach Report Suite], [!UICONTROL Nach Segment], [!UICONTROL Nach Metrik], [!UICONTROL Nach Datumsbereich und Granularität] und [!UICONTROL Nach Gruppe].
+   Das [!UICONTROL Edit Multiple Requests] Formular enthält Spalten mit Informationen: [!UICONTROL By Report Suite], [!UICONTROL By Segment], [!UICONTROL By Metric], [!UICONTROL By Date Range and Granularity]und [!UICONTROL By Group].
 1. Um die Anzeige der Anforderungen zu gruppieren, klicken Sie auf eine der folgenden Optionen:
 
    * **Nach Report Suite:** Gruppiert die Anzeige der Anforderungen nach Report Suite.
    * **Nach Segment**: Gruppiert die Anforderungen auf Grundlage des Segmentnamens.
 
-      * **Segment auswählen**: Wird angezeigt, wenn keine Segmente für die Anforderungen vorhanden sind. Um Segmente hinzuzufügen, klicken Sie auf **[!UICONTROL Gruppe bearbeiten]** und wählen ein Segment aus dem Bedienfeld [!UICONTROL Gruppe bearbeiten].
+      * **Segment auswählen**: Wird angezeigt, wenn keine Segmente für die Anforderungen vorhanden sind. Um Segmente hinzuzufügen, klicken Sie auf **[!UICONTROL Edit Group]** und wählen Sie ein Segment aus dem [!UICONTROL Edit Group] Bedienfeld aus.
    * **Nach Metrik:** Siehe [Metriken mit Mehrfachanforderungen bearbeiten](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Nach Datumsbereich und Granularität:** Gruppiert die Anzeige der Anforderungen nach Datumsbereich und Zeitgranularität.
    * **Nach Gruppe:** Gruppiert die Anzeige der Anforderungen nach einem Satz gruppierter Anforderungen.
 
 
-1. Klicken Sie im Dialogfeld [!UICONTROL Mehrere Anforderungen bearbeiten] auf **[!UICONTROL OK]**.
+1. Klicken Sie im [!UICONTROL Edit Multiple Requests] Formular auf **[!UICONTROL OK]**.
