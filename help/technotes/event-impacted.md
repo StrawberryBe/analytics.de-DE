@@ -2,7 +2,7 @@
 title: Analyse der von Ereignissen betroffenen Daten
 description: Verstehen Sie, wie die von einem Ereignis betroffenen Daten zur Datenqualität insgesamt beitragen.
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Sobald Sie mit der geplanten Handhabung eines Ereignisses vertraut sind, können
 Dieses Video führt Sie durch die oben genannten Schritte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**: Daten mithilfe der Segmentierung ausschließen
+* **2:55**: Ereignis mit vorherigen Bereichen vergleichen
+* **8:42**: Daten mithilfe berechneter Metriken ableiten
+* **11:46**: Auswirkungen an Benutzer kommunizieren
