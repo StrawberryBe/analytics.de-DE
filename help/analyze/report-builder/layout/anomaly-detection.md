@@ -1,5 +1,5 @@
 ---
-description: Die Anomalieerkennung verwendet statistische Modellierung, um automatisch unerwartete Trends in Ihren Daten zu finden. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Wenn eine unerwartete Spitze oder ein unerwarteter Rückgang auftritt, werden Sie im Bericht vom System benachrichtigt.
+description: Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
 title: Anomalieerkennung
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
@@ -11,22 +11,22 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Anomalieerkennung {#anomaly-detection}
 
-Die Anomalieerkennung verwendet statistische Modellierung, um automatisch unerwartete Trends in Ihren Daten zu finden. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Wenn eine unerwartete Spitze oder ein unerwarteter Rückgang auftritt, werden Sie im Bericht vom System benachrichtigt.
+Die Anomalieerkennung verwendet die statistische Modellierung, um unerwartete Trends in Ihren Daten automatisch zu finden. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Treten unerwartete Spitzen oder Verwerfungen auf, meldet das System dies im entsprechenden Bericht.
 
-Beispiele für Anomalien, die Sie untersuchen könnten:
+Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 
-* Drastische Rückgänge im durchschnittlichen Bestellwert
+* Erhebliche Verwerfungen im durchschnittlichen Bestellwert
 * Spitzen in Bestellungen mit geringem Umsatz
-* Spitzen oder Verwerfungen in Testregistrierungen
-* Tropfen in Ansichten der Landingpage
-* Gewürze in Video-Puffer-Ereignissen
+* Spitzen oder Verwerfungen in Testprogrammregistrierungen
+* Verwerfungen bei Landingpage-Aufrufen
+* Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
 >[!NOTE] Die Anomalieerkennung ist nur verfügbar, wenn Sie als Granularität „Tag“ auswählen.
 
-<p class="head"> <b>Metriken zur Anomalieerkennung</b> </p>
+<p class="head"> <b>Metrik für die Anomalieerkennung</b> </p>
 
-Die Anomalieerkennung fügt für jede ausgewählte Metrik neue Metrikwerte hinzu, darunter:
+Mit der Anomalieerkennung werden neue Metrikwerte für jede ausgewählte Metrik hinzugefügt, darunter:
 
 <table id="table_BF75FC874634498DB6632C12CBD8D533"> 
  <thead> 
@@ -37,16 +37,16 @@ Die Anomalieerkennung fügt für jede ausgewählte Metrik neue Metrikwerte hinzu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Untergrenze </td> 
-   <td colname="col2"> <p>Untere Ebene des Prognoseintervalls. Werte unterhalb dieser Ebene werden als abweichend betrachtet. </p> <p>Stellt eine Konfidenz von 95 % dar, dass Werte über dieser Grenze liegen. </p> </td> 
+   <td colname="col1"> Untere Grenze </td> 
+   <td colname="col2"> <p>Untergrenze des Prognoseintervalls. Werte unter dieser Grenze werden als abweichend betrachtet. </p> <p>Stellt eine Konfidenz von 95 % dar, dass Werte über dieser Grenze liegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erwartet </td> 
-   <td colname="col2"> <p>Der prognostizierte Wert, der auf der Analyse der Daten basiert. Dieser Wert ist auch der mittlere Punkt zwischen der oberen und der unteren Grenze. </p> </td> 
+   <td colname="col2"> <p>Der anhand der Datenanalyse prognostizierte Wert. Dieser Wert ist auch der Mittelpunkt zwischen Ober- und Untergrenze. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Obere Grenze </td> 
-   <td colname="col2"> <p>Obere Ebene des Prognoseintervalls. Werte über dieser Grenze werden als abweichend betrachtet. </p> <p>Stellt eine Konfidenz von 95 % dar, dass Werte unter diesem Wert liegen. </p> </td> 
+   <td colname="col2"> <p>Obergrenze des Prognoseintervalls. Werte über dieser Grenze werden als abweichend betrachtet. </p> <p>Stellt eine Konfidenz von 95 % dar, dass Werte unter dieser Grenze liegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,25 +55,25 @@ ReportBuilder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispiel
 
 **Berechnung der Anomalieerkennung**
 
-Die Anomalieerkennung verwendet einen Schulungszeitraum, um die Daten des Prognoseintervalls zu berechnen, zu lernen und Berichte darüber zu erstellen. Der Schulungszeitraum ist der historische Zeitraum, in dem ermittelt wird, was normal oder abweichend ist, und das Erlernte auf den Berichte anwendet. In Marketingberichten stehen Schulungszeiträume von 30, 60 und 90 zur Verfügung. In ReportBuilder sind 30 Tage verfügbar.
+Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. In ReportBuilder sind 30 Tage verfügbar.
 
-Der Schulungszeitraum entspricht nicht unbedingt dem ausgewählten Berichte. Ein Berichtsdiagramm zeigt den Datumsbereich an, den Sie im Kalender angeben.
+Der Schulungszeitraum ist nicht notwendigerweise mit dem ausgewählten Berichtzeitraum identisch. Eine Berichtsgrafik zeigt den Datumsbereich an, den Sie im Kalender angegeben haben.
 
-Zur Berechnung der Daten wird der Tagesgesamtwert für jede Metrik mit dem Schulungszeitraum unter Verwendung der folgenden Algorithmen verglichen:
+Zum Berechnen der Daten wird der Tagesgesamtwert für jede Metrik anhand jedes der folgenden Algorithmen mit dem Schulungszeitraum verglichen:
 
 * Holt-Winters-Multiplikativ (Dreifache exponentielle Ausgleichung)
 * Holt-Winters-Additiv (Dreifache exponentielle Ausgleichung)
-* Trendkorrektur der Holts (exponentielle Ausgleichung der Dublette)
+* Trendkorrektur nach Holt (Doppelte exponentielle Ausgleichung)
 
-Jeder Algorithmus wird angewendet, um den Algorithmus mit der kleinsten Summe der quadratischen Fehler (SSE) zu bestimmen. Anschließend werden der mittlere absolute Prozentfehler (MAPE) und der aktuelle Standardfehler berechnet, um sicherzustellen, dass das Modell statistisch gültig ist.
+Es wird jeder einzelne Algorithmus angewendet, um den Algorithmus mit der kleinsten Summe der Fehlerquadrate (SFQ) zu bestimmen. Anschließend werden der mittlere absolute Prozentfehler (MAPF) und der aktuelle Standardfehler berechnet, um die statistische Gültigkeit des Modells sicherzustellen.
 
 Diese Algorithmen können erweitert werden, um Prognosen für Metriken in zukünftigen Zeiträumen bereitzustellen.
 
-Da der Schulungszeitraum je nach Beginn des Berichte variiert, können die gemeldeten Daten für dasselbe Datum in zwei verschiedenen Zeiträumen unterschiedlich sein.
+Da der Schulungszeitraum je nach Beginn des Berichtzeitraums schwankt, treten in den gemeldeten Daten möglicherweise Unterschiede für dasselbe Datum auf, wenn dieses Teil zweier unterschiedlicher Zeiträume ist.
 
-Wenn Sie z. B. einen Bericht für den 1. bis 14. Januar ausführen und dann einen Bericht für den 7. bis 21. Januar ausführen, werden in den beiden Berichten möglicherweise unterschiedliche Prognosedaten für dieselbe Metrik vom 7. bis 14. Januar angezeigt. Dies ist auf die unterschiedlichen Ausbildungszeiten zurückzuführen.
+Wenn Sie beispielsweise einen Bericht für den 1. bis 14. Januar und dann einen Bericht für den 7. bis 21. Januar ausführen, können in den beiden Berichten für den 7. bis 14. Januar unterschiedliche Prognosedaten für dieselbe Metrik ausgegeben werden. Dies ergibt sich aus der Unterschiedlichkeit der Schulungszeiträume.
 
-| Berichte | Schulungszeitraum |
+| Berichtszeitraum | Schulungszeitraum |
 |--- |--- |
-| 1.-14. Januar | 27. November - 31. Dezember |
-| 7.-21. Januar | 4. Dezember - 6. Januar |
+| &amp;#x200B;1. bis 14. Januar | 27. November bis 31. Dezember |
+| 7. bis 21. Januar | 4. Dezember bis 6. Januar |
