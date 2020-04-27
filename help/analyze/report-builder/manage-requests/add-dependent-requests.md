@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Eine abhängige Anforderung ist eine Anforderung, die von einer anderen Anforderung abhängt.
 
-Bei Berichten mit Korrelationsaufschlüsselungen, die in der Berichtstabelle aktiviert sind, können Sie ein Element näher untersuchen, indem Sie mit der rechten Maustaste in die Zelle klicken und auf **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
+For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE] Sie können eine Aufschlüsselungsanforderung auch gleich bei der Erstellung der ursprünglichen Anforderung hinzufügen. Siehe [Eine Datenanforderung erstellen](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
