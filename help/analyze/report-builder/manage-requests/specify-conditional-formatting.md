@@ -13,11 +13,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie bedingte Formatierungen auf die Zellen der Arbeitsmappe anwenden.
 
-On the report builder Toolbar, click **[!UICONTROL Format]**.
+Klicken Sie auf der Symbolleiste ReportBuilder auf **[!UICONTROL Format]**.
 
-Mit der bedingten Formatierung können Sie Zellen identifizieren, die Ergebnisse oder Werte enthalten, die Sie überwachen möchten. Beispielsweise können Sie eine rote Schattierung (oder Markierung) auf eine Zelle anwenden, wenn der Umsatz ein bestimmtes Minimum unterschreitet, und eine blaue Schattierung, wenn der Umsatz die Prognose übertrifft. Wenn durch die Änderung eines Datumsbereiches Bedingungen entfernt werden, durch die bedingte Formatierungen auf Zellen angewendet werden, sind die Formate, die die betreffende Bedingung anzeigen, zeitweise deaktiviert. Während die von Ihnen angegebenen bedingten Formate keine Änderung der Anzeige des Zellenformats bewirken, da keine Bedingungen erfüllt sind, werden sie bis zum Entfernen weiterhin auf Zellen angewendet.
+Mit der bedingten Formatierung können Sie die Zellen identifizieren, die Ergebnisse oder Werte enthalten, die Sie verfolgen möchten. Beispielsweise können Sie eine rote Schattierung (oder Markierung) auf eine Zelle anwenden, wenn der Umsatz ein bestimmtes Minimum unterschreitet, und eine blaue Schattierung, wenn der Umsatz die Prognose übertrifft. Wenn durch die Änderung eines Datumsbereiches Bedingungen entfernt werden, durch die bedingte Formatierungen auf Zellen angewendet werden, sind die Formate, die die betreffende Bedingung anzeigen, zeitweise deaktiviert. Auch wenn die von Ihnen festgelegten bedingten Formate zu keiner Änderung des Zellenformats führen, weil die betreffende Bedingung nicht erfüllt wird, bleiben sie weiterhin gültig, bis Sie von Ihnen entfernt werden.
 
-Aus Sicherheitsgründen sind Makros, die Sie für die Arbeitsmappe mit der VBA-Sprache (Visual Basic for Applications) von Excel schreiben, deaktiviert.
+Aus Sicherheitsgründen sind Makros, die Sie für eine Arbeitsmappe mit VBA (Visual Basic for Applications) für Excel schreiben, deaktiviert.
 
 >[!NOTE] Die bedingte Formatierung ist eine Excel-eigene Funktion. Informationen über die Erstellung von Formatierungsregeln finden Sie in der Excel-Dokumentation.
 
