@@ -3,7 +3,7 @@ description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ---
 
@@ -58,7 +58,11 @@ Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen V
 
 ### Schulung
 
-* **Schulungslehrgang**: Diese Standardvorlage führt Sie durch die gängige Terminologie und Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modul „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben.
+Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie stehen als Standardvorlage im Modal &quot;Neues Projekt&quot;zur Verfügung und ersetzen das Beispielprojekt, das heute für neue Benutzer besteht, die keine anderen Projekte in ihrer Liste haben.
+
+* **Schulungslehrgang - Analyse** der internen Suche: Das Tutorial zur internen Suche hilft Ihnen, zu verstehen, wonach Ihre Besucher auf der Website oder in der App suchen, jedoch nicht finden. Durch die Analyse dieser Art von Daten können Optimierungsmöglichkeiten für Inhalte entstehen.
+
+* **Schulungslehrgang - Marketing-Analyse**: In diesem Lernprogramm erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte zusammenstellen, einschließlich der wichtigen Dimensionen und Metriken.
 
 ### Werbung
 
@@ -118,7 +122,7 @@ Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um ei
 * herausfinden, wie Sie die Segmentstapelung mit der Metrik für Personen verwenden;
 * Entdecken Sie, wie die Experience Cloud ID in Ihrer Umgebung zur Effizienzverbesserung der Metrik für Personen beiträgt.
 
-### IQ: Geräteübergreifende Analytics-Vorlage
+### IQ: Geräteübergreifende Analyse
 
 <!-->This content is mirrored in the CDA doc.<-->
 
