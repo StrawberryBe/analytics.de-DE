@@ -4,7 +4,7 @@ subtopic: Schedule
 title: Datenextraktion
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,5 +32,5 @@ Datenextraktionen können maximal 50.000 Zeilen in einer einzigen Anforderung v
 
 In diesen Schritten wird beschrieben, wie Sie Daten aus einem Bericht extrahieren und per E-Mail versenden.
 
-1. Führen Sie einen Bericht aus und klicken Sie anschließend auf **[!UICONTROL Mehr]** > **[!UICONTROL Daten extrahieren]**.
+1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Extract Data]**.
 1. Führen Sie die Schritte im Assistenten zur Datenextraktion aus.
