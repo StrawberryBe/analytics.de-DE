@@ -2,7 +2,7 @@
 title: Hilfe zu Adobe Report Builder
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,10 +42,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [Community von Adobe Analytics](https://helpx.adobe.com/de/marketing-cloud/analytics.html)
 * [Experience Cloud – Versionshinweise](https://marketing.adobe.com/resources/help/de_DE/whatsnew/index.html#Current%20Release%20Notes)
 * [Produktdokumentation – Startseite](https://marketing.adobe.com/resources/help/de_DE/home/index.html)
-* [Developer](https://marketing.adobe.com/resources/help/de_DE/home/index.html#Developer)
-* [Ideenaustausch](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
+* [Entwickler](https://marketing.adobe.com/resources/help/de_DE/home/index.html#Developer)
+* [Ideenbörse](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)
-* [Center für wichtige Lösungen](https://www.omniture.com/en/products/online_business_optimization)
+* [Spezielle Lösungen](https://www.omniture.com/en/products/online_business_optimization)
 
 ## Hilfe zu Reports &amp; Analytics
 
