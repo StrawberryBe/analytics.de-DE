@@ -3,7 +3,7 @@ description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt
 title: interaktive Steuerelemente
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,8 +33,8 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 
 ## Implementieren des interaktiven Steuerelements für Datumsbereiche {#section_39B228F2D2C44985863D31424C953280}
 
-1. Wählen Sie in Schritt 1 des Anforderungs-Assistenten zum Beispiel den Bericht **[!UICONTROL Seite]** aus.
-1. Klicken Sie neben dem Dropdown-Menü **[!UICONTROL Häufig verwendete Datumsangaben]** auf das Symbol **[!UICONTROL Steuerungseinstellungen]**:
+1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
+1. Klicken Sie neben der **[!UICONTROL Commonly Used Dates]** Dropdownliste auf das **[!UICONTROL Control Settings]** Symbol:
 
    ![](assets/date_range_control.png)
 
@@ -54,9 +54,9 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 1. Nun können Sie den Datumsbereich ändern und die Anforderung wird mit diesem Datumsbereich aktualisiert.
 1. Sie können die Anforderung auch kopieren und mit der rechten Maustaste darauf klicken, um eine der zwei Optionen zum Einfügen von Anforderungen zu verwenden:
 
-   * **[!UICONTROL Anforderung einfügen]** > **[!UICONTROL Absolute Eingabezelle verwenden]**. Das bedeutet, dass die kopierte Anforderung zu demselben interaktiven Steuerelement für Datumsbereiche verweist wie die ursprüngliche Anforderung.
+   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. Das bedeutet, dass die kopierte Anforderung zu demselben interaktiven Steuerelement für Datumsbereiche verweist wie die ursprüngliche Anforderung.
 
-   * **[!UICONTROL Anforderung einfügen]** > **[!UICONTROL Relative Eingabezelle verwenden]**. Das bedeutet, dass die kopierte Anforderung zum eigenen Steuerelement verweist.
+   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. Das bedeutet, dass die kopierte Anforderung zum eigenen Steuerelement verweist.
 
       >[!NOTE]
       >
