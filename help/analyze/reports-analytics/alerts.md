@@ -4,7 +4,7 @@ subtopic: Alerts
 title: Warnhinweise
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Intelligente Warnhinweise, das neue Warnhinweissystem für sämtliche Bereiche v
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken.
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
 
-Über **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweise]** können Sie in allen Berichten in Reports &amp; Analytics auf das neue Warnhinweissystem zugreifen.
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 Weitere Informationen finden Sie in der Analysis Workspace-Dokumentation unter [Intelligente Warnhinweise](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/intellligent_alerts.html).
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-Navigieren Sie zur neuen Warnhinweiserstellung im Menü **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]**. Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. Sie können jedoch trotzdem aus Berichten in Reports &amp; Analytics darauf zugreifen:
 
 1. Öffnen Sie in Reports &amp; Analytics den Bericht, für den Sie einen Warnhinweis einrichten möchten.
-1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. Dadurch werden Sie zur [neuen Warnhinweiserstellung](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/alert-builder.html) geleitet.
 
 ## Bestehende Warnhinweise anzeigen oder bearbeiten {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Aufgabenkontext
 
-1. Gehen Sie zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**. Dadurch werden Sie zum neuen [Warnhinweis-Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/alert-manager.html) geleitet.
+1. Öffnen von **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Dadurch werden Sie zum neuen [Warnhinweis-Manager](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/alert-manager.html) geleitet.
 
 ## Migration veralteter Warnhinweise {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
