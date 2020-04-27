@@ -2,7 +2,7 @@
 description: Kundenattribute werden in einem neuen Elementtyp namens „VisAttr“ gespeichert, der als Dimension oder Metrik konfiguriert werden kann.
 title: Kundenattribute
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
