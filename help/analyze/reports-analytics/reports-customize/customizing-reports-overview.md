@@ -1,5 +1,5 @@
 ---
-description: Nachdem Sie einen Bericht ausgeführt haben, können Sie den Bericht an Ihre Ansicht anpassen und die Daten entsprechend Ihren Anforderungen analysieren. Sie können Berichtsdaten filtern, die grafische Darstellung der Daten ändern, die Datumsgranularität ändern usw.
+description: 'Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw. '
 title: Übersicht über das Anpassen von Berichten
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
@@ -11,11 +11,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Übersicht über das Anpassen von Berichten
 
-Nachdem Sie einen Bericht ausgeführt haben, können Sie den Bericht an Ihre Ansicht anpassen und die Daten entsprechend Ihren Anforderungen analysieren. Sie können Berichtsdaten filtern, die grafische Darstellung der Daten ändern, die Datumsgranularität ändern usw.
+Nachdem Sie einen Bericht ausgeführt haben können Sie diesen benutzerdefiniert anpassen, um die Daten nach Ihren Wünschen anzuzeigen und zu analysieren. Sie haben die Möglichkeit Berichtsdaten zu filtern, die Art und Weise der grafischen Präsentation zu ändern, die Datums-Granularität zu ändern usw. 
 
 ## Benutzerspezifische Berichte erstellen {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
-Schritte, die beschreiben, wie die aktuelle Konfiguration eines Berichts als neuer benutzerdefinierter Bericht gespeichert wird, der allen Benutzern zur Verfügung steht.
+In diesen Schritten wird beschrieben, wie Sie die aktuelle Konfiguration eines Berichts als neuen benutzerspezifischen Bericht speichern, den alle Benutzer anzeigen können.
 
 <!-- 
 
@@ -23,7 +23,7 @@ t_reports_custom.xml
 
  -->
 
-Nur Administratoren können einen benutzerspezifischen Bericht erstellen. Wenn Sie einen benutzerspezifischen Bericht erstellen, wird er dem Hauptmenü des Berichte neben dem Bericht hinzugefügt, auf dem er basiert.
+Benutzerspezifische Berichte können nur durch Administratoren erstellt werden. Wenn Sie einen benutzerspezifischen Bericht erstellen, wird dieser im Hauptberichtsmenü neben dem Bericht hinzugefügt, auf dem er beruht.
 
 **So erstellen Sie einen benutzerspezifischen Bericht**
 
@@ -48,9 +48,9 @@ t_reports_select_date.xml
 
  -->
 
-Sie können bestimmte Tage, Wochen, Monate oder Jahre auswählen. Sie können auch Vergleichsberichte ausführen.
+So z. B. bestimmte Tage, Wochen, Monate oder Jahre. Sie können außerdem Vergleichsberichte ausführen.
 
-Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öffnen, können Sie einen neuen Datumsbereich im Kalender auswählen. Die Änderungen gelten für alle Reportlets im Dashboard.
+Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öffnen, können Sie einen neuen Datumsbereich im Kalender festlegen. Die Änderungen gelten für alle Reportlets im Dashboard.
 
 **So wählen Sie einen Datumsbereich aus**
 
@@ -60,10 +60,10 @@ Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öff
 
    Sie können:
 
-   * Ansichten-, Monats- oder Jahreszeiträume (bis zu drei).
-   * Ziehen Sie den Cursor über Daten, um einen Bereich auszuwählen.
-   * Geben Sie Datumsangaben manuell ein.
-   * Klicken Sie auf einen Monatsnamen, um einen Monat auszuwählen.
+   * Sie können bis zu drei Tages-, Monats- oder Jahreszeiträume anzeigen.
+   * Sie können mit dem Cursor einen Datenbereich auswählen.
+   * Sie können Datumsangaben manuell eingeben.
+   * Sie können einen Monat auswählen, indem Sie auf ihn klicken.
    * Klicken Sie auf **[!UICONTROL Select Preset]** , um ein voreingestelltes Datum auszuwählen.
    * Sie können Datumswerte vergleichen.
 
@@ -71,7 +71,7 @@ Wenn Sie ein Dashboard mit Reportlets mit unterschiedlichen Datumsbereichen öff
 
 ## Datum vergleichen {#task_95155C3700774B709F5FB81AE96B0824}
 
-Schritte, die beschreiben, wie Sie den Kalender verwenden können, um Datumsvergleiche zwischen Rangberichten auszuführen.
+In diesen Schritten wird beschrieben, wie Sie den Kalender verwenden können, um Datumsvergleiche zwischen Rangberichten auszuführen.
 
 <!-- 
 
@@ -79,11 +79,11 @@ t_reports_comparing_dates.xml
 
  -->
 
-Datumsvergleiche zwischen Trendberichten sind nicht möglich.
+Datumsvergleiche aus Trendberichten sind nicht möglich.
 
 >[!NOTE] Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mit zwei separaten Anforderungen in [Report Builder](https://marketing.adobe.com/resources/help/de_DE/arb/) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
 
-So vergleichen Sie Datumsangaben zwischen Rangberichten in Reports &amp; Analysen:
+So führen Sie Datumsvergleiche zwischen Rangberichten in Reports &amp; Analytics aus:
 
 1. Einen Bericht ausführen.
 1. Klicken Sie oben rechts auf den Kalender.
@@ -93,7 +93,7 @@ So vergleichen Sie Datumsangaben zwischen Rangberichten in Reports &amp; Analyse
 
 ## Prozentwerte als Diagramm anzeigen {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
-In diesen Schritten wird beschrieben, wie Sie angeben, ob der Prozentsatz in einer Berichtstabelle als Diagramm angezeigt werden soll.
+In diesen Schritten wird beschrieben, wie Sie festlegen können, ob Prozentwerte in einer Berichtstabelle als Diagramm angezeigt werden sollen.
 
 <!-- 
 
@@ -101,14 +101,14 @@ t_reports_graph_percent.xml
 
  -->
 
-Diese Visualisierung ist auch in Dashboard-Reportlets verfügbar.
+Diese Art der Visualisierung ist auch in Dashboard-Reportlets verfügbar.
 
 1. Run a report that supports percentages, such as a [!UICONTROL Pages Report].
 1. Klicken Sie auf **[!UICONTROL Percent Shown As: Graph]**.
 
 ## Berichtsdaten normalisieren {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
-Schritte, die beschreiben, wie Berichtdaten normalisiert werden.
+In diesen Schritten wird beschrieben, wie Sie Berichtsdaten normalisieren.
 
 <!-- 
 
@@ -116,7 +116,7 @@ t_reports_normalize.xml
 
  -->
 
-Nachdem Sie einen Bericht mit verglichenen Daten oder einen A/B-Vergleich ausgeführt haben, können Sie die Daten normalisieren, um den Prozentsatz der Änderungen zwischen den Berichten anzuzeigen. Der sekundäre Datensatz wird angepasst, um Unterschiede bei der Anzahl der ausgewählten Tage oder bei unterschiedlichen Traffic-Aufträgen auszugleichen.
+Nachdem Sie einen Bericht mit verglichenen Datumswerten oder für A/B-Vergleiche ausgeführt haben, können Sie die Daten normalisieren, um die prozentuale Änderung zwischen den Berichten anzuzeigen. Der sekundäre Datensatz wird angepasst, um für Abweichungen in der Anzahl der gewählten Tage oder aufgrund unterschiedlichen Traffic-Aufkommens zu kompensieren.
 
 **So normalisieren Sie Berichtsdaten**
 
@@ -143,7 +143,7 @@ t_reports_select_page.xml
 
 ## Report Suites vergleichen {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
-In diesen Schritten wird beschrieben, wie Sie Berichte aus zwei Report Suites im gleichen Bericht anzeigen.
+In diesen Schritten wird beschrieben, wie Sie Berichte aus zwei Report Suites im selben Bericht anzeigen.
 
 <!-- 
 
@@ -151,7 +151,7 @@ t_reports_compare_suites.xml
 
  -->
 
-Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentualen Vergleich. Die folgenden Berichte können mit Vergleichen ausgeführt werden:
+Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentualen Vergleich. Folgende Berichte können als Vergleich ausgeführt werden:
 
 * Site-Content
 * Mobile
@@ -174,7 +174,7 @@ Neben der grafischen Darstellung bietet die Tabelle des Berichts einen prozentua
 
 ## Berichtsgranularität festlegen {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-Schritte, die beschreiben, wie Ansichten Gesamtzahlen auf Stunden-, Tages-, Wochen-, Monats-, Quartals- oder Jahresbasis melden.
+In diesen Schritten wird beschrieben, wie Sie Summen aus Berichten auf stündlicher, täglicher, wöchentlicher, monatlicher, quartalsmäßiger oder jährlicher Basis anzeigen.
 
 <!-- 
 
@@ -182,16 +182,16 @@ t_reports_granularity.xml
 
  -->
 
-Der Zeitraum des Berichts legt fest, welche Granularitätsoptionen verfügbar sind. Sie können beispielsweise nur auswählen, **[!UICONTROL Hourly]** wenn Sie einen ein- oder zweitägigen Zeitraum ausgewählt haben. Sie können nur **[!UICONTROL Yearly]** Granularität auswählen, wenn Sie mehr als ein Jahr ausgewählt haben.
+Der Zeitraum eines Berichts bestimmt, welche Granularitätsoptionen verfügbar sind. For example, you can select only **[!UICONTROL Hourly]** if you have a one or two day time frame selected. You can select only **[!UICONTROL Yearly]** granularity if you have more than one year selected.
 
-**So legen Sie die Berichtsgranularität fest**
+**So geben Sie die Berichtsgranularität an**
 
 1. Erstellen Sie einen Trendbericht, z. B. **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
 1. Click the **[!UICONTROL View by]** link, then click a granularity.
 
 ## Wochentagsbericht ausführen {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
-In diesen Schritten wird beschrieben, wie Sie Berichte an einem bestimmten Wochentag ausführen, z. B. an jedem Montag in einem bestimmten Datumsbereich.
+In diesen Schritten wird beschrieben, wie Sie Berichte an einem bestimmten Wochentag ausführen, z. B. jeden Montag im angegebenen Datumsbereich.
 
 <!-- 
 
@@ -199,14 +199,14 @@ t_reports_day_of_week.xml
 
  -->
 
-Diese Funktion gilt nur für Trendberichte, die nach einem Datumsbereich von Woche oder Tag gefiltert werden.
+Diese Funktion gilt nur für Trendberichte, die nach dem Datumsbereich „Woche“ oder „Tag“ gefiltert sind.
 
 1. Führen Sie einen Trendbericht über einen festgelegten Datumsbereich aus.
 1. Klicken Sie auf den **[!UICONTROL Day of Week]** Link und dann auf einen Tag.
 
 ## Schaltfläche „In Arbeitsbereich ausprobieren“{#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Wenn Sie auf die **[!UICONTROL Try In Workspace]** Schaltfläche oben in einem Bericht klicken, wird derselbe Bericht in Analyse Workspace geladen.
+Clicking the **[!UICONTROL Try In Workspace]** button at the top of a report will load the same report in Analysis Workspace.
 
 <!-- 
 
@@ -214,8 +214,8 @@ try_in_workspace.xml
 
  -->
 
-Die meisten Berichte in Reports &amp; Analysen enthalten jetzt die Schaltfläche &quot;In Arbeitsbereich ausprobieren&quot;, mit der Sie die aktuelle Ansicht im Arbeitsbereich für Analysen für weitere Anpassungen reproduzieren können.
+Die meisten Berichte in Reports &amp; Analytics beinhalten jetzt die Schaltfläche „In Arbeitsbereich ausprobieren“, über die Sie die aktuelle Ansicht in Analysis Workspace reproduzieren können, um weitere Anpassungen vorzunehmen.
 
-Derzeit ist die Schaltfläche nur verfügbar, wenn Ihr Benutzername über die volle Berechtigung für Analyse Workspace verfügt.
+Aktuell ist die Schaltfläche nur verfügbar, wenn Ihrem Benutzernamen vollständige Berechtigungen in Analysis Workspace zugewiesen sind.
 
-Weitere Informationen zu allen Möglichkeiten zum Anpassen Ihres Berichts finden Sie im Handbuch [Analyse Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/) .
+Weitere Informationen zu den Möglichkeiten, Ihren Bericht anzupassen, finden Sie im Handbuch zu [Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/).
