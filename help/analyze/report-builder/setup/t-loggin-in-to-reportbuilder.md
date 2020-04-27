@@ -3,7 +3,7 @@ description: Schritte für die Anmeldung bei Report Builder.
 title: Bei Report Builder anmelden
 topic: Report builder
 uuid: 94944ce3-499d-4d3f-954b-c241267d4e92
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,12 +13,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Schritte für die Anmeldung bei Report Builder.
 
-1. Klicken Sie in Excel auf **[!UICONTROL Add-Ins]**.
-1. Klicken Sie auf **[!UICONTROL Anmelden]** und geben Sie das Anmeldeverfahren (Experience Cloud, Single-Sign-On und Standard) an. Durch die folgenden Aktionen wird der Anmeldevorgang ebenfalls gestartet:
+1. In Excel, click **[!UICONTROL Add-Ins]**.
+1. Click **[!UICONTROL Sign In]**, and specify the method (Experience Cloud, Single Sign-on, and Standard). Durch die folgenden Aktionen wird der Anmeldevorgang ebenfalls gestartet:
 
-   * Klicken auf **[!UICONTROL Erstellen]**
-   * [Auswahl einer Anforderung im Anforderungs-Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) und anschließendes Klicken auf **[!UICONTROL Hinzufügen]** oder **[!UICONTROL Verwalten]**
+   * Klicken **[!UICONTROL Create]**.
+   * [Wählen Sie eine Anforderung im Anforderungs-Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)und klicken Sie dann auf **[!UICONTROL Add]** oder **[!UICONTROL Manage]**.
    * Doppelklicken auf eine Anforderung in Excel
 
-1. Füllen Sie diese Felder auf der [!UICONTROL Anmeldeseite] aus und klicken Sie auf **[!UICONTROL OK]**.
+1. Complete the fields on the [!UICONTROL Login] page, then click **[!UICONTROL OK]**.
 
