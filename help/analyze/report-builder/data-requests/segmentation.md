@@ -19,12 +19,12 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 
 ## Segmente hinzufügen oder bearbeiten {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre ReportBuilder-Sitzung bleibt aktiv. Andere Browser als Internet Explorer werden für diesen Vorgang nicht unterstützt.
+>[!NOTE] Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
-1. Klicken Sie im Segmentfenster von Schritt 1 des Anforderungs-Assistenten auf **[!UICONTROL Add]**.
-1. Ein Internet Explorer-Fenster wird geöffnet, in dem die Benutzeroberfläche des Analytics-Segmentaufbaus geöffnet wird. Informationen zum Erstellen von Segmenten finden Sie unter [https://marketing.adobe.com/resources/help/en_US/analytics/segment/](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
+1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
+1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [https://marketing.adobe.com/resources/help/de_DE/analytics/segment/](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
 1. Nachdem Sie das Segment definiert und gespeichert haben, gehen Sie zurück zum Anforderungs-Assistenten.
-1. Klicken Sie auf das Symbol Aktualisieren, um die Segmentdatei zu aktualisieren.
+1. Klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 
 >[!IMPORTANT]
 >
@@ -32,25 +32,25 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 
 ## In-Context-Segmente erstellen {#section_6DD2C663B2854469AA1075438F907678}
 
-Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimensionen, die Sie in ein Segment umwandeln möchten. Solche Segmente können Sie über die Report Builder-Schnittstelle erstellen. Wählen Sie beispielsweise einige Seiten aus der Ausgabe einer Seitenanfrage aus und erstellen Sie ein Segment, das auf diesen Werten basiert.
+Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimensionen, die Sie in ein Segment umwandeln möchten. Solche Segmente können Sie über die Report Builder-Schnittstelle erstellen. Wählen Sie zum Beispiel einige Seiten aus einer Seitenanforderungsausgabe aus und erstellen Sie auf Basis dieser Werte ein Segment.
 
-1. Wählen Sie die Berichtausgabeelemente aus, die Sie in ein Segment umwandeln möchten.
+1. Wählen Sie die Berichtausgabeelemente aus, die in ein Segment umgewandelt werden sollen.
 1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
 
    ![](assets/seg_in_context.png)
 
-   Weitere Informationen zu Containern finden Sie im [Segmentierungshandbuch](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
+   Weitere Informationen zu Containern finden Sie unter [Segmentierungsleitfaden](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
 
-1. Die Segment Builder-Benutzeroberfläche wird jetzt in Internet Explorer gestartet. Die Segment Builder-Benutzeroberfläche wird mit dem angegebenen Container und Filter initialisiert.
+1. Die Segment-Builder-UI wird nun im Internet Explorer gestartet. Die Segment-Builder-UI wird mit dem von Ihnen festgelegten Container und Filter initialisiert.
 1. Nachdem Sie dem Segment einen Namen und eine Beschreibung hinzugefügt haben, speichern Sie es.
-1. Gehen Sie zurück zum ReportBuilder und klicken Sie auf das Symbol Aktualisieren, um die Liste der Segmente zu aktualisieren.
-1. Sie können dieses Segment jetzt anwenden.
+1. Gehen Sie zurück zum ReportBuilder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
+1. Nun können Sie dieses Segment anwenden.
 
 ## Segmente suchen und anwenden {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Alle Segmente, die in Reports &amp; Analytics, Ad Hoc Analysis, Report Builder oder Data Warehouse erstellt wurden, werden in dieser Segmentliste angezeigt. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](assets/refresh_icon.png).
 
-Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies umfasst sequenzielle Segmente.
+Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies beinhaltet auch sequentielle Segmente.
 
 1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
 
@@ -64,13 +64,13 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies u
 
 **Filtern** Sie Segmente, indem Sie auf das Filtersymbol klicken: ![](assets/segment_filter.png).
 
-Zu den verfügbaren Filtern gehören:
+Folgende Filter stehen zur Verfügung:
 
 | Filtername | Beschreibung |
 |---|---|
-| Tags | Filtert Segmente nach bestimmten Tags. Beachten Sie, dass Tag-Filter den Operator AND verwenden. Wenn Sie zwei Tags aktivieren, werden im rechten Bereich Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
-| Eigentümer | Filtert Segmente nach Inhaber. Beachten Sie, dass Filter des Inhabers den Operator OR verwenden. Wenn Sie zwei Inhaber aktivieren, werden im rechten Bereich Segmente angezeigt, die **beiden** Inhabern gehören. |
-| Andere Filter > Nur *Report Suite-Name* | Wenn Sie im Segment Builder in [!DNL marketing reports & analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL report builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
+| Tags | Filtert Segmente nach bestimmten Tags. Beachten Sie, dass Tagfilter mit dem Operator UND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
+| Inhaber | Filtern Sie Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator ODER arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Segmente angezeigt, die **beiden** Inhabern gehören. |
+| Weitere Filter > Nur *Name der Report Suite* | Wenn Sie im Segment Builder in [!DNL marketing reports & analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL report builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
 | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
 | Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie freigegeben haben. |
 | Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als Favoriten gekennzeichnet haben. |
@@ -84,14 +84,14 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
    ![](assets/seg_control.png)
 
-1. Markieren Sie alle Segmente, die im Segmentsteuerelement angezeigt werden sollen, oder aktivieren Sie **[!UICONTROL Select All]**.
+1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
 1. Beachten Sie die Option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
-   * Wenn diese Option aktiviert ist, werden alle Anforderungen, die dieses Steuerelement verwenden, aktualisiert.
-   * Wenn diese Option nicht aktiviert ist, werden die zugehörigen Anforderungsparameter aktualisiert, die Anforderungen werden jedoch nicht aktualisiert.
+   * Wenn diese aktiviert ist, werden alle Anforderungen aktualisiert, die dieses Steuerelement verwenden.
+   * Wenn sie nicht aktiviert ist, werden zwar die verknüpften Anforderungsparameter aktualisiert, jedoch nicht die Anforderungen selbst.
 
-1. Geben Sie die Position der Zelle oben links im Segmentsteuerelement an.
-1. Klicken Sie auf **[!UICONTROL OK]** und das Segmentsteuerelement wird an der angegebenen Position angezeigt.
+1. Legen Sie die Position für die obere linke Zelle des Steuerelements fest.
+1. Klicken Sie auf **[!UICONTROL OK]**. Das Segmentsteuerelement wird an der angegebenen Position angezeigt.
 
    ![](assets/seg_control2.png)
 
@@ -101,7 +101,7 @@ Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeite
 
 ## Anforderungsübergreifende Verwaltung von Segmenten {#section_C3D63FCBE1A94369A319243313B03C93}
 
-Vor der Version v5.4 konnten Benutzer in Report Builder Segmente in mehreren Anforderungen ändern. Dieser Prozess hat jedoch immer die vorhandenen Segmente ersetzt. Benutzer, die jeder Anforderung ein neues Segment hinzufügen wollten, konnten dies nicht tun, da durch Hinzufügen des Segments der vorherige Satz von Segmenten entfernt wurde, der jeder Anforderung bereits zugewiesen war.
+Vor der Version v5.4 konnten Benutzer in Report Builder Segmente in mehreren Anforderungen ändern. Bei diesem Vorgang wurden jeweils die bestehenden Segmente ersetzt. Benutzer, die ein neues Segment zu einer einzelnen Anforderung hinzufügen wollten, konnten dies nicht tun, da durch Hinzufügen des Segments vorherige Segmente entfernt wurden, die der jeweiligen Anforderung bereits zugeordnet waren.
 
 In Report Builder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder aller Segmente innerhalb mehrerer Anforderungen zulässig:
 
@@ -110,12 +110,12 @@ In Report Builder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder
 
    ![](assets/edit_by_segment.png)
 
-1. Wählen Sie im Dialogfeld &quot;Gruppe bearbeiten&quot;eine der vier Optionen aus:
+1. Wählen Sie im Dialog „Gruppe bearbeiten“ eine der folgenden vier Optionen aus:
 
    | Option | Beschreibung |
    |---|---|
-   | Fügen Sie Segment | Ermöglicht die Auswahl eines oder mehrerer Segmente, die zur Liste der aktuellen Segmente hinzugefügt werden sollen. |
-   | Segment(e) ersetzen | Ermöglicht die Auswahl des/der Segmente, die durch ein oder mehrere Segmente ersetzt werden sollen. |
-   | Alle Segmente ersetzen durch | Ermöglicht die Auswahl eines oder mehrerer Segmente, um das aktuelle Segment/die aktuellen Segmente zu ersetzen. |
-   | Segment(e) entfernen | Ermöglicht das Entfernen von Segmenten aus den Anforderungen. |
+   | Fügen Sie Segment | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
+   | Segment(e) ersetzen | Sie können auswählen, welche(s) Segment(e) Sie durch ein Segment bzw. mehrere Segmente ersetzen möchten. |
+   | Alle Segmente ersetzen nach | Sie können eines oder mehrere Segmente auswählen und damit vorhandene Segmente ersetzen. |
+   | Segment(e) entfernen | Sie können Segmente aus Anforderungen entfernen. |
 
