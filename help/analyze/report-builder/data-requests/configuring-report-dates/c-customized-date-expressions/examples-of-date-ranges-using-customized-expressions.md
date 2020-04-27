@@ -17,7 +17,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 
 | Beispiel | Datumsbereich | Ausdruck anpassen | Datumsbereich des Berichts |
 |---|---|---|---|
-|  |  | **Von** | **Hierzu** |  |
+|  |  | **Von** | **Bis** |  |
 | 1 | Vor zwei Wochen | cw-2w | cw-1w-1d | 26. Okt. bis 1. Nov. |
 | 2 | Die ersten 3 Tage des fünften Monats des letzten Jahres | cy-1y+4m | cy-1y+4m+2d | 1. Mai bis 3. Mai 2010 |
 | 3 | Eine ganze Woche, ab dem Datum vor vier Wochen | cw-4w | cw-3w-1d | 12. Okt. bis 18. Okt. |
@@ -25,7 +25,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 | 5 | Ein Monat ab dem Datum vor zwei Monaten | cm-2m | cm-1m-1d | 1. Sept. bis 30. Sept. |
 | 6 | Vor 12 Monaten im vergangenen Jahr | cm-12m | cm-11m-1d | 1. Nov. bis 30. Nov. 2010 |
 
-## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## Hinweise zu den Beispielen {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **Beispiel 1**
 
@@ -35,7 +35,7 @@ Wenn heute Montag, der 10. November 2011 ist, das aktuelle Datum nehmen und eine
 
 Dem Beginn des Jahres (dem Monat Januar) vier Monate hinzufügen, um den Mai zu erhalten; dem ersten Tag des Monats zwei Tage hinzufügen, um den dritten Tag des Monats zu erhalten.
 
-## Syntax notes {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Syntaxhinweise {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Benutzerdefinierte Ausdrücke für die Abdeckung eines Großteils aller möglichen Datumsbereiche können erstellt werden, indem zwei Terme mit einem Operator verknüpft werden. Ein Term besteht aus einem ganzzahligen Multiplikator und der Abkürzung für einen Zeitraum. Ein Beispiel für einen Term ist 18d, ein Beispiel für einen Operator ist +.
 
