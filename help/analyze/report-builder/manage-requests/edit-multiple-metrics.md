@@ -2,7 +2,7 @@
 description: Mit der Funktion „Metriken mit Mehrfachanforderungen bearbeiten“ können Sie Metriken in einer vorhandenen Anforderung bzw. in einer Gruppe von Anforderungen mühelos hinzufügen, entfernen oder ersetzen.
 title: Metriken mit Mehrfachanforderungen bearbeiten
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
@@ -17,14 +17,14 @@ Mit der Funktion „Metriken mit Mehrfachanforderungen bearbeiten“ können Sie
 Bedenken Sie Folgendes
 
 * Metriken können nur zu Anforderungen des Typs „Pivot-Layout“ hinzugefügt werden. Wenn einige der ausgewählten Anforderungen benutzerdefinierte Layouts sind, können keine Metriken hinzugefügt werden. Der Grund dafür liegt darin, dass Report Builder nicht weiß, wo im Arbeitsblatt die neue Metrik hinzugefügt werden soll, da das Layout benutzerdefiniert ist.
-* Deshalb ist die Option **[!UICONTROL Metrik(en) hinzufügen]** nicht verfügbar, wenn Sie ausschließlich benutzerdefinierte Layout-Anforderungen ausgewählt haben.
+* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
 * Durch das Hinzufügen von Metriken erhöht sich die Größe einer Anforderung, weshalb sie sich mit einer anderen überschneiden könnte. Achten Sie darauf, dass Ihre Anforderung rundherum ausreichend Platz zum Hinzufügen von Metriken hat.
 * Wenn die hinzugefügte Metrik bereits in einer der ausgewählten Anforderungen vorhanden ist, wird sie nicht zu dieser hinzugefügt.
 
 So fügen Sie eine oder mehrere Metriken hinzu:
 
-1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten]** aus. (Oder klicken Sie auf **[!UICONTROL Verwalten]** > **[!UICONTROL Mehrere bearbeiten]** > `<choose metric>` > **[!UICONTROL Gruppe bearbeiten]**, um die zu ändernde Anforderungsgruppe auszuwählen.)
-1. Wählen Sie **[!UICONTROL Metrik(en) hinzufügen]** und danach die entsprechenden Metriken aus.
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Oder klicken Sie auf **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** , um die zu ändernde Anforderungsgruppe auszuwählen.)
+1. Wählen Sie **[!UICONTROL Add Metric(s)]**und die hinzuzufügenden Metriken aus.
 
    ![](assets/add_metric.png)
 
@@ -45,9 +45,9 @@ Bedenken Sie Folgendes
 
 So ersetzen Sie eine Metrik:
 
-1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten]** aus. (Oder klicken Sie auf **[!UICONTROL Verwalten]** > **[!UICONTROL Mehrere bearbeiten]** > **`<choose metric>`** > **[!UICONTROL Gruppe bearbeiten]**, um die zu ändernde Anforderungsgruppe auszuwählen.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Oder klicken Sie auf **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** , um die zu ändernde Anforderungsgruppe auszuwählen.)
 
-1. Wählen Sie **[!UICONTROL Metrik ersetzen]** aus.
+1. Auswählen **[!UICONTROL Replace Metric]**.
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +65,9 @@ Bedenken Sie Folgendes
 
 So entfernen Sie Metriken:
 
-1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten]** aus. (Oder klicken Sie auf **[!UICONTROL Verwalten]** > **[!UICONTROL Mehrere bearbeiten]** > **`<choose metric>`** > **[!UICONTROL Gruppe bearbeiten]**, um die zu ändernde Anforderungsgruppe auszuwählen.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Oder klicken Sie auf **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** , um die zu ändernde Anforderungsgruppe auszuwählen.)
 
-1. Wählen Sie **[!UICONTROL Metrik(en) entfernen]**.
+1. Auswählen **[!UICONTROL Remove Metric(s)]**.
 
    ![](assets/remove_metric.png)
 
