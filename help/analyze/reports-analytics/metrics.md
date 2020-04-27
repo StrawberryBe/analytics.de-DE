@@ -3,7 +3,7 @@ description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Be
 title: Metriken
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,12 +35,12 @@ t_metrics_set_default.xml
 
 1. Einen Bericht ausführen.
 1. Hinzufügen der Metriken, die Sie als Standardmetriken speichern möchten.
-1. Klicken Sie auf die Dropdownliste **[!UICONTROL Metriken hinzufügen]** und wählen Sie anschließend die Option **[!UICONTROL Als Standard festlegen]** aus.
+1. Klicken Sie auf die **[!UICONTROL Add Metrics]** Dropdown-Liste und wählen Sie dann **[!UICONTROL Set as Default]**.
 
    Die ausgewählten Metriken werden als Standard für diesen Bericht gespeichert. Die folgenden Informationen gelten für Standardmetriken:
 
 * Standardmetriken gelten für alle Benutzerkonten, verstehen sich jedoch pro Bericht und Report Suite. So sehen sämtliche Benutzer, die einen bestimmten Bericht in derselben Report Suite anzeigen, die Metriken, die mit dem obigen Verfahren festgelegt wurden.
-* Wenn Sie sich zwischen Berichten bewegen, bleiben die Metriken erhalten, die im zuletzt betrachteten Bericht angezeigt wurden. Um Standardmetriken in diesem neuen Bericht anzuzeigen, klicken Sie auf die Dropdownliste [!UICONTROL „Metriken hinzufügen“] und anschließend auf [!UICONTROL „Standardwerte anzeigen“].
+* Wenn Sie sich zwischen Berichten bewegen, bleiben die Metriken erhalten, die im zuletzt betrachteten Bericht angezeigt wurden. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
 
-* Wenn Sie auf [!UICONTROL „Standardwerte löschen“] klicken, werden die Standardmetriken für diesen Bericht entfernt und auf die ursprünglichen Standardmetriken für den betreffenden Bericht zurückgesetzt ([!UICONTROL „Seitenansichten“] für Props und für die in den Admin Tools festgelegten Einstellungen für eVars).
+* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
 
