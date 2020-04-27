@@ -2,7 +2,7 @@
 description: Wenn Sie Analytics-Daten manuell über Power BI importieren möchten, befolgen Sie diese Anweisungen.
 title: Daten manuell in Power BI importieren
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,8 +12,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Wenn Sie Analytics-Daten manuell über Power BI importieren möchten, befolgen Sie diese Anweisungen.
 
-1. Klicken Sie in Power BI auf **[!UICONTROL Daten abrufen]** im unteren linken Bildschirm.
-1. Klicken Sie unter **[!UICONTROL Daten importieren oder mit Daten verbinden]** > **[!UICONTROL Dateien]** auf **[!UICONTROL Abrufen]**.
+1. In Power BI, click **[!UICONTROL Get Data]** in the lower left screen.
+1. Under **[!UICONTROL Import or Connect to Data]** > **[!UICONTROL Files]**, click **[!UICONTROL Get]**.
 
    ![](assets/get-data.png)
 
@@ -21,8 +21,8 @@ Wenn Sie Analytics-Daten manuell über Power BI importieren möchten, befolgen 
 
    ![](assets/local-file.png)
 
-1. Wählen Sie die hochzuladende Datei aus und klicken Sie auf **[!UICONTROL Öffnen]**.
-1. Klicken Sie unter **[!UICONTROL Excel-Datei nach Power BI hochladen]** auf **[!UICONTROL Hochladen]**.
+1. Choose which file to upload and click **[!UICONTROL Open]**.
+1. Klicken Sie **[!UICONTROL Upload]** unter **[!UICONTROL Upload your Excel file to Power BI]**.
 
    ![](assets/upload-excel-file.png)
 
