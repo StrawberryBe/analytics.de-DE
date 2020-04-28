@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
 
 ---
 
@@ -288,6 +288,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [Warenkorbansicht](c-variables/c-metrics/metrics-cart-views.md)
       + [Checkouts](c-variables/c-metrics/metrics-checkouts.md)
       + [Clickthrough-Rate](c-variables/c-metrics/metrics-click-throughs.md)
+      + [Inhaltsgeschwindigkeit](c-variables/c-metrics/metrics-content-velocity.md)
       + [Benutzerdefinierte Metriken](c-variables/c-metrics/metrics-custom.md)
       + [Unique Visitors pro Tag](c-variables/c-metrics/metrics-daily-unique-visitors.md)
       + [Einträge](c-variables/c-metrics/metrics-entries.md)
