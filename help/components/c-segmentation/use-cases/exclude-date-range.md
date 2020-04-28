@@ -2,7 +2,7 @@
 title: Ausschließen spezifischer Daten in der Analyse
 description: Tipps zum Ausschließen von Daten oder Datumsbereichen, wenn Sie sie nicht in Berichte aufnehmen möchten.
 translation-type: tm+mt
-source-git-commit: 29f6b302fecd18a9be70c2246c0d1227af82d00f
+source-git-commit: b244a74e2514472e8c3896bed9c5cbdd60abc8ff
 
 ---
 
@@ -48,7 +48,7 @@ Sie können sowohl das Segment &quot;Betroffene Tage&quot;als auch das Segment &
 
 Wenn Sie keine Nullen in der Tabelle oder in Visualisierungen (die Dips verursachen) anzeigen möchten, aktivieren Sie **[!UICONTROL Interpret zero as no value]** unter Spalteneinstellungen.
 
-![Null interpretieren](../assets/interpret_zero.jpg)
+![Null interpretieren](../assets/interpret_zero.png)
 
 ### Anwenden des Ausschlusssegments auf ein Projekt
 
