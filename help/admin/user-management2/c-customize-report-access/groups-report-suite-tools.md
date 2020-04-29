@@ -6,7 +6,7 @@ title: Anpassen von Berechtigungen für Report Suite-Tools
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf Bericht]** > **[!UICONTROL Report Suite-Tools]** > **[!UICONTROL Anpassen]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-Über die Seite für das [!UICONTROL Anpassen der Report Suite-Tools] erhalten Gruppenmitglieder Zugriff auf folgende Elemente.
+Die [!UICONTROL Customize Report Suite Tools] Seite gewährt Mitgliedern einer Gruppe Zugriff auf die folgenden Elemente.
 
 ![](assets/report-suite-tools.png)
 
 ## Feldbeschreibungen
 
-Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf der Seite „[!UICONTROL Benutzergruppe definieren]“ ausgewählt wurden.
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Element | Beschreibung |
 |--- |--- |
@@ -65,8 +65,8 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Anomalieerkennung](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/anomaly_detection.html) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
 | [Kanalbericht](https://marketing.adobe.com/resources/help/de_DE/mchannel/index.html) | Ermöglicht Zugriff auf Marketing-Kanal-Berichte, zu finden unter „Berichte > Marketing-Kanalberichte“. |
 | [Echtzeitbericht](/help/admin/admin/realtime/t-realtime-admin.md) | Ermöglicht Zugriff auf den Echtzeitbericht. |
-| [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
+| [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bot-Seiten sind für bestimmte Reports &amp; Analysen-Berichte bestimmt, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bots sind für bestimmte Reports &amp; Analysen-Berichte gedacht, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit Bots können Sie Traffic entfernen, der von bekannten Spiders und Bots aus Ihrer Report Suite generiert wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
 | [Benutzerdefinierter Data Warehouse-Bericht](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse bezieht sich auf die Kopie der unverarbeiteten Rohdaten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. |
 | [Rückkehrende Besucher pro Tag](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Veraltet) In diesem Bericht wird angegeben, wie viele Besucher Ihre Website an einem bestimmten Tag mehrmals besuchen. Ein Tag wird als die letzten 24 Stunden definiert. |
 | [Data Sources Manager](/help/admin/admin/data-sources.md) | Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. |
