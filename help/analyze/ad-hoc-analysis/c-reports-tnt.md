@@ -4,7 +4,7 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,4 +25,4 @@ Zu den Beispielen gehören:
 
 Über die Datenauswertung in „Reports and Analytics“ können Sie mithilfe von Aufschlüsselungen einen Drilldown in Ihren Target-Rezepten durchführen und für künftige Tests und mögliche gezielte Kampagnen leistungsstarke Segmente ermitteln. Im Bericht von „Reports and Analytics“ werden statt der Target-Konversionsdaten die Konversionsdaten angezeigt.
 
-Weitere Informationen finden Sie im [Adobe Target](https://marketing.adobe.com/resources/help/de_DE/target/)-Hilfesystem.
+Weitere Informationen finden Sie im [Adobe Target](https://docs.adobe.com/content/help/de-DE/target/using/target-home.html)-Hilfesystem.
