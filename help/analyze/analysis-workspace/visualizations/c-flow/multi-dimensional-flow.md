@@ -3,7 +3,7 @@ description: Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade
 title: Interdimensionale Flüsse
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ Ziehen Sie die Dimension „Kampagnenname“ in einen neuen Fluss:
 Nun möchte ich wissen, auf welche Seiten diese Kampagnen Traffic leiten. Daher ziehe ich die Dimension „Seite“ nach rechts von den Flussergebnissen, um sie in der Visualisierung hinzuzufügen:
 
 ![](assets/multi-dimensional-flow9.png)
-
-Dieses Ergebnis können Sie dann nach anderen Dimensionen oder Metriken weiter aufschlüsseln (z. B. nach Umsatz, Besuchen usw.).
