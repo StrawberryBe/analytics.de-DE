@@ -3,7 +3,7 @@ description: 'null'
 title: Fallout-Visualisierung konfigurieren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ Sogar Segmente können Sie innerhalb eines Touchpoints hinzufügen. Vielleicht m
 
 Bezüglich der Anzahl der Schritte, die hinzugefügt, oder der Dimensionen, die verwendet werden können, gibt es keine Einschränkungen.
 
-Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://marketing.adobe.com/resources/help/de_DE/sc/implement/listN.html) (Variablen, die mehrere Werte pro Hit haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Beispiel: Angenommen, jemand sucht auf der einen Seite nach „Schuhe,Shirt“ und auf der nächsten Seite nach „Schuhe,Socken“. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
+Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html) (Variablen, die mehrere Werte pro Hit haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Beispiel: Angenommen, jemand sucht auf der einen Seite nach „Schuhe,Shirt“ und auf der nächsten Seite nach „Schuhe,Socken“. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
 
 1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
 
