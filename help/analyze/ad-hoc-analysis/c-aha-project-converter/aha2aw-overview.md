@@ -3,7 +3,7 @@ description: 'null'
 title: Ad Hoc Analysis Project Converter – Übersicht
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,8 +21,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Die Konvertierung von Projekten bietet einige Vorteile:
 
-* Ihre Projekte werden in unser innovatives Analyse-Berichtstool [Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/) konvertiert, das fortlaufend um neue Visualisierungen und weitere nützliche Funktionen erweitert wird.
-* Ihnen stehen alle großartigen Funktionen zur Verfügung, die Analysis Workspace bietet und aufgeführt werden unter: [Welches Adobe Analytics-Tool sollte ich verwenden](https://marketing.adobe.com/resources/help/de_DE/reference/which_analytics_tool.html).
+* Ihre Projekte werden in unser innovatives Analyse-Berichtstool [Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/analysis-workspace-features.html) konvertiert, das fortlaufend um neue Visualisierungen und weitere nützliche Funktionen erweitert wird.
+* Ihnen stehen alle großartigen Funktionen zur Verfügung, die Analysis Workspace bietet und aufgeführt werden unter: [Welches Adobe Analytics-Tool sollte ich verwenden](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html).
 * Sie haben die Möglichkeit, all Ihre Projekte auf einmal zu konvertieren, ohne diese manuell in Analysis Workspace nachbilden zu müssen.
 * Ad Hoc Analysis war über Jahre ein wirklich nützliches Tool. Nun befindet es sich allerdings im Wartungsmodus, und es werden keine neuen Funktionen mehr dafür entwickelt.
 
