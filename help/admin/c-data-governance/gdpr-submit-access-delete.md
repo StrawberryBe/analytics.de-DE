@@ -3,7 +3,7 @@ description: 'null'
 title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Sie sollten in Erwägung ziehen, Ihren Apps und Websites Hinweise hinzuzufügen,
 
 ## Kundeneinwilligung verwalten  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus zu implementieren](https://marketing.adobe.com/resources/help/de_DE/dtm/opt-in.html). Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
+Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus zu implementieren](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html). Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
 
 ## Benutzer und ihre Daten validieren  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
