@@ -3,7 +3,7 @@ description: Erste Schritte mit Ad Hoc Analysis.
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -27,7 +27,7 @@ Mit diesen Funktionen können Sie Fragen zum Site-Traffic, zu den demografischen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Melden Sie sich bei Adobe <span class="keyword">Analytics</span> an. </p> </td> 
-   <td colname="col2"> <p>Gehen Sie zu <a href="https://marketing.adobe.com"  >marketing.adobe.com</a> und melden Sie sich mit Ihren Adobe Analytics-Anmeldedaten an. </p> </td> 
+   <td colname="col2"> <p>Gehen Sie zu <a href="https://experiencecloud.adobe.com"  >marketing.adobe.com</a> und melden Sie sich mit Ihren Adobe Analytics-Anmeldedaten an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Starten Sie Ad Hoc Analysis. </p> </td> 
@@ -88,8 +88,8 @@ Wenn auf Ihrem Rechner immer noch Java 7 installiert ist, müssen Sie vor dem M
 * Wenn Sie zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
 
    1. Gehen Sie zu https://www.java.com.
-   1. Klicken Sie auf **[!UICONTROL Kostenloser Java-Download]**.
-   1. Klicken Sie auf **[!UICONTROL Einverstanden und mit kostenlosem Download beginnen]**.
+   1. Klicken Sie auf **[!UICONTROL Free Java Download]**.
+   1. Klicken Sie auf **[!UICONTROL Agree and Start Free Download]**.
    1. Installieren Sie die neueste Java-Version für Ihr Betriebssystem.
 
 * Wenn Sie **nicht** zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
@@ -117,11 +117,11 @@ t_login_suite.xml
  -->
 
 1. Navigieren Sie in einem Browser zu [!DNL marketing.adobe.com].
-1. Geben Sie den Firmennamen, Ihren Benutzernamen und Ihr Passwort ein und klicken Sie auf **[!UICONTROL Anmelden]**.
-1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Werkzeuge]** > **[!UICONTROL Ad Hoc Analysis]**.
+1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    Wenn Sie auf dieser Seite die Schaltfläche **Ad Hoc Analysis starten** nicht sehen, stellen Sie sicher, dass Ihr Administrator Sie in den Admin Tools der Gruppe *Ad Hoc Analysis-Lizenzanwender* hinzugefügt hat.
-1. Klicken Sie auf **[!UICONTROL Ad Hoc Analysis starten]**.
+1. Klicken Sie auf **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. Speichern Sie die [!DNL discover.jnlp] Datei lokal.
 
    Sie können diese gespeicherte Datei ausführen, wann immer Sie Ad Hoc Analysis starten möchten.
@@ -142,7 +142,7 @@ Berichte können in einem *Arbeitsbereich* gruppiert werden. Ein Projekt kann me
 
 Sie können immer nur ein Projekt zur selben Zeit öffnen. Allerdings können Sie mehrere Arbeitsbereiche in einem Projekt geöffnet haben. In jedem Arbeitsbereich können Sie mehrere Berichte geöffnet haben.
 
-Der Standarddatumsbereich für ein neues Projekt ist [!UICONTROL Letzte 90 Tage].
+The default date range for a new project is [!UICONTROL Last 90 Days].
 
 ## Ein Projekt starten {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. Anmelden.
-1. Öffnen Sie ein gespeichertes Projekt oder klicken Sie auf **[!UICONTROL Projekt erstellen]**.
+1. Open a saved project or click **[!UICONTROL Create Project]**.
 1. Suchen Sie nach einem Bericht oder wählen Sie eine Vorlage aus.
 
 ## Einen kürzlich gespeicherten Arbeitsbereich öffnen {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Zuletzt verwendeter Arbeitsbereich]**.
+1. Klicken Sie auf **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
 
    Sie können bis zu fünf zuletzt verwendete Arbeitsbereiche öffnen. Die zuletzt verwendeten Arbeitsbereiche stehen nach Beenden Ihrer Sitzung nicht zur Verfügung.
 
@@ -182,14 +182,14 @@ t_share_projects.xml
 
  -->
 
-1. Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Speichern unter]**.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Speichern unter:]** die Option **[!UICONTROL Freigegebene Projekte.]**
+1. Öffnen von **[!UICONTROL File]** > **[!UICONTROL Save As]**.
+1. Wählen Sie **[!UICONTROL Shared Projects]** aus der **[!UICONTROL Save in:]** Dropdownliste.
 
    ![](assets/shared_projects.png)
 
-1. Klicken Sie zum Speichern des Projekts auf **[!UICONTROL Speichern]**.
+1. Click **[!UICONTROL Save]** to save the project.
 
-   Freigegebene Projekte können über **[!UICONTROL Datei]** > **[!UICONTROL Öffnen]** > **[!UICONTROL Freigegebene Projekte]** geöffnet werden.
+   Freigegebene Projekte können über **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**.
 
    >[!NOTE]
    >
@@ -206,7 +206,7 @@ t_rename_workspace.xml
  -->
 
 1. Klicken Sie mit der rechten Maustaste auf den Namen des Arbeitsbereichs.
-1. Wählen Sie **[!UICONTROL Arbeitsbereich umbenennen]** aus.
+1. Auswählen **[!UICONTROL Rename Workspace]**.
 1. Geben Sie einen Namen ein, und klicken Sie dann auf **[!UICONTROL OK]**.
 
 ## Lokales Projekt öffnen {#task_1B3EF63A80C74776B24B99D80EAC74AC}
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Lokale Kopie öffnen]**.
-1. Navigieren Sie zur lokalen [!DNL .dproj]-Datei, und klicken Sie dann auf **[!UICONTROL Öffnen]**.
+1. Klicken Sie auf **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
+1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
 
 ## Berichtsvorlagen {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-Sie können Vorlagen aufrufen, wenn Sie ein Projekt erstellen (**[!UICONTROL Datei]** > **[!UICONTROL Neues Projekt]**) oder indem Sie einen Arbeitsbereich oder einen Bericht hinzufügen.
+You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
 
 | Vorlage | Beschreibung |
 |--- |--- |
@@ -257,6 +257,6 @@ t_reports_opening.xml
 
 Es gibt mehrere Methoden, einen Bericht zu öffnen:
 
-* Suchen Sie auf der Seite [!UICONTROL Neuer Bericht] nach einem Bericht oder wählen Sie eine Vorlage aus.
-* Klicken Sie im Menü auf **[!UICONTROL Berichte]** und wählen Sie einen Bericht oder eine Berichtsvorlage aus.
-* Einen Bericht aus einer Dimension starten: Klicken Sie mit der rechten Maustaste auf einen Dimensionsnamen und wählen Sie **[!UICONTROL Bericht ausführen]** >      **`report name`**.
+* On the [!UICONTROL New Report] page, search for a report or choose a template.
+* Click **[!UICONTROL Reports]** from the menu, then select a report or report template.
+* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
