@@ -6,7 +6,7 @@ title: Umleitungen und Aliase
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -31,18 +31,18 @@ Obwohl es nur zwei Typen von Umleitungen gibt, können sie auf verschiedene Arte
 
 Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht umgeleitet wird:
 
-1. Der Benutzer verweist seinen Browser auf `www.google.com`, gibt „Discount-Airline Tickets“ in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
+1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. Der Browser zeigt die Suchergebnisse einschließlich einem Link zu Ihrer Site [!DNL https://www.example.com/] / an. Nach der Anzeige der Suchergebnisse zeigt die Adressleiste des Browsers die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe an ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen.
 1. Der Benutzer klickt auf den Link zu Ihrer hypothetischen Site [!DNL https://www.example.com/]. Wenn der Benutzer auf diesen Link klickt und auf die Website [!DNL example.com] gelangt, erfasst [!DNL Analytics] mithilfe von JavaScript die verweisende URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) und die aktuelle URL ( `https://www.example.com/`).
-1. [!DNL Analytics] präsentiert die während dieser Interaktion gesammelten Informationen in verschiedenen Berichten z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen] und [!DNL Search Keywords].
+1. [!DNL Analytics] die während dieser Interaktion gesammelten Informationen in verschiedenen Berichten wie [!UICONTROL Referring Domains], [!UICONTROL Search Engines]und [!DNL Search Keywords].
 
 ## Beispiel: Browsen mit Umleitungen {#section_921DDD32932847848C4A901ACEF06248}
 
 Umleitungen können dazu führen, dass der Browser die eigentliche verweisende URL ausblendet. Betrachten wir das folgende Szenario:
 
-1. Der Benutzer verweist seinen Browser auf `https://www.google.com`, gibt *Discount-Airline Tickets* in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
+1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domäne ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
-1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
+1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit gehen die in den [!DNL Analytics] Berichten verwendeten ursprünglichen Suchinformationen verloren (z. B. [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]).
 
 ## Umleitungen implementieren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
