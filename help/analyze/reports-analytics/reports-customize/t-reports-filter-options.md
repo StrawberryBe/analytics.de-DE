@@ -4,7 +4,7 @@ title: Filtern von Berichtsdaten
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzeleleme
 
 **Enthält nicht**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://marketing.adobe.com/resources/help/de_DE/reference/none-unspecified-unknown-other.html) aus Berichten filtern.
+Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) aus Berichten filtern.
 
 Enthält nicht: `none`
 
