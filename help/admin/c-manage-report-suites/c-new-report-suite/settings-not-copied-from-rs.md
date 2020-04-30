@@ -4,7 +4,7 @@ title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Classification-Daten (Classification-Struktur wird kopiert) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/de_DE/reference/c_working_with_saint.html">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Transaktions-ID-Aufzeichnung aktivieren </p> </td> 
@@ -68,7 +68,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ClickMap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/de_DE/analytics/activitymap/activitymap-enable.html"> Upgrade auf Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade auf Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-Regeln </p> </td> 
