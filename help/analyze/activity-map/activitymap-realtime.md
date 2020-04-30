@@ -3,7 +3,7 @@ description: Seitenanalysen in Echtzeit (Livemodus) ermöglichen es Ihnen, Ergeb
 title: Seitenanalysen in Echtzeit (Livemodus)
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 Wenn Sie prüfen möchten, welches Element im Livemodus am häufigsten angeklickt wird:
 
-1. Wählen Sie den Zeitraum in der Trendlinie **[!UICONTROL Livemodus]** der Symbolleiste aus, den Sie analysieren möchten.
+1. Wählen Sie den Zeitraum in der **[!UICONTROL Live Mode]** Trendlinie der Symbolleiste aus, den Sie analysieren möchten.
 1. Klicken Sie auf das Augensymbol in der Symbolleiste, um auf die Tabelle &quot;Linkbericht&quot;zuzugreifen.
 1. Ordnen Sie die Tabelle über den Link an.
 
@@ -39,6 +39,6 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://marketing.adobe.com/resources/help/de_DE/mcvid/) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des [Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
 Weitere Informationen [hier](/help/analyze/activity-map/activitymap-standard-live.md).
