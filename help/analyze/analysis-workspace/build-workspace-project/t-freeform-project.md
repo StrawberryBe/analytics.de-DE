@@ -5,7 +5,7 @@ title: Workspace-Projekt erstellen
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
 
 1. Legen Sie die Benutzerberechtigung zum Erstellen und Kuratieren von Projekten fest.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppen](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html)).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Gruppen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
