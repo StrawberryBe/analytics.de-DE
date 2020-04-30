@@ -4,7 +4,7 @@ title: Sitebereiche
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,21 +13,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zeigt Ihnen die Bereiche Ihrer Site, die Ihre Kunden am häufigsten aufrufen. Siteabschnitte können kategorienähnliche Produktgruppen enthalten, die Sie definieren. Sie können beispielsweise eine Seitengruppe „Kameras“ oder „Computer“ usw. einrichten. Daten für den Bericht „Konversionssitebereiche“ werden aus dem Bericht „Sitebereiche“ in der Traffic-Gruppe importiert, welcher seine Daten aus der Kanalvariablen im Trackingcode erhält. Mithilfe dieses Berichts können Sie die stärkste Auswirkung bestimmter Einheiten in unterschiedlichen Sitebereichen auf die Site-Statistik identifizieren.
 
-* Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen „[s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html)“ auf.
+* Dieser Bericht listet Daten direkt aus der auf Ihrer Website implementierten Variablen „[s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html)“ auf.
 * Der Bericht kann sowohl als Trendansicht als auch als Rangansicht angezeigt werden.
 * In diesem Bericht können bestimmte Zeileneinträge mit einem Suchfilter ermittelt werden.
 * Sie können Classifications zum Umbenennen und Konsolidieren von Zeileneinträgen in diesem Bericht verwenden.
 * Korrelationen können in den Admin Tools mit jeder beliebigen Traffic-Variablen erstellt werden.
 * Dieser Bericht kann die folgenden Metriken verwenden:
 
-   * **Seitenansichten**: Gibt an, wie oft die Variable [„pageName“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) oder URL definiert wurde (als Standardmetrik festgelegt).
+   * **Seitenansichten**: Gibt an, wie oft die Variable [„pageName“](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) oder URL definiert wurde (als Standardmetrik festgelegt).
 
    * **Alle Pfadsetzungsmetriken**: Besuche, durchschnittliche Klicktiefe, durchschnittliche Besuchszeit pro Seite, Einstiege, Ausstiege, Neuladungen und Einzelzugriffe.
    * Je nach Report Suite-Einstellungen Ihrer Organisation kann die Erfassung von Unique Visitors pro Tag, Woche, Monat oder Quartal für den Bericht aktiviert werden.
    * **Alle E-Commerce-Standardmetriken**: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb und Entnahmen aus Warenkorb.
    * **Alle benutzerspezifischen Ereignisse**: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
 
-Alle Konversionsereignisse im [!UICONTROL Sitebereichsbericht] verwenden die letzte Zuordnung. Sie sehen die Konversion auf die Seiten aufgeteilt, die in Ihrer Implementierung keine Erfolgsereignisse enthalten. Das unterscheidet sich vom  [Seitenbericht](/help/components/c-variables/dimensionslist/reports-pages.md), bei dem eine lineare Zuordnung verwendet wird.
+Alle Konversions-Ereignis in der [!UICONTROL Site Sections Report] letzten Zuordnung verwenden. Sie sehen die Konversion auf die Seiten aufgeteilt, die in Ihrer Implementierung keine Erfolgsereignisse enthalten. Das unterscheidet sich vom  [Seitenbericht](/help/components/c-variables/dimensionslist/reports-pages.md), bei dem eine lineare Zuordnung verwendet wird.
 
 **Produktspezifische Informationen**
 
