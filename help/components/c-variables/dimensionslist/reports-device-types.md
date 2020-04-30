@@ -4,7 +4,7 @@ title: Gerätetypen
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ Diese Dimension verwendet dynamische Gerätedaten, die im Zuge der Veröffentlic
 
 Die Daten für diesen Bericht werden mithilfe der Zeichenfolge des Benutzeragents des Besuchers ausgefüllt.
 
->[!Note]
+>[!NOTE]
 >Nur Änderungen an einer bestehenden mobilen ID werden rückwirkend vorgenommen. Wenn das Gerät neu ist und noch keine mobile ID hat, beginnen die nur mit diesem Gerät verbundenen Daten mit dem Datum, an dem eine ID zur Gerätedatenbank hinzugefügt wird.
