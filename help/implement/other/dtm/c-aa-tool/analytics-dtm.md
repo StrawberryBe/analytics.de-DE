@@ -5,7 +5,7 @@ title: Adobe Analytics-Tool hinzufügen
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem Sie das Adobe Analytics-Tool erstellen und den Seiten-Code entweder automatisch oder manuell konfigurieren. Für die meisten Benutzer wird die automatische Methode empfohlen.
 
->[!NOTE] Für ein verbessertes Besucher-Tracking empfehlen wir dringend, den [Identitätsdienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/) zu aktivieren.
+>[!NOTE] Für ein verbessertes Besucher-Tracking empfehlen wir dringend, den [Identitätsdienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) zu aktivieren.
 
 ## Hinzufügen eines Adobe Analytics-Tools {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Klicken Sie auf **[!UICONTROL *`Web Property Name`*]** > **[!UICONTROL &#x200B;Übersicht ]** > **[!UICONTROL  Tool hinzufügen ]** > **[!UICONTROL  Adobe Analytics ]**.
+1. Klicken Sie auf  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -49,7 +49,7 @@ Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem S
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuell</b>: Manuelle Verwaltung des AppMeasurement-Codes. Der <span class="keyword">Analytics</span><span class="keyword"> AppMeasurement</span> Code kann unter <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code-Manager</span></span> heruntergeladen werden. </p> <p>Klicken Sie auf <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (neu)</a>, um Informationen zum lokalen Download des Codes zu erhalten, damit Sie ihn kopieren und in das Feld <span class="wintitle">Code bearbeiten</span> in der <a href="/help/implement/other/dtm/c-aa-tool/library-management.md">Bibliotheksverwaltung</a> einfügen können. </p> <p>Füllen Sie die Felder der manuellen Konfiguration aus: </p> 
+   <td colname="col2"> <p> <b>Manuell</b>: Manuelle Verwaltung des AppMeasurement-Codes. Der <span class="keyword">Analytics</span><span class="keyword"> AppMeasurement</span> Code kann unter <span class="ignoretag"><span class="uicontrol"> Admin Tools</span> &gt; <span class="uicontrol"> Code-Manager</span></span> heruntergeladen werden. </p> <p>Klicken Sie auf <a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html">JavaScript (neu)</a>, um Informationen zum lokalen Download des Codes zu erhalten, damit Sie ihn kopieren und in das Feld <span class="wintitle">Code bearbeiten</span> in der <a href="/help/implement/other/dtm/c-aa-tool/library-management.md">Bibliotheksverwaltung</a> einfügen können. </p> <p>Füllen Sie die Felder der manuellen Konfiguration aus: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>Produktionskonto-ID</b> (erforderlich): Ihr Produktionskonto für die Datenerfassung. Bei Analytics ist dies Ihre Report Suite-ID. Das Dynamic Tag Management installiert automatisch das richtige Konto in der Produktions- und Staging-Umgebung. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>Staging-Konto-ID</b> (erforderlich): Wird in der Entwicklungs- oder Testumgebung eingesetzt. Bei Analytics ist dies Ihre Report Suite-ID. Mit einem Staging-Konto werden Ihre Testdaten von der Produktion getrennt. </p> </li> 
@@ -60,11 +60,11 @@ Stellen Sie Adobe Analytics mithilfe des Dynamic Tag Managements bereit, indem S
  </tbody> 
 </table>
 
-1. Klicken Sie auf **[!UICONTROL Tool erstellen]**, um das Tool und die Bearbeitungsanzeige zu erstellen.
+1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
 
-   Tools werden auf der Registerkarte „[!UICONTROL Übersicht]“ unter „[!UICONTROL Installierte Tools]“ angezeigt.
+   Werkzeuge werden auf der [!UICONTROL Overview] Registerkarte angezeigt, unter [!UICONTROL Installed Tools].
 
-1. (Bedingt) Führen Sie bei Bedarf nach den Anweisungen unter den unten stehenden Links eine weitere Konfiguration des Tools durch ([!UICONTROL Allgemein], [!UICONTROL Bibliotheksverwaltung], [!UICONTROL globale Variablen], [!UICONTROL Seitenansichten und Inhalt], [!UICONTROL Linktracking], [!UICONTROL Referrer und Kampagnen], [!UICONTROL Cookies] und [!UICONTROL Seiten-Code anpassen]).
+1. (Bedingt) Konfigurieren Sie das Tool nach Bedarf weiter, indem Sie die Anweisungen unter den Links unten ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies]und [!UICONTROL Customize Page Code]) befolgen.
 
 Weiterführende Informationen finden Sie in den [häufig gestellten Fragen zu Adobe Analytics](/help/implement/faq.md).
 
@@ -72,7 +72,7 @@ Weiterführende Informationen finden Sie in den [häufig gestellten Fragen zu Ad
 
 Ein bestehendes Adobe Analytics-Tool kann bearbeitet werden, um die Konfigurierungseinstellungen anzupassen.
 
-1. Klicken Sie auf das Symbol ![](assets/settings_gear.png) neben einem installierten Tool in der Registerkarte [!UICONTROL Übersicht].
+1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
 1. Bearbeiten Sie die Felder wie gewünscht.
 
    In der folgenden Tabelle sind nur die Elemente enthalten, die von den verfügbaren Elementen abweichen, wenn (wie oben beschrieben) ein Analytics-Tool erstellt wird. Es kann jedoch jedes beliebige Element auf der Seite geändert werden, wie in beiden Tabellen beschrieben ist.
@@ -96,5 +96,5 @@ Ein bestehendes Adobe Analytics-Tool kann bearbeitet werden, um die Konfigurieru
  </tbody> 
 </table>
 
-1. (Bedingt) Führen Sie bei Bedarf nach den Anweisungen unter den unten stehenden Links eine weitere Konfiguration des Tools durch ([!UICONTROL Allgemein], [!UICONTROL Bibliotheksverwaltung], [!UICONTROL globale Variablen], [!UICONTROL Seitenansichten und Inhalt], [!UICONTROL Linktracking], [!UICONTROL Referrer und Kampagnen], [!UICONTROL Cookies] und [!UICONTROL Seiten-Code anpassen]).
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. (Bedingt) Konfigurieren Sie das Tool nach Bedarf weiter, indem Sie die Anweisungen unter den Links unten ( [!UICONTROL General], [!UICONTROL Library Management], [!UICONTROL Global Variables], [!UICONTROL Pageviews & Content], [!UICONTROL Link Tracking], [!UICONTROL Referrers & Campaigns], [!UICONTROL Cookies]und [!UICONTROL Customize Page Code]) befolgen.
+1. Klicken Sie auf **[!UICONTROL Save Changes]**.
