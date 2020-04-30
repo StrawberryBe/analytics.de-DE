@@ -5,7 +5,7 @@ title: Klassifizierungsregeln – Definitionen
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -32,7 +32,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen auswählen </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p>Um beispielsweise <span class="term">Seiten</span> als Variable für den Regelsatz verfügbar zu machen, stellen Sie sicher, dass für die Report Suite <a href="https://marketing.adobe.com/resources/help/de_DE/reference/traffic_classifications.html"  >Traffic-Klassifizierungen</a> für <span class="term">Seite</span> implementiert wurden. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://marketing.adobe.com/resources/help/de_DE/reference/traffic_classification_admin.html"  >Traffic-Classifications</a> und <a href="https://marketing.adobe.com/resources/help/de_DE/reference/conversion_classifications.html"  >Konversion-Classifications</a>. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p>Um beispielsweise <span class="term">Seiten</span> als Variable für den Regelsatz verfügbar zu machen, stellen Sie sicher, dass für die Report Suite <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >Traffic-Klassifizierungen</a> für <span class="term">Seite</span> implementiert wurden. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >Traffic-Classifications</a> und <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Konversion-Classifications</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aktivieren</span> </p> </td> 
@@ -117,7 +117,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
 
 ## Seite Regulärer Ausdruck {#section_C932A5469E774841B2229965A154163C}
 
-Auf der Seite [!UICONTROL Regulärer Ausdruck] können Sie reguläre Ausdrücke bearbeiten.
+You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,5 +140,5 @@ Auf dieser Seite können Sie die Regeln in einem Regelsatz testen.
 | Element | Beschreibung |
 |---|---|
 | Test ausführen | Beim Testen des Regelsatzes verwenden Sie Schlüssel aus dem Bericht, und es wird ermittelt, wie sich der Regelsatz auf diese Schlüssel auswirkt. |
-| Filter | Filtert die Werte im Bereich [!UICONTROL Ergebnisse]. |
+| Filter | Filters the values in the [!UICONTROL Results] panel. |
 
