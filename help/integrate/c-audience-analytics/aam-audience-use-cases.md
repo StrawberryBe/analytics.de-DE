@@ -3,7 +3,7 @@ description: 'null'
 title: Anwendungsfälle für Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -20,12 +20,12 @@ Als Reiseunternehmen können Sie bevorzugte Reiseziele schnell mit dem Kaufverha
 
 ## Look-Alike-Modellierung  {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-Als Multi-Medien-Publisher können Sie Ihre Drittpartei-Zielgruppen über [Segment IQ](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segment-comparison.html) vergleichen, um die wesentlichen Unterscheidungsmerkmale zu verstehen. Dies hilft Ihnen dabei, hochwertige Erstpartei-Segmente für das Targeting zu erstellen.
+Als Multi-Medien-Publisher können Sie Ihre Drittpartei-Zielgruppen über [Segment IQ](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) vergleichen, um die wesentlichen Unterscheidungsmerkmale zu verstehen. Dies hilft Ihnen dabei, hochwertige Erstpartei-Segmente für das Targeting zu erstellen.
 
 ## Analyse potenzieller Kunden  {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe direkt vor dem Kauf mit der [sequenziellen Segmentierung](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/sequence-filters.html) genauestens analysieren. Dies bietet Ihnen ein besseres Verständnis darüber, welche Handlungen die Konversion fördern.
+Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe direkt vor dem Kauf mit der [sequenziellen Segmentierung](https://docs.adobe.com/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) genauestens analysieren. Dies bietet Ihnen ein besseres Verständnis darüber, welche Handlungen die Konversion fördern.
 
 ## Demografisches Targeting  {#section_F034DB721A06419283DBD29D4A1B444B}
 
-Als Ferienanlage können Sie [Histogramme in Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/histogram.html) verwenden, um Käufe auf Altersgruppen verteilt zu sehen. Dies hilft Ihnen dabei, die richtige Zielgruppe zu finden, die Sie für die einzelnen Teile Ihrer Anlage ansprechen sollten.
+Als Ferienanlage können Sie [Histogramme in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/histogram.html) verwenden, um Käufe auf Altersgruppen verteilt zu sehen. Dies hilft Ihnen dabei, die richtige Zielgruppe zu finden, die Sie für die einzelnen Teile Ihrer Anlage ansprechen sollten.
