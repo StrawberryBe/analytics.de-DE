@@ -6,7 +6,7 @@ title: Unique Visitors identifizieren
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,12 +37,12 @@ Sie können eine benutzerspezifische Methode implementieren, um Besucher zu iden
 
 Eine benutzerspezifische Besucher-ID kann auf Sites verwendet werden, bei denen Sie Besucher auf eindeutige Weise identifizieren können. So wird z. B. möglicherweise eine ID generiert, wenn sich ein Benutzer mit einem Benutzernamen und einem Passwort bei einer Website anmeldet.
 
-Wenn Sie die [!UICONTROL Besucher-IDs] Ihrer Benutzer ableiten und verwalten können, stehen die folgenden Methoden zum Festlegen der ID zur Verfügung:
+Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
 
 | Methode | Beschreibung |
 |---|---|
 | Variable [„s.visitorID“](../implement/vars/config-vars/visitorid.md) | Wenn JavaScript im Browser verwendet wird oder Sie eine andere AppMeasurement-Bibliothek verwenden, können Sie die Besucher-ID in einer Datenerfassungsvariablen festlegen. |
-| Abfragezeichenfolgenparameter in der Bildanforderung | Bei dieser Option können Sie die [!UICONTROL Besucher-ID] über den Abfragezeichenfolgenparameter [!UICONTROL vid] in einer fest programmierten Bildanforderung an Adobe übergeben. |
+| Abfragezeichenfolgenparameter in der Bildanforderung | Auf diese Weise können Sie die Datei [!UICONTROL visitor ID] über den [!UICONTROL vid query string] Parameter einer fest programmierten Bildanforderung an Adobe weiterleiten. |
 | Dateneinfüge-API | Bei Geräten mit Wireless-Protokollen, die kein JavaScript akzeptieren, können Sie einen XML-Post mit dem XML-Element `<visitorid/>` von Ihren Servern an Adobe-Erfassungsserver senden. |
 | Umschreiben der URL und VISTA | Einige Implementierungsarchitekturen bieten Unterstützung für das Umschreiben von URLs an, damit der Sitzungsstatus auch dann aufrechterhalten werden kann, wenn das Setzen eines Cookies nicht möglich ist. In solchen Fällen kann Adobe Engineering Services eine [!DNL VISTA]-Regel implementieren, die nach dem Sitzungswert in der URL der Seite sucht und diesen dann formatiert und in die [!UICONTROL visid]-Werte einsetzt. |
 >[!CAUTION]
@@ -58,7 +58,7 @@ Wenn eine Anforderung an den Adobe-Datenerfassungsserver gesendet wird, wird gep
 
 Einige Browser, wie Apple Safari, speichern keine Cookies mehr, die im HTTP-Header gesetzt sind von Domänen, die nicht mit der Domäne der aktuellen Website übereinstimmen (dies ist ein Cookie, das in einem Drittanbieterkontext verwendet wird, bzw. ein Drittanbieter-Cookie). Wenn Ihre Domäne z. B. `mysite.com` ist und sich Ihr Datenerfassungsserver unter der Domäne `mysite.omtrdc.net` befindet, wird der von `mysite.omtrdc.net` im HTTP-Header zurückgegebene Cookie möglicherweise vom Browser abgewiesen.
 
-Um dies zu vermeiden, haben viele Kunden für ihre Datenerfassungsserver CNAME-Einträge als [Erstanbieter-Cookie-Implementierung](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.translate.html) implementiert. Wenn ein CNAME-Eintrag so konfiguriert wurde, dass ein Hostname unter der Domäne des Kunden einem Datenerfassungsserver zugeordnet wird (z. B. die Zuordnung von `metrics.mysite.com` zu `mysite.omtrdc.net`), wird der Besucher-ID-Cookie gespeichert, da die Datenerfassungsdomäne nun mit der Domäne der Website übereinstimmt. Somit besteht zwar eine höhere Wahrscheinlichkeit, dass das Besucher-ID-Cookie gespeichert wird, es entsteht jedoch auch etwas Mehraufwand, da CNAME-Einträge konfiguriert und SSL-Zertifikate für Datenerfassungsserver verwaltet werden müssen.
+Um dies zu vermeiden, haben viele Kunden für ihre Datenerfassungsserver CNAME-Einträge als [Erstanbieter-Cookie-Implementierung](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) implementiert. Wenn ein CNAME-Eintrag so konfiguriert wurde, dass ein Hostname unter der Domäne des Kunden einem Datenerfassungsserver zugeordnet wird (z. B. die Zuordnung von `metrics.mysite.com` zu `mysite.omtrdc.net`), wird der Besucher-ID-Cookie gespeichert, da die Datenerfassungsdomäne nun mit der Domäne der Website übereinstimmt. Somit besteht zwar eine höhere Wahrscheinlichkeit, dass das Besucher-ID-Cookie gespeichert wird, es entsteht jedoch auch etwas Mehraufwand, da CNAME-Einträge konfiguriert und SSL-Zertifikate für Datenerfassungsserver verwaltet werden müssen.
 
 ### Cookies auf Mobilgeräten {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -68,7 +68,7 @@ Wenn Mobilgeräte anhand von Cookies nachverfolgt werden, können Sie den Ablauf
 
 Der Identitätsdienst ersetzt den bisher verwendeten Analytics-Besucher-ID-Mechanismus und ist für [!UICONTROL Heartbeat]-Videomessungen, Analytics für Target sowie zukünftige zentrale Dienste und Integrationen von Experience Cloud erforderlich.
 
-Die Produktdokumentation zu diesem Service finden Sie unter [Identitätsdienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/).
+Die Produktdokumentation zu diesem Service finden Sie unter [Identitätsdienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
 
 ## Mobile Geräte identifizieren
 
@@ -76,7 +76,7 @@ Die meisten Mobilgeräte akzeptieren Browser-Cookies. Wenn Geräte allerdings ke
 
 Adobe hat eine Reihe von HTTP-Abonnenten-ID-Headern identifiziert, über die die meisten Mobilgeräte eindeutig identifiziert werden können. Diese Header enthalten oftmals die Telefonnummer des Geräts (in Klartext- oder Hashform) oder andere IDs. Die meisten aktuellen Geräte verfügen über einen oder mehrere der Header, anhand derer das Gerät eindeutig identifiziert werden kann, und alle Adobe-Datenerfassungsserver verwenden diese Header dann automatisch anstelle einer Besucher-ID.
 
-In einer normalen Bildanforderung führt eine „1“ im Pfad (`/b/ss/rsid/1`) dazu, dass Adobe-Server ein GIF-Bild zurückgeben und versuchen, ein beständiges [!UICONTROL Besucher-ID]-Cookie (`AMCV_` oder `s_vi`) zu setzen. Wenn das Gerät allerdings basierend auf den HTTP-Headern als Mobilgerät erkannt wird, wird eine „5“ anstelle der „1“ übergeben. Dies gibt an, dass ein Bild im WBMP-Format zurückgegeben werden soll und dass unsere Liste mit bekannten Wireless-Headern (kein Cookie) zur Identifizierung des Geräts verwendet werden soll.
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Wenn das Gerät allerdings basierend auf den HTTP-Headern als Mobilgerät erkannt wird, wird eine „5“ anstelle der „1“ übergeben. Dies gibt an, dass ein Bild im WBMP-Format zurückgegeben werden soll und dass unsere Liste mit bekannten Wireless-Headern (kein Cookie) zur Identifizierung des Geräts verwendet werden soll.
 
 In der folgenden Tabelle wird die Reihenfolge der verwendeten ID-Methoden basierend auf dem Rückgabebild-Typwert („1“ oder „5“) im Pfad aufgeführt:
 
