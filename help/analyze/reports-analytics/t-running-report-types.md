@@ -4,7 +4,7 @@ title: Verschiedene Berichtstypen ausführen
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -59,7 +59,7 @@ t_reports_conversion_funnel.xml
 
 Um diesen Bericht auszuführen, wählen Sie einen Bericht aus, z. B. einen Seitenbericht ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-Siehe [Konversionsberichte](https://marketing.adobe.com/resources/help/de_DE/reference/reports_conversion.html), um eine Beschreibung anzuzeigen.
+Siehe [Konversionsberichte](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html), um eine Beschreibung anzuzeigen.
 
 ## Fallout-Bericht ausführen {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,7 +71,7 @@ t_reports_fallout.xml
 
  -->
 
-Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/fallout_flow.html) in Analysis Workspace an.
+Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
 
 1. Klicken Sie [!UICONTROL Adobe Analytics]in auf **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. Klicken Sie auf der [!UICONTROL Fallout Report] Seite auf **[!UICONTROL Launch the Fallout Report Builder]**.
@@ -85,16 +85,16 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://marketing.adobe.com/re
 
 >[!MORELIKETHIS]
 >
->* [Fallout-Bericht – Beschreibung](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-fallout.translate.html)
+>* [Fallout-Bericht – Beschreibung](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## Seitenflussbericht ausführen {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Seitenflussberichte zeigen die Reihenfolge an, in der Ihre Besucher auf Seiten zugreifen und auf Ihrer Website navigieren. Dieser Bericht bietet Antworten
 
-Sehen Sie sich die neue [Flussvisualisierung](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/flow.html) in Analysis Workspace an.
+Sehen Sie sich die neue [Flussvisualisierung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
 
-Führen Sie einen [Pfadbericht](https://marketing.adobe.com/resources/help/de_DE/reference/reports_paths.html) aus.
+Führen Sie einen [Pfadbericht](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-paths.html) aus.
 
 Klicken Sie beispielsweise auf **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://marketing.adobe.com/resources/help/de_DE/reference/reports_conversion_funnel.html).
+1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Marketingkanalbericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -132,7 +132,7 @@ t_reports_marketing_channel.xml
 
  -->
 
-Weitere Informationen finden Sie im [Marketingkanal](https://marketing.adobe.com/resources/help/de_DE/mchannel/index.html)-Hilfesystem.
+Weitere Informationen finden Sie im [Marketingkanal](/help/components/c-marketing-channels/analyze-mc.md)-Hilfesystem.
 
 ## Anomalieerkennungsbericht ausführen {#task_4808C96327354D789C075823F5C3A049}
 
@@ -144,13 +144,13 @@ t_anomaly_view.xml
 
  -->
 
-Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/anomaly_detection.html) in Analysis Workspace an!
+Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) in Analysis Workspace an!
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
->[!NOTE] Die Anomalieerkennung können Sie auch aus Projekten in Analysis Workspace ausführen. [Mehr …](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/anomaly_detection.html)
+>[!NOTE] Die Anomalieerkennung können Sie auch aus Projekten in Analysis Workspace ausführen. [Mehr …](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://marketing.adobe.com/resources/help/de_DE/sc/user/index.html#Setting_up_Anomaly_Detection).
+Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 Bei der Anomalieerkennung werden zwei Diagrammtypen angezeigt: Ein Zusammenfassungsdiagramm und Diagramme für individuelle Metriken. Diagramme für individuelle Metriken werden nur angezeigt, wenn mindestens eine Anomalie für diese Metrik erkannt wurde.
 
@@ -177,7 +177,7 @@ Bei der Anomalieerkennung werden zwei Diagrammtypen angezeigt: Ein Zusammenfassu
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Wenn die unteren Grenzen und der erwartete Wert identisch sind, beträgt die Abweichung in Prozent –100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Andernfalls ist die Abweichung in Prozent ((unterer Grenzwert – Istwert) / (erwarteter Wert – unterer Grenzwert)) * –100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Durch Klicken auf <span class="uicontrol">Anzeigen Segmente</span> wird die Segmentschiene eingeblendet, die es Ihnen ermöglicht, Segmente auf einen Anomalieerkennungsbericht anzuwenden. <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/"  > Weitere Informationen</a> zur Segmentierung. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Durch Klicken auf <span class="uicontrol">Anzeigen Segmente</span> wird die Segmentschiene eingeblendet, die es Ihnen ermöglicht, Segmente auf einen Anomalieerkennungsbericht anzuwenden. <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html"  > Weitere Informationen</a> zur Segmentierung. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Durch Klicken auf <span class="uicontrol">Metriken bearbeiten</span> können Sie Metriken auswählen und die Auswahl für Metriken aufheben, für die Sie Anomalien erkennen möchten. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -230,7 +230,7 @@ Sie richten die Anomalieerkennung unabhängig für jede Report Suite ein.
 
    ![](assets/ad_top_menu.png)
 
-   Weitere Informationen zum Erstellen und Verwalten von Segmenten erhalten Sie im [Leitfaden zur Analysesegmentierung](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/). 1. (Optional) Fügen Sie den Bericht zu den Favoriten hinzu oder setzen Sie ein Lesezeichen.
+   Weitere Informationen zum Erstellen und Verwalten von Segmenten erhalten Sie im [Leitfaden zur Analysesegmentierung](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html). 1. (Optional) Fügen Sie den Bericht zu den Favoriten hinzu oder setzen Sie ein Lesezeichen.
 1. (Optional) Ändern Sie das Enddatum des Anzeigezeitraums. Der Standardwert ist „Gestern“. 
 1. Sie können den Bericht nun interpretieren. [Anzeigen von Diagrammen zur Anomalieerkennung](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
@@ -248,7 +248,7 @@ reports_realtime.xml
 
 Bei der Echtzeitberichterstattung stehen zwei Hauptberichte zur Verfügung: ein Übersichtsbericht und ein Detailbericht. Sie bestehen jeweils aus mehreren Reportlets.
 
-Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-Referenzhandbuch](https://marketing.adobe.com/resources/help/de_DE/reference/index.html#RealTime_Reports_Configuration).
+Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-Referenzhandbuch](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 
@@ -259,7 +259,7 @@ Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-R
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report Suite auswählen</strong></td> 
-   <td class="chdesc stentry"> Zeigt die Report Suite an, die von diesem Echtzeitbericht behandelt wird. Informationen zum Ändern der Report Suite finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/reference/t_realtime_admin.html"  >Konfiguration von Echtzeitberichten </a>. </td> 
+   <td class="chdesc stentry"> Zeigt die Report Suite an, die von diesem Echtzeitbericht behandelt wird. Informationen zum Ändern der Report Suite finden Sie unter <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Konfiguration von Echtzeitberichten </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Zwischen Berichten wechseln</strong></td> 
