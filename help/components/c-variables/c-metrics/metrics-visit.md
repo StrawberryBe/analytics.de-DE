@@ -5,7 +5,7 @@ title: Besuch
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ Ein Besuch verläuft jedoch nicht unbedingt gleichzeitig mit einer Browsersitzun
 
 Beim Ende eines Besuchs laufen alle Variablen mit Besuchsablauf ab und werden nicht länger beibehalten. Die Metrik „Besuchnummer“ wird beim nächsten Besuch dieses Besuchers erhöht.
 
->[!NOTE] Wenn Sie Analytics als Quelle für die Berichterstellung für Adobe Target verwenden, schlagen Sie in der [!DNL Target]-Dokumentation unter [Minimieren zu hoher Besuchs- und Besucherzahlen in A4T](https://marketing.adobe.com/resources/help/de_DE/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) nach.
+>[!NOTE] Wenn Sie Analytics als Quelle für die Berichterstellung für Adobe Target verwenden, schlagen Sie in der [!DNL Target]-Dokumentation unter [Minimieren zu hoher Besuchs- und Besucherzahlen in A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) nach.
 
-Weitere Informationen finden Sie im Adobe Analytics-Implementierungshandbuch im Abschnitt zum [Identifizieren von Unique Visitors](https://marketing.adobe.com/resources/help/de_DE/sc/implement/visid_overview.html).
+Weitere Informationen finden Sie im Adobe Analytics-Implementierungshandbuch im Abschnitt zum [Identifizieren von Unique Visitors](https://docs.adobe.com/content/help/de-DE/analytics/technotes/visitor-identification.html).
 
 **Zeiträume**
 
