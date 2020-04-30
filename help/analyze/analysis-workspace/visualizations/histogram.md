@@ -3,7 +3,7 @@ description: Ein Histogramm ist ein neuer Visualisierungstyp in Analysis Workspa
 title: Histogramm
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ Wenn Sie die Einstellungen für Ihr Histogramm ändern möchten, klicken Sie auf
 | Startpaket | Bestimmt, mit welchem Paket das Histogramm beginnt. Die Standardeinstellung lautet 1. Sie können Startwerte von null bis unendlich festlegen, jedoch keine negativen Zahlen. |
 | Metrische Behälter | Hiermit können Sie die Anzahl der Datumsbereiche (Behälter) erhöhen/verringern. Maximal 50 Behälter sind möglich. |
 | Metrische Behältergröße | Hiermit können Sie die Größe der einzelnen Behälter festlegen. So könnten Sie zum Beispiel die Behältergröße von 1 Seitenansicht zu 2 Seitenansichten ändern. |
-| Zählmethode | Sie können [Besucher](https://marketing.adobe.com/resources/help/de_DE/reference/visitors.html), [Besuch](https://marketing.adobe.com/resources/help/de_DE/reference/metrics_visit.html) oder [Hit](https://marketing.adobe.com/resources/help/de_DE/reference/hit.html) auswählen, z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Hit. Für Hits wird „Vorkommen“ in der Freiformtabelle als Metrik der Y-Achse verwendet. |
+| Zählmethode | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Hit. Für Hits wird „Vorkommen“ in der Freiformtabelle als Metrik der Y-Achse verwendet. |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **Beispiele**:
 
@@ -54,4 +56,4 @@ Vorab erstellte Segmente, die in der Tabelle angezeigt werden, sind interne Segm
 
 ![](assets/prebuilt_segments.png)
 
-Weitere Möglichkeiten zum Verwalten von Freiform-Datentabellen und anderen Visualisierungen (wie zum Beispiel Datenaufschlüsselungen) finden Sie [hier](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/freeform-analysis-visualizations.html).
+Weitere Möglichkeiten zum Verwalten von Freiform-Datentabellen und anderen Visualisierungen (wie zum Beispiel Datenaufschlüsselungen) finden Sie [hier](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
