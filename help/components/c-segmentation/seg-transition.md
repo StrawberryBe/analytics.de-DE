@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 
 * Segmentierung in Analysis Workspace:
 
-   * Sie können [Segmente vergleichen](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segment-comparison.html).
-   * Verwenden Sie [Segmente als Dimensionen](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segments_as_dimensions.html) bei Vergleichen.
-   * Verwenden Sie Segmente in der [Fallout-Analyse](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+   * Sie können [Segmente vergleichen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Verwenden Sie [Segmente als Dimensionen](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html) bei Vergleichen.
+   * Verwenden Sie Segmente in der [Fallout-Analyse](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Alle Segmente gelten nun für alle Report Suites.
@@ -40,9 +40,9 @@ Weitere Details finden Sie im Beitrag [Verbesserung der Segmentierung in Adobe A
 
 Sie können wie folgt auf den Segment Builder zugreifen:
 
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
+* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
    oder
 
@@ -52,9 +52,9 @@ Sie können wie folgt auf den Segment Builder zugreifen:
 
 Sie können wie folgt auf den Segment-Manager zugreifen:
 
-* Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
+* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Klicken Sie dann auf **[!UICONTROL Segments]** oder
 
-* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
+* öffnen Sie einen vorhandenen Bericht und klicken Sie auf das Segmentsymbol ![](assets/segment_icon.png) im linken Navigationsmenü. Klicken Sie dann auf **[!UICONTROL Manage]** oder
 
 * drücken Sie an einer beliebigen Stelle die Schrägstrich-Taste (/) und suchen Sie nach Segment Manager.
 
@@ -74,7 +74,7 @@ Das Dropdown-Feld für die Report Suite wurde in die obere rechte Ecke jedes Ber
 
 **Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?**
 
-Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
+Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
 
 Administratoren können alle Segmente bearbeiten und Segmente für Gruppen und alle Personen der Organisation freigeben. [Mehr …](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
