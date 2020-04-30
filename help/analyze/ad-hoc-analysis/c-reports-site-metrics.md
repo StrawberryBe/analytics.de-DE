@@ -4,7 +4,7 @@ title: Site-Metrikberichte
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher 
 
 Metrikberichte zeigen einen  Trend über einen Zeitraum. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
 
-Die folgenden Site-Metrik-Berichte stehen im Menü [!UICONTROL Site-Metrik] zur Verfügung.
+The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
 
 ## Bericht „Seitenansichten“ {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +29,7 @@ c_reports_pageviews.xml
 
  -->
 
-Ein Trendbericht, der anzeigt, wie oft Ihre Webseiten im ausgewählten Zeitraum (Stunde, Tag, Woche, Monat, Quartal oder Jahr) angesehen wurden. Eine [!UICONTROL Seitenansicht] ist eher eine Anforderung eines ganzseitigen Dokuments als eines Elements einer Seite, wie es beispielsweise ein Bild oder ein Video ist. Wenn z. B. ein einzelner Benutzer während eines Besuchs 15 Seiten aufruft, werden 15 Seitenansichten gezählt. Wenn ein Benutzer die gleiche Seite dreimal während eines Besuchs aufruft, werden drei Seitenansichten gezählt. Anhand dieses Berichts können Sie Seitenansichten jeder Seite auf Ihrer Site sowie die Gesamtübersicht der Seitenansichten auf Ihrer gesamten Site zurückverfolgen.
+Ein Trendbericht, der anzeigt, wie oft Ihre Web-Seiten im ausgewählten Zeitraum (Stunde, Tag, Woche, Monat, Quartal oder Jahr) angesehen wurden. A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. Wenn z. B. ein einzelner Benutzer während eines Besuchs 15 Seiten aufruft, werden 15 Seitenansichten gezählt. Wenn ein Benutzer die gleiche Seite dreimal während eines Besuchs aufruft, werden drei Seitenansichten gezählt. Anhand dieses Berichts können Sie Seitenansichten jeder Seite auf Ihrer Site sowie die Gesamtübersicht der Seitenansichten auf Ihrer gesamten Site zurückverfolgen.
 
 ## Bericht „Besuche“ {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +41,7 @@ c_reports_visits.xml
 
  -->
 
-In „Marketing Reports and Analytics“ können Sie einen [!UICONTROL „Besuche“-Bericht] auf einer ausgewählten Seite ausführen. In Ad Hoc Analysis haben Sie die Möglichkeit, die Daten zu segmentieren, um bestimmte Seiten anzuzeigen.
+In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. In Ad Hoc Analysis haben Sie die Möglichkeit, die Daten zu segmentieren, um bestimmte Seiten anzuzeigen.
 
 ## Bericht „Unique Visitors“ {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +69,7 @@ c_reports_visitors.xml
 
  -->
 
-Der unten in der Tabelle angezeigte Gesamtwert ist die Summe aller Besuche im angegebenen Zeitraum und gibt nicht immer die Zahl der Unique Visitors wieder. Wenn Sie beispielsweise den Bericht [!UICONTROL Unique Visitors pro Tag] für einen Zeitraum von mehreren Tagen ausführen, kann der Gesamtwert rückkehrende Besucher umfassen, da derselbe Besucher möglicherweise am nächsten Tag zurückkehrt und erneut gezählt wird. Wenn Sie jedoch den Bericht [!UICONTROL Unique Visitors pro Monat] ausführen, spiegelt der Wert in der Spalte „Summe“ genau wider, wie viele individuelle Besucher während des Monats die Site aufsuchen.
+Der unten in der Tabelle angezeigte Gesamtwert ist die Summe aller Besuche im angegebenen Zeitraum und gibt nicht immer die Zahl der Unique Visitors wieder. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
 
 ## Bericht „Zeit pro Besuch“ {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +112,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-Den [!UICONTROL Bericht „Warenkorb“] können Sie zu folgenden Zwecken einsetzen:
+Sie können die folgenden [!UICONTROL Carts Report] Optionen verwenden:
 
 * Bestimmung von Mustern, Höhen und Tiefen in der Anzahl der auf Ihrer Site geöffneten Warenkorb.
 * Untersuchung bestimmter Zeiträume, um Einzelheiten zu den Metriken zu erkennen, die spezifisch zur Öffnung des Einkaufswagens beitrugen.
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Da jede Report Suite der Analysen unterschiedlich ist, wird dieses Berichtsset für jeden Kunden unterschiedlich eingesetzt. Ein [!UICONTROL benutzerspezifisches Ereignis] kann als Zähler verwendet werden, der angibt, wie oft ein Ereignis auftritt. Wenn Sie beispielsweise **[!UICONTROL event1]** (Ereignis1) auf die Zählung von Dokumentladungen einstellen, zeigt der Bericht [!UICONTROL „Benutzerspezifisches Ereignis“] die Gesamtanzahl der aufgetretenen Ereignisse (Ladevorgänge) an. Sie können mehrere benutzerspezifische Ereignisberichte verwenden.
+Da jede Report Suite der Analysen unterschiedlich ist, wird dieses Berichtsset für jeden Kunden unterschiedlich eingesetzt. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. Sie können mehrere benutzerspezifische Ereignisberichte verwenden.
 
 ## Konversionsberichte {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +159,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Metriken an, die Daten zu einem bestimmten First Touch- oder Last Touch-Kanal einblenden. In diesen Berichten können Sie einen Kanal unterteilen und die Details der einzelnen Kanäle anzeigen. Wenn Sie AdLens aktiviert haben, sehen Sie Classifications in Ihren Kanalberichten von „Marketing Reports and Analytics“.
+**[!UICONTROL First or Last Touch Channel Report]**: Zeigt Metriken an, die Daten zu einem bestimmten First Touch- oder Last Touch-Kanal einblenden. In diesen Berichten können Sie einen Kanal unterteilen und die Details der einzelnen Kanäle anzeigen. Wenn Sie AdLens aktiviert haben, sehen Sie Classifications in Ihren Kanalberichten von „Marketing Reports and Analytics“.
 
-**[!UICONTROL First Touch- oder Last Touch-Kanalbericht]**: Zeigt Details wie Seitennamen und verweisende Stellen an. Diese Informationen werden aus den Kanalwerten extrahiert, die Sie beim Konfigurieren von Regeln in der Option [!UICONTROL Den Kanalwert setzen auf] festgelegt haben. Kanaldetailberichte geben Ihnen die Möglichkeit, die Kanaldetailwerte vom Übersichtsbericht sorgfältig zu prüfen.
+**[!UICONTROL First or Last Touch Channel Detail Reports]**: Zeigt Details wie Seitennamen und Werber an, die aus den Kanal-Werten abgeleitet werden, die Sie bei der [!UICONTROL Set the channel's value to] Regelkonfiguration festgelegt haben. Kanaldetailberichte geben Ihnen die Möglichkeit, die Kanaldetailwerte vom Übersichtsbericht sorgfältig zu prüfen.
 
-Detailliertere Informationen zur Konfiguration des Marketingkanals in „Marketing Reports &amp; Analysen“ finden Sie im Hilfesystem zu [Marketingkanal](https://marketing.adobe.com/resources/help/de_DE/mchannel/index.html).
+Detailliertere Informationen zur Konfiguration des Marketingkanals in „Marketing Reports &amp; Analysen“ finden Sie im Hilfesystem zu [Marketingkanal](/help/components/c-marketing-channels/analyze-mc.md).
