@@ -2,16 +2,16 @@
 title: SSL-Zertifikatslizenzierung
 description: Zertifizierungsverfahren für kundenverwaltete Zertifikate
 translation-type: tm+mt
-source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # SSL-/TLS-Zertifikatlizenzierung
 
-Adobe empfiehlt, dass Sie Ihr Zertifikat ohne zusätzliche Kosten im Rahmen des [Adobe-Programms für verwaltete Zertifikate](https://marketing.adobe.com/resources/help/de_DE/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) verwalten.  Das Adobe-Programm für verwaltete Zertifikate ist vollständig automatisiert und stellt sicher, dass Zertifikate zeitnah erneuert werden, sodass abgelaufene Zertifikate keine Auswirkungen haben.
+Adobe empfiehlt, dass Sie Ihr Zertifikat ohne zusätzliche Kosten im Rahmen des [Adobe-Programms für verwaltete Zertifikate](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) verwalten. Das Adobe-Programm für verwaltete Zertifikate ist vollständig automatisiert und stellt sicher, dass Zertifikate zeitnah erneuert werden, sodass abgelaufene Zertifikate keine Auswirkungen haben.
 
-Wenn Sie das [Adobe-Programm für verwaltete Zertifikate](https://marketing.adobe.com/resources/help/de_DE/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL-/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
+Wenn Sie das [Adobe-Programm für verwaltete Zertifikate](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html) nicht verwenden möchten, sind Sie für die Bereitstellung eines SSL-/TLS-Zertifikats für Erstanbieter-Cookies verantwortlich.
 
 Bei Bereitstellung Ihres eigenen Zertifikats sind Sie dafür verantwortlich, diese SSL-Zertifikate zu kaufen und zu verwalten.  Ihr SSL-/TLS-Zertifikat muss eine unbegrenzte Server-Lizenz enthalten.
 
