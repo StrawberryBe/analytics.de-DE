@@ -3,7 +3,7 @@ description: Sie können damit in Adobe Analytics auf dieselbe Weise den Erfolg 
 title: Target – Steigerung und Konfidenz
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,16 +12,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Sie können damit in Adobe Analytics auf dieselbe Weise den Erfolg von Kampagnen bewerten, wie Sie es in der Vergangenheit in [!DNL Target Classic] getan haben.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Alle Berichte anzeigen]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics für Target]** > **[!UICONTROL Target-Aktivitäten]** .
+**[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
 
-Die Dokumentation zu Adobe Target enthält weitere Informationen zu [Lift](https://marketing.adobe.com/resources/help/de_DE/target/target/c_estimating_lift_in_revenue.html) und [Konfidenz](https://marketing.adobe.com/resources/help/de_DE/rec/c_Confidence_Level_and_Confidence_Interval.html).
+Die Dokumentation zu Adobe Target enthält weitere Informationen zu [Lift](https://docs.adobe.com/content/help/en/target/using/administer/preferences/estimating-lift-in-revenue.html) und [Konfidenz](https://docs.adobe.com/help/en/target/using/reports/settings/average-lift-bounds-and-confidence-interval.html).
 
 Lift und Konfidenz berechnen:
 
-1. Klicken Sie im Bericht **[!UICONTROL Zielaktivitäten]** auf eine Aktivität, damit die Details angezeigt werden.
-1. Wählen Sie unter „Berichtstyp“ **[!UICONTROL Lift und Konfidenz aus]**.
-1. Klicken Sie auf **[!UICONTROL Metriken anzeigen]**, um eine Metrik hinzuzufügen. Für diesen Berichtstyp kann nur eine Metrik hinzugefügt werden, weil sich die Bewertung eines Tests mit nur einer Metrik als Best Practice bewährt hat. Weitere Metriken führen zu Rauschen und verschlechtern das Signal des Tests.
-1. (Optional) Wählen Sie unter **[!UICONTROL Normalisierungsmetrik]** eine der folgenden Optionen aus: Besucher, Besuche oder Impressionen. In den meisten Fällen wird es sich um den Standardwert „Besucher“ handeln.
+1. In the **[!UICONTROL Target Activities]** report, click on an activity to bring up its details.
+1. Wählen Sie unter Berichtstyp **[!UICONTROL Lift and Confidence]**.
+1. Klicken Sie auf **[!UICONTROL Show Metrics]** , um eine Metrik hinzuzufügen. Für diesen Berichtstyp kann nur eine Metrik hinzugefügt werden, weil sich die Bewertung eines Tests mit nur einer Metrik als Best Practice bewährt hat. Weitere Metriken führen zu Rauschen und verschlechtern das Signal des Tests.
+1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. In den meisten Fällen wird es sich um den Standardwert „Besucher“ handeln.
 
 1. Der Bericht wird diese Metriken hinzufügen, einschließlich dem Verhältnis zwischen Metrik und Normalisierungsmetrik.
 
