@@ -3,7 +3,7 @@ description: Bei den Rechten für berechnete Metriken wird zwischen Benutzern de
 title: 'Berechnete Metriken: Rollenbasierte Rechte'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administrat
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Benutzer der Administratorebene</b> </td> 
-   <td colname="col02"> Administratoren können berechnete Metriken sowie <a href="https://marketing.adobe.com/resources/help/de_DE/reference/groups.html"  >Gruppen</a> erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
+   <td colname="col02"> Administratoren können berechnete Metriken sowie <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html"  >Gruppen</a> erstellen, um die Rechte von Benutzern zur Erstellung berechneter Metriken einzuschränken. </td> 
    <td colname="col2"> Können eine Freigabe für das gesamte Unternehmen, für Benutzergruppen und für einzelne Benutzer durchführen. </td> 
    <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>: Können ihre eigenen berechneten Metriken und die anderer Benutzer anzeigen/bearbeiten/löschen usw. <p> <span class="keyword">Ad Hoc Analysis</span> und <span class="keyword">Report Builder</span>: Können ihre eigenen berechneten Metriken und die, die für sie freigegeben wurden, anzeigen/bearbeiten/löschen usw. </p> </td> 
    <td colname="col4"> Können berechnete Metriken als autorisiert genehmigen. </td> 
