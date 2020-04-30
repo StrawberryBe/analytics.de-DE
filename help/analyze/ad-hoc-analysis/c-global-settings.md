@@ -3,7 +3,7 @@ description: Konfigurieren Sie die globalen Verhaltenseinstellungen. Sie können
 title: Einstellungen
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ Konfigurieren Sie die globalen Verhaltenseinstellungen. Sie können beispielswei
 
 Konfigurieren Sie die globalen Verhaltenseinstellungen. Sie können beispielsweise die Einstellungen zum automatischen Speichern sowie für Diagramme und Tabellen konfigurieren und die Schriftart und das Gebietsschema einstellen.
 
-Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Einstellungen]**, um die [!UICONTROL Globalen Einstellungen] aufzurufen.
+Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Settings]** , um Zugriff zu erhalten [!UICONTROL Global Settings].
 
 ## Registerkarte „Allgemeine Einstellungen“ – Definitionen {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Dateneinstellungen </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Wiederholte Instanzen zählen</span>: Gibt an, ob Instanzen in Berichten gezählt werden. Wenn mehrere sequentielle Werte für dieselbe Variable vorhanden sind, können Sie sie entweder als eine oder mehrere Instanzen der Variable zählen. </p> <p>Beispiel: Sie können wiederholte Seitenneuladungen anzeigen. Hierbei handelt es sich um die Anzahl an Neuladungen oder Aktualisierungen von Seiten während eines Besuchs. Mit dieser Option können Sie angeben, ob mehrere Treffer auf derselben Seite als ein Treffer oder mehrere Seitenansichten gezählt werden. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad Hoc</span> </span>: Hiermit legen Sie <span class="keyword">Ad Hoc</span> als einzige Datenquelle zur Berichterstellung fest. Diese Daten stammen aus Bildanfragen, die von Webseiten erzeugt wurden. </p> <p> <span class="uicontrol"> <span class="keyword">Data Sources</span></span>: Hiermit legen Sie fest, ob Daten, die aus anderen Adobe-Quellen oder benutzerspezifischen Datenquellen hochgeladen wurden, verwendet werden sollen. Diese Daten sind für Produkte in <span class="keyword">Experience Cloud</span> verfügbar. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/sc/datasources/index.html"  >Data Sources</a>. </p> <p> <span class="uicontrol"> Beides</span>: (Standard) Verwendet Daten von <span class="keyword">Ad Hoc Analysis</span> und anderen Datenquellen. </p> <p>Hinweis: Eine Änderung dieser Optionen kann zu Abweichungen in den Berichten zwischen den Daten von <span class="keyword">Ad Hoc Analysis</span> und den Daten von <span class="keyword">Marketing Reports and Analytics</span> führen. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Wiederholte Instanzen zählen</span>: Gibt an, ob Instanzen in Berichten gezählt werden. Wenn mehrere sequentielle Werte für dieselbe Variable vorhanden sind, können Sie sie entweder als eine oder mehrere Instanzen der Variable zählen. </p> <p>Beispiel: Sie können wiederholte Seitenneuladungen anzeigen. Hierbei handelt es sich um die Anzahl an Neuladungen oder Aktualisierungen von Seiten während eines Besuchs. Mit dieser Option können Sie angeben, ob mehrere Treffer auf derselben Seite als ein Treffer oder mehrere Seitenansichten gezählt werden. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad Hoc</span> </span>: Hiermit legen Sie <span class="keyword">Ad Hoc</span> als einzige Datenquelle zur Berichterstellung fest. Diese Daten stammen aus Bildanfragen, die von Webseiten erzeugt wurden. </p> <p> <span class="uicontrol"> <span class="keyword">Data Sources</span></span>: Hiermit legen Sie fest, ob Daten, die aus anderen Adobe-Quellen oder benutzerspezifischen Datenquellen hochgeladen wurden, verwendet werden sollen. Diese Daten sind für Produkte in <span class="keyword">Experience Cloud</span> verfügbar. Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/analytics/import/data-sources/datasrc-home.html"  >Data Sources</a>. </p> <p> <span class="uicontrol"> Beides</span>: (Standard) Verwendet Daten von <span class="keyword">Ad Hoc Analysis</span> und anderen Datenquellen. </p> <p>Hinweis: Eine Änderung dieser Optionen kann zu Abweichungen in den Berichten zwischen den Daten von <span class="keyword">Ad Hoc Analysis</span> und den Daten von <span class="keyword">Marketing Reports and Analytics</span> führen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Einstellungen für automatisches Speichern </p> </td> 
