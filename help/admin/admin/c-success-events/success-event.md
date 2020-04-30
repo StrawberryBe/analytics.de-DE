@@ -5,7 +5,7 @@ title: Übersicht über Erfolgsereignisse
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -18,9 +18,9 @@ Rufen Sie die Seite &quot;Erfolgsereignisse&quot;in den Report Suite-Einstellung
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Navigieren Sie zu [!UICONTROL Admin] > [!UICONTROL Report Suites]
-4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Einstellungen] bearbeiten > [!UICONTROL Konversion] > [!UICONTROL Erfolgsergebnisse].
-5. Suchen Sie nach dem gewünschten Ereignis und ändern Sie das Dropdown &quot; [!UICONTROL Individuelle Ereignis-Aufzeichnung] &quot;in &quot;Einmal pro Besuch  aufzeichnen&quot;oder &quot;Ereignis-ID [!UICONTROL verwenden&quot;].
+3. Navigieren zu [!UICONTROL Admin] > [!UICONTROL Report Suites]
+4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
+5. Suchen Sie das gewünschte Ereignis und ändern Sie die [!UICONTROL Unique Event Recording] Dropdownliste in [!UICONTROL Record Once Per Visit] oder [!UICONTROL Use Event ID].
 
 Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen Arten zählen beispielsweise:
 
@@ -32,11 +32,11 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 * **High Tech**: Download von White Papers, Gebotsanfragen, Formularausfüllung, Supportanfragen
 * **Automotive**: Leadeinsendung, Preisanfrage, Download von Broschüren
 
-Die Variable [s.events](https://marketing.adobe.com/resources/help/de_DE/sc/implement/events.html) definiert ein Erfolgsereignis.
+Die Variable [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
 
 ## Seite „Erfolgsereignisse“ – Beschreibungen {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
 Auf der Seite „Erfolgsereignisse“ können Sie die auf der Site verwendeten Ereignisvariablen konfigurieren. Sie können bis zu 1.000 Erfolgsereignisse hinzufügen. Die Ereignisse 81–1.000 sind nur bei H22-Code oder höher verfügbar.
 
