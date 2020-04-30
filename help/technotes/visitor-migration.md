@@ -5,7 +5,7 @@ title: Besuchermigration
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu ei
 
 Besuchermigration lässt Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
-* Wechsel von `2o7.net` auf `omtrdc.net` ([regionale Datenerfassung](https://marketing.adobe.com/resources/help/de_DE/whitepapers/rdc/)).
+* Wechsel von `2o7.net` auf `omtrdc.net` ([regionale Datenerfassung](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://marketing.adobe.com/resources/help/de_DE/mcvid/) und wechseln von einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext zu `2o7.net` oder `omtrdc.net` ([regionale Datenerfassung](https://marketing.adobe.com/resources/help/de_DE/whitepapers/rdc/)).
+* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) und wechseln von einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext zu `2o7.net` oder `omtrdc.net` ([regionale Datenerfassung](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Wechsel von `2o7.net` oder `omtrdc.net` zu einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.translate.html)).
+* Wechsel von `2o7.net` oder `omtrdc.net` zu einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html)).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
