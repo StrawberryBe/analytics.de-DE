@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Wenn sich in einer prop oder eVar E-Mail-Adressen, Adressen usw. befinden, könnten Sie die Daten bei der Erfassung mit einem Hash behandeln. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Wenn in Ihrem Land IP-Adressen als persönlich identifizierbare Informationen gelten, <a href="https://marketing.adobe.com/resources/help/de_DE/reference/exclude_IP.html"  >aktivieren Sie die IP-Verschleierung </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Wenn in Ihrem Land IP-Adressen als persönlich identifizierbare Informationen gelten, <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  >aktivieren Sie die IP-Verschleierung </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Sprechen Sie mit Ihrem Analytics-Administrator, um zu ermitteln, was Sie erfassen. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, welche Angaben als persönliche identifizierbare Informationen eingestuft werden. </li> 
     </ul> </td> 
@@ -45,7 +45,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie erstelle ich ein Analytics-Ziel in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> Siehe <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >Konfigurieren des Analytics-Ziels in AAM</a>. </td> 
+   <td colname="col2"> Siehe <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >Konfigurieren des Analytics-Ziels in AAM</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie lange dauert es nach dem Erstellen und Speichern eines Analytics-Ziels, bis Daten in meinen ausgewählten Report Suites angezeigt werden?</b> </p> </td> 
