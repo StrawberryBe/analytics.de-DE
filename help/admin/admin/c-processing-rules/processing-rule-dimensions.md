@@ -5,7 +5,7 @@ title: Für Verarbeitungsregeln verfügbare Dimensionen
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kontextdatenvariablen </p> </td> 
-   <td colname="col2"> <p>Benannte Variablen, die bei einem Hit versendet werden. </p> <p>Hinweis: Alle Daten, die in einer Kontextdatenvariablen enthalten sind, müssen in eine Berichterstellungsvariable kopiert werden, damit sie in einem Bericht angezeigt werden können. Kontextdatenvariablen sind in den Berichtsoberflächen nicht anzeigbar, auch nicht in den Clickstream-Daten-Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieren einer Kontextdatenvariable in eine eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Festlegen eines Ereignisses mit einer Kontextdatenvariablen </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/de_DE/sc/implement/context_data_variables.html"> Kontextdatenvariablen</a> </p> </td> 
+   <td colname="col2"> <p>Benannte Variablen, die bei einem Hit versendet werden. </p> <p>Hinweis: Alle Daten, die in einer Kontextdatenvariablen enthalten sind, müssen in eine Berichterstellungsvariable kopiert werden, damit sie in einem Bericht angezeigt werden können. Kontextdatenvariablen sind in den Berichtsoberflächen nicht anzeigbar, auch nicht in den Clickstream-Daten-Feeds. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Kopieren einer Kontextdatenvariable in eine eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Festlegen eines Ereignisses mit einer Kontextdatenvariablen </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Kontextdatenvariablen</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
