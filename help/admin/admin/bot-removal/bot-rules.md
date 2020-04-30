@@ -5,7 +5,7 @@ title: Übersicht über Bot-Regeln
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ Mit Bot-Regeln können Sie Traffic aus Ihrer Report Suite entfernen, der von bek
 
 Nach der Definition von Bot-Regeln wird aller eingehender Traffic mit den definierten Regeln abgeglichen. Traffic, der mit einer dieser Regeln übereinstimmt, wird nicht in der Report Suite erfasst und nicht in Traffic-Metriken berücksichtigt.
 
-Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, um Bot-Regeln zu aktualisieren oder hochzuladen. Wählen Sie die passende Report Suite aus und dann **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Bot-Regeln]**.
+To update or upload bot rules, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Wählen Sie die richtige Report Suite und gehen Sie dann zu **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
 Mit der Entfernung von Bot-Traffic werden das Traffic-Volumen und die Konversionsmetriken vermindert. Viele Kunden haben die Erfahrung gemacht, dass die Entfernung von Bot-Traffic zu höheren Konversionsraten und Anstiegen in anderen Usability-Metriken führt. Bevor Sie den Bot-Traffic entfernen, machen Sie Stakeholder darauf aufmerksam, damit diese die im Zuge der Änderung notwendigen Anpassungen an wichtige Kennzahlen vornehmen können. Wenn möglich, empfehlen wir, zunächst den Bot-Traffic aus einer kleinen Report Suite zu entfernen, um die potenziellen Auswirkungen abschätzen zu können.
 
@@ -24,12 +24,12 @@ Bot-Traffic-Daten werden in einem separaten Repository zur Anzeige in den Berich
 
 | Regeltyp | Beschreibung |
 |--- |--- |
-| Standard-IAB-Bot-Regeln | Wenn Sie [!UICONTROL IAB Bot-Filterungsregeln aktivieren] auswählen, wird die Liste „International Spiders &amp; Bots List“ von [IAB](https://www.iab.com) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen mindestens diese Option aus. |
+| Standard-IAB-Bot-Regeln | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. Die meisten Kunden wählen mindestens diese Option aus. |
 | Benutzerdefinierte Bot-Regeln | Sie können benutzerdefinierte Bot-Regeln festlegen und hinzufügen, die auf Benutzeragenten, IP-Adressen oder IP-Bereichen basieren. |
 
 ## Standard-IAB-Bot-Regeln
 
-Standard-IAB-Bot-Regeln können aktiviert werden, indem Sie das Kontrollkästchen [!UICONTROL IAB Bot-Filterungsregeln aktivieren] aktivieren. Diese Auswahl entfernt Bots in der Liste „International Spiders &amp; Bots List“ von IAB (International Advertising Bureau), um Bot-Traffic zu entfernen. IAB aktualisiert diese Liste monatlich.
+Standard-IAB-Bot-Regeln können durch Aktivieren des [!UICONTROL Enable IAB Bot Filtering Rules] Kontrollkästchens aktiviert werden. Diese Auswahl entfernt Bots in der Liste „International Spiders &amp; Bots List“ von IAB (International Advertising Bureau), um Bot-Traffic zu entfernen. IAB aktualisiert diese Liste monatlich.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -37,7 +37,7 @@ Adobe kann die detaillierte IAB-Bot-Liste nicht an Kunden weitergeben, aber Sie 
 
 ## Benutzerdefinierte Bot-Regeln
 
->[!Note]: In der Benutzeroberfläche können 500 Regeln manuell definiert werden. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
+>[!NOTE]: In der Benutzeroberfläche können 500 Regeln manuell definiert werden. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
 
 Mit benutzerspezifischen Bot-Regeln können Sie Traffic auf Grundlage selbst definierter Bedingungen filtern.
 
@@ -51,11 +51,11 @@ Für eine einzige Regel können mehrere Bedingungen definiert werden. Mehrere Be
 
 ### Benutzeragent
 
-Eine Benutzeragent-Bedingung prüft den Benutzeragentenwert, um zu sehen, ob dieser mit der angegebenen Zeichenfolge **[!UICONTROL beginnt]** oder diese **[!UICONTROL enthält]**. Wenn **[!UICONTROL enthält]** ausgewählt wurde, wird die Unter-Zeichenfolge zugewiesen, wenn sie an einer beliebigen Stelle im Benutzeragenten auftaucht.
+A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
 
-Optionale Werte können in die Liste **[!UICONTROL enthält nicht]** aufgenommen werden, um Werte zu definieren, die der Benutzeragent für eine erfolgreiche Übereinstimmung nicht enthalten darf. Sie können mehrere Werte spezifizieren, indem Sie einen Wert pro Zeile aufnehmen. Wenn der Benutzeragent die in der Übereinstimmungszeichenfolge spezifizierten Kriterien erfüllt, aber auch eine Zeichenfolge enthält, die auf der „enthält nicht“-Liste steht, wird er nicht als Übereinstimmung gewertet.
+Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. Sie können mehrere Werte spezifizieren, indem Sie einen Wert pro Zeile aufnehmen. Wenn der Benutzeragent die in der Übereinstimmungszeichenfolge spezifizierten Kriterien erfüllt, aber auch eine Zeichenfolge enthält, die auf der „enthält nicht“-Liste steht, wird er nicht als Übereinstimmung gewertet.
 
-Das Feld **[!UICONTROL enthält]** ist auf 100 Zeichen begrenzt. Die „enthält nicht“-Liste ist auf 255 Zeichen abzüglich eines Trennzeichens für jede neue Zeile begrenzt. (Dies entspricht der Anzahl der Zeichenfolgen – 1. Wenn Sie vier *enthält nicht*-Zeichenfolgen spezifizieren, werden drei Trennzeichen benötigt.) Bei allen Zeichenfolgen-Übereinstimmungen wird zwischen Groß- und Kleinschreibung unterschieden.
+The **[!UICONTROL contains]** field is limited to 100 characters. Die „enthält nicht“-Liste ist auf 255 Zeichen abzüglich eines Trennzeichens für jede neue Zeile begrenzt. (Dies entspricht der Anzahl der Zeichenfolgen – 1. Wenn Sie vier *enthält nicht*-Zeichenfolgen spezifizieren, werden drei Trennzeichen benötigt.) Bei allen Zeichenfolgen-Übereinstimmungen wird zwischen Groß- und Kleinschreibung unterschieden.
 
 ### IP-Adresse (inklusive Wildcard-Übereinstimmungen)
 
@@ -72,9 +72,9 @@ Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Ersetzen 
 
 ### Definieren einer benutzerdefinierten Bot-Regel
 
-1. Wechseln Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, wählen Sie eine oder mehrere Report Suites aus und klicken Sie auf **[!UICONTROL Allgemein]** > **[!UICONTROL Bot-Regeln]**.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und definieren Sie eine oder mehrere Übereinstimmungsbedingungen.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Änderung sollte binnen 30 Minuten in Kraft treten.
+1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, wählen Sie eine oder mehrere Report Suites aus und klicken Sie auf **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
+1. Klicken Sie auf **[!UICONTROL Save]**. Die Änderung sollte binnen 30 Minuten in Kraft treten.
 
 ## Hochladen von Bot-Regeln
 
@@ -106,11 +106,11 @@ Um eine Übereinstimmung für einen Bot mithilfe einer ODER-Kombination aus Rege
 
 ### Überschreiben aller Regeln mit einer hochgeladenen Datei
 
-Aktivieren Sie das Kontrollkästchen **[!UICONTROL Bestehende Regeln überschreiben]**, um alle bestehenden Regeln zu löschen und sie durch die in der hochgeladenen Datei definierten Regeln zu ersetzen.
+Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
 
 ### Exportieren von Regeln
 
-Über die Schaltfläche **[!UICONTROL Hochgeladene Bot-Datei exportieren]** werden alle in der Benutzeroberfläche definierten Regeln in ein CSV-Format exportiert.
+The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
 
 ## Auswirkung von Bot-Regeln auf die Datenerfassung {#section_F01A3130E7A04A9993371CF26F6586F2}
