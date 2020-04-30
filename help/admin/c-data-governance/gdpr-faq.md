@@ -3,7 +3,7 @@ description: 'null'
 title: Häufig gestellte Fragen
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Was sollten die Datenverantwortlichen bei der Datenaufbewahrung bezüglich des Datenschutzes beachten?</b> </p> </td> 
-   <td colname="col2"> <p>Datenschutz sieht generell vor, dass persönliche Daten nicht länger als nötig aufbewahrt werden, um den Zweck zu erfüllen, für den sie erfasst wurden. </p> <p>Wie Adobe in der Kundenkommunikation im Februar detailliert mitgeteilt hat, werden wir für die meisten Kunden einen 25-monatigen Datenaufbewahrungsplan anwenden, sofern keine anderen Vereinbarungen getroffen wurden (gemäß Kundenbenachrichtigung und -autorisierung). Kunden müssen ihre Datenspeicherungsrichtlinien festlegen, bevor Adobe Datenschutzanfragen bearbeiten kann. </p> <p>Adobe Analytics fordert von den Kunden die Festlegung der Datenaufbewahrung für die Verarbeitung ihrer Datenschutzanfragen. Die aktuelle Datenhaltungsrichtlinie jeder Berichtssuite wird in der neuen Data Governance Admin-Benutzeroberfläche angezeigt. Kunden sollten sich an ihren Adobe-Support-Mitarbeiter wenden, wenn sie ihre Richtlinien zur Datenaufbewahrung anpassen möchten. Lesen Sie die Informationen unter <a href="https://marketing.adobe.com/resources/help/de_DE/reference/data-retention-client-table-faq.html">Häufig gestellte Fragen zur Datenaufbewahrung in Adobe Analytics. </a> </p> </td> 
+   <td colname="col2"> <p>Datenschutz sieht generell vor, dass persönliche Daten nicht länger als nötig aufbewahrt werden, um den Zweck zu erfüllen, für den sie erfasst wurden. </p> <p>Wie Adobe in der Kundenkommunikation im Februar detailliert mitgeteilt hat, werden wir für die meisten Kunden einen 25-monatigen Datenaufbewahrungsplan anwenden, sofern keine anderen Vereinbarungen getroffen wurden (gemäß Kundenbenachrichtigung und -autorisierung). Kunden müssen ihre Datenspeicherungsrichtlinien festlegen, bevor Adobe Datenschutzanfragen bearbeiten kann. </p> <p>Adobe Analytics fordert von den Kunden die Festlegung der Datenaufbewahrung für die Verarbeitung ihrer Datenschutzanfragen. Die aktuelle Datenhaltungsrichtlinie jeder Berichtssuite wird in der neuen Data Governance Admin-Benutzeroberfläche angezeigt. Kunden sollten sich an ihren Adobe-Support-Mitarbeiter wenden, wenn sie ihre Richtlinien zur Datenaufbewahrung anpassen möchten. Lesen Sie die Informationen unter <a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html">Häufig gestellte Fragen zur Datenaufbewahrung in Adobe Analytics. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kann ein Kunde die Standardzeitspanne für die Datenaufbewahrung reduzieren oder verlängern?</b> </p> </td> 
