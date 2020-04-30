@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,10 +15,10 @@ Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinie
 
 >[!IMPORTANT]
 >
->Im Juli 2018 hat Adobe die Funktion [Attribution IQ](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/attribution.html) eingeführt, mit der die Bewertung von Zuordnungsmodellen bei berechneten Metriken geändert wurde. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
+>Im Juli 2018 hat Adobe die Funktion [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) eingeführt, mit der die Bewertung von Zuordnungsmodellen bei berechneten Metriken geändert wurde. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
 >
 >* Die Zuordnungsmodelle „Marketing-Kanal – Letztkontakt“ und „Marketing-Kanal – Erstkontakt“ wurden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle sind nicht veraltet, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen.)
->* Darüber hinaus wurde die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an den berechneten Metriken betrifft [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], die Reporting-API, Report Builder und Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung ab 19. Juli 2018 funktioniert](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Darüber hinaus wurde die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung ab 19. Juli 2018 funktioniert](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Mit unseren Werkzeugen für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
@@ -44,12 +44,12 @@ Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berec
 
 Sie können
 
-* Metriken über [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] hinweg erstellen.
+* Erstellen Sie Metriken für [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection]und [!UICONTROL Contribution Analysis].
 * Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, [ohne die Implementierung ändern zu müssen](https://youtu.be/CuQTm9RaUpY). Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 * Metriken über Report Suites hinweg freigeben. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
 * (Nur erweiterte berechnete Metriken) Segmente für Metriken. Sie können beispielsweise eine Metrik für „Neue Besucher“ erstellen, mit der Personen gezählt werden, für die dies die erste Sitzung ist.
 * (Nur erweiterte berechnete Metriken) Statistische Funktionen miteinbeziehen, um Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
-* Metriken, die in [!UICONTROL Ad Hoc Analysis] erstellt wurden, in anderen [!DNL Analytics]-Werkzeugen verwenden und umgekehrt.
+* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
 
    >[!NOTE]
    >
@@ -59,18 +59,18 @@ Sie können
 
 Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berechneten Metriken verwenden:
 
-* [!UICONTROL Trichter] in [!UICONTROL Reports &amp; Analytics]
+* [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics]
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
-* [!UICONTROL Kohortenanalyse] in Analysis Workspace
+* [!UICONTROL Cohort Analysis] in Analyse Workspace
 * [!UICONTROL Data Warehouse]
-* [!UICONTROL Segmente]
-* [!UICONTROL Echtzeitberichte]
-* [!UICONTROL Aktuelle Datenberichte]
+* [!UICONTROL Segments]
+* [!UICONTROL Real-Time]Berichte 
+* [!UICONTROL Current Data]Berichte 
 * [!DNL Analytics] for [!DNL Target]
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Im Folgenden erhalten Sie einen kurzen Überblick über die Werkzeuge für [!UICONTROL berechnete Metriken]:
+Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
