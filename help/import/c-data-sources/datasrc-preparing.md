@@ -5,7 +5,7 @@ title: Vorbereiten auf die Verwendung von Data Sources
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Sie müssen die Metriken oder Messungen verstehen, die in den Datenquellen entha
 
 Nachdem Sie die entsprechenden Metrik-zu-Ereignis-Zuordnungen für die Data Sources-Daten bestimmt haben, benennen Sie die Ereignisse mit beschreibenden Namen für die zugeordnete Data Sources-Metrik um.
 
-Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/de_DE/reference/success_event.html) in der Hilfe der Admin Tools.
+Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe der Admin Tools.
 
 >[!NOTE] Adobe empfiehlt dringend den Einsatz von neuen, leeren Ereignissen mit Data Sources-Daten. In seltenen Fällen kann es sinnvoll sein, ein bereits bestehendes Ereignis zu verwenden.
 
@@ -44,7 +44,7 @@ Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben
 
 Wenn Sie eVars verwenden, können Sie entweder vorhandene eVars oder neue eVars als Datendimensionen verwenden. Stellen Sie nach Auswahl einer eVar für den Empfang einer Datendimension aus Data Sources sicher, dass Sie sie ordnungsgemäß benennen.
 
-Siehe [Erfolgsereignisse](https://marketing.adobe.com/resources/help/de_DE/reference/success_event.html) in der Hilfe zu Analytics.
+Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe zu Analytics.
 
 ## Kampagnen-Trackingcode {#section_468222796FF449ABAA90D88EB3264CB1}
 
