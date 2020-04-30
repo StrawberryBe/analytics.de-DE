@@ -4,7 +4,7 @@ title: Übersicht über Metriken
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -17,4 +17,4 @@ Metriken und die damit verbundenen Daten werden in den Spalten von Berichten ang
 
 Im Folgenden finden Sie eine Übersicht der [Standard-Analytics-Metriken](/help/components/c-variables/c-metrics/metrics-overview.md).
 
-[Berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/) werden durch die Kombination von Metriken erstellt.
+[Berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html) werden durch die Kombination von Metriken erstellt.
