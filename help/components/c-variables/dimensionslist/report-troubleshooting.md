@@ -5,7 +5,7 @@ title: Best Practices und Fehlerbehebung für Berichterstellung
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics bietet eine flexible Berichtsoberfläche, mit der Sie eine Vielzahl an komplexen Berichten generieren können. Während die meisten Berichte sehr schnell generiert werden, kann es bei manchen Berichten auch zu Timeouts oder Fehlern bei der Generierung kommen. Um Fehler bei der Berichtgenerierung zu vermeiden, werden in diesem Abschnitt zahlreiche Faktoren erläutert, die sich auf die Geschwindigkeit bei der Berichtgenerierung auswirken. Anhand dieser Informationen können Sie Berichte so strukturieren, dass Sie eher erfolgreich generiert werden können.
 
->[!Note]
+>[!NOTE]
 >Diese Empfehlungen gelten für Reports &amp; Analytics, Ad Hoc Analysis und Report Builder.
->Sie gelten nicht für Analysis Workspace, da es dafür eigene [Best Practices](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) gibt. Sie gelten auch nicht für die [Best Practices](https://marketing.adobe.com/resources/help/de_DE/reference/data_warehouse_bp.html) für Data Warehouse. Ein weiterer Satz
->[Best Practices](https://marketing.adobe.com/developer/de_DE/get-started/best-practices/c-best-practices) ist für die Reporting-API von Adobe Analytics verfügbar.
+>Sie gelten nicht für Analysis Workspace, da es dafür eigene [Best Practices](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) gibt. Sie gelten auch nicht für die [Best Practices](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html) für Data Warehouse. Ein weiterer Satz
+>[Best Practices](https://www.adobe.io) ist für die Reporting-API von Adobe Analytics verfügbar.
 
 ## Bericht-Timeouts und Anforderungswarteschlange {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
