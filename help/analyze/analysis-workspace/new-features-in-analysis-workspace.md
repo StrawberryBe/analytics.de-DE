@@ -5,7 +5,7 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ Am 13. September 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Neue Vorlage: Audionutzung</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="https://marketing.adobe.com/resources/help/de_DE/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audioanalysen</a>. </p> </td> 
+   <td colname="col2"> <p>Siehe <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Audioanalysen</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Beim Kopieren eines Projekts bzw. bei der Verwendung der Funktion „Speichern unter“ führten bisher alle im Projekt gespeicherten internen Links zum Originalprojekt und nicht zum kopierten Projekt. </p> <p>Die internen Links beziehen sich nach dem Kopieren/Speichern nun auf das Projekt, in dem sie sich befinden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Beitragsanalyse: <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/contribution/ca_main.html"  >Token-Benachrichtigung </a> </p> </td> 
+   <td colname="col1"> <p>Beitragsanalyse: <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >Token-Benachrichtigung </a> </p> </td> 
    <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung lautet „Anomalieerkennung und Beitragsanalyse“. Sie finden Sie unter <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span>.)  </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ Am 20. April 2017 veröffentlichte neue Funktionen.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Personenvorlage </a> </p> </td> 
-   <td colname="col2"> <p>Hinweis: Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von <a href="https://marketing.adobe.com/resources/help/de_DE/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a> verfügbar. </p> <p>Die Vorlage basiert auf der Metrik für Personen, die eine deduplizierte Version der Metrik „Unique Visitors“ darstellt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. </p> </td> 
+   <td colname="col2"> <p>Hinweis: Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a> verfügbar. </p> <p>Die Vorlage basiert auf der Metrik für Personen, die eine deduplizierte Version der Metrik „Unique Visitors“ darstellt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen an der Option zum Rückgängigmachen/Wiederherstellen </p> </td> 
@@ -973,7 +973,7 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
 
 Am 16. Juni 2016 veröffentlichte neue Funktionen:
 
-* [Neue Gruppenberechtigungen](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html) , die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > erlauben oder verweigern **[!UICONTROL Workspace]** . Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
+* [Neue Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) , die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > erlauben oder verweigern **[!UICONTROL Workspace]** . Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
 * Das [Bedienfeld „Segmentvergleich“](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) erkennt die meisten statistisch signifikanten Unterschiede zwischen zwei beliebigen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben.
 * [Neue Menüstruktur für „Projekte“](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), die das obere Menü neu gestaltet und erweiterbarer macht. Um z. B. ein **neues Kohorten-Bedienfeld** zu erstellen, muss jetzt ein leeres Bedienfeld erstellt werden, in dem eine Kohortentabellenvisualisierung abgelegt wird.
 * [Neue linke Leiste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Bedienfelder, Visualisierungen, Komponenten
