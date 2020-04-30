@@ -4,7 +4,7 @@ title: Berichtskategorien
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Ein Beispiel für einen Trendbericht ist der Produktbericht. Hier können Sie se
 Ein Summenbericht ist ein Bericht für Führungskräfte, der Ergebniszahlen anzeigt. Er enthält Daten zu Gesamtumsatz, Seitenansichten und Bestellungen. Sie können den Bericht segmentieren und ihm weitere Metriken hinzufügen, um weitere Daten anzuzeigen.
 Der Fluss zeigt die gängigsten Pfade, die Benutzer auf Seiten, in Sitebereichen und auf Servern nehmen.
 
-Informationen zur Fluss-Funktionsweise in Analysis Workspace finden Sie unter [Customer Journey – Fluss](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
+Informationen zur Fluss-Funktionsweise in Analysis Workspace finden Sie unter [Customer Journey – Fluss](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Nächster Fluss**
 
@@ -33,4 +33,4 @@ Die Berichtsgruppe „Nächster Fluss“ besteht aus drei Berichten: Nächster S
 **Vorheriger Fluss**
 
 Die Berichte „Vorheriger Fluss“ sind den Berichten „Nächster Fluss“ ähnlich; allerdings zeigen sie in diesem Fall nicht an, wohin der Besucher nach der jeweiligen Seite navigierte, sondern woher der Besucher kam. Die Steuerelemente für die Verwendung des Berichts sind identisch mit den Steuerelementen für die Berichte „Nächster Fluss“.
-Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (wo sie „ausgefallen“ sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Weitere Informationen finden Sie unter [Fallout](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/fallout_flow.html) in Analysis Workspace.
+Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (wo sie „ausgefallen“ sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Weitere Informationen finden Sie unter [Fallout](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace.
