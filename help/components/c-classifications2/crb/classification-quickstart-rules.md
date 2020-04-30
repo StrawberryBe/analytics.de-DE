@@ -5,7 +5,7 @@ title: Klassifizierungsregeln
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -51,11 +51,11 @@ about_classification_rules.xml
 * [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Informationen zur Regelpriorität](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] Der [!UICONTROL Rule Builder] unterstützt keine Numerisch 2 Classifications.
+>[!NOTE] Nummerisch-2-Klassifizierungen werden [!UICONTROL Rule Builder] nicht unterstützt.
 
 ## Wichtige Informationen zu Regeln
 
-* Legen Sie [Gruppenberechtigungen](https://marketing.adobe.com/resources/help/de_DE/reference/groups.html) für Classifications in den [!UICONTROL Admin Tools] fest.
+* Legen Sie [group permissions](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Klassifizierungsregeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
@@ -63,7 +63,7 @@ about_classification_rules.xml
 
    Beim Testen des Regelsatzes verwenden Sie Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu prüfen, wie sich der Regelsatz auf diese Schlüssel auswirkt. (Der [Schlüssel](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) ist die zu klassifizierende Variable oder die erste Spalte in der Classification-Upload-Tabelle.)
 
-* **Regelpriorität:** Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte [!UICONTROL Classification auswählen]), wird die jeweils letzte mit der Classification übereinstimmende Regel verwendet. Siehe [Informationen zur Regelpriorität](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **Regelpriorität**: Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der [!UICONTROL Set Classification] Spalte), wird die letzte mit der Classification übereinstimmende Regel verwendet. See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 * **Beschränkungen hinsichtlich der Regelanzahl:** Für die Anzahl der erstellbaren Regeln gelten keine Einschränkungen. Eine große Regelanzahl kann jedoch die Browserleistung beeinträchtigen.
 * **Verarbeitung**: Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
@@ -127,15 +127,15 @@ Zusammenhang zwischen dem regulären Ausdruck und der Kampagnen-ID:
 
 ![](assets/regex.png)
 
-[!UICONTROL Übereinstimmungsgruppen:] Zeigt, wie der reguläre Ausdruck den Zeichen der Kampagnen-ID entspricht, so dass Sie eine Position in der Kampagnen-ID klassifizieren können.
+[!UICONTROL Match Groups]: Zeigt, wie der reguläre Ausdruck den Zeichen der Kampagnen-ID entspricht, so dass Sie eine Position in der Kampagnen-ID klassifizieren können.
 
 ![](assets/regex_tracking_code.png)
 
 In diesem Beispiel gilt die Regel, dass sich das Kampagnendatum `20140601` in der dritten Gruppe `(.+)` befindet, identifiziert durch `$3`.
 
-**[!UICONTROL Regel-Builder]**
+**[!UICONTROL Rule Builder]**
 
-Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
+In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
@@ -161,9 +161,9 @@ Mit einem regulären Ausdruck können Sie beispielsweise ein bestimmes Zeichen i
 
 ![](assets/regex_char_position.png)
 
-**[!UICONTROL Regel-Builder]**
+**[!UICONTROL Rule Builder]**
 
-Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
+In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |--- |--- |--- |--- |
@@ -186,9 +186,9 @@ Beispielschlüssel:
 
 ![](assets/regex_varying_length.png)
 
-**[!UICONTROL Regel-Builder]**
+**[!UICONTROL Rule Builder]**
 
-Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
+In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |--- |--- |--- |--- |
@@ -261,7 +261,7 @@ https://rubular.com/ ist eine gute Ressource, mit der Sie die Gültigkeit regul�
 
 ## Informationen zur Regelpriorität
 
-Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification-Spalte festlegen (wie in der Spalte [!UICONTROL Classification auswählen] angegeben), wird die jeweils letzte Regel verwendet. Weisen Sie daher der wichtigsten Regel die letzte Stelle im Regelsatz zu.
+If a key is matched to multiple rules, and it sets the same classification column shown in the [!UICONTROL Set Classification] column, the last rule is used. Weisen Sie daher der wichtigsten Regel die letzte Stelle im Regelsatz zu.
 
 <!-- 
 
@@ -307,13 +307,13 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 >Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von  [Unter-Classifications](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/c-classifications2/crb/classification-rule-set.md).
-1. Klicken Sie auf der Regelsatzseite auf **[!UICONTROL Regel hinzufügen]**.
+1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
 
-1. Klicken Sie neben **[!UICONTROL Report Suites]** auf **[!UICONTROL Suites hinzufügen]** und wählen Sie mindestens eine Report Suite aus, die diesem Regelsatz zugeordnet werden soll.
+1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
 
-   Die Seite **[!UICONTROL Report Suites auswählen]** wird angezeigt.
+   Die **[!UICONTROL Select Report Suites]** Seite wird angezeigt.
 
    >[!NOTE]
    Report Suites werden *`only`* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:        >
@@ -321,7 +321,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    * Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
    (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *`Variable`* in den [Klassifizierungsregelsätzen](/help/components/c-classifications2/crb/classification-rule-set.md).)
 
-   * Sie haben die Report Suite auf der Seite **[!UICONTROL Verfügbare Report Suites]** ausgewählt, die angezeigt wird, wenn Sie auf [Regelsatz hinzufügen](/help/components/c-classifications2/crb/classification-rule-set.md) klicken, um den Regelsatz zu erstellen.
+   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
 
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
@@ -341,7 +341,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    >Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Klassifizierung festlegen (in der Spalte „Klassifizierung auswählen“), wird die jeweils letzte mit der Klassifizierung übereinstimmende Regel verwendet. Weitere Informationen zum Sortieren der Regeln finden Sie unter **Informationen zur Regelpriorität**.
 
 1. [Testen Sie den Regelsatz](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
-1. Klicken Sie nach Abschluss der Tests auf **[!UICONTROL Aktiv]**. Damit wird die Regel validiert und aktiviert.
+1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
 
    Beim Aktivieren einer Regel wird die Datei automatisch erstellt und hochgeladen.
 
@@ -358,23 +358,23 @@ t_classifications_test_rule.xml
 In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder einen Classification-Regelsatz testen. Im Rahmen des Tests werden alle Regeln innerhalb eines Satzes übeprüft.
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/c-classifications2/crb/classification-rule-set.md).
-1. Klicken Sie im [!UICONTROL Classification Rule Builder] auf den Namen des Regelsatzes.
+1. On the [!UICONTROL Classification Rule Builder], click the rule set name.
 1. Stellen Sie sicher, dass der Regelsatz einer Report Suite zugeordnet ist.
-1. Klicken Sie im Regeleditor auf **[!UICONTROL Testregelsatz]**.
+1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
 
    ![Schritt Ergebnis](assets/classification_test_rule_set.png)
 
-1. Geben oder fügen Sie Testschlüssel in das Feld [!UICONTROL Beispielschlüssel] ein.
+1. Type or paste test keys in the [!UICONTROL Sample Keys] field.
 
    Beispielschlüssel umfassen Folgendes:
 
    * Trackingcodes
    * Keywords oder Suchausdrücke
    Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md), um Informationen zum Testen von regulären Ausdrücken zu erhalten.
-1. Klicken Sie auf **[!UICONTROL Test ausführen]**.
+1. Klicken Sie auf **[!UICONTROL Run Test]**.
 
-   Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.
-1. (Optional) Klicken Sie auf **[!UICONTROL Aktivieren]**, um die Regel zu aktivieren und bestehende Klassifizierungen zu überschreiben.
+   Rules that match are displayed in the [!UICONTROL Results] table.
+1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
    Weitere Informationen zum Überschreiben vorhandener Klassifizierungen mithilfe von Regeln finden Sie hier.
 
@@ -389,11 +389,11 @@ t_validate_rules.xml
 In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren und aktivieren.
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/c-classifications2/crb/classification-rule-set.md) und [fügen Sie dem Satz dann Klassifizierungsregeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md) hinzu.
-1. Klicken Sie im Regeleditor auf **[!UICONTROL Aktivieren]**.
+1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) Wenn Sie Klassifizierungen überschreiben möchten, aktivieren Sie die Option **[!UICONTROL Überschreiben von Klassifizierungen für]** *`<selection>`*.
+1. (Optional) Um Classifications zu überschreiben, aktivieren Sie **[!UICONTROL Overwrite classifications for]***`<selection>`*.
 
    Mit dieser Option können Sie bestehende Classifications für die betroffenen Schlüssel überschreiben.
 
