@@ -3,7 +3,7 @@ description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 ### Personen
 
->[!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/de_DE/mcdc/mcdc-people.html) verfügbar.
+>[!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html) verfügbar.
 
 Diese Vorlage basiert auf der Metrik &quot;Personen&quot;, bei der es sich um eine deduplizierte Version der Metrik &quot;Individuelle Besucher&quot;handelt. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
