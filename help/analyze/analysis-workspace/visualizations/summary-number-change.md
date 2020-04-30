@@ -3,7 +3,7 @@ description: 'null'
 title: Sammelnummer und Sammeländerung
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * Wenn ein Zellbereich ausgewählt ist, wird die erste Zelle mit den letzten im Bereich ausgewählten Zellen verglichen.
 * Wenn die Spalte ausgewählt ist, wird der erste Wert mit sich selbst verglichen, sodass eine Änderung von 0 angezeigt wird.
 * Die grüne bzw. rote Farbgebung der Zusammenfassungsänderung kann durch Folgendes bestimmt werden:
-   * [Polarität benutzerspezifischer Ereignisse](https://marketing.adobe.com/resources/help/de_DE/reference/success_event.html).
-   * Option [Aufwärts-Trend anzeigen als](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/cm_build_metrics.html) einer berechneten Metrik.
+   * [Polarität benutzerspezifischer Ereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html).
+   * Option [Aufwärts-Trend anzeigen als](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) einer berechneten Metrik.
 
 ## Einstellungen zur Zusammenfassungsänderung {#section_2581AC0107634FB4990AB8347E5897AA}
 
