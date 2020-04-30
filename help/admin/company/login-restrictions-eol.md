@@ -1,21 +1,21 @@
 ---
-title: Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
-description: Erfahren Sie mehr über die Abschaffung und die Auswirkungen für die Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
+title: Ende der Lebensdauer für [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
+description: Erfahren Sie mehr über das Ende der Lebensdauer und die Auswirkungen auf [!UICONTROL Erzwingt IP-Anmeldebeschränkungen]
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
 
 ---
 
 
-# Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
+# Ende der Lebensdauer für [!UICONTROL Enforce IP login restrictions]
 
 Mit der Funktion **[IP-Anmeldebeschränkungen erzwingen](/help/admin/company/security-manager.md)**in Adobe Analytics können Sie bestimmte IP-Adressen (die als sicher gelten) auf eine Whitelist setzen, um eine erfolgreiche Anmeldung und den Zugriff auf Ihre Adobe Analytics-Umgebung zu ermöglichen. In vielen Fällen wird diese Funktion verwendet, um eine Unternehmens-IP-Adresse als einzige sichere IP-Adresse einzurichten, von der aus Benutzer sich anmelden können. Um Adobe Analytics verwenden zu können, müssen sich die Benutzer daher entweder in einem Unternehmensbüro befinden oder sich über VPN im Netzwerk anmelden.
 
-Wir planen, diese Funktion im Oktober 2020 abzuschaffen.
+Wir planen, diese Funktion im Januar 2021 zu beenden.
 
 ## Warum schaffen wir diese Funktion ab?
 
-Diese Funktion wird unter bestimmten Umständen durch die Migration der Experience Cloud-Anmeldung und/oder die Experience Cloud-Anmeldung beeinträchtigt. Es ist bekannt, dass sie bei Kunden mit **[!UICONTROL Kundenattributen]** oder **[!UICONTROL Zielgruppenbibliothek]** beeinträchtigt wird.
+Diese Funktion wird unter bestimmten Umständen durch die Migration der Experience Cloud-Anmeldung und/oder die Experience Cloud-Anmeldung beeinträchtigt. Es ist bekannt, dass es für Kunden, die **[!UICONTROL Customer Attributes]** oder **[!UICONTROL Audience Library]** verwenden, kaputt ist.
 
 Wenn Sie über mehrere Experience Cloud-Lösungen verfügen, können Sie diese Anforderung umgehen, indem Sie sich mit einer der anderen Lösungen bei der Experience Cloud anmelden, da diese Funktion außerhalb von Analytics selbst nicht vorhanden ist oder nicht unterstützt wird. Benutzer können dies auch über IP-Spoofing umgehen.
 
@@ -23,15 +23,15 @@ Schließlich verfügt Adobe über eine funktionierende und weit überlegene Alte
 
 ## Wie wirkt sich die Abschaffung dieser Funktion auf Sie aus?
 
-Für alle Kunden, die die Funktion **[!UICONTROL IP-Anmeldebeschränkungen erzwingen]** konfiguriert haben, wird diese Funktion im Oktober 2020 abgeschafft. Zu diesem Zeitpunkt werden noch festgelegte IP-Anmeldebeschränkungen nicht mehr erzwungen. Wenn Sie die Anmeldung weiterhin nach IP-Adresse beschränken müssen, sollten Sie die empfohlene Lösung für Single Sign-On und Federated IDs (weitere Informationen und Ressourcen unten) prüfen und implementieren.
+Für alle Kunden, die diese Funktion **[!UICONTROL Enforce IP login restrictions]** eingerichtet haben, wird diese Funktion im Januar 2021 entfernt. Zu diesem Zeitpunkt werden noch festgelegte IP-Anmeldebeschränkungen nicht mehr erzwungen. Wenn Sie die Anmeldung weiterhin nach IP-Adresse beschränken müssen, sollten Sie die empfohlene Lösung für Single Sign-On und Federated IDs (weitere Informationen und Ressourcen unten) prüfen und implementieren.
 
-Außerdem wird die Einstellung **[!UICONTROL IP-Anmeldebeschränkungen erzwingen]** unter **[!UICONTROLAAdmin > Unternehmenseinstellungen > Sicherheits-Manager]** in Analytics entfernt (siehe unten).
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
 
 ![](assets/sec-manager2.png)
 
 ## Welche anderen Optionen haben Sie?
 
-Wie oben erläutert, wird diese Analytics-Funktion abgeschafft. Damit Sie Zeit haben, SSO und Federated IDs zu implementieren, haben wir das Datum der Abschaffung auf Oktober 2020 verschoben.
+Wie oben erläutert, wird diese Analytics-Funktion abgeschafft. Damit Sie Zeit haben, SSO- und Federated IDs zu implementieren, haben wir das EOL-Datum auf Januar 2021 verschoben.
 
 Sowohl SSO als auch Federated IDs sind modernere und überlegene Lösungen für die IP-Anmeldebeschränkung und bieten Ihnen mehr Kontrolle und Sicherheit und mehr Funktionen. Informationen zum Einrichten von SSO/Federated IDs finden Sie in der folgenden Hilfedokumentation. Sie sollten sie gründlich lesen und mit Ihrer IT-Abteilung bei der Implementierung zusammenarbeiten:
 
