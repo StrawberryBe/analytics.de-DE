@@ -5,7 +5,7 @@ title: Classification Rule Builder-Workflow
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: f6b528f8a1b89a008a736fa62d58d6e83f13e4e4
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -33,8 +33,8 @@ Für die Implementierung von Klassifizierungsregeln gelten die nachfolgenden all
 
 | Schritt | Wo | Beschreibung |
 |--- |--- |--- |
-| Schritt 1 (Voraussetzung): [Klassifizierungsschema einrichten](https://marketing.adobe.com/resources/help/de_DE/reference/c_classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Einstellungen bearbeiten] > &lt;Traffic-Klassifizierungen oder Konversionsklassifizierungen> | Wählen Sie eine Variable aus und definieren Sie die für die Variable zu verwendenden Classifications. <br>Für Variablen muss mindestens eine Classification-Spalte erstellt werden, bevor sie in Regeln genutzt werden können.<br>Sobald Classifications aktiviert sind, können Sie den Importeur und den Rule Builder verwenden, um bestimmte Werte zu klassifizieren. |
-| Schritt 2: [Regelsatz erstellen](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL Admin] > [!UICONTROL Classification Rule Builder] > [!UICONTROL Regelsatz hinzufügen] | Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. |
+| Schritt 1 (Voraussetzung): [Klassifizierungsschema einrichten](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;Traffic-Classifications oder Konversion-Classifications> | Wählen Sie eine Variable aus und definieren Sie die für die Variable zu verwendenden Classifications. <br>Für Variablen muss mindestens eine Classification-Spalte erstellt werden, bevor sie in Regeln genutzt werden können.<br>Sobald Classifications aktiviert sind, können Sie den Importeur und den Rule Builder verwenden, um bestimmte Werte zu klassifizieren. |
+| Schritt 2: [Regelsatz erstellen](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. |
 | Schritt 3: Report Suites und Variablen konfigurieren. | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Wenden Sie den Regelsatz auf Report Suites und Variablen an. |
 | Schritt 4: [Klassifizierungsregeln zum Satz hinzufügen](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Ordnen Sie einer Classification eine Bedingung zu, und legen Sie die Aktion fest, die für die Regel ausgeführt werden soll.  Machen Sie sich mit den Informationen unter [Verarbeitung der Regeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md) vertraut. |
 | Schritt 5: [Testen eines Klassifizierungsregelsatzes](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Zum Testen der Regeln im Rahmen der Validierung bearbeiten Sie die Regeln im Entwurfsmodus. Im Entwurfsmodus können keine Regeln ausgeführt werden.<br>Dieser Schritt ist bei der Verwendung [regulärer Ausdrücke](/help/components/c-classifications2/crb/classification-quickstart-rules.md) wichtig. |
@@ -49,4 +49,4 @@ Für die Implementierung von Klassifizierungsregeln gelten die nachfolgenden all
 
 **Blog**: Weitere Informationen zu dieser Funktion finden Sie im Digital Marketing Blog: [Regelbasierte Klassifizierungen](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29).
 
-**Video**: Auf [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) können Sie sich das Video [!UICONTROL Klassifizierungsübersicht] ansehen.
+**Video**: Besuchen Sie [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) zur Ansicht des [!UICONTROL Classifications Overview] Videos.
