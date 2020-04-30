@@ -3,7 +3,7 @@ description: Sie können die zusätzlichen Funktionen der Integration nutzen, so
 title: Verwenden der Integration
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ Sie können beispielsweise ein Segment erstellen, das nur Besuche von KMU-Organi
 
 Zielgruppe ist KMU.
 
-Weitere Informationen zum Erstellen von Segmenten finden Sie im [Analytics-Segmentierungshandbuch](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
+Weitere Informationen zum Erstellen von Segmenten finden Sie im [Analytics-Segmentierungshandbuch](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
 
 Dieses Segment kann dann auf praktisch jeden Bericht angewendet werden. Ein Beispiel dafür ist der hier angezeigte „Time Spent per Visit Report“ (Bericht über die pro Besuch verbrachte Zeit): ![](assets/segment_applied_report.png)
