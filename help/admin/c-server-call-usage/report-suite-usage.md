@@ -3,7 +3,7 @@ description: Die Registerkarte „Nutzung der Report Suite“ bietet Daten über
 title: Anzeigen der Nutzung der Report Suite
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Nutzung der Server-Aufrufe]** > **[!UICONTROL Nutzung der Report Suite]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
 
 >[!IMPORTANT]
 >
->Falls eine Report Suite nicht mit einer [Experience Cloud-Organisation verbunden ist](https://marketing.adobe.com/resources/help/de_DE/mcloud/report-suite-mapping.html), werden ihre Nutzungsdaten nicht im Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen zusammenhängen. Das Verhältnis zwischen einer Organisation und einer Abrechnungs-ID ist nicht immer 1:1.
+>Falls eine Report Suite nicht mit einer [Experience Cloud-Organisation verbunden ist](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html), werden ihre Nutzungsdaten nicht im Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen zusammenhängen. Das Verhältnis zwischen einer Organisation und einer Abrechnungs-ID ist nicht immer 1:1.
 
 Das Dashboard zur Nutzung der Report Suite
 
@@ -24,7 +24,7 @@ Das Dashboard zur Nutzung der Report Suite
 * Zeigt den Anteil der Gesamtnutzung pro Server-Aufruf-Kategorie an.
 * Wird täglich aktualisiert.
 * Kann heruntergeladen werden.
-* Lässt Sie auf die Benutzeroberfläche **[!UICONTROL Warnhinweise verwalten]** zugreifen.
+* Ermöglicht den Zugriff auf die **[!UICONTROL Manage Alerts]** Benutzeroberfläche.
 
 ![](assets/report-suite-usage.png)
 
@@ -43,7 +43,7 @@ Das Dashboard zur Nutzung der Report Suite
 Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der aktuellen Nutzungsperiode herunterladen (bis Januar 2015). Der Bericht wird als .csv-Datei heruntergeladen.
 
 1. Wählen Sie mindestens eine Report Suite aus.
-1. Klicken Sie auf **[!UICONTROL Bericht herunterladen]**.
+1. Klicken Sie auf **[!UICONTROL Download Report]**.
 
    ![](assets/download_report.png)
 
@@ -54,7 +54,7 @@ Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der ak
 | Enthaltene Aufrufarten | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Primär mobil, Sekundär mobil. |
 | Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder selbst einen Zeitraum definieren.  Wenn Sie selbst einen Zeitraum definieren möchten, dann geben Sie bitte einen Beginn des Zeitraums und ein Ende des Zeitraums ein. <br>**Hinweis:**Sie können keine Nutzungsdaten herunterladen, die vor Januar 2015 aufgezeichnet wurden</br>. |
 
-1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
+1. Klicken Sie auf **[!UICONTROL Download]**.
 
 Im Folgenden finden Sie einen Screenshot, wie die heruntergeladene .csv-Datei aussieht. Sie enthält eine Spalte für die Report Suite-ID. Die Report Suite-ID gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach der Erstellung einer Report Suite nicht mehr geändert werden.
 
