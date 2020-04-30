@@ -4,7 +4,7 @@ title: Echtzeitberichte
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Sie haben folgende Möglichkeiten:
 * Verwenden Sie beliebige benutzerdefinierte Ereignisse, Warenkorbereignisse oder Instanzen.
 * Sie können sich bis zu 20 Stunden historische Echtzeitdaten anzeigen lassen.
 
-Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html) aktiviert.
+Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) aktiviert.
 
->[!NOTE] Die zuvor veröffentlichte Funktion &quot;Aktuelle Daten [!UICONTROL Real-Time Reports] [einschließen&quot;(Datenneuigkeit)](https://marketing.adobe.com/resources/help/de_DE/arb/options.html) ist nicht mit der Funktion identisch, wodurch die Latenz für den Standarddatumszeitraum reduziert wurde, indem Daten angezeigt wurden, bevor sie fertig gestellt wurden.
+>[!NOTE] Die zuvor veröffentlichte Funktion &quot;Aktuelle Daten [!UICONTROL Real-Time Reports] [einschließen&quot;(Datenneuigkeit)](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) ist nicht mit der Funktion identisch, wodurch die Latenz für den Standarddatumszeitraum reduziert wurde, indem Daten angezeigt wurden, bevor sie fertig gestellt wurden.
 
