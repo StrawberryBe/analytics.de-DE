@@ -4,7 +4,7 @@ title: Fallout
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,14 +21,14 @@ Dieser Bericht ist nützlich für die Überprüfung folgender Elemente:
 
 **Analysis Workspace**
 
-Siehe [Customer Journey – Fallout](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/fallout_flow.html).
+Siehe [Customer Journey – Fallout](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Reports and Analytics**
 
-Informationen zur Konfiguration finden Sie in der Hilfe unter [Ausführen eines Fallout-Berichts](https://marketing.adobe.com/resources/help/de_DE/sc/user/t_reports_fallout.html).
+Informationen zur Konfiguration finden Sie in der Hilfe unter [Ausführen eines Fallout-Berichts](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 **Ad Hoc Analysis**
 
 Sie können die Trichteranalysedaten auf Besuchs- oder Besucherebene analysieren. Gleichzeitig zeigt Ihnen der Pfad in der Trendansicht die Trichteranalyse über einen bestimmten Zeitraum. Sie können einzelne Seiten oder Seitengruppen bzw. beliebige Kombinationen oder Sequenzen von Dimensionen oder Metriken als Bericht-Checkpoints einrichten. Außerdem können Sie Kategorien, die Sie in Marketing-Berichten konfigurieren, als Checkpoints in Ihrem Bericht verwenden.
 
-Informationen zur Konfiguration finden Sie in der Hilfe unter [Fallout-Bericht](https://marketing.adobe.com/resources/help/de_DE/dsc/c_reports_fallout.html).
+Informationen zur Konfiguration finden Sie in der Hilfe unter [Fallout-Bericht](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html).
