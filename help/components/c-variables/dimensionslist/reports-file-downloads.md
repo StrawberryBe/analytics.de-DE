@@ -4,7 +4,7 @@ title: Dateiladungen
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **Navigation**
 
-**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Links]** > **[!UICONTROL Dateidownloads]**
+**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
 
 Wenn sich dieser Bericht nicht an der üblichen Stelle befindet, wenden Sie sich an einen Administrator. Möglicherweise wurde die Standardmenüstruktur den Anforderungen Ihrer Organisation entsprechend geändert.
 
@@ -33,8 +33,8 @@ Marketing-Berichte erfassen Informationen zu Dateien, die von Seiten Ihrer Websi
 
 1. Suchen Sie auf Ihrer Site die globale JavaScript-Datei. Die Datei trägt häufig den Namen [!DNL s_code.js]„, “, kann jedoch umbenannt worden sein. Wenn sie umbenannt wurde, können Sie die JavaScript-Dateien auf Ihrer Site nach dem Wert *`s.account`* durchsuchen, der Teil des JavaScript-Codes ist.
 
-1. Suchen Sie in der Datei die Variable [„s.trackDownloadLinks“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Stellen Sie sicher, dass die Variable auf *„True“* festgelegt ist.
+1. Suchen Sie in der Datei die Variable [„s.trackDownloadLinks“](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/config-vars/trackdownloadlinks.html). Stellen Sie sicher, dass die Variable auf *„True“* festgelegt ist.
 
-1. Suchen Sie die Variable [„s.linkDownloadFileTypes“](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Stellen Sie sicher, dass alle gewünschten Dateierweiterungen in der Liste enthalten sind. Fügen Sie ggf. fehlende Erweiterungen (wie [!DNL .zip], [!DNL .pdf] usw.) hinzu.
+1. Suchen Sie die Variable [„s.linkDownloadFileTypes“](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html). Stellen Sie sicher, dass alle gewünschten Dateierweiterungen in der Liste enthalten sind. Fügen Sie ggf. fehlende Erweiterungen (wie [!DNL .zip], [!DNL .pdf] usw.) hinzu.
 
-Wenn diese Variablen anscheinend richtig konfiguriert sind, der [!UICONTROL Download-Bericht] jedoch trotzdem keine Daten empfängt, sollte sich ein unterstützter Benutzer Ihrer Organisation an den Kundendienst wenden.
+If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
