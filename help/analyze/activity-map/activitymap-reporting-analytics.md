@@ -4,7 +4,7 @@ title: Activity Map – Berichterstattung in Analytics
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,12 +18,12 @@ Beschreibt, wie Berechtigungen festgelegt werden und welche Abmessungen in Analy
 Bevor Anwender Berichte zu Activity Map-Abmessungen erstellen können, müssen Sie als der Administrator
 
 * [Der Activity Map Access Group Anwender hinzufügen](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Report Suites hinzufügen, die auf diese Gruppe zugreifen können sollen. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Activity Map-Zugriff]** > **[!UICONTROL Bearbeiten]**.
+* Report Suites hinzufügen, die auf diese Gruppe zugreifen können sollen. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Activity Map Access]** > **[!UICONTROL Edit]**.
 * Den Anwenderzugriff auf Abmessungen anpassen. Weitere Informationen dazu finden Sie im unten stehenden Abschnitt.
 
 ## Analytics Activity Map-Abmessungen {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-Sie können den [Anwenderzugriff auf Abmessungen](https://marketing.adobe.com/resources/help/de_DE/reference/groups-dimensions.html) auf einer detaillierteren Ebene anpassen. In Analytics verfügbare Activity Map-Abmessungen:
+Sie können den [Anwenderzugriff auf Abmessungen](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) auf einer detaillierteren Ebene anpassen. In Analytics verfügbare Activity Map-Abmessungen:
 
 | Dimension | Beschreibung |
 |---|---|
@@ -34,7 +34,7 @@ Sie können den [Anwenderzugriff auf Abmessungen](https://marketing.adobe.com/re
 | Activity Map XY | Nicht verwendet |
 
 * Diese Abmessungen sollten in Analysis Workspace, Reports &amp; Analytics und Report Builder verfügbar sein, sofern Ihre Analytics-Implementierung [für Activity Map aktiviert ist](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Navigieren Sie in Reports &amp; Analytics zu **[!UICONTROL Alle Berichte anzeigen]** > **[!UICONTROL Activity Map]**.
+* Navigieren Sie in Reports &amp; Analysen zu **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
 
 * Um einen Link und eine Region für eine bestimmte Seite anzusehen, müssen Sie nur eine Aufschlüsselung auf der gewünschten Activity Map-Seite nach „Activity Map-Links und -Region“ erstellen.
 
