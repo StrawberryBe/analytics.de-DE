@@ -5,7 +5,7 @@ title: Webeigenschaft erstellen
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
 
->[!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://marketing.adobe.com/resources/help/de_DE/dtm/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
+>[!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
 
 Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
-Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://marketing.adobe.com/resources/help/de_DE/dtm/web_property.html) in der Produktdokumentation zu Dynamic Tag Management.
+Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) in der Produktdokumentation zu Dynamic Tag Management.
 
-1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
+1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -49,7 +49,7 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tbody> 
     </table>
 
-1. (Optional) Konfigurieren Sie [!UICONTROL Erweiterte Einstellungen].
+1. (Optional) Konfigurieren [!UICONTROL Advanced Settings].
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -82,4 +82,4 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tbody> 
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Eigenschaft erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Create Property]**.
