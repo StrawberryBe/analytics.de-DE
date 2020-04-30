@@ -4,7 +4,7 @@ title: Activity Map-Berichterstellung
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Administrative Schritte für die Aktivierung der Activity Map-Berichterstellung in Analytics
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map-Berichterstellung]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
 Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Benutzeraktivitäten sammeln. Durch diese Integration ist
 
 * die Berichterstellung in Analytics möglich.
-* Fügt neue Berichte hinzu unter **[!UICONTROL Alle Berichte anzeigen]** > **[!UICONTROL Activity Map:]**
+* Fügt neue Berichte hinzu unter **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
 
    | Bericht | Beschreibung |
    |---|---|
@@ -27,4 +27,4 @@ Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Ben
    | Activity Map-Links | Listet alle erfassten Links auf der gesamten Website auf. |
    | Activity Map-Links und -Region | Listet alle gesammelten Links mit ihrer Region innerhalb der gesamten Website auf. |
 
-Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung erfolgen, die Sie in der [Activity Map-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/analytics/activitymap/) finden.
+Damit Daten in diese Berichte eingespeist werden können, muss eine Implementierung entsprechend der Anleitung erfolgen, die Sie in der [Activity Map-Dokumentation](https://docs.adobe.com/content/help/de-DE/analytics/analyze/activity-map/activity-map.html) finden.
