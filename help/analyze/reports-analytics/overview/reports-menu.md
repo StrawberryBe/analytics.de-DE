@@ -3,7 +3,7 @@ description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten mö
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://marketing.adobe.com/resources/help/de_DE/reference/reports_descriptions.html).
+Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_build_ui.html"  >Segmentaufbau</a> und <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_manage.html"  >Segment-Manager</a> zugreifen. </td> 
+   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Segmentaufbau</a> und <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Segment-Manager</a> zugreifen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -107,7 +107,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1">Report Suite-Auswahl <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Hier können Sie <a href="https://marketing.adobe.com/resources/help/de_DE/reference/report_suites_admin.html"  >normale Report Suites</a> und <a href="https://marketing.adobe.com/resources/help/de_DE/reference/virtual-report-suites.html"  >Virtual Report Suites</a> auswählen. </td> 
+   <td colname="col2">Hier können Sie <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/report-suites-admin.html"  >normale Report Suites</a> und <a href="https://docs.adobe.com/help/de-DE/analytics/components/virtual-report-suites/vrs-about.html"  >Virtual Report Suites</a> auswählen. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Kalender <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 ## Anpassen des Menüs „Alle Berichte“{#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/customize-menus.translate.html) in der Admin-Hilfe.
+Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
