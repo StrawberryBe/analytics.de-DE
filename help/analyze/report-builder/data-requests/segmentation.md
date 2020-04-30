@@ -4,7 +4,7 @@ title: Segmente verwalten
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 >[!NOTE] Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [https://marketing.adobe.com/resources/help/de_DE/analytics/segment/](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
+1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [Analytics-Segmentierung](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
 1. Nachdem Sie das Segment definiert und gespeichert haben, gehen Sie zurück zum Anforderungs-Assistenten.
 1. Klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 
@@ -39,7 +39,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 
    ![](assets/seg_in_context.png)
 
-   Weitere Informationen zu Containern finden Sie unter [Segmentierungsleitfaden](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/).
+   Weitere Informationen zu Containern finden Sie unter [Segmentierungsleitfaden](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
 
 1. Die Segment-Builder-UI wird nun im Internet Explorer gestartet. Die Segment-Builder-UI wird mit dem von Ihnen festgelegten Container und Filter initialisiert.
 1. Nachdem Sie dem Segment einen Namen und eine Beschreibung hinzugefügt haben, speichern Sie es.
