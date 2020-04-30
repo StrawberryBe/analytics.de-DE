@@ -3,7 +3,7 @@ description: Neue Funktionen bei der Adobe Analytics-Segmentierung.
 title: Neue Funktionen bei der Analytics-Segmentierung
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
    <td colname="col2"> <p>In einem „Innerhalb“-Satz können Sie zwischen DANN-Anweisungen beispielsweise „innerhalb 1 Suchbegriffsinstanz“, „innerhalb 1 eVar 47-Instanz“ hinzufügen. Dadurch wird das Segment auf innerhalb einer Instanz einer Dimension beschränkt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/fallout_flow.html"  >Verwenden Sie Segmente in der Fallout-Analyse </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >Verwenden Sie Segmente in der Fallout-Analyse </a> </p> </td> 
    <td colname="col2"> <p>Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segmente als Touchpoints hinzufügen und wichtige Workflows über verschiedene Segmente hinweg vergleichen. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Segmentvergleich </p> </td> 
-   <td colname="col2"> <p> Der Bereich <a href="https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/segment-comparison.html"  >Segmentvergleich</a> (Segment-IQ) in Analysis Workspace ermöglicht Kunden einen schnellen Vergleich zwischen zwei beliebigen Analytics-Segmenten, um die wichtigsten Unterschiede für alle Datenpunkte festzustellen. </p> </td> 
+   <td colname="col2"> <p> Der Bereich <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >Segmentvergleich</a> (Segment-IQ) in Analysis Workspace ermöglicht Kunden einen schnellen Vergleich zwischen zwei beliebigen Analytics-Segmenten, um die wichtigsten Unterschiede für alle Datenpunkte festzustellen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Berechtigung <span class="wintitle">Segment erstellen</span> </p> </td> 
-   <td colname="col2"> <p>Ohne die <a href="https://marketing.adobe.com/resources/help/de_DE/reference/groups.html"  >Berechtigung Segment erstellen</a> haben Benutzer keinen Zugriff mehr auf den Segmentaufbau. </p> </td> 
+   <td colname="col2"> <p>Ohne die <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html"  >Berechtigung Segment erstellen</a> haben Benutzer keinen Zugriff mehr auf den Segmentaufbau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Neue Funktionen bei der Adobe Analytics-Segmentierung.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Änderungen an Berechtigungen im Segmentaufbau </p> </td> 
-   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://marketing.adobe.com/resources/help/de_DE/reference/groups.html"  > Mehr...</a> </p> </td> 
+   <td colname="col2"> <p>Der Admin-Benutzer kann festlegen, welche Benutzer neue Segmente erstellen dürfen. Standardmäßig darf jeder Benutzer Segmente erstellen. <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html"  > Mehr...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
