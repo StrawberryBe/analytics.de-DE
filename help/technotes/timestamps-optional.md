@@ -5,7 +5,7 @@ title: Verwendung von „Zeitstempel optional“
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der 
 
 >[!NOTE] Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
 
-Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://marketing.adobe.com/resources/help/de_DE/reference/timestamp-optional.html).
+Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/timestamp-optional.html).
 
 ## Zeitstempel optional: Integration von Daten mit und ohne Zeitstempel {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ Nachfolgend finden Sie Best Practices in Verbindung mit Zeitstempeln sowie einig
 
    Daten außerhalb der Reihenfolge können verspätet eintreffende Daten aus Offline-Datenerfassungen, verspätet eintreffende Treffer oder nicht synchronisierte Zeiten von Offline-Mobilgeräten sein. Diese nicht chronologischen Daten können Berechnungen (z. B. die Angabe der Dauer), Zuordnungen (eVar-Persistenz), Besucherzahlen und Pfadsetzungsberichte beeinträchtigen.
 
-* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://marketing.adobe.com/resources/help/de_DE/sc/implement/visid_custom.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
+* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://docs.adobe.com/content/help/de-DE/analytics/technotes/visitor-identification.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
 
 * Hybridanwendungen mit einer App (Offline-Daten mit Zeitstempel), die einen Webbrowser öffnet (Live-Daten ohne Zeitstempel), sollten keine Zeitstempel verwenden. Die Daten der Sitzung würden dadurch nicht korrekt gemeldet werden.
 
