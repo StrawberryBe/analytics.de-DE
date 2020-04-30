@@ -4,7 +4,7 @@ title: Pathing
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Eine Gruppe von auf Pfadanalysen basierenden Berichten. Technisch gesehen, sind Pfade die Navigation von einem Seitennamen zu einem anderen (von einem Wert zum nächsten).
 
-Verwenden Sie die [Flussfunktion in Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) für flexiblere Pfadoptionen.
+Verwenden Sie die [Flussfunktion in Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) für flexiblere Pfadoptionen.
 
->[!NOTE] Navigieren Sie zum Aktivieren von Pfaden zu **[!UICONTROL Admin > Report Suites > Einstellungen bearbeiten > Traffic > Traffic-Variablen]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
+>[!NOTE] Gehen Sie zu , um Pfade zu aktivieren **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Wenden Sie sich zum Aktivieren von Pfaden in den Sitebereichs- und Server-Berichten an die Kundenunterstützung.
 
 Wenn Sie die Reihenfolge benötigen, in der Werte erfasst werden, müssen Sie Pfade für die Variablenerfassung dieser Werte aktivieren. Pfade werden standardmäßig für Seiten aktiviert. Pfade werden nicht standardmäßig für Eigenschaften aktiviert, da dies nur in bestimmten Fällen angebracht ist. Wenden Sie sich an den Kundendienst, um Pfade für eine Eigenschaft zu aktivieren.
 
@@ -27,7 +27,7 @@ Mit dem Aktivieren von Pfaden für  *`s.channel`* die Variable können Sie verfo
 
 ![](assets/path_sections.png)
 
-Pfadsetzungen sind dann in unterschiedlichen Pfadberichten verfügbar, wie [!UICONTROL Bereichsfluss Nächste Site], in dem angezeigt wird, wie Besucher durch Seitengruppen oder Bereiche Ihrer Site navigieren.
+Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
 
 ![](assets/paths_report.png)
 
