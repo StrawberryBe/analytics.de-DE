@@ -4,7 +4,7 @@ title: Übersicht über das Anpassen von Berichten
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ Benutzerspezifische Berichte können nur durch Administratoren erstellt werden. 
 
 >[!MORELIKETHIS]
 >
->* [Menüanpassung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/customize-menus.translate.html)
+>* [Menüanpassung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Datum oder Datumsbereich auswählen {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 Datumsvergleiche aus Trendberichten sind nicht möglich.
 
->[!NOTE] Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mit zwei separaten Anforderungen in [Report Builder](https://marketing.adobe.com/resources/help/de_DE/arb/) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
+>[!NOTE] Wenn Sie einen Datumsvergleich bei Schlüsselmetriken in einem Dashboard durchführen möchten, können Sie die Daten mit zwei separaten Anforderungen in [Report Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/report-builder/home.html) übertragen. Dann können Sie benutzerdefinierte Formeln in Excel verwenden, um den Unterschied zwischen den beiden Werten zu analysieren.
 
 So führen Sie Datumsvergleiche zwischen Rangberichten in Reports &amp; Analytics aus:
 
@@ -218,4 +218,4 @@ Die meisten Berichte in Reports &amp; Analytics beinhalten jetzt die Schaltfläc
 
 Aktuell ist die Schaltfläche nur verfügbar, wenn Ihrem Benutzernamen vollständige Berechtigungen in Analysis Workspace zugewiesen sind.
 
-Weitere Informationen zu den Möglichkeiten, Ihren Bericht anzupassen, finden Sie im Handbuch zu [Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/).
+Weitere Informationen zu den Möglichkeiten, Ihren Bericht anzupassen, finden Sie im Handbuch zu [Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
