@@ -4,7 +4,7 @@ title: Segmente löschen
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,6 +24,6 @@ Wenn Sie ein Segment löschen, hat dies folgende Auswirkungen:
 
 ## Bearbeiten von eingebetteten gelöschten Segmenten in Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Mit Ad Hoc Analysis können Sie jetzt eingebettete gelöschte Segmente im [Generator für berechnete Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/) bearbeiten und eine „Speichern als“-Handlung an diesem Segment vornehmen.
+Mit Ad Hoc Analysis können Sie jetzt eingebettete gelöschte Segmente im [Generator für berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html) bearbeiten und eine „Speichern als“-Handlung an diesem Segment vornehmen.
 
 Alle anderen gelöschten Segmente, die auf das gelöschte Segment verweisen, bleiben jedoch unverändert.
