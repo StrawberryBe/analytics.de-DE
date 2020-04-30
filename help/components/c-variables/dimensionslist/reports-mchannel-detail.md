@@ -2,7 +2,7 @@
 title: Details zum Marketing-Kanal - First und Last Touch
 description: Weisen Sie Erfolgsmetriken und Umsatz verschiedenen Kanal-Details zu, unabhängig vom Kanal, in dem sie sich befinden.
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektiv
 
 * Dieser Bericht wird mit Regeln ausgeführt, die in Marketingkanälen definiert sind. Weitere Informationen finden Sie unter [Kanäle und Regeln](/help/components/c-marketing-channels/c-channels.md).
 
-   In diesem Bericht wird insbesondere der Teil **[!UICONTROL Den Kanalwert setzen auf]** in den einzelnen Regeln genutzt. Wenn Sie diese Regeln oder die Einstellung des Kanalwerts ändern, so ändert sich auch die Berechnung der Daten in diesem Bericht. Weitere Informationen finden Sie in den [häufig gestellten Fragen](/help/components/c-marketing-channels/c-faq.md) zu den Marketingkanal-Verarbeitungsregeln.
+   Insbesondere verwendet der Bericht den **[!UICONTROL Set the channel's value to]** Teil jeder Regel. Wenn Sie diese Regeln oder die Einstellung des Kanalwerts ändern, so ändert sich auch die Berechnung der Daten in diesem Bericht. Weitere Informationen finden Sie in den [häufig gestellten Fragen](/help/components/c-marketing-channels/c-faq.md) zu den Marketingkanal-Verarbeitungsregeln.
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ Diese Berichte zeigen, welche Kampagnen oder Keywords auf Ihrer Site am effektiv
    * Alle E-Commerce-Standardmetriken: Umsatz, Bestellungen, Einheiten, Warenkorb, Warenkorbansichten, Checkouts, Zusätze zum Warenkorb, Entnahmen aus Warenkorb.
    * Alle benutzerspezifischen Ereignisse: Ereignisse 1-80 und Ereignisse 81-100 bei H22-Code oder höher.
    * Besuche und Besucher: Die Verfügbarkeit hängt von der Organisation und der Report Suite ab. Weitere Details erfahren Sie von Ihrem Kundenbetreuer.
-   Weitere Informationen finden Sie unter [Metriken](https://marketing.adobe.com/resources/help/de_DE/mchannel/c_overview_metrics.html) in der [!UICONTROL Marketingkanal-Hilfe].
+   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
