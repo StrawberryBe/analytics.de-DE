@@ -4,7 +4,7 @@ keywords: privacy
 title: Datenschutzübersicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://marketing.adobe.com/resources/help/de_DE/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/de_DE/reference/index.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
