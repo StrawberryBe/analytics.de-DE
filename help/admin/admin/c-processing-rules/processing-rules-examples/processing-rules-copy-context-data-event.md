@@ -5,7 +5,7 @@ title: Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -20,7 +20,7 @@ Kontextdatenvariablen werden in AppMeasurement im folgenden Format spezifiziert:
  s.contextData['search_term']
 ```
 
-Die [!UICONTROL Kontextvariablenliste] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, diese aber nicht an die aktuelle Report Suite gesendet haben, können Sie einen Wert hinzufügen, indem Sie den Variablennamen eingeben und auf **[!UICONTROL Kontextdaten für Variablennamen hinzufügen]** klicken:
+The [!UICONTROL Context Variables] list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
 
 ![](assets/add-context-variable.png)
 
@@ -35,4 +35,4 @@ Beispiel:
 
 ![](assets/processing_rule_set_event.png)
 
-Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://marketing.adobe.com/resources/help/de_DE/sc/implement/context_data_variables.html) in der Implementierungshilfe.
+Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in der Implementierungshilfe.
