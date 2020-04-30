@@ -4,7 +4,7 @@ title: Berichtübersicht
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Wenn Sie „Marketing Reports and Analytics“ verwenden, werden Ihnen die Beric
 
 **Zusammenfassungsberichte**
 
-Enthält Berichte wie den [!UICONTROL Summenbericht], der Daten zur schnellen Übersicht anzeigt. Diese wurden für Führungskräfte konzipiert, die sich einen allgemeinen Überblick über die Daten verschaffen möchten.
+Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. Diese wurden für Führungskräfte konzipiert, die sich einen allgemeinen Überblick über die Daten verschaffen möchten.
 
 **Konversionsberichte**
 
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Diese Berichte werden in der Regel benutzerspezifisch angepasst und unterscheiden sich daher für jeden Analysten. Weitere Informationen dazu finden Sie in der Hilfe zu [!DNL Admin Console] unter [Campaign Manager](https://marketing.adobe.com/resources/help/de_DE/reference/campaign_manager_admin.html).
+Diese Berichte werden in der Regel benutzerspezifisch angepasst und unterscheiden sich daher für jeden Analysten. Weitere Informationen finden Sie in der Hilfe zur [Admin-Konsole](https://helpx.adobe.com/de/enterprise/using/admin-console.html) .
 
 ## Statistische Berechnungen {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +74,12 @@ Rangberichte können um weitere Standardstatistiken ergänzt werden, die beim Au
 
 **So öffnen Sie die Statistikberechnungen für Rangberichte:**
 
-1. Wählen Sie im Menü **[!UICONTROL Werkzeuge]** > **[!UICONTROL Rangansicht]**.
+1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
 
-1. Wählen Sie **[!UICONTROL Einstellungen]**.
-1. Wählen Sie **[!UICONTROL Standardstatistik]**.
+1. Auswählen **[!UICONTROL Settings]**.
+1. Auswählen **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL Nullen in statistischen Berechnungen sind zu ignorieren]**. Wählen Sie diese Option aus, um Nullen zu ignorieren und damit durch das Hinzufügen einer weiteren Metrik die bereits berechneten Durchschnittswerte nicht verändert werden. Diese Einstellung wirkt sich auf alle Statistiken aus (aber nicht auf die Summe).
+**[!UICONTROL Ignore zeros in statistical calculations]**. Wählen Sie diese Option aus, um Nullen zu ignorieren und damit durch das Hinzufügen einer weiteren Metrik die bereits berechneten Durchschnittswerte nicht verändert werden. Diese Einstellung wirkt sich auf alle Statistiken aus (aber nicht auf die Summe).
 
 | Berechnung | Beschreibung |
 |--- |--- |
@@ -141,7 +141,7 @@ c_overlay_calculations.xml
 
  -->
 
-In einem Bericht, der Zeitdaten darstellt, können Sie über die Schaltfläche **[!UICONTROL Statistiken]** Berechnungen auswählen, die als Überlagerung über der Zeitleiste des Berichts angezeigt werden.
+In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
 
 ![](assets/overlay_calculations.png)
 
@@ -149,7 +149,7 @@ Erweiterung der Standardfunktionen  [Statistische Berechnungen](/help/analyze/ad
 
 ## Gruppen-Manager {#concept_E1433974A61144858E87334C006982B2}
 
-Statt eine einzelne Seite in einem Bericht zu verwenden, können Sie mehrere Seiten gruppieren und sie als Kategorien für Start-, Zwischen- oder Endpunkte im Bericht [!UICONTROL Fallout] und [!UICONTROL Site-Analyse] verwenden. Sie können Gruppen vom Hauptmenü aus oder innerhalb des Berichts bearbeiten. Von Ihnen in „Marketing Reports and Analytics“ erstellte Kategorien erscheinen ebenfalls in der [!UICONTROL Checkpoint-Auswahl].
+Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Sie können Gruppen vom Hauptmenü aus oder innerhalb des Berichts bearbeiten. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Gruppen-Manager]**.
+Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
