@@ -3,7 +3,7 @@ description: Datenanomalien können kontextbezogen in Analysis Workspace angeze
 title: Übersicht über die Anomalieerkennung
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 * Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
-Sowohl die Anomalieerkennung als auch die [Beitragsanalyse](https://marketing.adobe.com/resources/help/de_DE/analytics/contribution/ca_main.html) sind zentrale Workflows in Analysis Workspace. Sie können Beitragsanalysen zu jeder beliebigen täglichen Anomalie ausführen und das Ergebnis in Ihr Analysis Workspace-Projekt einbetten.
+Sowohl die Anomalieerkennung als auch die [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) sind zentrale Workflows in Analysis Workspace. Sie können Beitragsanalysen zu jeder beliebigen täglichen Anomalie ausführen und das Ergebnis in Ihr Analysis Workspace-Projekt einbetten.
 
 Der Algorithmus der Analysis Workspace-Anomalieerkennung umfasst:
 
