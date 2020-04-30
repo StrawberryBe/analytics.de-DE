@@ -5,7 +5,7 @@ title: Ausführen eines Kohortenanalyseberichts
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -46,7 +46,7 @@ Erstellen Sie in Analysis Workspace eine Kohorte und führen Sie einen Kohortena
 
    Wählen Sie Zellen (zusammenhängend oder nicht zusammenhängend) und klicken Sie dann mit der rechten Maustaste auf > **[!UICONTROL Create Segment From Selection]**.
 
-1. In the [Segment Builder](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/seg_build.html), further edit the segment, then click **[!UICONTROL Save]**.
+1. In the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), further edit the segment, then click **[!UICONTROL Save]**.
 
    Das gespeicherte ist in Analysis Workspace im Bereich [!UICONTROL Segment]Segment für die Verwendung verfügbar.
 1. Geben Sie Ihrem Kohortenprojekt einen Namen und speichern Sie es.
