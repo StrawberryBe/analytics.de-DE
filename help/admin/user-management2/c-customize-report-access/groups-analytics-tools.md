@@ -6,7 +6,7 @@ title: Anpassen von Berechtigungen für Analytics-Tools
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, werden die Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** zurückgezogen.
+>Die Verwaltung von Benutzern und Produkten wurde in die [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verschoben. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** will be retired.
 
 Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Abrechnung, Protokolle usw.), Unternehmensverwaltung, Tools, Web-Services, Report Builder und die Data Connectors-Integration.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf alle Berichte]** > **[!UICONTROL Analytics-Tools]** > **[!UICONTROL Anpassen]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL All Report Access]** > **[!UICONTROL Analytics Tools]** > **[!UICONTROL Customize]**
 
 >[!NOTE] In der Herbstversion 2016 (20. Oktober) wurden neue Gruppenverwaltungsfunktionen eingeführt. Unter [Administrative Änderungen – Herbst 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) finden Sie eine Zusammenfassung der Neuheiten.
 
@@ -27,11 +27,11 @@ Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Abrechnung, Protokolle 
 
 ![](assets/report-access-analytics-tools.png)
 
-Klicken Sie auf **[!UICONTROL Anpassen]**, um Elemente auszuwählen, auf die die Gruppe Zugriff erhalten soll.
+Click **[!UICONTROL Customize]** to select items to which this group will have access.
 
 ## Feldbeschreibungen
 
-Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf der Seite „[!UICONTROL Benutzergruppe definieren]“ ausgewählt wurden.
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Element | Beschreibung |
 |--- |--- |
@@ -47,20 +47,20 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | **Unternehmensverwaltung** |  |
 | [Sicherheit](/help/admin/company/security-manager.md) | Gewährt Zugriff auf die Sicherheits-Manager-Seite, über die der Zugriff auf Berichtsdaten gesteuert wird. Zu den Optionen gehören sichere Passwörter, Passwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. |
 | Support-Info | Gewährt Zugriff auf die Supportinformationen in den Unternehmenseinstellungen. |
-| [Web-Services](/help/admin/company/web-services-admin.md) | Gewährt Zugriff auf die Web-Services-Seite in der Benutzeroberfläche der Admin Tools ([!UICONTROL Unternehmenseinstellungen] > [!UICONTROL Web-Services]).<br>Mit der Web Services API erhalten Sie programmatischen Zugriff auf Adobe Analytics-Dienste, mit denen Sie verfügbare Funktionen über die Benutzeroberfläche duplizieren und erweitern können. |
-| Single Sign-on (veraltet) | Gewährt Zugriff auf die Single Sign-on-Seite in den Admin Tools.<br>**Hinweis:**Single Sign-on wird in Adobe Experience Cloud mithilfe der[Kontoverknüpfung](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html)zwischen Experience Cloud und anderen Lösungen ermöglicht. |
-| [Ausstehende Aktionen](/help/admin/company/pending-actions-admin.md) | Ermöglicht die Bearbeitung ausstehender Aktionen in den [!UICONTROL Unternehmenseinstellungen]. |
+| [Web-Services](/help/admin/company/web-services-admin.md) | Ermöglicht den Zugriff auf die Seite &quot;Web-Services&quot;in der Oberfläche der Admin Tools ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>Mit der Web Services API erhalten Sie programmatischen Zugriff auf Adobe Analytics-Dienste, mit denen Sie verfügbare Funktionen über die Benutzeroberfläche duplizieren und erweitern können. |
+| Single Sign-on (veraltet) | Gewährt Zugriff auf die Single Sign-on-Seite in den Admin Tools.<br>**Hinweis:**Single Sign-on wird in Adobe Experience Cloud mithilfe der[Kontoverknüpfung](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/organizations.html)zwischen Experience Cloud und anderen Lösungen ermöglicht. |
+| [Ausstehende Aktionen](/help/admin/company/pending-actions-admin.md) | Grants permission to manage pending actions in [!UICONTROL Company Settings]. |
 | [Co-Branding](/help/admin/company/co-branding-admin.md) | Ermöglicht das Co-Branding von Analytics. |
-| [Voreinstellungen](/help/admin/admin/preferences-manager.md) | Ermöglicht Zugriff auf den [!UICONTROL Preference Manager]. |
+| [Voreinstellungen](/help/admin/admin/preferences-manager.md) | Grants permission to the [!UICONTROL Preference Manager]. |
 | [Report Suites ausblenden](/help/admin/company/c-hide-report-suites.md) | Erteilt die Berechtigung zum Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics. |
 | **Tools** | Mit diesen Einstellungen kann Zugriff auf Analytics-Tools (Oberflächen und Anwendungen) und erweiterte Funktionen wie Segmentierung und berechnete Metriken gewährt werden. |
-| [Aktuelle Daten](https://marketing.adobe.com/resources/help/de_DE/reference/data_latency.html) | Ermöglicht die Verwendung der Funktion „Aktuelle Daten“ für Berichte. |
-| [Ad Hoc Analysis-Lizenzanwender](https://marketing.adobe.com/resources/help/de_DE/dsc/) | Gewährt Zugriff auf [!UICONTROL Ad Hoc Analysis]. |
+| [Aktuelle Daten](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html) | Ermöglicht die Verwendung der Funktion „Aktuelle Daten“ für Berichte. |
+| [Ad Hoc Analysis-Lizenzanwender](https://docs.adobe.com/content/help/de-DE/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Grants permission to access [!UICONTROL Ad Hoc Analysis]. |
 | Zugriff auf Web Services | Ermöglicht Nichtadministratoren Zugriff auf Web-Services. Erstellt Anmeldedaten für Web-Services. |
-| [Report Builder](https://marketing.adobe.com/resources/help/de_DE/arb/setup.html) | Ermöglicht Mitgliedern der Gruppe Zugriff auf [!UICONTROL Report Builder]-Lizenzen. |
-| [Zugriff auf Analysis Workspace](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/) | Gewährt Benutzern Zugriff auf Analysis Workspace, die für [!DNL Adobe Analytics] empfohlene Berichtsschnittstelle. |
-| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/de_DE/sc/user/) | Gewährt Benutzern Zugriff auf Reports &amp; Analytics. |
-| [Erstellung berechneter Metriken](https://marketing.adobe.com/resources/help/de_DE/analytics/calcmetrics/) | Ermöglicht es Benutzern, berechnete Metriken zu erstellen. |
-| [Erstellung von Segmenten](https://marketing.adobe.com/resources/help/de_DE/analytics/segment/) | Ermöglicht es Benutzern, Segmente zu erstellen. |
+| [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Grants members of this group access to [!UICONTROL Report Builder] licenses. |
+| [Zugriff auf Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/analysis-workspace-features.html) | Gewährt Benutzern Zugriff auf Analysis Workspace, die für [!DNL Adobe Analytics] empfohlene Berichtsschnittstelle. |
+| [Reports &amp; Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | Gewährt Benutzern Zugriff auf Reports &amp; Analytics. |
+| [Erstellung berechneter Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html) | Ermöglicht es Benutzern, berechnete Metriken zu erstellen. |
+| [Erstellung von Segmenten](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html) | Ermöglicht es Benutzern, Segmente zu erstellen. |
 | **Data Connectors** |  |
 | Integrationen (erstellen, aktualisieren oder löschen) | Ermöglicht das Erstellen, Aktualisieren und Löschen von Data Connector-Integrationen. |
