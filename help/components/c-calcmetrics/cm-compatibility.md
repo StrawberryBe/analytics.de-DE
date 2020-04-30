@@ -3,7 +3,7 @@ description: Erläuterung der drei Produktkompatibilitätsoptionen.
 title: Metrikkompatibilität
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Sie eine berechnete oder erweiterte berechnete Metrik im Generator für ber
  <tbody> 
   <tr> 
    <td colname="col1"> Aktuelle Daten </td> 
-   <td colname="col2"> <p>Mit der Option „Aktuelle Daten einschließen“ in Analytics können Sie die jüngsten Analytics-Daten abrufen, und das häufig noch bevor die Daten vollständig verarbeitet und abgeschlossen sind. <a href="https://marketing.adobe.com/resources/help/de_DE/reference/data_latency.html"  > Die aktuellen Daten</a> zeigen die meisten Metriken in Minutenschnelle und liefern so relevante Daten für die rasche Entscheidungsfindung. </p> <p>Bei den aktuellen Daten werden nur berechnete Metriken (mit Multiplikation, Division, Addition und Subtraktion) unterstützt. Erweiterte berechnete Metriken (mit Segmenten oder statistischen Funktionen) werden von den aktuellen Daten nicht unterstützt. </p> </td> 
+   <td colname="col2"> <p>Mit der Option „Aktuelle Daten einschließen“ in Analytics können Sie die jüngsten Analytics-Daten abrufen, und das häufig noch bevor die Daten vollständig verarbeitet und abgeschlossen sind. <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > Die aktuellen Daten</a> zeigen die meisten Metriken in Minutenschnelle und liefern so relevante Daten für die rasche Entscheidungsfindung. </p> <p>Bei den aktuellen Daten werden nur berechnete Metriken (mit Multiplikation, Division, Addition und Subtraktion) unterstützt. Erweiterte berechnete Metriken (mit Segmenten oder statistischen Funktionen) werden von den aktuellen Daten nicht unterstützt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Vollständig verarbeitete Daten </td> 
