@@ -5,7 +5,7 @@ title: Neuerungen in Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -682,7 +682,7 @@ Am 20. Juli 2017 veröffentlichte neue Funktionen.
    <td colname="col2"> <p>Ermöglicht es Ihnen, die Schrifteinstellungen (fett, kursiv usw.) und den Hyperlink in Textfeldvisualisierungen und Bereichs-/Visualisierungsbeschreibungen zu ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-Linking (Links für schnelle Visualisierung) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-Linking (Links für schnelle Visualisierung) </a></b> </p> </td> 
    <td colname="col2"> <p><b>Intra-Linking</b> ermöglicht Ihnen, innerhalb eines Projekts von einem Textfeld aus Verknüpfungen zu bestimmten Bereichen und Visualisierungen anzulegen, beispielsweise zum Erstellen eines Inhaltsverzeichnisses für das Projekt. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Die neuen Rechtsklickoptionen „Bereichslink abrufen“ und „Visualisierungslink abrufen“ wurden hinzugefügt. </p> </td> 
   </tr> 
   <tr> 
@@ -978,7 +978,7 @@ Am 16. Juni 2016 veröffentlichte neue Funktionen:
 * [Neue Menüstruktur für „Projekte“](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), die das obere Menü neu gestaltet und erweiterbarer macht. Um z. B. ein **neues Kohorten-Bedienfeld** zu erstellen, muss jetzt ein leeres Bedienfeld erstellt werden, in dem eine Kohortentabellenvisualisierung abgelegt wird.
 * [Neue linke Leiste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Bedienfelder, Visualisierungen, Komponenten
 * Eine neue [Venn-Visualisierung](/help/analyze/analysis-workspace/visualizations/venn.md), in der Sie bis zu 3 Segmente und eine Metrik ablegen und ein Venn-Diagramm erstellen können.
-* [Trendauswahl](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (Liniendiagramm) für eine bewertete Tabelle ist jetzt verknüpft.
+* [Trendauswahl](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (Liniendiagramm) für eine bewertete Tabelle ist jetzt verknüpft.
 * [Symbol „Visualisierung erstellen“](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): Wenn Sie auf dieses Symbol klicken, versucht das System, Ihre nächste Aktion zu erraten (Balkendiagramm, Venn ...).
 * Erweiterte Funktion [Manuelle Zeilen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * Dropzone [Segment hinzufügen](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)
