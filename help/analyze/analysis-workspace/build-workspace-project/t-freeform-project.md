@@ -5,7 +5,7 @@ title: Workspace-Projekt erstellen
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -185,7 +185,7 @@ Im Kontextmenü (Rechtsklick) können Sie die folgenden Aktionen ausführen (abh
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > Trend-Auswahl</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > Trend-Auswahl</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
