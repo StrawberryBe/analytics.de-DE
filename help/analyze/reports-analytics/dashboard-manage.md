@@ -5,7 +5,7 @@ title: Dashboard-Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -70,7 +70,7 @@ Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freige
 
 Sie können vorhandene Legacy-Dashboards weiterhin ausführen, bearbeiten, herunterladen und planen. Neue Legacy-Dashboards können Sie jedoch nicht mehr erstellen. Wir empfehlen Ihnen dringend, vorhandene Legacy-Dashboards auf das neue Dashboard-Format zu aktualisieren.
 
->[!NOTE] Sie sollten zukünftig in Erwägung ziehen, [Analysis Workspace-Projekte](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/analysis-workspace-features.html) und ihre Möglichkeit zum Herunterladen und Planen zu nutzen.
+>[!NOTE] Sie sollten zukünftig in Erwägung ziehen, [Analysis Workspace-Projekte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) und ihre Möglichkeit zum Herunterladen und Planen zu nutzen.
 
 Beim Kopieren eines Legacy-Dashboards öffnet das System dieses zur Bearbeitung, wobei Sie Legacy-Inhalt oder neuen Inhalt hinzufügen können. Wenn Sie ein Legacy-Dashboard kopieren, bleibt das Original in der Liste der Legacy-Dashboards erhalten.
 
