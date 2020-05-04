@@ -1,102 +1,190 @@
 ---
-description: So sehen Ihre ersten Schritte mit Adobe Analytics aus.
 keywords: Analysis Workspace
-title: Handbuch „Erste Schritte“
+title: Analysis Workspace – Übersicht
+topic: Reports and analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
 
 ---
 
 
-# Analysis Workspace
+# Analysis Workspace – Übersicht
 
-Analysis Workspace ist eines der wichtigsten Werkzeuge von Adobe, mit dem Sie umsetzbare datenbasierte Entscheidungen für Ihr Unternehmen treffen können. Mit der am häufigsten verwendeten Visualisierung, der Freiformtabelle, können Sie ganz einfach benutzerspezifische Berichte mit Dimensionen, Metriken, Segmenten und Datumsbereichen erstellen.
+Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
 
-## Voraussetzungen
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-[Senden von Daten an Adobe Analytics mithilfe von Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md): Für die Verwendung von Analysis Workspace ist eine funktionierende Implementierung erforderlich. Vergewissern Sie sich, dass Ihr Unternehmen Daten an Adobe sendet, bevor Sie das Tool verwenden. Andere Implementierungen, wie DTM oder ältere manuelle Implementierungen, können ebenfalls funktionieren.
+## Überblickvideo
 
-## Abrufen eines einfachen Rangberichts in Workspace
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-Rufen Sie einen einfachen Rangbericht mithilfe von Analysis Workspace ab. Ein Rangbericht zeigt eine aggregierte Gesamtansicht jedes Dimensionswerts an, wobei die größten Werte zuerst angezeigt werden. Diese Berichtstypen sind nützlich, um zu sehen, welche Komponenten Ihrer Site am effektivsten sind, z. B. welche Seiten den meisten Traffic erhalten oder welche Produkte am häufigsten verkauft werden.
+Eine vollständige YouTube-Playlist ist [hier](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) verfügbar.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
-3. Klicken Sie in der oberen Navigationsleiste auf „Workspace“.
-4. Klicken Sie auf die Schaltfläche „Neues Projekt erstellen“.
-5. Stellen Sie im modalen Popup sicher, dass „Leeres Projekt“ ausgewählt ist, und klicken Sie dann auf „Erstellen“.
-6. Links sehen Sie eine Liste mit Dimensionen, Metriken, Segmenten und Datumsbereichen. Suchen Sie die Dimension „Seiten“ (orange) und ziehen Sie sie auf die Arbeitsfläche mit der Angabe „Dimension hier ablegen“.
-7. Beachten Sie, dass ein Bericht mit den wichtigsten Seiten für diesen Monat angezeigt werden kann, wenn die Report Suite über Daten verfügt. Analysis Workspace füllt den Bericht automatisch mit der Metrik [Vorfälle](/help/components/c-variables/c-metrics/metrics-occurrences.md).
-8. Suchen Sie die Metrik „Besuche“ (grün) und ziehen Sie sie entweder **über** oder **neben** die Kopfzeile der Metrik „Vorfälle“ (vermeiden Sie, sie über der Metrik zu platzieren). Wenn Sie die Metrik „Besuche“ über Vorfälle ziehen, wird die Metrik in den Berichten ersetzt. Wenn Sie die Metrik „Besuche“ neben „Vorfälle“ ziehen, werden beide Metriken nebeneinander angezeigt.
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+>[!NOTE]
+>
+>[Neuerungen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) enthält aktuelle Informationen zu Funktionen.
 
-## Abrufen eines einfachen Trend-Berichts in Workspace
+## Vollständige Kontrolle über Projektelemente und Komponenten
 
-Rufen Sie einen einfachen Trend-Bericht mit Analysis Workspace ab. Ein Trend-Bericht zeigt eine Zeitverlaufsansicht der Metriken unter Verwendung des ausgewählten Datumsbereichs an. Diese Berichtstypen sind nützlich, um Trends im Zeitverlauf zu identifizieren, und können zur Messung des Erfolgs oder Misserfolgs von Geschäftsentscheidungen verwendet werden. Sie könnten sich beispielsweise einen Trend-Bericht zu Seitenansichten im Lauf der Zeit ansehen, um festzustellen, ob eine Site-Umgestaltung dazu beigetragen hat, den Traffic zu erhöhen oder zu verringern.
+Der Analysis Workspace ermöglicht Unabhängigkeit und Flexibilität:
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
-3. Klicken Sie in der oberen Navigationsleiste auf „Workspace“.
-4. Klicken Sie auf die Schaltfläche „Neues Projekt erstellen“.
-5. Stellen Sie im modalen Popup sicher, dass „Leeres Projekt“ ausgewählt ist, und klicken Sie dann auf „Erstellen“.
-6. Links sehen Sie eine Liste mit Dimensionen, Metriken, Segmenten und Datumsbereichen. Suchen Sie die Dimension „Seitenansichten“ und ziehen Sie sie in den kleinen Bereich der Arbeitsfläche mit der Bezeichnung „Metrik hier ablegen“. Vermeiden Sie es (zumindest für diese Übung), ihn in dem für Dimensionen reservierten Bereich abzulegen.
-7. Beachten Sie, dass bei einer Report Suite mit Daten ein einfacher Trend-Bericht für die Seitenansichten im laufenden Monat angezeigt werden sollte. Analysis Workspace hat automatisch den Datumsbereich „Tag“ eingefügt, damit Sie den Trend der Seitenansichten für den aktuellen Monat sehen können.
-8. Suchen Sie links in der Liste der Datumsbereichskomponenten den Datumsbereich „Woche“ (violett). Klicken Sie auf den Titel des Datumsbereichs, um alle Komponenten des Datumsbereichs zu erweitern und anzuzeigen, oder verwenden Sie die Suchleiste.
-9. Ziehen Sie den Datumsbereich „Woche“ auf die Kopfzeile des Datumsbereichs „Tag“ auf der Arbeitsfläche, um ihn zu ersetzen.
-10. Beachten Sie, dass Ihr Trend-Bericht jetzt nach Woche statt nach Tag aggregiert wird.
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+* Drag-and-Drop von Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten)
+* Drag-and-Drop von mehreren Visualisierungen in das Projekt
+* Visualisierungen lassen sich in einem Projekt jederzeit verschieben, in der Größe verändern und stapeln
 
-## Mit dem Werkzeug experimentieren
+![](assets/fa_project_new.png)
 
-Da Analysis Workspace ein Berichtswerkzeug ist, hat dies keine Auswirkungen auf die Datenerfassung. Komponenten wahllos in ein Projekt zu ziehen, um zu sehen, was funktioniert, hat keine weiteren Folgen. Ziehen Sie verschiedene Kombinationen von Dimensionen und Metriken in Ihr Workspace-Projekt, um zu sehen, welche Möglichkeiten Sie haben.
+Weitere Informationen finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 
-Wenn Sie versehentlich eine ungültige Komponente in Ihr Workspace-Projekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg+Z (Windows) oder Befehl+Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+## Mehrere Visualisierungen in einem Projekt
 
-## Fehlerbehebung
+Erstellen Sie per Drag-and-Drop beliebig viele Visualisierungen in einem Projekt.
 
-**Wenn ich eine Metrik ziehe, wird die Meldung „Ungültige Daten“ angezeigt.**
+![](assets/visualizations-multiple.png)
 
-„Ungültige Daten“ bedeuten, dass Adobe keine Daten mit der Kombination von Dimensionen und Metriken zurückgeben kann, die im Bericht verwendet werden. Beispielsweise können zwei Metriken, die übereinander gestapelt sind, nicht als Daten zurückgegeben werden, da es nicht möglich ist, zwei Metriken in dieser Weise anzuzeigen. Platzieren Sie die Metriken stattdessen nebeneinander.
+Erstellen Sie ein Projekt, das den Prozentsatz der Veränderung zeigt, mit mehreren Visualisierungen, die den Zellen in einer Freiform-Datentabelle entsprechen.
 
-**Wenn ich eine Metrik ziehe, sehe ich keine tatsächlichen Daten - nur Nullen.**
+![](assets/visualizations-multiple02.png)
 
-Wenn Sie erfolgreich einen Workspace-Bericht erstellen, aber keine Daten vorhanden sind, können Sie einige Punkte prüfen:
+Weitere Informationen finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 
-* Überprüfen Sie die Report Suite und stellen Sie sicher, dass sie mit Daten gefüllt ist.
-* Wenn Sie ein Segment in Ihrem Bericht verwenden, stimmen die Segmentkriterien möglicherweise nicht mit den Daten überein. Versuchen Sie, das Segment zu entfernen oder die Segmentdefinition anzupassen.
-* Überprüfen Sie den Datumsbereich oben rechts und stellen Sie sicher, dass er auf einen erwarteten Wert eingestellt ist.
-* Navigieren Sie zu Ihrer Website und überprüfen Sie mit dem Debugger, ob Daten erfasst werden.
+## Intra-Linking zu Bereichen und Visualisierungen
 
-## Zusätzliche Ressourcen
+Mithilfe der [Rich-Text-Bearbeitungsfunktionen](/help/analyze/analysis-workspace/visualizations/text.md) von Analysis Workspace können Sie innerhalb eines Projekts von einem Textfeld aus Verknüpfungen zu bestimmten Bereichen und Visualisierungen anlegen, beispielsweise um das Inhaltsverzeichnis eines Projekts zu erstellen. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Die neuen Rechtsklickoptionen „Bereichslink abrufen“ und „Visualisierungslink abrufen“ wurden hinzugefügt. So fügen Sie Intra-Linking zu Ihrem Projekt hinzu:
 
-* [Versionshinweise zu Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): Lesen Sie die neuesten Funktionen, die in das Tool eingeführt wurden.
-* [Analysis Workspace auf YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): In dieser umfangreichen Playlist erfahren Sie, wie Sie die meisten Funktionen in Analysis Workspace verwenden.
-* Produktinterne Tipps: Tipps zum aktuellen Tag sowie kurze Videos werden gelegentlich in der unteren rechten Ecke von Analysis Workspace angezeigt. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
-* [Analysis Workspace-Community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): Diskutieren Sie mit anderen Benutzern über Analysis Workspace und wählen Sie die Funktionen, die Sie im Tool sehen möchten.
-* Blog-Beiträge:
-   * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) (Englisch)
-   * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/) (Englisch)
-   * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/) (Englisch)
-   * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Englisch)
-   * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) (Englisch)
+1. Ziehen Sie eine Textvisualisierung in ein Projekt, z. B. neben eine Visualisierung oder Tabelle, für die Kontext erforderlich ist.
+1. Füllen Sie das Textfeld z. B. mit einem Inhaltsverzeichnis und markieren Sie dann ein Element, das Sie mit einem Bereich oder einer Visualisierung verknüpfen möchten, z. B. Erfolgsmetriken.
 
-## Nächste Schritte
+   ![](assets/intra-linking1.png)
 
-Es gibt viele Ressourcen, mit deren Hilfe Sie Analysis Workspace besser verstehen können. Im Folgenden finden Sie einige Grundlagen, die Adobe empfiehlt:
+1. Scrollen Sie zu diesem Bereich bzw. zu dieser Visualisierung und klicken Sie mit der rechten Maustaste auf den Header des Bereichs.
+1. Blättern Sie nach unten und wählen Sie **[!UICONTROL Get Panel Link]** oder **[!UICONTROL Get Visualization Link]**:
 
-### Für Endbenutzer, die Kenntnisse zur Verwendung von Analysis Workspace erweitern möchten
+   ![](assets/intra-linking2.png)
 
-* [Details zur Workspace-Benutzeroberfläche](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): Nachdem Sie jetzt einen grundlegenden Bericht erstellt haben, sollten Sie sich mit dem Rest der Oberfläche vertraut machen.
-* [Visualisierungen in Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): Freiformtabellen sind nur eine Art der Visualisierung in Analysis Workspace. Erfahren Sie, wie Sie andere Visualisierungen wie Liniendiagramme, Balkendiagramme und geografische Karten verwenden.
-* [Dimensionen in Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Erfahren Sie mehr über Dimensionen und ihre Verwendung in mehr als nur Rangberichten.
-* [Metriken in Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Erfahren Sie mehr darüber, was Metriken sind und wie sie in anderen Teilen von Freiformtabellen verwendet werden.
-* [Einführung in die Segmentierung](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Erfahren Sie, was Segmente sind, und erstellen Sie einen einfachen Bericht mit einem Segment.
-* [Datumsbereiche in Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Erfahren Sie mehr über relative und rollierende Daten und verwenden Sie sie in Workspace-Projekten.
-* Freigeben von Projekten in Workspace: Zeigen Sie Ihrem Kollegen das fantastische Workspace-Projekt, das Sie erstellt haben.
-* [(Erweitert) Bedienfelder in Workspace](/help/analyze/analysis-workspace/c-panels/panels.md): Verwenden Sie erweiterte Funktionen in Workspace, wie Attribution und Segmentvergleich.
+1. Kopieren Sie diesen Link und fügen Sie ihn zum Erfolgsmetrik-Hyperlink in der Textvisualisierung hinzu. Klicken Sie auf das Häkchen, um den Text zu speichern.
 
-### Analysten und Administratoren, die die Qualität von Workspace in ihrem Unternehmen verbessern möchten
+Wenn Bereiche oder Visualisierungen innerhalb Ihres Projekts ausgeblendet sind, können Sie diese durch Klicken auf einen Link einblenden, um sie für Benutzer sichtbar zu machen.
 
-* [Berechtigungen in Analysis Workspace](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html): Weisen Sie über Adobe Admin Console Benutzerberechtigungen für Workspace zu.
-* [Vorlagen in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Erstellen Sie Vorlagen, damit Ihre Kollegen mit einem auf ihre Bedürfnisse zugeschnittenen Projektraum beginnen können.
-* [Workspace-Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md): Erstellen Sie ein Projekt, das die verfügbaren Komponenten einschränkt, damit Workspace für diejenigen, die mit dem Tool weniger vertraut sind, leichter zugänglich ist.
+>[!NOTE] Sie können diese Funktion auch mit der **[!UICONTROL Edit Description]** Rechtsklick-Option verwenden.
+
+## Verknüpfung zu anderen Projekten
+
+You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+
+## Dynamische Visualisierung ausgewählter Zellen
+
+Wenn Sie einzelne Zellen auswählen, wird die Visualisierung dynamisch geändert. Synchronisieren und sperren Sie eine Visualisierung an ausgewählten Zellen.
+
+![](assets/visualize-selected-cells.png)
+
+## Ausgewählte Elemente oder Positionen sperren
+
+Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Datentabellenquellen den Visualisierungen entsprechen.
+
+![](assets/manage-data-source.png)
+
+[Data Sources verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+
+## Trend-Visualisierungen aus ausgewählten Zellen
+
+Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick > **[!UICONTROL Trend Selection]**.)
+
+![](assets/trend-selection.png)
+
+Trendauswahlen werden jetzt mit der Tabelle darunter **verknüpft**. Wenn Sie daher in der Tabelle eine andere Zeile auswählen, bezieht sich das Trend-Diagramm auf diese Zeile.
+
+![](assets/trend-selection2.png)
+
+## Aufschlüsselungen von Dimensionen und Dimensionselementen
+
+Als Händler erhalten Sie tiefere Einblicke in Ihre Kampagnen, als Sie je hatten, und verstehen so, wie Sie Ihre Kunden binden können. Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlüsseln. Erstellen Sie Abfragen mithilfe relevanter Metriken, Dimensionen, Segmente, Zeitachsen und anderer Aufschlüsselungswerte für die Analyse.
+
+![Schritt Ergebnis](assets/fa_data_table_actions.png)
+
+[Schlüsseln Sie Dimensionen auf](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
+## Segmente aus Tabellenauswahlen
+
+Wählen Sie Zellen in der Freiformtabelle aus und erstellen Sie aus der Auswahl ein Segment.
+
+Vergleichen Sie mehrere Segmente und erstellen Sie direkt Segmente, die Sie anwenden. Sie können mehrere Segmente anwenden, um den Fokus auf bestimmte Kunden zu legen, die aufgrund von Verhalten und Interaktion ausgewählt werden, und diese dann vergleichen und gegenüberstellen.
+
+![](assets/segment_inline.png)
+
+Ziehen Sie ein Segment auf der Projektebene auf den Freiformbereich, damit das Segment auf das gesamte Projekt angewendet wird.
+
+![](assets/segment-panel.png)
+
+Siehe [Segmente](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+
+## Projekt- und Komponenten-Tagging
+
+In Analysis Workspace können Sie Tags auf Projekte und Komponenten anwenden:
+
+* Anwenden oder Erstellen von Tags auf Projektebene im Informationsbereich ![](assets/information_icon.png)
+
+* Rechtsklick auf Komponenten zum Taggen (oder Erstellen von Tags) im Komponentenbereich
+* Suchen von Tags durch Eingabe von „#“ im Suchfeld
+
+## Komponentenaktionen
+
+Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, das sich oben in der linken Leiste von „Komponenten“ befindet. Select a component and click **[!UICONTROL Actions]** to view the actions.
+
+| Komponentenaktion | Beschreibung |
+|--- |--- |
+| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Genehmigen | Genehmigen Sie die Komponente, um sie zu autorisieren. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
+| Freigabe | Gilt nur für Segmente. |
+| Löschen | Gilt nur für Segmente. |
+
+Weitere Informationen zu diesem Thema finden Sie unter [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+
+## Beschreibung weiterer Funktionen
+
+**Was Sie ziehen und stapeln können**
+
+Komponenten
+
+* Dimensionen
+* Segmente
+* Metriken
+* Datumsbereiche
+* Zeitgranularitäten (Stunde, Tag, Woche usw.).
+
+**Mehrere Freiformtabellen und mehrere Visualisierungen**
+
+Es gibt keine technische Einschränkung für die Anzahl der Freiformtabellen und Visualisierungen, die Sie zum Bereich hinzufügen können. Sie können auch eine neue Visualisierung (oder einen Export in eine CSV-Datei) der einzelnen Freiformtabellen oder ausgewählten Zeilen einer Tabelle ausführen.
+
+**Anordnen, Sortieren und Kopieren von Spalten**
+
+* Sortieren der vordefinierten Datumsbereiche (ohne benutzerdefinierte Datumsbereiche)
+* STRG (oder Command) + Klick + Ziehen einer Spalte kopiert die Spalte. Wenn Sie die Kopie ziehen, wird sie an der neuen Position in die Tabelle eingefügt.
+
+Für weitere Informationen siehe [Tastaturbefehle in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+
+**Auswahlen und Aktionen**
+
+Sie können Zeilen und Spalten ähnlich wie in Excel auswählen. Anschließend können Sie auf diesen Auswahlen Aktionen ausführen. Beispiel:
+
+* Erstellen Sie Visualisierungen aus Auswahlen
+* Kopieren Sie diese in die Zwischenablage (STRG + C oder Command + C)
+* Schlüsseln Sie mehrere ausgewählte Zeilen auf. Wählen Sie die Zeilen aus und ziehen Sie dann eine Dimension auf die Auswahl. Oder klicken Sie mit der rechten Maustaste auf die Auswahl und verwenden Sie das Aufschlüsselungsmenü.
+
+**Automatisches Speichern und nicht gespeicherte Änderungen**
+
+Wenn Sie versuchen, den Browser zu schließen (oder die Zurück-Schaltfläche zu verwenden) und das Projekt noch nicht gespeichert wurde, werden Sie aufgefordert, Ihre Änderungen zu speichern. Wenn Ihr System abstürzt, erhalten Sie beim nächsten Laden des Projekts einen Warnhinweis, um den vorherigen Projektzustand wiederherzustellen.
+
+Bereits bestehende (nicht neue) Projekte werden nur automatisch gespeichert, wenn der Browser abstürzt oder Sie aus einem anderen Grund keine Möglichkeit hatten, sie zu speichern.
+
+**Alle Besuche**
+
+Ein spezifisches Standardsegment von Analysis Workspace. *`All Visits`* zeigt die Summen für die Komponenten, die Sie zur Tabelle hinzufügen, an.
+
+**Berechnete Metriken**
+
+Verwenden Sie Berechnungen so, wie Sie Standardmetriken verwenden.
+
+Siehe [Berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html).
