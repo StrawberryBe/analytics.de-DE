@@ -2,7 +2,7 @@
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurz
 
 | Product | Beschreibung | Dokumentationslink |
 |--- |--- |--- |
-| Analysis Workspace | Browserlösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse Bietet mehr Berichtsflexibilität als Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Analysis Workspace | Browserlösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse Bietet mehr Berichtsflexibilität als Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics (ehemals SiteCatalyst) | Browserlösung zur Berichterstellung und Analyse Starter-Tool im Analytics-Paket. | [Reports &amp; Analytics-Homepage](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Excel-Add-in, mit dem Sie benutzerspezifische Anfragen für Adobe Analytics-Daten erstellen und mit Microsoft Excel visualisieren können. | [Report Builder-Homepage](https://docs.adobe.com/content/help/de-DE/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis (früher Discover) | Java-basiertes Tool für erweiterte digitale Analysen. | [Ad Hoc Analysis-Homepage](https://docs.adobe.com/content/help/de-DE/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
