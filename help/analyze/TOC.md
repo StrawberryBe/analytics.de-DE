@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
@@ -327,8 +327,8 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
    + [Zeit](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Übersicht über Labs](tech-previews/overview.md)
-+ dashboards {#mobapp}
-   + [Übersicht über Dashboard](mobile-app/home.md)
++ Adobe Analytics dashboards {#mobapp}
+   + [Übersicht über Adobe Analytics-Dashboard](mobile-app/home.md)
    + [Kuratorleitfaden](mobile-app/curator.md)
    + [Handbuch zum schnellen Beginn für Führungskräfte](mobile-app/executive.md)
 + Progressive Web-Apps {#pwa}
