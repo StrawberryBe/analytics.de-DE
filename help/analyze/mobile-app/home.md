@@ -2,16 +2,16 @@
 title: Übersicht über Dashboard
 description: Produktdokumentation und Selbsthilfe für Adobe Analytics-Dashboard
 translation-type: tm+mt
-source-git-commit: 87355158ed62246d1ef8569383160b1d3ffc9b17
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
-# Übersicht über Dashboard
+# Übersicht über Adobe Analytics-Dashboard
 
 >[!IMPORTANT]
 >
->Adobe Analytics-Dashboard werden nicht veröffentlicht und stehen nur eingeladenen Kunden zum Betatest zur Verfügung. Diese Dokumentation ist nur für Betabenutzer gedacht und stellt keine vollständige Funktionalität der Funktion dar. If you are interested in becoming a beta user for this >feature, please contact Adobe [Customer Care](https://helpx.adobe.com/de/contact/enterprise-support.ec.html).
+>Adobe Analytics-Dashboard werden nicht veröffentlicht und stehen nur eingeladenen Kunden zum Betatest zur Verfügung. Diese Dokumentation ist nur für Betabenutzer gedacht und stellt keine vollständige Funktionalität der Funktion dar. Wenn Sie Interesse haben, Betabenutzer für diese >Funktion zu werden, wenden Sie sich bitte an Ashok Gorrepati (gorrepati@adobe.com).
 
 Adobe Analytics-Dashboard bieten jederzeit und überall Einblicke aus Adobe Analytics. Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
 
