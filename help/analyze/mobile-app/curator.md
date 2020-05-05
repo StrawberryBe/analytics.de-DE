@@ -2,14 +2,17 @@
 description: Anleitung zum Einrichten der Dashboards-Scorecards.
 title: Leitfaden zum Kurator für Adobe Analytics-Dashboard
 translation-type: tm+mt
-source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 
-# BETA: Leitfaden des Kurators für Adobe Analytics-Dashboard
+# Leitfaden des Kurators für Adobe Analytics-Dashboard
 
+>[!IMPORTANT]
+>
+>Adobe Analytics-Dashboard werden nicht veröffentlicht und stehen nur eingeladenen Kunden zum Betatest zur Verfügung. Diese Dokumentation ist nur für Betabenutzer gedacht und stellt keine vollständige Funktionalität der Funktion dar. Wenn Sie Interesse haben, Betabenutzer für diese >Funktion zu werden, wenden Sie sich bitte an Ashok Gorrepati (gorrepati@adobe.com).
 
 ## Einführung
 
@@ -188,7 +191,6 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
    3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics-Dashboard wie folgt in Testflight:
 
       ![Testflight-Bildschirm](assets/testflight2.png)
-
    **Für ausführende Benutzer mit Android-Geräten:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -204,7 +206,6 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
 
    3. Laden Sie die App herunter und installieren Sie sie.
 Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
-
    ![Willkommensbildschirm der App](assets/welcome.png)
 
 2. Helfen Sie Benutzern beim Zugriff auf Ihre Scorecard. Nach der Anmeldung bei der App wird ausführenden Benutzern der Bildschirm **Unternehmen auswählen** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann. So helfen Sie Benutzern, eine Scorecard anzuzeigen:
@@ -212,7 +213,6 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
    * Tippen Sie auf den Namen der Unternehmensanmeldung oder der Experience Cloud-Organisation, der für die von Ihnen freigegebene Scorecard gilt. Die Scorecard-Liste zeigt alle Scorecards an, die mit dem ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
    * Helfen Sie Benutzern, diese Liste ggf. nach der zuletzt geänderten Scorecard zu sortieren.****
    * Tippen Sie auf den Namen der Scorecard, um sie anzuzeigen.
-
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
 
    Hinweis: Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde, kann das folgende Gründe haben:
@@ -221,7 +221,6 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
    * Eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
 
       ![Nichts freigegeben](assets/nothing.png)
-
    Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 3. Erklären Sie dem ausführenden Benutzer, wie die Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden.
@@ -257,7 +256,6 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
    1. Tippen Sie auf das Benutzersymbol in der oberen rechten Ecke des App-Bildschirms.
    2. Tippen Sie auf dem Bildschirm **Mein Konto** auf die Option **Feedback**.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
-
    ![Feedback hinterlassen](assets/feedback.png)
    ![Feedback-Optionen](assets/feedback_option.png)
 
