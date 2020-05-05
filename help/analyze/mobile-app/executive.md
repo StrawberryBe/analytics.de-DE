@@ -2,12 +2,16 @@
 description: Anleitung zur Verwendung der Dashboards-Scorecards.
 title: Handbuch zu Adobe Analytics Dashboards
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 # Adobe Analytics-Dashboard: Handbuch zum Beginn für Führungskräfte
+
+>[!IMPORTANT]
+>
+>Adobe Analytics-Dashboard werden nicht veröffentlicht und stehen nur eingeladenen Kunden zum Betatest zur Verfügung. Diese Dokumentation ist nur für Betabenutzer gedacht und stellt keine vollständige Funktionalität der Funktion dar. Wenn Sie Interesse haben, Betabenutzer für diese >Funktion zu werden, wenden Sie sich bitte an Ashok Gorrepati (gorrepati@adobe.com).
 
 ## Einführung
 
