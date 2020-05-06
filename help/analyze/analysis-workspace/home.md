@@ -4,14 +4,17 @@ title: Analysis Workspace – Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 98%
 
 ---
 
 
 # Analysis Workspace – Übersicht
 
-Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
+Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen. Zu den erweiterten Funktionen zählen Attribution IQ,
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -59,7 +62,7 @@ Mithilfe der [Rich-Text-Bearbeitungsfunktionen](/help/analyze/analysis-workspace
    ![](assets/intra-linking1.png)
 
 1. Scrollen Sie zu diesem Bereich bzw. zu dieser Visualisierung und klicken Sie mit der rechten Maustaste auf den Header des Bereichs.
-1. Blättern Sie nach unten und wählen Sie **[!UICONTROL Get Panel Link]** oder **[!UICONTROL Get Visualization Link]**:
+1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Bereichslink abrufen]** oder **[!UICONTROL Visualisierungslink abrufen]** aus:
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ Mithilfe der [Rich-Text-Bearbeitungsfunktionen](/help/analyze/analysis-workspace
 
 Wenn Bereiche oder Visualisierungen innerhalb Ihres Projekts ausgeblendet sind, können Sie diese durch Klicken auf einen Link einblenden, um sie für Benutzer sichtbar zu machen.
 
->[!NOTE] Sie können diese Funktion auch mit der **[!UICONTROL Edit Description]** Rechtsklick-Option verwenden.
+>[!NOTE] Sie können diese Funktion auch über die Rechtsklickoption **[!UICONTROL Beschreibung bearbeiten]** verwenden.
 
 ## Verknüpfung zu anderen Projekten
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+Sie können Benutzer mit anderen u. U. für sie interessanten Projekten verknüpfen, indem Sie **[!UICONTROL Freigabe]** > **[!UICONTROL Projektverknüpfung abrufen]** aufrufen und diesen Link z. B. in Projektbeschreibungen einbetten.
 
 ## Dynamische Visualisierung ausgewählter Zellen
 
@@ -89,7 +92,7 @@ Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Date
 
 ## Trend-Visualisierungen aus ausgewählten Zellen
 
-Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick > **[!UICONTROL Trend Selection]**.)
+Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick > **[!UICONTROL Trendauswahl]**.)
 
 ![](assets/trend-selection.png)
 
@@ -130,7 +133,7 @@ In Analysis Workspace können Sie Tags auf Projekte und Komponenten anwenden:
 
 ## Komponentenaktionen
 
-Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, das sich oben in der linken Leiste von „Komponenten“ befindet. Select a component and click **[!UICONTROL Actions]** to view the actions.
+Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, das sich oben in der linken Leiste von „Komponenten“ befindet. Wählen Sie eine Komponente aus und klicken Sie auf **[!UICONTROL Aktionen]**, um die Aktionen anzuzeigen.
 
 | Komponentenaktion | Beschreibung |
 |--- |--- |
