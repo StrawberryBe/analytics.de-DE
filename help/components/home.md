@@ -2,7 +2,10 @@
 title: Hilfe zu den Analytics-Komponenten
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,7 @@ Mithilfe von Analytics-Komponenten können Sie die Datenanalyse optimieren. Zu d
 * **Segmentierung:** Wenn Sie nur ein bestimmter Teil Ihrer Daten interessiert.
 * **Berechnete Metriken:** Kombinieren Sie mit einfachen Formeln Metriken oder erweiterte Funktionen für statistische Analysen.
 * **Virtual Report Suites:** Erstellen Sie auf der Basis einer Report Suite ein virtuelles Datensilo. Ermöglicht die Bereinigung und Segmentierung der Daten und schafft dadurch höhere Benutzerfreundlichkeit. Einige Funktionen können nur in Virtual Report Suites verwendet werden.
+* **Geräteübergreifende Analyse**: Mit einem speziellen Typ von Virtual Report Suite können Sie geräteübergreifende Analysen konfigurieren.
 * **Warnhinweise:** Sie erhalten jedes Mal, wenn Daten über oder unter einem Schwellenwert liegen, eine Benachrichtigung.
 * **Klassifizierungen:** Sie können Dimensionen neu anordnen und gruppieren, um zusätzliche Einblicke zu gewinnen.
 * **Variablen:** Ein Referenzhandbuch für alle in Berichten verfügbaren Dimensionen und Metriken.
