@@ -2,76 +2,81 @@
 title: Implementierungs-Modal
 description: Setzen Sie mit den Erfahrungen von Erstkonsumenten Adobe Analytics-Implementierungen um.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 50%
 
 ---
 
 
 # Implementierungs-Modal
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Siehe Report Suite [erstellen](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html).
 
-Das modale Fenster „Willkommen bei Adobe Analytics“ bietet einen vereinfachten Workflow zum Erstellen einer Report Suite. Adobe empfiehlt, diesen Workflow zu verwenden, wenn in Ihrem Unternehmen weitere Report Suites benötigt werden.
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
-![Modal-Screenshot](assets/implementation-modal.png)
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
-## Voraussetzungen
+![Modal screenshot](assets/implementation-modal.png)
 
-Ihre Adobe ID muss Zugriff auf Adobe Analytics und Adobe Experience Platform Launch haben. Wenn Sie keinen Zugriff auf Launch haben, können Sie in eine Endlosauthentifizierungsschleife versetzt werden, in der Sie aufgefordert werden, Ihre Anmeldeinformationen zu überprüfen. Wenden Sie sich an einen Systemadministrator in Ihrem Unternehmen, um Zugriff auf Launch zu erhalten.
+## Prerequisites
 
-## Zugriff auf das Modal
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-Greifen Sie auf das Modal zu, um eine Report Suite mit den folgenden Schritten zu erstellen.
+## Access the modal
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf [!UICONTROL Adobe Analytics].
-3. Wenn Sie noch keine Report Suite erstellt haben, wird das Modal automatisch angezeigt. Wenn für dieses Anmeldeunternehmen eine Report Suite vorhanden ist, klicken Sie auf das Hilfesymbol oben rechts und dann auf [!UICONTROL Willkommen bei Adobe Analytics].
+Access the modal to create a report suite using the following steps.
 
->[!NOTE] Die Option [!UICONTROL Willkommen bei Adobe Analytics] wird nur angezeigt, wenn Sie sich über die Adobe Experience Cloud anmelden. Wenn Sie sich über veraltete Domänen anmelden, ist das Modal nicht verfügbar.
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-## Erstellen einer Report Suite
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-Klicken Sie auf die Schaltfläche [!UICONTROL Einrichtung beginnen], um den Workflow zum Erstellen der Report Suite zu starten.
+## Create a report suite
 
-![RS-Assistent](assets/analytics-implementation-rs-wizard.png)
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-### Eigenschaftstyp
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-Der Eigenschaftstyp hilft Adobe bei der Festlegung einiger Backend-Einstellungen, je nachdem, wo Sie Analytics implementieren möchten.
+### Property type
 
-* **Website**: Wenn Sie Adobe Analytics nur für eine Website implementieren möchten.
-* **Native App**: Wenn Sie Adobe Analytics nur für eine App implementieren möchten.
-* **Beide**: Wenn diese Report Suite Daten für eine Website und eine App enthält.
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-### Branchen
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-Geben Sie Ihr primäres Geschäftsmodell an. Diese Einstellung unterstützt Adobe bei der Vorkonfiguration einiger Variablennamen und Einstellungen, die auf Ihrem primären Geschäftsmodell basieren.
+### Industries
 
-### Datenschicht
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-Eine [Datenschicht](data-layer.md) ist ein JavaScript-Objekt, das alle in Ihrer Implementierung verwendeten Variablen an einer hilfreichen Stelle organisiert. Weitere Informationen finden Sie unter [Datenschichten](data-layer.md).
+### Data layer
 
-### Daten-Repository
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-Geben Sie der Report Suite einen benutzerfreundlichen Namen. Ihre Report Suite-ID (RSID) wird automatisch anhand des Anzeigenamens und des Anmeldeunternehmens generiert.
+### Data repository
 
-### Zeitzone
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-Stellen Sie sicher, dass Adobe die richtige Zeitzone für die Report Suite erkannt hat.
+### Time zone
 
-### Geschätzte Seitenansichten pro Tag
+Verify that Adobe detected the correct time zone for the report suite.
 
-Schätzen Sie, wie viel Traffic Ihre Website oder App pro Tag erhält. Anhand dieser Informationen kann Adobe der Report Suite die richtige Menge an Verarbeitungsressourcen zuweisen.
+### Estimated page views per day
 
-### Basiswährung
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-Legen Sie fest, in welcher Währung die Report Suite Geldwerte speichert.
+### Base currency
 
->[!IMPORTANT] Stellen Sie sicher, dass Sie die richtige Währung angeben, insbesondere wenn Sie Umsatzberichtspflichten unterliegen. Es ist schwierig, die Basiswährung nach dem Beginn der Datenerfassung zu ändern.
+Determine what currency the report suite stores monetary values in.
 
-## Ressourcen für die Implementierung
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-Nachdem die Report Suite erstellt wurde, haben Sie zwei Möglichkeiten, um mit der Implementierung fortzufahren:
+## Implementation resources
 
-* **Zu Adobe Experience Platform Launch**: Verknüpft Sie mit [launch.adobe.com](https://launch.adobe.com), um Ihre Implementierung zu konfigurieren und den Bereitstellungscode herunterzuladen. Siehe [Implementieren mit Launch](../launch/overview.md). Adobe empfiehlt in den meisten Fällen die Verwendung von Launch.
-* **Implementierungscode herunterladen**: Bietet einen direkten Link zum Herunterladen von JavaScript-Dateien für eine manuelle JavaScript-Implementierung. Siehe [AppMeasurement für JavaScript](../js/overview.md).
+After the report suite is created, you have one of two options to proceed with your implementation:
+
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
