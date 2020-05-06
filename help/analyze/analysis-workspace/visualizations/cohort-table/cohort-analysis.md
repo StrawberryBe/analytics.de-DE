@@ -4,7 +4,10 @@ title: Was ist eine Kohortenanalyse?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ Die Kohortenanalyse steht allen Analytics-Kunden mit Zugriffsrechten auf Analysi
 
 >[!IMPORTANT]
 >
->Die Kohortenanalyse unterstützt keine berechneten Metriken.
+>Die Analyse Kohorte unterstützt keine nicht segmentierbaren Metriken, wie z. B. berechnete Metriken, Nicht-Ganzzahl-Metriken oder [!UICONTROL Vorfälle]. Nur Metriken, die in Segmenten verwendet werden können, können in der Kohorte-Analyse verwendet werden, und sie können jeweils nur um 1 inkrementiert werden.
 
 ## Funktionen der Kohortenanalyse
 
