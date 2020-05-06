@@ -2,12 +2,15 @@
 title: PWAs für Analytics
 description: Progressive Web-Apps für Adobe Analytics
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 75%
 
 ---
 
 
-# PWAs für Analytics
+# PWAs für Adobe Analytics
 
 Auf dieser Seite wird die Verwendung von Adobe Analytics mit progressiven Web-Apps (PWAs) beschrieben.
 
@@ -19,11 +22,11 @@ Adobe Analytics funktioniert genauso nahtlos mit PWAs wie mit herkömmlichen Web
 
 ## PWA-Analysedaten abrufen
 
-Zur Erfassung und Analyse Ihrer PWA-Daten mit Analytics müssen Sie keine Konfigurationsänderungen vornehmen. Analytics bietet automatisch die gleichen Funktionen und Merkmale wie bei einer herkömmlichen Website.
+To collect and analyze your PWA data with [!UICONTROL Analytics], you do not need to  make any configuration changes. [!UICONTROL Analytics bietet automatisch die gleichen Funktionen und Merkmale wie bei einer herkömmlichen Website.]
 
 ## Offline-Tracking zur Erhöhung der PWA-Effektivität hinzufügen
 
-Sie können die Effektivität Ihrer PWA steigern, indem Sie die Analytics-Funktionen für [Offline-Tracking](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/functions/forceoffline.translate.html) verwenden. Standardmäßig ist diese Funktion deaktiviert. Sie können der Datei AppMeasurement.js jedoch die folgende Eigenschaft hinzufügen, um sie zu aktivieren: `s.trackOffline=true;`.
+You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/functions/forceoffline.translate.html) with it. Standardmäßig ist diese Funktion deaktiviert. Sie können der Datei AppMeasurement.js jedoch die folgende Eigenschaft hinzufügen, um sie zu aktivieren: `s.trackOffline=true;`.
 
 In der folgenden Datei AppMeasurement.js wurde die Eigenschaft beispielsweise am Ende des Abschnitts `CONFIG SECTION` hinzugefügt:
 
