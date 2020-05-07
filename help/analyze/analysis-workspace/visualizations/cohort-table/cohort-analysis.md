@@ -1,70 +1,69 @@
 ---
-keywords: Analysis Workspace
 title: Was ist eine Kohortenanalyse?
-topic: Reports and analytics
-uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
+description: Erfahren Sie mehr über die Analyse von Kohorten im Arbeitsbereich für Analysen
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 79849c574909543d74e2935e493008927700585d
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 91%
+source-wordcount: '472'
+ht-degree: 49%
 
 ---
 
 
-# Was ist eine Kohortenanalyse?
+# What is [!UICONTROL Cohort Analysis]?
 
-Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Erläuterungen zur Kohortenanalyse sind im Internet verfügbar, z. B. unter [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. [!UICONTROL Die Kohortenanalyse ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. ] Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
 Nachdem Sie einen Kohortenbericht erstellt haben, können Sie dessen Komponenten (bestimmte Dimensionen, Metriken und Segmente) kuratieren und den Kohortenbericht dann für andere freigeben. Weitere Informationen finden Sie unter [Kuratieren und freigeben](/help/analyze/analysis-workspace/curate-share/curate.md).
 
-Beispiele für die Nutzung einer Kohortenanalyse:
+Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 * Starten Sie Kampagnen, die dafür ausgelegt sind, eine erwünschte Aktion anzuregen.
 * Erhöhen Sie das Marketingbudget genau zum richtigen Zeitpunkt im Kundenlebenszyklus.
-* Erkennen Sie, wann eine Testphase oder ein Angebot beendet werden sollte, um den Wert zu maximieren.
+* Erkennen Sie, wann eine Testversion oder ein Angebot beendet werden soll, um den Wert zu maximieren.
 * Gewinnen Sie Ideen für A/B-Tests in Bereichen wie Preisstruktur, Upgradepfad usw.
-* Zeigen Sie einen Kohortenanalysebericht mit einem angeleiteten Analysebericht an.
+* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-Die Kohortenanalyse steht allen Analytics-Kunden mit Zugriffsrechten auf Analysis Workspace zur Verfügung.
+[!UICONTROL Die Analyse] der Kohorte ist für alle Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analyse Workspace]verfügbar.
 
 [Kohortenanalyse auf YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->Die Analyse Kohorte unterstützt keine nicht segmentierbaren Metriken, wie z. B. berechnete Metriken, Nicht-Ganzzahl-Metriken oder [!UICONTROL Vorfälle]. Nur Metriken, die in Segmenten verwendet werden können, können in der Kohorte-Analyse verwendet werden, und sie können jeweils nur um 1 inkrementiert werden.
+>[!UICONTROL Die Analyse] Kohorte unterstützt keine nicht segmentbaren Metriken (einschließlich berechneter Metriken), Nicht-Ganzzahlmetriken (z. B. Umsatz) oder Vorfälle. Nur Metriken, die in Segmenten verwendet werden können, können in
+>[!UICONTROL Kohorte-Analyse], und sie können jeweils nur um 1 inkrementiert werden.
 
 ## Funktionen der Kohortenanalyse
 
-Im Januar 2019 veröffentlichte Adobe eine neue und deutlich verbesserte Version der Kohortenanalyse. Sie erhalten damit eine sehr viel feinere Steuerung der Kohorten, die Sie erstellen. Dies sind die Verbesserungen:
+Die folgenden Funktionen ermöglichen eine Feinabstimmung der Steuerung der erstellten Kohorten:
 
-### Bindungstabelle
+### [!UICONTROL Bindungstabelle]
 
-Ein Bindungskohortenbericht gibt Besucherdaten aus: Jede Datenzelle zeigt die Roh- und Prozentanzahl der Besucher in der Kohorte, die die Aktion während dieses Zeitraums ausgeführt haben. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
+A [!UICONTROL Retention] cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
 
 ![](assets/retention-report.png)
 
-### Abwanderungstabelle
+### [!UICONTROL Abwanderungstabelle]
 
-Eine Abwanderungskohorte ist die Umkehrung einer Bindungstabelle und zeigt Besucher, die abgewandert sind oder die Rückkehrkriterien für Ihre Kohorte im Laufe der Zeit nie erfüllt haben. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
+A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. Sie können bis zu 3 Kennzahlen und bis zu 10 Segmente einschließen.
 
 ![](assets/churn-report.png)
 
-### Rollierende Berechnung
+### [!UICONTROL Rollierende Berechnung]
 
 Ermöglicht es Ihnen, die Bindung oder die Abwanderung auf Grundlage der vorherigen Spalte und nicht der Aufnahmespalte zu berechnen.
 
 ![](assets/cohort-rolling-calculation.png)
 
-### Latenztabelle
+### [!UICONTROL Latenztabelle]
 
-Misst die Zeit, die vor und nach dem Aufnahmeereignis verstrichen ist. Ein hervorragendes Tool für die Vor- und Nachanalyse. Die Spalte „Aufnahme“ befindet sich in der Mitte der Tabelle und die Zeiträume vor und nach dem Aufnahmeereignis werden auf beiden Seiten angezeigt.
+Misst die Zeit, die vor und nach dem Aufnahmeereignis verstrichen ist. Ein hervorragendes Tool für die Vor- und Nachanalyse. The **[!UICONTROL Included]** column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
 
 ![](assets/cohort-latency.png)
 
-### Angepasste Dimensionskohorte
+### [!UICONTROL Angepasste Dimensionskohorte]
 
-Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf Grundlage zeitbasierter Kohorten, die Standardeinstellung sind. Verwenden Sie Dimensionen wie Marketing-Kanal, Kampagne, Produkt, Seite, Region oder jede andere Dimension in Adobe Analytics, um anzuzeigen, wie die Bindung sich basierend auf verschiedenen Werten dieser Dimensionen verändert.
+Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf Grundlage zeitbasierter Kohorten, die Standardeinstellung sind. Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
