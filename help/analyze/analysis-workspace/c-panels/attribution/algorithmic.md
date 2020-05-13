@@ -2,14 +2,17 @@
 title: Algorithmische Zuordnung
 description: Details zum algorithmischen Zuordnungsmodell in Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
 
 # Algorithmische Zuordnung
 
->[!NOTE] Algorithmische Zuordnung ist derzeit nur über [Adobe Analytics Labs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/tech-previews/overview.html)verfügbar. Die Funktion wird schließlich Teil einer allgemeinen Version sein.
+>[!NOTE] Die algorithmische Zuordnung wird derzeit nur eingeschränkt getestet.
 
 Das algorithmische [Zuordnungsmodell](attribution.md) in Analyse Workspace unterscheidet sich von anderen Modellen insofern, als es mithilfe statistischer Verfahren Gutschriften über die Dimensionswerte in Ihrem Bericht oder Ihrer Freiformtabelle zuweist. Wie alle anderen Zuordnungsmodelle in Analyse Workspace kann es für jede Dimension oder Metrik verwendet werden und unterstützt eine unbegrenzte Segmentierung und Aufschlüsselung und verteilt 100 % der Konversionen auf die Dimension(en) in der Tabelle (auch als &quot;Bruchzuordnung&quot;bezeichnet).
 
