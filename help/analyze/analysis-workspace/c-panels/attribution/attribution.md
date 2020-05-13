@@ -3,7 +3,10 @@ description: 'null'
 title: Übersicht über das Attributionsbedienfeld
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+workflow-type: tm+mt
+source-wordcount: '1805'
+ht-degree: 90%
 
 ---
 
@@ -31,12 +34,7 @@ Das Attributionsbedienfeld ist eine Funktion von [Attribution IQ](../../attribut
 | ![Benutzerspezifisch](assets/custom.png) | Benutzerspezifisch | Ermöglicht Ihnen die Angabe der Gewichtungen, die Sie für Erstkontakt-Punkte, Letztkontakt-Punkte und dazwischen liegende Touchpoints festlegen möchten. Die angegebenen Werte werden auf 100 % normalisiert, selbst wenn die eingegebenen benutzerdefinierten Zahlen zusammen nicht 100 ergeben. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Interaktionen mit zwei Touchpoints wird der mittlere Parameter ignoriert. Die ersten und letzten Touchpoints werden dann auf 100 % normalisiert und die Gewichtung wird entsprechend zugeschrieben. | Dieses Modell ist perfekt für diejenigen, die eine vollständige Kontrolle über ihr Attributionsmodell wünschen und spezielle Bedürfnisse haben, die andere Zuordnungsmodelle nicht erfüllen. |
 | ![Zeitverfall](assets/time_decay.png) | Zeitverfall | Folgt einem exponentiellen Abfall mit einem benutzerdefinierten Parameter für die Halbwertszeit, wobei der Standardwert 7 Tage ist. Die Gewichtung der einzelnen Kanäle hängt von der Zeit ab, die zwischen dem Beginn des Touchpoints und der letztendlichen Konversion verstrichen ist. Die Formel, die zur Bestimmung der Gewichtung verwendet wird, lautet `2^(-t/halflife)`, wobei `t` die Zeit zwischen einem Touchpoint und einer Konversion ist. Alle Touchpoints werden dann auf 100 % normalisiert. | Ideal für Teams, die regelmäßig Videowerbung betreiben oder Marketing im Zusammenhang mit Ereignissen mit festem Datum durchführen. Je länger eine Konversion nach einem Marketing-Ereignis erfolgt, desto geringer ist die zugeschriebene Gewichtung. |
 | ![Beitrag](assets/participation.png) | Beitrag | 100 % Gewichtung für alle eindeutigen Touchpoints. Die Gesamtanzahl der Konversionen ist im Vergleich zu anderen Attributionsmodellen überhöht. Durch den Beitrag werden Kanäle dedupliziert, die mehrmals angezeigt werden. | Ausgezeichnet, um zu verstehen, wie häufig Kunden einer bestimmten Interaktion ausgesetzt sind. Medienunternehmen verwenden dieses Modell häufig zur Berechnung der Content Velocity. Einzelhandelsunternehmen verwenden dieses Modell oft, um zu verstehen, welche Teile ihrer Site für die Konversion von entscheidender Bedeutung sind. |
-
->[!NOTE] Das folgende algorithmische Zuordnungsmodell ist derzeit in [Adobe Analytics Labs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/tech-previews/overview.html) verfügbar und wird möglicherweise Teil einer allgemeinen Version sein.
-
-| Benutzeroberflächensymbol | Attributionsmodell | Definition | Verwendungsbereiche |
-| --- | --- | --- | --- |
-| ![Algorithmisch](assets/algorithmic.png) | [Algorithmisch](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Verwendet statistische Verfahren, um die optimale Zuordnung der Gutschrift für die ausgewählte Metrik dynamisch zu bestimmen. | Nützlich, um bei der Auswahl des richtigen Zuordnungsmodells für Ihr Unternehmen Ratschläge oder Heuristik zu vermeiden. |
+| ![Algorithmisch](assets/algorithmic.png) | [Algorithmisch](/help/analyze/analysis-workspace/c-panels/attribution/algorithmic.md) | (Hinweis: Algorithmische Zuordnung wird derzeit nur eingeschränkt getestet.) Verwendet statistische Verfahren, um die optimale Zuordnung der Gutschrift für die ausgewählte Metrik dynamisch zu bestimmen. | Nützlich, um bei der Auswahl des richtigen Zuordnungsmodells für Ihr Unternehmen Ratschläge oder Heuristik zu vermeiden. |
 
 ## Lookback-Fenster
 
@@ -45,6 +43,8 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 * **Besuchs-Lookback-Fenster:** Sieht bis zum Beginn eines Besuchs zurück, bei dem eine Konversion stattgefunden hat. Besuchs-Lookback-Fenster sind klein, da sie nicht über den Besuch hinausblicken. Besuchs-Lookback-Fenster berücksichtigen die geänderte Besuchsdefinition in Virtual Report Suites.
 
 * **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Wenn der Berichts-Datumsbereich beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
+
+* **Benutzerdefiniertes Lookback-Fenster:** (Hinweis: Das benutzerdefinierte Lookback-Fenster wird derzeit nur eingeschränkt getestet.) Ermöglicht Ihnen, das Zuordnungsfenster über den Datumsbereich des Berichte hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konvertierung im Berichte ausgewertet. Beispiel: Bei einer Konvertierung am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimension-Touchpoints vom 10. bis 20. Februar im Zuordnungsmodell auswerten.
 
 ## Beispiel
 
