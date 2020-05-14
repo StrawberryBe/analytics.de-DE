@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: b46b7968d94975be3335d5c2749b9468dcc91543
+source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 92%
@@ -202,4 +202,4 @@ ht-degree: 92%
 + [Häufig gestellte Fragen](faq.md)
 + XDM-Daten mit Analytics verwenden {#aep-edge}
    + [AEP Web SDK verwenden](aep-edge/xdmoverview.md)
-   + [Manuelles Zuordnen von XDM-Daten zu Analytics](aep-edge/xdmoverview.md)
+   + [Manuelles Zuordnen von XDM-Daten zu Analytics](aep-edge/xdm-manual.md)
