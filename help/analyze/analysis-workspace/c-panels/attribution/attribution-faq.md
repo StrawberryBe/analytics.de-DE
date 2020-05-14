@@ -2,7 +2,10 @@
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -16,10 +19,6 @@ Das Zeilenelement &quot;Keine&quot;ist ein Sammelelement, das alle Konvertierung
 **Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?**
 
 Diese zusätzlichen Daten sind auf das Lookback-Fenster des Besucherberichts zurückzuführen. Weitere Informationen finden Sie unter [Daten, die außerhalb des Berichtsfensters angezeigt werden](https://helpx.adobe.com/de/analytics/kb/data-appearing-outside-reporting-window.html) in der Analytics-KB. Adobe wird diese zusätzlichen Zeilen in einer künftigen Version herausfiltern.
-
-**Kann ich ein benutzerdefiniertes Lookback-Fenster mit meinen Attributionsmodellen verwenden?**
-
-Attributionsmodelle basieren derzeit entweder auf einem Besucher- oder einem Besuchs-Lookback-Fenster. Diese Lookback-Fenster lassen sich entweder durch Änderung des Berichtsdatumsbereichs (für die Besuchersuche) oder durch Verwendung einer benutzerdefinierten Besuchsdefinition als Teil von Virtual Report Suites anpassen. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](../../../../components/vrs/vrs-report-time-processing.md).
 
 **Wann sollte ich eine Rückmeldung zur Besuchszuordnung oder zur Besucherattribution verwenden?**
 
