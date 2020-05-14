@@ -2,16 +2,15 @@
 title: Verwenden von XDM-Daten mit Analytics
 description: 'Übersicht über die Verwendung von XDM-Daten aus Experience Platform in Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 4%
 
 ---
 
 
 # Verwenden von Adobe Experience Platform Edge-Daten mit Analytics
-
 
 Sie können das [Adobe Experience Platform (AEP) Web SDK](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) verwenden, um Daten an Adobe Analytics zu senden. Dies funktioniert durch die Übersetzung des [Experience Data Model (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in ein von Analytics verwendetes Format.
 
@@ -23,7 +22,7 @@ Analytics erfasst XDM-Daten auf zwei Arten:
 
 ## Automatische Zuordnung
 
-Die automatische Zuordnung beruht auf einem Standard- [Schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) im XDM, mit dem JSON-Objekte automatisch gefüllt werden, die in der typischen Analytics-Datenerfassung enthalten sind. Die [Analytics-Variablen, die automatisch von den XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) zu Ihren konfigurierten Report Suites zugeordnet werden, benötigen keine Unterstützung von Entwicklern, um sie zu integrieren.
+[Die automatische Zuordnung](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) beruht auf einem Standard- [Schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) im XDM, mit dem automatisch JSON-Objekte gefüllt werden, die in der typischen Analytics-Datenerfassung enthalten sind. Die [Analytics-Variablen, die automatisch von den XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) zu Ihren konfigurierten Report Suites zugeordnet werden, benötigen keine Unterstützung von Entwicklern, um sie zu integrieren.
 
 ## Manuelle Zuordnung
 
