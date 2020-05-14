@@ -2,18 +2,15 @@
 title: Verwenden von XDM-Daten mit Analytics
 description: 'Übersicht über die Verwendung von XDM-Daten aus Experience Platform in Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 31efa43043120b68de90e817a7980addbe2ded39
+source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 4%
 
 ---
 
 
-
-
 # Verwenden von Adobe Experience Platform Edge-Daten mit Analytics
-
->[!IMPORTANT]
->
->Das Adobe Experience Edge Web SDK wird nicht veröffentlicht und steht nur für Beta-Tests bei eingeladenen Kunden zur Verfügung. Diese Dokumentation ist nur für Beta-Benutzer gedacht und enthält keine vollständige Beschreibung aller Funktionen. Wenn Sie Interesse haben, die App als Beta-Benutzer zu verwenden, wenden Sie sich an die Adobe-[Kundenunterstützung](https://helpx.adobe.com/de/contact/enterprise-support.ec.html).
 
 
 Sie können das [Adobe Experience Platform (AEP) Web SDK](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) verwenden, um Daten an Adobe Analytics zu senden. Dies funktioniert durch die Übersetzung des [Experience Data Model (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) in ein von Analytics verwendetes Format.
