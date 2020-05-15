@@ -1,24 +1,24 @@
 ---
 description: Erläutert die neue Strategie für die kontinuierliche Funktionserweiterung in Adobe Analytics
-title: Adobe Analytics - Versionsstrategie für Funktionen
+title: Versionshinweise zu Adobe Analytics-Funktionen
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Analytics - Versionsstrategie für Funktionen
+# Versionshinweise zu Adobe Analytics-Funktionen
 
-Bisher wurden Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Seit April 2020 entwickelt Adobe Analytics ein kontinuierliches Versand-Modell, das eine skalierbarere, stufenweise Einführung von Funktionen ermöglicht.
+Bisher wurden Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Seit April 2020 ist Adobe Analytics in ein kontinuierliches Versand-Modell umgestiegen, das eine skalierbarere, stufenweise Einführung von Funktionen ermöglicht.
 
 ## Versionsstrategie
 
 [!UICONTROL Analyse Workspace] nutzt Funktions-Flags (auch als &quot;Umschalter&quot;bezeichnet), um die Sichtbarkeit neuer Funktionen zu steuern, sodass vor der Vollversion ein kontrollierter Skalierungstest durchgeführt werden kann. Diese Versionsstrategie umfasst die folgenden Phasen:
 
-* **Release to Production (RTP)**: Der Code wird für die Produktion freigegeben, wobei die Sichtbarkeit der Funktionen in Analyse Workspace deaktiviert ist. **Hinweis**: Zu diesem Zeitpunkt ist die Funktion möglicherweise in der Analytics-API von 2.0 verfügbar.
+* **Release to Production (RTP)**: Der Code wird für die Produktion freigegeben, wobei die Sichtbarkeit der Funktionen in Analyse Workspace deaktiviert ist. **Hinweis**: Bei RTP ist die Funktion möglicherweise in der 2.0 Analytics-API verfügbar.
 
 * **Eingeschränkte Tests**: Eine schrittweise Veröffentlichung beginnt mit Tests durch interne Adobe-Benutzer. Die Verfügbarkeit der Version wird dann im Laufe einiger Monate von 0 % auf 100 % skaliert. Die schrittweise Einführung erfolgt auf der Ebene der Experience Cloud-Organisation, sodass alle Benutzer mit Berechtigung in einem Unternehmen dasselbe Erlebnis erhalten.
 
