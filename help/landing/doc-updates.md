@@ -3,7 +3,10 @@ title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen am Adobe Analytics-Dokumentations-Repository.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
+source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 72%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
-* Weitere Informationen [!UICONTROL Customer Journey Analytics]finden Sie [hier](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
+* Informationen zu [!UICONTROL Customer Journey Analytics]finden Sie [hier](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
 * For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
 * Weitere Informationen zu neuen Funktionen finden Sie unter [Neue Funktionen in Analyse Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) im Tools-Benutzerhandbuch.
 * Informationen zu Adobe Analytics für Audio und Video finden Sie unter [Messen von Audio und Video in Analytics](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html).
@@ -21,13 +24,13 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
-| 28. April 2020 | Dokumentation zur [InhaltsVelocity](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) -Metrik hinzugefügt. |
-| 12. März 2020 | Es wurden Aktualisierungen zu Segmenten zum [Veröffentlichen in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-publish.html)hinzugefügt. |
+| 28. April 2020 | Dokumentation zur [InhaltsVelocity](/help/components/c-variables/c-metrics/metrics-content-velocity.md) -Metrik hinzugefügt. |
+| 12. März 2020 | Es wurden Aktualisierungen zu Segmenten zum [Veröffentlichen in der Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)hinzugefügt. |
 | 12. März 2020 | Aktualisierungen der CDA-Heftlatenz. |
 | 27. Februar 2020 | Dokumentation für [Adobe Analytics Labs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/tech-previews/overview.html)hinzugefügt. |
 | 25. Februar 2020 | Variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) hinzugefügt. |
 | 18. Februar 2020 | Variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) hinzugefügt. |
-| 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu [Marketing-Kanälen](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) . |
+| 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu [Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) . |
 | 7. Februar 2020 | Aktualisierungen zum [Einrichten von geräteübergreifenden Analysen](../components/cda/cda-setup.md) und [häufig gestellte Fragen](../components/cda/cda-faq.md) |
 | 4. Februar 2020 | Umschreiben des [Implementierungsbenutzerhandbuchs](../implement/home.md)abgeschlossen. |
 | 22. Januar 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
