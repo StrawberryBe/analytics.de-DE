@@ -4,7 +4,10 @@ title: Echtzeitberichte
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
@@ -24,5 +27,4 @@ Sie haben folgende Möglichkeiten:
 
 Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) aktiviert.
 
->[!NOTE] Die zuvor veröffentlichte Funktion &quot;Aktuelle Daten [!UICONTROL Real-Time Reports] [einschließen&quot;(Datenneuigkeit)](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) ist nicht mit der Funktion identisch, wodurch die Latenz für den Standarddatumszeitraum reduziert wurde, indem Daten angezeigt wurden, bevor sie fertig gestellt wurden.
-
+>[!NOTE] [!UICONTROL Echtzeitberichte] sind mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Datenneuigkeit) nicht identisch. Mit dieser wird die Latenz für Standardberichte verkürzt, indem Daten angezeigt werden, bevor sie finalisiert wurden.
