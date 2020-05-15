@@ -3,7 +3,10 @@ description: Mithilfe von Ziele-Berichten können Sie die Leistung Ihrer Website
 title: Ziele
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -16,10 +19,10 @@ Mithilfe von Ziele-Berichten können Sie die Leistung Ihrer Website messen und d
 >
 >Diese Berichte sollten nicht mit dem Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18)-Bericht verwechselt werden.
 
-To access your Targets reports, go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL[your target name]]**
+Rufen Sie Ihre Ziele-Berichte auf, indem Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Ziele]** > **[!UICONTROL [Name Ihres Ziels]]** navigieren.
 
-Wenn Sie [Ziele erstellen](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html), legen Sie fest, welche Attributmetriken oder eVars gemessen werden sollen oder ob Sie Ihre gesamte Website mit einer bestimmten Metrik vergleichen möchten.
+Wenn Sie [Ziele erstellen](/help/analyze/reports-analytics/targets.md), legen Sie fest, welche Attributmetriken oder eVars gemessen werden sollen oder ob Sie Ihre gesamte Website mit einer bestimmten Metrik vergleichen möchten.
 
 Der Bericht zeigt die zusammengefasste Summe der von Ihnen festgelegten Metrik sowie den Unterschied zwischen der Gesamtsumme und dem Ziel, das Sie beim Konfigurieren des Berichts festgelegt haben.
 
-Sie können Ihre Zielgruppen auch unter **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+Sie können Ihre Ziele auch unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Ziele]** verwalten.
