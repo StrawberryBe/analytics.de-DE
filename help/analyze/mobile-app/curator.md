@@ -1,47 +1,48 @@
 ---
-description: Anleitung zum Einrichten der Dashboards-Scorecards.
-title: Leitfaden zum Kurator für Adobe Analytics-Dashboard
+description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
+title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '2286'
+ht-degree: 98%
 
 ---
 
 
 
-# Leitfaden des Kurators für Adobe Analytics-Dashboard
+# Kuratorleitfaden für Adobe Analytics-Dashboards
 
->[!IMPORTANT]
->
->Adobe Analytics-Dashboard werden nicht veröffentlicht und stehen nur eingeladenen Kunden zum Betatest zur Verfügung. Diese Dokumentation ist nur für Betabenutzer gedacht und stellt keine vollständige Funktionalität der Funktion dar. Wenn Sie Interesse haben, Betabenutzer für diese >Funktion zu werden, wenden Sie sich bitte an Ashok Gorrepati (gorrepati@adobe.com).
+Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfiguration und Präsentation von Dashboards für Führungskräfte an.
 
 ## Einführung
 
-Adobe Analytics-Dashboard bieten jederzeit und überall Einblicke aus Adobe Analytics. Die App bietet Benutzern auf Mobilgeräten Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboard werden auf iOS- und Android-Betriebssystemen unterstützt.
+Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Die App bietet Benutzern auf Mobilgeräten Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
 
-## Informationen zu diesem Handbuch
+## Weitere Informationen zu diesem Handbuch
 
-Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ihre leitenden Benutzer auf den Analytics-Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl geschäftsführende Benutzer Endbenutzer von Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
+Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ausführende Benutzer in den Analytics-Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl ausführende Benutzer die Endbenutzer der Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
 
 
 ## Glossar
 
-Die folgende Tabelle beschreibt die Begriffe zum Verständnis der Audience, der Funktionen und des Betriebs der Analytics-Dashboard.
+In der folgenden Tabelle werden Begriffe zum Verständnis von Zielgruppe, Funktionen und Verwendung der Analytics-Dashboards beschrieben.
 
 | Begriff | Definition |
 |--- |--- |
 | Verbraucher | Ausführende Person, die wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
 | Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
-| Kuratierung | Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
-| Scorecard | Eine Dashboard-Ansicht, die eine oder mehrere Kacheln enthält |
+| Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
+| Scorecard | Eine Ansicht der Dashboards mit einer oder mehreren Kacheln |
 | Kachel | Wiedergabe einer Metrik in einer Scorecard-Ansicht |
-| Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an. |
-| Datumsbereich | Der primäre Datumsbereich für den Dashboard-Berichte |
+| Aufschlüsselung | Eine sekundäre Ansicht, die durch Tippen auf eine Kachel in der Scorecard zugänglich ist. Diese Ansicht erweitert die auf der Kachel dargestellte Metrik und zeigt optional Informationen über zusätzliche Aufschlüsselungsdimensionen an |
+| Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die Dashboards |
 | Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
 
  
 ## Scorecard für ausführende Benutzer erstellen
 
-Eine Scorecard stellt wichtige Datenvisualisierungen für ausführende Benutzer in einem gekachelten Layout bereit, wie nachfolgend gezeigt:
+Eine Scorecard stellt wie nachfolgend gezeigt wichtige Datenvisualisierungen für ausführende Benutzer in einem gekachelten Layout bereit:
 
 
 ![Beispiel-Scorecard](assets/intro_scorecard.png)
@@ -82,7 +83,7 @@ Klicken Sie im Bildschirm **Projekte** auf der Registerkarte **Komponenten** auf
 
 **Analytics-Tools verwenden**
 
-In Analytics, click the **Tools** menu and select **dashboards**. Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche **Scorecard erstellen**.
+Klicken Sie in Analytics auf das Menü **Tools** und wählen Sie **Dashboards** aus. Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche **Scorecard erstellen**.
 
 ### Scorecard mit Daten konfigurieren und speichern
 
@@ -152,7 +153,7 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 ![Scorecards freigeben](assets/new_share.png)
 
 
-Nachdem Sie eine Scorecard freigegeben haben, können Ihre Empfänger auf ihre Analytics-Dashboard zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
+Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
 *Hinweis: Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **automatischen Freigeben eingebetteter Komponenten für Empfänger**aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.*
 
@@ -165,7 +166,7 @@ In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätz
 Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen, stellen Sie Folgendes sicher:
 
 * Auf den Geräten Ihrer Benutzer muss mindestens iOS-Version 10 oder Android-Version 4.4 (KitKat) installiert sein.
-* Die Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
+* Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
 * Sie müssen die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben haben.
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
 * Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **eingebettete Komponenten automatisch für die Empfänger freizugeben**.
@@ -178,7 +179,7 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
+   1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar):
 
       [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -188,13 +189,12 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
 
    2. Tippen Sie auf den Link **Im App Store anzeigen** auf dem Bildschirm, um die Testflight-App herunterzuladen.
 
-   3. Suchen und installieren Sie nach der Installation der Testflight-App die Adobe Analytics-Dashboard wie folgt in Testflight:
+   3. Suchen und installieren Sie nach der Installation der Testflight-App wie unten gezeigt die Adobe Analytics-Dashboards in Testflight:
 
       ![Testflight-Bildschirm](assets/testflight2.png)
-
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+   1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link „Tester werden“:
@@ -207,15 +207,13 @@ Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, 
 
    3. Laden Sie die App herunter und installieren Sie sie.
 Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
-
    ![Willkommensbildschirm der App](assets/welcome.png)
 
 2. Helfen Sie Benutzern beim Zugriff auf Ihre Scorecard. Nach der Anmeldung bei der App wird ausführenden Benutzern der Bildschirm **Unternehmen auswählen** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann. So helfen Sie Benutzern, eine Scorecard anzuzeigen:
 
    * Tippen Sie auf den Namen der Unternehmensanmeldung oder der Experience Cloud-Organisation, der für die von Ihnen freigegebene Scorecard gilt. Die Scorecard-Liste zeigt alle Scorecards an, die mit dem ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
-   * Helfen Sie Benutzern, diese Liste ggf. nach der zuletzt geänderten Scorecard zu sortieren.****
+   * Helfen Sie Benutzern, diese Liste ggf. nach der **zuletzt geänderten Scorecard** zu sortieren.
    * Tippen Sie auf den Namen der Scorecard, um sie anzuzeigen.
-
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
 
    Hinweis: Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde, kann das folgende Gründe haben:
@@ -224,7 +222,6 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
    * Eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
 
       ![Nichts freigegeben](assets/nothing.png)
-
    Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 3. Erklären Sie dem ausführenden Benutzer, wie die Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden.
@@ -260,7 +257,6 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
    1. Tippen Sie auf das Benutzersymbol in der oberen rechten Ecke des App-Bildschirms.
    2. Tippen Sie auf dem Bildschirm **Mein Konto** auf die Option **Feedback**.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
-
    ![Feedback hinterlassen](assets/feedback.png)
    ![Feedback-Optionen](assets/feedback_option.png)
 
