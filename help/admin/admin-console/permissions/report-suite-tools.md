@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 98%
 
 ---
 # Report Suite-Tools, die in den Produktprofilberechtigungen aufgeführt sind
@@ -59,3 +62,4 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Gebrauchszusammenfassungs-Reportlet | Nicht verwendet. |
 | Webressourcen | Nicht verwendet. |
 | Social | Nicht verwendet. |
+| Datenreparatur-API | Gewährt Zugriff auf die Datenreparatur-API (künftige Version) |
