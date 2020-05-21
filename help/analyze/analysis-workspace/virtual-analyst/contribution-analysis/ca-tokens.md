@@ -3,7 +3,10 @@ description: 'null'
 title: Übersicht über die Beitragsanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +23,9 @@ Die [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anoma
 
 Mit Hilfe der Beitragsanalyse können Sie besser nachvollziehen, wie es zu einer Anomalie kam und wie Sie darauf reagieren. Zu diesem Zweck werden relevante Metriken erfasst und verborgene Punkte identifiziert, die einen allgemeinen Grund für die Interaktionen der Zielgruppe und Trends beim Kundeninteresse darstellen. Manchmal lässt sich eine Anomalie leicht erkennen und korrigieren. Das ist beispielsweise bei einer irrtümlichen Bestellung von 2000 Kajaks der Fall. Manchmal ist die Erkennung einer Anomalie dagegen recht schwierig, zum Beispiel bei einem aufkommenden Trend in einem bestimmten Zeitraum in einer Region, der nur in Reaktion auf eine spezifische zielgerichtete Kampagne erfolgt. Die Zusammenstellung beitragender Elemente in Metriken für unterschiedliche Dimensionen und ihre Verbindungen verschafft Ihnen einen allgemeinen Überblick über die Interaktionen Ihrer Zielgruppen und liefert wichtigen Kontext für abweichende Datenpunkte.
 
-Hier sind einige Beispiele und Anregungen:
+Im Folgenden finden Sie einige Anwendungsfälle:
 
-* Identifizierung des Weitervermarktungspotenzials durch die Überwachung von Veränderungen bei der Produktnachfrage
+* Identifizieren Sie das Wiedervermarktungspotenzial, indem Sie Veränderungen der Produktnachfrage überwachen.
 * Optimierung des Kundenerlebnisses durch Reaktion auf spezifische Zielgruppeninteressen
 * Frühe Identifizierung betrügerischer Bestellungen dank Anomalieberichten
 * Schutz vor Industriespionage durch Identifikation hoher Auslastung und einer großen Anzahl an Downloads
@@ -52,7 +55,7 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Warum hat Adobe Token eingeführt? </b> </p> </td> 
-   <td colname="col2"> <p>Die Beitragsanalyse ist seit der Einführung im Jahr 2015 eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. </p> </td> 
+   <td colname="col2"> <p>Die Analyse von Beiträgen war eine der wichtigsten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen?</b> </p> </td> 
