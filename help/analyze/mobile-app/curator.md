@@ -2,10 +2,10 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
+source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 82%
+source-wordcount: '2331'
+ht-degree: 78%
 
 ---
 
@@ -13,16 +13,15 @@ ht-degree: 82%
 
 # Kuratorleitfaden für Adobe Analytics-Dashboards
 
-Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfiguration und Präsentation von Dashboards für Führungskräfte an. Ein Video mit diesen Informationen finden Sie unter In-App-Erlebnis für [Adobe Analytics-Dashboard](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be).
+Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfiguration und Präsentation von Dashboards für Führungskräfte an. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics Dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94).
 
 ## Einführung
 
-Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Die App bietet Benutzern auf Mobilgeräten Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
+Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Die App ermöglicht Benutzern auf Mobilgeräten den Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
 
 ## Weitere Informationen zu diesem Handbuch
 
-Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ausführende Benutzer in den Analytics-Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl ausführende Benutzer die Endbenutzer der Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
-
+Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ihre leitenden Benutzer auf Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl ausführende Benutzer die Endbenutzer der Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
 
 ## Glossar
 
@@ -164,9 +163,9 @@ Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen
 
 * Auf den Geräten Ihrer Benutzer muss mindestens iOS-Version 10 oder Android-Version 4.4 (KitKat) installiert sein.
 * Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
-* Sie müssen die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben haben.
+* Sie haben für sie korrekte mobile Scorecards erstellt und diese Scorecards für sie freigegeben.
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
-* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **eingebettete Komponenten automatisch für die Empfänger freizugeben**.
+* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
 
 ### Unterstützung von leitenden Benutzern mit der App
 
@@ -198,19 +197,26 @@ So unterstützen Sie geschäftsführende Benutzer:
    Wenn sich der geschäftsführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde:
 
    * Der ausführende Benutzer hat möglicherweise die falsche Analytics-Instanz ausgewählt.
-   * Eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
-   Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
-3. Erklären Sie dem Benutzer, wie Kacheln in den freigegebenen Scorecards angezeigt werden (die unten stehende Scorecard wird im Dark-Modus eingestellt, wie in den **Voreinstellungen** beschrieben, wie in einem nachfolgenden Schritt beschrieben):
+   * Eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
+
+      ![Nichts freigegeben](assets/nothing.png)
+
+
+   * Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
+
+
+3. Erklären Sie dem geschäftsführenden Benutzer, wie Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden (die erste Scorecard unten ist im Dark-Modus eingestellt; finden Sie unter **Voreinstellungen** unten, wenn Sie der Meinung sind, dass Ihr geschäftsführender Benutzer diese Anzeigeoption bevorzugt):
 
    ![Kacheln erklären](assets/newexplain.png)
 
+   ![Beispiel-Scorecard](assets/intro_scorecard.png)
 
    Zusätzliche Informationen zu Kacheln:
 
    * Die Granularität der Sparklines hängt von der Länge des Datumsbereichs ab:
       * Für einen Tag wird ein stündlicher Trend angezeigt.
-      * Für mehr als einen Tag und weniger als ein Jahr wird ein täglicher Trend angezeigt.
+      * Mehr als ein Tag und weniger als ein Jahr zeigen einen täglichen Trend
       * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
    * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
    * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.
@@ -224,14 +230,13 @@ So unterstützen Sie geschäftsführende Benutzer:
 
    * Eine Tabelle ist enthalten, um Daten über Dimensionen anzuzeigen, die der Kachel hinzugefügt wurden. Tippen Sie auf den Pfeil nach unten, um Dimensionen auszuwählen. Wenn der Kachel keine Dimension hinzugefügt wurde, zeigt die Tabelle Diagrammdaten an.
 
-
 5. So ändern Sie Datumsbereiche für Ihre Scorecard:
 
    ![Datum ändern](assets/changedate.png)
 
-   Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungs-Ansicht auf dieselbe Weise ändern.
+   * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungs-Ansicht auf dieselbe Weise ändern.
 
-   Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
+   * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
 6. So hinterlassen Sie Feedback zu dieser App:
 
