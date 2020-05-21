@@ -2,17 +2,17 @@
 description: Anleitung zur Verwendung der Dashboard-Scorecards.
 title: Handbuch zu Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1287'
+ht-degree: 75%
 
 ---
 
 
 # Adobe Analytics-Dashboards: Schnellstarthandbuch für ausführende Benutzer
 
-Die folgenden Informationen enthalten Informationen zu Best Practices für die Verwendung und Anzeige von Adobe Analytics-Dashboards.
+Die folgenden Informationen enthalten Informationen zu Best Practices für die Verwendung und Anzeige von Adobe Analytics-Dashboards. Ein Video mit diesen Informationen finden Sie unter In-App-Erlebnis für [Adobe Analytics-Dashboard](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Einführung
@@ -51,36 +51,21 @@ Um auf Scorecards in Dashboards zuzugreifen, stellen Sie Folgendes sicher:
 
 Um die App herunterzuladen und zu installieren, führen Sie die Schritte entsprechend dem Betriebssystem auf Ihrem Gerät aus.
 
-**Für iOS-Geräte:**
+**Für ausführende Benutzer mit iOS-Geräten:**
 
-1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar):
+Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
-   [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+[iOS-Link](https://apple.co/2zXq0aN)
 
-   Nachdem Sie auf den Link geklickt haben, wird der folgende Testflight-Bildschirm angezeigt:
+**Für ausführende Benutzer mit Android-Geräten:**
 
-   ![Testflight-Bildschirm](assets/testflight1.png)
+Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
-2. Tippen Sie auf den Link **Im App Store anzeigen** auf dem Bildschirm, um die Testflight-App herunterzuladen.
+[Android-Link](https://bit.ly/2LM38Oo)
 
-3. Suchen und installieren Sie nach der Installation der Testflight-App wie unten gezeigt die Adobe Analytics-Dashboards in Testflight:
+Nach dem Herunterladen und der Installation können sich Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden.
 
-   ![Testflight-Bildschirm](assets/testflight2.png)
-
-**Für Android-Geräte:**
-
-1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar):
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link „Tester werden“:
-
-   ![Play Store-Bildschirm](assets/play.png)
-
-2. Tippen Sie im folgenden Bildschirm auf den Link, damit Sie die App **bei Google Play herunterladen** können:
-
-   ![Download-Link](assets/playnext.png)
+![Willkommensbildschirm der App](assets/welcome.png)
 
 ## Verwenden von Dashboards
 
@@ -94,29 +79,33 @@ So verwenden Sie Dashboards:
 
 3. Anschließend wird die Scorecard-Liste mit allen für Sie freigegebenen Scorecards angezeigt. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
-   ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
+   ![Wählen Sie ein Unternehmen aus.](assets/nextseq.png)
 
-   *Hinweis: Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes zusammen mit Ihrem Kurator:*
+   Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes mit Ihrem Kurator:
 
-   * *Sie können sich bei der richtigen Analytics-Instanz anmelden.*
-   * *Die Scorecard wurde für Sie freigegeben.*
+   * Sie können sich bei der richtigen Analytics-Instanz anmelden.
+   * Die Scorecard wurde für Sie freigegeben.
+   ![Nichts freigegeben](assets/nothing.png)
 
-      ![Nichts freigegeben](assets/nothing.png)
-
-4. Sehen Sie sich die Kacheln an, die in der Scorecard angezeigt werden.
+4. Untersuchen Sie, wie die Kacheln in der Scorecard angezeigt werden (die erste Scorecard wird im Dark-Modus angezeigt). Weitere Informationen finden Sie unter **Voreinstellungen** unten).
 
    ![Erklärte Kacheln](assets/newexplain.png)
 
    Zusätzliche Informationen zu Kacheln:
 
    * Die Granularität der Sparklines hängt von der Länge des Datumsbereichs ab:
-   * Für einen Tag wird ein stündlicher Trend angezeigt.
-   * Für mehr als einen Tag und weniger als ein Jahr wird ein täglicher Trend angezeigt.
-   * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
-   * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
-   * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.
 
-5. Tippen Sie auf eine Kachel, um zu zeigen, wie eine detaillierte Aufschlüsselung für die Kachel funktioniert.
+      * Für einen Tag wird ein stündlicher Trend angezeigt.
+      * Mehr als ein Tag und weniger als ein Jahr zeigen einen täglichen Trend
+      * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
+   * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
+
+   * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.
+   Das folgende Beispiel für eine Scorecard wird im normalen Modus angezeigt:
+
+   ![Beispiel-Scorecard](assets/intro_scorecard.png)
+
+5. Tippen Sie auf eine Kachel, um zu sehen, wie eine detaillierte Aufschlüsselung für die Kachel funktioniert.
 
    ![Aufschlüsselungsansicht](assets/sparkline.png)
 
@@ -125,21 +114,27 @@ So verwenden Sie Dashboards:
 
    ![Datum ändern](assets/changedate.png)
 
-   *Hinweis: Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungsansicht auf dieselbe Weise ändern.*
+   * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungs-Ansicht auf dieselbe Weise ändern.
 
-   Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
+   * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
-7. Fordern Sie eine Scorecard-Aktualisierung an. Wenn eine Scorecard nicht alle Metriken oder Aufschlüsselungen enthält, die für Sie von Interesse sein könnten, wenden Sie sich an Ihr Analytics-Team, um die Scorecard zu aktualisieren. Nach der Aktualisierung können Sie die Karte auf dem Bildschirm nach unten ziehen, um sie zu aktualisieren und die kürzlich hinzugefügten Daten zu laden.
+7. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf das Dropdown-Menü Filter und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in der App funktionieren genauso wie in Analytics Workspace.
 
+   ![Segmentfilter](assets/segment_filter.png)
 
+8. Fordern Sie eine Scorecard-Aktualisierung an. Wenn eine Scorecard nicht alle Metriken oder Aufschlüsselungen enthält, die für Sie von Interesse sein könnten, wenden Sie sich an Ihr Analytics-Team, um die Scorecard zu aktualisieren. Nach der Aktualisierung können Sie die Karte auf dem Bildschirm nach unten ziehen, um sie zu aktualisieren und die kürzlich hinzugefügten Daten zu laden.
 
-8. Feedback hinterlassen. So hinterlassen Sie Feedback:
+9. So hinterlassen Sie Feedback zu dieser App:
 
-   1. Tippen Sie auf das Benutzersymbol in der oberen rechten Ecke des Dashboards-Bildschirms.
-   2. Tippen Sie auf dem Bildschirm **Mein Konto** auf die Option **Feedback**.
+   1. Tippen Sie auf das Symbol &quot;Einstellungen&quot;oben rechts im App-Bildschirm.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
-   ![Feedback hinterlassen](assets/feedback.png)
-   ![Feedback-Optionen](assets/feedback_option.png)
+
+      ![Einstellungsbildschirm](assets/settings.png)
+
+10. Um die Voreinstellungen zu ändern, tippen Sie auf die **Option Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dark-Modus einstellen:
+
+   ![Dunkler Modus](assets/darkmode.png)
 
 
 **So melden Sie einen Fehler:**
