@@ -4,190 +4,60 @@ title: Analysis Workspace – Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+source-git-commit: 9ea9beba2a608da66e1f942cc100ebde958a8a10
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 33%
 
 ---
 
 
 # Analysis Workspace – Übersicht
 
-Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen. Zu den erweiterten Funktionen zählen Attribution IQ,
+Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+Diese Seite enthält grundlegende Anweisungen zum Einstieg. Wenn Sie die Grundlagen beherrscht haben, können Sie zu den erweiterten Funktionen von Workspace wechseln. Dazu gehören [Zuordnungs-IQ](/help/analyze/analysis-workspace/attribution-iq.md), [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Beitragsalierungs-Analyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment-IQ](/help/analyze/analysis-workspace/segment-iq.md)und [intelligente Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-## Überblickvideo
+Im Folgenden finden Sie eine Videoübersicht zu Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-Eine vollständige YouTube-Playlist ist [hier](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7) verfügbar.
+Die vollständige YouTube-Playlist für die Funktionen von Analyse Workspace finden Sie [hier](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7).
 
->[!NOTE]
->
->[Neuerungen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) enthält aktuelle Informationen zu Funktionen.
+## Erstellen eines einfachen Projekts
 
-## Vollständige Kontrolle über Projektelemente und Komponenten
+Ein Projekt kann Datentabellen und eine beliebige Anzahl von Visualisierungen enthalten, die im Drilldown-Drilldown-Verfahren in
 
-Der Analysis Workspace ermöglicht Unabhängigkeit und Flexibilität:
 
-* Drag-and-Drop von Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten)
-* Drag-and-Drop von mehreren Visualisierungen in das Projekt
-* Visualisierungen lassen sich in einem Projekt jederzeit verschieben, in der Größe verändern und stapeln
+## Zwei Möglichkeiten zum Erstellen einer Tabelle
 
-![](assets/fa_project_new.png)
+## Gemeinsames Konzept für die Analyse
 
-Weitere Informationen finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+### Schritt 1: Analysieren einer Dimension
 
-## Mehrere Visualisierungen in einem Projekt
+Verwenden Sie die Definitionen und Beispiele, die wir im Schulungslehrgang haben - dieses Feedback gilt für alle verbleibenden Schritte
 
-Erstellen Sie per Drag-and-Drop beliebig viele Visualisierungen in einem Projekt.
+### Schritt 2: Hinzufügen einer Metrik
 
-![](assets/visualizations-multiple.png)
+Tippen Sie auf, um berechnete Metriken in diesem Abschnitt hinzuzufügen.
 
-Erstellen Sie ein Projekt, das den Prozentsatz der Veränderung zeigt, mit mehreren Visualisierungen, die den Zellen in einer Freiform-Datentabelle entsprechen.
+### Schritt 3: Datumsbereich ändern
 
-![](assets/visualizations-multiple02.png)
+### Schritt 4: Aufschlüsseln einer Dimension
 
-Weitere Informationen finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+### Schritt 5: Anwenden eines Segments auf Ihre Daten
 
-## Intra-Linking zu Bereichen und Visualisierungen
+### Schritt 6: Hinzufügen grundlegende Visualisierungen
 
-Mithilfe der [Rich-Text-Bearbeitungsfunktionen](/help/analyze/analysis-workspace/visualizations/text.md) von Analysis Workspace können Sie innerhalb eines Projekts von einem Textfeld aus Verknüpfungen zu bestimmten Bereichen und Visualisierungen anlegen, beispielsweise um das Inhaltsverzeichnis eines Projekts zu erstellen. Sie können diese Verknüpfungen dann wie eine Projektverknüpfung freigeben, um eine Person an eine bestimmte Visualisierung oder einen Bereich innerhalb eines Projekts weiterzuleiten. Die neuen Rechtsklickoptionen „Bereichslink abrufen“ und „Visualisierungslink abrufen“ wurden hinzugefügt. So fügen Sie Intra-Linking zu Ihrem Projekt hinzu:
+Tipp zu &quot;Schnellansicht&quot;in diesem Abschnitt teilen
 
-1. Ziehen Sie eine Textvisualisierung in ein Projekt, z. B. neben eine Visualisierung oder Tabelle, für die Kontext erforderlich ist.
-1. Füllen Sie das Textfeld z. B. mit einem Inhaltsverzeichnis und markieren Sie dann ein Element, das Sie mit einem Bereich oder einer Visualisierung verknüpfen möchten, z. B. Erfolgsmetriken.
+### Schritt 7: Erweiterte Visualisierungen
 
-   ![](assets/intra-linking1.png)
+Fluss hervorheben, Trichteranalyse, Kohorte, Map
 
-1. Scrollen Sie zu diesem Bereich bzw. zu dieser Visualisierung und klicken Sie mit der rechten Maustaste auf den Header des Bereichs.
-1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Bereichslink abrufen]** oder **[!UICONTROL Visualisierungslink abrufen]** aus:
+### Schritt 8: Kuratieren und Freigeben
 
-   ![](assets/intra-linking2.png)
+## Weitere Informationen
 
-1. Kopieren Sie diesen Link und fügen Sie ihn zum Erfolgsmetrik-Hyperlink in der Textvisualisierung hinzu. Klicken Sie auf das Häkchen, um den Text zu speichern.
-
-Wenn Bereiche oder Visualisierungen innerhalb Ihres Projekts ausgeblendet sind, können Sie diese durch Klicken auf einen Link einblenden, um sie für Benutzer sichtbar zu machen.
-
->[!NOTE] Sie können diese Funktion auch über die Rechtsklickoption **[!UICONTROL Beschreibung bearbeiten]** verwenden.
-
-## Verknüpfung zu anderen Projekten
-
-Sie können Benutzer mit anderen u. U. für sie interessanten Projekten verknüpfen, indem Sie **[!UICONTROL Freigabe]** > **[!UICONTROL Projektverknüpfung abrufen]** aufrufen und diesen Link z. B. in Projektbeschreibungen einbetten.
-
-## Dynamische Visualisierung ausgewählter Zellen
-
-Wenn Sie einzelne Zellen auswählen, wird die Visualisierung dynamisch geändert. Synchronisieren und sperren Sie eine Visualisierung an ausgewählten Zellen.
-
-![](assets/visualize-selected-cells.png)
-
-## Ausgewählte Elemente oder Positionen sperren
-
-Durch das Sperren von Visualisierungen können Sie steuern, welche Freiform-Datentabellenquellen den Visualisierungen entsprechen.
-
-![](assets/manage-data-source.png)
-
-[Data Sources verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
-
-## Trend-Visualisierungen aus ausgewählten Zellen
-
-Erstellen Sie eine Visualisierung aus ausgewählten Zellen. (Rechtsklick > **[!UICONTROL Trendauswahl]**.)
-
-![](assets/trend-selection.png)
-
-Trendauswahlen werden jetzt mit der Tabelle darunter **verknüpft**. Wenn Sie daher in der Tabelle eine andere Zeile auswählen, bezieht sich das Trend-Diagramm auf diese Zeile.
-
-![](assets/trend-selection2.png)
-
-## Aufschlüsselungen von Dimensionen und Dimensionselementen
-
-Als Händler erhalten Sie tiefere Einblicke in Ihre Kampagnen, als Sie je hatten, und verstehen so, wie Sie Ihre Kunden binden können. Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlüsseln. Erstellen Sie Abfragen mithilfe relevanter Metriken, Dimensionen, Segmente, Zeitachsen und anderer Aufschlüsselungswerte für die Analyse.
-
-![Schritt Ergebnis](assets/fa_data_table_actions.png)
-
-[Schlüsseln Sie Dimensionen auf](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
-
-## Segmente aus Tabellenauswahlen
-
-Wählen Sie Zellen in der Freiformtabelle aus und erstellen Sie aus der Auswahl ein Segment.
-
-Vergleichen Sie mehrere Segmente und erstellen Sie direkt Segmente, die Sie anwenden. Sie können mehrere Segmente anwenden, um den Fokus auf bestimmte Kunden zu legen, die aufgrund von Verhalten und Interaktion ausgewählt werden, und diese dann vergleichen und gegenüberstellen.
-
-![](assets/segment_inline.png)
-
-Ziehen Sie ein Segment auf der Projektebene auf den Freiformbereich, damit das Segment auf das gesamte Projekt angewendet wird.
-
-![](assets/segment-panel.png)
-
-Siehe [Segmente](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
-
-## Projekt- und Komponenten-Tagging
-
-In Analysis Workspace können Sie Tags auf Projekte und Komponenten anwenden:
-
-* Anwenden oder Erstellen von Tags auf Projektebene im Informationsbereich ![](assets/information_icon.png)
-
-* Rechtsklick auf Komponenten zum Taggen (oder Erstellen von Tags) im Komponentenbereich
-* Suchen von Tags durch Eingabe von „#“ im Suchfeld
-
-## Komponentenaktionen
-
-Aktionen auf Komponentenebene führen Sie über das Menü „Aktionen“ durch, das sich oben in der linken Leiste von „Komponenten“ befindet. Wählen Sie eine Komponente aus und klicken Sie auf **[!UICONTROL Aktionen]**, um die Aktionen anzuzeigen.
-
-| Komponentenaktion | Beschreibung |
-|--- |--- |
-| Tag | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
-| Favorit | Fügen Sie die Komponente Ihrer Favoritenliste hinzu. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
-| Genehmigen | Genehmigen Sie die Komponente, um sie zu autorisieren. Dies wird dann bei der jeweiligen Komponentenverwaltung angezeigt, beispielsweise „Analysen“ > „Komponenten“ > „Segmente“ oder „Analysen“ > „Komponenten“ > „Projekte“. |
-| Freigabe | Gilt nur für Segmente. |
-| Löschen | Gilt nur für Segmente. |
-
-Weitere Informationen zu diesem Thema finden Sie unter [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
-
-## Beschreibung weiterer Funktionen
-
-**Was Sie ziehen und stapeln können**
-
-Komponenten
-
-* Dimensionen
-* Segmente
-* Metriken
-* Datumsbereiche
-* Zeitgranularitäten (Stunde, Tag, Woche usw.).
-
-**Mehrere Freiformtabellen und mehrere Visualisierungen**
-
-Es gibt keine technische Einschränkung für die Anzahl der Freiformtabellen und Visualisierungen, die Sie zum Bereich hinzufügen können. Sie können auch eine neue Visualisierung (oder einen Export in eine CSV-Datei) der einzelnen Freiformtabellen oder ausgewählten Zeilen einer Tabelle ausführen.
-
-**Anordnen, Sortieren und Kopieren von Spalten**
-
-* Sortieren der vordefinierten Datumsbereiche (ohne benutzerdefinierte Datumsbereiche)
-* STRG (oder Command) + Klick + Ziehen einer Spalte kopiert die Spalte. Wenn Sie die Kopie ziehen, wird sie an der neuen Position in die Tabelle eingefügt.
-
-Für weitere Informationen siehe [Tastaturbefehle in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
-
-**Auswahlen und Aktionen**
-
-Sie können Zeilen und Spalten ähnlich wie in Excel auswählen. Anschließend können Sie auf diesen Auswahlen Aktionen ausführen. Beispiel:
-
-* Erstellen Sie Visualisierungen aus Auswahlen
-* Kopieren Sie diese in die Zwischenablage (STRG + C oder Command + C)
-* Schlüsseln Sie mehrere ausgewählte Zeilen auf. Wählen Sie die Zeilen aus und ziehen Sie dann eine Dimension auf die Auswahl. Oder klicken Sie mit der rechten Maustaste auf die Auswahl und verwenden Sie das Aufschlüsselungsmenü.
-
-**Automatisches Speichern und nicht gespeicherte Änderungen**
-
-Wenn Sie versuchen, den Browser zu schließen (oder die Zurück-Schaltfläche zu verwenden) und das Projekt noch nicht gespeichert wurde, werden Sie aufgefordert, Ihre Änderungen zu speichern. Wenn Ihr System abstürzt, erhalten Sie beim nächsten Laden des Projekts einen Warnhinweis, um den vorherigen Projektzustand wiederherzustellen.
-
-Bereits bestehende (nicht neue) Projekte werden nur automatisch gespeichert, wenn der Browser abstürzt oder Sie aus einem anderen Grund keine Möglichkeit hatten, sie zu speichern.
-
-**Alle Besuche**
-
-Ein spezifisches Standardsegment von Analysis Workspace. *`All Visits`* zeigt die Summen für die Komponenten, die Sie zur Tabelle hinzufügen, an.
-
-**Berechnete Metriken**
-
-Verwenden Sie Berechnungen so, wie Sie Standardmetriken verwenden.
-
-Siehe [Berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html).
+* [Neuerungen in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) enthält aktuelle Informationen zu Funktionen.
+* Andere Dinge
