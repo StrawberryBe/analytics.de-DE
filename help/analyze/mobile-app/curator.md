@@ -2,9 +2,9 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ So implementieren Sie die Scorecard-Vorlage:
 
 4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso an wie in Adobe Analytics Workspace.
 
+   ![Segmente für Filter erstellen](assets/segment_ui.png)
+
 5. Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Mobile Customers** dargestellt:
 
    ![Komponenten entfernen](assets/new_remove.png)
@@ -174,14 +176,14 @@ So unterstützen Sie geschäftsführende Benutzer:
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   1. Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
       [iOS-Link](https://apple.co/2zXq0aN)
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   1. Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Android-Link](https://bit.ly/2LM38Oo)
    Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
 
    ![Willkommensbildschirm der App](assets/welcome.png)
