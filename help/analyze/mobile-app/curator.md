@@ -2,10 +2,10 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 98%
+source-wordcount: '2323'
+ht-degree: 82%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Kuratorleitfaden für Adobe Analytics-Dashboards
 
-Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfiguration und Präsentation von Dashboards für Führungskräfte an.
+Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfiguration und Präsentation von Dashboards für Führungskräfte an. Ein Video mit diesen Informationen finden Sie unter In-App-Erlebnis für [Adobe Analytics-Dashboard](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be).
 
 ## Einführung
 
@@ -71,10 +71,6 @@ Sie haben folgende Möglichkeiten, auf die Vorlage für leere mobile Scorecards 
 
 ![Scorecard-Vorlage](assets/new_template.png)
 
-
-*Hinweis: Wenn Sie die unten gezeigte Vorlage für leere mobile Scorecards nicht sehen, wurde Ihr Unternehmen noch nicht für die Beta-Version aktiviert. Wenden Sie sich an Ihren Kundenbetreuer.*
-
-
 **Projekt hinzufügen**
 
 Klicken Sie im Bildschirm **Projekte** auf der Registerkarte **Komponenten** auf die Schaltfläche **Hinzufügen** und wählen Sie **Mobile Scorecard** aus.
@@ -105,18 +101,17 @@ So implementieren Sie die Scorecard-Vorlage:
 
    ![Dimensionen hinzufügen](assets/layer_dimensions.png)
 
-   *Hinweis: Sie können auch allen Kacheln eine Dimension hinzufügen, indem Sie diese auf der Scorecard-Arbeitsfläche ablegen.*
+   Sie können allen Kacheln auch eine Dimension hinzufügen, indem Sie sie auf der Arbeitsfläche &quot;Scorecard&quot;ablegen.
 
    Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
-
 
    Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Aufschlüsselungsansicht für ausführende Benutzer in der App dargestellt wird. Wenn keine Dimension auf die Kachel angewendet wurde, werden je nach Standarddatumsbereich entweder **Stunden** oder **Tage** als Aufschlüsselungsdimension verwendet.
 
    ![Aufschlüsselungsansicht](assets/break_view.png)
 
-   *Beachten Sie, dass jede der Kachel hinzugefügte Dimension in einer Dropdown-Liste in der Detailansicht der App angezeigt wird. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.*
+   Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der detaillierten Ansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
 
-4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab.
+4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso an wie in Adobe Analytics Workspace.
 
 5. Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Mobile Customers** dargestellt:
 
@@ -155,7 +150,7 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-*Hinweis: Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **automatischen Freigeben eingebetteter Komponenten für Empfänger**aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## App für ausführende Benutzer einrichten
 
@@ -171,43 +166,23 @@ Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
 * Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **eingebettete Komponenten automatisch für die Empfänger freizugeben**.
 
-### Ausführenden Benutzern bei der Verwendung der App helfen
+### Unterstützung von leitenden Benutzern mit der App
 
-Während der Beta-Phase und bevor die App der Öffentlichkeit vorgestellt wird, können Sie steuern, wer Zugriff auf die App hat.
+So unterstützen Sie geschäftsführende Benutzer:
 
-1. Helfen Sie ausführenden Benutzern, die App herunterzuladen und zu installieren. Führen Sie zu diesem Zweck die folgenden Schritte aus, um den Zugriff auf Ihre ausführenden Benutzer zu erweitern, je nachdem, ob sie ein iOS- oder ein Android-Gerät verwenden.
+1. Hilfe beim Herunterladen und Installieren der App. Führen Sie zu diesem Zweck die folgenden Schritte aus, um den Zugriff auf Ihre ausführenden Benutzer zu erweitern, je nachdem, ob sie ein iOS- oder ein Android-Gerät verwenden.
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   1. Klicken Sie auf den folgenden öffentlichen Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar):
+   1. Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
-      [iOS-Link](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-
-      Nachdem Sie auf den Link geklickt haben, wird der folgende Testflight-Bildschirm angezeigt:
-
-      ![Testflight-Bildschirm](assets/testflight1.png)
-
-   2. Tippen Sie auf den Link **Im App Store anzeigen** auf dem Bildschirm, um die Testflight-App herunterzuladen.
-
-   3. Suchen und installieren Sie nach der Installation der Testflight-App wie unten gezeigt die Adobe Analytics-Dashboards in Testflight:
-
-      ![Testflight-Bildschirm](assets/testflight2.png)
-
+      [iOS-Link](https://apple.co/2zXq0aN)
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   1. Tippen Sie auf dem Gerät des Benutzers auf den folgenden Link zum Play Store (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
-      Nachdem Sie auf den Link getippt haben, tippen Sie auf dem folgenden Bildschirm auf den Link „Tester werden“:
-
-      ![Play Store-Bildschirm](assets/play.png)
-
-   2. Tippen Sie im folgenden Bildschirm auf den Link, damit Sie die App **bei Google Play herunterladen** können:
-
-      ![Download-Link](assets/playnext.png)
-
-   3. Laden Sie die App herunter und installieren Sie sie.
-Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
+      [Android](https://bit.ly/2LM38Oo)
+   Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
 
    ![Willkommensbildschirm der App](assets/welcome.png)
 
@@ -216,19 +191,15 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
    * Tippen Sie auf den Namen der Unternehmensanmeldung oder der Experience Cloud-Organisation, der für die von Ihnen freigegebene Scorecard gilt. Die Scorecard-Liste zeigt alle Scorecards an, die mit dem ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
    * Helfen Sie Benutzern, diese Liste ggf. nach der **zuletzt geänderten Scorecard** zu sortieren.
    * Tippen Sie auf den Namen der Scorecard, um sie anzuzeigen.
-
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
 
-   Hinweis: Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde, kann das folgende Gründe haben:
+   Wenn sich der geschäftsführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde:
 
    * Der ausführende Benutzer hat möglicherweise die falsche Analytics-Instanz ausgewählt.
    * Eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
-
-      ![Nichts freigegeben](assets/nothing.png)
-
    Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
-3. Erklären Sie dem ausführenden Benutzer, wie die Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden.
+3. Erklären Sie dem Benutzer, wie Kacheln in den freigegebenen Scorecards angezeigt werden (die unten stehende Scorecard wird im Dark-Modus eingestellt, wie in den **Voreinstellungen** beschrieben, wie in einem nachfolgenden Schritt beschrieben):
 
    ![Kacheln erklären](assets/newexplain.png)
 
@@ -247,24 +218,30 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
 
    ![Aufschlüsselungsansicht](assets/sparkline.png)
 
+   * Tippen Sie auf einen beliebigen Punkt auf einer Wortgrafik, um die mit diesem Punkt in der Zeile verknüpften Daten anzuzeigen.
+
+   * Eine Tabelle ist enthalten, um Daten über Dimensionen anzuzeigen, die der Kachel hinzugefügt wurden. Tippen Sie auf den Pfeil nach unten, um Dimensionen auszuwählen. Wenn der Kachel keine Dimension hinzugefügt wurde, zeigt die Tabelle Diagrammdaten an.
+
 
 5. So ändern Sie Datumsbereiche für Ihre Scorecard:
 
    ![Datum ändern](assets/changedate.png)
 
-   *Hinweis: Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungsansicht auf dieselbe Weise ändern.*
+   Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungs-Ansicht auf dieselbe Weise ändern.
 
    Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
 6. So hinterlassen Sie Feedback zu dieser App:
 
-   1. Tippen Sie auf das Benutzersymbol in der oberen rechten Ecke des App-Bildschirms.
-   2. Tippen Sie auf dem Bildschirm **Mein Konto** auf die Option **Feedback**.
+   1. Tippen Sie auf das Symbol &quot;Einstellungen&quot;oben rechts im App-Bildschirm.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
 
-   ![Feedback hinterlassen](assets/feedback.png)
-   ![Feedback-Optionen](assets/feedback_option.png)
+      ![Einstellungsbildschirm](assets/settings.png)
 
+7. Um die Voreinstellungen zu ändern, tippen Sie auf die **Option Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dark-Modus einstellen:
+
+   ![Dunkler Modus](assets/darkmode.png)
 
 **So melden Sie einen Fehler:**
 
