@@ -2,7 +2,7 @@
 description: Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
 title: Vergleich der Analytics-Reporting-APIs
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -33,7 +33,7 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
    <td colname="col5"> Vollständig verarbeitete, finale Daten, die als Grundlage für umfangreiche Datenexporte dienen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latenz</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/technotes/latency.translate.html"  > Latenz</a> </p> </td> 
    <td colname="col2"> 30–90 Minuten </td> 
    <td colname="col3"> * Sekunden – 10 Minuten </td> 
    <td colname="col4"> Sekunden – 10 Minuten </td> 
@@ -65,7 +65,7 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
    <td colname="col2"> Ja </td> 
    <td colname="col3"> Nein </td> 
    <td colname="col4"> Nein </td> 
-   <td colname="col5"> Ja  </td> 
+   <td colname="col5"> Ja </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Unterstützung von Segmenten</b> </td> 
@@ -86,13 +86,13 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web-Services</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Echtzeitberichte</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream-Übersicht</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Verwandte Hilfe**
 
-* [Adobe/IO](https://www.adobe.io/) – Eine umfassende Quelle technischer Dokumentation und Tools für die Integration von Adobe-Technologien in Ihre Anwendungen.
+* [Adobe I/O](https://www.adobe.io/) – Eine umfassende Quelle technischer Dokumentation und Tools für die Integration von Adobe-Technologien in Ihre Anwendungen.
 * [Data Workbench-Abfrage-API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
