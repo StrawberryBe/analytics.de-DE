@@ -1,7 +1,7 @@
 ---
 description: Anleitung zum Ausführen von Ad Hoc Analysis mit Java 11.
 title: Ad Hoc Analysis mit Java 11 ausführen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -24,7 +24,7 @@ Arbeiten Sie mit Ihrem IT-Team zusammen, um sicherzustellen, dass Folgendes erf�
 1. Klicken Sie auf **[!UICONTROL Ad Hoc Analysis (Java 11)]**. Dadurch wird eine Zip-Datei heruntergeladen.
 1. Extrahieren Sie die heruntergeladene Datei.
 1. **Wählen Sie die Datei .bat (PC) oder .sh (Mac)**. Wählen Sie die entsprechende Rechenzentrumsdatei aus, indem Sie nach der Nummer in der Adobe Analytics-URL nach „sc“ suchen. (3 = LON, 4 = SIN, 5 = PNW) Wenn Sie einen PC verwenden, überprüfen Sie, ob Sie ein 32-Bit- oder ein 64-Bit-Windows-Betriebssystem verwenden, indem Sie zu „Über Ihren PC“ gehen. Wählen Sie dann die entsprechende .bat-Datei aus.
-1. **Führen Sie die ausgewählte Datei aus**. Für PC: Doppelklicken Sie auf die .bat-Datei. Für Mac: Klicken Sie mit der rechten Maustaste auf die .sh-Datei und wählen Sie anschließend **[!UICONTROL Öffnen mit > Sonstige...  > Dienstprogramme > (Alle Anwendungen aktivieren) > Terminal auswählen > Öffnen]**.
+1. **Führen Sie die ausgewählte Datei aus**. Für PC: Doppelklicken Sie auf die .bat-Datei. Für Mac: Klicken Sie mit der rechten Maustaste auf die .sh-Datei und wählen Sie anschließend **[!UICONTROL Öffnen mit > Sonstige... > Dienstprogramme > (Alle Anwendungen aktivieren) > Terminal auswählen > Öffnen]**.
 1. Melden Sie sich bei Ad Hoc Analysis an.
 
 >[!NOTE] Die Authentifizierungsmethoden für Verbund- und Enterprise IDs werden in der Java 11-Version der Ad Hoc Analysis nicht unterstützt.
