@@ -3,7 +3,7 @@ description: Zeigt Informationen zur Reihenfolge an, in der die Seiten Ihrer Web
 title: Pfadberichte
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -79,7 +79,7 @@ t_fallout.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Neuer Bericht]** > **[!UICONTROL Fallout]**. 
+1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Neuer Bericht]** > **[!UICONTROL Fallout]**.
 
    Andere Fallout-Berichte finden Sie unter **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]**.
 
@@ -119,4 +119,4 @@ r_dsc_fallout.xml
 | Checkpoint % | Der Erfolgsprozentsatz zwischen Checkpoints. (Nicht kumulativ.) |
 | Alle Besuche aufnehmen | Fügt alle Besuche als Start-Checkpoint hinzu. |
 | Fallout | Hier können Sie sehen, welche Seiten angezeigt wurden, nachdem der Besucher den festgelegten Checkpoint-Pfad verlassen hatte. |
-| Fall-through (Verbleib)  | Hier können Sie sehen, welche Seiten im nächsten Schritt des festgelegten Checkpoint-Pfads angezeigt wurden. |
+| Fall-through (Verbleib) | Hier können Sie sehen, welche Seiten im nächsten Schritt des festgelegten Checkpoint-Pfads angezeigt wurden. |
