@@ -1,29 +1,29 @@
 ---
-description: Mit der Methode s.tl() können Sie benutzerdefinierte Elemente verfolgen und das Überlagerungsrendering für dynamische Inhalte konfigurieren.
-title: Verwenden der Methode s.tl()
+description: Mit der s.tl()-Methode können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalte konfigurieren.
+title: s.tl()-Methode verwenden
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Use the `tl()` method
+# `tl()`-Methode verwenden
 
-You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
+Mit der `tl()`-Methode können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalte konfigurieren.
 
-## Verfolgen von benutzerdefinierten Elementen {#section_5D6688DFFFC241718249A9A0C632E465}
+## Benutzerdefinierte Elemente verfolgen {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. Mit s.tl können Sie benutzerdefinierte Elemente verfolgen, die nicht zum Laden einer Seite führen.
+Durch Verwendung der [`tl()`-Methode](/help/implement/vars/functions/tl-method.md) als Bestandteil des Activity Map-Moduls AppMeasurement können Sie alle Objekte verfolgen, auf die geklickt wird, selbst Objekte, die keine Anker-Tags oder Bildelemente sind. Mit s.tl können Sie benutzerdefinierte Elemente verfolgen, die nicht zum Laden einer Seite führen.
 
-In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. jetzt auch zum Identifizieren der Link-ID für die Activity Map-Variable verwendet.
+In der `tl()`-Methode wird der Parameter `linkName`, der aktuell zum Identifizieren der Exitlinks, benutzerdefinierten Links usw. dient, jetzt auch zum Identifizieren der Link-ID für die Activity Map-Variable verwendet.
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-In other words, if you use `s.tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl()` method. Sie wird nicht dem Standard-Linktracking-Algorithmus entnommen, der zur [Standardverfolgung](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in Activity Map verwendet wird.
+Mit anderen Worten, wenn Sie `s.tl()` zur Verfolgung Ihrer benutzerdefinierten Elemente verwenden, wird die Link-ID dem Wert entnommen, der als dritter Parameter (linkName) in der `s.tl()`-Methode übergeben wird. Sie wird nicht dem Standard-Linktracking-Algorithmus entnommen, der zur [Standardverfolgung](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) in Activity Map verwendet wird.
 
 ## Überlagerungsrendering für dynamischen Inhalt {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ Wenn die Funktion s.tl() direkt vom onclick-Ereignis des HTML-Elements aufgerufe
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. Dann wird ein neuer Linkerfassungsprozess von Activity Map ausgelöst.
+Wenn der Webseite nach dem ersten Laden Inhalt hinzugefügt wird, so wird die `tl()`-Methode indirekt aufgerufen und es können keine Überlagerungen für diesen neuen Inhalt angezeigt werden, es sei denn, er wird explizit aktiviert oder angeklickt. Dann wird ein neuer Link-Erfassungsprozess von Activity Map ausgelöst.
 
-When the `tl()` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
+Wenn die `tl()`-Methode nicht direkt vom onclick-Ereignis eines HTML-Elements aufgerufen wird, kann Activity Map die Überlagerung erst anzeigen, nachdem der Benutzer auf dieses Element geklickt hat. Im folgenden Beispiel wird die `tl()`-Methode indirekt aufgerufen:
 
 ```html
 <div onclick="someFn(event)"></div>
@@ -46,7 +46,7 @@ When the `tl()` method is not called directly from the HTML element&#39;s on-cli
 </script>
 ```
 
-The best way for Activity Map to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to `s.tl`. Beispiel:
+Die beste Möglichkeit für Activity Map, dynamische Inhalts-Links zu überlagern, besteht darin, eine benutzerdefinierte ActivityMap.link-Funktion einzurichten, um dieselbe Funktion aufzurufen, deren Rückgabewert an `s.tl` übergeben wird. Beispiel:
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
