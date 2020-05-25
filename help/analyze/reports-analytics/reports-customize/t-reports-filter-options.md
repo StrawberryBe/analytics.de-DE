@@ -3,7 +3,7 @@ description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, 
 title: Filtern von Berichtsdaten
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
 
-## Einfacher Filter  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Einfacher Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -49,7 +49,7 @@ Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzeleleme
 
 **Enthält nicht**
 
-Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) aus Berichten filtern.
+Gibt ein Ergebnis zurück, wenn der Begriff an keiner Stelle im Einzelelement gefunden wird. Mit „Enthält nicht“ können Sie „Nicht angegeben“, „Keine“, „Keyword nicht verfügbar“ und andere [spezielle Werte](https://docs.adobe.com/content/help/de-DE/analytics/technotes/unspecified.html) aus Berichten filtern.
 
 Enthält nicht: `none`
 
@@ -142,16 +142,16 @@ t_reports_filter_specific.xml
 
  -->
 
-Bestimmte Berichte enthalten einen Filter, der speziell an diesen angepasst ist. Beispielsweise [!UICONTROL Purchase Conversion Funnel Report] können Sie mit einer nach Webseiten filtern. A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. Weitere Berichte enthalten andere, jeweils spezifische Filter.
+Bestimmte Berichte enthalten einen Filter, der speziell an diesen angepasst ist. Der [!UICONTROL Bericht „Kaufkonversionstrichter“] kann z. B. nach Webseiten gefiltert werden. In einem [!UICONTROL Geosegmentation-Bericht] können Sie nach geografischen Regionen filtern. Weitere Berichte enthalten andere, jeweils spezifische Filter.
 
 Wenn Sie auf diese Filter zugreifen, werden Berichtsmetriken für die in der Liste angegebenen Elemente angezeigt.
 
 **So erstellen Sie berichtsspezifische Filter**
 
-1. Erstellen Sie einen Bericht, z. B. [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
+1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Kaufbericht] (**[!UICONTROL Site-Metriken]** > **[!UICONTROL Kauf]** > **[!UICONTROL Einkaufs-Konversionstrichter]**).
 1. Klicken Sie im Berichtkopf auf den Link **[!UICONTROL Filter]**.
-1. Klicken Sie auf der [!UICONTROL Filter Selector] Seite auf **[!UICONTROL Apply a Filter]** und wählen Sie dann einen Filtertyp aus.
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
+1. Klicken Sie auf der Seite [!UICONTROL Filterauswahl] auf **[!UICONTROL Einen Filter einsetzen]** und wählen Sie anschließend einen Filtertyp aus.
+1. Geben Sie zur Suche nach einem Element eine Zeichenfolge in das **[!UICONTROL Suchfeld]** ein.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 ## Korrelationsfilter hinzufügen {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Bestimmten Berichten können Sie benutzerspezifische Korrelationsfilter hinzufügen. For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+Bestimmten Berichten können Sie benutzerspezifische Korrelationsfilter hinzufügen. Wenn Sie beispielsweise den [!UICONTROL Bericht „Seiten“] für eine Report Suite anzeigen, der mit einer Frauen-Seite korrelierte Site-Bereiche enthält, können Sie einen Filter für einen Bericht einrichten, der die bevorzugten Seiten innerhalb des Site-Bereichs „Frauen“ anzeigt.
 
 Sie können die in einem Korrelationsbericht angezeigten Daten anhand einer beliebigen verfügbaren Korrelation filtern. Das hier dargestellte Beispiel zeigt, wie Sie einen Korrelationsfilter für Suchmaschinen hinzufügen.
 
 **So fügen Sie einen Korrelationsfilter hinzu**
 
-1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (Siehe [Ausführen eines Unterteilungsberichts](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. Klicken Sie im Berichtkopf auf den Link **[!UICONTROL Correlation Filter]**.
-1. Wählen Sie unter [!UICONTROL Filter Rule Creator]eine Kategorie aus, die mit einem Element korreliert werden soll.
-1. Klicken Sie auf **[!UICONTROL OK.]**
+1. Führen Sie einen Bericht aus, der Korrelationen unterstützt. (Siehe [Ausführen eines Detailberichts](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Klicken Sie in dem Berichtkopf auf den Link **[!UICONTROL „Korrelationsfilter“]**.
+1. Wählen Sie unter [!UICONTROL „Filterregelerstellung“] eine Kategorie, die Sie mit einem Element korrelieren möchten.
+1. Klicken Sie auf **[!UICONTROL OK]**.
