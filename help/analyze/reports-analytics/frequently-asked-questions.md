@@ -3,7 +3,7 @@ description: Bietet Antworten und Vorschläge zur Fehlerbehebung zu einigen der 
 keywords: Troubleshooting Analytics
 title: Häufig gestellte Fragen
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Häufig gestellte Fragen
 
-Bietet Antworten und Vorschläge zur Fehlerbehebung zu einigen der am häufigsten gestellten Analytics-Fragen zu Reports &amp; Analysen. Häufig gestellte Fragen zur Implementierung finden Sie in den [FAQs](/help/implement/faq.md) im Benutzerhandbuch zur Implementierung.
+Bietet Antworten und Vorschläge zur Fehlerbehebung zu einigen der am häufigsten gestellten Analytics-Fragen zu Reports &amp; Analytics. Häufig gestellte Fragen zur Implementierung finden Sie in den [FAQs](/help/implement/faq.md) im Benutzerhandbuch zur Implementierung.
 
 **Mein Konto wurde gesperrt. Wie kann ich es freischalten?**
 
