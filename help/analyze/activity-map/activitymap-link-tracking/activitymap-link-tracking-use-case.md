@@ -3,7 +3,7 @@ description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mith
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -13,12 +13,12 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Sie können Links voneinander abgrenzen, indem Sie die Link-ID mithilfe der Variablen s_objectID, die Region oder die Activity Map-Moduldatei AppMeasurement anpassen.
 
-Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activity Map unter der gleichen Link-ID und Region identifiziert werden.
+Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activity Map unter der gleichen Link-ID und Region identifiziert werden:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Codebeispiel </th> 
+   <th colname="col1" class="entry"> Code-Beispiel </th> 
    <th colname="col2" class="entry"> Link-ID </th> 
    <th colname="col3" class="entry"> Region </th> 
   </tr> 
@@ -39,7 +39,7 @@ Beispiel: Angenommen, Sie haben mehrere Links des Typs „Buy“, die von Activi
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Bereich für Empfehlungen <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposit
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
   <tr> 
-   <th colname="col02" class="entry"> Codebeispiel </th> 
+   <th colname="col02" class="entry"> Code-Beispiel </th> 
    <th colname="col2" class="entry"> Link-ID </th> 
    <th colname="col3" class="entry"> Region </th> 
   </tr> 
@@ -78,7 +78,7 @@ Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposit
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> <p> </p> <p>Bereich für Empfehlungen </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
   <tr> 
-   <th colname="col02" class="entry"> Codebeispiel </th> 
+   <th colname="col02" class="entry"> Code-Beispiel </th> 
    <th colname="col2" class="entry"> Link-ID </th> 
    <th colname="col3" class="entry"> Region </th> 
   </tr> 
@@ -113,7 +113,7 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>Region a <p> </p> <p> </p> <p>Region b </p> <p> </p> <p> </p> <p>Region c </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +124,7 @@ Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link v
 >
 >Sie sollten den geänderten Code unbedingt testen, um sicherzustellen, dass er ordnungsgemäß funktioniert. Adobe übernimmt keine Verantwortung für das Verhalten des geänderten Codes.
 
-Im Folgenden finden Sie einige Beispiele für** allgemeine** Link-/Regionsfunktionen, die Sie (in geänderter Form) in die Datei AppMeasurement.js einschließen können.
+Im Folgenden finden Sie einige Beispiele für **allgemeine** Link-/Regionsfunktionen, die Sie (in geänderter Form) in die Datei AppMeasurement.js einschließen können.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
