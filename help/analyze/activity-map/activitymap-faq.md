@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zum Einrichten, Konfigurieren und Anwenden
 title: Activity Map – Häufig gestellte Fragen
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ A: Adobe SiteCatalyst-Kunden haben keinen Zugriff auf die Seite „Activity Map 
 
 **F: Kann der neue AppMeasurement-Code über Dynamic Tag Management (DTM) konfiguriert werden?**
 
-A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html).
+A: Ja, Sie können den neuen AppMeasurement-Code [manuell implementieren](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.translate.html).
 
 **F: Welche großen Änderungen wurden an der AppMeasurement v1.6-Bibliothek vorgenommen?**
 
@@ -51,7 +51,7 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**Q: Bietet Aktivität Map Daten zu &quot;Ansichten&quot;?**
+**F: Bietet Activity Map Daten zu „Ansichten“?**
 
 A: Nein, Adobe verfolgt keine Links, die angezeigt wurden.
 
@@ -61,7 +61,7 @@ A: Die Installation der älteren Version (wird jetzt auch einfach als ClickMap b
 
 **F: Welche Browser und Versionen werden von Activity Map unterstützt?**
 
-A: Wir unterstützen die neueste Version der vier wichtigsten Browser (Chrome, Firefox, Safari und IE).
+A: Es wird die jeweils neueste Version der vier gängigsten Browser (Chrome, Firefox, Safari und IE) unterstützt.
 
 **F: Was sind die Standardeinstellungen für Überlagerungen?**
 
@@ -80,9 +80,9 @@ A: Einige Links mit einem Rang können auf der Seite verborgen sein (beispielswe
 
 **F: Warum werden keine Link-Klickdaten erfasst, wenn Activity Map ausgeführt wird?**
 
-A: Während Activity Map in Verwendung ist, werden keine Link-Klickdaten vom Analytics-Tag erfasst. Dieses Verhalten entspricht dem Verhalten des ClickMap-Plugins.
+A: Während Activity Map in Verwendung ist, werden keine Link-Klickdaten vom Analytics-Tag erfasst. Dieses Verhalten folgt dem Verhalten des ClickMap-Plug-ins.
 
-**F: Wo liegt der Unterschied zwischen dem Activity Map-Bericht „Alle Links“ und der Activity Map-Berichterstattung in „Reports &amp; Analytics“?**
+**F: Wo liegt der Unterschied zwischen dem Activity Map-Bericht „Alle Links“ und der Activity Map-Berichterstellung in „Reports &amp; Analytics“?**
 
 A: Um den Bericht „Alle Links“ in Activity Map abzurufen, erstellen wir wie folgt eine Aufschlüsselungsanforderung: Activity Map-Seite = &quot;visitedpage&quot;, aufgeschlüsselt nach Activity Map-Link und -Region in `<list of link&regions present in the page at rendering time>`.
 
@@ -122,21 +122,21 @@ Unter der Symbolleiste wird eine Warnmeldung angezeigt, die angibt, dass kein Ta
 
 *Webseite mit inkompatiblem Analytics-Tag (AppMeasurement v1.5 oder früher)*
 
-Es wird eine Warnmeldung angezeigt, die darauf hinweist, dass Sie den Seiten-Code auf Version 1.6 oder höher aktualisieren müssen.
+Eine Warnmeldung weist Sie darauf hin, dass Sie ein Upgrade des Seiten-Codes auf v1.6 oder höher durchführen müssen.
 
 *Webseite mit kompatiblem Analytics-Tag (AppMeasurement v1.6 oder höher), für die jedoch die Activity Map-Berichterstattung in den Admin Tools nicht aktiviert wurde*
 
 Eine Warnmeldung weist Sie darauf hin, dass Sie Ihren Administrator bitten müssen, den \[Activity Map-Bericht zu aktivieren\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
-**F: Kann ich Activity Map-Daten (contextData) über [Analytics Data Feed](https://docs.adobe.com/content/help/de-DE/analytics/export/analytics-data-feed/data-feed-overview.html) exportieren?**
+**F: Kann ich Activity Map-Daten (contextData) über [Analytics Data Feed](https://docs.adobe.com/content/help/de-DE/analytics/export/analytics-data-feed/data-feed-overview.translate.html) exportieren?**
 
 A: Nein.
 
 ## Segmentierung in Activity Map
 
-**F: Sind Segmente auf bestimmte Benutzersegmente beschränkt? Are shared segments available in Activity Map?**
+**F: Sind Segmente auf bestimmte Benutzersegmente beschränkt? Gibt es freigegebene Segmente in Activity Map?**
 
-A: Aktivität Map übernimmt Ihre Berichte-Segmente aus Analytics.
+A: Activity Map übernimmt Ihre Berichterstellungssegmente aus Analytics.
 
 **F: Funktionieren Segmente im Livemodus?**
 
