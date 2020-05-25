@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 title: Linktracking – Häufig gestellte Fragen
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
 <table id="table_0951EAC617344156BAE43000CCD838AF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>F: Wann werden Links verfolgt?</b> <p> </p> </td> 
+   <td colname="col1"> <b>F: Wann ist Linktracking aktiv?</b> <p> </p> </td> 
    <td colname="col2"> A: Sobald ein Benutzer auf eine Seite klickt, identifiziert Activity Map den Link und die Region. </td> 
   </tr> 
   <tr> 
@@ -45,11 +45,11 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
    <td colname="col1"> <b>F: Wie verfolgt Activity Map andere visuelle HTML-Elemente?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Über die Funktion <code> s.tl() </code>.</b> <p>Wenn der Klick über einen s.tl-Aufruf erfolgte, erhält Activity Map außerdem dieses Klickereignis und bestimmt, ob die Zeichenfolgenvariable linkName gefunden wurde. Während der Ausführung von s.tl wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde und von dem der s.tl()-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Über die<code> s.tl() </code> Funktion</b> <p>Wenn der Klick über einen s.tl-Aufruf erfolgte, erhält Activity Map außerdem dieses Klickereignis und bestimmt, ob die Zeichenfolgenvariable linkName gefunden wurde. Während der Ausführung von s.tl wird dieser linkName als Activity Map-Link-ID festgelegt. Das Element, auf das geklickt wurde und von dem der s.tl()-Aufruf stammt, wird zur Bestimmung der Region verwendet. Beispiel: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Über die Variable <code> s_objectID </code></b> <p>Beispiel: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Über die<code> s_objectID </code> Variable</b> <p>Beispiel: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Wichtig: Bei Verwendung von s_objectID in Activity Map muss ein Semikolon (;) folgen. </p> </li> 
@@ -86,7 +86,6 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
      <li id="li_99372060646B43EF94C13A9C682CE693">Grund: Anker-Tag hat keine gültige href 
-       
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
