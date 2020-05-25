@@ -3,7 +3,7 @@ description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in 
 title: Linktracking beenden
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -16,7 +16,7 @@ Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Zum Anhalten von Linktracking in ... </th> 
+   <th colname="col1" class="entry"> Zum Anhalten von Linktracking in... </th> 
    <th colname="col2" class="entry"> gehen Sie wie folgt vor: </th> 
   </tr> 
  </thead>
@@ -24,7 +24,6 @@ Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map 
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Entfernen Sie den folgenden Inhalt aus der Datei Appmeasurement.js: 
-     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -41,7 +40,7 @@ Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map 
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (früher Besucher-ClickMap) </td> 
-   <td colname="col2"> <p>Setzen Sie die Variable <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> auf „false“ (Standardeinstellung). Die Syntax lautet wie folgt: 
+   <td colname="col2"> <p>Setzen Sie die Variable <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> auf „false“ (Standardeinstellung). Die Syntax lautet wie folgt: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
