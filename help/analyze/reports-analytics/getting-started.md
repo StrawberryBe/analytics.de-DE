@@ -1,10 +1,10 @@
 ---
-description: Bevor Sie Reports & Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
+description: Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 subtopic: Get started
-title: Erste Schritte mit Reports & Analytics
+title: Erste Schritte mit Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Sch
 
 ## Erste Schritte mit Reports &amp; Analytics
 
-Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
+Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
 Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Die Marketingberichte beinhalten zum Beispiel Informationen zu Folgendem:
 
@@ -46,7 +46,7 @@ Browser- und Systemanforderungen zur Anmeldung in der Benutzeroberfläche von Re
 * Cookies und JavaScript müssen aktiviert sein.
 * Bildschirmauflösung von 1024 x 768 mit einer Farbtiefe von mindestens 16 Bit.
 
-## In Reports &amp; Analytics anmelden
+## In Reports and Analytics anmelden
 
 Richten Sie vor einem Zugriff auf die Schnittstelle mit Ihrem Kundenbetreuer oder mit der Adobe-Kundenunterstützung das Konto Ihres Unternehmens ein.
 
@@ -56,14 +56,14 @@ Schritte, die das Anmelden über die Experience Cloud beschreiben.
 
 1. Öffnen Sie auf einem Computer mit Internetverbindung einen Webbrowser.
 1. Öffnen von [!DNL https://login.experiencecloud.adobe.com/].
-1. Klicken Sie auf der [!UICONTROL Sign In] Seite auf **[!UICONTROL Single Sign-On]**.
-1. Complete the following information, then click **[!UICONTROL Sign In]**.
+1. Klicken Sie auf der Seite [!UICONTROL Anmelden] auf **[!UICONTROL Single Sign-on]**.
+1. Vervollständigen Sie die folgenden Informationen und klicken Sie anschließend auf **[!UICONTROL Anmelden]**.
 
-   **[!UICONTROL Company]**: Geben Sie die Firmen-ID an.
+   **[!UICONTROL Unternehmen]**: Legen Sie die Unternehmens-ID fest.
 
-   **[!UICONTROL Username]**: Geben Sie Ihre Konto-ID ein.
+   **[!UICONTROL Benutzername]**: Geben Sie Ihre Konto-ID an.
 
-   **[!UICONTROL Password]**: Geben Sie Ihr Kontopasswort ein.
+   **[!UICONTROL Passwort]**: Geben Sie das Passwort für Ihr Konto an.
 1. Gehen Sie auf der Experience Cloud-Homepage zu **Analytics > Berichte**.
 
    Die Experience Cloud meldet Sie nach 30 Minuten Inaktivität automatisch ab.
@@ -72,11 +72,11 @@ Schritte, die das Anmelden über die Experience Cloud beschreiben.
 
 In diesen Schritten wird beschrieben, wie Sie einen Bericht generieren.
 
-1. Log in to [!UICONTROL Reports & Analytics].
+1. Melden Sie sich bei [!UICONTROL Reports &amp; Analytics] an.
 
    Das Menü „Berichte“ oder ein [Dashboard](/help/analyze/reports-analytics/dashboard.md), falls Sie eines eingerichtet haben, wird angezeigt.
 
-1. Klicken Sie auf **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (z. B.).
+1. Klicken Sie auf **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]** (zum Beispiel).
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ Informationen zum Bearbeiten von Benutzerkonten, Zurücksetzen von Benutzerkennw
 
 Sie können Kontaktdaten anzeigen und bearbeiten, ein Kennwort festlegen, Informationen zu Web-Services anzeigen und diesen Computer von der Datenkollektion ausschließen.
 
-Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Klicken Sie oben rechts auf das Konto-Symbol ![](assets/account.png) und anschließend auf das Symbol **[!UICONTROL Kontoeinstellungen]** (Rädchensymbol) neben Ihrem Anmeldenamen.
 
-All users have access to the [!UICONTROL Account Information] page. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
+Alle Benutzer haben Zugriff auf die Seite [!UICONTROL Kontoinformationen]. Die folgenden Informationen sind für die Ansicht oder Bearbeitung verfügbar:
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -130,7 +130,7 @@ All users have access to the [!UICONTROL Account Information] page. Die folgende
 
 In diesen Schritten wird beschrieben, wie Sie die Sprache der Benutzeroberfläche ändern können. Sie können die Benutzeroberfläche von Reports and Analytics in der Sprache Ihrer Wahl anzeigen.
 
-1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
-1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
+1. Melden Sie sich bei Analytics an und wählen Sie die Registerkarte **[!UICONTROL Berichte]** aus.
+1. Klicken Sie in der Fußzeile der Seite auf die aktive Sprache im Menü **[!UICONTROL Sprache]** und wählen Sie dann Ihre bevorzugte Sprache aus.
 
-You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+Sie können auf die Dokumentation und die entsprechende Startseite über die Adobe Experience Cloud zugreifen. (**[!UICONTROL Hilfe]** > **[!UICONTROL Hilfe-Startseite]**.)
