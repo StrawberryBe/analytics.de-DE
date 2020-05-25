@@ -3,7 +3,7 @@ description: Der Linkbericht enthält Daten zu den Links, die auf der aktuellen 
 title: Link-Bericht
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
@@ -37,7 +37,7 @@ Im Standardmodus zeigt der Bericht „Links auf Seite“ die Linkdaten für eine
   </tr> 
   <tr> 
    <td colname="col1"> Link-ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">Die primäre ID des Links (weitere Informationen darüber, wie die primäre ID von der neuen Linktracking-Methode definiert wird, finden Sie <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">hier</a>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Klicks </td> 
@@ -82,7 +82,7 @@ Im Livemodus zeigt der Bericht „Links auf Seite“ die Trenddaten über mehrer
   </tr> 
   <tr> 
    <td colname="col1"> Link-ID </td> 
-   <td colname="col2">Die primäre ID des Links. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
+   <td colname="col2">Die primäre ID des Links. Weitere Informationen darüber, wie die primäre ID von der neuen Linktracking-Methode definiert wird, finden Sie <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">hier</a>. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Link-Klicks </td> 
