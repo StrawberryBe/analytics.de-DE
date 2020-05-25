@@ -3,7 +3,7 @@ description: Informationen über die grundlegenden Berichtstypen, einschließlic
 title: Berichtstypen
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -27,7 +27,7 @@ Informationen über die grundlegenden Berichtstypen, einschließlich Traffic-, K
   </tr> 
   <tr> 
    <td colname="col1"> Konversion </td> 
-   <td colname="col2"> <p>Zeigt Informationen über von Ihnen definierte Erfolgsindikatoren an. Beim anfänglichen Erwerb von Lizenzen haben Sie die Möglichkeit, Metriken zu definieren, die Ihnen einen detaillierteren Einblick in erfolgreiche Verkäufe oder Bereitstellungen von Inhalten vermitteln. Die hier enthaltenen Berichte zeigen Zahlen für diese Metriken an. Als Beispiele dienen Bezahlungstypen, Versandkosten und verwendete Online-Coupons. </p> <p>Siehe <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html"  >Konversionsberichte</a>. </p> </td> 
+   <td colname="col2"> <p>Zeigt Informationen über von Ihnen definierte Erfolgsindikatoren an. Beim anfänglichen Erwerb von Lizenzen haben Sie die Möglichkeit, Metriken zu definieren, die Ihnen einen detaillierteren Einblick in erfolgreiche Verkäufe oder Bereitstellungen von Inhalten vermitteln. Die hier enthaltenen Berichte zeigen Zahlen für diese Metriken an. Als Beispiele dienen Bezahlungstypen, Versandkosten und verwendete Online-Coupons. </p> <p>Siehe <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-conversion.html"  >Konversionsberichte</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Pfade </td> 
@@ -38,4 +38,4 @@ Informationen über die grundlegenden Berichtstypen, einschließlich Traffic-, K
 
 Informationen über die Funktionen der Benutzeroberfläche finden Sie unter [Berichtsfunktionen](/help/analyze/reports-analytics/overview/report-overview.md).
 
-Beschreibungen finden Sie unter [Berichtbeschreibungen](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) in der *`Analytics Reference Help`*.
+Beschreibungen finden Sie unter [Berichtbeschreibungen](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/c-variables.html) in der *`Analytics Reference Help`*.
