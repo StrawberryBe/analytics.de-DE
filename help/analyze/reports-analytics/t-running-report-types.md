@@ -3,7 +3,7 @@ description: Schritte zum Ausführen der verschiedenen Berichtstypen.
 title: Verschiedene Berichtstypen ausführen
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. Erstellen Sie einen Bericht, z. B. [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
-1. In the report header, click **[!UICONTROL Ranked.]**
+1. Erstellen Sie einen Bericht, wie zum Beispiel einen [!UICONTROL Seitenbericht] (**[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**).
+1. Klicken Sie im Berichtkopf auf **[!UICONTROL Rangansicht]**.
 1. Klicken Sie auf die Spaltenüberschrift in der Tabelle, um den Bericht nach Rang zu ordnen.
 
    Rangberichte können bis zu 200 in der Tabelle aufgelistete Elemente enthalten (wie zum Beispiel Produkte, Kategorien, Webseiten usw.) und zehn Metriken (Umsatz, Bestellungen, Ansichten usw.).
@@ -40,12 +40,12 @@ t_reports_trended.xml
 
  -->
 
-Die meisten Konversions- und Traffic-Berichte verfügen über eine Trendanzeige. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trendberichte zeigen Trends einer Metrik (Umsatz, Bestellungen, Ansichten usw.) für bis zu fünf Elemente (Produkte, Kategorien, Webseiten usw.) an.
+Die meisten Konversions- und Traffic-Berichte verfügen über eine Trendanzeige. Mit dem [!UICONTROL Kalender] lassen sich Verbesserungen aus allen Zeitraumunterteilungen anzeigen, einschließlich Tage eines Monats, Wochen eines Jahres, Wochen eines Quartals, Monate eines Jahres usw. Trendberichte zeigen Trends einer Metrik (Umsatz, Bestellungen, Ansichten usw.) für bis zu fünf Elemente (Produkte, Kategorien, Webseiten usw.) an.
 
 **So führen Sie einen Trendbericht aus**
 
-1. Führen Sie einen Konversions- oder Traffic-Bericht aus, z. B. **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. Unter **[!UICONTROL Report Type]** klicken Sie auf **[!UICONTROL Trended.]**
+1. Führen Sie einen Konversions- oder Traffic-Bericht aus, wie zum Beispiel **[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**.
+1. Klicken Sie unter **[!UICONTROL Berichttyp]** auf **[!UICONTROL Trendansicht]**.
 
 ## Konversionstrichterbericht ausführen {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,13 +57,13 @@ t_reports_conversion_funnel.xml
 
  -->
 
-Um diesen Bericht auszuführen, wählen Sie einen Bericht aus, z. B. einen Seitenbericht ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
+Um diesen Bericht auszuführen, wählen Sie einen Bericht aus, z. B. einen Seitenbericht (**[!UICONTROL Berichte]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Trackingcode]** > **[!UICONTROL Kampagnen-Konversionstrichter]**).
 
-Siehe [Konversionsberichte](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html), um eine Beschreibung anzuzeigen.
+Siehe [Konversionsberichte](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-conversion.html), um eine Beschreibung anzuzeigen.
 
 ## Fallout-Bericht ausführen {#task_8FD97C8260464F9DA731A93DB8F80184}
 
-The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. Außerdem werden hier die Konversions- und Trichteranalyseraten jedes Schritts angezeigt.
+Der [!UICONTROL Fallout-Bericht] zeigt die Anzahl der Besucher an, die eine zuvor festgelegte Folge von Seiten besucht haben. Außerdem werden hier die Konversions- und Trichteranalyseraten jedes Schritts angezeigt.
 
 <!-- 
 
@@ -73,19 +73,19 @@ t_reports_fallout.xml
 
 Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
 
-1. Klicken Sie [!UICONTROL Adobe Analytics]in auf **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
-1. Klicken Sie auf der [!UICONTROL Fallout Report] Seite auf **[!UICONTROL Launch the Fallout Report Builder]**.
+1. Klicken Sie in [!UICONTROL Adobe Analytics] auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Trichteranalyse]**.
+1. Klicken Sie auf der Seite [!UICONTROL Fallout-Bericht] auf **[!UICONTROL Fallout-Bericht-Report Builder starten]**.
 
    ![Schritt Ergebnis](assets/fallout_add_items.png)
 
-1. On the [!UICONTROL Define Checkpoints] page, specify the checkpoints that you want to use for the report.
-1. Klicken Sie auf **[!UICONTROL Run Report]**.
+1. Legen Sie auf der Seite [!UICONTROL Checkpoints definieren] die Checkpoints fest, die Sie für den Bericht verwenden möchten.
+1. Klicken Sie auf **[!UICONTROL Bericht ausführen]**.
 
    ![Schritt Ergebnis](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [Fallout-Bericht – Beschreibung](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Fallout-Bericht – Beschreibung](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## Seitenflussbericht ausführen {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -96,7 +96,7 @@ Sehen Sie sich die neue [Flussvisualisierung](https://docs.adobe.com/content/hel
 
 Führen Sie einen [Pfadbericht](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-paths.html) aus.
 
-Klicken Sie beispielsweise auf **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
+Klicken Sie zum Beispiel auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Nächster Seitenfluss]**.
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ Sie lesen diesen Bericht von links nach rechts, beginnend mit der ausgewählten 
 
 Der Prozentsatz, zu dem jede nachfolgende Seite angezeigt wurde, ist neben dem Seitennamen angegeben. Die Breite der Linie, die mit jeder nächsten Seite verbunden ist, stellt diesen relativen Prozentwert dar.
 
-**[!UICONTROL Path Views]**: Gibt an, wie oft eine Seite angezeigt wurde, wenn sie auf die angezeigten Pfade beschränkt ist.
+**[!UICONTROL Pfadansichten]**: Zeigt die Häufigkeit der Anzeige einer Seite an, wenn diese auf die angezeigten Pfade beschränkt sind.
 
 So kann die Seite der Datenschutzregeln z. B. insgesamt 10.000 Mal angezeigt worden sein, aber nur 500 dieser Seitenansichten erfolgten unmittelbar nach der Homepage. Aus diesem Grunde wird der Begriff Pfadansicht verwendet.
 
@@ -112,7 +112,7 @@ Gleichermaßen wird der prozentuale Anteil durch die relative Breite der Linie d
 
 ## Trichterbericht ausführen {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
-Sie können Erfolgsereignisse auswählen und sie einem [!UICONTROL Purchase Conversion Funnel] Bericht oder einem [!UICONTROL Product Conversion Funnel] Bericht hinzufügen.
+Sie können Erfolgsereignisse auswählen und diese einem [!UICONTROL „Einkaufskonversionstrichter“]- oder [!UICONTROL „Produktkonversionstrichter“]-Bericht hinzufügen.
 
 <!-- 
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Produkte]** > [Produkt-Konversionstrichter](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Marketingkanalbericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -146,11 +146,11 @@ t_anomaly_view.xml
 
 Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) in Analysis Workspace an!
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
+**[!UICONTROL Berichte]** > **[!UICONTROL Site-Metriken]** > **[!UICONTROL Anomalieerkennung]** .
 
 >[!NOTE] Die Anomalieerkennung können Sie auch aus Projekten in Analysis Workspace ausführen. [Mehr …](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
+Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 Bei der Anomalieerkennung werden zwei Diagrammtypen angezeigt: Ein Zusammenfassungsdiagramm und Diagramme für individuelle Metriken. Diagramme für individuelle Metriken werden nur angezeigt, wenn mindestens eine Anomalie für diese Metrik erkannt wurde.
 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 Sie richten die Anomalieerkennung unabhängig für jede Report Suite ein.
 
-1. Navigieren Sie zu **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
+1. Gehen Sie zu **[!UICONTROL Analysen > Berichte > Site-Metriken > Anomalieerkennung]**.
 1. Wählen Sie die Report Suite, für die Sie die tägliche Anomalieerkennung verfolgen möchten. Um eine Liste der Report Suites anzuzeigen, klicken Sie auf das Dropdown-Menü der Report Suite-Auswahl.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. Um die Metriken auszuwählen und/oder gefilterte Metriken zu definieren, klicken Sie oben rechts im Bildschirm auf **[!UICONTROL Metriken bearbeiten]**:  ![](assets/metrics_icon.png).
 
-   Sie können Metriken aus der Liste mit allen Metriken (einschließlich berechneter Metriken) oder aus einer Liste mit verfolgten Metriken auswählen. Sie können auch nach bestimmten Begriffen filtern, um die Liste einzugrenzen. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Den Schulungszeitraum kann man sich als „Lernzeitraum“ für den Algorithmus vorstellen.)
+   Sie können Metriken aus der Liste mit allen Metriken (einschließlich berechneter Metriken) oder aus einer Liste mit verfolgten Metriken auswählen. Sie können auch nach bestimmten Begriffen filtern, um die Liste einzugrenzen. 1. Sobald der Bericht generiert wurde, definieren Sie den **[!UICONTROL Schulungszeitraum]** und den **[!UICONTROL Ansichtszeitraum]** zur Anomalieerkennung. (Den Schulungszeitraum kann man sich als „Lernzeitraum“ für den Algorithmus vorstellen.)
 
    ![](assets/view_training_periods.png)
 
@@ -226,12 +226,12 @@ Sie richten die Anomalieerkennung unabhängig für jede Report Suite ein.
 * Wenn Sie den Schulungszeitraum verlängern, erhalten Ihre Daten mehr Kontext, und die Größe einer Anomalie kann reduziert werden.
 
    Der Metrikbericht für die Anomalieerkennung wird bei jeder Änderung eines Parameters aktualisiert.
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. Optional: Wenden Sie Segmente auf den Bericht an, indem Sie auf **[!UICONTROL Segmente anzeigen]** klicken und ein oder mehrere vorhandene Segmente auswählen oder ein neues Segment erstellen und dieses anwenden.
 
    ![](assets/ad_top_menu.png)
 
    Weitere Informationen zum Erstellen und Verwalten von Segmenten erhalten Sie im [Leitfaden zur Analysesegmentierung](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html). 1. (Optional) Fügen Sie den Bericht zu den Favoriten hinzu oder setzen Sie ein Lesezeichen.
-1. (Optional) Ändern Sie das Enddatum des Anzeigezeitraums. Der Standardwert ist „Gestern“. 
+1. (Optional) Ändern Sie das Enddatum des Anzeigezeitraums. Der Standardwert ist „Gestern“.
 1. Sie können den Bericht nun interpretieren. [Anzeigen von Diagrammen zur Anomalieerkennung](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Echtzeitbericht ausführen {#task_5D25929C918E40B18965222FA94176B0}
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]** .
+**[!UICONTROL Berichte > Site-Metriken > Echtzeit]**.
 
 Bei der Echtzeitberichterstattung stehen zwei Hauptberichte zur Verfügung: ein Übersichtsbericht und ein Detailbericht. Sie bestehen jeweils aus mehreren Reportlets.
 
-Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-Referenzhandbuch](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration).
+Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-Referenzhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/landing/home.html#RealTime_Reports_Configuration).
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. Sehen Sie sich den **[!UICONTROL Übersichtsbericht]** und dessen Komponenten an:  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-R
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Report Suite auswählen</strong></td> 
-   <td class="chdesc stentry"> Zeigt die Report Suite an, die von diesem Echtzeitbericht behandelt wird. Informationen zum Ändern der Report Suite finden Sie unter <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Konfiguration von Echtzeitberichten </a>. </td> 
+   <td class="chdesc stentry"> Zeigt die Report Suite an, die von diesem Echtzeitbericht behandelt wird. Informationen zum Ändern der Report Suite finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Konfiguration von Echtzeitberichten </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Zwischen Berichten wechseln</strong></td> 
@@ -314,7 +314,7 @@ Informationen zum Konfigurieren von Echtzeitberichten finden Sie im [Analytics-R
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. Klicken Sie auf einen Einzelposten im primären Reportlet, um die **[!UICONTROL Detailansicht]** für diesen Einzelposten anzuzeigen:  ![](assets/rtr_detail_report.png)
 
    | **Elementtrend-Reportlet** | Stellt die Trendlinie des Elements, das im Übersichtsbericht ausgewählt wurde, für die letzten N Minuten dar. N kann über die Zeitraumauswahl konfiguriert werden. |
    |---|---|
