@@ -3,7 +3,7 @@ description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für 
 title: Data Warehouse-Übersicht
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,7 +27,7 @@ Data Warehouse kann eine unbegrenzte Anzahl an Zeilen in einer einzigen Anforder
 
 ## Data Warehouse-Anforderungen – Beschreibungen {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
+In dieser Tabelle werden die Felder und Optionen in dem Register [!UICONTROL Data Warehouse-Anforderung] beschrieben.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
