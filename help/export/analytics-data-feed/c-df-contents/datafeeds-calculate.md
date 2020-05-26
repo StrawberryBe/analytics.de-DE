@@ -4,7 +4,7 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Metriken berechnen
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -66,4 +66,4 @@ Wenn der Wert `currency` eines Treffers nicht mit der Währung einer Report Suit
 4. Berechnen Sie die gewünschte Metrik:
    * Zählen Sie die Zeilen zur Berechnung der Bestellungen
    * Addieren Sie die Anzahl der `quantity`-Einheiten in der Produktzeichenfolge, um die Stückzahlen zu berechnen.
-   * Addieren Sie die Anzahl der `price`-Einheiten in der Produktzeichenfolge, um den Umsatz zu berechnen
+   * Addieren Sie die Anzahl der `price`-Einheiten in der Produktzeichenfolge, um den Umsatz zu berechnen.
