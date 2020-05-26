@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -167,7 +167,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `quarterly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer Quartals-Besucher ist. | tinyint unsigniert |
 | `ref_domain` | Basiert auf der Referrer-Spalte. Die verweisende Domäne des Treffers. | varchar(100) |
 | `ref_type` | Eine numerische ID, die den Typ des Verweises für den Treffer darstellt.<br>1: Auf Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/mit Lesezeichen versehen (kein Referrer) <br>7: E-Mail <br>8: Kein JavaScript <br>9: Soziale Netzwerke | tinyint unsigniert |
-| `referrer` | Seiten-URL der vorherigen Seite. Beachten Sie, dass bei `referrer` Verwendung eines Datentyps von varchar(255) ein Datentyp von varchar(244) verwendet `post_referrer` wird. | varchar(255) |
+| `referrer` | Seiten-URL der vorherigen Seite. Beachten Sie, dass während `referrer` einen Datentyp von varchar(255) verwendet, `post_referrer` einen Datentyp von varchar(244) verwendet. | varchar(255) |
 | `resolution` | Numerische ID, die die Auflösung des Bildschirms darstellt. Bestückt die Dimension „Bildschirmauflösung“. Verwendet die Suchtabelle resolution.tsv | smallint unsigniert |
 | `s_kwcid` | Die Keyword-ID, die in Adobe Advertising Cloud-Integrationen verwendet wird. | varchar(255) |
 | `s_resolution` | Rohwert der Bildschirmauflösung. Erfasst mit der JavaScript-Funktion screen.width x screen.height | char(20) |
@@ -193,7 +193,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `socialownedpropertypropertyvsapp` | Wird nicht mehr verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
 | `state` | Without context I&#39;m afraid I can&#39;t assess which version is the correct one. | varchar(50) |
 | `stats_server` | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
-| `t_time_info` | Lokale Zeit des Besuchers. Format wie folgt: M/D/YYYY HH:MM:SS Monat (0-11, 0=Januar) Zeitzonenversatz (in Minuten) | varchar(100) |
+| `t_time_info` | Lokale Zeit des Besuchers. Format wie folgt: T/M/JJJJ HH:MM:SS Monat (0-11, 0=Januar) Zeitzonenversatz (in Minuten) | varchar(100) |
 | `tnt` | Wird in Adobe Target-Integrationen verwendet. | text |
 | `tnt_action` | Wird in Adobe Target-Integrationen verwendet. | text |
 | `tnt_post_vista` | Wird nicht mehr verwendet. Verwenden Sie stattdessen post_tnt. | text |
@@ -242,7 +242,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `videonetwork` | Videonetzwerk | varchar(255) |
 | `videopath` | Videopfad | varchar(100) |
 | `videoplayername` | Name des Videoplayers | varchar(255) |
-| `videoqoebitrateaverageevar` | Durchschnittliche Bitrate der Videoqualität | varchar(255) |
+| `videoqoebitrateaverageevar` | Videoqualität – Durchschnittliche Bitrate | varchar(255) |
 | `videoqoebitratechangecountevar` | Videoqualität – Anzahl Änderungen | varchar(255) |
 | `videoqoebuffercountevar` | Videoqualität – Anzahl Puffer | varchar(255) |
 | `videoqoebuffertimeevar` | Videoqualitätspufferzeit | varchar(255) |
