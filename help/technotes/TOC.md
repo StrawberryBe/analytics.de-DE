@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Technische Hinweise zu Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
@@ -27,11 +27,11 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
    + [Häufig gestellte Fragen](ga-to-aa/faq.md)
    + [Verarbeitungsunterschiede zwischen Plattformen](ga-to-aa/processing-differences.md)
 + Analyse der von Ereignissen betroffenen Daten {#event}
-   + [Analyse der von Ereignissen betroffenen Daten - Übersicht](event/overview.md)
+   + [Analyse der von Ereignissen betroffenen Daten – Übersicht](event/overview.md)
    + [Ausschließen spezifischer Daten in der Analyse](event/segments.md)
-   + [Datumsvergleiche mit vorherigen Datumsbereichen](event/compare-dates.md)
+   + [Vergleichen von Daten mit vorherigen Datumsbereichen](event/compare-dates.md)
    + [Ableiten von Daten, die von Ereignissen betroffen sind](event/calcmetrics.md)
-   + [Ereignis an Benutzer kommunizieren](event/communicate.md)
+   + [Kommunizieren von Ereignissen an Benutzer](event/communicate.md)
 + [Browsercookies](cookies.md)
 + [Datenaufbewahrung](data-retention.md)
 + [Latenz](latency.md)
