@@ -1,16 +1,16 @@
 ---
-description: Quick Insight Builder ist ein Tool für neue Workspace-Benutzer, das diese beim Erstellen von Datentabellen und Visualisierungen unterstützt.
-title: Quick Insights Builder
+description: Quick Insight ist ein Tool für neue Workspace-Benutzer, das diese beim Erstellen von Datentabellen und Visualisierungen unterstützt.
+title: Quick Insight-Bedienfeld
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 
-# Quick Insights Builder
+# Quick Insight-Bedienfeld
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Weitere nützliche Hinweise werden im [!UICONTROL Quick Insight Builder]angezeig
 
 ## Bekannte Einschränkungen
 
-Wenn Sie versuchen, die Datei direkt in der Tabelle zu bearbeiten, führt dies dazu, dass das [!UICONTROL Quick Insight] -Bedienfeld (das Blindwerkzeug) nicht mehr synchron ist. Sie können die vorherigen Einstellungen für [!UICONTROL Schnelleinblicke] wiederherstellen, indem Sie oben rechts im Bedienfeld auf &quot; **[!UICONTROL Aufbau neu synchronisieren&quot;klicken]** .
+Wenn Sie versuchen, die Datei direkt in der Tabelle zu bearbeiten, wird das [!UICONTROL Quick Insight] -Bedienfeld nicht mehr synchronisiert. Sie können die vorherigen Einstellungen für [!UICONTROL Schnelleinblicke] wiederherstellen, indem Sie oben rechts im Bedienfeld auf &quot; **[!UICONTROL Aufbau neu synchronisieren&quot;klicken]** .
 
 ![](assets/qibuilder9.png)
 
