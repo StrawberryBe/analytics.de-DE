@@ -3,7 +3,7 @@ description: Methoden zur Optimierung der Report Builder-Bereitstellung und eine
 title: Fehlerbehebung und Best Practices für Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -98,7 +98,7 @@ Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht
 
 * [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder: Klicken Sie auf der Registerkarte [!UICONTROL Add-ins] in Excel auf **[!UICONTROL Management]**.
 
 ## Beschreibung der Fehlermeldungen {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report B
 
 Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole der ReportBuilder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
 
-**Sie müssen zuerst die Anwendung beenden,[!UICONTROL Request Wizard]bevor Sie die[!UICONTROL Request Manager]aktivieren.**
+**Sie müssen zuerst [!UICONTROL Request Wizard] beenden, bevor Sie [!UICONTROL Request Manager] aktivieren.**
 
-Während die [!UICONTROL Request Manager] und die [!UICONTROL Request Wizard] sind funktional verknüpft, ist es nicht möglich, mit dem Beginn zu arbeiten, [!UICONTROL Request Manager] bevor in der [!UICONTROL Request Wizard].
+Während [!UICONTROL Request Manager] und [!UICONTROL Request Wizard] funktional verknüpft sind, ist es erst möglich, [!UICONTROL Request Manager] zu verwenden, nachdem Sie Aktionen in [!UICONTROL Request Wizard] durchgeführt oder beendet haben.
 
 **Mit diesem Bereich ist keine Anforderung verbunden.**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+Diese Fehlermeldung wird angezeigt, wenn Sie in [!UICONTROL Request Manager] auf die Schaltfläche [!UICONTROL From Sheet] klicken, aber die entsprechende Zelle im Arbeitsblatt keine Anforderungen enthält.
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
+Um zu prüfen, welche Zellen des Arbeitsblatts Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen in der Liste in [!UICONTROL Request Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
 
 **Der ausgewählte Bereich ist ungültig. Wählen Sie einen anderen Bereich aus.**
 
@@ -128,12 +128,12 @@ Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln
 
 **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**
 
-Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in die [!UICONTROL Formula]-Leiste oder in [!UICONTROL Name Box] am oberen Rand von Excel eingeben.
 
 **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.**
 
 Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. Wählen Sie dann nacheinander die Elemente in der Liste aus. Wenn Sie eine Anforderung in der Liste auswählen, werden die zugehörigen Zellen im Arbeitsblatt markiert dargestellt.
+Sie können vor dem Hinzufügen neuer Anforderungen ermitteln, welche Zellen Zuordnungen aufweisen, indem Sie [!UICONTROL Request Wizard] schließen und [!UICONTROL Request Manager] öffnen. Wählen Sie dann nacheinander die Elemente in der Liste aus. Wenn Sie eine Anforderung in der Liste auswählen, werden die zugehörigen Zellen im Arbeitsblatt markiert dargestellt.
 
 Aus diesem Grund sollten Sie unbedingt in Betracht ziehen, Zellen durch Formatierungen, Markierungen oder Zeilen- bzw. Spalteninformationen zu kennzeichnen, bevor Sie mehrere unterschiedliche Zellen mehreren unterschiedlichen Bereichen zuordnen.
