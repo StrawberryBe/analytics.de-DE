@@ -4,7 +4,10 @@ title: Marketingkanal-Übersicht
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -15,13 +18,13 @@ Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit 
 
 ## Allgemeine Eigenschaften {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* Dieser Bericht hängt ausschließlich von Marketingkanal-[Verarbeitungsregeln](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) ab. Wenn diese Regeln geändert werden, ändert sich die Berechnung der Daten in diesem Bericht.
+* Dieser Bericht hängt ausschließlich von Marketingkanal-[Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md) ab. Wenn diese Regeln geändert werden, ändert sich die Berechnung der Daten in diesem Bericht.
 * Die Reihenfolge der Verarbeitungsregeln ist für die Funktionsweise von Marketingkanälen ausschlaggebend. Bei jedem Hit werden zuerst die Kriterien oben in den Verarbeitungsregeln überprüft, dann die darunter folgenden.
 * Dieser Bericht ist zweigeteilt: in die Kanäle selbst und in deren Kanaldetails. Wenn Sie auf die Schaltfläche „+“ neben dem Kanal klicken, werden dessen Details angezeigt.
 * Jeder Spalte können nur vier Metriken hinzugefügt werden. Die Anzahl der Spalten, die Sie verwenden können, ist jedoch nicht eingeschränkt.
 * Am Ende der letzten Spalte ist eine kleine Trendlinie zu sehen. Diese Trendlinie kann zwischen aktiven Metriken wechseln.
 * Zusätzlich zu den verschiedenen Kanälen, die mit Standardmethoden erfasst werden, können Sie Offlinedatenquellen heranziehen.
-* Sie können [Classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) zum Umbenennen und Konsolidieren von Zeileneinträgen verwenden.
+* Sie können [Classifications](/help/components/c-classifications2/c-classifications.md) zum Umbenennen und Konsolidieren von Zeileneinträgen verwenden.
 * In diesem Bericht können die folgenden Metriken verwendet werden (je nach Unternehmens- und Report Suite-Einstellungen):
 
    * **Clickthrough-Raten**: wie oft die Variable  *`s.campaign`* definiert wurde.
@@ -35,12 +38,12 @@ Der Marketingkanal-Übersichtsbericht dient als Überblick zu den Methoden, mit 
 
 **Version 14 und 15**
 
-Auf diesen Bericht können Sie unter **[!UICONTROL Marketing Channels]** > **[!UICONTROL Channel Overview Report]** (sofern das Menü nicht angepasst wurde) zugreifen.
+So greifen Sie auf diesen Bericht zu: **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Kanalübersichtsbericht]** (sofern das Menü nicht angepasst wurde).
 
-In diesem Bericht ist keine Segmentierung verfügbar. Verwenden Sie stattdessen die Berichte [!UICONTROL First- or Last-Touch Channel] oder [!UICONTROL First- or Last-Touch Details] Berichte.
+In diesem Bericht ist keine Segmentierung verfügbar. Verwenden Sie stattdessen die Berichte [!UICONTROL Erstkontakt/Letztkontakt Kanal] oder [!UICONTROL Erstkontakt/Letztkontakt Detail].
 
 **Ad Hoc Analysis**
 
-Though the [!UICONTROL Marketing Channel Overview Report] is not available, Marketing Channel reports can be accessed with metrics using different allocation. So können Sie einen ähnlichen Bericht auf einfache Weise neu erstellen.
+Der [!UICONTROL Marketingkanal-Übersichtsbericht] ist zwar nicht verfügbar, doch kann mit Metriken, die eine andere Zuordnung verwenden, auf Marketingkanalberichte zugegriffen werden. So können Sie einen ähnlichen Bericht auf einfache Weise neu erstellen.
 
 Dieser Bericht kann mehrere erweiterte Segmente nutzen.
