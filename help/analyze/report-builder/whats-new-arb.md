@@ -2,7 +2,7 @@
 description: Führt aktuelle und vorhergehende Versionen und ihre Funktionen auf.
 title: Neue Funktionen in Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,9 +32,9 @@ Durch Kombination der Berichterstellungsfunktion von Report Builder mit den Visu
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **Verbesserte Verwaltung und Bearbeitung von Segmenten in mehreren Anforderungen.** Mit den neuen Optionen unter [!UICONTROL Edit Multiple Requests] können Sie alle Segmente innerhalb mehrerer Zielgruppen hinzufügen, entfernen, ersetzen und ersetzen. [Mehr …](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Verbesserte Verwaltung und Bearbeitung von Segmenten in mehreren Anforderungen.** Neue Optionen unter [!UICONTROL Edit Multiple Requests] erlauben das Hinzufügen, Entfernen und Ersetzen einzelner oder aller Segmente innerhalb mehrerer Zielanforderungen. [Mehr …](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
-* **Neuer Link zur Adobe Report Builder-Community** Mit dem neuen Link zur Adobe-Community unter „Hilfe“ werden Sie zum Adobe-Community-Forum weitergeleitet. Die Suche ist dabei auf Report Builder-Probleme eingegrenzt. In der Adobe-Community haben Sie die Möglichkeit, anderen Report Builder-Experten Fragen zur Anwendung zu stellen und sich über verfügbare Best Practices zu informieren bzw. diese weiterzugeben.
+* **Neuer Link zur Adobe Report Builder-Community** Über den neuen Adobe Community-Link in der Hilfe werden Sie zum Adobe Community Forum weitergeleitet. Die Suche ist dabei auf Report Builder-Probleme eingegrenzt. In der Adobe-Community haben Sie die Möglichkeit, anderen Report Builder-Experten Fragen zur Anwendung zu stellen und sich über verfügbare Best Practices zu informieren bzw. diese weiterzugeben.
 
    >[!NOTE]
    >
@@ -46,13 +46,13 @@ Durch Kombination der Berichterstellungsfunktion von Report Builder mit den Visu
 
 * [Virtual Report Suites](https://docs.adobe.com/help/de-DE/analytics/components/virtual-report-suites/vrs-about.html)
 * [Experience Cloud-Zielgruppen in Analytics](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html)
-* [AEM Assets Reporting](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
+* [AEM Assets Reporting](https://docs.adobe.com/content/help/de-DE/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2 {#rb-5-2-section}
 
 * **Berechnete Metriken** Report Builder 5.2 unterstützt vereinheitlichte berechnete [Adobe Analytics-Metriken](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md). Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine einzige Report Suite beschränkt.
 
-* **Erweiterte Suche für Berichte und Metriken** Da mehr [eVars und Ereignisse](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) in Adobe Analytics hinzugefügt wurden, sind wesentlich mehr Berichte und Metriken in Report Builder verfügbar. Zur Vereinfachung der Suche wurden dem Anforderungs-Assistenten zwei neue Suchleisten hinzugefügt: eine für die [Suche nach Berichten](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) und eine für die Suche nach [Metriken](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
+* **Erweiterte Suche für Berichte und Metriken** Da mehr [eVars und Ereignisse](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) in Adobe Analytics hinzugefügt wurden, sind wesentlich mehr Berichte und Metriken in Report Builder verfügbar. Zur Vereinfachung der Suche wurden dem Anforderungs-Assistenten zwei neue Suchleisten hinzugefügt: eine für die [Suche nach Berichten](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) und eine für die Suche nach [Metriken](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
 * **Kundenattribute** werden in einer neuen Art von Element namens „VisAttr“ gespeichert, das als Dimension oder Metrik konfiguriert werden kann. Weitere Informationen rund um das Hochladen von Kundenattributen finden Sie in der [Experience Cloud-Hilfe](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html).
 
