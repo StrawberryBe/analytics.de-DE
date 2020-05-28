@@ -2,7 +2,7 @@
 description: 'null'
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,14 +36,14 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 **Arbeitsmappe in Report Builder veröffentlichen**
 
 1. Generieren Sie eine Arbeitsmappe in Report Builder und speichern Sie sie.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]** > **[!UICONTROL Neu]**.
 
-1. Aktivieren Sie im einfachen Planungsassistenten das Kontrollkästchen neben **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
+1. Aktivieren Sie im Fenster „Planungs-Assistent – Grundlegend“ das Kontrollkästchen neben **[!UICONTROL Arbeitsmappe in Microsoft Power BI veröffentlichen]**.
 
    ![](assets/simple-schedule-wizard.png)
 
 1. Geben Sie Ihre E-Mail-Adresse an, um die Arbeitsmappe sofort zu senden, oder geben Sie die Planungshäufigkeit (stündlich, täglich usw.) an.
-1. Click **[!UICONTROL OK]** to publish.
+1. Klicken Sie zum Veröffentlichen auf **[!UICONTROL OK]**.
 1. Jetzt werden Sie aufgefordert, sich bei Ihrem Microsoft-Konto anzumelden. Geben Sie Ihre Anmeldedaten an.
 1. Die Report Builder-Arbeitsmappe wird in die Planung aufgenommen und in Power BI veröffentlicht.
 
@@ -51,11 +51,11 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
 **Report Builder-Arbeitsmappendaten in Power BI anzeigen**
 
-1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
+1. Doppelklicken Sie in Power BI auf die Arbeitsmappe unter dem Menü [!UICONTROL Arbeitsmappen].
 
    ![](assets/workbooks-power-bi.png)
 
-1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen.  ![](assets/view-data-pbi.png)
+1. Jetzt können Sie die Dashboard-Daten der Arbeitsmappe anzeigen. ![](assets/view-data-pbi.png)
 
 1. Sie können dann einen Bereich dieser Arbeitsmappe anheften, um sie in ein beliebiges Power BI-Dashboard einzuschließen.
 
@@ -70,12 +70,12 @@ Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller 
 **Formatierte Tabelle in Report Builder veröffentlichen**
 
 1. Generieren Sie in Report Builder eine Datentabelle, die eine Kopfzeile gefolgt von einer Datenzeile enthält.
-1. Wählen Sie die Tabelle und dann **[!UICONTROL Format as Table]** im [!UICONTROL Home] Menü aus. Die Tabelle erhält einen Standardnamen (Tabelle 1, Tabelle 2 usw.), den Sie jedoch im Menü [!UICONTROL Design] ändern können.
+1. Wählen Sie die Tabelle aus und anschließend im Menü [!UICONTROL Startseite] die Option **[!UICONTROL Als Tabelle formatieren]**. Die Tabelle erhält einen Standardnamen (Tabelle 1, Tabelle 2 usw.), den Sie jedoch im Menü [!UICONTROL Design] ändern können.
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Zeitplan]** > **[!UICONTROL Neu]**.
 
-1. Klicken Sie im einfachen Planungsassistenten auf **[!UICONTROL Advanced Scheduling Options]**.
-1. Markieren Sie [!UICONTROL Scheduling Wizard - Advanced]auf der **[!UICONTROL Publishing Options]** Registerkarte das Kontrollkästchen neben **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. Klicken Sie im Fenster „Planungs-Assistent – Grundlegend“ auf **[!UICONTROL Erweiterte Planungsoptionen]**.
+1. Aktivieren Sie im Fenster [!UICONTROL Planungs-Assistent – Erweitert] auf der Registerkarte **[!UICONTROL Power BI Veröffentlichungsoptionen]** das Kontrollkästchen neben **[!UICONTROL Alle formatierten Tabellen als Power BI-Datensatztabellen veröffentlichen]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -83,11 +83,11 @@ Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller 
 
 **Tabellendaten in Power BI anzeigen**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. Gehen Sie in Power BI zum Menü **[!UICONTROL Arbeitsbereiche]** > **[!UICONTROL Datasets]**.
 
    ![](assets/datasets-menu.png)
 
-1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. Beachten Sie, dass die Tabellen als Felder angezeigt werden.
+1. Wählen Sie den Datensatz aus, den Sie veröffentlicht haben, und klicken Sie daneben auf das Symbol [!UICONTROL Bericht erstellen]. Beachten Sie, dass die Tabellen als Felder angezeigt werden.
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +95,7 @@ Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller 
 
    ![](assets/view-table-dataset.png)
 
-1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. Beispielsweise können Sie festlegen, dass Ihre Daten als Kantengraph dargestellt werden:
+1. Im Menü [!UICONTROL Visualisierungen] können Sie auswählen, wie eine Tabelle in Power BI visualisiert werden soll. Beispielsweise können Sie festlegen, dass Ihre Daten als Kantengraph dargestellt werden:
 
    ![](assets/bi-line-graph.png)
 
@@ -110,22 +110,22 @@ Sie können alle Ihre Anforderungen in Datensatztabellen umwandeln und daraus Vi
 >Wenn die Arbeitsmappe mehr als 100 Anforderungen enthält, werden nur die ersten 100 Anforderungen in Power BI veröffentlicht. Außerdem werden nur die ersten 10.000 Datenzeilen jeder an Power BI gesendeten Anforderung veröffentlicht. Während diese Anforderungen also erfolgreich von der Planungsfunktion bereitgestellt werden, ist der Umfang der Veröffentlichungen in Power BI eingeschränkt.
 
 1. Öffnen oder erstellen Sie in Report Builder eine Arbeitsmappe mit Report Builder-Anforderungen.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]** > **[!UICONTROL Neu]**.
 
-1. Klicken Sie im einfachen Planungsassistenten auf **[!UICONTROL Advanced Scheduling Options]**.
-1. Aktivieren Sie auf der [!UICONTROL Scheduling Wizard - Advanced]Registerkarte **[!UICONTROL Publishing Options]** das Kontrollkästchen neben **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]**![](assets/advanced-schedule-wizard2.png)
+1. Klicken Sie im Fenster „Planungs-Assistent – Grundlegend“ auf **[!UICONTROL Erweiterte Planungsoptionen]**.
+1. Aktivieren Sie im Fenster [!UICONTROL Planungs-Assistent – Erweitert] auf der Registerkarte **[!UICONTROL Power BI Veröffentlichungsoptionen]** das Kontrollkästchen neben **[!UICONTROL Alle Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
 **Anforderungsdaten in Power BI anzeigen**
 
-Jede terminierte Report Builder-Anforderung wird als Tabelle im Datensatz veröffentlicht. Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
+Jede terminierte Report Builder-Anforderung wird als Tabelle im Datensatz veröffentlicht. Jede Anforderungstabelle wird nach der primären Dimension in der Anforderung benannt und verfügt über eine Spalte [!UICONTROL Report Suite] und [!UICONTROL Segmente].
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. Gehen Sie in Power BI zum Menü **[!UICONTROL Arbeitsbereiche]** > **[!UICONTROL Datensätze]**.
 
-1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
+1. Wählen Sie die Anforderung aus, die Sie veröffentlicht haben, und klicken Sie daneben auf das Symbol [!UICONTROL Bericht erstellen].
 
-   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
+   Beachten Sie, dass die Anforderungen im Menü [!UICONTROL Felder] als Tabellen angezeigt werden.
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Jede terminierte Report Builder-Anforderung wird als Tabelle im Datensatz veröf
    >
    >Unabhängig davon, welches Layout Sie für Ihre Report Builder-Anforderung auf dem Arbeitsblatt konfiguriert haben (Pivot-Layout, benutzerdefiniertes Layout, Layout mit nicht sichtbaren Spalten), veröffentlicht Report Builder Ihre Anforderung immer in dem gleichen zweidimensionalen Format mit einer Kopfzeile: Datum, Dimensionen, Metriken, Report Suites, Segmente.
 
-1. Also notice that there is an additional table called **[!UICONTROL Legend]**. Wenn Sie eine Anforderung aus dem Report Builder-Kontext herausnehmen, können Sie sich möglicherweise nicht mehr an die Bedeutung jeder einzelnen Anforderung erinnern. Der Zweck der Tabelle „Legende“ besteht darin, beispielsweise den Namen der einzelnen Anforderungen unter „Tabellen-ID“ anzuzeigen. Sie können die anderen Legendenspalten hinzufügen, um eine vollständige Ansicht der Anforderung zu erhalten.
+1. Beachten Sie außerdem, dass eine zusätzliche Tabelle mit dem Namen **[!UICONTROL Legende]** vorhanden ist. Wenn Sie eine Anforderung aus dem Report Builder-Kontext herausnehmen, können Sie sich möglicherweise nicht mehr an die Bedeutung jeder einzelnen Anforderung erinnern. Der Zweck der Tabelle „Legende“ besteht darin, beispielsweise den Namen der einzelnen Anforderungen unter „Tabellen-ID“ anzuzeigen. Sie können die anderen Legendenspalten hinzufügen, um eine vollständige Ansicht der Anforderung zu erhalten.
 
    ![](assets/legend-table.png)
 
