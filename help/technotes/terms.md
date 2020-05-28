@@ -1,7 +1,7 @@
 ---
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
@@ -27,7 +27,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Eine Standardklassifizierung der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
    * Adobe Campaign, Teil der Adobe Experience Cloud. Weitere Informationen finden Sie auf [Adobe.com](https://www.adobe.com/de/marketing/campaign.html).
 * **Kanal:** kann sich auf Folgendes beziehen:
-   * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
+   * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
    * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
 * **Klassifizierung:** eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionswerten ermöglicht. Siehe [Klassifizierungen](/help/components/c-classifications2/c-classifications.md) im Benutzerhandbuch zu Komponenten.
 * **ClickMap:** wird nicht mehr verwendet. Ein veraltetes Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
@@ -64,7 +64,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
    * Custom Insight, ein alter Name für benutzerspezifische Traffic-Variablen.
 * **KPI:** Abkürzung für Key Performance Indicator. Metriken, die einem Unternehmen helfen, die Leistung seiner Site zu verstehen. Jede Organisation verfügt über unterschiedliche KPIs, die verschiedene Aspekte ihres Geschäfts messen. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Latenz:** die Verzögerung zwischen der Datenerfassung und der Verfügbarkeit in Berichten. Die typische Latenz in einer Report Suite beträgt 30 bis 90 Minuten. Siehe [Latenz](/help/technotes/latency.md) im Benutzerhandbuch zu technischen Informationen.
-* **Launch:** Kurzform von Adobe Experience Platform Launch, der aktuellen Implementierungslösung von Adobe. Siehe [Übersicht](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) im Benutzerhandbuch zu Adobe Experience Platform.
+* **Launch:** Kurzform von Adobe Experience Platform Launch, der aktuellen Implementierungslösung von Adobe. Siehe [Übersicht](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) im Benutzerhandbuch zu Adobe Experience Platform Launch.
 * **Listen-Prop:** eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerspezifische Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Prop](../implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
 * **Listenvariable:** eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Ein Unternehmen kann nur drei Listenvariablen verwenden. Siehe [Liste](../implement/vars/page-vars/list.md) im Benutzerhandbuch zu Implementierungen.
 * **Anmeldeunternehmen:** eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind.
