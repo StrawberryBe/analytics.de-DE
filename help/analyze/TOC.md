@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Projekt erstellen – Übersicht](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Workspace-Projekt erstellen](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Mehrere Report Suites in Workspace ](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Mehrere Report Suites in Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Spalten- und Zeileneinstellungen {#column-row-settings}
          + [Spalteneinstellungen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Zeileneinstellungen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -73,19 +76,20 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Streudiagramm](analysis-workspace/visualizations/scatterplot.md)
       + [Sammelnummer und Sammeländerung](analysis-workspace/visualizations/summary-number-change.md)
       + [Text](analysis-workspace/visualizations/text.md)
-      + [Treemap](analysis-workspace/visualizations/treemap.md)
+      + [Baumdiagramm](analysis-workspace/visualizations/treemap.md)
    + Bedienfelder {#panels}
       + [Übersicht über Bedienfelder](analysis-workspace/c-panels/panels.md)
-      + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
-      + [Quick Insights Builder](analysis-workspace/c-panels/quickinsight.md)
-      + Attribution {#attribution}
+      + [Bereich &quot;Analyse für Zielgruppe&quot;(A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + Attributionsbedienfeld {#attribution}
          + [Übersicht über Attribution](analysis-workspace/c-panels/attribution/attribution.md)
          + [Attributionsbedienfeld verwenden](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Häufig gestellte Fragen zu Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [Algorithmische Zuordnung](analysis-workspace/c-panels/attribution/algorithmic.md)
+         + [Algorithmische Attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
-      + Segmentvergleich {#segment-comparison}
-         + [Segmentvergleichsübersicht](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+      + [Quick Insight-Bedienfeld](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
+         + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Projekte kuratieren oder freigeben {#curate-share}
@@ -98,7 +102,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
-      + [Übersicht über Virtual Analytics](analysis-workspace/virtual-analyst/overview.md)
+      + [Übersicht über Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
       + Anomalieerkennung {#anomaly-detection}
          + [Übersicht über die Anomalieerkennung](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Anomalien in Analysis Workspace anzeigen](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -108,12 +112,12 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
          + [Übersicht über die Beitragsanalyse](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [Ausführen einer Beitragsanalyse](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [In der Beitragsanalyse verwendete statistische Verfahren](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-      + Intelligente Warnhinweise{#intelligent-alerts}
+      + Intelligente Warnhinweise {#intelligent-alerts}
          + [Übersicht über intelligente Warnhinweise](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Warnhinweiserstellung](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Warnhinweis-Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Intelligente Warnhinweise – Anwendungsfälle](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + Häufig gestellte Fragen zum Arbeitsbereich {#workspace-faq}
+   + Häufig gestellte Fragen zu Workspace {#workspace-faq}
       + [Häufig gestellte Fragen](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace-Leistung optimieren](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Analysis Workspace im Vergleich mit Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
@@ -122,7 +126,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 + Report Builder {#report-builder}
    + [Hilfe zu Adobe Report Builder](report-builder/home.md)
    + [Neue Funktionen in Report Builder](report-builder/whats-new-arb.md)
-   + Report Builder-Einrichtung{#report-builder-setup}
+   + Report Builder-Einrichtung {#report-builder-setup}
       + [Systemanforderungen](report-builder/setup/system-requirements.md)
       + [Report Builder installieren](report-builder/setup/t-install-arb.md)
       + [Report Builder aktualisieren](report-builder/setup/upgrade-arb.md)
@@ -223,7 +227,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Arbeitsmappe herunterladen](report-builder/workbook-library/t-download-a-workbook.md)
       + [Arbeitsmappen sperren/entsperren](report-builder/workbook-library/protect-wb.md)
       + [Arbeitsmappen mit Makros planen](report-builder/workbook-library/schedule-macro-wb.md)
-   + Mit Report Builder 5.5 in Power BI veröffentlichen{#publish-powerbi}
+   + Mit Report Builder 5.5 in Power BI veröffentlichen {#publish-powerbi}
       + [In Power BI veröffentlichen – Übersicht](report-builder/c-publish-power-bi/power-bi.md)
       + [Einschränkungen und Spezifikationen](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Daten manuell in Power BI importieren](report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -329,8 +333,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Übersicht über Labs](tech-previews/overview.md)
 + Adobe Analytics dashboards {#mobapp}
    + [Adobe Analytics-Dashboard - Übersicht](mobile-app/home.md)
-   + [Kuratorleitfaden](mobile-app/curator.md)
-   + [Handbuch zum schnellen Beginn für Führungskräfte](mobile-app/executive.md)
+   + [Leitfaden für Kuratoren](mobile-app/curator.md)
+   + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
 + Progressive Web-Apps {#pwa}
    + [Progressive Web-Apps](pwa/pwa.md)
 + Analytics-Reporting-API {#analytics-reporting-api}
