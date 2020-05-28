@@ -4,7 +4,10 @@ title: GeoSegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Zeigt Daten zum Standort des Besuchers. GeoSegmentation-Berichte beinhalten Daten zu Ländern, Regionen, Städten, US-Bundesstaaten und US-DMA (Digital Marketing Areas). GeoSegmentation-Berichte sind für alle Kunden aktiviert.
 
-Alle Metriken, die an anderen Stellen in Reports &amp; Analytics für Sie verfügbar sind, werden automatisch in die Berichte zu Ländern, Regionen, Städten, US-Bundesstaaten und DMAs aufgenommen: konversions- und besuchsbasierte Metriken sowie berechnete Metriken. Weitere Informationen finden Sie in diesem Adobe [Blog](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/)-Beitrag.
+Alle Metriken, die an anderen Stellen in Reports &amp; Analytics für Sie verfügbar sind, werden automatisch in die Berichte zu Ländern, Regionen, Städten, US-Bundesstaaten und DMAs aufgenommen: konversions- und besuchsbasierte Metriken sowie berechnete Metriken. Weitere Informationen finden Sie in diesem Adobe [Blog](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/)-Beitrag.
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
