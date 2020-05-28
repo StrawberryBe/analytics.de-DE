@@ -3,7 +3,7 @@ description: Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, kan
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
