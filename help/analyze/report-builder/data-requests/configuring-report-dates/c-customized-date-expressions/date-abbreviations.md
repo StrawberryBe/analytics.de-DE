@@ -3,7 +3,7 @@ description: Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an d
 title: Datumsabkürzungen
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an dem ein Zeitraum beginnt, nicht auf einen Bereich von Tagen. Ein Bereich von Tagen wird durch Festlegen eines Start- und Enddatums für zwei zeitliche Abkürzungen (oder Terme) angegeben.
 
-Informationen zur Nutzung der richtigen Syntax finden Sie unter [Hinweise zur Syntax ](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
+Informationen zur Nutzung der richtigen Syntax finden Sie unter [Hinweise zur Syntax](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 
 * cd = aktuelles Datum (= heute)
 * cw = aktuelle Woche (= erster Tag der aktuellen Woche)
