@@ -3,7 +3,7 @@ description: Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hin
 keywords: privacy
 title: Datenschutzübersicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -89,7 +89,7 @@ Adobe Analytics erfasst die folgenden Daten:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe hat die Einstellung „IP-Verschleierung“ aktiviert: Aktiviert – IP entfernt (x.x.x.x), gilt standardmäßig für alle Kunden mit einer Report Suite in EMEA. Mit dieser Einstellung wird die IP-Adresse nach der Geo-Suche vollständig durch den Wert (x.x.x.x) ersetzt und ist nicht mehr als Datenpunkt verfügbar. <p>Bei dieser grundlegenden Austauschmethode kann nicht durch Reverse Engineering auf eine eindeutige, spezifische IP-Adresse geschlossen werden. Weder der Kunde noch Adobe können auf die IP-Adresse zugreifen. Sie wird irreversibel anonymisiert. Weitere Informationen zu anderen IP-Verschleierungseinstellungen erhalten Sie unter </p> <p> <a href="https://docs.adobe.com/content/help/de-DE/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/de-DE/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -126,7 +126,7 @@ Die folgenden EMEA-Rechenzentren hosten derzeit Adobe Analytics-Daten:
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>Niederlande </p> </td> 
    <td colname="col3"> <p>Colocation-Anbieter </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.de/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
