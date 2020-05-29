@@ -1,21 +1,21 @@
 ---
 description: 'null'
-title: Übersicht über das Attributionsbedienfeld
+title: Übersicht über Attribution
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: d880ad666eb42940147a453d8c3f04cdf9c629df
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 90%
+source-wordcount: '1809'
+ht-degree: 88%
 
 ---
 
 
-# Übersicht über das Attributionsbedienfeld
+# Übersicht über Attribution
 
->[!IMPORTANT] Das Attributionsbedienfeld ist für Kunden mit Adobe Analytics Ultimate-, Prime-, Select- und Foundation-SKUs verfügbar.
+>[!IMPORTANT] Die Zuordnung ist für alle Kunden auf den Adobe Analytics Ultimate-, Prime-, Select- und Foundation-SKUs verfügbar.
 
-Das Attributionsbedienfeld ist eine Funktion von [Attribution IQ](../../attribution-iq.md), mit der Sie viele neue Arten von Attributionsmodellen zu Freiformtabellen, Visualisierungen und berechneten Metriken hinzufügen können. Alle Attributionsmodelle weisen zwei Komponenten auf:
+[Zuordnungs-IQ](../../attribution-iq.md) ist eine Reihe von Funktionen, mit denen Sie viele neue Arten von Zuordnungsmodellen zu Freiform-Tabellen, Visualisierungen und berechneten Metriken hinzufügen können. Alle Attributionsmodelle weisen zwei Komponenten auf:
 
 * **Attributionsmodell:** Das Modell beschreibt die Verteilung der Konversionen auf die Hits in einer Gruppe. Zum Beispiel Erstkontakt oder Letztkontakt
 * **Attributions-Lookback-Fenster:** Das Lookback-Fenster beschreibt, welche Gruppierungen der Hits für das jeweilige Modell berücksichtigt werden. Beispiel: Besuch oder Besucher.
@@ -44,7 +44,7 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 
 * **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Wenn der Berichts-Datumsbereich beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
 
-* **Benutzerdefiniertes Lookback-Fenster:** (Hinweis: Das benutzerdefinierte Lookback-Fenster wird derzeit nur eingeschränkt getestet.) Ermöglicht Ihnen, das Zuordnungsfenster über den Datumsbereich des Berichte hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konvertierung im Berichte ausgewertet. Beispiel: Bei einer Konvertierung am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimension-Touchpoints vom 10. bis 20. Februar im Zuordnungsmodell auswerten.
+* **Benutzerdefiniertes Lookback-Fenster:** (Hinweis: Das benutzerdefinierte Lookback-Fenster wird derzeit nur eingeschränkt getestet.[Weitere](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)Informationen) Ermöglicht es Ihnen, das Zuordnungsfenster über den Datumsbereich des Berichte hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konvertierung im Berichte ausgewertet. Beispiel: Bei einer Konvertierung am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimension-Touchpoints vom 10. bis 20. Februar im Zuordnungsmodell auswerten.
 
 ## Beispiel
 
