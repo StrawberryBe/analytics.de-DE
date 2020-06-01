@@ -2,9 +2,9 @@
 description: Funktionen zur Barrierefreiheitsunterstützung im Arbeitsbereich für Analysen
 title: Barrierefreiheit im Arbeitsbereich für Analysen
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ Erfahren Sie mehr über die Barrierefreiheitsunterstützung in [!UICONTROL Analy
 
 Barrierefreiheit bedeutet, dass Produkte für Menschen mit Sehbehinderungen, Hörgeschäften, motorischen Störungen und anderen Behinderungen nutzbar gemacht werden können. Beispiele für Barrierefreiheitsfunktionen für Softwareprodukte sind die Unterstützung von Bildschirmlesehilfen, Entsprechungen für Grafiken, Tastaturbefehle, die Änderung von Anzeigefarben in kontrastreiche Farben usw.
 
-[!UICONTROL Analyse Workspace] bietet einige Tools, mit denen Sie barrierefreie Inhalte erstellen können, sowie Werkzeuge, mit denen Sie barrierefreie Inhalte erstellen können.
+[!UICONTROL Analyse Workspace] bietet einige Tools, mit denen Sie auf die Verwendung zugreifen können:
 
 ## Navigieren in [!UICONTROL Workspace] mithilfe der Tastatur
 
@@ -34,7 +34,7 @@ Die Navigation in [!UICONTROL Analyse Workspace] funktioniert oben > unten und l
 
 1. Registerkarten zu einer Komponente in der linken Leiste.
 1. Drücken Sie `Enter` die Eingabetaste.
-1. Verwenden Sie eine Pfeiltaste, um zu dem Bereich zu navigieren, in dem Sie die Komponente ablegen möchten.
+1. Verwenden Sie die Pfeiltasten, um zu dem Bereich zu navigieren, in dem Sie die Komponente ablegen möchten.
 1. Drücken Sie `Enter` die Eingabetaste, um die Komponente zu platzieren.
 
 ### Tastaturbefehle (Hotkeys)
@@ -60,7 +60,7 @@ Die Navigation in [!UICONTROL Analyse Workspace] funktioniert oben > unten und l
 | Strg+Umschalt+D | Neuer Datumsbereich |
 | Strg+Umschalt+E | Neues Segment |
 | Strg+Z | Machen Sie Ihre Änderungen rückgängig |
-| Umschalttaste gedrückt halten (im Dropzone des Bereichssegments) | Erstellen Sie einen [Dropdownfilter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html). |
+| Umschalttaste gedrückt halten (im Dropzone des Bereichssegments) | Einen [Dropdownfilter erstellen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Demokratisierung
 
