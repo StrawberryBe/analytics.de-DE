@@ -2,24 +2,27 @@
 title: Analysieren von Marketing-Kanälen
 description: Erfahren Sie, wie Sie die Dimensionen der Marketing-Kanal in Workspace verwenden.
 translation-type: tm+mt
-source-git-commit: 57f1f7d11c13fb11ea12404e9a98fad955e48d9b
+source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 3%
 
 ---
 
 
 # Analysieren von Marketing-Kanälen
 
-Sie möchten wahrscheinlich wissen, welche Ihrer Marketing-Kanal am effektivsten sind und mit wem, damit Sie Ihre Bemühungen besser Zielgruppe und eine bessere Rendite aus Ihren Marketing-Dollars erhalten. In Adobe Analytics sind die Dimensionen und Metriken der Marketing-Kanal in Workspace eines der Tools, mit dem Sie den Einfluss verschiedener Kanal auf Ihre Bestellungen, Umsätze usw. verfolgen können. und geben Ihnen nützliche Einblicke in den Kanal. Im Folgenden finden Sie die Dimensionen und Metriken, die Sie im Zusammenhang mit Marketing-Kanälen verwenden können:
+Sie möchten wahrscheinlich wissen, welche Ihrer Marketing-Kanal am effektivsten sind und mit wem, damit Sie Ihre Bemühungen besser Zielgruppe und eine bessere Rendite aus Ihren Marketing-Dollars erhalten. In Adobe Analytics sind die Dimensionen und Metriken der Marketing-Kanal in Workspace eines der Tools, mit dem Sie den Einfluss verschiedener Kanal auf Ihre Bestellungen, Umsatz usw. verfolgen können. und geben Ihnen nützliche Einblicke in den Kanal. Im Folgenden finden Sie die Dimensionen und Metriken, die Sie im Zusammenhang mit Marketing-Kanälen verwenden können:
 
 ![](assets/mc-dims.png)
 
 | Dimension/Metrik | Definition |
 |---|---|
-| Marketingkanal | Dies ist die Marketing-Kanal-Dimension, die wir empfehlen. Zuordnungs-IQ-Modelle können zur Laufzeit darauf angewendet werden. Die allgemeine Dimension &quot;Marketing-Kanal&quot;verhält sich genauso wie die Dimension &quot;Letztkontakt-Kanal&quot;, wird jedoch anders gekennzeichnet, um Verwirrung zu vermeiden, wenn sie mit einem anderen Zuordnungsmodell verwendet wird. |
-| Letztkontakt Kanal | Legacy-Dimension, mit einem Zuordnungsmodell, das vorab angewendet und unverändert ist. |
-| Erstkontakt Kanal | Legacy-Dimension, mit einem Zuordnungsmodell, das vorab angewendet und unverändert ist. |
-| Marketingkanal-Instanzen | Diese Metrik... |
-| Neue Interaktionen | Hierbei handelt es sich um eine veraltete Metrik, die nur inkrementiert wird, wenn für einen Kanal eine First Touch-Zuordnung angewendet wurde. |
+| Marketingkanal | Dies ist die empfohlene Marketing-Kanal-Dimension. Zuordnungs-IQ-Modelle können zur Laufzeit darauf angewendet werden. Diese Dimension verhält sich genauso wie die Dimension &quot;Letztkontakt-Kanal&quot;, wird jedoch anders gekennzeichnet, um Verwirrung zu vermeiden, wenn sie mit einem anderen Zuordnungsmodell verwendet wird. |
+| Letztkontakt Kanal | Legacy-Dimension, mit Last Touch-Zuordnungsmodell vorab angewendet und unveränderlich. |
+| Erstkontakt Kanal | Legacy-Dimension, mit dem First Touch-Zuordnungsmodell vorab angewendet und unveränderbar. |
+| Marketingkanal-Instanzen | Diese Metrik misst, wie oft ein Marketing-Kanal in einer Bildanforderung definiert wurde, einschließlich standardmäßiger Ansichten von Seiten und benutzerspezifischer Linkaufrufe. Enthält keine persistenten Werte. |
+| Neue Interaktionen | Diese Metrik ähnelt Instanzen, wird jedoch nur inkrementiert, wenn in einer Bildanforderung First Touch-Marketing-Kanal definiert wird. |
 
 ## Basisanalyse
 
@@ -49,7 +52,7 @@ Sie können [Zuordnungs-IQ](https://docs.adobe.com/content/help/en/analytics/ana
 
 Beachten Sie, dass dieselbe Metrik (Online-Bestellungen) unterschiedliche Ergebnisse generiert, wenn Sie verschiedene Zuordnungsmodelle anwenden.
 
-Im Folgenden finden Sie einige Videos, die Attribution IQ detaillierter erklären: IQ- [Playlist](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)für Zuordnungen.
+Im Folgenden finden Sie einige Videos, die Attribution IQ detaillierter erklären: [Zuordnung IQ-Playlist](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
 
 ## Tabulatorübergreifende Marketing-Analyse
 
