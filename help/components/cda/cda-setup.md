@@ -2,14 +2,15 @@
 title: Geräteübergreifende Analyse einrichten
 description: Erfahren Sie, wie Sie die geräteübergreifende Analyse einrichten, wenn Sie die Voraussetzungen erfüllen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 63%
 
 ---
 
 
 # Geräteübergreifende Analyse einrichten
-
->[!NOTE] Die Dokumentation zur geräteübergreifenden Analyse kann sich ändern, wenn die Funktion weiterentwickelt wird. Achten Sie regelmäßig auf Updates.
 
 Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifende Analyse mit den folgenden Schritten. Sie müssen einer Produktprofil-Administratorgruppe angehören oder über Administratorrechte in Adobe Analytics verfügen, um diese Schritte ausführen zu können.
 
