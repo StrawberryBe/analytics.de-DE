@@ -2,10 +2,10 @@
 description: Funktionen zur Barrierefreiheitsunterstützung im Arbeitsbereich für Analysen
 title: Barrierefreiheit im Arbeitsbereich für Analysen
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 5%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Die Navigation in [!UICONTROL Analyse Workspace] funktioniert oben > unten und l
 * Die `Tab` Taste wechselt zwischen einzelnen Elementen.
 * Wir wenden Fokusindikatoren an, sodass sehende Tastaturbenutzer einen klaren Hinweis darauf haben, welches UI-Element derzeit im Fokus ist. Der Indikator ist ein blauer Rand um das ausgewählte Element herum.
 
-   ![](assets/focus-indicator.png)
+   ![Fokusindikator](assets/focus-indicator.png)
 
 ### Tastaturnavigation für Drag &amp; Drop-Interaktionen
 
@@ -75,11 +75,11 @@ Die Navigation in [!UICONTROL Analyse Workspace] funktioniert oben > unten und l
 
 ## Unterstützung für Bildschirmlesehilfen und Vergrößerungssoftware
 
-Eine Bildschirmlesehilfe verweist auf Text, der auf dem Computerbildschirm angezeigt wird. Es werden auch nicht textuelle Informationen wie Schaltflächenbeschriftungen oder Bildbeschreibungen in der Anwendung gelesen, die in Tags oder Attributen zur Barrierefreiheit bereitgestellt werden.
+Eine Bildschirmlesehilfe liest Text, der auf dem Computerbildschirm angezeigt wird. Es werden auch nicht textuelle Informationen wie Schaltflächenbeschriftungen oder Bildbeschreibungen in der Anwendung gelesen, die in Tags oder Attributen zur Barrierefreiheit bereitgestellt werden.
 
 ## Farbpaletten und Kontrast
 
-[!UICONTROL Analyse Workspace] bemüht sich um die Einhaltung der Farbkontrast-Richtlinien von WCAG AA.
+[!UICONTROL Analyse Workspace] strebt die Konformität mit WCAG 2.1 AA an, einschließlich der Anforderungen für den Farbkontrast.
 
 Darüber hinaus können die Benutzer ihre eigene bevorzugte Farbpalette für ein Projekt unter **[!UICONTROL Projekt]** > **[!UICONTROL Projekteinstellungen]** > [Farbpalette](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)festlegen.
 
@@ -89,8 +89,8 @@ Beim Erstellen einer Komponente werden die erforderlichen Felder beim Speichern 
 
 Sobald eine Komponente vollständig validiert wurde, wird der Builder durch Drücken der Taste `Save` geschlossen.
 
-![](assets/error-validation.png)
+![Fehler-Überprüfung](assets/error-validation.png)
 
 ## Unterstützung für Barrierefreiheitsfunktionen des Betriebssystems
 
-Analyse Workspace unterstützt die integrierten MS Windows- und macOS-Barrierefreiheitsfunktionen wie kontrastreiche Modus- und Bildschirmlesehilfen (Erzähler für MS Windows und VoiceOver für macOS).
+Analyse Workspace unterstützt integrierte MS Windows- und macOS-Zugänglichkeitsfunktionen wie den Modus mit hohem Kontrast, fixierbare Schlüssel und langsame Schlüssel/Filterschlüssel. Es enthält auch Informationen über die Benutzeroberfläche des Betriebssystems, um die Interaktion mit Hilfstechnologien zu ermöglichen, einschließlich Bildschirmlesehilfen wie VoiceOver für macOS und NVDA unter Windows.
