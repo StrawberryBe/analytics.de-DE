@@ -1,9 +1,11 @@
 ---
 description: Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google oder Bing finden können.
 title: Konto-IDs suchen
-uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 65%
 
 ---
 
@@ -16,13 +18,17 @@ Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google ode
 
 >[!IMPORTANT]
 >
->Google AdWords nutzt zwei Kontotypen: a) MCC-Konto (My Client Center) und b) Standardkonto. Für diese Integration in Adobe Analytics **müssen Sie ein Standardkonto-Login und keine MCC-Kontoanmeldung verwenden**. Das liegt daran, dass das MCC-Konto als übergeordnetes Konto dient, das mit einem einzelnen Login auf verschiedene AdWords-Konten zugreifen kann. Die Standardkonto-Anmeldung kann hingegen pro Login nur auf ein AdWords-Konto zugreifen.
+>Google AdWords nutzt zwei Kontotypen: a) MCC-Konto (My Client Center) und b) Standardkonto. Für diese Integration in Adobe Analytics **müssen Sie ein Standardkonto-Login und keine MCC-Kontoanmeldung verwenden**. Das liegt daran, dass das MCC-Konto als übergeordnetes Konto dient, das mit einem einzelnen Login auf verschiedene AdWords-Konten zugreifen kann. Die Standardkonto-Anmeldung kann hingegen pro Login nur auf ein AdWords-Konto zugreifen. Während Google die Verknüpfung einer E-Mail mit 5 Konten unterstützt, unterstützt Advertising Analytics diese Funktion noch nicht. Eine E-Mail kann nur mit einem Adwords-Konto verknüpft werden.
 
 Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-ID) anzuzeigen.
 
 ![](assets/google_account.png)
 
 ## Bing  {#section_F1B9C7E997444746936599732CD62665}
+
+>[!NOTE]
+>
+>Wenn Ihr Bing-Konto die Google-Importfunktion verwendet, sollten Sie die richtige Verfolgungszeichenfolge aktualisieren. Die Verfolgungszeichenfolge wird nicht automatisch von der Google-Version auf die richtige Bing-Verfolgungszeichenfolge aktualisiert und kann zu nicht angegebenen Daten führen. Weitere Informationen zu dieser Funktion finden Sie [hier](https://help.ads.microsoft.com/apex/index/3/en/50851/).
 
 Sowohl Konto- als auch Kunden-ID sind erforderlich. Sie sind auf der Registerkarte „Konten“ aufgeführt.
 
