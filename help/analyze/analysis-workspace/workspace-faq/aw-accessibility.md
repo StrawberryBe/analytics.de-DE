@@ -2,9 +2,9 @@
 description: Funktionen zur Barrierefreiheitsunterstützung im Arbeitsbereich für Analysen
 title: Barrierefreiheit im Arbeitsbereich für Analysen
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Erfahren Sie mehr über die Barrierefreiheitsunterstützung in [!UICONTROL Analyse Workspace], dem führenden Tool zur Analyse von Adobe Analytics.
 
-Barrierefreiheit bedeutet, dass Produkte für Menschen mit Sehbehinderungen, Hörgeschäften, motorischen Störungen und anderen Behinderungen nutzbar gemacht werden können. Beispiele für Barrierefreiheitsfunktionen für Softwareprodukte sind die Unterstützung von Bildschirmlesehilfen, Entsprechungen für Grafiken, Tastaturbefehle, die Änderung von Anzeigefarben in kontrastreiche Farben usw.
+Barrierefreiheit bedeutet, Produkte für Menschen mit Sehbehinderungen, Hörgeschäften, Kognitionsfähigkeiten, motorischen Störungen und anderen Behinderungen nutzbar zu machen. Beispiele für Barrierefreiheitsfunktionen für Softwareprodukte sind die Unterstützung von Bildschirmlesehilfen, Entsprechungen für Grafiken, Tastaturbefehle, die Änderung von Anzeigefarben in kontrastreiche Farben usw.
 
 [!UICONTROL Analyse Workspace] bietet einige Tools, mit denen Sie auf die Verwendung zugreifen können:
 
