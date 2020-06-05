@@ -2,23 +2,26 @@
 title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+workflow-type: tm+mt
+source-wordcount: '2048'
+ht-degree: 71%
 
 ---
 
 
 # Verarbeitungsregeln für Marketing-Kanäle
 
-Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
+Die Verarbeitungsregeln des Marketing-Kanals bestimmen, ob ein Treffer des Besuchers die einem Kanal zugewiesenen Kriterien erfüllt, indem jeder Treffer verarbeitet wird, den ein Besucher auf Ihrer Site ausführt. Die Regeln werden in der von Ihnen angegebenen Reihenfolge verarbeitet. Wenn eine Regel erfüllt ist, stoppt das System die Verarbeitung der verbleibenden Regeln.
 
-Beachten Sie bei der Regelerstellung diese wichtigen Richtlinien:
+![](assets/buckets_2.png)
 
-* Sortieren Sie die Regeln in der Reihenfolge, in der sie verarbeitet werden sollen.
-* Setzen Sie an das Ende Ihrer Liste eine Sammelregel wie „Sonstige“. Diese Regel identifiziert externen Traffic, jedoch nicht den internen Traffic.
-
-   Siehe [Kein Kanal identifiziert.](/help/components/c-marketing-channels/c-faq.md)
-
->[!NOTE] Auch wenn diese Regeln keine Auswirkungen auf die Berichterstellung außerhalb der Marketing-Kanäle haben, beeinflussen sie die Marketing-Kanal-Datenerfassung. Mit diesen Regeln erfasste Daten sind zu 100 % dauerhaft und nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Es wird dringend empfohlen, alle Umstände zu prüfen und in Erwägung zu ziehen, bevor [!UICONTROL Marketingkanal-Verarbeitungsregeln] gespeichert werden, um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
+Weitere Hinweise zur Verarbeitung:
+* Mit diesen Regeln erfasste Daten sind zu 100 % dauerhaft und nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Es wird dringend empfohlen, alle Umstände zu prüfen und in Erwägung zu ziehen, bevor [!UICONTROL Marketingkanal-Verarbeitungsregeln] gespeichert werden, um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
+* Der Bericht kann bis zu 25 Kanäle gleichzeitig verarbeiten.
+* Regeln haben Zugriff auf Variablen, die von VISTA gesetzt wurden, können jedoch nicht auf Daten zugreifen, die von VISTA gelöscht wurden.
+* Dasselbe Ereignis kann niemals zwei Marketingkanälen gutgeschrieben werden (wie Käufe oder Klicks). In dieser Hinsicht unterscheiden sich Marketingkanäle von eVars (dasselbe Ereignis kann zwei eVars gutgeschrieben werden).
+* Wenn Ihre Regeln lückenhaft abgedeckt sind, sehen Sie möglicherweise [Kein Kanal identifiziert.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Voraussetzungen
 
@@ -32,43 +35,37 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegangen, dass Sie Ihrer Kanalliste auf der Seite „Marketingkanal-Manager“ einen E-Mail-Kanal hinzugefügt haben.
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
+2. Wählen Sie eine Report Suite aus.
 
    Wenn in Ihrer Report Suite keine Kanäle definiert wurden, wird die Seite [!UICONTROL Marketingkanäle: Automatisches Setup] angezeigt.
 
    Siehe [Ausführen des automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Verarbeitungsregeln]**.
+3. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Verarbeitungsregeln]**.
 
    ![Schritt Ergebnis](assets/marketing_channel_rules.png)
 
-1. Wählen Sie im Menü **[!UICONTROL Neuen Regelsatz hinzufügen:]** die Option **[!UICONTROL E-Mail]**.
+4. Wählen Sie im Menü **[!UICONTROL Neuen Regelsatz hinzufügen:]** die Option **[!UICONTROL E-Mail]**.
 
-   Hier wählen Sie keinen Kanal sondern eine Vorlage aus, die die Regel mit einigen der erforderlichen Parameter füllt.
+   Hier wählen Sie keinen Kanal sondern eine Vorlage aus, die die Regel mit einigen der erforderlichen Parameter füllt. Sie können diese Vorlage nach Bedarf ändern.
 
    ![Schritt Ergebnis](assets/example_email.png)
 
-   Verwenden Sie zur Regelkonfiguration die Boolesche Logik (if/then (wenn/dann) Aussagen). In einer E-Mail-Kanalregel geben Sie z. B. die Einstellungen oder Informationen ein, die in der folgenden Regelaussage hervorgehoben sind:
+5. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**, um die Regelerstellung fortzusetzen.
+6. Ziehen Sie die Regeln zur Priorisierung an die gewünschte Position.
+7. Klicken Sie auf **[!UICONTROL Speichern.]**
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
+Fahren Sie auf dieser Seite fort, um Empfehlungen für die Regelreihenfolge von Kanälen sowie weitere Definitionsbeispiele anzuzeigen.
 
-   `"Then identify the channel as **[!UICONTROL Email]**...`
+### Festlegen des Kanal-Werts für Marketing
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
+**[!UICONTROL Hinzufügen ]**RegelLegt den Wert des Kanals fest]**definiert die Detail-Dimension des Marketing-Kanals, die für diesen Kanal verfügbar ist. Auf diese Weise können Sie die Dimensionen des Marketing-Kanals unterteilen und detailliertere Informationen zum Kanal anzeigen.
 
-   In diesem Beispiel ist *`<value>`* der Abfragezeichenfolgenparameter, den Sie für Ihre E-Mail-Kampagne verwenden, wie z. B. *`eml`*.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**, um die Regelerstellung fortzusetzen.
-1. Ziehen Sie die Regeln zur Priorisierung an die gewünschte Position.
-1. Klicken Sie auf **[!UICONTROL Speichern.]**
+Es wird empfohlen, den Kanal-Wert auf dieselben Kriterien festzulegen, die zur Definition des Kanals selbst verwendet werden. Wenn beispielsweise der Zeichenfolgenparameter &quot;Abfrage&quot;zum Definieren des Kanals verwendet wird, legen Sie den Abfrage-Zeichenfolgenparameter auch als Kanal-Wert fest.
 
->[!MORELIKETHIS]
->
->* [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md)
+### Regelkriterien
 
-
-## Regelkriterien für Marketing-Kanal
-
-Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „Marketingkanalregeln“ auswählen können.
+In dieser Referenztabelle werden die Felder, Optionen und Trefferattribute definiert, die Sie zum Definieren der Verarbeitungsregeln für Marketing Kanal verwenden können.
 
 | Begriff | Definition |
 |--- |--- |
@@ -101,67 +98,79 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie auf der Seite „M
 | Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie z. B. nach dem Begriff „computer“ suchen, werden die Suchmaschine und Keyword wie folgt identifiziert: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:**„n“ = kostenlos; „p“ = gebührenpflichtig |
 | Den Kanalwert setzen auf | Neben der Erkenntnis, welche Marketing-Kanäle einen Besucher zu Ihrer Site führen, ist es auch von Interesse, welche Bannerwerbung, welches Keyword und welche E-Mail-Kampagne in dem Kanal die Gutschrift für die Site-Aktivität des Besuchers erhält. Diese ID ist ein Kanalwert, der mit dem Kanal gespeichert wird. Häufig handelt es sich dabei um eine Kampagnen-ID, die in die Landingpage oder die verweisende URL integriert ist. In anderen Fällen ist es eine Kombination aus Suchmaschine und Keyword oder die verweisende URL, die den Besucher aus einem bestimmten Kanal am genauesten identifiziert. |
 
-## Kanal „Intern“ (Sitzungsaktualisierung)
+## Regelreihenfolge und Definitionen für Marketing Kanal {#channel-rules}
 
-Der Kanal „Intern“ (häufig in „Sitzungsaktualisierung“ umbenannt) besteht aus Besuchen auf der Site, bei denen die verweisende URL mit der Einrichtung von internen URL-Filtern in der Admin Console übereinstimmt. Das bedeutet, dass der Besucher seinen Besuch innerhalb der Site gestartet hat.
+Kanal-Regeln werden in der angegebenen Reihenfolge verarbeitet. Eine empfohlene Vorgehensweise bei der Bestellung von Kanälen besteht darin, gebührenpflichtige oder verwaltete Kanal zuerst zu bestellen (z.B. gebührenpflichtige Suche, kostenlose Suche, Anzeige, E-Mail), sodass sie eine Gutschrift erhalten, gefolgt von kostenlosen Kanälen (z.B. direkt, intern, verweisende Domänen).
+
+Nachfolgend finden Sie die empfohlene Reihenfolge für Kanal-Regeln und Beispieldefinitionen:
+
+### Gebührenpflichtige Suche {#paid-search}
+
+Die gebührenpflichtige Suche ist ein Wort oder eine Wortgruppe, mit der Sie eine Suchmaschine für die Platzierung in Suchergebnissen bezahlen. Dieser Kanal wird in der Regel auf der Grundlage von Abfragen-Zeichenfolgenparametern (siehe Beispiel Kanal anzeigen) oder gebührenpflichtigen Sucherkennungsregeln definiert. Die Entscheidung hängt von den Details des Marketing-Kanals ab, den Sie aufzeichnen möchten.
+
+#### Erkennung von Paid Search
+
+Zum Erfüllen der Erkennungsregeln der bezahlten Suche verwendet der Marketingkanal die auf der Seite [!UICONTROL Gebührenpflichtige Sucherkennung] konfigurierten Einstellungen. (**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Gebührenpflichtige Sucherkennung]**). Die Ziel-URL stimmt mit der vorhandenen gebührenpflichtigen Sucherkennungsregel für die betreffende Suchmaschine überein.
+
+Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalregel lauten wie folgt:
+
+![](assets/example_paid_search.png)
+
+Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+
+### Kostenlose Suche  {#natural-search}
+
+Eine Suche ist „kostenlos“, wenn Besucher Ihre Website durch eine Websuche finden, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen.
+
+Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+
+Die kostenlosen Sucheinstellungen für die Marketingkanalregel lauten wie folgt:
+
+![](assets/example_natural_search.png)
+
+### Anzeigen  {#display}
+
+Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall  *`Ad_01`*.
+
+![](assets/example_display.png)
+
+### E-Mail  {#email}
+
+Diese Regel identifiziert Besucher, die von E-Mail-Kampagnen stammen. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`eml`*:
+
+![](assets/example_email.png)
+
+### Affiliates  {#afilliates}
+
+Diese Regel identifiziert Besucher, die aus einem bestimmten Satz verweisender Domänen stammen. Listen Sie in der Regel die Affiliate-Domänen, die verfolgt werden sollen, so auf:
+
+![](assets/example_affiliates.png)
+
+### Andere Kampagnen {#other-campaigns}
+
+Eine bewährte Methode besteht darin, einen Kanal &quot;Sonstige Kampagnen&quot;einzubeziehen, der allen Regeln für gebührenpflichtige Kanal entspricht. Dieser Kanal dient als Auffangbehälter für nicht kategorisierten gebührenpflichtigen Traffic.
+
+### Sozialen Netzwerke  {#social-networks}
+
+Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook* stammen. Der Kanal wird oft in &quot;Organisch Social&quot;umbenannt. Die Einstellungen können wie folgt lauten:
+
+![](assets/example_social.png)
+
+### Kanal „Intern“ (Sitzungsaktualisierung){#internal}
+
+Diese Regel gilt für Besucher, in denen die verweisende URL mit der URL-Adresse übereinstimmt, die in der Admin-Konsole eingerichtet wurde. Das bedeutet, dass der Besucher von der Site kam, um seinen Besuch Beginn. Dieser Kanal wird oft in &quot;Sitzungsaktualisierung&quot;umbenannt.
 
 ![](assets/int-channel1.png)
 
-### Überschreiben von Best Practices
+Weitere Informationen dazu, warum dieser Kanal auftritt, finden Sie unter [Gründe für die Aktualisierung der Sitzung](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) .
 
-Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die Kanäle „Direkt“ und „Intern“ zu deaktivieren, damit sie keine Gutschriften von anderen persistenten Letztkontakt-Kanälen (oder voneinander) erhalten.
+### Direkt  {#direct}
 
->[!NOTE]In diesem Dokument wird davon ausgegangen, dass die Einstellungen zum Außerkraftsetzen für Direkt- und Sitzungsaktualisierung deaktiviert sind.
+Diese Regel identifiziert Besucher ohne Referrerdomäne. Dazu gehören Besucher, die direkt zu Ihrer Site gelangen, z. B. über einen Favoritenlink oder durch Einfügen eines Links in den Browser. Dieser Kanal wird oft in &quot;Direkte Eingabe/Lesezeichen&quot;umbenannt.
 
-![](assets/int-channel2.png)
+![](assets/example_direct.png)
 
-### Interaktionszeitraum
+### Kanal &quot;Verweisende Domänen&quot; {#referring-domains}
 
-Sowohl die Erstkontakt- als auch die Letztkontakt-Kanäle eines Besuchers werden nach 30 Tagen Inaktivität in diesem Browser zurückgesetzt.
+Der Kanal &quot;Verweisende Domänen&quot;identifiziert Besucher mit einer verweisenden Domäne. Die Kanal &quot;Interne&quot;, &quot;Direkte&quot;und &quot;Verweisende Domänen&quot;fungieren gemeinsam als Auffanglösung für alle verbleibenden Treffer, die noch nicht in einen Kanal kategorisiert wurden.
 
->[!NOTE] 30 Tage sind die Standardeinstellung, die bei Bedarf über die Admin-Einstellungen geändert werden kann.
-
-Wenn der Besucher die Site häufig nutzt, passt sich das Interaktionsfenster daran an. Der Besucher muss 30 Tage lang inaktiv sein, damit der Zeitraum abläuft und die Kanäle zurückgesetzt werden.
-Beispiel:
-
-* Tag 1: Der Benutzer gelangt per Anzeige zur Site. Erstkontakt- und Letztkontakt-Kanäle werden auf „Anzeige“ eingestellt.
-
-* Tag 2: Der Benutzer gelangt per natürlicher Suche zur Site. Erstkontakt bleibt „Anzeige“, Letztkontakt wird auf „Natürliche Suche“ eingestellt.
-
-* Tag 35: Der Benutzer war seit 33 Tagen nicht mehr auf der Site und kehrt über die Registerkarte zurück, die er in seinem Browser geöffnet hatte. Bei einem Interaktionsfenster von 30 Tagen wäre das Fenster geschlossen, und die Marketingkanal-Cookies wären abgelaufen. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt und auf „Sitzungsaktualisierung“ eingestellt, da der Benutzer von einer internen URL kam.
-
-### Beziehung zwischen Erstkontakt und Letztkontakt
-
-Um die Interaktion zwischen Erstkontakt und Letztkontakt zu verstehen und zu bestätigen, dass Außerkraftsetzungen erwartungsgemäß funktionieren, können Sie einen Erstkontakt-Kanalbericht abrufen, der sich auf einen Letztkontakt-Kanalbericht bezieht, wobei Ihre wichtigste Erfolgsmetrik hinzugefügt wird (siehe Beispiel unten). Das Beispiel zeigt die Interaktion zwischen Erstkontakt- und Letztkontakt-Kanälen.
-
-![](assets/int-channel3.png)
-
-Die Schnittmenge, bei der Erstkontakt mit Letztkontakt übereinstimmt, ist orange hervorgehoben. Sowohl „Direkt“ als auch „Sitzungsaktualisierung“ erhalten nur dann eine Letztkontakt-Gutschrift, wenn sie auch der Erstkontakt-Kanal sind, da sie keine Gutschrift von anderen persistenten Kanälen erhalten können (grau hervorgehobene Zeilen).
-
-### Warum kommt es zu einer Sitzungsaktualisierung?
-
-Da wir wissen, dass eine Letztkontakt-Sitzungsaktualisierung nur erfolgen kann, wenn es sich gleichzeitig um den Erstkontakt handelt, wird in den Szenarien unten erläutert, wie die Sitzungsaktualisierung ein Erstkontakt-Kanal sein kann.
-
-**Szenario 1: Sitzungstimeout**
-
-Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
-
-**Szenario 2: Nicht alle Seiten der Site sind mit Tags versehen**
-
-Ein Besucher landet auf Seite A, die nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
-
-**Szenario 3: Umleitungen**
-
-Wenn eine Umleitung nicht so eingerichtet ist, dass Referrer-Daten an die neue Landingpage weitergegeben werden, gehen die Referrer-Daten verloren, und die Umleitungsseite (wahrscheinlich eine interne Seite) erscheint als Referrer-Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
-
-**Szenario 4: Domänenübergreifender Traffic**
-
-Ein Besucher wechselt von einer Domäne, die zu Suite A führt, zu einer zweiten Domäne, die zu Suite B führt wird. Wenn in Suite B die internen URL-Filter die erste Domäne enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketingkanäle ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
-
-**Szenario 5: Lange Ladezeiten der Entrypage**
-
-Ein Besucher landet auf Seite A mit viel Inhalt, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
-
-**Szenario 6: Löschen von Cookies mitten auf der Site**
-
-Ein Besucher besucht die Site und löscht seine Cookies während der Sitzung. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
