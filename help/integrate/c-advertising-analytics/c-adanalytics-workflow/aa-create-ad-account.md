@@ -2,7 +2,10 @@
 title: Werbekonto einrichten
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 81%
 
 ---
 
@@ -15,14 +18,14 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
 
 ![](assets/aa_accounts.png)
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
 1. (Nur bei erster Verwendung) Akzeptieren Sie die Bedingungen der Endnutzer-Lizenzvereinbarung.
-1. Klicken Sie auf **[!UICONTROL + Add]**.
-1. Das [!UICONTROL New Search Engine Account] Dialogfeld wird angezeigt:
+1. Klicken Sie auf **[!UICONTROL + Hinzufügen]**.
+1. Das Dialogfeld [!UICONTROL Neues Suchmaschinenkonto] wird angezeigt:
 
    ![](assets/aa_new_se_account.png)
 
-1. Füllen Sie die **[!UICONTROL Search Engine Settings]** folgenden Richtlinien aus:
+1. Legen Sie die **[!UICONTROL Suchmaschineneinstellungen]** gemäß folgenden Richtlinien fest:
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -55,38 +58,19 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
     </table>
 
 1. Geben Sie im Abschnitt **[!UICONTROL Tracking]** Informationen dazu ein, wie die Suchmaschine von Ihrer Adobe Analytics-Implementierung verfolgt wird. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß durch die Suchmaschinendaten zu ergänzen.
-Füllen Sie die **[!UICONTROL Tracking Settings]** folgenden Richtlinien aus:
+Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlinien fest:
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Einstellung </th> 
-      <th colname="col2" class="entry"> Beschreibung </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Typ </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Auto</span>: Hier entscheidet die Advertising Cloud-Engine, wie die Tracking-Parameter an die Tracking-Vorlagen/Ziel-URLs der Suchmaschine angehängt werden. Dies ist der einfachste Ansatz, der jedoch möglicherweise nicht zum besten integrierten Datensatz führt. <p>Wichtig: Wenn Sie ein Suchmaschinenkonto im „Auto-Modus“ konfigurieren möchten, sind Sie für die folgenden Aktionen verantwortlich: 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Der Parameter „s_kwcid“ und der Wert „s_kwcid“ werden den Kontotracking-Vorlagen oder Landingpage-URLs in dem hinzugefügten Konto hinzugefügt. Die Einfügung erfolgt am Ende der URL. Daher können zusätzliche Maßnahmen von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">Darüber hinaus können Keywords als Teil des Wertes „s_kwcid“ in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie daher bitte, ob Ihr Webserver diese Zeichen unterstützen kann. (Ein häufig verwendetes Sonderzeichen ist beispielsweise „+“, das in „Broad Match Modified“-Keywords verwendet wird.) </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuell</span>: Hierüber können Sie verwalten, wie Tracking-Parameter zu den Tracking-Vorlagen/Ziel-URLs der Suchmaschine hinzugefügt werden. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Weitere Informationen finden Sie in den Beispielen für manuelles Tracking für die einzelnen Suchmaschinen</a>. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Einstellung | Beschreibung |
+   |--- |--- |
+   | Typ | <ul><li>**Auto:** Hiermit kann die Advertising Cloud-Engine entscheiden, wie die Verfolgungsparameter an die Verfolgungsvorlagen/Ziel-URLs der Suchmaschine angehängt werden. Dies ist der einfachste Ansatz, der jedoch möglicherweise nicht zum besten integrierten Datensatz führt.<br>**Wichtig:**Um ein Suchmaschinenkonto im automatischen Modus zu konfigurieren, sind Sie dafür verantwortlich,<br>die folgenden Aktionen durchzuführen:- Der Parameter und der Wert &quot;s_kwcid&quot;werden den Kontoverfolgungsvorlagen oder Landingpages-URLs im hinzugefügten Konto hinzugefügt. Die Einfügung erfolgt am Ende der URL. Daher können zusätzliche Maßnahmen von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert.** Hinweis:**Erfahren Sie mehr darüber, ob Sie diesen Parameter zu Ihren[Content Security-Richtlinien](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)hinzufügen sollten.<br>- Darüber hinaus können Suchbegriffe als Teil des Werts &quot;s_kwcid&quot;in die Einstiegs-URL eingefügt werden. Wenn sie also Sonderzeichen oder Symbole enthalten, bestätigen Sie bitte, dass Ihr Webserver diese Zeichen unterstützen kann (ein Beispiel für häufig vorkommende Sonderzeichen ist &quot;+&quot;, das in Suchbegriffen mit &quot;Weit gefasst&quot; verwendet wird).</li><li>**Manuell:** Ermöglicht Ihnen die Verwaltung, wie die Verfolgungsparameter den Verfolgungsvorlagen/Ziel-URLs der Suchmaschine hinzugefügt werden. [Weitere Informationen finden Sie in den Beispielen für manuelles Tracking für die einzelnen Suchmaschinen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. Sie müssen mindestens eine Report Suite angeben, bevor Sie das Werbekonto speichern können. Sie können mehrere Konten verschiedenen Report Suites zuordnen (1:1, 1:n, n:n). Beachten Sie, dass die Daten, die AMO aus der Suchmaschine abruft, einfach in die zugeordnete Report Suite kopiert werden. Die Daten werden also nicht aufgeteilt.
+1. Wählen Sie im Abschnitt **[!UICONTROL Zuordnung]** aus, welche Report Suite(s) mit diesem Suchmaschinenkonto verknüpft werden soll(en). Sie müssen mindestens eine Report Suite angeben, bevor Sie das Werbekonto speichern können. Sie können mehrere Konten verschiedenen Report Suites zuordnen (1:1, 1:n, n:n). Beachten Sie, dass die Daten, die AMO aus der Suchmaschine abruft, einfach in die zugeordnete Report Suite kopiert werden. Die Daten werden also nicht aufgeteilt.
 
    >[!IMPORTANT]
    >
    >Nur Report Suites, die [einer Experience Cloud-Organisation zugeordnet sind](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html), stehen zur Auswahl zur Verfügung. Wenn Ihre Report Suite nicht aufgeführt ist, suchen Sie im Abschnitt [Problembehebung in Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md) nach weiteren Informationen.
 
-   Für die **[!UICONTROL Mapping Settings]** folgenden Leitlinien:
+   Legen Sie die **[!UICONTROL Zuordnungseinstellungen]** gemäß folgenden Richtlinien fest:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -103,7 +87,7 @@ Füllen Sie die **[!UICONTROL Tracking Settings]** folgenden Richtlinien aus:
     </tbody> 
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Nachdem Sie auf „Speichern“ geklickt haben, wird ein Haftungsausschluss mit einer Reihe von Hinweisen angezeigt. Sie werden dazu aufgefordert zu bestätigen, dass Sie die Vereinbarung gelesen und verstanden haben. Aktivieren Sie das Kontrollkästchen und klicken Sie auf **[!UICONTROL OK]**.
 
    Nun wird die [Verwaltungsoberfläche](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) für Werbekonten angezeigt, in der das neu erstellte Konto aufgeführt sein sollte.
