@@ -1,22 +1,35 @@
 ---
 description: Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
 subtopic: Marketing channels
-title: Besucherinteraktionsablauf
+title: Ablauf des Marketing-Kanals
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 81%
 
 ---
 
 
-# Besucherinteraktionsablauf
+# Ablauf des Marketing-Kanals
 
-Erfahren Sie, wie Sie den Besucherinteraktionsablauf in Marketing-Kanälen festlegen.
+Erfahren Sie, wie Sie den Ablaufzeitpunkt oder den Einsatzzeitraum des Besuchers für Marketing-Kanal festlegen.
 
-Die Besucherinteraktion bezeichnet die Zeit, die Sie der vorherigen Aktivität des Besuchers auf Ihrer Site zur Anrechnung im First Touch-Kanal einräumen wollen.
+Die Besucherinteraktion bezeichnet die Zeit, die Sie der vorherigen Aktivität des Besuchers auf Ihrer Site zur Anrechnung im First Touch-Kanal einräumen wollen. Die Standardablaufeinstellung ist 30 Tage.
 
-So klicken Besucher häufig durch eine gebührenpflichtige Suchkampagne und legen Artikel in den Einkaufswagen, beenden jedoch vor Konversion die Sitzung. Wenn der Besucher später zum Kauf zurückkehrt, können Sie festlegen, ob dessen vorherige und aktuelle Aktivität als Interaktion gerechnet werden soll. Die Standardablaufeinstellung ist 30 Tage.
+Wenn der Besucher die Site häufig nutzt, passt sich das Interaktionsfenster daran an. Der Besucher muss 30 Tage lang inaktiv sein, damit der Zeitraum abläuft und die Kanäle zurückgesetzt werden. Sowohl der First Touch- als auch der Last Touch-Kanal für einen Besucher werden nach 30 Tagen Inaktivität in diesem Browser zurückgesetzt.
+
+Beispiel:
+
+* Tag 1: Der Benutzer gelangt per Anzeige zur Site. Erstkontakt- und Letztkontakt-Kanäle werden auf „Anzeige“ eingestellt.
+* Tag 2: Der Benutzer gelangt per natürlicher Suche zur Site. Erstkontakt bleibt „Anzeige“, Letztkontakt wird auf „Natürliche Suche“ eingestellt.
+* Tag 35: Der Benutzer war seit 33 Tagen nicht mehr auf der Site und kehrt über die Registerkarte zurück, die er in seinem Browser geöffnet hatte. Bei einem Interaktionsfenster von 30 Tagen wäre das Fenster geschlossen, und die Marketingkanal-Cookies wären abgelaufen. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt und auf „Sitzungsaktualisierung“ eingestellt, da der Benutzer von einer internen URL kam.
+
+## Ablaufeinstellungen für Marketing Kanal
+
+Ablaufeinstellungen umfassen Folgendes:
 
 | Feld | Definition |
 |--- |--- |
@@ -24,14 +37,15 @@ So klicken Besucher häufig durch eine gebührenpflichtige Suchkampagne und lege
 | Nie | Die Zeit der Besucherinteraktion läuft nie ab. |
 | Kanal zurücksetzen | Lässt alle Besucherinteraktionszeiträume ablaufen.  Wenn Sie alle Marketingkanaldaten zurücksetzen müssen, können Sie die Besucherinteraktionszeiträume ablaufen lassen. Sie müssen möglicherweise Daten zurücksetzen, wenn die Verarbeitungsregeln zuvor falsch konfiguriert wurden. Alle Erst- und Letztkontaktkanalwerte laufen sofort ab und werden bei der Rückkehr der Besucher zurückgesetzt. |
 
-## Angeben des Besucherinteraktionsablaufs {#specify-visitor-expire}
+## Definieren des Ablaufs von Marketing-Kanälen {#define-expiration}
 
-Geben Sie den Ablauf der Besucherinteraktion an.
+Geben Sie den Zeitraum für die Besucher-Interaktion an.
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Klicken Sie in [!UICONTROL Report Suite Manager] auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Gültigkeitsende des Marketing-Kanals]**.
+2. Klicken Sie in [!UICONTROL Report Suite Manager] auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Gültigkeitsende des Marketing-Kanals]**.
 
    ![](assets/mchannel_expiration.png)
 
-1. Konfigurieren Sie die Felder für den Besucherinteraktionsablauf.
-1. Klicken Sie auf **[!UICONTROL Speichern.]**
+3. Konfigurieren Sie die Zeitfelder für den Besucher-Interaktionszeitraum.
+4. Klicken Sie auf **[!UICONTROL Speichern]**.
+
