@@ -2,9 +2,9 @@
 description: Im Bereich "Analytics für Zielgruppe"(A4T) können Sie Ihre Adobe-Zielgruppe-Aktivitäten und -Erlebnisse im Arbeitsbereich für Analysen analysieren.
 title: Bereich "Analyse für Zielgruppe"(A4T)
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Das Bedienfeld]** &quot;Analytics für Zielgruppen&quot;befindet sich derzeit in eingeschränkten Tests. [Mehr Infos](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Das Bedienfeld &quot;Analytics für Zielgruppe (A4T)]** &quot;befindet sich derzeit in eingeschränkten Tests. [Mehr Infos](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Im Bereich &quot;Analyse für Zielgruppe&quot;(A4T) können Sie Ihre Adobe-Zielgruppe-Aktivitäten und -Erlebnisse im Arbeitsbereich für Analysen analysieren. Sie ermöglicht Ihnen außerdem, Steigerung und Konfidenz für bis zu drei Erfolgsmetriken zu sehen. Um auf das A4T-Bedienfeld zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten A4T-Komponenten. Klicken Sie dann auf das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld &quot;Analytics für Zielgruppe&quot;in Ihr Analyse Workspace-Projekt.
 
