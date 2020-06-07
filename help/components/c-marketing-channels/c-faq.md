@@ -1,13 +1,16 @@
 ---
 description: Erfahren Sie mehr über Best Practices und Beispiele, wie Sie die verschiedenen Regeln füllen, die Sie ggf. für Ihre Marketingkanäle einrichten.
-title: Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen
+title: Häufig gestellte Fragen zu Marketing-Kanälen
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+workflow-type: tm+mt
+source-wordcount: '1129'
+ht-degree: 88%
 
 ---
 
 
-# Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen
+# Häufig gestellte Fragen zu Marketing-Kanälen
 
 Unter [Einrichten von Marketing-Kanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md) finden Sie eine Definition der angezeigten Felder auf der Seite der [!UICONTROL Verarbeitungsregeln des Marketing-Kanals].
 
@@ -54,7 +57,15 @@ Stellen Sie sicher, dass Sie einen Kanal für diese drei Möglichkeiten haben. E
 
 Erstellen Sie abschließend einen Kanal *Other*, der die verbleibenden Treffer erfasst, wie in [Kein Kanal identifiziert](/help/components/c-marketing-channels/c-faq.md#no-channel-identified) beschrieben.
 
-## Kein Kanal identifiziert  {#no-channel-identified}
+## Beziehung zwischen Erstkontakt und Letztkontakt
+
+Um die Interaktion zwischen alten First Touch- und Last Touch-Dimensionen zu verstehen und zu bestätigen, dass Außerkraftsetzungen erwartungsgemäß funktionieren, können Sie einen First Touch-Kanal-Bericht abrufen, der in Subrelationen zu einem Last Touch-Kanal-Bericht steht und in dem Ihre wichtigste Erfolgsmetrik hinzugefügt wurde (siehe Beispiel unten). Das Beispiel zeigt die Interaktion zwischen Erstkontakt- und Letztkontakt-Kanälen.
+
+![](assets/int-channel3.png)
+
+Der Schnittpunkt, bei dem &quot;first gleich last touch&quot;die Diagonale des Tisches ist. Sowohl Direct- als auch Sitzungsaktualisierung erhalten nur dann eine Last Touch-Gutschrift, wenn sie auch der First Touch-Kanal sind, da sie keine Gutschrift von anderen bestehenden Kanälen (markierten Zeilen) erhalten können.
+
+## Gründe für die Nichtidentifizierung des Kanals {#no-channel-identified}
 
 Wenn Ihre Regeln keine Daten erfassen oder die Regeln nicht korrekt konfiguriert sind, zeigt der Bericht die Daten in der Zeile [!UICONTROL Kein Kanal identifiziert] im Bericht an. Sie können beispielsweise am Ende der Verarbeitungsreihenfolge einen Regelsatz mit dem Namen *Sonstige* einrichten, der internen Traffic auch wie folgt identifiziert:
 
@@ -64,65 +75,31 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 >[!NOTE] Es kann dennoch vorkommen, dass Kanal-Traffic teilweise in die Kategorie „Kein Kanal identifiziert“ fällt. Beispiel: Ein Besucher öffnet die Site und versieht eine Seite mit einem Lesezeichen. Beim gleichen Besuch kehrt dieser Besucher über das Lesezeichen zur Seite zurück. Da es sich dabei nicht um die erste Seite des Besuchs handelt, wird es weder dem direkten Kanal noch einem anderen Kanal zugeordnet, da keine Referrer-Domäne vorliegt.
 
-## Gebührenpflichtige Suche {#paid-search}
+## Gründe für die Aktualisierung der Sitzung {#internal}
 
-Eine gebührenpflichtige Suche ist ein Begriff oder eine Wortgruppe, die auf Bezahlung von der Suchmaschine in die Suchergebnisse gesetzt wird. Zum Erfüllen der Erkennungsregeln der bezahlten Suche verwendet der Marketingkanal die auf der Seite [!UICONTROL Gebührenpflichtige Sucherkennung] konfigurierten Einstellungen. (**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Gebührenpflichtige Sucherkennung]**). Die Ziel-URL stimmt mit der vorhandenen gebührenpflichtigen Sucherkennungsregel für die betreffende Suchmaschine überein.
+Last Touch Session Refresh kann nur auftreten, wenn es auch die erste Berührung war - siehe &quot;Beziehung zwischen First &amp; Last Touch&quot; oben. Die folgenden Szenarien erläutern, wie Sitzungsaktualisierung ein First Touch-Kanal sein könnte.
 
-Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalregel lauten wie folgt:
+**Szenario 1: Sitzungstimeout**
 
-![](assets/example_paid_search.png)
+Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
 
-Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+**Szenario 2: Nicht alle Seiten der Site sind mit Tags versehen**
 
-## Kostenlose Suche  {#natural-search}
+Ein Besucher landet auf Seite A, die nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-Eine Suche ist „kostenlos“, wenn Besucher Ihre Website durch eine Websuche finden, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen. Sie können die von der Suchmaschine für die Verlinkung zu Ihrer Website verwendete Ziel-URL steuern. Diese URL ermöglicht Analytics die Bestimmung, ob eine Suche kostenlos ist.
+**Szenario 3: Umleitungen**
 
-Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Bei der kostenlosen Suche stimmt die Ziel-URL nicht mit der vorhandenen gebührenpflichtigen Sucherkennungsregel für die betreffende Suchmaschine überein.
+Wenn eine Umleitung nicht so eingerichtet ist, dass Referrer-Daten an die neue Landingpage weitergegeben werden, gehen die Referrer-Daten verloren, und die Umleitungsseite (wahrscheinlich eine interne Seite) erscheint als Referrer-Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-Die kostenlosen Sucheinstellungen für die Marketingkanalregel lauten wie folgt:
+**Szenario 4: Domänenübergreifender Traffic**
 
-![](assets/example_natural_search.png)
+Ein Besucher wechselt von einer Domäne, die zu Suite A führt, zu einer zweiten Domäne, die zu Suite B führt wird. Wenn in Suite B die internen URL-Filter die erste Domäne enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketingkanäle ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+**Szenario 5: Lange Ladezeiten der Entrypage**
 
-## Affiliates  {#afilliates}
+Ein Besucher landet auf Seite A mit viel Inhalt, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-Eine Affiliate-Regel identifiziert Besucher, die aus einem bestimmten Satz verweisender Domänen stammen. Listen Sie in der Regel die Affiliate-Domänen, die verfolgt werden sollen, so auf:
+**Szenario 6: Löschen von Cookies mitten auf der Site**
 
-![](assets/example_affiliates.png)
-
-## Sozialen Netzwerke  {#social-networks}
-
-Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook* stammen. Die Einstellungen können wie folgt lauten:
-
-![](assets/example_social.png)
-
-## Anzeigen  {#display}
-
-Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall  *`Ad_01`*.
-
-![](assets/example_display.png)
-
-## Intern {#internal}
-
-Diese Regel identifiziert Besucher, die über eine verweisende Stelle kamen, die mit den internen URL-Filtern der Report Suite übereinstimmt.
-
-![](assets/example_internal.png)
-
-## E-Mail  {#email}
-
-Geben Sie zur Regeleinrichtung den Abfragezeichenfolgenparameter für Ihre E-Mail-Kampagne ein. In diesem Beispiel lautet der Parameter  *`eml`*:
-
-![](assets/example_email.png)
-
-Wenn Ihre Regel Rück-Trackingcodes enthält, geben Sie wie nachfolgend beschrieben einen Wert pro Zeile ein:
-
-![](assets/tracking_code.png)
-
-## Direkt  {#direct}
-
-Diese Regel identifiziert Besucher, die keine verweisende Domäne haben. Dazu zählen Besucher, die direkt zu Ihrer Site gelangten, z. B. über einen Favoriten-Link oder durch Kopieren des Links in den Browser.
-
-![](assets/example_direct.png)
+Ein Besucher besucht die Site und löscht seine Cookies während der Sitzung. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
 
