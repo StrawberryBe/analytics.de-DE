@@ -3,14 +3,17 @@ description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-List
 title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+workflow-type: tm+mt
+source-wordcount: '2911'
+ht-degree: 99%
 
 ---
 
 
 # Referenz: Erweiterte Funktionen
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTROL Funktionen]** die Option **[!UICONTROL Erweitert anzeigen]** wählen.
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -119,8 +122,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -237,8 +240,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Exponentielle Regression: Steigung (Tabelle) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -250,8 +253,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Nächstniedrigere ganze Zahl (Floor) (Zeile) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -307,7 +310,7 @@ TANH(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Hyperbeltangens ermitteln möchten. |
+| *metric* | Der Winkel in Radiant, dessen hyperbolischer Tangens berechnet werden soll. |
 
 ## WENN (Zeile) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -382,8 +385,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Logistische Regression: Vorhersage für Y (Zeile) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -397,8 +400,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Logistische Regression: Steigung (Tabelle) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -410,8 +413,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_A* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_B* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_A* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_B* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Natürlicher Logarithmus {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -491,8 +494,8 @@ Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) f
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Potenzregression: Vorhersage für Y (Zeile) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -504,8 +507,8 @@ Berechnet die prognostizierten [!DNL y]-Werte ([!DNL metric_Y]) anhand der bekan
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Potenzregression: Steigung (Tabelle) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -517,8 +520,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Quadratische Regression: Korrelationskoeffizient (Tabelle) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -543,8 +546,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Quadratische Regression: Vorhersage für Y (Zeile) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -556,7 +559,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_A* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
+| *metric_A* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
 | *metric_B* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Quadratische Regression: Steigung (Tabelle) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -569,8 +572,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Reziproke Regression: Korrelationskoeffizient (Tabelle) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -595,8 +598,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Reziproke Regression: Vorhersage für Y (Zeile) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -608,8 +611,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Reziproke Regression: Steigung (Tabelle) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -621,8 +624,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_X* | Die Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| *metric_Y* | Die Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
 
 ## Sinus (Zeile) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
