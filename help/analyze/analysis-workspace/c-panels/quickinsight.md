@@ -2,9 +2,9 @@
 description: Quick Insight ist ein Tool für neue Workspace-Benutzer, das diese beim Erstellen von Datentabellen und Visualisierungen unterstützt.
 title: Quick Insight-Bedienfeld
 translation-type: tm+mt
-source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** wird derzeit nur eingeschränkt getestet. [Mehr Infos](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Das Quick Insight]** -Bedienfeld wird derzeit nur eingeschränkt getestet. [Mehr Infos](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] bietet Nichtanalysten und neuen Benutzern von [!UICONTROL Analyse Workspace] Anleitungen, wie Sie Geschäftsfragen schnell und einfach beantworten können. Es ist auch ein großartiges Werkzeug für fortgeschrittene Benutzer, die eine einfache Frage schnell beantworten möchten, ohne selbst eine Tabelle erstellen zu müssen.
 
@@ -64,6 +64,7 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 1. Wenn Sie mindestens eine Dimension und eine Metrik hinzugefügt haben, wird Folgendes erstellt:
 
    * Eine Freiform-Tabelle mit der Dimension (hier, US-Bundesstaaten) und der Metrik (hier, Besuche) horizontal oben. Sehen Sie sich diese Tabelle an:
+
    ![](assets/qibuilder3.png)
 
    * Eine begleitende Visualisierung, in diesem Fall ein [Balkendiagramm](/help/analyze/analysis-workspace/visualizations/bar.md). Die erstellte Visualisierung basiert auf dem Datentyp, den Sie der Tabelle hinzugefügt haben. Zeitbasierte Daten (z. B. [!UICONTROL Besuche] pro Tag/Monat) verwenden standardmäßig ein [!UICONTROL Liniendiagramm] . Alle nicht zeitbasierten Daten (z. B. [!UICONTROL Besuche] pro [!UICONTROL Gerät]) verwenden standardmäßig ein [!UICONTROL Balkendiagramm] . Sie können den Visualisierungstyp ändern, indem Sie auf den Dropdown-Pfeil neben dem Visualisierungstyp klicken.
