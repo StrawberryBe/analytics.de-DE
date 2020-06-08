@@ -3,7 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 98%
 
 ---
 
@@ -21,22 +24,12 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**sollte verwendet werden:
 
 * Von Einsteigern, die auf eine vorkonfigurierte Berichterstellung zugreifen müssen, in der einfacher navigiert werden kann.
-* Für ein besseres Verständnis der Target-Aktivität (Analytics für Target/A4T)
 * Für den Zugriff auf Echtzeitdaten in der Benutzeroberfläche
 * Zum Einrichten von Kalenderereignissen
 * Zum Einrichten von Zielen
 * Zum Anzeigen von Bot-Berichten
 * Für den Zugriff auf Videovisualisierungen von gleichzeitigen Zuschauern, Videotagesabschnitten und Zuschauerrückgängen
 * Zur Nutzung von Veröffentlichungslisten für geplante Berichte
-
-**[Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html)**sollte verwendet werden:
-
-* Wenn eine Silo-Ansicht mobiler App-Daten benötigt wird.
-* So verwalten Sie die Implementierung Ihrer SDKs für mobile Apps.
-* Zur Einrichtung von mobiler Werbung, beispielsweise In-App-Nachrichten, Push-Benachrichtigungen und Standort-Targeting.
-* Wenn für App-Daten mehr interaktive Visualisierungen gewünscht werden (Sunburst).
-* Zur visuellen Darstellung von Zielpunkten auf einer Karte.
-* Für Lebenszeitwert-Metriken.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**sollte verwendet werden:
 
@@ -118,7 +111,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 
 * **Vollständig verarbeitet:** Wenn Sie umfangreiche Daten präsentieren möchten (einschließlich Besuchen, Besuchern und Segmenten). Dabei handelt es sich üblicherweise um in der Analytics-Benutzeroberfläche zusammengefasste Daten, die innerhalb von etwa 30–90 Minuten verfügbar sind. Die Verwendung ist überall im Report Builder möglich.
 * **Echtzeit:** Wenn Sie einige Metriken und Dimensionen mit nur wenigen Sekunden Latenz anzeigen möchten. Hierbei handelt es sich um begrenzte, teilweise verarbeitete, zusammengefasste Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Umfasst eindeutige Algorithmen für die beliebtesten Elemente, Gewinner und Verlierer. Die Verwendung ist überall im Report Builder möglich.
-* **[!UICONTROL Live Stream]**: Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
+* **[!UICONTROL Livestream:]** Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
 
 ## Individuelle Lösungen {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +124,4 @@ Engineering Services sollten in folgenden Fällen verwendet werden:
 * Sie verfügen über mehrere Datenquellen.
 * Sie haben komplizierte Daten-ETL-Anforderungen (Anforderungen für Extraktion, Transformation und Laden).
 * Sie benötigen individuelles Branding.
-* You want to visualize [!UICONTROL Analytics Live Stream].
+* Sie möchten [!UICONTROL Analytics-Live-Stream] visualisieren.
