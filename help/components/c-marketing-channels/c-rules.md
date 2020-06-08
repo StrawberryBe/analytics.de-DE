@@ -2,7 +2,7 @@
 title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 71%
@@ -150,6 +150,8 @@ Diese Regel identifiziert Besucher, die aus einem bestimmten Satz verweisender D
 
 Eine bewährte Methode besteht darin, einen Kanal &quot;Sonstige Kampagnen&quot;einzubeziehen, der allen Regeln für gebührenpflichtige Kanal entspricht. Dieser Kanal dient als Auffangbehälter für nicht kategorisierten gebührenpflichtigen Traffic.
 
+![](assets/other-campaigns.png)
+
 ### Sozialen Netzwerke  {#social-networks}
 
 Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook* stammen. Der Kanal wird oft in &quot;Organisch Social&quot;umbenannt. Die Einstellungen können wie folgt lauten:
@@ -174,3 +176,4 @@ Diese Regel identifiziert Besucher ohne Referrerdomäne. Dazu gehören Besucher,
 
 Der Kanal &quot;Verweisende Domänen&quot;identifiziert Besucher mit einer verweisenden Domäne. Die Kanal &quot;Interne&quot;, &quot;Direkte&quot;und &quot;Verweisende Domänen&quot;fungieren gemeinsam als Auffanglösung für alle verbleibenden Treffer, die noch nicht in einen Kanal kategorisiert wurden.
 
+![](assets/referring-domains.png)
