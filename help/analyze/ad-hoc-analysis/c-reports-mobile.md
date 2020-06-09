@@ -3,7 +3,10 @@ description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an
 title: Mobil-Berichte
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Beric
 
 Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
 
-Um die Besucheridentifizierung für Mobilgeräte zu verbessern, müssen Sie sich in der Liste des Anbieters (White List) zum Versand von Abonnenten-IDs an eine Domäne eintragen. (Sie finden den Anbieter im Bericht **[!UICONTROL Besucherprofil]** > **[!UICONTROL Domänen]**.)
+Um die Identifizierung von Besuchern für Mobilgeräte zu verbessern, müssen Sie sich auf der Liste des Netzbetreibers (&quot;zulässige&quot;Liste) befinden, um Abonnenten-IDs an eine Domäne zu senden. (Sie finden den Anbieter im Bericht **[!UICONTROL Besucherprofil]** > **[!UICONTROL Domänen]**.)
 
 >[!NOTE] Um Berichte auf einem Mobilgerät anzuzeigen, melden Sie sich bei [Experience Cloud](https://login.experiencecloud.adobe.com) an.
 
