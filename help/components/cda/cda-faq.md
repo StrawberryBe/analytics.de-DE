@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 72%
+source-wordcount: '1192'
+ht-degree: 71%
 
 ---
 
@@ -50,7 +50,7 @@ In einigen Situationen ist es möglich, dass sich mehrere Personen von demselben
 
 **Wie behandelt das Gerätediagramm Situationen, in denen eine einzelne Person über VIELE Geräte/ECIDs verfügt?**
 
-In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl von ECIDs verknüpft sein. Dies kann vorkommen, wenn der Benutzer eine Vielzahl von Browsern oder Apps verwendet, vor allem dann, wenn er häufig Cookies löscht oder den privaten oder Inkognito-Modus des Browsers verwendet. Das Gerätediagramm begrenzt die Anzahl der ECIDs, die mit einer bestimmten Benutzer-ID verknüpft sind, auf 200. Wenn eine Benutzer-ID mit zu vielen ECIDs verknüpft ist, geht das Gerätediagramm davon aus, dass die Benutzer-ID ungültig ist, und entfernt den mit dieser Benutzer-ID verknüpften Cluster. Die Benutzer-ID wird dann auf der Blacklist aufgeführt, sodass sie künftig nicht mehr in den Cluster aufgenommen werden kann. Das Ergebnis in der geräteübergreifenden Analyse ist, dass das Verhalten der Benutzer-ID nicht geräteübergreifend zugeordnet wird.
+In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl von ECIDs verknüpft sein. Dies kann vorkommen, wenn der Benutzer eine Vielzahl von Browsern oder Apps verwendet, vor allem dann, wenn er häufig Cookies löscht oder den privaten oder Inkognito-Modus des Browsers verwendet. Das Gerätediagramm begrenzt die Anzahl der ECIDs, die mit einer bestimmten Benutzer-ID verknüpft sind, auf 200. Wenn eine Benutzer-ID mit zu vielen ECIDs verknüpft ist, geht das Gerätediagramm davon aus, dass die Benutzer-ID ungültig ist, und entfernt den mit dieser Benutzer-ID verknüpften Cluster. Die Benutzer-ID wird dann zu einer &quot;blockierten&quot;Liste hinzugefügt, um zu verhindern, dass sie in Zukunft in den Cluster umgewandelt wird. Das Ergebnis in der geräteübergreifenden Analyse ist, dass das Verhalten der Benutzer-ID nicht geräteübergreifend zugeordnet wird.
 
 **Was ist der Unterschied zwischen der Metrik &quot;Personen&quot;in CDA und der Metrik &quot;Individuelle Besucher&quot;außerhalb von CDA?**
 
