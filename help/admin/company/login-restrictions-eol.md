@@ -1,21 +1,24 @@
 ---
-title: Ende der Lebensdauer für [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
-description: Erfahren Sie mehr über das Ende der Lebensdauer und die Auswirkungen auf [!UICONTROL Erzwingt IP-Anmeldebeschränkungen]
+title: Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
+description: Erfahren Sie mehr über die Abschaffung und die Auswirkungen für die Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 translation-type: tm+mt
-source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
 
-# Ende der Lebensdauer für [!UICONTROL Enforce IP login restrictions]
+# Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 
-Mit der Funktion **[IP-Anmeldebeschränkungen erzwingen](/help/admin/company/security-manager.md)**in Adobe Analytics können Sie bestimmte IP-Adressen (die als sicher gelten) auf eine Whitelist setzen, um eine erfolgreiche Anmeldung und den Zugriff auf Ihre Adobe Analytics-Umgebung zu ermöglichen. In vielen Fällen wird diese Funktion verwendet, um eine Unternehmens-IP-Adresse als einzige sichere IP-Adresse einzurichten, von der aus Benutzer sich anmelden können. Um Adobe Analytics verwenden zu können, müssen sich die Benutzer daher entweder in einem Unternehmensbüro befinden oder sich über VPN im Netzwerk anmelden.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. In vielen Fällen wird diese Funktion verwendet, um eine Unternehmens-IP-Adresse als einzige sichere IP-Adresse einzurichten, von der aus Benutzer sich anmelden können. Um Adobe Analytics verwenden zu können, müssen sich die Benutzer daher entweder in einem Unternehmensbüro befinden oder sich über VPN im Netzwerk anmelden.
 
 Wir planen, diese Funktion im Januar 2021 zu beenden.
 
 ## Warum schaffen wir diese Funktion ab?
 
-Diese Funktion wird unter bestimmten Umständen durch die Migration der Experience Cloud-Anmeldung und/oder die Experience Cloud-Anmeldung beeinträchtigt. Es ist bekannt, dass es für Kunden, die **[!UICONTROL Customer Attributes]** oder **[!UICONTROL Audience Library]** verwenden, kaputt ist.
+Diese Funktion wird unter bestimmten Umständen durch die Migration der Experience Cloud-Anmeldung und/oder die Experience Cloud-Anmeldung beeinträchtigt. Es ist bekannt, dass sie bei Kunden mit **[!UICONTROL Kundenattributen]** oder **[!UICONTROL Zielgruppenbibliothek]** beeinträchtigt wird.
 
 Wenn Sie über mehrere Experience Cloud-Lösungen verfügen, können Sie diese Anforderung umgehen, indem Sie sich mit einer der anderen Lösungen bei der Experience Cloud anmelden, da diese Funktion außerhalb von Analytics selbst nicht vorhanden ist oder nicht unterstützt wird. Benutzer können dies auch über IP-Spoofing umgehen.
 
@@ -23,9 +26,9 @@ Schließlich verfügt Adobe über eine funktionierende und weit überlegene Alte
 
 ## Wie wirkt sich die Abschaffung dieser Funktion auf Sie aus?
 
-Für alle Kunden, die diese Funktion **[!UICONTROL Enforce IP login restrictions]** eingerichtet haben, wird diese Funktion im Januar 2021 entfernt. Zu diesem Zeitpunkt werden noch festgelegte IP-Anmeldebeschränkungen nicht mehr erzwungen. Wenn Sie die Anmeldung weiterhin nach IP-Adresse beschränken müssen, sollten Sie die empfohlene Lösung für Single Sign-On und Federated IDs (weitere Informationen und Ressourcen unten) prüfen und implementieren.
+For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. Zu diesem Zeitpunkt werden noch festgelegte IP-Anmeldebeschränkungen nicht mehr erzwungen. Wenn Sie die Anmeldung weiterhin nach IP-Adresse beschränken müssen, sollten Sie die empfohlene Lösung für Single Sign-On und Federated IDs (weitere Informationen und Ressourcen unten) prüfen und implementieren.
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
+Außerdem wird die Einstellung **[!UICONTROL IP-Anmeldebeschränkungen erzwingen]** unter **[!UICONTROLAAdmin > Unternehmenseinstellungen > Sicherheits-Manager]** in Analytics entfernt (siehe unten).
 
 ![](assets/sec-manager2.png)
 
