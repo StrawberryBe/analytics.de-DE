@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: Unique Visitors identifizieren
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +92,7 @@ In der folgenden Tabelle wird die Reihenfolge der verwendeten ID-Methoden basier
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>Standardeinstellung: </p> 
+   <td colname="col2"> <p>Standard: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">Benutzerspezifische Besucher-ID </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
@@ -117,7 +119,7 @@ Sie können auch eine „1“ oder eine „5“ in manuellen Bildanforderungen �
 
 Die Methode mit Abonnenten-IDs zur Benutzeridentifizierung ist in der Regel zuverlässiger als ein Cookie, da Cookies möglicherweise gelöscht oder nicht zugelassen werden oder weil es möglicherweise Probleme mit der Verwaltung von Gateway-Cookies gibt.
 
-Sie können Änderungen an der Identifizierung von Besuchern optimieren, wenn Sie sich der White-List des Mobilnetzbetreibers hinzufügen lassen, den die Besucher nutzen. Um Zugang zur Besucher-ID des Mobilnetzbetreibers zu erhalten, wenden Sie sich an den Mobilnetzbetreiber, und lassen Sie Ihre Domäne die White-List aufnehmen. Wenn Sie in der White-List eines Mobilnetzbetreibers eingetragen sind, haben Sie Zugang zu Abonnenten-ID-Headern, was sonst nicht der Fall wäre.
+Sie können Änderungen bei der Identifizierung eines Besuchers verbessern, indem Sie der &quot;zulässigen&quot;Liste für den Anbieter hinzugefügt werden, den Ihre Besucher verwenden. Um Zugriff auf die Besucher-ID des Netzbetreibers zu erhalten, wenden Sie sich an den Netzbetreiber, um Ihre Domäne zu ihrer &quot;zulässigen&quot;Liste hinzuzufügen. Wenn Sie sich auf der zulässigen Liste eines Netzbetreibers befinden, haben Sie auch Zugriff auf Abonnenten-ID-Header, auf die Sie sonst möglicherweise nicht zugreifen können.
 
 In der folgenden Liste sind die Header aufgeführt, mit denen Wireless-Geräte identifiziert werden. Der Algorithmus für die Verarbeitung der Header beinhaltet
 
