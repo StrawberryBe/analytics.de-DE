@@ -5,8 +5,11 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `videoshow` | Videosendung | varchar(255) |
 | `videoshowtype` | Typ der Videosendung | varchar(255) |
 | `videostreamtype` | Typ des Videostreams | varchar(255) |
-| `visid_high` | Wird zusammen mit visid_low zur eindeutigen Identifizierung eines Besuchs verwendet. | bigint unsigniert |
-| `visid_low` | Wird zusammen mit visid_high zur eindeutigen Identifizierung eines Besuchs verwendet. | bigint unsigniert |
+| `visid_high` | Wird in Kombination mit visid_low verwendet, um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
+| `visid_low` | Wird in Kombination mit visid_high verwendet, um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
 | `visid_new` | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | `visid_timestamp` | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
 | `visid_type` | Numerische ID, die angibt, welche Methode zur Identifizierung des Besuchers verwendet wurde. <br>0: Benutzerspezifische Besucher-ID <br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Fallback-Cookie-Wert (s_fid) <br>5: Identitätsdienst | tinyint unsigniert |
