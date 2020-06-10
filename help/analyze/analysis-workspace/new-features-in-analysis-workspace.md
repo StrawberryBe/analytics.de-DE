@@ -3,20 +3,23 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '7261'
+ht-degree: 97%
 
 ---
 
 
 # Neuerungen in Analysis Workspace
 
-## April 2020
+## April 2020
 
 Am 16. April 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Automatisch [!UICONTROL Freeform Tables] aus einem leeren Status erstellen | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiformtabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiform-Tabelle wird automatisch im empfohlenen Format erstellt. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| Automatically build [!UICONTROL Freeform Tables] from a blank state | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiformtabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiform-Tabelle wird automatisch im empfohlenen Format erstellt. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
 
 ## März 2020
 
@@ -27,7 +30,7 @@ Am 12. März 2020 veröffentlichte neue Funktionen.
 | Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein einzelnes Projekt zur Ansicht nebeneinander einfügen. [Mehr Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Übungsvorlage | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modul „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Mehr Infos...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
-## Februar 2020
+## Februar 2020
 
 Am 20. Februar 2020 veröffentlichte neue Funktionen.
 
@@ -44,7 +47,7 @@ Am 16. Januar 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [Freiformtabellen-Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
+| [Freiformtabellen-Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
 
 ## Oktober 2019
 
@@ -52,9 +55,9 @@ Am 10. Oktober 2019 veröffentlichte Verbesserungen.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen enthalten jetzt zwei Summen, eine **[!UICONTROL Table total]** und eine **[!UICONTROL Grand total]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Darüber hinaus wurden **[!UICONTROL Show Totals]** und **[!UICONTROL Show Grand Total]** Optionen hinzugefügt **[!UICONTROL Column Settings]**.<br/>Mit dieser Änderung an den Freiformsummen werden abhängige Visualisierungen (z. B. verknüpfte **[!UICONTROL Summary Number]** Visualisierungen) sowie exportierte CSV- und PDF-Daten aktualisiert. |
+| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
 | Option zum Entfernen von „Nicht angegeben (keine)“ | Den Berichtsfiltern wurde eine einfache Funktion zum Entfernen von „Nicht angegeben (keine)“ hinzugefügt. |
-| Wegfall der lilafarbenen Zeitkomponenten | Die lilafarbenen Zeitkomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) wurden entfernt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der violette **[!UICONTROL Time]** Abschnitt in **[!UICONTROL Date Ranges]** umbenannt. |
+| Wegfall der lilafarbenen Zeitkomponenten | Die lilafarbenen Zeitkomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) wurden entfernt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
 
 ## August 2019
 
@@ -115,7 +118,7 @@ Am 1. November 2018 veröffentlichte neue Funktionen und Verbesserungen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [VRS und Projektkuratierung – Verbesserungen](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) | Diese Änderungen wurden bereits im Oktober 2018 eingeführt. Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. <br>Vor dieser Änderung konnten alle Benutzer nicht kuratierte Komponenten anzeigen, und zwar durch Klicken auf „Alle Komponenten anzeigen“. Die aktualisierte Kuratierungserfahrung bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.</br> |
+| [VRS und Projektkuratierung – Verbesserungen](/help/analyze/analysis-workspace/curate-share/curate.md) | Diese Änderungen wurden bereits im Oktober 2018 eingeführt. Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. <br>Vor dieser Änderung konnten alle Benutzer nicht kuratierte Komponenten anzeigen, und zwar durch Klicken auf „Alle Komponenten anzeigen“. Die aktualisierte Kuratierungserfahrung bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.</br> |
 
 ## Oktober 2018
 
@@ -971,7 +974,7 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
 
 Am 16. Juni 2016 veröffentlichte neue Funktionen:
 
-* [Neue Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) , die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > erlauben oder verweigern **[!UICONTROL Workspace]** . Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
+* [Neue Gruppenberechtigung](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html), über die Administratoren den Zugriff auf die Registerkarte **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** für Benutzer zulassen oder verweigern können. Seite dem 16. Juni 2016 sind alle Benutzer berechtigt, auf diese Registerkarte zuzugreifen. Um den Zugriff zu verweigern, entfernen Sie einfach die entsprechenden Benutzer aus der Gruppe „Analysis Workspace-Zugriff“.
 * Das [Bedienfeld „Segmentvergleich“](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) erkennt die meisten statistisch signifikanten Unterschiede zwischen zwei beliebigen Segmenten mithilfe einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben.
 * [Neue Menüstruktur für „Projekte“](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md), die das obere Menü neu gestaltet und erweiterbarer macht. Um z. B. ein **neues Kohorten-Bedienfeld** zu erstellen, muss jetzt ein leeres Bedienfeld erstellt werden, in dem eine Kohortentabellenvisualisierung abgelegt wird.
 * [Neue linke Leiste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Bedienfelder, Visualisierungen, Komponenten
@@ -1030,7 +1033,7 @@ Am 21. Januar 2016 veröffentlichte neue Funktionen.
 
 Sie können nun die meisten Aktionen, die Sie in Analysis Workspace ausführen, rückgängig machen.
 
-To undo, click **[!UICONTROL Undo]** from the action menu.
+Um eine Aktion rückgängig zu machen, klicken Sie im Menü „Aktion“ auf **[!UICONTROL Rückgängig]**.
 
 ![](assets/undo.png)
 
@@ -1040,7 +1043,7 @@ Sie können auch die standardmäßigen Windows- und Mac- [Tastaturbefehle](/help
 
 Aktionen, die *`not`* rückgängig gemacht werden können:
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). Sie können jedoch **[!UICONTROL Undo]** nach dem Klicken auf **[!UICONTROL Run]**.
+* Änderung der Konfiguration einer [!UICONTROL Kohortentabelle] (z. B. Ziehen von Metriken und Änderung von Werten). Sie können allerdings auf **[!UICONTROL Rückgängig]** klicken, nachdem Sie auf **[!UICONTROL Ausführen]** geklickt haben.
 
 * Größenanpassung oder Verschiebung von Feldern und Unterfeldern.
 
@@ -1051,7 +1054,7 @@ Aktionen, die den Verlauf Ihrer Vorgänge zum Rückgängigmachen löschen:
 
 ## Link zu diesem Projekt {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-In a project, click **[!UICONTROL Link to This Project]** from the Actions menu to email a saved project&#39;s URL to other users. Empfänger, die Administratoren sind, können Projekte bearbeiten und speichern, die auf diese Weise geteilt wurden. Andernfalls sind diese Projekte schreibgeschützt.
+Klicken Sie in einem Projekt im Aktionsmenü auf **[!UICONTROL Link zu diesem Projekt]**, um anderen Benutzern die URL eines gespeicherten Projekts per E-Mail zu senden. Empfänger, die Administratoren sind, können Projekte bearbeiten und speichern, die auf diese Weise geteilt wurden. Andernfalls sind diese Projekte schreibgeschützt.
 
 ![](assets/link-to-this-project.png)
 
@@ -1067,7 +1070,7 @@ Sie können einen Wert, der Sie interessiert, mit anderen Leistungsbereichen (Zi
 
 ![](assets/bullet-image.png)
 
-Das Lineardiagramm enthält einen primären Messwert (z. B. den aktuellen Umsatz seit Jahresbeginn), vergleicht ihn mit einem oder mehreren anderen Messwerten, um ihm mehr Bedeutung zu verleihen (z. B. ein Vergleich mit einem Umsatzziel), und zeigt ihn im Kontext qualitativer Leistungsbereiche an, z. B. „hoch“, „mittel“ und „niedrig“. You can specify goal ranges in [!UICONTROL Visualization Settings].
+Das Lineardiagramm enthält einen primären Messwert (z. B. den aktuellen Umsatz seit Jahresbeginn), vergleicht ihn mit einem oder mehreren anderen Messwerten, um ihm mehr Bedeutung zu verleihen (z. B. ein Vergleich mit einem Umsatzziel), und zeigt ihn im Kontext qualitativer Leistungsbereiche an, z. B. „hoch“, „mittel“ und „niedrig“. In den [!UICONTROL Visualisierungseinstellungen] können Sie Zielbereiche festlegen.
 
 **Streudiagramm**
 
@@ -1087,17 +1090,17 @@ Wenn die Farb- und Größendimensionen in irgendeiner Weise mit der Baumstruktur
 
 ## „Speichern unter“ für Segmente, Metriken und Datumswerte  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-When editing an existing (saved) segment the Analysis Workspace Segment Builder, click **[!UICONTROL Save As]** to make a copy.
+Klicken Sie beim Bearbeiten eines vorhandenen (gespeicherten) Segments des Segmentaufbaus in Analysis Workspace auf **[!UICONTROL Speichern unter]**, um eine Kopie zu erstellen.
 
 ![](assets/segment-save-as.png)
 
-The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
+Das neue Segment wird in der Gruppe [!UICONTROL Segmente] im Bedienfeld [!UICONTROL Komponenten] angezeigt.
 
-*`Save As`* ist auch für die [!UICONTROL Calculated Metric Builder] und [!UICONTROL Date Range Builder].
+*`Save As`* Diese Funktion ist auch für den [!UICONTROL Generator für berechnete Metriken] und den [!UICONTROL Generator für Datumsbereiche] verfügbar.
 
 ## Schaltfläche „Neues Segment hinzufügen“ {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-The **[!UICONTROL Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project.
+Die Schaltfläche **[!UICONTROL Neues Segment hinzufügen]** wurde an der Stelle hinzugefügt, an der Sie Segmente per Drag &amp; Drop in ein Projekt einfügen.
 
 ![](assets/add-new-segment.png)
 
@@ -1139,19 +1142,19 @@ In den Spalteneinstellungen können Sie bedingte Formatierung auf Zelldaten anwe
 
 ## Dimensionsvorschau  {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-In the [!UICONTROL Dimensions] component panel, you can hover over the information icon next to a dimension and see a top-five preview.
+Im Komponentenbedienfeld [!UICONTROL Dimensionen] können Sie den Cursor über das Informations-Symbol neben einer Dimension bewegen und eine Vorschau der fünf Dimensionen mit den höchsten Werten anzeigen.
 
 ![](assets/dimension-preview.png)
 
 ## Legende eingeblendet  {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-In [!UICONTROL Visualization Settings] der **[!UICONTROL Legend Visible]** Option wird die Legende einer Visualisierung ein- oder ausgeblendet.
+In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTROL Legende eingeblendet]** die Visualisierungslegende ein- oder ausgeblendet werden.
 
 ![](assets/legend-visible.png)
 
 ## Y-Achse bei null verankern {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Die Aktivierung **[!UICONTROL Anchor Y Axis at Zero]** der Y-Achse auf Null [!UICONTROL Visualization Settings] erzwingt eine genauere Ansicht der Trends. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
+Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Durch Aktivieren von **[!UICONTROL Y-Achse bei null verankern]** unter [!UICONTROL Visualisierungseinstellungen] wird die Y-Achse für eine genauere Anzeige von Trends bei null erzwungen. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
 
 „**Y-Achse bei null verankern**“ deaktiviert
 
@@ -1169,4 +1172,5 @@ Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers 
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
-Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** , um Projekte zu übertragen.
+Navigieren Sie zum Übertragen von Projekten zu **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Übertragen]**. 
+     
