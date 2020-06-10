@@ -2,9 +2,9 @@
 title: Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 description: Erfahren Sie mehr über die Abschaffung und die Auswirkungen für die Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 85%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Abschaffung der Funktion [!UICONTROL IP-Anmeldebeschränkungen erzwingen]
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. In vielen Fällen wird diese Funktion verwendet, um eine Unternehmens-IP-Adresse als einzige sichere IP-Adresse einzurichten, von der aus Benutzer sich anmelden können. Um Adobe Analytics verwenden zu können, müssen sich die Benutzer daher entweder in einem Unternehmensbüro befinden oder sich über VPN im Netzwerk anmelden.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. In vielen Fällen wird diese Funktion verwendet, um eine Unternehmens-IP-Adresse als einzige sichere IP-Adresse einzurichten, von der aus Benutzer sich anmelden können. Um Adobe Analytics verwenden zu können, müssen sich die Benutzer daher entweder in einem Unternehmensbüro befinden oder sich über VPN im Netzwerk anmelden.
 
 Wir planen, diese Funktion im Januar 2021 zu beenden.
 
