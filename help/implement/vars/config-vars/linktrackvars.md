@@ -2,7 +2,10 @@
 title: linkTrackVars
 description: Geben Sie an, welche Variablen in Bildanforderungen zum Linktracking einbezogen werden sollen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 88%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen zum Linktracking einbeziehen. Verwenden Sie die Variablen `linkTrackVars` und [`linkTrackEvents`](linktrackevents.md), um Dimensionen und Metriken selektiv in [`tl()`](../functions/tl-method.md)-Aufrufe einzubeziehen.
 
-This variable is not used for page view calls (`t()` method).
+This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
 ## Variablen in Linktracking-Aufrufen mit Adobe Experience Platform Launch
 
@@ -24,7 +27,7 @@ Launch füllt diese Variable automatisch im Backend basierend auf den in der Obe
 The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Die folgenden beiden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffer einzubeziehen:
 
 * Legen Sie den gewünschten Variablenwert fest. Beispiel: `s.eVar1 = "Example value";`.
-* Legen Sie die gewünschte Variable in der `linkTrackVars`-Variablen fest. Beispiel: `s.linkTrackEvents = "eVar1";`.
+* Legen Sie die gewünschte Variable in der `linkTrackVars`-Variablen fest. Beispiel: `s.linkTrackVars = "eVar1";`.
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
