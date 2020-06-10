@@ -2,9 +2,9 @@
 title: linkExternalFilters
 description: Verwenden Sie die Variable „linkExternalFilters“, um das automatische Tracking von Exitlinks zu unterstützen.
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 85%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 AppMeasurement bietet die Möglichkeit, Links, die auf eine Stelle außerhalb Ihrer Website verweisen, automatisch zu verfolgen. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. Die Variablen `linkExternalFilters` und [`linkInternalFilters`](linkinternalfilters.md) bestimmen, welche Links als intern/extern betrachtet werden.
 
-Wenn diese Variable einen Wert enthält, verhält sich die automatische Ausstiegslink-Verfolgung wie eine &quot;zulässige&quot;Liste. Wenn ein Link-Klick keinem `linkExternalFilters`-Wert entspricht, wird er nicht als Exitlink betrachtet. Die gesamte URL wird mit dieser Variablen verglichen. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+Wenn diese Variable einen Wert enthält, verhält sich die automatische Verfolgung von Ausstiegslinks wie eine Listen mit zulässigen Werten. Wenn ein Link-Klick keinem `linkExternalFilters`-Wert entspricht, wird er nicht als Exitlink betrachtet. Die gesamte URL wird mit dieser Variablen verglichen. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
 >[!TIP] Verwenden Sie diese Variable nur, wenn Sie genau wissen, welche Domänen Sie als Exitlinks betrachten möchten. Viele Unternehmen stellen fest, dass die Verwendung von `linkInternalFilters` für das Tracking von Exitlinks ausreicht, und verwenden `linkExternalFilters` nicht.
 
@@ -50,6 +50,6 @@ Betrachten Sie das folgende Implementierungsbeispiel, als ob es auf `adobe.com` 
 <!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
-<!-- The following link is an exit link because it matches the linkExternalFilters "allowed" list -->
+<!-- The following link is an exit link because it matches the linkExternalFilters allowlist -->
 <a href = "example.com">Example link 2</a>
 ```
