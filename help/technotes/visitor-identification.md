@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Unique Visitors identifizieren
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Sie können auch eine „1“ oder eine „5“ in manuellen Bildanforderungen �
 
 Die Methode mit Abonnenten-IDs zur Benutzeridentifizierung ist in der Regel zuverlässiger als ein Cookie, da Cookies möglicherweise gelöscht oder nicht zugelassen werden oder weil es möglicherweise Probleme mit der Verwaltung von Gateway-Cookies gibt.
 
-Sie können Änderungen bei der Identifizierung eines Besuchers verbessern, indem Sie der &quot;zulässigen&quot;Liste für den Anbieter hinzugefügt werden, den Ihre Besucher verwenden. Um Zugriff auf die Besucher-ID des Netzbetreibers zu erhalten, wenden Sie sich an den Netzbetreiber, um Ihre Domäne zu ihrer &quot;zulässigen&quot;Liste hinzuzufügen. Wenn Sie sich auf der zulässigen Liste eines Netzbetreibers befinden, haben Sie auch Zugriff auf Abonnenten-ID-Header, auf die Sie sonst möglicherweise nicht zugreifen können.
+Sie können die Änderungen bei der Identifizierung eines Besuchers verbessern, indem Sie zur Zulässigen Liste für den Mobilnetzbetreiber hinzugefügt werden, den Ihre Besucher verwenden. Um Zugriff auf die Besucher-ID des Netzbetreibers zu erhalten, wenden Sie sich an den Netzbetreiber, um Ihre Domäne zu seiner zulässigen Liste hinzuzufügen. Wenn Sie sich in der Zulässigkeitsliste eines Netzbetreibers befinden, haben Sie auch Zugriff auf Abonnenten-ID-Header, auf die Sie sonst möglicherweise nicht zugreifen können.
 
 In der folgenden Liste sind die Header aufgeführt, mit denen Wireless-Geräte identifiziert werden. Der Algorithmus für die Verarbeitung der Header beinhaltet
 
