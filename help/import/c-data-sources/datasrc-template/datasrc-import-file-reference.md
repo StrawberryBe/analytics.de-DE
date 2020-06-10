@@ -5,7 +5,10 @@ title: Importdatei-Referenz
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Verwenden Sie den Data Sources-Assistenten, um eine Importvorlage zu erstellen. 
 
 Mithilfe von Spaltenüberschriften werden die Daten in jeder Spalte der Datenquelle-Datei identifiziert. Es gibt drei Arten von Spaltenüberschriften:
 
-**Datum**: (Erforderlich) Ein Zeitstempel für jede Datenzeile in der Datei.
+**Datum**: (Erforderlich) Ein Zeitstempel für jede Datenzeile in der Datei im Format `m/d/yyyy`.
 
 **Variablen**: Die Namen der Berichterstellungsvariablen, die den Datendimensionen der Datenquelle zugeordnet sind.
 
