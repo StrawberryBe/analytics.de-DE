@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 97%
 
 ---
@@ -93,8 +93,9 @@ ht-degree: 97%
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Projekte kuratieren oder freigeben {#curate-share}
-      + [Übersicht über die Kuratierung/Freigabe](analysis-workspace/curate-share/curate.md)
-      + [VRS und Projektkuratierung](analysis-workspace/curate-share/curate-projects-vrs.md)
+      + [Erstellen eines Workspace-Projekts](analysis-workspace/curate-share/curate.md)
+      + [Freigeben von Workspace-Projekten](analysis-workspace/curate-share/share-projects.md)
+      + [Arbeitsbereich-Projekte, die nur für Ansichten gedacht sind](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- oder CSV-Dateien herunterladen](analysis-workspace/curate-share/download-send.md)
       + [Projektdateien freigeben und planen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Datei senden – Bereitstellung eines Projekts planen](analysis-workspace/curate-share/t-schedule-report.md)
