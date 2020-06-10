@@ -5,7 +5,10 @@ title: Konversion
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +28,9 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 | Trackingcode | Name des Trackingcodes. |
 | Datum | Verwenden Sie das folgende Datumsformat: MM/TT/JJJJ/HH/mm/SS (zum Beispiel 01/01/2015/06/00/00). |
 | Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
-| Kanal | Kanalname. |
-| eVarn | eVarn-Name. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
-| Product | Produktname. |
+| Channel | Kanalname. |
+| eVarn | eVarn-Name. Gültige Werte für n sind Ganzzahlen zwischen 1 und 250. |
+| Produkt | Produktname. |
 | Land | Name des Landes. |
 | Zip | Postleitzahl. |
 
@@ -42,7 +45,7 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 | Warenkorbansicht | Anzahl der Einkaufswagenansichten. |
 | Checkouts | Anzahl der Kassengänge. |
 | Ereignis n | Häufigkeit, in der Ereignis n eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
-| eVarn-Ansichten | Häufigkeit, in der eVar n angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 75. |
+| eVarn-Ansichten | Häufigkeit, in der eVar n angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 250. |
 | Preis | Produktpreis. |
 | Bestellungen | Anzahl der aufgegebenen Bestellungen. |
 | Produktansichten | Anzahl der Produktansichten. |
