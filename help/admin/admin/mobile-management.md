@@ -1,19 +1,21 @@
 ---
-description: Durch die Aktivierung von Mobile Management aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken aus mobilen Anwendungen.
-title: Mobile Management
+description: Durch Aktivierung der App-Verwaltung werden die Variablen für mobile Lösungen aktiviert, die Lebenszyklusmetriken und andere Metriken aus mobilen Anwendungen erfassen.
+title: Anwendungsmanagement
 topic: Admin tools
-uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 91%
 
 ---
 
 
-# Mobile Management
+# Anwendungsmanagement
 
-Durch die Aktivierung von Mobile Management aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken aus mobilen Anwendungen.
+Durch Aktivierung der App-Verwaltung werden die Variablen für mobile Lösungen aktiviert, die Lebenszyklusmetriken und andere Metriken aus mobilen Anwendungen erfassen.
 
-Mithilfe dieser Integration zwischen Adobe Analytics und Mobile Services
+Mithilfe dieser Integration zwischen Adobe Analytics und Mobile Services:
 
 * können Sie Ihre KPI (Key Performance Indicator)-Daten aus Mobile Services in Adobe Analytics freigeben.
 * können Sie die Standortverfolgung aktivieren.
@@ -23,7 +25,7 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Mobile Services
 * werden neue Adobe Mobile-Dimensionen hinzugefügt.
 * werden Daten alle 15 Minuten mit Analytics synchronisiert
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Einstellungen **** bearbeiten > **[!UICONTROL App-Verwaltung]** > **** App-Berichte.
 
 ## Schritt 1. Aktivieren von Anwendungsberichten {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -48,7 +50,7 @@ Durch die Aktivierung der Standortverfolgung können Sie:
 Aktivierte Hintergrundtreffer (generierte Treffer, wenn die App im Hintergrund ist) werden als reguläre Vordergrundtreffer behandelt. Sie werden von nun an in der regulären Berichterstellung angezeigt. Dies betrifft auch die Zuweisung. Diese Konfiguration ist normalerweise nur zum Aufrechterhalten der Konsistenz mit alten Implementierungen hilfreich.
 
 Stattdessen empfehlen wird, Hintergrund-Hits in eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) aufzunehmen. Dadurch können Sie die Hits anzeigen, es gibt jedoch keine negativen Auswirkungen auf die Besuchs- und Besucherzahlen.
-Mobile Classifications sind aktiviert, wenn Sie **[!UICONTROL Mobile Management]** > **[!UICONTROL Mobile Application Reporting]** aktivieren.
+Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
 
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch „Clickthrough-Raten“ genannt) und Konversion in Erfolgsereignisse berichten.
 
