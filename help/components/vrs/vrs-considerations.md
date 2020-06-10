@@ -5,7 +5,10 @@ title: Virtual Report Suites und Multisuite-Tagging
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +55,7 @@ Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. E
 
 Stellen Sie sicher, dass die Anzahl der individuellen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele individuelle Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/c-classifications2/c-classifications.md). Sie können zum Beispiel die Klassifizierung „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
->[!TIP] Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
+>[!TIP] Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
 
 ### Segmentierungsnuancen
 
