@@ -2,9 +2,9 @@
 title: Verwenden von XDM-Daten mit Analytics
 description: 'Übersicht über die Verwendung von XDM-Daten aus Experience Platform in Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '259'
 ht-degree: 4%
 
 ---
@@ -17,17 +17,15 @@ Sie können das [Adobe Experience Platform (AEP) Web SDK](https://docs.adobe.com
 Analytics erfasst XDM-Daten auf zwei Arten:
 
 * Automatische Zuordnung von XDM-Schemas
-
 * Manuelle Zuordnung zu Kontextdaten
 
 ## Automatische Zuordnung
 
-[Die automatische Zuordnung](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) beruht auf einem Standard- [Schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) im XDM, mit dem automatisch JSON-Objekte gefüllt werden, die in der typischen Analytics-Datenerfassung enthalten sind. Die [Analytics-Variablen, die automatisch von den XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) zu Ihren konfigurierten Report Suites zugeordnet werden, benötigen keine Unterstützung von Entwicklern, um sie zu integrieren.
+[Die automatische Zuordnung](xdm-manual.md) beruht auf einem Standard- [Schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) im XDM, mit dem automatisch JSON-Objekte gefüllt werden, die in der typischen Analytics-Datenerfassung enthalten sind. Für die Analytics-Variablen, die automatisch von XDM zu Ihren konfigurierten Report Suites zugeordnet werden, ist keine Entwicklerunterstützung erforderlich, um sie zu integrieren.
 
 ## Manuelle Zuordnung
 
-Die manuelle Zuordnung von XDM-Daten zu Analytics beruht auf [Analytics-Kontextdatenvariablen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) . Diese Variablen werden in JSON-Objekte eingefügt, die den entsprechenden Schemas entsprechen. In der Regel fügt Ihr Entwicklungsteam Kontextdaten bei der Implementierung hinzu und legt dann [Verarbeitungsregeln](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) fest, um diese Daten auf bestimmte Report Suites anzuwenden.
-
+Die manuelle Zuordnung von XDM-Daten zu Analytics beruht auf [Analytics-Kontextdatenvariablen](../vars/page-vars/contextdata.md) . Diese Variablen werden in JSON-Objekte eingefügt, die den entsprechenden Schemas entsprechen. In der Regel fügt Ihr Entwicklungsteam Kontextdaten bei der Implementierung hinzu und legt dann [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) fest, um diese Daten auf bestimmte Report Suites anzuwenden.
 
 ## Einrichten
 
@@ -36,4 +34,3 @@ So richten Sie Analytics für den Empfang von XDM-Daten ein:
 1. Installieren und [konfigurieren](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) Sie das [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html).
 
 2. Stellen Sie sicher, dass die entsprechenden Report Suites den gewünschten Daten zugeordnet sind. XDM-Daten fließen automatisch von der Adobe Experience-Plattform in die Report Suite.
-
