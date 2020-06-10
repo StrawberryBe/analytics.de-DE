@@ -2,10 +2,10 @@
 description: Im Bereich "Analytics für Zielgruppe"(A4T) können Sie Ihre Adobe-Zielgruppe-Aktivitäten und -Erlebnisse im Arbeitsbereich für Analysen analysieren.
 title: Bereich "Analyse für Zielgruppe"(A4T)
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: f688748e21b2b494845c682b380b12d3d346bfd3
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 14%
+source-wordcount: '717'
+ht-degree: 13%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Das Bedienfeld &quot;Analytics für Zielgruppe (A4T)]** &quot;befindet sich derzeit in eingeschränkten Tests. [Mehr Infos](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Das Bedienfeld &quot;Analytics für Zielgruppe (A4T)]** &quot;befindet sich derzeit in eingeschränkten Tests. [Mehr Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html)
 
 Im Bereich &quot;Analyse für Zielgruppe&quot;(A4T) können Sie Ihre Adobe-Zielgruppe-Aktivitäten und -Erlebnisse im Arbeitsbereich für Analysen analysieren. Sie ermöglicht Ihnen außerdem, Steigerung und Konfidenz für bis zu drei Erfolgsmetriken zu sehen. Um auf das A4T-Bedienfeld zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten A4T-Komponenten. Klicken Sie dann auf das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld &quot;Analytics für Zielgruppe&quot;in Ihr Analyse Workspace-Projekt.
 
-## Bedienfeldaufbau
+## A4T-Bereichsaufbau
 
 Sie können das A4T-Bedienfeld mithilfe der folgenden Einstellungen konfigurieren:
 
@@ -27,12 +27,12 @@ Sie können das A4T-Bedienfeld mithilfe der folgenden Einstellungen konfiguriere
 | Target-Aktivität | Wählen Sie aus einer Liste von Zielgruppen-Aktivitäten aus oder ziehen Sie eine Aktivität per Drag &amp; Drop aus der linken Leiste.<br>**Hinweis:**Die Liste wird mit den letzten 6 Monaten von Aktivitäten gefüllt, die mindestens einen Treffer hatten. Wenn Sie keine Aktivität in der Liste sehen, kann sie älter als 6 Monate sein. Es kann noch von der linken Leiste hinzugefügt werden, die eine Wartezeit von bis zu 18 Monaten hat. |
 | Control-Erlebnis | Wählen Sie Ihr Kontrollerlebnis aus. Sie können sie bei Bedarf im Dropdown-Menü ändern. |
 | Normalisierungsmetrik | Wählen Sie aus &quot;Individuelle Besucher&quot;, &quot;Besuche&quot;oder &quot;Aktivitäten-Impressionen&quot;. Für die meisten Anwendungsfälle der Analyse werden individuelle Besucher empfohlen. |
-| Erfolgsmetriken | Wählen Sie bis zu 3 standardmäßige Erfolgsmetriken aus den Dropdown-Listen oder ziehen Sie Metriken per Drag &amp; Drop aus der linken Leiste. Jede Metrik verfügt über eine dedizierte Tabelle und Visualisierung im gerenderten Bedienfeld. |
+| Erfolgsmetriken | Wählen Sie bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken aus den Dropdown-Ereignissen oder ziehen Sie Metriken per Drag &amp; Drop aus der linken Leiste. Jede Metrik verfügt über eine dedizierte Tabelle und Visualisierung im gerenderten Bedienfeld. |
 | Kalenderdatumsbereich | Dies wird automatisch aufgefüllt, basierend auf dem Datumsbereich der Aktivität von Adobe Zielgruppe. Sie können es bei Bedarf ändern. |
 
 ![](assets/a4t-panel-builder.png)
 
-## Bereichsausgabe
+## A4T-Bereichsausgabe
 
 Das Bedienfeld &quot;Analytics für Zielgruppen&quot;enthält umfangreiche Daten und Visualisierungen, die Ihnen helfen, die Leistung Ihrer Adobe-Zielgruppe-Aktivität und -Erlebnisse besser zu verstehen. Oben im Bedienfeld wird eine Übersichtszeile angezeigt, die Sie an die ausgewählten Bedienfeldeinstellungen erinnert. Sie können das Bedienfeld jederzeit bearbeiten, indem Sie oben rechts auf den Stift zum Bearbeiten klicken.
 
@@ -55,4 +55,12 @@ Jede Freiform-Tabelle zeigt die folgenden Metrikspalten:
 
 Wie bei allen Bedienfeldern im Arbeitsbereich für Analysen können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Zielgruppe-Aktivitäten helfen.
 
-Weitere Optionen zu Analytics für Zielgruppe Berichte finden Sie im [A4T-Berichte](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+## FAQs zum A4T-Bedienfeld
+
+| Frage | Antwort |
+|---|---|
+| Welche Aktivitäten werden von A4T unterstützt? | [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) darüber, welche Aktivitäten unterstützt werden. |
+| Werden berechnete Metriken im A4T-Berichte unterstützt? | Nein. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) darüber, warum berechnete Metriken nicht unterstützt werden. |
+| Warum unterscheiden sich individuelle Besucher zwischen Zielgruppe und Analytics? | [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) über die Varianzen individueller Besucher zwischen den Produkten. |
+
+Weitere Informationen zu Analytics für Zielgruppe Berichte finden Sie im [A4T-Berichte](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
