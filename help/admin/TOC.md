@@ -4,7 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +44,8 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Protokolle](admin/logs.md)
    + [Marketing-Kanäle](admin/marketing-channels-admin.md)
    + [Menüanpassung](admin/customize-menus.md)
-   + [Sichtbarkeit der Metriken](admin/metric-visibility.md)
-   + [Mobile Management](admin/mobile-management.md)
+   + [Metriksichtbarkeit](admin/metric-visibility.md)
+   + [App-Verwaltung](admin/mobile-management.md)
    + Erkennung von Paid Search {#paid-search-detection}
       + [Übersicht über die Erkennung von Paid Search](admin/paid-search-detection/paid-search-detection.md)
       + [Erkennung von Paid Search konfigurieren](admin/paid-search-detection/t-paid-search-detection.md)
