@@ -2,7 +2,10 @@
 title: Basisbericht in Analysis Workspace erstellen
 description: Erfahren Sie, wie Sie einen einfachen Bericht in Analysis Workspace in einem Format erstellen, das auf Anwender ausgerichtet ist, die mit Drittanbieter-Tools wie Google Analytics vertraut sind.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Erstellen Sie einen „Alle Seiten“-Bericht (ähnlich dem Bericht in Google An
 1. Klicken Sie auf die Schaltfläche „Neues Projekt erstellen“.
 1. Stellen Sie im modalen Popup sicher, dass „Leeres Projekt“ ausgewählt ist, und klicken Sie dann auf „Erstellen“.
 1. Links wird eine Liste mit Dimensionen, Metriken, Segmenten und Datumsbereichen angezeigt. Suchen Sie die Dimension „Seiten“ (orange markiert) und ziehen Sie sie auf die Arbeitsfläche mit der Angabe „Dimension hier ablegen“.
-1. Es wird ein Bericht mit den wichtigsten Seiten für diesen Monat angezeigt. Analysis Workspace füllt den Bericht automatisch mit der Metrik [Vorfälle](/help/components/c-variables/c-metrics/metrics-occurrences.md).
+1. Es wird ein Bericht mit den wichtigsten Seiten für diesen Monat angezeigt. Analysis Workspace füllt den Bericht automatisch mit der Metrik [Vorfälle](/help/components/metrics/occurrences.md).
 1. Eine Tabelle in Google Analytics enthält in der Regel sieben bis acht Metriken. Suchen Sie die Metrik „Absprungrate“ (grün markiert) und ziehen Sie sie neben die Kopfzeile der Metrik „Vorfälle“. Wenn Sie die Metrik „Absprungrate“ neben „Vorfälle“ ziehen, werden beide Metriken nebeneinander angezeigt.
 1. Viele Metriken können nebeneinander platziert werden, indem Sie Metriken neben vorhandene Metrikkopfzeilen ziehen. Informationen zum Abrufen von Metriken, die normalerweise in Google Analytics verwendet werden, finden Sie unter [Häufig verwendete Metriken](common-metrics.md).
 
