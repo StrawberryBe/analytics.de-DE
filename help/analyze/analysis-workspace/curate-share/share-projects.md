@@ -3,17 +3,17 @@ description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Freigeben von Workspace-Projekten
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 9%
 
 ---
 
 
 # Freigeben von Workspace-Projekten
 
-Durch Freigabe wird ein Projekt anderen Analyse Workspace-Benutzern in Ihrem Unternehmen zur Verfügung gestellt. Jede Kuratierung, die Sie vorgenommen haben, wird angezeigt, wenn Empfänger das Projekt öffnen.
+Durch Freigabe wird ein Projekt anderen Analyse Workspace-Benutzern in Ihrem Unternehmen zur Verfügung gestellt. Jede [Kuration](curate.md) , die Sie vorgenommen haben, wird angezeigt, wenn Empfänger das Projekt öffnen.
 
 ## Projektrollen
 
@@ -28,15 +28,15 @@ Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen s
 | Kann duplizieren | Empfänger können „Speichern unter“ verwenden und auf die linke Navigationsleiste zugreifen. Interaktionen sind nicht eingeschränkt.<br>Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analyse Workspace verstehen. Sie möchten jedoch nicht, dass Ihr gespeichertes Projekt geändert wird. |
 | Kann anzeigen | Empfänger können nicht speichern unter und haben keinen Zugriff auf die linke Leiste. Auch die Wechselwirkungen sind begrenzt.<br>Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, dem Arbeitsbereich für Analysen oder Adobe Analytics im Allgemeinen nicht vertraut sind. Sie möchten jedoch weiterhin, dass sie Daten und Erkenntnisse in einer sicheren Umgebung nutzen.<br>Erfahren Sie mehr über das Projekterlebnis [Can Ansicht](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
-**Keine Rolle zugewiesen**
+### Keine Rolle zugewiesen
 
 Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält ([!UICONTROL Freigeben] > Projektverknüpfung [!UICONTROL abrufen]), wird er standardmäßig in die Rolle [!UICONTROL &quot;Kann Ansicht&quot;] verschoben.
 
-**Mehrere Rollen zugewiesen**
+### Mehrere Rollen zugewiesen
 
 Wenn ein Empfänger in mehreren Rollen platziert wird, erhält er immer die höchste Kontrolle. Dies kann vorkommen, wenn ein Benutzer sowohl als Einzelperson als auch als Teil einer Gruppe hinzugefügt wird. Wenn Benutzer 1 beispielsweise die Rollen &quot;Kann bearbeiten&quot;und [!UICONTROL &quot;Kann Ansicht&quot;] erhält, haben sie die [!UICONTROL &quot;Kann bearbeiten&quot;] -Steuerung des Projekts.
 
-**Administratoren und Rollen**
+### Administratoren und Rollen
 
 Administratoren, die in einer [!UICONTROL&quot;Kann-Duplikat&quot;] - oder [!UICONTROL &quot;Kann-Ansicht&quot;] -Rolle platziert wurden, erhalten diese eingeschränkten Erlebnisse, wenn sie ein Projekt öffnen. Falls gewünscht, kann ein Administrator seine Rolle jederzeit durch [!UICONTROL Komponenten] > [!UICONTROL Projekte] auf [!UICONTROL &quot;Kann bearbeiten&quot;]erhöhen.
 
@@ -75,9 +75,4 @@ Wenn mehrere Projekte ausgewählt wurden, die freigegeben werden sollen, werden 
 * Bei Auswahl von Projekt A und B werden die Benutzer 4 und 7 zu den Listen des Empfängers hinzugefügt. Die Liste der neuen Empfänger für jedes Projekt lautet nun:
    * Projekt A: 1, 2, 3, 4, 7
    * Projekt B: 4, 5, 6, 7
-
    ![](assets/mult-proj-sharing.png)
-
-## Planen von Projekten
-
-Sie können Projekte auch im Menü &quot; [!UICONTROL Freigeben] &quot;planen, entweder &quot;Datei jetzt  senden&quot;oder &quot;Datei [!UICONTROL planmäßig]senden&quot;. Das Format der gelieferten Datei kann eine PDF- oder CSV-Datei sein. Weitere Informationen zur [Projektplanung](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
