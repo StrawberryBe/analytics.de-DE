@@ -3,10 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 98%
+source-wordcount: '1102'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 
 * Wenn Sie Daten in Adobe Analytics laden und den Adobe AppMeasurement- oder mobilen SDK-Code nicht nutzen können.
 
-**[Kundenattribute](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**sollten verwendet werden:
+**[Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html)**sollten verwendet werden:
 
 * Wenn Sie Unternehmenskundendaten in einer Datenbank für Customer Relationship Management (CRM) speichern und die Daten in die Experience Cloud hochladen möchten.
 * Wenn Sie CRM-Daten für tiefgreifende Analysen in Analytics oder als Targeting-Kriterien in Adobe Target verwenden möchten.
