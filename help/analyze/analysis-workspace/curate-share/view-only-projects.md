@@ -5,8 +5,8 @@ title: Arbeitsbereich-Projekte, die nur für Ansichten gedacht sind
 translation-type: tm+mt
 source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
