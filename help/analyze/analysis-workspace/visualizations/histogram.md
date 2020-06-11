@@ -3,7 +3,10 @@ description: Ein Histogramm ist ein neuer Visualisierungstyp in Analysis Workspa
 title: Histogramm
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 97%
 
 ---
 
@@ -16,9 +19,9 @@ Ein Histogramm ähnelt einem Balkendiagramm, fasst jedoch Zahlen zu Bereichen (�
 
 So erstellen Sie ein Histogramm:
 
-1. Click **[!UICONTROL Visualizations]** in the left rail.
-1. Drag **[!UICONTROL Histogram]** to the panel.
-1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL Build]**.
+1. Klicken Sie in der linken Leiste auf **[!UICONTROL Visualisierungen]**.
+1. Ziehen Sie **[!UICONTROL Histogramm]** in das Bedienfeld.
+1. Wählen Sie eine Metrik zum Ziehen der Visualisierung „Histogramm“ aus und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
 ![](assets/histogram.png)
 
@@ -37,7 +40,7 @@ Wenn Sie die Einstellungen für Ihr Histogramm ändern möchten, klicken Sie auf
 | Startpaket | Bestimmt, mit welchem Paket das Histogramm beginnt. Die Standardeinstellung lautet 1. Sie können Startwerte von null bis unendlich festlegen, jedoch keine negativen Zahlen. |
 | Metrische Behälter | Hiermit können Sie die Anzahl der Datumsbereiche (Behälter) erhöhen/verringern. Maximal 50 Behälter sind möglich. |
 | Metrische Behältergröße | Hiermit können Sie die Größe der einzelnen Behälter festlegen. So könnten Sie zum Beispiel die Behältergröße von 1 Seitenansicht zu 2 Seitenansichten ändern. |
-| Zählmethode | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Hit. Für Hits wird „Vorkommen“ in der Freiformtabelle als Metrik der Y-Achse verwendet. |
+| Zählmethode | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). z. B. Seitenansichten pro Besuch, Seitenansichten pro Besucher oder Seitenansichten pro Hit. Für Hits wird „Vorkommen“ in der Freiformtabelle als Metrik der Y-Achse verwendet. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -48,11 +51,11 @@ Wenn Sie die Einstellungen für Ihr Histogramm ändern möchten, klicken Sie auf
 
 ## Anzeigen und Bearbeiten von Histogrammdaten {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+Wenn Sie die Datenquelle für das Histogramm-Diagramm anzeigen oder ändern möchten, klicken Sie auf den Punkt neben der Histogramm-Überschrift, und navigieren Sie zu **[!UICONTROL Datenquelleneinstellungen]** > **[!UICONTROL Datenquelle anzeigen]**.
 
 ![](assets/manage-data-source.png)
 
-Vorab erstellte Segmente, die in der Tabelle angezeigt werden, sind interne Segmente und werden in der Segmentauswahl nicht angezeigt. Click the &quot;i&quot; icon next to the segment name, then click **[!UICONTROL Make public]** to make the segment public.
+Vorab erstellte Segmente, die in der Tabelle angezeigt werden, sind interne Segmente und werden in der Segmentauswahl nicht angezeigt. Klicken Sie auf das Symbol „i“ neben dem Segmentnamen und klicken Sie dann auf **[!UICONTROL Veröffentlichen]**, um das Segment öffentlich zu machen.
 
 ![](assets/prebuilt_segments.png)
 
