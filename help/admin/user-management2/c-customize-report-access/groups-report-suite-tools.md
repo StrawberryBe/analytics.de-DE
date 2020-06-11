@@ -6,7 +6,10 @@ title: Anpassen von Berechtigungen für Report Suite-Tools
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -15,19 +18,19 @@ source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Gewähren Sie Benutzern Zugriff auf APIs, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
+**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf Bericht]** > **[!UICONTROL Report Suite-Tools]** > **[!UICONTROL Anpassen]**
 
-Die [!UICONTROL Customize Report Suite Tools] Seite gewährt Mitgliedern einer Gruppe Zugriff auf die folgenden Elemente.
+Über die Seite für das [!UICONTROL Anpassen der Report Suite-Tools] erhalten Gruppenmitglieder Zugriff auf folgende Elemente.
 
 ![](assets/report-suite-tools.png)
 
 ## Feldbeschreibungen
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf der Seite „[!UICONTROL Benutzergruppe definieren]“ ausgewählt wurden.
 
 | Element | Beschreibung |
 |--- |--- |
@@ -68,13 +71,13 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bot-Seiten sind für bestimmte Reports &amp; Analysen-Berichte bestimmt, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
 | [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bots sind für bestimmte Reports &amp; Analysen-Berichte gedacht, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit Bots können Sie Traffic entfernen, der von bekannten Spiders und Bots aus Ihrer Report Suite generiert wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
 | [Benutzerdefinierter Data Warehouse-Bericht](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse bezieht sich auf die Kopie der unverarbeiteten Rohdaten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. |
-| [Rückkehrende Besucher pro Tag](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Veraltet) In diesem Bericht wird angegeben, wie viele Besucher Ihre Website an einem bestimmten Tag mehrmals besuchen. Ein Tag wird als die letzten 24 Stunden definiert. |
+| Rückkehrende Besucher pro Tag | (Veraltet) In diesem Bericht wird angegeben, wie viele Besucher Ihre Website an einem bestimmten Tag mehrmals besuchen. Ein Tag wird als die letzten 24 Stunden definiert. |
 | [Data Sources Manager](/help/admin/admin/data-sources.md) | Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. |
 | [Nach IP-Adresse ausschließen](/help/admin/admin/exclude-ip.md) | Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websitetests und der Verwendung durch Mitarbeiter, können aus Berichten ausgeschlossen werden. |
 | Veraltete ClickMap | Ermöglicht Zugriff auf das Menü des veralteten ClickMap-Overlay-Tools. |
 | Ältere ClickMap-Installation | Gewährt Installationsrechte für das alte ClickMap-Tool. |
-| [Rückkehrende Besucher](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Ein Bericht, der die Anzahl der Besuche anzeigt, wobei die Besuchnummer größer als 1 ist. Der Bericht über rückkehrende Besucher schließt Besucher ohne Cookie ein. |
-| [Classifications Importer](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html)/Exporter und [Rule Builder](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Konsolidiert in Classifications (siehe unten). |
+| Rückkehrende Besucher | Ein Bericht, der die Anzahl der Besuche anzeigt, wobei die Besuchnummer größer als 1 ist. Der Bericht über rückkehrende Besucher schließt Besucher ohne Cookie ein. |
+| [Classifications Importer](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/classifications-importer/c-working-with-saint.html)/Exporter und [Rule Builder](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Konsolidiert in Classifications (siehe unten). |
 | Data Feeds Manager | Erteilt Rechte an Analytics-Daten-Feed. |
 | Klassifizierungen | Kombiniert die folgenden Berechtigungen: „Traffic-Klassifizierungen“, „Video-Klassifizierungen“, „Konversionsklassifizierungen“, „Klassifizierungshierarchien“, „Klassifizierungsmanager“ und „Classifications Importer/Exporter &amp; Rule Builder“.  Hinweis: Mit dieser Berechtigung bearbeiten Anwender Klassifizierungen für alle Report Suites und nicht nur für die ausgewählte(n) Report Suite(s). |
 | [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Gewährt Rechte für die Verwendung von Beitragsanalysen in Analysis Workspace. |
