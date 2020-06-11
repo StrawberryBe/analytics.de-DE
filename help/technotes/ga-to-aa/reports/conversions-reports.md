@@ -2,7 +2,10 @@
 title: Konversionsberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Konversionsberichte in Adobe Analytics verwenden.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Die Fallout-Visualisierung ist nicht auf die Dimension „Seiten“ beschränkt.
 
 E-Commerce-Berichte werden in der Regel von Sites verwendet, die Produkte oder Services anbieten, um Bestellungen und den Umsatz durch gekaufte Artikel zu messen. Diese Funktion ist in Adobe Analytics verfügbar und wird als „Produktberichte“ bezeichnet.
 
-Sowohl E-Commerce-Berichte in Google Analytics als auch Produktberichte in Adobe Analytics erfordern benutzerspezifische Implementierungsänderungen. Weitere Informationen finden Sie im Abschnitt zur Dimension [Produkte](/help/components/c-variables/dimensionslist/reports-products.md) im Benutzerhandbuch zu Komponenten.
+Sowohl E-Commerce-Berichte in Google Analytics als auch Produktberichte in Adobe Analytics erfordern benutzerspezifische Implementierungsänderungen. Weitere Informationen finden Sie im Abschnitt zur Dimension [Produkte](/help/components/dimensions/product.md) im Benutzerhandbuch zu Komponenten.
 
 ## Multi-Channel-Trichterberichte
 
