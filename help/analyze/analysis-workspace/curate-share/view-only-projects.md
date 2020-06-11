@@ -3,9 +3,9 @@ description: Nur-Ansichten-Projekte in Workspace
 keywords: View-only projects
 title: Arbeitsbereich-Projekte, die nur für Ansichten gedacht sind
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ Deaktivierte Interaktionen in einem Nur-Ansicht-Projekt umfassen:
 
 * Ausgeblendete linke Leiste
 * Report Suites
-* Datumsbereich des BereichskalendersHinweis: Wenn Sie Empfängern Kalendersteuerung gewähren möchten, fügen Sie einen [Dropdownfilter mit Datumsbereichen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)hinzu.
+* Datumsbereich des Bereichskalenders. Hinweis: Wenn Sie Empfängern Kalendersteuerung gewähren möchten, fügen Sie einen [Dropdownfilter mit Datumsbereichen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)hinzu.
 * Freiformfilterung
 * Freiformanzahl der sichtbaren Zeilen
 * Freiformzeilen-, Spalten- oder Visualisierungseinstellungen
 * Bereichssegmente
 * Menüs &quot;Bearbeiten&quot;, &quot;Einfügen und Komponenten&quot;
+* Tipps zum Arbeitsbereich
 
 ## Aktivierte Interaktionen
 
