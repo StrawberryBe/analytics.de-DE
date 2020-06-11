@@ -2,7 +2,10 @@
 title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 92%
 
 ---
 
@@ -34,13 +37,13 @@ Es stehen verschiedene Funktionen zur Verfügung:
 Die `s.events`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Ereignissen enthält, die in den Treffer einbezogen werden sollen. Für diese Variable gibt es keine Byte-Begrenzung, daher wird sie nicht abgeschnitten. Zu gültigen Werten gehören:
 
 * `event1` - `event1000`: Benutzerdefinierte Ereignisse, die Sie nach Belieben einstellen können. Zeichnen Sie im [Lösungsdesigndokument](../../../prepare/solution-design.md) Ihres Unternehmens auf, wie Sie die einzelnen Ereignisse verwenden. Die Anzahl der verfügbaren Ereignisse hängt vom Analytics-Vertrag Ihres Unternehmens ab. In den meisten Unternehmen, die nicht über einen Altvertrag verfügen, stehen 1000 benutzerdefinierte Ereignisse zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie nicht sicher sind, wie viele benutzerspezifische Ereignisse für Sie verfügbar sind.
-* `purchase`: Erhöht die Metrik „Bestellungen“ um 1 und berechnet anhand der in der `products`-Variablen festgelegten Werte „Einheiten“ und „Umsatz“. Weitere Informationen finden Sie unter [Kaufereignis](event-purchase.md).
-* `prodView`: Erhöht die Metrik „Produktansichten“.
-* `scOpen`: Erhöht die Metrik „Warenkorb“.
-* `scAdd`: Erhöht die Metrik „Zusätze zum Warenkorb“.
-* `scRemove`: Erhöht die Metrik „Entnahmen aus Warenkorb“.
-* `scView`: Erhöht die Metrik „Warenkorbansichten“.
-* `scCheckout`: Erhöht die Metrik „Checkouts“.
+* `purchase`: Erhöht die Metrik [&quot;Bestellungen&quot;](/help/components/metrics/orders.md) um 1 und berechnet anhand der in der `products` Variablen festgelegten Werte [&quot;Einheiten&quot;](/help/components/metrics/units.md) und [&quot;Umsatz&quot;](/help/components/metrics/revenue.md). Weitere Informationen finden Sie unter [Kaufereignis](event-purchase.md).
+* `prodView`: Erhöht die Metrik [&quot;Ansichten](/help/components/metrics/product-views.md) des Produkts&quot;.
+* `scOpen`: Erhöht die Metrik [&quot;Einkaufswagen](/help/components/metrics/carts.md) &quot;.
+* `scAdd`: Erhöht die Metrik [&quot;Zusatz zum](/help/components/metrics/cart-additions.md) Warenkorb&quot;.
+* `scRemove`: Erhöht die Metrik [&quot;Entnahme aus Warenkorb&quot;](/help/components/metrics/cart-removals.md) .
+* `scView`: Erhöht die Metrik [&quot;Ansichten](/help/components/metrics/cart-views.md) im Warenkorb&quot;.
+* `scCheckout`: Erhöht die Metrik [&quot;Kassengänge&quot;](/help/components/metrics/checkouts.md) .
 
 >[!NOTE] Bei dieser Variablen wird zwischen Groß- und Kleinschreibung unterschieden. Vermeiden Sie die falsche Großschreibung von Ereigniswerten, um eine genaue Datenerfassung sicherzustellen.
 
