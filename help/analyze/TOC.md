@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -80,11 +80,7 @@ ht-degree: 97%
    + Bedienfelder {#panels}
       + [Übersicht über Bedienfelder](analysis-workspace/c-panels/panels.md)
       + [Bereich &quot;Analyse für Zielgruppe&quot;(A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + Attributionsbedienfeld {#attribution}
-         + [Übersicht über Attribution](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Attributionsbedienfeld verwenden](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [Häufig gestellte Fragen zu Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [Algorithmische Attribution](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Attributionsbedienfeld](analysis-workspace/c-panels/attribution.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
       + [Quick Insight-Bedienfeld](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 97%
       + [Projektdateien freigeben und planen](analysis-workspace/curate-share/send-schedule-files.md)
       + [Datei senden – Bereitstellung eines Projekts planen](analysis-workspace/curate-share/t-schedule-report.md)
       + [Manager für geplante Projekte](analysis-workspace/curate-share/schedule-projects.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + Attribution IQ {#attribution}
+      + [Übersicht über Attribution](analysis-workspace/attribution/overview.md)
+      + [Zuordnungsmodelle und Lookback-Fenster](analysis-workspace/attribution/models.md)
+      + [Algorithmische Attribution](analysis-workspace/attribution/algorithmic.md)
+      + [Häufig gestellte Fragen](analysis-workspace/attribution/faq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Übersicht über Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
