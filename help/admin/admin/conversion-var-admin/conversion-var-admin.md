@@ -5,7 +5,10 @@ title: Konversionsvariablen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1579'
+ht-degree: 90%
 
 ---
 
@@ -88,7 +91,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising-Binding-Ereignis</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Wenn „Merchandising“ auf <span class="uicontrol">Konversionsvariablensyntax</span> eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. </p> <p>Um ein Binding-Ereignis zu verwenden, setzen Sie <span class="uicontrol">„Zuordnung“ auf „Zuletzt verwendet“</span>. Wenn <span class="uicontrol">„Zuordnung“ auf „Ausgangswert“</span> eingestellt ist, bleibt die erste eVar-Produktverbindung erhalten, bis die eVar abläuft. </p> </td> 
+   <td colname="col2"> <p>Wenn „Merchandising“ auf <span class="uicontrol">Konversionsvariablensyntax</span> eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. </p> <p>Um ein Binding-Ereignis zu verwenden, setzen Sie <span class="uicontrol">„Zuordnung“ auf „Zuletzt verwendet“</span>. Wenn <span class="uicontrol">„Zuordnung“ auf „Ausgangswert“</span> eingestellt ist, bleibt die erste eVar-Produktverbindung erhalten, bis die eVar abläuft. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +105,7 @@ Es gibt zwei Möglichkeiten für den Ablauf einer eVar:
 * Sie können die eVar so einstellen, dass sie nach einem bestimmten Zeitraum oder Ereignis abläuft.
 * Sie können den Ablauf einer eVar erzwingen, indem Sie sie zurücksetzen. Dies ist nützlich, wenn Sie eine Variable erneut verwenden möchten.
 
-Wenn Sie beispielsweise den Ablauf einer eVar von 30 auf 90 Tage ändern, bleiben die erfassten eVar-Werte für die Dauer des neuen Ablaufsatzes (in diesem Fall 90 Tage) erhalten. Das System prüft lediglich die aktuelle Ablaufeinstellung und den letzten festgelegten Zeitstempel des erfassten eVar-Werts, um den Ablauf zu bestimmen. Nur die **[!UICONTROL Reset]** Option läuft Werte ab und tut dies sofort.
+Wenn Sie beispielsweise den Ablauf einer eVar von 30 auf 90 Tage ändern, bleiben die erfassten eVar-Werte für die Dauer des neuen Ablaufsatzes (in diesem Fall 90 Tage) erhalten. Das System prüft lediglich die aktuelle Ablaufeinstellung und den letzten festgelegten Zeitstempel des erfassten eVar-Werts, um den Ablauf zu bestimmen. Nur die Option &quot; **[!UICONTROL Zurücksetzen]** &quot;läuft Werte ab und tut dies sofort.
 
 Ein weiteres Beispiel: Wenn eine eVar im Mai zur Darstellung interner Promotions verwendet wird und nach 21 Tagen abläuft und im Juni zur Erfassung interner Suchbegriffe verwendet wird, sollten Sie am 1. Juni den Ablauf der Variablen erzwingen oder sie zurücksetzen. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
 
