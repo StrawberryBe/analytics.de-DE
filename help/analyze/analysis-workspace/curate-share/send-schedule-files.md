@@ -1,18 +1,21 @@
 ---
 description: Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
-title: Projektdateien freigeben und planen
+title: Menü "Freigeben"
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# Projektdateien freigeben und planen
+# Menü &quot;Freigeben&quot;
 
 Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Freigabe]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder
  <tbody> 
   <tr> 
    <td colname="col1"> Projekt freigeben </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Weitere Informationen</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Weitere Informationen</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Projektverknüpfung abrufen </td> 
