@@ -4,7 +4,7 @@ title: Analysis Workspace – Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Im Analysis Workspace entfallen alle normalen Einschränkungen eines einzelnen Analytics-Berichts. Sie erhalten eine stabile und flexible Arbeitsfläche, in der Sie benutzerdefinierte Analyseprojekte erstellen können. Ziehen Sie per Drag-and-Drop eine beliebige Anzahl von Datentabellen, Visualisierungen und Komponenten (Dimensionen, Metriken, Segmente und Zeitgranularitäten) in ein Projekt. Erstellen Sie im Handumdrehen Aufschlüsselungen und Segmente, Kohorten für die Analyse sowie Warnhinweise und vergleichen Sie Segmente miteinander, führen Sie Fluss- sowie Fallout-Analysen durch und kuratieren und planen Sie Berichte für die Freigabe für andere in Ihrem Unternehmen.
 
-Diese Seite enthält grundlegende Anweisungen zum Einstieg. Wenn Sie die Grundlagen beherrscht haben, können Sie zu den erweiterten Funktionen von Workspace wechseln. Dazu gehören [Zuordnungs-IQ](/help/analyze/analysis-workspace/attribution-iq.md), [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Beitragsalierungs-Analyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment-IQ](/help/analyze/analysis-workspace/segment-iq.md)und [intelligente Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
+Diese Seite enthält grundlegende Anweisungen zum Einstieg. Wenn Sie die Grundlagen beherrscht haben, können Sie zu den erweiterten Funktionen von Workspace wechseln. Dazu gehören [Zuordnungs-IQ](/help/analyze/analysis-workspace/attribution/overview.md), [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md), [Beitragsalierungs-Analyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md), [Segment-IQ](/help/analyze/analysis-workspace/segment-iq.md)und [intelligente Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
 Im Folgenden finden Sie eine Videoübersicht zu Workspace:
 
