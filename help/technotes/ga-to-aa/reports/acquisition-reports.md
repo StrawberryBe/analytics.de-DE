@@ -2,7 +2,10 @@
 title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ Berichte zu Quellen und Medien zeigen die Domänen an, die den Traffic zu Ihrer 
 
 Weitere Informationen zu den jeweiligen Dimensionen finden Sie auf den folgenden Seiten im Benutzerhandbuch zu Komponenten:
 
-* [Verweisende Domäne](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Typ der verweisenden Stelle](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Keywords](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Verweisende Domäne](/help/components/dimensions/referring-domain.md)
+* [Typ der verweisenden Stelle](/help/components/dimensions/referrer-type.md)
+* [Keywords](/help/components/dimensions/search-keyword.md)
 
 ## Alle Zugriffe – Verweise
 
@@ -65,7 +68,7 @@ Weitere Informationen zu den jeweiligen Dimensionen finden Sie auf den folgenden
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Referrer-Domäne** oder **Entrypage** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Referrer-Domäne](/help/components/c-variables/dimensionslist/reports-referring-domains.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Referrer-Domäne](/help/components/dimensions/referring-domain.md) im Benutzerhandbuch zu Komponenten.
 
 ## Google Ads- und Search Console-Berichte
 
