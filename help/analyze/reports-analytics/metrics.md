@@ -4,7 +4,10 @@ title: Metriken
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +24,7 @@ Metriken und die damit verbundenen Daten werden in den Spalten von Berichten ang
 
 [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) werden durch die Kombination von Metriken erstellt.
 
-Definitionen finden Sie unter [Metrikübersicht](/help/components/c-variables/c-metrics/metricslist.md).
+Eine vollständige Liste der Metriken finden Sie unter [Metriken - Übersicht](/help/components/metrics/overview.md) im Komponenten-Benutzerhandbuch.
 
 ## Standard-Berichtsmetriken auswählen
 
@@ -35,12 +38,12 @@ t_metrics_set_default.xml
 
 1. Einen Bericht ausführen.
 1. Hinzufügen der Metriken, die Sie als Standardmetriken speichern möchten.
-1. Klicken Sie auf die **[!UICONTROL Add Metrics]** Dropdown-Liste und wählen Sie dann **[!UICONTROL Set as Default]**.
+1. Klicken Sie auf die Dropdownliste **[!UICONTROL Metriken hinzufügen]** und wählen Sie anschließend die Option **[!UICONTROL Als Standard festlegen]** aus.
 
    Die ausgewählten Metriken werden als Standard für diesen Bericht gespeichert. Die folgenden Informationen gelten für Standardmetriken:
 
 * Standardmetriken gelten für alle Benutzerkonten, verstehen sich jedoch pro Bericht und Report Suite. So sehen sämtliche Benutzer, die einen bestimmten Bericht in derselben Report Suite anzeigen, die Metriken, die mit dem obigen Verfahren festgelegt wurden.
-* Wenn Sie sich zwischen Berichten bewegen, bleiben die Metriken erhalten, die im zuletzt betrachteten Bericht angezeigt wurden. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
+* Wenn Sie sich zwischen Berichten bewegen, bleiben die Metriken erhalten, die im zuletzt betrachteten Bericht angezeigt wurden. Um Standardmetriken in diesem neuen Bericht anzuzeigen, klicken Sie auf die Dropdownliste [!UICONTROL „Metriken hinzufügen“] und anschließend auf [!UICONTROL „Standardwerte anzeigen“].
 
-* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
+* Wenn Sie auf [!UICONTROL „Standardwerte löschen“] klicken, werden die Standardmetriken für diesen Bericht entfernt und auf die ursprünglichen Standardmetriken für den betreffenden Bericht zurückgesetzt ([!UICONTROL „Seitenansichten“] für Props und für die in den Admin Tools festgelegten Einstellungen für eVars).
 
