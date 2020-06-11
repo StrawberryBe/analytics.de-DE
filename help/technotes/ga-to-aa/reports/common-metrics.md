@@ -2,7 +2,10 @@
 title: Übersetzungshandbuch für häufig verwendete Metriken anderer Plattformen
 description: Erfahren Sie, wie Sie Metrikdaten für viele häufig verwendete Berichte abrufen können, indem Sie Terminologie verwenden, die Google Analytics-Anwendern besser bekannt ist.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Um einer Freiformtabelle im Arbeitsbereich mehrere Metriken hinzuzufügen, ziehe
 
 ## Akquise-Metriken
 
-**Nutzer** ähnelt ungefähr **Unique Visitors** in Workspace. Weitere Informationen finden Sie im Abschnitt zur Dimension [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) im Benutzerhandbuch zu Komponenten.
+**Nutzer** ähnelt ungefähr **Unique Visitors** in Workspace. Weitere Informationen finden Sie im Abschnitt zur Dimension [Unique Visitors](/help/components/metrics/unique-visitors.md) im Benutzerhandbuch zu Komponenten.
 
 **Neue Nutzer** erhalten Sie wie folgt:
 
@@ -26,13 +29,13 @@ Um einer Freiformtabelle im Arbeitsbereich mehrere Metriken hinzuzufügen, ziehe
 
    ![Erstbesuche](../assets/first_time_visits.png)
 
-**Sitzungen** entsprechen ungefähr den **Besuchen** in Analysis Workspace. Weitere Informationen finden Sie im Abschnitt zur Dimension [Besuche](/help/components/c-variables/c-metrics/metrics-visit.md) im Benutzerhandbuch zu Komponenten.
+**Sitzungen** entsprechen ungefähr den **Besuchen** in Analysis Workspace. Weitere Informationen finden Sie im Abschnitt zur Dimension [Besuche](/help/components/metrics/visits.md) im Benutzerhandbuch zu Komponenten.
 
 ![Akquise-Metriken](../assets/acquisition_metrics.png)
 
 ## Verhaltensmetriken
 
-Die **Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weitere Informationen finden Sie im Abschnitt zur Metrik [Absprungrate](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) im Benutzerhandbuch zu Komponenten.
+Die **Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weitere Informationen finden Sie im Abschnitt zur Metrik [Absprungrate](/help/components/metrics/bounce-rate.md) im Benutzerhandbuch zu Komponenten.
 
 **Seiten/Sitzung** ist eine berechnete Metrik. Sie erhalten sie wie folgt:
 
@@ -48,9 +51,9 @@ Die **Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weit
 7. Klicken Sie auf „Speichern“, um zu Ihrem Arbeitsbereich zurückzukehren.
 8. Ziehen Sie die neu definierte berechnete Metrik in den Arbeitsbereich.
 
-   Weitere Informationen zu [berechneten Metriken](/help/components/c-variables/c-metrics/calculated-metric.md) finden Sie im Benutzerhandbuch zu Komponenten.
+   Weitere Informationen zu [berechneten Metriken](/help/components/c-calcmetrics/cm-overview.md) finden Sie im Benutzerhandbuch zu Komponenten.
 
-**Durchschnittl. Sitzungsdauer** entspricht ungefähr der **Zeit pro Besuch (Sekunden)**. Weitere Informationen zu Metriken der [Besuchszeit](/help/components/c-variables/c-metrics/metrics-time-spent.md) finden Sie im Benutzerhandbuch zu Komponenten.
+**Durchschnittl. Sitzungsdauer** entspricht ungefähr der **Zeit pro Besuch (Sekunden)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## Konversionsmetriken
 
