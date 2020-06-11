@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 97%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 97%
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Projekte kuratieren oder freigeben {#curate-share}
-      + [Erstellen eines Workspace-Projekts](analysis-workspace/curate-share/curate.md)
+      + [Projekte im Arbeitsbereich kuratieren](analysis-workspace/curate-share/curate.md)
       + [Freigeben von Workspace-Projekten](analysis-workspace/curate-share/share-projects.md)
       + [Arbeitsbereich-Projekte, die nur für Ansichten gedacht sind](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- oder CSV-Dateien herunterladen](analysis-workspace/curate-share/download-send.md)
