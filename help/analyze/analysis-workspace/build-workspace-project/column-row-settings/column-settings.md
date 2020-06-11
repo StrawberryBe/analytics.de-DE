@@ -3,7 +3,10 @@ description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatieru
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ Mithilfe der Spalteneinstellungen können Sie die Spaltenformatierung konfigurie
 
 ## Spalteneinstellungen {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+Um die [!UICONTROL Spalteneinstellungen] aufzurufen, ziehen Sie eine Freiformtabelle in das Projekt und klicken Sie dann auf das Zahnrad-Symbol in der Spaltenüberschrift.
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ Die bedingte Formatierung gilt für Obergrenzen, Mittelwerte und Untergrenzen, d
 | Automatisch generiert | Generiert automatisch Grenzwerte für die bedingte Formatierung. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
 | Benutzerspezifisch | Sie können die Werte für die Felder „Obergrenze“, „Mittelpunkt“ und „Untergrenze“ für die bedingte Formatierung manuell festlegen. So können Sie flexibel bestimmen, ob der Wert einer Säule gut, durchschnittlich oder schlecht ist. |
 | Vorschau der Tabellenzelle | Vorschau der jeweiligen Zelle mit allen ausgewählten Formatierungsoptionen |
+
+## Nicht standardmäßiges Attributionsmodell verwenden
+
+Analyse Workspace unterstützt die [Zuordnung](../../attribution/overview.md) für nahezu jede Metrik.
+
+1. Klicken Sie auf das Zahnradsymbol „Einstellungen“ in einer Freiformtabellenspalte.
+
+   ![Kontrollkästchen &quot;Zuordnung&quot;](assets/attribution-checkbox.png)
+
+2. Aktivieren Sie unter **[!UICONTROL Dateneinstellungen]** die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![Zuordnungsmodell auswählen](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
