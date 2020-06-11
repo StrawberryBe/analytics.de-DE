@@ -3,10 +3,10 @@ description: Mithilfe der Kuratierung können Sie Komponenten einschränken, bev
 keywords: Analysis Workspace curation
 title: Projekte im Arbeitsbereich kuratieren
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 39%
+source-wordcount: '491'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn ein Empfänger das Projekt öffnet, wird ihm eine begrenzte Anzahl von Komponenten angezeigt, die Sie für sie kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
 
 >[!NOTE]
-> Produktprofile bestimmen als Hauptmechanismen, welche Komponenten ein Anwender sehen kann. Sie werden über die Admin Console verwaltet. Kuratierung ist ein Sekundärfilter.
+> Produktprofile bestimmen als Hauptmechanismen, welche Komponenten ein Anwender sehen kann. Sie werden über die Admin-Konsole der Adobe Experience Cloud verwaltet. Kuratierung ist ein Sekundärfilter.
 
 ## Projektkuratierung anwenden
 
@@ -26,13 +26,15 @@ Die im Projekt verwendeten Komponenten werden automatisch hinzugefügt.
 1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die freizugebenden Komponenten aus der linken Leiste in das Feld [!UICONTROL Kuratieren der Komponenten] .
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
+Kuratieren können Sie auch über das Menü &quot; [!UICONTROL Freigeben] &quot;anwenden, indem Sie auf **[!UICONTROL Kuratieren und Freigeben]** klicken. Diese Option kuratiert das Projekt automatisch auf die im Projekt verwendeten Komponenten. Sie können weitere Komponenten hinzufügen, wie oben beschrieben.
+
 ![](assets/curation-field.png)
+
+## Ansicht des kuratierten Projekts
 
 Wenn ein Empfänger ein kuratiertes Projekt öffnet, wird ihm nur der ausgewählte Satz der von Ihnen definierten Komponenten angezeigt:
 
 ![](assets/curate-project.png)
-
-Kuratieren können Sie auch über das Menü &quot; [!UICONTROL Freigeben] &quot;anwenden, indem Sie auf **[!UICONTROL Kuratieren und Freigeben]** klicken. Diese Option kuratiert das Projekt automatisch auf die im Projekt verwendeten Komponenten. Sie können weitere Komponenten hinzufügen, wie oben beschrieben.
 
 ## Projektkuratierung entfernen
 
@@ -48,15 +50,15 @@ Um die Kuration auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekt
 >[!NOTE]
 > Die VRS-Kuratierung wird immer vor der Projektkuratierung ausgeführt. Das bedeutet, dass selbst wenn Ihr kuratiertes Projekt bestimmte Komponenten enthält, werden diese herausgefiltert, wenn die kuratierte VRS diese nicht enthält.
 
-### Alle Komponenten anzeigen
+## Option &quot;Alle Komponenten anzeigen&quot;
 
 In einem kuratierten Projekt oder einer VRS wird dem Empfänger die Option zum **[!UICONTROL Anzeigen aller]** Komponenten in der linken Leiste angezeigt. [!UICONTROL &quot;Alle] anzeigen&quot;zeigt verschiedene Komponentensätze an, je nach:
 
-* die Berechtigungsebene des Benutzers (Admin oder Nicht-Admin)
+* Berechtigungsebene des Benutzers (Administrator oder Nicht-Administrator)
 * Rolle des Projekts (Eigentümer/Editor oder nicht)
-* Art der angewendeten Kuration
+* Art der angewendeten Kuration (VRS oder Projekt)
 
-| Kuratierungstyp | Admins | Projektinhaber ohne Administratorrechte | Ohne Administratorrechte |
+| Kuratierungstyp | Admins | Eigentümer oder Bearbeitungsrolle eines Nicht-Admin-Projekts | Rolle &quot;Nicht-Admin-Duplikat&quot;oder &quot;Ansicht&quot; |
 |---|---|---|---|
 | Kuratierte VRS | Alle nicht kuratierten VRS-Komponenten | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
 | Kuratierte Projekte | Alle nicht kuratierten Projektkomponenten | Alle nicht kuratierten Projektkomponenten | Nicht kuratierte Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
