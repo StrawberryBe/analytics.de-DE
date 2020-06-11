@@ -2,18 +2,23 @@
 title: prop
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 73%
 
 ---
 
 
 # prop
 
-Props sind benutzerspezifische Variablen, die Sie beliebig verwenden können.
+*Auf dieser Hilfeseite wird die Implementierung von Props beschrieben. Informationen dazu, wie Props als Dimension funktionieren, finden Sie in der[Eigenschaftsvariablen](/help/components/dimensions/prop.md)im Komponenten-Benutzerhandbuch.*
 
->[!TIP] Adobe empfiehlt in den meisten Fällen die Verwendung von eVars. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen. Unter [eVars](evar.md) finden Sie einen Funktionsvergleich zwischen diesen beiden benutzerdefinierten Variablentypen.
+Props sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den Treffer hinaus erhalten, den sie ausgelöst haben.
 
-Wenn Ihr Unternehmen Props verwendet, stellen Sie sicher, dass Sie deren Verwendung und Logik in Ihrem [Lösungsdesigndokument](../../prepare/solution-design.md) aufzeichnen.
+> [!TIP][ Adobe empfiehlt in den meisten Fällen die Verwendung von eVars. ](evar.md) In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+
+Wenn Sie über ein [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es stehen bis zu 75 Props zur Verfügung, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
 ## Props in Adobe Experience Platform Launch
 
@@ -26,7 +31,7 @@ Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Props].
 
-Sie können eine Prop auswählen, um einen Wert oder ein Datenelement festzulegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
+Sie können eine Eigenschaftsvariable auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
 ## s.prop1 – s.prop75 in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
@@ -44,7 +49,7 @@ Listen-Props sind eine Einstellung, die auf Props angewendet wird, mit denen die
 
 Aktivieren Sie Listen-Props in den Report Suite-Einstellungen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Traffic-Variablen](/help/admin/admin/c-traffic-variables/traffic-var.md). Vergewissern Sie sich, dass das gewünschte Trennzeichen richtig konfiguriert ist. Adobe stellt kein Standardtrennzeichen bereit.
 
->[!TIP] Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
+> [!TIP] Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
 
 ### Festlegen von Listen-Props
 
@@ -55,6 +60,6 @@ Sobald Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten T
 s.prop1 = "value1,value2,value3";
 ```
 
->[!IMPORTANT] Listen-Props unterliegen weiterhin der maximalen Länge von 100 Byte. Listen-Props können diese Grenze leichter erreichen und abgeschnitten werden, da sie mehrere Werte enthalten können. Erwägen Sie die Verwendung von Abkürzungen oder die Verkürzung von Werten, wenn Sie diesen Grenzwert von 100 Byte erreichen.
+> [!IMPORTANT] Listen-Props unterliegen weiterhin der maximalen Länge von 100 Byte. Listen-Props können diese Grenze leichter erreichen und abgeschnitten werden, da sie mehrere Werte enthalten können. Erwägen Sie die Verwendung von Abkürzungen oder die Verkürzung von Werten, wenn Sie diesen Grenzwert von 100 Byte erreichen.
 
 Wenn Sie denselben Wert mehr als einmal in einer Liste-Eigenschaft festlegen, werden diese in Berichte dedupliziert. Analyse Workspace zählt die Anzahl der Treffer, bei denen ein Wert angezeigt wird, und nicht, wie oft ein Wert in Daten vorhanden ist.
