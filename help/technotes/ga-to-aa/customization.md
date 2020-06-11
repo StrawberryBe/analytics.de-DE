@@ -2,7 +2,7 @@
 title: Berichtsanpassung in Adobe Analytics
 description: Erfahren Sie, wie Sie Berichte in Adobe Analytics anpassen können.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 78%
@@ -68,7 +68,7 @@ So erstellen Sie eine errechnete Metrik:
 4. Sobald die berechnete Metrik die gewünschte Formel enthält, klicken Sie auf „Speichern“, um zu Ihrem Arbeitsbereich zurückzukehren.
 5. Ziehen Sie die neu definierte berechnete Metrik in den Arbeitsbereich.
 
-   Weitere Informationen zu [berechneten Metriken](/help/components/c-variables/c-metrics/calculated-metric.md) finden Sie im Benutzerhandbuch zu Komponenten.
+   Weitere Informationen zu [berechneten Metriken](/help/components/c-calcmetrics/cm-overview.md) finden Sie im Benutzerhandbuch zu Komponenten.
 
 ## Benutzerspezifische Warnungen
 
