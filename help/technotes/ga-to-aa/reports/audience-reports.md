@@ -2,7 +2,10 @@
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace zielgruppenbasierte Berichte erstellen.
 translation-type: tm+mt
-source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ So erstellen Sie einen Kantengraphen für Unique Visitors:
 2. Klicken Sie links auf das Symbol „Komponenten“ und ziehen Sie dann die Metrik **Unique Visitors** in den kleineren Bereich namens „Metrik hier ablegen“.
 3. Wenn eine andere Granularität gewünscht wird, ziehen Sie den gewünschten Datumsbereich (z. B. **Tag**, **Woche**, **Monat** usw.) oberhalb der vorhandenen Datendimensionskopfzeile.
 
-Weitere Informationen zur Berechnung von Unique Visitors durch Adobe finden Sie unter [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen zur Berechnung von Unique Visitors durch Adobe finden Sie unter [Unique Visitors](/help/components/metrics/unique-visitors.md) im Benutzerhandbuch zu Komponenten.
 
 ## Lebenszeitwert
 
@@ -69,7 +72,7 @@ So erstellen Sie einen Sprachenbericht:
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Sprache** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Sprache](/help/components/c-variables/dimensionslist/reports-languages.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Sprache](/help/components/dimensions/language.md) im Benutzerhandbuch zu Komponenten.
 
 ## Geografie – Standort
 
@@ -86,7 +89,7 @@ Wenn die Tabelle zusätzlich zur Karte gewünscht wird:
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Länder** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zu [GeoSegmentation-Dimensionen](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) im Benutzerhandbuch zu Komponenten.
+See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
 
 ## Verhalten – Neu und wiederkehrend
 
@@ -111,7 +114,7 @@ Der Bericht „Häufigkeit und Recency“ entspricht ungefähr der Dimension **B
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Besuchsnummer** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Besuchsnummer](/help/components/c-variables/dimensionslist/reports-visitor-number.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Besuchsnummer](/help/components/dimensions/visit-number.md) im Benutzerhandbuch zu Komponenten.
 
 ## Verhalten – Interaktionen
 
@@ -120,7 +123,7 @@ Der Interaktionsbericht entspricht ungefähr der Dimension **Zeit pro Besuch �
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Zeit pro Besuch – Zusammengefasst** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Zeit pro Besuch](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Zeit pro Besuch](/help/components/dimensions/time-spent-per-visit.md) im Benutzerhandbuch zu Komponenten.
 
 ## Technologie – Browser und Betriebssystem
 
@@ -137,10 +140,10 @@ Es sind mehrere primäre Dimensionen im Browser- und Betriebssystem-Bericht verf
 
 Weitere Informationen zu den jeweiligen Dimensionen finden Sie auf den folgenden Seiten im Benutzerhandbuch zu Komponenten:
 
-* [Browser](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [Betriebssystem](/help/components/c-variables/dimensionslist/reports-operating-system.md)
-* [Bildschirmauflösung](/help/components/c-variables/dimensionslist/reports-technology.md)
-* [Farbtiefe](/help/components/c-variables/dimensionslist/reports-color-depth.md)
+* [Browser](/help/components/dimensions/browser.md)
+* [Betriebssystem](/help/components/dimensions/operating-systems.md)
+* [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md)
+* [Farbtiefe](/help/components/dimensions/color-depth.md)
 
 ## Technologie – Netzwerk
 
@@ -149,7 +152,7 @@ Der Netzwerkbericht ähnelt der Dimension **Domäne**.
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Domäne** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Domäne](/help/components/c-variables/dimensionslist/reports-domains.md) im Benutzerhandbuch zu Komponenten.
+Weitere Informationen finden Sie im Abschnitt zur Dimension [Domäne](/help/components/dimensions/domain.md) im Benutzerhandbuch zu Komponenten.
 
 ## Mobil – Übersicht
 
@@ -158,7 +161,7 @@ Der Übersichtsbericht für Mobilgeräte entspricht ungefähr der Dimension **Mo
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Mobilgerätetyp** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Mobilgerätetyp](/help/components/c-variables/dimensionslist/reports-device-types.md) im Benutzerhandbuch zu Komponenten.
+See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Mobil – Geräte
 
@@ -167,7 +170,7 @@ Der Mobilgerätebericht entspricht ungefähr der Dimension **Mobilgerät**.
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Mobilgerät** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-Weitere Informationen finden Sie im Abschnitt zur Dimension [Mobilgerät](/help/components/c-variables/dimensionslist/reports-devices.md) im Benutzerhandbuch zu Komponenten.
+See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Benutzerspezifisch
 
