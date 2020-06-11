@@ -5,7 +5,10 @@ title: Übersicht über Erfolgsereignisse
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 78%
 
 ---
 
@@ -18,9 +21,9 @@ Rufen Sie die Seite &quot;Erfolgsereignisse&quot;in den Report Suite-Einstellung
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Navigieren zu [!UICONTROL Admin] > [!UICONTROL Report Suites]
-4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
-5. Suchen Sie das gewünschte Ereignis und ändern Sie die [!UICONTROL Unique Event Recording] Dropdownliste in [!UICONTROL Record Once Per Visit] oder [!UICONTROL Use Event ID].
+3. Navigieren Sie zu [!UICONTROL Admin] > [!UICONTROL Report Suites]
+4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Einstellungen] bearbeiten > [!UICONTROL Konversion] > [!UICONTROL Erfolgsergebnisse].
+5. Suchen Sie nach dem gewünschten Ereignis und ändern Sie das Dropdown &quot; [!UICONTROL Individuelle Ereignis-Aufzeichnung] &quot;in &quot;Einmal pro Besuch  aufzeichnen&quot;oder &quot;Ereignis-ID [!UICONTROL verwenden&quot;].
 
 Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen Arten zählen beispielsweise:
 
@@ -32,11 +35,11 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 * **High Tech**: Download von White Papers, Gebotsanfragen, Formularausfüllung, Supportanfragen
 * **Automotive**: Leadeinsendung, Preisanfrage, Download von Broschüren
 
-Die Variable [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
+Die Variable [s.events](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
 
 ## Seite „Erfolgsereignisse“ – Beschreibungen {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**
 
 Auf der Seite „Erfolgsereignisse“ können Sie die auf der Site verwendeten Ereignisvariablen konfigurieren. Sie können bis zu 1.000 Erfolgsereignisse hinzufügen. Die Ereignisse 81–1.000 sind nur bei H22-Code oder höher verfügbar.
 
@@ -48,6 +51,6 @@ Auf der Seite „Erfolgsereignisse“ können Sie die auf der Site verwendeten E
 | Polarität | Anhand der Metrikpolarität können Sie festlegen, ob Adobe Analytics es als positiv oder negativ interpretieren soll, wenn ein benutzerdefiniertes Ereignis (Metrik) ansteigt. So kann Adobe Analytics Trendanzeigen (Pfeile) für verschiedene Metriken einbinden und mehr Kontext bieten (z. B. Vergleich über mehrere Wochen).  Beispiele: Wenn die Metrik „Übermittelte Bugs“ über mehrere Wochen ansteigt, soll Adobe Analytics dies als positiv oder negativ interpretieren? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich positiv. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität angewendet auf: bedingte Formatierung der Freiformtabelle, Visualisierungen von Änderungen an der Zusammenfassung und das positive/negative Farbschema der Kartenvisualisierung. |
 | Beschreibung | Eine kurze Beschreibung des Ereignisziels und dessen Nutzung. |
 | Eindeutige Ereignisaufzeichnung | **Einmal pro Besuch** aufzeichnen: Verbindet das angegebene Ereignis mit der Sitzung des Besuchers. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich.<br>**Ereignis-ID **verwenden: Verbindet das angegebene Ereignis mit einer benutzerdefinierten ID. Nachfolgende Zählungen für ein bestimmtes Ereignis mit derselben Ereignis-ID werden ignoriert. Für diese Art der Ereignis-Serialisierung ist eine benutzerdefinierte ID in Treffern erforderlich, um Werte zu deduplizieren. See[Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md)in the Implement user guide. |
-| Beitrag | Siehe [Beitragsmetriken](/help/components/c-variables/c-metrics/metrics-participation.md). |
+| Beitrag | Ermöglicht die vollständige Zuordnung zu allen Dimensionswerten des Besuchs. |
 | Warnung (Währungsereignis) | Wenn Sie den Ereignistyp ändern, also von einem Währungsereignis zu einem anderen Ereignistyp wechseln oder umgekehrt, wird eine Meldung angezeigt, dass die historischen Daten nicht für die Berichterstellung verfügbar sind.  Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Alle Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht mehr verfügbar. Gehen Sie beim Ändern des Ereignistyps mit Vorsicht vor. |
 
