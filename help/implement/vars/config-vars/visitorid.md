@@ -2,7 +2,10 @@
 title: visitorID
 description: Verwenden Sie eine benutzerdefinierte Besucher-ID.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -33,3 +36,5 @@ Die `s.visitorID`-Variable ist eine Zeichenfolge, die eine benutzerdefinierte ei
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] Eine ungültige Implementierung von benutzerdefinierten Besucher-IDs kann zu fehlerhaften Daten und zu einer schlechten Leistung des Berichte führen. Wenn diese Variable einen Standardwert enthält (z. B. `"0"` oder `"NULL"`), behandelt Adobe diese Treffer so, als wären sie der gleiche Besucher. Dies führt zu fehlerhaften Daten, da niedrige Besucher und Segmente auf Besucher-Ebene nicht erwartungsgemäß funktionieren. Falsch implementierte benutzerdefinierte Besucher-IDs führen auch zu einer hohen Belastung der Verarbeitungsserver, was die [Latenz](/help/technotes/latency.md) erhöht und die Berichtleistung verringert.
