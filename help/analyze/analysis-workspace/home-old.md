@@ -3,7 +3,10 @@ description: So sehen Ihre ersten Schritte mit Adobe Analytics aus.
 keywords: Analysis Workspace
 title: Handbuch „Erste Schritte“
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +29,9 @@ Rufen Sie einen einfachen Rangbericht mithilfe von Analysis Workspace ab. Ein Ra
 4. Klicken Sie auf die Schaltfläche „Neues Projekt erstellen“.
 5. Stellen Sie im modalen Popup sicher, dass „Leeres Projekt“ ausgewählt ist, und klicken Sie dann auf „Erstellen“.
 6. Links sehen Sie eine Liste mit Dimensionen, Metriken, Segmenten und Datumsbereichen. Suchen Sie die Dimension „Seiten“ (orange) und ziehen Sie sie auf die Arbeitsfläche mit der Angabe „Dimension hier ablegen“.
-7. Beachten Sie, dass ein Bericht mit den wichtigsten Seiten für diesen Monat angezeigt werden kann, wenn die Report Suite über Daten verfügt. Analysis Workspace füllt den Bericht automatisch mit der Metrik [Vorfälle](/help/components/c-variables/c-metrics/metrics-occurrences.md).
+7. Beachten Sie, dass ein Bericht mit den wichtigsten Seiten für diesen Monat angezeigt werden kann, wenn die Report Suite über Daten verfügt. Analysis Workspace füllt den Bericht automatisch mit der Metrik [Vorfälle](/help/components/metrics/occurrences.md).
 8. Suchen Sie die Metrik „Besuche“ (grün) und ziehen Sie sie entweder **über** oder **neben** die Kopfzeile der Metrik „Vorfälle“ (vermeiden Sie, sie über der Metrik zu platzieren). Wenn Sie die Metrik „Besuche“ über Vorfälle ziehen, wird die Metrik in den Berichten ersetzt. Wenn Sie die Metrik „Besuche“ neben „Vorfälle“ ziehen, werden beide Metriken nebeneinander angezeigt.
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. Wenn Sie Ihr Projekt speichern möchten, klicken Sie im Menü oben links auf *[!UICONTROL Projekt] > [!UICONTROL Speichern]*.
 
 ## Abrufen eines einfachen Trend-Berichts in Workspace
 
@@ -44,13 +47,13 @@ Rufen Sie einen einfachen Trend-Bericht mit Analysis Workspace ab. Ein Trend-Ber
 8. Suchen Sie links in der Liste der Datumsbereichskomponenten den Datumsbereich „Woche“ (violett). Klicken Sie auf den Titel des Datumsbereichs, um alle Komponenten des Datumsbereichs zu erweitern und anzuzeigen, oder verwenden Sie die Suchleiste.
 9. Ziehen Sie den Datumsbereich „Woche“ auf die Kopfzeile des Datumsbereichs „Tag“ auf der Arbeitsfläche, um ihn zu ersetzen.
 10. Beachten Sie, dass Ihr Trend-Bericht jetzt nach Woche statt nach Tag aggregiert wird.
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. Wenn Sie Ihr Projekt speichern möchten, klicken Sie im Menü oben links auf *[!UICONTROL Projekt] > [!UICONTROL Speichern]*.
 
 ## Mit dem Werkzeug experimentieren
 
 Da Analysis Workspace ein Berichtswerkzeug ist, hat dies keine Auswirkungen auf die Datenerfassung. Komponenten wahllos in ein Projekt zu ziehen, um zu sehen, was funktioniert, hat keine weiteren Folgen. Ziehen Sie verschiedene Kombinationen von Dimensionen und Metriken in Ihr Workspace-Projekt, um zu sehen, welche Möglichkeiten Sie haben.
 
-Wenn Sie versehentlich eine ungültige Komponente in Ihr Workspace-Projekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg+Z (Windows) oder Befehl+Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+Wenn Sie versehentlich eine ungültige Komponente in Ihr Workspace-Projekt ziehen oder einen Schritt zurückgehen möchten, drücken Sie Strg+Z (Windows) oder Befehl+Z (Mac), um die letzte durchgeführte Aktion rückgängig zu machen. Sie können auch mit einem leeren Workspace beginnen, indem Sie im Menü oben links auf *[!UICONTROL Projekt] > [!UICONTROL Neu]* klicken.
 
 ## Fehlerbehebung
 
@@ -71,7 +74,7 @@ Wenn Sie erfolgreich einen Workspace-Bericht erstellen, aber keine Daten vorhand
 
 * [Versionshinweise zu Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): Lesen Sie die neuesten Funktionen, die in das Tool eingeführt wurden.
 * [Analysis Workspace auf YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): In dieser umfangreichen Playlist erfahren Sie, wie Sie die meisten Funktionen in Analysis Workspace verwenden.
-* Produktinterne Tipps: Tipps zum aktuellen Tag sowie kurze Videos werden gelegentlich in der unteren rechten Ecke von Analysis Workspace angezeigt. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* Produktinterne Tipps: Tipps zum aktuellen Tag sowie kurze Videos werden gelegentlich in der unteren rechten Ecke von Analysis Workspace angezeigt. Wenn diese Tipps nicht mehr angezeigt werden, können sie jederzeit über *[!UICONTROL Hilfe] > [!UICONTROL Tipps]* aufgerufen werden.
 * [Analysis Workspace-Community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): Diskutieren Sie mit anderen Benutzern über Analysis Workspace und wählen Sie die Funktionen, die Sie im Tool sehen möchten.
 * Blog-Beiträge:
    * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) (Englisch)
