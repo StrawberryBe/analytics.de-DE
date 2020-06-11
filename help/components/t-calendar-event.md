@@ -4,7 +4,7 @@ title: Kalenderereignisse
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -33,13 +33,12 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
    1. Klicken Sie auf **[!UICONTROL An Benutzer senden]**.
    1. Klicken Sie auf **[!UICONTROL Alle auswählen]** oder aktivieren Sie das Kästchen neben dem/den Benutzernamen.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
    Damit lassen sich Kalenderereignisse wesentlich umfassender verwenden. Analysten können nun Overlays für Benutzerberichte erzwingen und so mehr Kontext bereitstellen.
 1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Kalenderereignisse]**.
 1. Geben Sie unter **[!UICONTROL Gemeinsame Kalenderereignisse]** eine der folgenden Optionen an.
 
-       | **Copy Me** | fügt Ihrer Ereignisliste eine Kopie hinzu und verwendet dabei den gleichen Namen wie das Original. Sie können allerdings keine vom Eigentümer des Ereignisses vorgenommenen Aktualisierungen/Änderungen sehen. |
-       |---|---|
-       | **On Report** | Damit können Sie vom Ereigniseigentümer vorgenommene Änderungen/Aktualisierungen anzeigen. |
-       | **Unshare** | Entfernt dieses Ereignis aus Ihrer Liste mit freigegebenen Ereignissen. |
-   
+   | **Kopier mich** | fügt Ihrer Ereignisliste eine Kopie hinzu und verwendet dabei den gleichen Namen wie das Original. Sie können allerdings keine vom Eigentümer des Ereignisses vorgenommenen Aktualisierungen/Änderungen sehen. |
+   |---|---|
+   | **Über Bericht** | Damit können Sie vom Ereigniseigentümer vorgenommene Änderungen/Aktualisierungen anzeigen. |
+   | **Freigabe aufheben** | Entfernt dieses Ereignis aus Ihrer Liste mit freigegebenen Ereignissen. |
+
