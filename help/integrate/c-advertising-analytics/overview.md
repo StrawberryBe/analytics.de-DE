@@ -2,7 +2,7 @@
 description: 'null'
 title: Advertising Analytics-Übersicht
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -25,12 +25,12 @@ Diese Integration zielt auf folgende Zielgruppen ab:
 
 ## Voraussetzungen {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
-* Advertising Analytics steht nur für die Adobe Analytics-SKUs [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) und [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) zur Verfügung.
+* Advertising Analytics steht nur für die Adobe Analytics-SKUs [Select](https://www.adobe.com/de/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html) und [Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html) zur Verfügung.
 
 * Diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung.
 * Sie müssen Adobe Analytics-Administrator sein, um auf Advertising Analytics zugreifen zu können. Daraufhin können Sie auch Nicht-Administratoren [Zugriffsberechtigungen erteilen](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 * Sämtliche Analytics Report Suites, in denen Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen [Ihrer Experience Cloud-Organisation zugeordnet](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html) sein.
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
+* Für jede Report Suite, in der Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen Sie [die betreffenden Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Sie benötigen die Anmeldedaten eines Benutzers mit Bearbeitungsberechtigungen für die Suchkonten, die Sie in Adobe Analytics integrieren möchten wie z. B. Google-Konto-ID und -Passwort.
 * Bei Bing Ads benötigen Sie darüber hinaus die Bing-Kunden-ID.
