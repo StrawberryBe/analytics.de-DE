@@ -3,7 +3,7 @@ description: Die serverseitige Weiterleitung ist für Kunden bestimmt, die Daten
 solution: Audience Manager
 title: Übersicht über die serverseitige Weiterleitung
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -30,12 +30,12 @@ Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Imple
 
 ## ![Grafik step1_icon.png](assets/step1_icon.png) ECID-Dienstimplementierung überprüfen
 
-Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Dienst implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html) prüfen.
+Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Dienst implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/test-verify.html) prüfen.
 
 Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festgelegt wurde. Dies gibt darüber Auskunft, dass der Identity Service korrekt implementiert wurde. Dies ist eine Voraussetzung für die serverseitige Weiterleitung.
 
 * Wenn ein ECID-Wert angezeigt wird, fahren Sie mit Schritt 2 fort.
-* Wenn kein ECID-Wert angezeigt wird, [implementieren Sie den Identity Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html), bevor Sie den Vorgang bei Schritt 2 fortsetzen.
+* Wenn kein ECID-Wert angezeigt wird, [implementieren Sie den Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/implementation-guides.html), bevor Sie den Vorgang bei Schritt 2 fortsetzen.
 
 ## ![Grafik step2_icon.png](assets/step2_icon.png) Implementierungsversion der serverseitigen Weiterleitung überprüfen
 
@@ -49,9 +49,9 @@ Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festg
 
    * **AAM-Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
 
-      1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Entfernen Sie den DIL-Code, und installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Aktivieren Sie die serverseitige Weiterleitung auf der Analytics Admin-Benutzeroberfläche, wie unter Schritt 3 beschrieben. Durch die Aktivierung dieser Einstellung vor dem Entfernen des DIL-Codes werden die Daten dupliziert, und es werden zusätzliche abgerechnete Serveraufrufe für Audience Manager erstellt.
-   * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
+   * **Neue AAM-Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html), und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die serverseitige Weiterleitung in Schritt 3 aktiviert wurde.
 
 
 ## ![Grafik step3_icon.png](assets/step3_icon.png) Implementierung der serverseitigen Weiterleitung der Report Suite überprüfen
