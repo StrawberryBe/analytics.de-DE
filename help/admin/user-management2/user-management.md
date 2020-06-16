@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Verwalten von Benutzern und Produkten
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -16,7 +16,7 @@ Verwalten Sie Analytics-Benutzer, -Gruppen und -Produkte in der Admin Console.
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 ## Hilfematerialien für Admin Console-Administratoren {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -41,7 +41,7 @@ Verwalten Sie Analytics-Benutzer, -Gruppen und -Produkte in der Admin Console.
 
 ## Beschreibungen zur Benutzerverwaltung {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-In der folgenden Tabelle werden die Elemente auf der [!UICONTROL Users] Registerkarte in beschrieben [!UICONTROL User Management].
+In der folgenden Tabelle sind die Elemente auf der Registerkarte [!UICONTROL Benutzer] in [!UICONTROL Benutzerverwaltung] beschrieben.
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
