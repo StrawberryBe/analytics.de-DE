@@ -2,7 +2,7 @@
 description: 'null'
 title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -41,8 +41,8 @@ Um diese Art der Berichterstellung zu konfigurieren, weisen Sie die neue Kontext
 1. Weisen Sie die Kontextvariable über Verarbeitungsregeln der Eigenschaft hinzu.
 
    1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Wählen Sie dann eine Report Suite aus.
-   1. Klicken Sie auf **[!UICONTROL Report Suite bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]** .
-   1. Klicken Sie auf **[!UICONTROL Regel hinzufügen.]**
+   1. Klicken Sie auf **[!UICONTROL Report Suite bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
+   1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
    1. Überschreiben Sie unter **[!UICONTROL Immer ausführen]** den Wert der über die Kontextvariable „cm.ssf(Context Data)“ aktivierten Kontextvariable.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
