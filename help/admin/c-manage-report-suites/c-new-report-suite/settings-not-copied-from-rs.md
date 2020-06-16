@@ -3,7 +3,7 @@ description: Wenn Sie Einstellungen aus einer vorhandenen Report Suite kopiert h
 title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Classification-Daten (Classification-Struktur wird kopiert) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Dokumentation zu Classifications Importer (Hochladen)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Transaktions-ID-Aufzeichnung aktivieren </p> </td> 
@@ -62,13 +62,13 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
    <td colname="col2"> 
     <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
      <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span>. Wählen Sie dann eine Report Suite aus. </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">Klicken Sie auf <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Erfolgsereignisse</span> </li> 
+     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">Klicken Sie auf <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Erfolgsereignisse</span>. </li> 
      <li id="li_F224713229D74D9BB5BEEE30BF2C7343">Aktivieren Sie das Kontrollkästchen und wählen Sie die Einstellung unter <span class="uicontrol">Eindeutige Ereignisaufzeichnung</span> aus. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ClickMap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade auf Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade auf Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA-Regeln </p> </td> 
