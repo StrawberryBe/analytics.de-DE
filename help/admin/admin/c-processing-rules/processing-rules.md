@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -33,8 +33,8 @@ Nun sind Administratoren **standardmäßig** dazu berechtigt, Verarbeitungsregel
 
 1. Wenn nicht bereits geschehen, [erstellen Sie eine Gruppe](/help/admin/user-management2/c-user-groups/groups.md), die nur die Benutzer ohne Administratorstatus enthält, die zur Verwendung der Verarbeitungsregeln autorisiert sein sollen.
 1. [Fügen Sie dieser Gruppe Benutzer ohne Administratorstatus hinzu](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Gehen Sie dann zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
-1. Markieren Sie das Kontrollkästchen neben [!UICONTROL Processing Rules] und klicken Sie auf **[!UICONTROL OK]**.
+1. Navigieren Sie dann zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL `group name`]** > **[!UICONTROL Bearbeiten]** > **[!UICONTROL Zugriff auf Berichte]** > **[!UICONTROL Report Suite-Tools]** > **[!UICONTROL Benutzerspezifisch]** > **[!UICONTROL Report Suite-Verwaltung]**.
+1. Aktivieren Sie das Kontrollkästchen neben [!UICONTROL Verarbeitungsregeln] und klicken Sie auf **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ Kontextdatenvariablen sind ein neuartiger Variablentyp, der nur für Verarbeitun
 
 ![](assets/evar-context-map.png)
 
-Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) in der Implementierungshilfe.
+Weitere Informationen finden Sie unter [Kontextdatenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/contextdata.html) in der Implementierungshilfe.
 
 ## Verwenden von Verarbeitungsregeln zum Korrigieren von Daten und zum Auslösen von Ereignissen {#section_8284E72E999244E091CD7FB1A22342B6}
 
