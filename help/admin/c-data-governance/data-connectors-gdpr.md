@@ -2,7 +2,7 @@
 description: Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
 title: Datenschutz und Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -40,7 +40,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   <tr> 
    <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
-   <td colname="col4"> <p>eVar  </p> </td> 
+   <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
@@ -60,7 +60,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   <tr> 
    <td colname="col1"> <p><b>Delivra</b> </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
-   <td colname="col4"> <p>eVar  </p> </td> 
+   <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Dialog Tech</b> </p> </td> 
@@ -89,7 +89,7 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   <tr> 
    <td colname="col1"> <p><b>Emarsys Xpress</b> </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
-   <td colname="col4"> <p>eVar  </p> </td> 
+   <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
@@ -121,13 +121,13 @@ Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Foresee-Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Listrak</b> </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
-   <td colname="col4"> <p>eVar  </p> </td> 
+   <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Lyris HQ</b> </p> </td> 
