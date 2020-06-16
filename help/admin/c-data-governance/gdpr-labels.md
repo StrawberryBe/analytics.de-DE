@@ -2,7 +2,7 @@
 description: 'null'
 title: Datenschutzbezeichnungen für Analytics-Variablen
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -20,11 +20,11 @@ Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern h
 
 Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftungen für Identitätsdaten, vertrauliche Daten und Data Governance.
 
-## DULE-Beschriftungen  {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE-Beschriftungen {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE] Das DULE-Framework (Data Usage Labeling &amp; Enforcement) wurde entwickelt, um über alle Lösungen, Services und Plattformen von Adobe hinweg eine einheitliche Methode zur Erfassung, Kommunikation und Verwendung von Metadaten zu Daten in Adobe Experience Cloud bereitzustellen. Über die Metadaten können Datenverantwortliche angeben, bei welchen Daten es sich um personenbezogene Informationen handelt, welche Daten vertraulich sind und welche vertraglichen Beschränkungen für die Daten gelten. In dieser ersten Version zeigt Analytics nur die DULE-Beschriftungen, die für den Datenschutz relevant sind. Im Zuge der Implementierung der Unterstützung von DULE-Beschriftungen in anderen Adobe-Produkten werden in künftigen Versionen zusätzliche Beschriftungen für vertrauliche Daten sowie vertragliche Beschriftungen eingeführt, die helfen, sicherzustellen, dass die zwischen Produkten freigegebenen Daten nur so verwendet werden, wie es das Gesetz vorschreibt.
 
-## Beschriftungen für Identitätsdaten (DULE)  {#identity-data-labels}
+## Beschriftungen für Identitätsdaten (DULE) {#identity-data-labels}
 
 Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann.
 
@@ -58,7 +58,7 @@ Die Beschriftungen für Identitätsdaten („I“) werden verwendet, um Daten zu
  </tbody> 
 </table>
 
-## Beschriftungen für vertrauliche Daten (DULE)  {#sensitive-data-labels}
+## Beschriftungen für vertrauliche Daten (DULE) {#sensitive-data-labels}
 
 Die Beschriftungen für vertrauliche Daten („S“) werden verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenbeschriftungen eingeführt, um andere Arten vertraulicher Informationen zu identifizieren.
 
@@ -200,7 +200,7 @@ Obwohl nur wenige Variablen andere Beschriftungen erhalten werden, ist davon aus
  </tbody> 
 </table>
 
-## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren.
 
@@ -208,8 +208,8 @@ Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum 
 
 Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmeldeunternehmen eine ID-Beschriftung zugewiesen haben, können Sie einen dieser vorhandenen Namespaces auswählen. Sie sollten den Namespace wiederverwenden, wenn diese Variable denselben ID-Typ enthält wie andere Variablen, die bereits mit diesem Namespace beschriftet sind, und Sie beim Senden einer Anfrage alle Variablen durchsuchen wollen.
 
-1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und wählen Sie einen der vorhandenen Namespaces aus.
-1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
+1. Klicken Sie auf **[!UICONTROL Select Namespace]** und wählen Sie einen der vorhandenen Namespaces aus.
+1. Klicken Sie auf **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +217,12 @@ Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmel
 
 Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-Zeichenfolgen auf alphanumerische Zeichen sowie Unterstriche, Bindestriche und Leerzeichen zu beschränken. Alle Zeichen werden in Kleinschreibung konvertiert.
 
-1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und geben Sie den Namespace-Titel ein.
+1. Klicken Sie auf **[!UICONTROL Select Namespace]** und geben Sie den Namespace-Titel ein.
 
    ![](assets/namespace2.png)
 
-1. Drücken Sie die **[!UICONTROL Eingabetaste]**, um diesen Namespace hinzuzufügen. Erst jetzt ist die Schaltfläche „Übernehmen“ aktiviert.
-1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
+1. Drücken Sie auf **[!UICONTROL Enter]**, um diesen Namespace hinzuzufügen. Erst jetzt ist die Schaltfläche „Übernehmen“ aktiviert.
+1. Klicken Sie auf **[!UICONTROL Apply]**.
 
 Die von Ihnen als Namespace angegebene Zeichenfolge ist dieselbe Zeichenfolge, die Sie beim Senden von Anfragen über die Datenschutz-API als Wert des Parameters „namespace“ verwenden sollten. Aufgrund der Anfrage durchsucht Adobe Analytics anschließend alle Variablen in allen Report Suites, in denen dieser Namespace verwendet wird, nach der ID, die Sie in der Anfrage angegeben haben.
 
@@ -288,7 +288,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
  </tbody> 
 </table>
 
-## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen werden können/geändert  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variablen, denen andere Beschriftungen als ACC-ALL/ACC-PERSON zugewiesen werden können/geändert {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -351,7 +351,7 @@ Datenschutz-/DULE-Beschriftungen wirken sich auf vier Klassen von Analytics-Vari
  </tbody> 
 </table>
 
-## Löschverarbeitung  {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Löschverarbeitung {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Die Adobe Analytics-Unterstützung für Datenschutz-Löschanfragen soll die Auswirkungen auf das Reporting minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein Verlaufsbericht, der vor der Datenschutzlöschung ausgeführt wurde, stimmt mit dem Bericht nach der Löschung überein. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die angezeigten Werte gleich bleiben.
 
@@ -439,7 +439,7 @@ Diese Abschnitt enthält Informationen zu Analytics-Variablen, die die Löschung
  </tbody> 
 </table>
 
-## Datumsfelder für Zugriffsanfragen  {#section_6678FB4FF42B481C9B78E64F61782397}
+## Datumsfelder für Zugriffsanfragen {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
