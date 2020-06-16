@@ -2,7 +2,7 @@
 description: 'null'
 title: Best Practices für Beschriftungen
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -28,7 +28,7 @@ Selbst wenn Ihr Unternehmen innerhalb Ihrer Analytics-Daten viele verschiedene I
 * Manche IDs gelten für mehrere Personen und Sie können nicht riskieren, Informationen zu anderen Personen mit derselben ID zurückzugeben. Selbst wenn Sie beispielsweise validieren können, dass der Name der Person Max Müller lautet, können Sie nicht alle Daten über alle Max Müllers in Ihrem System zurückgeben.
 * Ein weiteres Beispiel ist die Geräte-ID, wie z. B. die Analytics-Cookie-ID. Wenn die ID in einer App auftritt, gehen Sie vielleicht davon aus, dass alle Interaktionen unter Verwendung dieser ID dem Besitzer des entsprechenden Mobilgeräts zur Verfügung stehen sollten. Wenn diese ID jedoch auf einem gemeinsam genutzten Gerät verwendet wird, wie z. B. einem PC oder Computer in einer Bibliothek oder einem Internetcafé, können Sie nicht zwischen den verschiedenen Benutzern dieses Geräts unterscheiden. Deshalb ist das Risiko, Daten anderer Benutzer zurückzugeben, möglicherweise zu hoch, um diesen ID-Typ zu verwenden.
 
-## Best Practices für Analytics-unterstützte IDs  {#section_B6481505FF1949498D4B4B35B780D050}
+## Best Practices für Analytics-unterstützte IDs {#section_B6481505FF1949498D4B4B35B780D050}
 
 Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Datenschutzanfragen an Analytics senden. Sobald Sie diese Informationen kennen, können Sie die anderen Beschriftungen, die Sie für Ihre Variablen verwenden sollten, leichter bestimmen.
 
@@ -43,7 +43,7 @@ Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Da
   <tr> 
    <td colname="col1"> <p>Cookie-IDs </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html">Analytics-Cookie (Legacy)</a> </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-privacy.html">Analytics-Cookie (Legacy)</a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://docs.adobe.com/content/help/de-DE/id-service/using/home.html">Identity Service Cookie</a> (ECID), zuvor als Marketing Cloud ID (MCID) bezeichnet </li> 
     </ul> </td> 
    <td colname="col2"> <p>Diese Cookies identifizieren ein Gerät oder genauer gesagt einen Browser für einen Benutzer eines Geräts. Auf einem gemeinsam genutzten Gerät, auf dem ein allgemeiner Login verwendet wird, kann diese ID für mehrere/alle Benutzer des Geräts gelten. Adobe hat <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm"> einheitlichen JavaScript-Code</a> entwickelt, den Sie in Ihre Website einfügen können, um diese Cookies zu erfassen, sofern Sie sie für Datenschutzanfragen zulassen möchten. </p> <p>Benutzer des mobilen Adobe Analytics-SDK verfügen auch über eine Experience Cloud ID (ECID). Im SDK sind API-Aufrufe enthalten, die diese ID auslesen. So können Sie Ihre App so erweitern, dass sie die ID für Datenschutzanfragen erfasst. </p> <p>Viele Unternehmen behandeln Browsercookie-IDs wie IDs gemeinsam genutzter Geräte. Dementsprechend unterstützen sie in Absprache mit ihren Rechtsabteilungen diese IDs möglicherweise nicht als zulässige IDs für Datenschutzanfragen, geben nur begrenzte Daten zurück, wenn diese IDs verwendet werden, oder akzeptieren sie nur für Löschanfragen. </p> <p>Diese Cookies verfügen über eine ID-DEVICE-Beschriftung, die nicht geändert werden kann (sowie die Beschriftungen „I2“ und „DEL-DEVICE“). Die standardmäßige Adobe Analytics-Konfiguration gibt nur allgemeine Informationen zum Gerät, wie z. B. Gerätetyp, Betriebssystem, Browser usw., sowie Uhrzeit und Datum des Besuchs unter Verwendung dieser IDs zurück. Wenn Sie diese IDs jedoch wie unten erläutert für Datenschutzanfragen unterstützen möchten, können Sie ACC-ALL-Beschriftungen hinzufügen oder entfernen, um genau die Felder zu konfigurieren, die bei einer Datenschutz-Zugriffsanfrage zurückgegeben werden sollen. </p> <p>Insbesondere wenn die Report Suite zu einer Mobile App gehört und Ihre Mobile App eine Anmeldung erfordert, gehen Sie möglicherweise davon aus, dass die Experience Cloud ID für das Gerät mit einem bestimmten Benutzer verknüpft ist, und versehen deshalb mehr Felder mit der ACC-ALL-Beschriftung, einschließlich der Namen der besuchten Seiten, aufgerufener Produkte usw. </p> <p>Hinweis: Wenn Sie die Option „expandIds“ in Ihrer Datenschutzanfrage angeben, enthalten Ihre Anfragen zusätzlich zu den anderen von Ihnen angegebenen IDs immer Cookie-IDs. Weitere Informationen finden Sie unter <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID-Erweiterung</a>. In diesen Instanzen geben Treffer, die außer einer Cookie-ID keine weiteren IDs aufweisen, im Rahmen der Zugriffsanfragen nur mit ACC-ALL beschriftete Daten zurück. </p> </td> 
@@ -82,7 +82,7 @@ Die Löschbeschriftungen DEL-DEVICE und DEL-PERSON sollten sparsam eingesetzt we
 
    Wenn beispielsweise drei Treffer den Wert „foo“ in eVar7 enthalten, jedoch nur einer davon auch eine ID in einer anderen Variable beinhaltet, die einem Löschvorgang zugeordnet ist, wird der Wert „foo“ für diesen Treffer zu einem Wert wie „Datenschutz-123456789“ geändert, während er für die anderen beiden Treffer unverändert bleibt. In einem Bericht, der Aufschluss über die Anzahl eindeutiger Werte für eVar7 gibt, werden nun mehr eindeutige Werte angezeigt als zuvor. In einem Bericht mit den Höchstwerten für eVars ist „foo“ möglicherweise nur mit zwei Instanzen enthalten (anstatt zuvor mit 3), und der neue Wert wird ebenfalls mit einer einzelnen Instanz angezeigt.
 
-## Best Practices für Zugriffsbeschriftungen  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Best Practices für Zugriffsbeschriftungen {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Zwar verfügen nur wenige Felder über einige der anderen Beschriftungen, jedoch wird es häufig vorkommen, dass viele Felder ACC-Beschriftungen aufweisen. Die passenden Zugriffsbeschriftungen hängen von den IDs ab, die Sie für Datenschutzanfragen verwenden.
 
