@@ -2,7 +2,7 @@
 description: 'null'
 title: Zugriffs- und Löschanfragen einreichen
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -17,11 +17,11 @@ Wenn Ihre Kunden (Verbraucher/Datensubjekte) wissen möchten, welche Daten Sie �
 
 Sie sollten in Erwägung ziehen, Ihren Apps und Websites Hinweise hinzuzufügen, über die Sie betroffene Personen über ihre Rechte zu direkt oder indirekt identifizierbaren sowie über andere von Ihnen erfasste Daten informieren.
 
-## Kundeneinwilligung verwalten  {#section_3012015E7E8942519FB9279CF7057EAB}
+## Kundeneinwilligung verwalten {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus zu implementieren](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html). Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
+Als Datenverantwortlicher sind Sie dafür zuständig, die ausdrückliche Einwilligung von Ihren Datensubjekten einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Abmeldemechanismus zu implementieren](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/opt-in.html). Über einen solchen Mechanismus können Datensubjekte zu einem späteren Zeitpunkt der Datenerfassung durch Adobe Experience Cloud widersprechen.
 
-## Benutzer und ihre Daten validieren  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Benutzer und ihre Daten validieren {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 Sie als Datenverantwortlicher müssen sicherstellen, dass das Datensubjekt die Person ist, für die sie sich ausgibt, und zum Zugriff auf die angeforderten Daten berechtigt ist. Darüber hinaus müssen Sie sicherstellen, dass dem Datensubjekt die richtigen Daten bereitgestellt werden und dass es nicht unumkehrbar Daten zu anderen Datensubjekten erhält.
 
@@ -29,13 +29,13 @@ Hierzu müssen Sie auch die im Rahmen der Datenschutz-Zugriffsanfrage von Adobe 
 
 Jede Datei kombiniert Daten von all Ihren Report Suites und entfernt automatisch zusätzliche Kopien replizierter Hits. Sie können entscheiden, welche dieser Dateien Sie an die betroffene Person zurückgeben. Sie können auch Daten extrahieren oder mit Daten aus anderen Systemen kombinieren, bevor Sie sie an das Datensubjekt zurücksenden.
 
-## Anfragen einreichen  {#submit-requests}
+## Anfragen einreichen {#submit-requests}
 
-Sie können Datenschutz-Zugriffs- und -Löschanfragen über unser [Datenschutz-UI-Portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) oder unsere [Datenschutz-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) senden.
+Sie können Datenschutz-Zugriffs- und -Löschanfragen über unser [Datenschutz-UI-Portal](https://docs.adobe.com/content/help/de-DE/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) oder unsere [Datenschutz-API](https://www.adobe.io/apis/experienceplatform/gdpr.html) senden.
 
 >[!NOTE] Die Datenschutz-API unterstützt die Batch-Einsendung für mehrere Benutzer in einer einzelnen Anfrage. Die Unterstützungsgrenze liegt momentan bei 1000 separaten Benutzern (pro Benutzer können mehrere IDs vorliegen) in einer einzelnen JSON-Anfragedatei.
 
-## JSON-Beispielanfrage  {#sample-json-request}
+## JSON-Beispielanfrage {#sample-json-request}
 
 Hier sehen Sie den JSON-Abschnitt, der über die Datenschutz-API oder -UI eingereicht werden kann und mit dem die Datenschutzverarbeitung für drei Benutzer angefragt wird.
 
@@ -110,7 +110,7 @@ Bedenken Sie Folgendes
 * Die Felder „description“ werden ignoriert.
 * Die Felder „key“ können beliebige Werte enthalten. Wenn Sie über eine interne ID zum Verfolgen von Datenschutzanfragen verfügen, können Sie hier den Wert ablegen, um die Zuordnung von Anfragen im Adobe-System zu denen in Ihren eigenen Systemen zu vereinfachen.
 
-## Reaktionsdetails  {#section_93F554F65DBB48A18B75EB5784056C96}
+## Reaktionsdetails {#section_93F554F65DBB48A18B75EB5784056C96}
 
 Diese Abschnitte enthalten Reaktionsdetails zum Zugriff und zum Löschen.
 
