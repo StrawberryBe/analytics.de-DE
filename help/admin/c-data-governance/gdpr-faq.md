@@ -2,7 +2,7 @@
 description: 'null'
 title: Häufig gestellte Fragen
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Wie unterstützt Adobe Analytics Zugriffs- und Löschanfragen für Endbenutzer (Datensubjekte), die von Kunden (Datenverantwortlichen) validiert wurden?</b> </p> </td> 
-   <td colname="col2"> <p>Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics das Verarbeiten von verifizierten Anfragen, die von Datenverantwortlichen an die Datenschutz-API der Experience Cloud gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe ist dafür konzipiert, die Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden zu unterstützen, die in den Adobe Experience Cloud-Lösungen gespeichert sind. Sie ist flexibel und wird entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert, die Ihr Unternehmen von Datensubjekten erhält. Zudem ermöglicht die Datenschutz-API dem Kunden die Statusüberprüfung dahingehend, inwiefern die Datenzugriffs- und Löschanfragen erfüllt werden. </p> <p>Weitere Informationen finden Sie in der <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html">Data Privacy API-Dokumentation. </a> </p> </td> 
+   <td colname="col2"> <p>Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics das Verarbeiten von verifizierten Anfragen, die von Datenverantwortlichen an die Datenschutz-API der Experience Cloud gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe ist dafür konzipiert, die Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden zu unterstützen, die in den Adobe Experience Cloud-Lösungen gespeichert sind. Sie ist flexibel und wird entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert, die Ihr Unternehmen von Datensubjekten erhält. Zudem ermöglicht die Datenschutz-API dem Kunden die Statusüberprüfung dahingehend, inwiefern die Datenzugriffs- und Löschanfragen erfüllt werden. </p> <p>Weitere Informationen finden Sie in der <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> Data Privacy API-Dokumentation. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wer ist für das Empfangen, Akzeptieren und Erfüllen von Datenschutz-Anfragen von Endbenutzern zuständig?</b> </p> </td> 
@@ -50,7 +50,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Was sollten die Datenverantwortlichen bei der Datenaufbewahrung bezüglich des Datenschutzes beachten?</b> </p> </td> 
-   <td colname="col2"> <p>Datenschutz sieht generell vor, dass persönliche Daten nicht länger als nötig aufbewahrt werden, um den Zweck zu erfüllen, für den sie erfasst wurden. </p> <p>Wie Adobe in der Kundenkommunikation im Februar detailliert mitgeteilt hat, werden wir für die meisten Kunden einen 25-monatigen Datenaufbewahrungsplan anwenden, sofern keine anderen Vereinbarungen getroffen wurden (gemäß Kundenbenachrichtigung und -autorisierung). Kunden müssen ihre Datenspeicherungsrichtlinien festlegen, bevor Adobe Datenschutzanfragen bearbeiten kann. </p> <p>Adobe Analytics fordert von den Kunden die Festlegung der Datenaufbewahrung für die Verarbeitung ihrer Datenschutzanfragen. Die aktuelle Datenhaltungsrichtlinie jeder Berichtssuite wird in der neuen Data Governance Admin-Benutzeroberfläche angezeigt. Kunden sollten sich an ihren Adobe-Support-Mitarbeiter wenden, wenn sie ihre Richtlinien zur Datenaufbewahrung anpassen möchten. Lesen Sie die Informationen unter <a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html">Häufig gestellte Fragen zur Datenaufbewahrung in Adobe Analytics. </a> </p> </td> 
+   <td colname="col2"> <p>Datenschutz sieht generell vor, dass persönliche Daten nicht länger als nötig aufbewahrt werden, um den Zweck zu erfüllen, für den sie erfasst wurden. </p> <p>Wie Adobe in der Kundenkommunikation im Februar detailliert mitgeteilt hat, werden wir für die meisten Kunden einen 25-monatigen Datenaufbewahrungsplan anwenden, sofern keine anderen Vereinbarungen getroffen wurden (gemäß Kundenbenachrichtigung und -autorisierung). Kunden müssen ihre Datenspeicherungsrichtlinien festlegen, bevor Adobe Datenschutzanfragen bearbeiten kann. </p> <p>Adobe Analytics fordert von den Kunden die Festlegung der Datenaufbewahrung für die Verarbeitung ihrer Datenschutzanfragen. Die aktuelle Datenhaltungsrichtlinie jeder Berichtssuite wird in der neuen Data Governance Admin-Benutzeroberfläche angezeigt. Kunden sollten sich an ihren Adobe-Support-Mitarbeiter wenden, wenn sie ihre Richtlinien zur Datenaufbewahrung anpassen möchten. Lesen Sie die Informationen unter <a href="https://docs.adobe.com/content/help/de-DE/analytics/technotes/latency.html">Häufig gestellte Fragen zur Datenaufbewahrung in Adobe Analytics. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Kann ein Kunde die Standardzeitspanne für die Datenaufbewahrung reduzieren oder verlängern?</b> </p> </td> 
