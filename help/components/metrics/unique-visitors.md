@@ -2,7 +2,7 @@
 title: Individuelle Besucher
 description: Die Anzahl der Einzelpersonen (oder Geräte).
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -18,9 +18,9 @@ Wenn Sie [geräteübergreifende Analysen](../cda/cda-home.md)verwenden, wird die
 
 ## Individuelle Besucher pro Tag, Woche, Monat, Quartal und Jahr
 
-Reports &amp; Analysen bietet Optionen für individuelle Besucher pro Tag, Woche, Monat, Quartal und Jahr. Statt einen einzelnen eindeutigen Besucher für den gesamten Zeitraum zu zählen, werden individuelle Besucher auf der Grundlage der ausgewählten Metrik gezählt. Beispielsweise möchten Sie sich individuelle Besucher pro Tag für Ihre Site ansehen. Wenn ein Besucher morgens und nachts zu Ihrer Site kommt, zählt er als individueller Besucher pro Tag. Wenn ein Besucher am Montag und erneut am Dienstag Ihre Site aufsucht, zählen sie als zwei individuelle Besucher pro Tag.
+Reports &amp; Analytics bietet Optionen für individuelle Besucher pro Tag, Woche, Monat, Quartal und Jahr. Statt einen einzelnen eindeutigen Besucher für den gesamten Zeitraum zu zählen, werden individuelle Besucher auf der Grundlage der ausgewählten Metrik gezählt. Beispielsweise möchten Sie sich individuelle Besucher pro Tag für Ihre Site ansehen. Wenn ein Besucher morgens und nachts zu Ihrer Site kommt, zählt er als individueller Besucher pro Tag. Wenn ein Besucher am Montag und erneut am Dienstag Ihre Site aufsucht, zählen sie als zwei individuelle Besucher pro Tag.
 
-Analyse Workspace behandelt individuelle Besucher auf Grundlage der Granularität des Berichts. Wenn Sie beispielsweise die Dimension [&quot;Tag](../dimensions/day.md) &quot;verwenden, sehen Sie für jeden Dimensionswert individuelle Besucher pro Tag. Für die Berichtssumme werden jedoch eindeutige Besucher für den Datumsbereich der Freiformtabelle dedupliziert.
+Analysis Workspace behandelt individuelle Besucher auf Grundlage der Granularität des Berichts. Wenn Sie beispielsweise die Dimension [&quot;Tag](../dimensions/day.md) &quot;verwenden, sehen Sie für jeden Dimensionswert individuelle Besucher pro Tag. Für die Berichtssumme werden jedoch eindeutige Besucher für den Datumsbereich der Freiformtabelle dedupliziert.
 
 ## Berechnung dieser Metrik
 
@@ -45,7 +45,7 @@ Eindeutige Besucher-IDs werden in der Regel in einem Browsercookie gespeichert. 
 * Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site. Ein separater eindeutiger Besucher wird pro Gerät gezählt. Sie können [geräteübergreifende Analysen](../cda/cda-home.md) verwenden, um Besucher mithilfe der Metrik &quot; [Personen](people.md) &quot;miteinander zu kombinieren.
 * Öffnet eine private Browsersitzung (z. B. Chrome&#39;s Registerkarte &quot;Inkognito&quot;).
 
-Ein neuer eindeutiger Besucher wird **nicht* gezählt, solange die Cookie-ID beibehalten wird:
+Ein neuer eindeutiger Besucher wird *nicht* gezählt, solange die Cookie-ID beibehalten wird:
 
 * Schließt den Browser über einen längeren Zeitraum
 * Aktualisieren des Browsers auf die neueste Version
