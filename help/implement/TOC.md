@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '443'
 ht-degree: 92%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [Dynamische Variablen](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Übersicht über Ereignisse](vars/page-vars/events/events-overview.md)
          + [Kaufereignis](vars/page-vars/events/event-purchase.md)
