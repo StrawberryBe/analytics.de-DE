@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 72%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 72%
    + [First Touch-Kanal](dimensions/first-touch-channel.md)
    + [First Touch-Kanal](dimensions/first-touch-detail.md)
    + [Treffertiefe](dimensions/hit-depth.md)
+   + [Treffertyp](dimensions/hit-type.md)
    + [Stunde des Tages](dimensions/hour-of-day.md)
    + [Stunde](dimensions/hour.md)
    + [Java aktiviert](dimensions/java-enabled.md)
@@ -75,7 +76,7 @@ ht-degree: 72%
    + [Quartal des Jahres](dimensions/quarter-of-year.md)
    + [Quartal](dimensions/quarter.md)
    + [Werber](dimensions/referrer-type.md)
-   + [Referrer](dimensions/referrer.md)
+   + [Verweisende Stelle](dimensions/referrer.md)
    + [Referrerdomäne](dimensions/referring-domain.md)
    + [Regionen](dimensions/regions.md)
    + [Rückkehrhäufigkeit](dimensions/return-frequency.md)
