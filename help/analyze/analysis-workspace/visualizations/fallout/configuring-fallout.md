@@ -2,7 +2,7 @@
 description: 'null'
 title: Fallout-Visualisierung konfigurieren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -18,9 +18,9 @@ Bezüglich der Anzahl der Schritte, die hinzugefügt, oder der Dimensionen, die 
 
 Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html) (Variablen, die mehrere Werte pro Hit haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Beispiel: Angenommen, jemand sucht auf der einen Seite nach „Schuhe,Shirt“ und auf der nächsten Seite nach „Schuhe,Socken“. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
 
-1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
+1. Ziehen Sie eine [!UICONTROL Fallout]-Visualisierung aus dem Dropdownfeld „Visualisierung“ in eine [!UICONTROL Freeform Table].
 
-1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
+1. Ziehen Sie die Dimension „Seite“ in die Freiformtabelle und ziehen Sie von dort eine Seite (in diesem Fall „Startseite – JJEsquire“) als ersten Touchpoint in das Feld **[!UICONTROL Add TouchPoint]**.
 
    ![](assets/fallout1.png)
 
@@ -68,9 +68,9 @@ Wenn Sie **mit der rechten Maustaste auf einen Touchpoint klicken**, werden die 
 
 | Option | Beschreibung |
 |--- |--- |
-| Trend-Touchpoint | Zeigt Trenddaten für einen Touchpoint in einem Liniendiagramm mit einigen vorab definierten Anomalieerkennungsdaten an. |
-| Trend-Touchpoint (%) | Trends für den gesamten Fallout-Prozentsatz |
+| Trend-Touchpoint | Zeigt Trenddaten für einen Touchpoint in einem Kantengraphen mit einigen vorab definierten Anomalieerkennungsdaten an. |
+| Trend-Touchpoint (%) | Trends für den gesamten Fallout-Prozentsatz. |
 | Trenderstellung aller Touchpoints (%) | Trends für alle Touchpoint-Prozentsätze im Fallout (außer „Alle Besuche“, falls vorhanden) im selben Diagramm. |
-| Trichteranalyse an diesem Touchpoint | Ansicht, was Besucher zwischen zwei Touchpoints (diesem Touchpoint und dem nächsten Touchpoint) getan haben, wenn sie bis zum nächsten Touchpoint fortfuhren. Diese Option erstellt eine Freiformtabelle, die Ihre Dimensionen enthält. Dimensionen und andere Elemente der Tabelle können Sie austauschen. |
-| Trichteranalyse an diesem Touchpoint aufschlüsseln | Zeigt an, was Besucher, die nicht im Trichter verblieben sind, unmittelbar nach dem ausgewählten Schritt getan haben. |
+| Aufschlüsselung des Fallthrough an diesem Touchpoint | Zeigt an, was Besucher zwischen zwei Touchpoints (diesem und dem nächsten Touchpoint) getan haben, wenn sie sich zum nächsten Touchpoint fortbewegt haben. Diese Option erstellt eine Freiformtabelle, die Ihre Dimensionen enthält. Dimensionen und andere Elemente der Tabelle können Sie austauschen. |
+| Aufschlüsselung des Fallout an diesem Touchpoint | Zeigt an, was Besucher, die nicht im Trichter verblieben sind, unmittelbar nach dem ausgewählten Schritt getan haben. |
 | Segment aus Touchpoint erstellen | Erstellen Sie ein Segment aus dem ausgewählten Touchpoint. |
