@@ -3,30 +3,30 @@ description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Freigeben von Workspace-Projekten
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
 # Freigeben von Workspace-Projekten
 
-Durch Freigabe wird ein Projekt anderen Analyse Workspace-Benutzern in Ihrem Unternehmen zur Verfügung gestellt. Jede [Kuration](curate.md) , die Sie vorgenommen haben, wird angezeigt, wenn Empfänger das Projekt öffnen.
+Durch Freigabe wird ein Projekt anderen Analysis Workspaces in Ihrem Unternehmen zur Verfügung gestellt. Jede [Kuration](curate.md) , die Sie vorgenommen haben, wird angezeigt, wenn Empfänger das Projekt öffnen.
 
 ## Projektrollen
 
-Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen sind mit dem Benutzer und der spezifischen Projekt-ID verknüpft.
-
->[!NOTE]
-> Projektrollen sind unabhängig von Benutzerberechtigungen, die in der Experience Cloud-Admin-Konsole verwaltet werden.
+Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen sind mit dem Benutzer und der spezifischen Projekt-ID verknüpft. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Experience Cloud-Admin-Konsole](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html)verwaltet werden.
 
 | Rolle | Projektsteuerung |
 |---|---|
 | Kann bearbeiten | Empfänger können Änderungen an einem Projekt „Speichern“ und als Miteigentümer auftreten.<br>Diese Rolle ist nützlich, wenn Sie mit Kollegen an einem Projekt zusammenarbeiten möchten. |
-| Kann duplizieren | Empfänger können „Speichern unter“ verwenden und auf die linke Navigationsleiste zugreifen. Interaktionen sind nicht eingeschränkt.<br>Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analyse Workspace verstehen. Sie möchten jedoch nicht, dass Ihr gespeichertes Projekt geändert wird. |
-| Kann anzeigen | Empfänger können nicht speichern unter und haben keinen Zugriff auf die linke Leiste. Auch die Wechselwirkungen sind begrenzt.<br>Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, dem Arbeitsbereich für Analysen oder Adobe Analytics im Allgemeinen nicht vertraut sind. Sie möchten jedoch weiterhin, dass sie Daten und Erkenntnisse in einer sicheren Umgebung nutzen.<br>Erfahren Sie mehr über das Projekterlebnis [Can Ansicht](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
+| Kann duplizieren | Empfänger können „Speichern unter“ verwenden und auf die linke Navigationsleiste zugreifen. Interaktionen sind nicht eingeschränkt.<br>Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analysis Workspace verstehen, aber nicht möchten, dass Ihr gespeichertes Projekt geändert wird. |
+| Kann anzeigen | Empfänger können nicht speichern unter und haben keinen Zugriff auf die linke Leiste. Auch die Wechselwirkungen sind begrenzt.<br>Diese Rolle ist hilfreich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, dem Analysis Workspace oder Adobe Analytics im Allgemeinen nicht so vertraut sind. Sie möchten jedoch weiterhin, dass sie Daten und Erkenntnisse in einer sicheren Umgebung nutzen.<br>Erfahren Sie mehr über das Projekterlebnis [Can Ansicht](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
+
+>[!IMPORTANT]
+> Vor dem 18. Juni 2020 hinzugefügte Empfänger wurden in eine Projektrolle migriert. Admin-Benutzer migrierten in die Bearbeitungsrolle &quot;Kann&quot;und Nicht-Admin-Benutzer migrierten in die Rolle &quot;Kann-Ansicht&quot;. Diese Rollen bieten die gleiche Projekterfahrung wie zuvor.
 
 ### Keine Rolle zugewiesen
 
