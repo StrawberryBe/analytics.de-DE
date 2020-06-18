@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Benutzerdefinierte Datumsbereiche erstellen
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ Der folgende benutzerdefinierte Datumsbereich zeigt den Bereich vor zwei Monaten
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+Der benutzerdefinierte Datumsbereich wird in Ihrem Projekt oben auf dem Komponentenbereich [!UICONTROL Date Range] angezeigt:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
