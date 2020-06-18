@@ -35,12 +35,14 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics-Reporting-API
+
    Nach der Aktivierung können Sie die in die Virtual Report Suite einzubeziehenden Komponenten hinzufügen, indem Sie die betreffenden Komponenten aus der Spalte „ausgeschlossene Komponenten“ in die Spalte „eingeschlossene Komponenten“ ziehen. Die ein- und ausschließbaren Komponenten lauten wie folgt:
 
    * Dimensionen
    * Metriken
    * Segmente
    * Datumsbereiche
+
    >[!NOTE]
    >
    >Kuratierte Komponenten (Segmente, berechnete Metriken, Datumsbereiche) müssen nicht *freigegeben* werden. Für die Virtual Report Suite kuratierte Komponenten sind in Analysis Workspace stets sichtbar, auch wenn sie nicht freigegeben werden.
