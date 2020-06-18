@@ -2,7 +2,7 @@
 description: 'null'
 title: Segmente
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,12 +32,12 @@ Bedenken Sie Folgendes:
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE]Auf diese Weise erstellte Segmente sind interne Segmente des Projekts.
+>[!NOTE] Auf diese Weise erstellte Segmente sind interne Segmente des Projekts.
 
 Sie können diese Segmente wie folgt öffentlich (global) machen:
 
 1. Bewegen Sie den Mauszeiger auf das Segment in der Dropzone und klicken Sie auf das Symbol „i“.
-1. In the information panel that displays, click **[!UICONTROL Make public]**.
+1. Klicken Sie dann im angezeigten Informationsfeld auf **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
 
