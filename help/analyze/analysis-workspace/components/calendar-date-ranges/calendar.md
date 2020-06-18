@@ -2,7 +2,7 @@
 description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 title: Übersicht über Kalender und Datumsbereiche
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
@@ -16,7 +16,7 @@ Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweil
 
 ![Kalender](assets/aw_calendar.png)
 
-Beim ersten Klick auf einen Kalender wird eine Datumsbereichsauswahl Beginn. Der zweite Klick schließt eine Datumsbereichsauswahl ab, die hervorgehoben wird. Wenn die `Shift` Taste gedrückt gehalten wird (oder ein Rechtsklick verwendet wird), wird sie an den derzeit ausgewählten Bereich angehängt.
+Beim ersten Klick auf einen Kalender wird die Auswahl eines Datumsbereichs begonnen. Mit dem zweiten Klick wird die Auswahl des Datumsbereichs beendet und hervorgehoben. Wenn die `Shift` Taste gedrückt gehalten wird (oder ein Rechtsklick verwendet wird), wird der entsprechende Bereich an den derzeit ausgewählten Bereich angehängt.
 
 Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspace-Projekt ablegen. Sie können spezifische Tage, Wochen, Monate, Jahre oder ein rollierendes Datum auswählen.
 
