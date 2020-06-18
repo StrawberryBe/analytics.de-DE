@@ -2,7 +2,7 @@
 description: 'null'
 title: Flussübersicht
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,6 +28,6 @@ Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/vi
 
 Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
-## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project&#39;s .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
+Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** aufrufen. Damit können Sie Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen analysieren.
