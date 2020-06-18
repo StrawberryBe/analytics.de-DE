@@ -2,7 +2,7 @@
 description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualisierungsübersicht
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -10,34 +10,34 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 # Visualisierungsübersicht
 
-Workspace Angebot eine Reihe von Visualisierungen, mit denen Sie visuelle Darstellungen Ihrer Daten generieren können, wie Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. Jede Visualisierung verfügt über eigene Einstellungen, die Sie verwalten können. Klicken Sie auf den Namen der Visualisierung, um weitere Informationen anzuzeigen.
+Workspace bietet eine Reihe von Visualisierungen, mit denen Sie visuelle Darstellungen Ihrer Daten generieren können, wie beispielsweise Balkendiagramme, Donutdiagramme, Histogramme, Liniendiagramme, Karten und Streudiagramme. Jede Visualisierung verfügt über eigene Einstellungen, die Sie verwalten können. Klicken Sie auf den Namen der Visualisierung, um weitere Informationen anzuzeigen.
 
-YouTube-Video: [Visualisierungstypen im Arbeitsbereich](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) für Analysen (2:57)
+YouTube-Video: [Visualisierungstypen in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 | Name der Visualisierung | Beschreibung |
 |---|---|
-| [Bereich](/help/analyze/analysis-workspace/visualizations/area.md) | wie ein Liniendiagramm, jedoch mit einem farbigen Bereich unterhalb der Linie. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird. |
-| [Balken](/help/analyze/analysis-workspace/visualizations/bar.md) | Zeigt vertikale Balken an, die verschiedene Werte über eine oder mehrere Metriken hinweg darstellen. |
-| [Lineardiagramm](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Zeigt, wie ein Wert, an dem Sie interessiert sind, im Vergleich zu anderen Leistungsbereichen (Zielen) oder Messungen dazu steht. |
+| [Bereich](/help/analyze/analysis-workspace/visualizations/area.md) | entspricht einem Kantengraphen, bei dem der Bereich unter der Linie farbig dargestellt ist. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird. |
+| [Balken](/help/analyze/analysis-workspace/visualizations/bar.md) | zeigt vertikale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| [Lineardiagramm](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | zeigt, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt. |
 | [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Eine *`cohort`* ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse ist z. B. dann nützlich, wenn Sie wissen möchten, wie eine Kohorte mit einer Marke interagiert. Sie können problemlos Trend-Änderungen offenlegen und entsprechend reagieren. |
 | [Ringdiagramm](/help/analyze/analysis-workspace/visualizations/donut.md) | Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. |
 | [Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (wo sie „ausgefallen“ sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). |
-| [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Zeigt Kundenpfade durch Ihre Websites und Apps an. |
-| [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Eine Freiform-Tabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. |
-| [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm ähnelt einem Balkendiagramm, fasst jedoch Zahlen zu Bereichen („Pakete“) zusammen.  |
-| [Horizontaler Balken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Zeigt horizontale Balken an, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
-| [Linie](/help/analyze/analysis-workspace/visualizations/line.md) | Stellt Metriken mithilfe einer Zeile dar, um anzuzeigen, wie sich die Werte über einen bestimmten Zeitraum ändern. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit eine der Achsen ist. |
-| [Landkarte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
-| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Zeigt die Beziehung zwischen Dimensionswerten und bis zu drei Metriken. |
-| [Zusammenfassungsnummer](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zelle ausgewählt ist, zeigt diese Visualisierung die Summen und Zusammenfassungen an. |
-| [Änderung der Zusammenfassung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zellen ausgewählt sind, werden bei dieser Visualisierung Zellen miteinander verglichen. |
+| [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Zeigt Kundenpfade durch Ihre Websites und Apps. |
+| [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. |
+| [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm ähnelt einem Balkendiagramm, fasst jedoch Zahlen zu Bereichen („Pakete“) zusammen. |
+| [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| [Linie](/help/analyze/analysis-workspace/visualizations/line.md) | stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird. |
+| [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
+| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | zeigt die Beziehung zwischen Dimensionswerten und bis zu drei Metriken. |
+| [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zelle ausgewählt ist, zeigt diese Visualisierung die Summen und Zusammenfassungen an. |
+| [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zellen ausgewählt sind, werden bei dieser Visualisierung Zellen miteinander verglichen. |
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md) | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. |
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Hiermit können Sie bis zu 3 Segmente (aus Komponenten) und eine Metrik ziehen, um ein Venn-Diagramm zu erstellen. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | hier können Sie bis zu 3 Segmente (aus Komponenten) und eine Metrik einfügen, um ein Venn-Diagramm zu erstellen. |
 
 ## Visualisierungsbereich {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-To display the Visualizations panel, click **[!UICONTROL Visualizations]** in the side panel.
+Klicken Sie im seitlichen Bedienfeld auf **[!UICONTROL Visualizations]**, um den Visualisierungsbereich zu öffnen.
 
 ![Schritt Ergebnis](assets/visualizations.png)
 
@@ -45,7 +45,7 @@ Wenn Sie Adobe Analytics verwenden, werden Sie mit den meisten Visualisierungsar
 
 ## Visualisierungseinstellungen {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Um darauf zuzugreifen, ziehen Sie [!UICONTROL Visualization Settings]eine Visualisierung in den Bereich [!UICONTROL Freeform Panel]und klicken Sie dann auf das [!UICONTROL Visualization Settings] Zahnradsymbol.
+Um auf [!UICONTROL Visualization Settings] zuzugreifen, ziehen Sie eine Visualisierung in den Bereich [!UICONTROL Freeform Panel] und klicken Sie dann auf das Zahnradsymbol [!UICONTROL Visualization Settings].
 
 >[!IMPORTANT]
 >
@@ -62,11 +62,11 @@ Um darauf zuzugreifen, ziehen Sie [!UICONTROL Visualization Settings]eine Visual
 | Y-Achse bei null verankern | Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, wird der untere Teil der Y-Achse standardmäßig zu NICHT-NULL gemacht. Wenn Sie dieses Kontrollkästchen aktivieren, wird die Y-Achse zwangsweise auf null gesetzt (und das Diagramm neu gezeichnet). |
 | Normalisierung | Erzwingt Metriken für gleiche Anteile. |
 | Zwei Achsen anzeigen | Gilt nur, wenn Sie zwei Metriken haben – möglich sind eine Y-Achse links (für die eine Metrik) und eine rechts (für die andere). |
-| Anomalien anzeigen | Reichert Liniendiagramme und Freiformtabellen so an, dass sie auch Datenanomalien anzeigen. |
+| Anomalien anzeigen | Reichert Kantengraphen und Freiformtabellen so an, dass sie auch Datenanomalien anzeigen. |
 
 ## Symbol „Visualisierung erstellen“ {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
+Wenn Sie nicht sicher sind, welche Visualisierung Sie auswählen sollen, klicken Sie in einer beliebigen Tabellenzeile auf das Symbol **[!UICONTROL Create Visual]**. Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
 
 ![](assets/create-visual.png)
 
@@ -104,6 +104,6 @@ Wenn Sie beispielsweise eine Legendenbeschriftung für ein Liniendiagramm bearbe
    ![](assets/edit-label.png)
 
 1. Geben Sie den neuen Beschriftungstext ein.
-1. Drücken Sie **[!UICONTROL Enter]** zum Speichern.
+1. Drücken Sie **[!UICONTROL Enter]**, um Ihre Auswahl zu speichern.
 
 Hier finden Sie einen [Link zu einem Video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) zu diesem Thema.
