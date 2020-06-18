@@ -2,7 +2,7 @@
 title: Übersicht über den Segmentvergleich
 description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“, Teil von Segment IQ in Analysis Workspace, verwenden.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,11 +27,11 @@ Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segmen
 
    ![Zielgruppen vergleichen](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. Es handelt sich um ein häufig verwendetes Segment im Vergleichsbedienfeld, Sie können es jedoch entfernen und ein anderes Segment Ihrer Wahl vergleichen.
+   Nachdem Sie ein Segment in das Bedienfeld gezogen haben, erstellt Analytics automatisch das Segment [!UICONTROL 'Everyone Else'], das alle NICHT in das ausgewählte Segment eingeschlossenen Personen enthält. Es handelt sich um ein häufig verwendetes Segment im Vergleichsbedienfeld, Sie können es jedoch entfernen und ein anderes Segment Ihrer Wahl vergleichen.
 
    ![Alle anderen](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. Nachdem Sie ermittelt haben, welche beiden Segmente Sie vergleichen möchten, klicken Sie auf [!UICONTROL Build].
 
    Diese Aktion startet einen Backend-Prozess, der nach statistischen Unterschieden zwischen den beiden ausgewählten Segmenten und allen Dimensionen, Metriken und anderen Segmenten sucht. Eine Fortschrittsleiste oben im Bedienfeld gibt die verbleibende Zeit an, bis jede Metrik und Dimension analysiert wird. Die am häufigsten verwendeten Metriken, Dimensionen und Segmente werden bei der Ausführung priorisiert, damit die relevantesten Ergebnisse zuerst zurückgegeben werden.
 
@@ -39,12 +39,12 @@ Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segmen
 
 Manchmal ist es wünschenswert, Dimensionen, Metriken oder Segmente aus Segmentvergleichen auszuschließen. Beispiel: Sie möchten das Segment „Mobile Nutzer aus den USA“ mit „Mobile Nutzer aus Deutschland“ vergleichen. Die Einbeziehung geografischer Dimensionen wäre nicht sinnvoll, da diese Segmente diese Unterschiede bereits implizieren.
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. Nachdem sich die beiden gewünschten Segmente im Bedienfeld befinden, klicken Sie auf [!UICONTROL 'Show Advanced Options'].
+1. Verschieben Sie die Komponenten, die Sie ausschließen möchten, per Drag-and-Drop in den Bereich [!UICONTROL Excluded Components].
 
    ![Ausgeschlossene Komponenten](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. Wenn Sie ausgeschlossene Komponenten bearbeiten möchten, klicken Sie auf einen Komponententyp und dann auf das X neben einer Komponente, um sie erneut in Ihre Analyse einzuschließen. Klicken Sie auf „Alle löschen“, um alle Komponenten erneut in Ihren Segmentvergleich einzubeziehen.
+Klicken Sie auf [!UICONTROL 'Set as default'], um Ihre aktuellen Komponenten bei allen zukünftigen Segmentvergleichen automatisch auszuschließen. Wenn Sie ausgeschlossene Komponenten bearbeiten möchten, klicken Sie auf einen Komponententyp und dann auf das X neben einer Komponente, um sie erneut in Ihre Analyse einzuschließen. Klicken Sie auf „Alle löschen“, um alle Komponenten erneut in Ihren Segmentvergleich einzubeziehen.
 
 ![Ausgeschlossene Dimensionen](assets/excluded-dimensions.png)
 
