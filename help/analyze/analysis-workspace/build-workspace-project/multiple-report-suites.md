@@ -1,13 +1,13 @@
 ---
-title: 'Mehrere Report Suites in Workspace '
+title: Mehrere Report Suites in Workspace
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
 
-# Mehrere Report Suites in Workspace 
+# Mehrere Report Suites in Workspace
 
 Sie können jetzt in Analysis Workspace Projekte mit Daten aus mehr als einer Report Suite erstellen. Report Suites werden jetzt auf Bedienfeldebene ausgewählt, sodass Sie für jedes Bedienfeld innerhalb desselben Workspace-Projekts eine andere Report Suite auswählen können.
 
@@ -17,24 +17,24 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 * ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können jetzt Daten aus verschiedenen Report Suites in dasselbe Projekt ziehen.
 
-## Report Suite auf alle Bereiche anwenden
+## Report Suite auf alle Bedienfelder anwenden
 
-Sie können eine Report Suite auf alle Bereiche gleichzeitig anwenden, indem Sie mit der rechten Maustaste auf eine beliebige Bereichsüberschrift klicken und **[!UICONTROL Apply Report Suite to All Panels]** diese auswählen.
+Sie können eine Report Suite auf alle Bedienfelder gleichzeitig anwenden, indem Sie mit der rechten Maustaste auf eine beliebige Bedienfeldüberschrift klicken und **[!UICONTROL Apply Report Suite to All Panels]** auswählen.
 
 ![](assets/apply-rs-all-panels.png)
 
 ## Aktives Bedienfeld
 
-Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Vergleich zum „interaktiven Bedienfeld“ ein. Sie können das aktive Bedienfeld am hellblauen Rand erkennen. Durch einfaches Klicken in ein Bedienfeld wird dieses Bedienfeld zum aktiven Bedienfeld.
+Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Vergleich zum „interaktiven Bedienfeld“ ein. Sie erkennen das aktive Bedienfeld am hellblauen Rand. Durch einfaches Klicken in ein Bedienfeld wird dieses Bedienfeld zum aktiven Bedienfeld.
 
 >[!IMPORTANT]
->Sie können per Drag &amp; Drop in ein beliebiges Bedienfeld ziehen, das sich in derselben Report Suite wie das aktive Bedienfeld befindet. Durch Ziehen in einen inaktiven Bereich derselben Report Suite wird das Bedienfeld aktiv.
+>Sie können Objekte per Drag-and-Drop in ein beliebiges Bedienfeld ziehen, das sich in derselben Report Suite wie das aktive Bedienfeld befindet. Durch Ziehen eines Objekts in ein inaktives Bedienfled derselben Report Suite wird das Bedienfeld aktiv.
 
 | Aufgabe | Aktives Bedienfeld | Inaktives Bedienfeld |
 |---|---|---|
 | Report Suite ändern | Ja | Nein |
-| Komponenten per Drag &amp; Drop verschieben | Ja | Ja, für alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
-| Visualisierungen per Drag &amp; Drop verschieben | Ja | Ja, für alle Bereiche, die sich in derselben Report Suite wie Ihr aktiver Bereich befinden. |
+| Komponenten per Drag &amp; Drop verschieben | Ja | Ja, für alle Bedienfelder, die sich in derselben Report Suite wie Ihr aktives Bedienfeld befinden. |
+| Visualisierungen per Drag &amp; Drop verschieben | Ja | Ja, für alle Bedienfelder, die sich in derselben Report Suite wie Ihr aktives Bedienfeld befinden. |
 
 ## Arbeiten mit mehreren Report Suites
 
@@ -46,18 +46,18 @@ Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Ver
 
 
    >[!NOTE]
-   >Manchmal wird beim Laden eines Projekts (oder beim Wechsel zu einer Report Suite) ein Banner angezeigt, bei dem nicht alle im Projekt enthaltenen Komponenten in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](/help/admin/admin-console/permissions/product-profile.md), um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
+   >Manchmal wird beim Laden eines Projekts (oder beim Umschalten auf eine Report Suite) ein Banner angezeigt, wenn nicht alle Komponenten des Projekts in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](/help/admin/admin-console/permissions/product-profile.md), um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
 
    ![](assets/incompat-rs.png)
 
    Sie haben 3 Optionen, um mit dieser Inkompatibilität umzugehen:
-   * Erforderliche Dimensionen/Metriken aktivieren
+   * Erforderliche Dimensionen/Metriken aktivieren.
    * Ändern Sie die Report Suite.
    * Fahren Sie mit einigen fehlenden Komponenten fort. Dies führt dazu, dass für diese Komponenten keine Daten verfügbar sind und/oder zu leeren Visualisierungen.
 
-1. Wechseln Sie die Report Suite für das Bedienfeld und beachten Sie, wie die Bezeichnung der Komponente (derzeit aktive Report Suite) und die aufgelisteten Komponenten basierend auf der neuen Report Suite aktualisiert werden.
+1. Wechseln Sie die Report Suite für das Bedienfeld und beobachten Sie, wie die Bezeichnung der Komponente (derzeit aktive Report Suite) und die aufgelisteten Komponenten basierend auf der neuen Report Suite aktualisiert werden.
 
-1. Use a keyboard shortcut (`shift` while dragging) to turn an inactive panel to an active panel.
+1. Verwenden Sie eine Tastenkombination (`shift` während Sie ziehen), um einen inaktives Bedienfeld in ein aktives Bedienfeld umzuwandeln.
 
 1. (Optional) Sie können auch andere Komponenten-Builder in Analytics aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die angibt
 
