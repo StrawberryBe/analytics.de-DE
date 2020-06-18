@@ -3,7 +3,7 @@ description: Sie können in Analysis Workspace Segmente aus einem Touchpoint ers
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Segmente in der Fallout-Analyse anwenden
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,7 +21,7 @@ Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segme
 
 ## Erstellen eines Segments aus einem Touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Als Erstes erstellen Sie ein Segment aus einem bestimmten Touchpoint, an dem Sie interessiert sind und der sich möglicherweise lohnt, auch in andere Berichte übernommen zu werden. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint und wählen Sie **[!UICONTROL Create segment from touchpoint]**.
+1. Als Erstes erstellen Sie ein Segment aus einem bestimmten Touchpoint, an dem Sie interessiert sind und der sich möglicherweise lohnt, auch in andere Berichte übernommen zu werden. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint und wählen Sie **[!UICONTROL Create segment from touchpoint]** aus.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -45,7 +45,7 @@ Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer�
 
 In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten miteinander vergleichen.
 
-1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. Im vorliegenden Beispiel haben wir 2 Segmente ausgewählt: „USA-Benutzer“ und „Benutzer außerhalb der USA“.
+1. Wählen Sie die zu vergleichenden Segmente links in der Leiste [!UICONTROL Segments] aus. Im vorliegenden Beispiel haben wir 2 Segmente ausgewählt: „USA-Benutzer“ und „Benutzer außerhalb der USA“.
 1. Ziehen Sie sie nach oben in die Ablegezone „Segmente“.
 
    ![](assets/segment-drop.png)
