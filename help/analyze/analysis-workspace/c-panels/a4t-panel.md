@@ -2,10 +2,10 @@
 description: Mit dem Bedienfeld "Analytics for Target (A4T)"können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld "Analytics für Target"(A4T)
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse forts
 | Frage | Antwort |
 |---|---|
 | Welche Aktivitäten werden von A4T unterstützt? | [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) darüber, welche Aktivitäten unterstützt werden. |
-| Werden berechnete Metriken im A4T-Berichte unterstützt? | Nein. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) darüber, warum berechnete Metriken nicht unterstützt werden. |
+| Werden berechnete Metriken bei Steigerungs- und Konfidenzberechnungen unterstützt? | Nein. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) darüber, warum berechnete Metriken bei Steigerung und Konfidenz nicht unterstützt werden. Berechnete Metriken können jedoch außerhalb dieser Metriken im A4T-Berichte verwendet werden. |
 | Warum unterscheiden sich individuelle Besucher zwischen Target und Analytics? | [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) über die Varianzen individueller Besucher zwischen den Produkten. |
 | Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Treffersegment für eine bestimmte Target-Aktivität anwenden möchte? | Die A4T-Dimension ist eine Variable zur Liste, d. h. sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Mehr Infos](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| Berücksichtigt die Konfidenzmetrik extreme Bestellungen oder wendet sie eine Bonferroni-Korrektur für mehrere Angebot an? | Nein. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) darüber, wie Analytics das Vertrauen berechnet. |
 
 Weitere Informationen zu Analytics für Target Berichte finden Sie im [A4T-Berichte](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
