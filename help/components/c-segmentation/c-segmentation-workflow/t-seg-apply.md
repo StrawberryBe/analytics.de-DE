@@ -3,7 +3,7 @@ description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste a
 title: Segmente auswählen und anwenden
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
