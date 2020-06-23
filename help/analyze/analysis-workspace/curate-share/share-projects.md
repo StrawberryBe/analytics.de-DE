@@ -3,10 +3,10 @@ description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Freigeben von Workspace-Projekten
 translation-type: tm+mt
-source-git-commit: 17c963fa6a0fc24d2e3ab45500922ea17ad42240
+source-git-commit: 324460b89adf55c450d68bdb4fdc884e53f86257
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 9%
+source-wordcount: '1009'
+ht-degree: 6%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 9%
 
 Durch Freigabe wird ein Projekt anderen Analysis Workspaces in Ihrem Unternehmen zur Verfügung gestellt. Jede [Kuration](curate.md) , die Sie vorgenommen haben, wird angezeigt, wenn Empfänger das Projekt öffnen.
 
-## Projektrollen
+## Projektrollen {#Roles}
 
-Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen sind mit dem Benutzer und der spezifischen Projekt-ID verknüpft. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Experience Cloud-Admin-Konsole](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html)verwaltet werden.
+Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen sind mit dem Benutzer und der spezifischen Projekt-ID verknüpft. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe Experience Cloud-Admin-Konsole](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html)verwaltet werden.
 
 | Rolle | Projektsteuerung |
 |---|---|
-| Kann bearbeiten | Empfänger können Änderungen an einem Projekt „Speichern“ und als Miteigentümer auftreten.<br>Diese Rolle ist nützlich, wenn Sie mit Kollegen an einem Projekt zusammenarbeiten möchten. |
-| Kann duplizieren | Empfänger können „Speichern unter“ verwenden und auf die linke Navigationsleiste zugreifen. Interaktionen sind nicht eingeschränkt.<br>Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analysis Workspace verstehen, aber nicht möchten, dass Ihr gespeichertes Projekt geändert wird. |
-| Kann anzeigen | Empfänger können nicht speichern unter und haben keinen Zugriff auf die linke Leiste. Auch die Wechselwirkungen sind begrenzt.<br>Diese Rolle ist hilfreich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, dem Analysis Workspace oder Adobe Analytics im Allgemeinen nicht so vertraut sind. Sie möchten jedoch weiterhin, dass sie Daten und Erkenntnisse in einer sicheren Umgebung nutzen.<br>Erfahren Sie mehr über das Projekterlebnis [Can Ansicht](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
+| Kann bearbeiten | Empfänger können Änderungen an einem Projekt „Speichern“ und als Miteigentümer auftreten. Diese Rolle ist nützlich, wenn Sie Projekte mit anderen Kollegen gemeinsam bearbeiten möchten.<br>Hinweis: Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. Es wird daher empfohlen, ein Projekt zu einem bestimmten Zeitpunkt nur von einem Benutzer zu bearbeiten. Wenn Projekte gleichzeitig gespeichert werden, wird die letzte Version beibehalten. |
+| Kann duplizieren | Empfänger können &quot;Speichern unter&quot;wählen und auf die linke Leiste zugreifen. Projektinteraktionen sind in dieser Rolle nicht beschränkt. Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analysis Workspace verstehen, Ihr Projekt jedoch nicht ändern möchten. |
+| Kann anzeigen | Empfänger können nicht speichern unter und haben keinen Zugriff auf die linke Leiste. Auch die Projektinteraktionen sind begrenzt. Diese Rolle ist hilfreich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, dem Analysis Workspace oder Adobe Analytics im Allgemeinen nicht so vertraut sind. Sie möchten jedoch weiterhin, dass sie Daten und Erkenntnisse in einer sicheren Umgebung nutzen.<br>Erfahren Sie mehr über das Projekterlebnis [Can Ansicht](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
 >[!IMPORTANT]
 > Vor dem 18. Juni 2020 hinzugefügte Empfänger wurden in eine Projektrolle migriert. Administratorbenutzer migrierten in die Rolle &quot; **[!UICONTROL Kann bearbeiten]** &quot;und Nicht-Admin-Benutzer migrierten in die Rolle &quot; **[!UICONTROL Kann-Duplikat]** &quot;. Diese Rollen bieten die gleiche Projekterfahrung wie zuvor. Außerdem wurden alle Gruppen (einschließlich &quot;Alle&quot;) in die Rolle &quot; **[!UICONTROL Kann-Duplikat]** &quot;migriert.
@@ -34,13 +34,13 @@ Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt
 
 ### Mehrere Rollen zugewiesen
 
-Wenn ein Empfänger in mehreren Rollen platziert wird, erhält er immer die höchste Kontrolle. Dies kann vorkommen, wenn ein Benutzer sowohl als Einzelperson als auch als Teil einer Gruppe hinzugefügt wird. Wenn Benutzer 1 beispielsweise die Rollen &quot;Kann bearbeiten&quot;und &quot; **[!UICONTROL Kann Ansicht]** &quot;erhält, hat er die Kontrolle über das Projekt **[!UICONTROL Kann bearbeiten]** .
+Wenn ein Empfänger in mehreren Rollen platziert wird, erhalten sie immer das höchste Erlebnis. Dies kann vorkommen, wenn ein Benutzer sowohl als Einzelperson als auch als Teil einer Gruppe hinzugefügt wird. Wenn einem Benutzer beispielsweise die Rolle &quot; **[!UICONTROL Kann bearbeiten]** &quot;als Einzelperson und die Rolle &quot; **[!UICONTROL Kann-Ansicht]** &quot;als Gruppenmitglied zugewiesen wird, erhält er eine **[!UICONTROL Kann-Bearbeitung]** .
 
 ### Administratoren und Rollen
 
 Administratoren, die in die Rolle &quot; **[!UICONTROL Können-Duplikat]** &quot;oder &quot; **[!UICONTROL Können-Ansicht]** &quot;aufgenommen werden, erhalten diese eingeschränkten Erlebnisse, wenn sie ein Projekt öffnen. Falls gewünscht, kann ein Administrator seine Rolle auf **[!UICONTROL Kann jederzeit bearbeiten]** über **[!UICONTROL Komponenten]>[!UICONTROL Projekte]** erhöhen.
 
-## Empfänger für freigegebene Projekte Hinzufügen
+## Empfänger für freigegebene Projekte Hinzufügen {#Add}
 
 So fügen Sie Ihrem freigegebenen Projekt Empfänger hinzu:
 
@@ -57,14 +57,14 @@ Sie können auch auf **[!UICONTROL Kuratieren und Freigeben]** klicken, um die P
 
 ![](assets/share-proj-modal.png)
 
-## Für Empfänger freigeben
+## Für Empfänger freigeben {#Groups}
 
-Alle Benutzer können Projekte für Gruppen freigeben, bei denen es sich um eine Sammlung von Empfängern handelt. In Adobe Analytics werden Gruppen durch Produkt-Profil in der Adobe Experience Cloud definiert.
+Alle Benutzer können Projekte für Gruppen freigeben, bei denen es sich um eine Sammlung von Empfängern handelt. In Adobe Analytics werden Gruppen durch Produkt-Profil in der [Adobe Experience Cloud-Admin-Konsole](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html)definiert.
 
 * Administratoren können für jede Gruppe freigeben, einschließlich &quot;Alle&quot;.
 * Nichtadministratoren können Gruppen, denen sie angehören, mit Ausnahme von &quot;Alle&quot;freigeben.
 
-## Freigeben von Projekten im Projektmanager
+## Freigeben von Projekten im Projektmanager {#Manager}
 
 Projekte können auch über **[!UICONTROL Komponenten]>[!UICONTROL Projekte]** freigegeben werden. Ein einzelnes Projekt kann wie oben beschrieben freigegeben werden.
 
@@ -75,4 +75,14 @@ Wenn mehrere Projekte ausgewählt wurden, die freigegeben werden sollen, werden 
 * Bei Auswahl von Projekt A und B werden die Benutzer 4 und 7 zu den Listen des Empfängers hinzugefügt. Die Liste der neuen Empfänger für jedes Projekt lautet nun:
    * Projekt A: 1, 2, 3, 4, 7
    * Projekt B: 4, 5, 6, 7
+
    ![](assets/mult-proj-sharing.png)
+
+## Häufig gestellte Fragen (FAQ){#FAQs}
+
+| Frage | Antwort |
+|---|---|
+| Was passiert, wenn zwei Editoren gleichzeitig ein Projekt speichern? | Die Änderungen werden nicht zusammengeführt und die zuletzt gespeicherte Projektversion bleibt erhalten. Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. |
+| Welche Projekterfahrung sehe ich als Administrator? | Administratoren, die in die Rolle &quot; **[!UICONTROL Können-Duplikat]** &quot;oder &quot; **[!UICONTROL Können-Ansicht]** &quot;aufgenommen werden, erhalten diese eingeschränkten Erlebnisse, wenn sie ein Projekt öffnen. Falls gewünscht, kann ein Administrator seine Rolle auf **[!UICONTROL Kann jederzeit bearbeiten]** über **[!UICONTROL Komponenten]>[!UICONTROL Projekte]** erhöhen. |
+| Was passiert, wenn ein Benutzer in einer Rolle als Einzelperson und in einer anderen Rolle als Mitglied einer Gruppe platziert wird? | Wenn ein Empfänger in mehreren Rollen platziert wird, erhält er immer das höhere Erlebnis. Wenn einem Benutzer beispielsweise die Rolle &quot; **[!UICONTROL Kann bearbeiten]** &quot;als Einzelperson und die Rolle &quot; **[!UICONTROL Kann-Ansicht]** &quot;als Gruppenmitglied zugewiesen wird, erhält er eine **[!UICONTROL Kann-Bearbeitung]** . |
+| Warum erhält ein Benutzer eine Ansicht, wenn er einen Projektlink erhält? | Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält (**[!UICONTROL Freigeben]> Projektverknüpfung[!UICONTROL abrufen]**), wird er standardmäßig in der Rolle &quot; **[!UICONTROL Kann Ansicht]** &quot;platziert. Wenn der Benutzer eine größere Rolle im Projekt haben möchte, kann der Projekteigentümer oder -editor sie dem Kann-Duplikat hinzufügen oder können die Rolle über das Projektfreigabemodal bearbeiten. |
