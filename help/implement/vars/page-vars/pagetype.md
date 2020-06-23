@@ -1,7 +1,7 @@
 ---
 title: pageType
 description: Stellen Sie fest, ob es sich bei der aktuellen Seite um einen 404-Fehler handelt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
