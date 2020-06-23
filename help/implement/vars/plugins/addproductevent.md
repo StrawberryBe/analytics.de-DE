@@ -1,7 +1,7 @@
 ---
 title: addProductEvent
 description: Fügt den Variablen „products“ und „events“ benutzerspezifische Ereignisse hinzu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -75,7 +75,7 @@ Das addProductEvent-Plug-in erstellt und verwendet keine Cookies.
 
 ### Beispiel 1
 
-Der folgende Code setzt die `s.products` Variable auf `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+Der folgende Code setzt die Variable `s.products` auf `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
@@ -83,22 +83,22 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-Der obige Code setzt außerdem die `s.events` Variable auf `"purchase,event35"`
+Der obige Code setzt außerdem die Variable `s.events` auf `"purchase,event35"`
 
 ### Beispiel 2
 
-Der folgende Code setzt die `s.products` Variable auf `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
+Der folgende Code setzt die Variable `s.products` auf `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-Wenn das dritte Argument im `addProductEvent` Aufruf `true` (oder `1`) lautet, wird für jeden Produkteintrag das im Aufruf angegebene Ereignis zu seinem Wert hinzugefügt.
+Wenn das dritte Argument im `addProductEvent`-Aufruf `true` (oder `1`) lautet, wird für jeden Produkteintrag das im Aufruf angegebene Ereignis zu seinem Wert hinzugefügt.
 
 ### Beispiel 3
 
-Der folgende Code setzt die `s.products` Variable auf `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+Der folgende Code setzt die Variable `s.products` auf `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -108,11 +108,11 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-Der obige Code setzt außerdem die `s.events` Variable auf `"purchase,event2,event33,event34,event35"`
+Der obige Code setzt außerdem die Variable `s.events` auf `"purchase,event2,event33,event34,event35"`
 
 ### Beispiel 4
 
-Der folgende Code setzt die `s.products` Variable auf `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+Der folgende Code setzt die Variable `s.products` auf `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -122,19 +122,19 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-Der obige Code setzt auch die `s.events` Variable auf `"purchase,event2,event33,event34,event35"`.
+Der obige Code setzt auch die Variable `s.events` auf `"purchase,event2,event33,event34,event35"`.
 
 >[!NOTE] Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
 
 ### Beispiel 5
 
-Wenn `s.products` noch nicht festgelegt ist, setzt der folgende Code ihn auf `";;;;event35=25"`
+Wenn `s.products` noch nicht festgelegt ist, setzt der folgende Code die Variable auf `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-Der oben genannte Code wird auch `"event35"` am Ende von angehängt `s.events`**oder**, falls `s.events` noch nicht festgelegt, wird der oben genannte Code auf `s.events``"event35"`
+Der oben genannte Code hängt auch `"event35"` an das Ende von `s.events` **oder**, falls `s.events` noch nicht spezifiziert ist, setzt der oben genannte Code `s.events` auf `"event35"`
 
 ## Versionsverlauf
 
