@@ -2,7 +2,7 @@
 description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie Dimensionen, Segmente und Funktionen per Drag-and-Drop verschieben können, um benutzerdefinierte Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren zu erstellen. Mit diesem integrierten Entwicklungstool können Sie einfache berechnete Metriken oder komplexe, erweiterte berechnete Metriken erstellen und speichern.
 title: Metriken erstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -14,12 +14,12 @@ Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie D
 
 Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
 
-* Öffnen Sie im Arbeitsbereich für Analysen ein Projekt und klicken Sie auf **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
-* Gehen Sie [!DNL Analytics]zu **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
+* Öffnen Sie ein Projekt in Analysis Workspace und klicken Sie auf **[!UICONTROL + Neu]** > **[!UICONTROL Metrik erstellen]** .
+* Gehen Sie in [!DNL Analytics] zu **[!UICONTROL Komponenten]** > **[!UICONTROL Berechnete Metriken]**.
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
+* Klicken Sie oben im [Manager für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) auf **[!UICONTROL + Hinzufügen]** oder
 
-* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
+* gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]**, öffnen Sie einen beliebigen Bericht und klicken Sie auf das Metrikensymbol ![](assets/metrics_icon.png), um die Metrikenleiste aufzurufen. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Produktkompatibilität </span> </td> 
-   <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mehr... </a> </p> </p> </td> 
+   <td colname="col3"> <p>Über die Produktkompatibilität können Sie sehen, ob die Metrik mit <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/current-data.html"  >aktuellen Daten</a>, mit vollständig verarbeiteten Daten oder nur mit Marketingkanalberichten (Erstkontaktzuordnung) kompatibel ist. <p>Hinweis: Bei aktuellen Daten werden nicht alle Metriken unterstützt. Metriken mit Segmenten oder Funktionen sind nicht mit aktuellen Daten kompatibel. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mehr... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Fügen Sie </span> </td> 
@@ -128,11 +128,11 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Segmenten </p> </td> 
-   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Wenn Sie Administrator sind, enthält diese Liste alle in Ihrem Anmeldeunternehmen erstellten Segmente. Wenn Sie kein Administrator sind, enthält diese Liste Segmente, deren Eigentümer Sie sind, sowie Segmente, die für Sie freigegeben wurden. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > Mehr... </a> </p> </td> 
+   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Wenn Sie Administrator sind, enthält diese Liste alle in Ihrem Anmeldeunternehmen erstellten Segmente. Wenn Sie kein Administrator sind, enthält diese Liste Segmente, deren Eigentümer Sie sind, sowie Segmente, die für Sie freigegeben wurden. <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segment-reference/seg-rights.html"  > Mehr... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste von Funktionen </p> </td> 
-   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Funktionen werden in zwei Listen aufgeteilt:  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Einfach</a> (am häufigsten verwendet) und <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Erweitert</a>. </p> </td> 
+   <td colname="col3"> <p>(Nur erweiterte berechnete Metriken) Funktionen werden in zwei Listen aufgeteilt: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Einfach</a> (am häufigsten verwendet) und <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Erweitert</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Report Suite-Auswahl </p> </td> 
