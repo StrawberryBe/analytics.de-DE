@@ -1,7 +1,7 @@
 ---
 title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -95,7 +95,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 
 ... ist so konfiguriert, dass er sich wie folgt verhält:
 
-* Der Timer startet, wenn s.events event1 enthält.
+* Der Timer startet, wenn s.events event1 enthält
 * Der Timer startet jedes Mal erneut, wenn s.events event1 enthält
 * Der Timer stoppt, wenn s.events event2 enthält
 * Der Timer wird jedes Mal, wenn s.events event2 enthält, zurückgesetzt (d. h. auf 0 Sekunden gehen)
@@ -113,7 +113,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 
 ... ist so konfiguriert, dass er sich wie folgt verhält:
 
-* Der Timer startet, wenn s.events event1 enthält.
+* Der Timer startet, wenn s.events event1 enthält
 * Der Timer wird NICHT jedes Mal neu gestartet, wenn s.events event1 enthält. Der ursprüngliche Timer wird weiterhin ausgeführt
 * Der Timer wird NICHT gestoppt, wenn s.events event2 enthält, aber das Plug-in zeichnet die Zeit auf, seitdem das ursprüngliche Ereignis event1 aufgezeichnet wurde
 * Der Timer wird in einem Cookie mit dem Namen „s_20“ gespeichert
