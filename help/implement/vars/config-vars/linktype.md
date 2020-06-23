@@ -1,7 +1,7 @@
 ---
 title: linkType
 description: Verwenden Sie die Variable „linkType“, um zu bestimmen, zu welcher Linktracking-Dimension der Treffer gehört.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,13 +32,13 @@ Sie können dieses Dropdown-Menü auf [!UICONTROL Benutzerspezifischer Link], [!
 
 ## s.linkType in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.linkType`-Variable ist eine Zeichenfolge, die einen von drei Einzelzeichenwerten akzeptiert: `o`, `d` oder `e`. If a `tl()` method is called without a link type, it defaults to Custom link.
+Die `s.linkType`-Variable ist eine Zeichenfolge, die einen von drei Einzelzeichenwerten akzeptiert: `o`, `d` oder `e`. Wenn eine `tl()`-Methode ohne Link-Typ aufgerufen wird, wird standardmäßig der benutzerspezifische Link verwendet.
 
 * `o` – Benutzerspezifische Links
 * `d` – Downloadlinks
 * `e` – Exitlinks
 
->[!TIP] Diese Variable ist der zweite Parameter der `tl()` Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] Diese Variable ist der zweite Parameter der `tl()`-Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. Sie können die `linkType`-Variable jedoch verwenden, wenn Sie Werte nicht als Argumente in der `tl()`-Methode festlegen möchten.
 
 ```js
 s.linkType = "e";
