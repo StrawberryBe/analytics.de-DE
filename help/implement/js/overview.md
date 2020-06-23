@@ -1,7 +1,7 @@
 ---
 title: AppMeasurement für JavaScript
 description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Management-System implementieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -37,7 +37,7 @@ AppMeasurement für JavaScript ist seit jeher eine gängige Methode zur Implemen
    s.events = "event1";
    ```
 
-4. When all page-level variables are defined, send the data to Adobe using the `t()` method. Weitere Informationen finden Sie unter [t](../vars/functions/t-method.md).
+4. Wenn alle Variablen auf Seitenebene definiert sind, senden Sie die Daten mit der `t()`-Methode an Adobe. Weitere Informationen finden Sie unter [t](../vars/functions/t-method.md).
 
    ```js
    s.t();
