@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Häufig gestellte Fragen zu VRS
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
@@ -35,7 +35,7 @@ Tipps und Best Practices für neue Benutzer von Virtual Report Suites.
    <td colname="col1"> <b>Welche Einstellungen erben Virtual Report Suites von der übergeordneten Report Suite? </b> </td> 
    <td colname="col2"> <p>Eine Virtual Report Suite (VRS) erbt die meisten Service-Levels der übergeordneten Report Suite, wie die eVar-Einstellungen, Verarbeitungsregeln, Classifications usw. </p> <p>Die folgenden Einstellungen werden <b>NICHT</b> vererbt: </p> 
     <ul> 
-     <li>Die Report Suite-ID </li> 
+     <li>Report Suite-ID </li> 
      <li>Name der Report Suite </li> 
      <li>Berechtigungsgruppen (Virtual Report Suites können eigenen Berechtigungsgruppen zugewiesen werden.) </li> 
     </ul> <p>Hinweis: Dies betrifft nicht die meisten von Benutzern erstellten Entitäten, wie Lesezeichen, Dashboards, terminierte Berichte usw.Diese Elemente werden nicht von der übergeordneten Report Suite geerbt und können spezifisch für die VRS erstellt und verwendet werden (weitere Einzelheiten liefert die Antwort auf die nächste Frage). </p> </td> 
