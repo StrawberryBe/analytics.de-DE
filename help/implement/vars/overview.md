@@ -2,7 +2,7 @@
 title: Übersicht über Variablen, Funktionen, Methoden und Plug-ins
 description: Erfahren Sie, welche Variablen Sie in die an Adobe gesendeten Daten aufnehmen können, um die Berichterstellung zu verbessern.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -26,7 +26,7 @@ AppMeasurement-Bibliotheken, die von Adobe Analytics veröffentlicht werden, bef
 
 1. Wenn Ihre Website eine Datenschicht verwendet, stellen Sie sicher, dass alle entsprechenden Variablen zuerst gefüllt werden. Weitere Informationen finden Sie unter [Datenschicht](../prepare/data-layer.md).
 2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. Wenn Sie Launch verwenden, ist diese Aufgabe einfach zu bewältigen, indem Sie Datenelemente verwenden und dann das Datenelement einer Variablen zuweisen. Siehe [Datenelemente](https://docs.adobe.com/content/help/de-DE/launch/using/reference/manage-resources/data-elements.html) im Launch-Benutzerhandbuch.
-3. Rufen Sie die Tracking-Funktion auf. Most AppMeasurement libraries use the `t()` method, however some mobile SDK&#39;s use `track()`. Wenn die Tracking-Funktion aufgerufen wird, werden alle im Analytics-Objekt definierten unterstützten Variablen in Form einer Bildanforderung an Adobe gesendet.
+3. Rufen Sie die Tracking-Funktion auf. Die meisten AppMeasurement-Bibliotheken verwenden die `t()`-Methode, doch einige mobile SDKs verwenden `track()`. Wenn die Tracking-Funktion aufgerufen wird, werden alle im Analytics-Objekt definierten unterstützten Variablen in Form einer Bildanforderung an Adobe gesendet.
 
 ## Unzulässige Zeichen
 
