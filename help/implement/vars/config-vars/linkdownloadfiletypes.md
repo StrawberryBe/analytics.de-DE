@@ -1,7 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. Wenn die Link-URL einen in `linkDownloadFileTypes` gefundenen Dateityp enthält, wird automatisch eine Bildanforderung für den Downloadlink gesendet.
+Wenn [`trackDownloadLinks`](trackdownloadlinks.md) aktiviert ist und ein Besucher auf einen Link klickt, überprüft AppMeasurement die URL des Links auf Dateityp-Erweiterungen. Wenn die Link-URL einen in `linkDownloadFileTypes` gefundenen Dateityp enthält, wird automatisch eine Bildanforderung für den Downloadlink gesendet.
 
 Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen Sie als Download-Links zählen möchten.
 
@@ -21,7 +21,7 @@ Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen 
 > * Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
 >
 > 
-For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
 
 Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downloadlinks entspricht, hat der Downloadlink-Typ Priorität.
 
