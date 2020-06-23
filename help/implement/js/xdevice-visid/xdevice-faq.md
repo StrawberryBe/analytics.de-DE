@@ -1,7 +1,7 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Besucheridentifizierung
 description: Häufig gestellte Fragen zur geräteübergreifenden Besucheridentifizierung
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
