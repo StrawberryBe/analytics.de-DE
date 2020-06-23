@@ -1,7 +1,7 @@
 ---
 title: Seitenvariablen
 description: Legen Sie Werte auf einer einzelnen Seite fest.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # Seitenvariablen
 
-Seitenvariablen bestimmen die Werte für Dimensionen und Metriken in Berichte.
+Seitenvariablen bestimmen die Werte für Dimensionen und Metriken in Berichten.
 
-Die folgende Liste enthält häufig bei Implementierungen verwendete Variablen:
+Die folgende Liste enthält die häufig in Implementierungen verwendeten Variablen:
 
 * [`pageName`](pagename.md): Der Name der Seite.
-* [`campaign`](campaign.md): Legen Sie diese Variable zur Verfolgung von Kampagnen auf einen Abfragen-Zeichenfolgenparameter fest.
-* [`events`](events/events-overview.md): Füllen Sie die Metriken zur Verwendung in Berichte.
-* [`products`](products.md): Wenn Sie eine E-Commerce-Site haben, legen Sie diese Variable fest, wenn ein Besucher ein Produkt Ansicht oder kauft.
+* [`campaign`](campaign.md): Legen Sie diese Variable auf einen Abfragezeichenfolge-Parameter zum Tracken von Kampagnen fest.
+* [`events`](events/events-overview.md): Füllen Sie Metriken zur Verwendung in Berichten.
+* [`products`](products.md): Wenn Sie eine E-Commerce-Site haben, legen Sie diese Variable fest, wenn ein Besucher ein Produkt ansieht oder kauft.
