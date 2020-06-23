@@ -3,10 +3,10 @@ description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-List
 title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTR
 
 Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
-## Was bedeutet der Parameter „Include-Zeros“?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Was bedeutet der Parameter „Include-Zeros“? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null „nichts“, in anderen Fällen kann sie aber auch wichtig sein.
 
@@ -44,7 +44,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Ungefährer Distinct Count (Dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Gibt den ungefähren Distinct Count für die Elemente der ausgewählten Dimension zurück. Diese Funktion verwendet die HyperLogLog (HLL)-Methode zur ungefähren Bestimmung des Distinct Count.  Sie ist entsprechend eingestellt, um zu garantieren, dass der Wert zu 95 % der Zeit 5 % des tatsächlichen Werts beträgt.
+Gibt den ungefähren Distinct Count für die Elemente der ausgewählten Dimension zurück. Diese Funktion verwendet die HyperLogLog (HLL)-Methode zur ungefähren Bestimmung des Distinct Count. Sie ist entsprechend eingestellt, um zu garantieren, dass der Wert zu 95 % der Zeit 5 % des tatsächlichen Werts beträgt.
 
 ```
 Approximate Count Distinct (dimension)
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *Dimension* | Die Dimension, für die Sie den ungefähren Distinct Count für Elemente ermitteln möchten. |
 
-## Beispielanwendungsfall  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Beispielanwendungsfall {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
 
@@ -66,11 +66,11 @@ So könnte die „Ungefähre Kunden“-Metrik für Berichte verwendet werden:
 
 ![](assets/approx-customers.png)
 
-## Individuelle Werte überschritten  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Individuelle Werte überschritten {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
+Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://docs.adobe.com/content/help/de-DE/analytics/technotes/low-traffic.html). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
 
-## Vergleich von Count-Funktionen  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Vergleich von Count-Funktionen {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Ungefährer Distinct Count() ist eine Verbesserung im Vergleich zu Count()- und RowCount()-Funktionen, da die dadurch erstellte Metrik in allen Dimensionsberichten verwendet werden kann, um eine ungefähre Elementanzahl für eine separate Dimension zu rendern. Beispielsweise wird eine Anzahl an Kunden-IDs in einem Bericht zu Mobilgerätetypen verwendet.
 
@@ -469,7 +469,7 @@ Gibt die Konstante PI (3,14159265358979) mit 15 Stellen zurück.
 PI()
 ```
 
-Die Funktion [!DNL PI]weist keine Argumente auf.
+Die Funktion [!DNL PI] weist keine Argumente auf.
 
 ## Potenzregression: Korrelationskoeffizient (Tabelle) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
@@ -512,7 +512,7 @@ Berechnet die prognostizierten [!DNL y]-Werte ([!DNL metric_Y]) anhand der bekan
 
 ## Potenzregression: Steigung (Tabelle) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Gibt die Steigung ** zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X]a zurück.
+Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X]a zurück.
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -616,7 +616,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## Reziproke Regression: Steigung (Tabelle) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Gibt die Steigung ** zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b]a zurück.
+Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b] zurück.
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
