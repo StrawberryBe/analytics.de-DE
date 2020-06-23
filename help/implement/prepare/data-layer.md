@@ -1,7 +1,7 @@
 ---
 title: Datenschicht erstellen
 description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementierung ist und wie sie zur Zuordnung von Variablen in Adobe Analytics verwendet werden kann.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -170,4 +170,4 @@ Datenschichten werden normalerweise Server-seitig generiert und verweisen auf di
 
 ## Nächste Schritte
 
-[Ordnen Sie Datenschichtobjekte Datenelementen](../launch/layer-to-elements.md)zu: Verwenden Sie die Datenschicht Ihrer Site im Adobe Experience Platform Launch.
+[Ordnen Sie Datenschichtobjekte Datenelementen zu](../launch/layer-to-elements.md): Verwenden Sie die Datenschicht Ihrer Site in Adobe Experience Platform Launch.
