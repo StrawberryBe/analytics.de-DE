@@ -1,7 +1,7 @@
 ---
 title: Übersicht über dynamische Konten
 description: Erfahren Sie, wie Sie eine Report Suite mit H-Code dynamisch auswählen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
