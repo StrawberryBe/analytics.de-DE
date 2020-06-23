@@ -1,7 +1,7 @@
 ---
 title: trackExternalLinks
 description: Aktivieren oder deaktivieren Sie das automatische Linktracking für Exitlinks.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 # trackExternalLinks
 
-Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. Aktivieren Sie diese Variable, wenn Sie das automatische Linktracking für Exitlinks verwenden möchten.
+Adobe bietet die Möglichkeit, ausgehende Links zu verfolgen, ohne die [`tl()`](../functions/tl-method.md)-Methode für jeden Exitlink manuell festzulegen. Aktivieren Sie diese Variable, wenn Sie das automatische Linktracking für Exitlinks verwenden möchten.
 
 Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-URLs mit den Werten in [`linkInternalFilters`](linkinternalfilters.md) und [`linkExternalFilters`](linkexternalfilters.md). Bei Übereinstimmung wird automatisch ein Exitlinktracking-Aufruf ausgelöst.
 
@@ -26,7 +26,7 @@ Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Exitlinks
 
 ## s.trackExternalLinks in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-`s.trackExternalLinks` ist ein boolescher Wert, der das automatische Tracking von Exitlinks aktiviert oder deaktiviert. If you do not want to track outbound links, or would prefer to manually call the `tl()` method to track exit links, set this variable to `false`.
+`s.trackExternalLinks` ist ein boolescher Wert, der das automatische Tracking von Exitlinks aktiviert oder deaktiviert. Wenn Sie ausgehende Links nicht verfolgen oder die `tl()`-Methode zum Tracking von Exitlinks lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
 
 ```js
 s.trackExternalLinks = true;
