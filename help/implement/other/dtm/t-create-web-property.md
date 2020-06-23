@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Webeigenschaft erstellen
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
 
->[!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
+>[!NOTE] Nur Benutzer mit ausreichenden Admin-Rechten können eine Eigenschaft erstellen. Weitere Informationen zu Rollen finden Sie unter [Erstellen und Verwalten von Gruppen in DTM](https://docs.adobe.com/content/help/de-DE/dtm/using/admin/groups.html) in der Produktdokumentation zu Dynamic Tag Management.
 
 Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
-Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) in der Produktdokumentation zu Dynamic Tag Management.
+Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://docs.adobe.com/content/help/de-DE/dtm/using/admin/web-property.html) in der Produktdokumentation zu Dynamic Tag Management.
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -49,7 +49,7 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tbody> 
     </table>
 
-1. (Optional) Konfigurieren [!UICONTROL Advanced Settings].
+1. (Optional) Konfigurieren Sie [!UICONTROL Erweiterte Einstellungen].
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -77,9 +77,9 @@ Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Verankerungsverzögerung</span> </td> 
-    <td colname="col2"> <p>Gibt an, wie lange das Dynamic Tag Management darauf wartet, dass Tags bei geklickten Links ausgelöst werden, bevor ein Wechsel zur nächsten Seite erfolgt. Der Standardwert beträgt 100 Millisekunden. </p> <p>Größere Verzögerungen erhöhen die Genauigkeit der Verfolgung. Adobe empfiehlt eine Verzögerung von 500 Millisekunden oder weniger; eine solche wird vom Benutzer nicht wahrgenommen. </p> <p>Das Dynamic Tag Management wartet die gegebene Zeitspanne ab, wird das Signal jedoch früher ausgelöst, wird die Verzögerung verkürzt. (Das bedeutet, dass der Benutzer nicht immer die volle Verzögerungsdauer abwarten muss.) </p> </td> 
+    <td colname="col2"> <p>Gibt an, wie lange das Dynamic Tag Management darauf wartet, dass Tags bei geklickten Links ausgelöst werden, bevor ein Wechsel zur nächsten Seite erfolgt. Der Standardwert beträgt 100 Millisekunden. </p> <p>Größere Verzögerungen erhöhen die Genauigkeit des Trackings. Adobe empfiehlt eine Verzögerung von 500 Millisekunden oder weniger; eine solche wird vom Benutzer nicht wahrgenommen. </p> <p>Das Dynamic Tag Management wartet die gegebene Zeitspanne ab, wird das Signal jedoch früher ausgelöst, wird die Verzögerung verkürzt. (Das bedeutet, dass der Benutzer nicht immer die volle Verzögerungsdauer abwarten muss.) </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Create Property]**.
+1. Klicken Sie auf **[!UICONTROL Eigenschaft erstellen]**.
