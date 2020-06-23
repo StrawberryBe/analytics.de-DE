@@ -1,7 +1,7 @@
 ---
 title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -105,7 +105,7 @@ Verwenden Sie JavaScript, um einen einfachen Linktracking-Aufruf mithilfe von Me
 s.tl(true,"o","Example link");
 ```
 
-Verwenden Sie JavaScript, um denselben einfachen Linkverfolgungsaufruf mit separaten Variablen durchzuführen:
+Verwenden Sie JavaScript, um denselben einfachen Linktracking-Aufruf mit separaten Variablen durchzuführen:
 
 ```js
 s.linkType = "o";
