@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: Ermöglicht die Beibehaltung von Abfragezeichenfolgen in Linktracking-Dimensionen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-AppMeasurement entfernt Abfragezeichenfolgen standardmäßig aus Linktracking-URLs. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+AppMeasurement entfernt Abfragezeichenfolgen standardmäßig aus Linktracking-URLs. Verwenden Sie die Variable `linkLeaveQueryString`, um Abfragezeichenfolgen in den Linktracking-Dimensionen beizubehalten.
 
 Bei einigen Exitlinks und Downloadlinks kann sich der wichtige Teil der URL in der Abfragezeichenfolge befinden. Beispielsweise enthält ein Downloadlink wie `https://example.com/download.asp?filename=myfile.exe` wichtige Link-Informationen in der Abfragezeichenfolge.
 
