@@ -1,7 +1,7 @@
 ---
 title: dc
 description: Eine eingestellte Variable, mit der Sie bestimmen können, welches Rechenzentrum verwendet werden soll.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
