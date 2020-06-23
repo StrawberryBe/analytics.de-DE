@@ -3,7 +3,7 @@ description: Sequenzielle Segmente werden über den DANN-Operator anstelle von U
 title: Sequentielle Segmente erstellen
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,7 +28,7 @@ Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist,
 | Stimmt überein | A, dann B<br>A, dann B (in einem anderen Besuch) B<br>A, dann D, dann B |
 | Stimmt nicht überein mit | B, dann A |
 
-## „Nur vor Sequenz“ und „Nur nach Sequenz“  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## „Nur vor Sequenz“ und „Nur nach Sequenz“ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 Die Optionen **[!UICONTROL Nur vor Sequenz]** und **[!UICONTROL Nur nach Sequenz]** filtern das Segment vor oder nach der angegebenen Sequenz nach einer Teilmenge an Daten.
 
@@ -176,11 +176,11 @@ Segmentregeln beinhalten alle Daten, es sei denn, Sie schließen mithilfe der Re
 
 Beispiel:
 
-* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die  *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite der „Homepage“ entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
+* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine spezielle Seite aus einem Bericht zu entfernen (beispielsweise die *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite der „Homepage“ entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
 * **Schließen Sie die Referrerdomäne aus**. Verwenden Sie eine Regel, die nur Referrerdomänen aus „Google.com“ einschließt und alle anderen Domänen ausschließt.
 * **Identifizieren Sie Nicht-Käufer**. Bestimmen Sie, wann Bestellungen größer als null sind, und schließen Sie dann den [!UICONTROL Besucher] aus.
 
-Der [!UICONTROL Ausschlussoperator] kann zum Identifizieren einer Sequenz verwendet werden, in der vom Besucher keine spezifischen Besuche oder Treffer ausgeführt wurden. [!UICONTROL Ausschluss-Checkpoints] können auch in eine  [logische Gruppe](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
+Der [!UICONTROL Ausschlussoperator] kann zum Identifizieren einer Sequenz verwendet werden, in der vom Besucher keine spezifischen Besuche oder Treffer ausgeführt wurden. [!UICONTROL Ausschluss-Checkpoints] können auch in eine [logische Gruppe](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### Ausschluss zwischen Checkpoints
 
@@ -197,7 +197,7 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 **Dieses Segment erstellen**
 
-Erstellen Sie ein Segment, wie Sie dies für ein  einfaches oder verschachteltes sequenzielles Segment bzw. ein Segment mit gemischten Ebenen tun würden, und legen Sie dann den [!UICONTROL AUSSCHLIESSEN]-Operator für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL DANN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
+Erstellen Sie ein Segment, wie Sie dies für ein einfaches oder verschachteltes sequenzielles Segment bzw. ein Segment mit gemischten Ebenen tun würden, und legen Sie dann den [!UICONTROL AUSSCHLIESSEN]-Operator für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL DANN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -249,7 +249,7 @@ Der [!UICONTROL logische Gruppencontainer] wurde so konzipiert, dass *mehrere Ch
 | Behälterhierarchie | Illustration | Definition |
 |---|---|---|
 | Standardbehälterhierarchie | ![](assets/nesting_container.png) | Innerhalb des [!UICONTROL Besuchercontainers] werden die Container für [!UICONTROL Besuche] und [!UICONTROL Treffer] in einer Sequenz verschachtelt, um Segmente basierend auf Treffern, der Anzahl der Besuche und basierend auf dem Besucher zu extrahieren. |
-| Logische Containerhierarchie | ![](assets/logic_group_hierarchy.png) | Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
+| Logische Containerhierarchie | ![](assets/logic_group_hierarchy.png) | Die Standardbehälterhierarchie ist auch außerhalb des [!UICONTROL Logischen Gruppenbehälters] erforderlich. Innerhalb des [!UICONTROL Logischen Gruppenbehälters] ist für die Checkpoints jedoch keine bestimmte Reihenfolge oder Hierarchie erforderlich. Diese Checkpoints müssen einfach vom Besucher in beliebiger Reihenfolge getroffen werden. |
 
 Logische Gruppen wirken vielleicht abschreckend – hier finden Sie einige Best Practices zur Verwendung dieser Gruppen:
 
@@ -280,7 +280,7 @@ Wie andere Container können auch [!UICONTROL logische Gruppencontainer] auf meh
 1. Ändern Sie den oberen Behälter in einen [!UICONTROL Besucher] behälter.
 1. Ändern Sie den standardmäßig eingefügten [!UICONTROL UND]- oder [!UICONTROL ODER]-Operator in den DANN-Operator.
 1. Wählen Sie die [!UICONTROL Trefferbehälter] aus (Dimension, Ereignis oder Element) und klicken Sie auf **[!UICONTROL Optionen]** > **[!UICONTROL Behälter aus Auswahl hinzufügen]**.
-1. Klicken Sie auf das Behältersymbol und wählen Sie **[!UICONTROL Logische Gruppe aus]**.  ![](assets/logic_group_checkpoints.png)
+1. Klicken Sie auf das Behältersymbol und wählen Sie **[!UICONTROL Logische Gruppe]**.  ![](assets/logic_group_checkpoints.png)
 1. Nun können Sie die [!UICONTROL Treffer] im [!UICONTROL logischen Gruppenbehälter] ungeachtet der Hierarchie festlegen.
 
 ### Logische Gruppe – Checkpoints in beliebiger Reihenfolge
@@ -309,7 +309,7 @@ Die Verwendung der [!UICONTROL logischen Gruppe] ermöglicht Ihnen das Erfüllen
 
 **Dieses Segment erstellen**
 
-Die Dimensionen von Seite B und C werden innerhalb eines [!UICONTROL logischen Gruppenbehälters] gruppiert, wobei der [!UICONTROL ODER]-Operator ausgewählt ist. Dann folgt der [!UICONTROL Trefferbehälter], der eine Seitenansicht von Seite A als Wert definiert.
+Die Dimensionen von Seite B und C werden innerhalb eines [!UICONTROL Logischen Gruppenbehälters] gruppiert, wobei der [!UICONTROL ODER]-Operator ausgewählt ist. Dann folgt der [!UICONTROL Trefferbehälter], der eine Seitenansicht von Seite A als Wert definiert.
 
 ![](assets/logic_group_1st_match.png)
 
@@ -323,7 +323,7 @@ Erstellen Sie mithilfe der [!UICONTROL logischen Gruppe] Segmente, wobei mehrere
 
 Erstellen Sie dieses Segment, indem Sie Dimensionen, Ereignisse und vorgefertigte Segmente aus den linken Fenstern ziehen. Siehe [Erstellen eines logischen Gruppensegments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
-Klicken Sie nach dem Verschachteln der Werte in der [!UICONTROL logischen Gruppe] im **[!UICONTROL logischen Gruppenbehälter]** auf die Schaltfläche [!UICONTROL Ausschließen].
+Klicken Sie nach dem Verschachteln der Werte in der [!UICONTROL logischen Gruppe] im [!UICONTROL logischen Gruppenbehälter] auf die Schaltfläche **[!UICONTROL Ausschließen]**.
 
 ![](assets/logic_exclude_and.png)
 
@@ -339,7 +339,7 @@ Die ursprünglichen Seiten B und C werden in einem ausgeschlossenen [!UICONTROL 
 
 Erstellen Sie dieses Segment, indem Sie Dimensionen, Ereignisse und vorgefertigte Segmente aus den linken Fenstern ziehen.
 
-Klicken Sie nach dem Verschachteln der Werte in der [!UICONTROL logischen Gruppe] im **[!UICONTROL logischen Gruppenbehälter]** auf die Schaltfläche [!UICONTROL Ausschließen].
+Klicken Sie nach dem Verschachteln der Werte in der [!UICONTROL logischen Gruppe] im [!UICONTROL logischen Gruppenbehälter] auf die Schaltfläche **[!UICONTROL Ausschließen]**.
 
 ![](assets/logic_exclude_or.png)
 
@@ -351,7 +351,7 @@ Mithilfe der in die Kopfzeilen der einzelnen Behälter integrierten [!UICONTROL 
 
 Mit den [!UICONTROL In]- und [!UICONTROL Nach]-Behältern und durch Angabe einer Granularität und Anzahl können Sie die Übereinstimmung auf eine angegebene Zeitdauer beschränken. Der [!UICONTROL In]-Operator wird zum Angeben einer maximalen Zeitbegrenzung zwischen zwei Checkpoints verwendet. Mit dem [!UICONTROL Nach]-Operator wird eine minimale Zeitbegrenzung zwischen zwei Checkpoints angegeben.
 
-### Nach- und In-Operatoren  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Nach- und In-Operatoren {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 Die Dauer wird durch einen einzelnen Großbuchstaben für die Granularität gefolgt von einer Zahl für die Wiederholungszahl der Granularität angegeben.
 
