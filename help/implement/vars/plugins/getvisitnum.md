@@ -1,7 +1,7 @@
 ---
 title: getVisitNum
 description: Verfolgen Sie die aktuelle Besuchsnummer eines Besuchers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -106,7 +106,7 @@ Wenn dieser Besucher jedoch 1 oder mehrere Tage nach seinem zweiten Besuch auf d
 s.prop1=s.getVisitNum(180,false);
 ```
 
-Wenn das zweite Argument im Aufruf gleich „false“ ist, wird die Routine, die bestimmt, wann die Besuchsnummer auf „1“ „zurückgesetzt“ werden soll, dies „x“ Tage –- in diesem Beispiel 365 Tage – nach dem ersten Besuch des Besuchers auf der Website tun.
+Wenn das zweite Argument im Aufruf gleich „false“ ist, wird die Routine, die bestimmt, wann die Besuchsnummer auf „1“ „zurückgesetzt“ werden soll, dies „x“ Tage – in diesem Beispiel 365 Tage – nach dem ersten Besuch des Besuchers auf der Website tun.
 
 Wenn das zweite Argument gleich „true“ (oder nicht gesetzt) ist, setzt das Plug-in die Besuchsnummer erst nach „x“ Tagen – in diesem Beispiel 365 Tage – der Besucherinaktivität auf „1“ zurück.
 
@@ -126,7 +126,7 @@ Für alle Besucher, die im laufenden Monat zum ersten Mal auf die Website kommen
 s.prop1=s.getVisitNum("m");
 ```
 
-Denken Sie daran, dass das getVisitNum-Plug-in Retail-basierte Kalender (d. h. 4-5-4, 4-4-5 usw.) nicht berücksichtigt
+Denken Sie daran, dass das getVisitNum-Plug-in Retail-basierte Kalender (d. h. 4-5-4, 4-4-5 usw.) nicht berücksichtigt.
 
 ### Beispiel 6
 
@@ -161,9 +161,9 @@ In diesem Fall erstellt das Plug-in drei verschiedene Cookies – eines für jed
 ### 4.0 (17. April 2018)
 
 * Zwischenversion (neu kompiliert, kleinere Code-Größe).
-* Cookie-Argumente wurden entfernt, da das Plug-in jetzt dynamisch Cookies basierend auf dem `rp`-Argument generiert
+* Cookie-Argumente wurden entfernt, da das Plug-in jetzt dynamisch Cookies basierend auf dem `rp`-Argument generiert.
 
 ### 3.0 (5. Juni 2016)
 
-* Vollständige Überarbeitung
+* Vollständige Überarbeitung.
 * Alle vorherigen Lösungen, die in verschiedenen Versionen des `getVisitNum`-Plug-ins verfügbar sind, wurden zusammengeführt.
