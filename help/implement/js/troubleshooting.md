@@ -1,7 +1,7 @@
 ---
 title: Fehlerbehebung bei der JavaScript-Implementierung
 description: Informieren Sie sich über häufige Probleme und Best Practices zur Fehlerbehebung bei der Implementierung von JavaScript.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ---
