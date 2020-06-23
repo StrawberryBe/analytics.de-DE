@@ -1,7 +1,7 @@
 ---
 title: trackDownloadLinks
 description: Aktivieren oder deaktivieren Sie das automatische Linktracking für Downloadlinks.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # trackDownLoadLinks
 
-Adobe offers the ability to track download links without manually setting the [`tl()`](../functions/tl-method.md) method for each download link. Aktivieren Sie diese Variable, wenn Sie das automatische Linktracking für Downloadlinks verwenden möchten.
+Adobe bietet die Möglichkeit, Downloadlinks zu verfolgen, ohne die [`tl()`](../functions/tl-method.md)-Methode für jeden Downloadlink manuell festzulegen. Aktivieren Sie diese Variable, wenn Sie das automatische Linktracking für Downloadlinks verwenden möchten.
 
 Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-URLs mit den Werten in [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Bei Übereinstimmung wird automatisch ein Download-Linktracking-Aufruf ausgelöst.
 
@@ -26,7 +26,7 @@ Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Downloadl
 
 ## s.trackDownloadLinks in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-`s.trackDownloadLinks` ist ein boolescher Wert, der das automatische Tracking von Downloadlinks aktiviert oder deaktiviert. If you do not want to track download links, or would prefer to manually call the `tl()` method to track downloads, set this variable to `false`.
+`s.trackDownloadLinks` ist ein boolescher Wert, der das automatische Tracking von Downloadlinks aktiviert oder deaktiviert. Wenn Sie Downloadlinks nicht verfolgen oder die `tl()`-Methode zum Tracking von Downloads lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
 
 ```js
 s.trackDownloadLinks = true;
