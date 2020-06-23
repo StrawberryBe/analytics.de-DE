@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Marketing-Kanälen
-description: Erfahren Sie mehr zum Arbeitsablauf für Marketing-Kanal, zur automatischen Einrichtung und zum Anwenden der Report Suite-Vorlageneinstellungen auf mehrere Report Suites.
-translation-type: tm+mt
+description: Informieren Sie sich über den Workflow für Marketing-Kanäle, zur automatischen Einrichtung und zur Übernahme von Report Suite-Vorlageneinstellungen für mehrere Report Suites.
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ Marketingkanäle werden häufig dazu verwendet, einen Einblick darin zu erhalten
 
 Marketingkanäle kreisen um First- und Last-Touch-Metriken, die Komponenten von standardmäßigen Konversionsmetriken sind.
 
-## Arbeitsablauf für Marketing-Kanal
+## Marketing-Kanal-Workflow
 
 ![](assets/step1_icon.png) Definieren jedes Kanals auf Grundlage Ihrer Geschäftsanforderungen.
 
@@ -26,7 +26,7 @@ Das Definieren der von Ihnen verwendeten Kanäle ist eine der wichtigsten Kompon
 * Möchten Sie alle Websites mit sozialen Netzwerken zusammenfassen, oder gibt es soziale Netzwerke, die Sie einzeln nachverfolgen möchten?
 * Sind andere Kanäle vorhanden, die möglicherweise die Konversion beeinflussen, die Sie nachverfolgen möchten?
 
-Eine Liste mit empfohlenen Kanälen finden Sie unter  [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definierung beim Erstellen von Kanälen zu vereinfachen.
+Eine Liste mit empfohlenen Kanälen finden Sie unter [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definierung beim Erstellen von Kanälen zu vereinfachen.
 
 ![](assets/step2_icon.png) Fügen Sie auf der Seite [!UICONTROL Marketing-Kanal-Manager] Marketing-Kanäle hinzu.
 
@@ -44,15 +44,15 @@ Informationen zum Verfahren finden Sie unter [Hinzufügen von Marketing-Kanälen
 
 Konfigurieren Sie nach der Erstellung von Kanälen auf der Seite [!UICONTROL Marketingkanal-Manager] die Regeln, damit Kanäle Daten abrufen können und Berichte dazu erstellen können.
 
-Siehe  [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md).
+Siehe [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md).
 
 Wenn Kanäle im automatischen Setup erstellt wurden, werden die Regeln in diesen Kanälen definiert. Sie können sie an Ihre Bedürfnisse anpassen.
 
-## Automatische Einrichtung für Marketing-Kanal {#run-auto-setup}
+## Automatische Einrichtung für Marketing-Kanäle {#run-auto-setup}
 
 Der Marketing-Kanal-Bericht bietet zum Einstieg eine einmalige Setup-Seite. Hier finden Sie eine Vielzahl an Marketing-Kanälen, die Sie zur Nachverfolgung nutzen können. Wenn Sie mit der Erstellung von Kanälen und Regeln vertraut sind, können Sie dieses Setup überspringen. Adobe empfiehlt jedoch, dass Sie den Assistent zur Erstellung der Kanäle nutzen. Durch das automatische Setup sehen Sie, wie Regeln erstellt werden. Darüber hinaus haben Sie die Möglichkeit, diese individuell anzupassen. Sie können die vordefinierten Kanäle jederzeit deaktivieren oder löschen.
 
-So führen Sie das automatische Setup für Marketingkanäle aus.
+So führen Sie das automatische Setup für Marketing-Kanäle aus.
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Wählen Sie im [!UICONTROL Report Suite Manager] eine Report Suite aus.
