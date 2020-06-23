@@ -1,7 +1,7 @@
 ---
 title: Übersicht über die JavaScript-Implementierung mit H-Code
 description: Erfahren Sie mehr über den Workflow zur Implementierung von H-Code auf Ihrer Website.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
