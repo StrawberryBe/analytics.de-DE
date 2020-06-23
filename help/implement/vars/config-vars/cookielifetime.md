@@ -1,7 +1,7 @@
 ---
 title: cookieLifetime
 description: Überschreiben Sie die Gültigkeit für von AppMeasurement erstellte Cookies.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
