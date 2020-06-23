@@ -1,7 +1,7 @@
 ---
 title: apl (appendToList)
 description: Fügen Sie Werte an Variablen an, die mehrere Werte unterstützen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-The `apl` plug-in allows you to safely add new values to list-delimited variables, such as [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md), and others.
+Mit dem `apl`-Plug-in können Sie sicher neue Werte zu durch Listen getrennten Variablen hinzufügen, wie z. B. [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) und andere.
 
 * Wenn der Wert, den Sie hinzufügen möchten, nicht in der Variablen vorhanden ist, fügt der Code den Wert am Ende der Zeichenfolge hinzu.
 * Wenn der Wert, den Sie hinzufügen möchten, bereits in der Variablen vorhanden ist, ändert dieses Plug-in den Wert nicht. Diese Funktionen ermöglichen es Ihrer Implementierung, doppelte Werte zu vermeiden.
@@ -294,7 +294,7 @@ s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
 s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 ```
 
-Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene Wert durch das erste Trennzeichen-Argument („|“) getrennt und dann durch das zweite Trennzeichen („-“) verbunden
+Da die beiden Trennzeichen-Argumente unterschiedlich sind, wird der übergebene Wert durch das erste Trennzeichen-Argument („ “) getrennt und dann durch das zweite Trennzeichen („-“) verbunden.
 
 ## Versionsverlauf
 
