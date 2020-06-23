@@ -1,10 +1,10 @@
 ---
-description: Beschreibung der Felder für die allgemeinen Einstellungen im Dynamic Tag Manager zur Bereitstellung von Adobe Analytics.
+description: Beschreibung der Felder für die allgemeinen Einstellungen im dynamischen Tag-Manager zur Bereitstellung von Adobe Analytics.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 title: Allgemein
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Beschreibung der Felder für die allgemeinen Einstellungen im DTM zur Implementierung von Adobe Analytics.
 
-**[!UICONTROL &lt;Eigenschaft>]** > ![](assets/settings_gear.png) **[!UICONTROL Tool bearbeiten]** > **[!UICONTROL Allgemein]**
+**[!UICONTROL &lt;Eigenschaft>]** > ![](assets/settings_gear.png)**[!UICONTROL Tool bearbeiten]** > **[!UICONTROL Allgemein]**
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 
@@ -52,7 +52,7 @@ Beschreibung der Felder für die allgemeinen Einstellungen im DTM zur Implementi
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL-Tracking-Server </p> </td> 
-   <td colname="col2"> <p>Die Domäne, in der die Bildanforderung und das Cookie geschrieben werden. Wird bei sicheren Seiten verwendet. Wenn nichts definiert ist, werden die SSL-Daten an  <span class="term">trackingServer</span> übermittelt. </p> </td> 
+   <td colname="col2"> <p>Die Domäne, in der die Bildanforderung und das Cookie geschrieben werden. Wird bei sicheren Seiten verwendet. Wenn nichts definiert ist, werden die SSL-Daten an <span class="term">trackingServer</span> übermittelt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datencenter </p> </td> 
