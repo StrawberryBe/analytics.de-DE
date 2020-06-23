@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Wählen Sie eine für Ihre Organisation eindeutige Unterdomäne aus, die wahrscheinlich nicht von einer anderen Organisation ausgewählt wird, die Adobe Analytics verwendet. Stellen Sie sicher, dass alle Implementierungen in Ihrem Unternehmen denselben Tracking-Server verwenden. Es kann hilfreich sein, diese Informationen in einem [Lösungsdesigndokument](../../prepare/solution-design.md) zu verwalten.
 
->[!NOTE] Verwenden Sie keine Subdomänen, die tiefer als `example.sc.omtrdc.net`. Zum Beispiel `custom.example.sc.omtrdc.net` ist kein gültiger Tracking-Server.
+>[!NOTE] Verwenden Sie keine Subdomains, die tiefer als `example.sc.omtrdc.net` gehen. Zum Beispiel ist `custom.example.sc.omtrdc.net` kein gültiger Trackingserver.
