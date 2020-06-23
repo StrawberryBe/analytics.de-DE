@@ -1,7 +1,7 @@
 ---
 title: rfl
 description: Entfernen Sie einen bestimmten Wert aus einer durch Zeichen getrennten Zeichenfolge.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-The `rfl` plug-in allows you to &quot;safely&quot; remove values from delimited strings, such as [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), and others. Dieses Plug-in ist nützlich, wenn Sie bestimmte Werte aus einer mit Trennzeichen versehenen Zeichenfolge entfernen möchten, ohne sich Gedanken über Trennzeichen machen zu müssen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um korrekt zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
+Mit dem `rfl`-Plug-in können Sie Werte aus getrennten Zeichenfolgen wie [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) und anderen „sicher“ entfernen. Dieses Plug-in ist nützlich, wenn Sie bestimmte Werte aus einer mit Trennzeichen versehenen Zeichenfolge entfernen möchten, ohne sich Gedanken über Trennzeichen machen zu müssen. Mehrere andere Plug-ins sind auf diesen Code angewiesen, um korrekt zu funktionieren. Dieses Plug-in ist nicht erforderlich, wenn Sie nicht gleichzeitig eine bestimmte Funktion für mehrere Analytics-Variablen ausführen müssen oder wenn Sie keine abhängigen Plug-ins verwenden.
 
 Das Plug-in verwendet folgende Logik:
 
@@ -60,7 +60,7 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 Die `rfl`-Methode verwendet die folgenden Argumente:
 
-* **`lv`** (erforderlich, Zeichenfolge): Eine Variable (oder Zeichenfolge), die eine Liste mit getrennten Werten enthält
+* **`lv`** (erforderlich, Zeichenfolge): Eine Variable (oder Zeichenfolge), die eine Liste mit getrennten Werten enthält.
 * **`vr`** (erforderlich, Zeichenfolge): Der Wert, der aus dem `lv`-Argument entfernt werden soll. Adobe empfiehlt, während eines einzelnen `rfl`-Aufrufs nicht mehrere Werte zu entfernen.
 * **`d1`** (optional, Zeichenfolge): Das Trennzeichen, das vom `lv`-Argument verwendet wird. Der Standardwert ist ein Komma (`,`).
 * **`d2`** (optional, Zeichenfolge): Das Trennzeichen, das die Rückgabezeichenfolge verwenden soll. Die Standardeinstellung ist derselbe Wert wie das `d1`-Argument.
@@ -110,7 +110,7 @@ s.events = s.rfl(s.events,"event26");
 s.events = "event22,event24,event25";
 ```
 
-In diesem Beispiel hat der rfl-Aufruf keine Änderungen an s.events vorgenommen, da s.events „event26“ nicht enthielt
+In diesem Beispiel hat der rfl-Aufruf keine Änderungen an s.events vorgenommen, da s.events „event26“ nicht enthielt.
 
 ### Beispiel 3
 
@@ -132,7 +132,7 @@ s.events = s.rfl(s.events);
 s.events = "";
 ```
 
-Wenn entweder das lv- oder vr-Argument in einem s.rfl-Aufruf leer ist, gibt das Plug-in nichts zurück
+Wenn entweder das lv- oder vr-Argument in einem s.rfl-Aufruf leer ist, gibt das Plug-in nichts zurück.
 
 ### Beispiel 4
 
@@ -401,7 +401,7 @@ Beachten Sie auch hier, dass das Plug-in nur einen Wert zurückgibt; es setzt di
 
 ### 2.01 (17. September 2019)
 
-* Geringfügige Fehlerbehebung für den Standardwert des Trennzeichens
+* Geringfügige Fehlerbehebung für den Standardwert des Trennzeichens.
 
 ### 2.0 (16. April 2018)
 
