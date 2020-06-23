@@ -1,7 +1,7 @@
 ---
 title: cookieDomainPeriods
 description: Hilft AppMeasurement zu verstehen, welche Domäne Cookies speichern soll, wenn Ihre Domäne einen Punkt im Suffix hat.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
