@@ -3,10 +3,10 @@ description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Freigeben von Workspace-Projekten
 translation-type: tm+mt
-source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
+source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 6%
+source-wordcount: '1073'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen s
 
 | Rolle | Projektsteuerung |
 |---|---|
-| Kann bearbeiten | Empfänger können Änderungen an einem Projekt „Speichern“ und als Miteigentümer auftreten. Diese Rolle ist nützlich, wenn Sie Projekte mit anderen Kollegen gemeinsam bearbeiten möchten.<br>Hinweis: Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. Es wird daher empfohlen, ein Projekt zu einem bestimmten Zeitpunkt nur von einem Benutzer zu bearbeiten. Wenn Projekte gleichzeitig gespeichert werden, wird die letzte Version beibehalten. |
-| Kann duplizieren | Empfänger können &quot;Speichern unter&quot;wählen und auf die linke Leiste zugreifen. Projektinteraktionen sind in dieser Rolle nicht beschränkt. Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analysis Workspace verstehen, Ihr Projekt jedoch nicht ändern möchten. |
+| Kann bearbeiten | Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. Diese Rolle ist nützlich, wenn Sie ein Projekt mit anderen Kollegen gemeinsam verwalten möchten. Dazu gehören das Bearbeiten, Löschen und Bearbeiten von Empfänger-Listen für ein freigegebenes Projekt. <br>Hinweis: Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. Es wird daher empfohlen, ein Projekt zu einem bestimmten Zeitpunkt nur von einem Benutzer zu bearbeiten. Wenn Projekte gleichzeitig gespeichert werden, wird die letzte Version beibehalten. |
+| Kann duplizieren | Empfänger können **[!UICONTROL speichern unter]** und haben Zugriff auf die linke Leiste. Projektinteraktionen sind in dieser Rolle nicht beschränkt. Diese Rolle ist nützlich, wenn Sie ein Projekt für Benutzer freigeben möchten, die die Daten Ihres Unternehmens und die Verwendung von Analysis Workspace verstehen, Ihr Projekt jedoch nicht ändern möchten. |
 | Kann anzeigen | Empfänger können nicht speichern unter und haben keinen Zugriff auf die linke Leiste. Auch die Projektinteraktionen sind begrenzt. Diese Rolle ist hilfreich, wenn Sie ein Projekt für Benutzer freigeben möchten, die mit der Datenstruktur Ihres Unternehmens, dem Analysis Workspace oder Adobe Analytics im Allgemeinen nicht so vertraut sind. Sie möchten jedoch weiterhin, dass sie Daten und Erkenntnisse in einer sicheren Umgebung nutzen.<br>Erfahren Sie mehr über das Projekterlebnis [Can Ansicht](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen s
 
 ### Keine Rolle zugewiesen (Empfänger des Projektlinks)
 
-Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält (**[!UICONTROL Freigeben]> Projektverknüpfung[!UICONTROL abrufen]**), wird er standardmäßig in der Rolle &quot; **[!UICONTROL Können-Duplikat]** &quot;platziert.
+Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält (**[!UICONTROL Freigeben]> Projektverknüpfung[!UICONTROL abrufen]**), wird er standardmäßig in eine Rolle eingefügt. Administratoren erhalten **[!UICONTROL Kann bearbeiten]** und Nichtadministratoren erhalten **[!UICONTROL Können-Duplikat]**.
 
 ### Mehrere Rollen zugewiesen
 
@@ -66,9 +66,7 @@ Alle Benutzer können Projekte für Gruppen freigeben, bei denen es sich um eine
 
 ## Share a project link {#Links}
 
-Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben]>[!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Projektrolle aufgenommen wurde, erhalten sie standardmäßig ein **[!UICONTROL Can-Duplikat]** -Projekterlebnis.
-
-Projekte können auch über **[!UICONTROL Komponenten]>[!UICONTROL Projekte]** freigegeben werden. Ein einzelnes Projekt kann wie oben beschrieben freigegeben werden
+Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben]>[!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten **[!UICONTROL Kann bearbeiten]** und Nichtadministratoren erhalten **[!UICONTROL Können-Duplikat]**.
 
 ## Freigeben von Projekten im Projektmanager {#Manager}
 
@@ -93,4 +91,4 @@ Bei Auswahl von Projekt A und B werden die Empfänger 4 und 7 zu den Listen für
 | Was passiert, wenn zwei Editoren gleichzeitig ein Projekt speichern? | Die Änderungen werden nicht zusammengeführt und die zuletzt gespeicherte Projektversion bleibt erhalten. Analysis Workspace unterstützt derzeit keine Live-Zusammenarbeit. |
 | Welche Projekterfahrung sehe ich als Administrator? | Administratoren, die in die Rolle &quot; **[!UICONTROL Können-Duplikat]** &quot;oder &quot; **[!UICONTROL Können-Ansicht]** &quot;aufgenommen werden, erhalten diese eingeschränkten Erlebnisse, wenn sie ein Projekt öffnen. Falls gewünscht, kann ein Administrator seine Rolle auf **[!UICONTROL Kann jederzeit bearbeiten]** über **[!UICONTROL Komponenten]>[!UICONTROL Projekte]** erhöhen. |
 | Was passiert, wenn ein Empfänger als Einzelperson und als Gruppenmitglied in eine Rolle eingeordnet wird? | Wenn ein Empfänger in mehreren Rollen platziert wird, erhält er immer das höhere Erlebnis. Wenn einem Empfänger beispielsweise die Rolle &quot; **[!UICONTROL Kann bearbeiten]** &quot;als Einzelperson und die Rolle &quot; **[!UICONTROL Kann Ansicht]** &quot;als Gruppenmitglied zugewiesen wird, erhält er eine **[!UICONTROL Kann-Bearbeitung]** . |
-| Welches Erlebnis erhält ein Empfänger, wenn er einen Projektlink öffnet? | Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält (**[!UICONTROL Freigeben]> Projektverknüpfung[!UICONTROL abrufen]**), wird er standardmäßig in der Rolle &quot; **[!UICONTROL Können-Duplikat]** &quot;platziert. |
+| Welches Erlebnis erhält ein Empfänger, wenn er einen Projektlink öffnet? | Empfänger erhalten die Rolle, die Sie ihnen im Freigabemodus zugewiesen haben. Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen Link zum Projekt erhält (**[!UICONTROL Freigeben]> Projektverknüpfung[!UICONTROL abrufen]**), wird er standardmäßig in eine Rolle eingefügt. Administratoren erhalten **[!UICONTROL Kann bearbeiten]** und Nichtadministratoren erhalten **[!UICONTROL Können-Duplikat]**. |
