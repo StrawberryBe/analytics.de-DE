@@ -2,8 +2,11 @@
 description: Auf dieser Seite werden die Partner-Variablen in den Data Connectors (zuvor bezeichnet als Genesis) aufgelistet, die direkt identifizierbare Daten von Datensubjekten oder indirekt identifizierbare Daten enthalten könnten.
 title: Datenschutz und Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Mithilfe dieser Informationen können Sie beliebige direkt identifizierbare Date
 
 Wenn Sie eine Integration der unten aufgeführten Connectors verwenden, können Sie ganz einfach prüfen, welche Partnervariablen/Klassifizierungen in Ihrer Integration direkt oder indirekt identifizierbare Daten enthalten könnten.
 
->[!NOTE] Diese Informationen werden Ihnen bereitgestellt, um Ihnen zu helfen, Variablen zu identifizieren, die [beschriftet werden müssen](/help/admin/c-data-governance/gdpr-setup-reportsuite.md). Es liegt in Ihrer Verantwortung als Datenverantwortlicher, die entsprechenden Beschriftungen anzubringen oder sonstige Maßnahmen zu ergreifen, um gemäß des [Datenschutzes vorbereitet zu sein](/help/admin/c-data-governance/an-gdpr-overview.md) (Aktualisierung der Klassifizierungen usw.).
+>[!NOTE]
+>
+>Diese Informationen werden Ihnen bereitgestellt, um Ihnen zu helfen, Variablen zu identifizieren, die [beschriftet werden müssen](/help/admin/c-data-governance/gdpr-setup-reportsuite.md). Es liegt in Ihrer Verantwortung als Datenverantwortlicher, die entsprechenden Beschriftungen anzubringen oder sonstige Maßnahmen zu ergreifen, um gemäß des [Datenschutzes vorbereitet zu sein](/help/admin/c-data-governance/an-gdpr-overview.md) (Aktualisierung der Klassifizierungen etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
