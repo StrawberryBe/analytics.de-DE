@@ -2,8 +2,11 @@
 description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 * **Leeres Projekt (Standard)**: Anweisungen hierzu finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * **Standardvorlage**: Diese Vorlagen werden von Adobe erstellt und mit dem Produkt geliefert.
-* **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen die Berechtigung [!UICONTROL Analysis Workspace: Save as Template] in der Admin Console erteilt wurde. [Mehr Infos...](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-console/permissions/product-profile.html)
+* **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen der [!UICONTROL Analysis Workspace erteilt wurde: Berechtigung &quot;Als Vorlage] speichern&quot;in der Admin Console. [Mehr Infos...](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benutzerdefinierte Vorlage machen. So geht’s:
 
 1. Öffnen Sie das Projekt.
-1. Öffnen von **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
+1. Wählen Sie **[!UICONTROL Projekt]** > **[!UICONTROL Als Vorlage speichern]**.
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benu
 
    >[!NOTE]
    >
-   >Projektvorlagen sind standardmäßig für jeden in Ihrer Organisation sichtbar. Sie können sie ordnen, indem Sie Tags auf sie anwenden. (Gehen Sie zu **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**, um Tags und Beschreibungen zu bearbeiten.)
+   >Projektvorlagen sind standardmäßig für jeden in Ihrer Organisation sichtbar. Sie können sie ordnen, indem Sie Tags auf sie anwenden. (Wählen Sie **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]** aus, um Tags und Beschreibungen zu bearbeiten.)
 
 ### Auf benutzerdefinierte Vorlagen anwendbare Aktionen
 
@@ -110,7 +113,9 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 ### Personen
 
->[!NOTE] Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/de-DE/device-co-op/using/data/people.html) verfügbar.
+>[!NOTE]
+>
+>Die Personenvorlage und die zugehörige Metrik für Personen sind nur im Rahmen von [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/de-DE/device-co-op/using/data/people.html) verfügbar.
 
 Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version der Metrik „Unique Visitors“ ist. Die Metrik für Personen bietet einen Messwert im Hinblick darauf, wie oft Verbraucher, die mehrere Geräte verwenden, mit Ihrer Marke interagieren. Mithilfe der Vorlage können Sie
 
@@ -129,14 +134,14 @@ Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version de
 Mit dieser Vorlage können Sie wichtige geräteübergreifende Leistungsdaten erfassen. Sie steht nur Kunden zur Verfügung, die Zugriff auf [geräteübergreifende Analysen](https://docs.adobe.com/content/help/de-DE/analytics/components/cda/cda-home.html) (Cross-Device Analytics, CDA) haben.
 
 * **Besondere Anmerkung für die Mitglieder des Co-op-Diagramms**: Zeigt, welcher Teil Ihrer Report Suite Besucher enthält, die aus Regionen stammen, in denen das Co-op-Diagramm unterstützt wird, und welcher Teil aus Regionen stammt, in denen es nicht unterstützt wird.
-* **Identifizierung der Benutzer**: Zeigt, wie oft Besucher Ihrer Site anhand von Cross-Device Analytics identifiziert werden.
-* **Messen der Audience-Größe**: Zeigt einen Vergleich von „Unique Devices“ und „People“. Die Proportion dieser beiden Zahlen wird als „geräteübergreifende Komprimierung“ bezeichnet, eine berechnete Metrik, die in diesem Bedienfeld sichtbar ist. Diese Komprimierungsmetrik hängt von einem breiten Spektrum von Faktoren ab:
+* **Identifizierung der Benutzer**: Zeigt an, wie oft Besucher Ihrer Site mit Methoden identifiziert werden, die auf geräteübergreifenden Analysen basieren.
+* **Messen der Zielgruppengröße**: Zeigt einen Vergleich von „Eindeutige Geräte“ mit „Personen“ an. Der Anteil dieser beiden Zahlen wird als „geräteübergreifende Komprimierung“ bezeichnet, eine berechnete Metrik, die in diesem Bedienfeld angezeigt wird. Diese Komprimierungsmetrik hängt von einem breiten Spektrum von Faktoren ab:
    * **Verwenden des Co-op-Diagramms oder des privaten Diagramms**: Im Allgemeinen erhalten Organisationen, die die Co-op-Funktion von Geräten verwenden, bessere Komprimierungsraten als Organisationen, die das private Diagramm verwenden.
    * **Anmelderate**: Je mehr Benutzer sich auf Ihrer Site anmelden, desto besser kann Adobe Besucher geräteübergreifend identifizieren und zuordnen. Sites mit einer niedrigen Anmelderate haben auch niedrige Komprimierungsraten.
    * **Experience Cloud ID-Abdeckung**: Es können nur Besucher mit einer ECID zugeordnet werden. Ein geringerer Prozentsatz der Site-Besucher, die eine ECID verwenden, steht im Zusammenhang mit niedrigeren Komprimierungsraten.
    * **Verwendung mehrerer Geräte**: Wenn Besucher Ihrer Site nicht mehrere Geräte verwenden, erhalten Sie niedrigere Komprimierungsraten.
    * **Berichtsgranularität**: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
-* **Personenbasierte Segmente**: Enthält ein Segment-Dropdown, das die Ansicht gerätespezifischer Daten ermöglicht. In diesem Bereich wird empfohlen, mit Segmenten zu experimentieren, um zu sehen, wie sich das Ein- oder Ausschließen von Gerätetypen auf Berichte auswirkt.
+* **Personenbasierte Segmente**: Enthält eine Segment-Dropdown-Liste, mit der Sie gerätespezifische Daten anzeigen können. In diesem Bedienfeld können Sie mit Segmenten experimentieren, um festzustellen, wie sich das Einschließen oder Ausschließen von Gerätetypen auf Berichte auswirkt.
 * **Analyse der geräteübergreifenden Journey**: Bietet Fluss- und Fallout-Berichte je nach Gerätetyp.
-* **Geräteübergreifende Zuordnung**: Kombinierte Funktionen von Journey IQ und Attribution IQ.
-* **Weitere Tipps und Tricks**: Hilfreiche Themen rund um CDA, mit denen Sie diese Funktion optimal nutzen können.
+* **Geräteübergreifende Zuordnung**: Kombinieren Sie die Funktionen von Journey IQ und Attribution IQ miteinander.
+* **Weitere Tipps und Tricks**: Hilfreiche Themen rund um CDA, mit denen Sie die Nutzung optimieren können.
