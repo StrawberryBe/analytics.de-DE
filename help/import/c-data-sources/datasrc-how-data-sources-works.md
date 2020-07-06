@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Funktionsweise von Data Sources
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Informationen darüber, wie Adobe Zugriff auf Data Sources bereitstellt.
 
->[!NOTE] Sobald importierte Daten über Data Sources übertragen wurden, sind sie nicht mehr von Berichtsdaten zu unterscheiden, die mit anderen Methoden erfasst wurden (JavaScript-Beacon, ActionSource, Data Insertion API usw.). Nachdem die Daten importiert wurden, können sie nicht mehr entfernt werden.
+>[!NOTE]
+>
+>Sobald importierte Daten über Data Sources übertragen wurden, sind sie nicht mehr von Berichtsdaten zu unterscheiden, die mit anderen Methoden erfasst wurden (JavaScript-Beacon, ActionSource, Data Insertion API usw.). Nachdem die Daten importiert wurden, können sie nicht mehr entfernt werden.
 
 ![](assets/data_sources_overview.png)
 
