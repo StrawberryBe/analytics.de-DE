@@ -1,18 +1,21 @@
 ---
-description: Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Auslieferung planen.
+description: Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Bereitstellung planen.
 subtopic: Dashboards
 title: Dashboard-Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 100%
 
 ---
 
 
 # Dashboard-Manager
 
-Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Auslieferung planen.
+Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Bereitstellung planen.
 
 >[!IMPORTANT]
 >
@@ -20,9 +23,9 @@ Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archiviere
 
 ## Dashboard-Manager
 
-Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Auslieferung planen.
+Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Bereitstellung planen.
 
-Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards]**.
 
 | Element | Beschreibung |
 |--- |--- |
@@ -36,8 +39,8 @@ Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!U
 
 Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freigegebene Dashboards verwenden.
 
-1. Öffnen von **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
-1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
+1. Gehen Sie zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards]**.
+1. Suchen Sie unter [!UICONTROL „Freigegebene Dashboards“] das freigegebene Dashboard (oder Legacy-Dashboard), das Sie verwalten möchten, und wählen Sie eine oder mehrere der folgenden Optionen:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -70,51 +73,57 @@ Schritte, in denen beschrieben wird, wie Sie die Verwaltungsoptionen für freige
 
 Sie können vorhandene Legacy-Dashboards weiterhin ausführen, bearbeiten, herunterladen und planen. Neue Legacy-Dashboards können Sie jedoch nicht mehr erstellen. Wir empfehlen Ihnen dringend, vorhandene Legacy-Dashboards auf das neue Dashboard-Format zu aktualisieren.
 
->[!NOTE] Sie sollten zukünftig in Erwägung ziehen, [Analysis Workspace-Projekte](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) und ihre Möglichkeit zum Herunterladen und Planen zu nutzen.
+>[!NOTE]
+>
+>Sie sollten zukünftig in Erwägung ziehen, [Analysis Workspace-Projekte](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/home.html) und ihre Möglichkeit zum Herunterladen und Planen zu nutzen.
 
 Beim Kopieren eines Legacy-Dashboards öffnet das System dieses zur Bearbeitung, wobei Sie Legacy-Inhalt oder neuen Inhalt hinzufügen können. Wenn Sie ein Legacy-Dashboard kopieren, bleibt das Original in der Liste der Legacy-Dashboards erhalten.
 
->[!NOTE] Durch das Hinzufügen von Legacy-Inhalt zu einem Dashboard wird ein Dashboard erstellt, das auf der aktuellen Dashboard-Funktion basiert. Das Legacy-Reportlet enthält jedoch eventuell Daten, die auf der vorherigen Datenplattform basieren.
+>[!NOTE]
+>
+>Durch das Hinzufügen von Legacy-Inhalt zu einem Dashboard wird ein Dashboard erstellt, das auf der aktuellen Dashboard-Funktion basiert. Das Legacy-Reportlet enthält jedoch eventuell Daten, die auf der vorherigen Datenplattform basieren.
 
 **So migrieren Sie ein Legacy-Dashboard der Version 14.x**
 
-1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. Klicken Sie in der [!UICONTROL Manage] Spalte unter [!UICONTROL Legacy Dashboards]auf **[!UICONTROL Copy to New Dashboard]**.
+1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards verwalten]**.
+1. Klicken Sie in der Spalte [!UICONTROL Verwalten] unter [!UICONTROL Legacy-Dashboards] auf **[!UICONTROL In neues Dashboard kopieren]**.
 
-   Das kopierte Dashboard wird im Dashboard-Layout-Bearbeiter geöffnet. 
+   Das kopierte Dashboard wird im Dashboard-Layout-Bearbeiter geöffnet.
 
    Siehe [Bearbeiten von Dashboard- und Reportlet-Daten](/help/analyze/reports-analytics/dashboard.md).
 
 ## Dashboard freigeben
 
-In diesen Schritten wird beschrieben, wie ein Administrator ein Dashboard für mehrere Benutzer freigeben (oder auf diese übertragen) kann. When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
+In diesen Schritten wird beschrieben, wie ein Administrator ein Dashboard für mehrere Benutzer freigeben (oder auf diese übertragen) kann. Wenn Sie Benutzern Dashboards senden, stehen die Dashboards diesen Benutzern in deren [!UICONTROL freigegebenen Dashboards] zur Verfügung.
 
-1. Suchen Sie im [!UICONTROL Dashboard Manager]Dashboard nach und aktivieren Sie dann **[!UICONTROL Shared]**.
-1. Klicken Sie auf **[!UICONTROL Push To Users]**.  ![](assets/push.png)
+1. Suchen Sie im [!UICONTROL Dashboard-Manager] das Dashboard und aktivieren Sie anschließend **[!UICONTROL Freigegeben]**.
+1. Klicken Sie auf **[!UICONTROL An Benutzer senden]**.  ![](assets/push.png)
 
-1. Wählen Sie auf der [!UICONTROL Push Dashboard] Seite die Zielgruppe aus oder klicken Sie auf **[!UICONTROL Check All]**.
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Wählen Sie auf der Seite [!UICONTROL Dashboard verschieben] die Zielbenutzer aus oder klicken Sie auf **[!UICONTROL Alle markieren]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. Falls nicht, können sie die von Ihnen vorgenommenen Aktualisierungen/Änderungen nicht sehen. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
+Wenn die von Ihnen am Dashboard vorgenommenen Änderungen für gemeinsame Benutzer nicht sichtbar sind, prüfen Sie Ihren Dashboard-Manager, um zu sehen, ob die Benutzer die Option **[!UICONTROL Kopier mich]** ausgewählt haben. Falls nicht, können sie die von Ihnen vorgenommenen Aktualisierungen/Änderungen nicht sehen. Um alle Änderungen/Updates sehen zu können, müssen gemeinsame Benutzer die Option **[!UICONTROL Im Menü]** im Dashboard-Manager auswählen.
 
 ## Bereitstellung eines Dashboards planen
 
-In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. Die Dashboard-Auslieferungsoptionen sind identisch mit den Optionen für die Berichtsauslieferung.
+Im [!UICONTROL Dashboard-Manager] können Sie sehen, ob ein Dashboard für die Auslieferung eingeplant ist, sowie den Plan bearbeiten. Die Dashboard-Auslieferungsoptionen sind identisch mit den Optionen für die Berichtsauslieferung.
 
 1. Öffnen Sie ein Dashboard.
-1. Klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Senden]**.
 
    Weitere Informationen finden Sie unter [Planung und Verteilung](/help/analyze/reports-analytics/scheduling.md).
 
 ## Dashboard archivieren
 
->[!NOTE] Diese Funktion ist ab Januar 2020 nicht mehr verfügbar.
+>[!NOTE]
+>
+>Diese Funktion ist ab Januar 2020 nicht mehr verfügbar.
 
 In diesen Schritten wird beschrieben, wie Sie ein gesendetes Dashboard als PDF-Datei archivieren können. Das System speichert die archivierte Datei zwei Jahre lang oder bis das 4-GB-Limit für archivierte Berichte erreicht wurde, je nachdem, was zuerst eintritt.
 
 1. Öffnen Sie ein Dashboard.
-1. Klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. Aktivieren Sie in der [!UICONTROL Email Report] Gruppe **[!UICONTROL Archive]**.
-1. Specify delivery options, then click **[!UICONTROL Send]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Senden]**.
+1. Aktivieren Sie in der Gruppe [!UICONTROL Bericht per E-Mail] die Option **[!UICONTROL Archiv]**.
+1. Legen Sie die gewünschten Übermittlungsoptionen fest und klicken Sie anschließend auf **[!UICONTROL Senden]**.
 
-   Archivierte Dashboards können Sie im Dashboard-Manager anzeigen. Alternativ können Sie ein Dashboard öffnen und auf **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
+   Archivierte Dashboards können Sie im Dashboard-Manager anzeigen. Alternativ können Sie ein Dashboard öffnen und auf **[!UICONTROL Mehr]** > **[!UICONTROL Archiv anzeigen]** klicken.
