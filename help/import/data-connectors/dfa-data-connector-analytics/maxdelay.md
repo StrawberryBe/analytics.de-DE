@@ -2,7 +2,10 @@
 title: maxDelay
 description: Stellen Sie fest, wie lange AppMeasurement maximal auf eine Antwort von DFA wartet, bevor eine Bildanforderung gesendet wird.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -31,4 +34,6 @@ s.maxDelay = 750;
 * Bei einer niedrigeren Wartezeit sinkt das Risiko, Analytics-Trefferdaten zu verlieren, dabei kann es jedoch auch zu einer Verringerung der mit den Trefferdaten gesendeten DFA-Daten kommen.
 * DFA-Integrationsdaten werden gelöscht, wenn der `s.maxDelay`-Zeitraum nicht genügend Zeit für die Reaktion des DFA-Hosts bietet.
 
->[!NOTE] Adobe hat keine Kontrolle über die Antwortzeiten von DFA. Sollten bei Ihnen Probleme auftreten, die auch nach einer (vernünftigen) Anhebung der maximalen Wartezeit nicht verschwinden, wenden Sie sich an den DFA-Kontoadministrator Ihrer Organisation.
+>[!NOTE]
+>
+>Adobe hat keine Kontrolle über die Antwortzeiten von DFA. Sollten bei Ihnen Probleme auftreten, die auch nach einer (vernünftigen) Anhebung der maximalen Wartezeit nicht verschwinden, wenden Sie sich an den DFA-Kontoadministrator Ihrer Organisation.
