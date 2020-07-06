@@ -5,7 +5,10 @@ title: Virtual Report Suites verwalten
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Im Virtual Report Suite Manager können Administratoren Virtual Report Suites be
 
 ![](assets/vrs-manage.png)
 
->[!NOTE] Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. Sie müssen auf **[!UICONTROL Alle anzeigen]** klicken, um die aller anderen anzuzeigen.
+>[!NOTE]
+>
+>Im Virtual Report Suite Manager sehen Sie nur Ihre eigenen Virtual Report Suites. Sie müssen auf **[!UICONTROL Alle anzeigen]** klicken, um die aller anderen anzuzeigen.
 
 | Aufgabe | Beschreibung |
 |--- |--- |
