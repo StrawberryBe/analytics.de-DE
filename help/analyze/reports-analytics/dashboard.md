@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: Dashboards und Kurzberichte
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Bedenken Sie, dass einige häufig angezeigte Berichte nicht in Dashboards umgewa
 * Echtzeitberichte
 * Sonstige Dashboards
 
->[!NOTE] Das Dashboard **[!UICONTROL Site-Übersicht]** wird nicht mehr in Reports &amp; Analytics angezeigt. Es gibt jedoch einige Fälle, in denen einige oder alle Kurzberichte dieser Übersicht angezeigt werden.
+>[!NOTE]
+>
+>Das Dashboard **[!UICONTROL Site-Übersicht]** wird nicht mehr in Reports &amp; Analytics angezeigt. Es gibt jedoch einige Fälle, in denen einige oder alle Kurzberichte dieser Übersicht angezeigt werden.
 
 * Wenn Sie beispielsweise nur drei häufig angezeigte Berichte haben, übernimmt Reports &amp; Analytics zwei Berichte aus dem Dashboard „Site-Übersicht“, um das Dashboard **[!UICONTROL Meine empfohlenen Berichte]** zu vervollständigen.
 * Ganz neue Report Suites werden zu Beginn auch in den Kurzberichten der Site-Übersicht angezeigt, bis sie durch Ihre häufig angezeigten Berichte ersetzt werden. Außerdem heißt das Dashboard nun **[!UICONTROL Meine empfohlenen Berichte]**.
@@ -144,6 +149,7 @@ t_dashboard_content.xml
    * Report Suite Zusammenfassung: Zeigt die gewählte Metrik und deren Gesamtwert bzw. den höchsten oder den niedrigsten Wert für die Report Suite an.
    * Gebrauchszusammenfassung: Zeigt Daten über den Zugriff auf die Benutzeroberfläche durch Mitarbeiter in Ihrem Unternehmen an. In diesem Reportlet können Sie die Daten nach Benutzernamenzugriff, Berichtszugriff oder Report Suite-Zugriff anzeigen.
 Durch Angabe von URLs können folgende Benutzerinhalt-Reportlets erstellt werden: Wenn eine Bild-URL oder eine andere Ressourcen-URL nicht mit https:// beginnt, sehen Internet Explorer-Benutzer möglicherweise eine Warnung zur Inhaltsmischung. Sie können die Warnung zur Inhaltsmischung in den Sicherheitseinstellungen Ihres Browsers deaktivieren.
+
    *Benutzerinhalt:*
 
    * Externer Bericht: Ermöglicht den Zusatz eines externen Berichts im .xml- und .csv-Format.
@@ -151,6 +157,7 @@ Durch Angabe von URLs können folgende Benutzerinhalt-Reportlets erstellt werden
    * Bild: Ermöglicht die Erstellung eines Dashboards aus einer Bild-URL. Wenn die URL das HTTP-Protokoll verwendet, zeigt Internet Explorer eine Warnung zur Inhaltsmischung an. Durch Verwendung einer URL mit HTTPS wird die Warnung entfernt. Bei allen anderen Protokollen wird der Fehler `Specified URL could not be retrieved` ausgegeben.
    * RSS: Ermöglicht den Zusatz eines RSS-Web-Feeds. Muss HTTP oder HTTPS entsprechen. Andernfalls wird der Fehler `Specified URL could not be retrieved` angezeigt.
    * Text: Sie können XHTML-Code zur Erstellung Ihrer eigenen Daten verwenden. Verwenden Sie für URLs HTTP oder HTTPS. Im Inhalt des Text-Reportlets verwendete Bilder mit HTTP-Protokoll bewirken, dass IE-Benutzer eine Warnung zur Inhaltsmischung erhalten. Bilder, die mithilfe von anderen Protokollen übernommen wurden, werden nicht im Reportlet angezeigt.
+
    **Meine Dashboards**
 
    Listet Ihre aktualisierten Dashboards auf, aus denen Sie Inhalte in das neue Dashboard verschieben können.
