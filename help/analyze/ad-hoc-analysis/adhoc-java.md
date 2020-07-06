@@ -1,8 +1,11 @@
 ---
 description: Anleitung zum Ausführen von Ad Hoc Analysis mit Java 11.
 title: Ad Hoc Analysis mit Java 11 ausführen
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,9 @@ Arbeiten Sie mit Ihrem IT-Team zusammen, um sicherzustellen, dass Folgendes erf�
 1. **Führen Sie die ausgewählte Datei aus**. Für PC: Doppelklicken Sie auf die .bat-Datei. Für Mac: Klicken Sie mit der rechten Maustaste auf die .sh-Datei und wählen Sie anschließend **[!UICONTROL Öffnen mit > Sonstige... > Dienstprogramme > (Alle Anwendungen aktivieren) > Terminal auswählen > Öffnen]**.
 1. Melden Sie sich bei Ad Hoc Analysis an.
 
->[!NOTE] Die Authentifizierungsmethoden für Verbund- und Enterprise IDs werden in der Java 11-Version der Ad Hoc Analysis nicht unterstützt.
+>[!NOTE]
+>
+>Die Authentifizierungsmethoden für Verbund- und Enterprise IDs werden in der Java 11-Version der Ad Hoc Analysis nicht unterstützt.
 
 ## Nicht unterstützte Funktionen in der Ad Hoc Analysis (Java 11)
 
