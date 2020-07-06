@@ -2,10 +2,10 @@
 title: linkTrackVars
 description: Geben Sie an, welche Variablen in Bildanforderungen zum Linktracking einbezogen werden sollen.
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,19 @@ ht-degree: 88%
 
 Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen zum Linktracking einbeziehen. Verwenden Sie die Variablen `linkTrackVars` und [`linkTrackEvents`](linktrackevents.md), um Dimensionen und Metriken selektiv in [`tl()`](../functions/tl-method.md)-Aufrufe einzubeziehen.
 
-This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
+Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-method.md)-Methode) verwendet.
 
 ## Variablen in Linktracking-Aufrufen mit Adobe Experience Platform Launch
 
 Launch füllt diese Variable automatisch im Backend basierend auf den in der Oberfläche festgelegten Variablen, sodass sie in Implementierungen mit Launch immer festgelegt wird.
 
->[!IMPORTANT] Wenn Sie Variablen in Launch mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variable auch in `linkTrackVars` mit benutzerdefiniertem Code einbeziehen.
+>[!IMPORTANT]
+>
+>Wenn Sie Variablen in Launch mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variable auch in `linkTrackVars` mit benutzerdefiniertem Code einbeziehen.
 
 ## s.linkTrackVars in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Die folgenden beiden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffer einzubeziehen:
+Die `s.linkTrackVars`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Variablen enthält, die Sie in Bildanforderungen zum Linktracking einbeziehen möchten (`tl()`-Methode). Die folgenden beiden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffer einzubeziehen:
 
 * Legen Sie den gewünschten Variablenwert fest. Beispiel: `s.eVar1 = "Example value";`.
 * Legen Sie die gewünschte Variable in der `linkTrackVars`-Variablen fest. Beispiel: `s.linkTrackVars = "eVar1";`.
@@ -38,7 +40,9 @@ Der Standardwert für diese Variable ist eine leere Zeichenfolge. Adobe hat jedo
 * Wenn diese Variable nicht definiert oder auf eine leere Zeichenfolge festgelegt ist, werden *alle* Variablen in Bildanforderungen zum Linktracking einbezogen.
 * Wenn diese Variable auf `"None"` festgelegt ist, werden in Bildanforderungen zum Linktracking *keine* Variablen einbezogen.
 
->[!TIP] Vermeiden Sie die Verwendung der Analytics-Objektkennung (`s.`) bei der Angabe von Variablen in dieser Variablen. Zum Beispiel ist `s.linkTrackVars = "eVar1";` korrekt, während `s.linkTrackVars = "s.eVar1";` nicht korrekt ist.
+>[!TIP]
+>
+>Vermeiden Sie die Verwendung der Analytics-Objektkennung (`s.`) bei der Angabe von Variablen in dieser Variablen. Zum Beispiel ist `s.linkTrackVars = "eVar1";` korrekt, während `s.linkTrackVars = "s.eVar1";` nicht korrekt ist.
 
 ## Beispiel
 
