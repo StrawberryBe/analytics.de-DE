@@ -2,7 +2,10 @@
 title: Paket-Analyzer
 description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ In sehr seltenen Fällen meldet der Debugger eine Bildanforderung, obwohl keine 
 
 Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine große Auswahl im Internet. Nachfolgend sind einige brauchbare Paketmonitore aufgeführt.
 
->[!NOTE] Die Liste ist nicht vollständig, sondern dient zur Angabe häufig eingesetzter Monitore. Wenn Sie einen Paketmonitor haben, der sich als nützlich erwiesen hat, können Sie über die Schaltfläche [!UICONTROL Feedback] rechts in diesem Fenster ein Feedback dazu abgeben.
+>[!NOTE]
+>
+>Die Liste ist nicht vollständig, sondern dient zur Angabe häufig eingesetzter Monitore. Wenn Sie einen Paketmonitor haben, der sich als nützlich erwiesen hat, können Sie über die Schaltfläche [!UICONTROL Feedback] rechts in diesem Fenster ein Feedback dazu abgeben.
 
 | Firefox | Internet Explorer | Chrome | Eigenständige Programme |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE] Adobe bietet WEDER Support NOCH Fehlerbehebung bei Problemen mit diesen Paketmonitoren an. Wenden Sie sich bei Fragen und Problemen an die Website, von der Sie den Paketmonitor heruntergeladen haben.
+>[!NOTE]
+>
+>Adobe bietet WEDER Support NOCH Fehlerbehebung bei Problemen mit diesen Paketmonitoren an. Wenden Sie sich bei Fragen und Problemen an die Website, von der Sie den Paketmonitor heruntergeladen haben.
 
 ## NS_BINDING_ABORTED in Antwortcodes
 
