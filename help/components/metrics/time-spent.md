@@ -2,7 +2,7 @@
 title: Besuchszeit
 description: Eine aggregierte Seite mit Dimensionen und Metriken zur Besuchszeit.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ In Adobe Analytics-Produkten stehen verschiedene [!UICONTROL Besuchszeit]-Metrik
 
 Adobe Analytics verwendet explizite Werte (einschließlich Verknüpfungs-Ereignissen und Videoaufrufen) zur Berechnung der [!UICONTROL Besuchszeit].
 
->[!NOTE] Ohne Verknüpfungsereignisse wie [!UICONTROL Videoaufrufe] oder [!UICONTROL Exitlinks] kann die Besuchszeit für den letzten Treffer eines Besuchs nicht ermittelt werden. Aus ähnlichen Gründen wird [!UICONTROL Absprung-Besuchen] (d. h. Besuchen mit einem einzelnen Treffer) keine Besuchszeit zugewiesen.
+>[!NOTE]
+>
+>Ohne Verknüpfungsereignisse wie [!UICONTROL Videoaufrufe] oder [!UICONTROL Exitlinks] kann die Besuchszeit für den letzten Treffer eines Besuchs nicht ermittelt werden. Aus ähnlichen Gründen wird [!UICONTROL Absprung-Besuchen] (d. h. Besuchen mit einem einzelnen Treffer) keine Besuchszeit zugewiesen.
 
 Der **Zähler** ist in allen Besuchszeit-Berechnungen die Gesamtbesuchszeit in Sekunden.
 
