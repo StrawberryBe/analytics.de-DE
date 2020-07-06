@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: Verfolgen Sie den Standort (geoLocation) eines Besuchers.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Adobe-Plug-in: getGeoCoordinates
 
->[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Mit dem `getGeoCoordinates`-Plug-in können Sie die Breiten- und Längengrade der Geräte von Besuchern erfassen. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie Daten zum geografischen Standort in Analytics-Variablen erfassen möchten.
 
@@ -59,7 +64,9 @@ Die `getGeoCoordinates`-Methode verwendet keine Argumente. Sie gibt einen der fo
 * `"error retrieving geo coordinates"`: Wenn das Plug-in beim Versuch, den Standort des Geräts abzurufen, auf Fehler stößt.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Wobei [BREITENGRAD]/[LÄNGENGRAD] der Breitengrad bzw. der Längengrad ist.
 
->[!NOTE] Die Koordinatenwerte werden auf die nächstliegende vierte Dezimalstelle gerundet. Beispielsweise wird der Wert `"40.438635333"` auf `"40.4386"` gerundet, um die Anzahl der zu erfassenden eindeutigen Werte zu begrenzen. Die Werte sind genau genug, um die exakte Position des Geräts innerhalb von etwa 20 Fuß zu bestimmen.
+>[!NOTE]
+>
+>Die Koordinatenwerte werden auf die nächstliegende vierte Dezimalstelle gerundet. Beispielsweise wird der Wert `"40.438635333"` auf `"40.4386"` gerundet, um die Anzahl der zu erfassenden eindeutigen Werte zu begrenzen. Die Werte sind genau genug, um die exakte Position des Geräts innerhalb von etwa 20 Fuß zu bestimmen.
 
 Dieses Plug-in verwendet ein Cookie namens `"s_ggc"`, um gegebenenfalls Koordinaten zwischen den Treffern zu speichern.
 
