@@ -1,8 +1,11 @@
 ---
 title: Zuordnen von Datenelementen zu Analytics-Variablen
 description: Weisen Sie den Analytics-Variablen Datenelemente zu, damit Sie sie als Dimensionen in Analysis Workspace verwenden können.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,9 @@ Die in Regeln festgelegten Variablen sind optimal, wenn Sie nicht möchten, dass
 1. Wählen Sie im modalen Fenster das gewünschte Datenelement aus. Klicken Sie auf [!UICONTROL Auswählen].
 1. Der Name des Datenelements wird dem Textfeld, das von `%`-Zeichen eingeschlossen ist, hinzugefügt. Wenn Sie Ihr Datenelement beispielsweise „Seitenname“ nennen, wird die Zeichenfolge `%Page name%` angezeigt, wenn Sie einer Variablen ein Datenelement zuweisen.
 
->[!TIP] Sie können Datenelemente in derselben Variablen verketten. Wenn Sie beispielsweise das Datenelement „Hostname“ und das Datenelement „Pathname“ haben, können Sie beide durch `%Hostname%%Pathname%` in einer einzigen Variablen kombinieren.
+>[!TIP]
+>
+>Sie können Datenelemente in derselben Variablen verketten. Wenn Sie beispielsweise das Datenelement „Hostname“ und das Datenelement „Pathname“ haben, können Sie beide durch `%Hostname%%Pathname%` in einer einzigen Variablen kombinieren.
 
 ## Nächste Schritte
 
