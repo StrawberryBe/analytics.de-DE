@@ -2,7 +2,10 @@
 title: Ausschließen spezifischer Daten in der Analyse
 description: Tipps zum Ausschließen von Daten oder Datumsbereichen, wenn Sie sie nicht in Berichte aufnehmen möchten.
 translation-type: tm+mt
-source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,7 @@ Wenn Daten von einem Ereignis [](overview.md)betroffen sind, können Sie mit ein
 
 Erstellen Sie ein Segment, das den betroffenen Tag oder Datumsbereich isoliert. Dieses Segment ist nützlich, wenn Sie sich nur auf die Problemtage konzentrieren möchten, um weitere Informationen über die Auswirkungen zu erhalten.
 
-1. Öffnen Sie den Segmentaufbau, indem Sie zu **[!UICONTROL Components]** > **[!UICONTROL Segments]** navigieren und dann auf klicken **[!UICONTROL Add]**.
+1. Öffnen Sie den Segmentaufbau, indem Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]** navigieren und dann auf **[!UICONTROL Hinzufügen]** klicken.
 2. Ziehen Sie die Dimension &quot;Tag&quot;auf die Arbeitsfläche der Definition und legen Sie sie auf den Tag fest, den Sie isolieren möchten.
 3. Wiederholen Sie den obigen Schritt für jeden Tag, den Sie in Ihrem Bericht isolieren möchten.
 
@@ -29,8 +32,8 @@ Adobe empfiehlt die Verwendung der orangefarbenen Dimensionskomponenten und nich
 
 Erstellen Sie ein Segment, das den betroffenen Tag oder Datumsbereich ausschließt. Dieses Segment ist nützlich, wenn Sie die aufgetretenen Berichte ausschließen möchten, um die Auswirkungen auf den Gesamtwert zu minimieren.
 
-1. Öffnen Sie den Segmentaufbau, indem Sie zu **[!UICONTROL Components]** > **[!UICONTROL Segments]** navigieren und dann auf klicken **[!UICONTROL Add]**.
-2. Klicken Sie oben rechts auf der Arbeitsfläche für die Segmentdefinition auf **[!UICONTROL Options]** > **[!UICONTROL Exclude]**.
+1. Öffnen Sie den Segmentaufbau, indem Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]** navigieren und dann auf **[!UICONTROL Hinzufügen]** klicken.
+2. Klicken Sie oben rechts auf der Arbeitsfläche für die Segmentdefinition auf **[!UICONTROL Optionen]** > **[!UICONTROL Ausschließen]**.
 3. Ziehen Sie die Dimension &quot;Tag&quot;auf die Arbeitsfläche der Definition und legen Sie sie auf den Tag fest, den Sie entfernen möchten.
 4. Wiederholen Sie den obigen Schritt für jeden Tag, den Sie in Ihrem Bericht entfernen möchten.
 
@@ -46,11 +49,11 @@ Sie können sowohl das Segment &quot;Betroffene Tage&quot;als auch das Segment &
 
 ![Beide Segmente](assets/affected_and_exclude.png)
 
-Wenn Sie keine Nullen in der Tabelle oder in Visualisierungen (die Dips verursachen) anzeigen möchten, aktivieren Sie **[!UICONTROL Interpret zero as no value]** unter Spalteneinstellungen.
+Wenn Sie keine Nullen in der Tabelle oder in Visualisierungen anzeigen möchten (wodurch Dips verursacht werden), aktivieren Sie unter den Spalteneinstellungen die Option **[!UICONTROL Null als Wert]** interpretieren.
 
 ![Null interpretieren](assets/interpret_zero.png)
 
-Wenn Sie keine Nullen in der Tabelle oder in Visualisierungen (die Dips verursachen) anzeigen möchten, aktivieren Sie **[!UICONTROL Interpret zero as no value]** unter Spalteneinstellungen.
+Wenn Sie keine Nullen in der Tabelle oder in Visualisierungen anzeigen möchten (wodurch Dips verursacht werden), aktivieren Sie unter den Spalteneinstellungen die Option **[!UICONTROL Null als Wert]** interpretieren.
 
 ![Null interpretieren](assets/interpret_zero.png)
 
@@ -58,7 +61,9 @@ Wenn Sie keine Nullen in der Tabelle oder in Visualisierungen (die Dips verursac
 
 Sie können das Segment &quot;Betroffene Tage ausschließen&quot;auf ein Workspace-Projekt anwenden. Ziehen Sie das Ausschlusssegment in den Arbeitsbereich-Arbeitsbereich mit der Bezeichnung Segment hier *ablegen*.
 
->[!TIP] Fügen Sie eine Notiz zu den ausgeschlossenen Daten in die Beschreibung des Bedienfelds ein, damit die Benutzer den Bericht anzeigen können. Klicken Sie mit der rechten Maustaste auf den Titel eines Bedienfelds und dann auf **[!UICONTROL Edit description]**.
+>[!TIP]
+>
+>Fügen Sie eine Notiz zu den ausgeschlossenen Daten in die Beschreibung des Bedienfelds ein, damit die Benutzer den Bericht anzeigen können. Klicken Sie mit der rechten Maustaste auf den Titel eines Bedienfelds und dann auf Beschreibung **[!UICONTROL bearbeiten]**.
 
 ![Auf einen Bereich angewendetes Segment](assets/exclude_segment_panel.jpg)
 
@@ -66,10 +71,10 @@ Sie können das Segment &quot;Betroffene Tage ausschließen&quot;auf ein Workspa
 
 Sie können das Segment in einer [Virtual Report Suite](/help/components/vrs/vrs-about.md) verwenden, um die Daten einfacher auszuschließen. Diese Option ist ideal, da Sie nicht vergessen müssen, das Segment für jeden Bericht anzuwenden, der den betroffenen Datumsbereich enthält. Wenn Sie Virtual Report Suites bereits als primäre Datenquelle verwenden, können Sie das Segment zu einer vorhandenen VRS hinzufügen.
 
-1. Navigieren Sie zu **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
-2. Klicken Sie auf **[!UICONTROL Add]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 3. Geben Sie den gewünschten Namen und die Beschreibung für die Virtual Report Suite ein.
-4. Ziehen Sie das Ausschlusssegment in den Bereich mit der Bezeichnung **[!UICONTROL Add segment]**.
-5. Klicken Sie **[!UICONTROL Continue]** oben rechts und dann auf **[!UICONTROL Save]**.
+4. Ziehen Sie das Ausschlusssegment in den Bereich mit der Bezeichnung **[!UICONTROL Hinzufügen Segment]**.
+5. Klicken Sie oben rechts auf **[!UICONTROL Weiter]** und dann auf **[!UICONTROL Speichern]**.
 
 ![Auf VRS angewendetes Segment](assets/exclude_segment_vrs.png)
