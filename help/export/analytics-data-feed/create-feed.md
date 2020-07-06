@@ -2,7 +2,10 @@
 title: Erstellen oder Bearbeiten eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen oder bearbeiten.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +62,9 @@ Die folgenden 11 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfa
 * eu-west-1
 * sa-east-1
 
->[!NOTE] Die Region „cn-north-1“ wird nicht unterstützt.
+>[!NOTE]
+>
+>Die Region „cn-north-1“ wird nicht unterstützt.
 
 ### Azure Blob
 
@@ -67,7 +72,9 @@ Daten-Feeds unterstützen Azure Blob-Ziele. Erfordert einen Container, ein Konto
 
 ![Azure-Info](assets/azure.png)
 
->[!NOTE] Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Feed-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
+>[!NOTE]
+>
+>Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Feed-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
 
 ## Datenspaltendefinitionen
 
@@ -77,6 +84,6 @@ Es sind alle Spalten verfügbar, unabhängig davon, ob sie über Daten verfügen
 * **Komprimierungsformat**: Die verwendete Art der Komprimierung. Gzip gibt Dateien im `.tar.gz`-Format aus. Zip gibt Dateien im `.zip`-Format aus.
 * **Verpackungstyp**: Eine einzelne Datei gibt die `hit_data.tsv`-Datei in einer einzigen, potenziell riesigen Datei aus. Mehrere Dateien paginieren Ihre Daten in 2-GB-Blöcke (unkomprimiert). Wenn mehrere Dateien ausgewählt sind und die nicht komprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet. Adobe empfiehlt die Verwendung mehrerer Dateien für die meisten Daten-Feeds.
 * **Spaltenvorlagen**: Adobe empfiehlt, beim Erstellen vieler Daten-Feeds eine Spaltenvorlage zu erstellen. Bei Auswahl einer Spaltenvorlage werden automatisch die angegebenen Spalten in der Vorlage eingefügt. Adobe stellt standardmäßig auch mehrere Vorlagen bereit.
-* **Verfügbare Spalten**: Alle in Adobe Analytics verfügbaren Datenspalten. Click [!UICONTROL Add all] to include all columns in a data feed.
-* **Einbezogene Spalten**: Die Spalten, die in einen Daten-Feed aufgenommen werden sollen. Click [!UICONTROL Remove all] to remove all columns from a data feed.
+* **Verfügbare Spalten**: Alle in Adobe Analytics verfügbaren Datenspalten. Klicken Sie auf [!UICONTROL Alle hinzufügen], um alle Spalten in einen Daten-Feed einzubeziehen.
+* **Einbezogene Spalten**: Die Spalten, die in einen Daten-Feed aufgenommen werden sollen. Klicken Sie auf [!UICONTROL Alle entfernen], um alle Spalten aus einem Daten-Feed zu entfernen.
 * **CSV herunterladen**: Lädt eine CSV-Datei herunter, die alle einbezogenen Spalten enthält.
