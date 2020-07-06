@@ -1,11 +1,11 @@
 ---
 title: Was ist eine Kohortenanalyse?
-description: Erfahren Sie mehr über die Analyse von Kohorten im Arbeitsbereich für Analysen
+description: Erfahren Sie mehr über die Analyse von Kohorten in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * Gewinnen Sie Ideen für A/B-Tests in Bereichen wie Preisstruktur, Upgradepfad usw.
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL Die Analyse] der Kohorte ist für alle Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analyse Workspace]verfügbar.
+[!UICONTROL Die Analyse] der Kohorte steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace]zur Verfügung.
 
 [Kohortenanalyse auf YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Die Analyse] Kohorte unterstützt keine nicht segmentbaren Metriken (einschließlich berechneter Metriken), Nicht-Ganzzahlmetriken (z. B. Umsatz) oder Vorfälle. Nur Metriken, die in Segmenten verwendet werden können, können in
+>[!UICONTROL Kohortenanalyse]
+>
+>unterstützt keine nicht segmentfähigen Metriken (einschließlich berechneter Metriken), Nicht-Ganzzahlmetriken (z. B. Umsatz) oder Vorfälle. Nur Metriken, die in Segmenten verwendet werden können, können in
 >[!UICONTROL Kohorte-Analyse], und sie können jeweils nur um 1 inkrementiert werden.
 
 ## Funktionen der Kohortenanalyse
@@ -67,5 +69,5 @@ Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Anweisungen zum Einrichten und Durchführen eines Kohortenberichts finden Sie unter  [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Anweisungen zum Einrichten und Durchführen eines Kohortenberichts finden Sie unter [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
