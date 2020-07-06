@@ -2,7 +2,7 @@
 title: Kaufereignis
 description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestellungen“, „Einheiten“ und „Umsatz“ zu erfassen.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 92%
@@ -20,7 +20,9 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 * Die Metrik „Einheiten“ erhöht sich um die Anzahl der Produkte in der `products`-Variablen
 * Die Metrik „Umsatz“ erhöht sich um die Summe der Preisparameter in der `products`-Variablen
 
->[!NOTE] Der Umsatz wird nicht mit dem Mengenfeld multipliziert. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. Beispiel,`s.products="Womens;Socks;5;22.50"`.
+>[!NOTE]
+>
+>Der Umsatz wird nicht mit dem Mengenfeld multipliziert. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. Beispiel: `s.products="Womens;Socks;5;22.50"`.
 
 ## Festlegen des Kaufereignisses in Adobe Experience Platform Launch
 
