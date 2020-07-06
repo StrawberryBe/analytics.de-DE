@@ -5,7 +5,7 @@ title: Virtual Report Suites und Multisuite-Tagging
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -55,7 +55,9 @@ Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. E
 
 Stellen Sie sicher, dass die Anzahl der individuellen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele individuelle Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/c-classifications2/c-classifications.md). Sie können zum Beispiel die Klassifizierung „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
->[!TIP] Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
+>[!TIP]
+>
+>Mit der Einführung der [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede einzelne Virtual Report Suite ändern.
 
 ### Segmentierungsnuancen
 
@@ -85,7 +87,9 @@ Beispielsweise ist pro Report Suite nur ein Google DCM zulässig. Viele Unterneh
 
 Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von „Zusammenfassungsdatenquellen“ aggregierte Metriken enthalten, können sie nicht segmentiert werden. Da VRS mit Segmentierung arbeitet, sind nicht alle Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites verfügbar. Zusammenfassungsdatenquellen sind nur in der Quell-Report Suite sichtbar.
 
->[!TIP] Datenquellen mit vollständiger Verarbeitung unterstützen die Segmentierung und können in Virtual Report Suites verwendet werden.
+>[!TIP]
+>
+>Datenquellen mit vollständiger Verarbeitung unterstützen die Segmentierung und können in Virtual Report Suites verwendet werden.
 
 ## Schritte, die bei der Verwendung von Virtual Report Suites zu befolgen sind
 
