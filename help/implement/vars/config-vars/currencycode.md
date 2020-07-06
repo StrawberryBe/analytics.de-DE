@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ Wenn `currencyCode` definiert ist und mit der Währung der Report Suite überein
 
 Wenn `currencyCode` definiert ist und sich von der Währung der Report Suite unterscheidet, wendet Adobe eine Währungsumrechnung auf der Grundlage des aktuellen Tageswechselkurses an. Adobe arbeitet mit [XE](https://xe.com) zusammen, um täglich Währungen umzurechnen. Alle in Datenerfassungs-Servern gespeicherten Werte werden letztendlich in der Währung der Report Suite gespeichert.
 
->[!IMPORTANT] Wenn `currencyCode` einen ungültigen Wert enthält, wird der gesamte Treffer verworfen, was zu Datenverlust führt. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
+>[!IMPORTANT]
+>
+>Wenn `currencyCode` einen ungültigen Wert enthält, wird der gesamte Treffer verworfen, was zu Datenverlust führt. Stellen Sie sicher, dass diese Variable korrekt definiert ist, wenn Sie sie in Ihrer Implementierung verwenden.
 
 Diese Variable bleibt nicht zwischen Treffern bestehen. Stellen Sie sicher, dass diese Variable auf jeder Seite definiert ist, die Umsatz- oder Währungsereignisse enthält.
 
@@ -37,10 +39,10 @@ Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Wä
 
 ## Währungscode in Adobe Experience Platform Mobile SDK
 
-Währungscode wird über Kontextdatenvariablen in der Adobe Analytics-Erweiterung an die Adobe Experience Platform Mobile-SDKs übergeben.
+Währungscode wird über Kontextdatenvariablen in der Adobe Analytics Extension an die Adobe Experience Platform Mobile SDKs übergeben.
 
 1. Legen Sie den Währungscode in einer Kontextdatenvariablen während einer der beiden `trackState` oder `trackAction`einer der beiden fest.
-2. Erstellen Sie eine Verarbeitungsregel in der Admin-Konsole von Adobe Analytics für die Report Suite. Legen Sie die Regel fest, um die Währungscode-Variable zu überschreiben.
+2. Erstellen Sie eine Verarbeitungsregel in der Adobe Analytics Admin Console für die Report Suite. Legen Sie die Regel fest, um die Währungscode-Variable zu überschreiben.
 3. Übergeben Sie den Währungscode an die `products` Variable in Ihrem Aufruf an `trackState` oder `trackAction`.
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
