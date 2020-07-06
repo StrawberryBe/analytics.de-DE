@@ -2,7 +2,7 @@
 title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,9 +14,13 @@ ht-degree: 92%
 
 Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funktionen unterstützt werden.
 
->[!NOTE] Benutzerdefinierte Variablennamen, Classifications und Besucher-Attribute werden in dieser Liste weggelassen. Diese Dimensionswerte sind spezifisch für einzelne Report Suites.
+>[!NOTE]
+>
+>Benutzerdefinierte Variablennamen, Classifications und Besucher-Attribute werden in dieser Liste weggelassen. Diese Dimensionswerte sind spezifisch für einzelne Report Suites.
 
->[!NOTE] Es gibt einige Überschneidungen, bei denen Analytics-Tools unterschiedliche Begriffe für ähnliche Dimensionen verwenden. Beispielsweise verwendet Reports &amp; Analysen `browserwidth` während Analyse Workspace verwendet `browserwidthbucketed`.
+>[!NOTE]
+>
+>Es gibt Überschneidungen, bei denen Analytics-Tools unterschiedliche Begriffe für ähnliche Dimensionen verwenden. Beispielsweise verwendet Reports &amp; Analytics `browserwidth` während der Verwendung durch Analysis Workspace `browserwidthbucketed`.
 
 ## Unterstützte Dimensionen sowohl in Reports &amp; Analytics als auch im Analysis Workspace
 
@@ -43,14 +47,14 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Entrypage | `entrypage` |
 | Entrypage ursprünglich | `entrypageoriginal` |
 | Exitlink | `exitlink` |
-| Erstkontakt Kanal | `firsttouchchannel` |
+| Erstkontakt-Kanal | `firsttouchchannel` |
 | Erstkontakt Kanaldetail | `firsttouchchanneldetail` |
 | Java aktiviert | `javaenabled` |
 | Sprache | `language` |
-| Letztkontakt Kanal | `lasttouchchannel` |
+| Letztkontakt-Kanal | `lasttouchchannel` |
 | Letztkontakt Kanaldetail | `lasttouchchanneldetail` |
 | Listenvariablen | `listvariables` |
-| Marketingkanal | `marketingchannel` |
+| Marketing-Kanal | `marketingchannel` |
 | Mobilgerät - Audio-Unterstützung | `mobileaudiosupport` |
 | Mobilnetzbetreiber | `mobilecarrier` |
 | Mobilgerät - Farbtiefe | `mobilecolordepth` |
@@ -74,12 +78,12 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Produkt | `product` |
 | Referrer | `referrer` |
 | Typ der verweisenden Stelle | `referrertype` |
-| Verweisende Domäne | `referringdomain` |
+| Referrer-Domäne | `referringdomain` |
 | Regionen | `georegion` |
 | Rückkehrhäufigkeit | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | Suchmaschine | `searchengine` |
-| Keywords | `searchenginekeyword` |
+| Suchbegriffe | `searchenginekeyword` |
 | Suchmaschine - Natürlich | `searchenginenatural` |
 | Suchmaschine - bezahlt | `searchenginepaid` |
 | Keyword – natürlich | `searchenginenaturalkeyword` |
@@ -110,7 +114,7 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Wochentag | `dayofweek` |
 | Wochentag | `timepartdayofweek` |
 | Tag des Jahres | `timepartdayofyear` |
-| Tage seit dem letzten Besuch  | `dayssincelastvisit` |
+| Tage seit dem letzten Besuch | `dayssincelastvisit` |
 | Eingabe benutzerdefinierter Insights | `entryprops` |
 | Eingabe-Listenvariablen | `entrylistvariables` |
 | Entryserver | `entryserver` |
