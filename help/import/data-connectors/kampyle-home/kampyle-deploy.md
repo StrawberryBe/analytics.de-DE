@@ -3,7 +3,10 @@ description: 'null'
 title: Bereitstellen der Integration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 47%
 
 ---
 
@@ -24,7 +27,7 @@ Um die Integration zu aktivieren, führen Sie den Konfigurationsassistenten in d
    1. **[!UICONTROL E-Mail-Adresse]**: Die E-Mail-Adresse des Hauptkontakts.
    1. **[!UICONTROL Beschreibung]** (optional): Beschreibung für diese Integrationseinrichtung.
    1. **[!UICONTROL Kampyle-Schlüssel]**: Suchen Sie diesen Schlüssel in der Anwendung Kampyle unter **[!UICONTROL Feedback-Formular]** > **[!UICONTROL Feedback-Formularanpassung]**.
-   1. **[!UICONTROL Tracking-Server]**: Der Wert des Tracking-Servers, den Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
+   1. **[!UICONTROL Tracking-Server]**: Der Trackingserverwert, den Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
    1. **[!UICONTROL Sicherer]** Tracking-Server: Wenn sich Ihr Tracking-Server für sicheren/https-Traffic unterscheidet, geben Sie diese Einstellung hier an.
 1. Konfigurieren Sie die folgenden **[!UICONTROL Variablenzuordnungselemente]**:
    1. **[!UICONTROL Kampyle Feedback-ID]**: Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite
@@ -38,7 +41,9 @@ Um die Integration zu aktivieren, führen Sie den Konfigurationsassistenten in d
 
 Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigurationsobjekt für Ihre Webeigenschaft bereit. In vielen Fällen ist es am einfachsten, das Integrationskonfigurationsobjekt in Ihren Adobe Analytics-Bereitstellungscode aufzunehmen.
 
->[!NOTE] Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt einfach über dieses Tool hinzufügen.
+>[!NOTE]
+>
+>Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt ganz einfach über dieses Tool hinzufügen.
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Ressourcen]** > **[!UICONTROL Support]** der Integration.
 1. Laden Sie die Ressource **[!UICONTROL Kampyle Integration Code (JS)]** herunter. Speichern Sie diese anschließend. Der Code sieht in etwa so aus:
@@ -50,8 +55,8 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 1. Stellen Sie den Code mit einer der folgenden Methoden bereit:
 
-   * Adobe Experience Platform Launch verwenden.
-   * Stellen Sie den Code für die organisatorische Ressource bereit, die Ihre Adobe Analytics-Bereitstellung verwaltet.
+   * Adobe Experience Platform starten.
+   * Stellen Sie den Code für die Organisationsressource bereit, die Ihre Adobe Analytics-Bereitstellung verwaltet.
 
 ## Überprüfen der Integration {#verify-the-integration}
 
@@ -61,7 +66,9 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 Zeigen Sie Ihre Einrichtung für die Kampyle-Integration in der Adobe Experience Cloud an. Navigieren Sie dazu zu **[!UICONTROL Support]** > **[!UICONTROL Protokoll zu den Integrationsaktivitäten]**. Auf der Registerkarte **[!UICONTROL Dateneingang]** werden Einträge angezeigt, aus denen hervorgeht, dass Klassifizierungsdaten erfolgreich importiert wurden.
 
->[!NOTE] Protokolleinträge werden in der Regel innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt.
+>[!NOTE]
+>
+>Protokolleinträge werden in der Regel innerhalb von 24 Stunden nach erfolgreicher Bereitstellung angezeigt.
 
 ![Integrations-Aktivität-Protokoll](assets/integration_activity_log.png)
 
@@ -69,6 +76,8 @@ Zeigen Sie Ihre Einrichtung für die Kampyle-Integration in der Adobe Experience
 
 Zeigen Sie Ihre Kampyle-Feedback-Berichte mit Adobe Analytics an, indem Sie innerhalb der entsprechenden Menüstruktur zur Kampyle-Berichterstellung navigieren.
 
->[!NOTE] Berichtsdaten sollten innerhalb von 24–48 Stunden nach erfolgreicher Bereitstellung angezeigt werden, sofern die integrierten Feedback-Formulare Übermittlungen aktiv empfangen.
+>[!NOTE]
+>
+>Berichtsdaten sollten innerhalb von 24–48 Stunden nach erfolgreicher Bereitstellung angezeigt werden, sofern die integrierten Feedback-Formulare Übermittlungen aktiv empfangen.
 
 ![Adobe Berichte-Daten](assets/adobe_reporting_data.png)
