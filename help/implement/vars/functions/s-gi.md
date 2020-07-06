@@ -1,8 +1,11 @@
 ---
 title: s_gi()
 description: Erstellen und verfolgen Sie Instanzen von AppMeasurement.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Im Textfeld für globale Variablen können Sie ein benutzerdefiniertes Tracking-
 
 Rufen Sie die `s_gi()`-Funktion auf, um ein Tracking-Objekt zu instanziieren. Das einzige Argument enthält eine kommagetrennte Zeichenfolge von Report Suite-IDs. Das Argument der Report Suite-ID ist erforderlich.
 
->[!TIP] Adobe empfiehlt, die `s`-Variable als Tracking-Objekt zu verwenden. Adobe verwendet `s` in seiner Dokumentation, Implementierungsbeispielen und Plug-ins. Sie können jedoch jede beliebige Variable verwenden, solange Sie auf Ihrer Website konsistent sind.
+>[!TIP]
+>
+>Adobe empfiehlt, die `s`-Variable als Tracking-Objekt zu verwenden. Adobe verwendet `s` in seiner Dokumentation, Implementierungsbeispielen und Plug-ins. Sie können jedoch jede beliebige Variable verwenden, solange Sie auf Ihrer Website konsistent sind.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] Die folgenden Abschnitte und Beispiele enthalten komplexe Implementierungsthemen. Testen Sie Ihre Implementierung gründlich und verfolgen Sie wichtige Anpassungen im [Lösungsdesigndokument](../../prepare/solution-design.md) Ihres Unternehmens.
+>[!CAUTION]
+>
+>Die folgenden Abschnitte und Beispiele enthalten komplexe Implementierungsthemen. Testen Sie Ihre Implementierung gründlich und verfolgen Sie wichtige Anpassungen im [Lösungsdesigndokument](../../prepare/solution-design.md) Ihres Unternehmens.
 
 ## Verwalten mehrerer Implementierungen mit verschiedenen Tracking-Objekten
 
