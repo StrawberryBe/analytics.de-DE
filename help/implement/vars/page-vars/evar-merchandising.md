@@ -2,7 +2,7 @@
 title: eVar (Merchandising)
 description: Benutzerspezifische Variablen, die mit einzelnen Produkten verknüpft sind.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 29%
@@ -12,13 +12,15 @@ ht-degree: 29%
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars implementiert werden. Informationen dazu, wie Merchandising-eVars als Dimension funktionieren, finden Sie unter[eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md)im Komponenten-Benutzerhandbuch.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars implementiert werden. For information on how merchandising eVars work as a dimension, see[eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md)in the Components user guide.*
 
 ## Einrichten von eVars in den Report Suite-Einstellungen
 
 Bevor Sie eVars in Ihrer Implementierung verwenden, stellen Sie sicher, dass Sie die eVar in den Report Suite-Einstellungen auf die gewünschte Syntax konfigurieren. Weitere Informationen finden Sie im Admin-Handbuch unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md).
 
->[!IMPORTANT] Wenn Merchandising-eVars nicht korrekt konfiguriert werden, führt dies zu unerwarteten Werten oder Datenverlusten für die Variable. Vergewissern Sie sich, dass es für Ihre Implementierung richtig konfiguriert ist.
+>[!IMPORTANT]
+>
+>Wenn Merchandising-eVars nicht korrekt konfiguriert werden, führt dies zu unerwarteten Werten oder Datenverlusten für die Variable. Vergewissern Sie sich, dass es für Ihre Implementierung richtig konfiguriert ist.
 
 ## Implementierung mit der Produktsyntax
 
