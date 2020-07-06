@@ -5,7 +5,10 @@ title: Häufig gestellte Fragen
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Wenn Sie die Einrichtungs-E-Mail nach drei Tagen nicht erhalten haben und keine 
 
 Beispiel: Es gibt eine Integration in Report Suite A mit der Advertiser-ID Z, der eine CSID zugeordnet wird. Später wird eine weitere Integration in Report Suite B mit der Advertiser-ID Z eingerichtet und dieser neuen Integration wird die CSID NICHT erneut zugeordnet. Dazu ist die Erstellung eines Falls bei Google erforderlich. Ein anderes Beispiel wäre eine Integration in Report Suite A mit der Advertiser-ID Z, später wird eine weitere Integration in Report Suite A mit der Advertiser-ID Z eingerichtet. Es werden nur Daten zur Integration an die erste Integration gesendet. Allerdings kann die erste Integration in diesem Fall deaktiviert werden, woraufhin Daten an die zweite Integration gesendet werden.
 
->[!NOTE] Bei Version 2.0 der Integration werden keine CSIDs verwendet. Daher ist diese Übertragung von CSIDs nicht erforderlich.
+>[!NOTE]
+>
+>Bei Version 2.0 der Integration werden keine CSIDs verwendet. Daher ist diese Übertragung von CSIDs nicht erforderlich.
 
 ## Ich verwende Version 2.0 der Integration und ich sehe keine Kostenmetriken für meine DFA-Anzeigen. Woran kann das liegen?  {#section-805748111bbe4bbf918d6dbbb2641fff}
 
