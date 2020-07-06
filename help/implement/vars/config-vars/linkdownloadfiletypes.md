@@ -1,8 +1,11 @@
 ---
 title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,15 @@ Wenn [`trackDownloadLinks`](trackdownloadlinks.md) aktiviert ist und ein Besuche
 
 Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen Sie als Download-Links zählen möchten.
 
->[!NOTE] Nur tatsächliche Klicks werden automatisch verfolgt. Die folgenden Link-Typen werden nicht automatisch verfolgt:
+>[!NOTE]
+>
+>Nur tatsächliche Klicks werden automatisch verfolgt. Die folgenden Link-Typen werden nicht automatisch verfolgt:
 >
 > * Datei-Downloads, die beim Laden einer Seite automatisch eingeleitet werden
 > * Downloads, die nach einer Umleitung ausgelöst werden
 > * Mit der rechten Maustaste klicken und „Ziel speichern unter...“ auswählen
 > * Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
+
 >
 > 
 Bei diesen Download-Typen können Sie die [`tl()`](../functions/tl-method.md)-Methode manuell aufrufen.
