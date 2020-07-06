@@ -4,7 +4,7 @@ title: Konversionstrichter
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -32,5 +32,7 @@ Auch dieser Bericht kann angepasst werden. Sie können somit dem Konversionstric
 
 Die Berichttabelle zeigt Statistiken zu durchschnittlichen Verkäufen pro Clickthrough-Rate und durchschnittlich verkauften Einheiten pro Clickthrough-Rate an. Sie können zu diesen Berichten Metriken und benutzerspezifische Ereignisse aus anderen Berichtgruppen hinzufügen. Diese Trichter haben viele Ähnlichkeiten, basieren aber auf verschiedenen Variablen und Ereignissen. Sie können diese Berichte nutzen, um zu prüfen, welche Prozentsätze und allgemeine Besuchertrends von Ihnen spezifizierte Ereignisse auslösen. Sie können sehen, wo Benutzer nicht bis zu bestimmen Ereignissen folgen und erhalten so umfassende Informationen zu diesem spezifischen Punkt im Konversionsprozess.
 
->[!NOTE] Instanzen entsprechen im Kontext dieser Berichte der Gesamtzahl der Besuche, bei denen eVar oder ein Ereignis definiert wurde.
+>[!NOTE]
+>
+>Instanzen entsprechen im Kontext dieser Berichte der Gesamtzahl der Besuche, bei denen eVar oder ein Ereignis definiert wurde.
 
