@@ -2,7 +2,7 @@
 title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Diese Dimension ist insofern einzigartig, als sie mehrere Möglichkeiten zum Aus
 
 Die [!UICONTROL Zip-Option] unter &quot; [Allgemeine Kontoeinstellungen](/help/admin/admin/general-acct-settings-admin.md) &quot;steuert, wie Sie diese Dimension füllen möchten.
 
->[!IMPORTANT] Die Einstellung der Report Suite ist entscheidend, wenn Sie die volle Kontrolle darüber haben möchten, wie Sie diese Dimension füllen.
+>[!IMPORTANT]
+>
+>Die Einstellung der Report Suite ist entscheidend, wenn Sie die volle Kontrolle darüber haben möchten, wie Sie diese Dimension füllen.
 
 ## Dimensionswerte
 
