@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Klassifizierungsregeln
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Informationen zur Regelpriorität](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] Der [!UICONTROL Rule Builder] unterstützt keine Numerisch 2 Classifications.
+>[!NOTE]
+>
+>Der [!UICONTROL Rule Builder] unterstützt keine Numerisch 2 Classifications.
 
 ## Wichtige Informationen zu Regeln
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [Reguläre Ausdrücke – Beispiel für „enthält nicht“ ](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Reguläre Ausdrücke – Referenztabelle](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] Reguläre Ausdrücke eignen sich als Best Practice für Trackingcodes, in denen Trennzeichen verwendet werden; dies gehört zu den bewährten Verfahren.
+>[!NOTE]
+>
+>Reguläre Ausdrücke eignen sich als Best Practice für Trackingcodes, in denen Trennzeichen verwendet werden; dies gehört zu den bewährten Verfahren.
 
 ## Regulärer Ausdruck – Beispiel für Trackingcode {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] Wenn der Trackingcode URL-kodiert ist, wird er **nicht** durch den Rule Builder klassifiziert.
+>[!NOTE]
+>
+>Wenn der Trackingcode URL-kodiert ist, wird er **nicht** durch den Rule Builder klassifiziert.
 
 In diesem Beispiel wird angenommen, dass die folgende Kampagnen-ID klassifiziert werden soll:
 
@@ -370,6 +379,7 @@ In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder ein
 
    * Trackingcodes
    * Keywords oder Suchausdrücke
+
    Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/c-classifications2/crb/classification-quickstart-rules.md), um Informationen zum Testen von regulären Ausdrücken zu erhalten.
 1. Klicken Sie auf **[!UICONTROL Test ausführen]**.
 
