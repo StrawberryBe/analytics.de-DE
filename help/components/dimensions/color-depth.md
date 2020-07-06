@@ -2,7 +2,7 @@
 title: Farbtiefe
 description: Die Farbtiefe des Geräts.
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -16,10 +16,12 @@ Die Dimension &quot;Farbtiefe&quot;zeigt an, wie viele Farben das Gerät unterst
 
 ## Diese Dimension mit Daten füllen
 
-Diese Dimension referenziert eine Suchtabelle und übersetzt den Bitwert in ein lesbareres Format. Es erfasst Daten aus der [`c` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen. AppMeasurement verwendet die `screen.colorDepth` Variable, um die Abfrage der Bildanforderung zu füllen. Wenn Sie AppMeasurement verwenden (z. B. über Adobe Experience Platform Launch), funktioniert diese Dimension standardmäßig. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Parameter für die `c` Abfrage-Zeichenfolge bei jedem Treffer mit einem gültigen Bitwert einschließen.
+Diese Dimension referenziert eine Suchtabelle und übersetzt den Bitwert in ein lesbareres Format. Es erfasst Daten aus der [`c` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen. AppMeasurement verwendet die `screen.colorDepth` Variable, um die Abfrage der Bildanforderung zu füllen. Wenn Sie AppMeasurement verwenden (z. B. beim Starten der Adobe Experience Platform), funktioniert diese Dimension standardmäßig. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Parameter für die `c` Abfrage-Zeichenfolge bei jedem Treffer mit einem gültigen Bitwert einschließen.
 
 ## Dimensionswerte
 
 Dimensionswerte beinhalten die Anzahl der vom Gerät unterstützten Farben. Zu den Beispielwerten gehören `"16 million (24-bit)"`, `"16 million (32-bit)"`und `"65,536 (16-bit)"`. Wenn AppMeasurement nicht in der Lage ist, die Farbtiefe zu bestimmen, wird dies als `"None"`.
 
-> [!TIP] Der Unterschied zwischen 24-Bit- und 32-Bit-Unterstützung besteht darin, dass 32-Bit einen Alpha-Kanal (RGBA) unterstützen, während 24-Bit dies nicht (RGB) tun. Weitere Informationen zu diesem Konzept finden Sie unter [Farbtiefe](https://en.wikipedia.org/wiki/Color_depth) auf Wikipedia.
+>[!TIP]
+>
+>Der Unterschied zwischen 24-Bit- und 32-Bit-Unterstützung besteht darin, dass 32-Bit einen Alpha-Kanal (RGBA) unterstützen, während 24-Bit dies nicht (RGB) tun. Weitere Informationen zu diesem Konzept finden Sie unter [Farbtiefe](https://en.wikipedia.org/wiki/Color_depth) auf Wikipedia.
