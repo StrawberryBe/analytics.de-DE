@@ -2,7 +2,7 @@
 title: Individuelle Besucher
 description: Die Anzahl der Einzelpersonen (oder Geräte).
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Diese Metrik zählt die Anzahl der eindeutigen Besucher-IDs für einen bestimmte
 | 4 | `fid` | Besucher hat ein bestehendes [`s_fid`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html) Cookie, oder wenn `aid` und `mid` nicht eingestellt werden konnte. |
 | 5 | IP-Adresse, Benutzeragent, Gateway-IP-Adresse | Letzter Ausweg zur Identifizierung eines eindeutigen Besuchers, wenn der Browser des Besuchers keine Cookies akzeptiert. |
 
->[!NOTE] Jede Analytics-Besucher-ID ist an ein Profil auf Adobe-Servern gebunden. Diese Besucher-Profil werden nach mindestens 13 Monaten Inaktivität gelöscht, unabhängig vom Ablauf eines Besucher-ID-Cookies.
+>[!NOTE]
+>
+>Jede Analytics-Besucher-ID ist an ein Profil auf Adobe-Servern gebunden. Diese Besucher-Profil werden nach mindestens 13 Monaten Inaktivität gelöscht, unabhängig vom Ablauf eines Besucher-ID-Cookies.
 
 ## Verhalten, das sich auf die Anzahl der individuellen Besucher auswirkt
 
