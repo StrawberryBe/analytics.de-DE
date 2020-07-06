@@ -2,8 +2,11 @@
 description: Komponenten in Analysis Workspace bestehen aus Metriken, Dimensionen, Segmenten und Zeitgranularitäten, die Sie per Drag-and-Drop in einem Projekt platzieren können. Wenn Sie benutzerdefinierte Komponenten erstellen, z. B. benutzerdefinierte Datumsbereiche, werden sie diesen Feldern hinzugefügt.
 title: Komponentenübersicht
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Komponenten in Analysis Workspace bestehen aus Metriken, Dimensionen, Segmenten und Zeitgranularitäten, die Sie per Drag-and-Drop in einem Projekt platzieren können. Wenn Sie benutzerdefinierte Komponenten erstellen, z. B. benutzerdefinierte Datumsbereiche, werden sie diesen Feldern hinzugefügt.
 
-Klicken Sie in der linken Leiste auf das Symbol **[!UICONTROL Components]**, um auf das Bedienfeld „Komponenten“ zuzugreifen. Sie können zwischen Bedienfeldern (leeres Bedienfeld, [Freiform-Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-table.md) oder Bedienfeld [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) und Komponenten mithilfe der Symbole auf der linken Leiste oder mithilfe von [Tastaturbefehlen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) wechseln.
+Klicken Sie in der linken Leiste auf das Symbol **[!UICONTROL Komponenten]**, um auf das Bedienfeld „Komponenten“ zuzugreifen. Sie können zwischen Bedienfeldern (leeres Bedienfeld, [Freiform-Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-table.md) oder Bedienfeld [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) und Komponenten mithilfe der Symbole auf der linken Leiste oder mithilfe von [Tastaturbefehlen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) wechseln.
 
 ![](assets/components.png)
 
@@ -20,9 +23,11 @@ Siehe [Erstellen eines Freiformanalyseprojekts](/help/analyze/analysis-workspace
 
 ## Komponentenaktionen {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-Sie können Komponenten (separat oder mehrere gleichzeitig) auf verschiedene Weisen verwalten. Klicken Sie mit der rechten Maustaste auf eine Komponente oder klicken Sie oben in der Komponentenliste auf **[!UICONTROL Actions]**.
+Sie können Komponenten (separat oder mehrere gleichzeitig) auf verschiedene Weisen verwalten. Klicken Sie mit der rechten Maustaste auf eine Komponente oder klicken Sie oben in der Komponentenliste auf **[!UICONTROL Aktionen]**.
 
->[!NOTE] Diese Aktionen beziehen sich nicht auf Zeitkomponenten.
+>[!NOTE]
+>
+>Diese Aktionen beziehen sich nicht auf Zeitkomponenten.
 
 | Komponentenaktion | Beschreibung |
 |--- |--- |
