@@ -1,8 +1,11 @@
 ---
 title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren. Diese Integration bietet die Möglichkeit einer Datenverbindung in beide Richtungen. Normalerweise wird die Verwendung des Integrationsmoduls von einem Adobe-Partner gesteuert.
 
->[!NOTE] Das Anfordern von Partnerdaten in Ihrer Implementierung kann zu Verzögerungen zwischen dem Laden der Seite und den an die Adobe-Datenerfassungs-Server gesendeten Daten führen. Wenn ein Besucher eine neue Seite lädt, bevor Daten gesendet werden, wird diese Seite nicht aufgezeichnet.
+>[!NOTE]
+>
+>Das Anfordern von Partnerdaten in Ihrer Implementierung kann zu Verzögerungen zwischen dem Laden der Seite und den an die Adobe-Datenerfassungs-Server gesendeten Daten führen. Wenn ein Besucher eine neue Seite lädt, bevor Daten gesendet werden, wird diese Seite nicht aufgezeichnet.
 
 ## Arbeitsablauf für Integrationsmodule
 
