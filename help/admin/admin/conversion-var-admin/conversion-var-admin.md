@@ -5,10 +5,10 @@ title: Konversionsvariablen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,9 @@ eVars eignen sich am besten zur Messung von Ursache und Wirkung, z. B.:
 
 Wenn eine Trafficmessung oder -pfaderstellung gewünscht wird, wird empfohlen, Traffic-Variablen zu nutzen.
 
->[!NOTE] Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html).
+>[!NOTE]
+>
+>Nur ein einzelner Wert kann bei einer Bildanforderung in einer eVar gespeichert werden. Wenn ein eVar-Wert mehrere Werte enthalten soll, empfehlen wie die Implementierung von [Listenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Konversionsvariablen – Beschreibungen {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -57,8 +59,8 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
    <td colname="col1"> <p> <span class="uicontrol"> Läuft ab nach</span> </p> </td> 
    <td colname="col2"> <p>Hier wird ein Zeitraum bzw. ein Ereignis angegeben, nach dem der eVar-Wert abläuft (d. h. keine Gutschrift für Erfolgsereignisse mehr erhält). Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. </p> <p>Wenn Sie den Ablauf über ein Ereignis festlegen, läuft die Variable nur ab, wenn das Ereignis eintritt. Tritt das Ereignis nicht ein, läuft die Variable auch nicht ab. </p> <p>Die verfügbaren Ablaufoptionen können in vier Hauptkategorien eingeteilt werden. </p> 
     <ul id="ul_810A37C9B6624F429F2FB45C18F7B43F"> 
-     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b>Auf Ebene einer Seitenansicht oder eines Besuchs</b> Konversionsereignisse, die über die Seitenansicht oder Besuche hinausgehen, werden nicht mit eVar in Verbindung gebracht. </li> 
-     <li id="li_689FBC8B4DAC41B3B0166E6586DD1990"><b>Auf Grundlage eines Zeitraums, z. B. Tag, Woche, Monat oder Jahr</b> Konversionsereignisse, die über den festgelegten Zeitraum hinausgehen, werden nicht mit eVar in Verbindung gebracht. Der Ablaufzeitraum beginnt mit der Einstellung der Variablen. eVars laufen, ausgehend von dem Zeitpunkt, zu dem sie festgelegt wurden, bei Erreichen der entsprechenden Sekunde (Minute, Stunde, Tag, Monat usw.) ab: 
+     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b>Auf Ebene einer Seitenansicht oder eines Besuchs.</b> Konversionsereignisse, die über die Seitenansicht oder Besuche hinausgehen, werden nicht mit eVar in Verbindung gebracht. </li> 
+     <li id="li_689FBC8B4DAC41B3B0166E6586DD1990"><b>Auf Grundlage eines Zeitraums, z. B. Tag, Woche, Monat oder Jahr.</b> Konversionsereignisse, die über den festgelegten Zeitraum hinausgehen, werden nicht mit eVar in Verbindung gebracht. Der Ablaufzeitraum beginnt mit der Einstellung der Variablen. eVars laufen, ausgehend von dem Zeitpunkt, zu dem sie festgelegt wurden, bei Erreichen der entsprechenden Sekunde (Minute, Stunde, Tag, Monat usw.) ab: 
       <ul id="ul_80C7E3182B6B4356B8A3CA920B81C6D5"> 
        <li id="li_F16F60319CCE406D9EDEFEC0A200BC4D">MINUTE = 60 Sekunden </li> 
        <li id="li_45F47F3F5691415B84052B235DF3BB54">STUNDE = 3.600 Sekunden (60 Minuten) </li> 
@@ -73,8 +75,8 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
        <li id="li_25846328766D4B4BAF407236C65C956C">Ablauf nach einer Woche: eVar läuft am folgenden Montag um 7:15 Uhr ab. </li> 
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Ablauf nach einem Monat: eVar läuft 31 Tage nach diesem Montag um 7:15 Uhr ab. </li> 
       </ul> </li> 
-     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Spezifische Konversionsereignisse</b> Alle sonstigen Konversionsereignisse, die ausgelöst werden, nachdem das spezifische Ereignis, das eVar zugeordnet ist, eintritt. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nie</b> Solange das Cookie <span class="varname"> visitorID</span> intakt ist, kann ein beliebiger Zeitraum zwischen eVar und Ereignis verstreichen. </li> 
+     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Spezifische Konversionsereignisse.</b> Alle sonstigen Konversionsereignisse, die ausgelöst werden, nachdem das spezifische Ereignis, das eVar zugeordnet ist, eintritt. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Nie.</b> Solange das Cookie <span class="varname"> visitorID</span> intakt ist, kann ein beliebiger Zeitraum zwischen eVar und Ereignis verstreichen. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -87,7 +89,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Merchandisingvariablen können einer oder zwei Syntaxen folgen: </p> <p> <b>Produktsyntax</b>:</span> Hiermit wird einem Produkt der eVar-Wert zugewiesen. Hinweis: Wenn die Produktsyntax ausgewählt ist, ist der Bereich „Merchandising-Binding-Ereignis“ deaktiviert und kann nicht für die Bearbeitung ausgewählt werden. Für diese Syntax können keine Binding-Ereignisse angewendet werden. </p> </p> <p> <b>Syntax der Konversionsvariablen</b>:</span> Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein Binding-Ereignis auftritt. In diesem Fall legen Sie fest, welche Ereignisse als Binding-Ereignisse gelten. </p> <p>Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">Merchandising-Variablen</a>. </p> </td> 
+   <td colname="col2"> <p>Merchandisingvariablen können einer oder zwei Syntaxen folgen: </p> <p> <b>Produktsyntax</b>:</span> Hiermit wird einem Produkt der eVar-Wert zugewiesen. Hinweis: Wenn die Produktsyntax ausgewählt ist, ist der Bereich „Merchandising-Binding-Ereignis“ deaktiviert und kann nicht für die Bearbeitung ausgewählt werden. Für diese Syntax können keine Binding-Ereignisse angewendet werden. </p> </p> <p> <b>Syntax der Konversionsvariablen</b>:</span> Hierbei wird einem Produkt nur dann die eVar zugewiesen, wenn ein Binding-Ereignis auftritt. In diesem Fall legen Sie fest, welche Ereignisse als Binding-Ereignisse gelten. </p> <p>Wenn Sie diese Einstellung ändern, ohne den JavaScript-Code zu aktualisieren, gehen Daten verloren. Siehe <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/variables/merchandising-variables/var-merchandising.html">Merchandising-Variablen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising-Binding-Ereignis</span> </p> <p>(nur eVar) </p> </td> 
@@ -103,11 +105,11 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
 Es gibt zwei Möglichkeiten für den Ablauf einer eVar:
 
 * Sie können die eVar so einstellen, dass sie nach einem bestimmten Zeitraum oder Ereignis abläuft.
-* Sie können den Ablauf einer eVar erzwingen, indem Sie sie zurücksetzen. Dies ist nützlich, wenn Sie eine Variable erneut verwenden möchten.
+* Sie können das Ablaufen einer eVar erzwingen, indem Sie sie zurücksetzen (z. B. wenn eine Variable für einen anderen Zweck eingesetzt werden soll).
 
-Wenn Sie beispielsweise den Ablauf einer eVar von 30 auf 90 Tage ändern, bleiben die erfassten eVar-Werte für die Dauer des neuen Ablaufsatzes (in diesem Fall 90 Tage) erhalten. Das System prüft lediglich die aktuelle Ablaufeinstellung und den letzten festgelegten Zeitstempel des erfassten eVar-Werts, um den Ablauf zu bestimmen. Nur die Option &quot; **[!UICONTROL Zurücksetzen]** &quot;läuft Werte ab und tut dies sofort.
+Wenn Sie beispielsweise den Ablauf einer eVar von 30 auf 90 Tage ändern, bleiben die erfassten eVar-Werte für die Dauer des neu eingestellten Ablaufzeitraums (in diesem Fall 90 Tage) erhalten. Das System prüft lediglich die aktuelle Ablaufeinstellung und den letzten festgelegten Zeitstempel des erfassten eVar-Werts, um den Ablauf zu bestimmen. Nur die Option **[!UICONTROL Zurücksetzen]** bewirkt ein unmittelbares Ablaufen von Werten.
 
-Ein weiteres Beispiel: Wenn eine eVar im Mai zur Darstellung interner Promotions verwendet wird und nach 21 Tagen abläuft und im Juni zur Erfassung interner Suchbegriffe verwendet wird, sollten Sie am 1. Juni den Ablauf der Variablen erzwingen oder sie zurücksetzen. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
+Ein weiteres Beispiel: Wenn eine eVar im Mai dazu dienen soll, interne Werbeaktionen widerzuspiegeln (wobei sie nach 21 Tagen ablaufen soll) und im Juni dann eingesetzt wird, um interne Keywords zu erfassen, müssen Sie am 1. Juni ihren Ablauf erzwingen oder die Variable zurücksetzen. So verhindern Sie, dass die Werte zu der internen Werbeaktion vom Mai nicht im Bericht vom Juni auftauchen.
 
 **Groß-/Kleinschreibung**
 
