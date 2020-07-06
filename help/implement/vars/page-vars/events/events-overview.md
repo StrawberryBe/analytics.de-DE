@@ -2,7 +2,7 @@
 title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ Die `s.events`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von
 * `scView`: Erhöht die Metrik [&quot;Ansichten](/help/components/metrics/cart-views.md) im Warenkorb&quot;.
 * `scCheckout`: Erhöht die Metrik [&quot;Kassengänge&quot;](/help/components/metrics/checkouts.md) .
 
->[!NOTE] Bei dieser Variablen wird zwischen Groß- und Kleinschreibung unterschieden. Vermeiden Sie die falsche Großschreibung von Ereigniswerten, um eine genaue Datenerfassung sicherzustellen.
+>[!NOTE]
+>
+>Bei dieser Variablen wird zwischen Groß- und Kleinschreibung unterschieden. Vermeiden Sie die falsche Großschreibung von Ereigniswerten, um eine genaue Datenerfassung sicherzustellen.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] Zählerereignisse unterstützen keine Währungs- oder Dezimalwerte. Verwenden Sie Währungsereignisse für Währungswerte oder numerische Ereignisse für Dezimalwerte.
+>[!NOTE]
+>
+>Zählerereignisse unterstützen keine Währungs- oder Dezimalwerte. Verwenden Sie Währungsereignisse für Währungswerte oder numerische Ereignisse für Dezimalwerte.
 
 ### Währungsereignisse verwenden
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] Wenn Sie einen Währungswert sowohl in der `events`-Variablen als auch in der `products`-Variablen festlegen, wird der Währungswert in `events` verwendet. Vermeiden Sie das Setzen von Währungswerten sowohl in der `events`- als auch in der `products`-Variablen.
+>[!NOTE]
+>
+>Wenn Sie einen Währungswert sowohl in der `events`-Variablen als auch in der `products`-Variablen festlegen, wird der Währungswert in `events` verwendet. Vermeiden Sie das Setzen von Währungswerten sowohl in der `events`- als auch in der `products`-Variablen.
 
 ### Numerische Ereignisse verwenden
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] Wenn Sie einen numerischen Wert sowohl in der `events`-Variablen als auch in der `products`-Variablen festlegen, wird der numerische Wert in `events` verwendet. Vermeiden Sie das Setzen von numerischen Werten sowohl in der `events`- als auch in der `products`-Variablen.
+>[!NOTE]
+>
+>Wenn Sie einen numerischen Wert sowohl in der `events`-Variablen als auch in der `products`-Variablen festlegen, wird der numerische Wert in `events` verwendet. Vermeiden Sie das Setzen von numerischen Werten sowohl in der `events`- als auch in der `products`-Variablen.
