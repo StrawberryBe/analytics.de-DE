@@ -3,7 +3,10 @@ description: Beschreibt den dreistufigen Bereitstellungsprozess.
 title: Bereitstellen der Integration
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +75,9 @@ Schritte zum Überprüfen, ob die Lyris-/Adobe Analytics-Integration erfolgreich
 
 Nach Abschluss sämtlicher Implementierungsschritte können Sie überprüfen, ob die Integration die Daten erfolgreich übertragen hat.
 
->[!NOTE] Es dauert ein paar Tage, bis der Datenaustausch beginnt. Wenden Sie sich nach der Aktivierung der Integration an Lyris.
+>[!NOTE]
+>
+>Es dauert ein paar Tage, bis der Datenaustausch beginnt. Wenden Sie sich nach der Aktivierung der Integration an Lyris.
 
 1. Navigieren Sie zu Ihrer Lyris-Integration in „Data Connectors“. Auf der Registerkarte **[!UICONTROL Support]** > **[!UICONTROL Protokoll zu den Integrationsaktivitäten]** sollten Ereignisse wie **[!UICONTROL Metrikdaten wurden erfolgreich importiert]** bzw. **[!UICONTROL Classification-Daten wurden erfolgreich importiert]** angezeigt werden:
 
@@ -86,7 +91,9 @@ Nach Abschluss sämtlicher Implementierungsschritte können Sie überprüfen, ob
 
 Zeigt den Lyris-Plug-in-Code zur Verwendung mit Adobe Analytics an.
 
->[!NOTE] Stellen Sie sicher, dass Sie die erforderlichen eVars im Admin Tool von Adobe Analytics reserviert haben, bevor Sie mit dem unten stehenden Code arbeiten. Sobald Sie wissen, welche eVars Sie reserviert haben, ersetzen Sie eVarN durch die entsprechende eVar. Zum Beispiel eVar10.
+>[!NOTE]
+>
+>Stellen Sie sicher, dass Sie die erforderlichen eVars im Admin Tool von Adobe Analytics reserviert haben, bevor Sie mit dem unten stehenden Code arbeiten. Sobald Sie wissen, welche eVars Sie reserviert haben, ersetzen Sie eVarN durch die entsprechende eVar. Zum Beispiel eVar10.
 
 ```
 /* 
