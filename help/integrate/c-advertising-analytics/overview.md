@@ -2,8 +2,11 @@
 description: 'null'
 title: Advertising Analytics-Übersicht
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie erhalten in Adobe Analytics folgende Daten: Impressionen, Klicks, Kosten, Qualitätsbewertung und durchschnittliche Position direkt aus Suchmaschinen sowie AMO-ID-Instanzen (Klickinstanzen).
 
->[!NOTE] Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
+>[!NOTE]
+>
+>Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
 
 Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Neu: [Paid Search-Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)-Vorlage in Analysis Workspace vereinfacht die Analyse.
 
@@ -30,7 +35,7 @@ Diese Integration zielt auf folgende Zielgruppen ab:
 * Diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung.
 * Sie müssen Adobe Analytics-Administrator sein, um auf Advertising Analytics zugreifen zu können. Daraufhin können Sie auch Nicht-Administratoren [Zugriffsberechtigungen erteilen](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 * Sämtliche Analytics Report Suites, in denen Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen [Ihrer Experience Cloud-Organisation zugeordnet](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html) sein.
-* Für jede Report Suite, in der Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen Sie [die betreffenden Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
+* Für jede Report Suite, in der Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen Sie [die betreffenden Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**).
 
 * Sie benötigen die Anmeldedaten eines Benutzers mit Bearbeitungsberechtigungen für die Suchkonten, die Sie in Adobe Analytics integrieren möchten wie z. B. Google-Konto-ID und -Passwort.
 * Bei Bing Ads benötigen Sie darüber hinaus die Bing-Kunden-ID.
