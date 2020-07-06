@@ -5,7 +5,10 @@ title: Klassifizierungsdatendateien
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1782'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>&lt;New Line&gt; </p> </td> 
+   <td colname="col1"> <p>&lt;Neue Zeile&gt; </p> </td> 
    <td colname="col2"> <p>Ein Neue-Zeile-Zeichen ist das einzig unterstützte Trennzeichen zwischen Datenzeilen/Datensätzen in der Datendatei. In der Regel müssen Sie diese Zeichen nur spezifisch einfügen, wenn Sie ein Programm zur automatischen Erzeugung von Datendateien schreiben. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +102,9 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 
 ## Format der Spaltenüberschrift
 
->[!NOTE] Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
+>[!NOTE]
+>
+>Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 
 Classification-Datendateien unterstützen die folgenden Überschriften:
 
@@ -109,19 +114,21 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 
 ### Überschrift einer Klassifizierungsspalte
 
-In Reports &amp; Analysen werden beispielsweise automatisch zwei Klassifizierungen für [!UICONTROL Campaign] Variablen eingefügt: [!UICONTROL Campaigns] und [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
+Reports &amp; Analytics enthalten beispielsweise automatisch zwei Classifications für [!UICONTROL Kampagnen] variablen: [!UICONTROL Kampagnen] und [!UICONTROL Kreative Elemente]. Um Daten zur [!UICONTROL Kampagnen]-Classification hinzuzufügen, muss die Spaltenüberschrift in der Classification-Datendatei [!UICONTROL Campaigns] lauten.
 
->[!NOTE] Die Werte in der [!UICONTROL Classifications] Spaltenüberschrift müssen exakt der Namenskonvention der Klassifizierung entsprechen, andernfalls schlägt der Import fehl. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match.
+>[!NOTE]
+>
+>Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden.
 
 Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unter-Classifications und anderen spezialisierten Datenspalten:
 
 ### Überschrift einer Unterklassifizierung
 
-For example, [!UICONTROL Campaigns^Owner] is a column heading for the column containing [!UICONTROL Campaign Owner] values. Similarly, [!UICONTROL Creative Elements^Size] is a column heading for the column containing the [!UICONTROL Size] sub-classification of the [!UICONTROL Creative Elements] classification.
+Beispielsweise ist [!UICONTROL Campaigns^Owner] eine Spaltenüberschrift für die Spalte, die Werte zum [!UICONTROL Kampagnenverantwortlichen] enthält. Vergleichbar ist [!UICONTROL Creative Elements^Size] eine Spaltenüberschrift für die Spalte, die die [!UICONTROL Größen]-Unter-Classification der [!UICONTROL Kreative-Elemente]-Classification enthält.
 
 ### Klassifizierungsmetrik-Überschriften
 
-For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
+So bezieht sich beispielsweise [!UICONTROL Campaigns^~Cost] auf die [!UICONTROL Kosten] metrik in der [!UICONTROL Kampagnen]-Classification.
 
 ### PER-Modifizierer-Überschriften
 
@@ -141,9 +148,9 @@ Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie 
 
 **UMSATZ:** Multipliziert den Wert mit dem Umsatz für den Zeileneintrag im Bericht.
 
-**SCADD:** Multipliziert den Wert mit der Anzahl der Aufrufe des [!UICONTROL Shopping Cart Add] Ereignisses pro Zeileneintrag im Bericht.
+**SCADD:** Multipliziert den Wert mit der Anzahl des auftretenden Ereignisses [!UICONTROL Zusatz zum Warenkorb] pro Zeileneintrag im Bericht.
 
-**SCREMOVE:** Multipliziert den Wert mit der Anzahl der Aufrufe des [!UICONTROL Shopping Cart Remove] Ereignisses pro Zeileneintrag im Bericht.
+**SCREMOVE:** Multipliziert den Wert mit der Anzahl des auftretenden Ereignisses [!UICONTROL Entnahme aus Warenkorb] pro Zeileneintrag im Bericht.
 
 **INSTANZ:** Multipliziert den Wert mit der Anzahl der Instanzen für den Zeileneintrag im Bericht.
 
@@ -151,30 +158,32 @@ Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie 
 
 **EREIGNIS:** Multipliziert den Wert mit der Anzahl der auftretenden, jeweils angegebenen benutzerspezifischen Ereignisse pro Zeileneintrag im Bericht.
 
-**Beispiel:** Wenn Kampagne A 10.000 USD kostet, enthält die [!UICONTROL Campaigns^~Cost] Spalte den Wert 10.000 und die Spalte [!UICONTROL Campaigns^~~Kosten] enthält [!UICONTROL FIXED]. Beim Anzeigen der Kosten für Kampagne A in den Berichten sehen Sie den Betrag von 10.000 USD als Festkosten der Kampagne A für den Datumsbereich.
+**Beispiel:** Wenn Kampagne A 10.000 USD kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 10000, und die Spalte [!UICONTROL Campaigns^~Cost~per] enthält die Angabe [!UICONTROL FIXED]. Beim Anzeigen der Kosten für Kampagne A in den Berichten sehen Sie den Betrag von 10.000 USD als Festkosten der Kampagne A für den Datumsbereich.
 
-**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die [!UICONTROL Campaigns^~Cost] Spalte 2 und die Spalte **[!UICONTROL Campaigns^~~Kosten]** enthält [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten führt Adobe für den Datumsbereich des Berichts schnell die Kalkulation (2 * [Anzahl Klicks]) durch. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
+**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 2 und die Spalte **[!UICONTROL Campaigns^~Cost~per]** enthält die Angabe [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten führt Adobe für den Datumsbereich des Berichts schnell die Kalkulation (2 * [Anzahl Klicks]) durch. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
 
 ### Datum
 
 Kampagnendatumsangaben sind üblicherweise Datumsbereiche (Start- und Enddaten), die einzelnen Kampagnen zugewiesen wurden. Datumsangaben müssen das Format JJJJ/MM/TT aufweisen, zum Beispiel 2013/06/15-2013/06/30.
 
-Weitere Informationen finden Sie unter [Konversion-Classifications](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Weitere Informationen finden Sie unter [Konversion-Classifications](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
->[!NOTE] Seit der [!DNL Analytics]-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte und numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
+>[!NOTE]
+>
+>Seit der [!DNL Analytics]-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte und numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
 
-## Verwendung von Datumsangaben zusammen mit [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Verwendung von Datumsangaben zusammen mit [!UICONTROL Klassifizierungen] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL Classifications] können Datumsbereiche zu Kampagnen oder anderen Konvertierungen zugewiesen werden, [!UICONTROL classifications]was eine genauere Messung der Kampagne ermöglicht. Nachdem Sie den Datumsbereich eines Wertes angegeben haben, werden übereinstimmende Werte, die außerhalb des Datumsbereichs auftreten, nicht klassifiziert. Dies ist für Kampagnenmessungen nützlich, bei denen die genauen Tage genutzt werden sollen, an denen die Kampagne aktiv war, und nicht alle Hits, die mit der Kampagne selbst übereinstimmen. Um einen Wert erfolgreich mit einem Datumsbereich zu klassifizieren, müssen die folgenden Voraussetzungen erfüllt werden:
+Mit [!UICONTROL Klassifizierungen] können Sie Datumsbereiche zu Ihren Kampagnen oder anderen Konversions [!UICONTROL klassifizierungen] zuweisen, um eine genauere Kampagnenmessung zu erreichen. Nachdem Sie den Datumsbereich eines Wertes angegeben haben, werden übereinstimmende Werte, die außerhalb des Datumsbereichs auftreten, nicht klassifiziert. Dies ist für Kampagnenmessungen nützlich, bei denen die genauen Tage genutzt werden sollen, an denen die Kampagne aktiv war, und nicht alle Hits, die mit der Kampagne selbst übereinstimmen. Um einen Wert erfolgreich mit einem Datumsbereich zu klassifizieren, müssen die folgenden Voraussetzungen erfüllt werden:
 
-* The [!UICONTROL classification] must be based on a conversion variable.
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
+* Die [!UICONTROL Klassifizierung] muss auf einer Konversionsvariable basieren.
+* Die verwendete [!UICONTROL Klassifizierung] muss auf „Datumsaktiviert“ oder „Numerisch 2“ eingestellt sein.
 * Der betreffende Datumsbereich muss ein Anfangsdatum und (optional) ein Enddatum enthalten.
 
 So klassifizieren Sie Kampagnen basierend auf einem Datumsbereich:
 
 1. Melden Sie sich bei [!DNL Analytics] an und gehen Sie zu „Admin“ > „Klassifizierungen“.
-1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Browser-Export]**, stellen Sie sicher, dass die Einstellungen für die datumsaktivierte Classification richtig sind, und klicken Sie dann auf „Datei exportieren“.
 1. Öffnen Sie diese Datei in Microsoft Excel oder einem anderen Tabelleneditor, mit dem Sie vertraut sind.
 1. Eine der Spalten endet auf
 
@@ -191,7 +200,9 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 1. Speichern Sie die Datei und laden Sie sie in [!DNL Analytics] hoch, indem Sie „Admin“ | „Klassifizierungen“ | „Datei importieren“ aufrufen.
 
->[!NOTE] Ein spezieller Schlüsselwert kann nicht mehrere Datumsbereiche aufweisen.
+>[!NOTE]
+>
+>Ein spezieller Schlüsselwert kann nicht mehrere Datumsbereiche aufweisen.
 
 ## Fehlerbehebung für Classifications
 
