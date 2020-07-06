@@ -3,8 +3,11 @@ description: Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Ein
 title: Berichte zu Traffic-Quellen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +99,9 @@ Domänen oder URLs, die nicht Bestandteil der definierten Domänen und URLs sind
 
 Weitere Informationen finden Sie in der Hilfe zur [!DNL Admin Console] unter [Interne URL-Filter](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/internal-url-filter-admin.html).
 
->[!NOTE] In „Marketing Reports and Analytics“ wird eine Referrer-Domäne als E-Mail registriert, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] enthält, und dann zu Ihrer Site gelangen. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
+>[!NOTE]
+>
+>In „Marketing Reports and Analytics“ wird eine Referrer-Domäne als E-Mail registriert, wenn Besucher auf einen per E-Mail gesendeten Link klicken, der das Protokoll [!DNL imap://] oder [!DNL mail://] enthält, und dann zu Ihrer Site gelangen. So würden beispielsweise alle Nachrichten, die von [!DNL https://mail.yahoo.com] kommen, nicht als verweisende E-Mail-Stelle gelten, weil das Protokoll [!DNL https://] lautet. E-Mails von Outlook sind in der Zeile „Eingegeben/Mit Lesezeichen versehen“ aufgeführt, während Referrer mit dem HTTP-Protokoll, deren Domäne eine bekannte Suchmaschine ist, in der Zeile „Suchmaschine“ aufgeführt sind.
 
 ## Typ des Referrers {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ Die folgenden Zeilenelemente werden evtl. bei Ausführung dieses Berichts angeze
 
 **USENET (Newsgroup)**: Das heißt, dass die URL eines Referrers mit `news://` eingeleitet wurde. Folglich wurde der Link des Referrers in einer USENET-Newsgroup und nicht auf einer Webseite veröffentlicht.
 
->[!NOTE] Die Logik des Referrer-Typs stimmt mit anderen Berichten zu Traffic-Quellen überein (z. B. [!UICONTROL Referrer] oder [!UICONTROL Referrer-Domänen]). Dadurch sollte das Auftreten der Zeileneinträge „Innerhalb Ihrer Website“ und „Kein JavaScript“ im Bericht zum [!UICONTROL Referrer-Typ] reduziert oder gänzlich ausgeräumt werden.
+>[!NOTE]
+>
+>Die Logik des Referrer-Typs stimmt mit anderen Berichten zu Traffic-Quellen überein (z. B. [!UICONTROL Referrer] oder [!UICONTROL Referrer-Domänen]). Dadurch sollte das Auftreten der Zeileneinträge „Innerhalb Ihrer Website“ und „Kein JavaScript“ im Bericht zum [!UICONTROL Referrer-Typ] reduziert oder gänzlich ausgeräumt werden.
 
