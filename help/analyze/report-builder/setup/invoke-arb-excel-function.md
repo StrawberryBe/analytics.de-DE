@@ -4,7 +4,10 @@ title: Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +18,9 @@ Dank dieser Funktion wird die Report Builder-Verwendung in den normalen Excel-Wo
 
 Sie können beispielsweise Report Builder-Anforderungen automatisch aktualisieren, deren Eingabefilter auf Daten basieren, die in Excel aus anderen Quellen abgerufen wurden. Genau dies können Sie mithilfe der Zeichenfolgenfunktion RefreshRequestsInCellsRange(..) durchführen. Alle Aufrufe sind asynchron. Sie werden sofort zurückgegeben und warten nicht, bis ein Aufruf vollständig ausgeführt wird.
 
->[!NOTE] Damit dies funktioniert, muss Report Builder 5.0 (oder höher) installiert sein.
+>[!NOTE]
+>
+>Damit dies funktioniert, muss Report Builder 5.0 (oder höher) installiert sein.
 
 In der nachfolgenden Tabelle sind alle exponierten Funktionen aufgelistet.
 
@@ -29,7 +34,7 @@ In der nachfolgenden Tabelle sind alle exponierten Funktionen aufgelistet.
 | string AsyncRefreshWorksheetAltTextParam(); | Aktualisiert alle Report Builder-Anforderungen, die im angegebenen, über den Alternativtext des MS-Formularsteuerelements weitergeleiteten Arbeitsblattnamen vorhanden sind. |
 | string GetLastRunStatus() | Gibt eine Zeichenfolge zurück, die den Status der letzten Ausführung beschreibt. |
 
-Um auf diese Funktionen in ReportBuilder zuzugreifen, gehen Sie zu [!UICONTROL Formulas] > [!UICONTROL Insert Function]. Am Ende der Kategorienliste finden Sie Adobe.ReportBuilder.Bridge:
+Um auf diese Funktionen innerhalb von ReportBuilder zuzugreifen, wechseln Sie zu [!UICONTROL Formeln] > [!UICONTROL Funktion einfügen]. Am Ende der Kategorienliste finden Sie Adobe.ReportBuilder.Bridge:
 
 ![](assets/arb_functions.png)
 
@@ -48,7 +53,7 @@ bedeutet: „Wenn die Zelle P5 Text enthält oder leer ist, aktualisieren Sie de
 Ab sofort können Sie einem Steuerelement, das Sie erstellt haben, ein Makro zuweisen. Dieses Steuerelement kann eine Funktion sein, die eine Arbeitsmappenanforderung aktualisiert. Beispielsweise werden mit der Funktion AsyncRefreshActiveWorksheet alle Anforderungen in einem Arbeitsblatt aktualisiert. Manchmal möchten Sie jedoch vielleicht nur bestimmte Anforderungen und nicht alle aktualisieren.
 
 1. Legen Sie den Makro-Parameter fest.
-1. Klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie **[!UICONTROL Assign Macro]**.
+1. Klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie **[!UICONTROL Makro zuweisen]** aus.
 1. Geben Sie den ReportBuilder-Funktionsnamen ein (ohne Parameter und Klammern).
 
 ![](assets/assign_macro.png)
@@ -60,16 +65,16 @@ Die beiden Funktionen, die einen Parameter annehmen, können mit „Steuerelemen
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
 
-1. Klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie **[!UICONTROL Format Control]**.
+1. Klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie **[!UICONTROL Steuerelement formatieren]** aus.
 
    ![](assets/format_control.png)
 
-1. Click the [!UICONTROL Alt Text] tab.
+1. Klicken Sie auf die Registerkarte [!UICONTROL Alt-Text].
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
-1. Öffnen Sie die Liste der ReportBuilder-Parameter unter [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
+1. Geben Sie unter [!UICONTROL Alternativtext] den Zellenbereich ein, der aktualisiert werden soll.
+1. Öffnen Sie unter [!UICONTROL Formeln] > [!UICONTROL Funktion einfügen] > [!UICONTROL Adobe.ReportBuilder.Bridge] die Liste der Report Builder-Parameter.
 
 1. Wählen Sie eine der beiden Funktionen aus, die auf AltTextParam enden, und klicken Sie auf **[!UICONTROL OK]**.
 
