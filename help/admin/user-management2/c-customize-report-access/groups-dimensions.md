@@ -6,24 +6,31 @@ title: Anpassen von Dimensionsberechtigungen
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 98%
 
 ---
 
 
 # Anpassen von Dimensionsberechtigungen
 
->[!IMPORTANT] Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT]
+>
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
+**[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Zugriff auf Berichte]** > **[!UICONTROL Dimensionen]** > **[!UICONTROL Anpassen]**
 
->[!IMPORTANT] Für einige Dimensionen sind aktuell keine Berechtigungen erforderlich. Es handelt sich um die folgenden Dimensionen: Mobile Lesezeichenlänge; Mobilgerätenummer; Mobil-DRM; Mobile Informationsdienste; Mobile Java-VM; Mobiles Mail-Design; Mobile Netzprotokolle; Mobilbetriebssystem; Mobiles PTT.
+>[!IMPORTANT]
+>
+>Für einige Dimensionen sind aktuell keine Berechtigungen erforderlich. Es handelt sich um die folgenden Dimensionen: Mobile Lesezeichenlänge; Mobilgerätenummer; Mobil-DRM; Mobile Informationsdienste; Mobile Java-VM; Mobiles Mail-Design; Mobile Netzprotokolle; Mobilbetriebssystem; Mobiles PTT.
 >
 >Diese Dimensionen sind für alle Benutzer verfügbar, unabhängig von anderen Berechtigungen.
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf der Seite „[!UICONTROL Benutzergruppe definieren]“ ausgewählt wurden.
 
 ![](assets/permissions-dimensions.png)
 
@@ -34,7 +41,7 @@ Lesen Sie sich folgende Informationen zur Dimensionskategorie in den Berechtigun
 * Video- und Mobilberichte sind Dimensionen, ebenso wie andere Analytics-Lösungsberichte (Experience Manager, Advertising Cloud, Social usw.).
 * Pfadsetzungsberichte sind für Benutzer mit Zugang zu den übergeordneten Dimensionen verfügbar.
 * Alle aktuellen Dimensionen und Metriken in benutzerdefinierten Gruppen wurden automatisch in die neuen Kategorien migriert. Wenn in einer bestehenden Gruppe Metriken aktiv sind, werden für diese Gruppe sämtliche Dimensionen, für die neue Berechtigungen erteilt werden (eVars und inhaltsbasiert), und Metriken als Standardeinstellungen festgelegt.
-* Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die [Variable](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) bestimmt, auf der Classification basiert.
+* Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die [Variable](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/c-classifications.html) bestimmt, auf der Classification basiert.
 
 Weitere Informationen finden Sie unter Änderungen der [Benutzer- und Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
