@@ -4,7 +4,10 @@ title: Erforderliche Vorlaufzeit für Traffic-Zunahme
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten
 
 Die Zuordnung von Hardware wird durch Warnhinweise gesteuert, die über die Benutzeroberfläche für Reports &amp; Analytics übermittelt werden.
 
->[!IMPORTANT] Adobe kann keine Traffic-Änderungsanforderungen für „Platzhalter“ berücksichtigen. Sofern nicht anders angegeben, halten Sie die vorgeschlagene Vorlaufzeit so gut wie möglich ein. Senden Sie wenn möglich auch keinen Warnhinweis zu früh. Siehe [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Angeben einer dauerhaften Traffic-Zunahme](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>[!IMPORTANT]
+>
+>Adobe kann keine Traffic-Änderungsanforderungen für „Platzhalter“ berücksichtigen. Sofern nicht anders angegeben, halten Sie die vorgeschlagene Vorlaufzeit so gut wie möglich ein. Senden Sie wenn möglich auch keinen Warnhinweis zu früh. Siehe [Planen von Traffic-Spitzen](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) oder [Angeben einer dauerhaften Traffic-Zunahme](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Verkehrswarnhinweis übermitteln müssen:
 
@@ -60,7 +65,7 @@ Was Sie außerdem noch beachten müssen:
 * Wenn Sie mehrere Report Suites einrichten oder erweitern, sodass die oben aufgeführten Zahlen erreicht werden, gilt die Vorlaufzeit für den zusammengefassten Traffic für alle diese Report Suites.
 * Um eine Traffic-Änderung zu übermitteln, benötigen Sie die folgenden Informationen:
 
-   * Die Report Suite-ID
+   * Report Suite-ID
    * Geschätzte Trefferanzahl pro Tag
    * Aufschaltdatum
 
