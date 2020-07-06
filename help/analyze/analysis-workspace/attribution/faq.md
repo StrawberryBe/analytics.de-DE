@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 78%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 78%
 
 **Was ist der Zeileneintrag „Keine“ bei Verwendung von Attribution?**
 
-Das Zeilenelement &quot;Keine&quot;ist ein Sammelelement, das alle Konvertierungen darstellt, die ohne Berührungspunkte im Lookback-Fenster stattgefunden haben. Versuchen Sie, einen längeren Zeitraum in Ihr Berichtsfenster aufzunehmen.
+Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darstellt, die ohne Touchpoints im Lookback-Fenster stattgefunden haben. Um die Anzahl der Konvertierungen zu reduzieren, die dem Zeilenelement &quot;Keine&quot;zugeordnet sind, verwenden Sie ein benutzerdefiniertes Lookback-Fenster mit einer längeren Lookback-Zeit.
 
 **Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?**
 
-Diese zusätzlichen Daten sind auf das Lookback-Fenster des Besucherberichts zurückzuführen. Weitere Informationen finden Sie unter [Daten, die außerhalb des Berichtsfensters angezeigt werden](https://helpx.adobe.com/de/analytics/kb/data-appearing-outside-reporting-window.html) in der Analytics-KB. Adobe wird diese zusätzlichen Zeilen in einer künftigen Version herausfiltern.
+Diese zusätzlichen Daten sind auf das Lookback-Fenster des Besucherberichts zurückzuführen. Weitere Informationen finden Sie unter [Daten, die außerhalb des Berichtsfensters angezeigt werden](https://helpx.adobe.com/de/analytics/kb/data-appearing-outside-reporting-window.html) in der Analytics-KB.
 
-**Wann sollte ich eine Rückmeldung zur Besuchszuordnung oder zur Besucherattribution verwenden?**
+**Wann sollte ich einen Besuch, einen Besucher oder eine benutzerspezifische Zuordnungs-Lookback verwenden?**
 
-Die Auswahl des Attributions-Lookbacks hängt von Ihrem Anwendungsfall ab. Wenn Konversionen in der Regel länger als einen Besuch dauern, wird ein Besucher-Lookback empfohlen. Die Erstellung einer Virtual Report Suite mit einer längeren Besuchsdefinition ist ebenfalls eine potenzielle Lösung.
+Die Auswahl des Attributions-Lookbacks hängt von Ihrem Anwendungsfall ab. Wenn Konversionen in der Regel länger als ein Besuch dauern, wird ein Besucher oder eine benutzerdefinierte Lookback-Funktion empfohlen. Für längere Konvertierungszyklen sind benutzerdefinierte Lookback-Fenster am besten geeignet, da sie der einzige Typ sind, der Daten aus einer Zeit vor dem Berichte-Fenster abrufen kann
 
 **Worin unterscheiden sich Props und eVars bei der Verwendung von Attribution?**
 
@@ -87,4 +87,4 @@ Wenn Sie z. B. eine VRS mit angewendetem Segment „Hits anzeigen“ erstellen, 
 
 ![Schreibgeschützte Virtual Report Suite](assets/vrs-aiq-example.png)
 
->[!NOTE] Wenn ein Segment Treffer unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter werden jedoch lediglich einige Dimensionswerte ausgeblendet, ohne dass dies Auswirkungen auf die pro Zuordnungsmodell verarbeiteten Metriken hat. Daher kann ein Segment niedrigere Werte zurückgeben als ein Filter mit einer vergleichbaren Definition.
+>[!NOTE] Wenn ein Segment Hits unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter könnten jedoch lediglich einige Dimensionswerte ausgeblendet werden, ohne dass dies Auswirkungen auf die im jeweiligen Zuordnungsmodell verarbeiteten Metriken hat. Daher kann ein Segment niedrigere Werte zurückgeben als ein Filter mit einer vergleichbaren Definition.
