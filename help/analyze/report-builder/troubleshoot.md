@@ -3,8 +3,11 @@ description: Methoden zur Optimierung der Report Builder-Bereitstellung und eine
 title: Fehlerbehebung und Best Practices für Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1371'
+ht-degree: 100%
 
 ---
 
@@ -96,29 +99,31 @@ Planen Sie größere, komplexere Anforderungen in den frühen Morgenstunden, um 
 
 Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert die Ausführung.) Dies wird in der [!DNL Analytics]-Berichterstellung und in Report Builder angezeigt:
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics]: **[!UICONTROL Favoriten]** > **[!UICONTROL Terminierte Berichte]**
 
-* Report Builder: Klicken Sie auf der Registerkarte [!UICONTROL Add-ins] in Excel auf **[!UICONTROL Management]**.
+* Report Builder: Klicken Sie auf der Registerkarte **[!UICONTROL Add-Ins]** in Excel auf [!UICONTROL Verwaltung].
 
 ## Beschreibung der Fehlermeldungen {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
 Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report Builder auftreten können.
 
->[!NOTE] Dies ist nur eine Auswahl der Fehlermeldungen, keine umfassende Auflistung. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
+>[!NOTE]
+>
+>Dies ist nur eine Auswahl der Fehlermeldungen, keine umfassende Auflistung. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
 
 **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**
 
 Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole der ReportBuilder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
 
-**Sie müssen zuerst [!UICONTROL Request Wizard] beenden, bevor Sie [!UICONTROL Request Manager] aktivieren.**
+**Sie müssen zunächst den[!UICONTROL Anforderungs-Assistenten]beenden, bevor Sie den[!UICONTROL Anforderungs-Manager aktivieren].**
 
-Während [!UICONTROL Request Manager] und [!UICONTROL Request Wizard] funktional verknüpft sind, ist es erst möglich, [!UICONTROL Request Manager] zu verwenden, nachdem Sie Aktionen in [!UICONTROL Request Wizard] durchgeführt oder beendet haben.
+Der [!UICONTROL Anforderungs-Assistent] und der [!UICONTROL Anforderungs-Manager] sind zwar funktional verbunden, aber es ist nicht möglich, den [!UICONTROL Anforderungs-Manager] zu verwenden, bevor Sie eine im [!UICONTROL Anforderungs-Assistenten] begonnene Arbeit abgebrochen oder abgeschlossen haben.
 
 **Mit diesem Bereich ist keine Anforderung verbunden.**
 
-Diese Fehlermeldung wird angezeigt, wenn Sie in [!UICONTROL Request Manager] auf die Schaltfläche [!UICONTROL From Sheet] klicken, aber die entsprechende Zelle im Arbeitsblatt keine Anforderungen enthält.
+Diese Fehlermeldung wird angezeigt, wenn Sie im [!UICONTROL Anforderungs-Manager] auf die Schaltfläche [!UICONTROL Aus Blatt] klicken, aber die entsprechende Zelle im Arbeitsblatt keine Anforderungen enthält.
 
-Um zu prüfen, welche Zellen des Arbeitsblatts Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen in der Liste in [!UICONTROL Request Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
+Um zu prüfen, welche Zellen des Arbeitsblatts Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen in der Liste im [!UICONTROL Anforderungs-Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
 
 **Der ausgewählte Bereich ist ungültig. Wählen Sie einen anderen Bereich aus.**
 
@@ -128,12 +133,12 @@ Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln
 
 **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**
 
-Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in die [!UICONTROL Formula]-Leiste oder in [!UICONTROL Name Box] am oberen Rand von Excel eingeben.
+Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in das [!UICONTROL Namensfeld] in der [!UICONTROL Formelleiste] eingeben.
 
 **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.**
 
 Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
 
-Sie können vor dem Hinzufügen neuer Anforderungen ermitteln, welche Zellen Zuordnungen aufweisen, indem Sie [!UICONTROL Request Wizard] schließen und [!UICONTROL Request Manager] öffnen. Wählen Sie dann nacheinander die Elemente in der Liste aus. Wenn Sie eine Anforderung in der Liste auswählen, werden die zugehörigen Zellen im Arbeitsblatt markiert dargestellt.
+Sie können vor dem Hinzufügen neuer Anforderungen ermitteln, welche Zellen Zuordnungen aufweisen, indem Sie den [!UICONTROL Anforderungs-Assistenten] schließen und den [!UICONTROL Anforderungs-Manager] öffnen. Wählen Sie dann nacheinander die Elemente in der Liste aus. Wenn Sie eine Anforderung in der Liste auswählen, werden die zugehörigen Zellen im Arbeitsblatt markiert dargestellt.
 
 Aus diesem Grund sollten Sie unbedingt in Betracht ziehen, Zellen durch Formatierungen, Markierungen oder Zeilen- bzw. Spalteninformationen zu kennzeichnen, bevor Sie mehrere unterschiedliche Zellen mehreren unterschiedlichen Bereichen zuordnen.
