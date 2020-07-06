@@ -4,7 +4,10 @@ title: Vereinfachtes Berichtsmenü
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Das Adobe Reports &amp; Analytics-Menü ermöglicht die Auswahl eines alternativ
 
 ![](assets/simplified-menu.png)
 
->[!NOTE] Wenn Sie das vereinfachte Menü anwenden, werden alle Anpassungen aufgehoben, die Sie an der Standardmenüstruktur vorgenommen haben. Die vereinfachte Menüstruktur wird außerdem für alle Marketing Reports and Analytics-Benutzer in Ihrer Organisation implementiert. Bedenken Sie vorher, welche Auswirkungen (z. B. für Schulungen, die sich auf die vorhandene Menüstruktur beziehen) die Implementierung des neuen Menüs haben wird, da sich Anpassungen der vorhandenen Menüstruktur danach nicht wiederherstellen lassen.
+>[!NOTE]
+>
+>Wenn Sie das vereinfachte Menü anwenden, werden alle Anpassungen aufgehoben, die Sie an der Standardmenüstruktur vorgenommen haben. Die vereinfachte Menüstruktur wird außerdem für alle Marketing Reports and Analytics-Benutzer in Ihrer Organisation implementiert. Bedenken Sie vorher, welche Auswirkungen (z. B. für Schulungen, die sich auf die vorhandene Menüstruktur beziehen) die Implementierung des neuen Menüs haben wird, da sich Anpassungen der vorhandenen Menüstruktur danach nicht wiederherstellen lassen.
 
 1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, um den Report Suite Manager zu öffnen.
 1. Wählen Sie die Report Suite aus, für die Sie die vereinfachte Menüstruktur implementieren möchten.
