@@ -1,8 +1,11 @@
 ---
 title: doPlugins
 description: Konfigurieren Sie die Logik, kurz bevor ein Treffer kompiliert und an Adobe gesendet wird.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Stellen Sie die `s.doPlugins`-Variable auf eine Funktion ein, die den gewünscht
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE] Setzen Sie eine Funktion in Ihrer Implementierung nur einmal auf die `doPlugins`-Variable. Wenn Sie die `doPlugins`-Variable mehrmals festlegen, wird nur der neueste Code verwendet.
+>[!NOTE]
+>
+>Setzen Sie eine Funktion in Ihrer Implementierung nur einmal auf die `doPlugins`-Variable. Wenn Sie die `doPlugins`-Variable mehrmals festlegen, wird nur der neueste Code verwendet.
 
 ## Beispiele
 
@@ -44,4 +49,6 @@ s.doPlugins = function() {
 }
 ```
 
->[!NOTE] Frühere Versionen von AppMeasurement hatten einen etwas anderen `doPlugins()`-Code. Adobe empfiehlt die Verwendung des oben genannten Formats als Best Practice.
+>[!NOTE]
+>
+>Frühere Versionen von AppMeasurement hatten einen etwas anderen `doPlugins()`-Code. Adobe empfiehlt die Verwendung des oben genannten Formats als Best Practice.
