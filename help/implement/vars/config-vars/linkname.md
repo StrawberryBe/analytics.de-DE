@@ -1,8 +1,11 @@
 ---
 title: linkName
 description: Legen Sie den Namen des Treffers für den benutzerspezifischen Link fest.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Sie können das Feld für den Link-Namen festlegen, wenn Sie eine Regel zum Send
 
 Die `s.linkName`-Variable ist eine Zeichenfolge, die den Dimensionswert für benutzerspezifische Links, Downloadlinks oder Exitlinks bestimmt (je nachdem, was [`s.linkType`](linktype.md) ist). Sie kann bis zu 100 Byte enthalten.
 
->[!TIP] Diese Variable ist der dritte Parameter der `tl()`-Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. Sie können die `linkName`-Variable jedoch verwenden, wenn Sie Werte nicht als Argumente in der `tl()`-Methode festlegen möchten.
+>[!TIP]
+>
+>Diese Variable ist der dritte Parameter der `tl()`-Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. Sie können die `linkName`-Variable jedoch verwenden, wenn Sie Werte nicht als Argumente in der `tl()`-Methode festlegen möchten.
 
 ```js
 s.linkName = "Example custom link";
