@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Klassifizierungsvorlage
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschriften) eines spezifischen Datensatzes ohne die jeder Classification zugeordneten Daten.
 
->[!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Klassifizierungsdaten auf eine einzige Report Suite.
+>[!NOTE]
+>
+>Die Vorlagenmethode beschränkt Ihre heruntergeladenen Klassifizierungsdaten auf eine einzige Report Suite.
 
 Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu Klassifizierungsdatendateien](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
@@ -38,7 +43,9 @@ Weitere Informationen zur Datendateistruktur finden Sie unter [Informationen zu 
 
 Die Vorlage liefert das Dateiformat, das für Classifications genutzt werden muss.
 
->[!NOTE] Die Vorlagenmethode beschränkt Ihre heruntergeladenen Daten auf eine einzige Report Suite.
+>[!NOTE]
+>
+>Die Vorlagenmethode beschränkt Ihre heruntergeladenen Daten auf eine einzige Report Suite.
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Legen Sie unter der Registerkarte **[!UICONTROL Vorlage herunterladen]** die Konfiguration für die [-Datenvorlage fest](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
