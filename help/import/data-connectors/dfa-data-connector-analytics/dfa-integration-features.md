@@ -5,7 +5,10 @@ title: Integrationsfunktionen
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Bei Aktivierung stellt die Data Connectors-DFA-Integration folgende Metriken fü
 * (Optional) DFA-Kostendaten
 * (Optional) DFA-Abfragefehler, Timeouts
 
->[!NOTE] In dieser Integration werden Klicktracker (zuvor Klickbefehle) nicht unterstützt. Mithilfe von Klicktrackern werden Klicks auf Textlinks, Links in E-Mails und andere hartcodierte Elemente auf Websites aufgezeichnet.
+>[!NOTE]
+>
+> In dieser Integration werden Klicktracker (zuvor Klickbefehle) nicht unterstützt. Mithilfe von Klicktrackern werden Klicks auf Textlinks, Links in E-Mails und andere hartcodierte Elemente auf Websites aufgezeichnet.
 
 DFA-Trackingcodes werden von der Data Connectors-DFA-Integration automatisch aus den von DFA zurückgegebenen Daten erstellt. Durch diese Trackingcodes werden Anzeigen sowie die zugehörigen Platzierungen und kreativen Elemente eindeutig gekennzeichnet. Je nach Version der Integration wird im Folgenden die Zusammensetzung des Trackingcodes grob zusammengefasst. In Version 1.5 wird dieses Format verwendet:
 
@@ -55,5 +60,7 @@ Wenn Sie im Assistenten **[!UICONTROL SearchCenter]** > **[!UICONTROL DFA-Dedupl
 
 * Im Falle einer DFA-Durchsicht wird die Zeichenfolge „DFA-Durchsicht“ von der Integration in die eingestellte SCM-eVar eingespeist.
 
->[!NOTE] Bei aktivierter SearchCenter > DFA-Deduplizierung und eingestelltem SearchCenter-Abfragezeichenfolgenparameter wird der Besuch bei der DFA-Verarbeitung nicht beachtet. Der SearchCenter-Abfragestringparameter sollte sich also vom DFA-Clickthrough-Parameter unterscheiden und keine Display-Anzeigen sollten den SearchCenter-Abfragestringparameter bestimmen.
+>[!NOTE]
+>
+>Bei aktivierter SearchCenter > DFA-Deduplizierung und eingestelltem SearchCenter-Abfragezeichenfolgenparameter wird der Besuch bei der DFA-Verarbeitung nicht beachtet. Der SearchCenter-Abfragestringparameter sollte sich also vom DFA-Clickthrough-Parameter unterscheiden und keine Display-Anzeigen sollten den SearchCenter-Abfragestringparameter bestimmen.
 
