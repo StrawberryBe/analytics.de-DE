@@ -3,8 +3,11 @@ description: Sequenzielle Segmente werden über den DANN-Operator anstelle von U
 title: Sequentielle Segmente erstellen
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -244,7 +247,9 @@ Erstellen Sie eine einfache Sequenz, indem Sie zwei [!UICONTROL Treffercontainer
 Logische Gruppencontainer sind erforderlich, um Bedingungen in einem einzigen sequenziellen Segment-Checkpoint zu gruppieren. Der spezielle logische Gruppencontainer ist nur in der sequenziellen Segmentierung verfügbar, um sicherzustellen, dass seine Bedingungen nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint erfüllt werden. Die Bedingungen innerhalb des Checkpoints für logische Gruppen können in beliebiger Reihenfolge erfüllt werden. Dagegen erfordern nicht sequenzielle Container (Treffer, Besuch, Besucher) nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt werden, was bei Verwendung mit einem DANN-Operator zu intuitiven Ergebnissen führt.
 Der [!UICONTROL logische Gruppencontainer] wurde so konzipiert, dass *mehrere Checkpoints als Gruppe* behandelt werden können, *ohne dass eine Reihenfolge* zwischen den gruppierten Checkpoints besteht. Mit anderen Worten: Die Reihenfolge der Checkpoints in dieser Gruppe spielt keine Rolle. Sie können beispielsweise einen [!UICONTROL Besucherbehälter] nicht in einem [!UICONTROL Besuchsbehälter] verschachteln. Stattdessen können Sie jedoch einen [!UICONTROL logischen Gruppencontainer] in einem [!UICONTROL Besuchercontainer] verschachteln, indem Sie spezielle Checkpoints auf [!UICONTROL Besuchsebene] und [!UICONTROL Trefferebene] verwenden.
 
->[!NOTE] Eine [!UICONTROL logische Gruppe] kann nur in einem sequenziellen Segment definiert werden, was bedeutet, dass der [!UICONTROL DANN]-Operator innerhalb des Ausdrucks verwendet wird.
+>[!NOTE]
+>
+>Eine [!UICONTROL logische Gruppe] kann nur in einem sequenziellen Segment definiert werden, was bedeutet, dass der [!UICONTROL DANN]-Operator innerhalb des Ausdrucks verwendet wird.
 
 | Behälterhierarchie | Illustration | Definition |
 |---|---|---|
