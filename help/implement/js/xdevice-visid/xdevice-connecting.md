@@ -5,15 +5,20 @@ subtopic: Visitors
 title: Benutzer geräteübergreifend verbinden
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
 
 # Benutzer geräteübergreifend verbinden
 
->[!IMPORTANT] Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Siehe [Geräteübergreifende Analyse](/help/components/cda/cda-home.md) im Komponentenleitfaden.
+>[!IMPORTANT]
+>
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Siehe [Geräteübergreifende Analyse](/help/components/cda/cda-home.md) im Komponentenleitfaden.
 
 Mithilfe der geräteübergreifenden Identifizierung erkennen Sie Ihre Besucher auch auf anderen Geräten wieder. Bei der geräteübergreifende Besucheridentifizierung werden Benutzer mithilfe der `visitorID`-Variablen geräteübergreifend zugeordnet. Die `visitorID`-Variable hat bei der Identifizierung von Unique Visitors die höchste Priorität.
 
