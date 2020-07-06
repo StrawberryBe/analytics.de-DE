@@ -3,7 +3,10 @@ description: Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe A
 title: Berechnete Metriken
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe Analytics-Metriken. Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine einzige Report Suite beschränkt.
 
->[!NOTE] Vorhandene Arbeitsmappen können auf Anforderungen mit alten Metrik-IDs verweisen. Wenn Sie Report Builder 5.2 verwenden, werden diese alten Metrik-IDs in die neue globale ID konvertiert. Wenn Sie diese Arbeitsmappe für einen Benutzer von Report Builder v5.1 oder älter freigeben, kann dieser Benutzer die berechneten Metriken nicht anzeigen.
+>[!NOTE]
+>
+>Vorhandene Arbeitsmappen können auf Anforderungen mit alten Metrik-IDs verweisen. Wenn Sie Report Builder 5.2 verwenden, werden diese alten Metrik-IDs in die neue globale ID konvertiert. Wenn Sie diese Arbeitsmappe für einen Benutzer von Report Builder v5.1 oder älter freigeben, kann dieser Benutzer die berechneten Metriken nicht anzeigen.
 
 Weitere Informationen zum Erstellen und Verwalten von berechneten Metriken mit dem neuen Generator und Manager für berechnete Metriken finden Sie im Handbuch [Berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html).
 
@@ -40,7 +45,7 @@ Folgende Filter stehen zur Verfügung:
 
 ## Berechnete Metriken anwenden {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. Die ausgewählten Metriken werden zum Berichtslayout hinzugefügt.
+Wenn Sie die Filter ausgewählt haben, klicken Sie auf **[!UICONTROL Übernehmen]**, um sie auf Ihre Anforderung anzuwenden. Die ausgewählten Metriken werden zum Berichtslayout hinzugefügt.
 
 ![](assets/filtering_for_metric.png)
 
