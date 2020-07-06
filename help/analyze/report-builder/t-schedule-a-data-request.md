@@ -4,7 +4,10 @@ title: Eine Datenanforderung planen
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ Sie können Arbeitsmappen planen, erweiterte Bereitstellungsoptionen festlegen, 
 
 Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen so planen, dass sie umgehend oder in regelmäßigen Zeitintervallen gesendet werden, und das Dateiformat angeben. Die Dateigröße ist für einen Arbeitsmappen-Upload auf 5 MB begrenzt.
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (Siehe [Berichtsplanung und -verteilung](/help/analyze/reports-analytics/scheduling.md) in der Hilfe zu Reports &amp; Analytics.)
+Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, können Sie den Plan auch unter **[!UICONTROL Analysen]** > **[!UICONTROL Berichte]** anzeigen und bearbeiten. (Siehe [Berichtsplanung und -verteilung](/help/analyze/reports-analytics/scheduling.md) in der Hilfe zu Reports &amp; Analytics.)
 
->[!NOTE] Sie müssen über Excel 2007 verfügen oder das Compatibility Pack installieren, um eine Arbeitsmappe planen zu können. Sie können pro Report Builder-Lizenz über maximal 10 geplante Arbeitsmappen verfügen. Jedoch können Sie diese Zahl erhöhen, indem Sie bei anderen Lizenzen die benötigte Menge an Arbeitsmappen wegnehmen. Gehen Sie dazu zu **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Eine Arbeitsmappe, die geplant (oder in die Arbeitsmappen-Bibliothek hochgeladen) wurde und innerhalb von 28 Monaten nicht weiterverwendet (aktualisiert, ersetzt) wurde, wird gelöscht.
+>[!NOTE]
+>
+>Sie müssen über Excel 2007 verfügen oder das Compatibility Pack installieren, um eine Arbeitsmappe planen zu können. Sie können pro Report Builder-Lizenz über maximal 10 geplante Arbeitsmappen verfügen. Jedoch können Sie diese Zahl erhöhen, indem Sie bei anderen Lizenzen die benötigte Menge an Arbeitsmappen wegnehmen. Um sich anzumelden, gehen Sie zu **[!UICONTROL Verwaltung]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Report Builder-Berichte]**. Eine Arbeitsmappe, die geplant (oder in die Arbeitsmappen-Bibliothek hochgeladen) wurde und innerhalb von 28 Monaten nicht weiterverwendet (aktualisiert, ersetzt) wurde, wird gelöscht.
 
->[!NOTE] Der vom Benutzer eingegebene Wert “Zeitpunkt der Auslieferung“/“Uhrzeit“ gibt den Zeitpunkt an, zu dem die Verarbeitung der Arbeitsmappe beginnt, und nicht den Zeitpunkt, zu dem sie tatsächlich bereitgestellt wird. Die tatsächliche Bereitstellungszeit der Arbeitsmappe hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (bei komplexen und großen Arbeitsmappen dauert die Verarbeitung länger als bei einfacheren Arbeitsmappen). Wenn die Verarbeitung einer Arbeitsmappe z. B. 15 Minuten dauert, ist die tatsächliche Auslieferungszeit frühestens 15 Minuten nach dem ursprünglich angegebenen „Zeitpunkt der Auslieferung“/„Uhrzeit“.
+>[!NOTE]
+>
+>Der vom Benutzer eingegebene Wert “Zeitpunkt der Auslieferung“/“Uhrzeit“ gibt den Zeitpunkt an, zu dem die Verarbeitung der Arbeitsmappe beginnt, und nicht den Zeitpunkt, zu dem sie tatsächlich bereitgestellt wird. Die tatsächliche Bereitstellungszeit der Arbeitsmappe hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (bei komplexen und großen Arbeitsmappen dauert die Verarbeitung länger als bei einfacheren Arbeitsmappen). Wenn die Verarbeitung einer Arbeitsmappe z. B. 15 Minuten dauert, ist die tatsächliche Auslieferungszeit frühestens 15 Minuten nach dem ursprünglich angegebenen „Zeitpunkt der Auslieferung“/„Uhrzeit“.
 >Darüber hinaus gibt es weitere Faktoren, die die Verzögerung vor der tatsächlichen Auslieferung der Arbeitsmappe weiter erhöhen können:
 >
 > * **Das gleichzeitige Ausführen vieler verschiedener Zeitpläne desselben Typs** kann das System überlasten. Das Planungssystem erlaubt nur die gleichzeitige Ausführung einiger (5–10) Arbeitsmappen eines Typs. Wenn also mehr als 5–10 gleichzeitig geplant sind, müssen einige warten, bis andere Arbeitsmappen fertig sind, bevor mit deren Verarbeitung begonnen werden kann. Dieses Problem kann behoben werden, indem die Arbeitsmappen eines Unternehmens über den ganzen Tag oder eine Stunde hinweg gestaffelt und nicht gleichzeitig ausgeführt werden.
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## Arbeitsmappe planen
 
 1. Erzeugen Sie eine Arbeitsmappe und speichern Sie ihn.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]**.
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. Klicken Sie auf der **[!UICONTROL Scheduled Reports]** Registerkarte auf **[!UICONTROL New]**.
+   Die Registerkarte [!UICONTROL Terminierte Berichte] enthält eine Zusammenfassung aller von Ihnen erstellten Aufgaben sowie die Anzahl der verbleibenden Aufgaben.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Terminierte Berichte]** auf **[!UICONTROL Neu]**.
 1. Das Fenster „Planungs-Assistent – Grundlegend“ wird angezeigt:
 
    ![](assets/simple-schedule-wizard.png)
 
-1. Konfigurieren Sie im [!UICONTROL Basic Scheduling Wizard]Dialogfeld die folgenden Optionen:
+1. Konfigurieren Sie im Fenster [!UICONTROL Planungs-Assistent – Grundlegend] die folgenden Optionen:
 
 | Feld | Beschreibung |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## Erweiterte Bereitstellungsoptionen
 
-1. Klicken Sie **[!UICONTROL Advanced Delivery Options]** zum Konfigurieren der Datei- und Veröffentlichungsoptionen:
+1. Klicken Sie auf **[!UICONTROL Erweiterte Bereitstellungsoptionen]**, um Datei- und Veröffentlichungsoptionen zu konfigurieren:
 
 | Feld | Beschreibung |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | In Power BI veröffentlichen | <ul><li>Arbeitsmappe in Power BI veröffentlichen</li><li>Alle Report Builder-Anforderungen als Power BI-Datensätze veröffentlichen</li><li>Alle formatierten Tabellen als Power BI-Datensätze veröffentlichen</li></ul> |
 | Diesen Power BI-Bericht bezeichnen als | Bezeichnungsdetails |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. Klicken Sie auf **[!UICONTROL OK]** und dann auf **[!UICONTROL Beenden]**.
 
    Report Builder zeigt die terminierte Arbeitsmappe im [Manager für geplante Aufgaben](/help/analyze/report-builder/r-arb-scheduled-reports.md) an.
 
