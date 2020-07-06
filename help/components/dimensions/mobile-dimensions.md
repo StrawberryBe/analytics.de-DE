@@ -2,7 +2,7 @@
 title: Mobile Dimensionen
 description: Dimensionen basierend auf der user-agent-Zeichenfolge des Geräts.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -18,11 +18,13 @@ Mobile Dimensionen bieten Einblicke in die Eigenschaften von Mobilgeräten, die 
 
 ## Diese Dimensionen mit Daten füllen
 
-Diese Dimensionen verweisen auf interne Nachschlageregeln von Adobe. Der Nachschlagewert basiert auf dem `User-Agent` HTTP-Header, der mit dem Treffer gesendet wird. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um Suchen zwischen Benutzeragent und Mobildimension zu verwalten. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), funktionieren alle mobilen Dimensionen standardmäßig.
+Diese Dimensionen verweisen auf interne Nachschlageregeln von Adobe. Der Nachschlagewert basiert auf dem `User-Agent` HTTP-Header, der mit dem Treffer gesendet wird. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um Suchen zwischen Benutzeragent und Mobildimension zu verwalten. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über den Start der Adobe Experience Platform), funktionieren alle mobilen Dimensionen standardmäßig.
 
 ## Beschreibungen der mobilen Dimension
 
->[!NOTE] Dimensionswerte, die als `"None"` Mobilgeräte bezeichnet werden, sind nicht Mobilgeräte. Wenn Sie einen Bericht wünschen, der nur Mobilgeräte enthält, ziehen Sie die Dimension &quot;Mobilgerät&quot;in den Segmentbereich der Arbeitsfläche.
+>[!NOTE]
+>
+>Dimensionswerte, die als `"None"` Mobilgeräte bezeichnet werden, sind nicht Mobilgeräte. Wenn Sie einen Bericht wünschen, der nur Mobilgeräte enthält, ziehen Sie die Dimension &quot;Mobilgerät&quot;in den Segmentbereich der Arbeitsfläche.
 
 * **Mobile Audiounterstützung**: Legt die Dateiformate fest, die vom Gerät wiedergegeben werden können. Zu den Beispielwerten gehören `"MP3"`, `"AAC"`und `"MIDI Monophonic"`. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionswerten zugeordnet werden.
 * **Mobilnetzbetreiber**: Wenn der Benutzeragent ein netzwerkspezifisches Gerät enthält, ist der Netzbetreiber ein Dimensionswert. Zu den Beispielwerten gehören `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`und `"Verizon"`.
