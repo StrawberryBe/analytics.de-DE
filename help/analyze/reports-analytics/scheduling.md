@@ -4,8 +4,11 @@ subtopic: Schedule
 title: Berichtsplanung und -verteilung
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1661'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Aufgrund der unterschiedlichen Verarbeitungsmechanismen und Plattformen gelten f
 
 Diese Einschränkungen gelten für individuelle terminierte und heruntergeladene Berichte. Dashboards sind auf den Platz beschränkt, der in einem Reportlet verfügbar ist.
 
->[!NOTE] Der vom Benutzer unter „Zeitpunkt der Bereitstellung“ oder „Tageszeit“ eingegebene Zeitpunkt gibt an, ab wann mit der Verarbeitung des Berichts begonnen wird, und nicht, wann der Bericht bereitgestellt wird. Der tatsächliche Bereitstellungszeitpunkt des Berichts hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (komplexe und umfangreiche Berichte benötigen mehr Verarbeitungszeit als einfachere Berichte). Wenn die Verarbeitung eines Berichts z. B. 15 Minuten dauert, liegt der tatsächliche Bereitstellungszeitpunkt mindestens 15 Minuten nach dem ursprünglich unter „Zeitpunkt der Bereitstellung“ oder „Tageszeit“ eingegebenen Zeitpunkt.
+>[!NOTE]
+>
+>Der vom Benutzer unter „Zeitpunkt der Bereitstellung“ oder „Tageszeit“ eingegebene Zeitpunkt gibt an, ab wann mit der Verarbeitung des Berichts begonnen wird, und nicht, wann der Bericht bereitgestellt wird. Der tatsächliche Bereitstellungszeitpunkt des Berichts hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (komplexe und umfangreiche Berichte benötigen mehr Verarbeitungszeit als einfachere Berichte). Wenn die Verarbeitung eines Berichts z. B. 15 Minuten dauert, liegt der tatsächliche Bereitstellungszeitpunkt mindestens 15 Minuten nach dem ursprünglich unter „Zeitpunkt der Bereitstellung“ oder „Tageszeit“ eingegebenen Zeitpunkt.
 >Darüber hinaus gibt es eine Reihe zusätzlicher Faktoren, durch die sich die tatsächliche Berichtsbereitstellung weiter verzögern kann:
 >
 > * **Wenn Sie mehrere verschiedene Zeitpläne desselben Typs gleichzeitig ausführen** (z. B. mehrere Dashboards) ist das System möglicherweise überlastet. Das Planungssystem kann nur eine begrenzte Anzahl von Berichten (5 bis 10) des gleichen Typs auf einmal ausführen. Wenn also mehr als 5 bis 10 Berichte auf einmal geplant sind, müssen einige Berichte warten, bis die Verarbeitung anderer Berichte abgeschlossen ist. Sie können dieses Problem umgehen, indem Sie die Ausführung der Berichte Ihres Unternehmens über einen Tag oder eine Stunde staffeln, statt sie alle auf einmal auszuführen.
@@ -90,6 +95,7 @@ Sie können detaillierte Informationen zu einem bestimmten Bericht in den Export
    * **[!UICONTROL CSV]**: Legt fest, dass der Bericht im Format [!DNL .csv] (Format mit durch Trennzeichen getrennten Werten) heruntergeladen wird.
    * **[!UICONTROL Excel]**: Legt fest, dass der Bericht im Microsoft Excel-Format heruntergeladen wird, sodass Sie ihn an andere weitergeben können, die den Bericht dann in einem Tabellenkalkulationsprogramm öffnen können.
    * **[!UICONTROL Word]**: Legt fest, dass der Bericht im Microsoft Word-Format heruntergeladen wird.
+
    >[!NOTE]
    >
    >Wenn Sie eines der Rohdatenexportformate verwenden möchten, um einen Bericht herunterzuladen und der Seitenname leer ist, hatte Adobe Analytics wahrscheinlich nicht genug Zeit, die Daten zu verarbeiten. Laden Sie den Bericht später herunter.
