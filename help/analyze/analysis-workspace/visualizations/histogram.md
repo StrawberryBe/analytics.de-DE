@@ -3,7 +3,7 @@ description: Ein Histogramm ist ein neuer Visualisierungstyp in Analysis Workspa
 title: Histogramm
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 97%
@@ -25,7 +25,9 @@ So erstellen Sie ein Histogramm:
 
 ![](assets/histogram.png)
 
->[!NOTE]Histogramme unterstützen nur normale Metriken, nicht jedoch berechnete Metriken.
+>[!NOTE]
+>
+>Histogramme unterstützen nur normale Metriken, nicht jedoch berechnete Metriken.
 
 Hier haben wir die Metrik „Seitenansichten pro Unique Visitors“ verwendet. Das erste Paket (links) bezieht sich auf 1 Seitenansicht pro Unique Visitor, das zweite auf 2 Seitenansichten usw.
 
