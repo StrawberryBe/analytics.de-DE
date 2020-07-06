@@ -4,7 +4,10 @@ title: Zeitplan-Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstell
 
 Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstellung zu einem bestimmten Zeitpunkt stoppen oder die Häufigkeit des Berichtversands festlegen. Neue Zeitpläne verwenden den im Bericht definierten Datumsbereich. Wenn Sie beispielsweise einen Bericht für die letzten 90 Tage erstellen und eine tägliche Ausführung ansetzen, erhalten Sie jeden Tag einen Bericht für die letzten 90 Tage. Wenn Sie einen Bericht mit einem statischen Datumsbereich aus dem Kalender erstellen, sehen Sie jedes Mal, wenn der Bericht versendet wird, denselben Bericht.
 
->[!NOTE] Bei Deaktivierung eines Benutzerkontos werden terminierte Berichtbereitstellungen dieses Benutzers ausgesetzt.
+>[!NOTE]
+>
+>Bei Deaktivierung eines Benutzerkontos werden terminierte Berichtbereitstellungen dieses Benutzers ausgesetzt.
 
 Um sicherzustellen, dass Zeileneinträge in einer Aufschlüsselung in gespeicherten und terminierten Berichten persistent sind, verwenden Sie die Funktion **[!UICONTROL Elemente bearbeiten]** im [Tabellenaufbau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md), um in Aufschlüsselungen feste Dimensionslisten zu erstellen.
 
