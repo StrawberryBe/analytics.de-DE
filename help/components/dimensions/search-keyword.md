@@ -2,7 +2,7 @@
 title: Suchbegriff
 description: Der Suchbegriff, mit dem der Besucher Ihre Site erreichte.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 Die Dimension &quot;Suchbegriff&quot;erfasst die Suchbegriffe, die Besucher zum Erreichen Ihrer Site verwenden.
 
->[!IMPORTANT] Die meisten Suchmaschinen übergeben den Suchbegriff nicht mehr, da die Datenschutzpraktiken zunehmen. Treffer, bei denen Adobe eine Suchmaschine erkennt, unter dem Dimensionswert jedoch eine Suchbegriffgruppe fehlt `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>Die meisten Suchmaschinen übergeben den Suchbegriff nicht mehr, da die Datenschutzpraktiken zunehmen. Treffer, bei denen Adobe eine Suchmaschine erkennt, unter dem Dimensionswert jedoch eine Suchbegriffgruppe fehlt `"Keyword unavailable"`.
 
 Ein Werber muss die beiden folgenden Kriterien erfüllen, um als Suchbegriff klassifiziert zu werden:
 
