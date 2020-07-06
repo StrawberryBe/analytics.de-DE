@@ -4,7 +4,10 @@ title: Besucherberichte
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '870'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,9 @@ Sie können diesen Bericht nach jedem anderen Bericht oder jeder anderen Variabl
 * wie viele Besuche es üblicherweise braucht, bis ein Besucher, der bei Kampagne XYZ durchgeklickt hat, einen Kauf tätigt.
 * ob beispielsweise Benutzer in Tokio mehr Besuche als Besucher in London brauchen, bis ein Lead generiert wird.
 
->[!NOTE] Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer bei jedem Besuch inkrementiert.
+>[!NOTE]
+>
+>Wenn derselbe Besucher Ihre Website mehrmals im selben Zeitraum besucht, wird jede angegebene Besuchsnummer bei jedem Besuch inkrementiert.
 
 Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch einen Besucher an Adobe weitergegeben werden. Nach Empfang dieser Daten vergleicht Adobe sie mit historischen Daten zur Besucher ID, um festzustellen, ob es sich um einen:
 
@@ -68,7 +73,9 @@ Dieser Bericht basiert auf den Besucher-ID-Daten, die bei jedem Besuch durch ein
 * früheren Besucher, der seinen Besuch fortsetzt (Besuchernummer wird nicht inkrementiert), oder einen
 * früheren Besucher, der die Website erneut besucht, handelt (Besuchsnummer wird um 1 inkrementiert).
 
->[!NOTE] Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
+>[!NOTE]
+>
+>Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einer Inaktivität von mindestens 13 Monaten gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
 ## Kundentreue {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -87,7 +94,9 @@ Der Bericht [!UICONTROL Kundeloyalität] gibt Aufschluss über Einkaufsmuster vo
 * **Rückkehrender Kunde**: Besucher, die zwei Einkäufe getätigt haben
 * **Loyaler Kunde**: Besucher, die mehr als drei Einkäufe getätigt haben
 
->[!NOTE] Bei der Verwendung dieser Metriken werden alle Besuche (oder Besucher) eines Benutzers in diesem Bericht repräsentiert, unabhängig davon, ob im Besuch (oder Besucher) ein Kauf inbegriffen war.
+>[!NOTE]
+>
+>Bei der Verwendung dieser Metriken werden alle Besuche (oder Besucher) eines Benutzers in diesem Bericht repräsentiert, unabhängig davon, ob im Besuch (oder Besucher) ein Kauf inbegriffen war.
 
 Der Loyalitätsstatus ändert sich nach dem Ende eines Besuchs, bei dem es zu einem Einkaufsereignis gekommen ist. Beispiel: Ein Neukunde (1 Einkauf) tätigt einen Kauf und registriert sich dann innerhalb desselben Besuchs für einen Newsletter. Das Ereignis zur Newsletter-Registrierung wird dennoch als Interaktion mit einem Neukunden betrachtet, da sich der Status der Kundenloyalität erst beim nächsten Besuch ändert.
 
