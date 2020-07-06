@@ -2,7 +2,7 @@
 description: Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google oder Bing finden können.
 title: Konto-IDs suchen
 translation-type: tm+mt
-source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 65%
@@ -32,6 +32,8 @@ Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-
 
 Sowohl Konto- als auch Kunden-ID sind erforderlich. Sie sind auf der Registerkarte „Konten“ aufgeführt.
 
->[!NOTE] Die Kontonummer ist nicht dasselbe wie die Konto-ID.
+>[!NOTE]
+>
+>Die Kontonummer ist nicht dasselbe wie die Konto-ID.
 
 ![](assets/bing_id.png)
