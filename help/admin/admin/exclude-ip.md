@@ -3,8 +3,11 @@ description: Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivi
 title: Nach IP-Adresse ausschließen
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websi
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Nach IP ausschließen]**
 
->[!NOTE] Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://docs.adobe.com/content/help/de-DE/analytics/technotes/terms.html) in Rechnung gestellt.
+>[!NOTE]
+>
+>Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://docs.adobe.com/content/help/de-DE/analytics/technotes/terms.html) in Rechnung gestellt.
 
 ## Ausschließen nach Cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne di
 |--- |--- |
 | [!UICONTROL CNAME hinzufügen] | Erzeugt einen Ausschluss-Link, mit dem Sie Ihre Domäne ausschließen. Wenden Sie sich zwecks Hilfe an die Support-Benutzer in Ihrem Unternehmen. <br>Sie können Ihren Datenverkehr aus der Berichterstattung in Ihren Report Suites ausschließen, indem Sie die Opt-out-Seite Ihres Unternehmens aufrufen und dort Ihren Browser aus der Messung ausschließen. <br>Wenn bei Ihrer Implementierung Cookies von Drittanbietern verwendet werden, finden Sie Ihre Opt-out-Seite [hier](https://democorp.112.2o7.net/optout.html?locale=de_DE&amp;popup=true). |
 
->[!NOTE] Der Ausschluss nach Computer funktioniert nur dann, wenn:
+>[!NOTE]
+>
+>Der Ausschluss nach Computer funktioniert nur dann, wenn:
 >
 > * Sie von derselben Workstation aus auf Ihre Website zugreifen.
 > * Cookies im derzeit verwendeten Browser aktiviert sind.
