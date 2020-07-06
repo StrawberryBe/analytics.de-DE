@@ -2,7 +2,7 @@
 title: Rückkehrhäufigkeit
 description: Die gebuchtete Zeitspanne zwischen dem aktuellen Besuch und dem vorherigen Besuch.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -14,7 +14,9 @@ ht-degree: 4%
 
 Die Dimension &quot;Rückkehrhäufigkeit&quot;zeigt die Zeitdauer an, die zwischen Besuchen von zurückkehrenden Besuchern vergeht. Wenn ein Besucher zu Ihrer Site zurückkehrt, prüft Adobe, wie lange der vorherige Besuch zurückliegt, und fasst den Treffer in den entsprechenden Dimensionswert zusammen. Diese Dimension ist nützlich, um die Attraktivität und Relevanz Ihrer Website für Besucher im Laufe der Zeit zu messen. Es kann auch dabei helfen, die Auswirkungen des Inhalts und der Promotions Ihrer Site auf Ihre Besucher zu identifizieren.
 
->[!TIP] Diese Dimension umfasst keine erstmaligen Besucher.
+>[!TIP]
+>
+>Diese Dimension umfasst keine erstmaligen Besucher.
 
 ## Diese Dimension mit Daten füllen
 
