@@ -4,7 +4,10 @@ title: Arbeitsmappen sperren/entsperren
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,11 @@ Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anfor
 
 Wenn Sie als Analyst eine Arbeitsmappe sperren, können Sie Ihre Arbeitsmappenanforderungen davor schützen, dass sie von anderen Benutzern in Ihrer Organisation bearbeitet werden. Gleichzeitig können diese Benutzer die Anforderungen in der Arbeitsmappe noch bearbeiten.
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+Um eine Arbeitsmappe vor Änderungen zu schützen, klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Gesperrt]** ( ![](assets/locked_icon.png)
 
 ).
 
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+Um die Sperrung für eine Arbeitsmappe aufzuheben, klicken Sie auf **[!UICONTROL Entsperrt]** ( ![](assets/unlocked_icon.png)
 
 ).
 
@@ -28,7 +31,9 @@ Sie können eine Arbeitsmappe entsperren, wenn Sie über eine der folgenden Bere
 * Sie sind ein Administrator oder
 * Sie sind die Person, die die Arbeitsmappe ursprünglich gesperrt hat. In diesem Fall müssen Sie kein Administrator sein.
 
->[!NOTE] Sie können einer geschützten Arbeitsmappe keine Anforderung hinzufügen, außer Sie sind berechtigt, die Arbeitsmappe zu entsperren.
+>[!NOTE]
+>
+>Sie können einer geschützten Arbeitsmappe keine Anforderung hinzufügen, außer Sie sind berechtigt, die Arbeitsmappe zu entsperren.
 
 Wenn eine Arbeitsmappe für die Bearbeitung von Anforderungen gesperrt ist, gilt Folgendes:
 
@@ -39,7 +44,7 @@ Wenn eine Arbeitsmappe für die Bearbeitung von Anforderungen gesperrt ist, gilt
 * Benutzer können Anforderungen entweder individuell oder als Mitglied einer Gruppe aktualisieren.
 * Wenn bei der Anforderung Eingabewerte aus Zellen verwendet werden (Datumsbereich, Segment, Filter) können Benutzer diese Werte in den Zellen ändern und so die Anforderungen indirekt bearbeiten, indem sie sie aktualisieren.
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+Wenn Sie eine geschützte Arbeitsmappe bearbeiten möchten (über das Kontextmenü oder den **[!UICONTROL Anforderungs-Manager]** oder über **[!UICONTROL Mehrere Anforderungen bearbeiten]**), sind Sie dazu möglicherweise nicht berechtigt:
 
 * Wenn Sie nicht berechtigt sind, die Anforderung(en) zu entsperren, wird die folgende Meldung angezeigt:
 
