@@ -4,8 +4,11 @@ subtopic: Classifications
 title: FTP-Import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Jeder neue Schlüsselwert, den Sie hochladen, zählt als eindeutige Classificati
 
 Wenn Sie die Zahl eindeutiger Classifications für den Monat überschritten haben, werden Ihnen für die über dem Grenzwert liegenden Classifications in den Berichten nicht die zugehörigen Classification-Daten angezeigt. Sie können sich diese Classifications entweder in Data Warehouse oder der Ad-hoc-Analyse anzeigen lassen.
 
->[!NOTE] Die erforderliche Verarbeitungszeit für eine Klassifizierungsdatendatei hängt von der Dateigröße und der aktuellen Anzahl der Dateien ab, die zu dem Zeitpunkt auf den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
+>[!NOTE]
+>
+>Die erforderliche Verarbeitungszeit für eine Klassifizierungsdatendatei hängt von der Dateigröße und der aktuellen Anzahl der Dateien ab, die zu dem Zeitpunkt auf den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
 
 Erstellen Sie vor dem Hochladen von Daten via FTP ein FTP-Konto. Weitere Informationen finden Sie unter [Erstellen eines FTP-Kontos](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
