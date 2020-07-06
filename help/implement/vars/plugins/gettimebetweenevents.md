@@ -1,15 +1,20 @@
 ---
 title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 100%
 
 ---
 
 
 # Adobe-Plug-in: getTimeBetweenEvents
 
->[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Mit dem `getTimeBetweenEvents`-Plug-in können Sie die Zeitspanne zwischen zwei beliebigen Analytics-Ereignissen, einschließlich Warenkorb- und benutzerspezifischen Ereignissen, verfolgen. Es ist nützlich, um die Zeit zu verfolgen, die ein Checkout-Prozess oder ein anderer Prozess, den Sie messen möchten, benötigt. Dieses Plug-in ist nicht erforderlich, wenn Sie keine Konversionsprozesse haben, bei denen Sie messen möchten, wie lange sie dauern.
 
