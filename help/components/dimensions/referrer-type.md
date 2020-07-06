@@ -2,7 +2,7 @@
 title: Referrer-Typ
 description: Der Typ des Werbers, je nachdem, woher der Besucher stammt.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,9 +31,11 @@ Dimensionswerte beinhalten den Typ des Werbers des Treffers. Zu den spezifischen
 
 ### Soziale Netzwerke
 
-Die folgende Liste bezieht sich auf die Nachschlagetabelle &quot;Social-Netzwerke&quot;, die von Adobe verwendet wird. Adobe stellt diese Liste für Adobe Analytics-Kunden zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domäne hinzufügt, bitten Sie einen Supportmitarbeiter in Ihrem Unternehmen, sich an den Kundendienst zu wenden.
+Die folgende Liste bezieht sich auf die Nachschlagetabelle &quot;Social-Netzwerke&quot;, die von Adobe verwendet wird. Adobe stellt diese Liste für Kunden von Adobe Analytics zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domäne hinzufügt, bitten Sie einen Supportmitarbeiter in Ihrem Unternehmen, sich an den Kundendienst zu wenden.
 
->[!NOTE] Diese Liste unterscheidet sich von der standardmäßigen Liste sozialer Netzwerke in den Verarbeitungsregeln für [Marketing Kanal](../c-marketing-channels/c-rules.md).
+>[!NOTE]
+>
+>Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den Verarbeitungsregeln für [Marketing Kanal](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
