@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Vorbereiten auf die Verwendung von Data Sources
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Nachdem Sie die entsprechenden Metrik-zu-Ereignis-Zuordnungen für die Data Sour
 
 Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe der Admin Tools.
 
->[!NOTE] Adobe empfiehlt dringend den Einsatz von neuen, leeren Ereignissen mit Data Sources-Daten. In seltenen Fällen kann es sinnvoll sein, ein bereits bestehendes Ereignis zu verwenden.
+>[!NOTE]
+>
+>Adobe empfiehlt dringend den Einsatz von neuen, leeren Ereignissen mit Data Sources-Daten. In seltenen Fällen kann es sinnvoll sein, ein bereits bestehendes Ereignis zu verwenden.
 
 ## Identifizieren von Datendimensionen {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ Wenn beispielsweise eine Data Sources-Metrik Anzeigenimpressionen misst, ist Ihr
 
 Sie können für eine Metrik mehrere Datendimensionen definieren, aber jede Metrik muss über einen entsprechenden Wert oder eine Kombination aus Werten für jede zugeordnete Datendimension verfügen. Wenn Sie zum Beispiel eine Offline-Verkaufsmetrik importieren und sie *`Product`*- und *`Partner`*-Datendimensionen zuordnen, muss die Offline-Verkaufsmetrik für beide Kombinationen aus Produkt und Partner (z. B. Gesamtumsatz) relevant sein.
 
->[!NOTE] Sie können Gesamtmetriken importieren, die nicht mit einer Datendimension unterteilt werden können.
+>[!NOTE]
+>
+>Sie können Gesamtmetriken importieren, die nicht mit einer Datendimension unterteilt werden können.
 
 Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben, integrieren Sie die Dimensionsdaten in Marketingberichte, indem Sie sie einer Variablen zuordnen. Verwenden Sie entweder Standardberichte (z. B. Produkt, Trackingcode, Keyword) oder Konversion-Traffic-Variablen (eVars).
 
