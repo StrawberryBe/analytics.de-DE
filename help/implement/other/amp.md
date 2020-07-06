@@ -2,7 +2,10 @@
 title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ In der folgenden Tabelle werden die beiden Methoden verglichen:
 
 Legen Sie anhand der Vor- und Nachteile in Ihrer Organisation fest, welche Methode Sie verwenden möchten. Beispielcode finden Sie unter [AMP-Beispiele](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) im GitHub-Repository von Adobe.
 
->[!WARNING] Verwenden Sie mit AMP nicht sowohl die `"adobeanalytics"`- als auch die `"adobeanalytics_nativeConfig"`-Vorlage auf derselben Seite. Wenn Sie dies versuchen, können Sie Fehler in der Browser-Konsole erzeugen und Besucher doppelt zählen.
+>[!WARNING]
+>
+>Verwenden Sie mit AMP nicht sowohl die `"adobeanalytics"`- als auch die `"adobeanalytics_nativeConfig"`-Vorlage auf derselben Seite. Wenn Sie dies versuchen, können Sie Fehler in der Browser-Konsole erzeugen und Besucher doppelt zählen.
 
 ## Methode 1: Verwenden des amp-analytics-Tags mit der Vorlage „adobeanalytics“
 
@@ -77,11 +82,15 @@ Im `click`-Auslöser können Sie eine Auswahl festlegen, um sicherzustellen, das
 
 Zudem unterstützt `amp-analytics` eine Anzahl von Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Weitere Informationen finden Sie unter [In amp-analytics unterstützte Variablen](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) auf GitHub.
 
->[!NOTE] Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einschließen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für die Bildanforderung enthalten sind. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
+>[!NOTE]
+>
+> Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einschließen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für die Bildanforderung enthalten sind. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
 
 Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist für jede andere von Adobe Analytics festgelegte ID eindeutig (z. B. das `s_vi`-Cookie). Der Adobe Experience Cloud-ID-Dienst wird bei dieser Implementierungsmethode nicht unterstützt.
 
->[!NOTE] AMP verwendet CDNs zur Bereitstellung von Inhalten. Dabei wird für jedes CDN, aus dem ein Besucher Inhalte abruft, ein anderer Unique Visitor gezählt wird, wodurch die Anzahl der Unique Visitors überhöht kann.
+>[!NOTE]
+>
+>AMP verwendet CDNs zur Bereitstellung von Inhalten. Dabei wird für jedes CDN, aus dem ein Besucher Inhalte abruft, ein anderer Unique Visitor gezählt wird, wodurch die Anzahl der Unique Visitors überhöht kann.
 
 Aufgrund der Art und Weise, auf die AMP Unique Visitors identifiziert, wird die Verwendung einer separaten Report Suite für AMP-Seiten empfohlen.
 
@@ -147,7 +156,9 @@ Bei diesem Ansatz werden Daten über Abfragezeichenfolgenparameter, die dem `ifr
 
 Die `"adobeanalytics_nativeConfig"`-Vorlage kann zudem Abfragezeichenfolgenparameter hinzufügen, die auf den im `extraUrlParams`-Abschnitt des amp-analytics-Tags aufgeführten Variablen basieren. Im obigen Beispiel werden die Parameter `pageName` und `v1` einbezogen.
 
->[!IMPORTANT] Ihre `stats.html`-Seite muss in einer anderen Unterdomäne als der Domäne gehostet werden, in der AMP selbst gehostet wird. Das AMP-Framework lässt keine iFrames aus derselben Unterdomäne zu, in der sich die AMP-Seite selbst befindet. Wenn Ihr AMP beispielsweise auf `amp.example.com` gehostet wird, hosten Sie Ihre `stats.html`-Seite in einer anderen Unterdomäne wie `ampmetrics.example.com`.
+>[!IMPORTANT]
+>
+>Ihre `stats.html`-Seite muss in einer anderen Unterdomäne als der Domäne gehostet werden, in der AMP selbst gehostet wird. Das AMP-Framework lässt keine iFrames aus derselben Unterdomäne zu, in der sich die AMP-Seite selbst befindet. Wenn Ihr AMP beispielsweise auf `amp.example.com` gehostet wird, hosten Sie Ihre `stats.html`-Seite in einer anderen Unterdomäne wie `ampmetrics.example.com`.
 
 Wenn ein Benutzer bei dieser Methode das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren AMPs ebenfalls deaktiviert. Bei Verwendung dieser Dienstprogrammseite kann AMP auch den Adobe Experience Cloud ID-Dienst unterstützen. Eine separate Report Suite ist nicht erforderlich.
 
