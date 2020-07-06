@@ -5,7 +5,10 @@ title: Verwendung von „Zeitstempel optional“
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der 
 * Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
 * Aktualisieren Sie Apps, sodass Sie ohne Erstellung einer neuen Report Suite Zeitstempel verwenden können.
 
->[!NOTE] Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
+>[!NOTE]
+>
+>Die Einstellung der optionalen Zeitstempel ist standardmäßig für alle neuen, aus einer Vorlage generierten Report Suites festgelegt. Neue Report Suites, die aus einer vorhandenen kopiert werden, übernehmen die Einstellungen der ursprünglichen Report Suite.
 
 Weitere Informationen zu deren Einrichtung finden Sie unter [Zeitstempel optional](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/timestamp-optional.html).
 
@@ -52,7 +57,9 @@ Mit **Zeitstempel optional** können Sie nicht zeitgestempelte Daten einer Live-
 
 Sie können Daten auf verschiedene Weise zu einer globalen Report Suite kombinieren: über Multi-Suite-Tagging, Vista-Regeln und importierte Batchdateien aus Offline-Quellen.
 
->[!IMPORTANT] Nehmen Sie sich Zeit für die Planung des Designs jedes Komponenten-Datasets. Die Kombination in einer globalen Report Suite sollte schließlich sinnvoll sein.
+>[!IMPORTANT]
+>
+>Nehmen Sie sich Zeit für die Planung des Designs jedes Komponenten-Datasets. Die Kombination in einer globalen Report Suite sollte schließlich sinnvoll sein.
 
 ## Best Practices in Verbindung mit Zeitstempeln {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -62,7 +69,7 @@ Nachfolgend finden Sie Best Practices in Verbindung mit Zeitstempeln sowie einig
 
    Daten außerhalb der Reihenfolge können verspätet eintreffende Daten aus Offline-Datenerfassungen, verspätet eintreffende Treffer oder nicht synchronisierte Zeiten von Offline-Mobilgeräten sein. Diese nicht chronologischen Daten können Berechnungen (z. B. die Angabe der Dauer), Zuordnungen (eVar-Persistenz), Besucherzahlen und Pfadsetzungsberichte beeinträchtigen.
 
-* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://docs.adobe.com/content/help/de-DE/analytics/technotes/visitor-identification.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
+* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://docs.adobe.com/content/help/de-DE/analytics/components/metrics/unique-visitors.translate.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
 
 * Hybridanwendungen mit einer App (Offline-Daten mit Zeitstempel), die einen Webbrowser öffnet (Live-Daten ohne Zeitstempel), sollten keine Zeitstempel verwenden. Die Daten der Sitzung würden dadurch nicht korrekt gemeldet werden.
 
