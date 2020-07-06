@@ -4,7 +4,10 @@ title: Benutzerdefinierte Berichtbeschreibungen
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Sie können benutzerspezifische Berichtbeschreibungen für eVars, Props, Classif
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL *Variable *]**
 
->[!NOTE] Das Hinzufügen von Beschreibungen ist für die meisten traditionellen Klassifizierungen verfügbar, derzeit jedoch nicht für mobile Klassifizierungen.
+>[!NOTE]
+>
+>Das Hinzufügen von Beschreibungen ist für die meisten traditionellen Klassifizierungen verfügbar, derzeit jedoch nicht für mobile Klassifizierungen.
 
 ![](assets/report_descriptions.png)
 
