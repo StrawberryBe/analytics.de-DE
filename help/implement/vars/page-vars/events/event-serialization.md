@@ -1,8 +1,11 @@
 ---
 title: Ereignis-Serialisierung
 description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Bei der Ereignis-Serialisierung werden Maßnahmen implementiert, um zu verhindern, dass doppelte Ereignisse in das Analytics-Reporting aufgenommen werden. Das Deduplizieren von Ereignissen ist wichtig, wenn Sie nicht möchten, dass die Metriken durch Besucher, die die Seite aktualisieren, überhöht werden.
 
->[!NOTE] Data Sources unterstützt keine Ereignis-Serialisierung oder -Deduplizierung.
+>[!NOTE]
+>
+>Data Sources unterstützt keine Ereignis-Serialisierung oder -Deduplizierung.
 
 ## Einrichten der Ereignis-Serialisierung
 
@@ -23,7 +28,9 @@ Bei Verwendung von Ereignis-IDs erfolgt eine Deduplizierung auf folgenden Ebenen
 * Deduplizierung erfolgt global über alle Besucher hinweg. Wenn Besucher A `event1:ABC` sendet und dann Besucher B auch `event1:ABC` sendet, ignoriert Adobe die zweite Instanz von Besucher B.
 * Die Deduplizierung läuft nicht ab. Wenn ein Besucher `event1:ABC` sendet und dann zwei Jahre später zurückkehrt und `event1:ABC` erneut sendet, ignoriert Adobe die zweite Instanz.
 
->[!TIP] Wenn Sie das [`purchase`](event-purchase.md)-Ereignis deduplizieren möchten, verwenden Sie stattdessen die [`purchaseID`](../purchaseid.md)-Variable.
+>[!TIP]
+>
+>Wenn Sie das [`purchase`](event-purchase.md)-Ereignis deduplizieren möchten, verwenden Sie stattdessen die [`purchaseID`](../purchaseid.md)-Variable.
 
 ## Verwenden der Ereignis-IDs in Adobe Experience Platform Launch
 
