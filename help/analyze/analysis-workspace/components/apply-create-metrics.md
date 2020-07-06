@@ -3,7 +3,7 @@ description: In Analysis Workspace gibt es zwei Möglichkeiten zur Verwendung vo
 title: Metriken
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 88%
@@ -19,7 +19,9 @@ Sie können entweder eine Standardmetrik, eine berechnete Metrik oder eine Vorla
 
 ![](assets/metrics_icons.png)
 
->[!NOTE] Die Verwendung von Metriken ist einfach und leistungsstark zugleich. Sie können einem Bericht Metriken hinzufügen, indem Sie die entsprechende Metrik in den Metrikabschnitt einer Tabelle ziehen. Sie können Dimensionen auch nach Metriken aufschlüsseln, um die Tabellenansicht detailliert zu steuern. Außerdem können Sie eine Metrik als Dimension und eine Dimension als Metrik einfügen, um einen Zeitverlaufsbericht zu erstellen. Spielen Sie mit den verschiedenen Komponenten und sehen Sie, was Sie tun können. Die Möglichkeiten sind endlos.
+>[!NOTE]
+>
+>Die Verwendung von Metriken ist einfach und leistungsstark zugleich. Sie können einem Bericht Metriken hinzufügen, indem Sie die entsprechende Metrik in den Metrikabschnitt einer Tabelle ziehen. Sie können Dimensionen auch nach Metriken aufschlüsseln, um die Tabellenansicht detailliert zu steuern. Außerdem können Sie eine Metrik als Dimension und eine Dimension als Metrik einfügen, um einen Zeitverlaufsbericht zu erstellen. Spielen Sie mit den verschiedenen Komponenten und sehen Sie, was Sie tun können. Die Möglichkeiten sind endlos.
 
 Oder Sie können auf **[!UICONTROL Komponenten]** > **[!UICONTROL Neue Metrik]** klicken. Sie gelangen so zum [Generator für berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html), wo Sie aus bereits vorhandenen Metriken benutzerdefinierte Metriken erstellen können.
 
