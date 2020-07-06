@@ -3,8 +3,11 @@ description: Bei Datenaggregations-Report Suites werden Daten aus mehreren unte
 title: Datenaggregations-Report Suites und globale Report Suites
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Bei Datenaggregations-Report Suites werden Daten aus mehreren untergeordneten R
 
 **Sekundäre Server-Aufrufe**: Bei Datenaggregationen gibt es keine zusätzlichen Server-Aufrufe, die über das hinausgehen, was eine einzelne Report Suite erfasst. Wenn Ihre Organisation Multi-Suite-Tagging verwendet, werden für jede zusätzliche Report Suite, die in einer Bildanforderung enthalten ist, sekundäre Server-Aufrufe durchgeführt.
 
->[!TIP] Wenn Sie nur eine globale Report Suite mit [Virtual Report Suites](../../components/vrs/vrs-considerations.md) verwenden, sind keine sekundären Server-Aufrufe erforderlich.
+>[!TIP]
+>
+>Wenn Sie nur eine globale Report Suite mit [Virtual Report Suites](../../components/vrs/vrs-considerations.md) verwenden, sind keine sekundären Server-Aufrufe erforderlich.
 
 **Implementierungsänderungen**: Bei Datenaggregationen sind keine Implementierungsänderungen erforderlich, bei globalen Report Suites müssen Sie jedoch die globale Report Suite-ID in Ihre Implementierung einbeziehen.
 
