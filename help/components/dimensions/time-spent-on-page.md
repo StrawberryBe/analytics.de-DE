@@ -2,7 +2,7 @@
 title: Besuchszeit pro Seite
 description: Die Zeit, die ein Besucher auf der Seite verbracht hat.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -20,7 +20,9 @@ Die Dimension &quot;Besuchszeit pro Seite&quot;zeichnet die Zeit auf, die ein Be
 
 Diese Dimension ist nützlich, wenn Sie verstehen möchten, wie lange Besucher mit einer bestimmten Metrik auf Ihrer Site interagieren.
 
->[!TIP] Die Besuchszeit wird nicht für den letzten Treffer des Besuchs gemessen, da es keine nachfolgende Bildanforderung zur Messung der verstrichenen Zeit gibt. Dieses Konzept gilt auch für Besuche, die aus einem einzelnen Treffer (einem Absprung) bestehen.
+>[!TIP]
+>
+>Die Besuchszeit wird nicht für den letzten Treffer des Besuchs gemessen, da es keine nachfolgende Bildanforderung zur Messung der verstrichenen Zeit gibt. Dieses Konzept gilt auch für Besuche, die aus einem einzelnen Treffer (einem Absprung) bestehen.
 
 Diese Dimension basiert auf Treffern, d. h., der Wert ist bei jedem Treffer unterschiedlich. Vergleichen Sie diese Dimension mit der [Zeit pro Besuch](time-spent-per-visit.md), die einer besuchsbasierten Dimension entspricht. Höhere Besuchszeit bedeutet, dass ein Besucher länger auf einer Seite bleibt (Treffer).
 
