@@ -3,8 +3,11 @@ description: Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, 
 title: Filtern von Berichtsdaten
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,9 @@ Mit erweiterten Filtern können Sie den Umfang Ihrer Suche anhand einer Sammlung
 
 Gibt ein Ergebnis zurück, wenn der Begriff an irgendeiner Stelle im Einzelelement gefunden wird. Dieser Filter funktioniert genauso wie der einfache Filter.
 
->[!NOTE] Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
+>[!NOTE]
+>
+> Leerzeichen können nicht in Filtern verwendet werden, da sie als Trennzeichen bei Suchvorgängen verwendet werden.
 
 **Enthält nicht**
 
