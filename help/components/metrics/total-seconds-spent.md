@@ -2,7 +2,7 @@
 title: Gesamtbesuchszeit in Sekunden
 description: Die aggregierte Gesamtanzahl der Sekunden, die für den Dimensionswert verbracht wurden.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ Diese Metrik verwendet die folgenden Schritte zur Berechnung:
 
 Beständige Variablen wie [eVars](../dimensions/evar.md)werden als Gesamtdauer in Sekunden gezählt. Traffic-Variablen wie [Props](../dimensions/prop.md)enthalten Sekunden, die über nachfolgende Linkverfolgungsaufrufe verbracht wurden.
 
->[!TIP] Die Besuchszeit wird nicht für den letzten Treffer des Besuchs gemessen, da es keine nachfolgende Bildanforderung zur Messung der verstrichenen Zeit gibt. Dieses Konzept gilt auch für Besuche, die aus einem einzelnen Treffer (einem Absprung) bestehen.
+>[!TIP]
+>
+>Die Besuchszeit wird nicht für den letzten Treffer des Besuchs gemessen, da es keine nachfolgende Bildanforderung zur Messung der verstrichenen Zeit gibt. Dieses Konzept gilt auch für Besuche, die aus einem einzelnen Treffer (einem Absprung) bestehen.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter Übersicht über die [Besuchszeit](time-spent.md) .
