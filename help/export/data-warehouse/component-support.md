@@ -2,7 +2,10 @@
 title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Einige Dimensionen und Metriken können in Data Warehouse verwendet werden, nich
 
 Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 
->[!NOTE] Wenn eine Dimension oder Metrik in Data Warehouse nicht unterstützt wird, werden Segmente, die diese Komponenten verwenden, auch nicht unterstützt. Überprüfen Sie beim Erstellen oder Bearbeiten eines Segments immer die Produktkompatibilität.
+>[!NOTE]
+>
+>Wenn eine Dimension oder Metrik in Data Warehouse nicht unterstützt wird, werden Segmente, die diese Komponenten verwenden, auch nicht unterstützt. Überprüfen Sie beim Erstellen oder Bearbeiten eines Segments immer die Produktkompatibilität.
 
 ### Nicht unterstützte Dimensionen
 
