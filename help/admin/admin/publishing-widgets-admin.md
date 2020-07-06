@@ -4,7 +4,10 @@ title: Veröffentlichungs-Widget
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Ein Veröffentlichungs-Widget ist ein Container, mit dem Sie Analytics-Berichte 
 
 Sie können beispielsweise ein Dashboard bereitstellen, damit Führungskräfte des Unternehmens die Anzahl der Seitenbesucher, die Anzahl der Einzelseitenbesucher usw. einsehen können.
 
->[!CAUTION] Zum Anzeigen von Daten, die über das Veröffentlichungs-Widget veröffentlicht werden, ist keine Authentifizierung erforderlich. Die veröffentlichten Daten sind daher nicht stärker geschützt als Daten, die Sie an eine E-Mail-Gruppe oder an einen Listenserver senden. Beachten Sie beim Verwenden des Widgets die Sicherheitsvorschriften Ihres Unternehmens, bestehende vertragliche Verpflichtungen und die einschlägigen Gesetze. Das Veröffentlichungs-Widget bietet die Möglichkeit, die Veröffentlichung von Daten nach IP-Adresse oder Domänenpfad einzuschränken. Diese Mechanismen dienen jedoch ausschließlich dem Zweck, eine unbeabsichtigte Datenverbreitung zu verhindern; sie stellen kein wirksames Verfahren dar, den Zugriff auf Daten, die über das Veröffentlichungs-Widget verbreitet werden, abzusichern.
+>[!CAUTION]
+>
+>Zum Anzeigen von Daten, die über das Veröffentlichungs-Widget veröffentlicht werden, ist keine Authentifizierung erforderlich. Die veröffentlichten Daten sind daher nicht stärker geschützt als Daten, die Sie an eine E-Mail-Gruppe oder an einen Listenserver senden. Beachten Sie beim Verwenden des Widgets die Sicherheitsvorschriften Ihres Unternehmens, bestehende vertragliche Verpflichtungen und die einschlägigen Gesetze. Das Veröffentlichungs-Widget bietet die Möglichkeit, die Veröffentlichung von Daten nach IP-Adresse oder Domänenpfad einzuschränken. Diese Mechanismen dienen jedoch ausschließlich dem Zweck, eine unbeabsichtigte Datenverbreitung zu verhindern; sie stellen kein wirksames Verfahren dar, den Zugriff auf Daten, die über das Veröffentlichungs-Widget verbreitet werden, abzusichern.
 >
 > Adobe lehnt jegliche Verantwortung oder Haftung für über das Veröffentlichungs-Widget offengelegte Daten ab.
 
@@ -31,7 +36,9 @@ Wenn Sie Datenunterschiede zwischen dem Veröffentlichungs-Widget und der Berich
 1. Klicken Sie im Widget auf **[!UICONTROL Speichern]**.
 1. Führen Sie das Widget erneut aus. (Im Vorschaumodus wird der Cache des Widgets nicht verwendet.)
 
->[!NOTE] Veröffentlichungs-Widgets zeigen nur die erste Datenspalte eines Berichts an.
+>[!NOTE]
+>
+>Veröffentlichungs-Widgets zeigen nur die erste Datenspalte eines Berichts an.
 
 ## Veröffentlichungs-Widgets – Beschreibungen {#section_D67478AECCA946B19A3E4C7071EB4871}
 
