@@ -3,7 +3,10 @@ description: 'null'
 title: Einschränkungen und Spezifikationen
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Einschränkungen für Power BI-Veröffentlichungen {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] Diese Einschränkungen gelten nur für die Option „Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen“.
+>[!NOTE]
+>
+> Diese Einschränkungen gelten nur für die Option „Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen“.
 
 * Maximal 100 Report Builder-Anforderungen pro Arbeitsmappe können nach Power BI exportiert werden.
 * Dieser Planungsvorgang beendet den Export, sobald die 101. Anforderung erreicht ist.
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Report Builder-Anforderung nach der Veröffentlichung in Power BI bearbeiten {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] Diese Angaben gelten für die Optionen „Alle Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen“ und „Alle formatierten Tabellen der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen“.
+>[!NOTE]
+>
+> Diese Angaben gelten für die Optionen „Alle Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen“ und „Alle formatierten Tabellen der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen“.
 
 Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power BI kann zu Problemen führen.
 
@@ -38,6 +45,7 @@ Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power�
       1. Vergewissern Sie sich, dass der bei Ihrer ersten Veröffentlichung erstellte Datensatz überschrieben wurde.
       1. Stellen Sie sicher, dass die Tabelle für Seite 1 ordnungsgemäß mit den Spalten „Seite“ und „Besuche“ aktualisiert wurde.
       1. Prüfen Sie, ob die Visualisierung beschädigt ist, da sie die Spalte „Seitenansichten“ referenziert, die nicht mehr in der Tabelle für Seite 1 enthalten ist.
+
    **Beispiel für eine Bearbeitung OHNE Beschädigung der Visualisierung:**
 
    1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
@@ -62,5 +70,5 @@ Bedenken Sie Folgendes
 
 * Die Bezeichnung darf keine Kombination aus Buchstaben und Zahlen sein, die mit einer Zeilen- und Spaltenadresse verwechselt werden kann. Beispielsweise darf die Bezeichnung nicht A100 lauten, da dies die Adresse einer Zelle in einem Arbeitsblatt ist.
 * Die folgenden Zeichen sind für eine Bezeichnung nicht gültig: &#39;#&#39;, &#39;@&#39;, &#39;!&#39;, &#39;$&#39;, &#39;^&#39;, &#39;&amp;&#39;, &#39;*&#39;, &#39;`&#39;, &#39;~&#39;, &#39; &#39; . Sie werden durch einen Unterstrich ersetzt.
-* Wenn Sie einen ungültigen Namen eingeben, wird eine Warnmeldung angezeigt, in der ein automatisch generierter Name vorgeschlagen wird. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* Wenn Sie einen ungültigen Namen eingeben, wird eine Warnmeldung angezeigt, in der ein automatisch generierter Name vorgeschlagen wird. Wenn Sie auf **[!UICONTROL Ja]** klicken, wird dieser Name verwendet. Wenn Sie auf **[!UICONTROL Nein]** klicken, können Sie im erweiterten Assistenten einen neuen Namen eingeben.
 
