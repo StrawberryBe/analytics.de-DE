@@ -4,8 +4,11 @@ keywords: Analysis Workspace
 title: Projekt erstellen – Übersicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Die Abfrage erfolgt direkt an die Berichts-Engine. Sie können Änderungen inlin
 
 ## Workspace -Seite mit Projektliste {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Wenn Sie **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** erstmalig aufrufen, werden auf der Seite alle Projekte aufgeführt, die Ihnen gehören oder zu denen Ihnen Zugriff gewährt wurde. Sie können diese Seite als Landingpage für Adobe Analytics festlegen, indem Sie auf **[!UICONTROL Set as Landing Page]** klicken. (Wenn die Option wie im unten stehenden Screenshot nicht angezeigt wird, ist die Seite bereits Ihre Landingpage.)
+Wenn Sie **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** erstmalig aufrufen, werden auf der Seite alle Projekte aufgeführt, die Ihnen gehören oder zu denen Ihnen Zugriff gewährt wurde. Sie können diese Seite als Startseite für Adobe Analytics festlegen, indem Sie auf **[!UICONTROL Als Landingpage festlegen]** klicken. (Wenn die Option wie im unten stehenden Screenshot nicht angezeigt wird, ist die Seite bereits Ihre Landingpage.)
 
 ![](assets/sample-project.png)
 
@@ -32,24 +35,24 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 |---|---|
 | Projekt [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Sie können diese fertig ausgefüllten Projektvorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern. |
 | [Neues Projekt erstellen](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klicken Sie auf diesen Link, um ein neues Projekt von Grund auf zu erstellen. |
-| Projekte verwalten | Wenn Sie auf diesen Link klicken, wird der Projektkomponentenmanager aufgerufen (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
+| Projekte verwalten | Wenn Sie auf diesen Link klicken, wird der Projektkomponentenmanager aufgerufen (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Projekte]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
 | Tutorials anzeigen | Sie gelangen zu den [YouTube-Videos für Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Name | Name des Workspace-Projekts. |
 | Erstellt von | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
-| Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponentenmanager oder unter **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
+| Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponentenmanager oder unter **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**. |
 | Zuletzt geändert | Datum und Zeitpunkt der letzten Änderung des Projekts. |
 
 ## Projektinfo und Einstellungen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**
+**[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** enthält Informationen auf Projektebene zum derzeit aktiven Projekt.
+**[!UICONTROL Projektinfo und Einstellungen]** enthält auf der Projektebene befindliche Informationen über das derzeit aktive Projekt.
 
 | Einstellung | Beschreibung |
 |---|---|
-| Projektname | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
+| Projekt  Name | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
 | Erstellt von | Name des Projektinhabers. |
 | Zuletzt geändert | Das Datum, an dem die letzte Änderung an dem Projekt vorgenommen wurde. |
 | Tags | Zeigt eine Liste aller Tags an, die auf ein Projekt angewendet wurden, um die Kategorisierung zu vereinfachen. Sie können Projekte beim Speichern auch taggen. Die Tags eines Projekts können Sie auf der Workspace-Landingpage in der Spalte [!UICONTROL Tags] einsehen. |
@@ -66,7 +69,9 @@ Die oberste Ebene des Menüs „Projekte“ sieht wie folgt aus:
 
 Die Untermenüs enthalten die folgenden Optionen.
 
->[!NOTE] Mit einem Sternchen (*) markierte Optionen werden nur bei **gespeicherten** Projekten angezeigt.
+>[!NOTE]
+>
+>Mit einem Sternchen (*) markierte Optionen werden nur bei **gespeicherten** Projekten angezeigt.
 
 | Projekt | Vorlage | Einfügen | Komponenten | Freigabe | Hilfe |
 |---|---|---|---|---|---|
@@ -86,4 +91,4 @@ Die linke Leiste enthält 3 Symbole, über die Sie mit einem Klick auf Bedienfel
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-Zur Liste der in der linken Leiste verfügbaren Bedienfelder wurde ein **[!UICONTROL Blank Panel]** hinzugefügt. Um ein **neues Kohortenbedienfeld** zu erstellen, ziehen Sie eine Kohortentabellen-Visualisierung auf ein leeres Bedienfeld.
+Zur Liste der in der linken Leiste verfügbaren Bedienfelder wurde ein **[!UICONTROL leeres Bedienfeld]** hinzugefügt. Um ein **neues Kohortenbedienfeld** zu erstellen, ziehen Sie eine Kohortentabellen-Visualisierung auf ein leeres Bedienfeld.
