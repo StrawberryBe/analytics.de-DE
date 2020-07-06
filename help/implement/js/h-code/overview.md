@@ -1,19 +1,26 @@
 ---
 title: Übersicht über die JavaScript-Implementierung mit H-Code
 description: Erfahren Sie mehr über den Workflow zur Implementierung von H-Code auf Ihrer Website.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
 
 # Übersicht über die JavaScript-Implementierung mit H-Code
 
->[!IMPORTANT] Diese Version der Datenerfassung wird nicht mehr unterstützt. Aktualisieren Sie auf [Adobe Experience Platform Launch](../../launch/overview.md) oder [AppMeasurement für JavaScript](../overview.md).
+>[!IMPORTANT]
+>
+>Diese Version der Datenerfassung wird nicht mehr unterstützt. Aktualisieren Sie auf [Adobe Experience Platform Launch](../../launch/overview.md) oder [AppMeasurement für JavaScript](../overview.md).
 
 Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Datenerfassung erfolgreich implementieren zu können. Anhand der folgenden Schritte werden Sie durch eine grundlegende Analytics-Implementierung mit H-Code geführt.
 
->[!NOTE] Sie müssen bereits über eine vorhandene Kopie von `s_code.js` verfügen, um diese Anweisungen zu befolgen. Adobe bietet keine Möglichkeit mehr, H-Code im Code-Manager herunterzuladen.
+>[!NOTE]
+>
+>Sie müssen bereits über eine vorhandene Kopie von `s_code.js` verfügen, um diese Anweisungen zu befolgen. Adobe bietet keine Möglichkeit mehr, H-Code im Code-Manager herunterzuladen.
 
 1. **JS-Hauptdateivariablen aktualisieren**: Bearbeiten Sie die `s_code.js`-Datei und stellen Sie sicher, dass die folgenden Variablen aktualisiert werden:
    * `s_account` enthält die Report Suite-ID, an die Sie Daten senden möchten. Siehe
