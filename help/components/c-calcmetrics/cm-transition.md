@@ -3,7 +3,10 @@ description: Diese Änderungen an der Funktionsweise von berechneten Metriken in
 title: Häufig gestellte Fragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2148'
+ht-degree: 100%
 
 ---
 
@@ -75,9 +78,13 @@ Berechnete Metriken, die denselben Namen aufweisen (aber in unterschiedlichen Re
 
 Sie sollten berechnete Metriken mit ähnlichen Namen und Definitionen konsolidieren. Gehen Sie dabei aber vorsichtig vor. Sie können die Report Suite auf eine berechnete Metrik im Manager für berechnete Metriken prüfen, um die Original-Report Suite zu verifizieren. Sie sollten auch die Definitionen von Metriken prüfen, wenn sie potenzielle Duplikate löschen, um sicherzustellen, dass Sie Metriken korrekt konsolidieren.
 
->[!NOTE] Auch wenn berechnete Metriken nicht mehr an eine spezielle Report Suite gebunden sind und in jeder Report Suite verwendet werden können, die für das Anmeldeunternehmen sichtbar ist, wird die Report Suite, unter der die berechnete Metrik erstellt oder zuletzt gespeichert wurde, weiterhin im Manager für berechnete Metriken angezeigt.
+>[!NOTE]
+>
+>Auch wenn berechnete Metriken nicht mehr an eine spezielle Report Suite gebunden sind und in jeder Report Suite verwendet werden können, die für das Anmeldeunternehmen sichtbar ist, wird die Report Suite, unter der die berechnete Metrik erstellt oder zuletzt gespeichert wurde, weiterhin im Manager für berechnete Metriken angezeigt.
 
->[!NOTE] Selbst wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die diese Metrik referenzieren, weiterhin.
+>[!NOTE]
+>
+>Selbst wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die diese Metrik referenzieren, weiterhin.
 
 ## Was ist mit meinen globalen berechneten Metriken passiert? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +96,9 @@ Der Inhaber von globalen berechneten Metriken ist jetzt der erste Administrator 
 
 Keine. Der neue Administrator sollte beim Ändern oder Löschen dieser berechneten Metriken allerdings mit Vorsicht vorgehen, da diese möglicherweise in Lesezeichenberichten und Dashboards verwendet werden.
 
->[!NOTE] Selbst wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die diese Metrik referenzieren, weiterhin.
+>[!NOTE]
+>
+>Selbst wenn eine berechnete Metrik gelöscht wird, funktionieren alle Lesezeichen oder Dashboard-Berichte, die diese Metrik referenzieren, weiterhin.
 
 ## Was ist mit globalen berechneten Metriken passiert, die über Anmeldeunternehmen hinweg freigegeben wurden? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +110,9 @@ Globale berechnete Metriken können nun nicht mehr über Anmeldeunternehmen hinw
 * werden standardmäßig für alle freigegeben;
 * werden zu von allen anderen Anmeldeunternehmen unabhängigen Kopien.
 
->[!NOTE] Wenn die berechnete Metrik in einem Lesezeichen, Dashboard, Warnhinweis oder terminierten Bericht verwendet wurde, wirkt sich die Bearbeitung der neuen Kopie NICHT auf die alte beibehaltene berechnete Metrik aus.
+>[!NOTE]
+>
+>Wenn die berechnete Metrik in einem Lesezeichen, Dashboard, Warnhinweis oder terminierten Bericht verwendet wurde, wirkt sich die Bearbeitung der neuen Kopie NICHT auf die alte beibehaltene berechnete Metrik aus.
 
 ## Was ist mit berechneten Metriken mit der Classification Numerisch oder Numerisch2 passiert? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
