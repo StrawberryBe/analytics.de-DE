@@ -1,8 +1,11 @@
 ---
 title: Dynamische Variablen
 description: Kopieren Sie Variablen, ohne die Bildanforderungslänge zu erhöhen.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Dynamische Variablen unterstützen Abfragezeichenfolgenparameter oder HTTP-Heade
 
 Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch die Abfragezeichenfolge oder den HTTP-Header-Wert in Ihre Report Suite. Diese Aktion erfolgt vor jeder anderen Verarbeitung, einschließlich Verarbeitungsregeln und VISTA-Regeln.
 
->[!TIP] Achten Sie beim Kopieren von Variablen auf maximale Zeichenbeschränkungen. Wenn Sie z. B. `eVar1` nach `prop1` kopieren, kann `prop1` einen abgeschnittenen Wert haben, da sie eine 100-Byte-Grenze hat (während `eVar1` eine 255-Byte-Grenze hat).
+>[!TIP]
+>
+>Achten Sie beim Kopieren von Variablen auf maximale Zeichenbeschränkungen. Wenn Sie z. B. `eVar1` nach `prop1` kopieren, kann `prop1` einen abgeschnittenen Wert haben, da sie eine 100-Byte-Grenze hat (während `eVar1` eine 255-Byte-Grenze hat).
 
 ## Dynamische Variablen in Adobe Experience Platform Launch
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] Dynamische Variablen werden beim Debugging Ihrer Implementierung als Zeichenfolgen angezeigt. Die Werte werden Server-seitig von Adobe-Datenerfassungs-Servern kopiert.
+>[!NOTE]
+>
+>Dynamische Variablen werden beim Debugging Ihrer Implementierung als Zeichenfolgen angezeigt. Die Werte werden Server-seitig von Adobe-Datenerfassungs-Servern kopiert.
