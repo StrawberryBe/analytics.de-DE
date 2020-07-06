@@ -4,10 +4,10 @@ title: Echtzeitberichte
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,8 @@ Sie haben folgende Möglichkeiten:
 * Verwenden Sie beliebige benutzerdefinierte Ereignisse, Warenkorbereignisse oder Instanzen.
 * Sie können sich bis zu 20 Stunden historische Echtzeitdaten anzeigen lassen.
 
-Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) aktiviert.
+Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berücksichtigt. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten. eVars (Konversionsmetriken) werden nicht unterstützt. Echtzeitberechtigungen werden in den [Admin Tools](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) aktiviert.
 
->[!NOTE] [!UICONTROL Echtzeitberichte] sind mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Datenneuigkeit) nicht identisch. Mit dieser wird die Latenz für Standardberichte verkürzt, indem Daten angezeigt werden, bevor sie finalisiert wurden.
+>[!NOTE]
+>
+>[!UICONTROL Echtzeitberichte] sind mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Datenneuigkeit) nicht identisch. Mit dieser wird die Latenz für Standardberichte verkürzt, indem Daten angezeigt werden, bevor sie finalisiert wurden.
