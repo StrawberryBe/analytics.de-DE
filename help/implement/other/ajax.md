@@ -2,7 +2,10 @@
 title: Implementieren mit AJAX
 description: Erfahren Sie, wie Sie Adobe Analytics mit AJAX auf einer Website implementieren.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -24,13 +27,17 @@ Da Seiten, die AJAX verwenden, in der Regel nicht neu geladen werden, gibt es me
 * Wenn die Antwort **ja** ist, sollten Sie einen Tracking-Aufruf für Seitenansichten (`s.t()`) verwenden.
 * Wenn die Antwort **nein** ist, sollten Sie diese Interaktion mit einem Linktracking-Aufruf (`s.tl()`) verfolgen.
 
->[!NOTE] Nicht alle Interaktionen oder Klicks müssen aufgezeichnet werden. Überlegen Sie genau, welche Aktionen am wichtigsten sind, um sie zu verfolgen, und senden Sie die Daten entsprechend an Adobe.
+>[!NOTE]
+>
+>Nicht alle Interaktionen oder Klicks müssen aufgezeichnet werden. Überlegen Sie genau, welche Aktionen am wichtigsten sind, um sie zu verfolgen, und senden Sie die Daten entsprechend an Adobe.
 
 ## Variablen auf jeder Seite löschen
 
 Variablenwerte bleiben auf Seiten mit AJAX erhalten, da die Seite nicht neu geladen wird. Daher sind spezielle Vorkehrungen erforderlich, um Variablenwerte zu löschen, damit sie nicht fälschlicherweise über Treffer hinweg bestehen bleiben. Adobe bietet die [`clearVars`](../vars/functions/clearvars.md)-Funktion zum einfachen Löschen von Variablenwerten. Stellen Sie sicher, dass Sie diese Funktion verwenden, nachdem Sie jeden Treffer an Adobe gesendet haben und bevor Sie Variablenwerte für den nächsten Treffer festlegen.
 
->[!TIP] Die `clearVars()`-Funktion ist in H-Code nicht verfügbar. Wenn Sie noch nicht auf AppMeasurement aktualisiert haben, setzen Sie jeden Analytics-Variablenwert auf eine leere Zeichenfolge.
+>[!TIP]
+>
+>Die `clearVars()`-Funktion ist in H-Code nicht verfügbar. Wenn Sie noch nicht auf AppMeasurement aktualisiert haben, setzen Sie jeden Analytics-Variablenwert auf eine leere Zeichenfolge.
 
 ## Beispiele
 
