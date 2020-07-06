@@ -1,15 +1,20 @@
 ---
 title: getTimeSinceLastVisit
 description: Messen Sie den Zeitraum zwischen zwei Besuchen.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
 
 # Adobe-Plug-in: getTimeSinceLastVisit
 
->[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Mit dem `getTimeSinceLastVisit`-Plug-in können Sie verfolgen, wie lange ein Besucher nach seinem letzten Besuch gebraucht hat, um zu Ihrer Website zurückzukehren.
 
@@ -66,7 +71,9 @@ Die `getTimeSinceLastVisit`-Methode verwendet keine Argumente. Sie gibt die seit
 * Eine Zeit, die länger als ein Tag ist, wird auf den nächsten Tages-Benchmark gerundet. Beispiel: `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`.
 * Wenn ein Besucher noch nie zuvor einen Besuch gemacht hat oder die verstrichene Zeit größer als zwei Jahre ist, wird der Wert auf `"New Visitor"` gesetzt.
 
->[!NOTE] Dieses Plug-in gibt nur einen Wert beim ersten Treffer eines Besuchs zurück.
+>[!NOTE]
+>
+>Dieses Plug-in gibt nur einen Wert beim ersten Treffer eines Besuchs zurück.
 
 Dieses Plug-in erzeugt ein First-Party-Cookie namens `"s_tslv"`, das auf einen Unix-Zeitstempel der aktuellen Zeit gesetzt wird. Das Cookie läuft nach zwei Jahren Inaktivität ab.
 
