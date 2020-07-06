@@ -1,8 +1,11 @@
 ---
 description: Import von Tracking-Daten aus Drittanbieteranwendungen in Analytics
 title: Erste Schritte mit Analytics Data Connectors
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Für eine erfolgreiche Implementierung von Remarketing-Segmenten müssen folgend
    * Einkäufe: `purchase`-Ereignis
    * Produktansichten: `prodView`-Ereignis
 
->[!NOTE] Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird das prodView-Ereignis automatisch ausgelöst.
+>[!NOTE]
+>
+>Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird das prodView-Ereignis automatisch ausgelöst.
 Falls die obigen Voraussetzungen nicht erfüllt sind, werden die entsprechenden Remarketing-Segmente nicht korrekt berichtet.
 
 [!UICONTROL Warenkorbabbruch]: Wird ausgelöst, nachdem der Benutzer ein Produkt zum Warenkorb hinzugefügt hat:
@@ -98,10 +103,12 @@ s.events="purchase";
 
 **Häufige Probleme**
 
-| Fehler | Beschreibung |
+| Problem | Beschreibung |
 | -----------| ---------- |  
 | In der Remarketing-Segment-Datei wird keine Produkt-ID angezeigt. | Dies passiert, wenn das richtige Ereignis ausgelöst wird, für dieselbe Bildanforderung jedoch keine Produktvariable vorhanden ist. Um dies zu korrigieren, müssen Sie sicherstellen, dass die Produktvariable und das zugehörige Ereignis wie im obigen Beispiel auf derselben Seite ausgelöst werden. |
 | Es werden keine Remarketing-Segment-Dateien empfangen. | Falls Sie Ihre Dateien nicht empfangen, bitten Sie einen unterstützten Benutzer Ihrer Organisation, sich an ClientCare zu wenden, damit untersucht wird, aus welchen Gründen die Berichte nicht erfolgreich empfangen werden. |
 
 
->[!IMPORTANT] In der Regel richten Berater zusätzlich zu Ihrer standardmäßigen Remarketing Segment-Datei aus der Data Connectors-Integration auch eine Data Warehouse-Anforderung als terminierten täglichen Bericht ein. Diese Data Warehouse-Anforderung enthält sowohl Data Connectors-Variablen als auch Nicht-Data Connectors-Variablen und die Anforderung kann nur auf Grundlage der spezifischen Anforderung Ihrer Organisation terminiert werden. Damit bei der Fehlerbeseitigung keine Missverständnisse auftreten, geben Sie an, ob es sich bei der fraglichen Datei um die tatsächliche Remarketing-Segment-Datei oder um eine Data Warehouse-Anforderung handelt, die Nicht-Genesis-Variablen enthält.
+>[!IMPORTANT]
+>
+>In der Regel richten Berater zusätzlich zu Ihrer standardmäßigen Remarketing Segment-Datei aus der Data Connectors-Integration auch eine Data Warehouse-Anforderung als terminierten täglichen Bericht ein. Diese Data Warehouse-Anforderung enthält sowohl Data Connectors-Variablen als auch Nicht-Data Connectors-Variablen und die Anforderung kann nur auf Grundlage der spezifischen Anforderung Ihrer Organisation terminiert werden. Damit bei der Fehlerbeseitigung keine Missverständnisse auftreten, geben Sie an, ob es sich bei der fraglichen Datei um die tatsächliche Remarketing-Segment-Datei oder um eine Data Warehouse-Anforderung handelt, die Nicht-Genesis-Variablen enthält.
