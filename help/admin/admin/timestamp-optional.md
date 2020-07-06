@@ -4,7 +4,10 @@ title: Zeitstempel optional
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +22,13 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 * Senden Sie Daten mit Zeitstempel von einer mobilen App an eine globale Report Suite.
 * Aktualisieren Sie Apps, um die Offline-Nachverfolgung zu verwenden, ohne eine neue Report Suite erstellen zu müssen.
 
->[!IMPORTANT] Wenn Sie &quot;Zeitstempel optional&quot;verwenden, stellen Sie [s.visitorID](/help/implement/vars/config-vars/visitorid.md) nicht für Daten ein, die bereits mit einem Zeitstempel versehen sind. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchsnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
+>[!IMPORTANT]
+>
+>If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. Diese Festlegung kann zu Unordnung in den Daten führen und sich negativ auf Zeitberechnungen (wie Besuchszeitwerte), die Zuordnung (eVar-Persistenz), Besuchsnummer/Besuchsanzahl und Pfadsetzungsberichte auswirken.
 
->[!NOTE] Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang „offen gehalten“ wird, während jeder zusätzliche Hit – also keine 30 Minuten nach dem vorherigen Hit (in der Hit-Zeit) – noch in denselben Besuch/dieselbe Sitzung einbezogen werden kann. Alle „alten“ Hits, die nicht in Reihenfolge empfangen werden, führen zu „unbekannten“ Ergebnissen, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) beeinflussen, ob diese Hits in die Berichterstellung einbezogen werden.
+>[!NOTE]
+>
+>Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang „offen gehalten“ wird, während jeder zusätzliche Hit – also keine 30 Minuten nach dem vorherigen Hit (in der Hit-Zeit) – noch in denselben Besuch/dieselbe Sitzung einbezogen werden kann. Alle „alten“ Hits, die nicht in Reihenfolge empfangen werden, führen zu „unbekannten“ Ergebnissen, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) beeinflussen, ob diese Hits in die Berichterstellung einbezogen werden.
 
 ## Neue Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -41,5 +48,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 
    Damit wird die Report Suite in „Zeitstempel optional“ geändert.
 
->[!NOTE] Wurde eine Report Suite auf **Zeitstempel optional** festgelegt, müssen Sie sich an die Adobe-Kundenunterstützung wenden, um diese oder andere Einstellungen zu ändern.
+>[!NOTE]
+>
+>Wurde eine Report Suite auf **Zeitstempel optional** festgelegt, müssen Sie sich an die Adobe-Kundenunterstützung wenden, um diese oder andere Einstellungen zu ändern.
 
