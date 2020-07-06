@@ -3,7 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +105,9 @@ In dieser Version wird sichergestellt, dass die [!DNL AppMeasurement]-Bibliothek
 
 Releasedatum: **24. Mai 2018**
 
->[!NOTE] Die Visitor API 3.0 oder höher ist erforderlich, damit Kunden den [!DNL Experience Cloud]-ID-Dienst nutzen können. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden ([!DNL at.js], [!DNL AppMeasurement.js] usw.)
+>[!NOTE]
+>
+>Die Visitor API 3.0 oder höher ist erforderlich, damit Kunden den [!DNL Experience Cloud]-ID-Dienst nutzen können. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden ([!DNL at.js], [!DNL AppMeasurement.js] usw.)
 
 * [!DNL AppMeasurement] wurde aktualisiert, um die Verwendung der aktualisierten Besucheroberfläche für die Anforderung von IDs zu ermöglichen. (AN-151483)
 * Es wurde ein Problem behoben, durch das nach der Deaktivierung von Linktracking weiterhin ein Linktracking-Cookie erstellt wurde. (AN-156332)
@@ -216,7 +221,9 @@ Aktualisiert: **18. August 2016**
 * [!DNL AppMeasurement] wurde aktualisiert, um AMCV-Cookies zu lesen und zu schreiben. (AN-127098)
 * Aufnahme der Visitor API 1.7.0.
 
->[!NOTE] Siehe auch die folgenden Versionshinweise für [!DNL JavaScript]-Version 1.6.3, die aktualisierte Anforderungen für den Experience Cloud ID-Dienst enthalten.
+>[!NOTE]
+>
+>Siehe auch die folgenden Versionshinweise für [!DNL JavaScript]-Version 1.6.3, die aktualisierte Anforderungen für den Experience Cloud ID-Dienst enthalten.
 
 ## Version 1.6.3
 
@@ -224,7 +231,9 @@ Aktualisiert: **4. August 2016**
 
 * Es wurde ein Problem behoben, durch das [!DNL AppMeasurement] Anforderungsverbindungen frühzeitig beendete. (AN-126448)
 
->[!IMPORTANT] Version 1.6.0 des [!DNL Experience Cloud]-ID-Diensts *erfordert* [!DNL AppMeasurement] für [!DNL JavaScript]-Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Experience Cloud-ID-Diensts aktualisieren möchten, stellen Sie sicher, dass Sie [!DNL AppMeasurement]-Code der Version 1.6.3 oder höher verwenden.
+>[!IMPORTANT]
+>
+>Version 1.6.0 des [!DNL Experience Cloud] ID-Diensts *erfordert* [!DNL AppMeasurement] für [!DNL JavaScript]-Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Experience Cloud-ID-Diensts aktualisieren möchten, stellen Sie sicher, dass Sie [!DNL AppMeasurement]-Code der Version 1.6.3 oder höher verwenden.
 
 ## Version 1.6.2
 
@@ -293,7 +302,9 @@ Releasedatum: **21. Mai 2015**
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 
->[!NOTE] **Bekanntes Problem**: In den Visitor API-/[!DNL AppMeasurement] [!DNL Audience Manager]-Modulintegrationen gibt es zwei iFrame-Anfragen zum Veröffentlichen von Zielgruppen, die in IE6-9 gestellt werden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**Bekanntes Problem**: In den Visitor API-/[!DNL AppMeasurement] [!DNL Audience Manager]-Modulintegrationen gibt es zwei iFrame-Anfragen zum Veröffentlichen von Zielgruppen, die in IE6-9 gestellt werden: `//fast.<subdomain>.demdex.net/dest5.html` und `//fast.<subdomain>.demdex.net/dest4.html`. Die richtige Einstellung ist – wie in anderen Browsern – nur Folgendes zu laden: `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
@@ -349,7 +360,9 @@ Releasedatum: **21. August 2014**
 * Die Download-Zip-Datei wurde um das **[!UICONTROL AudienceManagement]**-Modul ergänzt.
 * Unterstützung für zusätzliche eVars (76 bis 250) und Ereignisse (101 bis 1000) hinzugefügt.
 
->[!NOTE] H-Code unterstützt diese zusätzlichen eVars und Ereignisse nicht.
+>[!NOTE]
+>
+>H-Code unterstützt diese zusätzlichen eVars und Ereignisse nicht.
 
 ## Version 1.3.2
 
