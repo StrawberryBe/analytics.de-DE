@@ -3,7 +3,10 @@ description: 'null'
 title: Warnhinweiserstellung
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Gehen Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* Gehen Sie von einem Reports &amp; Analysen-Bericht zu **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* Indem Sie zu **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
+* Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
+* Indem Sie in einem Reports &amp; Analytics-Bericht zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
 ## Warnhinweise erstellen
 
@@ -41,7 +44,9 @@ Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den N
 
 Geben Sie an, wann die Metrik überprüft werden soll: stündlich, täglich, wöchentlich oder monatlich.
 
->[!NOTE] Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
+>[!NOTE]
+>
+>Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
 
 **Empfänger**
 
