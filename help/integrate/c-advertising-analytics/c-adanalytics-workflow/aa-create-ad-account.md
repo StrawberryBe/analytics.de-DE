@@ -2,7 +2,7 @@
 title: Werbekonto einrichten
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 81%
@@ -92,5 +92,7 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlin
 
    Nun wird die [Verwaltungsoberfläche](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) für Werbekonten angezeigt, in der das neu erstellte Konto aufgeführt sein sollte.
 
->[!NOTE] Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden.
+>[!NOTE]
+>
+>Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden.
 
