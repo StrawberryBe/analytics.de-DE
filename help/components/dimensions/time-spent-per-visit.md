@@ -2,7 +2,7 @@
 title: Zeit pro Besuch
 description: Die Gesamtdauer des Besuchs.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -22,7 +22,9 @@ Die Dimensionen &quot;Besuchszeit pro Besuch&quot;zeichnen die Zeit auf, die ein
 
 Diese Dimensionen sind wertvoll, wenn Sie verstehen möchten, wie lange Besucher mit Ihrer Site im Allgemeinen interagieren.
 
->[!TIP] Die Besuchszeit erfordert mindestens zwei Treffer bei einem Besuch, um die Zeit zu messen. Besuche, die aus einem einzelnen Treffer bestehen, werden nicht in dieser Dimension angezeigt.
+>[!TIP]
+>
+>Die Besuchszeit erfordert mindestens zwei Treffer bei einem Besuch, um die Zeit zu messen. Besuche, die aus einem einzelnen Treffer bestehen, werden nicht in dieser Dimension angezeigt.
 
 Diese Dimension basiert auf Besuchen, d. h., der Wert gilt für jeden Treffer innerhalb des Besuchs und ändert sich nicht. Vergleichen Sie diese Dimension mit der [Besuchszeit pro Seite](time-spent-on-page.md), die einer trefferbasierten Dimension entspricht.
 
@@ -37,6 +39,6 @@ Diese Dimensionen funktionieren bei allen Implementierungen standardmäßig. Wen
 Für die Zeit pro Besuch sind mehrere Dimensionen vorhanden:
 
 * **Besuchszeit pro Besuch - Zusammengefasst**: Die Zeitdauer ist festgeschrieben. Dimensionswerte reichen von `"Less than 1 minute"` bis `"More than 15 hours"`. Besuche dauern in der Regel nicht länger als 12 Stunden; Besuche können jedoch 12 Stunden überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
-* **Besuchszeit pro Besuch - granular**: Jede Anzahl von Sekunden ist ein eindeutiger Dimensionswert. Diese Dimension ist in Reports &amp; Analysen oder Data Warehouse nicht verfügbar.
+* **Besuchszeit pro Besuch - granular**: Jede Anzahl von Sekunden ist ein eindeutiger Dimensionswert. Diese Dimension ist in Reports &amp; Analytics oder Data warehouse nicht verfügbar.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter Übersicht über die [Besuchszeit](../metrics/time-spent.md) .
