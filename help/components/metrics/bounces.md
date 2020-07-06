@@ -2,7 +2,7 @@
 title: Absprünge
 description: Die Anzahl der Besuche mit genau einem Treffer.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -18,4 +18,6 @@ Die Metrik &quot;Absprünge&quot;zeigt die Anzahl der Besuche an, die genau eine
 
 Wenn ein Besuch aus genau einem Treffer besteht, wird der Treffer als Absprung gewertet.
 
->[!NOTE] Wenn ein Besucher sowohl einen Ansichten- als auch einen Linkverfolgungsaufruf auslöst, wird der Besuch nicht als Absprung gewertet. Verwenden Sie stattdessen [Einzelseitenbesuche](single-page-visits.md) .
+>[!NOTE]
+>
+>Wenn ein Besucher sowohl einen Ansichten- als auch einen Linkverfolgungsaufruf auslöst, wird der Besuch nicht als Absprung gewertet. Verwenden Sie stattdessen [Einzelseitenbesuche](single-page-visits.md) .
