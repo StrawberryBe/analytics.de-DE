@@ -2,7 +2,7 @@
 title: Einträge
 description: Eine Instanz des ersten Werts bei einem Besuch.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -20,4 +20,6 @@ Die Metrik &quot;Einstiege&quot;zeigt an, wie oft ein bestimmter Dimensionswert 
 
 Zeichnen Sie für eine bestimmte Dimension den ersten Dimensionswert, der bei einem Besuch angezeigt wird, als Eintrag auf. Pro Dimension pro Besuch ist nur ein Eintrag vorhanden. Es ist nicht unbedingt der erste Treffer des Besuchs, wenn die Dimension nicht ursprünglich festgelegt wurde. Es handelt sich um eine besuchsbasierte Metrik; Sobald er mit einem Dimensionswert verknüpft ist, wird er für den Rest des Besuchs beibehalten.
 
->[!TIP] Wenn Sie diese Metrik mit einer Dimension, die nicht immer bei jedem Besuch festgelegt wurde, Ansicht vornehmen, können Sie den Dimensionswert &quot;Nicht angegeben&quot;in Analyse Workspace ausblenden. Klicken Sie auf das Filtersymbol und deaktivieren Sie die Option Nicht angegeben [!UICONTROL einschließen (Keine)].
+>[!TIP]
+>
+>Wenn Sie diese Metrik mit einer Dimension, die nicht bei jedem Besuch festgelegt wurde, Ansicht vornehmen, können Sie den Dimensionswert &quot;Nicht angegeben&quot;in Analysis Workspace ausblenden. Klicken Sie auf das Filtersymbol und deaktivieren Sie die Option Nicht angegeben [!UICONTROL einschließen (Keine)].
