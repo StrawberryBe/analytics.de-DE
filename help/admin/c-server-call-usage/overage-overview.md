@@ -2,8 +2,11 @@
 description: 'null'
 title: Übersicht zur Nutzung von Server-Aufrufen
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-Organisation </p> </td> 
-   <td colname="col2"> <p>Eine --Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. </p> <p>In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen. </p> </td> 
+   <td colname="col2"> <p>Eine --Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. </p> <p>Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zusage für Server-Aufrufe </p> </td> 
@@ -82,7 +85,9 @@ Hier ist eine kurze Einführung in die wichtigen Fachbegriffe im Hinblick auf di
 
 Analytics-Administratoren erhalten automatisch die Berechtigung zur Nutzung von Server-Aufrufen. Damit können Nutzer das Dashboard einsehen und Warnhinweise zu Server-Aufrufen erstellen. Administratoren können diese Berechtigung auch Nicht-Administratoren gewähren.
 
->[!NOTE] Ihr Unternehmen kann entscheiden, welche Anmeldeunternehmen Zugriff auf die Nutzung der Server-Aufrufe haben.
+>[!NOTE]
+>
+>Ihr Unternehmen kann entscheiden, welche Anmeldeunternehmen Zugriff auf die Nutzung der Server-Aufrufe haben.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
