@@ -4,7 +4,10 @@ title: Rechnungsstellung
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Auf der Seite Rechnungsstellung können Sie auf die Rechnungsinfomationen zugreifen, einschließlich der Traffic-Details der einzelnen Report Suites. Nur autorisierte Administratoren haben Zugriff auf diese Seite.
 
->[!NOTE] Wenden Sie sich an Ihren Kundenbetreuer, wenn für Ihr Unternehmen der Zugriff auf die Registerkarte „Abrechnung“ deaktiviert ist.
+>[!NOTE]
+>
+>Wenden Sie sich an Ihren Kundenbetreuer, wenn für Ihr Unternehmen der Zugriff auf die Registerkarte „Abrechnung“ deaktiviert ist.
 
 Mit Hilfe der Übersichtsdaten zum Traffic auf der Seite „Rechnungsstellung“ können Sie die Seitenansichtsdaten aus Berichten mit den abrechnungsfähigen Server-Aufrufen aus der Rechnung in Verbindung setzen. Auf der Seite [!UICONTROL Rechnungsstellung] haben Sie folgende Möglichkeiten:
 
@@ -39,7 +44,9 @@ Der [!UICONTROL Monatsrechnungs]-Bericht enthält die folgenden Informationen:
 | Benutzerdefinierte Links | Die Summen der benutzerdefinierten Links für die einzelnen Report Suites. Die Werte für benutzerdefinierte Links können unter „Site-Content > Links > benutzerdefinierte Links“ bestätigt werden. |
 | Exitlinks | Die Summen der Exitlinks für die einzelnen Report Suites. Die Werte für Exitlinks können unter „Site-Content > Links > Exitlinks“ bestätigt werden. |
 
->[!NOTE] Wenn Sie eine Arbeitskopie des Berichts [!UICONTROL Monatliche Rechnungen] erstellen möchten, kopieren Sie den Bericht in die Zwischenablage und fügen Sie ihn anschließend in eine Tabellenkalkulation wie z. B. Microsoft Excel* ein.
+>[!NOTE]
+>
+> Wenn Sie eine Arbeitskopie des Berichts [!UICONTROL Monatliche Rechnungen] erstellen möchten, kopieren Sie den Bericht in die Zwischenablage und fügen Sie ihn anschließend in eine Tabellenkalkulation wie z. B. Microsoft Excel* ein.
 
 ## Berichtsdatum vs. Verarbeitungsdatum {#section_51A48C2F223F4904BE1407C13333C457}
 
