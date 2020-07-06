@@ -1,8 +1,11 @@
 ---
 title: abort
 description: Die Variable „abort“ ist ein boolescher Wert, der verhindert, dass ein Treffer an die Adobe-Datenerfassungs-Server gesendet wird.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Die `abort`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 s.abort = true;
 ```
 
->[!NOTE] Die `abort`-Variable wird nach jedem Tracking-Aufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Tracking-Aufrufe auf derselben Seite abbrechen müssen, setzen Sie `abort` erneut auf `true`.
+>[!NOTE]
+>
+>Die `abort`-Variable wird nach jedem Tracking-Aufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Tracking-Aufrufe auf derselben Seite abbrechen müssen, setzen Sie `abort` erneut auf `true`.
 
 ## Beispiel
 
