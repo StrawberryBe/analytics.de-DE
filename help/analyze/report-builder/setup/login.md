@@ -3,8 +3,11 @@ description: Informationen zu den drei Möglichkeiten, sich bei Report Builder a
 title: Anmelden bei Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ Die Experience Cloud-Anmeldung erlaubt die Verwendung Ihrer Enterprise ID (E-Mai
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] Die Experience Cloud-Anmeldung ist sitzungsbasiert und der Token läuft nach 30 Tagen ab.
+>[!NOTE]
+>
+>Die Experience Cloud-Anmeldung ist sitzungsbasiert und der Token läuft nach 30 Tagen ab.
 
