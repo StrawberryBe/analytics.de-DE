@@ -3,8 +3,11 @@ description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für 
 title: Data Warehouse-Übersicht
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,9 @@ Data Warehouse ZIP-komprimiert automatisch Dateien, die größer als 1 MB sind.
 
 Data Warehouse kann eine unbegrenzte Anzahl an Zeilen in einer einzigen Anforderung für einzelne terminierte und heruntergeladene Berichte verarbeiten.
 
->[!NOTE] Data Warehouse gibt in Berichten den ersten aufgefundenen Wert innerhalb des Berichtszeitraums aus.
+>[!NOTE]
+>
+>Data Warehouse gibt in Berichten den ersten aufgefundenen Wert innerhalb des Berichtszeitraums aus.
 
 >[!IMPORTANT]
 >
