@@ -1,8 +1,11 @@
 ---
 title: linkType
 description: Verwenden Sie die Variable „linkType“, um zu bestimmen, zu welcher Linktracking-Dimension der Treffer gehört.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,9 @@ Die `s.linkType`-Variable ist eine Zeichenfolge, die einen von drei Einzelzeiche
 * `d` – Downloadlinks
 * `e` – Exitlinks
 
->[!TIP] Diese Variable ist der zweite Parameter der `tl()`-Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. Sie können die `linkType`-Variable jedoch verwenden, wenn Sie Werte nicht als Argumente in der `tl()`-Methode festlegen möchten.
+>[!TIP]
+>
+>Diese Variable ist der zweite Parameter der `tl()`-Methode und muss normalerweise nicht als eigenständige Variable festgelegt werden. Sie können die `linkType`-Variable jedoch verwenden, wenn Sie Werte nicht als Argumente in der `tl()`-Methode festlegen möchten.
 
 ```js
 s.linkType = "e";
