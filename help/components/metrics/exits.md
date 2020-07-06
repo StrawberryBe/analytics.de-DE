@@ -2,7 +2,7 @@
 title: Ausstiege
 description: Eine Instanz des letzten Werts bei einem Besuch.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -20,4 +20,6 @@ Die Metrik &quot;Ausstiege&quot;zeigt an, wie oft ein bestimmter Dimensionswert 
 
 Wenn ein [Besuch](visits.md) abgeschlossen ist, zeichnen Sie den letzten Dimensionswert als Ausstieg auf. Pro Dimension pro Besuch ist nur ein Ausstieg vorhanden. Es ist nicht unbedingt der letzte Treffer des Besuchs, wenn die Dimension in vorherigen Treffern festgelegt wurde. Es handelt sich um eine besuchsbasierte Metrik; es gilt rückwirkend für alle Treffer im Besuch.
 
->[!TIP] Wenn Sie diese Metrik mit einer Dimension, die nicht immer bei jedem Besuch festgelegt wurde, Ansicht vornehmen, können Sie den Dimensionswert &quot;Nicht angegeben&quot;in Analyse Workspace ausblenden. Klicken Sie auf das Filtersymbol und deaktivieren Sie die Option Nicht angegeben [!UICONTROL einschließen (Keine)].
+>[!TIP]
+>
+>Wenn Sie diese Metrik mit einer Dimension, die nicht bei jedem Besuch festgelegt wurde, Ansicht vornehmen, können Sie den Dimensionswert &quot;Nicht angegeben&quot;in Analysis Workspace ausblenden. Klicken Sie auf das Filtersymbol und deaktivieren Sie die Option Nicht angegeben [!UICONTROL einschließen (Keine)].
