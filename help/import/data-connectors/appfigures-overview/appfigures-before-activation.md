@@ -3,7 +3,10 @@ description: Bevor Sie diese Integration aktivieren, überprüfen Sie die folgen
 title: Vor der Aktivierung dieser Integration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ In der folgenden Tabelle sind die Analytics-Variablen beschrieben, die für die 
 
 ### Erforderliche Variablen {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] Diese Integration verwendet dedizierte Variablen für App Store-Daten, sodass Sie keine benutzerspezifischen Commerce-Variablen und -Ereignisse zuweisen müssen.
+>[!NOTE]
+>
+>Diese Integration verwendet dedizierte Variablen für App Store-Daten, sodass Sie keine benutzerspezifischen Commerce-Variablen und -Ereignisse zuweisen müssen.
 
 | Variablentyp | Name | Methode zum Ausfüllen | Beschreibung |
 |---|---|---|---|
