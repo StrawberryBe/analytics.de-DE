@@ -1,12 +1,12 @@
 ---
 description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
-title: Mobil-Berichte
+title: Mobile  Berichte
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1378'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 98%
 
 Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
 
-## Mobil-Berichte {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## Mobile  Berichte {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
 
-Um die Identifizierung von Besuchern für Mobilgeräte zu verbessern, müssen Sie sich auf der Liste des Netzbetreibers (allowlist) befinden, um Abonnenten-IDs an eine Domäne zu senden. (Sie finden den Anbieter im Bericht **[!UICONTROL Besucherprofil]** > **[!UICONTROL Domänen]**.)
+Um die Identifizierung von Besuchern für Mobilgeräte zu verbessern, müssen Sie sich auf der Liste des Netzbetreibers befinden, um Abonnenten-IDs an eine Domäne zu senden. (Sie finden den Anbieter im Bericht **[!UICONTROL Besucherprofil]** > **[!UICONTROL Domänen]**.)
 
->[!NOTE] Um Berichte auf einem Mobilgerät anzuzeigen, melden Sie sich bei [Experience Cloud](https://login.experiencecloud.adobe.com) an.
+>[!NOTE]
+>
+>Um Berichte auf einem Mobilgerät anzuzeigen, melden Sie sich bei [Experience Cloud](https://login.experiencecloud.adobe.com) an.
 
 Nähere Informationen zur Mobile-Tracking finden Sie auf der [Mobile Analytics](https://www.adobe.com/de/experience-cloud/topics/mobile-analytics.html)-Site.
 
@@ -43,7 +45,7 @@ Nähere Informationen zur Mobile-Tracking finden Sie auf der [Mobile Analytics](
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hersteller  Bericht </p> </td> 
+   <td colname="col1"> <p>Herstellerbericht </p> </td> 
    <td colname="col2"> <p>Fasst Treffer von Mobilgeräten auf Ihrer Site nach Mobilgerätehersteller zusammen. Der Bericht zeigt den Herstellertyp, die Anzahl der Ansichten pro Hersteller und die entsprechenden Prozentwerte an. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +82,7 @@ Nähere Informationen zur Mobile-Tracking finden Sie auf der [Mobile Analytics](
   </tr> 
   <tr> 
    <td colname="col1"> <p>DRM-Bericht </p> </td> 
-   <td colname="col2"> <p>Gruppiert Mobilgeräte nach dem von ihnen unterstützten Digital Rights Management (DRM). Zu den DRM-Gruppen gehören  <span class="term">Weiterleitungssperre</span>, <span class="term">Kombinierte Bereitstellung</span>, <span class="term">Separate Bereitstellung</span> und <span class="term">Nicht bekannt</span>. </p> </td> 
+   <td colname="col2"> <p>Gruppiert Mobilgeräte nach dem von ihnen unterstützten Digital Rights Management (DRM). DRM groups include <span class="term"> Forward Lock</span>, <span class="term"> Combined Delivery</span>, <span class="term"> Separate Delivery</span>, and <span class="term"> Unknown</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bericht „Netzprotokolle“ </p> </td> 
@@ -112,11 +114,11 @@ Nähere Informationen zur Mobile-Tracking finden Sie auf der [Mobile Analytics](
   </tr> 
   <tr> 
    <td colname="col1"> PTT-Bericht </td> 
-   <td colname="col2"> <p>Gruppiert Mobilgeräte nach Unterstützung von Push To Talk (PTT). Der Bericht enthält u. a. die Gruppe  <span class="term">Unbekannte</span> Gruppe für Geräte, bei denen die PTT-Unterstützung nicht ermittelt werden kann. </p> </td> 
+   <td colname="col2"> <p>Gruppiert Mobilgeräte nach Unterstützung von Push To Talk (PTT). The report also includes an <span class="term"> Unknown</span> group for those devices where PTT support cannot be determined. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Bericht „Design-Mail-Unterstützung“ </td> 
-   <td colname="col2"> <p>Gruppiert Mobilgeräte nach Unterstützung von Design-Mail. Design-Mail ermöglicht es Benutzern, E-Mail-Nachrichten mit Grafiken und Animationen zu gestalten. Der Bericht enthält u. a. die Gruppe  <span class="term"> Unbekannte</span> Gruppe für Geräte, bei denen die Design-Mail-Unterstützung nicht ermittelt werden kann. </p> </td> 
+   <td colname="col2"> <p>Gruppiert Mobilgeräte nach Unterstützung von Design-Mail. Design-Mail ermöglicht es Benutzern, E-Mail-Nachrichten mit Grafiken und Animationen zu gestalten. The report also includes an <span class="term"> Unknown</span> group for those devices where Decoration Mail support cannot be determined. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Informationsdienste  Bericht </td> 
