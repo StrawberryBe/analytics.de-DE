@@ -3,7 +3,10 @@ description: „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Eins
 title: Berichtszeitverarbeitung
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Einstellung zur zerstörungsfreien, rückwirkenden Verarbeitung von Daten.
 
->[!NOTE] Die Berichtszeitverarbeitung ist nur für Analysis Workspace verfügbar.
+>[!NOTE]
+>
+>Die Berichtszeitverarbeitung ist nur für Analysis Workspace verfügbar.
 
 „Berichtszeitverarbeitung“ betrifft nur die Daten in der Virtual Report Suite und hat keinen Einfluss auf Daten oder Datensammlungen in der zugrunde liegenden Report Suite. Der Unterschied zwischen Berichtszeitverarbeitung und der herkömmlichen Analytics-Verarbeitung lässt sich mithilfe des folgenden Diagramms am besten nachvollziehen:
 
