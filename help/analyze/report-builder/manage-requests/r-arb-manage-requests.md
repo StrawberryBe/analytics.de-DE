@@ -4,7 +4,10 @@ title: Anforderungen verwalten – Definitionen
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,13 @@ Feldbeschreibungen zur Verwaltung von Anforderungen in Report Builder.
 
 ## Überblick {#section_75C288C945FA4781A4EDF806711A5660}
 
-The [!UICONTROL Request Manager] provides a detailed view of the status of all requests you have built for all sheets or just one sheet of the active workbook. You can also add, edit, refresh, and delete a request (functions typically associated with the [!UICONTROL Request Wizard] and [!UICONTROL Request Manager]) by right-clicking on an available cell in the Excel spreadsheet that contains previous requests.
+Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Übersicht der von Ihnen erstellten Anforderungen, entweder aller Anforderungen in allen Arbeitsblättern oder nur der Anforderungen der aktiven Arbeitsmappe. Sie können außerdem Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen (also typische Funktionen des [!UICONTROL Anforderungs-Assistenten] bzw. des [!UICONTROL Anforderungs-Managers] ausführen), indem Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die bereits erstellte Anforderungen enthält.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]** klicken (![](assets/edit_request.gif) in der Report Builder-Symbolleiste).
 
->[!NOTE] Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
+>[!NOTE]
+>
+>Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
 
 ## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
 
