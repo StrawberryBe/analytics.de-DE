@@ -2,7 +2,7 @@
 title: Seite
 description: Der Name der Seite.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -24,4 +24,6 @@ Diese Dimension ruft Daten aus der [`pageName` Abfrage-Zeichenfolge](/help/imple
 
 Dimensionswerte umfassen die Namen der Seiten auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionswerte Sie verwenden möchten. Einige Organisationen verwenden direkt `document.title`und andere formulieren einen benutzerspezifischen Breadcrumb. Vergewissern Sie sich, welche Methode Sie auch verwenden, dass sie konsistent ist und dass Sie sie in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
 
->[!NOTE] In Reports &amp; Analysen verwenden Konversionsmetriken für diese Dimension die lineare Zuordnung. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Analyse Workspace verwendet standardmäßig die letzte Zuordnung mit der Option, ein beliebiges Zuordnungsmodell zu verwenden.
+>[!NOTE]
+>
+>In Reports &amp; Analytics verwenden Konversionsmetriken für diese Dimension die lineare Zuordnung. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Analysis Workspace verwendet standardmäßig die letzte Zuordnung mit der Option, ein beliebiges Zuordnungsmodell zu verwenden.
