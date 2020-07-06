@@ -1,8 +1,11 @@
 ---
 title: cookieLifetime
 description: Überschreiben Sie die Gültigkeit für von AppMeasurement erstellte Cookies.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Von AppMeasurement gesetzte Cookies haben in der Regel eine Gültigkeit von 2 Jahren. Verwenden Sie die `cookieLifetime`-Variable, um das Ablaufdatum für Cookies zu überschreiben, die von AppMeasurement gesetzt werden.
 
->[!NOTE] Diese Variable wirkt sich auf die Zählung und Zuordnung von Unique Visitors aus. Gehen Sie beim Festlegen dieser Variablen mit Bedacht vor.
+>[!NOTE]
+>
+>Diese Variable wirkt sich auf die Zählung und Zuordnung von Unique Visitors aus. Gehen Sie beim Festlegen dieser Variablen mit Bedacht vor.
 
 ## Cookie-Lebensdauer in Adobe Experience Platform Launch
 
