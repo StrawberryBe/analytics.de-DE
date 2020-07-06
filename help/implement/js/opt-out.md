@@ -1,21 +1,28 @@
 ---
 title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # Implementieren von Ausschluss-Links
 
->[!IMPORTANT] Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit DSGVO-Vorschriften befassen. Weitere Informationen finden Sie unter [Übersicht über den Opt-in-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/opt-in-service/optin-overview.html) im Benutzerhandbuch des Experience Cloud ID-Dienstes.
+>[!IMPORTANT]
+>
+>Adobe empfiehlt die Verwendung des Opt-in-Dienstes, insbesondere für Organisationen, die sich mit DSGVO-Vorschriften befassen. Weitere Informationen finden Sie unter [Übersicht über den Opt-in-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/opt-in-service/optin-overview.html) im Benutzerhandbuch des Experience Cloud ID-Dienstes.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, den Besuchern Ihrer Website die Option bereitzustellen, sich von der Datenerfassung ausschließen zu lassen. Alle Implementierungsarten werden berücksichtigt; Ihre Organisation ist für Ihre eigene Datenschutzrichtlinie und für die Einhaltung der von Ihnen unterzeichneten Bedingungen verantwortlich.
 
 Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn ein Benutzer sich entscheidet, nicht verfolgt zu werden, und ein Opt-out-Cookie gesetzt wird, sendet Ihre JavaScript-Datei weiterhin Daten an die Adobe-Server. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
 
->[!TIP] Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](../../admin/admin/privacy-settings.md).
+>[!TIP]
+>
+>Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](../../admin/admin/privacy-settings.md).
 
 ## Opt-out-URL
 
@@ -73,7 +80,9 @@ Wechseln Sie automatisch die Sprache der Opt-out-Seite, indem Sie den Abfragezei
 
 Zum Beispiel lädt `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` die Opt-out-Seite auf Koreanisch.
 
->[!TIP] Der Abfragezeichenfolgewert `en_US` ist nicht erforderlich, da die Seite standardmäßig in Englisch geladen wird.
+>[!TIP]
+>
+>Der Abfragezeichenfolgewert `en_US` ist nicht erforderlich, da die Seite standardmäßig in Englisch geladen wird.
 
 ### Popup
 
@@ -81,7 +90,9 @@ Fügt der Seite eine Schaltfläche „Fenster schließen“ hinzu, wodurch die M
 
 Zum Beispiel lädt `https://example.sc.omtrdc.net/optout.html?popup=1` die Opt-out-Seite mit einer Schaltfläche „Fenster schließen“.
 
->[!NOTE] Dieser Abfragezeichenfolgenparameter hat bisher ein Popup-Fenster erzwungen. Die meisten modernen Browser geben dem Endbenutzer jedoch Kontrolle über Popups.
+>[!NOTE]
+>
+>Dieser Abfragezeichenfolgenparameter hat bisher ein Popup-Fenster erzwungen. Die meisten modernen Browser geben dem Endbenutzer jedoch Kontrolle über Popups.
 
 ### Opt-out mit einem Klick
 
