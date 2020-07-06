@@ -4,8 +4,11 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: Bibliotheksverwaltung
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Beschreibungen der Felder und Optionen in den Bibliotheksverwaltungseinstellunge
 
 **[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Tool bearbeiten ]** > **[!UICONTROL  Bibliotheksverwaltung ]**
 
->[!NOTE] Sollte für eine Webeigenschaft mehr als ein Adobe Analytics-Tool verwendet werden, muss jedes Tool über einen eindeutigen Verfolgungsvariablennamen verfügen. Duplizierte Objektvariablennamen der Adobe Analytics-Tools in einer einzigen Webeigenschaft führen zu Konflikten.
+>[!NOTE]
+>
+>Sollte für eine Webeigenschaft mehr als ein Adobe Analytics-Tool verwendet werden, muss jedes Tool über einen eindeutigen Verfolgungsvariablennamen verfügen. Duplizierte Objektvariablennamen der Adobe Analytics-Tools in einer einzigen Webeigenschaft führen zu Konflikten.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
