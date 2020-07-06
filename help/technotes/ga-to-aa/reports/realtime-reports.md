@@ -2,7 +2,10 @@
 title: Echtzeitberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Echtzeitberichte in Adobe Analytics abrufen, die auf Anwender ausgerichtet sind, die mit Google Analytics besser vertraut sind.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '979'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +68,9 @@ Echtzeitinhalt zeigt Ihnen an, welche Seiten Ihre Besucher derzeit anzeigen. So 
 
 Echtzeitereignisse zeigen Ihnen, welche Ereignisse derzeit auf Ihrer Site am häufigsten auftreten. In Google Analytics erfasst ein Ereignis, wie oft eine bestimmte Aktion (im Allgemeinen eine Aktion, die nicht mit einer Seitenansicht in Zusammenhang steht) aufgetreten ist. GA-Ereignisse werden mit einer Kategorie, einer Bezeichnung und einer Aktion gesendet. In Adobe Analytics sind benutzerspezifische Ereignisse Metriken, denen in der Admin Console benutzerfreundliche Namen zugewiesen werden und die neben jeder Dimension analysiert werden können. Wenn Sie in Adobe Analytics nach einer Dimension suchen, die Google Analytics-Ereignissen ähnlich ist, sollten Sie die Dimension „Benutzerspezifischer Link“ anwenden. Diese Dimension wird häufig als Sammelbegriff für Daten verwendet, die nicht mit Seitenansichten in Zusammenhang stehen (zusätzlich zu Exit-Links für Ausstiehe- und Downloadlinks für Downloads).
 
->[!NOTE] Bei Verwendung benutzerspezifischer Ereignisse in Echtzeitberichten muss der Dimensionswert im selben Treffer wie das benutzerspezifische Ereignis definiert werden. Wenn Sie beispielsweise ein benutzerdefiniertes Ereignis „Registrierungen“ für die Dimension „Referrer-Domäne“ anzeigen, werden ohne zusätzliche Implementierung keine Daten zurückgegeben. Da die verweisende Domäne nur beim ersten Treffer angezeigt wird und ein benutzerspezifisches Ereignis normalerweise später während des Besuchs auftritt, können die Daten nicht in Echtzeitberichten verknüpft werden. Diese Daten stehen in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz von 30 bis 90 Minuten zur Verfügung.
+>[!NOTE]
+>
+>Bei Verwendung benutzerspezifischer Ereignisse in Echtzeitberichten muss der Dimensionswert im selben Treffer wie das benutzerspezifische Ereignis definiert werden. Wenn Sie beispielsweise ein benutzerdefiniertes Ereignis „Registrierungen“ für die Dimension „Referrer-Domäne“ anzeigen, werden ohne zusätzliche Implementierung keine Daten zurückgegeben. Da die verweisende Domäne nur beim ersten Treffer angezeigt wird und ein benutzerspezifisches Ereignis normalerweise später während des Besuchs auftritt, können die Daten nicht in Echtzeitberichten verknüpft werden. Diese Daten stehen in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz von 30 bis 90 Minuten zur Verfügung.
 
 ## Echtzeitkonversionen
 
@@ -79,4 +84,6 @@ Echtzeitkonversionen stellen Daten zwischen Plattformen unterschiedlich dar. Zie
    * Verwenden Sie als die beiden sekundären Dimensionen die gewünschten zusätzlichen Daten, die Sie für diesen Traffic anzeigen möchten. Sekundäre Dimensionen müssen nicht konversionsspezifisch sein.
 3. Klicken Sie auf [!UICONTROL Speichern und Bericht anzeigen].
 
->[!NOTE] Wenn Sie Ereignisse außerhalb von Instanzen verwenden, z. B. Bestellungen, stellen Sie sicher, dass Ihre Implementierung die Dimension und das Ereignis im selben Treffer definiert. Wenn Dimensionen und Ereignisse nicht im selben Treffer ausgelöst werden, stehen diese Daten in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz (in der Regel 30 bis 90 Minuten) zur Verfügung.
+>[!NOTE]
+>
+>Wenn Sie Ereignisse außerhalb von Instanzen verwenden, z. B. Bestellungen, stellen Sie sicher, dass Ihre Implementierung die Dimension und das Ereignis im selben Treffer definiert. Wenn Dimensionen und Ereignisse nicht im selben Treffer ausgelöst werden, stehen diese Daten in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz (in der Regel 30 bis 90 Minuten) zur Verfügung.
