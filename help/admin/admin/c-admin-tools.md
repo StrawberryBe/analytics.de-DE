@@ -2,8 +2,11 @@
 description: 'null'
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT] Vermeiden Sie das Öffnen mehrerer Admin-Tabs im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
+>[!IMPORTANT]
+>
+>Vermeiden Sie das Öffnen mehrerer Admin-Tabs im selben Browser. Dies kann dazu führen, dass Sie unbeabsichtigt Einstellungen für die falsche Report Suite speichern. Wenn Sie zum Beispiel Regelsätze vergleichen und in eine neue Report Suite kopieren müssen, empfehlen wir Ihnen, einen neuen Browser zu öffnen oder einen Screenshot zu verwenden, um Regelsätze zu vergleichen.
 
 + [Rechnungsstellung](billing-admin.md)
 + [Übersicht über Bot-Regeln](bot-removal/bot-rules.md)
