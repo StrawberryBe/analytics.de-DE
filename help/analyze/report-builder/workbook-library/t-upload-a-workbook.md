@@ -4,7 +4,10 @@ title: Arbeitsmappe hochladen
 topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Laden Sie eine Excel-Arbeitsmappe für Report Builder hoch, die Sie freigeben möchten.
 
-The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Für den Fall einer Migration von ExcelClient zu Report Builder wird empfohlen, Arbeitsmappen aus der ExcelClient-Sammlung herunterzuladen und sie dann in die Report Builder-Sammlung hochzuladen.
+Die [!UICONTROL Arbeitsmappen-Bibliothek] ermöglicht das Hochladen einer Excel-Arbeitsmappe für Report Builder, um diese freizugeben. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Für den Fall einer Migration von ExcelClient zu Report Builder wird empfohlen, Arbeitsmappen aus der ExcelClient-Sammlung herunterzuladen und sie dann in die Report Builder-Sammlung hochzuladen.
 
->[!NOTE] Nur Arbeitsmappen mit Report Builder-Anforderungen können hochgeladen werden. Außerdem können Sie Report Builder-Berichte an Personen verteilen, die nicht mit Report Builder arbeiten. (Es ist keine Anmeldung erforderlich, um die Daten anzuzeigen.)
+>[!NOTE]
+>
+>Nur Arbeitsmappen mit Report Builder-Anforderungen können hochgeladen werden. Außerdem können Sie Report Builder-Berichte an Personen verteilen, die nicht mit Report Builder arbeiten. (Es ist keine Anmeldung erforderlich, um die Daten anzuzeigen.)
 
 1. Erstellen Sie eine Anforderung und führen Sie sie aus.
-1. After you have saved the report, click **[!UICONTROL Share]**.
-1. Click **[!UICONTROL Browse]** to locate the workbook.
-1. In the **[!UICONTROL Description]** field, type a description, then click **[!UICONTROL Upload]**.
+1. Klicken Sie nach dem Speichern des Berichts auf **[!UICONTROL Freigabe]**.
+1. Klicken Sie auf **[!UICONTROL Durchsuchen]**, um zur gewünschten Arbeitsmappe zu navigieren.
+1. Geben Sie im Feld **[!UICONTROL Beschreibung]** eine Beschreibung ein und klicken Sie dann auf **[!UICONTROL Hochladen]**.
