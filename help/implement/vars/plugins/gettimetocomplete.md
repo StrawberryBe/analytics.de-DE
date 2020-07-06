@@ -1,15 +1,20 @@
 ---
 title: getTimeToComplete
 description: Messen Sie die Zeit, die zum Ausführen einer Aufgabe benötigt wird.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
 
 # Adobe-Plug-in: getTimeToComplete
 
->[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Das `getTimeToComplete`-Plug-in verfolgt die Zeit, die ein Benutzer zum Ausführen eines Prozesses auf einer Website benötigt. Die Zeiterfassung beginnt mit dem Aufruf der `start`-Aktion und endet mit dem Aufruf der `stop`-Aktion. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn es auf der Website einen Workflow gibt, der einige Zeit in Anspruch nimmt, und Sie wissen möchten, wie viel Zeit die Besucher benötigen, um ihn abzuschließen. Es ist nicht erforderlich, dieses Plug-in zu verwenden, wenn der Arbeitsablauf auf Ihrer Website eine kurze Zeitspanne (weniger als 3 Sekunden) in Anspruch nimmt, da die Granularität auf die volle Sekunde begrenzt ist.
 
