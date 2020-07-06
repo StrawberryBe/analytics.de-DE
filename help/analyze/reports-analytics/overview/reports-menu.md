@@ -3,7 +3,10 @@ description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +26,23 @@ Das Menü „Berichte“ bietet:
 
 „Meine Favoriten“, „Häufig angezeigt“ und „Berichtsverlauf“ sind alle Report Suite-spezifisch. Wenn Sie die Report Suites ändern, verändern sich alle drei Listen.
 
-Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten möglich. Klicken Sie auf **[!UICONTROL View All Reports]** oder drücken Sie die Schrägstrich-Taste (/) und drücken Sie dann die Nach-unten-Taste (?) , um das Menü mit den Pfeiltasten schnell anzuzeigen und zu navigieren. Betätigen Sie die Escape-Taste, um das Menü zu schließen, ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
+Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten möglich. Klicken Sie auf **[!UICONTROL Alle Berichte anzeigen]** oder betätigen Sie die Schrägstrich-Taste (/) und anschließend die Taste „Pfeil nach unten“ (↓), um das Menü mithilfe der Pfeiltasten schnell anzuzeigen und in ihm zu navigieren. Betätigen Sie die Escape-Taste, um das Menü zu schließen, ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
+Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/c-variables.html).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Das Menü „Berichte“ bietet eine erweiterte Suchoberfläche. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. Die Berichtssuche umfasst nun alle Elemente der linken Navigationsleiste in Analytics (Admin, Komponenten usw.).
+Das Menü „Berichte“ bietet eine erweiterte Suchoberfläche. Klicken Sie auf **[!UICONTROL Alle Berichte anzeigen]** oder betätigen Sie die Schrägstrich-Taste (/) und beginnen Sie dann zu tippen, um schnell nach Berichten zu suchen. Die Berichtssuche umfasst nun alle Elemente der linken Navigationsleiste in Analytics (Admin, Komponenten usw.).
 
 ![](assets/menu-search.png)
 
 Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), um durch die Liste mit den Berichten zu navigieren. Betätigen Sie die Escape-Taste, um die Suche zu schließen ohne den aktuellen Bericht zu ändern, oder betätigen Sie die Eingabetaste, um den ausgewählten Bericht zu laden.
 
->[!NOTE] Sie können in der Berichtsliste nun nach Eigenschaften, eVar-Variablen und Ereignisnummern suchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
+>[!NOTE]
+>
+> Sie können in der Berichtsliste nun nach Eigenschaften, eVar-Variablen und Ereignisnummern suchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
 
 ## Navigationsübersicht {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +123,4 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 ## Anpassen des Menüs „Alle Berichte“{#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
+Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
