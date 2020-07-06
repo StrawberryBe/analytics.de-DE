@@ -4,7 +4,10 @@ title: Segmente verwalten
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +22,11 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 
 ## Segmente hinzufügen oder bearbeiten {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
+>[!NOTE]
+>
+>Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
-1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
+1. Klicken Sie im Segmentfenster von Schritt 1 des Anforderungs-Assistenten auf **[!UICONTROL Hinzufügen]**.
 1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [Analytics-Segmentierung](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
 1. Nachdem Sie das Segment definiert und gespeichert haben, gehen Sie zurück zum Anforderungs-Assistenten.
 1. Klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
@@ -35,7 +40,7 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimensionen, die Sie in ein Segment umwandeln möchten. Solche Segmente können Sie über die Report Builder-Schnittstelle erstellen. Wählen Sie zum Beispiel einige Seiten aus einer Seitenanforderungsausgabe aus und erstellen Sie auf Basis dieser Werte ein Segment.
 
 1. Wählen Sie die Berichtausgabeelemente aus, die in ein Segment umgewandelt werden sollen.
-1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
+1. Klicken Sie mit der rechten Maustaste, um **[!UICONTROL In-Context-Segment erstellen in]** auszuwählen und legen Sie den rechten Container fest (Container für Seitenaufrufe, Container für Besuche, Container für Besucher).
 
    ![](assets/seg_in_context.png)
 
@@ -52,13 +57,15 @@ Alle Segmente, die in Reports &amp; Analytics, Ad Hoc Analysis, Report Builder o
 
 Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dies beinhaltet auch sequentielle Segmente.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
+1. Wechseln Sie in der Dropdown-Liste zu **[!UICONTROL Segment]** und klicken Sie im Feld **[!UICONTROL Segment auswählen]** auf den kleinen Pfeil nach unten, um alle Segmente anzuzeigen.
 
    ![](assets/seg_list.png)
 
 1. Aktivieren Sie die Segmente, die Sie anwenden möchten.
 
->[!NOTE] Unabhängig davon, ob Sie ein Benutzer mit oder ohne Administratorrechten sind, können Sie in Report Builder nur die Segmente anzeigen, die Ihnen gehören und die für Sie freigegeben wurden. (Auf der Benutzeroberfläche von Marketing Reports &amp; Analytics können Administratoren alle Segmente der Organisation anzeigen.)
+>[!NOTE]
+>
+>Unabhängig davon, ob Sie ein Benutzer mit oder ohne Administratorrechten sind, können Sie in Report Builder nur die Segmente anzeigen, die Ihnen gehören und die für Sie freigegeben wurden. (Auf der Benutzeroberfläche von Marketing Reports &amp; Analytics können Administratoren alle Segmente der Organisation anzeigen.)
 
 ## Segmente filtern {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -84,8 +91,8 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. Beachten Sie die Option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+1. Aktivieren Sie alle Segmente, die im Segmentsteuerelement angezeigt werden sollen oder aktivieren Sie **[!UICONTROL Alle auswählen]**.
+1. Beachten Sie die Option **[!UICONTROL Verknüpfte Anforderungen bei Elementauswahl automatisch aktualisieren]**.
 
    * Wenn diese aktiviert ist, werden alle Anforderungen aktualisiert, die dieses Steuerelement verwenden.
    * Wenn sie nicht aktiviert ist, werden zwar die verknüpften Anforderungsparameter aktualisiert, jedoch nicht die Anforderungen selbst.
@@ -106,7 +113,7 @@ Vor der Version v5.4 konnten Benutzer in Report Builder Segmente in mehreren Anf
 In Report Builder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder aller Segmente innerhalb mehrerer Anforderungen zulässig:
 
 1. Wählen Sie mehrere Anforderungen in einer Arbeitsmappe aus.
-1. Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**.
+1. Klicken Sie mit der rechten Maustaste und wählen Sie **[!UICONTROL Anforderungen bearbeiten]** > **[!UICONTROL Nach Segment]** aus.
 
    ![](assets/edit_by_segment.png)
 
