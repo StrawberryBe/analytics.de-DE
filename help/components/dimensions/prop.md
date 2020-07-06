@@ -2,7 +2,7 @@
 title: Eigenschaft
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -12,11 +12,13 @@ ht-degree: 26%
 
 # Eigenschaft
 
-*Auf dieser Hilfeseite wird beschrieben, wie Props als Dimension funktionieren. Informationen zum Implementieren von Props finden Sie unter[Props](/help/implement/vars/page-vars/prop.md)im Benutzerhandbuch &quot;Implementierung&quot;.*
+*Auf dieser Hilfeseite wird beschrieben, wie Props als Dimension funktionieren. For information on how to implement props, see[props](/help/implement/vars/page-vars/prop.md)in the Implement user guide.*
 
 Props sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den Treffer hinaus erhalten, den sie ausgelöst haben.
 
-> [!TIP][ Adobe empfiehlt in den meisten Fällen die Verwendung von eVars. ](evar.md) In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
 
 Wenn Sie über ein [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es stehen bis zu 75 Props zur Verfügung, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
