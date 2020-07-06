@@ -2,7 +2,7 @@
 title: Kategorie
 description: Die Kategorie des Treffers.
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -22,4 +22,6 @@ Diese Dimension verweist auf den ersten Teil der Zeichenfolge in der [`products`
 
 Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionswerte verwendet werden. Adobe empfiehlt, einzelne Produkte in aussagekräftige Kategorien zu gruppieren, wobei sowohl die Produktabmessungen als auch die Kategorie verwendet werden.
 
-> [!TIP] In früheren Versionen von Adobe Analytics wurden aufgrund der Verarbeitungsarchitektur Einschränkungen der Dimension &quot;Kategorie&quot;auferlegt. Diese Einschränkungen wurden seitdem entfernt, sodass Sie alle Metriken und Aufschlüsselungen verwenden können.
+>[!TIP]
+>
+>In früheren Versionen von Adobe Analytics wurden aufgrund der Verarbeitungsarchitektur Einschränkungen der Dimension &quot;Kategorie&quot;auferlegt. Diese Einschränkungen wurden seitdem entfernt, sodass Sie alle Metriken und Aufschlüsselungen verwenden können.
