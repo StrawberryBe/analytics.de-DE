@@ -4,7 +4,10 @@ title: Menüanpassung
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Mit dieser Funktion können die Berichtsmenüs angepasst werden, die einem Benut
 
 Die Menüänderungen gelten für sämtliche Benutzer, die auf die Report Suite zugreifen. Die Benutzer haben jedoch die Möglichkeit, bei der Verwendung der Report Suite die Standardkonfiguration eines Menüs wiederherzustellen.
 
->[!NOTE] Änderungen der Menüstruktur wirken sich nicht auf Report Builder oder Ad Hoc Analysis aus. Ein umbenannter Bericht wird hingegen in beiden Anwendungen unter dem neuen Namen angezeigt.
+>[!NOTE]
+>
+>Änderungen der Menüstruktur wirken sich nicht auf Report Builder oder Ad Hoc Analysis aus. Ein umbenannter Bericht wird hingegen in beiden Anwendungen unter dem neuen Namen angezeigt.
 
 ## Menüanpassung – Beschreibungen {#section_B0D224DACB914A378902A4E0E1234889}
 
