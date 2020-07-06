@@ -2,10 +2,10 @@
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 89%
 
 Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine mehrwertige Variable, d. h. Sie können mehrere Produkte mit demselben Treffer senden, und Adobe parst den Wert in separate Dimensionswerte.
 
-> [!NOTE] Wenn diese Variable in einem Treffer ohne Warenkorb-Ereignis in der [`events`](events/events-overview.md) Variablen festgelegt wird, wird die Metrik &quot; [Ansichten](/help/components/metrics/product-views.md) &quot;um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer mit der `products` Variablen das entsprechende Warenkorb-Ereignis festlegen.
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Stellen Sie sicher, dass Sie bei jedem Treffer mit der `products` Variablen das entsprechende Warenkorb-Ereignis festlegen.
 
 ## Produkte in Adobe Experience Platform Launch
 
@@ -50,7 +52,9 @@ Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim War
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Entfernen Sie alle Semikolons, Kommas und Rohre aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Durch dieses fehlerhafte Parsing wird der Rest der Produktzeichenfolge falsch analysiert. Das führt zu fehlerhaften Daten in Dimensionen und Berichten.
+>[!IMPORTANT]
+>
+>Entfernen Sie alle Semikolons, Kommas und senkrechte Striche aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Durch dieses fehlerhafte Parsing wird der Rest der Produktzeichenfolge falsch analysiert. Das führt zu fehlerhaften Daten in Dimensionen und Berichten.
 
 ## Beispiele
 
