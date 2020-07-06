@@ -3,8 +3,11 @@ description: Sie können Links voneinander abgrenzen, indem Sie die Link-ID mith
 title: Links mit Verweis auf dieselbe Link-ID und Region unterscheiden
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -87,7 +90,9 @@ Durch Erstellung einer eindeutigen Objekt-ID für einen Link oder eine Linkposit
 
 Sie können die Region anpassen, indem Sie sicherstellen, dass für jeden Link vom Typ „buy“ eine eigene Region definiert ist. Dazu fügen Sie einem der übergeordneten Elemente jedes Anker-Tags „Buy“ den Parameter „id“ hinzu.
 
->[!NOTE] Sie sind nicht auf den Parameter „id“ zur Identifikation einer Region beschränkt. Sie können auch eine eigene ID mithilfe der JavaScript-Variablen „s.ActivityMap.regionIDAttribute“ festlegen.
+>[!NOTE]
+>
+>Sie sind nicht auf den Parameter „id“ zur Identifikation einer Region beschränkt. Sie können auch eine eigene ID mithilfe der JavaScript-Variablen „s.ActivityMap.regionIDAttribute“ festlegen.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
