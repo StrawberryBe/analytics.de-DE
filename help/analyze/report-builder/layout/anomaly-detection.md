@@ -4,7 +4,10 @@ title: Anomalieerkennung
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 * Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
->[!NOTE] Die Anomalieerkennung ist nur verfügbar, wenn Sie als Granularität „Tag“ auswählen.
+>[!NOTE]
+>
+>Die Anomalieerkennung ist nur verfügbar, wenn Sie als Granularität „Tag“ auswählen.
 
 <p class="head"> <b>Metrik für die Anomalieerkennung</b> </p>
 
