@@ -1,15 +1,20 @@
 ---
 title: addProductEvent
 description: Fügt den Variablen „products“ und „events“ benutzerspezifische Ereignisse hinzu.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 100%
 
 ---
 
 
 # Adobe-Plug-in: addProductEvent
 
->[!IMPORTANT] Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
+>[!IMPORTANT]
+>
+>Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
 Das Plug-in `addProductEvent` fügt der [`products`](../page-vars/products.md)-Variablen ein numerisches oder Währungsereignis hinzu. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie der `products`-Variablen ein numerisches oder Währungs-Ereignis hinzufügen möchten, ohne sich um das Format der Produktzeichenfolge zu sorgen. Dieses Plug-in ist nicht erforderlich, wenn Sie keine numerischen oder Währungsereignisse in der `products`-Variablen verwenden.
 
@@ -124,7 +129,9 @@ s.addProductEvent("event35", "15", 1);
 
 Der obige Code setzt auch die Variable `s.events` auf `"purchase,event2,event33,event34,event35"`.
 
->[!NOTE] Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
+>[!NOTE]
+>
+>Das zweite Argument im Aufruf kann entweder eine Ganzzahl **oder** eine Zeichenfolge sein, die eine Ganzzahl/Zahl darstellt
 
 ### Beispiel 5
 
