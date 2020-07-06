@@ -2,7 +2,10 @@
 title: Implementieren mit fest programmierten Bildanforderungen
 description: Adobe Analytics mithilfe eines HTML-Bild-Tags (einer fest programmierten Bildanforderung) implementieren
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ AppMeasurement-Bibliotheken, die von Adobe bereitgestellt werden, kompilieren Va
 
 Diese Implementierungsmethode kann auf jeder Plattform verwendet werden, auf der Bilder aus externen Quellen angezeigt werden. JavaScript ist nicht erforderlich.
 
->[!NOTE] Während fest programmierte Bildanforderungen einfach einzurichten sind, sind sie bei größeren Projekten schwer zu debuggen, zu warten und zu skalieren. Stellen Sie sicher, dass fest programmierte Bildanforderungen die beste Option für Sie sind, bevor Sie fortfahren.
+>[!NOTE]
+>
+>Während fest programmierte Bildanforderungen einfach einzurichten sind, sind sie bei größeren Projekten schwer zu debuggen, zu warten und zu skalieren. Stellen Sie sicher, dass fest programmierte Bildanforderungen die beste Option für Sie sind, bevor Sie fortfahren.
 
 ## Bildanforderungssyntax
 
