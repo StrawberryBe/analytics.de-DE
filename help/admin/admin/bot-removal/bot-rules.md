@@ -4,8 +4,11 @@ subtopic: Bot rules
 title: Übersicht über Bot-Regeln
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +40,9 @@ Adobe kann die detaillierte IAB-Bot-Liste nicht an Kunden weitergeben, aber Sie 
 
 ## Benutzerdefinierte Bot-Regeln
 
->[!NOTE]: In der Benutzeroberfläche können 500 Regeln manuell definiert werden. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
+>[!NOTE]
+>
+>: In der Benutzeroberfläche können 500 Regeln manuell definiert werden. Wenn diese Grenze erreicht wurde, müssen Regeln über die Optionen „Datei importieren“ und „Bot-Regeln exportieren“ stapelweise verwaltet werden.
 
 Mit benutzerspezifischen Bot-Regeln können Sie Traffic auf Grundlage selbst definierter Bedingungen filtern.
 
@@ -121,7 +126,9 @@ VISTA-Regeln werden nach den Bot-Regeln angewendet (siehe [Verarbeitungsreihenfo
 
 **Verarbeitung von Besuchen mit hoher Hit-Zahl:** Wenn mehr als 100 Hits in einem Besuch auftreten, wird bei der Berichterstellung ermittelt, ob der Zeitraum des Besuchs (in Sekunden) kleiner oder gleich der Anzahl der Hits bei diesem Besuch ist. In dieser Situation beginnt die Berichterstellung mit dem nächsten Besuch neu, da die Verarbeitung langer, intensiver Besuche hohe Kosten verursacht. Besuche mit hoher Hit-Zahl werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen von Besuchern.
 
->[!NOTE] Treffer, die als *`bots`* markiert sind, werden als [-Serveraufrufe in Rechnung gestellt.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE]
+>
+>Treffer, die als *`bots`* markiert sind, werden als [-Serveraufrufe in Rechnung gestellt.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Auswirkung der IP-Verschleierung auf die Bot-Filterung {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
