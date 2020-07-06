@@ -2,7 +2,7 @@
 title: Durchschnittliche Seitentiefe
 description: Wie viele Seiten im Durchschnitt die Dimension vorhanden ist.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] Wenn Sie die durchschnittliche Seitentiefe mit einer Dezimalstelle anzeigen möchten, erstellen Sie eine berechnete Metrik mit dieser Metrik als einziges Element in der Formel. Erhöhen Sie die Dezimalstellen in der berechneten Metrik auf die gewünschte Dezimalstelle.
+>[!TIP]
+>
+>Wenn Sie die durchschnittliche Seitentiefe mit einer Dezimalstelle anzeigen möchten, erstellen Sie eine berechnete Metrik mit dieser Metrik als einziges Element in der Formel. Erhöhen Sie die Dezimalstellen in der berechneten Metrik auf die gewünschte Dezimalstelle.
 
 ## Prozentsätze über 100 %
 
