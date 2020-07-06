@@ -3,8 +3,11 @@ description: Schritte zum Ausführen der verschiedenen Berichtstypen.
 title: Verschiedene Berichtstypen ausführen
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 100%
 
 ---
 
@@ -148,7 +151,9 @@ Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse]
 
 **[!UICONTROL Berichte]** > **[!UICONTROL Site-Metriken]** > **[!UICONTROL Anomalieerkennung]** .
 
->[!NOTE] Die Anomalieerkennung können Sie auch aus Projekten in Analysis Workspace ausführen. [Mehr …](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+>Die Anomalieerkennung können Sie auch aus Projekten in Analysis Workspace ausführen. [Mehr …](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 Informationen zum Einrichten der Anomalieerkennung finden Sie im [Referenzhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
