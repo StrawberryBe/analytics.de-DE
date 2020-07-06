@@ -1,8 +1,11 @@
 ---
 title: useLinkTrackSessionStorage
 description: Speichern von Linktracking-Daten im Sitzungsspeicher statt in einem Cookie.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Die Verwendung der Sitzungsspeicherung eines Browsers für Linktracking unterlie
 * Die Sitzungsspeicherung funktioniert nicht zwischen unterschiedlichen Protokollen. Dies ist der Fall, wenn beispielsweise eine Seite über HTTP und die nächste über HTTPS bereitgestellt wird. AppMeasurement kann aufgrund von unterschiedlichen Protokollen nicht auf Linktracking-Daten in der Sitzungsspeicherung zugreifen.
 * Die Sitzungsspeicherung funktioniert nicht Subdomain-übergreifend. Beispielsweise könnte ein Besucher zu `store.example.com` und dann zu `toys.example.com` navigieren. AppMeasurement kann aufgrund verschiedener Subdomains nicht auf Linktracking-Daten in der Sitzungsspeicherung zugreifen.
 
->[!TIP] Die zuverlässigste Implementierung ist die, die mithilfe der Sitzungsspeicherung zum Linktracking alle Inhalte über HTTPS in einer einzigen Subdomain bereitstellt.
+>[!TIP]
+>
+>Die zuverlässigste Implementierung ist die, die mithilfe der Sitzungsspeicherung zum Linktracking alle Inhalte über HTTPS in einer einzigen Subdomain bereitstellt.
 
 AppMeasurement entfernt die Sitzungsspeicherungs-Linktracking-Daten, nachdem ein Treffer an Adobe gesendet wurde. Die Speicherung wird auch automatisch eingestellt, wenn die Browser-Registerkarte geschlossen wird.
 
