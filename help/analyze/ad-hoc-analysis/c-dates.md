@@ -3,7 +3,10 @@ description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder ein
 title: Daten und Datumsbereiche
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Wenn Sie bei der Erstellung eines Projekts einen Datumsbereich auswählen, stell
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] Wenn Sie Hilfe beim Ausführen von Berichten früherer Versionen benötigen, wenden Sie sich an Ihren Kundenbetreuer.
+>[!NOTE]
+>
+>Wenn Sie Hilfe beim Ausführen von Berichten früherer Versionen benötigen, wenden Sie sich an Ihren Kundenbetreuer.
 
 ## Alte Datumsfenster {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [Erstellen](/help/analyze/ad-hoc-analysis/c-getting-started.md) oder öffnen Sie ein Projekt.
 1. Öffnen Sie den [Kalender](/help/analyze/ad-hoc-analysis/c-dates.md) und wählen Sie dann **[!UICONTROL Quartal]** oder **[!UICONTROL Jahr]** aus.
 
->[!NOTE] Historische Datumsfenster liegen in Quartals- und Jahresbeschränkungen. Sie können keine Daten anzeigen, die die Grenze zwischen alten Fenstern und der neuen Verarbeitungsplattform überschreiten. Bei Datumsbereichen, die beides umfassen, wird ein Fehler ausgegeben. Ferner gelten die Datumsbereiche nur für den Gregorianischen Kalender, nicht für den benutzerspezifischen Kalender.
+>[!NOTE]
+>
+> Historische Datumsfenster liegen in Quartals- und Jahresbeschränkungen. Sie können keine Daten anzeigen, die die Grenze zwischen alten Fenstern und der neuen Verarbeitungsplattform überschreiten. Bei Datumsbereichen, die beides umfassen, wird ein Fehler ausgegeben. Ferner gelten die Datumsbereiche nur für den Gregorianischen Kalender, nicht für den benutzerspezifischen Kalender.
 
