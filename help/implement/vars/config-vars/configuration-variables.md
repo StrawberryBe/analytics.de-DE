@@ -1,8 +1,11 @@
 ---
 title: Konfigurationsvariablen
 description: Verwenden Sie Konfigurationsvariablen, um festzustellen, wie Daten erfasst werden.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
@@ -21,4 +24,6 @@ Bei Implementierungen mit Adobe Experience Platform Launch werden die Konfigu
 2. Klicken Sie auf die Eigenschaft, die Sie bearbeiten möchten.
 3. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
 
->[!IMPORTANT] Stellen Sie sicher, dass alle Konfigurationsvariablen festgelegt sind, bevor Sie eine Tracking-Methode ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)) aufrufen. Vermeiden Sie das Festlegen von Konfigurationsvariablen in der [`doPlugins()`](../functions/doplugins.md)-Funktion.
+>[!IMPORTANT]
+>
+> Stellen Sie sicher, dass alle Konfigurationsvariablen festgelegt sind, bevor Sie eine Tracking-Methode ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)) aufrufen. Vermeiden Sie das Festlegen von Konfigurationsvariablen in der [`doPlugins()`](../functions/doplugins.md)-Funktion.
