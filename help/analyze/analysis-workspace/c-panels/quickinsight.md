@@ -1,33 +1,29 @@
 ---
 description: Quick Insight ist ein Tool für neue Workspace-Benutzer, das diese beim Erstellen von Datentabellen und Visualisierungen unterstützt.
-title: Quick Insight-Bedienfeld
+title: Quick Insights-Bedienfeld
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 3%
+source-wordcount: '1048'
+ht-degree: 5%
 
 ---
 
 
-# Quick Insight-Bedienfeld
+# Quick Insights-Bedienfeld
 
->[!IMPORTANT]
->
->**[!UICONTROL Das Quick Insight]** -Bedienfeld wird derzeit nur eingeschränkt getestet. [Mehr Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html)
+[!UICONTROL Quick Insights] bietet Nicht-Analytikern und neuen Benutzern von [!UICONTROL Analysis Workspace] die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. Es ist auch ein großartiges Werkzeug für fortgeschrittene Benutzer, die eine einfache Frage schnell beantworten möchten, ohne selbst eine Tabelle erstellen zu müssen.
 
-[!UICONTROL Quick Insights] bietet Nichtanalysten und neuen Benutzern von [!UICONTROL Analyse Workspace] Anleitungen, wie Sie Geschäftsfragen schnell und einfach beantworten können. Es ist auch ein großartiges Werkzeug für fortgeschrittene Benutzer, die eine einfache Frage schnell beantworten möchten, ohne selbst eine Tabelle erstellen zu müssen.
+Wenn Sie diesen [!UICONTROL Analysis Workspace]zum ersten Mal verwenden, fragen Sie sich vielleicht, welche Visualisierungen am nützlichsten sind, welche Dimensionen und Metriken Einblicke ermöglichen, wo Elemente per Drag &amp; Drop eingefügt werden können, wo ein Beginn erstellt werden kann usw.
 
-Wenn Sie diesen Arbeitsbereich [!UICONTROL für]Analysen zum ersten Beginn verwenden, fragen Sie sich vielleicht, welche Visualisierungen am nützlichsten sind, welche Dimensionen und Metriken Einblicke erleichtern können, wo Elemente per Drag &amp; Drop eingefügt werden können, wo ein Segment erstellt wird usw.
-
-Um dies zu unterstützen und basierend auf der Nutzung von Datenkomponenten durch Ihre eigene Firma im [!UICONTROL Analyse Workspace], verwendet [!UICONTROL Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche, die Ihre Firma verwendet, präsentiert. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als &quot; [!UICONTROL Beliebt] &quot;getaggt sind, wie im Folgenden gezeigt:
+Um dies zu unterstützen und basierend auf der Nutzung von Datenkomponenten durch Ihre eigene Firma in [!UICONTROL Analysis Workspace], verwendet [!UICONTROL Quick Insight] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche, die Ihre Firma verwendet, präsentiert. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als &quot; [!UICONTROL Beliebt] &quot;getaggt sind, wie im Folgenden gezeigt:
 
 ![](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] hilft Ihnen
 
-* Erstellen Sie eine Datentabelle und eine zugehörige Visualisierung in [!UICONTROL Analyse Workspace].
-* Erfahren Sie mehr über die Terminologie und das Vokabular für Grundelemente und Bestandteile von [!UICONTROL Analyse Workspace].
+* Erstellen Sie eine Datentabelle und eine zugehörige Visualisierung in [!UICONTROL Analysis Workspace].
+* Erfahren Sie mehr über die Terminologie und das Vokabular für Grundelemente und Bestandteile des [!UICONTROL Analysis Workspace].
 * Machen Sie einfache Aufschlüsselungen von Dimensionen, fügen Sie mehrere Metriken hinzu oder vergleichen Sie Segmente einfach in einer [!UICONTROL Freiformtabelle].
 * Ändern Sie die verschiedenen Visualisierungstypen oder versuchen Sie es auszuprobieren, um das Suchwerkzeug für Ihre Analyse schnell und intuitiv zu finden.
 
@@ -40,7 +36,7 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 | [!UICONTROL Dimension] | Dimensionen sind Beschreibungen oder Merkmale von Metrikdaten, die in einem Projekt angezeigt, aufgeschlüsselt und verglichen werden können. Es handelt sich um nicht-numerische Werte und Daten, die in Dimensionselemente unterteilt werden. Beispielsweise sind &quot;browser&quot;oder &quot;page&quot;Dimensionen. |
 | [!UICONTROL Dimensionselement] | Dimensionselemente sind individuelle Werte für eine Dimension. Beispielsweise wären Dimensionselemente für die Browserdimension &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;usw. |
 | [!UICONTROL Metrik] | Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
-| [!UICONTROL Visualization] | Workspace Angebot [eine Reihe von Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) , um visuelle Darstellungen Ihrer Daten zu erstellen, z. B. Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. |
+| [!UICONTROL Visualisierung] | Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. |
 | [!UICONTROL Dimensionsaufschlüsselung] | Eine Dimensionsaufschlüsselung ist eine Möglichkeit, eine Dimension buchstäblich nach anderen Dimensionen zu unterteilen. In unserem Beispiel könnten Sie die US-Bundesstaaten nach Mobilgeräten unterteilen, um die Besuche der Mobilgeräte pro Bundesland zu erhalten, oder Sie könnten Mobilgeräte nach Mobilgerätetypen, Regionen, internen Kampagnen usw. unterteilen. |
 | [!UICONTROL Segment] | Mit Segmenten können Sie Untergruppen von Besuchern anhand von Merkmalen oder Website-Interaktionen identifizieren. Sie können beispielsweise [!UICONTROL Besucher] -Segmente basierend auf Attributen erstellen: Browsertyp, Gerät, Anzahl der Besuche, Land, Geschlecht oder basierend auf Interaktionen: Kampagnen, Suchbegriffssuche, Suchmaschinen oder auf der Grundlage von Ausstiegen und Einstiegen: Besucher aus Facebook, einer definierten Landingpage, einer verweisenden Domäne oder basierend auf benutzerspezifischen Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
 
