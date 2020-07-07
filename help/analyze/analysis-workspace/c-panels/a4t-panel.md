@@ -2,19 +2,15 @@
 description: Mit dem Bedienfeld "Analytics for Target (A4T)"können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld "Analytics für Target"(A4T)
 translation-type: tm+mt
-source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
+source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 15%
+source-wordcount: '834'
+ht-degree: 14%
 
 ---
 
 
 # Bedienfeld &quot;Analytics für Target&quot;(A4T)
-
->[!IMPORTANT]
->
->**[!UICONTROL Analytics for Target (A4T)]** -Bedienfeld befindet sich derzeit in eingeschränkten Tests. [Mehr Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html)
 
 Im Bereich Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. Sie ermöglicht Ihnen außerdem, Steigerung und Konfidenz für bis zu drei Erfolgsmetriken zu sehen. Um auf das A4T-Bedienfeld zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten A4T-Komponenten. Klicken Sie dann auf das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld &quot;Analytics für Target&quot;in das Analysis Workspace-Projekt.
 
