@@ -2,19 +2,15 @@
 title: Algorithmische Attribution
 description: Details zum algorithmischen Zuordnungsmodell.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 54063d26875aee57ced7825f3427c6051c4f8686
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
 
 # Algorithmische Attribution
-
->[!NOTE]
->
->**[!UICONTROL Die algorithmische Zuordnung]** wird derzeit nur eingeschränkt getestet. Weitere Informationen finden Sie in den Versionshinweisen zu [Adobe Analytics-Funktionen](/help/landing/an-releases.md) .
 
 Das algorithmische [Zuordnungsmodell](models.md) in Analysis Workspace unterscheidet sich von anderen Modellen insofern, als es mithilfe statistischer Verfahren Gutschriften über die Dimensionswerte in Ihrem Bericht oder Ihrer Freiformtabelle verteilt. Wie alle anderen Zuordnungsmodelle in Analysis Workspace kann es für jede Dimension oder Metrik verwendet werden und unterstützt eine unbegrenzte Segmentierung und Aufschlüsselung und verteilt 100 % der Konversionen auf die Dimension(en) in der Tabelle (auch als &quot;fraktionale&quot; Zuordnung bezeichnet).
 
