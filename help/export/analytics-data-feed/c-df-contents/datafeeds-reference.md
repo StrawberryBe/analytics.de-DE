@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `visid_low` | Wird in Kombination mit visid_high verwendet, um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
 | `visid_new` | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | `visid_timestamp` | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
-| `visid_type` | Numerische ID, die angibt, welche Methode zur Identifizierung des Besuchers verwendet wurde. <br>0: Benutzerspezifische Besucher-ID <br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Fallback-Cookie-Wert (s_fid) <br>5: Identitätsdienst | tinyint unsigniert |
+| `visid_type` | nicht zur externen Verwendung; intern von Adobe zur Verarbeitung von Optimierungen verwendet werden. Numerische ID, die die zur Identifizierung des Besuchers verwendete Methode darstellt.<br>0: Benutzerspezifische visitorID oder Unbekannt/nicht anwendbar<br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Ausweichcookie-Wert (s_fid) <br>5: Identitätsdienst | tinyint unsigniert |
 | `visit_keywords` | Variable, die in der Dimension „Suchbegriff“ verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung, um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | `visit_num` | Variable, die in der Dimension „Besuchsnummer“ verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
 | `visit_page_num` | Variable, die in Dimension „Treffertiefe“ verwendet wird. Wird für jeden vom Benutzer generierten Treffer um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
