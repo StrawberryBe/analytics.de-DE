@@ -2,10 +2,10 @@
 title: Attributionsmodelle und Lookback-Fenster
 description: Unterscheiden unterschiedliche Zuordnungstypen Gutschriften zwischen Dimensionswerten.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 92%
+source-wordcount: '1483'
+ht-degree: 93%
 
 ---
 
@@ -42,10 +42,6 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 * **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Bei der Besucher-Lookback-Funktion werden alle Werte ab dem Monatsbeginn des Datumsbereichs des Berichts berücksichtigt. Wenn der Berichts-Datumsbereich beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
 
 * **Benutzerdefiniertes Lookback-Fenster:** Ermöglicht Ihnen, das Zuordnungsfenster über den Datumsbereich des Berichte hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konvertierung im Berichte ausgewertet. Beispiel: Bei einer Konvertierung am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimension-Touchpoints vom 10. bis 20. Februar im Zuordnungsmodell auswerten.
-
->[!NOTE]
->
->**[!UICONTROL Benutzerdefinierte Lookback-Fenster]** werden derzeit nur eingeschränkt getestet. Weitere Informationen finden Sie in den Versionshinweisen zu [Adobe Analytics-Funktionen](/help/landing/an-releases.md) .
 
 ## Beispiel
 
