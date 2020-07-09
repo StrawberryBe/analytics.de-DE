@@ -3,7 +3,10 @@ description: Sie können gespeicherte und ungespeicherte Projekte im PDF- oder C
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 61%
 
 ---
 
@@ -22,16 +25,17 @@ Beachten Sie:
 * Wenn Sie sehr lange Workspace-Projekte haben, werden PDFs derzeit als eine Riesenseite und nicht als paginiertes Dokument exportiert. Wir arbeiten an einer Verbesserung des PDF-Exports von Workspace, die Paginierung ermöglicht.
 
 1. Erstellen oder öffnen Sie ein Projekt.
-1. Klicken Sie auf **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
+1. Klicken Sie auf **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen (bzw. PDF herunterladen).]**
 
-Am 11. April 2019 wurden mehrere Änderungen an **[!CSV Downloads]** (und **[!CIn Zwischenablage kopieren]**) in Analysis Workspace vorgenommen, um die Formatierung aus den exportierten Daten zu entfernen.
-* Das Tausendertrennzeichen ist nicht mehr enthalten. (The decimal separator will continue to be included, and will adhere to the format defined under **[!UICONTROL Components > Report Settings > Thousands Separator]**).
+On April 11, 2019, several changes were made to **[!UICONTROL CSV downloads]** (and **[!UICONTROL Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data.
+* The  **[!UICONTROL Thousands Separator]** is no longer included. (Das Dezimaltrennzeichen wird weiterhin enthalten sein und dem unter **[!UICONTROL Komponenten > Berichtseinstellungen > Tausendertrennzeichen]** definierten Format entsprechen.)
 * Es werden keine Währungssymbole angezeigt.
 * Es werden keine Prozentzeichen angezeigt.
 * Prozentsätze sind dezimal; 75 % wird beispielsweise als 0,75 angezeigt.
 * Die Zeit wird in Sekunden angezeigt.
 * Kohortentabellen zeigen nur Rohwerte an. Prozentwerte wurden entfernt.
 * Wenn eine Zahl ungültig ist, wird eine leere Zelle angezeigt.
+* Es wird keine Rundung angewendet (auch wenn diese in der berechneten Metrik angegeben ist) - Rohwerte werden angezeigt.
 
 >[!NHinweis:]
 >
