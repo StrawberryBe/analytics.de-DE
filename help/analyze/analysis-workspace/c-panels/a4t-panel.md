@@ -2,7 +2,7 @@
 description: Mit dem Bedienfeld "Analytics for Target (A4T)"können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld "Analytics für Target"(A4T)
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Sie können das A4T-Bedienfeld mithilfe der folgenden Eingabeeinstellungen konfi
 | Erfolgsmetriken | Wählen Sie bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken aus den Dropdown-Ereignissen oder ziehen Sie Metriken per Drag &amp; Drop aus der linken Leiste. Jede Metrik verfügt über eine dedizierte Tabelle und Visualisierung im gerenderten Bedienfeld. |
 | Kalenderdatumsbereich | Dies wird automatisch aufgefüllt, basierend auf dem Datumsbereich der Aktivität von Adobe Target. Sie können es bei Bedarf ändern. |
 
-![Bedienfeldaufbau](assets/a4t-panel-builder.png)
+![Bedienfeldaufbau](assets/a4t-panel-builder2.png)
 
 ## Bereichsausgabe {#Output}
 
