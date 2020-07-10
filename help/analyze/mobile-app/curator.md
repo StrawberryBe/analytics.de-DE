@@ -2,10 +2,10 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfi
 
 ## Einführung
 
-Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Die App ermöglicht Benutzern auf Mobilgeräten den Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
+Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Mit der App können Benutzer mit Mobilgeräten auf intuitive Scorecards zugreifen, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
 
 ## Weitere Informationen zu diesem Handbuch
 
@@ -142,12 +142,10 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
    * eine Beschreibung der Scorecard angeben
    * relevante Tags hinzufügen
    * die Empfänger der Scorecard angeben
-   * die Option zum **Freigeben eingebetteter Komponenten für Empfänger** auswählen, um sicherzustellen, dass der ausführende Benutzer Zugriff auf alle Komponenten in der Scorecard hat.
 
 3. Klicken Sie auf **Freigabe**.
 
 ![Scorecards freigeben](assets/new_share.png)
-
 
 Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
@@ -175,12 +173,12 @@ So unterstützen Sie geschäftsführende Benutzer:
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Extras** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
       [iOS-Link](https://apple.co/2zXq0aN)
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Extras** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
       [Android-Link](https://bit.ly/2LM38Oo)
    Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
@@ -192,6 +190,7 @@ So unterstützen Sie geschäftsführende Benutzer:
    * Tippen Sie auf den Namen der Unternehmensanmeldung oder der Experience Cloud-Organisation, der für die von Ihnen freigegebene Scorecard gilt. Die Scorecard-Liste zeigt alle Scorecards an, die mit dem ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
    * Helfen Sie Benutzern, diese Liste ggf. nach der **zuletzt geänderten Scorecard** zu sortieren.
    * Tippen Sie auf den Namen der Scorecard, um sie anzuzeigen.
+
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
 
    Wenn sich der geschäftsführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde:
