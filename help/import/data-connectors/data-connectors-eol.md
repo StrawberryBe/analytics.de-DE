@@ -2,10 +2,10 @@
 description: Erfahren Sie, wann und warum Analytics Data Connectors zu Ende sein werden.
 title: Vorankündigung zum Ende der Lebensdauer für Analytics-Datenschnittstellen
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 7a6337efdbf08d31f2e2c632b57c781d0b566828
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 26%
 
 ---
 
@@ -24,6 +24,6 @@ Das offizielle Ende des Lebenszyklus ist noch festzulegen, aber wir gehen davon 
 
 ## Wie wirkt sich die Abschaffung dieser Funktion auf Sie aus?
 
-Wenn Sie Adobe-Partner sind, erhalten Sie die Möglichkeit, uns mitzuteilen, ob Sie Ihre Integration migrieren oder beenden werden.
+Wenn Sie Adobe-Partner sind, erhalten Sie die Möglichkeit, uns mitzuteilen, ob Sie Ihre Integration migrieren oder beenden werden. Details zur Migration Ihrer Integration in unser neues Adobe Exchange-Programm finden Sie [hier](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) in unserer Dokumentation.
 
 Wenn Sie ein Data Connector-Kunde sind und eine Migration der verwendeten Integration anfordern möchten, sollten Sie alle Anforderungen direkt an den Integrationspartner weiterleiten. Das Senden einer Anfrage an Adobe über den Kundendienst hat nicht die gleiche gewünschte Wirkung.
