@@ -2,10 +2,10 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2301'
+ht-degree: 78%
 
 ---
 
@@ -149,7 +149,7 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## App für ausführende Benutzer einrichten
 
@@ -163,7 +163,7 @@ Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen
 * Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
 * Sie haben für sie korrekte mobile Scorecards erstellt und diese Scorecards für sie freigegeben.
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
-* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### Unterstützung von leitenden Benutzern mit der App
 
