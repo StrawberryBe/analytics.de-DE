@@ -3,12 +3,19 @@ description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verh
 title: Neolane Ozon-Data Connector für Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 98%
 
 ---
 
 
 # Neolane Ozon-Data Connector für Adobe Analytics {#neolane-ozon-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 eingestellt. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
 
 Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit E-Mail-Marketing, um ein leistungsfähiges Tool zu schaffen, um die Erfolgsmessung neu zu definieren und Zielgruppen mit relevanterem Messaging anzusprechen.
 
