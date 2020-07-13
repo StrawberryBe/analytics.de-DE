@@ -5,12 +5,19 @@ title: DFA-Data Connector für Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1731'
+ht-degree: 99%
 
 ---
 
 
 # DFA-Data Connector für Adobe Analytics {#dfa-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 eingestellt. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
 
 Online-Advertiser und Agenturen sind im modernen Onlinemarkt, der immer komplexer und umkämpfter wird, auf eine kontinuierliche Verbesserung ihres Verständnisses für Online-Marketingumgebungen sowie ihrer Rendite aus Werbeausgaben angewiesen. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
 
@@ -89,13 +96,13 @@ In der folgenden Tabelle sind die Funktionen jeder Version der Integration zusam
 | Nächtliche DFA-Klick- und Impressionsmetriken | Ja | Ja | Ja |
 | Clickthrough- und Durchsichtstracking | Ja | Ja | Ja |
 | Eingang von Daten bei der Integration auf Advertiser-Ebene | Nein | Ja | Ja |
-| Eingang von Daten bei der Integration auf Floodlight-Konfigurationsebene | Nein | Nein | Ja  |
-| Kostenmetriken | Nein | Nein | Ja  |
-| Creative-Metriken | Nein | Nein | Ja  |
+| Eingang von Daten bei der Integration auf Floodlight-Konfigurationsebene | Nein | Nein | Ja |
+| Kostenmetriken | Nein | Nein | Ja |
+| Creative-Metriken | Nein | Nein | Ja |
 | Abfragestrings über 2.000 Bytes | Nein | Ja | Ja |
 | Verwendung des Integrate-Moduls für optimale Drittanbieterdatenerfassung | Nein | Ja | Ja |
 | Timeout- und Fehlertracking | Nein | Ja | Ja |
-| Keine ausgehandelte Client-Site-ID erforderlich | Nein | Nein | Ja  |
+| Keine ausgehandelte Client-Site-ID erforderlich | Nein | Nein | Ja |
 
 ### Info zu Version 1.5  {#section-b5a3e967cfa141ea8f740612336181be}
 
