@@ -5,12 +5,19 @@ title: Qualtrics-Data Connector für Adobe Analytics
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 95%
 
 ---
 
 
 # Qualtrics-Data Connector für Adobe Analytics {#qualtrics-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 eingestellt. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
 
 Diese Integration kombiniert die Kundenrecherchefunktionen der Qualtrics Research Suite mit den umfangreichen Daten, die von Ihnen in Adobe Analytics gesammelt werden, um leistungsstarke Analyse- und Optimierungsmöglichkeiten für Ihre Organisation zu schaffen.
 
