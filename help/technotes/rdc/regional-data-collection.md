@@ -1,8 +1,11 @@
 ---
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
-translation-type: ht
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+translation-type: tm+mt
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -11,13 +14,17 @@ source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collection, RDC), damit die Interaktionen zwischen Ihren Endanwendern und Adobe Experience Cloud so nahe wie möglich an den Anwendern stattfinden. Dies verbessert die Leistung Ihrer Site/App und stellt sicher, dass die Daten so schnell wie möglich erfasst werden, um das Endanwendererlebnis zu optimieren. Sobald Daten aus Ihren digitalen Assets regional in einem Data Collection Center (DCC) erfasst wurden, werden sie über eine sichere Verbindung an ein DPC weitergeleitet, wo sie verarbeitet und für Produkte in Adobe Experience Cloud bereitgestellt werden.
 
+>[!IMPORTANT]
+>
+>Das China RDC (China Performance Optimization) Hinzufügen-On-Paket ist ein kostenpflichtiges Add-on zu Adobe Analytics. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+
 RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
 ## Drittanbieter- und HTTP-Datenerfassung
 
 | RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
-| Standardeinstellung | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
+| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 
 Hinweis: Wenn Ihre Analytics-Bildanforderung an die Endpunkte `2o7.net` oder `omtdrc.net` gesendet wird, dann erfolgt die Datenerfassung durch Dritte. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
 
