@@ -2,10 +2,10 @@
 title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 88%
 
 ---
 
@@ -35,9 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Verwenden von Verarbeitungsregeln zum Ausfüllen von Analytics-Variablen
 
->[!IMPORTANT]
->
->Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
+>[!IMPORTANT] Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
 
 1. Aktualisieren Sie Ihre Implementierung, um Kontextdatenvariablennamen und -werte festzulegen.
 2. Melden Sie sich bei Adobe Analytics an und gehen Sie zu „Admin“ > „Report Suites“.
@@ -55,4 +53,19 @@ Schließen Sie die Kontextdatenvariable als Eigenschaft von `contextData` in [`s
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## Ereignisse mithilfe von Kontextdatenvariablen erhöhen
+
+Beim Erstellen von Verarbeitungsregeln können Sie Ereignissen Kontextdatenvariablen zuweisen.
+
+* Enthält eine Kontextdatenvariable eine Textart, wird das Ereignis um 1 inkrementiert.
+* Wenn eine Kontextdatenvariable eine Ganzzahl enthält, wird das Ereignis um diesen ganzzahligen Betrag inkrementiert.
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```
