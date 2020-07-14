@@ -3,8 +3,11 @@ description: Wenn Sie Einstellungen aus einer vorhandenen Report Suite kopiert h
 title: Aus einer Quell-Report Suite nicht kopierte Einstellungen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -55,15 +58,6 @@ Die folgenden Einstellungen werden nicht von einer Vorlage oder von doppelten Re
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span>. Wählen Sie dann eine Report Suite aus. </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B">Klicken Sie auf <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Variablen</span>. </li> 
      <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">Aktivieren Sie das Kontrollkästchen und wählen Sie die Einstellung für <span class="uicontrol">Pfadsetzungsberichte</span> aus. </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Unique Events Manager </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span>. Wählen Sie dann eine Report Suite aus. </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">Klicken Sie auf <span class="uicontrol">Einstellungen bearbeiten</span> &gt; <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Erfolgsereignisse</span>. </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">Aktivieren Sie das Kontrollkästchen und wählen Sie die Einstellung unter <span class="uicontrol">Eindeutige Ereignisaufzeichnung</span> aus. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
