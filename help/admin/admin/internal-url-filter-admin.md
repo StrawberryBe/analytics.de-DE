@@ -4,15 +4,17 @@ title: Interne URL-Filter
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
 # Interne URL-Filter
+
+**[!UICONTROL Admin > Report Suites > Einstellungen bearbeiten > Allgemein > Interne URL-Filter > Hinzufügen Filter]**
 
 Mit internen URL-Filtern werden die Referrer, die Sie als seitenintern betrachten, gekennzeichnet. Dies hilft, Berichte zu Traffic-Quellen mit Daten zu füllen und internen Traffic zu filtern.
 
