@@ -4,10 +4,10 @@ title: Sequentielle Segmente erstellen
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -262,9 +262,9 @@ Logische Gruppen wirken vielleicht abschreckend – hier finden Sie einige Best 
 Wenn Sie sequenzielle Checkpoints gruppieren möchten, ist Ihr „Container“ eine logische Gruppe. Müssen diese sequenziellen Checkpoints jedoch innerhalb eines einzelnen Treffers oder Besuchs auftreten, ist ein „Treffercontainer“ oder ein „Besuchecontainer“ erforderlich. (Natürlich ergibt „Treffer“ keinen Sinn für eine Gruppe sequenzieller Checkpoints, wenn einem Treffer nicht mehr als ein Checkpoint gutgeschrieben werden kann).
 
 **Vereinfachen logische Gruppen das Erstellen sequenzieller Segmente?**
-Ja, unter Umständen. Nehmen wir einmal an, Sie versuchen, diese Frage zu beantworten: **Hat ein Besucher nach Seite A Seite B, Seite C oder Seite D angesehen?**
+Ja, unter Umständen. Nehmen wir an, Sie versuchen, dieses Segment von Besuchern zu identifizieren: **Besucher, die Seite A und dann alle Seiten von B, C und D angezeigt haben**
 
-Sie können dieses Segment ohne logischen Gruppencontainer erstellen, was jedoch komplex und aufwändig ist:
+Sie können dieses Segment ohne logischen Gruppencontainer erstellen, was jedoch komplex und aufwändig ist. Sie müssen jede Seitensequenz angeben, die der Besucher Ansicht:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
