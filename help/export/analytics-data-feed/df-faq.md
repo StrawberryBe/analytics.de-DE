@@ -3,7 +3,10 @@ description: Häufig gestellte Fragen zu Daten-Feeds
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Häufig gestellte Fragen zu Daten-Feeds
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
@@ -23,3 +26,7 @@ Wenn für eine Spalte keine `post_`-Version vorliegt (z. B. bei `visit_num`), k
 In Adobe Analytics wird bei den meisten Variablen beim Reporting nicht zwischen Groß- und Kleinschreibung unterschieden. Beispielsweise werden „schnee“, „Schnee“, „SCHNEE“ und „sChnee“ alle als gleicher Wert betrachtet. Die Groß-/Kleinschreibung wird in Daten-Feeds beibehalten.
 
 Wenn Sie unterschiedliche Schreibweisen desselben Werts zwischen Nicht-Post- und Post-Spalten sehen (z. B. „schnee“ in der Pre-Spalte und „Schnee“ in der Post-Spalte), verwendet Ihre Implementierung auf Ihrer Site sowohl Groß- als auch Kleinbuchstaben. Die Variante in der Post-Spalte wurde entweder zuvor eingereicht und ist in einem virtuellen Cookie gespeichert, oder sie wurde etwa zur selben Zeit für diese Report Suite verarbeitet.
+
+## Werden Bots nach den Admin Console Bot-Regeln gefiltert, die in Datenfeeds enthalten sind?
+
+Datenfeeds enthalten keine Bots, die von [Admin-Konsolenbot-Regeln](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)gefiltert wurden.
