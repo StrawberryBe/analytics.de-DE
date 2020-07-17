@@ -3,9 +3,9 @@ description: Virtual Report Suites können so zusammengestellt werden, dass Komp
 title: Zusammenstellung der Virtual Report Suite-Komponenten
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,7 @@ So ermöglichen Sie die Kuratierung von Komponenten:
    * [!UICONTROL Ad Hoc Analysis ]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
+   * [!UICONTROL Activity Map]
    * Analytics-Reporting-API
 
    Nach der Aktivierung können Sie die in die Virtual Report Suite einzubeziehenden Komponenten hinzufügen, indem Sie die betreffenden Komponenten aus der Spalte „ausgeschlossene Komponenten“ in die Spalte „eingeschlossene Komponenten“ ziehen. Die ein- und ausschließbaren Komponenten lauten wie folgt:
