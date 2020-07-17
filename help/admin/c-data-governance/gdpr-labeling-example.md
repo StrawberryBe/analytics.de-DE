@@ -23,7 +23,7 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 | Bezeichnungen | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Variablenname **<br>**(Namespace)** | **MyProp1 **<br>**(Benutzer)** | **Besucher-ID **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
+| **Variablenname**<br>**(Namespace)** | **MyProp1**<br>**(Benutzer)** | **Besucher-ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Trefferdaten | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
