@@ -2,7 +2,7 @@
 title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Bei einer globalen Report Suite handelt es sich um eine Report Suite, die Daten 
 Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report Suite.
 
 * **Aggregierte Daten:** Globale Report Suites ermöglichen es Ihnen, KPIs und Erfolgsereignisse über Ihre eigenen Sites hinweg anzuzeigen. Mithilfe von Segmentierung und Virtual Report Suites können Site-spezifische Daten angezeigt werden.
-* **Unterstützung für geräteübergreifende Analysen:** Für geräteübergreifende Analysen ist eine Report Suite erforderlich, die Daten von mehreren Orten wie Ihrer Website und Ihrer mobilen App erfasst. Separate Geräte können bei korrekter Implementierung Daten zuordnen. Weitere Informationen finden Sie unter [Geräteübergreifende Analysen](../../components/cda/cda-home.md) im Komponentenleitfaden.
+* **Unterstützung für geräteübergreifende Analysen:** Für geräteübergreifende Analysen ist eine Report Suite erforderlich, die Daten von mehreren Orten wie Ihrer Website und Ihrer mobilen App erfasst. Separate Geräte können bei korrekter Implementierung Daten zuordnen. Weitere Informationen finden Sie unter [Geräteübergreifende Analysen](../../components/cda/overview.md) im Komponentenleitfaden.
 * **Nicht mehr als eine Report Suite erforderlich:** Alle Daten können in einer einzigen Report Suite gesammelt werden. So ist es weniger wahrscheinlich, dass ein Entwickler fälschlicherweise Daten an die falsche Report Suite sendet.
 * **Keine Datenaggregation erforderlich:** Datenaggregationen sind eine ziemlich veraltete Funktion, mit der individuelle Report Suite-Daten täglich aggregiert werden. Datenaggregationen deduplizieren keine Besuchs- oder Besucherdaten, was zu verfälschten Zahlen führen kann. Weitere Informationen finden Sie unter [Datenaggregationen](../../admin/c-manage-report-suites/rollup-report-suite.md) im Admin-Benutzerhandbuch.
 * **Zeit sparen:** Workspace-Projekte, Klassifizierungen, Segmente und berechnete Metriken sind mit derselben globalen Report Suite verknüpft. Administratoren verbringen weniger Zeit mit der Verwaltung dieser Komponenten und der Datenverwaltung.
