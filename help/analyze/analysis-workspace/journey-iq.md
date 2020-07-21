@@ -2,7 +2,10 @@
 title: Journey IQ
 description: Machen Sie sich mit den Funktionen von Journey IQ vertraut, einer Reihe von Funktionen, die Bestandteil von Adobe Analytics sind.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -19,4 +22,4 @@ Journey IQ umfasst die folgenden Funktionen:
 * [Kontextbezogene Sitzungen:](../../components/vrs/vrs-report-time-processing.md) Ändern Sie die Definition eines Besuchs, auch wenn ein Besuch abläuft, und verhindern Sie, dass Hintergrund-Hits einen neuen Besuch starten. Verwendet eine Funktion namens „Berichtszeitverarbeitung“, Teil von Virtual Report Suites.
 * [Flussanalyse:](visualizations/c-flow/flow.md) Verstehen Sie, wohin die Benutzer als Nächstes navigieren und woher sie kamen.
 * [Trichteranalyse:](visualizations/fallout/fallout-flow.md) Erfassen Sie, wann ein Kunde seine Interaktion beendet, und verstehen Sie, wohin er geht.
-* [Geräteübergreifende Analyse:](../../components/cda/cda-home.md) Führen Sie das Verhalten an mehreren Geräten nahtlos zusammen, um besser zu verstehen, welche Touchpoints auf die einzelnen Geräte entfallen.
+* [Geräteübergreifende Analyse:](../../components/cda/overview.md) Führen Sie das Verhalten an mehreren Geräten nahtlos zusammen, um besser zu verstehen, welche Touchpoints auf die einzelnen Geräte entfallen.
