@@ -6,7 +6,7 @@ title: Beispiel zur geräteübergreifenden Besucheridentifizierung
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Siehe [Geräteübergreifende Analyse](/help/components/cda/cda-home.md) im Komponentenleitfaden.
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Siehe [Geräteübergreifende Analyse](/help/components/cda/overview.md) im Komponentenleitfaden.
 
 Das folgende Beispiel veranschaulicht die geräteübergreifende Besucheridentifizierung anhand eines Beispiels von Server-Aufrufen, die in einer üblichen Kundeninteraktion gesendet werden.
 
