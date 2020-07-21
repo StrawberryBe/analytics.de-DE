@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: '632'
+ht-degree: 74%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 72%
    + [Quartal des Jahres](dimensions/quarter-of-year.md)
    + [Quartal](dimensions/quarter.md)
    + [Werber](dimensions/referrer-type.md)
-   + [Verweisende Stelle](dimensions/referrer.md)
+   + [Referrer](dimensions/referrer.md)
    + [Referrerdomäne](dimensions/referring-domain.md)
    + [Regionen](dimensions/regions.md)
    + [Rückkehrhäufigkeit](dimensions/return-frequency.md)
@@ -205,9 +205,13 @@ ht-degree: 72%
       + [Virtual Report Suites verwalten](vrs/c-workflow-vrs/vrs-manage.md)
       + [Informationen zu Virtual Report Suites anzeigen](vrs/c-workflow-vrs/vrs-view.md)
 + Geräteübergreifende Analyse {#cda}
-   + [Geräteübergreifende Analyse – Übersicht](cda/cda-home.md)
-   + [Geräteübergreifende Analyse einrichten](cda/cda-setup.md)
-   + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/cda-faq.md)
+   + [Geräteübergreifende Analyse – Übersicht](cda/overview.md)
+   + [Feldbasierte Heften](cda/field-based-stitching.md)
+   + [Gerätediagramm](cda/device-graph.md)
+   + [Geräteübergreifendes Analytics einrichten](cda/setup.md)
+   + [Funktionsweise](cda/replay.md)
+   + [CDA Workspace-Vorlage](cda/workspace-template.md)
+   + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/faq.md)
 + Warnhinweise {#alerts}
    + [Intelligente Warnhinweise](c-alerts/intellligent-alerts.md)
    + [Warnhinweiserstellung](c-alerts/alert-builder.md)
@@ -234,7 +238,7 @@ ht-degree: 72%
       + [Klassifizierungsregelsätze](c-classifications2/crb/classification-rule-set.md)
       + [Klassifizierungsregeln](c-classifications2/crb/classification-quickstart-rules.md)
       + [Klassifizierungsregeln – Definitionen](c-classifications2/crb/classification-rule-definitions.md)
-      + [Unterklassifizierungen und der Regelaufbau](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Unterklassifizierungen und der Rule Builder](c-classifications2/crb/sub-classification-rule-builder.md)
    + Numerisch 2 Classifications {#numeric2-classification}
       + [Numerisch 2 Classifications – Übersicht](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Numerisch 2 Classifications erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -253,5 +257,5 @@ ht-degree: 72%
    + [Klassifizierungen in Marketing-Kanälen](c-marketing-channels/classifictions-mchannel.md)
    + [Besucherinteraktionsablauf](c-marketing-channels/visitor-engagement.md)
    + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
-   + [Berechtigungen für Marketing-Kanal](c-marketing-channels/c-channel-report-access.md)
+   + [Berechtigungen für Marketing-Kanäle](c-marketing-channels/c-channel-report-access.md)
    + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)
