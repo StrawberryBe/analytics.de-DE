@@ -2,7 +2,7 @@
 title: Individuelle Besucher
 description: Die Anzahl der Einzelpersonen (oder Geräte).
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Die Metrik &quot;Individuelle Besucher&quot;zeigt die Anzahl der Besucher-IDs für den Dimensionswert an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffics, da es einen Überblick über die Popularität eines Dimensionswerts auf hoher Ebene gibt. Ein Besucher kann beispielsweise jeden Tag einen Monat lang zu Ihrer Site gelangen, zählt jedoch immer noch als individueller Besucher.
 
-Wenn Sie [geräteübergreifende Analysen](../cda/cda-home.md)verwenden, wird diese Metrik in &quot;Unique Devices&quot;umbenannt.
+Wenn Sie [geräteübergreifende Analysen](../cda/overview.md)verwenden, wird diese Metrik in &quot;Unique Devices&quot;umbenannt.
 
 ## Individuelle Besucher pro Tag, Woche, Monat, Quartal und Jahr
 
@@ -44,7 +44,7 @@ Eindeutige Besucher-IDs werden in der Regel in einem Browsercookie gespeichert. 
 
 * Löscht ihren Cache jederzeit
 * Öffnet einen anderen Browser auf demselben Computer. Pro Browser wird ein eindeutiger Besucher gezählt.
-* Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site. Ein separater eindeutiger Besucher wird pro Gerät gezählt. Sie können [geräteübergreifende Analysen](../cda/cda-home.md) verwenden, um Besucher mithilfe der Metrik &quot; [Personen](people.md) &quot;miteinander zu kombinieren.
+* Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site. Ein separater eindeutiger Besucher wird pro Gerät gezählt. Sie können [geräteübergreifende Analysen](../cda/overview.md) verwenden, um Besucher mithilfe der Metrik &quot; [Personen](people.md) &quot;miteinander zu kombinieren.
 * Öffnet eine private Browsersitzung (z. B. Chrome&#39;s Registerkarte &quot;Inkognito&quot;).
 
 Ein neuer eindeutiger Besucher wird *nicht* gezählt, solange die Cookie-ID beibehalten wird:
