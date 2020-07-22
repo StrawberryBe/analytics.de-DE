@@ -2,8 +2,11 @@
 description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualisierungsübersicht
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ YouTube-Video: [Visualisierungstypen in Analysis Workspace](https://www.youtube.
 | [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
 | [Linie](/help/analyze/analysis-workspace/visualizations/line.md) | stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird. |
 | [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
-| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | zeigt die Beziehung zwischen Dimensionswerten und bis zu drei Metriken. |
+| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
 | [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zelle ausgewählt ist, zeigt diese Visualisierung die Summen und Zusammenfassungen an. |
 | [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zellen ausgewählt sind, werden bei dieser Visualisierung Zellen miteinander verglichen. |
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md) | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. |
@@ -37,7 +40,7 @@ YouTube-Video: [Visualisierungstypen in Analysis Workspace](https://www.youtube.
 
 ## Visualisierungsbereich {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Klicken Sie im seitlichen Bedienfeld auf **[!UICONTROL Visualizations]**, um den Visualisierungsbereich zu öffnen.
+Klicken Sie im seitlichen Bedienfeld auf **[!UICONTROL Visualisierungen]**, um den Visualisierungsbereich zu öffnen.
 
 ![Schritt Ergebnis](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ Wenn Sie Adobe Analytics verwenden, werden Sie mit den meisten Visualisierungsar
 
 ## Visualisierungseinstellungen {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Um auf [!UICONTROL Visualization Settings] zuzugreifen, ziehen Sie eine Visualisierung in den Bereich [!UICONTROL Freeform Panel] und klicken Sie dann auf das Zahnradsymbol [!UICONTROL Visualization Settings].
+Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie eine Visualisierung in das [!UICONTROL Freiformfeld] und klicken Sie dann auf das Zahnrad-Symbol [!UICONTROL Visualisierungseinstellungen].
 
 >[!IMPORTANT]
 >
@@ -66,7 +69,7 @@ Um auf [!UICONTROL Visualization Settings] zuzugreifen, ziehen Sie eine Visualis
 
 ## Symbol „Visualisierung erstellen“ {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Wenn Sie nicht sicher sind, welche Visualisierung Sie auswählen sollen, klicken Sie in einer beliebigen Tabellenzeile auf das Symbol **[!UICONTROL Create Visual]**. Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
+Wenn Sie nicht sicher sind, welche Visualisierung Sie auswählen sollen, klicken Sie in einer beliebigen Tabellenzeile auf das Symbol **[!UICONTROL Visualisierung erstellen]**. Dieses Symbol wird angezeigt, wenn Sie den Mauszeiger auf die Tabellenzeile bewegen. Wenn Sie darauf klicken, sucht Analysis Workspace nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie z. B. bis zu 3 Segmente ausgewählt haben, wird ein Venn-Diagramm erstellt. Bei mehr als 3 Segmenten wird ein Balkendiagramm erstellt. Für andere Datentypen wird eventuell ein Kantengraph erstellt usw.
 
 ![](assets/create-visual.png)
 
@@ -99,11 +102,11 @@ Die Legendenbearbeitung ist für die folgenden Elemente **nicht** möglich: Tree
 Wenn Sie beispielsweise eine Legendenbeschriftung für ein Liniendiagramm bearbeiten möchten,
 
 1. klicken Sie mit der rechten Maustaste auf die Legendenbeschriftungen.
-1. Klicken Sie auf **[!UICONTROL Edit Label]**.
+1. Klicken Sie auf **[!UICONTROL Bezeichnung bearbeiten]**.
 
    ![](assets/edit-label.png)
 
 1. Geben Sie den neuen Beschriftungstext ein.
-1. Drücken Sie **[!UICONTROL Enter]**, um Ihre Auswahl zu speichern.
+1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
 
 Hier finden Sie einen [Link zu einem Video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) zu diesem Thema.
