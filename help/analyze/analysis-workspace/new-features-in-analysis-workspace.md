@@ -3,10 +3,10 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -345,7 +345,7 @@ Am 12. April 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >Neue Zeileneinstellung</a> </p> </td> 
-   <td colname="col2"> <p>Die neue Einstellung <span class="uicontrol">Prozentsatz pro Zeile berechnen</span> erzwingt, dass die Freiformtabelle die Zellprozentsätze über die Zeile anstatt für die Spalte berechnet. Das ist besonders hilfreich, wenn Sie Trends der Prozentsätze ermitteln wollen, z. B. wie sich ein Dimensionswert mit der Zeit im Vergleich zu den anderen Werten entwickelt. Die Funktion ist standardmäßig aktiviert, wenn Sie auf das Symbol <span class="uicontrol">Visualisieren</span> klicken. </p> </td> 
+   <td colname="col2"> <p>Die neue Einstellung <span class="uicontrol">Prozentsatz pro Zeile berechnen</span> erzwingt, dass die Freiformtabelle die Zellprozentsätze über die Zeile anstatt für die Spalte berechnet. Dies ist besonders nützlich für Trendprozentwerte, z. B. für Trends, wie ein Dimensionselement im Zeitverlauf mit dem Rest verglichen wird. Die Funktion ist standardmäßig aktiviert, wenn Sie auf das Symbol <span class="uicontrol">Visualisieren</span> klicken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >Visualisierungseinstellung „100 % gestapelt“</a> </p> </td> 
@@ -515,7 +515,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Änderungen in Bezug auf „Keine“/„Nicht angegeben“ </p> </td> 
-   <td colname="col2"> <p>Die Funktionsweise von „Keine“/„Nicht angegeben“ in Analysis Workspace wurde zu Einheitlichkeitszwecken an Reports &amp; Analytics, den Segment Builder und das Menü für Dimensionswerte in Analysis Workspace angepasst. </p> <p>Das bedeutet, dass der Wert in den meisten Projekten in Analysis Workspace als „Nicht angegeben“ anstelle von „Keine“ angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Die Funktionsweise von "Keine/Nicht angegeben"in Analysis Workspace wurde geändert, sodass sie mit Reports &amp; Analytics, dem Segmentaufbau und dem Menü für Dimensionselemente in Analysis Workspace konsistent ist. </p> <p>Das bedeutet, dass der Wert in den meisten Projekten in Analysis Workspace als „Nicht angegeben“ anstelle von „Keine“ angezeigt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
