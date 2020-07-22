@@ -2,7 +2,7 @@
 title: Zielgruppenberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace zielgruppenbasierte Berichte erstellen.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 97%
@@ -185,6 +185,6 @@ Mithilfe von Benchmarking-Berichten können Sie sehen, wie die verschiedenen Fac
 Der Flussbericht ist auf beiden Plattformen verfügbar. So erstellen Sie einen Flussbericht:
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle.
-2. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionswerte sind gelb markiert.
+2. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb gefärbt.
 3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den mittigen Bereich namens „Dimension oder Element“.
 4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
