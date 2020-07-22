@@ -2,7 +2,7 @@
 title: Treffertiefe
 description: Die Anzahl der Treffer im Besuch.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 7%
@@ -18,13 +18,13 @@ Die Dimension &quot;Treffertiefe&quot;zeigt an, wie weit ein Besuch bei einem be
 
 Diese Dimension funktioniert bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Zu den Dimensionswerten zählen die Zeichenfolge `"Hit Depth"` gefolgt von einer Zahl, die die Anzahl der Treffer im Besuch darstellt. Der Dimensionswert von `"Hit Depth 1"` steht für den ersten Treffer des Besuchs, während der Dimensionswert den achten Treffer des Besuchs `"Hit Depth 8"` darstellt.
+Dimensionselemente enthalten die Zeichenfolge `"Hit Depth"` gefolgt von einer Zahl, die die Anzahl der Treffer im Besuch darstellt. Das Dimensionselement von `"Hit Depth 1"` stellt den ersten Treffer des Besuchs dar, während das Dimensionselement den achten Treffer des Besuchs `"Hit Depth 8"` darstellt.
 
 ## Vergleich mit Besuchstiefe
 
-Die Treffertiefe zählt alle Arten von Treffern, einschließlich der Ansicht von Seiten- und Linktracking-Treffern. Die Besuchstiefe wird nur für Treffer mit Seitenansichten erhöht, _und_ der [Seitendimensionswert](page.md) ist nicht identisch mit dem Wert auf der vorherigen Ansicht. Die Besuchstiefe ist auch eine besuchsbasierte Dimension, d. h., sie ist für alle Treffer im Besuch derselbe Wert. In der folgenden Tabelle sind ein Beispielbesuch und die Berücksichtigung der Treffertiefe und Besuchstiefe aufgeführt:
+Die Treffertiefe zählt alle Arten von Treffern, einschließlich der Ansicht von Seiten- und Linktracking-Treffern. Die Besuchstiefe wird nur für Treffer auf der Ansicht der Seite erhöht, _und_ das Dimensionselement &quot; [Seite](page.md) &quot;ist nicht mit dem Wert auf der vorherigen  identisch. Die Besuchstiefe ist auch eine besuchsbasierte Dimension, d. h., sie ist für alle Treffer im Besuch derselbe Wert. In der folgenden Tabelle sind ein Beispielbesuch und die Berücksichtigung der Treffertiefe und Besuchstiefe aufgeführt:
 
 | Seitensequenz | Treffertiefe | Zählt zur Besuchstiefe? | Besuchstiefe |
 | --- | --- | --- | --- |
