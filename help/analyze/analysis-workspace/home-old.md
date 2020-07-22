@@ -3,7 +3,7 @@ description: So sehen Ihre ersten Schritte mit Adobe Analytics aus.
 keywords: Analysis Workspace
 title: Handbuch „Erste Schritte“
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 98%
@@ -21,7 +21,7 @@ Analysis Workspace ist eines der wichtigsten Werkzeuge von Adobe, mit dem Sie um
 
 ## Abrufen eines einfachen Rangberichts in Workspace
 
-Rufen Sie einen einfachen Rangbericht mithilfe von Analysis Workspace ab. Ein Rangbericht zeigt eine aggregierte Gesamtansicht jedes Dimensionswerts an, wobei die größten Werte zuerst angezeigt werden. Diese Berichtstypen sind nützlich, um zu sehen, welche Komponenten Ihrer Site am effektivsten sind, z. B. welche Seiten den meisten Traffic erhalten oder welche Produkte am häufigsten verkauft werden.
+Rufen Sie einen einfachen Rangbericht mithilfe von Analysis Workspace ab. Ein Rangbericht zeigt eine aggregierte Ansicht der einzelnen Dimensionselemente an, wobei die größten Werte zuerst angezeigt werden. Diese Berichtstypen sind nützlich, um zu sehen, welche Komponenten Ihrer Site am effektivsten sind, z. B. welche Seiten den meisten Traffic erhalten oder welche Produkte am häufigsten verkauft werden.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf das farbige Analytics-Logo.
@@ -98,7 +98,7 @@ Es gibt viele Ressourcen, mit deren Hilfe Sie Analysis Workspace besser verstehe
 * Freigeben von Projekten in Workspace: Zeigen Sie Ihrem Kollegen das fantastische Workspace-Projekt, das Sie erstellt haben.
 * [(Erweitert) Bedienfelder in Workspace](/help/analyze/analysis-workspace/c-panels/panels.md): Verwenden Sie erweiterte Funktionen in Workspace, wie Attribution und Segmentvergleich.
 
-### Analysten und Administratoren, die die Qualität von Workspace in ihrem Unternehmen verbessern möchten
+### Für Analysten und Administratoren, die die Workspace-Qualität in ihrem Unternehmen verbessern möchten
 
 * [Berechtigungen in Analysis Workspace](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html): Weisen Sie über Adobe Admin Console Benutzerberechtigungen für Workspace zu.
 * [Vorlagen in Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Erstellen Sie Vorlagen, damit Ihre Kollegen mit einem auf ihre Bedürfnisse zugeschnittenen Projektraum beginnen können.
