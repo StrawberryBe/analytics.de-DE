@@ -1,8 +1,8 @@
 ---
 title: Übersicht über Attribution
-description: Das Konzept der Zuordnung der Gutschrift eines Erfolgsereignisses zu mehreren Dimensionswerten.
+description: Das Konzept der Zuordnung der Gutschrift eines Erfolgsobjekts zu mehreren Dimensionselementen.
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,12 +12,12 @@ ht-degree: 52%
 
 # Übersicht über Attribution
 
-Die Zuordnung gibt Analysten die Möglichkeit, anzupassen, wie Dimensionswerte für Erfolgsereignisse gutgeschrieben werden. Beispiel:
+Die Zuordnung gibt Analysten die Möglichkeit, anzupassen, wie Dimensionselemente für Erfolgsereignisse gutgeschrieben werden. Beispiel:
 
 1. Ein Besucher Ihrer Site klickt auf einen Link zur gebührenpflichtigen Suche zu einer Ihrer Produktseiten. Fügen Sie das Produkt zum Einkaufswagen hinzu, kaufen Sie es jedoch nicht.
 2. Am nächsten Tag sehen Sie einen Social-Media-Beitrag von einem ihrer Freunde, klicken Sie auf den Link und schließen Sie den Kauf.
 
-In einigen Berichten sollte die Reihenfolge der gebührenpflichtigen Suche zugeordnet werden. In anderen Berichten möchten Sie möglicherweise, dass die Reihenfolge Social zugeordnet wird. Mithilfe der Zuordnung können Sie diesen Aspekt des Berichte steuern. Es steht allen Unternehmen in Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
+In einigen Berichten sollte die Reihenfolge der gebührenpflichtigen Suche zugeordnet werden. In anderen Berichten möchten Sie möglicherweise, dass die Reihenfolge Social zugeordnet wird. Mithilfe der Zuordnung können Sie diesen Aspekt des Berichte steuern. Es steht allen Einrichtungen von Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
 
 ## Wert der Zuordnung IQ
 
