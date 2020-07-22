@@ -3,8 +3,11 @@ description: Bietet Antworten und Vorschläge zur Fehlerbehebung zu einigen der 
 keywords: Troubleshooting Analytics
 title: Häufig gestellte Fragen
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +46,7 @@ Apple-Geräte melden ihre Firmware-Version in ihrer Benutzeragenten-Zeichenfolge
 
 **Warum stimmen die Summen am Ende meines Berichts nicht überein, wenn ich die Werte addiere?**
 
-Dimensionswerte können oft an mehreren Stellen angewendet werden, beispielsweise bei Besuchen, die sich über Mitternacht erstrecken, oder bei mehreren Produkten, die zu einer Bestellung gehören. Der Dimensionswert wird über alle zutreffenden Zeileneinträge hinweg gemeldet, jedoch im Gesamtwert des Berichts dedupliziert. Weitere Informationen finden Sie unter [Vergleichen der Summe der Zeileneinträge mit der Summe im Bericht](https://helpx.adobe.com/de/analytics/kb/sum-line-items-different-from-total.html) in der Analytics-KB.
+Dimensionselemente können oft an mehreren Stellen angewendet werden. zum Beispiel Besuche, die sich über Mitternacht erstrecken, oder mehrere Produkte, die zu einer einzigen Bestellung gehören. Das Dimensionselement wird über alle relevanten Zeileneinträge hinweg gemeldet, jedoch in der Gesamtsumme des Berichts dedupliziert. Weitere Informationen finden Sie unter [Vergleichen der Summe der Zeileneinträge mit der Summe im Bericht](https://helpx.adobe.com/de/analytics/kb/sum-line-items-different-from-total.html) in der Analytics-KB.
 
 **Wie kann ich Daten von einer bestimmten IP-Adresse aus meiner Report Suite ausschließen?**
 
