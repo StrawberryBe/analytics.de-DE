@@ -5,10 +5,10 @@ title: Übersicht über Erfolgsereignisse
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 78%
 
 Erfolgsereignisse sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Beispiel: Wenn ein Besucher einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden..
 
-Rufen Sie die Seite &quot;Erfolgsereignisse&quot;in den Report Suite-Einstellungen auf:
+Rufen Sie die Seite „Erfolgsereignisse“ in den Report Suite-Einstellungen auf:
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
-2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
+2. Klicken Sie oben auf die 9-Raster-Schaltfläche und dann auf [!UICONTROL Analytics].
 3. Navigieren Sie zu [!UICONTROL Admin] > [!UICONTROL Report Suites]
-4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Einstellungen] bearbeiten > [!UICONTROL Konversion] > [!UICONTROL Erfolgsergebnisse].
-5. Suchen Sie nach dem gewünschten Ereignis und ändern Sie das Dropdown &quot; [!UICONTROL Individuelle Ereignis-Aufzeichnung] &quot;in &quot;Einmal pro Besuch  aufzeichnen&quot;oder &quot;Ereignis-ID [!UICONTROL verwenden&quot;].
+4. Wählen Sie die gewünschte Report Suite aus und navigieren Sie dann zu [!UICONTROL Einstellungen bearbeiten] > [!UICONTROL Konversion] > [!UICONTROL Erfolgsergebnisse].
+5. Suchen Sie nach dem gewünschten Ereignis und ändern Sie das Dropdown-Menü [!UICONTROL Eindeutige Ereignisaufzeichnung] in [!UICONTROL Einmal pro Besuch aufzeichnen] oder [!UICONTROL Ereignis-ID verwenden].
 
 Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen Arten zählen beispielsweise:
 
@@ -50,7 +50,7 @@ Auf der Seite „Erfolgsereignisse“ können Sie die auf der Site verwendeten E
 | Typ | Je nach ausgewähltem Typ handelt es sich um ein Zählerereignis (Standard), ein numerisches Ereignis oder ein Währungsereignis. Bei numerischen Ereignissen und Währungsereignissen können die Metriken um einen anderen Wert als 1 erhöht werden.  Zählerereignisse halten Ereignisse in der Zeit fest, Währungsereignisse dagegen eine Dezimalzahl (z. B. Steuern oder Versandkosten). Der in die Währungsereignisse einfließende Wert wird bei Eingang von der Seitenwährung in die Basiswährung der Report Suite konvertiert. Weitere Informationen zur Verwendung von Währungsereignissen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter. Numerische Ereignisse werden für Berichte zu anderen Zahlen als Währungsangaben verwendet, z. B. für die Zahl der bei einer Bestellung verwendeten Gutscheine. Währungsereignisse werden zur Nachverfolgung von Steuern und Versandkosten verwendet. Ereignisse im Standardtyp von „Data Sources“ müssen numerische oder Währungsereignisse sein. |
 | Polarität | Anhand der Metrikpolarität können Sie festlegen, ob Adobe Analytics es als positiv oder negativ interpretieren soll, wenn ein benutzerdefiniertes Ereignis (Metrik) ansteigt. So kann Adobe Analytics Trendanzeigen (Pfeile) für verschiedene Metriken einbinden und mehr Kontext bieten (z. B. Vergleich über mehrere Wochen).  Beispiele: Wenn die Metrik „Übermittelte Bugs“ über mehrere Wochen ansteigt, soll Adobe Analytics dies als positiv oder negativ interpretieren? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich positiv. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität angewendet auf: bedingte Formatierung der Freiformtabelle, Visualisierungen von Änderungen an der Zusammenfassung und das positive/negative Farbschema der Kartenvisualisierung. |
 | Beschreibung | Eine kurze Beschreibung des Ereignisziels und dessen Nutzung. |
-| Eindeutige Ereignisaufzeichnung | **Einmal pro Besuch** aufzeichnen: Verbindet das angegebene Ereignis mit der Sitzung des Besuchers. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich.<br>**Ereignis-ID **verwenden: Verbindet das angegebene Ereignis mit einer benutzerdefinierten ID. Nachfolgende Zählungen für ein bestimmtes Ereignis mit derselben Ereignis-ID werden ignoriert. Für diese Art der Ereignis-Serialisierung ist eine benutzerdefinierte ID in Treffern erforderlich, um Werte zu deduplizieren. See[Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md)in the Implement user guide. |
-| Beitrag | Ermöglicht die vollständige Zuordnung zu allen Dimensionswerten des Besuchs. |
+| Eindeutige Ereignisaufzeichnung | **Einmal pro Besuch aufzeichnen**: Verbindet das angegebene Ereignis mit der Sitzung des Besuchers. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich.<br>**Ereignis-ID verwenden:** Verbindet das angegebene Ereignis mit einer benutzerdefinierten ID. Nachfolgende Zählungen für ein bestimmtes Ereignis mit derselben Ereignis-ID werden ignoriert. Für diese Art der Ereignis-Serialisierung ist eine benutzerdefinierte ID in Treffern erforderlich, um Werte zu deduplizieren. Siehe[Ereignis-ID-Serialisierung](../../../implement/vars/page-vars/events/event-serialization.md)im Benutzerhandbuch zu Implementierungen. |
+| Beitrag | Ermöglicht die vollständige Zuordnung zu allen Dimensionselementen des Besuchs. |
 | Warnung (Währungsereignis) | Wenn Sie den Ereignistyp ändern, also von einem Währungsereignis zu einem anderen Ereignistyp wechseln oder umgekehrt, wird eine Meldung angezeigt, dass die historischen Daten nicht für die Berichterstellung verfügbar sind.  Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Alle Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht mehr verfügbar. Gehen Sie beim Ändern des Ereignistyps mit Vorsicht vor. |
 
