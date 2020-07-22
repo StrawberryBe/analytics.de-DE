@@ -2,17 +2,17 @@
 title: linkName
 description: Legen Sie den Namen des Treffers für den benutzerspezifischen Link fest.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 
 # linkName
 
-Verwenden Sie die `linkName`-Variable, um den Dimensionswert von benutzerspezifischen Links, Downloadlinks oder Exitlinks beim Ausführen der nächsten [`tl()`](../functions/tl-method.md)-Methode zu bestimmen.
+Use the `linkName` variable to determine the dimension item of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
 Wenn diese Variable leer ist, kehrt AppMeasurement zur [`linkURL`](linkurl.md)-Variablen zurück.
 
@@ -29,7 +29,7 @@ Sie können das Feld für den Link-Namen festlegen, wenn Sie eine Regel zum Send
 
 ## s.linkName in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
-Die `s.linkName`-Variable ist eine Zeichenfolge, die den Dimensionswert für benutzerspezifische Links, Downloadlinks oder Exitlinks bestimmt (je nachdem, was [`s.linkType`](linktype.md) ist). Sie kann bis zu 100 Byte enthalten.
+The `s.linkName` variable is a string that determines the dimension item for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). Sie kann bis zu 100 Byte enthalten.
 
 >[!TIP]
 >
