@@ -2,7 +2,7 @@
 title: Umsatz
 description: Der Geldbetrag der Produkte, die innerhalb aller Bestellungen gekauft wurden.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Umsatz
 
-Die Metrik &quot;Umsatz&quot;zeigt den Geldbetrag der Produkte an, die innerhalb aller Bestellungen gekauft wurden. Diese Metrik ist für eCommerce-Sites bei der Messung der Umrechnung von entscheidender Bedeutung. Sie können diese Metrik mit einer beliebigen Dimension kombinieren, um zu sehen, welche Dimensionswerte zum Umsatz beigetragen haben. Sie können beispielsweise die wichtigsten Kampagnen (unter Verwendung der Dimension [Rückverfolgungscode](../dimensions/tracking-code.md) ) oder die wichtigsten internen Suchbegriffe (unter Verwendung einer [eVar](../dimensions/evar.md)) sehen.
+Die Metrik &quot;Umsatz&quot;zeigt den Geldbetrag der Produkte an, die innerhalb aller Bestellungen gekauft wurden. Diese Metrik ist für eCommerce-Sites bei der Messung der Umrechnung von entscheidender Bedeutung. Sie können diese Metrik mit einer beliebigen Dimension kombinieren, um zu sehen, welche Dimensionselemente zum Umsatz beigetragen haben. Sie können beispielsweise die wichtigsten Kampagnen (unter Verwendung der Dimension [Rückverfolgungscode](../dimensions/tracking-code.md) ) oder die wichtigsten internen Suchbegriffe (unter Verwendung einer [eVar](../dimensions/evar.md)) sehen.
 
 ## Berechnung dieser Metrik
 
