@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 76%
+ht-degree: 71%
 
 ---
 
@@ -77,7 +77,7 @@ Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition ab
 
 Einige Dimensionen in Analytics können bei einem einzelnen Hit mehrere Werte enthalten. Häufige Beispiele sind Listenvariablen und die Produktvariable.
 
-Wenn die Attribution auf Hits mit mehreren Werten angewendet wird, erhalten alle Werte im selben Hit dieselbe Gewichtung. Da viele Werte diese Gewichtung erhalten können, kann sich die Berichtssumme von der Summe der einzelnen Zeileneinträge unterscheiden. Die Berichtssumme wird dedupliziert, während jeder einzelne Dimensionswert korrekt gewichtet wird.
+Wenn die Attribution auf Hits mit mehreren Werten angewendet wird, erhalten alle Werte im selben Hit dieselbe Gewichtung. Da viele Werte diese Gewichtung erhalten können, kann sich die Berichtssumme von der Summe der einzelnen Zeileneinträge unterscheiden. Die Berichtsgesamtsumme wird dedupliziert, während jedem einzelnen Dimensionselement die korrekte Gutschrift zugeschrieben wird.
 
 **Wie funktioniert die Zuordnung bei der Segmentierung?**
 
@@ -89,4 +89,4 @@ Wenn Sie z. B. eine VRS mit angewendetem Segment „Hits anzeigen“ erstellen, 
 
 >[!NOTE]
 >
->Wenn ein Segment Hits unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter könnten jedoch lediglich einige Dimensionswerte ausgeblendet werden, ohne dass dies Auswirkungen auf die im jeweiligen Zuordnungsmodell verarbeiteten Metriken hat. Daher kann ein Segment niedrigere Werte zurückgeben als ein Filter mit einer vergleichbaren Definition.
+>Wenn ein Segment Hits unterdrückt, die Ihre Metrik enthalten, werden diese Metrikinstanzen keiner Dimension zugeordnet. Bei einem ähnlichen Berichtsfilter werden jedoch nur einige Dimensionselemente ausgeblendet, ohne dass sich dies auf die pro Zuordnungsmodell verarbeiteten Metriken auswirkt. Daher kann ein Segment niedrigere Werte zurückgeben als ein Filter mit einer vergleichbaren Definition.
