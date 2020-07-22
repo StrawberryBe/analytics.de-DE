@@ -2,7 +2,7 @@
 title: Seite
 description: Der Name der Seite.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ Diese Dimension bezieht sich auf die Dimensionen [Site-Abschnitt](site-section.m
 
 Diese Dimension ruft Daten aus der [`pageName` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mit der `pageName` Variablen. Wenn die `pageName` Variable nicht definiert ist, wird die URL der Seite verwendet.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte umfassen die Namen der Seiten auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionswerte Sie verwenden möchten. Einige Organisationen verwenden direkt `document.title`und andere formulieren einen benutzerspezifischen Breadcrumb. Vergewissern Sie sich, welche Methode Sie auch verwenden, dass sie konsistent ist und dass Sie sie in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
+Dimensionselemente enthalten die Namen der Seiten auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Einige Organisationen verwenden direkt `document.title`und andere formulieren einen benutzerspezifischen Breadcrumb. Vergewissern Sie sich, welche Methode Sie auch verwenden, dass sie konsistent ist und dass Sie sie in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
 
 >[!NOTE]
 >
