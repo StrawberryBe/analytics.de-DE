@@ -2,7 +2,7 @@
 title: Server
 description: Der Name des Servers.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 1%
@@ -20,6 +20,6 @@ Diese Dimension bezieht sich auf die Dimensionen [Seiten](page.md) und [Site-Abs
 
 Diese Dimension ruft Daten aus der [`server` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mit der [`server`](/help/implement/vars/page-vars/server.md) Variablen.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte umfassen Server auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionswerte Sie verwenden möchten. Einige Organisationen verwenden `window.location.hostname`die Methode, während andere benutzerdefinierte Werte formulieren. Vergewissern Sie sich, welche Methode Sie auch verwenden, dass sie konsistent ist und dass Sie sie in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
+Dimensionselemente enthalten Server auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Einige Organisationen verwenden `window.location.hostname`die Methode, während andere benutzerdefinierte Werte formulieren. Vergewissern Sie sich, welche Methode Sie auch verwenden, dass sie konsistent ist und dass Sie sie in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
