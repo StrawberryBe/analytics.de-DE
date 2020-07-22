@@ -2,10 +2,10 @@
 title: eVar
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 5%
+ht-degree: 72%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 *Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter[eVars](/help/implement/vars/page-vars/evar.md)im Implementierungs-Benutzerhandbuch.*
 
-eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)verfügen, werden die meisten unternehmensspezifischen Dimensionen als eVars bezeichnet. Standardmäßig bleiben eVars über den Treffer hinaus erhalten, auf dem sie eingestellt sind. Sie können ihren Ablauf und ihre Zuordnung unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen anpassen.
+eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als eVars angezeigt. Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
@@ -24,26 +24,26 @@ Jede eVar erfasst Daten aus der [`v1` - `v250` Abfrage-Zeichenfolge](/help/imple
 
 AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datenerfassung kompiliert, verwendet die Variablen `eVar1` - `eVar250`. Implementierungsrichtlinien finden Sie unter [eVar](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionswerte für jede eVar gelten. Vergewissern Sie sich, dass Sie den Zweck jeder eVar und die typischen Dimensionswerte in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
+Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar verwendet werden. Vergewissern Sie sich, dass Sie den Zweck jeder eVar und typische Dimensionselemente in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
 
 ## Funktionsweise von eVars
 
-Wenn Sie Daten an Adobe Analytics senden, übersetzen die Datenerfassungsserver den Treffer in eine Datenzeile mit Hunderten von Spalten. Für jede eVar sind zwei Spalten vorgesehen. eine für die direkte Datenerfassung und die andere für die Beibehaltung von Werten.
+Wenn Sie Daten an Adobe Analytics senden, übersetzen die Datenerfassungs-Server den Treffer in eine Datenzeile mit Hunderten von Spalten. Für jede eVar sind zwei Spalten vorgesehen: eine für die direkte Datenerfassung und die andere für persistente Werte.
 
 * Eine Standardspalte enthält Daten, die von der Bildanforderung an Adobe gesendet werden.
-* Eine Spalte &quot;Beitrag&quot;enthält beständige Daten, die vom Ablauf und der Zuordnung der eVar abhängen.
+* Eine Spalte „Post“ enthält persistente Daten, die von der Gültigkeit und Zuordnung der eVar abhängen.
 
-Unter fast allen Umständen wird die `post_evar` Spalte in Berichten verwendet.
+Die Spalte `post_evar` wird fast immer in Berichten verwendet.
 
 ### Verknüpfung von eVars mit Metriken
 
-Erfolgreiche Ereignis und eVars werden häufig in verschiedenen Bildanforderungen definiert. In der `post_evar` Spalte können eVar-Werte sich mit Ereignissen verbinden und Daten in Berichte anzeigen. Gehen Sie zum Beispiel wie folgt vor:
+Erfolgsereignisse und eVars werden häufig in verschiedenen Bildanforderungen definiert. In der Spalte `post_evar` können eVar-Werte mit Ereignissen verknüpft werden, sodass Daten in Berichten angezeigt werden. Nehmen Sie zum Beispiel den folgenden Besuch:
 
-1. Ein Besucher gelangt zu Ihrer Site auf Ihrer Startseite.
-2. Sie suchen nach &quot;Katzen&quot;mithilfe der internen Suche Ihrer Site. Ihre Implementierung verwendet eVar1 für die interne Suche.
-3. Sie haben ein Produkt Ansicht und fahren mit dem Kassengang fort.
+1. Ein Besucher erreicht Ihre Site auf Ihrer Startseite.
+2. Sie suchen mithilfe der internen Suche Ihrer Site nach „cats“. Ihre Implementierung verwendet eVar1 für die interne Suche.
+3. Sie sehen sich ein Produkt an und schließen den Checkout-Prozess ab.
 
 Eine vereinfachte Version der Rohdaten würde wie folgt aussehen:
 
@@ -56,40 +56,40 @@ Eine vereinfachte Version der Rohdaten würde wie folgt aussehen:
 | `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
 | `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
 
-* Die `visitor_id` Spalte verknüpft Treffer mit demselben Besucher. In den eigentlichen Rohdaten werden die verketteten Werte der Besucher-ID `visid_high` und `visid_low` bestimmt.
-* Die `pagename` Spalte füllt die Dimension &quot;Seiten&quot;.
-* Die `evar` Spalte bestimmt die Treffer, wenn eVar1 explizit festgelegt wurde.
-* Der `post_evar1` vorherige Wert wird abhängig von der Zuordnung und dem Ablauf der Variablen in den Report Suite-Einstellungen übernommen.
-* Die `event_list` Spalte enthält alle Metrikdaten. Bei diesem Beispiel `event1` handelt es sich um &quot;Suchen&quot;, bei den anderen Ereignissen um Standardmetriken zum Einkaufswagen. In den eigentlichen Rohdaten `event_list` enthält ein kommagetrennter Zahlensatz mit einer Nachschlagetabelle, die diese Zahlen an eine Metrik bindet.
+* Die Spalte `visitor_id` verknüpft Treffer mit demselben Besucher. In den eigentlichen Rohdaten bestimmen die verketteten Werte von `visid_high` und `visid_low` Besucher-ID.
+* Die Spalte `pagename` füllt die Dimension „Seiten“.
+* Die Spalte `evar` bestimmt die Treffer, bei denen eVar1 explizit gesetzt wurde.
+* `post_evar1` beinhaltet den vorherigen Wert, abhängig von der Zuordnung und Gültigkeit der Variablen in den Report Suite-Einstellungen.
+* Die Spalte `event_list` enthält alle Metrikdaten. In diesem Beispiel ist `event1` „Suchen“. Die anderen Ereignissen sind standardmäßige Warenkorbmetriken. In den eigentlichen Rohdaten enthält `event_list` einen kommagetrennten Satz von Zahlen mit einer Zuordnungstabelle, die diese Zahlen mit einer Metrik verknüpft.
 
 ### Übersetzen der Datenerfassung in Berichte
 
-Die Tools in Adobe Analytics, z. B. Analyse Workspace, arbeiten von diesen erfassten Daten ab. Wenn Sie z. B. einen Bericht mit eVar1 als Dimension und Bestellungen als Metrik abrufen, wird ein Bericht ähnlich dem folgenden angezeigt:
+Die Tools in Adobe Analytics wie Analysis Workspace verarbeiten diese erfassten Daten. Wenn Sie z. B. einen Bericht mit eVar1 als Dimension und Bestellungen als Metrik abrufen, wird ein Bericht ähnlich dem folgenden angezeigt:
 
 | `Internal search term (eVar1)` | `Orders` |
 | --- | --- |
 | `cats` | `1` |
 
-Analyse Workspace ruft diesen Bericht mit der folgenden Logik ab:
+Analysis Workspace ruft diesen Bericht mit der folgenden Logik ab:
 
-* Sehen Sie sich alle `event_list` Werte an und wählen Sie alle Treffer mit `purchase` ihnen aus.
-* Zeigen Sie den `post_evar1` Wert aus diesen Treffern an.
+* Sehen Sie sich alle `event_list`-Werte an und wählen Sie alle Treffer aus, die `purchase` enthalten.
+* Zeigen Sie von diesen Treffern den `post_evar1`-Wert an.
 
-### Bedeutung der Zuteilung und des Ablaufs
+### Bedeutung von Zuordnung und Gültigkeit
 
-Da Zuordnung und Ablauf bestimmen, welche Werte beibehalten werden, sind sie entscheidend, um den größtmöglichen Nutzen aus einer Analytics-Implementierung zu ziehen. Adobe empfiehlt dringend, dass Sie innerhalb Ihres Unternehmens besprechen, wie mehrere Werte für jede eVar verarbeitet werden (Zuordnung) und wann eVars die Speicherung der Daten beenden (Ablauf).
+Da Zuordnung und Gültigkeit bestimmen, welche Werte beibehalten werden, sind sie von entscheidender Bedeutung, um den größtmöglichen Nutzen aus einer Analyseimplementierung zu ziehen. Adobe empfiehlt dringend, dass Sie innerhalb Ihres Unternehmens besprechen, wie mehrere Werte für jedes eVar behandelt werden (Zuordnung) und wann eVars keine Daten mehr speichern (Gültigkeit).
 
-* Standardmäßig verwendet eine eVar die letzte Zuordnung. Neue Werte überschreiben behaltene Werte.
-* Standardmäßig verwendet eine eVar einen Ablauf des Besuchs. Nach Ende eines Besuchs werden Werte nicht mehr von Zeile zu Zeile in der `post_evar` Spalte kopiert.
+* Standardmäßig verwendet ein eVar die letzte Zuordnung. Neue Werte überschreiben persistente Werte.
+* Standardmäßig verwendet eine eVar eine Gültigkeit des Besuchs. Sobald ein Besuch endet, werden die Werte nicht mehr von Zeile zu Zeile in der Spalte `post_evar` kopiert.
 
-Sie können die eVar-Zuordnung und den Ablauf unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen ändern.
+You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 ## Wert von eVars gegenüber Props
 
 Adobe empfiehlt in den meisten Fällen die Verwendung von eVars, unterstützt durch Folgendes:
 
 * eVars sind in Berichten auf 255 Byte begrenzt. Props haben eine Beschränkung von 100 Byte.
-* Props bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben eine benutzerdefinierte Gültigkeit, mit der Sie feststellen können, wann einer eVar ein nachfolgendes Ereignis nicht mehr gutgeschrieben wird. Wenn Sie jedoch die [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md)verwenden, können sowohl props als auch eVars ein benutzerdefiniertes Zuordnungsmodell verwenden.
+* Props bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben eine benutzerdefinierte Gültigkeit, mit der Sie feststellen können, wann einer eVar ein nachfolgendes Ereignis nicht mehr gutgeschrieben wird. Wenn Sie jedoch die [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md) verwenden, können sowohl Props als auch eVars ein benutzerdefiniertes Zuordnungsmodell verwenden.
 * Adobe unterstützt bis zu 250 eVars und nur 75 Props.
 
 Weitere Vergleiche zwischen Props und eVars finden Sie unter [prop](prop.md) .
