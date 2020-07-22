@@ -2,10 +2,10 @@
 title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 
 >[!NOTE]
 >
->Benutzerdefinierte Variablennamen, Classifications und Besucher-Attribute werden in dieser Liste weggelassen. Diese Dimensionswerte sind spezifisch für einzelne Report Suites.
+>Benutzerdefinierte Variablennamen, Classifications und Besucher-Attribute werden in dieser Liste weggelassen. Diese Dimensionselemente sind spezifisch für einzelne Report Suites.
 
 >[!NOTE]
 >
