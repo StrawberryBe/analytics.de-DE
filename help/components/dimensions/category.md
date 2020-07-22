@@ -2,7 +2,7 @@
 title: Kategorie
 description: Die Kategorie des Treffers.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -18,9 +18,9 @@ Die Dimension &quot;Kategorie&quot;zeigt die Kategorie des Produkts des Treffers
 
 Diese Dimension verweist auf den ersten Teil der Zeichenfolge in der [`products`](/help/implement/vars/page-vars/products.md) Variablen. Diese Dimension wird mit allen Elementen vor dem ersten Semikolon (`;`) gefüllt.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionswerte verwendet werden. Adobe empfiehlt, einzelne Produkte in aussagekräftige Kategorien zu gruppieren, wobei sowohl die Produktabmessungen als auch die Kategorie verwendet werden.
+Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionselemente sind. Adobe empfiehlt, einzelne Produkte in aussagekräftige Kategorien zu gruppieren, wobei sowohl die Produktabmessungen als auch die Kategorie verwendet werden.
 
 >[!TIP]
 >
