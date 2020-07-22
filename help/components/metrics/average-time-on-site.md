@@ -1,8 +1,8 @@
 ---
 title: Durchschnittliche Zeit auf der Site
-description: Der durchschnittliche Zeitraum, in dem ein bestimmter Dimensionswert zwischen Treffern vorhanden war.
+description: Der durchschnittliche Zeitraum, in dem ein bestimmtes Dimensionselement zwischen Treffern vorhanden war.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # Durchschnittliche Zeit auf der Site
 
-Die Metrik &quot;Durchschnittliche Besuchszeit pro Site&quot;zeigt die Zeit an, die zwischen den Treffern für einen bestimmten Dimensionswert verstrichen ist. Diese Metrik ist hilfreich, wenn Sie die durchschnittliche Besuchszeit für bestimmte Dimensionswerte anzeigen möchten. Sie können diese Metrik auch im Laufe der Zeit als Trend verfolgen, um zu sehen, wie sich die Gesamtbesuchszeit ändert. Diese Metrik wird im `HH:MM:SS` Format angezeigt.
+Die Metrik &quot;Durchschnittliche Besuchszeit pro Site&quot;zeigt die Zeit an, die zwischen den Treffern für ein bestimmtes Dimensionselement verstrichen ist. Diese Metrik ist hilfreich, wenn Sie die durchschnittliche Besuchszeit für bestimmte Dimensionselemente sehen möchten. Sie können diese Metrik auch im Laufe der Zeit als Trend verfolgen, um zu sehen, wie sich die Gesamtbesuchszeit ändert. Diese Metrik wird im `HH:MM:SS` Format angezeigt.
 
 Diese Metrik bezieht sich auf die Dimension [Besuchszeit pro Besuch](../dimensions/time-spent-per-visit.md) .
 
 ## Berechnung dieser Metrik
 
-Für einen bestimmten Dimensionswert verwenden Sie den Zeitstempel jedes Treffers, bei dem dieser Dimensionswert vorhanden ist. Vergleichen Sie ihn mit dem Zeitstempel des nächsten Treffers im Besuch. Wenn der Treffer keinen nachfolgenden Treffer aufweist, nehmen Sie ihn nicht in diese Metrik auf. Teilen Sie alle für den Dimensionswert aufgewendeten Zeiträume durch die Anzahl der &quot;Sequenzen&quot;für diesen Dimensionswert. Eine &quot;Sequenz&quot;ist, wenn ein Dimensionswert für einen oder mehrere aufeinander folgende Treffer gleich ist. Diese Zahl ist die in Berichten angezeigte Metrik.
+Nehmen Sie für ein bestimmtes Dimensionselement den Zeitstempel jedes Treffers ein, bei dem dieses Dimensionselement vorhanden ist. Vergleichen Sie ihn mit dem Zeitstempel des nächsten Treffers im Besuch. Wenn der Treffer keinen nachfolgenden Treffer aufweist, nehmen Sie ihn nicht in diese Metrik auf. Teilen Sie alle für das Dimensionselement aufgewendeten Zeiträume durch die Anzahl der &quot;Sequenzen&quot;für dieses Dimensionselement. Eine &quot;Sequenz&quot;ist, wenn ein Dimensionselement bei einem oder mehreren aufeinander folgenden Treffern gleich ist. Diese Zahl ist die in Berichten angezeigte Metrik.
 
 Betrachten Sie zum Beispiel den folgenden Besuch:
 
@@ -35,7 +35,7 @@ Betrachten Sie zum Beispiel den folgenden Besuch:
 | `12:25:40` | `Product page A` |
 
 
-Wenn Sie für den Dimensionswert die durchschnittliche Besuchszeit pro Site benötigen `Product page A`, nehmen Sie zunächst die Zeitspanne zwischen den Treffern für diese Dimension an:
+Wenn Sie die durchschnittliche Besuchszeit pro Site für das Dimensionselement benötigen `Product page A`, nehmen Sie zunächst die Zeit, die zwischen den Treffern für diese Dimension verstrichen wurde:
 
 * **12:04:20 - 12:05:30** - 1 Minute 10 Sekunden
 * **12:05:30 - 12:07:00** - 1 Minute 30 Sekunden
@@ -61,7 +61,7 @@ Die Metrik &quot;Durchschnittliche Besuchszeit pro Site&quot;verwendet nicht unt
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Für die Berechnung der durchschnittlichen Besuchszeit pro Site für den Dimensionswert `Home` wird die folgende Berechnung verwendet:
+Für die Berechnung der durchschnittlichen Besuchszeit pro Site für den Dimensionselement `Home` wird die folgende Berechnung verwendet:
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -77,6 +77,6 @@ Da es in der Aufschlüsselungsdimension eine einzelne Sequenz gab, wird ein ande
 
 ## Prozentsätze über 100 %
 
-Diese Metrik enthält häufig Prozentsätze über 100 %. Der Nenner ist die durchschnittliche Zeit der gesamten Dimension auf der Site, und der Zähler ist die durchschnittliche Zeit des Dimensionswerts auf der Site. Wenn die durchschnittliche Besuchszeit der gesamten Dimension auf der Site unter der durchschnittlichen Besuchszeit eines bestimmten Dimensionswerts liegt, werden Prozentsätze über 100 % angezeigt. Die Sortierung von Rangberichten nach dieser Metrik zeigt die abweichende durchschnittliche Besuchszeit auf der Site an, was normalerweise nicht wertvoll ist. Adobe empfiehlt, in Rangberichten nach einer anderen Metrik wie [Besuche](visits.md)zu sortieren.
+Diese Metrik enthält häufig Prozentsätze über 100 %. Der Nenner ist die durchschnittliche Zeit der gesamten Dimension auf der Site, und der Zähler ist die durchschnittliche Zeit des Dimensionselements auf der Site. Wenn die durchschnittliche Besuchszeit der gesamten Dimension auf der Site unter der durchschnittlichen Besuchszeit eines Dimensionselements liegt, werden Prozentsätze über 100 % angezeigt. Die Sortierung von Rangberichten nach dieser Metrik zeigt die abweichende durchschnittliche Besuchszeit auf der Site an, was normalerweise nicht wertvoll ist. Adobe empfiehlt, in Rangberichten nach einer anderen Metrik wie [Besuche](visits.md)zu sortieren.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter Übersicht über die [Besuchszeit](time-spent.md) .
