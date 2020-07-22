@@ -5,10 +5,10 @@ title: Dimensionen aufschlüsseln
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
 
    ![Schritt Ergebnis](assets/fa_data_table_actions.png)
 
-   Sie können Metriken nach Dimensionswerten oder Zielgruppensegmenten über ausgewählte Zeiträume aufschlüsseln. Sie können auch noch granularer aufschlüsseln.
+   Sie können Metriken über ausgewählte Zeiträume nach Dimensionselementen oder Audiencen unterteilen. Sie können auch noch granularer aufschlüsseln.
 
    >[!NOTE] Die Anzahl der in der Tabelle angezeigten Aufschlüsselungen ist auf 200 beschränkt. Für das Exportieren von Aufschlüsselungen ist diese Einschränkung höher.
 
