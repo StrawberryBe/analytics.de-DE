@@ -2,17 +2,17 @@
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
 
 # products
 
-Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine mehrwertige Variable, d. h. Sie können mehrere Produkte mit demselben Treffer senden, und Adobe parst den Wert in separate Dimensionswerte.
+Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine Variable mit mehreren Werten. Das bedeutet, dass Sie mehrere Produkte im selben Treffer senden können und Adobe den Wert in separate Dimensionselemente analysiert.
 
 >[!NOTE]
 >
