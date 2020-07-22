@@ -2,7 +2,7 @@
 title: „Seiten-URL“
 description: Die URL der Seite.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Adobe empfiehlt, eine eVar auf die verkettete Zeichenfolge festzulegen `window.l
 
 Wenn die eVar exakt mit der Dimension &quot;Seiten-URL&quot;in Data warehouse übereinstimmen soll, können Sie [dynamische Variablen](/help/implement/vars/page-vars/dynamic-variables.md) verwenden und die eVar bei jedem Treffer `D=g` auf setzen. Beachten Sie, dass diese Methode bei benutzerdefinierten Link-Treffern nicht funktioniert, da die Seiten-URL bei allen [`tl()`](/help/implement/vars/functions/tl-method.md) Aufrufen entfernt wird.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte umfassen die URLs der Seiten auf Ihrer Site.
+Dimensionselemente enthalten die URLs der Seiten auf Ihrer Site.
