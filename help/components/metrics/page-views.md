@@ -2,7 +2,7 @@
 title: Seitenansichten
 description: Die Häufigkeit, mit der eine Seite angezeigt wurde.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Seitenansichten
 
-Die Metrik &quot;Ansichten&quot;zeigt an, wie oft ein bestimmter Dimensionswert auf einer Seite festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
+Die Metrik &quot;Seitenpositionen&quot;zeigt an, wie oft ein bestimmtes Dimensionselement auf einer Ansicht festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt alle Seitenverfolgungsaufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) in einer Report Suite. Bei Dimensionen sind auch Treffer enthalten, bei denen ein Dimensionswert definiert oder beibehalten wird. Es enthält keine Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Diese Metrik zählt alle Seitenverfolgungsaufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) in einer Report Suite. Bei Dimensionen sind auch Treffer enthalten, bei denen ein Dimensionselement definiert oder beibehalten wird. Es enthält keine Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Vergleichen mit ähnlichen Metriken
 
