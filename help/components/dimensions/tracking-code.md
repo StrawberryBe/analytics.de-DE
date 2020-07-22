@@ -2,7 +2,7 @@
 title: Trackingcode
 description: Der Name des Rückverfolgungscodes oder der Kampagne.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ Die Dimension &quot;Rückverfolgungscode&quot;Liste die Namen der Rückverfolgun
 
 Diese Dimension ruft Daten aus der [`v0` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mit der [`campaign`](/help/implement/vars/page-vars/campaign.md) Variablen.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte enthalten die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionswerte Sie verwenden möchten.
+Dimensionselemente enthalten die Namen der Rückverfolgungscodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten.
