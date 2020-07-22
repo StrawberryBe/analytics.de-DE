@@ -2,7 +2,7 @@
 title: US-Bundesstaaten
 description: Der US-Bundesstaat des Besuchers.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Diese Dimension bezieht sich auf Nachschlageregeln, die in Adobe enthalten sind.
 >
 >Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich an den Kundendienst mit der Report Suite-ID und fordern Sie an, die Option &quot;Geografie&quot;für die Report Suite zu deaktivieren.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Zu den Dimensionswerten gehören Regionen und das Land, in dem sich die Region befindet. Zu den Beispielwerten gehören `"California"`, `"Texas"`oder `"Virginia"`. Der Dimensionswert `"Unspecified"` umfasst den gesamten internationalen Traffic außerhalb der Vereinigten Staaten.
+Zu den Dimensionselementen gehören Regionen und das Land, in dem sich die Region befindet. Zu den Beispielwerten gehören `"California"`, `"Texas"`oder `"Virginia"`. Der Dimensionselement `"Unspecified"` umfasst den gesamten internationalen Verkehr außerhalb der Vereinigten Staaten.
 
 ## Unterschiede zwischen gemeldeter und tatsächlicher Position
 
