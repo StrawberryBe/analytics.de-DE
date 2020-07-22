@@ -3,10 +3,10 @@ description: Die Bereitstellung dieser Integration ist ein einfacher Prozess, de
 title: Bereitstellen der Integration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ Wenn Sie jedoch Anpassungen vornehmen müssen, können Sie einige der Codeeinste
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Das Trennzeichen für die Demandbase-Dimensionswerte, wenn sie an Adobe Analytics gesendet werden. Eine Änderung dieser Einstellung kann dazu führen, dass die standardmäßigen Klassifizierungsregeln nicht korrekt funktionieren. </td> 
+   <td colname="col2"> Das Trennzeichen, mit dem die Dimensionselemente der Demandbase getrennt werden, wenn sie an Adobe Analytics gesendet werden. Eine Änderung dieser Einstellung kann dazu führen, dass die standardmäßigen Klassifizierungsregeln nicht korrekt funktionieren. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
