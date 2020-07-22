@@ -2,7 +2,7 @@
 title: Zeit pro Besuch
 description: Die Gesamtdauer des Besuchs.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -34,11 +34,11 @@ Diese Dimension bezieht sich auf die Metriken [Durchschnittliche Besuchszeit pro
 
 Diese Dimensionen funktionieren bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktionieren diese Dimensionen.
 
-## Dimensionswerte
+## Dimensionselemente
 
 Für die Zeit pro Besuch sind mehrere Dimensionen vorhanden:
 
-* **Besuchszeit pro Besuch - Zusammengefasst**: Die Zeitdauer ist festgeschrieben. Dimensionswerte reichen von `"Less than 1 minute"` bis `"More than 15 hours"`. Besuche dauern in der Regel nicht länger als 12 Stunden; Besuche können jedoch 12 Stunden überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
-* **Besuchszeit pro Besuch - granular**: Jede Anzahl von Sekunden ist ein eindeutiger Dimensionswert. Diese Dimension ist in Reports &amp; Analytics oder Data warehouse nicht verfügbar.
+* **Besuchszeit pro Besuch - Zusammengefasst**: Die Zeitdauer ist festgeschrieben. Dimensionselemente reichen von `"Less than 1 minute"` bis `"More than 15 hours"`. Besuche dauern in der Regel nicht länger als 12 Stunden; Besuche können jedoch 12 Stunden überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
+* **Besuchszeit pro Besuch - granular**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement. Diese Dimension ist in Reports &amp; Analytics oder Data warehouse nicht verfügbar.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter Übersicht über die [Besuchszeit](../metrics/time-spent.md) .
