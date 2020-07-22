@@ -1,8 +1,8 @@
 ---
 title: Attributionsmodelle und Lookback-Fenster
-description: Unterscheiden unterschiedliche Zuordnungstypen Gutschriften zwischen Dimensionswerten.
+description: Unterscheiden unterschiedliche Zuordnungstypen Gutschriften zwischen Dimensionselementen.
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
