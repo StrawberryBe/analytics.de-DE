@@ -2,7 +2,7 @@
 title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Die [!UICONTROL Zip-Option] unter &quot; [Allgemeine Kontoeinstellungen](/help/a
 >
 >Die Einstellung der Report Suite ist entscheidend, wenn Sie die volle Kontrolle darüber haben möchten, wie Sie diese Dimension füllen.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Zu den Dimensionswerten zählen die Postleitzahl des Besuchers.
+Dimensionselemente enthalten die Postleitzahl des Besuchers.
