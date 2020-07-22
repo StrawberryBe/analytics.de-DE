@@ -2,7 +2,7 @@
 title: Städte
 description: Die Stadt, von der der Treffer ausging.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Diese Dimension bezieht sich auf Nachschlageregeln, die in Adobe enthalten sind.
 >
 >Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich an den Kundendienst mit der Report Suite-ID und fordern Sie an, die Option &quot;Geografie&quot;für die Report Suite zu deaktivieren.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Zu den Dimensionswerten zählen Städte auf der ganzen Welt. Zu den Beispielwerten gehören `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"`oder `"London (London, United Kingdom)"`.
+Zu den Dimensionselementen gehören Städte auf der ganzen Welt. Zu den Beispielwerten gehören `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"`oder `"London (London, United Kingdom)"`.
 
 ## Unterschiede zwischen gemeldeter und tatsächlicher Position
 
