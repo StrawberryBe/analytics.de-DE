@@ -2,7 +2,7 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie zwischen den 
 
 ## Wie geht Adobe mit eindeutigen Beschränkungen für eine eVar um, die bei der field-basierten Suche verwendet wird?
 
-CDA ruft eVar-Dimensionswerte ab, bevor sie für den Berichte optimiert werden. Sie müssen sich keine Sorgen um eindeutige Beschränkungen für CDA machen. Wenn Sie jedoch versucht haben, diese prop/eVar in einem Workspace-Projekt zu verwenden, können Sie den Dimensionswert [(geringer Traffic)](/help/technotes/low-traffic.md) weiterhin sehen.
+CDA ruft eVar-Dimensionselemente ab, bevor sie für den Berichte optimiert werden. Sie müssen sich keine Sorgen um eindeutige Beschränkungen für CDA machen. Wenn Sie jedoch versucht haben, diese prop/eVar in einem Workspace-Projekt zu verwenden, können Sie weiterhin das Dimensionselement [(geringer Traffic)](/help/technotes/low-traffic.md) sehen.
