@@ -2,7 +2,7 @@
 title: Individuelle Besucher
 description: Die Anzahl der Einzelpersonen (oder Geräte).
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # Individuelle Besucher
 
-Die Metrik &quot;Individuelle Besucher&quot;zeigt die Anzahl der Besucher-IDs für den Dimensionswert an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffics, da es einen Überblick über die Popularität eines Dimensionswerts auf hoher Ebene gibt. Ein Besucher kann beispielsweise jeden Tag einen Monat lang zu Ihrer Site gelangen, zählt jedoch immer noch als individueller Besucher.
+Die Metrik &quot;Individuelle Besucher&quot;zeigt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Datenverkehrs, da es einen Überblick über die Popularität eines Dimensionselements auf hoher Ebene gibt. Ein Besucher kann beispielsweise jeden Tag einen Monat lang zu Ihrer Site gelangen, zählt jedoch immer noch als individueller Besucher.
 
 Wenn Sie [geräteübergreifende Analysen](../cda/overview.md)verwenden, wird diese Metrik in &quot;Unique Devices&quot;umbenannt.
 
@@ -20,11 +20,11 @@ Wenn Sie [geräteübergreifende Analysen](../cda/overview.md)verwenden, wird die
 
 Reports &amp; Analytics bietet Optionen für individuelle Besucher pro Tag, Woche, Monat, Quartal und Jahr. Statt einen einzelnen eindeutigen Besucher für den gesamten Zeitraum zu zählen, werden individuelle Besucher auf der Grundlage der ausgewählten Metrik gezählt. Beispielsweise möchten Sie sich individuelle Besucher pro Tag für Ihre Site ansehen. Wenn ein Besucher morgens und nachts zu Ihrer Site kommt, zählt er als individueller Besucher pro Tag. Wenn ein Besucher am Montag und erneut am Dienstag Ihre Site aufsucht, zählen sie als zwei individuelle Besucher pro Tag.
 
-Analysis Workspace behandelt individuelle Besucher auf Grundlage der Granularität des Berichts. Wenn Sie beispielsweise die Dimension [&quot;Tag](../dimensions/day.md) &quot;verwenden, sehen Sie für jeden Dimensionswert individuelle Besucher pro Tag. Für die Berichtssumme werden jedoch eindeutige Besucher für den Datumsbereich der Freiformtabelle dedupliziert.
+Analysis Workspace behandelt individuelle Besucher auf Grundlage der Granularität des Berichts. Wenn Sie beispielsweise die Dimension [&quot;Tag](../dimensions/day.md) &quot;verwenden, sehen Sie für jedes Dimensionselement tägliche eindeutige Besucher. Für die Berichtssumme werden jedoch eindeutige Besucher für den Datumsbereich der Freiformtabelle dedupliziert.
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt die Anzahl der eindeutigen Besucher-IDs für einen bestimmten Dimensionswert. Es verwendet mehrere erweiterte Mechanismen, um individuelle Besucher zu identifizieren, da es mehrere Möglichkeiten gibt, diese zu identifizieren. In der folgenden Tabelle werden die Identifizierungswege eines Besuchers und seine Priorität Liste. Einige Treffer können über mehrere Besucher-Identifizierungsmethoden verfügen. in diesen Fällen wird die Methode mit höherer Priorität verwendet.
+Diese Metrik zählt die Anzahl der eindeutigen Besucher-IDs für ein bestimmtes Dimensionselement. Es verwendet mehrere erweiterte Mechanismen, um individuelle Besucher zu identifizieren, da es mehrere Möglichkeiten gibt, diese zu identifizieren. In der folgenden Tabelle werden die Identifizierungswege eines Besuchers und seine Priorität Liste. Einige Treffer können über mehrere Besucher-Identifizierungsmethoden verfügen. in diesen Fällen wird die Methode mit höherer Priorität verwendet.
 
 | Verwendete Reihenfolge | Abfrageparameter (Erfassungsmethode) | Vorhanden, wenn |
 | --- | --- | --- |
