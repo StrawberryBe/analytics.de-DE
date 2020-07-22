@@ -2,7 +2,7 @@
 title: Mobile Dimensionen
 description: Dimensionen basierend auf der user-agent-Zeichenfolge des Geräts.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -24,17 +24,17 @@ Diese Dimensionen verweisen auf interne Nachschlageregeln von Adobe. Der Nachsch
 
 >[!NOTE]
 >
->Dimensionswerte, die als `"None"` Mobilgeräte bezeichnet werden, sind nicht Mobilgeräte. Wenn Sie einen Bericht wünschen, der nur Mobilgeräte enthält, ziehen Sie die Dimension &quot;Mobilgerät&quot;in den Segmentbereich der Arbeitsfläche.
+>Dimensionselemente, die als `"None"` Nicht-Mobilgeräte bezeichnet werden. Wenn Sie einen Bericht wünschen, der nur Mobilgeräte enthält, ziehen Sie die Dimension &quot;Mobilgerät&quot;in den Segmentbereich der Arbeitsfläche.
 
-* **Mobile Audiounterstützung**: Legt die Dateiformate fest, die vom Gerät wiedergegeben werden können. Zu den Beispielwerten gehören `"MP3"`, `"AAC"`und `"MIDI Monophonic"`. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionswerten zugeordnet werden.
-* **Mobilnetzbetreiber**: Wenn der Benutzeragent ein netzwerkspezifisches Gerät enthält, ist der Netzbetreiber ein Dimensionswert. Zu den Beispielwerten gehören `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`und `"Verizon"`.
+* **Mobile Audiounterstützung**: Legt die Dateiformate fest, die vom Gerät wiedergegeben werden können. Zu den Beispielwerten gehören `"MP3"`, `"AAC"`und `"MIDI Monophonic"`. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionselementen zugeordnet werden.
+* **Mobilnetzbetreiber**: Wenn der Benutzeragent ein netzwerkspezifisches Gerät enthält, ist der Netzbetreiber ein Dimensionselement. Zu den Beispielwerten gehören `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`und `"Verizon"`.
 * **Mobilgerät - Farbtiefe**: Die Farbtiefe des mobilen Geräts in Bit.
-* **Unterstützung** von mobilen Cookies: Stellt fest, ob das Mobilgerät Cookies unterstützt. Dieser Bericht gibt nicht an, ob der Browser Cookies akzeptiert. Zu den Dimensionswerten gehören `"Supported"`, `"Not supported"`und `"Unknown"`.
+* **Unterstützung** von mobilen Cookies: Stellt fest, ob das Mobilgerät Cookies unterstützt. Dieser Bericht gibt nicht an, ob der Browser Cookies akzeptiert. Dimensionselemente umfassen `"Supported"`, `"Not supported"`und `"Unknown"`.
 * **Mobilgerät**: Das Mobilgerät, das der Besucher verwendet.
-* **Mobilgerätnummer**: Bestimmt, ob das Mobilgerät seine Nummer übermittelt. Zu den Dimensionswerten gehören `"Supported"`, `"Not supported"`und `"Unknown"`.
+* **Mobilgerätnummer**: Bestimmt, ob das Mobilgerät seine Nummer übermittelt. Dimensionselemente umfassen `"Supported"`, `"Not supported"`und `"Unknown"`.
 * **Mobilgerätetyp**: Der Typ des Mobilgeräts. Zu den Beispielwerten gehören `"Mobile phone"`, `"Tablet"`, `"Media player"`und `"Gaming console"`.
 * **Mobile DRM**: Der DRM-Typ, den das Mobilgerät unterstützt. Zu den Beispielwerten gehören `"DRM OMA forward"`, `"DRM OMA combined delivery"`und `"DRM OMA separate delivery"`.
-* **Unterstützung** von mobilen Bildern: Die Arten von Bildern, die von Mobilgeräten unterstützt werden. Zu den Beispielwerten gehören `"PNG"`, `"JPEG"`und `"GIF 87"`. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionswerten zugeordnet werden.
+* **Unterstützung** von mobilen Bildern: Die Arten von Bildern, die von Mobilgeräten unterstützt werden. Zu den Beispielwerten gehören `"PNG"`, `"JPEG"`und `"GIF 87"`. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionselementen zugeordnet werden.
 * **Mobile Informationsdienst**: Die vom Gerät unterstützten Arten von Nachrichtendiensten. Letzte Geräte melden diese Informationen normalerweise nicht.
 * **Mobile Java VM**: Die Java-Versionen, die das Gerät unterstützt.
 * **Mobilgerät - Mail-Dekoration**: Stellt fest, ob das Gerät Decomail unterstützt, eine Funktion, die auf japanischen Geräten bereits verwendet wird.
@@ -48,7 +48,7 @@ Diese Dimensionen verweisen auf interne Nachschlageregeln von Adobe. Der Nachsch
 * **Mobilgerät - Bildschirmhöhe**: Die Höhe des Bildschirms in Pixel. Beachten Sie, dass iPhones immer gemeldet werden, `"480"` weil die iPhone-Geräteversion nicht ermittelt werden kann. Informationen zum Bestimmen der iPhone-Geräteversion finden Sie im folgenden Abschnitt.
 * **Mobilgerät - Bildschirmgröße**: Die vollständigen Abmessungen des Mobilgeräts in Pixel. Die Bildschirmgröße im Bericht lässt keine Rückschlüsse auf die Ausrichtung des Geräts zu. Jedes Gerät besitzt eine feste Bildschirmauflösung im Bericht, unabhängig von der Bildschirmausrichtung. Diese Größe beruht auf Untersuchungen, in denen ermittelt wurde, welche Ausrichtung am ehesten verwendet wird. You can see sizes such as `"768x1024"` and `"1024x768"` in the same report with each size representing one or more different devices.
 * **Breite** des mobilen Bildschirms: Die Breite des Bildschirms in Pixel.
-* **Unterstützung** von mobilen Videos: Die Videodateiformate und -codecs, die vom Mobilgerät unterstützt werden. Für verschiedene Codecs von MP4- und 3GPP-Dateien gibt es verschiedene Dimensionswerte. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionswerten zugeordnet werden.
+* **Unterstützung** von mobilen Videos: Die Videodateiformate und -codecs, die vom Mobilgerät unterstützt werden. Für verschiedene Codecs von MP4- und 3GPP-Dateien gibt es verschiedene Dimensionselemente. Werte in dieser Dimension schließen sich nicht gegenseitig aus; Ein einzelner Treffer kann mehreren Dimensionselementen zugeordnet werden.
 
 ## Trennen des iPhone nach Modell oder Version
 
