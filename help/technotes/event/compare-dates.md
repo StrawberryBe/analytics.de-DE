@@ -2,7 +2,10 @@
 title: Datumswerte, die von einem Ereignis beeinflusst wurden mit vorherigen Datumsbereichen vergleichen
 description: Erfahren Sie mehr über die Auswirkungen eines Ereignisses, z. B. ein Implementierungsproblem oder ein Ausfall, indem Sie es mit früheren Trends vergleichen.
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ Wenn Daten von einem Ereignis [](overview.md)beeinflusst werden, können Sie his
 
 Erstellen Sie einen Datumsbereich, der das Ereignis umfasst, um die Auswirkungen dieses Ereignisses zu untersuchen.
 
-1. Navigieren Sie zu **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
-2. Klicken Sie auf **[!UICONTROL Add]**.
-3. Wählen Sie den Datumsbereich aus, in dem das Ereignis aufgetreten ist. Klicken Sie auf **[!UICONTROL Save]**.
+1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Datumsbereiche]**.
+2. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
+3. Wählen Sie den Datumsbereich aus, in dem das Ereignis aufgetreten ist. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![Datumsbereichsaufbau](assets/date_range_builder.png)
 
@@ -29,7 +32,7 @@ Sie können eine beliebige Metrik zwischen dem Datumsbereich des Ereignisses mit
 
    ![Datumsbereichsmetrik](assets/date_range_metric.png)
 
-2. Klicken Sie mit der rechten Maustaste auf den Datumsbereich und dann auf **[!UICONTROL Add time period column]** > **[!UICONTROL Custom date range to this date range]**.
+2. Klicken Sie mit der rechten Maustaste auf den Datumsbereich und klicken Sie dann auf **[!UICONTROL Hinzufügen Spalte]** des Zeitraums > **[!UICONTROL Benutzerdefinierter Datumsbereich bis zu diesem Datumsbereich]**.
    * Wählen Sie für einen wöchentlichen Vergleich den Bereich des Ereignisses minus 7 Tage aus. Stellen Sie sicher, dass die Wochentage zwischen dem Ereignis und diesem Datumsbereich ausgerichtet sind.
    * Wählen Sie für einen Monatsvergleich den Bereich des Ereignisses im letzten Monat aus. Sie können auch den Bereich des Ereignisses minus 28 Tage auswählen, wenn Sie die Wochentage ausrichten möchten.
    * Wählen Sie für einen Jahresvergleich den Bereich des Ereignisses im letzten Jahr aus.
@@ -39,13 +42,13 @@ Sie können eine beliebige Metrik zwischen dem Datumsbereich des Ereignisses mit
 
 ## Prozentsatzdifferenzen zwischen dem Ereignis und ähnlichen vorherigen Bereichen berechnen
 
-Vergleichen Sie Dimensionswerte zwischen dem Datumsbereich eines Ereignisses und ähnlichen vorherigen Datumsbereichen mithilfe einer Freiform-Tabellenvisualisierung. Diese Schritte illustrieren ein wöchentliches Beispiel, dem Sie folgen können.
+Vergleichen Sie Dimensionselemente zwischen dem Datumsbereich eines Ereignisses und ähnlichen vorherigen Datumsbereichen mithilfe einer Freiform-Tabellenvisualisierung. Diese Schritte illustrieren ein wöchentliches Beispiel, dem Sie folgen können.
 
 1. Öffnen Sie ein Workspace-Projekt und fügen Sie der Freiform-Tabelle eine **Nicht-Zeit-Dimension** hinzu. Sie können beispielsweise die Dimension &quot;Mobilgerätetyp&quot;verwenden. Wenden Sie den kürzlich erstellten Datumsbereich auf eine Metrik wie &quot;Vorfälle&quot;an:
 
    ![Mobilgerätetyp nach betroffenem Datumsbereich](assets/mobile_device_type.png)
 
-2. Klicken Sie mit der rechten Maustaste auf den Datumsbereich und dann auf **[!UICONTROL Compare time periods]** > **[!UICONTROL Custom date range to this date range]**. Wählen Sie den Bereich des Ereignisses minus 7 Tage aus. Stellen Sie sicher, dass die Wochentage zwischen dem Ereignis und diesem Datumsbereich ausgerichtet sind.
+2. Klicken Sie mit der rechten Maustaste auf den Datumsbereich und klicken Sie dann auf **[!UICONTROL Zeiträume]** vergleichen > **[!UICONTROL Benutzerdefinierter Datumsbereich bis zu diesem Datumsbereich]**. Wählen Sie den Bereich des Ereignisses minus 7 Tage aus. Stellen Sie sicher, dass die Wochentage zwischen dem Ereignis und diesem Datumsbereich ausgerichtet sind.
 
    ![Menü &quot;Zeitraum vergleichen&quot;](assets/compare_time_custom.png)
 
@@ -68,6 +71,6 @@ Wenn Sie die oben genannten prozentualen Änderungen weiter analysieren möchten
 
    ![Segmente des Tabellenaufbaus](assets/table_builder_segments.png)
 
-4. Klicken Sie auf **[!UICONTROL Build]**. Aus der Tabelle können Sie die betroffenen Bereiche im Vergleich zur Vorwoche, zum Vormonat und zum Vorjahr für alle gewünschten Segmente Ansicht werden.
+4. Klicken Sie auf **[!UICONTROL Erstellen]**. Aus der Tabelle können Sie die betroffenen Bereiche im Vergleich zur Vorwoche, zum Vormonat und zum Vorjahr für alle gewünschten Segmente Ansicht werden.
 
    ![Fertige Tabelle](assets/table_builder_finished.png)
