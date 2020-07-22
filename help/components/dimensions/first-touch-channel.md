@@ -2,7 +2,7 @@
 title: First Touch-Kanal
 description: Der erste Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,12 +22,12 @@ Jeder Hit, der an Adobe-Datenerfassungsserver gesendet wird, wird über die Vera
 
 Wenn Sie diese Dimension auf einen bestimmten Wert setzen möchten, sind die folgenden Schritte erforderlich:
 
-* Legen Sie den gewünschten Dimensionswert als Kanal im Marketing Kanal-Manager unter Report Suite-Einstellungen fest.
+* Legen Sie das gewünschte Dimensionselement als Kanal im Marketing Kanal-Manager unter Report Suite-Einstellungen fest.
 * Legen Sie eine Verarbeitungsregel für den Marketing Kanal fest, die die gewünschten Kriterien für den Treffer enthält.
 * Der Treffer des Besuchers auf Ihrer Site muss den Kriterien entsprechen, die in der Verarbeitungsregel für den Marketing-Kanal beschrieben sind, _und_ muss der erste Marketingwert sein, der dies im Interaktionszeitraum des Besuchers tut.
 
 Wenn ein nachfolgender Treffer Kriterien unter einem anderen Marketing-Kanal erfüllt, wird diese Dimension nicht mit dem neuen Marketing-Kanal überschrieben.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte enthalten einen beliebigen Kanal im Marketing Kanal-Manager. Standardmäßig umfassen die Werte `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`und `"Referring domains"`. Sie können Kanal im Marketing Kanal-Manager hinzufügen oder löschen, die sich auf die Werte dieser Dimension auswirken.
+Dimensionselemente enthalten einen beliebigen Kanal im Marketing Kanal-Manager. Standardmäßig umfassen die Werte `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`und `"Referring domains"`. Sie können Kanal im Marketing Kanal-Manager hinzufügen oder löschen, die sich auf die Werte dieser Dimension auswirken.
