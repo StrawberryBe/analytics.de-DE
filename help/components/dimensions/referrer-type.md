@@ -2,7 +2,7 @@
 title: Referrer-Typ
 description: Der Typ des Werbers, je nachdem, woher der Besucher stammt.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Referrer-Typ
 
-Die Dimension &quot;Werber-Typ&quot;zeigt an, durch welche generischen Kanal Besucher auf Ihre Site geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), in denen Ihr Unternehmen Regeln für jeden Kanal unterhält, behält Adobe die Regeln für jeden Dimensionswert bei.
+Die Dimension &quot;Werber-Typ&quot;zeigt an, durch welche generischen Kanal Besucher auf Ihre Site geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), in denen Ihr Unternehmen Regeln für jeden Kanal unterhält, behält Adobe die Regeln für jedes Dimensionselement bei.
 
 ## Diese Dimension mit Daten füllen
 
 Diese Dimension verweist auf mehrere Nachschlagetabellen innerhalb von Adobe. Jeder Wert basiert auf dem [Werber](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md)abhängig ist. Vergewissern Sie sich, dass die Dimension &quot;Werber&quot;und die internen URL-Filter korrekt konfiguriert sind.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte beinhalten den Typ des Werbers des Treffers. Zu den spezifischen Werten zählen:
+Dimensionselemente beinhalten den Typ des Werbers des Treffers. Zu den spezifischen Werten zählen:
 
 * **Eingegeben/mit Lesezeichen versehen**: Für den Treffer liegen keine Daten zum Werber vor.
 * **Suchmaschinen**: Der Werber stammt von einer erkannten Suchmaschine, die eine Abfrage mit Suchbegriffen enthält.
@@ -35,7 +35,7 @@ Die folgende Liste bezieht sich auf die Nachschlagetabelle &quot;Social-Netzwerk
 
 >[!NOTE]
 >
->Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den Verarbeitungsregeln für [Marketing Kanal](../c-marketing-channels/c-rules.md).
+>Diese Liste unterscheidet sich von der standardmäßigen Liste sozialer Netzwerke in den Verarbeitungsregeln für [Marketing Kanal](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
@@ -195,9 +195,9 @@ Die folgende Liste bezieht sich auf die Nachschlagetabelle &quot;Social-Netzwerk
 * `zooomr.com`
 * `zhihu.com`
 
-### Suchmaschinen im Dimensionswert &quot;Sonstige Websites&quot;
+### Suchmaschinen im Dimensionselement &quot;Sonstige Websites&quot;
 
 Wenn Sie bestimmte Domänen in der Dimension &quot;Werber-Typ&quot;Ansicht haben, können Domänen, die Sie unter &quot;Suchmaschinen&quot;erwarten würden, stattdessen unter &quot;Andere Websites&quot;aufgeführt werden. Sie können beispielsweise `'google.com'` unter &quot;Andere Websites&quot;sehen.
 
-* **Suchmaschinendomänen im Dimensionswert**&quot;Suchmaschinen&quot;: Der Werber erfüllte alle Kriterien, um von Adobe als Suchmaschine zu klassifizieren. Die verweisende Domäne ist eine gültige Suchmaschine *und* die verweisende URL enthält einen Suchbegriff-Zeichenfolgenparameter.
-* **Suchmaschinendomänen im Dimensionswert**&quot;Sonstige Websites&quot;: Die verweisende URL erfüllte nicht alle Kriterien, um als Suchmaschine zu klassifizieren. Häufige Beispiele sind Subdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel `mail.google.com` oder `autos.yahoo.com` sind keine Suchmaschinen, sondern befinden sich in einer Domäne der obersten Ebene, die normalerweise mit der Suche verbunden ist. Diese Subdomänen enthalten keine Suchbegriff-Abfrage-Zeichenfolge. Daher werden sie unter &quot;Sonstige Websites&quot;und nicht unter &quot;Suchmaschinen&quot;aufgeführt.
+* **Suchmaschinendomänen im Dimensionselement**&quot;Suchmaschinen&quot;: Der Werber erfüllte alle Kriterien, um von Adobe als Suchmaschine zu klassifizieren. Die verweisende Domäne ist eine gültige Suchmaschine *und* die verweisende URL enthält einen Suchbegriff-Zeichenfolgenparameter.
+* **Suchmaschinendomänen im Dimensionselement**&quot;Sonstige Websites&quot;: Die verweisende URL erfüllte nicht alle Kriterien, um als Suchmaschine zu klassifizieren. Häufige Beispiele sind Subdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel `mail.google.com` oder `autos.yahoo.com` sind keine Suchmaschinen, sondern befinden sich in einer Domäne der obersten Ebene, die normalerweise mit der Suche verbunden ist. Diese Subdomänen enthalten keine Suchbegriff-Abfrage-Zeichenfolge. Daher werden sie unter &quot;Sonstige Websites&quot;und nicht unter &quot;Suchmaschinen&quot;aufgeführt.
