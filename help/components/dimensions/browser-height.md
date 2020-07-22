@@ -2,7 +2,7 @@
 title: Browserhöhe - Zusammengefasst
 description: Die Höhe des Browser-Fensters in Pixel.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ Die Browserhöhe ist immer kleiner oder gleich der Bildschirmhöhe, da die Brows
 
 ## Diese Dimension mit Daten füllen
 
-Diese Dimension ruft Daten aus der [`bh` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `window.innerHeight` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), funktioniert diese Dimension standardmäßig. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Parameter `bh` für die Zeichenfolge beim ersten Treffer jedes Besuchs einbeziehen.
+Diese Dimension ruft Daten aus der [`bh` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `window.innerHeight` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. beim Starten der Adobe Experience Platform), funktioniert diese Dimension standardmäßig. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Parameter `bh` für die Zeichenfolge beim ersten Treffer jedes Besuchs einbeziehen.
 
 Adobe behält die Browserhöhe für einen Besuch bei. Wenn die Browserhöhe während des Besuchs angepasst wird, wird die Anpassung nicht aufgezeichnet.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte umfassen alle erfassten Browserhöhen, die in Gruppen von 100 Pixeln klassifiziert sind. Wenn die Browserhöhe eines Treffers beispielsweise `720`beträgt, wird er im Dimensionswert gruppiert `700 to 799`.
+Dimensionselemente umfassen alle erfassten Browserhöhen, die in Gruppen von 100 Pixeln klassifiziert sind. Wenn die Browserhöhe eines Treffers beispielsweise `720`beträgt, wird er im Dimensionselement gruppiert `700 to 799`.
