@@ -3,10 +3,10 @@ title: Übersicht über den Segmentvergleich
 description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“, Teil von Segment IQ in Analysis Workspace, verwenden.
 keywords: Analysis Workspace;Segment IQ
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -91,19 +91,19 @@ Rechts neben der Tabelle der Metriken befindet sich eine verknüpfte Visualisier
 
 ### Top-Dimensionen
 
-Zeigt die statistisch signifikantesten Dimensionswerte für alle Dimensionen an. Alle Zeilen zeigen den Prozentsatz der einzelnen Segmente an, die diesen Dimensionswert enthalten. Diese Tabelle könnte beispielsweise zeigen, dass 100 % der Besucher in Segment A das Dimensionselement „Browsertyp: Google“ hatten, während nur 19,6 % des Segments B dieses Dimensionselement aufwiesen. Ein Differenzwert von 1 bedeutet, dass er statistisch signifikant ist, während ein Differenzwert von 0 bedeutet, dass es keine statistische Bedeutung gibt.
+Zeigt die statistisch bedeutendsten Dimensionselemente über alle Dimensionen hinweg an. Alle Zeilen zeigen den Prozentsatz der einzelnen Segmente an, die dieses Dimensionselement enthalten. Diese Tabelle könnte beispielsweise zeigen, dass 100 % der Besucher in Segment A das Dimensionselement „Browsertyp: Google“ hatten, während nur 19,6 % des Segments B dieses Dimensionselement aufwiesen. Ein Differenzwert von 1 bedeutet, dass er statistisch signifikant ist, während ein Differenzwert von 0 bedeutet, dass es keine statistische Bedeutung gibt.
 
-Diese Visualisierung ähnelt den Freiformtabellen in Analysis Workspace. Wenn eine tiefere Analyse eines bestimmten Dimensionswerts gewünscht wird, halten Sie den Mauszeiger über ein Zeilenelement und klicken Sie auf „Visualisierung erstellen“. Eine neue Tabelle wird erstellt, um diesen spezifischen Dimensionswert zu analysieren. Wenn ein Dimensionswert für Ihre Analyse irrelevant ist, halten Sie den Mauszeiger über den Zeileneintrag und klicken Sie auf das X, um ihn zu entfernen.
+Diese Visualisierung ähnelt den Freiformtabellen in Analysis Workspace. Wenn eine tiefere Analyse eines bestimmten Dimensionselements gewünscht wird, halten Sie den Mauszeiger über einen Zeileneintrag und klicken Sie auf &quot;Visuelle Elemente erstellen&quot;. Eine neue Tabelle wird erstellt, um dieses spezifische Dimensionselement zu analysieren. Wenn ein Dimensionselement für Ihre Analyse irrelevant ist, halten Sie den Mauszeiger über das Zeilenelement und klicken Sie auf das X, um es zu entfernen.
 
 >[!NOTE]
 >
->Dimensionswerte, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt werden, erhalten keine Differenzbewertung.
+>Dimensionselemente, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
 
 ![Top-Dimensionen](assets/top-dimension-item1.png)
 
 ### Dimensionselemente nach Segment
 
-Rechts neben der Dimensionstabelle befindet sich eine verknüpfte Balkendiagrammvisualisierung. Es werden alle angezeigten Dimensionswerte in einem Balkendiagramm angezeigt. Durch Klicken auf ein Zeilenelement in der Tabelle links wird die Visualisierung auf der rechten Seite aktualisiert.
+Rechts neben der Dimensionstabelle befindet sich eine verknüpfte Balkendiagrammvisualisierung. Es werden alle angezeigten Dimensionselemente in einem Balkendiagramm angezeigt. Durch Klicken auf ein Zeilenelement in der Tabelle links wird die Visualisierung auf der rechten Seite aktualisiert.
 
 ![Balkendiagramm für oberste Dimensionen](assets/top-dimension-item.png)
 
