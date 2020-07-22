@@ -2,7 +2,7 @@
 title: eVar (Merchandising)
 description: Benutzerdefinierte Variablen, die mit der Produktdimension verknüpft sind.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von Merchandising-eVars finden Sie unter[eVars](/help/implement/vars/page-vars/evar.md)im Implementierungs-Benutzerhandbuch.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als Dimension funktionieren. For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
 
 Wenn Sie den Erfolg von externen Kampagnen oder externen Suchbegriffen messen möchten, wünschen Sie in der Regel einen einzigen Wert, den Sie für jedes eingetretene Erfolgsereignis der jeweiligen Kampagne oder dem Suchbegriff gutschreiben können. Wenn ein Kunde z. B. auf einen Link in einer E-Mail-Kampagne klickt, um Ihre Website zu besuchen, sollten alle daraus resultierenden Käufe dieser Kampagne gutsgeschrieben werden.
 
@@ -48,7 +48,7 @@ Implementierungsanweisungen finden Sie unter [Merchandising eVars](/help/impleme
 Die Metrik &quot; [Instanzen](../metrics/instances.md) &quot;wird für die Verwendung in Merchandising-Variablen nicht empfohlen.
 
 * Bei Merchandising-Variablen mit Produktsyntax werden Instanzen überhaupt nicht inkrementiert.
-* Bei Merchandising-Variablen mit Konversionsvariablensyntax werden Instanzen jedes Mal gezählt, wenn die eVar eingestellt wird. Er weist den Dimensionswert jedoch zu, `"None"` es sei denn, dass beim selben Treffer alle folgenden Ereignisse eintreten:
+* Bei Merchandising-Variablen mit Konversionsvariablensyntax werden Instanzen jedes Mal gezählt, wenn die eVar eingestellt wird. Er weist jedoch dem Dimensionselement zu, `"None"` es sei denn, dass beim selben Treffer alle folgenden Ereignisse eintreten:
    * Die Merchandising-eVar wird mit einem Wert eingestellt.
    * Die `products` Variable wird mit einem Wert definiert.
    * Ein Binding-Ereignis wird gesetzt.
