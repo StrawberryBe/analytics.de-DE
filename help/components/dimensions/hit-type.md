@@ -2,7 +2,7 @@
 title: Treffertyp
 description: Bestimmt, ob es sich bei dem Treffer um einen Vordergrund- oder Hintergrundschlag handelt.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -16,8 +16,8 @@ Die Dimension &quot;Treffertyp&quot;bestimmt, ob sich eine mobile App im Vorderg
 
 ## Diese Dimension mit Daten füllen
 
-Diese Dimension funktioniert bei allen mobilen SDK-Implementierungen ab Version 4.13.6 standardmäßig. Wenn Sie das mobile SDK nicht verwenden, werden alle Treffer unter dem Dimensionswert &quot;Vordergrund&quot;Liste. If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+Diese Dimension funktioniert bei allen mobilen SDK-Implementierungen ab Version 4.13.6 standardmäßig. Wenn Sie das mobile SDK nicht verwenden, werden alle Treffer unter dem Dimensionselement &quot;Foreground&quot;Liste. If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte enthalten `"Foreground"` und `"Background"`. Jeder Treffer, der nicht im Hintergrund einer mobilen Anwendung gesendet wurde, gehört zum `"Foreground"` Dimensionswert. Jeder Treffer, der gesendet wird, wenn sich die Mobilanwendung im Hintergrund befindet, gehört zum `"Background"` Dimensionswert.
+Dimensionselemente enthalten `"Foreground"` und `"Background"`. Jeder Treffer, der nicht im Hintergrund einer mobilen Anwendung gesendet wurde, gehört zum `"Foreground"` Dimensionselement. Jeder Treffer, der gesendet wird, wenn die Mobilanwendung im Hintergrund war, gehört zum `"Background"` Dimensionselement.
