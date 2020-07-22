@@ -2,7 +2,7 @@
 title: Betriebssystem
 description: Das Betriebssystem des Besuchers.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -16,8 +16,8 @@ Die Dimension &quot;Betriebssystem&quot;zeigt das Betriebssystem und die Version
 
 ## Diese Dimension mit Daten füllen
 
-Diese Dimension verweist auf eine interne Nachschlagetabelle von Adobe. Der Nachschlagewert basiert auf dem `User-Agent` HTTP-Header in Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), funktioniert diese Dimension standardmäßig.
+Diese Dimension verweist auf eine interne Nachschlagetabelle von Adobe. Der Nachschlagewert basiert auf dem `User-Agent` HTTP-Header in Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. beim Starten der Adobe Experience Platform), funktioniert diese Dimension standardmäßig.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Zu den Dimensionswerten gehören Betriebssysteme, die von Besuchern verwendet werden. Beispiele sind `"Windows 10"`, `"OS X 10.15"` und `"Android 9"`.
+Dimensionselemente umfassen Betriebssysteme, die von Besuchern verwendet werden. Beispiele sind `"Windows 10"`, `"OS X 10.15"` und `"Android 9"`.
