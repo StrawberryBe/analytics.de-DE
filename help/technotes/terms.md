@@ -2,10 +2,10 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Kanal:** kann sich auf Folgendes beziehen:
    * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
    * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
-* **Klassifizierung:** eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionswerten ermöglicht. Siehe [Klassifizierungen](/help/components/c-classifications2/c-classifications.md) im Benutzerhandbuch zu Komponenten.
+* **Klassifizierung:** Eine Funktion in Adobe Analytics, mit der Dimensionselemente gruppiert werden können. Siehe [Klassifizierungen](/help/components/c-classifications2/c-classifications.md) im Benutzerhandbuch zu Komponenten.
 * **ClickMap:** wird nicht mehr verwendet. Ein veraltetes Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
 * **Klickdaten-Feed:** Siehe „Daten-Feed“.
 * **Kohorte:** eine Gruppe von Personen, die über einen bestimmten Zeitraum gemeinsame Merkmale aufweisen. Siehe [Was ist eine Kohortenanalyse?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch zu Analysen.
@@ -75,7 +75,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Metrik:** ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension bildet normalerweise ihr Gegenstück.
 * **Multi-Suite-Tagging:** die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung in Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
 * **Normalisierung:** eine Möglichkeit, eine Visualisierung zu organisieren, bei der alle Metriken in gleiche Proportionen umgewandelt werden, sodass Trends leichter verglichen werden können.
-* **Vorfälle:** ein Metriktyp, der anzeigt, in wie vielen Treffern ein Dimensionswert festgelegt oder beibehalten wurde. Siehe die Metrik &quot; [Vorfälle](/help/components/metrics/occurrences.md) &quot;im Komponenten-Benutzerhandbuch.
+* **Vorfälle:** Ein Metriktyp, der anzeigt, wie viele Treffer ein Dimensionselement gesetzt oder dauerhaft ist. Siehe die Metrik &quot; [Vorfälle](/help/components/metrics/occurrences.md) &quot;im Komponenten-Benutzerhandbuch.
 * **Omniture:** wird nicht mehr als Begriff verwendet. Unternehmen, das im Besitz von Adobe Analytics war, bevor es 2009 von Adobe übernommen wurde.
 * **Pfade:** Siehe „Fluss“.
 * **Seitenansicht:** ein Treffertyp, der die Seitenansichten erhöht. Siehe die Metrik &quot; [Ansichten](/help/components/metrics/page-views.md) &quot;im Komponenten-Benutzerhandbuch. Siehe auch „Treffer“.
