@@ -2,7 +2,7 @@
 title: Download-Link
 description: Der Name des Downloadlinks.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 15%
@@ -28,6 +28,6 @@ Wenn Sie Daten mit AppMeasurement an diese Dimension senden möchten:
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"d"`.
 * Senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md) Bildanforderung.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionswerte verwendet werden. Adobe empfiehlt, Links je nach Bedarf des Berichte in aussagekräftige Kategorien zu gruppieren.
+Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionselemente sind. Adobe empfiehlt, Links je nach Bedarf des Berichte in aussagekräftige Kategorien zu gruppieren.
