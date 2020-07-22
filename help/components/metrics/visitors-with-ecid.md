@@ -2,7 +2,7 @@
 title: Besucher mit Experience Cloud ID
 description: Die Anzahl der eindeutigen Besucher, die den Adobe Experience Cloud ID-Dienst verwenden.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -38,4 +38,4 @@ Wenn Sie die berechnete Metrik zum Bericht hinzufügen, können Sie den Seiten-B
 
 ![Seiten ohne ID-Dienst](assets/metric-mcvid3.png)
 
-Beachten Sie, dass der Dimensionswert &quot;Produktschnelle Ansichten&quot;nicht ordnungsgemäß mit dem Identitätsdienst implementiert ist. Sie können mit entsprechenden Teams in Ihrem Unternehmen zusammenarbeiten, um diese Seiten so schnell wie möglich zu aktualisieren. Sie können einen ähnlichen Bericht mit einer beliebigen Dimension wie [Browsertyp](../dimensions/browser-type.md), [Site-Abschnitt](../dimensions/site-section.md)oder einer beliebigen [eVar](../dimensions/evar.md)erstellen.
+Beachten Sie, dass das Dimensionselement &quot;Produktschnelle Ansichten&quot;nicht ordnungsgemäß mit dem Identitätsdienst implementiert ist. Sie können mit entsprechenden Teams in Ihrem Unternehmen zusammenarbeiten, um diese Seiten so schnell wie möglich zu aktualisieren. Sie können einen ähnlichen Bericht mit einer beliebigen Dimension wie [Browsertyp](../dimensions/browser-type.md), [Site-Abschnitt](../dimensions/site-section.md)oder einer beliebigen [eVar](../dimensions/evar.md)erstellen.
