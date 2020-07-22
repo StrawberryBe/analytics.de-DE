@@ -2,10 +2,10 @@
 title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### Link-Name
 
-Das Link-Name-Argument ist eine Zeichenfolge, die den Wert der Linktracking-Dimension bestimmt. Dies entspricht dem Festlegen der [`linkName`](../config-vars/linkname.md)-Variablen.
+Das Linknamenargument ist eine Zeichenfolge, die das Dimensionselement für die Linkverfolgung bestimmt. Dies entspricht dem Festlegen der [`linkName`](../config-vars/linkname.md)-Variablen.
 
 ```js
 s.tl(true,"d","Example download link");
