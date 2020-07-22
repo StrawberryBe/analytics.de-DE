@@ -2,10 +2,10 @@
 title: Echtzeitberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Echtzeitberichte in Adobe Analytics abrufen, die auf Anwender ausgerichtet sind, die mit Google Analytics besser vertraut sind.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Echtzeitereignisse zeigen Ihnen, welche Ereignisse derzeit auf Ihrer Site am hä
 
 >[!NOTE]
 >
->Bei Verwendung benutzerspezifischer Ereignisse in Echtzeitberichten muss der Dimensionswert im selben Treffer wie das benutzerspezifische Ereignis definiert werden. Wenn Sie beispielsweise ein benutzerdefiniertes Ereignis „Registrierungen“ für die Dimension „Referrer-Domäne“ anzeigen, werden ohne zusätzliche Implementierung keine Daten zurückgegeben. Da die verweisende Domäne nur beim ersten Treffer angezeigt wird und ein benutzerspezifisches Ereignis normalerweise später während des Besuchs auftritt, können die Daten nicht in Echtzeitberichten verknüpft werden. Diese Daten stehen in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz von 30 bis 90 Minuten zur Verfügung.
+>Wenn Sie benutzerdefinierte Ereignis in Echtzeitberichten verwenden, muss das Dimensionselement im selben Treffer wie das benutzerdefinierte Ereignis definiert werden. Wenn Sie beispielsweise ein benutzerdefiniertes Ereignis „Registrierungen“ für die Dimension „Referrer-Domäne“ anzeigen, werden ohne zusätzliche Implementierung keine Daten zurückgegeben. Da die verweisende Domäne nur beim ersten Treffer angezeigt wird und ein benutzerspezifisches Ereignis normalerweise später während des Besuchs auftritt, können die Daten nicht in Echtzeitberichten verknüpft werden. Diese Daten stehen in Analysis Workspace mit einer standardmäßigen Verarbeitungslatenz von 30 bis 90 Minuten zur Verfügung.
 
 ## Echtzeitkonversionen
 
