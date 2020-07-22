@@ -2,7 +2,7 @@
 title: Funktionsweise
 description: Verstehen Sie das Konzept der "Wiederholung"im geräteübergreifenden Analytics.
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Das geräteübergreifende Analytics gibt zwei Daten in einer Virtual Report Suite weiter:
 
-* **Live-Heften**: CDA versucht, jeden Treffer beim Eintreten zu verbinden. Netto-neue Geräte mit der Report Suite, die noch nie angemeldet sind, werden normalerweise nicht auf dieser Ebene verknüpft. Bereits erkannte Geräte werden sofort fixiert.
+* **Live-Heften**: CDA versucht, jeden Treffer beim Eintreten zu verbinden. Netto-neue Geräte an die Report Suite, die noch nie angemeldet sind, werden normalerweise nicht auf dieser Ebene verknüpft. Bereits erkannte Geräte werden sofort fixiert.
 * **Wiederholen**: Etwa einmal pro Woche werden Daten von CDA auf der Grundlage von eindeutigen Bezeichnern, die sie gelernt hat, &quot;wiedergegeben&quot;. In dieser Phase werden neue Geräte an die Report Suite angeschlossen.
 
 ## Beispieltabelle
@@ -28,7 +28,7 @@ Sobald ein Treffer erfasst wird, versucht CDA, ihn mit bekannten Geräten zu ver
 *Daten, die am Tag der Erfassung erscheinen:*
 
 | Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Metrik &quot;Personen&quot;(kumulativ) mit Gerätediagramm | Metrik &quot;Personen&quot;(kumulativ) mithilfe der feldbasierten Suche |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an | `1` (246) | `2` (246 und Bob) |
 | `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `2` (246 und 3579) | `3` (246, Bob und 3579) |
@@ -56,7 +56,7 @@ Etwa einmal pro Woche berechnet CDA historische Daten auf Grundlage von Geräten
 *Die gleichen Daten nach der erneuten Wiedergabe:*
 
 | Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Metrik &quot;Personen&quot;(kumulativ) mit Gerätediagramm | Metrik &quot;Personen&quot;(kumulativ) mithilfe der feldbasierten Suche |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an | `1` (Cluster1) | `1` (Bob) |
 | `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `1` (Cluster1) | `1` (Bob) |
@@ -70,4 +70,4 @@ Etwa einmal pro Woche berechnet CDA historische Daten auf Grundlage von Geräten
 
 * **Wenn Sie ein Gerätediagramm verwenden,** werden die Daten beim Veröffentlichen eines Clusters (in der Regel 3 Stunden bis 2 Wochen) zusammengeführt.
 * **Bei Verwendung der feldbasierten Heftfunktion werden bei Daten,** die weniger als eine Woche alt sind, bekannte Geräte sofort zugeschnitten, aber keine neuen oder nicht erkannten Geräte sofort zugeschnitten.
-* Die Daten werden einmal pro Woche wiedergegeben und ändern historische Daten in der Virtual Report Suite auf Grundlage der Geräte, die sie identifiziert haben.
+* Die Daten werden einmal pro Woche wiedergegeben und ändern historische Daten in der Virtual Report Suite auf der Grundlage der Geräte, die sie identifiziert haben.
