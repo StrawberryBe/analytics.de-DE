@@ -2,7 +2,7 @@
 title: Sprache
 description: Die bevorzugte Spracheinstellung im Browser.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -22,6 +22,6 @@ Die Dimension &quot;Sprache&quot;zeigt die wichtigsten Sprachen an, in denen die
 
 Diese Dimension verweist auf eine interne Nachschlagetabelle von Adobe. Der Nachschlagewert basiert auf dem `Accept-Language` HTTP-Header in Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. beim Starten der Adobe Experience Platform), funktioniert diese Dimension standardmäßig.
 
-## Dimensionswerte
+## Dimensionselemente
 
-Dimensionswerte enthalten Anzeigenamen der bevorzugten Sprachen der Besucher. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Wenn eine Bildanforderung keine gültige Sprache im HTTP-Header enthält, lautet der Dimensionswert `"None"`.
+Dimensionselemente enthalten Anzeigenamen der bevorzugten Sprachen der Besucher. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Wenn eine Bildanforderung keine gültige Sprache im HTTP-Header enthält, wird das Dimensionselement `"None"`angezeigt.
