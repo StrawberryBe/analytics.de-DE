@@ -3,10 +3,10 @@ description: Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis un
 title: Analysis Workspace im Vergleich mit Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -19,25 +19,25 @@ Analysis Workspace bringt viele Funktionen von Ad Hoc Analysis in den Arbeitsabl
 
 Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderungen der beiden Produkte finden Sie [hier](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-overview/analytics-product-comparison.html).
 
-## Vergleich der Schlüsselbegriffe  {#section_6109406B83B043A18E46D38F130B1D2E}
+## Vergleich der Schlüsselbegriffe {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Projekt | Workspace oder Projekt |
 | Workspace | Bereich |
 | Bericht | Freiformtabelle |
-| Diagramme | Visualization |
+| Diagramme | Visualisierung |
 | Hierarchie: Projekt > Workspace > Berichte | Hierarchie: Projekt > Bedienfelder > Tabellen |
 | Berichtsvorlagen „Bewerteter Bericht“, „Trendbericht“, „Summenbericht“ | Freiformtabellen-Visualisierung |
 | Flussvorlage | Flussvisualisierung |
 | Fallout | Fallout-Visualisierung |
 
-## Vergleich der wichtigsten Aufgaben  {#section_F31446F1DFA742D794A30D713E223440}
+## Vergleich der wichtigsten Aufgaben {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis  Aufgabe </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis Aufgabe </th> 
    <th colname="col2" class="entry"> Aufgabe in Analysis Workspace </th> 
   </tr>
  </thead>
@@ -56,6 +56,10 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Video: Verwendung von Segmenten in Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Video: Anwenden von Segmenten auf einen Bereich</a> </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p>Erstellen von temporären ("Ad-hoc") Segmenten </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Darüber hinaus können Dropdown-Filter in der Dropzone des Bedienfelds hinzugefügt werden, um viele temporäre Segmente gleichzeitig zu erstellen und so kontrollierte Projektinteraktionen zu ermöglichen. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Ad-hoc-Segmente in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Dropdown-Filter im Analysis Workspace</a> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>Datumsbereiche und Granularitäten auswählen </p> </td> 
    <td colname="col2"> <p>Datumsbereiche und Granularitäten sind im Komponentenmenü „Zeit“ verfügbar und können auf drei Arten verwendet werden: </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
@@ -65,17 +69,13 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > Video: Umgang mit Daten in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > Video: Benutzerdefinierte Datumsbereiche</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Interne Segmente („Ad-hoc-Segmente“) erstellen </p> </td> 
-   <td colname="col2"> <p>Sie können <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >im Handumdrehen interne Segmente („Ad-hoc-Segmente“)</a> in Analysis Workspace erstellen, indem Sie Dimensionselemente in die Segment-Dropzone oben im Bedienfeld ziehen. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Ad-hoc-Segmente in Analysis Workspace</a> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Fallout- und Konversionstrichter verwenden </p> </td> 
    <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > Fallout-Visualisierungen</a> sind in Analysis Workspace im Komponentenmenü „Visualisierung“ verfügbar. Ähnlich wie bei Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Fallout kann für einen Besuch oder Besucher gelten. Optional kann „Alle Besuche“ einbezogen werden. Für Fallout kann über das Kontextmenü schnell ein Trend erstellt werden. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Dimensionselemente können mit einem ODER-Operator verknüpft werden (ähnlich wie Gruppen) und Ereignisse können im Trichter verwendet werden. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Die nächsten Fallthrough- und Fallout-Schritte können auch über das Kontextmenü gerendert werden. </li> 
-    </ol> <p>Außerdem können Sie mit der Fallout-Funktion in Analysis Workspace  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > gemischte Dimensionen</a> innerhalb von Schritten verwenden, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. Gemischte Dimensionen in Schritten werden mit einem UND-Operator verwendet. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Fallout und Trichter</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Verwendung mehrerer Fallout-Dimensionen</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Vergleich von Segmenten in Fallout</a> </p> </td> 
+    </ol> <p>Außerdem können Sie mit der Fallout-Funktion in Analysis Workspace <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > gemischte Dimensionen</a> innerhalb von Schritten verwenden, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. Gemischte Dimensionen in Schritten werden mit einem UND-Operator verwendet. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Video: Fallout und Trichter</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Video: Verwendung mehrerer Fallout-Dimensionen</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Video: Vergleich von Segmenten in Fallout</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fluss untersuchen (Pfade) </p> </td> 
@@ -83,10 +83,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Der Fluss kann für einen Besuch oder Besucher gelten. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Die wichtigsten Statistiken werden als prozentuale Pfadansichten gezeigt. </li> 
-    </ul> <p>Außerdem ermöglicht der Fluss <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > gemischte Dimensionen</a> sowie die Fähigkeit, mit der rechten Maustaste zu klicken und ein Segment zu erstellen, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. </p> <p>Derzeit ist mit dem Fluss in Analysis Workspace Folgendes <b>nicht möglich</b>: </p> 
-    <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
-     <li id="li_384141A577BB4A94899C3E36714225EE">Wiederholte Instanzen deaktivieren. </li> 
-     <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Nutzern ermöglichen, ein Erfolgsereignis zu wählen. </li> 
+    </ul> <p>Außerdem ermöglicht der Fluss <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > gemischte Dimensionen</a> sowie die Fähigkeit, mit der rechten Maustaste zu klicken und ein Segment zu erstellen, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. </p> <p>Derzeit <b>kann</b> Flow in Analysis Workspace nicht zulassen, dass Benutzer ein Ereignis auswählen. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: Übersicht der Flussvisualisierung</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Mehrdimensionaler Fluss</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Segmente aus einem Fluss erstellen</a> </p> </td> 
   </tr> 
   <tr> 
@@ -99,20 +96,12 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites auswählen </p> </td> 
-   <td colname="col2"> <p>Ähnlich wie bei Ad Hoc Analysis kann nur eine Report Suite pro Workspace-Projekt ausgewählt werden. Die Möglichkeit mehrerer Report Suites ist jedoch in Planung. </p> </td> 
+   <td colname="col2"> <p>Mehrere Report Suites können in Analysis Workspace zu einem einzelnen Projekt hinzugefügt werden.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Mehrere Report Suites in Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Mit <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> in Analysis Workspace können Sie Freiformtabellen, Visualisierungen und berechneten Metriken viele neue Attributionsmodelltypen hinzufügen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nicht eingeschlossen </p> </td> 
-   <td colname="col2"> <p>Segmenten Datumsbereiche hinzufügen </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nicht eingeschlossen </p> </td> 
-   <td colname="col2"> <p>„Nur vor“- bzw. „Nur nach“-Sequenz in Segmenten verwenden. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Mit <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> in Analysis Workspace können Sie Freiformtabellen, Visualisierungen und berechneten Metriken viele neue Attributionsmodelltypen hinzufügen. Es umfasst 10 mehr regelbasierte und algorithmische Modelle. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: Zuordnungs-IQ in Freiform-Tabellen</a> </p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
