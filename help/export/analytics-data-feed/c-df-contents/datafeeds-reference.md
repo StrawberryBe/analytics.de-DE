@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '3664'
-ht-degree: 98%
+source-wordcount: '3669'
+ht-degree: 97%
 
 ---
 
@@ -84,7 +84,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `geo_region` | Name des Bundeslands oder der Region, aus der der Treffer stammt, basierend auf der IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Bundesländern bzw. Regionen zuzuordnen. | char(32) |
 | `geo_zip` | Die Postleitzahl, von der der Treffer stammt, basierend auf der IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Postleitzahlen zuzuordnen. | varchar(16) |
 | `hier1 - hier5` | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
-| `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social | tinyint unsigniert |
+| `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Serverseitige Weiterleitung des Audience Managers verwendet | tinyint unsigniert |
 | `hit_time_gmt` | Der Zeitstempfel der Adobe-Datenerfassungsserver erhielt den Treffer, basierend auf der Unix-Zeit. | int |
 | `hitid_high` | Wird zusammen mit hitid_low zur eindeutigen Identifizierung eines Treffers verwendet. | bigint unsigniert |
 | `hitid_low` | Wird zusammen mit hitid_high zur eindeutigen Identifizierung eines Treffers verwendet. | bigint unsigniert |
@@ -169,7 +169,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `prev_page` | Nicht verwendet. Proprietäre Adobe ID der vorherigen Spalte | int unsigniert |
 | `product_list` | Produktliste, so wie sie von der Variable der Produkte übergeben wurde. Produkte sind durch Kommata voneinander getrennt und individuelle Produkteigenschaften durch Semikolons. | text |
 | `product_merchandising` | Nicht verwendet. Verwenden Sie stattdessen product_list. | text |
-| `prop1` – `prop75` | Benutzerdefinierte Traffic-Variablen 1–75. | varchar(100) |
+| `prop1` – `prop75` | Benutzerdefinierte Traffic-Variablen 1 bis 75. | varchar(100) |
 | `purchaseid` | Eindeutige ID für einen Kauf, so wie durch das Festlegen der Variable s_purchaseID bestimmt. Wird von der Spalte duplicate_purchase verwendet. | char(20) |
 | `quarterly_visitor` | Flag zur Bestimmung, ob der Treffer ein neuer Quartals-Besucher ist. | tinyint unsigniert |
 | `ref_domain` | Basiert auf der Referrer-Spalte. Die verweisende Domäne des Treffers. | varchar(100) |
