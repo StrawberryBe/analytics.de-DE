@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 98%
 
 ---
@@ -101,6 +101,7 @@ ht-degree: 98%
       + [Attributionsmodelle und Lookback-Fenster](analysis-workspace/attribution/models.md)
       + [Algorithmische Attribution](analysis-workspace/attribution/algorithmic.md)
       + [Häufig gestellte Fragen](analysis-workspace/attribution/faq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Übersicht über Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
