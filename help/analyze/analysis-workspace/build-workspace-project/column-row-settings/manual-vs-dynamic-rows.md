@@ -2,9 +2,9 @@
 title: Dynamische und statische Dimensionselemente
 description: Interaktion mit dynamischen und statischen Dimensionselementen in Tabellen.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ Dimensionselemente unterschiedlicher Dimensionen können derselben Tabelle hinzu
 Dynamische und statische Zeilen verhalten sich in der Freiformsumme unterschiedlich. Standardmäßig:
 
 * Dynamische Zeilen werden serverseitige und dekorative Metriken wie Besuche oder Besucher summiert
-* Statische Zeilen werden clientseitig zusammengefasst und deaktivieren **keine** Metriken.
-
-[Erfahren Sie mehr über die Gesamtoptionen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) von Workspace für dynamische und statische Zeilen.
+* Statische Zeilen werden clientseitig zusammengefasst und deaktivieren **keine** Metriken. Um die gesamte Zeile serverseitig zu berechnen, ändern Sie die Einstellung &quot;Zeile&quot;auf &quot; **Gesamtsumme** anzeigen&quot;. [Mehr Infos](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
