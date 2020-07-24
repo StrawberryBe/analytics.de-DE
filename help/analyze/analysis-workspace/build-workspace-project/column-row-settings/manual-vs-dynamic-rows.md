@@ -1,10 +1,10 @@
 ---
-title: Dynamische und statische Dimensionselemente
+title: Dynamische und statische Dimensionselemente in Freiform-Tabellen
 description: Interaktion mit dynamischen und statischen Dimensionselementen in Tabellen.
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Wenn Sie beispielsweise die Dimension &quot;Browsertyp&quot;in die Tabelle ziehe
 
 Dynamische Dimensionselemente verfügen über die Option zum Zeilenfilter und sind **nicht** mit Schloss- und X-Symbolen versehen.
 
+![](assets/dynamic-items.png)
+
 ## Statische Dimensionselemente
 
 Elemente der statischen Dimension ändern sich nicht mit der Zeit. Es handelt sich dabei um feste Komponenten, die immer in einer Freiform-Tabelle zurückgegeben werden. Statische Dimensionselemente werden bevorzugt, wenn Sie immer dasselbe Element analysieren möchten, unabhängig davon, ob es sich um bestimmte Kampagnen oder bestimmte Wochentage handelt.
@@ -37,9 +39,13 @@ Wenn Sie beispielsweise über bestimmte Browsertyp-Elemente wie Microsoft und Ap
 
 Statische Dimensionselemente verfügen **nicht** über die Option zum Zeilenfilter. Stattdessen sind für jedes Element Sperren- und X-Symbole vorhanden. Klicken Sie auf das X-Symbol, um dieses Dimensionselement aus der Tabelle zu entfernen.
 
+![](assets/static-items.png)
+
 ## Gemischte Dimensionselemente
 
 Dimensionselemente unterschiedlicher Dimensionen können derselben Tabelle hinzugefügt werden. In diesen Fällen steht in der Kopfzeile der Zeile &quot;Gemischte Dimensionen&quot;. Diese Dimensionselemente sind statisch. Fügen Sie beispielsweise bestimmte Dimensionselemente aus der Dimension &quot;Browsertyp&quot;und andere Dimensionselemente aus der Dimension &quot;Browser&quot;hinzu.
+
+![](assets/mixed-dimensions.png)
 
 ## Freiformsummen
 
