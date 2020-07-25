@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -201,6 +202,6 @@ ht-degree: 92%
    + [Paketmonitore](validate/packet-monitor.md)
    + [Hash-Kollisionen](validate/hash-collisions.md)
 + [Häufig gestellte Fragen](faq.md)
-+ XDM-Daten mit Analytics verwenden {#aep-edge}
-   + [AEP Web SDK verwenden](aep-edge/xdmoverview.md)
++ Verwenden von XDM-Daten mit Analytics {#aep-edge}
+   + [Verwenden von AEP Web SDK](aep-edge/xdmoverview.md)
    + [Manuelles Zuordnen von XDM-Daten zu Analytics](aep-edge/xdm-manual.md)
