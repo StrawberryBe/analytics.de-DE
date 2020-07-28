@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: Messen Sie den Zeitraum zwischen zwei Ereignissen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 100%
@@ -70,7 +70,7 @@ Die `getTimeBetweenEvents`-Methode verwendet die folgenden Argumente:
 * **`rt`** (erforderlich, boolesch): Option, den Timer erneut zu starten. Setzen Sie das Argument auf `true`, wenn Sie den Timer jedes Mal neu starten möchten, wenn die `events`-Variable ein Start-timer-Ereignis enthält. Setzen Sie das Argument auf `false`, wenn der Timer bei einem Start-Timer-Ereignis nicht neu gestartet werden soll.
 * **`stp`** (erforderlich, Zeichenfolge): Stop-Timer-Ereignisse. Eine durch Komma getrennte Zeichenfolge aus Analytics-Ereignissen, die den Timer stoppen sollen.
 * **`res`** (erforderlich, boolesch): Option, den Timer zurückzusetzen. Setzen Sie das Argument auf `true`, wenn Sie die Zeit seit dem Start des Timers aufzeichnen UND den Timer nach dem Stoppen zurücksetzen möchten. Setzen Sie das Argument auf `false`, wenn Sie die Zeit aufzeichnen, den Timer jedoch nicht stoppen möchten. Wenn das Argument auf `false` gesetzt ist, läuft der Timer nach der Aufzeichnung eines Stopp-Ereignisses durch die Ereignisvariable weiter.
-   > [!TIP] Wenn Sie dieses Argument auf `false` setzen, empfiehlt es sich dringend, das unten stehende `rte`-Argument festzulegen.
+   >[!TIP] Wenn Sie dieses Argument auf `false` setzen, empfiehlt es sich dringend, das unten stehende `rte`-Argument festzulegen.
 * **`cn`** (optional, Zeichenfolge): Der Cookie-Name, in dem die Zeit des ersten Ereignisses gespeichert wird. Die Standardeinstellung ist `"s_tbe"`.
 * **`etd`** (optional, Ganzzahl): Die Ablaufzeit für das Cookie in Tagen. Setzen Sie das Argument auf `0`, damit das Cookie am Ende der Browser-Sitzung abläuft. Wenn kein Wert festgelegt ist, wird standardmäßig 1 Tag verwendet.
 * **`fmt`** (optional, Zeichenfolge): Das Format der Zeit, in der die Anzahl der Sekunden zurückgegeben wird (standardmäßig leer)
