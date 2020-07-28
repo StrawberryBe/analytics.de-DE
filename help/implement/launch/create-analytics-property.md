@@ -1,8 +1,11 @@
 ---
 title: Analytics-Eigenschaft in Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,8 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
    * Erweiterung: Core
    * Datenelementtyp: JavaScript-Variable
    * Pfad zur Variable: `window.document.title`
-      > [!NOTE] Hinweis: Dies ist ein Beispielwert für die ersten Schritte. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
+
+      >[!NOTE] Hinweis: Dies ist ein Beispielwert für die ersten Schritte. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
    * Markierter Text
    * Dauer: Seitenansicht
 5. Klicken Sie auf „Speichern“.
