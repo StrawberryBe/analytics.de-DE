@@ -3,10 +3,10 @@ description: Erste Schritte mit Ad Hoc Analysis.
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -93,8 +93,8 @@ Wenn auf Ihrem Rechner immer noch Java 7 installiert ist, müssen Sie vor dem M
 * Wenn Sie zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
 
    1. Gehen Sie zu https://www.java.com.
-   1. Klicken Sie auf **[!UICONTROL Kostenloser Java-Download]**.
-   1. Klicken Sie auf **[!UICONTROL Einverstanden und mit kostenlosem Download beginnen]**.
+   1. Click **[!UICONTROL Java Download]**.
+   1. Click **[!UICONTROL Agree and Start Download]**.
    1. Installieren Sie die neueste Java-Version für Ihr Betriebssystem.
 
 * Wenn Sie **nicht** zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
