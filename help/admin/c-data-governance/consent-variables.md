@@ -2,8 +2,11 @@
 description: Variablen für Berichte beim Datenschutz.
 title: Variablen für Datenschutzberichte
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -35,14 +38,14 @@ Diese Variablen für die Datenschutzberichterstellung bieten ein benutzerfreundl
 Sie können die Variablen für Datenschutzberichte über eine neue Datenschutzeinstellung der Analytics Admin Console aktivieren.
 
 Jede Report Suite kann wie folgt konfiguriert werden:
-1. Klicken Sie in Reports &amp; Analytics auf **[!UICONTROL Admin > Report Suites]**.
-1. Wählen Sie die Report Suites aus, in denen Sie Mediendaten erfassen, und klicken Sie anschließend auf **[!UICONTROL Edit Settings > Privacy Management]**.
+1. Klicken Sie in „Reports &amp; Analytics“ auf **[!UICONTROL Admin > Report Suites]**.
+1. Wählen Sie die Report Suites aus, in denen Sie Mediendaten erfassen, und klicken Sie anschließend auf **[!UICONTROL Einstellungen bearbeiten > Datenschutzmanagement]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Enable Data Privacy Reports]**.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Datenschutzberichte aktivieren]**.
 
-   > [!NOTE] Nach der Aktivierung können diese Variablen nicht mehr deaktiviert werden.
+   >[!NOTE] Nach der Aktivierung können diese Variablen nicht mehr deaktiviert werden.
 
    ![](assets/rsm-privacy-enable.png)
 
