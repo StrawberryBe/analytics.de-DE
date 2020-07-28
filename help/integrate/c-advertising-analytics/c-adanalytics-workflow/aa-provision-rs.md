@@ -3,7 +3,10 @@ description: 'null'
 title: Report Suite für Advertising Analytics aktivieren
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Um die Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede
 1. Wählen Sie die Report Suite aus, die Ihrer Experience Cloud-Organisation zugeordnet ist.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**.
 
-   ![Berichterstellung ](assets/aa_reporting.png)
+   ![Berichterstellung](assets/aa_reporting.png)
 
-   > [!IMPORTANT]„AMO-ID“ bezieht sich auf die Adobe Advertising Cloud-Variable, in die die Suchdaten eingefügt werden sollen.
+   >[!IMPORTANT]„AMO-ID“ bezieht sich auf die Adobe Advertising Cloud-Variable, in die die Suchdaten eingefügt werden sollen.
 
 1. Legen Sie die Variablenzuordnung und die Gültigkeitsdauer für die AMO-ID-Variable fest. Konversionsvariablen (eVars) ermöglichen es Adobe Analytics, Erfolgsereignisse spezifischen Variablenwerten zuzuordnen. Manchmal weisen Variablen mehrere Werte auf, bevor sich ein Erfolgsereignis einstellt. In diesen Fällen wird durch die Zuordnung festgelegt, auf welchen Variablenwert das Ereignis zurückgeführt wird.
 
