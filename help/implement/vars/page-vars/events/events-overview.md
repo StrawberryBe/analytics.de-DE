@@ -2,17 +2,19 @@
 title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 92%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
 
 # events
 
-Dimensionen und Metriken sind wichtige Komponenten für Berichte. Die `events`-Variable ist für die Datenerfassung vieler Metriken auf Ihrer Website verantwortlich.
+Dimensionen und Metriken sind wichtige Komponenten für Berichte. Die `events`-Variable ist für die Datenerfassung vieler Metriken auf Ihrer Website verantwortlich. Ereignis inkrementieren [Metriken](/help/components/metrics/overview.md) normalerweise in Berichten.
+
+Bevor Sie Ereignis implementieren, stellen Sie sicher, dass Sie sie in den Report Suite-Einstellungen unter &quot; [Erfolgseinstellungen](/help/admin/admin/c-success-events/success-event.md) &quot;erstellen und konfigurieren. Wenn Sie planen, benutzerspezifische Ereignis bei Linktracking-Treffern zu verwenden, stellen Sie sicher, dass [`linkTrackVars`](../../config-vars/linktrackvars.md) und [`linkTrackEvents`](../../config-vars/linktrackevents.md) korrekt eingestellt sind.
 
 ## Ereignisse in Adobe Experience Platform Launch
 
@@ -77,12 +79,14 @@ s.events = "event1=2,event2";
 
 Sie können ein benutzerspezifisches Ereignis ändern, um anstelle von Ganzzahlen eine Währung zu verwenden. Währungsereignisse werden automatisch in die Währung der Report Suite konvertiert, wenn die Währung der Report Suite und die `currencyCode`-Variable nicht übereinstimmen. Sie sind hilfreich, um Versandkosten, Rabatte oder Erstattungen zu berechnen. Sie können Währungsereignisse in der `products`-Variablen festlegen, wenn Sie das Ereignis nur diesem Produkt zuordnen möchten.
 
+Stellen Sie vor der Implementierung von Währungseinstellungen sicher, dass Sie das gewünschte Ereignis unter [Erfolgseinstellungen in den Report Suite-Einstellungen auf &quot;Währung&quot;](/help/admin/admin/c-success-events/success-event.md) setzen.
+
 ```js
-// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1=9.99";
 
-// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
@@ -96,11 +100,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 Sie können ein benutzerspezifisches Ereignis ändern, um Dezimalwerte anstelle von Ganzzahlen zu akzeptieren. Numerische Ereignisse verhalten sich ähnlich wie Währungsereignisse, verwenden jedoch keine Währungsumrechnung. Sie können numerische Ereignisse in der `products`-Variablen festlegen, wenn Sie das Ereignis nur diesem Produkt zuordnen möchten.
 
+Stellen Sie vor der Implementierung numerischer Ereignis sicher, dass Sie das gewünschte Ereignis in den Report Suite-Einstellungen unter &quot; [Erfolgseinstellungen](/help/admin/admin/c-success-events/success-event.md) &quot;auf &quot;Nummerisch&quot;setzen.
+
 ```js
-// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1=4.5";
 
-// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
