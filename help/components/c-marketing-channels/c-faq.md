@@ -1,43 +1,39 @@
 ---
-description: Erfahren Sie mehr über Best Practices und Beispiele, wie Sie die verschiedenen Regeln füllen, die Sie ggf. für Ihre Marketing-Kanäle einrichten.
 title: Häufig gestellte Fragen zu Marketing-Kanälen
+description: Häufig gestellte Fragen zu Marketing-Kanälen
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 88%
+source-wordcount: '1348'
+ht-degree: 49%
 
 ---
 
 
 # Häufig gestellte Fragen zu Marketing-Kanälen
 
-Unter [Einrichten von Marketing-Kanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md) finden Sie eine Definition der angezeigten Felder auf der Seite der [!UICONTROL Verarbeitungsregeln des Marketing-Kanals].
+Häufig gestellte Fragen zu Marketing-Kanälen
 
-## Häufig gestellte Fragen {#faq}
-
-Die Implementierungen der Marketingkanal-Verarbeitungsregeln unterscheiden sich je nach verwendetem Trackingcode. Die Konfiguration der Regeln, die die gewünschten Ergebnisse erzielen, will gut durchdacht sein, um Probleme zu vermeiden.
-
-**Frage**: Meine Trackingcodes sind alle verschieden, und für meinen Affiliates-Kanal muss ich Tausende dieser Codes angeben.
+## Meine Trackingcodes folgen keinem Muster und ich habe Tausende, die für meinen Affiliates-Kanal angegeben werden müssen.
 
 * Sortieren Sie aus, was Sie nicht brauchen. Wenn Ihre E-Mail- und Affiliates-Kanäle denselben Abfragezeichenfolgenparameter verwenden, aber nur wenig E-Mail-Trackingcodes vorliegen, können Sie die E-Mail-Trackingcodes in einem Regelsatz zu „email“ angeben. Klassifizieren Sie dann alle weiteren Trackingcodes als *`affiliates.`*
 * Fügen Sie allen Landingpage-URLs in Ihrem E-Mail-System einen Abfragezeichenfolgenparameter hinzu, z. B. *`&ch=eml`*. Erstellen Sie einen Regelsatz, der erkennt, ob der „ch“-Abfrageparameter gleich *`eml`*. Wenn er *`eml`* nicht enthält, ist er ein Affiliate.
 
-**Frage**: Verweisende Domänen enthalten mehr Daten als erwartet.
+## Verweisende Domänen enthalten mehr Daten als erwartet.
 
 * Verweisende Domänen stehen in der Liste der Verarbeitungsregeln eventuell zu weit oben. Da die Verarbeitungsreihenfolge wichtig ist, sollte dies einer der letzten bzw. der letzte Regelsatz sein.
 
-**Frage**: Ich habe eine Regel erstellt, die mit einem Abfragezeichenfolgenparameter übereinstimmt aber nicht funktioniert.
+## Ich habe eine Regel erstellt, die mit einem Abfrage-String-Parameter übereinstimmt und nicht funktioniert.
 
 * Vergewissern Sie sich, dass der Parametername in den Feldern des Abfragenzeichenfolgenparameters angegeben ist (gewöhnlich ein alphanummerischer Wert). Vergewissern Sie sich zudem, dass der Parameterwert nach dem Operator steht, wie in folgendem Beispiel einer E-Mail-Regel dargestellt.
 
    ![](assets/example_email.png)
 
-**Frage**: Warum wird der gesamte Last Touch-Traffic einer internen Domäne zugeschrieben?
+## Warum wird mein gesamter Last Touch-Traffic einer internen Domäne zugeordnet?
 
 * Sie verwenden eine Regel, die internem Traffic entspricht. Denken Sie daran, dass diese Regeln für jeden Treffer auf Ihrer Site verarbeitet werden, nicht nur beim Erstbesuch. Wenn Sie eine Regel wie *`Page URL exists`* ohne weitere Kriterien verwenden, wird bei jedem nachfolgenden Treffer auf Ihrer Site eine Übereinstimmung mit dem betreffenden Kanal erfasst, da die Seiten-URL immer vorhanden ist.
 
-**Frage**: Wie behebe ich Traffic-Fehler, die im Bericht als „Kein Kanal identifiziert“ auftreten?
+## Wie behebe ich Traffic-Fehler, der im Bericht unter Kein Kanal identifiziert angezeigt wird?
 
 * Regeln werden der Reihe nach verarbeitet. Wenn keine Übereinstimmung mit den spezifischen Kriterien vorliegt, fallen die Treffer in eine von drei Kategorien:
 
@@ -81,27 +77,37 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 Last Touch Session Refresh kann nur auftreten, wenn es auch die erste Berührung war - siehe &quot;Beziehung zwischen First &amp; Last Touch&quot; oben. Die folgenden Szenarien erläutern, wie Sitzungsaktualisierung ein First Touch-Kanal sein könnte.
 
-**Szenario 1: Sitzungstimeout**
+* **Sitzungs-Timeout**: Ein Besucher besucht die Website und lässt die Registerkarte dann in ihrem Browser geöffnet, um sie später zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
 
-Ein Besucher ruft die Website auf und lässt die Registerkarte dann in seinem Browser geöffnet, um sie später erneut zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
+* **Nicht alle Seiten der Site sind mit Tags versehen**: Ein Besucher landet auf Seite A, der nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-**Szenario 2: Nicht alle Seiten der Site sind mit Tags versehen**
+* **Umleitungen**: Wenn eine Umleitung nicht so eingerichtet ist, dass sie die Daten des Werbers an die neue Landingpage weiterleitet, gehen die Daten des echten Werbers verloren und jetzt erscheint die Umleitungsseite (wahrscheinlich eine interne Seite) als verweisende Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-Ein Besucher landet auf Seite A, die nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Domänenübergreifender Traffic**: Ein Besucher wechselt von einer Domäne, die zu Suite A ausgelöst wird, zu einer zweiten Domäne, die zu Suite B ausgelöst wird. Wenn in Suite B die interne URL-Filter die erste Domäne enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketing-Kanal ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-**Szenario 3: Umleitungen**
+( **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-Wenn eine Umleitung nicht so eingerichtet ist, dass Referrer-Daten an die neue Landingpage weitergegeben werden, gehen die Referrer-Daten verloren, und die Umleitungsseite (wahrscheinlich eine interne Seite) erscheint als Referrer-Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Löschen von Cookies auf der Mid-Site**: Ein Besucher besucht die Site, und während der Sitzung werden die Cookies gelöscht. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
 
-**Szenario 4: Domänenübergreifender Traffic**
+## Warum werden einige Kanal nach der Änderung der Verarbeitungsregeln für Marketing Kanal nicht geändert?
 
-Ein Besucher wechselt von einer Domäne, die zu Suite A führt, zu einer zweiten Domäne, die zu Suite B führt wird. Wenn in Suite B die internen URL-Filter die erste Domäne enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketingkanäle ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+Manchmal werden Verarbeitungsregeln für Marketing Kanal falsch eingerichtet, sodass Verarbeitungsregeln geändert werden müssen. Nach dem Anwenden der Änderungen sehen Sie einige Metriken, die Daten weiterhin einem falschen Kanal zuordnen. Es gibt mehrere Punkte zu berücksichtigen:
 
-**Szenario 5: Lange Ladezeiten der Entrypage**
+* **Marketing-Kanal-Daten werden in Echtzeit** erfasst: Marketing-Kanal-Daten werden bei der Datenerfassung verarbeitet und sind zu 100 % dauerhaft. Eine Änderung der Verarbeitungsregeln wirkt sich nicht rückwirkend auf die Daten aus.
+* **Das Ändern von Verarbeitungsregeln hat keine unmittelbaren Auswirkungen auf First Touch-Daten**: Beispiel:
+   1. Ein Benutzer gelangt über Ihren E-Mail-Kanal, weil er falsch eingerichtet wurde, und verlässt dann Ihre Site.
+   2. Am nächsten Tag ändern Sie Ihre E-Mail-Verarbeitungsregel, um sie zu korrigieren.
+   3. Dieser Benutzer kommt mehrere Tage später durch kostenlose Suche zurück und kauft ein.
+   4. Der E-Mail-Kanal erhält First Touch-Gutschrift und die kostenlose Suche erhält Last Touch-Gutschrift.
 
-Ein Besucher landet auf Seite A mit viel Inhalt, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+   Auch mehrere Tage nach Änderung der Verarbeitungsregeln können Daten im falschen First Touch-Kanal erfasst werden. First Touch-Daten werden kontinuierlich im falschen Kanal erfasst, bis die Benutzerinteraktion abläuft.
 
-**Szenario 6: Löschen von Cookies mitten auf der Site**
+Die beste Möglichkeit, diese Diskrepanzen zu beheben, besteht darin, einen oder beide der folgenden Schritte durchzuführen:
 
-Ein Besucher besucht die Site und löscht seine Cookies während der Sitzung. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
+* **Manuelles Ablaufdatum aller Besucher-Interaktionszeiträume**: Diese Einstellung läuft alle First Touch- und Last Touch-Kanal in allen Besuchern sofort ab:
+   1. Gehen Sie zu Admin Tools > Report Suites.
+   2. Bewegen Sie den Mauszeiger über &quot;Bildbearbeitungseinstellungen&quot;> &quot;Marketing-Kanal&quot;> &quot;Besucher-Interaktionsablauf&quot;
+   3. Klicken Sie auf Alle ablaufen.
+   4. Klicken Sie auf OK, um das Popup-Fenster mit der Warnung anzuzeigen und zu bestätigen, dass Sie wissen, was es tun wird.
 
+* **Nur Letztkontakt-Metriken der Ansicht ab dem Zeitpunkt, zu dem Sie die Regeln vorwärts** korrigiert haben: Letztkontakt-Metriken folgen immer dem aktuellen Regelsatz. Die Ansicht der Zeit ab dem Zeitpunkt, zu dem Sie die Verarbeitungsregeln ordnungsgemäß weitergeleitet haben, spiegelt die aktuellsten Verarbeitungsregeln wider.
