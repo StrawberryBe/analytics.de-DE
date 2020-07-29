@@ -4,7 +4,10 @@ title: Konfiguration von Echtzeitberichten
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
 1. Wählen Sie die Report Suite aus, für die Sie Echtzeitberichte aktivieren möchten.
 
-   Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** und wählen Sie die Report Suite aus der Dropdown-Liste oben aus:
+   Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Alle Berichte anzeigen > Site-Metriken]** > **[!UICONTROL Echtzeit]** und wählen Sie die Report Suite oben aus dem Dropdown-Menü aus:
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +28,11 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Klicken Sie auf **[!UICONTROL Configure]** (Zahnradsymbol), um den [!UICONTROL Report Suite Manager]Befehl auszuführen.
+1. Klicken Sie auf **[!UICONTROL Konfigurieren]** (Zahnradsymbol), um den [!UICONTROL Report Suite Manager] auszuführen.
 
-   (Auch verfügbar unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
+   (Auch verfügbar unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Echtzeit]**)
 
-1. Schalten Sie die **[!UICONTROL Enable Real-Time]** Einstellung ein.
+1. Aktivieren Sie die Einstellung **[!UICONTROL Echtzeit aktivieren]**.
 1. Richten Sie die Echtzeit-Datenerfassung für bis zu drei Berichte ein, wobei pro Bericht eine Metrik und drei Dimensionen oder Classifications erstellt werden.
 
    ![](assets/real_time_admin.png)
@@ -44,7 +47,7 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
    >
    >Für einzelne Echtzeitberichte wird die Aktivierung doppelter Dimensionen derzeit nicht unterstützt, auch wenn für jede Dimension eine andere Klassifizierung ausgewählt wird.
 
-   Weitere Informationen zu Klassifizierungen finden Sie unter [Informationen über Klassifizierungen](/help/components/c-classifications2/c-classifications.md).
+   Weitere Informationen zu Klassifizierungen finden Sie unter [Informationen über Klassifizierungen](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -52,8 +55,8 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
 
-   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Standardmäßig haben alle Benutzer Zugriff auf Echtzeitberichte.
