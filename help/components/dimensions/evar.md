@@ -2,10 +2,10 @@
 title: eVar
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 72%
+source-wordcount: '788'
+ht-degree: 67%
 
 ---
 
@@ -16,17 +16,19 @@ ht-degree: 72%
 
 eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als eVars angezeigt. Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
-Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
+Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit der Adobe ab. Bis zu 250 eVars stehen zur Verfügung, wenn Ihr Vertrag mit Adobe dies unterstützt.
+
+Bei eVars wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie denselben Wert in verschiedenen Fällen senden (z. B. `"DOG"` und `"Dog"`), gruppiert Analysis Workspace ihn in demselben Dimensionselement. Es wird der erste Wert verwendet, der am Anfang des Berichte angezeigt wird. Data warehouse zeigt den ersten Wert, der während des Anforderungszeitraums gefunden wurde.
 
 ## eVars mit Daten füllen
 
-Jede eVar erfasst Daten aus der [`v1` - `v250` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen. Beispielsweise erfasst der Parameter `v1` Abfrage String Daten für eVar1, während der Parameter `v222` Abfrage String Daten für eVar222 erfasst.
+Jedes eVar erfasst Daten aus der Zeichenfolge [`v1` - `v250` Abfrage](/help/implement/validate/query-parameters.md) in Bildanforderungen. Beispielsweise erfasst der Parameter `v1` Abfrage String Daten für eVar1, während der Parameter `v222` Abfrage String Daten für eVar222 erfasst.
 
 AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datenerfassung kompiliert, verwendet die Variablen `eVar1` - `eVar250`. Implementierungsrichtlinien finden Sie unter [eVar](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.
 
-## Dimensionselemente
+## Dimensionen
 
-Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar verwendet werden. Vergewissern Sie sich, dass Sie den Zweck jeder eVar und typische Dimensionselemente in einem [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
+Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, legt Ihr Unternehmen fest, welche Dimensionselemente für die einzelnen eVar verwendet werden. Vergewissern Sie sich, dass Sie den Zweck der einzelnen eVar und typischen Dimensionselemente in einem [Lösungsdesigndesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
 
 ## Funktionsweise von eVars
 
