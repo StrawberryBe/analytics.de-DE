@@ -5,7 +5,7 @@ user-guide-title: Komponentenleitfaden für Analytics
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 74%
@@ -17,8 +17,8 @@ ht-degree: 74%
 
 + [Hilfe zu den Analytics-Komponenten](home.md)
 + Dimensionen {#dimensions}
-   + [Dimensionen - Übersicht](dimensions/overview.md)
-   + [Dimensionskompatibilität](dimensions/compatibility.md)
+   + [Übersicht über Dimensionen](dimensions/overview.md)
+   + [Kompatibilität mit Dimensionen](dimensions/compatibility.md)
    + [Rangansicht der Suchseite](dimensions/all-search-page-rank.md)
    + [Vormittag/Nachmittag](dimensions/am-pm.md)
    + [Browserhöhe](dimensions/browser-height.md)
@@ -219,33 +219,33 @@ ht-degree: 74%
    + [Warnhinweis-Manager](c-alerts/alert-manager.md)
    + [Intelligente Warnhinweise – Anwendungsfälle](c-alerts/alerts-use-cases.md)
 + Klassifizierungen {#classifications}
-   + [Informationen über Klassifizierungen](c-classifications2/c-classifications.md)
-   + [Informationen über Unterklassifizierungen](c-classifications2/c-sub-classifications.md)
-   + [Konversionsklassifizierungen](c-classifications2/conversion-classifications.md)
-   + [Traffic-Klassifizierungen](c-classifications2/traffic-classifications.md)
-   + [Klassifizierungshierarchien](c-classifications2/classification-hierarchies.md)
+   + [Informationen über Klassifizierungen](classifications/c-classifications.md)
+   + [Informationen über Unterklassifizierungen](classifications/c-sub-classifications.md)
+   + [Konversionsklassifizierungen](classifications/conversion-classifications.md)
+   + [Traffic-Klassifizierungen](classifications/traffic-classifications.md)
+   + [Klassifizierungshierarchien](classifications/classification-hierarchies.md)
    + Classifications importer (Hochladen) {#classifications-importer}
-      + [Classifications importer – Übersicht](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [Klassifizierungsdatendateien](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [Löschen von Classification-Daten](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [Classification-Daten maskieren](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [Nicht klassifizierte Schlüssel](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [Klassifizierungsvorlage](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [Browser- und FTP-Import](c-classifications2/c-classifications-importer/import-file.md)
-      + [Browser-Import](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP-Import](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [Classifications importer – Übersicht](classifications/c-classifications-importer/c-working-with-saint.md)
+      + [Klassifizierungsdatendateien](classifications/c-classifications-importer/c-saint-data-files.md)
+      + [Löschen von Classification-Daten](classifications/c-classifications-importer/t-delete-classification-data.md)
+      + [Classification-Daten maskieren](classifications/c-classifications-importer/t-classifications-escape-data.md)
+      + [Nicht klassifizierte Schlüssel](classifications/c-classifications-importer/nonclassified-keys.md)
+      + [Klassifizierungsvorlage](classifications/c-classifications-importer/c-download-saint-data.md)
+      + [Browser- und FTP-Import](classifications/c-classifications-importer/import-file.md)
+      + [Browser-Import](classifications/c-classifications-importer/browser-import.md)
+      + [FTP-Import](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + Classification Rule Builder {#classifications-rulebuilder}
-      + [Classification Rule Builder-Workflow](c-classifications2/crb/classification-rule-builder.md)
-      + [Klassifizierungsregelsätze](c-classifications2/crb/classification-rule-set.md)
-      + [Klassifizierungsregeln](c-classifications2/crb/classification-quickstart-rules.md)
-      + [Klassifizierungsregeln – Definitionen](c-classifications2/crb/classification-rule-definitions.md)
-      + [Unterklassifizierungen und der Rule Builder](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Classification Rule Builder-Workflow](classifications/crb/classification-rule-builder.md)
+      + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
+      + [Klassifizierungsregeln](classifications/crb/classification-quickstart-rules.md)
+      + [Klassifizierungsregeln – Definitionen](classifications/crb/classification-rule-definitions.md)
+      + [Unterklassifizierungen und der Rule Builder](classifications/crb/sub-classification-rule-builder.md)
    + Numerisch 2 Classifications {#numeric2-classification}
-      + [Numerisch 2 Classifications – Übersicht](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [Numerisch 2 Classifications erstellen](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Numerisch 2 Classifications importieren](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [Beispiele](c-classifications2/c-numeric-2/c-examples.md)
-   + [Fehlerbehebung für Classifications](c-classifications2/c-classifications-troubleshooting.md)
+      + [Numerisch 2 Classifications – Übersicht](classifications/c-numeric-2/c-numeric-2-classifications.md)
+      + [Numerisch 2 Classifications erstellen](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [Numerisch 2 Classifications importieren](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [Beispiele](classifications/c-numeric-2/c-examples.md)
+   + [Fehlerbehebung für Classifications](classifications/c-classifications-troubleshooting.md)
 + [Kalenderereignisse](t-calendar-event.md)
 + Echtzeitberichterstellung {#real-time-reporting}
    + [Übersicht über die Echtzeitberichterstellung ](c-real-time-reporting/realtime.md)
