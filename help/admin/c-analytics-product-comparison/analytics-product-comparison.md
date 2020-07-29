@@ -2,10 +2,10 @@
 description: Systemanforderungen und ein Vergleich von Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse und Data Workbench
 title: Analytics – Produktvergleich und Voraussetzungen
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 55%
+source-wordcount: '672'
+ht-degree: 54%
 
 ---
 
@@ -26,9 +26,9 @@ Informationen zu den zu verwendenden Adobe Analytics-Produkten finden Sie [hier]
 | **Sichtbare Zeilenbegrenzung (vor Paginierung)** | 400 | 200 | 50000 | Unbegrenzt | Unbegrenzt | Unbegrenzt | 50000 |
 | **Mehrere Report Suites** | [Ja](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | Ja, mit Einschränkungen | Ja | Nein | Ja | Nein | Ja |
 | **Anzahl der Aufschlüsselungen** | Unbegrenzt | Bis zu 2 | Bis zu 2 | Unbegrenzt | Unbegrenzt | Unbegrenzt | Unbegrenzt, mehrere Abfragen |
-| &quot;**Segmentierung** <br>[Weitere Informationen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Ja | Ja | Ja | Ja, mit [Einschränkungen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Ja | Nein | Ja |
+| **Segmentierung** <br>[Weitere Informationen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Ja | Ja | Ja | Ja, mit [Einschränkungen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Ja | Nein | Ja |
 | **Berechnete Metriken** <br>[Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/cm-overview.html) | Ja, mit [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Ja | Ja | Nein | Ja | Nein | Ja, mit [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **Marketing-Kanal** <br>[Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Ja | Ja | Ja | Ja | Ja | Ja - va_finder, va_closer | Ja |
+| **Marketing-Kanal** <br>[Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Ja | Ja | Ja | Ja | Ja | Ja - [va_finder, va_closer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | Ja |
 | **Kohorte-Analyse** | [Ja](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | Nein | Nein | Nein | Ja | Nein | Nein |
 | **Attribution** | Ja, mit [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Limited | Limited | Nein | Ja | Nein | Ja, mit [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **Funktionen** von Virtual Analyst <br>[Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
