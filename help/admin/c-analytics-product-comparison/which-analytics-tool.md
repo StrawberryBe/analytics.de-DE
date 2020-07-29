@@ -3,7 +3,7 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 
 ## Importieren von Daten in Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Classifications](/help/components/c-classifications2/c-classifications.md)** sollte verwendet werden:
+**[Classifications](/help/components/classifications/c-classifications.md)** sollte verwendet werden:
 
 * Wenn Metadaten vorliegen, die Sie einem Erfassungswert (eVar, prop, Marketingkanal) zuweisen möchten.
 * Optionen:
