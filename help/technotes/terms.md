@@ -2,7 +2,7 @@
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,13 +32,13 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Kanal:** kann sich auf Folgendes beziehen:
    * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
    * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
-* **Klassifizierung:** Eine Funktion in Adobe Analytics, mit der Dimensionselemente gruppiert werden können. Siehe [Klassifizierungen](/help/components/c-classifications2/c-classifications.md) im Benutzerhandbuch zu Komponenten.
+* **Klassifizierung:** Eine Funktion in Adobe Analytics, mit der Dimensionselemente gruppiert werden können. Siehe [Klassifizierungen](/help/components/classifications/c-classifications.md) im Benutzerhandbuch zu Komponenten.
 * **ClickMap:** wird nicht mehr verwendet. Ein veraltetes Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
 * **Klickdaten-Feed:** Siehe „Daten-Feed“.
 * **Kohorte:** eine Gruppe von Personen, die über einen bestimmten Zeitraum gemeinsame Merkmale aufweisen. Siehe [Was ist eine Kohortenanalyse?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch zu Analysen.
 * **Erfassungs-Server:** Siehe „Datenerfassungs-Server“.
 * **Kontextdatenvariablen:** temporäre Variablen, die ausschließlich in Verarbeitungsregeln verwendet werden. Die Werte der Kontextdatenvariablen gehen dauerhaft verloren, wenn eine Verarbeitungsregel sie nicht in eine Konversions- oder Traffic-Variable kopiert. Siehe [Kontextdatenvariablen](../implement/vars/page-vars/contextdata.md) im Benutzerhandbuch zu Implementierungen.
-* **Konversionsvariable:** Auch als eVars bezeichnet. Speichert einen benutzerspezifischen Wert und behält den Variablenwert bei, bis er abläuft. Siehe die [eVar](/help/components/dimensions/evar.md) -Dimension im Komponenten-Benutzerhandbuch.
+* **Konversionsvariable:** Auch als eVars bezeichnet. Speichert einen benutzerspezifischen Wert und behält den Variablenwert bei, bis er abläuft. Siehe auch [eVar](/help/components/dimensions/evar.md) -Dimension im Komponenten-Benutzerhandbuch.
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
 * **Aktuelle Daten:** eine Option in einigen Berichten, mit der kürzlich gesammelte Daten, die noch nicht vollständig verarbeitet wurden, aufgenommen werden können. Siehe [Aktuelle Daten](/help/analyze/reports-analytics/current-data.md) im Benutzerhandbuch zu Analysen.
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
