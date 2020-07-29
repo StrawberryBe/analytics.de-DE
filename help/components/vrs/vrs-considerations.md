@@ -5,7 +5,7 @@ title: Virtual Report Suites und Multisuite-Tagging
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -53,7 +53,7 @@ Virtual Report Suites verfügen nicht über eigene Dimensionen und Metriken, son
 
 Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. Einige Dimensionen und Ereignisse können zwischen zwei Sites freigegeben werden. Beispielsweise kann bei einer E-Mail-Registrierung dasselbe Ereignis auf mehreren Websites verwendet werden, wodurch dasselbe benutzerspezifische Ereignis ausgelöst wird. Andere Dimensionen können spezifisch für eine Site sein. Beispielsweise kann nur über eine Ihrer Sites vom Benutzer das Profilbild geändert werden. Dieses benutzerspezifische Ereignis wird nur auf der Website implementiert, die es unterstützt.
 
-Stellen Sie sicher, dass die Anzahl der individuellen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele individuelle Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/c-classifications2/c-classifications.md). Sie können zum Beispiel die Klassifizierung „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
+Stellen Sie sicher, dass die Anzahl der individuellen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele individuelle Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/c-classifications.md). Sie können zum Beispiel die Klassifizierung „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
 >[!TIP]
 >
