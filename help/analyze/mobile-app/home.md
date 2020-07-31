@@ -1,26 +1,26 @@
 ---
-title: Adobe Analytics-Dashboard - Übersicht
+title: Adobe Analytics-Dashboards – Übersicht
 description: Produktdokumentation und Selbsthilfe für die Adobe Analytics-Dashboards
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics-Dashboard - Übersicht
+# Adobe Analytics-Dashboards – Übersicht
 
-**[!UICONTROL Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics.]** Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
+**[!UICONTROL Adobe Analytics-Dashboards]** bieten jederzeit und überall Erkenntnisse aus Adobe Analytics. Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
 
-Weitere Informationen zu Adobe Analytics- [!UICONTROL Dashboards]finden Sie in den folgenden Ressourcen:
+Weitere Informationen zu Adobe Analytics-[!UICONTROL Dashboards] finden Sie in den folgenden Ressourcen:
 
-* [Kuratorhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/curator.html)[!UICONTROL : Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ausführende Benutzer in Dashboards helfen]. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von Scorecards zuständig sind.
+* [Kuratorleitfaden](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/curator.html): Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ausführende Benutzer in [!UICONTROL Dashboards] helfen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von Scorecards zuständig sind.
 
-   Eine Videoübersicht zu diesem Handbuch finden Sie im [Adobe Analytics Dashboards Scorecard Builder](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be).
+   Eine Videoübersicht zu diesem Handbuch finden Sie unter [Adobe Analytics Dashboards – Scorecard Builder](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be).
 
 
-* [Schnellstarthandbuch für ausführende Benutzer](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/executive.html)[!UICONTROL : Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in Dashboards zu lesen und zu interpretieren]. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+* [Schnellstarthandbuch für ausführende Benutzer](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/executive.html): Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in [!UICONTROL Dashboards] zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
-   Ein Video, in dem diese Informationen hervorgehoben werden, finden Sie unter In-App-Erfahrung mit [Adobe Analytics-Dashboards](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be).
+   Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be).
