@@ -2,9 +2,9 @@
 description: Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräftigere Dimensionen wie „Stunde des Tages“ oder „Tag der Woche“ unterteilt.
 title: Dimensionen für die Zeitunterteilung
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Zu den Dimensionen für die Zeitunterteilung in Analysis Workspace zählen:
 
 | Dimension | Beispielwerte |
 |--- |--- |
-| Uhrzeit | 0–23 |
+| Stunde des Tages | 0–23 |
 | Vormittag/Nachmittag | Vormittag (AM), Nachmittag (PM) |
 | Wochentag | Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag |
 | Wochenende/Wochentag | Wochenende, Wochentag |
