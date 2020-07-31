@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
       + Spalten- und Zeileneinstellungen {#column-row-settings}
          + [Spalteneinstellungen](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Zeileneinstellungen](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Dynamische und statische Elemente](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Dynamische im Vergleich zu statischen Elementen](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [Einstellungen zum Rückgängigmachen und Wiederherstellen](analysis-workspace/build-workspace-project/undo-redo.md)
       + [In Analysis Workspace verfügbare Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paginierung, Filtern und Sortieren von Tabellen](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [Freiformtabelle](analysis-workspace/visualizations/freeform-table.md)
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [Kohortenanalysebericht konfigurieren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Konfigurieren eines Kohortenanalyseberichts](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Anwendungsfälle für die Kohortenanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Fallout-Übersicht](analysis-workspace/visualizations/fallout/fallout-flow.md)
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [Baumdiagramm](analysis-workspace/visualizations/treemap.md)
    + Bedienfelder {#panels}
       + [Übersicht über Bedienfelder](analysis-workspace/c-panels/panels.md)
-      + [Bedienfeld &quot;Analytics für Zielgruppe&quot;(A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Bedienfeld „Analytics for Target“ (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Attributionsbedienfeld](analysis-workspace/c-panels/attribution.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
-      + [Quick Insights-Bedienfeld](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
+      + Bedienfeld für den Segmentvergleich {#segment-comparison}
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -299,7 +299,7 @@ ht-degree: 98%
    + [Datenextraktion](reports-analytics/data-extract.md)
    + [Trichterberichte](reports-analytics/funnels.md)
    + [Metriken](reports-analytics/metrics.md)
-   + [Ziele](reports-analytics/targets.md)
+   + [Zielgruppen](reports-analytics/targets.md)
    + [Warnhinweise](reports-analytics/alerts.md)
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
@@ -308,10 +308,10 @@ ht-degree: 98%
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Ad Hoc Analysis Project Converter – Übersicht](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad Hoc Analysis konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-      + [Konvertierte Projekte in Analysis Workspace anzeigen](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
+      + [Anzeigen von konvertierten Projekten in Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [Project Converter – FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Übersicht über Ad Hoc Analysis](ad-hoc-analysis/adhoc-home.md)
-   + [Einstieg](ad-hoc-analysis/c-getting-started.md)
+   + [Erste Schritte](ad-hoc-analysis/c-getting-started.md)
    + [Administration](ad-hoc-analysis/c-administration.md)
    + [Ad Hoc Analysis mit Java 11 ausführen](ad-hoc-analysis/adhoc-java.md)
    + [Bestehende Berichte konfigurieren](ad-hoc-analysis/c-reports-configure.md)
@@ -337,7 +337,7 @@ ht-degree: 98%
 + Labs {#tech-previews}
    + [Übersicht über Labs](tech-previews/overview.md)
 + Adobe Analytics-Dashboards {#mobapp}
-   + [Adobe Analytics Dashboards - Übersicht](mobile-app/home.md)
+   + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
    + [Leitfaden für Kuratoren](mobile-app/curator.md)
    + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
 + Progressive Web-Apps {#pwa}
