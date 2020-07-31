@@ -3,9 +3,9 @@ description: Die serverseitige Weiterleitung ist für Kunden bestimmt, die Daten
 solution: Audience Manager
 title: Übersicht über die serverseitige Weiterleitung
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Die serverseitige Weiterleitung führt aus folgenden Gründen zu Optimierungen b
 
 * Reduzierung der Aufrufe auf der Seite. Mit der serverseitigen Weiterleitung müssen Kunden von [!DNL Audience Manager] für die Datenerfassung nicht mehr DIL verwenden, weil die Weiterleitung über Analytics erfolgt. Das Entfernen von DIL bedeutet, einen `"/event"`-Aufruf zu entfernen. Weniger Aufrufe bedeuten verbesserte Ladezeiten der Seite, wodurch sich die Benutzererfahrung auf Ihrer Site verbessert.
 * Nutzung der Datenfreigabe für Experience Cloud-Lösungen.
-* Konformität mit unseren bewährten Methoden für die Audience Manager-Codeimplementierung und -Bereitstellung.
+* Konformität mit unseren Best Practices für die Implementierung und Bereitstellung von Audience Manager-Code.
 
 >[!TIP]
 >
