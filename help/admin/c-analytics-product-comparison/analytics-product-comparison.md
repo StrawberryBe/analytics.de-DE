@@ -10,7 +10,7 @@ ht-degree: 54%
 ---
 
 
-# Analytics  – Produktvergleich und Voraussetzungen
+# Analytics – Produktvergleich und Voraussetzungen
 
 Diese Seite enthält einen Vergleich verschiedener Adobe Analytics-Produkte: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data warehouse, Data Workbench, Data Feeds und Analytics API 2.0.
 
@@ -18,7 +18,7 @@ Informationen zu den zu verwendenden Adobe Analytics-Produkten finden Sie [hier]
 
 | Produktname und Link zur Hilfe | [Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/de-DE/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html) | [Data Feeds](https://docs.adobe.com/content/help/de-DE/analytics/export/analytics-data-feed/data-feed-overview.html) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Zugriffsmethode** | [Browser](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) | [Browser](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) | [MS Excel für Windows](https://docs.adobe.com/content/help/de-DE/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Einrichtung über den Browser. [Mehr Infos](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) | [Windows 64 Bit](https://docs.adobe.com/content/help/de-DE/data-workbench/using/install/c-data-workbench-client-install.html) | Einrichtung über den Browser. [Mehr Infos](https://docs.adobe.com/content/help/de-DE/analytics/export/analytics-data-feed/data-feed-overview.html) | RESTful-API-Tools. Melden Sie sich mit Adobe-E/A-Anmeldeinformationen an. [Mehr Infos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Zugriffsmethode** | [Browser](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) | [Browser](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) | [MS Excel für Windows](https://docs.adobe.com/content/help/de-DE/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Einrichtung über den Browser. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) | [Windows 64 Bit](https://docs.adobe.com/content/help/de-DE/data-workbench/using/install/c-data-workbench-client-install.html) | Einrichtung über den Browser. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/analytics/export/analytics-data-feed/data-feed-overview.html) | RESTful-API-Tools. Melden Sie sich mit Adobe-E/A-Anmeldeinformationen an. [Weitere Infos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Aggregiert | Treffer | Treffer | Aggregiert |
 | **Verfügbare Experience Cloud ID (ECID)** | Nein | Nein | Nein | Ja | Ja | Ja | Nein |
 | **Zeitstempel verfügbar** | Nein | Nein | Nein | Nein | Ja | Ja | Nein |
