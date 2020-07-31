@@ -1,9 +1,9 @@
 ---
 description: Anleitung zum Ausführen von Ad Hoc Analysis mit Java 11.
 title: Ad Hoc Analysis mit Java 11 ausführen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Es gibt einige bekannte Einschränkungen in der mit Ad Hoc Analysis kompatiblen 
 * Verwenden Sie bei Verwendung eines Mac nicht das Mac-Anwendungsmenü (einschließlich *cmd + Q*). Dies kann dazu führen, dass die Ad Hoc Analysis ohne Vorwarnung geschlossen wird. Verwenden Sie stattdessen das Menü innerhalb der Ad Hoc Analysis.
 * Die Visualisierung der Site-Analyse wird bei der Ausführung der Ad Hoc Analysis unter MacOS nicht unterstützt.
 
-## FAQs
+## Häufig gestellte Fragen
 
 **F: Ich erhalte die Fehlermeldung „\bin\javaw kann nicht gefunden werden“ (Beispiel unten). Was soll ich tun?**
 
