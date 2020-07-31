@@ -1,43 +1,43 @@
 ---
-description: Nur-Ansichten-Projekte in Workspace
+description: Schreibgeschützte Projekte in Workspace
 keywords: View-only projects
-title: Arbeitsbereich-Projekte, die nur für Ansichten gedacht sind
-translation-type: tm+mt
+title: Schreibgeschützte Workspace-Projekte
+translation-type: ht
 source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
 
-# Arbeitsbereich-Projekte, die nur für Ansichten gedacht sind
+# Schreibgeschützte Workspace-Projekte
 
-Sie können Projekte über den [Projektfreigabe-Arbeitsablauf](/help/analyze/analysis-workspace/curate-share/share-projects.md)als &quot;nur Ansicht&quot;für Empfänger freigeben. Empfänger, die in der Rolle &quot;Kann Ansicht&quot;platziert wurden, erhalten eine eingeschränktere Projekterfahrung. Dies ist ggf. wünschenswert, wenn Sie ein Projekt für Benutzer freigeben, die mit der Datenstruktur Ihres Unternehmens, dem Arbeitsbereich für Analysen oder Adobe Analytics im Allgemeinen weniger vertraut sind. Sie möchten jedoch dennoch, dass diese Benutzer Daten und Erkenntnisse in einer sicheren Umgebung nutzen.
+Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md) für Empfänger als „schreibgeschützt“ freigeben. Empfänger mit der Rolle „Kann anzeigen“ erhalten ein eingeschränkteres Projekterlebnis. Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzer freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
 
 ![](assets/view-only-project.png)
 
 ## Deaktivierte Interaktionen
 
-Deaktivierte Interaktionen in einem Nur-Ansicht-Projekt umfassen:
+Zu den deaktivierten Interaktionen in einem schreibgeschützten Projekt gehören:
 
 * Ausgeblendete linke Leiste
 * Report Suites
-* Datumsbereich des Bereichskalenders. Hinweis: Wenn Sie Empfängern Kalendersteuerung gewähren möchten, fügen Sie einen [Dropdownfilter mit Datumsbereichen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)hinzu.
+* Datumsbereich des Bedienfeldkalenders. Hinweis: Wenn Sie zulassen möchten, dass die Empfänger Kontrolle über den Kalender haben, fügen Sie einen [Dropdown-Filter mit Datumsbereichen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) hinzu.
 * Freiformfilterung
-* Freiformanzahl der sichtbaren Zeilen
+* Freiform – Anzahl der sichtbaren Zeilen
 * Freiformzeilen-, Spalten- oder Visualisierungseinstellungen
-* Bereichssegmente
-* Menüs &quot;Bearbeiten&quot;, &quot;Einfügen und Komponenten&quot;
-* Tipps zum Arbeitsbereich
+* Bedienfeldsegmente
+* Menüs „Bearbeiten“, „Einfügen“ und „Komponenten“
+* Workspace-Tipps
 
 ## Aktivierte Interaktionen
 
-Zu den bemerkenswerteren aktivierten Interaktionen in einem Nur-Ansicht-Projekt gehören:
+Zu den wichtigen aktivierten Interaktionen in einem schreibgeschützten Projekt gehören:
 
 | Bereich | Aktivierte Interaktionen |
 |---|---|
-| Freiformtabellen | <ul><li>Paginierung und Sortierung</li><li>Bewegen</li><li>Zellauswahl, die verknüpfte Visualisierungen aktualisiert</li><li>Rechtsklick > Visualisierungslink abrufen</li><li>Klicken Sie mit der rechten Maustaste > In Zwischenablage kopieren</li></ul> |
-| Visualisierungen | <ul><li>Klicken zum Aktivieren/Deaktivieren der Legende</li><li>Bewegen</li><li>Rechtsklick > Visualisierungslink abrufen</li><li>Reduzieren/erweitern</li><li>Fluss - Flussknoten erweitern</li><li>Map - Zoom</li></ul> |
-| Bedienfelder | <ul><li>Interaktive Dropdown-Filter</li><li>Klicken Sie mit der rechten Maustaste > Bedienfeldlink abrufen</li><li>Reduzieren/erweitern</li></ul> |
-| Projekt  | <ul><li>Alle Infosymbole überprüfen</li><li>Projektmenü - Neu, Öffnen, Als Landingpage festlegen, Aktualisieren, CSV/PDF herunterladen, Projektinfo und Einstellungen begrenzen</li><li>Menü &quot;Freigeben&quot;- Projektverknüpfung, Datei jetzt senden</li><li>Menü &quot;Hilfe&quot;: Alle Aktionen mit Ausnahme der Optionen &quot;Tipps und Debugger&quot;</li></ul> |
+| Freiformtabellen | <ul><li>Paginierung und Sortierung</li><li>Bewegen</li><li>Zellauswahl, die verknüpfte Visualisierungen aktualisiert</li><li>Rechtsklick > Visualisierungs-Link abrufen</li><li>Rechtsklick > In Zwischenablage kopieren</li></ul> |
+| Visualisierungen | <ul><li>Klicken zum Aktivieren/Deaktivieren der Legende</li><li>Bewegen</li><li>Rechtsklick > Visualisierungs-Link abrufen</li><li>Reduzieren/Erweitern</li><li>Fluss – Flussknoten erweitern</li><li>Karte – Zoomen</li></ul> |
+| Bedienfelder | <ul><li>Interaktive Dropdown-Filter</li><li>Rechtsklick > Bedienfeld-Link abrufen</li><li>Reduzieren/Erweitern</li></ul> |
+| Projekt | <ul><li>Alle Infosymbole überprüfen</li><li>Projektmenü – Neu, Öffnen, Als Landingpage festlegen, Aktualisieren, CSV/PDF herunterladen, eingeschränkte Projektinfo und Einstellungen</li><li>Menü „Freigeben“ – Projekt-Link abrufen, Datei jetzt senden</li><li>Menü „Hilfe“ – Alle Aktionen mit Ausnahme der Optionen für Tipps und Debugger</li></ul> |
