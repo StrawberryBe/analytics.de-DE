@@ -1,11 +1,11 @@
 ---
 title: VRS und Projektkuratierung
 description: Hier erfahren Sie, wie Sie vrs-Komponenten und -Projekte kuratieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
