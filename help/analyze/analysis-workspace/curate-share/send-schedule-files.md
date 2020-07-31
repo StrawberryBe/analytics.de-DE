@@ -1,21 +1,21 @@
 ---
 description: Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
-title: Menü "Freigeben"
+title: Menü „Freigeben“
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Menü &quot;Freigeben&quot;
+# Menü „Freigeben“
 
 Sie können Projekte freigeben und kuratieren sowie Projektdateien (im PDF- oder CSV-Format) sofort oder nach einem Plan senden.
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Freigabe]**
+**[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Freigabe]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
