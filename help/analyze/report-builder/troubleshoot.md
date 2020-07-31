@@ -3,9 +3,9 @@ description: Methoden zur Optimierung der Report Builder-Bereitstellung und eine
 title: Fehlerbehebung und Best Practices für Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere wenn die Arbeitsmappe
 
 **Zellen, die 0 zurückgeben (keine Werte)**
 
-Wenn im Namen des Excel-Arbeitsblatts ein Apostroph oder ein einfaches Anführungszeichen enthalten ist, wird ReportBuilder keine Werte zurückgeben. (Dies ist eine Microsoft Excel-Einschränkung.)
+Wenn im Namen des Excel-Arbeitsblatts ein Apostroph oder ein einfaches Anführungszeichen enthalten ist, wird Report Builder keine Werte zurückgeben. (Dies ist eine Microsoft Excel-Einschränkung.)
 
 **Individuelle Anforderungsleistung**
 
@@ -80,7 +80,7 @@ Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeintr�
 | Aufschlüsselung und Aufschlüsselungsreihenfolge | Wenig | Viele |
 |  | Beispiel: Bei einer Aufteilung von A bis Z sollte die Anzahl der Elemente für A immer niedriger sein als die Anzahl der Elemente für Z. Andernfalls kann sich die Anforderungszeit deutlich erhöhen. |
 | Datumsbereich | Kleiner Bereich | Großer Bereich |
-| Filtern | Spezifische Filter | Am meisten bevorzugte Filter |
+| Filtern | Spezifische Filter | Bevorzugte Filter |
 | Granularität | Aggregiert | Stündlich<ul><li>Täglich</li><li>Wöchentlich</li><li>Monatlich</li><li>Quartalsweise</li><li>Jährlich</li></ul> |
 | Anzahl der Einträge | Kleiner Datensatz | Großer Datensatz |
 
@@ -113,7 +113,7 @@ Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report B
 
 **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**
 
-Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole der ReportBuilder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
+Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole der Report Builder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
 
 **Sie müssen zunächst den[!UICONTROL Anforderungs-Assistenten]beenden, bevor Sie den[!UICONTROL Anforderungs-Manager aktivieren].**
 
