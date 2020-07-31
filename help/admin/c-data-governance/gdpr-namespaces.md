@@ -2,9 +2,9 @@
 description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
 title: Namespaces
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen od
 
 >[!TIP]
 >
->Vermeiden Sie bei der Namespace-Angabe für die Datenschutz-API die Verwendung des Anzeigenamens einer Variablen (der auf der UI für die Berichterstellung angezeigte Name) oder die Nummer der Variablen (z. B. eVar12), es sei denn, es handelt sich um den Namespace, den Sie beim Anwenden der Beschriftung ID-DEVICE oder ID-PERSON angegeben haben. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden. Dies ist beispielsweise der Fall, wenn die ID in manchen Report Suites in unterschiedlichen eVars ist oder die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
+>Vermeiden Sie bei der Namespace-Angabe für die Data Privacy-API die Verwendung des Anzeigenamens einer Variablen (der auf der Benutzeroberfläche für das Reporting angezeigte Name) oder die Nummer der Variablen (z. B. eVar12), es sei denn, es handelt sich um den Namespace, den Sie beim Anwenden der Beschriftung ID-DEVICE oder ID-PERSON angegeben haben. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden. Dies ist beispielsweise der Fall, wenn die ID in manchen Report Suites in unterschiedlichen eVars ist oder die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
 
 >[!CAUTION]
 >
