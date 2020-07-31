@@ -2,11 +2,11 @@
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Mithilfe einer hierarchischen Spaltenansicht ist die Navigation in Berichten mö
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/c-variables.html).
+Details zu individuellen Berichten finden Sie unter [Berichtsbeschreibungen](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/overview.html).
 
 ## Suche nach Berichten {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -42,7 +42,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
 
 >[!NOTE]
 >
-> Sie können in der Berichtsliste nun nach Eigenschaften, eVar-Variablen und Ereignisnummern suchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
+>Sie können in der Berichtsliste nun nach Eigenschaften, eVar-Variablen und Ereignisnummern suchen. Geben Sie in der Suchleiste die Prop, eVar oder die Ereignisnummer ein.
 
 ## Navigationsübersicht {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -64,7 +64,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmente <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Segmentaufbau</a> und <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Segment-Manager</a> zugreifen. </td> 
+   <td colname="col2">Öffnet die Segmentschiene, über die Sie Segmente hinzufügen und verwalten können. Sie können über die Segmentschiene auch auf die Schnittstellen <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Segmentaufbau</a> und <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Segment-Manager</a> zugreifen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Metriken <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -80,7 +80,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Meine Favoriten </span> </td> 
-   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
+   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr ...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Häufig angezeigt</span> </td> 
@@ -107,7 +107,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
    <td colname="col2">Hiermit können Sie den Bericht einem <a href="/help/analyze/reports-analytics/dashboard.md"  >Dashboard</a> hinzufügen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Mehr...</span> </td> 
+   <td colname="col1"><span class="uicontrol">Mehr ...</span> </td> 
    <td colname="col2"> Damit können Sie alle oder mehrere der folgenden Aktionen durchführen: Drucken, Daten extrahieren, einen Warnhinweis hinzufügen, einen benutzerdefinierten Bericht erstellen, ein Diagramm kopieren, einen Link zu diesem Bericht erstellen und ein neues Fenster öffnen. </td> 
   </tr> 
   <tr> 
@@ -121,6 +121,6 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
  </tbody> 
 </table>
 
-## Anpassen des Menüs „Alle Berichte“{#section_7E47312747564FBE8A55EE5726B7DFF4}
+## Anpassen des Menüs „Alle Berichte“ {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
 Administratoren können die Berichte ändern, die im Menü „Berichte“ enthalten sind. Siehe [Menüanpassung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/customize-menus.html) in der Admin-Hilfe.
