@@ -2,9 +2,9 @@
 description: 'null'
 title: Admin Tools
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 + [Code-Manager](code-manager-admin.md)
 + [Konversionsvariablen (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Währungscodes](currency.md)
-+ [Benutzerspezifische Berichtbeschreibung](custom-desc-admin.md)
-+ [Kalender benutzerspezifisch einstellen](custom-calendar.md)
++ [Beschreibung benutzerspezifischer Berichte](custom-desc-admin.md)
++ [Kalender anpassen](custom-calendar.md)
 + [Data Sources](data-sources.md)
 + [Standardmetriken](default-metrics.md)
 + [Nach IP-Adresse ausschließen](exclude-ip.md)
@@ -48,7 +48,7 @@ ht-degree: 100%
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
 + [Übersicht über die serverseitige Weiterleitung](c-server-side-forwarding/ssf.md)
 + [Vereinfachtes Berichtsmenü](t-simplified-menu.md)
-+ [Social-Verwaltung](social-management.md)
++ [Social-Media-Verwaltung](social-management.md)
 + [Übersicht über Erfolgsereignisse](c-success-events/success-event.md)
 + [Zeitstempel optional](timestamp-optional.md)
 + [Übersicht über Traffic-Variablen (Eigenschaft)](c-traffic-variables/traffic-var.md)
