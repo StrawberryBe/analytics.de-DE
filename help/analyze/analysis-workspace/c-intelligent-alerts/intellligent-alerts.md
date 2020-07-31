@@ -2,9 +2,9 @@
 description: Das neue System für intelligente Warnhinweise erlaubt eine feiner abgestufte Kontrolle über Warnhinweise und integriert die Anomalieerkennung in das Warnhinweissystem.
 title: Übersicht über intelligente Warnhinweise
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Die neuen Funktionen „Warnhinweiserstellung“ und „Warnhinweis-Manager“ i
 Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
 * Direkt zum Warnhinweiserstellung wechseln: **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**
-* Verwenden des Tastaturbefehls in Workspace : `Ctrl + Shift + A` (Windows) oder `Cmd + Shift + A` (Mac)
+* Verwenden des Tastaturbefehls in Workspace: `Ctrl + Shift + A` (Windows) oder `Cmd + Shift + A` (Mac)
 * Ein oder mehrerer Freiformtabellen-Zeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen]** auswählen. Dadurch wird der Warnhinweiserstellung geöffnet und die entsprechenden Metriken und angewendeten Filter werden vorab ausgefüllt. Falls erforderlich, können Sie den Warnhinweis dann bearbeiten.
 
    ![Warnhinweis aus Auswahl erstellen](assets/create-alert-from-selection.png)
