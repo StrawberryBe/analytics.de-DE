@@ -2,11 +2,11 @@
 description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatierung konfigurieren. Einige davon sind bedingt.
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,20 +47,20 @@ Die bedingte Formatierung gilt für Obergrenzen, Mittelwerte und Untergrenzen, d
 | Bedingte Formatierung | Färbt Zellen je nach Datenwerten wie folgt ein: <ul><li>Grün: hohe Werte</li><li>Gelb: Mittelpunktwerte</li><li>Rot: niedrige Werte</li></ul><br>Wenn Sie eine Dimension in der Tabelle ersetzen, werden die Grenzwerte für die bedingte Formatierung zurückgesetzt. Wenn Sie eine Metrik ersetzen, werden die Grenzwerte für diese Spalte zurückgesetzt (dabei wird eine Metrik auf der X-Achse und eine Dimension auf der Y-Achse dargestellt). |
 | Prozentbegrenzungen verwenden | Verwenden Sie auf Basis der Prozentwerte für die einzelnen Metriken Obergrenzen, Mittelwerte und Untergrenzen. Diese Einstellung funktioniert mit Metriken, die rein prozentbasiert sind (beispielweise Absprungrate) oder eine Anzahl und einen Prozentsatz aufweisen (beispielsweise Seitenansichten). |
 | Automatisch generiert | Generiert automatisch Grenzwerte für die bedingte Formatierung. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
-| Benutzerspezifisch | Sie können die Werte für die Felder „Obergrenze“, „Mittelpunkt“ und „Untergrenze“ für die bedingte Formatierung manuell festlegen. So können Sie flexibel bestimmen, ob der Wert einer Säule gut, durchschnittlich oder schlecht ist. |
+| Benutzerspezifisch | Sie können die Werte für die Felder „Obergrenze“, „Mittelpunkt“ und „Untergrenze“ für die bedingte Formatierung manuell festlegen. So können Sie flexibel bestimmen, ob der Wert einer Spalte gut, durchschnittlich oder schlecht ist. |
 | Vorschau der Tabellenzelle | Vorschau der jeweiligen Zelle mit allen ausgewählten Formatierungsoptionen |
 
 ## Nicht standardmäßiges Attributionsmodell verwenden
 
-Analyse Workspace unterstützt die [Zuordnung](../../attribution/overview.md) für nahezu jede Metrik.
+Analysis Workspace unterstützt die [Attribution](../../attribution/overview.md) für nahezu jede Metrik.
 
 1. Klicken Sie auf das Zahnradsymbol „Einstellungen“ in einer Freiformtabellenspalte.
 
-   ![Kontrollkästchen &quot;Zuordnung&quot;](assets/attribution-checkbox.png)
+   ![Kontrollkästchen „Attribution“](assets/attribution-checkbox.png)
 
-2. Aktivieren Sie unter **[!UICONTROL Dateneinstellungen]** die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. Aktivieren Sie unter **[!UICONTROL Dateneinstellungen]** die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**. Weitere Informationen zu den unterschiedlichen Attributionsmodellen finden Sie unter [Attributionsmodelle](../../attribution/models.md).
 
-   ![Zuordnungsmodell auswählen](assets/attribution-select.png)
+   ![Attributionsmodell auswählen](assets/attribution-select.png)
 
 
 >[!MORELIKETHIS]
