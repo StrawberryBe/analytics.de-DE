@@ -2,8 +2,11 @@
 description: 'null'
 title: Projekte in Ad Hoc Analysis konvertieren
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
@@ -43,6 +46,6 @@ Für das Konvertieren von Ad Hoc Analysis-Projekten bestehen zwei Optionen:
 **Aktuelles Projekt konvertieren**
 
 1. Öffnen Sie in Ad Hoc Analysis das Projekt, das Sie konvertieren möchten.
-1. Klicken Sie auf **[!UICONTROL Aktuelles Projekt in Analysis Workspace exportieren]**.  ![](assets/export_current.png)
+1. Klicken Sie auf **[!UICONTROL Aktuelles Projekt in Analysis Workspace exportieren.]** ![](assets/export_current.png)
 
 1. In einer [!UICONTROL Exportzusammenfassung] werden nun alle konvertierten Projekte aufgeführt, zusammen mit Statusspalten, in denen angegeben wird, ob das Konvertieren erfolgreich war oder fehlgeschlagen ist, sowie der zugehörige Fehlercode. Wenden Sie sich mit dem `Error-Id: <Error-Code>` an den Adobe-Kundendienst, wenn Sie eine genauere Diagnose benötigen.
