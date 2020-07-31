@@ -1,11 +1,11 @@
 ---
 title: PWAs für Analytics
 description: Progressive Web-Apps für Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ Auf dieser Seite wird die Verwendung von Adobe Analytics mit progressiven Web-Ap
 
 PWAs können eine native App-Erfahrung sowie Offline-Funktionen für eine Website bereitstellen. Normalerweise umfassen PWAs einen Service Worker, Lösungen zum Zwischenspeichern und eine Manifestdatei. Dies alles kann zu schnelleren Ladezeiten, einfacherer Navigation und responsiverem Verhalten beitragen.
 
-Adobe Analytics funktioniert genauso nahtlos mit PWAs wie mit herkömmlichen Websites. Obwohl PWAs einige zusätzliche Anforderungen haben, um sich progressiv zu verhalten, sind sie im Hinblick auf die Datenerfassung und Berichterstellung durch Adobe Analytics mit den gleichen Hindernissen oder Einschränkungen wie herkömmliche Websites verbunden. Da Analytics bereits Offline-Verfolgungsfunktionen enthält, können PWAs Sie bei der Nutzung dieser integrierten Funktion einfacher unterstützen als bei herkömmlichen Websites.
+Adobe Analytics funktioniert genauso nahtlos mit PWAs wie mit herkömmlichen Websites. Obwohl PWAs einige zusätzliche Anforderungen haben, um sich progressiv zu verhalten, sind sie im Hinblick auf die Datenerfassung und Berichterstellung durch Adobe Analytics mit den gleichen Hindernissen oder Einschränkungen wie herkömmliche Websites verbunden. Da Analytics bereits Offline-Tracking-Funktionen enthält, können Sie mit PWAs diese integrierte Funktion einfacher als mit herkömmlichen Websites nutzen.
 
-## PWA-Analysedaten abrufen
+## PWA-Analytics-Daten abrufen
 
-To collect and analyze your PWA data with [!UICONTROL Analytics], you do not need to  make any configuration changes. [!UICONTROL Analytics bietet automatisch die gleichen Funktionen und Merkmale wie bei einer herkömmlichen Website.]
+Zur Erfassung und Analyse Ihrer PWA-Daten mit [!UICONTROL Analytics] müssen Sie keine Konfigurationsänderungen vornehmen. [!UICONTROL Analytics] bietet automatisch die gleichen Funktionen und Merkmale wie bei einer herkömmlichen Website.
 
 ## Offline-Tracking zur Erhöhung der PWA-Effektivität hinzufügen
 
-You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/functions/forceoffline.translate.html) with it. Standardmäßig ist diese Funktion deaktiviert. Sie können der Datei AppMeasurement.js jedoch die folgende Eigenschaft hinzufügen, um sie zu aktivieren: `s.trackOffline=true;`.
+Sie können die Effektivität Ihrer PWA steigern, indem Sie die Adobe Analytics-Funktionen für [Offline-Tracking](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/functions/forceoffline.html) verwenden. Standardmäßig ist diese Funktion deaktiviert. Sie können der Datei AppMeasurement.js jedoch die folgende Eigenschaft hinzufügen, um sie zu aktivieren: `s.trackOffline=true;`.
 
 In der folgenden Datei AppMeasurement.js wurde die Eigenschaft beispielsweise am Ende des Abschnitts `CONFIG SECTION` hinzugefügt:
 
@@ -46,8 +46,8 @@ s.trackOffline=true
 *** 
 ```
 
-Weitere Informationen zum Bearbeiten der Datei AppMeasurement.js finden Sie unter [Einfügen von Code in die Datei AppMeasurement.js](https://docs.adobe.com/content/help/de-DE/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.translate.html).
+Weitere Informationen zum Bearbeiten der Datei AppMeasurement.js finden Sie unter [Einfügen von Code in die Datei AppMeasurement.js](https://docs.adobe.com/content/help/de-DE/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html).
 
-Beispiele für Konfigurationen in der Datei AppMeasurement.js finden Sie unter [Konfigurieren der Datei AppMeasurement.js](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.translate.html#section_042412C29CC249E298F19B2BC2F43CE7).
+Beispiele für Konfigurationen in der Datei AppMeasurement.js finden Sie unter [Konfigurieren der Datei AppMeasurement.js](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html#section_042412C29CC249E298F19B2BC2F43CE7).
 
-Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie in der [Übersicht über die Javascript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/migrate-from-hcode.translate.html).
+Weitere Informationen zu den Eigenschaften der Datei AppMeasurement.js finden Sie in der [Übersicht über die Javascript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/migrate-from-hcode.html).
