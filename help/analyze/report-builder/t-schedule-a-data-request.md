@@ -3,9 +3,9 @@ description: Sie können Berichte entsprechend der von Ihnen festgelegten Datums
 title: Eine Datenanforderung planen
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Nachdem Sie einen Arbeitsmappen-Zeitplan in Report Builder erstellt haben, könn
 
 >[!NOTE]
 >
->Der vom Benutzer eingegebene Wert “Zeitpunkt der Auslieferung“/“Uhrzeit“ gibt den Zeitpunkt an, zu dem die Verarbeitung der Arbeitsmappe beginnt, und nicht den Zeitpunkt, zu dem sie tatsächlich bereitgestellt wird. Die tatsächliche Bereitstellungszeit der Arbeitsmappe hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (bei komplexen und großen Arbeitsmappen dauert die Verarbeitung länger als bei einfacheren Arbeitsmappen). Wenn die Verarbeitung einer Arbeitsmappe z. B. 15 Minuten dauert, ist die tatsächliche Auslieferungszeit frühestens 15 Minuten nach dem ursprünglich angegebenen „Zeitpunkt der Auslieferung“/„Uhrzeit“.
+>Der vom Benutzer eingegebene Wert „Zeitpunkt der Auslieferung“/„Uhrzeit“ gibt den Zeitpunkt an, zu dem die Verarbeitung der Arbeitsmappe beginnt, und nicht den Zeitpunkt, zu dem sie tatsächlich bereitgestellt wird. Die tatsächliche Bereitstellungszeit der Arbeitsmappe hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (bei komplexen und großen Arbeitsmappen dauert die Verarbeitung länger als bei einfacheren Arbeitsmappen). Wenn die Verarbeitung einer Arbeitsmappe z. B. 15 Minuten dauert, ist die tatsächliche Auslieferungszeit frühestens 15 Minuten nach dem ursprünglich angegebenen „Zeitpunkt der Auslieferung“/„Uhrzeit“.
 >Darüber hinaus gibt es weitere Faktoren, die die Verzögerung vor der tatsächlichen Auslieferung der Arbeitsmappe weiter erhöhen können:
 >
 > * **Das gleichzeitige Ausführen vieler verschiedener Zeitpläne desselben Typs** kann das System überlasten. Das Planungssystem erlaubt nur die gleichzeitige Ausführung einiger (5–10) Arbeitsmappen eines Typs. Wenn also mehr als 5–10 gleichzeitig geplant sind, müssen einige warten, bis andere Arbeitsmappen fertig sind, bevor mit deren Verarbeitung begonnen werden kann. Dieses Problem kann behoben werden, indem die Arbeitsmappen eines Unternehmens über den ganzen Tag oder eine Stunde hinweg gestaffelt und nicht gleichzeitig ausgeführt werden.
