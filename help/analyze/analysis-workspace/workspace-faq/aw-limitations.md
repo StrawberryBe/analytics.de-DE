@@ -1,9 +1,9 @@
 ---
 description: Liste der bekannten Einschränkungen in Adobe Analysis Workspace und der zugehörigen Komponenten
 title: Bekannte Einschränkungen in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 ## Visualisierungen
 
 * Visualisierungen, die die Segmentierung nutzen, wie [!UICONTROL Fallout], [!UICONTROL Fluss], [!UICONTROL Kohorte] und [!UICONTROL Histogramm], können keine berechneten Metriken als Eingaben akzeptieren.
-* [!UICONTROL Fluss]: Einstiegs-/Ausstiegsdimensionen, z. B. [!UICONTROL Einstiegsseite], können nicht im Fluss verwendet werden.
+* [!UICONTROL Fluss]: Einstiegs-/Ausstiegsdimensionen, z. B. [!UICONTROL Entrypage], können nicht im Fluss verwendet werden.
 * [!UICONTROL Kohorte]: Nur Ganzzahlen können als Kohortenkriterien verwendet werden.
 
 ## Bedienfelder
