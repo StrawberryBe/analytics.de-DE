@@ -2,11 +2,11 @@
 description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1383'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Für die Erstellung eines Projekts gibt es folgende Ausgangspunkte:
 
 * **Leeres Projekt (Standard)**: Anweisungen hierzu finden Sie unter [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * **Standardvorlage**: Diese Vorlagen werden von Adobe erstellt und mit dem Produkt geliefert.
-* **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen der [!UICONTROL Analysis Workspace erteilt wurde: Berechtigung &quot;Als Vorlage] speichern&quot;in der Admin Console. [Mehr Infos...](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-console/permissions/product-profile.html)
+* **Benutzerdefinierte Vorlage**: Diese Vorlagen können von Benutzern mit Administratorrechten oder von Nichtadministratoren erstellt, freigegeben oder gelöscht werden, sofern ihnen die Berechtigung [!UICONTROL Analysis Workspace: als Vorlage speichern] in der Admin Console erteilt wurde. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -73,11 +73,11 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 >
 >Werbevorlagen sind nur verfügbar, wenn Ihre Report Suite für Advertising Cloud aktiviert ist.
 
-* **Paid Search-Suchmaschinen**: Diese Vorlage bietet eine Aufschlüsselung nach Werbe-Trends, Anzeigenplattformen, Suchbegriffen, Konten, Kampagnen und mehr.
+* **Paid Search-Suchmaschinen**: Diese Vorlage bietet eine Aufschlüsselung nach Werbe-Trends, Anzeigenplattformen, Keywords, Konten, Kampagnen und mehr.
 
 ### Handel
 
-* **Magento: Marketing und Handel**:Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Landingpage, Standort und mehr. Eine Videoübersicht finden Sie unter > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing und Handel**: Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Keyword, Standort und mehr. Eine Videoübersicht finden Sie unter > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Medien
 
