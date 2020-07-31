@@ -3,11 +3,11 @@ description: Metriken bilden die Grundlage der Berichte und helfen Ihnen, die Be
 title: Metriken
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Metriken und die damit verbundenen Daten werden in den Spalten von Berichten ang
 
 [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) werden durch die Kombination von Metriken erstellt.
 
-Eine vollständige Liste der Metriken finden Sie unter [Metriken - Übersicht](/help/components/metrics/overview.md) im Komponenten-Benutzerhandbuch.
+Eine vollständige Liste der Metriken finden Sie unter [Metriken – Übersicht](/help/components/metrics/overview.md) im Benutzerhandbuch für Komponenten.
 
 ## Standard-Berichtsmetriken auswählen
 
