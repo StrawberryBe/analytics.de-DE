@@ -1,19 +1,19 @@
 ---
-description: Durch Aktivierung der App-Verwaltung werden die Variablen für mobile Lösungen aktiviert, die Lebenszyklusmetriken und andere Metriken aus mobilen Anwendungen erfassen.
-title: Anwendungsmanagement
+description: Durch die Aktivierung der App-Verwaltung aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken aus Mobile Apps.
+title: App-Verwaltung
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Anwendungsmanagement
+# App-Verwaltung
 
-Durch Aktivierung der App-Verwaltung werden die Variablen für mobile Lösungen aktiviert, die Lebenszyklusmetriken und andere Metriken aus mobilen Anwendungen erfassen.
+Durch die Aktivierung der App-Verwaltung aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken aus Mobile Apps.
 
 Mithilfe dieser Integration zwischen Adobe Analytics und Mobile Services:
 
@@ -25,7 +25,7 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Mobile Services:
 * werden neue Adobe Mobile-Dimensionen hinzugefügt.
 * werden Daten alle 15 Minuten mit Analytics synchronisiert
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Einstellungen **** bearbeiten > **[!UICONTROL App-Verwaltung]** > **** App-Berichte.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL App-Verwaltung]** > **[!UICONTROL App-Reporting]**.
 
 ## Schritt 1. Aktivieren von Anwendungsberichten {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,19 +50,19 @@ Durch die Aktivierung der Standortverfolgung können Sie:
 Aktivierte Hintergrundtreffer (generierte Treffer, wenn die App im Hintergrund ist) werden als reguläre Vordergrundtreffer behandelt. Sie werden von nun an in der regulären Berichterstellung angezeigt. Dies betrifft auch die Zuweisung. Diese Konfiguration ist normalerweise nur zum Aufrechterhalten der Konsistenz mit alten Implementierungen hilfreich.
 
 Stattdessen empfehlen wird, Hintergrund-Hits in eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) aufzunehmen. Dadurch können Sie die Hits anzeigen, es gibt jedoch keine negativen Auswirkungen auf die Besuchs- und Besucherzahlen.
-Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
+Mobile Klassifizierungen sind aktiviert, wenn Sie **[!UICONTROL App-Verwaltung]** > **[!UICONTROL App-Reporting]** aktivieren.
 
-Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch „Clickthrough-Raten“ genannt) und Konversion in Erfolgsereignisse berichten.
+Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Popmusikbegriffe kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthroughs genannt) und Konversion in Erfolgsereignisse berichten.
 
 | Klassifizierung | Definition |
 |--- |--- |
 | Erster Starttermin | Datum des ersten Starts nach der Installation oder Neuinstallation.   MM/TT/JJJJ |
-| App-ID | Speichert den Applikationsnamen und die Version im folgenden Format:   `[AppName] [BundleVersion]`  Beispiel, `myapp 1.1.` |
-| Startanzahl | Gibt an, wie oft die Applikation gestartet bzw. aus dem Hintergrund gebracht wurde. |
+| App-ID | Speichert den App-Namen und die Version im folgenden Format:   `[AppName] [BundleVersion]`  Beispiel, `myapp 1.1.` |
+| Startanzahl | Gibt an, wie oft die App gestartet bzw. aus dem Hintergrund gebracht wurde. |
 | Tage seit der ersten Verwendung | Anzahl der Tage seit dem ersten Ausführen. |
 | Tage seit der letzten Verwendung | Anzahl der Tage seit der letzten Verwendung. |
 | Stunde des Tages | Misst, zu welcher Stunde die Anwendung gestartet wurde; es wird ein 24-Stunden-Format genutzt. Wird für die Zeitaufteilung verwendet, um Spitzennutzungszeiten zu ermitteln. |
-| Wochentag | Nummer des Wochentags, an dem die Applikation gestartet wurde. |
+| Wochentag | Nummer des Wochentags, an dem die App gestartet wurde. |
 | Gerätename | Speichert den Gerätenamen.  Zweistellige, kommagetrennte Zeichenfolge, die das Gerät angibt. Die erste Ziffer steht üblicherweise für die Gerätegeneration, die zweite weist die Version der verschiedenen Mitglieder der Gerätefamilie aus. |
 | Betriebssystemversion | Betriebssystemversion. |
 | Auflösung | Breite x Höhe in Pixel. |
