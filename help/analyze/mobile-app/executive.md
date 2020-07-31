@@ -1,33 +1,33 @@
 ---
 description: Anleitung zur Verwendung der Dashboard-Scorecards.
 title: Handbuch zu Adobe Analytics-Dashboards
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics-Dashboards: Schnellstarthandbuch für ausführende Benutzer
 
-Die folgenden Informationen enthalten Informationen zu Best Practices für die Verwendung und Anzeige von Adobe Analytics-Dashboards. Ein Video mit diesen Informationen finden Sie unter In-App-Erlebnis für [Adobe Analytics-Dashboard](https://youtu.be/QXqQ_PkArbA).
+Im Folgenden finden Sie Informationen zu Best Practices für die Verwendung und Anzeige von Adobe Analytics-Dashboards. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Einführung
 
-Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
+Adobe Analytics-Dashboards bieten jederzeit und überall Erkenntnisse aus Adobe Analytics.  Die App ermöglicht Benutzern mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
 
 ## Weitere Informationen zu diesem Handbuch
 
-Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in den Analytics-Dashboards zu lesen und zu interpretieren. Die App ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in den Analytics-Dashboards zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
 ## Glossar
 
 | Begriff | Definition |
 |--- |--- |
-| Verbraucher | Ausführende Person, die wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
+| Verbraucher | Ausführende Person, die wichtige Schlüsselmetriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
 | Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
 | Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
 | Scorecard | Eine Ansicht der Dashboards mit einer oder mehreren Kacheln |
@@ -53,17 +53,17 @@ Um die App herunterzuladen und zu installieren, führen Sie die Schritte entspre
 
 **Für ausführende Benutzer mit iOS-Geräten:**
 
-Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
 [iOS-Link](https://apple.co/2zXq0aN)
 
 **Für ausführende Benutzer mit Android-Geräten:**
 
-Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
 [Android-Link](https://bit.ly/2LM38Oo)
 
-Nach dem Herunterladen und der Installation können sich Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden.
+Nach dem Herunterladen und Installieren können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Zugangsdaten bei der App anmelden.
 
 ![Willkommensbildschirm der App](assets/welcome.png)
 
@@ -81,13 +81,14 @@ So verwenden Sie Dashboards:
 
    ![Wählen Sie ein Unternehmen aus.](assets/nextseq.png)
 
-   Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes mit Ihrem Kurator:
+   Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes zusammen mit Ihrem Kurator:
 
    * Sie können sich bei der richtigen Analytics-Instanz anmelden.
    * Die Scorecard wurde für Sie freigegeben.
+
    ![Nichts freigegeben](assets/nothing.png)
 
-4. Untersuchen Sie, wie die Kacheln in der Scorecard angezeigt werden (die erste Scorecard wird im Dark-Modus angezeigt). Weitere Informationen finden Sie unter **Voreinstellungen** unten).
+4. Untersuchen Sie, wie die Kacheln in der Scorecard angezeigt werden. (Die erste Scorecard wird im Dunkelmodus angezeigt. Weitere Informationen finden Sie unter **Voreinstellungen** weiter unten).
 
    ![Erklärte Kacheln](assets/newexplain.png)
 
@@ -96,12 +97,13 @@ So verwenden Sie Dashboards:
    * Die Granularität der Sparklines hängt von der Länge des Datumsbereichs ab:
 
       * Für einen Tag wird ein stündlicher Trend angezeigt.
-      * Mehr als ein Tag und weniger als ein Jahr zeigen einen täglichen Trend
+      * Für mehr als einen Tag und weniger als ein Jahr wird ein täglicher Trend angezeigt.
       * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
    * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
 
    * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.
-   Das folgende Beispiel für eine Scorecard wird im normalen Modus angezeigt:
+
+   Das folgende Beispiel einer Scorecard wird im normalen Modus angezeigt:
 
    ![Beispiel-Scorecard](assets/intro_scorecard.png)
 
@@ -114,11 +116,11 @@ So verwenden Sie Dashboards:
 
    ![Datum ändern](assets/changedate.png)
 
-   * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungs-Ansicht auf dieselbe Weise ändern.
+   * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungsansicht auf dieselbe Weise ändern.
 
    * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
-7. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf das Dropdown-Menü Filter und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in der App funktionieren genauso wie in Analytics Workspace.
+7. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf die Filter-Dropdown-Liste und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
 
    ![Segmentfilter](assets/segment_filter.png)
 
@@ -126,15 +128,15 @@ So verwenden Sie Dashboards:
 
 9. So hinterlassen Sie Feedback zu dieser App:
 
-   1. Tippen Sie auf das Symbol &quot;Einstellungen&quot;oben rechts im App-Bildschirm.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. Tippen Sie auf das Einstellungssymbol oben recht im App-Bildschirm.
+   2. Tippen Sie auf dem Bildschirm **Einstellungen** auf die Option **Feedback**.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
 
       ![Einstellungsbildschirm](assets/settings.png)
 
-10. Um die Voreinstellungen zu ändern, tippen Sie auf die **Option Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dark-Modus einstellen:
+10. Um die Voreinstellungen zu ändern, tippen Sie auf die Option **Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
 
-   ![Dunkler Modus](assets/darkmode.png)
+   ![Dunkelmodus](assets/darkmode.png)
 
 
 **So melden Sie einen Fehler:**
