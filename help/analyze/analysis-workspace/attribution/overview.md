@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 52%
+ht-degree: 93%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 52%
 
 Die Zuordnung gibt Analysten die Möglichkeit, anzupassen, wie Dimensionselemente für Erfolgsereignisse gutgeschrieben werden. Beispiel:
 
-1. Ein Besucher Ihrer Site klickt auf einen Link zur gebührenpflichtigen Suche zu einer Ihrer Produktseiten. Fügen Sie das Produkt zum Einkaufswagen hinzu, kaufen Sie es jedoch nicht.
-2. Am nächsten Tag sehen Sie einen Social-Media-Beitrag von einem ihrer Freunde, klicken Sie auf den Link und schließen Sie den Kauf.
+1. Ein Besucher Ihrer Site klickt auf einen Paid-Search-Link zu einer Ihrer Produktseiten. Er fügt das Produkt zum Warenkorb hinzu, kauft es jedoch nicht.
+2. Am nächsten Tag sieht er einen Social-Media-Beitrag von einem seiner Freunde, klickt auf den Link und schließt den Kauf ab.
 
-In einigen Berichten sollte die Reihenfolge der gebührenpflichtigen Suche zugeordnet werden. In anderen Berichten möchten Sie möglicherweise, dass die Reihenfolge Social zugeordnet wird. Mithilfe der Zuordnung können Sie diesen Aspekt des Berichte steuern. Es steht allen Einrichtungen von Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
+In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
 
-## Wert der Zuordnung IQ
+## Wert von Attribution IQ
 
 Eine Customer Journey ist nie linear und oft unvorhersehbar. Jeder Kunde hat sein eigenes Tempo. Häufig zögert er, bricht ab, beginnt neu oder zeigt ein anderes nicht-lineares Verhalten. Diese organischen Aktionen machen es schwer nachvollziehen, wie sich Marketing-Maßnahmen auf die gesamte Customer Journey auswirken. Außerdem werden die Bemühungen zur Verknüpfung mehrerer Datenkanäle behindert.
 
@@ -40,7 +40,7 @@ Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 
 Attribution IQ umfasst die folgenden Funktionen:
 
-* [Zuordnungsbedienfeld](../c-panels/attribution.md): Nehmen Sie eine beliebige Dimension und Metrik und vergleichen Sie sie schnell mit verschiedenen Zuordnungsmodellen.
-* [Zuordnung auf eine Metrik](../build-workspace-project/column-row-settings/column-settings.md)anwenden: Verwenden Sie eine nicht standardmäßige Zuordnung für eine Metrik in einem Projekt.
-* [Zuordnung auf eine Aufschlüsselung](../components/dimensions/t-breakdown-fa.md)anwenden: Verwenden Sie eine nicht standardmäßige Zuordnung für eine Aufschlüsselung.
-* [Vergleichsmodelle](../components/apply-create-metrics.md): Sehen Sie sich schnell an, wie verschiedene Zuordnungsmodelle für jede Metrik vergleichen.
+* [Bedienfeld „Attribution“](../c-panels/attribution.md): Vergleichen Sie beliebige Dimensionen und Metriken schnell mit verschiedenen Attributionsmodellen.
+* [Attribution auf eine Metrik anwenden](../build-workspace-project/column-row-settings/column-settings.md): Verwenden Sie eine nicht standardmäßige Attribution für eine beliebige Metrik in einem Projekt.
+* [Attribution auf eine Aufschlüsselung anwenden](../components/dimensions/t-breakdown-fa.md): Verwenden Sie eine nicht standardmäßige Attribution für eine Aufschlüsselung.
+* [Attributionsmodelle vergleichen](../components/apply-create-metrics.md): Vergleichen Sie verschiedene Attributionsmodelle für eine beliebige Metrik.
