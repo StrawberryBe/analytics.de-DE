@@ -3,9 +3,9 @@ description: Schritte zum Ausführen der verschiedenen Berichtstypen.
 title: Verschiedene Berichtstypen ausführen
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 Um diesen Bericht auszuführen, wählen Sie einen Bericht aus, z. B. einen Seitenbericht (**[!UICONTROL Berichte]** > **[!UICONTROL Kampagnen]** > **[!UICONTROL Trackingcode]** > **[!UICONTROL Kampagnen-Konversionstrichter]**).
 
-Siehe [Konversionsberichte](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-conversion.html), um eine Beschreibung anzuzeigen.
+Siehe [Konversionsberichte](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/evar.html), um eine Beschreibung anzuzeigen.
 
 ## Fallout-Bericht ausführen {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Sehen Sie sich die neue Anzeige [Fallout-Analyse](https://docs.adobe.com/content
 
 >[!MORELIKETHIS]
 >
->* [Fallout-Bericht – Beschreibung](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Fallout-Bericht – Beschreibung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)
 
 
 ## Seitenflussbericht ausführen {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -97,7 +97,7 @@ Seitenflussberichte zeigen die Reihenfolge an, in der Ihre Besucher auf Seiten z
 
 Sehen Sie sich die neue [Flussvisualisierung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace an.
 
-Führen Sie einen [Pfadbericht](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-paths.html) aus.
+Führen Sie einen [Pfadbericht](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/flow/flow.html) aus.
 
 Klicken Sie zum Beispiel auf **[!UICONTROL Berichte]** > **[!UICONTROL Pfade]** > **[!UICONTROL Seiten]** > **[!UICONTROL Nächster Seitenfluss]**.
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Produkte]** > [Produkt-Konversionstrichter](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Produkte]** > [Produkt-Konversionstrichter](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 ## Marketingkanalbericht ausführen {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -149,7 +149,7 @@ t_anomaly_view.xml
 
 Sehen Sie sich die neuen Funktionen für [Anomalieerkennung und Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) in Analysis Workspace an!
 
-**[!UICONTROL Berichte]** > **[!UICONTROL Site-Metriken]** > **[!UICONTROL Anomalieerkennung]** .
+**[!UICONTROL Berichte]** > **[!UICONTROL Site-Metriken]** > **[!UICONTROL Anomalieerkennung]**.
 
 >[!NOTE]
 >
