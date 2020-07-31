@@ -3,9 +3,9 @@ description: Die Anomalieerkennung verwendet die statistische Modellierung, um u
 title: Anomalieerkennung
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -56,11 +56,11 @@ Mit der Anomalieerkennung werden neue Metrikwerte für jede ausgewählte Metrik 
  </tbody> 
 </table>
 
-ReportBuilder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik für die *`Page Views Lower Bound`* verwendet.
+Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik für die *`Page Views Lower Bound`* verwendet.
 
 **Berechnung der Anomalieerkennung**
 
-Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. In ReportBuilder sind 30 Tage verfügbar.
+Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. In Report Builder sind 30 Tage verfügbar.
 
 Der Schulungszeitraum ist nicht notwendigerweise mit dem ausgewählten Berichtzeitraum identisch. Eine Berichtsgrafik zeigt den Datumsbereich an, den Sie im Kalender angegeben haben.
 
@@ -80,5 +80,5 @@ Wenn Sie beispielsweise einen Bericht für den 1. bis 14. Januar und dann einen
 
 | Berichtszeitraum | Schulungszeitraum |
 |--- |--- |
-| &amp;#x200B;1. bis 14. Januar | 27. November bis 31. Dezember |
+| 1. bis 14. Januar | 27. November bis 31. Dezember |
 | 7. bis 21. Januar | 4. Dezember bis 6. Januar |
