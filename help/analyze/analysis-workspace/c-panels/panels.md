@@ -1,31 +1,31 @@
 ---
 description: 'null'
 title: Übersicht über Bedienfelder
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Übersicht über Bedienfelder
 
-Ein Bedienfeld ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Workspace zugreifen. Bedienfelder sind hilfreich, wenn Sie Ihre Projekte anhand von Zeiträumen, Geschäftsbereichen, Standorten usw. organisieren möchten. Diese sechs Typen von Bereichen stehen in Analyse Workspace zur Verfügung:
+Ein Bedienfeld ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Workspace zugreifen. Bedienfelder sind hilfreich, wenn Sie Ihre Projekte anhand von Zeiträumen, Geschäftsbereichen, Standorten usw. organisieren möchten. In Analysis Workspace gibt es diese sechs Arten von Bedienfeldern:
 
 * [Leeres Bedienfeld](blank-panel.md)
-* [Quick Insight-Bedienfeld](quickinsight.md)
-* [Bereich](a4t-panel.md) &quot;Analyse für Zielgruppe&quot;(in Kürze verfügbar)
+* [Bedienfeld „Quick Insights“](quickinsight.md)
+* [Bedienfeld „Analytics for Target“](a4t-panel.md) (in Kürze verfügbar)
 * [Attributionsbedienfeld](attribution.md)
 * [Freiform-Bedienfeld](freeform-panel.md)
-* [Segmentvergleich feld](c-segment-comparison/segment-comparison.md)
+* [Bedienfeld „Segmentvergleich“](c-segment-comparison/segment-comparison.md)
 
-Die Bedienfelder &quot;Quick Insight&quot;, &quot;Leer&quot;und &quot;Freiform&quot;eignen sich hervorragend zum Beginn Ihrer Analyse, während Analytics für die Zielgruppe, Attribution IQ und Segmentvergleich erweiterte Analysen bereitstellt. In Projekten steht eine `"+"` Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bereiche hinzufügen können.
+Quick Insight-, leere und Freiform-Bedienfelder eignen sich hervorragend als Ausgangspunkt für Ihre Analyse, während sich die Bedienfelder für Analytics for Target, Attribution IQ und Segmentvergleich für fortgeschrittenere Analysen eignen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+Das standardmäßige Startbedienfeld ist das Freiform-Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als Ihren Standard festlegen.
 
-## Dropdown-Filter in Bedienfeldern  {#section_D2828EEDD52944528E87F470EAB581CF}
+## Dropdown-Filter in Bedienfeldern {#section_D2828EEDD52944528E87F470EAB581CF}
 
 Die Dropzone für Bedienfelder verfügt über Dropdown-Filterfunktionen. Mit diesen Filtern können Sie kontrolliert mit den Projektdaten interagieren und somit tiefgreifende Analysen durchführen, Ihre Projekte vereinfachen und/oder Erkenntnisse mit anderen teilen.
 
