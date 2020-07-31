@@ -3,9 +3,9 @@ description: Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivi
 title: Nach IP-Adresse ausschließen
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websi
 
 >[!NOTE]
 >
->Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Serveraufrufe](https://docs.adobe.com/content/help/de-DE/analytics/technotes/terms.html) in Rechnung gestellt.
+>Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://docs.adobe.com/content/help/de-DE/analytics/technotes/terms.html) in Rechnung gestellt.
 
 ## Ausschließen nach Cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne di
 
 >[!NOTE]
 >
->Der Ausschluss nach Computer funktioniert nur dann, wenn:
+>Der Ausschluss nach Computer funktioniert nur, wenn:
 >
 > * Sie von derselben Workstation aus auf Ihre Website zugreifen.
 > * Cookies im derzeit verwendeten Browser aktiviert sind.
@@ -47,7 +47,7 @@ Eine IP-Adresse ist eine Internet-Adresse. Allen Internetbenutzern wird eine num
 
 Seitenansichten und individuelle Seitenbesucher werden anhand ihrer IP-Adressen gezählt bzw. identifiziert. Indem Sie IP-Adressen aus der Erfassung ausschließen, können Sie verhindern, dass Adobe die Aktivität häufiger Besucher verfolgt. Mit dieser Funktion können Sie und Ihre Kollegen Ihre Website besuchen, ohne dadurch die Traffic-Daten zu verfälschen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
 
-Mit Platzhaltern (*) können Sie einen ganzen Adressenbereich ausschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
+Mit Platzhaltern (*) können Sie einen ganzen Adressenbereich ausschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
 
 ## Ausschließen nach Firewall {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
 
