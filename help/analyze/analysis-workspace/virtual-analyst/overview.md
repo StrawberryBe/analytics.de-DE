@@ -3,6 +3,9 @@ title: Virtual Analyst
 description: Erfahren Sie, welche Funktionen in Adobe Analytics Teil von Virtual Analyst sind.
 translation-type: ht
 source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+workflow-type: ht
+source-wordcount: '115'
+ht-degree: 100%
 
 ---
 
