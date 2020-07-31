@@ -2,8 +2,11 @@
 description: 'null'
 title: Project Converter – FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## Bekannte Konvertierungsprobleme {#section_39C922A58B2E49C9877B363042801361}
 
-| Fehler | Beschreibung |
+| Problem | Beschreibung |
 |--- |--- |
 | Minutengranularität mit Aufschlüsselungen oder in Spalten | Wenn die Minutengranularität Aufschlüsselungen enthält oder in Spalten vorhanden ist, kann das Projekt nicht in Analysis Workspace konvertiert werden.  Eine Lösung besteht darin, die Aufschlüsselung für die Minutengranularität zu entfernen, sie aus den Spalten zu entfernen und das Projekt dann zu konvertieren. Anschließend können Sie in Analysis Workspace Aufschlüsselungen für die Minutengranularität anwenden. |
 | Interne, berechnete Metrik, die zusammen mit einem Spaltensegment verwendet wird | Wenn Sie eine interne, berechnete Metrik zusammen mit einem Spaltensegment verwenden, kann das Projekt nicht in Analysis Workspace konvertiert werden. Um dieses Problem zu umgehen, entfernen Sie die internen, berechneten Metriken vor der Konvertierung aus dem Projekt und fügen Sie sie dann erneut in Analysis Workspace hinzu. |
@@ -50,12 +53,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>A: Beachten Sie, dass Diagramme und Grafiken in Workspace als „Visualisierungen“ bezeichnet werden. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Einstellungen</b>: Visualisierungseinstellungen wie die „Anzahl der Elemente“ oder „Anzahl an Balken“ werden in Workspace nicht unterstützt. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Tortendiagramm</b>: Exportiert als <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >Donut</a>-Visualisierung. Diese Visualisierung wird in Workspace nach 19 Abschnitten abgeschnitten. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Blasendiagramm</b>: Exportiert als <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >Streudiagramm</a>-Visualisierung. Im Streudiagramm wird die erste Kennzahl standardmäßig auf der X-Achse positioniert und die zweite auf der Y-Achse. Sofern nur eine Kennzahl vorhanden ist, werden Blasendiagramme in Linienvisualisierungen umgewandelt. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramm</b>: Unterstützt für Analysis Workspace und Ad Hoc Analysis eine unterschiedliche Bucket-Logik. Daher wird ein Histogramm in eine <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >Balken</a> visualisierung umgewandelt. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Tortendiagramm</b>: Exportiert als <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/donut.html"  >Donut</a>-Visualisierung. Diese Visualisierung wird in Workspace nach 19 Abschnitten abgeschnitten. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Blasendiagramm</b>: Exportiert als <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >Streudiagramm</a>-Visualisierung. Im Streudiagramm wird die erste Kennzahl standardmäßig auf der X-Achse positioniert und die zweite auf der Y-Achse. Sofern nur eine Kennzahl vorhanden ist, werden Blasendiagramme in Linienvisualisierungen umgewandelt. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramm</b>: Unterstützt für Analysis Workspace und Ad Hoc Analysis eine unterschiedliche Bucket-Logik. Daher wird ein Histogramm in eine <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/bar.html"  >Balken</a> visualisierung umgewandelt. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Streudiagramm</b>: In exportierten Projekten in Analysis Workspace wird die Y-Achse als erste Spalte, die X-Achse als zweite und der Durchmesser als dritte Spalte festgelegt. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Trichteranalysetabellen</b>: Wenn Sie Fallthrough- oder Trichteranalysetabellen anzeigen möchten, klicken Sie mit der rechten Maustaste auf den Checkpoint und wählen eine Aufschlüsselungsoption aus. </li> 
-     <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumsbereiche für Trichteranalyse-Berichtsebene</b>: Angepasste Datumsbereiche werden nicht auf Trichteranalyse-Visualisierungen angewendet. </li> 
+     <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumsbereiche für Fallout-Berichtsebene</b>: Angepasste Datumsbereiche werden nicht auf Fallout-Visualisierungen angewendet. </li> 
      <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Flussbericht</b>: Der Fluss wird in ein eigenes Panel verschoben, um die Datumsbereiche und Segmentierung beizubehalten. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Konversion Funnel</b>: Wird in eine Freiform-Tabelle konvertiert, da diese Funktion in Analysis Workspace nicht unterstützt wird. Es wird empfohlen, den Conversion Funnel in eine Trichteranalyse-Visualisierung zu konvertieren. Infolgedessen ergibt sich jedoch ein leicht abweichendes Verhalten. </li> 
     </ul> </td> 
