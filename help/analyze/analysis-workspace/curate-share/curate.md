@@ -2,9 +2,9 @@
 description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben.
 keywords: Analysis Workspace curation
 title: Kuratieren von Workspace-Projekten
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ Wenn ein Empfänger ein kuratiertes Projekt öffnet, wird ihm nur der ausgewähl
 ## Entfernen der Projektkuratierung
 
 So entfernen Sie die Projektkuratierung und stellen Sie den vollständigen Satz der Komponenten in der linken Leiste wieder her:
+
 1. Klicken Sie auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
 1. Klicken Sie auf **[!UICONTROL Kuratierung entfernen]**.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
