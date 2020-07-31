@@ -100,7 +100,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Mit <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> in Analysis Workspace können Sie Freiformtabellen, Visualisierungen und berechneten Metriken viele neue Attributionsmodelltypen hinzufügen. Es umfasst 10 mehr regelbasierte und algorithmische Modelle. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: Zuordnungs-IQ in Freiform-Tabellen</a> </p> </td> 
+   <td colname="col2"> <p>Mit <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> in Analysis Workspace können Sie Freiformtabellen, Visualisierungen und berechneten Metriken viele neue Attributionsmodelltypen hinzufügen. Es umfasst 10 mehr regelbasierte und algorithmische Modelle. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Video: Attribution IQ in Freiform-Tabellen</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
