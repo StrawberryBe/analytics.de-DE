@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: Änderungen an Berechtigungen für Benutzer und Gruppen
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Hier finden Sie wichtige neue Informationen zu neuen und geplanten Aktualisierun
       <li id="li_F1219EF490DA473BA15F2B215F2995AE"> Eine benutzerspezifische Gruppe mit mindestens einer Metrik erhält automatisch Zugriff auf alle eVars und andere inhaltsbezogene Dimensionen <b>mit Ausnahme</b> der neuen Traffic-Dimensionen (ehemals Traffic-Berichte). </li> 
       <li id="li_F494CE6144A04A6199CFBBA1D7BEA32B">Jede vordefinierte Gruppe wird in eine Berechtigung umgewandelt. Diese neuen Berechtigungen werden einer neuen Kategorie der <span class="uicontrol">Analytics-Tools</span> hinzugefügt. </li> 
       <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">Jeder benutzerspezifischen Gruppe mit Metriken werden Lösungsereignisse als neue Metrik hinzugefügt. </li> 
-      <li id="li_34C4560769B64F28A4E83BAE71065DCC">Jeder Benutzer, der Teil von Zugriff auf alle Berichte war, wird der neuen benutzerdefinierten Gruppe hinzugefügt. Die Option „Zugriff auf alle Berichte“ gibt es nicht mehr. </li> 
+      <li id="li_34C4560769B64F28A4E83BAE71065DCC">Jeder Benutzer, der Teil von „Zugriff auf alle Berichte“ war, wird der neuen benutzerdefinierten Gruppe hinzugefügt. Die Option „Zugriff auf alle Berichte“ gibt es nicht mehr. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +130,7 @@ In der folgenden Tabelle finden Sie Aufgaben und deren Durchführungszeitpunkt (
 
 >[!NOTE]
 >
-> *`migrated user`* und *`Experience Cloud user`* sind Benutzer, die eine Einladungs-E-Mail für die Mitgliedschaft in Experience Cloud angenommen haben. Wird diese Einladung nicht angenommen, sind die Benutzer weiterhin Benutzer von Analytics und können nicht über die Admin Console verwaltet werden. (Die Ausnahme ist, wenn für die Migration [Enterprise oder Federated IDs](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) verwendet werden. In diesem Fall wird der Benutzer migriert, wenn der Administrator Benutzer einzeln migriert.)
+>*`migrated user`* und *`Experience Cloud user`* sind Benutzer, die eine Einladungs-E-Mail für Experience Cloud angenommen haben. Wird diese Einladung nicht angenommen, sind die Benutzer weiterhin Benutzer von Analytics und können nicht über die Admin Console verwaltet werden. (Die Ausnahme ist, wenn für die Migration [Enterprise oder Federated IDs](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) verwendet werden. In diesem Fall wird der Benutzer migriert, wenn der Administrator Benutzer einzeln migriert.)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
