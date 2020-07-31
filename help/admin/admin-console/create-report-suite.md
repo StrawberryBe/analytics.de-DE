@@ -1,11 +1,11 @@
 ---
 title: Erstellen einer Report Suite
 description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Dieser Artikel wurde für Administratoren oder Analytics-Administratoren auf Sys
 Geben Sie dieser Report Suite denselben Namen und hängen Sie am Ende „- DEV“an. Da diese Report Suite nur internen Traffic erhält, kann die geschätzte Größe die kleinste sein.
 1. Klicken Sie auf „Weiter“, um Ihre dev-Report Suite zu erstellen.
 
-Weitere Informationen zu den Schritten in diesem modalen Fenster finden Sie unter [Implementierungsmodal](/help/implement/prepare/implementation-modal.md) im Implementierungs-Benutzerhandbuch.
+Weitere Informationen zu den Schritten in diesem modalen Fenster finden Sie unter [Implementierungs-Modal](/help/implement/prepare/implementation-modal.md) im Benutzerhandbuch zu Implementierungen.
 
 ## Fehlerbehebung
 
