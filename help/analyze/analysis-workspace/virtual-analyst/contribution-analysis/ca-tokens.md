@@ -2,11 +2,11 @@
 description: 'null'
 title: Übersicht über die Beitragsanalyse
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Mit Hilfe der Beitragsanalyse können Sie besser nachvollziehen, wie es zu einer
 
 Im Folgenden finden Sie einige Anwendungsfälle:
 
-* Identifizieren Sie das Wiedervermarktungspotenzial, indem Sie Veränderungen der Produktnachfrage überwachen.
+* Identifizierung des Weitervermarktungspotenzials durch die Überwachung von Veränderungen bei der Produktnachfrage
 * Optimierung des Kundenerlebnisses durch Reaktion auf spezifische Zielgruppeninteressen
 * Frühe Identifizierung betrügerischer Bestellungen dank Anomalieberichten
 * Schutz vor Industriespionage durch Identifikation hoher Auslastung und einer großen Anzahl an Downloads
@@ -55,7 +55,7 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Warum hat Adobe Token eingeführt? </b> </p> </td> 
-   <td colname="col2"> <p>Die Analyse von Beiträgen war eine der wichtigsten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. </p> </td> 
+   <td colname="col2"> <p>Die Beitragsanalyse ist eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl „vollständiger“ Ausführungen pro Monat (anstelle der bisherigen 3 Dimensionen für einige Analytics-Produkte) haben Sie die Möglichkeit zu erkennen, was eine vollständige Beitragsanalyse für Sie leisten kann. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen?</b> </p> </td> 
