@@ -2,9 +2,9 @@
 description: 'Die IDs, die Sie einsenden, decken nicht immer alle Hit-Daten ab, die Analytics dem Datensubjekt zuordnen kann. Analytics kann eine erweiterte ID-Gruppe erstellen, um diese zugehörigen Daten zu den Datenschutzanfragen hinzuzufügen. Mit einem optionalen Parameter, der zur JSON-Anfrage hinzugefügt wird, können Sie diese Option für jede eingereichte Datenschutzanfrage anfordern '
 title: ID-Erweiterung
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Unter [JSON-Beispielanfrage](/help/admin/c-data-governance/gdpr-submit-access-de
  </tbody> 
 </table>
 
-In den ersten Monaten nach dem Inkrafttreten des Datenschutzes hat die überwiegende Mehrheit der Analytics-Datenschutzanfragen keine ID-Erweiterung beantragt, doch die Bestimmung des geeigneten Werts für Ihr Unternehmen liegt bei Ihnen. Sie sollten sich mit Ihrer Rechtsabteilung darüber beraten, ob eine Erweiterung der ID für Ihre Daten mit den von Ihnen verwendeten IDs und die von Ihnen in Adobe Analytics erfassten Daten erforderlich ist. Eine wichtige Überlegung sollte sein, dass auf einem gemeinsam genutzten Gerät, von dem aus mehrere Benutzer Ihre Website besucht haben, die Verwendung der ID-Erweiterung Daten von Treffern anderer Benutzer des Geräts in Daten beinhaltet, die von Zugriffsanfragen (in der Gerätedatei) zurückgegeben werden. Selbst wenn Sie bei der Beschriftung bewährte Verfahren befolgt haben, sodass keine privaten Daten (z. B. zu besuchten Seiten) in der Gerätedatei enthalten sind, enthält die Gerätedatei die Anzahl der besuchten Seiten und die Zeitpunkte der einzelnen Besuche. Ist es in Ordnung, wenn Sie diese Informationen an jemanden weitergeben, der möglicherweise nicht der Besucher war?
+In den ersten Monaten nach dem Inkrafttreten des Datenschutzes hat die überwiegende Mehrheit der Analytics-Datenschutzanfragen keine ID-Erweiterung beantragt, doch die Bestimmung des geeigneten Werts für Ihr Unternehmen liegt bei Ihnen. Sie sollten sich mit Ihrer Rechtsabteilung darüber beraten, ob eine Erweiterung der ID für Ihre Daten mit den von Ihnen verwendeten IDs und die von Ihnen in Adobe Analytics erfassten Daten erforderlich ist. Eine wichtige Überlegung sollte sein, dass auf einem gemeinsam genutzten Gerät, von dem aus mehrere Benutzer Ihre Website besucht haben, die Verwendung der ID-Erweiterung Daten von Treffern anderer Benutzer des Geräts in Daten beinhaltet, die von Zugriffsanfragen (in der Gerätedatei) zurückgegeben werden. Selbst wenn Sie bei der Beschriftung Best Practices befolgt haben, sodass keine privaten Daten (z. B. zu besuchten Seiten) in der Gerätedatei enthalten sind, enthält die Gerätedatei die Anzahl der besuchten Seiten und die Zeitpunkte der einzelnen Besuche. Ist es in Ordnung, wenn Sie diese Informationen an jemanden weitergeben, der möglicherweise nicht der Besucher war?
 
 Wenn Sie für eine Löschanfrage, bei der keine ID-Erweiterung verwendet wird, eine Nicht-Cookie-ID (eine andere ID als die ECID oder das Analytics-Cookie) verwenden, um zu löschende Treffer zu identifizieren, und diese ID eine „ID-DEVICE“-Beschriftung hat, ändern sich die Werte für Unique Visitors in Berichten, da nur einige Instanzen der Cookie-IDs anonymisiert werden, während andere unverändert bleiben. Wenn Sie keine ID-Erweiterung angeben, sollten Sie entweder eine Cookie-ID für Anfragen verwenden oder IDs mit einer „ID-PERSON“-Beschriftung verwenden.
 
