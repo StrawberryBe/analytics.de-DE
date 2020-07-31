@@ -2,8 +2,11 @@
 title: Hilfe zu Adobe Report Builder
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 ## Beliebte Hilfethemen
 
 * [Setup, Installation und Einrichtung](setup/login.md)
-* [Berichtanforderungen planen](schedule-report-requests.md)
+* [Berichtsanforderungen planen](schedule-report-requests.md)
 * [Fehlerbehebung und Best Practices für Report Builder](troubleshoot.md)
 * [Welche Optionen für das Erstellen von benutzerdefinierten Datumsbereichen stehen zur Verfügung?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
 * [Warum kann ich meine Segmente in Report Builder nicht sehen?](data-requests/segmentation.md)
@@ -51,6 +54,6 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ## Hilfe zu Reports &amp; Analytics
 
-* [Hilfe zu Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
+* [Hilfe zu Analysis Workspace](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/home.html)
 * [Hilfe zu Reports &amp; Analytics](https://docs.adobe.com/content/help/de-DE/analytics/analyze/reports-analytics/getting-started.html)
 * [Analytics-Referenz](https://docs.adobe.com/content/help/de-DE/analytics/landing/home.html) Hilfe zu Admin Tools, Berichten und Metriken.
