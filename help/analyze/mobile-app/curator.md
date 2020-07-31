@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 78%
 
 # Kuratorleitfaden für Adobe Analytics-Dashboards
 
-Die folgenden Informationen zeigen Kuratoren von Adobe Analytics-Daten zur Konfiguration und Präsentation von Dashboards für Führungskräfte an. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics Dashboards Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – Scorecard Builder](https://youtu.be/tnnl6hrcP94).
 
 ## Einführung
 
-Adobe Analytics-Dashboards bieten jederzeit und überall Einblicke in Adobe Analytics. Mit der App können Benutzer mit Mobilgeräten auf intuitive Scorecards zugreifen, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
+Adobe Analytics-Dashboards bieten jederzeit und überall Erkenntnisse aus Adobe Analytics. Die Mobile App bietet Benutzern auf Mobilgeräten Zugriff auf intuitive Scorecards, die Sie über die Desktop-Benutzeroberfläche von Adobe Analytics erstellen und freigeben. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Sie können Scorecards entsprechend den für Sie wichtigsten Daten anpassen. Analytics-Dashboards werden sowohl unter iOS- als auch Android-Betriebssystemen unterstützt.
 
 ## Weitere Informationen zu diesem Handbuch
 
-Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ihre leitenden Benutzer auf Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl ausführende Benutzer die Endbenutzer der Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
+Dieses Handbuch soll Kuratoren von Adobe Analytics-Daten bei der Konfiguration von Scorecards für ausführende Benutzer in den Dashboards unterstützen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von App-Scorecards zuständig sind. Diese ermöglichen es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen. Obwohl ausführende Benutzer die Endbenutzer der Analytics-Dashboards sind, hilft dieses Handbuch Datenkuratoren bei der effektiven Einrichtung der App für diese Benutzer.
 
 ## Glossar
 
@@ -29,7 +29,7 @@ In der folgenden Tabelle werden Begriffe zum Verständnis von Zielgruppe, Funkti
 
 | Begriff | Definition |
 |--- |--- |
-| Verbraucher | Ausführende Person, die wichtige Metriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
+| Verbraucher | Ausführende Person, die wichtige Schlüsselmetriken und Einblicke aus Analytics auf einem Mobilgerät anzeigt |
 | Kurator | Person, die mit der Datenerfassung und -auswertung vertraut ist, Einblicke in Analytics erkennt und verteilt und die Scorecards konfiguriert, die von Verbrauchern angezeigt werden |
 | Kuratierung | Der Vorgang der Erstellung oder Bearbeitung einer mobilen Scorecard mit relevanten Metriken, Dimensionen und anderen Komponenten für den Verbraucher |
 | Scorecard | Eine Ansicht der Dashboards mit einer oder mehreren Kacheln |
@@ -100,7 +100,7 @@ So implementieren Sie die Scorecard-Vorlage:
 
    ![Dimensionen hinzufügen](assets/layer_dimensions.png)
 
-   Sie können allen Kacheln auch eine Dimension hinzufügen, indem Sie sie auf der Arbeitsfläche &quot;Scorecard&quot;ablegen.
+   Sie können auch allen Kacheln eine Dimension hinzufügen, indem Sie diese auf der Scorecard-Arbeitsfläche ablegen.
 
    Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
 
@@ -108,9 +108,9 @@ So implementieren Sie die Scorecard-Vorlage:
 
    ![Aufschlüsselungsansicht](assets/break_view.png)
 
-   Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der detaillierten Ansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
+   Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
 
-4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso an wie in Adobe Analytics Workspace.
+4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso wie in Adobe Analytics Workspace an.
 
    ![Segmente für Filter erstellen](assets/segment_ui.png)
 
@@ -161,24 +161,24 @@ Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen
 
 * Auf den Geräten Ihrer Benutzer muss mindestens iOS-Version 10 oder Android-Version 4.4 (KitKat) installiert sein.
 * Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
-* Sie haben für sie korrekte mobile Scorecards erstellt und diese Scorecards für sie freigegeben.
+* Sie müssen die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben haben.
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
 * Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### Unterstützung von leitenden Benutzern mit der App
+### Ausführenden Benutzern mit der App helfen
 
-So unterstützen Sie geschäftsführende Benutzer:
+So unterstützen Sie ausführende Benutzer:
 
-1. Hilfe beim Herunterladen und Installieren der App. Führen Sie zu diesem Zweck die folgenden Schritte aus, um den Zugriff auf Ihre ausführenden Benutzer zu erweitern, je nachdem, ob sie ein iOS- oder ein Android-Gerät verwenden.
+1. Helfen Sie ihnen, die App herunterzuladen und zu installieren. Führen Sie zu diesem Zweck die folgenden Schritte aus, um den Zugriff auf Ihre ausführenden Benutzer zu erweitern, je nachdem, ob sie ein iOS- oder ein Android-Gerät verwenden.
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Extras** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
       [iOS-Link](https://apple.co/2zXq0aN)
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Extras** > **Dashboard** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
 
       [Android-Link](https://bit.ly/2LM38Oo)
    Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
@@ -193,7 +193,7 @@ So unterstützen Sie geschäftsführende Benutzer:
 
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
 
-   Wenn sich der geschäftsführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde:
+   Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde, kann das folgende Gründe haben:
 
    * Der ausführende Benutzer hat möglicherweise die falsche Analytics-Instanz ausgewählt.
 
@@ -205,7 +205,7 @@ So unterstützen Sie geschäftsführende Benutzer:
    * Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 
-3. Erklären Sie dem geschäftsführenden Benutzer, wie Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden (die erste Scorecard unten ist im Dark-Modus eingestellt; finden Sie unter **Voreinstellungen** unten, wenn Sie der Meinung sind, dass Ihr geschäftsführender Benutzer diese Anzeigeoption bevorzugt):
+3. Erklären Sie dem ausführenden Benutzer, wie Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden (die erste Scorecard unten ist auf den Dunkelmodus eingestellt. Weitere Informationen finden Sie unter **Voreinstellungen** weiter unten, wenn Sie der Meinung sind, dass Ihr ausführender Benutzer diese Anzeigeoption bevorzugt):
 
    ![Kacheln erklären](assets/newexplain.png)
 
@@ -215,7 +215,7 @@ So unterstützen Sie geschäftsführende Benutzer:
 
    * Die Granularität der Sparklines hängt von der Länge des Datumsbereichs ab:
       * Für einen Tag wird ein stündlicher Trend angezeigt.
-      * Mehr als ein Tag und weniger als ein Jahr zeigen einen täglichen Trend
+      * Für mehr als einen Tag und weniger als ein Jahr wird ein täglicher Trend angezeigt.
       * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
    * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
    * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.
@@ -225,29 +225,29 @@ So unterstützen Sie geschäftsführende Benutzer:
 
    ![Aufschlüsselungsansicht](assets/sparkline.png)
 
-   * Tippen Sie auf einen beliebigen Punkt auf einer Wortgrafik, um die mit diesem Punkt in der Zeile verknüpften Daten anzuzeigen.
+   * Tippen Sie auf einen beliebigen Punkt auf einer Sparkline, um Daten anzuzeigen, die diesem Punkt auf der Linie zugeordnet sind.
 
-   * Eine Tabelle ist enthalten, um Daten über Dimensionen anzuzeigen, die der Kachel hinzugefügt wurden. Tippen Sie auf den Pfeil nach unten, um Dimensionen auszuwählen. Wenn der Kachel keine Dimension hinzugefügt wurde, zeigt die Tabelle Diagrammdaten an.
+   * In einer Tabelle werden Daten zu den der Kachel hinzugefügten Dimensionen angezeigt. Tippen Sie auf den Abwärtspfeil, um Dimensionen auszuwählen. Wenn der Kachel keine Dimension hinzugefügt wurde, werden in der Tabelle Diagrammdaten angezeigt.
 
 5. So ändern Sie Datumsbereiche für Ihre Scorecard:
 
    ![Datum ändern](assets/changedate.png)
 
-   * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungs-Ansicht auf dieselbe Weise ändern.
+   * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungsansicht auf dieselbe Weise ändern.
 
    * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
 6. So hinterlassen Sie Feedback zu dieser App:
 
-   1. Tippen Sie auf das Symbol &quot;Einstellungen&quot;oben rechts im App-Bildschirm.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. Tippen Sie auf das Einstellungssymbol oben recht im App-Bildschirm.
+   2. Tippen Sie auf dem Bildschirm **Einstellungen** auf die Option **Feedback**.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
 
       ![Einstellungsbildschirm](assets/settings.png)
 
-7. Um die Voreinstellungen zu ändern, tippen Sie auf die **Option Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dark-Modus einstellen:
+7. Um die Voreinstellungen zu ändern, tippen Sie auf die Option **Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
 
-   ![Dunkler Modus](assets/darkmode.png)
+   ![Dunkelmodus](assets/darkmode.png)
 
 **So melden Sie einen Fehler:**
 
