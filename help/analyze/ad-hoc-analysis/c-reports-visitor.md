@@ -3,9 +3,9 @@ description: Zeigt Informationen zu Besuchern, wie beispielsweise Besucherzahlen
 title: Besucherberichte
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Der Bericht [!UICONTROL Kundeloyalität] gibt Aufschluss über Einkaufsmuster vo
 
 >[!NOTE]
 >
->Bei der Verwendung dieser Metriken werden alle Besuche (oder Besucher) eines Benutzers in diesem Bericht repräsentiert, unabhängig davon, ob im Besuch (oder Besucher) ein Kauf inbegriffen war.
+>Bei der Verwendung dieser Metriken werden alle Besuche eines Benutzers (oder alle Besucher) in diesem Bericht repräsentiert, unabhängig davon, ob im Besuch (oder Besucher) ein Kauf inbegriffen war.
 
 Der Loyalitätsstatus ändert sich nach dem Ende eines Besuchs, bei dem es zu einem Einkaufsereignis gekommen ist. Beispiel: Ein Neukunde (1 Einkauf) tätigt einen Kauf und registriert sich dann innerhalb desselben Besuchs für einen Newsletter. Das Ereignis zur Newsletter-Registrierung wird dennoch als Interaktion mit einem Neukunden betrachtet, da sich der Status der Kundenloyalität erst beim nächsten Besuch ändert.
 
