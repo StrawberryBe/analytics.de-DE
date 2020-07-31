@@ -4,11 +4,11 @@ keywords: eVar
 title: Konversionsvariablen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Beschreibungen der Felder, die beim [Bearbeiten von Konversionsvariablen](/help/
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Merchandising-Binding-Ereignis</span> </p> <p>(nur eVar) </p> </td> 
-   <td colname="col2"> <p>Wenn „Merchandising“ auf <span class="uicontrol">Konversionsvariablensyntax</span> eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. </p> <p>Um ein Binding-Ereignis zu verwenden, setzen Sie <span class="uicontrol">„Zuordnung“ auf „Zuletzt verwendet“</span>. Wenn <span class="uicontrol">„Zuordnung“ auf „Ausgangswert“</span> eingestellt ist, bleibt die erste eVar-Produktverbindung erhalten, bis die eVar abläuft. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde.</p> </td> 
+   <td colname="col2"> <p>Wenn „Merchandising“ auf <span class="uicontrol">Konversionsvariablensyntax</span> eingestellt ist, wird der aktuelle eVar-Wert durch die ausgewählten Ereignisse mit einem Produkt verbunden. </p> <p>Um ein Binding-Ereignis zu verwenden, setzen Sie <span class="uicontrol">„Zuordnung“ auf „Zuletzt verwendet“</span>. Wenn <span class="uicontrol">„Zuordnung“ auf „Ausgangswert“</span> eingestellt ist, bleibt die erste eVar-Produktverbindung erhalten, bis die eVar abläuft. Sie können mehrere Ereignisse auswählen, indem Sie die <code>ctrl</code>-Taste (Windows) oder die <code>cmd</code>-Taste (Mac) gedrückt halten und auf mehrere Elemente in der Liste klicken. Sie können nur ein Ereignis auswählen, wenn „Konversionsvariablensyntax“ ausgewählt wurde.</p> </td> 
   </tr> 
  </tbody> 
 </table>
