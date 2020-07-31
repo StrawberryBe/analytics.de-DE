@@ -3,11 +3,11 @@ description: So können Sie in Report Builder Adobe Analytics-Segmente hinzufüg
 title: Segmente verwalten
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmen
 
 >[!NOTE]
 >
->Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre ReportBuilder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
+>Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre Report Builder-Sitzung bleibt dabei aktiv. Andere Browser (außer Internet Explorer) werden für diesen Vorgang nicht unterstützt.
 
 1. Klicken Sie im Segmentfenster von Schritt 1 des Anforderungs-Assistenten auf **[!UICONTROL Hinzufügen]**.
 1. Ein Internet Explorer-Fenster mit der Benutzeroberfläche des Analytics-Segment-Builder wird geöffnet. Informationen zum Erstellen von Segmenten finden Sie unter [Analytics-Segmentierung](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
@@ -48,7 +48,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 
 1. Die Segment-Builder-UI wird nun im Internet Explorer gestartet. Die Segment-Builder-UI wird mit dem von Ihnen festgelegten Container und Filter initialisiert.
 1. Nachdem Sie dem Segment einen Namen und eine Beschreibung hinzugefügt haben, speichern Sie es.
-1. Gehen Sie zurück zum ReportBuilder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
+1. Gehen Sie zurück zum Report Builder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 1. Nun können Sie dieses Segment anwenden.
 
 ## Segmente suchen und anwenden {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
