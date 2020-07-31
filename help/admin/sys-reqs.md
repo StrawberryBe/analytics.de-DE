@@ -1,33 +1,33 @@
 ---
 title: Systemanforderungen
 description: Die Systemanforderungen für die Verwendung von Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # Systemanforderungen
 
-Liste der Systemanforderungen zur Verwendung verschiedener Produktlösungen in Adobe Analytics.
+Listet die Systemanforderungen zur Verwendung verschiedener Produktlösungen in Adobe Analytics auf.
 
-## Systemanforderungen für browserbasierte Lösungen
+## Systemanforderungen für Browser-basierte Lösungen
 
-Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, basieren auf Browsern. Daher ist die wichtigste Voraussetzung für die Verwendung von Adobe Analytics ein moderner Webbrowser. Adobe unterstützt die neueste stabile Version dieser Browser:
+Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, sind Browser-basiert. Daher ist die wichtigste Voraussetzung für die Verwendung von Adobe Analytics ein moderner Webbrowser. Adobe unterstützt die neueste stabile Version dieser Browser:
 
 * Microsoft Edge
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] Adobe hat die Unterstützung für Microsoft Internet Explorer 11 in Adobe Analytics am 13. November 2018 eingestellt.
+>[!NOTE] Adobe unterstützt den Microsoft Internet Explorer 11 in Adobe Analytics seit dem 13. November 2018 nicht mehr.
 
-## Systemanforderungen für Nicht-Browser-Lösungen
+## Systemanforderungen für nicht Browser-basierte Lösungen
 
-Die Systemanforderungen dieser Lösung finden Sie auf der Seite der verknüpften Lösung.
+Die Systemanforderungen dieser Lösungen finden Sie auf der verlinkten Seite der entsprechenden Lösung.
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
 * [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-getting-started.md)
