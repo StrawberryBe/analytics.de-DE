@@ -2,9 +2,9 @@
 description: 'null'
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Geplante Arbeitsmappen sind Excel-Arbeitsblätter, die mit Daten aus Adobe Analy
 
 >[!NOTE]
 >
->Wenn die Arbeitsmappe ein Makro enthält, wird „Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen“ deaktiviert.
+>Wenn die Arbeitsmappe ein Makro enthält, ist „Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen“ deaktiviert.
 
 Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller formatierten Tabellen innerhalb der Arbeitsmappe importieren.
 
@@ -77,18 +77,18 @@ Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller 
 1. Generieren Sie in Report Builder eine Datentabelle, die eine Kopfzeile gefolgt von einer Datenzeile enthält.
 1. Wählen Sie die Tabelle aus und anschließend im Menü [!UICONTROL Startseite] die Option **[!UICONTROL Als Tabelle formatieren]**. Die Tabelle erhält einen Standardnamen (Tabelle 1, Tabelle 2 usw.), den Sie jedoch im Menü [!UICONTROL Design] ändern können.
 
-1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Zeitplan]** > **[!UICONTROL Neu]**.
+1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]** > **[!UICONTROL Neu]**.
 
 1. Klicken Sie im Fenster „Planungs-Assistent – Grundlegend“ auf **[!UICONTROL Erweiterte Planungsoptionen]**.
 1. Aktivieren Sie im Fenster [!UICONTROL Planungs-Assistent – Erweitert] auf der Registerkarte **[!UICONTROL Power BI Veröffentlichungsoptionen]** das Kontrollkästchen neben **[!UICONTROL Alle formatierten Tabellen als Power BI-Datensatztabellen veröffentlichen]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Optional) Sie können den Namen des veröffentlichten Assets in Power BI anpassen. Dies kann nützlich sein, wenn Sie eine Versionsnummer als Teil des Arbeitsmappennamens verwenden (z. B. meineArbeitsmappe_v1.1.xlsx) und nicht möchten, dass die Versionsnummer im Namen des veröffentlichten Power BI-Assets angezeigt wird. Dies hat den zusätzlichen Vorteil, dass sich das veröffentlichte Asset nicht ändert, wenn sich die Versionsnummer ändert. ([Angaben](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) dazu finden Sie hier.)
+1. (Optional) Sie können den Namen des veröffentlichten Assets in Power BI anpassen. Dies kann nützlich sein, wenn für Ihre Arbeitsmappennamen eine Versionsierung verwenden  (z. B. meineArbeitsmappe_v1.1.xlsx) und nicht möchten, dass die Versionsnummer im Namen des veröffentlichten Power BI-Assets angezeigt wird. Dies hat den zusätzlichen Vorteil, dass sich das veröffentlichte Asset nicht ändert, wenn sich die Versionsnummer ändert. ([Angaben](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) dazu finden Sie hier.)
 
 **Tabellendaten in Power BI anzeigen**
 
-1. Gehen Sie in Power BI zum Menü **[!UICONTROL Arbeitsbereiche]** > **[!UICONTROL Datasets]**.
+1. Gehen Sie in Power BI zum Menü **[!UICONTROL Arbeitsbereiche]** > **[!UICONTROL Datensätze]**.
 
    ![](assets/datasets-menu.png)
 
@@ -106,7 +106,7 @@ Statt die gesamte Arbeitsmappe zu importieren, können Sie nur den Inhalt aller 
 
 1. Hier können Sie Visualisierungen aus dieser Datensatztabelle erstellen.
 
-## Veröffentlichen Sie alle Report Builder-Anforderungen als Power BI-Datensatztabellen {#section_0C26057C7DBB4068A643FDD688F6E463}
+## Alle Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen {#section_0C26057C7DBB4068A643FDD688F6E463}
 
 Sie können alle Ihre Anforderungen in Datensatztabellen umwandeln und daraus Visualisierungen erstellen.
 
