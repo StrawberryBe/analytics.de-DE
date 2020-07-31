@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 99%
    + Erkennung von Paid Search {#paid-search-detection}
       + [Übersicht über die Erkennung von Paid Search](admin/paid-search-detection/paid-search-detection.md)
       + [Erkennung von Paid Search konfigurieren](admin/paid-search-detection/t-paid-search-detection.md)
-   + [Publishing-Listen](admin/publishing-list.md)
-   + [Publishing-Widget](admin/publishing-widgets-admin.md)
+   + [Veröffentlichungslisten](admin/publishing-list.md)
+   + [Veröffentlichungs-Widget](admin/publishing-widgets-admin.md)
    + [Voreinstellungs-Manager](admin/preferences-manager.md)
    + [Datenschutzeinstellungen](admin/privacy-settings.md)
    + [Datenschutzeinstellungen](admin/privacy-reporting.md)
@@ -94,7 +94,7 @@ ht-degree: 99%
    + [Social-Media-Verwaltung](admin/social-management.md)
    + Erfolgsereignisse {#success-events}
       + [Übersicht über Erfolgsereignisse](admin/c-success-events/success-event.md)
-      + [Erfolgsereignisse konfigurieren](admin/c-success-events/t-success-events.md)
+      + [Konfigurieren von Erfolgsereignissen](admin/c-success-events/t-success-events.md)
       + [Informationen zum Ändern des Ereignistyps](admin/c-success-events/event-type.md)
    + [Zeitstempel optional](admin/timestamp-optional.md)
    + Traffic-Variablen {#traffic-variables}
@@ -112,7 +112,7 @@ ht-degree: 99%
       + [Berechtigungselemente der Report Suite-Tools](admin-console/permissions/report-suite-tools.md)
       + [Berechtigungselemente der Analytics-Tools](admin-console/permissions/analytics-tools.md)
    + [Erstes Administratorhandbuch für Adobe Analytics](admin-console/first-admin-guide.md)
-   + [Report Suite erstellen](admin-console/create-report-suite.md)
+   + [Erstellen einer Report Suite](admin-console/create-report-suite.md)
 + Unternehmenseinstellungen {#company-settings}
    + [Übersicht über Unternehmenseinstellungen](company/c-company-settings.md)
    + [Funktionszugriffsebenen](company/feature-access-levels.md)
@@ -142,7 +142,7 @@ ht-degree: 99%
    + [Individuelle Report Suite-Einstellungen](c-manage-report-suites/individual-rs-settings.md)
    + [Herunterladen von Report Suite-Einstellungen](c-manage-report-suites/t-download-rs-settings.md)
    + Neue Report Suite {#new-report-suite}
-      + [Report Suite erstellen](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+      + [Erstellen einer Report Suite](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
       + [Neue Report Suite – Einstellungen](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [Aus einer Quell-Report Suite nicht kopierte Einstellungen](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [Erstellen einer Report Suite-Gruppe](c-manage-report-suites/t-create-rs-group.md)
@@ -167,9 +167,9 @@ ht-degree: 99%
       + [Benutzergruppeneinstellungen](user-management2/c-user-groups/groups.md)
    + Berichtszugriff anpassen {#customize-report-access}
       + [Berichtszugriff anpassen – Übersicht](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [Berechtigungen für Analytics-Tools anpassen](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [Berechtigungen für Report Suite-Tools anpassen](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [Berechtigungen für Metriken anpassen](user-management2/c-customize-report-access/groups-metrics.md)
+      + [Anpassen von Berechtigungen für Analytics-Tools ](user-management2/c-customize-report-access/groups-analytics-tools.md)
+      + [Anpassen von Berechtigungen für Report Suite-Tools](user-management2/c-customize-report-access/groups-report-suite-tools.md)
+      + [Anpassen von Berechtigungen für Metriken](user-management2/c-customize-report-access/groups-metrics.md)
       + [Dimensionsberechtigungen anpassen](user-management2/c-customize-report-access/groups-dimensions.md)
    + [E-Mail-Benutzer](user-management2/t-email-users.md)
 + Data Governance {#data-governance}
