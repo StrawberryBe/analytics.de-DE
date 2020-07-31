@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,6 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
 
 ## Attributionsmodelle auf Aufschlüsselungen anwenden
 
-Für jede Aufschlüsselung innerhalb einer Tabelle können auch beliebige Zuordnungsmodelle angewendet werden. Dieses Zuordnungsmodell kann identisch oder anders als die übergeordnete Spalte sein. Sie können beispielsweise lineare Bestellungen für Ihre Marketing-Kanal-Dimension analysieren, aber U-förmige Bestellungen auf die spezifischen Rückverfolgungscodes in einem Kanal anwenden. To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+Auf jede Aufschlüsselung innerhalb einer Tabelle kann auch ein beliebiges Attributionsmodell angewandt werden. Dieses Attributionsmodell kann mit der übergeordneten Spalte identisch sein oder sich von ihr unterscheiden. Sie können beispielsweise lineare Bestellungen in Ihrer Dimension „Marketing-Kanäle“ analysieren, jedoch U-förmige Bestellungen auf spezifische Trackingcodes in einem Kanal anwenden. Bewegen Sie zum Bearbeiten des auf eine Aufschlüsselung angewendeten Attributionsmodells einfach den Mauszeiger auf das Aufschlüsselungsmodell und klicken Sie auf **[!UICONTROL Bearbeiten]**:
 
-![Unterteilungseinstellungen](assets/breakdown_settings.png)
+![Aufschlüsselungseinstellungen](assets/breakdown_settings.png)
