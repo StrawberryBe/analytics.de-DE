@@ -67,7 +67,7 @@ Veranschaulicht die vergleichenden Größen jedes ausgewählten Segments und wie
 
 ### Populationszusammenfassungen
 
-Rechts neben der Visualisierung „Größe und Überschneidung“ wird die Gesamtzahl der individuellen Besucher in jedem Segment und jeder Überschneidung angezeigt.
+Rechts neben der Visualisierung „Größe und Überschneidung“ wird die Gesamtzahl der Unique Visitors in jedem Segment und jeder Überschneidung angezeigt.
 
 ![Populationszusammenfassungen](assets/population_summaries.png)
 
@@ -97,7 +97,7 @@ Diese Visualisierung ähnelt den Freiformtabellen in Analysis Workspace. Wenn ei
 
 >[!NOTE]
 >
->Dimensionselemente, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
+>Dimensionen, die dieser Tabelle nach Abschluss des Segmentvergleichs hinzugefügt wurden, erhalten keine Differenzbewertung.
 
 ![Top-Dimensionen](assets/top-dimension-item1.png)
 
