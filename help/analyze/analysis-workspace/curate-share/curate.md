@@ -1,32 +1,32 @@
 ---
-description: Mithilfe der Kuratierung können Sie Komponenten einschränken, bevor Sie ein Projekt freigeben.
+description: Durch Kuratierung können Sie die Komponenten einschränken, bevor Sie ein Projekt freigeben.
 keywords: Analysis Workspace curation
-title: Projekte im Arbeitsbereich kuratieren
-translation-type: tm+mt
+title: Kuratieren von Workspace-Projekten
+translation-type: ht
 source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
 
-# Projekte im Arbeitsbereich kuratieren
+# Kuratieren von Workspace-Projekten
 
-Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn ein Empfänger das Projekt öffnet, wird ihm eine begrenzte Anzahl von Komponenten angezeigt, die Sie für sie kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
+Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn ein Empfänger das Projekt öffnet, wird ihm eine begrenzte Anzahl von Komponenten angezeigt, die Sie für ihn kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
 
 >[!NOTE]
-> Produktprofile bestimmen als Hauptmechanismen, welche Komponenten ein Anwender sehen kann. Sie werden über die Admin-Konsole der Adobe Experience Cloud verwaltet. Kuratierung ist ein Sekundärfilter.
+> Produktprofile bestimmen als Hauptmechanismen, welche Komponenten ein Anwender sehen kann. Sie werden über die Adobe Experience Cloud Admin Console verwaltet. Kuratierung ist ein Sekundärfilter.
 
-## Projektkuratierung anwenden
+## Anwenden der Projektkuratierung
 
-1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Klicken Sie auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
 Die im Projekt verwendeten Komponenten werden automatisch hinzugefügt.
-   **Hinweis**: Wenn ein Projekt mehrere Report Suites hat, wird ein kuratiertes Feld für jede Report Suite im Projekt angezeigt.
-1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die freizugebenden Komponenten aus der linken Leiste in das Feld [!UICONTROL Kuratieren der Komponenten] .
+   **Hinweis**: Wenn ein Projekt mehrere Report Suites hat, wird für jede Report Suite im Projekt ein Feld zum Kuratieren angezeigt.
+1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die freizugebenden Komponenten aus der linken Leiste in das Feld [!UICONTROL Komponenten kuratieren].
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Kuratieren können Sie auch über das Menü &quot; [!UICONTROL Freigeben] &quot;anwenden, indem Sie auf **[!UICONTROL Kuratieren und Freigeben]** klicken. Diese Option kuratiert das Projekt automatisch auf die im Projekt verwendeten Komponenten. Sie können weitere Komponenten hinzufügen, wie oben beschrieben.
+Eine Kuratierung kann auch über das Menü [!UICONTROL Freigeben] angewendet werden, indem Sie auf **[!UICONTROL Kuratieren und freigeben]** klicken. Diese Option kuratiert das Projekt automatisch auf die im Projekt verwendeten Komponenten. Sie können weitere Komponenten hinzufügen, wie oben beschrieben.
 
 ![](assets/curation-field.png)
 
@@ -36,30 +36,30 @@ Wenn ein Empfänger ein kuratiertes Projekt öffnet, wird ihm nur der ausgewähl
 
 ![](assets/curate-project.png)
 
-## Projektkuratierung entfernen
+## Entfernen der Projektkuratierung
 
 So entfernen Sie die Projektkuratierung und stellen Sie den vollständigen Satz der Komponenten in der linken Leiste wieder her:
-1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
-1. Klicken Sie auf Kuration **[!UICONTROL entfernen]**.
+1. Klicken Sie auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
+1. Klicken Sie auf **[!UICONTROL Kuratierung entfernen]**.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-## Kuratierung der Virtual Report Suite (VRS)
+## Virtual Report Suite (VRS)-Kuratierung
 
-Um die Kuration auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer Virtual Report Suite (VRS) [](https://docs.adobe.com/content/help/de-DE/analytics/components/virtual-report-suites/vrs-components.html)kuratieren.
+Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite (VRS) kuratieren](https://docs.adobe.com/content/help/de-DE/analytics/components/virtual-report-suites/vrs-components.html).
 
 >[!NOTE]
 > Die VRS-Kuratierung wird immer vor der Projektkuratierung ausgeführt. Das bedeutet, dass selbst wenn Ihr kuratiertes Projekt bestimmte Komponenten enthält, werden diese herausgefiltert, wenn die kuratierte VRS diese nicht enthält.
 
-## Option &quot;Alle Komponenten anzeigen&quot;
+## Option „Alle anzeigen“ für Komponenten
 
-In einem kuratierten Projekt oder einer VRS wird dem Empfänger die Option zum **[!UICONTROL Anzeigen aller]** Komponenten in der linken Leiste angezeigt. [!UICONTROL &quot;Alle] anzeigen&quot;zeigt verschiedene Komponentensätze an, je nach:
+In einem kuratierten Projekt oder einer VRS wird dem Empfänger die Option **[!UICONTROL Alle anzeigen]** für Komponenten in der linken Leiste angezeigt. [!UICONTROL Alle anzeigen] zeigt verschiedene Komponentensätze an, je nach:
 
 * Berechtigungsebene des Benutzers (Administrator oder Nicht-Administrator)
-* Rolle des Projekts (Eigentümer/Editor oder nicht)
-* Art der angewendeten Kuration (VRS oder Projekt)
+* Projektrolle (Inhaber/Bearbeiter oder nicht)
+* Art der angewendeten Kuratierung (VRS oder Projekt)
 
-| Kuratierungstyp | Admins | Eigentümer oder Bearbeitungsrolle eines Nicht-Admin-Projekts | Rolle &quot;Nicht-Admin-Duplikat&quot;oder &quot;Ansicht&quot; |
+| Kuratierungstyp | Admins | Inhaber- oder Bearbeiterrolle, kein Admin | Nicht-Administrator-Rolle zum Duplizieren oder Anzeigen |
 |---|---|---|---|
 | Kuratierte VRS | Alle nicht kuratierten VRS-Komponenten | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
 | Kuratierte Projekte | Alle nicht kuratierten Projektkomponenten | Alle nicht kuratierten Projektkomponenten | Nicht kuratierte Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
-| Kuratierte Projekte in kuratierte VRS | Alle nicht kuratierten Komponenten, aufgeführt unter  **[!UICONTROL Nicht kuratierte Projektkomponenten]** und **[!UICONTROL Nicht kuratierte VRS-Komponenten]** | Alle nicht kuratierten Projektkomponenten UND nicht kuratierten VRS-Komponenten, die dieser Rolle gehören oder für sie freigegeben wurden | Nicht kuratierte VRS- und Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
+| Kuratierte Projekte in kuratierte VRS | Alle nicht kuratierten Komponenten, aufgeführt unter **[!UICONTROL Nicht kuratierte Projektkomponenten]** und **[!UICONTROL Nicht kuratierte VRS-Komponenten]** | Alle nicht kuratierten Projektkomponenten UND nicht kuratierten VRS-Komponenten, die dieser Rolle gehören oder für sie freigegeben wurden | Nicht kuratierte VRS- und Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
