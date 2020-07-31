@@ -1,9 +1,9 @@
 ---
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '650'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Report Suite-Tools, die in den Produktprofilberechtigungen aufgeführt sind
@@ -20,7 +20,7 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Report Suite-Verwaltung | Gewährt Zugriff auf Report Suite Manager, erlaubt jedoch keine Änderungen. |
 | Kontozusammenfassung | Gewährt Zugriff auf „Allgemein > Allgemeine Kontoeinstellungen“ im Report Suite Manager. |
 | URL-Filter | Ermöglicht Zugriff auf „Allgemein > Interne URL-Filter“ im Report Suite Manager. |
-| Benutzerdefinierter Kalender | Gewährt Zugriff auf „Allgemein > Kalender benutzerspezifisch einstellen“ im Report Suite Manager. |
+| Benutzerdefinierter Kalender | Gewährt Zugriff auf „Allgemein > Kalender anpassen“ im Report Suite Manager. |
 | Paid Search | Gewährt Zugriff auf „Allgemein > Erkennung von Paid Search“ im Report Suite Manager. |
 | Menüanpassung | Gewährt Zugriff auf „Allgemein > Menüs benutzerspezifisch einstellen“ im Report Suite Manager. |
 | Konfiguration von Echtzeitberichten | Gewährt Zugriff auf „Echtzeit“ im Report Suite Manager. Verwenden Sie das Berechtigungselement „Echtzeitbericht“, um Zugriff auf den Bericht selbst zu gewähren. |
@@ -62,4 +62,4 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Gebrauchszusammenfassungs-Reportlet | Nicht verwendet. |
 | Webressourcen | Nicht verwendet. |
 | Social | Nicht verwendet. |
-| Datenreparatur-API | Gewährt Zugriff auf die Datenreparatur-API (künftige Version) |
+| Datenreparatur-API | Gewährt Zugriff auf die Datenreparatur-API (künftige Version). |
