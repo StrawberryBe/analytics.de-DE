@@ -2,9 +2,9 @@
 description: Report Builder 5.2 unterstützt vereinheitlichte berechnete Adobe Analytics-Metriken. Neben anderen Innovationen verfügen alle berechneten Metriken jetzt über eine globale ID – sie sind nicht mehr auf eine einzige Report Suite beschränkt.
 title: Berechnete Metriken
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filte
 
 **Filtern** Sie berechnete Metriken, indem Sie auf das Filtersymbol klicken:  ![](assets/segment_filter.png)
 
-. Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
+  Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
 
 Folgende Filter stehen zur Verfügung:
 
