@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 97%
+source-wordcount: '3674'
+ht-degree: 96%
 
 ---
 
@@ -84,7 +84,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `geo_region` | Name des Bundeslands oder der Region, aus der der Treffer stammt, basierend auf der IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Bundesländern bzw. Regionen zuzuordnen. | char(32) |
 | `geo_zip` | Die Postleitzahl, von der der Treffer stammt, basierend auf der IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Postleitzahlen zuzuordnen. | varchar(16) |
 | `hier1 - hier5` | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
-| `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Serverseitige Weiterleitung des Audience Managers verwendet | tinyint unsigniert |
+| `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. Hit_sources 0, 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standard-Bildanforderung ohne Zeitstempel <br>2: Standard-Bildanforderung mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit voller Verarbeitung <br>7: TransaktionsID-Datenquellenupload <br>8: nicht mehr verwendet; Frühere Versionen von Adobe Advertising Cloud-Datenquellen <br>9: nicht mehr verwendet; Metriken zur Adobe Social-Zusammenfassung <br>10: Serverseitige Weiterleitung des Audience Managers verwendet | tinyint unsigniert |
 | `hit_time_gmt` | Der Zeitstempfel der Adobe-Datenerfassungsserver erhielt den Treffer, basierend auf der Unix-Zeit. | int |
 | `hitid_high` | Wird zusammen mit hitid_low zur eindeutigen Identifizierung eines Treffers verwendet. | bigint unsigniert |
 | `hitid_low` | Wird zusammen mit hitid_high zur eindeutigen Identifizierung eines Treffers verwendet. | bigint unsigniert |
@@ -267,7 +267,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `visid_low` | Wird in Kombination mit visid_high verwendet, um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
 | `visid_new` | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | `visid_timestamp` | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
-| `visid_type` | nicht zur externen Verwendung; intern von Adobe zur Verarbeitung von Optimierungen verwendet werden. Numerische ID, die die zur Identifizierung des Besuchers verwendete Methode darstellt.<br>0: Benutzerspezifische visitorID oder Unbekannt/nicht anwendbar<br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Ausweichcookie-Wert (s_fid) <br>5: Identitätsdienst | tinyint unsigniert |
+| `visid_type` | nicht zur externen Verwendung; intern von der Adobe für Verarbeitungsoptimierungen verwendet werden. Numerische ID, die die zur Identifizierung des Besuchers verwendete Methode darstellt.<br>0: Benutzerspezifische visitorID oder Unbekannt/nicht anwendbar<br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Ausweichcookie-Wert (s_fid) <br>5: Identitätsdienst | tinyint unsigniert |
 | `visit_keywords` | Variable, die in der Dimension „Suchbegriff“ verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung, um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | `visit_num` | Variable, die in der Dimension „Besuchsnummer“ verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
 | `visit_page_num` | Variable, die in Dimension „Treffertiefe“ verwendet wird. Wird für jeden vom Benutzer generierten Treffer um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
