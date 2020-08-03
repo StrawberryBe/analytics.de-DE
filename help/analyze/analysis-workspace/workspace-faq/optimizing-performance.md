@@ -3,10 +3,10 @@ description: 'null'
 title: Optimieren der Analysis Workspace-Leistung
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 100%
+source-wordcount: '1306'
+ht-degree: 85%
 
 ---
 
@@ -40,17 +40,15 @@ Außerdem können [Klassifizierungen](/help/components/classifications/c-classif
 
 Der Bereich der während eines Projekts angeforderten Daten beeinflusst die Performance von Analysis Workspace.
 
-**Best Practices für den Datenbereich**
+**Bewährte Verfahren für Datumsbereiche**
 
-Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen.
+Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen. Schränken Sie den Bereichskalender auf die relevanten Daten für Ihre Analyse ein oder verwenden Sie Datumsbereichskomponenten (violette Komponenten) in Ihren Freiformtabellen. Datumsbereiche, die in einer Tabelle verwendet werden, setzen den Datumsbereich des Bereichs außer Kraft. Sie können beispielsweise den Tabellenspalten &quot;Letzter Monat&quot;, &quot;Letzte Woche&quot;und &quot;Gestern&quot;hinzufügen, um diese spezifischen Datenbereiche anzufordern. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
 
-Beachten Sie, dass Datumsbereiche (violette Komponenten) den Datumsbereich des Feldes überschreiben. Wenn Sie also verschiedene Datumsbereiche als Spalten verwenden (z. B. letzter Monat, letzte Woche und gestern), muss der Datumsbereich für das Feld nicht alle Datumsbereiche der Spalten umfassen. Sie können ihn einfach auf „gestern“ festlegen, da die Datumsbereiche in der Freiformtabelle den des Feldes überschreiben. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=ybmv6EBmhn0).
-
-Nutzen Sie [Datumsvergleichsoptionen](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md), um die Daten für die Zeiträume abzurufen, die Sie vergleichen möchten. Wenn Sie z. B. die Daten des letzten Monats mit dem entsprechenden Vorjahresmonat vergleichen möchten, können Sie mit der Option „Zeiträume vergleichen“ den Jahresvergleich anzeigen, anstatt das Feld auf die Daten der letzten 13 Monate festzulegen.
+Minimieren Sie die Anzahl der im Vergleich zum Vorjahr verwendeten Vergleiche. Bei der Berechnung eines Jahresvergleichs werden alle 13 Monate der Daten zwischen den Zinsmonaten berücksichtigt. Dies hat die gleiche Auswirkung wie die Änderung des Datumsbereichs des Bedienfelds auf 13 Monate.
 
 ## Anzahl der Visualisierungen
 
-Die Anzahl der Diagrammvisualisierungen beeinflusst die Reaktionsschnelligkeit von Analysis Workspace.
+Die Anzahl der in einem Projekt enthaltenen Visualisierungen wirkt sich auf die Reaktionsgeschwindigkeit des Analysis Workspace insgesamt aus. Das liegt daran, dass jede Visualisierung, ob eine Tabelle oder ein Diagramm, über eine Datenquelle verfügt, die angefordert werden muss.
 
 **Best Practices für die Anzahl der Visualisierungen**
 
@@ -63,7 +61,7 @@ Die Art der Visualisierung (z. B. Fallout oder Freiformtabelle), die zu einem P
 * Angeforderter Datumsbereich, wie oben erwähnt
 * Anzahl der angewandten Segmente, z. B. als Zeilen verwendete Segmente in einer Freiformtabelle
 * Verwendung von komplizierten Segmenten
-* Statische Elementzeilen oder Spalten in Freiformtabellen
+* [Statische Elementzeilen oder Spalten in Freiformtabellen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
 * Auf Zeilen angewandte Filter in Freiformtabellen
 * Anzahl verwendeter Metriken, insbesondere berechneter Metriken, die Segmente verwenden
 
@@ -83,14 +81,14 @@ Versuchen Sie nicht, alles in ein Projekt zu packen. Erstellen Sie stattdessen s
 
 Wenn Sie Ihre Projekte noch genauer organisieren möchten, denken Sie daran, dass Sie [direkte Links](https://www.youtube.com/watch?v=6IOEewflG2U) auf Ihre Projekte setzen können. Erstellen Sie einen internen Index Ihrer Projekte, sodass Entscheidungsträger einfacher die gewünschten Informationen finden können.
 
-Wenn Sie in einem Projekt viele Felder benötigen, reduzieren Sie sie, bevor Sie das Projekt speichern und freigeben. Wenn ein Projekt geladen wird, lädt Analysis Workspace nur den Inhalt der erweiterten Felder. Reduzierte Felder werden erst geladen, wenn der Nutzer sie erweitert. Dies hilft auf zwei Arten:
+Wenn in einem Projekt viele Bedienfelder benötigt werden, reduzieren Sie die Bedienfelder vor dem Speichern und Freigeben. Wenn ein Projekt geladen wird, lädt Analysis Workspace nur den Inhalt der erweiterten Felder. Reduzierte Felder werden erst geladen, wenn der Nutzer sie erweitert. Dies hilft auf zwei Arten:
 
 * Reduzierte Felder verringern die gesamte Ladezeit eines Projekts
 * Mit reduzierten Feldern können Sie Ihre Projekte für den Nutzer des Berichts logisch organisieren
 
 ## Größe der Report Suite
 
-Die Größe der Report Suite kann wie ein wichtiger Faktor erscheinen, doch tatsächlich spielt sie aufgrund des von Adobe genutzten Verfahrens zur Datenverarbeitung nur eine geringe Rolle bei der Projektleistung.
+Die Größe der Report Suite kann wie ein wichtiger Faktor erscheinen, doch tatsächlich spielt sie aufgrund des von Adobe genutzten Verfahrens zur Datenverarbeitung nur eine geringe Rolle bei der Projektleistung.  Es kann Ausnahmen von dieser Regel geben. Wenden Sie sich an Ihr Implementierungsteam oder einen Experten für Adobe, um festzustellen, ob Implementierungsverbesserungen zur Verbesserung der Gesamterfahrung in Adobe Analytics möglich sind.
 
 ## Anzahl der Personen, die gleichzeitig auf Analysis Workspace zugreifen
 
