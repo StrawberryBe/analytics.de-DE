@@ -2,8 +2,11 @@
 description: 'null'
 title: Fallout-Visualisierung konfigurieren
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Bezüglich der Anzahl der Schritte, die hinzugefügt, oder der Dimensionen, die 
 
 Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listVars](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html) (Variablen, die mehrere Werte pro Hit haben können, wie Produkte, listVars, Merchandising-eVars und Listen-Props). Beispiel: Angenommen, jemand sucht auf der einen Seite nach „Schuhe,Shirt“ und auf der nächsten Seite nach „Schuhe,Socken“. Der nächste Produktflussbericht von Schuhe wird „Shirt und Socken“ lauten, NICHT „Shirt“.
 
-1. Ziehen Sie eine [!UICONTROL Fallout]-Visualisierung aus dem Dropdownfeld „Visualisierung“ in eine [!UICONTROL Freeform Table].
+1. Ziehen Sie eine [!UICONTROL Fallout]-Visualisierung aus dem Dropdownfeld „Visualisierung“ in eine [!UICONTROL Freiformtabelle].
 
-1. Ziehen Sie die Dimension „Seite“ in die Freiformtabelle und ziehen Sie von dort eine Seite (in diesem Fall „Startseite – JJEsquire“) als ersten Touchpoint in das Feld **[!UICONTROL Add TouchPoint]**.
+1. Ziehen Sie die Dimension „Seite“ in die Freiformtabelle und ziehen Sie von dort eine Seite (in diesem Fall „Startseite – JJEsquire“) als ersten Touchpoint in das Feld **[!UICONTROL Touchpoint hinzufügen]**.
 
    ![](assets/fallout1.png)
 
@@ -47,7 +50,7 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Pfad am Ende </p> <p>(Standardeinstellung) </p> </td> 
+   <td colname="col1"> <p>Pfad am Ende </p> <p>(Standard) </p> </td> 
    <td colname="col2"> <p>Die Besucher, die „am Ende“ auf der nächsten Seite im Pfad, aber nicht notwendigerweise beim nächsten Hit landen, werden gezählt. </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +65,6 @@ Sie können Pathing an eVars vornehmen, inklusive Merchandising-eVars und [listV
 | Einstellung | Beschreibung |
 |--- |--- |
 | Fallout-Container <ul><li>Besuch</li><li>Besucher.</li></ul> | Hiermit können Sie bei der Analyse der Besucherpfade zwischen Besuch und Besucher wechseln. Die Standardeinstellung lautet „Besucher“.  Mithilfe dieser Einstellungen können Sie Einblicke in Besucheraktivitäten auf der Besucherebene (besuchsübergreifend) erhalten oder die Analyse auf einen einzelnen Besuch einschränken. |
-| „Alle Besucher“ als ersten Touchpoint anzeigen. | Diese Option können Sie deaktivieren, wenn Sie nicht möchten, dass „Alle Besucher“ der erste Touchpoint ist. |
 
 Wenn Sie **mit der rechten Maustaste auf einen Touchpoint klicken**, werden die folgenden Optionen angezeigt:
 
