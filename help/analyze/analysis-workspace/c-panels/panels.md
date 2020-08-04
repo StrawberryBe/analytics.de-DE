@@ -1,10 +1,10 @@
 ---
 description: 'null'
 title: Übersicht über Bedienfelder
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '481'
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Ein Bedienfeld ist eine Sammlung von Tabellen und Visualisierungen. Sie können 
 
 * [Leeres Bedienfeld](blank-panel.md)
 * [Bedienfeld „Quick Insights“](quickinsight.md)
-* [Bedienfeld „Analytics for Target“](a4t-panel.md) (in Kürze verfügbar)
+* [Analytics for Target-Bedienfeld](a4t-panel.md)
 * [Attributionsbedienfeld](attribution.md)
 * [Freiform-Bedienfeld](freeform-panel.md)
 * [Bedienfeld „Segmentvergleich“](c-segment-comparison/segment-comparison.md)
