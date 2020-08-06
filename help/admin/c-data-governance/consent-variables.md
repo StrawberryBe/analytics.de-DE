@@ -3,7 +3,7 @@ description: Variablen für Berichte beim Datenschutz.
 title: Variablen für Datenschutzberichte
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ Jede Report Suite kann wie folgt konfiguriert werden:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Datenschutzberichte aktivieren]**.
 
-   >[!NOTE] Nach der Aktivierung können diese Variablen nicht mehr deaktiviert werden.
+   >[!NOTE]
+   >
+   >Nach der Aktivierung können diese Variablen nicht mehr deaktiviert werden.
 
    ![](assets/rsm-privacy-enable.png)
 
