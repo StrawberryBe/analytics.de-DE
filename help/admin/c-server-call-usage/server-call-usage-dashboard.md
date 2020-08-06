@@ -3,7 +3,7 @@ description: 'null'
 title: Anzeigen der aktuellen Nutzung der Server-Aufrufe
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -28,7 +28,9 @@ Das Dashboard für aktuelle Nutzung:
 
 * Vergleicht Ihre aktuelle Nutzungsperiode mit der Nutzung im letzten Jahr (blaue Linie). Natürlich wird die blaue Linie nur angezeigt, wenn für Ihr Unternehmen Daten zu den Server-Aufrufen im letzten Jahr vorliegen.
 
-   >[!NOTE] Wenn Sie die Nutzung für einen früheren Zeitraum anzeigen möchten, gehen Sie zur Registerkarte [Nutzung der Report Suite](/help/admin/c-server-call-usage/report-suite-usage.md) und laden Sie die Gebrauchsdaten für einen früheren Zeitraum herunter.
+   >[!NOTE]
+   >
+   >Wenn Sie die Nutzung für einen früheren Zeitraum anzeigen möchten, gehen Sie zur Registerkarte [Nutzung der Report Suite](/help/admin/c-server-call-usage/report-suite-usage.md) und laden Sie die Gebrauchsdaten für einen früheren Zeitraum herunter.
 
 * Listet den Anteil an genutzten Aufrufen (in Prozent und in unverarbeiteten Daten) und den Anteil der bereits abgelaufenen Nutzungsperiode (in Prozent und in unverarbeiteten Daten) auf.
 * Wird standardmäßig täglich mit einer Verarbeitungsverzögerung von 5 Tagen aktualisiert.
