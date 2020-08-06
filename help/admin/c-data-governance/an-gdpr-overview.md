@@ -3,7 +3,7 @@ description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics 
 title: Adobe Analytics und die DSGVO
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
@@ -50,6 +50,8 @@ Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help/ad
 * Ordnen Sie eine Adobe Analytics Report Suite, die Sie für Data Governance einrichten wollen, [Ihrer Experience Cloud-Organisation](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html) zu.
 * Legen Sie für jede Report Suite eine Richtlinie zur Datenaufbewahrung fest, damit DSGVO-Zugriffs- und -Löschanfragen bearbeitet werden können.
 
-   >[!NOTE] Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die DSGVO-API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen.
+   >[!NOTE]
+   >
+   >Adobe Analytics kann Sie bei der Verarbeitung von Anfragen an die DSGVO-API – also bei der Verarbeitung von Zugriffs- oder Löschanfragen, die Sie von Ihren Endbenutzern erhalten – nicht unterstützen, wenn in Adobe Analytics kein Zeitraum zur Datenaufbewahrung festgelegt wurde. Wenden Sie sich an Ihren Customer Success Manager, um den Zeitraum der Datenaufbewahrung festzulegen.
 
 * Überprüfen Sie Ihre Berechtigungen: Um die Analytics-Benutzeroberfläche zur Data-Governance-Verwaltung zu verwenden, müssen Sie Adobe Analytics-Administrator sein.
