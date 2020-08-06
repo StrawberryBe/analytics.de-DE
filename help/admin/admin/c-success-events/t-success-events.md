@@ -3,9 +3,9 @@ description: In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfigu
 title: Konfigurieren von Erfolgsereignissen
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,9 @@ In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 1. Aktivieren Sie in der Spalte **[!UICONTROL Name]** das Kontrollkästchen neben dem jeweiligen Element, um die Bearbeitung zu aktivieren, und geben Sie anschließend den gewünschten Namen ein.
 1. Aktivieren Sie in der Spalte **[!UICONTROL Typ]** das Kontrollkästchen neben dem jeweiligen Element, um die Dropdown-Liste zu aktivieren, und wählen Sie anschließend den gewünschten Typ aus.
 
-   >[!NOTE] Bevor Sie einen Ereignistyp ändern, lesen Sie [Ändern des Ereignistyps](/help/admin/admin/c-success-events/event-type.md).
+   >[!NOTE]
+   >
+   >Bevor Sie einen Ereignistyp ändern, lesen Sie [Ändern des Ereignistyps](/help/admin/admin/c-success-events/event-type.md).
 
    Weitere Informationen zu diesen Elementen finden Sie unter [Seite „Erfolgsereignisse“ – Beschreibungen](/help/admin/admin/c-success-events/success-event.md).
 
@@ -37,7 +39,9 @@ In diesen Schritten wird beschrieben, wie Erfolgsereignisse konfiguriert werden.
 1. Legen Sie fest, ob das Ereignis immer aufgezeichnet werden soll.
 1. Aktivieren oder deaktivieren Sie Beitragsmetriken.
 
-   >[!NOTE] Sie können die Beteiligung für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) Beitragsmetriken erstellen.
+   >[!NOTE]
+   >
+   >Sie können den Beitrag für bis zu 100 benutzerspezifische Ereignisse aktivieren. Darüber hinaus können Sie im Generator für [berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) Beitragsmetriken erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
