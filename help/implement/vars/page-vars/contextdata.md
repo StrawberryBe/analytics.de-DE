@@ -2,7 +2,7 @@
 title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
 translation-type: tm+mt
-source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 88%
@@ -35,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## Verwenden von Verarbeitungsregeln zum Ausfüllen von Analytics-Variablen
 
->[!IMPORTANT] Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
+>[!IMPORTANT]
+>
+>Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
 
 1. Aktualisieren Sie Ihre Implementierung, um Kontextdatenvariablennamen und -werte festzulegen.
 2. Melden Sie sich bei Adobe Analytics an und gehen Sie zu „Admin“ > „Report Suites“.
