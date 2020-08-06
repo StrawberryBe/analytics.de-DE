@@ -2,7 +2,7 @@
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen des Zusammenführens von Daten mithilfe des Gerätediagramms vertraut.
 translation-type: tm+mt
-source-git-commit: eb2bee26dd58dcff13b4ddf41c6f6ab337d8d374
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 39%
@@ -12,20 +12,22 @@ ht-degree: 39%
 
 # Gerätediagramm
 
-Analytics bietet zwei verschiedene Methoden zum Zusammenfügen von Daten. Diese Methode verwendet das Adobe Experience Platform Identity Service Co-op Graph oder Private Graph, um Daten zu verbinden. CDA kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
+Geräteübergreifende Analytics bietet zwei verschiedene Methoden zum Zusammenfügen von Daten. Diese Methode verwendet das Adobe Experience Platform Identity Service Co-op Graph oder Private Graph, um Daten zu verbinden. CDA kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
 
 ## Unterschiede zwischen Co-op-Diagramm und privatem Diagramm
 
-Adobe Angebots verwendet zwei Gerätetypen als Teil des ID-Diensts:
+Adobe Angebot zwei Gerätetypen als Teil des ID-Diensts:
 
 * **Koop-Diagramm**: Ein Repository mit Hash-Geräte-IDs, zu dem jeder Kunde beitragen und darauf verweisen kann. Da diese Art von Gerätediagramm kollaborativ ist, stimmt sie in der Regel mit mehr Geräten überein als mit einem privaten Diagramm.
 * **Privates Diagramm**: Ein Repository mit Hash-Geräte-IDs, auf das nur Ihr Unternehmen verweist.
 
 ## Besondere Anforderungen an das Gerätediagramm
 
-Wenn Sie planen, geräteübergreifendes Analytics mit der Diagrammmethode des Geräts zu implementieren, sind die folgenden Schritte erforderlich. Arbeiten Sie mit Teams in Ihrer Organisation und Ihrem Adobe-Kundenbetreuer zusammen, um sicherzustellen, dass Sie die folgenden Kriterien alle erfüllen.
+Wenn Sie geräteübergreifende Analysen mit der Diagrammmethode des Geräts implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrer Organisation und Ihrem Adobe-Kundenbetreuer zusammen, um sicherzustellen, dass Sie die folgenden Kriterien alle erfüllen.
 
->[!IMPORTANT] Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
+>[!IMPORTANT]
+>
+>Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
 
 * Alle auf der [Übersichtsseite](overview.md)aufgelisteten Voraussetzungen.
 * Ihre Organisation muss das Co-op-Diagramm oder das private Diagramm des Identity Service der Adobe Experience Platform verwenden. Weitere Informationen finden Sie unter [Startseite](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html) im Benutzerhandbuch zur Co-op-Funktion des Geräts.
