@@ -1,8 +1,8 @@
 ---
-title: Geräteübergreifendes Analytics einrichten
+title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um CDA zu aktivieren.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 91%
@@ -10,11 +10,13 @@ ht-degree: 91%
 ---
 
 
-# Geräteübergreifendes Analytics einrichten
+# Geräteübergreifende Analyse einrichten
 
 Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifende Analyse mit den folgenden Schritten. Sie müssen einer Produktprofil-Administratorgruppe angehören oder über Administratorrechte in Adobe Analytics verfügen, um diese Schritte ausführen zu können.
 
->[!IMPORTANT] Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Voraussetzungen und Einschränkungen finden Sie auf der [Übersichtsseite](overview.md) und der gewünschten Methode zum Zuordnen ([Feldbasierte Suche](field-based-stitching.md) bzw. [Gerätediagramm](device-graph.md)).
+>[!IMPORTANT]
+>
+>Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Voraussetzungen und Einschränkungen finden Sie auf der [Übersichtsseite](overview.md) und der gewünschten Methode zum Zuordnen ([Feldbasierte Suche](field-based-stitching.md) bzw. [Gerätediagramm](device-graph.md)).
 
 ## Auswahl einer geräteübergreifenden Report Suite zur Aktivierung für die geräteübergreifende Analyse
 
