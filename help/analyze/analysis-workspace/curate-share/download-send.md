@@ -2,10 +2,10 @@
 description: Sie können gespeicherte und ungespeicherte Projekte im PDF- oder CSV-Format herunterladen.
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ Am 11. April 2019 wurden mehrere Änderungen an **[!UICONTROL CSV-Downloads]*
 * Wenn eine Zahl ungültig ist, wird eine leere Zelle angezeigt.
 * Es wird keine Rundung angewendet (auch wenn diese in der berechneten Metrik angegeben ist) – es werden die Rohwerte angezeigt.
 
->[!NHinweis:]
+>[!NOTE]
 >
-> Numerische Werte, die ein Komma als Dezimaltrennzeichen verwenden, werden weiterhin in der exportierten CSV angegeben.
+>Numerische Werte, die ein Komma als Dezimaltrennzeichen verwenden, werden weiterhin in der exportierten CSV angegeben.
