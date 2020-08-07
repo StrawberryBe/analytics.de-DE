@@ -1,8 +1,8 @@
 ---
 title: CDA Workspace-Vorlage
-description: Beschreibt die einzelnen Felder in der CDA-Vorlage in Analysis Workspace.
+description: Describes each field in the CDA template within Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 97%
@@ -22,7 +22,7 @@ Adobe bietet eine Vorlage zum Anzeigen wichtiger geräteübergreifender Leistung
 
 Es wird ein Analysis Workspace-Projekt erstellt, das mehrere Bedienfelder enthält. Oben werden ein Inhaltsverzeichnis und eine Einführung angezeigt, die den Kontext zum Bericht geben und die Navigation zu einzelnen Berichten ermöglichen. Klicken Sie auf einen Link im Inhaltsverzeichnis oder erweitern Sie das Akkordeon eines Bedienfelds, um diese Berichte anzuzeigen.
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **Besonderer Hinweis für Mitglieder des Co-op-Diagramms**: Zeigt an, welcher Teil Ihrer Report Suite Besucher in Regionen enthält, in denen das Co-op-Diagramm unterstützt wird, und in Regionen, in denen es nicht unterstützt wird.
 * **Identifizierung der Benutzer**: Zeigt an, wie oft Besucher Ihrer Site mit Methoden identifiziert werden, die auf geräteübergreifenden Analysen basieren.
