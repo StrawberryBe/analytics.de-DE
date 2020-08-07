@@ -2,9 +2,9 @@
 description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Diese Vorlage basiert auf der Personen-Metrik, die eine deduplizierte Version de
 
 ### Journey IQ: Vorlage für geräteübergreifende Analyse
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 Mit dieser Vorlage können Sie wichtige geräteübergreifende Leistungsdaten erfassen. Sie steht nur Kunden zur Verfügung, die Zugriff auf [geräteübergreifende Analysen](https://docs.adobe.com/content/help/de-DE/analytics/components/cda/cda-home.html) (Cross-Device Analytics, CDA) haben.
 
