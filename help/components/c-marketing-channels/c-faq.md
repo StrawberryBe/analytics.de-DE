@@ -2,17 +2,17 @@
 title: Häufig gestellte Fragen zu Marketing-Kanälen
 description: Häufig gestellte Fragen zu Marketing-Kanälen
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 49%
+source-wordcount: '1465'
+ht-degree: 52%
 
 ---
 
 
-# Häufig gestellte Fragen zu Marketing-Kanälen
+# Marketing Channels FAQ
 
-Häufig gestellte Fragen zu Marketing-Kanälen
+Frequently asked questions for Marketing channels.
 
 ## Meine Trackingcodes folgen keinem Muster und ich habe Tausende, die für meinen Affiliates-Kanal angegeben werden müssen.
 
@@ -55,13 +55,13 @@ Erstellen Sie abschließend einen Kanal *Other*, der die verbleibenden Treffer e
 
 ## Beziehung zwischen Erstkontakt und Letztkontakt
 
-Um die Interaktion zwischen alten First Touch- und Last Touch-Dimensionen zu verstehen und zu bestätigen, dass Außerkraftsetzungen erwartungsgemäß funktionieren, können Sie einen First Touch-Kanal-Bericht abrufen, der in Subrelationen zu einem Last Touch-Kanal-Bericht steht und in dem Ihre wichtigste Erfolgsmetrik hinzugefügt wurde (siehe Beispiel unten). Das Beispiel zeigt die Interaktion zwischen Erstkontakt- und Letztkontakt-Kanälen.
+To understand the interaction between legacy first and last touch dimensions, and confirm that overrides work as expected, you can pull a first-touch channel report, sub-related to a last-touch channel report, with your key success metric added in (see example below). Das Beispiel zeigt die Interaktion zwischen Erstkontakt- und Letztkontakt-Kanälen.
 
 ![](assets/int-channel3.png)
 
-Der Schnittpunkt, bei dem &quot;first gleich last touch&quot;die Diagonale des Tisches ist. Sowohl Direct- als auch Sitzungsaktualisierung erhalten nur dann eine Last Touch-Gutschrift, wenn sie auch der First Touch-Kanal sind, da sie keine Gutschrift von anderen bestehenden Kanälen (markierten Zeilen) erhalten können.
+Der Schnittpunkt, bei dem &quot;first gleich last touch&quot;die Diagonale des Tisches ist. Both Direct and Session Refresh only get last-touch credit if they were also the first-touch channel, because they cannot take credit from other persisting channels (highlighted rows).
 
-## Gründe für die Nichtidentifizierung des Kanals {#no-channel-identified}
+## Reasons for No Channel Identified {#no-channel-identified}
 
 Wenn Ihre Regeln keine Daten erfassen oder die Regeln nicht korrekt konfiguriert sind, zeigt der Bericht die Daten in der Zeile [!UICONTROL Kein Kanal identifiziert] im Bericht an. Sie können beispielsweise am Ende der Verarbeitungsreihenfolge einen Regelsatz mit dem Namen *Sonstige* einrichten, der internen Traffic auch wie folgt identifiziert:
 
@@ -75,19 +75,25 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 ## Gründe für die Aktualisierung der Sitzung {#internal}
 
-Last Touch Session Refresh kann nur auftreten, wenn es auch die erste Berührung war - siehe &quot;Beziehung zwischen First &amp; Last Touch&quot; oben. Die folgenden Szenarien erläutern, wie Sitzungsaktualisierung ein First Touch-Kanal sein könnte.
+Last Touch Internal (Session Refresh) kann nur auftreten, wenn es auch die erste Berührung war - siehe &quot;Beziehung zwischen First &amp; Last Touch&quot; oben. Die folgenden Szenarien erläutern, wie Sitzungsaktualisierung ein First Touch-Kanal sein könnte.
 
-* **Sitzungs-Timeout**: Ein Besucher besucht die Website und lässt die Registerkarte dann in ihrem Browser geöffnet, um sie später zu verwenden. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
+* **Session timeout**: A visitor comes to the website and then leaves the tab open in their browser to use at a later date. Der Interaktionszeitraum des Besuchers läuft ab (oder er löscht seine Cookies freiwillig), und er verwendet die geöffnete Registerkarte, um die Website erneut zu besuchen. Da die verweisende URL eine interne Domäne ist, wird der Besuch als Sitzungsaktualisierung klassifiziert.
 
-* **Nicht alle Seiten der Site sind mit Tags versehen**: Ein Besucher landet auf Seite A, der nicht mit Tags versehen ist, und wechselt dann zu Seite B, die mit Tags versehen ist. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Not all site pages are tagged**: A visitor lands on Page A which is not tagged, and then moves to page B which is tagged. Seite A wird als interner Referrer angesehen, und der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-* **Umleitungen**: Wenn eine Umleitung nicht so eingerichtet ist, dass sie die Daten des Werbers an die neue Landingpage weiterleitet, gehen die Daten des echten Werbers verloren und jetzt erscheint die Umleitungsseite (wahrscheinlich eine interne Seite) als verweisende Domäne. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Redirects**: If a redirect is not set up to pass referrer data through to the new landing page, the true entry referrer data is lost and now the redirect page (likely an internal page) appears as the referring domain. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-* **Domänenübergreifender Traffic**: Ein Besucher wechselt von einer Domäne, die zu Suite A ausgelöst wird, zu einer zweiten Domäne, die zu Suite B ausgelöst wird. Wenn in Suite B die interne URL-Filter die erste Domäne enthalten, wird der Besuch in Suite B als intern aufgezeichnet, da Marketing-Kanal ihn als neuen Besuch in der zweiten Suite sehen. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Cross-Domain Traffic**: A visitor moves from one domain which fires to Suite A, to a second domain which fires to Suite B. If in Suite B, the internal URL filters include the first domain, the visit in Suite B will be recorded as Internal, since Marketing Channels see it as a new visit in the second suite. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
-( **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
+* **Lange Ladezeiten** der Einstiegsseite: Ein Besucher landet auf Seite A, der sehr umfangreich ist, und der Adobe Analytics-Code befindet sich unten auf der Seite. Bevor der gesamte Inhalt (einschließlich Adobe Analytics-Bildanforderungen) geladen werden kann, klickt der Besucher auf Seite B. Seite B löst ihre Adobe Analytics-Bildanforderung aus. Da die Bildanforderung von Seite A nie geladen wurde, wird die zweite Seite als erster Treffer des Besuchs in Adobe Analytics angezeigt, wobei Seite A als Referrer dient. Der Besuch wird als Sitzungsaktualisierung klassifiziert.
 
 * **Löschen von Cookies auf der Mid-Site**: Ein Besucher besucht die Site, und während der Sitzung werden die Cookies gelöscht. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt, und der Besuch wird als Sitzungsaktualisierung klassifiziert (weil der Referrer intern ist).
+
+Nachstehend finden Sie ein Beispiel dafür, wie &quot;Intern (Sitzungsaktualisierung)&quot;sowohl als First Touch- als auch als Last Touch-Kanal eingestellt wird:
+
+* Tag 1: Der Benutzer gelangt per Anzeige zur Site. Erstkontakt- und Letztkontakt-Kanäle werden auf „Anzeige“ eingestellt.
+* Tag 2: Der Benutzer gelangt per natürlicher Suche zur Site. Erstkontakt bleibt „Anzeige“, Letztkontakt wird auf „Natürliche Suche“ eingestellt.
+* Tag 35: Der Benutzer war seit 33 Tagen nicht mehr auf der Site und kehrt über die Registerkarte zurück, die er in seinem Browser geöffnet hatte. Bei einem Interaktionsfenster von 30 Tagen wäre das Fenster geschlossen, und die Marketingkanal-Cookies wären abgelaufen. Die Erstkontakt- und Letztkontakt-Kanäle werden zurückgesetzt und auf „Sitzungsaktualisierung“ eingestellt, da der Benutzer von einer internen URL kam.
 
 ## Warum werden einige Kanal nach der Änderung der Verarbeitungsregeln für Marketing Kanal nicht geändert?
 
