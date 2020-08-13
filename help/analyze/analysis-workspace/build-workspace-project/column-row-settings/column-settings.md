@@ -2,20 +2,20 @@
 description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatierung konfigurieren. Einige davon sind bedingt.
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: ht
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 92%
 
 ---
 
 
-# Spalteneinstellungen
+# [!UICONTROL Spalteneinstellungen]
 
-Mithilfe der Spalteneinstellungen können Sie die Spaltenformatierung konfigurieren. Einige davon sind bedingt.
+[!UICONTROL Mit den Spalteneinstellungen] können Sie die Spaltenformatierung konfigurieren, von denen einige bedingt sein können.
 
-## Spalteneinstellungen {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
+## Einstellungen [!UICONTROL für Spalten bearbeiten] {#column-settings}
 
 Um die [!UICONTROL Spalteneinstellungen] aufzurufen, ziehen Sie eine Freiformtabelle in das Projekt und klicken Sie dann auf das Zahnrad-Symbol in der Spaltenüberschrift.
 
@@ -24,7 +24,7 @@ Um die [!UICONTROL Spalteneinstellungen] aufzurufen, ziehen Sie eine Freiformtab
 Sie können Einstellungen **für mehrere Spalten gleichzeitig** bearbeiten. Wählen Sie hierzu einfach mehrere Spalten aus und klicken Sie in einer der Spalten auf das Einstellungs-Symbol. Sämtliche Änderungen, die Sie hier vornehmen, werden auf die markierten Zellen aller Spalten angewendet.
 
 | Element | Beschreibung |
-|--- |--- |
+| --- | --- |
 | Nummer | Definition, ob in einer Zelle der numerische Wert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der numerische Wert die Anzahl an Seitenansichten für dieses Zeilenelement. |
 | Prozent | Definition, ob in einer Zelle der Prozentwert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der Prozentwert die Anzahl an Seitenansichten für dieses Zeilenelement geteilt durch die Gesamtanzahl der Seitenansichten für diese Spalte.  Hinweis: Für eine höhere Genauigkeit können Prozentsätze über 100 % angezeigt werden. Außerdem wird die obere Grenze auf 1.000 % verschoben, damit Spalten auch verbreitert werden können. |
 | Anomalien | Definition, ob die Anomalieerkennung für die Werte dieser Spalte ausgeführt wird |
@@ -35,22 +35,20 @@ Sie können Einstellungen **für mehrere Spalten gleichzeitig** bearbeiten. Wäh
 | Bedingte Formatierung | Weitere Informationen dazu finden Sie im unten stehenden Abschnitt. |
 | Vorschau der Tabellenzelle | Vorschau der jeweiligen Zelle mit allen ausgewählten Formatierungsoptionen |
 
-
-## Bedingte Formatierung {#section_3DD847151DA14914888A70FC4FD7BDFB}
+## Bedingte Formatierung {#conditional-formatting}
 
 Die bedingte Formatierung gilt für Obergrenzen, Mittelwerte und Untergrenzen, die Sie definieren. Das Anwenden bedingter Formatierung (Farben etc.) in Freiformtabellen ist bei Aufschlüsselungen auch automatisch aktiviert, wenn keine benutzerdefinierten Beschränkungen ausgewählt sind.
 
 ![](assets/conditional-formatting.png)
 
 | Element | Beschreibung |
-|--- |--- |
-| Bedingte Formatierung | Färbt Zellen je nach Datenwerten wie folgt ein: <ul><li>Grün: hohe Werte</li><li>Gelb: Mittelpunktwerte</li><li>Rot: niedrige Werte</li></ul><br>Wenn Sie eine Dimension in der Tabelle ersetzen, werden die Grenzwerte für die bedingte Formatierung zurückgesetzt. Wenn Sie eine Metrik ersetzen, werden die Grenzwerte für diese Spalte zurückgesetzt (dabei wird eine Metrik auf der X-Achse und eine Dimension auf der Y-Achse dargestellt). |
-| Prozentbegrenzungen verwenden | Verwenden Sie auf Basis der Prozentwerte für die einzelnen Metriken Obergrenzen, Mittelwerte und Untergrenzen. Diese Einstellung funktioniert mit Metriken, die rein prozentbasiert sind (beispielweise Absprungrate) oder eine Anzahl und einen Prozentsatz aufweisen (beispielsweise Seitenansichten). |
-| Automatisch generiert | Generiert automatisch Grenzwerte für die bedingte Formatierung. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
-| Benutzerspezifisch | Sie können die Werte für die Felder „Obergrenze“, „Mittelpunkt“ und „Untergrenze“ für die bedingte Formatierung manuell festlegen. So können Sie flexibel bestimmen, ob der Wert einer Spalte gut, durchschnittlich oder schlecht ist. |
-| Vorschau der Tabellenzelle | Vorschau der jeweiligen Zelle mit allen ausgewählten Formatierungsoptionen |
+| --- | --- |
+| Bedingte Formatierung | Färbt Zellen je nach Datenwerten wie folgt ein: <ul><li>Grün: hohe Werte</li><li>Gelb: Mittelpunktwerte</li><li>Rot: niedrige Werte</li></ul> <br> Wenn Sie eine Dimension in der Tabelle ersetzen, werden die Grenzwerte für die bedingte Formatierung zurückgesetzt. Wenn Sie eine Metrik ersetzen, werden die Grenzwerte für diese Spalte zurückgesetzt (dabei wird eine Metrik auf der X-Achse und eine Dimension auf der Y-Achse dargestellt). |
+| Prozentbegrenzungen verwenden | Ändern Sie den Grenzwert so, dass er auf Prozentwerten statt auf absoluten Werten basiert. Diese Einstellung funktioniert mit Metriken, die rein prozentbasiert sind (beispielweise Absprungrate) oder eine Anzahl und einen Prozentsatz aufweisen (beispielsweise Seitenansichten). |
+| Automatisch generiert | Automatically calculate upper/mid/lower limits based on the data. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
+| Benutzerspezifisch | Weisen Sie manuell Obergrenzen/Mittelwerte/Untergrenzen zu. So können Sie flexibel bestimmen, ob der Wert einer Spalte gut, durchschnittlich oder schlecht ist. |
 
-## Nicht standardmäßiges Attributionsmodell verwenden
+## Nicht standardmäßiges Attributionsmodell verwenden {#attribution}
 
 Analysis Workspace unterstützt die [Attribution](../../attribution/overview.md) für nahezu jede Metrik.
 
@@ -58,10 +56,9 @@ Analysis Workspace unterstützt die [Attribution](../../attribution/overview.md)
 
    ![Kontrollkästchen „Attribution“](assets/attribution-checkbox.png)
 
-2. Aktivieren Sie unter **[!UICONTROL Dateneinstellungen]** die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**. Weitere Informationen zu den unterschiedlichen Attributionsmodellen finden Sie unter [Attributionsmodelle](../../attribution/models.md).
+1. Aktivieren Sie unter **[!UICONTROL Dateneinstellungen]** die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**. Weitere Informationen zu den unterschiedlichen Attributionsmodellen finden Sie unter [Attributionsmodelle](../../attribution/models.md).
 
    ![Attributionsmodell auswählen](assets/attribution-select.png)
-
 
 >[!MORELIKETHIS]
 >
