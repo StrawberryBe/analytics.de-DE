@@ -2,34 +2,34 @@
 title: Referrer
 description: Die URL, auf der sich ein Besucher befand, bevor er zu Ihrer Site durchklickte.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '438'
+ht-degree: 49%
 
 ---
 
 
 # Referrer
 
-Die Dimension &quot;Werber&quot;zeigt an, auf welchen URLs sich die Besucher befanden, wenn sie zum Erreichen Ihrer Site durchklickt wurden. Diese Dimension ist nützlich, um zu verstehen, welche bestimmten URLs den meisten Traffic zu Ihrer Site bringen. Ein Link muss auf der externen URL vorhanden sein, und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
+Die Dimension „Referrer“ gibt an, auf welchen URLs sich die Besucher befanden, als sie sich zu Ihrer Site durchklickten. Diese Dimension ist nützlich, um zu verstehen, welche spezifischen URLs den meisten Traffic zu Ihrer Site leiten. Ein Link muss auf der externen URL vorhanden sein, und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
 
 >[!IMPORTANT]
 >
->Sie müssen die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren, um diese Dimension verwenden zu können. Wenn interne URL-Filter nicht konfiguriert werden, können sie entweder interne URLs enthalten oder die Anzeige externer URLs verhindern.
+>Sie müssen die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren, um diese Dimension verwenden zu können. Wenn die internen URL-Filter nicht konfiguriert werden, können entweder interne URLs enthalten sein oder die Anzeige externer URLs verhindert werden.
 
-Derselbe Bericht kann unterschiedliche Ergebnisse zwischen Analysis Workspace und Data warehouse anzeigen. Analysis Workspace meldet den Werber für jede einzelne Seite, wobei Werte ausgeschlossen werden, die mit internen URL-Filtern übereinstimmen. Data warehouse meldet nur den ersten Werber des Besuchs und ignoriert interne URL-Filter.
+Derselbe Bericht kann unterschiedliche Ergebnisse zwischen Analysis Workspace und Data Warehouse anzeigen. Analysis Workspace meldet den Werber für jede einzelne Seite, wobei Werte ausgeschlossen werden, die mit internen URL-Filtern übereinstimmen. Data Warehouse meldet nur den ersten Werber des Besuchs und ignoriert interne URL-Filter.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfordert die Konfiguration auf der Analytics-Oberfläche und Daten in Bildanforderungen.
+Diese Dimension erfordert die Konfiguration auf der Analytics-Benutzeroberfläche und Daten in Bildanforderungen.
 
-* Innerhalb Ihrer Implementierung ruft diese Dimension Daten aus der [`r` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `document.referrer` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), funktioniert diese Dimension standardmäßig. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Parameter `r` für die Zeichenfolge in Bildanforderungen einschließen.
-* Auf der Analytics-Oberfläche müssen Sie die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md)Ihrer Report Suite konfigurieren. Wenn interne URL-Filter nicht konfiguriert werden, können sie entweder interne URLs enthalten oder die Anzeige externer URLs verhindern.
+* Innerhalb Ihrer Implementierung ruft diese Dimension Daten aus der [`r` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `document.referrer` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `r` bei allen Bildanforderungen einbeziehen.
+* Auf der Analytics-Benutzeroberfläche müssen Sie die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren. Wenn die internen URL-Filter nicht konfiguriert werden, können entweder interne URLs enthalten sein oder die Anzeige externer URLs verhindert werden.
 
 ## Dimensionen
 
-Zu den Elementen der Dimension gehören URLs, die Besucher durchklicken, um zu Ihrer Site zu gelangen. Wenn ein Treffer keine Werber-Daten enthält, gruppiert er sich unter dem Dimensionselement `"Typed/Bookmarked"`. Dieses Dimensionselement bedeutet, dass kein Werber vorhanden ist, z. B. wenn der Besucher die Browseradresse manuell in die Adressleiste eingegeben oder auf ein Lesezeichen geklickt hat.
+Zu den Elementen der Dimension gehören URLs, die Besucher durchklicken, um zu Ihrer Site zu gelangen. If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. Dieses Dimensionselement bedeutet, dass kein Werber vorhanden ist, z. B. wenn der Besucher die Browseradresse manuell in die Adressleiste eingegeben oder auf ein Lesezeichen geklickt hat. Das `"Typed/Bookmarked"` Dimensionselement wird auch bei Umleitungen angezeigt, die nicht für Analytics geeignet sind. Siehe [Weiterleitungen und Aliase](/help/technotes/redirects.md) im Technotes-Benutzerhandbuch.
 
 ### Dimensionen, die `googleusercontent.com`
 
