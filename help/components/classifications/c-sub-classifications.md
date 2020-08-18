@@ -5,10 +5,10 @@ title: Informationen über Unterklassifizierungen
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizier
 
 >[!NOTE]
 >
->Unterklassifizierungen bezeichnen die Möglichkeit, Klassifizierungen weiter zu klassifizieren. Das ist allerdings nicht dasselbe wie eine zum Erstellen von [!UICONTROL Hierarchie] berichten verwendete [!UICONTROL Classification-Hierarchie]. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](classification-hierarchies.md).
+>Unterklassifizierungen bezeichnen die Möglichkeit, Klassifizierungen weiter zu klassifizieren. Das ist allerdings nicht dasselbe wie eine zum Erstellen von [!UICONTROL Hierarchie] berichten verwendete [!UICONTROL Classification-Hierarchie]. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](/help/admin/admin/conversion-var-admin/classification-hierarchies.md).
 
 Beispiel:
 
@@ -38,7 +38,7 @@ Mehrstufige Classifications bestehen aus über- und untergeordneten Classificati
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Classification kann gleichzeitig über- und untergeordnet sein. Die übergeordneten Classifications der obersten Ebene entsprechen einer einstufigen Classification (siehe [Einstufige Classifications](/help/components/classifications/c-sub-classifications.md)).
+**Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Classification kann gleichzeitig über- und untergeordnet sein. Die übergeordneten Klassifizierungen der obersten Ebene entsprechen einstufigen Klassifizierungen.
 
 **Untergeordnete Classifications:** Als untergeordnete Classification gilt jede Classification, der eine andere Classification anstelle der Variablen übergeordnet ist. Untergeordnete Classifications enthalten zusätzliche Informationen über ihre übergeordnete Classification. Beispielsweise könnte einer [!UICONTROL Kampagnen]-Classification eine Kampagnenverantwortlichen-Classification untergeordnet sein. [!UICONTROL Nummerische] Classifications fungieren auch als Metriken in Classification-Berichten.
 
@@ -50,7 +50,7 @@ Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdat
 
 Beispiel:
 
-| SCHLÜSSEL | EIGENSCHAFT 1 | Eigenschaft 1&amp;Hat;Eigenschaft1-1 | Eigenschaft 1&amp;Hat;Eigenschaft1-2 | Eigenschaft 2 |
+| SCHLÜSSEL | EIGENSCHAFT 1 | Eigenschaft 1^Eigenschaft 1-1 | Eigenschaft 1^Eigenschaft 1-2 | Eigenschaft 2 |
 |---|---|---|---|---|
 | 123 | ABC | Grün | Klein | A12B |
 | 456 | DEF | Rot | Groß | C3D4 |
@@ -61,20 +61,19 @@ Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, lieg
 >
 >Wenn die [!UICONTROL Schlüssel]-Spalte in einer Datendatei leer ist, erzeugt Adobe automatisch eindeutige Schlüssel für jede Datenzeile. Um beim Hochladen einer Datendatei mit Classification-Daten der zweiten oder einer höheren Stufe mögliche Dateibeschädigungen zu vermeiden, fügen Sie in jeder Zeile der [!UICONTROL Schlüssel] spalte ein Sternchen (*) ein.
 
-Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html).
-
 ## Beispiele
 
 ![](assets/sample-product-classifications.png)
 
 >[!NOTE]
-Die Produktklassifizierungsdaten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
+>
+>Die Produktklassifizierungsdaten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
 
-Beim Hochladen von Datendateien für diese Produkt-Classification können Sie die Classification-Daten wahlweise als einzelne Datei oder in mehreren Dateien hochladen (siehe unten). Durch das Aufteilen des Farbcodes in Datei 1 und des Farbnamens in Datei 2 müssen die Farbnamensdaten (die möglicherweise nur ein paar Zeilen umfassen) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dies schließt das Farbnamenfeld (CODE&amp;Hat;FARBE) aus der häufiger aktualisierten Datei 1 aus und verringert damit Dateigröße und Komplexität beim Generieren der Datendatei.
+Beim Hochladen von Datendateien für diese Produkt-Classification können Sie die Classification-Daten wahlweise als einzelne Datei oder in mehreren Dateien hochladen (siehe unten). Durch das Aufteilen des Farbcodes in Datei 1 und des Farbnamens in Datei 2 müssen die Farbnamensdaten (die möglicherweise nur ein paar Zeilen umfassen) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dies schließt das Farbnamenfeld (CODE^FARBE) aus der häufiger aktualisierten Datei 1 aus und verringert damit Dateigröße und Komplexität beim Generieren der Datendatei.
 
 ### Produkt-Classification – Einzeldatei {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE | CODE&amp;Hat;FARBE |
+| SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE | CODE^FARBE |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | Mo | Mo | 01 | Stein |
 | 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | Mo | L | 03 | Heather |
@@ -90,7 +89,7 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 
 ### Produkt-Classification – Mehrere Dateien (Datei 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| SCHLÜSSEL | CODE | CODE&amp;Hat;FARBE |
+| SCHLÜSSEL | CODE | CODE^FARBE |
 |---|---|---|
 | * | 01 | Stein |
 | * | 03 | Heather |
