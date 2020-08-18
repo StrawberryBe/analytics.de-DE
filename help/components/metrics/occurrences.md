@@ -1,24 +1,24 @@
 ---
 title: Vorfälle
-description: Die Anzahl der Treffer, die eine Variable festgelegt oder beibehalten wurde.
+description: Die Anzahl der Treffer, für die eine Variable festgelegt oder beibehalten wurde.
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '153'
+ht-degree: 67%
 
 ---
 
 
 # Vorfälle
 
-Die Metrik &quot;Vorfälle&quot;zeigt die Anzahl der Treffer an, bei denen eine bestimmte Dimension festgelegt oder beibehalten wurde. Wenn Sie eine Dimension in Workspace auf eine leere Arbeitsfläche ziehen, wendet Adobe diese Metrik automatisch auf das Projekt an.
+Die Metrik „Vorfälle“ zeigt die Anzahl der Treffer an, bei denen eine bestimmte Dimension festgelegt oder beibehalten wurde. Wenn Sie eine Dimension in Workspace auf eine leere Arbeitsfläche ziehen, wendet Adobe diese Metrik automatisch auf das Projekt an.
 
 ## Berechnung dieser Metrik
 
-Schließen Sie von allen Treffern in einer Report Suite Treffer ein, bei denen ein Dimensionselement definiert oder beibehalten wird. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), bleiben über den Treffer hinaus erhalten, für den sie festgelegt wurden. Metriken wie [Seitenwerte](page-views.md) und [Vorfälle](occurrences.md) zählen sowohl Anfangswerte als auch beibehaltene Ansichten.
+Schließen Sie von allen Treffern in einer Report Suite Treffer ein, bei denen ein Dimensionselement definiert oder beibehalten wird. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), bleiben über den Treffer hinaus bestehen, für den sie festgelegt wurden. Diese Metrik zählt sowohl anfängliche als auch beständige Werte.
 
-## Vergleichen mit ähnlichen Metriken
+## Vergleich mit ähnlichen Metriken
 
 * **Vorfälle oder[Instanzen](instances.md)**: Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde. Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird.
-* **Vorfälle im Vergleich zu[Seiten-Ansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, einschließlich Verfolgungsaufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) und Linkverfolgungsaufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) der Ansicht. Die Metrik &quot;Ansichten&quot;umfasst nur Verfolgungsaufrufe der Ansicht und schließt Linkverfolgungsaufrufe aus.
+* **Vorfälle im Vergleich zu[Seitenansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)). Die Metrik „Seitenansichten“ umfasst nur Seitenansicht-Tracking-Aufrufe und schließt Linktracking-Aufrufe aus.
