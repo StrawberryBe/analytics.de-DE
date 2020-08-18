@@ -1,37 +1,37 @@
 ---
-title: Referrerdomäne
-description: Die übergreifende Domäne, auf der sich ein Besucher befand, bevor er zu Ihrer Site durchklickte.
+title: Referrer-Domäne
+description: Die übergeordnete Domäne, auf der sich ein Besucher befand, bevor er zu Ihrer Site klickte.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '492'
+ht-degree: 53%
 
 ---
 
 
-# Referrerdomäne
+# Referrer-Domäne
 
-Die Dimension &quot;Verweisende Domäne&quot;zeigt an, welche Domänen Besucher durchklicken, um zu Ihrer Site zu gelangen. Diese Dimension ist nützlich, um zu verstehen, welche Websites von Drittanbietern den meisten Traffic zu Ihrer Site bringen. Ein Link muss auf der externen Site vorhanden sein und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
+Die Dimension „Referrer-Domäne“ gibt an, von welchen Domänen Besucher klicken, um zu Ihrer Site zu gelangen. Diese Dimension ist nützlich, um zu verstehen, welche Websites von Drittanbietern den meisten Traffic zu Ihrer Site leiten. Ein Link muss auf der externen Site vorhanden sein und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
 
 >[!IMPORTANT]
 >
->Sie müssen die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren, um diese Dimension verwenden zu können. Wenn interne URL-Filter nicht konfiguriert werden, können sie entweder interne Domänen enthalten oder die Anzeige externer Domänen verhindern.
+>Sie müssen die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren, um diese Dimension verwenden zu können. Wenn die internen URL-Filter nicht konfiguriert werden, können entweder interne Domänen enthalten sein oder die Anzeige externer Domänen verhindert werden.
 
-Derselbe Bericht kann unterschiedliche Ergebnisse zwischen Analysis Workspace und Data warehouse anzeigen. Analysis Workspace meldet die Referrerdomäne für jede einzelne Seite, mit Ausnahme der Werte, die mit internen URL-Filtern übereinstimmen. Data warehouse meldet nur die erste verweisende Domäne des Besuchs und ignoriert interne URL-Filter.
+Derselbe Bericht kann unterschiedliche Ergebnisse zwischen Analysis Workspace und Data Warehouse anzeigen. Analysis Workspace meldet die Referrerdomäne für jede einzelne Seite, mit Ausnahme der Werte, die den internen URL-Filtern entsprechen. Data Warehouse meldet nur die erste verweisende Domäne des Besuchs und ignoriert interne URL-Filter.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfordert die Konfiguration auf der Analytics-Oberfläche und Daten in Bildanforderungen.
+Diese Dimension erfordert die Konfiguration auf der Analytics-Benutzeroberfläche und Daten in Bildanforderungen.
 
-* Innerhalb Ihrer Implementierung ruft diese Dimension Daten aus der [`r` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `document.referrer` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), funktioniert diese Dimension standardmäßig. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Parameter `r` für die Zeichenfolge in Bildanforderungen einschließen.
-* Auf der Analytics-Oberfläche müssen Sie die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md)Ihrer Report Suite konfigurieren. Wenn interne URL-Filter nicht konfiguriert werden, können sie entweder interne Domänen enthalten oder die Anzeige externer Domänen verhindern.
+* Innerhalb Ihrer Implementierung ruft diese Dimension Daten aus der [`r` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mithilfe der JavaScript-Variablen `document.referrer` im Browser. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgenparameter `r` bei allen Bildanforderungen einbeziehen.
+* Auf der Analytics-Benutzeroberfläche müssen Sie die [internen URL-Filter](/help/admin/admin/internal-url-filter-admin.md) Ihrer Report Suite konfigurieren. Wenn die internen URL-Filter nicht konfiguriert werden, können entweder interne Domänen enthalten sein oder die Anzeige externer Domänen verhindert werden.
 
-Adobe behält die verweisende Domäne bei einem Besuch bei. Wenn ein Besucher während eines Besuchs einen Link in einer anderen Domäne verlässt und durchklickt, wird der neue Wert aktualisiert und bleibt für den Rest des Besuchs bestehen. Wenn Sie nur den ursprünglichen Wert anzeigen möchten, finden Sie weitere Informationen unter [Ursprüngliche verweisende Domäne](original-referring-domain.md).
+Adobe behält die Referrer-Domäne für einen Besuch bei. Wenn ein Besucher innerhalb eines einzelnen Besuchs Ihre Site verlässt und auf einer anderen Domäne erneut auf einen Link zu Ihnen klickt, wird der neue Wert aktualisiert und bleibt für den Rest des Besuchs erhalten. Wenn Sie nur den ursprünglichen Wert anzeigen möchten, finden Sie weitere Informationen unter [Ursprüngliche Referrer-Domäne](original-referring-domain.md).
 
 ## Dimensionen
 
-Zu den Elementen der Dimension gehören Domänen, die Besucher durch Ihre Site durchklicken. Wenn ein Treffer keine Werber-Daten enthält (entweder festgelegt oder dauerhaft), gruppiert er sich unter dem Dimensionselement `"Typed/Bookmarked"`. Dieses Dimensionselement bedeutet, dass kein Werber vorhanden ist, z. B. wenn der Besucher die Browseradresse manuell in die Adressleiste eingegeben oder auf ein Lesezeichen geklickt hat.
+Zu den Elementen der Dimension gehören Domänen, die Besucher durch Ihre Site durchklicken. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. Dieses Dimensionselement bedeutet, dass kein Werber vorhanden ist, z. B. wenn der Besucher die Browseradresse manuell in die Adressleiste eingegeben oder auf ein Lesezeichen geklickt hat. Das `"Typed/Bookmarked"` Dimensionselement wird auch bei Umleitungen angezeigt, die nicht für Analytics geeignet sind. Siehe [Weiterleitungen und Aliase](/help/technotes/redirects.md) im Technotes-Benutzerhandbuch.
 
 ### Dimensionen, die `googleusercontent.com`
 
