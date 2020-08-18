@@ -1,29 +1,39 @@
 ---
-description: Die Protokolldatei ist eine Textdatei, in der der Server Daten speichert, die im Zusammenhang mit dem Abrufen von Dateien von einer Website stehen. Zu den erfassten Informationen zählen unter anderem Datum und Uhrzeit, verarbeitete URL, IP-Adressen und Status der Anfrage.
 title: Protokolldatei
-topic: Ad hoc analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
+description: Rufen Sie eine Protokolldatei zur Fehlerbehebung ab.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
 
 # Protokolldatei
 
-Die Protokolldatei ist eine Textdatei, in der der Server Daten speichert, die im Zusammenhang mit dem Abrufen von Dateien von einer Website stehen. Zu den erfassten Informationen zählen unter anderem Datum und Uhrzeit, verarbeitete URL, IP-Adressen und Status der Anfrage.
+Bei der Fehlerbehebung von Problemen mit Ad Hoc Analysis ist es manchmal erforderlich, die Protokolldatei abzurufen. Adobe kann die Protokolldatei verwenden, um die Ursache des Problems zu ermitteln und eine Lösung bereitzustellen. Die `discover.log` Datei enthält alle Benutzerinteraktionen, Informationen zum Laden von Berichten und Java-Fehlermeldungen für alle Sitzungen. Es werden alle geschützten Informationen, z. B. das Kennwort des Benutzers, zwischengespeichert. Große Protokolldateien werden in 10-MB-Schritten aufgeteilt. Achten Sie bei der Bereitstellung der Adobe mit den Protokolldateien darauf, dass alle Dateien ausgewählt sind.
 
-So können Sie eine Protokolldatei schnell speichern und anzeigen:
+## Windows
 
-1. Klicken Sie auf **[!UICONTROL Hilfe]** > **[!UICONTROL Info zu Ad Hoc Analysis]**.
+Rufen Sie die `discover.log` Datei für Windows ab:
 
-1. Klicken Sie auf das **[!UICONTROL Ad Hoc Analysis]**-Logo.
-1. Klicken Sie auf **[!UICONTROL Protokolldatei speichern]**.
+1. Klicken Sie auf das Menü &quot;Beginn&quot;und wählen Sie &quot; **Ausführen**&quot;oder drücken Sie `[Win]` + `[R]`.
+2. Fügen Sie Folgendes in das Textfeld ein und klicken Sie auf **OK**:
 
->[!NOTE]
->
->Das mit diesem Verfahren gespeicherte Protokoll wird für die aktuelle Sitzung erstellt.
+   ```text
+   %appdata%/../Local/Adobe/Discover/log
+   ```
 
+3. Markieren Sie alle Dateien im Ordner, klicken Sie mit der rechten Maustaste und wählen Sie &quot; **Senden an&quot;> &quot;Komprimierter (komprimierter) Ordner**&quot;.
+4. Stellen Sie dem Vertreter der Adobe die ZIP-Datei zur Verfügung.
+
+## Mac
+
+Gehen Sie wie folgt vor, um die `discover.log` Datei für Mac OS abzurufen:
+
+1. Öffnen Sie den Finder und navigieren Sie zu `/Users/your-user/.adobe/Discover/log`
+2. Markieren Sie alle Dateien im Ordner, klicken Sie mit der rechten Maustaste und wählen Sie **Komprimieren**.
+3. Stellen Sie dem Vertreter der Adobe die ZIP-Datei zur Verfügung.
+
+Wenn die Gesamtgröße für komprimierte Dateien 10 MB überschreitet, kann ein Vertreter der Adobe einen temporären FTP-Speicherort angeben.
