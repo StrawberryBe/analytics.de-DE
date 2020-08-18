@@ -1,12 +1,12 @@
 ---
-description: Use the line visualization to depict trended (time-based) data sets
+description: Verwenden Sie die Linienvisualisierung zur Darstellung von (zeitbasierten) Trenddatensätzen
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ Diese Visualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf
 
 >[!IMPORTANT]
 >
-> Einige Einstellungen für die Linienvisualisierung, wie Hinzufügen Trendlinie, werden derzeit nur eingeschränkt getestet. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html).
+> Einige Einstellungen für die Linienvisualisierung, wie &quot;Trendlinie anzeigen&quot;, werden derzeit nur eingeschränkt getestet. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html).
 
 Klicken Sie auf das Zahnradsymbol oben rechts in der Linienvisualisierung, um auf die verfügbaren [**Visualisierungseinstellungen**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) zuzugreifen. Einstellungen werden wie folgt kategorisiert:
 
@@ -29,11 +29,15 @@ Klicken Sie auf das Zahnradsymbol oben rechts in der Linienvisualisierung, um au
 
 ### Granularität ändern
 
-In den [Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) können Sie über ein Dropdown-Menü für die Granularität eine Trend-Visualisierung (z. B. Linie, Balken) von täglich zu wöchentlich zu monatlich usw. ändern.
+In den [Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) können Sie über ein Dropdown-Menü für die Granularität eine Trend-Visualisierung (z. B. Linie, Balken) von täglich zu wöchentlich zu monatlich usw. ändern. Die Granularität wird auch in der Datenquelle-Tabelle aktualisiert.
 
-### hinzufügen einer Trendzeilenüberlagerung
+### Min. oder Max. anzeigen
 
-Unter &quot; **Visualisierungseinstellungen&quot;> &quot;Überlagerungen&quot;> &quot;Hinzufügen Trendlinie**&quot;können Sie eine Regressions-Trendlinie zu Ihrer Zeilenserie hinzufügen. Trendlinien helfen, ein klareres Muster in den Daten darzustellen.
+Unter &quot; **Visualisierungseinstellungen&quot;> &quot;Überlagerungen&quot;> &quot;Min./max** anzeigen&quot;können Sie eine Mindest- und Höchstwertebeschriftung überlagern, um die Spitzen und Täler in einer Metrik schnell hervorzuheben.
+
+### Trendzeilenüberlagerung anzeigen
+
+Unter &quot; **Visualisierungseinstellungen&quot;> &quot;Überlagerungen&quot;> &quot;Trendlinie** anzeigen&quot;können Sie eine Regressions-Trendlinie zu Ihrer Zeilenserie hinzufügen. Trendlinien helfen, ein klareres Muster in den Daten darzustellen.
 
 Alle Modelle passen mit den üblichen Minimalquadraten:
 
