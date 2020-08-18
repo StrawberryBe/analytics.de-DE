@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Ausführen eines Kohortenanalyseberichts
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: ht
-source-git-commit: 79849c574909543d74e2935e493008927700585d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Erstellen Sie in Analysis Workspace eine Kohorte und führen Sie einen [!UICONTR
 
    Wählen Sie Zellen aus (fortlaufende oder nicht fortlaufende) und klicken Sie mit der rechten Maustaste auf **[!UICONTROL Segment aus Auswahl erstellen]**.
 
-1. Bearbeiten Sie das Segment im [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) weiter und klicken Sie anschließend auf **[!UICONTROL Speichern]**.
+1. Bearbeiten Sie das Segment im [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) weiter und klicken Sie anschließend auf **[!UICONTROL Speichern]**.
 
    Das gespeicherte Segment kann in [!UICONTROL Analysis Workspace] im Bereich [!UICONTROL Segment] verwendet werden.
 1. Geben Sie Ihrem Kohortenprojekt einen Namen und speichern Sie es.
