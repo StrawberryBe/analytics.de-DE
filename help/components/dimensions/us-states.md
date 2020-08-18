@@ -1,36 +1,38 @@
 ---
-title: US-Bundesstaaten
+title: US-Staaten
 description: Der US-Bundesstaat des Besuchers.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 0%
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
 
 # US-Bundesstaat
 
-Die Dimension &quot;US-Bundesstaat&quot;berichtet über den Zustand des Besuchers in den Vereinigten Staaten von Amerika. Sie ähnelt der Dimension &quot; [Regionen](regions.md) &quot;, allerdings ist diese Dimension spezifisch für die Vereinigten Staaten. Die Verwendung dieser Dimension ist wertvoll, wenn Sie mehr Einblicke wünschen als [Länder](countries.md) , aber nicht so granular wie [Städte](cities.md).
+Die Dimension „US-Bundesstaat“ gibt den Bundesstaat des Besuchers in den USA an. Sie ähnelt der Dimension [Regionen](regions.md), allerdings ist diese Dimension spezifisch für die USA. Die Verwendung dieser Dimension ist hilfreich, wenn Sie Einblicke wünschen, die detaillierter sind als [Länder](countries.md), aber nicht so detailliert wie [Städte](cities.md).
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension bezieht sich auf Nachschlageregeln, die in Adobe enthalten sind. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um die Suche zwischen IP-Adresse und Land aufrechtzuerhalten. Diese Dimension funktioniert bei allen Implementierungen standardmäßig.
+Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://info.digitalelement.com/de/) zusammen, um die Suche zwischen IP-Adresse und Land zu unterstützen. Diese Dimension ist bei allen Implementierungen vorkonfiguriert.
 
 >[!TIP]
 >
->Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich an den Kundendienst mit der Report Suite-ID und fordern Sie an, die Option &quot;Geografie&quot;für die Report Suite zu deaktivieren.
+>Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich mit der Report Suite-ID an die Kundenunterstützung und bitten Sie darum, die Option „Geografie“ für die Report Suite zu deaktivieren.
 
-## Dimensionselemente
+## Dimensionen
 
-Zu den Dimensionselementen gehören Regionen und das Land, in dem sich die Region befindet. Zu den Beispielwerten gehören `"California"`, `"Texas"`oder `"Virginia"`. Der Dimensionselement `"Unspecified"` umfasst den gesamten internationalen Verkehr außerhalb der Vereinigten Staaten.
+Zu den Dimensionen gehören Regionen und das Land, in dem sich die Region befindet. Zu den Beispielwerten gehören `"California"`, `"Texas"` oder `"Virginia"`. The dimension item `"Unspecified"` includes all international traffic outside of the United States.
 
-## Unterschiede zwischen gemeldeter und tatsächlicher Position
+Diese Dimension kann `"AOL"`ein DFÜ-Dienstleister sein. Abonnenten dieses Dienstes wird ein Zugangspunkt zugewiesen. AOL-Benutzer verwenden die IP-Adresse dieses Zugriffspunkts. Da diese Dimension auf der IP-Adresse basiert, wird die Geolokation des Zugriffspunkts anstelle des tatsächlichen Standorts des Besuchers verwendet.
 
-Da diese Dimension auf der IP-Adresse basiert, können einige Szenarien einen Unterschied zwischen dem gemeldeten Ort und dem tatsächlichen Ort anzeigen:
+## Unterschiede zwischen gemeldetem und tatsächlichem Standort
 
-* **IP-Adressen, die Unternehmensvertreter** repräsentieren: Diese Besucher können als Traffic erscheinen, der über das Unternehmensnetzwerk des Benutzers kommt. Dies kann ein anderer Ort sein, wenn der Benutzer remote arbeitet.
-* **Mobile IP-Adressen**: Das mobile IP-Targeting funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Eine Reihe von Fluggesellschaften baut den IP-Verkehr über zentrale oder regionale Standorte auf.
-* **Satellitennutzer** des ISP: Die Identifizierung des spezifischen Standorts dieser Benutzer ist schwierig, da sie in der Regel vom Uplink-Speicherort ausgehen.
-* **Militärische und staatliche IPs**: Stellt Mitarbeiter dar, die durch den Erdball reisen und über ihren Heimatort einreisen, und nicht über den Standort oder das Büro, an dem sie derzeit stationiert sind.
+Da diese Dimension auf der IP-Adresse basiert, kann in einigen Szenarien ein Unterschied zwischen dem gemeldeten und dem tatsächlichen Standort anzeigt werden:
+
+* **IP-Adressen, die Unternehmensproxys darstellen**: Diese Besucher können als Traffic erscheinen, der über das Unternehmensnetzwerk des Benutzers kommt. Dies kann ein anderer Standort sein, wenn der Benutzer remote arbeitet.
+* **Mobile IP-Adressen**: Die mobile IP-Zielerfassung funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Eine Reihe von Netzbetreibern transportiert den IP-Traffic über zentralisierte oder regionale POPs (Points of Presence).
+* **Satelliten-ISP-Benutzer**: Es ist schwierig, den spezifischen Standort dieser Benutzer zu identifizieren, da sie in der Regel vom Uplink-Standort zu stammen scheinen.
+* **Militärische und staatliche IPs**: Die Mitarbeiter sind weltweit unterwegs und der Zugriff erfolgt eher über ihren Heimatstandort als von der Basis oder der Behörde aus, in der sie gegenwärtig beschäftigt sind.
