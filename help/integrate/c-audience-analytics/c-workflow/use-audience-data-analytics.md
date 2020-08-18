@@ -3,8 +3,11 @@ description: 'Sie können die AAM Zielgruppen-Dimensionen überall in Analytics
 solution: Experience Cloud
 title: Zielgruppendaten in Analytics verwenden
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Sie können die AAM Zielgruppen-Dimensionen überall in Analytics nutzen. Die i
 
 In Analysis Workspace erscheinen die AAM-Segmente als zwei Dimensionen.
 
-1. Wechseln Sie zu **[!UICONTROL Workspace]**.
+1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]**.
 1. Wählen Sie aus der Liste der **[!UICONTROL Dimensionen]** die Dimensionen **[!UICONTROL Zielgruppen-ID]** oder **[!UICONTROL Zielgruppenname]** aus. Der Name ist eine Anzeige-Classification der ID.
 
    ![](assets/aw-mcaudiences.png)
@@ -26,7 +29,7 @@ In Analysis Workspace erscheinen die AAM-Segmente als zwei Dimensionen.
 
 Der [Segmentvergleich](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) findet die statistisch relevantesten Unterschiede zwischen zwei Segmenten. Audiences-Daten können im Segmentvergleich auf zwei Arten verwendet werden: 1) als die 2 Segmente, die verglichen werden, und 2) als Elemente in der Tabelle „Top-Dimensionselemente“.
 
-1. Wechseln Sie zu **[!UICONTROL Workspace]** und wählen Sie in der linken Schiene das Bedienfeld **[!UICONTROL Segmentvergleich]** aus.
+1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene das Bedienfeld **[!UICONTROL Segmentvergleich]** aus.
 
 1. Suchen Sie im Menü **[!UICONTROL Komponente]** nach [!UICONTROL Zielgruppenname].
 
@@ -43,7 +46,7 @@ Der [Segmentvergleich](https://docs.adobe.com/content/help/de-DE/analytics/analy
 
 AAM-Segmentdaten werden pro Treffer an Analytics weitergeleitet und stellen die Zugehörigkeit eines Besuchers zu Zielgruppen zu diesem Zeitpunkt dar. Das bedeutet, dass ein Besucher einem Segment zugehörig sein kann (z. B. „Bewusstsein“) und sich später für ein qualifizierteres Segment qualifizieren könnte (z. B. „Überlegung“). Sie können [Fluss](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace verwenden, um die Customer Journey eines Besuchers zwischen zwei Zielgruppen zu visualisieren.
 
-1. Wechseln Sie zu **[!UICONTROL Workspace]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Fluss]** aus.
+1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Fluss]** aus.
 
 1. Ziehen Sie die Dimension [!UICONTROL Zielgruppenname] in den Flussaufbau.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
@@ -57,7 +60,7 @@ Zielgruppen können außerdem für [Fallout-Visualisierungen](https://docs.adobe
 
 [Venn-Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/venn.html) zeigen Überlappungen zwischen bis zu 3 Segmenten.
 
-1. Wechseln Sie zu **[!UICONTROL Workspace]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Venn]** aus.
+1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Venn]** aus.
 
 1. Suchen Sie nach [!UICONTROL Zielgruppenname] im Menü „Komponente“.
 1. Öffnen Sie [!UICONTROL Zielgruppenname]. Daraufhin werden die damit verbundenen Dimensionselemente angezeigt.
@@ -69,7 +72,7 @@ Zielgruppen können außerdem für [Fallout-Visualisierungen](https://docs.adobe
 
 ## Segmentaufbau {#section_2AA81852A1404AB894472CA8959461B6}
 
-Sie können die Zielgruppendimensionen zusammen mit den von Analytics erfassten Verhaltensinformationen in den Analytics-[Segmentaufbau](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) eingeben.
+Sie können die Zielgruppendimensionen zusammen mit den von Analytics erfassten Verhaltensinformationen in den Analytics-[Segmentaufbau](/help/components/segmentation/segmentation-workflow/seg-build.md) eingeben.
 
 1. Wechseln Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]**.
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Segment zu erstellen.
