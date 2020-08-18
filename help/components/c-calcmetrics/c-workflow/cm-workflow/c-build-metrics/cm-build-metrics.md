@@ -2,8 +2,11 @@
 description: Der Generator für berechnete Metriken bietet eine Arbeitsfläche, mit der Sie Dimensionen, Segmente und Funktionen per Drag-and-Drop verschieben können, um benutzerdefinierte Metriken basierend auf Containerhierarchielogik, Regeln und Operatoren zu erstellen. Mit diesem integrierten Entwicklungstool können Sie einfache berechnete Metriken oder komplexe, erweiterte berechnete Metriken erstellen und speichern.
 title: Metriken erstellen
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">Auf <b>Teamnamen</b> basierende Tags wie Social Marketing, Mobile Marketing. </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>Projekt</b>-Tags (Analyse-Tags) wie Entrypage-Analyse. </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3"><b>Kategorie</b>-Tags: Männer, Region. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Arbeitsablauf</b>-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich) </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Workflow-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich).</b> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ Sie erreichen den Generator für berechnete Metriken auf verschiedene Arten:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Neu </span> </td> 
-   <td colname="col3"> <p>Ermöglicht Ihnen die Erstellung einer neuen Komponente, z. B. eines neuen Segments (Sie werden zum <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Segmentaufbau</a> geleitet). </p> </td> 
+   <td colname="col3"> <p>Ermöglicht Ihnen die Erstellung einer neuen Komponente, z. B. eines neuen Segments (Sie werden zum <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Segmentaufbau</a> geleitet). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Suchkomponenten </p> </td> 
