@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: Häufig gestellte Fragen
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Apple-Geräte melden ihre Firmware-Version in ihrer Benutzeragenten-Zeichenfolge
 
 **Warum stimmen die Summen am Ende meines Berichts nicht überein, wenn ich die Werte addiere?**
 
-Dimensionselemente können oft an mehreren Stellen angewendet werden. zum Beispiel Besuche, die sich über Mitternacht erstrecken, oder mehrere Produkte, die zu einer einzigen Bestellung gehören. Das Dimensionselement wird über alle relevanten Zeileneinträge hinweg gemeldet, jedoch in der Gesamtsumme des Berichts dedupliziert. Weitere Informationen finden Sie unter [Vergleichen der Summe der Zeileneinträge mit der Summe im Bericht](https://helpx.adobe.com/de/analytics/kb/sum-line-items-different-from-total.html) in der Analytics-KB.
+Elemente der Dimension können oft an mehreren Stellen angewendet werden. zum Beispiel Besuche, die sich über Mitternacht erstrecken, oder mehrere Produkte, die zu einer einzigen Bestellung gehören. Das Dimensionselement wird über alle relevanten Zeileneinträge hinweg gemeldet, jedoch in der Gesamtsumme des Berichts dedupliziert. Weitere Informationen finden Sie unter [Vergleichen der Summe der Zeileneinträge mit der Summe im Bericht](https://helpx.adobe.com/de/analytics/kb/sum-line-items-different-from-total.html) in der Analytics-KB.
 
 **Wie kann ich Daten von einer bestimmten IP-Adresse aus meiner Report Suite ausschließen?**
 
@@ -58,8 +58,8 @@ Das Löschen einer Report Suite ist nicht möglich. Eine Report Suite kann jedoc
 
 **Welchen Container sollte ich für die Segmentierung verwenden? Seitenansicht, Besuch oder Besucher?**
 
-Der verwendete Segmentcontainer hängt davon ab, wie breit die Daten erfasst werden sollen. Seitencontainer berücksichtigen nur Treffer, die Segmentkriterien entsprechen. Dies ist nützlich, um irrelevante Teile von Besuchen herauszufiltern. Besuchscontainer berücksichtigen alle Treffer eines Besuchs, die mit einem oder mehreren Segmentkriterien übereinstimmen. Dies ist für die Betrachtung von Sitzungen im Allgemeinen nützlich. Besuchercontainer berücksichtigen alle Besuche, bei denen ein Treffer mit Segmentkriterien übereinstimmt. Dies ist für die Betrachtung von Personen nützlich. Als Analyst entscheiden Sie selbst, welcher Segmentcontainer am besten für Sie geeignet ist. Weitere Informationen finden Sie in der [Segmentierungsübersicht](/help/components/c-segmentation/seg-overview.md) im Komponentenleitfaden.
+Der verwendete Segmentcontainer hängt davon ab, wie breit die Daten erfasst werden sollen. Seitencontainer berücksichtigen nur Treffer, die Segmentkriterien entsprechen. Dies ist nützlich, um irrelevante Teile von Besuchen herauszufiltern. Besuchscontainer berücksichtigen alle Treffer eines Besuchs, die mit einem oder mehreren Segmentkriterien übereinstimmen. Dies ist für die Betrachtung von Sitzungen im Allgemeinen nützlich. Besuchercontainer berücksichtigen alle Besuche, bei denen ein Treffer mit Segmentkriterien übereinstimmt. Dies ist für die Betrachtung von Personen nützlich. Als Analyst entscheiden Sie selbst, welcher Segmentcontainer am besten für Sie geeignet ist. Weitere Informationen finden Sie in der [Segmentierungsübersicht](/help/components/segmentation/seg-overview.md) im Komponentenleitfaden.
 
 **Warum wird mein Segment nicht in Data Warehouse angezeigt?**
 
-Aufgrund der einzigartigen Verarbeitungsarchitektur von Data Warehouse ist die Plattform nicht für die Verarbeitung bestimmter Datentypen optimiert, wie z. B. Pfade. Weitere Informationen finden Sie unter [Data Warehouse-Segmentkompatibilität](/help/components/c-segmentation/seg-reference/seg-compatibility.md) im Komponentenleitfaden.
+Aufgrund der einzigartigen Verarbeitungsarchitektur von Data Warehouse ist die Plattform nicht für die Verarbeitung bestimmter Datentypen optimiert, wie z. B. Pfade. Weitere Informationen finden Sie unter [Data Warehouse-Segmentkompatibilität](/help/components/segmentation/seg-reference/seg-compatibility.md) im Komponentenleitfaden.
