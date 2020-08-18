@@ -5,7 +5,7 @@ title: Virtual Report Suites und Multisuite-Tagging
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Wenn Sie sich dafür entscheiden, sekundäre Server-Aufrufe zugunsten von Virtua
 
 1. Erstellen Sie Virtual Report Suites so, dass deren Daten denen in Ihren untergeordneten Report Suites entsprechen. Segmentieren Sie eine benutzerdefinierte Dimension, die Ihre Sites voneinander unterscheidet.
    * Wenn Sie von einer vorhandenen Multi-Suite-Tagging-Implementierung migrieren, vergleichen Sie die Segmente der Virtual Report Suite mit Ihren vorhandenen untergeordneten Report Suites. Sie sollten sicherstellen, dass die Daten vergleichbar sind, bevor Sie Benutzer in die Virtual Report Suite verschieben.
-   * Es empfiehlt sich, die [Segmentstapelung](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) als Best Practice zu verwenden, sodass Sie ein Segment an einem Ort bearbeiten und es auf alle abhängigen Virtual Report Suites anwenden können.
+   * Es empfiehlt sich, die [Segmentstapelung](/help/components/segmentation/segmentation-workflow/seg-build.md) als Best Practice zu verwenden, sodass Sie ein Segment an einem Ort bearbeiten und es auf alle abhängigen Virtual Report Suites anwenden können.
    * Verwenden Sie Treffercontainer, wenn Virtual Report Suites sich gegenseitig ausschließen sollen.
 2. Nachdem Sie bestätigt haben, dass die Virtual Report Suites korrekt eingerichtet sind, entfernen Sie die sekundären Report Suite-IDs aus Ihrer Implementierung. So entfernen Sie sekundäre Report Suites:
    * Klicken Sie in Adobe Experience Platform Launch auf das „x“ neben den Report Suites, die Sie nicht mehr verwenden möchten.
