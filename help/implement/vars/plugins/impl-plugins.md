@@ -2,10 +2,10 @@
 title: Übersicht über Plug-ins
 description: Fügen Sie Code auf Ihrer Website ein, um neue Funktionen einzuführen.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,14 @@ Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie
    * Implementierungen mit `AppMeasurement.js` initialisieren normalerweise das Tracking-Objekt am Anfang der JavaScript-Datei.
 2. Fügen Sie als Zweites den Plug-in-Code ein.
    * Die Erweiterung „Common Analytics Plugins“ verfügt über eine Aktionskonfiguration, in der Sie Plug-ins initialisieren können.
-   * Wenn Sie das Plug-in nicht verwenden möchten, können Sie beim Konfigurieren der Analytics-Erweiterung den Plug-in-Code im Editor für benutzerdefinierten Code einfügen.
+   * Wenn Sie die Erweiterung nicht verwenden möchten, können Sie beim Konfigurieren der Analytics-Erweiterung den Plug-in-Code in den Editor für benutzerspezifischen Code einfügen.
    * Wenn Ihre Implementierung Launch nicht verwendet, können Sie Plug-in-Code an einer beliebigen Stelle in `AppMeasurement.js` einfügen, nachdem Sie das Tracking-Objekt instanziiert haben.
 3. Rufen Sie das Plug-in als Drittes auf.
    * Alle Implementierungen, sowohl innerhalb als auch außerhalb von Launch, verwenden JavaScript, um Plug-ins aufzurufen. Rufen Sie das Plug-in in dem Format auf, das auf der Seite des Plug-ins beschrieben ist.
 4. Validieren Sie Ihre Implementierung und veröffentlichen Sie sie.
 
 Viele Unternehmen rufen Plug-ins über die [`doPlugins`](../functions/doplugins.md)-Funktion auf. Diese Funktion ist zwar nicht erforderlich, Adobe hält sie jedoch für eine Best Practice. AppMeasurement ruft diese Funktion kurz vor dem Kompilieren und Senden einer Bildanforderung auf. Dies ist ideal, da mehrere Plug-ins von anderen Analytics-Variablen abhängen.
+
+## Verwenden von Plug-Ins mit nicht standardmäßigen Verfolgungsobjekten
+
+Zusatzmodule funktionieren standardmäßig nicht mit anderen Verfolgungsobjekten als `s`. Sie können jedoch den Plug-in-Code ändern, um das benutzerdefinierte Verfolgungsobjekt aufzunehmen. Ersetzen Sie in einem gegebenen Plug-in alle Verweise auf `s` das gewünschte Verfolgungsobjekt.
