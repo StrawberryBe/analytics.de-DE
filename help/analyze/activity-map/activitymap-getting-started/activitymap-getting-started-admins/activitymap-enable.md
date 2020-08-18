@@ -3,11 +3,11 @@ description: Erläutert die Schritte, die der Analytics-Administrator ausführen
 title: Activity Map aktivieren
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map-Daten können erst erfasst werden, nachdem AppMeasurement auf diese
 
 Zunächst müssen Sie Activity Map-Berichte auf einer Report Suite-Ebene aktivieren.
 
-1. Melden Sie sich bei Adobe Analytics an und navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites > [Report Suite auswählen] > Einstellungen bearbeiten > Activity Map]** > **[!UICONTROL  Activity Map – Berichterstattung ]**.
+1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 1. Activity Map erfasst die Linkdaten in Activity Map-Berichten. Zur Aktivierung müssen Sie zunächst die Variablen aktivieren, indem Sie auf **[!UICONTROL Activity Map-Berichte aktivieren]** klicken.
 
    Dieser Schritt fügt alle Analytics-Dimensionen hinzu, die Sie zur Datenerfassung benötigen.
