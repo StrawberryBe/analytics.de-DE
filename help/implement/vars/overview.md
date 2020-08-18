@@ -3,7 +3,7 @@ title: Übersicht über Variablen, Funktionen, Methoden und Plug-ins
 description: Erfahren Sie, welche Variablen Sie in die an Adobe gesendeten Daten aufnehmen können, um die Berichterstellung zu verbessern.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ Die folgenden Zeichen und Zeichenfolgen sind in JavaScript-Variablen nicht zulä
 * Umbruch (`0x0A`)
 * HTML-Tags (z. B. `<b></b>` oder `&#153`)
 
-Einige Variablen haben zusätzliche Einschränkungen oder Syntaxanforderungen. Die `products`-Variable behält beispielsweise Semikolons und Kommas vor, um separate Produkte und Kategorien zu trennen.
+Einige Variablen haben zusätzliche Einschränkungen oder Syntaxanforderungen. Die [`products`](page-vars/products.md)-Variable behält beispielsweise Semikolons und Kommas vor, um separate Produkte und Kategorien zu trennen.
