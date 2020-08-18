@@ -5,10 +5,10 @@ title: Classification Rule Builder-Workflow
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Für die Implementierung von Klassifizierungsregeln gelten die nachfolgenden all
 | Schritt 4: [Klassifizierungsregeln zum Satz hinzufügen](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Ordnen Sie einer Classification eine Bedingung zu, und legen Sie die Aktion fest, die für die Regel ausgeführt werden soll.  Machen Sie sich mit den Informationen unter [Verarbeitung der Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) vertraut. |
 | Schritt 5: [Testen eines Klassifizierungsregelsatzes](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Zum Testen der Regeln im Rahmen der Validierung bearbeiten Sie die Regeln im Entwurfsmodus. Im Entwurfsmodus können keine Regeln ausgeführt werden.<br>Dieser Schritt ist bei der Verwendung [regulärer Ausdrücke](/help/components/classifications/crb/classification-quickstart-rules.md) wichtig. |
 | Schritt 6: [Gültige Regeln aktivieren](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Sobald die Regeln gültig sind, aktivieren Sie den Regelsatz.  Bei Bedarf können Sie vorhandene Schlüssel überschreiben. Siehe [Verarbeitung der Regeln](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Schritt 7 (Optional): [Unerwünschte Regeln löschen](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Löschen Sie die unerwünschten Regeln aus dem Satz.<br>Hinweis: Beim Löschen von Regeln werden die hochgeladenen klassifizierten Daten nicht gelöscht.  Informationen zum Löschen klassifizierter Daten finden Sie unter [Löschen von Klassifizierungsdaten](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md). |
+| Schritt 7 (Optional): [Unerwünschte Regeln löschen](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Löschen Sie die unerwünschten Regeln aus dem Satz.<br>Hinweis: Beim Löschen von Regeln werden die hochgeladenen klassifizierten Daten nicht gelöscht.  Informationen zum Löschen klassifizierter Daten finden Sie unter [Löschen von Klassifizierungsdaten](/help/components/classifications/importer/t-delete-classification-data.md). |
 
 >[!NOTE]
 >
