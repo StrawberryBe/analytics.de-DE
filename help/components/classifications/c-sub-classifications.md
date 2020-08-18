@@ -5,7 +5,7 @@ title: Informationen über Unterklassifizierungen
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Weitere Informationen über die Datendatei finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+Weitere Informationen über die Datendatei finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
 
 Mehrstufige Classifications bestehen aus über- und untergeordneten Classifications. Beispiel:
 
@@ -46,7 +46,7 @@ Jede Classification, ob über- oder untergeordnet, stellt eine Datenspalte in de
 
 `<parent_name>^<child_name>`
 
-Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
 
 Beispiel:
 
@@ -59,7 +59,7 @@ Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, lieg
 
 >[!NOTE]
 >
->Wenn die [!UICONTROL Schlüssel] spalte in einer Datendatei leer ist, erzeugt Adobe automatisch eindeutige Schlüssel für jede Datenzeile. Um beim Hochladen einer Datendatei mit Classification-Daten der zweiten oder einer höheren Stufe mögliche Dateibeschädigungen zu vermeiden, fügen Sie in jeder Zeile der [!UICONTROL Schlüssel] spalte ein Sternchen (*) ein.
+>Wenn die [!UICONTROL Schlüssel]-Spalte in einer Datendatei leer ist, erzeugt Adobe automatisch eindeutige Schlüssel für jede Datenzeile. Um beim Hochladen einer Datendatei mit Classification-Daten der zweiten oder einer höheren Stufe mögliche Dateibeschädigungen zu vermeiden, fügen Sie in jeder Zeile der [!UICONTROL Schlüssel] spalte ein Sternchen (*) ein.
 
 Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html).
 
