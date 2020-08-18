@@ -3,7 +3,10 @@ description: Durch die Segmentierung einzelner Metriken können Sie Metriken inn
 title: Segmentierte Metriken
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +31,11 @@ Untersuchen wir nun zunächst die erste Frage: Wie sieht das Browsingverhalten i
 
    >[!NOTE]
    >
-   >Sie können diesen Vorgang auch im [Segmentaufbau](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) durchführen, aber wir haben den Arbeitsablauf vereinfacht. Daher stehen Dimensionen auch im Generator für berechnete Metriken zur Verfügung.
+   >Sie können diesen Vorgang auch im [Segmentaufbau](/help/components/segmentation/segmentation-workflow/seg-build.md) durchführen, aber wir haben den Arbeitsablauf vereinfacht. Daher stehen Dimensionen auch im Generator für berechnete Metriken zur Verfügung.
 
    >[!NOTE]
    >
-   >&quot;Internal&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the &quot;i&quot; icon next to it and clicking **[!UICONTROL Make public]**.
+   >„Internal“ bedeutet, dass das Segment nicht in der Liste der **[!UICONTROL Segmente]** in der linken Leiste angezeigt wird. Sie können es aber auch veröffentlichen, indem Sie über das „i“ daneben fahren und auf **[!UICONTROL Als öffentlich einstellen klicken]**.
 
 1. Wenn kein vergleichbares Segment vorliegt, erstellen Sie ein Segment namens „Internationale Besucher“, bei dem Sie für „Länder“ nicht „Deutschland“ angeben.
 1. Erstellen und speichern Sie eine Metrik namens „Deutsche Besucher“, indem Sie das Segment „Deutschland“ in die Arbeitsfläche „Definition“ ziehen und die Metrik „Unique Visitors“ darauf ablegen:
@@ -40,11 +43,11 @@ Untersuchen wir nun zunächst die erste Frage: Wie sieht das Browsingverhalten i
    ![](assets/german-visitors.png)
 
 1. Wiederholen Sie Schritt 3 mit dem Segment „Internationale Besucher“ und der Metrik „Unique Visitors“, um die Metrik „Internationale Besucher“ zu erstellen.
-1. In Analysis Workspace, drag the **[!UICONTROL Page]** Dimension into a Freeform Table and drag the 2 new calculated metrics next to each other to the top:
+1. Ziehen Sie in Analysis Workspace die Dimension **[!UICONTROL Seite]** in eine Freiform-Tabelle und dann die zwei neuen berechneten Metriken nebeneinander oben in die Tabelle:
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. Alternativ öffnen Sie in [!UICONTROL Reports &amp; Analytics] den Bericht [!UICONTROL Seiten] und klicken Sie auf **[!UICONTROL Metriken anzeigen]**. Wenden Sie dann die neuen segmentierten Metriken „US-Besucher“ und „Internationale Besucher“ an, um den Vergleich im Browsingverhalten anzuzeigen.
 
    ![](assets/pages-report.png)
 
@@ -65,7 +68,7 @@ Sie können eine weitere Ebene einführen, indem Sie das Browsingverhalten der B
 
 Wenn Sie die größten Unterschiede zwischen dem Browsingverhalten der US-Besucher und der internationalen Besucher auf einen Blick sehen möchten, können Sie eine weitere Metrik erstellen, mit der die Prozentsätze voneinander abgezogen werden. Dazu können Sie die Containerfunktion verwenden, die gewissermaßen als Klammer um die zwei Metriksätze dient.
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** > **[!UICONTROL Container]**:
+1. Klicken Sie in der Arbeitsfläche [!UICONTROL Definition] auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL Container]**:
 
    ![](assets/cm_add_container.png)
 
