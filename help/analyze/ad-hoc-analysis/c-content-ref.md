@@ -4,7 +4,10 @@ title: Segmente erstellen
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 94%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Ad Hoc Analysis können in die Analytics-Segmentierungs-Umgebung integriert werden. So können Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, teilen, verwalten und anwenden. Ad Hoc Analysis bietet für Segment Builder und Segment Manager dieselbe Java-basierte Benutzeroberfläche, die auch von anderen webbasierten Analytics-Werkzeugen verwendet wird. Dadurch können Server-Aufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt werden.
 
-Ad Hoc Analysis umfassen bewährte Funktionen zum Erstellen von Segmenten, aber auch neue Funktionsupgrades wie den [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) zum Einrichten eines [Segmentverwaltungs arbeitsablaufs](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html). Sie können wie gewohnt im [Segment-Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) Segmente erstellen und speichern, [oder Sie können über die Ad Hoc Analysis-Konsole](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) Segmente aus einem Fallout-Bericht erstellen und dann die neuen oder erweiterten Segmente in der Zielgruppenbibliothek speichern, damit sie allgemein zugänglich sind und angewendet werden können.  ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis umfassen bewährte Funktionen zum Erstellen von Segmenten, aber auch neue Funktionsupgrades wie den [Segment Manager](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-manage.html) zum Einrichten eines [Segmentverwaltungs arbeitsablaufs](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html). Sie können wie gewohnt im [Segment-Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) Segmente erstellen und speichern, [oder Sie können über die Ad Hoc Analysis-Konsole](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) Segmente aus einem Fallout-Bericht erstellen und dann die neuen oder erweiterten Segmente in der Zielgruppenbibliothek speichern, damit sie allgemein zugänglich sind und angewendet werden können.  ![](assets/seg__overview_ad_hoc.png)
 
 ## Einheitliche Segmentierung in Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Informationen zum Erstellen und Verwalten von Segmenten in der Umgebung der einheitlichen Segmentierung, einschließlich der Ad-hoc-Analysefunktionen, finden Sie in der Dokumentation zum Bereich [Einheitliche Segmentierung](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md).
+Informationen zum Erstellen und Verwalten von Segmenten in der Umgebung der einheitlichen Segmentierung, einschließlich der Ad-hoc-Analysefunktionen, finden Sie in der Dokumentation zum Bereich [Einheitliche Segmentierung](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
 * [Neue Funktionen](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Was ist mit meinen vorhandenen Segmenten passiert?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
@@ -33,8 +36,8 @@ Informationen zum Erstellen und Verwalten von Segmenten in der Umgebung der einh
 ## Funktionen {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * [Alle Segmente](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html) gelten nun für alle Report Suites. Bisher waren die Segmente spezifisch für die jeweilige Report Suite.
-* Der neue [Segment-Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) ermöglicht die Einrichtung von [Workflows](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
-* Der [Segment-Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) wurde aktualisiert, um das Erstellen von Segmenten zu vereinfachen.
+* Der neue [Segment-Manager](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-manage.html) ermöglicht die Einrichtung von [Workflows](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
+* Der [Segment-Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) wurde aktualisiert, um das Erstellen von Segmenten zu vereinfachen.
 * Sie können Segmente zum Organisieren und Suchen [taggen](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html), anstatt Ordner zu verwenden. Bisher wurden Ordner verwendet (in [!DNL ad hoc analysis]), um Segmente zu organisieren.
 * [Sequenzielle Segmente](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html) können jetzt außerhalb von Ad Hoc Analysis erstellt werden.
 
@@ -66,7 +69,7 @@ Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat
 
 Alle Benutzer können persönliche Segmente erstellen und bearbeiten. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
 
-Admins können alle Segmente bearbeiten, [Segmente für Gruppen freigeben](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) und [Rechte](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html) für den Zugriff auf Segmente innerhalb der Organisation festlegen.
+Admins können alle Segmente bearbeiten, [Segmente für Gruppen freigeben](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) und [Rechte](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segment-reference/seg-rights.html) für den Zugriff auf Segmente innerhalb der Organisation festlegen.
 
 ## Was mache ich mit doppelten Segmenten, die zwar denselben Namen, aber unterschiedliche Definitionen haben?  {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
