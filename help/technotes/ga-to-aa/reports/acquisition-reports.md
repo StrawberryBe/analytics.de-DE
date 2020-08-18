@@ -2,7 +2,7 @@
 title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -80,7 +80,7 @@ Die Funktion Advertising Analytics erfordert eine Konfiguration, um Daten zurüc
 
 Social-Berichte enthalten ähnliche Informationen wie der jeweilige Verhaltensbericht, jedoch im Kontext sozialer Netzwerke. Diese Daten stehen in Analysis Workspace zur Verfügung, indem eine Dimension mit einem Segment kombiniert wird.
 
-Manchmal erreichen Besucher Ihre Site über mehrere Kanäle in derselben Sitzung. Ein Besucher klickt beispielsweise auf eine Social-Media-Seite und dann einige Minuten später auf eine Suchmaschine, um Ihre Site zu erreichen. In diesen Fällen werden möglicherweise Nicht-Social-Domänen in diesem Bericht angezeigt. Wenn Sie Nicht-Social-Domänen ausschließen möchten, sortieren Sie den Bericht nach Besuchen oder erstellen Sie eine Kopie des Segments, das auf Treffern statt Besuchen basiert. Weitere Informationen finden Sie unter [Segmentierungs-Container](/help/components/c-segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
+Manchmal erreichen Besucher Ihre Site über mehrere Kanäle in derselben Sitzung. Ein Besucher klickt beispielsweise auf eine Social-Media-Seite und dann einige Minuten später auf eine Suchmaschine, um Ihre Site zu erreichen. In diesen Fällen werden möglicherweise Nicht-Social-Domänen in diesem Bericht angezeigt. Wenn Sie Nicht-Social-Domänen ausschließen möchten, sortieren Sie den Bericht nach Besuchen oder erstellen Sie eine Kopie des Segments, das auf Treffern statt Besuchen basiert. Weitere Informationen finden Sie unter [Segmentierungs-Container](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
 
 ### Social – Netzwerkverweise
 
@@ -112,7 +112,7 @@ Der Bericht zum Benutzerfluss zeigt Pfaddaten im Zusammenhang mit Besuchern an, 
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle.
 2. Klicken Sie links auf das Symbol „Komponenten“ und ziehen Sie dann das Segment **Besuche von sozialen Websites** in den kleinen Bereich namens „Segment hier ablegen“ direkt über der Flussvisualisierung.
-3. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb gefärbt.
+3. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionen sind gelb gefärbt.
 4. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den mittigen Bereich namens „Dimension oder Element“.
 5. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
 
