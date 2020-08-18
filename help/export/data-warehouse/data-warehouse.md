@@ -4,7 +4,7 @@ title: Data Warehouse-Übersicht
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -57,7 +57,7 @@ In dieser Tabelle werden die Felder und Optionen in dem Register [!UICONTROL Dat
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Verfügbare Segmente</span> </td> 
-   <td colname="col2"> <p>Hier können Sie den Teil der Besucher auswählen, den Sie untersuchen und weiter segmentieren möchten. Sie können vorkonfigurierte Segmente laden, neue Segmente erstellen und Segmentkomponenten in einer Bibliothek zur Verwendung beim Aufbau zusätzlicher Segmente speichern. </p> <p>Segmente können jetzt gestapelt werden. Wenn mehrere Segmente ausgewählt werden, wird im Vorschaubereich, im Anforderungs-Manager und im Popup mit den Anforderungsdetails eine durch Kommas getrennte Liste der Namen angezeigt (z. B. Segment1, Segment2). </p> <p>Weitere Informationen finden Sie im <a href="/help/components/c-segmentation/seg-home.md">Segmentierungsleitfaden</a>. </p> <p>Hinweis: Sie können in einem Data Warehouse-Bericht auf demselben Segment weder einen Segmentfilter noch eine Aufschlüsselung anwenden. Dies führt zu einem Fehler. </p> </td> 
+   <td colname="col2"> <p>Hier können Sie den Teil der Besucher auswählen, den Sie untersuchen und weiter segmentieren möchten. Sie können vorkonfigurierte Segmente laden, neue Segmente erstellen und Segmentkomponenten in einer Bibliothek zur Verwendung beim Aufbau zusätzlicher Segmente speichern. </p> <p>Segmente können jetzt gestapelt werden. Wenn mehrere Segmente ausgewählt werden, wird im Vorschaubereich, im Anforderungs-Manager und im Popup mit den Anforderungsdetails eine durch Kommas getrennte Liste der Namen angezeigt (z. B. Segment1, Segment2). </p> <p>Weitere Informationen finden Sie im <a href="/help/components/segmentation/seg-home.md">Segmentierungsleitfaden</a>. </p> <p>Hinweis: Sie können in einem Data Warehouse-Bericht auf demselben Segment weder einen Segmentfilter noch eine Aufschlüsselung anwenden. Dies führt zu einem Fehler. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aufschlüsselung</span> </td> 
