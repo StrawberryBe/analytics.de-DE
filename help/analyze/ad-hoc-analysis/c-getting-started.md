@@ -3,10 +3,10 @@ description: Erste Schritte mit Ad Hoc Analysis.
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie Ad Hoc Analysis nach dem Release im Juli 2018 unter Java 7 ausführen, unterstützt Adobe die Implementierung von Ad Hoc Analysis nicht länger.
+>Seit Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Adobe unterstützt nicht die Ausführung von Ad Hoc Analysis unter Java 7 oder höher.
 
 * Videokarte, die OpenGL 2.0 unterstützt
 * Cookies: Erforderlich
@@ -80,13 +80,11 @@ c_sys_reqs.xml
 * JavaScript: Aktiviert
 * Java-Version: Java 1.7 oder neuer (Siehe obigen Hinweis)
 
-   Wenn nicht die richtige Version von Java installiert ist, wird dies für Sie vorgenommen. Wenn Sie eine nicht kompatible Version von Java installiert haben, lädt Ad Hoc Analysis das Update herunter und fordert Sie zur Installation auf.
+   Wenn nicht die richtige Version von Java installiert ist, wird dies für Sie vorgenommen. Wenn Sie eine nicht kompatible Version von Java installiert haben, lädt Ad Hoc Analysis die Updates herunter und fordert Sie zur Installation auf.
 
 ## Anweisungen zum Java-Upgrade {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Wenn Sie Ad Hoc Analysis nach dem Release im Juli 2018 unter Java 7 ausführen, unterstützt Adobe die Implementierung von Ad Hoc Analysis nicht länger.
-
-Unsere JAR-Dateien sind mit einer sicheren 256-Bit-Verschlüsselung signiert, die von älteren Java-Versionen als 1.7.0_76 nicht unterstützt wird. Dieses 256-Bit-Zertifikat verbessert die Sicherheit unserer Dienste für Sie.
+Die JAR-Dateien der Adobe werden mit einer sicheren 256-Bit-Verschlüsselung signiert, die von Java-Versionen unter 1.7.0_76 nicht unterstützt wird. Dieses 256-Bit-Zertifikat verbessert die Sicherheit unserer Dienste für Sie.
 
 Wenn auf Ihrem Rechner immer noch Java 7 installiert ist, müssen Sie vor dem Maintenance Release von Juli 2018 ein Upgrade durchführen. So geht’s:
 
