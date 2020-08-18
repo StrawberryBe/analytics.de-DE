@@ -1,11 +1,11 @@
 ---
-description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
+description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 subtopic: Classifications
 title: Konversionsklassifizierungen
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 # Konversionsklassifizierungen
 
-Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
+Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 
 ## Konversionsklassifizierungen {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
-Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie *Popmusikbegriffe* kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
+Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie *Popmusikbegriffe* kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/classifications/c-classifications-importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
 ## Konversion-Classifications – Beschreibungen {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
