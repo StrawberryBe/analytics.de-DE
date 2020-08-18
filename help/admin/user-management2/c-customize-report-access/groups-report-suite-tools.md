@@ -6,7 +6,7 @@ title: Anpassen von Berechtigungen für Report Suite-Tools
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 93%
@@ -60,7 +60,7 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Konversionsklassifizierungen](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
 | [Unique Visitor](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Ermöglicht das Festlegen einer Variable für Unique Visitor. |
 | [Erfolgsereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html) | Aktionen, die verfolgt werden können, beispielsweise Produktansicht, Checkout und Kauf. |
-| [Klassifizierungshierarchien](/help/components/classifications/classification-hierarchies.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
+| [Klassifizierungshierarchien](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Konsolidiert in Classifications (unter „Werkzeuge und Berichte“). |
 | [Listenvariablen](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html) | Wird auch als „List Var“ bezeichnet. Ähnlich wie bei Listen-Props sind bei Listenvariablen mehrere Werte in derselben Bildanforderung möglich. |
 | [Standardmetriken](/help/admin/admin/default-metrics.md) | In Reports &amp; Analytics wird ein Standardsatz an Metriken in allen Konversionsberichten angezeigt, es sei denn, ein Benutzer wählt einen benutzerspezifischen Metriksatz aus. Die ausgewählten Metriken werden bei allen Benutzern der zugehörigen Report Suite angezeigt. |
 | [Verarbeitungsregeln](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Erteilt Zugriff auf Verarbeitungsregeln, durch die die Datenerfassung und Inhaltsverwaltung beim Senden an Berichte vereinfacht wird. |
@@ -68,8 +68,8 @@ Die Einstellungen auf dieser Seite beziehen sich auf die Report Suites, die auf 
 | [Anomalieerkennung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Ermöglicht Zugriff auf Anomalieerkennung, die eine statistische Methode bietet, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. |
 | [Kanalbericht](/help/components/c-marketing-channels/analyze-mc.md) | Ermöglicht Zugriff auf Marketing-Kanal-Berichte, zu finden unter „Berichte > Marketing-Kanalberichte“. |
 | [Echtzeitbericht](/help/admin/admin/realtime/t-realtime-admin.md) | Ermöglicht Zugriff auf den Echtzeitbericht. |
-| [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bot-Seiten sind für bestimmte Berichte und Analytics-Berichte bestimmt, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bots sind für bestimmte Berichte und Analytics-Berichte bestimmt, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit Bots können Sie Traffic entfernen, der von bekannten Spiders und Bots aus Ihrer Report Suite generiert wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
+| [Bot-Seiten](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bot-Seiten sind für bestimmte Reports &amp; Analysen-Berichte bestimmt, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit „Bot-Regeln“ können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Hinweis: Bots sind für bestimmte Reports &amp; Analysen-Berichte gedacht, nicht für die Verwaltung von Bot-Regeln. Derzeit ist es nicht zulässig, die Bearbeitung von Bot-Regeln zuzulassen.** Mit Bots können Sie Traffic entfernen, der von bekannten Spiders und Bots aus Ihrer Report Suite generiert wird. Mit der Entfernung von Bot-Traffic erhalten Sie eine präzisere Messung der Benutzeraktivität auf Ihrer Website. |
 | [Benutzerdefinierter Data Warehouse-Bericht](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse bezieht sich auf die Kopie der unverarbeiteten Rohdaten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen. Sie können Berichte anfordern, die auf Ihre individuellen Fragen erweiterte Datenbeziehungen aus Rohdaten anzeigen. |
 | Rückkehrende Besucher pro Tag | (Veraltet) In diesem Bericht wird angegeben, wie viele Besucher Ihre Website an einem bestimmten Tag mehrmals besuchen. Ein Tag wird als die letzten 24 Stunden definiert. |
 | [Data Sources Manager](/help/admin/admin/data-sources.md) | Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. |
