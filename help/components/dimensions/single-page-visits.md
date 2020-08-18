@@ -1,27 +1,27 @@
 ---
 title: Einzelseitenbesuche
-description: Eine Flag, die angibt, dass der Besuch aus einer einzelnen Seite bestand.
+description: Eine Markierung, die angibt, dass der Besuch aus einer einzelnen Seite bestand.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 
 # Einzelseitenbesuche
 
-*Auf dieser Hilfeseite wird beschrieben, wie &quot;Einzelseitenbesuche&quot;als Dimension funktioniert. Weitere Informationen finden Sie in der Metrik[Einzelseitenbesuche](../metrics/single-page-visits.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als Dimension funktioniert. Weitere Informationen finden Sie unter der Metrik[Einzelseitenbesuche](../metrics/single-page-visits.md).*
 
-Die Dimension &quot;Einzelseitenbesuche&quot;zeigt die Anzahl der Besuche an, die aus einem einzigen Dimensionselement der [Seite](page.md) bestand. Es ist die Dimensionform der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md) .
+The &#39;Single page visits&#39; dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. Es handelt sich um die Dimension, die der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md) entspricht.
 
-Diese Dimension wird am häufigsten als Komponente in der [Segmentierung](../c-segmentation/seg-home.md)verwendet. Es wird normalerweise nicht als Dimension in Berichten verwendet.
+Diese Dimension wird am häufigsten als Komponente in der [Segmentierung](../segmentation/seg-home.md) verwendet. Sie wird normalerweise nicht als Dimension in Berichten verwendet.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension funktioniert bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
+Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionselemente
+## Dimensionen
 
-Das einzige Dimensionselement ist `"Enabled"`. Wenn ein Besuch aus einer einzelnen Seite besteht, wird der Treffer auf diesen Wert gesetzt. Alle anderen Treffer werden in diesem Bericht ausgelassen.
+The only dimension item is `"Enabled"`. Wenn ein Besuch aus einer Einzelseite besteht, wird der Treffer auf diesen Wert gesetzt. Alle anderen Treffer werden in diesem Bericht ausgelassen.
