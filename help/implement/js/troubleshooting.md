@@ -1,8 +1,11 @@
 ---
 title: Fehlerbehebung bei der JavaScript-Implementierung
 description: Informieren Sie sich über häufige Probleme und Best Practices zur Fehlerbehebung bei der Implementierung von JavaScript.
-translation-type: ht
-source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 73%
 
 ---
 
@@ -78,3 +81,30 @@ s.pageName = "        Home Page";
 ```
 
 Diese beiden Variablenwerte werden in Adobe Analytics getrennt betrachtet. Das Leerzeichen wird jedoch automatisch für Anzeigezwecke entfernt. Das Ergebnis ist ein Bericht, der zwei scheinbar identische Zeileneinträge „Home Page“ anzeigt. Achten Sie darauf, dass Variablenwerte vor oder nach dem gewünschten Wert keine Leerzeichen enthalten.
+
+## Abgeschnittene Bildanforderungen
+
+Implementierungen, die viele Variablen mit langen Werten füllen, können manchmal zu verkürzten Bildanforderungen führen. Einige ältere Browser, wie Internet Explorer, legen für Bildanforderungs-URLs eine Beschränkung von 2083 Zeichen fest. Wenn Ihr Unternehmen sehr lange Bildanforderungen hat, versuchen Sie Folgendes:
+
+* **Verwenden Sie den Experience Cloud-ID-Dienst**: AppMeasurement Libraries 1.4.1 und höher senden Bildanforderungen automatisch mit HTTP-POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten. See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) for more information.
+* **Verarbeitungsregeln** verwenden: [Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode verhindert, dass Sie denselben Wert in mehreren Variablen festlegen. Beispiel:
+
+   Immer ausführen:<br>
+Überschreiben Sie den Wert von prop1 mit eVar1<br>Überschreibungswert von eVar2 mit eVar1<br>Überschreibungswert von prop2 mit eVar1<br>
+
+   Legen Sie dann eVar1 in Ihrer Implementierung fest:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **Verwenden Sie dynamische Variablen**: Wenn Ihre Implementierung viele Variablen mit demselben Wert füllt, können Sie die Anforderungs-URL mit [dynamischen Variablen](/help/implement/vars/page-vars/dynamic-variables.md) verkürzen:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **Klassifizierungen** verwenden: Wenn Produkt- oder Seitennamen ungewöhnlich lang sind, können Sie einen identifizierenden Wert oder Code verwenden und dann [Klassifizierungen](/help/components/classifications/c-classifications.md) verwenden, um einen benutzerfreundlicheren Namen anzuzeigen.
