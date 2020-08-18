@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu Klassifizierungen
 description: Häufig gestellte Fragen zur Verwendung von Klassifizierungen
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,24 @@ Classification-Dateien, die mit einem Schlüsselwert oder einem Classification-W
 
 * **Eine VISTA-Regel** anfordern: Ein Engineering Services-Berater richtet für Sie eine serverseitige Regel gegen Aufpreis ein. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, um eine VISTA-Regel anzufordern.
 
-## Kann ich mit dem Uploader Dimensionselemente klassifizieren, die noch nicht vorhanden sind?
+## Kann ich mit dem Classification Importer Dimensionselemente klassifizieren, die noch nicht vorhanden sind?
 
 Ja, dabei wird *jedoch jedes Dimensionselement als abrechnungsfähiger Serveraufruf gezählt.*
 
 * Dimensionen, die bereits vorhanden sind, verursachen keine zusätzlichen Kosten.
 * Die Verwendung des Classification Rule Builders klassifiziert nicht vorhandene Elemente nicht und verursacht daher keine zusätzlichen Kosten.
+
+## Wie klassifiziere ich Werte, die Sonderzeichen enthalten?
+
+Die Verwendung von Sonderzeichen wie Kommas oder Dubletten-Anführungszeichen in Berichte wird in der Regel nicht empfohlen. In einigen Fällen ist ihre Verwendung jedoch erforderlich. Wenn Ihre Berichte solche Zeichen enthalten, die Sie klassifizieren möchten, gehen Sie wie folgt vor:
+
+1. Melden Sie sich bei Adobe Analytics an und navigieren Sie dann zu **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+2. Click the **[!UICONTROL Browser export]** tab.
+3. Konfigurieren Sie die Exporteinstellungen und stellen Sie sicher, dass &quot;Anführungszeichenausgabe&quot;NICHT ausgewählt ist.
+4. Klicken Sie auf Datei **[!UICONTROL exportieren]** und öffnen Sie die heruntergeladene Datei in einem Tabelleneditor.
+5. Suchen Sie in Zeile 1 die Zelle C1, die den Wert enthält `v:2.0`. Ändern Sie den Wert in `v:2.1` und wenden Sie die gewünschten Klassifizierungen auf die Arbeitsmappe an.
+6. Laden Sie die Datei wie jede andere Klassifizierung hoch.
+
+## Was sind Nummerisch-2-Klassifizierungen?
+
+Mit Nummerisch-2-Klassifizierungen können Sie Dimensionselemente als zeitbasierte Metriken klassifizieren. Sie wurden im Juli 2019 von der Benutzeroberfläche von Analytics eingestellt.
