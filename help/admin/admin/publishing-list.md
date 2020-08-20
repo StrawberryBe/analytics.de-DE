@@ -4,7 +4,10 @@ title: Veröffentlichungslisten
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 100%
 
 ---
 
@@ -20,6 +23,6 @@ Beim Planen eines Berichts können mehrere Veröffentlichungslisten angegeben we
 | Element | Beschreibung |
 |--- |--- |
 | [!UICONTROL Suchen nach] | Hiermit filtern Sie die Tabelle beim Suchen nach einer Veröffentlichungsliste. |
-| !UICONTROL Report Suites einschließen] | Überschreibt die Report Suite für einen terminierten Bericht oder für alle Reportlets in einem Dashboard. Technisch gesehen unterliegt die Anzahl der einzelnen Einträge einer Report Suite zwar keinen Einschränkungen, eine Beschränkung auf 50 wird jedoch empfohlen. Bei der Anzahl der E-Mail-Adressen, die einbezogen werden können, gibt es keine Einschränkungen. |
-| !UICONTROL E-Mail-Adressen] | Eine durch Kommas getrennte Liste aller E-Mail-Adressen, an die der Bericht mit der neuen Report Suite gesendet wird.  Klicken Sie auf **!UICONTROL Klicken zur Bearbeitung]**, um die zu empfangenden E-Mail-Adressen anzugeben. Geben Sie die einzelnen E-Mail-Adressen mit Semikolon (;) voneinander getrennt ein. Drücken Sie zum Abschluss`<Enter>`.<br>Im Feld „E-Mail-Zahl“ wird die Zahl der zurzeit mit diesem Report Suite-Eintrag verknüpften E-Mail-Adressen angezeigt. |
-| !UICONTROL Duplizieren] | Erstellt eine Kopie der Veröffentlichungsliste. |
+| [!UICONTROL Report Suites einschließen] | Überschreibt die Report Suite für einen terminierten Bericht oder für alle Reportlets in einem Dashboard. Technisch gesehen unterliegt die Anzahl der einzelnen Einträge einer Report Suite zwar keinen Einschränkungen, eine Beschränkung auf 50 wird jedoch empfohlen. Bei der Anzahl der E-Mail-Adressen, die einbezogen werden können, gibt es keine Einschränkungen. |
+| [!UICONTROL E-Mail-Adressen] | Eine durch Kommas getrennte Liste aller E-Mail-Adressen, an die der Bericht mit der neuen Report Suite gesendet wird.  Klicken Sie auf **[!UICONTROL Klicken zur Bearbeitung]**, um die zu empfangenden E-Mail-Adressen anzugeben. Geben Sie die einzelnen E-Mail-Adressen mit Semikolon (;) voneinander getrennt ein. Drücken Sie zum Abschluss `<Enter>`. <br>Im Feld „E-Mail-Zahl“ wird die Zahl der zurzeit mit diesem Report Suite-Eintrag verknüpften E-Mail-Adressen angezeigt. |
+| [!UICONTROL Duplizieren] | Erstellt eine Kopie der Veröffentlichungsliste. |
