@@ -4,10 +4,10 @@ title: Veröffentlichen von Segmenten in Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,6 +132,6 @@ In AAM wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment in Form
 ## Anzeigen des Segments in [!DNL Adobe Target]
 
 Wenn das Kontrollkästchen [!UICONTROL Dieses Segment in Experience Cloud veröffentlichen] während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in Analytics oder Audience Manager erstelltes Segment kann für Aktivitäten in Target verwendet werden. Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen.
-], klicken Sie auf [!UICONTROL Zielgruppen].
-1. Suchen Sie auf der Seite [!UICONTROL Zielgruppen] die aus der [!DNL Experience Cloud] stammende Zielgruppe. Diese Zielgruppen sind für [!DNL Target]-Aktivitäten verfügbar.
 
+1. Click [!UICONTROL Audiences].
+1. Suchen Sie auf der Seite [!UICONTROL Zielgruppen] die aus der [!DNL Experience Cloud] stammende Zielgruppe. Diese Zielgruppen sind für [!DNL Target]-Aktivitäten verfügbar.
