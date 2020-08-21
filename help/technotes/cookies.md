@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics und Browsercookies
 description: Erfahren Sie, wie Adobe Analytics die Cookies von Browsern verarbeitet.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,7 @@ Um die Auswirkungen auf Reporting und Tests zu messen, müssen Sie wissen, welch
 
 ## Welche Browser verwenden meine Besucher am häufigsten?
 
-Wenn Sie mehr über die von Besuchern verwendeten Browser erfahren möchten, können Sie mithilfe der Analytics-Dimension [Browser](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-browsers.html) ermitteln, welche Browser für Ihre Sites am häufigsten verwendet werden. Sie können Analytics-Dimensionen auch verwenden, um zu sehen, welche Browser je nach geografischen Regionen am häufigsten verwendet werden. Weitere Informationen finden Sie unter [GeoSegmentation](https://docs.adobe.com/content/help/de-DE/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
+Wenn Sie mehr über die von Besuchern verwendeten Browser erfahren möchten, können Sie mithilfe der Analytics-Dimension [Browser](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/browser.html) ermitteln, welche Browser für Ihre Sites am häufigsten verwendet werden. Sie können Analytics-Dimensionen auch verwenden, um zu sehen, welche Browser je nach geografischen Regionen am häufigsten verwendet werden. Weitere Informationen finden Sie unter [GeoSegmentation](https://docs.adobe.com/content/help/de-DE/analytics/components/dimensions/countries.html).
 
 Laut [Statcounter](https://gs.statcounter.com/browser-market-share/all) erreichten die einzelnen Browser Ende 2019 folgende Marktanteile:
 
