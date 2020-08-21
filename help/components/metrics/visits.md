@@ -5,52 +5,52 @@ translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 5%
+ht-degree: 90%
 
 ---
 
 
 # Besuche
 
-Die Metrik &quot;Besuche&quot;zeigt die Anzahl der Sitzungen für alle Besucher Ihrer Site an.
+Die Metrik „Besuche“ gibt die Anzahl der Sitzungen für alle Besucher Ihrer Site an.
 
 ## Berechnung dieser Metrik
 
-Ein Besuch hängt immer mit einem Zeitraum zusammen, sodass Sie wissen, ob ein neuer Besuch gezählt werden soll, wenn dieselbe Person zu Ihrer Site zurückkehrt. Ein Besuch Beginn, wenn der Benutzer zum ersten Mal auf Ihre Site gelangt. Ein Besuch endet, wenn eines der folgenden Kriterien erfüllt ist:
+Ein Besuch ist immer mit einem Zeitraum verknüpft. So wissen Sie, ob es sich um einen neuen Besuch handelt, wenn dieselbe Person zu Ihrer Site zurückkehrt. Ein Besuch beginnt, wenn der Benutzer zum ersten Mal auf Ihrer Site ankommt. Ein Besuch endet, wenn eines der folgenden Kriterien erfüllt ist:
 
-* **30 Minuten Inaktivität**: Fast alle Sitzungen enden auf diese Weise. Wenn mehr als 30 Minuten zwischen Treffern verstreichen, beginnt ein neuer Besuch.
-* **12 Stunden Aktivität**: Wenn ein Benutzer Bildanforderungen über einen Zeitraum von 12 Stunden ohne 30-minütige Lücken auslöst, wird automatisch ein neuer Besuch Beginn.
-* **2500 Treffer**: Wenn ein Benutzer eine große Anzahl von Treffern generiert, ohne eine neue Sitzung zu starten, wird ein neuer Besuch nach 2500 Bildanforderungen gezählt.
-* **100 Hits in 100 Sekunden**: Wenn ein Besuch aus mehr als 100 Hits besteht, die in weniger als 100 Sekunden stattfinden, endet der Besuch automatisch. Dieses Verhalten gibt normalerweise eine Bot-Aktivität an. Diese Einschränkung wird erzwungen, um die Berichtleistung zu erhöhen.
+* **30 Minuten Inaktivität**: Fast alle Sitzungen enden auf diese Weise. Wenn mehr als 30 Minuten zwischen Treffern vergangen sind, beginnt ein neuer Besuch.
+* **12 Stunden Aktivität**: Wenn ein Benutzer über einen Zeitraum von 12 Stunden Bildanforderungen ohne 30-minütige Pausen auslöst, beginnt automatisch ein neuer Besuch.
+* **2500 Treffer**: Wenn ein Benutzer zahlreiche Treffer generiert, ohne eine neue Sitzung zu starten, wird nach 2500 Bildanforderungen ein neuer Besuch gezählt.
+* **100 Treffer in 100 Sekunden**: Wenn ein Besuch aus mehr als 100 Treffer besteht, die in weniger als 100 Sekunden stattfinden, endet der Besuch automatisch. Dieses Verhalten deutet typischerweise auf Bot-Aktivität hin. Diese Einschränkung wird durchgesetzt, um die Berichtsleistung zu verbessern.
 
-Ein Besuch fällt aufgrund der oben genannten Kriterien nicht unbedingt mit einer Browsersitzung zusammen. Einer der häufigsten Unterschiede besteht darin, dass ein Besucher zu Ihrer Site navigiert, die Registerkarte mehr als 30 Minuten geöffnet lässt und dann das Browsen fortsetzt. Obwohl diese Aktion technisch gesehen zur gleichen Browsersitzung gehört, betrachtet Adobe diese Aktion zwei separate Besuche.
+Ein Besuch fällt aufgrund der oben genannten Kriterien nicht unbedingt mit einer Browser-Sitzung zusammen. Einer der häufigsten Unterschiede besteht darin, dass ein Besucher zu Ihrer Site navigiert, den Tab mehr als 30 Minuten geöffnet lässt und dann das Surfen fortsetzt. Diese Aktion ist technisch gesehen Teil derselben Browser-Sitzung. Adobe betrachtet diese Aktion jedoch als zwei separate Besuche.
 
 ## Verhalten, das sich auf Besuche auswirkt
 
-Wenn ein Besucher eine der folgenden Aktionen ausführt, wird ein neuer Besuch Beginn:
+Wenn ein Besucher eine dieser Aktionen ausführt, beginnt ein neuer Besuch:
 
-* Löscht den Cache während der Sitzung und fährt mit dem Durchsuchen Ihrer Site fort
-* Lässt Ihre Site länger als 30 Minuten in einer Registerkarte geöffnet und fährt dann mit dem Browsen fort
-* Öffnet einen anderen Browser und navigiert auf demselben Computer zu Ihrer Site
-* Derselbe Benutzer navigiert auf verschiedenen Geräten auf Ihrer Site
+* Löscht den Cache während der Sitzung und setzt den Besuch Ihrer Site fort.
+* Lässt Ihre Site länger als 30 Minuten in einem Tab geöffnet und fährt dann mit dem Surfen fort.
+* Öffnet einen anderen Browser und navigiert auf demselben Computer zu Ihrer Site.
+* Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site.
 
-Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **nicht** Beginn, solange weniger als 30 Minuten zwischen aufeinander folgenden Treffern liegen:
+Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **nicht** gestartet, solange zwischen aufeinanderfolgenden Treffern weniger als 30 Minuten liegen:
 
-* Schließt ihren Browser und navigiert dann erneut zu Ihrer Site
-* Starten Sie den Computer neu, öffnen Sie denselben Browser und navigieren Sie erneut zu Ihrer Site
-* Transitionen an ein anderes Netzwerk, z. B. das Trennen der Verbindung von einer Dockingstation mit einem kabelgebundenen Netzwerk zu einem Wireless-Netzwerk
-* Durchsucht Ihre Site in mehreren Registerkarten. Wenn ein Besucher zwischen Registerkarten hin- und herschaltet, zählt jeder Treffer als Teil desselben Besuchs.
+* Schließt seinen Browser und navigiert dann erneut zu Ihrer Site.
+* Startet den Computer neu, öffnet denselben Browser und navigiert erneut zu Ihrer Site.
+* Wechselt zu einem anderen Netzwerk, z. B. trennt die Verbindung der Docking-Station mit einem kabelgebundenen Netzwerk und wechselt zu einem drahtlosen Netzwerk.
+* Besucht Ihre Site in mehreren Tabs. Wenn ein Besucher zwischen Tabs hin und her wechselt, zählt jeder Treffer als Teil desselben Besuchs.
 
-## Definition eines Besuchs ändern
+## Ändern der Definition eines Besuchs
 
-Sie können die Definition eines Besuchs auf einen anderen Zeitpunkt als 30 Minuten ändern.
+Sie können die Definition eines Besuchs auf eine andere Zeit als 30 Minuten ändern.
 
-* Bei [Virtual Report Suites](../vrs/vrs-about.md)können Sie den Timeout-Wert für Besuche mithilfe des [!UICONTROL Timeouts] für Besuche ändern. Sie können den Timeout-Wert für Besuche in einen beliebigen vernünftigen Wert ändern.
-* Bei Standard-Report Suites wenden Sie sich an den Kundendienst, um eine Verkürzung der Besuchsdauer für eine bestimmte Report Suite anzufordern. Die Dauer der Besuche für Standard-Report Suites darf 30 Minuten nicht überschreiten, daher können Sie sie nur verkürzen.
+* Bei [Virtual Report Suites](../vrs/vrs-about.md) können Sie das Besuchszeitlimit mithilfe des Dropdown-Menüs [!UICONTROL Besuchszeitlimit] ändern. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
+* Wenden Sie sich bei Standard-Report Suites an die Kundenunterstützung, um eine Verkürzung der Besuchsdauer für eine bestimmte Report Suite anzufordern. Die Besuchslänge für Standard-Report Suites darf 30 Minuten nicht überschreiten, daher können Sie sie nur verkürzen.
 
 ## Besuche, die eine Datumsgrenze überschreiten
 
-Ein Besuch zählt für jeden involvierten Zeitraum. Wenn Sie beispielsweise einen Besucher haben, dass Beginn am Montag um 23:45 Uhr durch Ihre Site navigieren und dann am Dienstag um 12:10 Uhr ihre letzte Bildanforderung senden, sehen Sie einen Besuch, der Montag und Dienstag zugeordnet ist. Die Gesamtbesuchsmetrik wird jedoch dedupliziert und zeigt einen einzelnen Besuch für den Datumsbereich des Projekts an.
+Es wird für jeden betroffenen Zeitraum ein Besuch gezählt. Wenn Sie beispielsweise einen Besucher haben, der am Montag um 23.45 Uhr mit dem Navigieren auf Ihrer Site beginnt und am Dienstag um 00.10 Uhr seine letzte Bildanforderung sendet, wird ein Besuch angezeigt, der sowohl Montag als auch Dienstag zugeordnet ist. Die Gesamtbesuchsmetrik wird jedoch dedupliziert und zeigt einen einzelnen Besuch für den Datumsbereich des Projekts an.
 
 ## Besuche einer Dimension im Vergleich zu Gesamtbesuchen
 
