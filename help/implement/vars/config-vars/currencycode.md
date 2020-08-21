@@ -1,11 +1,11 @@
 ---
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ Währungscode ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Ko
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
-## Währungscode in Adobe Experience Platform Mobile SDK
+## Währungs-Code in Adobe Experience Platform Mobile SDK
 
-Währungscode wird über Kontextdatenvariablen in der Adobe Analytics Extension an die Adobe Experience Platform Mobile SDKs übergeben.
+Währungs-Code wird über Kontextdatenvariablen in der Adobe Analytics-Erweiterung an die Adobe Experience Platform Mobile SDKs übergeben.
 
-1. Legen Sie den Währungscode in einer Kontextdatenvariablen während einer der beiden `trackState` oder `trackAction`einer der beiden fest.
-2. Erstellen Sie eine Verarbeitungsregel in der Adobe Analytics Admin Console für die Report Suite. Legen Sie die Regel fest, um die Währungscode-Variable zu überschreiben.
-3. Übergeben Sie den Währungscode an die `products` Variable in Ihrem Aufruf an `trackState` oder `trackAction`.
+1. Legen Sie den Währungs-Code in einer Kontextdatenvariablen während `trackState` oder `trackAction` fest.
+2. Erstellen Sie eine Verarbeitungsregel für die Report Suite in der Adobe Analytics Admin Console. Legen Sie die Regel fest, um die Währungs-Code-Variable zu überschreiben.
+3. Übergeben Sie den Währungs-Code an die `products`-Variable in Ihrem Aufruf an `trackState` oder `trackAction`.
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Währungscode verwenden. Wenn Sie einen benutzerdefinierten Währungscode verwenden, stellen Sie sicher, dass der Code gültig ist.
 
