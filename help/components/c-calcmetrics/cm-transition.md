@@ -2,9 +2,9 @@
 description: Diese Änderungen an der Funktionsweise von berechneten Metriken in Analytics können sich auf Ihre Arbeit auswirken.
 title: Häufig gestellte Fragen
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2148'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Erstellen Sie keine berechnete Metrik mit der Classification Numerisch oder Nume
 
 ## Was ist mit Lebensdauermetriken passiert? {#section_AEDB02EF24584DAD8731BED9DDCE4F48}
 
-Lebensdauermetriken werden nicht mehr unterstützt und sind nicht mehr in der Benutzeroberfläche von [!UICONTROL Reports &amp; Analytics] oder einer anderen Komponente sichtbar. Sie können nicht von der Berichts-API abgefragt werden.
+Lebensdauermetriken werden nicht mehr unterstützt und sind nicht mehr in der Benutzeroberfläche von [!UICONTROL Reports &amp; Analytics] oder einer anderen Benutzeroberfläche sichtbar. Sie können nicht von der Berichts-API abgefragt werden.
 
 Alle Lesezeichen, Dashboards, terminierten Berichte oder Warnhinweise mit einer Lebensdauermetrik werden weiterhin ohne diese Metrik ausgeführt, solange noch mindestens eine andere gültige Metrik im Bericht enthalten ist. Wenn die einzige Metrik im Lesezeichen, Dashboard, terminierten Bericht oder Warnhinweis eine Lebensdauermetrik ist, wird der Bericht nicht mehr ausgeführt.
 
