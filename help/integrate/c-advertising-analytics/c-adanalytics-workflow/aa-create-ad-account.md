@@ -1,11 +1,11 @@
 ---
 title: Werbekonto einrichten
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
     </tbody> 
     </table>
 
-1. Geben Sie im Abschnitt **[!UICONTROL Tracking]** Informationen dazu ein, wie die Suchmaschine von Ihrer Adobe Analytics-Implementierung verfolgt wird. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß durch die Suchmaschinendaten zu ergänzen.
+1. Geben Sie im Abschnitt **[!UICONTROL Tracking]** Informationen dazu ein, wie die Suchmaschine von Ihrer Adobe Analytics-Implementierung verfolgt wird. Dieser Schritt ist erforderlich, um die Adobe Analytics-Daten ordnungsgemäß mit den Suchmaschinendaten zu ergänzen.
 Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlinien fest:
 
    | Einstellung | Beschreibung |
    |--- |--- |
-   | Typ | <ul><li>**Auto:** Hiermit kann die Advertising Cloud-Engine entscheiden, wie die Verfolgungsparameter an die Verfolgungsvorlagen/Ziel-URLs der Suchmaschine angehängt werden. Dies ist der einfachste Ansatz, der jedoch möglicherweise nicht zum besten integrierten Datensatz führt.<br>**Wichtig:**Um ein Suchmaschinenkonto im automatischen Modus zu konfigurieren, sind Sie dafür verantwortlich,<br>die folgenden Aktionen durchzuführen:- Der Parameter und der Wert &quot;s_kwcid&quot;werden den Kontoverfolgungsvorlagen oder Landingpages-URLs im hinzugefügten Konto hinzugefügt. Die Einfügung erfolgt am Ende der URL. Daher können zusätzliche Maßnahmen von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert.** Hinweis:**Erfahren Sie mehr darüber, ob Sie diesen Parameter zu Ihren[Content Security-Richtlinien](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)hinzufügen sollten.<br>- Darüber hinaus können Suchbegriffe als Teil des Werts &quot;s_kwcid&quot;in die Einstiegs-URL eingefügt werden. Wenn sie also Sonderzeichen oder Symbole enthalten, bestätigen Sie bitte, dass Ihr Webserver diese Zeichen unterstützen kann (ein Beispiel für häufig vorkommende Sonderzeichen ist &quot;+&quot;, das in Suchbegriffen mit &quot;Weit gefasst&quot; verwendet wird).</li><li>**Manuell:** Ermöglicht Ihnen die Verwaltung, wie die Verfolgungsparameter den Verfolgungsvorlagen/Ziel-URLs der Suchmaschine hinzugefügt werden. [Weitere Informationen finden Sie in den Beispielen für manuelles Tracking für die einzelnen Suchmaschinen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Typ | <ul><li>**Auto**: Hier entscheidet die Advertising Cloud-Engine, wie die Tracking-Parameter an die Tracking-Vorlagen/Ziel-URLs der Suchmaschine angehängt werden. Dies ist der einfachste Ansatz, der jedoch möglicherweise nicht zum besten integrierten Datensatz führt.<br>**Wichtig:** Um ein Suchmaschinenkonto im Auto-Modus zu konfigurieren, müssen Sie die folgenden Aktionen ausführen:<br>- Der Parameter „s_kwcid“ und der Wert werden den Konto-Tracking-Vorlagen oder Landingpages-URLs im hinzugefügten Konto hinzugefügt. Die Einfügung erfolgt am Ende der URL. Daher können zusätzliche Maßnahmen von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert. **Hinweis:** Erfahren Sie mehr darüber, ob Sie diesen Parameter zu Ihrer [Richtlinie zur Inhaltssicherheit](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/csp.html) hinzufügen sollten.<br>- Darüber hinaus können Keywords als Teil des Wertes „s_kwcid“ in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie daher, ob Ihr Webserver diese Zeichen unterstützen kann. (Ein häufig verwendetes Sonderzeichen ist beispielsweise „+“, das in „Broad Match Modified“-Keywords verwendet wird.)</li><li>**Manuell**: Hierüber können Sie verwalten, wie Tracking-Parameter zu den Tracking-Vorlagen/Ziel-URLs der Suchmaschine hinzugefügt werden. [Weitere Informationen finden Sie in den Beispielen für manuelles Tracking für die einzelnen Suchmaschinen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Zuordnung]** aus, welche Report Suite(s) mit diesem Suchmaschinenkonto verknüpft werden soll(en). Sie müssen mindestens eine Report Suite angeben, bevor Sie das Werbekonto speichern können. Sie können mehrere Konten verschiedenen Report Suites zuordnen (1:1, 1:n, n:n). Beachten Sie, dass die Daten, die AMO aus der Suchmaschine abruft, einfach in die zugeordnete Report Suite kopiert werden. Die Daten werden also nicht aufgeteilt.
 
@@ -81,7 +81,7 @@ Legen Sie die **[!UICONTROL Tracking-Einstellungen]** gemäß folgenden Richtlin
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Report Suite  Zuordnen </p> </td> 
+      <td colname="col1"> <p>Report Suite Zuordnen </p> </td> 
       <td colname="col2"> <p>Die Report-Suite-Zuordnung bestimmt die Report Suite, die mit diesem Suchmaschinenkonto verknüpft werden soll. Anders ausgedrückt: Sie bestimmt, an welche Report Suite(s) die Daten der Suchmaschine gesendet werden. </p> <p>Wenn Ihre Report Suite nicht aufgeführt ist, können Sie sie mit diesem Tool <a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/report-suite-mapping.html"  >einer Experience Cloud-Organisation zuordnen</a>. </p> </td> 
       </tr> 
     </tbody> 
