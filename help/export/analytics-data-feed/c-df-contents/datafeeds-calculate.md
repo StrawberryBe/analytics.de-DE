@@ -71,6 +71,6 @@ Wenn der Wert `currency` eines Treffers nicht mit der Währung einer Report Suit
 2. Schließen Sie nur Zeilen ein, in denen das Kaufereignis in `event_list` enthalten ist.
 3. Parsen Sie die Spalte `post_product_list`, um alle Preisdaten zu extrahieren. Die Spalte `post_product_list` ist so formatiert wie die Variable `s.products`.
 4. Berechnen Sie die gewünschte Metrik:
-   * Zählen Sie die Zeilen zur Berechnung der Bestellungen
+   * Zählen Sie die Zeilen zur Berechnung der Bestellungen.
    * Addieren Sie die Anzahl der `quantity`-Einheiten in der Produktzeichenfolge, um die Stückzahlen zu berechnen.
    * Addieren Sie die Anzahl der `price`-Einheiten in der Produktzeichenfolge, um den Umsatz zu berechnen.
