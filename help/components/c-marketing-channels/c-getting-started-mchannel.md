@@ -1,9 +1,9 @@
 ---
 title: Erste Schritte mit Marketing-Kanälen
 description: Informieren Sie sich über den Workflow für Marketing-Kanäle, zur automatischen Einrichtung und zur Übernahme von Report Suite-Vorlageneinstellungen für mehrere Report Suites.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ So führen Sie das automatische Setup für Marketing-Kanäle aus.
 1. Wählen Sie im [!UICONTROL Report Suite Manager] eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Manager]**.
 
-   ![Schritt Ergebnis](assets/wizard.png)
+   ![Ergebnis des Schritts](assets/wizard.png)
 
    >[!NOTE]
    >
