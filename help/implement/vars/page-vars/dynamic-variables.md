@@ -26,7 +26,7 @@ Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch
 
 ## Dynamische Variablen in Adobe Experience Platform Launch
 
-Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zeichenfolge akzeptiert. Dimensionselemente werden normalerweise beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln eingestellt.
+Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zeichenfolge akzeptiert. Elemente der Dimension werden normalerweise beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln eingestellt.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
