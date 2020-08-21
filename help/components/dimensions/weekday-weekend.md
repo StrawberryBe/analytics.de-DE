@@ -1,23 +1,23 @@
 ---
 title: Wochentag/Wochenende
-description: Bestimmt, ob der Treffer während eines Wochentags oder Wochenendes stattgefunden hat.
+description: Bestimmt, ob der Treffer an einem Wochentag oder an einem Wochenende stattgefunden hat.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 3%
+ht-degree: 68%
 
 ---
 
 
 # Wochentag/Wochenende
 
-Die Dimension &quot;Wochentag/Wochenende&quot;bietet einen Einblick, ob der Treffer während eines Wochentags (Montag - Freitag) oder Wochenendes (Samstag - Sonntag) stattgefunden hat. The time of the hit is based on the [report suite&#39;s time zone](/help/admin/admin/general-acct-settings-admin.md).
+Die Dimension „Wochentag/Wochenende“ bietet einen Einblick, ob der Treffer an einem Wochentag (Montag–Freitag) oder an einem Wochenende (Samstag–Sonntag) stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/admin/general-acct-settings-admin.md).
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension funktioniert bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
+Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionselemente
+## Dimensionen
 
-Diese Dimension enthält immer genau zwei Dimensionselemente: `"Weekday"` und `"Weekend"`. Das Dimensionselement `"Weekday"` `"Weekend"` gilt für alle Treffer von Montag bis Freitag, während das Dimensionselement für alle Treffer von Samstag und Sonntag gilt.
+This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.
