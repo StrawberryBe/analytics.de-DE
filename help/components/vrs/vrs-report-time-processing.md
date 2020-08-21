@@ -2,9 +2,9 @@
 description: „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Einstellung zur zerstörungsfreien, rückwirkenden Verarbeitung von Daten.
 title: Berichtszeitverarbeitung
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1426'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsopt
 Die folgenden Konfigurationsoptionen sind momentan für Virtual Report Suites mit aktiviertem Berichtszeitverarbeitung verfügbar:
 
 * **Besuchstimeout:** Die Einstellung des Besuchstimeouts definiert den Umfang der Inaktivität, der für einen Unique Visitor erforderlich ist, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchstimeout auf 15 Minuten festlegen, wird für jede Sequenz mit erfassten Treffern eine neue Besuchsgruppierung erstellt, die nach 15 Minuten Inaktivität separiert ist. Diese Einstellung beeinflusst nicht nur Ihre Besuchszahlen, sondern auch die Art und Weise der Evaluierung von Besuchssegmentcontainern und die Besuchsablauflogik für eVars, die bei einem Besuch ablaufen. Durch eine Verringerung des Besuchstimeouts erhöht sich wahrscheinlich die Gesamtzahl der Besuche in der Berichterstellung, während eine Erhöhung des Besuchstimeouts wahrscheinlich zu einer Reduzierung der Gesamtbesuche in der Berichterstellung führt.
-* **Besuchseinstellungen für mobile Apps:** Für Report Suites mit Daten, die von mobilen Apps über die [Adobe Mobile SDKs](https://www.adobe.io/apis/cloudplatform/mobile.html) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
+* **Besuchseinstellungen für Mobile Apps:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://www.adobe.io/apis/cloudplatform/mobile.html) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
 * **Starten neuer Besuche durch Hintergrundtreffer verhindern:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn die App im Hintergrund ausgeführt wird.
 * **Starten neuer Besuche bei allen App-Starts:** Zusätzlich zum Besuchstimeout können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein App-Startereignis aufgezeichnet wurde. Das Inaktivitätsfenster ist dabei unerheblich. Diese Einstellung nimmt Einfluss auf die Besuchsmetrik und den Besuchssegmentcontainer sowie die Besuchsablauflogik für eVars.
 * **Starten neuer Besuche mit Ereignis:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung auftrat oder nicht. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
