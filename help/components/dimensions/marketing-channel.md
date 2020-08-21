@@ -1,17 +1,17 @@
 ---
 title: Marketing-Kanal
 description: Der neueste Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Marketing-Kanal
 
-*Diese Hilfeseite bezieht sich auf die Dimension &quot;Marketing-Kanal&quot;in Analyse Workspace. Weitere Informationen zur Funktionsweise von Marketing-Kanälen finden Sie unter Übersicht über[Marketing-Kanal](../c-marketing-channels/c-getting-started-mchannel.md).*
+*Diese Hilfeseite bezieht sich auf die Dimension „Marketing-Kanal“ in Analysis Workspace. Weitere Informationen zur Funktionsweise von Marketing-Kanälen finden Sie unter[Marketing-Kanäle – Übersicht](../c-marketing-channels/c-getting-started-mchannel.md).*
 
-Die Dimension &quot;Marketing-Kanal&quot;funktioniert genauso wie die Dimension &quot; [Last Touch-Kanal&quot;](last-touch-channel.md) . Adobe hat diese Dimension zur Verwendung in Berichten eingeführt, die benutzerdefinierte Zuordnungen verwenden. Benutzer, die Berichte zu benutzerspezifischen Attributen in Marketing-Kanälen ansahen, wurden mit der Bezeichnung &quot;Letztkontakt&quot;verwechselt, da &quot;Letztkontakt&quot;mit der benutzerdefinierten Zuordnung nicht richtig ist. Adobe hat die allgemeine Dimension &quot;Marketing-Kanal&quot;eingeführt, damit Analysten benutzerspezifische Zuordnungsberichte für Marketing-Kanal ohne die irreführende Angabe der Dimension &quot;Last Touch&quot;erstellen können.
+Die Dimension „Marketing-Kanal“ funktioniert genauso wie die Dimension [Letztkontakt-Kanal](last-touch-channel.md). Adobe hat diese Dimension zur Verwendung in Berichten eingeführt, die eine benutzerdefinierte Attribution verwenden. Benutzer, die Berichte zu Marketing-Kanälen für benutzerdefinierte Attributionen angezeigt haben, wurden mit der Bezeichnung „Letztkontakt“ verwechselt, da „Letztkontakt“ bei der benutzerdefinierten Attribution nicht korrekt ist. Adobe hat die generische Dimension „Marketing-Kanal“ eingeführt, damit Analysten Marketing-Kanalberichte für benutzerdefinierte Attributionen erstellen können, ohne die irreführende Dimensionsbezeichnung „Letztkontakt“ zu verwenden.
