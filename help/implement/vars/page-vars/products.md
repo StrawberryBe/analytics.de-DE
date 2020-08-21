@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
 
 # products
 
-Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine Variable mit mehreren Werten. Das bedeutet, dass Sie mehrere Produkte im selben Treffer senden können und Adobe den Wert in separate Dimensionselemente analysiert.
+Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich dabei um eine Variable mit mehreren Werten. Das bedeutet, dass Sie mehrere Produkte im selben Treffer senden können und die Adobe den Wert in separate Dimensionselemente analysiert.
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Stellen Sie sicher, dass Sie bei jedem Treffer mit der `products` Variablen das entsprechende Warenkorb-Ereignis festlegen.
+>Wenn diese Variable in einem Treffer ohne Warenkorbereignis in der [`events`](events/events-overview.md)-Variable festgelegt wird, wird die Metrik [Produktansichten](/help/components/metrics/product-views.md) um 1 inkrementiert. Stellen Sie sicher, dass Sie bei jedem Treffer mit der Variable `products` das entsprechende Warenkorbereignis festlegen.
 
 ## Produkte in Adobe Experience Platform Launch
 
