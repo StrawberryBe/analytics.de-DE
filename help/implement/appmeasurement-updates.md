@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ Releasedatum: **24. Juni 2020**
 
 Releasedatum: **5. März 2020**
 
-* Ein sicherheitsbezogenes Problem wurde behoben, indem die Erkennung von Internet Explorer aktualisiert wurde, um die JSLint-Warnung zu unterdrücken.
+* Es wurde ein sicherheitsbezogenes Problem behoben, indem die Erkennung von Internet Explorer aktualisiert wurde, um die JSLint-Warnung zu unterdrücken.
 
 ## Version 2.19.0
 
 Releasedatum: **21. Februar 2020**
 
-* Aktualisiertes Zielgruppen-Management Module auf DIL 9.4. (AN-209341)
+* Aktualisiertes Zielgruppen-Management-Modul auf DIL 9.4. (AN-209341)
 
 ## Version 2.18.0
 
 Releasedatum: **13. Februar 2020**
 
-* AppMeasurement kann nun erzwingen, dass Cookies das Secure-Attribut einschließen, indem die [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) Variable festgelegt wird. Die Voraussetzung für diese Variable ist, dass die gesamte Client-Website sicher bereitgestellt wird (HTTPS). (AN-204604)
+* AppMeasurement kann nun erzwingen, dass Cookies das Secure-Attribut einschließen, indem die [`writeSecureCookies`](vars/config-vars/writesecurecookies.md)-Variable festgelegt wird. Voraussetzung für diese Variable ist, dass die gesamte Client-Website sicher bereitgestellt wird (HTTPS). (AN-204604)
 
 ## Version 2.17.0
 
@@ -84,7 +84,7 @@ Releasedatum: **10. April 2019**
 
 Releasedatum: **22. Februar 2019**
 
-* Aktualisiertes Zielgruppen-Management Module auf DIL 9.1. (AN-175255)
+* Aktualisiertes Zielgruppen-Management-Modul auf DIL 9.1. (AN-175255)
 * GTM-Sicherheitsrichtlinie gestattet nicht das Activity Map-Modul. (AN-174679)
 * Verbessertes AppMeasurement berücksichtigt Abmeldungen (Opt-out), auch wenn der Identitätsdienst bei der Anmeldung nicht genehmigt wurde. (AN-175259)
 
@@ -149,7 +149,7 @@ Releasedatum: **18. Januar 2018**
 
 * Keine Unterstützung für IE 6 bis 9 mehr
 * Aufnahme der Visitor API 3.0.0
-* Aufnahme von DIL 7.00 
+* Aufnahme von DIL 7.00
 
 ## Version 2.6.0
 
@@ -239,7 +239,7 @@ Aktualisiert: **4. August 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 des [!DNL Experience Cloud] ID-Diensts *erfordert* [!DNL AppMeasurement] für [!DNL JavaScript]-Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Experience Cloud-ID-Diensts aktualisieren möchten, stellen Sie sicher, dass Sie [!DNL AppMeasurement]-Code der Version 1.6.3 oder höher verwenden.
+>Version 1.6.0 des [!DNL Experience Cloud] ID-Diensts *erfordert* [!DNL AppMeasurement] für [!DNL JavaScript]-Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Experience Cloud ID-Diensts aktualisieren möchten, stellen Sie sicher, dass Sie [!DNL AppMeasurement]-Code der Version 1.6.3 oder höher verwenden.
 
 ## Version 1.6.2
 
@@ -429,7 +429,7 @@ Releasedatum: **14. November 2013**
 
 ## Version 1.1
 
-Releasedatum: **18. September 2013**
+Releasedatum: **18. September 2013**
 
 * Problem mit der Unterstützung für das Platzieren des Bibliotheks- und Seiten-Codes im Tag `head` behoben.
 * Fehlende Unterstützung für Modul `onLoad` wurde hinzugefügt.
