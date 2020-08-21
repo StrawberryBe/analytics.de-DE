@@ -1,33 +1,33 @@
 ---
-title: Download-Link
+title: Downloadlink
 description: Der Name des Downloadlinks.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 15%
+ht-degree: 87%
 
 ---
 
 
-# Download-Link
+# Downloadlink
 
-Die Dimension &quot;Download-Link&quot;enthält die Namen der auf Ihrer Site implementierten Downloadlinks. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B.:
+Die Dimension „Downloadlink“ enthält die Namen der auf Ihrer Site implementierten Downloadlinks. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
 
 * die Dateien zu bestimmen, die am häufigsten von Ihrer Site heruntergeladen werden.
 * zu erkennen, ob bestimmte Dateien zu bestimmten Zeiten häufiger heruntergeladen werden.
-* Überprüfen Sie, ob Besucher verschiedene Dateitypen herunterladen können, falls diese angeboten werden.
+* zu überprüfen, ob Besucher verschiedene Dateitypen herunterladen können, falls diese angeboten werden.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der [`pev2` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen für Treffer, die auch die `pe` Abfrage-Zeichenfolge mit dem Wert &quot; `lnk_d`. Wenn die `pe` Abfrage-Zeichenfolge im Treffer einen anderen Wert hat, werden keine Daten von dieser Dimension erfasst.
+Diese Dimension erfasst Daten aus der [`pev2` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_d` aufweisen. Wenn die Abfragezeichenfolge `pe` im Treffer einen anderen Wert hat, werden in dieser Dimension keine Daten erfasst.
 
 Wenn Sie Daten mit AppMeasurement an diese Dimension senden möchten:
 
-* Füllen Sie die [`linkName`](/help/implement/vars/config-vars/linkname.md) Variable mit dem gewünschten Wert.
-* Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"d"`.
-* Senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md) Bildanforderung.
+* Füllen Sie die [`linkName`](/help/implement/vars/config-vars/linkname.md)-Variable mit dem gewünschten Wert.
+* Stellen Sie die [`linkType`](/help/implement/vars/config-vars/linktype.md)-Variable auf `"d"` ein.
+* Senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung.
 
-## Dimensionselemente
+## Dimensionen
 
-Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionselemente sind. Adobe empfiehlt, Links je nach Bedarf des Berichte in aussagekräftige Kategorien zu gruppieren.
+Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionselemente sind. Adobe empfiehlt, dass Sie Links basierend auf Ihren Berichtsanforderungen in aussagekräftige Kategorien gruppieren.
