@@ -5,89 +5,89 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
 
 # Kompatibilität von Analytics-Dimensionen
 
-Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funktionen unterstützt werden.
+Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analytics-Funktionen unterstützt werden.
 
 >[!NOTE]
 >
->Benutzerdefinierte Variablennamen, Classifications und Besucher-Attribute werden in dieser Liste weggelassen. Diese Dimensionselemente sind spezifisch für einzelne Report Suites.
+>Benutzerdefinierte Variablennamen, Klassifizierungen und Besucherattribute werden in dieser Liste weggelassen. Diese Dimensionselemente sind spezifisch für einzelne Report Suites.
 
 >[!NOTE]
 >
->Es gibt Überschneidungen, bei denen Analytics-Tools unterschiedliche Begriffe für ähnliche Dimensionen verwenden. Beispielsweise verwendet Reports &amp; Analytics `browserwidth` während der Verwendung durch Analysis Workspace `browserwidthbucketed`.
+>Es gibt Überschneidungen, bei denen Analytics-Tools unterschiedliche Begriffe für ähnliche Dimensionen verwenden. Beispielsweise verwendet Reports &amp; Analytics `browserwidth`, während Analysis Workspace `browserwidthbucketed` verwendet.
 
 ## Unterstützte Dimensionen sowohl in Reports &amp; Analytics als auch im Analysis Workspace
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |---|---|
 | Analytics für Target | `targetraw` |
-| Audiences ID | `mcaudiences` |
+| Zielgruppen-ID | `mcaudiences` |
 | Browser | `browser` |
-| Browsertyp | `browsertype` |
+| Browser-Typ | `browsertype` |
 | Kategorie | `category` |
 | Städte | `geocity` |
 | Farbtiefe | `colordepth` |
 | Verbindungstyp | `connectiontype` |
 | Cookie-Unterstützung | `cookie` |
 | Länder | `geocountry` |
-| Kundentreue | `customerloyalty` |
-| Benutzerspezifische Konversionsvariable | `evar1`, `evar2`, etc. |
-| Benutzerspezifische Insight-Variablen | `prop1`, `prop2`, etc. |
+| Kundenloyalität | `customerloyalty` |
+| Benutzerspezifische Konversionsvariable | `evar1`, `evar2` usw. |
+| Benutzerspezifische Insight-Variablen | `prop1`, `prop2` usw. |
 | Benutzerspezifischer Link | `customlink` |
 | Tage bis Erstkauf | `daysbeforefirstpurchase` |
 | Tage seit letztem Kauf | `dayssincelastpurchase` |
 | Domäne | `filtereddomain` |
 | Downloadlink | `downloadlink` |
 | Entrypage | `entrypage` |
-| Entrypage ursprünglich | `entrypageoriginal` |
+| Ursprüngliche Entrypage | `entrypageoriginal` |
 | Exitlink | `exitlink` |
 | Erstkontakt-Kanal | `firsttouchchannel` |
-| Erstkontakt Kanaldetail | `firsttouchchanneldetail` |
+| Erstkontakt-Kanaldetail | `firsttouchchanneldetail` |
 | Java aktiviert | `javaenabled` |
 | Sprache | `language` |
 | Letztkontakt-Kanal | `lasttouchchannel` |
-| Letztkontakt Kanaldetail | `lasttouchchanneldetail` |
+| Letztkontakt-Kanaldetail | `lasttouchchanneldetail` |
 | Listenvariablen | `listvariables` |
 | Marketing-Kanal | `marketingchannel` |
-| Mobilgerät - Audio-Unterstützung | `mobileaudiosupport` |
+| Mobilgerät – Audio-Unterstützung | `mobileaudiosupport` |
 | Mobilnetzbetreiber | `mobilecarrier` |
-| Mobilgerät - Farbtiefe | `mobilecolordepth` |
-| Mobilgerät - Cookie-Unterstützung | `mobilecookiesupport` |
+| Mobilgerät – Farbtiefe | `mobilecolordepth` |
+| Mobilgerät – Cookie-Unterstützung | `mobilecookiesupport` |
 | Mobilgerät | `mobiledevicename` |
 | Mobilgerätetyp | `mobiledevicetype` |
-| Mobil - max. E-Mail-Länge | `mobileemaillength` |
-| Mobilgerät - Bildunterstützung | `mobileimagesupport` |
+| Maximale mobile E-Mail-Länge | `mobileemaillength` |
+| Mobilgerät – Bildunterstützung | `mobileimagesupport` |
 | Mobilgerätehersteller | `mobilemanufacturer` |
-| Mobiles Betriebssystem (nicht mehr unterstützt) | `mobileos` |
-| Mobilgerät - Bildschirmhöhe | `mobilescreenheight` |
-| Mobilgerät - Bildschirmgröße | `mobilescreensize` |
-| Mobilgerät - Bildschirmbreite | `mobilescreenwidth` |
-| Max. Länge der mobilen Browser-URL | `mobileurllength` |
-| Mobilgerät - Video-Unterstützung | `mobilevideosupport` |
+| Mobiles Betriebssystem (veraltet) | `mobileos` |
+| Mobilgerät – Bildschirmhöhe | `mobilescreenheight` |
+| Mobilgerät – Bildschirmgröße | `mobilescreensize` |
+| Mobilgerät – Bildschirmbreite | `mobilescreenwidth` |
+| Maximale mobile Browser-URL-Länge | `mobileurllength` |
+| Mobilgerät – Video-Unterstützung | `mobilevideosupport` |
 | Bildschirmauflösung | `monitorresolution` |
 | Betriebssysteme | `operatingsystem` |
-| Ursprünglich verweisende Domäne | `referringdomainoriginal` |
+| Ursprüngliche Referrer-Domäne | `referringdomainoriginal` |
 | Seite | `page` |
 | Seiten nicht gefunden | `pagesnotfound` |
 | Produkt | `product` |
 | Referrer | `referrer` |
-| Typ der verweisenden Stelle | `referrertype` |
+| Referrer-Typ | `referrertype` |
 | Referrer-Domäne | `referringdomain` |
 | Regionen | `georegion` |
 | Rückkehrhäufigkeit | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | Suchmaschine | `searchengine` |
-| Suchbegriffe | `searchenginekeyword` |
-| Suchmaschine - Natürlich | `searchenginenatural` |
-| Suchmaschine - bezahlt | `searchenginepaid` |
-| Keyword – natürlich | `searchenginenaturalkeyword` |
-| Keyword – bezahlt | `searchenginepaidkeyword` |
+| Suchbegriff | `searchenginekeyword` |
+| Suchmaschine – kostenlos | `searchenginenatural` |
+| Suchmaschine – bezahlt | `searchenginepaid` |
+| Suchbegriff – kostenlos | `searchenginenaturalkeyword` |
+| Suchbegriff – bezahlt | `searchenginepaidkeyword` |
 | Rangansicht aller Suchseiten | `searchenginepagerank` |
 | Server | `server` |
 | Einzelseitenbesuche | `singlepagevisits` |
@@ -97,9 +97,9 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | US-DMA | `geodma` |
 | US-Staaten | `state` |
 | Zeit vor Ereignis | `timeprior` |
-| Zeit pro Besuch – Zusammengefasst | `timespent` |
+| Zeit pro Besuch – zusammengefasst | `timespent` |
 | Besuchstiefe | `pathlength` |
-| Besuchnummer | `visitnumber` |
+| Besuchsnummer | `visitnumber` |
 | Postleitzahl | `zip` |
 
 ## Nur in Analysis Workspace unterstützte Dimensionen
@@ -107,48 +107,48 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |
 | Vormittag/Nachmittag | `timepartampm` |
-| Browserhöhe – zusammengefasst | `browserheightbucketed` |
-| Browserbreite – zusammengefasst | `browserwidthbucketed` |
+| Browser-Höhe – zusammengefasst | `browserheightbucketed` |
+| Browser-Breite – zusammengefasst | `browserwidthbucketed` |
 | Tag | `daterangeday` |
 | Tag des Monats | `timepartdayofmonth` |
 | Wochentag | `dayofweek` |
 | Wochentag | `timepartdayofweek` |
 | Tag des Jahres | `timepartdayofyear` |
 | Tage seit dem letzten Besuch | `dayssincelastvisit` |
-| Eingabe benutzerdefinierter Insights | `entryprops` |
-| Eingabe-Listenvariablen | `entrylistvariables` |
+| Einstieg benutzerdefinierte Insights | `entryprops` |
+| Einstieg Listenvariablen | `entrylistvariables` |
 | Entryserver | `entryserver` |
 | Einstiegsbereich | `entrysitesections` |
-| Benutzerdefinierte Insights beenden | `exitprops` |
-| Listenvariablen verlassen | `exitlistvariables` |
+| Ausstieg benutzerdefinierte Insights | `exitprops` |
+| Ausstieg Listenvariablen | `exitlistvariables` |
 | Exitpage | `exitpage` |
-| Server verlassen | `exitserver` |
-| Bereich der Website verlassen | `exitsitesections` |
+| Ausstiegs-Server | `exitserver` |
+| Ausstiegsbereich | `exitsitesections` |
 | Treffertiefe | `hitdepth` |
 | Treffertyp | `hittype` |
 | Stunde | `daterangehour` |
 | Stunde des Tages | `timeparthourofday` |
-| Detail des Marketingkanals | `marketingchanneldetail` |
+| Detail des Marketing-Kanals | `marketingchanneldetail` |
 | Minute | `daterangeminute` |
-| Mobil - max. Lesezeichen-Länge | `mobilebookmarklength` |
+| Maximale mobile Lesezeichenlänge | `mobilebookmarklength` |
 | Mobilgerätenummer | `mobiledevicenumber` |
 | Mobil-DRM | `mobiledrm` |
 | Mobile Informationsdienste | `mobileinformationservices` |
-| Mobil Java VM | `mobilejavavm` |
-| Mobilgerät – Mail-Design | `mobilemaildecoration` |
+| Mobile Java-VM | `mobilejavavm` |
+| Mobiles Mail-Design | `mobilemaildecoration` |
 | Mobile Netzprotokolle | `mobilenetprotocols` |
-| Mobilgerät – Push To Talk | `mobilepushtotalk` |
+| Mobiles PTT | `mobilepushtotalk` |
 | Monat | `daterangemonth` |
 | Monat des Jahres | `timepartmonthofyear` |
 | Betriebssystemtypen | `operatingsystemgroup` |
 | Paid Search | `paidsearch` |
-| Dauerhafte Cookie-Unterstützung | `persistentcookie` |
+| Unterstützung persistenter Cookies | `persistentcookie` |
 | Quartal | `daterangequarter` |
-| Viertel des Jahres | `timepartquarterofyear` |
+| Quartal des Jahres | `timepartquarterofyear` |
 | Umfrage | `surveybase` |
 | Besuchszeit pro Seite – zusammengefasst | `averagepagetime` |
 | Besuchszeit pro Seite – präzise | `pagetimeseconds` |
-| Nachverfolgung der Gründe für den Ausstieg | `optoutreason` |
+| Nachverfolgen des Abmeldegrunds | `optoutreason` |
 | Wochentag/Wochenende | `timepartweekdayweekend` |
 | Woche | `daterangeweek` |
 | Jahr | `daterangeyear` |
@@ -158,18 +158,18 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |
 | Activity Map XY | `clickmapxy` |
-| Mediensession-ID | `videosessionid` |
+| Mediensitzungs-ID | `videosessionid` |
 | Nielsen-Zugriffsmethode | `nielsenaccmethod` |
 | Nielsen-App-ID | `nielsenappid` |
-| Nielsen-Channel-Asset | `nielsenchannelasset` |
+| Nielsen-Kanal-Asset | `nielsenchannelasset` |
 | Nielsen-Content-Typ | `nielsencontenttype` |
 
 ## Dimensionen, die nur in Reports &amp; Analytics unterstützt werden
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |
-| Browserhöhe | `browserheight` |
-| Browserbreite | `browserwidth` |
+| Browser-Höhe | `browserheight` |
+| Browser-Breite | `browserwidth` |
 | Unique Customers pro Tag | `dailyuniquecustomers` |
 | JavaScript | `javascriptsupport` |
 | JavaScript-Version | `javascriptversion` |
@@ -177,7 +177,7 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Unique Customers pro Quartal | `quarterlyuniquecustomers` |
 | Zeitzonen | `timezone` |
 | Domänen auf oberster Ebene | `topleveldomain` |
-| Bundesstaat des Besuchers | `legacystate` |
+| Bundesland des Besuchers | `legacystate` |
 | Unique Customers pro Woche | `weeklyuniquecustomers` |
 | Unique Customers pro Jahr | `yearlyuniquecustomers` |
 
@@ -190,9 +190,9 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Inhalt | `video` |
 | Inhaltssegment | `videosegment` |
 | Content-Typ | `videocontenttype` |
-| Name des Anzeigenplayers | `videoadplayername` |
+| Name des Anzeigen-Players | `videoadplayername` |
 | Anzeigenposition innerhalb der Werbeunterbrechung | `videoadinpod` |
-| Dropped Frames | `videoqoedroppedframecountevar` |
+| Gelöschte Frames | `videoqoedroppedframecountevar` |
 | Fehler | `videoqoeerrorcountevar` |
 | Durchschnittliche Bitrate | `videoqoebitrateaverageevar` |
 | Bitratenänderungen | `videoqoebitratechangecountevar` |
@@ -200,8 +200,8 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Pufferereignisse | `videoqoebuffercountevar` |
 | Zeit bis Start | `videoqoetimetostartevar` |
 | Anzeigen-Pod | `videoadpod` |
-| Media-Pfad | `videopath` |
-| Werbung | `videoad` |
+| Medienpfad | `videopath` |
+| Anzeige | `videoad` |
 | Inhalts-Player-Name | `videoplayername` |
 | Inhaltskanal | `videochannel` |
 | Kapitel | `videochapter` |
@@ -209,9 +209,9 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Inhaltsdauer (Variable) | `videolength` |
 | Anzeigename (Variable) | `videoadname` |
 | Anzeigenlänge (Variable) | `videoadlength` |
-| Show | `videoshow` |
+| Serie | `videoshow` |
 | Staffel | `videoseason` |
-| Episode | `videoepisode` |
+| Folge | `videoepisode` |
 | Netzwerk | `videonetwork` |
 | Sendungstyp | `videoshowtype` |
 | Anzeige-Ladevorgänge | `videoadload` |
@@ -220,18 +220,18 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Advertiser | `videoadadvertiser` |
 | Kampagnen-ID | `videoadcampaign` |
 | Genre | `videogenre` |
-| Streamtyp | `videostreamtype` |
-| Player SDK Fehler-IDs | `videoqoeplayersdkerrors` |
+| Stream-Typ | `videostreamtype` |
+| Player-SDK-Fehler-IDs | `videoqoeplayersdkerrors` |
 | Externe Fehler-IDs | `videoqoeextneralerrors` |
 | Medien-Feed-Typ | `videofeedtype` |
 | Medien-Einstiegspfad | `entryvideopath` |
 | Medien-Ausstiegspfad | `exitvideopath` |
 | Einstiegs-Genre | `entryvideogenre` |
 | Ausstiegs-Genre | `exitvideogenre` |
-| Einstieg Player SDK Fehler-IDs | `entryvideoqoeplayersdkerrors` |
-| Ausstieg Player SDK Fehler-IDs | `exitvideoqoeplayersdkerrors` |
-| Externe Einstiegs-Fehler-IDs | `entryvideoqoeextneralerrors` |
-| Externe Ausstiegs-Fehler-IDs | `exitvideoqoeextneralerrors` |
+| Einstieg-Player-SDK-Fehler-IDs | `entryvideoqoeplayersdkerrors` |
+| Ausstieg-Player-SDK-Fehler-IDs | `exitvideoqoeplayersdkerrors` |
+| Einstieg – Externe Fehler-IDs | `entryvideoqoeextneralerrors` |
+| Ausstieg – Externe Fehler-IDs | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
 
@@ -243,16 +243,16 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Sprache | `sociallanguage` |
 | Breitengrad/Längengrad | `sociallatlong` |
 | Asset-Trackingcodes | `socialassettrackingcode` |
-| Eigene Social-Eigenschaften | `socialaccountandappids` |
+| Eigene Social-Media-Präsenzen | `socialaccountandappids` |
 | Eigene Post-IDs | `socialownedpostids` |
-| Eigene Social-Definitionen | `socialinteractiontype` |
-| Eigene Eigenschaften-IDs | `socialownedpropertyid` |
-| Eigenes Eigentum vs. Anwendung | `socialownedpropertypropertyvsapp` |
-| Name der eigenen Eigenschaft | `socialownedpropertyname` |
+| Eigene Social-Media-Definitionen | `socialinteractiontype` |
+| Eigene Eigenschafts-IDs | `socialownedpropertyid` |
+| Eigene Eigenschaften vs. Anwendung | `socialownedpropertypropertyvsapp` |
+| Eigener Eigenschaftsname | `socialownedpropertyname` |
 | Eigene Definitionseigenschaft vs. Post | `socialowneddefinitionpropertyvspost` |
-| Eigener Definition-Insight-Typ | `socialowneddefinitioninsighttype` |
-| Eigener Definition-Insight-Wert | `socialowneddefinitioninsightvalue` |
-| Eigene Definition-Metrik | `socialowneddefinitionmetric` |
+| Eigene Definition – Insight-Typ | `socialowneddefinitioninsighttype` |
+| Eigene Definition – Insight-Wert | `socialowneddefinitioninsightvalue` |
+| Eigene Definition – Metrik | `socialowneddefinitionmetric` |
 | Asset | `socialmediaid` |
 
 ### Mobile SDK
@@ -261,7 +261,7 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 |--- |--- |
 | Erster Starttermin | `mobileinstalldate` |
 | App-ID | `mobileappid` |
-| Startanzahl | `mobilelaunchnumber` |
+| Launch-Nummer | `mobilelaunchnumber` |
 | Tage seit der ersten Verwendung | `mobiledayssincefirstuse` |
 | Tage seit der letzten Verwendung | `mobiledayssincelastuse` |
 | Stunde des Tages (SDK) | `mobilehourofday` |
@@ -271,26 +271,26 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 | Starts seit letztem Upgrade | `mobilelaunchessincelastupgrade` |
 | Gerätename (SDK) | `mobiledevice` |
 | Betriebssystemversion (SDK) | `mobileosversion` |
-| Beacon Major | `mobilebeaconmajor` |
-| Beacon Minor | `mobilebeaconminor` |
-| Beacon UUID | `mobilebeaconuuid` |
+| Beacon-Major-Wert | `mobilebeaconmajor` |
+| Beacon-Minor-Wert | `mobilebeaconminor` |
+| Beacon-UUID | `mobilebeaconuuid` |
 | Beacon-Nähe | `mobilebeaconproximity` |
 | Standort (bis 10 km) | `latlon1` |
 | Standort (bis 100 m) | `latlon23` |
 | Standort (bis 1 m) | `latlon45` |
 | Zielpunkt-Bezeichnung | `pointofinterest` |
 | Entfernung zum Zentrum des Zielpunkts | `pointofinterestdistance` |
-| Genauigkeit der Position | `mobileplaceaccuracy` |
-| Kategorie Platz | `mobileplacecategory` |
-| Platz-ID | `mobileplaceid` |
-| Einstieg Beacon Major | `entrymobilebeaconmajor` |
-| Ausstieg Beacon Major | `exitmobilebeaconmajor` |
-| Einstieg Beacon Minor | `entrymobilebeaconminor` |
-| Ausstieg Beacon Minor | `exitmobilebeaconminor` |
-| Einstieg Beacon UUID | `entrymobilebeaconuuid` |
-| Ausstieg Beacon UUID | `exitmobilebeaconuuid` |
-| Einstieg Beacon-Nähe | `entrymobilebeaconproximity` |
-| Ausstieg Beacon-Nähe | `exitmobilebeaconproximity` |
+| Ortungsgenauigkeit | `mobileplaceaccuracy` |
+| Kategorie des Orts | `mobileplacecategory` |
+| Ort-ID | `mobileplaceid` |
+| Einstieg-Beacon-Major-Wert | `entrymobilebeaconmajor` |
+| Ausstieg-Beacon-Major-Wert | `exitmobilebeaconmajor` |
+| Einstieg-Beacon-Minor-Wert | `entrymobilebeaconminor` |
+| Ausstieg-Beacon-Minor-Wert | `exitmobilebeaconminor` |
+| Einstieg-Beacon-UUID | `entrymobilebeaconuuid` |
+| Ausstieg-Beacon-UUID | `exitmobilebeaconuuid` |
+| Einstieg-Beacon-Nähe | `entrymobilebeaconproximity` |
+| Ausstieg-Beacon-Nähe | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising Cloud (AMO)
 
@@ -310,7 +310,7 @@ Auf dieser Seite werden Dimensionen Liste, die in den jeweiligen Analytics-Funkt
 
 ### Nielsen-Integration
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Weitere Informationen zur Umsetzung dieser Integration finden Sie unter [Nielsen-Erweiterung](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |
@@ -318,18 +318,18 @@ For more information on how to implement this integration, see the [Nielsen Exte
 | Nielsen-Segment C | `nielsensegmentc` |
 | Nielsen-Segment B | `nielsensegmentb` |
 | Nielsen-Segment A | `nielsensegmenta` |
-| Nielsen Inhalts-ID | `nielsencontentid` |
+| Nielsen-Inhalts-ID | `nielsencontentid` |
 | Nielsen-Asset/-Programm | `nielsenasset` |
-| Nielsen VCID | `nielsenvcid` |
+| Nielsen-VCID | `nielsenvcid` |
 | Nielsen Opt-out | `nielsenoptout` |
-| Nielsen Kunden-ID + VCID | `nielsenclientidvcid` |
-| Nielsen Kunden-ID | `nielsenclientid` |
-| Einstieg Nielsen Opt-out | `entrynielsenoptout` |
-| Ausstieg Nielsen Opt-out | `exitnielsenoptout` |
-| Einstieg Nielsen Kunden-ID + VCID | `entrynielsenclientidvcid` |
-| Ausstieg Nielsen Kunden-ID + VCID | `exitnielsenclientidvcid` |
-| Einstieg Nielsen Kunden-ID | `entrynielsenclientid` |
-| Ausstieg Nielsen Kunden-ID | `exitnielsenclientid` |
+| Nielsen-Client-ID und -VCID | `nielsenclientidvcid` |
+| Nielsen-Client-ID | `nielsenclientid` |
+| Einstieg-Nielsen-Ausschluss | `entrynielsenoptout` |
+| Ausstieg-Nielsen-Ausschluss | `exitnielsenoptout` |
+| Einstieg-Nielsen-Client-ID und -VCID | `entrynielsenclientidvcid` |
+| Ausstieg-Nielsen-Client-ID und -VCID | `exitnielsenclientidvcid` |
+| Einstieg-Nielsen-Client-ID | `entrynielsenclientid` |
+| Ausstieg-Nielsen-Client-ID | `exitnielsenclientid` |
 
 ### Adobe Experience Manager (AEM)
 
@@ -338,8 +338,8 @@ For more information on how to implement this integration, see the [Nielsen Exte
 | Element-ID | `aemassetid` |
 | Asset-Quelle | `aemassetsource` |
 | Angeklickte Asset-ID | `aemclickedassetid` |
-| Einstieg Asset-ID | `entryaemassetid` |
-| Ausstieg Asset-ID | `exitaemassetid` |
+| Einstieg-Asset-ID | `entryaemassetid` |
+| Ausstieg-Asset-ID | `exitaemassetid` |
 
 ### Adobe Campaign
 
