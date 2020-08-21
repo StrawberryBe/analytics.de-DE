@@ -1,26 +1,26 @@
 ---
 title: prop
 description: Benutzerdefinierte Variablen, die Sie in Ihrer Implementierung verwenden können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # prop
 
-*Auf dieser Hilfeseite wird die Implementierung von Props beschrieben. For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
+*Auf dieser Hilfeseite wird die Implementierung von Props beschrieben. Informationen dazu, wie Props als Dimension funktionieren, finden Sie unter [Props](/help/components/dimensions/prop.md) im Komponenten-Benutzerhandbuch.*
 
-Props sind benutzerspezifische Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den Treffer hinaus erhalten, den sie ausgelöst haben.
+Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den von ihnen festgelegten Treffer hinaus bestehen.
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
+>Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch dahingehend verbessert, dass sie fast alle Anwendungsfälle für Props erfüllen.
 
-Wenn Sie über ein [Lösungsdesign-Dokument](/help/implement/prepare/solution-design.md)verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es stehen bis zu 75 Props zur Verfügung, wenn Ihr Vertrag mit Adobe dies unterstützt.
+Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 75 Props verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
 ## Props in Adobe Experience Platform Launch
 
@@ -33,7 +33,7 @@ Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
 6. Suchen Sie den Abschnitt [!UICONTROL Props].
 
-Sie können eine Eigenschaftsvariable auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
+Sie können eine Prop auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
 
 ## s.prop1 – s.prop75 in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
@@ -53,7 +53,7 @@ Aktivieren Sie Listen-Props in den Report Suite-Einstellungen. Weitere Informati
 
 >[!TIP]
 >
-> Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
+>Bei Implementierungen werden häufig Trennzeichen wie Komma (`,`), Doppelpunkt (`:`), Semikolon (`;`) oder der senkrechte Strich (`|`) verwendet. Sie können jedes beliebige Trennzeichen verwenden, das am besten zu Ihrer Implementierung passt.
 
 ### Festlegen von Listen-Props
 
