@@ -1,9 +1,9 @@
 ---
 title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Einige Dimensionen und Metriken können in Data Warehouse verwendet werden, nich
 
 ### Ausschließlich unterstützte Dimensionen
 
-* Experience Cloud-ID: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, eine 128-Bit-Zahl, die aus zwei konkatenierten 64-Bit-Zahlen und 19 Ziffern besteht.
+* Experience Cloud ID: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, eine 128-Bit-Zahl, die aus zwei konkatenierten 64-Bit-Zahlen und 19 Ziffern besteht.
 * Seiten-URL: Die Seiten-URL, auf der der Treffer aufgetreten ist.
 * Kauf-IDs: Eindeutige ID für einen Kauf, definiert mit der Variablen purchaseID.
 * Besucher-ID: die eindeutige Kennung des Besuchers. Dieser Wert entspricht dem konkatenierten Wert der Spalten `visid_high` und `visid_low` in Daten-Feeds. Weitere Informationen finden Sie unter in der [Datenspaltenreferenz](../analytics-data-feed/c-df-contents/datafeeds-reference.md) unter Daten-Feeds.
@@ -48,7 +48,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Stunde des Tages
    * Minute
    * Monat des Jahres
-   * Viertel des Jahres
+   * Quartal des Jahres
    * Wochentag/Wochenende
    * Jahr
 * Einige pfadbasierte Dimensionen, darunter:
@@ -57,8 +57,8 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Treffertiefe
    * Rückkehrhäufigkeit
    * Zeit vor Ereignis
-   * Besuchszeit pro Seite – Zusammengefasst
-   * Zeit pro Besuch – Zusammengefasst
+   * Besuchszeit pro Seite – zusammengefasst
+   * Zeit pro Besuch – zusammengefasst
    * Besuchstiefe
 * Rangansicht aller Suchseiten
 * Hierarchievariablen
@@ -66,15 +66,15 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
 * Nicht gefundene Seiten (als Dimension verfügbar; nicht unterstützt für Segmentierung)
 * Paid Search
 * Einzelseitenbesuche
-* Nachverfolgung der Gründe für den Ausstieg
+* Nachverfolgen des Abmeldegrunds
 * US-Staaten
 
 ### Nicht unterstützte Metriken
 
 * Einige pfadbasierte Metriken, darunter:
    * Absprünge
-   * Einträge
+   * Einstiege
    * Ausstiege
    * Neuladungen
    * Einzelzugriff
-   * Metrik „Besuchszeit“
+   * Besuchszeit-Metriken
