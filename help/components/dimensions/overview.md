@@ -1,20 +1,20 @@
 ---
-title: Dimensionen - Übersicht
+title: Dimensionen – Übersicht
 description: Variablen, die Zeichenfolgenwerte enthalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Dimensionen - Übersicht
+# Dimensionen – Übersicht
 
-Dimensionen sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Zu den gebräuchlichen Dimensionen gehören [Seite](page.md), [verweisende Domäne](referring-domain.md)oder eine [eVar](evar.md). Im Gegensatz dazu enthalten [Metriken](../metrics/overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein einfacher Bericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
+Dimensionen sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Zu den gebräuchlichen Dimensionen gehören [Seite](page.md), [Referrer-Domäne](referring-domain.md) oder eine [eVar](evar.md). Im Gegensatz dazu enthalten [Metriken](../metrics/overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
-Wenn Sie beispielsweise die Dimension &quot;Seite&quot;mit der Metrik &quot;Besuche&quot;kombinieren, erhalten Sie einen Rangbericht, der Ihre am häufigsten besuchten Seiten anzeigt:
+Wenn Sie beispielsweise die Dimension „Seite“ mit der Metrik „Besuche“ kombinieren, erhalten Sie einen Rangbericht, der Ihre am häufigsten besuchten Seiten anzeigt:
 
 | `Page` | `Visits` |
 | --- | --- |
