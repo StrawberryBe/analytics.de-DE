@@ -5,7 +5,10 @@ title: Verarbeitungsreihenfolge
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ In den folgenden Tabellen sind die Daten aufgeführt, die in der Regel vor und n
 |--- |--- |
 | Suche dynamischer Variablen | Variablen werden dynamisch ausgefüllt, indem Informationen aus HTTP-Kopfzeilen oder anderen Variablen abgerufen werden. So setzt z. B. `s.eVar5="D=c1"` den Wert von prop1 in eVar5. |
 | AppMeasurement | In AppMeasurement verwendete Funktionen und Plug-Ins werden im Browser oder in der Clientanwendung ausgeführt. |
-| Dynamic Tag Management | Die unter „Dynamic Tag Management“ festgelegten Regeln werden per Definition ausgeführt. |
+| Tag-Management | In Adobe Launch oder Dynamisches Tag-Management definierte Regeln werden wie definiert ausgeführt. |
 | Bot-Regeln | Mit [Bot-Regeln](/help/admin/admin/bot-removal/bot-rules.md) können Sie Traffic aus Ihrer Report Suite entfernen, der von bekannten Spiders und Bots verursacht wird. |
 
 ## Nach Verarbeitungsregeln
@@ -40,6 +43,6 @@ In den folgenden Tabellen sind die Daten aufgeführt, die in der Regel vor und n
 
 ## So werden Verarbeitungsregeln beim Kopieren von Hits mit VISTA angewandt {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-Wenn Sie eine VISTA-Regel zum Kopieren von Hits in eine andere Report Suite konfiguriert haben, werden die Hits über sämtliche in der anderen Report Suite definierten Verarbeitungsregeln versendet.
+Wenn Sie eine VISTA-Regel zum Kopieren von Treffern in eine andere Report Suite konfiguriert haben, werden die Treffer über alle in der anderen Report Suite definierten Verarbeitungsregeln gesendet.
 
 Wenn Sie Verarbeitungsregeln nutzen, die für die ursprüngliche Report Suite definiert sind, können diese je nachdem angewandt werden, wie die VISTA-Regel durch den technischen Support konfiguriert wurde. Um dies herauszufinden, können Sie Ihren Implementierungsspezialisten fragen, ob die VISTA-Regel die „prä“- oder „post“-Werte in die zusätzliche Report Suite kopiert. Wenn der „prä“-Wert kopiert wird, werden die in der ursprünglichen Report Suite definierten Verarbeitungsregeln nicht angewandt. Wenn der „post“-Wert kopiert wird, werden Verarbeitungsregeln angewandt, bevor der Hit kopiert wird.
