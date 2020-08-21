@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Dokumentation zu Adobe Analytics
 user-guide-url: /content/help/en/analytics/landing/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 90%
 # Dokumentation zu Adobe Analytics {#landing}
 
 * [Startseite](home.md)
-* [Adobe Analytics - Schlüsselkonzepte](an-key-concepts.md)
-* [Hilfslinien](https://docs.adobe.com/content/help/de-DE/analytics/analyze/home.html)
+* [Adobe Analytics – Schlüsselkonzepte](an-key-concepts.md)
+* [Tools-Handbuch](https://docs.adobe.com/content/help/de-DE/analytics/analyze/home.html)
 * [Administratorhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/admin/home.html)
 * [Komponentenhandbuch](https://docs.adobe.com/content/help/de-DE/analytics/components/home.html)
 * [Exporthandbuch](https://docs.adobe.com/content/help/de-DE/analytics/export/home.html)
@@ -26,8 +26,8 @@ ht-degree: 90%
 * [Handbuch zu Technotes](https://docs.adobe.com/content/help/de-DE/analytics/technotes/home.html)
 * [Media Analytics-Leitfaden](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html)
 * [Data Workbench-Leitfaden](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html)
-* [Leitfaden zur Customer Journey Analytics](https://docs.adobe.com/content/help/de-DE/analytics-platform/using/cja-landing.html)
+* [Handbuch für Customer Journey Analytics](https://docs.adobe.com/content/help/de-DE/analytics-platform/using/cja-landing.html)
 * [Aktualisierungen der Analytics-Dokumentation](doc-updates.md)
 * [Versionshinweise](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html)
-* [Versionshinweise zu Adobe Analytics-Funktionen](an-releases.md)
+* [Veröffentlichung von Adobe Analytics-Funktionen](an-releases.md)
 
