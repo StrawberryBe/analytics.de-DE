@@ -1,9 +1,9 @@
 ---
 title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -69,4 +69,4 @@ Wählen Sie eine für Ihre Organisation eindeutige Unterdomäne aus, die wahrsch
 
 >[!NOTE]
 >
-> Verwenden Sie keine Subdomains, die tiefer als `example.sc.omtrdc.net` gehen. Zum Beispiel ist `custom.example.sc.omtrdc.net` kein gültiger Trackingserver.
+>Verwenden Sie keine Subdomänen, die tiefer als `example.sc.omtrdc.net` gehen. Zum Beispiel ist `custom.example.sc.omtrdc.net` kein gültiger Trackingserver.
