@@ -1,11 +1,11 @@
 ---
 title: Hilfe zu den Analytics-Komponenten
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 84%
 
 Mithilfe von Analytics-Komponenten können Sie die Datenanalyse optimieren. Zu den Komponenten gehören:
 
-* **Dimensionen:** Referenz für Dimensionen, die in Adobe Analytics verwendet werden können.
+* **Dimensionen:** Referenz für in Adobe Analytics verwendbare Dimensionen.
 * **Metriken:** Referenz für in Adobe Analytics verwendbare Metriken.
 * **Segmentierung:** Wenn Sie nur ein bestimmter Teil Ihrer Daten interessiert.
 * **Berechnete Metriken:** Kombinieren Sie mit einfachen Formeln Metriken oder erweiterte Funktionen für statistische Analysen.
 * **Virtual Report Suites:** Erstellen Sie auf der Basis einer Report Suite ein virtuelles Datensilo. Ermöglicht die Bereinigung und Segmentierung der Daten und schafft dadurch höhere Benutzerfreundlichkeit. Einige Funktionen können nur in Virtual Report Suites verwendet werden.
-* **Geräteübergreifende Analyse**: Mit einem speziellen Typ von Virtual Report Suite können Sie geräteübergreifende Analysen konfigurieren.
+* **Geräteübergreifende Analyse**: Mit einer speziellen Virtual Report Suite können Sie die geräteübergreifende Analyse konfigurieren.
 * **Warnhinweise:** Sie erhalten jedes Mal, wenn Daten über oder unter einem Schwellenwert liegen, eine Benachrichtigung.
 * **Klassifizierungen:** Sie können Dimensionen neu anordnen und gruppieren, um zusätzliche Einblicke zu gewinnen.
 * **Echtzeitberichte:** Sie erhalten Berichte und Trends unmittelbar, wenn sie verfügbar werden.
