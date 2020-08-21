@@ -1,9 +1,9 @@
 ---
 title: Integrationsmodul
 description: Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Unternehmen integrieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Für die Implementierung des Integrationsmoduls auf Ihrer Site ist der Zugriff a
 
 Nachdem das Integrationsmodul implementiert wurde, konfigurieren Sie es mit diesen Methoden, um Daten vom gewünschten Adobe-Partner zu senden und zu empfangen.
 
-### Hinzufügen
+### add
 
 Die `add`-Methode instanziiert ein Partnerobjekt, das als Zwischenspeicher variabler Daten dient, wenn Daten zwischen Partnersystemen und Ihrer Implementierung freigegeben werden. Diese Methode ist für alle Integrationen erforderlich. Für jeden individuellen Partner muss ein separates Partnerobjekt verwendet werden, wenn in einer Implementierung mehrere Partner verwendet werden.
 
