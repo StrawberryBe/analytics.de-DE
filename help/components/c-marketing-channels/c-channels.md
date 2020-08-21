@@ -4,11 +4,11 @@ subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Der Zusatz von Kanälen in der [!UICONTROL Marketingkanal]-Seite erfolgt separat
 Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
 
 * Richten Sie in der Vorbereitung eine Liste aller Kanäle ein, so dass alle Besucherzugriffe in die richtigen Kanäle eingeordnet werden.
-* Include channels for the categories of [Internal](/help/components/c-marketing-channels/c-rules.md) hits and [Direct](/help/components/c-marketing-channels/c-rules.md) hits.
-* Schließen Sie einen Kanal &quot;Sonstige Kampagnen&quot;ein, der nach bezahlten Kanälen und vor ökologischen Kanälen platziert wird.
+* Schließen Sie Kanäle für die Trefferkategorien [Intern](/help/components/c-marketing-channels/c-rules.md) und [Direkt](/help/components/c-marketing-channels/c-rules.md) ein.
+* Schließen Sie einen Kanal „Sonstige Kampagnen“ ein, der nach den bezahlten Kanälen und vor den kostenlosen Kanälen platziert wird.
 
 
 ## Voraussetzungen {#prereqs}
@@ -63,14 +63,14 @@ Fügen Sie im Marketingkanal-Manager Marketingkanäle hinzu.
 
    Diese Option steht nicht zur Verfügung, wenn 25 Kanäle definiert wurden.
 
-1. Klicken Sie auf **[!UICONTROL Speichern.]**
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie zur Regelkonfiguration für den Kanal auf **[!UICONTROL Marketing-Kanal-Verarbeitungsregeln]**.
 
    Weitere Informationen finden Sie unter [Einrichten von Marketing-Kanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md).
 
-## Kanal-Einstellungen anwenden {#mktg-channel-mgr}
+## Anwenden der Kanaleinstellungen {#mktg-channel-mgr}
 
-Es gibt verschiedene Einstellungen, die auf die einzelnen Kanal auf der Seite [!UICONTROL Marketing Kanal Manager] angewendet werden können.
+Es gibt verschiedene Einstellungen, die für jeden Kanal auf der Seite [!UICONTROL Marketing-Kanal-Manager] angewendet werden können.
 
 | Feld | Definition |
 |--- |--- |
@@ -79,7 +79,7 @@ Es gibt verschiedene Einstellungen, die auf die einzelnen Kanal auf der Seite [!
 | Last Touch-Kanal außer Kraft setzen | Ermöglicht Ihnen, je nach Bedarf einen vorhandenen, beständigen Last Touch-Kanal durch den gewählten Kanal außer Kraft zu setzen. Wenn Sie diese Option auswählen, könnte jeder beliebige Kanal (einschließlich Direkt und Intern) einen vorhandenen Last Touch-Kanal außer Kraft setzen. Dies führt dazu, dass Konversionen den falschen Kanälen gutgeschrieben werden. Diese Option kann beispielsweise sicherstellen, dass dem direkten Kanal keine Konversionen gutgeschrieben werden, wenn der Benutzer zuvor über den Kanal Kostenlose Suche angeworben wurde. |
 | Kanalinseln | Ermöglicht die Unterteilung des Kanals nach diesem Wert. Sie können mögliche Kanalunterteilungen (Sub-Kanäle) bei der Erstellung von [Marketing-Kanalklassifizierungen](/help/components/c-marketing-channels/classifictions-mchannel.md) hinzufügen. |
 | Typ | Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können „Online“ oder „Offline“ auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offline-Kanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. Siehe [Data Sources](https://docs.adobe.com/content/help/de-DE/analytics/import/data-sources/datasrc-home.html). Weitere Informationen finden Sie unter [Hinzufügen von Offline-Daten](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Kanalfarbe | Nur Reports &amp; Analytics: Die mit diesem Marketing-Kanal verknüpfte Farbe. Die Farbe stellt den Kanal im Marketing-Kanalbericht dar. |
+| Farbe | Nur Reports &amp; Analytics: Die mit diesem Marketing-Kanal verknüpfte Farbe. Die Farbe stellt den Kanal im Marketing-Kanalbericht dar. |
 
 ### Überschreiben von Best Practices
 
@@ -87,11 +87,11 @@ Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die K
 
 ![](assets/int-channel2.png)
 
-## Definieren von Kanal-Regeln
+## Definieren von Kanalregeln
 
-Bevor Kanäle und ihre Daten im Bericht angezeigt werden, müssen Sie die Kanäle und die zur Datenverarbeitung erforderlichen Regeln einrichten. Sie können auch angeben, wie lange der [Besucher-Interaktionszeitraum](/help/components/c-marketing-channels/visitor-engagement.md) dauern soll.
+Bevor Kanäle und ihre Daten im Bericht angezeigt werden, müssen Sie die Kanäle und die zur Datenverarbeitung erforderlichen Regeln einrichten. Sie können auch angeben, wie lange der [Besucherinteraktionszeitraum](/help/components/c-marketing-channels/visitor-engagement.md) dauern soll.
 
-Adobe stellt mehrere vordefinierte Kanal während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) bereit, die Sie entsprechend Ihren Anforderungen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerspezifische Regeln innerhalb der Verarbeitungsregeln von [Marketing Kanal definieren](/help/components/c-marketing-channels/c-rules.md).
+Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb der [Verarbeitungsregeln für Marketing-Kanäle](/help/components/c-marketing-channels/c-rules.md) definieren.
 
 >[!NOTE]
 >
