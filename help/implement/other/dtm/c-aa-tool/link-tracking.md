@@ -4,11 +4,11 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Linktracking
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei der Bereitstellung von Analytics.
 
-**[!UICONTROL Eigenschaft]** > ![Zahnradsymbol](assets/settings_gear.png) **[!UICONTROL Tool]** bearbeiten > **[!UICONTROL Linktracking]**
+**[!UICONTROL Eigenschaft]** > ![Zahnradsymbol](assets/settings_gear.png) **[!UICONTROL Tool bearbeiten]** > **[!UICONTROL Linktracking]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -33,7 +33,7 @@ Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei de
   </tr>
   <tr>
    <td colname="col1"> Downloadlinks verfolgen </td>
-   <td colname="col2"> <p>Verfolgt die Links zu Dateien Ihrer Site, die heruntergeladen werden können. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>Verfolgt Links zu Dateien Ihrer Site, die heruntergeladen werden können. </p> <p>Siehe <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Download-Erweiterungen </td> 
@@ -49,7 +49,7 @@ Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei de
   </tr>
   <tr>
    <td colname="col1"> URL-Parameter beibehalten </td>
-   <td colname="col2"> <p>Die Abfragezeichenfolgen bleiben erhalten. </p> <p>Siehe <a href="../../../vars/config-vars/linkleavequerystring.md">linkLeaveQueryString</a>. </p> </td>
+   <td colname="col2"> <p>Behält die Abfragezeichenfolge bei. </p> <p>Siehe <a href="../../../vars/config-vars/linkleavequerystring.md">linkLeaveQueryString</a>. </p> </td>
   </tr>
  </tbody>
 </table>
