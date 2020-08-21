@@ -1,9 +1,9 @@
 ---
 title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
 ht-degree: 100%
 
@@ -210,18 +210,18 @@ Der Wert „300“ stammt aus dem Wert des pos-Parameters in der Variablen s.tes
 
 * Kompatibel mit H-Code und AppMeasurement (`s.pt` für AppMeasurement erforderlich).
 
-### 2.4
+### 2,4
 
 * Der `h`-Parameter wurde hinzugefügt, sodass der Code nach Abfragezeichenfolgenparametern suchen kann, die nach dem Hash-Zeichen (`#`) gefunden wurden
 
-### 2.3
+### 2,3
 
 * Es wurde ein Regressionsproblem behoben, bei dem das Plug-in nur funktionierte, wenn der Hash nach dem Tracking-Code vorhanden war
 
-### 2.2
+### 2,2
 
 * Entfernt jetzt Hash-Zeichen (und alles Weitere danach) aus dem Rückgabewert
 
-### 2.1
+### 2,1
 
 * Kompatibel mit H.10-Code
