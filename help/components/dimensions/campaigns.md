@@ -1,18 +1,18 @@
 ---
 title: Kampagnen
-description: Eindeutigungsseite.
+description: Begriffsklärungsseite.
 translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
 # Kampagnen
 
-Die Dimension &quot;Kampagnen&quot;kann sich auf Folgendes beziehen:
+Die Dimension „Kampagnen“ kann sich auf Folgendes beziehen:
 
-* Eine [Classification](../classifications/c-classifications.md) , die in einigen Report Suites automatisch erstellt wird. Er basiert auf der Dimension [Trackingcode](tracking-code.md) .
-* Die Dimension [Trackingcode](tracking-code.md) selbst, die die Implementierungsvariable [Kampagne](/help/implement/vars/page-vars/campaign.md) verwendet.
+* Eine [Klassifizierung](../classifications/c-classifications.md), die in einigen Report Suites automatisch erstellt wird. Sie basiert auf der Dimension [Trackingcode](tracking-code.md).
+* Die Dimension [Trackingcode](tracking-code.md), die die Implementierungsvariable [campaign](/help/implement/vars/page-vars/campaign.md) verwendet.
