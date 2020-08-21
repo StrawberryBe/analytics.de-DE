@@ -25,8 +25,8 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
 1. **JS-Hauptdateivariablen aktualisieren**: Bearbeiten Sie die `s_code.js`-Datei und stellen Sie sicher, dass die folgenden Variablen aktualisiert werden:
    * `s_account` enthält die Report Suite-ID, an die Sie Daten senden möchten. Siehe
    * `s.trackingServer` enthält die Stelle, an der Cookies gespeichert werden. Siehe [trackingServer](../../vars/config-vars/trackingserver.md).
-1. **Hosten Sie die`s_code.js`-Datei auf Ihrer Website**: Diese Datei befindet sich normalerweise zusammen mit anderen Skripten auf Ihrem Webserver.
-1. **`s_code.js`auf allen Seiten referenzieren**: Stellen Sie sicher, dass alle einzelnen Seiten die JavaScript-Hauptdatei aufrufen, und zwar im HTML-`<body>`-Tag (nicht im `<head>`-Tag).
+1. **Hosten Sie die `s_code.js`-Datei auf Ihrer Website**: Diese Datei befindet sich normalerweise zusammen mit anderen Skripten auf Ihrem Webserver.
+1. **`s_code.js` auf allen Seiten referenzieren**: Stellen Sie sicher, dass alle einzelnen Seiten die JavaScript-Hauptdatei aufrufen, und zwar im HTML-`<body>`-Tag (nicht im `<head>`-Tag).
 
    >[!TIP]
    >
