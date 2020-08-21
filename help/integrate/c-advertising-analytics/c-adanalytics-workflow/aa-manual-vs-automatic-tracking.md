@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ Daher müssen Sie ein Kontrollkästchen zur Bestätigung aktivieren, wenn Sie de
 
 Beachten Sie, dass Sie für die folgenden Aktionen verantwortlich sind, wenn Sie ein Suchmaschinenkonto im „Auto-Modus“ konfigurieren möchten:
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. Die Einfügung erfolgt am Ende der URL. Zusätzliche Maßnahmen können von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert. **Sie müssen sicherstellen, dass die hinzugefügten URL-Parameter ordnungsgemäß und persistent auf die richtige Landingpage verweisen.**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Beispiel: Ein häufig verwendetes Sonderzeichen ist „+“, das in „Broad Match Modified“-Keywords verwendet wird.
+* Der Parameter `s_kwcid` und der Wert werden den Konto-Tracking-Vorlagen oder Landingpage-URLs in dem hinzugefügten Konto hinzugefügt. Die Einfügung erfolgt am Ende der URL. Zusätzliche Maßnahmen können von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes „key=value“-Paar am Ende der URL ODER ein Update zur Unterstützung eines neuen „key=value“-Paares in der URL erfordert. **Sie müssen sicherstellen, dass die hinzugefügten URL-Parameter ordnungsgemäß und persistent auf die richtige Landingpage verweisen.**
+* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Beispiel: Ein häufig verwendetes Sonderzeichen ist „+“, das in „Broad Match Modified“-Keywords verwendet wird.
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den `s_kwcid` Parameter zu Ihren [Content Security-Richtlinien](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/csp.html) hinzufügen sollten.
 
 ## Tracking im Manuellen Modus {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -60,7 +60,7 @@ Beispiele für Trackingcodes in verschiedenen Tracking-Vorlagenformaten:
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`mit zusätzlichem URL-Parameter **
+**`{lpurl}`mit zusätzlichem URL-Parameter**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ Beispiele für Trackingcodes in verschiedenen finalen URL-Suffix-Formaten:
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`mit zusätzlichem URL-Parameter **
+**`{lpurl}`mit zusätzlichem URL-Parameter**
 
 ```
 {lpurl}?campaign=PPC&
