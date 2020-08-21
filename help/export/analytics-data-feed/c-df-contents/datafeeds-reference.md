@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -35,8 +35,8 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `aemassetsource` | Identifiziert die Quelle des Asset-Ereignisses. Wird in Adobe Experience Manager verwendet. | varchar(255) |
 | `aemclickedassetid` | Asset-ID eines Adobe Experience Manager-Assets. Erhöht Klickereignisse. | varchar(255) |
 | `browser` | Numerische ID des Browsers. Verweist auf die Suchtabelle browser.tsv | int unsigniert |
-| `browser_height` | Höhe des Browser-Fensters in Pixeln. | smallint unsigniert |
-| `browser_width` | Breite des Browser-Fensters in Pixeln. | smallint unsigniert |
+| `browser_height` | Höhe des Browser-Fensters in Pixel. | smallint unsigniert |
+| `browser_width` | Breite des Browser-Fensters in Pixel. | smallint unsigniert |
 | `c_color` | Bit-Tiefe der Farbpalette. Wird im Rahmen der Berechnung der Dimension „Farbtiefe“ verwendet. Verwendet die JavaScript-Funktion screen.colorDepth() | char(20) |
 | `campaign` | Variable, die in der Dimension „Trackingcode“ verwendet wird. | varchar(255) |
 | `carrier` | Variable der Adobe Advertising Cloud-Integration. Gibt den Mobilnetzbetreiber an. Verweist auf die Suchtabelle des Mobilfunknetzbetreibers. | varchar(100) |
@@ -126,9 +126,9 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mobiledeeplinkid` | Wird mit der Kontextdatenvariablen a.<span>deeplink</span>.id erfasst. Wird in Akquise-Berichten als Identifikator für mobilen Akquise-Link verwendet. | varchar(255) |
 | `mobiledevice` | Mobilgerätname. Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert. Die erste Zahl gibt die Gerätegeneration an und die zweite die Gerätefamilie. | varchar(255) |
 | `mobilehourofday` | Gibt die Stunde des Tages an, zu der die App gestartet wurde. Angaben im 24-Stunden-Format. | varchar(255) |
-| `mobileinstalldate` | Installationsdatum der mobilen App. Stellt das Datum zur Verfügung, an dem ein Benutzer die mobile App erstmalig geöffnet hat. | varchar(255) |
+| `mobileinstalldate` | Installationsdatum der mobilen App. Stellt das Datum zur Verfügung, an dem ein Benutzer die Mobile App erstmalig geöffnet hat. | varchar(255) |
 | `mobilelaunchessincelastupgrade` | Wird mit der Kontextdatenvariablen a.LaunchesSinceUpgrade erfasst. Gibt die Anzahl der Starts seit der letzten Aktualisierung an. | varchar(255) |
-| `mobilelaunchnumber` | Wird immer dann erhöht, wenn die mobile App gestartet wird. | varchar(255) |
+| `mobilelaunchnumber` | Wird immer dann erhöht, wenn die Mobile App gestartet wird. | varchar(255) |
 | `mobileltv` | Wird nicht mehr verwendet. Erfasst durch trackLifetimeValue-Methoden. | varchar(255) |
 | `mobilemessagebuttonname` | Wird mit der Kontextdatenvariablen a.<span>message</span>.button.id erfasst. Wird für In-App-Nachrichten verwendet, um die Schaltfläche zu identifizieren, mit der die Nachricht geschlossen wurde. | varchar(100) |
 | `mobilemessageid` | In-App-Nachrichten-ID | varchar(255) |
@@ -198,7 +198,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `socialownedpropertyid` | Wird nicht mehr verwendet. Soziale eigene Eigenschafts-ID | varchar(255) |
 | `socialownedpropertyname` | Wird nicht mehr verwendet. Sozialer eigener Eigenschaftsname | varchar(255) |
 | `socialownedpropertypropertyvsapp` | Wird nicht mehr verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
-| `state` | Without context I&#39;m afraid I can&#39;t assess which version is the correct one. | varchar(50) |
+| `state` | Statusvariable. | varchar(50) |
 | `stats_server` | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
 | `t_time_info` | Lokale Zeit des Besuchers. Format wie folgt: T/M/JJJJ HH:MM:SS Monat (0-11, 0=Januar) Zeitzonenversatz (in Minuten) | varchar(100) |
 | `tnt` | Wird in Adobe Target-Integrationen verwendet. | text |
@@ -263,11 +263,11 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `videoshow` | Videosendung | varchar(255) |
 | `videoshowtype` | Typ der Videosendung | varchar(255) |
 | `videostreamtype` | Typ des Videostreams | varchar(255) |
-| `visid_high` | Wird in Kombination mit visid_low verwendet, um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
-| `visid_low` | Wird in Kombination mit visid_high verwendet, um einen Besucher eindeutig zu identifizieren. | bigint unsigniert |
+| `visid_high` | Wird zusammen mit visid_low zur eindeutigen Identifizierung eines Besuchers verwendet. | bigint unsigniert |
+| `visid_low` | Wird zusammen mit visid_high zur eindeutigen Identifizierung eines Besuchers verwendet. | bigint unsigniert |
 | `visid_new` | Flag, das anzeigt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | `visid_timestamp` | Wurde die Besucher-ID neu generiert, wird der Zeitstempel (in Unix-Zeit) der Generierung der Besucher-ID bereitgestellt. | int |
-| `visid_type` | nicht zur externen Verwendung; intern von der Adobe für Verarbeitungsoptimierungen verwendet werden. Numerische ID, die die zur Identifizierung des Besuchers verwendete Methode darstellt.<br>0: Benutzerspezifische visitorID oder Unbekannt/nicht anwendbar<br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Ausweichcookie-Wert (s_fid) <br>5: Identitätsdienst | tinyint unsigniert |
+| `visid_type` | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Numerische ID, die die Methode angibt, die zur Identifizierung des Besuchers verwendet wurde.<br>0: Benutzerspezifische Besucher-ID oder unbekannt/nicht anwendbar<br>1: IP- und Benutzeragenten-Fallback <br>2: HTTP Mobile Subscriber Header <br>3: Alter Cookie-Wert (s_vi) <br>4: Fallback-Cookie-Wert (s_fid) <br>5: Identity Service | tinyint unsigniert |
 | `visit_keywords` | Variable, die in der Dimension „Suchbegriff“ verwendet wird. Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung, um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
 | `visit_num` | Variable, die in der Dimension „Besuchsnummer“ verwendet wird. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
 | `visit_page_num` | Variable, die in Dimension „Treffertiefe“ verwendet wird. Wird für jeden vom Benutzer generierten Treffer um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
