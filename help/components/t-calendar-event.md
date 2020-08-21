@@ -3,9 +3,9 @@ description: Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten 
 title: Kalenderereignisse
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -35,6 +35,7 @@ In Trendberichten können Sie Ereignisse grafisch darstellen und ersehen, inwiew
    1. Klicken Sie auf **[!UICONTROL An Benutzer senden]**.
    1. Klicken Sie auf **[!UICONTROL Alle auswählen]** oder aktivieren Sie das Kästchen neben dem/den Benutzernamen.
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
    Damit lassen sich Kalenderereignisse wesentlich umfassender verwenden. Analysten können nun Overlays für Benutzerberichte erzwingen und so mehr Kontext bereitstellen.
 1. Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Kalenderereignisse]**.
 1. Geben Sie unter **[!UICONTROL Gemeinsame Kalenderereignisse]** eine der folgenden Optionen an.
