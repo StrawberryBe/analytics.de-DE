@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Vorbereiten auf die Verwendung von Data Sources
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Vorbereiten auf die Verwendung von Data Sources
 
-Schritte, die Sie zur Vorbereitung auf die Nutzung von Datenquellen ausführen können.
+Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzubereiten.
 
 * [Identifizieren und Benennen der Metriken ](/help/import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135)
 * [Identifizieren von Datendimensionen](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
