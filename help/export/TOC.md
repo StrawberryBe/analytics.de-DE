@@ -16,7 +16,7 @@ ht-degree: 91%
 # Exportleitfaden für Analytics {#export}
 
 + [Analytics-Export-Startseite](home.md)
-+ Analytics Data Feed {#analytics-data-feed}
++ Analytics-Daten-Feed{#analytics-data-feed}
    + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
    + [Erstellen oder Bearbeiten eines Daten-Feeds](analytics-data-feed/create-feed.md)
    + [Verwalten von Daten-Feeds](analytics-data-feed/df-manage-feeds.md)
@@ -49,7 +49,7 @@ ht-degree: 91%
    + [FTP und SFTP mit der Adobe Experience Cloud verwenden](ftp-and-sftp/ftp-overview.md)
    + Von Adobe gehostete FTP-Konten einrichten {#set-up-ftp-accounts}
       + [FTP-Konten einrichten – Übersicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
-      + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
+      + [Klassifizierungen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
