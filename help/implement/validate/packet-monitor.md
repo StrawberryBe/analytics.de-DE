@@ -50,7 +50,7 @@ Wenn AppMeasurement Daten an Datenerfassungsserver der Adobe sendet, reagieren d
 * **302 GEFUNDEN**: Es gibt mehrere mögliche Gründe, warum Sie diese Antwort erhalten:
    * Die erste Bildanforderung eines Besuchers: Eine Umleitung tritt auf, wenn ein Benutzer Ihre Site zum ersten Mal besucht. Diese Umleitung dient zum Abrufen eines Besucher-Cookies. Die Datenerfassung wird dadurch nicht beeinflusst.
    * Integration zwischen Comscore und Adobe: Wenn Ihr Unternehmen eine Comscore-/Analytics-Integration verwendet, ergibt jede Bildanforderung immer eine 302-Antwort.
-* **404 NICHT GEFUNDEN**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungsserver der Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Arbeiten Sie mit der Person oder dem Team, die/das Analytics implementiert hat, zusammen, um dieses Problem zu beheben.
+* **404 NICHT GEFUNDEN**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungsserver der Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Einzelperson oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
 
 ## NS_BINDING_ABORTED in Antwortcodes
 
