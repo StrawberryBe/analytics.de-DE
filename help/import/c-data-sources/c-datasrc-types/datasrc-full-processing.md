@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Vollständige Verarbeitung
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, z. B. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen (  <span class="varname"> eVar1 </span> bis <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
+   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen ( <span class="varname"> eVar1 </span> bis <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +79,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, z. B. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Sie können den Standardhierarchienamen (<span class="varname">hier2</span>) oder einen benutzerfreundlichen Namen (<span class="term">Yankees</span>) festlegen. </p> </td> 
+   <td colname="col3"> <p>Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Sie können den Standardhierarchienamen (<span class="varname">hier2</span>) oder einen benutzerfreundlichen Namen (<span class="term">Yankees</span>) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -104,7 +104,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>pageName </p> </td> 
    <td colname="col2"> <p>pageName </p> </td> 
-   <td colname="col3"> <p>Webseitenname </p> </td> 
+   <td colname="col3"> <p>Seitenname </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageType </p> </td> 
@@ -117,14 +117,14 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
    <td colname="col3"> <p>Seiten-URL (z. B. <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>„products“ </p> </td> 
-   <td colname="col2"> <p>„products“ </p> </td> 
+   <td colname="col1"> <p>products </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, z. B. &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Property#-Zeichenfolge (z. B.  <span class="term"> Sportbereich </span>). </p> </td> 
+   <td colname="col3"> <p>Property#-Zeichenfolge (z. B. <span class="term"> Sportbereich </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -166,15 +166,15 @@ Die folgende Tabelle enthält Traffic-Variablen, die automatisch ausgefüllt wer
  <tbody> 
   <tr> 
    <td colname="col1"> <p>browserHeight </p> </td> 
-   <td colname="col2"> <p>Browserhöhe in Pixeln (z. B. 768). </p> </td> 
+   <td colname="col2"> <p>Browser-Höhe in Pixel (z. B. 768). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>browserWidth </p> </td> 
-   <td colname="col2"> <p>Browserbreite in Pixeln (z. B. 1024). </p> </td> 
+   <td colname="col2"> <p>Browser-Breite in Pixel (z. B. 1024). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. </p> <p>Eine vollständige Liste finden Sie im Whitepaper <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Multi-Byte Character Sets</a> (Internationalisierung). </p> </td> 
+   <td colname="col2"> <p>Der für Ihre Website unterstützte Zeichensatz. Beispiel: UTF-8, ISO-8859-1 usw. </p> <p>Eine vollständige Liste finden Sie im Whitepaper <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Multi-Byte Character Sets</a> (Internationalisierung). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
