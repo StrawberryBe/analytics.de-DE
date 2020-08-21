@@ -1,9 +1,9 @@
 ---
 title: Util.getQueryParam
 description: Gibt den Wert eines Abfragezeichenfolgenparameters zurück.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -55,4 +55,4 @@ s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 
 >[!TIP]
 >
->Ein ähnliches Plug-in namens [`s.getQueryParam`](../plugins/getqueryparam.md) ist verfügbar. Dieses Plug-in enthält erweiterte Funktionen, ist aber auch komplexer und ist standardmäßig nicht in AppMeasurement enthalten.
+>Ein ähnliches Plug-in namens [`s.getQueryParam`](../plugins/getqueryparam.md) ist verfügbar. Dieses Plug-in enthält erweiterte Funktionen, ist aber auch komplexer und standardmäßig nicht in AppMeasurement enthalten.
