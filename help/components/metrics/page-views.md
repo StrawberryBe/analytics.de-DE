@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 2%
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ Die Metrik &quot;Seitenpositionen&quot;zeigt an, wie oft ein bestimmtes Dimensio
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt alle Seitenverfolgungsaufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) in einer Report Suite. Bei Dimensionen sind auch Treffer enthalten, bei denen ein Dimensionselement definiert oder beibehalten wird. Es enthält keine Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Diese Metrik zählt alle Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) in einer Report Suite. Bei Dimensionen sind auch Treffer enthalten, bei denen ein Dimensionselement definiert oder beibehalten wird. Sie enthält keine Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
-## Vergleichen mit ähnlichen Metriken
+## Vergleich mit ähnlichen Metriken
 
-* **Seiten-Ansichten vs.[Besuche](visits.md)**: Seitenansichten zählen, wie oft eine Ansicht angezeigt wird. Besuche zählen die Anzahl der Sitzungen für Besucher. Ein Besuch besteht aus einer oder mehreren Seiten.
-* **Seiten-Ansichten im Vergleich zu[Seiten-Ereignissen](page-events.md)**: Seitenaufrufe zählen die Anzahl der Ansichten-Verfolgungsaufrufe (`t()`) und schließen Linkverfolgungsaufrufe (`tl()`) aus. Das Gegenteil ist der Fall bei den Ereignissen der Seite. Es zählt die Anzahl der Linkverfolgungsaufrufe und schließt Seitenaufrufe aus.
+* **Seitenansichten im Vergleich zu[Besuche](visits.md)**: „Seitenansichten“ zählt, wie oft eine Seite angezeigt wird. „Besuche“ zählt die Anzahl der Sitzungen für Besucher. Ein Besuch besteht aus einer oder mehreren Seiten.
+* **Seitenansichten im Vergleich zu[Seitenereignisse](page-events.md)**: „Seitenansichten“ zählt die Anzahl der Seitenansicht-Tracking-Aufrufe (`t()`) und schließt Linktracking-Aufrufe (`tl()`) aus. „Seitenereignisse“ im Gegensatz dazu zählt die Anzahl der Linktracking-Aufrufe und schließt Seitenansichten aus.
