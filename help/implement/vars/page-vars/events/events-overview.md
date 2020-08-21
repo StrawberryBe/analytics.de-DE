@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -39,17 +39,17 @@ Es stehen verschiedene Funktionen zur Verfügung:
 Die `s.events`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Ereignissen enthält, die in den Treffer einbezogen werden sollen. Für diese Variable gibt es keine Byte-Begrenzung, daher wird sie nicht abgeschnitten. Zu gültigen Werten gehören:
 
 * `event1` - `event1000`: Benutzerdefinierte Ereignisse, die Sie nach Belieben einstellen können. Zeichnen Sie im [Lösungsdesigndokument](../../../prepare/solution-design.md) Ihres Unternehmens auf, wie Sie die einzelnen Ereignisse verwenden. Die Anzahl der verfügbaren Ereignisse hängt vom Analytics-Vertrag Ihres Unternehmens ab. In den meisten Unternehmen, die nicht über einen Altvertrag verfügen, stehen 1000 benutzerdefinierte Ereignisse zur Verfügung. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, wenn Sie nicht sicher sind, wie viele benutzerspezifische Ereignisse für Sie verfügbar sind.
-* `purchase`: Erhöht die Metrik [&quot;Bestellungen&quot;](/help/components/metrics/orders.md) um 1 und berechnet anhand der in der `products` Variablen festgelegten Werte [&quot;Einheiten&quot;](/help/components/metrics/units.md) und [&quot;Umsatz&quot;](/help/components/metrics/revenue.md). Weitere Informationen finden Sie unter [Kaufereignis](event-purchase.md).
-* `prodView`: Erhöht die Metrik [&quot;Ansichten](/help/components/metrics/product-views.md) des Produkts&quot;.
-* `scOpen`: Erhöht die Metrik [&quot;Einkaufswagen](/help/components/metrics/carts.md) &quot;.
-* `scAdd`: Erhöht die Metrik [&quot;Zusatz zum](/help/components/metrics/cart-additions.md) Warenkorb&quot;.
-* `scRemove`: Erhöht die Metrik [&quot;Entnahme aus Warenkorb&quot;](/help/components/metrics/cart-removals.md) .
-* `scView`: Erhöht die Metrik [&quot;Ansichten](/help/components/metrics/cart-views.md) im Warenkorb&quot;.
-* `scCheckout`: Erhöht die Metrik [&quot;Kassengänge&quot;](/help/components/metrics/checkouts.md) .
+* `purchase`: Erhöht die Metrik [Bestellungen](/help/components/metrics/orders.md) um 1 und berechnet anhand der in der `products`-Variable festgelegten Werte [Einheiten](/help/components/metrics/units.md) und [Umsatz](/help/components/metrics/revenue.md). Weitere Informationen finden Sie unter [Kaufereignis](event-purchase.md).
+* `prodView`: Erhöht die Metrik [Produktansichten](/help/components/metrics/product-views.md).
+* `scOpen`: Erhöht die Metrik [Warenkorb](/help/components/metrics/carts.md).
+* `scAdd`: Erhöht die Metrik [Zusatz zum Warenkorb](/help/components/metrics/cart-additions.md).
+* `scRemove`: Erhöht die Metrik [Entnahme aus Warenkorb](/help/components/metrics/cart-removals.md).
+* `scView`: Erhöht die Metrik [Warenkorbansicht](/help/components/metrics/cart-views.md).
+* `scCheckout`: Erhöht die Metrik [Checkouts](/help/components/metrics/checkouts.md).
 
 >[!NOTE]
 >
->Bei dieser Variablen wird zwischen Groß- und Kleinschreibung unterschieden. Vermeiden Sie die falsche Großschreibung von Ereigniswerten, um eine genaue Datenerfassung sicherzustellen.
+>Bei dieser Variable wird zwischen Groß- und Kleinschreibung unterschieden. Vermeiden Sie die falsche Großschreibung von Ereigniswerten, um eine genaue Datenerfassung sicherzustellen.
 
 ```js
 // Set the events variable to a single value
@@ -94,7 +94,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 >[!NOTE]
 >
->Wenn Sie einen Währungswert sowohl in der `events`-Variablen als auch in der `products`-Variablen festlegen, wird der Währungswert in `events` verwendet. Vermeiden Sie das Setzen von Währungswerten sowohl in der `events`- als auch in der `products`-Variablen.
+>Wenn Sie einen Währungswert sowohl in der `events`-Variable als auch in der `products`-Variable festlegen, wird der Währungswert in `events` verwendet. Vermeiden Sie das Setzen von Währungswerten sowohl in der `events`- als auch in der `products`-Variablen.
 
 ### Numerische Ereignisse verwenden
 
@@ -113,4 +113,4 @@ s.products = "Example category;Example product;1;0;event1=4.5";
 
 >[!NOTE]
 >
->Wenn Sie einen numerischen Wert sowohl in der `events`-Variablen als auch in der `products`-Variablen festlegen, wird der numerische Wert in `events` verwendet. Vermeiden Sie das Setzen von numerischen Werten sowohl in der `events`- als auch in der `products`-Variablen.
+>Wenn Sie einen numerischen Wert sowohl in der `events`-Variable als auch in der `products`-Variable festlegen, wird der numerische Wert in `events` verwendet. Vermeiden Sie das Setzen von numerischen Werten sowohl in der `events`- als auch in der `products`-Variable.
