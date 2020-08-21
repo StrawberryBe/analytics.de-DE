@@ -1,41 +1,41 @@
 ---
 title: Referrer-Typ
-description: Der Typ des Werbers, je nachdem, woher der Besucher stammt.
+description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 # Referrer-Typ
 
-Die Dimension &quot;Werber-Typ&quot;zeigt an, durch welche generischen Kanal Besucher auf Ihre Site geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), in denen Ihr Unternehmen Regeln für jeden Kanal unterhält, behält Adobe die Regeln für jedes Dimensionselement bei.
+Die Dimension „Referrer-Typ“ gibt an, durch welche generischen Kanal Besucher geklickt haben, um zu Ihrer Site zu gelangen. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf mehrere Nachschlagetabellen innerhalb von Adobe. Jeder Wert basiert auf dem [Werber](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md)abhängig ist. Vergewissern Sie sich, dass die Dimension &quot;Werber&quot;und die internen URL-Filter korrekt konfiguriert sind.
+Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
 
-## Dimensionselemente
+## Dimensionen
 
-Dimensionselemente beinhalten den Typ des Werbers des Treffers. Zu den spezifischen Werten zählen:
+Zu den Dimensionen-Elementen gehört der Typ des Werbers des Treffers. Zu den spezifischen Werten gehören die folgenden:
 
-* **Eingegeben/mit Lesezeichen versehen**: Für den Treffer liegen keine Daten zum Werber vor.
-* **Suchmaschinen**: Der Werber stammt von einer erkannten Suchmaschine, die eine Abfrage mit Suchbegriffen enthält.
-* **Soziale Netzwerke:**: Werber-Daten gehörten zu einem von Adobe anerkannten sozialen Netzwerk.
-* **Andere Websites**: Werber-Daten gehörten nicht zu einer Suchmaschine oder einem sozialen Netzwerk, das von Adobe erkannt wurde.
-* **Festplatte**: Werber stammen aus einer lokalen Kopie einer Webseite auf der Festplatte des Besuchers.
-* **E-Mail**: Werber stammen aus einer URL mit einem Protokoll von `imap://` oder `mail://`. Enthält keine Online-E-Mail-Dienste, da diese normalerweise `https://` Protokoll verwenden.
+* **Eingegeben/mit Lesezeichen versehen**: Für den Treffer liegen keine Daten zum Referrer vor.
+* **Suchmaschinen**: Der Referrer kam von einer anerkannten Suchmaschine, die eine Abfragezeichenfolge mit Suchbegriffen enthält.
+* **Soziale Netzwerke**: Die Referrer-Daten gehörten zu einem von Adobe anerkannten sozialen Netzwerk.
+* **Andere Websites**: Die Referrer-Daten gehörten nicht zu einer Suchmaschine oder einem sozialen Netzwerk, die/das von Adobe erkannt wird.
+* **Festplatte**: Der Referrer stammt von einer lokalen Kopie einer Webseite auf der Festplatte des Besuchers.
+* **E-Mail**: Der Referrer stammt aus einer URL mit einem `imap://`- oder `mail://`-Protokoll. Dies umfasst keine Online-E-Mail-Dienste, da diese normalerweise ein `https://`-Protokoll verwenden.
 
 ### Soziale Netzwerke
 
-Die folgende Liste bezieht sich auf die Nachschlagetabelle &quot;Social-Netzwerke&quot;, die von Adobe verwendet wird. Adobe stellt diese Liste für Kunden von Adobe Analytics zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domäne hinzufügt, bitten Sie einen Supportmitarbeiter in Ihrem Unternehmen, sich an den Kundendienst zu wenden.
+Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale Netzwerke“. Adobe stellt diese Liste den Kunden von Adobe Analytics zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domäne hinzufügt, bitten Sie einen Support-Mitarbeiter in Ihrem Unternehmen, sich an die Kundenunterstützung zu wenden.
 
 >[!NOTE]
 >
->Diese Liste unterscheidet sich von der standardmäßigen Liste sozialer Netzwerke in den Verarbeitungsregeln für [Marketing Kanal](../c-marketing-channels/c-rules.md).
+>Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den [Verarbeitungsregeln für Marketing-Kanäle](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
@@ -197,7 +197,7 @@ Die folgende Liste bezieht sich auf die Nachschlagetabelle &quot;Social-Netzwerk
 
 ### Suchmaschinen im Dimensionselement &quot;Sonstige Websites&quot;
 
-Wenn Sie bestimmte Domänen in der Dimension &quot;Werber-Typ&quot;Ansicht haben, können Domänen, die Sie unter &quot;Suchmaschinen&quot;erwarten würden, stattdessen unter &quot;Andere Websites&quot;aufgeführt werden. Sie können beispielsweise `'google.com'` unter &quot;Andere Websites&quot;sehen.
+Wenn Sie bestimmte Domänen in der Dimension „Referrer-Typ“ anzeigen, kann es vorkommen, dass Domänen, die Sie unter „Suchmaschinen“ erwarten würden, stattdessen unter „Andere Websites“ aufgeführt sind. Beispielsweise sehen Sie möglicherweise `'google.com'` unter „Andere Websites“.
 
-* **Suchmaschinendomänen im Dimensionselement**&quot;Suchmaschinen&quot;: Der Werber erfüllte alle Kriterien, um von Adobe als Suchmaschine zu klassifizieren. Die verweisende Domäne ist eine gültige Suchmaschine *und* die verweisende URL enthält einen Suchbegriff-Zeichenfolgenparameter.
-* **Suchmaschinendomänen im Dimensionselement**&quot;Sonstige Websites&quot;: Die verweisende URL erfüllte nicht alle Kriterien, um als Suchmaschine zu klassifizieren. Häufige Beispiele sind Subdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel `mail.google.com` oder `autos.yahoo.com` sind keine Suchmaschinen, sondern befinden sich in einer Domäne der obersten Ebene, die normalerweise mit der Suche verbunden ist. Diese Subdomänen enthalten keine Suchbegriff-Abfrage-Zeichenfolge. Daher werden sie unter &quot;Sonstige Websites&quot;und nicht unter &quot;Suchmaschinen&quot;aufgeführt.
+* **Suchmaschinendomänen im Dimensionselement**&quot;Suchmaschinen&quot;: Der Werber erfüllte alle Kriterien, um als Suchmaschine nach Adobe zu klassifizieren. Die Referrer-Domäne ist eine gültige Suchmaschine *und* die Referrer-URL enthält einen Abfragezeichenfolgenparameter für Suchbegriffe.
+* **Suchmaschinendomänen im Dimensionselement**&quot;Sonstige Websites&quot;: Die verweisende URL erfüllte nicht alle Kriterien, um als Suchmaschine zu klassifizieren. Häufige Beispiele sind Unterdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel sind `mail.google.com` und `autos.yahoo.com` keine Suchmaschinen, sondern befinden sich in einer Domäne auf oberster Ebene, die normalerweise mit der Suche verbunden ist. Diese Unterdomänen enthalten keine Abfragezeichenfolge für Suchbegriffe. Daher werden sie unter „Andere Websites“ und nicht unter „Suchmaschinen“ aufgeführt.
