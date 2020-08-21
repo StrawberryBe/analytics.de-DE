@@ -1,11 +1,11 @@
 ---
 title: visitorID
 description: Verwenden Sie eine benutzerdefinierte Besucher-ID.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -43,4 +43,4 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->Eine ungültige Implementierung von benutzerdefinierten Besucher-IDs kann zu fehlerhaften Daten und zu einer schlechten Leistung des Berichte führen. Wenn diese Variable einen Standardwert enthält (z. B. `"0"` oder `"NULL"`), behandelt Adobe diese Treffer so, als wären sie der gleiche Besucher. Dies führt zu fehlerhaften Daten, da niedrige Besucher und Segmente auf Besucher-Ebene nicht erwartungsgemäß funktionieren. Falsch implementierte benutzerdefinierte Besucher-IDs führen auch zu einer hohen Belastung der Verarbeitungsserver, was die [Latenz](/help/technotes/latency.md) erhöht und die Berichtleistung verringert.
+>Eine ungültige Implementierung von benutzerdefinierten Besucher-IDs kann zu fehlerhaften Daten und schlechter Berichtsleistung führen. Wenn diese Variable einen Standardwert enthält (z. B. `"0"` oder `"NULL"`), behandelt Adobe diese Treffer so, als wären sie derselbe Besucher. Diese Situation führt zu falschen Daten, da die Besucherzahlen niedrig sind und Segmente auf Besucherebene nicht wie erwartet funktionieren. Falsch implementierte benutzerdefinierte Besucher-IDs führen auch zu einer hohen Belastung der Verarbeitungs-Server, was die [Latenz](/help/technotes/latency.md) erhöht und die Berichtsleistung verringert.
