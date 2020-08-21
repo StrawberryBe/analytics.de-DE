@@ -1,22 +1,22 @@
 ---
 title: Trackingcode
-description: Der Name des Rückverfolgungscodes oder der Kampagne.
+description: Der Name des Trackingcodes oder der Kampagne.
 translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
 
 # Trackingcode
 
-Die Dimension &quot;Rückverfolgungscode&quot;Liste die Namen der Rückverfolgungscodes auf Ihrer Site. Diese Dimension wird in der Regel mithilfe von Abfrage-Zeichenfolgenparametern erfasst. Sie können Links mit verschiedenen Abfragen-Zeichenfolgenparametern an verschiedenen Stellen im Internet platzieren. Diese Dimension berichtet, welche Links den Traffic zu Ihrer Site am erfolgreichsten geleitet haben.
+In der Dimension „Trackingcode“ werden die Namen der Trackingcodes auf Ihrer Site aufgelistet. Diese Dimension wird in der Regel mithilfe von Abfragezeichenfolgenparametern erfasst. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension gibt an, welche Links am erfolgreichsten dazu beigetragen haben, den Traffic auf Ihre Site zu lenken.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus der [`v0` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mit der [`campaign`](/help/implement/vars/page-vars/campaign.md) Variablen.
+Diese Dimension ruft Daten aus der [`v0` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in Bildanforderungen ab. AppMeasurement erfasst diese Daten mit der [`campaign`](/help/implement/vars/page-vars/campaign.md)-Variable.
 
 ## Dimensionen
 
