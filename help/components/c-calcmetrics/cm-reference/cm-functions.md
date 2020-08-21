@@ -2,9 +2,9 @@
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 title: 'Referenz: Grundfunktionen'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
 ht-degree: 100%
 
@@ -219,7 +219,7 @@ ROUND(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Anzahl* | Die Metrik, die gerundet werden soll. |
+| *number* | Die Metrik, die gerundet werden soll. |
 
 Das Runden ohne Stellenparameter ist mit dem Runden mit dem Stellenparameter 0 identisch, also der Rundung zur nächsten Ganzzahl. Wenn Sie einen Stellenparameter angeben, wird die angegebene Anzahl an Stellen rechts neben dem Dezimalzeichen zurückgegeben. Wenn der Stellenparameter negativ ist, werden Nullen links neben dem Dezimalzeichen zurückgegeben.
 
@@ -256,7 +256,7 @@ SQRT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Anzahl* | Die Metrik, für die Sie die Quadratwurzel abrufen möchten. |
+| *number* | Die Metrik, für die Sie die Quadratwurzel abrufen möchten. |
 
 ## Standardabweichung (Tabelle) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
