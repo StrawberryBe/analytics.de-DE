@@ -2,9 +2,9 @@
 description: Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports & Analytics und Report Builder.
 title: Berichte zu Werbedaten in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports &amp; Anal
 
 >[!NOTE]
 >
-> Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden. Beachten Sie, dass auch Analytics-Reporting keine Daten mit stündlicher Granularität zurückgibt, da AMO-Daten keine stündliche Granularität unterstützen.
+>Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden. Beachten Sie, dass auch Analytics-Reporting keine Daten mit stündlicher Granularität zurückgibt, da AMO-Daten keine stündliche Granularität unterstützen.
 
 ## Analysis Workspace: Suchmaschinen {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, in Analytics auf umfassende Suchmaschinendaten zugreifen. Der Zugriff erfolgt über **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Advertising]** > **[!UICONTROL Suchmaschinen]**.
+Mit dieser Vorlage kann jeder, der die Suchmaschinen-Integration implementiert, in Analytics auf umfassende Suchmaschinendaten zugreifen. Der Zugriff erfolgt über **[!UICONTROL Workspace]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Advertising]** > **[!UICONTROL Suchmaschinen]**.
 
 >[!NOTE]
 >
