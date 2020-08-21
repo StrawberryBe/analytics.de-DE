@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### Link-Name
 
-Das Linknamenargument ist eine Zeichenfolge, die das Dimensionselement für die Linkverfolgung bestimmt. Dies entspricht dem Festlegen der [`linkName`](../config-vars/linkname.md)-Variablen.
+ Dies entspricht dem Festlegen der [`linkName`](../config-vars/linkname.md)-Variablen.
 
 ```js
 s.tl(true,"d","Example download link");
