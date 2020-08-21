@@ -17,7 +17,7 @@ Virtual Report Suites können so zusammengestellt werden, dass Komponenten in An
 
 >[!NOTE]
 >
->Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
+>Die Änderungen betreffen die Komponenten, die Administratoren und Benutzer ohne diese Rolle in kuratierten Workspace-Projekten und kuratierten Virtual Report Suites (VRSs) anzeigen können. Vor dieser Änderung konnten alle Benutzer nichtkuratierte Komponenten anzeigen, und zwar durch Klicken auf **[!UICONTROL Alle Komponenten anzeigen]**. Die [aktualisierte Kuratierungserfahrung](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) bietet umfassendere Möglichkeiten, festzulegen, welche Komponenten sichtbar sind.
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
@@ -64,9 +64,9 @@ Klicken Sie in Analysis Workspace auf das Informationssymbol für eine beliebige
 
 ![](assets/vrs-aw-renamed.png)
 
-## Komponentengruppen  {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Komponentengruppen {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-Mithilfe von Komponentengruppen können Sie Ihrer Virtual Report Suite stapelweise Komponenten hinzufügen. Wenn Sie beispielsweise einen Standardsatz mit spezifischen Komponenten für die mobile App-Analyse importieren möchten, wählen Sie die mobile App-Gruppe aus. Daraufhin wird der Liste „Eingeschlossen“ der Virtual Report Suite automatisch ein entsprechender Satz mit Dimensionen und Metriken (bereits umbenannt) hinzugefügt.
+Mithilfe von Komponentengruppen können Sie Ihrer Virtual Report Suite stapelweise Komponenten hinzufügen. Wenn Sie beispielsweise einen Standardsatz mit spezifischen Komponenten für die Mobile-App-Analyse importieren möchten, wählen Sie die Mobile-App-Gruppe aus. Daraufhin wird der Liste „Eingeschlossen“ der Virtual Report Suite automatisch ein entsprechender Satz mit Dimensionen und Metriken (bereits umbenannt) hinzugefügt.
 
 ![](assets/vrs-comp-grp.png)
 
