@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Konversion
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 | Trackingcode | Name des Trackingcodes. |
 | Datum | Verwenden Sie das folgende Datumsformat: MM/TT/JJJJ/HH/mm/SS (zum Beispiel 01/01/2015/06/00/00). |
 | Kategorie | Name der Kategorie.  Wenn Sie eine Kategorie angeben, müssen Sie auch ein Produkt auswählen. |
-| Channel | Kanalname. |
+| Kanal | Kanalname. |
 | eVarn | eVarn-Name. Gültige Werte für n sind Ganzzahlen zwischen 1 und 250. |
 | Produkt | Produktname. |
-| Land | Name des Landes. |
+| Bundesland | Name des Landes. |
 | Zip | Postleitzahl. |
 
 <p class="head"> <b>Konversionsmetriken</b> </p>
