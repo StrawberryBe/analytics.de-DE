@@ -1,25 +1,25 @@
 ---
 title: Einheiten
-description: Die Gesamtzahl der innerhalb aller Bestellungen gekauften Produkte.
+description: Die Gesamtanzahl der bei allen Bestellungen gekauften Produkte.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 1%
+ht-degree: 87%
 
 ---
 
 
 # Einheiten
 
-Die Metrik &quot;Einheiten&quot;zeigt die Gesamtzahl der Produkte an, die innerhalb aller Bestellungen gekauft wurden. Diese Metrik ist für eCommerce-Sites bei der Messung der Umrechnung von entscheidender Bedeutung. Sie können diese Metrik mit einer beliebigen Dimension kombinieren, um zu sehen, welche Dimensionselemente zur Anzahl der gekauften Produkte beigetragen haben. Sie könnten beispielsweise die wichtigsten Kampagnen (unter Verwendung der Dimension [Rückverfolgungscode](../dimensions/tracking-code.md) ) oder die wichtigsten internen Suchbegriffe (unter Verwendung einer [eVar](../dimensions/evar.md)) sehen, die zu den gekauften Produkten beitrugen.
+Die Metrik „Einheiten“ gibt die Gesamtanzahl der bei allen Bestellungen gekauften Produkte an. Diese Metrik ist für eCommerce-Sites bei der Konversionsmessung von entscheidender Bedeutung. Sie können diese Metrik mit einer beliebigen Dimension kombinieren, um zu sehen, welche Dimensionselemente zur Anzahl der gekauften Produkte beigetragen haben. Sie könnten beispielsweise die Top-Kampagnen (unter Verwendung der Dimension [Trackingcode](../dimensions/tracking-code.md)) oder die wichtigsten internen Suchbegriffe (unter Verwendung einer [eVar](../dimensions/evar.md)) sehen, die zu den gekauften Produkten beigetragen haben.
 
 ## Berechnung dieser Metrik
 
-Summieren Sie für jeden Treffer, bei dem die Variable `purchase` vorhanden ist, das Feld &quot;Menge&quot;innerhalb der [`events`](/help/implement/vars/page-vars/events/events-overview.md) [`products`](/help/implement/vars/page-vars/products.md) Variablen.
+Summieren Sie für jeden Treffer, bei dem `purchase` in der [`events`](/help/implement/vars/page-vars/events/events-overview.md)-Variable vorhanden ist, das Feld „Menge“ innerhalb der [`products`](/help/implement/vars/page-vars/products.md)-Variable.
 
-## Bestellungen und Einheiten vergleichen
+## Vergleich von Bestellungen und Einheiten
 
-Die [Bestellmetrik](orders.md) zeichnet nur die Anzahl der Ereignis auf. Die Metrik &quot;Einheiten&quot;ist in der Regel höher als &quot;Bestellungen&quot;, da Kunden mehr als ein Produkt erwerben können. In diesen Fällen gibt es eine einzige Bestellung mit mehreren Einheiten.
+Die Metrik [Bestellungen](orders.md) zeichnet nur die Anzahl der Kaufereignisse auf. Die Metrik „Einheiten“ ist in der Regel höher als die Metrik „Bestellungen“, da Kunden mehr als ein Produkt erwerben können. In diesen Fällen gibt es eine einzige Bestellung mit mehreren Einheiten.
 
-Wenn Sie Bestellungen haben, die größer als Einheiten sind, empfiehlt Adobe, die Integrität Ihrer Implementierung zu überprüfen. Es ist wahrscheinlich, dass Ihre `products` Variable bei Käufen nicht richtig eingestellt ist, was normalerweise unerwünschtes Verhalten ist.
+Wenn Sie mehr Bestellungen als Einheiten haben, empfiehlt Adobe, die Integrität Ihrer Implementierung zu überprüfen. Es kann sein, dass Ihre `products`-Variable bei Käufen nicht richtig eingestellt wird, was typischerweise unerwünschtes Verhalten zur Folge hat.
