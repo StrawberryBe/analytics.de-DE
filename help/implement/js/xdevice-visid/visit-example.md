@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Das folgende Beispiel veranschaulicht die geräteübergreifende Besucheridentifizierung anhand eines Beispiels von Server-Aufrufen, die in einer üblichen Kundeninteraktion gesendet werden.
 
-| Server-Aufruf | Aktion | Besucher-ID-Cookie | Besucher-ID-Variable | Effektive Besucher-ID | Anzahl besuchter Seiten | Besuchnummer |
+| Server-Aufruf | Aktion | Besucher-ID-Cookie | Besucher-ID-Variable | Effektive Besucher-ID | Anzahl besuchter Seiten | Besuchsnummer |
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Ein Besucher klickt auf einen Link in einer Marketing-E-Mail und gelangt so von seinem privaten Computer aus auf Ihre Website. Dieser Besucher hat Ihre Website zuvor bereits 7 Mal besucht. | 1 | – | 1 | 1 | 8 |
 | 2-8 | Er ruft 7 weitere Seiten auf Ihrer Website auf. | 1 | – | 1 | 2-8 | 8 |
