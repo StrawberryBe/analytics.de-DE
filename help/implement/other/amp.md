@@ -1,9 +1,9 @@
 ---
 title: Implementieren mit AMP
 description: Implementieren Sie Adobe Analytics auf AMP-Seiten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -84,9 +84,9 @@ Zudem unterstützt `amp-analytics` eine Anzahl von Variablenersetzungen, sodass 
 
 >[!NOTE]
 >
-> Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einschließen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für die Bildanforderung enthalten sind. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
+>Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einschließen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für die Bildanforderung enthalten sind. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md).
 
-Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist für jede andere von Adobe Analytics festgelegte ID eindeutig (z. B. das `s_vi`-Cookie). Der Adobe Experience Cloud-ID-Dienst wird bei dieser Implementierungsmethode nicht unterstützt.
+Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist für jede andere von Adobe Analytics festgelegte ID eindeutig (z. B. das `s_vi`-Cookie). Der Adobe Experience Cloud ID-Dienst wird bei dieser Implementierungsmethode nicht unterstützt.
 
 >[!NOTE]
 >
