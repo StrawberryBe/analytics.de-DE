@@ -5,19 +5,19 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
 
 # Einzelseitenbesuche
 
-*Auf dieser Hilfeseite wird beschrieben, wie &quot;Einzelseitenbesuche&quot;als Metrik funktioniert. Weitere Informationen finden Sie unter Dimension[Einzelseitenbesuche](../dimensions/single-page-visits.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als Metrik funktioniert. Weitere Informationen finden Sie unter der Dimension[Einzelseitenbesuche](../dimensions/single-page-visits.md).*
 
-Die Metrik &quot;Einzelseitenbesuche&quot;zeigt die Anzahl der Besuche an, bei denen das Dimensionselement [Seite](../dimensions/page.md) nur einen einzigen eindeutigen Wert für den gesamten Besuch enthielt. Diese Metrik ist hilfreich im Zusammenhang mit Dimensionen, in denen Sie kurze Besuche sehen möchten, aber keine so strengen Regeln wie [Absprünge](bounces.md)haben.
+The &#39;Single page visits&#39; metric shows the number of visits where the [Page](../dimensions/page.md) dimension item contained only a single unique value for the entire visit. Diese Metrik ist hilfreich im Zusammenhang mit Dimensionen, in denen Sie kurze Besuche sehen möchten, aber keine so strengen Regeln wie [Absprünge](bounces.md) haben.
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt die Anzahl der Besuche, bei denen das Dimensionselement &quot;Seite&quot;nur einen einzigen eindeutigen Wert für den gesamten Besuch enthielt. Wenn ein Besucher die Seite neu lädt oder Link-Verfolgungsaufrufe auslöst, zählt dies immer noch als Einzelseitenbesuch. Sobald die Dimension &quot;Seite&quot;in einen zweiten eindeutigen Wert geändert wird, qualifiziert sich der Besuch nicht mehr als Einzelseitenbesuch.
+Diese Metrik zählt die Anzahl der Besuche, bei denen das Dimensionselement &quot;Seite&quot;nur einen einzigen eindeutigen Wert für den gesamten Besuch enthielt. Wenn ein Besucher die Seite neu lädt oder Linktracking-Aufrufe auslöst, zählt dies immer noch als Einzelseitenbesuch. Sobald die Dimension „Seite“ in einen zweiten eindeutigen Wert geändert wird, gilt der Besuch nicht mehr als ein Einzelseitenbesuch.
 
-Siehe [Einzelzugriff](single-access.md) für einen Vergleich der Metriken.
+Einen Vergleich der Metriken finden Sie unter [Einzelzugriff](single-access.md).
