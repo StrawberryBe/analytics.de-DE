@@ -18,7 +18,7 @@ Für eine E-Mail-Integration möchten Sie z. B. vielleicht einen E-Mail-Partner
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 auslaufen. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
+>Die Adobe Data Connector Technologie wird Mitte bis Ende 2021 auslaufen. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Systemanforderungen**
 
@@ -115,4 +115,4 @@ s.events="purchase";
 
 >[!IMPORTANT]
 >
->In der Regel richten Berater zusätzlich zu Ihrer standardmäßigen Remarketing Segment-Datei aus der Data Connectors-Integration auch eine Data Warehouse-Anforderung als terminierten täglichen Bericht ein. Diese Data Warehouse-Anforderung enthält sowohl Data Connectors-Variablen als auch Nicht-Data Connectors-Variablen und die Anforderung kann nur auf Grundlage der spezifischen Anforderung Ihrer Organisation terminiert werden. Damit bei der Fehlerbeseitigung keine Missverständnisse auftreten, geben Sie an, ob es sich bei der fraglichen Datei um die tatsächliche Remarketing-Segment-Datei oder um eine Data Warehouse-Anforderung handelt, die Nicht-Genesis-Variablen enthält.
+>In der Regel richten Berater zusätzlich zu Ihrer standardmäßigen Remarketing-Segment-Datei aus der Data Connectors-Integration auch eine Data Warehouse-Anforderung als terminierten täglichen Bericht ein. Diese Data Warehouse-Anforderung enthält sowohl Data Connectors-Variablen als auch Nicht-Data Connectors-Variablen und die Anforderung kann nur auf Grundlage der spezifischen Anforderung Ihrer Organisation terminiert werden. Damit bei der Fehlerbeseitigung keine Missverständnisse auftreten, geben Sie an, ob es sich bei der fraglichen Datei um die tatsächliche Remarketing-Segment-Datei oder um eine Data Warehouse-Anforderung handelt, die Nicht-Genesis-Variablen enthält.
