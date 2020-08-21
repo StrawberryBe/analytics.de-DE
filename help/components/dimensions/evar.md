@@ -5,30 +5,30 @@ translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
 # eVar
 
-*Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter[eVars](/help/implement/vars/page-vars/evar.md)im Implementierungs-Benutzerhandbuch.*
+*Auf dieser Hilfeseite wird beschrieben, wie eVars als Dimension funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
 
-eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als eVars angezeigt. Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als eVars angezeigt. Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen anpassen.
 
-Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit der Adobe ab. Bis zu 250 eVars stehen zur Verfügung, wenn Ihr Vertrag mit Adobe dies unterstützt.
+Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-Bei eVars wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie denselben Wert in verschiedenen Fällen senden (z. B. `"DOG"` und `"Dog"`), gruppiert Analysis Workspace ihn in demselben Dimensionselement. Es wird der erste Wert verwendet, der am Anfang des Berichte angezeigt wird. Data warehouse zeigt den ersten Wert, der während des Anforderungszeitraums gefunden wurde.
+Bei eVars wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie denselben Wert in verschiedenen Fällen senden (z. B. `"DOG"` und `"Dog"`), gruppiert Analysis Workspace ihn in demselben Dimensionselement. Es wird der erste Wert verwendet, der am Anfang des Berichte angezeigt wird. Data Warehouse zeigt den ersten Wert, der während des Anforderungszeitraums gefunden wurde.
 
-## eVars mit Daten füllen
+## Füllen von eVars mit Daten
 
-Jedes eVar erfasst Daten aus der Zeichenfolge [`v1` - `v250` Abfrage](/help/implement/validate/query-parameters.md) in Bildanforderungen. Beispielsweise erfasst der Parameter `v1` Abfrage String Daten für eVar1, während der Parameter `v222` Abfrage String Daten für eVar222 erfasst.
+Jede eVar erfasst Daten aus der [`v1` – `v250`-Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen. Beispielsweise erfasst der Abfragezeichenfolgenparameter `v1` Daten für eVar1, während der Abfragezeichenfolgenparameter `v222` Daten für eVar222 erfasst.
 
-AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datenerfassung kompiliert, verwendet die Variablen `eVar1` - `eVar250`. Implementierungsrichtlinien finden Sie unter [eVar](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.
+AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datenerfassung kompiliert, verwendet die Variablen `eVar1` – `eVar250`. Die Implementierungsrichtlinien finden Sie unter [eVar](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zu Implementierungen.
 
 ## Dimensionen
 
-Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, legt Ihr Unternehmen fest, welche Dimensionselemente für die einzelnen eVar verwendet werden. Vergewissern Sie sich, dass Sie den Zweck der einzelnen eVar und typischen Dimensionselemente in einem [Lösungsdesigndesign-Dokument](/help/implement/prepare/solution-design.md)aufzeichnen.
+Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, legt Ihr Unternehmen fest, welche Dimensionselemente für die einzelnen eVar verwendet werden. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## Funktionsweise von eVars
 
@@ -84,14 +84,14 @@ Da Zuordnung und Gültigkeit bestimmen, welche Werte beibehalten werden, sind si
 * Standardmäßig verwendet ein eVar die letzte Zuordnung. Neue Werte überschreiben persistente Werte.
 * Standardmäßig verwendet eine eVar eine Gültigkeit des Besuchs. Sobald ein Besuch endet, werden die Werte nicht mehr von Zeile zu Zeile in der Spalte `post_evar` kopiert.
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+Sie können die Gültigkeit und Zuordnung von eVars unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen ändern.
 
 ## Wert von eVars gegenüber Props
 
-Adobe empfiehlt in den meisten Fällen die Verwendung von eVars, unterstützt durch Folgendes:
+Adobe empfiehlt in den meisten Fällen die Verwendung von eVars. Dies stützt sich auf Folgendes:
 
-* eVars sind in Berichten auf 255 Byte begrenzt. Props haben eine Beschränkung von 100 Byte.
+* eVars sind in Berichten auf 255 Byte begrenzt. Props sind auf 100 Byte begrenzt.
 * Props bleiben standardmäßig nicht über den festgelegten Treffer hinaus erhalten. eVars haben eine benutzerdefinierte Gültigkeit, mit der Sie feststellen können, wann einer eVar ein nachfolgendes Ereignis nicht mehr gutgeschrieben wird. Wenn Sie jedoch die [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md) verwenden, können sowohl Props als auch eVars ein benutzerdefiniertes Zuordnungsmodell verwenden.
 * Adobe unterstützt bis zu 250 eVars und nur 75 Props.
 
-Weitere Vergleiche zwischen Props und eVars finden Sie unter [prop](prop.md) .
+Weitere Vergleiche zwischen Props und eVars finden Sie unter [Prop](prop.md).
