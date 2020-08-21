@@ -1,23 +1,23 @@
 ---
-title: Ereignisse der Seite
-description: Die Anzahl der ausgelösten Linkverfolgungsaktionen.
-translation-type: tm+mt
+title: Seitenereignisse
+description: Die Anzahl der ausgelösten Linktracking-Aktionen.
+translation-type: ht
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Ereignisse der Seite
+# Seitenereignisse
 
-Die Metrik &quot;Ereignisse der Seite&quot;zeigt an, wie oft ein Link-Verfolgungsaufruf durchgeführt wurde. Diese Metrik ist hilfreich, wenn Sie wissen möchten, welche Seiten den interessantesten Inhalt haben. Die Messung für diese Metrik ist am nützlichsten, wenn ein Besucher eine Seitenaktion durchführen kann, ohne zu einer neuen Seite zu navigieren.
+Die Metrik „Seitenereignisse“ gibt an, wie oft ein Linktracking-Aufruf ausgeführt wurde. Diese Metrik ist hilfreich, wenn Sie wissen möchten, welche Seiten den interessantesten Inhalt haben. Die Messung für diese Metrik ist am nützlichsten, wenn ein Besucher eine Seitenaktion ausführen kann, ohne zu einer neuen Seite zu navigieren.
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt alle Link-Verfolgungsaufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) in einer Report Suite. Alle Linktypen sind enthalten (benutzerspezifische Links, Downloadlinks und Exitlinks). Es enthält keine Verfolgungsaufrufe für die Ansicht von Seiten ([`t()`](/help/implement/vars/functions/t-method.md)).
+Diese Metrik zählt alle Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) in einer Report Suite. Alle Link-Typen sind enthalten (benutzerspezifische Links, Downloadlinks und Exitlinks). Sie enthält keine Tracking-Aufrufe für Seitenansichten ([`t()`](/help/implement/vars/functions/t-method.md)).
 
-## Vergleichen mit ähnlichen Metriken
+## Vergleich mit ähnlichen Metriken
 
-* **Seiten-Ereignis oder[Seiten-Ansichten](page-views.md)**: Seitenaufrufe zählen die Anzahl der Linktracking-Ereignis (`tl()`) und schließen Seitenverfolgungsaufrufe (`t()`) aus. Die Ansichten der Seite sind umgekehrt. Es zählt die Anzahl der Seitenverfolgungsaufrufe und schließt Links aus.
+* **Seitenereignisse im Vergleich zu[Seitenansichten](page-views.md)**: „Seitenereignisse“ zählt die Anzahl der Linktracking-Tracking-Aufrufe (`tl()`) und schließen Seitenansicht-Tracking-Aufrufe (`t()`) aus. „Seitenansichten“ im Gegensatz dazu zählt die Anzahl der Seitenansicht-Tracking-Aufrufe und schließt Links aus.
