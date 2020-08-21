@@ -1,9 +1,9 @@
 ---
 title: Ereignis-Serialisierung
 description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Bei der Ereignis-Serialisierung werden Maßnahmen implementiert, um zu verhinder
 
 >[!NOTE]
 >
->Data Sources unterstützt keine Ereignis-Serialisierung oder -Deduplizierung.
+>Data Sources unterstützt keine Ereignisserialisierung oder -Deduplizierung.
 
 ## Einrichten der Ereignis-Serialisierung
 
