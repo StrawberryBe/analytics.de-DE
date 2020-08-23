@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,9 @@ Mit dem `getTimeParting`-Plug-in können Sie die Details zu dem Zeitpunkt erfass
 
 Analysis Workspace bietet ähnliche vordefinierte Dimensionen, die etwas anders formatiert sind als dieses Plug-in. Weitere Informationen finden Sie unter [Dimensionen für die Zeitunterteilung](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) im Analysebenutzerhandbuch. Für einige Unternehmen sind die vordefinierten Dimensionen von Analysis Workspace ausreichend.
 
->[WICHTIG] Version 4.0+ dieses Plug-ins unterscheidet sich deutlich von früheren Versionen. Adobe empfiehlt dringend, dieses Plug-in von Grund auf neu zu implementieren. Code, der auf das Plug-in vor Version 4.0 verweist, ist nicht mit der aktuellen Version dieses Plug-ins kompatibel.
+>[!IMPORTANT]
+>
+>Version 4.0+ dieses Plug-ins unterscheidet sich deutlich von früheren Versionen. Adobe empfiehlt dringend, dieses Plug-in von Grund auf neu zu implementieren. Code, der auf das Plug-in vor Version 4.0 verweist, ist nicht mit der aktuellen Version dieses Plug-ins kompatibel.
 
 ## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
