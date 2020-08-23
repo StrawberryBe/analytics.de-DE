@@ -2,10 +2,10 @@
 title: Durchschnittliche Klicktiefe
 description: Gibt an, bei wie vielen Seiten die Dimension im Durchschnitt vorhanden ist.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 59%
+source-wordcount: '369'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 59%
 
 Die Metrik &quot;Durchschnittliche Seitentiefe&quot;zeigt an, wie weit sich das Dimensionselement bei einem bestimmten Besuch befindet. Ihre Startseite würde z. B. in der Regel eine kleinere durchschnittliche Klicktiefe aufweisen als Ihre Kaufbestätigungsseite, die normalerweise später in einem Besuch aufgerufen wird. Diese Metrik ist hilfreich, wenn Sie verstehen möchten, wie viele Seiten eines Dimensionselements sich im Durchschnitt befinden. Mithilfe dieser Informationen können Sie bestimmte Seiten für neue Besucher optimieren, wenn die Seite im Durchschnitt eine niedrige Klicktiefe aufweist.
 
->[TIPP] Verwenden Sie diese Metrik zusammen mit einer anderen Metrik (z. B. [Besuche](visits.md)), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik selbst verwenden, erhalten Sie Dimensionselemente mit abweichenden Seitentiefen, was normalerweise nicht wertvoll ist.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Wenn Sie diese Metrik selbst verwenden, erhalten Sie Dimensionselemente mit abweichenden Seitentiefen, was normalerweise nicht wertvoll ist.
 
 ## Berechnung dieser Metrik
 
