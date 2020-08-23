@@ -3,9 +3,9 @@ description: Erste Schritte mit Ad Hoc Analysis.
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1329'
 ht-degree: 94%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 94%
 
 # Erste Schritte mit Ad Hoc Analysis {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!IWichtig]
+>[!IMPORTANT]
+>
 >Am 6. August 2018 kündigte Adobe die Absicht an, Ad Hoc Analysis einzustellen. Das Datum für das Ende des Produktlebenszyklus wird bekannt gegeben, sobald es verfügbar ist. Weitere Informationen dazu, welche Versionen von Java während dieses Zeitraums kompatibel sind, finden Sie unter [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Sie können sofortige Analysen der Aktivitäten auf Ihrer Website auf höchstem technischen Niveau durchführen. Sie können mehrere Berichte gleichzeitig anzeigen und Segmente auf mehrere Dimensionen anwenden. Sie können die Daten aus einer Mikro- oder einer Makroperspektive analysieren, um ihre Auswirkungen auf wichtige Geschäftsmetriken zu ermitteln.
