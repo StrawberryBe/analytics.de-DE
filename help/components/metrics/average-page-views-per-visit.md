@@ -2,10 +2,10 @@
 title: Durchschnittliche Seitenansichten pro Besuch
 description: Die durchschnittliche Häufigkeit, mit der ein bestimmtes Dimensionselement während eines Besuchs angezeigt wurde.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 53%
+source-wordcount: '212'
+ht-degree: 46%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 53%
 
 Die Dimension „Durchschnittliche Seitenansichten pro Besuch“ gibt an, wie viele Seitenansichten durchschnittlich in Ihrer gewünschten Dimension aufgetreten sind. Bei zeitbasierten Dimensionen können Sie sehen, wie sich die durchschnittliche Anzahl der Seitenansichten innerhalb eines Besuchs im Zeitverlauf entwickelt. Diese Metrik ist hilfreich, wenn Sie wissen möchten, wie oft Dimensionselemente bei einem Besuch angezeigt werden.
 
->[TIPP] Verwenden Sie diese Metrik zusammen mit einer anderen Metrik (z. B. [Besuche](visits.md)), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik selbst verwenden, erhalten Sie Dimensionselemente, die abweichende Ansichten pro Besuch enthalten. Dies ist in der Regel nicht wertvoll.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Wenn Sie diese Metrik selbst verwenden, erhalten Sie Dimensionselemente, die abweichende Ansichten pro Besuch enthalten. Dies ist in der Regel nicht wertvoll.
 
 ## Berechnung dieser Metrik
 
