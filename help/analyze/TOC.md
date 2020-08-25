@@ -5,10 +5,10 @@ user-guide-title: Leitfaden für Analytics-Tools
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 99%
+source-wordcount: '1102'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,6 @@ ht-degree: 99%
       + [Barrierefreiheit in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Hilfe zu Adobe Report Builder](report-builder/home.md)
-   + [Neue Funktionen in Report Builder](report-builder/whats-new-arb.md)
    + Report Builder-Einrichtung {#report-builder-setup}
       + [Systemanforderungen](report-builder/setup/system-requirements.md)
       + [Report Builder installieren](report-builder/setup/t-install-arb.md)
@@ -241,8 +240,9 @@ ht-degree: 99%
       + [Best Practices](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Fehlerbehebung für die Power BI-Integration](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-Inhaltspakete für Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Fehlerbehebung und Best Practices für Report Builder](report-builder/troubleshoot.md)
    + [Visual Basic-Makros](report-builder/vba.md)
+   + [Fehlerbehebung beim Report Builder](report-builder/troubleshoot.md)
+   + [Häufig gestellte Fragen zu Report Buildern](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Übersicht über Activity Map](activity-map/activity-map.md)
    + Erste Schritte {#getting-started}
