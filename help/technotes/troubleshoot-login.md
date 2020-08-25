@@ -2,10 +2,10 @@
 title: Fehlerbehebung bei der Anmeldung bei Adobe Analytics
 description: Schritte für den Fall, dass Sie sich nicht bei Adobe Analytics anmelden können.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Beheben Sie Probleme bei der Anmeldung bei Adobe Analytics mit dem Experience Cl
 
 ## Legacy-Analytics-ID
 
-Gelegentlich erhält ein Benutzer in Ihrem Unternehmen beim Anmelden folgende Fehlermeldung:
+Ein Benutzer in Ihrer Organisation kann die folgende Fehlermeldung erhalten, wenn er versucht, sich anzumelden:
 
 *Als Sicherheitsmaßnahme wurde dieses Konto aufgrund zu vieler fehlgeschlagener Anmeldeversuche gesperrt.*
 
@@ -53,6 +53,14 @@ Wenn das Problem durch Löschen der Cookies/des Cache des Browsers nicht behoben
 ## Single Sign-On
 
 Wenden Sie sich an einen Administrator in Ihrer Organisation, um Single Sign-On-Probleme zu lösen.
+
+## Abgelaufene Anmeldungen
+
+Ein Benutzer in Ihrer Organisation kann die folgende Fehlermeldung erhalten, wenn er versucht, sich anzumelden:
+
+*Fehler: Diese Anmeldung ist abgelaufen.*
+
+Dieser Fehler funktioniert wie beabsichtigt. Adobe Analytics bietet Administratoren die Möglichkeit, einen Datumsbereich festzulegen, in dem ein Benutzerkonto gültig ist. Wenn das aktuelle Datum außerhalb des gültigen Datumsbereichs für das Konto liegt, können sie sich nicht anmelden. Wenden Sie sich an einen Analytics-Administrator in Ihrer Organisation, um den gültigen Datumsbereich der Anmeldung zu erweitern. Adobe Die Kundenunterstützung ist nicht berechtigt, gültige Anmeldedatumsbereiche für Benutzerkonten zu ändern.
 
 ## Andere Anmeldeprobleme
 
