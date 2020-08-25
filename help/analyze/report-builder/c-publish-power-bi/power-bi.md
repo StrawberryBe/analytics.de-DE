@@ -2,10 +2,10 @@
 description: 'null'
 title: In Power BI veröffentlichen – Übersicht
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Als Analytiker mussten Sie zuvor eine Verteilung von Report Builder-Arbeitsmappe
 Durch Kombination der Berichterstellungsfunktion von Report Builder mit den Visualisierungsfunktionen von Power BI sind Informationen für alle Mitglieder Ihres Unternehmens leichter zugänglich. Mithilfe von Power BI können Sie Adobe Analytics auch mit anderen Datenquellen verbinden (z. B. Verkaufsstellendaten, CRM), um einzigartige Erkenntnisse über Kunden, Zusammenhänge und Opportunities abzuleiten.
 
 ![](assets/aaplusbi.png)
-
-Die Integration mit Adobe Report Builder ermöglicht Ihnen Folgendes
-
-* [Terminierte Report Builder-Arbeitsmappen in Power BI veröffentlichen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Alle formatierten Tabellen in der Arbeitsmappe als Power BI-Datensatztabellen veröffentlichen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Alle Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Systemanforderungen {#section_0B71092D853446F38FA36447DAC0D32B}
 
