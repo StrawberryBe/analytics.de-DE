@@ -2,9 +2,9 @@
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Segmente | Möglichkeit, leistungsstarke, zielgerichtete Zielgruppensegmente in Ihre Analyseberichte einzuschließen, sie zu verwalten, freizugeben und anzuwenden. Segmente werden über Analytics-Produkte hinweg freigegeben und können auch in der Experience Cloud geteilt werden. | [Segmentierung](/help/components/segmentation/seg-home.md) |
 | Zeit (Datumsbereiche) | Möglichkeit, das Datum nach einem beliebigen Zeitraum zu filtern und benutzerdefinierte Datumsbereiche zu erstellen, die in Ihrer Analyse wiederverwendet werden können. | [Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualisierungen | Umfangreiche Visualisierungen, die dazu beitragen können, Daten in Ihren Projekten zum Leben zu erwecken. | [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Kuratierung | Möglichkeit, die in einem Projekt oder in einer Virtual Report Suite verfügbaren Komponenten zu beschränken. | [VRS-Kuratierung](/help/components/vrs/vrs-components.md) <br> [Projektkuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [Vergleich](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| Kuratierung | Möglichkeit, die in einem Projekt oder in einer Virtual Report Suite verfügbaren Komponenten zu beschränken. | [VRS-Kuratierung](/help/components/vrs/vrs-components.md) <br> [Projektkuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Wichtige Berichte
 
