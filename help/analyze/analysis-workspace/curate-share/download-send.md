@@ -3,7 +3,7 @@ description: Sie können Daten von Analysis Workspace herunterladen, indem Sie s
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: d432fd5386c89b3db82d39b0c21603d96bcf13b9
+source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 7%
@@ -55,7 +55,7 @@ Mit der Rechtsklick-Option Daten als CSV **** herunterladen können Sie eine Dat
 
 ## Download items as CSV {#download-items}
 
-Wenn Sie mehr als die 400 Zeilen mit Daten in einer Tabelle analysieren möchten, klicken Sie mit der rechten Maustaste auf die Tabellenkopfzeile oder eine beliebige Zeile und wählen Sie Elemente als CSV **herunterladen (Dimension)**. Diese Option exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension (basierend auf der Tabellensortierung), wobei Filter und Segmente angewendet werden. Wenn Sie diese Option oben in der Tabelle auswählen, wird die erste Dimension in der Tabelle exportiert. Obwohl in der Freiform-Tabelle keine Beschränkungen erzwungen werden, wird empfohlen, die Option &quot;Elemente herunterladen&quot;in Tabellen mit weniger als 20 Spalten zu verwenden, um eine optimale Leistung sicherzustellen.
+Wenn Sie mehr als die 400 Zeilen mit Daten in einer Tabelle analysieren möchten, klicken Sie mit der rechten Maustaste auf die Tabellenkopfzeile oder eine beliebige Zeile und wählen Sie Elemente als CSV **herunterladen (Dimension)**. Diese Option exportiert bis zu 50.000 Dimensionselemente (basierend auf der Tabellensortierung) für die ausgewählte Dimension, wobei Filter und Segmente angewendet werden. Wenn Sie diese Option oben in der Tabelle auswählen, wird die erste Dimension in der Tabelle exportiert. Obwohl in der Freiform-Tabelle keine Beschränkungen erzwungen werden, wird empfohlen, die Option &quot;Elemente herunterladen&quot;in Tabellen mit weniger als 20 Spalten zu verwenden, um eine optimale Leistung sicherzustellen.
 
 >[!TIP]
 >
