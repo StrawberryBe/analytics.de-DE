@@ -1,16 +1,16 @@
 ---
-title: Bedienfeld "Gleichzeitige Viewer"
-description: Verwenden und Interpretieren des Bedienfelds "Gleichzeitige Viewer"in Analysis Workspace.
+title: Medienkonforme Viewer-Bedienfeld
+description: Verwenden und Interpretieren des Media Concurrent Viewers-Bedienfelds in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# Bedienfeld &quot;Gleichzeitige Viewer&quot;
+# Medienkonforme Viewer-Bedienfeld
 
 >[!IMPORTANT]
 >
