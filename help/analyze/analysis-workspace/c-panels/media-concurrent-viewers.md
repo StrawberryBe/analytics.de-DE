@@ -2,10 +2,10 @@
 title: Medienkonforme Viewer-Bedienfeld
 description: Verwenden und Interpretieren des Media Concurrent Viewers-Bedienfelds in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Diese Funktion wird für Media Analytics-Kunden schrittweise eingeführt.
+>Diese Funktion ist in Limited Testing für Medienanalysekunden verfügbar. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html)
 
 Media Analytics-Kunden können gleichzeitige Viewer analysieren, um zu verstehen, wo es zu einer Spitzenzeitäquivalenz kam oder wo es zu Dropdown-Listen kam, um wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Viewern zu erhalten und um bei der Fehlerbehebung oder Planung für Volumen oder Skalierung zu helfen.
 
