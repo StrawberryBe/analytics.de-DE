@@ -1,18 +1,18 @@
 ---
-title: Im Adobe Experience Cloud verwendete IPs und Domänen
+title: Von Adobe Analytics verwendete IPs und Domänen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von der Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 14%
+source-wordcount: '421'
+ht-degree: 16%
 
 ---
 
 
-# Im Adobe Experience Cloud verwendete IPs und Domänen
+# Von Adobe Analytics verwendete IPs und Domänen
 
-Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Datenerfassungsservern der Adobe oder von Servern stammen, die für den Zugriff auf Daten zuständig sind. Die folgende Liste von IP-Adressblöcken umfasst die derzeit bekannten Adressen in der Adobe Experience Cloud. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens zu ändern, um den Zugriff zu ermöglichen und Daten aus Ihrem Unternehmen zu senden.
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Datenerfassungsservern der Adobe oder von Servern stammen, die für den Zugriff auf Daten zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens zu ändern, um den Zugriff zu ermöglichen und Daten aus Ihrem Unternehmen zu senden.
 
 >[!IMPORTANT]
 >
@@ -33,98 +33,87 @@ Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkter
 | Microsoft Azurblase-Datenspeicherung | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Agar CDN | `aauicdnva7.azureedge.net` |
 
-## Alle IP-Adressblöcke der Adobe
+## Alle IP-Adressblöcke von Adobe Analytics
 
-Die folgende Tabelle enthält alle öffentlichen IP-Adressen der Adobe Experience Cloud, die sich im Besitz der Adobe befinden. Zu diesen Bereichen gehören Standarddatenerfassungsserver und regionale Datenerfassungsserver für Adobe Analytics. Sie enthalten keine einzelnen AWS-Hosts.
+Die folgende Tabelle enthält alle Standarddatenerfassungsserver und regionalen Datenerfassungsserver für Adobe Analytics. Sie enthalten keine einzelnen AWS-Hosts.
 
-Viele Dienste und Funktionen der Adobe nutzen IP-Blöcke und -Bereiche, einige verfügen jedoch über einen eigenen dedizierten Raum. Blöcke, die nur eine Lösung verwenden, sind als solche angegeben.
-
-| IP-Block (CIDR-Notation) | Hinweise |
-| --- | --- |
-| `62.210.161.0/24` | Spezifisches Adobe Campaign |
-| `63.140.32.0/19` |  |
-| `66.117.16.0/20` |  |
-| `66.235.128.0/19` |  |
-| `67.226.212.0/23` | Spezifisch für Adobe Advertising Cloud |
-| `103.202.219.0/24` | Spezifisch für Adobe Advertising Cloud |
-| `130.248.0.0/16` |  |
-| `172.82.192.0/18` |  |
-| `185.34.188.0/22` |  |
-| `185.148.48.0/24` | Spezifisch für Adobe Advertising Cloud |
-| `192.243.224.0/19` |  |
-| `198.98.22.0/23` | Spezifisch für Adobe Advertising Cloud |
-| `205.219.231.0/24` |  |
-| `208.67.40.0/22` |  |
-| `208.77.136.0/22` |  |
-| `208.91.168.0/21` | Spezifisch für Adobe Advertising Cloud |
+| IP-Block (CIDR-Notation) |
+| --- |
+| `63.140.32.0/19` |
+| `66.117.16.0/20` |
+| `66.235.128.0/19` |
+| `130.248.0.0/16` |
+| `172.82.192.0/18` |
+| `185.34.188.0/22` |
+| `192.243.224.0/19` |
+| `205.219.231.0/24` |
+| `208.67.40.0/22` |
+| `208.77.136.0/22` |
 
 ## Datenerfassungs- und FTP-IP-Adressblöcke
 
 Wenn Ihr Unternehmen bestimmte IP-Adressbereiche bevorzugt, können Sie die folgende Tabelle verwenden. Alle Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
-| Standort | IP-Bereich (CIDR-Notation) | Hinweise |
-| --- | --- | --- |
-| Amsterdam | `66.117.28.0/23` |  |
-| Dallas | `205.219.231.0/24` |  |
-| Dallas | `66.235.152.0/22` |  |
-| Dallas | `66.235.140.0/22` |  |
-| Dallas | `63.140.32.0/21` |  |
-| Dallas | `172.82.208.0/22` |  |
-| Hongkong SAR China | `66.117.24.0/22` |  |
-| London | `66.235.156.0/24` |  |
-| London | `66.235.148.0/23` |  |
-| London | `66.117.16.0/23` | Spezifisches Adobe Campaign |
-| London | `63.140.40.0/22` |  |
-| London | `208.67.41.0/24` |  |
-| London | `192.243.254.0/23` |  |
-| London | `192.243.244.0/22` |  |
-| London | `185.34.188.0/23` |  |
-| London | `130.248.152.0/21` |  |
-| London | `172.82.224.0/21` |  |
-| London | `172.82.232.0/21` |  |
-| Oregon | `192.243.240.0/22` |  |
-| Oregon | `192.243.232.0/21` |  |
-| Oregon | `192.243.224.0/21` |  |
-| Oregon | `130.248.160.0/21` |  |
-| Oregon | `130.248.148.0/22` |  |
-| Oregon | `172.82.192.0/21` |  |
-| Oregon | `172.82.216.0/21` |  |
-| Paris | `62.210.161.0/24` | Spezifisches Adobe Campaign |
-| Paris | `66.117.18.0/23` | Spezifisches Adobe Campaign |
-| Paris | `208.67.40.0/24` |  |
-| Singapur | `66.235.150.0/24` |  |
-| Singapur | `66.235.130.0/23` |  |
-| Singapur | `63.140.44.0/22` |  |
-| Singapur | `208.67.43.0/24` |  |
-| Singapur | `172.82.240.0/22` |  |
-| Singapur | `172.82.246.0/23` |  |
-| Singapur | `172.82.248.0/21` |  |
-| San Jose | `66.117.20.0/24` |  |
-| San Jose | `66.235.132.0/22` |  |
-| San Jose | `130.248.128.0/22` |  |
-| San Jose | `192.243.248.0/23` |  |
-| San Jose | `172.82.200.0/22` |  |
-| San Jose | `66.235.136.0/22` |  |
-| San Jose | `208.91.175.0/24` |  |
-| San Jose | `208.91.174.0/24` |  |
-| San Jose | `208.91.169.0/24` |  |
-| Sydney | `216.104.216.0/23` |  |
-| Tokio | `66.235.159.0/24` |  |
-| Tokio | `66.117.21.0/24` |  |
-| Tokio | `63.140.52.0/24` |  |
-| Tokio | `63.140.50.0/23` |  |
-| Virginia | `66.235.144.0/22` |  |
-| Virginia | `208.77.138.0/23` |  |
-| Virginia | `208.77.136.0/23` |  |
-| Virginia | `192.243.250.0/23` |  |
-| Virginia | `130.248.144.0/22` |  |
-| Virginia | `172.82.204.0/22` |  |
-| Virginia | `172.82.212.0/22` |  |
-| Virginia | Siehe AWS-Hosts |  |
+| Standort | IP-Bereich (CIDR-Notation) |
+| --- | --- |
+| Amsterdam | `66.117.28.0/23` |
+| Dallas | `205.219.231.0/24` |
+| Dallas | `66.235.152.0/22` |
+| Dallas | `66.235.140.0/22` |
+| Dallas | `63.140.32.0/21` |
+| Dallas | `172.82.208.0/22` |
+| Hongkong SAR China | `66.117.24.0/22` |
+| London | `66.235.156.0/24` |
+| London | `66.235.148.0/23` |
+| London | `63.140.40.0/22` |
+| London | `208.67.41.0/24` |
+| London | `192.243.254.0/23` |
+| London | `192.243.244.0/22` |
+| London | `185.34.188.0/23` |
+| London | `130.248.152.0/21` |
+| London | `172.82.224.0/21` |
+| London | `172.82.232.0/21` |
+| Oregon | `192.243.240.0/22` |
+| Oregon | `192.243.232.0/21` |
+| Oregon | `192.243.224.0/21` |
+| Oregon | `130.248.160.0/21` |
+| Oregon | `130.248.148.0/22` |
+| Oregon | `172.82.192.0/21` |
+| Oregon | `172.82.216.0/21` |
+| Paris | `208.67.40.0/24` |
+| Singapur | `66.235.150.0/24` |
+| Singapur | `66.235.130.0/23` |
+| Singapur | `63.140.44.0/22` |
+| Singapur | `208.67.43.0/24` |
+| Singapur | `172.82.240.0/22` |
+| Singapur | `172.82.246.0/23` |
+| Singapur | `172.82.248.0/21` |
+| San Jose | `66.117.20.0/24` |
+| San Jose | `66.235.132.0/22` |
+| San Jose | `130.248.128.0/22` |
+| San Jose | `192.243.248.0/23` |
+| San Jose | `172.82.200.0/22` |
+| San Jose | `66.235.136.0/22` |
+| San Jose | `208.91.175.0/24` |
+| San Jose | `208.91.174.0/24` |
+| San Jose | `208.91.169.0/24` |
+| Sydney | `216.104.216.0/23` |
+| Tokio | `66.235.159.0/24` |
+| Tokio | `66.117.21.0/24` |
+| Tokio | `63.140.52.0/24` |
+| Tokio | `63.140.50.0/23` |
+| Virginia | `66.235.144.0/22` |
+| Virginia | `208.77.138.0/23` |
+| Virginia | `208.77.136.0/23` |
+| Virginia | `192.243.250.0/23` |
+| Virginia | `130.248.144.0/22` |
+| Virginia | `172.82.204.0/22` |
+| Virginia | `172.82.212.0/22` |
+| Virginia | Siehe AWS-Hosts |
 
 ## AWS-Hosts
 
-Einige Funktionen der Adobe verwenden Amazon Web Services zur Datenerfassung. Die folgende Tabelle enthält AWS-Hosts, die für die Adobe reserviert sind. Diese Hosts werden **nicht** im obigen Aggregat-Blockbereich enthalten.
+Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für die Adobe reserviert sind. Diese Hosts werden **nicht** im obigen Aggregat-Blockbereich enthalten.
 
 | Standort | Host |
 | --- | --- |
