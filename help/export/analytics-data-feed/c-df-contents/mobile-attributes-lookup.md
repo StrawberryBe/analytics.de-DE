@@ -2,10 +2,10 @@
 title: Suche nach mobilen Attributen
 description: Suchdatei für mobile Attribute.
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Mobile Attribute zeigen Eigenschaften des mobilen Geräts im Treffer an. Diese Datei wird angezeigt, wenn:
 
-* Dynamische Suchen sind aktiviert. Ein Supportbeauftragter in Ihrem Unternehmen kann sich mit der gewünschten Feed-ID an die Kundenunterstützung wenden, um dynamische Suchen zu aktivieren.
-* Die `mobile_id` Spalte wird einbezogen.
-* Die `user_agent` Spalte ist ausgeschlossen. Dieser Ausschluss ist aufgrund von Lizenzvereinbarungen mit DeviceAtlas erforderlich.
+* Dynamische Suchen sind aktiviert. Ein Support-Beauftragter in Ihrem Unternehmen kann sich mit der gewünschten Feed-ID an die Kundenunterstützung wenden, um dynamische Suchen zu aktivieren.
+* Die Spalte `mobile_id` ist enthalten.
+* Die Spalte `user_agent` ist ausgeschlossen. Dieser Ausschluss ist aufgrund von Lizenzvereinbarungen mit DeviceAtlas erforderlich.
 
-Laden Sie `mobile_attributes_headers.tsv`die Liste hier herunter oder verweisen Sie darauf:
+Laden Sie [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv) herunter oder verweisen Sie auf die Liste hier:
 
 * `mobile_id`
 * `Manufacturer`
