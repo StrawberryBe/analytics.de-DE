@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Für Verarbeitungsregeln verfügbare Dimensionen
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Website-Name </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis: Eine Seitenansicht wird bei allen Hits gezählt, bei denen der Seitenname nicht leer ist. Wenn ein Link verfolgt wird, entfernt der Datenerfassungsserver den Seitennamen von dem Treffer, so dass Seitenansichten nicht gezählt werden. Wenn Sie mithilfe der Verarbeitungsregeln wieder einen Seitennamen in diese Aufrufe einfügen, wird eine Seitenansicht gezählt. Wir empfehlen eine Prüfung, um sicherzustellen, dass der Seitenname bereits eingestellt wurde, bevor Sie den Seitennamen ändern. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis:  Linktracking-Aufrufe entfernen die <code>pageName</code> Variable, bevor sie Verarbeitungsregeln erreichen. Wenn Sie einen Seitennamenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als Ansicht der Seite und nicht als Linkverfolgungsaufruf betrachtet. Adobe empfiehlt eine Überprüfung, um sicherzustellen, dass der Seitenname bereits festgelegt ist, bevor Sie ihn ändern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>„Seiten-URL“ </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. </td> 
+   <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. <p>Hinweis:  Linktracking-Aufrufe entfernen die <code>pageURL</code> Variable, bevor sie Verarbeitungsregeln erreichen. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als Ansicht der Seite und nicht als Linkverfolgungsaufruf betrachtet. Adobe empfiehlt eine Überprüfung, um sicherzustellen, dass die Seiten-URL bereits festgelegt ist, bevor Sie sie ändern. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abfragezeichenfolgenparameter </p> </td> 
