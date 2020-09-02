@@ -3,7 +3,7 @@ description: Verwenden Sie die Linienvisualisierung zur Darstellung von (zeitbas
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Unter &quot; **[!UICONTROL Visualisierungseinstellungen]** &quot;> &quot; **[!UI
 Alle Modelle passen mit den üblichen Minimalquadraten:
 
 | Modell | Beschreibung |
-|---|---|
+| --- | --- |
 | Linear | Erstellt eine am besten geeignete gerade Linie für einfache lineare Datensätze und ist nützlich, wenn die Daten mit einer konstanten Rate erhöht oder verringert werden. Gleichung: `y = a + b * x` |
 | Logarithmisch | Erstellt eine am besten passende gekrümmte Linie und ist nützlich, wenn die Änderungsrate in den Daten schnell zunimmt oder abnimmt und dann ausgeglichen wird. Eine logarithmische Trendlinie kann negative und positive Werte verwenden. Gleichung: `y = a + b * log(x)` |
 | Exponentiell | Erzeugt eine Kurven-Linie und ist nützlich, wenn die Daten in ständig steigenden Raten ansteigen oder fallen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten null oder negative Werte enthalten. Gleichung: `y = a + e^(b * x)` |
