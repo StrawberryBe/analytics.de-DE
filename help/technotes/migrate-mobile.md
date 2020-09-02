@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie Verarbeitungsregeln für Mobile Services auf Adobe Analytics migrieren.
 title: Migrieren von Verarbeitungsregeln für Mobile Services auf Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '680'
 ht-degree: 18%
 
 ---
@@ -47,6 +47,10 @@ Zusätzlich zu den Metriken und Dimensionen für Mobilgeräte (sofern die Report
 * Leistung: Welche Leistung erzielt die Anwendung und wo haben Benutzer Probleme?
 * Bindungsgrad: Wer sind meine treuen Benutzer und was tun sie?
 * Journeys: Welche markanten Verwendungsmuster weist meine App auf?
+
+Im Folgenden finden Sie einen Ausschnitt der Vorlage zur Verwendung mobiler Apps:
+
+![Mobile App-Nutzung](assets/mobile-app-usage.png)
 
 So greifen Sie auf die Vorlagen zu:
 
