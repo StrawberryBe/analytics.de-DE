@@ -1,11 +1,11 @@
 ---
 title: referrer
 description: Überschreiben Sie den automatisch erfassten Referrer für einen Treffer.
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,15 @@ Die `s.referrer`-Variable ist eine Zeichenfolge, die die URL der vorherigen Seit
 s.referrer = "https://example.com";
 ```
 
-Vermeiden Sie es, diese Variable auf Nicht-URL-Werte festzulegen.
+Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>Vermeiden Sie es, diese Variable auf Nicht-URL-Werte festzulegen.
 
 ## Beispiel
 
