@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie Verarbeitungsregeln für Mobile Services auf Adobe Analytics migrieren.
 title: Migrieren von Verarbeitungsregeln für Mobile Services auf Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 18%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 18%
 Mit dem bevorstehenden (noch unangekündigten) Auslauf der Adobe Mobile Services-Funktionalität erhalten Sie in diesem Dokument Anweisungen zur Migration zusätzlicher Verarbeitungsregeln - über Lebenszyklusmetriken hinaus -, die Sie in der Mobile Services-Benutzeroberfläche nach Adobe Analytics erstellt haben.
 
 Verarbeitungsregeln werden verwendet, um Werte von Kontextdatenvariablen in props und eVars zu verschieben. Sie können beispielsweise den Wert einer Kontextdatenvariablen für &quot;Suchbegriff&quot;in den Wert einer Commerce-Variablen-eVar setzen und diesen Wert bei jedem Treffer überschreiben. Ohne Verarbeitungsregeln sind Kontextdatenvariablen bedeutungslos und füllen keine Berichte in Analytics aus.
+
+In diesem Dokument wird auch der Berichte zur Mobilnutzung in Analysis Workspace behandelt und die Durchführbarkeit einer Migration anderer Mobile Services-Funktionen erörtert.
 
 ## Verarbeitungsregeln migrieren
 
