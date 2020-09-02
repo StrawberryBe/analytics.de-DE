@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c206095b8024db0e31586abdf9639fba3401ce3f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ Attributionsmodelle stehen außerhalb der Virtual Report Suites zur Verfügung. 
 
 Das Attributionsbedienfeld unterstützt alle Dimensionen. Nicht unterstützte Metriken:
 
+* Alle berechneten Metriken
 * Unique Visitors
 * Besuche
 * Vorfälle
@@ -48,7 +49,7 @@ Das Attributionsbedienfeld unterstützt alle Dimensionen. Nicht unterstützte Me
 * Besuchszeitmetriken
 * Absprünge
 * Absprungrate
-* Einträge
+* Einstiege
 * Ausstiege
 * Seiten nicht gefunden
 * Suchvorgänge

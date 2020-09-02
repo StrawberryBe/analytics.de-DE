@@ -1,8 +1,11 @@
 ---
 title: channel
 description: Füllen Sie die Dimension „Website-Bereiche“.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
@@ -30,4 +33,10 @@ Die `s.channel`-Variable ist eine Zeichenfolge, die normalerweise den Website-Be
 
 ```js
 s.channel = "Example site section";
+```
+
+Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+
+```js
+s.channel = digitalData.page.category.primaryCategory;
 ```

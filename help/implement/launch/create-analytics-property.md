@@ -2,10 +2,10 @@
 title: Analytics-Eigenschaft in Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 98%
+ht-degree: 84%
 
 ---
 
@@ -23,13 +23,13 @@ Adobe Experience Platform Launch ist das Tool, mit dem Sie Experience Cloud-Lös
 Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verwenden. Mit Erweiterungen können Sie produktspezifische Tags installieren und konfigurieren.
 
 1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
-1. Klicken Sie auf „Neue Eigenschaft“.
-1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domäne ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf „Speichern“.
+1. Click **[!UICONTROL New Property]**.
+1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domäne ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf die neu erstellte Eigenschaft, um deren Einstellungen einzugeben.
-1. Klicken Sie auf die Registerkarte „Erweiterungen“ und dann auf „Katalog“.
-1. Suchen Sie nach „Identitätsdienst“ und klicken Sie dann auf „Installieren“.
-1. Alle Einstellungen, einschließlich Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf „Speichern“.
-1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf Installieren.
+1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
+1. Locate Identity Service, then click **[!UICONTROL Install]**.
+1. Alle Einstellungen, einschließlich Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
 
 ## Datenelemente für Adobe Analytics erstellen
 
@@ -37,7 +37,7 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
 
 1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
-1. Klicken Sie auf die Registerkarte „Datenelemente“ und dann auf „Neues Datenelement erstellen“.
+1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
 1. Legen Sie für das Datenelement die folgenden Einstellungen fest:
 
    * Name: Seitenname
@@ -50,7 +50,7 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
       >Dies ist ein Beispielwert für den Einstieg. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
    * Markierter Text
    * Dauer: Seitenansicht
-1. Klicken Sie auf „Speichern“.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Regeln für Adobe Analytics erstellen
 
@@ -58,26 +58,26 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 
 1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
-1. Klicken Sie auf „Neue Regel erstellen“ und benennen Sie sie `Global Rule`.
-1. Klicken Sie neben „Ereignisse“ auf „Hinzufügen“ und geben Sie die folgenden Einstellungen ein:
+1. Click **[!UICONTROL Create New Rule]** and name it `Global Rule`.
+1. Click **[!UICONTROL Add]** next to events, and enter the following settings:
    * Erweiterung: Core
    * Ereignistyp: Bibliothek geladen (Seitenanfang)
    * Name: Core - Bibliothek geladen (Seitenanfang)
    * Bestellung: 50
-1. Klicken Sie auf „Änderungen beibehalten“.
-1. Klicken Sie unter „Aktionen“ auf „Hinzufügen“ und geben Sie die folgenden Einstellungen ein:
+1. Klicken Sie auf **[!UICONTROL Änderungen beibehalten]**.
+1. Under **[!UICONTROL Actions]**, click **[!UICONTROL Add]**, and enter the following settings:
    * Erweiterung: Adobe Analytics
    * Aktionstyp: Variablen festlegen
    * Seitenname: Klicken Sie auf das Container-Symbol und wählen Sie das `Page Name`-Datenelement aus
    * Kampagne: Abfrageparameter mit dem Wert `cid`
-1. Klicken Sie auf „Änderungen beibehalten“.
+1. Klicken Sie auf **[!UICONTROL Änderungen beibehalten]**.
 1. Klicken Sie auf das Pluszeichen neben „Aktionen“, um eine weitere Aktion hinzuzufügen, und geben Sie die folgenden Einstellungen ein:
    * Erweiterung: Adobe Analytics
    * Aktionstyp: Beacon senden
    * Name: Adobe Analytics - Beacon senden
    * Tracking: s.t()
-1. Klicken Sie auf „Änderungen beibehalten“.
-1. Vergewissern Sie sich, dass das Ereignis und zwei Aktionen festgelegt sind, und klicken Sie auf Speichern.
+1. Klicken Sie auf **[!UICONTROL Änderungen beibehalten]**.
+1. Verify that you have the event and two actions set, then click **[!UICONTROL Save]**.
 
 ## Dokumentation und zusätzliche Ressourcen
 

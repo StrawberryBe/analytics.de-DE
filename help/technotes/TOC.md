@@ -5,10 +5,10 @@ user-guide-title: Technische Hinweise zu Analytics
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 91%
+source-wordcount: '162'
+ht-degree: 83%
 
 ---
 
@@ -41,11 +41,13 @@ ht-degree: 91%
 + [Browsercookies](cookies.md)
 + [Datenaufbewahrung](data-retention.md)
 + [Daten ausschließen](exclude-data.md)
++ [Von Adobe Analytics verwendete IPs und Domänen](ip-addresses.md)
 + [Latenz](latency.md)
 + [Geringer Traffic-Wert](low-traffic.md)
++ [Migrieren von Verarbeitungsregeln für Mobile Services auf Adobe Analytics](migrate-mobile.md)
++ [Unterstützung mehrerer Währungen](multicurrency.md)
 + [Datenschutzübersicht](privacy-overview.md)
 + [Umleitungen und Aliase](redirects.md)
-+ [Unterstützung mehrerer Währungen](multicurrency.md)
 + Regionale Datenerfassung {#rdc}
    + [Hilfe zur regionalen Datenerfassung](rdc/regional-data-collection.md)
    + [SSL-Zertifizierungslizenzierung](rdc/ssl-cert-licensing.md)

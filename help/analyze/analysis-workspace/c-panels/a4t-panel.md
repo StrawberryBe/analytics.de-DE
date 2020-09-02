@@ -2,7 +2,7 @@
 description: Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld „Analytics for Target“ (A4T)
 translation-type: tm+mt
-source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
+source-git-commit: 3d9bfabba6752f85173814c0e18d485122f7aa76
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 87%
@@ -44,11 +44,11 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 | Normalisierungsmetriken | Unique Visitors, Besuche oder Aktivitäts-Impressions |
 | Erfolgsmetrik | Die im Builder ausgewählte Metrik |
 | Konversionsrate | Erfolgsmetrik/Normalisierungsmetrik |
-| Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis.<br>**Hinweis:**Steigerung ist eine &quot;gesperrte Metrik&quot; für Erlebnisse in der Zielgruppe. Es kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
+| Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis.<br>**Hinweis:** Steigerung ist eine &quot;gesperrte Metrik&quot; für Erlebnisse in der Zielgruppe. Es kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
 | Steigerung (Mindestwert) | Stellt den schlechtesten Aufstieg dar, den ein Variantenerlebnis im Vergleich zum Kontrollerlebnis aufweisen könnte. |
 | Steigerung (mittlerer Wert) | Stellt den mittleren Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. Dies ist „Steigerung“ in Reports &amp; Analytics. |
 | Steigerung (Maximalwert) | Stellt den besten Aufstieg dar, den ein Variantenerlebnis im Vergleich zum Kontrollerlebnis aufweisen könnte. |
-| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. <br>**Hinweis:**Konfidenz ist eine &quot;gesperrte Metrik&quot; für Erlebnisse in der Zielgruppe. Es kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
+| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. <br>**Hinweis:** Konfidenz ist eine &quot;gesperrte Metrik&quot; für Erlebnisse in der Zielgruppe. Es kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
 
 Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen.
 

@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: Der Name der Seite auf Ihrer Website.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 81%
 
 ---
 
 
 # pageName
 
-Die `pageName`-Variable speichert normalerweise den Namen einer bestimmten Seite. Es ist hilfreich, zu bestimmen, welche einzelnen Seiten am beliebtesten sind. Diese Variable füllt die Dimension „Seitenname“.
+Die `pageName`-Variable speichert normalerweise den Namen einer bestimmten Seite. Es ist hilfreich, zu bestimmen, welche einzelnen Seiten am beliebtesten sind. This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+
+Wenn diese Variable bei einem gegebenen Seiten-Tracking-Aufruf nicht definiert ist, wird stattdessen die [`pageURL`](pageurl.md)-Variable verwendet.
 
 >[!NOTE]
 >
->Diese Dimension wird immer aus Linktracking-Aufrufen entfernt. Wenn Sie den Seitennamen sehen möchten, auf dem ein Link verfolgt wurde, sollten Sie diese Variable in eine eVar kopieren.
-
-Wenn diese Variable bei einem gegebenen Seiten-Tracking-Aufruf nicht definiert ist, wird stattdessen die [`pageURL`](pageurl.md)-Variable verwendet.
+>Datenerfassungsserver der Adobe entfernen diese Dimension aus allen Bildanforderungen zur [Linktracking](/help/implement/vars/functions/tl-method.md) . Wenn diese Dimension bei Linktracking-Treffern angezeigt werden soll, kopieren Sie diese Dimension in eine [eVar](evar.md).
 
 ## Seitenname in Adobe Experience Platform Launch
 
@@ -43,4 +43,10 @@ s.pageName = "Example page name";
 
 // Set page name to the page's title
 s.pageName = window.document.title;
+```
+
+Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+
+```js
+s.pageName = digitalData.page.pageInfo.pageName;
 ```

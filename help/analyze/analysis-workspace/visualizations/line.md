@@ -3,9 +3,9 @@ description: Verwenden Sie die Linienvisualisierung zur Darstellung von (zeitbas
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 3ace7c4fc42e578b621433860ae3f0dba6be06fd
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '400'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ In den [Visualisierungseinstellungen](freeform-analysis-visualizations.md) könn
 
 ## Min. oder Max. anzeigen
 
-Unter &quot; **[!UICONTROL Visualisierungseinstellungen]** &quot;> &quot; **[!UICONTROL Überlagerungen]** &quot;> &quot;min/max **** anzeigen&quot;können Sie eine Mindest- und Höchstwertebeschriftung überlagern, um die Spitzen und Täler in einer Metrik schnell hervorzuheben.
+Unter &quot; **[!UICONTROL Visualisierungseinstellungen]** &quot;> &quot; **[!UICONTROL Überlagerungen]** &quot;> &quot;min/max **** anzeigen&quot;können Sie eine Mindest- und Höchstwertebeschriftung überlagern, um die Spitzen und Täler in einer Metrik schnell hervorzuheben. Hinweis: Die Min/Max-Werte werden aus den sichtbaren Datenpunkten in der Visualisierung abgeleitet, nicht aus dem vollständigen Satz von Werten innerhalb einer Dimension.
 
 ![Min./Max. anzeigen](assets/min-max-labels.png)
 
@@ -48,9 +48,9 @@ Unter &quot; **[!UICONTROL Visualisierungseinstellungen]** &quot;> &quot; **[!UI
 Alle Modelle passen mit den üblichen Minimalquadraten:
 
 | Modell | Beschreibung |
-|---|---|
+| --- | --- |
 | Linear | Erstellt eine am besten geeignete gerade Linie für einfache lineare Datensätze und ist nützlich, wenn die Daten mit einer konstanten Rate erhöht oder verringert werden. Gleichung: `y = a + b * x` |
 | Logarithmisch | Erstellt eine am besten passende gekrümmte Linie und ist nützlich, wenn die Änderungsrate in den Daten schnell zunimmt oder abnimmt und dann ausgeglichen wird. Eine logarithmische Trendlinie kann negative und positive Werte verwenden. Gleichung: `y = a + b * log(x)` |
 | Exponentiell | Erzeugt eine Kurven-Linie und ist nützlich, wenn die Daten in ständig steigenden Raten ansteigen oder fallen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten null oder negative Werte enthalten. Gleichung: `y = a + e^(b * x)` |
-| Strom | Erstellt eine Kurvenlinie und ist nützlich für Datensätze, die Messungen vergleichen, die mit einer bestimmten Rate zunehmen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten null oder negative Werte enthalten. Gleichung: `y = a * x^b` |
+| Leistung | Erstellt eine Kurvenlinie und ist nützlich für Datensätze, die Messungen vergleichen, die mit einer bestimmten Rate zunehmen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten null oder negative Werte enthalten. Gleichung: `y = a * x^b` |
 | Quadratisch | Findet die beste Passform für einen Datensatz, der wie eine Parabola geformt ist (konkav nach oben oder unten). Gleichung: `y = a + b * x + c * x^2` |

@@ -1,11 +1,11 @@
 ---
 title: pageURL
 description: Überschreiben Sie die automatisch erfasste Seiten-URL auf Ihrer Website.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,7 @@ AppMeasurement erfasst automatisch die Seiten-URL bei jedem Treffer. Wenn Sie di
 
 >[!NOTE]
 >
->Diese Variable ist keine verfügbare Dimension in Analysis Workspace. Sie ist nur in Data Warehouse und Data Feeds verfügbar. Wenn Sie die Seiten-URL als Dimension in Analysis Workspace verwenden möchten, sollten Sie die `pageURL`-Variable bei jedem Treffer an eine eVar übergeben.
-
-Manchmal sind URLs länger als 255 Byte. AppMeasurement verwendet den Abfragezeichenfolgenparameter `g` für die ersten 255 Byte der URL in Bildanforderungen. Wenn eine URL länger als 255 Byte ist, wird der Rest der URL im Abfragezeichenfolgenparameter `-g` gespeichert. Protokoll- und Abfragezeichenfolgen in der URL sind in dieser Variablen enthalten.
+>Diese Variable ist keine verfügbare Dimension in Analysis Workspace. Sie ist nur in Data Warehouse und Data Feeds verfügbar. Darüber hinaus entfernen die Datenerfassungsserver der Adobe diese Dimension aus allen Bildanforderungen zur [Linktracking](/help/implement/vars/functions/tl-method.md) . Wenn Sie die Seiten-URL als Dimension in Analysis Workspace verwenden möchten oder diese Dimension bei Linktracking-Treffern verwenden möchten, sollten Sie die `pageURL` Variable bei jedem Treffer in eine [eVar](evar.md) übergeben.
 
 ## Seiten-URL in Adobe Experience Platform Launch
 
@@ -26,10 +24,10 @@ Launch füllt die Seiten-URL automatisch. Sie können die Seiten-URL-Überschrei
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [launch.adobe.com](https://launch.adobe.com) an.
 2. Klicken Sie auf die gewünschte Eigenschaft.
-3. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und setzen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen].
-6. Suchen Sie den Abschnitt [!UICONTROL Seiten-URL].
+3. Gehen Sie zur Registerkarte **[!UICONTROL Regeln]** und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
+4. Klicken Sie unter **[!UICONTROL Aktionen]** auf eine bestehende Aktion **[!UICONTROL Adobe Analytics – Variablen festlegen]** oder klicken Sie auf das Pluszeichen.
+5. Wählen Sie im Dropdown-Menü **[!UICONTROL Erweiterung]** die Option „Adobe Analytics“ aus und setzen Sie den **[!UICONTROL Aktionstyp]** auf **[!UICONTROL Variablen festlegen]**.
+6. Suchen Sie den Abschnitt **[!UICONTROL Seiten-URL]**.
 
 Sie können die Seiten-URL auf einen beliebigen Zeichenfolgenwert einstellen.
 
@@ -46,4 +44,10 @@ Wenn Sie die Seiten-URL als Dimension in Berichten verwenden möchten, sollten S
 ```js
 // Set eVar1 to page URL without protocol or query strings
 s.eVar1 = window.location.hostname + window.location.pathname;
+```
+
+Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+
+```js
+s.pageURL = digitalData.page.pageInfo.destinationURL;
 ```
