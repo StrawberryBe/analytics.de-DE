@@ -1,10 +1,10 @@
 ---
 title: Werbekonto einrichten
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth-Token </p> </td> 
-      <td colname="col2"> <p>Hinweis: Bei OAuth handelt es sich um einen offenen Zugriffsstandard, der häufig eingesetzt wird, um Websites oder Anwendungen Zugang zu Informationen auf anderen Websites zu bieten, ohne hierzu Passwörter preiszugeben. </p> <p>Hinweis: Hierbei werden Sie an eine Drittanbieter-URL (efrontier.com) umgeleitet. Adobe nutzt efrontier, um den OAuth-Authentifizierungsprozess für alle drei Suchmaschinen zu verarbeiten. </p> <p>Hinweis: Wenn Sie Internet Explorer 11 (oder niedriger) verwenden, können Sie für keine der drei Suchmaschinen das OAuth-Token abrufen. Verwenden Sie stattdessen einen anderen Webbrowser. </p> <p>Wenn Sie auf <span class="uicontrol">Token abrufen</span> klicken, wird der OAuth2-Authentifizierungsprozess gestartet. Sie werden daraufhin aufgefordert, sich mit Ihren Anmeldedaten bei Ihrem Google- oder Bing-Suchkonto anzumelden. Je nach ausgewählter Suchmaschine unterscheidet sich der Prozess leicht: </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: Geben Sie die Google-Konto-ID an. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geben Sie die Bing-Konto-ID und die Bing-Kunden-ID an. </li> 
-        </ul> <p>Weitere Informationen finden Sie unter <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Finden Sie Ihre Konto-ID</a>. </p> <p>Sobald Sie sich erfolgreich angemeldet haben, wird im OAuth-Token-Feld 
-        <systemoutput>
-          „Abgerufen“ angezeigt
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Hinweis: Bei OAuth handelt es sich um einen offenen Zugriffsstandard, der häufig eingesetzt wird, um Websites oder Anwendungen Zugang zu Informationen auf anderen Websites zu bieten, ohne hierzu Passwörter preiszugeben. </p> <p>Hinweis: Hierbei werden Sie an eine Drittanbieter-URL (efrontier.com) umgeleitet. Adobe nutzt efrontier, um den OAuth-Authentifizierungsprozess für alle drei Suchmaschinen zu verarbeiten. </p> <p>Hinweis: Wenn Sie Internet Explorer 11 (oder niedriger) verwenden, können Sie für keine der drei Suchmaschinen das OAuth-Token abrufen. Verwenden Sie stattdessen einen anderen Webbrowser. </p> <p>Wenn Sie auf <span class="uicontrol">Token abrufen</span> klicken, wird der OAuth2-Authentifizierungsprozess gestartet. Sie werden daraufhin aufgefordert, sich mit Ihren Anmeldedaten bei Ihrem Google- oder Bing-Suchkonto anzumelden. Je nach ausgewählter Suchmaschine unterscheidet sich der Prozess leicht: </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: Geben Sie die Google-Konto-ID an. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: Geben Sie die Bing-Konto-ID und die Bing-Kunden-ID an. </li> 
+       </ul> <p>Weitere Informationen finden Sie unter <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Finden Sie Ihre Konto-ID</a>. </p> <p>Sobald Sie sich erfolgreich angemeldet haben, wird im OAuth-Token-Feld <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
