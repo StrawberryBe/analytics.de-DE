@@ -4,7 +4,10 @@ title: Activity Map-Berichterstellung
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -13,16 +16,16 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Administrative Schritte für die Aktivierung der Activity Map-Berichterstellung in Analytics
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map-Berichterstellung]**
 
 Hierdurch kann Analytics von Activity Map (früher ClickMap) bereitgestellte Benutzeraktivitäten sammeln. Durch diese Integration ist
 
 * die Berichterstellung in Analytics möglich.
-* Fügt neue Berichte hinzu unter **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
+* Fügt neue Berichte hinzu unter **[!UICONTROL Alle Berichte anzeigen]** > **[!UICONTROL Activity Map:]**
 
    | Bericht | Beschreibung |
    |---|---|
-   | Activity Map -Seite | Listet die Seiten auf, auf denen auf einen Link geklickt wurde |
+   | Activity Map-Seite | Listet die Seiten auf, auf denen auf einen Link geklickt wurde |
    | Activity Map-Region | Listet alle erfassten Linkregionen auf der gesamten Website auf. Beachten Sie, dass die Metrik über alle Seiten hinweg erfasst wird, wenn eine Region auf mehreren Seiten angezeigt wird. |
    | Activity Map-Links | Listet alle erfassten Links auf der gesamten Website auf. |
    | Activity Map-Links und -Region | Listet alle gesammelten Links mit ihrer Region innerhalb der gesamten Website auf. |
