@@ -2,8 +2,11 @@
 description: 'null'
 title: Berichterstellung für Adobe Campaign
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign
 
 * können Sie Ihre KPI (Key Performance Indicator)-Daten aus Adobe Campaign Standard in Adobe Analytics freigeben.
 * werden Verfolgungsformeln mit Adobe Analytics-Parametern erweitert.
-* wird ein neuer Bericht unter **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]** hinzugefügt
+* wird unter **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Adobe Campaign]** ein neuer Bericht hinzugefügt.
 * werden 5 neue Adobe Campaign-Klassifizierungen hinzugefügt.
 * werden 10 neue Adobe Campaign-Metriken hinzugefügt.
 * werden 6 neue Adobe Campaign-Dimensionen hinzugefügt.
@@ -26,14 +29,14 @@ Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign
 
 Wenn Sie Campaign-Daten in Analytics anzeigen möchten, müssen Sie zunächst Campaign-Berichte aktivieren.
 
-1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
-1. Klicken Sie auf **[!UICONTROL Enable Campaign Reporting]**.
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Berichterstellung für Adobe Campaign]** .
+1. Klicken Sie auf **[!UICONTROL Berichterstellung für Campaign aktivieren]**.
 
    ![](assets/enable-campaign.png)
 
 ## Schritt 2. Anzeigen von Adobe Campaign-Berichten {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
-Durch die Integration zwischen Adobe Campaign Standard und Adobe Analytics wird der folgende Bericht unter **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** hinzugefügt.
+Durch die Integration zwischen Adobe Campaign Standard und Adobe Analytics wird die folgende Berichtsnummer unter **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** hinzugefügt.
 
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
@@ -52,7 +55,7 @@ Durch die Integration zwischen Adobe Campaign Standard und Adobe Analytics wird 
 
 ## Schritt 3. Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
 Nach der Aktivierung der Report Suite für Adobe Campaign sind die folgenden Klassifizierungen verfügbar:
 
@@ -84,6 +87,6 @@ Die folgenden **Dimensionen** sind in Campaign der Adobe Analytics Report Suites
 | Kampagnen-ID | ID aller Kampagnen, für die während der Dauer KPIs gesendet wurden. |
 | Kampagnenbezeichnung | Bezeichnungen der Kampagnen-IDs |
 | Bereitstellungs-ID | ID aller Bereitstellungen, für die während der Dauer KPIs gesendet wurden. Beinhaltet zudem die IDs von Master-Bereitstellungen für periodische Bereitstellungen und Transaktionsbereitstellungen. Beispiel: Eine periodische Bereitstellung DM1 wurde geplant und DM2, DM3, DM4 und DM5 waren untergeordnete Bereitstellungen der periodischen Bereitstellung.  Die Bereitstellungs-ID zeigt Ergebnisse für alle Bereitstellungen von DM1 bis DM5 an. |
-| Bereitstellungsbezeichnung | Bezeichnungen der Bereitstellungs-IDs |
+| Versandtitel | Bezeichnungen der Bereitstellungs-IDs |
 | ID der ausgeführten Bereitstellung | IDs von nur ausgeführten Bereitstellungen. Keine ID einer periodischen/transaktionsbezogenen Master-Bereitstellung. Beispiel: Eine periodische Bereitstellung DM1 wurde geplant und DM2, DM3, DM4 und DM5 waren untergeordnete Bereitstellungen der periodischen Bereitstellung. Die ausgeführte Bereitstellungs-ID zeigt Ergebnisse für alle Bereitstellungen von DM2 bis DM5 an – dies sind die tatsächlich ausgeführten Bereitstellungen. |
 | Bezeichnung der ausgeführten Bereitstellung | Bezeichnungen der ausgeführten Bereitstellungs-IDs |
