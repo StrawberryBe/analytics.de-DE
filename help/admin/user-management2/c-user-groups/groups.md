@@ -5,7 +5,10 @@ title: Benutzergruppeneinstellungen
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL Neue Benutzergruppe hinzufügen]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -57,7 +60,6 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
   <tr> 
    <td colname="col1"> <p><b>Zugriff auf Berichte</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Traffic-Berichte</b>: Erlaubt den Zugriff auf alle Berichte, die auf dem Traffic basieren, wie Seitenansichten, Besuche und Unique Visitors. </li> 
@@ -76,7 +78,7 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (aktiviert den Zugriff auf Berichte, die aus Daten aus Adobe Social generiert wurden) </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors </b>(erlaubt Benutzern das Erstellen, Aktualisieren oder Löschen von Data Connectors) </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
