@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Kopf- und Fußzeilencode hinzufügen
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Mithilfe des Dynamic Tag Managements werden Staging- und Produktions-Einbettungs
 
    ![](assets/dtm-embed.png)
 
-   Platzieren Sie den Code so nah wie möglich am [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">]-Tag platziert haben. Dieser Codeabschnitt sollte auf jeder Seite Ihrer Live-Produktions-Website platziert werden.
+   Platzieren Sie den Code so nah wie möglich am `<head>` -Tag platziert haben. Dieser Codeabschnitt sollte auf jeder Seite Ihrer Live-Produktions-Website platziert werden.
 
    >[!NOTE]
    >
