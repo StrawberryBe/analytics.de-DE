@@ -3,10 +3,10 @@ description: Sie können Daten von Analysis Workspace herunterladen, indem Sie s
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
+source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 7%
+source-wordcount: '1013'
+ht-degree: 8%
 
 ---
 
@@ -36,7 +36,7 @@ Beachten Sie beim Herunterladen von Projekten Folgendes:
 
 Mit der Option &quot;In Zwischenablage **[!UICONTROL kopieren]** &quot;können Sie Daten schnell aus Workspace kopieren und an einer anderen Stelle einfügen.
 
-* Wenn die angezeigte Tabelle kopiert werden soll, klicken Sie mit der rechten Maustaste auf die Kopfzeile der Tabelle und wählen Sie &quot;Angezeigte Daten in Zwischenablage **kopieren&quot;**.
+* Wenn die angezeigte Tabelle kopiert werden soll, klicken Sie mit der rechten Maustaste auf die Tabellenkopfzeile und wählen Sie &quot;Daten in Zwischenablage **kopieren&quot;**.
 * Wenn Sie möchten, dass eine Teilmenge der Daten kopiert wird, wählen Sie die Tabelle aus und klicken Sie dann mit der rechten Maustaste auf > Auswahl in die Zwischenablage **kopieren**.
 
 Darüber hinaus wird Ihre Auswahl mit dem Hotkey in die Zwischenablage `Ctrl+C` kopiert. Nach dem Kopieren können Sie in ein anderes Werkzeug gehen und die Informationen (oder Treffer) einfügen `Ctrl+V`.
@@ -47,13 +47,12 @@ Darüber hinaus wird Ihre Auswahl mit dem Hotkey in die Zwischenablage `Ctrl+C` 
 
 Mit der Rechtsklick-Option Daten als CSV **** herunterladen können Sie eine Datentabelle oder die Datenquelle einer beliebigen Visualisierung als CSV herunterladen.
 
-* Klicken Sie in der Kopfzeile einer Tabelle mit der rechten Maustaste auf Angezeigte Daten als CSV **[!UICONTROL herunterladen]**. Dadurch werden die in der Tabelle angezeigten Daten als CSV heruntergeladen.
+* Klicken Sie in der Kopfzeile einer Tabelle oder Visualisierung mit der rechten Maustaste auf Daten als CSV **[!UICONTROL herunterladen]**. Dadurch werden die in der Tabelle angezeigten Daten oder die zugrunde liegende Datenquelle für eine Visualisierung als CSV heruntergeladen. Hinweis: Diese Option wird von der Imagemap-Visualisierung nicht unterstützt.
 * Wenn eine Auswahl in der Tabelle vorgenommen wird, wird als Option &quot; **[!UICONTROL Herunterladen&quot;als CSV]** ausgewählt. Mit dieser Option wird nur die Auswahl heruntergeladen, nicht die vollständige, angezeigte Tabelle.
-* Klicken Sie in der Kopfzeile einer beliebigen Visualisierung mit der rechten Maustaste auf Daten als CSV **[!UICONTROL herunterladen]**. Dadurch wird die Datenquellentabelle für eine Visualisierung als CSV heruntergeladen. Hinweis: Diese Option wird von der Imagemap-Visualisierung nicht unterstützt.
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## Objekte als CSV herunterladen.{#download-items}
 
 Wenn Sie mehr als die 400 Zeilen mit Daten in einer Tabelle analysieren möchten, klicken Sie mit der rechten Maustaste auf die Tabellenkopfzeile oder eine beliebige Zeile und wählen Sie Elemente als CSV **herunterladen (Dimension)**. Diese Option exportiert bis zu 50.000 Dimensionselemente (basierend auf der Tabellensortierung) für die ausgewählte Dimension, wobei Filter und Segmente angewendet werden. Wenn Sie diese Option oben in der Tabelle auswählen, wird die erste Dimension in der Tabelle exportiert. Obwohl in der Freiform-Tabelle keine Beschränkungen erzwungen werden, wird empfohlen, die Option &quot;Elemente herunterladen&quot;in Tabellen mit weniger als 20 Spalten zu verwenden, um eine optimale Leistung sicherzustellen.
 
