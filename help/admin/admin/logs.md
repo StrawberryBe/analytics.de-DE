@@ -4,7 +4,10 @@ title: Protokolle
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 97%
 
 ---
 
@@ -29,9 +32,50 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Anmelden | Filtern Sie das Protokoll nach dem Benutzernamen. |
 | IP | Filtern Sie das Protokoll nach der IP-Adresse. |
 | Report Suite | Filtern Sie das Protokoll nach einer bestimmten Report Suite-ID. |
-| Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie einen Ereignistyp aus der Dropdownliste aus. |
+| Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie einen Ereignistyp aus der Dropdownliste aus. Siehe die vollständige Liste der unten stehenden Ereignistypen. |
 | Ereignis- | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
 | Bericht herunterladen | Exportiert den Inhalt des [!UICONTROL Nutzungs- und Zugriffsprotokolls] in eine durch Tabulatoren getrennte Datei. |
+
+### Ereignistypen
+
+| Ereignistyp | Beschreibung |
+| --- |--- |
+| Keine Kategorie |  |
+| Anmeldung fehlgeschlagen |  |
+| Anmeldung erfolgreich |  |
+| Admin-Aktion |  |
+| Änderung in der Sicherheitseinstellung |  |
+| Angezeigter Bericht |  |
+| Heruntergeladener Bericht |  |
+| Warnhinweis gesendet |  |
+| Benutzeraktion |  |
+| Angezeigte Tools |  |
+| Omniture-Aktion |  |
+| Kennwortwiederherstellung |  |
+| BookMarks |  |
+| Dashboards |  |
+| Warnhinweise |  |
+| Kalenderereignisse |  |
+| Zielgruppen |  |
+| Berichtseinstellungen |  |
+| Terminierte Berichte |  |
+| Nach IP ausschließen |  |
+| Seiten benennen |  |
+| Klassifizierungen |  |
+| Data Sources |  |
+| Workspace-Projekt |  |
+| Segment |  |
+| Berechnete Metrik |  |
+| Datumsbereich |  |
+| Virtual Report Suite |  |
+| Beitragsanalyse |  |
+| Anfrage für Excel-Datenblock |  |
+| Fehler bei Log-in in Excel |  |
+| Erfolgreiches Log-in in Excel |  |
+| Fehler bei mobilem Log-in |  |
+| Erfolgreiches mobiles Log-in |  |
+| API-Methode |  |
+
 
 ## Report Suite-Änderungsprotokoll {#section_3864966639414BBEA871F4D0352F56B6}
 
