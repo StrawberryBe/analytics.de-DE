@@ -2,10 +2,10 @@
 title: Medienkonforme Viewer-Bedienfeld
 description: Verwenden und Interpretieren des Media Concurrent Viewers-Bedienfelds in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 9%
 
 ---
 
@@ -77,6 +77,7 @@ Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Zur Ansicht der Da
 | Kann ich die Anomalieerkennung ausführen? | Nein.  Die Anomalieerkennung ist für dieses Bedienfeld nicht verfügbar. |
 | Warum sollten Sie eindeutige Besucher anstelle von aktiven Sitzungen verwenden? | Die Verwendung individueller Besucher ermöglicht das Entfernen unerwünschter Spitzen an den Grenzen der Show (wobei die Sitzungen gleichzeitig enden und beginnen). |
 | Was bedeutet es, gleichzeitige Viewer mit höherer Granularität als Minute zu haben? | Bei einer Granularität von mehr als einer Minute stellen gleichzeitige Viewer die Summe der eindeutigen gleichzeitigen Viewer für alle Minuten innerhalb dieses Zeitraums dar.  Beispielsweise ist die Granularität gleichzeitiger Viewer auf Stundenebene die Summe der eindeutigen gleichzeitigen Viewer für alle Minuten innerhalb der Stunde. |
-| Was ist, wenn ich mehr als einen Tag auf der Minutenebene der Granularität sehen möchte? | Wenn Sie bis zu 1 Monat lang auf Daten mit Granularität auf Minutenebene zugreifen möchten, können Sie die Analytics Berichte-API (2.0 oder 1.4) verwenden. Weitere Informationen zu Analytics-APIs finden Sie im Benutzerhandbuch für [Analytics-API-Berichte](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md). |
+| Was ist, wenn ich mehr als einen Tag auf der Minutenebene der Granularität sehen möchte? | Um auf Daten mit Granularität auf Minutenebene für bis zu 1 Monat gleichzeitig zuzugreifen, können Sie die Analytics 2.0-APIs verwenden. Weitere Informationen finden Sie unter [Analytics 2.0-APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
+| Zeigt der Arbeitsbereich dieselben Informationen wie der Bericht &quot;Gleichzeitige Viewer&quot;an? | Nein.  In Analysis Workspace ist &quot;Gleichzeitige Viewer&quot;definiert als die Anzahl der individuellen Besucher, die Ihren Medienstream zu einem bestimmten Zeitpunkt anzeigen, unabhängig von der Anzahl der Sitzungen.<br></br>Dies unterscheidet sich vom Berichte &quot;Gleichzeitiger Viewer&quot;im Bereich &quot;Berichte&quot;, der &quot;Gleichzeitige aktive Sitzungen&quot;verwendet.  Durch die Verwendung eindeutiger Besucher können unerwünschte Spitzen an den Grenzen der Anzeige entfernt werden, wobei die Sitzungen gleichzeitig enden und beginnen. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
