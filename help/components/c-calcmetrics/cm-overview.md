@@ -3,10 +3,10 @@ description: Berechnete und erweiterte berechnete (abgeleitete) Metriken sind be
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '783'
+translation-type: tm+mt
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,6 @@ ht-degree: 100%
 # Berechnete und erweiterte berechnete (abgeleitete) Metriken
 
 Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
-
->[!IMPORTANT]
->
->Im Juli 2018 hat Adobe die Funktion [Attribution IQ](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/attribution/models.html) eingeführt, mit der die Bewertung von Zuordnungsmodellen bei berechneten Metriken geändert wurde. Im Rahmen dieser Änderung wurden berechnete Metriken, die ein nicht standardmäßiges Zuordnungsmodell verwenden, zu neuen, verbesserten Zuordnungsmodellen migriert:
->
->* Die Zuordnungsmodelle „Marketing-Kanal – Letztkontakt“ und „Marketing-Kanal – Erstkontakt“ wurden in das neue „Letztkontakt“- bzw. in das „Erstkontakt“-Attributionsmodell migriert. (Hinweis: Marketing-Kanäle sind nicht veraltet, sondern lediglich die beiden Zuordnungsmodelle, die in berechneten Metriken erscheinen.)
->* Darüber hinaus wurde die Methode zur Berechnung der linearen Zuordnung korrigiert. Wenn Kunden berechnete Metriken mit linearen Zuordnungsmodellen verwenden, können sich die Berichte geringfügig ändern, um das neue, korrigierte Attributionsmodell widerzuspiegeln. Diese Änderung an den berechneten Metriken betrifft [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], die Reporting-API, Report Builder und Ad Hoc Analysis. Weitere Informationen finden Sie unter [Wie die lineare Zuordnung ab 19. Juli 2018 funktioniert](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
-
 
 Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
 
