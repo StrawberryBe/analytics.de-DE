@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
 
 ## Voraussetzungen {#prereqs}
 
-Gegebenenfalls müssen Sie sich für Support zu den Voraussetzungen an die Kundenunterstützung wenden:
-
-* Aktivieren Sie in den allgemeinen Kontoeinstellungen der Admin Console die Option **[!UICONTROL Konversionsstufe]** (E-Commerce) für die Report Suite.
-
-   Weitere Informationen finden Sie unter [Allgemeine Kontoeinstellungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/general-acct-settings-admin.html) in der Hilfe zu Analytics.
-
 * Richten Sie den Zugriff auf die Marketing-Kanal-Dimensionen ein.
 
    Siehe [Berechtigungen für Marketing-Kanäle](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Stellen Sie sicher, dass Ihr Kundenbetreuer die **[!UICONTROL Kanalberichte]** für Ihre Report Suite aktiviert hat.
 
 ## Hinzufügen von Marketingkanälen {#add-mktg-channels}
 
