@@ -3,10 +3,10 @@ title: Versionshinweise für AppMeasurement für JavaScript
 description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 100%
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,12 @@ Gesammelte Versionshinweise für [!DNL AppMeasurement] für JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Sie können die neueste Version von AppMeasurement im [Code-Manager](/help/admin/admin/code-manager-admin.md) herunterladen.
+
+## Version 2.22.0
+
+Releasedatum: **4. August 2020**
+
+* Korrektur des Fehlers beim Werber, wenn der erste Treffer aufgrund der Abmeldeeinstellungen des Benutzers nicht gesendet wurde.
 
 ## Version 2.21.0
 
