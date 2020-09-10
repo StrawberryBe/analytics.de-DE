@@ -3,7 +3,7 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -515,7 +515,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Änderungen in Bezug auf „Keine“/„Nicht angegeben“ </p> </td> 
-   <td colname="col2"> <p>Die Funktionsweise von "Keine/Nicht angegeben"in Analysis Workspace wurde geändert, sodass sie mit Reports &amp; Analytics, dem Segmentaufbau und dem Menü für Dimensionselemente in Analysis Workspace konsistent ist. </p> <p>Das bedeutet, dass der Wert in den meisten Projekten in Analysis Workspace als „Nicht angegeben“ anstelle von „Keine“ angezeigt wird. </p> </td> 
+   <td colname="col2"> <p>Die Funktionsweise von "Keine/Nicht angegeben"in Analysis Workspace wurde geändert, sodass sie mit Reports &amp; Analysen, dem Segmentaufbau und dem Menü für Dimensionselemente in Analysis Workspace konsistent ist. </p> <p>Das bedeutet, dass der Wert in den meisten Projekten in Analysis Workspace als „Nicht angegeben“ anstelle von „Keine“ angezeigt wird. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ Am 20. Juli 2017 veröffentlichte neue Funktionen.
    <td colname="col2"> <p>Wenn Sie sich bisher mit Ihren Experience Cloud-Anmeldeinformationen angemeldet und zu Analytics navigiert haben, konnten Sie die Funktion <span class="ignoretag"> <span class="uicontrol"> Freigabe</span> &gt; <span class="uicontrol">Projektverknüpfung abrufen </span> </span> nicht nutzen. Das Problem wurde behoben. Sie müssen das Projekt immer noch speichern, bevor Sie auf diese Option klicken können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >Filter für abgelaufene Projekte im Manager für geplante Projekte</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >Filter für abgelaufene Projekte im Manager für geplante Projekte</a></b> </p> </td> 
    <td colname="col2"> <p>Sie können abgelaufene Projekte jetzt im Manager für geplante Projekte filtern. Dann können Sie entscheiden, ob Sie diese Projekte neu starten oder löschen möchten. </p> </td> 
   </tr> 
  </tbody> 
