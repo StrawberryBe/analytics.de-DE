@@ -3,9 +3,9 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7821'
 ht-degree: 98%
 
 ---
@@ -27,14 +27,14 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Attribution IQ: algorithmische Attribution | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Informationen ...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Dies erhöht in der Regel die Attributionsgenauigkeit für Ereignisse, die frühzeitig im Berichtszeitraum auftreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten aufgetreten sind. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Schreibgeschützte Workspace-Projekte | Workspace-Projekte können Benutzern schreibgeschützt freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Attribution IQ: algorithmische Attribution | Das algorithmische Zuordnungsmodell in Analysis Workspace verwendet statistische Verfahren, um für die ausgewählte Metrik die optimale Zuordnung dynamisch zu bestimmen. Verfügbar für Kunden von Adobe Analytics Ultimate. [Weitere Infos...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Dies erhöht in der Regel die Attributionsgenauigkeit für Ereignisse, die frühzeitig im Berichtszeitraum auftreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten aufgetreten sind. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Infos...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Schreibgeschützte Workspace-Projekte | Workspace-Projekte können Benutzern schreibgeschützt freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Arbeitsablauf, der für Sie am besten geeignet ist, einfacher auswählen können. |
-| Quick Insight-Bedienfeld (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Bedienfeld „Analytics for Target“ in Workspace (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Quick Insight-Bedienfeld (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Infos...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Bedienfeld „Analytics for Target“ in Workspace (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Infos...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Seite Info zu Workspace | Auf der Seite Info zu Workspace finden Sie Informationen zu Ihrer Analysis Workspace-Umgebung, zu Ihren Adobe Analytics-Administratoren (falls Sie Support benötigen) und eine Möglichkeit, produktinternes Feedback zu geben. Diese Seite finden Sie unter Workspace > Hilfe > Info zu Workspace. |
 
 ## Mai 2020
@@ -44,7 +44,7 @@ Am 21. Mai 2020 veröffentlichte neue Funktionen.
 | Funktion | Beschreibung |
 |--- |--- |
 | Freiformtabellen können in einem leeren Projekt automatisch erstellt werden. | Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiformtabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiformtabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren Freiformtabelle abgelegt werden. |
-| Verbesserungen bei der Barrierefreiheit | Das Adobe Analytics-Team hat verschiedene Verbesserungen an der Barrierefreiheit in Analysis Workspace vorgenommen, darunter verbesserte Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| Verbesserungen bei der Barrierefreiheit | Das Adobe Analytics-Team hat verschiedene Verbesserungen an der Barrierefreiheit in Analysis Workspace vorgenommen, darunter verbesserte Tastaturnavigation, Farbkontrast und Unterstützung für Bildschirmlesehilfen. [Weitere Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## April 2020
 
@@ -60,8 +60,8 @@ Am 12. März 2020 veröffentlichte neue Funktionen.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein gemeinsames Projekt bringen und sie nebeneinander darstellen. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| Schulungsanleitung | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Weitere Informationen ...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Unterstützung mehrerer Report Suites in Workspace | Sie können jetzt Daten aus mehreren Report Suites in ein gemeinsames Projekt bringen und sie nebeneinander darstellen. [Weitere Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Schulungsanleitung | Diese neue Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Workspace. Sie ist als Standardvorlage im Modal „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Weitere Infos...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Februar 2020
 
@@ -70,9 +70,9 @@ Am 20. Februar 2020 veröffentlichte neue Funktionen.
 | Funktion | Beschreibung |
 |--- |--- |
 | Neue Workspace-Vorlage für Organisationen, die geräteübergreifende Analysen verwenden | Diese Vorlage zeigt, wie effektiv CDA beim Zusammenfügen von Besuchen ist, und informiert Sie über ausschließlich in CDA verfügbare Dimensionen und Metriken. Eine Report Suite, die CDA verwendet, ist erforderlich. Weitere Informationen finden Sie unter [Einrichten von geräteübergreifenden Analysen](https://docs.adobe.com/content/help/de-DE/analytics/components/cda/cda-setup.html). |
-| Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Aktiven Bereich reduzieren/erweitern: `alt + ctrl + m`</li><li>Linke Leiste durchsuchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Neue Hotkeys in Workspace | <ul><li>Alle Bereiche reduzieren/erweitern: `alt + m`</li><li>Aktiven Bereich reduzieren/erweitern: `alt + ctrl + m`</li><li>Linke Leiste durchsuchen: `ctrl + /`</li><li>Zum nächsten Bereich wechseln: `alt + Right Key`</li><li>Zum vorherigen Bereich wechseln: `alt + Left Key`</li></ul>[Weitere Infos...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Weitere Neuerungen in Workspace | <ul><li>Wenn ein Bedienfeld oder eine Visualisierung in Workspace abgelegt wird, wechselt die linke Leiste automatisch zu Komponenten, um einen nahtloseren Arbeitsablauf zu gewährleisten.</li><li>Für Vorlagenkomponenten können nun Aktionen ausgeführt werden (z. B. mit Tags versehen, als Favorit markieren, genehmigen).</li><li>Gefilterte Metrik- und Segmentlisten bieten die Schaltfläche „+“ zum Hinzufügen einer neuen Komponente, wenn Sie das, was Sie benötigen, nicht finden können.</li></ul> |
-| Workspace-Debugger | Der Workspace-Debugger wurde dem Menü „Hilfe“ hinzugefügt, sodass Sie ihn nahtlos zum Debuggen von Workspace-Anforderungen aktivieren können. [Weitere Informationen ...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| Workspace-Debugger | Der Workspace-Debugger wurde dem Menü „Hilfe“ hinzugefügt, sodass Sie ihn nahtlos zum Debuggen von Workspace-Anforderungen aktivieren können. [Weitere Infos...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Januar 2020
 
@@ -1135,9 +1135,9 @@ Das neue Segment wird in der Gruppe [!UICONTROL Segmente] im Bedienfeld [!UICONT
 
 *`Save As`* Diese Funktion ist auch für den [!UICONTROL Generator für berechnete Metriken] und den [!UICONTROL Generator für Datumsbereiche] verfügbar.
 
-## Schaltfläche „Neues Segment hinzufügen“ {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## Neues Segment hinzufügen
 
-Die Schaltfläche **[!UICONTROL Neues Segment hinzufügen]** wurde an der Stelle hinzugefügt, an der Sie Segmente per Drag &amp; Drop in ein Projekt einfügen.
+Der Dropdownbereich Segment hier **** ablegen wurde hinzugefügt, sodass Sie Segmente per Drag &amp; Drop in ein Projekt ziehen können.
 
 ![](assets/add-new-segment.png)
 
