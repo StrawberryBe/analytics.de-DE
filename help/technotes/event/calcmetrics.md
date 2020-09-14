@@ -2,27 +2,31 @@
 title: Ableiten von Daten, die von Ereignissen betroffen sind
 description: Verwenden Sie berechnete Metriken, um Trenddaten zu korrigieren, die von einem Ereignis betroffen sind.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8e193de6dbb51cb640218a0c7b1b501d4f1eaa27
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 4%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 
 # Ableiten von Daten, die von Ereignissen betroffen sind
 
-Wenn Daten von einem Ereignis [](overview.md)beeinflusst werden, können Sie berechnete Metriken verwenden, um Trendwerte für die Dauer des Ereignisses abzuleiten. Wenn Sie z. B. ein Ereignis hatten, das zu einem Datenverlust von 25 % führte, können Sie dies als Multiplikator in einer berechneten Metrik verwenden.
+Wenn Daten von einem Ereignis [](overview.md)betroffen sind, können Sie berechnete Metriken verwenden, um geschätzte Werte für die Dauer des Ereignisses abzuleiten. Wenn Sie z. B. ein Ereignis hatten, das zu einem Datenverlust von 25 % führte, können Sie dies als Multiplikator in einer berechneten Metrik verwenden.
+
+Diese Schritte funktionieren am besten, wenn Sie die Auswirkungen eines Ereignisses aus der Sicht der Segmentierung und des Datumsvergleichs verstehen. Vergewissern Sie sich, dass Sie die Daten [vergleichen, die von einem Ereignis betroffen sind, mit vorherigen Datumsbereichen](compare-dates.md) und bestimmte Daten in Analyse [](segments.md) ausschließen, bevor Sie dieser Seite folgen.
 
 >[!NOTE]
 >
->Diese Schritte funktionieren am besten, wenn Sie die Auswirkungen eines Ereignisses aus der Sicht der Segmentierung und des Datumsvergleichs verstehen. Vergewissern Sie sich, dass Sie die Daten [vergleichen, die von einem Ereignis betroffen sind, mit vorherigen Datumsbereichen](compare-dates.md) und bestimmte Daten in Analyse [](segments.md) ausschließen, bevor Sie dieser Seite folgen.
+>Bei diesem Ansatz handelt es sich um eine Schätzung, die auf einem bestimmten Satz von Eingaben und Datumsbereichen basiert. Es wird keine umfassende Lösung für alle Anwendungsfälle oder Datenscheiben sein. Darüber hinaus erfordert dieser Ansatz, dass der betroffene Datumsbereich mindestens einen Treffer aufweist, aus dem berechnet werden soll.
+
+So erstellen Sie eine geschätzte berechnete Metrik für den betroffenen Zeitraum:
 
 1. Erstellen Sie zwei Segmente für &quot;Betroffene Tage&quot;und &quot;Betroffene Tage ausschließen&quot;, wie unter Bestimmte Daten in der Analyse [ausschließen](segments.md)beschrieben.
 2. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
 3. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 4. Ziehen Sie beide oben genannten Segmente in die Arbeitsfläche der Definition. Ändern Sie den Operator zwischen ihnen in eine `+` Zusammenfassung.
-5. Hinzufügen Sie die gewünschte Metrik in beiden Segmenten. Sie können beispielsweise die Metrik &quot;Besuche&quot;verwenden.
+5. hinzufügen Sie die gewünschte Metrik in beiden Segmenten. Sie können beispielsweise die Metrik &quot;Besuche&quot;verwenden.
 
    ![Segmentaufbau](assets/event_segment_builder.png)
 
