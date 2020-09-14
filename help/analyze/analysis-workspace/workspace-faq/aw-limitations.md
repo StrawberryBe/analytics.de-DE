@@ -1,11 +1,11 @@
 ---
 description: Liste der bekannten Einschränkungen in Adobe Analysis Workspace und der zugehörigen Komponenten
 title: Bekannte Einschränkungen in Analysis Workspace
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 87%
 
 ---
 
@@ -35,7 +35,7 @@ Im Folgenden finden Sie eine Liste der bekannten Einschränkungen in Analysis Wo
 ## Komponenten > Segmente
 
 * Bestimmte Metriken und Dimensionen können nicht segmentiert werden, wie [!UICONTROL Vorfälle], [!UICONTROL Unique Visitors] usw.
-* Bestimmte Komponenten und Operatoren sind nicht verfügbar, wenn ein Segment aus Workspace erstellt wird (im Gegensatz zu [!UICONTROL Komponenten > Segmente]). Beispiel: IP-Adresse.
+* Ad-hoc-Segmente, die im [Bedienfeld-Dropzone](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) erstellt wurden, werden nicht in der linken Leiste von Workspace oder im Segment-Komponenten-Manager angezeigt, es sei denn, sie werden veröffentlicht. Dies kann durch Bearbeiten des Segments und Auswahl von **[!UICONTROL Als öffentlich]** festlegen erfolgen.
 
 ## Komponenten > Berechnete Metriken
 
