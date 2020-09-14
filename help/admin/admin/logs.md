@@ -4,10 +4,10 @@ title: Protokolle
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 97%
+source-wordcount: '613'
+ht-degree: 72%
 
 ---
 
@@ -40,41 +40,41 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 
 | Ereignistyp | Beschreibung |
 | --- |--- |
-| Keine Kategorie |  |
-| Anmeldung fehlgeschlagen |  |
-| Anmeldung erfolgreich |  |
-| Admin-Aktion |  |
-| Änderung in der Sicherheitseinstellung |  |
-| Angezeigter Bericht |  |
-| Heruntergeladener Bericht |  |
-| Warnhinweis gesendet |  |
-| Benutzeraktion |  |
-| Angezeigte Tools |  |
-| Omniture-Aktion |  |
-| Kennwortwiederherstellung |  |
-| BookMarks |  |
-| Dashboards |  |
-| Warnhinweise |  |
-| Kalenderereignisse |  |
-| Zielgruppen |  |
-| Berichtseinstellungen |  |
-| Terminierte Berichte |  |
-| Nach IP ausschließen |  |
-| Seiten benennen |  |
-| Klassifizierungen |  |
-| Data Sources |  |
-| Workspace-Projekt |  |
-| Segment |  |
-| Berechnete Metrik |  |
-| Datumsbereich |  |
-| Virtual Report Suite |  |
-| Beitragsanalyse |  |
+| Keine Kategorie | Kann jeder Ereignistyp sein. |
+| Anmeldung fehlgeschlagen | Benutzeranmeldungsprozess fehlgeschlagen. |
+| Anmeldung erfolgreich | Benutzer erfolgreich angemeldet. |
+| Admin-Aktion | Es ist eine Administratoraktion aufgetreten, z. B. zum Bearbeiten einer Report Suite, zum Ändern der Einstellungen für die Firma, zum Erstellen eines Benutzers usw. |
+| Änderung in der Sicherheitseinstellung | Eine Sicherheitseinstellung wurde geändert. |
+| Angezeigter Bericht | Ein Bericht zu Reports &amp; Analysen wurde angezeigt. |
+| Heruntergeladener Bericht | Ein Bericht zu Reports &amp; Analysen wurde heruntergeladen. |
+| Warnhinweis gesendet | Es wurde eine Warnung gesendet. |
+| Benutzeraktion | Benutzerinformationen wurden bearbeitet. |
+| Angezeigte Tools | Ein Tool wurde angezeigt. |
+| Omniture-Aktion | Eine Aktion wurde von der Adobe durchgeführt. |
+| Kennwortwiederherstellung | Ein Kennwort wurde wiederhergestellt. |
+| BookMarks | Ein Lesezeichen wurde verwaltet. |
+| Dashboards | Ein Dashboard wurde verwaltet. |
+| Warnhinweise | Eine Warnung wurde verwaltet. |
+| Kalenderereignisse | Ein Kalenderereignis wurde verwaltet. |
+| Zielgruppen | Eine Zielgruppe wurde verwaltet. |
+| Berichtseinstellungen | Eine Berichtseinstellung wurde verwaltet. |
+| Terminierte Berichte | Ein terminierter Bericht wurde verwaltet. |
+| Nach IP ausschließen | Die IP-Einstellung wurde geändert. |
+| Seiten benennen | Nicht mehr verwendet |
+| Klassifizierungen | Eine Klassifizierung wurde verwaltet. |
+| Data Sources | Eine Datenquelle wurde verwaltet. |
+| Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
+| Segment | Ein Segment wurde erstellt/bearbeitet. |
+| Berechnete Metrik | Eine berechnete Metrik wurde erstellt/bearbeitet. |
+| Datumsbereich | Ein Datumsbereich wurde erstellt/bearbeitet. |
+| Virtual Report Suite | Eine Virtual Report Suite wurde erstellt/bearbeitet. |
+| Beitragsanalyse | Es wurde ein Beitragsauftrag zur Analyse ausgeführt. |
 | Anfrage für Excel-Datenblock |  |
 | Fehler bei Log-in in Excel |  |
 | Erfolgreiches Log-in in Excel |  |
 | Fehler bei mobilem Log-in |  |
 | Erfolgreiches mobiles Log-in |  |
-| API-Methode |  |
+| API-Methode | Es wurde ein API-Aufruf durchgeführt. |
 
 
 ## Report Suite-Änderungsprotokoll {#section_3864966639414BBEA871F4D0352F56B6}
