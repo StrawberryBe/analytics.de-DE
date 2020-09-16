@@ -5,10 +5,10 @@ title: Hotkeys (Tastaturbefehle) in Analysis Workspace verfügbar
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 77%
+source-wordcount: '285'
+ht-degree: 58%
 
 ---
 
@@ -17,14 +17,16 @@ ht-degree: 77%
 
 Hotkeys (Tastaturbefehle) stehen in Analysis Workspace zur Verfügung, um eine nahtlose Navigation, Analyse und Demokratisierung zu ermöglichen.
 
-Hinweis: `CTRL` = Windows und `command` = Mac
+Hinweis:
+* `Ctrl` = Windows und `Command` = Mac
+* `Alt` = Windows und `Option` = Mac
 
 ## Navigationsaktionen
 
 | Aktion | Tastaturbefehl |
 |---|---|
-| Neues Projekt erstellen | STRG (oder Befehl) + UMSCHALT + P |
-| Vorhandenes Projekt öffnen | STRG (oder Befehl) + O |
+| Neues Projekt erstellen | Strg + Umschalttaste + P |
+| Vorhandenes Projekt öffnen | Strg + O |
 | Zum Fenster „Bereiche“ | ALT + UMSCHALT + 1 |
 | Zum Fenster „Visualisierungen“ | ALT + UMSCHALT + 2 |
 | Zum Fenster „Komponenten“ | ALT + UMSCHALT + 3 |
@@ -38,17 +40,17 @@ Hinweis: `CTRL` = Windows und `command` = Mac
 | Aktion | Tastaturbefehl |
 |---|---|
 | Linke Leiste durchsuchen | Strg + / |
-| Erstellen eines Warnhinweises | STRG (oder Befehl) + UMSCHALT + A |
-| Berechnete Metrik erstellen | STRG (oder Befehl) + UMSCHALT + C |
-| Datumsbereich erstellen | STRG (oder Befehl) + UMSCHALT + D |
-| Segment erstellen | STRG (oder Befehl) + UMSCHALT + E |
+| Erstellen eines Warnhinweises | Strg + Umschalttaste + A |
+| Berechnete Metrik erstellen | Strg + Umschalttaste + C |
+| Datumsbereich erstellen | Strg + Umschalttaste + D |
+| Segment erstellen | Strg + Umschalttaste + E |
 | Alle löschen | ALT + W |
-| Copy | STRG (oder Befehl) + C |
-| Wiederherstellen | STRG (oder Befehl) + UMSCHALT + Z |
-| Rückgängig | STRG (oder Befehl) + Z |
+| Copy | Strg + C |
+| Wiederherstellen | Strg + Umschalttaste + Z |
+| Rückgängig | Strg + Z |
 | Komponenten aktualisieren | ALT + UMSCHALT + R |
 | Projekt aktualisieren | ALT + R |
-| Als Landingpage festlegen | STRG (oder Befehl) + UMSCHALT + L |
+| Als Landingpage festlegen | Strg + Umschalttaste + L |
 
 ## Aktionen Hinzufügen Bedienfelder und Visualisierungen
 
@@ -69,13 +71,13 @@ Hinweis: `CTRL` = Windows und `command` = Mac
 
 | Aktion | Tastaturbefehl |
 |---|---|
-| Projekt speichern | STRG (oder Befehl) + S |
-| Projekt speichern unter | STRG (oder Befehl) + UMSCHALT + S |
+| Projekt speichern | Strg + S |
+| Projekt speichern unter | Strg + Umschalttaste + S |
 | Als Vorlage speichern | Alt + t |
-| Als CSV herunterladen | STRG (oder Befehl) + UMSCHALT + V |
-| Als PDF herunterladen | STRG (oder Befehl) + UMSCHALT + B |
-| Projekt kuratieren | STRG (oder Befehl) + UMSCHALT + G |
-| Projekt freigeben | STRG (oder Befehl) + G |
+| Als CSV herunterladen | Strg + Umschalttaste + V |
+| Als PDF herunterladen | Strg + Umschalttaste + B |
+| Projekt kuratieren | Strg + Umschalttaste + g |
+| Projekt freigeben | Strg+g |
 | Projektverknüpfung abrufen | ALT + L |
 | Datei jetzt senden | ALT + S |
 | Datei planmäßig senden | UMSCHALT + ALT + S |
