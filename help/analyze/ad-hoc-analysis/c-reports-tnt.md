@@ -4,12 +4,19 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 92%
 
 ---
 
 
 # Adobe Target
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Sie können Ihre Traffic-Daten aus Adobe Target in einem Analytics-Bericht anzeigen und segmentieren.
 
@@ -17,7 +24,7 @@ Sie können Ihre Traffic-Daten aus Adobe Target in einem Analytics-Bericht anzei
 
 Sie können Ihre Traffic-Daten aus Adobe Target in einem Analytics-Bericht anzeigen und segmentieren.
 
-Zu den Beispielen gehören:
+Beispiele hierfür sind:
 
 * Messen des Erfolgs von Adobe Target-Kampagnen anhand Ihrer Analytics-KPIs.
 * Aufschlüsseln der Target-Kampagnen- und Rezeptdaten mit Analytics-Konversionsvariablen.
