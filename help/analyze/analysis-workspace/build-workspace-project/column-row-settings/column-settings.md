@@ -3,9 +3,9 @@ description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatieru
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '720'
 ht-degree: 92%
 
 ---
@@ -25,6 +25,10 @@ Sie können Einstellungen **für mehrere Spalten gleichzeitig** bearbeiten. Wäh
 
 | Element | Beschreibung |
 | --- | --- |
+| **Summenzellen** |  |
+| Summen anzeigen | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Er spiegelt alle Tabellenfilter wider, die innerhalb der Freiformtabelle angewendet werden, einschließlich der Option [!UICONTROL Keine einschließen]. |
+| Gesamtsumme anzeigen | Dieser Gesamtwert stellt alle erfassten Treffer dar, die manchmal als &quot;Report Suite-Gesamtsumme&quot;bezeichnet werden. Wenn ein Segment entweder auf Bedienfeldebene oder in der Freiformtabelle angewendet wird, passt sich diese Summe an, um alle Treffer wiederzugeben, die den Segmentkriterien entsprechen. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| **Zellen der Tabelle** |  |
 | Nummer | Definition, ob in einer Zelle der numerische Wert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der numerische Wert die Anzahl an Seitenansichten für dieses Zeilenelement. |
 | Prozent | Definition, ob in einer Zelle der Prozentwert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der Prozentwert die Anzahl an Seitenansichten für dieses Zeilenelement geteilt durch die Gesamtanzahl der Seitenansichten für diese Spalte.  Hinweis: Für eine höhere Genauigkeit können Prozentsätze über 100 % angezeigt werden. Außerdem wird die obere Grenze auf 1.000 % verschoben, damit Spalten auch verbreitert werden können. |
 | Anomalien | Definition, ob die Anomalieerkennung für die Werte dieser Spalte ausgeführt wird |
@@ -44,9 +48,9 @@ Die bedingte Formatierung gilt für Obergrenzen, Mittelwerte und Untergrenzen, d
 | Element | Beschreibung |
 | --- | --- |
 | Bedingte Formatierung | Färbt Zellen je nach Datenwerten wie folgt ein: <ul><li>Grün: hohe Werte</li><li>Gelb: Mittelpunktwerte</li><li>Rot: niedrige Werte</li></ul> <br> Wenn Sie eine Dimension in der Tabelle ersetzen, werden die Grenzwerte für die bedingte Formatierung zurückgesetzt. Wenn Sie eine Metrik ersetzen, werden die Grenzwerte für diese Spalte zurückgesetzt (dabei wird eine Metrik auf der X-Achse und eine Dimension auf der Y-Achse dargestellt). |
-| Prozentbegrenzungen verwenden | Ändern Sie den Grenzwert so, dass er auf Prozentwerten statt auf absoluten Werten basiert. Diese Einstellung funktioniert mit Metriken, die rein prozentbasiert sind (beispielweise Absprungrate) oder eine Anzahl und einen Prozentsatz aufweisen (beispielsweise Seitenansichten). |
-| Automatisch generiert | Automatically calculate upper/mid/lower limits based on the data. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
-| Benutzerspezifisch | Weisen Sie manuell Obergrenzen/Mittelwerte/Untergrenzen zu. So können Sie flexibel bestimmen, ob der Wert einer Spalte gut, durchschnittlich oder schlecht ist. |
+| Prozentbegrenzungen verwenden | Ändern Sie das Limit, das auf Prozentsätzen basieren soll anstatt auf absoluten Werten. Diese Einstellung funktioniert mit Metriken, die rein prozentbasiert sind (beispielweise Absprungrate) oder eine Anzahl und einen Prozentsatz aufweisen (beispielsweise Seitenansichten). |
+| Automatisch generiert | Obere/mittlere/untere Limits automatisch auf Basis der Daten berechnen. Die Obergrenze entspricht dem höchsten Wert in dieser Spalte. Die Untergrenze entspricht dem niedrigsten Wert und der Mittelpunkt ist der Durchschnittswert der Ober- und der Untergrenze. |
+| Benutzerspezifisch | Obere/mittlere/untere Limits manuell zuweisen. So können Sie flexibel bestimmen, ob der Wert einer Spalte gut, durchschnittlich oder schlecht ist. |
 
 ## Nicht standardmäßiges Attributionsmodell verwenden {#attribution}
 
