@@ -3,15 +3,19 @@ description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder ein
 title: Daten und Datumsbereiche
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
 
 # Daten und Datumsbereiche
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen. Sie können Kalenderauswahlen auf Projekt-, Arbeitsbereich- und Berichtsebene treffen. Der Datumsbereich eines Projekts ist das Standarddatum. Allerdings wird der Projektdatumsbereich vom Datumsbereich des Arbeitsbereichs außer Kraft gesetzt. Auf ähnliche Weise setzt der Datumsbereich eines Berichts die Datumseinstellungen eines Arbeitsbereichs und eines Projekts außer Kraft. Sie können keinen Datumsbereich auswählen, der außerhalb Ihres Datenverfügbarkeitsbereichs liegt.
 
