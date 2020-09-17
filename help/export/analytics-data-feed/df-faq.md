@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu Daten-Feeds
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Häufig gestellte Fragen zu Daten-Feeds
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ Wenn Sie unterschiedliche Schreibweisen desselben Werts zwischen Nicht-Post- und
 ## Werden Bots nach den Admin Console Bot-Regeln gefiltert, die in Datenfeeds enthalten sind?
 
 Datenfeeds enthalten keine Bots, die von [Admin-Konsolenbot-Regeln](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)gefiltert wurden.
+
+## Warum werden mehrere `000` Werte in der Spalte `event_list` oder in der `post_event_list` Datenfeed-Spalte angezeigt?
+
+Einige Tabelleneditoren, insbesondere Microsoft Excel, runden automatisch sehr große Zahlen ab. Die `event_list` Spalte enthält viele kommagetrennte Zahlen, wodurch Excel sie manchmal als große Zahl behandelt. Die letzten Ziffern werden gerundet `000`.
+
+Adobe empfiehlt das automatische Öffnen von `hit_data.tsv` Dateien in Microsoft Excel. Verwenden Sie stattdessen das Excel-Dialogfeld &quot;Daten importieren&quot;und stellen Sie sicher, dass alle Felder als Text behandelt werden.
