@@ -3,10 +3,10 @@ description: Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis un
 title: Analysis Workspace im Vergleich mit Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 86%
+source-wordcount: '931'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis und Analysis Workspace.
 
