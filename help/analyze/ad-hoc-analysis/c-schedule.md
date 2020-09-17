@@ -4,15 +4,19 @@ title: Zeitplan-Manager
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '986'
+ht-degree: 98%
 
 ---
 
 
 # Zeitplan-Manager
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Sie können die Bereitstellung von Berichten planen. Sie können die Bereitstellung zu einem bestimmten Zeitpunkt stoppen oder die Häufigkeit des Berichtversands festlegen. Neue Zeitpläne verwenden den im Bericht definierten Datumsbereich. Wenn Sie beispielsweise einen Bericht für die letzten 90 Tage erstellen und eine tägliche Ausführung ansetzen, erhalten Sie jeden Tag einen Bericht für die letzten 90 Tage. Wenn Sie einen Bericht mit einem statischen Datumsbereich aus dem Kalender erstellen, sehen Sie jedes Mal, wenn der Bericht versendet wird, denselben Bericht.
 
