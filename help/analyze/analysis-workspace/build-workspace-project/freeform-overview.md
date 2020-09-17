@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Projekt erstellen – Übersicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 88%
 
 ---
 
@@ -33,14 +33,18 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 
 | Element | Beschreibung |
 |---|---|
-| Projekt [Vorlagen](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Sie können diese fertig ausgefüllten Projektvorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern. |
 | [Neues Projekt erstellen](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Klicken Sie auf diesen Link, um ein neues Projekt von Grund auf zu erstellen. |
 | Projekte verwalten | Wenn Sie auf diesen Link klicken, wird der Projektkomponentenmanager aufgerufen (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Projekte]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
+| Als Landingpage festlegen | Wandelt diese Seite in Ihre Workspace-Landingpage um. |
 | Tutorials anzeigen | Sie gelangen zu den [YouTube-Videos für Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Name | Name des Workspace-Projekts. |
-| Erstellt von | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
+| Inhaber | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
+| Typ | Gibt an, ob es sich um ein Workspace-Projekt oder eine [Mobile-Scorecard](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/home.html)handelt. |
+| Projektrolle | Gibt an, ob Sie der Eigentümer des Projekts sind, ob Sie das Projekt bearbeiten können oder ob es sich um ein Duplikat-Projekt handelt. |
 | Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponentenmanager oder unter **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**. |
 | Zuletzt geändert | Datum und Zeitpunkt der letzten Änderung des Projekts. |
+| Meine Lieblingsprojekte | Um ein Projekt als Favoriten zu markieren, öffnen Sie das Projekt und klicken Sie auf den Stern neben seinem Namen. Es wird in dieser Liste angezeigt, wenn Sie Workspace das nächste Mal öffnen. |
+| Häufig angezeigte Projekte | Liste aller häufig geöffneten Projekte, um den Zugriff zu erleichtern. |
 
 ## Projektinfo und Einstellungen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
