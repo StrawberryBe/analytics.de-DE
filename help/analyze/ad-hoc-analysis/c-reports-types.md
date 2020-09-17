@@ -4,12 +4,19 @@ title: Berichtstypen
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 99%
 
 ---
 
 
 # Berichtstypen
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Beschreibungen von Berichtstypen, die in Experience Cloud verwendet werden.
 
@@ -218,7 +225,7 @@ Klicken Sie mit der rechten Maustaste auf Säulen, um sie zu bearbeiten oder zu 
 
 | Option | Beschreibung |
 |--- |--- |
-| Vorlage  | Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. |
+| Vorlage | Hiermit können Sie Seiten zu einer Säule hinzufügen oder daraus entfernen. |
 | Entfernen | Hiermit können Sie eine Säule entfernen. |
 | Berichte | Hiermit können Sie einen anderen Bericht über die Säule starten. |
 | Diagramm speichern unter | Hiermit können Sie das Diagramm als .png- oder .jpg-Datei speichern. Wenn Sie die Diagrammsteuerungen (Diagrammwinkel, Größe) vor dem Speichern ändern, bleiben die Änderungen in der Ausgabe erhalten. |
