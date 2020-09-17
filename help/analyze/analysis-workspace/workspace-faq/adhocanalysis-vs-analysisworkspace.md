@@ -3,15 +3,19 @@ description: Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis un
 title: Analysis Workspace im Vergleich mit Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
+source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '930'
+ht-degree: 86%
 
 ---
 
 
 # Analysis Workspace im Vergleich mit Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis und Analysis Workspace.
 
@@ -26,7 +30,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
 | Projekt | Workspace oder Projekt |
 | Workspace | Bereich |
 | Bericht | Freiformtabelle |
-| Diagramme | Visualisierung |
+| Diagramm/Diagramm | Visualisierung |
 | Hierarchie: Projekt > Workspace > Berichte | Hierarchie: Projekt > Bedienfelder > Tabellen |
 | Berichtsvorlagen „Bewerteter Bericht“, „Trendbericht“, „Summenbericht“ | Freiformtabellen-Visualisierung |
 | Flussvorlage | Flussvisualisierung |
@@ -57,7 +61,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erstellen von temporären ("Ad-hoc") Segmenten </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Darüber hinaus können Dropdown-Filter in der Dropzone des Bedienfelds hinzugefügt werden, um viele temporäre Segmente gleichzeitig zu erstellen und so kontrollierte Projektinteraktionen zu ermöglichen. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Ad-hoc-Segmente in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Dropdown-Filter im Analysis Workspace</a> </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Darüber hinaus können Dropdown-Filter in der Dropzone des Bedienfelds hinzugefügt werden, um viele temporäre Segmente gleichzeitig zu erstellen und so kontrollierte Projektinteraktionen zu ermöglichen. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Video: Ad-hoc-Segmente in Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Video: Dropdown-Filter in Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datumsbereiche und Granularitäten auswählen </p> </td> 
@@ -83,7 +87,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Der Fluss kann für einen Besuch oder Besucher gelten. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Die wichtigsten Statistiken werden als prozentuale Pfadansichten gezeigt. </li> 
-    </ul> <p>Außerdem ermöglicht der Fluss <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > gemischte Dimensionen</a> sowie die Fähigkeit, mit der rechten Maustaste zu klicken und ein Segment zu erstellen, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. </p> <p>Derzeit <b>kann</b> Flow in Analysis Workspace nicht zulassen, dass Benutzer ein Ereignis auswählen. </li> 
+    </ul> <p>Außerdem ermöglicht der Fluss <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > gemischte Dimensionen</a> sowie die Fähigkeit, mit der rechten Maustaste zu klicken und ein Segment zu erstellen, was eine Verbesserung gegenüber Ad Hoc Analysis darstellt. </p> <p>Derzeit <b>kann Flow in Analysis Workspace Benutzern die Auswahl eines Ereignisses nicht</b> erlauben. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Video: Übersicht der Flussvisualisierung</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Video: Mehrdimensionaler Fluss</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Video: Segmente aus einem Fluss erstellen</a> </p> </td> 
   </tr> 
   <tr> 
@@ -96,7 +100,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites auswählen </p> </td> 
-   <td colname="col2"> <p>Mehrere Report Suites können in Analysis Workspace zu einem einzelnen Projekt hinzugefügt werden.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Mehrere Report Suites in Workspace</a> </p></td> 
+   <td colname="col2"> <p>In Analysis Workspace können einem Projekt mehrere Report Suites hinzugefügt werden.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Video: Mehrere Report Suites in Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
