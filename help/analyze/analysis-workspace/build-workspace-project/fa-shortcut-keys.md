@@ -5,7 +5,7 @@ title: Hotkeys (Tastaturbefehle) in Analysis Workspace verfügbar
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 58%
@@ -24,7 +24,7 @@ Hinweis:
 ## Navigationsaktionen
 
 | Aktion | Tastaturbefehl |
-|---|---|
+| --- | --- |
 | Neues Projekt erstellen | Strg + Umschalttaste + P |
 | Vorhandenes Projekt öffnen | Strg + O |
 | Zum Fenster „Bereiche“ | ALT + UMSCHALT + 1 |
@@ -38,7 +38,7 @@ Hinweis:
 ## Analysen
 
 | Aktion | Tastaturbefehl |
-|---|---|
+| --- | --- |
 | Linke Leiste durchsuchen | Strg + / |
 | Erstellen eines Warnhinweises | Strg + Umschalttaste + A |
 | Berechnete Metrik erstellen | Strg + Umschalttaste + C |
@@ -55,7 +55,7 @@ Hinweis:
 ## Aktionen Hinzufügen Bedienfelder und Visualisierungen
 
 | Aktion | Tastaturbefehl |
-|---|---|
+| ---|---|
 | Neues Analysefeld für Zielgruppen | alt + g |
 | Neuer Attributionsbereich | ALT + E |
 | Neues leeres Bedienfeld | ALT + B |
@@ -70,7 +70,7 @@ Hinweis:
 ## Demokratisierungsmaßnahmen
 
 | Aktion | Tastaturbefehl |
-|---|---|
+| --- | --- |
 | Projekt speichern | Strg + S |
 | Projekt speichern unter | Strg + Umschalttaste + S |
 | Als Vorlage speichern | Alt + t |
