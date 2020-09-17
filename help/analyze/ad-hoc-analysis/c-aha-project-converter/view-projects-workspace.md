@@ -2,16 +2,20 @@
 description: 'null'
 title: Anzeigen von konvertierten Projekten in Analysis Workspace
 uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '83'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 88%
 
 ---
 
 
 # Anzeigen von konvertierten Projekten in Analysis Workspace
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Bevor Sie Ihre Projekte in Workspace anzeigen, machen Sie sich mit den [FAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57) und den [Unterschieden in der Terminologie](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57) zwischen Ad Hoc Analysis und Workspace vertraut.
 
