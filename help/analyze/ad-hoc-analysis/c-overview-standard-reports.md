@@ -4,10 +4,10 @@ title: Berichtübersicht
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 98%
+source-wordcount: '996'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Standardberichte zeigen Daten zur Website- und Besucheraktivität, zu Trafficmustern, Verweisdaten, Werbekampagnen, Besucherbindung, Produktdaten und mehr an. Sie können Berichte ausführen und dann Tools aufrufen, um Segmente, Metriken und Berichtvergleiche zu konfigurieren.
 
