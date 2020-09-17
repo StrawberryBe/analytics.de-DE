@@ -2,7 +2,7 @@
 title: Interne Suchbegriffe erfassen
 description: Verwenden Sie eine benutzerspezifische Variable, um interne Suchbegriffe zu erfassen.
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Nachdem Sie bestätigt haben, dass die Entwicklungsumgebung in Ihrer dev-Umgebung funktioniert, können Sie eine Entwicklungsumgebung [überprüfen und in der Produktion](../launch/validate-publish-prod.md)veröffentlichen.
 
-## Berichte in Workspace.
+## Berichte in Workspace
 
 Geben Sie Ihrer Implementierung etwas Zeit, um Daten zu erfassen, und dann können Sie mit der Dimension in Analysis Workspace Beginn ausführen.
 
