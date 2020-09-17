@@ -4,10 +4,10 @@ title: Produktberichte
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 95%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Bietet Informationen über alle Artikel/Produkte, die Sie auf Ihrer Website verkaufen, handeln oder anzeigen. Sie können Daten zu Bestellungen oder Downloads von Produkten, Anwendungen oder Inhalten anzeigen.
 
