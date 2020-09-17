@@ -2,9 +2,9 @@
 title: Protokolldatei
 description: Rufen Sie eine Protokolldatei zur Fehlerbehebung ab.
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Bei der Fehlerbehebung von Problemen mit Ad Hoc Analysis ist es manchmal erforderlich, die Protokolldatei abzurufen. Adobe kann die Protokolldatei verwenden, um die Ursache des Problems zu ermitteln und eine Lösung bereitzustellen. Die `discover.log` Datei enthält alle Benutzerinteraktionen, Informationen zum Laden von Berichten und Java-Fehlermeldungen für alle Sitzungen. Es werden alle geschützten Informationen, z. B. das Kennwort des Benutzers, zwischengespeichert. Große Protokolldateien werden in 10-MB-Schritten aufgeteilt. Achten Sie bei der Bereitstellung der Adobe mit den Protokolldateien darauf, dass alle Dateien ausgewählt sind.
 
