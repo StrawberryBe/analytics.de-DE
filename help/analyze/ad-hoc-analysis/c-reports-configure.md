@@ -3,9 +3,9 @@ description: Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen 
 title: Bestehende Berichte konfigurieren
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Lernen Sie die verschiedenen Aktionen kennen, die Ihnen für einen Bericht zur Verfügung stehen, z. B. die Konfiguration von Diagrammen, Grafiken und Unterteilungen sowie das Extrahieren von Daten.
 
