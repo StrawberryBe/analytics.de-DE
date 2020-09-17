@@ -3,15 +3,19 @@ description: Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an
 title: Mobile  Berichte
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 95%
+source-wordcount: '1394'
+ht-degree: 94%
 
 ---
 
 
 # Mobil-Berichte
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Zeigt Informationen über Website-Zugriffe von einem Mobilgerät an. Mobil-Berichte verbessern die Identifizierung der Besucher durch Datenerfassung von Mobilgeräten, die zum Anzeigen Ihrer Site verwendet wurden. Mobil-Berichten können Sie den Hersteller sowie die Leistungsdaten eines Geräts entnehmen, wie beispielsweise die Bildschirmgröße, Video, Audio, Cookie-Unterstützung und andere Metriken. Mobil-Berichte sind für alle Report Suites verfügbar.
 
