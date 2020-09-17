@@ -4,12 +4,19 @@ title: Dimensionen
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 96%
 
 ---
 
 
 # Dimensionen
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht-numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Klassifizierung ursprünglichen Berichtstyp-Metrik darstellen.
 
