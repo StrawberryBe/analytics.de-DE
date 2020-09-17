@@ -3,10 +3,10 @@ description: 'null'
 title: Projekte in Ad Hoc Analysis konvertieren
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 95%
+source-wordcount: '295'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 ## Projekte konvertieren {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
