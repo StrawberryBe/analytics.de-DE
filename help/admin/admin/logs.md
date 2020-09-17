@@ -2,9 +2,8 @@
 description: Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen.
 title: Protokolle
 topic: Admin tools
-uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
+source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
