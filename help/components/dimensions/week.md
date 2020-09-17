@@ -2,10 +2,10 @@
 title: Woche
 description: Die Woche, in der die Metrik aufgetreten ist.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 58%
+source-wordcount: '141'
+ht-degree: 42%
 
 ---
 
@@ -20,4 +20,6 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 ## Dimensionen
 
-Dimensionen beinhalten das Datum (Monat, Tag und Jahr) des ersten Wochentags.
+In Analysis Workspace beinhalten Dimensionselemente das Datum (Monat, Tag und Jahr) des ersten Wochentags.
+
+In der Data Warehouse enthalten Dimensionselemente nummerierte Wochen, die auf dem Datumsbereich der Anforderung basieren. Die erste volle Woche ist zum Beispiel `"Week 1"`die. Wenn eine Anforderung eine Teilwoche enthält, werden die Daten in das Dimensionselement gruppiert `"Week 0"`.
