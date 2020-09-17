@@ -3,16 +3,20 @@ description: Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Ein
 title: Berichte zu Traffic-Quellen
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 99%
 
 ---
 
 
 # Berichte zu Traffic-Quellen
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Berichte zu Traffic-Quellen verschaffen Ihnen einen umfassenden Einblick in die Interaktion der Besucher mit Ihrer Website.
 
