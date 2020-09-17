@@ -4,15 +4,19 @@ title: Segmente erstellen
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 93%
 
 ---
 
 
 # Segmente erstellen
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis können in die Analytics-Segmentierungs-Umgebung integriert werden. So können Sie Besuchersegmente über Adobe-Produkte hinweg erstellen, teilen, verwalten und anwenden. Ad Hoc Analysis bietet für Segment Builder und Segment Manager dieselbe Java-basierte Benutzeroberfläche, die auch von anderen webbasierten Analytics-Werkzeugen verwendet wird. Dadurch können Server-Aufrufe abgestimmt und dieselben Funktionen wie in einer Java-basierten Konsole bereitgestellt werden.
 
