@@ -3,10 +3,10 @@ description: Zeit ist eine Berichtdimension, die zur Abbildung von Trends über 
 title: Zeit
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 97%
+source-wordcount: '396'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Zeit ist eine Berichtdimension, die zur Abbildung von Trends über Stunden, Tage, Wochen und Datumsbereiche genutzt werden kann. Beispielsweise zeigt ein Produktbericht an, wie viel Umsatz ein Produkt während des ausgewählten Datumsbereichs generiert hat. Sie können eine Tages-Dimension hinzufügen, um den Trend für jeden Tag des Berichtszeitraums zu ermitteln. Die verfügbaren Granularitäten für die Zeiteinstellungen sind Stunde, Tag, Woche, Monat, Quartal und Jahr. Als voreingestellte Datumsbereiche stehen z. B. Heute, Gestern und Letzte 7 Tage zur Auswahl.
 
