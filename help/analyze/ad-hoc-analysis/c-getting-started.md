@@ -3,9 +3,9 @@ description: Erste Schritte mit Ad Hoc Analysis.
 title: Erste Schritte
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1306'
 ht-degree: 93%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 Sie können sofortige Analysen der Aktivitäten auf Ihrer Website auf höchstem technischen Niveau durchführen. Sie können mehrere Berichte gleichzeitig anzeigen und Segmente auf mehrere Dimensionen anwenden. Sie können die Daten aus einer Mikro- oder einer Makroperspektive analysieren, um ihre Auswirkungen auf wichtige Geschäftsmetriken zu ermitteln.
 
