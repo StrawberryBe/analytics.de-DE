@@ -3,12 +3,19 @@ description: Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
 
 # Administration
+
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 in den Status als lebensbedrohlich. [Weitere Infos...](https://adobe.ly/discoverworkspace).
 
 Konfigurieren Sie Benutzer und erfahren Sie mehr über das Sampling von Daten.
 
@@ -37,14 +44,14 @@ t_user_licenses.xml
  -->
 
 1. Melden Sie sich bei [!DNL Experience Cloud] an.
-1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
-1. Klicken Sie auf **[!UICONTROL Edit Groups]**.
+1.  Klicken sie auf **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]**. 
+1. Klicken Sie auf **[!UICONTROL Gruppen bearbeiten]**. 
 
-   Wenn Ihre Firma Anwenderlizenzen erworben hat, wird die [!UICONTROL Ad Hoc Analysis License Users] Gruppe in der [!UICONTROL Group Name] Spalte angezeigt. Die Anzahl der verfügbaren Lizenzen für die Benutzeranmeldung wird ebenfalls angezeigt.
+   Wenn Ihr Unternehmen Lizenzen erworben hat, wird die Gruppe [!UICONTROL Ad Hoc Analysis-Lizenzanwender] in der Spalte [!UICONTROL Gruppenname] angezeigt. Die Anzahl der verfügbaren Lizenzen für die Benutzeranmeldung wird ebenfalls angezeigt.
 
-1. Klicken Sie auf **[!UICONTROL Edit]**.
-1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
-1. Klicken Sie auf **[!UICONTROL Save Group]**.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie unter [!UICONTROL Benutzeranmeldungen zuweisen] die Benutzer aus, die Sie der Gruppe hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Gruppe speichern]**.
 
    Die Anzahl der Benutzer, die zu einer Gruppe hinzugefügt werden, wird vom Lizenzierungssystem nicht begrenzt. Die gleichzeitige Nutzung ist auf die Anzahl der erworbenen Anwenderlizenzen eingeschränkt.
 
@@ -58,10 +65,10 @@ t_managing_users.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** und dann auf **[!UICONTROL Manage Users]**.
-1. Locate the user, then click **[!UICONTROL Terminate.]**
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzerverwaltung]** und dann auf **[!UICONTROL Benutzer verwalten]**.
+1. Suchen Sie den Benutzer und klicken Sie auf **[!UICONTROL Beenden]**.
 
-   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
+   Auf der Seite [!UICONTROL Aktive Ad Hoc Analysis-Sitzungen] wird der Benutzer, der am längsten untätig war, ganz oben auf der Liste angezeigt.
 
 ## Zugriffsberechtigung {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -84,10 +91,10 @@ t_permissions.xml
  -->
 
 1. Melden Sie sich bei **[!UICONTROL Experience Cloud]** an.
-1. Klicken Sie auf **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
-1. Klicken Sie auf **[!UICONTROL All Report Access]**.
-1. Wählen [!UICONTROL Available Users]Sie den Benutzer aus und klicken Sie auf **[!UICONTROL Add.]**
-1. Klicken Sie auf **[!UICONTROL Save Group]**.
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Zugriff auf alle Berichte]**.
+1. Wählen Sie unter [!UICONTROL Verfügbare Benutzer] den Benutzer aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**. 
+1. Klicken Sie auf **[!UICONTROL Gruppe speichern]**.
 
 ## Berechtigungsgruppen erstellen {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -100,7 +107,7 @@ t_permission_groups.xml
  -->
 
 1. Melden Sie sich bei **[!UICONTROL Experience Cloud]** an.
-1. Klicken Sie auf **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. Klicken Sie auf **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
 1. Erstellen Sie eine Berechtigungsgruppe für Benutzer ohne Admin-Berechtigungen, in denen die für Ad Hoc Analysis aktivierten Report Suites enthalten sind, die Sie für Benutzer zugänglich machen möchten.
 
    Die dem Benutzer zur Verfügung stehenden Report Suites werden im Menü [!UICONTROL Report Cloud] angezeigt, wenn Sie ein neues Projekt erstellen.
@@ -117,10 +124,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis nutzen HTTP zur Serverkommunikation. Es gelten dieselben Proxy-Richtlinien wie für anderen HTTP-Datenverkehr.
 
-1. Starten Sie im [!DNL Windows Control Panel]Fenster die [!UICONTROL Java Control Panel].
-1. Klicken Sie auf der **[!UICONTROL General]** Registerkarte auf **[!UICONTROL Network Settings]**.
-1. Wählen Sie die Proxy-Einstellungen aus **[!UICONTROL Use browser settings]** oder konfigurieren Sie sie manuell.
-1. Klicken Sie auf **[!UICONTROL OK]** und dann auf **[!UICONTROL OK]** die [!UICONTROL Java Control Panel].
+1. Starten Sie im Fenster [!DNL Windows Control Panel] die [!UICONTROL Java-Systemsteuerung].
+1. Klicken Sie in der Registerkarte **[!UICONTROL Allgemein]** auf **[!UICONTROL Netzwerkeinstellungen]**.
+1. Wählen Sie **[!UICONTROL Browsereinstellungen verwenden]** oder konfigurieren Sie die Proxy-Einstellungen manuell.
+1. Klicken Sie auf **[!UICONTROL OK]** und dann in der **[!UICONTROL Java-Systemsteuerung]** erneut auf [!UICONTROL OK].
 
 ## Ziehen von Stichproben von Daten {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
