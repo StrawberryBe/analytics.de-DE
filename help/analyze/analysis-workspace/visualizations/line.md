@@ -3,10 +3,10 @@ description: Verwenden Sie die Linienvisualisierung zur Darstellung von (zeitbas
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 Die Linienvisualisierung stellt Metriken mithilfe einer Zeile dar, um zu zeigen, wie sich Werte über einen bestimmten Zeitraum ändern. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
 
 ![Linienvisualisierung](assets/line-viz.png)
-
->[!IMPORTANT]
->
->Einige Einstellungen für die Linienvisualisierung, wie z. B. Trendlinie [!UICONTROL anzeigen], werden derzeit nur eingeschränkt getestet. [Weitere Infos](/help/landing/an-releases.md)
 
 Klicken Sie auf das Zahnradsymbol oben rechts in der Linienvisualisierung, um auf die verfügbaren [**Visualisierungseinstellungen**](freeform-analysis-visualizations.md) zuzugreifen. Einstellungen werden wie folgt kategorisiert:
 
@@ -42,6 +38,10 @@ Unter &quot; **[!UICONTROL Visualisierungseinstellungen]** &quot;> &quot; **[!UI
 ## Trendzeilenüberlagerung anzeigen
 
 Unter &quot; **[!UICONTROL Visualisierungseinstellungen]** &quot;> &quot; **[!UICONTROL Überlagerungen]** &quot;> &quot;Trendlinie **[!UICONTROL anzeigen&quot;]** können Sie eine Regressions-Trendlinie zu Ihrer Zeilenserie hinzufügen. Trendlinien helfen, ein klareres Muster in den Daten darzustellen.
+
+>[!TIP]
+>
+>Es wird empfohlen, Trendlinien auf Daten anzuwenden, die weder aktuelle (partielle Daten) noch zukünftige Daten enthalten, da diese die Trendlinie verfälschen. Wenn Sie jedoch zukünftige Daten einbeziehen müssen, entfernen Sie Nullen aus den Daten, um eine Verzerrung dieser Tage zu vermeiden. Gehen Sie dazu zur Datenquelle-Tabelle der Visualisierung und wählen Sie Ihre Metrikspalte aus. Gehen Sie dann zu [!UICONTROL Spalteneinstellungen] und aktivieren Sie **[!UICONTROL Null als Wert]** interpretieren.)
 
 ![Lineare Trendlinie](assets/show-linear-trendline.png)
 
