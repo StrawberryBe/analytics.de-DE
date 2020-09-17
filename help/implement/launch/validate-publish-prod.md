@@ -1,8 +1,11 @@
 ---
-title: Adobe Analytics in einer Entwicklungsumgebung bereitstellen
-description: Erfahren Sie, wie Sie Adobe Experience Platform Launch verwenden, um Adobe Analytics in Ihrer Entwicklungsumgebung bereitzustellen.
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+title: Entwicklungsimplementierung validieren und in der Produktion veröffentlichen
+description: Erfahren Sie, wie Sie mit Adobe Experience Platform Launch Adobe Analytics für Ihre Produktions-Umgebung bereitstellen.
+translation-type: tm+mt
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 93%
 
 ---
 
