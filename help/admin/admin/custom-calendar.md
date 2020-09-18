@@ -4,10 +4,10 @@ title: Anpassen von Kalendern benutzerspezifisch einstellen
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. 
 
 >[!CAUTION]
 >
->Wenn Sie Änderungen am Kalender vornehmen, ändern Sie die Art der Datenverarbeitung (d. h. die Definition der wöchentlichen und monatlichen Unique Visitors). Von der Änderung der Kalenderdefinitionen für Wochen und Monate bleiben historische Daten unberührt.
+>Wenn Sie Änderungen am Kalender vornehmen, ändern Sie die Art der Datenverarbeitung (d. h. die Definition der wöchentlichen und monatlichen Unique Visitors). Von der Änderung der Kalenderdefinitionen für Wochen und Monate bleiben historische Daten unberührt. Diese Einstellung wirkt sich auch auf Segmente aus, die auf Datumsbereichen basieren.
 
 Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung. Im Einzelhandel wird beispielsweise der 4-5-4-Kalender zur Unterstützung von Verkaufssaisons verwendet, die für die Branche typisch sind. Die einzelnen Kalenderformate werden im Folgenden beschrieben.
 
