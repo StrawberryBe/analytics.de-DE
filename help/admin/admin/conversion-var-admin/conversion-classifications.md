@@ -2,10 +2,10 @@
 description: Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu berichten. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie „Popmusikbegriffe“ kategorisieren und über den Erfolg dieser Kategorie in Bezug zu Metriken wie Instanzen (auch Clickthrough-Raten genannt) und Konversion in Erfolgsereignisse berichten.
 title: Konversionsklassifizierungen
 translation-type: tm+mt
-source-git-commit: de7dd41bba6907d6af7a59dc385ca6a185d503ae
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
 Nach der Aktivierung der Classifications verwenden Sie den [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+
+>[!WARNING]
+>
+>Das Umbenennen einer Klassifizierung kann Probleme mit vorhandenen Regeln verursachen, die im [Classification Rule Builder](/help/components/classifications/crb/classification-rule-builder.md)erstellt wurden. Wenn Sie eine Classification umbenennen, die Classification-Regeln enthält, sollten Sie sicherstellen, dass die einzelnen Regeln so korrigiert werden, dass sie auf die umbenannte Classification verweisen.
 
 ## Konversion-Classifications – Beschreibungen
 
