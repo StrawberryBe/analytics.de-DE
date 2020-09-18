@@ -4,7 +4,7 @@ title: Berichtstypen
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. Sie können beispielsweise sehen, wie viele Benutzer von `https://www.mysite.com` zu `https://info.mysite.com` oder `https://sales.mysite.com` gelangt sind.
+Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. Sie können beispielsweise sehen, wie viele Benutzer von `https://www.example.com` zu `https://info.example.com` oder `https://sales.example.com` gelangt sind.
 
 ## Nächster Abschnittsfluss {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. Sie können beispielsweise sehen, wie viele Benutzer von `www.mysite.com` zu `info.mysite.com` oder `sales.mysite.com` gelangt sind.
+Falls Sie beispielsweise über bestimmte Daten auf verschiedenen Servern verfügen oder Daten auf separaten Servern gespiegelt haben, zeigt der Bericht den Pfad zwischen den Servern an, dem die Benutzer gefolgt sind. Dies gilt auch für Domänen auf Ihrer Website. Sie können beispielsweise sehen, wie viele Benutzer von `www.example.com` zu `info.example.com` oder `sales.example.com` gelangt sind.
 
 ## Konversionstrichterberichte {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
