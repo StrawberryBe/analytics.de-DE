@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Anforderungen und Upload-Beschränkungen
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -92,8 +95,8 @@ Wenn Sie eine UTF-8- oder ISO-8859-1-Datei einreichen und Ihre Bericht-Suite die
 * Die nützlichsten Berichte zum Anzeigen von Webprotokolldaten sind Traffic-Berichte wie Seitenansichten.
 * Seitennamen werden als gesamte URL angezeigt, darunter auch die Abfragezeichenfolge.
 * Jede Dateianforderung wird als eigenständige Seitenansicht angezeigt, darunter Style Sheets und Grafikdateien.
-* Wenn Sie Informationen an die URL anhängen, können Dateien als eigenständige Seiten aufgezeichnet werden. Marketingberichte zeichnen beispielsweise die folgenden URLs als zwei eigenständige Seiten auf:
+* Wenn Sie Informationen an die URL anhängen, können Dateien als eigenständige Seiten aufgezeichnet werden. Adobe zeichnet beispielsweise die folgenden URLs als zwei separate Seiten auf:
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
