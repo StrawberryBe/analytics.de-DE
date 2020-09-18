@@ -3,11 +3,11 @@ description: Methoden zur Optimierung der Report Builder-Bereitstellung und eine
 title: Fehlerbehebung und Best Practices für Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1328'
+ht-degree: 86%
 
 ---
 
@@ -34,74 +34,37 @@ Außerdem bewirkt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classificat
 
 Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist eine Authentifizierung erforderlich. Manchmal kann es bei der Anmeldung bei Report Builder abhängig von Ihren persönlichen Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk zu Problemen kommen.
 
-**Firmen-Anmeldung ungültig**
-
-Dieser Fehler tritt normalerweise auf, wenn bei der Anmeldung der Firmenname falsch eingegeben wird oder Probleme mit der Netzwerk-Aktivität bestehen. Gehen Sie folgendermaßen vor:
-
-* Überprüfen Sie Ihre Eingabe auf Tippfehler oder überflüssige Leerzeichen.
-* Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
-
-**Firewall**
-
-Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
+* **Firmen-Anmeldung ungültig**: Dieser Fehler tritt normalerweise auf, wenn bei der Anmeldung der Firmenname falsch eingegeben wird oder Probleme mit der Netzwerk-Aktivität bestehen. Gehen Sie folgendermaßen vor:
+   * Überprüfen Sie Ihre Eingabe auf Tippfehler oder überflüssige Leerzeichen.
+   * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
+* **Firewall**: Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
 
 ## Recommendations zur Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
 
-Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die Verarbeitungsgeschwindigkeit verringert werden:
+Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die Verarbeitungsgeschwindigkeit verringert werden.
 
-**Mögliche Gründe für Bereitstellungsverzögerungen**
+* **Faktoren, die Versand** verlangsamen können: Es wurden zu viele Lesezeichen, Dashboards und Report Builder-Arbeitsmappen innerhalb weniger Stunden geplant. Beachten Sie auch, dass zu viele Report Builder-Arbeitsmappen etwa zur selben Zeit geplant wurden. In diesem Fall tritt in der Berichts-API-Warteschlange ein Rückstand ein.
+* **Mögliche Gründe für Verzögerungen bei der Ausführung von Arbeitsmappen**: Deutliche Erhöhung der Classifications oder Vergrößerung des Datumsbereichs der Anforderung im Laufe der Zeit.
+* **Ursachen, die zum Fehlschlagen** des Arbeitsmappen-Versands führen: Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere solche mit Datum und Uhrzeit.
+* **Zellen, die 0 s zurückgeben (keine Werte)**: Ein Apostroph oder ein einfaches Anführungszeichen im Excel-Blattnamen führt dazu, dass ReportBuilder keine Werte zurückgibt. (Dies ist eine Microsoft Excel-Einschränkung.)
+* **Individuelle Anforderungsleistung**: Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeinträchtigt werden:
 
-* Es wurden zu viele Lesezeichen, Dashboards und Report Builder-Arbeitsmappen innerhalb weniger Stunden geplant.
-* Es wurden zu viele Report Builder-Arbeitsmappen für die gleiche Uhrzeit geplant. In diesem Fall tritt in der Berichts-API-Warteschlange ein Rückstand ein.
+   | Einstellung | Schnellere Leistung | Langsamere Leistung |
+   |--- |--- |--- |
+   | Aufschlüsselung und Aufschlüsselungsreihenfolge | Wenig | Viele |
+   |  | Beispiel: Bei einer Aufteilung von A bis Z sollte die Anzahl der Elemente für A immer niedriger sein als die Anzahl der Elemente für Z. Andernfalls kann sich die Anforderungszeit deutlich erhöhen. |
+   | Datumsbereich | Kleiner Bereich | Großer Bereich |
+   | Filtern | Spezifische Filter | Bevorzugte Filter |
+   | Granularität | Aggregiert | Stündlich<ul><li>Täglich</li><li>Wöchentlich</li><li>Monatlich</li><li>Quartalsweise</li><li>Jährlich</li></ul> |
+   | Anzahl der Einträge | Kleiner Datensatz | Großer Datensatz |
 
-**Mögliche Gründe für Verzögerungen bei der Ausführung von Arbeitsmappen**
+* **Planungszeit**: Stärkere Planung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und Report Builder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden. Planen Sie größere, komplexere Anforderungen in den frühen Morgenstunden, um manuelle Abrufe und Aktualisierungen im Laufe des Arbeitstages zuzulassen.
 
-* Deutliche Erhöhung der Classifications.
-* Erweiterung des Anfragedatenbereichs im Laufe der Zeit.
+   | Zeitplanung | 01:00 – 02:00 Uhr | 02:00 – 07:00 Uhr | 07:00 – 18:00 Uhr | 18:00 – 24:00 Uhr |
+   |--- |--- |--- |--- |--- |
+   | Report Builder – Nutzung | Ruhig | Hohe Auslastung | clientseitige Nutzung<br>Höhere Anzahl an Nutzern, die eine lokale Aktualisierung vornehmen und ein „Sofortiges Senden“ anfordern.<br>Überprüfen Sie außerdem, ob die API-Warteschlange gelöscht wird, wenn bei geplanten Arbeitsmappen ein Timeout auftritt. | Geringe Auslastung |
 
-   **Beispiel**: Angenommen, Sie haben eine Trendanforderung mit der Einstellung „Aktuelles Jahr“ erstellt und diese mit der Granularität „Tag“ aufgegliedert. Am Ende des Jahres werden mit der Anforderung mehr Zeiträume als der eine zu Beginn des Jahres erstellte Zeitraum zurückgegeben.
-
-   `(January 1 - January 30 versus January 1 - December 31.)`
-
-**Mögliche Gründe für einen Arbeitsmappen-Bereitstellungsfehler**
-
-Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere wenn die Arbeitsmappe Datums- und Uhrzeitwerte enthält.
-
-**Zellen, die 0 zurückgeben (keine Werte)**
-
-Wenn im Namen des Excel-Arbeitsblatts ein Apostroph oder ein einfaches Anführungszeichen enthalten ist, wird Report Builder keine Werte zurückgeben. (Dies ist eine Microsoft Excel-Einschränkung.)
-
-**Individuelle Anforderungsleistung**
-
-Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeinträchtigt werden:
-
-| Einstellung | Schnellere Leistung | Langsamere Leistung |
-|--- |--- |--- |
-| Aufschlüsselung und Aufschlüsselungsreihenfolge | Wenig | Viele |
-|  | Beispiel: Bei einer Aufteilung von A bis Z sollte die Anzahl der Elemente für A immer niedriger sein als die Anzahl der Elemente für Z. Andernfalls kann sich die Anforderungszeit deutlich erhöhen. |
-| Datumsbereich | Kleiner Bereich | Großer Bereich |
-| Filtern | Spezifische Filter | Bevorzugte Filter |
-| Granularität | Aggregiert | Stündlich<ul><li>Täglich</li><li>Wöchentlich</li><li>Monatlich</li><li>Quartalsweise</li><li>Jährlich</li></ul> |
-| Anzahl der Einträge | Kleiner Datensatz | Großer Datensatz |
-
-
-**Zeitplanung**
-
-Staffeln Sie die Zeitplanung über einen Zeitraum von 24 Stunden (siehe Tabelle unten). Durch vorhandene Lesezeichen, Dashboards und Report Builder-Arbeitsmappen, die zeitlich kurz aufeinander folgen, können Verzögerungen verursacht werden.
-
-Planen Sie größere, komplexere Anforderungen in den frühen Morgenstunden, um manuelle Abrufe und Aktualisierungen im Laufe des Arbeitstages zuzulassen.
-
-| Zeitplanung | 01:00 – 02:00 Uhr | 02:00 – 07:00 Uhr | 07:00 – 18:00 Uhr | 18:00 – 24:00 Uhr |
-|--- |--- |--- |--- |--- |
-| Report Builder – Nutzung | Ruhig | Hohe Auslastung | clientseitige Nutzung<br>Höhere Anzahl an Nutzern, die eine lokale Aktualisierung vornehmen und ein „Sofortiges Senden“ anfordern.<br>Überprüfen Sie außerdem, ob die API-Warteschlange gelöscht wird, wenn bei geplanten Arbeitsmappen ein Timeout auftritt. | Geringe Auslastung |
-
-**Timeouts**
-
-Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert die Ausführung.) Dies wird in der [!DNL Analytics]-Berichterstellung und in Report Builder angezeigt:
-
-* [!DNL Analytics]: **[!UICONTROL Favoriten]** > **[!UICONTROL Terminierte Berichte]**
-
-* Report Builder: Klicken Sie auf der Registerkarte **[!UICONTROL Add-Ins]** in Excel auf [!UICONTROL Verwaltung].
+* **Timeouts**: Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert die Ausführung.) Dies wird in der [!DNL Analytics]-Berichterstellung und in Report Builder angezeigt:
 
 ## Beschreibung der Fehlermeldungen {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -111,34 +74,15 @@ Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report B
 >
 >Dies ist nur eine Auswahl der Fehlermeldungen, keine umfassende Auflistung. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
 
-**Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**
-
-Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole der Report Builder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
-
-**Sie müssen zunächst den[!UICONTROL Anforderungs-Assistenten]beenden, bevor Sie den[!UICONTROL Anforderungs-Manager aktivieren].**
-
-Der [!UICONTROL Anforderungs-Assistent] und der [!UICONTROL Anforderungs-Manager] sind zwar funktional verbunden, aber es ist nicht möglich, den [!UICONTROL Anforderungs-Manager] zu verwenden, bevor Sie eine im [!UICONTROL Anforderungs-Assistenten] begonnene Arbeit abgebrochen oder abgeschlossen haben.
-
-**Mit diesem Bereich ist keine Anforderung verbunden.**
-
-Diese Fehlermeldung wird angezeigt, wenn Sie im [!UICONTROL Anforderungs-Manager] auf die Schaltfläche [!UICONTROL Aus Blatt] klicken, aber die entsprechende Zelle im Arbeitsblatt keine Anforderungen enthält.
-
-Um zu prüfen, welche Zellen des Arbeitsblatts Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen in der Liste im [!UICONTROL Anforderungs-Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
-
-**Der ausgewählte Bereich ist ungültig. Wählen Sie einen anderen Bereich aus.**
-
-Diese Fehlermeldung wird angezeigt, wenn eine Zelle des Arbeitsblatts ausgewählt wird, der bereits eine Anforderung zugeordnet ist. Löschen Sie entweder die der Zelle zugeordnete Anforderung oder wählen Sie einen anderen Zellenbereich für die Verknüpfung aus.
-
-Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln, welche Zellen Anforderungen enthalten und die Anforderung löschen, bevor Sie die Zellen löschen (indem Sie Zeilen oder Spalten entfernen).
-
-**Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**
-
-Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in das [!UICONTROL Namensfeld] in der [!UICONTROL Formelleiste] eingeben.
-
-**Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.**
-
-Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
-
-Sie können vor dem Hinzufügen neuer Anforderungen ermitteln, welche Zellen Zuordnungen aufweisen, indem Sie den [!UICONTROL Anforderungs-Assistenten] schließen und den [!UICONTROL Anforderungs-Manager] öffnen. Wählen Sie dann nacheinander die Elemente in der Liste aus. Wenn Sie eine Anforderung in der Liste auswählen, werden die zugehörigen Zellen im Arbeitsblatt markiert dargestellt.
-
-Aus diesem Grund sollten Sie unbedingt in Betracht ziehen, Zellen durch Formatierungen, Markierungen oder Zeilen- bzw. Spalteninformationen zu kennzeichnen, bevor Sie mehrere unterschiedliche Zellen mehreren unterschiedlichen Bereichen zuordnen.
+* **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**: Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole der Report Builder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
+* **Sie müssen zunächst den[!UICONTROL Anforderungs-Assistenten]beenden, bevor Sie den[!UICONTROL Anforderungs-Manager aktivieren].**: Der [!UICONTROL Anforderungs-Assistent] und der [!UICONTROL Anforderungs-Manager] sind zwar funktional verbunden, aber es ist nicht möglich, den [!UICONTROL Anforderungs-Manager] zu verwenden, bevor Sie eine im [!UICONTROL Anforderungs-Assistenten] begonnene Arbeit abgebrochen oder abgeschlossen haben.
+* **Mit diesem Bereich ist keine Anforderung verbunden.**: Diese Fehlermeldung wird angezeigt, wenn Sie im [!UICONTROL Anforderungs-Manager] auf die Schaltfläche [!UICONTROL Aus Blatt] klicken, aber die entsprechende Zelle im Arbeitsblatt keine Anforderungen enthält. Um zu prüfen, welche Zellen des Arbeitsblatts Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen in der Liste im [!UICONTROL Anforderungs-Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
+* **Der ausgewählte Bereich ist ungültig. Wählen Sie einen anderen Bereich aus.**: Diese Fehlermeldung wird angezeigt, wenn eine Zelle des Arbeitsblatts ausgewählt wird, der bereits eine Anforderung zugeordnet ist. Löschen Sie entweder die der Zelle zugeordnete Anforderung oder wählen Sie einen anderen Zellenbereich für die Verknüpfung aus. Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln, welche Zellen Anforderungen enthalten und die Anforderung löschen, bevor Sie die Zellen löschen (indem Sie Zeilen oder Spalten entfernen).
+* **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**: Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich in Excel außerdem im Bearbeitungsmodus, wenn Sie Daten direkt in das [!UICONTROL Namensfeld] in der [!UICONTROL Formelleiste] eingeben.
+* **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.**: Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
+* **Reparaturen an Arbeitsmappen (entfernte Datensätze: Formel aus /xl/calcChain.xml Teil)**: Manchmal werden die Formeln einer Arbeitsmappe beim Speichern oder Übertragen beschädigt. Wenn die Datei geöffnet wird, versucht Excel diese Formeln auszuführen und schlägt fehl. Sie können dieses Problem beheben, indem Sie `calcChain.xml` aus der Tabelle entfernen und Excel zwingen, die Formelberechnungen zu aktualisieren.
+   1. Benennen Sie die Dateierweiterung der Arbeitsmappe von `.xlsx` in um `.zip`.
+   2. Dekomprimieren Sie den Inhalt und öffnen Sie den `/xl/` Ordner.
+   3. Löschen `calcChain.xml`.
+   4. Komprimieren Sie den Inhalt neu und ändern Sie die Dateierweiterung zurück in `.xlsx`.
+   5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anforderungen.
