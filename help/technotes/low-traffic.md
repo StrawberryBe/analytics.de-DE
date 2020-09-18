@@ -3,11 +3,11 @@ description: Wenn ein Bericht eine große Anzahl eindeutiger Werte aufweist, kan
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 94%
 
 ---
 
@@ -50,4 +50,5 @@ Verschiedene Funktionen behandeln Werte mit geringem Traffic auf unterschiedlich
    * In einigen eingeschränkten Szenarien können weiterhin „Geringer Datenverkehr“-Werte angezeigt werden. Beispiele sind Listenvariablen, Listen-Props, Merchandising-eVars und Marketing-Kanal-Detaildimensionen.
 * **Segmentierung:** Wenn die Segmentkriterien eine Variable mit einer hohen Anzahl eindeutiger Werte enthalten, werden unter „Geringer Datenverkehr“ erfasste Werte nicht berücksichtigt.
 * **Klassifizierungen:** Auch Klassifizierungsberichte unterliegen eindeutigen Beschränkungen. Wenn der Wert der übergeordneten Variablen einer Klassifizierung unter „Geringer Datenverkehr“ fällt, wird der Wert nicht klassifiziert.
-   * Wenn Sie Werte klassifizieren, bevor sie in den Daten angezeigt werden, werden diese Werte für den eindeutigen Schwellenwert des aktuellen Monats angerechnet.
+   * Klassifizierungswerte mit geringem Traffic, die über den Importeur bezogen werden, können in der Data Warehouse angezeigt werden. <!-- AN-115871 -->
+   * Classification-Werte mit geringem Traffic, die über den Rule Builder abgerufen werden, *können nicht* in der Data Warehouse angezeigt werden. <!-- AN-122872 -->
