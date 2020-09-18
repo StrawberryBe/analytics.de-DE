@@ -2,10 +2,10 @@
 title: Durchschnittliche Besuchszeit pro Site
 description: Der durchschnittliche Zeitraum, in dem ein bestimmtes Dimensionselement zwischen Treffern vorhanden war.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 Die Gesamtbesuchszeit für `Product page A` beträgt `00:03:10`. Bei diesem Besuch gab es zwei Sequenzen: die erste Sequenz für die beiden aufeinander folgenden Werte und die zweite vor dem Checkout. Der letzte Treffer des Besuchs ist keine Sequenz, da es keinen Endzeitstempel gibt.
 
 Die durchschnittliche Besuchszeit pro Site für `Product page A` ist `00:01:35`.
+
+>[!NOTE]
+>
+>Diese Metrik zeigt den Wert an, `"Invalid"` wenn das Dimensionselement nur Treffer enthält, die zuletzt bei einem Besuch auftraten. Für diese Metrik ist ein nachfolgender Treffer erforderlich, um die Besuchszeit zu verfolgen.
 
 ## Durchschnittliche Besuchszeit pro Site (Sekunden)
 
