@@ -3,8 +3,11 @@ description: Schritte, die beschreiben, wie man eine Report Suite erstellt und d
 title: Erstellen einer Report Suite
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 87%
 
 ---
 
@@ -25,7 +28,4 @@ Schritte, die beschreiben, wie man eine Report Suite erstellt und die Einstellun
 1. Füllen Sie die unter [Neue Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md) beschriebenen Felder aus.
 1. Klicken Sie auf **[!UICONTROL Report Suite erstellen]**.
 
->[!MORELIKETHIS]
->
->* [Erstellen von Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-create.md)
-
+Eine Report Suite-ID hat eine maximale Länge von 40 Byte. Ein benutzerfreundlicher Name einer Report Suite hat eine maximale Länge von 255 Byte.
