@@ -3,11 +3,11 @@ description: Der Anforderungs-Manager ermöglicht es Ihnen, Anforderungen anzuze
 title: Verwalten von Data Warehouse-Anforderungen
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,6 @@ Die Arbeit in dieser Registerkarte ermöglicht es Ihnen,
 * Berichte durch Ziehen und Ablegen an einer neuen Position in der Warteschlange neu zu priorisieren.
 * Möchten Sie es anzeigen, wenn eine Anfrage verarbeitet wird, klicken Sie auf die ID einer geplanten Anfrage und prüfen Sie das sich öffnende Popup.
 
->[!NOTE]
->
->Möchten Sie eine Data Warehouse-Anfrage abbrechen, [finden Sie hier entsprechende Anweisungen](https://helpx.adobe.com/de/analytics/kb/cancel-data-warehouse-requests.html).
+Klicken Sie auf einen Auftrag, um einzelne Anforderungen für diesen Auftrag anzuzeigen.
 
+* Eingeschränkte Rate: Ihre Organisation hat zu viele Anforderungen an die Data Warehouse. Die Anforderung wird angehalten, bis andere Datenanforderungen abgeschlossen sind.
