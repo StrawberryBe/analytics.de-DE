@@ -4,20 +4,20 @@ subtopic: Data sources
 title: Vollständige Verarbeitung
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 96%
 
 ---
 
 
 # Vollständige Verarbeitung
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Datenquellen mit vollständiger Verarbeitung werden in Zukunft nicht mehr unterstützt.
+>Adobe empfiehlt Kunden, die [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) anstelle von Datenquellen mit vollständiger Verarbeitung zu verwenden. Die Adobe plant, Datenquellen mit vollständiger Verarbeitung in Zukunft zu veraltet.
 
 Data Sources unterstützt die folgenden Variablen bei der Verarbeitung von Daten als Standard-Server-Aufruf („Generisch“ > „Vollständige Verarbeitung“).
 
@@ -60,7 +60,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>Datum </p> </td> 
    <td colname="col3"> <p>Verwenden Sie das ISO 8601-Datumsformat <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (z. B. <code> 2013-09-01T12:00:00-07:00 </code>) oder das Unix-Zeitformat (d. h. die seit dem 1. Januar 1970 abgelaufenen Sekunden). </p> </td> 
   </tr> 
   <tr> 
@@ -114,12 +114,12 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Seiten-URL (z. B. <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Seiten-URL (z. B. <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Produktliste (z. B. <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). Kann maximal 4096 Byte pro Zeile enthalten.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
