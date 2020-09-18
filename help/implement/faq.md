@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur Implementierung
 description: Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 67%
+source-wordcount: '499'
+ht-degree: 48%
 
 ---
 
@@ -49,3 +49,13 @@ var s = new Object();
 >* Entfernen Sie die `s_code.js` Datei ganz, es sei denn, Sie entfernen alle Verweise auf die Datei auf jeder Seite.
 >* Ändern Sie die `trackingServer` Variable so, dass sie von der Adobe abweicht. AppMeasurement sendet weiterhin Bildanforderungen, die 404-Fehler zurückgeben.
 
+
+## Ich habe AppMeasurement über einen Code-Analyzer ausgeführt und seine Verwendung als potenzielles Sicherheitsrisiko markiert `Math.random()` . Wird mit vertraulichen Daten `Math.random()` verwendet?
+
+Nein. Die Zahlen, die verwendet `Math.random()` werden, werden nicht zum Maskieren, Senden oder Empfangen sensibler Daten verwendet. Daten, die an Datenerfassungsserver der Adobe gesendet werden, hängen von der Sicherheit der zugrunde liegenden HTTPS-Verbindung ab. <!-- AN-173590 -->
+
+AppMeasurement verwendet `Math.random()` drei Schlüsselbereiche:
+
+* **Probenahme**: Je nach Implementierung können einige Informationen für nur einen kleinen Prozentsatz der Besucher Ihrer Site gesammelt werden. `Math.random()` bestimmt, ob ein Besucher Daten senden soll. Bei den meisten Implementierungen wird kein Sampling verwendet.
+* **Fallback-Besucher-ID**: Wenn die Besucher-ID nicht aus Cookies abgerufen werden kann, wird eine zufällige Besucher-ID generiert. Dieser Teil von AppMeasurement verwendet zwei Aufrufe an `Math.random()`.
+* **Cache-Busting**: Am Ende der Bildanforderungs-URLs wird eine Zufallszahl hinzugefügt, um die Zwischenspeicherung im Browser zu verhindern.
