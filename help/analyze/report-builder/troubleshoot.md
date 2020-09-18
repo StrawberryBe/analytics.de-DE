@@ -4,10 +4,10 @@ title: Fehlerbehebung und Best Practices für Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 86%
+source-wordcount: '1399'
+ht-degree: 81%
 
 ---
 
@@ -86,3 +86,4 @@ Eine Liste der Fehlermeldungen, die gelegentlich bei der Verwendung von Report B
    3. Löschen `calcChain.xml`.
    4. Komprimieren Sie den Inhalt neu und ändern Sie die Dateierweiterung zurück in `.xlsx`.
    5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anforderungen.
+* **Excel-Filter, die mit den Eingabe- oder Ausgabefeldern verknüpft sind, wurden möglicherweise gelöscht**: Report Builder verwendet Excel-Namen, um Datenanforderungen an Zellen anzuhängen. Wenn Sie Excel-Namen aus dem Names Manager löschen, wird dieser Fehler angezeigt. Anforderungen können nicht wiederhergestellt werden, wenn Excel-Namen gelöscht werden. Wenn die Arbeitsmappe geplant war, können Sie entweder eine Kopie vom Zeitplan-Manager herunterladen oder zuvor ausgelieferte Kopien der Arbeitsmappe öffnen.
