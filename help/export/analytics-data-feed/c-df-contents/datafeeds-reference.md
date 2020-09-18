@@ -6,10 +6,10 @@ title: Datenspaltenreferenz
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
-ht-degree: 98%
+source-wordcount: '3667'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `ef_id` | Die ef_id, die in Adobe Advertising Cloud-Integrationen verwendet wird. | varchar(255) |
 | `evar1 - evar250` | Benutzerdefinierte Variablen 1–250. Jede Organisation verwendet eVars anders. Der beste Ort für weitere Informationen dazu, wie Ihre Organisation entsprechende eVars füllt, ist ein Dokument zum Lösungsentwurf, das für Ihre Organisation gilt. | varchar(255) |
 | `event_list` | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Enthält sowohl die Standardereignisse als auch die benutzerdefinierten Ereignisse 1–1000. Verwendet die Suchtabelle event.tsv | text |
-| `exclude_hit` | Ein Flag, das angibt, dass der Treffer nicht in die Berichterstellung einfließt. Die Spalte visit_num wird bei ausgeschlossenen Treffern nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Benutzeragentenausschluss<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Trefferinformationen fehlen, z. B. page_url, pagename, page_event oder event_list<br>6: JavaScript hat Treffer nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
+| `exclude_hit` | Ein Flag, das angibt, dass der Treffer nicht in die Berichterstellung einfließt. Die Spalte visit_num wird bei ausgeschlossenen Treffern nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
 | `first_hit_page_url` | Die allererste URL des Besuchers. | varchar(255) |
 | `first_hit_pagename` | Variable, die in der Dimension „Ursprüngliche Entrypage“ verwendet wird. Der Name der ursprünglichen Entrypage des Besuchers. | varchar(100) |
 | `first_hit_ref_domain` | Variable, die in der Dimension „Ursprünglich verweisende Domäne“ verwendet wird. Basiert auf first_hit_referrer. Die allererste verweisende Domäne des Besuchers. | varchar(100) |
