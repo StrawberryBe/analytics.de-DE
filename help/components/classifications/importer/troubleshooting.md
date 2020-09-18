@@ -2,10 +2,10 @@
 title: Fehlerbehebung beim Classification Importer
 description: Häufige Upload-Probleme bei der Verwendung des Classification Importers.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 14%
+source-wordcount: '855'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Die häufigsten Probleme beim Hochladen von Classification-Daten in die Adobe.
 
 Classifications erfordern einen bestimmten Dateityp und ein bestimmtes Format, um erfolgreich hochgeladen werden zu können. Wenn sie nicht im richtigen Format gespeichert wurden, verursacht dies einen Fehler und es werden keine Zeilen verarbeitet. Häufig wird der Fehler *&quot;Erste Spalte muss der Schlüssel sein&quot;* zurückgegeben, kann aber auch eine beliebige Anzahl von Fehlern sein. Überprüfen Sie Folgendes:
 
-* **Hochladen einer Tabelle (.xlsx) anstelle einer .tab- oder .txt-Datei**: Der Classification Importer kann keine .xls- oder .xlsx-Dateien verarbeiten. Legen Sie im Excel-Dialogfeld &quot;Speichern unter&quot;den richtigen Dateityp fest:
+* **Hochladen einer Tabelle (.xlsx) anstelle einer .tab- oder .txt-Datei**: Sie können die Fehlermeldung *&quot;Die erste Spalte muss der Schlüssel&quot;* erhalten, wenn Sie Classification-Dateien in einem falschen Format hochladen. Der Classification Importer kann keine .xls- oder .xlsx-Dateien verarbeiten. Legen Sie im Excel-Dialogfeld &quot;Speichern unter&quot;den richtigen Dateityp fest:
    * Unter Windows verwenden Sie das Dateiformat `Text (Tab delimited) (*.txt)`
    * Verwenden Sie unter Mac das Dateiformat `Windows Formatted Text`.
 * **Ändern der Dateinamenerweiterung nach dem Speichern als Arbeitsmappe**: Beim Versuch, eine Dateierweiterung direkt umzubenennen, wird eine ungültige Arbeitsmappe generiert. Verwenden Sie nur die Excel-Funktion Speichern unter oder bearbeiten Sie Classifications in einem Texteditor wie Notepad++.
@@ -38,6 +38,7 @@ Wenn die hochgeladene Datei richtig formatiert ist, versucht der Uploader, mögl
 * **Unterklassifizierungen sind vorhanden und falsch konfiguriert**: Wenn Unterklassifizierungen vorhanden sind, überprüfen Sie Folgendes:
    * Alle Subclassification-Werte müssen über einen übergeordneten Classification-Wert verfügen.
    * Es dürfen nicht mehrere Subclassifications auf denselben übergeordneten Classification-Wert verweisen.
+* **Spaltenabweichung**: Sie können die Fehlermeldung *&quot;The key on line has too many columns&quot;* erhalten, wenn eine Zeile eine ungültige Spaltenanzahl enthält. Sie haben z. B. 3 Spalten in Ihrem Classification-Upload und die Variable hat nur eine Classification. Überprüfen Sie Ihre Hochladedatei, um sicherzustellen, dass die Anzahl der Spalten nicht größer ist als die Anzahl der für diese Variable konfigurierten Klassifizierungen.
 
 ## Fehlerbehebung bei FTP-Importen
 
