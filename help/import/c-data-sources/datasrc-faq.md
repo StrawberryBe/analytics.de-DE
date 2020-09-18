@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Häufig gestellte Fragen zu Data Sources
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -133,3 +136,14 @@ Im Falle einer vollen Verarbeitung ist dies nicht der Fall, im Falle von Transak
 
 Nein. Die mit Transaktions-ID-Datenquellen hochgeladenen eVars führen in den gespeicherten Profilinformationen lediglich Lesevorgänge aus, das Profil wird nicht aktualisiert.
 Nein. eVars sind die einzigen Variablen, die im Schnappschuss des Besucherprofils gespeichert werden.
+
+## Wie funktionieren numerische und Währungs-Ereignis mit Datenquellen?
+
+Die Vollverarbeitung unterstützt nur Legacy-Ereignis-Listen, wobei der numerische/Währungs-/Zählerwert (mehr als 1) direkt in der Ereignis-Liste, das heißt `"eventNN,eventKK"` nicht `"eventNN=#.##"`, ausgeschlossen wird. Dies bedeutet, dass es nur ein Zähler-Ereignis unterstützt, wenn es in der Datenquellendatei in der Spalte &quot;Ereignis&quot;übergeben wird und um 1 inkrementiert wird.
+
+Wenn numerische, Währungs- oder Zählerwerte (mehr als 1) erforderlich sind, verwenden Sie die Liste des Produkts:
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
