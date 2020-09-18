@@ -5,10 +5,10 @@ title: FTP-Import
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -95,3 +95,7 @@ Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](https://doc
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Nach dem Erstellen können Sie FTP-Konten bearbeiten oder löschen, indem Sie auf den entsprechenden Link neben dem gewünschten FTP-Konto klicken.
+
+>[!NOTE]
+>
+>Benachrichtigungen werden nicht gesendet, wenn bei einem Import keine Änderungen an einer Klassifizierung vorgenommen werden. Eine E-Mail wird nur gesendet, wenn sie erfolgreich ist und Änderungen an einer Classification zur Folge hat.
