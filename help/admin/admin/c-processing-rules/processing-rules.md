@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Übersicht über Verarbeitungsregeln
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 87%
 
 ---
 
@@ -40,11 +43,11 @@ Nun sind Administratoren **standardmäßig** dazu berechtigt, Verarbeitungsregel
 
 >[!IMPORTANT]
 >
->Da die Verarbeitungsregeln dauerhafte Auswirkungen auf die Analytics-Daten haben, empfehlen wir dringend, dass Verarbeitungsregeladministratoren eine Zertifizierung für Adobe Analytics erhalten und mit sämtlichen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Websites, mobile Apps, Data Insertion API usw.) vertraut sind. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
+>Da Verarbeitungsregeln dauerhafte Auswirkungen auf Analytics-Daten haben, empfiehlt Adobe dringend, dass Verarbeitungsregeladministratoren eine Zertifizierungsschulung in Adobe Analytics erhalten und mit allen Datenquellen für Ihre Report Suites (Standard-Websites, mobile Sites, mobile Apps, Dateneinfüge-API usw.) vertraut sein sollten. Kenntnisse der Kontextdatenvariablen sowie der Standardvariablen, die in verschiedenen Plattformen enthalten sind, tragen dazu bei, ein versehentliches Löschen oder Ändern von Daten zu vermeiden.
 
 ## Vereinfachung der Datenerfassung durch Kontextdaten {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Kontextdatenvariablen sind ein neuartiger Variablentyp, der nur für Verarbeitungsregeln zur Verfügung steht. Für die Verwendung von Kontextdatenvariablen werden Schlüssel-Wert-Datenpaare durch unsere Implementierung eingereicht, und es werden Verarbeitungsregeln angewendet, um diese Werte in Standard-Analytics-Variablen zu erfassen. So müssen Programmierer nicht immer genau wissen, welche Prop und/oder eVar welchen Wert enthalten muss.
+Kontextdatenvariablen sind Variablentypen, die nur für Verarbeitungsregeln verfügbar sind. Für die Verwendung von Kontextdatenvariablen werden Schlüssel-Wert-Datenpaare durch unsere Implementierung eingereicht, und es werden Verarbeitungsregeln angewendet, um diese Werte in Standard-Analytics-Variablen zu erfassen. So müssen Programmierer nicht immer genau wissen, welche Prop und/oder eVar welchen Wert enthalten muss.
 
 ![](assets/evar-context-map.png)
 
