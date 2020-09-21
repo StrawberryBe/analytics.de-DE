@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 42%
+ht-degree: 61%
 
 ---
 
@@ -18,7 +18,7 @@ Die Dimension „Woche“ zeigt die Woche an, in der eine bestimmte Metrik aufge
 
 Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionen
+## Dimensionselemente
 
 In Analysis Workspace beinhalten Dimensionselemente das Datum (Monat, Tag und Jahr) des ersten Wochentags.
 
