@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 83%
       + [Konversionen](ga-to-aa/reports/conversions-reports.md)
    + [Häufig gestellte Fragen](ga-to-aa/faq.md)
    + [Verarbeitungsunterschiede zwischen Plattformen](ga-to-aa/processing-differences.md)
-   + [Daten mit Produkten von Drittanbietern vergleichen](ga-to-aa/compare-data.md)
+   + [Vergleichen von Daten mit Produkten von Drittanbietern](ga-to-aa/compare-data.md)
 + Analyse der von Ereignissen betroffenen Daten {#event}
    + [Analyse der von Ereignissen betroffenen Daten – Übersicht](event/overview.md)
-   + [Fehlerbehebung bei Datenspitzen/Datenverlust](event/spikes-drops.md)
+   + [Fehlerbehebung bei Datenspitzen/Datenrückgängen](event/spikes-drops.md)
    + [Ausschließen spezifischer Daten in der Analyse](event/segments.md)
    + [Vergleichen von Daten mit vorherigen Datumsbereichen](event/compare-dates.md)
    + [Ableiten von Daten, die von Ereignissen betroffen sind](event/calcmetrics.md)
