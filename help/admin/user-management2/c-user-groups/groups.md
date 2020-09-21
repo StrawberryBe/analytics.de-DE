@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Komplettzugriff, benutzerspezifisch, kein Zugriff) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Berechtigungen werden für Benutzer unterstützt, die über aktive <span class="keyword">TagManager</span>-Container verfügen. Für neue Benutzer sind sie nicht verfügbar. </p> <p>Adobe empfiehlt für die Implementierung die Verwendung des <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>. </p> </td> 
+   <td colname="col2"> <p>Berechtigungen werden für Benutzer unterstützt, die über aktive <span class="keyword">TagManager</span>-Container verfügen. Für neue Benutzer sind sie nicht verfügbar. </p> <p>Adobe empfiehlt für die Implementierung die Verwendung des <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Benutzeranmeldungen zuweisen</b> </td> 
