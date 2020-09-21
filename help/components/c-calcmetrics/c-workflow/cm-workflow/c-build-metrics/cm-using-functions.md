@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Mit Funktionen können Sie Daten filtern/sortieren und eine statistische Analyse vornehmen.
 
-Eine Liste aller Funktionen finden Sie unter [Grundfunktionen](/help/components/c-calcmetrics/cm-reference/cm-functions.md) und [Erweiterte Funktionen](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
+Eine Liste aller Funktionen finden Sie unter  [Grundfunktionen](/help/components/c-calcmetrics/cm-reference/cm-functions.md) und [Erweiterte Funktionen](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 >[!NOTE]
 >
