@@ -25,11 +25,11 @@ In den folgenden Abschnitten werden Beschränkungen aufgeführt, die für Data S
 * [Multibyte-Unterstützung](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
 * [Hochladen von Webprotokolldateien ](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
-## Größenbeschränkungen {#section_77B06D82CB374FFABD39F7D9A49D8E18}
+## Größenbeschränkungen  {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
 * Jedes FTP-Konto kann maximal Daten in Höhe von 50 MB umfassen. Die Verarbeitung wird angehalten, wenn die Datenmenge 50 MB übersteigt, und wird erst fortgesetzt, wenn die Gesamtmenge unter 50 MB liegt.
 
-## Daten {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## Daten  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * Sie können an jedem Kalendertag Daten für 90 individuelle Daten hochladen. Wenn Sie diesen Grenzwert überschreiten, schlägt der Upload fehl und Sie erhalten eine Fehlermeldung, die darauf hinweist, dass Sie das Maximum für eindeutige Tage überschritten haben.
 * Nur Daten aktuellen Datums oder vergangener Daten können importiert werden. Versuchen Sie nicht, zukünftige Daten in Ihren Data Sources-Daten zu verwenden.
@@ -90,7 +90,7 @@ Wenn Sie eine UTF-8- oder ISO-8859-1-Datei einreichen und Ihre Bericht-Suite die
 * Wenn der Fehler während der Konversion erkannt wird, erhalten Sie eine Meldung wie die folgende: „Fehlerhaftes Zeichen in Datei an Position 18 beim Konvertieren von UTF-8 nach ISO-8859-1“.
 * Die Datei wird ohne Fehler verarbeitet, aber es werden unleserliche Daten im Bericht ausgegeben.
 
-## Hochladen von Webprotokolldateien {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Hochladen von Webprotokolldateien  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Die nützlichsten Berichte zum Anzeigen von Webprotokolldaten sind Traffic-Berichte wie Seitenansichten.
 * Seitennamen werden als gesamte URL angezeigt, darunter auch die Abfragezeichenfolge.
