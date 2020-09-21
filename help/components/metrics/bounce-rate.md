@@ -1,11 +1,11 @@
 ---
 title: Absprungrate
 description: Das Verhältnis der Besuche mit genau einem Treffer zu den Einstiegen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '77'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
