@@ -3,9 +3,9 @@ description: So wenden Sie eines oder mehrere Segmente über die Segmentleiste a
 title: Segmente auswählen und anwenden
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ So wenden Sie eines oder mehrere Segmente über die Segmentleiste auf einen Beri
 
    >[!NOTE]
    >
-   >Sie können mehr als ein Segment auf einen Bericht anwenden (dies wird als Segmentstapelung bezeichnet). Wenn mehrere Segmente angewendet werden, werden die in den einzelnen Segmenten enthaltenen Kriterien mit einem UND-Operator verbunden und dann angewendet. Sie können beliebig viele Segmente stapeln.
+   >Sie können mehr als ein Segment auf einen Bericht anwenden (dies wird als Segmentstapelung bezeichnet). Wenn mehrere Segmente angewendet werden, werden die in den einzelnen Segmenten enthaltenen Kriterien mit einem AND-Operator verbunden und dann angewendet. Sie können beliebig viele Segmente stapeln.
 
    >[!NOTE]
    >
