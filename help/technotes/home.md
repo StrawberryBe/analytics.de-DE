@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Technotes – Startseite
 
-Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analysetool oder einer bestimmten Komponente gehören.
+Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analytics-Tool oder einer bestimmten Komponente gehören.
 
 ## Wichtige Technote-Artikel
 
