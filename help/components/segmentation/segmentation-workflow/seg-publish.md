@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -133,5 +133,5 @@ In AAM wird die Liste der Besucher mit ECIDs für ein bestimmtes Segment in Form
 
 Wenn das Kontrollkästchen [!UICONTROL Dieses Segment in Experience Cloud veröffentlichen] während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in Analytics oder Audience Manager erstelltes Segment kann für Aktivitäten in Target verwendet werden. Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen.
 
-1. Click [!UICONTROL Audiences].
+1. Klicken Sie auf [!UICONTROL Zielgruppen].
 1. Suchen Sie auf der Seite [!UICONTROL Zielgruppen] die aus der [!DNL Experience Cloud] stammende Zielgruppe. Diese Zielgruppen sind für [!DNL Target]-Aktivitäten verfügbar.
