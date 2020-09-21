@@ -3,8 +3,11 @@ description: Eine Einführung in häufig gebrauchte Webanalysebegriffe, die in M
 title: Häufig verwendete Begriffe
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p>Besuch </p> </td> 
-   <td> <p>Eine Folge von Seitenansichten während einer Sitzung. Der Besuch wird nach 30-minütiger Inaktivität oder nach zwölfstündiger kontinuierlicher Aktivität beendet. (Diese Zeitvorgaben sind der Standard im Bereich der Webanalyse.) Besuche werden anhand von Cookies nachverfolgt. Ein Besuch beginnt, wenn ein Besucher auf eine Seite zugreift. Ein Besuch wird auch bezeichnet als  <span class="term">Sitzung</span> bezeichnet, es handelt sich jedoch nicht um eine Browser-Sitzung. Das Aufrufen einer anderen Seite, das Schließen des Browsers und sogar ein Neustart des Computers führt nicht zu einer Beendigung eines Besuchs. </p> <p> Wenn das Zeitlimit für Inaktivität erreicht wird während ein Besucher auf die Seite zugreift, wird der Besuch abgebrochen und verarbeitet. Ein neuer Besuch beginnt wenn der Besucher auf eine andere Seite zugreift. </p> <p>Wenn sich das Datum während eines Besuchs ändert, beispielsweise wenn eine Seite um Mitternacht aufgerufen wird, wird diesem Besuch das Datum des Beginns des Besuchs zugewiesen. </p> </td> 
+   <td> <p>Eine Folge von Seitenansichten während einer Sitzung. Der Besuch wird nach 30-minütiger Inaktivität oder nach zwölfstündiger kontinuierlicher Aktivität beendet. (Diese Zeitvorgaben sind der Standard im Bereich der Webanalyse.) Besuche werden anhand von Cookies nachverfolgt. Ein Besuch beginnt, wenn ein Besucher auf eine Seite zugreift. Ein Besuch wird auch bezeichnet als   <span class="term">Sitzung</span> bezeichnet, es handelt sich jedoch nicht um eine Browser-Sitzung. Das Aufrufen einer anderen Seite, das Schließen des Browsers und sogar ein Neustart des Computers führt nicht zu einer Beendigung eines Besuchs. </p> <p> Wenn das Zeitlimit für Inaktivität erreicht wird während ein Besucher auf die Seite zugreift, wird der Besuch abgebrochen und verarbeitet. Ein neuer Besuch beginnt wenn der Besucher auf eine andere Seite zugreift. </p> <p>Wenn sich das Datum während eines Besuchs ändert, beispielsweise wenn eine Seite um Mitternacht aufgerufen wird, wird diesem Besuch das Datum des Beginns des Besuchs zugewiesen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Unique Visitor </p> </td> 
@@ -63,7 +66,7 @@ Eine Einführung in häufig verwendete Adobe Analytics-Begriffe.
   </tr> 
   <tr> 
    <td> <p>Kanal </p> </td> 
-   <td> <p> Definierte Abschnitte oder Kategorien Ihrer Seite. Webseiten mit zwei Hauptkategorien, zum Beispiel  <span class="term">Wetter</span> und <span class="term">Nachrichten</span>, haben zwei Kanäle. Sie können Statistiken für alle Seitenansichten gruppieren, die innerhalb eines Kanals auf Ihrer Site vorhanden sind. </p> </td> 
+   <td> <p> Definierte Abschnitte oder Kategorien Ihrer Seite. Webseiten mit zwei Hauptkategorien, zum Beispiel   <span class="term">Wetter</span> und <span class="term">Nachrichten</span>, haben zwei Kanäle. Sie können Statistiken für alle Seitenansichten gruppieren, die innerhalb eines Kanals auf Ihrer Site vorhanden sind. </p> </td> 
   </tr> 
  </tbody> 
 </table>
