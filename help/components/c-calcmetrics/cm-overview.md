@@ -19,7 +19,7 @@ Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinie
 Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
 
 * Adobe [!DNL Analytics] Foundation: Berechnet
-* [Adobe Analytics Select](https://www.adobe.com/de/data-analytics-cloud/analytics/select.html): Berechnet + erweitert berechnet
+* [Adobe Analytics Select](https://www.adobe.com/de/data-analytics-cloud/analytics/select.html): Berechnet  + erweitert berechnet
 * [Adobe Analytics Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html): Berechnet + erweitert berechnet
 * [Adobe Analytics Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html): Berechnet + erweitert berechnet
 
@@ -35,7 +35,7 @@ Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berec
 | [Allgemeine Funktionen (Zählen, Anzeigenwert, Mittel etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Nein | Ja |
 | [Erweiterte Funktionen (Regression, Wenn-Dann, T-Transformation etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Nein | Ja |
 
-## Funktionen {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## Funktionen  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 Sie können
 
@@ -103,7 +103,7 @@ Im Folgenden erhalten Sie einen kurzen Überblick über die Werkzeuge für [!UIC
   </tr> 
   <tr> 
    <td colname="col1"> Leiste „Metrikauswahl“ </td> 
-   <td colname="col2"> <p>Ersetzt das Popup-Fenster <span class="uicontrol">Metriken anzeigen</span> in <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Damit können Sie auch Metriken suchen und sie dem Bericht hinzufügen bzw. auf ihn anwenden. Außerdem können Sie die <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >Sortierfolge</a> ändern (Optionen sind: Alphabetisch, Empfohlen, Häufig verwendet, Kürzlich verwendet). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden. </p> <p>Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> auf der linken Seite eines Berichts. Die Metrikauswahl sieht wie folgt aus: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Ersetzt das Popup-Fenster <span class="uicontrol">Metriken anzeigen</span> in <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Damit können Sie auch Metriken suchen und sie dem Bericht hinzufügen bzw. auf ihn anwenden. Außerdem können Sie die  <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >Sortierfolge</a> ändern (Optionen sind: Alphabetisch, Empfohlen, Häufig verwendet, Kürzlich verwendet). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden. </p> <p>Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> auf der linken Seite eines Berichts. Die Metrikauswahl sieht wie folgt aus: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API für berechnete Metriken</a> </td> 
