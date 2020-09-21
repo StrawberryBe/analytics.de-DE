@@ -1,11 +1,11 @@
 ---
 title: Browser-Breite – zusammengefasst
 description: Die Breite des Browser-Fensters in Pixel.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Diese Dimension ruft Daten aus der [`bw` Abfragezeichenfolge](/help/implement/va
 
 Adobe behält die Browser-Breite für einen Besuch bei. Wenn die Browser-Breite während des Besuchs angepasst wird, wird die Anpassung nicht aufgezeichnet.
 
-## Dimensionen
+## Dimensionselemente
 
-Die Elemente der Dimension umfassen alle erfassten Browserbreiten, die in 100-Pixel-Gruppen eingeteilt sind. For example, if the browser width of a hit is `1280`, then it is grouped in the dimension item `1200 to 1299`.
+Zu den Dimensionselementen gehören alle erfassten Browser-Breiten, klassifiziert in Gruppen von 100 Pixel. Wenn die Browser-Breite eines Treffers beispielsweise `1280` beträgt, wird sie im Dimensionselement `1200 to 1299` gruppiert.
