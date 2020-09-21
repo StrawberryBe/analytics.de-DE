@@ -29,7 +29,7 @@ Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei de
  <tbody> 
   <tr> 
    <td colname="col1"> ClickMap aktivieren </td>
-   <td colname="col2"> <p>Bestimmt, ob Daten zur Besucherklickzuordnung gesammelt werden. </p> <p>Siehe <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Bestimmt, ob Daten zur Besucherklickzuordnung gesammelt werden. </p> <p>Siehe  <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Downloadlinks verfolgen </td>
