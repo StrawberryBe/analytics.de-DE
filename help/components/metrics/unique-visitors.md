@@ -1,18 +1,18 @@
 ---
 title: Unique Visitors
 description: Die Anzahl der eindeutigen Einzelanwender (oder Geräte).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Unique Visitors
 
-Die Metrik &quot;Individuelle Besucher&quot;zeigt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Datenverkehrs, da es einen Überblick über die Popularität eines Dimensionselements auf hoher Ebene gibt. Beispielsweise kann ein Besucher einen Monat lang jeden Tag auf Ihre Website kommen. Er zählt aber trotzdem als ein Unique Visitor.
+Die Metrik „Unique Visitors“ gibt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffic, da sie einen allgemeinen Überblick über die Beliebtheit eines Dimensionselements bietet. Beispielsweise kann ein Besucher einen Monat lang jeden Tag auf Ihre Website kommen. Er zählt aber trotzdem als ein Unique Visitor.
 
 Wenn Sie [geräteübergreifende Analysen](../cda/overview.md) verwenden, wird diese Metrik in „Unique Devices“ umbenannt.
 
@@ -20,11 +20,11 @@ Wenn Sie [geräteübergreifende Analysen](../cda/overview.md) verwenden, wird di
 
 Reports &amp; Analytics bietet Optionen für Unique Visitors pro Tag, Woche, Monat, Quartal und Jahr. Anstatt einen Unique Visitor für den gesamten Zeitraum zu zählen, werden Unique Visitor basierend auf der ausgewählten Metrik gezählt. Sie möchten beispielsweise die Unique Visitors pro Tag Ihrer Site anzeigen. Wenn ein Besucher morgens und abends auf Ihre Site kommt, zählt er als ein Unique Visitor pro Tag. Wenn ein Besucher am Montag und erneut am Dienstag auf Ihre Site kommt, zählt er als zwei Unique Visitors pro Tag.
 
-Analysis Workspace behandelt Unique Visitors auf Grundlage der Granularität des Berichts. For example, if you use the [Day](../dimensions/day.md) dimension, you&#39;ll see daily unique visitors for each dimension item. Für den Gesamtwert des Berichts werden jedoch für den Datumsbereich der Freiformtabelle deduplizierte Unique Visitors angezeigt.
+Analysis Workspace behandelt Unique Visitors auf Grundlage der Granularität des Berichts. Wenn Sie beispielsweise die Dimension [Tag](../dimensions/day.md) verwenden, sehen Sie für jedes Dimensionselement Unique Visitors pro Tag. Für den Gesamtwert des Berichts werden jedoch für den Datumsbereich der Freiformtabelle deduplizierte Unique Visitors angezeigt.
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt die Anzahl der eindeutigen Besucher-IDs für ein bestimmtes Dimensionselement. Sie verwendet mehrere fortschrittliche Mechanismen, um Unique Visitors zu identifizieren, da es mehrere Möglichkeiten gibt, sie zu identifizieren. In der folgenden Tabelle sind die Art und Weise aufgeführt, wie ein Besucher identifiziert wird, sowie deren Priorität. Einige Treffer können über mehrere Methoden zur Besucheridentifizierung verfügen. In diesen Fällen wird die Methode mit der höheren Priorität verwendet.
+Diese Metrik zählt die Anzahl der Unique Visitor-IDs für ein gegebenes Dimensionselement. Sie verwendet mehrere fortschrittliche Mechanismen, um Unique Visitors zu identifizieren, da es mehrere Möglichkeiten gibt, sie zu identifizieren. In der folgenden Tabelle sind die Art und Weise aufgeführt, wie ein Besucher identifiziert wird, sowie deren Priorität. Einige Treffer können über mehrere Methoden zur Besucheridentifizierung verfügen. In diesen Fällen wird die Methode mit der höheren Priorität verwendet.
 
 | Verwendete Reihenfolge | Abfrageparameter (Erfassungsmethode) | Vorhanden, wenn |
 | --- | --- | --- |
