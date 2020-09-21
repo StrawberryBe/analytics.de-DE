@@ -5,6 +5,9 @@ title: Audience Analytics-Übersicht
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '464'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Die Audience Analytics-Integration umfasst die folgenden wesentlichen Vorteile:
 ![](assets/mc-aud-dataflow.png)
 
 1. Bei jedem Besuch eines Benutzers Ihrer digitalen Eigenschaften werden Treffer gesammelt und an Analytics weitergeleitet.
-1. Mit [Serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md) wird jeder Treffer, den Analytics erhält, automatisch in Echtzeit an AAM gesendet.
+1. Mit  [Serverseitige Weiterleitung](/help/admin/admin/c-server-side-forwarding/ssf.md) wird jeder Treffer, den Analytics erhält, automatisch in Echtzeit an AAM gesendet.
 1. Durch die Audience Analytics-Integration wird in Echtzeit für jeden Treffer die Zugehörigkeit eines Besuchers in einer Zielgruppe in AAM überprüft und eine Liste von Segment-IDs an Analytics zur Verarbeitung zurückgegeben.
 
 Da AAM-Segmente auf Grundlage übereinstimmender Treffer eingefügt werden, haben Sie die Gewissheit, dass die in AAM verfügbaren Daten zu einem Besucher für den jeweiligen Treffer vollständig und aktuell sind. Dies ist einem AppMeasurement-Plugin überlegen, da ein Plugin diese Segmente erst beim nächsten Treffer (und nicht schon beim aktuellen Treffer) verfügbar machen kann.
