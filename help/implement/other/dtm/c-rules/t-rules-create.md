@@ -6,6 +6,9 @@ title: Neue Regel erstellen
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +27,6 @@ In diesen Schritten wird beschrieben, wie Sie mit dem Dynamic Tag Management Reg
    * **Ereignisbasierte Regel:** [Bedingungen für ereignisbasierte Regeln erstellen](/help/implement/other/dtm/c-rules/t-rules-event-conditions.md)
    * **Seitenladeregel:** [Bedingungen für Seitenladeregeln erstellen](/help/implement/other/dtm/c-rules/t-rules-page-conditions.md)
    * **Regel für Direktaufruf:** [Bedingungen für Direktaufrufregeln erstellen](/help/implement/other/dtm/c-rules/t-rules-direct-conditions.md)
+
    Das Kategoriefeld dient nur Ihren eigenen Organisationszwecken. Es ist optional. Sie können Kategorien löschen, indem Sie auf das x-Symbol in der Kategorie klicken.
 1. [Aktionen einrichten, die von der Bedingung ausgelöst werden](/help/implement/other/dtm/c-rules/t-rules-actions.md).
