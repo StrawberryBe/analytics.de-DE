@@ -1,11 +1,11 @@
 ---
 title: Browser-Höhe – zusammengefasst
 description: Die Höhe des Browser-Fensters in Pixel.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Diese Dimension ruft Daten aus der [`bh` Abfragezeichenfolge](/help/implement/va
 
 Adobe behält die Browser-Höhe für einen Besuch bei. Wenn die Browser-Höhe während des Besuchs angepasst wird, wird die Anpassung nicht aufgezeichnet.
 
-## Dimensionen
+## Dimensionselemente
 
-Die Elemente der Dimension umfassen alle erfassten Browserhöhen, die in 100-Pixel-Gruppen eingeteilt sind. For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.
+Zu den Dimensionselementen gehören alle erfassten Browser-Höhen, klassifiziert in Gruppen von 100 Pixel. Wenn die Browser-Höhe eines Treffers beispielsweise `720` beträgt, wird sie im Dimensionselement `700 to 799` gruppiert.
