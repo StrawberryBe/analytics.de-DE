@@ -3,10 +3,10 @@ description: 'null'
 title: Project Converter – FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 98%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Streudiagramm</b>: In exportierten Projekten in Analysis Workspace wird die Y-Achse als erste Spalte, die X-Achse als zweite und der Durchmesser als dritte Spalte festgelegt. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Trichteranalysetabellen</b>: Wenn Sie Fallthrough- oder Trichteranalysetabellen anzeigen möchten, klicken Sie mit der rechten Maustaste auf den Checkpoint und wählen eine Aufschlüsselungsoption aus. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Datumsbereiche für Fallout-Berichtsebene</b>: Angepasste Datumsbereiche werden nicht auf Fallout-Visualisierungen angewendet. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Flussbericht</b>: Der Fluss wird in ein eigenes Panel verschoben, um die Datumsbereiche und Segmentierung beizubehalten. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Flussbericht</b>: Der Fluss wird in ein eigenes Panel verschoben, um die Datumsbereiche und Segmentierung beizubehalten. Wiederholungsinstanzen können unter "Flusseinstellungen"ein- oder ausgeschlossen werden. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Konversion Funnel</b>: Wird in eine Freiform-Tabelle konvertiert, da diese Funktion in Analysis Workspace nicht unterstützt wird. Es wird empfohlen, den Conversion Funnel in eine Trichteranalyse-Visualisierung zu konvertieren. Infolgedessen ergibt sich jedoch ein leicht abweichendes Verhalten. </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 98%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Segmente befinden sich innerhalb des konvertierten Projekts (und sind nicht öffentlich). Sie können diese jedoch als öffentlich festlegen, wie im Folgenden dargestellt: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Der Datumsbereich auf Ad Hoc Analysis-Arbeitsbereichsebene wird in Analysis Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Segmente der Ad Hoc Analysis auf Berichtsebene werden in Workspace auf Tabellenspaltenebene angewendet. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis-Tabellensegmente werden in Workspace auf Spaltenebene angewendet. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis-Tabellensegmente werden auf Tabellenspaltenebene in Workspace angewendet. </li> 
     </ul> <p>Die Segmente lassen sich im <a href="https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html"  >Segment-Builder</a> bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Wie werden Datumsbereiche konvertiert?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">In dem Datumsbereich „Letzte X Tage“ in Ad Hoc Analysis wird der heutige Tag <i>nicht einbezogen</i>, in Analysis Workspace hingegen <i>erfolgt die Einbeziehung</i> des aktuellen Tages. Daher wird ein Datumsbereich wie „Letzte 90 Tage“ in den beiden Tools unter Umständen keine genaue Übereinstimmung liefern. Nutzen Sie individuelle Datumsbereiche, um den gleichen Zeitraum in Analysis Workspace abzurufen. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">In dem Datumsbereich „Letzte X Tage“ in Ad Hoc Analysis wird der heutige Tag <i>nicht einbezogen</i>, in Analysis Workspace hingegen <i>erfolgt die Einbeziehung</i> des aktuellen Tages. Daher stimmen Datumsbereiche wie "Letzte 90 Tage"möglicherweise nicht genau zwischen den Tools überein. Verwenden Sie stattdessen den Bereich "Letzte X <b>volle </b> Tage"in Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Der Datumsbereich auf Ad Hoc Analysis-Arbeitsbereichsebene wird in Analysis Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Der Datumsbereich auf Ad Hoc Analysis-Berichtsebene wird in Analysis Workspace auf Tabellenspaltenebene angewendet. </li> 
     </ul> <p>Sie haben die Möglichkeit, benutzerdefinierte Datumsbereiche unter <span class="uicontrol">Analyse</span> &gt; <span class="uicontrol">Komponenten</span> &gt; <span class="uicontrol">Datumsbereiche</span> zu bearbeiten. </p> </td> 
