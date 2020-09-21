@@ -95,7 +95,7 @@ ht-degree: 98%
    + Kuratieren oder Freigeben von Projekten {#curate-share}
       + [Kuratieren von Workspace-Projekten](analysis-workspace/curate-share/curate.md)
       + [Freigeben von Workspace-Projekten](analysis-workspace/curate-share/share-projects.md)
-      + [Erstellen von teilbaren Verknüpfungen](analysis-workspace/curate-share/shareable-links.md)
+      + [Erstellen von freigebbaren Links](analysis-workspace/curate-share/shareable-links.md)
       + [Schreibgeschützte Workspace-Projekte](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF- oder CSV-Dateien herunterladen](analysis-workspace/curate-share/download-send.md)
       + [Projektdateien freigeben und planen](analysis-workspace/curate-share/send-schedule-files.md)
@@ -309,7 +309,7 @@ ht-degree: 98%
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
    + [Fehlerbehebung](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Ad Hoc Analysis Project Converter – Übersicht](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad Hoc Analysis konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
