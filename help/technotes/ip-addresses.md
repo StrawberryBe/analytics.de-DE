@@ -5,33 +5,33 @@ translation-type: tm+mt
 source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 17%
+ht-degree: 87%
 
 ---
 
 
 # Von Adobe Analytics verwendete IPs und Domänen
 
-Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Datenerfassungsservern der Adobe oder von Servern stammen, die für den Zugriff auf Daten zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens zu ändern, um den Zugriff zu ermöglichen und Daten aus Ihrem Unternehmen zu senden.
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Adobes Datenerfassungs-Servern oder Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist.
 
 >[!IMPORTANT]
 >
->Während Adobe ihr Bestes tut, um dieses Dokument aktuell zu halten, kann sie nicht garantieren, dass die Liste der IP-Bereiche gleich bleibt. Mögliche Änderungen beinhalten das Geschäftswachstum und die Geschäftsausweitung, eine Internetregistrierung erfordert Änderungen am IP-Adressenraum der Adobe, oder ein Dienstleister funktioniert nicht mehr.
+>Adobe bemüht sich nach besten Kräften, dieses Dokument aktuell zu halten, kann jedoch nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören Wachstum und Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressraum von Adobe, oder ein Internet-Dienstleister funktioniert nicht mehr.
 
 ## Abhängige Technologiedomänen zulassen
 
-Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen zur Zulassungsliste Ihrer Firewall hinzuzufügen, um eine optimale Nutzung von Adobe Analytics zu ermöglichen.
+Adobe Analytics verwendet die folgenden Hosts, um die Leistung und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen zur Zulassungsliste Ihrer Firewall hinzuzufügen, um eine optimale Nutzung von Adobe Analytics zu gewährleisten.
 
 | Technologie | Domäne |
 | --- | --- |
 | Adobe Analytics-Domäne | `adobe.com` |
-| Adobe Analytics-Domäne | `omniture.com` |
+| Veraltete Adobe Analytics-Domäne | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Microsoft Azurblase-Datenspeicherung | `awaascicdprodva7.blob.core.windows.net` |
-| Microsoft Agar CDN | `aauicdnva7.azureedge.net` |
+| Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
+| Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
 ## Alle IP-Adressblöcke von Adobe Analytics
 
@@ -52,7 +52,7 @@ Die folgende Tabelle enthält alle Standarddatenerfassungsserver und regionalen 
 
 ## Datenerfassungs- und FTP-IP-Adressblöcke
 
-Wenn Ihr Unternehmen bestimmte IP-Adressbereiche bevorzugt, können Sie die folgende Tabelle verwenden. Alle Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
+Wenn Ihr Unternehmen es vorzieht, bestimmte IP-Adressbereiche zuzulassen, können Sie die folgende Tabelle verwenden. Alle Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
 | Standort | IP-Bereich (CIDR-Notation) |
 | --- | --- |
@@ -62,7 +62,7 @@ Wenn Ihr Unternehmen bestimmte IP-Adressbereiche bevorzugt, können Sie die folg
 | Dallas | `66.235.140.0/22` |
 | Dallas | `63.140.32.0/21` |
 | Dallas | `172.82.208.0/22` |
-| Hongkong SAR China | `66.117.24.0/22` |
+| Sonderverwaltungsregion Hongkong der Volksrepublik China | `66.117.24.0/22` |
 | London | `66.235.156.0/24` |
 | London | `66.235.148.0/23` |
 | London | `63.140.40.0/22` |
@@ -113,7 +113,7 @@ Wenn Ihr Unternehmen bestimmte IP-Adressbereiche bevorzugt, können Sie die folg
 
 ## AWS-Hosts
 
-Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für die Adobe reserviert sind. Diese Hosts werden **nicht** im obigen Aggregat-Blockbereich enthalten.
+Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozesses. Die folgende Tabelle enthält AWS-Hosts, die für Adobe reserviert sind. Diese Hosts sind **nicht** im obigen aggregierten Blockbereich enthalten.
 
 | Standort | Host |
 | --- | --- |
