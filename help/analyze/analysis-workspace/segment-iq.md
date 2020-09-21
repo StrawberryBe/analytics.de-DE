@@ -2,8 +2,11 @@
 title: Übersicht über Segment IQ
 description: Erfahren Sie, was Adobe Analytics Segment IQ ist und wie es Ihrem Unternehmen helfen kann.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
+workflow-type: ht
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
