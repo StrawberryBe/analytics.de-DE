@@ -2,11 +2,11 @@
 description: Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verweisen auf die zugehörige Dokumentation.
 title: Vergleich der Analytics-Reporting-APIs
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Eine Vergleichstabelle für die Berichterstellungs-APIs in Analytics. Links verw
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/de-DE/analytics/landing/home.html"  > Berichtsschnittstellen</a> </td> 
    <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
-   <td colname="col3"> Echtzeitbericht in Reports &amp; Analytics, Report Builder, 1.4 API </td> 
+   <td colname="col3"> Echtzeitberichte in Reports &amp; Analytics, Report Builder, 1.4 API </td> 
    <td colname="col4"> Nur API </td> 
    <td colname="col5"> Data Warehouse und API </td> 
   </tr> 
