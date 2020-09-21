@@ -86,11 +86,11 @@ Weitere nützliche Hinweise werden im [!UICONTROL Quick Insights Builder] angeze
 
    ![](assets/qibuilder5.png)
 
-* **Weitere Metriken hinzufügen**: Mithilfe des UND-Operators können Sie bis zu 2 weitere Metriken hinzufügen.
+* **Weitere Metriken hinzufügen**: Mithilfe des AND-Operators können Sie bis zu 2 weitere Metriken hinzufügen.
 
    ![](assets/qibuilder6.png)
 
-* **Weitere Segmente hinzufügen**: Mithilfe des UND- oder ODER-Operators können Sie bis zu 2 weitere Segmente hinzufügen. Sehen Sie sich an, was mit der Tabelle passiert, wenn Sie „Mobilbenutzer ODER Treue Besucher“ hinzufügen. Sie finden sie nebeneinander über den Metriken. Wenn Sie „Mobilbenutzer UND Treue Besucher“ hinzufügen, werden die Ergebnisse beider Segmente zusammen angezeigt und in der Tabelle übereinander gestapelt.
+* **Weitere Segmente hinzufügen**: Mithilfe des AND- oder OR-Operators können Sie bis zu 2 weitere Segmente hinzufügen. Sehen Sie sich an, was mit der Tabelle passiert, wenn Sie „Mobilbenutzer OR Treue Besucher“ hinzufügen. Sie finden sie nebeneinander über den Metriken. Wenn Sie „Mobilbenutzer AND Treue Besucher“ hinzufügen, werden die Ergebnisse beider Segmente zusammen angezeigt und in der Tabelle übereinander gestapelt.
 
    ![](assets/qibuilder7.png)
 
