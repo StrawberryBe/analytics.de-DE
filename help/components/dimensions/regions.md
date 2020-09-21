@@ -1,11 +1,11 @@
 ---
 title: Regionen
 description: Die geografische Region des Besuchers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert 
 >
 >Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich mit der Report Suite-ID an die Kundenunterstützung und bitten Sie darum, die Option „Geografie“ für die Report Suite zu deaktivieren.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Dimensionen gehören Regionen und das Land, in dem sich die Region befindet. Zu den Beispielwerten gehören `"California (United States)"`, `"Tokyo (Japan)"` oder `"Sao Paulo (Brazil)"`.
+Zu den Dimensionselementen gehören Regionen und das Land, in dem sich die Region befindet. Zu den Beispielwerten gehören `"California (United States)"`, `"Tokyo (Japan)"` oder `"Sao Paulo (Brazil)"`.
 
-Einige Dimensionselemente können `"AOL"`ein DFÜ-Dienstleister sein. Abonnenten dieses Dienstes wird je nach Land, in dem ihre Kontonummer angegeben ist, ein Zugangspunkt zugewiesen. AOL-Benutzer verwenden die IP-Adresse dieses Zugriffspunkts. Da diese Dimension auf der IP-Adresse basiert, wird die Geolokation des Zugriffspunkts anstelle des tatsächlichen Standorts des Besuchers verwendet.
+Einige Dimensionselemente können `"AOL"`, einen DFÜ-Dienstleister umfassen. Abonnenten dieses Dienstes wird ein Zugangspunkt zugewiesen, der auf dem Land basiert, in dem ihre Kontonummer eingerichtet ist. AOL-Benutzer verwenden die IP-Adresse dieses Zugriffspunkts. Da diese Dimension auf der IP-Adresse basiert, wird die Geolokalisierung des Zugangspunktes anstelle des tatsächlichen Standortes des Besuchers verwendet.
 
 ## Unterschiede zwischen gemeldetem und tatsächlichem Standort
 
