@@ -2,11 +2,11 @@
 description: 'null'
 title: Optimieren der Analysis Workspace-Leistung
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '1306'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Komplizierte Segmente können einen erheblichen Einfluss auf die Projektleistung
 * Sequentielle Segmentierung, insbesondere wenn Dimensionseinschränkungen (innerhalb/nachher) verwendet werden
 * Anzahl der eindeutigen Dimensionselemente innerhalb der Dimensionen, die im Segment verwendet werden (z. B.: Seite = „A“, wenn Seite 10 eindeutige Elemente hat, ist schneller als Seite = „A“, wenn Seite 100000 eindeutige Elemente hat)
 * Anzahl der verschiedenen verwendeten Dimensionen (z. B.: Seite = „Startseite“ und Seite = „Suchergebnisse“ sind schneller als eVar 1 = „rot“ und eVar 2 = „blau“)
-* Viele ODER-Operatoren (anstelle von UND)
+* Viele OR-Operatoren (anstelle von AND)
 * Verschachtelte Container mit unterschiedlichem Umfang (z. B. Hit innerhalb des Besuchs innerhalb des Besuchers)
 
 **Best Practices für logische Komplexität**
@@ -32,23 +32,23 @@ Während einige der Komplexitätsfaktoren nicht verhindert werden können, sollt
 
 * Bei Containern ist die Verwendung eines einzelnen Containers am oberen Rand des Segments schneller als die Verwendung einer Reihe verschachtelter Container
 * Bei Operatoren ist „stimmt überein mit“ schneller als „enthält“ und „entspricht beliebigen von“ ist schneller als „enthält beliebige von“
-* Mit vielen Kriterien sind UND-Operatoren schneller als eine Reihe von ODER-Operatoren. Suchen Sie außerdem nach Möglichkeiten, viele ODER-Anweisungen in eine einzelne Anweisung „entspricht einem von“ zu reduzieren
+* Mit vielen Kriterien sind AND-Operatoren schneller als eine Reihe von OR-Operatoren. Suchen Sie außerdem nach Möglichkeiten, viele OR-Anweisungen in eine einzelne Anweisung „entspricht einem von“ zu reduzieren
 
-Außerdem können [Klassifizierungen](/help/components/classifications/c-classifications.md) dazu beitragen, viele Werte in präzisen Gruppen zu bündeln, aus denen Sie dann Segmente erstellen. Segmentierungen und Klassifizierungsgruppen bieten leistungsbezogene Vorteile gegenüber Segmenten mit vielen ODER-Anweisungen oder „enthält“-Kriterien.
+Außerdem können [Klassifizierungen](/help/components/classifications/c-classifications.md) dazu beitragen, viele Werte in präzisen Gruppen zu bündeln, aus denen Sie dann Segmente erstellen. Segmentierungen und Classification-Gruppen bieten leistungsbezogene Vorteile gegenüber Segmenten mit vielen OR-Anweisungen oder „enthält“-Kriterien.
 
 ## Angeforderter Datenbereich
 
 Der Bereich der während eines Projekts angeforderten Daten beeinflusst die Performance von Analysis Workspace.
 
-**Bewährte Verfahren für Datumsbereiche**
+**Best Practices für Datumsbereiche**
 
-Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen. Schränken Sie den Bereichskalender auf die relevanten Daten für Ihre Analyse ein oder verwenden Sie Datumsbereichskomponenten (violette Komponenten) in Ihren Freiformtabellen. Datumsbereiche, die in einer Tabelle verwendet werden, setzen den Datumsbereich des Bereichs außer Kraft. Sie können beispielsweise den Tabellenspalten &quot;Letzter Monat&quot;, &quot;Letzte Woche&quot;und &quot;Gestern&quot;hinzufügen, um diese spezifischen Datenbereiche anzufordern. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
+Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen. Schränken Sie den Kalender des Bedienfelds auf die relevanten Daten für Ihre Analyse ein oder verwenden Sie Datumsbereichskomponenten (violette Komponenten) in Ihren Freiform-Tabellen. In einer Tabelle verwendete Datumsbereiche überschreiben den Datumsbereich des Bedienfelds. Beispielsweise können Sie den Tabellenspalten „Letzter Monat“, „Letzte Woche“ und „Gestern“ hinzufügen, um diese spezifischen Datenbereiche anzufordern. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
 
-Minimieren Sie die Anzahl der im Vergleich zum Vorjahr verwendeten Vergleiche. Bei der Berechnung eines Jahresvergleichs werden alle 13 Monate der Daten zwischen den Zinsmonaten berücksichtigt. Dies hat die gleiche Auswirkung wie die Änderung des Datumsbereichs des Bedienfelds auf 13 Monate.
+Minimieren Sie die Anzahl der im Projekt verwendeten Jahresvergleiche. Bei der Berechnung eines Jahresvergleichs werden die gesamten 13 Monate von Daten zwischen den betrachteten Monaten berücksichtigt. Dies hat die gleiche Auswirkung wie die Änderung des Datumsbereichs des Bedienfelds auf 13 Monate.
 
 ## Anzahl der Visualisierungen
 
-Die Anzahl der in einem Projekt enthaltenen Visualisierungen wirkt sich auf die Reaktionsgeschwindigkeit des Analysis Workspace insgesamt aus. Das liegt daran, dass jede Visualisierung, ob eine Tabelle oder ein Diagramm, über eine Datenquelle verfügt, die angefordert werden muss.
+Die Anzahl der Visualisierungen beeinflusst die Reaktionsschnelligkeit von Analysis Workspace. Dies liegt daran, dass jede Visualisierung, sei es eine Tabelle oder ein Diagramm, eine Datenquelle hat, die angefordert werden muss.
 
 **Best Practices für die Anzahl der Visualisierungen**
 
@@ -81,14 +81,14 @@ Versuchen Sie nicht, alles in ein Projekt zu packen. Erstellen Sie stattdessen s
 
 Wenn Sie Ihre Projekte noch genauer organisieren möchten, denken Sie daran, dass Sie [direkte Links](https://www.youtube.com/watch?v=6IOEewflG2U) auf Ihre Projekte setzen können. Erstellen Sie einen internen Index Ihrer Projekte, sodass Entscheidungsträger einfacher die gewünschten Informationen finden können.
 
-Wenn in einem Projekt viele Bedienfelder benötigt werden, reduzieren Sie die Bedienfelder vor dem Speichern und Freigeben. Wenn ein Projekt geladen wird, lädt Analysis Workspace nur den Inhalt der erweiterten Felder. Reduzierte Felder werden erst geladen, wenn der Nutzer sie erweitert. Dies hilft auf zwei Arten:
+Wenn Sie in einem Projekt viele Bedienfelder benötigen, reduzieren Sie sie, bevor Sie das Projekt speichern und freigeben. Wenn ein Projekt geladen wird, lädt Analysis Workspace nur den Inhalt der erweiterten Felder. Reduzierte Felder werden erst geladen, wenn der Nutzer sie erweitert. Dies hilft auf zwei Arten:
 
 * Reduzierte Felder verringern die gesamte Ladezeit eines Projekts
 * Mit reduzierten Feldern können Sie Ihre Projekte für den Nutzer des Berichts logisch organisieren
 
 ## Größe der Report Suite
 
-Die Größe der Report Suite kann wie ein wichtiger Faktor erscheinen, doch tatsächlich spielt sie aufgrund des von Adobe genutzten Verfahrens zur Datenverarbeitung nur eine geringe Rolle bei der Projektleistung.  Es kann Ausnahmen von dieser Regel geben. Wenden Sie sich an Ihr Implementierungsteam oder einen Experten für Adobe, um festzustellen, ob Implementierungsverbesserungen zur Verbesserung der Gesamterfahrung in Adobe Analytics möglich sind.
+Die Größe der Report Suite kann wie ein wichtiger Faktor erscheinen, doch tatsächlich spielt sie aufgrund des von Adobe genutzten Verfahrens zur Datenverarbeitung nur eine geringe Rolle bei der Projektleistung.  Es kann Ausnahmen von dieser Regel geben. Wenden Sie sich an Ihr Implementierungs-Team oder einen Adobe-Experten, um festzustellen, ob es Verbesserungen bei der Implementierung gibt, die zur Verbesserung des Gesamterlebnisses mit Adobe Analytics beitragen können.
 
 ## Anzahl der Personen, die gleichzeitig auf Analysis Workspace zugreifen
 
