@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 # Exportleitfaden für Analytics {#export}
 
 + [Analytics-Export-Startseite](home.md)
-+ Analytics-Daten-Feed{#analytics-data-feed}
++ Analytics-Daten-Feed {#analytics-data-feed}
    + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
    + [Erstellen oder Bearbeiten eines Daten-Feeds](analytics-data-feed/create-feed.md)
    + [Verwalten von Daten-Feeds](analytics-data-feed/df-manage-feeds.md)
@@ -26,7 +26,7 @@ ht-degree: 94%
       + [Daten-Feed-Inhalte – Übersicht](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Berechnete Metriken](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Datenspaltenreferenz](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Seitenabfrage Ereignis](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Seitenereignissuche](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Suche nach mobilen Attributen](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Sonderzeichen](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Verspätete Treffer](analytics-data-feed/c-df-contents/late-arriving-hits.md)
@@ -38,7 +38,7 @@ ht-degree: 94%
    + [Data Warehouse-Übersicht](data-warehouse/data-warehouse.md)
    + [Hinzufügen einer Data Warehouse-Benutzergruppe](data-warehouse/t-dw-group.md)
    + [Erstellen einer Data Warehouse-Anforderung](data-warehouse/t-dw-create-request.md)
-   + [Versand anfordern](data-warehouse/delivery-time.md)
+   + [Versandzeit von Anforderungen](data-warehouse/delivery-time.md)
    + [Datei mit Tableau-Daten](data-warehouse/t-tableau.md)
    + [Nach Metrik sortieren](data-warehouse/sorting-by-metric.md)
    + [Planen einer wiederkehrenden Anforderung](data-warehouse/dw-schedule-recurring.md)
