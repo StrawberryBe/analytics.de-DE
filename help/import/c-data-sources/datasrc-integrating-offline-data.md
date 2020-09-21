@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Transaktions- und Kundenintegration
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Diese Integrationen ordnen Offline-Daten einer bestimmten Online-Transaktion ode
 
 Die Transaktions-ID kann von der Benutzeroberfläche aus aktiviert/deaktiviert werden, ohne dass ClientCare miteinbezogen werden muss.
 
-Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Report Suite auswählen > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Allgemeine Kontoeinstellungen]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ Auf der Registerkarte [!UICONTROL Verwalten] wird der Status der Transaktions-ID
 
 Kunden-IDs werden zur Angabe der Offline-Aktivität eines Kunden verwendet und stellen somit eine Verbindung zur Online-Aktivität her. Diese sollten in folgenden Fällen verwendet werden:
 
-* Eine Kunden-ID wird in die Variable  *`visitorID`* festgelegt.
+* Eine Kunden-ID wird in die Variable   *`visitorID`* festgelegt.
 * Es gibt keinen designierten Punkt, an dem Kundenaktivitäten in die Offline-Aktivität wechseln, wie die Empfehlung eines Interessenten oder ein Kauf.
 
-Informationen zum Konfigurieren dieser Art Datenquelle, siehe  [Besucher-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+Informationen zum Konfigurieren dieser Art Datenquelle, siehe   [Besucher-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Transaktionsintegration {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -68,4 +68,4 @@ Transaktions-ID-Ereignisse zwar nicht in Metriken für Beiträge zu Besuchen ent
 
 Der Grund hierfür besteht darin, dass die Transaktions-ID-Daten nicht mit einem Besuch (weil das Offline-Ereignis normalerweise nicht Teil des Online-Ereignisses ist), sondern mit dem Besucher verbunden sind. 
 
-Siehe [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+Siehe  [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
