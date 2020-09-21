@@ -1,11 +1,11 @@
 ---
 title: Geräteübergreifende Analyse einrichten
-description: Konfigurieren Sie eine Virtual Report Suite, um CDA zu aktivieren.
-translation-type: tm+mt
+description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 
 >[!IMPORTANT]
 >
->Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Voraussetzungen und Einschränkungen finden Sie auf der [Übersichtsseite](overview.md) und der gewünschten Methode zum Zuordnen ([Feldbasierte Suche](field-based-stitching.md) bzw. [Gerätediagramm](device-graph.md)).
+>Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Siehe die [Übersichtsseite](overview.md) und die gewünschte Stitching-Methode ([feldbasiertes Stitching](field-based-stitching.md) oder [Gerätediagramm](device-graph.md)) für Voraussetzungen und Einschränkungen.
 
 ## Auswahl einer geräteübergreifenden Report Suite zur Aktivierung für die geräteübergreifende Analyse
 
