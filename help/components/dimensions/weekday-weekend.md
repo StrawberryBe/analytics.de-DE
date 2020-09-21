@@ -1,11 +1,11 @@
 ---
 title: Wochentag/Wochenende
 description: Bestimmt, ob der Treffer an einem Wochentag oder an einem Wochenende stattgefunden hat.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ Die Dimension „Wochentag/Wochenende“ bietet einen Einblick, ob der Treffer a
 
 Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionen
+## Dimensionselemente
 
-This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.
+Diese Dimension enthält immer genau zwei Dimensionselemente: `"Weekday"` und `"Weekend"`. Das Dimensionselement `"Weekday"` gilt für alle Treffer von Montag bis Freitag, während das Dimensionselement `"Weekend"` für alle Treffer am Samstag und Sonntag gilt.
