@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Beantwortet häufige Fragen zu Segmentierungsfunktionen, Zugriff, Berechtigungen
 
    * Sie können [Segmente vergleichen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
    * Verwenden Sie [Segmente als Dimensionen](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html) bei Vergleichen.
-   * Verwenden Sie Segmente in der [Fallout-Analyse](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * Verwenden Sie Segmente in der [Fallout-Analyse](https://docs.adobe.com/help/de-DE/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Alle Segmente gelten nun für alle Report Suites.
@@ -112,7 +112,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
-* Taggen Sie Segmente unter Einhaltung der  [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Taggen Sie Segmente unter Einhaltung der   [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Verwaltung alter Segmente {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -120,7 +120,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt. [Mehr …](/help/components/segmentation/seg-transition.md)
 
-Die meisten bisherigen vordefinierten und Suite-Segmente werden als  Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten bisherigen vordefinierten und Suite-Segmente werden als   Segmentvorlagen in den Segmentaufbau migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet:
 
@@ -128,7 +128,7 @@ Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet
 
 **Was ist mit meinen vorhandenen Segmentordnern passiert?**
 
-Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager  Tags zu platzieren. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
+Anstatt der (Ad Hoc Analysis-) Ordner verwendet der Segment-Manager   Tags. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
 
 **Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?**
 
@@ -176,7 +176,7 @@ Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren we
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als  Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (ausgenommen die mit einem Sternchen * gekennzeichneten) werden als   Segmentvorlagen in den Segmentaufbau migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
 
 Vorhandene Berichte, für die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
 
@@ -233,7 +233,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
   </tr> 
   <tr> 
    <td colname="col1"> Browser-Höhe – zusammengefasst </td> 
-   <td colname="col2"> Browserhöhe </td> 
+   <td colname="col2"> Browser-Höhe </td> 
    <td colname="col3"> Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, benutzen Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. </td> 
   </tr> 
   <tr> 
@@ -243,7 +243,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
   </tr> 
   <tr> 
    <td colname="col1"> Browserhöhe – Granular </td> 
-   <td colname="col2"> Browserhöhe </td> 
+   <td colname="col2"> Browser-Höhe </td> 
    <td colname="col3"> <p>Diese Dimension wurde umbenannt und ist jetzt nur mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserhöhe – Zusammengefasst“. </p> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
    <td colname="col3"> – </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mobiles Mail-Design </td> 
+   <td colname="col1"> Mobilgerät – Mail-Design </td> 
    <td colname="col2"> Mobile Design-Mail-Unterstützung </td> 
    <td colname="col3"> – </td> 
   </tr> 
@@ -329,7 +329,7 @@ Die folgende Tabelle enthält eine Liste mit Dimensionen, die im Segmentaufbau u
  </tbody> 
 </table>
 
-## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Änderungen an auf Zeichenketten basierenden Dimensionen, die bekannte Werte besitzen   {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Auf Zeichenketten basierende Dimensionen, die einen bekannten Satz Werte besitzen, wurden in Aufzählungstypen geändert. Wenn Sie mit diesen Dimensionen ein Segment erstellen, wird die Liste mit allen bekannten Werten vorbelegt und „Gleich“ wird als einziger Operator unterstützt. So können Sie die genauen Werte, nach denen Sie suchen, schnell segmentieren, ohne nicht beabsichtigte Werte auszuwählen, die bei einer weniger restriktiven Übereinstimmung auftreten.
 
@@ -337,21 +337,21 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 
 | Mobilgerätehersteller | Mobile E-Mail-Länge | Farbtiefe |
 |---|---|---|
-| Mobilgerät – Bildschirmgröße | Mobilgerätnummer | Bildschirmauflösung |
-| Mobilgerät – Bildschirmhöhe | Mobilgerät – Push To Talk | Plugin |
+| Mobilgerät – Bildschirmgröße | Mobilgerätenummer | Bildschirmauflösung |
+| Mobilgerät – Bildschirmhöhe | Mobilgerät – PTT | Plugin |
 | Mobilgerät – Cookie-Unterstützung | Mobilgerät – Mail-Design | Betriebssystem |
 | Mobilgerät – Bildunterstützung | Mobile Informationsdienste | Referrer-Typ |
 | Mobilgerät – Farbtiefe | Mobilgerätetyp | Suchmaschine |
-| Mobilgerät – Audiounterstützung | Browsertyp | state |
-| Mobilgerät – Videounterstützung | browser | Geo-Land |
+| Mobilgerät – Audio-Unterstützung | Browser-Typ | state |
+| Mobilgerät – Video-Unterstützung | browser | Geo-Land |
 | Mobil-DRM | Verbindungstyp | Geo-Region |
 | Mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
 | Mobilbetriebssystem | Cookie | Geo-DMA |
-| Mobile Java VM | Kundentreue | Persistentes Cookie |
+| Mobile Java-VM | Kundenloyalität | Persistentes Cookie |
 | Mobile Lesezeichenlänge | Java aktiviert | Gebührenpflichtige Suche |
 | Mobil URL-Länge | Sprache |  |
 
-## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Änderungen an auf Ganzzahlen basierenden Dimensionen, die bekannte Werte besitzen   {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segmentaufbauoberfläche segmentiert werden:
 
