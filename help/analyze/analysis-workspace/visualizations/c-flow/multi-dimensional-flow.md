@@ -2,8 +2,11 @@
 description: Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über verschiedene Dimensionen hinweg untersuchen.
 title: Interdimensionale Flüsse
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
+workflow-type: ht
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Sehen wir uns 2 Anwendungsfälle an: einen App-Anwendungsfall und einen Web-Anwe
 
 ## Anwendungsfall 1: App {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
+Die Dimension [!UICONTROL Aktionsname] wurde dem Fluss hinzugefügt, wobei das oberste zurückgegebene Element [!UICONTROL ItemAdded] ist:
 
 ![](assets/multi-dimensional-flow.png)
 
