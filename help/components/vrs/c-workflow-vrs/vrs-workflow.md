@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: Virtual Report Suite – Workflow
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Virtual Report Suites werden im Virtual Report Suite Manager erstellt (Komponent
 
 Nachdem sie erstellt wurde, wird eine Virtual Report Suite auf der Benutzeroberfläche genauso behandelt wie eine Basis-Report Suite und unterstützt die meisten erweiterten Funktionen. Virtual Report Suites werden z. B. in der Report Suite-Auswahl angezeigt und können, genau wie andere Report Suites, einzeln ausgewählt werden.
 
-Klicken Sie auf das Info-Symbol neben dem Namen der Report Suite, um  [die zugehörigen Informationen anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
+Klicken Sie auf das Info-Symbol neben dem Namen der Report Suite, um   [die zugehörigen Informationen anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
 ![](assets/step3_icon.png)Einrichten von [Gruppenberechtigungen](/help/components/vrs/c-workflow-vrs/vrs-create.md).
 
