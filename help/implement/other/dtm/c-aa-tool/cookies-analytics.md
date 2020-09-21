@@ -6,6 +6,9 @@ title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -26,10 +29,10 @@ Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Ber
  <tbody> 
   <tr> 
    <td colname="col1"> Visitor ID </td> 
-   <td colname="col2"> <p>Ein eindeutiger Wert, der in Online- und Offline-Systemen einen Kunden kennzeichnet. </p> </td> 
+   <td colname="col2"> <p>Eindeutiger Wert, der einen Kunden in Online- und Offline-Systemen kennzeichnet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Besuchernamespace </td> 
+   <td colname="col1"> Besucher-Namespace </td> 
    <td colname="col2"> <p>Variable zur Angabe der Domäne, bei der Cookies gesetzt werden. </p> </td>
   </tr> 
   <tr> 
@@ -38,7 +41,7 @@ Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Ber
   </tr> 
   <tr> 
    <td colname="col1"> FP-Domänenpunkte </td> 
-   <td colname="col2"> <p>Die Variable <span class="term"> fpCookieDomainPeriods</span> dient für Cookies, die von JavaScript gesetzt werden (<code> s_sq</code>, <code> s_cc</code>, Plug-ins) und von Erstanbietern stammen, selbst wenn Ihre Implementierung die Domänen <span class="filepath"> 2o7.net</span> oder <span class="filepath"> omtrdc.net</span> von Drittanbietern verwendet. </p> <p>Siehe <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>Die Variable  <span class="term"> fpCookieDomainPeriods</span> dient für Cookies, die von JavaScript gesetzt werden (<code> s_sq</code>, <code> s_cc</code>, Plug-ins) und von Erstanbietern stammen, selbst wenn Ihre Implementierung die Domänen <span class="filepath"> 2o7.net</span> oder <span class="filepath"> omtrdc.net</span> von Drittanbietern verwendet. </p> <p>Siehe <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transaktions-ID </td> 
@@ -46,7 +49,7 @@ Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Ber
   </tr> 
   <tr> 
    <td colname="col1"> Cookie-Lebensdauer </td> 
-   <td colname="col2"> <p>Gibt die Lebensdauer eines Cookies an. </p> </td> 
+   <td colname="col2"> <p>Bestimmt die Lebensdauer eines Cookies. </p> </td> 
   </tr> 
  </tbody> 
 </table>
