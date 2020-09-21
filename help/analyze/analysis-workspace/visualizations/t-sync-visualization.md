@@ -4,6 +4,9 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Data Sources verwalten
 translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+workflow-type: ht
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ Beim Verwalten von Datenquellen können Sie die Datenquelle anzeigen oder die Au
 
 1. [Erstellen Sie ein Projekt](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) mit einer Datentabelle und einer [Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Wählen Sie in der Datentabelle die Zellen (Datenquelle) aus, die Sie der Visualisierung zuordnen möchten.
-1. Klicken Sie in der Visualisierung auf den Punkt neben dem Titel, um das Dialogfeld **[!UICONTROL Data Source]** zu öffnen. Wählen Sie **[!UICONTROL Show Data Source]** oder **[!UICONTROL Lock Selection]** aus.
+1. Klicken Sie in der Visualisierung auf den Punkt neben dem Titel, um das Dialogfeld **[!UICONTROL Datenquelle]** zu öffnen. Wählen Sie **[!UICONTROL Datenquelle anzeigen]** oder **[!UICONTROL Auswahl sperren]** aus.
 
    ![](assets/manage-data-source.png)
 
