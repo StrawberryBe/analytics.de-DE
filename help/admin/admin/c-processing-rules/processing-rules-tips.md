@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Verarbeitungsregeln – Tipps und Tricks
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '490'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Erstellen Sie eine leere HTML-Seite auf Ihrem Desktop, nehmen Sie den s_code von
 
 Wir empfehlen, Verarbeitungsregeln zu einer dev-Report Suite zu konfigurieren, um sicherzugehen, dass diese korrekt funktionieren. Wenn möglich, sollten Sie die Regeln in eine kleine Produktions-Suite kopieren, bevor Sie sie breit angelegt implementieren.
 
-## Auf leere Werte hin überprüfen {#section_EE84A5525E26415787930723B0CAAE0F}
+## Auf leere Werte hin überprüfen  {#section_EE84A5525E26415787930723B0CAAE0F}
 
 Wenn Sie eine Regel erstellen, sollten Sie berücksichtigen, dass ein Wert leer sein könnte. Wenn Sie keine Bedingung hinzufügen, die nach leeren Werten sucht, kann es passieren, dass Variablen unbeabsichtigter Weise durch leere Werte überschrieben werden.
 
@@ -40,7 +43,7 @@ Es ist auch wichtig, die Verarbeitungsreihenfolge zu beachten. Im folgenden Beis
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Überschreiben von Werten vermeiden {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Überschreiben von Werten vermeiden  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 Im folgenden Beispiel werden zwei Kontextdatenvariablen auf der Website zur Erfassung von Suchbegriffen verwendet: „Suchkeyword“ und „Suchbegriff“. Basierend auf der Konfiguration wird jedoch der Wert search_keyword immer überschrieben, selbst wenn „Suchbegriff“ leer ist.
 
@@ -48,13 +51,13 @@ Diese Regel sollte umkonfiguriert werden, sodass jede Kontextdatenvariable auf e
 
 ![](assets/tips-search-keyword.png)
 
-## Suchbegriffe auf UTF-8 oder Unicode kodieren {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## Suchbegriffe auf UTF-8 oder Unicode kodieren  {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 Suchbegriffe, die aus einer Abfragezeichenfolge gezogen werden, müssen korrekt kodiert sein, oder die Zuordnung durch Verarbeitungsregeln erfolgt nicht korrekt.
 
 ![](assets/tips-multibyte.png)
 
-## „Beginnt mit“, „Enthält“ und „Endet mit“ {#section_80CE853244FC435B844A09EA51868D8D}
+## „Beginnt mit“, „Enthält“ und „Endet mit“  {#section_80CE853244FC435B844A09EA51868D8D}
 
 Wählen Sie die korrekte Übereinstimmungsbedingung, um die restriktivste Bedingung zu finden, die korrekt übereinstimmt. Sie können nach Werten in einem Bericht suchen, bevor Sie eine Regel erstellen, um sicherzugehen, dass es keine ungewünschten Übereinstimmungen gibt. Beispielsweise sollten Sie den Prop2-Bericht durchsuchen, um alle Stellen zu finden, auf die diese Bedingung zutrifft, bevor Sie diese Regel aktivieren.
 
