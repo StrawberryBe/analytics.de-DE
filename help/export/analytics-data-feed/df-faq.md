@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ In Adobe Analytics wird bei den meisten Variablen beim Reporting nicht zwischen 
 
 Wenn Sie unterschiedliche Schreibweisen desselben Werts zwischen Nicht-Post- und Post-Spalten sehen (z. B. „schnee“ in der Pre-Spalte und „Schnee“ in der Post-Spalte), verwendet Ihre Implementierung auf Ihrer Site sowohl Groß- als auch Kleinbuchstaben. Die Variante in der Post-Spalte wurde entweder zuvor eingereicht und ist in einem virtuellen Cookie gespeichert, oder sie wurde etwa zur selben Zeit für diese Report Suite verarbeitet.
 
-## Werden Bots nach den Admin Console Bot-Regeln gefiltert, die in Datenfeeds enthalten sind?
+## Enthalten Daten-Feeds Bots, die nach Admin Console-Bot-Regeln gefiltert wurden?
 
-Datenfeeds enthalten keine Bots, die von [Admin-Konsolenbot-Regeln](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)gefiltert wurden.
+Daten-Feeds enthalten keine Bots, die nach [Admin Console-Bot-Regeln](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/bot-removal/bot-removal.html) gefiltert wurden.
 
 ## Warum werden mehrere `000` Werte in der Spalte `event_list` oder in der `post_event_list` Datenfeed-Spalte angezeigt?
 
