@@ -5,6 +5,9 @@ title: Häufig gestellte Fragen
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1098'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  </tbody> 
 </table>
 
-## AAM-spezifische FAQs {#section_6BDF746BA6464359A6A89A64EB025D12}
+## AAM-spezifische FAQs  {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
@@ -74,7 +77,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  </tbody> 
 </table>
 
-## Analytics-spezifische FAQs {#section_67BFB1B1E48D4113A38B075C020931BA}
+## Analytics-spezifische FAQs  {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -113,7 +116,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
  </tbody> 
 </table>
 
-## FAQs zur serverseitigen Weiterleitung {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## FAQs zur serverseitigen Weiterleitung  {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -136,11 +139,11 @@ Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>F: Warum unterscheiden sich die Besucherzahlen für Segmente in Audience Manager und Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
+   <td colname="col2"> <p>Siehe  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Unterschiede in der Besucherzahl </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen „Zielgruppen“ in AAM und „Segmenten“ in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Siehe <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager – Grundlagen </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
+   <td colname="col2"> <p>Siehe  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Segmente in Analytics und Audience Manager – Grundlagen </a>. </p> <p>AAM-Zielgruppen werden als „Dimensions“-Komponenten an Analytics gesendet und dort verwendet. Sie werden beispielsweise nicht als Segmente im Segmentaufbau angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>F: Was ist der Unterschied zwischen Kundenattributen und von AAM integrierten Kundendaten?</b> </p> </td> 
