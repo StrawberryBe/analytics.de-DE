@@ -2,8 +2,11 @@
 description: Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administratorebene und Nicht-Administratoren unterschieden.
 title: 'Berechnete Metriken: Rollenbasierte Rechte'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Bei den Rechten für berechnete Metriken wird zwischen Benutzern der Administrat
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col02" class="entry"> Erstellung </th> 
-   <th colname="col2" class="entry"> Freigabe </th> 
+   <th colname="col2" class="entry"> Freigeben </th> 
    <th colname="col3" class="entry"> Anzeigen/Verwalten </th> 
    <th colname="col4" class="entry"> Genehmigen </th> 
    <th colname="col5" class="entry"> Übernehmen </th> 
