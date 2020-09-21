@@ -3,9 +3,9 @@ description: Durch das Taggen von Segmenten können Sie diese im Segment-Manager
 title: Segmente taggen
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Alle Benutzer können Tags für Segmente erstellen und eines oder mehrere Tags a
 * Auf **Teamnamen** basierende Tags wie Social Marketing, Mobile Marketing.
 * **Projekt**-Tags (Analyse-Tags) wie Entrypage-Analyse.
 * **Kategorie**-Tags: Männer, Region.
-* **Workflow-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich).**
+* **Workflow**-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich).
 
 1. Aktivieren Sie im Segment-Manager das Kontrollkästchen neben dem Segment, das Sie taggen möchten. Die Werkzeugleiste für die Segmentverwaltung wird angezeigt:
 
