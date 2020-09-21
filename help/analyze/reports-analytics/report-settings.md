@@ -3,8 +3,11 @@ description: Einstellungen, die festlegen, wie alle Berichte angezeigt werden, u
 title: Einstellungen zur Berichtsanzeige und Navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Einstellungen, die festlegen, wie alle Berichte angezeigt werden, und Informatio
 
 ## Einstellungen zur Berichtsanzeige und Navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Berichtseinstellungen]**
 
 | Element | Beschreibung |
 |--- |--- |
@@ -61,7 +64,7 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 |  | Schlüsselmetriken | Metriken > Schlüsselmetriken |
 |  | Seitenansichten | Metriken > Seitenansichten |
 |  | Besuche | Metriken > Besuche |
-|  | Besucher | Metriken  > Besucher |
+|  | Besucher | Metriken   > Besucher |
 |  | Zeit pro Besuch | Metriken > Zeit pro Besuch |
 |  | Zeit vor Ereignis | Konversion > Zeit vor Ereignis |
 |  | Einkäufe | Metriken > Einkäufe |
@@ -94,8 +97,8 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 |  | Interne Suchbegriffe | Navigation > Pfade > Interne Suchbegriffe |
 | **Traffic-Quellen** |  |  |
 |  | Keyword – Alle | Traffic-Quellen > Keyword – Alle |
-|  | Keyword – Bezahlt | Traffic-Quellen > Keyword – Bezahlt |
-|  | Keyword – Natürlich | Traffic-Quellen > Keyword – Natürlich |
+|  | Suchbegriff – bezahlt | Traffic-Quellen > Keyword – Bezahlt |
+|  | Suchbegriff – kostenlos | Traffic-Quellen > Keyword – Natürlich |
 |  | Suchmaschinen – Alle | Traffic-Quellen > Suchmaschinen – Alle |
 |  | Suchmaschinen – Gebührenpflichtig | Traffic-Quellen > Suchmaschinen – Gebührenpflichtig |
 |  | Suchmaschinen – Kostenlos | Traffic-Quellen > Suchmaschinen – Kostenlos |
@@ -116,7 +119,7 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 |  | Rückkehrhäufigkeit | Zielgruppe > Besuchertreue > Rückkehrhäufigkeit |
 |  | Rückkehrende Besucher | Zielgruppe > Besuchertreue > Rückkehrende Besucher |
 |  | Rückkehrende Besucher pro Tag | Zielgruppe > Besuchertreue > Rückkehrende Besucher pro Tag |
-|  | Besuchnummer | Zielgruppe > Besuchertreue > Besuchsnummer |
+|  | Besuchsnummer | Zielgruppe > Besuchertreue > Besuchsnummer |
 |  | Verkaufszyklus | Zielgruppe > Besuchertreue > Verkaufszyklus |
 | **Besucherprofil** |  |  |
 |  | GeoSegmentation | Zielgruppe > Besucherprofil > GeoSegmentation |
@@ -125,8 +128,8 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 |  | Domänen | Zielgruppe > Besucherprofil > Domänen |
 |  | Domänen auf oberster Ebene | Zielgruppe > Besucherprofil > Domänen auf oberster Ebene |
 |  | Technologie | Zielgruppe > Besucherprofil > Technologie |
-|  | Bundesstaat des Besuchers | Zielgruppe > Besucherprofil > Bundesstaat des Besuchers |
-|  | PLZ/Postleitzahlen des Besuchers | Zielgruppe > Besucherprofil > PLZ/Postleitzahlen des Besuchers |
+|  | Bundesland des Besuchers | Zielgruppe > Besucherprofil > Bundesstaat des Besuchers |
+|  | Postleitzahl des Besuchers | Zielgruppe > Besucherprofil > PLZ/Postleitzahlen des Besuchers |
 | **Benutzerspezifische Konversion** |  |  |
 |  | Benutzerspez. Konversion 1-10 | Konversion > Benutzerspezifische Konversion > Benutzerspez. Konversion 1-10 |
 |  | Benutzerspez. Konversion 11-20 | Konversion > Benutzerspezifische Konversion > Benutzerspez. Konversion 11-20 |
@@ -136,12 +139,12 @@ Wenn Sie an das Standardmenü gewöhnt sind, können Sie die Menüoptionen im ve
 | **Umfrage** |  | Zielgruppe > Survey |
 | **Marketing-Kanäle** |  |  |
 |  | Kanalübersichtsbericht | Traffic-Quellen > Marketing-Kanäle > Kanalübersichtsbericht |
-|  | Erstkontakt Kanal | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanal |
-|  | Erstkontakt Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanaldetail |
-|  | Letztkontakt Kanal | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanal |
-|  | Letztkontakt Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanaldetail |
+|  | Erstkontakt-Kanal | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanal |
+|  | Erstkontakt-Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Erstkontakt Kanaldetail |
+|  | Letztkontakt-Kanal | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanal |
+|  | Letztkontakt-Kanaldetail | Traffic-Quellen > Marketing-Kanäle > Letztkontakt Kanaldetail |
 | **Mobile App** |  |  |
-|  | Übersicht Mobile App | Inhalt > Mobile Anwendung > Übersicht Mobile Anwendung |
+|  | Übersicht Mobile Anwendung | Inhalt > Mobile Anwendung > Übersicht Mobile Anwendung |
 |  | Lebenszyklus-Berichte | Inhalt > Mobile Anwendung > Lebenszyklus-Berichte |
 | **Benutzerspezifische Berichte** |  |  |
 |  | Benutzerspezifische Berichte werden nur angezeigt, wenn Sie welche eingerichtet haben. | Benutzerspezifische Berichte |
