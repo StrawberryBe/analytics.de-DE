@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: Zuweisen von Benutzergruppen zu einer Report Suite
 topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Diese Schritte beschreiben, wie Sie Benutzergruppen zu einer Report Suite zuweisen.
 
-Auf der Seite [!UICONTROL Report Suites] können Sie Unternehmens-Report Suites anzeigen und konfigurieren. Der Zugriff auf die Report Suites wird in Analytics über Gruppenmitgliedschaften gesteuert. Erstellen Sie bei der erstmaligen Einrichtung die erforderlichen Gruppen, indem Sie den einzelnen Gruppen Report Suites zuweisen, und weisen Sie anschließend den jeweiligen [Gruppen](/help/admin/user-management2/c-user-groups/groups.md) Benutzerkonten hinzu.
+Auf der Seite [!UICONTROL Report Suites] können Sie Unternehmens-Report Suites anzeigen und konfigurieren. Der Zugriff auf die Report Suites wird in Analytics über Gruppenmitgliedschaften gesteuert. Erstellen Sie bei der erstmaligen Einrichtung die erforderlichen Gruppen, indem Sie den einzelnen Gruppen Report Suites zuweisen, und weisen Sie anschließend den jeweiligen  [Gruppen](/help/admin/user-management2/c-user-groups/groups.md) Benutzerkonten hinzu.
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
 1. Klicken Sie auf **[!UICONTROL Report Suites]**.
