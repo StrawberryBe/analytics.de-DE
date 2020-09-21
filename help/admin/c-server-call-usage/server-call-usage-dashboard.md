@@ -2,9 +2,9 @@
 description: 'null'
 title: Anzeigen der aktuellen Nutzung der Server-Aufrufe
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Das Dashboard für aktuelle Nutzung:
 
 ![](assets/server_call_dashboard.png)
 
-| UI-Begriff | Definition |
+| Begriff der Benutzeroberfläche | Definition |
 |---|---|
 | Nutzung der aktuellen Nutzungsperiode (grün) | Der aktuelle Zeitraum basiert auf der [Nutzungsperiode](/help/admin/c-server-call-usage/overage-overview.md). |
 | Nutzung der vorherigen Nutzungsperiode (blau) | Der vorherige Zeitraum wird als aktuelle Nutzungsperiode minus 1 Jahr definiert. |
