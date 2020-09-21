@@ -2,8 +2,11 @@
 description: 'null'
 title: Warnhinweis-Manager
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
@@ -12,18 +15,18 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
+Der Warnhinweis-Manager (**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**) ähnelt sehr dem [Segment-Manager](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/segmentation-workflow/seg-manage.html) und dem [Manager für berechnete Metrik](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) und ermöglicht Ihnen Folgendes:
 
 ![](assets/alert-manager-tasks.png)
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
+* Die Warnhinweiserstellung per Klick auf **[!UICONTROL + Hinzufügen]** öffnen.
 * Warnhinweise mit einem Tag versehen: Dadurch können Sie sie zur einfachen Anwendung organisieren.
 * Warnhinweise löschen.
 * Warnhinweise umbenennen.
 * Warnhinweise genehmigen.
 * Warnhinweise kopieren.
 * Warnhinweise aktivieren/deaktivieren.
-* Ein Ablaufdatum für den Warnhinweis **verlängern**: When one or more alerts are selected, they can be renewed by clicking **[!UICONTROL Renew]**.This extends their expiration dates to be 1 year from the day **[!UICONTROL Renew]** was clicked, regardless of their original expiration date.
+* Ein Ablaufdatum für den Warnhinweis **verlängern**: Wenn ein oder mehrere Warnhinweise ausgewählt sind, können diese durch Klicken auf **[!UICONTROL Verlängern]** verlängert werden. Dadurch werden die Ablaufdaten ab dem Tag, an dem auf **[!UICONTROL Verlängern]** geklickt wurde, unabhängig vom ursprünglichen Ablaufdatum um 1 Jahr verlängert.
 * Einen Warnhinweis als .CSV-Datei exportieren.
 * Warnhinweise durch Doppelklicken auf den Titel bearbeiten.
 * Nach Warnhinweisen suchen.
