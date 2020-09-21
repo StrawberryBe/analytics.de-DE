@@ -191,7 +191,7 @@ t_dashboard_edit.xml
 1. Klicken Sie auf **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards]** > *Dashboard-Name*, um ein Dashboard zu öffnen.
 1. Klicken Sie auf **[!UICONTROL Layout]**.
 
-| Hierzu | gehen Sie wie folgt vor: |
+| Hierzu | Führen Sie folgende Schritte aus |
 |--- |--- |
 | Ändern der Report Suite eines Dashboards | Klicken Sie im Menü auf die Kopfzeile der Experience Cloud und wählen Sie eine Report Suite aus. |
 | Ändern der Report Suite eines Reportlets | Klicken Sie im Reportlet auf den Namen der Report Suite und wählen Sie anschließend aus dem Menü [!UICONTROL Report Suite] eine Report Suite aus |
