@@ -2,11 +2,11 @@
 description: 'null'
 title: 'Datenanforderungen – Anforderungs-Assistent: Schritt 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ wählen Sie die Report Sui
 
 ![](assets/rw1_overview.png)
 
-1. **[!UICONTROL Report Suite:]** Die Liste der für Sie aufgrund Ihrer Anmeldeangeben verfügbaren Report Suites. Siehe [Report Suites auswählen](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **[!UICONTROL Report Suite:]** Die Liste der für Sie aufgrund Ihrer Anmeldedaten verfügbaren Report Suites. Siehe [Report Suites auswählen](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **Bereichsauswahl:** Hier können Sie eine Report Suite-ID aus einer Zelle in Excel auswählen. Siehe [Report Suites auswählen](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
@@ -25,9 +25,9 @@ Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ wählen Sie die Report Sui
 
    Beispiel: Sie führen einen [!UICONTROL Seitenbericht] aus und wenden dann ein Segment „Erstbesuche“ an.
 
-1. **Veröffentlichungsliste darf außer Kraft gesetzt werden:** Wenn Sie einen Bericht planen, können Sie eine Veröffentlichungsliste auswählen, die für die Verteilung verwendet werden soll. Veröffentlichungslisten werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** eingerichtet. Die Report Suite für diese Anforderung wird durch die Report Suite mit der ID ersetzt, die den einzelnen Empfängern in der Veröffentlichungsliste zugeordnet ist. Siehe [Veröffentlichungsliste darf außer Kraft gesetzt werden](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
+1. **Veröffentlichungsliste darf außer Kraft gesetzt werden:** Wenn Sie einen Bericht planen, können Sie eine Veröffentlichungsliste auswählen, die für die Verteilung verwendet werden soll. Veröffentlichungslisten werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** eingerichtet. Die Report Suite für diese Anforderung wird durch die Report Suite mit der ID ersetzt, die den einzelnen Empfängern in der Veröffentlichungsliste zugeordnet ist. Siehe  [Veröffentlichungsliste darf außer Kraft gesetzt werden](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
-1. **Berichtstyp**: Hier wird der Basisbericht festgelegt, der in der Datenanforderung ausgeführt werden soll. Es wird ein Bericht pro Anforderung ausgeführt, und dieser Bericht kann 1:n Dimensionen und 1:n Metriken enthalten. Metriken und Dimensionen für einen Berichtstyp werden im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] angezeigt. Siehe [Berichtstypen auswählen](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. **Berichtstyp**: Hier wird der Basisbericht festgelegt, der in der Datenanforderung ausgeführt werden soll. Es wird ein Bericht pro Anforderung ausgeführt, und dieser Bericht kann 1:n Dimensionen und 1:n Metriken enthalten. Metriken und Dimensionen für einen Berichtstyp werden im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] angezeigt. Siehe  [Berichtstypen auswählen](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
 1. **Datumsbereiche**: Hier wird die von der Anforderung abgedeckte Zeitspanne festgelegt. Es sind verschiedene Arten von Zeiträumen verfügbar, z. B. vordefinierte, feste und rollierende. Es sind maximal 366 Zeiträume erlaubt. Sie können außerdem einen Datumsbereich wählen, der durch eine Zelle festgelegt wird, und Datumsbereiche als Vorlagen zur späteren Verwendung speichern.  Siehe [Berichtsdaten konfigurieren](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 
@@ -35,16 +35,16 @@ Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ wählen Sie die Report Sui
 
 ## Fehlerbehebung
 
-Manchmal wird der Anforderungs-Assistent außerhalb des Bildschirms angezeigt, insbesondere für Benutzer, die zwischen den Monitorinstallationen wechseln. Sie verwenden beispielsweise eine Dockingstation am Arbeitsplatz und Ihren Laptop-Bildschirm zu Hause. Wenn Sie erneut auf &quot;Erstellen&quot;klicken, während ein Anforderungs-Assistent bereits geöffnet ist, erhalten Sie folgende Fehlermeldung:
+Manchmal wird der Anforderungs-Assistent außerhalb des Bildschirms angezeigt, insbesondere für Benutzer, die zwischen den Monitorinstallationen wechseln. Sie verwenden beispielsweise eine Dockingstation am Arbeitsplatz und Ihren Laptop-Bildschirm zu Hause. Wenn Sie erneut auf „Erstellen“ klicken, während ein Anforderungs-Assistent bereits geöffnet ist, erhalten Sie folgende Fehlermeldung:
 
-&quot;Sie müssen zuerst den Anforderungs-Assistenten ausführen, bevor Sie einen neuen starten.&quot;
+„Sie müssen zunächst den Vorgang für den Anforderungs-Assistenten abschließen, bevor Sie einen neuen Anforderungs-Assistenten starten.“
 
-Durch Verschieben des Anforderungs-Assistenten zurück auf dem Bildschirm wird dieses Problem behoben.
+Dieses Problem wird behoben, wenn Sie den Anforderungs-Assistenten wieder zurück auf den Bildschirm bewegen.
 
 1. Öffnen Sie Microsoft Excel und melden Sie sich bei Report Builder an.
 2. Klicken Sie auf [!UICONTROL Erstellen], um den Anforderungs-Assistenten außerhalb des Bildschirms zu öffnen.
 3. Drücken Sie `[Alt]` + `[Space]`.
 4. Drücken Sie `[M]`.
 5. Drücken Sie eine der Pfeiltasten.
-6. Bewegen Sie die Maus, die den Anforderungs-Assistenten an den Cursor anhängt
-7. Klicken Sie auf die Maus, um den Anforderungs-Assistenten auf dem Bildschirm zu starten.
+6. Bewegen Sie die Maus, um den Anforderungsassistenten an Ihren Cursor anzuhängen.
+7. Klicken Sie auf die Maus, um den Anforderungs-Assistenten innerhalb des Bildschirms abzulegen.
