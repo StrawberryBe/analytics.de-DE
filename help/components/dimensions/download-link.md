@@ -1,11 +1,11 @@
 ---
 title: Downloadlink
 description: Der Name des Downloadlinks.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Die Dimension „Downloadlink“ enthält die Namen der auf Ihrer Site implement
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der [`pev2` Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_d` aufweisen. Wenn die Abfragezeichenfolge `pe` im Treffer einen anderen Wert hat, werden in dieser Dimension keine Daten erfasst.
+Diese Dimension erfasst Daten aus der [`pev2`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_d` aufweisen. Wenn die Abfragezeichenfolge `pe` im Treffer einen anderen Wert hat, werden in dieser Dimension keine Daten erfasst.
 
 Wenn Sie Daten mit AppMeasurement an diese Dimension senden möchten:
 
@@ -28,6 +28,6 @@ Wenn Sie Daten mit AppMeasurement an diese Dimension senden möchten:
 * Stellen Sie die [`linkType`](/help/implement/vars/config-vars/linktype.md)-Variable auf `"d"` ein.
 * Senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung.
 
-## Dimensionen
+## Dimensionselemente
 
-Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionselemente sind. Adobe empfiehlt, dass Sie Links basierend auf Ihren Berichtsanforderungen in aussagekräftige Kategorien gruppieren.
+Da diese Variable auf einer benutzerdefinierten Zeichenfolge in Ihrer Implementierung basiert, bestimmt Ihr Unternehmen, welche Dimensionselemente verwendet werden. Adobe empfiehlt, dass Sie Links basierend auf Ihren Berichtsanforderungen in aussagekräftige Kategorien gruppieren.
