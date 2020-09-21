@@ -3,9 +3,9 @@ description: Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Oper
 title: Vergleichsoperatoren für Segmente
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Das einzige unterstützte Platzhalterzeichen ist das Sternchen: *. Wenn Sie nach
 | beginnt nicht mit | Gibt alle Elemente zurück, die nicht mit dem Zeichen oder der Zeichenfolge der eingegebenen Werte beginnen. Dies ist das Gegenteil des Operators „beginnt mit“. |
 | endet mit | Gibt Elemente zurück, die mit dem Zeichen oder der Zeichenfolge des eingegebenen Werts enden. |
 | endet nicht mit | Gibt alle Elemente zurück, die nicht mit dem Zeichen oder der Zeichenfolge der eingegebenen Werte enden. Dies ist das Gegenteil des Operators „endet mit“. |
-| „matches“ | Gibt Elemente mit einer exakten Entsprechung für gegebene numerische oder Zeichenfolgenwerte wieder. Hinweis: Nutzen Sie diesen Operator bei der Verwendung von Platzhalterfunktionen (Globbing). |
+| stimmt überein mit | Gibt Elemente mit einer exakten Entsprechung für gegebene numerische oder Zeichenfolgenwerte wieder. Hinweis: Nutzen Sie diesen Operator bei der Verwendung von Platzhalterfunktionen (Globbing). |
 | stimmt nicht überein mit | Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten. Hinweis: Nutzen Sie diesen Operator bei der Verwendung von Platzhalterfunktionen (Globbing). |
 | vorhanden | Gibt die Anzahl der vorhandenen Elemente zurück. Wenn Sie z. B. die Dimension „Seiten nicht gefunden“ mithilfe des Operators „vorhanden“ auswerten, wird die Anzahl der vorhandenen Fehlerseiten zurückgegeben. |
 | nicht vorhanden | Gibt alle nicht vorhandenen Elemente zurück. Wenn Sie zum Beispiel die Dimension „Seiten nicht gefunden“ mithilfe des Operators „nicht vorhanden“ auswerten, wird die Anzahl der Seiten zurückgegeben, bei denen diese Fehlerseite nicht vorhanden war. |
