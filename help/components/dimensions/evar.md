@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: Eine benutzerdefinierte Dimension, die Sie in Berichte verwenden können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wen
 
 Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-Bei eVars wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie denselben Wert in verschiedenen Fällen senden (z. B. `"DOG"` und `"Dog"`), gruppiert Analysis Workspace ihn in demselben Dimensionselement. Es wird der erste Wert verwendet, der am Anfang des Berichte angezeigt wird. Data Warehouse zeigt den ersten Wert, der während des Anforderungszeitraums gefunden wurde.
+Bei eVars muss nicht auf die Groß- und Kleinschreibung geachtet werden. Wenn Sie denselben Wert mit verschiedenen Groß- und Kleinschreibungen senden (z. B. `"DOG"` und `"Dog"`), gruppiert Analysis Workspace ihn in demselben Dimensionselement. Es wird die erste Groß- und Kleinschreibung verwendet, die zu Beginn des Berichtsmonats vorkam. Data Warehouse zeigt den ersten aufgefundenen Wert innerhalb des Anforderungszeitraums an.
 
 ## Füllen von eVars mit Daten
 
@@ -26,9 +26,9 @@ Jede eVar erfasst Daten aus der [`v1` – `v250`-Abfragezeichenfolge](/help/impl
 
 AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datenerfassung kompiliert, verwendet die Variablen `eVar1` – `eVar250`. Die Implementierungsrichtlinien finden Sie unter [eVar](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zu Implementierungen.
 
-## Dimensionen
+## Dimensionselemente
 
-Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, legt Ihr Unternehmen fest, welche Dimensionselemente für die einzelnen eVar verwendet werden. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Da eVars benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede eVar gelten. Vergewissern Sie sich, dass Sie den Zweck jeder eVar und die typischen Dimensionselemente in einem [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) aufzeichnen.
 
 ## Funktionsweise von eVars
 
