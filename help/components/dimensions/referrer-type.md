@@ -1,26 +1,26 @@
 ---
 title: Referrer-Typ
 description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # Referrer-Typ
 
-Die Dimension „Referrer-Typ“ gibt an, durch welche generischen Kanal Besucher geklickt haben, um zu Ihrer Site zu gelangen. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
+Die Dimension „Referrer-Typ“ gibt an, durch welche generischen Kanal Besucher geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
 
 ## Füllen dieser Dimension mit Daten
 
 Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Dimensionen-Elementen gehört der Typ des Werbers des Treffers. Zu den spezifischen Werten gehören die folgenden:
+Zu den Dimensionselementen gehören die Typen der Referrer des Treffers. Zu den spezifischen Werten gehören die folgenden:
 
 * **Eingegeben/mit Lesezeichen versehen**: Für den Treffer liegen keine Daten zum Referrer vor.
 * **Suchmaschinen**: Der Referrer kam von einer anerkannten Suchmaschine, die eine Abfragezeichenfolge mit Suchbegriffen enthält.
@@ -195,9 +195,9 @@ Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale 
 * `zooomr.com`
 * `zhihu.com`
 
-### Suchmaschinen im Dimensionselement &quot;Sonstige Websites&quot;
+### Suchmaschinen im Dimensionselement „Andere Websites“
 
 Wenn Sie bestimmte Domänen in der Dimension „Referrer-Typ“ anzeigen, kann es vorkommen, dass Domänen, die Sie unter „Suchmaschinen“ erwarten würden, stattdessen unter „Andere Websites“ aufgeführt sind. Beispielsweise sehen Sie möglicherweise `'google.com'` unter „Andere Websites“.
 
-* **Suchmaschinendomänen im Dimensionselement**&quot;Suchmaschinen&quot;: Der Werber erfüllte alle Kriterien, um als Suchmaschine nach Adobe zu klassifizieren. Die Referrer-Domäne ist eine gültige Suchmaschine *und* die Referrer-URL enthält einen Abfragezeichenfolgenparameter für Suchbegriffe.
-* **Suchmaschinendomänen im Dimensionselement**&quot;Sonstige Websites&quot;: Die verweisende URL erfüllte nicht alle Kriterien, um als Suchmaschine zu klassifizieren. Häufige Beispiele sind Unterdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel sind `mail.google.com` und `autos.yahoo.com` keine Suchmaschinen, sondern befinden sich in einer Domäne auf oberster Ebene, die normalerweise mit der Suche verbunden ist. Diese Unterdomänen enthalten keine Abfragezeichenfolge für Suchbegriffe. Daher werden sie unter „Andere Websites“ und nicht unter „Suchmaschinen“ aufgeführt.
+* **Suchmaschinendomänen im Dimensionselement „Suchmaschinen“**: Der Referrer erfüllte alle Kriterien, um von Adobe als Suchmaschine klassifiziert zu werden. Die Referrer-Domäne ist eine gültige Suchmaschine *und* die Referrer-URL enthält einen Abfragezeichenfolgenparameter für Suchbegriffe.
+* **Suchmaschinendomänen im Dimensionselement „Andere Websites“**: Die Referrer-URL erfüllte nicht alle Kriterien, um als Suchmaschine klassifiziert zu werden. Häufige Beispiele sind Unterdomänen, die neben der Suche anderen Funktionen gewidmet sind. Zum Beispiel sind `mail.google.com` und `autos.yahoo.com` keine Suchmaschinen, sondern befinden sich in einer Domäne auf oberster Ebene, die normalerweise mit der Suche verbunden ist. Diese Unterdomänen enthalten keine Abfragezeichenfolge für Suchbegriffe. Daher werden sie unter „Andere Websites“ und nicht unter „Suchmaschinen“ aufgeführt.
