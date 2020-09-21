@@ -1,18 +1,18 @@
 ---
 title: Instanzen
 description: Die Anzahl der Treffer, für die eine Variable festgelegt (und nicht beibehalten) wurde.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # Instanzen
 
-Die Metrik „Instanzen“ zeigt an, wie oft eine Dimension explizit in einer Bildanforderung definiert wurde. Some dimensions, such as [eVars](../dimensions/evar.md), persist dimension items past the hit they are set on. Diese Metrik ist nützlich, wenn Sie sehen möchten, wie oft ein Dimensionselement ohne Treffer festgelegt wurde, bei denen dieser Wert beibehalten wurde.
+Die Metrik „Instanzen“ zeigt an, wie oft eine Dimension explizit in einer Bildanforderung definiert wurde. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), behalten ihre Dimensionselemente über den Treffer hinaus bei, für den sie festgelegt wurden. Diese Metrik ist nützlich, wenn Sie sehen möchten, wie oft ein Dimensionselement ohne die Treffer festgelegt wurde, bei denen dieser Wert beibehalten wurde.
 
 ## Berechnung dieser Metrik
 
