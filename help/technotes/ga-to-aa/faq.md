@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen
 description: Erhalten Sie Antworten auf häufig gestellte Fragen, wenn Sie von einer Plattform eines Drittanbieters zu Adobe wechseln.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ Anwender, die auf dieses [!UICONTROL Workspace]-Projekt zugreifen, können diese
 
 **Ich bin es gewohnt, auf ein Dimensionselement zu klicken, um einen Drilldown zu sehen. Wie kann ich diesen einfachen Workflow in Analysis Workspace replizieren?**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Greifen Sie darauf zu, indem Sie mit der rechten Maustaste statt mit der linken klicken. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. Sie können die gleiche Aufschlüsselung auf mehrere Dimensionselemente anwenden, indem Sie bei jedem Wert Strg+Klick (Windows) bzw. Cmd+Klick (Mac) verwenden.
+Dimensionselemente in [!UICONTROL Analysis Workspace] verfügen auch über einen einfachen Aufschlüsselungs-Workflow. Greifen Sie darauf zu, indem Sie mit der rechten Maustaste statt mit der linken klicken. Klicken Sie mit der rechten Maustaste auf ein Dimensionselement, klicken Sie auf **[!UICONTROL Aufschlüsselung] und wählen Sie dann die gewünschte Komponente aus. Sie können dieselbe Aufschlüsselung auf mehrere Dimensionselemente anwenden, indem Sie bei gedrückter Strg- (Windows) bzw. Befehlstaste (Mac) auf die Werte klicken.
