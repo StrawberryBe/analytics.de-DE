@@ -1,11 +1,11 @@
 ---
 title: Verbindungstyp
-description: Die Verbindung des Besuchers mit dem Internet.
-translation-type: tm+mt
+description: Wie sich der Besucher mit dem Internet verbindet.
+translation-type: ht
 source-git-commit: 3fcaee113f2c15bfc5a1ce0a7cd31a456ba98929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
