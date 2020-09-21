@@ -1,18 +1,18 @@
 ---
 title: Übersicht über Klassifizierungen
 description: Passen Sie die Gruppierung von Dimensionselementen an.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Übersicht über Klassifizierungen
 
-Eine Klassifizierung ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, sobald Sie einen Bericht erzeugen.
+Eine Classification ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, sobald Sie einen Bericht erzeugen.
 
 Videoüberblick über [Analytics-Classifications](https://video.tv.adobe.com/v/16853/?captions=ger).
 
@@ -34,7 +34,7 @@ Die Reports &amp; Analysen Funktion beinhaltet vordefinierte Classifications f�
 
 Weitere Informationen finden Sie unter [Traffic-Classifications](/help/admin/admin/c-traffic-variables/traffic-classifications.md) und [Konversion-Classifications](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-In der folgenden Tabelle werden die verschiedenen verfügbaren Classification-Typen und die Variablentypen, die sie unterstützen, beschrieben. Beachten Sie die Informationen unter [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) vor dem Hochladen von Datendateien.
+In der folgenden Tabelle werden die verschiedenen verfügbaren Classification-Typen und die Variablentypen, die sie unterstützen, beschrieben. Beachten Sie die Informationen unter  [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) vor dem Hochladen von Datendateien.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
