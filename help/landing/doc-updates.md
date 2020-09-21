@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Datum | Beschreibung |
 |---|---|
-| 21. Juli 2020 | Wichtige Aktualisierungen und Aktualisierungen für [geräteübergreifende Analysen](/help/components/cda/overview.md). Es wurde eine [feldbasierte Suche](/help/components/cda/field-based-stitching.md)hinzugefügt. |
+| 21. Juli 2020 | Wichtige Aktualisierungen und Überarbeitungen der [geräteübergreifenden Analyse](/help/components/cda/overview.md). Es wurde eine [feldbasierte Suche](/help/components/cda/field-based-stitching.md) hinzugefügt. |
 | 28. April 2020 | Eine Dokumentation zur Metrik für [Content-Geschwindigkeit](/help/components/metrics/content-velocity.md) wurde hinzugefügt. |
 | 12. März 2020 | Es wurden Aktualisierungen zum [Veröffentlichen von Segmenten in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) hinzugefügt. |
 | 12. März 2020 | Aktualisierungen der CDA-Stitching-Latenz. |
