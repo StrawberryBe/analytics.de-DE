@@ -90,7 +90,7 @@ Beim Kopieren eines Legacy-Dashboards öffnet das System dieses zur Bearbeitung,
 
    Das kopierte Dashboard wird im Dashboard-Layout-Bearbeiter geöffnet.
 
-   Siehe [Bearbeiten von Dashboard- und Reportlet-Daten](/help/analyze/reports-analytics/dashboard.md).
+   Siehe  [Bearbeiten von Dashboard- und Reportlet-Daten](/help/analyze/reports-analytics/dashboard.md).
 
 ## Dashboard freigeben
 
