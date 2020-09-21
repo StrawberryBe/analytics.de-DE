@@ -1,11 +1,11 @@
 ---
 title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 | SC-TnT | `tntbase` |
 | Suchmaschine | `searchengine` |
 | Suchbegriff | `searchenginekeyword` |
-| Suchmaschine – kostenlos | `searchenginenatural` |
+| Suchmaschine  – kostenlos | `searchenginenatural` |
 | Suchmaschine – bezahlt | `searchenginepaid` |
 | Suchbegriff – kostenlos | `searchenginenaturalkeyword` |
 | Suchbegriff – bezahlt | `searchenginepaidkeyword` |
@@ -135,7 +135,7 @@ Auf dieser Seite sind die Dimensionen aufgelistet, die in ihren jeweiligen Analy
 | Mobil-DRM | `mobiledrm` |
 | Mobile Informationsdienste | `mobileinformationservices` |
 | Mobile Java-VM | `mobilejavavm` |
-| Mobiles Mail-Design | `mobilemaildecoration` |
+| Mobilgerät – Mail-Design | `mobilemaildecoration` |
 | Mobile Netzprotokolle | `mobilenetprotocols` |
 | Mobiles PTT | `mobilepushtotalk` |
 | Monat | `daterangemonth` |
