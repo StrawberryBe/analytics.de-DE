@@ -31,7 +31,7 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 ## Wichtige Artikel
 
 * [Analytics-Administratorhandbuch für Einsteiger](admin-console/first-admin-guide.md): Wenn Sie Adobe Analytics noch nicht kennen, lesen Sie dieses Handbuch, um Adobe Analytics optimal zu nutzen.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Klassifizierungen, Zeitzonen und vielem mehr.
+* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Classifications, Zeitzonen und vielem mehr.
 
 ## Weitere Benutzerhandbücher für Analytics
 
