@@ -22,7 +22,7 @@ Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis
 Zu den deaktivierten Interaktionen in einem schreibgeschützten Projekt gehören:
 
 * Ausgeblendete linke Leiste
-* Report Suites
+* Report Suite
 * Datumsbereich des Bedienfeldkalenders. Hinweis: Wenn Sie zulassen möchten, dass die Empfänger Kontrolle über den Kalender haben, fügen Sie einen [Dropdown-Filter mit Datumsbereichen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) hinzu.
 * Freiformfilterung
 * Freiform – Anzahl der sichtbaren Zeilen
