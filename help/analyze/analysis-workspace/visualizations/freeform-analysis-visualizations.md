@@ -2,11 +2,11 @@
 description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualisierungsübersicht
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ YouTube-Video: [Visualisierungstypen in Analysis Workspace](https://www.youtube.
 | [Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben (wo sie „ausgefallen“ sind) und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). |
 | [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Zeigt Kundenpfade durch Ihre Websites und Apps. |
 | [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. |
-| [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm ähnelt einem Balkendiagramm, fasst jedoch Zahlen zu Bereichen („Pakete“) zusammen. |
+| [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) | Ein Histogramm ähnelt einem Balkendiagramm, fasst jedoch Zahlen zu Bereichen (Behältern) zusammen. |
 | [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
 | [Linie](/help/analyze/analysis-workspace/visualizations/line.md) | stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird. |
 | [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
-| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
+| [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
 | [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zelle ausgewählt ist, zeigt diese Visualisierung die Summen und Zusammenfassungen an. |
 | [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Je nachdem, welche Zellen ausgewählt sind, werden bei dieser Visualisierung Zellen miteinander verglichen. |
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md) | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. |
@@ -59,8 +59,8 @@ Um auf die [!UICONTROL Visualisierungseinstellungen] zuzugreifen, ziehen Sie ein
 | Einstellung | Beschreibung |
 |--- |--- |
 | Prozentsatz | Zeigt Werte als Prozentzahlen an. |
-| 100 % gestapelt | Mit dieser Einstellung für die Visualisierungen „Bereich gestapelt“, „Balken gestapelt“ und „Horizontalbalken gestapelt“ wandeln Sie Diagramme in zu „100 % gestapelte“ Visualisierungen um. Beispiel: ![](assets/stacked_100_percent.png) |
-| Legende eingeblendet | Hiermit können Sie den Text zu Filterdetails für die Visualisierung „Zusammenfassungsnummer/Zusammenfassungsänderung“ ausblenden. |
+| 100 % gestapelt | Mit dieser Einstellung für die Visualisierungen „Bereich gestapelt“, „Balken gestapelt“ und „Horizontalbalken gestapelt“ wandeln Sie Diagramme in zu „100 % gestapelte“ Visualisierungen um. Beispiel:  ![](assets/stacked_100_percent.png) |
+| Legende sichtbar | Hiermit können Sie den Text zu Filterdetails für die Visualisierung „Zusammenfassungsnummer/Zusammenfassungsänderung“ ausblenden. |
 | Grenzwert für max. Anzahl Elemente | Hiermit können Sie die Anzahl der Elemente begrenzen, die in einer Visualisierung angezeigt werden. |
 | Y-Achse bei null verankern | Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, wird der untere Teil der Y-Achse standardmäßig zu NICHT-NULL gemacht. Wenn Sie dieses Kontrollkästchen aktivieren, wird die Y-Achse zwangsweise auf null gesetzt (und das Diagramm neu gezeichnet). |
 | Normalisierung | Erzwingt Metriken für gleiche Anteile. |
