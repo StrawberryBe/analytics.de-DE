@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Erste Schritte mit Marketing-Kanälen
 
-Marketingkanäle werden häufig dazu verwendet, einen Einblick darin zu erhalten, wie Besucher auf Ihre Site gelenkt werden. Sie können basierend auf den Kanälen, die Sie nachverfolgen möchten, und darauf, wie Sie diese nachverfolgen möchten, eigene Marketingkanal-Verarbeitungsregeln anpassen.
+Marketing-Kanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können basierend auf den Kanälen, die Sie nachverfolgen möchten, und darauf, wie Sie diese nachverfolgen möchten, eigene Marketingkanal-Verarbeitungsregeln anpassen.
 
 Marketingkanäle kreisen um First- und Last-Touch-Metriken, die Komponenten von standardmäßigen Konversionsmetriken sind.
 
@@ -29,7 +29,7 @@ Das Definieren der von Ihnen verwendeten Kanäle ist eine der wichtigsten Kompon
 * Möchten Sie alle Websites mit sozialen Netzwerken zusammenfassen, oder gibt es soziale Netzwerke, die Sie einzeln nachverfolgen möchten?
 * Sind andere Kanäle vorhanden, die möglicherweise die Konversion beeinflussen, die Sie nachverfolgen möchten?
 
-Eine Liste mit empfohlenen Kanälen finden Sie unter [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definierung beim Erstellen von Kanälen zu vereinfachen.
+Eine Liste mit empfohlenen Kanälen finden Sie unter  [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definierung beim Erstellen von Kanälen zu vereinfachen.
 
 ![](assets/step2_icon.png) Fügen Sie auf der Seite [!UICONTROL Marketing-Kanal-Manager] Marketing-Kanäle hinzu.
 
@@ -47,7 +47,7 @@ Informationen zum Verfahren finden Sie unter [Hinzufügen von Marketing-Kanälen
 
 Konfigurieren Sie nach der Erstellung von Kanälen auf der Seite [!UICONTROL Marketingkanal-Manager] die Regeln, damit Kanäle Daten abrufen können und Berichte dazu erstellen können.
 
-Siehe [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md).
+Siehe  [Marketingkanal-Verarbeitungsregeln](/help/components/c-marketing-channels/c-rules.md).
 
 Wenn Kanäle im automatischen Setup erstellt wurden, werden die Regeln in diesen Kanälen definiert. Sie können sie an Ihre Bedürfnisse anpassen.
 
