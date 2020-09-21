@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -32,6 +32,6 @@ Adobe empfiehlt, eine eVar für die verkettete Zeichenfolge `window.location.hos
 
 Wenn Sie möchten, dass die eVar genau der Dimension „Seiten-URL“ in Data Warehouse entspricht, können Sie [dynamische Variablen](/help/implement/vars/page-vars/dynamic-variables.md) verwenden und die eVar bei jedem Treffer auf `D=g` setzen.
 
-## Dimensionen
+## Dimensionselemente
 
-Dimensionen beinhalten die URLs der Seiten auf Ihrer Site.
+Zu den Dimensionselementen gehören die URLs der Seiten auf Ihrer Site.
