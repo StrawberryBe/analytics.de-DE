@@ -3,6 +3,9 @@ title: AppMeasurement für JavaScript
 description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Management-System implementieren.
 translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: ht
+source-wordcount: '149'
+ht-degree: 100%
 
 ---
 
