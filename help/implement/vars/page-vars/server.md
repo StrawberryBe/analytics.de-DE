@@ -3,6 +3,9 @@ title: server
 description: Füllen Sie die Dimension „Server“.
 translation-type: ht
 source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+workflow-type: ht
+source-wordcount: '159'
+ht-degree: 100%
 
 ---
 
