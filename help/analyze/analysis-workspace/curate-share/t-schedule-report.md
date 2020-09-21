@@ -1,44 +1,44 @@
 ---
-description: Senden Sie ein Analysis Workspace-Projekt per E-Mail oder planen Sie es für den Versand.
+description: Versenden Sie ein Projekt aus Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
 keywords: Analysis Workspace
 title: Geplante Projekte
 translation-type: tm+mt
 source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
 # Geplante Projekte
 
-Über das Menü &quot; **Freigeben&quot;in Workspace können Sie Analysis Workspace-Projekte per E-Mail an ausgewählte Empfänger senden**. Dateien können im CSV- oder PDF-Format gesendet werden.
+Über das Menü **Freigeben** in Workspace können Sie Analysis Workspace-Projekte per E-Mail an ausgewählte Empfänger senden. Dateien können im CSV- oder PDF-Format gesendet werden.
 
 ## Datei jetzt senden
 
-So senden Sie eine Datei sofort per E-Mail an Empfänger:
+So senden Sie eine Datei sofort per E-Mail an die Empfänger:
 
-1. Click **Share > Send File Now**.
+1. Klicken Sie auf **Freigeben > Datei jetzt senden**.
 1. Geben Sie den Dateityp an (CSV oder PDF).
-1. (Optional) Hinzufügen eine Beschreibung, die in der E-Mail enthalten ist, um die empfangene Datei zu erklären.
-1. hinzufügen Empfänger oder Gruppen. E-Mail-Adressen können auch eingegeben werden.
+1. (Optional) Fuegen Sie eine Beschreibung hinzu, die in der E-Mail enthalten sein wird, um die empfangene Datei zu erklären.
+1. Fügen Sie Empfänger oder Gruppen hinzu. E-Mail-Adressen können auch eingegeben werden.
 1. Klicken Sie auf **Jetzt senden**.
-1. (Optional) Klicken Sie auf Planungsoptionen **anzeigen** , um einen Zeitplan für den Versand festzulegen.
+1. (Optional) Klicken Sie auf **Planungsoptionen anzeigen**, um einen Zeitplan für den Versand festzulegen.
 
 ![Datei jetzt senden](assets/send-file-now.png)
 
 ## Datei planmäßig senden
 
-So senden Sie eine Datei regelmäßig per E-Mail an Empfänger:
+So senden Sie eine Datei basierend auf einem wiederkehrenden Zeitplan per E-Mail an die Empfänger:
 
-1. Click **Share > Send File on Schedule**.
+1. Klicken Sie auf **Freigeben > Datei planmäßig senden**.
 1. Geben Sie den Dateityp an (CSV oder PDF).
-1. (Optional) Hinzufügen eine Beschreibung, die in der E-Mail enthalten ist, um die empfangene Datei zu erklären.
-1. hinzufügen Empfänger oder Gruppen. E-Mail-Adressen können auch eingegeben werden.
-1. Geben Sie den Bereich an, über den der Zeitplan bereitgestellt werden soll, indem Sie die Einstellungen &quot;Start am&quot;und &quot;Ende bei Eingabe&quot;ändern. Das Enddatum muss innerhalb eines Jahres ab dem Tag liegen, an dem der Plan erstellt oder geändert wird.
-1. Geben Sie die Häufigkeit des Versands an. Jede Frequenz ermöglicht unterschiedliche Anpassungen.
-1. Klicken Sie auf Planmäßig **senden**.
+1. (Optional) Fuegen Sie eine Beschreibung hinzu, die in der E-Mail enthalten sein wird, um die empfangene Datei zu erklären.
+1. Fügen Sie Empfänger oder Gruppen hinzu. E-Mail-Adressen können auch eingegeben werden.
+1. Geben Sie den Datumsbereich an, über den anhand des Zeitplans gesendet werden soll, indem Sie die Einstellungen „Start am“ und „Ende am“ ändern. Das Enddatum muss innerhalb eines Jahres ab dem Tag liegen, an dem der Zeitplan erstellt oder geändert wurde.
+1. Geben Sie die Versandhäufigkeit an. Jede Häufigkeit ermöglicht unterschiedliche Anpassungen.
+1. Klicken Sie auf **Planmäßig senden**.
 
 ![](assets/send-on-schedule.png)
 
@@ -46,19 +46,19 @@ So senden Sie eine Datei regelmäßig per E-Mail an Empfänger:
 
 Geplante Analysis Workspace-Projekte können unter **Analytics > Komponenten > Geplante Projekte** verwaltet werden.
 
-Im Manager für geplante Projekte können Sie wiederholte Projektpläne bearbeiten und löschen. Suchen Sie nach einem Zeitplan in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste. Sie können nach Tag, genehmigten Zeitplänen, Inhabern und mehr filtern.
+Im Manager für geplante Projekte können wiederkehrende Projektzeitpläne bearbeitet und gelöscht werden. Suchen Sie in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste nach einem Zeitplan. Sie können nach Tag, genehmigten Zeitplänen, Inhabern und mehr filtern.
 
 ![](assets/scheduled-project-manager.png)
 
-Im Manager für geplante Projekte werden häufig folgende Aktionen ausgeführt:
+Die folgenden Aktionen werden im Manager für geplante Projekte häufig ausgeführt:
 
 | Aktion | Beschreibung |
 |---|---|
-| **Zeitplan bearbeiten** | Klicken Sie auf den Titel des Zeitplans, um seine Versand-Einstellungen zu aktualisieren. |
-| **Zeitplan löschen** | Wählen Sie das geplante Projekt in der Liste aus und klicken Sie dann im Menü auf Löschen. Dadurch wird der ausgewählte Zeitplan für das Projekt gelöscht. das Projekt selbst wird nicht gelöscht. |
-| **hinzufügen** | Wählen Sie das geplante Projekt in der Liste aus und wählen Sie dann &quot;Taggen&quot;oder &quot;Genehmigen&quot;, um Ihre Zeitpläne zu organisieren und die Suche zu vereinfachen. |
-| **Ansicht fehlgeschlagene Zeitpläne** | Navigieren Sie zur linken Leiste > Andere Filter > Fehlgeschlagene Zeitpläne. |
-| **Ansicht abgelaufen** | Navigieren Sie zur linken Leiste > Andere Filter > Abgelaufen, um abgelaufene Zeitpläne anzuzeigen. Klicken Sie auf den Titel des Zeitplans, um einen neuen Bereitstellungsplan einzurichten. |
-| **Ansichten-Zeitplan-ID** | Navigieren Sie oben rechts zu den Spaltenoptionen und fügen Sie der Tabelle die Spalte &quot;Zeitplan-ID&quot;hinzu. Die geplante ID ist häufig zum Debugging nützlich. |
+| **Zeitplan bearbeiten** | Klicken Sie auf den Titel des Zeitplans, um seine Versandeinstellungen zu aktualisieren. |
+| **Zeitplan löschen** | Wählen Sie das geplante Projekt in der Liste aus und klicken Sie dann im Menü auf „Löschen“. Dadurch wird der ausgewählte Zeitplan für das Projekt gelöscht. Das Projekt selbst wird nicht gelöscht. |
+| **Tags hinzufügen** | Wählen Sie das geplante Projekt in der Liste aus und wählen Sie dann „Taggen“ oder „Genehmigen“ aus, um Ihre Zeitpläne zu organisieren und die Suche zu vereinfachen. |
+| **Fehlgeschlagene Zeitpläne anzeigen** | Navigieren Sie zur linken Leiste > „Andere Filter“ > „Fehlgeschlagen“, um Zeitpläne anzuzeigen, die fehlgeschlagen sind. |
+| **Abgelaufene Zeitpläne anzeigen** | Navigieren Sie zur linken Leiste > „Andere Filter“ > „Abgelaufen“, um Zeitpläne anzuzeigen, die abgelaufen sind. Klicken Sie auf den Titel des Zeitplans, um einen neuen Versandplan einzurichten. |
+| **Zeitplan-ID anzeigen** | Navigieren Sie oben rechts zu den Spaltenoptionen und fügen Sie der Tabelle die Spalte „Zeitplan-ID“ hinzu. Die Zeitplan-ID ist oft zum Debugging nützlich. |
 
-Im Manager für geplante Projekte werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt. Das geplante Projekteigentum kann unter **Admin > Analytics-Benutzer und -Assets > Assets übertragen** werden ****.
+Im Manager für geplante Projekte werden die Elemente angezeigt, die von einem bestimmten Benutzer erstellt wurden. Wenn das Benutzerkonto in der Anwendung deaktiviert wird, werden alle geplanten Bereitstellungen gestoppt. Die Eigentuemerschaft eines geplanten Projekts kann unter **Admin > Analytics-Benutzer und -Assets > Assets übertragen** **übertragen** werden.
