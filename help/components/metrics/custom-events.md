@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Benutzerspezifische Ereignisse
 
-*Auf dieser Hilfeseite wird beschrieben, wie benutzerspezifische Ereignisse als Metrik funktionieren. Informationen dazu, wie benutzerspezifische Ereignisse als Implementierungsvariable funktionieren, finden Sie unter[Übersicht über Ereignisse](/help/implement/vars/page-vars/events/events-overview.md)im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie benutzerspezifische Ereignisse als Metrik funktionieren. Informationen dazu, wie benutzerspezifische Ereignisse als Implementierungsvariable funktionieren, finden Sie unter [Übersicht über Ereignisse](/help/implement/vars/page-vars/events/events-overview.md) im Benutzerhandbuch zu Implementierungen.*
 
 Die Metriken zum benutzerspezifischen Ereignis zeigen die Anzahl der Treffer an, bei denen ein bestimmtes benutzerspezifisches Ereignis in einer Bildanforderung festgelegt wurde. Diese Metriken sind für viele Implementierungen unverzichtbar, da sie Einblicke in unternehmensspezifische Ereignisse bieten.
 
