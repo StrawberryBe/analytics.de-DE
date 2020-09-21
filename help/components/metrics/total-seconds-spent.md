@@ -1,18 +1,18 @@
 ---
 title: Gesamtbesuchszeit in Sekunden
-description: Die aggregierte Gesamtdauer der auf das Dimensionselement verbrachten Sekunden.
-translation-type: tm+mt
+description: Die aggregierte Gesamtanzahl der Sekunden, die mit dem Dimensionselement verbracht wurden.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
 # Gesamtbesuchszeit in Sekunden
 
-Die Metrik &quot;Gesamtbesuchszeit&quot;zeigt die aggregierte Anzahl der Sekunden, die ein Besucher für ein bestimmtes Dimensionselement verbracht hat. Diese Metrik ist hilfreich, wenn Sie die Rohzeit für ein bestimmtes Dimensionselement und nicht wie andere Besuchszeitmetriken-Angebot ermitteln möchten.
+Die Metrik „Gesamtbesuchszeit in Sekunden“ gibt die aggregierte Anzahl der Sekunden an, die ein Besucher mit einem bestimmten Dimensionselement verbracht hat. Diese Metrik ist nützlich, wenn Sie die für ein bestimmtes Dimensionselement aufgewendete Rohzeit und nicht Durchschnittswerte wie bei anderen Besuchszeit-Metriken wünschen.
 
 In Report Builder heißt diese Metrik „Gesamtbesuchszeit“.
 
