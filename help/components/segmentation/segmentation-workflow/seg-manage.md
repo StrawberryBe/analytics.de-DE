@@ -3,9 +3,9 @@ description: Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratier
 title: Segmente verwalten
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Be
 
 In diesem [YouTube-Video von Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) erhalten Sie einen kurzen Überblick darüber, wie Sie den Segment-Manager einsetzen können.
 
-## Benutzeroberfläche des Segment-Managers {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Benutzeroberfläche des Segment-Managers  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
