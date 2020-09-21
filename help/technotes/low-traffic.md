@@ -49,6 +49,6 @@ Verschiedene Funktionen behandeln Werte mit geringem Traffic auf unterschiedlich
 * **Data Warehouse:** Die Anzahl der eindeutigen Werte in Data-Warehouse-Berichten ist unbegrenzt. Die einzigartige Architektur ermöglicht das Reporting beliebig vieler eindeutiger Werte.
    * In einigen eingeschränkten Szenarien können weiterhin „Geringer Datenverkehr“-Werte angezeigt werden. Beispiele sind Listenvariablen, Listen-Props, Merchandising-eVars und Marketing-Kanal-Detaildimensionen.
 * **Segmentierung:** Wenn die Segmentkriterien eine Variable mit einer hohen Anzahl eindeutiger Werte enthalten, werden unter „Geringer Datenverkehr“ erfasste Werte nicht berücksichtigt.
-* **Klassifizierungen:** Auch Klassifizierungsberichte unterliegen eindeutigen Beschränkungen. Wenn der Wert der übergeordneten Variablen einer Klassifizierung unter „Geringer Datenverkehr“ fällt, wird der Wert nicht klassifiziert.
+* **Klassifizierungen:** Auch Klassifizierungsberichte unterliegen eindeutigen Beschränkungen. Wenn der Wert der übergeordneten Variablen einer Classification unter „Geringer Datenverkehr“ fällt, wird der Wert nicht klassifiziert.
    * Klassifizierungswerte mit geringem Traffic, die über den Importeur bezogen werden, können in der Data Warehouse angezeigt werden. <!-- AN-115871 -->
    * Classification-Werte mit geringem Traffic, die über den Rule Builder abgerufen werden, *können nicht* in der Data Warehouse angezeigt werden. <!-- AN-122872 -->
