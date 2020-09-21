@@ -44,13 +44,13 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Kampagne </p> </td> 
-   <td colname="col2"> <p>Kampagne </p> </td> 
+   <td colname="col1"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Konversion-Kampagnen-Trackingcode. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>kanal </p> </td> 
-   <td colname="col2"> <p>kanal </p> </td> 
+   <td colname="col1"> <p>channel </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Kanal-Zeichenfolge (z. B. Sportabteilung). </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, z. B. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen ( <span class="varname"> eVar1 </span> bis <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
+   <td colname="col3"> <p>Konversion-eVar-Name. Sie können über bis zu 75 eVars verfügen (  <span class="varname"> eVar1 </span> bis <span class="varname"> eVar75 </span>). </p> <p>Sie können den eVar-Namen (eVar12) oder einen benutzerfreundlichen Namen (Werbekampagne 3) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +79,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, z. B. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Sie können den Standardhierarchienamen (<span class="varname">hier2</span>) oder einen benutzerfreundlichen Namen (<span class="term">Yankees</span>) festlegen. </p> </td> 
+   <td colname="col3"> <p>Hierarchiename. Sie können über bis zu 5 Hierarchien verfügen (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Sie können den Standardhierarchienamen (<span class="varname">hier2</span>) oder einen benutzerfreundlichen Namen (<span class="term">Yankees</span>) festlegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -124,7 +124,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, z. B. &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Property#-Zeichenfolge (z. B. <span class="term"> Sportbereich </span>). </p> </td> 
+   <td colname="col3"> <p>Property#-Zeichenfolge (z. B.  <span class="term"> Sportbereich </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
