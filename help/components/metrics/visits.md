@@ -1,11 +1,11 @@
 ---
 title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ Sie können die Definition eines Besuchs auf eine andere Zeit als 30 Minuten än
 
 Es wird für jeden betroffenen Zeitraum ein Besuch gezählt. Wenn Sie beispielsweise einen Besucher haben, der am Montag um 23.45 Uhr mit dem Navigieren auf Ihrer Site beginnt und am Dienstag um 00.10 Uhr seine letzte Bildanforderung sendet, wird ein Besuch angezeigt, der sowohl Montag als auch Dienstag zugeordnet ist. Die Gesamtbesuchsmetrik wird jedoch dedupliziert und zeigt einen einzelnen Besuch für den Datumsbereich des Projekts an.
 
-## Besuche einer Dimension im Vergleich zu Gesamtbesuchen
+## Besuche innerhalb einer Dimension im Vergleich zur Gesamtanzahl der Besuche
 
-Besuche im Kontext einer Dimension (z. B. [Marketing Kanal](../dimensions/marketing-channel.md)) zeigen die Anzahl der Besuche, die zu einem bestimmten Zeitpunkt ein bestimmtes Dimensionselement enthielten. Häufig gibt es mehrere Dimensionselemente bei unterschiedlichen Treffern im selben Besuch. Der Versuch, Besuche mit einem Bericht zu Dimensionselementen zusammenzufassen, ergibt in der Regel keinen Sinn.
+Besuche im Kontext einer Dimension (z. B. [Marketing-Kanal](../dimensions/marketing-channel.md)) zeigen die Anzahl der Besuche, die zu einem bestimmten Zeitpunkt ein bestimmtes Dimensionselement enthielten. Häufig gibt es mehrere Dimensionselemente bei verschiedenen Treffern im selben Besuch. Der Versuch, Besuche zu summieren, die über Dimensionselemente berichten, ist in der Regel nicht sinnvoll.
