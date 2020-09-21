@@ -37,7 +37,7 @@ Mithilfe des Dynamic Tag Managements werden Staging- und Produktions-Einbettungs
 
    >[!NOTE]
    >
-   >Produktions-Einbettungscode gibt nur die veröffentlichten Elemente in dieser [Eigenschaft](/help/implement/other/dtm/t-create-web-property.md) an. Einbettungscode für das Staging gibt jedoch alle Elemente in der zugehörigen Eigenschaft wieder, unabhängig von ihrem Veröffentlichungsstatus. Um nicht veröffentlichte Elemente auf Ihrer Produktions-Website zu testen, aktivieren Sie Staging lokal in der Konsole, siehe Anweisungen unter [Nicht veröffentlichte Regeln für Akamai-Hosting testen](/help/implement/other/dtm/c-rules/t-test-rules-akamai.md).
+   >Produktions-Einbettungscode gibt nur die veröffentlichten Elemente in dieser [Eigenschaft](/help/implement/other/dtm/t-create-web-property.md) an. Einbettungscode für das Staging gibt jedoch alle Elemente in der zugehörigen Eigenschaft wieder, unabhängig von ihrem Veröffentlichungsstatus. Um nicht veröffentlichte Elemente auf Ihrer Produktions-Website zu testen, aktivieren Sie Staging lokal in der Konsole, siehe Anweisungen unter  [Nicht veröffentlichte Regeln für Akamai-Hosting testen](/help/implement/other/dtm/c-rules/t-test-rules-akamai.md).
 
 1. Kopieren Sie den Produktions-Fußzeilencode und fügen Sie ihn im [!DNL BODY]-Bereich Ihres Website-HTML-Codes ein.
 
