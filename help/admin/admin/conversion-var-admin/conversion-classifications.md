@@ -22,30 +22,30 @@ Nach der Aktivierung der Classifications verwenden Sie den [Classification Impor
 >
 >Das Umbenennen einer Klassifizierung kann Probleme mit vorhandenen Regeln verursachen, die im [Classification Rule Builder](/help/components/classifications/crb/classification-rule-builder.md)erstellt wurden. Wenn Sie eine Classification umbenennen, die Classification-Regeln enthält, sollten Sie sicherstellen, dass die einzelnen Regeln so korrigiert werden, dass sie auf die umbenannte Classification verweisen.
 
-## Konversion-Classifications – Beschreibungen
+## Konversionsklassifizierungen – Beschreibungen
 
 | Element | Beschreibung |
 | --- | --- |
 | Name | Der Name der Classification |
 | Datum aktiviert (nur Text) | Gibt an, ob die Text-Classification ein Datumsbereich für die Kampagnenvariablen ist. |
-| Optionen (nur Text) | Erstellt eine Liste mit für diese Classification verfügbaren Werten. „Optionen“ kann zusammen mit Kampagnenvariablen verwendet werden, um den Benutzern eine Liste mit unterstützten Werten für die Classification im „Kampagnen-Manager“ bereitzustellen. |
+| Optionen (nur Text) | Erstellt eine Liste mit für diese Classification verfügbaren Werten. „Optionen“ kann zusammen mit Kampagnenvariablen verwendet werden, um den Benutzern eine Liste mit unterstützten Werten für die Classification im Kampagnen-Manager bereitzustellen. |
 | Zahlentyp (nur nummerisch) | Gibt den Typ der Zahl in der nummerischen Classification an. Zu den Optionen gehören Nummerisch, Prozent und Währung. |
 
-## Konversion-Classifications hinzufügen
+## Konversionsklassifizierungen hinzufügen
 
-Schritte, die beschreiben, wie Konversion-Classifications in der Admin-Konsole hinzugefügt werden.
+Schritte, die beschreiben, wie Konversionsklassifizierungen in der Admin-Konsole hinzugefügt werden.
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. 
-1. Report Suite auswählen.
+1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversion-Classifications]**. 
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Einen Klassifizierungstyp auswählen]** die Variable aus, der Sie eine Klassifizierung hinzufügen möchten.
 
    ![Schritt-Info](../assets/sub_class_create.png)
 
 1. Bewegen Sie den Mauszeiger über das Symbol **[!UICONTROL Klassifizierung bearbeiten]** und wählen Sie dann **[!UICONTROL Klassifizierung hinzufügen]**.
-1. Wählen Sie im Feld **[!UICONTROL Typ auswählen]** den Klassifizierungstyp aus, den Sie der Variablen hinzufügen möchten.
+1. Wählen Sie im Feld **[!UICONTROL Typ auswählen]** den Classification-typ aus, den Sie der Variablen hinzufügen möchten.
 
-   Zu den Optionen gehören **[!UICONTROL Text]** und **[!UICONTROL Numerisch]**. Weitere Informationen zu Klassifizierungstypen finden Sie unter [Informationen über Klassifizierungen](/help/components/classifications/c-classifications.md).
+   Zu den Optionen gehören **[!UICONTROL Text]** und **[!UICONTROL Numerisch]**. Weitere Informationen zu Classification-Typen finden Sie unter [Informationen über Classifications](/help/components/classifications/c-classifications.md).
 1. Konfigurieren Sie die Klassifizierung im Dialogfeld **[!UICONTROL Textklassifizierungen]** nach Bedarf.
 
 1. Fügen Sie im Dialogfeld **[!UICONTROL Dropdown-Liste]** Optionen hinzu oder entfernen Sie Optionen.
@@ -56,10 +56,10 @@ Schritte, die beschreiben, wie Konversion-Classifications in der Admin-Konsole h
 
 ## Löschen von Konversions-Classifications
 
-Löschen Sie nicht mehr benötigte Konversion-Classifications.
+Löschen Sie nicht mehr benötigte Konversions-Classifications.
 
 1. Öffnen Sie den Report Suite Manager, indem Sie in der Suite-Kopfzeile auf **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** klicken.
-1. Report Suite auswählen.
+1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversion-Classifications]**. 
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Einen Klassifizierungstyp auswählen]** die Variable aus, in der Sie eine Klassifizierung löschen möchten.
 1. Bewegen Sie den Mauszeiger über das Symbol **[!UICONTROL Klassifizierung bearbeiten]** und wählen Sie dann **[!UICONTROL Klassifizierung löschen]**.
