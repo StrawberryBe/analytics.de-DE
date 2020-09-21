@@ -4,8 +4,11 @@ keywords: Analysis Workspace
 title: Manager für geplante Projekte
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Verwalten Sie geplante Projekte in Analysis Workspace.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Geplante Projekte]**.
 
 ![](assets/components-scheduled-projects.png)
 
