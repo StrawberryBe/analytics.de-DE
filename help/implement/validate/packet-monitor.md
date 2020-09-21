@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 58%
+ht-degree: 98%
 
 ---
 
@@ -40,24 +40,24 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 
 >[!NOTE]
 >
->Adobe unterstützt oder behebt KEINE Probleme, die bei diesen Paketmonitoren auftreten. Hilfe erhalten Sie auf der Website des Paketbildschirms.
+>Adobe bietet WEDER Support NOCH Fehlerbehebung bei Problemen mit diesen Paketmonitoren an. Wenden Sie sich bei Fragen und Problemen an die Website, von der Sie den Paketmonitor heruntergeladen haben.
 
-## Typische HTTP-Antwortstatuscodes
+## Typische HTTP-Antwortstatus-Codes
 
-Wenn AppMeasurement Daten an Datenerfassungsserver der Adobe sendet, reagieren die Server mit einem Antwortstatuscode.
+Wenn AppMeasurement Daten an die Datenerfassungs-Server der Adobe sendet, antworten die Server mit einem Antwortstatus-Code.
 
-* **200 OK**: Die häufigste Antwort von Datenerfassungsservern. Die Bildanforderung wurde erfolgreich empfangen und ein transparentes Bild wurde zurückgegeben.
+* **200 OK**: Die häufigste Antwort von Datenerfassungs-Servern. Die Bildanforderung wurde erfolgreich empfangen und ein transparentes Bild zurückgegeben.
 * **302 GEFUNDEN**: Es gibt mehrere mögliche Gründe, warum Sie diese Antwort erhalten:
    * Die erste Bildanforderung eines Besuchers: Eine Umleitung tritt auf, wenn ein Benutzer Ihre Site zum ersten Mal besucht. Diese Umleitung dient zum Abrufen eines Besucher-Cookies. Die Datenerfassung wird dadurch nicht beeinflusst.
    * Integration zwischen Comscore und Adobe: Wenn Ihr Unternehmen eine Comscore-/Analytics-Integration verwendet, ergibt jede Bildanforderung immer eine 302-Antwort.
-* **404 NICHT GEFUNDEN**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungsserver der Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Einzelperson oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
+* **404 NICHT GEFUNDEN**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungs-Server von Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Person oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
 
 ## NS_BINDING_ABORTED in Antwortcodes
 
-Diese Meldung tritt auf, weil die Bildanforderung zur Linktracking so konzipiert ist, dass der Browser zur nächsten Seite wechseln kann, bevor er auf eine Antwort von den Datenerfassungsservern der Adobe wartet.
+Der Grund für diese Nachricht liegt darin, dass die zur Linktracking dienende Bildanforderung es dem Browser erlauben soll, zur nächsten Seite zu wechseln, ohne auf eine Antwort von den Datenerfassungs-Servern von Adobe warten zu müssen.
 
-Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. If you see a line item in your packet monitor from Adobe, either with a **[!UICONTROL 200 OK]** response or an **[!UICONTROL NS_BINDING_ABORTED]** response, the data has reached Adobe&#39;s servers. Dann besteht kein Grund mehr, die Seite noch länger warten zu lassen.
+Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]** oder **[!UICONTROL NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei den Servern von Adobe angekommen sind. Dann besteht kein Grund mehr, die Seite noch länger warten zu lassen.
 
 Für Paketmonitore, die als Plug-in integriert sind, ist selten die vollständige Antwort sichtbar. Monitore neigen dazu, die Anforderung als abgebrochen zu betrachten, da die vollständige Antwort nicht erhalten wurde. Diese Monitore machen außerdem sehr selten die Unterscheidung, ob die Anforderung oder die Antwort abgebrochen wurde. Eigenständige Paketmonitore verfügen dagegen meist über detailliertere Informationen und melden daher den Status exakter. Beispiel: Ein Benutzer erhält in *Charles* eine Meldung, die besagt, dass der Client die Verbindung abgebrochen hat, bevor eine vollständige Antwort erhalten wurde. Das bedeutet, die Daten haben unsere Server erreicht, aber der Browser ist bereits auf der nächsten Seite, bevor das 1x1-Pixel erhalten wurde.
 
-Wenn ein externer Paketmonitor meldet, dass die Datenerfassungsanforderung abgebrochen wurde, anstatt die Antwort, gibt dies Anlass zur Besorgnis. Adobe [!DNL Customer Care] kann Ihnen hier bei der Fehlerbehebung helfen.
+Wenn ein externer Paketmonitor meldet, dass die Datenerfassungsanforderung abgebrochen wurde (anstatt der Antwort), stellt dies ein Problem dar. Adobe [!DNL Customer Care] kann Ihnen hier bei der Fehlerbehebung helfen.
