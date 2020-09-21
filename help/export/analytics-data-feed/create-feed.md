@@ -44,7 +44,7 @@ SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host u
 
 ### S3
 
-Sie können Feeds direkt an Amazon S3-Behälter senden. Erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
+Sie können Feeds direkt an Amazon S3-Behälter senden. Erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumenation.
 
 ![S3-Info](assets/dest-s3.jpg)
 
