@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Importdatei-Vorlage generieren
 topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -14,13 +17,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Die Importdatei-Vorlage hilft Ihnen, mit dem Import zu beginnen.
 
-Sie sind nicht auf die in der Vorlage definierten Spalten beschränkt. Sie können bei Bedarf weitere Spalten hinzufügen, solange die Metrik oder Definition für den ausgewählten Datenverarbeitungstyp unterstützt wird. Sie können die für jeden Typ unterstützten Metriken und Dimensionen in den folgenden Abschnitten anzeigen:  [Webprotokoll](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [Besucher-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Vollständige Verarbeitung](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Für einen Traffic-Datentyp können Sie beispielsweise eine Spalte für eine Metrik oder Dimension hinzufügen, die im Abschnitt [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) aufgeführt wird.
+Sie sind nicht auf die in der Vorlage definierten Spalten beschränkt. Sie können bei Bedarf weitere Spalten hinzufügen, solange die Metrik oder Definition für den ausgewählten Datenverarbeitungstyp unterstützt wird. Sie können die für jeden Typ unterstützten Metriken und Dimensionen in den folgenden Abschnitten anzeigen:   [Webprotokoll](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Konversion](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [Transaktions-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [Besucher-ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Vollständige Verarbeitung](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Für einen Traffic-Datentyp können Sie beispielsweise eine Spalte für eine Metrik oder Dimension hinzufügen, die im Abschnitt [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) aufgeführt wird.
 
 Nach dem Erstellen können Sie die Vorlage herunterladen, Daten in die Vorlage eingeben und dann die Daten auf die Data Sources-FTP-Site hochladen. Nach der Verarbeitung durch den Data Sources-Server stehen die importierten Daten in Ihren Analytics-Berichten zur Verfügung.
 
 Die Datenquelle-Vorlage ist eine .txt-Datei, die Sie mit einem beliebigen Texteditor öffnen können. Am einfachsten ist es jedoch, wenn Sie in Microsoft Excel oder einer anderen Tabellenkalkulationsanwendung mit der Vorlage arbeiten. Der Vorlageninhalt ist von der Auswahl im Datenquelle-Aktivierungsassistent abhängig.
 
-Siehe [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
+Siehe  [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
 
 1. Bei Analytics anmelden.
 1.  Wählen Sie in der Suite-Kopfzeile **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]** aus.
