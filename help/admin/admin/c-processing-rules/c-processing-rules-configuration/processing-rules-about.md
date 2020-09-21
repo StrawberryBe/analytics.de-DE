@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Funktionsweise von Verarbeitungsregeln
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Mit Verarbeitungsregeln können Sie Änderungen an den Daten auf der Grundlage definierter Bedingungen vornehmen. Wenn Attribute oder Werte definierten Bedingungen entsprechen, können Werte festgelegt und gelöscht sowie Ereignisse festgelegt werden.
 
-Verarbeitungsregeln werden auf Daten während der Erfassung angewandt, und Regeln werden auf alle Daten angewandt, die über die AppMeasurement-Bibliotheken und durch die Dateneinfüge-API eingehen. Außerdem gelten die Verarbeitungsregeln für vollständige Data Sources und Protokolldatenquellen. Diese Quellen enthalten Daten, die für einen *`hit`* oder für eine Aktion, die ein Benutzer ausführt, stehen. Für andere Datenquellen gelten die Verarbeitungsregeln nicht.
+Verarbeitungsregeln werden auf Daten während der Erfassung angewandt, und Regeln werden auf alle Daten angewandt, die über die AppMeasurement-Bibliotheken und durch die Dateneinfüge-API eingehen. Außerdem gelten die Verarbeitungsregeln für vollständige Data Sources und Protokolldatenquellen. Diese Quellen enthalten Daten, die für einen  *`hit`* oder für eine Aktion, die ein Benutzer ausführt, stehen. Für andere Datenquellen gelten die Verarbeitungsregeln nicht.
 
 ## Wichtige Konzepte {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -38,7 +41,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden sofort nach ihrer Speicherung auf die Report Suite angewendet. </p> </td> 
-   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von <a href="/help/admin/admin/realtime/t-realtime-admin.md"> Echtzeitberichten</a> in Ihrer Test-Report Suite, so dass Sie die Ergebnisse der Verarbeitungsregel schnell sehen können. </p> </td> 
+   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Test von Verarbeitungsregeln empfehlen wird die Konfiguration von  <a href="/help/admin/admin/realtime/t-realtime-admin.md"> Echtzeitberichten</a> in Ihrer Test-Report Suite, so dass Sie die Ergebnisse der Verarbeitungsregel schnell sehen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln sind die einzige Möglichkeit für den Zugriff auf Kontextdatenvariablen. </p> </td> 
@@ -91,7 +94,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
  </tbody> 
 </table>
 
-## Bedingungen für Verarbeitungsregeln {#section_387390EEE9BA4DA98698522A84326DB4}
+## Bedingungen für Verarbeitungsregeln  {#section_387390EEE9BA4DA98698522A84326DB4}
 
 Mit Bedingungen werden Seitenvariablen darauf überprüft, ob ein Wert vorhanden ist oder übereinstimmt. Sie können mehrere Bedingungen hinzufügen, und es kann festgelegt werden, ob sämtliche Bedingungen erfüllt werden müssen.
 
@@ -99,7 +102,7 @@ Sie können eine Regel ohne Bedingungen erstellen, wenn bestimmte Aktionen immer
 
 Variablen werden nicht automatisch auf bestimmte Werte überprüft, bevor Aktionen durchgeführt werden. So enthält „Prop1“ einen beliebigen Wert, und „eVar1“ ist leer. Wenn Sie festlegen, dass „Prop1“ den Wert von „eVar1“ annimmt, sind beide Werte leer. Wenn dies verhindert werden soll, müssen Sie mit einer Bedingung testen, ob ein Wert vorhanden ist.
 
-## Aktionen für Verarbeitungsregeln {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Aktionen für Verarbeitungsregeln  {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 Mit Aktionen werden Seitenvariablen festgelegt oder gelöscht und Ereignisse ausgelöst. Mit Aktionen können auch Werte für eine Berichtanzeige miteinander verkettet werden.
 
