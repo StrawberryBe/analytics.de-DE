@@ -1,11 +1,11 @@
 ---
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Berechnete Metrik:** ermöglicht die Kombination vorhandener Metriken, statistischer Funktionen und Formeln zur Verwendung in Berichten. Siehe [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Kampagne:** kann sich auf Folgendes beziehen:
    * Die Kampagnenvariable, die die Dimension „Trackingcode“ ausfüllt. Siehe [Kampagne](../implement/vars/page-vars/campaign.md) im Benutzerhandbuch zu Implementierungen.
-   * Eine Standardklassifizierung der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
+   * Eine Standard-Classification der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
    * Adobe Campaign, Teil der Adobe Experience Cloud. Weitere Informationen finden Sie auf [Adobe.com](https://www.adobe.com/de/marketing/campaign.html).
 * **Kanal:** kann sich auf Folgendes beziehen:
    * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
    * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
-* **Klassifizierung:** Eine Funktion in Adobe Analytics, mit der Dimensionselemente gruppiert werden können. Siehe [Klassifizierungen](/help/components/classifications/c-classifications.md) im Benutzerhandbuch zu Komponenten.
+* **Klassifizierung:** eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionselementen ermöglicht. Siehe [Klassifizierungen](/help/components/classifications/c-classifications.md) im Benutzerhandbuch zu Komponenten.
 * **ClickMap:** wird nicht mehr verwendet. Ein veraltetes Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
 * **Clickstream-Feed:** Siehe „Daten-Feed“.
 * **Kohorte:** eine Gruppe von Personen, die über einen bestimmten Zeitraum gemeinsame Merkmale aufweisen. Siehe [Was ist eine Kohortenanalyse?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) im Benutzerhandbuch zu Analysen.
@@ -75,7 +75,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Metrik:** ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension bildet normalerweise ihr Gegenstück.
 * **Multi-Suite-Tagging:** die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung in Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
 * **Normalisierung:** eine Möglichkeit, eine Visualisierung zu organisieren, bei der alle Metriken in gleiche Proportionen umgewandelt werden, sodass Trends leichter verglichen werden können.
-* **Vorfälle:** Ein Metriktyp, der anzeigt, wie viele Treffer ein Dimensionselement gesetzt oder dauerhaft ist. Weitere Informationen finden Sie unter der Metrik [Vorfälle](/help/components/metrics/occurrences.md) im Komponenten-Benutzerhandbuch.
+* **Vorfälle:** ein Metriktyp, der anzeigt, in wie vielen Treffern ein Dimensionselement festgelegt oder beibehalten wurde. Weitere Informationen finden Sie unter der Metrik [Vorfälle](/help/components/metrics/occurrences.md) im Komponenten-Benutzerhandbuch.
 * **Omniture:** wird nicht mehr als Begriff verwendet. Unternehmen, das im Besitz von Adobe Analytics war, bevor es 2009 von Adobe übernommen wurde.
 * **Pfade:** Siehe „Fluss“.
 * **Seitenansicht:** ein Treffertyp, der die Seitenansichten erhöht. Weitere Informationen finden Sie unter der Metrik [Seitenansichten](/help/components/metrics/page-views.md) im Komponenten-Benutzerhandbuch. Siehe auch „Treffer“.
