@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Klassifizierungsregeln
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2018'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Classification-Regeln eignen sich für Folgendes:
 * **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Classification-Regeln, die die einzelnen Display-Anzeigekampagnen gruppieren, so dass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
 
 * **Trackingcodes:** Erstellen Sie Classification-Regeln, die die aus den Zeichenfolgen in den Trackingcodes abgeleiteten Schlüsselwerte kategorisieren und dann prüfen, ob diese Schlüsselwerte mit den angegebenen Kriterien übereinstimmen.
-* **Suchbegriffe**: Mithilfe von [regulären Ausdrücken](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Klassifizierung auf *`MLB`* festlegen.
+* **Suchbegriffe**: Mithilfe von  [regulären Ausdrücken](/help/components/classifications/crb/classification-quickstart-rules.md) und Platzhaltern vereinfachen Sie die Classification der Suchbegriffe. Wenn ein Suchbegriff beispielsweise *`baseball`* enthält, können Sie eine *`Sports League`*-Classification auf *`MLB`* festlegen.
 
 Der Trackingcode für eine E-Mail-Kampagnen-ID lautet beispielsweise:
 
@@ -37,7 +37,7 @@ Sie können drei Regeln in einem Regelsatz festlegen, die die Teile der Zeichenf
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
 | Beginnt mit | em: | Kanal | E-Mail |
-| Endet in | Ausverkauf | Typ | Ausverkauf |
+| Endet mit | Ausverkauf | Typ | Ausverkauf |
 | Enthält | 2013 | Jahr | 2013 |
 
 ## Verarbeitung der Regeln {#how-rules-are-processed}
@@ -60,15 +60,15 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln
 
-* Legen Sie [Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) für Classifications in den [!UICONTROL Admin Tools] fest.
+* Legen Sie  [Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-groups/groups.html) für Classifications in den [!UICONTROL Admin Tools] fest.
 
-* **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Klassifizierungsregeln](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Report Suites:** Sie können erst dann eine Classification auswählen, wenn Sie mindestens eine Report Suite ausgewählt haben. Die Report Suite kann erst dann angewendet werden, wenn Sie den Regelsatz erstellt und eine Variable zugewiesen haben.
 
-   Beim Testen des Regelsatzes verwenden Sie Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu prüfen, wie sich der Regelsatz auf diese Schlüssel auswirkt. (Der [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) ist die zu klassifizierende Variable oder die erste Spalte in der Classification-Upload-Tabelle.)
+   Beim Testen des Regelsatzes verwenden Sie Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu prüfen, wie sich der Regelsatz auf diese Schlüssel auswirkt. (Der  [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) ist die zu klassifizierende Variable oder die erste Spalte in der Classification-Upload-Tabelle.)
 
-* **Regelpriorität:** Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte [!UICONTROL Classification auswählen]), wird die jeweils letzte mit der Classification übereinstimmende Regel verwendet. Siehe [Informationen zur Regelpriorität](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **Regelpriorität:** Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte [!UICONTROL Classification auswählen]), wird die jeweils letzte mit der Classification übereinstimmende Regel verwendet. Siehe  [Informationen zur Regelpriorität](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Beschränkungen hinsichtlich der Regelanzahl:** Für die Anzahl der erstellbaren Regeln gelten keine Einschränkungen. Eine große Regelanzahl kann jedoch die Browserleistung beeinträchtigen.
 * **Verarbeitung**: Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
@@ -83,7 +83,7 @@ Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben
 
 * Der Schlüssel wurde bereits klassifiziert, und Sie haben nicht die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) ausgewählt.
 
-   Sie können Classifications überschreiben, wenn Sie eine Regel [hinzufügen und aktivieren](/help/components/classifications/crb/classification-quickstart-rules.md), und wenn Sie eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
+   Sie können Classifications überschreiben, wenn Sie  eine Regel [hinzufügen und aktivieren](/help/components/classifications/crb/classification-quickstart-rules.md), und wenn Sie eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
 
 * Ein klassifizierter Schlüssel wird beim Überschreiben nach Ablauf eines bestimmten Zeitrahmens auch dann nicht in den Daten sichtbar, wenn Sie die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) aktiviert haben.
 * Der Schlüssel wird nicht klassifiziert, und nach Beginn des Zeitrahmens (vor etwa einem Monat) wurde der Schlüssel auch nicht in [!DNL Adobe Analytics] übergeben.
@@ -159,7 +159,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
 
-## Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens {#section_5D300C03FA484BADACBFCA983E738ACF}
+## Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens  {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Mit einem regulären Ausdruck können Sie beispielsweise ein bestimmes Zeichen in einer Zeichenfolge klassifizieren. Angenommen, der folgende Trackingcode enthält zwei wichtige Zeichen:
 
@@ -288,7 +288,7 @@ Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler 
 | 2 | Enthält | Fantasy | Suchtyp | Fantasy |
 | 3 | Enthält | Romo | Suchtyp | Spieler |
 
-Wenn ein Benutzer nach *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Klassifizierung auswählen“ angegebenen Klassifizierung übereinstimmt.
+Wenn ein Benutzer nach  *`Cowboys fantasy Tony Romo`* sucht, ist der Begriff *`Player`* klassifiziert, weil dieser Begriff mit der letzten in der Spalte „Classification auswählen“ angegebenen Classification übereinstimmt.
 
 Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für die folgenden Suchbegriffe fest:
 
@@ -297,7 +297,7 @@ Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für
 | 1 | Enthält | Cowboys | Stadt | Dallas |
 | 2 | Enthält | Broncos | Stadt | Denver |
 
-Ein Benutzer sucht nach *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
+Ein Benutzer sucht nach  *`Cowboys vs. Broncos`*. Wenn der Regel-Builder einen Konflikt bei der Regelübereinstimmung feststellt, gilt für diese Suche die Classification für die zweite Regel (Denver).
 
 ## Hinzufügen einer Klassifizierungsregel zu einem Regelsatz {#add-classification-to-rule-set}
 
@@ -313,7 +313,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
 >[!NOTE]
 >
->Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
+>Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie mehr als 100 Regeln nutzen, vereinfachen Sie den Regelsatz ggf. mithilfe von  [Unter-Classifications](/help/components/classifications/c-sub-classifications.md).
 
 1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md).
 1. Klicken Sie auf der Regelsatzseite auf **[!UICONTROL Regel hinzufügen]**.
@@ -343,11 +343,11 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
 
    ![Schritt Ergebnis](assets/classification_rules_page.png)
 
-   Beispiele zum Erstellen von Regeln finden Sie unter [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) und [Reguläre Ausdrücke in Klassifizierungsregeln](/help/components/classifications/crb/classification-quickstart-rules.md).
+   Beispiele zum Erstellen von Regeln finden Sie unter [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) und [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
    >[!NOTE]
    >
-   >Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Klassifizierung festlegen (in der Spalte „Klassifizierung auswählen“), wird die jeweils letzte mit der Klassifizierung übereinstimmende Regel verwendet. Weitere Informationen zum Sortieren der Regeln finden Sie unter **Informationen zur Regelpriorität**.
+   >Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte „Classification auswählen“), wird die jeweils letzte mit der Classification übereinstimmende Regel verwendet. Weitere Informationen zum Sortieren der Regeln finden Sie unter **Informationen zur Regelpriorität**.
 
 1. [Testen Sie den Regelsatz](/help/components/classifications/crb/classification-quickstart-rules.md).
 1. Klicken Sie nach Abschluss der Tests auf **[!UICONTROL Aktiv]**. Damit wird die Regel validiert und aktiviert.
@@ -380,7 +380,7 @@ In diesen Schritten wird beschrieben, wie Sie eine Classification-Regel oder ein
    * Trackingcodes
    * Keywords oder Suchausdrücke
 
-   Siehe [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md), um Informationen zum Testen von regulären Ausdrücken zu erhalten.
+   Siehe  [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md), um Informationen zum Testen von regulären Ausdrücken zu erhalten.
 1. Klicken Sie auf **[!UICONTROL Test ausführen]**.
 
    Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.
@@ -398,7 +398,7 @@ t_validate_rules.xml
 
 In diesen Schritten wird beschrieben, wie Sie Classification-Regeln validieren und aktivieren.
 
-1. [Erstellen Sie einen Klassifizierungsregelsatz](/help/components/classifications/crb/classification-rule-set.md) und [fügen Sie dem Satz dann Klassifizierungsregeln](/help/components/classifications/crb/classification-quickstart-rules.md) hinzu.
+1. [Erstellen Sie einen Classification-Regelsatz](/help/components/classifications/crb/classification-rule-set.md) und [fügen Sie dem Satz dann Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) hinzu.
 1. Klicken Sie im Regeleditor auf **[!UICONTROL Aktivieren]**.
 
    ![](assets/overwrite_keys.png)
