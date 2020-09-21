@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '1306'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ Mit diesen Funktionen können Sie Fragen zum Site-Traffic, zu den demografischen
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Erstellen Sie ein Projekt. </p> </td> 
-   <td colname="col2"> <p>Wählen Sie auf der Startseite eine Report Suite aus und klicken Sie auf <span class="uicontrol">Projekt erstellen</span>. </p> <p>Siehe <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Projekte und Arbeitsbereiche</a>. </p> </td> 
+   <td colname="col2"> <p>Wählen Sie auf der Startseite eine Report Suite aus und klicken Sie auf <span class="uicontrol">Projekt erstellen</span>. </p> <p>Siehe <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Projekte und Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Öffnen Sie einen Bericht. </p> </td> 
@@ -50,7 +50,7 @@ Mit diesen Funktionen können Sie Fragen zum Site-Traffic, zu den demografischen
    <td colname="col2"> <p>Berichte können durch Ausführen bestimmter Aufgaben konfiguriert werden, z. B.: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Erstellen von Segmenten zur tiefergehenden Datenprüfung </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Hinzufügen von Metriken, Dimensionen und Segmenten zum <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Tabellenaufbau</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Hinzufügen von Metriken, Dimensionen und Segmenten zum  <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Tabellenaufbau</a> </li> 
      <li id="li_019316C9A94B4A8C8A77D07C04E50278">Konfigurieren von <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > Datumsbereichen</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Planen</a> der Auslieferung von Berichten </li> 
     </ul> <p>Durchsuchen Sie dieses Hilfesystem nach den benötigten Hilfethemen. </p> </td> 
@@ -70,7 +70,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->Seit Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Adobe unterstützt nicht die Ausführung von Ad Hoc Analysis unter Java 7 oder höher.
+>Ab Juli 2018 unterstützt Ad Hoc Analysis nur noch Java 8 oder höher. Adobe unterstützt nicht die Ausführung von Ad Hoc Analysis unter Java 7 oder niedriger.
 
 * Videokarte, die OpenGL 2.0 unterstützt
 * Cookies: Erforderlich
@@ -79,21 +79,21 @@ c_sys_reqs.xml
 * Monitorauflösung: 800 x 600 (1024 x 768 empfohlen)
 * Farbtiefe: 16-Bit oder höher
 * JavaScript: Aktiviert
-* Java-Version: Java 1.7 oder neuer (Siehe obigen Hinweis)
+* Java-Version:  Java 1.7 oder neuer  (Siehe obigen Hinweis)
 
-   Wenn nicht die richtige Version von Java installiert ist, wird dies für Sie vorgenommen. Wenn Sie eine nicht kompatible Version von Java installiert haben, lädt Ad Hoc Analysis die Updates herunter und fordert Sie zur Installation auf.
+   Wenn nicht die richtige Version von Java installiert ist, wird dies für Sie vorgenommen. Wenn Sie eine nicht kompatible Version von Java installiert haben, lädt Ad Hoc Analysis das Update herunter und fordert Sie zur Installation auf.
 
-## Anweisungen zum Java-Upgrade {#section_E4C0C6492FF24636A0FF71A59331111D}
+## Anweisungen zum Java-Upgrade  {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Die JAR-Dateien der Adobe werden mit einer sicheren 256-Bit-Verschlüsselung signiert, die von Java-Versionen unter 1.7.0_76 nicht unterstützt wird. Dieses 256-Bit-Zertifikat verbessert die Sicherheit unserer Dienste für Sie.
+Die JAR-Dateien von Adobe sind mit einer sicheren 256-Bit-Verschlüsselung signiert, die von älteren Java-Versionen als 1.7.0_76 nicht unterstützt wird. Dieses 256-Bit-Zertifikat verbessert die Sicherheit unserer Dienste für Sie.
 
 Wenn auf Ihrem Rechner immer noch Java 7 installiert ist, müssen Sie vor dem Maintenance Release von Juli 2018 ein Upgrade durchführen. So geht’s:
 
 * Wenn Sie zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
 
    1. Gehen Sie zu https://www.java.com.
-   1. Click **[!UICONTROL Java Download]**.
-   1. Click **[!UICONTROL Agree and Start Download]**.
+   1. Klicken Sie auf **[!UICONTROL Java-Download]**.
+   1. Klicken Sie auf **[!UICONTROL Einverstanden und mit Download beginnen]**.
    1. Installieren Sie die neueste Java-Version für Ihr Betriebssystem.
 
 * Wenn Sie **nicht** zum Installieren von Programmen auf Ihrem Rechner berechtigt sind:
@@ -130,7 +130,7 @@ t_login_suite.xml
 
    Sie können diese gespeicherte Datei ausführen, wann immer Sie Ad Hoc Analysis starten möchten.
 
-## Projekte und Arbeitsbereiche {#concept_FAE346335B0347A192C6C806C775D72B}
+## Projekte und Workspaces {#concept_FAE346335B0347A192C6C806C775D72B}
 
 Mit einem Projekt wird definiert, welcher Datensatz importiert wird. Hierzu gehören eine Report Suite und ein Datumsbereich. Ein Projekt besteht aus einer beliebigen Anzahl von Berichten mit sämtlichen dazugehörigen Metriken, Einstellungen, Dimensionen und Segmenten. Sie können ein neues Projekt starten, ein gespeichertes Projekt laden oder das automatisch gespeicherte Projekt laden.
 
@@ -162,7 +162,7 @@ t_project_start.xml
 1. Öffnen Sie ein gespeichertes Projekt oder klicken Sie auf **[!UICONTROL Projekt erstellen]**.
 1. Suchen Sie nach einem Bericht oder wählen Sie eine Vorlage aus.
 
-## Einen kürzlich gespeicherten Arbeitsbereich öffnen {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
+## Einen kürzlich gespeicherten Workspace öffnen {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
 
 Schritte, die beschreiben, wie Sie kürzlich gespeicherte Arbeitsbereiche öffnen.
 
@@ -172,7 +172,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Zuletzt verwendeter Arbeitsbereich]**.
+1. Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Zuletzt verwendeter Workspace]**.
 
    Sie können bis zu fünf zuletzt verwendete Arbeitsbereiche öffnen. Die zuletzt verwendeten Arbeitsbereiche stehen nach Beenden Ihrer Sitzung nicht zur Verfügung.
 
@@ -199,7 +199,7 @@ t_share_projects.xml
    >
    >Sie können Ihre eigenen freigegebenen Projekte löschen, indem Sie sie im Dialogfeld zum Freigeben von Projekten auswählen.
 
-## Arbeitsbereich umbenennen {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
+## Workspace umbenennen {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
 Schritte, die beschreiben, wie Sie einen Arbeitsbereich umbenennen können.
 
@@ -210,7 +210,7 @@ t_rename_workspace.xml
  -->
 
 1. Klicken Sie mit der rechten Maustaste auf den Namen des Arbeitsbereichs.
-1. Wählen Sie **[!UICONTROL Arbeitsbereich umbenennen]** aus.
+1. Wählen Sie **[!UICONTROL Workspace umbenennen]** aus.
 1. Geben Sie einen Namen ein, und klicken Sie dann auf **[!UICONTROL OK]**.
 
 ## Lokales Projekt öffnen {#task_1B3EF63A80C74776B24B99D80EAC74AC}
@@ -263,4 +263,4 @@ Es gibt mehrere Methoden, einen Bericht zu öffnen:
 
 * Suchen Sie auf der Seite [!UICONTROL Neuer Bericht] nach einem Bericht oder wählen Sie eine Vorlage aus.
 * Klicken Sie im Menü auf **[!UICONTROL Berichte]** und wählen Sie einen Bericht oder eine Berichtsvorlage aus.
-* Einen Bericht aus einer Dimension starten: Klicken Sie mit der rechten Maustaste auf einen Dimensionsnamen und wählen Sie **[!UICONTROL Bericht ausführen]** > **`report name`**.
+* Einen Bericht aus einer Dimension starten: Klicken Sie mit der rechten Maustaste auf einen Dimensionsnamen und wählen Sie **[!UICONTROL Bericht ausführen]** >  **`report name`**.
