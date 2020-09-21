@@ -1,11 +1,11 @@
 ---
 title: Besuchszeit pro Seite
 description: Die Zeit, die ein Besucher auf der Seite verbracht hat.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Diese Dimension basiert auf Treffern, d. h. der Wert ist bei jedem Treffer unter
 
 Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionen
+## Dimensionselemente
 
 Für die Besuchszeit pro Seite gibt es mehrere Dimensionen:
 
-* **Besuchszeit pro Seite – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. Die Zeit zwischen den Seitenansichten dauert in der Regel nicht länger als 30 Minuten; die Zeit zwischen den Seitenansichten kann jedoch 30 Minuten überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
-* **Besuchszeit pro Seite - granular**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement.
+* **Besuchszeit pro Seite – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimensionselemente reichen von `"Less than 15 seconds"` bis `"More than 30 minutes"`. Die Zeit zwischen den Seitenansichten dauert in der Regel nicht länger als 30 Minuten; die Zeit zwischen den Seitenansichten kann jedoch 30 Minuten überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
+* **Besuchszeit pro Seite – präzise**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter [Besuchszeit – Übersicht](../metrics/time-spent.md).
