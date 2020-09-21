@@ -1,11 +1,11 @@
 ---
 title: Suchbegriff
 description: Der Suchbegriff, mit dem der Besucher Ihre Site erreichte.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ Die Dimension „Suchbegriff“ erfasst die Suchbegriffe, die Besucher zum Errei
 
 >[!IMPORTANT]
 >
->Die meisten Suchmaschinen übergeben den Suchbegriff nicht mehr, da die Datenschutzpraktiken zunehmen. Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension item `"Keyword unavailable"`.
+>Die meisten Suchmaschinen übergeben den Suchbegriff nicht mehr, da die Datenschutzpraktiken zunehmen. Treffer, bei denen Adobe eine Suchmaschine erkennt, aber ein Suchbegriff fehlt, werden unter dem Dimensionselement `"Keyword unavailable"` gruppiert.
 
 Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchbegriff klassifiziert zu werden:
 
 * Die Referrer-Domäne wird von Adobe als gültige [Suchmaschine](search-engine.md) erkannt.
-* In der Referrer-URL ist ein Abfragezeichenfolgenparameter für Suchbegriffe vorhanden. If the keyword query string exists but does not contain a value, it groups under the dimension item `"Keyword unavailable"`.
+* In der Referrer-URL ist ein Abfragezeichenfolgenparameter für Suchbegriffe vorhanden. Wenn die Abfragezeichenfolge für Suchbegriffe vorhanden ist, jedoch keinen Wert enthält, wird sie unter dem Dimensionselement `"Keyword unavailable"` gruppiert.
 
 Wenn Sie zwischen gebührenpflichtiger und kostenloser Suche unterscheiden möchten, ist eine [Gebührenpflichtige Sucherkennung](/help/admin/admin/paid-search-detection/paid-search-detection.md) erforderlich. Für Suchbegriffe stehen mehrere Dimensionen zur Verfügung:
 
@@ -33,6 +33,6 @@ Wenn Sie zwischen gebührenpflichtiger und kostenloser Suche unterscheiden möch
 
 Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Dimensionen gehören Suchbegriffe, die zum Erreichen Ihrer Site verwendet werden. The `"Unspecified"` dimension item is all non-search traffic.
+Zu den Dimensionselementen gehören Suchbegriffe, die zum Erreichen Ihrer Site verwendet werden. Das Dimensionselement `"Unspecified"` ist der gesamte Traffic ohne Suchvorgänge.
