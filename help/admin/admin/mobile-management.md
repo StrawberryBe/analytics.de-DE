@@ -57,8 +57,8 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 | Klassifizierung | Definition |
 |--- |--- |
 | Erster Starttermin | Datum des ersten Starts nach der Installation oder Neuinstallation.   MM/TT/JJJJ |
-| App-ID | Speichert den App-Namen und die Version im folgenden Format:   `[AppName] [BundleVersion]`  Beispiel, `myapp 1.1.` |
-| Startanzahl | Gibt an, wie oft die App gestartet bzw. aus dem Hintergrund gebracht wurde. |
+| App-ID | Speichert den App-Namen und die Version im folgenden Format:      `[AppName] [BundleVersion]`  Beispiel, `myapp 1.1.` |
+| Launch-Nummer | Gibt an, wie oft die App gestartet bzw. aus dem Hintergrund gebracht wurde. |
 | Tage seit der ersten Verwendung | Anzahl der Tage seit dem ersten Ausführen. |
 | Tage seit der letzten Verwendung | Anzahl der Tage seit der letzten Verwendung. |
 | Stunde des Tages | Misst, zu welcher Stunde die Anwendung gestartet wurde; es wird ein 24-Stunden-Format genutzt. Wird für die Zeitaufteilung verwendet, um Spitzennutzungszeiten zu ermitteln. |
@@ -77,8 +77,8 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 | Standort (bis 1 m) | Erfasst durch trackLocation-Methoden. |
 | Zielpunkt-Bezeichnung | Wird durch trackLocation-Methoden aufgefüllt, wenn sich das Gerät in einem definierten POI befindet. |
 | Entfernung zum Zentrum des Zielpunkts | Wird durch trackLocation-Methoden aufgefüllt, wenn sich das Gerät in einem definierten POI befindet. |
-| App-interne Nachrichten-ID |  |
-| App-interne Online-Nachricht |  |
+| In-App-Nachrichten-ID |  |
+| In-App-Online-Nachricht |  |
 | Push-Abonnement |  |
 | Nutzlast-ID |  |
 
