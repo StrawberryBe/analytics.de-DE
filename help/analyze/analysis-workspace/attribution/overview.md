@@ -1,18 +1,18 @@
 ---
 title: Übersicht über Attribution
-description: Das Konzept der Zuordnung der Gutschrift eines Erfolgsobjekts zu mehreren Dimensionselementen.
-translation-type: tm+mt
+description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dimensionselementen.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Übersicht über Attribution
 
-Die Zuordnung gibt Analysten die Möglichkeit, anzupassen, wie Dimensionselemente für Erfolgsereignisse gutgeschrieben werden. Beispiel:
+Mit Attribution können Analysten anpassen, wie Erfolgsereignisse Dimensionselementen zugeschrieben werden. Beispiel:
 
 1. Ein Besucher Ihrer Site klickt auf einen Paid-Search-Link zu einer Ihrer Produktseiten. Er fügt das Produkt zum Warenkorb hinzu, kauft es jedoch nicht.
 2. Am nächsten Tag sieht er einen Social-Media-Beitrag von einem seiner Freunde, klickt auf den Link und schließt den Kauf ab.
