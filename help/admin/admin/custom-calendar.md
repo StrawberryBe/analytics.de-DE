@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Darüber hinaus bietet die Berichterstellung eine Option für einen komplett individualisierbaren Kalender, den Sie selbst einrichten können.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Report Suite auswählen > Einstellungen **[!UICONTROL bearbeiten]** > **[!UICONTROL Allgemein]** > Kalender **[!UICONTROL anpassen]**
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Report Suite auswählen **[!UICONTROL > Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Kalender benutzerspezifisch einstellen]**
 
 >[!CAUTION]
 >
@@ -24,7 +24,7 @@ Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. 
 
 Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung. Im Einzelhandel wird beispielsweise der 4-5-4-Kalender zur Unterstützung von Verkaufssaisons verwendet, die für die Branche typisch sind. Die einzelnen Kalenderformate werden im Folgenden beschrieben.
 
-## Kalender benutzerspezifisch einstellen – Beschreibungen {#section_B0D224DACB914A378902A4E0E1234889}
+## Kalender benutzerspezifisch einstellen – Beschreibungen  {#section_B0D224DACB914A378902A4E0E1234889}
 
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
