@@ -3,8 +3,11 @@ description: Alle Adobe FTP-Konten unterliegen einer Speichergrenze von 2 GB (o
 keywords: ftp;sftp
 title: FTP-Beschränkungen und Datenaufbewahrung
 uuid: deb807c9-e988-4587-b518-881857cad1cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
+workflow-type: ht
+source-wordcount: '80'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
 
 Alle Adobe FTP-Konten unterliegen einer Speichergrenze von 10 GB. Dateien werden in diesen FTP-Konten 90 Tage lang aufbewahrt.
 
-## Beschränkungen bei gleichzeitigen Verbindungen
+## Beschränkungen für gleichzeitige Verbindungen
 
 * Pro Quell-IP höchstens 50 gleichzeitige Verbindungen zum Server
-* Keine mehr als 20 neuen Verbindungen innerhalb von 60 Sekunden pro Quell-IP zum Server
+* Pro Quell-IP in 60 Sekunden höchstens 20 neue Verbindungen zum Server
