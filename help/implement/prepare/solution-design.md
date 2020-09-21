@@ -3,6 +3,9 @@ title: Lösungsdesigndokument erstellen
 description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in Ihrem Unternehmen verwenden können.
 translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+workflow-type: ht
+source-wordcount: '696'
+ht-degree: 100%
 
 ---
 
