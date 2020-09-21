@@ -1,11 +1,11 @@
 ---
 title: Vorfälle
 description: Die Anzahl der Treffer, für die eine Variable festgelegt oder beibehalten wurde.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Die Metrik „Vorfälle“ zeigt die Anzahl der Treffer an, bei denen eine besti
 
 ## Berechnung dieser Metrik
 
-Schließen Sie von allen Treffern in einer Report Suite Treffer ein, bei denen ein Dimensionselement definiert oder beibehalten wird. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), bleiben über den Treffer hinaus bestehen, für den sie festgelegt wurden. Diese Metrik zählt sowohl anfängliche als auch beständige Werte.
+Schließen Sie von allen Treffern in einer Report Suite die Treffer ein, bei denen ein Dimensionselement definiert oder beibehalten wird. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), bleiben über den Treffer hinaus bestehen, für den sie festgelegt wurden. Diese Metrik zählt sowohl anfängliche als auch persistente Werte.
 
 ## Vergleich mit ähnlichen Metriken
 
