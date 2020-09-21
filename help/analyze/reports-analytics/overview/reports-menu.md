@@ -2,9 +2,9 @@
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Betätigen Sie die Tabulatortaste oder die Taste „Pfeil nach unten“ (↓), u
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Meine Favoriten </span> </td> 
-   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr ...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
+   <td colname="col2">Berichte, die Sie als <span class="uicontrol">Favoriten</span> gekennzeichnet haben, können Sie aus diesem Bereich einfach abrufen. Auf Pro-Benutzer- und Pro-Report-Suite-Basis werden zehn Favoriten und ein <span class="uicontrol">Mehr ...</span>-Link angezeigt, wenn Sie über mehr als zehn Favoriten verfügen. <p>Beachten Sie, dass Sie in „Meine Favoriten“ Berichte, jedoch keine Dashboards umbenennen können. </p> <p>Favoriten ähneln Lesezeichen, sie werden jedoch nicht in einem Ordner gespeichert oder wie Lesezeichen über den  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Lesezeichen-Manager</a> verwaltet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Häufig angezeigt</span> </td> 
