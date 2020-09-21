@@ -3,9 +3,9 @@ description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Wareh
 title: Data Warehouse-Segmentkompatibilität
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
    <td> Nicht unterstützt </td> 
   </tr> 
   <tr> 
-   <td> <b>UND und ODER können uneingeschränkt kombiniert werden</b> </td> 
+   <td> <b>AND und OR können uneingeschränkt kombiniert werden</b> </td> 
    <td> Unterstützt </td> 
    <td> Einige Einschränkungen. Siehe *Hinweis* unter der Tabelle. </td> 
   </tr> 
@@ -73,7 +73,7 @@ Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
      <li>Hierarchie (Alle Dimensionen, die mit „Hierarchie“ beginnen) </li> 
      <li>Treffertiefe </li> 
      <li>Treffertyp </li> 
-     <li>Stunde Tag </li> 
+     <li>Stunde  Tag </li> 
      <li>Monat des Jahres </li> 
      <li>Seiten nicht gefunden </li> 
      <li>Paid Search </li> 
