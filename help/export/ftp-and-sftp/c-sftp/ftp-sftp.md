@@ -4,7 +4,10 @@ keywords: ftp;sftp
 title: Secure File Transfer Protocol – Übersicht
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '235'
+ht-degree: 100%
 
 ---
 
