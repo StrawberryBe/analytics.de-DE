@@ -1,23 +1,23 @@
 ---
 title: Monat
 description: Der Monat, in dem die Metrik aufgetreten ist.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # Monat
 
-Die Dimension &quot;Monat&quot;zeigt den Monat an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist der erste Monat im Datumsbereich und das letzte Dimensionselement ist der letzte Monat im Datumsbereich. Diese Dimension ist für Trendberichte von entscheidender Bedeutung, da sie es Ihnen ermöglicht, Metriken im Laufe der Zeit anzuzeigen.
+Die Dimension „Monat“ zeigt den Monat an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist der erste Monat im Datumsbereich und das letzte Dimensionselement der letzte Monat im Datumsbereich. Diese Dimension ist für Trend-Berichte von entscheidender Bedeutung, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension funktioniert bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
+Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
 ## Dimensionselemente
 
-Dimensionselemente enthalten den Monat und das Jahr eines bestimmten Datums.
+Die Dimensionselemente umfassen den Monat und das Jahr eines bestimmten Datums.
