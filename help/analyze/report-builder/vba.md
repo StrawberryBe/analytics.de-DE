@@ -1,20 +1,20 @@
 ---
 title: Visual Basic-Makros in Report Builder
 description: Erweitern Sie die Funktionalität von Excel-Arbeitsmappen und Report Builder mit VBA.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Visual Basic-Makros in Report Builder
 
-Mit VBA-Makros, auch Visual Basic-Makros genannt, können Sie Arbeitsmappen so bearbeiten, wie es Microsoft Excel allein nicht kann. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und sogar Windows.
+Mit VBA-Makros, auch Visual Basic-Makros genannt, können Sie Arbeitsmappen so bearbeiten, wie es Microsoft Excel allein nicht kann. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und sogar auf Windows.
 
-Adobe unterstützt drei Report Builder-API-Methoden. Stellen Sie sicher, dass die neueste Version von ReportBuilder installiert ist, und melden Sie sich an, bevor Sie Makros ausführen.
+Adobe unterstützt drei Report Builder-API-Methoden. Stellen Sie sicher, dass die neueste Version von Report Builder installiert ist, und melden Sie sich an, bevor Sie Makros ausführen.
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ Adobe unterstützt drei Report Builder-API-Methoden. Stellen Sie sicher, dass di
 
 ## `RefreshAllReportBuilderRequests()`
 
-The `RefreshAllReportBuilderRequests()` macro refreshes all Report Builder requests in the active workbook. Es Beginn durch Aufruf der Report Builder-COM-Hinzufügen über seine Produkt-ID und ruft dann den `RefreshAllRequests()` API-Befehl auf:
+Das `RefreshAllReportBuilderRequests()`-Makro aktualisiert alle Report Builder-Anforderungen in der aktiven Arbeitsmappe. Zunächst wird das COM-Add-In von Report Builder über seine Produkt-ID und anschließend der `RefreshAllRequests()`-API-Befehl aufgerufen:
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -39,7 +39,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-The `RefreshAllReportBuilderRequestsInActiveWorksheet()` macro refreshes all Report Builder requests in the active worksheet. Der `RefreshWorksheetRequests()` API-Aufruf verwendet ein Arbeitsblattobjekt als Argument. Sie können diesen Aufruf für jedes Arbeitsblatt verwenden, das Report Builder-Anforderungen enthält:
+Das `RefreshAllReportBuilderRequestsInActiveWorksheet()`-Makro aktualisiert alle Report Builder-Anforderungen im aktiven Arbeitsblatt. Der `RefreshWorksheetRequests()`-API-Aufruf verwendet ein Arbeitsblattobjekt als Argument. Sie können diesen Aufruf für jedes Arbeitsblatt verwenden, das Report Builder-Anforderungen enthält:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -56,7 +56,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-The `RefreshAllReportBuilderRequestsInCellsRange()` macro refreshes all Report Builder requests whose cell outputs intersect the specified range of cells. Der in diesem Beispiel verwendete Zellbereich verweist auf den Bereich `B1:B54` des &quot;Data&quot;-Arbeitsblatts in der aktiven Arbeitsmappe. Der Bereichsbereich-Ausdruck unterstützt alle unterstützten Excel-Ausdruck:
+Das `RefreshAllReportBuilderRequestsInCellsRange()`-Makro aktualisiert alle Report Builder-Anforderungen, deren Zellenausgabe den angegebenen Zellbereich überschneidet. Der in diesem Beispiel verwendete Zellbereich verweist auf den Bereich `B1:B54` des „Data“-Arbeitsblatts in der aktiven Arbeitsmappe. Der Bereichsausdruck unterstützt alle unterstützten Bereichsausdrücke in Excel:
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()
