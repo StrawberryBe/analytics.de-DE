@@ -1,11 +1,11 @@
 ---
 title: Berichte
 description: Die Dimensionen und Metriken, die Reports & Analytics für die einzelnen Berichte verwendet.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -88,19 +88,19 @@ Enthält Berichte zu älteren Mobile-Berichten. Diese Berichte basieren ihre Dat
 
 Enthält Berichte, mit denen Sie Pfaddaten für Besucher anzeigen können.
 
-* Nächster Seitenfluss: Verwendet einen Flussbericht für das Dimensionselement der obersten Seite. Pfadansichten ähneln [Instanzen](/help/components/metrics/instances.md). Sie können den gemeldeten Dimensionselement ändern. Ein ähnlicher Bericht steht in Analysis Workspace mit einer [Flussvisualisierung](../analysis-workspace/visualizations/c-flow/flow.md) zur Verfügung.
-* Nächste Seite: Führt das Dimensionselement der obersten Seite und zeigt die nächsten Seiten an, zu denen die Besucher gegangen sind.
-* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Vorherige Seite: Führt das Dimensionselement der obersten Seite und zeigt die vorherigen Seiten an, von denen die Besucher kamen.
-* Trichteranalyse: Ermöglicht die Auswahl von Seitendimensionselementen in Schritten und zeigt den Anteil der Personen an, die diesen Pfad ausgeführt haben oder nicht. Ein ähnlicher Bericht steht in Analysis Workspace mit einer [Fallout-Visualisierung](../analysis-workspace/visualizations/fallout/fallout-flow.md) zur Verfügung.
+* Nächster Seitenfluss: Verwendet einen Flussbericht auf dem Dimensionselement der obersten Seite. Pfadansichten ähneln [Instanzen](/help/components/metrics/instances.md). Sie können das gemeldete Dimensionselement ändern. Ein ähnlicher Bericht steht in Analysis Workspace mit einer [Flussvisualisierung](../analysis-workspace/visualizations/c-flow/flow.md) zur Verfügung.
+* Nächste Seite: Nimmt das Dimensionselement der obersten Seite und zeigt die nächsten Seiten an, die der Besucher besucht hat.
+* Vorheriger Seitenfluss: Verwendet einen Flussbericht auf dem Dimensionselement der obersten Seite. Ein ähnlicher Bericht steht in Analysis Workspace mit einer [Flussvisualisierung](../analysis-workspace/visualizations/c-flow/flow.md) zur Verfügung.
+* Vorherige Seite: Nimmt das Dimensionselement der obersten Seite und zeigt die vorherigen Seiten an, die der Besucher besucht hat.
+* Fallout: Ermöglicht die Auswahl von Seitendimensionselementen in Schritten und zeigt den Anteil der Personen an, die diesem Pfad gefolgt sind bzw. nicht gefolgt sind. Ein ähnlicher Bericht steht in Analysis Workspace mit einer [Fallout-Visualisierung](../analysis-workspace/visualizations/fallout/fallout-flow.md) zur Verfügung.
 * Vollständige Pfade: Zeigt einzelne Pfade als Dimensionselemente an. In Analysis Workspace eingestellt. Verwenden Sie stattdessen die [Flussvisualisierung](../analysis-workspace/visualizations/c-flow/flow.md).
 * PathFinder: Stellt mehrere Berichtstypen bereit, mit denen Sie Pfade analysieren können (in Analysis Workspace eingestellt).
 * Pfadlänge: Verwendet die Dimension [Besuchstiefe](/help/components/dimensions/visit-depth.md).
 * Seitenanalyse
-   * Seitenzusammenfassung: Führt das Dimensionselement der obersten Seite und zeigt eine Trendansicht an. Zeigt außerdem Einstiegspunkte, vorherige Seiten, Ausstiegspunkte und nächste Seiten für das Dimensionselement der obersten Seite an.
+   * Seitenzusammenfassung: Nimmt das Dimensionselement der obersten Seite und zeigt eine Trend-Ansicht an. Zeigt außerdem Einstiegspunkte, vorherige Seiten, Ausstiegspunkte und nächste Seiten für dieses Dimensionselement der obersten Seite an.
    * Neuladungen: Verwendet die Dimension [Seite](/help/components/dimensions/page.md) mit der Metrik [Neuladungen](/help/components/metrics/reloads.md).
    * Besuchszeit pro Seite: Verwendet die Dimension [Besuchszeit pro Seite – Zusammengefasst](/help/components/dimensions/time-spent-on-page.md).
-   * Klicks pro Seite: Führt das Dimensionselement der obersten Seite und zeigt die Anzahl der Klicks an, die erforderlich waren, um bei einem bestimmten Besuch zu dieser Seite zu gelangen.
+   * Klicks pro Seite: Nimmt das Dimensionselement der obersten Seite und zeigt die Anzahl der Klicks an, die erforderlich waren, um bei einem bestimmten Besuch zu dieser Seite zu gelangen.
 * Ein- und Ausstiege
    * Entrypages: Verwendet die Dimension [Entrypages](/help/components/dimensions/entry-dimensions.md).
    * Ursprüngliche Entrypages: Verwendet die Dimension [Ursprüngliche Entrypage](/help/components/dimensions/entry-dimensions.md).
@@ -171,7 +171,7 @@ Enthält Berichte darüber, wer Ihre Site besucht.
    * US-Bundesstaaten: Verwendet die Dimension [US-Bundesstaaten](/help/components/dimensions/us-states.md).
    * US DMA: Verwendet die Dimension [US DMA](/help/components/dimensions/us-dma.md).
 * Sprachen: Verwendet die Dimension [Sprache](/help/components/dimensions/language.md).
-* Zeitzonen: Verwendet die Zeitzonendimension (in Analysis Workspace nicht mehr verfügbar). Dimensionen sind der GMT-Offset des Treffers.
+* Zeitzonen: Verwendet die Zeitzonendimension (in Analysis Workspace nicht mehr verfügbar). Die Dimensionselemente sind der GMT-Versatz des Treffers.
 * Domäne: Verwendet die Dimension [Domäne](/help/components/dimensions/domain.md).
 * Domäne auf oberster Ebene: Verwendet die Dimension „Domäne auf oberster Ebene“ (in Analysis Workspace nicht mehr verfügbar). Sie gruppiert die Dimension [Domänen](/help/components/dimensions/domain.md) in Kategorien auf höherer Ebene, in der Regel nach Land der Domäne.
 * Technologie: Ordner mit Berichten darüber, was der Besucher für den Zugriff auf Ihre Site verwendet hat.
@@ -184,12 +184,12 @@ Enthält Berichte darüber, wer Ihre Site besucht.
    * Bildschirmfarbtiefe: Verwendet die Dimension [Farbtiefe](/help/components/dimensions/color-depth.md).
    * Bildschirmauflösung: Verwendet die Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md).
    * Java: Verwendet die Dimension [Java aktiviert](/help/components/dimensions/java-enabled.md).
-   * JavaScript: Verwendet die Dimension „JavaScript aktiviert“ (in Analysis Workspace nicht mehr verfügbar). Die Elemente für die Dimension sind &quot;Aktiviert&quot;, &quot;Deaktiviert&quot;oder &quot;Unbekannt&quot;, je nachdem, ob JavaScript aktiviert ist.
-   * JavaScript Version: Verwendet die Dimension „JavaScript Version“ (in Analysis Workspace nicht mehr verfügbar). Elemente der Dimension zeigen die JavaScript-Version an, die der Browser verwendet.
+   * JavaScript: Verwendet die Dimension „JavaScript aktiviert“ (in Analysis Workspace nicht mehr verfügbar). Die Dimensionselemente sind „Aktiviert“, „Deaktiviert“ oder „Unbekannt“, je nachdem, ob JavaScript im Browser aktiviert ist.
+   * JavaScript Version: Verwendet die Dimension „JavaScript Version“ (in Analysis Workspace nicht mehr verfügbar). Die Dimensionselemente zeigen die JavaScript-Version, die der Browser verwendet.
    * Cookies: Verwendet die Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md).
    * Verbindungstypen: Verwendet die Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md).
    * Mobilnetzbetreiber: Verwendet die Dimension [Mobilnetzbetreiber](/help/components/dimensions/mobile-dimensions.md).
-* Bundesstaat des Besuchers: Verwendet die Dimension „Bundesstaat“ (in Analysis Workspace nicht mehr verfügbar). Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* Bundesstaat des Besuchers: Verwendet die Dimension „Bundesstaat“ (in Analysis Workspace nicht mehr verfügbar). Die Dimensionselemente stammen aus der Variablen [`state`](../../implement/vars/page-vars/state.md).
 * PLZ/Postleitzahlen des Besuchers: Verwendet die Dimension [Postleitzahl](/help/components/dimensions/zip-code.md).
 
 ## Benutzerspezifische Konversion
@@ -204,7 +204,7 @@ Enthält Berichte, die spezifisch für Ihre Implementierung gelten. Benutzerspez
 
 Enthält Berichte mit [Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Kanalübersichtsbericht: Ein benutzerspezifischer Bericht speziell für Reports &amp; Analytics. Verwendet Marketing-Kanal als Dimensionselemente, wobei Metriken die First Touch- oder Last Touch-Zuordnung verwenden.
+* Kanalübersichtsbericht: Ein benutzerspezifischer Bericht speziell für Reports &amp; Analytics. Verwendet Marketing-Kanäle als Dimensionselemente, wobei Metriken die Erstkontakt- und Letztkontakt-Attribution verwenden.
 * Erstkontaktkanal: Verwendet die Dimension [Erstkontaktkanal](/help/components/dimensions/first-touch-channel.md).
 * Erstkontaktkanaldetail: Verwendet die Dimension [Erstkontaktkanaldetail](/help/components/dimensions/first-touch-detail.md).
 * Letztkontaktkanal: Verwendet die Dimension [Letztkontaktkanal](/help/components/dimensions/last-touch-channel.md).
