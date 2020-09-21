@@ -6,6 +6,9 @@ title: Referrer und Kampagnen
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Beschreibung der Felder des [!UICONTROL Dynamic Tag Managements] für Referrer
  <tbody>
   <tr>
    <td colname="col1"> Verweisende Stelle überschreiben </td>
-   <td colname="col2"> <p>Überschreibt den Wert, der in der Variablen <span class="varname">s.referrer</span> festgelegt ist, die normalerweise mit dem im Browser festgelegten Referrer aufgefüllt ist. </p> <p>Siehe <a href="../../../vars/page-vars/referrer.md">Verweisende Stelle</a>. </p> </td>
+   <td colname="col2"> <p>Überschreibt den Wert, der in der Variablen  <span class="varname">s.referrer</span> festgelegt ist, die normalerweise mit dem im Browser festgelegten Referrer aufgefüllt ist. </p> <p>Siehe <a href="../../../vars/page-vars/referrer.md">Verweisende Stelle</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Kampagne </td>
