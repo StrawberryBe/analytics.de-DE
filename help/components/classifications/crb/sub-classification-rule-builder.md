@@ -1,9 +1,9 @@
 ---
 description: Sie können den Classification Rule Builder nicht mit Unterklassifizierungen kombinieren.
 title: Unterklassifizierungen und der Rule Builder
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -24,11 +24,11 @@ Nehmen Sie als Beispiel den folgenden Trackingcode an:
 
 `channel:broad_campaign:creative`
 
-Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine andere Klassifizierung (*`sub-classification`*) anwenden. Das bedeutet, Sie können den Importeur wie eine relationale Datenbank mit vielen Tabellen verwenden. In der einen Tabelle werden die vollständigen Trackingcodes Schlüsseln zugeordnet, während in einer anderen Tabelle diese Schlüssel dann anderen Tabellen zugeordnet werden.
+Mit einer Classification-Hierarchie können Sie eine Classification auf eine andere Classification (*`sub-classification`*) anwenden. Das bedeutet, Sie können den Importeur wie eine relationale Datenbank mit vielen Tabellen verwenden. In der einen Tabelle werden die vollständigen Trackingcodes Schlüsseln zugeordnet, während in einer anderen Tabelle diese Schlüssel dann anderen Tabellen zugeordnet werden.
 
 ![](assets/sub_class_table.png)
 
-Wenn diese Struktur erstellt ist, können Sie den [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) nutzen, um die kleinen Dateien hochzuladen, die dann die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
+Wenn diese Struktur erstellt ist, können Sie den  [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) nutzen, um die kleinen Dateien hochzuladen, die dann die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
 
 In der folgenden Aufgabe wird beschrieben, wie Sie das machen.
 
@@ -48,7 +48,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 1. Klassifizieren Sie im [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) den Schlüssel der Unterklassifizierungen anhand des ursprünglichen Trackingcodes.
 
-   Verwenden Sie dazu einen regulären Ausdruck. In diesem Beispiel würde die Regel zum Auffüllen von *`Broad Campaign code`* den folgenden regulären Ausdruck verwenden:
+   Verwenden Sie dazu einen regulären Ausdruck. In diesem Beispiel würde die Regel zum Auffüllen von  *`Broad Campaign code`* den folgenden regulären Ausdruck verwenden:
 
    | `#` | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
    |---|---|---|---|---|
@@ -72,6 +72,6 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 1. Laden Sie eine kleine Datei (siehe oben) hoch, um die Suchtabellen zu pflegen.
 
-   Zum Beispiel würden Sie eine solche Datei hochladen, wenn ein neuer *`Broad Campaign code`* eingeführt wird. Diese Datei würde dann für bereits klassifizierte Werte gelten. Oder wenn Sie eine neue Unter-Classification erstellen (z. B. *`Creative Theme`* als Unterklassifizierung von *`Creative code`*), laden Sie nur die Unterklassifizierungsdatei hoch und nicht die gesamte Klassifizierungsdatei.
+   Zum Beispiel würden Sie eine solche Datei hochladen, wenn ein neuer *`Broad Campaign code`* eingeführt wird. Diese Datei würde dann für bereits klassifizierte Werte gelten. Oder wenn Sie eine neue Unter-Classification erstellen (z. B.  *`Creative Theme`* als Unter-Classification von *`Creative code`*), laden Sie nur die Unter-Classification-Datei hoch und nicht die gesamte Classification-Datei.
 
    Bei der Berichterstellung funktionieren die Unter-Classifications genauso wie die übergeordneten Classifications. So haben Sie weniger Verwaltungsaufwand, wenn Sie Unter-Classifications verwenden.-->
