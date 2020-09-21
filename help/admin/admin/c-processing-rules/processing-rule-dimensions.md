@@ -17,7 +17,7 @@ ht-degree: 86%
 
 Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben können (sofern nicht anderweitig vermerkt).
 
-## Benutzerspezifische Werte und Kontextdaten {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## Benutzerspezifische Werte und Kontextdaten  {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -94,7 +94,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
    <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Hinweis:  Linktracking-Aufrufe entfernen die <code>pageName</code> Variable, bevor sie Verarbeitungsregeln erreichen. Wenn Sie einen Seitennamenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als Ansicht der Seite und nicht als Linkverfolgungsaufruf betrachtet. Adobe empfiehlt eine Überprüfung, um sicherzustellen, dass der Seitenname bereits festgelegt ist, bevor Sie ihn ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>„Seiten-URL“ </p> </td> 
+   <td colname="col1"> <p>Seiten-URL </p> </td> 
    <td colname="col2"> <code> s.pageURL</code> oder die aktuelle Seiten-URL, wenn <code> s.pageURL</code> nicht spezifiziert ist. <p>Hinweis:  Linktracking-Aufrufe entfernen die <code>pageURL</code> Variable, bevor sie Verarbeitungsregeln erreichen. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als Ansicht der Seite und nicht als Linkverfolgungsaufruf betrachtet. Adobe empfiehlt eine Überprüfung, um sicherzustellen, dass die Seiten-URL bereits festgelegt ist, bevor Sie sie ändern. </p></td> 
   </tr> 
   <tr> 
@@ -187,7 +187,7 @@ Die Dimensionen, die Sie mithilfe von Verarbeitungsregeln lesen und schreiben k�
    <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Bundesstaat des Besuchers </p> </td> 
+   <td colname="col1"> <p>Bundesland des Besuchers </p> </td> 
    <td colname="col2"> <p> <code> s.state</code> </p> </td> 
   </tr> 
   <tr> 
@@ -210,7 +210,7 @@ Verarbeitungsregeln können Ereignisse einstellen, diese aber nicht als Bedingun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ereignis- 1-1000 </p> <p>(Für Kunden mit SiteCatalyst 15: Ereignis 1–100.) </p> </td> 
+   <td colname="col1"> <p>Ereignis-  1-1000 </p> <p>(Für Kunden mit SiteCatalyst 15: Ereignis 1–100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
