@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Dimensionen aufschlüsseln
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Sie können Ihre Daten für Ihre spezifischen Anforderungen unbegrenzt aufschlü
 1. [Erstellen Sie ein Projekt](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) mit einer Datentabelle.
 1. Klicken Sie in der Datentabelle mit der rechten Maustaste auf einen Zeileneintrag und wählen Sie **[!UICONTROL Aufschlüsselung]** > *`<item>`* aus.
 
-   ![Schritt Ergebnis](assets/fa_data_table_actions.png)
+   ![Ergebnis des Schritts](assets/fa_data_table_actions.png)
 
-   Sie können Metriken über ausgewählte Zeiträume nach Dimensionselementen oder Audiencen unterteilen. Sie können auch noch granularer aufschlüsseln.
+   Sie können Metriken nach Dimensionselementen oder Zielgruppensegmenten über ausgewählte Zeiträume aufschlüsseln. Sie können auch noch granularer aufschlüsseln.
 
    >[!NOTE]
    >
