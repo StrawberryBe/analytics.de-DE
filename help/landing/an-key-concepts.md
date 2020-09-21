@@ -98,7 +98,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | --- | --- | --- |
 | Downloads und Planung der Benutzeroberfläche | Daten aus Analysis Workspace als CSV oder PDF exportieren. | [PDF- oder CSV-Dateien herunterladen](/help/analyze/analysis-workspace/curate-share/download-send.md) |
 | Report Builder | Siehe Analytics-Werkzeuge. |  |
-| Analytics-API | Erstellen Sie Ihre eigenen Anfragen für Analysedaten. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
+| Analytics-API  | Erstellen Sie Ihre eigenen Anfragen für Analysedaten. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
 | Data Warehouse | Siehe Analytics-Werkzeuge. |  |
 | Analytics-Daten-Feed | Die präziseste Möglichkeit, Daten aus Analytics zu erhalten Erstellen Sie einen trefferbasierten Feed, der über Analytics funktioniert. | [Analytics Data Feed](/help/export/analytics-data-feed/data-feed-overview.md) |
 
