@@ -1,23 +1,23 @@
 ---
 title: Tag
 description: Der Tag, an dem die Metrik aufgetreten ist.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Tag
 
-Die Dimension &quot;Tag&quot;zeigt den Tag an, an dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist der erste Tag im Datumsbereich und das letzte Dimensionselement ist der letzte Tag im Datumsbereich. Diese Dimension ist für Trendberichte von entscheidender Bedeutung, da sie es Ihnen ermöglicht, Metriken im Laufe der Zeit anzuzeigen.
+Die Dimension „Tag“ zeigt den Tag an, an dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist der erste Tag im Datumsbereich und das letzte Dimensionselement der letzte Tag im Datumsbereich. Diese Dimension ist für Trend-Berichte von entscheidender Bedeutung, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension funktioniert bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
+Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
 ## Dimensionselemente
 
-Dimensionselemente beinhalten das Datum eines bestimmten Tages. Er umfasst den Monat, den Tag und das Jahr als Teil des Dimensionselements.
+Die Dimensionelemente umfassen das Datum eines bestimmten Tages. Sie umfassen den Monat, den Tag und das Jahr als Teil des Dimensionselements.
