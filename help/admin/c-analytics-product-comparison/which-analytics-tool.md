@@ -2,11 +2,11 @@
 description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
 
-Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
+Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
 ## Adobe Analytics-Berichtsoberflächen {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
@@ -46,7 +46,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie [hier](/h
 * Für die Latenzanalyse (Zeit vor/seit einem Ereignis).
 * Für die Identifikation und den Export komplexer Segmente in Adobe Experience Cloud.
 
-## Importieren von Daten in Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Importieren von Daten in Adobe Analytics  {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[Classifications](/help/components/classifications/c-classifications.md)** sollte verwendet werden:
 
@@ -83,7 +83,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 * Wenn Sie Zielgruppendaten des Adobe Audience Manager (AAM) – wie beispielsweise demografische Daten (z. B. Geschlecht oder Verdienstniveau), psychografische Daten (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
 * Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
 
-## Exportieren von Daten aus Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
+## Exportieren von Daten aus Adobe Analytics  {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** sollte verwendet werden:
 
@@ -99,7 +99,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 * Für den Zugriff auf granularere Daten als jene in der Benutzeroberfläche (denormalisierte Tabellenansicht).
 * Für den Download von Daten in einem für die Pivot-Tabellen-Eingabe geeigneten Format.
 * Wenn der Kunde Adobe-Daten in ein Drittanbieter-Tool für die Datenvisualisierung eingeben möchte (leicht zusammengefasst und nicht auf Trefferebene).
-* So greifen Sie auf alle eindeutigen Dimensionselemente zu, wenn Sie in Adobe Analytics mit &quot;geringer Traffic&quot;arbeiten
+* Für den Zugriff auf alle eindeutigen Dimensionselemente, wenn in Adobe Analytics ein geringer Datenverkehr für Sie vorliegt.
 
 **[Analytics-Daten-Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** sollte verwendet werden:
 
