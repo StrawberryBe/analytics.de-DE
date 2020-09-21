@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 71%
+ht-degree: 82%
 
 ---
 
@@ -20,11 +20,11 @@ Diese Dimension hängt mit den Dimensionen [Website-Bereich](site-section.md) un
 
 Diese Dimension ruft Daten aus der [`pageName` Abfrage-Zeichenfolge](/help/implement/validate/query-parameters.md) in Aufrufen der [Ansicht (`t()`)](/help/implement/vars/functions/t-method.md)ab. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn die `pageName` Abfrage-Zeichenfolge vorhanden ist.
 
-AppMeasurement erfasst diese Daten mit der [`pageName`](/help/implement/vars/page-vars/pagename.md)-Variable. If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement erfasst diese Daten mit der [`pageName`](/help/implement/vars/page-vars/pagename.md)-Variable. If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
-## Dimensionen
+## Dimensionselemente
 
-Dimensionen beinhalten die Seitennamen auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Einige Organisationen verwenden `document.title` direkt, während andere benutzerdefinierte Breadcrumbs formulieren. Stellen Sie unabhängig von der verwendeten Methode sicher, dass sie konsistent ist und dass Sie sie in einem [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) aufzeichnen.
+Zu den Dimensionselementen gehören die Namen der Seiten auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Einige Organisationen verwenden `document.title` direkt, während andere benutzerdefinierte Breadcrumbs formulieren. Stellen Sie unabhängig von der verwendeten Methode sicher, dass sie konsistent ist und dass Sie sie in einem [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) aufzeichnen.
 
 >[!NOTE]
 >
