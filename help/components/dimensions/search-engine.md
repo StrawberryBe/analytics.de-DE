@@ -1,11 +1,11 @@
 ---
 title: Suchmaschine
 description: Die Suchmaschine, mit der der Besucher Ihre Site erreichte.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Wenn Sie zwischen gebührenpflichtiger und kostenloser Suche unterscheiden möch
 
 Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Dimensionen gehören Suchmaschinen, die zum Erreichen Ihrer Site verwendet werden. Zu den Beispielwerten gehören `"Google"`, `"Microsoft Bing"` und `"DuckDuckGo"`. The `"Unspecified"` dimension item is all non-search traffic.
+Zu den Dimensionselementen gehören Suchmaschinen, die zum Erreichen Ihrer Site verwendet werden. Zu den Beispielwerten gehören `"Google"`, `"Microsoft Bing"` und `"DuckDuckGo"`. Das Dimensionselement `"Unspecified"` ist der gesamte Traffic ohne Suchvorgänge.
