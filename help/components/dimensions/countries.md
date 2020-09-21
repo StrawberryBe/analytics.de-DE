@@ -1,11 +1,11 @@
 ---
 title: Länder
 description: Das Land, aus dem der Treffer stammt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert 
 >
 >Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich mit der Report Suite-ID an die Kundenunterstützung und bitten Sie darum, die Option „Geografie“ für die Report Suite zu deaktivieren.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Dimensionen gehören Länder auf der ganzen Welt. Zu den Beispielwerten gehören `"United States"`, `"United Kingdom"` oder `"India"`.
+Zu den Dimensionselementen gehören Länder auf der ganzen Welt. Zu den Beispielwerten gehören `"United States"`, `"United Kingdom"` oder `"India"`.
 
 ## Unterschiede zwischen gemeldetem und tatsächlichem Standort
 
