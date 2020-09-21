@@ -33,7 +33,7 @@ Anhand der Berichte zu Traffic-Quellen können Sie:
 
 **Allgemeine Persistenz**
 
-Alle Berichtwerte in [!UICONTROL Traffic-Quellen] sind persistent und erhalten die Zuschreibung, bis sie überschrieben werden oder bis der Besuch endet, je nachdem, was zuerst erfolgt. Zuvor waren nur Keywords und Referrerdomänen persistent. Wenn ein Besucher z. B. eine Google-Suche nach „DVD“ durchführt, was ihn zu Ihrer Site mit einem Kauf von 100 US-Dollar bringt, schreibt der Bericht dem Keyword „DVD“ sowie der Suchmaschine Google 100 US-Dollar gut. Diese Funktionsweise lässt sich ungeachtet der jeweiligen [!DNL Admin Console]-Einstellungen nicht ändern.
+Alle Berichtwerte in [!UICONTROL Traffic-Quellen] sind persistent und erhalten die Zuschreibung, bis sie überschrieben werden oder bis der Besuch endet, je nachdem, was zuerst erfolgt. Zuvor waren nur Keywords und Referrerdomänen persistent. Wenn ein Besucher z. B. eine Google-Suche nach  „DVD“ durchführt, was ihn zu Ihrer Site mit einem Kauf von 100 US-Dollar bringt, schreibt der Bericht dem Keyword „DVD“ sowie der Suchmaschine Google 100 US-Dollar gut. Diese Funktionsweise lässt sich ungeachtet der jeweiligen [!DNL Admin Console]-Einstellungen nicht ändern.
 
 ## Suchkeywords {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -77,7 +77,7 @@ c_reports_ref_domains.xml
 
 Zeigt die Domänen an, die jene Kunden an Sie verwiesen haben, die die Erfolgsmetrik Ihrer Site am meisten beeinflusst haben. Referrer lassen sich zwei Hauptkategorien zuweisen: Domänen und URLs. Domänen verweisen auf den Domänenamen und werden als Ausgangsdomäne ohne Abfragezeichenfolge oder Unterverzeichnisse angezeigt. URLs enthalten den Ausgangsdomänenamen sowie eventuell vorhandene Abfragezeichenfolgen oder Unterverzeichnisse.
 
-## Ursprünglich Referrerdomänen {#concept_EB18251DF70343169B46BB59543A579A}
+## Ursprünglich Referrerdomänen  {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
