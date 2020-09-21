@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics-Handbuch für erste Administratoren
 description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Ein erster Administrator ist der Ausgangspunkt, um dem Rest der Organisation die
 Wenn Ihre Organisation Adobe Analytics erworben hat, sollten Sie folgende wichtige Rollen berücksichtigen:
 
 * **Adobe Analytics-Administratoren:** Diese Benutzer haben vollen Zugriff auf alle Funktionen in Adobe Analytics, einschließlich Report Suite-Einstellungen und Benutzerberechtigungen. Je nachdem, wie Ihre Organisation strukturiert ist, können verschiedene Mitarbeiter oder Teams für unterschiedliche Facetten der Analytics-Verwaltung verantwortlich sein. Beispielsweise ist eine Person für die Benennung der Variablen verantwortlich, die in einer Implementierung verwendet werden sollen. Eine andere Person kann dafür verantwortlich sein, dass Benutzer Berichte korrekt abrufen können, indem sie sicherstellt, dass jeder über die richtigen Berechtigungen verfügt. Identifizieren Sie mindestens einen Benutzer, der für die Einstellungen und Benutzerberechtigungen in Analytics verantwortlich sein kann. Dieser kann dann weitere Analytics-Administratoren einladen.
-* **Adobe Experience Platform Launch-Administratoren:** Diese Benutzer haben vollen Zugriff auf alle Funktionen von Experience Platform Launch, einschließlich Veröffentlichungsberechtigungen, Erstellen von Containern und Benutzerberechtigungen. Diese Benutzer sind nicht unbedingt Programmierer, aber zumindest Anfängerkenntnisse in HTML, CSS und JavaScript sind von Vorteil. Sie sind dafür verantwortlich, mit den Website-Eigentümern Ihrer Organisation zusammenzuarbeiten, um den Experience Platform Launch-Code auf Ihrer Site implementieren zu können. Identifizieren Sie mindestens einen Benutzer, der für die Implementierung Ihres Unternehmens verantwortlich ist, und können Sie andere Experience Platform Launch-Administratoren von dort einladen.
-* **Support-Delegierte**: Sie werden auch als unterstützte Benutzer bezeichnet und verfügen über keine zusätzlichen Berechtigungen auf der Analytics-Oberfläche. Stattdessen erhalten sie bei der Kommunikation mit der Adobe Kundenservice zusätzliche Berechtigungen. Diese Benutzer sind fast immer auch Analytics-Administratoren, da sie der Kundenunterstützung helfen, Probleme mit ihnen zu beheben. Identifizieren Sie mindestens einen Analytics-Administrator, der für die Erleichterung der Interaktionen zwischen Endbenutzern und der Adobe-Kundenunterstützung zuständig ist.
+* **Adobe Experience Platform Launch-Administratoren:** Diese Benutzer haben vollen Zugriff auf alle Funktionen von Experience Platform Launch, einschließlich Veröffentlichungsberechtigungen, Erstellen von Containern und Benutzerberechtigungen. Diese Benutzer sind nicht unbedingt Programmierer, aber zumindest Anfängerkenntnisse in HTML, CSS und JavaScript sind von Vorteil. Sie sind dafür verantwortlich, mit den Website-Eigentümern Ihrer Organisation zusammenzuarbeiten, um den Experience Platform Launch-Code auf Ihrer Site implementieren zu können. Identifizieren Sie mindestens einen Benutzer, der für die Implementierung Ihrer Organisation verantwortlich ist. Dieser kann dann weitere Experience Platform Launch-Administratoren einladen.
+* **Support-//Beauftragter**: Auch als unterstützte Benutzer bezeichnet, haben sie keine zusätzlichen Berechtigungen in der Analytics-Oberfläche. Stattdessen erhalten sie bei der Kommunikation mit der Adobe-Kundenunterstützung zusätzliche Berechtigungen. Diese Benutzer sind fast immer auch Analytics-Administratoren, da sie der Kundenunterstützung bei der Fehlerbehebung helfen. Identifizieren Sie mindestens einen Analytics-Administrator, der für die Erleichterung der Interaktionen zwischen Endbenutzern und der Adobe-Kundenunterstützung zuständig ist.
 * **Website-Eigentümer:** Diese Personen oder Teams sind für die Codierung und Entwicklung Ihrer Website verantwortlich. Sie benötigen keine Konten, sollten jedoch mit Experience Platform Launch-Administratoren zusammenarbeiten, um den Experience Platform Launch-Code zu erhalten und ihn auf Ihrer Website zu implementieren.
 * **Endbenutzer:** Diese Benutzer zeigen in der Regel Berichte an und suchen nach Antworten auf Geschäftsfragen. Analytics-Administratoren gewähren diesen Benutzern die Berechtigung, im Produkt zu arbeiten.
 
