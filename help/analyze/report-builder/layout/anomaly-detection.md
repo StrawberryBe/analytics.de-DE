@@ -56,7 +56,7 @@ Mit der Anomalieerkennung werden neue Metrikwerte für jede ausgewählte Metrik 
  </tbody> 
 </table>
 
-Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik für die *`Page Views Lower Bound`* verwendet.
+Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik für die  *`Page Views Lower Bound`* verwendet.
 
 **Berechnung der Anomalieerkennung**
 
