@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 48%
+ht-degree: 71%
 
 ---
 
@@ -34,8 +34,8 @@ AppMeasurement erstellt innerhalb der HTML-Seite ein Bildobjekt, das der Browser
 
 Manchmal möchte ein Unternehmen eine Implementierung aufgrund des Vertragsablaufs entfernen oder die Anzahl der Serveraufrufe verringern.
 
-* **Implementierungen mit Start**: Deaktivieren oder deinstallieren Sie die Adobe Analytics-Erweiterung auf der Registerkarte &quot; [!UICONTROL Erweiterungen] &quot;und veröffentlichen Sie dann die Veröffentlichung.
-* **Ältere AppMeasurement-Implementierungen**: Ersetzen Sie den gesamten Inhalt Ihrer `s_code.js` Datei durch die folgende Codezeile:
+* **Implementierungen mit Launch**: Deaktivieren oder deinstallieren Sie die Adobe Analytics-Erweiterung auf der Registerkarte [!UICONTROL Erweiterungen] und veröffentlichen Sie.
+* **Ältere AppMeasurement-Implementierungen**: Ersetzen Sie den gesamten Inhalt Ihrer `s_code.js`-Datei durch die folgende Codezeile:
 
 ```js
 var s = new Object();
@@ -43,11 +43,11 @@ var s = new Object();
 
 >[!WARNING]
 >
->Nicht anwenden:
+>Beachten Sie Folgendes:
 >
->* Ändern Sie die Report Suite in einen ungültigen Wert, da dies zu unnötiger Belastung auf den Servern der Adobe führt.
->* Entfernen Sie die `s_code.js` Datei ganz, es sei denn, Sie entfernen alle Verweise auf die Datei auf jeder Seite.
->* Ändern Sie die `trackingServer` Variable so, dass sie von der Adobe abweicht. AppMeasurement sendet weiterhin Bildanforderungen, die 404-Fehler zurückgeben.
+>* Ändern Sie die Report Suite nicht in einen ungültigen Wert, da dies die Server von Adobe unnötig belastet.
+>* Entfernen Sie die `s_code.js`-Datei nicht vollständig, es sei denn, Sie entfernen alle Verweise auf die Datei auf jeder Seite.
+>* Ändern Sie die `trackingServer`-Variable nicht von Adobe weg. AppMeasurement sendet weiterhin Bildanforderungen, die 404-Fehler zurückgeben.
 
 
 ## Ich habe AppMeasurement über einen Code-Analyzer ausgeführt und seine Verwendung als potenzielles Sicherheitsrisiko markiert `Math.random()` . Wird mit vertraulichen Daten `Math.random()` verwendet?
