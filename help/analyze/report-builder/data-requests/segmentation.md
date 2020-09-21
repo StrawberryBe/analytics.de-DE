@@ -16,7 +16,7 @@ ht-degree: 100%
 
 So können Sie in Report Builder Adobe Analytics-Segmente hinzufügen, bearbeiten, anwenden und filtern.
 
-Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmentierungsfenster, mit dem Sie folgende Aufgaben ausführen können: Segmente erstellen und verwalten.
+Im Schritt 1 des Anforderungs-Assistenten von Report Builder gibt es ein Segmentierungsfenster, mit dem Sie folgende Aufgaben ausführen können:  Segmente erstellen und verwalten.
 
 ![](assets/seg_dialog.png)
 
@@ -51,7 +51,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 1. Gehen Sie zurück zum Report Builder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 1. Nun können Sie dieses Segment anwenden.
 
-## Segmente suchen und anwenden {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Segmente suchen und anwenden  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Alle Segmente, die in Reports &amp; Analytics, Ad Hoc Analysis, Report Builder oder Data Warehouse erstellt wurden, werden in dieser Segmentliste angezeigt. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](assets/refresh_icon.png).
 
@@ -75,13 +75,13 @@ Folgende Filter stehen zur Verfügung:
 
 | Filtername | Beschreibung |
 |---|---|
-| Tags | Filtert Segmente nach bestimmten Tags. Beachten Sie, dass Tagfilter mit dem Operator UND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
-| Inhaber | Filtern Sie Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator ODER arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Segmente angezeigt, die **beiden** Inhabern gehören. |
+| Tags | Filtert Segmente nach bestimmten  Tags. Beachten Sie, dass Tagfilter mit dem Operator AND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Fenster Segmente angezeigt, die mit **beiden** Tags versehen wurden. |
+| Inhaber | Filtert Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator OR arbeiten. Wenn Sie zwei Inhaber aktivieren, werden im rechten Fenster Segmente angezeigt, die **beiden** Inhabern gehören. |
 | Weitere Filter > Nur *Name der Report Suite* | Wenn Sie im Segment Builder in [!DNL marketing reports & analytics] den Filter „Nur *Name der Report Suite*“ anwenden und dann in [!DNL report builder] den erweiterten Filter anzeigen, zeigt der erweiterte Filter nur das Segment für die ausgewählte Report Suite an. |
 | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
-| Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie freigegeben haben. |
-| Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als Favoriten gekennzeichnet haben. |
-| Weitere Filter > Genehmigt | Zeigt alle offiziell genehmigten Segmente an. |
+| Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die andere für Sie  freigegeben haben. |
+| Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als  Favoriten gekennzeichnet haben. |
+| Weitere Filter > Genehmigt | Zeigt alle offiziell  genehmigten Segmente an. |
 
 ## Segmentsteuerelement zu einer Arbeitsmappe hinzufügen {#section_E3E5149A8464441FA5445A98DBD520AC}
 
@@ -102,7 +102,7 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
    ![](assets/seg_control2.png)
 
-## Segmentliste aktualisieren {#section_22E4A86789444B4A998532396B476EFB}
+## Segmentliste aktualisieren  {#section_22E4A86789444B4A998532396B476EFB}
 
 Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Aktualisierungssymbol (![](assets/refresh_icon.png)) klicken, um die zwischengespeicherte Segmentliste zu aktualisieren.
 
@@ -121,7 +121,7 @@ In Report Builder 5.4 ist das Hinzufügen, Entfernen und Ersetzen einzelner oder
 
    | Option | Beschreibung |
    |---|---|
-   | Fügen Sie Segment | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
+   | Fügen Sie  Segment | Sie können eines oder mehrere Segmente auswählen und der Liste der aktuellen Segmente hinzufügen. |
    | Segment(e) ersetzen | Sie können auswählen, welche(s) Segment(e) Sie durch ein Segment bzw. mehrere Segmente ersetzen möchten. |
    | Alle Segmente ersetzen nach | Sie können eines oder mehrere Segmente auswählen und damit vorhandene Segmente ersetzen. |
    | Segment(e) entfernen | Sie können Segmente aus Anforderungen entfernen. |
