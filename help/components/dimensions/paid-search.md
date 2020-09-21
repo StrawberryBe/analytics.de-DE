@@ -1,23 +1,23 @@
 ---
-title: Gebührenpflichtige Suche
-description: Trennt Metriken von der gebührenpflichtigen und kostenlosen Suche.
-translation-type: tm+mt
+title: Paid Search
+description: Unterscheidet Metriken von gebührenpflichtiger und kostenloser Suche.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Gebührenpflichtige Suche
+# Paid Search
 
-Mit der Dimension &quot;Gebührenpflichtige Suche&quot;können Sie eine beliebige Metrik betrachten und sie zwischen gebührenpflichtiger und kostenloser Suche vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche verglichen werden.
+Mit der Dimension „Paid Search“ können Sie eine beliebige Metrik betrachten und zwischen gebührenpflichtiger und kostenloser Suche vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Die einzige Voraussetzung dafür, dass diese Dimension ordnungsgemäß funktioniert, ist, dass die [gebührenpflichtige Sucherkennung](/help/admin/admin/paid-search-detection/paid-search-detection.md) in den Report Suite-Einstellungen korrekt konfiguriert ist. Wenn die gebührenpflichtige Sucherkennung korrekt konfiguriert ist und eine Report Suite Daten enthält, funktioniert diese Dimension immer.
+Die einzige Voraussetzung für die ordnungsgemäße Funktion dieser Dimension ist, dass die [gebührenpflichtige Sucherkennung](/help/admin/admin/paid-search-detection/paid-search-detection.md) in den Einstellungen der Report Suite korrekt konfiguriert ist. Wenn die gebührenpflichtige Sucherkennung korrekt konfiguriert ist und eine Report Suite Daten enthält, funktioniert diese Dimension immer.
 
 ## Dimensionselemente
 
-Dimensionselemente enthalten zwei statische Werte: `"Natural"` und `"Paid"`. Wenn ein Besuch Kriterien für eine Suchmaschine erfüllt und auch mit der gebührenpflichtigen Sucherkennung übereinstimmt, gehört er zum `"Paid"` Dimensionselement. Wenn ein Besuch Kriterien für eine Suchmaschine erfüllt und *nicht* mit der gebührenpflichtigen Sucherkennung übereinstimmt, gehört er zum `"Natural"` Dimensionselement.
+Zu den Dimensionselementen gehören zwei statische Werte: `"Natural"` und `"Paid"`. Wenn ein Besuch die Kriterien für eine Suchmaschine erfüllt und auch mit der gebührenpflichtigen Sucherkennung übereinstimmt, gehört er zum Dimensionselement `"Paid"`. Wenn ein Besuch die Kriterien für eine Suchmaschine erfüllt und *nicht* mit der gebührenpflichtigen Sucherkennung übereinstimmt, gehört er zum Dimensionselement `"Natural"`.
