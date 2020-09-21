@@ -113,9 +113,9 @@ Angenommen, der folgende Satz von Server-Aufrufen gilt für einen einzigen Besuc
 | **Besuch – vergangene Zeit (in Sek.)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Besuchszeit in Sekunden** | 30 | 50 | 100 | 10 | 40 | 60 | – |
 | **Treffertyp** | Seite | Link | Seite | Seite | Seite | Seite | Seite |
-| **Seitenname** | Startseite | – | Produkt | Startseite | Startseite (neu laden) | Korb | Bestellungsbestätigung |
+| **Seitenname** | Startseite | – | Produkt | Startseite | Startseite  (neu laden) | Korb | Bestellungsbestätigung |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A (festgelegt) | A (nach vorne verteilt) | nicht festgelegt | B (festgelegt) | B (festgelegt) | A (Set) | C (festgelegt) |
+| **prop1** | A  (festgelegt) | A (nach vorne verteilt) | nicht festgelegt | B (festgelegt) | B (festgelegt) | A (Set) | C  (festgelegt) |
 | **prop1 – Besuchszeit in Sekunden** | 30 | 50 | – | 10 | 40 | 60 | – |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Rot (festgelegt) | Rot (beibehalten) | (abgelaufen) | Blau (festgelegt) | Blau (festgelegt) | Blau (beibehalten) | Rot (festgelegt) |
