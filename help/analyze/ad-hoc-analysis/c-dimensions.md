@@ -1,5 +1,5 @@
 ---
-description: Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht-numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Klassifizierung ursprünglichen Berichtstyp-Metrik darstellen.
+description: Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht-numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Classification ursprünglichen Berichtstyp-Metrik darstellen.
 title: Dimensionen
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
@@ -18,7 +18,7 @@ ht-degree: 95%
 >
 >Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
-Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht-numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Klassifizierung ursprünglichen Berichtstyp-Metrik darstellen.
+Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Bericht angezeigt, unterteilt und verglichen werden können. Sie sind nicht-numerische Werte, die korrelieren, Unterbeziehungen herstellen oder eine Classification ursprünglichen Berichtstyp-Metrik darstellen.
 
 Beispiele für Dimensionen:
 
