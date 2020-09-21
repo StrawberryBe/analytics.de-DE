@@ -1,11 +1,11 @@
 ---
 title: Tage seit dem letzten Besuch
 description: Die Anzahl der Tage zwischen dem aktuellen Treffer und dem letzten Besuch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ Erstmalige Besucher sind in dieser Dimension nicht enthalten.
 
 Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Elementen der Dimension gehören die Tage zwischen dem letzten Besuch eines Besuchers und dem aktuellen Treffer. Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor&#39;s last visit and the current hit happened on the same day.
+Zu den Dimensionselementen gehört die Anzahl der Tage zwischen dem letzten Besuch eines Besuchers und dem aktuellen Treffer. Jede Anzahl von Tagen ist ein eigenes Dimensionselement, wobei `"Same day"` dort auftritt, wo der letzte Besuch eines Besuchers und der aktuelle Treffer am selben Tag stattgefunden haben.
