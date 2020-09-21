@@ -20,4 +20,4 @@ Diese Metrik zählt alle Linktracking-Aufrufe ([`tl()`](/help/implement/vars/fun
 
 ## Vergleich mit ähnlichen Metriken
 
-* **Seitenereignisse im Vergleich zu[Seitenansichten](page-views.md)**: „Seitenereignisse“ zählt die Anzahl der Linktracking-Tracking-Aufrufe (`tl()`) und schließen Seitenansicht-Tracking-Aufrufe (`t()`) aus. „Seitenansichten“ im Gegensatz dazu zählt die Anzahl der Seitenansicht-Tracking-Aufrufe und schließt Links aus.
+* **Seitenereignisse im Vergleich zu [Seitenansichten](page-views.md)**: „Seitenereignisse“ zählt die Anzahl der Linktracking-Tracking-Aufrufe (`tl()`) und schließen Seitenansicht-Tracking-Aufrufe (`t()`) aus. „Seitenansichten“ im Gegensatz dazu zählt die Anzahl der Seitenansicht-Tracking-Aufrufe und schließt Links aus.
