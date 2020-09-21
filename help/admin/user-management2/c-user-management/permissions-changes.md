@@ -50,12 +50,12 @@ Weil API und Oberfläche dasselbe Berechtigungssystem verwenden, wird es sich be
   </tr> 
   <tr> 
    <td colname="col1"> <p>Änderungen an vordefinierten Gruppen </p> </td> 
-   <td colname="col2"> <p> <b>Administratorzugriff:</b> Vordefinierte Gruppen sind für Administratoren nicht länger notwendig. Administratoren haben jetzt Zugriff auf alle Elemente (Tools, Dimensionen und Metriken) sowie auf Web Service, Report Builder, Activity Map und Ad Hoc Analysis. </p> <p>Sinn und Zweck von Gruppen ist es künftig, den Zugriff von Nichtadministratoren zu ermöglichen oder einzuschränken. </p> <p> <b>Benutzerspezifische Gruppen:</b> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Anpassen der Analytics-Tools</a>. </p> <p> Benutzer mit <span class="term">Zugriff auf Berichte</span> wurden zu einer benutzerdefinierten Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
+   <td colname="col2"> <p> <b>Administratorzugriff:</b> Vordefinierte Gruppen sind für Administratoren nicht länger notwendig. Administratoren haben jetzt Zugriff auf alle Elemente (Tools, Dimensionen und Metriken) sowie auf Web Service, Report Builder, Activity Map und Ad Hoc Analysis. </p> <p>Sinn und Zweck von Gruppen ist es künftig, den Zugriff von Nichtadministratoren zu ermöglichen oder einzuschränken. </p> <p> <b>Benutzerspezifische Gruppen:</b> Vordefinierte Gruppen wurden durch benutzerspezifische Gruppen ersetzt. Bestehende vordefinierte Gruppen werden in benutzerspezifische Gruppen migriert und mit dem gleichen Gruppennamen gekennzeichnet. Von Ihnen erstellte benutzerspezifische Gruppen und deren Einstellungen bleiben dabei erhalten. Sie werden jedoch möglicherweise bemerken, dass die Einstellungen sich an einem anderen Ort befinden. Die Unternehmenseinstellungen beispielsweise (früher in der Anpassung der Admin Console) befinden sich nun in der  <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Anpassen der Analytics-Tools</a>. </p> <p> Benutzer mit <span class="term">Zugriff auf Berichte</span> wurden zu einer benutzerdefinierten Gruppe migriert, die Zugriff auf Folgendes hat: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Alle Dimensionen </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Alle Metriken </li> 
      <li id="li_65ABE5C95D43444D88E63EE95C9AED05">Alle Report Suites </li> 
-     <li id="li_7ED1505590144B38B3B9851BAA6BBB49">Kanalbericht Berechtigung </li> 
+     <li id="li_7ED1505590144B38B3B9851BAA6BBB49">Kanalbericht  Berechtigung </li> 
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Berechtigung für Anomalieerkennungsbericht </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Berechtigung für Echtzeitbericht </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Berechtigung für Zugriff auf Analysis Workspace </li> 
@@ -124,7 +124,7 @@ Hier finden Sie wichtige neue Informationen zu neuen und geplanten Aktualisierun
  </tbody> 
 </table>
 
-## Schnellverweis zu Berechtigungen {#section_A3FDD8259F524B21A5489833533D1B28}
+## Schnellverweis zu Berechtigungen  {#section_A3FDD8259F524B21A5489833533D1B28}
 
 In der folgenden Tabelle finden Sie Aufgaben und deren Durchführungszeitpunkt (abhängig vom Status des Unternehmens).
 
