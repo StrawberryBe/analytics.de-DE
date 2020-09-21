@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Klassifizierungsdatendateien
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Der Wert von Classifications darf nicht 0 (null) sein.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [maskiert wurde](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß  [maskiert wurde](/help/components/classifications/importer/t-classifications-escape-data.md). Sonderzeichen umfassen:
 
    ```
    \t     tab character 
@@ -120,7 +120,7 @@ Reports &amp; Analytics enthalten beispielsweise automatisch zwei Classification
 
 Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unter-Classifications und anderen spezialisierten Datenspalten:
 
-### Überschrift einer Unterklassifizierung
+### Überschrift einer Unter-Classification
 
 Beispielsweise ist [!UICONTROL Campaigns^Owner] eine Spaltenüberschrift für die Spalte, die Werte zum [!UICONTROL Kampagnenverantwortlichen] enthält. Vergleichbar ist [!UICONTROL Creative Elements^Size] eine Spaltenüberschrift für die Spalte, die die [!UICONTROL Größen]-Unter-Classification der [!UICONTROL Kreative-Elemente]-Classification enthält.
 
@@ -130,7 +130,7 @@ So bezieht sich beispielsweise [!UICONTROL Campaigns^~Cost] auf die [!UICONTROL 
 
 ### PER-Modifizierer-Überschriften
 
-*`Per Modifier`*-Überschriften werden durch Hinzufügen von *`~per`* zur Klassifizierungsmetrik-Überschrift gekennzeichnet. Wenn die *`Metric`*-Überschrift beispielsweise *`Campaigns^~Cost`* lautet, lautet die Überschrift des PER-Modifizierers *`Campaigns^~Cost~per`*. Adobe unterstützt die folgenden *`PER Modifier`*-Keywords:
+*`Per Modifier`*-Überschriften werden durch Hinzufügen von *`~per`* zur Classification-Metrik-Überschrift gekennzeichnet. Wenn die *`Metric`*-Überschrift beispielsweise *`Campaigns^~Cost`* lautet, lautet die Überschrift des PER-Modifizierers *`Campaigns^~Cost~per`*. Adobe unterstützt die folgenden *`PER Modifier`*-Keywords:
 
 Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie nach Möglichkeit, diese Wörter in Attributnamen und -daten zu verwenden.
 
@@ -170,12 +170,12 @@ Weitere Informationen finden Sie unter [Konversion-Classifications](https://docs
 >
 >Seit der [!DNL Analytics]-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte und numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
 
-## Verwendung von Datumsangaben zusammen mit [!UICONTROL Klassifizierungen ]{#section_966A07B228CD4643B258E73FB8BA150A}
+## Verwendung von Datumsangaben zusammen mit [!UICONTROL Klassifizierungen] {#section_966A07B228CD4643B258E73FB8BA150A}
 
 Mit [!UICONTROL Klassifizierungen] können Sie Datumsbereiche zu Ihren Kampagnen oder anderen Konversions [!UICONTROL klassifizierungen] zuweisen, um eine genauere Kampagnenmessung zu erreichen. Nachdem Sie den Datumsbereich eines Wertes angegeben haben, werden übereinstimmende Werte, die außerhalb des Datumsbereichs auftreten, nicht klassifiziert. Dies ist für Kampagnenmessungen nützlich, bei denen die genauen Tage genutzt werden sollen, an denen die Kampagne aktiv war, und nicht alle Hits, die mit der Kampagne selbst übereinstimmen. Um einen Wert erfolgreich mit einem Datumsbereich zu klassifizieren, müssen die folgenden Voraussetzungen erfüllt werden:
 
-* Die [!UICONTROL Klassifizierung] muss auf einer Konversionsvariable basieren.
-* Die verwendete [!UICONTROL Klassifizierung] muss auf „Datumsaktiviert“ oder „Numerisch 2“ eingestellt sein.
+* Die [!UICONTROL Classification] muss auf einer Konversionsvariable basieren.
+* Die verwendete [!UICONTROL Classification] muss auf „Datumsaktiviert“ oder „Numerisch 2“ eingestellt sein.
 * Der betreffende Datumsbereich muss ein Anfangsdatum und (optional) ein Enddatum enthalten.
 
 So klassifizieren Sie Kampagnen basierend auf einem Datumsbereich:
