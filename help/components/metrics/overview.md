@@ -1,18 +1,18 @@
 ---
 title: Metriken – Übersicht
-description: Ansichten von Dimensionselementen oder Daten im Zeitverlauf.
-translation-type: tm+mt
+description: Betrachten Sie Mengen von Dimensionselementen oder Daten im Zeitverlauf.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Metriken – Übersicht
 
-Mit Metriken können Sie Dimensionselemente quantifizieren, z. B. um zu sehen, welche Seiten auf Ihrer Site die meisten Ansichten aufweisen. Sie können auch Trend-Metriken im Zeitverlauf anzeigen, z. B. wie viele Bestellungen die Besucher auf Ihrer Site jeden Tag tätigen. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
+Mit Metriken können Sie Dimensionselemente quantifizieren, z. B., um zu sehen, welche Seiten auf Ihrer Site die meisten Ansichten aufweisen. Sie können auch Trend-Metriken im Zeitverlauf anzeigen, z. B. wie viele Bestellungen die Besucher auf Ihrer Site jeden Tag tätigen. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
 Wenn Sie beispielsweise die Dimension „Seite“ mit der Metrik „Besuche“ kombinieren, erhalten Sie einen Rangbericht, der Ihre am häufigsten besuchten Seiten anzeigt:
 
