@@ -1,20 +1,20 @@
 ---
 title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # events
 
-Dimensionen und Metriken sind wichtige Komponenten für Berichte. Die `events`-Variable ist für die Datenerfassung vieler Metriken auf Ihrer Website verantwortlich. Ereignis inkrementieren [Metriken](/help/components/metrics/overview.md) normalerweise in Berichten.
+Dimensionen und Metriken sind wichtige Komponenten für Berichte. Die `events`-Variable ist für die Datenerfassung vieler Metriken auf Ihrer Website verantwortlich. Ereignis inkrementieren normalerweise die [Metriken](/help/components/metrics/overview.md) in Berichten.
 
-Bevor Sie Ereignis implementieren, stellen Sie sicher, dass Sie sie in den Report Suite-Einstellungen unter &quot; [Erfolgseinstellungen](/help/admin/admin/c-success-events/success-event.md) &quot;erstellen und konfigurieren. Wenn Sie planen, benutzerspezifische Ereignis bei Linktracking-Treffern zu verwenden, stellen Sie sicher, dass [`linkTrackVars`](../../config-vars/linktrackvars.md) und [`linkTrackEvents`](../../config-vars/linktrackevents.md) korrekt eingestellt sind.
+Bevor Sie Ereignisse implementieren, stellen Sie sicher, dass Sie sie in den Report Suite-Einstellungen unter [Erfolgsereignisse](/help/admin/admin/c-success-events/success-event.md) erstellen und konfigurieren. Wenn Sie vorhaben, benutzerspezifische Ereignisse in Linktracking-Treffern zu verwenden, stellen Sie sicher, dass [`linkTrackVars`](../../config-vars/linktrackvars.md) und [`linkTrackEvents`](../../config-vars/linktrackevents.md) korrekt eingestellt sind.
 
 ## Ereignisse in Adobe Experience Platform Launch
 
@@ -79,7 +79,7 @@ s.events = "event1=2,event2";
 
 Sie können ein benutzerspezifisches Ereignis ändern, um anstelle von Ganzzahlen eine Währung zu verwenden. Währungsereignisse werden automatisch in die Währung der Report Suite konvertiert, wenn die Währung der Report Suite und die `currencyCode`-Variable nicht übereinstimmen. Sie sind hilfreich, um Versandkosten, Rabatte oder Erstattungen zu berechnen. Sie können Währungsereignisse in der `products`-Variablen festlegen, wenn Sie das Ereignis nur diesem Produkt zuordnen möchten.
 
-Stellen Sie vor der Implementierung von Währungseinstellungen sicher, dass Sie das gewünschte Ereignis unter [Erfolgseinstellungen in den Report Suite-Einstellungen auf &quot;Währung&quot;](/help/admin/admin/c-success-events/success-event.md) setzen.
+Bevor Sie Währungsereignisse implementieren, stellen Sie sicher, dass Sie das gewünschte Ereignis in den Report Suite-Einstellungen unter [Erfolgsereignisse](/help/admin/admin/c-success-events/success-event.md) auf „Währung“ festlegen.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -100,7 +100,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 Sie können ein benutzerspezifisches Ereignis ändern, um Dezimalwerte anstelle von Ganzzahlen zu akzeptieren. Numerische Ereignisse verhalten sich ähnlich wie Währungsereignisse, verwenden jedoch keine Währungsumrechnung. Sie können numerische Ereignisse in der `products`-Variablen festlegen, wenn Sie das Ereignis nur diesem Produkt zuordnen möchten.
 
-Stellen Sie vor der Implementierung numerischer Ereignis sicher, dass Sie das gewünschte Ereignis in den Report Suite-Einstellungen unter &quot; [Erfolgseinstellungen](/help/admin/admin/c-success-events/success-event.md) &quot;auf &quot;Nummerisch&quot;setzen.
+Bevor Sie numerische Ereignisse implementieren, stellen Sie sicher, dass Sie das gewünschte Ereignis in den Report Suite-Einstellungen unter [Erfolgsereignisse](/help/admin/admin/c-success-events/success-event.md) auf „Numerisch“ festlegen.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
