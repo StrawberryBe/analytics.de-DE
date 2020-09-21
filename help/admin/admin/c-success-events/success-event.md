@@ -4,11 +4,11 @@ keywords: event
 title: Übersicht über Erfolgsereignisse
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 
 Die Variable [s.events](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
 
-## Seite „Erfolgsereignisse“ – Beschreibungen {#section_681ECEC981694CABBDBF00E18165B447}
+## Seite „Erfolgsereignisse“ – Beschreibungen  {#section_681ECEC981694CABBDBF00E18165B447}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**
 
@@ -51,6 +51,6 @@ Auf der Seite „Erfolgsereignisse“ können Sie die auf der Site verwendeten E
 | Polarität | Anhand der Metrikpolarität können Sie festlegen, ob Adobe Analytics es als positiv oder negativ interpretieren soll, wenn ein benutzerdefiniertes Ereignis (Metrik) ansteigt. So kann Adobe Analytics Trendanzeigen (Pfeile) für verschiedene Metriken einbinden und mehr Kontext bieten (z. B. Vergleich über mehrere Wochen).  Beispiele: Wenn die Metrik „Übermittelte Bugs“ über mehrere Wochen ansteigt, soll Adobe Analytics dies als positiv oder negativ interpretieren? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich positiv. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität angewendet auf: bedingte Formatierung der Freiformtabelle, Visualisierungen von Änderungen an der Zusammenfassung und das positive/negative Farbschema der Kartenvisualisierung. |
 | Beschreibung | Eine kurze Beschreibung des Ereignisziels und dessen Nutzung. |
 | Eindeutige Ereignisaufzeichnung | **Einmal pro Besuch aufzeichnen**: Verbindet das angegebene Ereignis mit der Sitzung des Besuchers. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich.<br>**Ereignis-ID verwenden:** Verbindet das angegebene Ereignis mit einer benutzerdefinierten ID. Nachfolgende Zählungen für ein bestimmtes Ereignis mit derselben Ereignis-ID werden ignoriert. Für diese Art der Ereignis-Serialisierung ist eine benutzerdefinierte ID in Treffern erforderlich, um Werte zu deduplizieren. Siehe [Ereignis-ID-Serialisierung](../../../implement/vars/page-vars/events/event-serialization.md) im Benutzerhandbuch zu Implementierungen. |
-| Beitrag | Ermöglicht die vollständige Zuordnung zu allen Dimensionselementen des Besuchs. |
+| Beitrag | Ermöglicht die vollständige Attribution zu allen Dimensionselementen im Besuch. |
 | Warnung (Währungsereignis) | Wenn Sie den Ereignistyp ändern, also von einem Währungsereignis zu einem anderen Ereignistyp wechseln oder umgekehrt, wird eine Meldung angezeigt, dass die historischen Daten nicht für die Berichterstellung verfügbar sind.  Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Alle Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht mehr verfügbar. Gehen Sie beim Ändern des Ereignistyps mit Vorsicht vor. |
 
