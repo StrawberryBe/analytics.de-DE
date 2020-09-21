@@ -23,7 +23,7 @@ Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehrere
 
 Sie können diese Assets mit DTM verwalten und verfolgen. Angenommen, Sie haben mehrere Websites, die auf einer Vorlage basieren, und Sie möchten auf all diesen Websites dieselben Assets verfolgen. Sie können eine Webeigenschaft auf mehrere Domänen anwenden.
 
-Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter [Web-Eigenschaften](https://docs.adobe.com/content/help/de-DE/dtm/using/admin/web-property.html) in der Produktdokumentation zu Dynamic Tag Management.
+Allgemeine Informationen zu Webeigenschaften und Best Practices finden Sie unter  [Web-Eigenschaften](https://docs.adobe.com/content/help/de-DE/dtm/using/admin/web-property.html) in der Produktdokumentation zu Dynamic Tag Management.
 
 1. Navigieren Sie zu Ihrer Firmenseite und klicken Sie dann auf **[!UICONTROL Eigenschaft hinzufügen]**.
 
