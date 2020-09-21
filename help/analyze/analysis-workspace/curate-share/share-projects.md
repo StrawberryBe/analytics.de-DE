@@ -2,11 +2,11 @@
 description: Projektfreigabe und Projektrollen in Workspace
 keywords: Analysis Workspace sharing
 title: Freigeben von Workspace-Projekten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Sie können einer von drei Projektrollen Empfänger hinzufügen. Projektrollen s
 
 ### Keine Rolle zugewiesen (Empfänger des Projekt-Links)
 
-If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**.
+Wenn einem Empfänger keine Rolle zugewiesen wurde und er einen [Link](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) zum Projekt erhält (**[!UICONTROL Freigeben]>[!UICONTROL Projekt-Link abrufen]**), wird er standardmäßig in eine Rolle eingefügt. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**.
 
 ### Mehrere Rollen zugewiesen
 
@@ -66,7 +66,7 @@ Alle Benutzer können Projekte für Gruppen freigeben, also für eine Sammlung v
 
 ## Projekt-Link freigeben {#Links}
 
-Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben]>[!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**. [Erfahren Sie mehr](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) über das Erstellen von freigegebenen Links zu Workspace-Projekten.
+Sie können einen Link zu einem Projekt unter **[!UICONTROL Freigeben]>[!UICONTROL Projekt-Link]** abrufen. Nach dem Klicken müssen sich die Empfänger vor dem Einstieg in das Projekt anmelden. Wenn der Empfänger nicht in eine Rolle aufgenommen wurde, erhält er eine Standardrolle. Administratoren erhalten die Rolle **[!UICONTROL Kann bearbeiten]** und Nicht-Administratoren erhalten **[!UICONTROL Kann duplizieren]**. [Erfahren Sie mehr](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) über das Erstellen von freigebbaren Links zu Workspace-Projekten.
 
 ## Freigeben von Projekten im Projekt-Manager {#Manager}
 
