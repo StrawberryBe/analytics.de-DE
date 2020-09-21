@@ -1,11 +1,11 @@
 ---
 title: Implementieren mit fest programmierten Bildanforderungen
 description: Adobe Analytics mithilfe eines HTML-Bild-Tags (einer fest programmierten Bildanforderung) implementieren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Im Folgenden finden Sie ein Beispiel für eine fest programmierte Bildanforderun
 
 ## Hartkodierte Bildanforderungen in Microsoft Outlook
 
-Da die meisten E-Mails auf HTML basieren, ist es möglich, geöffnete E-Mails zu verfolgen und diese Daten an Adobe Analytics zu senden. Wenn sich Ihr Unternehmen für die Verwendung dieser Methode entscheidet, beachten Sie Folgendes:
+Da die meisten E-Mails HTML-basiert sind, können geöffnete E-Mails nachverfolgt und diese Daten an Adobe Analytics gesendet werden. Wenn sich Ihr Unternehmen für die Verwendung dieser Methode entscheidet, beachten Sie Folgendes:
 
 * Jeder E-Mail-Rendering kann einen abrechnungsfähigen Server-Aufruf erhöhen.
 * Es werden nur E-Mail-Clients verfolgt, die HTML unterstützen und Bilder zulassen. Einige E-Mail-Clients wie Microsoft Outlook blockieren standardmäßig externe Bilder. Diese E-Mails werden erst verfolgt, wenn der Empfänger sich dafür entscheidet, externe Bilder herunterzuladen.
@@ -45,11 +45,11 @@ Da die meisten E-Mails auf HTML basieren, ist es möglich, geöffnete E-Mails zu
 So erstellen Sie eine Outlook-E-Mail mit einer Bildanforderung:
 
 1. Öffnen Sie einen HTML-Editor. Wenn kein HTML-Editor verfügbar ist, funktioniert auch ein Texteditor.
-2. Fügen Sie in eine neue HTML-Datei ein fest programmiertes Image Request- `<img>` Tag ein, das in ein `<body>` Tag eingeschlossen ist.
+2. Fügen Sie in eine neue HTML-Datei ein hardkodiertes Bildanforderungs-Tag `<img>` ein, das in ein `<body>`-Tag eingeschlossen ist.
 3. Speichern Sie die HTML-Datei.
 4. Öffnen Sie Microsoft Outlook und erstellen Sie eine E-Mail.
-5. Wechseln Sie zur Registerkarte &quot;Einfügen&quot;und klicken Sie auf &quot;Datei **anhängen&quot;**. Wählen Sie die HTML-Datei für die Bildanforderung aus.
-6. Klicken Sie auf das Popupmenü neben &quot;Einfügen&quot;und wählen Sie &quot;Als Text **einfügen&quot;**. Wenn Sie ohne Popupmenü auf die Schaltfläche &quot;Einfügen&quot;klicken, wird die HTML-Datei zu einer Anlage, die nicht funktioniert.
+5. Wechseln Sie zur Registerkarte „Einfügen“ und klicken Sie auf **Datei anhängen**. Wählen Sie die HTML-Datei für die Bildanforderung aus.
+6. Klicken Sie auf das Popup-Menü neben „Einfügen“ und wählen Sie **Als Text einfügen** aus. Wenn Sie ohne Popup-Menü auf die Schaltfläche „Einfügen“ klicken, wird die HTML-Datei zu einem Anhang, was nicht funktioniert.
 
 Ihre E-Mail scheint sich nicht zu ändern, da die Bildanforderung ein transparentes 1x1-Pixel ist. Wenn Sie die Bildanforderung zu Testzwecken anzeigen möchten, ändern Sie die HTML-Datei, um einen Rand, zusätzlichen Text oder anderen Inhalt einzuschließen.
 
