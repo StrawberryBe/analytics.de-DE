@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 'Data Sources-Vorlagenübersicht '
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
 
@@ -31,4 +34,4 @@ Nach dem Erstellen können Sie die Vorlage herunterladen, Daten in die Vorlage e
 
 Die Datenquellenvorlage ist eine [!DNL .txt]-Datei, die Sie mit einem beliebigen Texteditor öffnen können. Am einfachsten ist es jedoch, wenn Sie in Microsoft Excel oder einer anderen Tabellenkalkulationsanwendung mit der Vorlage arbeiten. Der Vorlageninhalt ist von der Auswahl im [!UICONTROL Datenquelle-Aktivierungsassistent] abhängig.
 
-Siehe [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
+Siehe  [Importdatei-Referenz](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) für weitere Details.
