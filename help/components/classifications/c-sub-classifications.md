@@ -1,21 +1,21 @@
 ---
-description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine Klassifizierung anwenden.
+description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 subtopic: Classifications
 title: Informationen über Unterklassifizierungen
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Informationen über Unterklassifizierungen
 
-Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine Klassifizierung anwenden.
+Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Weitere Informationen über die Datendatei finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
+Weitere Informationen über die Datendatei finden Sie unter  [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
 
 Mehrstufige Classifications bestehen aus über- und untergeordneten Classifications. Beispiel:
 
@@ -67,7 +67,7 @@ Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, lieg
 
 >[!NOTE]
 >
->Die Produktklassifizierungsdaten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
+>Die Produkt-Classification-Daten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
 
 Beim Hochladen von Datendateien für diese Produkt-Classification können Sie die Classification-Daten wahlweise als einzelne Datei oder in mehreren Dateien hochladen (siehe unten). Durch das Aufteilen des Farbcodes in Datei 1 und des Farbnamens in Datei 2 müssen die Farbnamensdaten (die möglicherweise nur ein paar Zeilen umfassen) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dies schließt das Farbnamenfeld (CODE^FARBE) aus der häufiger aktualisierten Datei 1 aus und verringert damit Dateigröße und Komplexität beim Generieren der Datendatei.
 
@@ -75,19 +75,19 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE | CODE^FARBE |
 |---|---|---|---|---|---|---|
-| 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | Mo | Mo | 01 | Stein |
-| 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | Mo | L | 03 | Heather |
-| 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | Fr | S | 23 | Aqua |
+| 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | M | M | 01 | Stein |
+| 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 | Heather |
+| 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 | Aqua |
 
-### Produkt-Classification – Mehrere Dateien (Datei 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Produkt-Classification – Mehrere Dateien (Datei 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE |
 |---|---|---|---|---|---|
-| 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | Mo | Mo | 01 |
-| 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | Mo | L | 03 |
-| 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | Fr | S | 23 |
+| 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | M | M | 01 |
+| 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 |
+| 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 |
 
-### Produkt-Classification – Mehrere Dateien (Datei 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Produkt-Classification – Mehrere Dateien (Datei 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
 | SCHLÜSSEL | CODE | CODE^FARBE |
 |---|---|---|
