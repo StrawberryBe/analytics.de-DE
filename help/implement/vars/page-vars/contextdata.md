@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ s.tl(true,"o","Example context data link");
 
 Beim Erstellen von Verarbeitungsregeln können Sie Ereignissen Kontextdatenvariablen zuweisen.
 
-* Enthält eine Kontextdatenvariable eine Textart, wird das Ereignis um 1 inkrementiert.
+* Enthält eine Kontextdatenvariable einen Textt, wird das Ereignis um 1 inkrementiert.
 * Wenn eine Kontextdatenvariable eine Ganzzahl enthält, wird das Ereignis um diesen ganzzahligen Betrag inkrementiert.
 
 ```js
