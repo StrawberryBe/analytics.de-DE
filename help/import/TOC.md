@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 + [Dateneinfüge-API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Erste Schritte mit Analytics Data Connectors](data-connectors/getting-started-data-connectors.md)
-   + [Ende der Laufzeit für Analytics Data Connectors](data-connectors/data-connectors-eol.md)
+   + [Abschaffung der Analytics Data Connectors](data-connectors/data-connectors-eol.md)
    + appFigures-Data Connector für Adobe Analytics {#appfigures}
       + [appFigures-Übersicht](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Vor der Aktivierung dieser Integration](data-connectors/appfigures-overview/appfigures-before-activation.md)
