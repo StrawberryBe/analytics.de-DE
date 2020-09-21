@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Sie haben folgende Möglichkeiten, auf die Vorlage für leere mobile Scorecards 
 
 **Neues Projekt erstellen**
 
-1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **Arbeitsbereich**.
+1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **Workspace**.
 2. Klicken Sie auf die Schaltfläche **Neues Projekt erstellen** und wählen Sie die Projektvorlage **Leere mobile Scorecard** aus.
 3. Klicken Sie auf die Schaltfläche **Erstellen**.
 
@@ -149,7 +149,7 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **Freigeben eingebetteter Komponenten** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
 
 ## App für ausführende Benutzer einrichten
 
@@ -163,7 +163,7 @@ Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen
 * Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
 * Sie müssen die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben haben.
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
-* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
+* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **eingebettete Komponenten freizugeben**.
 
 ### Ausführenden Benutzern mit der App helfen
 
