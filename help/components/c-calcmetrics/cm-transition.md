@@ -116,11 +116,11 @@ Globale berechnete Metriken können nun nicht mehr über Anmeldeunternehmen hinw
 
 ## Was ist mit berechneten Metriken mit der Classification Numerisch oder Numerisch2 passiert? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
-(Zuvor waren berechnete Metriken mit der Klassifizierung „Numerisch“ oder „Numerisch 2“ nur in [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] und den APIs sichtbar.)
+(Zuvor waren berechnete Metriken mit der Classification „Numerisch“ oder „Numerisch 2“ nur in [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] und den APIs sichtbar.)
 
-Jetzt sind berechnete Metriken mit der Klassifizierung „Numerisch“ oder „Numerisch 2“ weiterhin in [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] und den APIs sichtbar. Sie werden allerdings in keinem Bericht mit einem angewendeten Segment unterstützt.
+Jetzt sind berechnete Metriken mit der Classification „Numerisch“ oder „Numerisch 2“ weiterhin in [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] und den APIs sichtbar. Sie werden allerdings in keinem Bericht mit einem angewendeten Segment unterstützt.
 
-Darüber hinaus werden berechnete Metriken mit der Klassifizierung „Numerisch“ oder „Numerisch 2“ in den folgenden Komponenten nicht unterstützt: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Echtzeit] -Berichte, [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse]. Wenn Sie eine berechnete Metrik mit der Classification Numerisch oder Numerisch2 erstellen oder bearbeiten, wird eine Kompatibilitätswarnung angezeigt, dass die berechnete Metrik mit bestimmten Produktbereichen nicht kompatibel ist.
+Darüber hinaus werden berechnete Metriken mit der Classification „Numerisch“ oder „Numerisch 2“ in den folgenden Komponenten nicht unterstützt: [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], [!UICONTROL Echtzeitberichte], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse]. Wenn Sie eine berechnete Metrik mit der Classification Numerisch oder Numerisch2 erstellen oder bearbeiten, wird eine Kompatibilitätswarnung angezeigt, dass die berechnete Metrik mit bestimmten Produktbereichen nicht kompatibel ist.
 
 **Zu ergreifende Maßnahme**
 
