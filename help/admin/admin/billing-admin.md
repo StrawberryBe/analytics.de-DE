@@ -37,11 +37,11 @@ Der [!UICONTROL Monatsrechnungs]-Bericht enthält die folgenden Informationen:
 | Report Suite | Die bei der Datenerfassung verwendete Report Suite. |
 | Standort | Das Rechencenter, das die Report Suite-Daten speichert: San Jose (Kalifornien), Dallas (Texas), Pacific Northwest (US), London (UK) oder Singapur. In den meisten Fällen sind sämtliche Report Suites eines Unternehmens im gleichen Rechenzentrum untergebracht. |
 | Primäre Server-Aufrufe | Anforderungen, die direkt von den Browsern der Website-Besucher oder von der Dateneinfüge-API empfangen werden. Umfasst Primärtreffer (Seitenansichten), primäre benutzerspezifische Ereignisse, primäre Download-Ereignisse sowie primäre Ausstiegsereignisse. |
-| Sekundäre Server-Aufrufe | Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden.  Falls ein sekundärer Serveraufruf mittels VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, wird der Transfer mit einer negativen Zahl auf der Seite für die Rechnungsstellung aufgeführt. In diesem Fall werden die angesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. |
+| Sekundäre Server-Aufrufe | Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden.  Falls ein sekundärer Server-Aufruf mittels VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, wird der Transfer mit einer negativen Zahl auf der Seite für die Rechnungsstellung aufgeführt. In diesem Fall werden die angesammelten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. |
 | Server-Aufrufe insgesamt | Die Gesamtanzahl an primären und sekundären Server-Aufrufen für diese Report Suite an einem vorgegebenen Standort. |
 | Seitenansichten | Die Gesamtanzahl an Seitenansichten für die einzelnen Report Suites. Die Seitenansichtswerte können unter „Site-Metriken > Seitenansichten“ bestätigt werden. |
 | Downloads | Die Download-Summen für die einzelnen Report Suites. Die Download-Werte können unter „Site-Content > Links > Datei-Downloads“ bestätigt werden. |
-| Benutzerdefinierte Links | Die Summen der benutzerdefinierten Links für die einzelnen Report Suites. Die Werte für benutzerdefinierte Links können unter „Site-Content > Links > benutzerdefinierte Links“ bestätigt werden. |
+| Benutzerspezifische Links | Die Summen der benutzerdefinierten Links für die einzelnen Report Suites. Die Werte für benutzerdefinierte Links können unter „Site-Content > Links > benutzerdefinierte Links“ bestätigt werden. |
 | Exitlinks | Die Summen der Exitlinks für die einzelnen Report Suites. Die Werte für Exitlinks können unter „Site-Content > Links > Exitlinks“ bestätigt werden. |
 
 >[!NOTE]
