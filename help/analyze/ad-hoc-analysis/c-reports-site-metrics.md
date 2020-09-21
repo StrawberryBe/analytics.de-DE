@@ -24,7 +24,7 @@ Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher 
 
 Zeigen quantitative Informationen über Ihre Website an, z. B. wie oft Besucher bestimmte Seiten angezeigt haben, die Zahl der insgesamt auf bestimmten Seiten getätigten Käufe, wann sie sich ereigneten und ähnliche quantitative Daten. Jeder dieser Berichte ist eine Metrik, die Sie in anderen elementbasierten Berichten platzieren können.
 
-Metrikberichte zeigen einen  Trend über einen Zeitraum. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
+Metrikberichte zeigen einen   Trend über einen Zeitraum. Sie können eine Zeit- und Wochentagsgranularität für diese Berichte anwenden. Alternativ dazu können Sie sich die Besuchszeit auf Ihrer Site, die Käufe, den Umsatz und ähnliche Metriken analysieren.
 
 Die folgenden Site-Metrik-Berichte stehen im Menü [!UICONTROL Site-Metrik] zur Verfügung.
 
@@ -109,7 +109,7 @@ c_reports_purchases.xml
 * **Einheiten**: Zeigt die Gesamteinheiten an, die während des angegebenen Zeitraums bestellt wurden.
 * **Einkaufskonversionstrichter**: Ideal für die Anzeige von Konversionsereignissen auf Ihrer Site, sofern diesen in einer bestimmten Reihenfolge durchgeführt werden, z. B. bei Einzelhandelseinstellungen. Ein Konversionstrichterbericht zeigt die Konversionsmetriken für jeden Schritt des Konversionsprozesses sowie Bestellungen, Umsätze und Einheiten an.
 
-## Bericht „Warenkorb“{#concept_6AEC5A6C707B46B790C1A79E72F9A339}
+## Bericht „Warenkorb“ {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
 Zeigt die Anzahl der Warenkörbe an, die während des angegebenen Zeitraums geöffnet werden. Sie haben die Möglichkeit, Warenkorbansichten, Zusätze, Entnahmen und Checkouts zu analysieren. Der Warenkorb wird gewöhnlich geöffnet, wenn der Kunde einen Artikel zum Kauf auswählt, das Öffnen kann jedoch auch ohne einen Artikel erfolgen.
 
@@ -124,7 +124,7 @@ Den [!UICONTROL Bericht „Warenkorb“] können Sie zu folgenden Zwecken einset
 * Bestimmung von Mustern, Höhen und Tiefen in der Anzahl der auf Ihrer Site geöffneten Warenkorb.
 * Untersuchung bestimmter Zeiträume, um Einzelheiten zu den Metriken zu erkennen, die spezifisch zur Öffnung des Einkaufswagens beitrugen.
 
-## Bericht „Benutzerspezifische Ereignisse“{#concept_9337B2FB8A3F417BA8689FE7FD64629F}
+## Bericht „Benutzerspezifische Ereignisse“ {#concept_9337B2FB8A3F417BA8689FE7FD64629F}
 
 Die Konversionsaktionen auf Ihrer Site, die Benutzer ausführen sollen. Dies kann etwa eine Registrierung, ein Abonnement, ein Abschluss des Interessentenformulars, ein gestarteter Chat, ein Kauf, eine Buchung oder die Teilnahme an einer Umfrage sein.
 
