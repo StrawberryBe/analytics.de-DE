@@ -1,11 +1,11 @@
 ---
 description: Import von Tracking-Daten aus Drittanbieteranwendungen in Analytics
 title: Erste Schritte mit Analytics Data Connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Für eine E-Mail-Integration möchten Sie z. B. vielleicht einen E-Mail-Partner
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector Technologie wird Mitte bis Ende 2021 auslaufen. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
+>Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 abgeschafft. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Systemanforderungen**
 
