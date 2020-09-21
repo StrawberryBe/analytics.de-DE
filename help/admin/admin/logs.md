@@ -21,7 +21,7 @@ Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt
 
 Das Admin-Protokoll enthält alle Änderungen, die von Administratoren in den Admin Tools vorgenommen wurden. Das Protokoll ermöglicht die Erstellung benutzerdefinierter Berichte aus einem der drei Protokolle. Sie können nach Ereignissen suchen, die Ihre Kriterien in einem bestimmten Datumsbereich erfüllen.
 
-## Nutzungs- und Zugriffsprotokoll {#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## Nutzungs- und Zugriffsprotokoll  {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Berichtsnutzung auf Benutzerkontenebene auszuwerten. Beispielsweise können Sie damit Aktionen wie Öffnen, Erstellen, Aktualisieren, Aufheben der Freigabe und Löschen in Analysis Workspace verfolgen. Das bietet einen besseren Überblick darüber, wer Workspace wie häufig nutzt.
 
@@ -60,7 +60,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Terminierte Berichte | Ein terminierter Bericht wurde verwaltet. |
 | Nach IP ausschließen | Die IP-Einstellung wurde geändert. |
 | Seiten benennen | Nicht mehr verwendet |
-| Klassifizierungen | Eine Klassifizierung wurde verwaltet. |
+| Classifications | Eine Klassifizierung wurde verwaltet. |
 | Data Sources | Eine Datenquelle wurde verwaltet. |
 | Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
 | Segment | Ein Segment wurde erstellt/bearbeitet. |
@@ -76,7 +76,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | API-Methode | Es wurde ein API-Aufruf durchgeführt. |
 
 
-## Report Suite-Änderungsprotokoll {#section_3864966639414BBEA871F4D0352F56B6}
+## Report Suite-Änderungsprotokoll  {#section_3864966639414BBEA871F4D0352F56B6}
 
 Das Report Suite-Änderungsprotokoll enthält alle Änderungen, die außerhalb von Admin an Ihren Report Suites vorgenommen wurden.
 
