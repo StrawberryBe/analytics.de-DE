@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 | Normalisierungsmetriken | Unique Visitors, Besuche oder Aktivitäts-Impressions |
 | Erfolgsmetrik | Die im Builder ausgewählte Metrik |
 | Konversionsrate | Erfolgsmetrik/Normalisierungsmetrik |
-| Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis.<br>**Hinweis:** Steigerung ist eine &quot;gesperrte Metrik&quot; für Erlebnisse in der Zielgruppe. Es kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
+| Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis.<br>**Hinweis:** Steigerung ist eine „gesperrte Metrik“ für die Dimension „Target-Erlebnisse“. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
 | Steigerung (Mindestwert) | Stellt den schlechtesten Aufstieg dar, den ein Variantenerlebnis im Vergleich zum Kontrollerlebnis aufweisen könnte. |
 | Steigerung (mittlerer Wert) | Stellt den mittleren Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. Dies ist „Steigerung“ in Reports &amp; Analytics. |
 | Steigerung (Maximalwert) | Stellt den besten Aufstieg dar, den ein Variantenerlebnis im Vergleich zum Kontrollerlebnis aufweisen könnte. |
-| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. <br>**Hinweis:** Konfidenz ist eine &quot;gesperrte Metrik&quot; für Erlebnisse in der Zielgruppe. Es kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
+| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. <br>**Hinweis:** Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
 
 Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen.
 
@@ -61,7 +61,7 @@ Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse forts
 | Warum unterscheiden sich Unique Visitors zwischen Target und Analytics? | [Erfahren Sie mehr](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) über die Unterschiede zwischen Unique Visitors in den Produkten. |
 | Warum werden nicht verwendete Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Hit-Segement für eine bestimmte Target-Aktivität anwende? | Die A4T-Dimension ist eine Listenvariable, d. h. sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | Berücksichtigt die Konfidenzmetrik extreme Bestellungen oder wendet sie eine Bonferroni-Korrektur für mehrere Bestellungen an? | Nein. [Erfahren Sie mehr](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) darüber, wie Analytics Konfidenz berechnet. |
-| Können Steigerungs- und Konfidenzmetriken mit anderen Dimensionen oder Aufschlüsselungen verwendet werden? | Steigerung und Konfidenz sind &quot;gesperrte Metriken&quot;für die Dimension &quot;Erlebnisse&quot;der Zielgruppe, da sie eine Steuerung und Variante zur Berechnung über das gesamte Spektrum hinweg erfordern. Sie können daher nicht heruntergebrochen oder mit anderen Dimensionen verwendet werden. |
+| Können Steigerungs- und Konfidenzmetriken mit anderen Dimensionen oder Aufschlüsselungen verwendet werden? | Steigerung und Konfidenz sind „gesperrte Metriken“ für die Dimension „Target-Erlebnisse“, da sie ein Kontrollerlebnis und ein Variantenerlebnis für die Berechnung erfordern. Sie können daher nicht aufgeschlüsselt oder mit anderen Dimensionen verwendet werden. |
 | Wann werden Steigerung und Konfidenz neu berechnet? | Steigerung und Konfidenz werden bei jeder Ausführung (oder erneuten Ausführung) des Bedienfelds, bei einer Änderung des Datumsbereichs oder bei Anwendung eines Segments auf das Bedienfeld oder die Tabelle neu berechnet. |
 
 Weitere Informationen zu „Analytics for Target“-Berichten finden Sie unter [A4T-Reporting](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/reporting.html).
