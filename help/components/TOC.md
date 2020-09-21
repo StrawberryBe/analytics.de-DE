@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -208,10 +208,10 @@ ht-degree: 97%
       + [Informationen zu Virtual Report Suites anzeigen](vrs/c-workflow-vrs/vrs-view.md)
 + Geräteübergreifende Analyse {#cda}
    + [Geräteübergreifende Analyse – Übersicht](cda/overview.md)
-   + [Feldbasierte Heften](cda/field-based-stitching.md)
+   + [Feldbasiertes Stitching](cda/field-based-stitching.md)
    + [Gerätediagramm](cda/device-graph.md)
    + [Geräteübergreifende Analyse einrichten](cda/setup.md)
-   + [Funktionsweise](cda/replay.md)
+   + [Funktionsweise der Wiederholung](cda/replay.md)
    + [CDA Workspace-Vorlage](cda/workspace-template.md)
    + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/faq.md)
 + Warnhinweise {#alerts}
