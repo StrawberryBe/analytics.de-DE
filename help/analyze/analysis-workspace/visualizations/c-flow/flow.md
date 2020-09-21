@@ -33,6 +33,6 @@ Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/vi
 
 Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
-## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
