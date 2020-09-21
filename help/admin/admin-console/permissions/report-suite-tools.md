@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 translation-type: ht
 source-wordcount: '650'
@@ -52,7 +52,7 @@ Verwenden Sie diese Seite, um die einzelnen Berechtigungselemente unter Report S
 | Ältere ClickMap-Installation | Nicht verwendet. Verwenden Sie stattdessen „Activity Map“ unter „Analytics-Tools“. |
 | Rückkehrende Besucher | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher“ in Reports &amp; Analytics. |
 | Übersichtsbericht für Mobile Apps | Nicht verwendet. |
-| Klassifizierungen | Gewährt Zugriff auf alle Klassifizierungseinstellungen in Report Suite Manager. Dieses Berechtigungselement umfasst: <br>Traffic > Traffic-Klassifizierungen<br>Konversion > Konversionsklassifizierungen<br>Konversion > Klassifizierungshierarchien<br>Marketing-Kanäle > Marketingkanal-Klassifikationen<br>App-Verwaltung > App-Klassifizierungen<br>Medienverwaltung > Medienklassifizierungen<br>AEM > AEM Assets-Klassifizierungen<br>Adobe Campaign > Adobe-Klassifizierungen |
+| Classifications | Gewährt Zugriff auf alle Classification-Einstellungen in Report Suite Manager. Dieses Berechtigungselement umfasst: <br>Traffic > Traffic-Klassifizierungen<br>Konversion > Konversionsklassifizierungen<br>Konversion > Klassifizierungshierarchien<br>Marketing-Kanäle > Marketingkanal-Klassifikationen<br>App-Verwaltung > App-Klassifizierungen<br>Medienverwaltung > Medienklassifizierungen<br>AEM > AEM Assets-Klassifizierungen<br>Adobe Campaign > Adobe-Klassifizierungen |
 | Meine empfohlenen Berichte | Gewährt Zugriff auf „Site-Metriken > Meine empfohlenen Berichte“ in Reports &amp; Analytics. |
 | Firmenzusammenfassungs-Reportlet | Nicht verwendet. |
 | Bild | Nicht verwendet. |
