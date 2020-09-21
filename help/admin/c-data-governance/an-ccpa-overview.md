@@ -3,7 +3,7 @@ description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics 
 title: Adobe Analytics und der CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Machen Sie sich mit der [DSGVO-Verarbeitung in Adobe Analytics](https://www.adob
 Wir wissen, dass Sie die individuellen Daten Ihrer Report Suites am besten kennen. Deshalb bietet Adobe Ihnen die Möglichkeit, Ihre Data-Governance-Einstellungen und -Präferenzen selbst zu definieren.
 Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz festlegen, die direkt oder indirekt identifizierbare Daten enthalten, damit Sie Zugriffs- und Löschanfragen zu diesen Daten einreichen können. Bei jeder Anfrage werden die in der Data-Governance-Benutzeroberfläche festgelegten Beschriftungen für die spezifische ID berücksichtigt, die mit der Anfrage übereinstimmt.
 
-Weitere Informationen finden Sie unter [Report Suite-Daten beschriften](/help//admin/c-data-governance/gdpr-setup-reportsuite.md).
+Siehe [Report Suite-Daten beschriften](/help//admin/c-data-governance/gdpr-setup-reportsuite.md).
 
 ## Voraussetzungen
 
