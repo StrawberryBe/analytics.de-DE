@@ -1,23 +1,23 @@
 ---
 title: Betriebssystemtypen
 description: Das Betriebssystem unabhängig von der Version.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Betriebssystemtypen
 
-Die Dimension &quot;Betriebssystemtypen&quot;zeigt das übergeordnete Betriebssystem des verwendeten Besuchers unabhängig von bestimmten Versionen an. Diese Dimension ist nützlich, um nicht nur zu verstehen, welches Betriebssystem und welche Version am häufigsten verwendet wird, sondern welche typischen Betriebssystemplattformen Besucher verwenden.
+Die Dimension „Betriebssystemtypen“ zeigt das übergeordnete Betriebssystem an, das der Besucher unabhängig von bestimmten Versionen verwendet hat. Diese Dimension ist nützlich, um nicht nur zu verstehen, welches Betriebssystem und welche Version am häufigsten verwendet werden, sondern auch, welche typischen Besucher der Betriebssystemplattform verwenden.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Nachschlagetabelle von Adobe. Der Nachschlagewert basiert auf dem `User-Agent` HTTP-Header in Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. beim Starten der Adobe Experience Platform), funktioniert diese Dimension standardmäßig.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Wenn Sie eine AppMeasurement-Bibliothek verwenden (z. B. über Adobe Experience Platform Launch), ist diese Dimension vorkonfiguriert.
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören die Art der verwendeten Betriebssysteme. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+Zu den Dimensionselementen zählen die verwendeten Betriebssysteme. Beispiele sind `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` und `"Apple iOS"`.
