@@ -1,8 +1,11 @@
 ---
 title: Tracking über verschiedene Implementierungstypen hinweg
 description: Verwenden Sie unterschiedliche Implementierungstypen und verfolgen Sie Besucher nahtlos zwischen ihnen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
