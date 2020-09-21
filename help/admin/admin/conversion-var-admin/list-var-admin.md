@@ -1,9 +1,9 @@
 ---
 title: Listenvariablen
 description: Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten. Legen Sie hier Trennzeichen, Ablauf, Zuordnung und Höchstwert fest.
 
-Sie können auf die Konfiguration in der Admin-Konsole zugreifen:
+Sie können auf die Konfiguration in der Admin Console zugreifen:
 
 1. Navigieren Sie zu: **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Wählen Sie die Report Suite aus.
