@@ -24,7 +24,7 @@ Für den Zugriff auf die Warnhinweiserstellung gibt es vier Möglichkeiten:
 * Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Indem Sie zu **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
+* Indem Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
 * Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
 * Indem Sie in einem Reports &amp; Analytics-Bericht zu **[!UICONTROL Mehr]** > **[!UICONTROL Warnhinweis hinzufügen]** navigieren.
 
@@ -56,7 +56,7 @@ Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann 
 >
 >Die Telefonnummer muss über ein vorangestelltes Pluszeichen („+“) und eine [Landesvorwahl](https://countrycode.org/) verfügen.
 
-Die E-Mail, die ein Benutzer erhalten würde, sobald eine Warnung ausgelöst wurde, sieht in etwa so aus:
+Die E-Mail, die ein Benutzer erhalten würde, sobald ein Warnhinweis ausgelöst wurde, sieht in etwa so aus:
 
 ![](assets/alerts-email.PNG)
 
@@ -68,7 +68,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 *... Jede dieser Metriken ist ein Auslöser*
 
-* Ziehen Sie Metriken per Drag-and-Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
+* Ziehen Sie Metriken per Drag &amp; Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
 
    Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
 * Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
@@ -90,7 +90,7 @@ Legen Sie das Ablaufdatum eines Warnhinweises fest.
 
 **Eine Regel hinzufügen**
 
-Per Klick auf das Zahnrad-Symbol können Sie UND- oder ODER-Regeln hinzufügen.
+Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.
 
 ## Warnungen in der Vorschau anzeigen {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
