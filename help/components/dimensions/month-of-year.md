@@ -1,23 +1,23 @@
 ---
 title: Monat des Jahres
 description: Der numerische Monat des Jahres, unabhängig vom Jahr.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # Monat des Jahres
 
-Die Dimension &quot;Monat des Jahres&quot;erfasst den Monat eines bestimmten Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Monat des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselemente wünschen. Sie können Jahresberichte nach Aggregat sortieren. Januar-Daten aus diesem Aggregat mit Januar-Daten aus dem letzten Jahr in demselben Dimensionselement.
+Die Dimension „Monat des Jahres“ erfasst den Monat eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Monat des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen. Sie können Jahresberichte nach Monaten aggregieren, sodass die Daten vom Januar dieses Jahres mit den Daten vom Januar des letzten Jahres im selben Dimensionselement aggregiert werden.
 
-## Diese Dimension mit Daten füllen
+## Füllen dieser Dimension mit Daten
 
-Diese Dimension funktioniert bei allen Implementierungen standardmäßig. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
+Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
 
 ## Dimensionselemente
 
-Dimensionselemente enthalten Monate des Jahres (`January` bis `December`), die den Monat des Jahres angeben, in dem der Treffer stattgefunden hat.
+Zu den Dimensionselementen gehören die Monate des Jahres (`January` bis `December`), die den Monat des Jahres darstellen, in dem der Treffer stattgefunden hat.
