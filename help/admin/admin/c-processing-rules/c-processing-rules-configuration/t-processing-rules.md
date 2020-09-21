@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Erstellen von Verarbeitungsregeln
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
@@ -27,4 +30,4 @@ Verarbeitungsregeln werden in Report Suites festgelegt.
 
    Wenn mehrere Regeln vorliegen, können Sie die Verarbeitungsreihenfolge ändern, indem Sie die Regeln auf der Seite per Drag and Drop verschieben.
 
-   Siehe [Beispiele für Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) für weitere Informationen zu den Arten der Regeln, die Sie erstellen können.
+   Siehe  [Beispiele für Verarbeitungsregeln](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) für weitere Informationen zu den Arten der Regeln, die Sie erstellen können.
