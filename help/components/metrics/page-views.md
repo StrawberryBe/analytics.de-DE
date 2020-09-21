@@ -1,18 +1,18 @@
 ---
 title: Seitenansichten
 description: Die Häufigkeit, mit der eine Seite angezeigt wurde.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Seitenansichten
 
-Die Metrik &quot;Seitenpositionen&quot;zeigt an, wie oft ein bestimmtes Dimensionselement auf einer Ansicht festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
+Die Metrik „Seitenansichten“ gibt an, wie oft ein bestimmtes Dimensionselement auf einer Seite festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
 
 ## Berechnung dieser Metrik
 
