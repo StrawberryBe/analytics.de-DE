@@ -3,8 +3,11 @@ description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtz
 title: Übersicht über die Echtzeitberichterstellung
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '566'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitena
 
 >[!NOTE]
 >
->Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter  [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>Für den Echtzeitbericht sind keine zusätzlichen Implementierungen oder Taggings erforderlich. Sie nutzt die vorhandene Implementierung von Adobe Analytics. Informationen zum Konfigurieren von Echtzeitberichten finden Sie unter   [Konfiguration von Echtzeit-Berichten](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Site-Metriken]** > **[!UICONTROL Echtzeit]**
 
@@ -45,7 +48,7 @@ Denken Sie daran, dass eVars (Konversionsmetriken) nicht unterstützt werden, da
 
 Das Einrichten und Anzeigen von Echtzeitberichten ist auf Administratoren oder Benutzer der Berechtigungsgruppen „Zugriff auf alle Berichte“ und „Fortschrittliche Berichterstellung“ beschränkt. Die Echtzeitanzeige respektiert jedoch die Zugriffsberechtigungen. Wenn Sie beispielsweise über keine Berechtigungen zum Anzeigen von Umsätzen verfügen, können Sie keine Echtzeitberichte anzeigen, die Umsatzdaten enthalten.
 
-## Datenlatenz als Folge der A4T-Konfiguration  {#section_806CE36354FC4C539A0DED9266A5C704}
+## Datenlatenz als Folge der A4T-Konfiguration   {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Nach Aktivierung der A4T-Integration in Adobe [!DNL Target] ist in Adobe Analytics eine zusätzliche Latenz von 5 bis 10 Minuten festzustellen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und [!DNL Target] für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
 
