@@ -3,9 +3,9 @@ description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen ode
 title: Info über Segmente und Container
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3709'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Int
 
 Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Trefferebenenhierachie], wobei ein verschachteltes Behältermodell verwendet wird. Mit verschachtelten Behältern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Behältern und innerhalb der Behältern basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
-Sie können Segmente im Segmentaufbau erstellen und speichern oder aus einem Fallout-Bericht (in [!DNL ad hoc analysis]) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Behältern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
+Sie können Segmente im Segmentaufbau erstellen und speichern oder aus einem Fallout-Bericht (in [!DNL ad hoc analysis]) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Behältern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als  [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
 ## Segmente {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -33,15 +33,15 @@ Segmente können auf folgenden Werten basieren:
 * Auf Exits und Entries basierende Besucher: Besucher von Facebook, einer bestimmten Landingpage, Referrerdomäne.
 * Auf benutzerdefinierten Variablen basierende Benutzer: Formularfeld, definierte Kategorien, Kunden-ID.
 
-Beim Erstellen von Zielgruppensegmenten im Segmentaufbau definieren Sie Bedingungen, für die Sie zwischen den Behältern die Operatoren [!UICONTROL UND] und [!UICONTROL ODER] verwenden.
+Beim Erstellen von Zielgruppensegmenten im Segmentaufbau definieren Sie Bedingungen, für die Sie zwischen den Behältern die Operatoren [!UICONTROL AND] und [!UICONTROL OR] verwenden.
 
 ![](assets/standard_segment_containers.png)
 
-Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL UND] und [!UICONTROL ODER] verbunden werden.
+Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL AND] und [!UICONTROL OR] verbunden werden.
 
-## Sequenzielle Segmente {#section_EE5B14287FC44E0B96E77679A2438948}
+## Sequenzielle Segmente  {#section_EE5B14287FC44E0B96E77679A2438948}
 
-Mit sequenziellen Segmenten können Sie Besucher anhand der Navigation und den Seitenansichten innerhalb Ihrer Site identifizieren, indem Sie ein Segment mit definierten Aktionen und Interaktionen bereitstellen. Mit sequenziellen Segmenten können Sie erkennen, was ein Besucher mag und was er meidet. Beim Erstellen sequenzieller Segmente wird der Operator [!UICONTROL DANN] eingesetzt, um die Navigation des Besuchers zu definieren und zu ordnen.
+Mit sequenziellen Segmenten können Sie Besucher anhand der Navigation und den Seitenansichten innerhalb Ihrer Site identifizieren, indem Sie ein Segment mit definierten Aktionen und Interaktionen bereitstellen. Mit sequenziellen Segmenten können Sie erkennen, was ein Besucher mag und was er meidet. Beim Erstellen sequenzieller Segmente wird der Operator [!UICONTROL THEN] eingesetzt, um die Navigation des Besuchers zu definieren und zu ordnen.
 
 ![](assets/sequential_seg.png)
 
@@ -56,7 +56,7 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 ![](assets/sequential_segmentation_containers_view.png)
 
-Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Dazu wird der [!UICONTROL DANN]-Operator verwendet.
+Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Dazu wird der [!UICONTROL THEN]-Operator verwendet.
 
 ## Anleitungsvideo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
@@ -90,7 +90,7 @@ Mit dem Besuchebehälter können Seiteninteraktionen, Kampagnen oder Konversione
 
 Besuchebehälter enthalten Werte, die auf dem Auftreten pro Besuch basieren:
 
-* Besuchnummer
+* Besuchsnummer
 * Entrypage
 * Rückkehrhäufigkeit
 * Beitragsmetriken
@@ -113,7 +113,7 @@ Trefferbehälter enthalten Werte, die auf den Aufschlüsselungen einzelner Seite
 
 **Logischen Gruppenbehälters**
 
-Mit dem logischen Gruppenbehälter können Sie einen separaten Behälter innerhalb der Segmentregeln bereitstellen, um Entitäten zu filtern, die nicht hierarchiebasiert sind. Beispielsweise können Sie einen Behälter bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucherbehälter auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchern zu filtern. Dies lässt sich durch Verwendung des logischen Gruppenbehälters erreichen. Siehe [Beispiele für logische Gruppen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) als ergänzende Information.
+Mit dem logischen Gruppenbehälter können Sie einen separaten Behälter innerhalb der Segmentregeln bereitstellen, um Entitäten zu filtern, die nicht hierarchiebasiert sind. Beispielsweise können Sie einen Behälter bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucherbehälter auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchern zu filtern. Dies lässt sich durch Verwendung des logischen Gruppenbehälters erreichen. Siehe  [Beispiele für logische Gruppen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) als ergänzende Information.
 
 ## Verschachteln von Containern {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -129,7 +129,7 @@ Sie können die Verschachtelung zwischen Behältern sowie zwischen Regeln in ein
 |---|---|
 | Treffer | Nur Ereignisse |
 | Besuch | Trefferbehälter, Ereignisse |
-| Besucher | Besuchebehälter, Trefferbehälter, Ereignisse |
+| Besucher. | Besuchebehälter, Trefferbehälter, Ereignisse |
 | logische Gruppe | Besucherbehälter, Besuchsbehälter, Trefferbehälter |
 
 **Mehrere Behälter in eine einzelne Definition einbeziehen**
@@ -154,13 +154,13 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Behälter wie [
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Besucher] stellen den Behälter mit dem höchsten Rang in der sequenziellen Segmentierung dar. Dabei sind [!UICONTROL Besuche] im [!UICONTROL Besucherbehälter] und [!UICONTROL Treffer] in den [!UICONTROL Besucher]- oder [!UICONTROL Besuchsbehältern] enthalten. Diese  [Behälterhierarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) muss eingehalten werden, um ordnungsgemäß sortierte sequenzielle Segmente zu erstellen.
+[!UICONTROL Besucher] stellen den Behälter mit dem höchsten Rang in der sequenziellen Segmentierung dar. Dabei sind [!UICONTROL Besuche] im [!UICONTROL Besucherbehälter] und [!UICONTROL Treffer] in den [!UICONTROL Besucher]- oder [!UICONTROL Besuchsbehältern] enthalten. Diese   [Behälterhierarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) muss eingehalten werden, um ordnungsgemäß sortierte sequenzielle Segmente zu erstellen.
 
-**Zum Erstellen sequenzieller Segmente** werden Behälter verschachtelt und eine sequenzielle Logik verbunden. Dazu wird der [!UICONTROL DANN]-Operator verwendet, für den jeder Behälter basierend auf der Sequenz des Besuchers wahr sein muss.
+**Zum Erstellen sequenzieller Segmente** werden Behälter verschachtelt und eine sequenzielle Logik verbunden. Dazu wird der [!UICONTROL THEN]-Operator verwendet, für den jeder Behälter basierend auf der Sequenz des Besuchers wahr sein muss.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-Die einzige Ausnahme für diese Behälterhierarchie besteht in der Verwendung des [Logischen Gruppenbehälters](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Mit dem [!UICONTROL logischen Gruppenbehälter] können Sie einen Treffer innerhalb eines Behälters ohne spezielle Reihenfolge verschachteln, um Ereignisse und Dimensionen zu erfassen, jedoch außerhalb einer sequenziellen Reihenfolge.
+Die einzige Ausnahme für diese Behälterhierarchie besteht in der Verwendung des  [Logischen Gruppenbehälters](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Mit dem [!UICONTROL logischen Gruppenbehälter] können Sie einen Treffer innerhalb eines Behälters ohne spezielle Reihenfolge verschachteln, um Ereignisse und Dimensionen zu erfassen, jedoch außerhalb einer sequenziellen Reihenfolge.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -253,7 +253,7 @@ Die Verwendung des Segments mit einem Behälter, der kleiner als der Aufschlüss
 
 Die Filterung nach Dimensionen, die über einen Seitenbereich persistent sind, z. B. ein Kampagnen-eVar oder eine Referrerdimension, wirkt sich auf die auf Behälterebene gesammelten Daten aus und muss im Hinblick auf die Berichtsgenauigkeit nachvollzogen werden.
 
-Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Trefferbehälter gefiltert. (Siehe das Beispiel [Auf Behälterdaten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
+Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Trefferbehälter gefiltert. (Siehe das Beispiel  [Auf Behälterdaten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
 
 ![](assets/RefDomain_aol.png)
 
