@@ -3,6 +3,9 @@ title: Mehrere Report Suites in Workspace
 description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren Report Suites erstellen
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 ## Report Suite auf alle Bedienfelder anwenden
 
-Sie können eine Report Suite auf alle Bedienfelder gleichzeitig anwenden, indem Sie mit der rechten Maustaste auf eine beliebige Bedienfeldüberschrift klicken und **[!UICONTROL Apply Report Suite to All Panels]** auswählen.
+Sie können eine Report Suite auf alle Bedienfelder gleichzeitig anwenden, indem Sie mit der rechten Maustaste auf eine beliebige Bedienfeldüberschrift klicken und **[!UICONTROL Report Suite auf alle Bedienfelder anwenden]** auswählen.
 
 ![](assets/apply-rs-all-panels.png)
 
