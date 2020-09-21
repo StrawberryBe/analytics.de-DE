@@ -5,6 +5,9 @@ title: Datenschutzübersicht
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '843'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Adobe Analytics erfasst die folgenden Daten:
 | Cookie-IDs (zufällig generiert) | Ja |
 | URL der Seite, die der Benutzer vor Besuch der Kundenseite besucht hat | Ja |
 | Suchabfrage, wenn Benutzer auf Link zur Kundenseite klickt | Ja |
-| Browsertyp | Ja |
+| Browser-Typ | Ja |
 | Gerätetyp | Ja |
 | Betriebssystem | Ja |
 | ISP-/Verbindungsgeschwindigkeit | Ja |
@@ -49,7 +52,7 @@ Adobe Analytics erfasst die folgenden Daten:
 
 *Wenn der Adobe-Kunde die IP nicht entfernt.
 
-## Sonstige Hinweise zum Datenschutz {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## Sonstige Hinweise zum Datenschutz  {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -106,7 +109,7 @@ Adobe Analytics erfasst die folgenden Daten:
  </tbody> 
 </table>
 
-## Standorte von Rechenzentren in EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## Standorte von Rechenzentren in EMEA  {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 Die folgenden EMEA-Rechenzentren hosten derzeit Adobe Analytics-Daten:
 
