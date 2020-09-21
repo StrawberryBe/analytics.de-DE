@@ -1,11 +1,11 @@
 ---
 title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/hel
 >
 >Die Einstellung der Report Suite ist entscheidend, wenn Sie die volle Kontrolle darüber haben möchten, wie Sie diese Dimension füllen.
 
-## Dimensionen
+## Dimensionselemente
 
-Dimensionen enthalten die Postleitzahl des Besuchers.
+Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
