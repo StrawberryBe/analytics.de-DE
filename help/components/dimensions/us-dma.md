@@ -1,11 +1,11 @@
 ---
 title: US-DMA
 description: Das ausgewiesene Marktgebiet des Treffers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert 
 >
 >Wenn Ihr Unternehmen strengen Datenschutzbestimmungen folgt, bei denen die [Verschleierung der IP-Adresse](/help/admin/admin/general-acct-settings-admin.md) nicht ausreicht, können Sie die vollständige Deaktivierung der Geolocation-Daten anfordern. Wenden Sie sich mit der Report Suite-ID an die Kundenunterstützung und bitten Sie darum, die Option „Geografie“ für die Report Suite zu deaktivieren.
 
-## Dimensionen
+## Dimensionselemente
 
-Zu den Dimensionen gehören der DMA- und DMA-Code des Besuchers. Der dreistellige Code ist keine Postleitzahl, sondern der DMA-Code von Nielsen. Zu den Beispielwerten gehören `"Dallas-Ft. Worth (623)"`, `"New York (501)"` oder `"Los Angeles (803)"`. The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
+Zu den Dimensionselementen gehören das DMA und der DMA-Code des Besuchers. Der dreistellige Code ist keine Postleitzahl, sondern der DMA-Code von Nielsen. Zu den Beispielwerten gehören `"Dallas-Ft. Worth (623)"`, `"New York (501)"` oder `"Los Angeles (803)"`. Das Dimensionselement `"No Metro (0)"` umfasst den gesamten internationalen Traffic außerhalb der Vereinigten Staaten.
 
 ## Unterschiede zwischen gemeldetem und tatsächlichem Standort
 
