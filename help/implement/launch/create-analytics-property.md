@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
 
       >[!NOTE]
       >
-      >Dies ist ein Beispielwert für den Einstieg. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
+      >Dies ist ein Beispielwert für die ersten Schritte. Wenn Ihr Unternehmen einen besseren Wert für den Seitennamen definiert, z. B. einen Datenschichtwert, können Sie ihn hier eingeben.
    * Markierter Text
    * Dauer: Seitenansicht
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
