@@ -23,7 +23,7 @@ Analysis Workspace bietet Ihnen komplett neue Möglichkeiten zum Vergleich und z
 
 Die Abfrage erfolgt direkt an die Berichts-Engine. Sie können Änderungen inline durchführen, ohne andere Berichte aufzurufen, um Ihre Analyse zu erstellen. Die Ergebnisse sind sofort sichtbar, ohne Browseraktualisierung.
 
-## Workspace -Seite mit Projektliste {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Workspace -Seite mit Projektliste  {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
 Wenn Sie **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** erstmalig aufrufen, werden auf der Seite alle Projekte aufgeführt, die Ihnen gehören oder zu denen Ihnen Zugriff gewährt wurde. Sie können diese Seite als Startseite für Adobe Analytics festlegen, indem Sie auf **[!UICONTROL Als Landingpage festlegen]** klicken. (Wenn die Option wie im unten stehenden Screenshot nicht angezeigt wird, ist die Seite bereits Ihre Landingpage.)
 
@@ -41,14 +41,14 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 | Inhaber | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
 | Typ | Gibt an, ob es sich um ein Workspace-Projekt oder eine [Mobile-Scorecard](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/home.html)handelt. |
 | Projektrolle | Gibt an, ob Sie der Eigentümer des Projekts sind, ob Sie das Projekt bearbeiten können oder ob es sich um ein Duplikat-Projekt handelt. |
-| Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponentenmanager oder unter **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**. |
+| Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponentenmanager oder unter **[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**. |
 | Zuletzt geändert | Datum und Zeitpunkt der letzten Änderung des Projekts. |
 | Meine Lieblingsprojekte | Um ein Projekt als Favoriten zu markieren, öffnen Sie das Projekt und klicken Sie auf den Stern neben seinem Namen. Es wird in dieser Liste angezeigt, wenn Sie Workspace das nächste Mal öffnen. |
 | Häufig angezeigte Projekte | Liste aller häufig geöffneten Projekte, um den Zugriff zu erleichtern. |
 
 ## Projektinfo und Einstellungen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**
 
 ![](assets/projectinfo.png)
 
@@ -56,7 +56,7 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 
 | Einstellung | Beschreibung |
 |---|---|
-| Projekt Name | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
+| Projekt  Name | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
 | Erstellt von | Name des Projektinhabers. |
 | Zuletzt geändert | Das Datum, an dem die letzte Änderung an dem Projekt vorgenommen wurde. |
 | Tags | Zeigt eine Liste aller Tags an, die auf ein Projekt angewendet wurden, um die Kategorisierung zu vereinfachen. Sie können Projekte beim Speichern auch taggen. Die Tags eines Projekts können Sie auf der Workspace-Landingpage in der Spalte [!UICONTROL Tags] einsehen. |
@@ -77,7 +77,7 @@ Die Untermenüs enthalten die folgenden Optionen.
 >
 >Mit einem Sternchen (*) markierte Optionen werden nur bei **gespeicherten** Projekten angezeigt.
 
-| Projekt | Vorlage | Einfügen | Komponenten | Freigabe | Hilfe |
+| Projekt | Vorlage | Einfügen | Komponenten | Freigeben | Hilfe |
 |---|---|---|---|---|---|
 | Neu | Rückgängig | Neues Bedienfeld | Neues Segment | Projekt freigeben | Videos |
 | Öffnen | Leeren | Neues Freiformfeld | Neue Metrik | Projektverknüpfung abrufen* | Tastaturbefehle |
@@ -89,7 +89,7 @@ Die Untermenüs enthalten die folgenden Optionen.
 | PDF herunterladen* |  |  |  |  |  |
 | Projektinfo und Einstellungen |  |  |  |  |  |
 
-## Linke Leiste {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## Linke Leiste  {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 Die linke Leiste enthält 3 Symbole, über die Sie mit einem Klick auf Bedienfelder, [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) und [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (Dimensionen, Metriken, Segmente, Datenbereiche) zugreifen können:
 
