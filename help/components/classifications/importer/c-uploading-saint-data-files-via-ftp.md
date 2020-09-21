@@ -52,7 +52,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 In diesen Schritten wird beschrieben, wie Sie Classifications mithilfe eines FTP-Kontos in Adobe Analytics importieren.
 
-Weitere Informationen zum Erstellen eines FTP-Kontos finden Sie unter [Erstellen Sie ein FTP-Konto](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Weitere Informationen zum Erstellen eines FTP-Kontos finden Sie unter  [Erstellen Sie ein FTP-Konto](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Klicken Sie auf **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Klicken Sie auf **[!UICONTROL Datei importieren]** und dann auf **[!UICONTROL FTP-Import]**.
