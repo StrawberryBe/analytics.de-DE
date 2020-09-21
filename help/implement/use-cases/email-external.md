@@ -1,8 +1,11 @@
 ---
 title: Externes E-Mail-Tracking
 description: Verwenden Sie Adobe Analytics, um E-Mail-Inhalte zu verfolgen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ Damit in einem Bericht brauchbare Analysedaten zu einer E-Mail-Kampagne angezeig
    * sc_cid=A1123A321 > „P“ zeigt eine Partnerkampagne an.
    * sc_cid=EM033007 > „EM“ steht für eine E-Mail-Kampagne.
    * sc_cid=GG987123 > „GG“ steht für „Google“ und zeigt eine kostenpflichtige Suchmaschinenkampagne an.
+
    Für detaillierte Informationen zur Einrichtung und Verwendung von Trackingcodes wenden Sie sich bitte an Adobe [!DNL Customer Care].
 
 1. Fügen Sie Links in HTML-E-Mails Abfragezeichenfolgenparameter hinzu.
@@ -69,7 +73,7 @@ Damit in einem Bericht brauchbare Analysedaten zu einer E-Mail-Kampagne angezeig
       s.doPlugins=s_doPlugins 
       ```
 
-      Es sollte für jeden Abfragezeichenfolgenparameter, der in eine Variable kopiert werden soll, einen [!UICONTROL getQueryParam]-Aufruf geben. Im oben gezeigten Beispiel wird der Abfragezeichenfolgenparameter [!UICONTROL sc_cid] nach *`campaign`*.
+      Es sollte für jeden Abfragezeichenfolgenparameter, der in eine Variable kopiert werden soll, einen [!UICONTROL getQueryParam]-Aufruf geben. Im oben gezeigten Beispiel wird der Abfragezeichenfolgenparameter [!UICONTROL sc_cid] nach  *`campaign`*.
 
       Für das Erfassen von Clickthroughs ist nur der erste [!UICONTROL getQueryParam]-Aufruf erforderlich. Wenden Sie sich an Adobe [!DNL Customer Care], wenn Sie diese Funktion implementieren möchten und nicht genau wissen, ob das [!UICONTROL getQueryParam]-Plug-in in Ihrer Version der JavaScript-Datei enthalten ist.
 
@@ -78,7 +82,7 @@ Damit in einem Bericht brauchbare Analysedaten zu einer E-Mail-Kampagne angezeig
       Beim Aktualisieren der JavaScript-Bibliothek ist auf die folgenden Punkte zu achten Diese Punkte sind unten aufgeführt.
 
       * Der Abfragezeichenfolgenparameter [!UICONTROL sc_cid] muss in der URL auf der endgültigen Landingpage sichtbar sein, sonst wird keine Clickthrough-Konversion erfasst.
-      * Der Parameter [!UICONTROL sc_cid] ist ein Beispiel für einen Abfragezeichenfolgenparameter. Jeder Abfragezeichenfolgenparameter kann verwendet und mit dem [!UICONTROL getQueryParam]-Plug-in erfasst werden. Achten Sie darauf, die Abfragezeichenfolgenparameter nur zur Kampagnenverfolgung einzusetzen. Sobald die Parameter in einer Abfragezeichenfolgen vorhanden sind, werden deren Werte nach *`campaign`*.
+      * Der Parameter [!UICONTROL sc_cid] ist ein Beispiel für einen Abfragezeichenfolgenparameter. Jeder Abfragezeichenfolgenparameter kann verwendet und mit dem [!UICONTROL getQueryParam]-Plug-in erfasst werden. Achten Sie darauf, die Abfragezeichenfolgenparameter nur zur Kampagnenverfolgung einzusetzen. Sobald die Parameter in einer Abfragezeichenfolgen vorhanden sind, werden deren Werte nach  *`campaign`*.
 
 1. Mit [!UICONTROL SAINT] können Sie Kampagnen-Trackingcodes klassifizieren.
 
