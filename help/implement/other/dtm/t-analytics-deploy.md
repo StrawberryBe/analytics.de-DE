@@ -6,6 +6,9 @@ title: Adobe Analytics manuell implementieren (alt)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '423'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Erstellen Sie ein Adobe Analytics-Tool für die Implementierung mithilfe des [!UICONTROL Dynamic Tag Managements]. Diese Anleitung beschreibt eine manuelle Implementierung (alte Methode).
 
-Informationen zur automatischen Implementierungsverwaltung finden Sie unter [Adobe Analytics-Tool hinzufügen](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md).
+Informationen zur automatischen Implementierungsverwaltung finden Sie unter  [Adobe Analytics-Tool hinzufügen](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md).
 
 Wenn Sie eine manuelle Konfiguration auf automatisch umstellen möchten, bearbeiten Sie ein Tool und klicken Sie auf **[!UICONTROL Automatische Konfiguration aktivieren]**.
 
