@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Erstellen Sie benutzerdefinierte Datumsbereiche in Analysis Workspace und speichern Sie sie als Zeitkomponenten.
 
-**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
+**[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Datumsbereich]**
 
 Ein Datumsbereich wird auf der Bereichsebene angewendet. Klicken Sie, um einen Datumsbereich zu Ihrem Projekt hinzuzufügen, auf **Bedienfelder** > *`<select panel>`* und legen Sie einen neuen Datumsbereich fest.
 
@@ -24,7 +27,7 @@ Der folgende benutzerdefinierte Datumsbereich zeigt den Bereich vor zwei Monaten
 
 ![](assets/date-range-two-months-ago.png)
 
-Der benutzerdefinierte Datumsbereich wird in Ihrem Projekt oben auf dem Komponentenbereich [!UICONTROL Date Range] angezeigt:
+Der benutzerdefinierte Datumsbereich wird in Ihrem Projekt oben auf dem Komponentenbereich für den [!UICONTROL Datumsbereich] angezeigt:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
