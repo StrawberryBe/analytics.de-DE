@@ -3,8 +3,11 @@ description: Adobe Report Builder bietet jetzt Berechtigungseinstellungen, die d
 title: Benutzerzugriffsberechtigungen für Dimensionen und Metriken
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Befolgen Sie diese Anweisungen für **jede** Report Builder-Arbeitsmappe, die Si
 
 1. Öffnen Sie die Arbeitsmappe.
 1. Aktualisieren Sie alle Anforderungen.
-1. If you get prompted with a User Access Permission error, click **[!UICONTROL Open CSV File]** to get access to the list of restricted permissions errors.
+1. Wenn ein Fehler wegen Benutzerzugriffsberechtigungen angezeigt wird, klicken Sie auf **[!UICONTROL CSV-Datei öffnen]**, um Zugriff auf die Liste der Fehler wegen eingeschränkter Berechtigungen zu erhalten.
 1. Erstellen Sie eine Datei mit dem Namen „AllRestrictedPermissionErrors.xlsx“ und kopieren Sie die Liste mit den Fehlern wegen eingeschränkter Berechtigungen aus der CSV-Datei und fügen Sie sie in diese Datei ein.
 1. Schließen Sie die Report Builder-Arbeitsmappe.
 
