@@ -1,18 +1,18 @@
 ---
 title: Content-Geschwindigkeit
 description: Content-Geschwindigkeit misst die Auswirkungen von Inhalten auf nachgeordnete Inhalte.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
 # Content-Geschwindigkeit
 
-&#39;Content Velocity&#39; ist eine berechnete Metrikvorlage, mit der Sie messen können, wie wirksam eine Dimension auf nachgelagerten Inhalt wirkt. Es verwendet die Formel `Page views (Visit participation) divided by Visits`.
+„Content-Geschwindigkeit“ ist eine Vorlage für eine berechnete Metrik, mit der Sie messen können, wie effektiv sich eine Dimension auf nachgelagerten Inhalt auswirkt. Sie verwendet die Formel `Page views (Visit participation) divided by Visits`.
 
 ![](assets/cont-velo-1.png)
 
