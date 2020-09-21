@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '3667'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `geo_region` | Name des Bundeslands oder der Region, aus der der Treffer stammt, basierend auf der IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Bundesländern bzw. Regionen zuzuordnen. | char(32) |
 | `geo_zip` | Die Postleitzahl, von der der Treffer stammt, basierend auf der IP. Adobe arbeitet mit Digital Envoy zusammen, um IP-Adressen zu Postleitzahlen zuzuordnen. | varchar(16) |
 | `hier1 - hier5` | Wird von Hierarchievariablen verwendet. Enthält eine durch Trennzeichen getrennte Werteliste. Das in den Report Suite-Einstellungen gewählte Trennzeichen. | varchar(255) |
-| `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. Trefferquellen 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standard-Bildanforderung ohne Zeitstempel <br>2: Standard-Bildanforderung mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit voller Verarbeitung <br>7: TransaktionsID-Datenquellenupload <br>8: nicht mehr verwendet; Frühere Versionen von Adobe Advertising Cloud-Datenquellen <br>9: nicht mehr verwendet; Metriken zur Adobe Social-Zusammenfassung <br>10: Serverseitige Weiterleitung des Audience Managers verwendet | tinyint unsigniert |
+| `hit_source` | Gibt die Quelle an, aus der der Treffer stammt. Trefferquellen 1, 2 und 6 werden in Rechnung gestellt. <br>1: Standardbildanfrage ohne Zeitstempel <br>2: Standardbildanfrage mit Zeitstempel <br>3: Hochladen der Live-Datenquelle mit Zeitstempel <br>4: Nicht verwendet <br>5: Generischer Datenquellen-Upload <br>6: Datenquellen-Upload mit vollständiger Verarbeitung <br>7: TransactionID-Datenquellen-Upload<br>8: Nicht mehr verwendet; frühere Versionen der Adobe Advertising Cloud-Datenquellen <br>9: Nicht mehr verwendet; zusammengefasste Metriken von Adobe Social <br>10: Server-seitige Weiterleitung in Audience Manager verwendet | tinyint unsigniert |
 | `hit_time_gmt` | Der Zeitstempfel der Adobe-Datenerfassungsserver erhielt den Treffer, basierend auf der Unix-Zeit. | int |
 | `hitid_high` | Wird zusammen mit hitid_low zur eindeutigen Identifizierung eines Treffers verwendet. | bigint unsigniert |
 | `hitid_low` | Wird zusammen mit hitid_high zur eindeutigen Identifizierung eines Treffers verwendet. | bigint unsigniert |
@@ -106,7 +106,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mcvisid` | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | `mobile_id` | Die numerische Geräte-ID, wenn der Benutzer ein Mobilgerät verwendet. | int |
 | `mobileaction` | Mobile Aktion. Wird automatisch erfasst, wenn trackAction in Mobile Services aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
-| `mobileappid` | ID der mobilen App Speichert den Applikationsnamen und die Version im folgenden Format:[AppName] [BundleVersion] | varchar(255) |
+| `mobileappid` | ID der mobilen App. Speichert den App-Namen und die Version im folgenden Format:[AppName] [BundleVersion] | varchar(255) |
 | `mobileappperformanceappid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete App-ID. | varchar(255) |
 | `mobileappperformancecrashid` | Wird im Apteligent-Daten-Connector verwendet. Die in Apteligent verwendete Absturz-ID. | varchar(255) |
 | `mobileappstoreobjectid` | Wird im Appfigures-Daten-Connector verwendet. App Store-Objekt-ID | varchar(255) |
@@ -147,7 +147,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `mobilerelaunchcampaigntrackingcode` | Wird mit der Kontextdatenvariablen a.launch.campaign.trackingcode erfasst. Wird bei der Akquise als Trackingcode für die Startkampagne verwendet. | varchar(255) |
 | `mobileresolution` | Auflösung des Mobilgeräts. Breite x Höhe in Pixel. | varchar(255) |
 | `monthly_visitor` | Flag, das angibt, dass der Benutzer im aktuellen Monat eindeutig ist. | tinyint unsigniert |
-| `mvvar1` – `mvvar3` | Listenvariablenwerte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. | text |
+| `mvvar1` - `mvvar3` | Listenvariablenwerte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. | text |
 | `namespace` | Nicht verwendet. Teil einer veralteten Funktion. | varchar(50) |
 | `new_visit` | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt. | tinyint unsigniert |
 | `os` | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte user_agent. Verwendet die os-Suche. | int unsigniert |
@@ -200,7 +200,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `socialownedpropertypropertyvsapp` | Wird nicht mehr verwendet. Social – eigene Eigenschaft vs App | varchar(255) |
 | `state` | Statusvariable. | varchar(50) |
 | `stats_server` | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
-| `t_time_info` | Lokale Zeit des Besuchers. Format wie folgt: T/M/JJJJ HH:MM:SS Monat (0-11, 0=Januar) Zeitzonenversatz (in Minuten) | varchar(100) |
+| `t_time_info` | Lokale Zeit des Besuchers. Format wie folgt:  T/M/JJJJ HH:MM:SS Monat (0-11, 0=Januar) Zeitzonenversatz (in Minuten) | varchar(100) |
 | `tnt` | Wird in Adobe Target-Integrationen verwendet. | text |
 | `tnt_action` | Wird in Adobe Target-Integrationen verwendet. | text |
 | `tnt_post_vista` | Wird nicht mehr verwendet. Verwenden Sie stattdessen post_tnt. | text |
@@ -213,7 +213,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 | `user_hash` | Wird nicht verwendet. Doppelkreuz in der Report Suite-ID. Verwenden Sie stattdessen username. | int unsigniert |
 | `user_server` | Variable, die in der Dimension „Server“ verwendet wurde. | varchar(100) |
 | `userid` | Wird nicht verwendet. Die numerische ID für die Report Suite-ID. Verwenden Sie stattdessen username. | int unsigniert |
-| `username` | Die Report Suite-ID für den Treffer. | char(40) |
+| `username` | Die Report Suite-ID  für den Treffer. | char(40) |
 | `va_closer_detail` | Die Variable, die in der Dimension „Letztkontaktdetail“ verwendet wird. | varchar(255) |
 | `va_closer_id` | Numerische ID, anhand derer die Dimension „Letztkontaktdetails“ identifiziert wird. Die Suchtabelle für diese ID finden Sie im Marketingkanal-Manager. | tinyint unsigniert |
 | `va_finder_detail` | Die Variable, die in der Dimension „Erstkontaktdetail“ verwendet wird. | varchar(255) |
