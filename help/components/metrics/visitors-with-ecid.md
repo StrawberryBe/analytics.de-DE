@@ -1,18 +1,18 @@
 ---
 title: Besucher mit Experience Cloud ID
-description: Die Anzahl der Unique Visitors, die den Adobe Experience Cloud ID Service verwenden.
-translation-type: tm+mt
+description: Die Anzahl der Unique Visitors, die den Adobe Experience Cloud Identity Service verwenden.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Besucher mit Experience Cloud ID
 
-Die Metrik „Besucher mit Experience Cloud ID“ gibt die Anzahl der Unique Visitors an, die von Adobe mithilfe des [Experience Cloud ID Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) identifiziert wurden. Sie können diese Dimension mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
+Die Metrik „Besucher mit Experience Cloud ID“ gibt die Anzahl der Unique Visitors an, die von Adobe mithilfe des [Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) identifiziert wurden. Sie können diese Dimension mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
 
 >[!NOTE]
 >
@@ -38,4 +38,4 @@ Wenn Sie die berechnete Metrik zum Bericht hinzufügen, können Sie den Seitenbe
 
 ![Seiten ohne Identity Service](assets/metric-mcvid3.png)
 
-Beachten Sie, dass das Dimensionselement &quot;Produktschnelle Ansichten&quot;nicht ordnungsgemäß mit dem Identitätsdienst implementiert ist. Sie können mit entsprechenden Teams in Ihrem Unternehmen zusammenarbeiten, um diese Seiten so schnell wie möglich zu aktualisieren. Sie können einen ähnlichen Bericht mit einer beliebigen Dimension wie [Browser-Typ](../dimensions/browser-type.md), [Website-Bereich](../dimensions/site-section.md) oder einer beliebigen [eVar](../dimensions/evar.md) erstellen.
+Beachten Sie, dass das Dimensionselement „Schnellansichten Produkt“ nicht ordnungsgemäß mit dem Identity Service implementiert ist. Sie können mit entsprechenden Teams in Ihrem Unternehmen zusammenarbeiten, um diese Seiten so schnell wie möglich zu aktualisieren. Sie können einen ähnlichen Bericht mit einer beliebigen Dimension wie [Browser-Typ](../dimensions/browser-type.md), [Website-Bereich](../dimensions/site-section.md) oder einer beliebigen [eVar](../dimensions/evar.md) erstellen.
