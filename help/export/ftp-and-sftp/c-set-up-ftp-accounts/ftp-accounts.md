@@ -1,10 +1,13 @@
 ---
-description: Einrichten und Verwenden von durch Adobe gehostete FTP-Konten.
+description: Einrichten und Verwenden von durch Adobe gehosteten FTP-Konten.
 keywords: ftp;sftp
 title: FTP-Konten einrichten – Übersicht
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
 
