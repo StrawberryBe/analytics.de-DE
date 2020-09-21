@@ -2,17 +2,20 @@
 description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics mobile Besuche berechnet. In diesem Artikel wird die Verarbeitung von Implikationen von Hintergrundtreffern und App-Startereignissen (beides wird vom mobilen SDK festgelegt) bezüglich der Definition mobiler Besuche beschrieben.
 title: Kontextbezogene Sitzungen
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+workflow-type: ht
+source-wordcount: '1556'
+ht-degree: 100%
 
 ---
 
 
 # Kontextbezogene Sitzungen
 
-Kontextsensitive Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics Besuche von jedem Gerät berechnet. In diesem Artikel werden auch die Verarbeitungsauswirkungen von Hintergrundbesuchen und App-Start-Ereignissen (beide vom mobilen SDK festgelegt) auf die Definition von Mobilbesuchen beschrieben.
+Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics Besuche von jedem Gerät aus berechnet. In diesem Artikel werden auch die Verarbeitungsauswirkungen von Hintergrundtreffern und App-Startereignissen (beide vom Mobile SDK festgelegt) auf die Definition mobiler Besuche beschrieben.
 
-Sie können einen Besuch beliebig definieren, ohne die zugrunde liegenden Daten zu verändern, um der Interaktion Ihrer Besucher mit Ihren digitalen Erlebnissen zu entsprechen.
+Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrunde liegenden Daten zu ändern, um ihn auf die Interaktion Ihrer Besucher mit Ihren digitalen Erlebnissen abzustimmen.
 
 ## URL-Parameter für Kundenperspektive 
 
@@ -53,7 +56,7 @@ Wenn im Gegensatz dazu *t* kleiner ist als das konfigurierte Besuchstimeout der 
 
 ![](assets/nogoodexample1-3.jpg)
 
-Das heißt:
+Das bedeutet:
 
 * eVars mit festgelegtem Besuchsablauf für den Hintergrundtreffer behalten ihre Werte für die anderen Treffer während dieses Besuchs bei.
 * Jegliche Werte, die für den Hintergrundtreffer festgelegt werden, werden in die logische Evaluierung des Segmentcontainers auf Besuchsebene einbezogen.
@@ -72,7 +75,7 @@ Wenn die Zeitspanne *t* kleiner wäre als das konfigurierte Timeout der Virtual 
 
 ![](assets/nogoodexample2-2.jpg)
 
-Das heißt:
+Das bedeutet:
 
 * eVars mit festgelegtem Besuchsablauf für die vorherigen Vordergrundtreffer behalten ihre Werte für den anderen Treffer während dieses Besuchs bei.
 * Jegliche Werte, die für den Hintergrundtreffer festgelegt werden, werden in die logische Evaluierung des Segmentcontainers auf Besuchsebene einbezogen.
