@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Data Sources unterstützt die folgenden Konversion-Datendimensionen und -Metriken für Datentypen, die als Konversion verarbeitet werden.
 
-## Konversion Dimensionen und Metriken {#section_FA1731B232B246DABEDF5A5D84159084}
+## Konversion  Dimensionen und Metriken {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. Die Anzahl der von einer Bericht-Suite unterstützten benutzerspezifischen Ereignisse und eVar-Ansichten ist vom Vertrag abhängig und kann sich je nach Unternehmen unterscheiden.
 
@@ -42,11 +42,11 @@ Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Daten
 | Hinzufügen zum Einkaufswagen | Anzahl der Zusätze zum Einkaufswagen. |
 | Öffnung des Einkaufswagens | Anzahl der Öffnungen des Einkaufswagens. |
 | Entnahmen aus dem Einkaufswagen | Anzahl der Entnahmen aus dem Einkaufswagen. |
-| Warenkorbansicht | Anzahl der Einkaufswagenansichten. |
+| Warenkorbansichten | Anzahl der Einkaufswagenansichten. |
 | Checkouts | Anzahl der Kassengänge. |
 | Ereignis n | Häufigkeit, in der Ereignis n eintritt. Gültige Werte für n sind Ganzzahlen zwischen 1 und 100.  Wenn Sie ein Ansichtereignis festlegen, müssen Sie auch die entsprechende Datendimension (eVar) festlegen. Wenn Sie beispielsweise eVar2-Ansichten einschließen, müssen Sie eVar2 mit einem Wert angeben. |
 | eVarn-Ansichten | Häufigkeit, in der eVar n angezeigt wurde. Gültige Werte für n sind Ganzzahlen zwischen 1 und 250. |
 | Preis | Produktpreis. |
 | Bestellungen | Anzahl der aufgegebenen Bestellungen. |
 | Produktansichten | Anzahl der Produktansichten. |
-| Quantität | Anzahl der verkauften Einheiten. |
+| Menge | Anzahl der verkauften Einheiten. |
