@@ -4,11 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Metriken berechnen
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Treffer müssen zunächst nach Besuchen gruppiert und dann nach der Trefferanzah
 1. Verketten Sie `post_visid_high`, `post_visid_low`, `visit_num` und `visit_start_time_gmt`.
 2. Nehmen Sie nach diesem verketteten Wert eine Sortierung vor und wenden Sie dann eine sekundäre Sortierung nach `visit_page_num` an.
 3. Wenn ein Treffer nicht der letzte während eines Besuchs ist, subtrahieren Sie den Wert `post_cust_hit_time` vom Wert `post_cust_hit_time` des nachfolgenden Treffers.
-4. Diese Zahl ist die Dauer der Besuchszeit (in Sekunden) für den Treffer. Filter können angewendet werden, um sich auf Dimensionselemente oder Ereignis zu konzentrieren.
+4. Diese Zahl ist die Dauer der Besuchszeit (in Sekunden) für den Treffer. Filter können angewendet werden, um Dimensionselemente oder Ereignisse auszuwählen.
 
 ## Bestellungen, Stückzahl und Umsatz
 
