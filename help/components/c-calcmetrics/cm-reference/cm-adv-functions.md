@@ -3,7 +3,7 @@ description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-List
 title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTR
 
 Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
-## Was bedeutet der Parameter „Include-Zeros“? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Was bedeutet der Parameter „Include-Zeros“?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null „nichts“, in anderen Fällen kann sie aber auch wichtig sein.
 
@@ -27,7 +27,7 @@ Beispiel: Wenn Sie mit einer Umsatzmetrik arbeiten und dem Bericht dann eine Sei
 
 Wenn Sie allerdings an zwei Metriken interessiert sind, soll vielleicht nicht eine Metrik einen höheren Durchschnitt oder Mindestwert erhalten, weil einige seiner Zeilen Null waren. Daher würden Sie den Parameter zum Einbeziehen der Nullwerte nicht aktivieren.
 
-## UND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Gibt den Wert des zugehörigen Arguments zurück. Mit „NOT“ können Sie sicherstellen, dass ein Wert nicht mit einem bestimmten Wert übereinstimmt.
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *Dimension* | Die Dimension, für die Sie den ungefähren Distinct Count für Elemente ermitteln möchten. |
 
-### Beispielanwendungsfall {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Beispielanwendungsfall  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
 
@@ -68,11 +68,11 @@ So könnte die „Ungefähre Kunden“-Metrik für Berichte verwendet werden:
 
 ![](assets/approx-customers.png)
 
-### Individuelle Werte überschritten {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Individuelle Werte überschritten  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://docs.adobe.com/content/help/de-DE/analytics/technotes/low-traffic.html). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
 
-### Vergleich von Count-Funktionen {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Vergleich von Count-Funktionen  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Ungefährer Distinct Count() ist eine Verbesserung im Vergleich zu Count()- und RowCount()-Funktionen, da die dadurch erstellte Metrik in allen Dimensionsberichten verwendet werden kann, um eine ungefähre Elementanzahl für eine separate Dimension zu rendern. Beispielsweise wird eine Anzahl an Kunden-IDs in einem Bericht zu Mobilgerätetypen verwendet.
 
