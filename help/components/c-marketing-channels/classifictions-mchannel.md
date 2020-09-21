@@ -1,9 +1,9 @@
 ---
 title: Klassifizierungen in Marketing-Kanälen
 description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -22,15 +22,15 @@ Klassifizierungen, die Sie in diesem Vorgang hinzufügen, werden im [!UICONTROL 
 
 >[!IMPORTANT]
 >
->Die Marketing-Kanal-Klassifizierungsberichte verhalten sich etwas anders als die Standardklassifizierungen: Wenn Sie Klassifizierungen für Erstkontakt- oder Letztkontakt-Berichte erstellen, werden diese automatisch auf beide angewendet. Sie müssen stets beides klassifizieren.
+>Die Marketing-Kanal-Classification-Berichte verhalten sich etwas anders als die Standard-Classifications: Wenn Sie Classifications für Erstkontakt- oder Letztkontakt-Berichte erstellen, werden diese automatisch auf beide angewendet. Sie müssen stets beides klassifizieren.
 
 ## Marketingkanal-Classifications – Definitionen {#mktg-channel-classifications}
 
 | Begriff | Definition |
 |--- |--- |
 | Text-Classifications | Gibt den Typ der Classification an, mit der Sie unterschiedliche Daten zu Berichtzwecken gruppieren können. |
-| Name | Name der Classification. Die hinzugefügte Klassifizierung erscheint als Kanalunterteilungsoption im Marketingkanal-Manager. |
-| Optionen | Name der Classification. Die hinzugefügte Klassifizierung erscheint als Kanalunterteilungsoption im Marketingkanal-Manager. |
+| Name | Name der Classification. Die hinzugefügte Classification erscheint als Kanalunterteilungsoption im Marketing-Kanal-Manager. |
+| Optionen | Name der Classification. Die hinzugefügte Classification erscheint als Kanalunterteilungsoption im Marketing-Kanal-Manager. |
 
 ## Erstellen von Marketing-Kanalklassifizierungen {#create-mktg-channel-classifications}
 
