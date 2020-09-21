@@ -4,11 +4,11 @@ keywords: DFA
 title: DFA-Data Connector für Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 eingestellt. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
+>Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 abgeschafft. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 Online-Advertiser und Agenturen sind im modernen Onlinemarkt, der immer komplexer und umkämpfter wird, auf eine kontinuierliche Verbesserung ihres Verständnisses für Online-Marketingumgebungen sowie ihrer Rendite aus Werbeausgaben angewiesen. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
 
-Dieses Problem kann mithilfe der DoubleClick for Advertisers (DFA)-Integration gelöst werden, bei der Adobe® Data Connectors™ verwendet wird, sodass DoubleClick DFA-Daten automatisch an Reports &amp; Analysen senden kann.
+Dieses Problem kann mithilfe der DoubleClick for Advertisers (DFA)-Integration gelöst werden, bei der Adobe® Data Connectors™ verwendet wird, sodass DoubleClick DFA-Daten automatisch an Reports &amp; Analytics senden kann.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Connectors]**
 
@@ -32,11 +32,11 @@ Dieses Problem kann mithilfe der DoubleClick for Advertisers (DFA)-Integration g
 Wesentliche Vorteile der Data Connectors-DFA-Integration sind unter anderem:
 
 * **Mehr Konversionen**: Sichern Sie sich Trendeinblicke zur Optimierung von Anzeigenkampagnenplatzierungen und Konversionen auf der Site, die auf Benutzerverhalten und -präferenzen nach dem Klicken basieren.
-* **Gemeinsamer Speicherort für Dateien**: Kombinieren Sie zur Verbesserung von unternehmensübergreifender Zusammenarbeit und der Möglichkeit, objektive Entscheidungen zu treffen, DoubleClick-DFA-Clickthrough- und -Durchsichtsdaten mit Reports &amp; Analysen.
-* **Analysen mit Mehrwert**: Durch die automatische Integration von DFA und Adobe Reports &amp; Analysen können Advertiser und Agenturen Daten schneller auswerten und haben so mehr Zeit zum Analysieren von Berichten und zum Handeln.
+* **Gemeinsamer Speicherort für Dateien**: Kombinieren Sie zur Verbesserung von unternehmensübergreifender Zusammenarbeit und der Möglichkeit, objektive Entscheidungen zu treffen, DoubleClick-DFA-Clickthrough- und -Durchsichtsdaten mit Reports &amp; Analytics.
+* **Analysen mit Mehrwert**: Durch die automatische Integration von DFA und Adobe Reports &amp; Analytics können Advertiser und Agenturen Daten schneller auswerten und haben so mehr Zeit zum Analysieren von Berichten und zum Handeln.
 * **Tiefgründigere Kundeneinblicke**: Sichern Sie sich mehr Kundeneinblicke – wie sie auf Ihre Site gelangen und welche Aktionen sie dort durchführen.
 * **Metriken für den Lebenszykluserfolg**: Messen Sie die Effizienz Ihrer Akquisekampagnen über den gesamten Lebenszyklus Ihrer Besucher hinweg.
-* **Integrierte Berichte**: Daten werden für optimierte Unternehmensprozesse und Berichte automatisch zwischen DFA und Reports &amp; Analysen synchronisiert.
+* **Integrierte Berichte**: Daten werden für optimierte Unternehmensprozesse und Berichte automatisch zwischen DFA und Reports &amp; Analytics synchronisiert.
 * **Lebenszyklusanalyse für Besucher**: Messen Sie die Kampagneneffizienz nach mehreren benutzerdefinierten Erfolgsergebnissen und dem Lebenszykluswert.
 * **Kostenmetriken**: Optimieren Sie durch den Vergleich von DFA-Kosten und den durch diese Ausgaben erzeugten Umsatz in nur einem System Ihre Kapitalrendite.
 
@@ -68,9 +68,9 @@ Die Datenerfassung der Adobe-Integration beginnt, sobald die Besucher auf die La
 
 Wenn diese Daten ankommen oder der Abruf zu viel Zeit in Anspruch nimmt, wird ein Treffer an die Adobe-Trackingserver gemeldet (3).
 
-Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` bestimmt, wie lange das Integrate-Modul auf Daten des DFA Floodlight-Servers wartet, bis das Bild-Tag an den Browser der Besucher gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor  `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
+Das Integrationsmodul ist ein besonderes Adobe-JavaScript-Kernmodul, durch das das Adobe-Bild-Beacon verzögert und für eine bestimmte Zeit (`s.maxDelay`). `s.maxDelay` bestimmt, wie lange das Integrate-Modul auf Daten des DFA Floodlight-Servers wartet, bis das Bild-Tag an den Browser der Besucher gesendet wird. Diese Vorgehensweise ist für die weitere Erfassung grundlegender Besucherdaten wichtig, auch wenn die DFA Floodlight-Server ausfallen oder stark ausgelastet sind. Kommen die Floodlight-Daten an, bevor   `s.maxDelay` abgelaufen ist, werden die Adobe-Trackingdaten sofort gesendet. Sie enthalten auch die zusätzlichen DFA-Daten.
 
-Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analysen-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von  `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann aber auch einen zu hohen Wert aufweisen. In diesem Fall kann es sein, dass Besucher die Site verlassen, bevor der `s.maxDelay`-Timer abläuft. 
+Bei einem Timeout kann im Seiten-Code ein Adobe Reports &amp; Analytics-Ereignis als Zeitüberschreitungsereignis festgelegt werden. Ein solches Ereignis kann bei der Diagnose von Problemen oder bei der Anpassung von   `s.maxDelay`. Erhöhen Sie im Falle zahlreich auftretender Timeouts den Wert für `s.maxDelay`. `s.maxDelay` kann aber auch einen zu hohen Wert aufweisen. In diesem Fall kann es sein, dass Besucher die Site verlassen, bevor der `s.maxDelay`-Timer abläuft. 
 
 Manchmal gibt der Floodlight-Server Fehler zu Besuchern aus. Dieser Fall tritt normalerweise ein, wenn dem Floodlight-Server keine Informationen zu Besuchern vorliegen, da sie zuvor noch keine Anzeigen gesehen haben oder kein DFA-Besuchercookie verwenden. Im Seiten-Code kann eine benutzerspezifische Konversionsvariable (eVar) festgelegt werden, in der diese Fehler erfasst werden. Dadurch können die Fehlerbehebung bei Implementierungsproblemen erleichtert und Fehler bei der Google-Transkation erkannt werden. Die herkömmlichsten Fehler sind, wie in folgender Tabelle beschrieben, „No History“ (Kein Verlauf), „No Cookie“ (Kein Cookie), „Query Error“ (Abfragefehler) und „Opted Out“ (Abgemeldet):
 
@@ -104,9 +104,9 @@ In der folgenden Tabelle sind die Funktionen jeder Version der Integration zusam
 | Timeout- und Fehlertracking | Nein | Ja | Ja |
 | Keine ausgehandelte Client-Site-ID erforderlich | Nein | Nein | Ja |
 
-### Info zu Version 1.5  {#section-b5a3e967cfa141ea8f740612336181be}
+### Info zu Version 1.5   {#section-b5a3e967cfa141ea8f740612336181be}
 
-In Version 1.5 der Integration wird das Integrate-Modul für Landingpage-JavaScript eingeführt. Das Integrate-Modul ermöglicht Abfragen des DFA-Anzeigenservers (ad.doubleclick.net) mit fester Größe. Dadurch wird die Abfragenbeschränkung auf 2.000 Bytes der Vorgängerversion umgangen. Außerdem wird mit ihr der verstellbare Timeoutwert  *`s.maxDelay`* eingeführt, damit die Erfassung von Adobe-Besucherdaten auch möglich ist, wenn das Netzwerk ausfällt. Fehler und Timeouts können auch in Analytics-Variablen erfasst werden.
+In Version 1.5 der Integration wird das Integrate-Modul für Landingpage-JavaScript eingeführt. Das Integrate-Modul ermöglicht Abfragen des DFA-Anzeigenservers (ad.doubleclick.net) mit fester Größe. Dadurch wird die Abfragenbeschränkung auf 2.000 Bytes der Vorgängerversion umgangen. Außerdem wird mit ihr der verstellbare Timeoutwert   *`s.maxDelay`* eingeführt, damit die Erfassung von Adobe-Besucherdaten auch möglich ist, wenn das Netzwerk ausfällt. Fehler und Timeouts können auch in Analytics-Variablen erfasst werden.
 
 Auf der folgenden Abbildung sehen Sie Netzwerkinteraktionen auf der Landingpage in Version 1.5.
 
@@ -118,17 +118,17 @@ Bei einem Wechsel von Version 1.0 der Integration auf Version 1.5 gibt es eine
 
 Ein wichtiger Aspekt des neuen JavaScript-Codes ist, dass zwischen Version 1.5 und 2.0 keine Implementationsänderungen notwendig sind.
 
-### Info zu Version 2.0  {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### Info zu Version 2.0   {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 Durch die neueste Version der DFA-Integration gelangen Daten einer ganzen Floodlight-Konfiguration in die Integration. Vor Version 2.0 waren einzelne Integrationen an einzelne DFA-Advertiser gebunden. Durch diese Änderungen werden Klicks, Impressionen und Kostenmetriken für die gesamte Floodlight-Konfiguration in die Integrations-Report Suite eingebunden. Sie können außerdem siteübergreifende Durchsichten tracken, wenn sich die beiden Sites innerhalb derselben Floodlight-Konfiguration befinden. 
 
-Ab Version 2.0 der Integration sind des Weiteren auch Metriken zu Medienkosten verfügbar. Sie müssen im Genesis-Assistenten ein Reports &amp; Analysen-Ereignis für Medienkosten wählen und die Währung für die Metrikangaben in der DFA-Oberfläche festlegen, um Metriken zu Medienkosten für eine Integration zu aktivieren.
+Ab Version 2.0 der Integration sind des Weiteren auch Metriken zu Medienkosten verfügbar. Sie müssen im Genesis-Assistenten ein Reports &amp; Analytics-Ereignis für Medienkosten wählen und die Währung für die Metrikangaben in der DFA-Oberfläche festlegen, um Metriken zu Medienkosten für eine Integration zu aktivieren.
 
 Unter Version 2.0 der Integration wird die Anzahl der Timeouts voraussichtlich abnehmen, da die 302-Weiterleitungen wegfallen. Durch den Wegfall dieser Sprünge sollten weniger Timeouts auftreten und die Anzahl der DFA-Daten, die Sie integrieren können, sollte zunehmen.
 
 Wenn es sich bei einer Floodlight-Konfiguration um eine in DFA freigegebene Konfiguration handelt, werden durch ein Upgrade von Version 1. 5 auf 2.0 Konversionsdaten aller freigegebenen Advertiser in der Floodlight-Konfiguration in die Report Suite eingeschlossen.
 
-### Upgrade auf Version 2.0  {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### Upgrade auf Version 2.0   {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 In der folgenden Tabelle sind die Inhaber der Migration auf neue Versionen der Integration zusammengefasst:
 
