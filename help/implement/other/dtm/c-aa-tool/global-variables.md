@@ -1,12 +1,12 @@
 ---
 description: Beschreibung der Felder und Informationen über Variablen bei Verwendung des Dynamic Tag Managements zur Bereitstellung von Adobe Analytics.
 keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Globale Variablen
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
