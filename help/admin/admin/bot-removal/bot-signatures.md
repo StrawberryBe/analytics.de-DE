@@ -2,9 +2,9 @@
 title: Allgemeine Bot-Signaturen
 description: Erkennen Sie die allgemeinen Bezeichner von Bots.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Moderne Benutzer haben viel höhere Bildschirmauflösungen als in den letzten Ja
 
 ## Land- und Zeitzonenabweichung
 
-Es wird eine Diskrepanz zwischen dem Ursprungsland und der Zeitzone geben. Beispiel: Ein Ort in den Vereinigten Staaten, hat aber eine GMT-Zeitzone.
+Sie würden eine Diskrepanz zwischen dem Ursprungsland und der Zeitzone feststellen. Der Ort könnte beispielsweise die Vereinigten Staaten sein, aber die Zeitzone könnte GMT sein.
 
 ![](assets/bots-country-time-zone.png)
 
