@@ -2,9 +2,9 @@
 description: 'Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen, die Sie per Drag & Drop in ein Projekt ziehen können. '
 title: Komponentenübersicht
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ Beispiele für Dimensionselemente sind [!UICONTROL Homepage] (innerhalb der Dime
 
 [**Metriken**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) sind quantitative Messungen zum Verhalten von Besuchern. Sie befinden sich in der linken Leiste Komponente (grüner Abschnitt) und werden normalerweise als Tabellenspalten angewendet.
 
-Beispiele für Metriken: [!UICONTROL-Ansichten, [!UICONTROL Besuche], [!UICONTROL Bestellungen], [!UICONTROL Durchschnittliche Besuchszeit]und [!UICONTROL Umsatz/Bestellung]. Metriken werden durch Adoben bereitgestellt oder über Ihre benutzerdefinierte Implementierung erfasst ([!UICONTROL Erfolgsmetriken]) oder mithilfe des Generators für [berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)erstellt.
+Beispiele für Metriken sind [!UICONTROL Seitenbesuche], [!UICONTROL Besuche], [!UICONTROL Bestellungen], [!UICONTROL Durchschnittliche Besuchszeit]und [!UICONTROL Umsatz/Bestellung]. Metriken werden durch Adobe bereitgestellt oder über Ihre benutzerdefinierte Implementierung erfasst ([!UICONTROL Erfolgsmetriken]) oder mithilfe des Generators für [berechnete Metriken](https://docs.adobe.com/content/help/de-DE/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)erstellt.
 
 ![](assets/metrics.png)
 
