@@ -1,18 +1,18 @@
 ---
 description: Erläutert die neue Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
 title: Veröffentlichung von Adobe Analytics-Funktionen
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 79%
 
 ---
 
 
 # Veröffentlichung von Adobe Analytics-Funktionen
 
-Bisher wurden die Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Ab April 2020 wurde Adobe Analytics auf ein kontinuierliches Bereitstellungsmodell umgestellt, das einen skalierbareren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht.
+Bisher wurden die Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Seit April 2020 ist Adobe Analytics zu einem kontinuierlichen Versand-Modell übergegangen, das eine skalierbarere, stufenweise Einführung von Funktionen ermöglicht.
 
 ## Veröffentlichungsstrategie
 
@@ -25,6 +25,12 @@ Bisher wurden die Adobe Analytics-Funktionen nach einem festen monatlichen Zeitp
 * **Allgemeine Verfügbarkeit (GA)**: Die Funktion steht 100 % der berechtigten Experience Cloud-Organisationen zur Verfügung und die Veröffentlichung der Funktion ist abgeschlossen.
 
 Bei jeder Funktionsveröffentlichung kann die Timeline von RTP bis GA variieren. Ziel ist es, die Veröffentlichungen kurz zu halten, sodass innerhalb von 2 Monaten nach Beginn der Veröffentlichung (RTP) eine Funktion allgemein verfügbar (GA) ist.
+
+## Funktionsmarkierungen
+
+Mithilfe von Funktions-Flags wird die Sichtbarkeit neuer Funktionen während der Veröffentlichung gesteuert. Adobe empfiehlt, app.launchdarkly.com zur [Zulassungsliste](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) Ihrer Firewall hinzuzufügen, um eine optimale Veröffentlichung zu erzielen. Kurz nachdem GA erreicht wurde, wird die Fahne entfernt.
+
+Sie können Ihre Flags für aktive Funktionen jederzeit unter &quot; **Hilfe&quot;> &quot;Info zu Arbeitsbereich&quot;> &quot;Aktive Funktionen&quot;Ansicht** haben.
 
 ## Vorteile
 
