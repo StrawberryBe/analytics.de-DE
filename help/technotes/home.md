@@ -1,15 +1,16 @@
 ---
-title: Technotes – Startseite
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '75'
+title: Technische Hinweise zu Analytics
+description: Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analytics-Tool oder einer bestimmten Komponente gehören.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '92'
 ht-degree: 100%
 
 ---
 
 
-# Technotes – Startseite
+# Technische Hinweise zu Analytics
 
 Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analytics-Tool oder einer bestimmten Komponente gehören.
 
