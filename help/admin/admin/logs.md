@@ -3,9 +3,9 @@ description: Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben
 title: Protokolle
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 72%
 
 ---
@@ -68,11 +68,6 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Datumsbereich | Ein Datumsbereich wurde erstellt/bearbeitet. |
 | Virtual Report Suite | Eine Virtual Report Suite wurde erstellt/bearbeitet. |
 | Beitragsanalyse | Es wurde ein Beitragsauftrag zur Analyse ausgeführt. |
-| Anfrage für Excel-Datenblock |  |
-| Fehler bei Log-in in Excel |  |
-| Erfolgreiches Log-in in Excel |  |
-| Fehler bei mobilem Log-in |  |
-| Erfolgreiches mobiles Log-in |  |
 | API-Methode | Es wurde ein API-Aufruf durchgeführt. |
 
 
