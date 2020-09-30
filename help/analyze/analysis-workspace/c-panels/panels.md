@@ -2,10 +2,10 @@
 description: Ein Bereich ist eine Sammlung von Tabellen und Visualisierungen
 title: Übersicht über Bedienfelder
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## Bereichsbericht-Suite {#report-suite}
 
 Tabellen und Visualisierungen innerhalb eines Bedienfelds leiten Daten aus der oben rechts im Bedienfeld ausgewählten [!UICONTROL Report Suite] ab. Die Report Suite bestimmt auch, welche Komponenten in der linken Leiste verfügbar sind. In einem Projekt können Sie je nach Anwendungsfall Ihrer Analyse eine oder [viele Report Suites](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) verwenden.
+
+Die Liste der Report Suites wird nach Relevanz sortiert. Die Adobe richtet sich danach, wie oft und wie oft die Suite vom aktuellen Benutzer verwendet wurde und wie oft die Suite in der Organisation verwendet wird.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ Dropdown-Filter können auch verwendet werden, um viele Projekte zu einem zu kon
 
 **Erstellen und verwenden Sie Dropdown-Filter:**
 
-![](assets/create-dropdown.png)
-
 1. Wenn Sie einen Dropdownfilter mit Elementen [!UICONTROL der]Dimension erstellen möchten, z. B. mit Werten innerhalb der Dimension [!UICONTROL Marketing Kanal] , klicken Sie in der linken Leiste auf das Symbol mit dem Pfeil neben Ihrer Dimension. Dadurch werden alle verfügbaren Elemente verfügbar gemacht. Wählen Sie ein oder mehrere Komponentenelemente aus der linken Leiste aus und legen Sie sie **bei gedrückter Umschalttaste** im Bedienfeld-Dropzone ab. Dadurch werden die Komponenten zu einem Dropdown-Filter und nicht zu einem einzigen Segment.
 1. Wenn Sie einen Dropdown-Filter mit einer anderen Komponente wie Metriken, Segmente oder Datumsbereichen erstellen möchten, wählen Sie in der linken Leiste einen Komponententyp aus und legen Sie ihn in der Dropzone des Bereichs ab, **während Sie die Umschalttaste** gedrückt halten.
 1. Wählen Sie eine der Optionen aus dem Dropdownmenü aus, um die Daten im Bedienfeld zu ändern. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [Sehen Sie sich das Video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) an, um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
+
