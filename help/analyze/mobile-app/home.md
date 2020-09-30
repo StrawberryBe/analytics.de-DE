@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics-Dashboards – Übersicht
 description: Produktdokumentation und Selbsthilfe für die Adobe Analytics-Dashboards
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ Weitere Informationen zu Adobe Analytics-[!UICONTROL Dashboards] finden Sie in d
 
 * [Kuratorleitfaden](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/curator.html): Dieses Handbuch soll Kuratoren bei der Konfiguration von Scorecards für ausführende Benutzer in [!UICONTROL Dashboards] helfen. Kuratoren können organisatorische Administratoren oder Personen in anderen Rollen sein, die für die Einrichtung von Scorecards zuständig sind.
 
-   Eine Videoübersicht zu diesem Handbuch finden Sie unter [Adobe Analytics Dashboards – Scorecard Builder](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be).
+   Eine Videoübersicht zu diesem Handbuch finden Sie unter [Adobe Analytics Dashboards – Scorecard Builder](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html).
 
 
 * [Schnellstarthandbuch für ausführende Benutzer](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/executive.html): Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in [!UICONTROL Dashboards] zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
-   Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be).
+   Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html).
