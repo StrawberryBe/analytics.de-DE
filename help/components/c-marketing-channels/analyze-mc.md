@@ -1,11 +1,11 @@
 ---
 title: Analysieren von Marketing-Kanälen
 description: Erfahren Sie, wie Sie die Dimensionen von Marketing-Kanäle in Workspace verwenden.
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,12 +52,10 @@ Sie können [Attribution IQ](https://docs.adobe.com/content/help/de-DE/analytics
 
 Beachten Sie, dass dieselbe Metrik (Online-Bestellungen) unterschiedliche Ergebnisse generiert, wenn Sie verschiedene Attributionsmodelle anwenden.
 
-In den folgenden Videos wird Attribution IQ ausführlicher erläutert: [Attribution IQ-Playlist](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
-
 ## Tab-übergreifende Marketing-Analyse
 
 Die veralteten Firstkontakt- und Letztkontakt-Kanäle bieten einen hilfreichen Einblick in die Kanalinteraktionen:
 
 ![](assets/mc-viz6.png)
 
-Weitere Informationen zur Tab-übergreifenden Marketing-Analyse finden Sie in [diesem Video](https://www.youtube.com/watch?v=M3EOdONa-3E).
+In diesem Video erfahren Sie mehr über tabulatorübergreifende Marketing-Analyse: [Verwendung von tabulatorübergreifender Analyse zur Überprüfung der grundlegenden Marketingzuordnung in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
