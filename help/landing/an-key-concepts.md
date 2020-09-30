@@ -2,10 +2,10 @@
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '1864'
+ht-degree: 97%
 
 ---
 
