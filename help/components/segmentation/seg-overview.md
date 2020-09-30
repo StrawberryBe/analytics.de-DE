@@ -3,11 +3,11 @@ description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen ode
 title: Info über Segmente und Container
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '3709'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,11 +60,7 @@ Ein sequenzielles Segment filtert Datensätze basierend auf Benutzeraktionen. Da
 
 ## Anleitungsvideo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-In diesem YouTube-Video erhalten Sie einen kurzen Überblick darüber, was Container sind und wie Sie sie einsetzen können.
-
-| Videoname | Video-Link |
-|---|---|
-| Segmentcontainer | [Segmentcontainer in Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+In diesem Video erhalten Sie einen kurzen Überblick über die Container von Segmenten und ihre Verwendung: [Segmentieren von Containern in Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Info zu Containern {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -154,7 +150,7 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Behälter wie [
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Besucher] stellen den Behälter mit dem höchsten Rang in der sequenziellen Segmentierung dar. Dabei sind [!UICONTROL Besuche] im [!UICONTROL Besucherbehälter] und [!UICONTROL Treffer] in den [!UICONTROL Besucher]- oder [!UICONTROL Besuchsbehältern] enthalten. Diese   [Behälterhierarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) muss eingehalten werden, um ordnungsgemäß sortierte sequenzielle Segmente zu erstellen.
+[!UICONTROL Besucher] stellen den Behälter mit dem höchsten Rang in der sequenziellen Segmentierung dar. Dabei sind [!UICONTROL Besuche] im [!UICONTROL Besucherbehälter] und [!UICONTROL Treffer] in den [!UICONTROL Besucher]- oder [!UICONTROL Besuchsbehältern] enthalten. Diese  [Behälterhierarchie](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) muss eingehalten werden, um ordnungsgemäß sortierte sequenzielle Segmente zu erstellen.
 
 **Zum Erstellen sequenzieller Segmente** werden Behälter verschachtelt und eine sequenzielle Logik verbunden. Dazu wird der [!UICONTROL THEN]-Operator verwendet, für den jeder Behälter basierend auf der Sequenz des Besuchers wahr sein muss.
 
@@ -253,7 +249,7 @@ Die Verwendung des Segments mit einem Behälter, der kleiner als der Aufschlüss
 
 Die Filterung nach Dimensionen, die über einen Seitenbereich persistent sind, z. B. ein Kampagnen-eVar oder eine Referrerdimension, wirkt sich auf die auf Behälterebene gesammelten Daten aus und muss im Hinblick auf die Berichtsgenauigkeit nachvollzogen werden.
 
-Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Trefferbehälter gefiltert. (Siehe das Beispiel  [Auf Behälterdaten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
+Segmentdaten können, basierend auf der Persistenz einer Dimension oder einer angewendeten Variablen, über ausgewählte Seiten hinweg variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Trefferbehälter gefiltert. (Siehe das Beispiel [Auf Behälterdaten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrerdomäne“, sind für einen Besuch über mehrere Seiten hinweg persistent. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf des Besuchers.
 
 ![](assets/RefDomain_aol.png)
 
