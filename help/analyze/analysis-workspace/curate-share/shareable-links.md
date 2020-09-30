@@ -2,11 +2,11 @@
 description: Erfahren Sie, wie Sie freigebbare Links zu Projekten oder Visualisierungen erstellen.
 keywords: Analysis Workspace sharing
 title: Erstellen von freigebbaren Links
-translation-type: ht
-source-git-commit: e529ea26b02c1fdb4d1dd3587ab9065a70a97baa
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können auch einen Link zu einem bestimmten Teil eines Projekts freigeben, z
 * Klicken Sie in der Kopfzeile eines Bedienfelds mit der rechten Maustaste auf **[!UICONTROL Bedienfeld-Link abrufen]**.
 * Klicken Sie in einer Tabellen- oder Visualisierungskopfzeile mit der rechten Maustaste auf **[!UICONTROL Visualisierungs-Link abrufen]**.
 
-[Sehen Sie sich das Video an](https://www.youtube.com/watch?v=lvmAdKNfWQw), wie Sie Links erstellen und diese verwenden, um Empfänger zu bestimmten Teilen Ihres Projekts zu führen.
+[Sehen Sie sich das Video an](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html), wie Sie Links erstellen und diese verwenden, um Empfänger zu bestimmten Teilen Ihres Projekts zu führen.
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +36,6 @@ Sie können auch einen Link zu einem bestimmten Teil eines Projekts freigeben, z
 
 Ein Tipp für die Nutzung der verschiedenen Link-Optionen besteht darin, immer ein Inhaltsverzeichnis am Anfang Ihres Workspace-Projekts einzufügen. Im Inhaltsverzeichnis können Sie Links zu anderen relevanten Projekten, spezifischen Bedienfeldern und spezifischen Visualisierungen erstellen. Dies erleichtert dem Empfänger des Projekts die Navigation.
 
-[Sehen Sie sich das Video an](https://www.youtube.com/watch?v=Xo6fTguWm-M), wie Sie mithilfe von Links und dem Rich-Text-Editor von Workspace ein Inhaltsverzeichnis erstellen.
+[Sehen Sie sich das Video an](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html), wie Sie mithilfe von Links und dem Rich-Text-Editor von Workspace ein Inhaltsverzeichnis erstellen.
 
 ![](assets/toc.png)
