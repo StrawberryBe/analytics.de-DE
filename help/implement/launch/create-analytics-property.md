@@ -2,10 +2,10 @@
 title: Analytics-Eigenschaft in Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
 translation-type: tm+mt
-source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +83,7 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 
 * [Dokumentation zu Adobe Analytics-Erweiterungen](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
 * [Erste Schritte mit Launch](https://docs.adobelaunch.com/getting-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
-* [Adobe Experience Platform Launch-YouTube-Kanal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): Lehrvideos zur Nutzung von Launch.
+* [Adobe Experience Platform Launch Kanal](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Einführung in Videos
 
 ## Nächste Schritte
 
