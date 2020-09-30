@@ -2,11 +2,11 @@
 description: Weitere Informationen zu Visualisierungen und Visualisierungseinstellungen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualisierungsübersicht
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1069'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Workspace bietet eine Reihe von Visualisierungen, mit denen Sie visuelle Darstellungen Ihrer Daten generieren können, wie beispielsweise Balkendiagramme, Donutdiagramme, Histogramme, Liniendiagramme, Karten und Streudiagramme. Jede Visualisierung verfügt über eigene Einstellungen, die Sie verwalten können. Klicken Sie auf den Namen der Visualisierung, um weitere Informationen anzuzeigen.
 
-YouTube-Video: [Visualisierungstypen in Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | Name der Visualisierung | Beschreibung |
 |---|---|
@@ -109,4 +109,4 @@ Wenn Sie beispielsweise eine Legendenbeschriftung für ein Liniendiagramm bearbe
 1. Geben Sie den neuen Beschriftungstext ein.
 1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
 
-Hier finden Sie einen [Link zu einem Video](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) zu diesem Thema.
+Hier finden Sie einen [Link zu einem Video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) zu diesem Thema.
