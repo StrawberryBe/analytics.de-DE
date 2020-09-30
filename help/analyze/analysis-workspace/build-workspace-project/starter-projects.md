@@ -3,10 +3,10 @@ description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ Wenn Sie einen Workspace zum ersten Mal öffnen, sind Vorlagen in der linken Lei
 
 Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern.
 
-[Standardvorlagen in Analysis Workspace auf YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+Hier finden Sie eine Videoschulung zu [Standardvorlagen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten.
 
@@ -65,7 +65,7 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 * **Schulungsanleitung – Internal Search Analysis**: Das Tutorial zur internen Suche hilft Ihnen zu verstehen, wonach Ihre Besucher auf der Website oder in der Mobile App suchen, jedoch nicht finden. Durch die Analyse dieser Art von Daten können sich Optimierungsmöglichkeiten für Inhalte offenbaren.
 
-* **Schulungsanleitung – Marketing Analysis**: In diesem Tutorial erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte erstellen, einschließlich der wichtigen Dimensionen und Metriken.
+* **Schulungslehrgang - Marketing-Analyse**: In diesem Lernprogramm erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte zusammenstellen, einschließlich der wichtigen Dimensionen und Metriken.
 
 ### Werbung
 
@@ -77,9 +77,9 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 ### Handel
 
-* **Magento: Marketing und Handel**: Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Keyword, Standort und mehr. Eine Videoübersicht finden Sie unter:
+* **Magento: Marketing und Handel**: Diese Vorlage unterteilt Ihre E-Commerce-Umrechnung nach der Zuordnung von Marketing-Kanälen und bietet Einblicke nach Suchbegriff, Landingpage, geografischer Position und mehr. Eine Videoübersicht finden Sie unter:
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Medien
 
