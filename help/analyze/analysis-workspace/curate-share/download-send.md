@@ -3,15 +3,15 @@ description: Sie können Daten von Analysis Workspace herunterladen, indem Sie s
 title: PDF- oder CSV-Dateien herunterladen
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# PDF- oder CSV-Dateien herunterladen aus Workspace
+# PDF- oder CSV-Dateien herunterladen
 
 Es gibt verschiedene Möglichkeiten, Daten aus Analysis Workspace zu exportieren, je nachdem, welcher Datensatz außerhalb des Tools analysiert werden soll und wer die Informationen erhalten muss. Exportierte Daten können in Form kopierter Daten, CSV- oder PDF-Dateien vorliegen. Eine PDF-Datei wird in der Regel bevorzugt, wenn Sie in der Datei enthaltene Visualisierungen verwenden möchten, während eine CSV-Datei (oder kopierte Daten) bevorzugt wird, wenn Sie einfach Daten im Klartext benötigen.
 
