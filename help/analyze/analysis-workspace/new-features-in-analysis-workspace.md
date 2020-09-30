@@ -3,10 +3,10 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7821'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -989,9 +989,7 @@ Am 20. Oktober 2016 veröffentlichte neue Funktionen:
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->Neue Schaltfläche „Aktion“ in der linken Navigationsschiene hinzugefügt, die die folgenden Aktionen ermöglicht: Tags, Favorit, Bestätigen, <b>Teilen (neu!)</b>, <b>Löschen (neu!)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Neuer Filter zur Suchleiste hinzugefügt, mit dem nach Tags, Favoriten, bestätigten Elementen und Komponenten gefiltert werden kann. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Ein neues Vorschau-Symbol wurde in manuellen Zeilen hinzugefügt (nicht in dynamischen Zeilen, die Dimensionselemente auflisten), mit dem Sie eine Vorschau zu Segmenten, Metriken und Datumsbereichen anzeigen können. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Link zu den YouTube-Tutorials für Analysis Workspace aktualisiert auf: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Ein neues Vorschau-Symbol wurde in manuellen Zeilen hinzugefügt (nicht in dynamischen Zeilen, die Dimensionselemente auflisten), mit dem Sie eine Vorschau zu Segmenten, Metriken und Datumsbereichen anzeigen können. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->Für Visualisierungen wurde eine Rechtsklickoption namens <span class="uicontrol">Neustart</span> im Kontextmenü hinzugefügt (funktioniert für Fluss, Venn, Histogramm), die die Konfiguration für die aktuelle Visualisierung löscht und einen neuen Bereich öffnet, in dem Sie sie neu konfigurieren können. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">Mit der neuen Visualisierungseinstellung „Legende eingeblendet“ können Sie die Filterdetails für die Visualisierung von Zusammenfassungsnummer/Zusammenfassungsänderung ausblenden. </li> 
