@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Classification Rule Builder-Workflow
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Für die Implementierung von Classification-Regeln gelten die nachfolgenden allg
 | Schritt 3: Report Suites und Variablen konfigurieren. | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Wenden Sie den Regelsatz auf Report Suites und Variablen an. |
 | Schritt 4: [Classification-Regeln zum Satz hinzufügen](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Classification Rule Builder] >  &lt;Ihr Regelsatz> | Ordnen Sie einer Classification eine Bedingung zu, und legen Sie die Aktion fest, die für die Regel ausgeführt werden soll.  Machen Sie sich mit den Informationen unter [Verarbeitung der Regeln](/help/components/classifications/crb/classification-quickstart-rules.md) vertraut. |
 | Schritt 5: [Testen eines Klassifizierungsregelsatzes](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Zum Testen der Regeln im Rahmen der Validierung bearbeiten Sie die Regeln im Entwurfsmodus. Im Entwurfsmodus können keine Regeln ausgeführt werden.<br>Dieser Schritt ist bei der Verwendung [regulärer Ausdrücke](/help/components/classifications/crb/classification-quickstart-rules.md) wichtig. |
-| Schritt 6: [Gültige Regeln aktivieren](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Sobald die Regeln gültig sind, aktivieren Sie den Regelsatz.  Bei Bedarf können Sie vorhandene Schlüssel überschreiben. Siehe  [Verarbeitung der Regeln](/help/components/classifications/crb/classification-quickstart-rules.md). |
+| Schritt 6: [Gültige Regeln aktivieren](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Sobald die Regeln gültig sind, aktivieren Sie den Regelsatz.  Bei Bedarf können Sie vorhandene Schlüssel überschreiben. Siehe [Verarbeitung der Regeln](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Schritt 7 (Optional): [Unerwünschte Regeln löschen](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Löschen Sie die unerwünschten Regeln aus dem Satz.<br>Hinweis: Beim Löschen von Regeln werden die hochgeladenen klassifizierten Daten nicht gelöscht.  Informationen zum Löschen klassifizierter Daten finden Sie unter [Löschen von Classification-Daten](/help/components/classifications/importer/t-delete-classification-data.md). |
 
 >[!NOTE]
@@ -52,4 +52,4 @@ Für die Implementierung von Classification-Regeln gelten die nachfolgenden allg
 
 **Blog**: Weitere Informationen zu dieser Funktion finden Sie im Digital Marketing Blog: [Regelbasierte Klassifizierungen](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Auf [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) können Sie sich das Video [!UICONTROL Klassifizierungsübersicht] ansehen.
+**Video**: Ansicht des Videos Übersicht über [Klassifizierungen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) .
