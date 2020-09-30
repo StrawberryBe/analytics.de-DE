@@ -1,17 +1,17 @@
 ---
 description: Versenden Sie ein Projekt aus Analysis Workspace per E-Mail oder planen Sie die Bereitstellung.
 keywords: Analysis Workspace
-title: Geplante Projekte
+title: Planen von Projekten
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
-# Geplante Projekte
+# Planen von Projekten
 
 Über das Menü **Freigeben** in Workspace können Sie Analysis Workspace-Projekte per E-Mail an ausgewählte Empfänger senden. Dateien können im CSV- oder PDF-Format gesendet werden.
 
