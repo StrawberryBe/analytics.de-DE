@@ -3,16 +3,19 @@ description: 'null'
 title: Paginierung, Filtern und Sortieren von Tabellen
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Paginierung, Filtern und Sortieren von Tabellen
 
-Mit diesem Video auf YouTube können Sie sich einen Überblick verschaffen:
+Eine Übersicht finden Sie in diesem Video-Lernprogramm:
 
-[Paginierung, Filtern und Sortieren von Tabellen in Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Paginierung, Filtern und Sortieren von Tabellen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## Erweiterte Filteroptionen {#section_36E92E31442B4EBCB052073590C1F025}
 
