@@ -1,17 +1,17 @@
 ---
 description: Schreibgeschützte Projekte in Workspace
 keywords: View-only projects
-title: Schreibgeschützte Workspace-Projekte
-translation-type: ht
-source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: Ansicht-only-Projekte
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Schreibgeschützte Workspace-Projekte
+# Ansicht-only-Projekte
 
 Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md) für Empfänger als „schreibgeschützt“ freigeben. Empfänger mit der Rolle „Kann anzeigen“ erhalten ein eingeschränkteres Projekterlebnis. Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzer freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
 
@@ -36,7 +36,7 @@ Zu den deaktivierten Interaktionen in einem schreibgeschützten Projekt gehören
 Zu den wichtigen aktivierten Interaktionen in einem schreibgeschützten Projekt gehören:
 
 | Bereich | Aktivierte Interaktionen |
-|---|---|
+| --- | --- |
 | Freiformtabellen | <ul><li>Paginierung und Sortierung</li><li>Bewegen</li><li>Zellauswahl, die verknüpfte Visualisierungen aktualisiert</li><li>Rechtsklick > Visualisierungs-Link abrufen</li><li>Rechtsklick > In Zwischenablage kopieren</li></ul> |
 | Visualisierungen | <ul><li>Klicken zum Aktivieren/Deaktivieren der Legende</li><li>Bewegen</li><li>Rechtsklick > Visualisierungs-Link abrufen</li><li>Reduzieren/Erweitern</li><li>Fluss – Flussknoten erweitern</li><li>Karte – Zoomen</li></ul> |
 | Bedienfelder | <ul><li>Interaktive Dropdown-Filter</li><li>Rechtsklick > Bedienfeld-Link abrufen</li><li>Reduzieren/Erweitern</li></ul> |
