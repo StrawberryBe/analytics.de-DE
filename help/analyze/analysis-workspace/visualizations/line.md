@@ -3,10 +3,10 @@ description: Linienvisualisierung zur Darstellung von (zeitbasierten) Trend-Date
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
+source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 64%
+source-wordcount: '511'
+ht-degree: 65%
 
 ---
 
@@ -41,7 +41,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 >[!TIP]
 >
->Es wird empfohlen, Trendlinien auf Daten anzuwenden, die weder aktuelle (partielle Daten) noch zukünftige Daten enthalten, da diese die Trendlinie verfälschen. Wenn Sie jedoch zukünftige Daten einbeziehen müssen, entfernen Sie Nullen aus den Daten, um eine Verzerrung dieser Tage zu vermeiden. Gehen Sie dazu zur Datenquelle-Tabelle der Visualisierung und wählen Sie Ihre Metrikspalte aus. Gehen Sie dann zu [!UICONTROL Spalteneinstellungen] und aktivieren Sie **[!UICONTROL Null als Wert]** interpretieren.)
+>Es wird empfohlen, Trendlinien auf Daten anzuwenden, die weder aktuelle (partielle Daten) noch zukünftige Daten enthalten, da diese die Trendlinie verfälschen. Wenn Sie jedoch zukünftige Daten einbeziehen müssen, entfernen Sie Nullen aus den Daten, um eine Verzerrung dieser Tage zu vermeiden. Gehen Sie dazu zur Datenquelle-Tabelle der Visualisierung, wählen Sie Ihre Metrikspalte und aktivieren Sie dann **[!UICONTROL Spalteneinstellungen]** > Null als Wert **[!UICONTROL interpretieren]**.
 
 ![Lineare Trendlinie](assets/show-linear-trendline.png)
 
@@ -54,4 +54,4 @@ Alle Trendlinien des Regressionsmodells passen mit den üblichen Minimalquadrate
 | Exponentiell | Erstellt eine gekrümmte Linie und ist nützlich, wenn Daten mit ständig steigenden Raten steigen oder fallen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten Null oder negative Werte enthalten. Gleichung: `y = a + e^(b * x)` |
 | Potenzfunktion | Erstellt eine gekrümmte Linie und ist nützlich für Datensätze, die Messungen vergleichen, die mit einer bestimmten Rate ansteigen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten Null oder negative Werte enthalten. Gleichung: `y = a * x^b` |
 | Quadratisch | Findet die beste Anpassung für einen Datensatz in Form einer Parabel (konkav nach oben oder unten). Gleichung: `y = a + b * x + c * x^2` |
-| Anpassbarer Durchschnittswert | Erstellt eine glatte Trendlinie basierend auf einer Reihe von Durchschnittswerten. Beispiele sind der Durchschnitt für 7 Tage oder der Durchschnitt für 4 Wochen. Auch als rollierender Durchschnitt bezeichnet, berechnet ein gleitender Durchschnitt den Durchschnitt für einen vorherigen Bereich, verwendet diesen als Trendlinienddatenpunkt und wechselt dann zum nächsten Zeitraum, um ihn zu wiederholen. Die Eingabe &quot;Periods&quot;definiert den Bereich, in dem der Durchschnitt berechnet wird. |
+| Anpassbarer Durchschnittswert | Erstellt eine glatte Trendlinie basierend auf einer Reihe von Durchschnittswerten. Auch als rollierender Durchschnitt bezeichnet, verwendet ein sich bewegender Durchschnitt eine bestimmte Anzahl von Datenpunkten (bestimmt durch die Auswahl der &quot;Zeiträume&quot;), verwendet Durchschnittswerte und verwendet den Durchschnitt als Punkt in der Zeile. Beispiele sind der Durchschnitt für 7 Tage oder der Durchschnitt für 4 Wochen. |
