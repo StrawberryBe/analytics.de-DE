@@ -3,10 +3,10 @@ description: Linienvisualisierung zur Darstellung von (zeitbasierten) Trend-Date
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 79%
+source-wordcount: '524'
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ Unter **[!UICONTROL Visualisierungseinstellungen]** > **[!UICONTROL Überlagerun
 
 ## Trendzeilenüberlagerung anzeigen
 
-Unter **[!UICONTROL Visualisierungseinstellungen]** > **[!UICONTROL Überlagerungen]** > **[!UICONTROL Trendlinie anzeigen]** können Sie Ihrer Linienserie eine Regressionstrendlinie hinzufügen. Trendlinien helfen, ein Muster in den Daten besser darzustellen.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Trendlinien helfen, ein Muster in den Daten besser darzustellen.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ Unter **[!UICONTROL Visualisierungseinstellungen]** > **[!UICONTROL Überlagerun
 
 ![Lineare Trendlinie](assets/show-linear-trendline.png)
 
-Alle Modelle werden mit der gewöhnlichen Methode der kleinsten Quadrate angepasst:
+Alle Trendlinien des Regressionsmodells passen mit den üblichen Minimalquadraten:
 
 | Modell | Beschreibung |
 | --- | --- |
@@ -54,3 +54,4 @@ Alle Modelle werden mit der gewöhnlichen Methode der kleinsten Quadrate angepas
 | Exponentiell | Erstellt eine gekrümmte Linie und ist nützlich, wenn Daten mit ständig steigenden Raten steigen oder fallen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten Null oder negative Werte enthalten. Gleichung: `y = a + e^(b * x)` |
 | Potenzfunktion | Erstellt eine gekrümmte Linie und ist nützlich für Datensätze, die Messungen vergleichen, die mit einer bestimmten Rate ansteigen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten Null oder negative Werte enthalten. Gleichung: `y = a * x^b` |
 | Quadratisch | Findet die beste Anpassung für einen Datensatz in Form einer Parabel (konkav nach oben oder unten). Gleichung: `y = a + b * x + c * x^2` |
+| Anpassbarer Durchschnittswert | Erstellt eine glatte Trendlinie basierend auf einer Reihe von Durchschnittswerten. Beispiele sind der Durchschnitt für 7 Tage oder der Durchschnitt für 4 Wochen. Auch als rollierender Durchschnitt bezeichnet, berechnet ein gleitender Durchschnitt den Durchschnitt für einen vorherigen Bereich, verwendet diesen als Trendlinienddatenpunkt und wechselt dann zum nächsten Zeitraum, um ihn zu wiederholen. Die Eingabe &quot;Periods&quot;definiert den Bereich, in dem der Durchschnitt berechnet wird. |
