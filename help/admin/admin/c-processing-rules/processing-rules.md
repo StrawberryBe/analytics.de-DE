@@ -5,10 +5,10 @@ title: Übersicht über Verarbeitungsregeln
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 * Korrigieren von Fehlschreibungen bei Sitebereichen
 * Extrahieren von Suchbegriffen oder Kampagnen-IDs aus der Abfragezeichenfolge in eine eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Sehen Sie sich die Übersicht zu Verarbeitungsregeln und die Schulung von Adobe Summit an, um zu erfahren, wozu die Verarbeitungsregeln nützlich sind.*
+## Berechtigungen für Verarbeitungsregeln {#section_8A4846688050453784DAE4D89355169A}
 
-## Erhalten der Autorisierung zur Verwendung der Verarbeitungsregeln {#section_8A4846688050453784DAE4D89355169A}
-
-Vor dem 20. April 2017 mussten alle Benutzer (einschließlich Administratoren) einen Test bestehen und eine Autorisierung für die Nutzung von Verarbeitungsregeln von der Adobe-Kundenunterstützung erhalten.
-
-Nun sind Administratoren **standardmäßig** dazu berechtigt, Verarbeitungsregeln zu nutzen. Der Test ist nicht mehr erforderlich. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. So geht’s:
-
-1. Wenn nicht bereits geschehen,  [erstellen Sie eine Gruppe](/help/admin/user-management2/c-user-groups/groups.md), die nur die Benutzer ohne Administratorstatus enthält, die zur Verwendung der Verarbeitungsregeln autorisiert sein sollen.
-1. [Fügen Sie dieser Gruppe Benutzer ohne Administratorstatus hinzu](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Navigieren Sie dann zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Gruppen]** > **[!UICONTROL `group name`]** > **[!UICONTROL Bearbeiten]** > **[!UICONTROL Zugriff auf Berichte]** > **[!UICONTROL Report Suite-Tools]** > **[!UICONTROL Benutzerspezifisch]** > **[!UICONTROL Report Suite-Verwaltung]**.
-1. Aktivieren Sie das Kontrollkästchen neben [!UICONTROL Verarbeitungsregeln] und klicken Sie auf **[!UICONTROL OK]**.
+Administrators have rights to use processing rules **by default**. Administratoren können diese Rechte über die Admin Tools-Benutzeroberfläche auch Benutzern ohne Administratorstatus gewähren. Eine Anleitung finden Sie unter []
 
 ![](assets/processing-rules.png)
 
