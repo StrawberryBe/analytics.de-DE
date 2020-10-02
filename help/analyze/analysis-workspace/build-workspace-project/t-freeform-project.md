@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Workspace-Projekt erstellen
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Erstellen Sie ein Projekt und fügen Sie dem Freiform-Bedienfeld Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) hinzu.
 
-In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird. Spezifische Anwendungsfälle finden Sie unter [Anwendungsfälle für Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Workspace erläutert und Sie erfahren, wie ein Projekt erstellt wird.
 
 ## Erstellen Sie ein Projekt
 
@@ -117,7 +117,7 @@ In diesem Beitrag werden die Elemente der Benutzeroberfläche von Analysis Works
   </tr> 
   <tr> 
    <td colname="col1"> Segmente (blau) </td> 
-   <td colname="col2"> <p>Können per Drag-and-Drop nur auf Bereichsebene angewendet werden, Sie können jedoch Inline-Segmente in der Datentabelle erstellen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Anwendungsfälle für Analysis Workspace</a>. </p> </td> 
+   <td colname="col2"> <p>Können per Drag-and-Drop nur auf Bereichsebene angewendet werden, Sie können jedoch Inline-Segmente in der Datentabelle erstellen. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmente </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datumsbereiche und Granularitäten (violett) </td> 
