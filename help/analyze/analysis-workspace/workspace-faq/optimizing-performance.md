@@ -1,108 +1,86 @@
 ---
-description: 'null'
-title: Optimieren der Analysis Workspace-Leistung
+description: Faktoren, die sich auf die Leistung von Workspace und empfohlene Optimierungen auswirken
+title: Leistungsfaktoren und Optimierung von Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
+source-git-commit: 3606d5e15e6c18812df3475f2bc87a8fda5f440e
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 94%
+source-wordcount: '2145'
+ht-degree: 27%
 
 ---
 
 
-# Optimieren der Analysis Workspace-Leistung
+# Leistungsfaktoren und Optimierung von Analysis Workspace
 
-Bestimmte Faktoren können die Leistung eines Projekts in Analysis Workspace beeinflussen. Damit Sie Ihr Projekt optimal planen und erstellen können, sollten Sie vor Beginn diese Faktoren kennen. In dieser Liste sind Faktoren aufgeführt, die die Leistung beeinflussen, sowie Best Practices zur Optimierung Ihrer Projekte. Die Leistung von Analysis Workspace stellt für Adobe eine der höchsten Prioritäten dar und wir arbeiten täglich daran, sie zu verbessern.
+Verschiedene Faktoren können die Leistung eines Projekts in Analysis Workspace beeinflussen. Es ist wichtig zu wissen, was diese Mitarbeiter leisten, bevor Sie ein Projekt erstellen, damit Sie das Projekt optimal planen und erstellen können. Auf dieser Seite finden Sie eine Liste von Faktoren, die sich auf die Leistung auswirken und empfohlene Optimierungen, die Sie vornehmen können, um eine Spitzenleistung in Analysis Workspace sicherzustellen.
 
-## Komplexität der Segmentlogik
+>[!IMPORTANT HINWEIS]
+>
+>Die Seite &quot;Leistung&quot;in Analysis Workspace ist in limitierter Version verfügbar. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html)
 
-Komplizierte Segmente können einen erheblichen Einfluss auf die Projektleistung haben. Zu den Faktoren, die einem Segment Komplexität verleihen (in grober Reihenfolge der Auswirkungen), gehören:
+## Hilfe > Leistung in Analysis Workspace
 
-* Operatoren von „enthält“, „enthält beliebige von“, „stimmt überein mit“, „beginnt mit“ oder „endet mit“
-* Sequentielle Segmentierung, insbesondere wenn Dimensionseinschränkungen (innerhalb/nachher) verwendet werden
-* Anzahl der eindeutigen Dimensionselemente innerhalb der Dimensionen, die im Segment verwendet werden (z. B.: Seite = „A“, wenn Seite 10 eindeutige Elemente hat, ist schneller als Seite = „A“, wenn Seite 100000 eindeutige Elemente hat)
-* Anzahl der verschiedenen verwendeten Dimensionen (z. B.: Seite = „Startseite“ und Seite = „Suchergebnisse“ sind schneller als eVar 1 = „rot“ und eVar 2 = „blau“)
-* Viele OR-Operatoren (anstelle von AND)
-* Verschachtelte Container mit unterschiedlichem Umfang (z. B. Hit innerhalb des Besuchs innerhalb des Besuchers)
+Unter &quot; **[!UICONTROL Analysis Workspace&quot;> &quot;Hilfe&quot;> &quot;Leistung]**&quot;können Sie die Faktoren sehen, die sich auf die Leistung Ihres Projekts auswirken, einschließlich Netzwerk-, Browser- und Projektfaktoren. Um die genauesten Ergebnisse zu erzielen, müssen Sie das Projekt vor dem Öffnen der Seite &quot;Leistung&quot;vollständig laden. Darüber hinaus können Sie die Leistungsinhalte als CSV **** herunterladen, um sie einfach an die Adobe Customer Care oder Ihre IT-Teams freizugeben.
 
-**Best Practices für logische Komplexität**
+>[!NOTE]
+>
+>Die Informationen auf der Seite &quot;Leistung&quot;variieren bei jedem Öffnen des Modals, da sich Faktoren ändern können. Darüber hinaus wird die Adobe die empfohlenen Schwellenwerte weiter verfeinern, sobald mehr Daten verfügbar sind.
 
-Während einige der Komplexitätsfaktoren nicht verhindert werden können, sollten Sie über Möglichkeiten nachdenken, die Komplexität Ihrer Segmente zu verringern. Generell gilt: Je genauer Sie mit Ihren Segmentkriterien umgehen können, desto besser. Beispiel:
+## Netzwerkfaktoren
 
-* Bei Containern ist die Verwendung eines einzelnen Containers am oberen Rand des Segments schneller als die Verwendung einer Reihe verschachtelter Container
-* Bei Operatoren ist „stimmt überein mit“ schneller als „enthält“ und „entspricht beliebigen von“ ist schneller als „enthält beliebige von“
-* Mit vielen Kriterien sind AND-Operatoren schneller als eine Reihe von OR-Operatoren. Suchen Sie außerdem nach Möglichkeiten, viele OR-Anweisungen in eine einzelne Anweisung „entspricht einem von“ zu reduzieren
+**[!UICONTROL Hilfe > Leistungsnetzwerkfaktoren]** :
 
-Außerdem können [Klassifizierungen](/help/components/classifications/c-classifications.md) dazu beitragen, viele Werte in präzisen Gruppen zu bündeln, aus denen Sie dann Segmente erstellen. Segmentierungen und Classification-Gruppen bieten leistungsbezogene Vorteile gegenüber Segmenten mit vielen OR-Anweisungen oder „enthält“-Kriterien.
+| Faktor | Definition | Beeinflusst durch | Optimierung |
+|---|---|---|---|
+| Verbindung mit Adobe | Adobe sendet 10 Testaufrufe, wenn die Leistungsseite geöffnet wird. Dies stellt den Prozentsatz der erfolgreichen Aufrufe zur Adobe dar. | Lokale Netzwerkprobleme oder Probleme mit der Adobe wirken sich auf diesen Faktor aus. | Überprüfen Sie status.adobe.com, ob bekannte Serviceprobleme vorliegen. Überprüfen Sie dann Ihre lokale Netzwerkverbindung. |
+| Internetbandbreite | Die Schätzung der Bandbreite an Ihrem Standort durch Ihren Browser, die nur für Google Chrome getestet wurde. Der empfohlene Schwellenwert ist 2,0 MB/s. | Ihre lokale Netzwerkverbindung wirkt sich auf diesen Faktor aus. | Überprüfen Sie die lokale Netzwerkverbindung. |
+| Internetlatenz | Adobe sendet 10 Testaufrufe, wenn die Leistungsseite geöffnet wird. Dies stellt die Zeitdauer dar, die durchschnittlich für jede Anforderung benötigt wird, um zur Adobe zu gehen und zurückzugeben. Einfach gesagt, es ist ein Maß dafür, wie schnell das Internet zwischen Ihrer Lage und Adobe ist. Der empfohlene Schwellenwert ist &lt; 1 Sekunde. | Lokale Netzwerkprobleme, viele offene Browser-Registerkarten oder Probleme mit der Adobe wirken sich auf diesen Faktor aus. | Überprüfen Sie status.adobe.com, ob bekannte Serviceprobleme vorliegen. Überprüfen Sie dann Ihre lokale Netzwerkverbindung und schließen Sie nicht verwendete Browser-Registerkarten. |
 
-## Angeforderter Datenbereich
+## Browserfaktoren
 
-Der Bereich der während eines Projekts angeforderten Daten beeinflusst die Performance von Analysis Workspace.
+**[!UICONTROL Zu den Faktoren Hilfe > Leistungsbrowser]** gehören:
 
-**Best Practices für Datumsbereiche**
+| Faktor | Definition | Beeinflusst durch | Optimierung |
+|---|---|---|---|
+| Berechnungsgeschwindigkeit | Wie schnell Ihr Computer einen Verarbeitungstest durchführt. Der empfohlene Schwellenwert ist &lt; 750 ms. | Ihre Hardware und gleichzeitig erhältliche Programm wirken sich auf diesen Faktor aus. | Öffnen Sie den Aufgabe-Manager (PC) oder den Aktivität-Monitor (Mac) Ihres Computers, um zu ermitteln, ob Programm geschlossen werden können. Schließen Sie dann nicht verwendete Browser-Registerkarten oder andere Programm. <br><br>Wenn diese Aktionen nicht hilfreich sind, besprechen Sie Hardwaredetails mit Ihrem IT-Team. |
+| Speicher verwendet | Jede Workspace-Registerkarte in einem Google Chrome-Browser verfügt über 4 GB Arbeitsspeicher (Firefox hat einen höheren Schwellenwert). Dies entspricht dem Prozentsatz des Speicherlimits, das vom aktuellen Projekt belegt wird. Der empfohlene Schwellenwert beträgt 3500 MB. Dies ist der Zeitpunkt, an dem Workspace Speicherfehler aufdeckt. | Das Arbeiten mit mehreren Registerkarten oder das Herunterladen von 50000 Zeilen mit Daten trägt zu einer höheren Speicherbelegung bei. | Wenn Sie einen Speicherfehler erhalten, wird empfohlen, andere Workspace-Registerkarten zu schließen und/oder 50000 Zeilen-Downloads einzeln auszuführen. |
+| Lokaler Speicher verwendet | Daten, die lokal auf Ihrem Computer zur Verwendung im Browser gespeichert werden. Jede Herkunft (z. B. experience.adobe.com) verfügt über eine 10-MB-Grenze. | Analysis Workspace verwendet lokale Datenspeicherung für verschiedene Funktionen, unter anderem zum Speichern automatisch gespeicherter (vorhandener) Projekte, Benutzereinstellungen und Funktionsmarkierungen. | Um sicherzustellen, dass Analysis Workspace-Funktionen nicht gestört werden, sollten Sie die lokale Datenspeicherung für die Domäne &quot;experience.adobe.com&quot;löschen. |
+| Rendering-Geschwindigkeit | FPS steht für Frames pro Sekunde, d. h., wie oft der Browser die Seite auf Ihrem Bildschirm zeichnet. 24 FPS sind häufig das, was das menschliche Auge beobachten kann. Wenn die FPS niedriger ist, werden in Workspace Renderingprobleme beobachtet. | Die FPS wird durch Multitasking in vielen Workspace-Projekten auf einmal und in der Größe des angezeigten Projekts beeinflusst. Andere auf Ihrem Computer ausgeführte Programm können Auswirkungen haben, wie Streaming, Hintergrundscanner usw. Darüber hinaus wirkt sich Ihre Hardware auf diesen Faktor aus. | Öffnen Sie den Aufgabe-Manager (PC) oder den Aktivität-Monitor (Mac) Ihres Computers, um zu ermitteln, ob Programm geschlossen werden können. Schließen Sie dann nicht verwendete Browser-Registerkarten oder andere Programm. <br><br>Wenn diese Aktionen nicht hilfreich sind, besprechen Sie Hardwaredetails mit Ihrem IT-Team. |
 
-Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen. Schränken Sie den Kalender des Bedienfelds auf die relevanten Daten für Ihre Analyse ein oder verwenden Sie Datumsbereichskomponenten (violette Komponenten) in Ihren Freiform-Tabellen. In einer Tabelle verwendete Datumsbereiche überschreiben den Datumsbereich des Bedienfelds. Beispielsweise können Sie den Tabellenspalten „Letzter Monat“, „Letzte Woche“ und „Gestern“ hinzufügen, um diese spezifischen Datenbereiche anzufordern. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html).
+## Projektfaktoren
 
-Minimieren Sie die Anzahl der im Projekt verwendeten Jahresvergleiche. Bei der Berechnung eines Jahresvergleichs werden die gesamten 13 Monate von Daten zwischen den betrachteten Monaten berücksichtigt. Dies hat die gleiche Auswirkung wie die Änderung des Datumsbereichs des Bedienfelds auf 13 Monate.
+**[!UICONTROL Hilfe > Leistungsbezogene]** Projektfaktoren:
 
-## Anzahl der Visualisierungen
+| Faktor | Definition | Optimierung |
+|---|---|---|
+| Anzahl der Abfragen | Die Gesamtzahl der Abfragen (Anforderungen), die an die Adobe zum Abrufen der im Projekt angezeigten Daten vorgenommen wurden. Zu den Abfragen gehören Anforderungen mit Rangansicht für Tabellen, Anomalieerkennung, Wortgrafiken, Komponenten in der linken Leiste und mehr. Schließt ausgeblendete Bereiche und Visualisierungen aus. Der empfohlene Schwellenwert ist 100. | Vereinfachen Sie Ihr Projekt nach Möglichkeit, indem Sie Daten in verschiedene Projekte aufteilen, die einem bestimmten Zweck oder einer Gruppe von Interessenvertretern dienen. Verwenden Sie Tags, um Projekte in Themen zu organisieren, und verwenden Sie [direkte Verknüpfungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) , um ein internes Inhaltsverzeichnis zu erstellen, damit die Interessenträger leichter finden können, was sie benötigen. |
+| Erweiterte Bedienfelder (außerhalb der Gesamtzahl der Bedienfelder) | Die Anzahl der erweiterten Bereiche aus der Gesamtzahl der Bereiche im Projekt. Der empfohlene Schwellenwert ist 5. | Nachdem Sie Schritte zur Vereinfachung des Projekts unternommen haben, reduzieren Sie die Bedienfelder im Projekt, die beim Laden nicht angezeigt werden müssen. Wenn das Projekt geöffnet wird, werden nur erweiterte Bereiche verarbeitet. Reduzierte Bereiche werden erst verarbeitet, wenn der Benutzer sie erweitert. |
+| Erweiterte Visualisierungen (aus der Gesamtzahl der Visualisierungen) | Die Anzahl der erweiterten Tabellen und Visualisierungen aus der Gesamtsumme im Projekt. Schließt verborgene Datenquellen aus. Der empfohlene Schwellenwert ist 15. | Nachdem Sie Schritte zur Vereinfachung des Projekts unternommen haben, reduzieren Sie die Visualisierungen in Ihrem Projekt, die beim Laden nicht angezeigt werden müssen. Priorisieren Sie die Visualisierungen, die für den Benutzer des Berichts am wichtigsten sind, und unterteilen Sie ggf. unterstützende Visualisierungen in einem separaten, detaillierteren Bereich oder Projekt. |
+| Anzahl der Freiformzellen | Die Gesamtzahl der Freiform-Tabellenzellen im Projekt, berechnet durch Zeilen * Spalten in allen Tabellen. Schließt verborgene Datenquellen aus. Der empfohlene Schwellenwert ist 4000. | Reduzieren Sie die Anzahl der Spalten in Ihrer Tabelle auf die relevantesten Datenpunkte. Reduzieren Sie die Anzahl der Zeilen in Ihrer Tabelle, indem Sie die Anzahl der angezeigten Zeilen anpassen, einen Tabellenfilter anwenden oder ein Segment anwenden. |
+| Verfügbare Komponenten | Die Gesamtzahl der in der linken Leiste des Projekts abgerufenen Komponenten für alle Report Suites im Projekt. Der empfohlene Schwellenwert ist 2000. | Sprechen Sie mit Ihrem Produktadministrator über das Erstellen einer kuratierten Virtual Report Suite, die über einen stärker auf Ihre Bedürfnisse zugeschnittenen Satz an Komponenten verfügt. |
+| Verwendete Komponenten | Die Gesamtzahl der im Projekt verwendeten Komponenten. Der empfohlene Schwellenwert ist 100. | Die Anzahl der verwendeten Komponenten ist kein direkter Leistungseinfluss. Die Komplexität dieser Komponenten wird jedoch zur Leistung des Projekts beitragen. Siehe empfohlene Optimierungen im Abschnitt &quot;Weitere Faktoren&quot;. |
+| Längster Datumsbereich | Dieser Faktor zeigt den längsten Datumsbereich an, der für das Projekt verwendet wurde. Der empfohlene Schwellenwert ist 1 Jahr. | Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen. Schränken Sie den Bereichskalender auf die relevanten Daten für Ihre Analyse ein oder verwenden Sie Datumsbereichskomponenten (violette Komponenten) in Ihren Freiformtabellen. In einer Tabelle verwendete Datumsbereiche überschreiben den Datumsbereich des Bedienfelds. Beispielsweise können Sie den Tabellenspalten „Letzter Monat“, „Letzte Woche“ und „Gestern“ hinzufügen, um diese spezifischen Datenbereiche anzufordern. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html). <br><br>Minimieren Sie außerdem die Anzahl der im Vergleich zum Vorjahr verwendeten Vergleiche. Bei der Berechnung eines Jahresvergleichs werden die gesamten 13 Monate von Daten zwischen den betrachteten Monaten berücksichtigt. Dies hat die gleiche Auswirkung wie die Änderung des Datumsbereichs des Bedienfelds auf 13 Monate. |
 
-Die Anzahl der Visualisierungen beeinflusst die Reaktionsschnelligkeit von Analysis Workspace. Dies liegt daran, dass jede Visualisierung, sei es eine Tabelle oder ein Diagramm, eine Datenquelle hat, die angefordert werden muss.
+## Zusätzliche Faktoren
 
-**Best Practices für die Anzahl der Visualisierungen**
+Weitere Faktoren, die nicht unter Hilfe > Leistung aufgeführt sind, sind:
 
-Verwenden Sie weniger Visualisierungen in Ihrem Projekt. Analysis Workspace führt für jede hinzugefügte Visualisierung viele Berechnungen durch. Priorisieren Sie also die Visualisierungen, die für den Nutzer des Berichts am wichtigsten sind, und erstellen Sie bei Bedarf für begleitende Visualisierungen ein separates, detaillierteres Projekt.
+| Faktor | Definition | Beeinflusst durch | Optimierung |
+|---|---|---|---|
+| Segmentkomplexität | Komplizierte Segmente können einen erheblichen Einfluss auf die Projektleistung haben. | Zu den Faktoren, die einem Segment Komplexität verleihen (in grober Reihenfolge der Auswirkungen), gehören: <ul><li>Operatoren von „enthält“, „enthält beliebige von“, „stimmt überein mit“, „beginnt mit“ oder „endet mit“ </li><li>Sequentielle Segmentierung, insbesondere wenn Dimensionseinschränkungen (innerhalb/nachher) verwendet werden </li><li>Anzahl der eindeutigen Dimensionselemente innerhalb der Dimensionen, die im Segment verwendet werden (z. B.: Seite = „A“, wenn Seite 10 eindeutige Elemente hat, ist schneller als Seite = „A“, wenn Seite 100000 eindeutige Elemente hat) </li><li>Anzahl der verschiedenen verwendeten Dimensionen (z. B.: Seite = „Startseite“ und Seite = „Suchergebnisse“ sind schneller als eVar 1 = „rot“ und eVar 2 = „blau“) </li><li>Viele OR-Operatoren (anstelle von AND) </li><li>Verschachtelte Container mit unterschiedlichem Umfang (z. B. Hit innerhalb des Besuchs innerhalb des Besuchers)</li></ul> | Einige der Komplexitätsfaktoren können nicht verhindert werden. Suchen Sie jedoch nach Möglichkeiten, die Komplexität Ihrer Segmente zu reduzieren. Generell gilt: Je genauer Sie mit Ihren Segmentkriterien umgehen können, desto besser. Beispiel: <ul><li>Bei Containern ist die Verwendung eines einzelnen Containers am oberen Rand des Segments schneller als die Verwendung einer Reihe verschachtelter Container </li><li>Bei Operatoren ist „stimmt überein mit“ schneller als „enthält“ und „entspricht beliebigen von“ ist schneller als „enthält beliebige von“ </li><li>Mit vielen Kriterien sind AND-Operatoren schneller als eine Reihe von OR-Operatoren.</li></ul> Suchen Sie nach Möglichkeiten, viele ODER-Anweisungen in einer einzigen Anweisung zu reduzieren, die &quot;gleich jeder von&quot; ist. <br><br>[Klassifizierungen](/help/components/classifications/c-classifications.md) können auch dazu beitragen, viele Werte zu knappen Gruppen zusammenzufassen, aus denen Sie dann Segmente erstellen können. Segmentierungen und Classification-Gruppen bieten leistungsbezogene Vorteile gegenüber Segmenten mit vielen OR-Anweisungen oder „enthält“-Kriterien. |
+| Komplexität der Visualisierung (Segmente, Metriken, Filter) | Die Art der Visualisierung (z. B. Fallout oder Freiformtabelle), die zu einem Projekt hinzugefügt wird, beeinflusst die Leistung selbst nur geringfügig. Die Verarbeitungszeit wird durch die Komplexität der Visualisierung gesteigert. | U. a. machen folgende Faktoren eine Visualisierung komplexer: <ul><li>Angeforderter Datenbereich </li><li>Anzahl der angewandten Segmente, z. B. als Zeilen verwendete Segmente in einer Freiformtabelle </li><li>Verwendung komplexer Segmente </li><li>[Statische Elementzeilen oder Spalten in Freiformtabellen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) </li><li>Auf Zeilen angewandte Filter in Freiformtabellen </li><li>Anzahl verwendeter Metriken, insbesondere berechneter Metriken, die Segmente verwenden</li></ul> | Wenn Sie bemerken, dass Ihre Projekte langsamer als gewünscht geladen werden, sollten Sie nach Möglichkeit einige Segmente durch eVars und Filter ersetzen. <br><br>Wenn Sie sich ständig mit Segmenten und berechneten Metriken für Datenpunkte beschäftigen, die für Ihr Unternehmen wichtig sind, sollten Sie Ihre Implementierung verbessern, um diese Datenpunkte direkter zu erfassen. Die Verwendung eines Tag-Managers wie Adobe Experience Platform Launch und der Verarbeitungsregeln der Adobe können die Implementierungsänderungen schnell und einfach implementieren. |
+| Größe der Report Suite | Die Menge der in Ihrer Report Suite erfassten Daten. Die Report Suite-Größe spielt aufgrund der Art und Weise, wie die Adobe mit der Datenverarbeitung umgeht, eine geringe Rolle bei der Projektleistung. | nicht angegeben | Wenden Sie sich an Ihr Implementierungsteam oder einen Experten für Adobe, um festzustellen, ob Implementierungsverbesserungen zur Verbesserung der Gesamterfahrung in Adobe Analytics möglich sind. |
 
-## Komplexität der Visualisierungen (Segmente, Metriken, Filter)
+## Allgemeine Fehlermeldungen
 
-Die Art der Visualisierung (z. B. Fallout oder Freiformtabelle), die zu einem Projekt hinzugefügt wird, beeinflusst die Leistung selbst nur geringfügig. Die Verarbeitungszeit wird durch die Komplexität der Visualisierung gesteigert. U. a. machen folgende Faktoren eine Visualisierung komplexer:
+Bei der Interaktion mit Analysis Workspace können Fehler auftreten, die auch die Leistung beeinflussen. Im Folgenden sind die häufigsten Fehlertypen, die Gründe dafür und Optimierungen aufgeführt, die vorgenommen werden können.
 
-* Angeforderter Datumsbereich, wie oben erwähnt
-* Anzahl der angewandten Segmente, z. B. als Zeilen verwendete Segmente in einer Freiformtabelle
-* Verwendung von komplizierten Segmenten
-* [Statische Elementzeilen oder Spalten in Freiformtabellen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-* Auf Zeilen angewandte Filter in Freiformtabellen
-* Anzahl verwendeter Metriken, insbesondere berechneter Metriken, die Segmente verwenden
-
-**Best Practice für die Visualisierungskomplexität**
-
-Wenn Sie bemerken, dass Ihre Projekte langsamer als gewünscht geladen werden, sollten Sie nach Möglichkeit einige Segmente durch eVars und Filter ersetzen.
-
-Wenn Sie ständig Segmente und berechnete Metriken für Datenpunkte verwenden, die für Ihr Unternehmen wichtig sind, sollten Sie versuchen, Ihre Implementierung zu verbessern, um diese Datenpunkte direkter zu erfassen. Mit einem Tag-Manager wie Adobe Experience Platform Launch und den Verarbeitungsregeln von Adobe sind Änderungen an der Implementierung schneller und leichter umzusetzen. Informationen zur Vereinfachung komplizierter Segmente finden Sie oben unter „Komplexität der Segmentlogik“.
-
-## Anzahl der Bereiche
-
-Ein Bereich kann viele Visualisierungen enthalten. Deshalb kann die Anzahl der Felder die Reaktionsschnelligkeit von Analysis Workspace beeinflussen.
-
-**Best Practices für die Anzahl der Bereiche**
-
-Versuchen Sie nicht, alles in ein Projekt zu packen. Erstellen Sie stattdessen spezifische Projekte, die für einen bestimmten Zweck oder eine Gruppe von Entscheidungsträgern zugeschnitten sind. Organisieren Sie Projekte mithilfe von Tags nach Schlüsselthemen und teilen Sie relevante Projekte mit Gruppen von Entscheidungsträgern.
-
-Wenn Sie Ihre Projekte noch genauer organisieren möchten, denken Sie daran, dass Sie [direkte Links](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) auf Ihre Projekte setzen können. Erstellen Sie einen internen Index Ihrer Projekte, sodass Entscheidungsträger einfacher die gewünschten Informationen finden können.
-
-Wenn Sie in einem Projekt viele Bedienfelder benötigen, reduzieren Sie sie, bevor Sie das Projekt speichern und freigeben. Wenn ein Projekt geladen wird, lädt Analysis Workspace nur den Inhalt der erweiterten Felder. Reduzierte Felder werden erst geladen, wenn der Nutzer sie erweitert. Dies hilft auf zwei Arten:
-
-* Reduzierte Felder verringern die gesamte Ladezeit eines Projekts
-* Mit reduzierten Feldern können Sie Ihre Projekte für den Nutzer des Berichts logisch organisieren
-
-## Größe der Report Suite
-
-Die Größe der Report Suite kann wie ein wichtiger Faktor erscheinen, doch tatsächlich spielt sie aufgrund des von Adobe genutzten Verfahrens zur Datenverarbeitung nur eine geringe Rolle bei der Projektleistung.  Es kann Ausnahmen von dieser Regel geben. Wenden Sie sich an Ihr Implementierungs-Team oder einen Adobe-Experten, um festzustellen, ob es Verbesserungen bei der Implementierung gibt, die zur Verbesserung des Gesamterlebnisses mit Adobe Analytics beitragen können.
-
-## Anzahl der Personen, die gleichzeitig auf Analysis Workspace zugreifen
-
-Die Anzahl der Benutzer, die gleichzeitig auf Analysis Workspace oder bestimmte Projekte zugreifen, hat keine wesentlichen Auswirkungen auf die Leistung von Analysis Workspace, wenn Benutzer auf verschiedene Report Suites zugreifen. Wenn Benutzer gleichzeitig auf dieselbe Report Suite zugreifen, wird die Leistung beeinträchtigt.
-
-## Allgemeine Fehlermeldungen in Analysis Workspace
-
-Bei der Interaktion mit Analysis Workspace können Fehler auftreten. Fehler können aus verschiedenen Gründen auftreten. Die häufigsten sind im Folgenden aufgeführt.
-
-| Fehlermeldung | Grund |
-| --- | --- |
-| [!UICONTROL Die Report Suite verzeichnet derzeit ein ungewöhnlich hohes Aufkommen von Berichtsdaten. Versuchen Sie es später erneut.] | Ihr Unternehmen versucht, zu viele Anforderungen gleichzeitig für eine bestimmte Report Suite auszuführen. Zu diesem Fehler gehören API-Anforderungen, geplante Projekte, terminierte Berichte, terminierte Warnungen und gleichzeitige Benutzer, die Berichterstellungsanforderungen ausführen. Wir empfehlen, dass Ihre Anforderungen und Zeitpläne für die Report Suite gleichmäßig über den Tag verteilt werden. |
-| [!UICONTROL Es ist ein Systemfehler aufgetreten. Bitte melden Sie eine Anfrage an den Kundendienst unter Hilfe > Support-Ticket senden an und geben Sie Ihren Fehlercode ein.] | Adobe hat ein Problem, das behoben werden muss. Es wird empfohlen, den Fehlercode über eine Anfrage an den Kundendienst zu senden. |
-| [!UICONTROL Die Anfrage ist zu komplex.] | Ihre Berichtsanfrage ist zu groß und kann nicht ausgeführt werden. Gründe für diesen Fehler sind Zeitüberschreitungen aufgrund der Anfragengröße, zu viele übereinstimmende Elemente in einem Segment oder Suchfilter, zu viele eingeschlossene Metriken, inkompatible Dimensions- und Metrikkombinationen usw. Wir haben empfohlen, dass Sie Ihre Anfrage vereinfachen. |
-| [!UICONTROL Eines der Segmente oder die Suche in dieser Visualisierung enthält eine Textsuche, die zu viele Ergebnisse zurückgab.] | Es wird empfohlen, die Suchtextkriterien einzuschränken und die Anfrage erneut auszuführen. |
-| [!UICONTROL Diese Dimension unterstützt nicht-standardmäßige Zuordnungsmodelle derzeit nicht.] | Wir empfehlen, die Dimension in Ihrer Tabelle durch eine Dimension zu ersetzen, die mit [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) kompatibel ist. |
-| [!UICONTROL Ihre Anforderung schlug aufgrund zu vieler Spalten oder vorkonfigurierter Zeilen fehl.] | Es wird empfohlen, einige Spalten oder Zeilen zu entfernen oder sie in separate Visualisierungen aufzuteilen. |
+| Fehlermeldung | Grund | Optimierung |
+| --- | --- | --- |
+| [!UICONTROL Die Report Suite verzeichnet derzeit ein ungewöhnlich hohes Aufkommen von Berichtsdaten. Versuchen Sie es später erneut.] | Ihr Unternehmen versucht, zu viele Anforderungen gleichzeitig für eine bestimmte Report Suite auszuführen. Zu diesem Fehler gehören API-Anforderungen, geplante Projekte, terminierte Berichte, terminierte Warnungen und gleichzeitige Benutzer, die Berichterstellungsanforderungen ausführen. | Verteilen Sie Ihre Anforderungen und Zeitpläne für die Report Suite gleichmäßig über den Tag. |
+| [!UICONTROL Es ist ein Systemfehler aufgetreten. Bitte melden Sie eine Anfrage an den Kundendienst unter Hilfe > Support-Ticket senden an und geben Sie Ihren Fehlercode ein.] | Adobe hat ein Problem, das behoben werden muss. | Senden Sie den Fehlercode an die Kundenunterstützung. |
+| Die Anfrage ist zu komplex. | Ihre Berichtsanfrage ist zu groß und kann nicht ausgeführt werden. Gründe für diesen Fehler sind Zeitüberschreitungen aufgrund der Anfragengröße, zu viele übereinstimmende Elemente in einem Segment oder Suchfilter, zu viele eingeschlossene Metriken, inkompatible Dimensions- und Metrikkombinationen usw. | Vereinfachen Sie Ihre Anforderung, indem Sie einige Spalten oder Zeilen in der Tabelle entfernen oder die Tabelle in separate Anforderungen aufteilen. |
+| Eines der Segmente oder die Suche in dieser Visualisierung enthält eine Textsuche, die zu viele Ergebnisse zurückgab. | Ihre Segmentkriterien oder Berichtsfilter sind zu breit angelegt. | Schränken Sie die Suchtextkriterien ein und versuchen Sie es erneut. |
+| Diese Dimension unterstützt nicht-standardmäßige Zuordnungsmodelle derzeit nicht. | Nicht standardmäßige Zuordnung wird für die verwendete Dimension nicht unterstützt. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| Ihre Anforderung schlug aufgrund zu vieler Spalten oder vorkonfigurierter Zeilen fehl. | Ihre Tabelle enthält zu viele Freiformzellen (Zeile * Spalten). | Entfernen Sie Spalten oder Zeilen in der Tabelle oder erwägen Sie, die Tabelle in separate Anforderungen zu unterteilen. |
