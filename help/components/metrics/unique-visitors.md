@@ -1,11 +1,11 @@
 ---
 title: Unique Visitors
-description: Die Anzahl der eindeutigen Einzelanwender (oder Geräte).
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+description: Die Anzahl der eindeutigen Besucher-IDs.
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Die Metrik „Unique Visitors“ gibt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffic, da sie einen allgemeinen Überblick über die Beliebtheit eines Dimensionselements bietet. Beispielsweise kann ein Besucher einen Monat lang jeden Tag auf Ihre Website kommen. Er zählt aber trotzdem als ein Unique Visitor.
 
-Wenn Sie [geräteübergreifende Analysen](../cda/overview.md) verwenden, wird diese Metrik in „Unique Devices“ umbenannt.
+Wenn Sie [geräteübergreifende Analysen](../cda/overview.md)verwenden, wird diese Metrik durch die Metrik &quot; [Individuelle Geräte](unique-devices.md) &quot;ersetzt.
 
 ## Unique Visitors pro Tag, Woche, Monat, Quartal und Jahr
 
