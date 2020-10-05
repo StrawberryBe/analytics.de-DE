@@ -1,11 +1,11 @@
 ---
 title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -43,7 +43,7 @@ Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Sui
 Wenn die geräteübergreifende Analyse für eine Virtual Report Suite aktiviert ist, beachten Sie die folgenden Änderungen:
 
 * Neben dem Namen der Virtual Report Suite wird ein neues geräteübergreifendes Symbol angezeigt. Dieses Symbol ist ausschließlich für geräteübergreifende Virtual Report Suites vorgesehen.
-* Eine neue Dimension mit der Bezeichnung „Identifizierter Status“ ist verfügbar. Diese Dimension bestimmt, ob die Experience Cloud ID für diesen Treffer dem Gerätediagramm zu diesem Zeitpunkt bekannt ist.
-* Es sind neue Metriken mit den Bezeichnungen „Personen“ und „Eindeutige Geräte“ verfügbar.
-* Die Metrik „Unique Visitors“ ist nicht verfügbar, da sie durch „Personen“ und „Eindeutige Geräte“ ersetzt wurde.
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. Diese Dimension bestimmt, ob die Experience Cloud ID für diesen Treffer dem Gerätediagramm zu diesem Zeitpunkt bekannt ist.
+* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
 * Beim Erstellen von Segmenten wird der Segmentcontainer „Besucher“ durch den Container „Person“ ersetzt.
