@@ -2,18 +2,23 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 100%
+source-wordcount: '2376'
+ht-degree: 94%
 
 ---
 
 
-
 # Kuratorleitfaden für Adobe Analytics-Dashboards
 
-Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+>[!IMPORTANT]
+>
+>Ab Oktober 2020 führt die Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der App &quot;Adobe Analytics Dashboards&quot;zu optimieren. Diese Erweiterungen konzentrieren sich auf die Zwischenspeicherung historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren Microsoft Azurblase-Konto für die öffentliche Cloud-Datenspeicherung zwischengespeichert. Wenden Sie sich an Ihren CSM, wenn Sie diese Leistungsverbesserungsfunktionen Opt-out möchten.
+
+Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video mit diesen Informationen finden Sie im Adobe Analytics Dashboards Scorecard Builder-Video:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Einführung
 
@@ -38,25 +43,20 @@ In der folgenden Tabelle werden Begriffe zum Verständnis von Zielgruppe, Funkti
 | Datumsbereich | Der primäre Datumsbereich für die Berichterstellung über die Dashboards |
 | Vergleichsdatumsbereich | Der Datumsbereich, der mit dem primären Datumsbereich verglichen wird |
 
- 
 ## Scorecard für ausführende Benutzer erstellen
 
 Eine Scorecard stellt wie nachfolgend gezeigt wichtige Datenvisualisierungen für ausführende Benutzer in einem gekachelten Layout bereit:
 
-
 ![Beispiel-Scorecard](assets/intro_scorecard.png)
-
 
 Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder konfigurieren, welche Kacheln auf der Scorecard für den Verbraucher angezeigt werden. Sie können auch konfigurieren, wie die detaillierten Ansichten oder Aufschlüsselungen angepasst werden können, sobald auf die Kacheln getippt wird. Hier sehen Sie die Scorecard Builder-Oberfläche:
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-
 Zur Erstellung der Scorecard führen Sie folgende Schritte aus:
 
 1. Greifen Sie auf die Vorlage für leere mobile Scorecards zu.
 2. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
-
 
 ### Auf die Vorlage für leere mobile Scorecards zugreifen
 
@@ -151,7 +151,7 @@ Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Anal
 
 Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **Freigeben eingebetteter Komponenten** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
 
-## App für ausführende Benutzer einrichten
+## Einrichten von leitenden Benutzern mit der App
 
 In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
 
@@ -205,7 +205,7 @@ So unterstützen Sie ausführende Benutzer:
    * Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 
-3. Erklären Sie dem ausführenden Benutzer, wie Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden (die erste Scorecard unten ist auf den Dunkelmodus eingestellt. Weitere Informationen finden Sie unter **Voreinstellungen** weiter unten, wenn Sie der Meinung sind, dass Ihr ausführender Benutzer diese Anzeigeoption bevorzugt):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
 
    ![Kacheln erklären](assets/newexplain.png)
 
