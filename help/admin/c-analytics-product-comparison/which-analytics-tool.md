@@ -2,11 +2,11 @@
 description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -28,12 +28,15 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
 * Zum Einrichten von Kalenderereignissen
 * Zum Einrichten von Zielen
 * Zum Anzeigen von Bot-Berichten
-* Für den Zugriff auf Videovisualisierungen von gleichzeitigen Zuschauern, Videotagesabschnitten und Zuschauerrückgängen
+* Für den Zugriff auf eindeutige Video-Visualisierungen von Videotagesabschnitt und Viewer-Drop-off.
 * Zur Nutzung von Veröffentlichungslisten für terminierte Berichte
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** sollte verwendet werden:
 
-* Für den Export von 50.000 Datenzeilen
+>[!IMPORTANT]
+>
+>Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
+
 * Wenn die Projektarbeit tabellar organisiert werden soll.
 * Für die Verwendung des Site-Analyse-Berichts (3D-Pfadsetzungsbericht).
 
