@@ -2,9 +2,9 @@
 title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 13. Januar 2020 | [Adobe Analytics und Browsercookies](/help/technotes/cookies.md) wurden hinzugefügt. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](/help/admin/company/login-restrictions-eol.md). |
-| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) festgelegt. |
+| 21. November 2019 | Neue Dokumentation für [Customer Journey Analytics](https://docs.adobe.com/content/help/de-DE/analytics-platform/using/cja-landing.html) festgelegt. |
 | 28. September 2019 | Neue Artikel zu [Konfigurationsvariablen für die JavaScript-Implementierung](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12. September 2019 | Neue Dokumentation für [Journey IQ: Geräteübergreifende Analysen](/help/components/cda/overview.md). |
 | 28. August 2019 | Neuer Artikel zu [progressiven Web-Apps (PWAs) für Analytics](/help/analyze/pwa/pwa.md). |
