@@ -1,11 +1,11 @@
 ---
 description: Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurze Beschreibung des Konzepts sowie einen spezifischen Link zur Dokumentation mit weiteren Details zum Thema.
 title: Adobe Analytics – Schlüsselkonzepte
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1864'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ Dieser Abschnitt enthält die Schlüsselkonzepte für Adobe Analytics, eine kurz
 
 | Produkt | Beschreibung | Dokumentationslink |
 | --- | --- | --- |
-| Analysis Workspace | Browserlösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse Angebote bieten mehr Berichtsflexibilität als Reports and Analytics | [Analysis Workspace Home](/help/analyze/analysis-workspace/home.md) |
-| Reports and Analytics (früher SiteCatalyst) | Browserlösung zur Berichterstellung und Analyse Starter-Tool im Analytics-Paket. | [Reports and Analytics Home](/help/analyze/reports-analytics/getting-started.md) |
+| Analysis Workspace | Browserlösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Bietet mehr Berichtsflexibilität als Reports and Analytics. | [Analysis Workspace-Homepage](/help/analyze/analysis-workspace/home.md) |
+| Reports and Analytics (ehemals SiteCatalyst) | Browserlösung zur Berichterstellung und Analyse. Starter-Tool im Analytics-Paket. | [Reports and Analytics-Homepage](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Excel-Add-in, mit dem Sie benutzerspezifische Anfragen für Adobe Analytics-Daten erstellen und mit Microsoft Excel visualisieren können. | [Report Builder-Homepage](/help/analyze/report-builder/home.md) |
 | Ad Hoc Analysis (früher Discover) | Java-basiertes Tool für erweiterte digitale Analysen. | [Ad Hoc Analysis-Homepage](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench (ehemals Insight) | Wurde konstruiert, um Sie bei der Sammlung, Verarbeitung, Analyse und Visualisierung von Online- und Offline-Kundeninteraktionen über mehrere Kanäle hinweg zu unterstützen. | [Data Workbench-Client](https://docs.adobe.com/content/help/de-DE/data-workbench/using/client/t-open-ins.html) |
@@ -35,17 +35,17 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 
 | Begriff | Beschreibung | Dokumentationslink |
 | --- | --- | --- |
-| Eigenschaften (benutzerspezifischer Traffic) | Dimensionen zur Verfolgung des Traffics auf Ihrer Website aufgeschlüsselt nach Seiten. Eigenschaften bestehen nicht über Seiten hinweg. Schlüsselanwendungen für Traffic-Variablen: <ul> <li>Einfache Zählung zur Suche nach dem „beliebtesten“ Wert</li> <li>Einsicht darein, wie die Besucher durch die Website navigieren</li> </ul> <br>Beispiele für Traffic-Variablen: Seitenname, Seitenabschnitte, Browser. | [Props](/help/admin/admin/c-traffic-variables/traffic-var.md) |
-| eVar (benutzerdefinierte Konversion) | Dimensionen, die für einen Zeitraum bestehen, der von Ihnen angepasst wird. Zu den Ablaufoptionen gehören Ablauf des Ereignisses, Ablauf des Besuchs oder Ablauf nach x Tagen. Die Option sollte nach der Analyseart gewählt werden, die auf die Variable angewandt wird. <br> Wichtige Unterschiede zwischen eVars und Eigenschaften: <ul> <li>Eigenschaften werden häufig für die Pfadanalyse verwendet, da Persistenz entfernt wird.</li> <li>eVars werden häufig für die Konversionsanalyse verwendet.</li> </ul> <br>Beispiele für Konversionsvariablen: interne Suchbegriffe, interne Promotions, externe Kampagnen (s.campaign). | [eVars](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) |
+| Eigenschaften (benutzerspezifischer Traffic) | Dimensionen zur Verfolgung des Traffics auf Ihrer Website aufgeschlüsselt nach Seiten. Eigenschaften bestehen nicht über Seiten hinweg. Schlüsselanwendungen für Traffic-Variablen: <ul> <li>Einfache Zählung zur Suche nach dem „beliebtesten“ Wert</li> <li>Einsicht darein, wie die Besucher durch die Website navigieren</li> </ul> <br> Beispiele für Traffic-Variablen: Seitenname, Website-Abschnitte, Browser. | [Props](/help/admin/admin/c-traffic-variables/traffic-var.md) |
+| eVar (benutzerdefinierte Konversion) | Dimensionen, die für einen Zeitraum bestehen, der von Ihnen angepasst wird. Zu den Ablaufoptionen gehören Ablauf des Ereignisses, Ablauf des Besuchs oder Ablauf nach x Tagen. Die Option sollte nach der Analyseart gewählt werden, die auf die Variable angewandt wird. <br> Wichtige Unterschiede zwischen eVars und Eigenschaften: <ul> <li>Eigenschaften werden häufig für die Pfadanalyse verwendet, da Persistenz entfernt wird.</li> <li>eVars werden häufig für die Konversionsanalyse verwendet.</li> </ul> <br> Beispiele für Konversionsvariablen: interne Suchbegriffe, interne Promotions, externe Kampagnen (s.campaign). | [eVars](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) |
 | Ereignisse/Metriken (s.events) | Metriken zur Messung von Kernhandlungen, von denen wir möchten, dass sie Besucher auf unserer Site ausführen. Es gibt drei Ereignisarten: Zähler, numerisch und Währung. Ereignisse sind am nützlichsten, wenn sie Berichten zu Konversionsvariablen (eVar) hinzugefügt werden. Die eVar vermittelt qualitative Informationen über Geschehnisse, und das Ereignis stellt quantitative Informationen zu den Geschehnissen bereit. <br> Wichtige Unterschiede zwischen eVars und Ereignissen: <ul> <li>eVars verraten, wer oder was die Konversion beeinflusst hat</li> <li>Ereignisse messen, wie viele Konversionen stattgefunden haben</li> </ul> <br> Beispiele für Konversionsereignisse: Bestellungen, Anwendungsaufrufe, Leads, Umsatz. | [Ereignisse](/help/admin/admin/c-success-events/success-event.md) |
 | Komponenten | Dimensionen, Metriken, Segmente und Zeitgranularitäten (Datumsbereiche), die Sie per Drag &amp; Drop in ein Projekt ziehen können. | [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | Dimensionen | Sammlung von eVars, Eigenschaften, Klassifizierungen und von Adobe erfassten Standardwerten. | [Dimensionen](/help/components/dimensions/overview.md) |
 | Metriken | Sammlung von implementierten Ereignissen und berechneten Metriken. | [Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md) |
 | Berechnete Metriken | Möglichkeit, benutzerspezifische Metriken aus vorhandenen Metriken abzuleiten, die über Ihre Implementierung erfasst wurden. | [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) |
-| Segmente | Möglichkeit, leistungsstarke, zielgerichtete Zielgruppensegmente in Ihre Analyseberichte einzuschließen, sie zu verwalten, freizugeben und anzuwenden. Segmente werden über Analytics-Produkte hinweg freigegeben und können auch in der Experience Cloud geteilt werden. | [Segmentierung](/help/components/segmentation/seg-home.md) |
+| Segmente | Möglichkeit, leistungsstarke, zielgerichtete Zielgruppensegmente in Ihre Analytics-berichte einzuschließen, sie zu verwalten, freizugeben und anzuwenden. Segmente werden über Analytics-Produkte hinweg freigegeben und können auch in der Experience Cloud geteilt werden. | [Segmentierung](/help/components/segmentation/seg-home.md) |
 | Zeit (Datumsbereiche) | Möglichkeit, das Datum nach einem beliebigen Zeitraum zu filtern und benutzerdefinierte Datumsbereiche zu erstellen, die in Ihrer Analyse wiederverwendet werden können. | [Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualisierungen | Umfangreiche Visualisierungen, die dazu beitragen können, Daten in Ihren Projekten zum Leben zu erwecken. | [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Kuratierung | Möglichkeit, die in einem Projekt oder in einer Virtual Report Suite verfügbaren Komponenten zu beschränken. | [VRS-Kuratierung](/help/components/vrs/vrs-components.md) <br> [Projektkuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) |
+| Kuratierung | Möglichkeit, die in einem Projekt oder in einer Virtual Report Suite verfügbaren Komponenten zu beschränken. | [VRS-Kuration](/help/components/vrs/vrs-components.md) <br> [Projektkuration](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Wichtige Berichte
 
@@ -58,7 +58,7 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Anomalieerkennung | Eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. Die Anzeige ist standardmäßig für alle Trendvisualisierungen im Analysis Workspace aktiviert. | [Anomalieerkennung](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | Beitragsanalyse | Untersucht die Gründe für auftretende Anomalien anhand einer automatischen Analyse jeder einzelnen Metrik und Dimension, auf die Sie Zugriff haben. | [Beitragsanalyse](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
 | Kohortenanalyse | Eine Kohorte ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Die Kohortenanalyse unterstützt Sie bei der Analyse der Kundenbindung und -abwanderung. | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |
-| Berichte zur Customer Journey | Zeigt Informationen über den Pfad an, den Ihre Benutzer auf Ihrer Site oder in Ihrer App nehmen. Eigenschaften, eVars und Ereignisse können in dieser Analyse in Analysis Workspace verwendet werden. | [Analysis Workspace-Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics-Pfade](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+| Berichte zur Customer Journey | Zeigt Informationen über den Pfad an, den Ihre Benutzer auf Ihrer Site oder in Ihrer App nehmen. Eigenschaften, eVars und Ereignisse können in dieser Analyse in Analysis Workspace verwendet werden. | [Analysis Workspace-Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace-Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics-Pfad](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Marketing-Kanäle | Mithilfe von Berichte erfahren Sie mehr zu den externen Kanälen, über die Besucher auf Ihre Site gelangen, und welche davon bei der Generierung von Konversionen am effektivsten sind. Zuordnungsansichten für die erste und letzte Berührung werden bereitgestellt. Das ist die bevorzugte externe Traffic-Berichtsquelle in Adobe Analytics (anders als Kampagnen oder Traffic-Quellen), da sie den umfassendsten Überblick sowohl über gezahlte als auch über organische Kanäle bietet. | [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Zeigt Informationen zu mit Mobilgeräten oder Tablets geöffneten Websites an. | [Mobil-Bericht](/help/components/dimensions/mobile-dimensions.md) |
 | Mobile App | Zeigt grundlegende Nutzungsinformationen in Bezug auf Ihre mobilen Anwendungen an. Diese Berichte sind verfügbar, wenn Ihre SDK implementiert und die Berichtsfunktion aktiviert wurde.  Zudem hat Adobe Mobile Services eine eigene Benutzeroberfläche für mobile Anwendungen erstellt, die vollständigere Anwendungsdaten anzeigt und es Ihnen ermöglicht, die Benutzerinteraktionen zu verstehen und zu verbessern.  Greifen Sie [hier](https://mobilemarketing.adobe.com) auf die Oberfläche zu. | [Adobe Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html) |
@@ -100,13 +100,13 @@ Klicken Sie [hier](/help/technotes/terms.md), um ein ausführliches Glossar der 
 | Report Builder | Siehe Analytics-Werkzeuge. |  |
 | Analytics-API  | Erstellen Sie Ihre eigenen Anfragen für Analysedaten. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
 | Data Warehouse | Siehe Analytics-Werkzeuge. |  |
-| Analytics-Daten-Feed | Die präziseste Möglichkeit, Daten aus Analytics zu erhalten Erstellen Sie einen trefferbasierten Feed, der über Analytics funktioniert. | [Analytics Data Feed](/help/export/analytics-data-feed/data-feed-overview.md) |
+| Analytics-Daten-Feed | Die präziseste Möglichkeit, Daten aus Analytics zu erhalten. Erstellen Sie einen trefferbasierten Feed, der über Analytics funktioniert. | [Analytics Data Feed](/help/export/analytics-data-feed/data-feed-overview.md) |
 
 ## Datensammlung und -validierung {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
 | Methode/Ressource | Beschreibung | Dokumentationslink |
 | --- | --- | --- |
-| Entwicklungsressourcen | Dokumentation, die die verfügbaren Bibliotheken zur Sammlung von Analysedaten über alle verfügbaren Plattformen hinweg enthält (Web, mobile Anwendung, Video, Flash usw.) | [Dokumente für Entwickler](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Entwicklungsressourcen | Dokumentation, die die verfügbaren Bibliotheken zur Sammlung von Analytics-daten über alle verfügbaren Plattformen hinweg enthält (Web, mobile Anwendung, Video, Flash usw.) | [Dokumente für Entwickler](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | Implementierungshandbuch | Eine Beschreibung der Datenerfassungsvariablen und Einzelheiten zur Implementierung von Datenerfassungscode in JavaScript. | [Implementierungshandbuch](/help/implement/home.md) |
 | AppMeasurement (s_code) | Globale Variablenverwaltung. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | Anwendungs-SDKs | Benutzerdefiniertes Paket, das eine vorausgefüllte Version der Konfigurationsdatei für Anwendungen enthält. | <ul><li>[iOS](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/de-DE/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
