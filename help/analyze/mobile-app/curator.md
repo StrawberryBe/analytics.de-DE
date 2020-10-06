@@ -2,7 +2,7 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 94%
@@ -11,10 +11,6 @@ ht-degree: 94%
 
 
 # Kuratorleitfaden für Adobe Analytics-Dashboards
-
->[!IMPORTANT]
->
->Ab Oktober 2020 führt die Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der App &quot;Adobe Analytics Dashboards&quot;zu optimieren. Diese Erweiterungen konzentrieren sich auf die Zwischenspeicherung historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren Microsoft Azurblase-Konto für die öffentliche Cloud-Datenspeicherung zwischengespeichert. Wenden Sie sich an Ihren CSM, wenn Sie diese Leistungsverbesserungsfunktionen Opt-out möchten.
 
 Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video mit diesen Informationen finden Sie im Adobe Analytics Dashboards Scorecard Builder-Video:
 
@@ -263,3 +259,7 @@ Tippen Sie auf die Option und wählen Sie eine Unterkategorie für den Vorschlag
 **So stellen Sie eine Frage:**
 
 Tippen Sie auf die Option und geben Sie im obersten Feld Ihre E-Mail-Adresse und im Feld darunter Ihre Frage an. Ein Screenshot wird automatisch an die Nachricht angehängt. Sie können den Screenshot jedoch löschen, indem Sie auf das **X** im Bild des Anhangs tippen. Außerdem können Sie eine Bildschirmaufzeichnung erstellen, weitere Screenshots hinzufügen oder Dateien anhängen. Um die Frage zu senden, tippen Sie auf das Papierfliegersymbol oben rechts im Formular.
+
+>[!IMPORTANT]
+>
+>Ab Oktober 2020 führt die Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der App &quot;Adobe Analytics Dashboards&quot;zu optimieren. Diese Erweiterungen konzentrieren sich auf die Zwischenspeicherung historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren Microsoft Azurblase-Konto für die öffentliche Cloud-Datenspeicherung zwischengespeichert. Wenden Sie sich an Ihren CSM, wenn Sie diese Leistungsverbesserungsfunktionen Opt-out möchten.
