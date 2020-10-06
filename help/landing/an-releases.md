@@ -1,18 +1,18 @@
 ---
 description: Erläutert die neue Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
 title: Veröffentlichung von Adobe Analytics-Funktionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Veröffentlichung von Adobe Analytics-Funktionen
 
-Bisher wurden die Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Seit April 2020 ist Adobe Analytics zu einem kontinuierlichen Versand-Modell übergegangen, das eine skalierbarere, stufenweise Einführung von Funktionen ermöglicht.
+Bisher wurden die Adobe Analytics-Funktionen nach einem festen monatlichen Zeitplan veröffentlicht. Ab April 2020 wurde Adobe Analytics auf ein kontinuierliches Bereitstellungsmodell umgestellt, das einen skalierbareren, schrittweisen Ansatz für die Implementierung von Funktionen ermöglicht.
 
 ## Veröffentlichungsstrategie
 
@@ -28,9 +28,9 @@ Bei jeder Funktionsveröffentlichung kann die Timeline von RTP bis GA variieren.
 
 ## Funktionsmarkierungen
 
-Mithilfe von Funktions-Flags wird die Sichtbarkeit neuer Funktionen während der Veröffentlichung gesteuert. Adobe empfiehlt, app.launchdarkly.com zur [Zulassungsliste](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) Ihrer Firewall hinzuzufügen, um eine optimale Veröffentlichung zu erzielen. Kurz nachdem GA erreicht wurde, wird die Fahne entfernt.
+Mithilfe von Funktionsmarkierungen wird die Sichtbarkeit neuer Funktionen während der Veröffentlichung gesteuert. Adobe empfiehlt, app.launchdarkly.com zur [Zulassungsliste](https://docs.adobe.com/content/help/de-DE/analytics/technotes/ip-addresses.html) Ihrer Firewall hinzuzufügen, um eine optimale Veröffentlichung zu erzielen. Kurz nach der allgemeinen Verfügbarkeit wird die Markierung entfernt.
 
-Sie können Ihre Flags für aktive Funktionen jederzeit unter &quot; **Hilfe&quot;> &quot;Info zu Arbeitsbereich&quot;> &quot;Aktive Funktionen&quot;Ansicht** haben.
+Sie können sich Ihre aktiven Funktionsmarkierungen jederzeit unter **Hilfe > Über den Workspace > Aktive Funktionsmarkierungen** ansehen.
 
 ## Vorteile
 
@@ -41,4 +41,4 @@ Die stufenweise Veröffentlichung ermöglicht es Adobe, den Software-Implementie
 | Frage | Antwort |
 |---|---|
 | Kann ich frühzeitigen Zugriff auf eine Funktion anfordern? | Nein. Es wird kein frühzeitiger Zugriff gewährt.<br>Wenn Sie frühe Analytics-Konzepte testen möchten, empfehlen wir Ihnen, [Adobe Analytics Labs](https://docs.adobe.com/content/help/de-DE/analytics/analyze/tech-previews/overview.html) zu testen, um Feedback zu unseren branchenführenden Innovationen zu geben. |
-| Hat diese Veröffentlichungsstrategie Auswirkungen auf meinen Zugriff auf Funktionen? | Nein. Sobald eine Funktion GA erreicht hat, haben Sie Zugriff auf die Funktion, wenn sie in Ihrem Analytics-Paket enthalten ist.<br>Details zu Ihrem Analysen-Paket finden Sie unter [!UICONTROL Admin] > [!UICONTROL Unternehmenseinstellungen] > [Funktionszugriffsebenen](https://docs.adobe.com/content/help/de-DE/analytics/admin/company-settings/feature-access-levels.html). |
+| Hat diese Veröffentlichungsstrategie Auswirkungen auf meinen Zugriff auf Funktionen? | Nein. Sobald eine Funktion GA erreicht hat, haben Sie Zugriff auf die Funktion, wenn sie in Ihrem Analytics-Paket enthalten ist.<br>Details zu Ihrem Analytics-Paket finden Sie unter [!UICONTROL Admin] > [!UICONTROL Unternehmenseinstellungen] > [Funktionszugriffsebenen](https://docs.adobe.com/content/help/de-DE/analytics/admin/company-settings/feature-access-levels.html). |
