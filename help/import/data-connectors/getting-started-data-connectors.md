@@ -1,11 +1,11 @@
 ---
 description: Import von Tracking-Daten aus Drittanbieteranwendungen in Analytics
 title: Erste Schritte mit Analytics Data Connectors
-translation-type: ht
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: ht
-source-wordcount: '976'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 98%
 
 ---
 
@@ -86,8 +86,9 @@ Für eine erfolgreiche Implementierung von Remarketing-Segmenten müssen folgend
 
 >[!NOTE]
 >
->Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird das prodView-Ereignis automatisch ausgelöst.
-Falls die obigen Voraussetzungen nicht erfüllt sind, werden die entsprechenden Remarketing-Segmente nicht korrekt berichtet.
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>Falls die obigen Voraussetzungen nicht erfüllt sind, werden die entsprechenden Remarketing-Segmente nicht korrekt berichtet.
 
 [!UICONTROL Warenkorbabbruch]: Wird ausgelöst, nachdem der Benutzer ein Produkt zum Warenkorb hinzugefügt hat:
 
