@@ -3,10 +3,10 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7786'
+ht-degree: 99%
 
 ---
 
@@ -414,8 +414,7 @@ Am 8. Februar 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Benutzerdefinierte Workspace-Vorlagen </a> </p> </td> 
    <td colname="col2"> <p>Sie können nun eigene Workspace-Vorlagen erstellen und speichern, damit andere Benutzer in Ihrer Organisation mit Daten beginnen können, die für sie relevant sind. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Launch-Modal für neue Projekte </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Wenn Sie auf „Neues Projekt“ klicken, wird ein neues Fenster geöffnet, in dem Sie mit folgenden Optionen beginnen können: </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">leeres Projekt </li> 
@@ -498,7 +497,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Die im Oktober 2017 eingeführte Zuordnungsvisualisierung kann nun im PDF-Format gerendert werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Bezug interner Links</a> beim Kopieren/Speichern eines Projekts </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Bezug interner Links</a> beim Kopieren/Speichern eines Projekts </p> </td> 
    <td colname="col2"> <p>Beim Kopieren eines Projekts bzw. bei der Verwendung der Funktion „Speichern unter“ führten bisher alle im Projekt gespeicherten internen Links zum Originalprojekt und nicht zum kopierten Projekt. </p> <p>Die internen Links beziehen sich nach dem Kopieren/Speichern nun auf das Projekt, in dem sie sich befinden. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ Am 26. Oktober 2017 veröffentlichte neue Funktionen.
    <td colname="col2"> <p>Wenn Visualisierungen mit einer Freiform- oder Kohortentabelle verbunden sind, listet der obere linke Punkt (Datenquelleneinstellungen) jetzt die verbundenen Visualisierungen auf. Durch Bewegen der Maus über die betreffende Stelle wird die verbundene Visualisierung hervorgehoben. Sie haben auch die Möglichkeit, durch Klicken mit der Maus dorthin zu gelangen. </p> <p>Außerdem können Sie die Datentabelle anhand des Kontrollkästchens „Datentabelle einblenden/ausblenden“ ein- bzw. ausblenden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Ereignisnummer zu Ereignisnamen in der linken Leiste hinzugefügt </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Ereignisnummer zu Ereignisnamen in der linken Leiste hinzugefügt </a> </p> </td> 
    <td colname="col2"> <p>Vor dem Oktober 2017 wurden evar# und prop# den Dimensionsnamen hinzugefügt und Sie konnten mithilfe solcher Nummern Suchvorgänge durchführen. Diese Funktion steht jetzt auch für Ereignisse zur Verfügung. </p> <p>Beispiel: „Abonnements“ wird jetzt auf der linken Leiste als „Abonnements (Ereignis 1)“ angezeigt. </p> <p>Bitte beachten Sie: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">Die Ereignisnummer wird nicht in der Tabelle angezeigt (um die Titel kurz zu halten). </li> 
@@ -576,7 +575,7 @@ Am 26. Oktober 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Vorkonfigurierte Dimensionen, die standardmäßig in logischer Reihenfolge sortiert sind </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Vorkonfigurierte Dimensionen, die standardmäßig in logischer Reihenfolge sortiert sind </a> </p> </td> 
    <td colname="col2"> <p>Die standardmäßige Sortierreihenfolge einiger Out-of-the-Box-Dimensionen wurde aktualisiert, und zwar in folgenden Fällen: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Wenn sie in eine Freiformtabelle gezogen werden. </li> 
@@ -677,7 +676,7 @@ Am 17. August 2017 veröffentlichte neue Funktionen.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Projekt beim Speichern taggen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Projekt beim Speichern taggen </a> </p> </td> 
    <td colname="col2"> <p>Sie können beim Speichern des Projekts nun Tags hinzufügen. </p> </td> 
   </tr> 
   <tr> 
