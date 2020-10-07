@@ -4,10 +4,10 @@ title: Analysis Workspace – Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace ist ein flexibles Browser-Tool, mit dem Sie schnell Analysen 
 
 Wenn Sie nur wenige Minuten Zeit haben, sehen Sie sich diese kurze Übersicht an, um zu sehen, was möglich ist.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Melden Sie sich bei Adobe Analytics{#login} an 
 
@@ -46,7 +46,7 @@ In Ihrem Workspace-Projekt können Sie auf **Bereiche, Tabellen, Visualisierunge
 
 ### Komponenten
 
-**Komponenten** sind Dimensionen, Metriken, Segmente oder Datumsbereiche, die alle in einer **[!UICONTROL Freiformtabelle]** kombiniert werden können, um Beginn bei der Beantwortung Ihrer Geschäftsfrage zu unterstützen. Machen Sie sich mit jedem [Komponententyp](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) vertraut, bevor Sie in Ihre Analyse eintauchen. Nachdem Sie die Terminologie der Komponenten beherrscht haben, können Sie mit dem Ziehen und Ablegen beginnen, um Ihre Analyse [in einer](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) Freiform-Tabelle **[!UICONTROL zu]** erstellen.
+**Komponenten** sind Dimensionen, Metriken, Segmente oder Datumsbereiche, die alle in einer **[!UICONTROL Freiformtabelle]** kombiniert werden können, um Beginn bei der Beantwortung Ihrer Geschäftsfrage zu unterstützen. Machen Sie sich mit jedem [Komponententyp](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) vertraut, bevor Sie in Ihre Analyse eintauchen. Nachdem Sie die Terminologie der Komponenten beherrscht haben, können Sie mit dem Ziehen und Ablegen beginnen, um Ihre Analyse [in einer](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) Freiform-Tabelle **[!UICONTROL zu]** erstellen.
 
 ![](assets/build-components.png)
 
