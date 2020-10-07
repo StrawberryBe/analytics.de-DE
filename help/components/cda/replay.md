@@ -1,11 +1,11 @@
 ---
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
-translation-type: ht
-source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
-workflow-type: ht
-source-wordcount: '624'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Die geräteübergreifende Analyse läuft in einer Virtual Report Suite zweimal über die Daten:
 
-* **Live-Stitching**: die geräteübergreifende Analyse versucht, jeden Treffer beim Eintreten zu zuzuordnen. Neue Geräte in der Report Suite, die sich noch nie angemeldet haben, werden in der Regel nicht auf dieser Ebene zugeordnet. Bereits erkannte Geräte werden sofort zugeordnet.
+* **Live-Stitching**: die geräteübergreifende Analyse versucht, jeden Treffer beim Eintreten zu zuzuordnen. Netto-neue Geräte an die Report Suite, die sich noch nicht angemeldet haben, werden normalerweise nicht auf dieser Ebene verknüpft. Bereits erkannte Geräte werden sofort zugeordnet.
 * **Wiederholung**: Ungefähr einmal pro Woche „wiederholt“ die geräteübergreifende Analyse die Daten anhand der gelernten eindeutigen Kennungen. In dieser Phase werden neue Geräte in der Report Suite zugeordnet.
 
 ## Beispieltabelle
