@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 97%
       + [Attributionsbedienfeld](analysis-workspace/c-panels/attribution.md)
       + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
       + [Freiform-Bedienfeld](analysis-workspace/c-panels/freeform-panel.md)
-      + [Medienkonforme Viewer-Bedienfeld](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Bedienfeld „Gleichzeitige Medienbetrachter“](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
       + Bedienfeld für den Segmentvergleich {#segment-comparison}
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -92,10 +92,10 @@ ht-degree: 97%
    + Projekte kuratieren oder freigeben {#curate-share}
       + [Menü „Freigeben“](analysis-workspace/curate-share/send-schedule-files.md)
       + [Kuratieren von Projekten](analysis-workspace/curate-share/curate.md)
-      + [Projekte freigeben](analysis-workspace/curate-share/share-projects.md)
+      + [Freigeben von Projekten](analysis-workspace/curate-share/share-projects.md)
       + [Erstellen von freigebbaren Links](analysis-workspace/curate-share/shareable-links.md)
-      + [Ansicht-only-Projekte](analysis-workspace/curate-share/view-only-projects.md)
-      + [PDF- oder CSV-Dateien herunterladen](analysis-workspace/curate-share/download-send.md)
+      + [Schreibgeschützte Projekte](analysis-workspace/curate-share/view-only-projects.md)
+      + [Herunterladen von PDF- oder CSV-Dateien](analysis-workspace/curate-share/download-send.md)
       + [Planen von Projekten](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Übersicht über Attribution](analysis-workspace/attribution/overview.md)
@@ -239,8 +239,8 @@ ht-degree: 97%
       + [Fehlerbehebung für die Power BI-Integration](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Adobe Analytics-Inhaltspakete für Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic-Makros](report-builder/vba.md)
-   + [Fehlerbehebung beim Report Builder](report-builder/troubleshoot.md)
-   + [Häufig gestellte Fragen zu Report Buildern](report-builder/faq.md)
+   + [Fehlerbehebung bei Report Builder](report-builder/troubleshoot.md)
+   + [Häufig gestellte Fragen zu Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Übersicht über Activity Map](activity-map/activity-map.md)
    + Erste Schritte {#getting-started}
@@ -306,7 +306,7 @@ ht-degree: 97%
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
    + [Fehlerbehebung](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis  {#ad-hoc-analysis}
++ Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Ad Hoc Analysis Project Converter – Übersicht](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad Hoc Analysis konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
