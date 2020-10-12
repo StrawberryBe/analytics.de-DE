@@ -3,22 +3,48 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 99%
+source-wordcount: '8103'
+ht-degree: 98%
 
 ---
 
 
 # Neuerungen in Analysis Workspace
 
+Die Adobe Experience Cloud Versionshinweise als Ganzes finden Sie [hier](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
+
+## Oktober 2020
+
+Im Oktober 2020 veröffentlichte neue Funktionen.
+
+| Funktion | Beschreibung |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Die Option für anpassbare Durchschnittswerte wurde den Durchschnittswerteinstellungen der Linienvisualisierung hinzugefügt.]** Ein anpassbarer Durchschnittswert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Auswahl eines **[!UICONTROL Zeitraums]**), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. |
+| [Seite zur Leistung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Auf der Hilfeseite zur Leistung von Analysis Workspace werden die verschiedenen Faktoren, die die Projektleistung beeinflussen, sowie Links zu Optimierungs-Tipps angezeigt. |
+
+## September 2020
+
+Neue Funktionen, die im September 2020 veröffentlicht wurden.
+
+| Funktion | Beschreibung |
+| --- | --- |
+| [Download von 50.000 Objekten für eine einzige Dimension](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Sie können jetzt 50.000 Elemente für eine Dimension in einer Freiformtabelle herunterladen, wobei Segmente und Filter angewendet werden. Auf diese Weise können Sie auf mehr als 400 Datenzeilen außerhalb von Analysis Workspace zugreifen. |
+| [Verbesserungen der Linienvisualisierung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Sie können die X- und Y-Achse jeder Linienvisualisierung ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre Linienvisualisierungen kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
+| Neue Datumsbereiche | Es wurden 5 neue Datumsbereiche hinzugefügt, sodass Sie aus Datumsbereichen wählen können, die keine partiellen Tagesdaten von heute enthalten: Letzte 7 volle Tage, Letzte 14 volle Tage, Letzte 30 volle Tage, Letzte 60 volle Tage, Letzte 90 volle Tage |
+
+
+## August 2020
+
+Im August 2020 wurden keine neuen Funktionen veröffentlicht.
+
 ## Juli 2020
 
 Am 16. Juli 2020 wurde eine neu Funktion veröffentlicht.
 
 | Funktion | Beschreibung |
-|--- |--- |
+| --- | --- |
 | Neue Vorgaben für Datumsbereiche | Es wurden vier neue Datumsbereiche hinzugefügt: ([!UICONTROL Diese Woche/Dieser Monat/Dieses Quartal/Dieses Jahr (außer heute)]). Auf diese Weise können Sie aus Datumsbereichen auswählen, die keine Daten von heute enthalten. |
 
 ## Juni 2020
@@ -115,7 +141,7 @@ Am 18. Juli 2019 veröffentlichte Verbesserungen.
 Verbesserung veröffentlicht am 13. Juni 2019.
 
 | Verbesserung | Beschreibung |
-|--- |--- |
+| --- |--- |
 | Neue Standardfilter | Es wurden neue Standardfilter zur linken Leiste hinzugefügt. Über das hinaus, was Sie heute sehen (Dimensionen, Metriken, Genehmigt usw.), wurden neue Filter wie „Berechnete Metriken“, „Kundenattribute“, „eVars“, „Eigenschaften“, „Video“ usw. hinzugefügt, damit die benötigten Komponenten leichter gefunden werden können. |
 
 ## Mai 2019
@@ -207,6 +233,7 @@ Am 13. September 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
  </tbody> 
 </table>
+
 ## August 2018
 
 Am 9. August 2018 veröffentlichte neue Funktionen und Verbesserungen.
