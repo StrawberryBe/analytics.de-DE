@@ -325,7 +325,8 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Classification zu, u
    Die Seite **[!UICONTROL Report Suites auswählen]** wird angezeigt.
 
    >[!NOTE]
-   Report Suites werden *`only`* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:        >
+   >
+   >Report Suites werden *`only`* auf dieser Seite angezeigt, wenn die folgenden Bedingungen erfüllt sind:        >
 
    * Mindestens eine Classification ist für die Variable in [!UICONTROL Admin Tools] für die Report Suites definiert.
    (Eine Erläuterung zu dieser Voraussetzung finden Sie unter *`Variable`* in den [Klassifizierungsregelsätzen](/help/components/classifications/crb/classification-rule-set.md).)
