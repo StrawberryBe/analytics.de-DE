@@ -4,18 +4,16 @@ subtopic: Data sources
 title: Data Sources-Datei hochladen
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 87%
 
 ---
 
 
 # Data Sources-Datei hochladen
-
-Diese Schritte beschreiben, wie Sie eine Datenquellen-Datei hochladen.
 
 Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Verarbeitung an Data Sources weiter. Adobe unterhält mehrere Data Sources-FTP-Server, auf die Sie Data Sources-Dateien hochladen können. Beachten Sie Folgendes über die Data Sources-FTP-Server:
 
@@ -34,6 +32,7 @@ Nachdem Sie eine Data Sources-Datendatei vorbereitet haben, geben Sie sie zur Ve
    Die [!DNL .fin]-Datei muss genau den gleichen Namen aufweisen wie die Data Sources-Datei, mit Ausnahme der Dateierweiterung. Adobe stellt die Data Sources-Datei nicht für die Verarbeitung in eine Warteschlange, bis Sie die [!DNL .fin]-Datei hochgeladen haben.
 
    Laden Sie die Datei erst hoch, wenn alle Data Sources-Dateien vollständig hochgeladen wurden. Anderenfalls könnte Data Sources versuchen, eine unvollständige Datei zu verarbeiten.
+1. Nachdem die .fin-Datei hochgeladen wurde, müssen Sie sich unbedingt von der Data Sources-FTP-Site abmelden. Der Grund dafür ist, dass Analytics Abmeldedateien als Auslöser verwendet, um anzuzeigen, dass die Ereignisse zur Verarbeitung bereit sind.
 1. Achten Sie darauf, ob bei der Verarbeitung der Data Sources-Datei Meldungen ausgegeben werden.
 
    Im Data Sources-Manager werden Fehler angezeigt, die u. U. während der Dateiverarbeitung auftreten.
