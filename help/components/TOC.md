@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
-breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-title: '-Komponentenleitfaden '
+user-guide-description: Das hilft bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
 translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '640'
 ht-degree: 99%
 
 ---
