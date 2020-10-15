@@ -5,7 +5,7 @@ title: Kopf- und Fußzeilencode hinzufügen
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Mithilfe des Dynamic Tag Managements werden Staging- und Produktions-Einbettungs
 
 1. Kopieren Sie den Produktions-Fußzeilencode und fügen Sie ihn im [!DNL BODY]-Bereich Ihres Website-HTML-Codes ein.
 
-   Platzieren Sie den Code so nah wie möglich am [!DNL </body>]-Tag platziert haben.
+   Platzieren Sie den Code so nah wie möglich am `</body>` -Tag platziert haben.
 1. Kopieren Sie den Staging-Kopf- und Fußzeilencode und wiederholen Sie dann die oben beschriebenen Schritte für Ihre Staging-Website.
 
    >[!NOTE]
