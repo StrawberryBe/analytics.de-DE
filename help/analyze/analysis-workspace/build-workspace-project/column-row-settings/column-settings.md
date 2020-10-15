@@ -3,7 +3,7 @@ description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatieru
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 94%
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 Mithilfe der [!UICONTROL Spalteneinstellungen] können Sie die Spaltenformatierung konfigurieren. Einige davon sind bedingt.
 
-## [!UICONTROL Spalteneinstellungen] bearbeiten {#column-settings}
+## [!UICONTROL Spalteneinstellungen] bearbeiten {#edit-column-settings}
 
 Um die [!UICONTROL Spalteneinstellungen] aufzurufen, ziehen Sie eine Freiformtabelle in das Projekt und klicken Sie dann auf das Zahnrad-Symbol in der Spaltenüberschrift.
 
