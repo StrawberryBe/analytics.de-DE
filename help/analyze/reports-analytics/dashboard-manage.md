@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: Dashboard-Manager
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archiviere
 >[!IMPORTANT]
 >
 >Als Best Practice für den Dashboard-Manager wird empfohlen, für einen Benutzer nicht mehr als 300 Dashboards zu verwenden. Beachten Sie auch, dass der Manager alle unten aufgeführten freigegebenen Dashboards lädt. Achten Sie daher auf eine sinnvolle Freigabe von Dashboards.
-
-## Dashboard-Manager
-
-Mit dem Dashboard-Manager können Sie Dashboards kopieren, freigeben, archivieren und deren Bereitstellung planen.
 
 Klicken Sie auf **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Dashboards]**.
 
