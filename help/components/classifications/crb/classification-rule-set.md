@@ -4,20 +4,16 @@ subtopic: Classifications
 title: Klassifizierungsregelsätze
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '442'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
 
 
 # Klassifizierungsregelsätze
-
-Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
-
-## Klassifizierungsregelsätze
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
@@ -83,6 +79,6 @@ Benennen Sie den Classification-Regelsatz, wenden Sie die Variable an und legen 
 
    Die Report Suite und die Variablenliste werden mit allen klassifizierten Variablen ausgefüllt, die in allen Report Suites Ihres angemeldeten Unternehmens verfügbar sind. Eine Variable in einer Report Suite kann nur zu jeweils einem einzigen Regelsatz gehören.
 
-   Siehe  *`Variable`* in den Definitionen für die Seite [Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) für weitere Informationen.
+   Siehe *`Variable`* in den Definitionen für die Seite [Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) für weitere Informationen.
 1. Geben Sie die zu verwendenden Report Suites und Variablen an und klicken Sie auf **[!UICONTROL Speichern]**.
 1. Fahren Sie fort, indem Sie [Classification-Regeln zum Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md).
