@@ -3,15 +3,15 @@ description: Faktoren, die sich auf die Leistung und die Optimierungen von Works
 title: Leistungsfaktoren und Optimierung von Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
 
-# Optimieren der Analysis Workspace-Leistung
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 Verschiedene Faktoren können die Leistung eines Projekts in Analysis Workspace beeinflussen. Es ist wichtig zu wissen, was diese Mitarbeiter leisten, bevor Sie ein Projekt erstellen, damit Sie das Projekt optimal planen und erstellen können. Diese Seite enthält eine Liste von Faktoren, die sich auf die Leistung und die Optimierungen auswirken, die Sie vornehmen können, um eine Spitzenleistung in Analysis Workspace sicherzustellen.
 
@@ -19,9 +19,10 @@ Verschiedene Faktoren können die Leistung eines Projekts in Analysis Workspace 
 >
 >Die Seite &quot;Leistung&quot;in Analysis Workspace ist in limitierter Version verfügbar. [Weitere Infos](https://docs.adobe.com/content/help/de-DE/analytics/landing/an-releases.html)
 
-## Hilfe > Leistung in Analysis Workspace
+## [!UICONTROL Hilfe] > [!UICONTROL Leistung] in Analysis Workspace
 
-Unter &quot; **[!UICONTROL Analysis Workspace&quot;> &quot;Hilfe&quot;> &quot;Leistung]**&quot;können Sie die Faktoren sehen, die sich auf die Leistung Ihres Projekts auswirken, einschließlich Netzwerk-, Browser- und Projektfaktoren. Um die genauesten Ergebnisse zu erzielen, müssen Sie das Projekt vor dem Öffnen der Seite &quot;Leistung&quot;vollständig laden.
+Unter **Analysis Workspace > [!UICONTROL Hilfe] > [!UICONTROL Leistung]** können Sie Faktoren sehen, die die Leistung Ihres Projekts beeinflussen, einschließlich Netzwerk-, Browser- und Projektfaktoren. Um die genauesten Ergebnisse zu erzielen, müssen Sie das Projekt vor dem Öffnen der Seite &quot;Leistung&quot;vollständig laden.
+
 * In der Spalte &quot;Aktuelles Projekt&quot;werden die Ergebnisse für Ihr aktuelles Projekt und Ihre Umgebung angezeigt.
 * In der Spalte &quot;Führungslinie&quot;wird der von der Adobe empfohlene Schwellenwert für jeden Faktor angezeigt.
 
@@ -35,7 +36,7 @@ Darüber hinaus können Sie die Leistungsinhalte als CSV **** herunterladen, um 
 
 ## Netzwerkfaktoren
 
-Hilfe > Leistungsnetzwerkfaktoren:
+[!UICONTROL Hilfe] > [!UICONTROL Leistungsnetzwerkfaktoren] :
 
 | Faktor | Definition | Beeinflusst durch | Optimierung |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ Hilfe > Leistungsnetzwerkfaktoren:
 
 ## Browserfaktoren
 
-Hilfe > Leistungsbrowserfaktoren:
+[!UICONTROL Zu den] Faktoren [!UICONTROL des Browsers] &quot;Hilfe&quot;> &quot;Leistung&quot;gehören:
 
 | Faktor | Definition | Beeinflusst durch | Optimierung |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ Hilfe > Leistungsbrowserfaktoren:
 
 ## Projektfaktoren
 
-Hilfe > Leistungsprojektfaktoren:
+[!UICONTROL Zu den Projektfaktoren] &quot;Hilfe [!UICONTROL >] Leistung&quot;gehören:
 
 | Faktor | Definition | Optimierung |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Bei der Interaktion mit Analysis Workspace können Fehler auftreten, die auch di
 | [!UICONTROL Es ist ein Systemfehler aufgetreten. Bitte melden Sie eine Anfrage an den Kundendienst unter Hilfe > Support-Ticket senden an und geben Sie Ihren Fehlercode ein.] | Adobe hat ein Problem, das behoben werden muss. | Senden Sie den Fehlercode an die Kundenunterstützung. |
 | [!UICONTROL Die Anfrage ist zu komplex.] | Ihre Berichtsanfrage ist zu groß und kann nicht ausgeführt werden. Gründe für diesen Fehler sind Zeitüberschreitungen aufgrund der Anfragengröße, zu viele übereinstimmende Elemente in einem Segment oder Suchfilter, zu viele eingeschlossene Metriken, inkompatible Dimensions- und Metrikkombinationen usw. | Vereinfachen Sie Ihre Anforderung, indem Sie einige Spalten oder Zeilen in der Tabelle entfernen oder die Tabelle in separate Anforderungen aufteilen. |
 | [!UICONTROL Eines der Segmente oder die Suche in dieser Visualisierung enthält eine Textsuche, die zu viele Ergebnisse zurückgab.] | Ihre Segmentkriterien oder Berichtsfilter sind zu breit angelegt. | Schränken Sie die Suchtextkriterien ein und versuchen Sie es erneut. |
-| [!UICONTROL Diese Dimension unterstützt nicht-standardmäßige Zuordnungsmodelle derzeit nicht.] | Nicht standardmäßige Zuordnung wird für die verwendete Dimension nicht unterstützt. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL Diese Dimension unterstützt nicht-standardmäßige Zuordnungsmodelle derzeit nicht.] | Nicht standardmäßige Zuordnung wird für die verwendete Dimension nicht unterstützt. | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Ihre Anforderung schlug aufgrund zu vieler Spalten oder vorkonfigurierter Zeilen fehl.] | Ihre Tabelle enthält zu viele Freiformzellen (Zeile * Spalten). | Entfernen Sie Spalten oder Zeilen in der Tabelle oder erwägen Sie, die Tabelle in separate Anforderungen zu unterteilen. |
