@@ -3,20 +3,16 @@ description: Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die m
 title: Übersicht über den Segmentierungs-Workflow
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '268'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
 
 # Übersicht über den Segmentierungs-Workflow
-
-Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die mit dem Segment Builder erstellt wurden und mit dem Segment-Manager verwaltet werden.
-
-## Übersicht über den Segmentierungs-Workflow
 
 Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die mit dem Segment Builder erstellt wurden und mit dem Segment-Manager verwaltet werden.
 
@@ -33,13 +29,13 @@ seg_workflow.xml
 
 Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment mit Blick auf seinen Einsatzzweck und die konkrete Verwendung entworfen?
 
-Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die   Checkliste für die Segmentplanung.
+Eine Hilfe bei der Planung und Organisation Ihrer Segmente bietet Ihnen die  Checkliste für die Segmentplanung.
 
 ![](assets/step2_icon.png) [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
 Erstellen und bearbeiten Sie Segmente für die Verwendung mit sämtlichen Analytics-Funktionen.
 
-Siehe  [Erstellen sequenzieller Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem THEN-Operator.
+Siehe [Erstellen sequenzieller Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem THEN-Operator.
 
 ![](assets/step3_icon.png) [ Segmente taggen](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
