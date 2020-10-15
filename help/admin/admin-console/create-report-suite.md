@@ -1,9 +1,9 @@
 ---
 title: Erstellen einer Report Suite
 description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Dieser Artikel wurde für Administratoren oder Analytics-Administratoren auf Sys
 
 [Adobe Analytics-Handbuch für erste Administratoren](first-admin-guide.md): Vergewissern Sie sich, dass Ihnen ein Systemadministrator über die Experience Cloud Admin Console Zugriff auf Adobe Analytics gewährt hat.
 
-## Erstellen einer Report Suite
+## Erstellen einer Report Suite {#create-report-suite}
 
 >[!NOTE]
 >
