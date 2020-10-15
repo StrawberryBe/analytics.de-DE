@@ -4,10 +4,10 @@ subtopic: Get started
 title: Erste Schritte mit Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '725'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '702'
 ht-degree: 100%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 100%
 # Erste Schritte mit Reports &amp; Analytics
 
 Bevor Sie Reports &amp; Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
-
-## Erste Schritte mit Reports &amp; Analytics
-
-Bevor Sie Reports and Analytics verwenden, sollten Sie diese grundlegenden Schritte bezüglich Anmeldung und Setup beherrschen und wissen, wie Sie auf Ihre Kontoinformationen zugreifen können.
 
 Die Berichterstellung bietet Einblicke in Ihre traditionellen webbasierten Kanäle sowie die Entwicklung von Kanälen wie Mobilanwendungen, Video und soziale Netzwerke. Die Marketingberichte beinhalten zum Beispiel Informationen zu Folgendem:
 
