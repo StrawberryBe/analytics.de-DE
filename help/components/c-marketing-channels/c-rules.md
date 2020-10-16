@@ -1,11 +1,11 @@
 ---
 title: Verarbeitungsregeln für Marketing-Kanäle
 description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt. Die Regeln verarbeiten jeden Treffer des Besuchers auf Ihrer Site. Wenn eine Regel die Kriterien des Kanals nicht erfüllt oder die Regeln nicht richtig konfiguriert sind, ordnet das System den Treffer unter „Kein Kanal identifiziert“ ein.
-translation-type: ht
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+workflow-type: tm+mt
+source-wordcount: '2138'
+ht-degree: 90%
 
 ---
 
@@ -32,26 +32,22 @@ Weitere Hinweise zur Verarbeitung:
 
 Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besucherzugriff die dem Kanal zugewiesenen Kriterien erfüllt.
 
-Dieser Vorgang verwendet eine E-Mail-Regel als Beispiel. Es wird davon ausgegangen, dass Sie Ihrer Kanalliste auf der Seite „Marketingkanal-Manager“ einen E-Mail-Kanal hinzugefügt haben.
-
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Wählen Sie eine Report Suite aus.
 
    Wenn in Ihrer Report Suite keine Kanäle definiert wurden, wird die Seite [!UICONTROL Marketingkanäle: Automatisches Setup] angezeigt.
 
-   Siehe  [Ausführen des automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Siehe [Ausführen des automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-3. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Verarbeitungsregeln]**.
+3. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketingkanäle]** > **[!UICONTROL Marketingkanal-Verarbeitungsregeln]**. Wenn Sie das automatische Setup ausgeführt haben, wurden automatisch ein Kanal- und Regelsatz definiert.
 
-   ![Schritt Ergebnis](assets/marketing_channel_rules.png)
+   ![Ergebnis des Schritts](assets/marketing_channel_rules.png)
 
-4. Wählen Sie im Menü **[!UICONTROL Neuen Regelsatz hinzufügen:]** die Option **[!UICONTROL E-Mail]**.
-
-   Hier wählen Sie keinen Kanal, sondern eine Vorlage aus, die die Regel mit einigen der erforderlichen Parameter füllt. Sie können diese Vorlage nach Bedarf ändern.
+4. Wenn Sie eine neue Regel hinzufügen möchten, wählen Sie im Menü **[!UICONTROL Hinzufügen neuer Regelsatz]** die Option aus. Wenn Sie einen Kanal auswählen, erhalten Sie eine Regelvorlage. Wenn Sie &quot;Benutzerdefiniert&quot;auswählen, wird der Beginn aus einer leeren Tonspur angezeigt. Mit beiden Optionen können Sie den Regelsatz nach Bedarf ändern.
 
    ![Ergebnis des Schritts](assets/example_email.png)
 
-5. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**, um die Regelerstellung fortzusetzen.
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
 6. Ziehen Sie die Regeln zur Priorisierung an die gewünschte Position.
 7. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -59,13 +55,17 @@ Weiter unten auf dieser Seite finden Sie Empfehlungen für die Reihenfolge der K
 
 ### Festlegen des Marketing-Kanalwerts
 
-**[!UICONTROL Regel hinzufügen]** **Legt den Wert des Kanals fest** legt die Dimension „Marketing-Kanal-Detail“ fest, die für diesen Kanal verfügbar ist. Auf diese Weise können Sie die Dimensionen des Marketing-Kanals unterteilen und detailliertere Informationen zum Kanal anzeigen.
+**[!UICONTROL Legen Sie den Wert]** des Kanals fest und definieren Sie die Detail-Dimension des Marketing-Kanals, die für diesen Kanal verfügbar ist. Auf diese Weise können Sie die Dimensionen des Marketing-Kanals unterteilen und detailliertere Informationen zum Kanal anzeigen.
 
 Es wird empfohlen, den Kanalwert auf dieselben Kriterien einzustellen, die zum Definieren des Kanals selbst verwendet wurden. Wenn beispielsweise der Abfragezeichenfolgenparameter zum Definieren des Kanals verwendet wird, legen Sie den Abfragezeichenfolgenparameter ebenfalls als Kanalwert fest.
 
 ### Regelkriterien
 
 Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von Verarbeitungsregeln für Marketing-Kanäle verwenden können.
+
+>[!NOTE]
+>
+>Alle von Ihnen definierten Textfelder, wie z. B. Abfragen-Zeichenfolgenparameter oder Listen von , die abgeglichen werden sollen, werden als **Werte ohne Unterscheidung zwischen Groß- und Kleinschreibung** ausgewertet. Wenn Sie beispielsweise eine Regel haben, bei der der Abfrage-Zeichenfolgenparameter cmp = abc123, stimmen alle Versionen von &quot;cmp&quot;und &quot;abc123&quot;mit der Regel überein. Es ist nicht erforderlich, mehrere Groß-/Kleinbuchstaben dieser Werte Liste.
 
 | Begriff | Definition |
 |--- |--- |
@@ -88,7 +88,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Stammdomäne der Seite (TLD+1) | Die Stammdomäne der Seite, auf der der Besucher landet, z. B. example.co.uk. |
 | Seiten-URL | Die URL einer Webseite auf Ihrer Site. |
 | Referrer-Domäne | Die Domäne, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; Referrer können z. B. `abcsite.com` oder `xyzsite.com` sein. |
-| Abfragezeichenfolgenparameter | Wenn die Seiten-URL Ihrer Site z. B. `https://example.com/?page=12345&cat=1` lautet, dann sind „page“ und „cat“ beide Abfragezeichenfolgenparameter. (Siehe `https://en.wikipedia.org/wiki/Query_string`.)  Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Ihren Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. |
+| Abfragezeichenfolgenparameter | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (Siehe `https://en.wikipedia.org/wiki/Query_string`.)  Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Ihren Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. Die Zeichenfolgenparameter der Abfrage werden als nicht zwischen Groß- und Kleinschreibung unterschieden. Beispielsweise werden &quot;cat&quot;und &quot;CAT&quot;auf die gleiche Weise bewertet. |
 | Referrer | Die Webseite (volle URL), auf der sich Besucher befanden, bevor sie zu Ihrer Site kamen. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domäne. |
 | Verweisende Domäne und Pfad | Eine Verkettung aus verweisender Domäne und URL-Pfad. Beispiele sind: `www.example.com/products/id/12345` oder `ad.example.com/foo` |
 | Verweisender Parameter | Abfragezeichenfolgenparameter der verweisenden URL. Wenn Ihre Besucher z. B. von `example.com/?page=12345&cat=1` kommen, sind „page“ und „cat“ die verweisenden Parameter. |
@@ -130,7 +130,7 @@ Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt
 
 ### Anzeigen  {#display}
 
-Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall  *`Ad_01`*.
+Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall  *`Ad_01`*. Der Zeichenfolgenparameter der Abfrage und die gesuchten Werte werden ohne Unterscheidung der Groß-/Kleinschreibung ausgewertet.
 
 ![](assets/example_display.png)
 
@@ -154,7 +154,7 @@ Eine Best Practice besteht darin, einen Kanal „Andere Kampagnen“ einzubezieh
 
 ### Soziale Netzwerke  {#social-networks}
 
-Diese Regel identifiziert Besucher, die aus sozialen Netzwerken wie Facebook* stammen. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
+Diese Regel identifiziert Besucher, die aus einem sozialen Netzwerk wie Facebook;. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
 
 ![](assets/example_social.png)
 
@@ -164,7 +164,7 @@ Diese Regel gilt für Besucher, bei denen die Referrer-URL mit den in der Admin 
 
 ![](assets/int-channel1.png)
 
-Weitere Informationen zum Auftreten dieses Kanals finden Sie unter [Gründe für „Intern“ (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/c-faq.html).
+Weitere Informationen zum Auftreten dieses Kanals finden Sie unter [Gründe für „Intern“ (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/c-faq.html#internal).
 
 ### Direkt  {#direct}
 
