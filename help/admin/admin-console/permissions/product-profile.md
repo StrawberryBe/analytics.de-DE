@@ -1,9 +1,9 @@
 ---
-source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '514'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 72%
 
 ---
 # Produktprofile in Adobe Analytics
@@ -54,4 +54,6 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, 
 
 ## Produktprofilentwickler
 
-Entwickler ähneln Benutzern, allerdings können sie die Experience Cloud API auf Adobe I/O verwenden. Weitere Informationen finden Sie unter [Verwalten von Entwicklern](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) im Enterprise-Benutzerhandbuch.
+Entwickler ähneln Benutzern, allerdings können sie die Experience Cloud API auf Adobe I/O verwenden. Weitere Informationen finden Sie unter [Verwalten von Entwicklern](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) im Enterprise-Benutzerhandbuch. Wenn einem Benutzer Entwicklerzugriff für ein beliebiges Profil gewährt wird, kann er auf die Dev-Konsole (console.adobe.io) zugreifen und Adobe Analytics-Integrationen bearbeiten. Die für den Benutzer autorisierten Analytics-API-Aufrufe und -Antworten hängen von den Netzberechtigungen aller Profil ab, auf denen der Benutzer Zugriff auf Entwickler hat.
+
+Beispielsweise kann dieser Benutzer mit der Berechtigung &quot;Analysis Workspace Access&quot;, allen Metriken, allen Dimensionen und einer Report Suite erfolgreiche API-Aufrufe an den /Berichte-Endpunkt für alle Berichte in dieser Suite durchführen. Wenn die Anomalieerkennung hinzugefügt wird, können die Berichte umfassendere Antworten enthalten und die Anomaliedaten hinzufügen. Wenn ein Profil Zugriff auf ein Szenario in der Adobe Analytics-Oberfläche gewährt, aktivieren Entwicklerzugriff auf demselben Profil in der Regel die entsprechenden API-Aufrufe und -Antworten.
