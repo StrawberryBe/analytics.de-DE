@@ -1,8 +1,8 @@
 ---
-source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
+source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 72%
 
 ---
@@ -56,4 +56,4 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, 
 
 Entwickler ähneln Benutzern, allerdings können sie die Experience Cloud API auf Adobe I/O verwenden. Weitere Informationen finden Sie unter [Verwalten von Entwicklern](https://helpx.adobe.com/de/enterprise/using/manage-developers.html) im Enterprise-Benutzerhandbuch. Wenn einem Benutzer Entwicklerzugriff für ein beliebiges Profil gewährt wird, kann er auf die Dev-Konsole (console.adobe.io) zugreifen und Adobe Analytics-Integrationen bearbeiten. Die für den Benutzer autorisierten Analytics-API-Aufrufe und -Antworten hängen von den Netzberechtigungen aller Profil ab, auf denen der Benutzer Zugriff auf Entwickler hat.
 
-Beispielsweise kann dieser Benutzer mit der Berechtigung &quot;Analysis Workspace Access&quot;, allen Metriken, allen Dimensionen und einer Report Suite erfolgreiche API-Aufrufe an den /Berichte-Endpunkt für alle Berichte in dieser Suite durchführen. Wenn die Anomalieerkennung hinzugefügt wird, können die Berichte umfassendere Antworten enthalten und die Anomaliedaten hinzufügen. Wenn ein Profil Zugriff auf ein Szenario in der Adobe Analytics-Oberfläche gewährt, aktivieren Entwicklerzugriff auf demselben Profil in der Regel die entsprechenden API-Aufrufe und -Antworten.
+Beispielsweise könnte ein Entwicklerzugriffsmitglied des Profils mit Profil-Berechtigungen, einschließlich aller Metriken, aller Dimensionen und einer Report Suite, API-Aufrufe für jede Komponente in der jeweiligen Suite durchführen. Wenn die Anomalieerkennung hinzugefügt wird, können die Berichte umfassendere Antworten enthalten und die Anomaliedaten hinzufügen. Wenn ein Profil Zugriff auf ein Szenario innerhalb der Adobe Analytics-Oberfläche gewährt, aktivieren Entwickler-Zugriff auf ein ähnlich definiertes Profil im Prinzip entsprechende API-Aufrufe und -Antworten.
