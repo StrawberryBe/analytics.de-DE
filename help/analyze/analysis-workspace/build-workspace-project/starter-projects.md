@@ -2,11 +2,11 @@
 description: 'null'
 title: Vorlagen
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Benutzer mit Administratorrechten können aus jedem erstellten Projekt eine benu
 
 | Aktion | Beschreibung |
 |--- |--- |
-| Vorlage  bearbeiten | Lässt einen Administrator die Vorlage durch Änderung der Datenquelle, Anpassung von Komponenten, Visualisierungen, Datumsbereichen usw. bearbeiten.  Um eine Standardvorlage zu bearbeiten, können Sie entweder<ul><li>die Liste von benutzerdefinierten Vorlagen in Analysis Workspace öffnen, eine auswählen und auf „Vorlage bearbeiten“ klicken oder</li><li>in Analytics „Komponenten“ > „Projekte“ auswählen und dann nach Vorlagen filtern. Klicken Sie auf den Namen der Vorlage, die Sie bearbeiten möchten.</li></ul>**Hinweis:** Nachdem Sie eine Vorlage bearbeitet haben, haben Sie je nach Situation zwei Optionen: „Speichern“ oder „Speichern unter“. Sie unterscheiden sich in Folgendem:<ul><li>**Speichern:** Die benutzerdefinierte Vorlage wird für alle Benutzer aktualisiert. Wenn jemand anderer ein Projekt aus dieser benutzerdefinierten Vorlage erstellt, sieht er die von Ihnen gemachten Änderungen.</li><li>**Speichern unter:** Erstellt eine Kopie der benutzerdefinierten Vorlage mit Ihren Änderungen. (Dass Sie im Bearbeitungsmodus sind, lässt sich daran erkennen, dass das Menüelement „Freigabe“ > „Projekt freigeben“ deaktiviert ist.)</li></ul> |
+| Vorlage   bearbeiten | Lässt einen Administrator die Vorlage durch Änderung der Datenquelle, Anpassung von Komponenten, Visualisierungen, Datumsbereichen usw. bearbeiten.  Um eine Standardvorlage zu bearbeiten, können Sie entweder<ul><li>die Liste von benutzerdefinierten Vorlagen in Analysis Workspace öffnen, eine auswählen und auf „Vorlage bearbeiten“ klicken oder</li><li>in Analytics „Komponenten“ > „Projekte“ auswählen und dann nach Vorlagen filtern. Klicken Sie auf den Namen der Vorlage, die Sie bearbeiten möchten.</li></ul>**Hinweis:** Nachdem Sie eine Vorlage bearbeitet haben, haben Sie je nach Situation zwei Optionen: „Speichern“ oder „Speichern unter“. Sie unterscheiden sich in Folgendem:<ul><li>**Speichern:** Die benutzerdefinierte Vorlage wird für alle Benutzer aktualisiert. Wenn jemand anderer ein Projekt aus dieser benutzerdefinierten Vorlage erstellt, sieht er die von Ihnen gemachten Änderungen.</li><li>**Speichern unter:** Erstellt eine Kopie der benutzerdefinierten Vorlage mit Ihren Änderungen. (Dass Sie im Bearbeitungsmodus sind, lässt sich daran erkennen, dass das Menüelement „Freigabe“ > „Projekt freigeben“ deaktiviert ist.)</li></ul> |
 | Nach Vorlagen suchen | Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf „Vorlagen suchen“. |
 | Vorlagen ordnen | Sie können Vorlagen alphabetisch, nach Relevanz und nach Erstellungsdatum ordnen.  Klicken Sie im Dialogfeld „Benutzerdefinierte Vorlagen“ auf „Ordnen“. |
 | Tags auf eine Vorlage anwenden | Öffnen Sie die Vorlage und wählen Sie „Projekt“ > „Projektinfo und Einstellungen“. Klicken Sie auf „Tags hinzufügen“. |
@@ -55,7 +55,7 @@ Wenn Sie einen Workspace zum ersten Mal öffnen, sind Vorlagen in der linken Lei
 
 Sie können diese fertig ausgefüllten Vorlagen unverändert übernehmen oder an Ihre spezifischen Anforderungen anpassen (indem Sie beispielsweise Metriken oder Visualisierungen hinzufügen oder austauschen) und dann unter einem neuen Namen speichern.
 
-Hier finden Sie eine Videoschulung zu [Standardvorlagen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Hier finden Sie ein Tutorial zu [Standardvorlagen in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Im Folgenden finden Sie verfügbare Vorlagen und die Fragen, die die einzelnen Vorlagen beantworten.
 
@@ -65,7 +65,7 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 * **Schulungsanleitung – Internal Search Analysis**: Das Tutorial zur internen Suche hilft Ihnen zu verstehen, wonach Ihre Besucher auf der Website oder in der Mobile App suchen, jedoch nicht finden. Durch die Analyse dieser Art von Daten können sich Optimierungsmöglichkeiten für Inhalte offenbaren.
 
-* **Schulungslehrgang - Marketing-Analyse**: In diesem Lernprogramm erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte zusammenstellen, einschließlich der wichtigen Dimensionen und Metriken.
+* **Schulungsanleitung – Marketing Analysis**: In diesem Tutorial erfahren Sie, wie Sie eine Marketing-Analyse für Ihre Führungskräfte erstellen, einschließlich der wichtigen benutzerdefinierten Dimensionen und Metriken.
 
 ### Werbung
 
@@ -77,7 +77,7 @@ Diese Standardvorlagen führen Sie durch die gängige Terminologie und die Schri
 
 ### Handel
 
-* **Magento: Marketing und Handel**: Diese Vorlage unterteilt Ihre E-Commerce-Umrechnung nach der Zuordnung von Marketing-Kanälen und bietet Einblicke nach Suchbegriff, Landingpage, geografischer Position und mehr. Eine Videoübersicht finden Sie unter:
+* **Magento: Marketing und Handel**: Diese Vorlage schlüsselt Ihre E-Commerce-Konversionen nach der Marketing-Kanal-Attribution auf und bietet Einblicke nach Suchbegriff, Landingpage, Standort und mehr. Eine Videoübersicht finden Sie unter:
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
