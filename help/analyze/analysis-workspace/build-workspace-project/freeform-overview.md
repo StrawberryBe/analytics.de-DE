@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Projekt erstellen – Übersicht
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,15 +36,15 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 | [Neues Projekt erstellen](/help/analyze/analysis-workspace/home.md) | Klicken Sie auf diesen Link, um ein neues Projekt von Grund auf zu erstellen. |
 | Projekte verwalten | Wenn Sie auf diesen Link klicken, wird der Projektkomponentenmanager aufgerufen (**[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Projekte]**). Dort sind all Ihre Projekte aufgeführt und Sie können Projekte taggen, freigeben, löschen, umbenennen, genehmigen, kopieren und in CSV exportieren. |
 | Als Landingpage festlegen | Wandelt diese Seite in Ihre Workspace-Landingpage um. |
-| Tutorials anzeigen | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
+| Tutorials anzeigen | Sie gelangen zu den [Analysis Workspace-Tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | Name | Name des Workspace-Projekts. |
 | Inhaber | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
-| Typ | Gibt an, ob es sich um ein Workspace-Projekt oder eine [Mobile-Scorecard](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/home.html)handelt. |
-| Projektrolle | Gibt an, ob Sie der Eigentümer des Projekts sind, ob Sie das Projekt bearbeiten können oder ob es sich um ein Duplikat-Projekt handelt. |
+| Typ | Gibt an, ob es sich um ein Workspace-Projekt oder eine [mobile Scorecard](https://docs.adobe.com/content/help/de-DE/analytics/analyze/mobapp/home.html) handelt. |
+| Projektrolle | Gibt an, ob Sie der Eigentümer des Projekts sind, ob Sie das Projekt bearbeiten können oder ob es sich um ein dupliziertes Projekt handelt. |
 | Tags | Auf das Projekt angewendete Tags, entweder im Projektkomponentenmanager oder unter **[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**. |
 | Zuletzt geändert | Datum und Zeitpunkt der letzten Änderung des Projekts. |
-| Meine Lieblingsprojekte | Um ein Projekt als Favoriten zu markieren, öffnen Sie das Projekt und klicken Sie auf den Stern neben seinem Namen. Es wird in dieser Liste angezeigt, wenn Sie Workspace das nächste Mal öffnen. |
-| Häufig angezeigte Projekte | Liste aller häufig geöffneten Projekte, um den Zugriff zu erleichtern. |
+| Meine Favoriten | Um ein Projekt als Favoriten zu markieren, öffnen Sie das Projekt und klicken Sie auf den Stern neben seinem Namen. Wenn Sie Workspace das nächste Mal öffnen, wird das Projekt in dieser Liste angezeigt. |
+| Häufig angesehene Projekte | Listet alle häufig geöffneten Projekte auf, um den Zugriff zu erleichtern. |
 
 ## Projektinfo und Einstellungen {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
@@ -56,7 +56,7 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 
 | Einstellung | Beschreibung |
 |---|---|
-| Projekt  Name | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
+| Projekt   Name | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
 | Erstellt von | Name des Projektinhabers. |
 | Zuletzt geändert | Das Datum, an dem die letzte Änderung an dem Projekt vorgenommen wurde. |
 | Tags | Zeigt eine Liste aller Tags an, die auf ein Projekt angewendet wurden, um die Kategorisierung zu vereinfachen. Sie können Projekte beim Speichern auch taggen. Die Tags eines Projekts können Sie auf der Workspace-Landingpage in der Spalte [!UICONTROL Tags] einsehen. |
