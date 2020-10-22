@@ -1,11 +1,11 @@
 ---
 title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 78%
 
 ---
 
@@ -30,3 +30,95 @@ Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/hel
 ## Dimensionselemente
 
 Die Dimensionselemente beinhalten die Postleitzahl des Besuchers.
+
+## Über welche Postleitzahlen können Sie in Adobe Analytics Bericht erstatten?
+
+* Åland Inseln
+* Albanien
+* Algerien
+* Argentinien
+* Armenien
+* Österreich
+* Australien
+* Bangladesch
+* Barbados
+* Belgien
+* Brasilien
+* Bulgarien
+* Kanada
+* Chile
+* China
+* Kolumbien
+* Costa Rica
+* Kroatien
+* Tschechische Republik
+* Dänemark
+* Ecuador
+* Ägypten
+* Estland
+* Finnland
+* Frankreich
+* Georgien
+* Deutschland
+* Gibraltar
+* Griechenland
+* Grenada
+* Guatemala
+* Sonderverwaltungsregion Hongkong der Volksrepublik China
+* Ungarn
+* Indien
+* Indonesien
+* Irland
+* Israel
+* Italien
+* Japan
+* Jordanien
+* Kasachstan
+* Kirgizstan
+* Lettland
+* Libanon
+* Litauen
+* Luxemburg
+* Malaysia
+* Malta
+* Mauritius
+* Mexiko
+* Marokko
+* Mosambik
+* Nepal
+* Niederlande
+* Neuseeland
+* Norwegen
+* Pakistan
+* Panama
+* Peru
+* Philippinen
+* Polen
+* Portugal
+* Puerto Rico
+* Katar
+* Rumänien
+* Russische Föderation
+* Saudi Arabien
+* Senegal
+* Serbien
+* Singapur
+* Slowenien
+* Südafrika
+* Südkorea
+* Spanien
+* Sri Lanka
+* Schweden
+* Schweiz
+* Taiwan
+* Thailand
+* Tunesien
+* Türkei
+* Ukraine
+* Vereinigte Arabische Emirate
+* Vereinigtes Königreich
+* Vereinigte Staaten
+* Uruguay
+* Usbekistan
+* Venezuela
+* Vietnam
