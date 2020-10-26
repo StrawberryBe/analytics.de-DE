@@ -2,10 +2,10 @@
 title: trackingServerSecure
 description: Stellen Sie fest, an welcher Position auf HTTPS-Seiten Bildanforderungen gesendet werden.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -41,4 +41,4 @@ Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME-Einträge verweisen normalerweise auf eine Unterdomäne auf `ssl.d1.sc.omtrdc.net`.
+CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.omtrdc.net` or `2o7.net`.
