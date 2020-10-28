@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse
 description: Ändern Sie Ihre Daten von geräteorientiert zu personenorientiert, indem Sie die Gerätedaten zuordnen.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '659'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z
 * Welche sind die häufigsten Pfade, die Benutzer beim Wechsel von einem Gerät zum anderen verwenden? Wo steigen sie aus? Wo schließen sie ihre Aktion erfolgreich ab?
 * Wie unterscheidet sich das Verhalten von Benutzern mit mehreren Geräten von Benutzern mit nur einem Gerät?
 
-Beim Zuordnen von Geräten wird die variable Persistenz über Geräte hinweg übernommen. Beispiel: Ein Benutzer besucht Ihre Site zum ersten Mal über eine Werbeanzeige auf seinem Desktop. Der Benutzer findet Ihre Mobile App, installiert sie und tätigt schließlich einen Einkauf auf seinem Mobilgerät. Mithilfe der geräteübergreifenden Analyse kann der Umsatz der Werbeanzeige zugeordnet werden, auf die der Benutzer auf seinem Desktop geklickt hat.
+Beim Zuordnen von Geräten wird die variable Persistenz über Geräte hinweg übernommen. Beispiel: Ein Benutzer besucht Ihre Site zum ersten Mal über eine Werbeanzeige auf seinem Desktop. Der Benutzer findet Ihre Mobile App, installiert sie und tätigt schließlich einen Einkauf auf seinem Mobilgerät. Mit der geräteübergreifenden Analyse können Sie den Umsatz auf dem Mobilgerät der Anzeige zuordnen, auf die sie auf ihrem Desktop-Computer geklickt haben.
 
 Aus Gründen der Partnerschaft und Transparenz möchten wir, dass unsere Kunden sich unserer Verwendung von Microsoft Azure in Verbindung mit geräteübergreifenden Analysen bewusst werden. Adobe verwendet Azur zum Speichern von Gerätediagrammdaten und zum Durchführen geräteübergreifender Zuordnungen. Daher werden Adobe Analytics-Daten zwischen dem Datenverarbeitungscenter von Adobe und den von Adobe bereitgestellten Instanzen von Microsoft Azure hin- und hergeleitet.
 
