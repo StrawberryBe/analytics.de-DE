@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Ja. Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufor
 2. Klicken Sie im gewünschten Bedienfeld auf das Debugging-Symbol und wählen Sie dann die gewünschte Visualisierung und die Uhrzeit der Anfrage aus.
 3. Suchen Sie die JSON-Anfrage, die Sie in Ihrem API-Aufruf an Adobe verwenden können.
 
-## Geräteübergreifende Analysen können Unique Visitors einander zuordnen. Können Besuche einander zugeordnet werden?
+## Geräteübergreifende Analysen können Unique Visitors einander zuordnen. Kann sie Besuche zusammenfügen?
 
 Ja. Wenn eine Person innerhalb des Besuchszeitlimits Ihrer Virtual Report Suite (standardmäßig 30 Minuten) Treffer von zwei verschiedenen Geräten sendet, werden sie demselben Besuch zugeordnet.
 
