@@ -5,9 +5,9 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Nutzen Sie Datenfeeds, um einen stündlichen oder täglichen Export von Rohdaten zu erhalten. Verwenden Sie Data Warehouse, um eine Tabellenausgabe von Daten abzurufen.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [Planen einer wiederkehrenden Anforderung](data-warehouse/dw-schedule-recurring.md)
    + [Verwalten von Data Warehouse-Anforderungen](data-warehouse/data-warehouse-requests-manage.md)
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
-   + [Dimensionen, die nicht mit Data Warehouse-Segmenten kompatibel sind](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Häufig gestellte Fragen zur Data Warehouse](data-warehouse/faq.md)
    + [Best Practice für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
