@@ -5,10 +5,10 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: '-Komponentenleitfaden '
 user-guide-description: Nutzen Sie Hilfe bei der Organisation Ihrer Daten mit Komponenten wie Segmenten, berechneten Metriken, Virtual Report Suites und Warnhinweisen.
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    + [Letztkontakt-Kanal](dimensions/last-touch-channel.md)
    + [Letztkontakt-Kanaldetail](dimensions/last-touch-detail.md)
    + [Marketing-Kanal](dimensions/marketing-channel.md)
+   + [Details zum Marketing-Kanal](dimensions/marketing-detail.md)
    + [Minute](dimensions/minute.md)
    + [Mobilgerätedimensionen](dimensions/mobile-dimensions.md)
    + [Bildschirmauflösung](dimensions/monitor-resolution.md)
