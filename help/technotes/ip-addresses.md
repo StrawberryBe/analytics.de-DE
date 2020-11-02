@@ -2,7 +2,7 @@
 title: Von Adobe Analytics verwendete IPs und Domänen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von der Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 translation-type: tm+mt
-source-git-commit: 5115fb38815997842fcf6131755b9a0fc8f51fc9
+source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 86%
@@ -123,9 +123,9 @@ Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozes
 | Frankreich | `15.237.76.117` |
 | Frankreich | `15.237.136.106` |
 | Frankreich | `35.181.18.61` |
-| Indien | `13.232.177.101` |
-| Indien | `13.235.4.163` |
-| Indien | `3.6.119.69` |
+| Indien | `65.0.114.116` |
+| Indien | `65.0.115.179` |
+| Indien | `65.0.25.111` |
 | Irland | `18.202.158.78` |
 | Irland | `54.72.205.114` |
 | Irland | `54.78.36.71` |
@@ -135,9 +135,9 @@ Adobe Analytics verwendet Amazon Web Services als Teil des Datenerfassungsprozes
 | Singapur | `52.220.116.94` |
 | Singapur | `52.76.68.91` |
 | Singapur | `54.179.114.68` |
-| Tokio | `13.112.72.86` |
-| Tokio | `18.178.74.225` |
-| Tokio | `18.179.88.228` |
+| Tokio | `18.182.161.178` |
+| Tokio | `54.168.58.167` |
+| Tokio | `54.178.61.109` |
 | Virginia | `3.213.168.181` |
 | Virginia | `3.219.249.186` |
 | Virginia | `3.220.129.153` |
