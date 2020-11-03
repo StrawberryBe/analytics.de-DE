@@ -2,11 +2,11 @@
 description: Mithilfe der Spalteneinstellungen können Sie die Spaltenformatierung konfigurieren. Einige davon sind bedingt.
 title: Spalteneinstellungen
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Sie können Einstellungen **für mehrere Spalten gleichzeitig** bearbeiten. Wäh
 | Element | Beschreibung |
 | --- | --- |
 | **Summenzellen** |  |
-| Summen anzeigen | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Er spiegelt alle Tabellenfilter wider, die innerhalb der Freiformtabelle angewendet werden, einschließlich der Option [!UICONTROL Keine einschließen]. |
-| Gesamtsumme anzeigen | Dieser Gesamtwert stellt alle erfassten Treffer dar, die manchmal als &quot;Report Suite-Gesamtsumme&quot;bezeichnet werden. Wenn ein Segment entweder auf Bedienfeldebene oder in der Freiformtabelle angewendet wird, passt sich diese Summe an, um alle Treffer wiederzugeben, die den Segmentkriterien entsprechen. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| Summen anzeigen | Dieser Gesamtwert entspricht in der Regel der [!UICONTROL Gesamtsumme] oder einer Untergruppe davon. Er spiegelt alle Tabellenfilter wider, die innerhalb der Freiformtabelle angewendet werden, einschließlich der Option [!UICONTROL Keine einschließen]. |
+| Gesamtsumme anzeigen | Dieser Gesamtwert stellt alle erfassten Hits dar, die manchmal als „Report Suite-Gesamtsumme“ bezeichnet werden. Wenn ein Segment entweder auf Bedienfeldebene oder in der Freiformtabelle angewendet wird, passt sich diese Summe an, um alle Hits wiederzugeben, die den Segmentkriterien entsprechen. Gesamtsumme wird für Tabellen oder Aufschlüsselungen mit [statischen Zeilen](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md) nicht unterstützt. |
 | **Zellen der Tabelle** |  |
 | Nummer | Definition, ob in einer Zelle der numerische Wert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der numerische Wert die Anzahl an Seitenansichten für dieses Zeilenelement. |
 | Prozent | Definition, ob in einer Zelle der Prozentwert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der Prozentwert die Anzahl an Seitenansichten für dieses Zeilenelement geteilt durch die Gesamtanzahl der Seitenansichten für diese Spalte.  Hinweis: Für eine höhere Genauigkeit können Prozentsätze über 100 % angezeigt werden. Außerdem wird die obere Grenze auf 1.000 % verschoben, damit Spalten auch verbreitert werden können. |
