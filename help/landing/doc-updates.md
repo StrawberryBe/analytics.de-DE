@@ -2,9 +2,9 @@
 title: Aktualisierungen der technischen Dokumentation für Adobe Analytics
 description: Wichtige Aktualisierungen an der Adobe Analytics-Dokumentation.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 12. Februar 2020 | Aktualisierungen und Neuorganisation der Dokumentation zu [Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | 7. Februar 2020 | Aktualisierungen zum [Einrichten von geräteübergreifenden Analysen](/help/components/cda/setup.md) und zu [häufig gestellten Fragen](/help/components/cda/faq.md). |
 | 4. Februar 2020 | Komplette Neufassung des [Benutzerhandbuchs zur Implementierung](/help/implement/home.md). |
-| 22. Januar 2020 | Die Seite „Freiform-Tabelle“ wurde aktualisiert und enthält jetzt Informationen zum neuen [Freiform-Tabellen-Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 22. Januar 2020 | Die Seite „Freiform-Tabelle“ wurde aktualisiert und enthält jetzt Informationen zum neuen [Freiform-Tabellen-Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | 13. Januar 2020 | [Adobe Analytics und Browsercookies](/help/technotes/cookies.md) wurden hinzugefügt. |
 | 29. November 2019 | Aktualisierung der [Daten-Feed-Dokumentation](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25. November 2019 | Neues Thema zur [Abschaffung der Funktion zum Erzwingen von IP-Anmeldebeschränkungen](/help/admin/company/login-restrictions-eol.md). |
