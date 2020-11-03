@@ -6,33 +6,33 @@ translation-type: tm+mt
 source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Neuerungen in Analysis Workspace
 
-Die Adobe Experience Cloud Versionshinweise als Ganzes finden Sie [hier](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
+Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
 
 ## Oktober 2020
 
-Im Oktober 2020 veröffentlichte neue Funktionen.
+Neue im Oktober 2020 veröffentlichte Funktionen.
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL Die Option für anpassbare Durchschnittswerte wurde den Durchschnittswerteinstellungen der Linienvisualisierung hinzugefügt.]** Ein anpassbarer Durchschnittswert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Auswahl eines **[!UICONTROL Zeitraums]**), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. |
-| [Seite zur Leistung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Auf der Hilfeseite zur Leistung von Analysis Workspace werden die verschiedenen Faktoren, die die Projektleistung beeinflussen, sowie Links zu Optimierungs-Tipps angezeigt. |
+| Linienvisualisierung: [Option für Trend-Linien mit anpassbaren Durchschnittswerten](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/line.html) | Die Option für **[!UICONTROL anpassbare Durchschnittswerte]** wurde den Durchschnittswerteinstellungen der Linienvisualisierung hinzugefügt. Ein anpassbarer Durchschnittswert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Auswahl eines **[!UICONTROL Zeitraums]**), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. |
+| [Hilfeseite zur Leistung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Auf der Hilfeseite zur Leistung von Analysis Workspace werden die verschiedenen Faktoren, die die Projektleistung beeinflussen, sowie Links zu Optimierungs-Tipps angezeigt. |
 
 ## September 2020
 
-Neue Funktionen, die im September 2020 veröffentlicht wurden.
+Neue im September 2020 veröffentlichte Funktionen.
 
 | Funktion | Beschreibung |
 | --- | --- |
 | [Download von 50.000 Objekten für eine einzige Dimension](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Sie können jetzt 50.000 Elemente für eine Dimension in einer Freiformtabelle herunterladen, wobei Segmente und Filter angewendet werden. Auf diese Weise können Sie auf mehr als 400 Datenzeilen außerhalb von Analysis Workspace zugreifen. |
 | [Verbesserungen der Linienvisualisierung](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Sie können die X- und Y-Achse jeder Linienvisualisierung ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre Linienvisualisierungen kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
-| Neue Datumsbereiche | Es wurden 5 neue Datumsbereiche hinzugefügt, sodass Sie aus Datumsbereichen wählen können, die keine partiellen Tagesdaten von heute enthalten: Letzte 7 volle Tage, Letzte 14 volle Tage, Letzte 30 volle Tage, Letzte 60 volle Tage, Letzte 90 volle Tage |
+| Neue Datumsbereiche | Es wurden fünf neue Datumsbereiche hinzugefügt, sodass Sie aus Datumsbereichen wählen können, die keine partiellen Tagesdaten von heute enthalten: Letzte 7 volle Tage, Letzte 14 volle Tage, Letzte 30 volle Tage, Letzte 60 volle Tage, Letzte 90 volle Tage. |
 
 ## August 2020
 
@@ -59,7 +59,7 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 | Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Workflow, der für Sie am besten geeignet ist, einfacher auswählen können. |
 | Bedienfeld „Quick Insights“ (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Bedienfeld „Analytics for Target“ in Workspace   (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Bedienfeld „Analytics for Target“ in Workspace (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Seite „Info zu Workspace“ | Auf der Seite „Info zu Workspace“ finden Sie Informationen zu Ihrer Analysis Workspace-Umgebung, zu Ihren Adobe Analytics-Administratoren (falls Sie Support benötigen) und eine Möglichkeit, produktinternes Feedback zu geben. Diese Seite finden Sie unter „Workspace“ > „Hilfe“ > „Info zu Workspace“. |
 
 ## Mai 2020
@@ -287,7 +287,7 @@ Am 19. Juli 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Wenn möglich, wird nun eine Gesamtsumme für berechnete Metriken sowie für Prozentanteile angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Neu   <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Vorgabe für den Datumsbereich </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Neu <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Vorgabe für den Datumsbereich </a></b> </p> </td> 
    <td colname="col2"> <p>„Letzte 13 ganze Wochen“ wurde zur Vorgabe für den Datumsbereich in Analysis Workspace hinzugefügt. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +347,7 @@ Am 10. Mai 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Sie können nun nach oben und unten scrollen, während Sie Komponenten an eine andere Stelle ziehen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Zusätzliche Informationen zu   <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Zusätzliche Informationen zu <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Anomalien </a></b> </p> </td> 
    <td colname="col2"> <p>Wenn Sie den Mauszeiger in einem Liniendiagramm über eine Anomalie bewegen, werden in den Informationen jetzt das Datum und der Rohdatenwert der Anomalie angezeigt. </p> </td> 
   </tr> 
  </tbody> 
@@ -528,7 +528,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Beitragsanalyse: <a href="https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token-Benachrichtigung </a> </p> </td> 
-   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung lautet „Anomalieerkennung und Beitragsanalyse“. Sie finden Sie unter <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> &gt; <span class="uicontrol"> Gruppen bearbeiten </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span> &gt; <span class="uicontrol"> Report Suite-Werkzeuge anpassen </span> &gt; <span class="uicontrol"> Werkzeuge und Berichte</span>.)  </p> </td> 
+   <td colname="col2"> <p>Wenn Ihr Unternehmen über eine begrenzte Anzahl an Token für die Beitragsanalyse verfügt, zeigt die UI von Analysis Workspace nun eine Benachrichtigung an, wenn ein Token verwendet wird. Sie werden darüber informiert, wie viele Token noch vorhanden sind.  </p> <p>(Admin-Benutzer: Durch die Bearbeitung der Gruppenberechtigung können Sie einschränken, wer diese Token verwenden darf. Die Berechtigung lautet „Anomalieerkennung und Beitragsanalyse“. Sie finden Sie unter <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen bearbeiten</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Werkzeuge und Berichte</span>.)  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV-Dateien mit Multibyte-Zeichen </p> </td> 
@@ -866,7 +866,7 @@ Am 20. April 2017 veröffentlichte neue Funktionen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen an der Option zum Rückgängigmachen/Wiederherstellen </p> </td> 
-   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie   <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
+   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -939,7 +939,7 @@ Am 10. November 2016 veröffentlichte neue Funktion:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Datumsvergleich </a> </p> </td> 
-   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte   , die die Änderung in Prozent angibt. </p> </td> 
+   <td colname="col2"> <p>Mit der neuen Funktion für den Datumsvergleich können Sie für jede Spalte einen allgemeinen Datumsvergleich durchführen, z. B. Jahres-, Quartals-, Monatsvergleich usw. </p> <p>Datumsvergleiche enthalten automatisch eine Spalte , die die Änderung in Prozent angibt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1042,7 +1042,7 @@ Am 16. Juni 2016 veröffentlichte neue Funktionen:
 * Kleinere Aktualisierungen:
 
    * Möglichkeit zum Löschen aller Visualisierungen in einem Bereich und aller Bereiche in einem Projekt. (Bislang mussten Sie mindestens eine Visualisierung oder ein Bedienfeld behalten.)
-   * Änderungen der   [Tastaturbefehle](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md), die die Arbeit mit Analysis Workspace erleichtern.
+   * Änderungen der [Tastaturbefehle](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md), die die Arbeit mit Analysis Workspace erleichtern.
    * Stiländerungen: Kleinere Schriftarten in Visualisierungen, Farbfelder in Zeilen, Datumsauswahl wurde (in Bedienfeldern) nach unten verschoben.
 
 ## April 2016
@@ -1148,7 +1148,7 @@ Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an
 
 Wenn die Farb- und Größendimensionen in irgendeiner Weise mit der Baumstruktur korrelieren, werden oft Muster offensichtlich, die bei anderen Visualisierungen nur schwer sichtbar wären. Beispielsweise wird sichtbar, ob eine bestimmte Farbe besonders relevant ist. Ein weiterer Vorteil von Treemaps besteht darin, dass sie beim Aufbau den vorhandenen Platz effizient nutzen.
 
-## „Speichern unter“ für Segmente, Metriken und Datumswerte   {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## „Speichern unter“ für Segmente, Metriken und Datumswerte {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Klicken Sie beim Bearbeiten eines vorhandenen (gespeicherten) Segments des Segmentaufbaus in Analysis Workspace auf **[!UICONTROL Speichern unter]**, um eine Kopie zu erstellen.
 
@@ -1200,13 +1200,13 @@ In den Spalteneinstellungen können Sie bedingte Formatierung auf Zelldaten anwe
  </tbody> 
 </table>
 
-## Dimensionsvorschau  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Dimensionsvorschau {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Im Komponentenbedienfeld [!UICONTROL Dimensionen] können Sie den Cursor über das Informations-Symbol neben einer Dimension bewegen und eine Vorschau der fünf Dimensionen mit den höchsten Werten anzeigen.
 
 ![](assets/dimension-preview.png)
 
-## Legende sichtbar  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Legende sichtbar {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTROL Legende eingeblendet]** die Visualisierungslegende ein- oder ausgeblendet werden.
 
@@ -1216,19 +1216,19 @@ In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTR
 
 Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das untere Ende der Y-Achse möglicherweise nicht bei null. Durch Aktivieren von **[!UICONTROL Y-Achse bei null verankern]** unter [!UICONTROL Visualisierungseinstellungen] wird die Y-Achse für eine genauere Anzeige von Trends bei null erzwungen. Die folgenden Beispiele zeigen, wie sich ein Umsatzdiagramm verändert, wenn diese Einstellung aktiviert bzw. deaktiviert ist:
 
-„**Y-Achse bei null verankern**“ deaktiviert
+**„Y-Achse bei null verankern“ deaktiviert**
 
 ![](assets/anchor_Y_axis_off.png)
 
-„**Y-Achse bei null verankern**“ aktiviert
+**„Y-Achse bei null verankern“ aktiviert**
 
 ![](assets/anchor_Y_axis.png)
 
-## Projektname auf dem Registerkartentitel  {#section_497C61A030984BCCA2CEA553312C3226}
+## Projektname auf dem Registerkartentitel {#section_497C61A030984BCCA2CEA553312C3226}
 
 Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers als „`<Project Name>` - Analysis Workspace“ angezeigt. Diese Optimierung ist besonders hilfreich, wenn Sie mehrere Projekte in mehreren Browser-Registerkarten öffnen.
 
-## Eigentum von Projekten übertragen  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Eigentum von Projekten übertragen {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
