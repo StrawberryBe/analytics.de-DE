@@ -1,9 +1,9 @@
 ---
 title: Übersicht über Attribution
 description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dimensionselementen.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -41,6 +41,6 @@ Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 Attribution IQ umfasst die folgenden Funktionen:
 
 * [Bedienfeld „Attribution“](../c-panels/attribution.md): Vergleichen Sie beliebige Dimensionen und Metriken schnell mit verschiedenen Attributionsmodellen.
-* [Attribution auf eine Metrik anwenden](../build-workspace-project/column-row-settings/column-settings.md): Verwenden Sie eine nicht standardmäßige Attribution für eine beliebige Metrik in einem Projekt.
+* [Attribution auf eine Metrik anwenden](../visualizations/freeform-table/column-row-settings/column-settings.md): Verwenden Sie eine nicht standardmäßige Attribution für eine beliebige Metrik in einem Projekt.
 * [Attribution auf eine Aufschlüsselung anwenden](../components/dimensions/t-breakdown-fa.md): Verwenden Sie eine nicht standardmäßige Attribution für eine Aufschlüsselung.
 * [Attributionsmodelle vergleichen](../components/apply-create-metrics.md): Vergleichen Sie verschiedene Attributionsmodelle für eine beliebige Metrik.
