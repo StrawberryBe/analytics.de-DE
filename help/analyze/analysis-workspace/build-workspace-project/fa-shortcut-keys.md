@@ -1,21 +1,19 @@
 ---
 description: Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen, die in Analysis Workspace verfügbar sind.
 keywords: Analysis Workspace
-title: In Analysis Workspace verfügbare Tastaturbefehle (Tastaturkürzel)
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Hotkeys (Tastaturbefehle)
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# In Analysis Workspace verfügbare Tastaturbefehle (Tastaturkürzel)
+# Hotkeys (Tastaturbefehle)
 
-In Analysis Workspace stehen Tastaturbefehle (Tastaturkürzel) für eine nahtlose Navigation, Analyse und Demokratisierung zur Verfügung.
+Hotkeys (Tastaturbefehle) stehen in Analysis Workspace zur nahtlosen Navigation, Analyse, zum Hinzufügen von Bedienfeldern und Visualisierungen sowie zur Demokratisierung (Freigabe) zur Verfügung.
 
 Hinweis:
 * `Ctrl` = Windows und `Command` = Mac
