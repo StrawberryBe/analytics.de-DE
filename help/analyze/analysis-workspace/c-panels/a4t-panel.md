@@ -2,10 +2,10 @@
 description: Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren.
 title: Bedienfeld „Analytics for Target“ (A4T)
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können das A4T-Bedienfeld mithilfe der folgenden Eingabeeinstellungen konfi
 
 | Einstellung | Beschreibung |
 |---|---|
-| Target-Aktivität | Wählen Sie aus einer Liste von Target-Aktivitäten aus oder ziehen Sie eine Aktivität per Drag-and-Drop aus der linken Leiste.<br>**Hinweis:** Die Liste wird mit den Aktivitäten der letzten 6 Monate gefüllt, die mindestens 1 Treffer hatten. Wenn Sie eine Aktivität nicht in der Liste sehen, ist sie möglicherweise älter als 6 Monate. Sie kann immer noch von der linken Leiste hinzugefügt werden, die einen Lookback-Zeitraum von bis zu 18 Monaten hat. |
+| Target-Aktivität | Wählen Sie aus einer Liste von Target-Aktivitäten aus oder ziehen Sie eine Aktivität per Drag-and-Drop aus der linken Leiste. Hinweis: Die Liste wird mit den Aktivitäten der letzten 6 Monate gefüllt, die mindestens 1 Treffer hatten. Wenn Sie eine Aktivität nicht in der Liste sehen, ist sie möglicherweise älter als 6 Monate. Sie kann immer noch von der linken Leiste hinzugefügt werden, die einen Lookback-Zeitraum von bis zu 18 Monaten hat. |
 | Kontrollerlebnis | Wählen Sie Ihr Kontrollerlebnis aus. Sie können es bei Bedarf in der Dropdown-Liste ändern. |
 | Normalisierungsmetrik | Wählen Sie aus „Unique Visitors“, „Besuche“ oder „Aktivitäts-Impressions“ aus. Für die meisten Anwendungsfälle der Analyse wird „Unique Visitors“ empfohlen. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird. |
 | Erfolgsmetriken | Wählen Sie bis zu 3 standardmäßige (nicht berechnete) Erfolgsereignisse aus den Dropdown-Listen aus oder ziehen Sie Metriken per Drag-and-Drop aus der linken Leiste. Jede Metrik verfügt über eine eigene Tabelle und Visualisierung im gerenderten Bedienfeld. |
@@ -44,11 +44,11 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 | Normalisierungsmetriken | Unique Visitors, Besuche oder Aktivitäts-Impressions |
 | Erfolgsmetrik | Die im Builder ausgewählte Metrik |
 | Konversionsrate | Erfolgsmetrik/Normalisierungsmetrik |
-| Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis.<br>**Hinweis:** Steigerung ist eine „gesperrte Metrik“ für die Dimension „Target-Erlebnisse“. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
-| Steigerung (Mindestwert) | Stellt den schlechtesten Aufstieg dar, den ein Variantenerlebnis im Vergleich zum Kontrollerlebnis aufweisen könnte. |
-| Steigerung (mittlerer Wert) | Stellt den mittleren Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. Dies ist „Steigerung“ in Reports &amp; Analytics. |
-| Steigerung (Maximalwert) | Stellt den besten Aufstieg dar, den ein Variantenerlebnis im Vergleich zum Kontrollerlebnis aufweisen könnte. |
-| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. <br>**Hinweis:** Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
+| Steigerung | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis. Hinweis: Steigerung ist eine „gesperrte Metrik“ für die Dimension „Target-Erlebnisse“. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden. |
+| Steigerung (Mindestwert) | Stellt die schlechteste Steigerung dar, die ein variantenweites Erlebnis bei einem Konfidenzintervall von 95 % über der Kontrolle haben könnte.<br>Berechnung: (x/y ± 1.96 std_err(x,y)) / (x_control/y_control 1.96 std_err(x_control,y_control)). Hier ist std_err(x,y) sqrt(xx/y - (x/y)^2), wobei xx die Summe der Quadrate angibt. |
+| Steigerung (mittlerer Wert) | Stellt den mittleren Aufstieg dar, den ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. Dies ist „Steigerung“ in Reports &amp; Analytics.<br>Berechnung: (x/y)/(x_control/y_control) - 1 |
+| Steigerung (Maximalwert) | Stellt die beste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % über der Kontrolle haben könnte.<br>Berechnung: siehe Steigerung (unten). |
+| Konfidenz | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Berechnung: Wenden Sie einen zweiseitigen t-Test mit y+y_control-2 Freiheitsgraden an, um den p-Wert zu finden, ob x/y gleich x_control/y_control ist. Berechnen Sie den t-Score, wobei stderr sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control) ist. Geben Sie 1-p als Konfidenz zurück, dass sie unterschiedlich sind. |
 
 Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen.
 
