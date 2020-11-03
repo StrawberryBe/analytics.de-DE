@@ -3,10 +3,10 @@ description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8103'
-ht-degree: 100%
+source-wordcount: '8106'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Am 16. Januar 2020 veröffentlichte neue Funktion.
 
 | Funktion | Beschreibung |
 |--- |--- |
-| [Freiformtabellen-Builder](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
+| [Freiformtabellen-Builder](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Wenn die Tabellenerstellung aktiviert ist, können Sie für komplexe Geschäftsszenarien Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag &amp; Drop erstellen. Daten werden nicht sofort aktualisiert. Stattdessen werden Aktualisierungen nach dem Klicken auf **[!UICONTROL Erstellen]** angezeigt, sodass Sie Zeit sparen, sobald Sie wissen, welche Tabelle Sie erstellen möchten. Zusätzlich bietet diese Funktion Folgendes:<ul><li>**Vorschau**: Sie können eine Vorschau des Tabellenformats anzeigen, bevor Sie echte Daten rendern.</li><li>**Flexible Zeilen- und Aufschlüsselungseinstellungen**: Sie können für jede Zeile einer Dimension Zeilen- und Aufschlüsselungsebenen festlegen. Zuvor wurden im Workspace Standardwerte verwendet, die erst geändert werden konnten, nachdem die Daten zurückgegeben wurden.</li><li>**Aufschlüsselung nach Position**: Sie können Dimensionszeilen so einstellen, dass sie immer _nach Position_ und nicht nach einem _bestimmten Element_ (Standard) aufgeschlüsselt werden.</li><li>**Manuelle Anordnung statischer Zeilen**: Sie können statische Zeilen manuell sortieren, damit die Tabellenzeilen genau nach Bedarf angezeigt werden. Zuvor konnten statische Zeilen nur nach einer Metrikspalte oder alphabetisch sortiert werden.</li></ul> |
 
 ## Oktober 2019
 
@@ -113,7 +113,7 @@ Am 10. Oktober 2019 veröffentlichte Verbesserungen.
 
 | Verbesserung | Beschreibung |
 |--- |--- |
-| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
+| Update der Gesamtwerte der Freiformtabelle | Freiformtabellen beinhalten jetzt zwei Gesamtwerte: **[!UICONTROL Tabellensumme]** und **[!UICONTROL Gesamtsumme]**. In der Tabellenzeile „Gesamt“ werden angewendete [Berichtsfilter](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) berücksichtigt. Zuvor wirkte sich nur die Segmentierung auf die Gesamtwerte aus. [Weitere Informationen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Darüber hinaus wurden die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]** zu den **[!UICONTROL Spalteneinstellungen]** hinzugefügt.<br/>Mit dieser Änderung an Freiformtabellen werden auch die abhängigen Visualisierungen (z. B. verknüpfte Darstellungen von **[!UICONTROL Zusammenfassungen]**) sowie exportierte CSV- und PDF-Daten aktualisiert. |
 | Option zum Entfernen von „Nicht angegeben (keine)“ | Den Berichtsfiltern wurde eine einfache Funktion zum Entfernen von „Nicht angegeben (keine)“ hinzugefügt. |
 | Wegfall der lilafarbenen Zeitkomponenten | Die lilafarbenen Zeitkomponenten (Minute, Stunde, Tag, Woche, Monat, Quartal, Jahr) wurden entfernt. Diese Zeitkomponenten haben sich immer exakt wie ihre orangefarbenen Dimensionspendants verhalten. Durch diese Änderung wird das Erlebnis also optimiert. Wenn Sie zuvor die lilafarbenen Zeitkomponenten genutzt haben, ist **keine Änderung** erforderlich.<br/>Mit dieser Änderung wurde auch der lilafarbene Bereich **[!UICONTROL Zeit]** in **[!UICONTROL Datumsbereiche]** umbenannt. |
 
@@ -366,11 +366,11 @@ Am 12. April 2018 veröffentlichte neue Funktionen und Verbesserungen.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > „Kopfzeilentext umbrechen“ standardmäßig aktiviert </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > „Kopfzeilentext umbrechen“ standardmäßig aktiviert </a> </p> </td> 
    <td colname="col2"> <p>Die Spalteneinstellung <span class="uicontrol"> Kopfzeilentext umbrechen </span> ist nun standardmäßig für Freiformtabellen aktiviert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >Neue Zeileneinstellung</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  >Neue Zeileneinstellung</a> </p> </td> 
    <td colname="col2"> <p>Die neue Einstellung <span class="uicontrol"> Prozentsatz pro Zeile berechnen </span> erzwingt, dass die Freiformtabelle die Zellprozentsätze über die Zeile anstatt für die Spalte berechnet. Das ist besonders hilfreich, wenn Sie Trends der Prozentsätze ermitteln wollen, z. B. wie sich ein Dimensionselement mit der Zeit im Vergleich zu den anderen Elementen entwickelt. Die Funktion ist standardmäßig aktiviert, wenn Sie auf das Symbol <span class="uicontrol"> Visualisieren </span> klicken. </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Am 8. März 2018 veröffentlichte neue Funktionen und Verbesserungen.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Kopfzeilentext umbrechen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Kopfzeilentext umbrechen </a> </p> </td> 
    <td colname="col2"> <p>Sie können nun den Kopfzeilentext in Freiformtabellen umbrechen, damit Kopfzeilen besser lesbar und Tabellen einfacher freizugeben sind. Wir haben den Spalteneinstellungen eine Option namens „Kopfzeilentext umbrechen“ hinzugefügt. Diese Funktion ist besonders beim .pdf-Rendering und für Metriken mit langen Namen nützlich. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Am 8. Februar 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Wir haben die Option „In der Zwischenablage“ per rechtem Mausklick hinzugefügt, damit Sie Zellen/Tabellen konsistent kopieren können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Optimierung des Spaltenprozentsatzes </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Optimierung des Spaltenprozentsatzes </a> </p> </td> 
    <td colname="col2"> <p>Der in den Spalten angezeigte Prozentsatz des Gesamtwerts war auf 100 % begrenzt, auch wenn bestimmte Szenarien dazu führten, dass Zeilen mehr als 100 % des Gesamtwerts aufwiesen (z. B. bei Durchschnittswerten). </p> <p>Für eine höhere Genauigkeit werden nun Prozentsätze über 100 % angezeigt. Außerdem wurde die obere Grenze auf 1.000 % verschoben, damit Spalten auch verbreitert werden können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Aktivierung bedingter Formatierung bei Aufschlüsselungen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Aktivierung bedingter Formatierung bei Aufschlüsselungen </a> </p> </td> 
    <td colname="col2"> <p>Das Anwenden bedingter Formatierung (Farben etc.) in Freiformtabellen ist bei Aufschlüsselungen nun automatisch aktiviert, wenn keine benutzerdefinierten Beschränkungen ausgewählt sind. </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Mehr <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > Filteroptionen </a> für Dimensionselemente in Freiformtabellen </p> </td> 
+   <td colname="col1"> <p>Mehr <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > Filteroptionen </a> für Dimensionselemente in Freiformtabellen </p> </td> 
    <td colname="col2"> <p>Diese (erweiterten) Filteroptionen für Dimensionselemente wurden hinzugefügt (neben den bestehenden Optionen „enthält“ und „enthält nicht“): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Enthält alle Begriffe </li> 
@@ -515,7 +515,7 @@ Am 18. Januar 2018 veröffentlichte neue Funktionen und Verbesserungen.
    <td colname="col2"> <p>Bei der Größenanpassung der ganz linken Spalte behält Workspace nun den Breiten-Prozentsatz der restlichen Spalten bei (d. h. die Spaltenbreite rechts daneben wird nicht einfach angepasst). Diese Änderung ermöglicht eine schnellere Tabellenerstellung sowohl zur Analyse als auch zur Freigabe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Anzeigen von <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 Zeilen </a> in einer Tabelle </p> </td> 
+   <td colname="col1"> <p>Anzeigen von <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 Zeilen </a> in einer Tabelle </p> </td> 
    <td colname="col2"> <p>Sie können nun 400 Zeilen (statt 200) in einer Tabelle und damit Trends über 365 Tage hinweg anzeigen. </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Am 21. September 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Mehrere Spalten gleichzeitig in Freiformtabellen verwalten </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Mehrere Spalten gleichzeitig in Freiformtabellen verwalten </a> </p> </td> 
    <td colname="col2"> <p>Sie können jetzt die Einstellungen in mehreren Spalten gleichzeitig ändern. Wählen Sie hierzu einfach mehrere Spalten aus und klicken Sie in einer der Spalten auf das Einstellungs-Symbol. Sämtliche Änderungen, die Sie hier vornehmen, werden auf die markierten Zellen aller Spalten angewendet. </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Kontrollkästchen „Prozentbeschränkungen verwenden“ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Kontrollkästchen „Prozentbeschränkungen verwenden“ </a> </b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Insbesondere für prozentbasierte Metriken wurde ein Kontrollkästchen für die Angabe von Prozentbeschränkungen hinzugefügt (auch mit anderen Metriken verwendbar). </li> 
@@ -866,7 +866,7 @@ Am 20. April 2017 veröffentlichte neue Funktionen.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen an der Option zum Rückgängigmachen/Wiederherstellen </p> </td> 
-   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
+   <td colname="col2"> <p>In diesen Listen wird angezeigt, was Sie  in Analysis Workspace rückgängig machen/wiederherstellen </a> können und was nicht. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Am 16. Februar 2017 veröffentlichte neue Funktion:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Aufschlüsselung nach Position </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Aufschlüsselung nach Position </a> </p> </td> 
    <td colname="col2"> <p>Ermöglicht die Aufschlüsselung nach Tabellenposition. Beispiel: „Die ersten 7 Zeilen in einer Freiformtabelle sollen immer aufgeschlüsselt werden“. Beim Erstellen einer Freiformtabelle können Sie jetzt über ein Kästchen „Aufschlüsselung nach Position“ aktivieren. Diese Einstellung ist standardmäßig aktiviert. </p> <p>Zuvor war die Liste mit den Werten in der Aufschlüsselung „gesperrt“. Dies konnte z. B. dazu führen, dass Sie eine Aufschlüsselung des <span class="wintitle"> Datums </span> nach <span class="wintitle"> Seite </span> durchführten und die ersten 50 Seiten für den ausgewählten Datumsbereich erhielten. </p> <p>Wenn Sie diesen Bericht speicherten und ihn einen Monat später erneut durchführen wollten, hätten sich die ersten 50 Seiten wahrscheinlich geändert. In Analysis Workspace wurde jedoch den Ergebnissen der ursprünglichen Aufschlüsselung „vertraut“ und dieselben Seiten angezeigt, aber mit dem aktuellen Monat als Zeitraum. </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Am 16. Juni 2016 veröffentlichte neue Funktionen:
 * Eine neue [Venn-Visualisierung](/help/analyze/analysis-workspace/visualizations/venn.md), in der Sie bis zu 3 Segmente und eine Metrik ablegen und ein Venn-Diagramm erstellen können.
 * [Trendauswahl](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (Liniendiagramm) für eine bewertete Tabelle ist jetzt verknüpft.
 * [Symbol „Visualisierung erstellen“](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): Wenn Sie auf dieses Symbol klicken, versucht das System, Ihre nächste Aktion zu erraten (Balkendiagramm, Venn ...).
-* Erweiterte Funktion [Manuelle Zeilen](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md).
+* Erweiterte Funktion [Manuelle Zeilen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 * Dropzone [Segment hinzufügen](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 * Kleinere Aktualisierungen:
 
