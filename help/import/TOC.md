@@ -5,10 +5,10 @@ user-guide-title: Importleitfaden für Analytics
 breadcrumb-title: Importleitfaden
 user-guide-description: 'Transferieren Sie Daten aus externen Quellen in Analytics, entweder als Massendatei oder in Echtzeit. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 98%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 100%
       + [Analytics-Integrationsvariablen](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop-Integration](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics-Plug-in-Code](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ Anwendungsfälle importieren {#use-cases}
+   + [Importieren Sie gebührenpflichtige Suchmetriken mit Data Sources](use-cases/paid-search-metrics.md)
