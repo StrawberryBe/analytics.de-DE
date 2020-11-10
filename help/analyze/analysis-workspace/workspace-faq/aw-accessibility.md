@@ -39,7 +39,7 @@ Die Navigation in [!UICONTROL Analysis Workspace] funktioniert von oben nach unt
 
 ### Tastaturbefehle (Hotkeys)
 
-[!UICONTROL Analysis Workspace] bietet eine umfangreiche Auswahl an [Tastaturbefehlen](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) für einen nahtlosen Workflow. Nachfolgend sind einige allgemeine Kurzbefehle für die Navigation, die Erstellung von Analysen und die Demokratisierung von Erkenntnissen aufgeführt.
+[!UICONTROL Analysis Workspace] bietet eine umfangreiche Auswahl an [Tastaturbefehlen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=de-DE) für einen nahtlosen Workflow. Nachfolgend sind einige allgemeine Kurzbefehle für die Navigation, die Erstellung von Analysen und die Demokratisierung von Erkenntnissen aufgeführt.
 
 #### Navigation
 
@@ -60,7 +60,7 @@ Die Navigation in [!UICONTROL Analysis Workspace] funktioniert von oben nach unt
 | Strg + Umschalt + D | Neuer Datumsbereich |
 | Strg + Umschalt + E | Neues Segment |
 | Strg + Z | Rückgängig |
-| Umschalttaste gedrückt halten (in der Dropzone des Bedienfeldsegments) | Einen [Dropdown-Filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) erstellen |
+| Umschalttaste gedrückt halten (in der Dropzone des Bedienfeldsegments) | Einen [Dropdown-Filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de-DE) erstellen |
 
 #### Demokratisierung
 
@@ -81,7 +81,7 @@ Eine Bildschirmlesehilfe liest Text, der auf dem Computer-Bildschirm angezeigt w
 
 [!UICONTROL Analysis Workspace] strebt die Konformität mit WCAG 2.1 AA an, einschließlich der Anforderungen an den Farbkontrast.
 
-Darüber hinaus können Benutzer ihre eigene bevorzugte Farbpalette für ein Projekt unter **[!UICONTROL Projekt]** > **[!UICONTROL Projekteinstellungen]** > [Farbpalette](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) festlegen.
+Darüber hinaus können Benutzer ihre eigene bevorzugte Farbpalette für ein Projekt unter **[!UICONTROL Projekt]** > **[!UICONTROL Projekteinstellungen]** > [Farbpalette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=de-DE) festlegen.
 
 ## Erforderliche Feldvalidierung in Komponenten-Buildern
 
