@@ -5,10 +5,10 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 99%
    + [Überlegungen zur globalen Report Suite](prepare/global-rs.md)
    + [Implementierungs-Modal](prepare/implementation-modal.md)
    + [Lösungsdesigndokument erstellen](prepare/solution-design.md)
+   + [Übernahme einer bestehenden Adobe Analytics-Implementierung](prepare/existing-implementation.md)
 + Analytics mit JavaScript implementieren {#js}
    + [JavaScript-Übersicht](js/overview.md)
    + [Implementieren von Ausschluss-Links](js/opt-out.md)
