@@ -2,7 +2,7 @@
 title: Übernahme einer bestehenden Adobe Analytics-Implementierung
 description: Anweisungen für Administratoren, die neu bei einer bestehenden Adobe Analytics-Implementierung sind.
 translation-type: tm+mt
-source-git-commit: c95ff254d2df8373776a2ce261a5786045169181
+source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Übernehmen Sie eine Adobe Analytics-Implementierung vom vorherigen Technischen Eigentümer? Unser Playbook für die geerbte Implementierung hilft Ihnen, die Verantwortung als neuer technischer Eigentümer einer vorhandenen Implementierung zu übernehmen. In der herunterladbaren Tabelle werden wir Sie durch die Aktivitäten zur Ermittlung, Prüfung und Dokumentation führen, die Sie in den ersten 10 Wochen für den Auftrag ausführen sollten, während Sie eine vorhandene Implementierung übernehmen.
 
-Laden Sie das Playbook für die [geerbte Implementierung herunter](assets/adobe_analytics_inherited_implementation_playbook.xlsx).
+**Laden Sie das Playbook für die [geerbte Implementierung herunter](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
 
 ![Playbook](assets/inherited-impl-playbook.png)
 
