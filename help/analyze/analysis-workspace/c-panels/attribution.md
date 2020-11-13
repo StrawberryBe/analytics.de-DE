@@ -2,22 +2,22 @@
 title: Attributionsbedienfeld
 description: Verwendung und Interpretation des Attributionsbedienfelds in Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # Attributionsbedienfeld
 
-Das Attributionsbedienfeld bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Dabei handelt es sich um eine Funktion in [Attribution IQ](../attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. Dabei handelt es sich um eine Funktion in [Attribution IQ](../attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
 
 ## Erstellen eines Attributionsbedienfeldes
 
 1. Klicken Sie links auf das Bedienfeldsymbol.
-1. Ziehen Sie das Attributionsbedienfeld in Ihr Analysis Workspace-Projekt.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![Neues Attributionsbedienfeld](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ Das Attributionsbedienfeld bietet eine einfache Möglichkeit, eine Analyse zu er
 * **Leistungsdetails**: Ermöglicht den visuellen Vergleich von bis zu drei Zuordnungsmodellen mithilfe eines Streudiagramms.
 * **Trendleistung**: Zeigt den Trend der zugeordneten Konvertierungen für das Element der obersten Dimension. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
 * **Fluss**: Hier können Sie sehen, mit welchen Kanälen am häufigsten und in welcher Reihenfolge während der Reise eines Besuchers interagiert wird.
+
