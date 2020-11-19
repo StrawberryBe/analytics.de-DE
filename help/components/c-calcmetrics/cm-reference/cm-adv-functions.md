@@ -3,7 +3,7 @@ description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-List
 title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
