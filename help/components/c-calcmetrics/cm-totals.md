@@ -2,10 +2,10 @@
 title: Berechnete Metriken insgesamt
 description: Erfahren Sie, wie sich die Summen berechneter Metriken in Analytics-Werkzeugen unterscheiden.
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
@@ -40,3 +40,6 @@ Wenn Summen angezeigt werden, werden sie häufig serverseitig berechnet, was bed
 
 * Wenn [statische Zeilen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) in Freiform-Tabellen verwendet werden und die Option **[!UICONTROL Als Summe der aktuellen Zeilen anzeigen]** aktiviert ist (Standard).
 * In der [Donut-Visualisierung](/help/analyze/analysis-workspace/visualizations/donut.md), sodass die Summe der Zahlen 100 % ergibt.
+
+Weitere Informationen zu den Gesamtsummen in Analysis Workspace finden Sie unter [Arbeitsbereichsummen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).
+
