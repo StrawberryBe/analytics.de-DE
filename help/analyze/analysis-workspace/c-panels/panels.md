@@ -2,7 +2,7 @@
 description: Ein Bereich ist eine Sammlung von Tabellen und Visualisierungen
 title: Übersicht über Bedienfelder
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 11%
@@ -84,7 +84,11 @@ So erstellen Sie Dropdown-Filter:
 
 ## Kontextmenü {#right-click}
 
-Zusätzliche Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bereichsüberschrift klicken. Die folgenden Einstellungen sind verfügbar:
+Zusätzliche Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bereichsüberschrift klicken.
+
+![](assets/right-click-menu.png)
+
+Die folgenden Einstellungen sind verfügbar:
 
 | Einstellung | Beschreibung |
 | --- | --- |
