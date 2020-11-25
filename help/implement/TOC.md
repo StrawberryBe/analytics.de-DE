@@ -5,10 +5,10 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
 translation-type: tm+mt
-source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
+source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 97%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
@@ -204,6 +204,10 @@ ht-degree: 97%
    + [Paketmonitore](validate/packet-monitor.md)
    + [Hash-Kollisionen](validate/hash-collisions.md)
 + [Häufig gestellte Fragen](faq.md)
++ Überprüfen Sie Ihre Implementierung {#review}
+   + [Überprüfung der geringen Implementierung (nach jeder Website-Version)](review/minor-review.md)
+   + [Überprüfung der wichtigsten Implementierung (alle 6 Monate)](review/major-review.md)
+   + [Definieren Sie Ihre 5 wichtigsten KPIs.](review/define-kpis.md)
 + Verwenden von XDM-Daten mit Analytics {#aep-edge}
    + [Verwenden von AEP Web SDK](aep-edge/xdmoverview.md)
    + [Manuelles Zuordnen von XDM-Daten zu Analytics](aep-edge/xdm-manual.md)
