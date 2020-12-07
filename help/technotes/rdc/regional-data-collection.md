@@ -2,10 +2,10 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collect
 
 >[!IMPORTANT]
 >
->Das China RDC (China Performance Optimization) Hinzufügen-On-Paket ist ein kostenpflichtiges Add-on zu Adobe Analytics. Mit der Leistungsoptimierung von Adobe auf dem chinesischen Festland können Kunden in China Daten direkt an den China Edge-Knoten und nicht global an andere Standorte senden. Dadurch werden die Seitenladezeit und die Datengenauigkeit verbessert, da die Daten an Knoten außerhalb Chinas gesendet werden. Weitere Informationen erhalten Sie von Ihrem Adobe-Vertriebsmitarbeiter.
+>Das China RDC (China Performance Optimization) Hinzufügen-On-Paket ist ein kostenpflichtiges Add-On für Adobe Analytics. Die Leistungsoptimierung der Adobe auf dem chinesischen Festland ermöglicht es Kunden in China, Daten direkt an den China Edge-Knoten zu senden, anstatt an andere Standorte weltweit. Dadurch werden die Seitenladezeit und die Datengenauigkeit verbessert, da die Daten an Knoten außerhalb Chinas gesendet werden. Wenden Sie sich für weitere Informationen an Ihren Vertriebsmitarbeiter für Adobe.
 
 RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
@@ -26,7 +26,7 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 |---------------------|-------------------|
 | Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 
-Hinweis: Wenn Ihre Analytics-Bildanforderung an die Endpunkte `2o7.net` oder `omtdrc.net` gesendet wird, dann erfolgt die Datenerfassung durch Dritte. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
 
 ## Erstanbieter-HTTPS-Datenerfassung
 
