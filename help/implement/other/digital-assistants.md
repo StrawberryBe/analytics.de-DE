@@ -1,9 +1,9 @@
 ---
 title: Implementieren von Analytics für digitale Assistenten
 description: Implementieren Sie Adobe Analytics für digitale Assistenten, wie Amazon Alexa oder Google Home.
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 100%
 
@@ -50,8 +50,8 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net">
-  sc.omtrdc.net
+<xref href="https://sc.adobedc.net">
+  sc.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
@@ -62,13 +62,13 @@ Ihre Organisation benötigt wahrscheinlich Apps für mehrere Plattformen. Dabei 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -80,7 +80,7 @@ Die Verwendung des ID-Service bietet den größten Nutzen, wenn Sie ECIDs über 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -103,7 +103,7 @@ Sitzungen sind wichtig, um den Kontext zu wahren und mehr Details zu sammeln, um
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -117,7 +117,7 @@ Indem Sie jede dieser Anfragen als eVar einsenden, können Sie Pfadsetzungsberic
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -125,7 +125,7 @@ oder
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -141,7 +141,7 @@ Normalerweise verfügt Ihre App über eine begrenzte Anzahl dieser Werte. Um die
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -153,7 +153,7 @@ Wenn diese Situation eintritt, sollte Ihre App um Aufklärung bitten. Senden Sie
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -172,10 +172,10 @@ Vorangestellte und nachgestellte Doppelpunkte helfen bei der Erstellung von Segm
 
 | Benutzer | Antwort des Geräts | Aktion/Intent | GET-Anfrage |
 |---|---|---|---|
-| Installiere Spoofify | Keine Antwort | Installieren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spiele Spoofify | „Okay, ich spiele Spoofify“ | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spiele etwas anderes | „Okay, welchen Song?“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spiel „Baby Shark“ | „Okay, ich spiele ‚Baby Shark‘ von PinkFong“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Ändere die Playliste | „Okay, welche Playliste?“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Spiel meine Playlist mit Lieblingsliedern | „Okay, ich spiele deine Playlist mit Lieblingsliedern“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Schalte die Musik aus | Keine Antwort, Musik wird ausgeschaltet | Aus | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Installiere Spoofify | Keine Antwort | Installieren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiele Spoofify | „Okay, ich spiele Spoofify“ | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiele etwas anderes | „Okay, welchen Song?“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiel „Baby Shark“ | „Okay, ich spiele ‚Baby Shark‘ von PinkFong“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Ändere die Playliste | „Okay, welche Playliste?“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiel meine Playlist mit Lieblingsliedern | „Okay, ich spiele deine Playlist mit Lieblingsliedern“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Schalte die Musik aus | Keine Antwort, Musik wird ausgeschaltet | Aus | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
