@@ -1,9 +1,9 @@
 ---
 title: Migration zu AppMeasurement für JavaScript
 description: Bestimmen Sie, was erforderlich ist, um Ihre H-Code-Implementierung zu migrieren.
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Die folgenden wichtigen Änderungen sind in AppMeasurement im Vergleich zum H-Co
 Die folgenden Schritte beschreiben einen typischen Migrations-Workflow.
 
 1. **Neue AppMeasurement-Datei herunterladen**: Greifen Sie auf die neue Datei zu, indem Sie sich bei Adobe Analytics anmelden und dann zu „Admin“ > „Code-Manager“ navigieren. Die heruntergeladene komprimierte Datei enthält eine minimierte `AppMeasurement.js`-Datei sowie das Medien- und das Integrationsmodul.
-1. **Ihre`s_code.js`-Anpassungen nach`AppMeasurement.js`** kopieren: Verschieben Sie den gesamten Code vor dem `DO NOT ALTER ANYTHING BELOW THIS LINE`-Abschnitt in `s_code.js` an den Anfang von `AppMeasurement.js`.
+1. **Ihre `s_code.js`-Anpassungen nach`AppMeasurement.js`** kopieren: Verschieben Sie den gesamten Code vor dem `DO NOT ALTER ANYTHING BELOW THIS LINE`-Abschnitt in `s_code.js` an den Anfang von `AppMeasurement.js`.
 1. **Alle Plug-ins aktualisieren**: Vergewissern Sie sich, dass Sie die neueste Version jedes in Ihrer `s_code.js`-Datei aufgelisteten Plug-ins verwenden. Dazu gehören das Medien- und das Integrationsmodu.
 1. **AppMeasurement.js bereitstellen**: Laden Sie Ihre `AppMeasurement.js`-Datei auf Ihren Webserver hoch.
 1. **Skriptverweise aktualisieren, um`AppMeasurement.js`** zu referenzieren: Stellen Sie sicher, dass alle Seiten auf `AppMeasurement.js` anstatt auf `s_code.js` verweisen.
@@ -62,7 +62,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.sc.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
