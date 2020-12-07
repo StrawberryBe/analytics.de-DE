@@ -5,7 +5,10 @@ title: Besuchermigration
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +19,11 @@ Beim Migrieren von Besuchern wird das Besucher-ID-Cookie von einer Domäne zu ei
 
 Besuchermigration lässt Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
-* Wechsel von `2o7.net` auf `omtrdc.net` ([regionale Datenerfassung](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* Wechsel von `2o7.net` auf `adobedc.net` ([regionale Datenerfassung](https://docs.adobe.com/content/help/de-DE/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Sie implementieren den [Experience Cloud-Besucher-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) und wechseln von einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext zu `2o7.net` oder `omtrdc.net` ([regionale Datenerfassung](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/de-DE/analytics/technotes/rdc/regional-data-collection.html))
 
-* Wechsel von `2o7.net` oder `omtrdc.net` zu einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html)).
+* Wechsel von `2o7.net` oder `adobedc.net` zu einer Datenerfassungsdomäne mit CNAME-Eintrag/Erstanbieterkontext ([Erstanbieter-Cookies](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-first-party.html)).
 
 * Wechsel von einem CNAME-Eintrag zu einem anderen (Domänenwechsel).
 
@@ -48,7 +51,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 und mehr Stunden nach dem Konfigurationswechsel</b>: Aktualisieren Sie die Variablen <code> s.trackingServer</code> und <code> s.trackingServerSecure</code> in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unmittelbar nach Aktualisierung Ihres Analytics-Code</b>: Testen Sie Ihre Website, um zu verifizieren, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. </p> </td> 
