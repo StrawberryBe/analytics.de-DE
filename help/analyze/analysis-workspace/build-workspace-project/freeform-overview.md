@@ -5,7 +5,7 @@ title: Übersicht über Projekte
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 27%
@@ -44,6 +44,8 @@ Die Workspace -Seite mit Projektliste umfasst die folgenden Informationen:
 
 Innerhalb eines Projekts bietet das Menü Optionen zum Verwalten Ihres Projekts, Hinzufügen von Komponenten, Suchen von Hilfe und mehr. Auf jede Menüoption kann auch über [Tastaturbefehle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)zugegriffen werden.
 
+![](assets/menu.png)
+
 | Menüelement | Beschreibung |
 |---|---|
 | Projekt   | Enthält allgemeine Aktionen für das Projektmanagement, einschließlich der Vorlagen &quot;Neu&quot;, &quot;Öffnen&quot;, &quot;Speichern&quot;, &quot;Speichern unter&quot;und &quot; [Speichern unter&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). Sie können auch das gesamte Projekt aktualisieren, um die neuesten Daten und Definitionen abzurufen, indem Sie auf Projekt aktualisieren klicken. [Mithilfe der Optionen &quot;CSV herunterladen&quot;und &quot;PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) &quot;können Sie Daten aus Workspace exportieren. [Projektinfo und Projekteinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) bieten viele Optionen zur Projektverwaltung. |
@@ -81,6 +83,8 @@ Sie können auch über das [leere Bedienfeld](https://experienceleague.adobe.com
 
 Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) in der linken Leiste beziehen sich auf die Report Suite des aktiven Bereichs. Das aktive Bedienfeld wird durch einen blauen Rand umgeben, und die aktive Report Suite wird oben in der Komponentenleiste aufgeführt.
 
+![](assets/left-rail.png)
+
 ## Arbeitsfläche des Projekts {#canvas}
 
 Auf der Arbeitsfläche des Projekts können Sie Bereiche, Tabellen, Visualisierungen und Komponenten zusammenführen, um Ihre Analyse zu erstellen. Ein Projekt kann viele Bereiche enthalten, und jeder Bereich kann viele Tabellen und Visualisierungen enthalten.
@@ -89,11 +93,15 @@ Bedienfelder sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Sui
 
 Je nach Ausgangspunkt, den Sie für Ihre Projekte ausgewählt haben, haben Sie entweder eine [Freiformtabelle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) oder einen [leeren Bereich](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) auf der Arbeitsfläche. Die schnellste Möglichkeit zur Beginn-Analyse besteht darin, eine oder mehrere Komponenten auszuwählen und sie einfach per Drag &amp; Drop in die Projektarbeitsfläche zu ziehen. Eine Datentabelle wird automatisch für Sie gerendert. [Erfahren Sie mehr](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) über die verschiedenen Optionen zum Erstellen einer Tabelle oder nutzen Sie unser [Schulungslehrgang](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) , um weitere Anleitungen zum Erstellen Ihres ersten Projekts zu erhalten.
 
+![](assets/canvas.png)
+
 ## Projektmanager {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. Der Projektmanager zeigt die Elemente an, die ein bestimmter Benutzer erstellt hat. Der Eigentümer des Projekts kann unter Admin > Analytics-Benutzer und -Assets > Assets übertragen werden.
 
 Im Projektmanager können Sie Elemente hinzufügen, taggen, freigeben, Duplikat/kopieren und mehr. Suchen Sie in der Suchleiste oder mithilfe der Filteroptionen in der linken Leiste nach einem Projekt. Sie können nach Tag, Eigentümer, Projekttyp und mehr filtern.
+
+![](assets/project-manager.png)
 
 Die folgenden Aktionen sind im Projektmanager häufig durchzuführen und können gleichzeitig an einem oder mehreren Projekten durchgeführt werden:
 
