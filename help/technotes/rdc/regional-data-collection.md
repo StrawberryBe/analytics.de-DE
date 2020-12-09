@@ -2,10 +2,10 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 77%
+source-wordcount: '475'
+ht-degree: 57%
 
 ---
 
@@ -24,9 +24,11 @@ RDC enthält derzeit die folgenden Speicherorte (kann geändert werden):
 
 | RDC-Typ | Data Collection Centers |
 |---------------------|-------------------|
-| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
+| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney, China* |
 
 Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Sie können dies festlegen, wenn Sie einen der beiden Endpunkte in der URL Ihrer Anfragen sehen.
+
+*China RDC benötigt das China Hinzufügen-On-Paket. Siehe oben stehenden Hinweis &quot;Wichtig&quot;.
 
 ## Erstanbieter-HTTPS-Datenerfassung
 
@@ -36,8 +38,19 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | Nur Amerika | Oregon, Virginia |
 | Nur Europa | Irland, Paris |
 | Nur Asien | Mumbai, Singapur, Tokio, Sydney |
+| Nur China* | Peking |
 
-Hinweis: Experience-Edge „Global“ bietet die beste Leistung für Ihre Endanwender.  Wenn Sie einen alternativen RDC-Typ verwenden möchten, wenden Sie sich zur Unterstützung an die Adobe-Kundenunterstützung.
+*China RDC benötigt das China Hinzufügen-On-Paket. Siehe oben stehenden Hinweis &quot;Wichtig&quot;.
+
+Hinweis: Experience-Edge „Global“ bietet die beste Leistung für Ihre Endanwender.  Wenn Sie einen alternativen RDC-Typ verwenden möchten, wenden Sie sich bitte an die Kundenunterstützung der Adobe, um Hilfe zu erhalten.
+
+## Vorteile von RDC
+
+| Vorteil | Beschreibung |
+| --- | --- |
+| Leistung | Mit RDC stellen Ihre Besucher eine Verbindung zum nächsten DCC her. Dadurch erhalten Sie die schnellste Reaktionszeit, was zu einer genaueren Verfolgung und schnelleren Ladezeiten führt. |
+| Redundanz | Bei Unterbrechungen der Kommunikation mit einem DCC wird die Datenerfassung automatisch an den nächstgelegenen DCC weitergeleitet, um die Dienstkontinuität zu gewährleisten. |
+| Redundanz | Bei Unterbrechungen der Kommunikation zwischen dem DCC und Ihrem DPC speichert die RDC-Infrastruktur der Adobe Daten lokal und leitet sie dann an den DPC weiter, wenn die Kommunikation wiederhergestellt wird. |
 
 ## Funktionsweise von RDC
 
