@@ -2,10 +2,10 @@
 title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 91%
+source-wordcount: '398'
+ht-degree: 90%
 
 ---
 
@@ -27,15 +27,11 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche [!UICONTROL Konfigurieren].
 4. Erweitern Sie das Akkordeon [!UICONTROL Allgemein], wodurch das Feld [!UICONTROL Tracking-Server] angezeigt wird.
 
-Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid]sc.adobedc.net`ausgewählt.
+Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].data.adobedc.net`ausgewählt.
 
 ## s.trackingServer in AppMeasurement und im benutzerdefinierten Code-Editor in Launch
 
 Die `s.trackingServer`-Variable ist eine Zeichenfolge, die die Stelle enthält, an die Daten gesendet werden sollen.
-
->[!TIP]
->
->Einige Implementierungen senden Daten an `2o7.net`. Dies ist zwar eine gültige Datenerfassungsdomäne, verwendet aber keine regionale Datenerfassung. Implementierungen mit `2o7.net` sehen etwas höhere Antwortzeiten für Bildanforderungen.
 
 ## Bestimmen des Werts für „trackingServer“
 
@@ -65,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Wählen Sie eine für Ihre Organisation eindeutige Unterdomäne aus, die wahrscheinlich nicht von einer anderen Organisation ausgewählt wird, die Adobe Analytics verwendet.  Der Ihrem Unternehmen zugewiesene Besucher-Namensraum wird empfohlen.  Stellen Sie sicher, dass alle Implementierungen in Ihrem Unternehmen denselben Tracking-Server verwenden. Es kann hilfreich sein, diese Informationen in einem [Lösungsdesigndokument](../../prepare/solution-design.md) zu verwalten.
 
-Möglicherweise verwendet Ihr Unternehmen bereits einen Tracking-Server eines Drittanbieters in den `sc.adobedc.net` oder `2o7.net` -Domänen.  Diese wurden hauptsächlich in früheren Versionen von Adobe Analytics verwendet und sind weiterhin gültig.
+Möglicherweise verwendet Ihr Unternehmen bereits einen Tracking-Server eines Drittanbieters in den `sc.omtrdc.net` oder `2o7.net` -Domänen.  Diese wurden hauptsächlich in früheren Versionen von Adobe Analytics verwendet und sind weiterhin gültig.
 
 >[!NOTE]
 >
