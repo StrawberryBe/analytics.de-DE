@@ -2,7 +2,7 @@
 title: Ausschluss-Links
 description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
 
 Wenn Sie die `trackingServer`-Domäne Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:
 
-* Drittanbieter-Cookies: `https://example.sc.adobedc.net/optout.html`
+* Drittanbieter-Cookies: `https://example.data.adobedc.net/optout.html`
 * Erstanbieter-Cookies: `https://stats.example.com/optout.html`
 
 ## Opt-out-Abfragezeichenfolgenparameter
@@ -78,7 +78,7 @@ Wechseln Sie automatisch die Sprache der Opt-out-Seite, indem Sie den Abfragezei
 * sk_SK (Slowakisch)
 * es_ES (Spanisch)
 
-Zum Beispiel lädt `https://example.sc.adobedc.net/optout.html?locale=ko_KR` die Opt-out-Seite auf Koreanisch.
+Zum Beispiel lädt `https://example.data.adobedc.net/optout.html?locale=ko_KR` die Opt-out-Seite auf Koreanisch.
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Zum Beispiel lädt `https://example.sc.adobedc.net/optout.html?locale=ko_KR` die
 
 Fügt der Seite eine Schaltfläche „Fenster schließen“ hinzu, wodurch die Möglichkeit besteht, die Opt-out-Seite zu einem Popup-Fenster zu machen. Verwenden Sie den Abfragezeichenfolgenparameter `popup` und geben Sie ihm den Wert `1`.
 
-Zum Beispiel lädt `https://example.sc.adobedc.net/optout.html?popup=1` die Opt-out-Seite mit einer Schaltfläche „Fenster schließen“.
+Zum Beispiel lädt `https://example.data.adobedc.net/optout.html?popup=1` die Opt-out-Seite mit einer Schaltfläche „Fenster schließen“.
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Zum Beispiel lädt `https://example.sc.adobedc.net/optout.html?popup=1` die Opt-
 
 Ermöglicht dem Benutzer, das Tracking sofort abzuwählen. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_out` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
 
-Beispielsweise installiert `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` sofort das Opt-out-Cookie auf der Seite des Besuchers.
+Beispielsweise installiert `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` sofort das Opt-out-Cookie auf der Seite des Besuchers.
 
 ### Opt-in mit einem Klick
 
 Ermöglicht dem Benutzer, sich sofort wieder beim Tracking anzumelden, indem er das Opt-out-Cookie löscht. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_in` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
 
-Beispielsweise löscht `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` sofort das Opt-out-Cookie für den Besucher.
+Beispielsweise löscht `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` sofort das Opt-out-Cookie für den Besucher.
