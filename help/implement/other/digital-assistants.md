@@ -2,10 +2,10 @@
 title: Implementieren von Analytics für digitale Assistenten
 description: Implementieren Sie Adobe Analytics für digitale Assistenten, wie Amazon Alexa oder Google Home.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Diese Seite bietet einen Überblick darüber, wie Sie Adobe Analytics am besten 
 
 ## Übersicht über die digitale Erfahrungsarchitektur
 
-![Workflow für digitale Assistenten](assets/Digital-Assitants.png)
+![Workflow für digitale Assistenzkräfte](assets/Digital-Assitants.png)
 
 Derzeit basieren die meisten digitalen Assistenten auf einer ähnlichen allgemeinen Architektur:
 
@@ -50,8 +50,8 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.adobedc.net">
-  sc.adobedc.net
+<xref href="https://example.data.adobedc.net">
+  example.data.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
@@ -62,13 +62,13 @@ Ihre Organisation benötigt wahrscheinlich Apps für mehrere Plattformen. Dabei 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -80,7 +80,7 @@ Die Verwendung des ID-Service bietet den größten Nutzen, wenn Sie ECIDs über 
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -103,7 +103,7 @@ Sitzungen sind wichtig, um den Kontext zu wahren und mehr Details zu sammeln, um
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -113,7 +113,7 @@ Jeder digitale Assistent verfügt über Algorithmen, die Intents erkennen und da
 
 Wenn ein Benutzer beispielsweise sagt: „Siri, sende John 20 $ für das Abendessen gestern über meine Bank-App“, dann lautet der Intent etwa  *sendMoney*.
 
-Indem Sie jede dieser Anfragen als eVar einsenden, können Sie Pfadsetzungsberichte für jeden Intent für Konversations-Apps erstellen. Stellen Sie sicher, dass Ihre App Anfragen auch ohne Intent bearbeiten kann. Adobe empfiehlt, „Kein Intent angegeben“ an die Intent-Kontextdatenvariable zu übergeben, anstatt die Variable zu überspringen.
+Indem Sie jede dieser Anfragen als eVar einsenden, können Sie Pfadsetzungsberichte für jeden Intent für Konversations-Apps erstellen. Stellen Sie sicher, dass Ihre App Anfragen auch ohne Intent bearbeiten kann. Adobe empfiehlt die Übergabe von &quot;Keine Absicht angegeben&quot;an die Variable für die Kontextdaten des Zielkontexts, anstatt die Variable auszulassen.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
@@ -125,7 +125,7 @@ oder
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -141,7 +141,7 @@ Normalerweise verfügt Ihre App über eine begrenzte Anzahl dieser Werte. Um die
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -153,7 +153,7 @@ Wenn diese Situation eintritt, sollte Ihre App um Aufklärung bitten. Senden Sie
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -172,10 +172,10 @@ Vorangestellte und nachgestellte Doppelpunkte helfen bei der Erstellung von Segm
 
 | Benutzer | Antwort des Geräts | Aktion/Intent | GET-Anfrage |
 |---|---|---|---|
-| Installiere Spoofify | Keine Antwort | Installieren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Spiele Spoofify | „Okay, ich spiele Spoofify“ | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Spiele etwas anderes | „Okay, welchen Song?“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Spiel „Baby Shark“ | „Okay, ich spiele ‚Baby Shark‘ von PinkFong“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Ändere die Playliste | „Okay, welche Playliste?“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Spiel meine Playlist mit Lieblingsliedern | „Okay, ich spiele deine Playlist mit Lieblingsliedern“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| Schalte die Musik aus | Keine Antwort, Musik wird ausgeschaltet | Aus | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| Installiere Spoofify | Keine Antwort | Installieren | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiele Spoofify | „Okay, ich spiele Spoofify“ | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiele etwas anderes | „Okay, welchen Song?“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiel „Baby Shark“ | „Okay, ich spiele ‚Baby Shark‘ von PinkFong“ | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Ändere die Playliste | „Okay, welche Playliste?“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Spiel meine Playlist mit Lieblingsliedern | „Okay, ich spiele deine Playlist mit Lieblingsliedern“ | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Schalte die Musik aus | Keine Antwort, Musik wird ausgeschaltet | Aus | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
