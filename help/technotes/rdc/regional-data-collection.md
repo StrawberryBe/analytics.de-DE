@@ -2,10 +2,10 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ In der folgenden Liste wird der von Adobe verwendete Datenerfassungsprozess besc
 1. DNS löst den Hostnamen der Datenerfassung automatisch in die IP-Adresse des Data Collection Centers auf, das dem Besucher am nächsten ist.
 1. Der Besucher sendet die Daten an diesen Ort.
 1. Die Daten werden über eine sichere Verbindung sofort an das Data Processing Center weitergeleitet, wo sie verarbeitet und den Produkten in Adobe Experience Cloud bereitgestellt werden.
-
-## Vorteile von RDC
-
-| Vorteil | Beschreibung |
-|---------|-----------|
-| Leistung | Mit RDC werden Ihre Besucher mit dem nächstgelegenen Daten-Center verbunden. Das bedeutet, dass die Antwortzeiten auf Ihrer Seite beschleunigt werden, was wiederum zu genauerer Verfolgung und schnelleren Ladezeiten führt. |
-| Redundanz | Im Falle einer Unterbrechung der Kommunikation mit einem DCC wird die Datenerfassung automatisch an das nächstgelegene DCC weitergeleitet, wodurch die Kontinuität des Dienstes sichergestellt wird. |
-| Redundanz | Im Falle einer Unterbrechung der Kommunikation zwischen dem DCC und Ihrem DPC speichert die RDC-Infrastruktur von Adobe die Daten lokal und leitet sie bei der Wiederherstellung der Datenverbindung an das DPC weiter. |
-
-## Verlauf der Dokumentationsüberarbeitung
-
-| Update | Beschreibung |
-|--------|---------|
-| 4. Februar 2020 | RDC-Positionen aktualisiert. |
-| 20. Februar 2019 | Umschreiben abgeschlossen. RDC-Netzwerkinformationen hinzugefügt. |
