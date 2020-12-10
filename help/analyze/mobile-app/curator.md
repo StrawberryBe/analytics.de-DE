@@ -2,10 +2,10 @@
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 86%
 
 ---
 
@@ -51,40 +51,40 @@ Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder konfigurieren
 
 Zur Erstellung der Scorecard führen Sie folgende Schritte aus:
 
-1. Greifen Sie auf die Vorlage für leere mobile Scorecards zu.
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
 
-### Auf die Vorlage für leere mobile Scorecards zugreifen
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-Sie haben folgende Möglichkeiten, auf die Vorlage für leere mobile Scorecards zuzugreifen:
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **Neues Projekt erstellen**
 
-1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **Workspace**.
-2. Klicken Sie auf die Schaltfläche **Neues Projekt erstellen** und wählen Sie die Projektvorlage **Leere mobile Scorecard** aus.
-3. Klicken Sie auf die Schaltfläche **Erstellen**.
+1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **[!UICONTROL Workspace]**.
+2. Klicken Sie auf die Schaltfläche **[!UICONTROL Neues Projekt erstellen]** und wählen Sie die Projektvorlage **[!UICONTROL Leere mobile Scorecard]** aus.
+3. Klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]**.
 
 ![Scorecard-Vorlage](assets/new_template.png)
 
 **Projekt hinzufügen**
 
-Klicken Sie im Bildschirm **Projekte** auf der Registerkarte **Komponenten** auf die Schaltfläche **Hinzufügen** und wählen Sie **Mobile Scorecard** aus.
+Klicken Sie im Bildschirm **[!UICONTROL Projekte]** auf der Registerkarte **[!UICONTROL Komponenten]** auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Mobile Scorecard]** aus.
 
 ![Projekte hinzufügen](assets/add_project.png)
 
-**Analytics-Tools verwenden**
+**Verwenden von [!DNL Analytics] Werkzeugen**
 
-Klicken Sie in Analytics auf das Menü **Tools** und wählen Sie **Dashboards** aus. Klicken Sie im nachfolgenden Bildschirm auf die Schaltfläche **Scorecard erstellen**.
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### Scorecard mit Daten konfigurieren und speichern
 
 So implementieren Sie die Scorecard-Vorlage:
 
-1. Geben Sie unter **Eigenschaften** (in der rechten Leiste) eine **Projekt-Report Suite** an, aus der Sie Daten verwenden möchten.
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![Report Suite-Auswahl](assets/properties_save.png)
 
-2. Um Ihrer Scorecard eine neue Kachel hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bereich und legen Sie sie in den Bereich **Metriken hierher ziehen und ablegen**. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
 
    ![Kacheln hinzufügen](assets/build_list.png)
 
@@ -92,13 +92,13 @@ So implementieren Sie die Scorecard-Vorlage:
    *Von jeder Kachel aus können Sie auf eine Detailansicht zugreifen, die zusätzliche Informationen über die Metrik anzeigt, wie z. B. die obersten Elemente in einer Liste verwandter Dimensionen.*
 
 
-3. Um einer Metrik eine verwandte Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab. Sie können beispielsweise geeignete Dimensionen (wie **DMA Region** in diesem Beispiel) zur Metrik **Unique Visitors** hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Dimensionen, die Sie hinzufügen, werden im Aufschlüsselungsabschnitt der kachelspezifischen **Eigenschaften** angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
+3. Um einer Metrik eine verwandte Dimension hinzuzufügen, ziehen Sie eine Dimension aus dem linken Bereich und legen Sie sie auf einer Kachel ab. Sie können beispielsweise geeignete Dimensionen (wie **[!DNL DMA Region]** in diesem Beispiel) zur Metrik **[!UICONTROL Unique Visitors]** hinzufügen, indem Sie sie auf die Kachel ziehen und dort ablegen. Dimensionen, die Sie hinzufügen, werden im Aufschlüsselungsabschnitt der kachelspezifischen **[!UICONTROL Eigenschaften]** angezeigt. Sie können jeder Kachel mehrere Dimensionen hinzufügen.
 
    ![Dimensionen hinzufügen](assets/layer_dimensions.png)
 
    Sie können auch allen Kacheln eine Dimension hinzufügen, indem Sie diese auf der Scorecard-Arbeitsfläche ablegen.
 
-   Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen **Titel** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
+   Wenn Sie im Scorecard Builder auf eine Kachel klicken, zeigt die rechte Leiste die Eigenschaften und Merkmale an, die mit dieser Kachel verbunden sind. In dieser Leiste können Sie einen neuen **[!UICONTROL Titel]** für die Kachel angeben und alternativ die Kachel konfigurieren, indem Sie Komponenten angeben, anstatt sie aus der linken Leiste zu ziehen und abzulegen.
 
    Wenn Sie auf Kacheln klicken, wird in einem dynamischen Popup angezeigt, wie die Aufschlüsselungsansicht für ausführende Benutzer in der App dargestellt wird. Wenn keine Dimension auf die Kachel angewendet wurde, werden je nach Standarddatumsbereich entweder **Stunden** oder **Tage** als Aufschlüsselungsdimension verwendet.
 
@@ -106,21 +106,21 @@ So implementieren Sie die Scorecard-Vorlage:
 
    Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
 
-4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso wie in Adobe Analytics Workspace an.
+4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso wie in Adobe Analytics Workspace an.
 
    ![Segmente für Filter erstellen](assets/segment_ui.png)
 
-5. Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Mobile Customers** dargestellt:
+5. Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie auf eine beliebige Stelle außerhalb der Kacheln auf die Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **[!DNL Mobile Customers]** dargestellt:
 
    ![Komponenten entfernen](assets/new_remove.png)
 
-6. In den **Eigenschaften** der Scorecard können Sie optional auch Folgendes angeben:
+6. In den **[!UICONTROL Eigenschaften]** der Scorecard können Sie optional auch Folgendes angeben:
 
-   * Einen **Standarddatumsbereich**. Die Bereiche, die Sie hier angeben, sind die gleichen, die beim ersten Zugriff des ausführenden Benutzers auf die Scorecard in der App angewendet werden.
+   * A **[!UICONTROL Default date range]**. Die Bereiche, die Sie hier angeben, sind die gleichen, die beim ersten Zugriff des ausführenden Benutzers auf die Scorecard in der App angewendet werden.
 
-   * Einen **Vergleichsdatumsbereich**
+   * A **[!UICONTROL Comparison date range]**
 
-   * Alle **Segmente**, die auf die gesamte Scorecard angewendet werden sollen
+   * Alle **[!UICONTROL Segmente]**, die auf die gesamte Scorecard angewendet werden sollen
 
 7. Um die Scorecard zu benennen, klicken Sie auf den Namensbereich in der oberen linken Ecke des Bildschirms und geben Sie den neuen Namen ein.
 
@@ -130,22 +130,22 @@ So implementieren Sie die Scorecard-Vorlage:
 
 So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
-1. Klicken Sie auf das Menü **Freigeben** und wählen Sie **Scorecard freigeben**.
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. Füllen Sie die Felder im **Freigabeformular** aus, indem Sie:
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * den Namen der Scorecard angeben
    * eine Beschreibung der Scorecard angeben
    * relevante Tags hinzufügen
    * die Empfänger der Scorecard angeben
 
-3. Klicken Sie auf **Freigabe**.
+3. Klicken Sie auf **[!UICONTROL Freigabe]**.
 
 ![Scorecards freigeben](assets/new_share.png)
 
 Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **Freigeben eingebetteter Komponenten** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
+Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
 
 ## Einrichten von leitenden Benutzern mit der App
 
@@ -159,7 +159,7 @@ Um ausführenden Benutzern zu helfen, auf Ihre Scorecards in der App zuzugreifen
 * Die Adobe Analytics-Anmeldeinformationen Ihrer Benutzer müssen gültig sein.
 * Sie müssen die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben haben.
 * Ihre Benutzer benötigen Zugriff auf Analysis Workspace und die Report Suite, auf der die Scorecard basiert.
-* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **eingebettete Komponenten freizugeben**.
+* Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Hinweis: Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **[!UICONTROL eingebettete Komponenten freizugeben]**.
 
 ### Ausführenden Benutzern mit der App helfen
 
@@ -169,22 +169,22 @@ So unterstützen Sie ausführende Benutzer:
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [iOS-Link](https://apple.co/2zXq0aN)
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   * Klicken Sie auf den folgenden Link (er ist auch in Analytics unter **Tools** > **Dashboards** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der App:
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Android-Link](https://bit.ly/2LM38Oo)
    Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
 
    ![Willkommensbildschirm der App](assets/welcome.png)
 
-2. Helfen Sie Benutzern beim Zugriff auf Ihre Scorecard. Nach der Anmeldung bei der App wird ausführenden Benutzern der Bildschirm **Unternehmen auswählen** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann. So helfen Sie Benutzern, eine Scorecard anzuzeigen:
+2. Helfen Sie Benutzern beim Zugriff auf Ihre Scorecard. Nach der Anmeldung bei der App wird ausführenden Benutzern der Bildschirm **[!UICONTROL Unternehmen auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann. So helfen Sie Benutzern, eine Scorecard anzuzeigen:
 
    * Tippen Sie auf den Namen der Unternehmensanmeldung oder der Experience Cloud-Organisation, der für die von Ihnen freigegebene Scorecard gilt. Die Scorecard-Liste zeigt alle Scorecards an, die mit dem ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
-   * Helfen Sie Benutzern, diese Liste ggf. nach der **zuletzt geänderten Scorecard** zu sortieren.
+   * Helfen Sie Benutzern, diese Liste ggf. nach der **[!UICONTROL zuletzt geänderten Scorecard]** zu sortieren.
    * Tippen Sie auf den Namen der Scorecard, um sie anzuzeigen.
 
    ![Wählen Sie ein Unternehmen aus.](assets/accesscard.png)
@@ -201,7 +201,7 @@ So unterstützen Sie ausführende Benutzer:
    * Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![Kacheln erklären](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ So unterstützen Sie ausführende Benutzer:
 
    * Sie können die Datumsbereiche auch in der oben gezeigten Aufschlüsselungsansicht auf dieselbe Weise ändern.
 
-   * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **VERGLEICHEN MIT** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **Fertig**. Das Feld **Datumsbereiche** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
+   * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **[!UICONTROL VERGLEICHEN MIT]** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **[!UICONTROL Fertig]**. Das Feld **[!UICONTROL Datumsbereiche]** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
 6. So hinterlassen Sie Feedback zu dieser App:
 
    1. Tippen Sie auf das Einstellungssymbol oben recht im App-Bildschirm.
-   2. Tippen Sie auf dem Bildschirm **Einstellungen** auf die Option **Feedback**.
+   2. Tippen Sie auf dem Bildschirm **[!UICONTROL Einstellungen]** auf die Option **[!UICONTROL Feedback]**.
    3. Tippen Sie, um die Optionen zum Hinterlassen von Feedback anzuzeigen.
 
       ![Einstellungsbildschirm](assets/settings.png)
 
-7. Um die Voreinstellungen zu ändern, tippen Sie auf die Option **Voreinstellungen** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
+7. Um die Voreinstellungen zu ändern, tippen Sie auf die Option **[!UICONTROL Voreinstellungen]** oben. In den Voreinstellungen können Sie die biometrische Anmeldung aktivieren oder Sie können die App wie folgt für den Dunkelmodus einstellen:
 
    ![Dunkelmodus](assets/darkmode.png)
 
