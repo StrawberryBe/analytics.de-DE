@@ -2,10 +2,10 @@
 title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 >
 >Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Siehe die [Übersichtsseite](overview.md) und die gewünschte Stitching-Methode ([feldbasiertes Stitching](field-based-stitching.md) oder [Gerätediagramm](device-graph.md)) für Voraussetzungen und Einschränkungen.
 
-## Auswahl einer geräteübergreifenden Report Suite zur Aktivierung für die geräteübergreifende Analyse
+## Wenden Sie sich an Ihren Kundenbetreuer, um CDA für Ihre geräteübergreifende Report Suite bereitzustellen.
 
-Wenn Ihre Organisation für die Verwendung der geräteübergreifenden Analyse vorgesehen ist, wählen Sie die zu verwendende Report Suite aus. Diese Entscheidung können Sie Ihrem Adobe-Kundenbetreuer mitteilen. Adobe aktiviert dann Ihre ausgewählte Report Suite für die Verarbeitung der geräteübergreifenden Analyse.
+CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering bereitgestellt. Wenden Sie sich mit den folgenden Informationen an Ihren Kundenbetreuer:
+
+* Ihre Adobe Experience Cloud-Organisations-ID (eine alphanumerische Zeichenfolge, die mit @AdobeOrg endet)
+* Die Report Suite-ID für die geräteübergreifende Report Suite, die Sie mit CDA aktivieren möchten
+* Welche CDA-Methode Sie verwenden möchten (field-based stitching, Adobe private graph oder Adobe Co-op Graph)
+* Wenn Sie die feldbasierte Suche verwenden möchten, verwenden Sie die Eigenschaftsvariable oder die eVar, die die Benutzer-ID enthält
+
+Sobald Sie dem CSM diese Informationen zur Verfügung gestellt haben, können diese mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die CDA-Verarbeitung zu aktivieren.
 
 ## Erstellung einer geräteübergreifenden Virtual Report Suite zur geräteübergreifenden Ansicht
 
@@ -43,7 +50,7 @@ Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Sui
 Wenn die geräteübergreifende Analyse für eine Virtual Report Suite aktiviert ist, beachten Sie die folgenden Änderungen:
 
 * Neben dem Namen der Virtual Report Suite wird ein neues geräteübergreifendes Symbol angezeigt. Dieses Symbol ist ausschließlich für geräteübergreifende Virtual Report Suites vorgesehen.
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. Diese Dimension bestimmt, ob die Experience Cloud ID für diesen Treffer dem Gerätediagramm zu diesem Zeitpunkt bekannt ist.
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* Eine neue Dimension mit der Bezeichnung [Identifizierter Status](../dimensions/identified-state.md) ist verfügbar. Diese Dimension bestimmt, ob die Experience Cloud ID für diesen Treffer dem Gerätediagramm zu diesem Zeitpunkt bekannt ist.
+* Es sind neue Metriken mit den Bezeichnungen [Personen](../metrics/people.md) und [Unique Devices](../metrics/unique-devices.md) verfügbar.
+* Die Metrik [Individuelle Besucher](../metrics/unique-visitors.md) ist nicht verfügbar, da sie durch &quot;Personen&quot;und &quot;Unique Devices&quot;ersetzt wird.
 * Beim Erstellen von Segmenten wird der Segmentcontainer „Besucher“ durch den Container „Person“ ersetzt.
