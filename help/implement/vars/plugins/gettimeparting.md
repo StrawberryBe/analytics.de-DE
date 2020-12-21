@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 82%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
@@ -23,10 +23,6 @@ Analysis Workspace bietet ähnliche vordefinierte Dimensionen, die etwas anders 
 >[!IMPORTANT]
 >
 >Version 4.0+ dieses Plug-ins unterscheidet sich deutlich von früheren Versionen. Adobe empfiehlt dringend, dieses Plug-in von Grund auf neu zu implementieren. Code, der auf das Plug-in vor Version 4.0 verweist, ist nicht mit der aktuellen Version dieses Plug-ins kompatibel.
-
->[!IMPORTANT]
->
->Frühere Versionen dieses Plug-Ins konnten in Zukunft nicht alle Jahre verwendet werden. Wenn Sie eine frühere Version dieses Plug-Ins verwenden, empfiehlt Adobe dringend, ein Upgrade auf die neueste Version durchzuführen, um JavaScript-Fehler und Datenverluste zu vermeiden. Wenn eine Aktualisierung dieses Plug-Ins nicht möglich ist, stellen Sie sicher, dass die Variable `s._tpdst` im Plug-in-Code die entsprechenden Jahre in der Zukunft enthält. Diese Variable ist in der neuesten Version des Plug-Ins nicht vorhanden oder erforderlich.
 
 ## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Zwischenversion (neu kompiliert, kleinere Code-Größe)
 * Der `tpDST`-Parameter ist nicht mehr erforderlich, da das Start-/Enddatum der Sommerzeit jetzt automatisch erkannt wird.
+
+>[!CAUTION]
+>
+>Frühere Versionen dieses Plug-Ins konnten in Zukunft nicht alle Jahre verwendet werden. Wenn Sie eine frühere Version dieses Plug-Ins verwenden, empfiehlt Adobe dringend, ein Upgrade auf die neueste Version durchzuführen, um JavaScript-Fehler und Datenverluste zu vermeiden. Wenn eine Aktualisierung dieses Plug-Ins nicht möglich ist, stellen Sie sicher, dass die Variable `s._tpdst` im Plug-in-Code die entsprechenden Jahre in der Zukunft enthält.
 
 ### 4.0 (22. August 2016)
 
