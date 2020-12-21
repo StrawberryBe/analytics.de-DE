@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Messen Sie die Zeit, zu der eine bestimmte Aktion stattfindet.
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,10 @@ Analysis Workspace bietet ähnliche vordefinierte Dimensionen, die etwas anders 
 >[!IMPORTANT]
 >
 >Version 4.0+ dieses Plug-ins unterscheidet sich deutlich von früheren Versionen. Adobe empfiehlt dringend, dieses Plug-in von Grund auf neu zu implementieren. Code, der auf das Plug-in vor Version 4.0 verweist, ist nicht mit der aktuellen Version dieses Plug-ins kompatibel.
+
+>[!IMPORTANT]
+>
+>Frühere Versionen dieses Plug-Ins konnten in Zukunft nicht alle Jahre verwendet werden. Wenn Sie eine frühere Version dieses Plug-Ins verwenden, empfiehlt Adobe dringend, ein Upgrade auf die neueste Version durchzuführen, um JavaScript-Fehler und Datenverluste zu vermeiden. Wenn eine Aktualisierung dieses Plug-Ins nicht möglich ist, stellen Sie sicher, dass die Variable `s._tpdst` im Plug-in-Code die entsprechenden Jahre in der Zukunft enthält. Diese Variable ist in der neuesten Version des Plug-Ins nicht vorhanden oder erforderlich.
 
 ## Installieren des Plug-ins mit der Adobe Experience Platform Launch-Erweiterung
 
@@ -105,11 +109,11 @@ Der Client befindet sich in Ghana:
 s.eVarX = getTimeParting();
 ```
 
-Ghana liegt innerhalb der UTC/GMT-Zeitzone.  Dieses Beispiel zeigt, dass unter solchen Umständen kein Plug-in-Argument erforderlich ist.
+Ghana liegt innerhalb der UTC/GMT-Zeitzone. Dieses Beispiel zeigt, dass kein Plug-in-Argument für UTC/GMT erforderlich ist.
 
 ### Für Internet Explorer-Browser
 
-Verwenden Sie das folgende Beispiel, wenn Sie Zeitunterteilungsdaten von Internet Explorer-Besuchern ausschließen möchten (da der von IE-Browsern zurückgegebene Wert nur in der Ortszeit des Besuchers liegen kann)
+Verwenden Sie das folgende Beispiel, wenn Sie Zeitaufteilungsdaten aus Internet Explorer-Besuchern ausschließen möchten. Der von IE-Browsern zurückgegebene Wert ist nur in der Ortszeit des Besuchers angegeben.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Ergebnisse von Aufrufen
 
-Wenn ein Besucher aus Denver, Colorado, am 31. August 2020 um 9:15 Uhr einen Standort besucht:
-
-Das Ausführen des folgenden Codes ...
+Man denke an ein Szenario, bei dem ein Besucher von Denver Colorado am 31. August 2020 um 9:15 Uhr eine Site besucht.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-... würde s.eVar10 auf „year=2020 | month=August | date=31 | day=Freitag | time=18:15“ setzen
-
-Der folgende Code ...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-... würde s.eVar10 auf „year=2020 | month=August | date=31 | day=Freitag | time=06:15“ setzen
-
-Der folgende Code ...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-... würde s.eVar10 auf „year=2020 | month=August | date=31 | day=Freitag | time=20:45“ setzen
-
-Und der folgende Code ...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-... würde s.eVar10 auf „year=2020 | month=September | date=1 | day=Samstag | time=1:15“ setzen
 
 ## Versionsverlauf
 
