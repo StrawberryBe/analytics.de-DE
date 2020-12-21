@@ -2,11 +2,11 @@
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 title: 'Referenz: Grundfunktionen'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Im Folgenden werden die Funktionen und ihre Definitionen alphabetisch aufgeliste
 
 >[!NOTE]
 >
->Wenn [!DNL metric] als Argument in einer Funktion angegeben ist, sind auch andere Ausdrücke von Metriken zulässig. Beispiel: [!DNL MAXV(metrics)] ermöglicht auch [!DNL MAXV(PageViews + Visits).]
+>Wenn [!DNL metric] als Argument in einer Funktion angegeben ist, sind auch andere Ausdrücke von Metriken zulässig. Beispiel: [!DNL MAXV(metrics)] ermöglicht auch [!DNL MAXV(PageViews + Visits)].
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die Sie auswerten möchten. |
+| *Metrik* | Die Metrik, die Sie auswerten möchten. |
 
 ## Spaltenminimum {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die Sie auswerten möchten. |
+| *Metrik* | Die Metrik, die Sie auswerten möchten. |
 
 ## Spaltensumme {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
 
 ## Anzahl (Tabelle) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die gezählt werden soll. |
+| *Metrik* | Die Metrik, die gezählt werden soll. |
 
 ## Exponent (Zeile) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,15 +95,15 @@ EXP(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Exponent, der auf Basis *e* angewendet wird. |
+| *Metrik* | Der Exponent, der auf Basis *e* angewendet wird. |
 
 ## Potenzierung {#concept_941578534F1E4583B1BEB067C8113A21}
 
 Potenzierungsoperator
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y-mal)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## Arithmetisches Mittel (Tabelle) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
 
 ## Medianwert (Tabelle) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -161,24 +161,10 @@ Gibt das k. Perzentil der Werte für eine Metrik zurück. Mit dieser Funktion k�
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Die Metrikspalte, die die relative Position definiert. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> Der Perzentilwert im Bereich von 0 bis 100 (einschließlich). </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argument | Beschreibung |
+| --- | --- |
+| *Metrik* | Die Metrikspalte, die die relative Position definiert. |
+| *k* | Der Perzentilwert im Bereich von 0 bis 100 (einschließlich). |
 
 ## Quartil (Tabelle) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ Gibt das Quartil der Werte für eine Metrik zurück. Anhand von Quartilen könne
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Die Metrik, für die Sie den Quartilwert abrufen möchten. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> Gibt an, welcher *-Wert zurückgegeben werden soll. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argument | Beschreibung |
+| --- | --- |
+| *Metrik* | Die Metrik, für die Sie den Quartilwert abrufen möchten. |
+| *quart* | Gibt an, welcher *-Wert zurückgegeben werden soll. |
 
 *Wenn *quart* = 0 ist, gibt QUARTILE den Mindestwert zurück. Wenn *quart* = 1 ist, gibt QUARTILE das zweite Quartil (25. Perzentil) zurück. Wenn *quart* = 2 ist, gibt QUARTILE das zweite Quartil (50. Perzentil) zurück. Wenn *quart* = 3 ist, gibt QUARTILE das zweite Quartil (75. Perzentil) zurück. Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
 
@@ -224,9 +196,9 @@ ROUND(metric)
 Das Runden ohne Stellenparameter ist mit dem Runden mit dem Stellenparameter 0 identisch, also der Rundung zur nächsten Ganzzahl. Wenn Sie einen Stellenparameter angeben, wird die angegebene Anzahl an Stellen rechts neben dem Dezimalzeichen zurückgegeben. Wenn der Stellenparameter negativ ist, werden Nullen links neben dem Dezimalzeichen zurückgegeben.
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | Argument | Beschreibung |
-|---|---|
+| --- | --- |
 | *number* | Die Metrik, für die Sie die Quadratwurzel abrufen möchten. |
 
 ## Standardabweichung (Tabelle) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ Die Gleichung für STDEV lautet:
 
 ![](assets/std_dev.png)
 
-wobei x das arithmetische Beispielmittel (*metric*) und *n* die Beispielgröße ist.
+Dabei ist *x* der Wert jedes Beispiels (*metric*), *x̄* ist das Populationsmittel und *n* ist die Populationsgröße.
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> Argument</b> </td> 
-   <td> <b> Beschreibung</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
-   <td> <p> Die Metrik, deren Standardabweichung gewünscht ist. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argument | Beschreibung |
+| --- | --- |
+| *Metrik* | Die Metrik, deren Standardabweichung gewünscht ist. |
 
 ## Schwankung (Tabelle) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ Die Gleichung für VARIANCE lautet:
 
 ![](assets/variance_eq.png)
 
-wobei x das arithmetische Beispielmittel MEAN(*metric*) und *n* die Beispielgröße ist.
+Dabei ist *x* der Wert jedes Beispiels (*metric*), *x̄* ist das Populationsmittel und *n* ist die Populationsgröße.
 
 ```
 VARIANCE(metric)
 ```
 
 | Argument | Beschreibung |
-|---|---|
-| *metric* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
+| --- | --- |
+| *Metrik* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
 
 Zur Berechnung einer Varianz sehen Sie sich eine gesamte Spalte von Zahlen an. Aus dieser Liste von Zahlen berechnen Sie zunächst den Durchschnitt. Sobald Sie den Durchschnitt ermittelt haben, sehen Sie sich jeden Eintrag an und tun Folgendes:
 
 1. Ziehen Sie den Durchschnitt von der Zahl ab.
-
-2. Quadrieren Sie das Ergebnis.
-
-3. Fügen Sie diesen Wert zum Gesamtergebnis hinzu.
+1. Quadrieren Sie das Ergebnis.
+1. Fügen Sie diesen Wert zum Gesamtergebnis hinzu.
 
 Sobald Sie die gesamte Spalte durchlaufen haben, haben Sie ein einziges Gesamtergebnis. Teilen Sie dann dieses Gesamtergebnis durch die Anzahl der Elemente in der Spalte. Die resultierende Zahl ist die Varianz für die Spalte. Es handelt sich dabei um eine einzige Zahl. Allerdings wird der Wert in Form einer Spalte mit Zahlen angezeigt.
 
@@ -321,10 +282,4 @@ Beispiel: Sie haben eine Spalte mit drei Elementen:
 
 3
 
-Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spaltet lautet dann ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. In Ad Hoc Analysis wird dies wie folgt aussehen:
-
-1 2/3
-
-2 2/3
-
-3 2/3
+Der Durchschnitt dieser Spalte ist 2. Die Varianz für die Spaltet lautet dann ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
