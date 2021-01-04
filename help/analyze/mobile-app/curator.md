@@ -1,20 +1,20 @@
 ---
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Kuratorleitfaden für Adobe Analytics-Dashboards
 
-Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video mit diesen Informationen finden Sie im Adobe Analytics Dashboards Scorecard Builder-Video:
+Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video zur Verdeutlichung dieser Informationen finden Sie in den Adobe Analytics-Dashboards unter dem Namen Scorecard Builder-Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/34544?captions=ger)
 
 ## Einführung
 
@@ -51,12 +51,12 @@ Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder konfigurieren
 
 Zur Erstellung der Scorecard führen Sie folgende Schritte aus:
 
-1. Access the [!UICONTROL Blank Mobile Scorecard] template.
+1. Zugriff auf die Vorlage für [!UICONTROL leere mobile Scorecards].
 2. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
 
-### Access the [!UICONTROL Blank Mobile Scorecard] template
+### Zugriff auf die Vorlage für [!UICONTROL leere mobile Scorecards]
 
-You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
+Sie haben folgende Möglichkeiten, auf die Vorlage für [!UICONTROL leere mobile Scorecards] zuzugreifen:
 
 **Neues Projekt erstellen**
 
@@ -72,19 +72,19 @@ Klicken Sie im Bildschirm **[!UICONTROL Projekte]** auf der Registerkarte **[!UI
 
 ![Projekte hinzufügen](assets/add_project.png)
 
-**Verwenden von [!DNL Analytics] Werkzeugen**
+**Verwenden von [!DNL Analytics]-Tools**
 
-In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+Klicken Sie in [!DNL Analytics] auf das Menü **[!UICONTROL Tools]** und wählen Sie **[!UICONTROL Analytics-Dashboards (Mobile App)]** aus. Klicken Sie im nachfolgenden Bildschirm auf den Button **[!UICONTROL Neue Scorecard erstellen]**.
 
 ### Scorecard mit Daten konfigurieren und speichern
 
 So implementieren Sie die Scorecard-Vorlage:
 
-1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
+1. Geben Sie unter **[!UICONTROL Eigenschaften]** (in der rechten Leiste) eine **[!UICONTROL Report Suite des Projekts]** an, aus der Sie Daten verwenden möchten.
 
    ![Report Suite-Auswahl](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
+2. Um Ihrer Scorecard eine neue Kachel hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bereich und legen Sie sie im Bereich **[!UICONTROL Metriken hierher ziehen und ablegen]** ab. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
 
    ![Kacheln hinzufügen](assets/build_list.png)
 
@@ -106,7 +106,7 @@ So implementieren Sie die Scorecard-Vorlage:
 
    Jede der Kachel hinzugefügte Dimension wird in einer Dropdown-Liste in der Detailansicht der App angezeigt. Der ausführende Benutzer kann dann aus den in der Dropdown-Liste aufgelisteten Optionen auswählen.
 
-4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) genauso wie in Adobe Analytics Workspace an.
+4. Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab. Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) genauso wie in Adobe Analytics Workspace an.
 
    ![Segmente für Filter erstellen](assets/segment_ui.png)
 
@@ -116,9 +116,9 @@ So implementieren Sie die Scorecard-Vorlage:
 
 6. In den **[!UICONTROL Eigenschaften]** der Scorecard können Sie optional auch Folgendes angeben:
 
-   * A **[!UICONTROL Default date range]**. Die Bereiche, die Sie hier angeben, sind die gleichen, die beim ersten Zugriff des ausführenden Benutzers auf die Scorecard in der App angewendet werden.
+   * Ein **[!UICONTROL Standarddatumsbereich]**. Die Bereiche, die Sie hier angeben, sind die gleichen, die beim ersten Zugriff des ausführenden Benutzers auf die Scorecard in der App angewendet werden.
 
-   * A **[!UICONTROL Comparison date range]**
+   * Ein **[!UICONTROL Vergleichsdatumsbereich]**
 
    * Alle **[!UICONTROL Segmente]**, die auf die gesamte Scorecard angewendet werden sollen
 
@@ -130,9 +130,9 @@ So implementieren Sie die Scorecard-Vorlage:
 
 So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
-1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
+1. Klicken Sie auf das Menü **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL Scorecard freigeben]**.
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+2. Füllen Sie die Felder im Formular **[!UICONTROL Mobile Scorecard freigeben]** aus, indem Sie:
 
    * den Namen der Scorecard angeben
    * eine Beschreibung der Scorecard angeben
@@ -147,7 +147,7 @@ Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Anal
 
 Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
 
-## Einrichten von leitenden Benutzern mit der App
+## Festlegen von ausführenden Benutzern mit der Applikation
 
 In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
 
@@ -169,12 +169,12 @@ So unterstützen Sie ausführende Benutzer:
 
    **Für ausführende Benutzer mit iOS-Geräten:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Klicken Sie auf den folgenden Link (auch in Analytics unter **[!UICONTROL Tools]** > **[!UICONTROL Analytics-Dashboards (mobile App)]** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der Applikation:
 
       [iOS-Link](https://apple.co/2zXq0aN)
    **Für ausführende Benutzer mit Android-Geräten:**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Klicken Sie auf den folgenden Link (auch in Analytics unter **[!UICONTROL Tools]** > **[!UICONTROL Analytics-Dashboards (mobile App)]** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der Applikation:
 
       [Android-Link](https://bit.ly/2LM38Oo)
    Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
@@ -201,7 +201,7 @@ So unterstützen Sie ausführende Benutzer:
    * Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
+3. Erklären Sie dem ausführenden User, wie Kacheln in den von Ihnen freigegebenen Scorecards angezeigt werden (die erste Scorecard unten ist auf den Dunkelmodus festgelegt; weitere Informationen finden Sie unter **[!UICONTROL Voreinstellungen]** weiter unten, wenn Sie der Meinung sind, dass Ihr ausführender Benutzer diese Anzeigeoption bevorzugt):
 
    ![Kacheln erklären](assets/newexplain.png)
 
@@ -262,4 +262,4 @@ Tippen Sie auf die Option und geben Sie im obersten Feld Ihre E-Mail-Adresse und
 
 >[!IMPORTANT]
 >
->Ab Oktober 2020 führt die Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der App &quot;Adobe Analytics Dashboards&quot;zu optimieren. Diese Erweiterungen konzentrieren sich auf die Zwischenspeicherung historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren Microsoft Azurblase-Konto für die öffentliche Cloud-Datenspeicherung zwischengespeichert. Wenden Sie sich an Ihren CSM, wenn Sie diese Leistungsverbesserungsfunktionen Opt-out möchten.
+>Seit Oktober 2020 führt Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der Applikation „Adobe Analytics-Dashboards“ zu optimieren. Diese Erweiterungen konzentrieren sich auf das Caching historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren öffentlichen Microsoft Azure-Konto in der Cloud zwischengespeichert. Wenden Sie sich an Ihren CSM, wenn Sie diese Leistungsverbesserungsfunktionen nicht in Anspruch nehmen möchten.
