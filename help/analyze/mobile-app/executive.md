@@ -1,11 +1,11 @@
 ---
 description: Anleitung zur Verwendung der Dashboard-Scorecards.
 title: Handbuch zu Adobe Analytics-Dashboards
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Um die App herunterzuladen und zu installieren, führen Sie die Schritte entspre
 
 **Für ausführende Benutzer mit iOS-Geräten:**
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+Klicken Sie auf den folgenden Link (auch in Analytics unter **[!UICONTROL Tools]** > **[!UICONTROL Analytics-Dashboards (Mobile App)]** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der Applikation:
 
 [iOS-Link](https://apple.co/2zXq0aN)
 
 **Für ausführende Benutzer mit Android-Geräten:**
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+Klicken Sie auf den folgenden Link (auch in Analytics unter **[!UICONTROL Tools]** > **[!UICONTROL Analytics-Dashboards (Mobile App)]** verfügbar) und befolgen Sie die Anweisungen zum Herunterladen, Installieren und Öffnen der Applikation:
 
 [Android-Link](https://bit.ly/2LM38Oo)
 
@@ -120,7 +120,7 @@ So verwenden Sie Dashboards:
 
    * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **[!UICONTROL VERGLEICHEN MIT]** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **[!UICONTROL Fertig]**. Das Feld **[!UICONTROL Datumsbereiche]** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
-7. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf die Filter-Dropdown-Liste und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
+7. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf die Filter-Dropdown-Liste und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://docs.adobe.com/content/help/de-DE/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
 
    ![Segmentfilter](assets/segment_filter.png)
 
