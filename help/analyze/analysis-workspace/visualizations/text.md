@@ -3,25 +3,26 @@ description: Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen
 title: Text
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: eac7c7ffed4007e3bebb65f1b6cf5bbb4c3a28a8
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 6%
 
 ---
 
 
 # Text
 
-Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen.
+Sie können Ihrem Workspace-Projekt benutzerdefinierten Text hinzufügen, indem Sie Textvisualisierungen oder Bedienfeld-/Visualisierungsbeschreibungen verwenden (Rechtsklick auf die Kopfzeile > Beschreibung bearbeiten). Sie können auch die Formatierung Ihres Textes ändern, Hyperlinks hinzufügen und Bilder hinzufügen.
 
-Sie können die Schrifteinstellungen ändern (fett, kursiv usw.) und Hyperlinks in Textfeldvisualisierungen und Bereichs-/Visualisierungsbeschreibungen hinzufügen.
+## Formatieren {#format}
 
-## Texteinstellungen ändern {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+Beim Bearbeiten des Textfelds oder der Beschreibung können Sie die Schriftgröße (Überschriftenebenen), Farbe, den Stil (fett, kursiv, unterstrichen) und die Ausrichtung des ausgewählten Textes anpassen. Sie können auch Aufzählungs- und nummerierte Listen hinzufügen.
 
-![](assets/rich-text1.png)
+## Hyperlinks {#hyperlinks}
 
-Wenn Sie eine Textvisualisierung in einen Bereich gezogen und Text hinzugefügt haben, können Sie den Text formatieren, indem Sie Überschriftenebenen hinzufügen, die Schriftauszeichnung ändern (fett, kursiv oder unterstrichen), die Textfarbe ändern usw.
+Um einen Hyperlink hinzuzufügen, markieren Sie den Text und klicken Sie auf das Hyperlink-Symbol im Menü. Hyperlinks zu können Links zu externen Websites, Dokumentationsseiten, [Arbeitsbereichsprojekte/Bedienfelder/Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) und weitere Informationen enthalten, um Ihre Empfänger weiter zu unterstützen.
 
-## Hyperlinks hinzufügen {#section_D55B857188A74A06B49006DF3511DC7C}
+## Bilder {#images}
 
-![](assets/rich-text2.png)
-
-Markieren Sie Text und klicken Sie auf das Hyperlink-Symbol im Formatierungsmenü, um Hyperlinks hinzuzufügen.
+Um ein Bild zu Ihrem Projekt hinzuzufügen, klicken Sie auf das Bildsymbol im Menü und fügen Sie eine URL für ein öffentliches Bild ein. Die Bild-URL muss öffentlich zugänglich sein, mit HTTPS beginnen und das Format .png, .jpeg, .jpg oder .gif haben. Statische und animierte Bilder werden unterstützt.
