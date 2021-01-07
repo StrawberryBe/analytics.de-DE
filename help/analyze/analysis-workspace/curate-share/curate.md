@@ -3,10 +3,10 @@ description: Durch Kuratierung können Sie die Komponenten einschränken, bevor 
 keywords: Analysis Workspace curation
 title: Kuratieren von Projekten
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '542'
+ht-degree: 89%
 
 ---
 
@@ -58,8 +58,11 @@ In einem kuratierten Projekt oder einer VRS wird dem Empfänger die Option **[!U
 * Berechtigungsebene des Benutzers (Administrator oder Nicht-Administrator)
 * Projektrolle (Inhaber/Bearbeiter oder nicht)
 * Art der angewendeten Kuratierung (VRS oder Projekt)
+* Komponenten, die dem Benutzer gehören oder für ihn freigegeben wurden. Zu den eigenen/freigegebenen Komponenten gehören Segmente, berechnete Metriken und Datumsbereiche. Sie enthalten keine implementierten Komponenten wie eVars, Props und benutzerdefinierte Ereignis.
 
-| Kuratierungstyp | Admins | Inhaber- oder Bearbeiterrolle, kein Admin | Nicht-Administrator-Rolle zum Duplizieren oder Anzeigen |
+Hinweis: Rollen, die keine Admin-Ansicht sind, haben keinen Zugriff auf die linke Leiste in einem Projekt, daher wurden sie in der unten stehenden Tabelle weggelassen.
+
+| Kuratierungstyp | Admins | Inhaber- oder Bearbeiterrolle, kein Admin | Rolle &quot;Nicht-Admin-Duplikat&quot; |
 |---|---|---|---|
 | Kuratierte VRS | Alle nicht kuratierten VRS-Komponenten | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden | Nicht kuratierte VRS-Komponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
 | Kuratierte Projekte | Alle nicht kuratierten Projektkomponenten | Alle nicht kuratierten Projektkomponenten | Nicht kuratierte Projektkomponenten, die diese Rolle besitzt oder die für diese Rolle freigegeben wurden |
