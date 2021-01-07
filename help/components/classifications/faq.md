@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zu Klassifizierungen
 description: Häufig gestellte Fragen zur Verwendung von Klassifizierungen
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Klassifizierungsdateien, die mit einem Schlüsselwert oder einem Klassifizierung
 
 * **Verarbeitungsregeln verwenden**: Sie können Dimensionselemente zwischen der Datenerfassung und ihrer Datenspeicherung in einer Report Suite ändern. Erstellen Sie die folgende Verarbeitungsregel:
 
-   *Wenn die[Dimension]gleich`0`ist, überschreiben Sie den Wert der[Dimension]mit dem benutzerdefinierten Wert`Zero`.*
+   *Wenn die [Dimension] gleich `0` ist, überschreiben Sie den Wert der [Dimension] mit dem benutzerdefinierten Wert `Zero`.*
 
 * **Eine VISTA-Regel anfordern**: Ein Engineering Services-Berater richtet gegen Aufpreis eine Server-seitige Regel für Sie ein. Wenden Sie sich an den Kundenbetreuer Ihres Unternehmens, um eine VISTA-Regel anzufordern.
 
@@ -35,7 +35,7 @@ Ja, dabei wird *jedoch jedes Dimensionselement als abrechnungsfähiger Server-Au
 
 ## Wie klassifiziere ich Werte, die Sonderzeichen enthalten?
 
-Die Verwendung von Sonderzeichen wie Kommas oder doppelten Anführungszeichen in der Berichterstellung wird normalerweise nicht empfohlen. In einigen Fällen ist ihre Verwendung jedoch erforderlich. Wenn Ihre Berichtswerte solche Zeichen enthalten, die Sie klassifizieren möchten, gehen Sie wie folgt vor:
+Die Verwendung von Sonderzeichen wie Kommas oder Dubletten-Anführungszeichen in Berichte wird in der Regel nicht empfohlen. In einigen Fällen ist ihre Verwendung jedoch erforderlich. Wenn Ihre Berichte solche Zeichen enthalten, die Sie klassifizieren möchten, führen Sie die folgenden Schritte aus:
 
 1. Melden Sie sich bei Adobe Analytics an und navigieren Sie dann zu **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 2. Klicken Sie auf die Registerkarte **[!UICONTROL Browser-Export]**.
@@ -46,4 +46,4 @@ Die Verwendung von Sonderzeichen wie Kommas oder doppelten Anführungszeichen in
 
 ## Was sind Nummerisch-2-Klassifizierungen?
 
-Mit Nummerisch-2-Klassifizierungen können Sie Dimensionselemente als zeitbasierte Metriken klassifizieren. Sie wurden im Juli 2019 aus der Benutzeroberfläche von Analytics entfernt.
+Mit Nummerisch-2-Klassifizierungen können Sie Dimensionselemente als zeitbasierte Metriken klassifizieren. Sie wurden im Juli 2019 aus der Adobe Analytics-Benutzeroberfläche ausgeschlossen.
