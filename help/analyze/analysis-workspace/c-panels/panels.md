@@ -2,9 +2,9 @@
 description: Ein Bereich ist eine Sammlung von Tabellen und Visualisierungen
 title: Übersicht über Bedienfelder
 translation-type: tm+mt
-source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
+source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1004'
 ht-degree: 11%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Übersicht über Bedienfelder
 
-A [!UICONTROL panel] is a collection of tables and visualizations. Sie können auf Bereiche über das Symbol oben links in Workspace oder über ein [leeres Bedienfeld](blank-panel.md)zugreifen. Bedienfelder sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Anwendungsfällen für Analysen organisieren möchten. Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
+Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können auf Bedienfelder über das Symbol oben links in Workspace oder über ein [leeres Bedienfeld](blank-panel.md) zugreifen. Bedienfelder sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Anwendungsfällen für Analysen organisieren möchten. Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
 
 | Name des Bedienfelds | Beschreibung |
 | --- | --- |
@@ -26,13 +26,13 @@ A [!UICONTROL panel] is a collection of tables and visualizations. Sie können a
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insight]-, [!UICONTROL Blank] - und [!UICONTROL Freiform] -Bedienfelder bieten einen hervorragenden Beginn Ihrer Analyse, während [!UICONTROL Analytics für Zielgruppe], [!UICONTROL Attribution IQ],   Media Concurrent ViewersundSegmentvergleichsich zu erweiterten Analysen eignen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
+[!UICONTROL Quick Insights],   Blankand   FreeformPanels sind großartige Orte zum Beginn Ihrer Analyse, während  [!UICONTROL Analytics für Zielgruppe],  [!UICONTROL Attribution IQ],  [!UICONTROL Media Concurrent-] Viewer und   Segment-Vergleich sich zu fortgeschrittenen Analysen eignen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
 
-The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+Das Standard-Startbedienfeld ist das Bedienfeld [!UICONTROL Freiform]. Sie können jedoch auch das leere Bedienfeld [als Standard festlegen.](/help/analyze/analysis-workspace/c-panels/blank-panel.md)
 
 ## Report Suite {#report-suite}
 
-Tabellen und Visualisierungen innerhalb eines Bedienfelds leiten Daten aus der oben rechts im Bedienfeld ausgewählten [!UICONTROL Report Suite] ab. Die Report Suite bestimmt auch, welche Komponenten in der linken Leiste verfügbar sind. In einem Projekt können Sie je nach Anwendungsfall Ihrer Analyse eine oder [viele Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de-DE) verwenden. Um eine einzelne Report Suite auf alle Bereiche in einem Projekt anzuwenden, **klicken Sie mit der rechten Maustaste auf Bereichsüberschrift > Report Suite auf alle Bereiche** anwenden.
+Tabellen und Visualisierungen innerhalb eines Bedienfelds leiten Daten von der [!UICONTROL Report Suite] ab, die oben rechts im Bedienfeld ausgewählt wurde. Die Report Suite bestimmt auch, welche Komponenten in der linken Leiste verfügbar sind. In einem Projekt können Sie je nach Anwendungsfällen Ihrer Analyse eine oder [viele Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de-DE) verwenden. Um eine einzelne Report Suite auf alle Bereiche in einem Projekt anzuwenden, klicken Sie **mit der rechten Maustaste auf Bereichsüberschrift > Report Suite auf alle Bereiche anwenden**.
 
 Die Liste der Report Suites wird nach Relevanz sortiert. Die Adobe richtet sich danach, wie oft und wie oft die Suite vom aktuellen Benutzer verwendet wurde und wie oft die Suite in der Organisation verwendet wird.
 
@@ -74,15 +74,15 @@ Dropdown-Filter können auch verwendet werden, um viele Projekte zu einem zu kon
 
 So erstellen Sie Dropdown-Filter:
 
-1. Wenn Sie einen Dropdownfilter mit Elementen [!UICONTROL der]Dimension erstellen möchten, z. B. mit Werten innerhalb der Dimension [!UICONTROL Marketing Kanal] , klicken Sie in der linken Leiste auf das Symbol mit dem Pfeil neben Ihrer Dimension. Dadurch werden alle verfügbaren Elemente verfügbar gemacht. Wählen Sie ein oder mehrere Komponentenelemente aus der linken Leiste aus und legen Sie sie **bei gedrückter Umschalttaste** im Bedienfeld-Dropzone ab. Dadurch werden die Komponenten zu einem Dropdown-Filter und nicht zu einem einzigen Segment.
-1. Wenn Sie einen Dropdown-Filter mit einer anderen Komponente wie Metriken, Segmente oder Datumsbereichen erstellen möchten, wählen Sie in der linken Leiste einen Komponententyp aus und legen Sie ihn in der Dropzone des Bereichs ab, **während Sie die Umschalttaste** gedrückt halten.
-1. Wählen Sie eine der Optionen aus dem Dropdownmenü aus, um die Daten im Bedienfeld zu ändern. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
+1. Wenn Sie einen Dropdownfilter mit [!UICONTROL Dimensionen] erstellen möchten, z. B. Werte innerhalb der Dimension [!UICONTROL Marketing-Kanal], klicken Sie in der linken Leiste auf das Pfeilsymbol neben Ihrer Dimension. Dadurch werden alle verfügbaren Elemente verfügbar gemacht. Wählen Sie ein oder mehrere Komponentenelemente aus der linken Leiste aus und legen Sie sie im Bedienfeld-Dropzone **ab, während Sie die Umschalttaste** gedrückt halten. Dadurch werden die Komponenten zu einem Dropdown-Filter und nicht zu einem einzigen Segment.
+1. Wenn Sie einen Dropdown-Filter mit einer anderen Komponente wie Metriken, Segmente oder Datumsbereichen erstellen möchten, wählen Sie in der linken Leiste einen Komponententyp aus und legen Sie die Dropzone **im Bedienfeld ab, während Sie die Umschalttaste** gedrückt halten.
+1. Wählen Sie eine der Optionen aus dem Dropdownmenü aus, um die Daten im Bedienfeld zu ändern. Sie können auch festlegen, dass keine der Bereichsdaten gefiltert werden, indem Sie **[!UICONTROL Kein Filter]** auswählen.
 
 ![](assets/create-dropdown.png)
 
-[Sehen Sie sich das Video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) an, um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
+[Sehen Sie sich das ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) Video an, um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
 
-## Kontextmenü {#right-click}
+## Rechtsklick auf Menü {#right-click}
 
 Zusätzliche Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bereichsüberschrift klicken.
 
