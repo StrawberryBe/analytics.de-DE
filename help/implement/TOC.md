@@ -5,10 +5,10 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 93%
+source-wordcount: '485'
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 93%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins  {#plugins}
+   + Plug-ins   {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -204,8 +204,8 @@ ht-degree: 93%
    + [Hash-Kollisionen](validate/hash-collisions.md)
 + [Häufig gestellte Fragen](faq.md)
 + Überprüfen Sie Ihre Implementierung {#review}
-   + [Überprüfung der geringen Implementierung (nach jeder Website-Version)](review/minor-review.md)
-   + [Überprüfung der wichtigsten Implementierung (alle 6 Monate)](review/major-review.md)
+   + [Fokussierte Überprüfung (nach jeder Website-Version)](review/focused-review.md)
+   + [Vollständige Überprüfung (alle 6 Monate)](review/full-review.md)
    + [Definieren Sie Ihre 5 wichtigsten KPIs.](review/define-kpis.md)
 + Verwenden von XDM-Daten mit Analytics {#aep-edge}
    + [Verwenden von AEP Web SDK](aep-edge/xdmoverview.md)
