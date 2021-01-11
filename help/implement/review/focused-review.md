@@ -2,9 +2,9 @@
 title: Fokussierte Überprüfung (nach jeder Website-Version)
 description: Führen Sie diese Schritte aus, um sicherzustellen, dass Ihre Implementierung fehlerfrei und im Einklang mit Ihren KPIs ausgeführt wird.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,13 @@ Die Kenntnis der fünf wichtigsten Leistungsindikatoren (KPIs) hilft Ihnen bei d
 
 ## 2. Stellen Sie sicher, dass Ihre KPI-Metriken und -Variablen weiterhin gut funktionieren.
 
-Codeaktualisierungen im Laufe der Zeit können unbeabsichtigte Auswirkungen haben. Sie möchten sicherstellen, dass alle Metriken und Dimensionen, die [Ihren Top-5-KPIs](/help/implement/review/define-kpis.md) zugeordnet sind, weiterhin korrekt funktionieren. Idealerweise sollte dies unmittelbar nach der Veröffentlichung einer Website erfolgen. Wenn Sie dies in den letzten Monaten nicht getan haben, führen Sie *jetzt* durch. Gehen Sie folgendermaßen vor:
+Codeaktualisierungen im Laufe der Zeit können unbeabsichtigte Auswirkungen haben. Sie möchten sicherstellen, dass alle Metriken und Dimensionen, die mit Ihren [Top-5 KPIs](/help/implement/review/define-kpis.md) verknüpft sind, weiterhin korrekt funktionieren. Idealerweise sollte dies unmittelbar nach der Veröffentlichung einer Website erfolgen. Wenn Sie dies in den letzten Monaten nicht getan haben, führen Sie *jetzt* durch. Gehen Sie folgendermaßen vor:
 
-* **Erstellen Sie** Dashboards, um die Ansichten dieser kritischen Metriken und Variablen mit stündlicher Trendansicht anzuzeigen. Sie können außerdem intelligente Warnhinweise für jede Metrik einrichten und diese für ein bis zwei Tage überwachen, um sicherzustellen, dass die erwarteten Daten und die richtigen Daten vorliegen. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle kritischen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um herauszufinden, warum dies der Fall ist.
-* **Führen Sie das Analytics Health** Dashboard erneut aus, um breite Trends Ihrer KPI-Metriken und -Variablen zu überwachen.
+* Erstellen Sie Dashboard, um die Trendansicht der Ansichten dieser kritischen Metriken und Variablen anzuzeigen (oder richten Sie intelligente Warnungen für jede Metrik ein). Überwachen Sie die Daten dann für ein oder zwei Tage, um sicherzustellen, dass die erwarteten Daten korrekt sind.\
+   Suchen Sie nach Wendepunkten. Seien Sie bereit, alle kritischen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um herauszufinden, warum dies der Fall ist.
+* Führen Sie das [Analytics Health-Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um breite Trends Ihrer KPI-Metriken und -Variablen zu überwachen.
 
-Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ordnungsgemäß funktionieren, finden Sie unter [diese Tipps](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von Adobe Analytics Champion Sarah Owen.
+*Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ordnungsgemäß funktionieren,  [finden Sie in diesen Tips ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von Adobe Analytics Champion Sarah Owen.*
 
 ## 3. Überprüfen Sie die Daten aus dem aktualisierten Abschnitt Ihrer Site sorgfältig.
 
@@ -40,6 +41,8 @@ Wenn Sie keine Dokumentation zu Ihrer Implementierung haben, exportieren Sie ein
 ## 5. Schließen Sie umgehend alle Lücken in Ihrer Datenqualität ab.
 
 Beurteilung der Situation und Erstellung eines Plans zur Behebung der Daten. Nehmen Sie dann die erforderlichen Änderungen vor, aktualisieren Sie Ihre Dokumentation und informieren Sie Ihre Stakeholder über die vorgenommenen Änderungen.
+
+
 
 *Sehen Sie sich dieses 2-minütige Video von Adobe Analytics Champion Sarah Owen über die natürlichen Zeiten an, in denen Sie Rezensionen Ihrer Implementierung in Ihren Zeitplan einpassen können:*
 
