@@ -2,9 +2,9 @@
 title: Vollständige Überprüfung
 description: Überprüfen Sie Ihre Implementierung alle 6 Monate, um sicherzustellen, dass Sie sich weiterhin an die Geschäftsanforderungen und KPIs anpassen.
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Treffen Sie mit dem Geschäftsinhaber und/oder Analysten, um die sich ändernden
 
 Prüfen Sie kurz alle Metriken und Variablen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginn mit den wichtigsten Metriken und Variablen - den mit Ihren [Top-5 KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review) verbundenen Metriken und Variablen. Gehen Sie folgendermaßen vor:
 
-* Erstellen Sie Dashboard, um die Ansichten Ihrer Metriken und Variablen in der Trendansicht anzuzeigen (oder intelligente Warnhinweise für jede einzelne Metrik einzurichten), um sicherzustellen, dass die erwarteten Daten und die richtigen Daten vorliegen. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um herauszufinden, warum.
+* Erstellen Sie Dashboard, um die Trendansicht Ihrer Metriken und Variablen im Monat anzuzeigen (oder [intelligente Warnungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) für jede Metrik einzurichten), um sicherzustellen, dass die erwarteten Daten und die richtigen Daten vorliegen. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um herauszufinden, warum.
 * Führen Sie das [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um breite Trends Ihrer Metriken und Variablen zu überwachen.
 
 Lassen Sie Ihre Implementierung nicht mit Metriken und Variablen aufblasen, die Sie nicht benötigen. Deaktivieren Sie Metriken oder Variablen, die das Unternehmen nicht mehr benötigt oder verwendet. Sie können sie später löschen oder wiederverwenden.
