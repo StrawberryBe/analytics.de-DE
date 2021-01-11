@@ -2,11 +2,11 @@
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 title: 'Referenz: Grundfunktionen'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Die Metrik, die Sie auswerten möchten. |
+| *metric* | Die Metrik, die Sie auswerten möchten. |
 
 ## Spaltenminimum {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Die Metrik, die Sie auswerten möchten. |
+| *metric* | Die Metrik, die Sie auswerten möchten. |
 
 ## Spaltensumme {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
+| *metric* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
 
 ## Anzahl (Tabelle) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Die Metrik, die gezählt werden soll. |
+| *metric* | Die Metrik, die gezählt werden soll. |
 
 ## Exponent (Zeile) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,7 +95,7 @@ EXP(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Der Exponent, der auf Basis *e* angewendet wird. |
+| *metric* | Der Exponent, der auf Basis *e* angewendet wird. |
 
 ## Potenzierung {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
+| *metric* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
 
 ## Medianwert (Tabelle) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *Metrik* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
+| *metric* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -163,7 +163,7 @@ PERCENTILE(metric,k)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *Metrik* | Die Metrikspalte, die die relative Position definiert. |
+| *metric* | Die Metrikspalte, die die relative Position definiert. |
 | *k* | Der Perzentilwert im Bereich von 0 bis 100 (einschließlich). |
 
 ## Quartil (Tabelle) {#concept_BFD37F0F23A24AD181407142233FA151}
@@ -176,14 +176,14 @@ QUARTILE(metric,quart)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *Metrik* | Die Metrik, für die Sie den Quartilwert abrufen möchten. |
+| *metric* | Die Metrik, für die Sie den Quartilwert abrufen möchten. |
 | *quart* | Gibt an, welcher *-Wert zurückgegeben werden soll. |
 
 *Wenn *quart* = 0 ist, gibt QUARTILE den Mindestwert zurück. Wenn *quart* = 1 ist, gibt QUARTILE das zweite Quartil (25. Perzentil) zurück. Wenn *quart* = 2 ist, gibt QUARTILE das zweite Quartil (50. Perzentil) zurück. Wenn *quart* = 3 ist, gibt QUARTILE das zweite Quartil (75. Perzentil) zurück. Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
 
 ## Rund {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Gibt die nächste Ganzzahl für einen Wert zurück. Beispiel: Wenn Sie keine Währungsdezimalzahlen für den Umsatz in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel Rund(*Umsatz*) den Umsatz bis zum nächsten Dollar runden (in diesem Fall 569 US-Dollar). Ein Produkt mit einem Umsatz von 569,51 US-Dollar wird zum nächsten Dollarbetrag (570 US-Dollar) gerundet.
+Gibt die nächste Ganzzahl für einen Wert zurück. Beispiel: Wenn Sie keine Währungsdezimalzahlen für den Umsatz in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel Round(*Umsatz*) den Umsatz bis zum nächsten Dollar runden (in diesem Fall 569 US-Dollar). Ein Produkt mit einem Umsatz von 569,51 US-Dollar wird zum nächsten Dollarbetrag (570 US-Dollar) gerundet.
 
 ```
 ROUND(metric)
@@ -238,7 +238,7 @@ Die Gleichung für STDEV lautet:
 
 ![](assets/std_dev.png)
 
-Dabei ist *x* der Wert jedes Beispiels (*metric*), *x̄* ist das Populationsmittel und *n* ist die Populationsgröße.
+Dabei ist *x* der Wert jedes Beispiels (*Kennzahl*), *x̄* ist das Populationsmittel und *n* ist die Populationsgröße.
 
 ```
 STDEV(metric)
@@ -246,7 +246,7 @@ STDEV(metric)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *Metrik* | Die Metrik, deren Standardabweichung gewünscht ist. |
+| *metric* | Die Metrik, deren Standardabweichung gewünscht ist. |
 
 ## Schwankung (Tabelle) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -256,7 +256,7 @@ Die Gleichung für VARIANCE lautet:
 
 ![](assets/variance_eq.png)
 
-Dabei ist *x* der Wert jedes Beispiels (*metric*), *x̄* ist das Populationsmittel und *n* ist die Populationsgröße.
+Dabei ist *x* der Wert jedes Beispiels (*Kennzahl*), *x̄* ist das Populationsmittel und *n* ist die Populationsgröße.
 
 ```
 VARIANCE(metric)
@@ -264,7 +264,7 @@ VARIANCE(metric)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *Metrik* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
+| *metric* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
 
 Zur Berechnung einer Varianz sehen Sie sich eine gesamte Spalte von Zahlen an. Aus dieser Liste von Zahlen berechnen Sie zunächst den Durchschnitt. Sobald Sie den Durchschnitt ermittelt haben, sehen Sie sich jeden Eintrag an und tun Folgendes:
 
