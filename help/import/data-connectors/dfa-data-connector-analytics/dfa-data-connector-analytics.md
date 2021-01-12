@@ -4,11 +4,11 @@ keywords: DFA
 title: DFA-Data Connector für Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 abgeschafft. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
+>Am 1. August 2021 werden wir die Adobe Data Connector-Technologie beenden. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 Online-Advertiser und Agenturen sind im modernen Onlinemarkt, der immer komplexer und umkämpfter wird, auf eine kontinuierliche Verbesserung ihres Verständnisses für Online-Marketingumgebungen sowie ihrer Rendite aus Werbeausgaben angewiesen. Advertiser, Agenturen und Herausgeber verfügen zwar über individuelle Werkzeuge zum Erreichen dieser Ziele, doch das manuelle Zusammenführen von Daten aus unterschiedlichen Datensystemen und Prozessen kann einen beachtlichen negativen Einfluss auf die Effizienz von Onlinemarketing-Kampagnen haben, was zu nicht optimalen Kampagnenleistungen, Datendiskrepanzen und Verwirrung führt.
 
@@ -104,7 +104,7 @@ In der folgenden Tabelle sind die Funktionen jeder Version der Integration zusam
 | Timeout- und Fehlertracking | Nein | Ja | Ja |
 | Keine ausgehandelte Client-Site-ID erforderlich | Nein | Nein | Ja |
 
-### Info zu Version 1.5   {#section-b5a3e967cfa141ea8f740612336181be}
+### Info zu Version 1.5    {#section-b5a3e967cfa141ea8f740612336181be}
 
 In Version 1.5 der Integration wird das Integrate-Modul für Landingpage-JavaScript eingeführt. Das Integrate-Modul ermöglicht Abfragen des DFA-Anzeigenservers (ad.doubleclick.net) mit fester Größe. Dadurch wird die Abfragenbeschränkung auf 2.000 Bytes der Vorgängerversion umgangen. Außerdem wird mit ihr der verstellbare Timeoutwert   *`s.maxDelay`* eingeführt, damit die Erfassung von Adobe-Besucherdaten auch möglich ist, wenn das Netzwerk ausfällt. Fehler und Timeouts können auch in Analytics-Variablen erfasst werden.
 
@@ -118,7 +118,7 @@ Bei einem Wechsel von Version 1.0 der Integration auf Version 1.5 gibt es eine
 
 Ein wichtiger Aspekt des neuen JavaScript-Codes ist, dass zwischen Version 1.5 und 2.0 keine Implementationsänderungen notwendig sind.
 
-### Info zu Version 2.0   {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### Info zu Version 2.0    {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 Durch die neueste Version der DFA-Integration gelangen Daten einer ganzen Floodlight-Konfiguration in die Integration. Vor Version 2.0 waren einzelne Integrationen an einzelne DFA-Advertiser gebunden. Durch diese Änderungen werden Klicks, Impressionen und Kostenmetriken für die gesamte Floodlight-Konfiguration in die Integrations-Report Suite eingebunden. Sie können außerdem siteübergreifende Durchsichten tracken, wenn sich die beiden Sites innerhalb derselben Floodlight-Konfiguration befinden. 
 
@@ -128,7 +128,7 @@ Unter Version 2.0 der Integration wird die Anzahl der Timeouts voraussichtlich 
 
 Wenn es sich bei einer Floodlight-Konfiguration um eine in DFA freigegebene Konfiguration handelt, werden durch ein Upgrade von Version 1. 5 auf 2.0 Konversionsdaten aller freigegebenen Advertiser in der Floodlight-Konfiguration in die Report Suite eingeschlossen.
 
-### Upgrade auf Version 2.0   {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### Upgrade auf Version 2.0    {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 In der folgenden Tabelle sind die Inhaber der Migration auf neue Versionen der Integration zusammengefasst:
 
