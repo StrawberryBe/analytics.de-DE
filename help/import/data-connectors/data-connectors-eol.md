@@ -2,9 +2,9 @@
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 22%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 Seit mehr als einem Jahrzehnt ist Adobe Analytics bestrebt, die beste Web- und Marketing-Analyselösung zur Erfüllung der Kundenanforderungen bereitzustellen. Im Zuge der Entwicklung von Technologie- und Geschäftsanforderungen streben wir danach, stets die höchsten Standards zu erfüllen.  Leider entsprechen die APIs, die diese Integration unterstützen, nicht mehr diesen Standards und sind in der modernen Adobe Analytics-Technologieinfrastruktur nicht mehr haltbar.
 
-Ab dem 1. August 2021 beabsichtigt Adobe, Data Connectors-Integrationen einzustellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts und die Adobe will die Transition für unsere Kunden und Partner so nahtlos wie möglich machen. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
+**Ab dem 1. August 2021** beabsichtigt Adobe, Data Connectors-Integrationen einzustellen. Das Ende der Lebensdauer ist Teil des Lebenszyklus jedes Technologieprodukts, und die Adobe zielt darauf ab, die Transition für unsere Kunden und Partner so nahtlos wie möglich zu gestalten. Viele dieser Integrationen sind über Adobe Exchange verfügbar und können weiterhin genutzt werden.
 
 ## Warum schaffen wir diese Funktion ab?
 
@@ -41,7 +41,7 @@ Bei weiteren Fragen oder Support wenden Sie sich bitte an den Kundendienst der A
 | Anlagen | Migration zu Adobe Exchange |
 | Apple | Verfügbar auf Adobe Exchange |
 | AppsFlyer | Migration zu Adobe Exchange |
-| Aprio Enterprise Marketing Interaktion |
+| Aprio Enterprise Marketing Interaktion | Veraltet |
 | Apteligent | Als Exchange verfügbar |
 | BlueHornet eMarketing Suite | Veraltet |
 | Verzweigung | Migration zu Exchange |
