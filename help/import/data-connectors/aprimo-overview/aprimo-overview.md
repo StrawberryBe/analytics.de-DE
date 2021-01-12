@@ -3,9 +3,9 @@ description: Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verh
 title: Aprimo-Data Connector für Adobe Analytics
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '827'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 eingestellt. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
+>Am 1. August 2021 werden wir die Adobe Data Connector-Technologie beenden. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 Diese Adobe® Data Connectors™-E-Mail-Integration kombiniert Verhaltensdaten aus Adobe Analytics® mit E-Mail-Marketing, um ein leistungsfähiges Tool zu schaffen, um die Erfolgsmessung neu zu definieren und Zielgruppen mit relevanterem Messaging anzusprechen.
 
@@ -50,7 +50,7 @@ Bevor Sie die Data Connectors-Integration für starten, sollten Sie die folgende
 * **Verfügbare und konfigurierte Adobe Analytics-Variablen**: Für diese Integration sind benutzerspezifische Ereignisse und benutzerspezifische eVars sowie optional zusätzliche Ereignisse und zusätzliche eVars erforderlich.
 * **Beauftragter Vertreter**: Achten Sie darauf, dass Ihrer Firma aufgrund der Aktivierung dieser Integration möglicherweise Gebühren gemäß Ihrer Servicevereinbarung mit Adobe, Inc. oder Ihrer Servicevereinbarung mit einem der vertrauenswürdigen Partner von Adobe entstehen. Durch Aktivierung dieser Integration bestätigen Sie hiermit, dass Sie ein beauftragter Vertreter Ihrer Firma sind. Dergestalt ist Ihre Firma bereit, die in der oben beschriebenen Servicevereinbarung ggf. festgelegten Gebühren zu zahlen.
 * **Data Warehouse™:** Für diese Integration muss Data Warehouse aktiviert sein, damit Remarketing-Segmente generiert werden können. Wenn Sie Data Warehouse nicht aktiviert haben, wenden Sie sich für weitere Informationen an Adobe.
-* **[!UICONTROL Partner~]:** Für die Integration muss ein „[!DNL ~Partner~]“ in einer Adobe Analytics-Variablen (eVar) erfasst und gespeichert werden. Diese ID ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse des[!DNL ~Partner~]-Systems. Dieser „[!DNL ~Partner~]“ ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft, wird in das[!DNL ~Partner~]-System übertragen und kann für Remarketing-Zwecke genutzt werden. Während des Einrichtungsvorgangs müssen Sie eine eVar für diesen Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden.
+* **[!UICONTROL Partner~]:** Für die Integration muss ein „[!DNL ~Partner~]“ in einer Adobe Analytics-Variablen (eVar) erfasst und gespeichert werden. Diese ID ist eine kodierte oder numerische Darstellung einer E-Mail-Adresse des [!DNL ~Partner~]-Systems. Dieser „[!DNL ~Partner~]“ ist mit dem nachgelagerten Besucherverhalten auf der Site (Warenkorbabbrüche, Käufe usw.) verknüpft, wird in das [!DNL ~Partner~]-System übertragen und kann für Remarketing-Zwecke genutzt werden. Während des Einrichtungsvorgangs müssen Sie eine eVar für diesen Zweck identifizieren, wenn Sie vom Assistenten dazu aufgefordert werden.
 * **Externes Tracking**: Zum Gewährleisten einer erfolgreichen Integration sollten Sie die Best Practice zur Aktivierung des externen Trackings für jede gesendete E-Mail-Kampagne befolgen. Weitere Informationen finden Sie unten im Abschnitt [!DNL ~Partner~].
 * **Datenschutz-Compliance**: Sie sollten sich darüber im Klaren sein, dass durch die Aktivierung des Empfänger- oder Besucher-ID-Trackings diese Funktion persönliche Informationen Ihrer Site-Besucher verfolgen kann. Dies wirkt sich auf den Datenschutz aus, sodass Ihre Organisation entsprechende Verfahren implementieren muss, z. B. die Benachrichtigung und Zustimmung Ihrer Site-Besucher.
 
