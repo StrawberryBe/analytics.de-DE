@@ -2,10 +2,10 @@
 description: Import von Tracking-Daten aus Drittanbieteranwendungen in Analytics
 title: Erste Schritte mit Analytics Data Connectors
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Für eine E-Mail-Integration möchten Sie z. B. vielleicht einen E-Mail-Partner
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 abgeschafft. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
+>Am 1. August 2021 endet die Adobe Data Connector-Technologie. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Systemanforderungen**
 
@@ -86,7 +86,7 @@ Für eine erfolgreiche Implementierung von Remarketing-Segmenten müssen folgend
 
 >[!NOTE]
 >
->If the product is defined without an associated event, the `prodView` event automatically fires.
+>Wenn das Produkt ohne verknüpftes Ereignis definiert ist, wird automatisch das Ereignis `prodView` ausgelöst.
 >
 >Falls die obigen Voraussetzungen nicht erfüllt sind, werden die entsprechenden Remarketing-Segmente nicht korrekt berichtet.
 
