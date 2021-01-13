@@ -2,7 +2,7 @@
 title: Fokussierte Überprüfung (nach jeder Website-Version)
 description: Führen Sie diese Schritte aus, um sicherzustellen, dass Ihre Implementierung fehlerfrei und im Einklang mit Ihren KPIs ausgeführt wird.
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ Codeaktualisierungen im Laufe der Zeit können unbeabsichtigte Auswirkungen habe
 
 * Erstellen Sie Dashboard, um die Trendansicht der Ansichten dieser kritischen Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) für jede Metrik ein). Überwachen Sie die Daten dann für ein oder zwei Tage, um sicherzustellen, dass die erwarteten Daten korrekt sind. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle kritischen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um herauszufinden, warum dies der Fall ist.
 * Führen Sie das [Analytics Health-Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um breite Trends Ihrer KPI-Metriken und -Variablen zu überwachen.
-   *Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ordnungsgemäß funktionieren,  [finden Sie in diesen Tips ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von Adobe Analytics Champion Sarah Owen.*
+
+*Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ordnungsgemäß funktionieren,  [finden Sie in diesen Tips ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von Adobe Analytics Champion Sarah Owen.*
 
 ## 3. Überprüfen Sie die Daten aus dem aktualisierten Abschnitt Ihrer Site sorgfältig.
 
