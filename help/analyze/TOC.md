@@ -5,9 +5,9 @@ user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das führende Analyse- und Visualisierungswerkzeug für Analytics, sowie Tools wie Report Builder und Activity Map.
 translation-type: tm+mt
-source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
+source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 99%
 
 ---
@@ -135,7 +135,6 @@ ht-degree: 99%
       + [Report Builder installieren](report-builder/setup/t-install-arb.md)
       + [Report Builder aktualisieren](report-builder/setup/upgrade-arb.md)
       + [Anmelden bei Report Builder](report-builder/setup/login.md)
-      + [Bei Report Builder anmelden](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder deinstallieren](report-builder/setup/t-uninstall-arb.md)
       + [Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder-Symbolleiste](report-builder/reportbuilder-toolbar.md)
@@ -307,7 +306,7 @@ ht-degree: 99%
    + [Kalenderereignisse](reports-analytics/t-calendar-event.md)
    + [Häufig gestellte Fragen](reports-analytics/frequently-asked-questions.md)
    + [Fehlerbehebung](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Ad Hoc Analysis Project Converter {#aha-project-converter}
       + [Ad Hoc Analysis Project Converter – Übersicht](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Projekte in Ad Hoc Analysis konvertieren](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
