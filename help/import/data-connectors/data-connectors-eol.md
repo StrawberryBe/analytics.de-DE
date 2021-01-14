@@ -2,10 +2,10 @@
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 22%
+source-wordcount: '536'
+ht-degree: 25%
 
 ---
 
@@ -34,68 +34,68 @@ Bei weiteren Fragen oder Support wenden Sie sich bitte an den Kundendienst der A
 
 | Partner | Status |
 | --- | --- |
-| Acxiom | Verfügbar auf Adobe Exchange |
-| Hinzufügen | Verfügbar auf Adobe Exchange |
+| Acxiom | Veraltet |
+| Hinzufügen | Veraltet |
 | Anpassen | Migration zu Adobe Exchange |
 | Adobe Campaign | Migration zu Adobe Exchange |
 | Anlagen | Migration zu Adobe Exchange |
-| Apple | Verfügbar auf Adobe Exchange |
+| Apple | Veraltet |
 | AppsFlyer | Migration zu Adobe Exchange |
 | Aprio Enterprise Marketing Interaktion | Veraltet |
-| Apteligent | Als Exchange verfügbar |
+| Apteligent | Veraltet |
 | BlueHornet eMarketing Suite | Veraltet |
 | Verzweigung | Migration zu Exchange |
-| BrightEdge 2.0 | Als Exchange verfügbar |
+| BrightEdge 2.0 | Veraltet |
 | Bronto-Software | Veraltet |
 | CheetahMail von Experian | Migration zu Exchange |
-| ClickTale | Als Exchange verfügbar |
+| ClickTale | Veraltet |
 | Clicktale CA | Veraltet |
-| Leiter 2.0 | Als Exchange verfügbar |
-| ContactLab 2.0 (Connector kontaktieren) | Als Exchange verfügbar |
-| Coradiant TrueSight | Als Exchange verfügbar |
-| D&amp;B Besucher Intelligence | Als Exchange verfügbar |
+| Leiter 2.0 | Veraltet |
+| ContactLab 2.0 (Connector kontaktieren) | Veraltet |
+| Coradiant TrueSight | Veraltet |
+| D&amp;B Besucher Intelligence | Veraltet |
 | Datran Media | Veraltet |
-| decibel Insight | Als Exchange verfügbar |
-| decipher | Als Exchange verfügbar |
+| decibel Insight | Veraltet |
+| decipher | Veraltet |
 | Delivra | Veraltet |
-| Demandbase CA | Als Exchange verfügbar |
+| Demandbase CA | Veraltet |
 | Demandbase v3 | Veraltet |
-| DialogTech | Als Exchange verfügbar |
+| DialogTech | Veraltet |
 | DoubleClick for Advertisers (DFA) | Veraltet (Weitere Informationen hier **Link zur DFA-EOL-SEITE**) |
 | DREAM | Veraltet |
 | DREAMmail 2.0 | Veraltet |
 | Dynamisches Signal (Nital Vora) | Migration zu Exchange |
 | eDialog Precision Central | Veraltet |
 | eC-messenger | Veraltet |
-| Emailvision Campaign Commander | Als Exchange verfügbar |
+| Emailvision Campaign Commander | Veraltet |
 | emarsys xpress | Veraltet |
 | Epsilon Harmony | Migration zu Exchange |
-| AlleSocial für Adobe Analytics | Als Exchange verfügbar |
+| AlleSocial für Adobe Analytics | Veraltet |
 | Fiksu | Veraltet |
 | Foresee (v2.0) | Veraltet |
-| Foresee-Feedback | Als Exchange verfügbar |
-| Gigya | Als Exchange verfügbar |
+| Foresee-Feedback | Veraltet |
+| Gigya | Veraltet |
 | hybris | Veraltet |
 | Kampyle (jetzt Medallia) Feedback Analytics (1.1) | Veraltet |
 | Listrak | Migration zu Exchange |
 | Lyris HQ | Veraltet |
-| MaritzCX (V 2.0) | Als Exchange verfügbar |
-| Merkle | Als Exchange verfügbar |
+| MaritzCX (V 2.0) | Veraltet |
+| Merkle | Veraltet |
 | Offizielle Oracle Eloqua-Integration | Veraltet |
 | optivo Broadmail (Episerver) | Migration zu Exchange |
 | Qualtrics v2 | Migration zu Exchange |
 | Responsys 2.0 | Veraltet |
-| Selligent | Als Exchange verfügbar |
-| seoClarity 2.0 | Als Exchange verfügbar |
+| Selligent | Veraltet |
+| seoClarity 2.0 | Veraltet |
 | Silverpop Engage (v2.0) | Veraltet |
-| Sizmek | Als Exchange verfügbar |
-| SpotEffects | Als Exchange verfügbar |
+| Sizmek | Veraltet |
+| SpotEffects | Veraltet |
 | StrongMail Systems, Inc | Veraltet |
 | Syngergie!360 | Veraltet |
 | ThinData EMS | Veraltet |
-| TUNE | Als Exchange verfügbar |
+| TUNE | Veraltet |
 | Städtische Luftfahrt | Veraltet |
-| UserZoom-Umfrage | Als Exchange verfügbar |
-| WhatCounts Email | Als Exchange verfügbar |
+| UserZoom-Umfrage | Veraltet |
+| WhatCounts Email | Veraltet |
 | wywy | Veraltet |
-| Yesmail Enterprise | Als Exchange verfügbar |
+| Yesmail Enterprise | Veraltet |
