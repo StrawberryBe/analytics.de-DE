@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Zeigt Beispiele zur Bezeichnung von Daten für Trefferdaten, Zugriffsanfragen, Löschanfragen
 title: Beschriftungsbeispiel
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
@@ -21,9 +21,9 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 * Die zweite Zeile entspricht dem Namen der Variable. Wenn sie eine ID-Beschriftung aufweist, enthält sie den zugewiesenen Namespace in Klammern.
 * Die Trefferdaten beginnen in der dritten Reihe.
 
-| Bezeichnungen | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
+| Bezeichnungen | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-GERÄT <br> DEL-GERÄT <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **Variablenname** <br> **(Namespace)** | **MyProp1** <br> **(user)** | **Besucher-ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
+| **Variablenname** <br> **(Namespace)** | **MyProp1** <br> **(user)** | **Besucher-ID** <br> **(AAID)** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**   <br> **(xyz)** |
 | Trefferdaten | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -39,16 +39,16 @@ Wenn Sieh eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in
 
 | API-Werte | API-Werte | Zurückgegebener Dateityp | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff | Daten in der <br>Zusammenfassungsdatei für den Zugriff |
 |--- |--- |--- |---|---|---|---|---|
-| **Namensraum/ID** | **expandIDs** |  | **MyProp1** | **Besucher-ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **Namensraum/ID** | **expandIDs** |  | **MyProp1** | **Besucher-ID** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**  |
 | AAID=77 | false (falsch) | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
 | AAID=77 | true (wahr) | Gerät | Variable nicht vorhanden | 77 | Variable nicht vorhanden | M, P | X, W |
 | user=Mary | false (falsch) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true (wahr) | Gerät | nicht vorhanden | 77, 88 | nicht vorhanden | N, P | U, W |
-| user=Mary  AAID=66 | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true (wahr) | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
+| user=Mary AAID=66 | true (wahr) | Person | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true (wahr) | Gerät | nicht vorhanden | 66, 77, 88 | nicht vorhanden | N, P | U, W, Z |
 | xyz=X | false (falsch) | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, R | X |
-| xyz=X | true (wahr) | Gerät | nicht vorhanden | 55, 77 | nicht vorhanden | M, P, R | W, X |
+| xyz=X | true (wahr) | Gerät | nicht vorhanden | 55.77 | nicht vorhanden | M, P, R | W, X |
 
 Beachten Sie, dass die Einstellung für „expandIDs“ keinen Einfluss auf die Ausgabe hat, wenn eine Cookie-ID verwendet wird.
 
@@ -56,9 +56,9 @@ Beachten Sie, dass die Einstellung für „expandIDs“ keinen Einfluss auf die 
 
 Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwendet werden, wird die Treffertabelle aktualisiert und sieht dann folgendermaßen aus:
 
-| AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter |
+| AAID=77 expandIDs value <br> does not matter | AAID=7720IDs Wert <br> spielt keine Rolle | AAID=7720IDs Wert <br> spielt keine Rolle | AAID=7720IDs Wert <br> spielt keine Rolle | AAID=7720IDs Wert <br> spielt keine Rolle |
 |---|---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **AAID** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**  |
 | Mary | 42 | A | Datenschutz-7398 | Datenschutz-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
@@ -72,9 +72,9 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 >
 >Dies hat nur Einfluss auf Zellen in Zeilen, die „AAID = 77“ und eine DEL-DEVICE-Beschriftung enthalten.
 
-| user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false |
+| user=Mary <br> expandIDs=false | user=Mary <br> expandeIDs=false | user=Mary <br> expandeIDs=false | user=Mary <br> expandeIDs=false | user=Mary <br> expandeIDs=false |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **AAID** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**  |
 | Datenschutz-0523 | 77 | Datenschutz-1866 | Datenschutz-3681 | X |
 | Datenschutz-0523 | 88 | Datenschutz-2178 | Datenschutz-1975 | Y |
 | Datenschutz-0523 | 99 | Datenschutz-9045 | Datenschutz-2864 | Z |
@@ -88,9 +88,9 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 >
 >Dies hat nur Einfluss auf Zellen in Zeilen, die „user = Mary“ und eine DEL-PERSON-Beschriftung enthalten. In der Praxis würde es sich zudem bei der Variablen mit dem A_ID-Wert wahrscheinlich um ein Prop- oder eVar-Objekt handeln, und der zugehörige Ersatzwert wäre wahrscheinlich eine Zeichenfolge, die mit „Privacy-“ gefolgt von einer zufälligen Nummer (GUID) beginnt, statt dass der numerische Wert durch einen anderen, zufälligen numerischen Wert ersetzt wird.
 
-| user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true |
+| user=Mary <br> expandIDs=true | user=Mary <br> expandeIDs=true | user=Mary <br> expandeIDs=true | user=Mary <br> expandeIDs=true | user=Mary <br> expandeIDs=true |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **AAID** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**  |
 | Datenschutz-5782 | 09 | Datenschutz-0859 | Datenschutz-8183 | Datenschutz-9152 |
 | Datenschutz-5782 | 16 | Datenschutz-6104 | Datenschutz-2911 | Datenschutz-6821 |
 | Datenschutz-5782 | 83 | Datenschutz-2714 | Datenschutz-0219 | Datenschutz-4395 |
