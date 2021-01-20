@@ -1,15 +1,15 @@
 ---
-description: 'null'
+description: Inhalt älterer Berechtigungen
 keywords: groups;permissions
 subtopic: Users and groups
 title: Änderungen an Berechtigungen für Benutzer und Gruppen
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1562'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1564'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Verwaltung von Benutzern und Produkten erfolgt künftig von der [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) aus. Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
+>Benutzer- und Produktverwaltung wurden in die Admin Console [verschoben. ](https://helpx.adobe.com/de/enterprise/using/admin-console.html) Sie werden von Adobe erfahren, wann Sie Benutzer migrieren müssen. Nachdem alle Benutzer migriert wurden, wird die Herausgabe neuer Hilfeinhalte für **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** eingestellt.
 
 ## Was hat sich geändert? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -124,7 +124,7 @@ Hier finden Sie wichtige neue Informationen zu neuen und geplanten Aktualisierun
  </tbody> 
 </table>
 
-## Schnellverweis zu Berechtigungen  {#section_A3FDD8259F524B21A5489833533D1B28}
+## Schnellverweis zu Berechtigungen   {#section_A3FDD8259F524B21A5489833533D1B28}
 
 In der folgenden Tabelle finden Sie Aufgaben und deren Durchführungszeitpunkt (abhängig vom Status des Unternehmens).
 
@@ -169,8 +169,8 @@ In der folgenden Tabelle finden Sie Aufgaben und deren Durchführungszeitpunkt (
   <tr> 
    <td colname="col1"> Eine Gruppe erstellen </td> 
    <td colname="col2"> <p>Admin Console – Wird in der Admin Console eine Gruppe erstellt, erscheint in den Admin Tools in Analytics eine zugeordnete Gruppe, deren Namen jedoch nicht in den Admin Tools geändert werden und die nicht in den Tools gelöscht werden kann. </p> <p>Admin Tools. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html">Produktkonfiguration erstellen</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html">Produktkonfiguration erstellen</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">Produktkonfiguration erstellen</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">Produktkonfiguration erstellen</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Benutzer in einer Gruppe bearbeiten </td> 
