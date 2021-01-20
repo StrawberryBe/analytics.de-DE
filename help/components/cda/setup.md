@@ -1,9 +1,9 @@
 ---
 title: Geräteübergreifende Analyse einrichten
 description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
-translation-type: ht
-source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
 
