@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Ansicht der aktuellen Verwendung von Serveraufrufen in Adobe Analytics.
 title: Anzeigen der aktuellen Nutzung der Server-Aufrufe
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Das Dashboard für aktuelle Nutzung:
 ![](assets/server_call_dashboard.png)
 
 | Begriff der Benutzeroberfläche | Definition |
-|---|---|
+| --- | --- |
 | Nutzung der aktuellen Nutzungsperiode (grün) | Der aktuelle Zeitraum basiert auf der [Nutzungsperiode](/help/admin/c-server-call-usage/overage-overview.md). |
 | Nutzung der vorherigen Nutzungsperiode (blau) | Der vorherige Zeitraum wird als aktuelle Nutzungsperiode minus 1 Jahr definiert. |
 | Nutzungslimit (rot) | Ihr vertraglich festgelegtes Nutzungslimit für diese Nutzungsperiode. |
