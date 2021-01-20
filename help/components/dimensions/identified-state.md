@@ -2,21 +2,21 @@
 title: Identifizierter Status
 description: Eine Markierung, die die Erkennung durch das Gerätediagramm bestimmt.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
 
 # Identifizierter Status
 
-Die Dimension &quot;Identifizierter Status&quot;ist spezifisch für Virtual Report Suites [geräteübergreifender Analytics](../cda/overview.md) . Er meldet, ob die Experience Cloud-ID vom Gerätediagramm zum Zeitpunkt der Ausführung des Berichts erkannt wird. Diese Dimension ist hilfreich, um zu verstehen, wie gut CDA Daten zusammenfügt oder &quot;komprimiert&quot;.
+Die Dimension &quot;Identifizierter Status&quot;ist spezifisch für [Geräteübergreifende Analysen](../cda/overview.md) Virtual Report Suites. Er meldet, ob die Experience Cloud-ID vom Gerätediagramm zum Zeitpunkt der Ausführung des Berichts erkannt wird. Diese Dimension ist hilfreich, um zu verstehen, wie gut CDA Daten zusammenfügt oder &quot;komprimiert&quot;.
 
 ## Füllen dieser Dimension mit Daten
 
-Solange Sie [geräteübergreifende Analytics](../cda/overview.md) für eine Virtual Report Suite konfiguriert haben, funktioniert diese Dimension standardmäßig.
+Solange [Geräteübergreifende Analysen](../cda/overview.md) für eine Virtual Report Suite konfiguriert sind, funktioniert diese Dimension standardmäßig.
 
 ## Dimensionselemente
 
