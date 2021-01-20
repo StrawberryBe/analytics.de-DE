@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl v
 
 ## Was ist der Unterschied zwischen der Metrik „Personen“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
-Die Metrik [Personen](/help/components/metrics/people.md) ähnelt der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) insofern, als sie die Anzahl der eindeutigen Einzelpersonen angibt. Bei der Verwendung der geräteübergreifenden Analyse werden Unique Visitors jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik „Personen“ ersetzt die Metrik „Unique Visitors“, wenn geräteübergreifende Analyse aktiviert ist.
+Die Metrik [Personen](/help/components/metrics/people.md) ähnelt der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) insofern, als sie die Anzahl der eindeutigen Einzelpersonen angibt. Bei der Verwendung der geräteübergreifenden Analyse werden Unique Visitors jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik &quot;Personen&quot;ersetzt die Metrik &quot;Individuelle Besucher&quot;, wenn &quot;Geräteübergreifende Analyse&quot;aktiviert ist. Es steht eine neue Metrik ([Unique Devices](/help/components/metrics/unique-devices.md)) zur Verfügung, die ungefähr gleich den individuellen Besuchern außerhalb der geräteübergreifenden Analyse ist.
 
 ## Was ist der Unterschied zwischen der Metrik „Unique Devices“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
