@@ -2,17 +2,17 @@
 title: Gerätediagramm
 description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Datenzuordnung mithilfe des Gerätediagramms vertraut.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
 # Gerätediagramm
 
-Die geräteübergreifende Analyse bietet zwei verschiedene Methoden der Datenzuordnung. Diese Methode verwendet das Co-op-Diagramm oder das private Diagramm des Adobe Experience Platform Identity Service, um Daten zuzuordnen. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
+Geräteübergreifende Analysen bieten zwei verschiedene Methoden zum Zusammenfügen von Daten. Diese Methode verwendet das Co-op-Diagramm oder das private Diagramm des Adobe Experience Platform Identity Service, um Daten zuzuordnen. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
 
 ## Unterschiede zwischen Co-op-Diagramm und privatem Diagramm
 
