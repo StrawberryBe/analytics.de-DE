@@ -5,11 +5,11 @@ subtopic: Visitors
 title: Beispiel zur geräteübergreifenden Besucheridentifizierung
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Siehe [Geräteübergreifende Analyse](/help/components/cda/overview.md) im Komponentenleitfaden.
+>Diese Methode zur geräteübergreifenden Identifizierung von Besuchern wird nicht mehr empfohlen. Siehe [Geräteübergreifende Analyse](/help/components/cda/overview.md) im Komponenten-Benutzerhandbuch.
 
 Das folgende Beispiel veranschaulicht die geräteübergreifende Besucheridentifizierung anhand eines Beispiels von Server-Aufrufen, die in einer üblichen Kundeninteraktion gesendet werden.
 
 | Server-Aufruf | Aktion | Besucher-ID-Cookie | Besucher-ID-Variable | Effektive Besucher-ID | Anzahl besuchter Seiten | Besuchsnummer |
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Ein Besucher klickt auf einen Link in einer Marketing-E-Mail und gelangt so von seinem privaten Computer aus auf Ihre Website. Dieser Besucher hat Ihre Website zuvor bereits 7 Mal besucht. | 1 | – | 1 | 1 | 8 |
-| 2-8 | Er ruft 7 weitere Seiten auf Ihrer Website auf. | 1 | – | 1 | 2-8 | 8 |
+| 2-8 | Er ruft 7 weitere Seiten auf Ihrer Website auf. | 1 | – | 3 | 2-8 | 8 |
 | 9 | Authentifiziert sich auf privatem Computer. | 1 | CID1 | CID1 | 9 <br>(Dies ist der erste Treffer für CID1, also übernimmt CID1 und wird für das Besucherprofil von Besucher-ID 1 weiterverwendet.) | 8 |
-| 10 | Besucht eine weitere Seite. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Öffnet Ihre Website auf seinem Laptop im Büro. Dieser Besucher hat Ihre Website zuvor nicht mithilfe dieses Geräts besucht. | 2 | – | 2 | 1 | 1 |
+| 10 | Besucht eine weitere Seite. | 3 | CID1 | CID1 | 10 | 8 |
+| 11 | Öffnet Ihre Website auf seinem Laptop im Büro. Dieser Besucher hat Ihre Website zuvor nicht mithilfe dieses Geräts besucht. | 2 | – | 2 | 3 | 1 |
 | 12 | Authentifiziert sich auf Laptop. | 2 | CID1 | CID1 | 1 | 9 |
 | 13 | Zeigt eine weitere Seite an. | 2 | CID1 | CID1 | 2 | 9 |
 
