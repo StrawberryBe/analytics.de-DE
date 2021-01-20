@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Häufig gestellte Fragen zum Ad Hoc Analysis-Analysis Workspace-Projektkonverter
 title: Project Converter – FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
+>Adobe stellt Ad Hoc Analysis am 1. März 2021 ein. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 ## Project Converter – FAQ {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    <td colname="col1"> <p><b>F: Wie werden Datumsbereiche konvertiert?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">In dem Datumsbereich „Letzte X Tage“ in Ad Hoc Analysis wird der heutige Tag <i>nicht einbezogen</i>, in Analysis Workspace hingegen <i>erfolgt die Einbeziehung</i> des aktuellen Tages. Daher stimmen Datumsbereiche wie "Letzte 90 Tage"möglicherweise nicht genau zwischen den Tools überein. Verwenden Sie stattdessen den Bereich "Letzte X <b>volle </b> Tage"in Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">In dem Datumsbereich „Letzte X Tage“ in Ad Hoc Analysis wird der heutige Tag <i>nicht einbezogen</i>, in Analysis Workspace hingegen <i>erfolgt die Einbeziehung</i> des aktuellen Tages. Daher stimmen Datumsbereiche wie "Letzte 90 Tage"möglicherweise nicht genau zwischen den Tools überein. Wenden Sie stattdessen den Bereich "Letzte X <b>volle </b> Tage"in Analysis Workspace an. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Der Datumsbereich auf Ad Hoc Analysis-Arbeitsbereichsebene wird in Analysis Workspace auf Projekt-/Arbeitsbereichsebene angewendet. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Der Datumsbereich auf Ad Hoc Analysis-Berichtsebene wird in Analysis Workspace auf Tabellenspaltenebene angewendet. </li> 
     </ul> <p>Sie haben die Möglichkeit, benutzerdefinierte Datumsbereiche unter <span class="uicontrol">Analyse</span> &gt; <span class="uicontrol">Komponenten</span> &gt; <span class="uicontrol">Datumsbereiche</span> zu bearbeiten. </p> </td> 
