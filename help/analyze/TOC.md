@@ -5,7 +5,7 @@ user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das führende Analyse- und Visualisierungswerkzeug für Analytics, sowie Tools wie Report Builder und Activity Map.
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 99%
@@ -53,7 +53,7 @@ ht-degree: 99%
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Konfigurieren eines Kohortenanalyseberichts](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Anwendungsfälle für die Kohortenanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Anwendungsfälle für die [Kohortenanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Fallout-Übersicht](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Fallout-Visualisierung konfigurieren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
