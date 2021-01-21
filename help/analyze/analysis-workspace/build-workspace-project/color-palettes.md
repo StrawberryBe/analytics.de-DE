@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: Farbpaletten
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: Verwenden der Palette "Visualisierungsfarbe"in Analysis Workspace
+title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
-# Visualisierung Farbpalette
+# Farbpaletten für die Visualisierung
 
 Sie können die in Workspace verwendete Visualisierungsfarbpalette ändern, indem Sie eine andere Farbpalette auswählen oder Ihre eigene Palette festlegen, die den Markenfarben Ihres Unternehmens entsprechen könnte. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus. Die Zusammenfassungsänderung, die bedingte Formatierung in Freiformtabellen und die Zuordnungsvisualisierung sind davon jedoch **nicht** betroffen.
 
