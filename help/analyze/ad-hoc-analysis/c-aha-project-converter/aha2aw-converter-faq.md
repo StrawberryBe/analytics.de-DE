@@ -1,12 +1,11 @@
 ---
 description: Häufig gestellte Fragen zum Ad Hoc Analysis-Analysis Workspace-Projektkonverter
-title: Project Converter – FAQ
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+title: Häufig gestellte Fragen zum Ad Hoc Analysis-Analysis Workspace-Projektkonverter
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 94%
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 ## Bekannte Konvertierungsprobleme {#section_39C922A58B2E49C9877B363042801361}
 
 | Problem | Beschreibung |
-|--- |--- |
+| --- | --- |
 | Minutengranularität mit Aufschlüsselungen oder in Spalten | Wenn die Minutengranularität Aufschlüsselungen enthält oder in Spalten vorhanden ist, kann das Projekt nicht in Analysis Workspace konvertiert werden.  Eine Lösung besteht darin, die Aufschlüsselung für die Minutengranularität zu entfernen, sie aus den Spalten zu entfernen und das Projekt dann zu konvertieren. Anschließend können Sie in Analysis Workspace Aufschlüsselungen für die Minutengranularität anwenden. |
 | Interne, berechnete Metrik, die zusammen mit einem Spaltensegment verwendet wird | Wenn Sie eine interne, berechnete Metrik zusammen mit einem Spaltensegment verwenden, kann das Projekt nicht in Analysis Workspace konvertiert werden. Um dieses Problem zu umgehen, entfernen Sie die internen, berechneten Metriken vor der Konvertierung aus dem Projekt und fügen Sie sie dann erneut in Analysis Workspace hinzu. |
 
