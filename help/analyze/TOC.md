@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Mehrere Report Suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [Hotkeys (Tastaturbefehle)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [Hotkeys (Tastenkombinationen)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Farbpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Dichte anzeigen](analysis-workspace/build-workspace-project/view-density.md)
    + Komponenten {#components}
