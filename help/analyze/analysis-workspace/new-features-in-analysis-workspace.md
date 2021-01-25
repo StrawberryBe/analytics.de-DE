@@ -2,11 +2,11 @@
 description: Neue Funktionen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Neuerungen in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8204'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://e
 
 ## Februar 2021
 
-| Funktion | Zielgruppe | Beschreibung |
+| Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
-| Komponentenauswahl | 4. Februar 2021 | Die Dropdown-/Dropzone-Komponente in Quick Insights wird allen Dropzonen in Workspace hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, aus einer Dropdown-Liste kompatibler Komponenten auszuwählen oder den Raum weiterhin als Dropzone zu verwenden. |
+| Komponentenauswahl | 4. Februar 2021 | Die Dropdown-/Drop-Zone-Komponente, die in Quick Insights gefunden wurde, wird zu allen Drop-Zonen in Workspace hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, Optionen in einer Dropdown-Liste kompatibler Komponenten zu wählen oder den Raum weiterhin als Ablagebereich zu verwenden. |
 
 
 ## 2021. Januar
 
-| Funktion | Zielgruppe | Beschreibung |
+| Funktion | Zieldatum | Beschreibung |
 | --- | --- | --- |
-| Bild-URLs | 14. Januar 2021 | Sie können Bilder zu Workspace-Projekten hinzufügen, indem Sie auf eine öffentliche Bild-URL verweisen. |
-| Kombinierter Quell- und Einstellungsmanager für Visualisierungen | 14. Januar 2021 | Der Datenquellen-Manager (Punkt) und der Einstellungsmanager (Zahnrad) für Visualisierungen wurden zu einem einzigen Popup zusammengefasst, sodass Sie Ihre Quelle und Einstellungen einfach vom gleichen Ort aus verwalten können. |
+| Bild-URLs | 14. Januar 2021 | Sie können Workspace-Projekten Bilder hinzufügen, indem Sie auf eine öffentliche Bild-URL verweisen. |
+| Kombinierter Quell- und Einstellungs-Manager für Visualisierungen | 14. Januar 2021 | Der Datenquellen-Manager (Punkt) und der Einstellungs-Manager (Zahnrad) für Visualisierungen wurden zu einem einzigen Popup zusammengefasst, sodass Sie Ihre Quelle und Einstellungen einfach vom gleichen Ort aus verwalten können. |
 
 ## Oktober 2020
 
@@ -41,7 +41,7 @@ Die gesamten Adobe Experience Cloud-Versionshinweise finden Sie [hier](https://e
 | Funktion | Beschreibung |
 | --- | --- |
 | [Download von 50.000 Objekten für eine einzige Dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de-DE#download-items) | Sie können jetzt 50.000 Elemente für eine Dimension in einer Freiformtabelle herunterladen, wobei Segmente und Filter angewendet werden. Auf diese Weise können Sie auf mehr als 400 Datenzeilen außerhalb von Analysis Workspace zugreifen. |
-| [Verbesserungen der Linienvisualisierung](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Sie können die X- und Y-Achse jeder Linienvisualisierung ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre Linienvisualisierungen kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
+| [Verbesserungen der Linienvisualisierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=de-DE) | <ul><li>Sie können die X- und Y-Achse jeder Linienvisualisierung ein- oder ausblenden. Dies kann besonders dann hilfreich sein, wenn Ihre Linienvisualisierungen kompakt sind.</li><li>Sie können bei jeder Linienvisualisierung eine Mindest- und Höchstwertebeschriftung darstellen, um rasch die Spitzen und Täler in einer Metrik hervorzuheben.</li><li>Sie können bei jeder Linienvisualisierung verschiedene Regressions-Trend-Linien einblenden, um den Daten-Trend leichter erkennbar zu machen. Zu den Optionen gehören [!UICONTROL Linear], [!UICONTROL Logarithmisch], [!UICONTROL Exponentiell], [!UICONTROL Leistung] und [!UICONTROL Quadratisch].</li></ul> |
 | Neue Datumsbereiche | Es wurden fünf neue Datumsbereiche hinzugefügt, sodass Sie aus Datumsbereichen wählen können, die keine partiellen Tagesdaten von heute enthalten: Letzte 7 volle Tage, Letzte 14 volle Tage, Letzte 30 volle Tage, Letzte 60 volle Tage, Letzte 90 volle Tage. |
 
 ## August 2020
@@ -66,7 +66,7 @@ Am 18. Juni 2020 veröffentlichte neue Funktionen.
 | Attribution IQ: Benutzerdefinierte Lookback-Fenster | Sie können jetzt jedes Zuordnungsmodell in Attribution IQ so konfigurieren, dass Touchpoints von bis zu 90 Tagen vor dem Berichtszeitraum einbezogen werden. Dies erhöht in der Regel die Attributionsgenauigkeit für Ereignisse, die frühzeitig im Berichtszeitraum auftreten, indem Interaktionen berücksichtigt werden, die in den Vormonaten aufgetreten sind. Verfügbar für Kunden von Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete und Ultimate. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de-DE#lookback-fenster) |
 | Projektrollen für freigegebene Workspace-Projekte | Beim Freigeben eines Workspace-Projekts können Sie Empfängern nun je nach dem gewünschten Projektzugriff eine der drei Rollen zuweisen: „Bearbeiten“, „Duplizieren“ und „Anzeigen“. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de-DE) |
 | Schreibgeschützte Workspace-Projekte | Workspace-Projekte können Benutzern schreibgeschützt freigegeben werden. Wenn ein Empfänger mit der Rolle „Anzeigen“ das freigegebene Projekt öffnet, hat er eingeschränkte Handlungsmöglichkeiten ohne linke Leiste und mit beschränkten Interaktionen. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=de-DE) |
-| Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Möglichkeit zur gemeinsamen Bearbeitung von Workspace-Projekten | Empfänger, die der Rolle „Bearbeiten“ hinzugefügt wurden, können ein für sie freigegebenes Projekt neu speichern. Dies gilt sowohl für Administratoren als auch für Nicht-Administratoren. [Weitere Informationen ...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=de-DE) |
 | Aktualisiertes leeres Bedienfeld | Das leere Bedienfeld umfasst jetzt Bedienfelder und Visualisierungen, damit Sie den Analyse-Workflow, der für Sie am besten geeignet ist, einfacher auswählen können. |
 | Bedienfeld „Quick Insights“ (25. Juni 2020) | Quick Insights bietet Nicht-Analytikern und neuen Benutzern von Analysis Workspace die Möglichkeit, betriebliche Fragen schnell und einfach zu beantworten. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Bedienfeld „Analytics for Target“ in Workspace (25. Juni 2020) | Im Bedienfeld Analytics for Target (A4T) können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. [Weitere Informationen ...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -768,7 +768,7 @@ Am 20. Juli 2017 veröffentlichte neue Funktionen.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>„Projektverknüpfung abrufen“ bei Experience Cloud-Anmeldungen</b> </p> </td> 
-   <td colname="col2"> <p>Wenn Sie sich bisher mit Ihren Experience Cloud-Anmeldeinformationen angemeldet und zu Analytics navigiert haben, konnten Sie die Funktion <span class="ignoretag"> <span class="uicontrol"> Freigabe </span> &gt; <span class="uicontrol"> Projektverknüpfung abrufen </span> </span> nicht nutzen. Das Problem wurde behoben. Sie müssen das Projekt immer noch speichern, bevor Sie auf diese Option klicken können. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie sich bisher mit Ihren Experience Cloud-Anmeldeinformationen angemeldet und zu Analytics navigiert haben, konnten Sie die Funktion <span class="ignoretag"> <span class="uicontrol"> Freigabe </span> &gt; <span class="uicontrol"> Projektverknüpfung abrufen </span></span> nicht nutzen. Das Problem wurde behoben. Sie müssen das Projekt immer noch speichern, bevor Sie auf diese Option klicken können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filter für abgelaufene Projekte im Manager für geplante Projekte </a></b> </p> </td> 
@@ -790,7 +790,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Fallout </a> </b>-Verbesserungen </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Fallout </a></b>-Verbesserungen </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Unbeschränkte Segmente zum Vergleichen. </li> 
@@ -801,14 +801,14 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b> Fluss </b> </a>-Verbesserungen </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b> Fluss </b></a>-Verbesserungen </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Es wurde eine neue Visualisierungseinstellung namens <span class="wintitle"> Bezeichnungskürzung deaktivieren </span> hinzugefügt (Standard = deaktiviert). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Kalenderänderungen </a> </b> </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Kalenderänderungen </a></b> </td> 
    <td colname="col2"> Es wurden Änderungen am Kalender vorgenommen, um eine Übereinstimmung mit dem Reports &amp; Analytics-Kalender zu erreichen: 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Mit dem ersten Klick öffnet sich die Auswahl eines Datumsbereichs. Anschließend kann der Datumsbereich in beide Richtungen markiert werden. Mit einem zweiten Klick wählen Sie den Bereich für das Enddatum aus. Wird Umschalt beim Klick auf das erste Datum gedrückt gehalten (oder Rechtsklick verwendet), wird dies an den Bereich angehängt. </li> 
@@ -838,7 +838,7 @@ Am 8. Juni 2017 veröffentlichte neue Funktionen.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > Verbesserungen für Warnhinweis-Manager </a> </b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md"  > Verbesserungen für Warnhinweis-Manager </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Warnhinweise können nun aktiviert/deaktiviert werden. </li> 
@@ -1158,7 +1158,7 @@ Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an
 
 Wenn die Farb- und Größendimensionen in irgendeiner Weise mit der Baumstruktur korrelieren, werden oft Muster offensichtlich, die bei anderen Visualisierungen nur schwer sichtbar wären. Beispielsweise wird sichtbar, ob eine bestimmte Farbe besonders relevant ist. Ein weiterer Vorteil von Treemaps besteht darin, dass sie beim Aufbau den vorhandenen Platz effizient nutzen.
 
-## „Speichern unter“ für Segmente, Metriken und Datumswerte  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## „Speichern unter“ für Segmente, Metriken und Datumswerte {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Klicken Sie beim Bearbeiten eines vorhandenen (gespeicherten) Segments des Segmentaufbaus in Analysis Workspace auf **[!UICONTROL Speichern unter]**, um eine Kopie zu erstellen.
 
@@ -1210,13 +1210,13 @@ In den Spalteneinstellungen können Sie bedingte Formatierung auf Zelldaten anwe
  </tbody> 
 </table>
 
-## Dimensionsvorschau  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Dimensionsvorschau {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Im Komponentenbedienfeld [!UICONTROL Dimensionen] können Sie den Cursor über das Informations-Symbol neben einer Dimension bewegen und eine Vorschau der fünf Dimensionen mit den höchsten Werten anzeigen.
 
 ![](assets/dimension-preview.png)
 
-## Legende sichtbar  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Legende sichtbar {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 In den [!UICONTROL Visualisierungseinstellungen] kann mit der Option **[!UICONTROL Legende eingeblendet]** die Visualisierungslegende ein- oder ausgeblendet werden.
 
@@ -1234,11 +1234,11 @@ Je nachdem, wie die Zahlen für Linien- und Flächendiagramme lauten, liegt das 
 
 ![](assets/anchor_Y_axis.png)
 
-## Projektname auf dem Registerkartentitel  {#section_497C61A030984BCCA2CEA553312C3226}
+## Projektname auf dem Registerkartentitel {#section_497C61A030984BCCA2CEA553312C3226}
 
 Beim Speichern eines Projekts wird der Titel auf der Registerkarte des Browsers als „`<Project Name>` - Analysis Workspace“ angezeigt. Diese Optimierung ist besonders hilfreich, wenn Sie mehrere Projekte in mehreren Browser-Registerkarten öffnen.
 
-## Eigentum von Projekten übertragen  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Eigentum von Projekten übertragen {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Administratoren haben die Möglichkeit, Projekte in [!UICONTROL Analysis Workspace] von einem Benutzer an einen anderen zu übertragen.
 
