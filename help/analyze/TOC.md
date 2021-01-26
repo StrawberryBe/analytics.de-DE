@@ -5,9 +5,9 @@ user-guide-title: Leitfaden für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Enthält Anleitungen für Analysis Workspace, das führende Analyse- und Visualisierungswerkzeug für Analytics, sowie Tools wie Report Builder und Activity Map.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
       + Kohortentabelle {#cohort-table}
          + [Was ist eine Kohortenanalyse?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Konfigurieren eines Kohortenanalyseberichts](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Anwendungsfälle für die Kohortenanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Anwendungsfälle für die [Kohortenanalyse](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Fallout-Übersicht](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Fallout-Visualisierung konfigurieren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [Report Builder installieren](report-builder/setup/t-install-arb.md)
       + [Report Builder aktualisieren](report-builder/setup/upgrade-arb.md)
       + [Anmelden bei Report Builder](report-builder/setup/login.md)
-      + [Bei Report Builder anmelden](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder deinstallieren](report-builder/setup/t-uninstall-arb.md)
       + [Report Builder-Funktionen über Microsoft Excel-Funktionen aufrufen](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder-Symbolleiste](report-builder/reportbuilder-toolbar.md)
