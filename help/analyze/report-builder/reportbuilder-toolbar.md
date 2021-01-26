@@ -4,10 +4,10 @@ title: Report Builder-Symbolleiste
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: 846a6a2d08f2f0a97ed44d724d16c852f5d8088c
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!U
 
 ![](assets/report_builder_toolbar.png)
 
-**Anmelden:** Das Formular für die [!UICONTROL Anmeldung] wird angezeigt, in dem Sie sich mit Ihren eigenen oder anderen Anmeldedaten anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Bei Report Builder anmelden](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
+**Anmelden:** Zeigt die   Login-Info an, damit Sie sich mit Ihren oder als ein anderer Benutzer anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Anmelden bei Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Erstellen:** Startet den [!UICONTROL Anforderungs-Assistenten]. Wenn Sie noch nicht angemeldet sind, werden Sie jetzt dazu aufgefordert. Siehe [Datenanforderungen](/help/analyze/report-builder/data-requests/data-requests.md).
 
