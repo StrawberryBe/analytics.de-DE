@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ Sie können keine optionalen Argumente in Launch festlegen.
 Rufen Sie die `s.tl()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
 ```js
-s.tl();
-```
-
-Optional akzeptiert diese Methode mehrere Argumente:
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Link-Objekt
+### Link-Objekt (erforderlich)
 
 Das Link-Objekt-Argument bestimmt, ob der Browser bis zu 500 ms wartet, bevor er von der Seite weg navigiert. Wenn eine Bildanforderung früher als 500 ms gesendet wird, navigiert die Seite sofort zum geklickten Link.
 
@@ -55,37 +49,42 @@ Das Link-Objekt-Argument bestimmt, ob der Browser bis zu 500 ms wartet, bevor er
 * `true`: Nicht warten.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Link-Typ
+### Link-Typ (erforderlich)
 
-Das Link-Typ-Argument ist eine aus einem einzigen Buchstaben bestehende Zeichenfolge, die den Typ des Linktracking-Aufrufs bestimmt. Dies entspricht dem Festlegen der [`linkType`](../config-vars/linktype.md)-Variablen.
+Das Linktypargument ist eine Zeichenfolge mit einem einzelnen Zeichen, die den Typ des Linkverfolgungsaufrufs bestimmt. Es gibt drei gültige Werte.
+
+* `o`: Der Link ist ein  [benutzerspezifischer Link](/help/components/dimensions/custom-link.md).
+* `d`: Der Link ist ein  [Download-Link](/help/components/dimensions/download-link.md).
+* `e`: Der Link ist ein  [Ausstiegslink](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Link-Name
+### Linkname (empfohlen)
 
-Das Link-Name-Argument ist eine Zeichenfolge, die das Linktracking-Dimensionselement bestimmt. Dies entspricht dem Festlegen der [`linkName`](../config-vars/linkname.md)-Variablen.
+Das Link-Name-Argument ist eine Zeichenfolge, die das Linktracking-Dimensionselement bestimmt. Bei Verwendung der Dimensionen [Benutzerspezifischer Link](/help/components/dimensions/custom-link.md), [Link herunterladen](/help/components/dimensions/download-link.md) oder [Ausstiegslink](/help/components/dimensions/exit-link.md) in Berichte enthält diese Zeichenfolge das Dimensionselement. Wenn dieses Argument nicht festgelegt ist, wird die Variable [linkURL](../config-vars/linkurl.md) verwendet.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Variablenüberschreibungen
+### Variablenüberschreibungen (optional)
 
 Ermöglicht die Änderung von Variablenwerten für einen einzelnen Aufruf. Weitere Informationen finden Sie unter [Variablenüberschreibungen](../../js/overrides.md).
 
@@ -108,14 +107,6 @@ Verwenden Sie JavaScript, um einen einfachen Linktracking-Aufruf mithilfe von Me
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Verwenden Sie JavaScript, um denselben einfachen Linktracking-Aufruf mit separaten Variablen durchzuführen:
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Linktracking-Aufrufe innerhalb einer benutzerdefinierten Funktion
