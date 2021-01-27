@@ -1,9 +1,9 @@
 ---
 title: Datenerfassungs-Abfrageparameter
 description: Listet alle in Bildanforderungen verwendeten Abfragezeichenfolgenparameter auf.
-translation-type: ht
-source-git-commit: edf3ac3ebc99444b86bcd9239cef9ed84d797565
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -55,9 +55,9 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Wird in der Dimension [Seite](/help/components/dimensions/page.md) verwendet. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Wird in der Dimension [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) verwendet. |
 | `pccr` | Keine | Nur für neue Besucher und immer auf `true` gesetzt. Hilft, endlose Umleitungen zu verhindern. |
-| `pe` | [`linkType`](../vars/config-vars/linktype.md) | Bestimmt den Typ des benutzerspezifischen Links. Für [benutzerspezifische Links](/help/components/dimensions/custom-link.md), [Downloadlinks](/help/components/dimensions/download-link.md) und [Exitlinks](/help/components/dimensions/exit-link.md) erforderlich. |
+| `pe` | [`tl()`](../vars/functions/tl-method.md) | Bestimmt den Typ des benutzerspezifischen Links. Für [benutzerspezifische Links](/help/components/dimensions/custom-link.md), [Downloadlinks](/help/components/dimensions/download-link.md) und [Exitlinks](/help/components/dimensions/exit-link.md) erforderlich. |
 | `pev1` | Keine | Die URL, unter der der benutzerdefinierte Link aufgetreten ist. |
-| `pev2` | [`linkName`](../vars/config-vars/linkname.md) | Anzeigename des benutzerspezifischen Links. |
+| `pev2` | [`tl()`](../vars/functions/tl-method.md) | Anzeigename des benutzerspezifischen Links. |
 | `pev3` | Keine | Wird nicht mehr verwendet. Verfolgte Meilensteine in früheren Versionen der Videoberichte. |
 | `pf` | Keine | Plattformmarkierung; nur zur Verwendung durch Adobe. Nicht ändern. |
 | `pid` | Keine | Seiten-Kennung für die letzte Seite. Wird in früheren Versionen von Activity Map verwendet. |
