@@ -5,10 +5,10 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: 'Legen Sie fest, welche Daten erfasst werden sollen, um mehr aus Adobe Analytics herauszuholen. '
 translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 99%
 
 ---
 
@@ -118,10 +118,11 @@ ht-degree: 100%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Numbers Suite](vars/plugins/numberssuite.md)
+      + [Zahlensuite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
+      + [websiteBot](vars/plugins/websitebot.md)
    + [Integrationsmodul](vars/integrate.md)
 + Vorbereitungen für die Implementierung von Adobe Analytics {#prepare}
    + [Datenschicht erstellen](prepare/data-layer.md)
