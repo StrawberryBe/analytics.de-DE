@@ -1,12 +1,12 @@
 ---
-description: Machen Sie sich mit den in Ihren Analytics-Daten erfassten IDs vertraut und entscheiden Sie, welche ID Sie für Datenschutzanforderungen verwenden möchten.
+description: Informieren Sie sich über die IDs, die in Ihren Analytics-Daten erfasst werden, und entscheiden Sie, welche Sie für Datenschutzanfragen verwenden werden.
 title: Best Practices für Beschriftungen
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2706'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Selbst wenn Ihr Unternehmen innerhalb Ihrer Analytics-Daten viele verschiedene I
 * Manche IDs gelten für mehrere Personen und Sie können nicht riskieren, Informationen zu anderen Personen mit derselben ID zurückzugeben. Selbst wenn Sie beispielsweise validieren können, dass der Name der Person Max Müller lautet, können Sie nicht alle Daten über alle Max Müllers in Ihrem System zurückgeben.
 * Ein weiteres Beispiel ist die Geräte-ID, wie z. B. die Analytics-Cookie-ID. Wenn die ID in einer App auftritt, gehen Sie vielleicht davon aus, dass alle Interaktionen unter Verwendung dieser ID dem Besitzer des entsprechenden Mobilgeräts zur Verfügung stehen sollten. Wenn diese ID jedoch auf einem gemeinsam genutzten Gerät verwendet wird, wie z. B. einem PC oder Computer in einer Bibliothek oder einem Internetcafé, können Sie nicht zwischen den verschiedenen Benutzern dieses Geräts unterscheiden. Deshalb ist das Risiko, Daten anderer Benutzer zurückzugeben, möglicherweise zu hoch, um diesen ID-Typ zu verwenden.
 
-## Best Practices für Analytics-unterstützte IDs   {#section_B6481505FF1949498D4B4B35B780D050}
+## Best Practices für Analytics-unterstützte IDs  {#section_B6481505FF1949498D4B4B35B780D050}
 
 Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Datenschutzanfragen an Analytics senden. Sobald Sie diese Informationen kennen, können Sie die anderen Beschriftungen, die Sie für Ihre Variablen verwenden sollten, leichter bestimmen.
 
@@ -89,7 +89,7 @@ Die Löschbeschriftungen DEL-DEVICE und DEL-PERSON sollten sparsam eingesetzt we
 
    Wenn beispielsweise drei Treffer den Wert „foo“ in eVar7 enthalten, jedoch nur einer davon auch eine ID in einer anderen Variable beinhaltet, die einem Löschvorgang zugeordnet ist, wird der Wert „foo“ für diesen Treffer zu einem Wert wie „Datenschutz-123456789“ geändert, während er für die anderen beiden Treffer unverändert bleibt. In einem Bericht, der Aufschluss über die Anzahl eindeutiger Werte für eVar7 gibt, werden nun mehr eindeutige Werte angezeigt als zuvor. In einem Bericht mit den Höchstwerten für eVars ist „foo“ möglicherweise nur mit zwei Instanzen enthalten (anstatt zuvor mit 3), und der neue Wert wird ebenfalls mit einer einzelnen Instanz angezeigt.
 
-## Best Practices für Zugriffsbeschriftungen   {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Best Practices für Zugriffsbeschriftungen  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Zwar verfügen nur wenige Felder über einige der anderen Beschriftungen, jedoch wird es häufig vorkommen, dass viele Felder ACC-Beschriftungen aufweisen. Die passenden Zugriffsbeschriftungen hängen von den IDs ab, die Sie für Datenschutzanfragen verwenden.
 
