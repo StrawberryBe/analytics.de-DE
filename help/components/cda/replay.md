@@ -1,20 +1,20 @@
 ---
 title: Funktionsweise der Wiederholung
 description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübergreifenden Analyse.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Funktionsweise der Wiederholung
 
-Bei der geräteübergreifenden Analyse werden zwei Daten in einer Virtual Report Suite weitergegeben:
+Cross-Device Analytics führt in einer virtuellen Report Suite zwei Durchgänge an Daten durch:
 
-* **Live-Stitching**: die geräteübergreifende Analyse versucht, jeden Treffer beim Eintreten zu zuzuordnen. Netto-neue Geräte an die Report Suite, die sich noch nicht angemeldet haben, werden normalerweise nicht auf dieser Ebene verknüpft. Bereits erkannte Geräte werden sofort zugeordnet.
+* **Live-Stitching**: die geräteübergreifende Analyse versucht, jeden Treffer beim Eintreten zu zuzuordnen. Neue Geräte in der Report Suite, die sich noch nie angemeldet haben, werden in der Regel nicht auf dieser Ebene zugeordnet. Bereits erkannte Geräte werden sofort zugeordnet.
 * **Wiederholung**: Ungefähr einmal pro Woche „wiederholt“ die geräteübergreifende Analyse die Daten anhand der gelernten eindeutigen Kennungen. In dieser Phase werden neue Geräte in der Report Suite zugeordnet.
 
 ## Beispieltabelle
