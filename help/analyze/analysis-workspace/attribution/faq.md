@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zu Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darste
 
 ## Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?
 
-Einige besuchsbasierte Metriken, wie [Einträge](/help/components/metrics/entries.md) oder [Absprungrate](/help/components/metrics/bounce-rate.md), können Daten einem Beginn vor dem Datumsbereich des Berichte zuordnen. Diese Situation ist auf Zuordnungsmodelle zurückzuführen, die ein Lookback-Fenster verwenden, in dem festgelegt wird, wie weit die Rückzuordnung aussehen sollte, um Metriken zu gutschreiben. Das häufigste Szenario ist, wenn Besuche über Mitternacht hinausgehen. Beispiel:
+Einige besuchsbasierte Metriken, wie [Einträge](/help/components/metrics/entries.md) oder [Absprungrate](/help/components/metrics/bounce-rate.md), können Daten einem Zeitraum vor dem Anfangsdatumsbereich des Berichtsfensters zuordnen. Diese Situation ist auf Attributionsmodelle zurückzuführen, die ein Lookback-Fenster verwenden, in dem festgelegt wird, wie weit die Attribution zurückblicken soll, um Metriken anzurechnen. Das häufigste Szenario ist, wenn Besuche über Mitternacht hinausgehen. Beispiel:
 
-1. Ein Benutzer besucht Ihre Startseite am 7. September um 23:55 Uhr.
-1. Sie besuchen mehrere Seiten, von denen die letzte um 12:05 Uhr am 8. September stattfand.
-1. Eine Woche später führen Sie einen täglichen Trendbericht mit dem Datumsbereich vom 8. September bis 14. September aus.
+1. Ein Benutzer besucht Ihre Homepage am 7. September um 23:55 Uhr.
+1. Er besucht mehrere Seiten, die letzte davon um 0:05 Uhr am 8. September.
+1. Eine Woche später führen Sie einen täglichen Trend-Bericht mit dem Datumsbereich vom 8. September bis 14. September aus.
 
-Trefferbasierte Metriken wie [Ansichten](/help/components/metrics/page-views.md) würden eine erwartete Ausgabe erzeugen. Daten traten täglich vom 8. September bis 14. September auf. Besuchsbasierte Metriken zeigen jedoch auch den oben genannten Besuch am 7. September an. Der zugewiesene Eintrag des Besuchs fand am 7. September statt, und die Lookback-Fenster ist standardmäßig vom 1. September bis 31. September.
+Trefferbasierte Metriken wie [Seitenansichten](/help/components/metrics/page-views.md) würden eine erwartete Ausgabe erzeugen; es gab täglich vom 8. September bis 14. September Daten im Trend. Besuchsbasierte Metriken zeigen jedoch auch den oben genannten Besuch am 7. September an. Der zugewiesene Eintrag des Besuchs fand am 7. September statt, und das Lookback-Fenster erstreckt sich standardmäßig vom 1. September bis 31. September.
 
-Die Absprungrate zeigt in diesem Beispiel am 7. September immer 0 % an. Diese Metrik ist definiert als `Bounces divided by Entries`, eine trefferbasierte Metrik geteilt durch eine besuchsbasierte Metrik. Absprünge bestehen aus einer einzigen Bildanforderung, sodass sie nicht mehrere Tage umfassen können. Absprünge am 7. September erfolgten außerhalb des Berichte-Fensters und führten zu einer garantierten Absprungrate von 0 % für diesen Tag. Andere trefferbasierte Metriken würden in diesem Bericht für den 7. September ebenfalls den Wert 0 anzeigen, da sich diese Treffer auch nicht im Berichte-Fenster befinden.
+Die Absprungrate zeigt in diesem Beispiel für den 7. September immer 0 % an. Diese Metrik ist definiert als `Bounces divided by Entries`, eine trefferbasierte Metrik geteilt durch eine besuchsbasierte Metrik. Absprünge bestehen aus einer einzigen Bildanforderung, sodass sie nicht mehrere Tage umfassen können. Absprünge am 7. September erfolgten außerhalb des Berichtsfensters, was zu einer garantierten Absprungrate von 0 % für diesen Tag führt. Andere trefferbasierte Metriken würden in diesem Bericht für den 7. September ebenfalls den Wert 0 anzeigen, da sich diese Treffer auch nicht im Berichtsfenster befinden.
 
 Betrachten wir ein anderes ähnliches Beispiel. Der einzige Unterschied zwischen dem folgenden Beispiel und dem obigen Beispiel sind die Datumsangaben:
 
-1. Ein Benutzer besucht Ihre Startseite am 31. August um 23:55 Uhr.
-1. Sie besuchen mehrere Seiten, von denen die letzte um 12:05 Uhr am 1. September stattfand.
-1. Eine Woche später führen Sie einen täglichen Trendbericht mit dem Datumsbereich vom 1. September bis 7. September aus.
+1. Ein Benutzer besucht Ihre Homepage am 31. August um 23:55 Uhr.
+1. Er besucht mehrere Seiten, die letzte davon um 0:05 Uhr am 1. September.
+1. Eine Woche später führen Sie einen täglichen Trend-Bericht mit dem Datumsbereich vom 1. September bis 7. September aus.
 
-In diesem Beispiel würden &quot;Einstiege&quot;und &quot;Absprungrate&quot;keine Daten vom 31. August anzeigen. Sowohl das Lookback-Fenster als auch das Berichte-Fenster am 1. September, sodass keine Daten ab dem 31. August zugeordnet werden können.
+In diesem Beispiel würden „Einstiege“ und „Absprungrate“ keine Daten vom 31. August anzeigen. Sowohl das Lookback-Fenster als auch das Berichtsfenster beginnen am 1. September, sodass keine Daten vom 31. August zugeordnet werden können.
 
 ## Wann sollte ich ein Besuchs-, Besucher- oder benutzerdefiniertes Attribution-Lookback verwenden?
 
