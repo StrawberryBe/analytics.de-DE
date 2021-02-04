@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl v
 
 ## Was ist der Unterschied zwischen der Metrik „Personen“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
-Die Metrik [Personen](/help/components/metrics/people.md) ähnelt der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) insofern, als sie die Anzahl der eindeutigen Einzelpersonen angibt. Bei der Verwendung der geräteübergreifenden Analyse werden Unique Visitors jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik &quot;Personen&quot;ersetzt die Metrik &quot;Individuelle Besucher&quot;, wenn &quot;Geräteübergreifende Analyse&quot;aktiviert ist. Es steht eine neue Metrik ([Unique Devices](/help/components/metrics/unique-devices.md)) zur Verfügung, die ungefähr gleich den individuellen Besuchern außerhalb der geräteübergreifenden Analyse ist.
+Die Metrik [Personen](/help/components/metrics/people.md) ähnelt der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) insofern, als sie die Anzahl der eindeutigen Einzelpersonen angibt. Bei der Verwendung der geräteübergreifenden Analyse werden Unique Visitors jedoch kombiniert, wenn sie ansonsten als zwei separate Unique Visitors außerhalb von CDA aufgezeichnet werden. Die Metrik „Personen“ ersetzt die Metrik „Individuelle Besucher“, wenn Cross-Device Analytics aktiviert ist. Es steht eine neue Metrik ([Individuelle Geräte](/help/components/metrics/unique-devices.md)) zur Verfügung, die außerhalb von Cross-Device Analytics ungefähr „Unique Visitors“ gleicht.
 
 ## Was ist der Unterschied zwischen der Metrik „Unique Devices“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
@@ -75,7 +75,7 @@ Ja. Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufor
 2. Klicken Sie im gewünschten Bedienfeld auf das Debugging-Symbol und wählen Sie dann die gewünschte Visualisierung und die Uhrzeit der Anfrage aus.
 3. Suchen Sie die JSON-Anfrage, die Sie in Ihrem API-Aufruf an Adobe verwenden können.
 
-## Geräteübergreifende Analysen können Unique Visitors einander zuordnen. Kann sie Besuche zusammenfügen?
+## Geräteübergreifende Analysen können Unique Visitors einander zuordnen. Können durch diese Metrik Besuche einander zugeordnet werden?
 
 Ja. Wenn eine Person innerhalb des Besuchszeitlimits Ihrer Virtual Report Suite (standardmäßig 30 Minuten) Treffer von zwei verschiedenen Geräten sendet, werden sie demselben Besuch zugeordnet.
 
