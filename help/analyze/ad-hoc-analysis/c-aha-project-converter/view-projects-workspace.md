@@ -1,11 +1,11 @@
 ---
-description: Ansicht konvertierter Projekte in Analysis Workspace
+description: So zeigen Sie konvertierte Projekte in Analysis Workspace an
 title: Anzeigen von konvertierten Projekten in Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
