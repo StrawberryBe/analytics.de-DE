@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zur geräteübergreifenden Besucheridentifizierung
 description: Häufig gestellte Fragen zur geräteübergreifenden Besucheridentifizierung
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 89%
 
 Häufig gestellte Fragen zur geräteübergreifenden Besucheridentifizierung.
 
-**Was ist der Unterschied zwischen der geräteübergreifenden Besucher-Identifizierung und der geräteübergreifenden Analyse?**
+**Was ist der Unterschied zwischen der geräteübergreifenden Besucheridentifizierung und Cross-Device Analytics?**
 
 Bei der geräteübergreifenden Besucheridentifizierung wird die `visitorID`-Variable verwendet, um Geräte miteinander zu verbinden. Dabei gibt es einige wesentliche Einschränkungen. Eine der größten Einschränkungen dieser Identifizierungsmethode besteht darin, dass nicht authentifizierte Treffer isoliert werden, es sei denn, das Gerät wurde bereits erkannt. Diese nicht authentifizierten Treffer können die Unique Visitor-Anzahl überhöhen.
 
-Bei der geräteübergreifenden Analyse handelt es sich um die neueste geräteübergreifende Besucher-Identifizierungsmethode der Adobe. Sie verwendet den Experience Cloud ID-Dienst und das Gerätediagramm, um Besuche von verschiedenen Geräten rückwirkend zu verbinden. CDA erfordert die Verwendung der `setCustomerIDs`-Funktion, um zu ermitteln, welche Geräte von demselben Besucher verwendet werden.
+Cross-Device Analytics ist die neueste Methode zur geräteübergreifenden Besucheridentifizierung von Adobe. Sie verwendet den Experience Cloud ID-Dienst und das Gerätediagramm, um Besuche von verschiedenen Geräten rückwirkend zu verbinden. CDA erfordert die Verwendung der `setCustomerIDs`-Funktion, um zu ermitteln, welche Geräte von demselben Besucher verwendet werden.
 
 **Wie behandelt die geräteübergreifende Besucheridentifizierung Segmente?**
 
