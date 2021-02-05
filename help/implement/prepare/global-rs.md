@@ -1,9 +1,9 @@
 ---
 title: Globale Report Suites in Adobe Analytics
 description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen Report Suite vertraut.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report
 
 Befolgen Sie die folgenden allgemeinen Richtlinien, um die Implementierung einer globalen Report Suite zu verstehen.
 
-1. Erstellen Sie die globale Report Suite in Adobe Analytics. Weitere Informationen finden Sie unter [Erstellen einer Report Suite](../../admin/admin-console/create-report-suite.md) im Admin-Benutzerhandbuch.
+1. Erstellen Sie die globale Report Suite in Adobe Analytics. Weitere Informationen finden Sie unter [Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) im Admin-Benutzerhandbuch.
 1. Arbeiten Sie mit Teams in Ihrer Organisation zusammen, die für die jeweilige Domäne zuständig sind. Viele Teams verfügen über Reporting-Anforderungen, die sich auf ihren Geschäftsbereich beziehen.
 1. Erfassen und aggregieren Sie alle diese Anforderungen in einem [Lösungsdesigndokument](solution-design.md). Wenn Teams ähnliche Anforderungen an eine Dimension haben, können sie dieselbe benutzerdefinierte Variable verwenden. Wenn beispielsweise sowohl Site A als auch Site B eine Breadcrumb-Dimension erfordern, können Implementierungen für beide Sites diese Daten über eVar1 senden.
 
