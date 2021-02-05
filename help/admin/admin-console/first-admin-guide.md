@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics-Handbuch für erste Administratoren
 description: Hier erfahren Sie, wie Sie mit Adobe Analytics, allgemeinen Rollentypen und der Anmeldung bei der Benutzeroberfläche beginnen.
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ Der Produktadministratorzugriff für Experience Platform Launch ist nahezu ident
 
 ## Nächste Schritte
 
-[Erstellen einer Report Suite](create-report-suite.md): Bitten Sie Ihren Analytics-Administrator, sich beim Tool anzumelden und eine Report Suite für die Datenerfassung zu erstellen
+[Erstellen einer Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Bitten Sie Ihren Analytics-Administrator, sich beim Tool anzumelden und eine Report Suite für die Datenerfassung zu erstellen
 
 [Erstellen einer Eigenschaft in Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Bitten Sie Ihren Experience Platform Launch-Administrator, sich beim Tool anzumelden und eine Eigenschaft zu erstellen, um Ihre Site zu implementieren
