@@ -3,10 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
 
 >[!IMPORTANT]
 >
->Die Adobe bringt Ad Hoc Analysis am 1. März 2021 zum Lebensende. [Weitere Infos](https://adobe.ly/discoverworkspace)
+>Adobe stellt Ad Hoc Analysis am 1. März 2021 ein. [Weitere Infos](https://adobe.ly/discoverworkspace)
 
 * Wenn die Projektarbeit tabellar organisiert werden soll.
 * Für die Verwendung des Site-Analyse-Berichts (3D-Pfadsetzungsbericht).
@@ -49,7 +49,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
 * Für die Latenzanalyse (Zeit vor/seit einem Ereignis).
 * Für die Identifikation und den Export komplexer Segmente in Adobe Experience Cloud.
 
-## Importieren von Daten in Adobe Analytics  {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Importieren von Daten in Adobe Analytics   {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[Classifications](/help/components/classifications/c-classifications.md)** sollte verwendet werden:
 
@@ -68,13 +68,17 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
    * Transaktions-ID: Datenuploads, die einen Online-Endpunkt mit Offlinedaten verknüpfen und importierte Daten vollständig einem online erstellten Besucher-Schnappschuss zuordnen (z. B. online abgeschlossene Bestellungen, die offline zurückgegeben werden).
    * Volle Verarbeitung: Datenquellen mit Zeitstempel, verarbeitet, als ob es sich dabei um einen von Adobe-Servern abgerufenen Treffer handeln würde. D. h. die Daten werden direkt in die Visitor Journey eingefügt.
 
-**[Data Connectors ](https://www.adobeexchange.com/experiencecloud.html)(ehemals Genesis)** sollte verwendet werden:
+**[Data ](https://www.adobeexchange.com/experiencecloud.html)** Connectors sollte verwendet werden:
 
 * Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Data Connectors übernimmt meist zusammengefasste Daten automatisch, dauerhaft und wiederholt in Adobe Analytics.
 
 Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** sollte verwendet werden:
 
 * Wenn Sie Daten in Adobe Analytics laden und den Adobe AppMeasurement- oder mobilen SDK-Code nicht nutzen können.
+
+**[Bulk-Dateneinfüge-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* Die Dateneinfüge-API und die Bulk Data Insertion-API sind beide Methoden, um serverseitige Erfassungsdaten an Adobe Analytics zu senden. Dateneinfüge-API-Aufrufe erfolgen jeweils ein Ereignis. Die Massen-Dateneinfüge-API akzeptiert CSV-formatierte Dateien mit Ereignis-Daten, ein Ereignis pro Zeile. Wenn Sie an einer neuen Implementierung der serverseitigen Sammlung arbeiten, empfehlen wir die Verwendung der Bulk Data Insertion API.
 
 **[Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html)** sollten verwendet werden:
 
@@ -86,7 +90,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 * Wenn Sie Zielgruppendaten des Adobe Audience Manager (AAM) – wie beispielsweise demografische Daten (z. B. Geschlecht oder Verdienstniveau), psychografische Daten (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
 * Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
 
-## Exportieren von Daten aus Adobe Analytics  {#section_901C06ABF2014E92B2952906723DF235}
+## Exportieren von Daten aus Adobe Analytics   {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** sollte verwendet werden:
 
