@@ -1,23 +1,29 @@
 ---
-description: Schritte, die beschreiben, wie man eine Report Suite erstellt und die Einstellungen einer Report Suite in eine neue kopiert.
+description: Erstellen Sie einen einfachen Container für die Datenerfassung in Adobe Analytics
 title: Erstellen einer Report Suite
 topic: Admin tools
-uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 87%
+source-wordcount: '375'
+ht-degree: 77%
 
 ---
 
 
 # Erstellen einer Report Suite
 
-Schritte, die beschreiben, wie man eine Report Suite erstellt und die Einstellungen einer Report Suite in eine neue kopiert.
+Bei einer Report Suite handelt es sich um einen Datenspeicher, mit dem Adobe Analytics Berichte abruft. Eine Organisation kann über viele Report Suites verfügen, die jeweils unterschiedliche Datensätze enthalten. Auch wenn in der Vergangenheit separate Report Suites wichtig waren, hat sich eine einzelne Report Suite als vorteilhafter erwiesen. Die Einführung von [Virtual Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) und die Verarbeitung der Berichtszeit ermöglichen es Administratoren, Ihre eigenen Untergruppen von Daten zu erstellen, was die Flexibilität ermöglicht, sowohl globale als auch Site-spezifische Daten abzurufen.
+
+Dieser Artikel wurde für Administratoren oder Analytics-Administratoren auf Systemebene zur Vorbereitung auf die Datenerfassung erstellt.
+
+## Voraussetzungen
+
+[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Vergewissern Sie sich, dass Ihnen ein Systemadministrator über die Experience Cloud-Admin Console Zugriff auf Adobe Analytics gewährt hat.
+
+## Erstellen einer Report Suite {#create-report-suite}
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Report Suite]**.
 1. Wenn Sie die Einstellungen einer Report Suite kopieren möchten, wählen Sie in der Vorlagenliste eine vordefinierte Vorlage oder eine vorhandene Report Suite als [Vorlage](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md) aus.
 
@@ -29,3 +35,17 @@ Schritte, die beschreiben, wie man eine Report Suite erstellt und die Einstellun
 1. Klicken Sie auf **[!UICONTROL Report Suite erstellen]**.
 
 Eine Report Suite-ID hat eine maximale Länge von 40 Byte. Ein benutzerfreundlicher Name einer Report Suite hat eine maximale Länge von 255 Byte.
+
+## Fehlerbehebung
+
+**Nach der Anmeldung bei Experience Cloud ist das Analytics-Symbol grau ausgeblendet.**
+
+Das bedeutet, dass Ihrem Konto nicht die richtigen Berechtigungen für Analytics erteilt wurden. Arbeiten Sie mit einem Administrator auf Systemebene in Ihrer Organisation zusammen, um sicherzustellen, dass Sie zu einem Profil gehören, das über ausreichende Zugriffsberechtigungen für Adobe Analytics verfügt.
+
+**Nach der Anmeldung bei Adobe Analytics fehlt das Popup- und Dropdown-Menü „Willkommen bei Adobe Analytics“.**
+
+Stellen Sie sicher, dass Sie sich über Experience Cloud und nicht über my.omniture.com angemeldet haben. Für Benutzer, die sich über my.omniture.com anmelden, steht der Assistent zur Report Suite-Einrichtung nicht zur Verfügung.
+
+## Nächste Schritte
+
+[Erstellen und Konfigurieren einer Eigenschaft für Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Erstellen Sie einen Bereich zur Verwaltung Ihrer Analytics-Implementierung
