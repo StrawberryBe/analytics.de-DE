@@ -4,11 +4,11 @@ subtopic: Current Data
 title: Aktuelle Daten
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Die Option wird in den Berichtseinstellungen angezeigt:
 
 * Verwenden Sie Analysis Workspace, da hier vollständig verarbeitete Daten verwendet werden.
 * Klicken Sie in der Berichtseinstellung für aktuelle Daten auf „Nein“, um nur vollständig verarbeitete Daten zu verwenden.
-* Entfernen Sie das Berechtigungselement „Aktuelle Daten“Admin Console, um zu verhindern, dass diese Option Benutzern ohne Administratorrechte angezeigt wird. Weitere Informationen finden Sie unter [Berechtigungselemente der Analytics-Tools](/help/admin/admin-console/permissions/analytics-tools.md) im Admin-Benutzerhandbuch.
+* Entfernen Sie das Berechtigungselement „Aktuelle Daten“Admin Console, um zu verhindern, dass diese Option Benutzern ohne Administratorrechte angezeigt wird. Weitere Informationen finden Sie unter [Produktberechtigungen für Analytics-Profil](/help/admin/admin-console/permissions/analytics-tools.md) im Admin-Benutzerhandbuch.
 
 Aufgrund der Priorisierung der Datenverfügbarkeit können aktuelle Daten derzeit nicht mit Segmenten, Classifications, Unterteilungen, Pfaden und einigen Metriken verwendet werden. Wenn eine dieser Funktionen verwendet wird, dann wird für die aktuellen Daten im Bericht „Nein“ erzwungen und es wird ein gelber Hinweis angezeigt, der erklärt, warum keine aktuellen Daten verfügbar sind.
 
