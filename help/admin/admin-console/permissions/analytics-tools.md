@@ -1,9 +1,12 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
-# Berechtigungselemente der Analytics-Tools
+# Produktberechtigungen für Analytics-Profil
 
 Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen in Adobe Analytics. Die Berechtigungselemente der Analytics-Tools gelten nicht für eine Report Suite, sondern für Adobe Analytics als Ganzes.
 
