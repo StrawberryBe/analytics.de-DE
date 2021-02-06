@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 97%
 
 ---
 # Produktberechtigungen für Analytics-Profil
@@ -39,7 +39,7 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | Zugriff auf Analysis Workspace | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um Adobe Analytics verwenden zu können. |
 | Zugriff auf Reports &amp; Analytics | Gewährt Zugriff auf Reports &amp; Analytics. Benutzer müssen entweder zu dieser Gruppe oder zu „Zugriff auf Analysis Workspace“ (empfohlen) gehören, um Adobe Analytics verwenden zu können. |
 | Analysis Workspace: als Vorlage speichern | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
-| Labzugriff | Aktuell in Entwicklung. Gewährt nach der Veröffentlichung Zugriff auf Labs. |
+| Labzugriff | Gewähren Sie Benutzern Zugriff auf Labs und die Prototypen in Labs. |
 | Erstellung berechneter Metriken | Ermöglicht die Erstellung berechneter Metriken für alle Analytics-Funktionen. |
 | Erstellung von Segmenten | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | Advertising Analytics-Verwaltung | Nicht verwendet. |
