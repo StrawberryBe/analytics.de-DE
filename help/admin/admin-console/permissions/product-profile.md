@@ -1,14 +1,14 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
-ht-degree: 72%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
-# Produktprofile in Adobe Analytics
+# Profile für Adobe Analytics
 
-Produktprofile sind eine Berechtigungsvorgabe, die Produktadministratoren Benutzern in einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
+Produkt-Profil sind Vorgaben für die Berechtigung, die Produktadministratoren Benutzern innerhalb eines Unternehmens zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
 
 Allgemeine Informationen zu Produktprofilen finden Sie unter [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html) im Enterprise-Benutzerhandbuch.
 
@@ -50,7 +50,7 @@ Die Berechtigungselemente der Report Suite-Tools gewähren Zugriff auf Funktione
 
 ### Analytics-Tools
 
-Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, die unabhängig von den Report Suite-Einstellungen sind. Eine vollständige Liste der Berechtigungselemente und Beschreibungen finden Sie unter [Analytics-Tools](analytics-tools.md).
+Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, die unabhängig von den Report Suite-Einstellungen sind. Eine vollständige Liste der Berechtigungselemente und Beschreibungen finden Sie unter [Produktberechtigungen für Analytics-Profil](analytics-tools.md).
 
 ## Produktprofilentwickler
 
