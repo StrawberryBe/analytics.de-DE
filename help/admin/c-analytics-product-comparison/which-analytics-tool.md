@@ -3,10 +3,10 @@ description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Ad
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
+source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 93%
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics
 
 Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
-## Adobe Analytics-Berichtsoberflächen {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics-Berichtsoberflächen {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Können Sie eine Aufgabe nicht mit Analysis Workspace durchführen, versuchen Sie eine der unten stehenden Oberflächen.**
 
@@ -31,15 +31,6 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
 * Für den Zugriff auf eindeutige Video-Visualisierungen von Videotagesabschnitt und Viewer-Drop-off.
 * Zur Nutzung von Veröffentlichungslisten für terminierte Berichte
 
-**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** sollte verwendet werden:
-
->[!IMPORTANT]
->
->Adobe stellt Ad Hoc Analysis am 1. März 2021 ein. [Weitere Infos](https://adobe.ly/discoverworkspace)
-
-* Wenn die Projektarbeit tabellar organisiert werden soll.
-* Für die Verwendung des Site-Analyse-Berichts (3D-Pfadsetzungsbericht).
-
 **[Data Workbench](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html)** sollte verwendet werden:
 
 * Als flexibelste Analyseoption (bis hin zur Analyse auf Besucher-/Trefferebene).
@@ -49,7 +40,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
 * Für die Latenzanalyse (Zeit vor/seit einem Ereignis).
 * Für die Identifikation und den Export komplexer Segmente in Adobe Experience Cloud.
 
-## Importieren von Daten in Adobe Analytics   {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Importieren von Daten in Adobe Analytics   {#import}
 
 **[Classifications](/help/components/classifications/c-classifications.md)** sollte verwendet werden:
 
@@ -90,14 +81,14 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 * Wenn Sie Zielgruppendaten des Adobe Audience Manager (AAM) – wie beispielsweise demografische Daten (z. B. Geschlecht oder Verdienstniveau), psychografische Daten (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
 * Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
 
-## Exportieren von Daten aus Adobe Analytics   {#section_901C06ABF2014E92B2952906723DF235}
+## Exportieren von Daten aus Adobe Analytics   {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** sollte verwendet werden:
 
 * Wenn die individuellen Layoutoptionen von Workspace zu sehr einschränken (in Report Builder sind sämtliche Optionen möglich, die Excel bietet).
 * Zur lockeren Verknüpfung von Benutzereingaben oder Offline-Datenquellen (Impressionen, Kosten) mit Adobe-Daten. Eine dauerhaftere Lösung für das Einbinden von Daten ist Data Sources (siehe „Importieren von Daten in Analytics“).
 * Zum Zusammenführen von Daten aus verschiedenen dimensionalen Berichten (z. B. Kombination eines Berichts über Promo-Impressionen mit einem Bericht über den Klick-zu-Konversion-Verlauf bei einer Promo).
-* Für Berichtssuite-übergreifende Ansichten.
+* Zum Zusammenführen von Daten aus verschiedenen Report Suites, entweder durch Zusammenführen oder durch parallele Anzeige in derselben Tabelle.
 * Wenn bei der Planung Automatisierung gewünscht wird (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** sollte verwendet werden:
@@ -120,7 +111,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 * **Echtzeit:** Wenn Sie einige Metriken und Dimensionen mit nur wenigen Sekunden Latenz anzeigen möchten. Hierbei handelt es sich um begrenzte, teilweise verarbeitete, zusammengefasste Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Umfasst eindeutige Algorithmen für die beliebtesten Elemente, Gewinner und Verlierer. Die Verwendung ist überall im Report Builder möglich.
 * **[!UICONTROL Livestream]**: Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
 
-## Individuelle Lösungen {#section_4A212F26A15947599DFB0399A0440CB6}
+## Individuelle Lösungen {#custom-solutions}
 
 Engineering Services sollten in folgenden Fällen verwendet werden:
 
