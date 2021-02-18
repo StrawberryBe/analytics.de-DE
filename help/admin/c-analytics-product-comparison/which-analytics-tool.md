@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
 * Zum Einrichten von Kalenderereignissen
 * Zum Einrichten von Zielen
 * Zum Anzeigen von Bot-Berichten
-* Für den Zugriff auf eindeutige Video-Visualisierungen von Videotagesabschnitt und Viewer-Drop-off.
+* Für den Zugriff auf eindeutige Videovisualisierungen von Videotagesabschnitten und Zuschauerrückgängen.
 * Zur Nutzung von Veröffentlichungslisten für terminierte Berichte
 
 **[Data Workbench](https://docs.adobe.com/content/help/de-DE/data-workbench/using/home.html)** sollte verwendet werden:
@@ -59,7 +59,7 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie  [hier](/
    * Transaktions-ID: Datenuploads, die einen Online-Endpunkt mit Offlinedaten verknüpfen und importierte Daten vollständig einem online erstellten Besucher-Schnappschuss zuordnen (z. B. online abgeschlossene Bestellungen, die offline zurückgegeben werden).
    * Volle Verarbeitung: Datenquellen mit Zeitstempel, verarbeitet, als ob es sich dabei um einen von Adobe-Servern abgerufenen Treffer handeln würde. D. h. die Daten werden direkt in die Visitor Journey eingefügt.
 
-**[Data ](https://www.adobeexchange.com/experiencecloud.html)** Connectors sollte verwendet werden:
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** sollten verwendet werden:
 
 * Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Data Connectors übernimmt meist zusammengefasste Daten automatisch, dauerhaft und wiederholt in Adobe Analytics.
 
@@ -69,7 +69,7 @@ Die **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-ap
 
 **[Bulk-Dateneinfüge-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Die Dateneinfüge-API und die Bulk Data Insertion-API sind beide Methoden, um serverseitige Erfassungsdaten an Adobe Analytics zu senden. Dateneinfüge-API-Aufrufe erfolgen jeweils ein Ereignis. Die Massen-Dateneinfüge-API akzeptiert CSV-formatierte Dateien mit Ereignis-Daten, ein Ereignis pro Zeile. Wenn Sie an einer neuen Implementierung der serverseitigen Sammlung arbeiten, empfehlen wir die Verwendung der Bulk Data Insertion API.
+* Die Data Insertion-API und Bulk Data Insertion-API sind beides Methoden, um Server-seitige Sammlungsdaten an Adobe Analytics zu senden. Aufrufe der Data Insertion-API erfolgen jeweils für ein Ereignis. Die Bulk Data Insertion-API akzeptiert Dateien mit Ereignisdaten im CSV-Format, wobei ein Ereignis pro Zeile angegeben wird. Wenn Sie an einer neuen Implementierung der Server-seitigen Sammlung arbeiten, empfehlen wir die Verwendung der Bulk Data Insertion-API.
 
 **[Kundenattribute](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html)** sollten verwendet werden:
 
