@@ -1,11 +1,11 @@
 ---
 title: Analytics-Eigenschaft in Launch erstellen
 description: Erstellen Sie mit Adobe Experience Platform Launch einen Bereich zur Anpassung der Datenerfassung.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verw
 1. Klicken Sie auf **[!UICONTROL Neue Eigenschaft]**.
 1. Geben Sie Ihrer Eigenschaft einen Namen, z. B. den Titel Ihrer Website, und geben Sie die Domäne ein, auf der Sie Analytics implementieren möchten. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf die neu erstellte Eigenschaft, um deren Einstellungen einzugeben.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Erweiterungen]** und dann auf **[!UICONTROL Katalog]**.
-1. Suchen Sie nach Identitätsdienst und klicken Sie dann auf **[!UICONTROL Install]**.
+1. Klicken Sie auf den Tab **[!UICONTROL Erweiterungen]** und dann auf **[!UICONTROL Katalog]**.
+1. Suchen Sie nach „Identitätsdienst“ und klicken Sie dann auf **[!UICONTROL Installieren]**.
 1. Alle Einstellungen, einschließlich Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
-1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf **[!UICONTROL Install]**.
+1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf **[!UICONTROL Installieren]**.
 
 ## Datenelemente für Adobe Analytics erstellen
 
@@ -37,7 +37,7 @@ Datenelemente sind Verweise auf bestimmte Teile Ihrer Website zur Erfassung von 
 
 1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Datenelemente]** und dann auf **[!UICONTROL Neues Datenelement erstellen]**.
+1. Klicken Sie auf den Tab **[!UICONTROL Datenelemente]** und anschließend auf **[!UICONTROL Neues Datenelement erstellen]**.
 1. Legen Sie für das Datenelement die folgenden Einstellungen fest:
 
    * Name: Seitenname
@@ -59,7 +59,7 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
 1. Wechseln Sie zu [launch.adobe.com](https://launch.adobe.com) und melden Sie sich bei entsprechender Aufforderung an.
 1. Klicken Sie auf die Launch-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf **[!UICONTROL Neue Regel erstellen]** und geben Sie ihr den Namen `Global Rule`.
-1. Klicken Sie neben Ereignissen auf **[!UICONTROL Hinzufügen]** und geben Sie die folgenden Einstellungen ein:
+1. Klicken Sie neben „Ereignisse“ auf **[!UICONTROL Hinzufügen]** und geben Sie die folgenden Einstellungen ein:
    * Erweiterung: Core
    * Ereignistyp: Bibliothek geladen (Seitenanfang)
    * Name: Core - Bibliothek geladen (Seitenanfang)
@@ -77,13 +77,13 @@ Regeln ordnen Datenelemente Analytics-Variablenwerten zu und bestimmen, wann die
    * Name: Adobe Analytics - Beacon senden
    * Tracking: s.t()
 1. Klicken Sie auf **[!UICONTROL Änderungen beibehalten]**.
-1. Vergewissern Sie sich, dass das Ereignis und zwei Aktionen festgelegt sind, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Vergewissern Sie sich, dass das Ereignis und zwei Aktionen festgelegt sind, und klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Dokumentation und zusätzliche Ressourcen
 
 * [Dokumentation zu Adobe Analytics-Erweiterungen](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Vollständige Dokumentation speziell für die Adobe Analytics-Erweiterung in Adobe Experience Platform Launch.
 * [Erste Schritte mit Launch](https://docs.adobelaunch.com/getting-started): Vollständige Dokumentation für den Start, einschließlich einer ausführlicheren Anleitung für die ersten Schritte.
-* [Adobe Experience Platform Launch Kanal](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Einführung in Videos
+* [Adobe Experience Platform Launch-YouTube-Kanal](https://experienceleague.adobe.com?tag=Launch&amp;lang=de#recommended/solutions/experience-platform): Lehrvideos zur Nutzung von Launch.
 
 ## Nächste Schritte
 
