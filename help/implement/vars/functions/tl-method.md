@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### Link-Typ (erforderlich)
 
-Das Linktypargument ist eine Zeichenfolge mit einem einzelnen Zeichen, die den Typ des Linkverfolgungsaufrufs bestimmt. Es gibt drei gültige Werte.
+Das Link-Typ-Argument ist eine aus einem einzigen Buchstaben bestehende Zeichenfolge, die den Typ des Linktracking-Aufrufs bestimmt. Es gibt drei gültige Werte.
 
-* `o`: Der Link ist ein  [benutzerspezifischer Link](/help/components/dimensions/custom-link.md).
-* `d`: Der Link ist ein  [Download-Link](/help/components/dimensions/download-link.md).
-* `e`: Der Link ist ein  [Ausstiegslink](/help/components/dimensions/exit-link.md).
+* `o`: Der Link ist ein [benutzerspezifischer Link](/help/components/dimensions/custom-link.md).
+* `d`: Der Link ist ein [Downloadlink](/help/components/dimensions/download-link.md).
+* `e`: Der Link ist ein [Exitlink](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -75,9 +75,9 @@ s.tl(true,"d","Example download link");
 s.tl(true,"e","Example exit link");
 ```
 
-### Linkname (empfohlen)
+### Link-Name (empfohlen)
 
-Das Link-Name-Argument ist eine Zeichenfolge, die das Linktracking-Dimensionselement bestimmt. Bei Verwendung der Dimensionen [Benutzerspezifischer Link](/help/components/dimensions/custom-link.md), [Link herunterladen](/help/components/dimensions/download-link.md) oder [Ausstiegslink](/help/components/dimensions/exit-link.md) in Berichte enthält diese Zeichenfolge das Dimensionselement. Wenn dieses Argument nicht festgelegt ist, wird die Variable [linkURL](../config-vars/linkurl.md) verwendet.
+Das Link-Name-Argument ist eine Zeichenfolge, die das Linktracking-Dimensionselement bestimmt. Bei Verwendung der Dimensionen [Benutzerspezifischer Link](/help/components/dimensions/custom-link.md), [Downloadlink](/help/components/dimensions/download-link.md) oder [Exitlink](/help/components/dimensions/exit-link.md) beim Reporting enthält diese Zeichenfolge das Dimensionselement. Wird dieses Argument nicht festgelegt, dann wird die Variable [linkURL](../config-vars/linkurl.md) verwendet.
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
