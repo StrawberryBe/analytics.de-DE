@@ -86,12 +86,12 @@ ht-degree: 96%
       + [Konfiguration von Echtzeit-Berichten](admin/realtime/t-realtime-admin.md)
       + [Unterstützte Echtzeit-Metriken und -Dimensionen](admin/realtime/realtime-metrics.md)
    + [Warteschlange für terminierte Berichte](admin/scheduled-reports-admin.md)
-   + Serverseitige Weiterleitung {#server-side-forwarding}
+   + Server-seitige Weiterleitung {#server-side-forwarding}
       + [Übersicht über die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf.md)
       + [DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Anforderungen an die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Daten- und Codereferenz für die serverseitige Weiterleitung](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Serverseitige Weiterleitungsimplementierung überprüfen](admin/c-server-side-forwarding/ssf-verify.md)
+      + [Server-seitige Weiterleitungsimplementierung überprüfen](admin/c-server-side-forwarding/ssf-verify.md)
       + [Häufig gestellte Fragen zur serverseitigen Weiterleitung](admin/c-server-side-forwarding/ssf-faq.md)
    + [Vereinfachtes Berichtsmenü](admin/t-simplified-menu.md)
    + [Social-Media-Verwaltung](admin/social-management.md)
