@@ -1,36 +1,36 @@
 ---
 title: websiteBot
-description: Identifizieren Sie Bots dynamisch mithilfe der Mausbewegung.
-translation-type: tm+mt
+description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Adobe-Plug-In: websiteBot
+# Adobe Plug-in: websiteBot
 
 >[!IMPORTANT]
 >
 >Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe mit diesem Plug-in benötigen, wenden Sie sich an den Kundenbetreuer Ihres Unternehmens. Sie können ein Treffen mit einem Berater zur Unterstützung arrangieren.
 
-Mit dem `websiteBot`-Plug-in können Sie dynamisch identifizieren, ob Desktop-Besucher Bots sind. Sie können diese Daten verwenden, um eine höhere Genauigkeit in allen Berichten zu erzielen, was Ihnen eine bessere Möglichkeit gibt, legitimen Site-Traffic zu messen.
+Mit dem `websiteBot`-Plug-in können Sie dynamisch identifizieren, ob Desktop-Besucher Bots sind. Mithilfe dieser Daten können Sie eine höhere Genauigkeit bei allen Arten von Berichten erzielen. Dadurch verfügen Sie über eine bessere Möglichkeit, legitimen Sitetraffic zu messen.
 
-Dieses Plug-In führt zwei Prüfungen durch:
+Dieses Plug-in führt zwei Prüfungen durch:
 
-* Zunächst wird anhand der Variablen `navigator.UserAgent` ermittelt, ob es sich bei dem Gerät um ein Desktop- oder ein Mobilgerät handelt. Mobilgeräte werden ignoriert.
+* Zunächst wird anhand der Variablen `navigator.UserAgent` ermittelt, ob es sich bei dem Gerät um ein Desktop-Gerät oder ein Smartphone oder Tablet handelt. Smartphones und Tablets werden ignoriert.
 * Wenn es sich um ein Desktop-Gerät handelt, wird ein Ereignis-Listener für Mausbewegungen hinzugefügt.
 
-Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, setzt das Plug-In die Variable `websiteBot` auf `true`. Wenn der Benutzeragent ein Mobilgerät ist oder eine Mausbewegung erkannt wird, setzt das Plug-In die Variable `websiteBot` auf `false`.
+Wenn sich der Benutzeragent auf einem Desktop befindet und keine Mausbewegung erkannt wird, legt das Plug-in die Variable `websiteBot` auf `true` fest. Wenn der Benutzeragent ein Smartphone oder Tablet ist oder eine Mausbewegung erkannt wird, legt das Plug-in die Variable `websiteBot` auf `false` fest.
 
 ## Voraussetzungen
 
-Adobe empfiehlt vor der Verwendung dieses Plug-Ins Folgendes:
+Adobe empfiehlt vor der Verwendung dieses Plug-ins Folgendes:
 
-* **EVar** konfigurieren: Richten Sie in den Report Suite-Einstellungen eine eVar unter  [Konversionsvariablen ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Setzen Sie den Ablauf auf **&quot;Besucher&quot;** und die Zuordnung auf **&quot;Ausgangswert (Erster)&quot;**.
-* **Benutzeragent in einer separaten Variablen** erfassen: Erfassen Sie die Benutzeragenten-Zeichenfolge in einer separaten Variablen, um die Wirksamkeit dieses Plug-Ins zu überwachen. Setzen Sie bei jedem Treffer eine eVar auf `navigator.UserAgent`, um diese Daten zu erfassen.
+* **eVar-Einstellungen konfigurieren**: Richten Sie in den Report Suite-Einstellungen eine eVar unter [Konversionsvariablen](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) ein. Legen Sie den Ablauf auf **„Besucher“** und die Zuordnung auf **„Ausgangswert (Erster)“** fest.
+* **Benutzeragent in einer separaten Variablen** erfassen: Erfassen Sie die Benutzeragenten-Zeichenfolge in einer separaten Variablen, um die Wirksamkeit dieses Plug-ins zu überwachen. Legen Sie bei jedem Treffer eine eVar auf `navigator.UserAgent` fest, um diese Daten zu erfassen.
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor in Launch
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## Verwenden des Plug-ins
 
-Die `websiteBot`-Variable ist ein boolescher Wert. Gibt `true` zurück, wenn das Plug-In einen Bot erkennt; andernfalls wird `false` zurückgegeben.
+Die `websiteBot`-Variable ist ein boolescher Wert. Gibt `true` zurück, wenn das Plug-in einen Bot erkennt; andernfalls wird `false` zurückgegeben.
 
 ## Beispiele
 
