@@ -1,11 +1,11 @@
 ---
 description: Hier erfahren Sie, wann und warum Analytics-Data Connectors nicht mehr unterstützt werden.
 title: Vorankündigung zum Ende der Unterstützung von Analytics-Data Connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenu
 | Delivra | Veraltet |
 | Demandbase CA | Veraltet |
 | Demandbase v3 | Veraltet |
-| DialogTech | Verfügbar auf Adobe Exchange |
+| DialogTech | Verfügbar in Adobe Exchange |
 | DoubleClick for Advertisers (DFA) | Veraltet |
 | DREAM | Veraltet |
 | DREAMmail 2.0 | Veraltet |
