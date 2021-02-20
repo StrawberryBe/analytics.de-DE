@@ -1,5 +1,5 @@
 ---
-description: Administrative Schritte zum Einrichten von Echtzeit-Berichten.
+description: Administrative Schritte zum Einrichten von Echtzeitberichten.
 title: Konfiguration von Echtzeitberichten
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
@@ -45,7 +45,7 @@ Um Echtzeit-Berichte in Marketing Reports &amp; Analytics einzurichten, wählen 
 
    >[!NOTE]
    >
-   >Für einzelne Echtzeitberichte wird die Aktivierung doppelter Dimensionen derzeit nicht unterstützt, auch wenn für jede Dimension eine andere Klassifizierung ausgewählt wird.
+   >Für einzelne Echtzeitberichte wird die Aktivierung doppelter Dimensionen derzeit nicht unterstützt, auch wenn für jede Dimension eine andere Classification ausgewählt wird.
 
    Weitere Informationen zu Klassifizierungen finden Sie unter [Informationen über Klassifizierungen](/help/components/classifications/c-classifications.md).
 
