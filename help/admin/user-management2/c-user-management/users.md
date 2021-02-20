@@ -4,9 +4,9 @@ subtopic: Users and groups
 title: Übersicht über die Benutzerverwaltung
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Erstellt ein Standard-Dashboard für eine bestimmte Report Suite.
 | [!UICONTROL Passwortänderung durch Benutzer erzwingen] | (Optional) Wenn diese Option aktiviert ist, muss der Benutzer sein Passwort bei der nächsten Anmeldung ändern. |
 | [!UICONTROL Anmeldung gültig ab] | (Optional) Der Zeitpunkt, ab dem ein temporäres Konto gültig ist. |
 
-**Zugriff**
+**Zugriff auf**
 
 <table id="table_5CAF9AAAE7E648B4887CEB7D682292F2"> 
  <thead> 
