@@ -4,10 +4,10 @@ keywords: event
 title: Übersicht über Erfolgsereignisse
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '715'
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen
 
 Die Variable [s.events](https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html) definiert ein Erfolgsereignis.
 
-## Seite „Erfolgsereignisse“ – Beschreibungen  {#section_681ECEC981694CABBDBF00E18165B447}
+## Seite „Erfolgsereignisse“ – Beschreibungen   {#section_681ECEC981694CABBDBF00E18165B447}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**
 
