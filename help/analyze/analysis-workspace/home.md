@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace – Übersicht
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
-workflow-type: ht
-source-wordcount: '525'
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace ist ein flexibles Browser-Tool, mit dem Sie schnell Analysen 
 
 Wenn Sie nur wenige Minuten Zeit haben, sehen Sie sich diese kurze Übersicht an, um zu sehen, was möglich ist.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Melden Sie sich bei Adobe Analytics {#login}
 
