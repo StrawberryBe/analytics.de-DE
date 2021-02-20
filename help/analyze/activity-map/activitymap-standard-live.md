@@ -5,6 +5,9 @@ topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ Activity Map bietet zwei Basismodi, um zusätzliche Berichte für die Seitenakti
 
 Durch Klicken auf die Schaltfläche „Modus“ in der Symbolleiste kann zwischen den beiden Modi umgeschaltet werden.
 
-## Standardmodus {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
+## Standardmodus  {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
 
 Im **Standardmodus** können Sie den Datumsbereich in der Symbolleiste wie unten gezeigt auswählen.
 
@@ -30,7 +33,7 @@ F: Was passiert, wenn auf verschiedenen Teilen einer Seite Links mit demselben L
 
 A: Das hängt von der Aggregation der Linkdaten ab. In Activity Map wird Link-ID|-Region für eine bestimmte Seite einbezogen, daher würden sich die entsprechenden Daten auf die Kombination „Link-ID|-Region“ beziehen. In diesem Fall wäre die Angabe „Link|Region“ spezifisch, da sich der Seitenbereich unterscheidet. Die zugeteilten Umsätze für die erste Kombination aus Link|Region würden sich in diesem Fall daher von allen Umsätzen des zweiten Links unterscheiden. In Adobe Analytics können Sie sich allerdings nur den Link-ID-Bericht (anstatt eines „Link|Region“-Berichts) für eine bestimmte Seite (nach Link aufgeteilt) ansehen. In diesem Fall werden Umsätze für alle Linkvorkommnisse aggregiert.
 
-## Livemodus {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Livemodus  {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 Im **Livemodus** werden Analytics-Daten in Inkrementen von 1 bis 15 Minuten in Trendform angezeigt. Bei diesem Modus steht die Analyse und Überwachung kurzfristiger Trends auf der Webseite im Vordergrund.
 
