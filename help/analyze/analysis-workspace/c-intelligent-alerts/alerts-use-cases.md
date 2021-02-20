@@ -4,6 +4,9 @@ title: Intelligente Warnhinweise – Anwendungsfälle
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Update screenshots for better readability.
 
 ## Erstellen eines Warnhinweises aus einer Tabellenauswahl {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+In Freiform-Tabellen können Sie nun kontextbezogene Warnhinweise erstellen, indem Sie mit der rechten Maustaste auf eine Tabellenzeile klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
 
 ![](assets/alert_selection.png)
 
