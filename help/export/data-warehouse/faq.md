@@ -25,11 +25,11 @@ Bei der Anwendung der Granularität in einer Anforderung der Data Warehouse wird
 | Wöchentlich | Woche `w, yyyy` | Woche 1, 20XX |
 | Monatlich | `mmmm yyyy` | 20XX. Januar |
 | Quartalsweise | `q` Quartal `yyyy` | 1. Quartal 20XX |
-| Jährlich | `yyyy` | 20XX |
+| Jährlich | `yyyy` | 20 XX |
 
 ## Wie funktionieren Segmente als Dimensionen in der Data Warehouse?
 
-Wenn Sie ein Segment als Dimension in der Data Warehouse verwenden, gibt der Bericht eine Spalte zurück, die Folgendes enthält `"0"` oder `"1"`:
+Wenn Sie ein Segment als Dimension in der Data Warehouse verwenden, gibt der Bericht eine Spalte zurück, die `"0"` oder `"1"` enthält:
 
 * **`"0"`**: Das Dimensionselement entsprach nicht den Kriterien des Segments.
 * **`"1"`**: Das Dimensionselement entsprach den Kriterien des Segments.
