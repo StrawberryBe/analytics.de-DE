@@ -1,6 +1,6 @@
 ---
 description: Inhalt älterer Berechtigungen
-keywords: groups;permissions
+keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Änderungen an Berechtigungen für Benutzer und Gruppen
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1566'
 ht-degree: 99%
 
 ---
