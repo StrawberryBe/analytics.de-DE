@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Klassifizierungsdatendateien
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -204,5 +204,5 @@ Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
 
 ## Fehlerbehebung für Classifications
 
-* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
+* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base-Artikel, in dem Probleme aufgrund von falschen Dateiformaten und Dateiinhalten beschrieben werden.
 
