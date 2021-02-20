@@ -3,9 +3,9 @@ description: Im Standardmodus exportiert Analytics Daten aus der Activity Map in
 title: Exportieren in CSV-Datei
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 
