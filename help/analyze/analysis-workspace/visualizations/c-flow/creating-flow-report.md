@@ -2,8 +2,11 @@
 description: 'null'
 title: Flussvisualisierung konfigurieren
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +35,12 @@ Das Flussdiagramm ist interaktiv. Wenn Sie den Mauszeiger über das Diagramm hal
 
 Die Pfade in dem Diagramm sind proportional. Pfade mit mehr Aktivität werden dicker dargestellt.
 
-Wenn Sie auf einen Knoten in dem Diagramm klicken, werden die zugehörigen Details zu diesem Knoten angezeigt. Beispiel: Wenn Sie im oben gezeigten Diagramm rechts oben auf **[!UICONTROL Search Results]** klicken, wird das Diagramm um weitere Details zum Suchergebnisknoten erweitert. Klicken Sie erneut auf den Knoten, um ihn wieder zu reduzieren.
+Wenn Sie auf einen Knoten in dem Diagramm klicken, werden die zugehörigen Details zu diesem Knoten angezeigt. Beispiel: Wenn Sie im oben gezeigten Diagramm rechts oben auf **[!UICONTROL Suchergebnisse]** klicken, wird das Diagramm um weitere Details zum Suchergebnisknoten erweitert. Klicken Sie erneut auf den Knoten, um ihn wieder zu reduzieren.
 
 ![](assets/flow3.jpg)
 
-In der Standardeinstellung zeigt das Diagramm die obersten fünf Flüsse an. Wenn Sie unten im Diagramm auf den Knoten **[!UICONTROL More]** klicken, wird das Diagramm um fünf weitere Flüsse erweitert. Wenn Sie weiterhin auf **[!UICONTROL More]** klicken, wird das Diagramm zunehmend erweitert, bis keine weiteren Flüsse mehr zur Anzeige vorhanden sind.
+In der Standardeinstellung zeigt das Diagramm die obersten fünf Flüsse an. Wenn Sie unten im Diagramm auf den Knoten **[!UICONTROL Mehr]** klicken, wird das Diagramm um fünf weitere Flüsse erweitert. Wenn Sie weiterhin auf **[!UICONTROL Mehr]** klicken, wird das Diagramm zunehmend erweitert, bis keine weiteren Flüsse mehr zur Anzeige vorhanden sind.
 
 Es gibt keine Einschränkungen dafür, wie tief Sie in das Flussdiagramm navigieren können.
 
-Sie können Ihr Flussdiagramm als Teil der .CSV-Datei eines Projekts auch exportieren und weiter analysieren, indem Sie **[!UICONTROL Project]** > **[!UICONTROL Download CSV]** aufrufen.
+Sie können Ihr Flussdiagramm als Teil der .CSV-Datei eines Projekts auch exportieren und weiter analysieren, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen.
