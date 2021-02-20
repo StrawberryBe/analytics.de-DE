@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Anzeigen der aktiven Verarbeitungsregeln
 topic: Admin tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 100%
 
