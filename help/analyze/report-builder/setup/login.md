@@ -16,7 +16,7 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->Report Builder Version 5.6.47 und höher unterstützt nur die Anmeldung von Experience Clouden und unterstützt keine Legacy-Anmeldungen wie SiteCatalyst Single-Sign-on oder die Standardanmeldung. Bis zum 30. April 2021 müssen alle Report Builder-Benutzer den Report Builder Hinzufügen auf Version 5.6.47 oder höher aktualisieren, die eine wichtige Aktualisierung des Anmeldevorgangs enthält.
+>Report Builder Version 5.6.47 und höher unterstützt nur die Anmeldung von Experience Clouden und unterstützt keine Legacy-Anmeldungen wie SiteCatalyst Single-Sign-on oder die Standardanmeldung. Bis zum 30. April 2021 müssen alle Report Builder-Benutzer den Report Builder-Hinzufügen auf Version 5.6.47 oder höher aktualisieren, die eine wichtige Aktualisierung des Anmeldevorgangs enthält.
 
 Um sich bei Report Builder anzumelden, verwenden Sie Ihr Experience Cloud-Anmeldekonto.
 
