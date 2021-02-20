@@ -14,7 +14,7 @@ ht-degree: 96%
 
 Die Metrik „Unique Visitors“ gibt die Anzahl der Besucher-IDs für das Dimensionselement an. Es handelt sich dabei um eine der am häufigsten verwendeten Metriken zur Bestimmung des Traffic, da sie einen allgemeinen Überblick über die Beliebtheit eines Dimensionselements bietet. Beispielsweise kann ein Besucher einen Monat lang jeden Tag auf Ihre Website kommen. Er zählt aber trotzdem als ein Unique Visitor.
 
-Wenn Sie [geräteübergreifende Analysen](../cda/overview.md)verwenden, wird diese Metrik durch die Metrik &quot; [Individuelle Geräte](unique-devices.md) &quot;ersetzt.
+Wenn Sie [Geräteübergreifende Analysen](../cda/overview.md) verwenden, wird diese Metrik durch die Metrik [Individuelle Geräte](unique-devices.md) ersetzt.
 
 ## Unique Visitors pro Tag, Woche, Monat, Quartal und Jahr
 
@@ -30,8 +30,8 @@ Diese Metrik zählt die Anzahl der Unique Visitor-IDs für ein gegebenes Dimensi
 | --- | --- | --- |
 | 1 | `vid` | Die [`visitorID`](/help/implement/vars/config-vars/visitorid.md)-Variable ist gesetzt. |
 | 2 | `aid` | Der Besucher verfügt über ein vorhandenes [`s_vi`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen ohne oder vor der Implementierung des Besucher-Identity Service gesetzt. |
-| 3 | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) gesetzt. |
-| 4 | `fid` | Besucher hat ein bestehendes [`s_fid`](https://docs.adobe.com/content/help/de-DE/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie, oder wenn `aid` und `mid` aus irgendeinem Grund nicht gesetzt werden konnten. |
+| 3 | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie. Wird bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) gesetzt. |
+| 4 | `fid` | Besucher hat ein bestehendes [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html)-Cookie, oder wenn `aid` und `mid` aus irgendeinem Grund nicht gesetzt werden konnten. |
 | 5 | IP-Adresse, Benutzeragent, Gateway-IP-Adresse | Letztes Mittel, einen Unique Visitor zu identifizieren, wenn der Browser des Besuchers keine Cookies akzeptiert. |
 
 >[!NOTE]
