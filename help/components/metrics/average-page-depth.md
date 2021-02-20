@@ -16,7 +16,7 @@ Die Metrik „Durchschnittliche Klicktiefe“ gibt an, wie weit sich das Dimensi
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Wenn Sie diese Metrik allein verwenden, erhalten Sie Dimensionselemente mit anomalen Klicktiefen, was normalerweise nicht nützlich ist.
+>Verwenden Sie diese Metrik zusammen mit einer anderen Metrik (z. B. [Besuche](visits.md)), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie Dimensionselemente mit anomalen Klicktiefen, was normalerweise nicht nützlich ist.
 
 ## Berechnung dieser Metrik
 
