@@ -1,8 +1,11 @@
 ---
 title: offlineThrottleDelay
 description: Legt die Häufigkeit von Treffern fest, wenn ein Gerät wieder online geht.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
