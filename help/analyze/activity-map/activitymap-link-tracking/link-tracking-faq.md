@@ -3,9 +3,9 @@ description: Häufig gestellte Fragen zum Linktracking in Activity Map.
 title: Linktracking – Häufig gestellte Fragen
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Im Folgenden finden Sie einige Fälle, in denen PII-Daten möglicherweise mit de
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
      <li id="li_99372060646B43EF94C13A9C682CE693">Grund: Anker-Tag hat keine gültige href 
-       
+        
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
