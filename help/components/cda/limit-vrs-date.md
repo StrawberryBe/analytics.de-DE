@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # VRS auf bestimmte Daten beschränken
 
-Wenn wir das Sticken einschalten, die Nähen Beginn an einem bestimmten Datum. Nehmen wir an, das Datum ist der 1. Juni. Die CDA-VRS enthält noch vor dem 1. Juni noch nicht zugewiesene Daten. Eventuell möchten Sie Daten in der VRS vor dem 1. Juni ausblenden, damit sich Ihre Analyse nach dem Beginn des Stichs auf Datumsbereiche konzentrieren kann.
+Wenn wir das Sticken einschalten, die Nähen Beginn an einem bestimmten Datum. Nehmen wir an, das Datum ist der 1. Juni. Die CDA-VRS enthält noch vor dem 1. Juni noch nicht zugewiesene Daten. Eventuell möchten Sie Daten in der VRS vor dem 1. Juni ausblenden, damit sich Ihre Analyse nach dem Beginn der Stich auf Datumsbereiche konzentrieren kann.
 
 Sie können die VRS-Daten wie folgt auf bestimmte Daten beschränken:
 
