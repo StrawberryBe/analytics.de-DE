@@ -1,8 +1,11 @@
 ---
 title: usePlugins
 description: Aktivieren oder deaktivieren Sie die doPlugins()-Funktion.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
