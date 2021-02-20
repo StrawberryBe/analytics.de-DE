@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Sammelnummer und Sammeländerung
 
-## Visualisierung für Zusammenfassungsnummer  {#summary-number}
+## Visualisierung für Zusammenfassungsnummer   {#summary-number}
 
 Verwenden Sie die Visualisierung der Zusammenfassungsnummer, um eine große Zahl hervorzuheben, die in einem Projekt wichtig ist. Diese Visualisierung verhält sich folgendermaßen:
 
