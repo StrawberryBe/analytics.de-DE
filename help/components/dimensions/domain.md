@@ -22,4 +22,4 @@ Adobe arbeitet mit [Digital Element](https://info.digitalelement.com/de/) zusamm
 
 Beispiele für Dimensionselemente sind `comcast.net`, `rr.com`, `sbcglobal.net` und `amazonaws.com`. Beachten Sie, dass es sich bei diesen Domänen um Zugriffspunkte handelt und nicht unbedingt um die Domäne, die einen ISP oder ein Unternehmen darstellt.
 
-Dimension bedeutet, `None` dass der Inhaber der IP-Adresse des Zugriffspunkts keine Domäne bereitgestellt hat.
+Die Dimension von `None` bedeutet, dass der Inhaber des Zugriffspunkts IP-Adresse keine Domäne angegeben hat.
