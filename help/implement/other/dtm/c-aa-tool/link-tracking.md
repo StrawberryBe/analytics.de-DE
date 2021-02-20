@@ -1,13 +1,13 @@
 ---
 description: Beschreibung der Felder des Dynamic Tag Managements für das Linktracking bei der Bereitstellung von Analytics.
-keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
+keywords: Dynamic Tag Management;Linktracking;ClickMap aktivieren;Downloadlinks verfolgen;Download-Erweiterungen;ausgehende Links verfolgen;URL-Parameter beibehalten
 solution: Experience Cloud,Analytics
 title: Linktracking
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
