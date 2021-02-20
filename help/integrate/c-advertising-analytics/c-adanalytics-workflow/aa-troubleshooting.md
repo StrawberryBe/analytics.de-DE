@@ -4,6 +4,9 @@ title: Problembehebung in Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt.{#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. Hierfür gibt es zwei mögliche Gründe:
+Sie versuchen, [ein neues Werbekonto einzurichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) und Ihre Report Suite wird nicht in der Dropdown-Liste **[!UICONTROL Report Suite auswählen]** angezeigt. Hierfür gibt es zwei mögliche Gründe:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
