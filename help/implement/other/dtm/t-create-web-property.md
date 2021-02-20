@@ -1,13 +1,13 @@
 ---
 description: Eine Webeigenschaft kann aus einer beliebigen Gruppierung von einer oder mehreren Domänen und Subdomänen mit einer Regelbibliothek bestehen, die in eingebettetem Code enthalten sind.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Webeigenschaft;Eigenschaft
 title: Webeigenschaft erstellen
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '466'
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
