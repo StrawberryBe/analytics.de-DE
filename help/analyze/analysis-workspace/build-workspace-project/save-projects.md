@@ -1,9 +1,9 @@
 ---
 description: Erfahren Sie mehr über die verschiedenen Speicheroptionen, einschließlich automatisches Speichern, Speichern unter und Speichern als Vorlage.
 title: Projekte speichern
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
