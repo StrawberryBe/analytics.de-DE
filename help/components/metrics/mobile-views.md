@@ -1,9 +1,9 @@
 ---
 title: Mobilansichten
 description: Stillgelegte Metrik; nicht mehr verwendet.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 100%
 
