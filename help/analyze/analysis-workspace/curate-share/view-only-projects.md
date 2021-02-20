@@ -1,17 +1,17 @@
 ---
 description: Schreibgeschützte Projekte in Workspace
-keywords: View-only projects
-title: Ansicht-only-Projekte
+keywords: Schreibgeschützte Projekte
+title: Schreibgeschützte Projekte
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
 
-# Ansicht-only-Projekte
+# Schreibgeschützte Projekte
 
 Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md) für Empfänger als „schreibgeschützt“ freigeben. Empfänger mit der Rolle „Kann anzeigen“ erhalten ein eingeschränkteres Projekterlebnis. Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzer freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
 
