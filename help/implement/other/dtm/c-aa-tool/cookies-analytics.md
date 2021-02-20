@@ -1,14 +1,14 @@
 ---
 description: Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Bereitstellung des Dynamic Tag Managements in Adobe Analytics verwendet werden.
-keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
+keywords: Dynamic Tag Management;Cookies;Besucher-ID;Besucher-Namespace;Domänenpunkte;FP-Domänenpunkte;Transaktions-ID;Cookie-Lebensdauer
 solution: Experience Cloud,Analytics
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
 source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 80%
+source-wordcount: '189'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Beschreibung der Felder für die globalen Cookie-Einstellungen, die für die Ber
   </tr> 
   <tr> 
    <td colname="col1"> FP-Domänenpunkte </td> 
-   <td colname="col2"> <p>Die Variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> adobedc.net</span> domain, or the legacy (but still valid) <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Siehe <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>Die Variable  <span class="term"> Die </span> Variable "fpCookieDomainPeriodsvariable"gilt für Cookies, die von JavaScript (<code> s_sq</code>,  <code> s_cc</code>Plug-Ins) gesetzt werden und von Erstanbietern stammen, selbst wenn Ihre Implementierung die Drittanbieter- <span class="filepath"> Domäne "adobedc.</span> netdomain"oder die ältere (aber noch gültige)  <span class="filepath"> 2o7.</span> netor- <span class="filepath"> omtrdc.</span> netdomains verwendet. </p> <p>Siehe <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transaktions-ID </td> 
