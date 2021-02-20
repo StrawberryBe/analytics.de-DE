@@ -1,20 +1,20 @@
 ---
 title: Virtual Analyst
 description: Erfahren Sie, welche Funktionen in Adobe Analytics Teil von Virtual Analyst sind.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
 
-# Virtual Analyst
+# Virtueller Analyst
 
 Virtual Analyst, ein Teil der Funktionen von Adobe Analytics, verwendet prädiktive Algorithmen und maschinelles Lernen, um Einblicke in Anomalien zu erhalten, die sich auf Ihr Geschäft auswirken. Damit können Sie die am häufigsten verwendeten und kostspieligsten Datenwissenschaftsabläufe automatisieren, um die Ursachen für ungewöhnliche Verhaltensweisen in Ihren Daten zu ermitteln.
 
-## Funktionen  {#features}
+## Funktionen   {#features}
 
 Virtual Analyst umfasst die folgenden Funktionen:
 
