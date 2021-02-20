@@ -6,13 +6,13 @@ uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
 source-git-commit: 7a70a5185b768dbc09deca5c8989693501af0cca
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '485'
 ht-degree: 68%
 
 ---
 
 
-# Classifications
+# Klassifizierungen
 
 Die FTP-Option für Classifications bietet mehr Flexibilität beim Hochladen großer Classification-Datensätze. So können u. a. auch Daten in mehrere Report Suites und Datensätze mit mehr als 50.000 Zeilen hochgeladen werden.
 
@@ -24,14 +24,14 @@ Bei einem erfolgreichen Import erscheinen die entsprechenden Änderungen sofort 
 
 Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md).
 
-## About the `.fin` file for Classifications and Data Sources Uploads {#section_1484719F8A134EAE91212DBD8F15174F}
+## Informationen zur Datei `.fin` für Classifications- und Data Sources-Uploads {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a Classification or Data Source file (`.tab` or `.txt`), the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a .`.fin` extension. Diese `.fin`-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die `.fin`-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind.
+Wenn Sie eine Classification- oder Datenquelle-Datei (`.tab` oder `.txt`) hochladen, müssen Sie beim Hochladen auch eine leere Datei hochladen, die genau denselben Namen hat wie die importierte Datendatei, jedoch mit der Erweiterung .`.fin`. Diese `.fin`-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die `.fin`-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind.
 
-Nachdem Sie sowohl die Quelldatei als auch die `.fin` Datei gesendet haben, müssen Sie sich unbedingt von der FTP-Site abmelden. Der Grund dafür ist, dass Adobe Analytics Abmeldedateien als Auslöser verwendet, um die Ereignis zu verarbeiten. Nach Abschluss des Imports entfernt Adobe beide Dateien aus dem FTP-Speicherort.
+Nachdem Sie sowohl die Quelldatei als auch die `.fin`-Datei gesendet haben, müssen Sie sich unbedingt von der FTP-Site abmelden. Der Grund dafür ist, dass Adobe Analytics Abmeldedateien als Trigger verwendet, der zur Verarbeitung bereit ist. Nach Abschluss des Imports entfernt Adobe beide Dateien aus dem FTP-Speicherort.
 
 Finish-Datei: [!DNL Classifications.fin]
 
-If you upload your Data Sources or Classification file without an accompanying `.fin` file, Adobe does not add it to the queue for processing. Die Datei bleibt im FTP-Konto und wird nicht auf Ihre Daten in [!UICONTROL Experience Cloud] angewendet. Sie werden hierüber nur dann benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] von Analytics angegeben haben. Wenn hier keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
+Wenn Sie Ihre Data Sources- oder Classification-Datei ohne zugehörige `.fin`-Datei hochladen, fügt die Adobe sie nicht zur Verarbeitung in die Warteschlange ein. Die Datei bleibt im FTP-Konto und wird nicht auf Ihre Daten in [!UICONTROL Experience Cloud] angewendet. Sie werden hierüber nur dann benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] von Analytics angegeben haben. Wenn hier keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
 
 Wenn Sie Ihre Datei zusammen mit einer `.fin`-Datei hochgeladen haben, die Datei jedoch fehlerhaft ist, wird sie zur Verarbeitung gesendet. Der Fehler sorgt dann dafür, dass die Verarbeitung abgebrochen und die Datei an einen Fehlerordner gesendet wird. In diesem Fall wird eine Benachrichtigung an die im Feld [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] angegebene E-Mail-Adresse gesendet. Wenn keine E-Mail-Adresse eingegeben wurde, wird keine Benachrichtigung gesendet.
