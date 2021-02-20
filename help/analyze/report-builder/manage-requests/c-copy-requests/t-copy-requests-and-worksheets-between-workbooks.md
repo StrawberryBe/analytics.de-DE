@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 100%
 
 ---
 
@@ -14,8 +17,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Kopieren Sie ein ganzes Arbeitsblatt aus einer Quellarbeitsmappe in eine oder mehrere andere Arbeitsmappen.
 
 Hierfür müssen Sie mindestens zwei Arbeitsmappen in derselben Excel-Instanz geöffnet haben: Die erste Quellarbeitsmappe enthält eine Tabelle (Arbeitsblatt) mit Zellen zugeordneten Anforderungen, während die zusätzliche Zielarbeitsmappe die Zielorte enthält. Für jede neue Zielarbeitsmappe müssen Sie sich bei derselben Report Suite wie die Quellarbeitsmappe anmelden, bevor Sie Tabellen, die Anforderungen enthalten, einfügen können.
-1. Klicken Sie mit der rechten Maustaste auf das Arbeitsblatt in der Quellarbeitsmappe und wählen Sie **[!UICONTROL Copy Worksheet w/Requests]**.
-1. Klicken Sie in der Zielarbeitsmappe mit der rechten Maustaste auf das Arbeitsblatt und wählen Sie **[!UICONTROL Paste Worksheet w/Requests]**.
+1. Klicken Sie mit der rechten Maustaste auf das Arbeitsblatt in der Quellarbeitsmappe und wählen Sie **[!UICONTROL Arbeitsblatt mit Anforderungen kopieren]**.
+1. Klicken Sie in der Zielarbeitsmappe mit der rechten Maustaste auf ein Arbeitsblatt und wählen Sie **[!UICONTROL Arbeitsblatt mit Anforderungen einfügen]**.
 
    Dieselbe Instanz von Excel bedeutet, dass auf dem Computer gerade nur ein einziger Excel-Prozess ([!DNL excel.exe]) ausgeführt wird. Wenn Sie zwei Instanzen von Excel starten und versuchen, eine Arbeitsmappe aus der ersten Instanz von Excel in eine Arbeitsmappe in die zweite Instanz von Excel zu kopieren, stellt ReportBuilder die Option zum Einfügen eines Arbeitsblatts im Kontextmenü der zweiten Instanz von Excel nicht zur Verfügung.
 
