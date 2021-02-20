@@ -1,9 +1,9 @@
 ---
 description: Anweisungen zum Einrichten von Scorecards für die Dashboards.
 title: Kuratorleitfaden für Adobe Analytics-Dashboards
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten Informationen dazu, wie Dashboards für ausführende Benutzer konfiguriert und dargestellt werden. Ein Video zur Verdeutlichung dieser Informationen finden Sie in den Adobe Analytics-Dashboards unter dem Namen Scorecard Builder-Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Einführung
 
