@@ -2,8 +2,11 @@
 description: Es gibt Besuchermetriken in Adobe Analytics und Adobe Audience Manager, die ähnliche Definitionen haben, die sich aber aus verschiedenen Gründen nicht zu 100 % entsprechen.
 title: Unterschiede in der Besucherzahl
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Die Besuchermetriken sind:
    <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Segmentpopulation in Echtzeit</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Segmentpopulation in Echtzeit</a> </p> </td> 
    <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren und Ihre Eigenschaften erreicht haben. </p> </td> 
   </tr> 
   <tr> 
