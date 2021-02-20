@@ -3,9 +3,9 @@ description: Beschreibt die Konsequenzen, die eine Änderung des Ereignistyps na
 title: Informationen zum Ändern des Ereignistyps
 topic: Admin tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 100%
 
