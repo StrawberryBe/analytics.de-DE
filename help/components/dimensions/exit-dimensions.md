@@ -1,12 +1,12 @@
 ---
 title: Ausstiegsdimensionen
 description: Führt Ausstiegsdimensionen und deren Verwendung auf.
-keywords: exit page, exit site section, exit server, exit custom insight
-translation-type: ht
+keywords: Exitpage, Exitsite-Abschnitt, Exitserver, Exitbenutzerdefinierter Insight
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 94%
 
 ---
 
