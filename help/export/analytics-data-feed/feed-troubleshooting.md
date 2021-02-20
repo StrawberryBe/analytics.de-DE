@@ -1,13 +1,13 @@
 ---
 description: Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
-keywords: Data Feed;troubleshooting
+keywords: Datenfeed;Fehlerbehebung
 title: Fehlerbehebung bei Daten-Feeds
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Dieser Abschnitt enthält Informationen zu allgemeinen Problemen.
 
-## Fehler beim Speichern des Feeds  {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Fehler beim Speichern des Feeds   {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 Datenfeed-Dateinamen umfassen die Report Suite-ID und das Datum. Zwei Feeds, die für dieselbe RSID und denselben Termin bzw. dieselben Termine konfiguriert sind, haben denselben Dateinamen. Wenn diese Feeds in dasselbe Verzeichnis gesendet werden, überschreibt eine Datei die andere. Um das Überschreiben einer Datei zu verhindern, können Sie keinen Feed erstellen, der einen vorhandenen Feed im selben Verzeichnis überschreiben könnte.
 
@@ -28,7 +28,7 @@ Wenn dieser Fehler vorliegt, ziehen Sie die folgenden Fehlerumgehungen in Erwäg
 * Termine ändern, falls möglich
 * Report Suite ändern, falls möglich
 
-## BucketOwnerFullControl-Einstellungen für Amazon S3-Datenfeeds  {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## BucketOwnerFullControl-Einstellungen für Amazon S3-Datenfeeds   {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Bei einer üblichen Verwendung von Amazon S3 erstellt der Kontoinhaber eines Amazon Web Services (AWS)-Kontos zunächst einen Bucket. Dann erstellt er einen Benutzer, der dazu berechtigt ist, Objekte in diesem Bucket zu erstellen. Schließlich stellt der Kontoinhaber die Anmeldeinformationen für diesen Benutzer zur Verfügung. In diesem Fall gehören die Objekte eines Benutzers zum selben Konto und der Kontoinhaber hat implizit die vollständige Kontrolle über das Objekt (lesen, löschen, usw.). Dies entspricht der Funktionsweise der FTP-Bereitstellung.
 
@@ -54,7 +54,7 @@ Bei der Umstellung von Normalzeit auf Sommerzeit (im Frühling) erhält der Kund
 
 Bei der Umstellung von Sommerzeit auf Normalzeit (im Herbst) erhält der Kunde 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt 2 Stunden. Beispiel: Wenn die Umstellung 2:00 Uhr erfolgt, erhalten die Kunden die Datei für 1:00 Uhr verspätet, diese umfasst jedoch Daten für insgesamt zwei Stunden. Nämlich Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr nach Sommerzeit entspricht). Die nächste Datei beginnt ab 2:00 Uhr Normalzeit.
 
-## Keine Daten für Zeitraum  {#section_72510794694D42A9A75C966B812AEB0F}
+## Keine Daten für Zeitraum   {#section_72510794694D42A9A75C966B812AEB0F}
 
 Sie können einen Datenfeed optional so konfigurieren, dass eine Manifestdatei bereitgestellt wird, wenn für einen bestimmten Zeitraum keine Daten erfasst werden. Wenn Sie diese Option aktivieren, erhalten Sie eine Manifestdatei, die folgendem Schema entspricht:
 
@@ -65,7 +65,7 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## Keine Domäneninfo für Domänenberichterstellung  {#section_B7508D65370442C7A314EAED711A2C75}
+## Keine Domäneninfo für Domänenberichterstellung   {#section_B7508D65370442C7A314EAED711A2C75}
 
 Einige Mobilnetzbetreiber (wie T-Mobile und O1) bieten keine Domänen mehr für Reverse-DNS-Lookups an. Daher sind die Daten nicht für die Domänenberichterstellung verfügbar.
 
