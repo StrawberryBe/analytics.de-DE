@@ -5,6 +5,9 @@ topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +20,7 @@ Das Formular „Ausgewählter Filter“ wird auf der Grundlage des Elements und 
 
 ## Filter definieren – Werte und Sonderzeichen {#section_15840216A4044C40974945FAA435AD93}
 
-Informationen zu Filtern im Bereich **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
+Informationen über Filter im Bereich **[!UICONTROL Am meisten bevorzugte Filter]** > **[!UICONTROL Filter definieren]**.
 
 ![](assets/define_filter.png)
 
@@ -85,7 +88,7 @@ Die folgenden Tabellen enthalten Beispiele und Informationen über Filter:
    <td colname="col1"> <p>Endet mit </p> </td> 
    <td colname="col02"> <p>Gibt Ergebnisse zurück, die mit einem bestimmten Wert enden. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Sucht nach <span class="term"> wxyz</span> aber nicht <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Erweitert (Sonderzeichen) </p> </td> 
