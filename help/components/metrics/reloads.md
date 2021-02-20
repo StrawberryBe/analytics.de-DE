@@ -1,9 +1,9 @@
 ---
 title: Neuladungen
 description: Die Häufigkeit, mit der die Seite neu geladen wurde.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 100%
 
