@@ -1,13 +1,13 @@
 ---
 description: Überprüfen Sie, ob Ihre Dynamic Tag Management-Bibliothek ordnungsgemäß auf Ihrer Website geladen wird.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Code;Seiten-Code;Kopfzeilencode;Fußzeilencode:Einbettungscode;Code überprüfen;Kopfzeilencode überprüfen;Fußzeilencode überprüfen;Registerkarte „Einbettung“;einbetten
 title: Kopf- und Fußzeilencode überprüfen
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
