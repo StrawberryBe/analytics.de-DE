@@ -198,7 +198,7 @@ Dies wird nur angezeigt, wenn Target auf der Seite implementiert ist UND Sie die
 
 ![](assets/debugger2.png)
 
-### Berichterstellung  {#section-1792fe75dc3249d0ad063dfd87a89162}
+### Berichterstellung   {#section-1792fe75dc3249d0ad063dfd87a89162}
 
 Überprüfen Sie Ihre Demandbase-Berichte in Adobe Analytics mit dem Dashboard, das automatisch mit dem Adobe-Integrationsassistenten erstellt wurde (Schritt 7).
 
