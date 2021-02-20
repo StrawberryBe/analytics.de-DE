@@ -1,9 +1,9 @@
 ---
 title: Vorfälle
 description: Die Anzahl der Treffer, für die eine Variable festgelegt oder beibehalten wurde.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -20,5 +20,5 @@ Schließen Sie von allen Treffern in einer Report Suite die Treffer ein, bei den
 
 ## Vergleich mit ähnlichen Metriken
 
-* **Vorfälle oder[Instanzen](instances.md)**: Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde. Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird.
-* **Vorfälle im Vergleich zu[Seitenansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)). Die Metrik „Seitenansichten“ umfasst nur Seitenansicht-Tracking-Aufrufe und schließt Linktracking-Aufrufe aus.
+* **Vorfälle oder [Instanzen](instances.md)**: Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde. Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird.
+* **Vorfälle im Vergleich zu [Seitenansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)). Die Metrik „Seitenansichten“ umfasst nur Seitenansicht-Tracking-Aufrufe und schließt Linktracking-Aufrufe aus.
