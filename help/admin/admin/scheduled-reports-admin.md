@@ -25,7 +25,7 @@ Zu den Admin-spezifischen Fähigkeiten des Managers für terminierte Berichte ge
 * Die neue Registerkarte [Berichtwarteschlange](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) mit allen Berichten, die zur Ausführung auf Berichtsservern in die Warteschlange gestellt wurden.
 * Anzeige der [Zeitplan-ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) in der Benutzeroberfläche der Berichtwarteschlange.
 
-## Alle terminierten Berichte anzeigen {#section_3F167CAAEEC24140B476CF95B7402690}
+## Alle terminierten Berichte anzeigen  {#section_3F167CAAEEC24140B476CF95B7402690}
 
 Auf der Registerkarte **[!UICONTROL Berichtsliste]** können Sie neben den von Ihnen terminierten Berichten mit der Option **[!UICONTROL Alle terminierten Berichte anzeigen]** alle terminierten Berichte in Ihrer Organisation anzeigen.
 
@@ -35,7 +35,7 @@ Auf der Registerkarte **[!UICONTROL Berichtsliste]** können Sie neben den von I
 
 ![](assets/show_all_scheduled_reports.png)
 
-## Erweiterte Filterfunktionen {#section_206A52A85DE84947AAB3AD082FBF6275}
+## Erweiterte Filterfunktionen  {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Beispiel: Wenn Sie nach allen Berichten filtern möchten, die für die stündliche Ausführung geplant sind, geben Sie **[!UICONTROL Häufigkeit = Stündlich]** in den Filter **[!UICONTROL Erweitert]** ein und klicken Sie auf **[!UICONTROL Übernehmen]**:
 
