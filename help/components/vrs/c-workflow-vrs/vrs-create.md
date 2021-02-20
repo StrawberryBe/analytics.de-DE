@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '360'
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
