@@ -1,9 +1,9 @@
 ---
 title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 100%
 
