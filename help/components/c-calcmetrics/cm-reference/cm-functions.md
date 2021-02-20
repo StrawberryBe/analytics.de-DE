@@ -2,9 +2,9 @@
 description: Mit dem Generator für berechnete Metriken können Sie statistische und mathematische Funktionen anwenden, um erweiterte berechnete Metriken zu erstellen.
 title: 'Referenz: Grundfunktionen'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die Sie auswerten möchten. |
+| *Metrik* | Die Metrik, die Sie auswerten möchten. |
 
 ## Spaltenminimum {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die Sie auswerten möchten. |
+| *Metrik* | Die Metrik, die Sie auswerten möchten. |
 
 ## Spaltensumme {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Gesamtwert oder die Summe ermitteln möchten. |
 
 ## Anzahl (Tabelle) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die gezählt werden soll. |
+| *Metrik* | Die Metrik, die gezählt werden soll. |
 
 ## Exponent (Zeile) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,7 +95,7 @@ EXP(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Exponent, der auf Basis *e* angewendet wird. |
+| *Metrik* | Der Exponent, der auf Basis *e* angewendet wird. |
 
 ## Potenzierung {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Durchschnitt ermitteln möchten. |
 
 ## Medianwert (Tabelle) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie den Medianwert ermitteln möchten. |
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -163,7 +163,7 @@ PERCENTILE(metric,k)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *metric* | Die Metrikspalte, die die relative Position definiert. |
+| *Metrik* | Die Metrikspalte, die die relative Position definiert. |
 | *k* | Der Perzentilwert im Bereich von 0 bis 100 (einschließlich). |
 
 ## Quartil (Tabelle) {#concept_BFD37F0F23A24AD181407142233FA151}
@@ -176,7 +176,7 @@ QUARTILE(metric,quart)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *metric* | Die Metrik, für die Sie den Quartilwert abrufen möchten. |
+| *Metrik* | Die Metrik, für die Sie den Quartilwert abrufen möchten. |
 | *quart* | Gibt an, welcher *-Wert zurückgegeben werden soll. |
 
 *Wenn *quart* = 0 ist, gibt QUARTILE den Mindestwert zurück. Wenn *quart* = 1 ist, gibt QUARTILE das zweite Quartil (25. Perzentil) zurück. Wenn *quart* = 2 ist, gibt QUARTILE das zweite Quartil (50. Perzentil) zurück. Wenn *quart* = 3 ist, gibt QUARTILE das zweite Quartil (75. Perzentil) zurück. Wenn *quart* = 4 ist, gibt QUARTILE den Höchstwert zurück.
@@ -246,7 +246,7 @@ STDEV(metric)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *metric* | Die Metrik, deren Standardabweichung gewünscht ist. |
+| *Metrik* | Die Metrik, deren Standardabweichung gewünscht ist. |
 
 ## Schwankung (Tabelle) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -264,7 +264,7 @@ VARIANCE(metric)
 
 | Argument | Beschreibung |
 | --- | --- |
-| *metric* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
+| *Metrik* | Die Metrik, für die Sie die Schwankung ermitteln möchten. |
 
 Zur Berechnung einer Varianz sehen Sie sich eine gesamte Spalte von Zahlen an. Aus dieser Liste von Zahlen berechnen Sie zunächst den Durchschnitt. Sobald Sie den Durchschnitt ermittelt haben, sehen Sie sich jeden Eintrag an und tun Folgendes:
 
