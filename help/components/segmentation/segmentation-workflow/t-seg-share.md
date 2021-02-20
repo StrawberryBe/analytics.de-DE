@@ -3,9 +3,9 @@ description: Abhängig von Ihren Berechtigungen können Sie Segmente für Ihre g
 title: Segmente freigeben
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
