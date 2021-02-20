@@ -43,11 +43,11 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 
    ![Ergebnis des Schritts](assets/marketing_channel_rules.png)
 
-4. Wenn Sie eine neue Regel hinzufügen möchten, wählen Sie im Menü **[!UICONTROL Hinzufügen neuer Regelsatz]** die Option aus. Wenn Sie einen Kanal auswählen, erhalten Sie eine Regelvorlage. Wenn Sie &quot;Benutzerdefiniert&quot;auswählen, wird der Beginn aus einer leeren Tonspur angezeigt. Mit beiden Optionen können Sie den Regelsatz nach Bedarf ändern.
+4. Wenn Sie eine neue Regel hinzufügen möchten, wählen Sie aus dem Menü **[!UICONTROL Hinzufügen Neuer Regelsatz]**. Wenn Sie einen Kanal auswählen, erhalten Sie eine Regelvorlage. Wenn Sie &quot;Benutzerdefiniert&quot;auswählen, wird der Beginn aus einer leeren Tonspur angezeigt. Mit beiden Optionen können Sie den Regelsatz nach Bedarf ändern.
 
    ![Ergebnis des Schritts](assets/example_email.png)
 
-5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
+5. Um mit der Erstellung von Regeln fortzufahren, klicken Sie auf **[!UICONTROL Hinzufügen Neue Regelsatz]**.
 6. Ziehen Sie die Regeln zur Priorisierung an die gewünschte Position.
 7. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -55,7 +55,7 @@ Weiter unten auf dieser Seite finden Sie Empfehlungen für die Reihenfolge der K
 
 ### Festlegen des Marketing-Kanalwerts
 
-**[!UICONTROL Legen Sie den Wert]** des Kanals fest und definieren Sie die Detail-Dimension des Marketing-Kanals, die für diesen Kanal verfügbar ist. Auf diese Weise können Sie die Dimensionen des Marketing-Kanals unterteilen und detailliertere Informationen zum Kanal anzeigen.
+**[!UICONTROL Legen Sie den]** Wert des Kanals fest und definieren Sie die Detail-Dimension des Marketing-Kanals, die für diesen Kanal verfügbar ist. Auf diese Weise können Sie die Dimensionen des Marketing-Kanals unterteilen und detailliertere Informationen zum Kanal anzeigen.
 
 Es wird empfohlen, den Kanalwert auf dieselben Kriterien einzustellen, die zum Definieren des Kanals selbst verwendet wurden. Wenn beispielsweise der Abfragezeichenfolgenparameter zum Definieren des Kanals verwendet wird, legen Sie den Abfragezeichenfolgenparameter ebenfalls als Kanalwert fest.
 
@@ -65,7 +65,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 
 >[!NOTE]
 >
->Alle von Ihnen definierten Textfelder, wie z. B. Abfragen-Zeichenfolgenparameter oder Listen von , die abgeglichen werden sollen, werden als **Werte ohne Unterscheidung zwischen Groß- und Kleinschreibung** ausgewertet. Wenn Sie beispielsweise eine Regel haben, bei der der Abfrage-Zeichenfolgenparameter cmp = abc123, stimmen alle Versionen von &quot;cmp&quot;und &quot;abc123&quot;mit der Regel überein. Es ist nicht erforderlich, mehrere Groß-/Kleinbuchstaben dieser Werte Liste.
+>Jedes von Ihnen definierte Textfeld, z. B. der Zeichenfolgenparameter der Abfrage oder die Listen der Werte, die abgeglichen werden sollen, wird als **Groß-/Kleinschreibung unterschieden**. Wenn Sie beispielsweise eine Regel haben, bei der der Abfrage-Zeichenfolgenparameter cmp = abc123, stimmen alle Versionen von &quot;cmp&quot;und &quot;abc123&quot;mit der Regel überein. Es ist nicht erforderlich, mehrere Groß-/Kleinbuchstaben dieser Werte Liste.
 
 | Begriff | Definition |
 |--- |--- |
@@ -88,7 +88,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Stammdomäne der Seite (TLD+1) | Die Stammdomäne der Seite, auf der der Besucher landet, z. B. example.co.uk. |
 | Seiten-URL | Die URL einer Webseite auf Ihrer Site. |
 | Referrer-Domäne | Die Domäne, von der Ihre Besucher kamen, als sie Ihre Site aufriefen; Referrer können z. B. `abcsite.com` oder `xyzsite.com` sein. |
-| Abfragezeichenfolgenparameter | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (Siehe `https://en.wikipedia.org/wiki/Query_string`.)  Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Ihren Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. Die Zeichenfolgenparameter der Abfrage werden als nicht zwischen Groß- und Kleinschreibung unterschieden. Beispielsweise werden &quot;cat&quot;und &quot;CAT&quot;auf die gleiche Weise bewertet. |
+| Abfragezeichenfolgenparameter | Wenn eine Seiten-URL auf Ihrer Site wie `https://example.com/?page=12345&cat=1` aussieht, dann sind &quot;page&quot;und &quot;cat&quot;beide Abfragen-Zeichenfolgenparameter. (Siehe `https://en.wikipedia.org/wiki/Query_string`.)  Sie können pro Regelsatz nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Ihren Operator und fügen Sie dann der Regel neue Abfragezeichenfolgenparameter hinzu. Zeichenfolgenparameter der Abfrage werden als nicht zwischen Groß- und Kleinschreibung unterschieden. Beispielsweise werden &quot;cat&quot;und &quot;CAT&quot;auf die gleiche Weise bewertet. |
 | Referrer | Die Webseite (volle URL), auf der sich Besucher befanden, bevor sie zu Ihrer Site kamen. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domäne. |
 | Verweisende Domäne und Pfad | Eine Verkettung aus verweisender Domäne und URL-Pfad. Beispiele sind: `www.example.com/products/id/12345` oder `ad.example.com/foo` |
 | Verweisender Parameter | Abfragezeichenfolgenparameter der verweisenden URL. Wenn Ihre Besucher z. B. von `example.com/?page=12345&cat=1` kommen, sind „page“ und „cat“ die verweisenden Parameter. |
@@ -118,29 +118,29 @@ Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalr
 
 Weitere Informationen finden Sie unter [Gebührenpflichtige Sucherkennung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
 
-### Kostenlose Suche  {#natural-search}
+### Kostenlose Suche   {#natural-search}
 
 Bei einer natürlichen Suche finden Besucher Ihre Website durch eine Web-Suche, bei der die Suchmaschine Ihre Website aufführt, ohne dass Sie dafür Gebühren entrichten müssen.
 
-Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Paid-Search-Erkennung](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
+Es gibt keine Erkennung kostenloser Suchen in Analytics. Das System erkennt nach Einrichtung der gebührenpflichtigen Sucherkennung kostenlose Suchverweise durch Schlussfolgerung, wenn der Verweis nicht aus der gebührenpflichtigen Suche entstand. Weitere Informationen finden Sie unter [Paid-Search-Erkennung](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in „Admin“.
 
 Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt:
 
 ![](assets/example_natural_search.png)
 
-### Anzeigen  {#display}
+### Anzeigen   {#display}
 
 Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall  *`Ad_01`*. Der Zeichenfolgenparameter der Abfrage und die gesuchten Werte werden ohne Unterscheidung der Groß-/Kleinschreibung ausgewertet.
 
 ![](assets/example_display.png)
 
-### E-Mail  {#email}
+### E-Mail   {#email}
 
 Diese Regel identifiziert Besucher, die von E-Mail-Kampagnen zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`eml`*:
 
 ![](assets/example_email.png)
 
-### Affiliates  {#afilliates}
+### Affiliates   {#afilliates}
 
 Diese Regel identifiziert Besucher, die aus einem bestimmten Satz von Referrer-Domänen stammen. Führen Sie in der Regel die Affiliate-Domänen, die verfolgt werden sollen, so auf:
 
@@ -152,7 +152,7 @@ Eine Best Practice besteht darin, einen Kanal „Andere Kampagnen“ einzubezieh
 
 ![](assets/other-campaigns.png)
 
-### Soziale Netzwerke  {#social-networks}
+### Soziale Netzwerke   {#social-networks}
 
 Diese Regel identifiziert Besucher, die aus einem sozialen Netzwerk wie Facebook;. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
 
@@ -166,7 +166,7 @@ Diese Regel gilt für Besucher, bei denen die Referrer-URL mit den in der Admin 
 
 Weitere Informationen zum Auftreten dieses Kanals finden Sie unter [Gründe für „Intern“ (Sitzungsaktualisierung)](https://docs.adobe.com/content/help/de-DE/analytics/components/marketing-channels/c-faq.html#internal).
 
-### Direkt  {#direct}
+### Direkt   {#direct}
 
 Diese Regel identifiziert Besucher, die über keine Referrer-Domäne verfügen. Dazu zählen Besucher, die direkt zu Ihrer Site gelangten, z. B. über einen Favoriten-Link oder durch Kopieren des Links in den Browser. Dieser Kanal wird oft in „Direkte Eingabe/Lesezeichen“ umbenannt.
 
