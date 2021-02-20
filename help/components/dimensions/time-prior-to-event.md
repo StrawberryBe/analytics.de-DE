@@ -1,9 +1,9 @@
 ---
 title: Zeit vor Ereignis
 description: Die Zeit zwischen der Metrik und dem ersten Treffer des Besuchs.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 
