@@ -5,8 +5,8 @@ uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '581'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Es gibt vier Möglichkeiten, in die Warnhinweiserstellung zu gelangen:
 
    ![](assets/add-alert.png)
 
-## FAQ: Wie werden Warnhinweise berechnet und ausgelöst?   {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ: Wie werden Warnhinweise berechnet und ausgelöst?    {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
 Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen ausgewählten Zeitgranularität  [werden verschiedene Modelle](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit jeder Punkt von der Norm entfernt ist (Anzahl der Standardabweichungen). Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
 
