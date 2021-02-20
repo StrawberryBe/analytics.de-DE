@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Classifications importer – Übersicht
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
