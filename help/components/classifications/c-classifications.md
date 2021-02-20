@@ -1,9 +1,9 @@
 ---
 title: Übersicht über Klassifizierungen
 description: Passen Sie die Gruppierung von Dimensionselementen an.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Eine Classification ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, sobald Sie einen Bericht erzeugen.
 
-Videoüberblick über [Analytics-Classifications](https://video.tv.adobe.com/v/16853/?captions=ger).
+Videoüberblick über [Analytics-Classifications](https://video.tv.adobe.com/v/16853/).
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > *`<Traffic or Conversion>`*
 
