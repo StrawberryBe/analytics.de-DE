@@ -50,12 +50,12 @@ var s = new Object();
 >* Ändern Sie die `trackingServer`-Variable nicht von Adobe weg. AppMeasurement sendet weiterhin Bildanforderungen, die 404-Fehler zurückgeben.
 
 
-## Ich habe AppMeasurement über einen Code-Analyzer ausgeführt und seine Verwendung als potenzielles Sicherheitsrisiko markiert `Math.random()` . Wird mit vertraulichen Daten `Math.random()` verwendet?
+## Ich habe AppMeasurement über einen Code-Analyzer ausgeführt und seine Verwendung von `Math.random()` als potenzielles Sicherheitsrisiko gekennzeichnet. Wird `Math.random()` mit vertraulichen Daten verwendet?
 
-Nein. Die Zahlen, die verwendet `Math.random()` werden, werden nicht zum Maskieren, Senden oder Empfangen sensibler Daten verwendet. Daten, die an Datenerfassungsserver der Adobe gesendet werden, hängen von der Sicherheit der zugrunde liegenden HTTPS-Verbindung ab. <!-- AN-173590 -->
+Nein. Die Zahlen, die `Math.random()` verwenden, werden nicht zum Maskieren, Senden oder Empfangen sensibler Daten verwendet. Daten, die an Datenerfassungsserver der Adobe gesendet werden, hängen von der Sicherheit der zugrunde liegenden HTTPS-Verbindung ab. <!-- AN-173590 -->
 
-AppMeasurement verwendet `Math.random()` drei Schlüsselbereiche:
+AppMeasurement verwendet `Math.random()` in drei Schlüsselbereichen:
 
 * **Probenahme**: Je nach Implementierung können einige Informationen für nur einen kleinen Prozentsatz der Besucher Ihrer Site gesammelt werden. `Math.random()` bestimmt, ob ein Besucher Daten senden soll. Bei den meisten Implementierungen wird kein Sampling verwendet.
-* **Fallback-Besucher-ID**: Wenn die Besucher-ID nicht aus Cookies abgerufen werden kann, wird eine zufällige Besucher-ID generiert. Dieser Teil von AppMeasurement verwendet zwei Aufrufe an `Math.random()`.
+* **Fallback-Besucher-ID**: Wenn die Besucher-ID nicht aus Cookies abgerufen werden kann, wird eine zufällige Besucher-ID generiert. Dieser Teil von AppMeasurement verwendet zwei Aufrufe von `Math.random()`.
 * **Cache-Busting**: Am Ende der Bildanforderungs-URLs wird eine Zufallszahl hinzugefügt, um die Zwischenspeicherung im Browser zu verhindern.
