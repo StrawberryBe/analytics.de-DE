@@ -1,13 +1,13 @@
 ---
 description: In diesem Abschnitt erfahren Sie mehr zu den Vorteilen und Einschränkungen der Einstellung „Zeitstempel optional“.
-keywords: Analytics Implementation
+keywords: Analytics-Implementierung
 title: Verwendung von „Zeitstempel optional“
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Eine Report Suite kann eine der folgenden Zeitstempeleinstellungen haben:
 * Zeitstempel erforderlich (Einstellen der Besucher-ID nicht unterstützt)
 * Zeitstempel optional (Einstellen der Besucher-ID unterstützt, aber nicht bei Treffern mit Zeitstempel)
 
-## Informationen zu den Funktionen von „Zeitstempel optional“ {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## Informationen zu den Funktionen von „Zeitstempel optional“  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 „Zeitstempel optional“ ermöglicht die Berichterstattung über mehrere Report Suites, und zwar unabhängig davon, ob clientseitige Zeitstempel enthalten sind oder nicht. Wenn Sie die Option „Zeitstempel optional“ gewählt haben, können Sie Ihre App so aktualisieren, dass Zeitstempel, nach wie vor aber auch Daten ohne Zeitstempel aus früheren Apps verwendet werden.
 
@@ -69,7 +69,7 @@ Nachfolgend finden Sie Best Practices in Verbindung mit Zeitstempeln sowie einig
 
    Daten außerhalb der Reihenfolge können verspätet eintreffende Daten aus Offline-Datenerfassungen, verspätet eintreffende Treffer oder nicht synchronisierte Zeiten von Offline-Mobilgeräten sein. Diese nicht chronologischen Daten können Berechnungen (z. B. die Angabe der Dauer), Zuordnungen (eVar-Persistenz), Besucherzahlen und Pfadsetzungsberichte beeinträchtigen.
 
-* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://docs.adobe.com/content/help/de-DE/analytics/components/metrics/unique-visitors.translate.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
+* Die Verwendung von Zeitstempeln bei gleichzeitiger Verwendung einer [s.visitorID](https://docs.adobe.com/content/help/de-DE/analytics/components/metrics/unique-visitors.html) wird nicht empfohlen. Dadurch können die Daten in nicht chronologischer Reihenfolge erscheinen.
 
 * Hybridanwendungen mit einer App (Offline-Daten mit Zeitstempel), die einen Webbrowser öffnet (Live-Daten ohne Zeitstempel), sollten keine Zeitstempel verwenden. Die Daten der Sitzung würden dadurch nicht korrekt gemeldet werden.
 
