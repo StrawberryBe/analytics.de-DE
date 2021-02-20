@@ -2,9 +2,9 @@
 description: 'null'
 title: Data Sources-Verarbeitungszeit
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
