@@ -1,12 +1,12 @@
 ---
 description: Verwalten Sie geplante Projekte in Analysis Workspace
-keywords: Analysis Workspace
+keywords: 'Analysis Workspace '
 title: Manager für geplante Projekte
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
