@@ -12,12 +12,12 @@ ht-degree: 66%
 
 # Attributionsbedienfeld
 
-The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. Dabei handelt es sich um eine Funktion in [Attribution IQ](../attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
+Das Bedienfeld [!UICONTROL Attribution] ist eine einfache Möglichkeit, eine Analyse zum Vergleichen verschiedener Zuordnungsmodelle zu erstellen. Dabei handelt es sich um eine Funktion in [Attribution IQ](../attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
 
 ## Erstellen eines Attributionsbedienfeldes
 
 1. Klicken Sie links auf das Bedienfeldsymbol.
-1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
+1. Ziehen Sie das Bedienfeld [!UICONTROL Zuordnung] in Ihr Analysis Workspace-Projekt.
 
    ![Neues Attributionsbedienfeld](assets/Attribution_Panel_1.png)
 
@@ -39,5 +39,5 @@ The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing
 * **Überschneidungsdiagramm**: Ein Venn-Diagramm, das die drei wichtigsten Dimensionselemente und deren gemeinsame Teilnahme an einer Konversion anzeigt. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn ein Besucher beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
 * **Leistungsdetails**: Ermöglicht den visuellen Vergleich von bis zu drei Zuordnungsmodellen mithilfe eines Streudiagramms.
 * **Trendleistung**: Zeigt den Trend der zugeordneten Konvertierungen für das Element der obersten Dimension. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
-* **Fluss**: Hier können Sie sehen, mit welchen Kanälen am häufigsten und in welcher Reihenfolge während der Reise eines Besuchers interagiert wird.
+* **Fluss**: Hier können Sie sehen, mit welchen Kanälen am häufigsten interagiert wird und in welcher Reihenfolge die Journey eines Besuchers angezeigt wird.
 
