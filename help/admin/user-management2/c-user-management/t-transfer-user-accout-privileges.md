@@ -4,9 +4,9 @@ subtopic: Users and groups
 title: Übertragen von Benutzerkontoelementen
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
