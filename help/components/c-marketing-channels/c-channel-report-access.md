@@ -1,9 +1,9 @@
 ---
 description: Beschreibt, wie Sie den Marketing-Kanalbericht ausführen und beschränkte Administratorrechte und Benutzergruppenberechtigungen erteilen.
 title: Berechtigungen für Marketing-Kanäle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
