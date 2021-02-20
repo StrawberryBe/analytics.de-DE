@@ -2,9 +2,9 @@
 description: Eine Übersicht zum Menü „Berichte“ in Reports & Analytics.
 title: Menü Berichte
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
