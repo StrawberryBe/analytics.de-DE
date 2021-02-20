@@ -13,7 +13,7 @@ ht-degree: 47%
 
 # Bereitstellen der Integration {#deploying-the-integration}
 
-Die Bereitstellung dieser Integration ist ein einfacher Vorgang, bei dem Sie den Adobe Integration Wizard, den Plug-in-Code (JavaScript) und die Integration überprüfen müssen.
+Bei der Bereitstellung dieser Integration müssen Sie den Integrationsassistenten für Adoben, den Plug-in-Code (JavaScript) und die Integrationsüberprüfung durchführen.
 
 ## Abschließen des Adobe-Integrationsassistenten {#complete-the-adobe-integration-wizard}
 
@@ -25,12 +25,12 @@ Um die Integration zu aktivieren, führen Sie den Konfigurationsassistenten in d
 1. Wählen Sie die gewünschte Report Suite aus. Geben Sie dann einen Namen für die Integration ein.
 1. Konfigurieren Sie die folgenden Elemente:
    1. **[!UICONTROL E-Mail-Adresse]**: Die E-Mail-Adresse des Hauptkontakts.
-   1. **[!UICONTROL Beschreibung]** (optional): Beschreibung für diese Integrationseinrichtung.
-   1. **[!UICONTROL Kampyle-Schlüssel]**: Suchen Sie diesen Schlüssel in der Anwendung Kampyle unter **[!UICONTROL Feedback-Formular]** > **[!UICONTROL Feedback-Formularanpassung]**.
-   1. **[!UICONTROL Tracking-Server]**: Der Trackingserverwert, den Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
+   1. **[!UICONTROL Beschreibung]**  (optional): Beschreibung für diese Integrationseinrichtung.
+   1. **[!UICONTROL Kampyle-Schlüssel]**: Suchen Sie diesen Schlüssel in der Anwendung Kampyle unter  **[!UICONTROL Feedback-Formular]** >  **[!UICONTROL Feedback-Formularanpassung]**.
+   1. **[!UICONTROL Tracking-Server]**: Der Wert des Tracking-Servers, den Sie zur Verfolgung von Adobe Analytics-Daten verwenden.
    1. **[!UICONTROL Sicherer]** Tracking-Server: Wenn sich Ihr Tracking-Server für sicheren/https-Traffic unterscheidet, geben Sie diese Einstellung hier an.
 1. Konfigurieren Sie die folgenden **[!UICONTROL Variablenzuordnungselemente]**:
-   1. **[!UICONTROL Kampyle Feedback-ID]**: Wählen Sie eine verfügbare eVar-Variable aus Ihrer Report Suite
+   1. **[!UICONTROL Kampyle Feedback-ID]**: Wählen Sie eine verfügbare eVar aus Ihrer Report Suite
    1. **[!UICONTROL Feedback-Bewertung]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
    1. **[!UICONTROL Feedback-Elemente]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
    1. **[!UICONTROL Feedback mit Bewertung]**: Wählen Sie ein verfügbares Erfolgserlebnis (Typ &quot;Zähler&quot;) aus Ihrer Report Suite aus.
@@ -43,7 +43,7 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 >[!NOTE]
 >
->Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt ganz einfach über dieses Tool hinzufügen.
+>Wenn Sie Adobe Experience Platform Launch verwenden, können Sie das Integrationskonfigurationsobjekt einfach über dieses Tool hinzufügen.
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Ressourcen]** > **[!UICONTROL Support]** der Integration.
 1. Laden Sie die Ressource **[!UICONTROL Kampyle Integration Code (JS)]** herunter. Speichern Sie diese anschließend. Der Code sieht in etwa so aus:
@@ -55,7 +55,7 @@ Stellen Sie nach Abschluss des Integrationsassistenten das Integrationskonfigura
 
 1. Stellen Sie den Code mit einer der folgenden Methoden bereit:
 
-   * Adobe Experience Platform starten.
+   * Verwenden Sie Adobe Experience Platform Launch.
    * Stellen Sie den Code für die Organisationsressource bereit, die Ihre Adobe Analytics-Bereitstellung verwaltet.
 
 ## Überprüfen der Integration {#verify-the-integration}
