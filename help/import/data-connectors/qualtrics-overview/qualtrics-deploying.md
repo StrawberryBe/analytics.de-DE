@@ -6,6 +6,9 @@ topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +36,8 @@ Zum Aktivieren der Integration müssen Sie den Qualtrics-Integrationsassistenten
 | Qualtrics Response List | Wählen Sie eine verfügbare Listenvariable aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)  |
 |---|---|
 | Qualtrics Response ID | Wählen Sie eine verfügbare eVar oder Eigenschaft aus Ihrer Report Suite aus. (Möglicherweise müssen Sie eine neue listVar im Report Suite Manager aktivieren.)   |
-| Tracking-Server | Geben Sie die Einstellung des Tracking-Servers (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie den Tracking-Server `trackingServerSecure`, wenn er sich von der Einstellung des Standard-Tracking-Servers unterscheidet.  |
+| Tracking-Server | Geben Sie die Einstellung des Tracking-Servers (Domäne) an, mit der Sie Adobe Analytics-Daten verfolgen. Verwenden Sie die Variable 
+`trackingServerSecure` Tracking-Server, wenn er sich von Ihrer standardmäßigen Tracking-Server-Einstellung unterscheidet.   |
 | Qualtrics Survey Submissions | Wählen Sie ein verfügbares Ereignis aus Ihrer Report Suite aus (unter Umständen müssen Sie ein neues Ereignis im Report Suite Manager aktivieren). |
 
 1. **Assistent Schritt 3**: Nicht erforderlich, nur informativ.
@@ -61,6 +65,7 @@ Nach Abschluss des Integrationsassistenten müssen Sie die Integration für jede
 1. Wählen Sie die Adobe Analytics-Konfiguration aus und klicken Sie auf **[!UICONTROL Save]** (Speichern). Wenn keine Konfigurationen verfügbar sind, haben Sie den Adobe-Integrationsassistenten wahrscheinlich noch nicht abgeschlossen.
    1. Das Kontrollkästchen **[!UICONTROL Include Partial Responses]** (Teilantworten einschließen) kann verwendet werden, um anzugeben, dass Sie Daten nach Abschluss der einzelnen Teilumfragebildschirme in Adobe Analytics erfassen möchten. Wenn diese Option nicht aktiviert ist, werden die Daten nur für vollständig abgeschlossene Umfragen übertragen.
    1. Das Kontrollkästchen **[!UICONTROL Send Timestamp With Beacon]** (Zeitstempel mit Beacon senden) sollte nur bei der Integration in eine Report Suite verwendet werden, die für den Empfang von Daten mit Zeitstempel konfiguriert ist (nicht üblich).
+
    ![](assets/integration_config.png)
 
 ## Überprüfen der Integration {#verifying-the-integration}
