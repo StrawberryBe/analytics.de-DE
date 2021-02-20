@@ -1,16 +1,16 @@
 ---
 title: events
 description: Legen Sie die Ereignisvariable fest, die die meisten Metriken auf Ihrer Website steuert.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 100%
 
 ---
 
 
-# events
+# Ereignisse
 
 Dimensionen und Metriken sind wichtige Komponenten für Berichte. Die `events`-Variable ist für die Datenerfassung vieler Metriken auf Ihrer Website verantwortlich. Ereignis inkrementieren normalerweise die [Metriken](/help/components/metrics/overview.md) in Berichten.
 
