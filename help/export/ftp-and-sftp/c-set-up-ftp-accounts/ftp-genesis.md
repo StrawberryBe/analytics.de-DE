@@ -5,8 +5,8 @@ title: Data Connectors
 translation-type: tm+mt
 source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '142'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 auslaufen. [Mehr Infos...](/help/import/data-connectors/data-connectors-eol.md)
+>Die Adobe Data Connector-Technologie wird Mitte bis Ende 2021 abgeschafft. [Weitere Informationen ...](/help/import/data-connectors/data-connectors-eol.md)
 
 Wenn Sie eine Integration mit einem Adobe-Partner über [Data Connectors](https://www.adobeexchange.com/experiencecloud.html) herstellen, kann Adobe Remarketing- oder andere Daten an das FTP-Konto senden, aus dem Sie oder Ihr Partner diese herunterladen können.
 
