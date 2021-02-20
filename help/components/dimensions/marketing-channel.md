@@ -1,9 +1,9 @@
 ---
 title: Marketing-Kanal
 description: Der neueste Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 
