@@ -1,12 +1,15 @@
 ---
 description: Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
-keywords: Analytics Implementation
+keywords: Analytics-Implementierung
 subtopic: Redirects
 title: Umleitungen und Aliase
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 100%
 
 ---
 
@@ -27,22 +30,22 @@ Obwohl es nur zwei Typen von Umleitungen gibt, können sie auf verschiedene Arte
 
 [!DNL Analytics] erfasst einige Daten aus dem Browser und ist auf bestimmte Browsereigenschaften angewiesen. Zwei dieser Eigenschaften, die „Verweisende URL“ (oder „Verweis“) und die „Aktuelle URL“, können durch eine serverseitige Umleitung geändert werden. Da der Browser erkennt, dass eine URL abgefragt wurde, jedoch eine andere URL zurückgegeben wurde, wird die verweisende URL entfernt. Demzufolge ist die verweisende URL leer, und [!DNL Analytics] würde dann melden, dass zu der Seite kein Referrer vorhanden wäre.
 
-## Beispiel: Browsen ohne Umleitungen {#section_5C835A4D665A4625A23333C2C21F152D}
+## Beispiel: Browsen ohne Umleitungen  {#section_5C835A4D665A4625A23333C2C21F152D}
 
 Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht umgeleitet wird:
 
-1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. Der Benutzer verweist seinen Browser auf `www.google.com`, gibt „Discount-Airline Tickets“ in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
 1. Der Browser zeigt die Suchergebnisse einschließlich einem Link zu Ihrer Site [!DNL https://www.example.com/] / an. Nach der Anzeige der Suchergebnisse zeigt die Adressleiste des Browsers die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe an ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen.
 1. Der Benutzer klickt auf den Link zu Ihrer hypothetischen Site [!DNL https://www.example.com/]. Wenn der Benutzer auf diesen Link klickt und auf die Website [!DNL example.com] gelangt, erfasst [!DNL Analytics] mithilfe von JavaScript die verweisende URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) und die aktuelle URL ( `https://www.example.com/`).
-1. [!DNL Analytics] die während dieser Interaktion gesammelten Informationen in verschiedenen Berichten wie [!UICONTROL Referring Domains], [!UICONTROL Search Engines]und [!DNL Search Keywords].
+1. [!DNL Analytics] präsentiert die während dieser Interaktion gesammelten Informationen in verschiedenen Berichten z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen] und [!DNL Search Keywords].
 
 ## Beispiel: Browsen mit Umleitungen {#section_921DDD32932847848C4A901ACEF06248}
 
 Umleitungen können dazu führen, dass der Browser die eigentliche verweisende URL ausblendet. Betrachten wir das folgende Szenario:
 
-1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. Der Benutzer verweist seinen Browser auf `https://www.google.com`, gibt *Discount-Airline Tickets* in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
 1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domäne ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
-1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit gehen die in den [!DNL Analytics] Berichten verwendeten ursprünglichen Suchinformationen verloren (z. B. [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]).
+1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
 
 ## Umleitungen implementieren {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
@@ -147,7 +150,7 @@ redirects_verify_referrer.xml
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
-Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) repräsentiert.
+Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de-DE) repräsentiert.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
