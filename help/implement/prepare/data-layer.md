@@ -167,7 +167,7 @@ digitalData = {
 }
 ```
 
-Details zu den einzelnen Objekten und Unterobjekten finden Sie im Bericht [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf). Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
+Details zu den einzelnen Objekten und Unterobjekten finden Sie im Bericht [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf). Nicht alle Websites verwenden alle Objekte. Wenn Sie z. B. eine News-Site hosten, ist es unwahrscheinlich, dass Sie für das Objekt-Array `digitalData.product` verwenden.
 
 Datenschichten sind erweiterbar. Wenn Sie unternehmensspezifische Anforderungen haben, können Sie Objekte in Ihre Datenschicht aufnehmen, um diese Anforderungen zu erfüllen.
 
