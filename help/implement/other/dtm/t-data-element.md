@@ -1,13 +1,13 @@
 ---
 description: Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
-keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+keywords: Dynamic Tag Management;Datenelement;Neues Datenelement erstellen;Name;Typ;Standardwert;Wert in Kleinbuchstaben erzwingen;Diesen Wert speichern für
 solution: Experience Cloud,Analytics,Target
 title: Datenelement erstellen
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,11 @@ Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Typ</strong></td> 
-      <td class="chdesc stentry"> <p> Legt fest, von wo die Daten bezogen werden, zu den Quellen gehören beispielsweise JS-Objekt, CSS-Selektor, Cookies, URL-Parameter oder benutzerdefinierter Code. </p> <p>Abhängig vom gewählten Typ stehen verschiedene Optionen zur Auswahl. Weitere Informationen und Beispiele finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/resources/data-elements.html">Datenelement-Typen</a> in der Produktdokumentation für das Dynamic Tag Management. </p> </td> 
+      <td class="chdesc stentry"> <p> Legt fest, von wo die Daten bezogen werden, zu den Quellen gehören beispielsweise JS-Objekt, CSS-Selektor, Cookies, URL-Parameter oder benutzerdefinierter Code. </p> <p>Abhängig vom gewählten Typ stehen verschiedene Optionen zur Auswahl. Weitere Informationen und Beispiele finden Sie unter <a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html">Datenelement-Typen</a> in der Produktdokumentation für das Dynamic Tag Management. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Standardwert</strong></td> 
-      <td class="chdesc stentry"> <p>Ein Standardelement. Mit diesem Wert wird sichergestellt, dass das Datenelement immer einen Wert aufweist, selbst wenn kein URL-Parameter vorhanden ist oder vom Dynamic Tag Management nicht gefunden werden kann. </p> <p> <p>Hinweis: Sollte weder ein Wert noch ein Standardwert vorhanden sein, wird kein Wert zurückgegeben. Diejenigen Variablen, die sich auf dieses Datenelement beziehen, werden nicht festgelegt. Beachten Sie zudem, dass das Feld mit dem Standardwert ignoriert wird, wenn es sich um ein Datenelement mit benutzerdefiniertem Code handelt. </p> </p> </td> 
+      <td class="chdesc stentry"> <p>Ein Standardelement. Mit diesem Wert wird sichergestellt, dass das Datenelement immer über einen Wert verfügt, auch wenn kein URL-Parameter vorhanden ist oder keiner vom Dynamic Tag Management gefunden werden kann. </p> <p> <p>Hinweis: Sollte weder ein Wert noch ein Standardwert vorhanden sein, wird kein Wert zurückgegeben. Jede Variable, die auf dieses Datenelement verweist, wird dann nicht festgelegt. Beachten Sie außerdem, dass das Feld für den Standardwert ignoriert wird, wenn es sich um ein Datenelement für „custom code“ (benutzerspezifischer Code) handelt. </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Kleinbuchstaben erzwingen</strong></td> 
@@ -50,7 +50,7 @@ Erstellen Sie ein Datenelement mit dem Dynamic Tag Management.
       <td class="choption"><strong>Diesen Wert speichern für</strong></td> 
       <td class="chdesc stentry"> <p>Wie lange dieser Wert im Dynamic Tag Management gespeichert werden soll. </p> <p> Zu gültigen Werten gehören: </p> 
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
-        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>Sitzung: Die sitzungsbezogene Zeitdauer kann je nach Implementierung variieren. Sitzungsdatenelemente werden auf das Sitzungscookie festgelegt. Diese Einstellung könnte sich auf einen Webserver oder den Browser beziehen. Die Einstellung bezieht sich nicht auf die Sitzung, die für Marketing Reports &amp; Analytics verwendet wird. </p> </li> 
+        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>Sitzung: Sitzungsbasiertes Timing kann je nach Implementierung variieren. Sitzungsdatenelemente werden im Sitzungs-Cookie festgelegt. Diese Einstellung kann jedoch von einem Webserver oder Browser abhängen. Sie steht nicht in Zusammenhang mit der in Marketing Reports &amp; Analytics verwendeten Sitzung. </p> </li> 
         <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>Seitenansicht. </p> </li> 
         <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Besucher. </p> </li> 
       </ul> </td> 
