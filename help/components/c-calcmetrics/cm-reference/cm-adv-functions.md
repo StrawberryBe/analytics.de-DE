@@ -2,9 +2,9 @@
 description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste Funktionen die Option „Erweitert anzeigen“ wählen.
 title: 'Referenz: Erweiterte Funktionen'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTR
 
 Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
-## Was bedeutet der Parameter „Include-Zeros“?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Was bedeutet der Parameter „Include-Zeros“?   {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null „nichts“, in anderen Fällen kann sie aber auch wichtig sein.
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *Dimension* | Die Dimension, für die Sie den ungefähren Distinct Count für Elemente ermitteln möchten. |
 
-### Beispielanwendungsfall  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Beispielanwendungsfall   {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
 
@@ -68,11 +68,11 @@ So könnte die „Ungefähre Kunden“-Metrik für Berichte verwendet werden:
 
 ![](assets/approx-customers.png)
 
-### Individuelle Werte überschritten  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Individuelle Werte überschritten   {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://docs.adobe.com/content/help/de-DE/analytics/technotes/low-traffic.html). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
 
-### Vergleich von Count-Funktionen  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Vergleich von Count-Funktionen   {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Ungefährer Distinct Count() ist eine Verbesserung im Vergleich zu Count()- und RowCount()-Funktionen, da die dadurch erstellte Metrik in allen Dimensionsberichten verwendet werden kann, um eine ungefähre Elementanzahl für eine separate Dimension zu rendern. Beispielsweise wird eine Anzahl an Kunden-IDs in einem Bericht zu Mobilgerätetypen verwendet.
 
@@ -100,7 +100,7 @@ ASIN(metric)
 
 | Argument |  |
 |---|---|
-| *metric* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
+| *Metrik* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
 
 ## Arkustangens (Zeile) {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -112,7 +112,7 @@ ATAN(metric)
 
 | Argument |  |
 |---|---|
-| *metric* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
+| *Metrik* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
 
 ## Exponentielle Regression: Vorhersage für Y (Zeile) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -162,7 +162,7 @@ CEILING(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die gerundet werden soll. |
+| *Metrik* | Die Metrik, die gerundet werden soll. |
 
 ## Kosinus (Zeile) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -174,7 +174,7 @@ COS(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Kosinus ermitteln möchten. |
+| *Metrik* | Der Winkel in Radianten, für den Sie den Kosinus ermitteln möchten. |
 
 ## Kubikwurzel {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -186,7 +186,7 @@ CBRT(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, für die Sie die Kubikwurzel abrufen möchten. |
+| *Metrik* | Die Metrik, für die Sie die Kubikwurzel abrufen möchten. |
 
 ## Zusammengefasst {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -270,7 +270,7 @@ FLOOR(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die gerundet werden soll. |
+| *Metrik* | Die Metrik, die gerundet werden soll. |
 
 ## Größer als {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -290,7 +290,7 @@ COSH(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Hyperbelkosinus ermitteln möchten. |
+| *Metrik* | Der Winkel in Radianten, für den Sie den Hyperbelkosinus ermitteln möchten. |
 
 ## Hyperbelsinus (Zeile) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -302,7 +302,7 @@ SINH(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Hyperbelsinus ermitteln möchten. |
+| *Metrik* | Der Winkel in Radianten, für den Sie den Hyperbelsinus ermitteln möchten. |
 
 ## Hyperbeltangens (Zeile) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -314,7 +314,7 @@ TANH(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radiant, dessen hyperbolischer Tangens berechnet werden soll. |
+| *Metrik* | Der Winkel in Radiant, dessen hyperbolischer Tangens berechnet werden soll. |
 
 ## IF (Zeile) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -364,7 +364,7 @@ LOG10(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die positive reale Zahl, dessen Logarithmus zur Basis 10 gewünscht ist. |
+| *Metrik* | Die positive reale Zahl, dessen Logarithmus zur Basis 10 gewünscht ist. |
 
 ## Logistische Regression: Korrelationskoeffizient (Tabelle) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -430,7 +430,7 @@ LN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die positive reale Zahl, deren natürlicher Logarithmus gewünscht ist. |
+| *Metrik* | Die positive reale Zahl, deren natürlicher Logarithmus gewünscht ist. |
 
 ## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -643,7 +643,7 @@ SIN(metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Sinus ermitteln möchten. |
+| *Metrik* | Der Winkel in Radianten, für den Sie den Sinus ermitteln möchten. |
 
 ## t-Transformation {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -685,7 +685,7 @@ TAN (metric)
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Tangens ermitteln möchten. |
+| *Metrik* | Der Winkel in Radianten, für den Sie den Tangens ermitteln möchten. |
 
 ## z-Transformation (Zeile) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -712,7 +712,7 @@ z-Transformation (Metrik)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i>Metrik</i> </td> 
    <td colname="col2"> <p> Gibt den Wert des ersten Arguments ungleich null zurück. </p> </td> 
   </tr> 
  </tbody> 
