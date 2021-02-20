@@ -1,9 +1,9 @@
 ---
 title: getPercentPageViewed
 description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher aufgerufen hat.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 100%
 
