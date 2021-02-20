@@ -5,6 +5,9 @@ topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +21,13 @@ Bei der Verwendung von „Ausdruck anpassen“ für die Festlegung eines Datumsb
 
 Da die Verfügbarkeit von Daten sowohl vom zeitlichen Rahmen des Berichts als auch vom Datum der Aktualisierung von Anforderungen in dem Bericht abhängt, müssen Sie sicherstellen, dass der Bericht an Tagen ausgeführt wird, die dafür geeignet sind, die gewünschten Informationen zu erhalten. Die nachstehenden Beispiele illustrieren die beiden besonders zu berücksichtigenden Umstände.
 
-Assume you make a request for [!UICONTROL Page Views] using Aggregated granularity. In Nordamerika beginnt die Woche am Sonntag. Um aktualisierte Berichte für die Zeit von Sonntag bis Samstag (z. B. 23.–29. November 2008) zu erhalten, führen Sie den Bericht (bzw. die Aktualisierungsanforderung) am Sonntag, den 30. November für die vergangene Woche (23.11.–29.11.) aus.
+Angenommen, Sie fordern die Zahl der [!UICONTROL Seitenaufrufe] mit einer Granularität von „Aggregiert“ an. In Nordamerika beginnt die Woche am Sonntag. Um aktualisierte Berichte für die Zeit von Sonntag bis Samstag (z. B. 23.–29. November 2008) zu erhalten, führen Sie den Bericht (bzw. die Aktualisierungsanforderung) am Sonntag, den 30. November für die vergangene Woche (23.11.–29.11.) aus.
 
 Verwenden Sie dazu diesen benutzerdefinierten Ausdruck:
 
 *Von:* cw-1w *Bis:* cw-1d
 
-An analysis of the customize expression when the inclusive [!UICONTROL End Date] for the request is 11/30:
+Eine Analyse des benutzerdefinierten Ausdrucks, wenn das einschließliche [!UICONTROL Enddatum] für die Anforderung der 30.11. ist:
 
 *Von:* cw-1w
 
@@ -34,11 +37,11 @@ der aktuelle Tag in der am Sonntag, dem 30. November beginnenden Woche minus sie
 
 der Tag in der am Sonntag, dem 30. November beginnenden aktuellen Woche minus ein Tag = Samstag, der 29. November
 
-After the customized expression is mapped to the spreadsheet, refresh the request using Sunday, November 30, 2008 as the inclusive [!UICONTROL End Date] for the floating request. Die Daten beziehen sich nur auf den wöchentlichen Zeitraum.
+Ordnen Sie den benutzerdefinierten Ausdruck dem Arbeitsblatt zu und aktualisieren Sie dann die Anforderung mit Sonntag, dem 30. November 2008 als einschließlichem [!UICONTROL Enddatum] für die gleitende Anforderung. Die Daten beziehen sich nur auf den wöchentlichen Zeitraum.
 
-Wenn Sie stattdessen den Ausdruck aktualisieren und Samstag, den 29. November als Grundlage [!UICONTROL End Date] für die Floating-Anforderung angeben, beziehen sich die Daten auf die Woche vom 16.11. bis 22.11. Dies liegt daran, dass das Bezugsdatum für die Anforderungsaktualisierung einen Tag früher liegt.
+Wenn Sie stattdessen den Ausdruck aktualisieren und dabei Samstag, den 29. November als [!UICONTROL Enddatum] für die gleitende Anforderung angeben, beziehen sich die Daten auf die Woche vom 16.11. bis zum 22.11. Dies liegt daran, dass das Referenzdatum für die Aktualisierungsanforderung einen Tag früher liegt.
 
-Here are the differences when the inclusive [!UICONTROL End Date] for the request is 11/29:
+Hier sind die Unterschiede, wenn das einschließliche [!UICONTROL Enddatum] der Anforderung der 29.11. ist.
 
 *Von:* cw-1w
 
