@@ -51,4 +51,4 @@ Verschiedene Funktionen behandeln Werte mit geringem Traffic auf unterschiedlich
 * **Segmentierung:** Wenn die Segmentkriterien eine Variable mit einer hohen Anzahl eindeutiger Werte enthalten, werden unter „Geringer Datenverkehr“ erfasste Werte nicht berücksichtigt.
 * **Klassifizierungen:** Auch Klassifizierungsberichte unterliegen eindeutigen Beschränkungen. Wenn der Wert der übergeordneten Variablen einer Classification unter „Geringer Datenverkehr“ fällt, wird der Wert nicht klassifiziert.
    * Klassifizierungswerte mit geringem Traffic, die über den Importeur bezogen werden, können in der Data Warehouse angezeigt werden. <!-- AN-115871 -->
-   * Classification-Werte mit geringem Traffic, die über den Rule Builder abgerufen werden, *können nicht* in der Data Warehouse angezeigt werden. <!-- AN-122872 -->
+   * Classification-Werte mit geringem Traffic, die über den Rule Builder *erhalten wurden, können nicht in der Data Warehouse angezeigt werden. <!-- AN-122872 -->*
