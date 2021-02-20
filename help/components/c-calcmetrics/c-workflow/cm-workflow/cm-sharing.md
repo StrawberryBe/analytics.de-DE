@@ -4,6 +4,9 @@ title: Berechnete Metriken freigeben
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Wann sollten Metriken für das gesamte Unternehmen und wann nur für eine Benutz
 
 * Geben Sie als Administrator eine Metrik für **[!UICONTROL Alle]** frei, wenn sie für das gesamte Unternehmen von Nutzen ist und von jedem problemlos verwendet werden kann. In diesem Fall sollten Sie die Metrik eventuell auch genehmigen.
 * Geben Sie als Administrator eine Metrik für eine bestimmte **[!UICONTROL Gruppe]** frei, wenn die Metrik für das entsprechende Team einen Geschäftswert bietet.
-* Geben Sie als Administrator oder als einzelner Benutzer eine Metrik für andere einzelne Benutzer frei, um eine Metrik zu prüfen und zu validieren. Wenn sie sich als nicht nützlich erweist, kann sie verworfen werden. Führen Sie für diesen Metriktyp keine offizielle Genehmigung durch.
+* Geben Sie als Administrator oder als einzelner Benutzer eine Metrik für andere einzelne Benutzer frei, um eine Metrik zu prüfen und zu validieren. Wenn er sich als nicht nützlich erweist, kann er verworfen werden. Führen Sie für diesen Metriktyp keine offizielle Genehmigung durch.
 
 1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben der Metrik, die Sie freigeben möchten. Die Taskleiste wird angezeigt:
 
