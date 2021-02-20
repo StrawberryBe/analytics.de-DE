@@ -1,8 +1,11 @@
 ---
 title: Util.cookieRead
 description: Ruft den Wert aus einem Cookie ab.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
