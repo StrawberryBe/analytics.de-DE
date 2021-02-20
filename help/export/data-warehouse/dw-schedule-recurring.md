@@ -4,6 +4,9 @@ title: Planen einer wiederkehrenden Anforderung
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 100%
 
 ---
 
@@ -14,14 +17,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Möchten Sie tägliche/monatliche/jährliche Data Warehouse-Anfragen planen, stellen Sie sicher, dass die *Voreinstellungen *korrekt ausgewählt wurden.
 
-1. Wählen Sie [!UICONTROL Reporting Date]unter **[!UICONTROL Preset]**.
+1. Wählen Sie unter [!UICONTROL Berichtsdatum] die Option **[!UICONTROL Voreingestellt]** aus.
 
-1. Unter [!UICONTROL Schedule Delivery] klicken Sie auf **[!UICONTROL Advanced Delivery Options]**.
+1. Klicken Sie unter [!UICONTROL Bereitstellung planen] auf **[!UICONTROL Erweiterte Bereitstellungsoptionen]**.
 
-1. Gehen Sie zur Registerkarte Planungsoptionen und wählen Sie **[!UICONTROL Schedule for later]**.
-1. Wählen Sie die gewünschten Einstellungen für [!UICONTROL Delivery Frequency] und [!UICONTROL End Delivery Options].
+1. Navigieren Sie zur Registerkarte mit den Bereitstellungsoptionen und wählen Sie **[!UICONTROL Für später einplanen]**.
+1. Wählen Sie die passenden Einstellungen für [!UICONTROL Bereitstellungshäufigkeit] und [!UICONTROL Bereitstellungsoptionen beenden] aus.
 
    ![](assets/dw_schedule.png)
 
-1. Klicken Sie auf **[!UICONTROL Schedule]**.
+1. Klicken Sie auf **[!UICONTROL Zeitplan]**.
 
