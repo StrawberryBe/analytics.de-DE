@@ -4,10 +4,10 @@ keywords: eVar
 title: Konversionsvariablen (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1579'
+workflow-type: tm+mt
+source-wordcount: '1580'
 ht-degree: 100%
 
 ---
