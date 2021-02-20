@@ -1,14 +1,14 @@
 ---
 description: Wenn Sie Akamai-Hosting verwenden, testen Sie nicht veröffentlichte Regeln über Ihre Konsole.
-keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
+keywords: Dynamisches Tag-Management;Regel;Umschalter-Plugin;Akamai;Test-Akamai;unveröffentlichte Regeln;Nicht veröffentlichte Regeln testen;Debugging-Regel
 solution: Experience Cloud,Analytics,Target
 title: Testen unveröffentlichter Regeln für Akamai-Hosting
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 89%
 
 ---
 
