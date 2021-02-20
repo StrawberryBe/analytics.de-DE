@@ -426,7 +426,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) zu unterstützen.
 
 ## Version 1.1.1
 
