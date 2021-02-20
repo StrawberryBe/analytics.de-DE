@@ -3,11 +3,11 @@ description: Anleitung zum Einrichten einer sicheren Übertragung mit Adobe FTP-
 keywords: ftp;sftp
 title: Verbindung zu einem Adobe FTP-Konto mit SFTP herstellen
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 98%
 
 ---
 
