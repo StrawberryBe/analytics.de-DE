@@ -1,13 +1,13 @@
 ---
 description: Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
-keywords: segmentation;segments
+keywords: Segmentierung;Segmente
 title: Übergangsleitfaden für Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '829'
+workflow-type: tm+mt
+source-wordcount: '831'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Wenn Sie die Arbeit mit dem Segmentaufbau in Ad Hoc Analysis gewohnt sind, erfahren Sie in diesen häufig gestellten Fragen, was mit bestehenden Segmenten und Ordnern passiert und welche Aktionen von Ihrer Seite erforderlich sind.
 
-## Funktionen   {#section_BD58629D1A9346BF879E229FA6BEC7A2}
+## Funktionen    {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * Alle Segmente gelten nun für alle Report Suites. Bisher waren Segmente spezifisch für eine Report Suite.
 * Ad Hoc Analysis umfassen Aktualisierungen für den Segment Builder und ein vollständiges Update des Segment-Managers.
@@ -31,55 +31,55 @@ Die meisten bisherigen vordefinierten und Suite-Segmente werden als Segmentvorla
 
 Segmentvorlagen sind im Segmentaufbau durch ein spezielles Symbol gekennzeichnet.
 
-## Was ist mit meinen vorhandenen Segmentordnern passiert?   {#section_FB04DCF775694E69B761DCA53F301C30}
+## Was ist mit meinen vorhandenen Segmentordnern passiert?    {#section_FB04DCF775694E69B761DCA53F301C30}
 
 Anstelle der Ad-hoc-Analysenordner verwendet der Segment-Manager Tags. Ihre Ordnernamen werden automatisch zu Tags, die auf die jeweiligen Segmente angewendet werden.
 
-## Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?   {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?    {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 Terminierte Berichte werden weiterhin fehlerfrei mit den von Ihnen definierten Segmenten ausgeführt.
 
 Wenn Sie ein Segment löschen, funktionieren terminierte Berichte und Dashboards, auf die dieses Segment angewendet wird, weiter normal, d. h., das Segment bzw. das Dashboard verwendet weiterhin das gelöschte Segment.
 
-## Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer?   {#section_65BBE60A836C4001938830DDA15DC256}
+## Was ist ein Trefferbehälter? Unterscheidet er sich vom Seitenansichtscontainer?    {#section_65BBE60A836C4001938830DDA15DC256}
 
 Der Seitenansichts-Container wurde in Treffer-Container umbenannt, um anzuzeigen, dass dieser Container alle Datentypen segmentiert und nicht nur Seitenansichten. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffercontainer vollständig ein- oder ausgeschlossen.
 
 Beachten Sie, dass sich die Funktionsweise dieses Containers nicht geändert hat. Er wurde lediglich umbenannt.
 
-## Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?   {#section_648DFA3A882146C485A84ED014EEC707}
+## Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?    {#section_648DFA3A882146C485A84ED014EEC707}
 
 Alle Benutzer können persönliche Segmente erstellen und bearbeiten. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden. Benutzer von Ad Hoc Analysis können jeweils die erstellten und die direkt mit dem Benutzer geteilten Segmente sehen.
 
 In der Webkonsole „Einheitliche Segmentierung“ können Administratoren jedes Segment bearbeiten und Segmente mit Gruppen und allen Angehörigen der Organisation teilen.
 
-## Kann ich alle in meinem Unternehmen vorhandenen Segmente sehen?   {#section_AC2D328C7410419E80C7C17971CD95B3}
+## Kann ich alle in meinem Unternehmen vorhandenen Segmente sehen?    {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 Alle Ad-hoc-Analysen-Segmente, die Sie besitzen, sowie Segmente, die spezifisch mit Ihnen geteilt werden, werden angezeigt.
 
-## Kann ich alle Analytics-Segmente im Segment-Manager verwalten?   {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## Kann ich alle Analytics-Segmente im Segment-Manager verwalten?    {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Ad-hoc-Analysen zeigt lediglich von Ihnen erstellte Segmente oder Segmente, die spezifisch mit Ihnen geteilt wurden, an. Lediglich für Ad-hoc-Analysen können Sie den Segment-Manager (Segmente organisieren) verwenden, um Ad-hoc-Analysen-Segmente zu verwalten. Verwenden Sie den Segment-Manager in „Einheitliche Segmentierung“, um alle Analysen-Segmente zu verwalten.
 
-## Was mache ich mit doppelten Segmenten, die zwar denselben Namen, aber unterschiedliche Definitionen haben?   {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## Was mache ich mit doppelten Segmenten, die zwar denselben Namen, aber unterschiedliche Definitionen haben?    {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Wir empfehlen Folgendes:
 
 * Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
 * Löschen Sie Segmente, die Sie nicht mehr benötigen.
 
-## Welche Maßnahmen empfiehlt Adobe zum Aufräumen von Segmenten?   {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Welche Maßnahmen empfiehlt Adobe zum Aufräumen von Segmenten?    {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Markieren Sie alle alten Segmente mit einem Tag.
 * Überprüfen Sie all Ihre Segmente.
 * Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
 * Genehmigen Sie vorschriftsmäßige Segmente.
 
-## Warum kann ich dieses Segment nicht löschen?   {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## Warum kann ich dieses Segment nicht löschen?    {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 In der Experience Cloud veröffentlichte Segmente können nicht gelöscht oder bearbeitet werden. Sie können das Segment jedoch kopieren und die Kopie bearbeiten.
 
-## Weitere Informationen zu bestehenden Segmenten   {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Weitere Informationen zu bestehenden Segmenten    {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
