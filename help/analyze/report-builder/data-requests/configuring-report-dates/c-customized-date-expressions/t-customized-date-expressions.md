@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
 source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 29%
 
 ---
 
@@ -17,14 +20,14 @@ Es wird empfohlen, beim Erstellen von Ausdrücken auf einen Kalender zu verweise
 
 **So aktivieren Sie benutzerdefinierte Ausdrücke**
 
-Dies ist ein Beispiel für die Verwendung **[!UICONTROL Rolling Dates]**.
+Dies ist ein Beispiel für die Verwendung von **[!UICONTROL Rollierende Datumswerte]**.
 
-1. Wählen Sie im [!UICONTROL Request Wizard: Step 1]Menü statt **[!UICONTROL Preset Dates]** die Option **[!UICONTROL Rolling Dates]**.
+1. Klicken Sie im Anforderungs-Assistenten [!UICONTROL auf: Wählen Sie in Schritt 1] statt **[!UICONTROL Vordefinierte Datumswerte]** **[!UICONTROL Rollierende Datumswerte]**.
 
    ![](assets/rolldates1.png)
 
 1. Wechseln Sie zu Rollierend wöchentlich, monatlich, vierteljährlich oder jährlich. Beachten Sie, wie sich die Optionen unten ändern.
-1. Klicken Sie für weitere Anpassungsoptionen auf **[!UICONTROL Show Advanced Options]**.
+1. Klicken Sie für weitere Anpassungsoptionen auf **[!UICONTROL Erweiterte Optionen anzeigen]**.
 
    ![](assets/rolldates2.png)
 
@@ -32,8 +35,8 @@ Dies ist ein Beispiel für die Verwendung **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Aktivieren **[!UICONTROL Customize Expression]**. Durch Auswahl der Optionen unter **[!UICONTROL Rolling Dates]** können Sie die Syntax für benutzerdefinierte Ausdruck leicht erkennen.
+1. Aktivieren Sie **[!UICONTROL Ausdruck]** anpassen. Durch Auswahl der Optionen unter **[!UICONTROL Rollierende Datumswerte]** können Sie die Syntax für benutzerdefinierte Ausdruck leicht erkennen.
 
    ![](assets/rolldatesfor5.png)
 
-   Sie können erweiterte Optionen verwenden, um benutzerdefinierte Ausdruck zu kombinieren und zuzuordnen. Wenn Sie z. B. Daten vom ersten Jahr bis zum Ende des letzten vollen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy``To: cm-1d`. Im Assistenten werden diese Daten als 1/1/2020-1/31/2020 angezeigt.
+   Sie können erweiterte Optionen verwenden, um benutzerdefinierte Ausdruck zu kombinieren und zuzuordnen. Wenn Sie z. B. Daten vom ersten Jahr bis zum Ende des letzten vollen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy` `To: cm-1d` Im Assistenten werden diese Daten als 1/1/2020-1/31/2020 angezeigt.
