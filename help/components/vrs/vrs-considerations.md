@@ -1,14 +1,14 @@
 ---
 description: Virtual Report Suites und Multisuite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
-keywords: Virtual Report Suite,VRS
+keywords: Virtual Report Suite, VRS
 title: Virtual Report Suites und Multisuite-Tagging
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '1735'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1739'
+ht-degree: 99%
 
 ---
 
