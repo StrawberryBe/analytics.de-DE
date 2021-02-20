@@ -1,9 +1,9 @@
 ---
 title: Klassifizierungen in Marketing-Kanälen
 description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
