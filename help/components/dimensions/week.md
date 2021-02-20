@@ -22,4 +22,4 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 In Analysis Workspace beinhalten Dimensionselemente das Datum (Monat, Tag und Jahr) des ersten Wochentags.
 
-In der Data Warehouse enthalten Dimensionselemente nummerierte Wochen, die auf dem Datumsbereich der Anforderung basieren. Die erste volle Woche ist zum Beispiel `"Week 1"`die. Wenn eine Anforderung eine Teilwoche enthält, werden die Daten in das Dimensionselement gruppiert `"Week 0"`.
+In der Data Warehouse enthalten Dimensionselemente nummerierte Wochen, die auf dem Datumsbereich der Anforderung basieren. Die erste volle Woche ist beispielsweise `"Week 1"`. Wenn eine Anforderung eine Teilwoche enthält, werden die Daten in das Dimensionselement `"Week 0"` gruppiert.
