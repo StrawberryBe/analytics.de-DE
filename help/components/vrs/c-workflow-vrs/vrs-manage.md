@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites verwalten
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '457'
+workflow-type: tm+mt
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
