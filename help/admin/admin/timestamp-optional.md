@@ -3,9 +3,9 @@ description: Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer
 title: Zeitstempel optional
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
    * **Zeitstempel erforderlich** (Einstellung „s.visitorID“ wird nicht unterstützt)
    * **Zeitstempel optional** (Einstellung „s.visitorID“ wird unterstützt, aber nicht für Zeitstempeltreffer)
 
-## Änderung vorhandener Report Suites in „Zeitstempel optional“  {#section_40BCD3B4639241DEA716F7640ED33E72}
+## Änderung vorhandener Report Suites in „Zeitstempel optional“   {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. Wechseln Sie zu **Admin > Report Suites > Einstellungen bearbeiten > Allgemein > Zeitstempelkonfiguration**.
 1. Aktivieren Sie **Ausgewählte Report Suites in „Zeitstempel optional“ konvertieren**.
