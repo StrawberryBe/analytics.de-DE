@@ -2,9 +2,9 @@
 description: Details zur Analysis Workspace-Vorlage sowie zum Reporting in Reports & Analytics und Report Builder.
 title: Berichte zu Werbedaten in Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
