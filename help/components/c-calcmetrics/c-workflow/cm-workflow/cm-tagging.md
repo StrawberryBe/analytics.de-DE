@@ -4,6 +4,9 @@ title: Berechnete Metriken taggen
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder meh
 * Auf **Teamnamen** basierende Tags wie Social Marketing, Mobile Marketing.
 * **Projekt**-Tags (Analyse-Tags) wie Entrypage-Analyse.
 * **Kategorie**-Tags: Männer, Region.
-* **Arbeitsablauf**-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich)
+* **Workflow**-Tags: Genehmigung ausstehend, kuratiert für (einen bestimmten Geschäftsbereich).
 
 1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben der Metrik, die Sie taggen möchten. Die Werkzeugleiste für die Verwaltung wird angezeigt:
 1. Klicken Sie auf **[!UICONTROL Taggen]** und
