@@ -1,9 +1,9 @@
 ---
 title: Verarbeitungszeit von Classification Importer
 description: Verstehen Sie den Zeitrahmen, in dem Adobe Classification-Dateien verarbeitet, und wie Sie die Verarbeitungszeit minimieren.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 
