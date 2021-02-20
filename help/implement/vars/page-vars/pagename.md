@@ -12,13 +12,13 @@ ht-degree: 81%
 
 # pageName
 
-Die `pageName`-Variable speichert normalerweise den Namen einer bestimmten Seite. Es ist hilfreich, zu bestimmen, welche einzelnen Seiten am beliebtesten sind. This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+Die `pageName`-Variable speichert normalerweise den Namen einer bestimmten Seite. Es ist hilfreich, zu bestimmen, welche einzelnen Seiten am beliebtesten sind. Diese Variable füllt die Dimension [Seite](/help/components/dimensions/page.md).
 
 Wenn diese Variable bei einem gegebenen Seiten-Tracking-Aufruf nicht definiert ist, wird stattdessen die [`pageURL`](pageurl.md)-Variable verwendet.
 
 >[!NOTE]
 >
->Datenerfassungsserver der Adobe entfernen diese Dimension aus allen Bildanforderungen zur [Linktracking](/help/implement/vars/functions/tl-method.md) . Wenn diese Dimension bei Linktracking-Treffern angezeigt werden soll, kopieren Sie diese Dimension in eine [eVar](evar.md).
+>Datenerfassungsserver der Adobe entfernen diese Dimension aus allen [Linktracking](/help/implement/vars/functions/tl-method.md)-Bildanforderungen. Wenn diese Dimension bei Linktracking-Treffern angezeigt werden soll, kopieren Sie diese Dimension in ein [eVar](evar.md).
 
 ## Seitenname in Adobe Experience Platform Launch
 
@@ -45,7 +45,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-Bei Verwendung der `digitalData` Datenschicht [](../../prepare/data-layer.md):
+Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;
