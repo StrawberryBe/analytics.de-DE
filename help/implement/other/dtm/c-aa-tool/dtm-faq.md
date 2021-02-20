@@ -1,14 +1,14 @@
 ---
 description: Häufig gestellte Fragen zur automatischen Konfiguration der Adobe Analytics-Implementierung. Bei der automatischen Konfigurationsmethode wird der AppMeasurement-Code für Sie verwaltet.
-keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
+keywords: Dynamisches Tag-Management;Plug-Ins;Staging;Auswirkungen auf aktuelle Einstellungen;Revisionsverlauf;potenzielle Fallstricke;Report Suite-ID;Währungscode;Trackingserver;ssl-Trackingserver;benutzerdefinierter Code;Bibliotheksverwaltung
 solution: Experience Cloud,Analytics,Target
 title: Häufig gestellte Fragen zum Adobe Analytics-Tool
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 93%
 
 ---
 
