@@ -4,6 +4,9 @@ title: Ausführen des Data Connectors-Integrationsassistenten
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ Konfigurieren der Integration:
    <td colname="col3"> <p>Geben Sie den Integrationsnamen an, den Data Connectors in „Aktive Integrationsliste“ der Report Suite anzeigt. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Integrations-E-Mail-Adresse </p> </td> 
    <td colname="col3"> <p>Geben Sie die E-Mail-Adresse an, an die alle Benachrichtigungen zu dieser Integration gesendet werden, und klicken Sie dann auf <b>Weiter</b>, um mit Schritt 2 des Assistenten fortzufahren. </p> </td> 
   </tr> 
@@ -59,12 +62,12 @@ Konfigurieren der Integration:
    <td colname="col3"> <p>Identifizieren Sie die Analytics-eVar, die zur Verfolgung der E-Mail-Nachrichten-ID verwendet wird. </p> <p>Die Nachrichten-ID wird für Marketing-/Remarketing-Kampagnen verwendet. Die Nachrichten-ID wird häufig als „Trackingcode“ bezeichnet. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Empfänger-ID </p> </td> 
    <td colname="col3"> <p>Identifizieren Sie die Analytics-eVar, die zur Verfolgung der E-Mail-Empfänger-ID verwendet wird. </p> <p>Die Empfänger-ID wird für Marketing-/Remarketing-Kampagnen verwendet. Die Nachrichten-ID wird häufig als „Besuchercode“ bezeichnet. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Kontrollkästchen für die Annahme </p> </td> 
    <td colname="col3"> <p>Überprüfen Sie die Informationen, die neben dem Kontrollkästchen „Annahme“ angezeigt werden: </p> <p><i>Ich bestätige, dass durch Aktivierung der „Empfänger-ID“-Verfolgung persönlich identifizierbare Angaben zu unseren Site-Besuchern verfolgt werden können. Daraus ergeben sich Datenschutzsachverhalte, die die Implementierung angemessener Vorgehensweisen seitens meiner Organisation erfordern, so z. B. die rechtzeitige Inkenntnissetzung und das Einverständnis der Site-Besucher. </i> </p> <p>Wenn Sie der Annahmeerklärung zustimmen, aktivieren Sie das Kontrollkästchen und klicken Sie dann auf <b>Weiter</b>, um mit Schritt 4 des Assistenten fortzufahren. </p> </td> 
   </tr> 
