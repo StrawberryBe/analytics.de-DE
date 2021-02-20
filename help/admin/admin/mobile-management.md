@@ -2,9 +2,9 @@
 description: Durch die Aktivierung der App-Verwaltung aktivieren Sie die mobilen Lösungsvariablen, die Lebenszyklusmetriken und andere Metriken aus Mobile Apps.
 title: App-Verwaltung
 topic: Admin tools
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 | Launch-Nummer | Gibt an, wie oft die App gestartet bzw. aus dem Hintergrund gebracht wurde. |
 | Tage seit der ersten Verwendung | Anzahl der Tage seit dem ersten Ausführen. |
 | Tage seit der letzten Verwendung | Anzahl der Tage seit der letzten Verwendung. |
-| Stunde des Tages | Misst, zu welcher Stunde die Anwendung gestartet wurde; es wird ein 24-Stunden-Format genutzt. Wird für die Zeitaufteilung verwendet, um Spitzennutzungszeiten zu ermitteln. |
+| Stunde des Tages | Uhrzeit, zu der die App gestartet wurde, im 24-Stunden-Format. Wird für die Zeitunterteilung verwendet, um Spitzennutzungszeiten zu ermitteln. |
 | Wochentag | Nummer des Wochentags, an dem die App gestartet wurde. |
 | Gerätename | Speichert den Gerätenamen.  Zweistellige, kommagetrennte Zeichenfolge, die das Gerät angibt. Die erste Ziffer steht üblicherweise für die Gerätegeneration, die zweite weist die Version der verschiedenen Mitglieder der Gerätefamilie aus. |
 | Betriebssystemversion | Betriebssystemversion. |
