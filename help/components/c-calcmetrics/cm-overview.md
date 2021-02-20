@@ -1,12 +1,12 @@
 ---
 description: Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metriken
 title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
 source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Hier sehen Sie einen Vergleich zwischen den jeweiligen Möglichkeiten, die berec
 | [Allgemeine Funktionen (Zählen, Anzeigenwert, Mittel etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Nein | Ja |
 | [Erweiterte Funktionen (Regression, Wenn-Dann, T-Transformation etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Nein | Ja |
 
-## Funktionen  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## Funktionen   {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 Sie können
 
