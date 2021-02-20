@@ -7,8 +7,8 @@ uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -52,4 +52,4 @@ Für die Implementierung von Classification-Regeln gelten die nachfolgenden allg
 
 **Blog**: Weitere Informationen zu dieser Funktion finden Sie im Digital Marketing Blog: [Regelbasierte Klassifizierungen](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: Ansicht des Videos Übersicht über [Klassifizierungen](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) .
+**Video**: Ansicht des Videos  [&quot;](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) Übersicht über Klassifizierungen&quot;.
