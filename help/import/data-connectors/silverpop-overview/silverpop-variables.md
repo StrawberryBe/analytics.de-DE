@@ -4,6 +4,9 @@ title: Analytics-Integrationsvariablen
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ In der folgenden Tabelle sind die für die Silverpop-Integration benötigten Ana
 
 ## Erforderliche Variablen {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-| Variablentyp | Name | Methode zum Ausfüllen | Beschreibung |
+| Variablentyp | Name | Erfassungsmethode | Beschreibung |
 |---|---|---|---|
 | event (numerisch) | Absprünge | Automatisch aus Silverpop importiert. | Das Ereignis „Absprünge“ zeigt die Anzahl der E-Mail-Nachrichten an, die aufgrund eines Bereitstellungsproblems nicht an Empfänger gesendet wurden. |
 | event (numerisch) | Klicks | Automatisch aus Silverpop importiert. | Das angeklickte Ereignis zeigt die Anzahl der Besucher an, die auf die E-Mail-Nachricht geklickt haben. |
@@ -30,7 +33,7 @@ In der folgenden Tabelle sind die für die Silverpop-Integration benötigten Ana
 
 ## Optionale Variablen {#section-5f0a32b0a2084c87a64b5f90c0d0fb53}
 
-| Variablentyp | Name | Methode zum Ausfüllen | Beschreibung |
+| Variablentyp | Name | Erfassungsmethode | Beschreibung |
 |---|---|---|---|
 | event (Zähler) | Datei heruntergeladen | Manuelle Erfassung über Analytics-Tags. | Dieses Ereignis wird zur Identifizierung von Benutzern verwendet, die eine Datei auf der Site heruntergeladen haben. |
 | event (Zähler) | Formulare gestartet | Manuelle Erfassung über Analytics-Tags. | Mit „Formulare gestartet“ werden Benutzer identifiziert, die ein Formular beginnen, es aber nicht ausfüllen. |
