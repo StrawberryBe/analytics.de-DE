@@ -89,7 +89,7 @@ Wenn die Tabelle zusätzlich zur Karte gewünscht wird:
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Länder** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
+Weitere Informationen finden Sie in den Dimensionen [Länder](/help/components/dimensions/countries.md) im Komponenten-Benutzerhandbuch.
 
 ## Verhalten – Neu und wiederkehrend
 
@@ -161,7 +161,7 @@ Der Übersichtsbericht für Mobilgeräte entspricht ungefähr der Dimension **Mo
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Mobilgerätetyp** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie in der Dimension [Mobilgerätetyp](/help/components/dimensions/mobile-dimensions.md) im Komponenten-Benutzerhandbuch.
 
 ## Mobil – Geräte
 
@@ -170,7 +170,7 @@ Der Mobilgerätebericht entspricht ungefähr der Dimension **Mobilgerät**.
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Mobilgerät** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+Weitere Informationen finden Sie in der Dimension [Mobilgerät](/help/components/dimensions/mobile-dimensions.md) im Komponenten-Benutzerhandbuch.
 
 ## Benutzerspezifisch
 
@@ -185,6 +185,6 @@ Mithilfe von Benchmarking-Berichten können Sie sehen, wie die verschiedenen Fac
 Der Flussbericht ist auf beiden Plattformen verfügbar. So erstellen Sie einen Flussbericht:
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle.
-2. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb gefärbt.
+2. Suchen Sie die Dimension **Seiten** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionen sind gelb gefärbt.
 3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den mittigen Bereich namens „Dimension oder Element“.
 4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
