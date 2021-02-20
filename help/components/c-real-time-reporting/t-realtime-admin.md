@@ -3,9 +3,9 @@ description: Administrative Schritte zum Einrichten von Echtzeitberichten.
 title: Echtzeitberichte konfigurieren
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 
