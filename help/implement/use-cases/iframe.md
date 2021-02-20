@@ -14,7 +14,7 @@ ht-degree: 6%
 
 Sie können AppMeasurement-Variablen sowohl von untergeordneten als auch von übergeordneten iframes referenzieren. Es ist erforderlich, alle Variablen am selben Speicherort zu definieren, an dem sich die AppMeasurement-Bibliothek befindet. In den folgenden Beispielen wird erläutert, wie Sie grundlegende AppMeasurement-Variablen und -Methoden innerhalb und außerhalb eines iFrames festlegen.
 
-Wenn Sie Adobe Experience Platform Launch verwenden, stellen Sie sicher, dass das Trackerobjekt global verfügbar ist. Siehe [Adobe Analytics Extension-Übersicht](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) im Benutzerhandbuch zum Starten.
+Wenn Sie Adobe Experience Platform Launch verwenden, stellen Sie sicher, dass das Trackerobjekt global verfügbar ist. Siehe [Übersicht über die Adobe Analytics-Erweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) im Benutzerhandbuch zum Starten.
 
 >!![CAUTION]
 Vermeiden Sie, AppMeasurement-Bibliotheken sowohl auf einer übergeordneten Seite als auch auf einem iframe zu verwenden. Dadurch entstehen Risiken beim Senden mehrerer Bildanforderungen, wodurch die Anzahl der Berichte steigt und die Anzahl der gebührenpflichtigen Serveraufrufe steigt.
@@ -35,7 +35,7 @@ window.frames[0].contentWindow.s.t();
 
 ## Zugriff auf AppMeasurement von innerhalb eines iframe
 
-Sie können von einem iframe aus auf AppMeasurement-Variablen auf einer übergeordneten Seite zugreifen. In diesem Beispiel wird [pageName](../vars/page-vars/pagename.md) festgelegt und die [t()-Methode](../vars/functions/t-method.md) mit der [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp) Eigenschaft aufgerufen.
+Sie können von einem iframe aus auf AppMeasurement-Variablen auf einer übergeordneten Seite zugreifen. In diesem Beispiel wird [pageName](../vars/page-vars/pagename.md) festgelegt und die [t()-Methode](../vars/functions/t-method.md) mit der [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp)-Eigenschaft aufgerufen.
 
 ```js
 // Reference AppMeasurement code on a parent page from within an iframe and send an image request
@@ -43,9 +43,9 @@ parent.s.pageName = "Page Name on Hosted Window";
 parent.s.t();
 ```
 
-## Verwenden `postMessage` und Ereignis-Listener
+## Verwenden Sie `postMessage`- und Ereignis-Listener
 
-Alternativ können Sie Variablen mit `postMessage` und mit Ereignis-Listenern festlegen. Für diese Methode ist kein direkter Verweis auf einen iframe erforderlich.
+Alternativ können Sie Variablen mit `postMessage`- und Ereignis-Listenern festlegen. Für diese Methode ist kein direkter Verweis auf einen iframe erforderlich.
 
 ```js
 // Place this code in your parent window
@@ -64,6 +64,6 @@ window.top.postMessage("Example page view call","https://example.com");
 ## Einschränkungen
 
 * Wie bei anderen JavaScript-Codes können iframes nur dann kommunizieren, wenn Domänen und Protokolle übereinstimmen. Diese Beispiele funktionieren nicht, wenn sich der iframe-Inhalt in einer anderen Domäne als die übergeordnete Domäne befindet.
-* Wenn sich AppMeasurement in einem iframe befindet, wird die [`referrer`](../vars/page-vars/referrer.md) Variable auf die übergeordnete URL und nicht auf die tatsächliche verweisende URL eingestellt. Sie können die `referrer` Variable manuell einstellen, um dieses Problem zu beheben.
-* Der [Adobe Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) erkennt keine Bildanforderungen, die innerhalb von iframes ausgelöst werden.
+* Wenn sich AppMeasurement in einem iframe befindet, wird die Variable [`referrer`](../vars/page-vars/referrer.md) auf die übergeordnete URL und nicht auf die tatsächliche verweisende URL eingestellt. Sie können die Variable `referrer` manuell festlegen, um dieses Problem zu beheben.
+* Der [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de-DE) erkennt keine Bildanforderungen, die innerhalb von iframes ausgelöst werden.
 * Activity Map zeigt die Heatmap nicht über Links an, die innerhalb von iframes angeklickt wurden. Stattdessen wird der gesamte iframe hervorgehoben.
