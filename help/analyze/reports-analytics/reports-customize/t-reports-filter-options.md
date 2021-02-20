@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Mit Filtern können Sie den Bericht eingrenzen und Einzelelemente, die mit einem Filter übereinstimmen, ein- oder ausschließen.
 
-## Einfacher Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Einfacher Filter  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
