@@ -2,9 +2,9 @@
 description: „Berichtszeitverarbeitung“ ist eine virtuelle Report Suite-Einstellung zur zerstörungsfreien, rückwirkenden Verarbeitung von Daten.
 title: Berichtszeitverarbeitung
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 100%
 
