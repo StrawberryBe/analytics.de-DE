@@ -53,7 +53,7 @@ Die **Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weit
 
    Weitere Informationen zu [berechneten Metriken](/help/components/c-calcmetrics/cm-overview.md) finden Sie im Benutzerhandbuch zu Komponenten.
 
-**Durchschnittl. Sitzungsdauer** entspricht ungefähr der **Zeit pro Besuch (Sekunden)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+**Durchschnittl. Sitzungsdauer** entspricht ungefähr der **Zeit pro Besuch (Sekunden)**. Weitere Informationen zu den Metriken [Besuchszeit pro Besuch](/help/components/metrics/time-spent-per-visit.md) finden Sie im Komponenten-Benutzerhandbuch.
 
 ## Konversionsmetriken
 
