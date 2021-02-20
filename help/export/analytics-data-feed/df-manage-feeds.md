@@ -3,6 +3,9 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Gehen Sie wie folgt vor, um auf das Daten-Feed-Management zuzugreifen:
 
 1. Melden Sie sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
 2. Klicken Sie oben rechts auf das 9-Raster-Menü und dann auf [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. Klicken Sie im oberen Menü auf [!UICONTROL Admin] > [!UICONTROL Daten-Feeds].
 
 ![Daten-Feed-Menü](assets/AdminMenu.png)
 
@@ -25,7 +28,7 @@ Wenn Sie zur Seite „Daten-Feed-Manager“ gelangen, sieht die Oberfläche wie 
 
 ![Datenfeeds](assets/feeds.png)
 
-Wenn keine Feeds eingerichtet wurden, wird auf der Seite eine [!UICONTROL Create New Data Feed] Schaltfläche angezeigt.
+Wenn keine Feeds eingerichtet wurden, wird auf der Seite die Schaltfläche [!UICONTROL Neuen Daten-Feed erstellen] angezeigt.
 
 ### Filter und Suche
 
@@ -45,7 +48,7 @@ Klicken Sie auf die Registerkarte „Aufträge“, um einzelne Aufträge anzuzei
 
 ### Fügen Sie
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. Weitere Informationen finden Sie unter [Hinzufügen eines Feeds](create-feed.md).
+Klicken Sie in der Nähe der Registerkarten „Feeds“ und „Aufträge“ auf die Schaltfläche + [!UICONTROL Hinzufügen], um einen neuen Feed zu erstellen. Weitere Informationen finden Sie unter [Hinzufügen eines Feeds](create-feed.md).
 
 ### Spalten
 
@@ -78,7 +81,7 @@ Jeder erstellte Feed zeigt mehrere Spalten mit Informationen an. Klicken Sie auf
 Aktivieren Sie das Kontrollkästchen neben einem Daten-Feed, um verfügbare Aktionen anzuzeigen.
 
 * **Auftragsverlauf**: Zeigen Sie alle Aufträge an, die mit diesem Daten-Feed verknüpft sind. Leitet Sie automatisch zur [Oberfläche für die Verwaltung von Aufträgen](df-manage-jobs.md) weiter.
-* **Löschen**: Löscht den Datenfeed und stellt dessen Status auf [!UICONTROL Deleted].
+* **Löschen**: Löscht den Daten-Feed und ändert dessen Status zu [!UICONTROL Gelöscht].
 * **Kopieren**: Ermöglicht die [Erstellung eines neuen Feeds](create-feed.md) mit allen Einstellungen des aktuellen Feeds. Ein Daten-Feed kann nicht kopiert werden, wenn mehrere Feeds ausgewählt sind.
-* **Anhalten**: Beendet die Verarbeitung für den Feed und legt dessen Status auf [!UICONTROL Inactive].
+* **Anhalten**: Beendet die Verarbeitung für den Feed und setzt dessen Status auf [!UICONTROL Inaktiv].
 * **Aktivieren**: Nur für inaktive Feeds verfügbar. Ruft die Verarbeitungsdaten an der Stelle ab, an der aufgehört wurde, und füllt ggf. alle Daten rückwirkend auf.
