@@ -5,6 +5,9 @@ topic: Report builder
 uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 100%
 
 ---
 
@@ -13,6 +16,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Schritte zur Auswahl des Basisberichtstyps für Ihre Datenanforderung
 
-1. Navigieren Sie zum [!UICONTROL Request Wizard: Step 1] Fenster.
-1. Select a report suite from the **[!UICONTROL Report Suite]** menu.
+1. Navigieren Sie zum Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1].
+1. Wählen Sie eine Report Suite aus dem Menü **[!UICONTROL Report Suite]** aus.
 1. Wählen Sie den Basisberichtstypen für Ihre Datenanforderung aus.
