@@ -7,7 +7,7 @@ uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Diese IDs stellen einen gemeinsamen Schlüssel für Genesis und DFA dar, um die 
 
 Die anderen Classifications, das Bereitstellungswerkzeug (DoubleClick for Advertisers) und der Kanal (Banneranzeige) weisen für jede DFA-Kampagne dieselben Werte auf und tragen so zur Erkennung der importierten DFA-Daten bei.
 
-## SearchCenter-Deduplizierung  {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
+## SearchCenter-Deduplizierung   {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
 Die DFA-Integration unterstützt nun Adobe SearchCenter. Wenn Sie die SearchCenter-Deduplizierung über den Data Connectors-Assistenten aktivieren, sorgen Besucher-Suchvorgänge nicht dafür, dass Daten vom DFA Floodlight-Server abgerufen werden. Zudem wird *`s.campaign`* nicht von DFA ausgefüllt, sodass SearchCenter diese ausfüllen kann. Außerdem werden die Variablen für jedes Produkt nun von DFA und SearchCenter durch Deduplizierungswerte ersetzt.
 
