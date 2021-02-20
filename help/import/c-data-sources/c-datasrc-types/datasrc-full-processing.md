@@ -45,12 +45,12 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>Kampagne </p> </td> 
    <td colname="col3"> <p>Konversion-Kampagnen-Trackingcode. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>Kanal </p> </td> 
    <td colname="col3"> <p>Kanal-Zeichenfolge (z. B. Sportabteilung). </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>Ereignisse </p> </td> 
    <td colname="col3"> <p>Ereigniszeichenfolge, mit derselben Syntax für die Variable <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> formatiert. </p> <p>Beispiel: </p> 
     <code>
       scAdd,event1,event7 
@@ -119,7 +119,7 @@ Beispiel: Ein Benutzer mit der Besucher-ID `"user@example.com"` besucht Ihre Sit
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). Kann maximal 4096 Byte pro Zeile enthalten.</p> </td> 
+   <td colname="col3"> <p>Liste des Produkts (z. B. <code> "Sports;Ball;1;5.95"</code>). Kann maximal 4096 Byte pro Zeile enthalten.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 – prop75 </p> </td> 
