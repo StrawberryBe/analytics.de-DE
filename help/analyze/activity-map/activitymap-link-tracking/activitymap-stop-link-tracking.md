@@ -3,9 +3,9 @@ description: Hier werden die Schritte zum Anhalten der Linktracking-Funktion in 
 title: Linktracking beenden
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Hier werden die Schritte zum Anhalten der Linktracking-Funktion in Activity Map 
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Entfernen Sie den folgenden Inhalt aus der Datei Appmeasurement.js: 
-     
+      
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
