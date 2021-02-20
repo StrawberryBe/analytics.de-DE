@@ -7,7 +7,7 @@ uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Wenn Sie überprüft haben, dass die Anmeldedaten gültig sind, stellen Sie sicher, dass der für die Integration bereitgestellte Benutzername für den API-Zugriff aktiviert ist. Der Data Connectors-Assistent verwendet die DFA-API zur Validierung der Anmeldedaten sowie zum Aktivieren und Deaktivieren der Adobe-spezifischen Einstellungen in der DFA-API. Der API-Zugriff ist eine Funktion, die ein Administrator in der DFA-Oberfläche aktivieren muss. Stellen Sie als Nächstes sicher, dass Sie Zugriff auf die im Assistenten ausgewählte Advertiser- oder Floodlight-Konfigurations-ID haben.
 
-## Warum werden mir keine Daten aus den nächtlich hochgeladenen Metriken (DFA-Impressionen, DFA-Klicks usw.) angezeigt?  {#section-465fd22ae6b447ffb6baf20b57daa433}
+## Warum werden mir keine Daten aus den nächtlich hochgeladenen Metriken (DFA-Impressionen, DFA-Klicks usw.) angezeigt?   {#section-465fd22ae6b447ffb6baf20b57daa433}
 
 Bei Version 1.5 der Integration kann das daran liegen, dass Ihre Integration noch keiner Client-Site-ID zugewiesen wurde. Für den nächtlichen Austausch sowie zum Abfragen von Daten vom DFA-Anzeigenserver ist eine Client-Site-ID (CSID) erforderlich. Es kann ab dem Datum der Integration bis zu drei Tage dauern, bis CSIDs mit Google ausgetauscht werden. Sobald die CSID bei Google eingegangen ist, erhalten Sie unter der E-Mail-Adresse der Integration die neue CSID sowie den aktuellen JavaScript-Code.
 
@@ -31,11 +31,11 @@ Beispiel: Es gibt eine Integration in Report Suite A mit der Advertiser-ID Z, 
 >
 >Bei Version 2.0 der Integration werden keine CSIDs verwendet. Daher ist diese Übertragung von CSIDs nicht erforderlich.
 
-## Ich verwende Version 2.0 der Integration und ich sehe keine Kostenmetriken für meine DFA-Anzeigen. Woran kann das liegen?  {#section-805748111bbe4bbf918d6dbbb2641fff}
+## Ich verwende Version 2.0 der Integration und ich sehe keine Kostenmetriken für meine DFA-Anzeigen. Woran kann das liegen?   {#section-805748111bbe4bbf918d6dbbb2641fff}
 
 Kostenmetriken müssen sowohl bei Google-DFA und im Data Connectors-Assistenten aktiviert sein als auch über die DFA-Oberfläche bereitgestellt werden. Zuerst sollten Sie überprüfen, ob Sie DFA-Medienkosten ein Analytics-Ereignis zugewiesen und einen Währungscode angegeben haben. Wenn Sie das Medienkostenereignis zugeordnet sowie den Assistenten abgeschlossen und gespeichert haben, wird das DFA-omnitureCostData-Flag in der DFA-API aktiviert. Dadurch erhält Google die Information, dass die Metriken mit der nächtlichen Dateisendung übertragen werden sollen. Versichern Sie sich auch mithilfe der DFA-Oberfläche, dass omnitureCostData aktiviert ist, indem Sie sich die Eigenschaften im integrierten Floodlight ansehen. Überprüfen Sie abschließend, dass in den Anzeigen, die Teil des integrierten Floodlights sind, Kostendaten und -zusammensetzungen angegeben sind. Werden Kostendaten in der DFA-Oberfläche nicht bereitgestellt, erscheinen sie auch nicht in Analytics.
 
-## Warum werden bei bestimmten Anzeigen keine DFA-Impressionen oder Durchsichten angezeigt, Klicks und Clickthroughs aber schon?  {#section-39b2eeeefd7f43d1a373df0b987bacef}
+## Warum werden bei bestimmten Anzeigen keine DFA-Impressionen oder Durchsichten angezeigt, Klicks und Clickthroughs aber schon?   {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
 Manche Anzeigen erfassen nur Klickdaten und werden daher Klicktracker genannt. Bei diesen Anzeigen werden keine Daten zur letzten Impression bei Abfrage des Floodlight-Servers zurückgegeben. Sie können überprüfen, ob es sich bei einer Anzeige um einen Klicktracker oder eine reine Klickanzeige handelt, indem Sie sich an Ihre DFA-Agentur oder Ihren Ansprechpartner bei der Google-Hilfe wenden.
 
