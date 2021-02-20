@@ -1,9 +1,9 @@
 ---
 title: Systemanforderungen
 description: Die Systemanforderungen für die Verwendung von Adobe Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 
