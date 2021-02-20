@@ -26,7 +26,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
 >
 >Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
 
-## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
+## Definitionen  {#section_FD29D8614DE74F32A0027FA130F40304}
 
 <table id="table_0880204181074BDBBA37E3DF2972A672"> 
  <thead> 
