@@ -1,9 +1,9 @@
 ---
 title: Checkouts
 description: Die Anzahl der Treffer, bei denen ein Besucher den Checkout-Prozess gestartet hat.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
 
