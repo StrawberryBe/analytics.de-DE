@@ -3,9 +3,9 @@ description: Beschreibt, wie Berechtigungen festgelegt werden und welche Abmessu
 title: Activity Map – Berichterstattung in Analytics
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
