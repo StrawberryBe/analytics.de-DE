@@ -1,16 +1,16 @@
 ---
 title: campaign
 description: Füllen Sie die Dimension „Trackingcode“.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
 
 
-# campaign
+# Kampagne
 
 Die `campaign`-Variable dient der Erfassung von Trackingcodes auf Ihrer Website. In früheren Versionen von Adobe Analytics gab es eine Sonderbehandlung, bei der sie als Aufschlüsselung in die meisten Dimensionen verwendet werden konnte. In der aktuellen Version von Adobe Analytics ist sie mit einer eVar identisch.
 
