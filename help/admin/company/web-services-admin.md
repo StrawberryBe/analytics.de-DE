@@ -3,8 +3,11 @@ description: Die Web Services APIs bieten Programmierungszugriff auf Marketing-B
 title: Web-Services
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
