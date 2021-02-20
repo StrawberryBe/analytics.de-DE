@@ -24,9 +24,9 @@ Mit Platzhaltern (*) können Sie einen ganzen Adressenbereich ausschließen. Zum
 
 >[!TIP]
 >
->Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen erreichen Datenerfassungsserver der Adobe. Zu den privaten Adressen gehören `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`und `169.254.*.*`.
+>Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen erreichen Datenerfassungsserver der Adobe. Zu den privaten Adressen gehören `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` und `169.254.*.*`.
 
-## Auswirkung der IP-Verschleierung  {#section_51B7529FFF16449CA016FDC51D87E2CA}
+## Auswirkung der IP-Verschleierung   {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
 Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie die IP-Verschleierung aktivieren.
 
