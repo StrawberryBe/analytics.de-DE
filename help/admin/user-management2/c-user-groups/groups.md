@@ -90,7 +90,7 @@ Beschreibung der Elemente auf der Seite „Benutzergruppe definieren“.
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_B573C170710545F0BF5CC3675A8F7ECA"> 
-      <li id="li_238BA42873E24953A0D73443F36BD7C8">Benutzerspezifisch </li> 
+      <li id="li_238BA42873E24953A0D73443F36BD7C8">Anpassen </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p>Die Gruppenmitglieder können auf einen Teil der Berichte in der Berichtsgruppe zugreifen. Durch Klicken auf <span class="uicontrol">Anpassen</span> können Sie eine Seite öffnen, auf der Sie die Berichte aus der Berichtsgruppe, auf die die Gruppenmitglieder zugreifen können, auswählen können. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
