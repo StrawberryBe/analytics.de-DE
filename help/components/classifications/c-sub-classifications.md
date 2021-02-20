@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Informationen über Unterklassifizierungen
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 | 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 | Heather |
 | 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 | Aqua |
 
-### Produkt-Classification – Mehrere Dateien (Datei 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Produkt-Classification – Mehrere Dateien (Datei 1)   {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE |
 |---|---|---|---|---|---|
@@ -87,7 +87,7 @@ Beim Hochladen von Datendateien für diese Produkt-Classification können Sie di
 | 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 |
 | 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 |
 
-### Produkt-Classification – Mehrere Dateien (Datei 2)  {#section_19ED95C33B174A9687E81714568D56A3}
+### Produkt-Classification – Mehrere Dateien (Datei 2)   {#section_19ED95C33B174A9687E81714568D56A3}
 
 | SCHLÜSSEL | CODE | CODE^FARBE |
 |---|---|---|
