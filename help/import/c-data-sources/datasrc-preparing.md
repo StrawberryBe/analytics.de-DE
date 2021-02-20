@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Vorbereiten auf die Verwendung von Data Sources
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Schritte, die Sie durchführen können, um die Verwendung von Datenquellen vorzu
 * [Transaktions-ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [Identifizieren eines gültigen Datumsbereichs für Datenquellendaten](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## Identifizieren und Benennen der Metriken  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## Identifizieren und Benennen der Metriken   {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 Sie müssen die Metriken oder Messungen verstehen, die in den Datenquellen enthalten sind, beispielsweise *`Off-line Sales Revenue by Product`*, *`Returns by Product`* oder *`Ad Impressions by Campaign`*. Dies sind die Namen, die Sie mit Berichtsmetriken (Ereignisse, Props und eVars) verbinden können.
 
@@ -51,7 +51,7 @@ Wenn Sie die zu verwendende Datendimension mit einer Datenquelle definiert haben
 
 Wenn Sie eVars verwenden, können Sie entweder vorhandene eVars oder neue eVars als Datendimensionen verwenden. Stellen Sie nach Auswahl einer eVar für den Empfang einer Datendimension aus Data Sources sicher, dass Sie sie ordnungsgemäß benennen.
 
-Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe zu Analytics.
+Siehe [Erfolgsereignisse](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in der Hilfe zu Analytics.
 
 ## Kampagnen-Trackingcode {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +63,7 @@ Wenn Sie Data Sources-Metriken ohne zugeordneten eVar-Wert importieren, können 
 
 Mit einer Transaktions-ID wird ein Online-Ereignis mit einem Offline-Ereignis verbunden.
 
-## Identifizieren eines gültigen Datumsbereichs für Datenquelle-Daten  {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identifizieren eines gültigen Datumsbereichs für Datenquelle-Daten   {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Nachdem Sie die Data Sources-Metriken (benutzerspezifische Ereignisse) und Datendimensionen (eVars) definiert haben, müssen Sie den Datumsbereich der Datenquelle-Daten überprüfen, die Sie importieren möchten. Sie können keine Data Sources-Daten importieren, die außerhalb des Bereichs der vorliegenden Berichtsdaten liegen.
 
