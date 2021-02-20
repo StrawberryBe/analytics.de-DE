@@ -1,9 +1,9 @@
 ---
 title: websiteBot
 description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
