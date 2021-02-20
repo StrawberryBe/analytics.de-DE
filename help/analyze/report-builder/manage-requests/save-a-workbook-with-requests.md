@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 100%
 
 ---
 
@@ -15,16 +18,16 @@ Nachdem Sie Berichte mit eingebetteten Anforderungen erstellt haben, können Sie
 
 * Die von Adobe empfohlene Best Practice bei umfangreichen Arbeiten mit Windows-Anwendungen ist, die Anforderungen in den Arbeitsblättern oft und regelmäßig zu speichern, um unerwartete Verluste von Anforderungen im Arbeitsblatt zu vermeiden.
 * Wenn Sie eine Arbeitsmappe benennen, sollten Sie eine Versionsnummer im Dateinamen verwenden, um den Verlauf Ihrer Arbeit verfolgen zu können. Nennen Sie beispielsweise Ihre erste Arbeitsmappe [!DNL web_forecast_01_01.xlsx].
-* If you have already saved the report, the [!UICONTROL Save Template] form is not displayed when saving the report a second time. Wenn der Bericht keine Anforderungen enthält, wird dieses Dialogfeld nicht angezeigt. Instead, the standard Excel [!UICONTROL Save As] form is displayed.
+* Wenn Sie den Bericht bereits gespeichert haben, wird das Dialogfeld [!UICONTROL Vorlage speichern] beim zweiten Speichern des Berichts nicht mehr angezeigt. Wenn der Bericht keine Anforderungen enthält, wird dieses Dialogfeld nicht angezeigt. Stattdessen wird das Excel-Standarddialogfeld [!UICONTROL Speichern unter] angezeigt.
 
 ## Dateinamen und Speicherort {#section_2406629E9B644CE08430826948977D5D}
 
-The [!UICONTROL Save Template] form has some of the same functions as the standard Excel [!UICONTROL File] > [!UICONTROL Save As] dialog box, such as a text box for entering the file name of the spreadsheet report using the conventional [!DNL .xls] file extension.
+Das Dialogfeld [!UICONTROL Vorlage speichern] ähnelt in einigen Punkten dem Excel-Standarddialogfeld [!UICONTROL Datei] > [!UICONTROL Speichern unter]. Beispielsweise gibt es ein Textfeld für die Eingabe des Dateinamens für die Arbeitsmappe, bei dem die herkömmliche Dateiendung [!DNL .xls] verwendet wird.
 
 Jeder Dateiname darf höchstens 255 Zeichen enthalten. Darüber hinaus darf ein Dateiname keines der folgenden Zeichen enthalten:
 
-\ ? | > &lt; : / * &#39; &quot;
+\ ? | > &lt; : / * &#39;
 
 Schließlich dürfen keine Unicode-Zeichen über den Satz der erweiterten ASCII-Zeichen hinaus verwendet werden.
 
-When saving the file to a location on your local or network drives, you may enter the full path in the text box, or click on the browse button  ![browse_button.gif](assets/browse_button.gif) adjacent to the [!UICONTROL Save As] text box.
+Wenn Sie eine Datei an einem Speicherort auf der lokalen Festplatte oder im Netzwerk speichern, können Sie den vollständigen Pfad im Textfeld angeben oder auf die Schaltfläche „Durchsuchen“ ![browse_button.gif](assets/browse_button.gif) neben dem Textfeld [!UICONTROL Speichern unter] klicken.
