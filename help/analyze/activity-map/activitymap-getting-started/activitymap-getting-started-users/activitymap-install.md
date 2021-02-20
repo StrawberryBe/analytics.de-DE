@@ -3,9 +3,9 @@ description: Der Installationsprozess variiert in Abhängigkeit von dem verwende
 title: Activity Map Browser-Plugins installieren
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
 
