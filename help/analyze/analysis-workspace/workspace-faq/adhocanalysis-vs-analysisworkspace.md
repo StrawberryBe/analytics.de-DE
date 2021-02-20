@@ -2,9 +2,9 @@
 description: Vergleich zwischen Terminologie und Aufgaben bei Ad Hoc Analysis und Analysis Workspace.
 title: Analysis Workspace im Vergleich mit Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Analysis Workspace bringt viele Funktionen von Ad Hoc Analysis in den Arbeitsabl
 
 Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderungen der beiden Produkte finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/analytics-product-comparison.html?lang=de-DE).
 
-## Vergleich der Schlüsselbegriffe {#section_6109406B83B043A18E46D38F130B1D2E}
+## Vergleich der Schlüsselbegriffe  {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -36,7 +36,7 @@ Einen technischen Vergleich der wichtigsten Funktionen und der Systemanforderung
 | Flussvorlage | Flussvisualisierung |
 | Fallout | Fallout-Visualisierung |
 
-## Vergleich der wichtigsten Aufgaben {#section_F31446F1DFA742D794A30D713E223440}
+## Vergleich der wichtigsten Aufgaben  {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
