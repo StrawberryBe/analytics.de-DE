@@ -3,9 +3,9 @@ description: So können Sie in Report Builder Adobe Analytics-Segmente hinzufüg
 title: Segmente verwalten
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -44,14 +44,14 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 
    ![](assets/seg_in_context.png)
 
-   Weitere Informationen zu Containern finden Sie unter [Segmentierungsleitfaden](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html).
+   Weitere Informationen zu Containern finden Sie unter [Segmentierungsleitfaden](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 
 1. Die Segment-Builder-UI wird nun im Internet Explorer gestartet. Die Segment-Builder-UI wird mit dem von Ihnen festgelegten Container und Filter initialisiert.
 1. Nachdem Sie dem Segment einen Namen und eine Beschreibung hinzugefügt haben, speichern Sie es.
 1. Gehen Sie zurück zum Report Builder und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 1. Nun können Sie dieses Segment anwenden.
 
-## Segmente suchen und anwenden  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Segmente suchen und anwenden   {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Alle Segmente, die in Reports &amp; Analytics, Ad Hoc Analysis, Report Builder oder Data Warehouse erstellt wurden, werden in dieser Segmentliste angezeigt. Klicken Sie zum Aktualisieren der Liste auf das Aktualisierungssymbol ![](assets/refresh_icon.png).
 
@@ -102,7 +102,7 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
    ![](assets/seg_control2.png)
 
-## Segmentliste aktualisieren  {#section_22E4A86789444B4A998532396B476EFB}
+## Segmentliste aktualisieren   {#section_22E4A86789444B4A998532396B476EFB}
 
 Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Aktualisierungssymbol (![](assets/refresh_icon.png)) klicken, um die zwischengespeicherte Segmentliste zu aktualisieren.
 
