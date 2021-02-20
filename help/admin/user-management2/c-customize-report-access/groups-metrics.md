@@ -1,6 +1,6 @@
 ---
-description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und „Inhalt bewahren“.
-keywords: groups;permissions
+description: Gewähren Sie Zugriff auf Traffic-Metriken, Konversionsmetriken, benutzerspezifische Ereignisse, Lösungsereignisse und Content-Unterstützung.
+keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Anpassen von Berechtigungen für Metriken
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 100%
 
 ---
