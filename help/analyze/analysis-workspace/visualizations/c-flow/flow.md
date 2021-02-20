@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Damit können Sie:
 >
 >Informationen dazu, wie sich die Ergebnisse bei der Anwendung von Segmenten auf den Fluss zwischen Analysis Workspace und Reports &amp; Analytics/Ad Hoc Analysis unterscheiden können, finden Sie unter [Segmentierung als Grundlage für Fluss und Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Videoschulung](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)zur Flussvisualisierung (4:56)
+[Videoschulung](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=de-DE) zur Flussvisualisierung (4:56)
 
 ## Interdimensionale Flüsse {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -33,6 +33,6 @@ Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/vi
 
 Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
-## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren   {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
