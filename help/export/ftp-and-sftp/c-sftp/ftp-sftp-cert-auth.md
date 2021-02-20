@@ -3,11 +3,11 @@ description: Eine Verbindung zu FTP-Konten kann nur dann ohne Kennwort hergestel
 keywords: ftp;sftp
 title: Verbindung zu Adobe über SFTP ohne Kennwort herstellen
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 99%
 
 ---
 
