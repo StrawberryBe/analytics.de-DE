@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
 source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Ein Beispiel ist die Aufschlüsselung eines benutzerspezifischen Traffic-Bericht
 
 Wenn Sie einen Bericht nach  *`Referrer Type`* unterteilen, sehen Sie ggf. einen Datenpunkt für *`Inside Your Site`*. Dieser Wert zeigt eine Seite der verweisenden Stelle an, die sich auf der Liste „Interne URL-Filter“ befindet. Siehe [Interne URL-Filter](/help/admin/admin/internal-url-filter-admin.md) in der Admin-Referenz.
 
-Sie können jede Analytics-Variable (eVar oder Eigenschaft) nach jeder anderen Variable aufschlüsseln. The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+Sie können jede Analytics-Variable (eVar oder Eigenschaft) nach jeder anderen Variable aufschlüsseln. Das Menü **[!UICONTROL „Unterteilung nach“]** in der Berichtstabelle wurde passend zum standardmäßigen Menü für die Analytics-Berichterstellung gestaltet und sorgt so für ein einheitliches Aussehen.
 
 ## Detailbericht ausführen {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +32,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. Öffnen Sie den Bericht, z. B. **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1. Öffnen Sie einen Report, z. B. **[!UICONTROL Analytics]** > **[!UICONTROL Berichte]** > **[!UICONTROL Site-Content]** > **[!UICONTROL Seiten]**.
+1. Klicken Sie in der Berichtstabelle auf das Symbol **[!UICONTROL Aufschlüsselung nach]**.
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   Wenn das Symbol **[!UICONTROL Aufschlüsselung nach]** nicht angezeigt wird, ist die Funktion nicht verfügbar oder nicht aktiviert.
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   Das Menü **[!UICONTROL Unterteilung nach]** enthält alle verfügbaren Aufschlüsselungsoptionen für den aktuellen Bericht.
