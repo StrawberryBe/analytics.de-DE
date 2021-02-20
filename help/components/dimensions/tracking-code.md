@@ -1,9 +1,9 @@
 ---
 title: Trackingcode
 description: Der Name des Trackingcodes oder der Kampagne.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
