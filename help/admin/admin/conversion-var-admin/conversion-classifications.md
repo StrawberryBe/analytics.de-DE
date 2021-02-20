@@ -20,7 +20,7 @@ Nach der Aktivierung der Classifications verwenden Sie den [Classification Impor
 
 >[!WARNING]
 >
->Das Umbenennen einer Klassifizierung kann Probleme mit vorhandenen Regeln verursachen, die im [Classification Rule Builder](/help/components/classifications/crb/classification-rule-builder.md)erstellt wurden. Wenn Sie eine Classification umbenennen, die Classification-Regeln enthält, sollten Sie sicherstellen, dass die einzelnen Regeln so korrigiert werden, dass sie auf die umbenannte Classification verweisen.
+>Das Umbenennen einer Klassifizierung kann zu Problemen mit vorhandenen Regeln führen, die im [Classification Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) erstellt wurden. Wenn Sie eine Classification umbenennen, die Classification-Regeln enthält, sollten Sie sicherstellen, dass die einzelnen Regeln so korrigiert werden, dass sie auf die umbenannte Classification verweisen.
 
 ## Konversionsklassifizierungen – Beschreibungen
 
