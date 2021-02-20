@@ -1,13 +1,13 @@
 ---
-description: Beschreibung der Felder für die allgemeinen Einstellungen im dynamischen Tag-Manager zur Bereitstellung von Adobe Analytics.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
+description: Beschreibung der Felder für die allgemeinen Einstellungen im Dynamic Tag Manager zur Bereitstellung von Adobe Analytics.
+keywords: Analytics-Implementierung;Implementierungsmethode;Dynamic Tag Management;DTM;Allgemeine Einstellungen;EU-Konformität;Zeichensatz;Währungscode;Tracking-Server;SSL-Tracking-Server
 title: Allgemein
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
 source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
