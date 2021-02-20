@@ -14,7 +14,7 @@ ht-degree: 95%
 
 AppMeasurement bietet die Möglichkeit, Links, die auf eine Stelle außerhalb Ihrer Website verweisen, automatisch zu verfolgen. Wenn [`trackExternalLinks`](trackexternallinks.md) aktiviert ist, wird eine Bildanfrage an Adobe geschickt, wenn ein Besucher auf einen Link klickt, um Ihre Website zu verlassen. Die Variablen `linkExternalFilters` und [`linkInternalFilters`](linkinternalfilters.md) bestimmen, welche Links als intern/extern betrachtet werden.
 
-Wenn diese Variable einen Wert enthält, verhält sich die automatische Verfolgung von Ausstiegslinks wie eine zulassungsliste. Wenn ein Link-Klick keinem `linkExternalFilters`-Wert entspricht, wird er nicht als Exitlink betrachtet. Die gesamte URL wird mit dieser Variablen verglichen. Wenn [`linkLeaveQueryString`](linkleavequerystring.md) aktiviert ist, wird auch die Abfragezeichenfolge geprüft.
+Wenn diese Variable einen Wert enthält, verhält sich die automatische Verfolgung von Ausstiegslinks wie eine Zulassungsliste. Wenn ein Link-Klick keinem `linkExternalFilters`-Wert entspricht, wird er nicht als Exitlink betrachtet. Die gesamte URL wird mit dieser Variablen verglichen. Wenn [`linkLeaveQueryString`](linkleavequerystring.md) aktiviert ist, wird auch die Abfragezeichenfolge geprüft.
 
 >[!TIP]
 >
