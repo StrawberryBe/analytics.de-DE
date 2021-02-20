@@ -5,8 +5,8 @@ uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 90%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden.
 
-[Videoschulung](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) zur Anomalieerkennung (4:53)
+[Videoschulung](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  zur Anomalieerkennung (4:53)
 
-[Video-Lernprogramm](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) zur Beitrags-Analyse (3:20)
+[Video-Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  zur Beitrags-Analyse (3:20)
 
 >[!IMPORTANT]
 >
