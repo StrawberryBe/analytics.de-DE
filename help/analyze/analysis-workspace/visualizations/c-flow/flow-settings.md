@@ -4,6 +4,9 @@ title: Flusseinstellungen
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | Auf diesen Knoten fokussieren | Wechselt den Fokus auf den ausgewählten Knoten. Der Fokusknoten wird in der Mitte des Flussdiagramms angezeigt. |
 | Neu starten | Bringt Sie wieder zurück in den Freiform-Diagramm-Builder, in dem Sie ein neues Flussdiagramm erstellen können. |
-| Segment von diesem Punkt im Fluss aus erstellen | Segment erstellen. Hiermit gelangen Sie in den Segment Builder, in dem Sie das neue Segment einrichten können. |
+| Segment von diesem Punkt im Fluss aus erstellen | Erstellen eines Segments. Hiermit gelangen Sie in den Segment Builder, in dem Sie das neue Segment einrichten können. |
 | Aufschlüsselung | Hiermit können Sie den Knoten nach verfügbaren Dimensionen, Metriken oder Zeiten aufschlüsseln. |
 | Trend | Mit dieser Option erstellen Sie ein Trenddiagramm für den Knoten. |
 | Gesamte Spalte erweitern | Hiermit erweitern Sie eine Spalte so, dass alle Knoten angezeigt werden. In der Standardeinstellung werden nur die obersten fünf Knoten angezeigt. |
