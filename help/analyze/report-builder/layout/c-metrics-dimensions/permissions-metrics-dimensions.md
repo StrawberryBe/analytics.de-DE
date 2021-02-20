@@ -3,9 +3,9 @@ description: Adobe Report Builder bietet jetzt Berechtigungseinstellungen, die d
 title: Benutzerzugriffsberechtigungen für Dimensionen und Metriken
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
 
