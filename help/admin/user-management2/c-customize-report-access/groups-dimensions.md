@@ -1,6 +1,6 @@
 ---
 description: Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten.
-keywords: groups;permissions
+keywords: Gruppen;Berechtigungen
 subtopic: Users and groups
 title: Anpassen von Dimensionsberechtigungen
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '514'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Lesen Sie sich folgende Informationen zur Dimensionskategorie in den Berechtigun
 * Alle aktuellen Dimensionen und Metriken in benutzerdefinierten Gruppen wurden automatisch in die neuen Kategorien migriert. Wenn in einer bestehenden Gruppe Metriken aktiv sind, werden für diese Gruppe sämtliche Dimensionen, für die neue Berechtigungen erteilt werden (eVars und inhaltsbasiert), und Metriken als Standardeinstellungen festgelegt.
 * Classifications Importer (bisher SAINT) berechtigt für: Zugriff auf Classifications wird durch Zugriff auf die [Variable](https://docs.adobe.com/content/help/de-DE/analytics/components/classifications/c-classifications.html) bestimmt, auf der Classification basiert.
 
-Weitere Informationen finden Sie unter Änderungen der [Benutzer- und Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-management/permissions-changes.html).
+Weitere Informationen finden Sie unter [Änderungen der Benutzer- und Gruppenberechtigungen](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
 **Dimensionen anpassen**
 
@@ -63,14 +63,14 @@ Bei den folgenden Elementen handelt es sich um Dimensionen, für die Sie Zugriff
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/evar.html"> Props </a> </p> </td> 
-   <td colname="col2"> <p>Props sind benutzerdefinierte Traffic-Variablen. </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/evar.html">Traffic-Props und Konversions-eVars</a> in der Implementierung von Analytics. </p> </td> 
+   <td colname="col2"> <p>Props sind benutzerdefinierte Traffic-Variablen. </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">Traffic-Props und Konversions-eVars</a> in der Implementierung von Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html"> Hierarchy </a> </p> </td> 
    <td colname="col2"> <p> Die Hierarchievariable bestimmt die Positionierung einer Seite in der Hierarchie der Site oder Seitenstruktur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Ähnlich wie bei Listen-Props sind bei Listenvariablen mehrere Werte in derselben Bildanforderung möglich. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Bei den folgenden Elementen handelt es sich um Dimensionen, für die Sie Zugriff
    <td colname="col2"> <p>Diese Partnerintegration ist nicht mehr aktiv. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Diese Partnerintegration ist nicht mehr aktiv. </p> </td> 
   </tr> 
   <tr> 
