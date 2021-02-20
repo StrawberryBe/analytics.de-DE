@@ -1,9 +1,9 @@
 ---
 title: Manuelles Zuordnen von XDM-Daten zu Analytics
 description: 'Manuelles Zuordnen von XDM-Daten von Experience Platform zu Adobe Analytics '
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Zur Verwendung durch Analytics werden XDM-Daten mit Punktnotation reduziert und 
 
 ## Verarbeitungsregeln
 
-Auf alle vom Edge Network erfassten Daten kann über [Verarbeitungsregeln](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) zugegriffen werden. In Analytics können Sie mithilfe von Verarbeitungsregeln Kontextdaten in Analytics-Variablen einbinden.
+Auf alle vom Edge Network erfassten Daten kann über [Verarbeitungsregeln](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) zugegriffen werden. In Analytics können Sie mithilfe von Verarbeitungsregeln Kontextdaten in Analytics-Variablen einbinden.
 
 In der folgenden Regel wird Analytics beispielsweise so eingestellt, dass **interne Suchbegriffe (eVar2)** mit den Daten gefüllt werden, die mit **a.x_atag.search.term(Kontextdaten)** verknüpft sind.
 
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-Weitere Informationen zum Verfolgen von Ereignissen mit dem AEP Web SDK finden Sie unter [Verfolgen von Ereignissen](https://docs.adobe.com/content/help/de-DE/experience-platform/edge/fundamentals/tracking-events.html).
+Weitere Informationen zum Verfolgen von Ereignissen mit dem AEP Web SDK finden Sie unter [Verfolgen von Ereignissen](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html).
