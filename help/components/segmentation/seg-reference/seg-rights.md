@@ -3,9 +3,9 @@ description: Die Hauptunterschiede zwischen den Segmentfunktionen betreffen Benu
 title: Segmentberechtigungen nach Rolle
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
