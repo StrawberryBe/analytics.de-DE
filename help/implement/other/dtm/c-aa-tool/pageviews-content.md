@@ -1,13 +1,13 @@
 ---
 description: Beschreibung der Felder des Dynamic Tag Managements für Seitenansichten und Inhaltseinstellungen bei der Bereitstellung von Analytics.
-keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
+keywords: Dynamic Tag Management;Seitenansichten;Inhalt;Seitenname;Seiten-URL-Überschreibung;Kanal;Site-Abschnitt;Hierarchie
 solution: Experience Cloud,Analytics
 title: Seitenansichten und -inhalt
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
