@@ -1,9 +1,9 @@
 ---
 description: 'null'
 title: Leeres Bedienfeld
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 100%
 
