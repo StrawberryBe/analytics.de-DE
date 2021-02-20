@@ -21,7 +21,7 @@ Auf dieser Seite wird davon ausgegangen, dass der Anwender über grundlegende Ke
 Der Verhaltensflussbericht kann mithilfe der Flussvisualisierung nachgebildet werden.
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Flussvisualisierung auf den Arbeitsbereich über der Freiformtabelle.
-2. Suchen Sie die Dimension **Seite** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionselemente sind gelb gefärbt.
+2. Suchen Sie die Dimension **Seite** und klicken Sie dann auf das Pfeilsymbol, um die Seitenwerte anzuzeigen. Dimensionen sind gelb gefärbt.
 3. Suchen Sie den gewünschten Seitenwert, mit dem Sie beginnen möchten, und ziehen Sie ihn in den mittigen Bereich namens „Dimension oder Element“.
 4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
 
@@ -36,7 +36,7 @@ Der Seitenbericht zeigt die Leistung einzelner Seiten auf Ihrer Site an.
 
 Als Alternative bietet Adobe mehrere vordefinierte Arbeitsbereiche, die als Vorlagen bezeichnet werden. Die Vorlage für Content-Verbrauch (Web) bietet einen ähnlichen Wert wie der Bericht „Alle Seiten“.
 
-1. Klicken Sie auf *[!UICONTROL Projekt]>[!UICONTROL Neu]*, um ein modales Fenster mit Projektoptionen zu öffnen.
+1. Klicken Sie auf *[!UICONTROL Projekt] > [!UICONTROL Neu]*, um ein modales Fenster mit Projektoptionen zu öffnen.
 2. Klicken Sie auf die Vorlage für Content-Verbrauch (Web) und dann auf „Erstellen“.
 
 ## Site-Content – Content-Drilldown
