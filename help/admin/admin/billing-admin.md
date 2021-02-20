@@ -3,9 +3,9 @@ description: Auf der Seite Rechnungsstellung können Sie auf die Rechnungsinfoma
 title: Rechnungsstellung
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
