@@ -4,6 +4,9 @@ title: Analytics-Variablen
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Nachdem Sie das Ereignis und die eVars identifiziert haben, die mit der emarsys-
   <tr> 
    <th colname="col1" class="entry"> Variablentyp </th> 
    <th colname="col2" class="entry"> Name </th> 
-   <th colname="col3" class="entry"> Methode zum Ausfüllen </th> 
+   <th colname="col3" class="entry"> Erfassungsmethode </th> 
    <th colname="col4" class="entry"> Beschreibung </th> 
   </tr>
  </thead>
