@@ -23,13 +23,13 @@ Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Be
 
 ## Anleitungsvideo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
+Dieses [Adobe Analytics-Video](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gibt einen kurzen Überblick über die Verwendung des Segment-Managers.
 
-## Benutzeroberfläche des Segment-Managers  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Benutzeroberfläche des Segment-Managers   {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
-| Nr. | Funktion der Benutzeroberfläche | Beschreibung |
+| # | Funktion der Benutzeroberfläche | Beschreibung |
 |---|---|---|
 | 1 | Werkzeugleiste für die Segmentverwaltung | Diese Werkzeugleiste wird angezeigt, sobald Sie ein Segment aktivieren. Über diese Werkzeugleiste können die meisten Verwaltungsaufgaben erledigt werden. |
 | 2 | Filter anzeigen | Wenn Sie auf das Filtersymbol klicken, wird das Menü „Filter“ angezeigt. Sie können nach Tags, Inhabern, „Alle anzeigen“ (Nur Administrator), „Meine“, „Favoriten“, „Genehmigt“ und „Für mich freigegeben“ filtern. |
