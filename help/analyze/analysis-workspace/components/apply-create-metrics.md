@@ -5,8 +5,8 @@ uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
 source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '252'
+ht-degree: 85%
 
 ---
 
@@ -29,11 +29,11 @@ Um das schnelle Erstellen berechneter Metriken zu vereinfachen, wurde dem Spalte
 
 ![](assets/calc_metrics.png)
 
-[Berechnete Metriken: Implementierungslose Metriken](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Berechnete Metriken: Implementierungslose Metriken](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  (3:42)
 
 ## Vergleichen von Metriken mit verschiedenen Attributionsmodellen
 
-If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
+Wenn Sie ein Zuordnungsmodell schnell und einfach mit einem anderen vergleichen möchten, klicken Sie mit der rechten Maustaste auf eine Metrik und wählen Sie **[!UICONTROL Zuordnungsmodelle vergleichen]**:
 
 ![Vergleichsattribution](assets/compare-attribution.png)
 
