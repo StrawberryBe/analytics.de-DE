@@ -1,9 +1,9 @@
 ---
 title: Content-Geschwindigkeit
 description: Content-Geschwindigkeit misst die Auswirkungen von Inhalten auf nachgeordnete Inhalte.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 100%
 
