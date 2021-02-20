@@ -29,7 +29,7 @@ Vgl. als Hilfe [Einrichten eines Identitätssystems](https://helpx.adobe.com/de/
 
 Wenn ein Verzeichnis bereits in einer anderen Organisation von einer anderen Geschäftseinheit oder einem anderen Team erstellt wurde, führen Sie die Schritte unter [Vertrauenswürdiges Verzeichnis](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html#Directorytrusting) durch, um das Verzeichnis in der Organisation zu erstellen, für die Sie Analytics verwenden.
 
-## Migrieren von-Benutzerkonten für Enterprise IDs und Federated IDs {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## Migrieren von-Benutzerkonten für Enterprise IDs und Federated IDs  {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 Diese Vorgehensweise ermöglicht Ihnen Folgendes:
 
@@ -137,7 +137,7 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
  </tbody> 
 </table>
 
-Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/de/enterprise/using/users.html).
+Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/enterprise/using/users.html).
 
 >[!NOTE]
 >
