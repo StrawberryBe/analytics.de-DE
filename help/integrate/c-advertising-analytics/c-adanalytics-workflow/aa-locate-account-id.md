@@ -24,11 +24,11 @@ Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-
 
 ![](assets/google_account.png)
 
-## Bing  {#section_F1B9C7E997444746936599732CD62665}
+## Bing   {#section_F1B9C7E997444746936599732CD62665}
 
 >[!NOTE]
 >
->Wenn Ihr Bing-Konto die Google-Importfunktion verwendet, sollten Sie die richtige Verfolgungszeichenfolge aktualisieren. Die Verfolgungszeichenfolge wird nicht automatisch von der Google-Version auf die richtige Bing-Verfolgungszeichenfolge aktualisiert und kann zu nicht angegebenen Daten führen. Weitere Informationen zu dieser Funktion finden Sie [hier](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>Wenn Ihr Bing-Konto die Google-Importfunktion verwendet, sollten Sie die richtige Verfolgungszeichenfolge aktualisieren. Die Verfolgungszeichenfolge wird nicht automatisch von der Google-Version auf die richtige Bing-Verfolgungszeichenfolge aktualisiert und kann zu nicht angegebenen Daten führen. Weitere Details zur Funktion finden Sie [hier](https://help.ads.microsoft.com/apex/index/3/en/50851/).
 
 Sowohl Konto- als auch Kunden-ID sind erforderlich. Sie sind auf der Registerkarte „Konten“ aufgeführt.
 
