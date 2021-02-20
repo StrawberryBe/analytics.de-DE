@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Verarbeitungsreihenfolge
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ In den folgenden Tabellen sind die Daten aufgeführt, die in der Regel vor und n
 | GEO-Suche | Dies betrifft die Werte „Bundesstaat des Besuchers“ und „Postleitzahl des Besuchers“. |
 | eVars-Speicherung | eVars aus einem vorherigen Treffer werden bei der Regelverarbeitung nicht bei jedem Treffer beibehalten. Es stehen jeweils nur die beim aktuell verarbeiteten Treffer festgelegten eVars zur Verfügung. |
 
-## So werden Verarbeitungsregeln beim Kopieren von Hits mit VISTA angewandt  {#section_576EE8C240A24CBA979BD614E8D5338D}
+## So werden Verarbeitungsregeln beim Kopieren von Hits mit VISTA angewandt   {#section_576EE8C240A24CBA979BD614E8D5338D}
 
 Wenn Sie eine VISTA-Regel zum Kopieren von Treffern in eine andere Report Suite konfiguriert haben, werden die Treffer über sämtliche in der anderen Report Suite definierten Verarbeitungsregeln versendet.
 
