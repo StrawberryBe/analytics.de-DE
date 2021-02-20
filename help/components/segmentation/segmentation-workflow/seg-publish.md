@@ -51,7 +51,7 @@ Außerdem haben wir die maximale Anzahl an publizierbaren Adobe Analytics-Segmen
 
 ## Veröffentlichen von Segmenten im [!UICONTROL Segment Builder]
 
-1. Navigieren Sie zu **[!UICONTROL Analytics > Workspace > Komponenten > Segmente]> +**
+1. Navigieren Sie zu **[!UICONTROL Analytics > Workspace > Komponenten > Segmente] > +**
 1. Erstellen Sie ein Segment im [!UICONTROL Segment Builder].
 1. Geben Sie einen Titel und eine Beschreibung für das Segment ein. Andernfalls können Sie es nicht speichern.
 1. Aktivieren Sie die Option **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
