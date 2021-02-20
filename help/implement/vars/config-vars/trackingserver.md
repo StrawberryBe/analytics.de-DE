@@ -61,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Wählen Sie eine für Ihre Organisation eindeutige Unterdomäne aus, die wahrscheinlich nicht von einer anderen Organisation ausgewählt wird, die Adobe Analytics verwendet.  Der Ihrem Unternehmen zugewiesene Besucher-Namensraum wird empfohlen.  Stellen Sie sicher, dass alle Implementierungen in Ihrem Unternehmen denselben Tracking-Server verwenden. Es kann hilfreich sein, diese Informationen in einem [Lösungsdesigndokument](../../prepare/solution-design.md) zu verwalten.
 
-Möglicherweise verwendet Ihr Unternehmen bereits einen Tracking-Server eines Drittanbieters in den `sc.omtrdc.net` oder `2o7.net` -Domänen.  Diese wurden hauptsächlich in früheren Versionen von Adobe Analytics verwendet und sind weiterhin gültig.
+Ihr Unternehmen verwendet möglicherweise bereits einen Tracking-Server eines Drittanbieters in den Domänen `sc.omtrdc.net` oder `2o7.net`.  Diese wurden hauptsächlich in früheren Versionen von Adobe Analytics verwendet und sind weiterhin gültig.
 
 >[!NOTE]
 >
