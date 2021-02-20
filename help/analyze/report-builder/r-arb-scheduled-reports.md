@@ -5,6 +5,9 @@ topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Im Manager für geplante Aufgaben können Sie eine Liste mit den vorhandenen ter
    <td colname="col2"> <p>Diese Spalte enthält Power BI, wenn eine der <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > Power BI-Veröffentlichungsoptionen</a> ausgewählt ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Plan </p> </td> 
+   <td colname="col1"> <p>Zeitplan </p> </td> 
    <td colname="col2"> <p>Der Typ der geplanten Bereitstellung. </p> </td> 
   </tr> 
   <tr> 
