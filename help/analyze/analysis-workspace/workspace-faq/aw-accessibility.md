@@ -23,8 +23,8 @@ Barrierefreiheit bezieht sich darauf, Produkte für Menschen mit visuellen, akus
 Die Navigation in [!UICONTROL Analysis Workspace] funktioniert von oben nach unten und von links nach rechts. Die folgenden Navigationselemente erleichtern die Zugänglichkeit:
 
 * Die `Tab`-Taste ermöglicht richtungsweisende Verknüpfungen., wobei zwischen größeren Abschnitten innerhalb von Workspace gewechselt wird. In der linken Leiste können Sie `Tab` auch von einer ziehbaren Option zur nächsten wechseln.
-* Der `left/right arrows` Wechsel zwischen einzelnen Elementen, nachdem er hervorgehoben `Tab` wurde.
-* Der Benutzer `F6` navigiert zum ersten Bereich im Projekt und bewegt sich zwischen den Visualisierungen innerhalb dieses Bereichs. Anschließend wird zum nächsten Bereich im Projekt gewechselt und es wird wiederholt.
+* Die `left/right arrows`-Bewegung zwischen einzelnen Elementen, nachdem `Tab` sie markiert hat.
+* Das `F6` navigiert zum ersten Bereich im Projekt und bewegt sich zwischen den Visualisierungen in diesem Bereich. Anschließend wird zum nächsten Bereich im Projekt gewechselt und es wird wiederholt.
 * Wir wenden Fokusindikatoren an, sodass sehende Tastaturbenutzer einen klaren Hinweis darauf haben, welches Element der Benutzeroberfläche derzeit im Fokus ist. Der Indikator ist ein blauer Rand um das ausgewählte Element herum.
 
    ![Fokusindikator](assets/focus-indicator.png)
@@ -33,9 +33,9 @@ Die Navigation in [!UICONTROL Analysis Workspace] funktioniert von oben nach unt
 
 1. bis Sie die Menüleiste erreicht haben.
 1. Verwenden Sie die Nach-links-/Nach-rechts-Taste, um zum gewünschten Menü zu navigieren.
-1. Drücken Sie `Enter` die Eingabetaste, um das Menü auszuwählen und seine Optionen anzuzeigen.
+1. Drücken Sie die Taste `Enter`, um das Menü auszuwählen und seine Optionen anzuzeigen.
 1. Verwenden Sie die Nach-oben-/Nach-unten-Taste, um zur gewünschten Menüoption zu navigieren.
-1. Drücken Sie `Enter` die Eingabetaste, um die Option auszuwählen.
+1. Klicken Sie auf `Enter`, um die Option auszuwählen.
 
 ### Tastaturnavigation für Drag-and-Drop-Interaktionen
 
