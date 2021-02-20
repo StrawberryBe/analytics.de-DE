@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Traffic-Classifications
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassi
 
 Auf der Seite „Traffic-Classifications“ können Sie Classifications für ausgewählte Report Suites erstellen. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der zugeordneten Attribute erstellt werden.
 
-Nach der Aktivierung der Classifications verwenden Sie den  [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nach der Aktivierung der Classifications verwenden Sie den [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md), um bestimmte Werte der entsprechenden Classification zuzuweisen.
 
 ## Hinzufügen einer Traffic-Klassifizierung {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
