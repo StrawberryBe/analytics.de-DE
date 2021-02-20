@@ -1,9 +1,9 @@
 ---
 title: Streudiagramm
 description: Eine Visualisierung, die die Beziehung zwischen bis zu drei Metriken anzeigt.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 
