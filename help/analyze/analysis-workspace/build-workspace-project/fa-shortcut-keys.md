@@ -5,7 +5,7 @@ title: Hotkeys (Tastaturbefehle)
 translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 74%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 74%
 Hotkeys (Tastaturbefehle) stehen in Analysis Workspace zur nahtlosen Navigation, Analyse, zum Hinzufügen von Bedienfeldern und Visualisierungen sowie zur Demokratisierung (Freigabe) zur Verfügung.
 
 Hinweis:
-* `Ctrl` = Windows und `Command` = Mac
-* `Alt` = Windows und `Option` = Mac
+* `Ctrl` = Windows und  `Command` = Mac
+* `Alt` = Windows und  `Option` = Mac
 
 ## Navigationsaktionen
 
