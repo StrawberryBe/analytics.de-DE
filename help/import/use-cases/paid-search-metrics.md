@@ -10,13 +10,13 @@ ht-degree: 8%
 ---
 
 
-# Importieren [!UICONTROL gebührenpflichtiger Suchmetriken] mithilfe von [!UICONTROL Data Sources]
+# [!UICONTROL Gebührenpflichtige Suchmetriken mit [!UICONTROL Datenquellen] importieren]
 
-Für viele Marketingorganisationen ist die gebührenpflichtige Suche eine der wertvollsten und zuverlässigsten Methoden, um neue Kunden zu erreichen und bestehende zu behalten&#x200B;. Die [!UICONTROL Data Sources] -Funktion in Adobe Analytics erleichtert den Import von erweiterten gebührenpflichtigen Suchdaten aus digitalen Werbeanzeigen wie Google AdWords. Sie können diese Daten zusammen mit den Verhaltensdaten und Kundenattributen auf der Site in die übrigen Marketingdaten integrieren, um bessere Einblicke in die gebührenpflichtigen Suchbemühungen Ihres Unternehmens zu erhalten.
+Für viele Marketingorganisationen ist die gebührenpflichtige Suche eine der wertvollsten und zuverlässigsten Methoden, um neue Kunden zu erreichen und bestehende zu behalten&#x200B;. Die Funktion [!UICONTROL Data Sources] in Adobe Analytics erleichtert den Import von Daten zur erweiterten gebührenpflichtigen Suche aus digitalen Werbeanzeigen wie Google AdWords. Sie können diese Daten zusammen mit den Verhaltensdaten und Kundenattributen auf der Site in die übrigen Marketingdaten integrieren, um bessere Einblicke in die gebührenpflichtigen Suchbemühungen Ihres Unternehmens zu erhalten.
 
 Diese Schritte zeigen Ihnen, wie Sie eine Integration mit AdWords konfigurieren, um Suchbegriffdaten sowie Metriken wie Impressionen, Klicks, Kosten pro Klick und mehr zu importieren.
 
-In den Schritten wird beschrieben, wie Sie einen einmaligen Import von Pay-per-Click-Daten einrichten. Die [!UICONTROL Datenquellen] ermöglichen jedoch den kontinuierlichen Import von Daten unter Verwendung des hier beschriebenen Dateiformats. Abhängig von Ihrer gebührenpflichtigen Suchplattform können Sie regelmäßige Exporte planen (täglich, monatlich usw.), automatisierte Prozesse einrichten, um diese Exporte in das von Adobe Analytics benötigte Dateiformat zu transformieren, und diese Dateien für den Berichte der gebührenpflichtigen Suchintegration in Adobe Analytics hochladen.
+In den Schritten wird beschrieben, wie Sie einen einmaligen Import von Pay-per-Click-Daten einrichten. [!UICONTROL Data Sources] ermöglicht jedoch den kontinuierlichen Import von Daten unter Verwendung des hier beschriebenen Dateiformats. Abhängig von Ihrer gebührenpflichtigen Suchplattform können Sie regelmäßige Exporte planen (täglich, monatlich usw.), automatisierte Prozesse einrichten, um diese Exporte in das von Adobe Analytics benötigte Dateiformat zu transformieren, und diese Dateien für den Berichte der gebührenpflichtigen Suchintegration in Adobe Analytics hochladen.
 
 ## Voraussetzungen
 
@@ -24,19 +24,19 @@ In den Schritten wird beschrieben, wie Sie einen einmaligen Import von Pay-per-C
 * Sie erfassen Verfolgungscodedaten.
 * Sie haben eindeutige Rückverfolgungscodes für jede Anzeigengruppe.
 
-## Configure [!UICONTROL Success Events]
+## [!UICONTROL Erfolgserfolg-Ereignis] konfigurieren
 
 Unser erster Schritt besteht darin, Adobe Analytics auf den Empfang der Metriken vorzubereiten. Dazu müssen Sie einige Erfolgsereignisse einrichten.
 
-[!UICONTROL Erfolgsereignisse sind Aktionen, die verfolgt werden können. ] You determine what a [!UICONTROL success event] is. Zur Verfolgung von [!UICONTROL gebührenpflichtigen Suchmetriken] möchten wir [!UICONTROL Erfolgsmetriken] für [!UICONTROL Klicks], [!UICONTROL Impressionen], [!UICONTROL Gesamtkosten] und EreignisAktivieren vonRückverfolgungscodes einrichten.
+[!UICONTROL Erfolgsereignisse sind Aktionen, die verfolgt werden können. ] Sie bestimmen, was ein [!UICONTROL Erfolgserfolg-Ereignis] ist. Zur Verfolgung der Metriken [!UICONTROL Gebührenpflichtige Suche] möchten wir [!UICONTROL Erfolgsmetriken] um [!UICONTROL Klicks], [!UICONTROL Impressionen], [!UICONTROL Gesamtkosten] einrichten und die Verfolgungscodes[!UICONTROL aktivieren.]
 
-1. Go to **[!UICONTROL Adobe Analytics > Admin > Report Suites]**.
+1. Gehen Sie zu **[!UICONTROL Adobe Analytics > Admin > Report Suites]**.
 1. Wählen Sie eine Report Suite aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten > Konversion > Erfolgsereignisse]**.
 
    ![Erfolgsereignisse](assets/success-events.png)
 
-1. Verwenden Sie unter Benutzerdefinierte Erfolgsereignisse **[!UICONTROL Hinzufügen Neu]** , um 3 benutzerspezifische Erfolgserfolg-Ereignis zu erstellen: [!UICONTROL Klicks] (Zähler), [!UICONTROL Impressionen] (Zähler) und [!UICONTROL Gesamtkosten] (Währung).
+1. Verwenden Sie unter Benutzerdefinierte Erfolgserfolg-Ereignis **[!UICONTROL Hinzufügen Neu]**, um 3 benutzerspezifische Erfolgserfolg-Ereignis zu erstellen: [!UICONTROL Klicks] (Zähler), [!UICONTROL Impressionen] (Zähler) und [!UICONTROL Gesamtkosten] (Währung).
 
    ![Neues Erfolgs-Ereignis](assets/new-success-events.png)
 
@@ -49,35 +49,36 @@ Sie sollten eine Meldung erhalten, dass Ihre Speichern genehmigt wurden.
 
 ## Data Sources einrichten
 
-[!UICONTROL Mit Data Sources] können Sie Nicht-Clickstream-Daten für Adobe Analytics freigeben. In diesem Fall verwenden wir Adobe Analytics zur Verfolgung von Metriken für gebührenpflichtige Suchen. Wir verwenden den Rückverfolgungscode als unseren Schlüssel, um die beiden Datenelemente - gebührenpflichtige Suchmetriken und Adobe Analytics-Metriken - miteinander zu verbinden.
+[!UICONTROL Mit Data ] Sources können Sie Nicht-Clickstream-Daten für Adobe Analytics freigeben. In diesem Fall verwenden wir Adobe Analytics zur Verfolgung von Metriken für gebührenpflichtige Suchen. Wir verwenden den Rückverfolgungscode als unseren Schlüssel, um die beiden Datenelemente - gebührenpflichtige Suchmetriken und Adobe Analytics-Metriken - miteinander zu verbinden.
 
 1. Navigieren Sie zu **[!UICONTROL Adobe Analytics > Admin > Data Sources]**.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Erstellen]** , um den Beginn zum Aktivieren neuer Datenquellen zu aktivieren.
-1. Wählen Sie unter **[!UICONTROL Kategorie]** auswählen die Option **[!UICONTROL AnzeigenKampagne]**.
+1. Wählen Sie die Registerkarte **[!UICONTROL Erstellen]**, um Beginn zu aktivieren, die neue Datenquellen aktivieren.
+1. Wählen Sie unter **[!UICONTROL Kategorie]** aus **[!UICONTROL Kampagne anzeigen]**.
 
    ![Data Sources](assets/data-sources.png)
 
-1. Wählen Sie unter **[!UICONTROL Typ]** auswählen die Option **[!UICONTROL Allgemeiner Pay-per-Click-Dienst]**.
+1. Wählen Sie unter **[!UICONTROL Typ]** **[!UICONTROL Allgemeiner Pay-per-Click-Dienst]**.
 1. Klicken Sie auf **[!UICONTROL Aktivieren]**.
-The [!UICONTROL Data Source Activation Wizard] displays:
+Der Assistent [!UICONTROL Data Source Aktivierung] wird angezeigt:
 
    ![Aktivierungsassistent](assets/ds-activation-wizard.png)
 
 1. Klicken Sie auf **[!UICONTROL Weiter]** und geben Sie der Datenquelle einen Namen. Dieser Name wird im Datenquellen-Manager angezeigt.
 1. Akzeptieren Sie die Dienstvereinbarung und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie die drei Standardmetriken aus: [!UICONTROL Impressionen], [!UICONTROL Klicks] und [!UICONTROL Gesamtkosten] und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Jetzt &quot;ordnen&quot; Sie diese neue Datenquelle den benutzerspezifischen Ereignissen zu, die wir unter [Ereignis](/help/admin/admin/c-success-events/t-success-events.md)zum Konfigurieren von Erfolgen erstellt haben.
+1. Jetzt &quot;ordnen&quot; Sie diese neue Datenquelle den benutzerspezifischen Ereignissen zu, die wir unter [Ereignis zum Konfigurieren von Erfolgen](/help/admin/admin/c-success-events/t-success-events.md) erstellt haben.
 
    ![Zuordnen](assets/data-source-mapping.png)
 
-1. Wählen Sie die DatendimensionenAktivieren Sie das Kontrollkästchen neben Rückverfolgungscodes und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Datendimensionen auswählen
+Markieren Sie das Kästchen neben Rückverfolgungscodes und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Ordnen Sie Daten-Dimensionen zu.
 Ordnen Sie die Dimension der importierten Daten (Attribut) dem Adobe Analytics-Attribut zu, in dem Sie sie speichern möchten. Dies kann eine Standarddimension oder ein eVar sein. Nachdem Sie auf **[!UICONTROL Weiter]** geklickt haben, werden die resultierenden Zuordnungen in der Zusammenfassung angezeigt:
 
    ![Zusammenfassung](assets/data-source-summary.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-1. Klicken Sie auf **[!UICONTROL Herunterladen]** , um die Vorlagendatei für diese Datenquelle herunterzuladen.
+1. Klicken Sie auf **[!UICONTROL Herunterladen]**, um die Vorlagendatei für diese Datenquelle herunterzuladen.
 Der Dateiname entspricht dem ursprünglich angegebenen Datenquellentyp - in diesem Fall &quot;Generic Pay-per-Click Service template.txt&quot;.
 1. Öffnen Sie die Vorlage in Ihrem bevorzugten Texteditor.
 Die Datei ist bereits mit den Metriken und Dimensionen sowie deren Zuordnungen gefüllt.
@@ -90,7 +91,7 @@ In ähnlicher Weise durchgeführte Schritte für Google Adwords, MSN, Yahoo und 
 
 1. Melden Sie sich bei Ihrem PPC-Konto an und erstellen Sie einen neuen Bericht oder Export.
 Stellen Sie sicher, dass der Export die folgenden Felder enthält: Datum, Ziel-URL (Landingpage), Impressionen, Klicks und Kosten. Der Export kann andere Felder enthalten, aber Sie löschen sie wie unten beschrieben.
-1. Speichern Sie den Bericht nach Möglichkeit als `.csv` oder tabulatorbegrenzte Datei. Dies erleichtert die Arbeit in den folgenden Schritten.
+1. Speichern Sie den Bericht nach Möglichkeit als `.csv`- oder tabulatorgetrennte Datei. Dies erleichtert die Arbeit in den folgenden Schritten.
 1. Öffnen Sie die Datei in Microsoft Excel.
 
 ### Datei in Microsoft Excel bearbeiten
@@ -117,7 +118,7 @@ Gehen Sie zurück zum Datenquellen-Assistenten, um Anweisungen zu erhalten und l
 
 Das Hinzufügen errechneter Metriken ist bei Pay-per-Click-Entscheidungen hilfreich.
 
-Sie könnten beispielsweise folgende [errechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics)hinzufügen:
+Sie könnten beispielsweise folgende [errechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics) hinzufügen:
 
 | Name | Formel | Metriktyp | Beschreibung |
 | --- | --- | --- | --- |
