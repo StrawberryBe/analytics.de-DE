@@ -1,9 +1,9 @@
 ---
 title: Fehlerbehebung bei H-Code-Implementierungen
 description: Erfahren Sie mehr über einige häufige Probleme bei älteren JavaScript-Implementierungen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
