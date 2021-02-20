@@ -19,7 +19,7 @@ Generelle Hilfestellung zu Admin Console-Themen (nicht in Bezug auf die Analytic
 
 Nach der Migration können Sie [Benutzer und Produkte der Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Admin Console verwalten.
 
-## Was ist die Migration der Analytics-Benutzer-ID? {#section-adbe49aba10c4e62afa836a97894107c}
+## Was ist die Migration der Analytics-Benutzer-ID?  {#section-adbe49aba10c4e62afa836a97894107c}
 
 Die Migration der Analytics-Benutzer-ID ermöglicht es Administratoren, Benutzerkonten einfach vom Analytics User Management zur Adobe Admin Console zu migrieren. Nachdem Sie Ihre Benutzer migriert haben, erhalten diese Zugang zu den Lösungen und Services, die in der Experience Cloud verfügbar sind. Die Migration erfolgt für Kunden stufenweise.
 
@@ -121,15 +121,15 @@ Antworten auf Fragen, die Sie vielleicht vor der Migration haben.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Stellen Sie sicher, dass Sie ein Analytics-Produktadministrator in der Admin Console sind </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Benachrichtigen Sie Ihre Benutzer, dass sich der Anmeldeprozess beim Migrationsstart ändert. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Prüfen Sie Ihre aktuellen Benutzer und Berechtigungen und führen Sie verschiedene Bereinigungsaktivitäten durch. </li> 
-    </ul> <p>Wenden Sie sich zur Beschleunigung der Migration an Ihren Customer Success Manager bei der <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a> und beantragen Sie ein früheres Startdatum. </p> </td> 
+    </ul> <p>Wenden Sie sich zur Beschleunigung der Migration an Ihren Customer Success Manager bei der <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a> und beantragen Sie ein früheres Startdatum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ich bin ein Analytics-Administrator ohne Zugriff auf die Admin Console. Wie erhalte ich Zugriff darauf? </p> </td> 
-   <td colname="col2"> <p>Alle System- oder Produktadministratoren, die Zugriff auf die Admin Console Ihrer Organisation haben, können Ihnen Zugriff gewähren. Wenn Sie sich nicht sicher sind, wer in Ihrer Organisation über Administratorberechtigungen in der Konsole verfügt, wenden Sie sich an die <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a>. </p> </td> 
+   <td colname="col2"> <p>Alle System- oder Produktadministratoren, die Zugriff auf die Admin Console Ihrer Organisation haben, können Ihnen Zugriff gewähren. Wenn Sie sich nicht sicher sind, wer in Ihrer Organisation über Administratorberechtigungen in der Konsole verfügt, wenden Sie sich an die <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kann ich das Startdatum der Migration verschieben? </p> </td> 
-   <td colname="col2"> <p>Ja. Wenden Sie sich an die <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a>. </p><p>Im Folgenden finden Sie eine Beschreibung der Änderungen an Ihrer Analytics-Benutzer- und -Berechtigungsverwaltung am Startdatum. </p> </td> 
+   <td colname="col2"> <p>Ja. Wenden Sie sich an die <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe-Kundenunterstützung</a>. </p><p>Im Folgenden finden Sie eine Beschreibung der Änderungen an Ihrer Analytics-Benutzer- und -Berechtigungsverwaltung am Startdatum. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mein Unternehmen migriert nun zur Admin Console. Wo erstelle ich jetzt Benutzer und Berechtigungsgruppen vor dem Start der Migration? </p> </td> 
@@ -143,7 +143,7 @@ Antworten auf Fragen, die Sie vielleicht vor der Migration haben.
  </tbody> 
 </table>
 
-## Informationen während der Migration (FAQ) {#section-d394524aa6d046d79025bbd7499792bc}
+## Informationen während der Migration (FAQ)  {#section-d394524aa6d046d79025bbd7499792bc}
 
 Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen dieser auf das aktuelle User Management hat.
 
@@ -232,7 +232,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
  </tbody> 
 </table>
 
-## Informationen nach der Migration (FAQ) {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## Informationen nach der Migration (FAQ)  {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -289,7 +289,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
   </tr> 
   <tr> 
    <td colname="col1"> <p>Single Sign-on </p> </td> 
-   <td colname="col2"> <p> Analytics Single Sign-on-Konfigurationen werden entfernt, wenn Sie die Migration abgeschlossen haben. Sie bleiben während der Migration aktiv. Kunden, die Analytics Single Sign-on verwenden, sollten ein Upgrade auf <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">Adobe Federated ID</a> durchführen. </p> <p>Analytics empfiehlt, dass Sie Ihre Benutzer zunächst als Adobe IDs migrieren, um Experience Cloud-Konten einfach zu erstellen, und diese Konten dann in Federated Single Sign-on-Benutzer konvertieren. </p> </td> 
+   <td colname="col2"> <p> Analytics Single Sign-on-Konfigurationen werden entfernt, wenn Sie die Migration abgeschlossen haben. Sie bleiben während der Migration aktiv. Kunden, die Analytics Single Sign-on verwenden, sollten ein Upgrade auf <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a> durchführen. </p> <p>Analytics empfiehlt, dass Sie Ihre Benutzer zunächst als Adobe IDs migrieren, um Experience Cloud-Konten einfach zu erstellen, und diese Konten dann in Federated Single Sign-on-Benutzer konvertieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Herunterladen von Berechtigungsgruppen </p> </td> 
