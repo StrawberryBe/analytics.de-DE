@@ -18,7 +18,7 @@ Mithilfe von Veröffentlichungslisten können verschiedene Berichte ganz einfach
 
 Beim Planen eines Berichts können mehrere Veröffentlichungslisten angegeben werden.
 
-## Veröffentlichungslisten-Manager – Beschreibungen {#section_099DF8AC5691495F9B22C71266DD6004}
+## Veröffentlichungslisten-Manager – Beschreibungen  {#section_099DF8AC5691495F9B22C71266DD6004}
 
 | Element | Beschreibung |
 |--- |--- |
