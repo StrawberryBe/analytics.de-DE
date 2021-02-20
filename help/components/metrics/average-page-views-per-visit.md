@@ -16,7 +16,7 @@ Die Dimension „Durchschnittliche Seitenansichten pro Besuch“ gibt an, wie vi
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Wenn Sie diese Metrik allein verwenden, erhalten Sie Dimensionselemente mit anomalen Seitenansichten pro Besuch, was normalerweise nicht nützlich ist.
+>Verwenden Sie diese Metrik zusammen mit einer anderen Metrik (z. B. [Besuche](visits.md)), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie Dimensionselemente mit anomalen Seitenansichten pro Besuch, was normalerweise nicht nützlich ist.
 
 ## Berechnung dieser Metrik
 
