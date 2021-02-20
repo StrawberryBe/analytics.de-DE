@@ -4,6 +4,9 @@ title: Adobe Analytics-Inhaltspakete für Power BI
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
