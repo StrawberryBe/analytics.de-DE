@@ -3,9 +3,9 @@ description: Mit internen URL-Filtern werden die Referrer, die Sie als seitenint
 title: Interne URL-Filter
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
