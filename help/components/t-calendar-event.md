@@ -3,9 +3,9 @@ description: Schritte zum Hinzufügen von Kalenderereignissen und zum Verwalten 
 title: Kalenderereignisse
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
